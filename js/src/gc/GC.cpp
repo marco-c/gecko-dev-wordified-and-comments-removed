@@ -848,7 +848,7 @@ PretenureGroupThreshold
 }
 }
 static
-const
+constexpr
 float
 MinAllocationThresholdFactor
 =
@@ -857,7 +857,7 @@ MinAllocationThresholdFactor
 9f
 ;
 static
-const
+constexpr
 float
 HighFrequencyEagerAllocTriggerFactor
 =
@@ -866,7 +866,7 @@ HighFrequencyEagerAllocTriggerFactor
 85f
 ;
 static
-const
+constexpr
 float
 LowFrequencyEagerAllocTriggerFactor
 =
@@ -875,7 +875,7 @@ LowFrequencyEagerAllocTriggerFactor
 9f
 ;
 static
-const
+constexpr
 float
 MinHighFrequencyHeapGrowthFactor
 =
@@ -890,7 +890,7 @@ MinAllocationThresholdFactor
 )
 ;
 static
-const
+constexpr
 float
 MinLowFrequencyHeapGrowthFactor
 =
@@ -905,7 +905,7 @@ MinAllocationThresholdFactor
 )
 ;
 static
-const
+constexpr
 int
 IGC_MARK_SLICE_MULTIPLIER
 =
@@ -1448,7 +1448,7 @@ kinds
 }
 ;
 static
-const
+constexpr
 FinalizePhase
 ForegroundObjectFinalizePhase
 =
@@ -1489,7 +1489,7 @@ OBJECT16
 }
 ;
 static
-const
+constexpr
 FinalizePhase
 ForegroundNonObjectFinalizePhase
 =
@@ -1514,7 +1514,7 @@ JITCODE
 }
 ;
 static
-const
+constexpr
 FinalizePhase
 BackgroundFinalizePhases
 [
@@ -13969,7 +13969,7 @@ isNothing
 }
 }
 static
-const
+constexpr
 AllocKinds
 UpdatePhaseOne
 {
@@ -14004,7 +14004,7 @@ JITCODE
 }
 ;
 static
-const
+constexpr
 AllocKinds
 UpdatePhaseThree
 {

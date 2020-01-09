@@ -198,6 +198,7 @@ aEnum4
 )
 {
 }
+constexpr
 MOZ_IMPLICIT
 EnumSet
 (
@@ -251,6 +252,7 @@ mBitField
 )
 {
 }
+constexpr
 void
 operator
 +
@@ -273,6 +275,7 @@ aEnum
 )
 ;
 }
+constexpr
 EnumSet
 operator
 +
@@ -1148,6 +1151,7 @@ Serialized
 bitNumber
 ;
 }
+constexpr
 void
 incVersion
 (
