@@ -1249,14 +1249,6 @@ false
 ;
 }
 }
-bce_
--
->
-checkTypeSet
-(
-op_
-)
-;
 if
 (
 isEval

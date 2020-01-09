@@ -1908,13 +1908,6 @@ isTopLevel
 )
 ;
 void
-checkTypeSet
-(
-JSOp
-op
-)
-;
-void
 updateDepth
 (
 ptrdiff_t
@@ -1948,6 +1941,8 @@ MOZ_MUST_USE
 bool
 emitCheck
 (
+JSOp
+op
 ptrdiff_t
 delta
 ptrdiff_t
