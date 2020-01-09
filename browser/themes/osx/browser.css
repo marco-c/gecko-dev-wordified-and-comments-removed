@@ -3381,6 +3381,17 @@ shadow
 none
 ;
 }
+:
+root
+:
+not
+(
+[
+lwtheme
+-
+image
+]
+)
 .
 browserContainer
 >
