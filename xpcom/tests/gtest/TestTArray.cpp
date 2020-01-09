@@ -201,6 +201,7 @@ Type
 namespace
 TestTArray
 {
+static
 const
 nsTArray
 <
@@ -259,6 +260,7 @@ sArray
 #
 ifdef
 DEBUG
+static
 const
 nsTArray
 <

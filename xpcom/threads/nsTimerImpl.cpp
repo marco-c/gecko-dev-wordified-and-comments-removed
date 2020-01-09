@@ -878,6 +878,7 @@ TimerFirings
 "
 )
 ;
+static
 mozilla
 :
 :

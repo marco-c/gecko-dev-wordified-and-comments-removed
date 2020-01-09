@@ -697,6 +697,7 @@ atom
 ?
 !
 "
+static
 bool
 isStaticAtom
 (

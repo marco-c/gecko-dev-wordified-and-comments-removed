@@ -3276,6 +3276,7 @@ mViThousandUtf8
 ;
 }
 ;
+static
 void
 test_assign_helper
 (

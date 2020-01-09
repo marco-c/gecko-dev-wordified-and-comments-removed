@@ -77,6 +77,7 @@ using
 namespace
 mozilla
 ;
+static
 uintptr_t
 MyRand
 (
@@ -125,6 +126,7 @@ mRemoveInserts
 ;
 }
 ;
+static
 void
 Bench_Cpp_unordered_set
 (
@@ -449,6 +451,7 @@ mNumInserts
 ;
 }
 }
+static
 void
 Bench_Cpp_PLDHashTable
 (
@@ -798,6 +801,7 @@ mNumInserts
 ;
 }
 }
+static
 void
 Bench_Cpp_MozHashSet
 (

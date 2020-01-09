@@ -442,6 +442,7 @@ NonSeekableStringStream
 nsIInputStream
 nsIAsyncInputStream
 )
+static
 SlicedInputStream
 *
 CreateSeekableStreams
@@ -523,6 +524,7 @@ aLength
 )
 ;
 }
+static
 SlicedInputStream
 *
 CreateNonSeekableStreams

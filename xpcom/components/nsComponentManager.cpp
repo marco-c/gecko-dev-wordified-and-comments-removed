@@ -1811,6 +1811,7 @@ NSModules
 .
 #
 endif
+static
 mozilla
 :
 :
@@ -1833,6 +1834,7 @@ __start_kPStaticModules
 }
 #
 endif
+static
 mozilla
 :
 :

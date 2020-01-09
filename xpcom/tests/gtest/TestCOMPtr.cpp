@@ -315,6 +315,7 @@ return
 status
 ;
 }
+static
 nsresult
 CreateIFoo
 (
@@ -347,6 +348,7 @@ return
 NS_OK
 ;
 }
+static
 void
 set_a_IFoo
 (
@@ -384,6 +386,7 @@ result
 foop
 ;
 }
+static
 nsCOMPtr
 <
 IFoo
@@ -641,6 +644,7 @@ return
 status
 ;
 }
+static
 nsresult
 CreateIBar
 (
@@ -673,6 +677,7 @@ return
 NS_OK
 ;
 }
+static
 void
 AnIFooPtrPtrContext
 (
@@ -682,6 +687,7 @@ IFoo
 )
 {
 }
+static
 void
 AVoidPtrPtrContext
 (
@@ -691,6 +697,7 @@ void
 )
 {
 }
+static
 void
 AnISupportsPtrPtrContext
 (
@@ -1145,9 +1152,10 @@ total_destructions_
 )
 ;
 }
-void
-Comparison
+TEST
 (
+COMPtr
+Comparison
 )
 {
 IFoo
@@ -1311,9 +1319,10 @@ total_destructions_
 )
 ;
 }
-void
-DontAddRef
+TEST
 (
+COMPtr
+DontAddRef
 )
 {
 {

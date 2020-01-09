@@ -269,6 +269,7 @@ aState
 #
 endif
 }
+static
 bool
 PrintCycle
 (

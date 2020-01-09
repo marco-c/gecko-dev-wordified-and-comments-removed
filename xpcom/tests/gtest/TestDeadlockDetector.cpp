@@ -218,6 +218,7 @@ mOldSleepDuration
 ;
 }
 ;
+static
 void
 DisableCrashReporter
 (
@@ -261,6 +262,7 @@ false
 ;
 }
 }
+static
 int
 Sanity_Child
 (
@@ -416,6 +418,7 @@ regex
 )
 ;
 }
+static
 int
 Sanity2_Child
 (
@@ -906,6 +909,7 @@ regex
 }
 #
 endif
+static
 int
 Sanity4_Child
 (
@@ -1103,6 +1107,7 @@ regex
 )
 ;
 }
+static
 int
 Sanity5_Child
 (
@@ -1816,6 +1821,7 @@ starti
 ;
 }
 }
+static
 int
 ContentionNoDeadlock_Child
 (

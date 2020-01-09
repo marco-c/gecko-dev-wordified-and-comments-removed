@@ -38,6 +38,7 @@ h
 namespace
 TestCRT
 {
+static
 int
 sign
 (

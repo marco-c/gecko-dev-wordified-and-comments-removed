@@ -1629,6 +1629,7 @@ pushfront
 "
 ;
 }
+static
 void
 CheckIfQueueEmpty
 (

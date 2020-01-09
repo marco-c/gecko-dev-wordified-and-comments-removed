@@ -105,6 +105,7 @@ detail
 StringDataFlags
 Df
 ;
+static
 void
 SetAsOwned
 (
@@ -183,6 +184,7 @@ aValue
 )
 ;
 }
+static
 void
 ExpectTruncated
 (
@@ -230,6 +232,7 @@ TERMINATED
 )
 ;
 }
+static
 void
 ExpectNew
 (

@@ -158,6 +158,7 @@ NS_IMPL_ISUPPORTS
 LogModulePrefWatcher
 nsIObserver
 )
+static
 void
 ResetExistingPrefs
 (
@@ -613,6 +614,7 @@ logLevel
 )
 ;
 }
+static
 void
 LoadExistingPrefs
 (

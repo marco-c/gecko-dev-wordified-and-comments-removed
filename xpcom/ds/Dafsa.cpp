@@ -34,6 +34,7 @@ kKeyNotFound
 -
 1
 ;
+static
 bool
 GetNextOffset
 (
@@ -232,6 +233,7 @@ return
 true
 ;
 }
+static
 bool
 IsEOL
 (
@@ -266,6 +268,7 @@ offset
 0
 ;
 }
+static
 bool
 IsMatch
 (
@@ -301,6 +304,7 @@ offset
 key
 ;
 }
+static
 bool
 IsEndCharMatch
 (
@@ -340,6 +344,7 @@ key
 )
 ;
 }
+static
 bool
 GetReturnValue
 (
@@ -394,6 +399,7 @@ return
 false
 ;
 }
+static
 int
 LookupString
 (

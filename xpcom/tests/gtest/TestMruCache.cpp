@@ -222,6 +222,7 @@ mItem
 }
 }
 ;
+static
 nsCString
 MakeStringKey
 (

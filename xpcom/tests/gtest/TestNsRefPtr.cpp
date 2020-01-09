@@ -449,6 +449,7 @@ aArgRef
 const
 {
 }
+static
 nsresult
 CreateFoo
 (
@@ -481,6 +482,7 @@ return
 NS_OK
 ;
 }
+static
 void
 set_a_Foo
 (
@@ -516,6 +518,7 @@ result
 foop
 ;
 }
+static
 RefPtr
 <
 Foo
@@ -1756,6 +1759,7 @@ NS_INLINE_DECL_THREADSAFE_MUTABLE_REFCOUNTING
 namespace
 TestNsRefPtr
 {
+static
 void
 AnFooPtrPtrContext
 (
@@ -1765,6 +1769,7 @@ Foo
 )
 {
 }
+static
 void
 AVoidPtrPtrContext
 (

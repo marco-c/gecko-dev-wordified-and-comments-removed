@@ -392,6 +392,7 @@ ClearNurseryPurpleBuffer
 (
 )
 ;
+static
 void
 SuspectUsingNurseryPurpleBuffer
 (

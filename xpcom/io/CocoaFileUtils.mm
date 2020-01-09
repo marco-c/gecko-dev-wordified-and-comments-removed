@@ -1067,6 +1067,7 @@ the
 main
 thread
 .
+static
 CFStringRef
 GetQuarantinePropKey
 (
@@ -1101,6 +1102,7 @@ the
 main
 thread
 .
+static
 CFMutableDictionaryRef
 CreateQuarantineDictionary
 (
