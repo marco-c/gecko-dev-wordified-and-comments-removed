@@ -64,8 +64,8 @@ evaluateSearchResults
 (
 "
 block
-Web
-elements
+online
+trackers
 "
 "
 trackingGroup

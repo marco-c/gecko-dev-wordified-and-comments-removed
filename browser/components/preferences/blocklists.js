@@ -711,7 +711,7 @@ item
 l10nKey
 }
 -
-name
+listName
 }
 {
 id
@@ -724,7 +724,7 @@ item
 l10nKey
 }
 -
-desc
+description
 }
 ]
 )
