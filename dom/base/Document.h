@@ -3857,15 +3857,6 @@ nsAString
 aSrcdocData
 )
 ;
-bool
-DidDocumentOpen
-(
-)
-{
-return
-mDidDocumentOpen
-;
-}
 already_AddRefed
 <
 mozilla
@@ -11860,11 +11851,6 @@ mStyleSheetChangeEventsEnabled
 ;
 bool
 mIsSrcdocDocument
-:
-1
-;
-bool
-mDidDocumentOpen
 :
 1
 ;

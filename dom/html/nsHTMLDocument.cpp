@@ -6001,10 +6001,6 @@ READYSTATE_UNINITIALIZED
 false
 )
 ;
-mDidDocumentOpen
-=
-true
-;
 SetCompatibilityMode
 (
 eCompatibility_FullStandards

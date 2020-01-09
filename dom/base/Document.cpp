@@ -6943,10 +6943,6 @@ mIsSrcdocDocument
 (
 false
 )
-mDidDocumentOpen
-(
-false
-)
 mHasDisplayDocument
 (
 false
