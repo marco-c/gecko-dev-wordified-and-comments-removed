@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-StartupTimeline
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TelemetryEventEnums
 .
 h
