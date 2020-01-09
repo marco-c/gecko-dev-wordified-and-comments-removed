@@ -198,6 +198,16 @@ DMOZ_DEBUG
 =
 1
 endif
+ifdef
+MOZ_LAYOUT_DEBUGGER
+DEFINES
++
+=
+-
+DMOZ_LAYOUT_DEBUGGER
+=
+1
+endif
 ifneq
 (
 (

@@ -3083,7 +3083,7 @@ Debugger
 ]
 #
 ifdef
-MOZ_DEBUG
+MOZ_LAYOUT_DEBUGGER
 RESPATH
 /
 chrome
