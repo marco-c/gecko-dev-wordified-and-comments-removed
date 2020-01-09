@@ -4131,13 +4131,6 @@ default
 disabled
 "
 ]
-object
-:
-[
-"
-typemustmatch
-"
-]
 ol
 :
 [

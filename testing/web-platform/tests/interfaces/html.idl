@@ -1980,13 +1980,6 @@ type
 CEReactions
 ]
 attribute
-boolean
-typeMustMatch
-;
-[
-CEReactions
-]
-attribute
 DOMString
 name
 ;

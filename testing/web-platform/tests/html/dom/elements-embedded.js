@@ -480,11 +480,6 @@ type
 "
 string
 "
-typeMustMatch
-:
-"
-boolean
-"
 name
 :
 "

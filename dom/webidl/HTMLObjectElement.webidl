@@ -248,15 +248,6 @@ Pure
 SetterThrows
 ]
 attribute
-boolean
-typeMustMatch
-;
-[
-CEReactions
-Pure
-SetterThrows
-]
-attribute
 DOMString
 name
 ;
