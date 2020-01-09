@@ -1395,6 +1395,11 @@ requestLEScanWithTrustedClick
 (
 )
 {
+let
+args
+=
+arguments
+;
 return
 callWithTrustedClick
 (
@@ -1413,6 +1418,7 @@ apply
 navigator
 .
 bluetooth
+args
 )
 )
 ;
