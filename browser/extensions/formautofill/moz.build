@@ -337,6 +337,17 @@ browser
 .
 ini
 '
+'
+test
+/
+browser
+/
+creditCard
+/
+browser
+.
+ini
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
