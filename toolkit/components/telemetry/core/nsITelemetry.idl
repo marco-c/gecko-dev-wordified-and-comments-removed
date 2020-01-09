@@ -532,6 +532,11 @@ after
 snapshotting
 .
 *
+Defaults
+to
+false
+.
+*
 param
 aFilterTest
 If
@@ -569,6 +574,9 @@ getSnapshotForHistograms
 in
 ACString
 aStoreName
+[
+optional
+]
 in
 boolean
 aClearStore
@@ -673,6 +681,11 @@ after
 snapshotting
 .
 *
+Defaults
+to
+false
+.
+*
 param
 aFilterTest
 If
@@ -710,6 +723,9 @@ getSnapshotForKeyedHistograms
 in
 ACString
 aStoreName
+[
+optional
+]
 in
 boolean
 aClearStore
@@ -811,6 +827,11 @@ after
 snapshotting
 .
 *
+Defaults
+to
+false
+.
+*
 param
 aFilterTest
 If
@@ -850,6 +871,9 @@ getSnapshotForScalars
 in
 ACString
 aStoreName
+[
+optional
+]
 in
 boolean
 aClearStore
@@ -959,6 +983,11 @@ after
 snapshotting
 .
 *
+Defaults
+to
+false
+.
+*
 param
 aFilterTest
 If
@@ -998,6 +1027,9 @@ getSnapshotForKeyedScalars
 in
 ACString
 aStoreName
+[
+optional
+]
 in
 boolean
 aClearStore
