@@ -1,15 +1,15 @@
 #
 ifndef
-mozilla_dom_ipc_FileCreatorParent_h
+mozilla_dom_FileCreatorParent_h
 #
 define
-mozilla_dom_ipc_FileCreatorParent_h
+mozilla_dom_FileCreatorParent_h
 #
 include
 "
 mozilla
 /
-ipc
+dom
 /
 PFileCreatorParent
 .
@@ -35,7 +35,7 @@ public
 mozilla
 :
 :
-ipc
+dom
 :
 :
 PFileCreatorParent

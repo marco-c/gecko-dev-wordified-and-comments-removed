@@ -111,8 +111,6 @@ EXPORTS
 mozilla
 .
 dom
-.
-ipc
 +
 =
 [
@@ -126,6 +124,17 @@ FileCreatorParent
 .
 h
 '
+]
+EXPORTS
+.
+mozilla
+.
+dom
+.
+ipc
++
+=
+[
 '
 IPCBlobInputStream
 .
