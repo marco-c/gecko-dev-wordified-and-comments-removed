@@ -845,6 +845,9 @@ WidgetNodeType
 aButtonLayout
 int
 aMaxButtonNums
+bool
+*
+aReversedButtonsPlacement
 )
 ;
 bool

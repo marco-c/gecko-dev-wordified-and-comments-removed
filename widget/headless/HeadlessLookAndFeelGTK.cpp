@@ -974,6 +974,15 @@ aResult
 ;
 break
 ;
+case
+eIntID_GTKCSDReversedPlacement
+:
+aResult
+=
+0
+;
+break
+;
 default
 :
 NS_WARNING

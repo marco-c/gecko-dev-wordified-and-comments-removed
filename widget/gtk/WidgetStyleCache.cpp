@@ -2688,6 +2688,7 @@ GetGtkHeaderBarButtonLayout
 (
 buttonLayout
 TOOLBAR_BUTTONS
+nullptr
 )
 ;
 if
