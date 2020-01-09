@@ -3324,7 +3324,12 @@ printDeviceInfo
 (
 printLogcat
 =
-True
+(
+retVal
+!
+=
+0
+)
 )
     
 return
