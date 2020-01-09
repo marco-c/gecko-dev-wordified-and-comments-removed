@@ -21920,7 +21920,7 @@ nullptr
 ShellGlobalKind
 :
 :
-GlobalObject
+WindowProxy
 )
 )
 ;
@@ -34198,7 +34198,7 @@ kind
 ShellGlobalKind
 :
 :
-GlobalObject
+WindowProxy
 ;
 SetStandardRealmOptions
 (
@@ -63109,7 +63109,7 @@ nullptr
 ShellGlobalKind
 :
 :
-GlobalObject
+WindowProxy
 )
 )
 ;
