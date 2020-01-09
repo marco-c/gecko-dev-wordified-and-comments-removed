@@ -938,6 +938,10 @@ Elementary
 '
 elementary
 '
+    
+'
+neon
+'
 )
 ADD_GIT_TOOLS_PATH
 =
