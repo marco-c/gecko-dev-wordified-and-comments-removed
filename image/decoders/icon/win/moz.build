@@ -95,6 +95,15 @@ nsIconChannel
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+image
+'
+]
 FINAL_LIBRARY
 =
 '
