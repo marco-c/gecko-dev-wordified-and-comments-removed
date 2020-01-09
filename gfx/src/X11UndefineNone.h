@@ -35,14 +35,6 @@ Always
 endif
 #
 ifdef
-Complex
-#
-undef
-Complex
-#
-endif
-#
-ifdef
 True
 #
 undef

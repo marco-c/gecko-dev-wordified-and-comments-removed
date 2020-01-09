@@ -6755,7 +6755,7 @@ nsStyleCoord
 (
 eStyleUnit_None
 )
-StyleColor
+StyleComplexColor
 :
 :
 Black

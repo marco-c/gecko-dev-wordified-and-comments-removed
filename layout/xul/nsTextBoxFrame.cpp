@@ -1957,7 +1957,6 @@ mTextDecorationColor
 .
 CalcColor
 (
-*
 context
 )
 ;

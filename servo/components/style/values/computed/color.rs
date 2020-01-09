@@ -159,7 +159,7 @@ color
 GenericColor
 :
 :
-CurrentColor
+Foreground
 =
 >
 return
@@ -168,10 +168,10 @@ GenericColor
 :
 :
 Complex
-{
+(
 color
 ratios
-}
+)
 =
 >
 (
@@ -443,7 +443,7 @@ dest
 GenericColor
 :
 :
-CurrentColor
+Foreground
 =
 >
 CSSParserColor

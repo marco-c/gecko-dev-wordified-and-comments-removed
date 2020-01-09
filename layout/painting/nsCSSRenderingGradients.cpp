@@ -3491,7 +3491,6 @@ mColor
 .
 CalcColor
 (
-*
 aComputedStyle
 )
 ;
@@ -3571,7 +3570,6 @@ mColor
 .
 CalcColor
 (
-*
 aComputedStyle
 )
 ;
