@@ -1268,9 +1268,8 @@ aStartTime
 )
 {
 mTime
-=
-mTime
 -
+=
 media
 :
 :
@@ -1283,10 +1282,9 @@ aStartTime
 )
 ;
 return
-!
 mTime
 .
-IsNegative
+IsValid
 (
 )
 ;
