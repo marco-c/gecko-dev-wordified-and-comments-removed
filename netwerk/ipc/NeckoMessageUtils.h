@@ -75,13 +75,6 @@ TimingStruct
 .
 h
 "
-#
-include
-"
-nsILoadInfo
-.
-h
-"
 namespace
 IPC
 {
