@@ -976,6 +976,11 @@ RealmOptions
 options
 )
 ;
+bool
+shouldSplicePrototype
+(
+)
+;
 static
 JSFunction
 *
