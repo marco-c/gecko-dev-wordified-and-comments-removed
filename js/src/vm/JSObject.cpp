@@ -2569,8 +2569,7 @@ HandleObject
 props
 bool
 checkAccessors
-AutoIdVector
-*
+MutableHandleIdVector
 ids
 MutableHandle
 <
@@ -2612,8 +2611,7 @@ i
 len
 =
 ids
--
->
+.
 length
 (
 )
@@ -2629,10 +2627,7 @@ i
 {
 id
 =
-(
-*
 ids
-)
 [
 i
 ]
@@ -3180,7 +3175,7 @@ cx
 }
 else
 {
-AutoIdVector
+RootedIdVector
 keys
 (
 cx
@@ -3485,7 +3480,7 @@ getResolve
 )
 )
 {
-AutoIdVector
+RootedIdVector
 properties
 (
 cx
@@ -3503,6 +3498,7 @@ getNewEnumerate
 (
 cx
 obj
+&
 properties
 false
 )
@@ -3900,7 +3896,7 @@ true
 }
 else
 {
-AutoIdVector
+RootedIdVector
 props
 (
 cx
@@ -7019,7 +7015,7 @@ cx
 obj
 )
 ;
-AutoIdVector
+RootedIdVector
 props
 (
 cx

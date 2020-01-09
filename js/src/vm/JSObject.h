@@ -3742,8 +3742,7 @@ HandleObject
 props
 bool
 checkAccessors
-AutoIdVector
-*
+MutableHandleIdVector
 ids
 MutableHandle
 <

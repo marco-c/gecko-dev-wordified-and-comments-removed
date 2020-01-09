@@ -2313,7 +2313,7 @@ size_t
 >
 counts
 ;
-AutoIdVector
+RootedIdVector
 objectEntries
 ;
 RootedValueVector
@@ -6421,8 +6421,7 @@ JSContext
 cx
 HandleObject
 obj
-AutoIdVector
-&
+MutableHandleIdVector
 entries
 size_t
 *
@@ -6734,6 +6733,7 @@ context
 (
 )
 obj
+&
 objectEntries
 &
 count
@@ -6752,7 +6752,7 @@ if
 optimized
 )
 {
-AutoIdVector
+RootedIdVector
 properties
 (
 context

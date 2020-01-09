@@ -12772,8 +12772,10 @@ aCx
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 aNames
 bool
 aEnumerableOnly

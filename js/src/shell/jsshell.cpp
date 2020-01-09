@@ -63,7 +63,7 @@ char
 name
 )
 {
-AutoIdVector
+RootedIdVector
 idv
 (
 cx

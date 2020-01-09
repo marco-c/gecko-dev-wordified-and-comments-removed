@@ -706,8 +706,10 @@ aNameType
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 aNames
 )
 {
@@ -1026,8 +1028,10 @@ aObj
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 aProperties
 bool
 aEnumerableOnly

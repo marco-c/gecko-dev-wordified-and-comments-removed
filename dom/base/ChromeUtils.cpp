@@ -1469,7 +1469,10 @@ cx
 JS
 :
 :
-AutoIdVector
+RootedVector
+<
+jsid
+>
 valuesIds
 (
 cx

@@ -15398,8 +15398,10 @@ aCx
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 bool
 ErrorResult
 &

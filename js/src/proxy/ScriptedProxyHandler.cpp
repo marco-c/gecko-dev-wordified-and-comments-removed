@@ -3232,8 +3232,7 @@ JSContext
 cx
 HandleValue
 v
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -3411,8 +3410,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -3521,7 +3519,6 @@ JSITER_OWNONLY
 JSITER_HIDDEN
 |
 JSITER_SYMBOLS
-&
 props
 )
 ;
@@ -3561,7 +3558,7 @@ return
 false
 ;
 }
-AutoIdVector
+RootedIdVector
 trapResult
 (
 cx
@@ -3574,6 +3571,7 @@ CreateFilteredListFromArrayLike
 (
 cx
 trapResultArray
+&
 trapResult
 )
 )
@@ -3713,7 +3711,7 @@ return
 false
 ;
 }
-AutoIdVector
+RootedIdVector
 targetKeys
 (
 cx
@@ -3740,13 +3738,13 @@ return
 false
 ;
 }
-AutoIdVector
+RootedIdVector
 targetConfigurableKeys
 (
 cx
 )
 ;
-AutoIdVector
+RootedIdVector
 targetNonconfigurableKeys
 (
 cx

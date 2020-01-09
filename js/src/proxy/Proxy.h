@@ -85,8 +85,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 ;
@@ -115,8 +114,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 ;
@@ -352,8 +350,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 ;

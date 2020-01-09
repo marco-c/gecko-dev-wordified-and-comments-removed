@@ -186,8 +186,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -220,8 +219,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -446,8 +444,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -936,8 +933,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -970,8 +966,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1196,8 +1191,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1397,8 +1391,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1431,8 +1424,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -1657,8 +1649,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const

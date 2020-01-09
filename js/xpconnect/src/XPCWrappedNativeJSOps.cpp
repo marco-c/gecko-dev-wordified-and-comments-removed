@@ -3971,8 +3971,7 @@ JSContext
 cx
 HandleObject
 obj
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly

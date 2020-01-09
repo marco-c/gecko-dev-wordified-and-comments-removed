@@ -3177,8 +3177,7 @@ JSContext
 cx
 HandleObject
 obj
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly
@@ -11999,8 +11998,7 @@ JSContext
 cx
 HandleObject
 proxy
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -12157,7 +12155,6 @@ GetPropertyKeys
 cx
 target
 JSITER_OWNONLY
-&
 props
 )
 )

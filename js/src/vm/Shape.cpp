@@ -4844,7 +4844,7 @@ getObjectClass
 js
 :
 :
-AutoIdVector
+RootedIdVector
 ids
 (
 cx

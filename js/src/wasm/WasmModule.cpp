@@ -6046,8 +6046,7 @@ char
 format
 uint32_t
 fieldNo
-AutoIdVector
-*
+MutableHandleIdVector
 ids
 MutableHandleValueVector
 fieldTypeObjs
@@ -6332,8 +6331,7 @@ if
 (
 !
 ids
--
->
+.
 append
 (
 id
@@ -6529,7 +6527,7 @@ structTypes
 )
 )
 {
-AutoIdVector
+RootedIdVector
 ids
 (
 cx

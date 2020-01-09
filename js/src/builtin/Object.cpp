@@ -1274,7 +1274,7 @@ return
 nullptr
 ;
 }
-AutoIdVector
+RootedIdVector
 idv
 (
 cx
@@ -4431,7 +4431,7 @@ HandleObject
 from
 )
 {
-AutoIdVector
+RootedIdVector
 keys
 (
 cx
@@ -5101,7 +5101,7 @@ return
 false
 ;
 }
-AutoIdVector
+RootedIdVector
 keys
 (
 cx
@@ -5162,7 +5162,7 @@ cx
 )
 )
 ;
-AutoIdVector
+RootedIdVector
 descriptorKeys
 (
 cx
@@ -7828,7 +7828,7 @@ TypedArrayObject
 )
 )
 ;
-AutoIdVector
+RootedIdVector
 ids
 (
 cx
@@ -8645,7 +8645,7 @@ MutableHandleValue
 rval
 )
 {
-AutoIdVector
+RootedIdVector
 keys
 (
 cx

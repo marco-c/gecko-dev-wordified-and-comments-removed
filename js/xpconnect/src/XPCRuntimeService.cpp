@@ -263,8 +263,7 @@ objArg
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly

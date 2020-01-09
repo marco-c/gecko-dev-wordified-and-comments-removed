@@ -169,8 +169,7 @@ wrapper
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -195,8 +194,7 @@ wrapper
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -221,8 +219,7 @@ wrapper
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const

@@ -3619,7 +3619,7 @@ HandleObject
 fields
 )
 {
-AutoIdVector
+RootedIdVector
 ids
 (
 cx
@@ -3922,8 +3922,7 @@ bool
 opaque
 bool
 allowConstruct
-AutoIdVector
-&
+HandleIdVector
 ids
 JS
 :
@@ -10319,8 +10318,7 @@ JSContext
 cx
 HandleObject
 obj
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly

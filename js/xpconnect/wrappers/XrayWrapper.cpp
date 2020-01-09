@@ -4155,8 +4155,7 @@ jsid
 id
 unsigned
 flags
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -4216,8 +4215,7 @@ JSPropertySpec
 ps
 unsigned
 flags
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -4346,8 +4344,7 @@ HandleObject
 wrapper
 unsigned
 flags
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -4455,7 +4452,7 @@ cx
 target
 )
 ;
-AutoIdVector
+RootedIdVector
 targetProps
 (
 cx
@@ -8445,8 +8442,7 @@ HandleObject
 wrapper
 unsigned
 flags
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 {
@@ -10145,8 +10141,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -10675,8 +10670,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -10721,8 +10715,7 @@ wrapper
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -11535,8 +11528,7 @@ HandleObject
 wrapper
 unsigned
 flags
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const
@@ -11616,7 +11608,6 @@ GetPropertyKeys
 cx
 expando
 flags
-&
 props
 )
 )

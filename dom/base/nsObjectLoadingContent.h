@@ -448,8 +448,10 @@ aCx
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleVector
+<
+jsid
+>
 bool
 mozilla
 :

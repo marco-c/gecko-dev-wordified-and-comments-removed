@@ -115,8 +115,7 @@ JSContext
 cx
 HandleObject
 wrapper
-AutoIdVector
-&
+MutableHandleIdVector
 props
 )
 const

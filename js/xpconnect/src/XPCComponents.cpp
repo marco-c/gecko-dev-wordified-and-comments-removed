@@ -854,8 +854,7 @@ obj
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly
@@ -1447,8 +1446,7 @@ obj
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly
@@ -2045,8 +2043,7 @@ obj
 JS
 :
 :
-AutoIdVector
-&
+MutableHandleIdVector
 properties
 bool
 enumerableOnly
