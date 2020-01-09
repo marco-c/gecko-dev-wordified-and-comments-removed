@@ -5821,7 +5821,7 @@ const
 size_t
 kOOMIterations
 =
-7
+6
 ;
 #
 else
