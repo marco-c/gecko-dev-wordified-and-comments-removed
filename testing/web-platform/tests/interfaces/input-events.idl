@@ -74,11 +74,6 @@ InputEvent
 {
 readonly
 attribute
-DOMString
-inputType
-;
-readonly
-attribute
 DataTransfer
 ?
 dataTransfer
@@ -97,12 +92,6 @@ partial
 dictionary
 InputEventInit
 {
-DOMString
-inputType
-=
-"
-"
-;
 DataTransfer
 ?
 dataTransfer
