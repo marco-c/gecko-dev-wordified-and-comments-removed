@@ -2883,9 +2883,13 @@ isBrowserConsole
 {
 packet
 .
-_type
+type
 =
-true
+"
+will
+-
+navigate
+"
 ;
 this
 .
