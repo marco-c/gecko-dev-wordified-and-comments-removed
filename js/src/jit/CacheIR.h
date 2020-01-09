@@ -13337,7 +13337,7 @@ HandleObject
 templateObj
 )
 ;
-bool
+AttachDecision
 tryAttachStub
 (
 )

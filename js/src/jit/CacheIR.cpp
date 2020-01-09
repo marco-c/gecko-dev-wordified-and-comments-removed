@@ -32593,7 +32593,7 @@ op_
 #
 endif
 }
-bool
+AttachDecision
 NewObjectIRGenerator
 :
 :
@@ -32633,7 +32633,10 @@ NotAttached
 )
 ;
 return
-false
+AttachDecision
+:
+:
+NoAction
 ;
 }
 AutoSweepObjectGroup
@@ -32672,7 +32675,10 @@ NotAttached
 )
 ;
 return
-false
+AttachDecision
+:
+:
+NoAction
 ;
 }
 if
@@ -32699,7 +32705,10 @@ NotAttached
 )
 ;
 return
-false
+AttachDecision
+:
+:
+NoAction
 ;
 }
 writer
@@ -32741,7 +32750,10 @@ NewObjectWithTemplate
 )
 ;
 return
-true
+AttachDecision
+:
+:
+Attach
 ;
 }
 #
