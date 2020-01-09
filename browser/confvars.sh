@@ -220,7 +220,7 @@ if
 [
 "
 {
-MOZ_BROWSER_XHTML
+MOZ_BROWSER_XUL
 }
 "
 =
@@ -242,7 +242,7 @@ content
 /
 browser
 .
-xhtml
+xul
 else
 BROWSER_CHROME_URL
 =
@@ -256,7 +256,7 @@ content
 /
 browser
 .
-xul
+xhtml
 fi
 #
 MOZ_APP_DISPLAYNAME
