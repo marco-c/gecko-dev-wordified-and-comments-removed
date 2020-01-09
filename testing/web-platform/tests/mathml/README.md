@@ -1,6 +1,4 @@
 #
-MathML
-:
 Tests
 for
 the
