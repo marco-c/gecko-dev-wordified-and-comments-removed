@@ -6565,15 +6565,6 @@ https
 :
 /
 /
-input
-.
-mozilla
-.
-org
-https
-:
-/
-/
 support
 .
 mozilla
