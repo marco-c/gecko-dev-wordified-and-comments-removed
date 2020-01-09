@@ -613,7 +613,7 @@ bool
 IsForbiddenRequestHeader
 (
 const
-nsACString
+nsCString
 &
 aName
 )
@@ -623,7 +623,7 @@ bool
 IsForbiddenRequestNoCorsHeader
 (
 const
-nsACString
+nsCString
 &
 aName
 )
@@ -633,7 +633,7 @@ bool
 IsForbiddenRequestNoCorsHeader
 (
 const
-nsACString
+nsCString
 &
 aName
 const
@@ -647,7 +647,7 @@ bool
 IsForbiddenResponseHeader
 (
 const
-nsACString
+nsCString
 &
 aName
 )
@@ -657,7 +657,7 @@ bool
 IsInvalidMutableHeader
 (
 const
-nsACString
+nsCString
 &
 aName
 ErrorResult
@@ -681,7 +681,7 @@ bool
 IsInvalidMutableHeader
 (
 const
-nsACString
+nsCString
 &
 aName
 const
@@ -734,12 +734,21 @@ aName
 )
 ;
 }
+void
+ReuseExistingNameIfExists
+(
+nsCString
+&
+aName
+)
+const
+;
 static
 bool
 IsSimpleHeader
 (
 const
-nsACString
+nsCString
 &
 aName
 const
@@ -753,7 +762,7 @@ bool
 IsRevalidationHeader
 (
 const
-nsACString
+nsCString
 &
 aName
 )
