@@ -118,6 +118,8 @@ mozapps
 update
 /
 tests
+/
+chrome
 ifeq
 (
 (
@@ -452,8 +454,6 @@ app
 MOCHITESTCHROMEDIR
 )
 /
-data
-/
 ifdef
 MOCHITESTBROWSERDIR
 rsync
@@ -511,8 +511,6 @@ BIN_SUFFIX
 (
 MOCHITESTCHROMEDIR
 )
-/
-data
 /
 updater
 (

@@ -392,7 +392,7 @@ update
 /
 tests
 /
-data
+chrome
 /
 "
 ;
