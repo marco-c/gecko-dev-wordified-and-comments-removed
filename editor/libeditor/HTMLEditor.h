@@ -418,6 +418,7 @@ InsertLineBreak
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 HandleKeyPressEvent
@@ -990,6 +991,7 @@ mDefaultParagraphSeparator
 aSep
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoInlineTableEditingAction
 (
@@ -1248,6 +1250,7 @@ aRv
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteTableCellContentsWithTransaction
 (
@@ -2310,6 +2313,7 @@ SelectAllInternal
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SelectContentInternal
 (
@@ -3751,6 +3755,7 @@ Element
 aElement
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 TabInTable
 (
@@ -3769,6 +3774,7 @@ eBeforeSelectedCell
 eAfterSelectedCell
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertTableCellsWithTransaction
 (
@@ -3778,6 +3784,7 @@ InsertPosition
 aInsertPosition
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertTableColumnsWithTransaction
 (
@@ -3787,6 +3794,7 @@ InsertPosition
 aInsertPosition
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertTableRowsWithTransaction
 (
@@ -3816,6 +3824,7 @@ Element
 aNewCell
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteSelectedTableColumnsWithTransaction
 (
@@ -3823,6 +3832,7 @@ int32_t
 aNumberOfColumnsToDelete
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteTableColumnWithTransaction
 (
@@ -3833,6 +3843,7 @@ int32_t
 aColumnIndex
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteSelectedTableRowsWithTransaction
 (
@@ -3840,6 +3851,7 @@ int32_t
 aNumberOfRowsToDelete
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteTableRowWithTransaction
 (
@@ -3850,6 +3862,7 @@ int32_t
 aRowIndex
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteTableCellWithTransaction
 (
@@ -4691,6 +4704,7 @@ int32_t
 aY
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetSelectionAfterTableEdit
 (

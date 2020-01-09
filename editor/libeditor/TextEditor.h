@@ -315,6 +315,7 @@ rv
 isEmpty
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 HandleKeyPressEvent
