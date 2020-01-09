@@ -144,7 +144,7 @@ null
 ;
 this
 .
-_initalized
+_initialized
 =
 false
 ;
@@ -271,7 +271,7 @@ ftl
 ;
 this
 .
-_initalized
+_initialized
 =
 true
 ;
@@ -288,7 +288,7 @@ null
 ;
 this
 .
-_initalized
+_initialized
 =
 false
 ;
@@ -324,6 +324,18 @@ target
 win
 )
 {
+if
+(
+!
+this
+.
+_initialized
+)
+{
+return
+false
+;
+}
 if
 (
 this

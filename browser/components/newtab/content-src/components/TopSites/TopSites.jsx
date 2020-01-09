@@ -984,6 +984,11 @@ this
 .
 onEditFormClose
 }
+role
+=
+"
+presentation
+"
 /
 >
 <
@@ -1084,6 +1089,11 @@ this
 .
 onSearchShortcutsFormClose
 }
+role
+=
+"
+presentation
+"
 /
 >
 <
