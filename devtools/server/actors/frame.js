@@ -532,3 +532,9 @@ FrameActor
 =
 FrameActor
 ;
+exports
+.
+formatDisplayName
+=
+formatDisplayName
+;
