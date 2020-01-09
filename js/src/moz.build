@@ -1277,6 +1277,16 @@ h
 /
 public
 /
+RegExpFlags
+.
+h
+'
+'
+.
+.
+/
+public
+/
 RequiredDefines
 .
 h
