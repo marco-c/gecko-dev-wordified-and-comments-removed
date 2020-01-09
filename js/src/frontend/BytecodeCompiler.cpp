@@ -4853,17 +4853,6 @@ return
 false
 ;
 }
-bce
-.
-fieldInitializers_
-=
-lazy
--
->
-getFieldInitializers
-(
-)
-;
 if
 (
 !
