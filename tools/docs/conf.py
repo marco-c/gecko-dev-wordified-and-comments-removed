@@ -248,6 +248,14 @@ parent
 '
 toolkit
 /
+components
+/
+featuregates
+'
+    
+'
+toolkit
+/
 mozapps
 /
 extensions
