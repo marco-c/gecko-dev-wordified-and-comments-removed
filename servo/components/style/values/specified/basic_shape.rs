@@ -150,10 +150,7 @@ values
 specified
 :
 :
-{
-LengthOrPercentage
-NonNegativeLengthOrPercentage
-}
+SVGPathData
 ;
 use
 crate
@@ -165,7 +162,10 @@ values
 specified
 :
 :
-SVGPathData
+{
+LengthOrPercentage
+NonNegativeLengthOrPercentage
+}
 ;
 use
 cssparser

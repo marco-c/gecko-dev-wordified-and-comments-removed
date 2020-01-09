@@ -376,9 +376,7 @@ gecko_bindings
 structs
 :
 :
-Document_DocumentTheme
-as
-DocumentTheme
+nsRestyleHint
 ;
 use
 crate
@@ -390,7 +388,9 @@ gecko_bindings
 structs
 :
 :
-nsRestyleHint
+Document_DocumentTheme
+as
+DocumentTheme
 ;
 use
 crate

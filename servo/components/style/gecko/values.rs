@@ -2320,7 +2320,6 @@ None
 _
 =
 >
-{
 GeckoStyleCoordConvertible
 :
 :
@@ -2336,7 +2335,6 @@ ShapeRadius
 :
 Length
 )
-}
 }
 }
 }
