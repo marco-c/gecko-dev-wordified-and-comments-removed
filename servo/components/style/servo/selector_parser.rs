@@ -1597,15 +1597,6 @@ NonTSPseudoClass
 :
 *
 ;
-use
-crate
-:
-:
-element_state
-:
-:
-ElementState
-;
 match
 *
 self

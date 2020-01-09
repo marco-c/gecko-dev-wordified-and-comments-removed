@@ -188,7 +188,6 @@ len
 1
 ;
 let
-mut
 match_body
 =
 s

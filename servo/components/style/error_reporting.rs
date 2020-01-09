@@ -1811,9 +1811,6 @@ error
 ContextualParseError
 )
 {
-use
-log
-;
 if
 log_enabled
 !
