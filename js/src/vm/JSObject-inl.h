@@ -762,7 +762,7 @@ isSingleton
 ;
 MOZ_ASSERT
 (
-compartment
+maybeCCWRealm
 (
 )
 =
@@ -770,7 +770,7 @@ compartment
 group
 -
 >
-compartment
+realm
 (
 )
 )

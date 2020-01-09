@@ -12404,6 +12404,13 @@ maybeInterpretedFunction
 }
 else
 {
+AutoRealm
+ar
+(
+cx
+oldGroup
+)
+;
 newGroup
 =
 ObjectGroup
