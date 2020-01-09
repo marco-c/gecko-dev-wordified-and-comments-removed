@@ -61,9 +61,9 @@ None
 PACKAGE_VERSION
 =
 '
-1
+2
 .
-16
+0
 .
 0
 '
