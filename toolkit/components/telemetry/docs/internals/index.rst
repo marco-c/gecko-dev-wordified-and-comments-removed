@@ -29,6 +29,7 @@ maxdepth
 :
 titlesonly
 :
-geckoview
-preferences
-pingsender
+:
+glob
+:
+*
