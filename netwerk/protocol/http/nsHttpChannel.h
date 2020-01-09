@@ -2370,6 +2370,11 @@ RedirectToInterceptedChannel
 (
 )
 ;
+void
+SetCachedContentType
+(
+)
+;
 private
 :
 nsCOMPtr

@@ -512,6 +512,13 @@ aOnStopTime
 )
 ;
 nsresult
+SetContentType
+(
+uint8_t
+aContentType
+)
+;
+nsresult
 GetOnStartTime
 (
 uint64_t
