@@ -57,6 +57,7 @@ true
 )
 ;
 }
+async
 function
 stageUpdateFinished
 (
@@ -87,17 +88,11 @@ true
 true
 )
 ;
+await
 checkPostUpdateAppLog
 (
 )
 ;
-}
-async
-function
-checkPostUpdateAppLogFinished
-(
-)
-{
 standardInit
 (
 )

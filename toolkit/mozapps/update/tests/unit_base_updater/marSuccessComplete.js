@@ -33,6 +33,7 @@ true
 )
 ;
 }
+async
 function
 setupUpdaterTestFinished
 (
@@ -46,17 +47,11 @@ false
 true
 )
 ;
+await
 checkPostUpdateAppLog
 (
 )
 ;
-}
-async
-function
-checkPostUpdateAppLogFinished
-(
-)
-{
 checkAppBundleModTime
 (
 )
