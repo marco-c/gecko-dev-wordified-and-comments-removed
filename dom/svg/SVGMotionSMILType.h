@@ -27,6 +27,8 @@ h
 #
 include
 "
+mozilla
+/
 SMILType
 .
 h
