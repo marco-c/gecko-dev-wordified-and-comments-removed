@@ -1241,20 +1241,6 @@ NEED_XVFB
 true
 '
     
-else
-:
-        
-env
-[
-'
-NEED_XVFB
-'
-]
-=
-'
-false
-'
-    
 if
 run
 [

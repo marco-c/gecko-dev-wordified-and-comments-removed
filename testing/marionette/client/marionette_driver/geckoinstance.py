@@ -2294,9 +2294,6 @@ False
 package_name
 =
 None
-env
-=
-None
 *
 args
 *
@@ -2389,12 +2386,6 @@ self
 avd
 =
 avd
-        
-self
-.
-env
-=
-env
         
 self
 .
@@ -2703,14 +2694,6 @@ binary
 self
 .
 emulator_binary
-            
-"
-env
-"
-:
-self
-.
-env
             
 "
 profile
