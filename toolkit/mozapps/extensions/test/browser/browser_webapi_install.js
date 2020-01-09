@@ -160,6 +160,14 @@ requireBuiltInCerts
 "
 false
 ]
+[
+"
+extensions
+.
+allowPrivateBrowsingByDefault
+"
+false
+]
 ]
 }
 )
@@ -990,6 +998,9 @@ acceptAppMenuNotificationWhenShown
 addon
 -
 installed
+"
+"
+extension
 "
 )
 ;

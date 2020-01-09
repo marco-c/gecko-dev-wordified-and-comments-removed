@@ -2750,6 +2750,17 @@ checkbox
 hidden
 =
 allowPrivateBrowsingByDefault
+|
+|
+addon
+.
+type
+!
+=
+=
+"
+extension
+"
 ;
 async
 function
