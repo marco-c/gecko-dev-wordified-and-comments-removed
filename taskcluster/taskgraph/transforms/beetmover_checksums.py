@@ -559,19 +559,12 @@ product
 firefox
 '
         
-dependent_kind
-=
-str
-(
-dep_job
-.
-kind
-)
-        
 dependencies
 =
 {
-dependent_kind
+dep_job
+.
+kind
 :
 dep_job
 .
