@@ -962,6 +962,11 @@ attribute
 any
 primaryKey
 ;
+readonly
+attribute
+IDBRequest
+request
+;
 void
 advance
 (
