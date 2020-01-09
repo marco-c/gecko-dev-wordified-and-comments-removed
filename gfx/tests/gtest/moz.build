@@ -193,6 +193,14 @@ on
 windows10
 -
 aarch64
+due
+to
+perma
+-
+crash
+-
+bug
+1544961
 if
 not
 (

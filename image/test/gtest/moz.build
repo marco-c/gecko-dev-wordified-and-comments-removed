@@ -183,6 +183,10 @@ windows10
 aarch64
 and
 Android
+aarch64
+due
+to
+1544961
 if
 not
 (
