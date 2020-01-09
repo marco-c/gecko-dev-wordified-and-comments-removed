@@ -377,7 +377,7 @@ ScriptSource
 ss
 ;
 RootedScriptSourceObject
-sourceObject
+sourceObject_
 ;
 AutoKeepAtoms
 keepAtoms
