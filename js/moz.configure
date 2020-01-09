@@ -3419,13 +3419,6 @@ BUILD_CTYPES
 '
 build_ctypes
 )
-add_old_configure_assignment
-(
-'
-BUILD_CTYPES
-'
-build_ctypes
-)
 depends
 (
 build_ctypes
@@ -3453,13 +3446,6 @@ JS_HAS_CTYPES
 js_has_ctypes
 )
 set_define
-(
-'
-JS_HAS_CTYPES
-'
-js_has_ctypes
-)
-add_old_configure_assignment
 (
 '
 JS_HAS_CTYPES

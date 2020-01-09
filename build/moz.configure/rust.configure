@@ -2067,13 +2067,6 @@ RUSTC
 '
 rustc
 )
-add_old_configure_assignment
-(
-'
-RUST_TARGET
-'
-rust_target_triple
-)
 #
 Rustdoc
 is

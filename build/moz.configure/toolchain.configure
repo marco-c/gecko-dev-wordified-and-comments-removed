@@ -2665,13 +2665,6 @@ tuple
 (
 wrapper
 )
-add_old_configure_assignment
-(
-'
-COMPILER_WRAPPER
-'
-compiler_wrapper
-)
 depends_if
 (
 compiler_wrapper
@@ -11400,13 +11393,6 @@ profdata
 allow_missing
 =
 True
-)
-add_old_configure_assignment
-(
-'
-LLVM_PROFDATA
-'
-llvm_profdata
 )
 js_option
 (

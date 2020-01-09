@@ -424,13 +424,6 @@ MOZ_REPLACE_MALLOC
 '
 replace_malloc
 )
-add_old_configure_assignment
-(
-'
-MOZ_REPLACE_MALLOC
-'
-replace_malloc
-)
 depends
 (
 replace_malloc
