@@ -85,9 +85,6 @@ class
 nsIFrame
 ;
 class
-nsIPresShell
-;
-class
 nsPresContext
 ;
 namespace
@@ -594,15 +591,6 @@ aLeftOfParent
 ;
 bool
 IsRegularMenuItem
-(
-nsIFrame
-*
-aFrame
-)
-;
-nsIPresShell
-*
-GetPresShell
 (
 nsIFrame
 *

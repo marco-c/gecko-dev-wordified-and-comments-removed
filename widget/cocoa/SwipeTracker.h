@@ -58,9 +58,6 @@ class
 nsChildView
 ;
 class
-nsIPresShell
-;
-class
 nsIWidget
 ;
 namespace

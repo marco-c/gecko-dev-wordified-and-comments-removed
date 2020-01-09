@@ -2192,7 +2192,7 @@ NS_OK
 ;
 }
 static
-nsIPresShell
+PresShell
 *
 GetPresShellForContent
 (
@@ -2344,7 +2344,7 @@ get
 :
 aDOMNode
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -2361,6 +2361,7 @@ presShell
 &
 mImage
 )
+{
 presShell
 =
 GetPresShellForContent
@@ -2368,14 +2369,17 @@ GetPresShellForContent
 aDOMNode
 )
 ;
+}
 if
 (
 !
 presShell
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 *
 aPresContext
 =
