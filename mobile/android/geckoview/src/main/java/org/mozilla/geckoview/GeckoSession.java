@@ -14354,17 +14354,11 @@ interface
 Permission
 {
 }
-public
-static
-final
 int
 PERMISSION_GEOLOCATION
 =
 0
 ;
-public
-static
-final
 int
 PERMISSION_DESKTOP_NOTIFICATION
 =
