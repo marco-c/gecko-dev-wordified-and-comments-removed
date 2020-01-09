@@ -760,15 +760,6 @@ string
 ]
 &
 &
-(
-key
--
->
-state
-&
-GDK_CONTROL_MASK
-|
-|
 g_unichar_isgraph
 (
 g_utf8_get_char
@@ -777,7 +768,6 @@ key
 -
 >
 string
-)
 )
 )
 )
