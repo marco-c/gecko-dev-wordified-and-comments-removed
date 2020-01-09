@@ -269,6 +269,11 @@ textbox
 >
 <
 content
+role
+=
+"
+combobox
+"
 >
 <
 children
@@ -372,11 +377,6 @@ input
 textbox
 -
 input
-"
-role
-=
-"
-combobox
 "
 aria
 -
