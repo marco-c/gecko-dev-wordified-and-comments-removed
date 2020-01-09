@@ -565,6 +565,15 @@ progress
 -
 notification
 "
+is
+=
+"
+addon
+-
+progress
+-
+notification
+"
 hidden
 =
 "

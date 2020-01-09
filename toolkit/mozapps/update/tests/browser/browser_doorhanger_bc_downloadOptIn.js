@@ -89,7 +89,7 @@ restart
 button
 :
 "
-secondarybutton
+secondaryButton
 "
 cleanup
 (
