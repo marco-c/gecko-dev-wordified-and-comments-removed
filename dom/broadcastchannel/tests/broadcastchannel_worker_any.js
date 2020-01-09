@@ -2,9 +2,9 @@
 new
 BroadcastChannel
 (
-'
+"
 foobar
-'
+"
 )
 )
 .
@@ -27,6 +27,7 @@ data
 )
 ;
 }
+;
 postMessage
 (
 "

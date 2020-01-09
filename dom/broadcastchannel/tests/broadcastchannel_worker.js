@@ -45,6 +45,7 @@ data
 )
 ;
 }
+;
 worker
 .
 postMessage
@@ -65,18 +66,18 @@ bc
 new
 BroadcastChannel
 (
-'
+"
 foobar
-'
+"
 )
 ;
 bc
 .
 addEventListener
 (
-'
+"
 message
-'
+"
 function
 (
 event
@@ -129,3 +130,4 @@ READY
 )
 ;
 }
+;

@@ -45,6 +45,7 @@ const
 MESSAGES_IN_INTERVAL
 =
 1500
+;
 const
 STORAGE_MAX_EVENTS
 =
@@ -65,7 +66,7 @@ Components
 .
 ID
 (
-'
+"
 {
 96cf7855
 -
@@ -77,7 +78,7 @@ dfa9
 -
 f9705b4890f2
 }
-'
+"
 )
 ;
 function

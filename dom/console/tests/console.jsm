@@ -12,8 +12,6 @@ ConsoleTest
 =
 {
 go
-:
-function
 (
 dumpFunction
 )
