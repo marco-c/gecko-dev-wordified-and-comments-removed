@@ -136,6 +136,12 @@ nightly
 /
 opt
 -
+linux64
+-
+shippable
+/
+opt
+-
 macosx64
 -
 nightly
