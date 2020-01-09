@@ -20305,6 +20305,7 @@ ifdef
 DEBUG
 class
 CompartmentCheckTracer
+final
 :
 public
 JS

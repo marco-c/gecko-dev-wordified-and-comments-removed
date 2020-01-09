@@ -359,6 +359,7 @@ true
 }
 class
 CCWTestTracer
+final
 :
 public
 JS
