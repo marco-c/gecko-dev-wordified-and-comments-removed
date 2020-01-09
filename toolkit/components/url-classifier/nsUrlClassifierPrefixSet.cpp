@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsToolkitCompsCID
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
