@@ -13,6 +13,13 @@ TypedEnumBits
 .
 h
 "
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
 namespace
 mozilla
 {
