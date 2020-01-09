@@ -5827,6 +5827,8 @@ return
 }
 bool
 started
+=
+false
 ;
 {
 AutoLockHelperThreadState
@@ -5849,6 +5851,13 @@ mallocedBuffers
 lock
 )
 ;
+if
+(
+CanUseExtraThreads
+(
+)
+)
+{
 started
 =
 freeMallocedBuffersTask
@@ -5859,6 +5868,7 @@ startWithLockHeld
 lock
 )
 ;
+}
 }
 if
 (
