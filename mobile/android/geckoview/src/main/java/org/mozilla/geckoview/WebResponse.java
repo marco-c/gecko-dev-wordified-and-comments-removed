@@ -50,13 +50,6 @@ io
 .
 InputStream
 ;
-import
-java
-.
-nio
-.
-ByteBuffer
-;
 WrapForJNI
 AnyThread
 public

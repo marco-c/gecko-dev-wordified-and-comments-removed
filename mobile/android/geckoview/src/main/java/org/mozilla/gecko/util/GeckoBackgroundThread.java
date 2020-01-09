@@ -21,15 +21,6 @@ os
 .
 Looper
 ;
-import
-java
-.
-util
-.
-concurrent
-.
-SynchronousQueue
-;
 final
 class
 GeckoBackgroundThread

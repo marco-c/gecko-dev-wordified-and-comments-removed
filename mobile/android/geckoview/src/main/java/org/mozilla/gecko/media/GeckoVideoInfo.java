@@ -8,13 +8,6 @@ gecko
 media
 ;
 import
-java
-.
-nio
-.
-ByteBuffer
-;
-import
 org
 .
 mozilla
