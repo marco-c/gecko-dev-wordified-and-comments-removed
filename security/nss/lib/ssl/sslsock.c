@@ -18059,6 +18059,10 @@ HkdfExpandLabel
 )
 EXP
 (
+HkdfExpandLabelWithMech
+)
+EXP
+(
 KeyUpdate
 )
 EXP
