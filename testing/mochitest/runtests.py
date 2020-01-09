@@ -18177,6 +18177,27 @@ debuggerInfo
 if
 options
 .
+jsconsole
+:
+                
+options
+.
+browserArgs
+.
+extend
+(
+[
+'
+-
+-
+jsconsole
+'
+]
+)
+            
+if
+options
+.
 jsdebugger
 :
                 
