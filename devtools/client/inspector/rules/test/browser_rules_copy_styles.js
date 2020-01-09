@@ -113,7 +113,7 @@ visible
 copyLocation
 :
 false
-copyPropertyDeclaration
+copyDeclaration
 :
 true
 copyPropertyName
@@ -173,7 +173,7 @@ visible
 copyLocation
 :
 false
-copyPropertyDeclaration
+copyDeclaration
 :
 true
 copyPropertyName
@@ -238,7 +238,7 @@ visible
 copyLocation
 :
 false
-copyPropertyDeclaration
+copyDeclaration
 :
 true
 copyPropertyName
@@ -285,7 +285,7 @@ styleinspector
 .
 contextmenu
 .
-copyPropertyDeclaration
+copyDeclaration
 "
 expectedPattern
 :
@@ -303,7 +303,7 @@ visible
 copyLocation
 :
 false
-copyPropertyDeclaration
+copyDeclaration
 :
 true
 copyPropertyName
@@ -352,7 +352,7 @@ styleinspector
 .
 contextmenu
 .
-copyPropertyDeclaration
+copyDeclaration
 "
 expectedPattern
 :
@@ -373,7 +373,7 @@ visible
 copyLocation
 :
 false
-copyPropertyDeclaration
+copyDeclaration
 :
 true
 copyPropertyName
@@ -553,7 +553,7 @@ visible
 copyLocation
 :
 false
-copyPropertyDeclaration
+copyDeclaration
 :
 true
 copyPropertyName
@@ -606,7 +606,7 @@ visible
 copyLocation
 :
 false
-copyPropertyDeclaration
+copyDeclaration
 :
 false
 copyPropertyName
@@ -681,7 +681,7 @@ visible
 copyLocation
 :
 true
-copyPropertyDeclaration
+copyDeclaration
 :
 false
 copyPropertyName
@@ -890,7 +890,7 @@ visible
 copyLocation
 :
 false
-copyPropertyDeclaration
+copyDeclaration
 :
 true
 copyPropertyName
@@ -1115,7 +1115,7 @@ visible
 copyLocation
 :
 false
-copyPropertyDeclaration
+copyDeclaration
 :
 true
 copyPropertyName
@@ -1165,7 +1165,7 @@ styleinspector
 .
 contextmenu
 .
-copyPropertyDeclaration
+copyDeclaration
 "
 expectedPattern
 :
@@ -1192,7 +1192,7 @@ visible
 copyLocation
 :
 false
-copyPropertyDeclaration
+copyDeclaration
 :
 true
 copyPropertyName
@@ -1361,7 +1361,7 @@ copyLocation
 )
 ;
 const
-menuitemCopyPropertyDeclaration
+menuitemCopyDeclaration
 =
 allMenuItems
 .
@@ -1385,7 +1385,7 @@ styleinspector
 .
 contextmenu
 .
-copyPropertyDeclaration
+copyDeclaration
 "
 )
 )
@@ -1568,12 +1568,12 @@ copyLocation
 ;
 is
 (
-menuitemCopyPropertyDeclaration
+menuitemCopyDeclaration
 .
 visible
 visible
 .
-copyPropertyDeclaration
+copyDeclaration
 "
 Copy
 Property
@@ -1588,7 +1588,7 @@ expected
 +
 visible
 .
-copyPropertyDeclaration
+copyDeclaration
 )
 ;
 is
