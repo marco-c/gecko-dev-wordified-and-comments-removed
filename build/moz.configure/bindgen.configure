@@ -550,12 +550,10 @@ brew_config
 =
 check_cmd_output
 (
-[
 brew
 '
 config
 '
-]
 )
 .
 strip
