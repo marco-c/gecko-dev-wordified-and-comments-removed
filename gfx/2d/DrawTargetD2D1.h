@@ -960,6 +960,11 @@ aHasDependencyMutex
 false
 )
 ;
+bool
+EnsureInitialized
+(
+)
+;
 typedef
 std
 :
@@ -1432,6 +1437,15 @@ RefPtr
 ID2D1Effect
 >
 mLuminanceEffect
+;
+bool
+mIsInitialized
+;
+RefPtr
+<
+IDXGISurface
+>
+mSurface
 ;
 }
 ;
