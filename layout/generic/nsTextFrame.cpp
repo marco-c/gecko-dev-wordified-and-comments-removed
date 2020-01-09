@@ -30167,7 +30167,10 @@ nullptr
 >
 GetDefaultFont
 (
-kPresContext_DefaultVariableFont_ID
+StyleGenericFontFamily
+:
+:
+None
 )
 -
 >

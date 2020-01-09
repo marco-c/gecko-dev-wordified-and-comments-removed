@@ -370,6 +370,12 @@ FontFaceSourceListComponent
 FontLanguageOverride
 "
 "
+GenericFontFamily
+"
+"
+FontFamilyNameSyntax
+"
+"
 OverflowWrap
 "
 "

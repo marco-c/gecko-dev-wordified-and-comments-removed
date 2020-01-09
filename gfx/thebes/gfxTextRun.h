@@ -2521,7 +2521,7 @@ aCh
 mozilla
 :
 :
-FontFamilyType
+StyleGenericFontFamily
 *
 aGeneric
 =
@@ -3053,7 +3053,10 @@ mGeneric
 mozilla
 :
 :
-eFamily_none
+StyleGenericFontFamily
+:
+:
+None
 )
 mFontCreated
 (
@@ -3084,7 +3087,7 @@ aFont
 mozilla
 :
 :
-FontFamilyType
+StyleGenericFontFamily
 aGeneric
 )
 :
@@ -3178,7 +3181,7 @@ aFontEntry
 mozilla
 :
 :
-FontFamilyType
+StyleGenericFontFamily
 aGeneric
 )
 :
@@ -3508,7 +3511,7 @@ mFontEntry
 mozilla
 :
 :
-FontFamilyType
+StyleGenericFontFamily
 Generic
 (
 )
@@ -3696,7 +3699,7 @@ mFontEntry
 mozilla
 :
 :
-FontFamilyType
+StyleGenericFontFamily
 mGeneric
 ;
 bool
@@ -3999,7 +4002,7 @@ aFamily
 mozilla
 :
 :
-FontFamilyType
+StyleGenericFontFamily
 aGeneric
 )
 ;

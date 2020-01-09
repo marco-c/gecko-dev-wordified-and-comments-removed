@@ -1131,8 +1131,7 @@ AddGenericFonts
 mozilla
 :
 :
-FontFamilyType
-aGenericType
+StyleGenericFontFamily
 nsAtom
 *
 aLanguage
