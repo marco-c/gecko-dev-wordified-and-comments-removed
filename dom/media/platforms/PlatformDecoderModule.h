@@ -198,6 +198,7 @@ Option
 Default
 LowLatency
 HardwareDecoderNotAllowed
+FullH264Parsing
 }
 ;
 using
