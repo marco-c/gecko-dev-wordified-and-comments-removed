@@ -1659,26 +1659,6 @@ str
 compiler
 )
         
-prefix
-=
-os
-.
-path
-.
-basename
-(
-substs
-.
-get
-(
-'
-CCACHE_PREFIX
-'
-'
-'
-)
-)
-        
 if
 substs
 .
@@ -1689,13 +1669,6 @@ CXX_IS_ICECREAM
 '
 None
 )
-or
-prefix
-=
-=
-'
-icecc
-'
 :
             
 opts
