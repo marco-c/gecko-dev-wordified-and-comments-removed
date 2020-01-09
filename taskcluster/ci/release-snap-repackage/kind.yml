@@ -469,7 +469,12 @@ build_platform
 :
 linux64
 -
+snap
+-
 nightly
+build_type
+:
+opt
 treeherder
 :
 symbol
