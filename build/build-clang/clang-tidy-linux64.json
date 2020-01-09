@@ -4,7 +4,7 @@ llvm_revision
 "
 :
 "
-356365
+349247
 "
 "
 stages
@@ -58,7 +58,7 @@ llvm
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 /
@@ -86,7 +86,7 @@ cfe
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 /
@@ -118,7 +118,7 @@ extra
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 /
@@ -146,7 +146,7 @@ libcxx
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 /
@@ -174,7 +174,7 @@ libcxxabi
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 /
@@ -284,14 +284,5 @@ patches
 "
 :
 [
-"
-clang
--
-tidy
--
-8
-.
-patch
-"
 ]
 }
