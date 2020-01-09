@@ -1073,8 +1073,8 @@ checking
 config
 .
 mk
-ifdef
-MOZ_PROFILE_GENERATE
+ifndef
+MOZ_LTO
 MOZ_LTO_CFLAGS
 :
 =

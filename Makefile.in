@@ -1373,6 +1373,8 @@ default
 MOZ_PROFILE_GENERATE
 =
 1
+MOZ_LTO
+=
 (
 call
 BUILDSTATUS
