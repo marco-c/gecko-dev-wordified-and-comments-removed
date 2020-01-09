@@ -593,6 +593,9 @@ setSetting
 id
 name
 value
+setPref
+=
+true
 )
 {
 let
@@ -635,6 +638,9 @@ setting
 if
 (
 item
+&
+&
+setPref
 )
 {
 setPrefs
