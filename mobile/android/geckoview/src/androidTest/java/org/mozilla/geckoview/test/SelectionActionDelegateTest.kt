@@ -2622,6 +2622,8 @@ valid
 selection
 .
 clientRect
+!
+!
 .
 isEmpty
 equalTo

@@ -337,6 +337,7 @@ false
 ;
 protected
 final
+NonNull
 Display
 mDisplay
 =
@@ -346,10 +347,12 @@ Display
 )
 ;
 protected
+Nullable
 GeckoSession
 mSession
 ;
 protected
+Nullable
 GeckoRuntime
 mRuntime
 ;
@@ -358,6 +361,7 @@ boolean
 mStateSaved
 ;
 protected
+Nullable
 SurfaceView
 mSurfaceView
 ;

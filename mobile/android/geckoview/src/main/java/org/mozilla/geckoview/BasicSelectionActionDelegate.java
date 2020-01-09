@@ -230,6 +230,7 @@ ACTION_PASTE
 ;
 protected
 final
+NonNull
 Activity
 mActivity
 ;
@@ -240,6 +241,7 @@ mUseFloatingToolbar
 ;
 protected
 final
+NonNull
 Matrix
 mTempMatrix
 =
@@ -250,6 +252,7 @@ Matrix
 ;
 protected
 final
+NonNull
 RectF
 mTempRect
 =
@@ -263,18 +266,22 @@ boolean
 mExternalActionsEnabled
 ;
 protected
+Nullable
 ActionMode
 mActionMode
 ;
 protected
+Nullable
 GeckoSession
 mSession
 ;
 protected
+Nullable
 Selection
 mSelection
 ;
 protected
+Nullable
 List
 <
 String
@@ -282,6 +289,7 @@ String
 mActions
 ;
 protected
+Nullable
 GeckoResponse
 <
 String
