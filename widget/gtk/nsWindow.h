@@ -1353,14 +1353,6 @@ OnCompositedChanged
 void
 )
 ;
-void
-OnScaleChanged
-(
-GtkAllocation
-*
-aAllocation
-)
-;
 #
 ifdef
 MOZ_X11
