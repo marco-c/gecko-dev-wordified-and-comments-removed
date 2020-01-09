@@ -5964,6 +5964,11 @@ FontFaceSetLoadEvent
 webidl
 '
 '
+FrameCrashedEvent
+.
+webidl
+'
+'
 GamepadAxisMoveEvent
 .
 webidl

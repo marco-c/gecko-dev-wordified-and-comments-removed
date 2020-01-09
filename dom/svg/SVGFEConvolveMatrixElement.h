@@ -14,6 +14,13 @@ h
 #
 include
 "
+SVGAnimatedNumberList
+.
+h
+"
+#
+include
+"
 SVGBoolean
 .
 h
