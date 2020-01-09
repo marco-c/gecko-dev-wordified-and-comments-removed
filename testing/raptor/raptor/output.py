@@ -5134,12 +5134,12 @@ json
 if
 os
 .
-getenv
-(
+environ
+[
 '
 MOZ_UPLOAD_DIR
 '
-)
+]
 :
             
 results_path
