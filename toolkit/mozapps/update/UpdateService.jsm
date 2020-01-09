@@ -3136,6 +3136,14 @@ n
 "
 )
 ;
+if
+(
+!
+Cu
+.
+isInAutomation
+)
+{
 Services
 .
 console
@@ -3151,6 +3159,7 @@ SVC
 string
 )
 ;
+}
 if
 (
 gLogfileEnabled
