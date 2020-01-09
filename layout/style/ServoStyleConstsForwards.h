@@ -117,6 +117,9 @@ class
 nsAtom
 ;
 class
+nsIFrame
+;
+class
 nsINode
 ;
 class
@@ -192,6 +195,9 @@ nsMainThreadPtrHolder
 namespace
 mozilla
 {
+class
+ComputedStyle
+;
 using
 Matrix4x4Components
 =
