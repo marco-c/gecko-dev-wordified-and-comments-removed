@@ -99,16 +99,6 @@ NIGHTLY_BUILD
 ]
 :
 #
-TypedObject
-DEFINES
-[
-'
-ENABLE_BINARYDATA
-'
-]
-=
-True
-#
 The
 evolving
 bulk

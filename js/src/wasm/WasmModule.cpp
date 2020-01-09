@@ -6235,7 +6235,7 @@ types
 else
 #
 ifndef
-ENABLE_BINARYDATA
+ENABLE_TYPED_OBJECTS
 #
 error
 "
