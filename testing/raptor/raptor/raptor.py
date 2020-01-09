@@ -4015,6 +4015,22 @@ fennec
 ]
 :
             
+verbose
+=
+self
+.
+device
+.
+_verbose
+            
+self
+.
+device
+.
+_verbose
+=
+False
+            
 logcat
 =
 self
@@ -4024,6 +4040,14 @@ device
 get_logcat
 (
 )
+            
+self
+.
+device
+.
+_verbose
+=
+verbose
             
 if
 logcat
