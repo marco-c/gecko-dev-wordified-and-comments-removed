@@ -964,6 +964,10 @@ mInterruptChecksToSkip
 (
 0
 )
+mNextFrameRateMultiplier
+(
+0
+)
 mElementsRestyled
 (
 0
