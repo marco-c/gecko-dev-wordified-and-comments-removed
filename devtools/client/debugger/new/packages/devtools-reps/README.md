@@ -236,9 +236,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 debugger
 .
@@ -664,9 +664,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 reps
 /
@@ -689,9 +689,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 devtools
 -

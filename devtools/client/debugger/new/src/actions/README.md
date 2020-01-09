@@ -150,9 +150,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 debugger
 .
@@ -183,9 +183,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 debugger
 .
