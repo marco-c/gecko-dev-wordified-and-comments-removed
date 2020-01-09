@@ -1,3 +1,7 @@
+skip_on
+(
+android
+)
 =
 =
 rounded
@@ -12,6 +16,11 @@ rects
 ref
 .
 png
+#
+Too
+wide
+for
+Android
 =
 =
 aa

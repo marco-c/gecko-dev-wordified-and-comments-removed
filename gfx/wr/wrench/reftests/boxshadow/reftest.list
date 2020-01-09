@@ -338,6 +338,10 @@ border
 radii
 .
 png
+skip_on
+(
+android
+)
 =
 =
 box
@@ -354,6 +358,11 @@ shadow
 spread
 .
 png
+#
+Too
+wide
+for
+Android
 =
 =
 box
