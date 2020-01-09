@@ -379,7 +379,6 @@ connection
 actions
 )
 ;
-await
 syncBreakpoints
 (
 )

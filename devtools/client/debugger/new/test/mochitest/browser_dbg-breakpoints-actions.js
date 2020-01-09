@@ -198,7 +198,7 @@ waitForDispatch
 (
 dbg
 "
-SET_BREAKPOINT
+DISABLE_BREAKPOINT
 "
 1
 )
@@ -282,7 +282,7 @@ waitForDispatch
 (
 dbg
 "
-SET_BREAKPOINT
+DISABLE_ALL_BREAKPOINTS
 "
 )
 ;
@@ -347,7 +347,7 @@ waitForDispatch
 (
 dbg
 "
-SET_BREAKPOINT
+ENABLE_BREAKPOINT
 "
 2
 )
