@@ -2369,6 +2369,17 @@ Length
 -
 1
 ;
+if
+(
+patLen
+<
+0
+)
+{
+return
+NS_OK
+;
+}
 int32_t
 pindex
 =
