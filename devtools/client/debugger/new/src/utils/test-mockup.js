@@ -85,9 +85,6 @@ url
 introductionUrl
 :
 null
-introductionType
-:
-undefined
 actors
 :
 [
@@ -154,9 +151,6 @@ url
 introductionUrl
 :
 null
-introductionType
-:
-undefined
 actors
 :
 [

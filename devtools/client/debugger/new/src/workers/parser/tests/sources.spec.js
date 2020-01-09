@@ -93,9 +93,6 @@ introductionUrl
 :
 "
 "
-introductionType
-:
-undefined
 relativeUrl
 :
 "

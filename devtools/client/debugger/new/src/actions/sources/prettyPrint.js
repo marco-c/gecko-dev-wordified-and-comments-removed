@@ -380,9 +380,6 @@ loading
 introductionUrl
 :
 null
-introductionType
-:
-undefined
 isExtension
 :
 false
