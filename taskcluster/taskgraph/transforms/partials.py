@@ -35,7 +35,7 @@ util
 .
 attributes
 import
-copy_attributes_from_dependent_jobf
+copy_attributes_from_dependent_job
 from
 taskgraph
 .
