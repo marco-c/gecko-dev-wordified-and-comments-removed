@@ -253,8 +253,8 @@ SVGMark
 aMark
 )
 ;
-SVGViewBoxRect
-GetViewBoxRect
+SVGViewBox
+GetViewBox
 (
 )
 ;
@@ -398,7 +398,7 @@ override
 virtual
 SVGAnimatedOrient
 *
-GetOrient
+GetAnimatedOrient
 (
 )
 override
@@ -406,7 +406,7 @@ override
 virtual
 SVGAnimatedPreserveAspectRatio
 *
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 override
@@ -414,7 +414,7 @@ override
 virtual
 SVGAnimatedViewBox
 *
-GetViewBox
+GetAnimatedViewBox
 (
 )
 override

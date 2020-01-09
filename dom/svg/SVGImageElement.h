@@ -464,7 +464,7 @@ override
 virtual
 SVGAnimatedPreserveAspectRatio
 *
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 override

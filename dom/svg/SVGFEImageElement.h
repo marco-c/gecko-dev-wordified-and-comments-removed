@@ -406,7 +406,7 @@ true
 virtual
 SVGAnimatedPreserveAspectRatio
 *
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 override

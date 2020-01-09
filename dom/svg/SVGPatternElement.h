@@ -367,7 +367,7 @@ override
 virtual
 SVGAnimatedPreserveAspectRatio
 *
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 override
@@ -375,7 +375,7 @@ override
 virtual
 SVGAnimatedViewBox
 *
-GetViewBox
+GetAnimatedViewBox
 (
 )
 override

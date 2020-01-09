@@ -68,7 +68,7 @@ define
 NUM_VIEWBOX_COMPONENTS
 4
 bool
-SVGViewBoxRect
+SVGViewBox
 :
 :
 operator
@@ -76,7 +76,7 @@ operator
 =
 (
 const
-SVGViewBoxRect
+SVGViewBox
 &
 aOther
 )
@@ -149,7 +149,7 @@ height
 ;
 }
 nsresult
-SVGViewBoxRect
+SVGViewBox
 :
 :
 FromString
@@ -158,7 +158,7 @@ const
 nsAString
 &
 aStr
-SVGViewBoxRect
+SVGViewBox
 *
 aViewBox
 )
@@ -472,7 +472,7 @@ HasRect
 const
 {
 const
-SVGViewBoxRect
+SVGViewBox
 *
 rect
 =
@@ -533,7 +533,7 @@ SVGAnimatedViewBox
 SetAnimValue
 (
 const
-SVGViewBoxRect
+SVGViewBox
 &
 aRect
 SVGElement
@@ -550,7 +550,7 @@ mAnimVal
 mAnimVal
 =
 new
-SVGViewBoxRect
+SVGViewBox
 (
 aRect
 )
@@ -591,7 +591,7 @@ SVGAnimatedViewBox
 SetBaseValue
 (
 const
-SVGViewBoxRect
+SVGViewBox
 &
 aRect
 SVGElement
@@ -675,13 +675,13 @@ bool
 aDoSetAttr
 )
 {
-SVGViewBoxRect
+SVGViewBox
 viewBox
 ;
 nsresult
 rv
 =
-SVGViewBoxRect
+SVGViewBox
 :
 :
 FromString
@@ -1130,7 +1130,7 @@ ErrorResult
 aRv
 )
 {
-SVGViewBoxRect
+SVGViewBox
 rect
 =
 mVal
@@ -1172,7 +1172,7 @@ ErrorResult
 aRv
 )
 {
-SVGViewBoxRect
+SVGViewBox
 rect
 =
 mVal
@@ -1214,7 +1214,7 @@ ErrorResult
 aRv
 )
 {
-SVGViewBoxRect
+SVGViewBox
 rect
 =
 mVal
@@ -1256,7 +1256,7 @@ ErrorResult
 aRv
 )
 {
-SVGViewBoxRect
+SVGViewBox
 rect
 =
 mVal
@@ -1332,13 +1332,13 @@ aPreventCachingOfSandwich
 )
 const
 {
-SVGViewBoxRect
+SVGViewBox
 viewBox
 ;
 nsresult
 res
 =
-SVGViewBoxRect
+SVGViewBox
 :
 :
 FromString
@@ -1373,7 +1373,7 @@ sSingleton
 *
 static_cast
 <
-SVGViewBoxRect
+SVGViewBox
 *
 >
 (
@@ -1429,7 +1429,7 @@ sSingleton
 *
 static_cast
 <
-SVGViewBoxRect
+SVGViewBox
 *
 >
 (
@@ -1535,14 +1535,14 @@ SVGViewBoxSMILType
 sSingleton
 )
 {
-SVGViewBoxRect
+SVGViewBox
 &
 vb
 =
 *
 static_cast
 <
-SVGViewBoxRect
+SVGViewBox
 *
 >
 (

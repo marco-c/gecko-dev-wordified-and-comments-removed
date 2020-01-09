@@ -274,7 +274,7 @@ SVGAnimatedViewBox
 SVGViewElement
 :
 :
-GetViewBox
+GetAnimatedViewBox
 (
 )
 {
@@ -288,7 +288,7 @@ SVGAnimatedPreserveAspectRatio
 SVGViewElement
 :
 :
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 {

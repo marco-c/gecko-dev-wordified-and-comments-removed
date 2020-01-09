@@ -1362,7 +1362,7 @@ SVGAnimatedPreserveAspectRatio
 SVGFEImageElement
 :
 :
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 {

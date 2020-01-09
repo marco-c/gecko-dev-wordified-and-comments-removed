@@ -270,7 +270,7 @@ mCtxType
 )
 ;
 bool
-HasViewBoxRect
+HasViewBox
 (
 )
 const
@@ -298,7 +298,7 @@ HasViewBoxOrSyntheticViewBox
 const
 {
 return
-HasViewBoxRect
+HasViewBox
 (
 )
 |
@@ -404,7 +404,7 @@ PreserveAspectRatio
 virtual
 SVGAnimatedViewBox
 *
-GetViewBox
+GetAnimatedViewBox
 (
 )
 override
@@ -525,7 +525,7 @@ GetAnimValue
 )
 ;
 }
-SVGViewBoxRect
+SVGViewBox
 GetViewBoxWithSynthesis
 (
 float
@@ -598,7 +598,7 @@ override
 virtual
 SVGAnimatedPreserveAspectRatio
 *
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 override

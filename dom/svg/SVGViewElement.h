@@ -275,7 +275,7 @@ sEnumInfo
 virtual
 SVGAnimatedViewBox
 *
-GetViewBox
+GetAnimatedViewBox
 (
 )
 override
@@ -283,7 +283,7 @@ override
 virtual
 SVGAnimatedPreserveAspectRatio
 *
-GetPreserveAspectRatio
+GetAnimatedPreserveAspectRatio
 (
 )
 override

@@ -98,7 +98,7 @@ SVGElement
 ;
 }
 struct
-SVGViewBoxRect
+SVGViewBox
 {
 float
 x
@@ -111,7 +111,7 @@ height
 bool
 none
 ;
-SVGViewBoxRect
+SVGViewBox
 (
 )
 :
@@ -145,7 +145,7 @@ true
 )
 {
 }
-SVGViewBoxRect
+SVGViewBox
 (
 float
 aX
@@ -179,10 +179,10 @@ false
 )
 {
 }
-SVGViewBoxRect
+SVGViewBox
 (
 const
-SVGViewBoxRect
+SVGViewBox
 &
 rhs
 )
@@ -225,7 +225,7 @@ operator
 =
 (
 const
-SVGViewBoxRect
+SVGViewBox
 &
 aOther
 )
@@ -239,7 +239,7 @@ const
 nsAString
 &
 aStr
-SVGViewBoxRect
+SVGViewBox
 *
 aViewBox
 )
@@ -287,7 +287,7 @@ mHasBaseVal
 )
 {
 const
-SVGViewBoxRect
+SVGViewBox
 &
 rect
 =
@@ -324,7 +324,7 @@ false
 ;
 }
 const
-SVGViewBoxRect
+SVGViewBox
 &
 GetBaseValue
 (
@@ -339,7 +339,7 @@ void
 SetBaseValue
 (
 const
-SVGViewBoxRect
+SVGViewBox
 &
 aRect
 SVGElement
@@ -348,7 +348,7 @@ aSVGElement
 )
 ;
 const
-SVGViewBoxRect
+SVGViewBox
 &
 GetAnimValue
 (
@@ -368,7 +368,7 @@ void
 SetAnimValue
 (
 const
-SVGViewBoxRect
+SVGViewBox
 &
 aRect
 SVGElement
@@ -466,12 +466,12 @@ aSVGElement
 ;
 private
 :
-SVGViewBoxRect
+SVGViewBox
 mBaseVal
 ;
 nsAutoPtr
 <
-SVGViewBoxRect
+SVGViewBox
 >
 mAnimVal
 ;
