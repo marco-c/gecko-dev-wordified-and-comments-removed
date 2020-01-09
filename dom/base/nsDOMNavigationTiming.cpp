@@ -1427,13 +1427,11 @@ TTI
 "
 MakeUnique
 <
-UserTimingMarkerPayload
+TextMarkerPayload
 >
 (
-NS_ConvertASCIItoUTF16
-(
 marker
-)
+mNavigationStart
 mTTFI
 docShellId
 docShellHistoryId
