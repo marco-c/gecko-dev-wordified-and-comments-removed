@@ -862,6 +862,17 @@ true
 VARCACHE_PREF
 (
 "
+dom
+.
+enable_resource_timing
+"
+dom_enable_resource_timing
+bool
+true
+)
+VARCACHE_PREF
+(
+"
 browser
 .
 measurement

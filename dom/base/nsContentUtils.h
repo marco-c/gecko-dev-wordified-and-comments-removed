@@ -5018,16 +5018,6 @@ aSubjectPrincipal
 ;
 static
 bool
-IsResourceTimingEnabled
-(
-)
-{
-return
-sIsResourceTimingEnabled
-;
-}
-static
-bool
 IsPerformanceNavigationTimingEnabled
 (
 )
@@ -7640,10 +7630,6 @@ sAllowXULXBL_for_file
 static
 uint32_t
 sHandlingInputTimeout
-;
-static
-bool
-sIsResourceTimingEnabled
 ;
 static
 bool
