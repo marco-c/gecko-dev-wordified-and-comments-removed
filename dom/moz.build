@@ -522,3 +522,13 @@ plugins
 test
 '
 ]
+SPHINX_TREES
+[
+'
+dom
+'
+]
+=
+'
+docs
+'
