@@ -5944,7 +5944,7 @@ must
 be
 \
 "
-anyfunc
+funcref
 \
 "
 "
@@ -5968,7 +5968,7 @@ must
 be
 \
 "
-anyfunc
+funcref
 \
 "
 or
