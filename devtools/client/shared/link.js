@@ -242,6 +242,14 @@ target
 .
 contentPrincipal
 ;
+options
+.
+csp
+=
+target
+.
+csp
+;
 }
 }
 top

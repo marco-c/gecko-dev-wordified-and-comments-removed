@@ -64,6 +64,9 @@ nsISupports
 idl
 "
 interface
+nsIContentSecurityPolicy
+;
+interface
 nsIPrincipal
 ;
 interface
@@ -549,6 +552,11 @@ readonly
 attribute
 nsIPrincipal
 contentPrincipal
+;
+readonly
+attribute
+nsIContentSecurityPolicy
+csp
 ;
 /
 *

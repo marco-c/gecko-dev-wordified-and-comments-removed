@@ -230,6 +230,7 @@ createNullPrincipal
 {
 }
 )
+null
 )
 ;
 getPanel
@@ -1286,6 +1287,7 @@ function
 panelId
 data
 contentPrincipal
+csp
 )
 {
 try
@@ -1323,6 +1325,7 @@ openTabWithUrl
 (
 url
 contentPrincipal
+csp
 )
 ;
 pktUIMessaging
@@ -2117,6 +2120,7 @@ openTabWithUrl
 (
 url
 aTriggeringPrincipal
+aCsp
 )
 {
 let
@@ -2188,6 +2192,9 @@ tab
 triggeringPrincipal
 :
 aTriggeringPrincipal
+csp
+:
+aCsp
 }
 )
 ;
@@ -2236,6 +2243,9 @@ tab
 triggeringPrincipal
 :
 aTriggeringPrincipal
+csp
+:
+aCsp
 }
 )
 ;
@@ -2255,6 +2265,9 @@ window
 triggeringPrincipal
 :
 aTriggeringPrincipal
+csp
+:
+aCsp
 }
 )
 ;
@@ -2546,11 +2559,23 @@ payload
 .
 data
 ;
+var
+csp
+=
+e
+.
+target
+.
+nodePrincipal
+.
+csp
+;
 callback
 (
 panelId
 data
 nodePrincipal
+csp
 )
 ;
 e

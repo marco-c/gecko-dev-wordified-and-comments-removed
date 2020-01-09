@@ -3226,6 +3226,9 @@ searchTerms
 this
 .
 principal
+this
+.
+csp
 )
 ;
 "
