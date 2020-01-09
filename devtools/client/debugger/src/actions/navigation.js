@@ -28,7 +28,7 @@ queue
 ;
 import
 {
-getSources
+getSourceList
 }
 from
 "
@@ -354,15 +354,10 @@ waitForMs
 ;
 if
 (
-Object
-.
-keys
-(
-getSources
+getSourceList
 (
 getState
 (
-)
 )
 )
 .
