@@ -350,16 +350,21 @@ secret_files
         
 scm_level
 =
-self
+int
+(
+os
 .
-config
+environ
 .
 get
 (
 '
-scm_level
+MOZ_SCM_LEVEL
+'
 '
 1
+'
+)
 )
         
 subst
