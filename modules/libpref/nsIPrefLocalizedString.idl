@@ -169,6 +169,7 @@ nsISupportsString
 /
 [
 scriptable
+builtinclass
 uuid
 (
 ae419e24

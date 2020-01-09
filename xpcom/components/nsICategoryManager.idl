@@ -132,6 +132,7 @@ nsICategoryManager
 /
 [
 scriptable
+builtinclass
 uuid
 (
 de021d54
