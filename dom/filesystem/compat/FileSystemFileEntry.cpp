@@ -109,6 +109,7 @@ aFile
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -145,7 +146,10 @@ MOZ_ASSERT
 file
 )
 ;
+MOZ_KnownLive
+(
 mCallback
+)
 -
 >
 Call
@@ -160,6 +164,7 @@ NS_OK
 }
 private
 :
+const
 RefPtr
 <
 FileCallback

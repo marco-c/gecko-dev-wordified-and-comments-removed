@@ -152,6 +152,7 @@ aSuccessCallback
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 ResolvedCallback
@@ -443,7 +444,10 @@ i
 entry
 ;
 }
+MOZ_KnownLive
+(
 mSuccessCallback
+)
 -
 >
 Call
@@ -537,6 +541,7 @@ FileSystem
 >
 mFileSystem
 ;
+const
 RefPtr
 <
 FileSystemEntriesCallback

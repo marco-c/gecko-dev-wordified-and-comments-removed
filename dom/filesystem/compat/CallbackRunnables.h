@@ -64,6 +64,7 @@ FileSystemEntry
 aEntry
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -72,12 +73,14 @@ override
 ;
 private
 :
+const
 RefPtr
 <
 FileSystemEntryCallback
 >
 mCallback
 ;
+const
 RefPtr
 <
 FileSystemEntry
@@ -107,6 +110,7 @@ nsresult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -121,6 +125,7 @@ nsIGlobalObject
 >
 mGlobal
 ;
+const
 RefPtr
 <
 ErrorCallback
@@ -149,6 +154,7 @@ FileSystemEntriesCallback
 aCallback
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -157,6 +163,7 @@ override
 ;
 private
 :
+const
 RefPtr
 <
 FileSystemEntriesCallback
@@ -210,6 +217,7 @@ Run
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 ResolvedCallback
@@ -274,6 +282,7 @@ JSObject
 aObj
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CompleteOperation
 (
@@ -306,6 +315,7 @@ FileSystem
 >
 mFileSystem
 ;
+const
 RefPtr
 <
 FileSystemEntryCallback

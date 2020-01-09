@@ -85,6 +85,7 @@ aCallback
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -144,7 +145,10 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
+MOZ_KnownLive
+(
 mCallback
+)
 -
 >
 Call
@@ -158,6 +162,7 @@ NS_OK
 }
 private
 :
+const
 RefPtr
 <
 FileSystemEntriesCallback
