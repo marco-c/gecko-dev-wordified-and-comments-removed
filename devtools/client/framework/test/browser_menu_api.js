@@ -442,7 +442,7 @@ ok
 (
 toolbox
 .
-doc
+topDoc
 .
 querySelector
 (
@@ -468,7 +468,7 @@ menuSeparators
 =
 toolbox
 .
-doc
+topDoc
 .
 querySelectorAll
 (
@@ -503,7 +503,7 @@ menuItems
 =
 toolbox
 .
-doc
+topDoc
 .
 querySelectorAll
 (
@@ -833,7 +833,7 @@ menuItems
 }
 toolbox
 .
-win
+topWindow
 )
 ;
 await
@@ -854,7 +854,7 @@ ok
 !
 toolbox
 .
-doc
+topDoc
 .
 querySelector
 (
@@ -1043,7 +1043,7 @@ ok
 (
 toolbox
 .
-doc
+topDoc
 .
 querySelector
 (
@@ -1068,7 +1068,7 @@ is
 (
 toolbox
 .
-doc
+topDoc
 .
 querySelectorAll
 (
@@ -1096,7 +1096,7 @@ menus
 =
 toolbox
 .
-doc
+topDoc
 .
 querySelectorAll
 (
@@ -1464,7 +1464,7 @@ subMenuItems
 }
 toolbox
 .
-win
+topWindow
 )
 ;
 await

@@ -37,7 +37,6 @@ const
 {
 document
 store
-parent
 windowRequire
 }
 =
@@ -180,14 +179,10 @@ button
 )
 )
 ;
-parent
-.
-document
-.
-querySelector
+getContextMenuItem
 (
+monitor
 "
-#
 request
 -
 list

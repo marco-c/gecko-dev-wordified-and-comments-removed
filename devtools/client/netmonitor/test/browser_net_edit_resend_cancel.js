@@ -38,7 +38,6 @@ const
 document
 store
 windowRequire
-parent
 }
 =
 monitor
@@ -66,13 +65,6 @@ selectors
 index
 "
 )
-;
-const
-parentDocument
-=
-parent
-.
-document
 ;
 const
 Actions
@@ -216,12 +208,10 @@ getState
 const
 contextResend
 =
-parentDocument
-.
-querySelector
+getContextMenuItem
 (
+monitor
 "
-#
 request
 -
 list
