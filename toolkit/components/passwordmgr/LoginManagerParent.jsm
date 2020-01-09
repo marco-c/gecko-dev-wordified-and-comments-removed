@@ -485,6 +485,11 @@ openerTopWindowID
 data
 .
 openerTopWindowID
+dismissedPrompt
+:
+data
+.
+dismissedPrompt
 target
 :
 msg
@@ -1343,6 +1348,7 @@ usernameField
 newPasswordField
 oldPasswordField
 openerTopWindowID
+dismissedPrompt
 target
 }
 )
@@ -1877,6 +1883,7 @@ promptToChangePassword
 (
 oldLogin
 formLogin
+dismissedPrompt
 )
 ;
 }
@@ -2111,6 +2118,7 @@ promptToChangePassword
 (
 existingLogin
 formLogin
+dismissedPrompt
 )
 ;
 }
@@ -2156,6 +2164,7 @@ promptToChangePassword
 (
 existingLogin
 formLogin
+dismissedPrompt
 )
 ;
 }
@@ -2181,6 +2190,7 @@ prompter
 promptToSavePassword
 (
 formLogin
+dismissedPrompt
 )
 ;
 }
