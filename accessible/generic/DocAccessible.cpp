@@ -5850,7 +5850,7 @@ FocusMgr
 )
 -
 >
-IsActiveItem
+WasLastFocused
 (
 aAccessible
 )
