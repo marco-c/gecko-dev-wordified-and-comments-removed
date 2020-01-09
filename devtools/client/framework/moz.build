@@ -92,6 +92,15 @@ BROWSER_CHROME_MANIFESTS
 '
 test
 /
+allocations
+/
+browser_allocations_target
+.
+ini
+'
+'
+test
+/
 browser
 .
 ini
