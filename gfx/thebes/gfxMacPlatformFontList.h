@@ -165,17 +165,11 @@ MacOSFontEntry
 (
 )
 {
-if
-(
-mTrakTable
-)
-{
 hb_blob_destroy
 (
 mTrakTable
 )
 ;
-}
 :
 :
 CGFontRelease
