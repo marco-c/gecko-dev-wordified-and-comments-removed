@@ -90,6 +90,15 @@ CTVerifyResult
 {
 public
 :
+CTVerifyResult
+(
+)
+{
+Reset
+(
+)
+;
+}
 VerifiedSCTList
 verifiedScts
 ;

@@ -1128,15 +1128,6 @@ if
 flags
 &
 CERTDB_TRUSTED_CA
-&
-&
-endEntityOrCA
-=
-=
-EndEntityOrCA
-:
-:
-MustBeCA
 )
 {
 if
@@ -3906,7 +3897,7 @@ return
 Result
 :
 :
-FATAL_ERROR_LIBRARY_FAILURE
+ERROR_ADDITIONAL_POLICY_CONSTRAINT_FAILED
 ;
 }
 static
