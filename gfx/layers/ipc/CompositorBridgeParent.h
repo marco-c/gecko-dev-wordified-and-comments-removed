@@ -2593,7 +2593,7 @@ mWrBridge
 ;
 ContentCompositorBridgeParent
 *
-mCrossProcessParent
+mContentCompositorBridgeParent
 ;
 TargetConfig
 mTargetConfig
