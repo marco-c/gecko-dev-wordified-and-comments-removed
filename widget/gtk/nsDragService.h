@@ -183,6 +183,7 @@ nsDragService
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIOBSERVER
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InvokeDragSessionImpl
@@ -208,6 +209,7 @@ aActionType
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 InvokeDragSession
 (
@@ -233,6 +235,7 @@ StartDragSession
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 EndDragSession
 (
@@ -643,6 +646,7 @@ guint
 aTime
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 gboolean
 TaskDispatchCallback
@@ -651,6 +655,7 @@ gpointer
 data
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 gboolean
 RunScheduledTask
 (
@@ -661,6 +666,7 @@ UpdateDragAction
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchMotionEvents
 (

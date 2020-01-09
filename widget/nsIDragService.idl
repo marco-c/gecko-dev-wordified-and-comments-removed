@@ -358,6 +358,9 @@ TYPE_OTHER
 )
 *
 /
+[
+can_run_script
+]
 void
 invokeDragSession
 (
@@ -666,6 +669,7 @@ location
 /
 [
 noscript
+can_run_script
 ]
 void
 invokeDragSessionWithImage
@@ -756,6 +760,9 @@ code
 .
 *
 /
+[
+can_run_script
+]
 void
 invokeDragSessionWithSelection
 (
@@ -871,6 +878,9 @@ window
 .
 *
 /
+[
+can_run_script
+]
 void
 endDragSession
 (
@@ -904,6 +914,7 @@ drag
 /
 [
 noscript
+can_run_script
 ]
 void
 fireDragEventAtSource
@@ -943,6 +954,9 @@ disabled
 .
 *
 /
+[
+can_run_script
+]
 void
 suppress
 (

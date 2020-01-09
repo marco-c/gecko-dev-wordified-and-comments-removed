@@ -278,6 +278,7 @@ aStatus
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 HandleEvent
@@ -491,6 +492,7 @@ return
 mDroppedDown
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ShowDropDown
 (
@@ -512,6 +514,7 @@ nsIFrame
 aDropDownFrame
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RollupFromList
 (
@@ -746,6 +749,7 @@ SaveState
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 RestoreState
 (
@@ -899,6 +903,7 @@ mControlFrame
 ;
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ShowPopup
 (
@@ -906,6 +911,7 @@ bool
 aShowPopup
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 ShowList
 (

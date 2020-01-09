@@ -2070,6 +2070,7 @@ nsIPrincipal
 aPrincipal
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 DoDefaultDragStart
 (
@@ -2551,6 +2552,7 @@ FireContextClick
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 SetPointerLock

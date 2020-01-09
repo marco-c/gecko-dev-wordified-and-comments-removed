@@ -49,6 +49,7 @@ nsDragService
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InvokeDragSessionImpl
@@ -106,6 +107,7 @@ _retval
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 EndDragSession
 (
@@ -137,7 +139,8 @@ IDataObject
 aDataObj
 )
 ;
-NS_IMETHOD
+MOZ_CAN_RUN_SCRIPT
+nsresult
 StartInvokingDragSession
 (
 IDataObject

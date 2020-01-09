@@ -1610,6 +1610,7 @@ aOverrideClickTarget
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleDOMEventWithTarget
 (
@@ -1624,6 +1625,7 @@ nsEventStatus
 aStatus
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleDOMEventWithTarget
 (

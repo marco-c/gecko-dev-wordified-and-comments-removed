@@ -1350,7 +1350,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDragService
 :
 :

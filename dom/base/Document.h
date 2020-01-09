@@ -5111,6 +5111,7 @@ aElement
 CallerType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 SetPointerLock
 (
@@ -5120,6 +5121,7 @@ aElement
 StyleCursorKind
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 void
 UnlockPointer
