@@ -402,11 +402,6 @@ nsID
 h
 '
 '
-nsIID
-.
-h
-'
-'
 nsIInterfaceRequestorUtils
 .
 h
