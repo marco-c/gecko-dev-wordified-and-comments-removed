@@ -24672,7 +24672,7 @@ NS_OK
 shell
 -
 >
-SetPendingVisualScrollUpdate
+ScrollToVisual
 (
 targetPos
 layers
@@ -24682,6 +24682,13 @@ FrameMetrics
 :
 :
 eMainThread
+nsIPresShell
+:
+:
+ScrollMode
+:
+:
+eInstant
 )
 ;
 return

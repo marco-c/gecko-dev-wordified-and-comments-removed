@@ -5808,11 +5808,11 @@ at
 nsIPresShell
 :
 :
-*
-SetPendingVisualViewportOffset
+ScrollToVisual
 (
 )
 and
+*
 request
 APZ
 review
@@ -5820,7 +5820,6 @@ if
 adding
 a
 new
-*
 call
 to
 this
