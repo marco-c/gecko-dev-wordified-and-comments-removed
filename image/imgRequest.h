@@ -655,6 +655,12 @@ HasConsumers
 )
 const
 ;
+bool
+ImageAvailable
+(
+)
+const
+;
 private
 :
 friend
@@ -817,6 +823,9 @@ uint32_t
 mBoostCategoriesRequested
 =
 0
+;
+bool
+mImageAvailable
 ;
 mutable
 mozilla
