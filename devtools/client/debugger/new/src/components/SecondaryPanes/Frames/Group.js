@@ -349,7 +349,14 @@ event
 }
 toggleFrames
 =
+(
 event
+:
+SyntheticMouseEvent
+<
+HTMLElement
+>
+)
 =
 >
 {

@@ -167,7 +167,10 @@ find
 frame
 =
 >
-!
+{
+const
+source
+=
 getSource
 (
 state
@@ -177,9 +180,19 @@ location
 .
 sourceId
 )
+;
+return
+source
+&
+&
+!
+source
 .
 isBlackBoxed
+;
+}
 )
+;
 return
 selectedFrame
 &
@@ -187,6 +200,7 @@ selectedFrame
 selectedFrame
 .
 id
+;
 }
 export
 function
@@ -823,6 +837,7 @@ getState
 )
 mappedFrames
 )
+;
 dispatch
 (
 {

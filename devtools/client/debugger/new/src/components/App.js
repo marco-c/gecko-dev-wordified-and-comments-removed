@@ -415,6 +415,9 @@ OrientationType
 =
 >
 void
+canRewind
+:
+boolean
 }
 ;
 type
