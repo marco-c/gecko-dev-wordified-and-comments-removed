@@ -158,7 +158,10 @@ dom
 :
 Event
 *
-aEvent
+aDOMEvent
+nsINode
+*
+aTarget
 )
 ;
 void
