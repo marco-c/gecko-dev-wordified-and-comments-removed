@@ -334,12 +334,6 @@ toggleBrowserConsole
 )
 ;
 }
-Cu
-.
-forceShrinkingGC
-(
-)
-;
 }
 )
 ;
