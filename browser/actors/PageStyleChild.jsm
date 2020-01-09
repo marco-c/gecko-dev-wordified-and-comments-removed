@@ -85,15 +85,6 @@ mm
 .
 content
 ;
-content
-.
-requestIdleCallback
-(
-(
-)
-=
->
-{
 let
 filteredStyleSheets
 =
@@ -138,9 +129,6 @@ content
 document
 .
 preferredStyleSheetSet
-}
-)
-;
 }
 )
 ;
