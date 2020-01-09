@@ -72,6 +72,8 @@ MsgValueError
 ;
 enum
 Side
+:
+uint8_t
 {
 ParentSide
 ChildSide
