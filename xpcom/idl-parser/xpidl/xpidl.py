@@ -7185,6 +7185,10 @@ infallible
 =
 False
     
+explicit_can_run_script
+=
+False
+    
 def
 __init__
 (
@@ -7399,6 +7403,21 @@ infallible
 self
 .
 infallible
+=
+True
+            
+elif
+name
+=
+=
+'
+can_run_script
+'
+:
+                
+self
+.
+explicit_can_run_script
 =
 True
             
@@ -7748,6 +7767,10 @@ optional_argc
 =
 False
     
+explicit_can_run_script
+=
+False
+    
 def
 __init__
 (
@@ -7969,6 +7992,21 @@ must_use
 self
 .
 must_use
+=
+True
+            
+elif
+name
+=
+=
+'
+can_run_script
+'
+:
+                
+self
+.
+explicit_can_run_script
 =
 True
             
