@@ -363,10 +363,7 @@ WebRenderAPI
 GetWebRenderAPIAtPoint
 (
 const
-gfx
-:
-:
-IntPoint
+ScreenPoint
 &
 aPoint
 )
@@ -2429,7 +2426,7 @@ wr
 :
 NonDefaultRenderRootArray
 <
-IntRect
+ScreenRect
 >
 mRenderRootRects
 ;
