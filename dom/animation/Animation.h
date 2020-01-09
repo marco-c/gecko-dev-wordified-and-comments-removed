@@ -724,6 +724,14 @@ Persist
 (
 )
 ;
+void
+CommitStyles
+(
+ErrorResult
+&
+aRv
+)
+;
 bool
 IsRunningOnCompositor
 (

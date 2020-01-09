@@ -401,8 +401,5 @@ SERVO_BOXED_TYPE
 struct
 RawServoAnimationValueTable
 ;
-struct
-RawServoAnimationValueMap
-;
 #
 endif
