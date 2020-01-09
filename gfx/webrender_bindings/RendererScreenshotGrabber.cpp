@@ -96,6 +96,7 @@ mProfilerScreenshots
 {
 Destroy
 (
+aRenderer
 )
 ;
 }
@@ -151,6 +152,7 @@ mProfilerScreenshots
 {
 Destroy
 (
+aRenderer
 )
 ;
 }
@@ -161,6 +163,9 @@ RendererScreenshotGrabber
 :
 Destroy
 (
+Renderer
+*
+aRenderer
 )
 {
 mQueue
@@ -178,6 +183,11 @@ Nothing
 mProfilerScreenshots
 =
 nullptr
+;
+wr_renderer_release_profiler_structures
+(
+aRenderer
+)
 ;
 }
 void
