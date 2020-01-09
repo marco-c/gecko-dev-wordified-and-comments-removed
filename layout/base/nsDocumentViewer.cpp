@@ -135,17 +135,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-DocGroup
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h
@@ -14313,8 +14302,8 @@ printJob
 >
 PrintPreview
 (
+doc
 aPrintSettings
-aChildDOMWin
 aWebProgressListener
 )
 ;
