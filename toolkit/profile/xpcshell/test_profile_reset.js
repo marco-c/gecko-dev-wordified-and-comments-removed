@@ -26,6 +26,13 @@ selectStartupProfile
 true
 )
 ;
+checkStartupReason
+(
+"
+unknown
+"
+)
+;
 checkProfileService
 (
 )

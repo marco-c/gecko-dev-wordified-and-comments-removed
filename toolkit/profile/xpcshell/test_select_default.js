@@ -162,6 +162,13 @@ selectStartupProfile
 (
 )
 ;
+checkStartupReason
+(
+"
+default
+"
+)
+;
 let
 service
 =

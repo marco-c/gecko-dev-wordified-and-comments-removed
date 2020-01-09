@@ -27,6 +27,17 @@ selectStartupProfile
 (
 )
 ;
+checkStartupReason
+(
+"
+firstrun
+-
+created
+-
+default
+"
+)
+;
 Assert
 .
 ok

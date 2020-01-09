@@ -67,6 +67,17 @@ selectStartupProfile
 (
 )
 ;
+checkStartupReason
+(
+"
+firstrun
+-
+claimed
+-
+default
+"
+)
+;
 let
 profileData
 =

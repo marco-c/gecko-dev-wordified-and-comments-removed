@@ -143,6 +143,13 @@ selectStartupProfile
 (
 )
 ;
+checkStartupReason
+(
+"
+restart
+"
+)
+;
 Assert
 .
 ok
