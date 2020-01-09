@@ -742,15 +742,15 @@ self
 )
 :
         
-test_element_locator
-=
-(
-By
+self
 .
-ID
-"
-testh1
-"
+marionette
+.
+navigate
+(
+self
+.
+test_page_push_state
 )
         
 self
@@ -810,7 +810,14 @@ expected
 element_present
 (
 *
-test_element_locator
+(
+By
+.
+ID
+"
+testh1
+"
+)
 )
             
 message
