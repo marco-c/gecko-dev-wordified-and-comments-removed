@@ -82,6 +82,12 @@ kMaxDtlsDigestLength
 =
 HASH_LENGTH_MAX
 ;
+DtlsDigest
+(
+)
+=
+default
+;
 explicit
 DtlsDigest
 (
