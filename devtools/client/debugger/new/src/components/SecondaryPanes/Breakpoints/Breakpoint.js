@@ -449,6 +449,7 @@ event
 const
 {
 removeBreakpoint
+breakpoint
 }
 =
 this
@@ -463,9 +464,7 @@ stopPropagation
 ;
 removeBreakpoint
 (
-this
-.
-selectedLocation
+breakpoint
 )
 ;
 }
@@ -497,9 +496,7 @@ disabled
 {
 enableBreakpoint
 (
-this
-.
-selectedLocation
+breakpoint
 )
 ;
 }
@@ -507,9 +504,7 @@ else
 {
 disableBreakpoint
 (
-this
-.
-selectedLocation
+breakpoint
 )
 ;
 }

@@ -221,6 +221,8 @@ sourceId
 foo
 .
 js
+/
+originalSource
 "
 "
 sourceUrl
@@ -384,6 +386,8 @@ sourceId
 foo
 .
 js
+/
+originalSource
 "
 "
 sourceUrl
@@ -549,6 +553,8 @@ sourceId
 :
 "
 foo
+/
+originalSource
 "
 "
 sourceUrl
@@ -708,6 +714,8 @@ sourceId
 :
 "
 foo2
+/
+originalSource
 "
 "
 sourceUrl

@@ -1305,10 +1305,10 @@ location
 >
 {
 const
-loc
+source
 =
 {
-sourceId
+id
 :
 "
 test
@@ -1334,7 +1334,7 @@ expect
 getSourceLocationFromMouseEvent
 (
 editor
-loc
+source
 e
 )
 )

@@ -20,6 +20,7 @@ reselect
 import
 {
 getViewport
+getSelectedSource
 }
 from
 "
@@ -88,6 +89,7 @@ SourceLocation
 PartialPosition
 Breakpoint
 Range
+Source
 }
 from
 "
@@ -477,6 +479,10 @@ Breakpoint
 viewport
 :
 Range
+selectedSource
+:
+?
+Source
 )
 {
 if
@@ -587,6 +593,16 @@ line
 1
 )
 ;
+const
+sourceId
+=
+selectedSource
+&
+&
+selectedSource
+.
+id
+;
 return
 (
 columnBreakpoints
@@ -606,6 +622,14 @@ location
 (
 {
 location
+:
+{
+.
+.
+.
+location
+sourceId
+}
 breakpoint
 :
 findBreakpoint
@@ -632,6 +656,7 @@ createSelector
 getVisiblePausePoints
 getVisibleBreakpoints
 getViewport
+getSelectedSource
 getColumnBreakpoints
 )
 ;
