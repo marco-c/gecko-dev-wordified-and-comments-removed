@@ -2398,6 +2398,7 @@ depends
 (
 prepare_configure
 prepare_configure_options
+altered_path
 )
 imports
 (
@@ -2505,6 +2506,7 @@ old_configure
 (
 prepare_configure
 prepare_configure_options
+altered_path
 )
 :
 cmd
@@ -2705,6 +2707,17 @@ config_log
 baseFilename
 )
 break
+if
+altered_path
+:
+env
+[
+'
+PATH
+'
+]
+=
+altered_path
 proc
 =
 subprocess
