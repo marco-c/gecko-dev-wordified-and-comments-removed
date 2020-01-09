@@ -762,6 +762,14 @@ abs_mozilla_dir
 halt_on_failure
 =
 True
+                
+env
+=
+self
+.
+query_env
+(
+)
             
 )
     
