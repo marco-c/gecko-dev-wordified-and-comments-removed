@@ -443,6 +443,9 @@ as
 output
 :
             
+try
+:
+                
 ret
 =
 module
@@ -461,6 +464,17 @@ additional_arguments
 *
 kwargs
 )
+            
+except
+:
+                
+output
+.
+avoid_writing_to_file
+(
+)
+                
+raise
             
 if
 isinstance
@@ -559,6 +573,15 @@ mk
 dump
 (
 dep_file
+)
+            
+else
+:
+                
+output
+.
+avoid_writing_to_file
+(
 )
     
 except

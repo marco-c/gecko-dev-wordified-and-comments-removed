@@ -1307,8 +1307,9 @@ capture_diff
         
 self
 .
-_dry_run
+_write_to_file
 =
+not
 dry_run
         
 self
@@ -1359,6 +1360,19 @@ write
 self
 buf
 )
+    
+def
+avoid_writing_to_file
+(
+self
+)
+:
+        
+self
+.
+_write_to_file
+=
+False
     
 def
 close
@@ -1522,10 +1536,9 @@ close
 )
         
 if
-not
 self
 .
-_dry_run
+_write_to_file
 :
             
 ensureParentDir
