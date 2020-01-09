@@ -87,6 +87,10 @@ Z0
 )
 "
 '
+prefix
+=
+"
+"
 messages
 =
 {
@@ -203,6 +207,9 @@ attrs
 )
 :
     
+global
+prefix
+    
 id
 =
 None
@@ -292,6 +299,26 @@ id
 =
 convert_camel_case
 (
+id
+)
+    
+if
+prefix
+:
+        
+id
+=
+"
+{
+}
+-
+{
+}
+"
+.
+format
+(
+prefix
 id
 )
     
@@ -609,16 +636,24 @@ def
 collect_messages
 (
 xul_source
+in_prefix
 )
 :
     
 global
 messages
     
+global
+prefix
+    
 messages
 =
 {
 }
+    
+prefix
+=
+in_prefix
     
 new_source
 =
