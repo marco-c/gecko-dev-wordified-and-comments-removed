@@ -4278,6 +4278,7 @@ ClonedMessageData
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -4311,6 +4312,7 @@ RecvRemoveGeolocationListener
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :

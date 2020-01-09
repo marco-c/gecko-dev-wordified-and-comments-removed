@@ -243,8 +243,10 @@ HasWebIDLCallback
 )
 )
 {
+RefPtr
+<
 PositionErrorCallback
-*
+>
 callback
 =
 aCallback

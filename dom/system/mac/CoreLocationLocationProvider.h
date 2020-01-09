@@ -12,6 +12,15 @@ nsIGeolocationProvider
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 CoreLocationObjects
 ;
@@ -32,6 +41,7 @@ CoreLocationLocationProvider
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyError
 (

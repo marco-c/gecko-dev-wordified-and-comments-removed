@@ -734,6 +734,7 @@ nsPIDOMWindowInner
 aWindow
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -822,6 +823,7 @@ RemotePermissionRequest
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DoAllow
 (
@@ -832,6 +834,7 @@ HandleValue
 aChoices
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DoCancel
 (

@@ -227,6 +227,9 @@ value
 .
 *
 /
+[
+can_run_script
+]
 void
 notifyError
 (

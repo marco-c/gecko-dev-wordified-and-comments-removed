@@ -1241,7 +1241,16 @@ uint16_t
 aErrorCode
 )
 {
+nsCOMPtr
+<
+nsIGeolocationUpdate
+>
+callback
+(
 mCallback
+)
+;
+callback
 -
 >
 NotifyError

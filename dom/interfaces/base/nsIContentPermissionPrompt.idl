@@ -511,11 +511,17 @@ the
 request
 *
 /
+[
+can_run_script
+]
 void
 cancel
 (
 )
 ;
+[
+can_run_script
+]
 void
 allow
 (

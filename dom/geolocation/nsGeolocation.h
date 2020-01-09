@@ -284,6 +284,7 @@ GetCachedPosition
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 StartDevice
 (
@@ -420,6 +421,7 @@ aGivenProto
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 WatchPosition
 (
@@ -467,6 +469,7 @@ int32_t
 aWatchId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 WatchPosition
 (
@@ -583,6 +586,7 @@ CallerType
 aCallerType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 WatchPosition
 (
