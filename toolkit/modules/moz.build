@@ -1420,6 +1420,11 @@ selector
 js
 '
 '
+DateTimePickerPanel
+.
+jsm
+'
+'
 DateTimePickerParent
 .
 jsm
