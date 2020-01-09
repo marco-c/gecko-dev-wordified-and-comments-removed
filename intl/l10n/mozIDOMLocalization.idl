@@ -155,7 +155,7 @@ resourceIds
 )
 ;
 void
-registerObservers
+onChange
 (
 )
 ;
