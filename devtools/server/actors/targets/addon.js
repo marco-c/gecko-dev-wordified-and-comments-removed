@@ -937,6 +937,11 @@ return
 )
 ;
 }
+loadIconDataURL
+(
+)
+{
+}
 preNest
 :
 function

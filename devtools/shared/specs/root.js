@@ -236,6 +236,15 @@ listAddons
 request
 :
 {
+iconDataURL
+:
+Option
+(
+0
+"
+boolean
+"
+)
 }
 response
 :
