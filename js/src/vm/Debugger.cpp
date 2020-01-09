@@ -52267,9 +52267,11 @@ return
 true
 ;
 }
-static
 bool
-DebuggerFrame_getScript
+DebuggerFrame
+:
+:
+getScript
 (
 JSContext
 *
@@ -53616,7 +53618,10 @@ JS_PSG
 "
 script
 "
-DebuggerFrame_getScript
+DebuggerFrame
+:
+:
+getScript
 0
 )
 JS_PSG
