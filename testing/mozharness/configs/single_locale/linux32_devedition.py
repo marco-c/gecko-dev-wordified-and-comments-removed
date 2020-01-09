@@ -1,3 +1,0 @@
-linux_devedition
-.
-py
