@@ -1021,6 +1021,12 @@ aOutBehaviors
 )
 const
 ;
+bool
+HasAllowedTouchBehaviors
+(
+)
+const
+;
 void
 CopyPropertiesFrom
 (
