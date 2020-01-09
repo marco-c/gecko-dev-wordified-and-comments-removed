@@ -97,6 +97,11 @@ ApplyAdjustments
 )
 ;
 void
+SuppressAdjustments
+(
+)
+;
+void
 InvalidateAnchor
 (
 )
@@ -166,6 +171,11 @@ mAnchorNodeIsDirty
 ;
 bool
 mApplyingAnchorAdjustment
+:
+1
+;
+bool
+mSuppressAnchorAdjustment
 :
 1
 ;

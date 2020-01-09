@@ -7841,6 +7841,16 @@ aNewData
 )
 const
 ;
+bool
+TransformChanged
+(
+const
+nsStyleDisplay
+&
+aNewData
+)
+const
+;
 RefPtr
 <
 mozilla
