@@ -8038,10 +8038,6 @@ bool
 !
 self
 .
-rule_hash_target
-(
-)
-.
 is_in_native_anonymous_subtree
 (
 )
