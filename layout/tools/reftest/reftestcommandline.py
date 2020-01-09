@@ -2992,9 +2992,11 @@ None
 help
 =
 "
-path
+Path
 to
 adb
+binary
+.
 "
 )
         
@@ -3033,8 +3035,37 @@ number
 of
 remote
 device
+.
+This
+is
+required
+"
+                               
+"
+when
+more
+than
+one
+device
+is
+connected
 to
-test
+the
+host
+.
+"
+                               
+"
+Use
+'
+adb
+devices
+'
+to
+see
+connected
+devices
+.
 "
 )
         
@@ -3070,14 +3101,13 @@ help
 =
 "
 IP
-Address
+address
 of
 the
-webserver
-hosting
-the
-reftest
-content
+remote
+web
+server
+.
 "
 )
         
@@ -3112,14 +3142,14 @@ httpPort
 help
 =
 "
+http
 port
 of
 the
+remote
 web
 server
-for
-http
-traffic
+.
 "
 )
         
@@ -3154,14 +3184,14 @@ sslPort
 help
 =
 "
-Port
-for
-https
-traffic
-to
+ssl
+port
+of
 the
+remote
 web
 server
+.
 "
 )
         
@@ -3194,7 +3224,7 @@ remoteTestRoot
 help
 =
 "
-remote
+Remote
 directory
 to
 use
@@ -3221,6 +3251,7 @@ local
 /
 tests
 )
+.
 "
 )
         
@@ -3255,13 +3286,14 @@ httpdPath
 help
 =
 "
-path
+Path
 to
 the
 httpd
 .
 js
 file
+.
 "
 )
         
@@ -3298,7 +3330,7 @@ True
 help
 =
 "
-do
+Do
 not
 display
 verbose
@@ -3307,6 +3339,7 @@ about
 the
 remote
 device
+.
 "
 )
     

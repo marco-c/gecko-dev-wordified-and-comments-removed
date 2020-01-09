@@ -1617,11 +1617,12 @@ objdir
 help
 =
 "
-local
+Local
 objdir
 containing
 xpcshell
 binaries
+.
 "
 )
     
@@ -1651,11 +1652,14 @@ localAPK
 help
 =
 "
-local
+Local
 path
 to
-Fennec
+Firefox
+for
+Android
 APK
+.
 "
 )
     
@@ -1685,10 +1689,43 @@ deviceSerial
 help
 =
 "
+adb
 serial
-ID
+number
 of
+remote
 device
+.
+This
+is
+required
+"
+                             
+"
+when
+more
+than
+one
+device
+is
+connected
+to
+the
+host
+.
+"
+                             
+"
+Use
+'
+adb
+devices
+'
+to
+see
+connected
+devices
+.
 "
 )
     
@@ -1725,6 +1762,8 @@ help
 Path
 to
 adb
+binary
+.
 "
 )
     
@@ -1754,7 +1793,7 @@ True
 help
 =
 "
-do
+Do
 not
 copy
 any
@@ -1775,6 +1814,7 @@ is
 already
 setup
 )
+.
 "
 )
     
@@ -1808,11 +1848,12 @@ localLib
 help
 =
 "
-local
+Local
 path
 to
 library
 directory
+.
 "
 )
     
@@ -1846,11 +1887,12 @@ localBin
 help
 =
 "
-local
+Local
 path
 to
 bin
 directory
+.
 "
 )
     
@@ -1880,7 +1922,7 @@ remoteTestRoot
 help
 =
 "
-remote
+Remote
 directory
 to
 use
@@ -1907,6 +1949,7 @@ local
 /
 tests
 )
+.
 "
 )
 def

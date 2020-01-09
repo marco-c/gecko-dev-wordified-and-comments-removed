@@ -1325,10 +1325,43 @@ device_serial
 help
 =
 "
+adb
 serial
-ID
+number
 of
+remote
 device
+.
+This
+is
+required
+"
+                             
+"
+when
+more
+than
+one
+device
+is
+connected
+to
+the
+host
+.
+"
+                             
+"
+Use
+'
+adb
+devices
+'
+to
+see
+connected
+devices
+.
 "
 )
         
@@ -1373,6 +1406,8 @@ help
 Path
 to
 adb
+binary
+.
 "
 )
         
@@ -1409,7 +1444,7 @@ setup
 help
 =
 "
-do
+Do
 not
 copy
 any
@@ -1423,13 +1458,14 @@ used
 only
 if
 "
-                        
+                             
 "
 device
 is
 already
 setup
 )
+.
 "
 )
         
@@ -1471,7 +1507,7 @@ local_lib
 help
 =
 "
-location
+Location
 of
 libraries
 to
@@ -1480,6 +1516,7 @@ push
 -
 preferably
 stripped
+.
 "
 )
         
@@ -1521,11 +1558,14 @@ local_apk
 help
 =
 "
-local
+Local
 path
 to
-Fennec
+Firefox
+for
+Android
 APK
+.
 "
 )
         
@@ -1567,11 +1607,12 @@ local_bin
 help
 =
 "
-local
+Local
 path
 to
 bin
 directory
+.
 "
 )
         
@@ -1623,16 +1664,26 @@ remote_test_root
 help
 =
 "
-remote
+Remote
 directory
 to
 use
 as
 test
 root
+"
+                             
+"
 (
 eg
 .
+/
+mnt
+/
+sdcard
+/
+tests
+or
 /
 data
 /
@@ -1640,6 +1691,7 @@ local
 /
 tests
 )
+.
 "
 )
         
