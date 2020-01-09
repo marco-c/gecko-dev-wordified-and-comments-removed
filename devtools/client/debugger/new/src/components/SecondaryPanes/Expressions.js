@@ -78,7 +78,6 @@ import
 getExpressions
 getExpressionError
 getAutocompleteMatchset
-getThreadContext
 }
 from
 "
@@ -162,7 +161,6 @@ import
 type
 {
 Expression
-ThreadContext
 }
 from
 "
@@ -213,9 +211,6 @@ type
 Props
 =
 {
-cx
-:
-ThreadContext
 expressions
 :
 List
@@ -370,7 +365,6 @@ componentDidMount
 {
 const
 {
-cx
 expressions
 evaluateExpressions
 showInput
@@ -391,7 +385,6 @@ size
 {
 evaluateExpressions
 (
-cx
 )
 ;
 }
@@ -805,11 +798,6 @@ props
 ;
 autocomplete
 (
-this
-.
-props
-.
-cx
 value
 selectionStart
 )
@@ -963,11 +951,6 @@ updateExpression
 (
 this
 .
-props
-.
-cx
-this
-.
 state
 .
 inputValue
@@ -1032,11 +1015,6 @@ props
 .
 addExpression
 (
-this
-.
-props
-.
-cx
 this
 .
 state
@@ -2031,12 +2009,6 @@ state
 {
 return
 {
-cx
-:
-getThreadContext
-(
-state
-)
 autocompleteMatches
 :
 getAutocompleteMatchset

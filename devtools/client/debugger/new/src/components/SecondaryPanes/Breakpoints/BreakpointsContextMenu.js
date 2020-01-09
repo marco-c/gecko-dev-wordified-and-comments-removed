@@ -73,7 +73,6 @@ type
 {
 Breakpoint
 Source
-Context
 }
 from
 "
@@ -93,9 +92,6 @@ type
 Props
 =
 {
-cx
-:
-Context
 breakpoint
 :
 Breakpoint
@@ -181,7 +177,6 @@ Props
 {
 const
 {
-cx
 breakpoint
 breakpoints
 selectedSource
@@ -736,7 +731,6 @@ click
 {
 removeBreakpoint
 (
-cx
 breakpoint
 )
 ;
@@ -775,7 +769,6 @@ click
 >
 removeAllBreakpoints
 (
-cx
 )
 }
 ;
@@ -811,7 +804,6 @@ click
 >
 removeBreakpoints
 (
-cx
 otherBreakpoints
 )
 }
@@ -849,7 +841,6 @@ click
 {
 toggleDisabledBreakpoint
 (
-cx
 breakpoint
 )
 ;
@@ -888,7 +879,6 @@ click
 >
 toggleAllBreakpoints
 (
-cx
 false
 )
 }
@@ -925,7 +915,6 @@ click
 >
 toggleBreakpoints
 (
-cx
 false
 otherDisabledBreakpoints
 )
@@ -964,7 +953,6 @@ click
 {
 toggleDisabledBreakpoint
 (
-cx
 breakpoint
 )
 ;
@@ -1003,7 +991,6 @@ click
 >
 toggleAllBreakpoints
 (
-cx
 true
 )
 }
@@ -1037,7 +1024,6 @@ click
 >
 toggleBreakpoints
 (
-cx
 true
 otherEnabledBreakpoints
 )
@@ -1075,7 +1061,6 @@ click
 >
 setBreakpointOptions
 (
-cx
 selectedLocation
 {
 .
@@ -1121,7 +1106,6 @@ click
 {
 selectSpecificLocation
 (
-cx
 selectedLocation
 )
 ;
@@ -1177,7 +1161,6 @@ click
 {
 selectSpecificLocation
 (
-cx
 selectedLocation
 )
 ;
@@ -1403,7 +1386,6 @@ click
 >
 setBreakpointOptions
 (
-cx
 selectedLocation
 {
 .

@@ -31,7 +31,6 @@ type
 {
 Breakpoint
 Source
-Context
 }
 from
 "
@@ -51,9 +50,6 @@ type
 Props
 =
 {
-cx
-:
-Context
 source
 :
 Source
@@ -100,7 +96,6 @@ Props
 {
 const
 {
-cx
 source
 breakpointsForSource
 disableBreakpointsInSource
@@ -247,7 +242,6 @@ click
 >
 disableBreakpointsInSource
 (
-cx
 source
 )
 }
@@ -286,7 +280,6 @@ click
 >
 enableBreakpointsInSource
 (
-cx
 source
 )
 }
@@ -325,7 +318,6 @@ click
 >
 removeBreakpointsInSource
 (
-cx
 source
 )
 }

@@ -79,10 +79,6 @@ actions
 .
 addBreakpoint
 (
-getContext
-(
-dbg
-)
 {
 line
 :

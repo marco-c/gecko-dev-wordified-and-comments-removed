@@ -128,7 +128,6 @@ Breakpoint
 as
 BreakpointType
 Source
-ThreadContext
 }
 from
 "
@@ -145,9 +144,6 @@ type
 Props
 =
 {
-cx
-:
-ThreadContext
 selectedSource
 :
 Source
@@ -181,7 +177,6 @@ render
 {
 const
 {
-cx
 breakpoints
 selectedSource
 editor
@@ -226,11 +221,6 @@ return
 (
 <
 Breakpoint
-cx
-=
-{
-cx
-}
 key
 =
 {

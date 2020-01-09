@@ -354,15 +354,8 @@ resume
 (
 dbg
 .
-selectors
-.
-getThreadContext
-(
-dbg
-.
 getState
 (
-)
 )
 )
 ;

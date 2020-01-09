@@ -21,7 +21,6 @@ import
 {
 getSelectedSource
 visibleColumnBreakpoints
-getContext
 }
 from
 "
@@ -99,7 +98,6 @@ import
 type
 {
 Source
-Context
 }
 from
 "
@@ -136,9 +134,6 @@ type
 Props
 =
 {
-cx
-:
-Context
 editor
 :
 Object
@@ -173,7 +168,6 @@ render
 {
 const
 {
-cx
 editor
 columnBreakpoints
 selectedSource
@@ -225,11 +219,6 @@ breakpoint
 (
 <
 ColumnBreakpoint
-cx
-=
-{
-cx
-}
 key
 =
 {
@@ -291,12 +280,6 @@ state
 {
 return
 {
-cx
-:
-getContext
-(
-state
-)
 selectedSource
 :
 getSelectedSource

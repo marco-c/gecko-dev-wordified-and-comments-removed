@@ -38,7 +38,6 @@ SourcesTree
 import
 {
 makeMockSource
-mockcx
 }
 from
 "
@@ -1276,7 +1275,6 @@ selectSource
 .
 toHaveBeenCalledWith
 (
-mockcx
 "
 server1
 .
@@ -1348,7 +1346,6 @@ selectSource
 .
 toHaveBeenCalledWith
 (
-mockcx
 "
 server1
 .
@@ -2474,9 +2471,6 @@ dsffewrsf
 ;
 return
 {
-cx
-:
-mockcx
 thread
 :
 "

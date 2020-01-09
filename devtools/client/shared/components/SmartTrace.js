@@ -1085,7 +1085,6 @@ frames
 selectFrame
 :
 (
-cx
 {
 location
 }

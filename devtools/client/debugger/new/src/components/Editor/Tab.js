@@ -77,7 +77,6 @@ import
 type
 {
 Source
-Context
 }
 from
 "
@@ -166,7 +165,6 @@ getSelectedSource
 getActiveSearch
 getSourcesForTabs
 getHasSiblingOfSameName
-getContext
 }
 from
 "
@@ -214,9 +212,6 @@ type
 Props
 =
 {
-cx
-:
-Context
 tabSources
 :
 SourcesList
@@ -315,7 +310,6 @@ string
 {
 const
 {
-cx
 closeTab
 closeTabs
 tabSources
@@ -442,7 +436,6 @@ click
 >
 closeTab
 (
-cx
 sourceTab
 )
 }
@@ -465,7 +458,6 @@ click
 >
 closeTabs
 (
-cx
 otherTabURLs
 )
 disabled
@@ -516,7 +508,6 @@ tab
 ;
 closeTabs
 (
-cx
 tabURLs
 .
 filter
@@ -588,7 +579,6 @@ click
 >
 closeTabs
 (
-cx
 tabURLs
 )
 }
@@ -694,7 +684,6 @@ click
 >
 showSource
 (
-cx
 tab
 )
 }
@@ -751,7 +740,6 @@ click
 >
 toggleBlackBox
 (
-cx
 source
 )
 }
@@ -774,7 +762,6 @@ click
 >
 togglePrettyPrint
 (
-cx
 tab
 )
 disabled
@@ -839,7 +826,6 @@ render
 {
 const
 {
-cx
 selectedSource
 selectSource
 closeTab
@@ -912,7 +898,6 @@ stopPropagation
 ;
 closeTab
 (
-cx
 source
 )
 ;
@@ -938,7 +923,6 @@ stopPropagation
 return
 selectSource
 (
-cx
 sourceId
 )
 ;
@@ -1019,7 +1003,6 @@ button
 &
 closeTab
 (
-cx
 source
 )
 }
@@ -1171,12 +1154,6 @@ state
 ;
 return
 {
-cx
-:
-getContext
-(
-state
-)
 tabSources
 :
 getSourcesForTabs

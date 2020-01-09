@@ -3,7 +3,6 @@ type
 {
 Source
 SourceLocation
-Context
 }
 from
 "
@@ -48,10 +47,6 @@ type
 LOAD_SOURCE_TEXT
 "
 +
-cx
-:
-Context
-+
 sourceId
 :
 string
@@ -80,10 +75,6 @@ type
 ADD_SOURCE
 "
 +
-cx
-:
-Context
-+
 source
 :
 Source
@@ -98,10 +89,6 @@ type
 "
 ADD_SOURCES
 "
-+
-cx
-:
-Context
 +
 sources
 :
@@ -121,10 +108,6 @@ type
 UPDATE_SOURCE
 "
 +
-cx
-:
-Context
-+
 source
 :
 Source
@@ -139,10 +122,6 @@ type
 "
 SET_SELECTED_LOCATION
 "
-+
-cx
-:
-Context
 +
 source
 :
@@ -163,10 +142,6 @@ type
 "
 SET_PENDING_SELECTED_LOCATION
 "
-+
-cx
-:
-Context
 +
 url
 :
@@ -191,10 +166,6 @@ type
 "
 CLEAR_SELECTED_LOCATION
 "
-+
-cx
-:
-Context
 |
 }
 |
@@ -208,10 +179,6 @@ type
 "
 BLACKBOX
 "
-+
-cx
-:
-Context
 +
 source
 :

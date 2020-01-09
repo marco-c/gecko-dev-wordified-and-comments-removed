@@ -28,7 +28,6 @@ type
 {
 SourceLocation
 Breakpoint
-Context
 }
 from
 "
@@ -69,9 +68,6 @@ const
 addBreakpointItem
 =
 (
-cx
-:
-Context
 location
 :
 SourceLocation
@@ -133,7 +129,6 @@ breakpointActions
 .
 addBreakpoint
 (
-cx
 location
 )
 accelerator
@@ -156,9 +151,6 @@ const
 removeBreakpointItem
 =
 (
-cx
-:
-Context
 breakpoint
 :
 Breakpoint
@@ -220,7 +212,6 @@ breakpointActions
 .
 removeBreakpoint
 (
-cx
 breakpoint
 )
 accelerator
@@ -681,9 +672,6 @@ const
 toggleDisabledBreakpointItem
 =
 (
-cx
-:
-Context
 breakpoint
 :
 Breakpoint
@@ -723,7 +711,6 @@ breakpointActions
 .
 toggleDisabledBreakpoint
 (
-cx
 breakpoint
 )
 .
@@ -794,9 +781,6 @@ export
 function
 breakpointItems
 (
-cx
-:
-Context
 breakpoint
 :
 Breakpoint
@@ -811,13 +795,11 @@ items
 [
 removeBreakpointItem
 (
-cx
 breakpoint
 breakpointActions
 )
 toggleDisabledBreakpointItem
 (
-cx
 breakpoint
 breakpointActions
 )
@@ -843,7 +825,6 @@ separator
 }
 removeBreakpointsOnLineItem
 (
-cx
 breakpoint
 .
 location
@@ -855,7 +836,6 @@ disabled
 ?
 enableBreakpointsOnLineItem
 (
-cx
 breakpoint
 .
 location
@@ -864,7 +844,6 @@ breakpointActions
 :
 disableBreakpointsOnLineItem
 (
-cx
 breakpoint
 .
 location
@@ -918,9 +897,6 @@ export
 function
 createBreakpointItems
 (
-cx
-:
-Context
 location
 :
 SourceLocation
@@ -935,7 +911,6 @@ items
 [
 addBreakpointItem
 (
-cx
 location
 breakpointActions
 )
@@ -974,9 +949,6 @@ const
 removeBreakpointsOnLineItem
 =
 (
-cx
-:
-Context
 location
 :
 SourceLocation
@@ -1044,7 +1016,6 @@ breakpointActions
 .
 removeBreakpointsAtLine
 (
-cx
 location
 .
 sourceId
@@ -1060,9 +1031,6 @@ const
 enableBreakpointsOnLineItem
 =
 (
-cx
-:
-Context
 location
 :
 SourceLocation
@@ -1130,7 +1098,6 @@ breakpointActions
 .
 enableBreakpointsAtLine
 (
-cx
 location
 .
 sourceId
@@ -1146,9 +1113,6 @@ const
 disableBreakpointsOnLineItem
 =
 (
-cx
-:
-Context
 location
 :
 SourceLocation
@@ -1216,7 +1180,6 @@ breakpointActions
 .
 disableBreakpointsAtLine
 (
-cx
 location
 .
 sourceId

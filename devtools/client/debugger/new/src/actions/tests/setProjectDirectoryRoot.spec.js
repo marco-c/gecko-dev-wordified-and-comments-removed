@@ -74,7 +74,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -87,7 +86,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 example
 .
@@ -139,7 +137,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -152,7 +149,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 /
 example
@@ -207,7 +203,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -220,7 +215,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 /
 example
@@ -238,7 +232,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 /
 foo
@@ -292,7 +285,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -305,7 +297,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 /
 example
@@ -323,7 +314,6 @@ actions
 .
 clearProjectDirectoryRoot
 (
-cx
 )
 )
 ;
@@ -333,7 +323,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 /
 example
@@ -396,7 +385,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -447,7 +435,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 localhost
 :
@@ -567,7 +554,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -580,7 +566,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 example
 .
@@ -595,7 +580,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 example
 .
@@ -660,7 +644,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -673,7 +656,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 webpack
 :
@@ -689,7 +671,6 @@ actions
 .
 setProjectDirectoryRoot
 (
-cx
 "
 webpack
 :

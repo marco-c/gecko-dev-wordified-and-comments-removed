@@ -27,25 +27,6 @@ from
 QuickOpenModal
 "
 ;
-import
-{
-mockcx
-}
-from
-"
-.
-.
-/
-.
-.
-/
-utils
-/
-test
--
-mockup
-"
-;
 jest
 .
 mock
@@ -83,9 +64,6 @@ const
 props
 =
 {
-cx
-:
-mockcx
 enabled
 :
 false
@@ -1617,7 +1595,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 column
 :
@@ -1733,7 +1710,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 column
 :
@@ -2395,7 +2371,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 column
 :
@@ -2552,7 +2527,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 column
 :
@@ -2712,7 +2686,6 @@ selectSpecificLocation
 .
 toHaveBeenCalledWith
 (
-mockcx
 {
 column
 :

@@ -101,7 +101,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -134,7 +133,6 @@ actions
 .
 loadSourceText
 (
-cx
 foo1Source
 )
 )
@@ -233,7 +231,6 @@ actions
 .
 loadSourceText
 (
-cx
 baseFoo2Source
 )
 )
@@ -502,7 +499,6 @@ contentType
 ;
 const
 {
-cx
 dispatch
 getState
 }
@@ -555,7 +551,6 @@ actions
 .
 addBreakpoint
 (
-cx
 location
 {
 }
@@ -635,7 +630,6 @@ actions
 .
 loadSourceText
 (
-cx
 fooOrigSource
 )
 )
@@ -696,7 +690,6 @@ actions
 .
 loadSourceText
 (
-cx
 fooGenSource
 )
 )
@@ -782,7 +775,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -877,7 +869,6 @@ actions
 .
 loadSourceText
 (
-cx
 source
 )
 )
@@ -903,7 +894,6 @@ actions
 .
 loadSourceText
 (
-cx
 source
 )
 )
@@ -1018,7 +1008,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -1116,7 +1105,6 @@ actions
 .
 loadSourceText
 (
-cx
 source
 )
 )
@@ -1178,7 +1166,6 @@ actions
 .
 loadSourceText
 (
-cx
 source
 )
 )
@@ -1245,7 +1232,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -1270,7 +1256,6 @@ actions
 .
 loadSourceText
 (
-cx
 source
 )
 )
@@ -1297,7 +1282,6 @@ actions
 .
 loadSourceText
 (
-cx
 prevSource
 )
 )
@@ -1359,7 +1343,6 @@ sourceThreadClient
 const
 {
 dispatch
-cx
 }
 =
 store
@@ -1432,7 +1415,6 @@ actions
 .
 loadSourceText
 (
-cx
 source
 )
 )
@@ -1472,7 +1454,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -1510,7 +1491,6 @@ actions
 .
 loadSourceText
 (
-cx
 source
 )
 )

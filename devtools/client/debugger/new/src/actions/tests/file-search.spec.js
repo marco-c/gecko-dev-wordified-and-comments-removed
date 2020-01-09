@@ -57,7 +57,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -123,7 +122,6 @@ actions
 .
 updateSearchResults
 (
-cx
 2
 3
 matches
@@ -180,7 +178,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -214,7 +211,6 @@ actions
 .
 setFileSearchQuery
 (
-cx
 "
 foobar
 "
@@ -264,7 +260,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -304,7 +299,6 @@ actions
 .
 toggleFileSearchModifier
 (
-cx
 "
 caseSensitive
 "
@@ -360,7 +354,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -373,7 +366,6 @@ actions
 .
 setFileSearchQuery
 (
-cx
 "
 foobar
 "
@@ -408,7 +400,6 @@ actions
 .
 setFileSearchQuery
 (
-cx
 "
 "
 )

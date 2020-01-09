@@ -502,10 +502,6 @@ actions
 .
 jumpToMappedSelectedLocation
 (
-getContext
-(
-dbg
-)
 )
 ;
 await
@@ -532,10 +528,6 @@ actions
 .
 jumpToMappedSelectedLocation
 (
-getContext
-(
-dbg
-)
 )
 ;
 await

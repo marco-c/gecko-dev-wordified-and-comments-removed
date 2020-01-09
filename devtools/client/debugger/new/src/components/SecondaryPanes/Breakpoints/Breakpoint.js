@@ -188,7 +188,6 @@ BreakpointType
 Frame
 Source
 SourceLocation
-Context
 }
 from
 "
@@ -221,7 +220,6 @@ getBreakpointsList
 getSelectedFrame
 getSelectedSource
 getCurrentThread
-getContext
 }
 from
 "
@@ -241,9 +239,6 @@ type
 Props
 =
 {
-cx
-:
-Context
 breakpoint
 :
 BreakpointType
@@ -433,7 +428,6 @@ preventDefault
 ;
 const
 {
-cx
 selectSpecificLocation
 }
 =
@@ -443,7 +437,6 @@ props
 ;
 selectSpecificLocation
 (
-cx
 this
 .
 selectedLocation
@@ -459,7 +452,6 @@ event
 {
 const
 {
-cx
 removeBreakpoint
 breakpoint
 }
@@ -476,7 +468,6 @@ stopPropagation
 ;
 removeBreakpoint
 (
-cx
 breakpoint
 )
 ;
@@ -491,7 +482,6 @@ handleBreakpointCheckbox
 {
 const
 {
-cx
 breakpoint
 enableBreakpoint
 disableBreakpoint
@@ -510,7 +500,6 @@ disabled
 {
 enableBreakpoint
 (
-cx
 breakpoint
 )
 ;
@@ -519,7 +508,6 @@ else
 {
 disableBreakpoint
 (
-cx
 breakpoint
 )
 ;
@@ -1171,12 +1159,6 @@ state
 >
 (
 {
-cx
-:
-getContext
-(
-state
-)
 breakpoints
 :
 getBreakpointsList

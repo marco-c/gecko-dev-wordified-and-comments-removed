@@ -212,10 +212,6 @@ actions
 .
 removeAllBreakpoints
 (
-getContext
-(
-dbg
-)
 )
 ;
 await

@@ -69,11 +69,6 @@ DIRS
 CompiledModules
 (
 '
-context
-.
-js
-'
-'
 history
 .
 js

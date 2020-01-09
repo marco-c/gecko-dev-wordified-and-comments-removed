@@ -73,7 +73,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -132,7 +131,6 @@ dispatch
 (
 createPrettySource
 (
-cx
 source
 .
 id
@@ -259,7 +257,6 @@ actions
 .
 togglePrettyPrint
 (
-cx
 source
 .
 id
@@ -332,7 +329,6 @@ actions
 .
 togglePrettyPrint
 (
-cx
 source
 .
 id
@@ -363,7 +359,6 @@ actions
 .
 togglePrettyPrint
 (
-cx
 source
 .
 id
