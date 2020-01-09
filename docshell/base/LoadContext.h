@@ -127,10 +127,6 @@ aToCopy
 .
 mUseTrackingProtection
 )
-mOriginAttributes
-(
-aAttrs
-)
 #
 ifdef
 DEBUG
@@ -142,6 +138,10 @@ mIsNotNull
 )
 #
 endif
+mOriginAttributes
+(
+aAttrs
+)
 {
 }
 LoadContext
@@ -186,10 +186,6 @@ aToCopy
 .
 mUseTrackingProtection
 )
-mOriginAttributes
-(
-aAttrs
-)
 #
 ifdef
 DEBUG
@@ -201,6 +197,10 @@ mIsNotNull
 )
 #
 endif
+mOriginAttributes
+(
+aAttrs
+)
 {
 }
 LoadContext
@@ -248,10 +248,6 @@ mUseTrackingProtection
 (
 aUseTrackingProtection
 )
-mOriginAttributes
-(
-aAttrs
-)
 #
 ifdef
 DEBUG
@@ -261,6 +257,10 @@ true
 )
 #
 endif
+mOriginAttributes
+(
+aAttrs
+)
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
@@ -305,10 +305,6 @@ mUseTrackingProtection
 (
 false
 )
-mOriginAttributes
-(
-aAttrs
-)
 #
 ifdef
 DEBUG
@@ -318,6 +314,10 @@ true
 )
 #
 endif
+mOriginAttributes
+(
+aAttrs
+)
 {
 }
 explicit
@@ -356,9 +356,6 @@ mUseRemoteTabs
 bool
 mUseTrackingProtection
 ;
-OriginAttributes
-mOriginAttributes
-;
 #
 ifdef
 DEBUG
@@ -367,6 +364,9 @@ mIsNotNull
 ;
 #
 endif
+OriginAttributes
+mOriginAttributes
+;
 }
 ;
 already_AddRefed
