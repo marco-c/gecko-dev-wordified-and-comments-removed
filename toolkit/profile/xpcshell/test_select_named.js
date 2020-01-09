@@ -91,15 +91,6 @@ Profile1
 ]
 )
 ;
-checkStartupReason
-(
-"
-argument
--
-p
-"
-)
-;
 Assert
 .
 ok

@@ -410,6 +410,11 @@ false
 )
 ;
 const
+PING_FORMAT_VERSION
+=
+4
+;
+const
 MS_IN_A_MINUTE
 =
 60
@@ -4552,9 +4557,7 @@ isV4PingFormat
 ping
 )
 ?
-AppConstants
-.
-TELEMETRY_PING_FORMAT_VERSION
+PING_FORMAT_VERSION
 :
 1
 ;
