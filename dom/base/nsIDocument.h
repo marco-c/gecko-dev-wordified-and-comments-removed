@@ -3485,6 +3485,12 @@ BlockedTrackingNodes
 )
 const
 ;
+bool
+StorageAccessSandboxed
+(
+)
+const
+;
 protected
 :
 friend
