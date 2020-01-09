@@ -182,6 +182,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 SharedGL
 )
 ;
+explicit
 SharedGL
 (
 AndroidNativeWindow

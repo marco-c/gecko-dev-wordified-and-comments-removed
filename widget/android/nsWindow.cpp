@@ -1258,6 +1258,7 @@ mOldImpl
 ;
 public
 :
+explicit
 ImplDisposer
 (
 const
