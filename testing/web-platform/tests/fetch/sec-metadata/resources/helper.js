@@ -80,6 +80,17 @@ site
 "
 )
 ;
+if
+(
+expected
+.
+hasOwnProperty
+(
+"
+user
+"
+)
+)
 assert_equals
 (
 value
