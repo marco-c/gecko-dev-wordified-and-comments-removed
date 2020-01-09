@@ -1903,12 +1903,6 @@ InsertBRElementToEmptyListItemsAndTableCellsInChangedRange
 ;
 MOZ_MUST_USE
 nsresult
-AdjustWhitespace
-(
-)
-;
-MOZ_MUST_USE
-nsresult
 PinSelectionToNewBlock
 (
 )
