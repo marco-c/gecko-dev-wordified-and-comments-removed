@@ -246,13 +246,6 @@ false
 \
 _
 (
-UseWebRenderProgramBinary
-bool
-false
-)
-\
-_
-(
 UseWebRenderProgramBinaryDisk
 bool
 false
