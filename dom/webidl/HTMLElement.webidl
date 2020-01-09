@@ -522,7 +522,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 attribute
@@ -536,7 +536,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 attribute
@@ -550,7 +550,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 attribute
@@ -564,7 +564,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 attribute

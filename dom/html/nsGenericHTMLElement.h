@@ -2075,12 +2075,14 @@ override
 ;
 static
 bool
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 (
 JSContext
 *
+aCx
 JSObject
 *
+aObj
 )
 ;
 static

@@ -8183,7 +8183,7 @@ bool
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 (
 JSContext
 *
@@ -8197,7 +8197,7 @@ return
 TouchEvent
 :
 :
-PrefEnabled
+LegacyAPIEnabled
 (
 aCx
 aGlobal

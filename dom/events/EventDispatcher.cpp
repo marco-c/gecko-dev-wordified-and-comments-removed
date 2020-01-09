@@ -6920,7 +6920,7 @@ touchevent
 TouchEvent
 :
 :
-PrefEnabled
+LegacyAPIEnabled
 (
 nsContentUtils
 :
@@ -6929,6 +6929,13 @@ GetDocShellForEventTarget
 (
 aOwner
 )
+aCallerType
+=
+=
+CallerType
+:
+:
+System
 )
 )
 {

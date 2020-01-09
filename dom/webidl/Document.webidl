@@ -2917,7 +2917,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 Touch
@@ -3062,7 +3062,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 TouchList
@@ -3121,7 +3121,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 TouchList
@@ -3137,7 +3137,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 TouchList

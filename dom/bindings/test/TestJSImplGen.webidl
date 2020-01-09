@@ -6252,7 +6252,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 readonly
@@ -6274,7 +6274,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 readonly
@@ -6296,7 +6296,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 readonly
@@ -6318,7 +6318,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 readonly
@@ -6354,7 +6354,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 void
@@ -6395,7 +6395,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 void
@@ -6558,7 +6558,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 readonly
@@ -6624,7 +6624,7 @@ Func
 nsGenericHTMLElement
 :
 :
-TouchEventsEnabled
+LegacyTouchAPIEnabled
 "
 ]
 void
