@@ -110,13 +110,10 @@ stdio
 .
 h
 >
-#
-include
-<
-stdbool
-.
-h
->
+typedef
+int
+qcms_bool
+;
 struct
 _qcms_transform
 ;
@@ -165,7 +162,6 @@ enum
 {
 QCMS_DATA_RGB_8
 QCMS_DATA_RGBA_8
-QCMS_DATA_BGRA_8
 QCMS_DATA_GRAY_8
 QCMS_DATA_GRAYA_8
 }
@@ -324,7 +320,7 @@ qcms_profile
 profile
 )
 ;
-bool
+qcms_bool
 qcms_profile_is_bogus
 (
 qcms_profile
@@ -387,7 +383,6 @@ qcms_transform_data
 qcms_transform
 *
 transform
-const
 void
 *
 src
