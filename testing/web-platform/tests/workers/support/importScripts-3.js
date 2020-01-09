@@ -1,0 +1,9 @@
+importScripts
+(
+"
+invalidScript
+.
+js
+"
+)
+;
