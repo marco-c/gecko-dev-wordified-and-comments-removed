@@ -1897,6 +1897,7 @@ Navigator
 HasUserMediaSupport
 "
 NeedsCallerType
+UseCounter
 ]
 void
 mozGetUserMedia

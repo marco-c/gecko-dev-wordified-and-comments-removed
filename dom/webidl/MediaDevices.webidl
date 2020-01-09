@@ -182,6 +182,7 @@ getSupportedConstraints
 [
 Throws
 NeedsCallerType
+UseCounter
 ]
 Promise
 <
@@ -197,6 +198,7 @@ enumerateDevices
 [
 Throws
 NeedsCallerType
+UseCounter
 ]
 Promise
 <
@@ -213,6 +215,7 @@ constraints
 SecureContext
 Throws
 NeedsCallerType
+UseCounter
 ]
 Promise
 <

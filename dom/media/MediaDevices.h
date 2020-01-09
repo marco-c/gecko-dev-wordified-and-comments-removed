@@ -276,6 +276,15 @@ nsITimer
 >
 mFuzzTimer
 ;
+void
+RecordAccessTelemetry
+(
+const
+UseCounter
+counter
+)
+const
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
