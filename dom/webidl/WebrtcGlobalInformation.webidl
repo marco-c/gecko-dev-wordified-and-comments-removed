@@ -102,9 +102,6 @@ reports
 ;
 }
 ;
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 WebrtcGlobalStatisticsCallback
 =
@@ -114,9 +111,6 @@ WebrtcGlobalStatisticsReport
 reports
 )
 ;
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 WebrtcGlobalLoggingCallback
 =

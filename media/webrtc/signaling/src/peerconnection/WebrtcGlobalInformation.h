@@ -48,6 +48,7 @@ WebrtcGlobalInformation
 {
 public
 :
+MOZ_CAN_RUN_SCRIPT
 static
 void
 GetAllStats
@@ -81,6 +82,7 @@ GlobalObject
 aGlobal
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 GetLogging

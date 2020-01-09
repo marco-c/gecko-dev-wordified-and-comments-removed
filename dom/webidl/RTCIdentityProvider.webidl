@@ -312,9 +312,6 @@ validateAssertion
 ;
 }
 ;
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 GenerateAssertionCallback
 =
@@ -331,9 +328,6 @@ RTCIdentityProviderOptions
 options
 )
 ;
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 ValidateAssertionCallback
 =
