@@ -3881,7 +3881,6 @@ ffmpeg
 '
 )
 #
-Libaom
 AV1
 Video
 Codec
@@ -3954,16 +3953,14 @@ option
 '
 -
 -
-enable
+disable
 -
 av1
 '
 help
 =
 '
-Enable
-libaom
-for
+Disable
 av1
 video
 support
