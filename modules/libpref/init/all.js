@@ -39786,7 +39786,7 @@ webextensions
 .
 performanceCountersMaxAge
 "
-1000
+5000
 )
 ;
 pref
