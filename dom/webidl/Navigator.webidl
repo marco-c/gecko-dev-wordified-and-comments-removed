@@ -1833,9 +1833,6 @@ options
 ;
 }
 ;
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 NavigatorUserMediaSuccessCallback
 =
@@ -1845,9 +1842,6 @@ MediaStream
 stream
 )
 ;
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 NavigatorUserMediaErrorCallback
 =
@@ -1920,9 +1914,6 @@ errorCallback
 /
 /
 nsINavigatorUserMedia
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 MozGetUserMediaDevicesSuccessCallback
 =
