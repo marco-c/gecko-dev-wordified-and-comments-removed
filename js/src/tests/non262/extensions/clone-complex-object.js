@@ -1550,8 +1550,9 @@ for
 (
 obj
 of
-new
 getTestContent
+(
+)
 )
 check
 (
@@ -1559,6 +1560,7 @@ obj
 )
 ;
 function
+*
 getTestContent
 (
 )
