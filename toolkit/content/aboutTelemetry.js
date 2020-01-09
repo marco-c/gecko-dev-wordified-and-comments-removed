@@ -11592,6 +11592,11 @@ length
 }
 )
 ;
+if
+(
+hasData
+)
+{
 setHasData
 (
 "
@@ -11599,9 +11604,10 @@ events
 -
 section
 "
-hasData
+true
 )
 ;
+}
 if
 (
 Object
