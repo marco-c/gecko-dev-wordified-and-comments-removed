@@ -3126,12 +3126,11 @@ mCBReflowInput
 &
 &
 !
-nsLayoutUtils
-:
-:
-GetAsBlock
-(
 mFrame
+-
+>
+IsBlockFrameOrSubclass
+(
 )
 )
 {
