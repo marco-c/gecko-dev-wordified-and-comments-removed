@@ -478,7 +478,7 @@ new
 WorkletAnimation
 (
 '
-passthrough
+passthrough_except_nan
 '
 effect
 timeline
@@ -489,6 +489,9 @@ animation
 play
 (
 )
+;
+return
+animation
 ;
 }
 setup
@@ -506,7 +509,7 @@ setupAndRegisterTests
 (
 )
 {
-registerPassthroughAnimator
+registerPassthroughExceptNaNAnimator
 (
 )
 .
@@ -706,6 +709,9 @@ ltr
 '
 )
 ;
+const
+animation
+=
 createAndPlayTestAnimation
 (
 elements
@@ -752,9 +758,9 @@ scrollLeft
 *
 maxScroll
 ;
-waitForAsyncAnimationFrames
+waitForNotNullLocalTime
 (
-2
+animation
 )
 .
 then
@@ -818,6 +824,9 @@ ltr
 '
 )
 ;
+const
+animation
+=
 createAndPlayTestAnimation
 (
 elements
@@ -884,9 +893,9 @@ scrollLeft
 *
 maxScroll
 ;
-waitForAsyncAnimationFrames
+waitForNotNullLocalTime
 (
-2
+animation
 )
 .
 then
@@ -950,6 +959,9 @@ rtl
 '
 )
 ;
+const
+animation
+=
 createAndPlayTestAnimation
 (
 elements
@@ -1016,9 +1028,9 @@ scrollLeft
 *
 maxScroll
 ;
-waitForAsyncAnimationFrames
+waitForNotNullLocalTime
 (
-2
+animation
 )
 .
 then
@@ -1082,6 +1094,9 @@ ltr
 '
 )
 ;
+const
+animation
+=
 createAndPlayTestAnimation
 (
 elements
@@ -1128,9 +1143,9 @@ scrollTop
 *
 maxScroll
 ;
-waitForAsyncAnimationFrames
+waitForNotNullLocalTime
 (
-2
+animation
 )
 .
 then
@@ -1194,6 +1209,9 @@ rtl
 '
 )
 ;
+const
+animation
+=
 createAndPlayTestAnimation
 (
 elements
@@ -1262,9 +1280,9 @@ scrollTop
 *
 maxScroll
 ;
-waitForAsyncAnimationFrames
+waitForNotNullLocalTime
 (
-2
+animation
 )
 .
 then
