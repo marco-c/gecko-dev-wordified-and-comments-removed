@@ -1327,6 +1327,14 @@ mainMinSize
 ;
 mainFinalSize
 =
+mainMaxSize
+=
+=
+=
+null
+?
+mainFinalSize
+:
 Math
 .
 min
