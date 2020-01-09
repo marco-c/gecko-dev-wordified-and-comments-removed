@@ -15,8 +15,10 @@ style
 none
 ;
 margin
+-
+top
 :
-0
+4px
 ;
 padding
 :
@@ -640,14 +642,6 @@ block
 width
 :
 12px
-;
-margin
--
-inline
--
-start
-:
-4px
 ;
 }
 :

@@ -432,7 +432,6 @@ Props
 {
 const
 {
-thread
 projectRoot
 debuggeeUrl
 sources
