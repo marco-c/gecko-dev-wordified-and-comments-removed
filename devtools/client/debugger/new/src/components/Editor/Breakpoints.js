@@ -31,7 +31,7 @@ Breakpoint
 import
 {
 getSelectedSource
-getVisibleBreakpoints
+getFirstVisibleBreakpoints
 }
 from
 "
@@ -256,7 +256,7 @@ state
 {
 breakpoints
 :
-getVisibleBreakpoints
+getFirstVisibleBreakpoints
 (
 state
 )
