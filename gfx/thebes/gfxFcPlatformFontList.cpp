@@ -4495,7 +4495,7 @@ mFontData
 new
 UnscaledFontFontconfig
 (
-face
+mFTFace
 )
 :
 new
