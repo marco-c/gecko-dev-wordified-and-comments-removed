@@ -4846,12 +4846,6 @@ ownerDocument
 fullscreen
 )
 ;
-if
-(
-AppConstants
-.
-NIGHTLY_BUILD
-)
 {
 let
 shouldDisplay
