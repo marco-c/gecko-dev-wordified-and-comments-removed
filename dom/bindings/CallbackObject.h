@@ -508,14 +508,6 @@ eRethrowContentExceptions
 eRethrowExceptions
 }
 ;
-void
-GetDescription
-(
-nsACString
-&
-aOutString
-)
-;
 size_t
 SizeOfIncludingThis
 (
