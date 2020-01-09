@@ -167,8 +167,6 @@ LIB
 LIB
 :
 CLANG_LIB_DIR
-mk_export_correct_style
-LIB
 export
 LDFLAGS
 =

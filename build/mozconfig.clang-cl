@@ -35,8 +35,6 @@ CLANG_DIR
 PATH
 }
 "
-mk_export_correct_style
-PATH
 if
 (
 cd
@@ -91,8 +89,6 @@ LIB
 LIB
 :
 CLANG_LIB_DIR
-mk_export_correct_style
-LIB
 fi
 fi
 export

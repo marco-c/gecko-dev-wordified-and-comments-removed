@@ -35,8 +35,6 @@ CLANG_DIR
 PATH
 }
 "
-mk_export_correct_style
-PATH
 fi
 export
 LINKER
