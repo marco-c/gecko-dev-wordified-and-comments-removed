@@ -72,6 +72,10 @@ TestEndpointOpensParent
 public
 PTestEndpointOpensParent
 {
+friend
+class
+PTestEndpointOpensParent
+;
 public
 :
 TestEndpointOpensParent
@@ -113,7 +117,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -137,7 +140,6 @@ PTestEndpointOpensOpenedParent
 &
 endpoint
 )
-override
 ;
 virtual
 void
@@ -160,6 +162,10 @@ TestEndpointOpensOpenedParent
 public
 PTestEndpointOpensOpenedParent
 {
+friend
+class
+PTestEndpointOpensOpenedParent
+;
 public
 :
 explicit
@@ -177,7 +183,6 @@ TestEndpointOpensOpenedParent
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -188,9 +193,7 @@ IPCResult
 RecvHello
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -201,9 +204,7 @@ IPCResult
 RecvHelloSync
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -214,7 +215,6 @@ IPCResult
 AnswerHelloRpc
 (
 )
-override
 ;
 virtual
 void
@@ -237,6 +237,10 @@ TestEndpointOpensChild
 public
 PTestEndpointOpensChild
 {
+friend
+class
+PTestEndpointOpensChild
+;
 public
 :
 TestEndpointOpensChild
@@ -252,7 +256,6 @@ TestEndpointOpensChild
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -263,7 +266,6 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
 virtual
 void
@@ -286,6 +288,10 @@ TestEndpointOpensOpenedChild
 public
 PTestEndpointOpensOpenedChild
 {
+friend
+class
+PTestEndpointOpensOpenedChild
+;
 public
 :
 explicit
@@ -308,7 +314,6 @@ TestEndpointOpensOpenedChild
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -319,9 +324,7 @@ IPCResult
 RecvHi
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -332,7 +335,6 @@ IPCResult
 AnswerHiRpc
 (
 )
-override
 ;
 virtual
 void

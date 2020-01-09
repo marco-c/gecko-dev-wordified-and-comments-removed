@@ -50,6 +50,10 @@ TestHangsParent
 public
 PTestHangsParent
 {
+friend
+class
+PTestHangsParent
+;
 public
 :
 TestHangsParent
@@ -96,7 +100,6 @@ ShouldContinueFromReplyTimeout
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -107,7 +110,6 @@ IPCResult
 RecvNonce
 (
 )
-override
 {
 return
 IPC_OK
@@ -115,7 +117,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -126,7 +127,6 @@ IPCResult
 AnswerStackFrame
 (
 )
-override
 ;
 virtual
 void
@@ -184,6 +184,10 @@ TestHangsChild
 public
 PTestHangsChild
 {
+friend
+class
+PTestHangsChild
+;
 public
 :
 TestHangsChild
@@ -198,7 +202,6 @@ TestHangsChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -209,7 +212,6 @@ IPCResult
 RecvStart
 (
 )
-override
 {
 if
 (
@@ -232,7 +234,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -243,7 +244,6 @@ IPCResult
 AnswerStackFrame
 (
 )
-override
 {
 if
 (
@@ -266,7 +266,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -277,7 +276,6 @@ IPCResult
 AnswerHang
 (
 )
-override
 ;
 virtual
 void

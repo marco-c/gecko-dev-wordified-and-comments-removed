@@ -50,6 +50,10 @@ TestRacyUndeferParent
 public
 PTestRacyUndeferParent
 {
+friend
+class
+PTestRacyUndeferParent
+;
 public
 :
 TestRacyUndeferParent
@@ -89,7 +93,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -100,9 +103,7 @@ IPCResult
 AnswerSpam
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -113,9 +114,7 @@ IPCResult
 AnswerRaceWinTwice
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -126,7 +125,6 @@ IPCResult
 RecvDone
 (
 )
-override
 ;
 virtual
 void
@@ -173,6 +171,10 @@ TestRacyUndeferChild
 public
 PTestRacyUndeferChild
 {
+friend
+class
+PTestRacyUndeferChild
+;
 public
 :
 TestRacyUndeferChild
@@ -187,7 +189,6 @@ TestRacyUndeferChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -198,9 +199,7 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -211,9 +210,7 @@ IPCResult
 RecvAwakenSpam
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -224,9 +221,7 @@ IPCResult
 RecvAwakenRaceWinTwice
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -237,7 +232,6 @@ IPCResult
 AnswerRace
 (
 )
-override
 ;
 virtual
 void

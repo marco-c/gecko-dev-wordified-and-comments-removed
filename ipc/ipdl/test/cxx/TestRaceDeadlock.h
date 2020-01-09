@@ -50,6 +50,10 @@ TestRaceDeadlockParent
 public
 PTestRaceDeadlockParent
 {
+friend
+class
+PTestRaceDeadlockParent
+;
 public
 :
 TestRaceDeadlockParent
@@ -101,7 +105,6 @@ Test1
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -112,9 +115,7 @@ IPCResult
 RecvStartRace
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -125,7 +126,6 @@ IPCResult
 AnswerLose
 (
 )
-override
 ;
 virtual
 mozilla
@@ -193,6 +193,10 @@ TestRaceDeadlockChild
 public
 PTestRaceDeadlockChild
 {
+friend
+class
+PTestRaceDeadlockChild
+;
 public
 :
 TestRaceDeadlockChild
@@ -207,7 +211,6 @@ TestRaceDeadlockChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -218,9 +221,7 @@ IPCResult
 RecvStartRace
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -231,9 +232,7 @@ IPCResult
 AnswerWin
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -244,7 +243,6 @@ IPCResult
 AnswerRpc
 (
 )
-override
 ;
 virtual
 mozilla

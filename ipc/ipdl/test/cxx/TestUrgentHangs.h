@@ -107,7 +107,6 @@ IPCResult
 RecvTest1_2
 (
 )
-override
 ;
 mozilla
 :
@@ -119,7 +118,6 @@ IPCResult
 RecvTestInner
 (
 )
-override
 ;
 mozilla
 :
@@ -131,7 +129,6 @@ IPCResult
 RecvTestInnerUrgent
 (
 )
-override
 ;
 bool
 ShouldContinueFromReplyTimeout
@@ -234,7 +231,6 @@ IPCResult
 RecvTest1_1
 (
 )
-override
 ;
 mozilla
 :
@@ -246,7 +242,6 @@ IPCResult
 RecvTest1_3
 (
 )
-override
 ;
 mozilla
 :
@@ -258,7 +253,6 @@ IPCResult
 RecvTest2
 (
 )
-override
 ;
 mozilla
 :
@@ -270,7 +264,6 @@ IPCResult
 RecvTest3
 (
 )
-override
 ;
 mozilla
 :
@@ -282,7 +275,6 @@ IPCResult
 RecvTest4
 (
 )
-override
 ;
 mozilla
 :
@@ -294,7 +286,6 @@ IPCResult
 RecvTest4_1
 (
 )
-override
 ;
 mozilla
 :
@@ -306,7 +297,6 @@ IPCResult
 RecvTest5
 (
 )
-override
 ;
 mozilla
 :
@@ -318,7 +308,6 @@ IPCResult
 RecvTest5_1
 (
 )
-override
 ;
 virtual
 void

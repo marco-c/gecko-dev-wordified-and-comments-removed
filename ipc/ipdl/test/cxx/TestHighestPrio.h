@@ -97,7 +97,6 @@ IPCResult
 RecvMsg1
 (
 )
-override
 ;
 mozilla
 :
@@ -109,7 +108,6 @@ IPCResult
 RecvMsg2
 (
 )
-override
 ;
 mozilla
 :
@@ -121,7 +119,6 @@ IPCResult
 RecvMsg3
 (
 )
-override
 ;
 mozilla
 :
@@ -133,7 +130,6 @@ IPCResult
 RecvMsg4
 (
 )
-override
 ;
 virtual
 void
@@ -223,7 +219,6 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
 mozilla
 :
@@ -235,7 +230,6 @@ IPCResult
 RecvStartInner
 (
 )
-override
 ;
 virtual
 void

@@ -86,6 +86,10 @@ TestInterruptRacesParent
 public
 PTestInterruptRacesParent
 {
+friend
+class
+PTestInterruptRacesParent
+;
 public
 :
 TestInterruptRacesParent
@@ -140,7 +144,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -151,9 +154,7 @@ IPCResult
 RecvStartRace
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -167,9 +168,7 @@ bool
 *
 hasRace
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -180,9 +179,7 @@ IPCResult
 AnswerStackFrame
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -193,9 +190,7 @@ IPCResult
 AnswerStackFrame3
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -206,9 +201,7 @@ IPCResult
 AnswerParent
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -222,9 +215,7 @@ bool
 *
 answeredParent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -346,6 +337,10 @@ TestInterruptRacesChild
 public
 PTestInterruptRacesChild
 {
+friend
+class
+PTestInterruptRacesChild
+;
 public
 :
 TestInterruptRacesChild
@@ -367,7 +362,6 @@ TestInterruptRacesChild
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -378,9 +372,7 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -394,9 +386,7 @@ bool
 *
 hasRace
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -407,9 +397,7 @@ IPCResult
 AnswerStackFrame
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -420,9 +408,7 @@ IPCResult
 AnswerStackFrame3
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -433,9 +419,7 @@ IPCResult
 RecvWakeup
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -446,9 +430,7 @@ IPCResult
 RecvWakeup3
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -459,7 +441,6 @@ IPCResult
 AnswerChild
 (
 )
-override
 ;
 virtual
 mozilla

@@ -100,7 +100,6 @@ uint32_t
 *
 aResult
 )
-override
 ;
 mozilla
 :
@@ -115,7 +114,6 @@ uint32_t
 *
 aResult
 )
-override
 ;
 mozilla
 :
@@ -127,7 +125,6 @@ IPCResult
 RecvTest2_Start
 (
 )
-override
 ;
 mozilla
 :
@@ -139,7 +136,6 @@ IPCResult
 RecvTest2_OutOfOrder
 (
 )
-override
 ;
 virtual
 void
@@ -249,7 +245,6 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
 mozilla
 :
@@ -264,7 +259,6 @@ uint32_t
 *
 aResult
 )
-override
 ;
 mozilla
 :
@@ -279,7 +273,6 @@ uint32_t
 *
 aResult
 )
-override
 ;
 mozilla
 :
@@ -291,7 +284,6 @@ IPCResult
 RecvTest2_FirstUrgent
 (
 )
-override
 ;
 mozilla
 :
@@ -303,7 +295,6 @@ IPCResult
 RecvTest2_SecondUrgent
 (
 )
-override
 ;
 virtual
 void

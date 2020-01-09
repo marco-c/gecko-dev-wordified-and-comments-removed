@@ -94,6 +94,10 @@ TestEndpointBridgeMainParent
 public
 PTestEndpointBridgeMainParent
 {
+friend
+class
+PTestEndpointBridgeMainParent
+;
 public
 :
 TestEndpointBridgeMainParent
@@ -158,7 +162,6 @@ PTestEndpointBridgeMainSubParent
 &
 endpoint
 )
-override
 ;
 virtual
 void
@@ -177,6 +180,10 @@ TestEndpointBridgeMainSubParent
 public
 PTestEndpointBridgeMainSubParent
 {
+friend
+class
+PTestEndpointBridgeMainSubParent
+;
 public
 :
 explicit
@@ -194,7 +201,6 @@ TestEndpointBridgeMainSubParent
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -205,9 +211,7 @@ IPCResult
 RecvHello
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -218,9 +222,7 @@ IPCResult
 RecvHelloSync
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -231,7 +233,6 @@ IPCResult
 AnswerHelloRpc
 (
 )
-override
 ;
 virtual
 void
@@ -253,6 +254,10 @@ TestEndpointBridgeMainChild
 public
 PTestEndpointBridgeMainChild
 {
+friend
+class
+PTestEndpointBridgeMainChild
+;
 public
 :
 TestEndpointBridgeMainChild
@@ -268,7 +273,6 @@ TestEndpointBridgeMainChild
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -279,7 +283,6 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
 virtual
 void
@@ -302,6 +305,10 @@ TestEndpointBridgeSubParent
 public
 PTestEndpointBridgeSubParent
 {
+friend
+class
+PTestEndpointBridgeSubParent
+;
 public
 :
 TestEndpointBridgeSubParent
@@ -323,7 +330,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -334,7 +340,6 @@ IPCResult
 RecvBridgeEm
 (
 )
-override
 ;
 virtual
 void
@@ -353,6 +358,10 @@ TestEndpointBridgeSubChild
 public
 PTestEndpointBridgeSubChild
 {
+friend
+class
+PTestEndpointBridgeSubChild
+;
 public
 :
 TestEndpointBridgeSubChild
@@ -368,7 +377,6 @@ TestEndpointBridgeSubChild
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -379,7 +387,6 @@ IPCResult
 RecvPing
 (
 )
-override
 ;
 mozilla
 :
@@ -398,7 +405,6 @@ PTestEndpointBridgeMainSubChild
 &
 endpoint
 )
-override
 ;
 virtual
 void
@@ -417,6 +423,10 @@ TestEndpointBridgeMainSubChild
 public
 PTestEndpointBridgeMainSubChild
 {
+friend
+class
+PTestEndpointBridgeMainSubChild
+;
 public
 :
 explicit
@@ -439,7 +449,6 @@ TestEndpointBridgeMainSubChild
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -450,9 +459,7 @@ IPCResult
 RecvHi
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -463,7 +470,6 @@ IPCResult
 AnswerHiRpc
 (
 )
-override
 ;
 virtual
 void

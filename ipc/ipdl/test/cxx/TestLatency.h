@@ -67,6 +67,10 @@ TestLatencyParent
 public
 PTestLatencyParent
 {
+friend
+class
+PTestLatencyParent
+;
 private
 :
 typedef
@@ -122,7 +126,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -133,9 +136,7 @@ IPCResult
 RecvPong
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -146,7 +147,6 @@ IPCResult
 RecvPong5
 (
 )
-override
 ;
 virtual
 void
@@ -377,6 +377,10 @@ TestLatencyChild
 public
 PTestLatencyChild
 {
+friend
+class
+PTestLatencyChild
+;
 public
 :
 TestLatencyChild
@@ -391,7 +395,6 @@ TestLatencyChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -402,9 +405,7 @@ IPCResult
 RecvPing
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -415,9 +416,7 @@ IPCResult
 RecvPing5
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -428,9 +427,7 @@ IPCResult
 AnswerRpc
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -441,9 +438,7 @@ IPCResult
 RecvSpam
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -454,9 +449,7 @@ IPCResult
 AnswerSynchro
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -471,9 +464,7 @@ uint32_t
 &
 seqno
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -490,7 +481,6 @@ uint32_t
 *
 numMessagesDispatched
 )
-override
 ;
 virtual
 void

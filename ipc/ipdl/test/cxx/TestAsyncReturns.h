@@ -50,6 +50,10 @@ TestAsyncReturnsParent
 public
 PTestAsyncReturnsParent
 {
+friend
+class
+PTestAsyncReturnsParent
+;
 public
 :
 TestAsyncReturnsParent
@@ -103,7 +107,6 @@ PongResolver
 &
 aResolve
 )
-override
 ;
 virtual
 void
@@ -150,6 +153,10 @@ TestAsyncReturnsChild
 public
 PTestAsyncReturnsChild
 {
+friend
+class
+PTestAsyncReturnsChild
+;
 public
 :
 TestAsyncReturnsChild
@@ -178,7 +185,6 @@ PingResolver
 &
 aResolve
 )
-override
 ;
 mozilla
 :
@@ -194,7 +200,6 @@ NoReturnResolver
 &
 aResolve
 )
-override
 ;
 virtual
 void

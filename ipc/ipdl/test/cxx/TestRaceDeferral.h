@@ -50,6 +50,10 @@ TestRaceDeferralParent
 public
 PTestRaceDeferralParent
 {
+friend
+class
+PTestRaceDeferralParent
+;
 public
 :
 TestRaceDeferralParent
@@ -94,7 +98,6 @@ Test1
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -105,7 +108,6 @@ IPCResult
 AnswerLose
 (
 )
-override
 ;
 virtual
 mozilla
@@ -176,6 +178,10 @@ TestRaceDeferralChild
 public
 PTestRaceDeferralChild
 {
+friend
+class
+PTestRaceDeferralChild
+;
 public
 :
 TestRaceDeferralChild
@@ -190,7 +196,6 @@ TestRaceDeferralChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -201,9 +206,7 @@ IPCResult
 RecvStartRace
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -214,9 +217,7 @@ IPCResult
 AnswerWin
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -227,7 +228,6 @@ IPCResult
 AnswerRpc
 (
 )
-override
 ;
 virtual
 mozilla

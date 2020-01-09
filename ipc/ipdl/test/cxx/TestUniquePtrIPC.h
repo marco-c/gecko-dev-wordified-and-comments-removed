@@ -215,7 +215,6 @@ int
 &
 aA4
 )
-override
 ;
 mozilla
 :
@@ -234,7 +233,6 @@ DummyStruct
 &
 aA
 )
-override
 ;
 virtual
 void

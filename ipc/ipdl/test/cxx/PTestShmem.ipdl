@@ -16,7 +16,7 @@ Shmem
 mem
 Shmem
 unsafe
-size_t
+uint32_t
 expectedSize
 )
 ;
@@ -29,7 +29,7 @@ Shmem
 mem
 Shmem
 unsafe
-size_t
+uint32_t
 expectedSize
 )
 ;

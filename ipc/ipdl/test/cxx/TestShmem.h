@@ -49,6 +49,10 @@ TestShmemParent
 public
 PTestShmemParent
 {
+friend
+class
+PTestShmemParent
+;
 public
 :
 TestShmemParent
@@ -90,7 +94,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -113,7 +116,6 @@ size_t
 &
 expectedSize
 )
-override
 ;
 virtual
 void
@@ -160,6 +162,10 @@ TestShmemChild
 public
 PTestShmemChild
 {
+friend
+class
+PTestShmemChild
+;
 public
 :
 TestShmemChild
@@ -176,7 +182,6 @@ TestShmemChild
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -199,7 +204,6 @@ size_t
 &
 expectedSize
 )
-override
 ;
 virtual
 void

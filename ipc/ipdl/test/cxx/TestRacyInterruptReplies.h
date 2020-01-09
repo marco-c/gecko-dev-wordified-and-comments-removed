@@ -50,6 +50,10 @@ TestRacyInterruptRepliesParent
 public
 PTestRacyInterruptRepliesParent
 {
+friend
+class
+PTestRacyInterruptRepliesParent
+;
 public
 :
 TestRacyInterruptRepliesParent
@@ -89,7 +93,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -100,9 +103,7 @@ IPCResult
 RecvA_
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -116,7 +117,6 @@ int
 *
 replyNum
 )
-override
 ;
 virtual
 void
@@ -168,6 +168,10 @@ TestRacyInterruptRepliesChild
 public
 PTestRacyInterruptRepliesChild
 {
+friend
+class
+PTestRacyInterruptRepliesChild
+;
 public
 :
 TestRacyInterruptRepliesChild
@@ -182,7 +186,6 @@ TestRacyInterruptRepliesChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -196,9 +199,7 @@ int
 *
 replyNum
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -209,9 +210,7 @@ IPCResult
 RecvChildTest
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -222,7 +221,6 @@ IPCResult
 Recv_A
 (
 )
-override
 ;
 virtual
 void

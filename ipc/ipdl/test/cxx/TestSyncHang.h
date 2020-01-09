@@ -134,6 +134,10 @@ TestSyncHangChild
 public
 PTestSyncHangChild
 {
+friend
+class
+PTestSyncHangChild
+;
 public
 :
 TestSyncHangChild
@@ -148,7 +152,6 @@ TestSyncHangChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -159,7 +162,6 @@ IPCResult
 RecvUnusedMessage
 (
 )
-override
 ;
 virtual
 void

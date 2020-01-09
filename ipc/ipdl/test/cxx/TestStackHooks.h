@@ -50,6 +50,10 @@ TestStackHooksParent
 public
 PTestStackHooksParent
 {
+friend
+class
+PTestStackHooksParent
+;
 public
 :
 TestStackHooksParent
@@ -89,7 +93,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -100,7 +103,6 @@ IPCResult
 RecvAsync
 (
 )
-override
 {
 if
 (
@@ -127,7 +129,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -138,7 +139,6 @@ IPCResult
 RecvSync
 (
 )
-override
 {
 if
 (
@@ -165,7 +165,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -176,7 +175,6 @@ IPCResult
 AnswerRpc
 (
 )
-override
 {
 if
 (
@@ -203,7 +201,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -214,7 +211,6 @@ IPCResult
 AnswerStackFrame
 (
 )
-override
 ;
 virtual
 void
@@ -317,6 +313,10 @@ TestStackHooksChild
 public
 PTestStackHooksChild
 {
+friend
+class
+PTestStackHooksChild
+;
 public
 :
 TestStackHooksChild
@@ -336,7 +336,6 @@ RunTests
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -347,9 +346,7 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -360,7 +357,6 @@ IPCResult
 AnswerStackFrame
 (
 )
-override
 ;
 virtual
 void

@@ -50,6 +50,10 @@ TestRacyReentryParent
 public
 PTestRacyReentryParent
 {
+friend
+class
+PTestRacyReentryParent
+;
 public
 :
 TestRacyReentryParent
@@ -89,7 +93,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -100,7 +103,6 @@ IPCResult
 AnswerE
 (
 )
-override
 ;
 virtual
 void
@@ -150,6 +152,10 @@ TestRacyReentryChild
 public
 PTestRacyReentryChild
 {
+friend
+class
+PTestRacyReentryChild
+;
 public
 :
 TestRacyReentryChild
@@ -164,7 +170,6 @@ TestRacyReentryChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -175,9 +180,7 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -188,9 +191,7 @@ IPCResult
 RecvN
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -201,7 +202,6 @@ IPCResult
 AnswerH
 (
 )
-override
 ;
 virtual
 void

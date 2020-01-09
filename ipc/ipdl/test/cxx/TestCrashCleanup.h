@@ -130,6 +130,10 @@ TestCrashCleanupChild
 public
 PTestCrashCleanupChild
 {
+friend
+class
+PTestCrashCleanupChild
+;
 public
 :
 TestCrashCleanupChild
@@ -144,7 +148,6 @@ TestCrashCleanupChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -155,7 +158,6 @@ IPCResult
 AnswerDIEDIEDIE
 (
 )
-override
 ;
 virtual
 void

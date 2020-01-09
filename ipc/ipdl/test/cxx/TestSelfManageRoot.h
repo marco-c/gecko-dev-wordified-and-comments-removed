@@ -72,6 +72,10 @@ TestSelfManageParent
 public
 PTestSelfManageParent
 {
+friend
+class
+PTestSelfManageParent
+;
 public
 :
 TestSelfManageParent
@@ -101,13 +105,11 @@ mWhy
 ;
 protected
 :
-virtual
 PTestSelfManageParent
 *
 AllocPTestSelfManageParent
 (
 )
-override
 {
 return
 new
@@ -116,7 +118,6 @@ TestSelfManageParent
 )
 ;
 }
-virtual
 bool
 DeallocPTestSelfManageParent
 (
@@ -124,7 +125,6 @@ PTestSelfManageParent
 *
 a
 )
-override
 {
 return
 true
@@ -152,6 +152,10 @@ TestSelfManageRootParent
 public
 PTestSelfManageRootParent
 {
+friend
+class
+PTestSelfManageRootParent
+;
 public
 :
 TestSelfManageRootParent
@@ -203,13 +207,11 @@ Main
 ;
 protected
 :
-virtual
 PTestSelfManageParent
 *
 AllocPTestSelfManageParent
 (
 )
-override
 {
 return
 new
@@ -218,7 +220,6 @@ TestSelfManageParent
 )
 ;
 }
-virtual
 bool
 DeallocPTestSelfManageParent
 (
@@ -226,7 +227,6 @@ PTestSelfManageParent
 *
 a
 )
-override
 {
 return
 true
@@ -277,6 +277,10 @@ TestSelfManageChild
 public
 PTestSelfManageChild
 {
+friend
+class
+PTestSelfManageChild
+;
 public
 :
 TestSelfManageChild
@@ -303,13 +307,11 @@ TestSelfManageChild
 }
 protected
 :
-virtual
 PTestSelfManageChild
 *
 AllocPTestSelfManageChild
 (
 )
-override
 {
 return
 new
@@ -318,7 +320,6 @@ TestSelfManageChild
 )
 ;
 }
-virtual
 bool
 DeallocPTestSelfManageChild
 (
@@ -326,7 +327,6 @@ PTestSelfManageChild
 *
 a
 )
-override
 {
 delete
 a
@@ -353,6 +353,10 @@ TestSelfManageRootChild
 public
 PTestSelfManageRootChild
 {
+friend
+class
+PTestSelfManageRootChild
+;
 public
 :
 TestSelfManageRootChild
@@ -384,13 +388,11 @@ Main
 ;
 protected
 :
-virtual
 PTestSelfManageChild
 *
 AllocPTestSelfManageChild
 (
 )
-override
 {
 return
 new
@@ -399,7 +401,6 @@ TestSelfManageChild
 )
 ;
 }
-virtual
 bool
 DeallocPTestSelfManageChild
 (
@@ -407,7 +408,6 @@ PTestSelfManageChild
 *
 a
 )
-override
 {
 delete
 a

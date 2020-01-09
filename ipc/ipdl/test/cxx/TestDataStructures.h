@@ -133,6 +133,10 @@ TestDataStructuresParent
 public
 PTestDataStructuresParent
 {
+friend
+class
+PTestDataStructuresParent
+;
 public
 :
 TestDataStructuresParent
@@ -172,7 +176,6 @@ Main
 ;
 protected
 :
-virtual
 PTestDataStructuresSubParent
 *
 AllocPTestDataStructuresSubParent
@@ -182,7 +185,6 @@ int
 &
 i
 )
-override
 {
 PTestDataStructuresSubParent
 *
@@ -205,7 +207,6 @@ return
 actor
 ;
 }
-virtual
 bool
 DeallocPTestDataStructuresSubParent
 (
@@ -213,9 +214,7 @@ PTestDataStructuresSubParent
 *
 actor
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -239,9 +238,7 @@ int
 *
 o1
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -267,9 +264,7 @@ PTestDataStructuresSubParent
 *
 o1
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -294,9 +289,7 @@ IntDouble
 *
 o2
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -320,9 +313,7 @@ IntDouble
 *
 o1
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -354,9 +345,7 @@ IntDoubleArrays
 *
 o3
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -380,9 +369,7 @@ IntDoubleArrays
 *
 o1
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -400,9 +387,7 @@ ActorWrapper
 *
 o1
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -434,9 +419,7 @@ Actors
 *
 o3
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -460,9 +443,7 @@ Actors
 *
 o1
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -501,9 +482,7 @@ Unions
 *
 o4
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -527,9 +506,7 @@ Unions
 *
 o1
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -547,9 +524,7 @@ SIntDouble
 *
 o
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -567,9 +542,7 @@ SIntDoubleArrays
 *
 o
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -587,9 +560,7 @@ SActors
 *
 o
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -607,9 +578,7 @@ Structs
 *
 o
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -655,9 +624,7 @@ WithStructs
 *
 o5
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -675,9 +642,7 @@ WithUnions
 *
 o
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -695,9 +660,7 @@ Op
 &
 sa
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -715,9 +678,7 @@ nsIntRegion
 &
 ra
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -735,7 +696,6 @@ ShmemUnion
 *
 rsu
 )
-override
 {
 *
 rsu
@@ -802,6 +762,10 @@ TestDataStructuresChild
 public
 PTestDataStructuresChild
 {
+friend
+class
+PTestDataStructuresChild
+;
 public
 :
 TestDataStructuresChild
@@ -816,7 +780,6 @@ TestDataStructuresChild
 ;
 protected
 :
-virtual
 PTestDataStructuresSubChild
 *
 AllocPTestDataStructuresSubChild
@@ -826,7 +789,6 @@ int
 &
 i
 )
-override
 {
 PTestDataStructuresSubChild
 *
@@ -849,7 +811,6 @@ return
 actor
 ;
 }
-virtual
 bool
 DeallocPTestDataStructuresSubChild
 (
@@ -857,7 +818,6 @@ PTestDataStructuresSubChild
 *
 actor
 )
-override
 {
 delete
 actor
@@ -866,7 +826,6 @@ return
 true
 ;
 }
-virtual
 mozilla
 :
 :
@@ -877,7 +836,6 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
 virtual
 void

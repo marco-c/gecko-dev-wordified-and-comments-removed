@@ -50,6 +50,10 @@ TestNestedLoopsParent
 public
 PTestNestedLoopsParent
 {
+friend
+class
+PTestNestedLoopsParent
+;
 public
 :
 TestNestedLoopsParent
@@ -89,7 +93,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -100,7 +103,6 @@ IPCResult
 RecvNonce
 (
 )
-override
 ;
 void
 BreakNestedLoop
@@ -155,6 +157,10 @@ TestNestedLoopsChild
 public
 PTestNestedLoopsChild
 {
+friend
+class
+PTestNestedLoopsChild
+;
 public
 :
 TestNestedLoopsChild
@@ -169,7 +175,6 @@ TestNestedLoopsChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -180,9 +185,7 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -193,7 +196,6 @@ IPCResult
 AnswerR
 (
 )
-override
 ;
 virtual
 void

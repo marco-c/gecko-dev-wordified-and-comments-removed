@@ -145,7 +145,6 @@ uint64_t
 &
 aTxnId
 )
-override
 ;
 ipc
 :
@@ -158,7 +157,6 @@ uint64_t
 &
 aTxnId
 )
-override
 ;
 ipc
 :
@@ -171,7 +169,6 @@ uint64_t
 &
 aTxnId
 )
-override
 ;
 ipc
 :
@@ -180,7 +177,6 @@ IPCResult
 RecvEndTest
 (
 )
-override
 ;
 void
 ActorDestroy
@@ -263,7 +259,6 @@ PTestPaintThreadChild
 &
 aEndpoint
 )
-override
 ;
 void
 ActorDestroy
@@ -362,7 +357,6 @@ uint64_t
 &
 aTxnId
 )
-override
 ;
 void
 ActorDestroy

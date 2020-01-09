@@ -94,6 +94,10 @@ TestActorPunningParent
 public
 PTestActorPunningParent
 {
+friend
+class
+PTestActorPunningParent
+;
 public
 :
 static
@@ -128,7 +132,6 @@ PTestActorPunningPunnedParent
 AllocPTestActorPunningPunnedParent
 (
 )
-override
 ;
 bool
 DeallocPTestActorPunningPunnedParent
@@ -137,14 +140,12 @@ PTestActorPunningPunnedParent
 *
 a
 )
-override
 ;
 PTestActorPunningSubParent
 *
 AllocPTestActorPunningSubParent
 (
 )
-override
 ;
 bool
 DeallocPTestActorPunningSubParent
@@ -153,9 +154,7 @@ PTestActorPunningSubParent
 *
 a
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -173,7 +172,6 @@ Bad
 &
 bad
 )
-override
 ;
 virtual
 void
@@ -303,6 +301,10 @@ TestActorPunningChild
 public
 PTestActorPunningChild
 {
+friend
+class
+PTestActorPunningChild
+;
 public
 :
 TestActorPunningChild
@@ -324,7 +326,6 @@ PTestActorPunningPunnedChild
 AllocPTestActorPunningPunnedChild
 (
 )
-override
 ;
 bool
 DeallocPTestActorPunningPunnedChild
@@ -333,14 +334,12 @@ PTestActorPunningPunnedChild
 *
 a
 )
-override
 ;
 PTestActorPunningSubChild
 *
 AllocPTestActorPunningSubChild
 (
 )
-override
 ;
 bool
 DeallocPTestActorPunningSubChild
@@ -349,9 +348,7 @@ PTestActorPunningSubChild
 *
 a
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -362,7 +359,6 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
 virtual
 void
@@ -430,7 +426,6 @@ TestActorPunningSubChild
 )
 {
 }
-virtual
 mozilla
 :
 :
@@ -441,7 +436,6 @@ IPCResult
 RecvBad
 (
 )
-override
 ;
 }
 ;

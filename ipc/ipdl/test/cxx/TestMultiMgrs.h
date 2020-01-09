@@ -150,6 +150,10 @@ TestMultiMgrsLeftParent
 public
 PTestMultiMgrsLeftParent
 {
+friend
+class
+PTestMultiMgrsLeftParent
+;
 public
 :
 TestMultiMgrsLeftParent
@@ -195,13 +199,11 @@ why
 override
 {
 }
-virtual
 PTestMultiMgrsBottomParent
 *
 AllocPTestMultiMgrsBottomParent
 (
 )
-override
 {
 return
 new
@@ -210,7 +212,6 @@ TestMultiMgrsBottomParent
 )
 ;
 }
-virtual
 bool
 DeallocPTestMultiMgrsBottomParent
 (
@@ -218,7 +219,6 @@ PTestMultiMgrsBottomParent
 *
 actor
 )
-override
 {
 delete
 actor
@@ -235,6 +235,10 @@ TestMultiMgrsRightParent
 public
 PTestMultiMgrsRightParent
 {
+friend
+class
+PTestMultiMgrsRightParent
+;
 public
 :
 TestMultiMgrsRightParent
@@ -280,13 +284,11 @@ why
 override
 {
 }
-virtual
 PTestMultiMgrsBottomParent
 *
 AllocPTestMultiMgrsBottomParent
 (
 )
-override
 {
 return
 new
@@ -295,7 +297,6 @@ TestMultiMgrsBottomParent
 )
 ;
 }
-virtual
 bool
 DeallocPTestMultiMgrsBottomParent
 (
@@ -303,7 +304,6 @@ PTestMultiMgrsBottomParent
 *
 actor
 )
-override
 {
 delete
 actor
@@ -320,6 +320,10 @@ TestMultiMgrsParent
 public
 PTestMultiMgrsParent
 {
+friend
+class
+PTestMultiMgrsParent
+;
 public
 :
 TestMultiMgrsParent
@@ -361,7 +365,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -372,15 +375,12 @@ IPCResult
 RecvOK
 (
 )
-override
 ;
-virtual
 PTestMultiMgrsLeftParent
 *
 AllocPTestMultiMgrsLeftParent
 (
 )
-override
 {
 return
 new
@@ -389,7 +389,6 @@ TestMultiMgrsLeftParent
 )
 ;
 }
-virtual
 bool
 DeallocPTestMultiMgrsLeftParent
 (
@@ -397,7 +396,6 @@ PTestMultiMgrsLeftParent
 *
 actor
 )
-override
 {
 delete
 actor
@@ -406,13 +404,11 @@ return
 true
 ;
 }
-virtual
 PTestMultiMgrsRightParent
 *
 AllocPTestMultiMgrsRightParent
 (
 )
-override
 {
 return
 new
@@ -421,7 +417,6 @@ TestMultiMgrsRightParent
 )
 ;
 }
-virtual
 bool
 DeallocPTestMultiMgrsRightParent
 (
@@ -429,7 +424,6 @@ PTestMultiMgrsRightParent
 *
 actor
 )
-override
 {
 delete
 actor
@@ -505,6 +499,10 @@ TestMultiMgrsLeftChild
 public
 PTestMultiMgrsLeftChild
 {
+friend
+class
+PTestMultiMgrsLeftChild
+;
 public
 :
 TestMultiMgrsLeftChild
@@ -556,13 +554,11 @@ actor
 )
 override
 ;
-virtual
 PTestMultiMgrsBottomChild
 *
 AllocPTestMultiMgrsBottomChild
 (
 )
-override
 {
 return
 new
@@ -571,7 +567,6 @@ TestMultiMgrsBottomChild
 )
 ;
 }
-virtual
 bool
 DeallocPTestMultiMgrsBottomChild
 (
@@ -579,7 +574,6 @@ PTestMultiMgrsBottomChild
 *
 actor
 )
-override
 {
 delete
 actor
@@ -596,6 +590,10 @@ TestMultiMgrsRightChild
 public
 PTestMultiMgrsRightChild
 {
+friend
+class
+PTestMultiMgrsRightChild
+;
 public
 :
 TestMultiMgrsRightChild
@@ -647,13 +645,11 @@ actor
 )
 override
 ;
-virtual
 PTestMultiMgrsBottomChild
 *
 AllocPTestMultiMgrsBottomChild
 (
 )
-override
 {
 return
 new
@@ -662,7 +658,6 @@ TestMultiMgrsBottomChild
 )
 ;
 }
-virtual
 bool
 DeallocPTestMultiMgrsBottomChild
 (
@@ -670,7 +665,6 @@ PTestMultiMgrsBottomChild
 *
 actor
 )
-override
 {
 delete
 actor
@@ -687,6 +681,10 @@ TestMultiMgrsChild
 public
 PTestMultiMgrsChild
 {
+friend
+class
+PTestMultiMgrsChild
+;
 public
 :
 TestMultiMgrsChild
@@ -716,7 +714,6 @@ mBottomR
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -727,15 +724,12 @@ IPCResult
 RecvCheck
 (
 )
-override
 ;
-virtual
 PTestMultiMgrsLeftChild
 *
 AllocPTestMultiMgrsLeftChild
 (
 )
-override
 {
 return
 new
@@ -744,7 +738,6 @@ TestMultiMgrsLeftChild
 )
 ;
 }
-virtual
 bool
 DeallocPTestMultiMgrsLeftChild
 (
@@ -752,7 +745,6 @@ PTestMultiMgrsLeftChild
 *
 actor
 )
-override
 {
 delete
 actor
@@ -761,13 +753,11 @@ return
 true
 ;
 }
-virtual
 PTestMultiMgrsRightChild
 *
 AllocPTestMultiMgrsRightChild
 (
 )
-override
 {
 return
 new
@@ -776,7 +766,6 @@ TestMultiMgrsRightChild
 )
 ;
 }
-virtual
 bool
 DeallocPTestMultiMgrsRightChild
 (
@@ -784,7 +773,6 @@ PTestMultiMgrsRightChild
 *
 actor
 )
-override
 {
 delete
 actor

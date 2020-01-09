@@ -71,6 +71,10 @@ TestBadActorParent
 public
 PTestBadActorParent
 {
+friend
+class
+PTestBadActorParent
+;
 public
 :
 TestBadActorParent
@@ -160,15 +164,12 @@ aErrorMsg
 const
 override
 ;
-virtual
 PTestBadActorSubParent
 *
 AllocPTestBadActorSubParent
 (
 )
-override
 ;
-virtual
 bool
 DeallocPTestBadActorSubParent
 (
@@ -176,7 +177,6 @@ PTestBadActorSubParent
 *
 actor
 )
-override
 {
 delete
 actor
@@ -193,6 +193,10 @@ TestBadActorSubParent
 public
 PTestBadActorSubParent
 {
+friend
+class
+PTestBadActorSubParent
+;
 public
 :
 TestBadActorSubParent
@@ -219,7 +223,6 @@ why
 override
 {
 }
-virtual
 mozilla
 :
 :
@@ -230,7 +233,6 @@ IPCResult
 RecvPing
 (
 )
-override
 ;
 }
 ;
@@ -240,6 +242,10 @@ TestBadActorChild
 public
 PTestBadActorChild
 {
+friend
+class
+PTestBadActorChild
+;
 public
 :
 TestBadActorChild

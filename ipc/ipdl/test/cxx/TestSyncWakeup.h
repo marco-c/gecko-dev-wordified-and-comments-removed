@@ -50,6 +50,10 @@ TestSyncWakeupParent
 public
 PTestSyncWakeupParent
 {
+friend
+class
+PTestSyncWakeupParent
+;
 public
 :
 TestSyncWakeupParent
@@ -89,7 +93,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -100,9 +103,7 @@ IPCResult
 AnswerStackFrame
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -113,9 +114,7 @@ IPCResult
 RecvSync1
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -126,7 +125,6 @@ IPCResult
 RecvSync2
 (
 )
-override
 ;
 virtual
 void
@@ -173,6 +171,10 @@ TestSyncWakeupChild
 public
 PTestSyncWakeupChild
 {
+friend
+class
+PTestSyncWakeupChild
+;
 public
 :
 TestSyncWakeupChild
@@ -187,7 +189,6 @@ TestSyncWakeupChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -198,9 +199,7 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -211,9 +210,7 @@ IPCResult
 RecvNote1
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -224,9 +221,7 @@ IPCResult
 AnswerStackFrame
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -237,7 +232,6 @@ IPCResult
 RecvNote2
 (
 )
-override
 ;
 virtual
 void

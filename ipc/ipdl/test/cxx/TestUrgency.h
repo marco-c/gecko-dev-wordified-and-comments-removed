@@ -100,7 +100,6 @@ uint32_t
 *
 value
 )
-override
 ;
 mozilla
 :
@@ -112,7 +111,6 @@ IPCResult
 RecvTest2
 (
 )
-override
 ;
 mozilla
 :
@@ -127,7 +125,6 @@ uint32_t
 *
 value
 )
-override
 ;
 mozilla
 :
@@ -161,7 +158,6 @@ IPCResult
 RecvFinalTest_Begin
 (
 )
-override
 ;
 bool
 ShouldContinueFromReplyTimeout
@@ -229,7 +225,6 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
 mozilla
 :
@@ -244,7 +239,6 @@ uint32_t
 *
 reply
 )
-override
 ;
 mozilla
 :
@@ -259,7 +253,6 @@ uint32_t
 *
 reply
 )
-override
 ;
 virtual
 void

@@ -141,7 +141,6 @@ int
 &
 n
 )
-override
 ;
 mozilla
 :
@@ -153,7 +152,6 @@ IPCResult
 RecvHiPrioSyncMessage
 (
 )
-override
 ;
 mozilla
 :
@@ -169,7 +167,6 @@ int
 &
 n
 )
-override
 ;
 mozilla
 :
@@ -185,7 +182,6 @@ int
 &
 n
 )
-override
 ;
 mozilla
 :
@@ -201,7 +197,6 @@ int
 &
 n
 )
-override
 ;
 virtual
 void
@@ -315,7 +310,6 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
 #
 ifdef
@@ -352,7 +346,6 @@ int
 &
 n
 )
-override
 ;
 mozilla
 :
@@ -364,7 +357,6 @@ IPCResult
 RecvHiPrioSyncMessage
 (
 )
-override
 ;
 virtual
 void

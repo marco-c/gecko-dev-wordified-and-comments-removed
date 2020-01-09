@@ -50,6 +50,10 @@ TestSanityParent
 public
 PTestSanityParent
 {
+friend
+class
+PTestSanityParent
+;
 public
 :
 TestSanityParent
@@ -89,7 +93,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -112,7 +115,6 @@ uint8_t
 &
 dummy
 )
-override
 ;
 virtual
 void
@@ -159,6 +161,10 @@ TestSanityChild
 public
 PTestSanityChild
 {
+friend
+class
+PTestSanityChild
+;
 public
 :
 TestSanityChild
@@ -173,7 +179,6 @@ TestSanityChild
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -196,7 +201,6 @@ int8_t
 &
 dummy
 )
-override
 ;
 virtual
 void

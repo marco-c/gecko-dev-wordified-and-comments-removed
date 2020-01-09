@@ -87,7 +87,6 @@ Main
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -98,9 +97,7 @@ IPCResult
 RecvDone1
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -111,9 +108,7 @@ IPCResult
 RecvTest2_1
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -124,9 +119,7 @@ IPCResult
 RecvStart3
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -137,9 +130,7 @@ IPCResult
 RecvTest3_2
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -150,9 +141,7 @@ IPCResult
 RecvDone
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -166,7 +155,6 @@ uint32_t
 *
 reply
 )
-override
 ;
 virtual
 void
@@ -209,7 +197,6 @@ TestCancelChild
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -220,9 +207,7 @@ IPCResult
 RecvTest1_1
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -233,9 +218,7 @@ IPCResult
 RecvStart2
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -246,9 +229,7 @@ IPCResult
 RecvTest2_2
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -259,9 +240,7 @@ IPCResult
 RecvTest3_1
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -275,7 +254,6 @@ uint32_t
 *
 reply
 )
-override
 ;
 virtual
 void

@@ -93,6 +93,10 @@ TestDescParent
 public
 PTestDescParent
 {
+friend
+class
+PTestDescParent
+;
 public
 :
 TestDescParent
@@ -132,7 +136,6 @@ Main
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -146,11 +149,9 @@ PTestDescSubsubParent
 *
 a
 )
-override
 ;
 protected
 :
-virtual
 PTestDescSubParent
 *
 AllocPTestDescSubParent
@@ -158,9 +159,7 @@ AllocPTestDescSubParent
 PTestDescSubsubParent
 *
 )
-override
 ;
-virtual
 bool
 DeallocPTestDescSubParent
 (
@@ -168,7 +167,6 @@ PTestDescSubParent
 *
 actor
 )
-override
 ;
 virtual
 void
@@ -215,6 +213,10 @@ TestDescChild
 public
 PTestDescChild
 {
+friend
+class
+PTestDescChild
+;
 public
 :
 TestDescChild
@@ -231,7 +233,6 @@ TestDescChild
 }
 protected
 :
-virtual
 PTestDescSubChild
 *
 AllocPTestDescSubChild
@@ -239,9 +240,7 @@ AllocPTestDescSubChild
 PTestDescSubsubChild
 *
 )
-override
 ;
-virtual
 bool
 DeallocPTestDescSubChild
 (
@@ -249,9 +248,7 @@ PTestDescSubChild
 *
 actor
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -265,7 +262,6 @@ PTestDescSubsubChild
 *
 a
 )
-override
 ;
 virtual
 void
@@ -305,6 +301,10 @@ TestDescSubParent
 public
 PTestDescSubParent
 {
+friend
+class
+PTestDescSubParent
+;
 public
 :
 TestDescSubParent
@@ -331,15 +331,12 @@ why
 override
 {
 }
-virtual
 PTestDescSubsubParent
 *
 AllocPTestDescSubsubParent
 (
 )
-override
 ;
-virtual
 bool
 DeallocPTestDescSubsubParent
 (
@@ -347,7 +344,6 @@ PTestDescSubsubParent
 *
 actor
 )
-override
 ;
 }
 ;
@@ -357,6 +353,10 @@ TestDescSubChild
 public
 PTestDescSubChild
 {
+friend
+class
+PTestDescSubChild
+;
 public
 :
 TestDescSubChild
@@ -373,15 +373,12 @@ TestDescSubChild
 }
 protected
 :
-virtual
 PTestDescSubsubChild
 *
 AllocPTestDescSubsubChild
 (
 )
-override
 ;
-virtual
 bool
 DeallocPTestDescSubsubChild
 (
@@ -389,7 +386,6 @@ PTestDescSubsubChild
 *
 actor
 )
-override
 ;
 }
 ;

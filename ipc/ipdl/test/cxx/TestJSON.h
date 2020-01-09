@@ -106,6 +106,10 @@ TestJSONParent
 public
 PTestJSONParent
 {
+friend
+class
+PTestJSONParent
+;
 public
 :
 TestJSONParent
@@ -147,7 +151,6 @@ Main
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -165,15 +168,12 @@ JSONVariant
 *
 o
 )
-override
 ;
-virtual
 PTestHandleParent
 *
 AllocPTestHandleParent
 (
 )
-override
 {
 return
 mKid
@@ -184,7 +184,6 @@ TestHandleParent
 )
 ;
 }
-virtual
 bool
 DeallocPTestHandleParent
 (
@@ -192,7 +191,6 @@ PTestHandleParent
 *
 actor
 )
-override
 {
 delete
 actor
@@ -272,6 +270,10 @@ TestJSONChild
 public
 PTestJSONChild
 {
+friend
+class
+PTestJSONChild
+;
 public
 :
 TestJSONChild
@@ -288,7 +290,6 @@ TestJSONChild
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -299,15 +300,12 @@ IPCResult
 RecvStart
 (
 )
-override
 ;
-virtual
 PTestHandleChild
 *
 AllocPTestHandleChild
 (
 )
-override
 {
 return
 mKid
@@ -318,7 +316,6 @@ TestHandleChild
 )
 ;
 }
-virtual
 bool
 DeallocPTestHandleChild
 (
@@ -326,7 +323,6 @@ PTestHandleChild
 *
 actor
 )
-override
 {
 delete
 actor
