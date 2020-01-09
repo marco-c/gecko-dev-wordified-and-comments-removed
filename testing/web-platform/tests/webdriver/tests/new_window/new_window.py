@@ -188,7 +188,7 @@ window
     
 session
 .
-handle
+window_handle
 =
 value
 [
@@ -249,7 +249,7 @@ window
     
 session
 .
-handle
+window_handle
 =
 value
 [
@@ -308,7 +308,7 @@ window
     
 session
 .
-handle
+window_handle
 =
 value
 [
