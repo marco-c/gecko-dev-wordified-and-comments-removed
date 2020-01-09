@@ -1492,13 +1492,9 @@ MacroAssembler
 :
 Pop
 (
-ARMRegister
+ARMFPRegister
 (
 f
-.
-code
-(
-)
 64
 )
 )
