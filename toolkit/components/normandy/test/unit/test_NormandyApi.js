@@ -254,6 +254,10 @@ NormandyApi
 "
 get
 "
+)
+.
+callsFake
+(
 async
 (
 )
@@ -340,7 +344,7 @@ added
 ;
 mockGet
 .
-reset
+resetHistory
 (
 )
 ;
@@ -425,7 +429,7 @@ preserved
 ;
 mockGet
 .
-reset
+resetHistory
 (
 )
 ;

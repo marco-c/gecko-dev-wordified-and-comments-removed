@@ -272,7 +272,7 @@ AddressDataLoader
 .
 _loadScripts
 .
-reset
+resetHistory
 (
 )
 ;
@@ -319,7 +319,7 @@ AddressDataLoader
 .
 _loadScripts
 .
-reset
+resetHistory
 (
 )
 ;
@@ -401,7 +401,7 @@ AddressDataLoader
 .
 _loadScripts
 .
-reset
+resetHistory
 (
 )
 ;

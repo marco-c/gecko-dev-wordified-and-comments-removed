@@ -10173,6 +10173,10 @@ engine
 "
 getClientFxaDeviceId
 "
+)
+.
+callsFake
+(
 (
 id
 )
@@ -11532,7 +11536,7 @@ called
 ;
 spyUpdate
 .
-reset
+resetHistory
 (
 )
 ;
@@ -11675,6 +11679,10 @@ engine
 "
 _fetchFxADevices
 "
+)
+.
+callsFake
+(
 (
 )
 =
@@ -11817,6 +11825,10 @@ Service
 "
 getMemcacheMaxRecordPayloadSize
 "
+)
+.
+callsFake
+(
 (
 )
 =
