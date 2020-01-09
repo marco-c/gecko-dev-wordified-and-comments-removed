@@ -2964,6 +2964,7 @@ scaleY
 }
 const
 SVGViewBox
+&
 viewBox
 =
 aViewBox
