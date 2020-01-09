@@ -358,6 +358,7 @@ STACK_TRACES_KEY
 AnyThread
 public
 static
+NonNull
 GeckoResult
 <
 String

@@ -7740,6 +7740,7 @@ LOAD_FLAGS_NONE
 AnyThread
 public
 static
+NonNull
 String
 createDataUri
 (
@@ -7794,6 +7795,7 @@ NO_WRAP
 AnyThread
 public
 static
+NonNull
 String
 createDataUri
 (
@@ -13355,6 +13357,7 @@ session
 NonNull
 Selection
 selection
+NonNull
 Action
 String
 [

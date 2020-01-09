@@ -143,6 +143,7 @@ GeckoRuntimeSettings
 newSettings
 (
 final
+Nullable
 GeckoRuntimeSettings
 settings
 )
@@ -569,6 +570,7 @@ Builder
 crashHandler
 (
 final
+Nullable
 Class
 <
 ?
@@ -596,6 +598,7 @@ Builder
 locales
 (
 final
+Nullable
 String
 [
 ]

@@ -467,6 +467,7 @@ result
 ;
 }
 public
+NonNull
 GeckoResult
 <
 InetAddress
