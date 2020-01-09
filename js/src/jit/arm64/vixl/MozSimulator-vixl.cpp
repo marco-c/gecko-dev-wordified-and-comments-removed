@@ -339,7 +339,7 @@ VIXL_ASSERT
 (
 IsSignallingNaN
 (
-RawbitsToDouble
+rawbits_to_double
 (
 nan_bits
 &
@@ -352,7 +352,7 @@ VIXL_ASSERT
 (
 IsSignallingNaN
 (
-RawbitsToFloat
+rawbits_to_float
 (
 nan_bits
 &
