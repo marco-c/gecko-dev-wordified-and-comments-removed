@@ -4114,6 +4114,27 @@ format
     
 commandline
 .
+log_formatters
+[
+"
+wptscreenshot
+"
+]
+=
+(
+formatters
+.
+WptscreenshotFormatter
+"
+wpt
+.
+fyi
+screenshots
+"
+)
+    
+commandline
+.
 add_logging_group
 (
 parser
