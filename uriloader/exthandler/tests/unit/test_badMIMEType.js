@@ -24,6 +24,9 @@ length
 ;
 try
 {
+var
+type
+=
 Cc
 [
 "
@@ -84,6 +87,9 @@ throw
 e
 ;
 }
+}
+finally
+{
 }
 Assert
 .

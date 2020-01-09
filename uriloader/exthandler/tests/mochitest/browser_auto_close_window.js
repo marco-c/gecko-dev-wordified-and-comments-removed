@@ -131,6 +131,8 @@ prototype
 =
 {
 show
+:
+function
 (
 aLauncher
 aWindowContext
@@ -324,6 +326,15 @@ testNewTab
 browser
 )
 {
+let
+targetURL
+=
+browser
+.
+currentURI
+.
+spec
+;
 let
 dialogAppeared
 =

@@ -52,7 +52,6 @@ arguments
 )
 ;
 }
-;
 }
 for
 (
@@ -131,6 +130,8 @@ nsIWindowsRegKey
 ]
 )
 open
+:
+function
 (
 aRootKey
 aRelPath
@@ -163,6 +164,8 @@ aMode
 ;
 }
 openChild
+:
+function
 (
 aRelPath
 aMode
@@ -213,6 +216,8 @@ key
 ;
 }
 createChild
+:
+function
 (
 aRelPath
 aMode
@@ -289,6 +294,8 @@ valueCount
 ;
 }
 readStringValue
+:
+function
 (
 aName
 )
@@ -412,6 +419,13 @@ key
 1
 "
 ;
+const
+kWindowsRegKeyClassName
+=
+"
+nsWindowsRegKey
+"
+;
 function
 registerMockWindowsRegKeyFactory
 (
@@ -421,6 +435,8 @@ mockWindowsRegKeyFactory
 =
 {
 createInstance
+:
+function
 (
 aOuter
 aIid
@@ -531,6 +547,9 @@ registerMockWindowsRegKeyFactory
 ;
 try
 {
+var
+type
+=
 Cc
 [
 "

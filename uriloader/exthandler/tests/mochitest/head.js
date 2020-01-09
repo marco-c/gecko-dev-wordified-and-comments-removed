@@ -287,6 +287,8 @@ Proxy
 internalMockedMIME
 {
 get
+:
+function
 (
 target
 property

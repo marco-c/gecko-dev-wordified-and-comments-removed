@@ -91,6 +91,8 @@ prototype
 =
 {
 show
+:
+function
 (
 aLauncher
 aWindowContext
