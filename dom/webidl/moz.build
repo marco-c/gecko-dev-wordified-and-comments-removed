@@ -4547,6 +4547,11 @@ Request
 webidl
 '
 '
+ResizeObserver
+.
+webidl
+'
+'
 Response
 .
 webidl
