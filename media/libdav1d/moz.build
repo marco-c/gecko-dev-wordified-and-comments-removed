@@ -259,11 +259,15 @@ CONFIG
 OS_TARGET
 '
 ]
-=
-=
+in
+(
 '
 WINNT
 '
+'
+Darwin
+'
+)
 and
 CONFIG
 [
