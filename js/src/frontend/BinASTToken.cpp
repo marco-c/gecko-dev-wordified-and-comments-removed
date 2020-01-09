@@ -83,6 +83,7 @@ WITH_VARIANT
 (
 _
 SPEC_NAME
+_2
 )
 \
 BinaryASTSupport
