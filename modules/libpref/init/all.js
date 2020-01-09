@@ -19777,9 +19777,6 @@ setup
 jsol
 .
 js
-parent_utils
-.
-js
 chrometask_chromescript
 simpletest
 /
