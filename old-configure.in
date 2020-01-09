@@ -18414,6 +18414,13 @@ x86_64
 -
 mingw
 *
+|
+aarch64
+-
+*
+-
+mingw
+*
 )
 MOZ_CRASHREPORTER
 =
