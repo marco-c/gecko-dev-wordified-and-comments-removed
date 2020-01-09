@@ -9279,7 +9279,10 @@ RootedObject
 callerGlobal
 (
 cx
-CurrentGlobalOrNull
+JS
+:
+:
+GetScriptedCallerGlobal
 (
 cx
 )
