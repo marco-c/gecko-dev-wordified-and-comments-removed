@@ -812,6 +812,9 @@ clip_scroll_tree
 :
 &
 ClipScrollTree
+request_resources
+:
+bool
 )
 -
 >
@@ -1126,6 +1129,9 @@ tile
 in
 tiles
 {
+if
+request_resources
+{
 resource_cache
 .
 request_image
@@ -1141,6 +1147,7 @@ offset
 gpu_cache
 )
 ;
+}
 mask_tiles
 .
 push
@@ -1171,6 +1178,8 @@ mask_tiles
 ;
 }
 else
+if
+request_resources
 {
 resource_cache
 .
@@ -2239,6 +2248,9 @@ clip_data_store
 &
 mut
 ClipDataStore
+request_resources
+:
+bool
 )
 -
 >
@@ -2557,6 +2569,7 @@ local_bounding_rect
 gpu_cache
 resource_cache
 clip_scroll_tree
+request_resources
 )
 ;
 needs_mask
