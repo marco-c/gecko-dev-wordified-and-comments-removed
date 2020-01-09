@@ -430,9 +430,9 @@ _parameters
 .
 tabList
 .
-onListChanged
-=
-null
+destroy
+(
+)
 ;
 }
 if
