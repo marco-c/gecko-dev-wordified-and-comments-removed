@@ -1540,13 +1540,6 @@ id
 "
 button
 "
-display
-=
-"
-xul
-:
-button
-"
 extends
 =
 "
@@ -1731,13 +1724,6 @@ binding
 id
 =
 "
-menu
-"
-display
-=
-"
-xul
-:
 menu
 "
 extends
