@@ -1768,6 +1768,8 @@ content
 -
 blocking
 -
+all
+-
 third
 -
 party
@@ -1830,9 +1832,7 @@ content
 -
 blocking
 -
-third
--
-party
+all
 -
 cookies
 "
@@ -1892,9 +1892,7 @@ content
 -
 blocking
 -
-third
--
-party
+unvisited
 -
 cookies
 "
