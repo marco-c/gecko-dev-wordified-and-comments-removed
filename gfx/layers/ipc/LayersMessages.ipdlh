@@ -2537,15 +2537,6 @@ readLockedWhite
 ;
 }
 ;
-union
-MaybeRegion
-{
-nsIntRegion
-;
-null_t
-;
-}
-;
 struct
 OpNotifyNotUsed
 {
