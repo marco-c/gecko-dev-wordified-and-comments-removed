@@ -1241,6 +1241,13 @@ mCurrentIterationOnLastCompose
 ;
 bool
 mInEffectOnLastAnimationTimingUpdate
+=
+false
+;
+bool
+mInEffectSet
+=
+false
 ;
 using
 BaseValuesHashmap
@@ -1253,11 +1260,6 @@ RawServoAnimationValue
 ;
 BaseValuesHashmap
 mBaseValues
-;
-bool
-mInEffectSet
-=
-false
 ;
 private
 :
