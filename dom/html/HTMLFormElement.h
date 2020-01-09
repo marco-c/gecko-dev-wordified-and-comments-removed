@@ -1597,6 +1597,16 @@ mSubmitInitiatedFromUserInput
 bool
 mEverTriedInvalidSubmit
 ;
+protected
+:
+static
+bool
+gFirstFormSubmitted
+;
+static
+bool
+gPasswordManagerInitialized
+;
 private
 :
 ~
