@@ -76,7 +76,7 @@ tag
 {
 VIXL_ASSERT
 (
-is_uintn
+IsUintN
 (
 kAddressTagWidth
 tag
