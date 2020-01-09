@@ -388,9 +388,15 @@ mPrincipalIsSystem
 (
 false
 )
-mStorageAllowed
+mStorageAccess
 (
-false
+nsContentUtils
+:
+:
+StorageAccess
+:
+:
+eDeny
 )
 mFirstPartyStorageAccessGranted
 (
