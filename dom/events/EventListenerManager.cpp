@@ -3233,10 +3233,10 @@ if
 MOZ_UNLIKELY
 (
 !
-nsContentUtils
+StaticPrefs
 :
 :
-IsUnprefixedFullscreenApiEnabled
+full_screen_api_unprefix_enabled
 (
 )
 &

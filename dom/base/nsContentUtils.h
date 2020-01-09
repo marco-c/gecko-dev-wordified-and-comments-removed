@@ -4995,16 +4995,6 @@ aContent
 ;
 static
 bool
-IsUnprefixedFullscreenApiEnabled
-(
-)
-{
-return
-sIsUnprefixedFullscreenApiEnabled
-;
-}
-static
-bool
 IsRequestFullscreenAllowed
 (
 mozilla
@@ -7667,10 +7657,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sIsUnprefixedFullscreenApiEnabled
 ;
 static
 bool
