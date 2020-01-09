@@ -3612,6 +3612,11 @@ _queueTaskWithClosedCheck
 func
 )
 {
+const
+pc
+=
+this
+;
 return
 new
 this
@@ -3643,7 +3648,7 @@ try
 if
 (
 !
-this
+pc
 .
 _closed
 )
