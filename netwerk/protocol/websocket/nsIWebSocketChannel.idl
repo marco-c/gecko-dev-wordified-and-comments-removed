@@ -204,6 +204,7 @@ Workers
 /
 [
 scriptable
+builtinclass
 uuid
 (
 ce71d028

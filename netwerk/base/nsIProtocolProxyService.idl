@@ -160,6 +160,7 @@ proxies
 /
 [
 scriptable
+builtinclass
 uuid
 (
 ef57c8b6

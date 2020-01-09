@@ -99,6 +99,7 @@ nsCString
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 1fb79c27

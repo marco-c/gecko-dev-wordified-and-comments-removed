@@ -205,6 +205,7 @@ already_AddRefed
 }
 [
 scriptable
+builtinclass
 uuid
 (
 aef27cb3

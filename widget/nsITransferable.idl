@@ -813,6 +813,7 @@ aData
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 97e0c418

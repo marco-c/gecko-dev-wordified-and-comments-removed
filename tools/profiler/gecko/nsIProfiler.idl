@@ -239,6 +239,7 @@ getFilters
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 ead3f75c

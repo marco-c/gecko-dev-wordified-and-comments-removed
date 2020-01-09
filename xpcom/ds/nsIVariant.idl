@@ -350,6 +350,7 @@ anyway
 /
 [
 scriptable
+builtinclass
 uuid
 (
 81e4c2de
@@ -698,6 +699,7 @@ succeed
 /
 [
 scriptable
+builtinclass
 uuid
 (
 5586a590

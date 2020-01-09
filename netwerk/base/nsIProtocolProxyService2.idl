@@ -131,6 +131,7 @@ nsIProtocolProxyService
 /
 [
 scriptable
+builtinclass
 uuid
 (
 b2e5b2c0

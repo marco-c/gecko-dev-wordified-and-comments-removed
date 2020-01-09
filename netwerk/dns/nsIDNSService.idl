@@ -156,6 +156,7 @@ nsIDNSService
 /
 [
 scriptable
+builtinclass
 uuid
 (
 de5642c6

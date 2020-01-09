@@ -142,6 +142,7 @@ aStream
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 72c34415

@@ -154,6 +154,7 @@ thread
 /
 [
 scriptable
+builtinclass
 uuid
 (
 acc88e7c

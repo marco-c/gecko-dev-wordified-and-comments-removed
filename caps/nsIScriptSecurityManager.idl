@@ -185,6 +185,7 @@ DomainPolicyClone
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 51daad87

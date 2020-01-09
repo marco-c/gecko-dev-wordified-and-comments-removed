@@ -300,6 +300,7 @@ interfaces
 /
 [
 scriptable
+builtinclass
 uuid
 (
 4286de5a

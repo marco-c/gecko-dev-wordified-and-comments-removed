@@ -149,6 +149,7 @@ leaf
 /
 [
 scriptable
+builtinclass
 uuid
 (
 9b7c586f

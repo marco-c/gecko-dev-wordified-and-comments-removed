@@ -1973,6 +1973,7 @@ message
 /
 [
 scriptable
+builtinclass
 uuid
 (
 afdc743f
