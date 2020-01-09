@@ -161,8 +161,8 @@ nsIFrame
 *
 mAnchorNode
 ;
-nsPoint
-mLastAnchorPos
+nscoord
+mLastAnchorOffset
 ;
 bool
 mAnchorNodeIsDirty
