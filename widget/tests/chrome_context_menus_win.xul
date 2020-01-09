@@ -487,11 +487,7 @@ tid
 =
 setTimeout
 (
-"
 menuTimeout
-(
-)
-"
 5000
 )
 ;
