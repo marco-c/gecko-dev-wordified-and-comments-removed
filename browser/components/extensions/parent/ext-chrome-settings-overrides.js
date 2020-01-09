@@ -983,6 +983,9 @@ homepage_override
 inControl
 =
 item
+&
+&
+item
 .
 id
 =
@@ -1102,6 +1105,9 @@ homepage_override
 if
 (
 item
+&
+&
+item
 .
 id
 =
@@ -1174,6 +1180,9 @@ homepage_override
 ;
 if
 (
+item
+&
+&
 item
 .
 id
