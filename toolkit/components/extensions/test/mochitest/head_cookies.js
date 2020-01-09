@@ -722,7 +722,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Services
@@ -755,7 +755,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Services
@@ -788,7 +788,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 sendAsyncMessage
@@ -926,7 +926,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Services
@@ -959,7 +959,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Services

@@ -56,7 +56,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Assert
@@ -194,7 +194,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Assert
@@ -431,7 +431,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 Assert

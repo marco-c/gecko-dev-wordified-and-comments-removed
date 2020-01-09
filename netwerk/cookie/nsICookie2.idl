@@ -151,7 +151,7 @@ nsICookie
 {
 const
 uint32_t
-SAMESITE_NONE
+SAMESITE_UNSET
 =
 0
 ;
@@ -476,7 +476,7 @@ of
 :
 *
 -
-SAMESITE_NONE
+SAMESITE_UNSET
 -
 the
 SameSite

@@ -7889,7 +7889,7 @@ attrs
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 )
 )
@@ -7945,7 +7945,7 @@ attrs
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 )
 )
@@ -7995,7 +7995,7 @@ attrs
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 )
 )
@@ -8430,7 +8430,7 @@ attrs
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 )
 )
@@ -9416,7 +9416,7 @@ sameSiteAttr
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 }
@@ -9441,7 +9441,7 @@ sameSiteAttr
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 }
@@ -9466,7 +9466,7 @@ sameSiteAttr
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 }
@@ -9491,7 +9491,7 @@ sameSiteAttr
 nsICookie2
 :
 :
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 }
