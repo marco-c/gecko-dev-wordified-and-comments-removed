@@ -240,17 +240,6 @@ files
 :
 [
 "
-accessible
-/
-tests
-/
-mochitest
-/
-events
-.
-js
-"
-"
 browser
 /
 actors
