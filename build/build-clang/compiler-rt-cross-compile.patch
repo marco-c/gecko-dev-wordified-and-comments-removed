@@ -3,7 +3,9 @@ Add
 target
 x86_64
 -
-darwin11
+apple
+-
+darwin
 '
 to
 the
@@ -156,7 +158,9 @@ pointer
 target
 x86_64
 -
-darwin11
+apple
+-
+darwin
 -
 isysroot
 {
