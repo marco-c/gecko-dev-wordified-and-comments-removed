@@ -811,6 +811,7 @@ XPCWrappedNativeProto
 :
 GetNewOrUsed
 (
+cx
 scope
 nativeHelper
 .
@@ -1641,6 +1642,7 @@ XPCWrappedNativeProto
 :
 GetNewOrUsed
 (
+cx
 Scope
 info
 scrProto

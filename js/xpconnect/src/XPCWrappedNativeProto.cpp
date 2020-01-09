@@ -154,14 +154,14 @@ XPCWrappedNativeProto
 :
 Init
 (
+JSContext
+*
+cx
 nsIXPCScriptable
 *
 scriptable
 )
 {
-AutoJSContext
-cx
-;
 mScriptable
 =
 scriptable
@@ -365,6 +365,9 @@ XPCWrappedNativeProto
 :
 GetNewOrUsed
 (
+JSContext
+*
+cx
 XPCWrappedNativeScope
 *
 scope
@@ -376,9 +379,6 @@ nsIXPCScriptable
 scriptable
 )
 {
-AutoJSContext
-cx
-;
 MOZ_ASSERT
 (
 scope
@@ -487,6 +487,7 @@ proto
 >
 Init
 (
+cx
 scriptable
 )
 )
