@@ -20,7 +20,9 @@ crates
 /
 v
 /
-systemstat
+devd
+-
+rs
 .
 svg
 )
@@ -36,7 +38,9 @@ io
 /
 crates
 /
-systemstat
+devd
+-
+rs
 )
 [
 !
@@ -308,4 +312,13 @@ unlicense
 .
 org
 )
+.
+It
+is
+also
+available
+under
+the
+MIT
+License
 .
