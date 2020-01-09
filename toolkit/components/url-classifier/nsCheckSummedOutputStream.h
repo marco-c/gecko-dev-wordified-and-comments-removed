@@ -226,7 +226,7 @@ localOutFile
 nsCheckSummedOutputStream
 :
 :
-CHECKSUM_SIZE
+MAX_BUFFER_SIZE
 )
 ;
 if
