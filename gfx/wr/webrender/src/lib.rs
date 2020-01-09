@@ -407,6 +407,9 @@ macos
 ]
 pub
 use
+crate
+:
+:
 platform
 :
 :
@@ -428,6 +431,9 @@ windows
 ]
 pub
 use
+crate
+:
+:
 platform
 :
 :

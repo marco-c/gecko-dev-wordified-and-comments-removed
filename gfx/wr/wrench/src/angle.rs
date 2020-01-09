@@ -61,6 +61,7 @@ windows
 ]
 pub
 use
+crate
 :
 :
 egl
