@@ -1214,6 +1214,7 @@ iter
 if
 (
 (
+(
 item
 .
 mType
@@ -1223,6 +1224,12 @@ aType
 !
 =
 0
+)
+&
+&
+item
+.
+mBlocked
 )
 {
 return
