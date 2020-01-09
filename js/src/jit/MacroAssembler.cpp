@@ -6586,7 +6586,7 @@ nursery
 (
 )
 .
-allocateBuffer
+allocateZeroedBuffer
 (
 obj
 nbytes
@@ -6603,13 +6603,6 @@ obj
 initPrivate
 (
 buf
-)
-;
-memset
-(
-buf
-0
-nbytes
 )
 ;
 }
