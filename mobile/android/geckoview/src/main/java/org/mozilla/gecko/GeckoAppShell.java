@@ -2138,7 +2138,7 @@ s
 )
 {
 int
-sensor_type
+sensorType
 =
 s
 .
@@ -2149,7 +2149,7 @@ getType
 )
 ;
 int
-hal_type
+halType
 =
 0
 ;
@@ -2187,7 +2187,7 @@ timestamp
 ;
 switch
 (
-sensor_type
+sensorType
 )
 {
 case
@@ -2207,7 +2207,7 @@ TYPE_ORIENTATION
 :
 if
 (
-sensor_type
+sensorType
 =
 =
 Sensor
@@ -2215,7 +2215,7 @@ Sensor
 TYPE_ACCELEROMETER
 )
 {
-hal_type
+halType
 =
 GeckoHalDefines
 .
@@ -2225,7 +2225,7 @@ SENSOR_ACCELERATION
 else
 if
 (
-sensor_type
+sensorType
 =
 =
 Sensor
@@ -2233,7 +2233,7 @@ Sensor
 TYPE_LINEAR_ACCELERATION
 )
 {
-hal_type
+halType
 =
 GeckoHalDefines
 .
@@ -2242,7 +2242,7 @@ SENSOR_LINEAR_ACCELERATION
 }
 else
 {
-hal_type
+halType
 =
 GeckoHalDefines
 .
@@ -2283,7 +2283,7 @@ Sensor
 .
 TYPE_GYROSCOPE
 :
-hal_type
+halType
 =
 GeckoHalDefines
 .
@@ -2347,7 +2347,7 @@ Sensor
 .
 TYPE_PROXIMITY
 :
-hal_type
+halType
 =
 GeckoHalDefines
 .
@@ -2379,7 +2379,7 @@ Sensor
 .
 TYPE_LIGHT
 :
-hal_type
+halType
 =
 GeckoHalDefines
 .
@@ -2406,10 +2406,10 @@ Sensor
 .
 TYPE_GAME_ROTATION_VECTOR
 :
-hal_type
+halType
 =
 (
-sensor_type
+sensorType
 =
 =
 Sensor
@@ -2556,7 +2556,7 @@ GeckoAppShell
 .
 onSensorChanged
 (
-hal_type
+halType
 x
 y
 z
