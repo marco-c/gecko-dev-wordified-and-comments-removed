@@ -2442,27 +2442,8 @@ Jarrer
                 
 continue
             
-key
-=
-JarLog
-.
-canonicalize
-(
-os
-.
-path
-.
-join
-(
-args
-.
-destination
-p
-)
-)
-            
 if
-key
+p
 in
 log
 :
@@ -2473,7 +2454,7 @@ preload
 (
 log
 [
-key
+p
 ]
 )
     
