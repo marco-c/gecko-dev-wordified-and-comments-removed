@@ -63,9 +63,7 @@ gmock
 -
 generated
 -
-nice
--
-strict
+matchers
 .
 h
 "
@@ -78,7 +76,9 @@ gmock
 -
 generated
 -
-matchers
+nice
+-
+strict
 .
 h
 "
@@ -145,6 +145,11 @@ catch_leaked_mocks
 GMOCK_DECLARE_string_
 (
 verbose
+)
+;
+GMOCK_DECLARE_int32_
+(
+default_mock_behavior
 )
 ;
 GTEST_API_

@@ -40,6 +40,11 @@ string
 .
 h
 "
+GTEST_DISABLE_MSC_WARNINGS_PUSH_
+(
+4251
+\
+)
 namespace
 testing
 {
@@ -351,6 +356,7 @@ TestPartResultArray
 }
 ;
 class
+GTEST_API_
 TestPartResultReporterInterface
 {
 public
@@ -436,5 +442,8 @@ HasNewFatalFailureHelper
 ;
 }
 }
+GTEST_DISABLE_MSC_WARNINGS_POP_
+(
+)
 #
 endif

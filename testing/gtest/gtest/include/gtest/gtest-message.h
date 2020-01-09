@@ -22,6 +22,11 @@ port
 .
 h
 "
+GTEST_DISABLE_MSC_WARNINGS_PUSH_
+(
+4251
+\
+)
 void
 operator
 <
@@ -570,5 +575,8 @@ GetString
 }
 }
 }
+GTEST_DISABLE_MSC_WARNINGS_POP_
+(
+)
 #
 endif

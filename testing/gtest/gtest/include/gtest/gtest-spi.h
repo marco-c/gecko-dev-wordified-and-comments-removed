@@ -13,6 +13,11 @@ gtest
 .
 h
 "
+GTEST_DISABLE_MSC_WARNINGS_PUSH_
+(
+4251
+\
+)
 namespace
 testing
 {
@@ -113,6 +118,9 @@ TestPartResult
 Type
 type
 const
+std
+:
+:
 string
 &
 substr
@@ -139,6 +147,9 @@ Type
 type_
 ;
 const
+std
+:
+:
 string
 substr_
 ;
@@ -151,6 +162,9 @@ SingleFailureChecker
 ;
 }
 }
+GTEST_DISABLE_MSC_WARNINGS_POP_
+(
+)
 #
 define
 EXPECT_FATAL_FAILURE

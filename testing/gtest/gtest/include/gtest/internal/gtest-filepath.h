@@ -17,6 +17,11 @@ string
 .
 h
 "
+GTEST_DISABLE_MSC_WARNINGS_PUSH_
+(
+4251
+\
+)
 namespace
 testing
 {
@@ -313,5 +318,8 @@ pathname_
 ;
 }
 }
+GTEST_DISABLE_MSC_WARNINGS_POP_
+(
+)
 #
 endif

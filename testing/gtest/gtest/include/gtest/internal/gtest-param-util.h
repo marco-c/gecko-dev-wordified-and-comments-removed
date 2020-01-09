@@ -81,9 +81,6 @@ printers
 .
 h
 "
-#
-if
-GTEST_HAS_PARAM_TEST
 namespace
 testing
 {
@@ -1839,6 +1836,9 @@ ParameterizedTestCaseInfoBase
 }
 virtual
 const
+std
+:
+:
 string
 &
 GetTestCaseName
@@ -1947,6 +1947,9 @@ code_location
 }
 virtual
 const
+std
+:
+:
 string
 &
 GetTestCaseName
@@ -2017,6 +2020,9 @@ int
 AddTestCaseInstantiation
 (
 const
+std
+:
+:
 string
 &
 instantiation_name
@@ -2126,6 +2132,9 @@ gen_it
 )
 {
 const
+std
+:
+:
 string
 &
 instantiation_name
@@ -2179,6 +2188,9 @@ gen_it
 >
 line
 ;
+std
+:
+:
 string
 test_case_name
 ;
@@ -2489,10 +2501,16 @@ a_test_meta_factory
 {
 }
 const
+std
+:
+:
 string
 test_case_base_name
 ;
 const
+std
+:
+:
 string
 test_base_name
 ;
@@ -2688,6 +2706,9 @@ true
 ;
 }
 const
+std
+:
+:
 string
 test_case_name_
 ;
@@ -2989,7 +3010,5 @@ ParameterizedTestCaseRegistry
 ;
 }
 }
-#
-endif
 #
 endif

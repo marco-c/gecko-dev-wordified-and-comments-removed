@@ -229,9 +229,6 @@ generated
 .
 h
 "
-#
-if
-GTEST_HAS_PARAM_TEST
 namespace
 testing
 {
@@ -11418,11 +11415,15 @@ __LINE__
 AddTestPattern
 (
 \
-#
+GTEST_STRINGIFY_
+(
 test_case_name
+)
 \
-#
+GTEST_STRINGIFY_
+(
 test_name
+)
 \
 new
 :
@@ -11521,6 +11522,7 @@ generator
 .
 )
 \
+static
 :
 :
 testing
@@ -11555,6 +11557,7 @@ generator
 ;
 }
 \
+static
 :
 :
 std
@@ -11618,6 +11621,7 @@ info
 \
 }
 \
+static
 int
 gtest_
 #
@@ -11710,7 +11714,5 @@ __FILE__
 __LINE__
 )
 }
-#
-endif
 #
 endif
