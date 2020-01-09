@@ -1009,6 +1009,17 @@ global
 const
 ;
 inline
+bool
+hasGlobal
+(
+const
+GlobalObject
+*
+global
+)
+const
+;
+inline
 JSFunction
 *
 callee
