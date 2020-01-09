@@ -800,15 +800,12 @@ fuzzy
 if
 (
 webrender
-&
-&
-cocoaWidget
 0
 -
-1
+3
 0
 -
-98
+21070
 )
 =
 =

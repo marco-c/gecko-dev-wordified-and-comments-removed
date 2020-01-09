@@ -536,6 +536,11 @@ platform
 linux
 mac
 )
+fuzzy
+(
+1
+2
+)
 =
 =
 perspective
