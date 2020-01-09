@@ -2577,7 +2577,7 @@ obj
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 obj
 )
@@ -5476,7 +5476,7 @@ obj
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 obj
 )
