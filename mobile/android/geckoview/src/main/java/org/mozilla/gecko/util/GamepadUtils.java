@@ -104,6 +104,7 @@ static
 boolean
 isGamepadKey
 (
+final
 KeyEvent
 event
 )
@@ -132,6 +133,7 @@ static
 boolean
 isActionKey
 (
+final
 KeyEvent
 event
 )
@@ -164,6 +166,7 @@ static
 boolean
 isActionKeyDown
 (
+final
 KeyEvent
 event
 )
@@ -192,6 +195,7 @@ static
 boolean
 isBackKey
 (
+final
 KeyEvent
 event
 )
@@ -224,6 +228,7 @@ static
 void
 overrideDeadZoneThreshold
 (
+final
 float
 threshold
 )
@@ -238,8 +243,10 @@ static
 boolean
 isValueInDeadZone
 (
+final
 MotionEvent
 event
+final
 int
 axis
 )
@@ -321,6 +328,7 @@ static
 boolean
 isPanningControl
 (
+final
 MotionEvent
 event
 )
@@ -426,10 +434,13 @@ public
 boolean
 onKey
 (
+final
 View
 v
+final
 int
 keyCode
+final
 KeyEvent
 event
 )
@@ -466,8 +477,10 @@ static
 KeyEvent
 translateSonyXperiaGamepadKeys
 (
+final
 int
 keyCode
+final
 KeyEvent
 event
 )
@@ -555,6 +568,7 @@ static
 boolean
 isSonyXperiaGamepadKeyEvent
 (
+final
 KeyEvent
 event
 )

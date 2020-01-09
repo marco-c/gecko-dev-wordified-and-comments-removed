@@ -295,6 +295,7 @@ public
 void
 onChange
 (
+final
 boolean
 selfChange
 )
@@ -611,6 +612,7 @@ private
 void
 notifyDeviceChanged
 (
+final
 int
 deviceId
 )
@@ -655,6 +657,7 @@ public
 void
 onInputDeviceAdded
 (
+final
 int
 deviceId
 )
@@ -670,6 +673,7 @@ public
 void
 onInputDeviceRemoved
 (
+final
 int
 deviceId
 )
@@ -684,6 +688,7 @@ public
 void
 onInputDeviceChanged
 (
+final
 int
 deviceId
 )

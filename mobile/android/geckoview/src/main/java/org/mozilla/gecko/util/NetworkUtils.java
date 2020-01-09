@@ -111,6 +111,7 @@ value
 ;
 ConnectionSubType
 (
+final
 String
 value
 )
@@ -153,6 +154,7 @@ value
 ;
 NetworkStatus
 (
+final
 String
 value
 )
@@ -201,6 +203,7 @@ value
 ;
 ConnectionType
 (
+final
 int
 value
 )
@@ -218,6 +221,7 @@ static
 boolean
 isConnected
 (
+final
 NonNull
 Context
 context
@@ -245,6 +249,7 @@ static
 boolean
 isConnected
 (
+final
 ConnectivityManager
 connectivityManager
 )
@@ -290,6 +295,7 @@ static
 ConnectionSubType
 getConnectionSubType
 (
+final
 ConnectivityManager
 connectivityManager
 )
@@ -439,6 +445,7 @@ static
 ConnectionType
 getConnectionType
 (
+final
 ConnectivityManager
 connectivityManager
 )
@@ -549,6 +556,7 @@ static
 NetworkStatus
 getNetworkStatus
 (
+final
 ConnectivityManager
 connectivityManager
 )
@@ -592,6 +600,7 @@ static
 ConnectionSubType
 getGenericMobileSubtype
 (
+final
 int
 subtype
 )

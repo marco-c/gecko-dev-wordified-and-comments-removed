@@ -42,6 +42,7 @@ mByteBuffer
 public
 ByteBufferInputStream
 (
+final
 ByteBuffer
 aByteBuffer
 )
@@ -90,12 +91,15 @@ synchronized
 int
 read
 (
+final
 byte
 [
 ]
 aBytes
+final
 int
 aOffset
+final
 int
 aLen
 )

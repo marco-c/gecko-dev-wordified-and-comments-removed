@@ -113,6 +113,7 @@ nsresult
 public
 GeckoSurface
 (
+final
 GeckoSurfaceTexture
 gst
 )
@@ -158,8 +159,10 @@ myPid
 public
 GeckoSurface
 (
+final
 Parcel
 p
+final
 SurfaceTexture
 dummy
 )
@@ -254,6 +257,7 @@ public
 GeckoSurface
 createFromParcel
 (
+final
 Parcel
 p
 )
@@ -277,6 +281,7 @@ GeckoSurface
 ]
 newArray
 (
+final
 int
 size
 )
@@ -296,8 +301,10 @@ public
 void
 writeToParcel
 (
+final
 Parcel
 out
+final
 int
 flags
 )
@@ -456,6 +463,7 @@ public
 void
 setAvailable
 (
+final
 boolean
 available
 )
@@ -488,8 +496,10 @@ mMyPid
 SyncConfig
 initSyncSurface
 (
+final
 int
 width
+final
 int
 height
 )

@@ -2021,6 +2021,7 @@ protected
 void
 onConfigurationChanged
 (
+final
 Configuration
 newConfig
 )
@@ -2305,6 +2306,7 @@ public
 void
 onWindowFocusChanged
 (
+final
 boolean
 hasWindowFocus
 )
@@ -2346,6 +2348,7 @@ protected
 void
 onWindowVisibilityChanged
 (
+final
 int
 visibility
 )
@@ -2393,10 +2396,13 @@ protected
 void
 onFocusChanged
 (
+final
 boolean
 gainFocus
+final
 int
 direction
+final
 Rect
 previouslyFocusedRect
 )
@@ -2606,8 +2612,10 @@ public
 boolean
 onKeyPreIme
 (
+final
 int
 keyCode
+final
 KeyEvent
 event
 )
@@ -2652,8 +2660,10 @@ public
 boolean
 onKeyUp
 (
+final
 int
 keyCode
+final
 KeyEvent
 event
 )
@@ -2698,8 +2708,10 @@ public
 boolean
 onKeyDown
 (
+final
 int
 keyCode
+final
 KeyEvent
 event
 )
@@ -2744,8 +2756,10 @@ public
 boolean
 onKeyLongPress
 (
+final
 int
 keyCode
+final
 KeyEvent
 event
 )
@@ -2790,10 +2804,13 @@ public
 boolean
 onKeyMultiple
 (
+final
 int
 keyCode
+final
 int
 repeatCount
+final
 KeyEvent
 event
 )
@@ -2996,6 +3013,7 @@ onProvideAutofillVirtualStructure
 final
 ViewStructure
 structure
+final
 int
 flags
 )

@@ -506,8 +506,10 @@ TimeRange
 protected
 TimeRange
 (
+final
 double
 start
+final
 double
 end
 )

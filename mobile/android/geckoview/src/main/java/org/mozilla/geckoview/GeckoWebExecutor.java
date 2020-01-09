@@ -186,6 +186,7 @@ static
 ByteBuffer
 createByteBuffer
 (
+final
 int
 capacity
 )

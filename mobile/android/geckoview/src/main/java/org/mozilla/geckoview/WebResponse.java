@@ -258,6 +258,7 @@ NonNull
 Builder
 statusCode
 (
+final
 int
 code
 )

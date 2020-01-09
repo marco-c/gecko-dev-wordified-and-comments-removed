@@ -38,8 +38,10 @@ mNativeRef
 protected
 ByteBufferInputStream
 (
+final
 ByteBuffer
 buffer
+final
 NativeReference
 ref
 )
@@ -120,12 +122,15 @@ public
 int
 read
 (
+final
 byte
 [
 ]
 buffer
+final
 int
 offset
+final
 int
 length
 )
@@ -185,6 +190,7 @@ public
 long
 skip
 (
+final
 long
 byteCount
 )

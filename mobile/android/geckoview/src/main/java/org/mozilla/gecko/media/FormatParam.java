@@ -90,6 +90,7 @@ mFormat
 public
 FormatParam
 (
+final
 MediaFormat
 format
 )
@@ -102,6 +103,7 @@ format
 protected
 FormatParam
 (
+final
 Parcel
 in
 )
@@ -141,6 +143,7 @@ public
 FormatParam
 createFromParcel
 (
+final
 Parcel
 in
 )
@@ -160,6 +163,7 @@ FormatParam
 ]
 newArray
 (
+final
 int
 size
 )
@@ -189,6 +193,7 @@ public
 void
 readFromParcel
 (
+final
 Parcel
 in
 )
@@ -212,6 +217,7 @@ private
 void
 fromBundle
 (
+final
 Bundle
 bundle
 )
@@ -582,8 +588,10 @@ public
 void
 writeToParcel
 (
+final
 Parcel
 dest
+final
 int
 flags
 )

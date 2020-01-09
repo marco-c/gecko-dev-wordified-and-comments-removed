@@ -37,8 +37,10 @@ static
 boolean
 supportsVoiceRecognizer
 (
+final
 Context
 context
+final
 String
 prompt
 )
@@ -73,6 +75,7 @@ static
 Intent
 createVoiceRecognizerIntent
 (
+final
 String
 prompt
 )
@@ -130,8 +133,10 @@ static
 boolean
 supportsIntent
 (
+final
 Intent
 intent
+final
 Context
 context
 )
@@ -157,6 +162,7 @@ static
 boolean
 supportsQrCodeReader
 (
+final
 Context
 context
 )

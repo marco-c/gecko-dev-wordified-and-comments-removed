@@ -364,8 +364,10 @@ public
 void
 onReceive
 (
+final
 Context
 context
+final
 Intent
 intent
 )

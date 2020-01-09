@@ -209,6 +209,7 @@ public
 ArrayBuffer
 createFromParcel
 (
+final
 Parcel
 in
 )
@@ -228,6 +229,7 @@ ArrayBuffer
 ]
 newArray
 (
+final
 int
 size
 )
@@ -245,6 +247,7 @@ size
 private
 ArrayBuffer
 (
+final
 Parcel
 in
 )
@@ -261,6 +264,7 @@ createByteArray
 private
 ArrayBuffer
 (
+final
 byte
 [
 ]
@@ -288,8 +292,10 @@ public
 void
 writeToParcel
 (
+final
 Parcel
 dest
+final
 int
 flags
 )
@@ -327,10 +333,13 @@ public
 void
 readFromByteBuffer
 (
+final
 ByteBuffer
 src
+final
 int
 offset
+final
 int
 size
 )
@@ -384,10 +393,13 @@ public
 void
 writeToByteBuffer
 (
+final
 ByteBuffer
 dest
+final
 int
 offset
+final
 int
 size
 )
@@ -454,10 +466,13 @@ static
 Sample
 create
 (
+final
 ByteBuffer
 src
+final
 BufferInfo
 info
+final
 CryptoInfo
 cryptoInfo
 )
@@ -519,6 +534,7 @@ static
 Sample
 create
 (
+final
 SharedMemory
 sharedMem
 )
@@ -543,10 +559,13 @@ null
 private
 Sample
 (
+final
 Buffer
 bytes
+final
 BufferInfo
 info
+final
 CryptoInfo
 cryptoInfo
 )
@@ -571,6 +590,7 @@ cryptoInfo
 private
 Sample
 (
+final
 Parcel
 in
 )
@@ -605,6 +625,7 @@ private
 void
 readInfo
 (
+final
 Parcel
 in
 )
@@ -667,6 +688,7 @@ private
 void
 readCrypto
 (
+final
 Parcel
 in
 )
@@ -777,10 +799,13 @@ public
 Sample
 set
 (
+final
 ByteBuffer
 bytes
+final
 BufferInfo
 info
+final
 CryptoInfo
 cryptoInfo
 )
@@ -941,6 +966,7 @@ public
 Sample
 createFromParcel
 (
+final
 Parcel
 in
 )
@@ -960,6 +986,7 @@ Sample
 ]
 newArray
 (
+final
 int
 size
 )
@@ -990,8 +1017,10 @@ public
 void
 writeToParcel
 (
+final
 Parcel
 dest
+final
 int
 parcelableFlags
 )
@@ -1019,6 +1048,7 @@ private
 void
 writeInfo
 (
+final
 Parcel
 dest
 )
@@ -1064,6 +1094,7 @@ private
 void
 writeCrypto
 (
+final
 Parcel
 dest
 )
@@ -1156,10 +1187,13 @@ byte
 ]
 byteArrayFromBuffer
 (
+final
 ByteBuffer
 buffer
+final
 int
 offset
+final
 int
 size
 )
@@ -1280,6 +1314,7 @@ public
 void
 writeToByteBuffer
 (
+final
 ByteBuffer
 dest
 )

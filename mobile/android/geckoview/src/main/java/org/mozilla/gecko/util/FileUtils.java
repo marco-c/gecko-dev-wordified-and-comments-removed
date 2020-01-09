@@ -346,8 +346,10 @@ mMaxAge
 public
 NameAndAgeFilter
 (
+final
 String
 name
+final
 double
 age
 )
@@ -366,8 +368,10 @@ public
 boolean
 accept
 (
+final
 File
 dir
+final
 String
 filename
 )
@@ -436,10 +440,13 @@ static
 void
 delTree
 (
+final
 File
 dir
+final
 FilenameFilter
 filter
+final
 boolean
 recurse
 )
@@ -522,6 +529,7 @@ static
 boolean
 delete
 (
+final
 File
 file
 )
@@ -541,8 +549,10 @@ static
 boolean
 delete
 (
+final
 File
 file
+final
 boolean
 recurse
 )
@@ -1270,8 +1280,10 @@ static
 File
 createTempDir
 (
+final
 File
 directory
+final
 String
 prefix
 )
@@ -1453,8 +1465,10 @@ static
 String
 getFileNameFromContentUri
 (
+final
 Context
 context
+final
 Uri
 uri
 )
@@ -1548,10 +1562,13 @@ static
 void
 copy
 (
+final
 Context
 context
+final
 Uri
 srcUri
+final
 File
 dstFile
 )
@@ -1610,6 +1627,7 @@ static
 boolean
 isContentUri
 (
+final
 Uri
 uri
 )
@@ -1648,6 +1666,7 @@ static
 boolean
 isContentUri
 (
+final
 String
 sUri
 )
@@ -1677,8 +1696,10 @@ Nullable
 String
 getExternalStoragePath
 (
+final
 Context
 context
+final
 Nullable
 String
 uuid
@@ -1837,6 +1858,7 @@ static
 boolean
 isExternalStorageEmulated
 (
+final
 File
 path
 )

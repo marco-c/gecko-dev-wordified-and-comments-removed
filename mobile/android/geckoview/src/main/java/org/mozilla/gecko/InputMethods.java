@@ -396,6 +396,7 @@ static
 String
 getCurrentInputMethod
 (
+final
 Context
 context
 )
@@ -436,8 +437,10 @@ static
 InputMethodInfo
 getInputMethodInfo
 (
+final
 Context
 context
+final
 String
 inputMethod
 )
@@ -498,6 +501,7 @@ static
 InputMethodManager
 getInputMethodManager
 (
+final
 Context
 context
 )
@@ -521,8 +525,10 @@ static
 void
 restartInput
 (
+final
 Context
 context
+final
 View
 view
 )
@@ -651,6 +657,7 @@ static
 boolean
 needsRestartOnReplaceRemove
 (
+final
 Context
 context
 )

@@ -137,6 +137,7 @@ mSupport
 private
 GeckoInputStream
 (
+final
 NonNull
 Support
 support
@@ -299,6 +300,7 @@ public
 int
 read
 (
+final
 NonNull
 byte
 [
@@ -325,13 +327,16 @@ synchronized
 int
 read
 (
+final
 NonNull
 byte
 [
 ]
 dest
+final
 int
 offset
+final
 int
 length
 )
@@ -506,6 +511,7 @@ synchronized
 void
 appendBuffer
 (
+final
 byte
 [
 ]

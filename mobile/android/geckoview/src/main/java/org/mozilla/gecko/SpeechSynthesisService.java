@@ -190,6 +190,7 @@ public
 void
 onInit
 (
+final
 int
 status
 )
@@ -540,10 +541,13 @@ uri
 final
 String
 text
+final
 float
 rate
+final
 float
 pitch
+final
 float
 volume
 )
@@ -750,6 +754,7 @@ public
 void
 onDone
 (
+final
 String
 utteranceId
 )
@@ -765,6 +770,7 @@ public
 void
 onError
 (
+final
 String
 utteranceId
 )
@@ -780,6 +786,7 @@ public
 void
 onStart
 (
+final
 String
 utteranceId
 )
@@ -795,8 +802,10 @@ public
 void
 onStop
 (
+final
 String
 utteranceId
+final
 boolean
 interrupted
 )
@@ -825,12 +834,16 @@ public
 void
 onRangeStart
 (
+final
 String
 utteranceId
+final
 int
 start
+final
 int
 end
+final
 int
 frame
 )

@@ -585,8 +585,10 @@ Nullable
 String
 getTempFilePathFromContentUri
 (
+final
 Context
 context
+final
 Uri
 contentUri
 )
@@ -698,12 +700,16 @@ static
 String
 getDataColumn
 (
+final
 Context
 context
+final
 Uri
 uri
+final
 String
 selection
+final
 String
 [
 ]
@@ -801,6 +807,7 @@ static
 boolean
 isExternalStorageDocument
 (
+final
 Uri
 uri
 )
@@ -831,6 +838,7 @@ static
 boolean
 isDownloadsDocument
 (
+final
 Uri
 uri
 )
@@ -863,6 +871,7 @@ static
 boolean
 isMediaDocument
 (
+final
 Uri
 uri
 )
@@ -895,6 +904,7 @@ static
 boolean
 isGooglePhotosUri
 (
+final
 Uri
 uri
 )

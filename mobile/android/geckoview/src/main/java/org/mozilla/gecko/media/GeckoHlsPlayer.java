@@ -616,8 +616,10 @@ mEnableA
 ;
 RendererController
 (
+final
 boolean
 enableVideoRenderer
+final
 boolean
 enableAudioRenderer
 )
@@ -745,6 +747,7 @@ public
 void
 updateNumOfVideoTracks
 (
+final
 int
 numOfTracks
 )
@@ -758,6 +761,7 @@ public
 void
 updateNumOfAudioTracks
 (
+final
 int
 numOfTracks
 )
@@ -837,6 +841,7 @@ public
 void
 onDataArrived
 (
+final
 int
 trackType
 )
@@ -954,6 +959,7 @@ static
 void
 assertTrue
 (
+final
 boolean
 condition
 )
@@ -1329,6 +1335,7 @@ public
 void
 onDataArrived
 (
+final
 int
 trackType
 )
@@ -1396,6 +1403,7 @@ public
 void
 onVideoInputFormatChanged
 (
+final
 Format
 format
 )
@@ -1494,6 +1502,7 @@ public
 void
 onAudioInputFormatChanged
 (
+final
 Format
 format
 )
@@ -1563,8 +1572,10 @@ DataSource
 Factory
 buildDataSourceFactory
 (
+final
 Context
 ctx
+final
 DefaultBandwidthMeter
 bandwidthMeter
 )
@@ -1588,6 +1599,7 @@ HttpDataSource
 Factory
 buildHttpDataSourceFactory
 (
+final
 DefaultBandwidthMeter
 bandwidthMeter
 )
@@ -1739,6 +1751,7 @@ synchronized
 void
 addDemuxerWrapperCallbackListener
 (
+final
 BaseHlsPlayer
 .
 DemuxerCallbacks
@@ -1775,6 +1788,7 @@ synchronized
 void
 onLoadingChanged
 (
+final
 boolean
 isLoading
 )
@@ -1840,8 +1854,10 @@ synchronized
 void
 onPlayerStateChanged
 (
+final
 boolean
 playWhenReady
+final
 int
 state
 )
@@ -1934,6 +1950,7 @@ public
 void
 onPlaybackParametersChanged
 (
+final
 PlaybackParameters
 playbackParameters
 )
@@ -1987,6 +2004,7 @@ synchronized
 void
 onPlayerError
 (
+final
 ExoPlaybackException
 e
 )
@@ -2063,8 +2081,10 @@ synchronized
 void
 onTracksChanged
 (
+final
 TrackGroupArray
 ignored
+final
 TrackSelectionArray
 trackSelections
 )
@@ -2738,8 +2758,10 @@ synchronized
 void
 onTimelineChanged
 (
+final
 Timeline
 timeline
+final
 Object
 manifest
 )
@@ -3000,6 +3022,7 @@ static
 String
 getStateString
 (
+final
 int
 state
 )
@@ -3063,6 +3086,7 @@ static
 String
 getFormatSupportString
 (
+final
 int
 formatSupport
 )
@@ -3126,8 +3150,10 @@ static
 String
 getAdaptiveSupportString
 (
+final
 int
 trackCount
+final
 int
 adaptiveSupport
 )
@@ -3196,10 +3222,13 @@ static
 String
 getTrackStatusString
 (
+final
 TrackSelection
 selection
+final
 TrackGroup
 group
+final
 int
 trackIndex
 )
@@ -3242,6 +3271,7 @@ static
 String
 getTrackStatusString
 (
+final
 boolean
 enabled
 )
@@ -3491,6 +3521,7 @@ init
 final
 String
 url
+final
 BaseHlsPlayer
 .
 ResourceCallbacks
@@ -3606,8 +3637,10 @@ GeckoHLSSample
 >
 getSamples
 (
+final
 TrackType
 trackType
+final
 int
 number
 )
@@ -3757,6 +3790,7 @@ synchronized
 int
 getNumberOfTracks
 (
+final
 TrackType
 trackType
 )
@@ -3828,6 +3862,7 @@ synchronized
 GeckoVideoInfo
 getVideoInfo
 (
+final
 int
 index
 )
@@ -3936,6 +3971,7 @@ synchronized
 GeckoAudioInfo
 getAudioInfo
 (
+final
 int
 index
 )
@@ -4072,6 +4108,7 @@ synchronized
 boolean
 seek
 (
+final
 long
 positionUs
 )

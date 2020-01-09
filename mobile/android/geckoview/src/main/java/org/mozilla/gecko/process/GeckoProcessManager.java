@@ -337,6 +337,7 @@ mPid
 public
 ChildConnection
 (
+final
 String
 type
 )
@@ -674,8 +675,10 @@ synchronized
 void
 onServiceConnected
 (
+final
 ComponentName
 name
+final
 IBinder
 service
 )
@@ -742,6 +745,7 @@ synchronized
 void
 onServiceDisconnected
 (
+final
 ComponentName
 name
 )
@@ -1055,6 +1059,7 @@ private
 int
 filterFlagsForChild
 (
+final
 int
 flags
 )
