@@ -114,12 +114,17 @@ nsDirectoryServiceUtils
 h
 "
 #
+ifdef
+MOZ_NEW_CERT_STORAGE
+#
 include
 "
 nsIFileStreams
 .
 h
 "
+#
+endif
 #
 include
 "

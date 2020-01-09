@@ -164,6 +164,17 @@ extern
 crate
 log
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+new_cert_storage
+"
+)
+]
 extern
 crate
 cert_storage

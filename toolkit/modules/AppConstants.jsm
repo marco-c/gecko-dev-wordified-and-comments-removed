@@ -797,6 +797,17 @@ else
 false
 #
 endif
+MOZ_NEW_CERT_STORAGE
+:
+#
+ifdef
+MOZ_NEW_CERT_STORAGE
+true
+#
+else
+false
+#
+endif
 }
 )
 ;

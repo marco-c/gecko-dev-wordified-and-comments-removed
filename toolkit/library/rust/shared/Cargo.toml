@@ -759,6 +759,9 @@ ssl
 /
 cert_storage
 "
+optional
+=
+true
 }
 bitsdownload
 =
@@ -1031,6 +1034,13 @@ new_xulstore
 [
 "
 xulstore
+"
+]
+new_cert_storage
+=
+[
+"
+cert_storage
 "
 ]
 [
