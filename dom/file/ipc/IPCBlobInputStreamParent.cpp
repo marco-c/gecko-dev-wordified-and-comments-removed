@@ -356,7 +356,12 @@ callback
 storage
 )
 {
-storage
+IPCBlobInputStreamStorage
+:
+:
+Get
+(
+)
 -
 >
 StoreCallback

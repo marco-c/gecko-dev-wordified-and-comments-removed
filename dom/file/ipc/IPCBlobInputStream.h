@@ -219,14 +219,6 @@ return
 nullptr
 ;
 }
-void
-ActorMigrated
-(
-IPCBlobInputStreamChild
-*
-aNewActor
-)
-;
 private
 :
 ~
