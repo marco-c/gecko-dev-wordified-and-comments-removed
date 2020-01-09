@@ -696,21 +696,21 @@ After
 talos
 is
 finished
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 will
 be
 launched
 in
 Firefox
-so
-you
 "
             
 "
+so
+you
 can
 analyze
 the
@@ -723,14 +723,14 @@ auto
 -
 launching
 of
-perf
--
-html
-.
-io
 "
             
 "
+profiler
+.
+firefox
+.
+com
 set
 the
 DISABLE_PROFILE_LAUNCH

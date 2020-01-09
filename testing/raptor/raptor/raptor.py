@@ -5561,11 +5561,11 @@ info
 "
 Not
 launching
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 because
 DISABLE_PROFILE_LAUNCH
 =

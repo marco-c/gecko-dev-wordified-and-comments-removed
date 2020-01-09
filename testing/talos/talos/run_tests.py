@@ -2189,11 +2189,11 @@ info
 "
 Not
 launching
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 because
 DISABLE_PROFILE_LAUNCH
 =
@@ -2335,11 +2335,11 @@ found
 so
 not
 launching
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 "
 )
         

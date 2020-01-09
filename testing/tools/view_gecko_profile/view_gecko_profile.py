@@ -135,11 +135,11 @@ https
 :
 /
 /
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 /
 from
 -
@@ -633,11 +633,11 @@ gecko
 profile
 zip
 in
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 .
 .
 .
@@ -1054,11 +1054,11 @@ file
 to
 open
 in
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 "
 )
     
