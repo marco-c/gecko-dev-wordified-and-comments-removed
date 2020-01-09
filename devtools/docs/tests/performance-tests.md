@@ -126,8 +126,6 @@ none
 t
 damp
 -
-e10s
--
 -
 rebuild
 -
@@ -179,8 +177,6 @@ on
 *
 "
 damp
--
-e10s
 "
 is
 the

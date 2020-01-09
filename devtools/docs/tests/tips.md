@@ -183,8 +183,6 @@ chrome
 t
 damp
 -
-e10s
--
 -
 setenv
 MOZ_QUIET
