@@ -2073,6 +2073,7 @@ resource_cache
 .
 end_frame
 (
+texture_cache_profile
 )
 ;
 Frame
