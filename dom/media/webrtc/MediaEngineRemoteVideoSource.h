@@ -522,7 +522,7 @@ aHandle
 )
 override
 ;
-nsresult
+void
 SetTrack
 (
 const

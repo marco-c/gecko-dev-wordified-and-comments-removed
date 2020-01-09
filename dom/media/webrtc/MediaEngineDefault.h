@@ -194,7 +194,7 @@ aOutBadConstraint
 )
 override
 ;
-nsresult
+void
 SetTrack
 (
 const
@@ -514,7 +514,7 @@ aOutBadConstraint
 )
 override
 ;
-nsresult
+void
 SetTrack
 (
 const

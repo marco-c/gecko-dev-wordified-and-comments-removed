@@ -2461,7 +2461,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 MediaEngineWebRTCMicrophoneSource
 :
 :
@@ -2585,9 +2585,6 @@ get
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 class
@@ -5975,7 +5972,7 @@ NSID_LENGTH
 )
 ;
 }
-nsresult
+void
 MediaEngineWebRTCAudioCaptureSource
 :
 :
@@ -6006,9 +6003,6 @@ aPrincipalHandle
 AssertIsOnOwningThread
 (
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

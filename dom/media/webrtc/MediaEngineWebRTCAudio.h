@@ -160,7 +160,7 @@ aHandle
 )
 override
 ;
-nsresult
+void
 SetTrack
 (
 const
@@ -970,7 +970,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 SetTrack
 (
 const
