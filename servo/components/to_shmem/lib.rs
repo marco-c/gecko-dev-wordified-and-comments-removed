@@ -1423,6 +1423,7 @@ builder
 }
 dest
 }
+pub
 unsafe
 fn
 to_shmem_slice
