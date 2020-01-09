@@ -110,6 +110,17 @@ RenderTextureHost
 RenderTextureHost
 (
 )
+:
+mCachedRendering
+(
+wr
+:
+:
+ImageRendering
+:
+:
+Auto
+)
 {
 MOZ_COUNT_CTOR
 (

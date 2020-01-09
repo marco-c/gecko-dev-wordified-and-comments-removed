@@ -112,6 +112,13 @@ const
 override
 ;
 virtual
+void
+NotifyNotUsed
+(
+)
+override
+;
+virtual
 gfx
 :
 :
@@ -196,6 +203,12 @@ return
 this
 ;
 }
+virtual
+void
+PrepareForUse
+(
+)
+;
 wr
 :
 :
