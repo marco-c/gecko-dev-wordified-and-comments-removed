@@ -1017,6 +1017,11 @@ JSContext
 aCx
 )
 ;
+void
+StartDelayedAutoplayMediaComponents
+(
+)
+;
 class
 Transaction
 {
@@ -1604,6 +1609,14 @@ Group
 ;
 }
 }
+void
+DidSetIsActivatedByUserGesture
+(
+ContentParent
+*
+aSource
+)
+;
 const
 Type
 mType

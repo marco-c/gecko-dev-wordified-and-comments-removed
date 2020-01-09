@@ -225,6 +225,11 @@ bool
 aIsUserGestureActivation
 )
 ;
+void
+NotifyStartDelayedAutoplayMedia
+(
+)
+;
 bool
 ValidateTransaction
 (

@@ -200,6 +200,11 @@ WindowGlobalParent
 ?
 currentWindowGlobal
 ;
+void
+notifyStartDelayedAutoplayMedia
+(
+)
+;
 }
 ;
 [
