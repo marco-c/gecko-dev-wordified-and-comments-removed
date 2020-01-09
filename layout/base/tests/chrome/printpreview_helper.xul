@@ -289,7 +289,9 @@ frames
 .
 docShell
 .
-printPreview
+initOrReusePrintPreviewViewer
+(
+)
 ;
 var
 listener
@@ -654,8 +656,6 @@ frames
 ]
 .
 docShell
-.
-printPreview
 .
 exitPrintPreview
 (

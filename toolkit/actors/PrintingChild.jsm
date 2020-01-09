@@ -1536,7 +1536,9 @@ changingBrowsers
 ;
 docShell
 .
-printPreview
+initOrReusePrintPreviewViewer
+(
+)
 .
 printPreview
 (
@@ -1673,7 +1675,9 @@ this
 .
 docShell
 .
-printPreview
+initOrReusePrintPreviewViewer
+(
+)
 .
 exitPrintPreview
 (
@@ -2012,7 +2016,9 @@ this
 .
 docShell
 .
-printPreview
+initOrReusePrintPreviewViewer
+(
+)
 .
 printPreviewNumPages
 ;
@@ -2045,7 +2051,9 @@ this
 .
 docShell
 .
-printPreview
+initOrReusePrintPreviewViewer
+(
+)
 .
 printPreviewNavigate
 (

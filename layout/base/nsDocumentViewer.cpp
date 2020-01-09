@@ -13968,7 +13968,7 @@ from
 "
 docshell
 .
-printPreview
+initOrReusePrintPreviewViewer
 !
 "
 )
