@@ -90,9 +90,6 @@ ReflowInput
 class
 PresShell
 ;
-class
-StyleBasicShape
-;
 }
 enum
 class

@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsStyleCoord
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -41,9 +48,6 @@ nsRect
 namespace
 mozilla
 {
-class
-StyleBasicShape
-;
 struct
 ShapeUtils
 final
@@ -54,6 +58,7 @@ ComputeShapeRadius
 (
 const
 StyleShapeRadius
+&
 aType
 const
 nscoord
