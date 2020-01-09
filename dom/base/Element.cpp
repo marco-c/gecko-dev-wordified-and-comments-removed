@@ -8664,6 +8664,8 @@ IsInComposedDoc
 )
 )
 {
+if
+(
 CustomElementData
 *
 data
@@ -8671,10 +8673,6 @@ data
 GetCustomElementData
 (
 )
-;
-if
-(
-data
 )
 {
 if
@@ -12816,10 +12814,8 @@ nsGkAtoms
 :
 :
 _class
-)
-{
-if
-(
+&
+&
 aValue
 )
 {
@@ -12827,7 +12823,6 @@ SetMayHaveClass
 (
 )
 ;
-}
 }
 }
 return

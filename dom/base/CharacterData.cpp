@@ -2662,9 +2662,6 @@ aNullParent
 {
 if
 (
-this
--
->
 IsRootOfNativeAnonymousSubtree
 (
 )
