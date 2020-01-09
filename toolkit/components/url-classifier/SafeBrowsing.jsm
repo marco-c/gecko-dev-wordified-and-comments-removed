@@ -2150,7 +2150,7 @@ clientID
 )
 ;
 let
-googleKey
+googleSBKey
 =
 Services
 .
@@ -2160,7 +2160,7 @@ formatURL
 (
 "
 %
-GOOGLE_API_KEY
+GOOGLE_SAFEBROWSING_API_KEY
 %
 "
 )
@@ -2191,16 +2191,18 @@ google4
 &
 (
 !
-googleKey
+googleSBKey
 |
 |
-googleKey
+googleSBKey
 =
 =
 "
 no
 -
 google
+-
+safebrowsing
 -
 api
 -
@@ -2214,6 +2216,7 @@ log
 "
 Missing
 Google
+SafeBrowsing
 API
 key
 clearing
