@@ -915,7 +915,9 @@ failed
 :
 "
 +
-status
+ctypes
+.
+winLastError
 )
 ;
 }
@@ -1194,7 +1196,9 @@ failed
 :
 "
 +
-status
+ctypes
+.
+winLastError
 )
 ;
 }
