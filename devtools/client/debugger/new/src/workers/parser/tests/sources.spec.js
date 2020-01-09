@@ -93,6 +93,9 @@ introductionUrl
 :
 "
 "
+introductionType
+:
+undefined
 relativeUrl
 :
 "
