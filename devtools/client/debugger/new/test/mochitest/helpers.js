@@ -6912,6 +6912,11 @@ lineHeightOffset
 3
 ;
 const
+leftOffset
+=
+10
+;
+const
 tokenEl
 =
 dbg
@@ -6923,6 +6928,8 @@ document
 elementFromPoint
 (
 left
+-
+leftOffset
 top
 +
 lineHeightOffset
@@ -8523,4 +8530,5 @@ length
 ;
 }
 )
+;
 }
