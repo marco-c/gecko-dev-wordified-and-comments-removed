@@ -37381,6 +37381,12 @@ ValType
 :
 AnyRef
 :
+case
+ValType
+:
+:
+FuncRef
+:
 {
 MOZ_CRASH
 (
