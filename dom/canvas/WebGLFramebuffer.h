@@ -907,6 +907,8 @@ rb
 bool
 ValidateAndInitAttachments
 (
+GLenum
+incompleteFbError
 )
 const
 ;

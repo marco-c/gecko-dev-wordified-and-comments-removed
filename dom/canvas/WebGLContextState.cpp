@@ -1132,6 +1132,7 @@ usage
 width
 &
 height
+LOCAL_GL_INVALID_OPERATION
 )
 )
 return

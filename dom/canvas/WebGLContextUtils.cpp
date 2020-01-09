@@ -667,13 +667,15 @@ void
 WebGLContext
 :
 :
-SynthesizeGLError
+GenerateError
 (
+const
 GLenum
 err
 const
 char
 *
+const
 fmt
 .
 .
