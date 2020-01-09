@@ -351,6 +351,15 @@ image
 '
 encoders
 /
+bmp
+/
+nsBMPEncoder
+.
+h
+'
+'
+encoders
+/
 jpeg
 /
 nsJPEGEncoder
