@@ -2860,7 +2860,7 @@ startp
 mozilla
 :
 :
-MaybePrefetchMemory
+PrefetchMemory
 (
 const_cast
 <
