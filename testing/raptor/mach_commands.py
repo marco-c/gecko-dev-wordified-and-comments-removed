@@ -417,6 +417,17 @@ power_test
         
 self
 .
+memory_test
+=
+kwargs
+[
+'
+memory_test
+'
+]
+        
+self
+.
 is_release_build
 =
 kwargs
@@ -1041,6 +1052,14 @@ power_test
 self
 .
 power_test
+            
+'
+memory_test
+'
+:
+self
+.
+memory_test
             
 '
 is_release_build
