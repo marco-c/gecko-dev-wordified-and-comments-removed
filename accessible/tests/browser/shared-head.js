@@ -984,8 +984,6 @@ withNewTab
 {
 gBrowser
 url
-:
-url
 }
 async
 function
