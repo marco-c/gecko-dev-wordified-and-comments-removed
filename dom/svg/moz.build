@@ -125,11 +125,6 @@ nsSVGClass
 .
 h
 '
-'
-nsSVGFeatures
-.
-h
-'
 ]
 EXPORTS
 .
@@ -698,11 +693,6 @@ cpp
 '
 '
 nsSVGEnum
-.
-cpp
-'
-'
-nsSVGFeatures
 .
 cpp
 '
