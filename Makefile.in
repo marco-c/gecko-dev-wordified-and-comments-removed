@@ -1282,6 +1282,17 @@ MOZ_ARTIFACT_BUILD_SYMBOLS
 -
 -
 symbols
+(
+addprefix
+=
+(
+filter
+full
+(
+MOZ_ARTIFACT_BUILD_SYMBOLS
+)
+)
+)
 )
 (
 if

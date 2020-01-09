@@ -902,6 +902,29 @@ None
         
 if
 download_symbols
+=
+=
+'
+full
+'
+:
+            
+self
+.
+_symbols_archive_suffix
+=
+'
+crashreporter
+-
+symbols
+-
+full
+.
+zip
+'
+        
+elif
+download_symbols
 :
             
 self
