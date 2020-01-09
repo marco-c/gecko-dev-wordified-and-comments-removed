@@ -58491,6 +58491,10 @@ bool
 JSNativeArguments
 (
 )
+                                        
+canRunScript
+=
+True
 )
     
 def
