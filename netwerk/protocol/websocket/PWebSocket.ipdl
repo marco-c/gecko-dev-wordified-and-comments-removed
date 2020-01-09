@@ -202,15 +202,6 @@ mozilla
 namespace
 net
 {
-union
-OptionalTransportProvider
-{
-PTransportProvider
-;
-void_t
-;
-}
-;
 async
 protocol
 PWebSocket
@@ -264,7 +255,8 @@ aClientSetPingTimeout
 LoadInfoArgs
 ?
 aLoadInfoArgs
-OptionalTransportProvider
+PTransportProvider
+?
 aProvider
 nsCString
 aNegotiatedExtensions

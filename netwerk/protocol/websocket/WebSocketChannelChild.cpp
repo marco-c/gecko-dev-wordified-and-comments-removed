@@ -2296,7 +2296,11 @@ LoadInfoArgs
 >
 loadInfoArgs
 ;
-OptionalTransportProvider
+Maybe
+<
+PTransportProviderChild
+*
+>
 transportProvider
 ;
 if
@@ -2342,7 +2346,7 @@ rv
 ;
 transportProvider
 =
-void_t
+Nothing
 (
 )
 ;
@@ -2378,7 +2382,10 @@ rv
 ;
 transportProvider
 =
+Some
+(
 ipcChild
+)
 ;
 }
 SetupNeckoTarget
