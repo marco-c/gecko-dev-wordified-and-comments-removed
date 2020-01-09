@@ -303,6 +303,18 @@ sep
 ]
 )
             
+new_root
+=
+root
+            
+match
+=
+True
+            
+while
+match
+:
+                
 ls_out
 =
 device
@@ -317,9 +329,9 @@ l
 s
 "
 %
-root
+new_root
 )
-            
+                
 match
 =
 re
@@ -341,11 +353,11 @@ s
 '
 ls_out
 )
-            
+                
 if
 match
 :
-                
+                    
 new_root
 =
 match
@@ -354,6 +366,13 @@ group
 (
 1
 )
+            
+if
+new_root
+!
+=
+root
+:
                 
 profile
 =
