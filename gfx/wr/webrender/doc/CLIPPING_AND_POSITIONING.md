@@ -1348,7 +1348,6 @@ from
 ClipId
 into
 SpatialNodeIndex
-ClipNodeIndex
 or
 ClipChainIndex
 .
