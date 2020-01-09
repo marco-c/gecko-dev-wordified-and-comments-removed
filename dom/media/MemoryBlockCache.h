@@ -61,10 +61,9 @@ Flush
 )
 override
 ;
-size_t
+int32_t
 GetMaxBlocks
 (
-size_t
 )
 const
 override
@@ -156,7 +155,7 @@ size_t
 mInitialContentLength
 ;
 const
-size_t
+int32_t
 mMaxBlocks
 ;
 Mutex
