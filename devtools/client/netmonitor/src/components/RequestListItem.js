@@ -702,6 +702,13 @@ PropTypes
 func
 .
 isRequired
+onDoubleClick
+:
+PropTypes
+.
+func
+.
+isRequired
 onContextMenu
 :
 PropTypes
@@ -967,6 +974,7 @@ index
 isSelected
 firstRequestStartedMillis
 fromCache
+onDoubleClick
 onContextMenu
 onMouseDown
 onCauseBadgeMouseDown
@@ -1061,6 +1069,7 @@ tabIndex
 0
 onContextMenu
 onMouseDown
+onDoubleClick
 }
 columns
 .
