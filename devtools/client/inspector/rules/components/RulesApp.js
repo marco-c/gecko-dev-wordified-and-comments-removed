@@ -266,6 +266,13 @@ PropTypes
 func
 .
 isRequired
+onTogglePrintSimulation
+:
+PropTypes
+.
+func
+.
+isRequired
 onTogglePseudoClass
 :
 PropTypes
@@ -944,6 +951,13 @@ this
 props
 .
 onToggleClassPanelExpanded
+onTogglePrintSimulation
+:
+this
+.
+props
+.
+onTogglePrintSimulation
 onTogglePseudoClass
 :
 this
