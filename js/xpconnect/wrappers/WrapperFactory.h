@@ -356,14 +356,6 @@ object
 ;
 }
 ;
-extern
-const
-js
-:
-:
-Wrapper
-XrayWaiver
-;
 }
 #
 endif
