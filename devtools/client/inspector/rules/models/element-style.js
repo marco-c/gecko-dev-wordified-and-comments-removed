@@ -183,8 +183,10 @@ properties
 true
 )
 ;
-function
+class
 ElementStyle
+{
+constructor
 (
 element
 ruleView
@@ -345,14 +347,7 @@ onStyleSheetUpdated
 ;
 }
 }
-ElementStyle
-.
-prototype
-=
-{
 destroy
-:
-function
 (
 )
 {
@@ -427,8 +422,6 @@ onStyleSheetUpdated
 }
 }
 _changed
-:
-function
 (
 )
 {
@@ -448,8 +441,6 @@ onChanged
 }
 }
 populate
-:
-function
 (
 )
 {
@@ -638,8 +629,6 @@ populated
 ;
 }
 getRule
-:
-function
 (
 id
 )
@@ -667,8 +656,6 @@ id
 ;
 }
 getUsedFontFamilies
-:
-function
 (
 )
 {
@@ -754,8 +741,6 @@ e
 ;
 }
 _sortRulesForPseudoElement
-:
-function
 (
 )
 {
@@ -804,8 +789,6 @@ z
 ;
 }
 _maybeAddRule
-:
-function
 (
 options
 existingRules
@@ -961,8 +944,6 @@ true
 ;
 }
 markOverriddenAll
-:
-function
 (
 )
 {
@@ -1002,8 +983,6 @@ pseudo
 }
 }
 markOverridden
-:
-function
 (
 pseudo
 =
@@ -1355,8 +1334,6 @@ updateEditor
 }
 }
 addNewDeclaration
-:
-function
 (
 ruleId
 value
@@ -1438,10 +1415,8 @@ pseudoClassLocks
 )
 ;
 }
-modifyDeclarationName
-:
 async
-function
+modifyDeclarationName
 (
 ruleID
 declarationId
@@ -1551,8 +1526,6 @@ true
 }
 }
 _addMultipleDeclarations
-:
-function
 (
 rule
 declarationsToAdd
@@ -1604,8 +1577,6 @@ siblingDeclaration
 }
 }
 _getValueAndExtraProperties
-:
-function
 (
 value
 )
@@ -1736,10 +1707,8 @@ firstValue
 }
 ;
 }
-modifyDeclarationValue
-:
 async
-function
+modifyDeclarationValue
 (
 ruleId
 declarationId
@@ -1883,10 +1852,8 @@ declaration
 )
 ;
 }
-modifySelector
-:
 async
-function
+modifySelector
 (
 ruleId
 selector
@@ -2136,8 +2103,6 @@ e
 }
 }
 toggleDeclaration
-:
-function
 (
 ruleId
 declarationId
@@ -2193,8 +2158,6 @@ enabled
 ;
 }
 _updatePropertyOverridden
-:
-function
 (
 prop
 )
@@ -2275,8 +2238,6 @@ dirty
 ;
 }
 getVariable
-:
-function
 (
 name
 )
@@ -2292,10 +2253,8 @@ name
 )
 ;
 }
-onStyleSheetUpdated
-:
 async
-function
+onStyleSheetUpdated
 (
 )
 {
@@ -2356,7 +2315,6 @@ _changed
 ;
 }
 }
-;
 module
 .
 exports
