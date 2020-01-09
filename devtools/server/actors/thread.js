@@ -6985,6 +6985,13 @@ source
 )
 ;
 }
+const
+sourceUrl
+=
+sourceActor
+.
+url
+;
 if
 (
 this
@@ -6993,9 +7000,7 @@ _onLoadBreakpointURLs
 .
 has
 (
-source
-.
-url
+sourceUrl
 )
 )
 {
@@ -7005,10 +7010,6 @@ setBreakpoint
 (
 {
 sourceUrl
-:
-source
-.
-url
 line
 :
 1
@@ -7036,8 +7037,6 @@ actor
 )
 =
 >
-{
-return
 actor
 .
 location
@@ -7052,11 +7051,7 @@ location
 sourceUrl
 =
 =
-source
-.
-url
-;
-}
+sourceUrl
 )
 ;
 for
