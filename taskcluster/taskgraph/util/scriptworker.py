@@ -2678,6 +2678,8 @@ platform
     
 map_config
 =
+deepcopy
+(
 cached_load_yaml
 (
 job
@@ -2691,6 +2693,7 @@ attributes
 artifact_map
 '
 ]
+)
 )
     
 upstream_artifacts
@@ -3190,6 +3193,8 @@ job
     
 map_config
 =
+deepcopy
+(
 cached_load_yaml
 (
 job
@@ -3203,6 +3208,7 @@ attributes
 artifact_map
 '
 ]
+)
 )
     
 upstream_artifacts
@@ -3516,6 +3522,8 @@ platform
     
 map_config
 =
+deepcopy
+(
 cached_load_yaml
 (
 job
@@ -3529,6 +3537,7 @@ attributes
 artifact_map
 '
 ]
+)
 )
     
 base_artifact_prefix
@@ -4490,6 +4499,8 @@ platform
     
 map_config
 =
+deepcopy
+(
 cached_load_yaml
 (
 job
@@ -4503,6 +4514,7 @@ attributes
 artifact_map
 '
 ]
+)
 )
     
 base_artifact_prefix
