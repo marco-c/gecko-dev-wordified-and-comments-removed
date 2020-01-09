@@ -928,6 +928,10 @@ mKeptAlive
 (
 false
 )
+mIPCActorDeleted
+(
+false
+)
 mSuspendSent
 (
 false
@@ -2501,8 +2505,7 @@ if
 mOnStartRequestCalled
 &
 &
-!
-mIPCOpen
+mIPCActorDeleted
 )
 {
 return
@@ -2998,6 +3001,10 @@ OnStartRequest
 aRequest
 )
 ;
+mOnStartRequestCalled
+=
+true
+;
 if
 (
 NS_FAILED
@@ -3014,10 +3021,6 @@ rv
 return
 ;
 }
-mOnStartRequestCalled
-=
-true
-;
 if
 (
 mDivertingToParent
@@ -4734,8 +4737,7 @@ if
 mOnStopRequestCalled
 &
 &
-!
-mIPCOpen
+mIPCActorDeleted
 )
 {
 return
@@ -16669,6 +16671,14 @@ HandleAsyncAbort
 CleanupBackgroundChannel
 (
 )
+;
+mIPCActorDeleted
+=
+true
+;
+mCanceled
+=
+true
 ;
 }
 }
