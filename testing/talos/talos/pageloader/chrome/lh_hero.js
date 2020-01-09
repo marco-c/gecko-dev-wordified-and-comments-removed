@@ -152,19 +152,6 @@ message
 }
 }
 else
-{
-dumpLine
-(
-"
-no
-hero
-isload
-=
-"
-+
-isload
-)
-;
 if
 (
 isload
@@ -222,7 +209,6 @@ err
 }
 )
 ;
-}
 }
 return
 obs
