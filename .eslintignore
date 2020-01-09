@@ -101,10 +101,6 @@ exclusions
 #
 below
 .
-image
-/
-*
-*
 layout
 /
 *

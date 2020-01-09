@@ -895,7 +895,6 @@ cleanUpAndFinish
 }
 }
 else
-{
 if
 (
 !
@@ -938,7 +937,6 @@ this
 referenceElementId
 )
 ;
-}
 }
 }
 AnimationTest

@@ -398,13 +398,9 @@ newChannel
 (
 {
 uri
-:
-uri
 loadingPrincipal
 :
 principal
-securityFlags
-:
 securityFlags
 contentPolicyType
 :

@@ -920,8 +920,6 @@ asyncReader
 =
 {
 onInputStreamReady
-:
-function
 (
 stream
 )
