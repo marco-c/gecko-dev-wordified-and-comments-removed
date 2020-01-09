@@ -70,6 +70,11 @@ isEnabled
 declaration
 .
 enabled
+isInvisible
+:
+declaration
+.
+invisible
 isKnownProperty
 :
 declaration
