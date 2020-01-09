@@ -27,13 +27,6 @@ h
 #
 include
 "
-gfxFont
-.
-h
-"
-#
-include
-"
 gfxImageSurface
 .
 h
@@ -42,6 +35,13 @@ h
 include
 "
 gfxPoint
+.
+h
+"
+#
+include
+"
+gfxTextRun
 .
 h
 "

@@ -2671,7 +2671,7 @@ font
 >
 GetMetrics
 (
-gfxFont
+nsFontMetrics
 :
 :
 eHorizontal

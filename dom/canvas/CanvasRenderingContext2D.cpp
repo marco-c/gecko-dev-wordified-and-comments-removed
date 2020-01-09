@@ -18846,7 +18846,7 @@ GetFirstValidFont
 >
 GetMetrics
 (
-gfxFont
+nsFontMetrics
 :
 :
 eHorizontal
