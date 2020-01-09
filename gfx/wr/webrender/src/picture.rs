@@ -9567,6 +9567,7 @@ device_rect
 frame_context
 .
 device_pixel_scale
+true
 )
 ;
 let
@@ -9702,6 +9703,7 @@ device_rect
 frame_context
 .
 device_pixel_scale
+true
 )
 ;
 let
@@ -9962,6 +9964,7 @@ device_rect
 frame_context
 .
 device_pixel_scale
+true
 )
 ;
 let
@@ -10222,6 +10225,7 @@ clipped
 frame_context
 .
 device_pixel_scale
+true
 )
 ;
 let
@@ -10444,6 +10448,7 @@ clipped
 frame_context
 .
 device_pixel_scale
+true
 )
 ;
 let
@@ -10527,6 +10532,31 @@ Blit
 >
 {
 let
+supports_snapping
+=
+match
+self
+.
+context_3d
+{
+Picture3DContext
+:
+:
+In
+{
+.
+.
+}
+=
+>
+false
+_
+=
+>
+true
+}
+;
+let
 uv_rect_kind
 =
 calculate_uv_rect_kind
@@ -10540,6 +10570,7 @@ clipped
 frame_context
 .
 device_pixel_scale
+supports_snapping
 )
 ;
 let
@@ -10654,6 +10685,9 @@ DeviceRect
 device_pixel_scale
 :
 DevicePixelScale
+supports_snapping
+:
+bool
 )
 -
 >
@@ -10733,6 +10767,9 @@ TransformedRectKind
 :
 :
 AxisAligned
+&
+&
+supports_snapping
 {
 device_pos
 .
@@ -10830,6 +10867,9 @@ DeviceIntRect
 device_pixel_scale
 :
 DevicePixelScale
+supports_snapping
+:
+bool
 )
 -
 >
@@ -10857,6 +10897,7 @@ transform
 &
 rendered_rect
 device_pixel_scale
+supports_snapping
 )
 ;
 let
@@ -10874,6 +10915,7 @@ transform
 &
 rendered_rect
 device_pixel_scale
+supports_snapping
 )
 ;
 let
@@ -10891,6 +10933,7 @@ transform
 &
 rendered_rect
 device_pixel_scale
+supports_snapping
 )
 ;
 let
@@ -10908,6 +10951,7 @@ transform
 &
 rendered_rect
 device_pixel_scale
+supports_snapping
 )
 ;
 UvRectKind
