@@ -357,6 +357,15 @@ MOZ_ARTIFACT_BUILDS
 )
 artifact
 )
+(
+if
+(
+MOZ_EME_WIN32_ARTIFACT
+)
+win32
+-
+artifact
+)
 pre
 -
 export
