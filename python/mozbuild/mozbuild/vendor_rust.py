@@ -1164,14 +1164,6 @@ exception
 '
         
 '
-BSD
--
-2
--
-Clause
-'
-        
-'
 CC0
 -
 1
@@ -1250,6 +1242,26 @@ cprng
 RUNTIME_LICENSE_PACKAGE_WHITELIST
 =
 {
+        
+'
+BSD
+-
+2
+-
+Clause
+'
+:
+[
+            
+'
+arrayref
+'
+            
+'
+Inflector
+'
+        
+]
         
 '
 BSD
