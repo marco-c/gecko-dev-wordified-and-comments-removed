@@ -1359,13 +1359,6 @@ RESPATH
 /
 components
 /
-pluginGlue
-.
-manifest
-RESPATH
-/
-components
-/
 ProcessSingleton
 .
 manifest

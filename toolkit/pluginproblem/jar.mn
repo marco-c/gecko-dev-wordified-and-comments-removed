@@ -90,15 +90,3 @@ pluginProblemContent
 .
 css
 )
-pluginproblem
-/
-pluginProblemBinding
-.
-css
-(
-content
-/
-pluginProblemBinding
-.
-css
-)

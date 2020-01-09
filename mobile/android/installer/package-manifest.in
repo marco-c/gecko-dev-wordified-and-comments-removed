@@ -848,13 +848,6 @@ BINPATH
 /
 components
 /
-pluginGlue
-.
-manifest
-BINPATH
-/
-components
-/
 ProcessSingleton
 .
 manifest

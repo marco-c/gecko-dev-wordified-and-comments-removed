@@ -85,16 +85,6 @@ MPL
 0
 /
 .
-EXTRA_COMPONENTS
-+
-=
-[
-'
-pluginGlue
-.
-manifest
-'
-]
 JAR_MANIFESTS
 +
 =

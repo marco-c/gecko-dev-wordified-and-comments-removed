@@ -191,6 +191,8 @@ html
 mathml
 |
 ua
+|
+pluginproblem
 )
 \
 .
