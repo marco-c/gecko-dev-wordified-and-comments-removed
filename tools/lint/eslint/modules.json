@@ -3927,6 +3927,17 @@ WebChannelBroker
 "
 ]
 "
+WindowDraggingUtils
+.
+jsm
+"
+:
+[
+"
+WindowDraggingElement
+"
+]
+"
 windows
 .
 jsm

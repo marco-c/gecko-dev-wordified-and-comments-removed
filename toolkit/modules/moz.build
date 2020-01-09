@@ -1703,6 +1703,11 @@ WebProgressChild
 jsm
 '
 '
+WindowDraggingUtils
+.
+jsm
+'
+'
 ZipUtils
 .
 jsm
