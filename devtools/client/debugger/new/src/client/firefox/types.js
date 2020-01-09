@@ -228,6 +228,12 @@ ActorId
 animationsActor
 :
 ActorId
+callWatcherActor
+:
+ActorId
+canvasActor
+:
+ActorId
 consoleActor
 :
 ActorId
@@ -247,6 +253,9 @@ eventLoopLagActor
 :
 ActorId
 framerateActor
+:
+ActorId
+gcliActor
 :
 ActorId
 inspectorActor
@@ -295,6 +304,12 @@ url
 :
 URL
 webExtensionInspectedWindowActor
+:
+ActorId
+webaudioActor
+:
+ActorId
+webglActor
 :
 ActorId
 }

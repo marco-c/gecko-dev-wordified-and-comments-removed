@@ -2219,6 +2219,11 @@ BROWSERCONSOLE
 :
 case
 "
+CANVASDEBUGGER
+"
+:
+case
+"
 DOM
 "
 :
@@ -2270,6 +2275,11 @@ RESPONSIVE
 case
 "
 SCRATCHPAD
+"
+:
+case
+"
+SHADEREDITOR
 "
 :
 case
