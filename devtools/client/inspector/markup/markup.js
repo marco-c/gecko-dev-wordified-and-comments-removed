@@ -1248,6 +1248,17 @@ _onNewSelection
 (
 )
 ;
+if
+(
+this
+.
+inspector
+.
+selection
+.
+nodeFront
+)
+{
 this
 .
 expandNode
@@ -1261,6 +1272,7 @@ selection
 nodeFront
 )
 ;
+}
 this
 .
 _prefObserver
