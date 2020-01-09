@@ -1,0 +1,17 @@
+log
+.
+push
+(
+"
+relative
+:
+bare
+/
+cross
+-
+origin
+-
+bare
+"
+)
+;
