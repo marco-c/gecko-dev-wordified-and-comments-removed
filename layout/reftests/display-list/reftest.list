@@ -938,12 +938,6 @@ html
 ref
 .
 html
-skip
--
-if
-(
-retainedDisplayList
-)
 =
 =
 1551053
