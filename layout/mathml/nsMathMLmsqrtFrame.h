@@ -20,6 +20,13 @@ nsMathMLmencloseFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsMathMLmsqrtFrame
 final
@@ -38,7 +45,10 @@ nsIFrame
 *
 NS_NewMathMLmsqrtFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

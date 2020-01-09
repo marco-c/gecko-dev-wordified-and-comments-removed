@@ -3244,7 +3244,7 @@ nsContainerFrame
 *
 NS_NewMathMLmtableOuterFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -4305,7 +4305,7 @@ nsContainerFrame
 *
 NS_NewMathMLmtableFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -5177,7 +5177,7 @@ nsContainerFrame
 *
 NS_NewMathMLmtrFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -5316,7 +5316,7 @@ nsContainerFrame
 *
 NS_NewMathMLmtdFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -5708,7 +5708,7 @@ nsContainerFrame
 *
 NS_NewMathMLmtdInnerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

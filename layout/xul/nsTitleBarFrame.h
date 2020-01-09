@@ -29,6 +29,13 @@ nsBoxFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsTitleBarFrame
 :
@@ -46,7 +53,10 @@ nsIFrame
 *
 NS_NewTitleBarFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

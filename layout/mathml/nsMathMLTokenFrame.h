@@ -20,6 +20,13 @@ nsMathMLContainerFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsMathMLTokenFrame
 :
@@ -37,7 +44,10 @@ nsIFrame
 *
 NS_NewMathMLTokenFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

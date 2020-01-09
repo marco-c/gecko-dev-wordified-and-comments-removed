@@ -69,6 +69,9 @@ namespace
 mozilla
 {
 class
+PresShell
+;
+class
 SVGGeometryFrame
 ;
 struct
@@ -115,7 +118,10 @@ nsContainerFrame
 *
 NS_NewSVGMarkerFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -451,7 +457,10 @@ nsContainerFrame
 *
 NS_NewSVGMarkerAnonChildFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

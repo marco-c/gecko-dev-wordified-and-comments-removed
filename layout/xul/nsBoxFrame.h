@@ -40,6 +40,9 @@ nsBoxLayoutState
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 gfx
 {
@@ -52,7 +55,10 @@ nsIFrame
 *
 NS_NewBoxFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 mozilla
@@ -72,7 +78,10 @@ nsIFrame
 *
 NS_NewBoxFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 mozilla
@@ -118,7 +127,10 @@ nsIFrame
 *
 NS_NewBoxFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -136,7 +148,10 @@ nsIFrame
 *
 NS_NewBoxFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

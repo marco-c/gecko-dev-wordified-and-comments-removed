@@ -2759,7 +2759,7 @@ nsIFrame
 *
 NS_NewEmptyFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

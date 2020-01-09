@@ -165,6 +165,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs
 .
 h
@@ -235,7 +244,7 @@ nsIFrame
 *
 NS_NewFileControlFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

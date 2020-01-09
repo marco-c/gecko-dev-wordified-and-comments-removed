@@ -105,7 +105,7 @@ ViewportFrame
 *
 NS_NewViewportFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -40,6 +40,13 @@ gfxContext
 class
 nsSVGDisplayableFrame
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsSVGClipPathFrame
 final
@@ -52,7 +59,10 @@ nsIFrame
 *
 NS_NewSVGClipPathFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

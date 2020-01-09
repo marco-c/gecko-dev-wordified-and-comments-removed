@@ -51,6 +51,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsDeviceContext
 .
 h
@@ -86,7 +95,7 @@ nsCheckboxRadioFrame
 *
 NS_NewCheckboxRadioFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

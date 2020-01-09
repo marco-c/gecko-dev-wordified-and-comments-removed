@@ -80,6 +80,13 @@ WritingModes
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsTableCellFrame
 :
@@ -115,7 +122,10 @@ nsTableCellFrame
 *
 NS_NewTableCellFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

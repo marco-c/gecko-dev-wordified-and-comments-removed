@@ -394,7 +394,7 @@ nsIFrame
 *
 NS_NewSliderFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

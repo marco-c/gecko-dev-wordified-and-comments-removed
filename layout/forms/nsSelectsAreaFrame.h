@@ -20,6 +20,13 @@ nsBlockFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsSelectsAreaFrame
 final
@@ -38,7 +45,10 @@ nsContainerFrame
 *
 NS_NewSelectsAreaFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aShell
 ComputedStyle

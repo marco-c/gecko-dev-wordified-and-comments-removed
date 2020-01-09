@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGSwitchElement
@@ -81,7 +90,10 @@ nsIFrame
 *
 NS_NewSVGSwitchFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -265,7 +277,7 @@ nsIFrame
 *
 NS_NewSVGSwitchFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

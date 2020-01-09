@@ -104,6 +104,9 @@ class
 nsISVGPoint
 ;
 class
+PresShell
+;
+class
 TextFrameIterator
 ;
 class
@@ -428,7 +431,10 @@ nsIFrame
 *
 NS_NewSVGTextFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

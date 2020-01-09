@@ -1548,7 +1548,7 @@ nsBlockFrame
 *
 NS_NewBlockFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1577,7 +1577,7 @@ nsBlockFrame
 *
 NS_NewBlockFormattingContext
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

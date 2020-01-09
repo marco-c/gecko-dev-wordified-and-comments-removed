@@ -1,6 +1,13 @@
 #
 include
 "
+nsXULLabelFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventStateManager
@@ -10,7 +17,9 @@ h
 #
 include
 "
-nsXULLabelFrame
+mozilla
+/
+PresShell
 .
 h
 "
@@ -36,7 +45,7 @@ nsIFrame
 *
 NS_NewXULLabelFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

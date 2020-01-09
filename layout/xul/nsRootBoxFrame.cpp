@@ -77,6 +77,15 @@ BasicEvents
 .
 h
 "
+#
+include
+"
+mozilla
+/
+PresShell
+.
+h
+"
 using
 namespace
 mozilla
@@ -198,7 +207,10 @@ nsIFrame
 *
 NS_NewBoxFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -418,7 +430,7 @@ nsContainerFrame
 *
 NS_NewRootBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

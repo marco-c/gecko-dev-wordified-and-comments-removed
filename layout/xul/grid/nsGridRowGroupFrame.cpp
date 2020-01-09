@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsGridRowGroupFrame
 .
 h
@@ -49,7 +58,7 @@ nsIFrame
 *
 NS_NewGridRowGroupFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

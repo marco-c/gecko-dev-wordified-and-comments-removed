@@ -27,6 +27,13 @@ nsMathMLChar
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsMathMLmrootFrame
 final
@@ -45,7 +52,10 @@ nsIFrame
 *
 NS_NewMathMLmrootFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

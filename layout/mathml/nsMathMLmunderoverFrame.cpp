@@ -69,7 +69,7 @@ nsIFrame
 *
 NS_NewMathMLmunderoverFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -71,6 +71,9 @@ nsListEventListener
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -116,7 +119,10 @@ nsContainerFrame
 *
 NS_NewListControlFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

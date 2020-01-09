@@ -738,7 +738,7 @@ nsIFrame
 *
 NS_NewImageFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -774,7 +774,7 @@ nsIFrame
 *
 NS_NewImageFrameForContentProperty
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -810,7 +810,7 @@ nsIFrame
 *
 NS_NewImageFrameForGeneratedContentIndex
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

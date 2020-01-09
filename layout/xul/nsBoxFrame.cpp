@@ -308,7 +308,7 @@ nsIFrame
 *
 NS_NewBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -348,7 +348,7 @@ nsIFrame
 *
 NS_NewBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

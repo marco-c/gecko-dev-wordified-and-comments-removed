@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 MutationEvent
@@ -49,7 +58,7 @@ nsIFrame
 *
 NS_NewSVGUseFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

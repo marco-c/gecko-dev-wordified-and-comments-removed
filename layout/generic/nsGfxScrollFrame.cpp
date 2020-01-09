@@ -708,7 +708,7 @@ nsHTMLScrollFrame
 *
 NS_NewHTMLScrollFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -5824,7 +5824,7 @@ nsXULScrollFrame
 *
 NS_NewXULScrollFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

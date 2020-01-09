@@ -140,7 +140,7 @@ nsContainerFrame
 *
 NS_NewSVGForeignObjectFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

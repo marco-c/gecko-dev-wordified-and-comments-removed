@@ -111,10 +111,13 @@ namespace
 mozilla
 {
 class
-WritingMode
+LogicalMargin
 ;
 class
-LogicalMargin
+PresShell
+;
+class
+WritingMode
 ;
 struct
 TableReflowInput
@@ -481,7 +484,10 @@ nsTableFrame
 *
 NS_NewTableFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

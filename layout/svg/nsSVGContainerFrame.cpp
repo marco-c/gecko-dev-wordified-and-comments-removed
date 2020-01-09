@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RestyleManager
 .
 h
@@ -106,7 +115,7 @@ nsIFrame
 *
 NS_NewSVGContainerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -717,7 +717,7 @@ nsIFrame
 *
 NS_NewMenuFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -760,7 +760,7 @@ nsIFrame
 *
 NS_NewMenuItemFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

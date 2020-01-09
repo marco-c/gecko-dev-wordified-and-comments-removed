@@ -33,6 +33,13 @@ nsFontMetrics
 class
 nsSharedPageData
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsPageFrame
 final
@@ -52,7 +59,10 @@ nsPageFrame
 *
 NS_NewPageFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -388,7 +398,10 @@ nsIFrame
 *
 NS_NewPageBreakFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

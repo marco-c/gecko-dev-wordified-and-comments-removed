@@ -20,6 +20,13 @@ nsMathMLContainerFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsMathMLmpaddedFrame
 final
@@ -38,7 +45,10 @@ nsIFrame
 *
 NS_NewMathMLmpaddedFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

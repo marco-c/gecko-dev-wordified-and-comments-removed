@@ -20,6 +20,13 @@ nsBoxFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsDeckFrame
 final
@@ -39,7 +46,10 @@ nsIFrame
 *
 NS_NewDeckFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

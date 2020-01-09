@@ -474,7 +474,7 @@ nsIFrame
 *
 NS_NewMenuPopupFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

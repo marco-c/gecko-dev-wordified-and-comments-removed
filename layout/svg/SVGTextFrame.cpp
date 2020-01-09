@@ -9634,7 +9634,7 @@ nsIFrame
 *
 NS_NewSVGTextFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

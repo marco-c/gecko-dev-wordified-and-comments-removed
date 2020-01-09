@@ -27,6 +27,13 @@ nsBoxFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsButtonBoxFrame
 :
@@ -44,7 +51,10 @@ nsIFrame
 *
 NS_NewButtonBoxFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 )

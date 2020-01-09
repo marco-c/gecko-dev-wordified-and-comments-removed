@@ -148,7 +148,7 @@ nsIFrame
 *
 NS_NewMeterFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

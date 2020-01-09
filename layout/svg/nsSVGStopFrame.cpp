@@ -31,6 +31,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 SVGObserverUtils
 .
 h
@@ -50,7 +59,10 @@ nsIFrame
 *
 NS_NewSVGStopFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -363,7 +375,7 @@ nsIFrame
 *
 NS_NewSVGStopFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -54,9 +54,13 @@ nsAtom
 class
 nsIFrame
 ;
+namespace
+mozilla
+{
 class
-nsIPresShell
+PresShell
 ;
+}
 class
 nsSVGGenericContainerFrame
 final
@@ -69,7 +73,10 @@ nsIFrame
 *
 NS_NewSVGGenericContainerFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

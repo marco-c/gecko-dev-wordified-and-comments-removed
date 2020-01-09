@@ -235,7 +235,7 @@ nsIFrame
 *
 NS_NewButtonBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

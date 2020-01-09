@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 ComputedStyle
 .
 h
@@ -76,7 +85,7 @@ nsIFrame
 *
 NS_NewLegendFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

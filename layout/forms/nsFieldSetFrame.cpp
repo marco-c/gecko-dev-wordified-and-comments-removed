@@ -42,6 +42,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -124,7 +133,7 @@ nsContainerFrame
 *
 NS_NewFieldSetFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

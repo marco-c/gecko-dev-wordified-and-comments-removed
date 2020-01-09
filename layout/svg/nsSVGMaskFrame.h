@@ -64,6 +64,13 @@ h
 class
 gfxContext
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsSVGMaskFrame
 final
@@ -76,7 +83,10 @@ nsIFrame
 *
 NS_NewSVGMaskFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

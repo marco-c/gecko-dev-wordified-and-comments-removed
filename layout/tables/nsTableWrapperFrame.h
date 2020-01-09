@@ -50,6 +50,13 @@ nsTableFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsTableWrapperFrame
 :
@@ -68,7 +75,10 @@ nsTableWrapperFrame
 *
 NS_NewTableWrapperFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

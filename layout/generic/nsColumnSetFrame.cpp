@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ToString
 .
 h
@@ -440,7 +449,7 @@ nsContainerFrame
 *
 NS_NewColumnSetFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -20,6 +20,13 @@ nsBlockFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsXULLabelFrame
 final
@@ -38,7 +45,10 @@ nsIFrame
 *
 NS_NewXULLabelFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -139,7 +149,10 @@ nsIFrame
 *
 NS_NewXULLabelFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 mozilla

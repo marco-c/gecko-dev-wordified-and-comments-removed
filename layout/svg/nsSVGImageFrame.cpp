@@ -188,7 +188,7 @@ nsIFrame
 *
 NS_NewSVGImageFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -15,7 +15,9 @@ h
 #
 include
 "
-SVGObserverUtils
+mozilla
+/
+PresShell
 .
 h
 "
@@ -41,6 +43,13 @@ h
 include
 "
 SVGGeometryFrame
+.
+h
+"
+#
+include
+"
+SVGObserverUtils
 .
 h
 "
@@ -73,7 +82,7 @@ nsContainerFrame
 *
 NS_NewSVGMarkerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1004,7 +1013,7 @@ nsContainerFrame
 *
 NS_NewSVGMarkerAnonChildFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

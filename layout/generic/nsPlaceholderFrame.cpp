@@ -123,7 +123,7 @@ nsPlaceholderFrame
 *
 NS_NewPlaceholderFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

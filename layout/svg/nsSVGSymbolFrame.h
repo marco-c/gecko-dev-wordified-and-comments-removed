@@ -11,6 +11,13 @@ nsSVGViewportFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsSVGSymbolFrame
 final
@@ -23,7 +30,10 @@ nsIFrame
 *
 NS_NewSVGSymbolFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

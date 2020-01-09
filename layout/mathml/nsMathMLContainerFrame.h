@@ -57,6 +57,13 @@ Likely
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 #
 define
 STRETCH_CONSIDER_ACTUAL_SIZE
@@ -754,7 +761,10 @@ nsContainerFrame
 *
 NS_NewMathMLmathBlockFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -1113,7 +1123,10 @@ nsContainerFrame
 *
 NS_NewMathMLmathInlineFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

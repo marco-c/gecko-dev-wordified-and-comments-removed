@@ -46,6 +46,13 @@ h
 class
 nsTableColFrame
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsTableColGroupFrame
 final
@@ -64,7 +71,10 @@ nsTableColGroupFrame
 *
 NS_NewTableColGroupFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

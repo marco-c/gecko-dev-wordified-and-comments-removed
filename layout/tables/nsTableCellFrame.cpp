@@ -4807,7 +4807,7 @@ nsTableCellFrame
 *
 NS_NewTableCellFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

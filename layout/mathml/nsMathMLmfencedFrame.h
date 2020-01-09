@@ -23,6 +23,13 @@ h
 class
 nsFontMetrics
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsMathMLmfencedFrame
 final
@@ -41,7 +48,10 @@ nsIFrame
 *
 NS_NewMathMLmfencedFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -900,7 +900,7 @@ nsIFrame
 *
 NS_NewSplitterFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

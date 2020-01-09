@@ -29,6 +29,13 @@ nsAsyncAccesskeyUpdate
 class
 nsFontMetrics
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsTextBoxFrame
 final
@@ -104,7 +111,10 @@ nsIFrame
 *
 NS_NewTextBoxFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

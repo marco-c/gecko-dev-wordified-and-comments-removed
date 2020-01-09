@@ -592,7 +592,7 @@ nsIFrame
 *
 NS_NewTreeBodyFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

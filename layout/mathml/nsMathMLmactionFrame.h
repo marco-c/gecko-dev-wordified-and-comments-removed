@@ -34,6 +34,13 @@ Attributes
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsMathMLmactionFrame
 final
@@ -52,7 +59,10 @@ nsIFrame
 *
 NS_NewMathMLmactionFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -50,6 +50,13 @@ nsImageBoxFrame
 class
 nsDisplayXULImage
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsImageBoxListener
 final
@@ -197,7 +204,10 @@ nsIFrame
 *
 NS_NewImageBoxFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

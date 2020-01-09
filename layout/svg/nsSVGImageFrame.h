@@ -129,6 +129,13 @@ h
 class
 nsSVGImageFrame
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsSVGImageListener
 final
@@ -192,7 +199,10 @@ nsIFrame
 *
 NS_NewSVGImageFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -158,7 +158,7 @@ nsPageFrame
 *
 NS_NewPageFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -3341,7 +3341,7 @@ nsIFrame
 *
 NS_NewPageBreakFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

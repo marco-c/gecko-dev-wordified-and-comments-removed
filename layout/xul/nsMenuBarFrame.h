@@ -61,6 +61,9 @@ nsIContent
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -73,7 +76,10 @@ nsIFrame
 *
 NS_NewMenuBarFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 mozilla

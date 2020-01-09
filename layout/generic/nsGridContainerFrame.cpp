@@ -11098,7 +11098,7 @@ nsContainerFrame
 *
 NS_NewGridContainerFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

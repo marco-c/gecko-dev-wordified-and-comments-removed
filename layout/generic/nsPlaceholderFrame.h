@@ -27,6 +27,13 @@ nsGkAtoms
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsPlaceholderFrame
 ;
@@ -34,7 +41,10 @@ nsPlaceholderFrame
 *
 NS_NewPlaceholderFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 mozilla
@@ -87,7 +97,10 @@ nsPlaceholderFrame
 *
 NS_NewPlaceholderFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -65,6 +65,9 @@ nsDisplayRangeFocusRing
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -87,7 +90,10 @@ nsIFrame
 *
 NS_NewRangeFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

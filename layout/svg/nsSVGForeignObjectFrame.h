@@ -58,6 +58,13 @@ h
 class
 gfxContext
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsSVGForeignObjectFrame
 final
@@ -72,7 +79,10 @@ nsContainerFrame
 *
 NS_NewSVGForeignObjectFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

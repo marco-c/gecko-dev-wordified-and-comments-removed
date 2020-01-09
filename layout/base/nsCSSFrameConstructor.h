@@ -1236,7 +1236,7 @@ nsIFrame
 FrameCreationFunc
 )
 (
-nsIPresShell
+PresShell
 *
 ComputedStyle
 *
@@ -1250,7 +1250,7 @@ nsContainerFrame
 ContainerFrameCreationFunc
 )
 (
-nsIPresShell
+PresShell
 *
 ComputedStyle
 *
@@ -1264,7 +1264,7 @@ nsBlockFrame
 BlockFrameCreationFunc
 )
 (
-nsIPresShell
+PresShell
 *
 ComputedStyle
 *

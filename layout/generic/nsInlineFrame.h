@@ -23,6 +23,13 @@ h
 class
 nsLineLayout
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsInlineFrame
 :
@@ -41,7 +48,10 @@ nsInlineFrame
 *
 NS_NewInlineFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -689,7 +699,10 @@ nsFirstLineFrame
 *
 NS_NewFirstLineFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

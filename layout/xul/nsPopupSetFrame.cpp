@@ -90,7 +90,7 @@ nsIFrame
 *
 NS_NewPopupSetFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -32,6 +32,13 @@ h
 class
 nsIBaseWindow
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsResizerFrame
 final
@@ -77,7 +84,10 @@ nsIFrame
 *
 NS_NewResizerFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

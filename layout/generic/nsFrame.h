@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ReflowInput
@@ -85,6 +78,9 @@ class
 TableSelection
 :
 uint32_t
+;
+class
+PresShell
 ;
 }
 #
@@ -493,7 +489,10 @@ nsIFrame
 *
 NS_NewEmptyFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aShell
 ComputedStyle

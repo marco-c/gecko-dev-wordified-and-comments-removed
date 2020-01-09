@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -39,7 +48,7 @@ nsIFrame
 *
 NS_NewMathMLmmultiscriptsFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

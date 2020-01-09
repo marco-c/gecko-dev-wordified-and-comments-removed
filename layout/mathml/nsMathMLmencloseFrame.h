@@ -29,6 +29,13 @@ nsMathMLContainerFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 enum
 nsMencloseNotation
 {
@@ -65,7 +72,10 @@ nsIFrame
 *
 NS_NewMathMLmencloseFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -4283,7 +4283,7 @@ nsIFrame
 *
 NS_NewSubDocumentFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

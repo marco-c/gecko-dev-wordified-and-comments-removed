@@ -20,6 +20,13 @@ nsBoxFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsGridRowLeafFrame
 :
@@ -37,7 +44,10 @@ nsIFrame
 *
 NS_NewGridRowLeafFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

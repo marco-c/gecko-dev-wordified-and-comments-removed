@@ -60,6 +60,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -188,7 +197,7 @@ nsIFrame
 *
 NS_NewSVGGeometryFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

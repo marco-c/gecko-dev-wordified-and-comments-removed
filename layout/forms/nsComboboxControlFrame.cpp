@@ -509,7 +509,7 @@ nsComboboxControlFrame
 *
 NS_NewComboboxControlFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

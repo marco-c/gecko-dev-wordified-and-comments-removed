@@ -50,7 +50,7 @@ nsPageContentFrame
 *
 NS_NewPageContentFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

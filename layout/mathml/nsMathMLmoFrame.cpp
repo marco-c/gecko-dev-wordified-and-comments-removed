@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsMathMLmoFrame
 .
 h
@@ -57,7 +66,7 @@ nsIFrame
 *
 NS_NewMathMLmoFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

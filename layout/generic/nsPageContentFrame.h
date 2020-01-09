@@ -28,6 +28,13 @@ nsPageFrame
 class
 nsSharedPageData
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsPageContentFrame
 final
@@ -49,7 +56,10 @@ nsPageContentFrame
 *
 NS_NewPageContentFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

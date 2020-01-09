@@ -34,6 +34,13 @@ nsSVGContainerFrame
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsSVGGFrame
 :
@@ -45,7 +52,10 @@ nsIFrame
 *
 NS_NewSVGGFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

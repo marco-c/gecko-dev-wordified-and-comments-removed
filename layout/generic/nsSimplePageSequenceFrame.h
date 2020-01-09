@@ -37,6 +37,9 @@ h
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -116,7 +119,10 @@ nsSimplePageSequenceFrame
 *
 NS_NewSimplePageSequenceFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

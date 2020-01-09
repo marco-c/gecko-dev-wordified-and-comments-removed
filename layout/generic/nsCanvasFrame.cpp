@@ -218,7 +218,7 @@ nsCanvasFrame
 *
 NS_NewCanvasFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

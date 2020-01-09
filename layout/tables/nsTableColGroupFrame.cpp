@@ -2150,7 +2150,7 @@ nsTableColGroupFrame
 *
 NS_NewTableColGroupFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

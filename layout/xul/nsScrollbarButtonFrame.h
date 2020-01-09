@@ -34,6 +34,13 @@ nsRepeatService
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsScrollbarButtonFrame
 final
@@ -88,7 +95,10 @@ nsIFrame
 *
 NS_NewScrollbarButtonFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

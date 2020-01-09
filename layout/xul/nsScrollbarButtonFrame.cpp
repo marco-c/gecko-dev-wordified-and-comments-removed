@@ -91,6 +91,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -103,7 +112,7 @@ nsIFrame
 *
 NS_NewScrollbarButtonFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

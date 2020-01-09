@@ -15,6 +15,9 @@ namespace
 mozilla
 {
 class
+PresShell
+;
+class
 ColumnSetWrapperFrame
 final
 :
@@ -35,7 +38,10 @@ nsBlockFrame
 :
 NS_NewColumnSetWrapperFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

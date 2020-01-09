@@ -123,7 +123,7 @@ nsIFrame
 *
 NS_NewTitleBarFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

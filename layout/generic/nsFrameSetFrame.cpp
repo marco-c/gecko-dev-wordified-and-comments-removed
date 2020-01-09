@@ -6902,7 +6902,7 @@ nsIFrame
 *
 NS_NewHTMLFramesetFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -329,7 +329,7 @@ nsIFrame
 *
 NS_NewTextBoxFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

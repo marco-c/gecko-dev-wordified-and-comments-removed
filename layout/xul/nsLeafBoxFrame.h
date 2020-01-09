@@ -27,6 +27,13 @@ nsBox
 .
 h
 "
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsLeafBoxFrame
 :
@@ -44,7 +51,10 @@ nsIFrame
 *
 NS_NewLeafBoxFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

@@ -31,6 +31,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGClipPathElement
@@ -101,7 +110,7 @@ nsIFrame
 *
 NS_NewSVGClipPathFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

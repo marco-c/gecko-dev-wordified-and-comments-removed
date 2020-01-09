@@ -284,7 +284,7 @@ nsContainerFrame
 *
 NS_NewSVGOuterSVGFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -4396,7 +4396,7 @@ nsContainerFrame
 *
 NS_NewSVGOuterSVGAnonChildFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 ComputedStyle

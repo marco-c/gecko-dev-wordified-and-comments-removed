@@ -47,6 +47,13 @@ gfxContext
 class
 nsSVGForeignObjectFrame
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 class
 nsSVGOuterSVGFrame
 final
@@ -71,7 +78,10 @@ nsContainerFrame
 *
 NS_NewSVGOuterSVGFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
@@ -684,7 +694,10 @@ nsContainerFrame
 *
 NS_NewSVGOuterSVGAnonChildFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

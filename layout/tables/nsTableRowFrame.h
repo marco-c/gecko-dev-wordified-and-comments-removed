@@ -49,6 +49,9 @@ nsTableCellFrame
 namespace
 mozilla
 {
+class
+PresShell
+;
 struct
 TableCellReflowInput
 ;
@@ -163,7 +166,10 @@ nsTableRowFrame
 *
 NS_NewTableRowFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle
