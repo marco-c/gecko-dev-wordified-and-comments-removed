@@ -167,6 +167,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+SearchEngine
+.
+jsm
+'
+'
 SearchService
 .
 jsm
