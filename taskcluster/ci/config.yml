@@ -1088,6 +1088,16 @@ Gd
 '
 Geckodriver
 '
+'
+clang
+'
+:
+'
+Clang
+Tidy
+&
+Format
+'
 index
 :
 products
