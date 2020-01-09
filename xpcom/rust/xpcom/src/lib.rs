@@ -30,6 +30,10 @@ extern
 crate
 threadbound
 ;
+extern
+crate
+thin_vec
+;
 #
 [
 macro_use
