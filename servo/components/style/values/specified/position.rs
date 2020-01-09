@@ -1762,9 +1762,7 @@ p
 length
 .
 clamping_mode
-length
-.
-was_calc
+true
 )
 }
 PositionComponent
