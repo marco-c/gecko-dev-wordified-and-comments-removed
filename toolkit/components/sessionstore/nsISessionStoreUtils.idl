@@ -359,6 +359,12 @@ listener
 in
 boolean
 useCapture
+[
+optional
+]
+in
+boolean
+mozSystemGroup
 )
 ;
 /
@@ -452,6 +458,12 @@ listener
 in
 boolean
 useCapture
+[
+optional
+]
+in
+boolean
+mozSystemGroup
 )
 ;
 /
