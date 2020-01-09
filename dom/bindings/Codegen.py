@@ -54048,6 +54048,16 @@ descriptor
 nativeMethodName
                 
 static
+                
+object
+=
+"
+MOZ_KnownLive
+(
+self
+)
+"
+                
 argsPost
 =
 argsPost
@@ -58677,6 +58687,10 @@ name
 bool
 "
 args
+                                        
+canRunScript
+=
+True
 )
         
 self
