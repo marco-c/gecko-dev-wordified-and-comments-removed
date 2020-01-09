@@ -8,7 +8,7 @@ indexedDB
 open
 (
 "
-hello
+bug1507229_1_hello
 "
 )
 .
@@ -28,6 +28,17 @@ result
 createMutableFile
 (
 "
+"
+)
+;
+window
+.
+indexedDB
+.
+deleteDatabase
+(
+"
+bug1507229_1_hello
 "
 )
 ;
