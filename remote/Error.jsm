@@ -122,6 +122,13 @@ cause
 undefined
 )
 {
+cause
+=
+cause
+|
+|
+message
+;
 super
 (
 cause
