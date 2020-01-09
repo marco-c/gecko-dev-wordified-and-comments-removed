@@ -1502,9 +1502,17 @@ SendSetSeekThreshold
 (
 aTime
 .
+IsValid
+(
+)
+?
+aTime
+.
 ToMicroseconds
 (
 )
+:
+INT64_MIN
 )
 ;
 }
