@@ -190,8 +190,6 @@ _shutdownInProgress
 :
 false
 init
-:
-function
 (
 )
 {
@@ -260,8 +258,6 @@ registerListeners
 ;
 }
 registerListeners
-:
-function
 (
 )
 {
@@ -286,8 +282,6 @@ this
 }
 }
 unregisterListeners
-:
-function
 (
 )
 {
@@ -312,8 +306,6 @@ this
 }
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -375,8 +367,6 @@ unregisterListeners
 }
 }
 filterNonAppNotifications
-:
-function
 (
 notifications
 )
@@ -482,8 +472,6 @@ notifications
 ;
 }
 load
-:
-function
 (
 )
 {
@@ -650,8 +638,6 @@ createStore
 ;
 }
 createStore
-:
-function
 (
 )
 {
@@ -689,8 +675,6 @@ this
 ;
 }
 createFile
-:
-function
 (
 )
 {
@@ -708,8 +692,6 @@ NOTIFICATION_STORE_PATH
 ;
 }
 save
-:
-function
 (
 )
 {
@@ -747,8 +729,6 @@ utf
 ;
 }
 ensureLoaded
-:
-function
 (
 )
 {
@@ -768,8 +748,6 @@ load
 )
 ;
 }
-else
-{
 return
 Promise
 .
@@ -778,10 +756,7 @@ resolve
 )
 ;
 }
-}
 receiveMessage
-:
-function
 (
 message
 )
@@ -908,8 +883,6 @@ message
 data
 .
 origin
-notifications
-:
 notifications
 }
 )
@@ -1159,8 +1132,6 @@ name
 }
 }
 queueTask
-:
-function
 (
 operation
 data
@@ -1197,13 +1168,7 @@ push
 (
 {
 operation
-:
-operation
 data
-:
-data
-defer
-:
 defer
 }
 )
@@ -1277,8 +1242,6 @@ promise
 ;
 }
 runNextTask
-:
-function
 (
 )
 {
@@ -1527,8 +1490,6 @@ runNextTask
 ;
 }
 taskGetAll
-:
-function
 (
 data
 )
@@ -1652,8 +1613,6 @@ notifications
 ;
 }
 taskSave
-:
-function
 (
 data
 )
@@ -1797,8 +1756,6 @@ save
 ;
 }
 taskDelete
-:
-function
 (
 data
 )
