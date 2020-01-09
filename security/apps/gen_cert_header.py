@@ -132,6 +132,10 @@ addonsPublicRoot
 '
     
 '
+addonsPublicIntermediate
+'
+    
+'
 addonsStageRoot
 '
     

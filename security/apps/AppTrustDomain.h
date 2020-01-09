@@ -507,6 +507,9 @@ mPinArg
 UniqueCERTCertificate
 mTrustedRoot
 ;
+UniqueCERTCertificate
+mAddonsIntermediate
+;
 static
 StaticMutex
 sMutex
