@@ -75,7 +75,7 @@ impl
 #
 define
 MAX_NUM_DEMUXERS
-1
+2
 static
 const
 Demuxer
@@ -134,6 +134,11 @@ void
 register_demuxer
 (
 ivf_demuxer
+)
+;
+register_demuxer
+(
+annexb_demuxer
 )
 ;
 }

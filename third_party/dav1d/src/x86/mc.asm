@@ -20115,7 +20115,7 @@ dsq
 1
 ]
 1
-movq
+movd
 xm2
 [
 maskq

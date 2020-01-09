@@ -224,7 +224,7 @@ ss_names
 [
 ]
 [
-2
+3
 ]
 =
 {
@@ -239,6 +239,9 @@ mono
 "
 mono10
 "
+"
+mono12
+"
 }
 [
 DAV1D_PIXEL_LAYOUT_I420
@@ -248,6 +251,9 @@ DAV1D_PIXEL_LAYOUT_I420
 NULL
 "
 420p10
+"
+"
+420p12
 "
 }
 [
@@ -261,6 +267,9 @@ DAV1D_PIXEL_LAYOUT_I422
 "
 422p10
 "
+"
+422p12
+"
 }
 [
 DAV1D_PIXEL_LAYOUT_I444
@@ -272,6 +281,9 @@ DAV1D_PIXEL_LAYOUT_I444
 "
 "
 444p10
+"
+"
+444p12
 "
 }
 }
@@ -372,11 +384,10 @@ layout
 p
 -
 >
-p
-.
-bpc
+seq_hdr
+-
 >
-8
+hbd
 ]
 ;
 fprintf

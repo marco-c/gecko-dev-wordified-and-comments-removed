@@ -776,6 +776,10 @@ meson
 test
 -
 v
+dependencies
+:
+[
+]
 test
 -
 debian
@@ -999,6 +1003,10 @@ v
 setup
 =
 sanitizer
+dependencies
+:
+[
+]
 test
 -
 debian
@@ -1230,6 +1238,10 @@ v
 setup
 =
 sanitizer
+dependencies
+:
+[
+]
 test
 -
 debian
@@ -1465,3 +1477,7 @@ v
 setup
 =
 sanitizer
+dependencies
+:
+[
+]

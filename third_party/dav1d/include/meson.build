@@ -331,7 +331,10 @@ dav1d
 '
 install_dir
 :
+get_option
+(
 '
-include
+includedir
 '
+)
 )

@@ -99,6 +99,7 @@ th
 pixel
 *
 topleft_out
+HIGHBD_DECL_SUFFIX
 )
 ;
 #

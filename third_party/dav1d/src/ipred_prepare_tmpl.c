@@ -397,8 +397,18 @@ pixel
 *
 const
 topleft_out
+HIGHBD_DECL_SUFFIX
 )
 {
+const
+int
+bitdepth
+=
+bitdepth_from_max
+(
+bitdepth_max
+)
+;
 assert
 (
 y
@@ -756,7 +766,7 @@ dst_top
 1
 <
 <
-BITDEPTH
+bitdepth
 )
 >
 >
@@ -1007,7 +1017,7 @@ dst
 1
 <
 <
-BITDEPTH
+bitdepth
 )
 >
 >
@@ -1184,7 +1194,7 @@ dst_top
 1
 <
 <
-BITDEPTH
+bitdepth
 )
 >
 >
