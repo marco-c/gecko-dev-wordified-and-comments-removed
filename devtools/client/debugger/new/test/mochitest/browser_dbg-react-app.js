@@ -26,6 +26,17 @@ js
 )
 ;
 await
+selectSource
+(
+dbg
+"
+App
+.
+js
+"
+)
+;
+await
 addBreakpoint
 (
 dbg
