@@ -57,13 +57,6 @@ a
 :
 f32
 }
-#
-[
-allow
-(
-missing_docs
-)
-]
 impl
 PremultipliedColorF
 {
@@ -229,13 +222,6 @@ a
 :
 f32
 }
-#
-[
-allow
-(
-missing_docs
-)
-]
 impl
 ColorF
 {
