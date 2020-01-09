@@ -175,11 +175,6 @@ hideScriptFromDebugger
 =
 false
 ;
-bool
-bigIntEnabledOption
-=
-false
-;
 const
 char
 *
