@@ -3001,7 +3001,7 @@ processes
 "
 )
 ;
-nsTArray
+Vector
 <
 nsCString
 >

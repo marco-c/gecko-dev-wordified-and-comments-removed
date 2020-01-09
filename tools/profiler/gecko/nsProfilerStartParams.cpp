@@ -40,11 +40,11 @@ double
 aInterval
 uint32_t
 aFeatures
-const
 nsTArray
 <
 nsCString
 >
+&
 &
 aFilters
 )
@@ -67,7 +67,13 @@ aFeatures
 )
 mFilters
 (
+std
+:
+:
+move
+(
 aFilters
+)
 )
 {
 }

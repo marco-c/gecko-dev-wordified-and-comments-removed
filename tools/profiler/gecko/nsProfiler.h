@@ -57,6 +57,15 @@ h
 #
 include
 "
+mozilla
+/
+Vector
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -263,7 +272,10 @@ mBufferPositionAtGatherTime
 ;
 }
 ;
-nsTArray
+mozilla
+:
+:
+Vector
 <
 ExitProfile
 >
