@@ -129,6 +129,7 @@ toString
 function
 logErrors
 (
+tool
 text
 regexp
 )
@@ -164,6 +165,9 @@ TEST
 UNEXPECTED
 -
 FAIL
+{
+tool
+}
 |
 {
 error
@@ -266,6 +270,7 @@ TEST
 UNEXPECTED
 -
 FAIL
+flow
 |
 {
 message
@@ -366,6 +371,9 @@ errors
 =
 logErrors
 (
+"
+eslint
+"
 out
 /
 {
@@ -434,6 +442,9 @@ errors
 =
 logErrors
 (
+"
+jest
+"
 err
 |
 |
@@ -503,6 +514,9 @@ errors
 =
 logErrors
 (
+"
+stylelint
+"
 out
 /
 {
@@ -574,6 +588,13 @@ errors
 =
 logErrors
 (
+"
+eslint
+(
+jsx
+accessibility
+)
+"
 out
 /
 {
@@ -637,6 +658,9 @@ errors
 =
 logErrors
 (
+"
+remark
+"
 err
 |
 |
