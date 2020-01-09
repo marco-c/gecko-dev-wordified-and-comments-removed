@@ -10292,6 +10292,7 @@ focusUrlBar
 forceNotRemote
 fromExternal
 index
+lazyTabTitle
 name
 nextTabParentId
 noInitialLabel
@@ -10309,7 +10310,6 @@ relatedToCurrent
 sameProcessAsFrameLoader
 skipAnimation
 skipBackgroundNotify
-title
 triggeringPrincipal
 userContextId
 recordExecution
@@ -11266,6 +11266,8 @@ about
 blank
 "
 title
+:
+lazyTabTitle
 triggeringPrincipal_base64
 :
 Utils

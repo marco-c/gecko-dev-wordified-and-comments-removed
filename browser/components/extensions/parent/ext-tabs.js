@@ -3693,9 +3693,6 @@ index
 "
 pinned
 "
-"
-title
-"
 ]
 ;
 for
@@ -3843,6 +3840,14 @@ options
 createLazyBrowser
 =
 true
+;
+options
+.
+lazyTabTitle
+=
+createProperties
+.
+title
 ;
 }
 else
