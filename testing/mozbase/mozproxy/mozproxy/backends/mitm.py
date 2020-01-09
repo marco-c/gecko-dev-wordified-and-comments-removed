@@ -380,6 +380,21 @@ policies_dir
 =
 None
         
+self
+.
+ignore_mitmdump_exit_failure
+=
+config
+.
+get
+(
+                
+"
+ignore_mitmdump_exit_failure
+"
+False
+)
+        
 if
 self
 .
@@ -1292,9 +1307,25 @@ process
 else
 :
                 
+log_func
+=
 LOG
 .
 error
+                
+if
+self
+.
+ignore_mitmdump_exit_failure
+:
+                    
+log_func
+=
+LOG
+.
+info
+                
+log_func
 (
 "
 Mitmproxy
