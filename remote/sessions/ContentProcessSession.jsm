@@ -101,6 +101,17 @@ docShell
 ;
 this
 .
+docShell
+.
+QueryInterface
+(
+Ci
+.
+nsIWebNavigation
+)
+;
+this
+.
 domains
 =
 new
