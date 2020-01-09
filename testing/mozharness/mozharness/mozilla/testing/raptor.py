@@ -2249,7 +2249,7 @@ platform_name
 chromium_rev
 =
 "
-575625
+634618
 "
             
 chrome_archive_file
@@ -2333,7 +2333,7 @@ platform_name
 chromium_rev
 =
 "
-624137
+634637
 "
             
 chrome_archive_file
@@ -2396,7 +2396,7 @@ else
 chromium_rev
 =
 "
-624131
+634634
 "
             
 chrome_archive_file
