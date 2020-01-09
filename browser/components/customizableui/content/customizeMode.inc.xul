@@ -592,7 +592,7 @@ onpopupshowing
 "
 gCustomizeMode
 .
-onLWThemesMenuShowing
+onThemesMenuShowing
 (
 event
 )
