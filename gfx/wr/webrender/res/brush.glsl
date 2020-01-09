@@ -71,7 +71,9 @@ local_rect
 RectWithSize
 segment_rect
 ivec4
-user_data
+prim_user_data
+int
+segment_user_data
 mat4
 transform
 PictureTask
@@ -639,13 +641,10 @@ ph
 .
 local_rect
 segment_rect
-ivec4
-(
 ph
 .
 user_data
 segment_user_data
-)
 transform
 .
 m

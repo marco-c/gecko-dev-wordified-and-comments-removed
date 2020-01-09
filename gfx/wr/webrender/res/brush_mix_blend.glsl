@@ -147,7 +147,9 @@ local_rect
 RectWithSize
 segment_rect
 ivec4
-user_data
+prim_user_data
+int
+segment_user_data
 mat4
 transform
 PictureTask
@@ -183,7 +185,7 @@ sPrevPassColor
 ;
 vOp
 =
-user_data
+prim_user_data
 .
 x
 ;
@@ -192,7 +194,7 @@ src_task
 =
 fetch_picture_task
 (
-user_data
+prim_user_data
 .
 z
 )
@@ -233,7 +235,7 @@ backdrop_task
 =
 fetch_render_task_common_data
 (
-user_data
+prim_user_data
 .
 y
 )

@@ -173,7 +173,9 @@ local_rect
 RectWithSize
 segment_rect
 ivec4
-user_data
+prim_user_data
+int
+segment_user_data
 mat4
 transform
 PictureTask
@@ -189,7 +191,7 @@ res
 =
 fetch_image_resource
 (
-user_data
+prim_user_data
 .
 x
 )
@@ -211,18 +213,6 @@ res
 uv_rect
 .
 p1
-;
-/
-/
-PictureTask
-src_task
-=
-fetch_picture_task
-(
-user_data
-.
-x
-)
 ;
 vec2
 texture_size
@@ -259,7 +249,7 @@ f
 =
 get_image_quad_uv
 (
-user_data
+prim_user_data
 .
 x
 f
@@ -389,7 +379,7 @@ amount
 =
 float
 (
-user_data
+prim_user_data
 .
 z
 )
@@ -409,7 +399,7 @@ amount
 ;
 vOp
 =
-user_data
+prim_user_data
 .
 y
 &
@@ -558,7 +548,7 @@ vFuncs
 ]
 =
 (
-user_data
+prim_user_data
 .
 y
 >
@@ -577,7 +567,7 @@ vFuncs
 ]
 =
 (
-user_data
+prim_user_data
 .
 y
 >
@@ -596,7 +586,7 @@ vFuncs
 ]
 =
 (
-user_data
+prim_user_data
 .
 y
 >
@@ -615,7 +605,7 @@ vFuncs
 ]
 =
 (
-user_data
+prim_user_data
 .
 y
 >
@@ -1047,7 +1037,7 @@ mat_data
 =
 fetch_from_gpu_cache_3
 (
-user_data
+prim_user_data
 .
 z
 )
@@ -1057,7 +1047,7 @@ offset_data
 =
 fetch_from_gpu_cache_1
 (
-user_data
+prim_user_data
 .
 z
 +
@@ -1107,7 +1097,7 @@ Component
 Transfer
 vTableAddress
 =
-user_data
+prim_user_data
 .
 z
 ;

@@ -360,7 +360,9 @@ fetch_clip_area
 (
 ph
 .
-clip_task_index
+user_data
+.
+w
 )
 ;
 vec2

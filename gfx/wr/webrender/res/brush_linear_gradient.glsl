@@ -222,7 +222,9 @@ local_rect
 RectWithSize
 segment_rect
 ivec4
-user_data
+prim_user_data
+int
+segment_user_data
 mat4
 transform
 PictureTask
@@ -367,7 +369,7 @@ stretch_size
 ;
 vGradientAddress
 =
-user_data
+prim_user_data
 .
 x
 ;

@@ -258,7 +258,9 @@ prim_rect
 RectWithSize
 segment_rect
 ivec4
-user_data
+prim_user_data
+int
+segment_user_data
 mat4
 transform
 PictureTask
@@ -331,9 +333,7 @@ res
 =
 fetch_image_resource
 (
-user_data
-.
-w
+segment_user_data
 )
 ;
 vec2
@@ -720,7 +720,7 @@ WR_FEATURE_ALPHA_PASS
 int
 color_mode
 =
-user_data
+prim_user_data
 .
 x
 &
@@ -729,7 +729,7 @@ x
 int
 blend_mode
 =
-user_data
+prim_user_data
 .
 x
 >
@@ -739,7 +739,7 @@ x
 int
 raster_space
 =
-user_data
+prim_user_data
 .
 y
 ;
@@ -828,9 +828,7 @@ f
 =
 get_image_quad_uv
 (
-user_data
-.
-w
+segment_user_data
 f
 )
 ;
@@ -964,7 +962,7 @@ opacity
 =
 float
 (
-user_data
+prim_user_data
 .
 z
 )

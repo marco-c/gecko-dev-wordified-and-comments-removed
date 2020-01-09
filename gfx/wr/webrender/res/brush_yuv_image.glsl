@@ -696,7 +696,9 @@ local_rect
 RectWithSize
 segment_rect
 ivec4
-user_data
+prim_user_data
+int
+segment_user_data
 mat4
 transform
 PictureTask
@@ -787,7 +789,7 @@ YUV_FORMAT_PLANAR
 {
 write_uv_rect
 (
-user_data
+prim_user_data
 .
 x
 f
@@ -801,7 +803,7 @@ vUvBounds_Y
 ;
 write_uv_rect
 (
-user_data
+prim_user_data
 .
 y
 f
@@ -815,7 +817,7 @@ vUvBounds_U
 ;
 write_uv_rect
 (
-user_data
+prim_user_data
 .
 z
 f
@@ -839,7 +841,7 @@ YUV_FORMAT_NV12
 {
 write_uv_rect
 (
-user_data
+prim_user_data
 .
 x
 f
@@ -853,7 +855,7 @@ vUvBounds_Y
 ;
 write_uv_rect
 (
-user_data
+prim_user_data
 .
 y
 f
@@ -877,7 +879,7 @@ YUV_FORMAT_INTERLEAVED
 {
 write_uv_rect
 (
-user_data
+prim_user_data
 .
 x
 f
