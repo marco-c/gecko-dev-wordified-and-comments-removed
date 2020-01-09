@@ -232,6 +232,11 @@ blit_mask_d32_a8
 ;
 DEFINE_DEFAULT
 (
+blit_row_color32
+)
+;
+DEFINE_DEFAULT
+(
 blit_row_s32a_opaque
 )
 ;
