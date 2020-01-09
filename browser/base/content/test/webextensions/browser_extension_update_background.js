@@ -1325,12 +1325,7 @@ extra
 .
 .
 baseExtra
-num_perms
-:
-"
-1
-"
-num_origins
+num_strings
 :
 "
 1
@@ -1347,12 +1342,7 @@ extra
 .
 .
 baseExtra
-num_perms
-:
-"
-1
-"
-num_origins
+num_strings
 :
 "
 1
