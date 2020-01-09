@@ -473,6 +473,17 @@ scopes
 =
 [
 signing_cert_scope
+add_scope_prefix
+(
+config
+'
+signing
+:
+format
+:
+gpg
+'
+)
 ]
         
 if
@@ -551,7 +562,7 @@ formats
 sha2signcode
 "
 "
-autograph_gpg
+gpg
 "
 ]
             
@@ -646,7 +657,7 @@ formats
 :
 [
 "
-autograph_gpg
+gpg
 "
 ]
             
@@ -726,7 +737,7 @@ formats
 :
 [
 "
-autograph_gpg
+gpg
 "
 ]
             

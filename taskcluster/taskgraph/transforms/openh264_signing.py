@@ -345,11 +345,28 @@ sha2signcode
 else
 :
             
+scopes
+.
+append
+(
+add_scope_prefix
+(
+config
+'
+signing
+:
+format
+:
+gpg
+'
+)
+)
+            
 formats
 =
 [
 '
-autograph_gpg
+gpg
 '
 ]
         
