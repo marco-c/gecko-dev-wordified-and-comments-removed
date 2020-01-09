@@ -131,7 +131,7 @@ nsIContent
 aContent
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DispatchClickEvent
@@ -160,6 +160,7 @@ EmptyString
 )
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DispatchMouseEvent
@@ -187,6 +188,7 @@ nsIWidget
 aRootWidget
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DispatchTouchEvent
@@ -559,6 +561,7 @@ nsTreeColumn
 aColumn
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 ScrollTo

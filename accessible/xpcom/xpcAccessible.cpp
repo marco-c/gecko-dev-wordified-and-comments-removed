@@ -3764,9 +3764,17 @@ endif
 }
 else
 {
+RefPtr
+<
+Accessible
+>
+intl
+=
 Intl
 (
 )
+;
+intl
 -
 >
 ScrollTo

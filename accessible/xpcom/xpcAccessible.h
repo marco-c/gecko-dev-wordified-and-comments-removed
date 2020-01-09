@@ -427,6 +427,7 @@ aIndex
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 ScrollTo
 (

@@ -113,6 +113,7 @@ Bounds
 const
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 ScrollTo

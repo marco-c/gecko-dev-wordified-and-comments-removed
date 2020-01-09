@@ -492,8 +492,10 @@ NS_OK
 ;
 }
 }
+RefPtr
+<
 SessionAccessibility
-*
+>
 sessionAcc
 =
 SessionAccessibility
@@ -556,7 +558,10 @@ downcast_accEvent
 aEvent
 )
 ;
-auto
+RefPtr
+<
+AccessibleWrap
+>
 newPosition
 =
 static_cast

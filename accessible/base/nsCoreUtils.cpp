@@ -541,8 +541,10 @@ GetRootFrame
 nsPoint
 offset
 ;
+nsCOMPtr
+<
 nsIWidget
-*
+>
 rootWidget
 =
 rootFrame

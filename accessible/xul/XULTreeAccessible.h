@@ -628,6 +628,7 @@ eAction_Expand
 1
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 DispatchClickEvent
