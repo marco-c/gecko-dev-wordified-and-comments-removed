@@ -1475,6 +1475,9 @@ EditAction
 :
 :
 eDeleteByDrag
+VoidString
+(
+)
 )
 ;
 if

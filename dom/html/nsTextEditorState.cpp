@@ -10312,6 +10312,12 @@ EditorInputType
 :
 eInsertReplacementText
 textEditor
+nsContentUtils
+:
+:
+InputEventOptions
+(
+)
 )
 ;
 NS_WARNING_ASSERTION

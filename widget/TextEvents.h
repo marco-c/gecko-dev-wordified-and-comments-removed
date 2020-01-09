@@ -3693,6 +3693,12 @@ InternalEditorInputEvent
 (
 )
 :
+mData
+(
+VoidString
+(
+)
+)
 mInputType
 (
 EditorInputType
@@ -3739,6 +3745,12 @@ aIsTrusted
 aMessage
 aWidget
 eEditorInputEventClass
+)
+mData
+(
+VoidString
+(
+)
 )
 mInputType
 (

@@ -463,6 +463,7 @@ checkInputEvent
 aEvent
 aIsComposing
 aInputType
+aData
 aDescription
 )
 {
@@ -570,6 +571,25 @@ be
 "
 {
 aInputType
+}
+"
+)
+;
+is
+(
+aEvent
+.
+data
+aData
+{
+aDescription
+}
+data
+should
+be
+"
+{
+aData
 }
 "
 )
@@ -2283,6 +2303,7 @@ true
 "
 insertCompositionText
 "
+composingStr
 description
 )
 ;
@@ -2694,6 +2715,7 @@ false
 "
 insertCompositionText
 "
+composingStr
 description
 )
 ;
@@ -3293,6 +3315,9 @@ false
 "
 insertCompositionText
 "
+"
+bar
+"
 description
 )
 ;
@@ -3799,6 +3824,8 @@ false
 "
 insertCompositionText
 "
+"
+"
 description
 )
 ;
@@ -4299,6 +4326,9 @@ events
 false
 "
 insertText
+"
+"
+a
 "
 description
 )
@@ -4971,6 +5001,7 @@ true
 "
 insertCompositionText
 "
+composingStr
 description
 )
 ;
@@ -5385,6 +5416,7 @@ false
 "
 insertCompositionText
 "
+composingStr
 description
 )
 ;
@@ -5988,6 +6020,9 @@ false
 "
 insertCompositionText
 "
+"
+bar
+"
 description
 )
 ;
@@ -6498,6 +6533,8 @@ false
 "
 insertCompositionText
 "
+"
+"
 description
 )
 ;
@@ -7003,6 +7040,9 @@ events
 false
 "
 insertText
+"
+"
+a
 "
 description
 )
@@ -7920,6 +7960,7 @@ true
 "
 insertCompositionText
 "
+composingStr
 description
 )
 ;
@@ -8477,6 +8518,7 @@ false
 "
 insertCompositionText
 "
+composingStr
 description
 )
 ;
@@ -9361,6 +9403,9 @@ false
 "
 insertCompositionText
 "
+"
+bar
+"
 description
 )
 ;
@@ -10061,6 +10106,8 @@ false
 "
 insertCompositionText
 "
+"
+"
 description
 )
 ;
@@ -10755,6 +10802,9 @@ events
 false
 "
 insertText
+"
+"
+a
 "
 description
 )
@@ -11672,6 +11722,7 @@ true
 "
 insertCompositionText
 "
+composingStr
 description
 )
 ;
@@ -12229,6 +12280,7 @@ false
 "
 insertCompositionText
 "
+composingStr
 description
 )
 ;
@@ -13113,6 +13165,9 @@ false
 "
 insertCompositionText
 "
+"
+bar
+"
 description
 )
 ;
@@ -13813,6 +13868,8 @@ false
 "
 insertCompositionText
 "
+"
+"
 description
 )
 ;
@@ -14507,6 +14564,9 @@ events
 false
 "
 insertText
+"
+"
+a
 "
 description
 )
