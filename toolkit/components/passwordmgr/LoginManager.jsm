@@ -896,8 +896,6 @@ this
 .
 getAllLogins
 (
-{
-}
 )
 ;
 let
@@ -1727,7 +1725,6 @@ newLogin
 }
 getAllLogins
 (
-count
 )
 {
 log
@@ -1751,7 +1748,6 @@ _storage
 .
 getAllLogins
 (
-count
 )
 ;
 }
