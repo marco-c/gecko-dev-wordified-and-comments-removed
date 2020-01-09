@@ -482,16 +482,6 @@ DestroyImageLoadingContent
 (
 )
 ;
-void
-ClearBrokenState
-(
-)
-{
-mBroken
-=
-false
-;
-}
 virtual
 mozilla
 :

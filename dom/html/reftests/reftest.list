@@ -849,6 +849,16 @@ rotated
 ref
 .
 html
+=
+=
+bug1512297
+.
+html
+bug1512297
+-
+ref
+.
+html
 #
 Test
 that
