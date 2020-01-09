@@ -150,6 +150,11 @@ unsigned
 long
 serviceWorkerID
 ;
+readonly
+attribute
+AString
+id
+;
 void
 initialize
 (
