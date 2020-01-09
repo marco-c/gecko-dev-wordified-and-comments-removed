@@ -875,7 +875,7 @@ a
 target
 =
 "
-aboutCompatBug
+_blank
 "
 ;
 td
