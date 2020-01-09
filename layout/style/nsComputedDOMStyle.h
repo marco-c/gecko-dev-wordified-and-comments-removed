@@ -1539,14 +1539,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetTouchAction
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetTransform
 (
 )

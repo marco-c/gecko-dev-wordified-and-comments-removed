@@ -5703,7 +5703,10 @@ aSubtreeRoot
 #
 endif
 static
-uint32_t
+mozilla
+:
+:
+StyleTouchAction
 GetTouchActionFromFrame
 (
 nsIFrame

@@ -1376,13 +1376,6 @@ kTextOverflowKTable
 static
 const
 KTableEntry
-kTouchActionKTable
-[
-]
-;
-static
-const
-KTableEntry
 kVerticalAlignKTable
 [
 ]

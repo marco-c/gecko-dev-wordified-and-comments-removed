@@ -47848,7 +47848,7 @@ return
 false
 ;
 }
-uint32_t
+StyleTouchAction
 nsLayoutUtils
 :
 :
@@ -47866,7 +47866,7 @@ aFrame
 )
 {
 return
-NS_STYLE_TOUCH_ACTION_AUTO
+StyleTouchAction_AUTO
 ;
 }
 bool
@@ -47889,7 +47889,7 @@ isNonReplacedInlineElement
 )
 {
 return
-NS_STYLE_TOUCH_ACTION_AUTO
+StyleTouchAction_AUTO
 ;
 }
 const
@@ -47920,7 +47920,7 @@ isTableElement
 )
 {
 return
-NS_STYLE_TOUCH_ACTION_AUTO
+StyleTouchAction_AUTO
 ;
 }
 return

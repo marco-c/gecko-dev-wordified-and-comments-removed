@@ -43,13 +43,11 @@ mozilla
 namespace
 layers
 {
+static
 void
-TouchActionHelper
-:
-:
 UpdateAllowedBehavior
 (
-uint32_t
+StyleTouchAction
 aTouchActionValue
 bool
 aConsiderPanning
@@ -63,7 +61,7 @@ if
 aTouchActionValue
 !
 =
-NS_STYLE_TOUCH_ACTION_AUTO
+StyleTouchAction_AUTO
 )
 {
 aOutBehavior
@@ -80,7 +78,7 @@ if
 aTouchActionValue
 !
 =
-NS_STYLE_TOUCH_ACTION_MANIPULATION
+StyleTouchAction_MANIPULATION
 )
 {
 aOutBehavior
@@ -104,7 +102,7 @@ if
 aTouchActionValue
 =
 =
-NS_STYLE_TOUCH_ACTION_NONE
+StyleTouchAction_NONE
 )
 {
 aOutBehavior
@@ -131,7 +129,7 @@ if
 (
 aTouchActionValue
 &
-NS_STYLE_TOUCH_ACTION_PAN_X
+StyleTouchAction_PAN_X
 )
 &
 &
@@ -139,7 +137,7 @@ NS_STYLE_TOUCH_ACTION_PAN_X
 (
 aTouchActionValue
 &
-NS_STYLE_TOUCH_ACTION_PAN_Y
+StyleTouchAction_PAN_Y
 )
 )
 {
@@ -159,7 +157,7 @@ if
 (
 aTouchActionValue
 &
-NS_STYLE_TOUCH_ACTION_PAN_Y
+StyleTouchAction_PAN_Y
 )
 &
 &
@@ -167,7 +165,7 @@ NS_STYLE_TOUCH_ACTION_PAN_Y
 (
 aTouchActionValue
 &
-NS_STYLE_TOUCH_ACTION_PAN_X
+StyleTouchAction_PAN_X
 )
 )
 {

@@ -8091,7 +8091,10 @@ nsAtom
 >
 mWillChange
 ;
-uint8_t
+mozilla
+:
+:
+StyleTouchAction
 mTouchAction
 ;
 uint8_t

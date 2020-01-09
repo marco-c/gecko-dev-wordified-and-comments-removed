@@ -21196,9 +21196,6 @@ path
 shape
 -
 outside
-touch
--
-action
 translate
 scale
 "
@@ -24479,14 +24476,6 @@ mShapeOutside
 )
 %
 >
-{
-impl_simple_type_with_conversion
-(
-"
-touch_action
-"
-)
-}
 pub
 fn
 set_offset_path
