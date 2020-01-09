@@ -1611,6 +1611,9 @@ range
 '
 zip
 '
+'
+AssertionError
+'
 )
     
 }
