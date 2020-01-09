@@ -6544,7 +6544,7 @@ _overFolder
 .
 elt
 .
-lastElementChild
+menupopup
 )
 {
 if
@@ -6556,7 +6556,7 @@ _overFolder
 .
 elt
 .
-lastElementChild
+menupopup
 .
 hasAttribute
 (
@@ -6572,7 +6572,7 @@ _overFolder
 .
 elt
 .
-lastElementChild
+menupopup
 .
 hidePopup
 (
@@ -7383,7 +7383,7 @@ _overFolder
 .
 elt
 .
-lastElementChild
+menupopup
 .
 setAttribute
 (
