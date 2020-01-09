@@ -611,11 +611,6 @@ if
 spocs
 .
 data
-&
-&
-spocs
-.
-data
 .
 spocs
 )

@@ -1798,9 +1798,7 @@ collection
 "
 value
 :
-AppConstants
-.
-EARLY_BETA_OR_EARLIER
+true
 value_local_dev
 :
 false

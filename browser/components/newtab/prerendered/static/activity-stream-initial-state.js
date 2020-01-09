@@ -57,11 +57,6 @@ initialized
 "
 :
 false
-"
-allowLegacySnippets
-"
-:
-null
 }
 "
 Snippets

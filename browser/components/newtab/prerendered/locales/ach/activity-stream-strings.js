@@ -954,8 +954,8 @@ section_menu_action_manage_webext
 "
 :
 "
-Manage
-Extension
+Lo
+Lamed
 "
 "
 section_menu_action_add_topsite

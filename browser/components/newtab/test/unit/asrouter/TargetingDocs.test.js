@@ -43,6 +43,12 @@ MESSAGE_CONTEXT_ATTRIBUTES
 "
 previousSessionEnd
 "
+"
+trailheadInterrupt
+"
+"
+trailheadTriplet
+"
 ]
 ;
 function
