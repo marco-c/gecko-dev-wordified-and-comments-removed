@@ -161,6 +161,11 @@ Types
 debugTarget
 .
 isRequired
+disabled
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -198,6 +203,15 @@ render
 (
 )
 {
+const
+{
+disabled
+}
+=
+this
+.
+props
+;
 return
 Localized
 (
@@ -249,6 +263,7 @@ inspect
 -
 button
 "
+disabled
 }
 "
 Inspect
