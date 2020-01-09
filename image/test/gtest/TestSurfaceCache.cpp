@@ -323,7 +323,7 @@ FLAG_SYNC_DECODE_IF_FAST
 int32_t
 threshold
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageCacheFactor2ThresholdSurfaces

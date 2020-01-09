@@ -1271,7 +1271,7 @@ aDevice
 )
 mCanUseNV12
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFUseNV12Format
@@ -1296,7 +1296,7 @@ CanUseNV12
 )
 mCanUseP010
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFUseNV12Format
@@ -1321,7 +1321,7 @@ CanUseP010
 )
 mCanUseP016
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFUseNV12Format

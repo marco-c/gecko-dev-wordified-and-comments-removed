@@ -3180,7 +3180,7 @@ startTime
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS

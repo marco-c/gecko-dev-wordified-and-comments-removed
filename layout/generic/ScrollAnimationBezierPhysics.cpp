@@ -385,7 +385,7 @@ aDestination
 aCurrentPos
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollCurrentVelocityWeighting
@@ -404,7 +404,7 @@ Init
 0
 1
 -
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollStopDecelerationWeighting
@@ -468,7 +468,7 @@ dt
 /
 normalization
 *
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollCurrentVelocityWeighting
@@ -482,7 +482,7 @@ slope
 /
 normalization
 *
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollCurrentVelocityWeighting
@@ -497,7 +497,7 @@ dt
 dxy
 1
 -
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollStopDecelerationWeighting

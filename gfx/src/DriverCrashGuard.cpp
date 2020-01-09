@@ -2213,7 +2213,7 @@ force
 -
 d3d11
 "
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLANGLEForceD3D11
@@ -2241,7 +2241,7 @@ try
 -
 d3d11
 "
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLANGLETryD3D11
@@ -2269,7 +2269,7 @@ force
 -
 warp
 "
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLANGLEForceWARP

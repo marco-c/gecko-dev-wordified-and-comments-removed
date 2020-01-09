@@ -1840,7 +1840,7 @@ mFactor2Mode
 int32_t
 thresholdSurfaces
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageCacheFactor2ThresholdSurfaces
@@ -7231,7 +7231,7 @@ aSize
 int32_t
 maxSizeKB
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageCacheMaxRasterizedSVGThresholdKB

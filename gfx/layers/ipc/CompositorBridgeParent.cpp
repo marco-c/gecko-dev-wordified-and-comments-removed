@@ -4937,7 +4937,7 @@ ifdef
 MOZ_DUMP_PAINTING
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 DumpHostLayers
@@ -5135,7 +5135,7 @@ ToMilliseconds
 endif
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersCompositionFrameRate
@@ -5979,7 +5979,7 @@ task
 forget
 (
 )
-gfxPrefs
+StaticPrefs
 :
 :
 OrientationSyncMillis
@@ -7685,7 +7685,7 @@ ifdef
 XP_WIN
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11UseDoubleBuffering

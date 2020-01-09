@@ -2382,7 +2382,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageInferSrcAnimationThresholdMS

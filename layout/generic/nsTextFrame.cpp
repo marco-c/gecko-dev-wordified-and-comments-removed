@@ -35669,7 +35669,7 @@ GLYPH_STROKE
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PaintOrderEnabled

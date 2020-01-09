@@ -269,13 +269,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxTextRun
 .
 h
@@ -601,6 +594,15 @@ include
 mozilla
 /
 ServoBindings
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -6121,7 +6123,7 @@ if
 (
 mWidth
 >
-gfxPrefs
+StaticPrefs
 :
 :
 MaxCanvasSize
@@ -6131,7 +6133,7 @@ MaxCanvasSize
 |
 mHeight
 >
-gfxPrefs
+StaticPrefs
 :
 :
 MaxCanvasSize

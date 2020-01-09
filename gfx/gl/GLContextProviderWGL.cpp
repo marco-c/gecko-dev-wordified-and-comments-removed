@@ -1083,7 +1083,7 @@ DXInterop2Blocked
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 IgnoreDXInterop2Blacklist

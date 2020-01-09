@@ -85,7 +85,7 @@ mLowPrecisionTiledBuffer
 .
 SetResolution
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LowPrecisionResolution
@@ -95,7 +95,7 @@ LowPrecisionResolution
 ;
 mHasLowPrecision
 =
-gfxPrefs
+StaticPrefs
 :
 :
 UseLowPrecisionBuffer

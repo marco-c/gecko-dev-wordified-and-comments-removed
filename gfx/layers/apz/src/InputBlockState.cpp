@@ -700,7 +700,7 @@ mScrolledApzc
 |
 |
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZAllowImmediateHandoff
@@ -1754,7 +1754,7 @@ ToMilliseconds
 )
 >
 =
-gfxPrefs
+StaticPrefs
 :
 :
 MouseWheelIgnoreMoveDelayMs
@@ -1827,7 +1827,7 @@ ToMilliseconds
 (
 )
 <
-gfxPrefs
+StaticPrefs
 :
 :
 MouseWheelTransactionTimeoutMs
@@ -1856,7 +1856,7 @@ this
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 MouseScrollTestingEnabled
@@ -1971,7 +1971,7 @@ ToMilliseconds
 )
 >
 =
-gfxPrefs
+StaticPrefs
 :
 :
 MouseWheelIgnoreMoveDelayMs
@@ -2516,7 +2516,7 @@ this
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled
@@ -2674,7 +2674,7 @@ aOther
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled
@@ -2731,7 +2731,7 @@ HasReceivedAllContentNotifications
 &
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled
@@ -2770,7 +2770,7 @@ false
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled
@@ -2960,7 +2960,7 @@ const
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled
@@ -3029,7 +3029,7 @@ const
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled
@@ -3098,7 +3098,7 @@ const
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled
@@ -3154,7 +3154,7 @@ const
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled
@@ -3210,7 +3210,7 @@ const
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled
@@ -3563,14 +3563,14 @@ TouchActionAllowsPanningXY
 (
 )
 ?
-gfxPrefs
+StaticPrefs
 :
 :
 APZAxisLockAngle
 (
 )
 :
-gfxPrefs
+StaticPrefs
 :
 :
 APZAllowedDirectPanAngle

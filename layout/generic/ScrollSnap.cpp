@@ -1541,7 +1541,7 @@ GetBestEdge
 nscoord
 proximityThreshold
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ScrollSnapProximityThreshold

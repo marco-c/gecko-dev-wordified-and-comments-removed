@@ -426,6 +426,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
+include
+"
 ScrollAnimationPhysics
 .
 h
@@ -8034,13 +8043,13 @@ x
 aInitialVelocity
 .
 width
-gfxPrefs
+StaticPrefs
 :
 :
 ScrollBehaviorSpringConstant
 (
 )
-gfxPrefs
+StaticPrefs
 :
 :
 ScrollBehaviorDampingRatio
@@ -8058,13 +8067,13 @@ y
 aInitialVelocity
 .
 height
-gfxPrefs
+StaticPrefs
 :
 :
 ScrollBehaviorSpringConstant
 (
 )
-gfxPrefs
+StaticPrefs
 :
 :
 ScrollBehaviorDampingRatio
@@ -9279,7 +9288,7 @@ aOrigin
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsEnabled
@@ -10941,7 +10950,7 @@ currentVelocity
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ScrollBehaviorEnabled
@@ -11744,7 +11753,7 @@ InitWithNamedFuncCallback
 (
 RemoveDisplayPortCallback
 this
-gfxPrefs
+StaticPrefs
 :
 :
 APZDisplayPortExpiryTime
@@ -11831,7 +11840,7 @@ return
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 APZDisplayPortExpiryTime
@@ -13112,7 +13121,7 @@ content
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 APZPaintSkipping
@@ -13268,7 +13277,7 @@ apzDisabled
 haveScrollLinkedEffects
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 APZDisableForScrollLinkedEffects
@@ -14551,7 +14560,7 @@ mOuter
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -14844,7 +14853,7 @@ aCreateLayer
 isOverlayScrollbar
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 AlwaysLayerizeScrollbarTrackTestOnly
@@ -15993,7 +16002,7 @@ IsPaintingToWindow
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -16143,7 +16152,7 @@ WantAsyncScroll
 (
 !
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -16675,7 +16684,7 @@ mOuter
 if
 (
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -17127,7 +17136,7 @@ if
 dirtyRectHasBeenOverriden
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutDisplayListShowArea
@@ -17237,7 +17246,7 @@ ShouldForceLayerForScrollParent
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -18513,7 +18522,7 @@ RecomputeCurrentAnimatedGeometryRoot
 }
 mIsScrollableLayerInRootContainer
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -18738,7 +18747,7 @@ aClip
 &
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -20371,7 +20380,7 @@ aMode
 float
 flingSensitivity
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ScrollSnapPredictionSensitivity
@@ -20381,7 +20390,7 @@ ScrollSnapPredictionSensitivity
 int
 maxVelocity
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ScrollSnapPredictionMaxVelocity
@@ -32740,7 +32749,7 @@ const
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -33441,7 +33450,7 @@ aUpdateType
 bool
 canDoApzSmoothScroll
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ScrollBehaviorEnabled

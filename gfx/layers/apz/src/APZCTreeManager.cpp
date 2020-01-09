@@ -39,13 +39,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 GenericFlingAnimation
 .
 h
@@ -293,7 +286,7 @@ include
 "
 mozilla
 /
-TouchEvents
+Preferences
 .
 h
 "
@@ -302,7 +295,16 @@ include
 "
 mozilla
 /
-Preferences
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
+TouchEvents
 .
 h
 "
@@ -1335,7 +1337,7 @@ mApzcTreeLog
 .
 ConditionOnPrefFunction
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZPrintTree
@@ -1775,7 +1777,7 @@ nullptr
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestLoggingEnabled
@@ -6172,7 +6174,7 @@ apzc
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestLoggingEnabled
@@ -6258,7 +6260,7 @@ hitResult
 bool
 apzDragEnabled
 =
-gfxPrefs
+StaticPrefs
 :
 :
 APZDragEnabled
@@ -7107,7 +7109,7 @@ APZKeyboardEnabled
 )
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 AccessibilityBrowseWithCaret
@@ -7971,7 +7973,7 @@ hitScrollbarNode
 ;
 mInScrollbarTouchDrag
 =
-gfxPrefs
+StaticPrefs
 :
 :
 APZDragEnabled
@@ -7979,7 +7981,7 @@ APZDragEnabled
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 APZTouchDragEnabled
@@ -8778,7 +8780,7 @@ mThumbStart
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZDragInitiationEnabled
@@ -10701,7 +10703,7 @@ mIsHandoff
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 APZAllowImmediateHandoff
@@ -14652,7 +14654,7 @@ IsRootContent
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames

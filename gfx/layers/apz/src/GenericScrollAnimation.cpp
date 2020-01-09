@@ -89,7 +89,7 @@ aInitialPosition
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollMSDPhysicsEnabled

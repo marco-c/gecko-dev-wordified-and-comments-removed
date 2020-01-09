@@ -54,6 +54,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 gfxVars
@@ -2316,7 +2325,7 @@ DXP010Blocked
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFForceAllowP010Format
@@ -2381,7 +2390,7 @@ DXP016Blocked
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFForceAllowP010Format

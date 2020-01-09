@@ -1,7 +1,9 @@
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -2798,7 +2800,7 @@ extra_end
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderBlobPaintFlashing
