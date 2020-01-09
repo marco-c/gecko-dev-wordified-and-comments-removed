@@ -43,11 +43,6 @@ bounds
 100
 100
 ]
-scroll
--
-policy
-:
-scrollable
 items
 :
 -
@@ -135,11 +130,6 @@ bounds
 100
 100
 ]
-scroll
--
-policy
-:
-scrollable
 items
 :
 -

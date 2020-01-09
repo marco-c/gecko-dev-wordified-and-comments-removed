@@ -18,6 +18,7 @@ PipelineId
 ScrollClamping
 ScrollNodeState
 ScrollLocation
+ScrollSensitivity
 }
 ;
 use
@@ -25,11 +26,10 @@ api
 :
 :
 {
-TransformStyle
 LayoutSize
 LayoutTransform
 PropertyBinding
-ScrollSensitivity
+TransformStyle
 WorldPoint
 }
 ;

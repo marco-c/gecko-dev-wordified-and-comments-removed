@@ -391,7 +391,7 @@ Transaction
 framebuffer_size
 :
 DeviceIntSize
-_
+_pipeline_id
 :
 PipelineId
 _
@@ -443,6 +443,19 @@ self
 .
 documents
 {
+let
+space_and_clip
+=
+SpaceAndClipInfo
+:
+:
+root_scroll
+(
+doc
+.
+pipeline_id
+)
+;
 let
 mut
 builder
@@ -497,6 +510,9 @@ doc
 .
 content_rect
 )
+space_and_clip
+.
+spatial_id
 None
 TransformStyle
 :
@@ -527,6 +543,8 @@ new
 (
 local_rect
 )
+&
+space_and_clip
 doc
 .
 color
