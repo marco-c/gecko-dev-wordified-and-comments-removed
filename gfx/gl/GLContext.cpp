@@ -622,6 +622,12 @@ GL_ARB_uniform_buffer_object
 GL_ARB_vertex_array_object
 "
 "
+GL_CHROMIUM_color_buffer_float_rgb
+"
+"
+GL_CHROMIUM_color_buffer_float_rgba
+"
+"
 GL_EXT_bgra
 "
 "

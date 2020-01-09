@@ -990,6 +990,8 @@ ARB_timer_query
 ARB_transform_feedback2
 ARB_uniform_buffer_object
 ARB_vertex_array_object
+CHROMIUM_color_buffer_float_rgb
+CHROMIUM_color_buffer_float_rgba
 EXT_bgra
 EXT_blend_minmax
 EXT_color_buffer_float
