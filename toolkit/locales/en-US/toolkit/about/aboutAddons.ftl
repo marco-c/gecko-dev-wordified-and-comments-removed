@@ -2367,6 +2367,13 @@ Add
 -
 on
 actions
+report
+-
+addon
+-
+button
+=
+Report
 remove
 -
 addon
