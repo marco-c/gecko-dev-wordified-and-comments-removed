@@ -432,6 +432,18 @@ isinstance
 obj
 float
 )
+or
+        
+isinstance
+(
+obj
+bool
+)
+or
+        
+obj
+is
+None
 )
 :
         
