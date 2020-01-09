@@ -17710,7 +17710,6 @@ gBrowser
 updateBrowserRemoteness
 (
 browser
-true
 {
 recordExecution
 :
@@ -17720,6 +17719,11 @@ recordExecution
 newFrameloader
 :
 true
+remoteType
+:
+E10SUtils
+.
+DEFAULT_REMOTE_TYPE
 }
 )
 ;
@@ -24101,11 +24105,15 @@ updateBrowserRemoteness
 gBrowser
 .
 initialBrowser
-false
 {
 opener
 :
 aOpener
+remoteType
+:
+E10SUtils
+.
+NOT_REMOTE
 }
 )
 ;

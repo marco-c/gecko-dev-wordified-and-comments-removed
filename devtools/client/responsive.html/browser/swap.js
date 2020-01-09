@@ -528,7 +528,6 @@ updateBrowserRemoteness
 tab
 .
 linkedBrowser
-true
 {
 remoteType
 :
@@ -828,7 +827,13 @@ updateBrowserRemoteness
 tab
 .
 linkedBrowser
-false
+{
+remoteType
+:
+E10SUtils
+.
+NOT_REMOTE
+}
 )
 ;
 debug
@@ -1078,7 +1083,6 @@ updateBrowserRemoteness
 tab
 .
 linkedBrowser
-true
 {
 remoteType
 :

@@ -15656,7 +15656,13 @@ updateBrowserRemoteness
 tab
 .
 linkedBrowser
-true
+{
+remoteType
+:
+E10SUtils
+.
+DEFAULT_REMOTE_TYPE
+}
 )
 ;
 }
@@ -17917,11 +17923,6 @@ tabbrowser
 updateBrowserRemoteness
 (
 browser
-!
-!
-aOptions
-.
-remoteType
 {
 remoteType
 :
