@@ -49,6 +49,10 @@ class
 SourceUnits
 class
 TargetUnits
+class
+T
+=
+Float
 >
 class
 Matrix4x4Typed
@@ -70,6 +74,15 @@ UnknownUnits
 UnknownUnits
 >
 Matrix4x4
+;
+typedef
+Matrix4x4Typed
+<
+UnknownUnits
+UnknownUnits
+double
+>
+Matrix4x4Double
 ;
 typedef
 Matrix4x4TypedFlagged
