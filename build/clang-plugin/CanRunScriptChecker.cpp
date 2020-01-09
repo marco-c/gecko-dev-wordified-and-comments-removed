@@ -144,9 +144,7 @@ MozKnownLiveCall
 auto
 InvalidArg
 =
-ignoreTrivials
-(
-expr
+ignoreTrivialsConditional
 (
 anyOf
 (
@@ -175,6 +173,8 @@ isSmartPtrToRefCounted
 )
 )
 )
+expr
+(
 unless
 (
 cxxThisExpr
@@ -244,6 +244,12 @@ cxxDefaultArgExpr
 isNullDefaultArg
 (
 )
+)
+)
+unless
+(
+cxxNullPtrLiteralExpr
+(
 )
 )
 unless
