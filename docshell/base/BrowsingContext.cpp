@@ -3288,6 +3288,15 @@ ErrorResult
 aError
 )
 {
+if
+(
+mClosed
+)
+{
+return
+nullptr
+;
+}
 return
 WindowProxyHolder
 (
