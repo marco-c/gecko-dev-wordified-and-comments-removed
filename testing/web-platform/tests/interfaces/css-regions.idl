@@ -172,6 +172,7 @@ node
 }
 ;
 interface
+mixin
 Region
 {
 readonly
