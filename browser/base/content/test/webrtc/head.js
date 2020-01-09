@@ -1940,6 +1940,12 @@ resolve
 =
 >
 {
+window
+.
+focus
+(
+)
+;
 PopupNotifications
 .
 panel
