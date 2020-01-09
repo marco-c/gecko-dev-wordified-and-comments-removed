@@ -932,8 +932,6 @@ this
 .
 target
 .
-activeTab
-.
 focus
 (
 )

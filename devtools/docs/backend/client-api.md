@@ -727,8 +727,6 @@ tab
 await
 targetFront
 .
-activeTab
-.
 detach
 (
 )
@@ -1448,8 +1446,6 @@ previous
 tab
 .
 client
-.
-activeTab
 .
 detach
 (

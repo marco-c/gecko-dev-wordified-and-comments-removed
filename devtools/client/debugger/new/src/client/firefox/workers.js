@@ -84,8 +84,6 @@ workers
 await
 tabTarget
 .
-activeTab
-.
 listWorkers
 (
 )

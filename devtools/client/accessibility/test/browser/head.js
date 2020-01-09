@@ -1728,8 +1728,6 @@ executeSoon
 >
 target
 .
-activeTab
-.
 reload
 (
 )
@@ -1762,8 +1760,6 @@ executeSoon
 =
 >
 target
-.
-activeTab
 .
 navigateTo
 (

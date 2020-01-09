@@ -245,8 +245,6 @@ toolbox
 .
 target
 .
-activeTab
-.
 once
 (
 "

@@ -2695,8 +2695,6 @@ navigate
 ;
 target
 .
-activeTab
-.
 reload
 (
 )

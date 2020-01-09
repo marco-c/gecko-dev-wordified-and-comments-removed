@@ -453,8 +453,6 @@ toolbox
 .
 target
 .
-activeTab
-.
 reconfigure
 (
 {
@@ -725,8 +723,6 @@ await
 toolbox
 .
 target
-.
-activeTab
 .
 reconfigure
 (

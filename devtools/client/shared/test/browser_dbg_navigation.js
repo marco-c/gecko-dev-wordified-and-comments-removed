@@ -73,17 +73,10 @@ attach
 (
 )
 ;
-const
-targetFront
-=
-target
-.
-activeTab
-;
 await
 testNavigate
 (
-targetFront
+target
 )
 ;
 await
@@ -98,7 +91,7 @@ target
 function
 testNavigate
 (
-targetFront
+target
 )
 {
 const
@@ -117,7 +110,7 @@ defer
 )
 ]
 ;
-targetFront
+target
 .
 on
 (
@@ -214,7 +207,7 @@ navigating
 "
 )
 ;
-targetFront
+target
 .
 off
 (

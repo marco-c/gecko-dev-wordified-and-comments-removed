@@ -147,13 +147,6 @@ attach
 )
 ;
 const
-targetFront
-=
-target
-.
-activeTab
-;
-const
 {
 client
 }
@@ -163,7 +156,7 @@ target
 const
 form
 =
-targetFront
+target
 .
 targetForm
 ;

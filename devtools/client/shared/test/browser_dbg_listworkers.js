@@ -142,13 +142,6 @@ attach
 (
 )
 ;
-const
-targetFront
-=
-target
-.
-activeTab
-;
 let
 {
 workers
@@ -157,7 +150,7 @@ workers
 await
 listWorkers
 (
-targetFront
+target
 )
 ;
 is
@@ -203,7 +196,7 @@ WORKER1_URL
 await
 waitForWorkerListChanged
 (
-targetFront
+target
 )
 ;
 (
@@ -214,7 +207,7 @@ workers
 await
 listWorkers
 (
-targetFront
+target
 )
 )
 ;
@@ -272,7 +265,7 @@ WORKER2_URL
 await
 waitForWorkerListChanged
 (
-targetFront
+target
 )
 ;
 (
@@ -283,7 +276,7 @@ workers
 await
 listWorkers
 (
-targetFront
+target
 )
 )
 ;
@@ -342,7 +335,7 @@ terminate
 await
 waitForWorkerListChanged
 (
-targetFront
+target
 )
 ;
 (
@@ -353,7 +346,7 @@ workers
 await
 listWorkers
 (
-targetFront
+target
 )
 )
 ;
@@ -401,7 +394,7 @@ terminate
 await
 waitForWorkerListChanged
 (
-targetFront
+target
 )
 ;
 (
@@ -412,7 +405,7 @@ workers
 await
 listWorkers
 (
-targetFront
+target
 )
 )
 ;
