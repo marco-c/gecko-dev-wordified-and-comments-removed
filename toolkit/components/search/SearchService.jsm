@@ -966,6 +966,9 @@ wikipedia
 wiktionary
 "
 "
+yandex
+"
+"
 multilocale
 "
 ]
