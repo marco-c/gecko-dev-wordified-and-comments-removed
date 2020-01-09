@@ -562,6 +562,15 @@ include
 "
 js
 /
+Equality
+.
+h
+"
+#
+include
+"
+js
+/
 GCVector
 .
 h
@@ -14557,7 +14566,10 @@ same
 if
 (
 !
-JS_SameValue
+JS
+:
+:
+SameValue
 (
 cx
 args

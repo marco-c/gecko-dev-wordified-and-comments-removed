@@ -1989,7 +1989,10 @@ js
 RunJobs
 "
 "
-JS_SameValue
+JS
+:
+:
+SameValue
 "
 "
 js

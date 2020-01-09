@@ -28,6 +28,15 @@ include
 "
 vm
 /
+EqualityOperations
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 -
 inl

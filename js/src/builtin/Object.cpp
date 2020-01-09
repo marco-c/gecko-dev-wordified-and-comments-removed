@@ -107,6 +107,15 @@ include
 "
 vm
 /
+EqualityOperations
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h

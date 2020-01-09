@@ -102,6 +102,15 @@ include
 "
 vm
 /
+EqualityOperations
+.
+h
+"
+#
+include
+"
+vm
+/
 SelfHosting
 .
 h

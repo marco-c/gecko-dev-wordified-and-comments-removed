@@ -95,6 +95,15 @@ include
 "
 vm
 /
+EqualityOperations
+.
+h
+"
+#
+include
+"
+vm
+/
 TypedArrayObject
 .
 h
