@@ -93,6 +93,10 @@ val3
 }
 )
 ;
+finishgc
+(
+)
+;
 startgc
 (
 100000
@@ -244,6 +248,10 @@ obj3
 obj4
 =
 undefined
+;
+finishgc
+(
+)
 ;
 startgc
 (
@@ -456,6 +464,10 @@ wm1
 =
 undefined
 ;
+finishgc
+(
+)
+;
 startgc
 (
 100000
@@ -565,6 +577,10 @@ var
 initialCount
 =
 finalizeCount
+(
+)
+;
+finishgc
 (
 )
 ;
@@ -735,6 +751,10 @@ finalizeCount
 (
 )
 ;
+finishgc
+(
+)
+;
 startgc
 (
 100000
@@ -808,6 +828,10 @@ create
 null
 )
 i
+)
+;
+finishgc
+(
 )
 ;
 startgc
@@ -983,6 +1007,10 @@ obj3
 =
 [
 ]
+;
+finishgc
+(
+)
 ;
 startgc
 (
