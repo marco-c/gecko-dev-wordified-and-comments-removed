@@ -331,9 +331,4 @@ webconsole
 .
 js
 '
-'
-webgl
-.
-js
-'
 )
