@@ -214,12 +214,6 @@ exit
 1
 fi
 wget
--
-O
-/
-tmp
-/
-deb_archive
 https
 :
 /
@@ -248,9 +242,6 @@ sudo
 gdebi
 -
 n
-/
-tmp
-/
 deb_archive
 fi
 sudo
