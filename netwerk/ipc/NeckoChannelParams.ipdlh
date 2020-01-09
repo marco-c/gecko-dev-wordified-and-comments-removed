@@ -144,6 +144,9 @@ IPCStream
 include
 PBackgroundSharedTypes
 ;
+include
+DOMTypes
+;
 using
 mozilla
 :
@@ -1387,6 +1390,9 @@ apiRedirectTo
 ;
 OptionalURIParams
 topWindowURI
+;
+nsIPrincipal
+topWindowPrincipal
 ;
 uint32_t
 loadFlags
