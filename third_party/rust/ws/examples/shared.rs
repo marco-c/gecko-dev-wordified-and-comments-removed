@@ -1,6 +1,6 @@
 extern
 crate
-ws
+env_logger
 ;
 extern
 crate
@@ -8,15 +8,15 @@ url
 ;
 extern
 crate
-env_logger
+ws
 ;
 use
 ws
 :
 :
 {
-WebSocket
 Sender
+WebSocket
 }
 ;
 fn
@@ -28,10 +28,6 @@ env_logger
 :
 :
 init
-(
-)
-.
-unwrap
 (
 )
 ;
