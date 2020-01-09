@@ -1122,6 +1122,9 @@ SessionStore
 :
 restoreTabContent
 "
+"
+FullZoom
+"
 ]
 INNER_TO_OUTER_MESSAGES
 :
