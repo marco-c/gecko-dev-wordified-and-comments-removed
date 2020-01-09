@@ -130534,7 +130534,7 @@ text
 /
 elm
 "
-cljs
+cljc
 :
 "
 text
@@ -130542,6 +130542,15 @@ text
 x
 -
 clojure
+"
+cljs
+:
+"
+text
+/
+x
+-
+clojurescript
 "
 }
 ;
