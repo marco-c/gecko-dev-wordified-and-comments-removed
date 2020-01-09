@@ -29641,16 +29641,6 @@ null
 (
 )
 ;
-anyChars
-.
-addModifierException
-(
-TokenStream
-:
-:
-NoneIsOperand
-)
-;
 break
 ;
 case
