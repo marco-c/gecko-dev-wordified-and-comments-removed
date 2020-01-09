@@ -4592,11 +4592,8 @@ it
 second
 ;
 }
-wr
-:
-:
-WrSpaceAndClip
-defaultParent
+auto
+rootSpaceAndClip
 =
 wr
 :
@@ -4604,14 +4601,6 @@ wr
 RootScrollNode
 (
 )
-;
-defaultParent
-.
-space
-=
-mCurrentSpaceAndClipChain
-.
-space
 ;
 auto
 spaceAndClip
@@ -4629,7 +4618,7 @@ ptr
 )
 :
 &
-defaultParent
+rootSpaceAndClip
 aContentRect
 aClipRect
 )
