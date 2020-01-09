@@ -452,11 +452,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-nsDisplayItem
-*
-aOuterItem
-=
-nullptr
 )
 ;
 void
