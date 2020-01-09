@@ -825,6 +825,7 @@ addon
 .
 uninstall
 (
+true
 )
 ;
 }
