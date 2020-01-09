@@ -61,14 +61,6 @@ MPL
 0
 /
 .
-DEFINES
-[
-'
-PRIO_BUILD_LIBRARY
-'
-]
-=
-True
 LOCAL_INCLUDES
 +
 =
