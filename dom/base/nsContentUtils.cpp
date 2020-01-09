@@ -51700,6 +51700,13 @@ nsString
 aMessageOut
 )
 {
+AssertStaticUnwrapOK
+<
+PrototypeID
+>
+(
+)
+;
 RefPtr
 <
 T
@@ -51717,6 +51724,7 @@ NativeType
 (
 aObj
 exn
+nullptr
 )
 )
 )

@@ -7167,10 +7167,9 @@ if
 (
 NS_SUCCEEDED
 (
-UNWRAP_OBJECT
+UNWRAP_NON_WRAPPER_OBJECT
 (
 Window
-&
 global
 win
 )

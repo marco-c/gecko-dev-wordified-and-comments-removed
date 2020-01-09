@@ -229,7 +229,7 @@ for
 the
 "
 "
-CheckedUnwrap
+CheckedUnwrapDynamic
 thing
 to
 make
@@ -242,9 +242,10 @@ if
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 exnObj
+aCx
 )
 )
 {
