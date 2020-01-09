@@ -3713,15 +3713,6 @@ if
 glob
 )
 {
-DWORD
-err
-=
-:
-:
-GetLastError
-(
-)
-;
 return
 E_FAIL
 ;
