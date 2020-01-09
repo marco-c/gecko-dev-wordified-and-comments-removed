@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsSVGString
+SVGString
 .
 h
 "
@@ -567,7 +567,7 @@ XLINK_HREF
 TARGET
 }
 ;
-nsSVGString
+SVGString
 mStringAttributes
 [
 3

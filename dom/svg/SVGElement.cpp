@@ -374,14 +374,14 @@ h
 #
 include
 "
-nsSVGString
+SVGString
 .
 h
 "
 #
 include
 "
-nsSVGViewBox
+SVGViewBox
 .
 h
 "
@@ -1000,7 +1000,7 @@ i
 )
 ;
 }
-nsSVGViewBox
+SVGViewBox
 *
 viewBox
 =
@@ -2835,7 +2835,7 @@ nsGkAtoms
 viewBox
 )
 {
-nsSVGViewBox
+SVGViewBox
 *
 viewBox
 =
@@ -3984,7 +3984,7 @@ nsGkAtoms
 viewBox
 )
 {
-nsSVGViewBox
+SVGViewBox
 *
 viewBox
 =
@@ -9712,7 +9712,7 @@ SMIL
 ;
 }
 }
-nsSVGViewBox
+SVGViewBox
 *
 SVGElement
 :
@@ -9755,7 +9755,7 @@ nsAttrValue
 aEmptyOrOldValue
 )
 {
-nsSVGViewBox
+SVGViewBox
 *
 viewBox
 =
@@ -11364,7 +11364,7 @@ nsGkAtoms
 viewBox
 )
 {
-nsSVGViewBox
+SVGViewBox
 *
 viewBox
 =

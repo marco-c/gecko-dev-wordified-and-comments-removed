@@ -60,9 +60,6 @@ nsIFrame
 class
 nsSVGLength2
 ;
-class
-nsSVGViewBox
-;
 namespace
 mozilla
 {
@@ -74,6 +71,9 @@ SVGAnimatedTransformList
 ;
 class
 SVGGeometryFrame
+;
+class
+SVGViewBox
 ;
 }
 class
@@ -287,7 +287,7 @@ GetPatternTransform
 )
 ;
 const
-nsSVGViewBox
+SVGViewBox
 &
 GetViewBox
 (
@@ -297,7 +297,7 @@ aDefault
 )
 ;
 const
-nsSVGViewBox
+SVGViewBox
 &
 GetViewBox
 (
@@ -428,7 +428,7 @@ gfxMatrix
 ConstructCTM
 (
 const
-nsSVGViewBox
+SVGViewBox
 &
 aViewBox
 uint16_t

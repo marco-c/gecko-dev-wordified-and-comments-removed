@@ -729,7 +729,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGViewBox
+SVGViewBox
 *
 SVGPatternElement
 :

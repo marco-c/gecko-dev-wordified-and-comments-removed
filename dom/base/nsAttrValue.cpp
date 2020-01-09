@@ -2347,7 +2347,7 @@ nsAttrValue
 SetTo
 (
 const
-nsSVGViewBox
+SVGViewBox
 &
 aValue
 const

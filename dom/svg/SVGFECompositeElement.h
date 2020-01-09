@@ -188,7 +188,7 @@ const
 override
 ;
 virtual
-nsSVGString
+SVGString
 &
 GetResultImageName
 (
@@ -376,7 +376,7 @@ IN1
 IN2
 }
 ;
-nsSVGString
+SVGString
 mStringAttributes
 [
 3

@@ -590,7 +590,7 @@ bool
 IncludeBBoxScale
 (
 const
-nsSVGViewBox
+SVGViewBox
 &
 aViewBox
 uint32_t
@@ -745,7 +745,7 @@ gfxRect
 *
 aBBox
 const
-nsSVGViewBox
+SVGViewBox
 &
 aViewBox
 uint16_t
@@ -932,7 +932,7 @@ FirstChild
 )
 ;
 const
-nsSVGViewBox
+SVGViewBox
 &
 viewBox
 =
@@ -2054,7 +2054,7 @@ GetConsolidationMatrix
 ;
 }
 const
-nsSVGViewBox
+SVGViewBox
 &
 nsSVGPatternFrame
 :
@@ -2067,7 +2067,7 @@ aDefault
 )
 {
 const
-nsSVGViewBox
+SVGViewBox
 &
 thisViewBox
 =
@@ -2821,7 +2821,7 @@ nsSVGPatternFrame
 ConstructCTM
 (
 const
-nsSVGViewBox
+SVGViewBox
 &
 aViewBox
 uint16_t
@@ -2959,7 +2959,7 @@ scaleY
 ;
 }
 const
-nsSVGViewBoxRect
+SVGViewBoxRect
 viewBoxRect
 =
 aViewBox

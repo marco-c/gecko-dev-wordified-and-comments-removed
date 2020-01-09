@@ -269,7 +269,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGViewBox
+SVGViewBox
 *
 SVGViewElement
 :

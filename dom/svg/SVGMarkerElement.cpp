@@ -1224,7 +1224,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGViewBox
+SVGViewBox
 *
 SVGMarkerElement
 :
@@ -1404,7 +1404,7 @@ y
 )
 ;
 }
-nsSVGViewBoxRect
+SVGViewBoxRect
 SVGMarkerElement
 :
 :
@@ -1430,7 +1430,7 @@ GetAnimValue
 ;
 }
 return
-nsSVGViewBoxRect
+SVGViewBoxRect
 (
 0
 0
@@ -1498,7 +1498,7 @@ GetAnimValue
 mCoordCtx
 )
 ;
-nsSVGViewBoxRect
+SVGViewBoxRect
 viewbox
 =
 GetViewBoxRect

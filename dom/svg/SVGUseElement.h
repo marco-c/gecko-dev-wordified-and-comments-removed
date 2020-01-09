@@ -54,7 +54,7 @@ h
 #
 include
 "
-nsSVGString
+SVGString
 .
 h
 "
@@ -577,7 +577,7 @@ HREF
 XLINK_HREF
 }
 ;
-nsSVGString
+SVGString
 mStringAttributes
 [
 2

@@ -42,7 +42,7 @@ h
 #
 include
 "
-nsSVGViewBox
+SVGViewBox
 .
 h
 "
@@ -514,7 +514,7 @@ nsSVGMark
 aMark
 )
 ;
-nsSVGViewBoxRect
+SVGViewBoxRect
 GetViewBoxRect
 (
 )
@@ -697,7 +697,7 @@ GetEnumInfo
 override
 ;
 virtual
-nsSVGViewBox
+SVGViewBox
 *
 GetViewBox
 (
@@ -775,7 +775,7 @@ sAngleInfo
 1
 ]
 ;
-nsSVGViewBox
+SVGViewBox
 mViewBox
 ;
 SVGAnimatedPreserveAspectRatio

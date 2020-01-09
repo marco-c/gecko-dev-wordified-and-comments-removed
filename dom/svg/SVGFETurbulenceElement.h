@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsSVGString
+SVGString
 .
 h
 "
@@ -213,7 +213,7 @@ const
 override
 ;
 virtual
-nsSVGString
+SVGString
 &
 GetResultImageName
 (
@@ -419,7 +419,7 @@ enum
 RESULT
 }
 ;
-nsSVGString
+SVGString
 mStringAttributes
 [
 1

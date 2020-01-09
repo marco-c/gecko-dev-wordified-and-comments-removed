@@ -90,7 +90,7 @@ h
 #
 include
 "
-nsSVGString
+SVGString
 .
 h
 "

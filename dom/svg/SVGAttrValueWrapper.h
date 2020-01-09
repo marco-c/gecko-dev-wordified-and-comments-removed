@@ -14,9 +14,6 @@ h
 class
 nsSVGLength2
 ;
-class
-nsSVGViewBox
-;
 namespace
 mozilla
 {
@@ -49,6 +46,9 @@ SVGStringList
 ;
 class
 SVGTransformList
+;
+class
+SVGViewBox
 ;
 class
 SVGAttrValueWrapper
@@ -203,7 +203,7 @@ void
 ToString
 (
 const
-nsSVGViewBox
+SVGViewBox
 *
 aViewBox
 nsAString

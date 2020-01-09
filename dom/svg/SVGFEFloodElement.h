@@ -172,7 +172,7 @@ aInputImages
 override
 ;
 virtual
-nsSVGString
+SVGString
 &
 GetResultImageName
 (
@@ -242,7 +242,7 @@ enum
 RESULT
 }
 ;
-nsSVGString
+SVGString
 mStringAttributes
 [
 1

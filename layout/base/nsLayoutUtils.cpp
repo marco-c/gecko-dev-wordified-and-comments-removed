@@ -50100,7 +50100,7 @@ HasViewBoxRect
 )
 )
 {
-nsSVGViewBox
+SVGViewBox
 *
 viewBox
 =
@@ -50112,7 +50112,7 @@ GetViewBox
 )
 ;
 const
-nsSVGViewBoxRect
+SVGViewBoxRect
 &
 value
 =

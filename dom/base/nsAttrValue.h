@@ -752,7 +752,10 @@ void
 SetTo
 (
 const
-nsSVGViewBox
+mozilla
+:
+:
+SVGViewBox
 &
 aValue
 const
