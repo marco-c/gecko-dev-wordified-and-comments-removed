@@ -1861,6 +1861,10 @@ uint32_t
 >
 &
 aDocShellHistoryId
+UniqueProfilerBacktrace
+aCause
+=
+nullptr
 )
 :
 ProfilerMarkerPayload
@@ -1869,6 +1873,13 @@ aStartTime
 aEndTime
 aDocShellId
 aDocShellHistoryId
+std
+:
+:
+move
+(
+aCause
+)
 )
 mText
 (
