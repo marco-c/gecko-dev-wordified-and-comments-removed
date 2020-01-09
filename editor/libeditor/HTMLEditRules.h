@@ -1210,6 +1210,7 @@ DefaultParagraphSeparator
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 ReturnInHeader
@@ -1224,6 +1225,7 @@ int32_t
 aOffset
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 EditActionResult
 ReturnInParagraph
@@ -1240,6 +1242,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 SplitParagraph
