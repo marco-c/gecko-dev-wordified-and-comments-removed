@@ -1347,7 +1347,6 @@ driverVendor
 device
 features
 blockOn
-\
 ruleId
 )
 \
@@ -1359,8 +1358,8 @@ driverVendor
 device
 features
 blockOn
-\
 DRIVER_COMPARISON_IGNORED
+\
 V
 (
 0
