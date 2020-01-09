@@ -334,6 +334,12 @@ is
 !
 !
 el
+&
+&
+!
+el
+.
+hidden
 expectPresent
 "
 element
