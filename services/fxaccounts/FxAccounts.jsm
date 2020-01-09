@@ -4020,6 +4020,8 @@ uid
 .
 .
 .
+(
+await
 this
 .
 _deriveKeys
@@ -4030,6 +4032,7 @@ CommonUtils
 hexToBytes
 (
 kB
+)
 )
 )
 kA
@@ -4424,6 +4427,8 @@ updateData
 .
 .
 .
+(
+await
 this
 .
 _deriveKeys
@@ -4432,6 +4437,7 @@ data
 .
 uid
 kBbytes
+)
 )
 keyFetchToken
 :
@@ -4562,6 +4568,7 @@ data
 )
 ;
 }
+async
 _deriveKeys
 (
 uid
@@ -4576,11 +4583,14 @@ CommonUtils
 .
 bytesAsHex
 (
+(
+await
 this
 .
 _deriveSyncKey
 (
 kBbytes
+)
 )
 )
 kXCS
@@ -4602,11 +4612,14 @@ CommonUtils
 .
 bytesAsHex
 (
+(
+await
 this
 .
 _deriveWebExtSyncStoreKey
 (
 kBbytes
+)
 )
 )
 kExtKbHash
@@ -4634,7 +4647,7 @@ kBbytes
 return
 CryptoUtils
 .
-hkdf
+hkdfLegacy
 (
 kBbytes
 undefined
@@ -4665,7 +4678,7 @@ kBbytes
 return
 CryptoUtils
 .
-hkdf
+hkdfLegacy
 (
 kBbytes
 undefined

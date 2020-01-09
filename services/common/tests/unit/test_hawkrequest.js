@@ -995,6 +995,7 @@ server
 ;
 add_task
 (
+async
 function
 test_deriveHawkCredentials
 (
@@ -1003,6 +1004,7 @@ test_deriveHawkCredentials
 let
 credentials
 =
+await
 deriveHawkCredentials
 (
 SESSION_KEYS
@@ -1010,18 +1012,6 @@ SESSION_KEYS
 sessionToken
 "
 sessionToken
-"
-)
-;
-Assert
-.
-equal
-(
-credentials
-.
-algorithm
-"
-sha256
 "
 )
 ;
