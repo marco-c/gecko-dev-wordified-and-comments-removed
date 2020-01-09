@@ -385,17 +385,6 @@ default
 to
 0
 "
-media
-.
-autoplay
-.
-ask
--
-permission
-"
-to
-false
-"
 full
 -
 screen
