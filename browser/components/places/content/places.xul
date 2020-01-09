@@ -1123,8 +1123,6 @@ accel
 oncommand
 =
 "
-window
-.
 close
 (
 )
@@ -2216,8 +2214,6 @@ accesskey
 oncommand
 =
 "
-window
-.
 close
 (
 )

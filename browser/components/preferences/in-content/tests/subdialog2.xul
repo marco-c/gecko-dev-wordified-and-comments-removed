@@ -223,8 +223,6 @@ button
 oncommand
 =
 "
-window
-.
 close
 (
 )

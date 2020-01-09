@@ -896,7 +896,7 @@ nsIHTMLDocument
 "
 )
 ;
-d
+htmlDoc
 -
 >
 SetCompatibilityMode

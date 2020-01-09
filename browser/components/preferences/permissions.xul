@@ -914,8 +914,6 @@ button
 oncommand
 =
 "
-window
-.
 close
 (
 )

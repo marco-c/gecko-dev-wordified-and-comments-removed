@@ -636,8 +636,6 @@ close
 oncommand
 =
 "
-window
-.
 close
 (
 )
