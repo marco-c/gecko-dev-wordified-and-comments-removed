@@ -616,6 +616,7 @@ url
 line
 )
 {
+return
 this
 .
 _actions
@@ -635,6 +636,7 @@ sourceId
 line
 )
 {
+return
 this
 .
 _actions
