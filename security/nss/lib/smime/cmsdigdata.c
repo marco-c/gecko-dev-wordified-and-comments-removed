@@ -153,6 +153,14 @@ NSSCMSDigestedData
 digd
 )
 {
+if
+(
+digd
+!
+=
+NULL
+)
+{
 NSS_CMSContentInfo_Destroy
 (
 &
@@ -164,6 +172,7 @@ contentInfo
 )
 )
 ;
+}
 return
 ;
 }
