@@ -76,6 +76,11 @@ class
 FullParseHandler
 ;
 }
+template
+<
+typename
+Unit
+>
 using
 AsmJSParser
 =
@@ -88,7 +93,7 @@ frontend
 :
 :
 FullParseHandler
-char16_t
+Unit
 >
 ;
 extern
@@ -100,6 +105,9 @@ JSContext
 *
 cx
 AsmJSParser
+<
+char16_t
+>
 &
 parser
 frontend
