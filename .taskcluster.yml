@@ -2118,12 +2118,12 @@ decision
 :
 2
 .
-1
+2
 .
 0
 sha256
 :
-6db3b697d7a3c7aba440d72f04199331b872111cefff57206b8b8b1d53230360
+0e9689e94605eb8395f5b49141a48148416b0d825f6f7be04c29642d1a85ee3d
 '
 maxRunTime
 :
@@ -2145,7 +2145,7 @@ task
 '
 -
 -
-vcs
+gecko
 -
 checkout
 =
@@ -2161,6 +2161,8 @@ gecko
 -
 '
 -
+-
+gecko
 -
 sparse
 -
