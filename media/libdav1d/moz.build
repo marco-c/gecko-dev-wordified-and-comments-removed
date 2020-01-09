@@ -240,7 +240,7 @@ MOZ_DAV1D_ASM
 #
 Default
 stack
-aligment
+alignment
 is
 16
 bytes
@@ -284,7 +284,7 @@ x86_64
 #
 Update
 stack
-aligment
+alignment
 to
 32
 bytes
