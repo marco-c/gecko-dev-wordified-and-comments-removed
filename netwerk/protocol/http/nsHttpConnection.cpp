@@ -6348,6 +6348,13 @@ NONE
 -
 mRemainingConnectionUses
 ;
+bool
+itWasProxyConnect
+=
+!
+!
+mProxyConnectStream
+;
 if
 (
 mProxyConnectStream
@@ -6651,6 +6658,10 @@ upgradeReq
 ;
 if
 (
+!
+itWasProxyConnect
+&
+&
 hasUpgradeReq
 &
 &
