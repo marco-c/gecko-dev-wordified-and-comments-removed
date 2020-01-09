@@ -97,7 +97,7 @@ CSSPoint
 ;
 fm
 .
-SetViewport
+SetLayoutViewport
 (
 CSSRect
 (
@@ -1803,7 +1803,7 @@ EXPECT_EQ
 300
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -1817,7 +1817,7 @@ EXPECT_EQ
 300
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -1875,7 +1875,7 @@ EXPECT_EQ
 300
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -1889,7 +1889,7 @@ EXPECT_EQ
 325
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -1947,7 +1947,7 @@ EXPECT_EQ
 300
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -1961,7 +1961,7 @@ EXPECT_EQ
 250
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -2027,7 +2027,7 @@ EXPECT_EQ
 200
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -2041,7 +2041,7 @@ EXPECT_EQ
 250
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -2107,7 +2107,7 @@ EXPECT_EQ
 250
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -2121,7 +2121,7 @@ EXPECT_EQ
 250
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -2187,7 +2187,7 @@ EXPECT_EQ
 350
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -2201,7 +2201,7 @@ EXPECT_EQ
 150
 fm
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .

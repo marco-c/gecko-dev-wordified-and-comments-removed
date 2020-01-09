@@ -505,7 +505,7 @@ IsRootContent
 ?
 aRequest
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -958,7 +958,7 @@ GetScrollOffset
 =
 aRequest
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .

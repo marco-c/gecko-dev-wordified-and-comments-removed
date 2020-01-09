@@ -14270,7 +14270,7 @@ Metrics
 (
 )
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -14332,7 +14332,7 @@ Metrics
 (
 )
 .
-RecalculateViewportOffset
+RecalculateLayoutViewportOffset
 (
 )
 ;
@@ -14362,7 +14362,7 @@ Metrics
 (
 )
 .
-RecalculateViewportOffset
+RecalculateLayoutViewportOffset
 (
 )
 ;
@@ -15839,7 +15839,7 @@ fabsf
 (
 request
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -15849,7 +15849,7 @@ Width
 -
 mLastPaintRequestMetrics
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -15865,7 +15865,7 @@ fabsf
 (
 request
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -15875,7 +15875,7 @@ Height
 -
 mLastPaintRequestMetrics
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -15891,7 +15891,7 @@ fabsf
 (
 request
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -15901,7 +15901,7 @@ X
 -
 mLastPaintRequestMetrics
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -15917,7 +15917,7 @@ fabsf
 (
 request
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -15927,7 +15927,7 @@ Y
 -
 mLastPaintRequestMetrics
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -16490,7 +16490,7 @@ IsApzForceDisabled
 return
 mLastContentPaintMetrics
 .
-GetViewport
+GetLayoutViewport
 (
 )
 ;
@@ -16661,7 +16661,7 @@ lastPaintViewport
 =
 mLastContentPaintMetrics
 .
-GetViewport
+GetLayoutViewport
 (
 )
 ;
@@ -16895,7 +16895,7 @@ Metrics
 (
 )
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -17012,7 +17012,7 @@ Metrics
 (
 )
 .
-GetViewport
+GetLayoutViewport
 (
 )
 ;
@@ -17124,7 +17124,7 @@ Metrics
 (
 )
 .
-GetViewport
+GetLayoutViewport
 (
 )
 )
@@ -17160,7 +17160,7 @@ Metrics
 (
 )
 .
-GetViewport
+GetLayoutViewport
 (
 )
 ;
@@ -18506,7 +18506,7 @@ Metrics
 (
 )
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -18517,7 +18517,7 @@ Width
 =
 aLayerMetrics
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -18530,7 +18530,7 @@ Metrics
 (
 )
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -18541,7 +18541,7 @@ Height
 =
 aLayerMetrics
 .
-GetViewport
+GetLayoutViewport
 (
 )
 .
@@ -18571,11 +18571,11 @@ Metrics
 (
 )
 .
-SetViewport
+SetLayoutViewport
 (
 aLayerMetrics
 .
-GetViewport
+GetLayoutViewport
 (
 )
 )
@@ -18670,7 +18670,7 @@ Metrics
 (
 )
 .
-GetViewport
+GetLayoutViewport
 (
 )
 ;
@@ -19334,7 +19334,7 @@ Metrics
 (
 )
 .
-RecalculateViewportOffset
+RecalculateLayoutViewportOffset
 (
 )
 ;
@@ -19344,7 +19344,7 @@ Metrics
 (
 )
 .
-GetViewport
+GetLayoutViewport
 (
 )
 ;
@@ -19534,7 +19534,7 @@ Metrics
 (
 )
 .
-RecalculateViewportOffset
+RecalculateLayoutViewportOffset
 (
 )
 ;
@@ -20453,7 +20453,7 @@ TopLeft
 ;
 endZoomToMetrics
 .
-RecalculateViewportOffset
+RecalculateLayoutViewportOffset
 (
 )
 ;

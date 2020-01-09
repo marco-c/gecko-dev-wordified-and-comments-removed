@@ -1850,7 +1850,7 @@ AppendToString
 aStream
 m
 .
-GetViewport
+GetLayoutViewport
 (
 )
 "

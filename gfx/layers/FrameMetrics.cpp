@@ -41,7 +41,7 @@ void
 FrameMetrics
 :
 :
-RecalculateViewportOffset
+RecalculateLayoutViewportOffset
 (
 )
 {
@@ -59,7 +59,7 @@ KeepLayoutViewportEnclosingVisualViewport
 GetVisualViewport
 (
 )
-mViewport
+mLayoutViewport
 )
 ;
 }
