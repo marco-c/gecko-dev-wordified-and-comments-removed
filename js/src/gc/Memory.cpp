@@ -991,6 +991,15 @@ result
 ;
 do
 {
+mozilla
+:
+:
+recordreplay
+:
+:
+AutoPassThroughThreadEvents
+pt
+;
 result
 =
 mozilla
