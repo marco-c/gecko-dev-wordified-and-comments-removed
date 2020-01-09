@@ -855,6 +855,12 @@ GetVisualViewportOffset
 )
 const
 ;
+nsRect
+GetVisualOptimalViewingRect
+(
+)
+const
+;
 nsPoint
 GetLogicalVisualViewportOffset
 (
