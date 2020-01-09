@@ -3457,6 +3457,7 @@ checkMiscPrefixed
 [
 0x0a
 0x00
+0x00
 ]
 false
 )
