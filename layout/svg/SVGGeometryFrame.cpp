@@ -790,10 +790,10 @@ mContent
 AsElement
 (
 )
-nsRestyleHint
-(
+RestyleHint
+{
 0
-)
+}
 nsChangeHint_InvalidateRenderingObservers
 )
 ;

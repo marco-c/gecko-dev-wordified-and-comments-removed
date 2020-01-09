@@ -31456,10 +31456,10 @@ GetContent
 AsElement
 (
 )
-nsRestyleHint
-(
+RestyleHint
+{
 0
-)
+}
 nsChangeHint_RepaintFrame
 )
 ;

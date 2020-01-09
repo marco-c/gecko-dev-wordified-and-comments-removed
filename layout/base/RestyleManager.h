@@ -551,14 +551,6 @@ mReentrantChanges
 )
 ;
 }
-static
-nsCString
-RestyleHintToString
-(
-nsRestyleHint
-aHint
-)
-;
 #
 ifdef
 DEBUG
@@ -919,7 +911,7 @@ dom
 :
 Element
 *
-nsRestyleHint
+RestyleHint
 nsChangeHint
 aMinChangeHint
 )
@@ -933,7 +925,7 @@ dom
 Element
 *
 PseudoStyleType
-nsRestyleHint
+RestyleHint
 )
 ;
 void
@@ -951,8 +943,7 @@ RebuildAllStyleData
 (
 nsChangeHint
 aExtraHint
-nsRestyleHint
-aRestyleHint
+RestyleHint
 )
 ;
 void
@@ -960,8 +951,7 @@ PostRebuildAllStyleDataEvent
 (
 nsChangeHint
 aExtraHint
-nsRestyleHint
-aRestyleHint
+RestyleHint
 )
 ;
 void

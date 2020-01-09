@@ -11615,7 +11615,10 @@ getCompositorAPZTestData
 *
 Posts
 an
-eRestyle_Self
+RestyleHint
+:
+:
+RESTYLE_SELF
 restyle
 event
 for

@@ -34125,10 +34125,10 @@ RestyleManager
 PostRestyleEvent
 (
 root
-nsRestyleHint
-(
+RestyleHint
+{
 0
-)
+}
 nsChangeHint_ReconstructFrame
 )
 ;
@@ -38708,10 +38708,10 @@ aContent
 AsElement
 (
 )
-nsRestyleHint
-(
+RestyleHint
+{
 0
-)
+}
 nsChangeHint_ReconstructFrame
 )
 ;

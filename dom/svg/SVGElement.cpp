@@ -653,6 +653,8 @@ if
 shell
 )
 {
+if
+(
 nsPresContext
 *
 presContext
@@ -663,10 +665,6 @@ shell
 GetPresContext
 (
 )
-;
-if
-(
-presContext
 )
 {
 presContext
@@ -728,7 +726,7 @@ shell
 RestyleForAnimation
 (
 this
-eRestyle_Self
+StyleRestyleHint_RESTYLE_SELF
 )
 ;
 }
@@ -9968,10 +9966,10 @@ nsLayoutUtils
 PostRestyleEvent
 (
 this
-nsRestyleHint
-(
+RestyleHint
+{
 0
-)
+}
 changeHint
 )
 ;

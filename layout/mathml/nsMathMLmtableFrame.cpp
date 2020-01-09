@@ -4393,7 +4393,12 @@ mContent
 AsElement
 (
 )
-eRestyle_Subtree
+RestyleHint
+:
+:
+RestyleSubtree
+(
+)
 nsChangeHint_AllReflowHints
 )
 ;

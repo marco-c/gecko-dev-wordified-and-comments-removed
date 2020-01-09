@@ -901,8 +901,10 @@ RebuildAllStyleData
 (
 nsChangeHint
 aExtraHint
-nsRestyleHint
-aRestyleHint
+mozilla
+:
+:
+RestyleHint
 )
 ;
 void
@@ -910,8 +912,10 @@ PostRebuildAllStyleDataEvent
 (
 nsChangeHint
 aExtraHint
-nsRestyleHint
-aRestyleHint
+mozilla
+:
+:
+RestyleHint
 )
 ;
 void
