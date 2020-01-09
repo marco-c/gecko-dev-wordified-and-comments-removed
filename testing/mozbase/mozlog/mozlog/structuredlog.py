@@ -1461,10 +1461,23 @@ raw_data
 :
             
 if
+(
 k
 not
 in
 converted_data
+and
+                    
+k
+not
+in
+convertor_registry
+[
+action
+]
+.
+optional_args
+)
 :
                 
 converted_data
