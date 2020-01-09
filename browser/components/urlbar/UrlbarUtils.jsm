@@ -302,6 +302,13 @@ COMMIT
 :
 3
 }
+CANCEL_REASON
+:
+{
+BLUR
+:
+2
+}
 addToUrlbarHistory
 (
 url
