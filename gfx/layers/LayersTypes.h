@@ -1725,6 +1725,7 @@ uint8_t
 eKeyPress
 eAPZScroll
 eAPZPinchZoom
+eContentPaint
 )
 )
 ;

@@ -1096,6 +1096,11 @@ TiledContentHost
 h
 '
 '
+CompositionRecorder
+.
+h
+'
+'
 Compositor
 .
 h
@@ -2742,6 +2747,11 @@ cpp
 composite
 /
 TiledContentHost
+.
+cpp
+'
+'
+CompositionRecorder
 .
 cpp
 '
