@@ -1658,6 +1658,14 @@ if
 win
 .
 closed
+|
+|
+!
+win
+.
+ownerGlobal
+.
+gBrowser
 )
 {
 continue
