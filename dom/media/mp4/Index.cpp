@@ -757,7 +757,7 @@ mInitDataType
 NS_LITERAL_STRING
 (
 "
-cbcs
+cenc
 "
 )
 ;
