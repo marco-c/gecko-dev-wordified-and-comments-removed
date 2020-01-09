@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 json
 import
@@ -77,6 +81,7 @@ path
 as
 mozpath
 from
+.
 manifest_handler
 import
 ChromeManifestHandler

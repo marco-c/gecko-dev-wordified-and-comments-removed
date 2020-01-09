@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 os
 import
@@ -19,6 +23,10 @@ path
 as
 mozpath
 from
+mozbuild
+.
+repackaging
+.
 application_ini
 import
 get_application_ini_value
