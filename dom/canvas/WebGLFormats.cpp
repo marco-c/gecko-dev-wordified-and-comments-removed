@@ -6714,7 +6714,17 @@ EffectiveFormat
 :
 DEPTH_COMPONENT16
 true
-false
+true
+)
+;
+fnSet
+(
+EffectiveFormat
+:
+:
+DEPTH_COMPONENT24
+true
+true
 )
 ;
 fnSet
@@ -6734,7 +6744,7 @@ EffectiveFormat
 :
 DEPTH24_STENCIL8
 true
-false
+true
 )
 ;
 #
@@ -8196,7 +8206,7 @@ FOO
 DEPTH_COMPONENT16
 )
 true
-false
+true
 )
 ;
 fnAllowES3TexFormat
@@ -8206,7 +8216,7 @@ FOO
 DEPTH_COMPONENT24
 )
 true
-false
+true
 )
 ;
 fnAllowES3TexFormat
@@ -8216,7 +8226,7 @@ FOO
 DEPTH_COMPONENT32F
 )
 true
-false
+true
 )
 ;
 fnAllowES3TexFormat
@@ -8226,7 +8236,7 @@ FOO
 DEPTH24_STENCIL8
 )
 true
-false
+true
 )
 ;
 fnAllowES3TexFormat
@@ -8236,7 +8246,7 @@ FOO
 DEPTH32F_STENCIL8
 )
 true
-false
+true
 )
 ;
 #
