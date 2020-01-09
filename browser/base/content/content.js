@@ -232,7 +232,6 @@ LoginManagerContent
 onDOMFormHasPassword
 (
 event
-content
 )
 ;
 let
