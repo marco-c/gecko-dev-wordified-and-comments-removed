@@ -460,6 +460,8 @@ shadowRoot
 querySelector
 (
 "
+modal
+-
 input
 [
 name
@@ -481,6 +483,8 @@ shadowRoot
 querySelector
 (
 "
+modal
+-
 input
 [
 name
