@@ -25,13 +25,13 @@ ChromeUtils
 import
 (
 "
-chrome
+resource
 :
 /
 /
-remote
+gre
 /
-content
+modules
 /
 EventEmitter
 .
@@ -758,6 +758,7 @@ null
 }
 onAllowedConnection
 (
+eventName
 transport
 )
 {

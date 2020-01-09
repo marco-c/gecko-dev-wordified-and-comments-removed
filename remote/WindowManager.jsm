@@ -55,13 +55,13 @@ ChromeUtils
 import
 (
 "
-chrome
+resource
 :
 /
 /
-remote
+gre
 /
-content
+modules
 /
 EventEmitter
 .
@@ -503,6 +503,7 @@ tab
 async
 onWindowOpen
 (
+eventName
 window
 )
 {
