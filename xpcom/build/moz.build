@@ -343,6 +343,16 @@ objs
 mozbuild
 '
 )
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 UNIFIED_SOURCES
 +
 =

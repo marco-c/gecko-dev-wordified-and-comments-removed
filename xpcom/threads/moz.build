@@ -160,6 +160,16 @@ XPIDL_MODULE
 '
 xpcom_threads
 '
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 EXPORTS
 +
 =

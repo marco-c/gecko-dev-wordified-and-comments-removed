@@ -177,6 +177,16 @@ ModuleUtils
 h
 '
 ]
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 if
 CONFIG
 [
