@@ -1439,9 +1439,6 @@ Bug
 1426010
 )
 .
-default
--
-preferences
 pref
 (
 layout
@@ -1477,6 +1474,19 @@ multicol
 ref
 .
 html
+pref
+(
+layout
+.
+css
+.
+column
+-
+span
+.
+enabled
+true
+)
 =
 =
 contain
@@ -1499,6 +1509,3 @@ multicol
 ref
 .
 html
-default
--
-preferences
