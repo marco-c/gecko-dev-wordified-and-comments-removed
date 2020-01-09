@@ -67,6 +67,11 @@ rest
 of
 WebRender
 "
+edition
+=
+"
+2018
+"
 [
 features
 ]

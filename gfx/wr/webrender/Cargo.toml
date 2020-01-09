@@ -72,6 +72,11 @@ build
 .
 rs
 "
+edition
+=
+"
+2018
+"
 [
 features
 ]

@@ -42,6 +42,11 @@ MPL
 .
 0
 "
+edition
+=
+"
+2018
+"
 [
 target
 .

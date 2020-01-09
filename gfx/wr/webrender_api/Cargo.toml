@@ -61,6 +61,11 @@ API
 for
 WebRender
 "
+edition
+=
+"
+2018
+"
 [
 features
 ]

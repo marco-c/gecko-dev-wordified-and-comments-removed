@@ -55,6 +55,11 @@ servo
 /
 webrender
 "
+edition
+=
+"
+2018
+"
 [
 [
 bin
