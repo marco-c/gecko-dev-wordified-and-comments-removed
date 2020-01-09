@@ -1811,7 +1811,6 @@ aSample
 >
 mTime
 duration
-numFrames
 data
 .
 Forget

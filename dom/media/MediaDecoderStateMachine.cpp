@@ -6567,7 +6567,6 @@ GetTime
 (
 )
 duration
-frames
 std
 :
 :

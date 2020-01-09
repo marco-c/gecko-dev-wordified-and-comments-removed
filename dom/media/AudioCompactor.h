@@ -262,7 +262,6 @@ AudioData
 aOffset
 time
 duration
-framesCopied
 std
 :
 :

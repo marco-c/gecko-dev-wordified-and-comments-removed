@@ -1521,7 +1521,6 @@ AudioData
 aStreamOffset
 timestamp
 duration
-numFrames
 std
 :
 :

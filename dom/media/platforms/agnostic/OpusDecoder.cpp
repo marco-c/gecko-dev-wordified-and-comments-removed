@@ -1963,7 +1963,6 @@ aSample
 mOffset
 time
 duration
-frames
 std
 :
 :

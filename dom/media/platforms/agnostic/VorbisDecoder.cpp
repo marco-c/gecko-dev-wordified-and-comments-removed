@@ -1392,7 +1392,6 @@ AudioData
 aOffset
 time
 duration
-frames
 data
 .
 Forget

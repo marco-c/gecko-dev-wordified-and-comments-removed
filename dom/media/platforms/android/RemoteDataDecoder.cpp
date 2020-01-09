@@ -2364,7 +2364,6 @@ FramesToTimeUnit
 numFrames
 mOutputSampleRate
 )
-numFrames
 std
 :
 :

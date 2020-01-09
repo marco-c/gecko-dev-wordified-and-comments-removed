@@ -180,9 +180,6 @@ uint32_t
 rate
 ;
 uint32_t
-frames
-;
-uint32_t
 channelMap
 ;
 Shmem
