@@ -3088,6 +3088,11 @@ GetCues
 (
 )
 ;
+MOZ_ASSERT
+(
+cueList
+)
+;
 nsTArray
 <
 RefPtr
