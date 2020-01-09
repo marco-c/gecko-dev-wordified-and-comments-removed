@@ -2563,6 +2563,15 @@ nsICookieService
 BEHAVIOR_REJECT_TRACKER
 |
 |
+cookieBehavior
+=
+=
+nsICookieService
+:
+:
+BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+|
+|
 mThirdPartySession
 |
 |
