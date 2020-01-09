@@ -41,7 +41,6 @@ makeUpdateRequestV4
 ]
 [
 ]
-0
 )
 ;
 let
@@ -65,7 +64,6 @@ proto
 AAAAAA
 "
 ]
-1
 )
 ;
 let
@@ -89,7 +87,6 @@ name
 AAAAAA
 "
 ]
-1
 )
 ;
 let
@@ -123,7 +120,6 @@ AAAAAA
 AAAAAA
 "
 ]
-2
 )
 ;
 equal

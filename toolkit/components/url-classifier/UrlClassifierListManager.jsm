@@ -2425,9 +2425,6 @@ makeUpdateRequestV4
 (
 tableArray
 stateArray
-tableArray
-.
-length
 )
 ;
 streamerMap

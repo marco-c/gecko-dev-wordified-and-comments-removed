@@ -91,7 +91,6 @@ AAAAAA
 AAAAAA
 "
 ]
-2
 )
 ;
 let
@@ -115,7 +114,6 @@ proto
 AAAAAA
 "
 ]
-1
 )
 ;
 if
@@ -401,7 +399,6 @@ proto
 "
 "
 ]
-3
 )
 ;
 let
@@ -424,7 +421,6 @@ proto
 "
 "
 ]
-1
 )
 ;
 if
