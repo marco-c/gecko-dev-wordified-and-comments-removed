@@ -846,6 +846,9 @@ MessageType
 mType
 ;
 uint32_t
+mReceiveTime
+;
+uint32_t
 mSize
 ;
 protected
@@ -861,6 +864,10 @@ aSize
 mType
 (
 aType
+)
+mReceiveTime
+(
+0
 )
 mSize
 (
@@ -2449,6 +2456,15 @@ mMessageBuffer
 size_t
 mMessageBytes
 ;
+bool
+mSimulateDelays
+;
+TimeStamp
+mStartTime
+;
+TimeStamp
+mAvailableTime
+;
 void
 PrintMessage
 (
@@ -2505,8 +2521,8 @@ mId
 void
 SendMessage
 (
-const
 Message
+&
 &
 aMsg
 )
