@@ -583,6 +583,12 @@ DoAdmissionDNS
 ;
 MOZ_MUST_USE
 nsresult
+CallStartWebsocketData
+(
+)
+;
+MOZ_MUST_USE
+nsresult
 StartWebsocketData
 (
 )
@@ -597,6 +603,8 @@ resultCode
 void
 ReportConnectionTelemetry
 (
+nsresult
+aStatusCode
 )
 ;
 void
