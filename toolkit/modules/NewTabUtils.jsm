@@ -5469,7 +5469,7 @@ pinnedLinks
 =
 Array
 .
-slice
+from
 (
 PinnedLinks
 .
