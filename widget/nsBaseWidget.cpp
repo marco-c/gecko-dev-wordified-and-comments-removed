@@ -337,13 +337,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -365,6 +358,15 @@ h
 include
 "
 GLConsts
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -3594,7 +3596,7 @@ HasRemoteContent
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 APZPopupsEnabled
@@ -3778,7 +3780,7 @@ dpi
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZKeyboardEnabled
@@ -4389,7 +4391,7 @@ eTouchStart
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled
