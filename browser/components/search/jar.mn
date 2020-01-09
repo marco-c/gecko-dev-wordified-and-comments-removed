@@ -129,3 +129,6 @@ plugins
 %
 searchplugins
 /
+contentaccessible
+=
+yes
