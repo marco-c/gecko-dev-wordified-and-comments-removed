@@ -55,15 +55,6 @@ Likely
 h
 "
 #
-include
-"
-mozilla
-/
-Poison
-.
-h
-"
-#
 if
 !
 defined
@@ -369,10 +360,6 @@ char
 *
 const
 mLogName
-;
-const
-CorruptionCanaryForStatics
-mCanary
 ;
 Atomic
 <
