@@ -463,7 +463,9 @@ className
 classnames
 (
 "
-domain
+globe
+-
+small
 "
 {
 debuggee
@@ -1062,10 +1064,11 @@ expanded
 :
 (
 <
-i
+span
 className
 =
 "
+img
 no
 -
 arrow

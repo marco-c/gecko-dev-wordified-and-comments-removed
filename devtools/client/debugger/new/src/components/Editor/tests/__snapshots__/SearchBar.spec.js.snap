@@ -282,6 +282,10 @@ word
 /
 >
 <
+/
+div
+>
+<
 React
 .
 Fragment
@@ -318,10 +322,6 @@ Function
 React
 .
 Fragment
->
-<
-/
-div
 >
 <
 /
@@ -626,6 +626,10 @@ word
 /
 >
 <
+/
+div
+>
+<
 React
 .
 Fragment
@@ -662,10 +666,6 @@ Function
 React
 .
 Fragment
->
-<
-/
-div
 >
 <
 /
@@ -960,6 +960,10 @@ word
 /
 >
 <
+/
+div
+>
+<
 React
 .
 Fragment
@@ -996,10 +1000,6 @@ Function
 React
 .
 Fragment
->
-<
-/
-div
 >
 <
 /
@@ -1293,6 +1293,10 @@ word
 /
 >
 <
+/
+div
+>
+<
 React
 .
 Fragment
@@ -1329,10 +1333,6 @@ Function
 React
 .
 Fragment
->
-<
-/
-div
 >
 <
 /

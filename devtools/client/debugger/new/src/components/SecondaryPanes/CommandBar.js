@@ -1304,7 +1304,9 @@ AccessibleImage
 className
 =
 "
-skipPausing
+disable
+-
+pausing
 "
 /
 >
