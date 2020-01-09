@@ -876,7 +876,10 @@ checkPiTarget
 const
 ENCODING
 *
+UNUSED_P
+(
 enc
+)
 const
 char
 *
@@ -1359,7 +1362,10 @@ scanCdataSection
 const
 ENCODING
 *
+UNUSED_P
+(
 enc
+)
 const
 char
 *
@@ -7457,7 +7463,10 @@ charRefNumber
 const
 ENCODING
 *
+UNUSED_P
+(
 enc
+)
 const
 char
 *
@@ -7741,7 +7750,10 @@ predefinedEntityName
 const
 ENCODING
 *
+UNUSED_P
+(
 enc
+)
 const
 char
 *
@@ -8324,7 +8336,10 @@ nameMatchesAscii
 const
 ENCODING
 *
+UNUSED_P
+(
 enc
+)
 const
 char
 *
