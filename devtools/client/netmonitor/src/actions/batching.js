@@ -8,6 +8,7 @@ const
 BATCH_ACTIONS
 BATCH_ENABLE
 BATCH_RESET
+BATCH_FLUSH
 }
 =
 require
@@ -63,6 +64,19 @@ BATCH_RESET
 }
 ;
 }
+function
+batchFlush
+(
+)
+{
+return
+{
+type
+:
+BATCH_FLUSH
+}
+;
+}
 module
 .
 exports
@@ -71,5 +85,6 @@ exports
 batchActions
 batchEnable
 batchReset
+batchFlush
 }
 ;
