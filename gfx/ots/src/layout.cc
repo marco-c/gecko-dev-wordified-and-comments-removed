@@ -80,12 +80,6 @@ kVariationIndex
 =
 0x8000
 ;
-const
-uint16_t
-kMaxClassDefValue
-=
-0xFFFF
-;
 struct
 ScriptRecord
 {
@@ -4471,6 +4465,9 @@ length
 -
 offset_class_def
 num_glyphs
+ots
+:
+:
 kMaxClassDefValue
 )
 )
@@ -7174,6 +7171,9 @@ length
 -
 offset_backtrack_class_def
 num_glyphs
+ots
+:
+:
 kMaxClassDefValue
 )
 )
@@ -7249,6 +7249,9 @@ length
 -
 offset_input_class_def
 num_glyphs
+ots
+:
+:
 kMaxClassDefValue
 )
 )
@@ -7327,6 +7330,9 @@ length
 -
 offset_lookahead_class_def
 num_glyphs
+ots
+:
+:
 kMaxClassDefValue
 )
 )

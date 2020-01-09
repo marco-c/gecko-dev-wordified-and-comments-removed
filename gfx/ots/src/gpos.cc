@@ -90,12 +90,6 @@ kMaxAnchorFormat
 =
 3
 ;
-const
-uint16_t
-kMaxClassDefValue
-=
-0xFFFF
-;
 bool
 ParseSingleAdjustment
 (
@@ -2450,6 +2444,9 @@ length
 -
 offset_class_def1
 num_glyphs
+ots
+:
+:
 kMaxClassDefValue
 )
 )
@@ -2485,6 +2482,9 @@ length
 -
 offset_class_def2
 num_glyphs
+ots
+:
+:
 kMaxClassDefValue
 )
 )

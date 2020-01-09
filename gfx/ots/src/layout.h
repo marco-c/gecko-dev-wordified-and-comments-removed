@@ -14,6 +14,12 @@ h
 namespace
 ots
 {
+const
+uint16_t
+kMaxClassDefValue
+=
+0xFFFF
+;
 struct
 LookupSubtableParser
 {
