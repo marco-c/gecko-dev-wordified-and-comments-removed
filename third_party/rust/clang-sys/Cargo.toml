@@ -124,7 +124,7 @@ version
 .
 26
 .
-4
+1
 "
 authors
 =
@@ -243,11 +243,6 @@ version
 .
 39
 "
-default
--
-features
-=
-false
 [
 dependencies
 .

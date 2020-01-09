@@ -65,6 +65,12 @@ ty
 TypeKind
 ;
 use
+std
+:
+:
+collections
+:
+:
 {
 HashMap
 HashSet
@@ -1115,7 +1121,7 @@ used
 HashMap
 :
 :
-default
+new
 (
 )
 ;
@@ -1126,7 +1132,7 @@ dependencies
 HashMap
 :
 :
-default
+new
 (
 )
 ;
