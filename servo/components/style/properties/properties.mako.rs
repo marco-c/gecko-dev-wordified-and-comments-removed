@@ -321,6 +321,12 @@ ToCss
 }
 ;
 use
+to_shmem
+:
+:
+impl_trivial_to_shmem
+;
+use
 crate
 :
 :
@@ -5340,6 +5346,7 @@ properties
 derive
 (
 Clone
+Copy
 Debug
 Default
 MallocSizeOf
@@ -5373,6 +5380,12 @@ longhands
 32
 ]
 }
+impl_trivial_to_shmem
+!
+(
+LonghandIdSet
+)
+;
 /
 /
 /
