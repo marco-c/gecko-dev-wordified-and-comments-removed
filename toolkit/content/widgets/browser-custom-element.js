@@ -87,6 +87,8 @@ true
 class
 MozBrowser
 extends
+MozElements
+.
 MozElementMixin
 (
 XULFrameElement

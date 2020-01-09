@@ -528,6 +528,8 @@ testMixin
 {
 ok
 (
+MozElements
+.
 MozElementMixin
 "
 Mixin
@@ -538,6 +540,8 @@ exists
 let
 MixedHTMLElement
 =
+MozElements
+.
 MozElementMixin
 (
 HTMLElement
@@ -604,6 +608,8 @@ testBaseControlMixin
 {
 ok
 (
+MozElements
+.
 BaseControlMixin
 "
 Mixin
@@ -614,6 +620,8 @@ exists
 let
 MixedHTMLSpanElement
 =
+MozElements
+.
 MozElementMixin
 (
 HTMLSpanElement
@@ -622,6 +630,8 @@ HTMLSpanElement
 let
 HTMLSpanBaseControl
 =
+MozElements
+.
 BaseControlMixin
 (
 MixedHTMLSpanElement

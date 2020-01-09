@@ -31,6 +31,8 @@ jsm
 class
 MozTextLink
 extends
+MozElements
+.
 MozElementMixin
 (
 XULTextElement

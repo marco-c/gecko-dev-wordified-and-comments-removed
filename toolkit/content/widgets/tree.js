@@ -2947,8 +2947,12 @@ MozTreecols
 class
 MozTree
 extends
+MozElements
+.
 BaseControlMixin
 (
+MozElements
+.
 MozElementMixin
 (
 XULTreeElement

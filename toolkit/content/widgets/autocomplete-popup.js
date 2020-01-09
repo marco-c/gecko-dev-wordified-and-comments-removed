@@ -7,6 +7,8 @@ strict
 const
 MozPopupElement
 =
+MozElements
+.
 MozElementMixin
 (
 XULPopupElement

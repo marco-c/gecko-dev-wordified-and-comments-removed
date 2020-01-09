@@ -184,7 +184,8 @@ MozElements
 {
 }
 ;
-const
+MozElements
+.
 MozElementMixin
 =
 Base
@@ -1388,6 +1389,8 @@ null
 const
 MozXULElement
 =
+MozElements
+.
 MozElementMixin
 (
 XULElement
@@ -1495,7 +1498,8 @@ obj
 _customInterfaceProxy
 ;
 }
-const
+MozElements
+.
 BaseControlMixin
 =
 Base
@@ -1644,6 +1648,8 @@ MozElements
 .
 BaseControl
 =
+MozElements
+.
 BaseControlMixin
 (
 MozXULElement
@@ -1657,6 +1663,8 @@ Base
 >
 class
 extends
+MozElements
+.
 BaseControlMixin
 (
 Base
@@ -1878,18 +1886,6 @@ BaseTextMixin
 (
 MozXULElement
 )
-;
-window
-.
-BaseControlMixin
-=
-BaseControlMixin
-;
-window
-.
-MozElementMixin
-=
-MozElementMixin
 ;
 window
 .
