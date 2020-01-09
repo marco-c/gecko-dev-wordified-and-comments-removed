@@ -15,6 +15,7 @@ utils
 .
 js
 "
+this
 )
 ;
 ChromeUtils
