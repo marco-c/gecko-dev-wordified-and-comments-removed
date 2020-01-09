@@ -9790,6 +9790,8 @@ fakeplugin
 trying
 to
 be
+"
+"
 loaded
 .
 "
