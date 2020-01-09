@@ -159,6 +159,7 @@ box_
 Contain
 Display
 Overflow
+OverflowAnchor
 OverflowClipBox
 }
 ;

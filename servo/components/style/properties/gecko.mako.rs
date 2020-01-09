@@ -11843,6 +11843,11 @@ OverflowWrap
 :
 impl_simple
 "
+OverflowAnchor
+"
+:
+impl_simple
+"
 Perspective
 "
 :
