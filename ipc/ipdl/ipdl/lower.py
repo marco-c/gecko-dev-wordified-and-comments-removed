@@ -33459,7 +33459,7 @@ force_inline
 decl
 defn
 =
-_splitMethodDefn
+_splitMethodDeclDefn
 (
 stmt
 cls
@@ -33497,7 +33497,7 @@ return
 cls
 defns
 def
-_splitMethodDefn
+_splitMethodDeclDefn
 (
 md
 cls
