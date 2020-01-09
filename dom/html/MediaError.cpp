@@ -310,6 +310,12 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
+mParent
+-
+>
+OwnerDoc
+(
+)
 )
 &
 &
