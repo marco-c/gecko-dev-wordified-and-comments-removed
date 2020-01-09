@@ -10972,6 +10972,16 @@ Now
 <
 !
 ENTITY
+syncSyncNowItemSyncing
+.
+label
+"
+Syncing
+"
+>
+<
+!
+ENTITY
 syncSyncNowItem
 .
 accesskey
