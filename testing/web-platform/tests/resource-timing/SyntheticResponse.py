@@ -303,6 +303,27 @@ write_status
 code
 )
             
+if
+code
+/
+/
+100
+=
+=
+1
+:
+                
+response
+.
+writer
+.
+end_headers
+(
+)
+            
+else
+:
+                
 statusSent
 =
 True
