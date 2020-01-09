@@ -389,6 +389,7 @@ GeckoSession
 title
 :
 String
+?
 )
 {
 assertThat
@@ -1323,6 +1324,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat

@@ -12,6 +12,15 @@ support
 .
 annotation
 .
+NonNull
+;
+import
+android
+.
+support
+.
+annotation
+.
 UiThread
 ;
 import
@@ -61,6 +70,7 @@ public
 void
 surfaceChanged
 (
+NonNull
 Surface
 surface
 int
@@ -84,6 +94,7 @@ public
 void
 surfaceChanged
 (
+NonNull
 Surface
 surface
 int

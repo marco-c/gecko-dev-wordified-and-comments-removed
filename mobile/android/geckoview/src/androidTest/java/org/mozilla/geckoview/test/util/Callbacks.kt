@@ -237,6 +237,7 @@ GeckoSession
 title
 :
 String
+?
 )
 {
 }
@@ -345,6 +346,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 }
@@ -463,6 +465,7 @@ Array
 out
 String
 >
+?
 callback
 :
 GeckoSession
@@ -488,6 +491,7 @@ GeckoSession
 uri
 :
 String
+?
 type
 :
 Int
@@ -527,6 +531,7 @@ PermissionDelegate
 .
 MediaSource
 >
+?
 audio
 :
 Array
@@ -538,6 +543,7 @@ PermissionDelegate
 .
 MediaSource
 >
+?
 callback
 :
 GeckoSession
@@ -635,9 +641,11 @@ GeckoSession
 title
 :
 String
+?
 msg
 :
 String
+?
 callback
 :
 GeckoSession
@@ -663,9 +671,11 @@ GeckoSession
 title
 :
 String
+?
 msg
 :
 String
+?
 btnMsg
 :
 Array
@@ -673,6 +683,7 @@ Array
 out
 String
 >
+?
 callback
 :
 GeckoSession
@@ -698,12 +709,15 @@ GeckoSession
 title
 :
 String
+?
 msg
 :
 String
+?
 value
 :
 String
+?
 callback
 :
 GeckoSession
@@ -729,9 +743,11 @@ GeckoSession
 title
 :
 String
+?
 msg
 :
 String
+?
 options
 :
 GeckoSession
@@ -764,9 +780,11 @@ GeckoSession
 title
 :
 String
+?
 msg
 :
 String
+?
 type
 :
 Int
@@ -806,9 +824,11 @@ GeckoSession
 title
 :
 String
+?
 value
 :
 String
+?
 callback
 :
 GeckoSession
@@ -834,18 +854,22 @@ GeckoSession
 title
 :
 String
+?
 type
 :
 Int
 value
 :
 String
+?
 min
 :
 String
+?
 max
 :
 String
+?
 callback
 :
 GeckoSession
@@ -871,6 +895,7 @@ GeckoSession
 title
 :
 String
+?
 type
 :
 Int
@@ -881,6 +906,7 @@ Array
 out
 String
 >
+?
 callback
 :
 GeckoSession
@@ -906,6 +932,7 @@ GeckoSession
 targetUri
 :
 String
+?
 )
 :
 GeckoResult
@@ -959,6 +986,7 @@ GeckoSession
 uri
 :
 String
+?
 categories
 :
 Int

@@ -1623,6 +1623,7 @@ mUseContentProcess
 ;
 }
 public
+NonNull
 String
 [
 ]
@@ -1635,6 +1636,7 @@ mArgs
 ;
 }
 public
+NonNull
 Bundle
 getExtras
 (
@@ -1781,6 +1783,7 @@ mUseMaxScreenDepth
 ;
 }
 public
+Nullable
 Float
 getDisplayDensityOverride
 (
@@ -1804,6 +1807,7 @@ null
 ;
 }
 public
+Nullable
 Integer
 getDisplayDpiOverride
 (
@@ -1825,6 +1829,7 @@ null
 ;
 }
 public
+Nullable
 Class
 <
 ?
@@ -1840,6 +1845,7 @@ mCrashHandler
 ;
 }
 public
+Nullable
 Rect
 getScreenSizeOverride
 (
@@ -1877,6 +1883,7 @@ null
 ;
 }
 public
+Nullable
 String
 [
 ]
@@ -1892,6 +1899,7 @@ public
 void
 setLocales
 (
+Nullable
 String
 [
 ]
@@ -2431,6 +2439,7 @@ void
 readFromParcel
 (
 final
+NonNull
 Parcel
 source
 )

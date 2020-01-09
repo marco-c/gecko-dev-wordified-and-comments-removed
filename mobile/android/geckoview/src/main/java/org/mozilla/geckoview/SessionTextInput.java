@@ -1953,6 +1953,7 @@ delegate
 }
 UiThread
 public
+NonNull
 GeckoSession
 .
 TextInputDelegate
@@ -2181,6 +2182,7 @@ void
 autofill
 (
 final
+NonNull
 SparseArray
 <
 CharSequence

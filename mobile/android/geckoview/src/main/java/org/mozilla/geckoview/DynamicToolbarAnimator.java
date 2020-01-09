@@ -39,6 +39,24 @@ support
 .
 annotation
 .
+NonNull
+;
+import
+android
+.
+support
+.
+annotation
+.
+Nullable
+;
+import
+android
+.
+support
+.
+annotation
+.
 UiThread
 ;
 import
@@ -137,6 +155,7 @@ ToolbarChromeProxy
 {
 UiThread
 public
+Nullable
 Bitmap
 getBitmapOfToolbarChrome
 (
@@ -215,6 +234,7 @@ mCompositor
 ;
 }
 public
+Nullable
 ToolbarChromeProxy
 getToolbarChromeProxy
 (
@@ -234,6 +254,7 @@ public
 void
 setToolbarChromeProxy
 (
+Nullable
 ToolbarChromeProxy
 aToolbarChromeProxy
 )
@@ -346,6 +367,7 @@ public
 boolean
 isPinnedBy
 (
+NonNull
 PinReason
 reason
 )
@@ -373,6 +395,7 @@ final
 boolean
 pinned
 final
+NonNull
 PinReason
 reason
 )

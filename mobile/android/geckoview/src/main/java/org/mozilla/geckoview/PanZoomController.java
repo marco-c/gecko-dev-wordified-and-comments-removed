@@ -59,6 +59,15 @@ support
 .
 annotation
 .
+NonNull
+;
+import
+android
+.
+support
+.
+annotation
+.
 UiThread
 ;
 import
@@ -941,6 +950,7 @@ boolean
 onTouchEvent
 (
 final
+NonNull
 MotionEvent
 event
 )
@@ -963,6 +973,7 @@ boolean
 onMouseEvent
 (
 final
+NonNull
 MotionEvent
 event
 )
@@ -1021,6 +1032,7 @@ public
 boolean
 onMotionEvent
 (
+NonNull
 MotionEvent
 event
 )

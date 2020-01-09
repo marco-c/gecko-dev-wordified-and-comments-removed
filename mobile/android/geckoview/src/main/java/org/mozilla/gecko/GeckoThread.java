@@ -1698,6 +1698,7 @@ size
 RobocopTarget
 public
 static
+Nullable
 GeckoProfile
 getActiveProfile
 (
@@ -1713,6 +1714,7 @@ getProfile
 }
 public
 synchronized
+Nullable
 GeckoProfile
 getProfile
 (

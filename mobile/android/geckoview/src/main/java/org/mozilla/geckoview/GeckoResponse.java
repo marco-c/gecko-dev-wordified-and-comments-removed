@@ -14,6 +14,15 @@ annotation
 .
 AnyThread
 ;
+import
+android
+.
+support
+.
+annotation
+.
+Nullable
+;
 public
 interface
 GeckoResponse
@@ -25,6 +34,7 @@ AnyThread
 void
 respond
 (
+Nullable
 T
 value
 )

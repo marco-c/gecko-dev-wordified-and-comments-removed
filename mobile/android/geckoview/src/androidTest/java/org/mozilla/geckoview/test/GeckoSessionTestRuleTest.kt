@@ -4701,6 +4701,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 }
@@ -7581,9 +7582,11 @@ GeckoSession
 title
 :
 String
+?
 msg
 :
 String
+?
 callback
 :
 GeckoSession
@@ -8584,9 +8587,11 @@ GeckoSession
 title
 :
 String
+?
 msg
 :
 String
+?
 callback
 :
 GeckoSession
@@ -8676,9 +8681,11 @@ GeckoSession
 title
 :
 String
+?
 msg
 :
 String
+?
 callback
 :
 GeckoSession

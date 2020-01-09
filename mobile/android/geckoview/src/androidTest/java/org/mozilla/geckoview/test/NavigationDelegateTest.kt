@@ -571,6 +571,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat
@@ -608,6 +609,7 @@ GeckoSession
 title
 :
 String
+?
 )
 {
 assertThat
@@ -878,6 +880,7 @@ GeckoSession
 title
 :
 String
+?
 )
 {
 assertThat
@@ -1112,6 +1115,8 @@ sessionRule
 runtime
 .
 settings
+!
+!
 .
 trackingProtectionCategories
 =
@@ -1150,6 +1155,7 @@ GeckoSession
 uri
 :
 String
+?
 categories
 :
 Int
@@ -1254,6 +1260,7 @@ GeckoSession
 uri
 :
 String
+?
 categories
 :
 Int
@@ -1591,6 +1598,8 @@ sessionRule
 runtime
 .
 settings
+!
+!
 .
 blockPhishing
 =
@@ -1697,6 +1706,8 @@ sessionRule
 runtime
 .
 settings
+!
+!
 .
 blockPhishing
 =
@@ -1737,6 +1748,8 @@ sessionRule
 runtime
 .
 settings
+!
+!
 .
 blockPhishing
 =
@@ -1840,6 +1853,8 @@ sessionRule
 runtime
 .
 settings
+!
+!
 .
 blockMalware
 =
@@ -1866,6 +1881,8 @@ sessionRule
 runtime
 .
 settings
+!
+!
 .
 blockMalware
 =
@@ -1965,6 +1982,8 @@ sessionRule
 runtime
 .
 settings
+!
+!
 .
 blockMalware
 =
@@ -1991,6 +2010,8 @@ sessionRule
 runtime
 .
 settings
+!
+!
 .
 blockMalware
 =
@@ -2090,6 +2111,8 @@ sessionRule
 runtime
 .
 settings
+!
+!
 .
 blockMalware
 =
@@ -2116,6 +2139,8 @@ sessionRule
 runtime
 .
 settings
+!
+!
 .
 blockMalware
 =
@@ -3302,6 +3327,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat
@@ -3539,6 +3565,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat
@@ -3714,6 +3741,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 onLocationCount
@@ -3882,6 +3910,7 @@ GeckoSession
 title
 :
 String
+?
 )
 {
 assertThat
@@ -3917,6 +3946,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat
@@ -4032,6 +4062,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat
@@ -4172,6 +4203,7 @@ GeckoSession
 title
 :
 String
+?
 )
 {
 assertThat
@@ -4208,6 +4240,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat
@@ -4353,6 +4386,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat
@@ -4604,6 +4638,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat
@@ -4780,6 +4815,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat
@@ -4923,6 +4959,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat
@@ -5165,6 +5202,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 assertThat

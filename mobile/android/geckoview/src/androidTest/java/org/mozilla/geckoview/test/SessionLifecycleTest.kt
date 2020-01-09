@@ -1387,6 +1387,7 @@ GeckoSession
 url
 :
 String
+?
 )
 {
 onLocationCount
@@ -2383,6 +2384,8 @@ closed
 view
 .
 session
+!
+!
 .
 isOpen
 equalTo
@@ -2447,6 +2450,8 @@ open
 view
 .
 session
+!
+!
 .
 isOpen
 equalTo
@@ -2457,6 +2462,8 @@ true
 view
 .
 session
+!
+!
 .
 reload
 (

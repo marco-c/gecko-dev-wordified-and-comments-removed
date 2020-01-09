@@ -687,6 +687,7 @@ void
 setBoolean
 (
 final
+NonNull
 Key
 <
 Boolean
@@ -733,6 +734,7 @@ boolean
 getBoolean
 (
 final
+NonNull
 Key
 <
 Boolean
@@ -762,6 +764,7 @@ void
 setInt
 (
 final
+NonNull
 Key
 <
 Integer
@@ -808,6 +811,7 @@ int
 getInt
 (
 final
+NonNull
 Key
 <
 Integer
@@ -837,12 +841,14 @@ void
 setString
 (
 final
+NonNull
 Key
 <
 String
 >
 key
 final
+Nullable
 String
 value
 )
@@ -883,6 +889,7 @@ String
 getString
 (
 final
+NonNull
 Key
 <
 String
@@ -1160,6 +1167,7 @@ public
 void
 writeToParcel
 (
+NonNull
 Parcel
 out
 int
@@ -1180,6 +1188,7 @@ void
 readFromParcel
 (
 final
+NonNull
 Parcel
 source
 )

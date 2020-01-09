@@ -224,6 +224,7 @@ GeckoSession
 targetUri
 :
 String
+?
 )
 :
 GeckoResult
@@ -340,6 +341,7 @@ GeckoSession
 targetUri
 :
 String
+?
 )
 :
 GeckoResult
@@ -561,6 +563,7 @@ GeckoSession
 targetUri
 :
 String
+?
 )
 :
 GeckoResult

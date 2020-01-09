@@ -1174,6 +1174,7 @@ mError
 }
 public
 synchronized
+Nullable
 T
 poll
 (
@@ -1220,6 +1221,7 @@ MAX_VALUE
 }
 public
 synchronized
+Nullable
 T
 poll
 (
@@ -1320,6 +1322,7 @@ void
 complete
 (
 final
+Nullable
 T
 value
 )

@@ -175,6 +175,8 @@ runtime
 getSettings
 (
 )
+!
+!
 .
 setLocales
 (

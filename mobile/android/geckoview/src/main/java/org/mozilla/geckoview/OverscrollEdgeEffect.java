@@ -72,6 +72,24 @@ support
 .
 annotation
 .
+NonNull
+;
+import
+android
+.
+support
+.
+annotation
+.
+Nullable
+;
+import
+android
+.
+support
+.
+annotation
+.
 UiThread
 ;
 import
@@ -196,6 +214,7 @@ void
 setTheme
 (
 final
+NonNull
 Context
 context
 )
@@ -349,6 +368,7 @@ void
 setInvalidationCallback
 (
 final
+Nullable
 Runnable
 runnable
 )
@@ -365,6 +385,7 @@ runnable
 ;
 }
 public
+Nullable
 Runnable
 getInvalidationCallback
 (
@@ -658,6 +679,7 @@ void
 draw
 (
 final
+NonNull
 Canvas
 canvas
 )

@@ -385,6 +385,7 @@ Array
 out
 String
 >
+?
 callback
 :
 GeckoSession
@@ -407,6 +408,8 @@ listOf
 (
 *
 permissions
+!
+!
 )
 hasItems
 (
@@ -548,6 +551,7 @@ PermissionDelegate
 .
 MediaSource
 >
+?
 audio
 :
 Array
@@ -559,6 +563,7 @@ PermissionDelegate
 .
 MediaSource
 >
+?
 callback
 :
 GeckoSession
@@ -620,10 +625,14 @@ callback
 grant
 (
 video
+!
+!
 [
 0
 ]
 audio
+!
+!
 [
 0
 ]
@@ -815,6 +824,7 @@ PermissionDelegate
 .
 MediaSource
 >
+?
 audio
 :
 Array
@@ -826,6 +836,7 @@ PermissionDelegate
 .
 MediaSource
 >
+?
 callback
 :
 GeckoSession
@@ -1001,6 +1012,7 @@ GeckoSession
 uri
 :
 String
+?
 type
 :
 Int
@@ -1074,6 +1086,7 @@ Array
 out
 String
 >
+?
 callback
 :
 GeckoSession
@@ -1096,6 +1109,8 @@ listOf
 (
 *
 permissions
+!
+!
 )
 hasItems
 (
@@ -1235,6 +1250,7 @@ GeckoSession
 uri
 :
 String
+?
 type
 :
 Int
@@ -1273,6 +1289,7 @@ Array
 out
 String
 >
+?
 callback
 :
 GeckoSession
@@ -1396,6 +1413,7 @@ GeckoSession
 uri
 :
 String
+?
 type
 :
 Int
@@ -1524,6 +1542,7 @@ GeckoSession
 uri
 :
 String
+?
 type
 :
 Int
