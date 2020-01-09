@@ -19981,10 +19981,6 @@ mAudioDecodedDuration
 ref
 (
 )
-.
-ToMicroseconds
-(
-)
 ;
 }
 }
