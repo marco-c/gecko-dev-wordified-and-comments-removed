@@ -59,6 +59,7 @@ LayoutDeviceIsParentLayerForRCDRSF
 MultipleAsyncTransforms
 NoTransformOnLayer
 LayerIsImage
+ExternalIsScreen
 }
 ;
 template

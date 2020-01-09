@@ -8627,6 +8627,11 @@ mTime
 aWheelInput
 .
 mTimeStamp
+ExternalPoint
+(
+0
+0
+)
 focusPoint
 oldSpan
 oldSpan
@@ -8648,6 +8653,11 @@ mTime
 aWheelInput
 .
 mTimeStamp
+ExternalPoint
+(
+0
+0
+)
 focusPoint
 oldSpan
 oldSpan
@@ -8669,6 +8679,11 @@ mTime
 aWheelInput
 .
 mTimeStamp
+ExternalPoint
+(
+0
+0
+)
 focusPoint
 oldSpan
 newSpan
@@ -8690,6 +8705,11 @@ mTime
 aWheelInput
 .
 mTimeStamp
+ExternalPoint
+(
+0
+0
+)
 PinchGestureInput
 :
 :
