@@ -3506,6 +3506,7 @@ nsIHttpChannel
 REFERRER_POLICY_UNSET
 triggeringPrincipal
 postData
+headers
 }
 =
 aParams
@@ -3525,6 +3526,7 @@ loadFlags
 flags
 referrerPolicy
 postData
+headers
 }
 ;
 this
