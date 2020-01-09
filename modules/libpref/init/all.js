@@ -41113,7 +41113,7 @@ download
 key
 =
 %
-GOOGLE_SAFEBROWSING_API_KEY
+GOOGLE_API_KEY
 %
 "
 )
@@ -41296,7 +41296,7 @@ pver
 key
 =
 %
-GOOGLE_SAFEBROWSING_API_KEY
+GOOGLE_API_KEY
 %
 "
 )
@@ -41646,7 +41646,7 @@ protobuf
 key
 =
 %
-GOOGLE_SAFEBROWSING_API_KEY
+GOOGLE_API_KEY
 %
 &
 httpMethod
@@ -41696,7 +41696,7 @@ protobuf
 key
 =
 %
-GOOGLE_SAFEBROWSING_API_KEY
+GOOGLE_API_KEY
 %
 &
 httpMethod
@@ -41927,7 +41927,7 @@ protobuf
 key
 =
 %
-GOOGLE_SAFEBROWSING_API_KEY
+GOOGLE_API_KEY
 %
 &
 httpMethod
