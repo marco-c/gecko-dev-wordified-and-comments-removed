@@ -363,16 +363,6 @@ more
 -
 compartments
 #
-Experimental
-JS
-language
-features
--
--
-no
--
-bigint
-#
 GC
 -
 related
