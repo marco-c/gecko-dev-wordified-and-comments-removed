@@ -4906,7 +4906,7 @@ MinorGC
 %
 %
 %
-5lu
+4u
 "
 JS
 :
@@ -4918,11 +4918,9 @@ reason
 promotionRate
 *
 100
-capacity
+maxChunkCount
 (
 )
-/
-1024
 )
 ;
 printProfileDurations
