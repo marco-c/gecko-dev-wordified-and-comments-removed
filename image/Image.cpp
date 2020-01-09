@@ -391,14 +391,6 @@ imageList
 }
 if
 (
-gfxPrefs
-:
-:
-ImageAnimatedGenerateFullFrames
-(
-)
-&
-&
 mProgressTracker
 -
 >
