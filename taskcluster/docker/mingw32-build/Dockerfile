@@ -124,9 +124,7 @@ multilib
 \
 gnupg
 \
-libucl
--
-dev
+libucl1
 \
 patch
 \
