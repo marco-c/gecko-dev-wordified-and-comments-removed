@@ -1154,7 +1154,11 @@ display
 :
 inherit
 ;
-height
+max
+-
+block
+-
+size
 :
 100
 %

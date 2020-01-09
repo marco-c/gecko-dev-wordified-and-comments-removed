@@ -37004,6 +37004,15 @@ PseudoStyleType
 :
 :
 cellContent
+|
+|
+pseudoType
+=
+=
+PseudoStyleType
+:
+:
+columnSpanWrapper
 ;
 }
 bool
