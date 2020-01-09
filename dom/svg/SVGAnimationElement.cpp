@@ -163,15 +163,6 @@ this
 )
 {
 }
-SVGAnimationElement
-:
-:
-~
-SVGAnimationElement
-(
-)
-{
-}
 nsresult
 SVGAnimationElement
 :

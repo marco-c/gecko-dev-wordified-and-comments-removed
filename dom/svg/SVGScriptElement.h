@@ -359,6 +359,8 @@ protected
 SVGScriptElement
 (
 )
+=
+default
 ;
 virtual
 StringAttributesInfo

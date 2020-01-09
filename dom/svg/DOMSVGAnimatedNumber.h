@@ -123,8 +123,8 @@ virtual
 DOMSVGAnimatedNumber
 (
 )
-{
-}
+=
+default
 ;
 RefPtr
 <

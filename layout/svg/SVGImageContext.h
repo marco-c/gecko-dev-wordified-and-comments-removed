@@ -55,8 +55,9 @@ public
 SVGImageContext
 (
 )
-{
-}
+=
+default
+;
 explicit
 SVGImageContext
 (

@@ -258,15 +258,6 @@ this
 )
 {
 }
-SVGAElement
-:
-:
-~
-SVGAElement
-(
-)
-{
-}
 already_AddRefed
 <
 DOMSVGAnimatedString

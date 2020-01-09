@@ -182,8 +182,9 @@ virtual
 SVGContextPaint
 (
 )
-{
-}
+=
+default
+;
 virtual
 already_AddRefed
 <

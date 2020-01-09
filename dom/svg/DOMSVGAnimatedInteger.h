@@ -116,8 +116,8 @@ virtual
 DOMSVGAnimatedInteger
 (
 )
-{
-}
+=
+default
 ;
 RefPtr
 <

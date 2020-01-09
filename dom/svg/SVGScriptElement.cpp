@@ -173,15 +173,6 @@ this
 )
 ;
 }
-SVGScriptElement
-:
-:
-~
-SVGScriptElement
-(
-)
-{
-}
 nsresult
 SVGScriptElement
 :

@@ -71,6 +71,8 @@ virtual
 SVGPolyElement
 (
 )
+=
+default
 ;
 public
 :

@@ -337,15 +337,6 @@ false
 )
 {
 }
-SVGViewportElement
-:
-:
-~
-SVGViewportElement
-(
-)
-{
-}
 already_AddRefed
 <
 SVGAnimatedRect

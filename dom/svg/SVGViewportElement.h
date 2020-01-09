@@ -221,6 +221,8 @@ aNodeInfo
 SVGViewportElement
 (
 )
+=
+default
 ;
 public
 :
