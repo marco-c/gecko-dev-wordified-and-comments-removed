@@ -711,7 +711,7 @@ outerHeight
 }
 ;
 }
-getTabModalUI
+getTabModal
 (
 )
 {
@@ -768,8 +768,6 @@ modalElements
 0
 ]
 )
-.
-ui
 ;
 }
 closeWindow
