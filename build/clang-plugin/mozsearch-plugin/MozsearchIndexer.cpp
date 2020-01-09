@@ -241,9 +241,9 @@ h
 "
 #
 if
-CLANG_VERSION_FULL
+CLANG_VERSION_MAJOR
 <
-800
+8
 #
 define
 getBeginLoc
@@ -5720,7 +5720,7 @@ Start
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 ;
@@ -5832,7 +5832,7 @@ Start
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 ;
@@ -6848,7 +6848,7 @@ Loc
 assert
 (
 *
-p
+P
 =
 =
 '
@@ -6966,7 +6966,7 @@ Loc
 E
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 ;
