@@ -523,7 +523,7 @@ now
 nsRefreshDriver
 :
 :
-DispatchIdleRunnableAfterTick
+DispatchIdleRunnableAfterTickUnlessExists
 (
 this
 mDelay
