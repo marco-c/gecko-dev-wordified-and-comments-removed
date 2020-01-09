@@ -222,6 +222,11 @@ CForEmitter
 cpp
 '
 '
+DefaultEmitter
+.
+cpp
+'
+'
 DoWhileEmitter
 .
 cpp
