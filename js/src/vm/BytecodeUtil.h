@@ -1589,9 +1589,6 @@ case
 JSOP_LOOPENTRY
 :
 case
-JSOP_ENDITER
-:
-case
 JSOP_TRY
 :
 return
