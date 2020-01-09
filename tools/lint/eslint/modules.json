@@ -4327,12 +4327,6 @@ setIntervalWithTarget
 "
 clearInterval
 "
-"
-requestIdleCallback
-"
-"
-cancelIdleCallback
-"
 ]
 "
 TippyTopProvider

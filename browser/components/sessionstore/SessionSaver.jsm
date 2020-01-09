@@ -458,6 +458,15 @@ setTimeout
 >
 {
 let
+hiddenDOMWindow
+=
+Services
+.
+appShell
+.
+hiddenDOMWindow
+;
+let
 saveStateAsyncWhenIdle
 =
 (
@@ -481,6 +490,8 @@ this
 .
 _idleCallbackID
 =
+hiddenDOMWindow
+.
 requestIdleCallback
 (
 saveStateAsyncWhenIdle
@@ -501,6 +512,8 @@ this
 .
 _idleCallbackID
 =
+hiddenDOMWindow
+.
 requestIdleCallback
 (
 saveStateAsyncWhenIdle
@@ -543,6 +556,12 @@ _timeoutID
 =
 null
 ;
+Services
+.
+appShell
+.
+hiddenDOMWindow
+.
 cancelIdleCallback
 (
 this

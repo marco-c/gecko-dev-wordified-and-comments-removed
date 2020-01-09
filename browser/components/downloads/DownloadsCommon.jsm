@@ -787,9 +787,6 @@ false
 let
 isPrivate
 =
-window
-&
-&
 PrivateBrowsingUtils
 .
 isContentWindowPrivate
