@@ -884,6 +884,9 @@ ZBufferId
 break_advanced_blend_batches
 :
 bool
+lookback_count
+:
+usize
 }
 impl
 AlphaBatchList
@@ -894,6 +897,9 @@ new
 break_advanced_blend_batches
 :
 bool
+lookback_count
+:
+usize
 )
 -
 >
@@ -932,6 +938,7 @@ usize
 :
 MAX
 break_advanced_blend_batches
+lookback_count
 }
 }
 pub
@@ -944,7 +951,7 @@ self
 key
 :
 BatchKey
-bounding_rect
+z_bounding_rect
 :
 &
 PictureRect
@@ -1044,7 +1051,9 @@ rev
 .
 take
 (
-10
+self
+.
+lookback_count
 )
 {
 for
@@ -1063,7 +1072,7 @@ item_rect
 .
 intersects
 (
-bounding_rect
+z_bounding_rect
 )
 {
 break
@@ -1141,7 +1150,9 @@ rev
 .
 take
 (
-10
+self
+.
+lookback_count
 )
 {
 if
@@ -1181,7 +1192,7 @@ item_rect
 .
 intersects
 (
-bounding_rect
+z_bounding_rect
 )
 {
 break
@@ -1270,7 +1281,7 @@ current_batch_index
 push
 (
 *
-bounding_rect
+z_bounding_rect
 )
 ;
 self
@@ -1278,6 +1289,36 @@ self
 current_z_id
 =
 z_id
+;
+}
+else
+if
+cfg
+!
+(
+debug_assertions
+)
+{
+assert_eq
+!
+(
+self
+.
+item_rects
+[
+self
+.
+current_batch_index
+]
+.
+last
+(
+)
+Some
+(
+z_bounding_rect
+)
+)
 ;
 }
 &
@@ -1313,6 +1354,9 @@ pub
 current_batch_index
 :
 usize
+lookback_count
+:
+usize
 }
 impl
 OpaqueBatchList
@@ -1323,6 +1367,9 @@ new
 pixel_area_threshold_for_new_batch
 :
 f32
+lookback_count
+:
+usize
 )
 -
 >
@@ -1345,6 +1392,7 @@ usize
 :
 :
 MAX
+lookback_count
 }
 }
 pub
@@ -1357,7 +1405,7 @@ self
 key
 :
 BatchKey
-bounding_rect
+z_bounding_rect
 :
 &
 PictureRect
@@ -1410,7 +1458,7 @@ None
 let
 item_area
 =
-bounding_rect
+z_bounding_rect
 .
 size
 .
@@ -1495,7 +1543,9 @@ rev
 .
 take
 (
-10
+self
+.
+lookback_count
 )
 {
 if
@@ -1666,6 +1716,9 @@ TileBlit
 break_advanced_blend_batches
 :
 bool
+lookback_count
+:
+usize
 )
 -
 >
@@ -1700,6 +1753,7 @@ AlphaBatchList
 new
 (
 break_advanced_blend_batches
+lookback_count
 )
 opaque_batch_list
 :
@@ -1709,6 +1763,7 @@ OpaqueBatchList
 new
 (
 batch_area_threshold
+lookback_count
 )
 regions
 tile_blits
@@ -2376,6 +2431,9 @@ DeviceIntSize
 break_advanced_blend_batches
 :
 bool
+lookback_count
+:
+usize
 render_task_id
 :
 RenderTaskId
@@ -2396,6 +2454,9 @@ DeviceIntSize
 break_advanced_blend_batches
 :
 bool
+lookback_count
+:
+usize
 render_task_id
 :
 RenderTaskId
@@ -2432,6 +2493,7 @@ new
 (
 )
 break_advanced_blend_batches
+lookback_count
 )
 ]
 ;
@@ -2440,6 +2502,7 @@ AlphaBatchBuilder
 batch_lists
 screen_size
 break_advanced_blend_batches
+lookback_count
 render_task_id
 render_task_address
 }
@@ -2483,6 +2546,9 @@ tile_blits
 self
 .
 break_advanced_blend_batches
+self
+.
+lookback_count
 )
 )
 ;
@@ -4709,7 +4775,7 @@ in
 list
 {
 let
-prim_instance
+child_prim_instance
 =
 &
 picture
@@ -4724,7 +4790,7 @@ anchor
 ]
 ;
 let
-prim_info
+child_prim_info
 =
 &
 ctx
@@ -4733,7 +4799,7 @@ scratch
 .
 prim_info
 [
-prim_instance
+child_prim_instance
 .
 visibility_info
 .
@@ -4746,7 +4812,7 @@ let
 child_pic_index
 =
 match
-prim_instance
+child_prim_instance
 .
 kind
 {
@@ -4884,7 +4950,7 @@ ctx
 .
 get_prim_clip_task_address
 (
-prim_info
+child_prim_info
 .
 clip_task_index
 render_tasks
@@ -4907,7 +4973,7 @@ pic
 snapped_local_rect
 local_clip_rect
 :
-prim_info
+child_prim_info
 .
 combined_local_clip_rect
 snap_offsets

@@ -469,6 +469,10 @@ break_advanced_blend_batches
 :
 bool
 pub
+batch_lookback_count
+:
+usize
+pub
 clip_scroll_tree
 :
 &
@@ -2144,6 +2148,9 @@ screen_size
 ctx
 .
 break_advanced_blend_batches
+ctx
+.
+batch_lookback_count
 *
 task_id
 render_tasks

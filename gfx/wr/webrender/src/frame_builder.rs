@@ -473,6 +473,10 @@ pub
 advanced_blend_is_coherent
 :
 bool
+pub
+batch_lookback_count
+:
+usize
 }
 #
 [
@@ -1245,6 +1249,9 @@ false
 advanced_blend_is_coherent
 :
 false
+batch_lookback_count
+:
+0
 }
 }
 }
@@ -2462,6 +2469,13 @@ self
 config
 .
 advanced_blend_is_coherent
+batch_lookback_count
+:
+self
+.
+config
+.
+batch_lookback_count
 clip_scroll_tree
 data_stores
 surfaces
