@@ -227,6 +227,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h

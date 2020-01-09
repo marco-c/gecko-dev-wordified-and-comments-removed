@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DeclarationBlock
