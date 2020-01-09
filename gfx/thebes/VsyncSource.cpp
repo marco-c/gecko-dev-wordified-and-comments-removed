@@ -257,6 +257,15 @@ lock
 mDispatcherLock
 )
 ;
+if
+(
+!
+mRefreshTimerVsyncDispatcher
+)
+{
+return
+;
+}
 mVsyncId
 =
 mVsyncId
