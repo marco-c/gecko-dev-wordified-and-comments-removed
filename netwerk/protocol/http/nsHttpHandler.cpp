@@ -14889,8 +14889,10 @@ GetUsername
 username
 )
 ;
-auto
-*
+RefPtr
+<
+nsHttpConnectionInfo
+>
 ci
 =
 new
