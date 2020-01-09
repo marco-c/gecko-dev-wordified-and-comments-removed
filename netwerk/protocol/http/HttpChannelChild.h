@@ -2046,6 +2046,16 @@ DeleteSelf
 (
 )
 ;
+void
+DoNotifyListener
+(
+)
+;
+void
+ContinueDoNotifyListener
+(
+)
+;
 MOZ_MUST_USE
 nsresult
 SetupRedirect
@@ -2179,6 +2189,10 @@ NeckoTargetChannelEvent
 <
 HttpChannelChild
 >
+;
+friend
+class
+ContinueDoNotifyListenerEvent
 ;
 }
 ;

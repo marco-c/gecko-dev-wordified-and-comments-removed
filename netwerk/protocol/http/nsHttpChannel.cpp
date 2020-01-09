@@ -36389,7 +36389,16 @@ twice
 "
 )
 ;
+nsCOMPtr
+<
+nsIStreamListener
+>
+listener
+(
 mListener
+)
+;
+listener
 -
 >
 OnStartRequest
