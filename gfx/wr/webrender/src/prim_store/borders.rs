@@ -3,7 +3,6 @@ api
 :
 :
 {
-LayoutPrimitiveInfo
 NormalBorder
 PremultipliedColorF
 Shadow
@@ -55,6 +54,12 @@ GpuDataRequest
 ;
 use
 intern
+;
+use
+internal_types
+:
+:
+LayoutPrimitiveInfo
 ;
 use
 prim_store
@@ -1418,7 +1423,7 @@ ImageBorder
 >
 (
 )
-92
+84
 "
 ImageBorder
 size
@@ -1462,7 +1467,7 @@ ImageBorderKey
 >
 (
 )
-104
+96
 "
 ImageBorderKey
 size

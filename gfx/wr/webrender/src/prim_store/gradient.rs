@@ -7,7 +7,6 @@ ColorF
 ColorU
 ExtendMode
 GradientStop
-LayoutPrimitiveInfo
 PremultipliedColorF
 LineOrientation
 }
@@ -66,6 +65,12 @@ Handle
 as
 InternHandle
 }
+;
+use
+internal_types
+:
+:
+LayoutPrimitiveInfo
 ;
 use
 prim_store
