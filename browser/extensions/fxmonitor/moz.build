@@ -255,15 +255,6 @@ privileged
 /
 subscripts
 /
-EveryWindow
-.
-jsm
-'
-'
-privileged
-/
-subscripts
-/
 Globals
 .
 jsm
