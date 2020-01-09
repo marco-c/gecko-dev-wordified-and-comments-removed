@@ -53,6 +53,17 @@ console
 hud
 ;
 await
+selectSource
+(
+dbg
+"
+doc_rr_basic
+.
+html
+"
+)
+;
+await
 addBreakpoint
 (
 dbg
