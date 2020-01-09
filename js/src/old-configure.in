@@ -15446,17 +15446,6 @@ dnl
 MOZ_CREATE_CONFIG_STATUS
 (
 )
-if
-test
-"
-JS_STANDALONE
-"
-;
-then
-MOZ_RUN_ALL_SUBCONFIGURES
-(
-)
-fi
 rm
 -
 fr
