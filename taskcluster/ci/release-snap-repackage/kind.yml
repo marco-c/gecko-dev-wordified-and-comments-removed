@@ -462,8 +462,6 @@ build_platform
 :
 linux64
 -
-snap
--
 shippable
 build_type
 :
