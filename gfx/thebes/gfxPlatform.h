@@ -2129,7 +2129,7 @@ HasBattery
 )
 {
 return
-true
+false
 ;
 }
 virtual
