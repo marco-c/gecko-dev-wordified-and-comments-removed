@@ -39579,6 +39579,12 @@ gesture
 true
 )
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 pref
 (
 "
@@ -39593,6 +39599,8 @@ enabled
 false
 )
 ;
+#
+endif
 pref
 (
 "
