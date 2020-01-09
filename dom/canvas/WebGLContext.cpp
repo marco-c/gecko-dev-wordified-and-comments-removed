@@ -10661,6 +10661,9 @@ GLuint
 elemOffset
 GLuint
 elemCountOverride
+const
+GLenum
+errorEnum
 uint8_t
 *
 *
@@ -10671,6 +10674,7 @@ size_t
 const
 out_byteLen
 )
+const
 {
 view
 .
@@ -10723,8 +10727,9 @@ elemOffset
 elemCount
 )
 {
-ErrorInvalidValue
+GenerateError
 (
+errorEnum
 "
 Invalid
 offset
@@ -10755,8 +10760,9 @@ elemCountOverride
 elemCount
 )
 {
-ErrorInvalidValue
+GenerateError
 (
+errorEnum
 "
 Invalid
 sub

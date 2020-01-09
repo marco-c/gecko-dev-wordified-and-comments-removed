@@ -1573,6 +1573,7 @@ ValidateArrayBufferView
 src
 srcElemOffset
 srcElemCountOverride
+LOCAL_GL_INVALID_VALUE
 &
 bytes
 &
@@ -1784,6 +1785,7 @@ ValidateArrayBufferView
 src
 srcElemOffset
 srcElemCountOverride
+LOCAL_GL_INVALID_VALUE
 &
 bytes
 &
