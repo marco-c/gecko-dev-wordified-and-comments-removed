@@ -348,6 +348,15 @@ result
 =
 {
 types
+documentDOMContentLoadedTimestamp
+:
+0
+isHandlingUserInput
+:
+false
+userHadInteractedWithDocument
+:
+false
 principal
 :
 browser

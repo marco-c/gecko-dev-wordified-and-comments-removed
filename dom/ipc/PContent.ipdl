@@ -6255,6 +6255,10 @@ Principal
 aTopLevelPrincipal
 bool
 aIsHandlingUserInput
+bool
+aDocumentHasUserInput
+uint64_t
+aPageLoadTimestamp
 TabId
 tabId
 )
