@@ -9302,15 +9302,6 @@ ac_cv_prog_gcc
 '
 gcc_like
 )
-add_old_configure_assignment
-(
-'
-ac_cv_prog_gcc_traditional
-'
-'
-no
-'
-)
 if
 language
 =
