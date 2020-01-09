@@ -716,10 +716,15 @@ oldStyleList
 aOldComputedStyle
 -
 >
-StyleList
+PeekStyleList
 (
 )
 ;
+if
+(
+oldStyleList
+)
+{
 bool
 hadBullet
 =
@@ -796,6 +801,7 @@ mContent
 hasBullet
 )
 ;
+}
 }
 }
 }

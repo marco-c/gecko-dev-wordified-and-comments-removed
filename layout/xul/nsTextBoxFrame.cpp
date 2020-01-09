@@ -4431,12 +4431,16 @@ oldTextStyle
 aOldComputedStyle
 -
 >
-StyleText
+PeekStyleText
 (
 )
 ;
 if
 (
+!
+oldTextStyle
+|
+|
 oldTextStyle
 -
 >

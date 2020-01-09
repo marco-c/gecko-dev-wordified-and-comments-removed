@@ -10592,6 +10592,13 @@ return
 nullptr
 ;
 }
+computedStyle
+-
+>
+StartBackgroundImageLoads
+(
+)
+;
 nsFrameConstructorSaveState
 docElementContainingBlockAbsoluteSaveState
 ;
@@ -25327,6 +25334,13 @@ aFrameItems
 return
 ;
 }
+computedStyle
+-
+>
+StartBackgroundImageLoads
+(
+)
+;
 AutoRestore
 <
 nsFrameState
