@@ -557,9 +557,6 @@ cssLogic
 new
 CssLogic
 (
-InspectorUtils
-.
-isInheritedProperty
 )
 ;
 this
