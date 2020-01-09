@@ -821,11 +821,6 @@ nsITimer
 mNotificationTimer
 ;
 uint8_t
-mBeganUpdate
-:
-1
-;
-uint8_t
 mLayoutStarted
 :
 1

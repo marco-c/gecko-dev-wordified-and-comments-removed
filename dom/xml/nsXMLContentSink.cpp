@@ -6771,11 +6771,6 @@ mDeferredFlushTags
 =
 false
 ;
-bool
-oldBeganUpdate
-=
-mBeganUpdate
-;
 uint32_t
 oldUpdates
 =
@@ -6796,10 +6791,6 @@ updateBatch
 mDocument
 true
 )
-;
-mBeganUpdate
-=
-true
 ;
 FlushText
 (
@@ -6933,10 +6924,6 @@ UpdateChildCounts
 mUpdatesInNotification
 =
 oldUpdates
-;
-mBeganUpdate
-=
-oldBeganUpdate
 ;
 return
 NS_OK
