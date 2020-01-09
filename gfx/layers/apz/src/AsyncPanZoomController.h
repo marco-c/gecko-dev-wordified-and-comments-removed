@@ -2767,6 +2767,11 @@ mTestAsyncScrollOffset
 LayerToParentLayerScale
 mTestAsyncZoom
 ;
+int
+mTestAttributeAppliers
+:
+8
+;
 bool
 mAsyncTransformAppliedToContent
 :
