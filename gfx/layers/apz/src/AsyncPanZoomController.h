@@ -1966,15 +1966,7 @@ aMode
 AsyncTransformComponents
 aComponents
 =
-ScrollAndZoom
-)
-const
-;
-AsyncTransform
-GetCurrentAsyncViewportRelativeTransform
-(
-AsyncTransformConsumer
-aMode
+LayoutAndVisual
 )
 const
 ;
@@ -1994,7 +1986,7 @@ aMode
 AsyncTransformComponents
 aComponents
 =
-ScrollAndZoom
+LayoutAndVisual
 )
 const
 ;

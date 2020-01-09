@@ -282,15 +282,6 @@ LayerMetricsWrapper
 aLayer
 )
 ;
-AsyncTransform
-GetCurrentAsyncViewportRelativeTransform
-(
-const
-LayerMetricsWrapper
-&
-aLayer
-)
-;
 AsyncTransformComponentMatrix
 GetOverscrollTransform
 (
