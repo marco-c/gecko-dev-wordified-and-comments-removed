@@ -213,7 +213,7 @@ py
 -
 repackage
 /
-win32_signed
+win32_partner
 .
 py
 win64
@@ -241,7 +241,7 @@ py
 -
 repackage
 /
-win64_signed
+win64_partner
 .
 py
 win64
@@ -268,7 +268,7 @@ py
 -
 repackage
 /
-win64_signed
+win64_partner
 .
 py
 package
