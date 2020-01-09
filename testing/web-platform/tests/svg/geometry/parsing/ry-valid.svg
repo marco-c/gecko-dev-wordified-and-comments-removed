@@ -74,7 +74,7 @@ Geometry
 Properties
 :
 parsing
-rx
+ry
 with
 valid
 values
@@ -129,7 +129,7 @@ assert
 content
 =
 "
-rx
+ry
 supports
 the
 full
@@ -230,7 +230,7 @@ CDATA
 test_valid_value
 (
 "
-rx
+ry
 "
 "
 auto
@@ -240,7 +240,7 @@ auto
 test_valid_value
 (
 "
-rx
+ry
 "
 "
 0
@@ -253,7 +253,7 @@ rx
 test_valid_value
 (
 "
-rx
+ry
 "
 "
 1px
@@ -263,7 +263,7 @@ rx
 test_valid_value
 (
 "
-rx
+ry
 "
 "
 calc
@@ -278,7 +278,7 @@ calc
 test_valid_value
 (
 "
-rx
+ry
 "
 "
 4
@@ -289,7 +289,7 @@ rx
 test_valid_value
 (
 "
-rx
+ry
 "
 "
 5vh
