@@ -73,7 +73,9 @@ exposes
 a
 -
 -
-debug
+remote
+-
+debugger
 flag
 for
 Firefox
@@ -267,7 +269,9 @@ Firefox
 with
 -
 -
-debug
+remote
+-
+debugger
 you
 can
 ask
@@ -311,7 +315,9 @@ listening
 firefox
 -
 -
-debug
+remote
+-
+debugger
 :
 0
 1548002326113

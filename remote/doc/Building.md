@@ -41,7 +41,9 @@ exposes
 a
 -
 -
-debug
+remote
+-
+debugger
 flag
 you
 can
@@ -73,7 +75,9 @@ true
 -
 -
 -
-debug
+remote
+-
+debugger
 When
 you
 make

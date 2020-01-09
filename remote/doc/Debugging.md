@@ -104,7 +104,9 @@ Debug
 -
 -
 -
-debug
+remote
+-
+debugger
 [
 preference
 ]
