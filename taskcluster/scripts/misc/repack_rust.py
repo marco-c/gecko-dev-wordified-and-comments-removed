@@ -1383,9 +1383,14 @@ pkg
 target
 '
 ]
-[
+.
+get
+(
 target
-]
+'
+*
+'
+)
     
 return
 (
@@ -1549,8 +1554,10 @@ in
 targets
 :
         
-info
-=
+stds
+.
+append
+(
 fetch_package
 (
 manifest
@@ -1561,12 +1568,22 @@ std
 '
 target
 )
+)
         
 stds
 .
 append
 (
-info
+fetch_package
+(
+manifest
+'
+rust
+-
+analysis
+'
+target
+)
 )
     
 return
@@ -1934,6 +1951,19 @@ manifest
 targets
 )
     
+rustsrc
+=
+fetch_package
+(
+manifest
+'
+rust
+-
+src
+'
+host
+)
+    
 rustfmt
 =
 fetch_optional
@@ -2020,6 +2050,24 @@ path
 basename
 (
 cargo
+[
+'
+url
+'
+]
+)
+install_dir
+)
+    
+install
+(
+os
+.
+path
+.
+basename
+(
+rustsrc
 [
 '
 url
