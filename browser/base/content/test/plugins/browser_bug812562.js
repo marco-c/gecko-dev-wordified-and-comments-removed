@@ -97,8 +97,6 @@ gTestRoot
 +
 "
 blockNoPlugins
-.
-xml
 "
 gTestBrowser
 )
@@ -224,8 +222,6 @@ gTestRoot
 +
 "
 blockPluginVulnerableUpdatable
-.
-xml
 "
 gTestBrowser
 )
