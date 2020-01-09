@@ -9529,9 +9529,6 @@ check_for_midl
 allow_missing
 =
 True
-paths
-=
-sdk_bin_path
 )
 depends
 (
@@ -11378,9 +11375,6 @@ kernel
 WINNT
 '
 )
-paths
-=
-sdk_bin_path
 )
 wine
 =
