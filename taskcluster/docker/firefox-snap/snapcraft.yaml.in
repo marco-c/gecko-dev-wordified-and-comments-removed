@@ -111,6 +111,10 @@ inhibit
 -
 control
 -
+u2f
+-
+devices
+-
 unity7
 -
 upower
