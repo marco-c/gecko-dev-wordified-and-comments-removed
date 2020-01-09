@@ -1717,7 +1717,7 @@ InvalidFiringId
 )
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 mFiringIndex
 (
 0
@@ -2254,7 +2254,7 @@ Timeout
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 timeout
 -
 >
@@ -3567,7 +3567,7 @@ d
 "
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 "
 -
 FiringIndex
@@ -3610,7 +3610,7 @@ mFiringId
 firingId
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 timeout
 -
 >
@@ -3623,7 +3623,7 @@ endif
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 timeout
 -
 >
@@ -3671,7 +3671,7 @@ break
 }
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 if
 (
 timeout
@@ -3890,7 +3890,7 @@ continue
 }
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 if
 (
 timeout
@@ -3981,7 +3981,7 @@ mFiringIndex
 )
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 timeout
 -
@@ -4531,7 +4531,7 @@ aCurrentNow
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 aTimeout
 -
 >
