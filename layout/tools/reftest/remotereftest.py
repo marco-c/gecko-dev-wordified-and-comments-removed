@@ -1577,22 +1577,6 @@ expected
         
 self
 .
-automation
-.
-deleteANRs
-(
-)
-        
-self
-.
-automation
-.
-deleteTombstones
-(
-)
-        
-self
-.
 device
 .
 clear_logcat

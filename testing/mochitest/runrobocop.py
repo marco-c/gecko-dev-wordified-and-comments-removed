@@ -600,22 +600,6 @@ xpcshell
 '
 )
         
-self
-.
-auto
-.
-deleteANRs
-(
-)
-        
-self
-.
-auto
-.
-deleteTombstones
-(
-)
-        
 procName
 =
 self
