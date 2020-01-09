@@ -686,7 +686,7 @@ mFrame
 }
 VideoChunk
 *
-FindChunkContainingTime
+FindChunkContaining
 (
 const
 TimeStamp
@@ -759,7 +759,7 @@ VideoChunk
 *
 chunk
 =
-FindChunkContainingTime
+FindChunkContaining
 (
 aTime
 )
