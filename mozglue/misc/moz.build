@@ -234,6 +234,11 @@ DynamicallyLinkedFunctionPtr
 h
 '
 '
+NativeNt
+.
+h
+'
+'
 WindowsMapRemoteView
 .
 h
