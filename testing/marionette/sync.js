@@ -686,6 +686,9 @@ reject
 >
 {
 let
+trace
+;
+let
 bail
 =
 (
@@ -730,9 +733,7 @@ after
 timeout
 }
 ms
-stack
-(
-)
+trace
 )
 ;
 resolve
@@ -741,6 +742,12 @@ resolve
 ;
 }
 }
+;
+trace
+=
+stack
+(
+)
 ;
 timer
 .
