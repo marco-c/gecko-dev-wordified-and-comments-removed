@@ -116,6 +116,11 @@ AntiTrackingCommon
 .
 h
 '
+'
+StoragePrincipalHelper
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -123,6 +128,11 @@ UNIFIED_SOURCES
 [
 '
 AntiTrackingCommon
+.
+cpp
+'
+'
+StoragePrincipalHelper
 .
 cpp
 '
