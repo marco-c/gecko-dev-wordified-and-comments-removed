@@ -332,6 +332,7 @@ func
 None
 False
 False
+False
 )
         
 func
@@ -344,6 +345,22 @@ Version
 0
 '
 )
+False
+False
+False
+)
+        
+func
+(
+Version
+(
+'
+1
+.
+0
+'
+)
+True
 False
 False
 )
@@ -359,21 +376,8 @@ Version
 '
 )
 True
+True
 False
-)
-        
-func
-(
-Version
-(
-'
-1
-.
-0
-'
-)
-True
-True
 )
         
 func
@@ -388,6 +392,7 @@ Version
 )
 False
 True
+False
 )
         
 func
@@ -409,6 +414,7 @@ Version
 '
 )
 True
+False
 )
         
 func
@@ -430,6 +436,7 @@ Version
 0
 '
 )
+False
 )
         
 func
@@ -458,6 +465,7 @@ Version
 0
 '
 )
+False
 )
         
 out
@@ -487,6 +495,7 @@ Version
 0
 '
 )
+False
 False
 )
         
@@ -562,6 +571,7 @@ Version
 0
 '
 )
+False
 )
         
 self
@@ -585,6 +595,91 @@ to
 build
 with
 jpeg
+and
+vpx
+but
+you
+do
+not
+appear
+to
+have
+Yasm
+installed
+.
+\
+n
+'
+        
+)
+        
+out
+.
+truncate
+(
+0
+)
+        
+with
+self
+.
+assertRaises
+(
+SystemExit
+)
+:
+            
+func
+(
+None
+Version
+(
+'
+1
+.
+0
+'
+)
+Version
+(
+'
+1
+.
+0
+'
+)
+Version
+(
+'
+1
+.
+0
+'
+)
+)
+        
+self
+.
+assertEqual
+(
+            
+out
+.
+getvalue
+(
+)
+            
+'
+ERROR
+:
+Yasm
+is
+required
+to
+build
+with
+jpeg
+libav
 and
 vpx
 but
@@ -645,6 +740,7 @@ Version
 0
 '
 )
+False
 )
         
 self
@@ -718,6 +814,7 @@ Version
 1
 '
 )
+False
 )
         
 self
