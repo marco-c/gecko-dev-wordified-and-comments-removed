@@ -15917,10 +15917,6 @@ NS_FRAME_CONTAINS_RELATIVE_BSIZE
 )
 ;
 }
-RenumberList
-(
-)
-;
 const
 FlexboxAxisTracker
 axisTracker
@@ -20110,10 +20106,6 @@ nscoord
 containerISize
 =
 0
-;
-RenumberList
-(
-)
 ;
 const
 nsStylePosition

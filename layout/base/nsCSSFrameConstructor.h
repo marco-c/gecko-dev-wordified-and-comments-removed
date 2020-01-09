@@ -698,6 +698,17 @@ aSizes
 )
 const
 ;
+nsCounterManager
+*
+CounterManager
+(
+)
+{
+return
+&
+mCounterManager
+;
+}
 private
 :
 struct
