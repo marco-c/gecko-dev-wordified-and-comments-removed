@@ -58,13 +58,6 @@ libc
 .
 2
 "
-memchr
-=
-"
-2
-.
-0
-"
 nserror
 =
 {
