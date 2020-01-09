@@ -342,6 +342,15 @@ loadContext
 originAttributes
 .
 userContextId
+requestedIndex
+:
+history
+.
+legacySHistory
+.
+requestedIndex
++
+1
 }
 ;
 let
