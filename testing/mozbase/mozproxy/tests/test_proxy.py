@@ -269,6 +269,18 @@ is
 not
 None
     
+try
+:
+        
+playback
+.
+start
+(
+)
+    
+finally
+:
+        
 playback
 .
 stop
@@ -531,9 +543,17 @@ p
 try
 :
                 
+pb
+=
 get_playback
 (
 config
+)
+                
+pb
+.
+start
+(
 )
             
 except
