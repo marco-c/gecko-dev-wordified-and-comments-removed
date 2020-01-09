@@ -484,7 +484,17 @@ NotifyUserGestureActivation
 )
 ;
 void
+NotifyResetUserGestureActivation
+(
+)
+;
+void
 SetUserGestureActivation
+(
+)
+;
+void
+ResetUserGestureActivation
 (
 )
 ;

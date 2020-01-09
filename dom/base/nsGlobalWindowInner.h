@@ -7267,6 +7267,11 @@ CancelDocumentFlushedResolvers
 (
 )
 ;
+bool
+ShouldResetBrowsingContextUserGestureActivation
+(
+)
+;
 public
 :
 virtual

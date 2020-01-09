@@ -208,8 +208,10 @@ aGivenProto
 override
 ;
 void
-NotifyUserGestureActivationFromIPC
+NotifySetUserGestureActivationFromIPC
 (
+bool
+aIsUserGestureActivation
 )
 ;
 protected
