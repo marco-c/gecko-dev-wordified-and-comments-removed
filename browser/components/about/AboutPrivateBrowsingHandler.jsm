@@ -303,7 +303,7 @@ text
 {
 urlBar
 .
-setHiddenFocus
+hiddenFocus
 (
 )
 ;
