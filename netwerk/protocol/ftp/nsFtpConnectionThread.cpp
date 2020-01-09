@@ -9325,7 +9325,7 @@ return
 pph
 -
 >
-NewProxiedChannel2
+NewProxiedChannel
 (
 uri
 pi

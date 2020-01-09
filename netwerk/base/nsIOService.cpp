@@ -4141,7 +4141,7 @@ rv
 pph
 -
 >
-NewProxiedChannel2
+NewProxiedChannel
 (
 aURI
 nullptr
