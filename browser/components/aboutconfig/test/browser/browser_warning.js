@@ -71,8 +71,9 @@ length
 ;
 Assert
 .
-equal
+ok
 (
+!
 this
 .
 document
@@ -83,13 +84,13 @@ getElementById
 search
 "
 )
-undefined
 )
 ;
 Assert
 .
-equal
+ok
 (
+!
 this
 .
 document
@@ -100,7 +101,6 @@ getElementById
 prefs
 "
 )
-undefined
 )
 ;
 this
