@@ -196,7 +196,7 @@ global
 /
 locale
 /
-aboutSupport
+aboutRights
 .
 dtd
 '
@@ -212,9 +212,9 @@ localize_entity
 (
 dtds
 '
-aboutSupport
+rights
 .
-pageTitle
+title
 '
 )
         
@@ -240,7 +240,7 @@ navigate
 '
 about
 :
-support
+rights
 '
 )
         
