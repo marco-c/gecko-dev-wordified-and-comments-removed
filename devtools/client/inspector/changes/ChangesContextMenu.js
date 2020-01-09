@@ -511,6 +511,8 @@ this
 inspector
 .
 toolbox
+.
+doc
 )
 ;
 return

@@ -148,7 +148,7 @@ function
 (
 x
 y
-toolbox
+doc
 )
 {
 const
@@ -156,8 +156,6 @@ zoom
 =
 getCurrentZoom
 (
-toolbox
-.
 doc
 )
 ;
@@ -171,7 +169,7 @@ zoom
 y
 *
 zoom
-toolbox
+doc
 )
 ;
 }
@@ -186,16 +184,9 @@ function
 (
 screenX
 screenY
-toolbox
+doc
 )
 {
-const
-doc
-=
-toolbox
-.
-doc
-;
 let
 popupset
 =

@@ -1567,15 +1567,11 @@ rect
 bottom
 +
 screenY
-{
-doc
-:
 this
 .
 props
 .
 menuDocument
-}
 )
 ;
 return
