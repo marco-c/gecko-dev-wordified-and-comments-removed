@@ -2911,6 +2911,9 @@ PrepareToDispatchEvent
 WidgetEvent
 *
 aEvent
+bool
+*
+aIsUserInteraction
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -2920,14 +2923,6 @@ MaybeHandleKeyboardEventBeforeDispatch
 WidgetKeyboardEvent
 *
 aKeyboardEvent
-)
-;
-bool
-PrepareToDispatchContextMenuEvent
-(
-WidgetEvent
-*
-aEvent
 )
 ;
 bool
