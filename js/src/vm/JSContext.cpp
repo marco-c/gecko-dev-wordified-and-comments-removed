@@ -5815,6 +5815,8 @@ Queue
 &
 &
 saved
+bool
+draining
 )
 :
 cx
@@ -5831,6 +5833,10 @@ move
 (
 saved
 )
+)
+draining_
+(
+draining
 )
 {
 MOZ_ASSERT
@@ -5883,6 +5889,16 @@ get
 )
 )
 ;
+cx
+-
+>
+internalJobQueue
+-
+>
+draining_
+=
+draining_
+;
 }
 private
 :
@@ -5895,6 +5911,9 @@ PersistentRooted
 Queue
 >
 saved
+;
+bool
+draining_
 ;
 }
 ;
@@ -5944,6 +5963,7 @@ get
 (
 )
 )
+draining_
 )
 ;
 if
@@ -5969,6 +5989,10 @@ SystemAllocPolicy
 (
 )
 )
+;
+draining_
+=
+false
 ;
 return
 saved
