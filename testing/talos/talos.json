@@ -6,8 +6,6 @@ suites
 {
 "
 bcv
--
-e10s
 "
 :
 {
@@ -23,8 +21,6 @@ basic_compositor_video
 }
 "
 chromez
--
-e10s
 "
 :
 {
@@ -43,8 +39,6 @@ tresize
 }
 "
 dromaeojs
--
-e10s
 "
 :
 {
@@ -63,8 +57,6 @@ kraken
 }
 "
 flex
--
-e10s
 "
 :
 {
@@ -83,8 +75,6 @@ ts_paint_flex
 }
 "
 other
--
-e10s
 "
 :
 {
@@ -128,8 +118,6 @@ sessionrestore
 many
 -
 windows
--
-e10s
 "
 :
 {
@@ -145,8 +133,6 @@ sessionrestore_many_windows
 }
 "
 g1
--
-e10s
 "
 :
 {
@@ -174,8 +160,6 @@ zip
 }
 "
 damp
--
-e10s
 "
 :
 {
@@ -200,8 +184,6 @@ zip
 }
 "
 tabswitch
--
-e10s
 "
 :
 {
@@ -226,8 +208,6 @@ zip
 }
 "
 g3
--
-e10s
 "
 :
 {
@@ -243,8 +223,6 @@ dromaeo_dom
 }
 "
 g4
--
-e10s
 "
 :
 {
@@ -269,8 +247,6 @@ rasterflood_gradient
 }
 "
 g5
--
-e10s
 "
 :
 {
@@ -298,8 +274,6 @@ zip
 }
 "
 motionmark
--
-e10s
 "
 :
 {
@@ -333,8 +307,6 @@ zip
 }
 "
 svgr
--
-e10s
 "
 :
 {
@@ -364,8 +336,6 @@ tsvg_static
 perf
 -
 reftest
--
-e10s
 "
 :
 {
@@ -385,8 +355,6 @@ perf
 reftest
 -
 singletons
--
-e10s
 "
 :
 {
@@ -402,8 +370,6 @@ perf_reftest_singletons
 }
 "
 speedometer
--
-e10s
 "
 :
 {
@@ -422,8 +388,6 @@ stylebench
 }
 "
 tp5o
--
-e10s
 "
 :
 {
@@ -448,8 +412,6 @@ zip
 }
 "
 xperf
--
-e10s
 "
 :
 {
@@ -512,8 +474,6 @@ exe
 }
 "
 tp6
--
-e10s
 "
 :
 {
@@ -638,8 +598,6 @@ tp6
 stylo
 -
 threads
--
-e10s
 "
 :
 {
@@ -769,8 +727,6 @@ firstNonBlankPaint
 }
 "
 h1
--
-e10s
 "
 :
 {
@@ -786,8 +742,6 @@ ts_paint_heavy
 }
 "
 h2
--
-e10s
 "
 :
 {

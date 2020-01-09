@@ -7548,7 +7548,7 @@ e10s
 '
 ]
 =
-False
+True
         
 test
 [
@@ -7562,7 +7562,7 @@ e10s
 '
 ]
 =
-False
+True
         
 if
 e10s
@@ -7583,9 +7583,10 @@ test
             
 e10s
 =
-True
+False
         
 if
+not
 e10s
 :
             
@@ -7601,7 +7602,7 @@ name
 =
 '
 -
-e10s
+1proc
 '
             
 test
@@ -7616,7 +7617,7 @@ name
 =
 '
 -
-e10s
+1proc
 '
             
 test
@@ -7626,7 +7627,7 @@ e10s
 '
 ]
 =
-True
+False
             
 test
 [
@@ -7640,7 +7641,7 @@ e10s
 '
 ]
 =
-True
+False
             
 group
 symbol
@@ -7671,7 +7672,7 @@ group
 =
 '
 -
-e10s
+1proc
 '
             
 test
@@ -7689,94 +7690,6 @@ group
 symbol
 )
             
-if
-test
-[
-'
-suite
-'
-]
-=
-=
-'
-talos
-'
-or
-test
-[
-'
-suite
-'
-]
-=
-=
-'
-raptor
-'
-:
-                
-for
-i
-option
-in
-enumerate
-(
-test
-[
-'
-mozharness
-'
-]
-[
-'
-extra
--
-options
-'
-]
-)
-:
-                    
-if
-option
-.
-startswith
-(
-'
--
--
-suite
-=
-'
-)
-:
-                        
-test
-[
-'
-mozharness
-'
-]
-[
-'
-extra
--
-options
-'
-]
-[
-i
-]
-+
-=
-'
--
-e10s
-'
-            
-else
-:
-                
 test
 [
 '
@@ -7795,6 +7708,8 @@ append
 (
 '
 -
+-
+disable
 -
 e10s
 '

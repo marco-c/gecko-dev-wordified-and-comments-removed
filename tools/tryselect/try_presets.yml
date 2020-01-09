@@ -143,8 +143,6 @@ chrome
 mochitest
 -
 clipboard
--
-e10s
 "
 -
 "
@@ -364,5 +362,3 @@ speedometer
 talos
 -
 g1
--
-e10s
