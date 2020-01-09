@@ -1368,12 +1368,6 @@ if
 mDispatchInputEvent
 )
 {
-RefPtr
-<
-DataTransfer
->
-dataTransfer
-;
 FireInputEvent
 (
 EditAction
@@ -1383,7 +1377,7 @@ eDeleteByDrag
 VoidString
 (
 )
-dataTransfer
+nullptr
 )
 ;
 if
