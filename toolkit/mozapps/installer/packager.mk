@@ -1278,9 +1278,6 @@ FILE
 END
 '
 (
-SIGN_CHECKSUM_CMD
-)
-(
 PYTHON
 )
 -
