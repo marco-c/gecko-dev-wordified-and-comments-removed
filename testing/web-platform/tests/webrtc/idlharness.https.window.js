@@ -452,6 +452,9 @@ streams
 '
 dom
 '
+'
+html
+'
 ]
 async
 idlArray
