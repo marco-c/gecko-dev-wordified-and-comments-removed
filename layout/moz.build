@@ -220,7 +220,7 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
-TEST_DIRS
+DIRS
 +
 =
 [
