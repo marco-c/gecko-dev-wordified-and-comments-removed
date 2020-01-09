@@ -10558,6 +10558,25 @@ binaries
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+distdir
+'
+help
+=
+'
+Where
+to
+install
+artifacts
+to
+.
+'
+)
+    
 def
 artifact_install
 (
@@ -10587,6 +10606,9 @@ False
 host_bins
 =
 False
+distdir
+=
+None
 )
 :
         
@@ -10633,6 +10655,8 @@ artifacts
 install_from
 (
 source
+distdir
+or
 self
 .
 distdir
