@@ -31283,7 +31283,7 @@ gpu_supports_fast_clears
 false
 allow_dual_source_blending
 :
-false
+true
 allow_advanced_blend_equation
 :
 false
