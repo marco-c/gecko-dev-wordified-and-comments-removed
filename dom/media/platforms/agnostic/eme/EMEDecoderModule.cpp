@@ -2215,7 +2215,9 @@ mConfig
 .
 mCrypto
 .
-mValid
+IsEncrypted
+(
+)
 )
 ;
 if
@@ -2404,7 +2406,9 @@ mConfig
 .
 mCrypto
 .
-mValid
+IsEncrypted
+(
+)
 )
 ;
 MOZ_ASSERT

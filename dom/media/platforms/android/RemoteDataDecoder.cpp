@@ -2852,7 +2852,9 @@ if
 !
 cryptoObj
 .
-mValid
+IsEncrypted
+(
+)
 )
 {
 return
