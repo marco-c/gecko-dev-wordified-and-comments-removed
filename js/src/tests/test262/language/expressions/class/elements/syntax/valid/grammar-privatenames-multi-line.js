@@ -1,0 +1,17 @@
+var
+C
+=
+class
+{
+#
+x
+#
+y
+}
+;
+reportCompare
+(
+0
+0
+)
+;

@@ -1,0 +1,11 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+\
+u0000
+;
+}

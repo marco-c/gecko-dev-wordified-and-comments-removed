@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+var
+C
+=
+class
+{
+\
+u200D_ZWJ
+;
+}
+;
