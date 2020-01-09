@@ -787,6 +787,17 @@ preferences
 button
 subviewbutton
 "
+tooltiptext
+=
+"
+&
+identity
+.
+contentBlockingPreferences
+.
+tooltip
+;
+"
 oncommand
 =
 "
