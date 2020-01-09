@@ -27105,6 +27105,7 @@ INIT_VECTOR
 name
 _0
 _1
+_2
 )
 roots_
 [
@@ -27220,6 +27221,7 @@ TRACE_ROOTS
 name
 type
 _
+_1
 )
 \
 TraceVector

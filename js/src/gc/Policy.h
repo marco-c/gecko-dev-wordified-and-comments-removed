@@ -82,6 +82,7 @@ IS_BASE_OF_OR
 _1
 BaseType
 _2
+_3
 )
 \
 mozilla

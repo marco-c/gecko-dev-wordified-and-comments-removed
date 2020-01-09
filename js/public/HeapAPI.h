@@ -1652,6 +1652,7 @@ JS_EXPAND_DEF
 name
 type
 _
+_1
 )
 \
 case

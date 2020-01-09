@@ -46,6 +46,7 @@ DEFINE_TRACE_KIND_MAP
 name
 type
 _
+_1
 )
 \
 template

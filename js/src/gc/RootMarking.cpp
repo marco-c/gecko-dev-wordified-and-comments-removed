@@ -388,6 +388,7 @@ TRACE_ROOTS
 name
 type
 _
+_1
 )
 \
 TraceExactStackRootList
@@ -626,6 +627,7 @@ TRACE_ROOTS
 name
 type
 _
+_1
 )
 \
 TracePersistentRootedList
@@ -858,6 +860,7 @@ FINISH_ROOT_LIST
 name
 type
 _
+_1
 )
 \
 FinishPersistentRootedChain
