@@ -52,6 +52,15 @@ gfxTextRun
 .
 h
 "
+#
+include
+"
+mozilla
+/
+PresShell
+.
+h
+"
 using
 namespace
 mozilla

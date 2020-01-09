@@ -3040,7 +3040,7 @@ nsImageFrame
 aImageFrame
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =

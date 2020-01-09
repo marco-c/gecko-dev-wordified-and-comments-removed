@@ -10264,7 +10264,10 @@ UpdateVisibilitySynchronously
 (
 )
 {
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 presShell
 =
@@ -10548,7 +10551,10 @@ VisibilityStateProperty
 0
 )
 ;
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 presShell
 =

@@ -38,6 +38,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ReflowInput
 .
 h
@@ -1092,7 +1101,7 @@ aReflowInput
 nca
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =

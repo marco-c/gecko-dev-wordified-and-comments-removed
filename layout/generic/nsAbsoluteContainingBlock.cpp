@@ -22,7 +22,9 @@ h
 #
 include
 "
-nsIPresShell
+mozilla
+/
+CSSAlignUtils
 .
 h
 "
@@ -31,7 +33,7 @@ include
 "
 mozilla
 /
-CSSAlignUtils
+PresShell
 .
 h
 "

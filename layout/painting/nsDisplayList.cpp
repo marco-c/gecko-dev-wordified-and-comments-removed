@@ -6337,9 +6337,9 @@ GetSize
 )
 )
 ;
-nsIPresShell
+PresShell
 *
-ps
+presShell
 =
 aFrame
 -
@@ -6350,7 +6350,7 @@ PresShell
 ;
 if
 (
-ps
+presShell
 -
 >
 IsVisualViewportSizeSet
@@ -6364,7 +6364,7 @@ Size
 (
 )
 <
-ps
+presShell
 -
 >
 GetVisualViewportSize
@@ -6376,7 +6376,7 @@ dirtyRectRelativeToDirtyFrame
 .
 SizeTo
 (
-ps
+presShell
 -
 >
 GetVisualViewportSize
@@ -6389,7 +6389,7 @@ const
 nsSize
 layoutViewportSize
 =
-ps
+presShell
 -
 >
 GetLayoutViewportSize
@@ -8180,7 +8180,14 @@ mReferenceFrame
 >
 AddPaintedPresShell
 (
+static_cast
+<
+PresShell
+*
+>
+(
 aPresShell
+)
 )
 ;
 aPresShell
@@ -36493,7 +36500,7 @@ nsIFrame
 aOutFrames
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -36551,7 +36558,7 @@ ContainerLayerParameters
 aContainerParameters
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -39770,7 +39777,7 @@ ContainerLayerParameters
 aContainerParameters
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =

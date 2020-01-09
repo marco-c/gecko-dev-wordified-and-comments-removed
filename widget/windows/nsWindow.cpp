@@ -754,6 +754,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 a11y
 /
 DocAccessible

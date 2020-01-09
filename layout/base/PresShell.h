@@ -816,6 +816,13 @@ aFromScroll
 )
 override
 ;
+Document
+*
+GetPrimaryContentDocument
+(
+)
+override
+;
 void
 Paint
 (
@@ -3425,13 +3432,6 @@ void
 *
 aPresShell
 )
-;
-Document
-*
-GetPrimaryContentDocument
-(
-)
-override
 ;
 void
 PausePainting

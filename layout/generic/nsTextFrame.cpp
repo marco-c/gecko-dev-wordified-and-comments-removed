@@ -2741,9 +2741,9 @@ MOZ_ASSERT
 aFrame
 )
 ;
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 aFrame
 -
@@ -2837,7 +2837,7 @@ eResize
 }
 else
 {
-shell
+presShell
 -
 >
 FrameNeedsReflow
