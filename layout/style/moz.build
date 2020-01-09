@@ -1162,6 +1162,11 @@ PreloadedStyleSheet
 cpp
 '
 '
+PseudoStyleType
+.
+cpp
+'
+'
 Rule
 .
 cpp
