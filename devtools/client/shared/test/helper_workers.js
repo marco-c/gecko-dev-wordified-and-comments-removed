@@ -1029,12 +1029,7 @@ gDevTools
 .
 showToolbox
 (
-TargetFactory
-.
-forWorker
-(
 workerTargetFront
-)
 "
 jsdebugger
 "

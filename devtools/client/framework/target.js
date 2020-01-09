@@ -225,17 +225,6 @@ tab
 )
 ;
 }
-forWorker
-:
-function
-(
-workerTargetFront
-)
-{
-return
-workerTargetFront
-;
-}
 isKnownTab
 :
 function
