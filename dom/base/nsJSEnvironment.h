@@ -527,6 +527,9 @@ nsJSContext
 nsresult
 ConvertSupportsTojsvals
 (
+JSContext
+*
+aCx
 nsISupports
 *
 aArgs
@@ -555,6 +558,9 @@ aArgsOut
 nsresult
 AddSupportsPrimitiveTojsvals
 (
+JSContext
+*
+aCx
 nsISupports
 *
 aArg
