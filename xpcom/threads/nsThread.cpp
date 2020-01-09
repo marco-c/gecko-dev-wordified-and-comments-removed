@@ -2351,10 +2351,6 @@ stackBottom
 #
 endif
 }
-InitThreadLocalVariables
-(
-)
-;
 AddToThreadList
 (
 )

@@ -99,16 +99,6 @@ DataChannelParent
 h
 '
 ]
-EXPORTS
-+
-=
-[
-'
-nsDataHandler
-.
-h
-'
-]
 UNIFIED_SOURCES
 +
 =

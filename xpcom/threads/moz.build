@@ -547,11 +547,6 @@ ThreadEventTarget
 cpp
 '
 '
-ThreadLocalVariables
-.
-cpp
-'
-'
 ThrottledEventQueue
 .
 cpp
