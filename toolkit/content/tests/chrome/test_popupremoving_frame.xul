@@ -552,9 +552,7 @@ contentDocument
 .
 documentElement
 .
-boxObject
-.
-width
+clientWidth
 ;
 }
 is

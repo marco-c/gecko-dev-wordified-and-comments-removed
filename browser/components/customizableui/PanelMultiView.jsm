@@ -3709,11 +3709,13 @@ _panel
 anchorNode
 ;
 let
-anchorBox
+anchorRect
 =
 anchor
 .
-boxObject
+getBoundingClientRect
+(
+)
 ;
 let
 screen
@@ -3730,10 +3732,10 @@ screenX
 anchor
 .
 screenY
-anchorBox
+anchorRect
 .
 width
-anchorBox
+anchorRect
 .
 height
 )
@@ -3808,7 +3810,7 @@ anchor
 .
 screenY
 +
-anchorBox
+anchorRect
 .
 height
 ;

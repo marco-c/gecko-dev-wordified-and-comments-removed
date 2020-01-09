@@ -776,7 +776,9 @@ document
 .
 documentElement
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 ;
@@ -789,7 +791,9 @@ innerscroll
 "
 )
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 ;

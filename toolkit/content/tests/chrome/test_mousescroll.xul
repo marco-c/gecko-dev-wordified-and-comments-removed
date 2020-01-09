@@ -2574,7 +2574,9 @@ scrolledWidth
 -
 scrollbox
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 ;
@@ -2585,7 +2587,9 @@ scrolledHeight
 -
 scrollbox
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 height
 ;

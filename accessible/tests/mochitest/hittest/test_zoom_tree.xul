@@ -357,13 +357,15 @@ rows
 and
 cells
 var
-treeBodyBoxObj
+treeRect
 =
 tree
 .
 treeBody
 .
-boxObject
+getBoundingClientRect
+(
+)
 ;
 var
 rect
@@ -420,7 +422,7 @@ rect
 .
 x
 +
-treeBodyBoxObj
+treeRect
 .
 x
 ;
@@ -431,7 +433,7 @@ rect
 .
 y
 +
-treeBodyBoxObj
+treeRect
 .
 y
 ;

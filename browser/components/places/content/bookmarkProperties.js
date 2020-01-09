@@ -1205,7 +1205,9 @@ set
 id
 target
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 height
 )
@@ -1576,7 +1578,9 @@ getElementById
 id
 )
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 height
 ;

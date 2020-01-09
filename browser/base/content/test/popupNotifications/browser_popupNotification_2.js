@@ -232,7 +232,9 @@ icon
 "
 )
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0
@@ -276,7 +278,9 @@ isnot
 (
 icon
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0
@@ -303,7 +307,9 @@ is
 (
 icon
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0
@@ -1201,7 +1207,9 @@ icon
 "
 )
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0
@@ -1308,7 +1316,9 @@ icon
 "
 )
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 0

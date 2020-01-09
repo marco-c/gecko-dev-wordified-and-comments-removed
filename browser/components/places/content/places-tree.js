@@ -361,7 +361,9 @@ this
 .
 treeBody
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 y
 -

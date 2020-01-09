@@ -130,14 +130,9 @@ C
 ;
 document
 .
-getBoxObjectFor
-(
-document
-.
 documentElement
-)
 .
-height
+clientHeight
 ;
 /
 /

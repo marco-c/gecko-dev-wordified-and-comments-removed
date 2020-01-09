@@ -4989,7 +4989,9 @@ x
 =
 targetNode
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 -

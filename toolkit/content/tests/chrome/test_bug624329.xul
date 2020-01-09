@@ -974,7 +974,9 @@ x
 +
 menu
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 ;

@@ -610,7 +610,9 @@ this
 .
 labelNode
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 ;

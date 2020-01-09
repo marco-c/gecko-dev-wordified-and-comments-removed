@@ -1046,9 +1046,7 @@ document
 .
 documentElement
 .
-boxObject
-.
-width
+clientWidth
 ;
 gTriggerMutation
 =

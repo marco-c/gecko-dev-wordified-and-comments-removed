@@ -1130,7 +1130,9 @@ height
 =
 aNotification
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 height
 ;

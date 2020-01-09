@@ -513,7 +513,9 @@ resizeBy
 0
 warningBox
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 height
 )
@@ -556,7 +558,9 @@ resizeBy
 -
 warningBox
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 height
 )

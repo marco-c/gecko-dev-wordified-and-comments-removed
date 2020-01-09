@@ -292,7 +292,9 @@ splitterWidth
 =
 splitter
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 ;
@@ -497,7 +499,9 @@ containerWidth
 =
 container
 .
-boxObject
+getBoundingClientRect
+(
+)
 .
 width
 ;
