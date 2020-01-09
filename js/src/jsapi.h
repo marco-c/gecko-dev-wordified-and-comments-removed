@@ -6653,7 +6653,7 @@ extern
 JS_PUBLIC_API
 JSObject
 *
-JS_NewArrayBufferWithExternalContents
+JS_NewArrayBufferWithUserOwnedContents
 (
 JSContext
 *
@@ -6954,6 +6954,9 @@ JS_PUBLIC_API
 bool
 JS_ObjectIsFunction
 (
+JSContext
+*
+cx
 JSObject
 *
 obj

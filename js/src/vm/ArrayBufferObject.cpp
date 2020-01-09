@@ -8552,7 +8552,7 @@ TenuredObject
 JS_PUBLIC_API
 JSObject
 *
-JS_NewArrayBufferWithExternalContents
+JS_NewArrayBufferWithUserOwnedContents
 (
 JSContext
 *
