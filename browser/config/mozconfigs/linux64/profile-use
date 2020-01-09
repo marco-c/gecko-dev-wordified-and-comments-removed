@@ -10,6 +10,10 @@ mozconfigs
 linux64
 /
 nightly
+export
+MOZ_LTO
+=
+1
 ac_add_options
 -
 -
@@ -18,12 +22,6 @@ enable
 profile
 -
 use
-ac_add_options
--
--
-enable
--
-lto
 ac_add_options
 -
 -

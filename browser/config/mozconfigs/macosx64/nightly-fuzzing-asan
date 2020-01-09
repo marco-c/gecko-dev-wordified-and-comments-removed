@@ -14,12 +14,8 @@ nightly
 -
 asan
 "
-ac_add_options
--
--
-disable
--
-lto
+unset
+MOZ_LTO
 ac_add_options
 -
 -
