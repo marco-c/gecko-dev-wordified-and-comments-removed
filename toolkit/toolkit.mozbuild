@@ -514,12 +514,6 @@ DIRS
 /
 extensions
 /
-cookie
-'
-'
-/
-extensions
-/
 permissions
 '
 ]

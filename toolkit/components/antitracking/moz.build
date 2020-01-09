@@ -145,7 +145,7 @@ LOCAL_INCLUDES
 /
 extensions
 /
-cookie
+permissions
 '
 ]
 include

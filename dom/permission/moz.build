@@ -160,7 +160,7 @@ LOCAL_INCLUDES
 /
 extensions
 /
-cookie
+permissions
 '
 ]
 MOCHITEST_MANIFESTS
