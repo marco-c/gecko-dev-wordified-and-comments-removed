@@ -549,7 +549,7 @@ FinishPrintPreview
 )
 ;
 void
-SetDocAndURLIntoProgress
+SetURLAndTitleOnProgressParams
 (
 const
 mozilla

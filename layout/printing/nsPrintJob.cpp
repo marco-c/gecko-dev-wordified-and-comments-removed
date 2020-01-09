@@ -5359,7 +5359,7 @@ printData
 mPrintProgressParams
 )
 {
-SetDocAndURLIntoProgress
+SetURLAndTitleOnProgressParams
 (
 printData
 -
@@ -11930,7 +11930,7 @@ printData
 mPrintProgressParams
 )
 {
-SetDocAndURLIntoProgress
+SetURLAndTitleOnProgressParams
 (
 aPO
 printData
@@ -12159,7 +12159,7 @@ void
 nsPrintJob
 :
 :
-SetDocAndURLIntoProgress
+SetURLAndTitleOnProgressParams
 (
 const
 UniquePtr
