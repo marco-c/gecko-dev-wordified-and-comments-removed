@@ -357,7 +357,7 @@ example
 projects
 hg
 clone
-http
+https
 :
 /
 /
