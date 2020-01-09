@@ -7669,7 +7669,7 @@ access
 nsContentUtils
 :
 :
-StorageAllowedForServiceWorker
+StorageAllowedForPrincipal
 (
 info
 .
