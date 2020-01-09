@@ -233,6 +233,7 @@ objectInspector
 focus
 (
 )
+;
 const
 [
 root
