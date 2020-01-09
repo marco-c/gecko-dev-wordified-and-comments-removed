@@ -22,7 +22,7 @@ en
 -
 gb
 -
-oed
+oxendict
 "
 )
 "
