@@ -13066,10 +13066,10 @@ aObj
 )
 {
 return
-nsContentUtils
+StaticPrefs
 :
 :
-RequestIdleCallbackEnabled
+dom_requestIdleCallback_enabled
 (
 )
 |

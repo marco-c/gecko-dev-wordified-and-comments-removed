@@ -5053,16 +5053,6 @@ ShouldResistFingerprinting
 }
 static
 bool
-RequestIdleCallbackEnabled
-(
-)
-{
-return
-sRequestIdleCallbackEnabled
-;
-}
-static
-bool
 BypassCSSOMOriginCheck
 (
 )
@@ -7554,10 +7544,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sRequestIdleCallbackEnabled
 ;
 static
 bool
