@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-asserts
-.
-js
-"
-)
-;
 source
 =
 var
@@ -19,7 +8,7 @@ x
 ;
 }
 ;
-assertErrorMessage
+assertThrowsInstanceOf
 (
 (
 )
@@ -30,9 +19,6 @@ eval
 source
 )
 SyntaxError
-/
-.
-/
 )
 ;
 source
@@ -46,7 +32,7 @@ x
 ;
 }
 ;
-assertErrorMessage
+assertThrowsInstanceOf
 (
 (
 )
@@ -57,9 +43,6 @@ eval
 source
 )
 SyntaxError
-/
-.
-/
 )
 ;
 source
@@ -74,7 +57,7 @@ x
 ;
 }
 ;
-assertErrorMessage
+assertThrowsInstanceOf
 (
 (
 )
@@ -85,9 +68,6 @@ eval
 source
 )
 SyntaxError
-/
-.
-/
 )
 ;
 source
@@ -101,7 +81,7 @@ x
 2
 }
 ;
-assertErrorMessage
+assertThrowsInstanceOf
 (
 (
 )
@@ -112,9 +92,6 @@ eval
 source
 )
 SyntaxError
-/
-.
-/
 )
 ;
 source
@@ -130,7 +107,7 @@ x
 ;
 }
 ;
-assertErrorMessage
+assertThrowsInstanceOf
 (
 (
 )
@@ -141,9 +118,6 @@ eval
 source
 )
 SyntaxError
-/
-.
-/
 )
 ;
 source
@@ -158,7 +132,7 @@ x
 2
 }
 ;
-assertErrorMessage
+assertThrowsInstanceOf
 (
 (
 )
@@ -169,9 +143,6 @@ eval
 source
 )
 SyntaxError
-/
-.
-/
 )
 ;
 if
