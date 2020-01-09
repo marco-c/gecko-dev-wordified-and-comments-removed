@@ -134,6 +134,17 @@ Malloc
 '
     
 '
+Allocator
+<
+ReplaceMallocBase
+>
+:
+:
+malloc
+(
+'
+    
+'
 ?
 ?
 ?
@@ -593,6 +604,7 @@ print
 (
 '
 '
++
 frameTable
 [
 l
@@ -1466,7 +1478,9 @@ print
 '
 Object
 '
++
 block
++
 '
 not
 found
