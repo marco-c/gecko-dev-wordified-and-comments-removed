@@ -191,3 +191,8 @@ maxdepth
 locale
 dataintl
 localization
+l10n
+/
+l10n
+/
+index
