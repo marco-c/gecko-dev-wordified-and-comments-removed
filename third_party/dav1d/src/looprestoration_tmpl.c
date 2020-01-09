@@ -2560,10 +2560,10 @@ s
 20
 ;
 const
-int
+unsigned
 x
 =
-dav1d_sgr_x_by_xplus1
+dav1d_sgr_x_by_x
 [
 imin
 (
@@ -2578,16 +2578,7 @@ i
 ]
 =
 (
-(
-(
-1U
-<
-<
-8
-)
--
 x
-)
 *
 BB
 [
@@ -2612,6 +2603,8 @@ BB
 i
 ]
 =
+256
+-
 x
 ;
 }
@@ -3212,7 +3205,7 @@ REST_UNIT_STRIDE
 }
 #
 undef
-NINE_NEIGHBORS
+EIGHT_NEIGHBORS
 }
 static
 void

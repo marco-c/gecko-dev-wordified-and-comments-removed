@@ -141,6 +141,10 @@ NULL
 )
 ;
 return
+(
+unsigned
+)
+(
 tv
 .
 tv_usec
@@ -150,6 +154,7 @@ tv
 tv_sec
 *
 1000000
+)
 ;
 }
 #
@@ -480,7 +485,7 @@ char
 *
 bench_pattern
 ;
-int
+size_t
 bench_pattern_len
 ;
 int
@@ -1551,11 +1556,16 @@ nops
 i
 ]
 =
+(
+uint16_t
+)
+(
 readtime
 (
 )
 -
 t
+)
 ;
 }
 qsort
@@ -1666,6 +1676,9 @@ iterations
 int
 decicycles
 =
+(
+int
+)
 (
 10
 *
@@ -2242,7 +2255,7 @@ root
 else
 {
 const
-int
+size_t
 name_length
 =
 strlen
@@ -2860,6 +2873,10 @@ state
 .
 seed
 =
+(
+unsigned
+int
+)
 strtoul
 (
 argv
@@ -3527,6 +3544,9 @@ static
 int
 prev_checked
 prev_failed
+;
+static
+size_t
 max_length
 ;
 if
@@ -3541,6 +3561,9 @@ prev_checked
 int
 pad_length
 =
+(
+int
+)
 max_length
 +
 4
@@ -3668,7 +3691,7 @@ state
 cpu_flag
 )
 {
-int
+size_t
 length
 =
 strlen

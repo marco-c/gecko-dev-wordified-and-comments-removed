@@ -1,9 +1,9 @@
 #
 ifndef
-__DAV1D_INPUT_INPUT_H__
+DAV1D_INPUT_INPUT_H
 #
 define
-__DAV1D_INPUT_INPUT_H__
+DAV1D_INPUT_INPUT_H
 #
 include
 "

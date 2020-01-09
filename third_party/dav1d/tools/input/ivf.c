@@ -56,15 +56,6 @@ demuxer
 .
 h
 "
-#
-ifdef
-_MSC_VER
-#
-define
-ftello
-_ftelli64
-#
-endif
 typedef
 struct
 DemuxerPriv
@@ -188,7 +179,7 @@ const
 num_frames
 )
 {
-int
+size_t
 res
 ;
 uint8_t
@@ -557,7 +548,7 @@ f
 )
 break
 ;
-fseek
+fseeko
 (
 c
 -
@@ -590,7 +581,7 @@ fps
 =
 duration
 ;
-fseek
+fseeko
 (
 c
 -
@@ -628,7 +619,7 @@ uint8_t
 *
 ptr
 ;
-int
+size_t
 res
 ;
 const

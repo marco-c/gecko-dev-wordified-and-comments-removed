@@ -1559,6 +1559,10 @@ unsigned
 inner
 =
 (
+unsigned
+)
+(
+(
 (
 (
 uint64_t
@@ -1571,6 +1575,7 @@ h4
 )
 -
 t
+)
 ;
 unsigned
 inner1
@@ -1667,6 +1672,10 @@ bx4
 inner
 =
 (
+unsigned
+)
+(
+(
 (
 (
 uint64_t
@@ -1679,6 +1688,7 @@ w4
 )
 -
 t
+)
 ;
 inner1
 =
@@ -2174,6 +2184,10 @@ unsigned
 inner
 =
 (
+unsigned
+)
+(
+(
 (
 (
 uint64_t
@@ -2186,6 +2200,7 @@ ch4
 )
 -
 t
+)
 ;
 unsigned
 inner1
@@ -2291,6 +2306,10 @@ cbx4
 inner
 =
 (
+unsigned
+)
+(
+(
 (
 (
 uint64_t
@@ -2303,6 +2322,7 @@ cw4
 )
 -
 t
+)
 ;
 inner1
 =

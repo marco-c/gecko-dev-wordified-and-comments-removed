@@ -1,9 +1,9 @@
 #
 ifndef
-__AV1_CDF_H__
+DAV1D_SRC_CDF_H
 #
 define
-__AV1_CDF_H__
+DAV1D_SRC_CDF_H
 #
 include
 <

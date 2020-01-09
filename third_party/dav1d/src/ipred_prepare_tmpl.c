@@ -393,6 +393,9 @@ tw
 const
 int
 th
+const
+int
+filter_edge
 pixel
 *
 const
@@ -1215,6 +1218,9 @@ th
 >
 =
 6
+&
+&
+filter_edge
 )
 *
 topleft_out

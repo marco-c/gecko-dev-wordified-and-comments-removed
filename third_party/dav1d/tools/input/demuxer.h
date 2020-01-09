@@ -1,9 +1,9 @@
 #
 ifndef
-__DAV1D_INPUT_DEMUXER_H__
+DAV1D_INPUT_DEMUXER_H
 #
 define
-__DAV1D_INPUT_DEMUXER_H__
+DAV1D_INPUT_DEMUXER_H
 #
 include
 "

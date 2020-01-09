@@ -1,9 +1,9 @@
 #
 ifndef
-__DAV1D_SRC_IPRED_PREPARE_H__
+DAV1D_SRC_IPRED_PREPARE_H
 #
 define
-__DAV1D_SRC_IPRED_PREPARE_H__
+DAV1D_SRC_IPRED_PREPARE_H
 #
 include
 <
@@ -96,6 +96,8 @@ int
 tw
 int
 th
+int
+filter_edge
 pixel
 *
 topleft_out

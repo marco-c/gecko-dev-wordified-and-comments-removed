@@ -581,6 +581,10 @@ iclip_wmp
 apply_sign64
 (
 (
+int
+)
+(
+(
 llabs
 (
 v1
@@ -591,6 +595,7 @@ rnd
 >
 >
 shift
+)
 v1
 )
 )
@@ -628,10 +633,11 @@ mat
 5
 ]
 -
+apply_sign64
+(
 (
 int
 )
-apply_sign64
 (
 (
 llabs
@@ -644,6 +650,7 @@ rnd
 >
 >
 shift
+)
 v2
 )
 -
@@ -832,6 +839,10 @@ v2
 apply_sign64
 (
 (
+int
+)
+(
+(
 llabs
 (
 v1
@@ -852,6 +863,7 @@ shift
 >
 >
 shift
+)
 v1
 )
 ;
@@ -895,6 +907,10 @@ v2
 apply_sign64
 (
 (
+int
+)
+(
+(
 llabs
 (
 v1
@@ -915,6 +931,7 @@ shift
 >
 >
 shift
+)
 v1
 )
 ;

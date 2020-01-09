@@ -1,9 +1,9 @@
 #
 ifndef
-__DAV1D_COMMON_DUMP_H__
+DAV1D_COMMON_DUMP_H
 #
 define
-__DAV1D_COMMON_DUMP_H__
+DAV1D_COMMON_DUMP_H
 #
 include
 <

@@ -5126,6 +5126,9 @@ dst
 x
 ]
 =
+(
+pixel
+)
 pal
 [
 idx

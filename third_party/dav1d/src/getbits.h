@@ -1,9 +1,9 @@
 #
 ifndef
-__DAV1D_SRC_GETBITS_H__
+DAV1D_SRC_GETBITS_H
 #
 define
-__DAV1D_SRC_GETBITS_H__
+DAV1D_SRC_GETBITS_H
 #
 include
 <
@@ -79,6 +79,14 @@ n
 )
 ;
 unsigned
+dav1d_get_uleb128
+(
+GetBits
+*
+c
+)
+;
+unsigned
 dav1d_get_uniform
 (
 GetBits
@@ -128,6 +136,9 @@ c
 )
 {
 return
+(
+unsigned
+)
 (
 c
 -

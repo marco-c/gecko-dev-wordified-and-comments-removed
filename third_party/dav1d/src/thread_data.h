@@ -1,9 +1,9 @@
 #
 ifndef
-__DAV1D_SRC_THREAD_DATA_H__
+DAV1D_SRC_THREAD_DATA_H
 #
 define
-__DAV1D_SRC_THREAD_DATA_H__
+DAV1D_SRC_THREAD_DATA_H
 #
 include
 "
@@ -24,6 +24,9 @@ cond
 ;
 pthread_mutex_t
 lock
+;
+int
+inited
 ;
 }
 ;

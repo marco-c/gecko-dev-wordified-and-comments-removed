@@ -1,9 +1,9 @@
 #
 ifndef
-__DAV1D_SRC_X86_CPU_H__
+DAV1D_SRC_X86_CPU_H
 #
 define
-__DAV1D_SRC_X86_CPU_H__
+DAV1D_SRC_X86_CPU_H
 enum
 CpuFlags
 {

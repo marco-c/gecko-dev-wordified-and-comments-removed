@@ -12031,6 +12031,9 @@ bs
 int
 stride
 =
+(
+int
+)
 cm
 -
 >
@@ -12794,6 +12797,9 @@ cm
 >
 mi_stride
 =
+(
+int
+)
 stride
 ;
 for
