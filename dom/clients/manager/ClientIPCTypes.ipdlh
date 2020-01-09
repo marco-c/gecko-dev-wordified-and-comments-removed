@@ -321,6 +321,11 @@ ClientOpenWindowArgs
 PrincipalInfo
 principalInfo
 ;
+ContentSecurityPolicy
+[
+]
+cspInfos
+;
 nsCString
 url
 ;
