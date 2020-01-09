@@ -16,6 +16,8 @@ PACKAGE_VERSION
 '
 1
 .
+1
+.
 0
 '
 deps
@@ -118,10 +120,9 @@ Language
 Python
 :
 :
-2
-:
-:
-Only
+3
+.
+5
 '
 ]
       
