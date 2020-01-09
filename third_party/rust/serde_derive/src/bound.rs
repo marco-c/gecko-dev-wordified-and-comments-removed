@@ -215,7 +215,7 @@ extend
 (
 predicates
 .
-into_iter
+iter
 (
 )
 .
@@ -889,6 +889,7 @@ variants
 )
 =
 >
+{
 for
 variant
 in
@@ -944,6 +945,7 @@ field
 original
 )
 ;
+}
 }
 }
 Data
