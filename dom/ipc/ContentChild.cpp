@@ -5991,13 +5991,6 @@ rv
 =
 =
 NS_OK
-&
-&
-endpoint
-.
-IsValid
-(
-)
 )
 {
 RemoteDecoderManagerChild
