@@ -39,6 +39,9 @@ h
 struct
 JSContext
 ;
+class
+JSObject
+;
 struct
 JSRuntime
 ;
