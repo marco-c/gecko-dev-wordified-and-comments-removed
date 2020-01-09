@@ -159,6 +159,13 @@ PropTypes
 func
 .
 isRequired
+doResizeViewport
+:
+PropTypes
+.
+func
+.
+isRequired
 onResizeViewport
 :
 PropTypes
@@ -208,6 +215,7 @@ leftAlignmentEnabled
 onBrowserMounted
 onContentResize
 onRemoveDeviceAssociation
+doResizeViewport
 onResizeViewport
 screenshot
 viewports
@@ -326,6 +334,7 @@ leftAlignmentEnabled
 onBrowserMounted
 onContentResize
 onRemoveDeviceAssociation
+doResizeViewport
 onResizeViewport
 screenshot
 swapAfterMount
