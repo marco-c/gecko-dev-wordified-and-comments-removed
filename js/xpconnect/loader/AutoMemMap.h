@@ -70,7 +70,10 @@ FileDescriptor
 namespace
 loader
 {
-using
+class
+AutoMemMap
+{
+typedef
 mozilla
 :
 :
@@ -78,10 +81,8 @@ ipc
 :
 :
 FileDescriptor
+FileDescriptor
 ;
-class
-AutoMemMap
-{
 public
 :
 AutoMemMap
@@ -127,9 +128,6 @@ nsresult
 init
 (
 const
-ipc
-:
-:
 FileDescriptor
 &
 file
@@ -151,9 +149,6 @@ nsresult
 initWithHandle
 (
 const
-ipc
-:
-:
 FileDescriptor
 &
 file
