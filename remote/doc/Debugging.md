@@ -80,18 +80,6 @@ run
 -
 setpref
 "
-browser
-.
-fission
-.
-simulate
-=
-true
-"
--
--
-setpref
-"
 remote
 .
 log
@@ -100,8 +88,6 @@ level
 =
 Debug
 "
--
--
 -
 -
 remote
