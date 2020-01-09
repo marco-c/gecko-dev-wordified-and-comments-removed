@@ -184,6 +184,10 @@ status
 then
 echo
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 Could

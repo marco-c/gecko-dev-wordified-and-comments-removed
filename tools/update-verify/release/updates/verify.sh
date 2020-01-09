@@ -979,6 +979,10 @@ err
 then
 echo
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 [
@@ -1644,6 +1648,10 @@ err
 then
 echo
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 [
@@ -1767,6 +1775,10 @@ err
 then
 echo
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 [
@@ -1831,6 +1843,10 @@ err
 else
 echo
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 [
@@ -1971,6 +1987,10 @@ complete_size
 then
 echo
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 [

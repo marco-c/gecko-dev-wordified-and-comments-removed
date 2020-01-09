@@ -379,6 +379,10 @@ situation
 !
 grep
 '
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 '

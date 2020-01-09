@@ -545,6 +545,10 @@ cd
 else
 echo
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 no
@@ -585,6 +589,10 @@ succeeded
 then
 echo
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 update
@@ -841,6 +849,10 @@ diffErr
 then
 echo
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 differences
@@ -860,6 +872,10 @@ diffErr
 then
 echo
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
 :
 unknown
