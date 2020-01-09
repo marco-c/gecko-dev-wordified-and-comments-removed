@@ -1234,7 +1234,7 @@ info
 Stopping
 mitmproxy
 playback
-klling
+killing
 process
 %
 d
