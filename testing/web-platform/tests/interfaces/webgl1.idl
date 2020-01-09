@@ -263,6 +263,11 @@ failIfMajorPerformanceCaveat
 =
 false
 ;
+boolean
+desynchronized
+=
+false
+;
 }
 ;
 [
