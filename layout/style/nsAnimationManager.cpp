@@ -2393,12 +2393,7 @@ aComputedStyle
 aComputedStyle
 -
 >
-ComputedData
-(
-)
--
->
-GetStyleDisplay
+StyleDisplay
 (
 )
 :
