@@ -7346,6 +7346,8 @@ nsChangeHint_ChildrenOnlyTransform
 nsChangeHint_UpdatePostTransformOverflow
 |
 nsChangeHint_UpdateParentOverflow
+|
+nsChangeHint_UpdateSubtreeOverflow
 )
 ;
 }
