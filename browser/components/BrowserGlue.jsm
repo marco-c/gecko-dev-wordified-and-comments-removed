@@ -628,7 +628,7 @@ CleanUp
 ]
 }
 }
-FormSubmit
+FormValidation
 :
 {
 child
@@ -644,7 +644,7 @@ resource
 /
 actors
 /
-FormSubmitChild
+FormValidationChild
 .
 jsm
 "
