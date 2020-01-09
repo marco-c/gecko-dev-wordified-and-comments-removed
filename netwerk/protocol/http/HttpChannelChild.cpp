@@ -1916,6 +1916,10 @@ altDataLen
 const
 bool
 &
+deliveringAltData
+const
+bool
+&
 aApplyConversion
 const
 ResourceTimingStruct
@@ -1998,6 +2002,10 @@ mAltDataLen
 (
 altDataLen
 )
+mDeliveringAltData
+(
+deliveringAltData
+)
 mLoadInfoForwarder
 (
 loadInfoForwarder
@@ -2054,6 +2062,7 @@ mPeerAddr
 mCacheKey
 mAltDataType
 mAltDataLen
+mDeliveringAltData
 mApplyConversion
 mTiming
 )
@@ -2111,6 +2120,9 @@ mAltDataType
 ;
 int64_t
 mAltDataLen
+;
+bool
+mDeliveringAltData
 ;
 ParentLoadInfoForwarderArgs
 mLoadInfoForwarder
@@ -2204,6 +2216,10 @@ const
 int64_t
 &
 altDataLen
+const
+bool
+&
+deliveringAltData
 const
 bool
 &
@@ -2306,6 +2322,7 @@ peerAddr
 cacheKey
 altDataType
 altDataLen
+deliveringAltData
 aApplyConversion
 aTiming
 )
@@ -2439,6 +2456,10 @@ const
 int64_t
 &
 altDataLen
+const
+bool
+&
+deliveringAltData
 const
 bool
 &
@@ -2663,6 +2684,10 @@ peerAddr
 mAvailableCachedAltDataType
 =
 altDataType
+;
+mDeliveringAltData
+=
+deliveringAltData
 ;
 mAltDataLength
 =

@@ -868,6 +868,8 @@ altDataType
 int64_t
 altDataLength
 bool
+deliveringAltData
+bool
 applyConversion
 ResourceTimingStruct
 timing

@@ -2248,6 +2248,16 @@ IsNavigation
 (
 )
 ;
+bool
+IsDeliveringAltData
+(
+)
+const
+{
+return
+mDeliveringAltData
+;
+}
 static
 bool
 IsReferrerSchemeAllowed
@@ -3332,6 +3342,9 @@ mAsyncOpenTimeOverriden
 ;
 bool
 mForcePending
+;
+bool
+mDeliveringAltData
 ;
 bool
 mCorsIncludeCredentials
