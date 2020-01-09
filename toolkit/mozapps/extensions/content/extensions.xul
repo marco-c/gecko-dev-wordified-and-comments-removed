@@ -1847,11 +1847,6 @@ selectedIndex
 "
 0
 "
-tabindex
-=
-"
-0
-"
 >
 <
 vbox
@@ -3152,11 +3147,6 @@ align
 "
 stretch
 "
-tabindex
-=
-"
-0
-"
 >
 <
 !
@@ -4411,11 +4401,6 @@ align
 "
 stretch
 "
-tabindex
-=
-"
-0
-"
 >
 <
 vbox
@@ -4566,11 +4551,6 @@ class
 view
 -
 pane
-"
-tabindex
-=
-"
-0
 "
 >
 <
