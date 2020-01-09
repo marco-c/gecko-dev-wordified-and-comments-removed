@@ -112,9 +112,6 @@ MetadataMemoryLimit
 {
 return
 sMetadataMemoryLimit
-<
-<
-10
 ;
 }
 static
@@ -131,9 +128,6 @@ DiskCacheCapacity
 {
 return
 sDiskCacheCapacity
-<
-<
-10
 ;
 }
 static
@@ -151,9 +145,6 @@ DiskFreeSpaceSoftLimit
 {
 return
 sDiskFreeSpaceSoftLimit
-<
-<
-10
 ;
 }
 static
@@ -164,9 +155,6 @@ DiskFreeSpaceHardLimit
 {
 return
 sDiskFreeSpaceHardLimit
-<
-<
-10
 ;
 }
 static
@@ -197,9 +185,6 @@ MaxMemoryEntrySize
 {
 return
 sMaxMemoryEntrySize
-<
-<
-10
 ;
 }
 static
@@ -210,9 +195,6 @@ MaxDiskEntrySize
 {
 return
 sMaxDiskEntrySize
-<
-<
-10
 ;
 }
 static
@@ -227,14 +209,8 @@ return
 aPriority
 ?
 sMaxDiskPriorityChunksMemoryUsage
-<
-<
-10
 :
 sMaxDiskChunksMemoryUsage
-<
-<
-10
 ;
 }
 static
