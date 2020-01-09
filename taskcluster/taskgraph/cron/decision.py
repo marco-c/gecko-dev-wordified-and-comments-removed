@@ -275,49 +275,6 @@ head_rev
 ]
 )
     
-slugids
-=
-{
-}
-    
-def
-as_slugid
-(
-name
-)
-:
-        
-name
-=
-name
-[
-0
-]
-        
-if
-name
-not
-in
-slugids
-:
-            
-slugids
-[
-name
-]
-=
-slugid
-.
-nice
-(
-)
-        
-return
-slugids
-[
-name
-]
-    
 context
 =
 {
@@ -504,10 +461,14 @@ current_json_time
 )
         
 '
-as_slugid
+ownTaskId
 '
 :
-as_slugid
+slugid
+.
+nice
+(
+)
     
 }
     
