@@ -273,3 +273,17 @@ mp4
 ref
 .
 html
+skip
+-
+if
+(
+Android
+)
+=
+=
+vtt_update_display_after_removed_cue
+.
+html
+vtt_update_display_after_removed_cue_ref
+.
+html
