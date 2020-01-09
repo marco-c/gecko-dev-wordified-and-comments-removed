@@ -127,6 +127,10 @@ const
 nsACString
 &
 aSource
+const
+nsACString
+&
+aSelectors
 )
 ;
 void
@@ -194,6 +198,9 @@ mErrorLine
 ;
 nsString
 mFileName
+;
+nsString
+mSelectors
 ;
 const
 StyleSheet

@@ -56,7 +56,9 @@ crate
 properties
 :
 :
+{
 parse_property_declaration_list
+}
 ;
 use
 crate
@@ -3303,6 +3305,7 @@ parse_property_declaration_list
 &
 context
 input
+None
 )
 ;
 Ok
@@ -3610,6 +3613,11 @@ parse_property_declaration_list
 &
 context
 input
+Some
+(
+&
+selectors
+)
 )
 ;
 let

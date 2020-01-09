@@ -1421,6 +1421,9 @@ message
 errorMessage
 :
 null
+cssSelectors
+:
+null
 sourceName
 :
 null
@@ -1472,6 +1475,14 @@ errorMessage
 msg
 .
 errorMessage
+;
+m
+.
+cssSelectors
+=
+msg
+.
+cssSelectors
 ;
 m
 .
