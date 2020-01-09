@@ -1030,6 +1030,11 @@ Location
 h
 '
 '
+MaybeCrossOriginObject
+.
+h
+'
+'
 MessageBroadcaster
 .
 h
@@ -1538,6 +1543,11 @@ cpp
 '
 '
 Location
+.
+cpp
+'
+'
+MaybeCrossOriginObject
 .
 cpp
 '

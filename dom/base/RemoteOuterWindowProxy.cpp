@@ -681,10 +681,7 @@ access
 bool
 ok
 =
-RemoteObjectProxy
-:
-:
-getOwnPropertyDescriptorInternal
+CrossOriginGetOwnPropertyHelper
 (
 aCx
 aProxy
@@ -778,7 +775,7 @@ aDesc
 }
 }
 return
-getOwnPropertyDescriptorTail
+CrossOriginPropertyFallback
 (
 aCx
 aProxy
