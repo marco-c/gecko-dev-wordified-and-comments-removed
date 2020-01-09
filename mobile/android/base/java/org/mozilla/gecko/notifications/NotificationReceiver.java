@@ -499,17 +499,6 @@ name
 cookie
 )
 ;
-if
-(
-persistentIntent
-!
-=
-null
-)
-{
-return
-;
-}
 final
 Intent
 appIntent
