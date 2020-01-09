@@ -1331,7 +1331,7 @@ l10n
 "
 ToolboxDebugger
 .
-tooltip2
+tooltip3
 "
 )
 ;
