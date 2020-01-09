@@ -118,13 +118,6 @@ map
 js
 '
 '
-closest
--
-scripts
-.
-js
-'
-'
 css
 -
 grid
