@@ -6683,7 +6683,7 @@ isSystemPrincipal
 delete
 browser
 .
-canceledAuthenticationPromptCounter
+authPromptAbuseCounter
 ;
 }
 let

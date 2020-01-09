@@ -15725,7 +15725,7 @@ browser
 delete
 browser
 .
-canceledAuthenticationPromptCounter
+authPromptAbuseCounter
 ;
 PanelMultiView
 .
