@@ -667,3 +667,7 @@ rust
 win64
 -
 cbindgen
+-
+win64
+-
+nasm
