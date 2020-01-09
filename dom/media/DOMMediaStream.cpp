@@ -1786,7 +1786,7 @@ Length
 mGraph
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 NS_NewRunnableFunction
 (

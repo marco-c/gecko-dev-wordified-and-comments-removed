@@ -3192,7 +3192,7 @@ aTicksToProcess
 )
 ;
 void
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 already_AddRefed
 <

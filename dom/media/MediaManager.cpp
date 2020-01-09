@@ -5058,7 +5058,7 @@ __func__
 mGraph
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 NS_NewRunnableFunction
 (

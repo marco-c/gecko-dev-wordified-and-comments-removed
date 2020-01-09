@@ -1188,7 +1188,7 @@ Graph
 )
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 NS_NewRunnableFunction
 (

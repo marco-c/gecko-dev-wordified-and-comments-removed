@@ -12237,7 +12237,7 @@ Graph
 )
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 mRunnable
 .
@@ -16288,7 +16288,7 @@ Graph
 )
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 mRunnable
 .
@@ -20452,7 +20452,7 @@ void
 MediaStreamGraph
 :
 :
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 already_AddRefed
 <
