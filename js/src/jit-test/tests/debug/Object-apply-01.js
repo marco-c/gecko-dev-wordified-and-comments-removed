@@ -516,6 +516,7 @@ join
 )
 "
 throw
+stack
 "
 )
 ;
