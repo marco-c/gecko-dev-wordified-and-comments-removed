@@ -608,6 +608,9 @@ hoistedSetDefaultPref
 (
 prefName
 prefValue
+locked
+=
+false
 )
 {
 if
@@ -723,6 +726,7 @@ _originalFunc
 (
 prefName
 prefValue
+locked
 )
 ;
 }
