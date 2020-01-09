@@ -7638,15 +7638,9 @@ GetSize
 (
 )
 )
-nsIPresShell
-:
-:
 ScrollAxis
 (
 )
-nsIPresShell
-:
-:
 ScrollAxis
 (
 )
