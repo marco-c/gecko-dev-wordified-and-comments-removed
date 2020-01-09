@@ -175,6 +175,17 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+mochitest
+-
+'
++
+name
     
 }
 TEST_SUITES
@@ -216,6 +227,14 @@ test_file
 :
 None
 }
+        
+'
+mozharness_name
+'
+:
+'
+cppunittest
+'
     
 }
     
@@ -305,6 +324,14 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+crashtest
+'
     
 }
     
@@ -632,6 +659,14 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+a11y
+'
     
 }
     
@@ -738,6 +773,16 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+browser
+-
+chrome
+'
     
 }
     
@@ -849,6 +894,18 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+browser
+-
+chrome
+-
+clipboard
+'
     
 }
     
@@ -946,6 +1003,14 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+chrome
+'
     
 }
     
@@ -1055,6 +1120,16 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+chrome
+-
+clipboard
+'
     
 }
     
@@ -1161,6 +1236,16 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+chrome
+-
+gpu
+'
     
 }
     
@@ -1274,6 +1359,18 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+mochitest
+-
+devtools
+-
+chrome
+'
     
 }
     
@@ -1383,6 +1480,16 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+mochitest
+-
+media
+'
     
 }
     
@@ -1514,6 +1621,14 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+plain
+'
     
 }
     
@@ -1616,6 +1731,16 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+plain
+-
+clipboard
+'
     
 }
     
@@ -1715,6 +1840,16 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+plain
+-
+gpu
+'
     
 }
     
@@ -1804,6 +1939,18 @@ screenshots
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+browser
+-
+chrome
+-
+screenshots
+'
     
 }
     
@@ -2013,6 +2160,14 @@ gpu
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+reftest
+'
     
 }
     
@@ -2559,6 +2714,14 @@ verify
 )
 '
 ]
+        
+'
+mozharness_name
+'
+:
+'
+xpcshell
+'
     
 }
 }

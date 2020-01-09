@@ -249,7 +249,7 @@ js
 ]
         
 '
-mochitest
+plain
 '
 :
 [
