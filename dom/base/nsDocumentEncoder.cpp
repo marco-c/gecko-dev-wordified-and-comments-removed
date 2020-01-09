@@ -2967,8 +2967,6 @@ endOffset
 }
 if
 (
-startOffset
-<
 endOffset
 )
 {
