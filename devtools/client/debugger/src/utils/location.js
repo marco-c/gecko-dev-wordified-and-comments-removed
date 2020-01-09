@@ -15,9 +15,9 @@ from
 "
 .
 /
-source
+selected
 -
-maps
+location
 "
 ;
 import
