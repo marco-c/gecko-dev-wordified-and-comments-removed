@@ -173,6 +173,13 @@ ERR_MOVE_DESTDIR_7
 n
 "
 +
+STATE_FAILED_WRITE_ERROR
++
+"
+\
+n
+"
++
 CALL_QUIT
 )
 ;
