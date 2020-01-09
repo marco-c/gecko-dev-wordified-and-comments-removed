@@ -1066,6 +1066,16 @@ return
 false
 ;
 }
+bool
+IsAsyncZoomContainer
+(
+)
+const
+{
+return
+false
+;
+}
 const
 void
 *

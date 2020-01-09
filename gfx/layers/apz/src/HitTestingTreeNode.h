@@ -254,6 +254,8 @@ EventRegionsOverride
 aOverride
 bool
 aIsBackfaceHidden
+bool
+aIsAsyncZoomContainer
 )
 ;
 bool
@@ -407,6 +409,12 @@ GetVisibleRegion
 )
 const
 ;
+bool
+IsAsyncZoomContainer
+(
+)
+const
+;
 void
 Dump
 (
@@ -511,6 +519,9 @@ mTransform
 ;
 bool
 mIsBackfaceHidden
+;
+bool
+mIsAsyncZoomContainer
 ;
 Maybe
 <
