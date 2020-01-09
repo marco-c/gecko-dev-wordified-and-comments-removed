@@ -2405,6 +2405,15 @@ FirstChild
 )
 &
 &
+(
+StaticPrefs
+:
+:
+layout_css_column_span_enabled
+(
+)
+|
+|
 !
 StyleDisplay
 (
@@ -2413,6 +2422,7 @@ StyleDisplay
 >
 IsContainSize
 (
+)
 )
 )
 {
@@ -2615,6 +2625,15 @@ FirstChild
 )
 &
 &
+(
+StaticPrefs
+:
+:
+layout_css_column_span_enabled
+(
+)
+|
+|
 !
 StyleDisplay
 (
@@ -2623,6 +2642,7 @@ StyleDisplay
 >
 IsContainSize
 (
+)
 )
 )
 {
