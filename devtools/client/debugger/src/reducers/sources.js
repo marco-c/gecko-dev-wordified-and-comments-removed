@@ -3305,6 +3305,9 @@ string
 chromeAndExtensionsEnabled
 :
 boolean
+debuggeeIsWebExtension
+:
+boolean
 |
 }
 Array
@@ -3323,6 +3326,7 @@ ident
 {
 projectDirectoryRoot
 chromeAndExtensionsEnabled
+debuggeeIsWebExtension
 }
 )
 =
@@ -3351,6 +3355,9 @@ isExtension
 |
 |
 chromeAndExtensionsEnabled
+|
+|
+debuggeeIsWebExtension
 )
 }
 )
@@ -3430,6 +3437,13 @@ state
 sources
 .
 chromeAndExtenstionsEnabled
+debuggeeIsWebExtension
+:
+state
+.
+debuggee
+.
+isWebExtension
 }
 )
 ;
