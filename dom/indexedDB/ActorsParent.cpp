@@ -97940,7 +97940,6 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 }
 }
 else
-{
 if
 (
 mTransaction
@@ -97964,7 +97963,6 @@ mResultCode
 NS_ERROR_DOM_INDEXEDDB_ABORT_ERR
 ;
 }
-else
 if
 (
 NS_SUCCEEDED
@@ -98021,7 +98019,6 @@ mResultCode
 false
 )
 ;
-}
 }
 }
 if
