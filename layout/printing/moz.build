@@ -188,7 +188,7 @@ nsPrintObject
 cpp
 '
 '
-nsPrintPreviewListener
+PrintPreviewUserEventSuppressor
 .
 cpp
 '

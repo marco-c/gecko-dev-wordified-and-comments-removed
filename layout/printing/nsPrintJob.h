@@ -408,7 +408,7 @@ CheckDocumentForPPCaching
 )
 ;
 void
-InstallPrintPreviewListener
+SuppressPrintPreviewUserEvents
 (
 )
 ;
