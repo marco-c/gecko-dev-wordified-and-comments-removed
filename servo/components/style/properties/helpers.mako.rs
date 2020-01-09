@@ -7,6 +7,7 @@ import
 Keyword
 to_rust_ident
 to_camel_case
+SYSTEM_FONT_LONGHANDS
 from
 data
 import
@@ -15,7 +16,6 @@ PHYSICAL_CORNERS
 LOGICAL_SIDES
 PHYSICAL_SIDES
 LOGICAL_SIZES
-SYSTEM_FONT_LONGHANDS
 %
 >
 <

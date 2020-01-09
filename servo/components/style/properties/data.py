@@ -1841,17 +1841,17 @@ if
 logical_side
 in
 LOGICAL_SIDES
-else
 \
-                   
+            
+else
 PHYSICAL_SIZES
 if
 logical_side
 in
 LOGICAL_SIZES
-else
 \
-                   
+            
+else
 LOGICAL_CORNERS
         
 return
