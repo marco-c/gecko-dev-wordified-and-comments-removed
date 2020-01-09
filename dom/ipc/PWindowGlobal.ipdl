@@ -200,13 +200,6 @@ PBrowser
 or
 PInProcess
 ;
-child
-:
-async
-__delete__
-(
-)
-;
 parent
 :
 /
@@ -250,7 +243,7 @@ BecomeCurrentWindowGlobal
 )
 ;
 async
-Destroy
+__delete__
 (
 )
 ;
