@@ -771,9 +771,11 @@ win
 let
 formOrigin
 =
-LoginHelper
+LMCBackstagePass
 .
-getLoginOrigin
+LoginUtils
+.
+_getPasswordOrigin
 (
 document
 .
