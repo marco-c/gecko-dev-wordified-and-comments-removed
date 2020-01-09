@@ -2992,11 +2992,9 @@ raw_input
 prompt
 +
 '
-[
-Y
-/
-n
-]
+(
+Yn
+)
 :
 '
 )
