@@ -154,15 +154,6 @@ mozilla
 .
 gecko
 .
-GeckoFontScaleListener
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoSystemStateListener
 ;
 import
