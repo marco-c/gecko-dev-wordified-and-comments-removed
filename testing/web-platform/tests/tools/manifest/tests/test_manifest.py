@@ -534,13 +534,9 @@ sourcefile_strategy
 min_size
 =
 1
-average_size
-=
-10
 max_size
 =
 1000
-                  
 unique_by
 =
 lambda
@@ -662,10 +658,6 @@ sourcefile_strategy
 min_size
 =
 1
-average_size
-=
-10
-                  
 unique_by
 =
 lambda
