@@ -855,6 +855,16 @@ PSocketProcessBridgeChild
 endpoint
 )
 ;
+async
+EnsureHSTSData
+(
+)
+returns
+(
+bool
+result
+)
+;
 child
 :
 /
