@@ -5488,6 +5488,7 @@ param
 ;
 }
 else
+{
 this
 .
 addParam
@@ -5506,6 +5507,7 @@ purpose
 undefined
 )
 ;
+}
 }
 }
 toJSON
@@ -5755,6 +5757,7 @@ NS_ERROR_INVALID_ARG
 }
 }
 else
+{
 ERROR
 (
 "
@@ -5774,6 +5777,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 if
 (
 !
@@ -19954,12 +19958,14 @@ engine
 .
 _isDefault
 )
+{
 origin
 =
 "
 default
 "
 ;
+}
 else
 {
 let
@@ -19979,12 +19985,14 @@ if
 !
 currentHash
 )
+{
 origin
 =
 "
 unverified
 "
 ;
+}
 else
 {
 let
@@ -22210,6 +22218,7 @@ updateURI
 ;
 }
 else
+{
 ULOG
 (
 "
@@ -22218,6 +22227,7 @@ updateURI
 "
 )
 ;
+}
 if
 (
 engine

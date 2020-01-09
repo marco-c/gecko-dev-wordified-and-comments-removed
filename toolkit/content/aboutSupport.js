@@ -7238,6 +7238,7 @@ Node
 .
 ELEMENT_NODE
 )
+{
 this
 .
 _serializeElement
@@ -7245,6 +7246,7 @@ _serializeElement
 child
 )
 ;
+}
 }
 if
 (

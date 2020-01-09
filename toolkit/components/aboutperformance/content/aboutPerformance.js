@@ -2228,6 +2228,7 @@ if
 !
 energyImpact
 )
+{
 elt
 .
 textContent
@@ -2235,6 +2236,7 @@ textContent
 "
 "
 ;
+}
 else
 {
 let

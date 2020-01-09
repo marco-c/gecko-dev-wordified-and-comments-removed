@@ -319,12 +319,14 @@ detectionQueue
 .
 length
 )
+{
 this
 .
 flushWorker
 (
 )
 ;
+}
 else
 {
 if

@@ -1445,6 +1445,7 @@ expectedEnabled
 =
 null
 )
+{
 is
 (
 actualEnabled
@@ -1472,6 +1473,7 @@ state
 "
 )
 ;
+}
 }
 function
 checkMenu

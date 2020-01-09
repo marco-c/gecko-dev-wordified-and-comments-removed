@@ -619,8 +619,10 @@ true
 ;
 }
 else
+{
 break
 ;
+}
 }
 }
 return

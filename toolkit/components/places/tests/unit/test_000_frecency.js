@@ -631,10 +631,12 @@ frecency
 ;
 }
 else
+{
 frecency
 =
 points
 ;
+}
 calculatedURI
 =
 uri
@@ -733,6 +735,7 @@ matchTitle
 ;
 }
 else
+{
 matchTitle
 =
 calculatedURI
@@ -755,6 +758,7 @@ lastIndexOf
 1
 )
 ;
+}
 await
 PlacesTestUtils
 .

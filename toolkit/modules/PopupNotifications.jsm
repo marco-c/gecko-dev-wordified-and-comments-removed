@@ -3353,6 +3353,7 @@ origin
 }
 }
 else
+{
 popupnotification
 .
 removeAttribute
@@ -3362,6 +3363,7 @@ origin
 "
 )
 ;
+}
 if
 (
 n

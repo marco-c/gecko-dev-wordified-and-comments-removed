@@ -230,6 +230,7 @@ transition
 =
 TRANSITION_TYPED
 )
+{
 PlacesUtils
 .
 history
@@ -244,6 +245,7 @@ url
 )
 )
 ;
+}
 else
 if
 (
@@ -254,6 +256,7 @@ transition
 =
 TRANSITION_BOOKMARK
 )
+{
 PlacesUtils
 .
 history
@@ -268,6 +271,7 @@ url
 )
 )
 ;
+}
 else
 {
 }

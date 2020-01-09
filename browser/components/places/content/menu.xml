@@ -3290,12 +3290,14 @@ scrollDir
 =
 1
 )
+{
 newMarginTop
 =
 scrollbox
 .
 height
 ;
+}
 /
 /
 Set

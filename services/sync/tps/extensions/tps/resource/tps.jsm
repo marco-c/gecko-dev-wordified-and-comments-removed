@@ -3495,6 +3495,7 @@ bookmark
 ;
 }
 else
+{
 Logger
 .
 AssertTrue
@@ -3509,6 +3510,7 @@ found
 true
 )
 ;
+}
 }
 last_item_pos
 =

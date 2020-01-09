@@ -110,12 +110,14 @@ if
 (
 args
 )
+{
 this
 .
 _branchStr
 =
 args
 ;
+}
 }
 Preferences
 .
@@ -1421,6 +1423,7 @@ prefValue
 ;
 }
 else
+{
 this
 .
 callback
@@ -1432,6 +1435,7 @@ topic
 data
 )
 ;
+}
 }
 }
 ;

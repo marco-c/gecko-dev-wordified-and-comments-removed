@@ -645,6 +645,7 @@ parentNode
 .
 parentNode
 )
+{
 endContainer
 .
 insertData
@@ -653,6 +654,7 @@ endOffset
 MARK_SELECTION_END
 )
 ;
+}
 else
 {
 tmpNode
@@ -793,6 +795,7 @@ parentNode
 .
 lastChild
 )
+{
 startContainer
 .
 insertData
@@ -801,6 +804,7 @@ startOffset
 MARK_SELECTION_START
 )
 ;
+}
 else
 {
 tmpNode

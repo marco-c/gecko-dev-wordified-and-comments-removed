@@ -415,8 +415,10 @@ true
 ;
 }
 else
+{
 break
 ;
+}
 }
 }
 return
@@ -720,6 +722,7 @@ SORT_BY_DATE_DESCENDING
 ;
 }
 else
+{
 check_children_sorting
 (
 root
@@ -728,6 +731,7 @@ sortingMode
 value
 )
 ;
+}
 var
 container
 =
@@ -842,6 +846,7 @@ SORT_BY_NONE
 ;
 }
 else
+{
 check_children_sorting
 (
 container
@@ -850,6 +855,7 @@ sortingMode
 value
 )
 ;
+}
 container
 .
 containerOpen
@@ -1051,6 +1057,7 @@ SORT_BY_NONE
 ;
 }
 else
+{
 check_children_sorting
 (
 root
@@ -1059,6 +1066,7 @@ aOriginalSortingMode
 value
 )
 ;
+}
 var
 container
 =
@@ -1248,6 +1256,7 @@ SORT_BY_NONE
 ;
 }
 else
+{
 check_children_sorting
 (
 root
@@ -1256,6 +1265,7 @@ aOriginalSortingMode
 value
 )
 ;
+}
 check_children_sorting
 (
 container

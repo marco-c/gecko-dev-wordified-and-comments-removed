@@ -1630,6 +1630,7 @@ valueFromPreferences
 ;
 }
 else
+{
 this
 .
 _value
@@ -1638,6 +1639,7 @@ this
 .
 valueFromPreferences
 ;
+}
 }
 reset
 (
@@ -1935,6 +1937,7 @@ localName
 checkbox
 "
 )
+{
 setValue
 (
 aElement
@@ -1944,6 +1947,7 @@ checked
 val
 )
 ;
+}
 else
 if
 (
@@ -1978,6 +1982,7 @@ val
 ;
 }
 else
+{
 setValue
 (
 aElement
@@ -1987,6 +1992,7 @@ value
 val
 )
 ;
+}
 }
 getElementValue
 (
@@ -3042,6 +3048,7 @@ val
 ;
 }
 else
+{
 lf
 =
 val
@@ -3053,6 +3060,7 @@ Ci
 nsIFile
 )
 ;
+}
 Services
 .
 prefs

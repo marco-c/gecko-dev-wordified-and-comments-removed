@@ -1638,6 +1638,7 @@ obj
 ;
 }
 else
+{
 this
 .
 _handlerInfo
@@ -1650,6 +1651,7 @@ nsIHandlerInfo
 .
 useSystemDefault
 ;
+}
 }
 this
 .

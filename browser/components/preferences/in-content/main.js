@@ -8543,6 +8543,7 @@ this
 .
 _handledTypes
 )
+{
 handlerInfoWrapper
 =
 this
@@ -8552,6 +8553,7 @@ _handledTypes
 type
 ]
 ;
+}
 else
 {
 handlerInfoWrapper

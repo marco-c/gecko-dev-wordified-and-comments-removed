@@ -373,6 +373,7 @@ data
 ;
 }
 else
+{
 this
 .
 callback
@@ -384,6 +385,7 @@ topic
 data
 )
 ;
+}
 }
 }
 ;

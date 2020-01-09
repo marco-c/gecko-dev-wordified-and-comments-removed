@@ -663,6 +663,7 @@ item
 0
 )
 )
+{
 this
 .
 selectedItem
@@ -672,6 +673,7 @@ arr
 0
 ]
 ;
+}
 else
 {
 this
@@ -969,12 +971,14 @@ val
 ;
 }
 else
+{
 this
 .
 selectedItem
 =
 null
 ;
+}
 return
 val
 ;

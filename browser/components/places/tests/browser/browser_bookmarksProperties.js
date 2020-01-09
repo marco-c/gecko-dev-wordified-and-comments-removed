@@ -2619,12 +2619,14 @@ item
 ;
 }
 else
+{
 command
 =
 "
 placesCmd_createBookmark
 "
 ;
+}
 break
 ;
 default

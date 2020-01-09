@@ -3059,12 +3059,14 @@ title
 }
 }
 else
+{
 title
 =
 aNode
 .
 title
 ;
+}
 return
 title
 |

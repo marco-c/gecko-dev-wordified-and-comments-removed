@@ -234,6 +234,7 @@ true
 ;
 }
 else
+{
 this
 .
 invalidateContainer
@@ -243,6 +244,7 @@ this
 _rootNode
 )
 ;
+}
 this
 .
 sortingChanged
@@ -5491,6 +5493,7 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_SEPARATOR
 )
+{
 properties
 +
 =
@@ -5498,6 +5501,7 @@ properties
 separator
 "
 ;
+}
 else
 if
 (

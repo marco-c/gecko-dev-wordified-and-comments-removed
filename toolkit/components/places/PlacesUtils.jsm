@@ -5368,6 +5368,7 @@ i
 +
 1
 )
+{
 titleString
 =
 parts
@@ -5377,6 +5378,7 @@ i
 1
 ]
 ;
+}
 else
 {
 try

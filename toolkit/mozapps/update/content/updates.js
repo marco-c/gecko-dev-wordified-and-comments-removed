@@ -3445,6 +3445,7 @@ this
 .
 _paused
 )
+{
 gAUS
 .
 downloadUpdate
@@ -3455,6 +3456,7 @@ update
 false
 )
 ;
+}
 else
 {
 var

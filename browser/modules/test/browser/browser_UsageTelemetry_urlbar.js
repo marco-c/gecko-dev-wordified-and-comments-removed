@@ -224,6 +224,7 @@ button
 =
 1
 )
+{
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -233,6 +234,7 @@ element
 }
 )
 ;
+}
 else
 if
 (

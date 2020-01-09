@@ -2018,6 +2018,7 @@ aExpected
 =
 undefined
 )
+{
 is
 (
 devicePerms
@@ -2036,6 +2037,7 @@ permissions
 "
 )
 ;
+}
 else
 {
 is
