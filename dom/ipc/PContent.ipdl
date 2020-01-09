@@ -4859,6 +4859,8 @@ PExternalHelperApp
 (
 OptionalURIParams
 uri
+OptionalLoadInfoArgs
+loadInfoArgs
 nsCString
 aMimeContentType
 nsCString
