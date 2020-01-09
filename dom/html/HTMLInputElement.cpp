@@ -31719,6 +31719,14 @@ false
 continue
 ;
 }
+filePicker
+-
+>
+AppendRawFilter
+(
+token
+)
+;
 nsFilePickerFilter
 filter
 ;

@@ -215,6 +215,10 @@ nsString
 ]
 filterNames
 nsString
+[
+]
+rawFilters
+nsString
 displayDirectory
 nsString
 displaySpecialDirectory
