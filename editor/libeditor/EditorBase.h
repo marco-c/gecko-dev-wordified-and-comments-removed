@@ -2241,6 +2241,15 @@ mData
 ;
 }
 void
+SetColorData
+(
+const
+nsAString
+&
+aData
+)
+;
+void
 SetTopLevelEditSubAction
 (
 EditSubAction

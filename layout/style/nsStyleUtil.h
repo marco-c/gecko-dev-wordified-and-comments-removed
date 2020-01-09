@@ -296,6 +296,17 @@ aAlpha
 )
 ;
 static
+void
+GetSerializedColorValue
+(
+nscolor
+aColor
+nsAString
+&
+aSerializedColor
+)
+;
+static
 bool
 IsSignificantChild
 (
