@@ -90,11 +90,6 @@ EXPORTS
 =
 [
 '
-nsTArrayHelpers
-.
-h
-'
-'
 xpc_make_class
 .
 h
