@@ -12123,9 +12123,9 @@ firefox
 VERSION
 %
 /
-tracking
+content
 -
-protection
+blocking
 /
 start
 /
