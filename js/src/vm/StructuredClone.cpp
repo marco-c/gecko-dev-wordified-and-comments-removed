@@ -14229,6 +14229,14 @@ initColumn
 column
 )
 ;
+savedFrame
+-
+>
+initSourceId
+(
+0
+)
+;
 RootedValue
 name
 (

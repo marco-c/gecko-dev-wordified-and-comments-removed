@@ -1329,6 +1329,17 @@ source
 )
 ;
 }
+uint32_t
+sourceId
+(
+)
+const
+override
+{
+return
+0
+;
+}
 AtomOrTwoByteChars
 functionDisplayName
 (
