@@ -183,7 +183,7 @@ Sepia
 (
 Au
 )
-DropShadowStack
+DropShadows
 (
 Vec
 <
@@ -655,7 +655,7 @@ Identity
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 ref
 shadows
@@ -666,7 +666,7 @@ shadows
 PictureCompositeKey
 :
 :
-DropShadowStack
+DropShadows
 (
 shadows
 .

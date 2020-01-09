@@ -331,7 +331,7 @@ Sepia
 (
 f32
 )
-DropShadowStack
+DropShadows
 (
 SmallVec
 <
@@ -398,7 +398,7 @@ MAX_BLUR_RADIUS
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 ref
 mut
@@ -529,7 +529,7 @@ Sepia
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 .
 .
@@ -739,7 +739,7 @@ amount
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 ref
 shadows
@@ -1134,7 +1134,7 @@ shadow
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 smallvec
 !

@@ -5851,7 +5851,7 @@ instance
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 shadows
 )
@@ -6428,7 +6428,7 @@ Opacity
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 .
 .
@@ -6603,7 +6603,7 @@ Blur
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 .
 .

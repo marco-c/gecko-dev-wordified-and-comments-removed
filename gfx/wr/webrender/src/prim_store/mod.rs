@@ -8543,7 +8543,7 @@ Filter
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 ref
 shadows
@@ -9911,7 +9911,7 @@ Filter
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 ref
 shadows
@@ -10009,7 +10009,7 @@ Filter
 Filter
 :
 :
-DropShadowStack
+DropShadows
 (
 .
 .
