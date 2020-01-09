@@ -2422,16 +2422,13 @@ bool
 ;
 pub
 fn
-UnwrapObject
+UnwrapObjectStatic
 (
 obj
 :
 *
 mut
 JSObject
-stopAtOuter
-:
-u8
 )
 -
 >
