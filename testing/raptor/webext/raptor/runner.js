@@ -2084,17 +2084,11 @@ timeout
 msgData
 )
 ;
-if
-(
-screenCapture
-)
-{
 await
 getScreenCapture
 (
 )
 ;
-}
 cleanUp
 (
 )
