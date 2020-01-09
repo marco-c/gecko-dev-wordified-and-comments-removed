@@ -1718,6 +1718,16 @@ enabled
 "
 true
 ]
+[
+"
+browser
+.
+discovery
+.
+enabled
+"
+false
+]
 ]
 }
 )
