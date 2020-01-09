@@ -841,7 +841,7 @@ mNextFiringId
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 int64_t
 mFiringIndex
 ;
