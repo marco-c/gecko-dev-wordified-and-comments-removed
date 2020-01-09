@@ -121,6 +121,7 @@ idl
 "
 [
 scriptable
+builtinclass
 uuid
 (
 4CAFE116
@@ -241,6 +242,9 @@ js
 *
 *
 /
+[
+infallible
+]
 attribute
 boolean
 mozbrowser
