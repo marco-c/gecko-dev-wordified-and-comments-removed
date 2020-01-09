@@ -429,6 +429,16 @@ CommitWaylandBuffer
 (
 )
 ;
+void
+CalcRectScale
+(
+LayoutDeviceIntRect
+&
+aRect
+int
+scale
+)
+;
 nsWindow
 *
 mWindow
