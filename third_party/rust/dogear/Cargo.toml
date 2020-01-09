@@ -127,7 +127,7 @@ version
 .
 2
 .
-4
+5
 "
 authors
 =
@@ -160,6 +160,13 @@ travis
 .
 yml
 "
+"
+/
+docs
+/
+*
+*
+"
 ]
 description
 =
@@ -171,6 +178,13 @@ merging
 bookmark
 trees
 .
+"
+readme
+=
+"
+README
+.
+md
 "
 license
 =

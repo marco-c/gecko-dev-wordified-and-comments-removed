@@ -59,6 +59,8 @@ driver
 :
 :
 {
+AbortSignal
+DefaultAbortSignal
 DefaultDriver
 Driver
 }
@@ -132,7 +134,6 @@ tree
 :
 {
 Content
-IntoTree
 Item
 Kind
 MergeState

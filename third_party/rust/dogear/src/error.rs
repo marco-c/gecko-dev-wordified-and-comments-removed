@@ -589,6 +589,21 @@ fmt
 (
 f
 )
+ErrorKind
+:
+:
+Abort
+=
+>
+write
+!
+(
+f
+"
+Operation
+aborted
+"
+)
 }
 }
 }
@@ -659,4 +674,5 @@ Sync
 static
 >
 )
+Abort
 }
