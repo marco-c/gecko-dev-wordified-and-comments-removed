@@ -110,14 +110,6 @@ glib
 '
         
 '
-desktop
--
-file
--
-utils
-'
-        
-'
 gconf
 '
         
@@ -127,22 +119,6 @@ gtk2
         
 '
 gtk3
-'
-        
-'
-hicolor
--
-icon
--
-theme
-'
-        
-'
-hunspell
-'
-        
-'
-icu
 '
         
 '
@@ -164,31 +140,13 @@ types
 '
         
 '
-mozilla
--
-common
-'
-        
-'
 nasm
-'
-        
-'
-nss
-'
-        
-'
-sqlite
 '
         
 '
 startup
 -
 notification
-'
-        
-'
-diffutils
 '
         
 '
@@ -199,14 +157,6 @@ plugins
 base
 -
 libs
-'
-        
-'
-imake
-'
-        
-'
-inetutils
 '
         
 '
