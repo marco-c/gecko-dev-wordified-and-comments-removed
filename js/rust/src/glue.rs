@@ -2534,7 +2534,7 @@ AutoIdVector
 ;
 pub
 fn
-CreateAutoObjectVector
+CreateRootedObjectVector
 (
 aCx
 :
@@ -2549,11 +2549,11 @@ mut
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 ;
 pub
 fn
-AppendToAutoObjectVector
+AppendToRootedObjectVector
 (
 v
 :
@@ -2562,7 +2562,7 @@ mut
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 obj
 :
 *
@@ -2575,7 +2575,7 @@ bool
 ;
 pub
 fn
-DeleteAutoObjectVector
+DeleteRootedObjectVector
 (
 v
 :
@@ -2584,7 +2584,7 @@ mut
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 )
 ;
 pub
