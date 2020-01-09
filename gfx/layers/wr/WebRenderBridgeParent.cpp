@@ -8935,12 +8935,6 @@ GetId
 )
 )
 {
-if
-(
-!
-mSkippedComposite
-)
-{
 mSkippedComposite
 =
 true
@@ -8949,7 +8943,6 @@ mSkippedCompositeId
 =
 aId
 ;
-}
 mPreviousFrameTimeStamp
 =
 TimeStamp
