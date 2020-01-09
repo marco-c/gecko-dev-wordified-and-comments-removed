@@ -35853,7 +35853,7 @@ Get
 globalObject
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 )

@@ -2508,7 +2508,7 @@ GetObjectCompartment
 aGlobal
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 )

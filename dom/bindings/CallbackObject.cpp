@@ -511,7 +511,7 @@ mIncumbentJSGlobal
 mIncumbentGlobal
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 ;

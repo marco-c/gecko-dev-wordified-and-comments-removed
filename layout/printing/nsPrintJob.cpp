@@ -15512,7 +15512,7 @@ Get
 go
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 )
@@ -15585,7 +15585,7 @@ Get
 go
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 )
