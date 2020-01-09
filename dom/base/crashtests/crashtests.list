@@ -1310,3 +1310,13 @@ load
 xhr_html_nullresponse
 .
 html
+load
+xhr
+-
+with
+-
+pagehide
+-
+1
+.
+html
