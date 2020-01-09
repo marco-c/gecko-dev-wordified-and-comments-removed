@@ -230,10 +230,13 @@ l
 )
 =
 >
+{
 match
 l
 .
-percentage
+specified_percentage
+(
+)
 {
 Some
 (
@@ -291,6 +294,7 @@ px
 (
 )
 )
+}
 }
 SvgLengthPercentageOrNumber
 :
