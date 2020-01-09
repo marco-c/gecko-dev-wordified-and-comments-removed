@@ -147,6 +147,15 @@ Login
 Manager
 login
 -
+filter
+=
+.
+placeholder
+=
+Search
+Logins
+login
+-
 list
 =
 .
