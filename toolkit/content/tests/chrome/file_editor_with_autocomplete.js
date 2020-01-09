@@ -989,7 +989,9 @@ insertReplacementText
 "
 data
 :
-null
+"
+Mozilla
+"
 }
 ]
 }
@@ -1578,7 +1580,9 @@ insertReplacementText
 "
 data
 :
-null
+"
+Mozilla
+"
 }
 ]
 }
@@ -2118,7 +2122,9 @@ insertReplacementText
 "
 data
 :
-null
+"
+Mozilla
+"
 }
 ]
 }
@@ -2529,7 +2535,9 @@ insertReplacementText
 "
 data
 :
-null
+"
+Mozilla
+"
 }
 ]
 }
@@ -2860,7 +2868,9 @@ insertReplacementText
 "
 data
 :
-null
+"
+mozilla
+"
 }
 ]
 }
@@ -2970,7 +2980,9 @@ insertReplacementText
 "
 data
 :
-null
+"
+Mozilla
+"
 }
 ]
 }
@@ -3392,7 +3404,9 @@ insertReplacementText
 "
 data
 :
-null
+"
+mozilla
+"
 }
 ]
 }
