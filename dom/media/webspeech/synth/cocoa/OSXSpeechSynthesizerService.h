@@ -68,12 +68,6 @@ GetInstanceForService
 (
 )
 ;
-static
-void
-Shutdown
-(
-)
-;
 private
 :
 OSXSpeechSynthesizerService
