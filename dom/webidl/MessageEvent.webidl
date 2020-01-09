@@ -288,6 +288,16 @@ event
 .
 *
 /
+[
+Func
+=
+"
+nsGlobalWindowInner
+:
+:
+AllowChromeFrameAccess
+"
+]
 readonly
 attribute
 MessageEventSource
