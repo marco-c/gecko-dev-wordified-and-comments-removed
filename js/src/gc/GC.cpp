@@ -199,6 +199,15 @@ include
 "
 gc
 /
+GCLock
+.
+h
+"
+#
+include
+"
+gc
+/
 GCTrace
 .
 h
