@@ -42,7 +42,6 @@ import
 getPreview
 getSelectedSource
 getIsPaused
-getCurrentThread
 }
 from
 "
@@ -999,10 +998,6 @@ isPaused
 getIsPaused
 (
 state
-getCurrentThread
-(
-state
-)
 )
 selectedSource
 :

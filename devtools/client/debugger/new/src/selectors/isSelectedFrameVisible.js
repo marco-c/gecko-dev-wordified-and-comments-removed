@@ -15,7 +15,6 @@ map
 import
 {
 getSelectedFrame
-getCurrentThread
 }
 from
 "
@@ -91,14 +90,6 @@ State
 )
 {
 const
-thread
-=
-getCurrentThread
-(
-state
-)
-;
-const
 selectedLocation
 =
 getSelectedLocation
@@ -112,7 +103,6 @@ selectedFrame
 getSelectedFrame
 (
 state
-thread
 )
 ;
 if

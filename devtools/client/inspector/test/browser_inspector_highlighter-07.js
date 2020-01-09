@@ -14,8 +14,7 @@ const
 selectors
 :
 {
-getIsPaused
-getCurrentThread
+isPaused
 }
 getState
 }
@@ -25,16 +24,10 @@ dbg
 return
 !
 !
-getIsPaused
+isPaused
 (
 getState
 (
-)
-getCurrentThread
-(
-getState
-(
-)
 )
 )
 ;

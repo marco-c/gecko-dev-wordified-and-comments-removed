@@ -1,5 +1,6 @@
 import
 {
+getCurrentThread
 getFrames
 getSymbols
 getSource
@@ -52,7 +53,6 @@ import
 type
 {
 Frame
-ThreadId
 }
 from
 "
@@ -142,7 +142,6 @@ function
 getSelectedFrameId
 (
 state
-thread
 frames
 )
 {
@@ -152,7 +151,6 @@ selectedFrame
 getSelectedFrame
 (
 state
-thread
 )
 ;
 if
@@ -771,9 +769,6 @@ export
 function
 mapFrames
 (
-thread
-:
-ThreadId
 )
 {
 return
@@ -797,7 +792,6 @@ getFrames
 getState
 (
 )
-thread
 )
 ;
 if
@@ -838,6 +832,16 @@ getState
 )
 ;
 const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
+const
 selectedFrameId
 =
 getSelectedFrameId
@@ -845,7 +849,6 @@ getSelectedFrameId
 getState
 (
 )
-thread
 mappedFrames
 )
 ;

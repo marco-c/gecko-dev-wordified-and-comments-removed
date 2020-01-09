@@ -205,7 +205,6 @@ getSelectedSource
 getConditionalPanelLocation
 getSymbols
 getIsPaused
-getCurrentThread
 }
 from
 "
@@ -3315,10 +3314,6 @@ isPaused
 getIsPaused
 (
 state
-getCurrentThread
-(
-state
-)
 )
 }
 ;

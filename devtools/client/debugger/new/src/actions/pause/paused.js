@@ -221,7 +221,6 @@ dispatch
 (
 mapFrames
 (
-thread
 )
 )
 ;
@@ -233,7 +232,6 @@ getSelectedFrame
 getState
 (
 )
-thread
 )
 ;
 if
@@ -261,7 +259,6 @@ wasStepping
 getState
 (
 )
-thread
 )
 )
 {
@@ -282,7 +279,6 @@ dispatch
 (
 fetchScopes
 (
-thread
 )
 )
 ;
@@ -310,7 +306,6 @@ isEvaluatingExpression
 getState
 (
 )
-thread
 )
 )
 {

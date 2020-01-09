@@ -80,8 +80,7 @@ selectors
 :
 {
 getSelectedSource
-getIsPaused
-getCurrentThread
+isPaused
 }
 getState
 }
@@ -224,16 +223,10 @@ loaded
 ok
 (
 !
-getIsPaused
+isPaused
 (
 getState
 (
-)
-getCurrentThread
-(
-getState
-(
-)
 )
 )
 "
