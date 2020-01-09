@@ -561,7 +561,7 @@ sc
 )
 -
 >
-context
+cx_
 ;
 fprintf
 (
@@ -750,7 +750,7 @@ sc
 )
 -
 >
-context
+cx_
 )
 )
 {
@@ -843,7 +843,7 @@ sc
 )
 -
 >
-context
+cx_
 )
 ;
 Maybe
@@ -1330,7 +1330,7 @@ traceLog_
 sc
 -
 >
-context
+cx_
 isFull
 ?
 TraceLogger_ParsingFull
@@ -1500,7 +1500,7 @@ sc
 )
 -
 >
-context
+cx_
 ;
 if
 (
@@ -1686,7 +1686,7 @@ sc
 )
 -
 >
-context
+cx_
 funbox
 -
 >
@@ -1809,7 +1809,7 @@ sc
 )
 -
 >
-context
+cx_
 name
 )
 )

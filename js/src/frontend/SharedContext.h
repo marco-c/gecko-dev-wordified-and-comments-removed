@@ -381,7 +381,7 @@ public
 JSContext
 *
 const
-context
+cx_
 ;
 protected
 :
@@ -506,7 +506,7 @@ bool
 extraWarnings
 )
 :
-context
+cx_
 (
 cx
 )

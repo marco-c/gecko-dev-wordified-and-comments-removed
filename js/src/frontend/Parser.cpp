@@ -809,7 +809,7 @@ Tag
 :
 Parser
 )
-context
+cx_
 (
 cx
 )
@@ -954,7 +954,7 @@ freeAllIfHugeAndUnused
 (
 )
 ;
-context
+cx_
 -
 >
 frontendCollectionPool
@@ -1362,7 +1362,7 @@ box
 {
 ReportOutOfMemory
 (
-context
+cx_
 )
 ;
 return
@@ -1469,7 +1469,7 @@ new_
 FunctionBox
 >
 (
-context
+cx_
 traceListHead
 fun
 toStringStart
@@ -1491,7 +1491,7 @@ funbox
 {
 ReportOutOfMemory
 (
-context
+cx_
 )
 ;
 return
@@ -1603,7 +1603,7 @@ ss
 >
 setDisplayURL
 (
-context
+cx_
 anyChars
 .
 displayURL
@@ -1645,7 +1645,7 @@ ss
 >
 setSourceMapURL
 (
-context
+cx_
 anyChars
 .
 sourceMapURL
@@ -1714,7 +1714,7 @@ ss
 >
 setSourceMapURL
 (
-context
+cx_
 options
 (
 )
@@ -1775,7 +1775,7 @@ strictOption
 GlobalSharedContext
 globalsc
 (
-context
+cx_
 ScopeKind
 :
 :
@@ -1939,7 +1939,7 @@ if
 !
 FoldConstants
 (
-context
+cx_
 &
 node
 &
@@ -2002,7 +2002,7 @@ return
 name
 !
 =
-context
+cx_
 -
 >
 names
@@ -2015,7 +2015,7 @@ eval
 name
 !
 =
-context
+cx_
 -
 >
 names
@@ -2201,7 +2201,7 @@ sc
 )
 -
 >
-context
+cx_
 )
 ;
 return
@@ -2281,7 +2281,7 @@ sc
 )
 -
 >
-context
+cx_
 getFilename
 (
 )
@@ -2343,7 +2343,7 @@ bytes
 =
 AtomToPrintableString
 (
-context
+cx_
 name
 )
 ;
@@ -2413,7 +2413,7 @@ sc
 )
 -
 >
-context
+cx_
 )
 ;
 return
@@ -2493,7 +2493,7 @@ sc
 )
 -
 >
-context
+cx_
 getFilename
 (
 )
@@ -2617,7 +2617,7 @@ bytes
 =
 AtomToPrintableString
 (
-context
+cx_
 name
 )
 ;
@@ -2709,7 +2709,7 @@ name
 {
 ReportOutOfMemory
 (
-context
+cx_
 )
 ;
 return
@@ -2784,7 +2784,7 @@ nullptr
 {
 ReportOutOfMemory
 (
-context
+cx_
 )
 ;
 return
@@ -3430,7 +3430,7 @@ if
 name
 =
 =
-context
+cx_
 -
 >
 names
@@ -3465,7 +3465,7 @@ MOZ_ASSERT
 name
 !
 =
-context
+cx_
 -
 >
 names
@@ -3824,7 +3824,7 @@ usedNames
 .
 noteUse
 (
-context
+cx_
 name
 pc
 -
@@ -4092,7 +4092,7 @@ name
 {
 ReportOutOfMemory
 (
-context
+cx_
 )
 ;
 return
@@ -4123,7 +4123,7 @@ nullptr
 {
 ReportOutOfMemory
 (
-context
+cx_
 )
 ;
 return
@@ -4573,7 +4573,7 @@ NewGlobalScopeData
 (
 JSContext
 *
-context
+cx
 ParseContext
 :
 :
@@ -4591,19 +4591,19 @@ pc
 BindingNameVector
 vars
 (
-context
+cx
 )
 ;
 BindingNameVector
 lets
 (
-context
+cx
 )
 ;
 BindingNameVector
 consts
 (
-context
+cx
 )
 ;
 bool
@@ -4849,7 +4849,7 @@ NewEmptyBindingData
 GlobalScope
 >
 (
-context
+cx
 alloc
 numBindings
 )
@@ -4923,7 +4923,7 @@ scope
 return
 NewGlobalScopeData
 (
-context
+cx_
 scope
 alloc
 pc
@@ -4942,7 +4942,7 @@ NewModuleScopeData
 (
 JSContext
 *
-context
+cx
 ParseContext
 :
 :
@@ -4960,25 +4960,25 @@ pc
 BindingNameVector
 imports
 (
-context
+cx
 )
 ;
 BindingNameVector
 vars
 (
-context
+cx
 )
 ;
 BindingNameVector
 lets
 (
-context
+cx
 )
 ;
 BindingNameVector
 consts
 (
-context
+cx
 )
 ;
 bool
@@ -5221,7 +5221,7 @@ NewEmptyBindingData
 ModuleScope
 >
 (
-context
+cx
 alloc
 numBindings
 )
@@ -5304,7 +5304,7 @@ scope
 return
 NewModuleScopeData
 (
-context
+cx_
 scope
 alloc
 pc
@@ -5323,7 +5323,7 @@ NewEvalScopeData
 (
 JSContext
 *
-context
+cx
 ParseContext
 :
 :
@@ -5341,7 +5341,7 @@ pc
 BindingNameVector
 vars
 (
-context
+cx
 )
 ;
 for
@@ -5455,7 +5455,7 @@ NewEmptyBindingData
 EvalScope
 >
 (
-context
+cx
 alloc
 numBindings
 )
@@ -5511,7 +5511,7 @@ scope
 return
 NewEvalScopeData
 (
-context
+cx_
 scope
 alloc
 pc
@@ -5530,7 +5530,7 @@ NewFunctionScopeData
 (
 JSContext
 *
-context
+cx
 ParseContext
 :
 :
@@ -5550,19 +5550,19 @@ pc
 BindingNameVector
 positionalFormals
 (
-context
+cx
 )
 ;
 BindingNameVector
 formals
 (
-context
+cx
 )
 ;
 BindingNameVector
 vars
 (
-context
+cx
 )
 ;
 bool
@@ -5858,7 +5858,7 @@ FunctionScope
 :
 isSpecialName
 (
-context
+cx
 bi
 .
 name
@@ -5936,7 +5936,7 @@ NewEmptyBindingData
 FunctionScope
 >
 (
-context
+cx
 alloc
 numBindings
 )
@@ -6012,7 +6012,7 @@ hasParameterExprs
 return
 NewFunctionScopeData
 (
-context
+cx_
 scope
 hasParameterExprs
 alloc
@@ -6032,7 +6032,7 @@ NewVarScopeData
 (
 JSContext
 *
-context
+cx
 ParseContext
 :
 :
@@ -6050,7 +6050,7 @@ pc
 BindingNameVector
 vars
 (
-context
+cx
 )
 ;
 bool
@@ -6171,7 +6171,7 @@ NewEmptyBindingData
 VarScope
 >
 (
-context
+cx
 alloc
 numBindings
 )
@@ -6227,7 +6227,7 @@ scope
 return
 NewVarScopeData
 (
-context
+cx_
 scope
 alloc
 pc
@@ -6246,7 +6246,7 @@ NewLexicalScopeData
 (
 JSContext
 *
-context
+cx
 ParseContext
 :
 :
@@ -6264,13 +6264,13 @@ pc
 BindingNameVector
 lets
 (
-context
+cx
 )
 ;
 BindingNameVector
 consts
 (
-context
+cx
 )
 ;
 for
@@ -6410,7 +6410,7 @@ NewEmptyBindingData
 LexicalScope
 >
 (
-context
+cx
 alloc
 numBindings
 )
@@ -6475,7 +6475,7 @@ scope
 return
 NewLexicalScopeData
 (
-context
+cx_
 scope
 alloc
 pc
@@ -6923,7 +6923,7 @@ if
 !
 FoldConstants
 (
-context
+cx_
 &
 node
 &
@@ -7139,7 +7139,7 @@ if
 !
 FoldConstants
 (
-context
+cx_
 &
 node
 &
@@ -7529,7 +7529,7 @@ str
 =
 AtomToPrintableString
 (
-context
+cx_
 name
 )
 ;
@@ -7596,7 +7596,7 @@ if
 !
 FoldConstants
 (
-context
+cx_
 &
 node
 &
@@ -7753,7 +7753,7 @@ MOZ_ASSERT
 name
 =
 =
-context
+cx_
 -
 >
 names
@@ -7766,7 +7766,7 @@ arguments
 name
 =
 =
-context
+cx_
 -
 >
 names
@@ -7840,7 +7840,7 @@ functionBox
 HandlePropertyName
 dotThis
 =
-context
+cx_
 -
 >
 names
@@ -8055,7 +8055,7 @@ newThisName
 return
 newInternalDotName
 (
-context
+cx_
 -
 >
 names
@@ -8089,7 +8089,7 @@ newDotGeneratorName
 return
 newInternalDotName
 (
-context
+cx_
 -
 >
 names
@@ -8125,7 +8125,7 @@ functionScope
 HandlePropertyName
 dotGenerator
 =
-context
+cx_
 -
 >
 names
@@ -8575,7 +8575,7 @@ functionBox
 RootedFunction
 fun
 (
-context
+cx_
 funbox
 -
 >
@@ -8593,7 +8593,7 @@ LazyScript
 :
 Create
 (
-context
+cx_
 fun
 sourceObject
 pc
@@ -9354,7 +9354,7 @@ if
 !
 FoldConstants
 (
-context
+cx_
 &
 node
 &
@@ -9471,7 +9471,7 @@ varScope
 HandlePropertyName
 argumentsName
 =
-context
+cx_
 -
 >
 names
@@ -10659,7 +10659,7 @@ proto
 return
 AllocNewFunction
 (
-context
+cx_
 atom
 kind
 generatorKind
@@ -11007,7 +11007,7 @@ propAtom
 RootedAtom
 prefix
 (
-context
+cx_
 )
 ;
 if
@@ -11023,7 +11023,7 @@ Setter
 {
 prefix
 =
-context
+cx_
 -
 >
 names
@@ -11048,7 +11048,7 @@ Getter
 ;
 prefix
 =
-context
+cx_
 -
 >
 names
@@ -11061,13 +11061,13 @@ getPrefix
 RootedString
 str
 (
-context
+cx_
 ConcatStrings
 <
 CanGC
 >
 (
-context
+cx_
 prefix
 propAtom
 )
@@ -11086,7 +11086,7 @@ nullptr
 return
 AtomizeString
 (
-context
+cx_
 str
 )
 ;
@@ -11782,7 +11782,7 @@ funbox
 RootedPropertyName
 name
 (
-context
+cx_
 bindingIdentifier
 (
 yieldHandling
@@ -12294,7 +12294,7 @@ tryAnnexB
 RootedFunction
 fun
 (
-context
+cx_
 handler
 .
 nextLazyInnerFunction
@@ -12965,7 +12965,7 @@ funNode
 RootedObject
 proto
 (
-context
+cx_
 )
 ;
 if
@@ -12995,8 +12995,8 @@ GlobalObject
 :
 getOrCreateGeneratorFunctionPrototype
 (
-context
-context
+cx_
+cx_
 -
 >
 global
@@ -13020,7 +13020,7 @@ null
 RootedFunction
 fun
 (
-context
+cx_
 newFunction
 (
 funName
@@ -13390,7 +13390,7 @@ MOZ_ASSERT_IF
 syntaxParser
 -
 >
-context
+cx_
 -
 >
 helperThread
@@ -13400,7 +13400,7 @@ helperThread
 syntaxParser
 -
 >
-context
+cx_
 -
 >
 isExceptionPending
@@ -14365,7 +14365,7 @@ if
 !
 FoldConstants
 (
-context
+cx_
 &
 node
 &
@@ -14448,7 +14448,7 @@ functionBox
 RootedFunction
 fun
 (
-context
+cx_
 funbox
 -
 >
@@ -15431,7 +15431,7 @@ null
 RootedPropertyName
 name
 (
-context
+cx_
 )
 ;
 if
@@ -15473,7 +15473,7 @@ AllowDefaultName
 {
 name
 =
-context
+cx_
 -
 >
 names
@@ -15826,7 +15826,7 @@ generatorKind
 RootedPropertyName
 name
 (
-context
+cx_
 )
 ;
 if
@@ -16091,7 +16091,7 @@ if
 !
 CompileAsmJS
 (
-context
+cx_
 *
 this
 list
@@ -16248,7 +16248,7 @@ if
 directive
 =
 =
-context
+cx_
 -
 >
 names
@@ -16397,7 +16397,7 @@ if
 directive
 =
 =
-context
+cx_
 -
 >
 names
@@ -16469,7 +16469,7 @@ if
 !
 CheckRecursionLimit
 (
-context
+cx_
 )
 )
 {
@@ -17999,7 +17999,7 @@ yieldHandling
 RootedPropertyName
 name
 (
-context
+cx_
 bindingIdentifier
 (
 yieldHandling
@@ -18193,7 +18193,7 @@ if
 !
 CheckRecursionLimit
 (
-context
+cx_
 )
 )
 {
@@ -18248,7 +18248,7 @@ kind
 RootedAtom
 propAtom
 (
-context
+cx_
 )
 ;
 for
@@ -18927,7 +18927,7 @@ if
 !
 CheckRecursionLimit
 (
-context
+cx_
 )
 )
 {
@@ -20366,7 +20366,7 @@ null
 RootedPropertyName
 name
 (
-context
+cx_
 bindingIdentifier
 (
 yieldHandling
@@ -21135,7 +21135,7 @@ PropertyName
 >
 importName
 (
-context
+cx_
 anyChars
 .
 currentName
@@ -21243,7 +21243,7 @@ false
 RootedPropertyName
 bindingAtom
 (
-context
+cx_
 importedBinding
 (
 )
@@ -21449,7 +21449,7 @@ importName
 =
 newName
 (
-context
+cx_
 -
 >
 names
@@ -21472,7 +21472,7 @@ false
 RootedPropertyName
 bindingName
 (
-context
+cx_
 importedBinding
 (
 )
@@ -21772,7 +21772,7 @@ importName
 =
 newName
 (
-context
+cx_
 -
 >
 names
@@ -21797,7 +21797,7 @@ null
 RootedPropertyName
 bindingAtom
 (
-context
+cx_
 importedBinding
 (
 )
@@ -22351,7 +22351,7 @@ str
 =
 AtomToPrintableString
 (
-context
+cx_
 exportName
 )
 ;
@@ -24167,7 +24167,7 @@ Name
 RootedPropertyName
 ident
 (
-context
+cx_
 name
 -
 >
@@ -25667,7 +25667,7 @@ null
 HandlePropertyName
 name
 =
-context
+cx_
 -
 >
 names
@@ -25887,7 +25887,7 @@ if
 !
 checkExportedName
 (
-context
+cx_
 -
 >
 names
@@ -26741,11 +26741,11 @@ Node
 >
 condList
 (
-context
+cx_
 )
 thenList
 (
-context
+cx_
 )
 ;
 Vector
@@ -26755,7 +26755,7 @@ uint32_t
 >
 posList
 (
-context
+cx_
 )
 ;
 Node
@@ -29534,7 +29534,7 @@ begin
 RootedPropertyName
 label
 (
-context
+cx_
 )
 ;
 if
@@ -29705,7 +29705,7 @@ begin
 RootedPropertyName
 label
 (
-context
+cx_
 )
 ;
 if
@@ -30735,7 +30735,7 @@ yieldHandling
 RootedPropertyName
 label
 (
-context
+cx_
 labelIdentifier
 (
 yieldHandling
@@ -32312,7 +32312,7 @@ null
 RootedPropertyName
 className
 (
-context
+cx_
 )
 ;
 if
@@ -32362,7 +32362,7 @@ AllowDefaultName
 {
 className
 =
-context
+cx_
 -
 >
 names
@@ -32413,7 +32413,7 @@ pc
 RootedAtom
 propAtom
 (
-context
+cx_
 )
 ;
 Maybe
@@ -33070,7 +33070,7 @@ isStatic
 propAtom
 =
 =
-context
+cx_
 -
 >
 names
@@ -33153,7 +33153,7 @@ isStatic
 propAtom
 =
 =
-context
+cx_
 -
 >
 names
@@ -33178,7 +33178,7 @@ null
 RootedAtom
 funName
 (
-context
+cx_
 )
 ;
 switch
@@ -33384,7 +33384,7 @@ handler
 .
 newObjectLiteralPropertyName
 (
-context
+cx_
 -
 >
 names
@@ -33798,7 +33798,7 @@ ClassConstructor
 RootedFunction
 fun
 (
-context
+cx_
 newFunction
 (
 className
@@ -34056,7 +34056,7 @@ if
 !
 noteUsedName
 (
-context
+cx_
 -
 >
 names
@@ -34187,7 +34187,7 @@ pos
 RootedFunction
 fun
 (
-context
+cx_
 newFunction
 (
 propAtom
@@ -34886,7 +34886,7 @@ if
 !
 CheckRecursionLimit
 (
-context
+cx_
 )
 )
 {
@@ -35641,7 +35641,7 @@ if
 !
 CheckRecursionLimit
 (
-context
+cx_
 )
 )
 {
@@ -35744,7 +35744,7 @@ atom
 )
 =
 =
-context
+cx_
 -
 >
 names
@@ -37409,7 +37409,7 @@ if
 !
 CheckRecursionLimit
 (
-context
+cx_
 )
 )
 {
@@ -37495,7 +37495,7 @@ PropertyName
 >
 name
 (
-context
+cx_
 identifierReference
 (
 yieldHandling
@@ -37768,7 +37768,7 @@ tokenAfterAsync
 RootedPropertyName
 name
 (
-context
+cx_
 bindingIdentifier
 (
 yieldHandling
@@ -38747,7 +38747,7 @@ handler
 isEvalName
 (
 node
-context
+cx_
 )
 )
 {
@@ -38762,7 +38762,7 @@ handler
 isArgumentsName
 (
 node
-context
+cx_
 )
 )
 {
@@ -39006,7 +39006,7 @@ if
 !
 CheckRecursionLimit
 (
-context
+cx_
 )
 )
 {
@@ -40220,7 +40220,7 @@ if
 !
 CheckRecursionLimit
 (
-context
+cx_
 )
 )
 {
@@ -41115,7 +41115,7 @@ if
 prop
 =
 =
-context
+cx_
 -
 >
 names
@@ -41159,7 +41159,7 @@ if
 prop
 =
 =
-context
+cx_
 -
 >
 names
@@ -41194,7 +41194,7 @@ handler
 isAsyncKeyword
 (
 lhs
-context
+cx_
 )
 )
 {
@@ -41211,7 +41211,7 @@ handler
 isEvalName
 (
 lhs
-context
+cx_
 )
 )
 {
@@ -41610,7 +41610,7 @@ newName
 (
 name
 pos
-context
+cx_
 )
 ;
 }
@@ -42071,7 +42071,7 @@ if
 ident
 =
 =
-context
+cx_
 -
 >
 names
@@ -42107,7 +42107,7 @@ if
 ident
 =
 =
-context
+cx_
 -
 >
 names
@@ -42197,7 +42197,7 @@ Limit
 RootedPropertyName
 ident
 (
-context
+cx_
 anyChars
 .
 currentName
@@ -42277,7 +42277,7 @@ Limit
 RootedPropertyName
 ident
 (
-context
+cx_
 anyChars
 .
 currentName
@@ -42598,7 +42598,7 @@ RegExpObject
 >
 reobj
 (
-context
+cx_
 )
 ;
 reobj
@@ -42608,7 +42608,7 @@ RegExpObject
 :
 create
 (
-context
+cx_
 chars
 .
 begin
@@ -42876,7 +42876,7 @@ js
 :
 ParseBigIntLiteral
 (
-context
+cx_
 source
 )
 ;
@@ -43231,7 +43231,7 @@ handler
 isArgumentsName
 (
 name
-context
+cx_
 )
 )
 {
@@ -43282,7 +43282,7 @@ handler
 isEvalName
 (
 name
-context
+cx_
 )
 )
 {
@@ -44241,7 +44241,7 @@ set
 (
 NumberToAtom
 (
-context
+cx_
 anyChars
 .
 currentToken
@@ -44646,7 +44646,7 @@ set
 (
 NumberToAtom
 (
-context
+cx_
 index
 )
 )
@@ -44713,7 +44713,7 @@ set
 (
 NumberToAtom
 (
-context
+cx_
 anyChars
 .
 currentToken
@@ -45399,7 +45399,7 @@ Nothing
 RootedAtom
 propAtom
 (
-context
+cx_
 )
 ;
 for
@@ -45716,7 +45716,7 @@ if
 propAtom
 =
 =
-context
+cx_
 -
 >
 names
@@ -45841,7 +45841,7 @@ PropertyName
 >
 name
 (
-context
+cx_
 identifierReference
 (
 yieldHandling
@@ -45937,7 +45937,7 @@ PropertyName
 >
 name
 (
-context
+cx_
 identifierReference
 (
 yieldHandling
@@ -46132,7 +46132,7 @@ else
 RootedAtom
 funName
 (
-context
+cx_
 )
 ;
 if
@@ -47129,7 +47129,7 @@ null
 if
 (
 !
-context
+cx_
 -
 >
 runtime
@@ -47228,7 +47228,7 @@ if
 !
 CheckRecursionLimit
 (
-context
+cx_
 )
 )
 {
@@ -47628,7 +47628,7 @@ PropertyName
 >
 name
 (
-context
+cx_
 identifierReference
 (
 yieldHandling
