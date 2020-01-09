@@ -16359,7 +16359,7 @@ version
 "
 0
 .
-10
+11
 .
 0
 "
@@ -16393,7 +16393,7 @@ dependencies
 khronos_api
 3
 .
-0
+1
 .
 0
 (
@@ -16496,7 +16496,7 @@ version
 .
 6
 .
-14
+15
 "
 source
 =
@@ -16528,7 +16528,7 @@ dependencies
 gl_generator
 0
 .
-10
+11
 .
 0
 (
@@ -19065,7 +19065,7 @@ version
 "
 3
 .
-0
+1
 .
 0
 "
@@ -43078,7 +43078,7 @@ gleam
 .
 6
 .
-14
+15
 (
 registry
 +
@@ -44183,7 +44183,7 @@ gleam
 .
 6
 .
-14
+15
 (
 registry
 +
@@ -49757,7 +49757,7 @@ checksum
 gl_generator
 0
 .
-10
+11
 .
 0
 (
@@ -49784,7 +49784,7 @@ index
 "
 =
 "
-a0ffaf173cf76c73a73e080366bf556b4776ece104b06961766ff11449f38604
+39a23d5e872a275135d66895d954269cf5e8661d234eb1c2480f4ce0d586acbd
 "
 "
 checksum
@@ -49793,7 +49793,7 @@ gleam
 .
 6
 .
-14
+15
 (
 registry
 +
@@ -49818,7 +49818,7 @@ index
 "
 =
 "
-17bca843dd3cf25db1bf415d55de9c0f0ae09dd7fa952ec3cef9930f90de1339
+43edfa3a4321024d7dac1625cf154ef0c16996a6a384d066480e306ebd39fecc
 "
 "
 checksum
@@ -50371,7 +50371,7 @@ checksum
 khronos_api
 3
 .
-0
+1
 .
 0
 (
@@ -50398,7 +50398,7 @@ index
 "
 =
 "
-62237e6d326bd5871cd21469323bf096de81f1618cd82cbaf5d87825335aeb49
+e2db585e1d738fc771bf08a151420d3ed193d9d895a36df7f6f8a9456b911ddc
 "
 "
 checksum

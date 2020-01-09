@@ -284,6 +284,9 @@ GL_OES_texture_half_float
 "
 GL_EXT_shader_pixel_local_storage
 "
+"
+GL_ANGLE_provoking_vertex
+"
 ]
 ;
 let
