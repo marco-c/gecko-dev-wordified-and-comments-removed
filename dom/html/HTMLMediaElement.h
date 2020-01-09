@@ -840,6 +840,7 @@ aEMEInfo
 class
 StreamCaptureTrackSource
 ;
+virtual
 void
 UpdateMediaSize
 (
@@ -4090,6 +4091,14 @@ void
 UpdateHadAudibleAutoplayState
 (
 )
+;
+virtual
+void
+MaybeBeginCloningVisually
+(
+)
+{
+}
 ;
 void
 AfterMaybeChangeAttr
