@@ -168,7 +168,7 @@ linux64
 -
 clang
 -
-8
+7
 -
 linux64
 -
@@ -245,7 +245,7 @@ linux64
 -
 clang
 -
-8
+7
 -
 linux64
 -
@@ -301,7 +301,7 @@ linux64
 -
 clang
 -
-8
+trunk
 -
 mingw
 -

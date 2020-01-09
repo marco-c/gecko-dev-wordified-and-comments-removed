@@ -228,13 +228,13 @@ linux64
 -
 clang
 -
-8
+7
 :
 description
 :
 "
 Clang
-8
+7
 toolchain
 build
 "
@@ -244,7 +244,7 @@ symbol
 :
 TL
 (
-clang8
+clang7
 )
 run
 :
@@ -259,7 +259,7 @@ build
 -
 clang
 -
-8
+7
 -
 linux
 .
@@ -290,7 +290,7 @@ clang
 /
 clang
 -
-8
+7
 -
 linux64
 .
@@ -342,7 +342,7 @@ linux64
 -
 clang
 -
-8
+trunk
 -
 mingw
 -
@@ -377,7 +377,7 @@ build
 -
 clang
 -
-8
+trunk
 -
 mingw
 .
@@ -401,7 +401,7 @@ clang
 /
 clang
 -
-8
+trunk
 -
 mingw
 .
@@ -421,17 +421,6 @@ download
 .
 sh
 '
-toolchain
--
-alias
-:
-linux64
--
-clang
--
-mingw
--
-x86
 toolchain
 -
 artifact
@@ -457,7 +446,7 @@ linux64
 -
 clang
 -
-8
+trunk
 -
 mingw
 -
@@ -495,7 +484,7 @@ build
 -
 clang
 -
-8
+trunk
 -
 mingw
 .
@@ -519,7 +508,7 @@ clang
 /
 clang
 -
-8
+trunk
 -
 mingw
 .
@@ -539,17 +528,6 @@ download
 .
 sh
 '
-toolchain
--
-alias
-:
-linux64
--
-clang
--
-mingw
--
-x64
 toolchain
 -
 artifact
@@ -575,7 +553,7 @@ linux64
 -
 clang
 -
-8
+7
 -
 android
 -
@@ -585,7 +563,7 @@ description
 :
 "
 Clang
-8
+7
 toolchain
 build
 "
@@ -595,7 +573,7 @@ symbol
 :
 TL
 (
-clang8
+clang7
 -
 android
 )
@@ -612,7 +590,7 @@ build
 -
 clang
 -
-8
+7
 -
 android
 .
@@ -629,7 +607,7 @@ clang
 /
 clang
 -
-8
+7
 -
 android
 .
@@ -695,7 +673,7 @@ linux64
 -
 clang
 -
-8
+7
 -
 macosx
 -
@@ -705,7 +683,7 @@ description
 :
 "
 Clang
-8
+7
 toolchain
 build
 with
@@ -720,7 +698,7 @@ symbol
 :
 TL
 (
-clang8
+clang7
 -
 macosx
 -
@@ -783,7 +761,7 @@ build
 -
 clang
 -
-8
+7
 -
 linux
 -
@@ -804,7 +782,7 @@ clang
 /
 clang
 -
-8
+7
 -
 macosx64
 .
@@ -866,7 +844,7 @@ linux64
 -
 clang
 -
-8
+7
 -
 linux64
 -
@@ -981,7 +959,7 @@ clang
 /
 clang
 -
-8
+7
 -
 macosx64
 .
@@ -1027,7 +1005,7 @@ linux64
 -
 clang
 -
-8
+7
 -
 linux64
 -
