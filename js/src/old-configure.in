@@ -2963,14 +2963,6 @@ dnl
 =
 =
 =
-AR_EXTRACT
-=
-'
-(
-AR
-)
-x
-'
 MOZ_USER_DIR
 =
 "
@@ -5326,8 +5318,6 @@ OUT
 ;
 ;
 esac
-AR_EXTRACT
-=
 RANLIB
 =
 '
@@ -14652,10 +14642,6 @@ AR
 AC_SUBST
 (
 AR_FLAGS
-)
-AC_SUBST
-(
-AR_EXTRACT
 )
 AC_SUBST
 (
