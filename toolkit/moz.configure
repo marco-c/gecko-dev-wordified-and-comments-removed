@@ -11604,6 +11604,13 @@ WINNT
 '
 )
 )
+add_old_configure_assignment
+(
+'
+FXC
+'
+fxc
+)
 wine
 =
 check_prog
