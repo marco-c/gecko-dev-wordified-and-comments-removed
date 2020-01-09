@@ -333,6 +333,15 @@ input
 .
 autocomplete
 "
+GROUP_WARNINGS
+:
+"
+devtools
+.
+webconsole
+.
+groupWarningMessages
+"
 }
 }
 }
