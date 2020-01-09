@@ -719,18 +719,18 @@ video_stream
 ;
 auto
 &
-simulcastEncoding
+encoding
 =
 mCodecConfig
 .
-mSimulcastEncodings
+mEncodings
 [
 idx
 ]
 ;
 MOZ_ASSERT
 (
-simulcastEncoding
+encoding
 .
 constraints
 .
@@ -770,7 +770,7 @@ else
 float
 effectiveScaleDownBy
 =
-simulcastEncoding
+encoding
 .
 constraints
 .
@@ -778,7 +778,7 @@ scaleDownBy
 /
 mCodecConfig
 .
-mSimulcastEncodings
+mEncodings
 [
 0
 ]
@@ -900,7 +900,7 @@ resolution
 .
 "
 __FUNCTION__
-simulcastEncoding
+encoding
 .
 rid
 .
@@ -963,7 +963,7 @@ zu
 __FUNCTION__
 width
 height
-simulcastEncoding
+encoding
 .
 rid
 .
@@ -1014,7 +1014,7 @@ ratio
 .
 "
 __FUNCTION__
-simulcastEncoding
+encoding
 .
 rid
 .
@@ -1042,7 +1042,7 @@ video_stream
 height
 mMinBitrate
 mStartBitrate
-simulcastEncoding
+encoding
 .
 constraints
 .
@@ -1062,7 +1062,7 @@ video_stream
 .
 SetRid
 (
-simulcastEncoding
+encoding
 .
 rid
 )

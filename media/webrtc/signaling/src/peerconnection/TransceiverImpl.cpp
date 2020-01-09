@@ -4334,7 +4334,7 @@ mDefaultPt
 VideoCodecConfig
 :
 :
-SimulcastEncoding
+Encoding
 encoding
 ;
 encoding
@@ -4356,7 +4356,7 @@ mConstraints
 config
 -
 >
-mSimulcastEncodings
+mEncodings
 .
 push_back
 (
