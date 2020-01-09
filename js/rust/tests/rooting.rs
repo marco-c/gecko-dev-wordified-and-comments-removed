@@ -294,6 +294,10 @@ JSFunctionSpec
 {
 name
 :
+JSFunctionSpec_Name
+{
+string_
+:
 b
 "
 addEventListener
@@ -311,6 +315,7 @@ libc
 :
 :
 c_char
+}
 call
 :
 JSNativeWrapper
@@ -352,6 +357,10 @@ c_char
 JSFunctionSpec
 {
 name
+:
+JSFunctionSpec_Name
+{
+string_
 :
 b
 "
@@ -370,6 +379,7 @@ libc
 :
 :
 c_char
+}
 call
 :
 JSNativeWrapper
@@ -412,6 +422,10 @@ JSFunctionSpec
 {
 name
 :
+JSFunctionSpec_Name
+{
+string_
+:
 b
 "
 dispatchEvent
@@ -429,6 +443,7 @@ libc
 :
 :
 c_char
+}
 call
 :
 JSNativeWrapper
@@ -471,12 +486,17 @@ JSFunctionSpec
 {
 name
 :
+JSFunctionSpec_Name
+{
+string_
+:
 ptr
 :
 :
 null
 (
 )
+}
 call
 :
 JSNativeWrapper
