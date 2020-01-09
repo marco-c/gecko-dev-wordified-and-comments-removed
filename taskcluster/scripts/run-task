@@ -4056,7 +4056,7 @@ add_argument
 '
 -
 -
-vcs
+gecko
 -
 checkout
 '
@@ -4194,11 +4194,11 @@ paths
 if
 args
 .
-vcs_checkout
+gecko_checkout
 :
 args
 .
-vcs_checkout
+gecko_checkout
 =
 os
 .
@@ -4208,7 +4208,7 @@ expanduser
 (
 args
 .
-vcs_checkout
+gecko_checkout
 )
 if
 args
@@ -5089,7 +5089,7 @@ prepare_checkout_dir
 (
 args
 .
-vcs_checkout
+gecko_checkout
 )
 prepare_checkout_dir
 (
@@ -5100,7 +5100,7 @@ tools_checkout
 if
 args
 .
-vcs_checkout
+gecko_checkout
 or
 args
 .
@@ -5276,7 +5276,7 @@ checkout
 if
 args
 .
-vcs_checkout
+gecko_checkout
 :
 base_repo
 =
@@ -5377,7 +5377,7 @@ GECKO_HEAD_REPOSITORY
 ]
 args
 .
-vcs_checkout
+gecko_checkout
 os
 .
 environ
