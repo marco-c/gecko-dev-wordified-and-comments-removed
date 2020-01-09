@@ -535,7 +535,7 @@ render_task
 RenderTask
 RenderTaskData
 RenderTaskKind
-RenderTaskTree
+RenderTaskGraph
 }
 ;
 use
@@ -18206,7 +18206,7 @@ BlitJob
 render_tasks
 :
 &
-RenderTaskTree
+RenderTaskGraph
 draw_target
 :
 DrawTarget
@@ -18677,7 +18677,7 @@ f32
 render_tasks
 :
 &
-RenderTaskTree
+RenderTaskGraph
 projection
 :
 &
@@ -21712,7 +21712,7 @@ f32
 render_tasks
 :
 &
-RenderTaskTree
+RenderTaskGraph
 stats
 :
 &
@@ -22394,7 +22394,7 @@ TextureCacheRenderTarget
 render_tasks
 :
 &
-RenderTaskTree
+RenderTaskGraph
 stats
 :
 &

@@ -249,7 +249,7 @@ render_task
 {
 RenderTaskAddress
 RenderTaskId
-RenderTaskTree
+RenderTaskGraph
 TileBlit
 }
 ;
@@ -2764,7 +2764,7 @@ GpuCache
 render_tasks
 :
 &
-RenderTaskTree
+RenderTaskGraph
 deferred_resolves
 :
 &
@@ -2848,7 +2848,7 @@ GpuCache
 render_tasks
 :
 &
-RenderTaskTree
+RenderTaskGraph
 deferred_resolves
 :
 &
@@ -10430,7 +10430,7 @@ TransformedRectKind
 render_tasks
 :
 &
-RenderTaskTree
+RenderTaskGraph
 z_id
 :
 ZBufferId
@@ -10660,7 +10660,7 @@ TransformedRectKind
 render_tasks
 :
 &
-RenderTaskTree
+RenderTaskGraph
 z_id
 :
 ZBufferId
@@ -11626,7 +11626,7 @@ true
 }
 }
 impl
-RenderTaskTree
+RenderTaskGraph
 {
 fn
 resolve_surface
@@ -13481,7 +13481,7 @@ i32
 render_tasks
 :
 &
-RenderTaskTree
+RenderTaskGraph
 )
 -
 >
@@ -13566,7 +13566,7 @@ ClipTaskIndex
 render_tasks
 :
 &
-RenderTaskTree
+RenderTaskGraph
 )
 -
 >
