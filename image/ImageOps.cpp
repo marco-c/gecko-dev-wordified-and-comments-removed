@@ -570,6 +570,16 @@ return
 nullptr
 ;
 }
+inputStream
+=
+std
+:
+:
+move
+(
+bufStream
+)
+;
 }
 uint64_t
 length
