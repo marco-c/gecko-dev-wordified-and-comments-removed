@@ -1215,9 +1215,6 @@ ParseMdia
 Box
 &
 aBox
-Tkhd
-&
-aTkhd
 )
 ;
 void
