@@ -170,6 +170,17 @@ be
 set
 separately
 .
+-
+Added
+UiThread
+to
+GeckoSession
+.
+releaseSession
+and
+GeckoSession
+.
+setSession
 #
 #
 v65
