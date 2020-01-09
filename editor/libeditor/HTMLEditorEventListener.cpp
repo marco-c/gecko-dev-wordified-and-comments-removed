@@ -1022,8 +1022,10 @@ return
 NS_OK
 ;
 }
+RefPtr
+<
 HTMLEditor
-*
+>
 htmlEditor
 =
 mEditorBase

@@ -4967,6 +4967,15 @@ treatAsOneTransaction
 this
 )
 ;
+RefPtr
+<
+Element
+>
+resizedObject
+(
+mResizedObject
+)
+;
 if
 (
 mResizedObjectIsAbsolutelyPositioned
@@ -4983,7 +4992,7 @@ mCSSEditUtils
 SetCSSPropertyPixels
 (
 *
-mResizedObject
+resizedObject
 *
 nsGkAtoms
 :
@@ -5004,7 +5013,7 @@ mCSSEditUtils
 SetCSSPropertyPixels
 (
 *
-mResizedObject
+resizedObject
 *
 nsGkAtoms
 :
@@ -5030,7 +5039,7 @@ if
 setWidth
 &
 &
-mResizedObject
+resizedObject
 -
 >
 HasAttr
@@ -5046,7 +5055,7 @@ width
 RemoveAttributeWithTransaction
 (
 *
-mResizedObject
+resizedObject
 *
 nsGkAtoms
 :
@@ -5060,7 +5069,7 @@ if
 setHeight
 &
 &
-mResizedObject
+resizedObject
 -
 >
 HasAttr
@@ -5076,7 +5085,7 @@ height
 RemoveAttributeWithTransaction
 (
 *
-mResizedObject
+resizedObject
 *
 nsGkAtoms
 :
@@ -5141,7 +5150,7 @@ mCSSEditUtils
 SetCSSPropertyPixels
 (
 *
-mResizedObject
+resizedObject
 *
 nsGkAtoms
 :
@@ -5162,7 +5171,7 @@ mCSSEditUtils
 SetCSSPropertyPixels
 (
 *
-mResizedObject
+resizedObject
 *
 nsGkAtoms
 :
@@ -5190,7 +5199,7 @@ width
 SetAttributeWithTransaction
 (
 *
-mResizedObject
+resizedObject
 *
 nsGkAtoms
 :
@@ -5218,7 +5227,7 @@ height
 SetAttributeWithTransaction
 (
 *
-mResizedObject
+resizedObject
 *
 nsGkAtoms
 :
@@ -5239,7 +5248,7 @@ mCSSEditUtils
 RemoveCSSProperty
 (
 *
-mResizedObject
+resizedObject
 *
 nsGkAtoms
 :
@@ -5262,7 +5271,7 @@ mCSSEditUtils
 RemoveCSSProperty
 (
 *
-mResizedObject
+resizedObject
 *
 nsGkAtoms
 :

@@ -316,6 +316,9 @@ aValue
 "
 *
 /
+[
+can_run_script
+]
 void
 setInlineProperty
 (
@@ -575,6 +578,9 @@ selection
 .
 *
 /
+[
+can_run_script
+]
 void
 removeAllInlineProperties
 (
@@ -705,6 +711,9 @@ bgcolor
 .
 *
 /
+[
+can_run_script
+]
 void
 removeInlineProperty
 (
@@ -760,6 +769,9 @@ FONT
 tag
 *
 /
+[
+can_run_script
+]
 void
 increaseFontSize
 (
@@ -809,6 +821,9 @@ FONT
 tag
 *
 /
+[
+can_run_script
+]
 void
 decreaseFontSize
 (
@@ -919,6 +934,9 @@ be
 inserted
 *
 /
+[
+can_run_script
+]
 void
 insertHTML
 (
@@ -1123,6 +1141,9 @@ the
 selection
 *
 /
+[
+can_run_script
+]
 void
 insertElementAtSelection
 (
@@ -1457,6 +1478,9 @@ none
 .
 *
 /
+[
+can_run_script
+]
 AString
 getParagraphState
 (
@@ -1713,6 +1737,9 @@ selected
 .
 *
 /
+[
+can_run_script
+]
 void
 getListState
 (
@@ -1811,6 +1838,9 @@ selected
 .
 *
 /
+[
+can_run_script
+]
 void
 getListItemState
 (
@@ -1885,6 +1915,9 @@ right
 )
 *
 /
+[
+can_run_script
+]
 void
 getAlignment
 (
@@ -2564,6 +2597,9 @@ created
 .
 *
 /
+[
+can_run_script
+]
 Element
 createElementWithDefaults
 (
@@ -2607,6 +2643,9 @@ href
 attribute
 *
 /
+[
+can_run_script
+]
 void
 insertLinkAroundSelection
 (
