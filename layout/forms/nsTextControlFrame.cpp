@@ -2412,7 +2412,7 @@ inflation
 )
 ;
 const
-nsStyleCoord
+auto
 &
 iSizeCoord
 =
@@ -2430,12 +2430,9 @@ if
 (
 iSizeCoord
 .
-GetUnit
+IsAuto
 (
 )
-=
-=
-eStyleUnit_Auto
 )
 {
 if

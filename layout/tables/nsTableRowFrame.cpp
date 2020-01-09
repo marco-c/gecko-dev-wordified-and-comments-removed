@@ -2497,7 +2497,7 @@ StylePosition
 )
 ;
 const
-nsStyleCoord
+auto
 &
 bsizeStyleCoord
 =
@@ -2522,9 +2522,8 @@ SetFixedBSize
 (
 bsizeStyleCoord
 .
-ComputeCoordPercentCalc
+ToLength
 (
-0
 )
 )
 ;
@@ -2534,7 +2533,7 @@ if
 (
 bsizeStyleCoord
 .
-ConvertsToPercent
+ConvertsToPercentage
 (
 )
 )
@@ -2543,7 +2542,7 @@ SetPctBSize
 (
 bsizeStyleCoord
 .
-ToPercent
+ToPercentage
 (
 )
 )
@@ -2861,7 +2860,7 @@ aCellFrame
 )
 ;
 const
-nsStyleCoord
+auto
 &
 bsizeStyleCoord
 =
@@ -2954,7 +2953,7 @@ if
 (
 bsizeStyleCoord
 .
-ConvertsToPercent
+ConvertsToPercentage
 (
 )
 )
@@ -2971,7 +2970,7 @@ SetPctBSize
 (
 bsizeStyleCoord
 .
-ToPercent
+ToPercentage
 (
 )
 )
@@ -6810,7 +6809,7 @@ continue
 ;
 }
 const
-nsStyleCoord
+auto
 &
 cellBSize
 =
@@ -6842,14 +6841,12 @@ cellFrame
 1
 &
 &
+!
 cellBSize
 .
-GetUnit
+IsAuto
 (
 )
-!
-=
-eStyleUnit_Auto
 &
 &
 (
@@ -6862,7 +6859,7 @@ ConvertsToLength
 |
 cellBSize
 .
-ConvertsToPercent
+ConvertsToPercentage
 (
 )
 )

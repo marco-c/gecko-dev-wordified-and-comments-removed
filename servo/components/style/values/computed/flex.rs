@@ -55,7 +55,7 @@ Self
 GenericFlexBasis
 :
 :
-Width
+Size
 (
 Size
 :

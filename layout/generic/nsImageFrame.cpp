@@ -650,7 +650,7 @@ aStylePosition
 >
 mWidth
 .
-IsCoordPercentCalcUnit
+IsLengthPercentage
 (
 )
 &
@@ -660,7 +660,7 @@ aStylePosition
 >
 mHeight
 .
-IsCoordPercentCalcUnit
+IsLengthPercentage
 (
 )
 ;
@@ -13387,12 +13387,9 @@ StylePosition
 >
 mWidth
 .
-GetUnit
+IsAuto
 (
 )
-=
-=
-eStyleUnit_Auto
 ;
 }
 return

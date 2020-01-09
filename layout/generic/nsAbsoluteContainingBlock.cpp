@@ -1365,12 +1365,9 @@ BSize
 wm
 )
 .
-GetUnit
+IsAuto
 (
 )
-=
-=
-eStyleUnit_Auto
 &
 &
 pos

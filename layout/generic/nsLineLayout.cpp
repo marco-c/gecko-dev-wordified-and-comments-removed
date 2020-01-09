@@ -4047,6 +4047,7 @@ aWM
 )
 &
 &
+!
 pos
 -
 >
@@ -4055,12 +4056,9 @@ ISize
 aWM
 )
 .
-GetUnit
+IsAuto
 (
 )
-!
-=
-eStyleUnit_Auto
 )
 |
 |
@@ -4122,9 +4120,6 @@ true
 }
 if
 (
-eStyleUnit_Auto
-=
-=
 pos
 -
 >
@@ -4133,7 +4128,7 @@ ISize
 aWM
 )
 .
-GetUnit
+IsAuto
 (
 )
 )
@@ -4246,6 +4241,7 @@ nsSize
 )
 &
 &
+!
 pos
 -
 >
@@ -4254,12 +4250,9 @@ BSize
 aWM
 )
 .
-GetUnit
+ConvertsToLength
 (
 )
-!
-=
-eStyleUnit_Coord
 )
 {
 const

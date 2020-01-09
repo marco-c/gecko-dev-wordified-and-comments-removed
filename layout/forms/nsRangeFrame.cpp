@@ -4166,6 +4166,10 @@ ISize
 (
 wm
 )
+.
+AsLengthPercentage
+(
+)
 nscoord
 (
 0

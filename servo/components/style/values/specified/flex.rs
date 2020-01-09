@@ -106,7 +106,7 @@ if
 let
 Ok
 (
-width
+size
 )
 =
 input
@@ -132,9 +132,9 @@ Ok
 GenericFlexBasis
 :
 :
-Width
+Size
 (
-width
+size
 )
 )
 ;
@@ -177,7 +177,7 @@ Self
 GenericFlexBasis
 :
 :
-Width
+Size
 (
 Size
 :
@@ -203,7 +203,7 @@ Self
 GenericFlexBasis
 :
 :
-Width
+Size
 (
 Size
 :
