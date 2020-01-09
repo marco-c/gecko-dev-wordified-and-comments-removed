@@ -3138,6 +3138,13 @@ tabIndex
 -
 1
 "
+"
+aria
+-
+hidden
+"
+:
+true
 onClick
 :
 this
