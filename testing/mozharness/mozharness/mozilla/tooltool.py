@@ -303,6 +303,25 @@ tooltool_fetch
 "
 "
         
+if
+cache
+is
+None
+:
+            
+cache
+=
+os
+.
+environ
+.
+get
+(
+'
+TOOLTOOL_CACHE
+'
+)
+        
 for
 d
 in

@@ -1890,7 +1890,20 @@ downloads
 '
 )
 :
-bool
+Any
+(
+            
+False
+            
+'
+public
+'
+            
+'
+internal
+'
+        
+)
         
 Optional
 (
@@ -2428,7 +2441,9 @@ downloads
 '
 ]
 =
-True
+'
+internal
+'
             
 test
 [
@@ -2870,7 +2885,9 @@ tooltool
 -
 downloads
 '
-False
+'
+public
+'
 )
         
 test
