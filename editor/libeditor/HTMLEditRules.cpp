@@ -11959,10 +11959,11 @@ nsTextFragment
 *
 text
 =
+&
 nodeAsText
 -
 >
-GetText
+TextFragment
 (
 )
 ;
