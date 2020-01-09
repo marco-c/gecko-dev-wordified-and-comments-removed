@@ -64,6 +64,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsDocLoader
 .
 h

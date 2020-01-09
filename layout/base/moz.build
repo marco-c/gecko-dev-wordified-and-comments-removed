@@ -372,6 +372,11 @@ nsPresContext
 h
 '
 '
+nsPresContextInlines
+.
+h
+'
+'
 nsQuoteList
 .
 h
