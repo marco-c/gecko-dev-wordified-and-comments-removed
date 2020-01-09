@@ -4014,12 +4014,12 @@ prompt
 *
 *
 param
-aFirstPartyURI
-first
-party
+aOrigin
+origin
+string
 of
 the
-tab
+document
 that
 is
 requesting
@@ -4031,7 +4031,7 @@ async
 ShowCanvasPermissionPrompt
 (
 nsCString
-aFirstPartyURI
+aOrigin
 bool
 aHideDoorHanger
 )

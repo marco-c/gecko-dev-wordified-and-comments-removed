@@ -19587,7 +19587,7 @@ RecvShowCanvasPermissionPrompt
 const
 nsCString
 &
-aFirstPartyURI
+aOrigin
 const
 bool
 &
@@ -19681,7 +19681,7 @@ prompt
 "
 NS_ConvertUTF8toUTF16
 (
-aFirstPartyURI
+aOrigin
 )
 .
 get
