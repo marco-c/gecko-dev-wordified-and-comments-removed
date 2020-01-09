@@ -16,6 +16,9 @@ nfc
 '
 html
 '
+'
+dom
+'
 ]
 idl_array
 =
