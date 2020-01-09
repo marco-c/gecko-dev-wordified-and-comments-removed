@@ -1587,6 +1587,17 @@ defaults
 settings
 /
 main
+RESPATH
+/
+browser
+/
+defaults
+/
+settings
+/
+security
+-
+state
 ;
 Warning
 :
