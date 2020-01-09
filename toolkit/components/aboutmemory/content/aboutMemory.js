@@ -7491,6 +7491,18 @@ TreeNode
 compareUnsafeNames
 )
 ;
+if
+(
+otherTrees
+.
+length
+|
+|
+otherDegenerates
+.
+length
+)
+{
 let
 pre
 =
@@ -7577,6 +7589,7 @@ n
 "
 )
 ;
+}
 if
 (
 hasExplicitTree
