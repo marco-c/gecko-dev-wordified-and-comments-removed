@@ -227,11 +227,13 @@ dataset
 CEReactions
 GetterThrows
 Pure
+]
+attribute
+[
 TreatNullAs
 =
 EmptyString
 ]
-attribute
 DOMString
 innerText
 ;

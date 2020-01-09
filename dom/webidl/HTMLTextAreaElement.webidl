@@ -357,11 +357,13 @@ defaultValue
 [
 CEReactions
 SetterThrows
+]
+attribute
+[
 TreatNullAs
 =
 EmptyString
 ]
-attribute
 DOMString
 value
 ;
