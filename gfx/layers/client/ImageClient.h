@@ -270,6 +270,11 @@ aImage
 KnowsCompositor
 *
 aForwarder
+ImageContainer
+*
+aContainer
+=
+nullptr
 )
 ;
 uint32_t
