@@ -127,6 +127,13 @@ h
 #
 include
 "
+nsCSSFrameConstructor
+.
+h
+"
+#
+include
+"
 nsFontMetrics
 .
 h
