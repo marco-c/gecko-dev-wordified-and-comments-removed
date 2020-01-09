@@ -122,10 +122,10 @@ label
 "
 :
 "
-accesskey
 text
 =
 label
+accesskey
 "
 "
 .
