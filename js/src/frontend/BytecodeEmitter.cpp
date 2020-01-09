@@ -21388,7 +21388,7 @@ false
 if
 (
 !
-emitJump
+emitJumpNoFallthrough
 (
 JSOP_GOSUB
 jump
@@ -21436,8 +21436,15 @@ off
 resumeIndex
 )
 ;
+JumpTarget
+target
+;
 return
-true
+emitJumpTarget
+(
+&
+target
+)
 ;
 }
 bool
