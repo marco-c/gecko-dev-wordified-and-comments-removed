@@ -15118,6 +15118,7 @@ false
 ;
 break
 ;
+}
 case
 StyleAppearance
 :
@@ -15303,7 +15304,6 @@ SM_CXHTHUMB
 ;
 break
 ;
-}
 case
 StyleAppearance
 :
