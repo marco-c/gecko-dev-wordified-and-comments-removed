@@ -3619,16 +3619,6 @@ colNumber
 errorText
 )
 ;
-NS_ASSERTION
-(
-mSink
-"
-no
-sink
-?
-"
-)
-;
 nsAutoString
 sourceText
 (
