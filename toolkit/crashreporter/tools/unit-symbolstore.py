@@ -4114,7 +4114,7 @@ buildconfig
 substs
 [
 '
-MSVC_HAS_DIA_SDK
+WIN_DIA_SDK_BIN_DIR
 '
 ]
 :
