@@ -122,7 +122,7 @@ version
 .
 0
 .
-2
+1
 "
 authors
 =
@@ -230,4 +230,16 @@ src
 lib
 .
 rs
+"
+[
+dependencies
+.
+unreachable
+]
+version
+=
+"
+1
+.
+0
 "
