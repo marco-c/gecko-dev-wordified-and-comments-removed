@@ -53,6 +53,15 @@ h
 #
 include
 "
+js
+/
+PropertySpec
+.
+h
+"
+#
+include
+"
 ChildInternal
 .
 h

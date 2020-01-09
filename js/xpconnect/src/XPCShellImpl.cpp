@@ -49,6 +49,15 @@ h
 #
 include
 "
+js
+/
+PropertySpec
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ChaosMode

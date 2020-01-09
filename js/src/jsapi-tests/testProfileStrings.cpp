@@ -10,6 +10,15 @@ h
 #
 include
 "
+js
+/
+PropertySpec
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests

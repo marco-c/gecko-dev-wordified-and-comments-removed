@@ -275,7 +275,7 @@ include
 "
 js
 /
-Wrapper
+PropertySpec
 .
 h
 "
@@ -285,6 +285,15 @@ include
 js
 /
 SliceBudget
+.
+h
+"
+#
+include
+"
+js
+/
+Wrapper
 .
 h
 "
