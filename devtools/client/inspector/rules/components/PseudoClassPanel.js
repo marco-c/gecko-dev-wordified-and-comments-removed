@@ -212,9 +212,6 @@ panel
 className
 :
 "
-theme
--
-toolbar
 ruleview
 -
 reveal

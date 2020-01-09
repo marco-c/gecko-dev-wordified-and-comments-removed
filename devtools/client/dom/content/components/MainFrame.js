@@ -211,9 +211,6 @@ className
 :
 "
 treeTableBox
-devtools
--
-monospace
 "
 }
 DomTree
