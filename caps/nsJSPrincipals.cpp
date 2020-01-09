@@ -1243,9 +1243,6 @@ ContentPrincipalInfo
 attrs
 originNoSuffix
 spec
-Nothing
-(
-)
 std
 :
 :
