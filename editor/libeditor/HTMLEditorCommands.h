@@ -123,7 +123,6 @@ StateUpdatingCommandBase
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 GetCurrentState
@@ -138,7 +137,6 @@ aParams
 =
 0
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 ToggleState
@@ -177,7 +175,6 @@ aTagName
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -190,7 +187,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 ToggleState
 (
@@ -258,7 +254,6 @@ aTagName
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -271,7 +266,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 ToggleState
 (
@@ -302,7 +296,6 @@ aTagName
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -315,7 +308,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 ToggleState
 (
@@ -353,7 +345,6 @@ MultiStateCommandBase
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 GetCurrentState
@@ -368,7 +359,6 @@ aParams
 =
 0
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetState
@@ -401,7 +391,6 @@ ParagraphStateCommand
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -414,7 +403,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetState
 (
@@ -445,7 +433,6 @@ FontFaceStateCommand
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -458,7 +445,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetState
 (
@@ -489,7 +475,6 @@ FontSizeStateCommand
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -502,7 +487,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetState
 (
@@ -549,7 +533,6 @@ _retval
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -562,7 +545,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetState
 (
@@ -593,7 +575,6 @@ FontColorStateCommand
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -606,7 +587,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetState
 (
@@ -637,7 +617,6 @@ AlignCommand
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -650,7 +629,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetState
 (
@@ -681,7 +659,6 @@ BackgroundColorStateCommand
 ;
 protected
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -694,7 +671,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetState
 (
@@ -741,7 +717,6 @@ _retval
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetCurrentState
 (
@@ -754,7 +729,6 @@ aParams
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 ToggleState
 (

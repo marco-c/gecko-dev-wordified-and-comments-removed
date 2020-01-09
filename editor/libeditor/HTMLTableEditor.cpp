@@ -10034,12 +10034,9 @@ rv
 =
 InsertCell
 (
-MOZ_KnownLive
-(
 cellData
 .
 mElement
-)
 cellData
 .
 mEffectiveRowSpan
@@ -10700,11 +10697,8 @@ ReplaceContainerAndCloneAttributesWithTransaction
 (
 *
 aSourceCell
-MOZ_KnownLive
-(
 *
 newCellName
-)
 )
 ;
 if

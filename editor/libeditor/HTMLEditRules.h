@@ -249,7 +249,6 @@ HTMLEditRules
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Init
@@ -281,7 +280,6 @@ aDirection
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 AfterEdit
@@ -313,7 +311,6 @@ aHandled
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 DidDoAction
@@ -339,7 +336,6 @@ DocumentModified
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 GetListState
 (
@@ -357,7 +353,6 @@ bool
 aDL
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 GetListItemState
 (
@@ -375,7 +370,6 @@ bool
 aDD
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 GetAlignment
 (
@@ -390,7 +384,6 @@ EAlignment
 aAlign
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 GetParagraphState
 (
@@ -616,7 +609,6 @@ aCancel
 nullptr
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillInsertText
@@ -662,7 +654,6 @@ nsINode
 aNode
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertBRElement
@@ -782,7 +773,6 @@ EDirection
 aAction
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 EditActionResult
 TryToJoinBlocksWithTransaction
@@ -795,7 +785,6 @@ nsIContent
 aRightNode
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 EditActionResult
 MoveBlock
@@ -812,7 +801,6 @@ int32_t
 aRightOffset
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 EditActionResult
 MoveNodeSmart
@@ -828,7 +816,6 @@ int32_t
 aInOutDestOffset
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 EditActionResult
 MoveContents
@@ -963,7 +950,6 @@ bool
 aHandled
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillRemoveAbsolutePosition
@@ -1055,7 +1041,6 @@ bool
 aHandled
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 PrepareToMakeElementAbsolutePosition
@@ -1071,14 +1056,12 @@ Element
 aTargetElement
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DidAbsolutePosition
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AlignInnerBlocks
@@ -1092,7 +1075,6 @@ nsAString
 aAlignType
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AlignBlockContents
@@ -1106,7 +1088,6 @@ nsAString
 aAlignType
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AlignContentsAtSelection
@@ -1260,7 +1241,6 @@ nsIContent
 aBRNode
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 ReturnInListItem
@@ -1275,7 +1255,6 @@ int32_t
 aOffset
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AfterEditInner
@@ -1289,28 +1268,24 @@ EDirection
 aDirection
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 IndentAroundSelectionWithCSS
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 IndentAroundSelectionWithHTML
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitRangeOffFromNodeResult
 OutdentAroundSelection
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitRangeOffFromNodeResult
 SplitRangeOffFromBlockAndRemoveMiddleContainer
@@ -1341,7 +1316,6 @@ nsIContent
 aEndOfMiddleElement
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitRangeOffFromNodeResult
 OutdentPartOfBlock
@@ -1359,7 +1333,6 @@ bool
 aIsBlockIndentedWithCSS
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MakeList
@@ -1381,7 +1354,6 @@ nsAtom
 aItemType
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 CreateElementResult
 ConvertListType
@@ -1397,7 +1369,6 @@ nsAtom
 aItemType
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 CreateStyleForInsertText
@@ -1533,7 +1504,6 @@ no
 yes
 }
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 GetNodesForOperation
@@ -1579,7 +1549,6 @@ nsINode
 outArrayOfNodes
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 GetNodesFromPoint
@@ -1603,7 +1572,6 @@ TouchContent
 aTouchContent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 GetNodesFromSelection
@@ -1631,7 +1599,6 @@ no
 yes
 }
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 GetListActionNodes
@@ -1665,7 +1632,6 @@ bool
 aDD
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 GetParagraphFormatNodes
 (
@@ -1703,7 +1669,6 @@ RangeItem
 aRangeItem
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 BustUpInlinesAtBRs
@@ -1751,7 +1716,6 @@ bool
 aTransitionArray
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveBlockStyle
 (
@@ -1766,7 +1730,6 @@ nsINode
 aNodeArray
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 ApplyBlockStyle
@@ -1785,7 +1748,6 @@ nsAtom
 aBlockTag
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MakeBlockquote
@@ -1825,7 +1787,6 @@ CT
 aStartOfDeepestRightNode
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 JoinNearestEditableNodesWithTransaction
@@ -1850,7 +1811,6 @@ nsINode
 aNode
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 PopListItem
@@ -1865,7 +1825,6 @@ aOutOfList
 nullptr
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 RemoveListStructure
@@ -2019,7 +1978,6 @@ nsINode
 arrayOfNodes
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 RemoveAlignment
@@ -2054,7 +2012,6 @@ ElementAndDescendants
 OnlyDescendants
 }
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AlignBlock
@@ -2070,7 +2027,6 @@ ResetAlignOf
 aResetAlignOf
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 IncreaseMarginToIndent
@@ -2088,7 +2044,6 @@ true
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DecreaseMarginToOutdent
@@ -2106,7 +2061,6 @@ false
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 ChangeMarginStart

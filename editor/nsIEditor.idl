@@ -269,9 +269,6 @@ attribute
 Selection
 selection
 ;
-[
-can_run_script
-]
 void
 setAttributeOrEquivalent
 (
@@ -289,9 +286,6 @@ boolean
 aSuppressTransaction
 )
 ;
-[
-can_run_script
-]
 void
 removeAttributeOrEquivalent
 (
@@ -2750,9 +2744,6 @@ attributes
 from
 *
 /
-[
-can_run_script
-]
 void
 cloneAttributes
 (
@@ -2854,9 +2845,6 @@ last
 child
 *
 /
-[
-can_run_script
-]
 void
 insertNode
 (

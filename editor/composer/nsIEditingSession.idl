@@ -322,9 +322,6 @@ and
 plugins
 *
 /
-[
-can_run_script
-]
 void
 makeWindowEditable
 (
@@ -446,9 +443,6 @@ support
 objects
 *
 /
-[
-can_run_script
-]
 void
 setupEditorOnWindow
 (

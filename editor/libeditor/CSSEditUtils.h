@@ -235,7 +235,6 @@ int32_t
 aIntValue
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveCSSProperty
 (
@@ -288,7 +287,6 @@ nsAString
 aValue
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveCSSInlineStyle
 (
@@ -456,7 +454,6 @@ bool
 aSuppressTransaction
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveCSSEquivalentToHTMLStyle
 (
