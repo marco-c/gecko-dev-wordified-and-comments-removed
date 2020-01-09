@@ -120,7 +120,7 @@ dom
 NS_IMPL_ISUPPORTS
 (
 UDPSocketChildBase
-nsIUDPSocketChild
+nsISupports
 )
 UDPSocketChildBase
 :

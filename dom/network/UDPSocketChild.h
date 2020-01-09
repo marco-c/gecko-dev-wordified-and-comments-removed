@@ -69,7 +69,7 @@ class
 UDPSocketChildBase
 :
 public
-nsIUDPSocketChild
+nsISupports
 {
 public
 :
@@ -123,7 +123,6 @@ UDPSocketChildBase
 {
 public
 :
-NS_DECL_NSIUDPSOCKETCHILD
 NS_IMETHOD_
 (
 MozExternalRefCountType
