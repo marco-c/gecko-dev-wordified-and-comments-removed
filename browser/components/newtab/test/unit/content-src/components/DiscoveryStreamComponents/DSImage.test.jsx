@@ -257,6 +257,9 @@ true
 containerWidth
 :
 640
+containerHeight
+:
+480
 }
 )
 ;
@@ -294,7 +297,7 @@ mozilla
 .
 net
 /
-640x0
+640x480
 /
 filters
 :
@@ -368,7 +371,7 @@ mozilla
 .
 net
 /
-1280x0
+1280x960
 /
 filters
 :

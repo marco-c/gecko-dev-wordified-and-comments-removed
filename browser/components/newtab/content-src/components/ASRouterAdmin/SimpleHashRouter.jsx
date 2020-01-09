@@ -123,16 +123,6 @@ state
 .
 hash
 .
-replace
-(
-"
-#
-asrouter
-"
-"
-"
-)
-.
 split
 (
 "

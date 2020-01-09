@@ -620,11 +620,12 @@ prefs_snippets_description
 "
 :
 "
-Informace
+Aktu
+ln
+informace
 od
 Mozilly
 a
-o
 Firefoxu
 "
 "

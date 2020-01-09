@@ -370,6 +370,13 @@ rec
 .
 image_src
 }
+raw_image_src
+=
+{
+rec
+.
+raw_image_src
+}
 title
 =
 {
