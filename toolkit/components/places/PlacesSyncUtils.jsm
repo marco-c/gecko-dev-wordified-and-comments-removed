@@ -7684,8 +7684,6 @@ bookmarkItem
 .
 url
 )
-{
-}
 )
 ;
 let

@@ -2376,8 +2376,6 @@ tagging
 getTagsForURI
 (
 URI
-{
-}
 )
 ;
 tags
