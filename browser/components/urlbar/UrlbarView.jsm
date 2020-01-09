@@ -234,7 +234,7 @@ _rows
 addEventListener
 (
 "
-mousedown
+mouseup
 "
 this
 )
@@ -246,7 +246,7 @@ _rows
 addEventListener
 (
 "
-mouseup
+mousedown
 "
 this
 )
@@ -745,14 +745,6 @@ open
 )
 ;
 }
-this
-.
-controller
-.
-cancelQuery
-(
-)
-;
 let
 row
 =
