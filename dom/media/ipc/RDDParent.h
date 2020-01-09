@@ -88,6 +88,10 @@ ipc
 IPCResult
 RecvInit
 (
+const
+MaybeFileDesc
+&
+aBrokerFd
 )
 ;
 mozilla
