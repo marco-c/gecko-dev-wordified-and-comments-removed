@@ -24,6 +24,9 @@ ColorType
 }
 ;
 use
+crate
+:
+:
 premultiply
 :
 :

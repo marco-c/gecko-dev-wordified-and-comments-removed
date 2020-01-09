@@ -41,6 +41,9 @@ sync
 Arc
 ;
 use
+crate
+:
+:
 api
 :
 :
@@ -50,6 +53,9 @@ TileSize
 }
 ;
 use
+crate
+:
+:
 font
 :
 :
@@ -61,6 +67,9 @@ FontTemplate
 }
 ;
 use
+crate
+:
+:
 units
 :
 :
@@ -1384,6 +1393,9 @@ U
 >
 {
 use
+crate
+:
+:
 DirtyRect
 :
 :
@@ -1427,6 +1439,9 @@ Self
 Self
 {
 use
+crate
+:
+:
 DirtyRect
 :
 :
@@ -1492,6 +1507,9 @@ Self
 Self
 {
 use
+crate
+:
+:
 DirtyRect
 :
 :
@@ -1575,6 +1593,9 @@ U
 >
 {
 use
+crate
+:
+:
 DirtyRect
 :
 :

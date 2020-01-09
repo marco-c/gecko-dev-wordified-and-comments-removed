@@ -3,6 +3,9 @@ crate
 serde_bytes
 ;
 use
+crate
+:
+:
 channel
 :
 :
@@ -75,6 +78,9 @@ std
 u32
 ;
 use
+crate
+:
+:
 {
 display_item
 as
@@ -83,6 +89,9 @@ font
 }
 ;
 use
+crate
+:
+:
 color
 :
 :
@@ -92,6 +101,9 @@ ColorF
 }
 ;
 use
+crate
+:
+:
 display_list
 :
 :
@@ -101,6 +113,9 @@ BuiltDisplayListDescriptor
 }
 ;
 use
+crate
+:
+:
 image
 :
 :
@@ -113,6 +128,9 @@ ImageKey
 }
 ;
 use
+crate
+:
+:
 units
 :
 :
@@ -6921,6 +6939,8 @@ new_frame_ready
 (
 &
 self
+_
+:
 DocumentId
 scrolled
 :

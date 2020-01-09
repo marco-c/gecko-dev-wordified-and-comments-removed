@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 batch
 :
 :
@@ -9,6 +12,9 @@ BrushBatchKind
 }
 ;
 use
+crate
+:
+:
 device
 :
 :
@@ -27,12 +33,18 @@ Transform3D
 }
 ;
 use
+crate
+:
+:
 glyph_rasterizer
 :
 :
 GlyphFormat
 ;
 use
+crate
+:
+:
 renderer
 :
 :

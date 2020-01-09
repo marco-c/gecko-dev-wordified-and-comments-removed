@@ -243,6 +243,9 @@ euclid
 Size2D
 ;
 use
+crate
+:
+:
 gamma_lut
 :
 :
@@ -252,6 +255,9 @@ GammaLut
 }
 ;
 use
+crate
+:
+:
 glyph_rasterizer
 :
 :
@@ -296,6 +302,9 @@ pathfinder
 )
 ]
 use
+crate
+:
+:
 glyph_rasterizer
 :
 :
@@ -307,6 +316,9 @@ RasterizedGlyph
 }
 ;
 use
+crate
+:
+:
 internal_types
 :
 :

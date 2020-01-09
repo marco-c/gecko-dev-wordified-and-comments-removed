@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 {
 WindowWrapper
 NotifierEvent
@@ -34,12 +37,18 @@ ImageFormat
 }
 ;
 use
+crate
+:
+:
 parse_function
 :
 :
 parse_function
 ;
 use
+crate
+:
+:
 png
 :
 :
@@ -137,6 +146,9 @@ units
 *
 ;
 use
+crate
+:
+:
 wrench
 :
 :
@@ -146,6 +158,9 @@ WrenchThing
 }
 ;
 use
+crate
+:
+:
 yaml_frame_reader
 :
 :

@@ -40,6 +40,9 @@ TypedRect
 }
 ;
 use
+crate
+:
+:
 internal_types
 :
 :
@@ -49,12 +52,18 @@ FastHashSet
 }
 ;
 use
+crate
+:
+:
 profiler
 :
 :
 GpuCacheProfileCounters
 ;
 use
+crate
+:
+:
 render_backend
 :
 :
@@ -64,6 +73,9 @@ FrameId
 }
 ;
 use
+crate
+:
+:
 renderer
 :
 :
@@ -588,6 +600,8 @@ write_gpu_blocks
 (
 &
 self
+_
+:
 GpuDataRequest
 )
 ;

@@ -41,6 +41,9 @@ api
 IdNamespace
 ;
 use
+crate
+:
+:
 device
 :
 :
@@ -50,6 +53,9 @@ total_gpu_bytes_allocated
 }
 ;
 use
+crate
+:
+:
 freelist
 :
 :
@@ -61,6 +67,9 @@ WeakFreeListHandle
 }
 ;
 use
+crate
+:
+:
 gpu_cache
 :
 :
@@ -70,6 +79,9 @@ GpuCacheHandle
 }
 ;
 use
+crate
+:
+:
 gpu_types
 :
 :
@@ -79,6 +91,9 @@ UvRectKind
 }
 ;
 use
+crate
+:
+:
 internal_types
 :
 :
@@ -91,6 +106,9 @@ TextureUpdateSource
 }
 ;
 use
+crate
+:
+:
 internal_types
 :
 :
@@ -101,6 +119,9 @@ TextureCacheUpdate
 }
 ;
 use
+crate
+:
+:
 profiler
 :
 :
@@ -110,6 +131,9 @@ TextureCacheProfileCounters
 }
 ;
 use
+crate
+:
+:
 render_backend
 :
 :
@@ -119,6 +143,9 @@ FrameStamp
 }
 ;
 use
+crate
+:
+:
 resource_cache
 :
 :

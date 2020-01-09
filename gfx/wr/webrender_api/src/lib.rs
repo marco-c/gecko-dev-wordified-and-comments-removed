@@ -186,6 +186,9 @@ units
 ;
 pub
 use
+crate
+:
+:
 api
 :
 :
@@ -193,6 +196,9 @@ api
 ;
 pub
 use
+crate
+:
+:
 color
 :
 :
@@ -200,6 +206,9 @@ color
 ;
 pub
 use
+crate
+:
+:
 display_item
 :
 :
@@ -207,6 +216,9 @@ display_item
 ;
 pub
 use
+crate
+:
+:
 display_list
 :
 :
@@ -214,6 +226,9 @@ display_list
 ;
 pub
 use
+crate
+:
+:
 font
 :
 :
@@ -221,6 +236,9 @@ font
 ;
 pub
 use
+crate
+:
+:
 gradient_builder
 :
 :
@@ -228,6 +246,9 @@ gradient_builder
 ;
 pub
 use
+crate
+:
+:
 image
 :
 :

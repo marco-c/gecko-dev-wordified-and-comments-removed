@@ -37,6 +37,9 @@ euclid
 HomogeneousVector
 ;
 use
+crate
+:
+:
 image
 :
 :

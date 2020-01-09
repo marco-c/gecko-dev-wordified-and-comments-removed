@@ -8,6 +8,9 @@ TypedSize2D
 }
 ;
 use
+crate
+:
+:
 parse_function
 :
 :
@@ -788,6 +791,8 @@ Sized
 fn
 from_str
 (
+_
+:
 &
 str
 )

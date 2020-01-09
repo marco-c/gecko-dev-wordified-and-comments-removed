@@ -1,5 +1,8 @@
 pub
 use
+crate
+:
+:
 prim_store
 :
 :
@@ -13,6 +16,9 @@ NormalBorderPrim
 ;
 pub
 use
+crate
+:
+:
 prim_store
 :
 :
@@ -26,6 +32,9 @@ YuvImage
 ;
 pub
 use
+crate
+:
+:
 prim_store
 :
 :
@@ -38,6 +47,9 @@ LineDecoration
 ;
 pub
 use
+crate
+:
+:
 prim_store
 :
 :
@@ -51,6 +63,9 @@ RadialGradient
 ;
 pub
 use
+crate
+:
+:
 prim_store
 :
 :
@@ -61,6 +76,9 @@ Picture
 ;
 pub
 use
+crate
+:
+:
 prim_store
 :
 :
