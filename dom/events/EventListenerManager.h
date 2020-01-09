@@ -1243,6 +1243,7 @@ nsAtom
 aName
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 HandleEvent
 (
@@ -1582,6 +1583,7 @@ RemoveAllListeners
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 void
 HandleEventInternal
 (
@@ -1611,6 +1613,7 @@ bool
 aItemInShadowTree
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleEventSubType
 (

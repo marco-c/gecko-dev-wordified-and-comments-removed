@@ -5357,10 +5357,13 @@ else
 {
 result
 =
+MOZ_KnownLive
+(
 listenerHolder
 .
 GetXPCOMCallback
 (
+)
 )
 -
 >
@@ -6225,8 +6228,11 @@ rv
 HandleEventSubType
 (
 listener
+MOZ_KnownLive
+(
 *
 aDOMEvent
+)
 aCurrentTarget
 )
 ;
