@@ -980,9 +980,17 @@ transparency
 .
 sat
 =
+mozilla
+:
+:
+clamped
+(
 sat
 *
 factor
+0
+255
+)
 ;
 }
 else
