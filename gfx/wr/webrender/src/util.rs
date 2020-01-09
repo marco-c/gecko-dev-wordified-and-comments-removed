@@ -4128,13 +4128,6 @@ is_some
 )
 }
 }
-#
-[
-allow
-(
-unused
-)
-]
 pub
 fn
 is_identity

@@ -2209,13 +2209,7 @@ TransformStyle
 :
 :
 Flat
-wr
-:
-:
-ReferenceFrameKind
-:
-:
-Transform
+nullptr
 aPipeline
 -
 >

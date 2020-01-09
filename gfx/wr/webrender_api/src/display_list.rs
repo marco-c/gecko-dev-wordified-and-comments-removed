@@ -194,7 +194,6 @@ use
 {
 RectangleDisplayItem
 ReferenceFrame
-ReferenceFrameKind
 ScrollFrameDisplayItem
 ScrollSensitivity
 }
@@ -6311,9 +6310,12 @@ PropertyBinding
 LayoutTransform
 >
 >
-kind
+perspective
 :
-ReferenceFrameKind
+Option
+<
+LayoutTransform
+>
 )
 -
 >
@@ -6344,7 +6346,7 @@ ReferenceFrame
 {
 transform_style
 transform
-kind
+perspective
 id
 }
 }
