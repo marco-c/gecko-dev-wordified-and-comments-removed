@@ -709,6 +709,16 @@ mIsFirstPaint
 true
 ;
 }
+bool
+GetIsFirstPaint
+(
+)
+const
+{
+return
+mIsFirstPaint
+;
+}
 void
 SetFocusTarget
 (
