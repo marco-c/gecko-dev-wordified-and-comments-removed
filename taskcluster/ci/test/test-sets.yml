@@ -1446,6 +1446,8 @@ crashtest
 -
 gtest
 -
+jittest
+-
 jsreftest
 -
 marionette
