@@ -2632,6 +2632,16 @@ MIDI
 Audio
 "
 }
+{
+APPLICATION_WASM
+"
+wasm
+"
+"
+WebAssembly
+Module
+"
+}
 }
 ;
 #

@@ -602,6 +602,14 @@ binast
 "
 #
 define
+APPLICATION_WASM
+"
+application
+/
+wasm
+"
+#
+define
 AUDIO_BASIC
 "
 audio
