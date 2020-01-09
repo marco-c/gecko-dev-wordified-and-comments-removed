@@ -929,7 +929,7 @@ RawServoAnimationValue
 aAnimationValues
 )
 ;
-bool
+void
 AppendFontFaceRules
 (
 nsTArray
