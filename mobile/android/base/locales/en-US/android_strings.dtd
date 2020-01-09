@@ -10480,6 +10480,16 @@ playing
 >
 <
 !
+ENTITY
+pref_notification_settings_link
+"
+Manage
+notification
+settings
+"
+>
+<
+!
 -
 -
 Notification
