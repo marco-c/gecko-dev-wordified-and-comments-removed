@@ -629,13 +629,7 @@ watch
 node
 bin
 /
-copy
--
--
 watch
--
--
-symlink
 "
 "
 copy
