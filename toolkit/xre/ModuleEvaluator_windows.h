@@ -109,6 +109,9 @@ JitPI
 WinSxSDirectory
 =
 0x100
+Xul
+=
+0x200
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
