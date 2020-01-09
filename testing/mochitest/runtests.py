@@ -5404,13 +5404,6 @@ start_script_kwargs
         
 self
 .
-urlOpts
-=
-[
-]
-        
-self
-.
 extraPrefs
 =
 {
@@ -5898,6 +5891,13 @@ twice
 "
 "
 "
+        
+self
+.
+urlOpts
+=
+[
+]
         
 if
 not
@@ -15539,13 +15539,6 @@ remove
 (
 processLog
 )
-            
-self
-.
-urlOpts
-=
-[
-]
         
 if
 marionette_exception
@@ -15650,13 +15643,6 @@ options
 profilePath
 =
 None
-        
-self
-.
-urlOpts
-=
-[
-]
     
 def
 resolve_runtime_file
@@ -16335,13 +16321,6 @@ profilePath
 =
 None
             
-self
-.
-urlOpts
-=
-[
-]
-            
 result
 =
 self
@@ -16420,13 +16399,6 @@ stepOptions
 profilePath
 =
 None
-                
-self
-.
-urlOpts
-=
-[
-]
                 
 result
 =
@@ -16520,13 +16492,6 @@ profilePath
 =
 None
             
-self
-.
-urlOpts
-=
-[
-]
-            
 result
 =
 self
@@ -16618,13 +16583,6 @@ stepOptions
 profilePath
 =
 None
-                
-self
-.
-urlOpts
-=
-[
-]
                 
 result
 =
@@ -18556,6 +18514,31 @@ join
 self
 .
 urlOpts
+)
+                
+self
+.
+log
+.
+info
+(
+"
+runtests
+.
+py
+|
+Running
+with
+scheme
+:
+{
+}
+"
+.
+format
+(
+scheme
+)
 )
                 
 self
