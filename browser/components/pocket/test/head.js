@@ -295,6 +295,9 @@ checkElements
 (
 expectPresent
 l
+win
+=
+window
 )
 {
 for
@@ -308,6 +311,8 @@ l
 let
 el
 =
+win
+.
 document
 .
 getElementById
@@ -316,6 +321,8 @@ id
 )
 |
 |
+win
+.
 gNavToolbox
 .
 palette
