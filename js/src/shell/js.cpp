@@ -58164,7 +58164,7 @@ if
 JS
 :
 :
-EvaluateLatin1
+EvaluateUtf8
 (
 cx
 opts
