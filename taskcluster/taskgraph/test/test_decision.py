@@ -821,13 +821,36 @@ get_hg_revision_branch
 '
 )
     
+patch
+(
+'
+taskgraph
+.
+decision
+.
+get_hg_commit_message
+'
+)
+    
 def
 test_try_task_config
 (
 self
+mock_get_hg_commit_message
 _
 )
 :
+        
+mock_get_hg_commit_message
+.
+return_value
+=
+'
+Fuzzy
+query
+=
+foo
+'
         
 ttc
 =
