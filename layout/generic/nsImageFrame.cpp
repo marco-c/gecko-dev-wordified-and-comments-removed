@@ -3943,10 +3943,6 @@ InvalidateFrame
 (
 )
 ;
-mMayHaveRoundedCorners
-=
-true
-;
 }
 }
 void
