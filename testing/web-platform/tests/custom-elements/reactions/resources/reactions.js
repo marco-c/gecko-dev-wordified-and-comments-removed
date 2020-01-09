@@ -1733,6 +1733,8 @@ testReflectBooleanAttribute
 jsAttributeName
 contentAttributeName
 name
+elementName
+interfaceName
 )
 {
 testReflectAttributeWithContentValues
@@ -1745,6 +1747,8 @@ true
 false
 null
 name
+elementName
+interfaceName
 )
 ;
 }
