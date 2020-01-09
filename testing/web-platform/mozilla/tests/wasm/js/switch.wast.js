@@ -1,3 +1,9 @@
+(
+function
+switch_wast_js
+(
+)
+{
 let
 1
 =
@@ -2593,5 +2599,14 @@ x03
 \
 x0b
 "
+)
+;
+reinitializeRegistry
+(
+)
+;
+}
+)
+(
 )
 ;

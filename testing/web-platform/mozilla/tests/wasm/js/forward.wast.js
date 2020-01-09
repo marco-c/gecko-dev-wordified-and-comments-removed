@@ -1,3 +1,9 @@
+(
+function
+forward_wast_js
+(
+)
+{
 let
 1
 =
@@ -293,5 +299,14 @@ odd
 ]
 )
 0
+)
+;
+reinitializeRegistry
+(
+)
+;
+}
+)
+(
 )
 ;

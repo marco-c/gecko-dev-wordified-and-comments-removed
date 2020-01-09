@@ -1,3 +1,9 @@
+(
+function
+skip_stack_guard_page_wast_js
+(
+)
+{
 let
 1
 =
@@ -37465,5 +37471,14 @@ skip
 900
 ]
 )
+)
+;
+reinitializeRegistry
+(
+)
+;
+}
+)
+(
 )
 ;
