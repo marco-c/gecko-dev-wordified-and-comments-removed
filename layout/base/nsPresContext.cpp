@@ -945,10 +945,6 @@ mInflationDisabledForShrinkWrap
 (
 false
 )
-mBaseMinFontSize
-(
-0
-)
 mSystemFontScale
 (
 1

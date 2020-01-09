@@ -1019,11 +1019,6 @@ ZoomChange
 MediaFeatureChangeReason
 :
 :
-MinFontSizeChange
-|
-MediaFeatureChangeReason
-:
-:
 ResolutionChange
 ;
 nsRestyleHint
