@@ -12306,17 +12306,6 @@ vr
 EVREventType
 :
 :
-VREvent_ProcessQuit
-:
-case
-:
-:
-vr
-:
-:
-EVREventType
-:
-:
 VREvent_QuitAcknowledged
 :
 case
