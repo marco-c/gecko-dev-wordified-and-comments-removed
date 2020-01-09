@@ -12863,6 +12863,11 @@ ion
 bug1214013
 .
 js
+xdr
+/
+bigint
+.
+js
 #
 slow
 atomics
