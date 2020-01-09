@@ -2122,15 +2122,6 @@ windowToFocus
 NS_ERROR_FAILURE
 )
 ;
-windowToFocus
-=
-windowToFocus
--
->
-GetOuterWindow
-(
-)
-;
 nsCOMPtr
 <
 Element

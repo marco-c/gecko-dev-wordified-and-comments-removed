@@ -698,11 +698,6 @@ WidgetUtils
 DOMWindowToWidget
 (
 mParent
--
->
-GetOuterWindow
-(
-)
 )
 ;
 NS_ENSURE_TRUE
