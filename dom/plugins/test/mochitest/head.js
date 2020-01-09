@@ -194,6 +194,9 @@ return
 ;
 }
 throw
+new
+Error
+(
 "
 Native
 wheel
@@ -206,6 +209,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }

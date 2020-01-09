@@ -281,12 +281,16 @@ f2Main
 6
 )
 throw
+new
+Error
+(
 "
 f2Main
 (
 4
 )
 "
+)
 ;
 if
 (
@@ -300,6 +304,9 @@ f2Main
 4950
 )
 throw
+new
+Error
+(
 "
 f2
 .
@@ -308,6 +315,7 @@ main
 100
 )
 "
+)
 ;
 var
 sum
@@ -636,6 +644,9 @@ f3Main
 lastSum
 )
 throw
+new
+Error
+(
 "
 f3
 .
@@ -643,6 +654,7 @@ main
 (
 )
 "
+)
 ;
 if
 (

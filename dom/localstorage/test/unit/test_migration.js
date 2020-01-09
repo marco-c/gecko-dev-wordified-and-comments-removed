@@ -670,6 +670,8 @@ default
 :
 {
 throw
+new
+Error
 (
 "
 Unknown
