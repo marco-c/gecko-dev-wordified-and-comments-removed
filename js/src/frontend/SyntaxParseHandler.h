@@ -1721,7 +1721,8 @@ return
 NodeGeneric
 ;
 }
-AssignmentNodeType
+MOZ_MUST_USE
+bool
 finishInitializerAssignment
 (
 NameNodeType
@@ -1731,7 +1732,7 @@ init
 )
 {
 return
-NodeUnparenthesizedAssignment
+true
 ;
 }
 void
