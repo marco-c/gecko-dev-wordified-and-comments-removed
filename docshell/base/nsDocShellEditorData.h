@@ -45,7 +45,7 @@ class
 nsIDocShell
 ;
 class
-nsIEditingSession
+nsEditingSession
 ;
 class
 nsDocShellEditorData
@@ -77,13 +77,10 @@ GetEditable
 (
 )
 ;
-nsresult
+nsEditingSession
+*
 GetEditingSession
 (
-nsIEditingSession
-*
-*
-aResult
 )
 ;
 mozilla
@@ -150,9 +147,9 @@ nsIDocShell
 *
 mDocShell
 ;
-nsCOMPtr
+RefPtr
 <
-nsIEditingSession
+nsEditingSession
 >
 mEditingSession
 ;
