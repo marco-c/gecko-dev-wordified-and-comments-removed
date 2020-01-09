@@ -1116,6 +1116,9 @@ isFromProcessingFrameAttributes
 CookieSettingsArgs
 cookieSettings
 ;
+uint32_t
+requestBlockingReason
+;
 }
 ;
 /
@@ -1304,6 +1307,9 @@ documentHasLoaded
 CookieSettingsArgs
 ?
 cookieSettings
+;
+uint32_t
+requestBlockingReason
 ;
 /
 /

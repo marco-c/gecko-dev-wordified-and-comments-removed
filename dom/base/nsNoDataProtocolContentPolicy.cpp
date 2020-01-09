@@ -252,6 +252,15 @@ rv
 shouldBlock
 )
 {
+NS_SetRequestBlockingReason
+(
+aLoadInfo
+nsILoadInfo
+:
+:
+BLOCKING_REASON_CONTENT_POLICY_NO_DATA_PROTOCOL
+)
+;
 *
 aDecision
 =

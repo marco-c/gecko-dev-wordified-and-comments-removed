@@ -1038,6 +1038,14 @@ override
 private
 :
 nsresult
+AsyncOpenInternal
+(
+nsIStreamListener
+*
+aListener
+)
+;
+nsresult
 AsyncCallImpl
 (
 void
