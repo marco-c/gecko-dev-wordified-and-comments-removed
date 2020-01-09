@@ -138,11 +138,6 @@ js
 '
 WorkerDetail
 .
-css
-'
-'
-WorkerDetail
-.
 js
 '
 )
