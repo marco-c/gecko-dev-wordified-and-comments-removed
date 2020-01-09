@@ -2358,6 +2358,9 @@ mOriginalTarget
 if
 (
 originalTarget
+&
+&
+originalTarget
 -
 >
 GetContainingShadow
