@@ -103,8 +103,6 @@ searchFor
 Paint
 "
 setup
-:
-function
 (
 docShell
 )
@@ -141,8 +139,6 @@ color
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -360,8 +356,6 @@ searchFor
 Paint
 "
 setup
-:
-function
 (
 docShell
 )
@@ -396,8 +390,6 @@ color
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -586,8 +578,6 @@ searchFor
 Paint
 "
 setup
-:
-function
 (
 docShell
 )
@@ -625,8 +615,6 @@ class
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -754,8 +742,6 @@ searchFor
 ConsoleTime
 "
 setup
-:
-function
 (
 docShell
 )
@@ -913,8 +899,6 @@ BAR
 ;
 }
 check
-:
-function
 (
 markers
 )
@@ -1036,8 +1020,6 @@ searchFor
 Timestamp
 "
 setup
-:
-function
 (
 docshell
 )
@@ -1153,8 +1135,6 @@ undefined
 ;
 }
 check
-:
-function
 (
 markers
 )

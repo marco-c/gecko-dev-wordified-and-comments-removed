@@ -29,6 +29,7 @@ redirect_to_example
 .
 sjs
 "
+;
 add_task
 (
 async

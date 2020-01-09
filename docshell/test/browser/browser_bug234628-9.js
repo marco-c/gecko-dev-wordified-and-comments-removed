@@ -59,10 +59,10 @@ textContent
 .
 indexOf
 (
-'
+"
 \
 u20AC
-'
+"
 )
 145
 "
@@ -93,10 +93,10 @@ textContent
 .
 indexOf
 (
-'
+"
 \
 u20AC
-'
+"
 )
 96
 "

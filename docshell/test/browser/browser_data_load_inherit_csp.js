@@ -115,7 +115,6 @@ uri
 )
 ;
 }
-;
 function
 verifyCSP
 (
@@ -233,11 +232,11 @@ is
 (
 policy
 [
-'
+"
 script
 -
 src
-'
+"
 ]
 "
 '
@@ -259,7 +258,6 @@ matches
 )
 ;
 }
-;
 add_task
 (
 async

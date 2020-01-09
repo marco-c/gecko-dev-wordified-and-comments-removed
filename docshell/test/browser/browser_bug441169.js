@@ -1,5 +1,6 @@
 var
 newBrowser
+;
 function
 task
 (

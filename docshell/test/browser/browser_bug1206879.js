@@ -42,8 +42,6 @@ listener
 =
 {
 onLocationChange
-:
-function
 (
 browser
 wp

@@ -59,10 +59,10 @@ textContent
 .
 indexOf
 (
-'
+"
 \
 u0402
-'
+"
 )
 156
 "
@@ -93,10 +93,10 @@ textContent
 .
 indexOf
 (
-'
+"
 \
 u0402
-'
+"
 )
 99
 "

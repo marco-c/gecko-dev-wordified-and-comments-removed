@@ -18,8 +18,6 @@ last
 initial
 "
 OnHistoryNewEntry
-:
-function
 (
 aNewURI
 )
@@ -34,8 +32,6 @@ newentry
 ;
 }
 OnHistoryGotoIndex
-:
-function
 (
 aIndex
 aGotoURI
@@ -51,8 +47,6 @@ gotoindex
 ;
 }
 OnHistoryPurge
-:
-function
 (
 aNumEntries
 )
@@ -67,8 +61,6 @@ purge
 ;
 }
 OnHistoryReload
-:
-function
 (
 aReloadURI
 aReloadFlags
@@ -89,8 +81,6 @@ retval
 ;
 }
 OnHistoryReplaceEntry
-:
-function
 (
 aIndex
 )

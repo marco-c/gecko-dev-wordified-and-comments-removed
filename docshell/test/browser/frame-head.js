@@ -48,12 +48,11 @@ value
 !
 value
 message
-:
-message
 }
 )
 ;
 }
+;
 this
 .
 is
@@ -75,6 +74,7 @@ message
 )
 ;
 }
+;
 this
 .
 info
@@ -95,12 +95,11 @@ info
 "
 {
 message
-:
-message
 }
 )
 ;
 }
+;
 this
 .
 finish
@@ -121,6 +120,7 @@ finish
 )
 ;
 }
+;
 this
 .
 timelineContentTest
@@ -306,6 +306,7 @@ finish
 )
 ;
 }
+;
 function
 timelineWaitForMarkers
 (
