@@ -6971,7 +6971,7 @@ Unused
 PluginInstanceParent
 :
 :
-Call__delete__
+Send__delete__
 (
 pip
 )

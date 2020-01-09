@@ -544,7 +544,7 @@ PPluginSurface
 ;
 child
 :
-intr
+async
 __delete__
 (
 )
