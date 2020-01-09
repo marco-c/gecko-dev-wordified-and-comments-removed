@@ -20,7 +20,7 @@ const
 MATCH
 =
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -924,7 +924,7 @@ addResults
 (
 [
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -1077,7 +1077,7 @@ addResults
 (
 [
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .

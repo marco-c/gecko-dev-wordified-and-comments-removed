@@ -39,7 +39,7 @@ const
 match
 =
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .

@@ -342,7 +342,7 @@ Model
 The
 model
 appends
-matches
+results
 to
 a
 property
@@ -696,7 +696,7 @@ boolean
 whether
 the
 first
-match
+result
 should
 be
 preselected
@@ -710,7 +710,7 @@ array
 }
 list
 of
-UrlbarMatch
+UrlbarResult
 objects
 .
 tokens
@@ -900,7 +900,7 @@ know
 when
 no
 more
-matches
+results
 will
 be
 returned
@@ -1013,9 +1013,8 @@ the
 search
 to
 specific
+match
 type
-of
-matches
 (
 See
 the
@@ -1143,7 +1142,7 @@ into
 searching
 and
 returning
-matches
+results
 from
 different
 information
@@ -1430,10 +1429,10 @@ add
 a
 new
 *
-match
+result
 .
 A
-UrlbarMatch
+UrlbarResult
 should
 be
 passed
@@ -1458,7 +1457,7 @@ done
 searching
 AND
 returning
-matches
+results
 .
 *
 abstract
@@ -1560,7 +1559,7 @@ is
 responsible
 for
 sorting
-matches
+results
 based
 on
 their
@@ -1649,7 +1648,7 @@ the
 context
 to
 sort
-matches
+results
 .
 *
 Not
@@ -1686,7 +1685,7 @@ UrlbarMuxerBase
 *
 Sorts
 UrlbarQueryContext
-matches
+results
 in
 -
 place
@@ -1701,7 +1700,7 @@ the
 context
 to
 sort
-matches
+results
 for
 .
 *
@@ -1879,7 +1878,7 @@ by
 the
 ProvidersManager
 when
-matches
+results
 are
 available
 .
@@ -1897,7 +1896,7 @@ View
 to
 listen
 for
-matches
+results
 .
 addQueryListener
 (
@@ -2440,7 +2439,7 @@ queryContext
 Invoked
 when
 new
-matches
+results
 are
 available
 .
@@ -2479,7 +2478,7 @@ queryContext
 )
 ;
 }
-UrlbarMatch
+UrlbarResult
 =
 =
 =
@@ -2492,7 +2491,7 @@ UrlbarMatch
 =
 =
 An
-UrlbarMatch
+UrlbarResult
 <
 https
 :
@@ -2516,7 +2515,7 @@ components
 /
 urlbar
 /
-UrlbarMatch
+UrlbarResult
 .
 jsm
 >
@@ -2525,11 +2524,8 @@ instance
 represents
 a
 single
-match
-(
 search
 result
-)
 with
 a
 match
@@ -2564,7 +2560,7 @@ by
 all
 of
 the
-matches
+results
 .
 .
 .
@@ -2594,7 +2590,7 @@ JavaScript
 code
 :
 :
-UrlbarMatch
+UrlbarResult
 {
 constructor
 (

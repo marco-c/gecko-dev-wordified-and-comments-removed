@@ -15,7 +15,7 @@ let
 match
 =
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -186,7 +186,7 @@ matches
 [
 match
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -459,7 +459,7 @@ let
 match
 =
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -493,7 +493,7 @@ let
 jsMatch
 =
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -795,7 +795,7 @@ goodMatches
 =
 [
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -825,7 +825,7 @@ foo
 }
 )
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -963,7 +963,7 @@ badMatches
 =
 [
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .

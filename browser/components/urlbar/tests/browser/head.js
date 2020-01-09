@@ -75,7 +75,7 @@ UrlbarController
 .
 jsm
 "
-UrlbarMatch
+UrlbarResult
 :
 "
 resource
@@ -85,7 +85,7 @@ resource
 /
 modules
 /
-UrlbarMatch
+UrlbarResult
 .
 jsm
 "

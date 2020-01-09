@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-UrlbarMatch
+UrlbarResult
 "
 ]
 ;
@@ -55,7 +55,7 @@ jsm
 )
 ;
 class
-UrlbarMatch
+UrlbarResult
 {
 constructor
 (

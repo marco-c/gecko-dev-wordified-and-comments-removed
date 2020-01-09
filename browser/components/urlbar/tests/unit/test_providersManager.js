@@ -185,7 +185,7 @@ let
 match
 =
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .

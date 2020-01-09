@@ -67,20 +67,6 @@ PlacesUtils
 .
 jsm
 "
-UrlbarMatch
-:
-"
-resource
-:
-/
-/
-/
-modules
-/
-UrlbarMatch
-.
-jsm
-"
 UrlbarProvider
 :
 "
@@ -92,6 +78,20 @@ resource
 modules
 /
 UrlbarUtils
+.
+jsm
+"
+UrlbarResult
+:
+"
+resource
+:
+/
+/
+/
+modules
+/
+UrlbarResult
 .
 jsm
 "
@@ -713,7 +713,7 @@ i
 let
 match
 =
-makeUrlbarMatch
+makeUrlbarResult
 (
 context
 .
@@ -833,7 +833,7 @@ done
 ;
 }
 function
-makeUrlbarMatch
+makeUrlbarResult
 (
 tokens
 info
@@ -870,7 +870,7 @@ searchengine
 :
 return
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -885,7 +885,7 @@ SEARCH
 .
 .
 .
-UrlbarMatch
+UrlbarResult
 .
 payloadAndSimpleHighlights
 (
@@ -950,7 +950,7 @@ keyword
 :
 return
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -965,7 +965,7 @@ BOOKMARKS
 .
 .
 .
-UrlbarMatch
+UrlbarResult
 .
 payloadAndSimpleHighlights
 (
@@ -1018,7 +1018,7 @@ extension
 :
 return
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -1033,7 +1033,7 @@ OTHER_NETWORK
 .
 .
 .
-UrlbarMatch
+UrlbarResult
 .
 payloadAndSimpleHighlights
 (
@@ -1086,7 +1086,7 @@ remotetab
 :
 return
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -1101,7 +1101,7 @@ TABS
 .
 .
 .
-UrlbarMatch
+UrlbarResult
 .
 payloadAndSimpleHighlights
 (
@@ -1154,7 +1154,7 @@ switchtab
 :
 return
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -1169,7 +1169,7 @@ TABS
 .
 .
 .
-UrlbarMatch
+UrlbarResult
 .
 payloadAndSimpleHighlights
 (
@@ -1222,7 +1222,7 @@ visiturl
 :
 return
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -1237,7 +1237,7 @@ OTHER_LOCAL
 .
 .
 .
-UrlbarMatch
+UrlbarResult
 .
 payloadAndSimpleHighlights
 (
@@ -1313,7 +1313,7 @@ search
 {
 return
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -1328,7 +1328,7 @@ SEARCH
 .
 .
 .
-UrlbarMatch
+UrlbarResult
 .
 payloadAndSimpleHighlights
 (
@@ -1494,7 +1494,7 @@ HISTORY
 }
 return
 new
-UrlbarMatch
+UrlbarResult
 (
 UrlbarUtils
 .
@@ -1505,7 +1505,7 @@ source
 .
 .
 .
-UrlbarMatch
+UrlbarResult
 .
 payloadAndSimpleHighlights
 (

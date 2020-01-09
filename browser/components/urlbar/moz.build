@@ -88,11 +88,6 @@ UrlbarInput
 jsm
 '
 '
-UrlbarMatch
-.
-jsm
-'
-'
 UrlbarMuxerUnifiedComplete
 .
 jsm
@@ -114,6 +109,11 @@ jsm
 '
 '
 UrlbarProviderUnifiedComplete
+.
+jsm
+'
+'
+UrlbarResult
 .
 jsm
 '
