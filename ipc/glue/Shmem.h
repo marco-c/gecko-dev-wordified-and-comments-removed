@@ -751,6 +751,7 @@ IProtocol
 aActor
 paramType
 &
+&
 aParam
 )
 ;

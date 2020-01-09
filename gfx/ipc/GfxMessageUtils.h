@@ -7640,6 +7640,7 @@ Message
 aMsg
 paramType
 &
+&
 aParam
 )
 {
@@ -7654,9 +7655,15 @@ mSize
 WriteParam
 (
 aMsg
+std
+:
+:
+move
+(
 aParam
 .
 mRecording
+)
 )
 ;
 WriteParam

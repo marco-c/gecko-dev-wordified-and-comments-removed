@@ -531,6 +531,7 @@ nsTArray
 T
 >
 &
+&
 aParam
 )
 {
@@ -851,6 +852,11 @@ WriteIPDLParam
 (
 aMsg
 aActor
+std
+:
+:
+move
+(
 aParam
 .
 Elements
@@ -859,6 +865,7 @@ Elements
 [
 index
 ]
+)
 )
 ;
 }
