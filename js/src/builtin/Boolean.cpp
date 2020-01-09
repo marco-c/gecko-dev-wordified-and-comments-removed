@@ -1007,6 +1007,7 @@ isBigInt
 )
 {
 return
+!
 v
 .
 toBigInt
@@ -1014,7 +1015,7 @@ toBigInt
 )
 -
 >
-toBoolean
+isZero
 (
 )
 ;

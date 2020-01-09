@@ -2540,14 +2540,14 @@ value
 )
 -
 >
-toBoolean
+isZero
 (
 )
 )
 ?
-Truthy
-:
 Falsy
+:
+Truthy
 ;
 #
 endif

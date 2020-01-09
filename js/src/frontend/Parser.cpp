@@ -41743,7 +41743,7 @@ b
 js
 :
 :
-StringToBigInt
+ParseBigIntLiteral
 (
 context
 source
