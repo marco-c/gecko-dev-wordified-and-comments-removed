@@ -712,6 +712,13 @@ h
 #
 include
 "
+nsIContentIterator
+.
+h
+"
+#
+include
+"
 nsIStyleSheetService
 .
 h

@@ -455,6 +455,11 @@ nsIContentInlines
 h
 '
 '
+nsIContentIterator
+.
+h
+'
+'
 nsIContentSerializer
 .
 h
@@ -689,11 +694,6 @@ mozilla
 +
 =
 [
-'
-ContentIterator
-.
-h
-'
 '
 CORSMode
 .
@@ -1357,11 +1357,6 @@ ContentFrameMessageManager
 cpp
 '
 '
-ContentIterator
-.
-cpp
-'
-'
 ContentProcessMessageManager
 .
 cpp
@@ -1603,6 +1598,11 @@ cpp
 '
 '
 nsContentAreaDragDrop
+.
+cpp
+'
+'
+nsContentIterator
 .
 cpp
 '

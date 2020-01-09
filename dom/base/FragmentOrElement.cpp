@@ -245,6 +245,13 @@ h
 #
 include
 "
+nsIContentIterator
+.
+h
+"
+#
+include
+"
 nsFocusManager
 .
 h

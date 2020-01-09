@@ -137,6 +137,9 @@ class
 nsAutoScrollTimer
 ;
 class
+nsIContentIterator
+;
+class
 nsIFrame
 ;
 class
@@ -165,9 +168,6 @@ ErrorResult
 ;
 class
 HTMLEditor
-;
-class
-PostContentIterator
 ;
 enum
 class
@@ -2025,9 +2025,9 @@ aSelected
 nsresult
 SelectAllFramesForContent
 (
-PostContentIterator
-&
-aPostOrderIter
+nsIContentIterator
+*
+aInnerIter
 nsIContent
 *
 aContent

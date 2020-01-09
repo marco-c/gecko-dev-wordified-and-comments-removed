@@ -144,6 +144,13 @@ h
 #
 include
 "
+nsIContentIterator
+.
+h
+"
+#
+include
+"
 nsIDocumentEncoder
 .
 h

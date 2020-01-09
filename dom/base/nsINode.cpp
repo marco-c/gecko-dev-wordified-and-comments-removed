@@ -428,6 +428,13 @@ h
 #
 include
 "
+nsIContentIterator
+.
+h
+"
+#
+include
+"
 nsIControllers
 .
 h

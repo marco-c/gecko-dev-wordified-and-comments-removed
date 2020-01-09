@@ -117,7 +117,7 @@ concrete
 classes
 of
 *
-ContentIteratorBase
+nsIContentIterator
 .
 *
 /
@@ -225,7 +225,7 @@ exception
 /
 /
 See
-ContentIteratorBase
+nsIContentIterator
 :
 :
 Init
@@ -247,7 +247,7 @@ aRoot
 /
 /
 See
-ContentIteratorBase
+nsIContentIterator
 :
 :
 Init
@@ -269,7 +269,7 @@ aRange
 /
 /
 See
-ContentIteratorBase
+nsIContentIterator
 :
 :
 Init
@@ -306,7 +306,7 @@ aEndOffset
 /
 /
 See
-ContentIteratorBase
+nsIContentIterator
 :
 :
 First
@@ -320,7 +320,7 @@ first
 /
 /
 See
-ContentIteratorBase
+nsIContentIterator
 :
 :
 Last
@@ -334,7 +334,7 @@ last
 /
 /
 See
-ContentIteratorBase
+nsIContentIterator
 :
 :
 Next
@@ -348,7 +348,7 @@ next
 /
 /
 See
-ContentIteratorBase
+nsIContentIterator
 :
 :
 Prev
@@ -362,7 +362,7 @@ prev
 /
 /
 See
-ContentIteratorBase
+nsIContentIterator
 :
 :
 GetCurrentNode
@@ -376,7 +376,7 @@ currentNode
 /
 /
 See
-ContentIteratorBase
+nsIContentIterator
 :
 :
 IsDone
@@ -390,7 +390,7 @@ isDone
 /
 /
 See
-ContentIteratorBase
+nsIContentIterator
 :
 :
 PositionAt

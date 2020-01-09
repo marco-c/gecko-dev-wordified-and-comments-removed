@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsIContentIterator
+.
+h
+"
+#
+include
+"
 nsFlexContainerFrame
 .
 h
