@@ -1394,8 +1394,8 @@ aRegisteredPage
 )
 {
 #
-ifdef
-DEBUG
+if
+0
 struct
 RegisteredPageComparator
 {
