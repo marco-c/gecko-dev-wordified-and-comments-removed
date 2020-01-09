@@ -370,6 +370,15 @@ GetPreviewVisibility
 =
 0
 ;
+enum
+class
+ValueChangeKind
+{
+Internal
+Script
+UserInteraction
+}
+;
 NS_IMETHOD_
 (
 void
@@ -378,8 +387,7 @@ OnValueChanged
 (
 bool
 aNotify
-bool
-aWasInteractiveUserChange
+ValueChangeKind
 )
 =
 0

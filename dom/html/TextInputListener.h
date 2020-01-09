@@ -125,6 +125,9 @@ OnEditActionHandled
 void
 OnSelectionChange
 (
+dom
+:
+:
 Selection
 &
 aSelection

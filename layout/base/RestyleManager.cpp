@@ -13228,7 +13228,7 @@ Element
 aElement
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mInStyleRefresh
@@ -14065,7 +14065,7 @@ EventStates
 aChangedBits
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mInStyleRefresh

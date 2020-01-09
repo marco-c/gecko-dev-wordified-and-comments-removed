@@ -1122,8 +1122,7 @@ OnValueChanged
 (
 bool
 aNotify
-bool
-aWasInteractiveUserChange
+ValueChangeKind
 )
 override
 ;
