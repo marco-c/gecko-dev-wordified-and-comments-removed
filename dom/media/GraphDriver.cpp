@@ -196,7 +196,7 @@ aLastSwitchNextIterationEnd
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 |
@@ -318,7 +318,7 @@ aNextDriver
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 )
@@ -494,6 +494,31 @@ EnsureNextIteration
 )
 ;
 }
+#
+ifdef
+DEBUG
+bool
+GraphDriver
+:
+:
+OnGraphThread
+(
+)
+{
+return
+GraphImpl
+(
+)
+-
+>
+RunByGraphDriver
+(
+this
+)
+;
+}
+#
+endif
 bool
 GraphDriver
 :
@@ -504,7 +529,7 @@ Switching
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 )
@@ -539,7 +564,7 @@ SwitchToNextDriver
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 |
@@ -620,7 +645,7 @@ NextDriver
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 |
@@ -659,7 +684,7 @@ PreviousDriver
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 |
@@ -700,7 +725,7 @@ aNextDriver
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 |
@@ -819,7 +844,7 @@ aPreviousDriver
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 |
@@ -3920,7 +3945,7 @@ PreviousDriver
 )
 -
 >
-OnThread
+OnGraphThread
 (
 )
 )
@@ -4335,7 +4360,7 @@ RemoveMixerCallback
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 |
@@ -4379,7 +4404,7 @@ AddMixerCallback
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 )
@@ -5363,7 +5388,7 @@ aState
 MOZ_ASSERT
 (
 !
-OnThread
+OnGraphThread
 (
 )
 )
@@ -5484,7 +5509,7 @@ aSampleRate
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 )
@@ -5831,7 +5856,7 @@ DeviceChangedCallback
 MOZ_ASSERT
 (
 !
-OnThread
+OnGraphThread
 (
 )
 )
@@ -5877,7 +5902,7 @@ IterationDuration
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 )
@@ -5919,7 +5944,7 @@ aOperation
 {
 MOZ_ASSERT
 (
-OnThread
+OnGraphThread
 (
 )
 |
