@@ -7571,9 +7571,7 @@ PresShell
 )
 -
 >
-SetPendingVisualViewportOffset
-(
-Some
+SetPendingVisualScrollUpdate
 (
 CSSPoint
 :
@@ -7586,7 +7584,10 @@ aOffsetX
 aOffsetY
 )
 )
-)
+FrameMetrics
+:
+:
+eRestore
 )
 ;
 return
