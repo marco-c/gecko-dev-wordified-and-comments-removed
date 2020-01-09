@@ -209,7 +209,7 @@ tokenStream
 prs
 -
 >
-usedNames
+usedNames_
 newDirectives
 mozilla
 :
@@ -370,7 +370,7 @@ pc_
 ;
 UsedNameTracker
 &
-usedNames
+usedNames_
 ;
 ScriptSource
 *
@@ -2547,7 +2547,7 @@ using
 Base
 :
 :
-usedNames
+usedNames_
 ;
 private
 :
@@ -5094,7 +5094,7 @@ using
 Base
 :
 :
-usedNames
+usedNames_
 ;
 private
 :
@@ -5765,7 +5765,7 @@ using
 Base
 :
 :
-usedNames
+usedNames_
 ;
 using
 Base
