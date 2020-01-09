@@ -96,9 +96,6 @@ namespace
 jit
 {
 class
-StackValue
-;
-class
 ICEntry
 ;
 class
@@ -189,16 +186,6 @@ SlotIgnore
 )
 ;
 }
-static
-SlotLocation
-ToSlotLocation
-(
-const
-StackValue
-*
-stackVal
-)
-;
 inline
 static
 PCMappingSlotInfo
