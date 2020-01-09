@@ -22,13 +22,13 @@ js
 "
 ;
 const
-OPTOUT
+ALL_CHANNELS
 =
 Ci
 .
 nsITelemetry
 .
-DATASET_RELEASE_CHANNEL_OPTOUT
+DATASET_ALL_CHANNELS
 ;
 const
 DATA
@@ -384,7 +384,7 @@ telemetry
 .
 snapshotEvents
 (
-OPTOUT
+ALL_CHANNELS
 true
 )
 ;
@@ -594,7 +594,7 @@ telemetry
 .
 snapshotEvents
 (
-OPTOUT
+ALL_CHANNELS
 true
 )
 ;

@@ -38,13 +38,13 @@ html
 "
 ;
 const
-OPTOUT
+ALL_CHANNELS
 =
 Ci
 .
 nsITelemetry
 .
-DATASET_RELEASE_CHANNEL_OPTOUT
+DATASET_ALL_CHANNELS
 ;
 const
 SHOULD_ENTER_MULTILINE
@@ -462,7 +462,7 @@ telemetry
 .
 snapshotEvents
 (
-OPTOUT
+ALL_CHANNELS
 true
 )
 ;
@@ -661,7 +661,7 @@ telemetry
 .
 snapshotEvents
 (
-OPTOUT
+ALL_CHANNELS
 true
 )
 ;
