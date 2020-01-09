@@ -1058,13 +1058,6 @@ return
 [
 <
 div
-key
-=
-"
-scopes
--
-buttons
-"
 >
 <
 label
