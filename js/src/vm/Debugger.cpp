@@ -168,6 +168,15 @@ include
 "
 js
 /
+PropertyDescriptor
+.
+h
+"
+#
+include
+"
+js
+/
 SourceText
 .
 h

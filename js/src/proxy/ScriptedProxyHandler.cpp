@@ -26,6 +26,15 @@ h
 #
 include
 "
+js
+/
+PropertyDescriptor
+.
+h
+"
+#
+include
+"
 vm
 /
 EqualityOperations
