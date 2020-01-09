@@ -880,7 +880,7 @@ document
 .
 documentElement
 .
-appendChild
+prepend
 (
 i
 )
@@ -897,7 +897,7 @@ window
 .
 frames
 [
-0
+1
 ]
 .
 docShell
