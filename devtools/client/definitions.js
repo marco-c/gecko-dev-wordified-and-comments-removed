@@ -4284,12 +4284,7 @@ toolbox
 .
 target
 .
-getCachedFront
-(
-"
-inspector
-"
-)
+_inspector
 ;
 if
 (
