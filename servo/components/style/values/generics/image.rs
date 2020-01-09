@@ -486,6 +486,8 @@ Clone
 Debug
 PartialEq
 ToComputedValue
+ToResolvedValue
+ToShmem
 )
 ]
 pub

@@ -630,9 +630,9 @@ usize
 [
 derive
 (
+Eq
 Hash
 PartialEq
-Eq
 )
 ]
 struct
