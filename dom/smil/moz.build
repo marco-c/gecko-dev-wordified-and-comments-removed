@@ -275,11 +275,6 @@ nsSMILCSSValueType
 cpp
 '
 '
-nsSMILFloatType
-.
-cpp
-'
-'
 nsSMILInstanceTime
 .
 cpp
@@ -346,6 +341,11 @@ cpp
 '
 '
 SMILEnumType
+.
+cpp
+'
+'
+SMILFloatType
 .
 cpp
 '
