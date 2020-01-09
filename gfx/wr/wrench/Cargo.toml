@@ -77,7 +77,7 @@ version
 "
 0
 .
-5
+6
 "
 optional
 =
@@ -350,6 +350,13 @@ foundation
 "
 [
 features
+]
+default
+=
+[
+"
+env_logger
+"
 ]
 headless
 =
