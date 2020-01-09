@@ -17498,14 +17498,6 @@ aBuilder
 viewportFrame
 &
 topLayerList
-aBuilder
--
->
-CurrentActiveScrolledRoot
-(
-)
-false
-2
 )
 ;
 wrapList
