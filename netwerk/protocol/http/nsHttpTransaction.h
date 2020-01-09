@@ -1502,9 +1502,6 @@ mH2WSTransaction
 HttpTrafficCategory
 mTrafficCategory
 ;
-bool
-mThroughCaptivePortal
-;
 }
 ;
 }
