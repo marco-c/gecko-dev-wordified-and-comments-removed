@@ -1937,15 +1937,6 @@ return
 mMessage
 ;
 }
-bool
-GetAffectedSchedulerGroups
-(
-SchedulerGroupSet
-&
-aGroups
-)
-override
-;
 private
 :
 MessageTask

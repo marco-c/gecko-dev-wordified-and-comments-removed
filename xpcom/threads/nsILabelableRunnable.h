@@ -152,17 +152,6 @@ aIsRunning
 ;
 }
 ;
-virtual
-bool
-GetAffectedSchedulerGroups
-(
-SchedulerGroupSet
-&
-aGroups
-)
-=
-0
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
