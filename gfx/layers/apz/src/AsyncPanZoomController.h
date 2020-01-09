@@ -1985,6 +1985,14 @@ SCROLLBAR_DRAG
 PanZoomState
 mState
 ;
+static
+bool
+CanHandleScrollOffsetUpdate
+(
+PanZoomState
+aState
+)
+;
 private
 :
 friend
