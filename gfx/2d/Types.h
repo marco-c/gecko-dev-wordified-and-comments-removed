@@ -1841,6 +1841,8 @@ aCorner
 }
 enum
 HalfCorner
+:
+uint8_t
 {
 eCornerTopLeftX
 =

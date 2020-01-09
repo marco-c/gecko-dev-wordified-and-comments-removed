@@ -953,7 +953,7 @@ aRadii
 )
 {
 const
-nsStyleCorners
+auto
 &
 radius
 =
