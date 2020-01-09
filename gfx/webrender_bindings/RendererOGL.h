@@ -59,6 +59,17 @@ webrender_ffi
 .
 h
 "
+#
+include
+"
+mozilla
+/
+webrender
+/
+RendererScreenshotGrabber
+.
+h
+"
 namespace
 mozilla
 {
@@ -379,6 +390,9 @@ mWindowId
 ;
 TimeStamp
 mFrameStartTime
+;
+RendererScreenshotGrabber
+mScreenshotGrabber
 ;
 }
 ;
