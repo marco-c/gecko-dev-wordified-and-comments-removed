@@ -2629,6 +2629,8 @@ cols
 =
 list
 .
+previousElementSibling
+.
 querySelectorAll
 (
 "

@@ -2860,6 +2860,8 @@ cols
 =
 list
 .
+previousElementSibling
+.
 querySelectorAll
 (
 "

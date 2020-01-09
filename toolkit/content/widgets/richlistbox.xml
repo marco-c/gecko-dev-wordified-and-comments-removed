@@ -195,15 +195,6 @@ basecontrol
 content
 >
 <
-children
-includes
-=
-"
-listheader
-"
-/
->
-<
 xul
 :
 scrollbox
