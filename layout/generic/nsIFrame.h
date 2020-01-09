@@ -5220,7 +5220,7 @@ mozilla
 :
 EffectSet
 *
-aEffectSet
+aEffectSetForOpacity
 =
 nullptr
 )
@@ -5234,7 +5234,7 @@ mozilla
 :
 EffectSet
 *
-aEffectSet
+aEffectSetForOpacity
 =
 nullptr
 )
@@ -5249,7 +5249,7 @@ StyleDisplay
 StyleEffects
 (
 )
-aEffectSet
+aEffectSetForOpacity
 )
 ;
 }
