@@ -149,7 +149,6 @@ interface
 *
 /
 [
-scriptable
 uuid
 (
 c63eed41
