@@ -132,25 +132,6 @@ return
 15
 '
     
-elif
-version
-=
-=
-'
-2015
-'
-:
-        
-return
-'
-12
-.
-00
-'
-'
-14
-'
-    
 else
 :
         
@@ -187,20 +168,6 @@ version
 return
 '
 v141
-'
-    
-elif
-version
-=
-=
-'
-2015
-'
-:
-        
-return
-'
-v140
 '
     
 else
@@ -341,7 +308,7 @@ get
 MSVS_VERSION
 '
 '
-2015
+2017
 '
 )
         
