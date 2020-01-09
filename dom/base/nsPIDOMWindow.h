@@ -1443,7 +1443,7 @@ dom
 :
 Location
 *
-GetLocation
+Location
 (
 )
 =

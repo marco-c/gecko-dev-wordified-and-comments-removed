@@ -292,6 +292,11 @@ Record
 h
 '
 '
+RemoteObjectProxy
+.
+h
+'
+'
 RootedDictionary
 .
 h
@@ -680,6 +685,11 @@ cpp
 '
 '
 nsScriptErrorWithStack
+.
+cpp
+'
+'
+RemoteObjectProxy
 .
 cpp
 '
