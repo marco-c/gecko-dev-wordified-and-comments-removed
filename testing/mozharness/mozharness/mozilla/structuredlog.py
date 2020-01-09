@@ -1088,6 +1088,7 @@ failure_conditions
 =
 [
             
+(
 sum
 (
 summary
@@ -1098,9 +1099,13 @@ values
 (
 )
 )
->
 0
+"
+statuses
+"
+)
             
+(
 summary
 .
 action_counts
@@ -1112,7 +1117,7 @@ crash
 '
 0
 )
->
+             
 summary
 .
 expected_statuses
@@ -1124,7 +1129,12 @@ CRASH
 '
 0
 )
+"
+crashes
+"
+)
             
+(
 summary
 .
 action_counts
@@ -1136,19 +1146,28 @@ valgrind_error
 '
 0
 )
->
 0
+             
+"
+valgrind
+errors
+"
+)
         
 ]
         
 for
-condition
+value
+limit
+type_name
 in
 failure_conditions
 :
             
 if
-condition
+value
+>
+limit
 :
                 
 self
@@ -1157,6 +1176,51 @@ update_levels
 (
 *
 fail_pair
+)
+                
+msg
+=
+"
+Got
+%
+d
+unexpected
+%
+s
+"
+%
+(
+value
+type_name
+)
+                
+if
+limit
+!
+=
+0
+:
+                    
+msg
++
+=
+"
+expected
+at
+most
+%
+d
+"
+%
+(
+limit
+)
+                
+self
+.
+error
+(
+msg
 )
         
 required_actions
