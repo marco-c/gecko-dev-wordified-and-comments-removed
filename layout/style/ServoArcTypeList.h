@@ -75,11 +75,6 @@ RawServoFontFeatureValuesRule
 )
 SERVO_ARC_TYPE
 (
-RuleNode
-RawServoRuleNode
-)
-SERVO_ARC_TYPE
-(
 FontFaceRule
 RawServoFontFaceRule
 )
