@@ -164,6 +164,11 @@ ExtensionSettingsStore
 jsm
 '
 '
+ExtensionShortcuts
+.
+jsm
+'
+'
 ExtensionStorage
 .
 jsm
