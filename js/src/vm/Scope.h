@@ -2074,13 +2074,6 @@ JSTracer
 trc
 )
 ;
-Zone
-*
-zone
-(
-)
-const
-;
 }
 ;
 static
