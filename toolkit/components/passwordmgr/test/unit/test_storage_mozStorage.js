@@ -146,6 +146,7 @@ exists
 (
 )
 )
+{
 file
 .
 remove
@@ -153,6 +154,7 @@ remove
 false
 )
 ;
+}
 }
 catch
 (
@@ -1799,6 +1801,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -1816,6 +1819,7 @@ i
 )
 )
 ;
+}
 dbConnection
 .
 close
@@ -1931,6 +1935,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -1948,6 +1953,7 @@ i
 )
 )
 ;
+}
 storage
 =
 reloadStorage
@@ -1999,6 +2005,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -2016,6 +2023,7 @@ i
 )
 )
 ;
+}
 checkStorageData
 (
 storage
@@ -2063,6 +2071,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -2080,6 +2089,7 @@ i
 )
 )
 ;
+}
 dbConnection
 .
 close

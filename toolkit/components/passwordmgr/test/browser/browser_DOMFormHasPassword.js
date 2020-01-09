@@ -110,8 +110,10 @@ about
 blank
 "
 )
+{
 return
 ;
+}
 removeEventListener
 (
 "

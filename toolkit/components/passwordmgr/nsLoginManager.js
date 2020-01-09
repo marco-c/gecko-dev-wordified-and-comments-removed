@@ -2074,6 +2074,7 @@ if
 (
 count
 )
+{
 count
 .
 value
@@ -2082,6 +2083,7 @@ disabledHosts
 .
 length
 ;
+}
 log
 .
 debug

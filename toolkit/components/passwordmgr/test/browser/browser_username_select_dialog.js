@@ -56,8 +56,10 @@ nsIDocShell
 .
 BUSY_FLAGS_NONE
 )
+{
 continue
 ;
+}
 var
 childDoc
 =
@@ -90,9 +92,11 @@ selectDialog
 xul
 "
 )
+{
 return
 childDoc
 ;
+}
 }
 }
 return
