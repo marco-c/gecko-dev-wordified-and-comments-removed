@@ -439,7 +439,7 @@ nsIControllers
 aControllers
 nsTHashtable
 <
-nsCharPtrHashKey
+nsCStringHashKey
 >
 &
 aCommandsHandled
