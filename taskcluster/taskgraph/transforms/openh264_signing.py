@@ -345,28 +345,11 @@ sha2signcode
 else
 :
             
-scopes
-.
-append
-(
-add_scope_prefix
-(
-config
-'
-signing
-:
-format
-:
-gpg
-'
-)
-)
-            
 formats
 =
 [
 '
-gpg
+autograph_gpg
 '
 ]
         

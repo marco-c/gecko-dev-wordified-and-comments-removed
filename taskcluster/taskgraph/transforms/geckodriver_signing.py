@@ -655,7 +655,7 @@ linux
 signing_format
 =
 '
-gpg
+autograph_gpg
 '
         
 extension
