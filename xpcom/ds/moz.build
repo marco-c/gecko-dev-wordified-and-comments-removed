@@ -100,11 +100,6 @@ nsIArrayExtensions
 idl
 '
 '
-nsIHashable
-.
-idl
-'
-'
 nsIINIParser
 .
 idl

@@ -53,13 +53,6 @@ h
 #
 include
 "
-nsIHashable
-.
-h
-"
-#
-include
-"
 nsIClassInfoImpl
 .
 h
@@ -345,8 +338,6 @@ public
 nsIFile
 #
 endif
-public
-nsIHashable
 {
 public
 :
@@ -392,7 +383,6 @@ MOZ_WIDGET_COCOA
 NS_DECL_NSILOCALFILEMAC
 #
 endif
-NS_DECL_NSIHASHABLE
 private
 :
 nsLocalFile

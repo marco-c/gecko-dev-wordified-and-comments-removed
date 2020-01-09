@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIHashable
-.
-h
-"
-#
-include
-"
 nsIClassInfoImpl
 .
 h
@@ -112,8 +105,6 @@ final
 :
 public
 nsILocalFileWin
-public
-nsIHashable
 {
 public
 :
@@ -154,7 +145,6 @@ aInstancePtr
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIFILE
 NS_DECL_NSILOCALFILEWIN
-NS_DECL_NSIHASHABLE
 public
 :
 static

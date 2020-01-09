@@ -307,13 +307,6 @@ h
 #
 include
 "
-nsIHashable
-.
-h
-"
-#
-include
-"
 nsIINIParser
 .
 h
