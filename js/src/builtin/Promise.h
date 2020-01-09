@@ -1132,6 +1132,9 @@ reset
 }
 ;
 class
+OffThreadPromiseRuntimeState
+;
+class
 OffThreadPromiseTask
 :
 public
@@ -1177,6 +1180,14 @@ OffThreadPromiseTask
 )
 =
 delete
+;
+void
+unregister
+(
+OffThreadPromiseRuntimeState
+&
+state
+)
 ;
 protected
 :
