@@ -623,7 +623,7 @@ com
 expiry_version
 :
 "
-68
+73
 "
 record_in_processes
 :
@@ -637,6 +637,7 @@ bug_numbers
 [
 1433335
 1515697
+1523641
 ]
 release_channel_collection
 :
@@ -820,7 +821,7 @@ com
 expiry_version
 :
 "
-68
+73
 "
 record_in_processes
 :
@@ -834,6 +835,7 @@ bug_numbers
 [
 1433335
 1515697
+1523641
 ]
 release_channel_collection
 :
