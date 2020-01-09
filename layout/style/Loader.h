@@ -733,13 +733,6 @@ typedef
 nsIStyleSheetLinkingElement
 :
 :
-IsExplicitlyEnabled
-IsExplicitlyEnabled
-;
-typedef
-nsIStyleSheetLinkingElement
-:
-:
 MediaMatched
 MediaMatched
 ;
@@ -1275,8 +1268,8 @@ dom
 :
 MediaList
 *
+aMediaList
 IsAlternate
-IsExplicitlyEnabled
 )
 ;
 void

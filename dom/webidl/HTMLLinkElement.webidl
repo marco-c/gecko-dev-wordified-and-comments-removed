@@ -229,8 +229,6 @@ HTMLLinkElement
 HTMLElement
 {
 [
-CEReactions
-SetterThrows
 Pure
 ]
 attribute
