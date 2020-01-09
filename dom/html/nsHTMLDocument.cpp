@@ -5302,17 +5302,6 @@ return
 nullptr
 ;
 }
-mContentTypeForWriteCalls
-.
-AssignLiteral
-(
-"
-text
-/
-html
-"
-)
-;
 if
 (
 shell
@@ -5462,7 +5451,6 @@ EmptyString
 (
 )
 nullptr
-mContentTypeForWriteCalls
 true
 )
 ;
@@ -5886,7 +5874,6 @@ aText
 +
 new_line
 key
-mContentTypeForWriteCalls
 false
 )
 ;
@@ -5915,7 +5902,6 @@ Parse
 (
 aText
 key
-mContentTypeForWriteCalls
 false
 )
 ;

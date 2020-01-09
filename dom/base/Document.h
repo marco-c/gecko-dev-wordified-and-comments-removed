@@ -11843,9 +11843,6 @@ mContentType
 ;
 protected
 :
-nsCString
-mContentTypeForWriteCalls
-;
 nsCOMPtr
 <
 nsISupports

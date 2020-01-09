@@ -351,16 +351,8 @@ aSourceBuffer
 void
 *
 aKey
-const
-nsACString
-&
-aContentType
 bool
 aLastCall
-nsDTDMode
-aMode
-=
-eDTDMode_autodetect
 )
 ;
 NS_IMETHOD
