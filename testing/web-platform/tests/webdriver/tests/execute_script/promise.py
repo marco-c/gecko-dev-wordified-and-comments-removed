@@ -1,5 +1,3 @@
-import
-pytest
 from
 tests
 .
@@ -7,7 +5,6 @@ support
 .
 asserts
 import
-assert_dialog_handled
 assert_error
 assert_success
 def
@@ -565,8 +562,8 @@ assert_error
 (
 response
 "
+script
 timeout
-error
 "
 )
 def
@@ -640,7 +637,7 @@ assert_error
 (
 response
 "
+script
 timeout
-error
 "
 )
