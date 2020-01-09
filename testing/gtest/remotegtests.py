@@ -72,7 +72,7 @@ def
 build_environment
 (
 self
-options
+shuffle
 test_filter
 )
 :
@@ -199,8 +199,6 @@ MOZ_IN_AUTOMATION
 "
         
 if
-options
-.
 shuffle
 :
             
@@ -235,8 +233,15 @@ def
 run_gtest
 (
 self
-options
+shuffle
 test_filter
+package
+adb_path
+device_serial
+                  
+remote_test_root
+libxul_path
+symbols_path
 )
 :
         
@@ -277,6 +282,10 @@ True
 "
 "
         
+update_mozinfo
+(
+)
+        
 self
 .
 device
@@ -287,21 +296,15 @@ ADBDevice
 (
 adb
 =
-options
-.
 adb_path
                                           
 device
 =
-options
-.
 device_serial
                                           
 test_root
 =
-options
-.
-test_root
+remote_test_root
                                           
 logger_name
 =
@@ -372,8 +375,6 @@ self
 .
 package
 =
-options
-.
 package
         
 self
@@ -511,8 +512,6 @@ device
 .
 push
 (
-options
-.
 libxul_path
 remote
 )
@@ -523,7 +522,7 @@ self
 .
 build_environment
 (
-options
+shuffle
 test_filter
 )
         
@@ -656,8 +655,6 @@ self
 .
 check_for_crashes
 (
-options
-.
 symbols_path
 )
 :
@@ -2310,7 +2307,7 @@ str
 dest
 =
 "
-test_root
+remote_test_root
 "
                         
 help
@@ -2668,10 +2665,6 @@ args
 else
 None
     
-update_mozinfo
-(
-)
-    
 tester
 =
 RemoteGTests
@@ -2696,7 +2689,30 @@ tester
 run_gtest
 (
 options
+.
+shuffle
 test_filter
+options
+.
+package
+                                  
+options
+.
+adb_path
+options
+.
+device_serial
+                                  
+options
+.
+remote_test_root
+options
+.
+libxul_path
+                                  
+options
+.
+symbols_path
 )
     
 except
