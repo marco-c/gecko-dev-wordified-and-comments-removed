@@ -471,7 +471,6 @@ ReferrerPolicy
 ReferrerPolicy
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_ADDSIZEOFEXCLUDINGTHIS
 virtual
 nsresult
 StartDocumentLoad
@@ -674,17 +673,6 @@ void
 AsyncBlockOnload
 (
 )
-;
-virtual
-void
-DocAddSizeOfExcludingThis
-(
-nsWindowSizes
-&
-aWindowSizes
-)
-const
-override
 ;
 protected
 :
