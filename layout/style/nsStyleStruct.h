@@ -7477,6 +7477,12 @@ mOffsetPath
 mozilla
 :
 :
+LengthPercentage
+mOffsetDistance
+;
+mozilla
+:
+:
 StyleTransformOrigin
 mTransformOrigin
 ;
