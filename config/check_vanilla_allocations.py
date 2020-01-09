@@ -397,6 +397,19 @@ filename
             
 continue
         
+if
+filename
+=
+=
+'
+umutex
+.
+o
+'
+:
+            
+continue
+        
 fn
 =
 m
