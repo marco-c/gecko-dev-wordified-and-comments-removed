@@ -1730,8 +1730,6 @@ BorderRadius
 bool
 NeedsToFlush
 (
-Document
-*
 )
 const
 ;
