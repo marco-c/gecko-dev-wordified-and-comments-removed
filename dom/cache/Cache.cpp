@@ -1426,7 +1426,7 @@ args
 this
 CacheMatchAllArgs
 (
-void_t
+Nothing
 (
 )
 params
@@ -2373,7 +2373,7 @@ args
 this
 CacheKeysArgs
 (
-void_t
+Nothing
 (
 )
 params

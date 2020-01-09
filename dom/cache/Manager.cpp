@@ -908,7 +908,10 @@ bool
 IsHeadRequest
 (
 const
-CacheRequestOrVoid
+Maybe
+<
+CacheRequest
+>
 &
 aRequest
 const
@@ -921,15 +924,9 @@ if
 (
 aRequest
 .
-type
+isSome
 (
 )
-=
-=
-CacheRequestOrVoid
-:
-:
-TCacheRequest
 )
 {
 return
@@ -943,7 +940,7 @@ ignoreMethod
 &
 aRequest
 .
-get_CacheRequest
+ref
 (
 )
 .
@@ -2384,7 +2381,7 @@ aRv
 )
 CacheMatchResult
 (
-void_t
+Nothing
 (
 )
 )
@@ -2415,7 +2412,7 @@ aRv
 )
 CacheMatchResult
 (
-void_t
+Nothing
 (
 )
 )
@@ -2551,7 +2548,7 @@ aConn
 mCacheId
 mArgs
 .
-requestOrVoid
+maybeRequest
 (
 )
 mArgs
@@ -2612,7 +2609,7 @@ IsHeadRequest
 (
 mArgs
 .
-requestOrVoid
+maybeRequest
 (
 )
 mArgs
@@ -4837,7 +4834,7 @@ aConn
 mCacheId
 mArgs
 .
-requestOrVoid
+maybeRequest
 (
 )
 mArgs
@@ -4898,7 +4895,7 @@ IsHeadRequest
 (
 mArgs
 .
-requestOrVoid
+maybeRequest
 (
 )
 mArgs
@@ -5372,7 +5369,7 @@ aRv
 )
 StorageMatchResult
 (
-void_t
+Nothing
 (
 )
 )
@@ -5405,7 +5402,7 @@ aRv
 )
 StorageMatchResult
 (
-void_t
+Nothing
 (
 )
 )

@@ -88,9 +88,6 @@ class
 CacheReadStream
 ;
 class
-CacheReadStreamOrVoid
-;
-class
 PCacheStreamControlParent
 ;
 #
@@ -179,9 +176,12 @@ ReadStream
 Create
 (
 const
-CacheReadStreamOrVoid
+Maybe
+<
+CacheReadStream
+>
 &
-aReadStreamOrVoid
+aMaybeReadStream
 )
 ;
 static
@@ -219,7 +219,10 @@ aStream
 void
 Serialize
 (
-CacheReadStreamOrVoid
+Maybe
+<
+CacheReadStream
+>
 *
 aReadStreamOut
 nsTArray

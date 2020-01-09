@@ -960,7 +960,7 @@ body
 (
 )
 =
-void_t
+Nothing
 (
 )
 ;
@@ -2972,7 +2972,10 @@ SerializeCacheStream
 nsIInputStream
 *
 aStream
-CacheReadStreamOrVoid
+Maybe
+<
+CacheReadStream
+>
 *
 aStreamOut
 nsTArray
@@ -2992,7 +2995,7 @@ aRv
 *
 aStreamOut
 =
-void_t
+Nothing
 (
 )
 ;
@@ -3034,11 +3037,14 @@ aRv
 return
 ;
 }
-*
 aStreamOut
-=
+-
+>
+emplace
+(
 CacheReadStream
 (
+)
 )
 ;
 CacheReadStream
@@ -3048,7 +3054,7 @@ cacheStream
 aStreamOut
 -
 >
-get_CacheReadStream
+ref
 (
 )
 ;
