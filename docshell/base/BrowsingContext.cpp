@@ -887,6 +887,10 @@ mParent
 (
 aParent
 )
+mIsInProcess
+(
+false
+)
 mOpener
 (
 aOpener
@@ -996,6 +1000,10 @@ this
 mDocShell
 =
 aDocShell
+;
+mIsInProcess
+=
+true
 ;
 }
 void
@@ -1383,6 +1391,10 @@ this
 mDocShell
 =
 nullptr
+;
+mClosed
+=
+true
 ;
 if
 (

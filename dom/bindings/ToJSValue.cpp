@@ -395,7 +395,7 @@ if
 bc
 -
 >
-GetDocShell
+IsInProcess
 (
 )
 )
