@@ -133,6 +133,12 @@ customizeStart
 (
 )
 ;
+gURLBarHandler
+.
+customizeStart
+(
+)
+;
 }
 _customizationEnding
 (
