@@ -162,7 +162,7 @@ marionette
 -
 host
 <
-HOSTNAME
+hostname
 >
 flag
 for
