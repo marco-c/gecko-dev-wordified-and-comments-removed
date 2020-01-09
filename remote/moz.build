@@ -60,11 +60,6 @@ DIRS
 "
 pref
 "
-]
-TEST_DIRS
-+
-=
-[
 "
 test
 "
