@@ -1268,7 +1268,7 @@ const
 double
 tierCutoffMs
 =
-250
+10
 ;
 static
 const
