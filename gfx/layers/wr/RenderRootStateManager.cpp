@@ -900,10 +900,13 @@ aKey
 )
 ;
 }
+Maybe
+<
 wr
 :
 :
 FontInstanceKey
+>
 RenderRootStateManager
 :
 :
@@ -936,10 +939,13 @@ aResources
 )
 ;
 }
+Maybe
+<
 wr
 :
 :
 FontKey
+>
 RenderRootStateManager
 :
 :

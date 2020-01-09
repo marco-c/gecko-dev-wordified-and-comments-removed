@@ -311,10 +311,13 @@ ImageKey
 aKey
 )
 ;
+Maybe
+<
 wr
 :
 :
 FontInstanceKey
+>
 GetFontKeyForScaledFont
 (
 gfx
@@ -333,10 +336,13 @@ aResources
 nullptr
 )
 ;
+Maybe
+<
 wr
 :
 :
 FontKey
+>
 GetFontKeyForUnscaledFont
 (
 gfx
