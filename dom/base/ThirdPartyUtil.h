@@ -123,11 +123,6 @@ nsPIDOMWindowOuter
 aWindow
 )
 {
-MOZ_ASSERT
-(
-aWindow
-)
-;
 mozilla
 :
 :
@@ -139,11 +134,15 @@ Document
 doc
 =
 aWindow
+?
+aWindow
 -
 >
 GetExtantDoc
 (
 )
+:
+nullptr
 ;
 if
 (
