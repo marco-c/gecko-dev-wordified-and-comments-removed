@@ -25021,7 +25021,7 @@ size_t
 uniqueIdMap
 size_t
 *
-shapeTables
+shapeCaches
 size_t
 *
 atomsMarkBitmaps
@@ -25095,7 +25095,7 @@ mallocSizeOf
 )
 ;
 *
-shapeTables
+shapeCaches
 +
 =
 baseShapes

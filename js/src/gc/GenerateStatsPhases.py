@@ -292,11 +292,11 @@ Purge
 PhaseKind
 (
 "
-PURGE_SHAPE_TABLES
+PURGE_SHAPE_CACHES
 "
 "
 Purge
-ShapeTables
+ShapeCaches
 "
 60
 )
