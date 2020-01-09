@@ -632,7 +632,9 @@ bin
 /
 x86_64
 -
-darwin11
+apple
+-
+darwin
 -
 ld
 \

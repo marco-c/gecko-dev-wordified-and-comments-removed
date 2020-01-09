@@ -185,7 +185,9 @@ TARGET_TRIPLE
 =
 x86_64
 -
-darwin11
+apple
+-
+darwin
 #
 Create
 our
