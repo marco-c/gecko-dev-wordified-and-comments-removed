@@ -6081,6 +6081,13 @@ point
 return
 ;
 }
+LSObject
+:
+:
+Initialize
+(
+)
+;
 ClientManager
 :
 :
