@@ -410,6 +410,11 @@ nsLocalFile
 h
 '
 '
+nsLocalFileCommon
+.
+h
+'
+'
 nsMultiplexInputStream
 .
 h
