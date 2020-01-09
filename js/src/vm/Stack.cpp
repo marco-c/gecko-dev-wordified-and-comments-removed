@@ -3689,6 +3689,12 @@ return
 true
 ;
 }
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 return
 subsumes
 (
@@ -4154,12 +4160,6 @@ JSJitFrameIter
 nullptr
 )
 {
-JS
-:
-:
-AutoSuppressGCAnalysis
-nogc
-;
 settleOnActivation
 (
 )
