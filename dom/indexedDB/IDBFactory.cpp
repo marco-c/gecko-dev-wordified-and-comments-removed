@@ -95,7 +95,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -785,9 +785,9 @@ mGlobal
 factory
 -
 >
-mTabChild
+mBrowserChild
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -4209,7 +4209,7 @@ mGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mTabChild
+mBrowserChild
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -4227,7 +4227,7 @@ mGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mTabChild
+mBrowserChild
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (

@@ -591,7 +591,7 @@ h
 #
 include
 "
-TabChild
+BrowserChild
 .
 h
 "
@@ -4661,11 +4661,11 @@ aTitle
 ;
 RefPtr
 <
-TabChild
+BrowserChild
 >
-tabChild
+browserChild
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -4673,7 +4673,7 @@ GetFrom
 mWindow
 )
 ;
-tabChild
+browserChild
 -
 >
 SendRegisterProtocolHandler

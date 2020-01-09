@@ -5684,7 +5684,7 @@ char
 ownedByPrefix
 =
 "
-inProcessTabChildGlobal
+inProcessBrowserChildGlobal
 ?
 ownedBy
 =

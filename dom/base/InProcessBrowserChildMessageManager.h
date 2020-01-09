@@ -1,9 +1,9 @@
 #
 ifndef
-nsInProcessTabChildGlobal_h
+nsInProcessBrowserChildGlobal_h
 #
 define
-nsInProcessTabChildGlobal_h
+nsInProcessBrowserChildGlobal_h
 #
 include
 "
@@ -122,7 +122,7 @@ namespace
 dom
 {
 class
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 final
 :
 public
@@ -160,7 +160,7 @@ StructuredCloneData
 ;
 private
 :
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 (
 nsDocShell
 *
@@ -178,7 +178,7 @@ public
 static
 already_AddRefed
 <
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 >
 Create
 (
@@ -195,12 +195,12 @@ aChrome
 {
 RefPtr
 <
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 >
 mm
 =
 new
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 (
 aShell
 aOwner
@@ -229,7 +229,7 @@ forget
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 DOMEventTargetHelper
 )
 void
@@ -510,7 +510,7 @@ protected
 :
 virtual
 ~
-InProcessTabChildMessageManager
+InProcessBrowserChildMessageManager
 (
 )
 ;

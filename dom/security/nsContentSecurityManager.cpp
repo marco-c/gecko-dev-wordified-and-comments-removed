@@ -150,7 +150,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -538,7 +538,7 @@ nsCOMPtr
 <
 nsIBrowserChild
 >
-tabChild
+browserChild
 =
 do_QueryInterface
 (
@@ -553,7 +553,7 @@ doc
 ;
 if
 (
-tabChild
+browserChild
 )
 {
 doc
@@ -566,11 +566,11 @@ mozilla
 dom
 :
 :
-TabChild
+BrowserChild
 *
 >
 (
-tabChild
+browserChild
 .
 get
 (

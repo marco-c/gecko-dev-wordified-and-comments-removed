@@ -374,7 +374,7 @@ HasSiblings
 try
 {
 let
-tabChild
+browserChild
 =
 this
 .
@@ -401,7 +401,7 @@ message
 .
 data
 ;
-tabChild
+browserChild
 .
 hasSiblings
 =

@@ -63,7 +63,7 @@ class
 JSWindowActorMessageMeta
 ;
 class
-TabChild
+BrowserChild
 ;
 class
 WindowGlobalChild
@@ -201,9 +201,9 @@ GetParentActor
 ;
 already_AddRefed
 <
-TabChild
+BrowserChild
 >
-GetTabChild
+GetBrowserChild
 (
 )
 ;

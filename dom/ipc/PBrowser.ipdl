@@ -3718,7 +3718,7 @@ is
 sent
 when
 the
-TabChild
+BrowserChild
 is
 created
 .
@@ -3907,7 +3907,7 @@ compositor
 arrive
 before
 the
-TabChild
+BrowserChild
 attempts
 to
 use
@@ -5565,7 +5565,7 @@ aNewHandle
 *
 Tell
 the
-TabChild
+BrowserChild
 that
 it
 should
@@ -5606,7 +5606,7 @@ AwaitLargeAlloc
 *
 Tell
 the
-TabChild
+BrowserChild
 to
 set
 the
@@ -5635,7 +5635,7 @@ aName
 *
 Tell
 the
-TabChild
+BrowserChild
 to
 allow
 scripts
@@ -5660,7 +5660,7 @@ AllowScriptsToClose
 *
 Tell
 the
-TabChild
+BrowserChild
 what
 OriginAttributes
 it
@@ -5684,7 +5684,7 @@ is
 loaded
 in
 the
-TabChild
+BrowserChild
 .
 *
 /

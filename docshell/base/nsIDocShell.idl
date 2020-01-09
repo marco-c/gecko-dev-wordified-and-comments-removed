@@ -6287,7 +6287,7 @@ editingSession
 *
 *
 The
-tab
+browser
 child
 for
 this
@@ -6298,13 +6298,13 @@ docshell
 [
 binaryname
 (
-ScriptableTabChild
+ScriptableBrowserChild
 )
 ]
 readonly
 attribute
 nsIBrowserChild
-tabChild
+browserChild
 ;
 [
 noscript
@@ -6312,7 +6312,7 @@ notxpcom
 nostdcall
 ]
 BrowserChildRef
-GetTabChild
+GetBrowserChild
 (
 )
 ;

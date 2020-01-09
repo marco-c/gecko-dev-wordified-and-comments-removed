@@ -181,11 +181,11 @@ docShell
 ;
 RefPtr
 <
-TabChild
+BrowserChild
 >
-tabChild
+browserChild
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -195,7 +195,7 @@ docShell
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-tabChild
+browserChild
 )
 ;
 uint32_t
@@ -323,7 +323,7 @@ aFrameLoader
 aBrowsingContext
 )
 ;
-tabChild
+browserChild
 -
 >
 SendPBrowserBridgeConstructor

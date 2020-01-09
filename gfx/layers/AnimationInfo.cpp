@@ -892,7 +892,7 @@ if
 widget
 -
 >
-GetOwningTabChild
+GetOwningBrowserChild
 (
 )
 &

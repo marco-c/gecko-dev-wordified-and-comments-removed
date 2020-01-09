@@ -88,13 +88,13 @@ class
 Document
 ;
 class
-TabChild
+BrowserChild
 ;
 class
 DocGroup
 ;
 class
-TabChild
+BrowserChild
 ;
 class
 TabGroup
@@ -170,9 +170,9 @@ TabGroup
 *
 GetFromActor
 (
-TabChild
+BrowserChild
 *
-aTabChild
+aBrowserChild
 )
 ;
 static

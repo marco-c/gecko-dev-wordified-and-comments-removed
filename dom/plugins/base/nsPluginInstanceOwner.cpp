@@ -388,7 +388,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -4354,7 +4354,7 @@ widget
 widget
 -
 >
-GetOwningTabChild
+GetOwningBrowserChild
 (
 )
 &
@@ -13962,14 +13962,14 @@ GetTop
 dom
 :
 :
-TabChild
+BrowserChild
 *
 tc
 =
 dom
 :
 :
-TabChild
+BrowserChild
 :
 :
 GetFrom

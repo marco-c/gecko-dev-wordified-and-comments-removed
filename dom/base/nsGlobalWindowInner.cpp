@@ -4626,12 +4626,12 @@ if
 docShell
 )
 {
-mTabChild
+mBrowserChild
 =
 docShell
 -
 >
-GetTabChild
+GetBrowserChild
 (
 )
 ;
@@ -5825,7 +5825,7 @@ reset
 ;
 if
 (
-mTabChild
+mBrowserChild
 )
 {
 for
@@ -5844,7 +5844,7 @@ mBeforeUnloadListenerCount
 i
 )
 {
-mTabChild
+mBrowserChild
 -
 >
 BeforeUnloadRemoved
@@ -6606,7 +6606,7 @@ mDocumentStoragePrincipal
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mTabChild
+mBrowserChild
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -7039,7 +7039,7 @@ mDocumentStoragePrincipal
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mTabChild
+mBrowserChild
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -7718,7 +7718,7 @@ XRE_IsParentProcess
 )
 |
 |
-mTabChild
+mBrowserChild
 )
 {
 mWindowGlobalChild
@@ -8396,7 +8396,7 @@ eventTarget
 nsContentUtils
 :
 :
-TryGetTabChildGlobal
+TryGetBrowserChildGlobal
 (
 frameElement
 )
@@ -8434,7 +8434,7 @@ eventTarget
 nsContentUtils
 :
 :
-TryGetTabChildGlobal
+TryGetBrowserChildGlobal
 (
 frameElement
 )
@@ -8452,7 +8452,7 @@ eventTarget
 nsContentUtils
 :
 :
-TryGetTabChildGlobal
+TryGetBrowserChildGlobal
 (
 mChromeEventHandler
 )
@@ -21215,7 +21215,7 @@ docShell
 docShell
 -
 >
-GetTabChild
+GetBrowserChild
 (
 )
 :
@@ -26848,7 +26848,7 @@ nsGkAtoms
 onbeforeunload
 &
 &
-mTabChild
+mBrowserChild
 &
 &
 (
@@ -26881,7 +26881,7 @@ mBeforeUnloadListenerCount
 0
 )
 ;
-mTabChild
+mBrowserChild
 -
 >
 BeforeUnloadAdded
@@ -26995,7 +26995,7 @@ nsGkAtoms
 onbeforeunload
 &
 &
-mTabChild
+mBrowserChild
 &
 &
 (
@@ -27029,7 +27029,7 @@ mBeforeUnloadListenerCount
 0
 )
 ;
-mTabChild
+mBrowserChild
 -
 >
 BeforeUnloadRemoved

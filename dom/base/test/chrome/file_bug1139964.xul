@@ -393,7 +393,7 @@ data
 .
 hasPromise
 "
-TabChildGlobal
+BrowserChildGlobal
 should
 have
 Promise
@@ -414,7 +414,7 @@ data
 .
 hasTextEncoder
 "
-TabChildGlobal
+BrowserChildGlobal
 should
 have
 TextEncoder
@@ -435,7 +435,7 @@ data
 .
 hasWindow
 "
-TabChildGlobal
+BrowserChildGlobal
 should
 have
 Window

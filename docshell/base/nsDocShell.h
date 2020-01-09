@@ -2873,7 +2873,7 @@ BrowsingContext
 mBrowsingContext
 ;
 nsWeakPtr
-mTabChild
+mBrowserChild
 ;
 nsIntRect
 mBounds

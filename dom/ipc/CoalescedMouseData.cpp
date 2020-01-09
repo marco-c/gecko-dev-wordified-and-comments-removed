@@ -17,7 +17,7 @@ h
 #
 include
 "
-TabChild
+BrowserChild
 .
 h
 "
@@ -412,14 +412,14 @@ MOZ_ASSERT
 mRefreshDriver
 )
 ;
-mTabChild
+mBrowserChild
 -
 >
 FlushAllCoalescedMouseData
 (
 )
 ;
-mTabChild
+mBrowserChild
 -
 >
 ProcessPendingCoalescedMouseDataAndDispatchEvents
@@ -528,7 +528,7 @@ PresShell
 *
 presShell
 =
-mTabChild
+mBrowserChild
 -
 >
 GetTopLevelPresShell

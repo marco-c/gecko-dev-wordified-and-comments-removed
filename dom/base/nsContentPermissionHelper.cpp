@@ -123,7 +123,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -1734,11 +1734,11 @@ NS_IsMainThread
 )
 )
 ;
-TabChild
+BrowserChild
 *
 child
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom

@@ -38,7 +38,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -720,7 +720,7 @@ context
 =
 static_cast
 <
-TabChild
+BrowserChild
 *
 >
 (

@@ -25,7 +25,7 @@ mozilla
 /
 dom
 /
-TabChild
+BrowserChild
 .
 h
 "
@@ -1947,11 +1947,11 @@ win
 nullptr
 )
 ;
-TabChild
+BrowserChild
 *
-tabChild
+browserChild
 =
-TabChild
+BrowserChild
 :
 :
 GetFrom
@@ -1966,7 +1966,7 @@ GetDocShell
 ;
 NS_ENSURE_TRUE
 (
-tabChild
+browserChild
 nullptr
 )
 ;
@@ -1991,7 +1991,7 @@ PaymentRequestChild
 aRequest
 )
 ;
-tabChild
+browserChild
 -
 >
 SendPPaymentRequestConstructor

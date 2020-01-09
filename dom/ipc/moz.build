@@ -217,6 +217,11 @@ BrowserBridgeParent
 h
 '
 '
+BrowserChild
+.
+h
+'
+'
 BrowserParent
 .
 h
@@ -322,11 +327,6 @@ RemoteWebProgressRequest
 h
 '
 '
-TabChild
-.
-h
-'
-'
 TabContext
 .
 h
@@ -395,6 +395,11 @@ cpp
 '
 '
 BrowserBridgeParent
+.
+cpp
+'
+'
+BrowserChild
 .
 cpp
 '
@@ -525,11 +530,6 @@ cpp
 '
 '
 StructuredCloneData
-.
-cpp
-'
-'
-TabChild
 .
 cpp
 '

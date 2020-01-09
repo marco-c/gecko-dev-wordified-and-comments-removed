@@ -447,7 +447,7 @@ nsCOMPtr
 <
 nsIBrowserChild
 >
-tabChild
+browserChild
 (
 do_QueryInterface
 (
@@ -467,7 +467,7 @@ node
 window
 |
 |
-tabChild
+browserChild
 "
 Context
 should
@@ -479,7 +479,7 @@ DOM
 window
 or
 a
-tabChild
+browserChild
 !
 "
 )
