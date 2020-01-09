@@ -27302,13 +27302,6 @@ state
 >
 numFixedSlots_
 )
-operandIndex_
-(
-state
--
->
-operandIndex_
-)
 {
 setResultType
 (
@@ -27331,9 +27324,6 @@ MObjectState
 JSObject
 *
 templateObject
-OperandIndexMap
-*
-operandIndex
 )
 :
 MVariadicInstruction
@@ -27398,10 +27388,6 @@ nativeObject
 numFixedSlots
 (
 )
-;
-operandIndex_
-=
-operandIndex
 ;
 }
 JSObject
@@ -27784,7 +27770,6 @@ alloc
 MObjectState
 (
 templateObject
-nullptr
 )
 ;
 if
