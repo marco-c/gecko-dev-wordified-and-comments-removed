@@ -69,9 +69,6 @@ PromiseSlot_Flags
 0
 PromiseSlot_ReactionsOrResult
 PromiseSlot_RejectFunction
-PromiseSlot_AwaitGenerator
-=
-PromiseSlot_RejectFunction
 PromiseSlot_DebugInfo
 PromiseSlots
 }
@@ -707,8 +704,6 @@ CreatePromiseObjectForAsync
 JSContext
 *
 cx
-HandleValue
-generatorVal
 )
 ;
 MOZ_MUST_USE
@@ -719,6 +714,9 @@ JSObject
 *
 promise
 )
+;
+class
+GeneratorObject
 ;
 MOZ_MUST_USE
 bool
@@ -759,6 +757,12 @@ AsyncFunctionAwait
 JSContext
 *
 cx
+Handle
+<
+GeneratorObject
+*
+>
+genObj
 Handle
 <
 PromiseObject
