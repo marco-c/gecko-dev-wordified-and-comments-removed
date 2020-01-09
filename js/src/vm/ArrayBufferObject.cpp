@@ -6021,8 +6021,6 @@ uint32_t
 nbytes
 BufferContents
 contents
-OwnsState
-ownsState
 )
 {
 MOZ_ASSERT
@@ -6096,10 +6094,7 @@ reservedSlots
 ;
 if
 (
-ownsState
-=
-=
-OwnsData
+true
 )
 {
 if
@@ -6349,7 +6344,7 @@ initialize
 (
 nbytes
 contents
-ownsState
+OwnsData
 )
 ;
 return
@@ -8967,10 +8962,6 @@ createForContents
 cx
 nbytes
 contents
-ArrayBufferObject
-:
-:
-OwnsData
 )
 ;
 }
@@ -9048,10 +9039,6 @@ createForContents
 cx
 nbytes
 contents
-ArrayBufferObject
-:
-:
-OwnsData
 )
 ;
 }
@@ -9112,10 +9099,6 @@ createForContents
 cx
 nbytes
 contents
-ArrayBufferObject
-:
-:
-OwnsData
 )
 ;
 }
@@ -9442,10 +9425,6 @@ createForContents
 cx
 nbytes
 contents
-ArrayBufferObject
-:
-:
-OwnsData
 )
 ;
 }
