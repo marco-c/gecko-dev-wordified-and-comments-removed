@@ -251,9 +251,7 @@ linux64
 -
 gcc
 -
-4
-.
-9
+6
 linux64
 -
 binutils
@@ -555,9 +553,7 @@ linux64
 -
 gcc
 -
-4
-.
-9
+6
 linux64
 -
 custom

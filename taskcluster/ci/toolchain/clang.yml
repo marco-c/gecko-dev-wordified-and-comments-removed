@@ -223,9 +223,7 @@ linux64
 -
 gcc
 -
-4
-.
-9
+6
 linux64
 -
 clang
@@ -339,9 +337,7 @@ linux64
 -
 gcc
 -
-4
-.
-9
+6
 linux64
 -
 clang
@@ -445,9 +441,7 @@ linux64
 -
 gcc
 -
-4
-.
-9
+6
 linux64
 -
 clang
@@ -554,9 +548,7 @@ linux64
 -
 gcc
 -
-4
-.
-9
+6
 linux64
 -
 clang
@@ -666,9 +658,7 @@ linux64
 -
 gcc
 -
-4
-.
-9
+6
 -
 linux64
 -
@@ -860,9 +850,7 @@ linux64
 -
 gcc
 -
-4
-.
-9
+6
 macosx64
 -
 clang
@@ -1023,9 +1011,7 @@ linux64
 -
 gcc
 -
-4
-.
-9
+6
 -
 linux64
 -
