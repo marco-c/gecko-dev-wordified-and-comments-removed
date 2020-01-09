@@ -767,6 +767,8 @@ gBrowser
 about
 :
 preferences
+#
+search
 "
 )
 ;
