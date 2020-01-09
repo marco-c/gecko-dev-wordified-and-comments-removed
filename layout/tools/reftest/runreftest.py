@@ -21,6 +21,8 @@ os
 import
 platform
 import
+posixpath
+import
 re
 import
 shutil
@@ -1289,9 +1291,7 @@ dirname
                 
 pathname
 =
-os
-.
-path
+posixpath
 .
 join
 (
