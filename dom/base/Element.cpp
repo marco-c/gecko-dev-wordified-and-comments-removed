@@ -15538,7 +15538,7 @@ handler
 sc
 -
 >
-SpeculativeConnect2
+SpeculativeConnect
 (
 absURI
 NodePrincipal
