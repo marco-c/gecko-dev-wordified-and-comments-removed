@@ -3845,7 +3845,7 @@ typename
 Unit
 >
 void
-setCompressedSource
+convertToCompressedSource
 (
 SharedImmutableString
 compressed
@@ -3860,7 +3860,7 @@ Unit
 >
 MOZ_MUST_USE
 bool
-setCompressedSource
+initializeWithCompressedSource
 (
 JSContext
 *
@@ -3931,7 +3931,7 @@ task
 )
 ;
 struct
-SetCompressedSourceFromTask
+ConvertToCompressedSourceFromTask
 {
 ScriptSource
 *
@@ -3942,7 +3942,7 @@ SharedImmutableString
 &
 compressed_
 ;
-SetCompressedSourceFromTask
+ConvertToCompressedSourceFromTask
 (
 ScriptSource
 *
@@ -3983,7 +3983,7 @@ Unit
 source_
 -
 >
-setCompressedSource
+convertToCompressedSource
 <
 Unit
 >
@@ -4141,7 +4141,7 @@ task
 }
 ;
 void
-setCompressedSourceFromTask
+convertToCompressedSourceFromTask
 (
 SharedImmutableString
 compressed
