@@ -679,13 +679,6 @@ nsAString
 aString
 )
 ;
-template
-<
-typename
-PT
-typename
-CT
->
 MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
@@ -694,11 +687,7 @@ Element
 InsertBrElementWithTransaction
 (
 const
-EditorDOMPointBase
-<
-PT
-CT
->
+EditorDOMPoint
 &
 aPointToInsert
 EDirection

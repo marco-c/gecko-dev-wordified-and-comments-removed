@@ -3348,13 +3348,6 @@ nsINode
 aNodeInserted
 )
 ;
-template
-<
-typename
-PT
-typename
-CT
->
 MOZ_CAN_RUN_SCRIPT
 EditorDOMPoint
 InsertNodeIntoProperAncestorWithTransaction
@@ -3363,11 +3356,7 @@ nsIContent
 &
 aNode
 const
-EditorDOMPointBase
-<
-PT
-CT
->
+EditorDOMPoint
 &
 aPointToInsert
 SplitAtEdges

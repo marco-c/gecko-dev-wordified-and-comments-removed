@@ -1838,7 +1838,7 @@ textNodeForTheRange
 &
 aText
 ;
-EditorRawDOMPoint
+EditorDOMPoint
 atEnd
 (
 textNodeForTheRange
@@ -1887,7 +1887,7 @@ StealNSResult
 ;
 }
 }
-EditorRawDOMPoint
+EditorDOMPoint
 atStart
 (
 textNodeForTheRange
@@ -2009,7 +2009,7 @@ MoveNodeWithTransaction
 (
 *
 textNodeForTheRange
-EditorRawDOMPoint
+EditorDOMPoint
 (
 sibling
 0
@@ -2290,7 +2290,7 @@ rv
 MoveNodeWithTransaction
 (
 aNode
-EditorRawDOMPoint
+EditorDOMPoint
 (
 nextSibling
 0
@@ -3274,7 +3274,7 @@ SplitNodeDeepWithTransaction
 (
 *
 node
-EditorRawDOMPoint
+EditorDOMPoint
 (
 *
 aNode
@@ -3702,7 +3702,7 @@ MoveNodeWithTransaction
 (
 *
 savedBR
-EditorRawDOMPoint
+EditorDOMPoint
 (
 newSelParent
 0
@@ -8364,7 +8364,7 @@ textNodeForTheRange
 &
 aTextNode
 ;
-EditorRawDOMPoint
+EditorDOMPoint
 atEnd
 (
 textNodeForTheRange
@@ -8413,7 +8413,7 @@ StealNSResult
 ;
 }
 }
-EditorRawDOMPoint
+EditorDOMPoint
 atStart
 (
 textNodeForTheRange
@@ -8576,7 +8576,7 @@ MoveNodeWithTransaction
 (
 *
 textNodeForTheRange
-EditorRawDOMPoint
+EditorDOMPoint
 (
 sibling
 0
@@ -9079,7 +9079,7 @@ MoveNodeWithTransaction
 (
 *
 aNode
-EditorRawDOMPoint
+EditorDOMPoint
 (
 sibling
 0

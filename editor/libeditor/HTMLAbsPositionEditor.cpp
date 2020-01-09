@@ -2505,7 +2505,7 @@ newBrElement
 =
 InsertBrElementWithTransaction
 (
-EditorRawDOMPoint
+EditorDOMPoint
 (
 parentNode
 0
