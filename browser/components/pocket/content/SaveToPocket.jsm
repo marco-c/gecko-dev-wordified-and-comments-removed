@@ -239,7 +239,7 @@ _insertBeforeActionID
 :
 PageActions
 .
-ACTION_ID_BOOKMARK_SEPARATOR
+ACTION_ID_PIN_TAB
 _urlbarNodeInMarkup
 :
 true
