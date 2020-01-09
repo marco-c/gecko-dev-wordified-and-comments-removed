@@ -690,9 +690,6 @@ maxStackDepth
 int32_t
 stackDepth
 ;
-unsigned
-emitLevel
-;
 uint32_t
 bodyScopeIndex
 ;
