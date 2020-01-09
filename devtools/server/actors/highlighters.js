@@ -2257,6 +2257,17 @@ function
 )
 {
 }
+get
+instance
+(
+)
+{
+return
+this
+.
+_highlighter
+;
+}
 show
 :
 function

@@ -1672,7 +1672,7 @@ this
 .
 walker
 .
-loadTransitionDisablingStyleSheet
+clearStyles
 (
 win
 )
@@ -1700,7 +1700,7 @@ this
 .
 walker
 .
-removeTransitionDisablingStyleSheet
+restoreStyles
 (
 win
 )
