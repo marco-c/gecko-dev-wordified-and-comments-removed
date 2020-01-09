@@ -11956,7 +11956,13 @@ nsStyle
 #
 name
 (
+*
 pres_context
+-
+>
+Document
+(
+)
 )
 ;
 \

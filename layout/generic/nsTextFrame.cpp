@@ -30234,7 +30234,13 @@ nsStyleFont
 :
 ZoomText
 (
+*
 aPresContext
+-
+>
+Document
+(
+)
 defaultFontSize
 )
 )

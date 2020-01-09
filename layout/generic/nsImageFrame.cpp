@@ -6025,7 +6025,13 @@ aPresContext
 :
 nsStyleBorder
 (
+*
 aPresContext
+-
+>
+Document
+(
+)
 )
 {
 NS_FOR_CSS_SIDES
