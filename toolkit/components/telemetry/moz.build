@@ -625,6 +625,13 @@ jsm
 '
 app
 /
+TelemetryScheduler
+.
+jsm
+'
+'
+app
+/
 TelemetrySend
 .
 jsm
