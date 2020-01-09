@@ -10789,6 +10789,22 @@ GIT
 '
 ]
         
+topsrcdir
+=
+self
+.
+substs
+.
+get
+(
+'
+commtopsrcdir
+'
+self
+.
+topsrcdir
+)
+        
 from
 mozbuild
 .
@@ -10830,8 +10846,6 @@ git
                               
 topsrcdir
 =
-self
-.
 topsrcdir
                               
 download_tests
