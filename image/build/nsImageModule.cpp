@@ -45,13 +45,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 imgLoader
 .
 h
@@ -96,13 +89,6 @@ return
 NS_OK
 ;
 }
-gfxPrefs
-:
-:
-GetSingleton
-(
-)
-;
 mozilla
 :
 :

@@ -1,13 +1,6 @@
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

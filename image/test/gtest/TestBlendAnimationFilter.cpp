@@ -100,13 +100,6 @@ CreateTrivialBlendingDecoder
 (
 )
 {
-gfxPrefs
-:
-:
-GetSingleton
-(
-)
-;
 DecoderType
 decoderType
 =

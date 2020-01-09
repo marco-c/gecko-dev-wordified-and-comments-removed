@@ -8,13 +8,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 nsMimeTypes
 .
 h

@@ -270,13 +270,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 nsIXULRuntime
 .
 h
@@ -5548,7 +5541,7 @@ Borrowed
 JS
 :
 :
-EvaluateDontInflate
+Evaluate
 (
 cx
 opts
@@ -7288,13 +7281,6 @@ return
 1
 ;
 }
-gfxPrefs
-:
-:
-GetSingleton
-(
-)
-;
 BrowserTabsRemoteAutostart
 (
 )

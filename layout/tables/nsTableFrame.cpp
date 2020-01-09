@@ -314,13 +314,6 @@ algorithm
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers

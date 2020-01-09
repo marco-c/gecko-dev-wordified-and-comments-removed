@@ -172,13 +172,6 @@ ImageContainer
 .
 h
 "
-#
-include
-"
-gfxPrefs
-.
-h
-"
 namespace
 mozilla
 {
