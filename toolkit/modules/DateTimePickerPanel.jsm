@@ -546,7 +546,10 @@ Services
 .
 locale
 .
-appLocaleAsBCP47
+regionalPrefsLocales
+[
+0
+]
 )
 ;
 const
