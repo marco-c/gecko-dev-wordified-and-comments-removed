@@ -54,7 +54,7 @@ byte
 for
 byte
 in
-xrange
+range
 (
 255
 )
