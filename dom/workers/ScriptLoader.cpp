@@ -5296,7 +5296,7 @@ rv
 mWorkerPrivate
 -
 >
-SetPrincipalFromChannel
+SetPrincipalsFromChannel
 (
 channel
 )
@@ -5818,8 +5818,9 @@ rv
 mWorkerPrivate
 -
 >
-SetPrincipalOnMainThread
+SetPrincipalsOnMainThread
 (
+responsePrincipal
 responsePrincipal
 loadGroup
 )
@@ -8362,7 +8363,7 @@ mResult
 =
 mLoadInfo
 .
-SetPrincipalFromChannel
+SetPrincipalsFromChannel
 (
 channel
 )
