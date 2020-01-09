@@ -711,6 +711,12 @@ charIndex
 ;
 readonly
 attribute
+unsigned
+long
+charLength
+;
+readonly
+attribute
 float
 elapsedTime
 ;
@@ -733,6 +739,12 @@ utterance
 unsigned
 long
 charIndex
+=
+0
+;
+unsigned
+long
+charLength
 =
 0
 ;
