@@ -3409,6 +3409,11 @@ writer
 =
 AudioBufferWriter
 (
+MakeSpan
+<
+AudioDataValue
+>
+(
 reinterpret_cast
 <
 AudioDataValue
@@ -3416,6 +3421,10 @@ AudioDataValue
 >
 (
 aBuffer
+)
+mOutChannels
+*
+aFrames
 )
 mOutChannels
 aFrames
