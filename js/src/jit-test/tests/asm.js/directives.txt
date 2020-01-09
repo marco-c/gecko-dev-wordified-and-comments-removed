@@ -6,5 +6,9 @@ test
 test
 -
 also
+=
 -
-noasmjs
+-
+no
+-
+asmjs
