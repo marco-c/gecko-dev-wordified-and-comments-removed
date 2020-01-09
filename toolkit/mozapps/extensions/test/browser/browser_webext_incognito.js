@@ -25,8 +25,6 @@ ExtensionPermissions
 .
 jsm
 "
-{
-}
 )
 ;
 var

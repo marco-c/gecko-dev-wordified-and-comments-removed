@@ -1,8 +1,13 @@
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
 (
-"
+'
 resource
 :
 /
@@ -14,7 +19,7 @@ modules
 Services
 .
 jsm
-"
+'
 )
 ;
 AntiTracking

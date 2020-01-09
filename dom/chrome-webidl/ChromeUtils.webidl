@@ -3414,7 +3414,7 @@ side
 *
 /
 required
-DOMString
+ByteString
 moduleURI
 ;
 }
