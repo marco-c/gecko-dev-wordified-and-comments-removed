@@ -15,6 +15,13 @@ PVRGPUParent
 .
 h
 "
+#
+include
+"
+VRService
+.
+h
+"
 namespace
 mozilla
 {
@@ -72,8 +79,9 @@ protected
 VRGPUParent
 (
 )
-{
-}
+=
+default
+;
 void
 Bind
 (
@@ -140,6 +148,11 @@ mVRService
 ;
 #
 endif
+DISALLOW_COPY_AND_ASSIGN
+(
+VRGPUParent
+)
+;
 }
 ;
 }

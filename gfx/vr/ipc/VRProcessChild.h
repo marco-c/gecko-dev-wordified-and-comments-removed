@@ -67,6 +67,13 @@ VRProcessChild
 (
 )
 ;
+static
+VRParent
+*
+GetVRParent
+(
+)
+;
 virtual
 bool
 Init
@@ -94,9 +101,6 @@ DISALLOW_COPY_AND_ASSIGN
 (
 VRProcessChild
 )
-;
-VRParent
-mVR
 ;
 }
 ;
