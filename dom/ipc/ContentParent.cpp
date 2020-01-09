@@ -6293,6 +6293,14 @@ nullptr
 aBrowsingContext
 -
 >
+SetEmbedderElement
+(
+aFrameElement
+)
+;
+aBrowsingContext
+-
+>
 Group
 (
 )

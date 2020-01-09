@@ -162,6 +162,12 @@ docShell
 ;
 readonly
 attribute
+Element
+?
+embedderElement
+;
+readonly
+attribute
 unsigned
 long
 long
@@ -253,6 +259,12 @@ attribute
 DOMString
 ?
 currentRemoteType
+;
+readonly
+attribute
+WindowGlobalParent
+?
+embedderWindowGlobal
 ;
 void
 notifyStartDelayedAutoplayMedia
