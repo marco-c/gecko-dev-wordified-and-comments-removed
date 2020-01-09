@@ -115,6 +115,16 @@ nsBrowserStatusFilter
 cpp
 '
 ]
+EXPORTS
++
+=
+[
+'
+nsBrowserStatusFilter
+.
+h
+'
+]
 FINAL_LIBRARY
 =
 '
