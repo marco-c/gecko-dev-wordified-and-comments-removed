@@ -548,6 +548,11 @@ getFormFormat
 PaymentDialogUtils
 .
 getFormFormat
+findAddressSelectOption
+:
+PaymentDialogUtils
+.
+findAddressSelectOption
 countries
 :
 PaymentDialogUtils
