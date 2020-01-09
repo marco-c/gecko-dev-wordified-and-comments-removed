@@ -1509,15 +1509,12 @@ extensions
 -
 view
 -
-discover
+discopane
 =
 .
 name
 =
-Get
-Add
--
-ons
+Recommendations
 .
 tooltiptext
 =
@@ -1526,7 +1523,7 @@ extensions
 -
 view
 -
-discover
+discopane
 .
 name
 }
