@@ -1743,8 +1743,6 @@ oneOffButtons
 maybeRecordTelemetry
 (
 aEvent
-aWhere
-aParams
 )
 ;
 if
@@ -1903,7 +1901,6 @@ recordOneoffSearchInTelemetry
 aEngine
 source
 type
-aWhere
 )
 ;
 }

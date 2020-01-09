@@ -21012,7 +21012,6 @@ recordOneoffSearchInTelemetry
 engine
 source
 type
-where
 )
 {
 try
