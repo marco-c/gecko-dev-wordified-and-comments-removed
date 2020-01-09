@@ -353,8 +353,15 @@ kMaxLengthBeforeFlush
 =
 1024
 ;
+const
+static
+uint32_t
+kEncoderBufferSizeInBytes
+=
+4096
+;
 nsresult
-ConvertAndWrite
+EncodeAndWrite
 (
 const
 nsAString
@@ -363,7 +370,7 @@ aString
 )
 ;
 nsresult
-ConvertAndWriteAndTruncate
+EncodeAndWriteAndTruncate
 (
 nsAString
 &
@@ -462,7 +469,7 @@ kMaxLengthBeforeFlush
 {
 rv
 =
-ConvertAndWriteAndTruncate
+EncodeAndWriteAndTruncate
 (
 aString
 )
@@ -484,7 +491,7 @@ aString
 )
 {
 return
-ConvertAndWriteAndTruncate
+EncodeAndWriteAndTruncate
 (
 aString
 )
@@ -494,7 +501,7 @@ nsresult
 TextStreamer
 :
 :
-ConvertAndWrite
+EncodeAndWrite
 (
 const
 nsAString
@@ -504,10 +511,9 @@ aString
 {
 if
 (
-!
 aString
 .
-Length
+IsEmpty
 (
 )
 )
@@ -519,7 +525,7 @@ NS_OK
 uint8_t
 buffer
 [
-4096
+kEncoderBufferSizeInBytes
 ]
 ;
 auto
@@ -721,7 +727,7 @@ nsresult
 TextStreamer
 :
 :
-ConvertAndWriteAndTruncate
+EncodeAndWriteAndTruncate
 (
 nsAString
 &
@@ -732,7 +738,7 @@ const
 nsresult
 rv
 =
-ConvertAndWrite
+EncodeAndWrite
 (
 aString
 )
