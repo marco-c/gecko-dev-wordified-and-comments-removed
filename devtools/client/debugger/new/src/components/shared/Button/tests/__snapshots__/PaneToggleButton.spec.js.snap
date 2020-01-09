@@ -28,6 +28,7 @@ className
 toggle
 -
 button
+start
 vertical
 "
 onClick
@@ -41,6 +42,9 @@ title
 =
 "
 Collapse
+Sources
+and
+Outline
 panes
 "
 >
