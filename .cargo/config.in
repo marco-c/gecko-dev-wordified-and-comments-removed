@@ -264,3 +264,4 @@ third_party
 /
 rust
 '
+WIN64_CARGO_LINKER_CONFIG
