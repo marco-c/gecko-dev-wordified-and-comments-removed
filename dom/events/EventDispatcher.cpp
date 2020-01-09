@@ -804,7 +804,7 @@ isChrome
 class
 EventTargetChainItem
 {
-private
+public
 :
 explicit
 EventTargetChainItem
@@ -813,13 +813,11 @@ EventTarget
 *
 aTarget
 )
-;
-public
 :
-EventTargetChainItem
+mTarget
 (
+aTarget
 )
-:
 mItemFlags
 (
 0
@@ -899,14 +897,8 @@ aChain
 .
 AppendElement
 (
-)
-;
-etci
--
->
-mTarget
-=
 aTarget
+)
 ;
 return
 etci
@@ -1741,6 +1733,7 @@ return
 mTarget
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 static
 void
 HandleEventTargetChain
@@ -1987,6 +1980,7 @@ null
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT
 void
 PostHandleEvent
 (
@@ -1997,6 +1991,7 @@ aVisitor
 ;
 private
 :
+const
 nsCOMPtr
 <
 EventTarget
