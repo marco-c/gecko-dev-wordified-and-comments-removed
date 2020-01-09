@@ -125,11 +125,6 @@ XPIDL_MODULE
 '
 toolkit_search
 '
-EXTRA_COMPONENTS
-+
-=
-[
-]
 if
 CONFIG
 [
@@ -188,6 +183,11 @@ jsm
 '
 '
 SearchSuggestions
+.
+jsm
+'
+'
+SearchUtils
 .
 jsm
 '
