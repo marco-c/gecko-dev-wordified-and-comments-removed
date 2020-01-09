@@ -43,6 +43,15 @@ h
 #
 include
 "
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -286,6 +295,11 @@ observer
 successfully
 "
 )
+;
+Unused
+<
+<
+rv
 ;
 mRegistered
 =
