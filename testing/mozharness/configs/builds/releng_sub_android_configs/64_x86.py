@@ -31,14 +31,4 @@ x86
 /
 nightly
 '
-    
-'
-artifact_flag_build_variant_in_try
-'
-:
-'
-x86
--
-artifact
-'
 }

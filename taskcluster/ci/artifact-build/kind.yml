@@ -247,9 +247,7 @@ py
 -
 builds
 /
-releng_sub_linux_configs
-/
-64_artifact
+releng_base_linux_64_builds
 .
 py
 script

@@ -47,16 +47,4 @@ debug_build
 '
 :
 True
-    
-'
-artifact_flag_build_variant_in_try
-'
-:
-'
-aarch64
--
-debug
--
-artifact
-'
 }

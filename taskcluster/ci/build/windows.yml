@@ -3197,9 +3197,6 @@ stage_platform
 win32
 -
 rusttests
-artifact_flag_build_variant_in_try
-:
-null
 build_targets
 :
 [
@@ -3422,9 +3419,6 @@ stage_platform
 win32
 -
 rusttests
-artifact_flag_build_variant_in_try
-:
-null
 build_targets
 :
 [

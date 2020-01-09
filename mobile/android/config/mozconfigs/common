@@ -73,6 +73,13 @@ z
 "
 NO_NDK
 "
+-
+a
+-
+z
+"
+USE_ARTIFACT
+"
 ]
 ;
 then
@@ -325,6 +332,13 @@ if
 z
 "
 NO_NDK
+"
+-
+a
+-
+z
+"
+USE_ARTIFACT
 "
 ]
 ;

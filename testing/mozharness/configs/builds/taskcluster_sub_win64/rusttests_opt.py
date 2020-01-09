@@ -67,10 +67,4 @@ disable_package_metrics
 '
 :
 True
-    
-'
-artifact_flag_build_variant_in_try
-'
-:
-None
 }

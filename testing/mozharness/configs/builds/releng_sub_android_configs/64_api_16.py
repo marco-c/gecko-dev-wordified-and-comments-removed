@@ -43,16 +43,4 @@ multi_locale_config_platform
 '
 android
 '
-    
-'
-artifact_flag_build_variant_in_try
-'
-:
-'
-api
--
-16
--
-artifact
-'
 }
