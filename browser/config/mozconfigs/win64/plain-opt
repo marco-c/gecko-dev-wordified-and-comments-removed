@@ -113,16 +113,6 @@ x86_64
 pc
 -
 mingw32
-ac_add_options
--
--
-host
-=
-x86_64
--
-pc
--
-mingw32
 .
 topsrcdir
 /
