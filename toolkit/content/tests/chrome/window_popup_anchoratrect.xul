@@ -115,13 +115,6 @@ nextTest
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

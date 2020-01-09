@@ -136,13 +136,6 @@ xul
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

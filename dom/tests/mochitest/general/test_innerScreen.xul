@@ -120,13 +120,6 @@ xul
 >
 <
 script
-type
-=
-"
-text
-/
-javascript
-"
 src
 =
 "

@@ -135,13 +135,6 @@ bar
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

@@ -158,13 +158,6 @@ RunTest
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

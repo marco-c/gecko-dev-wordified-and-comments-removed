@@ -31,13 +31,6 @@ title
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "
@@ -146,12 +139,8 @@ window
 .
 onload
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -323,7 +312,7 @@ split
 )
 )
 ;
-yield
+await
 setState
 (
 tree
@@ -451,7 +440,7 @@ height
 "
 )
 ;
-yield
+await
 setState
 (
 tree
@@ -607,7 +596,7 @@ with
 visible
 pixel
 )
-yield
+await
 setState
 (
 tree
@@ -742,7 +731,7 @@ height
 "
 )
 ;
-yield
+await
 setState
 (
 tree
@@ -946,7 +935,6 @@ finish
 ;
 }
 }
-)
 ;
 <
 /

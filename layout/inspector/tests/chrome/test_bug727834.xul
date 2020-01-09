@@ -180,13 +180,6 @@ RunTests
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "
