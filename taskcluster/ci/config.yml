@@ -999,6 +999,14 @@ pipfu
 pipfile
 update
 '
+'
+WR
+'
+:
+'
+WebRender
+standalone
+'
 index
 :
 products
