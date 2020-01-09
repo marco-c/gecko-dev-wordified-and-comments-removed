@@ -406,10 +406,6 @@ width
 "
     
 "
-contain
-"
-    
-"
 display
 "
     
