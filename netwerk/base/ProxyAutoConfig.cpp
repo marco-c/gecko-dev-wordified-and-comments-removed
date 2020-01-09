@@ -4948,7 +4948,7 @@ return
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
