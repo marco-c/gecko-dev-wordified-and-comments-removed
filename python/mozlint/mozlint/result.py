@@ -440,6 +440,24 @@ lines
 optional
 )
     
+:
+param
+diff
+:
+a
+diff
+describing
+the
+changes
+that
+need
+to
+be
+made
+to
+the
+code
+    
 "
 "
 "
@@ -487,6 +505,10 @@ rule
 '
 lineoffset
 '
+        
+'
+diff
+'
     
 )
     
@@ -515,6 +537,9 @@ rule
 =
 None
 lineoffset
+=
+None
+diff
 =
 None
 )
@@ -597,6 +622,12 @@ self
 lineoffset
 =
 lineoffset
+        
+self
+.
+diff
+=
+diff
     
 def
 __repr__
