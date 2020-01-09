@@ -3670,7 +3670,7 @@ state
 .
 messageFilter
 }
-onChange
+onBlur
 =
 {
 this
@@ -4425,11 +4425,6 @@ this
 state
 .
 newStringTargetingParameters
-}
-autoFocus
-=
-{
-true
 }
 rows
 =

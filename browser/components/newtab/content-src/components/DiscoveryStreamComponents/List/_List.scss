@@ -1262,6 +1262,13 @@ font
 size
 )
 ;
+include
+dark
+-
+theme
+-
+only
+{
 color
 :
 grey
@@ -1269,6 +1276,13 @@ grey
 10
 -
 80
+;
+}
+color
+:
+grey
+-
+50
 ;
 margin
 :

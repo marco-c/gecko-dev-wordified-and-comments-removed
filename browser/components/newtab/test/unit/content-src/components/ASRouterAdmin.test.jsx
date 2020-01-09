@@ -1750,7 +1750,7 @@ select
 simulate
 (
 "
-change
+blur
 "
 {
 target
