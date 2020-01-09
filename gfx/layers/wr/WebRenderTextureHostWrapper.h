@@ -19,6 +19,13 @@ namespace
 mozilla
 {
 namespace
+wr
+{
+class
+TransactionBuilder
+;
+}
+namespace
 layers
 {
 class
