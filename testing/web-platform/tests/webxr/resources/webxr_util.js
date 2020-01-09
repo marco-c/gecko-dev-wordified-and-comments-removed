@@ -187,9 +187,8 @@ device
 return
 gl
 .
-setCompatibleXRDevice
+makeXRCompatible
 (
-device
 )
 ;
 }
