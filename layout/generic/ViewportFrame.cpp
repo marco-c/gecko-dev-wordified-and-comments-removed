@@ -1973,16 +1973,6 @@ pseudo
 nullptr
 )
 ;
-newStyle
--
->
-ResolveSameStructsAs
-(
-Style
-(
-)
-)
-;
 MOZ_ASSERT
 (
 !
