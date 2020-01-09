@@ -2421,6 +2421,14 @@ GetFrameContent
 )
 const
 ;
+bool
+MaybeRetargetToActiveDocument
+(
+WidgetGUIEvent
+*
+aGUIEvent
+)
+;
 RefPtr
 <
 PresShell
