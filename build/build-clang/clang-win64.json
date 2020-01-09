@@ -225,11 +225,15 @@ issue38586
 patch
 "
 "
+r354836
+-
 unpoison
 -
 thread
 -
 stacks
+-
+callback
 .
 patch
 "
