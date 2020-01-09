@@ -542,8 +542,10 @@ aSurface
 0
 ;
 virtual
+already_AddRefed
+<
 CompositingRenderTarget
-*
+>
 GetCurrentRenderTarget
 (
 )
@@ -552,8 +554,10 @@ const
 0
 ;
 virtual
+already_AddRefed
+<
 CompositingRenderTarget
-*
+>
 GetWindowRenderTarget
 (
 )

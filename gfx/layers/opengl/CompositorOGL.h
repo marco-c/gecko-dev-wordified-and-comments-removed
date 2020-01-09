@@ -664,8 +664,10 @@ aSurface
 override
 ;
 virtual
+already_AddRefed
+<
 CompositingRenderTarget
-*
+>
 GetCurrentRenderTarget
 (
 )
@@ -673,8 +675,10 @@ const
 override
 ;
 virtual
+already_AddRefed
+<
 CompositingRenderTarget
-*
+>
 GetWindowRenderTarget
 (
 )
