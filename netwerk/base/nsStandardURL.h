@@ -1439,8 +1439,10 @@ mCheckedIfHostA
 1
 ;
 static
+StaticRefPtr
+<
 nsIIDNService
-*
+>
 gIDN
 ;
 static

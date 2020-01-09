@@ -688,6 +688,12 @@ WriteBuffer
 ;
 private
 :
+nsCOMPtr
+<
+nsICacheServiceInternal
+>
+mCacheService
+;
 nsCacheEntry
 *
 mCacheEntry

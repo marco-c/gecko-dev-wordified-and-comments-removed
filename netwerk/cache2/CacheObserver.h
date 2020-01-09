@@ -338,8 +338,10 @@ PR_INTERVAL_NO_TIMEOUT
 private
 :
 static
+StaticRefPtr
+<
 CacheObserver
-*
+>
 sSelf
 ;
 void

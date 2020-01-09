@@ -503,6 +503,12 @@ Connect
 (
 )
 ;
+nsCOMPtr
+<
+nsIProxiedProtocolHandler
+>
+mHandler
+;
 FTP_STATE
 mState
 ;

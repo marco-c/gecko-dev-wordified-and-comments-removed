@@ -3198,8 +3198,10 @@ Append
 '
 )
 ;
+nsCOMPtr
+<
 nsIURI
-*
+>
 uri
 ;
 rv
@@ -3215,8 +3217,10 @@ NewURI
 spec
 nullptr
 nullptr
-&
+getter_AddRefs
+(
 uri
+)
 )
 ;
 if
@@ -3227,11 +3231,6 @@ rv
 )
 )
 {
-NS_RELEASE
-(
-uri
-)
-;
 return
 rv
 ;
