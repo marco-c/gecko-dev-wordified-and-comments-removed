@@ -22,7 +22,6 @@ getRelativePath
 isExactUrlMatch
 isDirectory
 addToTree
-sortEntireTree
 isNotJavaScript
 }
 from
@@ -454,12 +453,11 @@ example
 com
 /
 "
+"
+Main
+Thread
+"
 )
-)
-;
-sortEntireTree
-(
-tree
 )
 ;
 const
@@ -469,6 +467,11 @@ aFileNode
 ]
 =
 tree
+.
+contents
+[
+0
+]
 .
 contents
 [

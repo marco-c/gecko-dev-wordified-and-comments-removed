@@ -79,11 +79,6 @@ collapseTree
 js
 '
 '
-createTree
-.
-js
-'
-'
 formatTree
 .
 js

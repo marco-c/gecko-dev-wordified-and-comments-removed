@@ -143,6 +143,14 @@ node
 return
 node
 .
+querySelector
+(
+"
+.
+label
+"
+)
+.
 textContent
 .
 trim

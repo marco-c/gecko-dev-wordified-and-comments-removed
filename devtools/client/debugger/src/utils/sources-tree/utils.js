@@ -110,7 +110,6 @@ item
 type
 =
 =
-=
 "
 directory
 "
