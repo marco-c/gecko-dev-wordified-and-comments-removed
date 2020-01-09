@@ -10470,12 +10470,13 @@ nsAString
 aName
 )
 {
+aName
+=
 mBrowsingContext
 -
 >
-GetName
+Name
 (
-aName
 )
 ;
 return

@@ -462,7 +462,7 @@ CrossOriginReadable
 ]
 readonly
 attribute
-Window
+WindowProxy
 window
 ;
 [
@@ -473,7 +473,7 @@ CrossOriginReadable
 ]
 readonly
 attribute
-Window
+WindowProxy
 self
 ;
 [
@@ -499,11 +499,6 @@ PutForwards
 =
 href
 Unforgeable
-BinaryName
-=
-"
-getLocation
-"
 CrossOriginReadable
 CrossOriginWritable
 ]
@@ -589,6 +584,7 @@ status
 [
 Throws
 CrossOriginCallable
+NeedsCallerType
 ]
 void
 close

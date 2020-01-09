@@ -2045,8 +2045,6 @@ temp
 nsAutoCString
 locationCStr
 ;
-if
-(
 RefPtr
 <
 Location
@@ -2056,11 +2054,10 @@ location
 mWindow
 -
 >
-GetLocation
+Location
 (
 )
-)
-{
+;
 nsAutoString
 locationAStr
 ;
@@ -2086,7 +2083,6 @@ locationAStr
 locationCStr
 )
 ;
-}
 SprintfLiteral
 (
 temp

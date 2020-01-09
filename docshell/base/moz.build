@@ -584,6 +584,12 @@ base
 '
 '
 /
+dom
+/
+bindings
+'
+'
+/
 layout
 /
 base

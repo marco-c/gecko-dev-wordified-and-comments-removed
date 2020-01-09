@@ -67,6 +67,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h

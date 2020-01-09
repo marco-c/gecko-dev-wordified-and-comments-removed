@@ -166,6 +166,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsDocShellLoadState
 .
 h

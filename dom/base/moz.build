@@ -1120,6 +1120,11 @@ Pose
 h
 '
 '
+PostMessageEvent
+.
+h
+'
+'
 ProcessMessageManager
 .
 h
@@ -1893,6 +1898,11 @@ cpp
 '
 '
 ProcessMessageManager
+.
+cpp
+'
+'
+RemoteOuterWindowProxy
 .
 cpp
 '
