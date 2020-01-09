@@ -108,13 +108,6 @@ source
 -
 editor
 .
-css
-'
-'
-source
--
-editor
-.
 js
 '
 '
