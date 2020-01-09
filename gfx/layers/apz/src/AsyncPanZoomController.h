@@ -1935,6 +1935,10 @@ GetCurrentAsyncTransform
 (
 AsyncTransformConsumer
 aMode
+AsyncTransformComponents
+aComponents
+=
+ScrollAndZoom
 )
 const
 ;

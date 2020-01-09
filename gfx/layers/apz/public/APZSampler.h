@@ -257,6 +257,8 @@ const
 LayerMetricsWrapper
 &
 aLayer
+AsyncTransformComponents
+aComponents
 )
 ;
 AsyncTransform
