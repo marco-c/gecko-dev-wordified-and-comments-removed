@@ -95,7 +95,7 @@ const
 kSearchSuggestURL
 =
 "
-http
+https
 :
 /
 /

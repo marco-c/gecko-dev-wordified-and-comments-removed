@@ -123,6 +123,9 @@ chrome_settings_overrides
 search_provider
 :
 {
+is_default
+:
+true
 name
 :
 "
