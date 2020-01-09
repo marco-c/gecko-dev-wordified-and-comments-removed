@@ -830,6 +830,7 @@ Serialize
 [
 derive
 (
+Animate
 Clone
 Copy
 Debug
@@ -854,6 +855,7 @@ MinContent
 [
 derive
 (
+Animate
 Clone
 Debug
 MallocSizeOf
@@ -2455,6 +2457,7 @@ clone
 [
 derive
 (
+Animate
 Clone
 Debug
 MallocSizeOf
@@ -2474,6 +2477,13 @@ Integer
 {
 TrackSize
 (
+#
+[
+animation
+(
+field_bound
+)
+]
 TrackSize
 <
 LengthPercentage
@@ -2481,6 +2491,13 @@ LengthPercentage
 )
 TrackRepeat
 (
+#
+[
+animation
+(
+field_bound
+)
+]
 TrackRepeat
 <
 LengthPercentage
@@ -3489,6 +3506,7 @@ Ok
 [
 derive
 (
+Animate
 Clone
 Debug
 MallocSizeOf
@@ -3511,6 +3529,13 @@ TrackList
 (
 #
 [
+animation
+(
+field_bound
+)
+]
+#
+[
 compute
 (
 field_bound
@@ -3522,6 +3547,13 @@ L
 I
 >
 )
+#
+[
+animation
+(
+error
+)
+]
 Subgrid
 (
 LineNameList
