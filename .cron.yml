@@ -623,6 +623,13 @@ tasks
 method
 :
 chromium_update
+optimize
+-
+target
+-
+tasks
+:
+false
 run
 -
 on
