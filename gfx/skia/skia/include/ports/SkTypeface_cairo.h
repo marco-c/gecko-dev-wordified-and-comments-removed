@@ -45,6 +45,10 @@ SkCreateTypefaceFromCairoFTFont
 cairo_scaled_font_t
 *
 scaledFont
+FT_Face
+face
+=
+nullptr
 )
 ;
 #
@@ -62,6 +66,10 @@ scaledFont
 FcPattern
 *
 pattern
+FT_Face
+face
+=
+nullptr
 )
 ;
 #
