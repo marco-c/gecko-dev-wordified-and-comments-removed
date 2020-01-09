@@ -157,16 +157,6 @@ GuardMagicValue
 \
 _
 (
-GuardNoUnboxedExpando
-)
-\
-_
-(
-GuardAndLoadUnboxedExpando
-)
-\
-_
-(
 GuardNoDetachedTypedObjects
 )
 \
