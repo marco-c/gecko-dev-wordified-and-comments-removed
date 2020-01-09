@@ -7603,7 +7603,10 @@ jit
 :
 StringsEqual
 <
-true
+EqualityKind
+:
+:
+Equal
 >
 >
 (
@@ -7634,7 +7637,10 @@ jit
 :
 StringsEqual
 <
-false
+EqualityKind
+:
+:
+NotEqual
 >
 >
 (
@@ -7665,7 +7671,10 @@ jit
 :
 StringsCompare
 <
-true
+ComparisonKind
+:
+:
+LessThan
 >
 >
 (
@@ -7697,7 +7706,10 @@ jit
 :
 StringsCompare
 <
-false
+ComparisonKind
+:
+:
+GreaterThanOrEqual
 >
 >
 (
