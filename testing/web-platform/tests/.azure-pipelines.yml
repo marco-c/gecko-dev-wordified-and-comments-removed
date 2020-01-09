@@ -310,7 +310,9 @@ parameters
 artifactName
 :
 '
-results
+affected
+-
+tests
 '
 -
 job
@@ -390,7 +392,9 @@ HEAD
 artifactName
 :
 '
-results
+affected
+-
+tests
 -
 without
 -
