@@ -435,7 +435,9 @@ C
 assertFunctionName
 (
 classExprAnon
-undefined
+"
+classExprAnon
+"
 )
 ;
 eval
