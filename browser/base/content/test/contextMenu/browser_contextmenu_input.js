@@ -54,7 +54,7 @@ content
 /
 test
 /
-general
+contextMenu
 /
 "
 ;
@@ -100,7 +100,7 @@ content
 /
 test
 /
-general
+contextMenu
 /
 "
 ;
