@@ -4851,6 +4851,11 @@ Linker
 linker
 (
 masm
+)
+;
+AutoFlushICache
+afc
+(
 "
 BaselineDebugModeOSRHandler
 "
