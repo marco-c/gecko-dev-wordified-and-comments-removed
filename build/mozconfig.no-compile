@@ -55,6 +55,8 @@ LINKER
 unset
 RUSTC
 unset
+RUSTFLAGS
+unset
 CARGO
 unset
 RUSTDOC
