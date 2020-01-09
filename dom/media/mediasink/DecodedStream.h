@@ -355,6 +355,8 @@ UniquePtr
 <
 DecodedStreamData
 >
+&
+&
 aData
 )
 ;
