@@ -136,9 +136,6 @@ h
 namespace
 mozilla
 {
-namespace
-dom
-{
 struct
 VideoDataIPDL
 {
@@ -373,11 +370,6 @@ error
 ;
 }
 ;
-}
-/
-/
-namespace
-dom
 }
 /
 /

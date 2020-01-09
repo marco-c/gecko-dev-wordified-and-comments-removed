@@ -1,9 +1,9 @@
 #
 ifndef
-include_dom_ipc_VideoDecoderChild_h
+include_ipc_VideoDecoderChild_h
 #
 define
-include_dom_ipc_VideoDecoderChild_h
+include_ipc_VideoDecoderChild_h
 #
 include
 "
@@ -23,8 +23,6 @@ include
 "
 mozilla
 /
-dom
-/
 PVideoDecoderChild
 .
 h
@@ -38,9 +36,6 @@ h
 "
 namespace
 mozilla
-{
-namespace
-dom
 {
 class
 RemoteVideoDecoder
@@ -429,7 +424,6 @@ mGPUCrashTime
 ;
 }
 ;
-}
 }
 #
 endif

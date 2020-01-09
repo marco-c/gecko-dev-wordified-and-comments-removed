@@ -1,9 +1,9 @@
 #
 ifndef
-include_dom_ipc_VideoDecoderParent_h
+include_ipc_VideoDecoderParent_h
 #
 define
-include_dom_ipc_VideoDecoderParent_h
+include_ipc_VideoDecoderParent_h
 #
 include
 "
@@ -46,8 +46,6 @@ include
 "
 mozilla
 /
-dom
-/
 PVideoDecoderParent
 .
 h
@@ -65,9 +63,6 @@ h
 "
 namespace
 mozilla
-{
-namespace
-dom
 {
 class
 KnowsCompositorVideo
@@ -291,7 +286,6 @@ mDestroyed
 ;
 }
 ;
-}
 }
 #
 endif

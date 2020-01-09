@@ -65,9 +65,6 @@ h
 namespace
 mozilla
 {
-namespace
-dom
-{
 using
 base
 :
@@ -717,9 +714,6 @@ RunWhenRecreated
 NS_NewRunnableFunction
 (
 "
-dom
-:
-:
 VideoDecoderChild
 :
 :
@@ -1586,6 +1580,5 @@ Manager
 )
 )
 ;
-}
 }
 }

@@ -177,9 +177,6 @@ h
 namespace
 mozilla
 {
-namespace
-dom
-{
 sync
 protocol
 PVideoDecoderManager
@@ -324,11 +321,6 @@ sd
 ;
 }
 ;
-}
-/
-/
-namespace
-dom
 }
 /
 /

@@ -1,15 +1,13 @@
 #
 ifndef
-include_dom_ipc_VideoDecoderManagerParent_h
+include_ipc_VideoDecoderManagerParent_h
 #
 define
-include_dom_ipc_VideoDecoderManagerParent_h
+include_ipc_VideoDecoderManagerParent_h
 #
 include
 "
 mozilla
-/
-dom
 /
 PVideoDecoderManagerParent
 .
@@ -17,9 +15,6 @@ h
 "
 namespace
 mozilla
-{
-namespace
-dom
 {
 class
 VideoDecoderManagerThreadHolder
@@ -266,7 +261,6 @@ mThreadHolder
 ;
 }
 ;
-}
 }
 #
 endif
