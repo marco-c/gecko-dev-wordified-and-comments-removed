@@ -69,11 +69,6 @@ aNetworkFunctions
 {
 }
 ;
-nsresult
-Init
-(
-)
-;
 private
 :
 ~
