@@ -419,6 +419,7 @@ aFrame
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SelectWord
 (
@@ -449,12 +450,14 @@ aCandidate
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SelectMoreIfPhoneNumber
 (
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ExtendPhoneNumberSelection
 (
@@ -576,6 +579,7 @@ GetFrameSelection
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsAutoString
 StringifiedSelection
 (
