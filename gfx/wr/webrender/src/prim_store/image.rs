@@ -260,6 +260,10 @@ segment_instance_index
 :
 SegmentInstanceIndex
 pub
+tight_local_clip_rect
+:
+LayoutRect
+pub
 visible_tiles
 :
 Vec
@@ -454,6 +458,14 @@ SegmentInstanceIndex
 :
 :
 INVALID
+tight_local_clip_rect
+:
+LayoutRect
+:
+:
+zero
+(
+)
 visible_tiles
 :
 Vec
