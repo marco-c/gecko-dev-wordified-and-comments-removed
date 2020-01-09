@@ -734,6 +734,9 @@ finishedFrameCount
 numFrames
 )
 throw
+new
+Error
+(
 "
 Too
 many
@@ -741,6 +744,7 @@ frames
 loaded
 .
 "
+)
 ;
 }
 var
