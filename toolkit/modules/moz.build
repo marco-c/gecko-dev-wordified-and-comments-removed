@@ -717,10 +717,11 @@ BUG_COMPONENT
 =
 (
 '
-WebExtensions
+Toolkit
 '
 '
-General
+Async
+Tooling
 '
 )
 with
