@@ -4,7 +4,14 @@ import
 absolute_import
 print_function
 unicode_literals
-WINDOWS
+WIN32
+=
+'
+win32
+-
+node
+'
+WIN64
 =
 '
 win64
