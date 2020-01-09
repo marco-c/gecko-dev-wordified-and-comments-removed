@@ -140,6 +140,7 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 nsImageBoxFrame
 )
+NS_DECL_QUERYFRAME
 virtual
 nsSize
 GetXULPrefSize
@@ -280,6 +281,16 @@ UpdateImage
 ;
 void
 UpdateLoadFlags
+(
+)
+;
+void
+RestartAnimation
+(
+)
+;
+void
+StopAnimation
 (
 )
 ;
