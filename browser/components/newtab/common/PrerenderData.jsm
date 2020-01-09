@@ -453,11 +453,6 @@ initialPrefs
 :
 {
 "
-migrationExpired
-"
-:
-true
-"
 feeds
 .
 topsites

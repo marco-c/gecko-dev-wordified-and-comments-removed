@@ -118,12 +118,12 @@ onConfirm
 cancel_button_string_id
 :
 "
-manual_migration_cancel_button
+topsites_form_cancel_button
 "
 confirm_button_string_id
 :
 "
-manual_migration_import_button
+topsites_form_save_button
 "
 eventSource
 :

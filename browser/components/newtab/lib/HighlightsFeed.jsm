@@ -1563,11 +1563,6 @@ break
 case
 at
 .
-MIGRATION_COMPLETED
-:
-case
-at
-.
 PLACES_HISTORY_CLEARED
 :
 case
