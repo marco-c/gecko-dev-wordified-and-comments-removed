@@ -6848,15 +6848,6 @@ contentPolicyType
 nullptr
 loadGroup
 prompter
-nsIRequest
-:
-:
-LOAD_NORMAL
-|
-nsIChannel
-:
-:
-LOAD_CLASSIFY_URI
 )
 ;
 NS_ENSURE_SUCCESS

@@ -43316,14 +43316,6 @@ if
 aBypassClassifier
 )
 {
-loadFlags
-|
-=
-nsIChannel
-:
-:
-LOAD_CLASSIFY_URI
-;
 }
 if
 (

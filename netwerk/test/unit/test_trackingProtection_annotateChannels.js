@@ -693,17 +693,6 @@ requestMethod
 GET
 "
 ;
-chan
-.
-loadFlags
-|
-=
-Ci
-.
-nsIChannel
-.
-LOAD_CLASSIFY_URI
-;
 if
 (
 topWindowURI

@@ -3216,12 +3216,6 @@ bogusLoadBackground
 loadGroupIsBackground
 ;
 }
-aLoadFlags
-&
-=
-~
-LOAD_CLASSIFY_URI
-;
 mLoadFlags
 =
 aLoadFlags
