@@ -5018,16 +5018,6 @@ aSubjectPrincipal
 ;
 static
 bool
-SendPerformanceTimingNotifications
-(
-)
-{
-return
-sSendPerformanceTimingNotifications
-;
-}
-static
-bool
 ResistFingerprinting
 (
 mozilla
@@ -7610,10 +7600,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sSendPerformanceTimingNotifications
 ;
 static
 bool

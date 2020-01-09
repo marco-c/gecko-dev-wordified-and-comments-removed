@@ -1248,10 +1248,10 @@ dom_performance_enable_user_timing_logging
 )
 |
 |
-nsContentUtils
+StaticPrefs
 :
 :
-SendPerformanceTimingNotifications
+dom_performance_enable_notify_performance_timing
 (
 )
 )
@@ -1355,10 +1355,10 @@ uri
 }
 if
 (
-nsContentUtils
+StaticPrefs
 :
 :
-SendPerformanceTimingNotifications
+dom_performance_enable_notify_performance_timing
 (
 )
 )
