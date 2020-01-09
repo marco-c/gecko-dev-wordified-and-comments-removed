@@ -26530,8 +26530,10 @@ Size
 )
 ;
 }
-static
 Size
+FrameLayerBuilder
+:
+:
 ChooseScale
 (
 nsIFrame
@@ -27124,6 +27126,9 @@ transform2d
 Size
 scale
 =
+FrameLayerBuilder
+:
+:
 ChooseScale
 (
 aContainerFrame

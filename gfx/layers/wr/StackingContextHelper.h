@@ -81,6 +81,12 @@ const
 ActiveScrolledRoot
 *
 aAsr
+nsIFrame
+*
+aContainerFrame
+nsDisplayItem
+*
+aContainerItem
 wr
 :
 :
