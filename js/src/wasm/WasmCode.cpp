@@ -542,12 +542,7 @@ static_assert
 MaxCodeBytesPerProcess
 <
 =
-(
-1u
-<
-<
-31
-)
+INT32_MAX
 "
 rounding
 won
