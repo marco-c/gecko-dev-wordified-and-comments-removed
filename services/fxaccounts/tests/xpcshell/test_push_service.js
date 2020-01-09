@@ -1817,7 +1817,7 @@ fxAccountsMock
 commands
 =
 {
-consumeRemoteCommand
+pollDeviceCommands
 (
 )
 {
