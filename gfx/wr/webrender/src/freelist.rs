@@ -23,6 +23,7 @@ derive
 Debug
 Copy
 Clone
+MallocSizeOf
 PartialEq
 )
 ]
@@ -395,6 +396,13 @@ derive
 (
 Deserialize
 )
+)
+]
+#
+[
+derive
+(
+MallocSizeOf
 )
 ]
 pub

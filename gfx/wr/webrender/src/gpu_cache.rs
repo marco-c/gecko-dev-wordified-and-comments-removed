@@ -206,6 +206,7 @@ derive
 Debug
 Copy
 Clone
+MallocSizeOf
 )
 ]
 #
@@ -523,6 +524,7 @@ derive
 Debug
 Copy
 Clone
+MallocSizeOf
 )
 ]
 #
