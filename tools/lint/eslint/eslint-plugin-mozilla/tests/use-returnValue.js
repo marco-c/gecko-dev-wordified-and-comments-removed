@@ -111,7 +111,7 @@ run
 "
 use
 -
-ownerGlobal
+returnValue
 "
 rule
 {
@@ -196,6 +196,9 @@ concat
 bar
 )
 "
+"
+concat
+"
 )
 invalidCode
 (
@@ -211,6 +214,9 @@ concat
 ]
 )
 "
+"
+concat
+"
 )
 invalidCode
 (
@@ -220,6 +226,9 @@ baz
 concat
 (
 )
+"
+"
+concat
 "
 )
 invalidCode
@@ -233,6 +242,9 @@ join
 '
 )
 "
+"
+join
+"
 )
 invalidCode
 (
@@ -243,6 +255,9 @@ slice
 (
 1
 )
+"
+"
+slice
 "
 )
 ]
