@@ -2009,7 +2009,7 @@ pwin
 outer
 -
 >
-GetTopOuter
+GetScriptableTop
 (
 )
 ;

@@ -497,7 +497,7 @@ nsPIDOMWindowOuter
 nsWindowRoot
 :
 :
-GetOwnerGlobalForBindings
+GetOwnerGlobalForBindingsInternal
 (
 )
 {
