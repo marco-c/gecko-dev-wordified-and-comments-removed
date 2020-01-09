@@ -113,6 +113,11 @@ data
 {
 if
 (
+!
+data
+|
+|
+(
 data
 .
 url
@@ -126,6 +131,7 @@ check
 data
 .
 url
+)
 )
 )
 {
