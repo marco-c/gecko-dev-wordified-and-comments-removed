@@ -2242,8 +2242,7 @@ MOZHARNESS_TEST_PATHS
 ]
 )
             
-changed_files
-|
+specified_files
 =
 itertools
 .
@@ -2256,6 +2255,13 @@ suite_to_paths
 values
 (
 )
+)
+            
+changed_files
+.
+update
+(
+specified_files
 )
             
 self
