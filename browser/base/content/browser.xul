@@ -12326,11 +12326,6 @@ shortcut
 -
 tooltip
 "
-anchor
-=
-"
-dropmarker
-"
 ondragenter
 =
 "
