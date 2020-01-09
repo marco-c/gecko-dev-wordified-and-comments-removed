@@ -3063,6 +3063,9 @@ node
 .
 *
 /
+[
+can_run_script
+]
 void
 joinNodes
 (

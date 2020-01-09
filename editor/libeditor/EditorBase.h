@@ -3036,6 +3036,7 @@ ErrorResult
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 JoinNodesWithTransaction
 (
@@ -3442,6 +3443,7 @@ SplitAtEdges
 aSplitAtEdges
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 EditorDOMPoint
 JoinNodesDeepWithTransaction
 (
