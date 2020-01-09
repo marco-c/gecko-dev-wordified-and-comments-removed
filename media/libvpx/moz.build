@@ -904,12 +904,6 @@ OS_TARGET
 WINNT
 '
 :
-#
-Generic
-C
--
-only
-configuration
 EXPORTS
 .
 vpx
@@ -918,7 +912,7 @@ vpx
 files
 [
 '
-GENERIC_EXPORTS
+ARM64_EXPORTS
 '
 ]
 SOURCES
@@ -927,7 +921,7 @@ SOURCES
 files
 [
 '
-GENERIC_SOURCES
+ARM64_SOURCES
 '
 ]
 ASFLAGS

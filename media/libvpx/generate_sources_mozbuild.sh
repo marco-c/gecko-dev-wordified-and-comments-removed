@@ -1830,6 +1830,9 @@ vs12
 {
 all_platforms
 }
+{
+arm64_platforms
+}
 "
 gen_config_files
 linux
