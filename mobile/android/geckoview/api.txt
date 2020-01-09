@@ -10272,6 +10272,15 @@ public
 static
 final
 int
+CATEGORY_AD_EXT
+=
+64
+;
+field
+public
+static
+final
+int
 CATEGORY_ALL
 =
 31
