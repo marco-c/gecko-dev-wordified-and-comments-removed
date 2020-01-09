@@ -3,6 +3,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 from
 mozpack
 .
@@ -730,6 +731,7 @@ self
 .
 wrap
 (
+b
 '
 abc
 '
@@ -774,6 +776,7 @@ assertEqual
 deflater
 .
 compressed_data
+b
 '
 abc
 '
@@ -811,6 +814,7 @@ self
 .
 wrap
 (
+b
 '
 abc
 '
@@ -855,6 +859,7 @@ assertEqual
 deflater
 .
 compressed_data
+b
 '
 abc
 '
@@ -892,6 +897,7 @@ self
 .
 wrap
 (
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -964,6 +970,7 @@ self
 .
 wrap
 (
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1105,6 +1112,7 @@ add
 '
 foo
 '
+b
 '
 foo
 '
@@ -1121,6 +1129,7 @@ add
 '
 foo
 '
+b
 '
 bar
 '
@@ -1133,6 +1142,7 @@ add
 '
 bar
 '
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1147,6 +1157,7 @@ baz
 /
 qux
 '
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1163,6 +1174,7 @@ baz
 \
 backslash
 '
+b
 '
 aaaaaaaaaaaaaaa
 '
@@ -1222,6 +1234,7 @@ files
 read
 (
 )
+b
 '
 foo
 '
@@ -1266,6 +1279,7 @@ files
 read
 (
 )
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1312,6 +1326,7 @@ files
 read
 (
 )
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1416,6 +1431,7 @@ add
 '
 bar
 '
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1428,6 +1444,7 @@ add
 '
 foo
 '
+b
 '
 foo
 '
@@ -1442,6 +1459,7 @@ baz
 /
 qux
 '
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1506,6 +1524,7 @@ files
 read
 (
 )
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -1550,6 +1569,7 @@ files
 read
 (
 )
+b
 '
 foo
 '
@@ -1596,6 +1616,7 @@ files
 read
 (
 )
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2018,6 +2039,7 @@ add
 '
 foo
 '
+b
 '
 foo
 '
@@ -2030,6 +2052,7 @@ add
 '
 bar
 '
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2044,6 +2067,7 @@ baz
 /
 qux
 '
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2146,6 +2170,7 @@ files
 read
 (
 )
+b
 '
 foo
 '
@@ -2190,6 +2215,7 @@ files
 read
 (
 )
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2236,6 +2262,7 @@ files
 read
 (
 )
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2354,6 +2381,7 @@ files
 read
 (
 )
+b
 '
 test_data
 '
@@ -2398,6 +2426,7 @@ add
 '
 foo
 '
+b
 '
 foo
 '
@@ -2410,6 +2439,7 @@ add
 '
 bar
 '
+b
 '
 abcdefghijklmnopqrstuvwxyz
 '
@@ -2424,6 +2454,7 @@ baz
 /
 qux
 '
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2466,6 +2497,7 @@ add
 '
 foo
 '
+b
 '
 foo
 '
@@ -2478,6 +2510,7 @@ add
 '
 bar
 '
+b
 '
 abcdefghijklmnopqrstuvwxyz
 '
@@ -2492,6 +2525,7 @@ baz
 /
 qux
 '
+b
 '
 aaaaaaaaaaaaanopqrstuvwxyz
 '
@@ -2507,6 +2541,7 @@ baz
 /
 qux
 '
+b
 '
 bar
 '
@@ -2529,6 +2564,7 @@ assertEqual
 jar
 .
 last_preloaded
+b
 '
 bar
 '
