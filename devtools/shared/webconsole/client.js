@@ -95,6 +95,14 @@ traits
 ;
 this
 .
+hasNativeConsoleAPI
+=
+response
+.
+nativeConsoleAPI
+;
+this
+.
 events
 =
 [
