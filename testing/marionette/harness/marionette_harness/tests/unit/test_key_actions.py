@@ -17,6 +17,12 @@ keys
 import
 Keys
 from
+marionette_driver
+.
+marionette
+import
+Actions
+from
 marionette_harness
 import
 MarionetteTestCase
@@ -77,26 +83,6 @@ self
 .
 setUp
 (
-)
-        
-self
-.
-key_chain
-=
-self
-.
-marionette
-.
-actions
-.
-sequence
-(
-"
-key
-"
-"
-keyboard_id
-"
 )
         
 if
@@ -185,32 +171,16 @@ reporter_element
 click
 (
 )
-    
-def
-tearDown
-(
-self
-)
-:
         
+self
+.
+key_action
+=
+Actions
+(
 self
 .
 marionette
-.
-actions
-.
-release
-(
-)
-        
-super
-(
-TestKeyActions
-self
-)
-.
-tearDown
-(
 )
     
 property
@@ -235,7 +205,7 @@ value
 )
     
 def
-test_basic_input
+test_key_action_basic_input
 (
 self
 )
@@ -243,7 +213,7 @@ self
         
 self
 .
-key_chain
+key_action
 .
 key_down
 (
@@ -289,9 +259,10 @@ self
 )
 :
         
+(
 self
 .
-key_chain
+key_action
 .
 key_down
 (
@@ -299,8 +270,7 @@ Keys
 .
 SHIFT
 )
-\
-                      
+                        
 .
 key_down
 (
@@ -308,8 +278,7 @@ key_down
 a
 "
 )
-\
-                      
+                        
 .
 key_up
 (
@@ -317,8 +286,7 @@ Keys
 .
 SHIFT
 )
-\
-                      
+                        
 .
 key_down
 (
@@ -326,8 +294,7 @@ key_down
 b
 "
 )
-\
-                      
+                        
 .
 key_down
 (
@@ -335,11 +302,11 @@ key_down
 c
 "
 )
-\
-                      
+                        
 .
 perform
 (
+)
 )
         
 self
@@ -363,7 +330,7 @@ self
         
 self
 .
-key_chain
+key_action
 .
 key_down
 (
@@ -402,9 +369,10 @@ abc
 "
 )
         
+(
 self
 .
-key_chain
+key_action
 .
 key_down
 (
@@ -412,8 +380,7 @@ self
 .
 mod_key
 )
-\
-                      
+                        
 .
 key_down
 (
@@ -421,8 +388,7 @@ key_down
 a
 "
 )
-\
-                      
+                        
 .
 key_up
 (
@@ -430,8 +396,7 @@ self
 .
 mod_key
 )
-\
-                      
+                        
 .
 key_down
 (
@@ -439,11 +404,11 @@ key_down
 x
 "
 )
-\
-                      
+                        
 .
 perform
 (
+)
 )
         
 self
@@ -467,7 +432,7 @@ self
         
 self
 .
-key_chain
+key_action
 .
 key_down
 (
@@ -506,9 +471,10 @@ abc
 "
 )
         
+(
 self
 .
-key_chain
+key_action
 .
 key_down
 (
@@ -516,8 +482,7 @@ self
 .
 mod_key
 )
-\
-                      
+                        
 .
 key_down
 (
@@ -525,8 +490,7 @@ key_down
 a
 "
 )
-\
-                      
+                        
 .
 key_down
 (
@@ -534,11 +498,11 @@ key_down
 x
 "
 )
-\
-                      
+                        
 .
 perform
 (
+)
 )
         
 self
@@ -551,17 +515,10 @@ key_reporter_value
 "
 "
 )
-    
-def
-test_input_with_wait
-(
-self
-)
-:
         
 self
 .
-key_chain
+key_action
 .
 key_down
 (
@@ -590,16 +547,26 @@ perform
         
 self
 .
-key_chain
-.
-key_down
+assertEqual
 (
 self
 .
-mod_key
+key_reporter_value
+"
+abc
+"
 )
-\
-                      
+    
+def
+test_input_with_wait
+(
+self
+)
+:
+        
+self
+.
+key_action
 .
 key_down
 (
@@ -607,15 +574,52 @@ key_down
 a
 "
 )
-\
-                      
 .
-pause
+key_down
 (
-250
+"
+b
+"
 )
-\
-                      
+.
+key_down
+(
+"
+c
+"
+)
+.
+perform
+(
+)
+        
+(
+self
+.
+key_action
+.
+key_down
+(
+self
+.
+mod_key
+)
+                        
+.
+key_down
+(
+"
+a
+"
+)
+                        
+.
+wait
+(
+.
+5
+)
+                        
 .
 key_down
 (
@@ -623,11 +627,11 @@ key_down
 x
 "
 )
-\
-                      
+                        
 .
 perform
 (
+)
 )
         
 self

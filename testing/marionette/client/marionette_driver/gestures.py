@@ -4,7 +4,7 @@ import
 absolute_import
 from
 .
-legacy_actions
+marionette
 import
 MultiActions
 Actions
