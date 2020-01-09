@@ -370,14 +370,6 @@ AsyncOpenFailed
 (
 )
 ;
-void
-DispatchToTargetThread
-(
-ChannelEvent
-*
-aChannelEvent
-)
-;
 bool
 IsOnTargetThread
 (
