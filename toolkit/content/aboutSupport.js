@@ -2877,6 +2877,11 @@ val
 )
 ;
 }
+delete
+data
+.
+failures
+;
 }
 else
 {
