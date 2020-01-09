@@ -578,14 +578,6 @@ GetNonCCWObjectRealm
 obj
 )
 ;
-xpc
-:
-:
-NukeJSStackFrames
-(
-realm
-)
-;
 nsCOMPtr
 <
 nsIPrincipal
