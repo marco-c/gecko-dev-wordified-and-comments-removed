@@ -213,13 +213,5 @@ NS_NewPreContentIterator
 (
 )
 ;
-already_AddRefed
-<
-nsIContentIterator
->
-NS_NewContentSubtreeIterator
-(
-)
-;
 #
 endif
