@@ -11936,6 +11936,13 @@ Ion
 script
 compilation
 "
+JS
+:
+:
+ProfilingCategoryPair
+:
+:
+JS_IonCompilation
 )
 ;
 if

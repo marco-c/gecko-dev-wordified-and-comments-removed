@@ -1242,6 +1242,13 @@ Baseline
 script
 compilation
 "
+JS
+:
+:
+ProfilingCategoryPair
+:
+:
+JS_BaselineCompilation
 )
 ;
 script
