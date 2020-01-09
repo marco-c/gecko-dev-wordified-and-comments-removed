@@ -85,11 +85,7 @@ remote
 -
 debugging
 /
-remote
--
-client
--
-manager
+constants
 "
 )
 ;
