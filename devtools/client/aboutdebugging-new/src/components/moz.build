@@ -93,11 +93,6 @@ ConnectionPromptSetting
 js
 '
 '
-ExtensionDebugSetting
-.
-js
-'
-'
 ProfilerDialog
 .
 css
