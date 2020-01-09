@@ -254,6 +254,15 @@ update
 &
 &
 \
+apt
+-
+get
+dist
+-
+upgrade
+&
+&
+\
 echo
 path
 -

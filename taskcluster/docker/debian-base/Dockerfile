@@ -221,6 +221,15 @@ update
 apt
 -
 get
+dist
+-
+upgrade
+&
+&
+\
+apt
+-
+get
 install
 \
 git
