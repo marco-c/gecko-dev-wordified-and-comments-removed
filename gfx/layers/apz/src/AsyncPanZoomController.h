@@ -2043,12 +2043,12 @@ friend
 class
 AutoApplyAsyncTestAttributes
 ;
-bool
+void
 ApplyAsyncTestAttributes
 (
 )
 ;
-bool
+void
 UnapplyAsyncTestAttributes
 (
 const

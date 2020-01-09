@@ -17458,7 +17458,7 @@ return
 false
 ;
 }
-bool
+void
 AsyncPanZoomController
 :
 :
@@ -17491,7 +17491,6 @@ LayerToParentLayerScale
 )
 {
 return
-false
 ;
 }
 Metrics
@@ -17514,11 +17513,8 @@ SampleCompositedAsyncTransform
 (
 )
 ;
-return
-true
-;
 }
-bool
+void
 AsyncPanZoomController
 :
 :
@@ -17555,7 +17551,6 @@ LayerToParentLayerScale
 )
 {
 return
-false
 ;
 }
 Metrics
@@ -17567,9 +17562,6 @@ aPrevFrameMetrics
 SampleCompositedAsyncTransform
 (
 )
-;
-return
-true
 ;
 }
 Matrix4x4
