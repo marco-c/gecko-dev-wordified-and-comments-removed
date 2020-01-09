@@ -4079,6 +4079,8 @@ add_argument
 '
 -
 -
+gecko
+-
 sparse
 -
 profile
@@ -5422,7 +5424,7 @@ sparse_profile
 =
 args
 .
-sparse_profile
+gecko_sparse_profile
 )
 elif
 not
