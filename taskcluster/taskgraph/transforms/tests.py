@@ -8522,6 +8522,30 @@ ux
 '
 ]
                 
+elif
+test_platform
+.
+startswith
+(
+'
+windows10
+-
+aarch64
+'
+)
+:
+                    
+win_worker_type_platform
+=
+WINDOWS_WORKER_TYPES
+[
+'
+windows10
+-
+aarch64
+'
+]
+                
 else
 :
                     
