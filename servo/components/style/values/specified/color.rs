@@ -96,9 +96,14 @@ generics
 color
 :
 :
+{
 Color
 as
 GenericColor
+ColorOrAuto
+as
+GenericColorOrAuto
+}
 ;
 use
 crate
@@ -3016,3 +3021,12 @@ ColorPropertyValue
 )
 }
 }
+pub
+type
+ColorOrAuto
+=
+GenericColorOrAuto
+<
+Color
+>
+;

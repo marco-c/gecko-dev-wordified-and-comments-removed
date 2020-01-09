@@ -40,9 +40,14 @@ generics
 color
 :
 :
+{
 Color
 as
 GenericColor
+ColorOrAuto
+as
+GenericColorOrAuto
+}
 ;
 use
 cssparser
@@ -552,3 +557,12 @@ alpha
 )
 }
 }
+pub
+type
+ColorOrAuto
+=
+GenericColorOrAuto
+<
+Color
+>
+;

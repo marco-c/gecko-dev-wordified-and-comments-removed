@@ -22,6 +22,7 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
+Parse
 PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
