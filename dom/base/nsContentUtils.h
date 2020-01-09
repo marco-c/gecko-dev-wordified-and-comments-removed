@@ -6201,7 +6201,7 @@ aChannel
 ;
 static
 StorageAccess
-StorageAllowedForPrincipal
+StorageAllowedForServiceWorker
 (
 nsIPrincipal
 *
@@ -7236,7 +7236,7 @@ aLifetimePolicy
 ;
 static
 StorageAccess
-InternalStorageAllowedForPrincipal
+InternalStorageAllowedCheck
 (
 nsIPrincipal
 *

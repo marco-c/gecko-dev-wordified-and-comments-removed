@@ -40917,7 +40917,7 @@ GetChannel
 )
 ;
 return
-InternalStorageAllowedForPrincipal
+InternalStorageAllowedCheck
 (
 principal
 aWindow
@@ -40998,7 +40998,7 @@ rejectedReason
 0
 ;
 return
-InternalStorageAllowedForPrincipal
+InternalStorageAllowedCheck
 (
 principal
 inner
@@ -41051,7 +41051,7 @@ rejectedReason
 0
 ;
 return
-InternalStorageAllowedForPrincipal
+InternalStorageAllowedCheck
 (
 aPrincipal
 aParent
@@ -41129,7 +41129,7 @@ nsContentUtils
 StorageAccess
 result
 =
-InternalStorageAllowedForPrincipal
+InternalStorageAllowedCheck
 (
 principal
 nullptr
@@ -41149,7 +41149,7 @@ StorageAccess
 nsContentUtils
 :
 :
-StorageAllowedForPrincipal
+StorageAllowedForServiceWorker
 (
 nsIPrincipal
 *
@@ -41162,7 +41162,7 @@ rejectedReason
 0
 ;
 return
-InternalStorageAllowedForPrincipal
+InternalStorageAllowedCheck
 (
 aPrincipal
 nullptr
@@ -41940,7 +41940,7 @@ StorageAccess
 nsContentUtils
 :
 :
-InternalStorageAllowedForPrincipal
+InternalStorageAllowedCheck
 (
 nsIPrincipal
 *
