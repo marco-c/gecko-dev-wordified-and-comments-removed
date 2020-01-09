@@ -93,6 +93,7 @@ waitForPaused
 dbg
 )
 ;
+await
 assertEditorBreakpoint
 (
 dbg

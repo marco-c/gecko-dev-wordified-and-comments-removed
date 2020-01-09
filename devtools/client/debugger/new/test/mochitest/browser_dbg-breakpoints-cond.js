@@ -687,6 +687,7 @@ condition
 "
 )
 ;
+await
 assertEditorBreakpoint
 (
 dbg
@@ -764,6 +765,7 @@ condition
 "
 )
 ;
+await
 assertEditorBreakpoint
 (
 dbg
@@ -815,6 +817,7 @@ removed
 "
 )
 ;
+await
 assertEditorBreakpoint
 (
 dbg
@@ -902,6 +905,7 @@ condition
 "
 )
 ;
+await
 assertEditorBreakpoint
 (
 dbg
@@ -1010,6 +1014,7 @@ simple2
 5
 )
 ;
+await
 assertEditorBreakpoint
 (
 dbg

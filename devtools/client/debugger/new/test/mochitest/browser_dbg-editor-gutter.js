@@ -75,12 +75,6 @@ js
 ;
 const
 {
-selectors
-:
-{
-getBreakpoint
-getBreakpointCount
-}
 getState
 }
 =
@@ -125,6 +119,10 @@ ADD_BREAKPOINT
 ;
 is
 (
+dbg
+.
+selectors
+.
 getBreakpointCount
 (
 getState
@@ -139,6 +137,7 @@ exists
 "
 )
 ;
+await
 assertEditorBreakpoint
 (
 dbg
@@ -163,6 +162,10 @@ REMOVE_BREAKPOINT
 ;
 is
 (
+dbg
+.
+selectors
+.
 getBreakpointCount
 (
 getState
@@ -177,6 +180,7 @@ exist
 "
 )
 ;
+await
 assertEditorBreakpoint
 (
 dbg
