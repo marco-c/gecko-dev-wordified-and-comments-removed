@@ -113,11 +113,7 @@ sourceQueue
 .
 initialize
 (
-{
 actions
-supportsWasm
-createSource
-}
 )
 ;
 if
@@ -385,7 +381,13 @@ sourceQueue
 .
 queue
 (
+createSource
+(
 source
+{
+supportsWasm
+}
+)
 )
 ;
 }
