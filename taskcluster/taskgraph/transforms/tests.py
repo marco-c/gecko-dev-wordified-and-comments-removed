@@ -705,11 +705,17 @@ virtual
 '
 :
 '
-test
--
-provisioner
-/
 bitbar
+/
+gecko
+-
+t
+-
+win64
+-
+aarch64
+-
+laptop
 '
       
 '
@@ -721,11 +727,17 @@ gpu
 '
 :
 '
-test
--
-provisioner
-/
 bitbar
+/
+gecko
+-
+t
+-
+win64
+-
+aarch64
+-
+laptop
 '
       
 '
@@ -733,11 +745,17 @@ hardware
 '
 :
 '
-test
--
-provisioner
-/
 bitbar
+/
+gecko
+-
+t
+-
+win64
+-
+aarch64
+-
+laptop
 '
     
 }
