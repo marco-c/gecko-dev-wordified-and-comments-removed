@@ -40401,7 +40401,7 @@ MOZ_ASSERT
 mStorageConnection
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mUpdateRefcountFunction
 )
@@ -42789,9 +42789,6 @@ AssertIsOnConnectionThread
 (
 )
 ;
-#
-ifndef
-NIGHTLY_BUILD
 if
 (
 !
@@ -42821,8 +42818,6 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 !
