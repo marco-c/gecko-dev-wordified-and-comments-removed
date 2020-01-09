@@ -1856,6 +1856,7 @@ HTMLTrackElement
 (
 this
 )
+this
 uri
 secFlags
 ]
@@ -1865,9 +1866,6 @@ secFlags
 if
 (
 !
-self
--
->
 mListener
 )
 {
@@ -1886,9 +1884,6 @@ nsILoadGroup
 >
 loadGroup
 =
-self
--
->
 OwnerDoc
 (
 )
@@ -1914,7 +1909,7 @@ Element
 *
 >
 (
-self
+this
 )
 secFlags
 nsIContentPolicy
@@ -1938,9 +1933,6 @@ channel
 >
 SetNotificationCallbacks
 (
-self
--
->
 mListener
 )
 ;
@@ -1966,9 +1958,6 @@ channel
 >
 AsyncOpen
 (
-self
--
->
 mListener
 )
 ;
@@ -1980,9 +1969,6 @@ rv
 )
 )
 {
-self
--
->
 SetReadyState
 (
 TextTrackReadyState
@@ -1994,9 +1980,6 @@ FailedToLoad
 return
 ;
 }
-self
--
->
 mChannel
 =
 channel
