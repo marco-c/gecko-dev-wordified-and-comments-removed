@@ -1250,8 +1250,6 @@ webExtension
 )
 {
 final
-GeckoSession
-.
 CallbackResult
 <
 Void
@@ -1259,8 +1257,6 @@ Void
 result
 =
 new
-GeckoSession
-.
 CallbackResult
 <
 Void

@@ -119,8 +119,6 @@ clear
 )
 ;
 final
-GeckoSession
-.
 CallbackResult
 <
 JSONObject
@@ -128,8 +126,6 @@ JSONObject
 result
 =
 new
-GeckoSession
-.
 CallbackResult
 <
 JSONObject
