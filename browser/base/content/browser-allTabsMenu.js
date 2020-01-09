@@ -841,7 +841,7 @@ searchTabs
 {
 gURLBar
 .
-typeRestrictToken
+search
 (
 UrlbarTokenizer
 .

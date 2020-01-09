@@ -20647,7 +20647,7 @@ inputField
 {
 gURLBar
 .
-typeRestrictToken
+search
 (
 UrlbarTokenizer
 .
