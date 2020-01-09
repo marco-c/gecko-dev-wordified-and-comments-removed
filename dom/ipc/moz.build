@@ -434,16 +434,6 @@ MMPrinter
 cpp
 '
 '
-nsIContentChild
-.
-cpp
-'
-'
-nsIContentParent
-.
-cpp
-'
-'
 PermissionMessageUtils
 .
 cpp
