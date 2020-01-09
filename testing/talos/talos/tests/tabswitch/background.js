@@ -15,7 +15,7 @@ js
 ;
 browser
 .
-tps
+tabswitch
 .
 setup
 (

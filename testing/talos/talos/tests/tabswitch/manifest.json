@@ -33,10 +33,7 @@ name
 "
 :
 "
-TPS
-(
-tabswitch
-)
+Tabswitch
 Talos
 Test
 "
@@ -78,7 +75,7 @@ experiment_apis
 :
 {
 "
-tps
+tabswitch
 "
 :
 {
@@ -121,7 +118,7 @@ paths
 [
 [
 "
-tps
+tabswitch
 "
 ]
 ]

@@ -5,7 +5,7 @@ namespace
 "
 :
 "
-tps
+tabswitch
 "
 "
 description
@@ -16,7 +16,7 @@ Special
 powers
 for
 the
-TPS
+tabswitch
 Talos
 test
 "
@@ -47,7 +47,7 @@ description
 "
 Prepares
 the
-TPS
+tabswitch
 test
 to
 be

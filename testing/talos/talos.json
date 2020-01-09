@@ -196,7 +196,7 @@ zip
 "
 }
 "
-tps
+tabswitch
 -
 e10s
 "
@@ -208,7 +208,7 @@ tests
 :
 [
 "
-tps
+tabswitch
 "
 ]
 "

@@ -1927,7 +1927,7 @@ register_test
 (
 )
 class
-tps
+tabswitch
 (
 PageloaderTest
 )
@@ -1985,7 +1985,7 @@ tests
 /
 tabswitch
 /
-tps
+tabswitch
 .
 manifest
 '

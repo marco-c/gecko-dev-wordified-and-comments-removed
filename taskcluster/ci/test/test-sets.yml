@@ -394,7 +394,7 @@ threads
 -
 talos
 -
-tps
+tabswitch
 #
 -
 talos
@@ -1452,7 +1452,7 @@ xperf
 -
 talos
 -
-tps
+tabswitch
 #
 -
 talos
@@ -1700,7 +1700,7 @@ threads
 -
 talos
 -
-tps
+tabswitch
 #
 Bug
 1453007
