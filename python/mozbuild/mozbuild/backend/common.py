@@ -1417,11 +1417,21 @@ if
 isinstance
 (
 lib
+(
+HostLibrary
 StaticLibrary
+)
 )
 :
                 
 if
+not
+isinstance
+(
+lib
+HostLibrary
+)
+and
 lib
 .
 no_expand_lib
@@ -1535,7 +1545,10 @@ not
 isinstance
 (
 input_bin
+(
+HostLibrary
 StaticLibrary
+)
 )
         
 for
@@ -1560,7 +1573,10 @@ elif
 isinstance
 (
 lib
+(
+HostLibrary
 StaticLibrary
+)
 )
 :
                 
@@ -1648,6 +1664,7 @@ def
 _make_list_file
 (
 self
+kind
 objdir
 objs
 name
@@ -1662,6 +1679,15 @@ objs
 return
 None
         
+if
+kind
+=
+=
+'
+target
+'
+:
+            
 list_style
 =
 self
@@ -1676,6 +1702,15 @@ get
 EXPAND_LIBS_LIST_STYLE
 '
 )
+        
+else
+:
+            
+list_style
+=
+'
+list
+'
         
 list_file_path
 =
