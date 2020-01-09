@@ -501,9 +501,9 @@ const
 type
 )
 ;
-PTrackingDummyChannelChild
+PClassifierDummyChannelChild
 *
-AllocPTrackingDummyChannelChild
+AllocPClassifierDummyChannelChild
 (
 nsIURI
 *
@@ -525,9 +525,9 @@ aLoadInfo
 )
 ;
 bool
-DeallocPTrackingDummyChannelChild
+DeallocPClassifierDummyChannelChild
 (
-PTrackingDummyChannelChild
+PClassifierDummyChannelChild
 *
 aChannel
 )

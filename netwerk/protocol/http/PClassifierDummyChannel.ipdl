@@ -438,7 +438,7 @@ in
 particular
 .
 protocol
-PTrackingDummyChannel
+PClassifierDummyChannel
 {
 manager
 PNecko

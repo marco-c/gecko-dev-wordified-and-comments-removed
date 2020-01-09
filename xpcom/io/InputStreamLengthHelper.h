@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_InputStreamLengthHelper_h
+#
+define
+mozilla_InputStreamLengthHelper_h
+#
 include
 "
 nsISupportsImpl
@@ -129,3 +135,5 @@ mCallback
 }
 ;
 }
+#
+endif

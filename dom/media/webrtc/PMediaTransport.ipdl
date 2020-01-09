@@ -87,6 +87,17 @@ include
 "
 mozilla
 /
+net
+/
+NrIceStunAddrMessageUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
 media
 /
 webrtc

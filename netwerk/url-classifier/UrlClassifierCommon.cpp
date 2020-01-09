@@ -12,6 +12,13 @@ h
 #
 include
 "
+ClassifierDummyChannel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AntiTrackingCommon
@@ -150,13 +157,6 @@ h
 include
 "
 nsQueryObject
-.
-h
-"
-#
-include
-"
-TrackingDummyChannel
 .
 h
 "
@@ -1552,7 +1552,7 @@ aIsThirdParty
 }
 RefPtr
 <
-TrackingDummyChannel
+ClassifierDummyChannel
 >
 dummyChannel
 =

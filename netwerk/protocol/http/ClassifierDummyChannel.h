@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_net_TrackingDummyChannel_h
+mozilla_net_ClassifierDummyChannel_h
 #
 define
-mozilla_net_TrackingDummyChannel_h
+mozilla_net_ClassifierDummyChannel_h
 #
 include
 "
@@ -18,7 +18,7 @@ functional
 >
 #
 define
-TRACKING_DUMMY_CHANNEL_IID
+CLASSIFIER_DUMMY_CHANNEL_IID
 \
 {
 \
@@ -49,7 +49,7 @@ namespace
 net
 {
 class
-TrackingDummyChannel
+ClassifierDummyChannel
 final
 :
 public
@@ -61,7 +61,7 @@ public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
-TRACKING_DUMMY_CHANNEL_IID
+CLASSIFIER_DUMMY_CHANNEL_IID
 )
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIREQUEST
@@ -97,7 +97,7 @@ bool
 aCallback
 )
 ;
-TrackingDummyChannel
+ClassifierDummyChannel
 (
 nsIURI
 *
@@ -127,7 +127,7 @@ uint32_t
 private
 :
 ~
-TrackingDummyChannel
+ClassifierDummyChannel
 (
 )
 ;
@@ -159,8 +159,8 @@ mClassificationFlags
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-TrackingDummyChannel
-TRACKING_DUMMY_CHANNEL_IID
+ClassifierDummyChannel
+CLASSIFIER_DUMMY_CHANNEL_IID
 )
 }
 }

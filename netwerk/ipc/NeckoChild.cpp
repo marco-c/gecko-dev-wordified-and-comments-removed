@@ -192,7 +192,7 @@ mozilla
 /
 net
 /
-TrackingDummyChannelChild
+ClassifierDummyChannelChild
 .
 h
 "
@@ -2129,12 +2129,12 @@ IPC_OK
 )
 ;
 }
-PTrackingDummyChannelChild
+PClassifierDummyChannelChild
 *
 NeckoChild
 :
 :
-AllocPTrackingDummyChannelChild
+AllocPClassifierDummyChannelChild
 (
 nsIURI
 *
@@ -2157,7 +2157,7 @@ aLoadInfo
 {
 return
 new
-TrackingDummyChannelChild
+ClassifierDummyChannelChild
 (
 )
 ;
@@ -2166,9 +2166,9 @@ bool
 NeckoChild
 :
 :
-DeallocPTrackingDummyChannelChild
+DeallocPClassifierDummyChannelChild
 (
-PTrackingDummyChannelChild
+PClassifierDummyChannelChild
 *
 aActor
 )
@@ -2176,7 +2176,7 @@ aActor
 delete
 static_cast
 <
-TrackingDummyChannelChild
+ClassifierDummyChannelChild
 *
 >
 (

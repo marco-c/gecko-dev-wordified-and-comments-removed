@@ -1116,9 +1116,9 @@ GetExtensionFDResolver
 aResolve
 )
 ;
-PTrackingDummyChannelParent
+PClassifierDummyChannelParent
 *
-AllocPTrackingDummyChannelParent
+AllocPClassifierDummyChannelParent
 (
 nsIURI
 *
@@ -1140,9 +1140,9 @@ aLoadInfo
 )
 ;
 bool
-DeallocPTrackingDummyChannelParent
+DeallocPClassifierDummyChannelParent
 (
-PTrackingDummyChannelParent
+PClassifierDummyChannelParent
 *
 aChild
 )
@@ -1155,9 +1155,9 @@ ipc
 :
 :
 IPCResult
-RecvPTrackingDummyChannelConstructor
+RecvPClassifierDummyChannelConstructor
 (
-PTrackingDummyChannelParent
+PClassifierDummyChannelParent
 *
 aActor
 nsIURI

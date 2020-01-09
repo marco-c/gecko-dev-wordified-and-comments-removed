@@ -210,7 +210,7 @@ PFileChannel
 ;
 include
 protocol
-PTrackingDummyChannel
+PClassifierDummyChannel
 ;
 include
 protocol
@@ -453,7 +453,7 @@ manages
 PStunAddrsRequest
 ;
 manages
-PTrackingDummyChannel
+PClassifierDummyChannel
 ;
 manages
 PWebrtcProxyChannel
@@ -689,7 +689,7 @@ channel
 )
 ;
 async
-PTrackingDummyChannel
+PClassifierDummyChannel
 (
 nsIURI
 uri
