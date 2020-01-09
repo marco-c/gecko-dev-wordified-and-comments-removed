@@ -39,13 +39,13 @@ well
 .
 CBINDGEN_REVISION
 =
-5ec5a82d268c8fe907767394ee7ad15718f3f09d
+23a991a5b21e89aa1dcdc70f1371be20c93ece8e
 #
 v0
 .
 8
 .
-6
+7
 TARGET
 =
 "
