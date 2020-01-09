@@ -141,6 +141,11 @@ ron
 "
 serde
 "
+"
+smallvec
+/
+serde
+"
 ]
 replay
 =
