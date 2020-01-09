@@ -1333,6 +1333,7 @@ nsDisplayListBuilder
 aDisplayListBuilder
 )
 {
+const
 nsRect
 buttonRect
 =
@@ -2254,6 +2255,14 @@ mFrame
 >
 GetRectRelativeToSelf
 (
+)
++
+aBuilder
+-
+>
+ToReferenceFrame
+(
+mFrame
 )
 ;
 nsDisplayBackgroundImage

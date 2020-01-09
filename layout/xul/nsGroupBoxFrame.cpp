@@ -630,6 +630,14 @@ this
 GetBackgroundRectRelativeToSelf
 (
 )
++
+aBuilder
+-
+>
+ToReferenceFrame
+(
+this
+)
 aLists
 .
 BorderBackground
