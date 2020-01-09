@@ -681,18 +681,7 @@ mCNAME
 ;
 if
 (
-transceiver
--
->
-mSendTrack
-.
-GetTrackId
-(
-)
-.
-empty
-(
-)
+mEncodeTrackId
 )
 {
 std
@@ -1469,7 +1458,6 @@ mSendTrack
 AddToOffer
 (
 mSsrcGenerator
-mEncodeTrackId
 msection
 )
 ;
@@ -1480,7 +1468,6 @@ mRecvTrack
 AddToOffer
 (
 mSsrcGenerator
-mEncodeTrackId
 msection
 )
 ;
@@ -3113,7 +3100,6 @@ AddToAnswer
 (
 remoteMsection
 mSsrcGenerator
-mEncodeTrackId
 &
 msection
 )
@@ -3126,7 +3112,6 @@ AddToAnswer
 (
 remoteMsection
 mSsrcGenerator
-mEncodeTrackId
 &
 msection
 )
