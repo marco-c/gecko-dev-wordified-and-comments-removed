@@ -53,26 +53,6 @@ tag
 "
     
 "
-sfx
--
-stub
-"
-:
-"
-other
--
-licenses
-/
-7zstub
-/
-firefox
-/
-7zSD
-.
-sfx
-"
-    
-"
 wsx
 -
 stub

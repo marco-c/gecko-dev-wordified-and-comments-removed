@@ -474,13 +474,15 @@ stub
 '
 :
 config
-[
+.
+get
+(
 '
 sfx
 -
 stub
 '
-]
+)
             
 '
 installer
