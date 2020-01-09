@@ -1097,7 +1097,6 @@ active
 ;
 }
 }
-UiThread
 public
 Nullable
 GeckoSession
