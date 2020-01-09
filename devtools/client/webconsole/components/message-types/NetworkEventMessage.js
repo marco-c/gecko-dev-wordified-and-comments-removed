@@ -6,6 +6,7 @@ strict
 const
 {
 createFactory
+createElement
 }
 =
 require
@@ -126,13 +127,14 @@ messages
 "
 )
 ;
-const
+loader
+.
+lazyRequireGetter
+(
+this
+"
 TabboxPanel
-=
-createFactory
-(
-require
-(
+"
 "
 devtools
 /
@@ -146,7 +148,6 @@ components
 /
 TabboxPanel
 "
-)
 )
 ;
 const
@@ -707,8 +708,9 @@ devtools
 monospace
 "
 }
-TabboxPanel
+createElement
 (
+TabboxPanel
 {
 connector
 activeTabId
