@@ -221,7 +221,7 @@ const
 size_t
 kLowVirtualMemoryThreshold
 =
-256
+384
 *
 1024
 *
@@ -234,7 +234,7 @@ const
 size_t
 kLowCommitSpaceThreshold
 =
-256
+384
 *
 1024
 *
