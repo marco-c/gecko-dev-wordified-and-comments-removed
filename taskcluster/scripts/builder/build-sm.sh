@@ -37,7 +37,14 @@ export
 MOZ_UPLOAD_DIR
 =
 "
+(
+cd
+"
 UPLOAD_DIR
+"
+;
+pwd
+)
 "
 AUTOMATION
 =
