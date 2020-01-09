@@ -363,7 +363,7 @@ Ci
 .
 nsIAutoplay
 .
-PROMPT
+BLOCKED
 ]
 [
 "
@@ -378,18 +378,6 @@ user
 gestures
 -
 needed
-"
-true
-]
-[
-"
-media
-.
-autoplay
-.
-ask
--
-permission
 "
 true
 ]

@@ -60,7 +60,7 @@ Ci
 .
 nsIAutoplay
 .
-PROMPT
+BLOCKED
 ]
 [
 "

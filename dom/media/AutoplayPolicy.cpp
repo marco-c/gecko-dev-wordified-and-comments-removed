@@ -600,14 +600,14 @@ prefValue
 nsIAutoplay
 :
 :
-PROMPT
+BLOCKED
 )
 {
 return
 nsIAutoplay
 :
 :
-ALLOWED
+BLOCKED
 ;
 }
 return

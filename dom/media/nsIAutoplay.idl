@@ -150,11 +150,5 @@ BLOCKED
 =
 1
 ;
-const
-uint32_t
-PROMPT
-=
-2
-;
 }
 ;
