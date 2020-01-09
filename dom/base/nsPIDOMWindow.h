@@ -470,6 +470,13 @@ IsHandlingResizeEvent
 )
 const
 ;
+void
+SetActiveLoadingState
+(
+bool
+aIsActiveLoading
+)
+;
 bool
 AddAudioContext
 (

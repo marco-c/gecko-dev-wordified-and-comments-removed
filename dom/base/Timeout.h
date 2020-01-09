@@ -131,6 +131,14 @@ When
 const
 ;
 const
+TimeStamp
+&
+SubmitTime
+(
+)
+const
+;
+const
 TimeDuration
 &
 TimeRemaining
@@ -145,6 +153,9 @@ mWhen
 ;
 TimeDuration
 mTimeRemaining
+;
+TimeStamp
+mSubmitTime
 ;
 ~
 Timeout

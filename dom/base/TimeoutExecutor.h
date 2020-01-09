@@ -65,6 +65,9 @@ TimeoutManager
 *
 mOwner
 ;
+bool
+mIsIdleQueue
+;
 nsCOMPtr
 <
 nsITimer
@@ -73,6 +76,9 @@ mTimer
 ;
 TimeStamp
 mDeadline
+;
+uint32_t
+mMaxIdleDeferMS
 ;
 TimeDuration
 mAllowedEarlyFiringTime
@@ -158,12 +164,15 @@ MaybeExecute
 ;
 public
 :
-explicit
 TimeoutExecutor
 (
 TimeoutManager
 *
 aOwner
+bool
+aIsIdleQueue
+uint32_t
+aMaxIdleDeferMS
 )
 ;
 void
