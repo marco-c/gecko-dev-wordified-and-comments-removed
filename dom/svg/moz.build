@@ -962,11 +962,6 @@ SVGGeometryElement
 cpp
 '
 '
-SVGGeometryProperty
-.
-cpp
-'
-'
 SVGGradientElement
 .
 cpp

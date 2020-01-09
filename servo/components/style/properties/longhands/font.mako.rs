@@ -480,9 +480,7 @@ NonNegativeLength
 "
 allow_quirks
 =
-"
-Yes
-"
+True
 flags
 =
 "

@@ -387,9 +387,7 @@ indent
 "
 allow_quirks
 =
-"
-Yes
-"
+True
 servo_restyle_damage
 =
 "

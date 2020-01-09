@@ -68,9 +68,7 @@ allowed_in_page_rule
 True
 allow_quirks
 =
-"
-Yes
-"
+True
 )
 }
 {

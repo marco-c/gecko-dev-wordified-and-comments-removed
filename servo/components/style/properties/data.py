@@ -1418,9 +1418,7 @@ allowed_in_page_rule
 False
 allow_quirks
 =
-"
-No
-"
+False
                  
 ignored_when_colors_disabled
 =
