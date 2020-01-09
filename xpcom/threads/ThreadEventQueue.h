@@ -60,11 +60,6 @@ mozilla
 class
 EventQueue
 ;
-template
-<
-typename
-InnerQueueT
->
 class
 PrioritizedEventQueue
 ;
@@ -362,9 +357,6 @@ class
 ThreadEventQueue
 <
 PrioritizedEventQueue
-<
-EventQueue
->
 >
 ;
 }

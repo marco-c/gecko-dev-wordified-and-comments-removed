@@ -61,8 +61,6 @@ template
 <
 typename
 SynchronizedQueueT
-typename
-InnerQueueT
 >
 inline
 already_AddRefed
@@ -86,9 +84,6 @@ using
 MainThreadQueueT
 =
 PrioritizedEventQueue
-<
-InnerQueueT
->
 ;
 auto
 queue
