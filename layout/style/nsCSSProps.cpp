@@ -2043,11 +2043,11 @@ kWidthKTable
 =
 {
 {
-eCSSKeyword__moz_max_content
+eCSSKeyword_max_content
 NS_STYLE_WIDTH_MAX_CONTENT
 }
 {
-eCSSKeyword__moz_min_content
+eCSSKeyword_min_content
 NS_STYLE_WIDTH_MIN_CONTENT
 }
 {
@@ -2076,11 +2076,11 @@ kFlexBasisKTable
 =
 {
 {
-eCSSKeyword__moz_max_content
+eCSSKeyword_max_content
 NS_STYLE_WIDTH_MAX_CONTENT
 }
 {
-eCSSKeyword__moz_min_content
+eCSSKeyword_min_content
 NS_STYLE_WIDTH_MIN_CONTENT
 }
 {

@@ -1311,7 +1311,7 @@ mozilla
 StyleExtremumLength
 :
 :
-MozMaxContent
+MaxContent
 )
 #
 define
@@ -1327,7 +1327,7 @@ mozilla
 StyleExtremumLength
 :
 :
-MozMinContent
+MinContent
 )
 #
 define
