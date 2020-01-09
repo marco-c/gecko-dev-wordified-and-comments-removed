@@ -2351,6 +2351,7 @@ styleSet
 >
 ResolveStyleLazily
 (
+*
 aElement
 pseudoType
 rules
