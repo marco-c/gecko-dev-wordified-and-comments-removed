@@ -370,10 +370,6 @@ dom
 BrowsingContext
 *
 aBrowsingContext
-bool
-aDisableHistory
-=
-false
 )
 ;
 protected

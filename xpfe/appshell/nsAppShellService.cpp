@@ -1962,7 +1962,6 @@ OriginAttributes
 (
 )
 browsingContext
-true
 )
 ;
 if

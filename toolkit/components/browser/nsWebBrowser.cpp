@@ -477,8 +477,6 @@ dom
 BrowsingContext
 *
 aBrowsingContext
-bool
-aDisableHistory
 )
 {
 RefPtr
@@ -719,10 +717,6 @@ if
 XRE_IsParentProcess
 (
 )
-&
-&
-!
-aDisableHistory
 )
 {
 DebugOnly
