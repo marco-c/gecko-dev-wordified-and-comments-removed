@@ -23,8 +23,6 @@ profiler
 .
 GetFeatures
 (
-[
-]
 )
 ;
 Assert

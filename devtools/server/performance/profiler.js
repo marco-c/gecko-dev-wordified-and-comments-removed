@@ -559,8 +559,6 @@ profiler
 .
 GetFeatures
 (
-[
-]
 )
 }
 ;

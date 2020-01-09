@@ -156,8 +156,6 @@ profiler
 .
 GetAllFeatures
 (
-[
-]
 )
 ;
 ok
