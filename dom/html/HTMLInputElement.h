@@ -3659,6 +3659,15 @@ NS_EVENT_STATE_REQUIRED
 )
 ;
 }
+bool
+HasBeenTypePassword
+(
+)
+{
+return
+mHasBeenTypePassword
+;
+}
 protected
 :
 virtual
@@ -4853,6 +4862,11 @@ mSelectionCached
 ;
 bool
 mIsPreviewEnabled
+:
+1
+;
+bool
+mHasBeenTypePassword
 :
 1
 ;
