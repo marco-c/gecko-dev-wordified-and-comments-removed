@@ -297,6 +297,11 @@ MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
 (
 TilePaintFlags
 )
+void
+ShutdownTileCache
+(
+)
+;
 struct
 AcquiredBackBuffer
 {
