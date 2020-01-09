@@ -113,8 +113,6 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
 multi

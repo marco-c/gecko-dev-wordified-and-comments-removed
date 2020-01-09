@@ -266,15 +266,6 @@ link
 js
 '
 '
-multi
--
-e10s
--
-helper
-.
-js
-'
-'
 natural
 -
 sort

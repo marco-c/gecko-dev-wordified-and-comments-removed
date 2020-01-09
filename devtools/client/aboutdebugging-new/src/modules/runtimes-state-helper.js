@@ -213,3 +213,9 @@ runtimeDetails
 null
 ;
 }
+exports
+.
+getCurrentRuntimeDetails
+=
+getCurrentRuntimeDetails
+;

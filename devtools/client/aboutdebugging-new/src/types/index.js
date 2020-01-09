@@ -22,6 +22,7 @@ target
 const
 {
 runtime
+runtimeDetails
 }
 =
 require
@@ -46,6 +47,7 @@ assign
 {
 debugTarget
 runtime
+runtimeDetails
 }
 )
 ;

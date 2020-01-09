@@ -403,6 +403,15 @@ Loader
 jsm
 '
 '
+multi
+-
+e10s
+-
+helper
+.
+js
+'
+'
 Parser
 .
 jsm

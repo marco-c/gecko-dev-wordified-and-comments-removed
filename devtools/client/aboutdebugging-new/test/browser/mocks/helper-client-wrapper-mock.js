@@ -302,6 +302,14 @@ sharedWorkers
 ]
 }
 )
+getFront
+:
+(
+)
+=
+>
+{
+}
 onFront
 :
 (
