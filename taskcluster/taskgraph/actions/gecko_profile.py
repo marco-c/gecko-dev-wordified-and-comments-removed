@@ -650,6 +650,7 @@ task
             
 create_tasks
 (
+graph_config
 [
 label
 ]

@@ -254,11 +254,19 @@ attributes
         
 create_tasks
 (
+            
+graph_config
+            
 to_run
+            
 full_task_graph
+            
 label_to_taskid
+            
 parameters
+            
 decision_task_id
+        
 )
         
 logger

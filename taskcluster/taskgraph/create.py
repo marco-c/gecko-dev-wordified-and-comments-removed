@@ -63,6 +63,7 @@ False
 def
 create_tasks
 (
+graph_config
 taskgraph
 label_to_taskid
 params
@@ -115,7 +116,8 @@ slugid
 scheduler_id
 =
 '
-gecko
+{
+}
 -
 level
 -
@@ -125,6 +127,14 @@ level
 .
 format
 (
+graph_config
+[
+'
+trust
+-
+domain
+'
+]
 params
 [
 '
