@@ -210,15 +210,6 @@ Policy
 )
 HTTP_ATOM
 (
-Cross_Origin
-"
-Cross
--
-Origin
-"
-)
-HTTP_ATOM
-(
 Date
 "
 Date
