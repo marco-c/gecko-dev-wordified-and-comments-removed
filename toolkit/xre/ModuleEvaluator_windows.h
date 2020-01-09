@@ -106,6 +106,9 @@ KeyboardLayout
 JitPI
 =
 0x80
+WinSxSDirectory
+=
+0x100
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
@@ -330,6 +333,9 @@ mExeDirectory
 ;
 nsString
 mSysDirectory
+;
+nsString
+mWinSxSDirectory
 ;
 Vector
 <
