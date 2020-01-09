@@ -32349,7 +32349,7 @@ rv
 ;
 }
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 usage
 >
