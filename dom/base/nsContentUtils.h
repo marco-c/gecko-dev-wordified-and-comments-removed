@@ -7340,11 +7340,8 @@ aArg
 ;
 static
 void
-GetCookieLifetimePolicyFromCookieSettings
+GetCookieLifetimePolicyForPrincipal
 (
-nsICookieSettings
-*
-aCookieSettings
 nsIPrincipal
 *
 aPrincipal

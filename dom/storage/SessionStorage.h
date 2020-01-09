@@ -255,6 +255,14 @@ nsAString
 aNewValue
 )
 ;
+bool
+ShouldThrowWhenStorageAccessDenied
+(
+uint32_t
+aRejectedReason
+)
+override
+;
 RefPtr
 <
 SessionStorageCache
