@@ -145,11 +145,15 @@ UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
 (
+{
 window
+waitForFocus
+value
+:
 "
 dummy
 "
-waitForFocus
+}
 )
 ;
 let

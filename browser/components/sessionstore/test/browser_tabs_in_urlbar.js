@@ -415,9 +415,13 @@ UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
 (
+{
 window
-RESTRICT_TOKEN_OPENPAGE
 waitForFocus
+value
+:
+RESTRICT_TOKEN_OPENPAGE
+}
 )
 ;
 const

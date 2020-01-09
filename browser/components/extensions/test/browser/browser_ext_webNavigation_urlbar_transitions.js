@@ -74,7 +74,7 @@ xml
 function
 promiseAutocompleteResultPopup
 (
-inputText
+value
 )
 {
 return
@@ -82,9 +82,11 @@ UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
 (
+{
 window
-inputText
 waitForFocus
+value
+}
 )
 ;
 }
@@ -826,11 +828,8 @@ ready
 )
 ;
 await
-UrlbarTestUtils
-.
 promiseAutocompleteResultPopup
 (
-window
 "
 http
 :
@@ -845,7 +844,6 @@ q
 =
 typedClosed
 "
-waitForFocus
 )
 ;
 await
