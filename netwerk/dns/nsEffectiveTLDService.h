@@ -160,6 +160,9 @@ mHost
 nsCString
 mBaseDomain
 ;
+nsresult
+mResult
+;
 }
 ;
 struct
