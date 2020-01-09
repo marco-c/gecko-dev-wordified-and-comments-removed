@@ -575,6 +575,14 @@ ReleaseIOThreadObjects
 ;
 virtual
 void
+OnStorageInitFailed
+(
+)
+{
+}
+;
+virtual
+void
 AbortOperations
 (
 const
