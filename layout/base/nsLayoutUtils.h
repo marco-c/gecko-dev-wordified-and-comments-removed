@@ -1108,6 +1108,14 @@ aContent
 )
 ;
 static
+void
+NotifyPaintSkipTransaction
+(
+ViewID
+aScrollId
+)
+;
+static
 mozilla
 :
 :
