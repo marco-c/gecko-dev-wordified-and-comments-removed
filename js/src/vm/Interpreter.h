@@ -1921,6 +1921,17 @@ jsbytecode
 pc
 )
 ;
+JSObject
+*
+ImportMetaOperation
+(
+JSContext
+*
+cx
+HandleScript
+script
+)
+;
 bool
 ThrowMsgOperation
 (
