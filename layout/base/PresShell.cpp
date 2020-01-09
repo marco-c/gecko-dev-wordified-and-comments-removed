@@ -41640,13 +41640,10 @@ Paint
 "
 Reflow
 "
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 LAYOUT

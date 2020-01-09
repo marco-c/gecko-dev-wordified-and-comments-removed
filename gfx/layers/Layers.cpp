@@ -996,13 +996,10 @@ marker
 get
 (
 )
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 GRAPHICS

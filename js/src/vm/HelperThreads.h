@@ -1594,11 +1594,11 @@ const
 char
 *
 label
-ProfilingStackFrame
+JS
 :
 :
-Category
-category
+ProfilingCategoryPair
+categoryPair
 )
 ;
 ~

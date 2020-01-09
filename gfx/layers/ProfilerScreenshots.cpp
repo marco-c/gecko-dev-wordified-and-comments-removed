@@ -459,13 +459,10 @@ rv
 profiler_add_marker_for_thread
 (
 sourceThread
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 GRAPHICS

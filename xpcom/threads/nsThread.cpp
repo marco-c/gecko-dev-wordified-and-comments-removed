@@ -5023,13 +5023,10 @@ LongTask
 "
 LongIdleTask
 "
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 OTHER

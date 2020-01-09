@@ -654,13 +654,10 @@ nsJSUtils
 ExecutionContext
 "
 nullptr
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 JS

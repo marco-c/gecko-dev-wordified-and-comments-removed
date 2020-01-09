@@ -664,13 +664,10 @@ profiler_add_marker
 "
 LayerTranslation
 "
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 GRAPHICS

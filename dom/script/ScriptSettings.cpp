@@ -2895,13 +2895,10 @@ mAutoProfilerLabel
 "
 "
 aReason
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 JS

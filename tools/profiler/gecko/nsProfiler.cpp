@@ -769,13 +769,10 @@ aMarker
 profiler_add_marker
 (
 aMarker
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 OTHER

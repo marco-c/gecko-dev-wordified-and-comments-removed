@@ -174,13 +174,10 @@ profiler_add_marker
 "
 Styles
 "
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 LAYOUT

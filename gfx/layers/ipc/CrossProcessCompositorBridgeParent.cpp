@@ -2094,13 +2094,10 @@ profiler_add_marker_for_thread
 profiler_current_thread_id
 (
 )
-js
+JS
 :
 :
-ProfilingStackFrame
-:
-:
-Category
+ProfilingCategoryPair
 :
 :
 GRAPHICS

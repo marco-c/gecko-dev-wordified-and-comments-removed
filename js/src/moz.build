@@ -1137,6 +1137,16 @@ h
 /
 public
 /
+ProfilingCategory
+.
+h
+'
+'
+.
+.
+/
+public
+/
 ProfilingFrameIterator
 .
 h
