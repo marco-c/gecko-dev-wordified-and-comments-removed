@@ -2035,6 +2035,10 @@ s
 join
 (
 android_targets
+.
+keys
+(
+)
 )
             
 "
@@ -2059,6 +2063,10 @@ s
 join
 (
 android_targets
+.
+keys
+(
+)
 )
         
 ]
