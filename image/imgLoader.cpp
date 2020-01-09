@@ -3912,14 +3912,6 @@ requestingLocation
 if
 (
 aTriggeringPrincipal
-&
-&
-aTriggeringPrincipal
--
->
-GetIsCodebasePrincipal
-(
-)
 )
 {
 rv
