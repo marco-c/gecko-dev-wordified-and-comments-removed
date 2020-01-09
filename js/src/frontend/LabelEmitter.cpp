@@ -182,6 +182,10 @@ offset
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 lastNonJumpTargetOffset
 (
 )
