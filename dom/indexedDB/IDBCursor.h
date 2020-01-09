@@ -68,7 +68,7 @@ nsWrapperCache
 h
 "
 class
-nsPIDOMWindowInner
+nsIGlobalObject
 ;
 namespace
 mozilla
@@ -177,16 +177,6 @@ mSourceIndex
 IDBTransaction
 *
 mTransaction
-;
-JS
-:
-:
-Heap
-<
-JSObject
-*
->
-mScriptOwner
 ;
 JS
 :
@@ -399,7 +389,7 @@ else
 }
 #
 endif
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (

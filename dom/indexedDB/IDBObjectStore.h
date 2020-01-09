@@ -81,7 +81,7 @@ struct
 JSClass
 ;
 class
-nsPIDOMWindowInner
+nsIGlobalObject
 ;
 namespace
 mozilla
@@ -551,7 +551,7 @@ HasValidKeyPath
 )
 const
 ;
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
