@@ -121280,6 +121280,7 @@ bug_numbers
 [
 1308030
 1324868
+1532821
 ]
 "
 releaseChannelCollection
@@ -121295,7 +121296,7 @@ expires_in_version
 "
 :
 "
-60
+72
 "
 "
 kind
@@ -121387,6 +121388,7 @@ bug_numbers
 :
 [
 1308030
+1532821
 ]
 "
 releaseChannelCollection
@@ -121402,7 +121404,7 @@ expires_in_version
 "
 :
 "
-60
+72
 "
 "
 kind
