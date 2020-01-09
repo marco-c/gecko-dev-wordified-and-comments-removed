@@ -18548,15 +18548,6 @@ trapOffset
 {
 if
 (
-!
-amount
-)
-{
-return
-;
-}
-if
-(
 amount
 >
 MAX_UNCHECKED_LEAF_FRAME_SIZE
