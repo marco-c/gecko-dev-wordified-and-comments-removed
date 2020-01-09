@@ -2376,6 +2376,9 @@ DeviceIntSize
 break_advanced_blend_batches
 :
 bool
+render_task_id
+:
+RenderTaskId
 }
 impl
 AlphaBatchBuilder
@@ -2390,6 +2393,9 @@ DeviceIntSize
 break_advanced_blend_batches
 :
 bool
+render_task_id
+:
+RenderTaskId
 )
 -
 >
@@ -2428,6 +2434,7 @@ AlphaBatchBuilder
 batch_lists
 screen_size
 break_advanced_blend_batches
+render_task_id
 }
 }
 fn
@@ -2745,9 +2752,6 @@ batcher
 &
 mut
 AlphaBatchBuilder
-task_id
-:
-RenderTaskId
 ctx
 :
 &
@@ -2789,16 +2793,6 @@ mut
 ZBufferIdGenerator
 )
 {
-let
-task_address
-=
-render_tasks
-.
-get_task_address
-(
-task_id
-)
-;
 for
 prim_instance
 in
@@ -2818,8 +2812,6 @@ batcher
 ctx
 gpu_cache
 render_tasks
-task_id
-task_address
 deferred_resolves
 prim_headers
 transforms
@@ -2857,12 +2849,6 @@ render_tasks
 :
 &
 RenderTaskTree
-task_id
-:
-RenderTaskId
-task_address
-:
-RenderTaskAddress
 deferred_resolves
 :
 &
@@ -3034,6 +3020,18 @@ prim_info
 .
 snap_offsets
 ;
+let
+render_task_address
+=
+render_tasks
+.
+get_task_address
+(
+batcher
+.
+render_task_id
+)
+;
 if
 is_chased
 {
@@ -3114,7 +3112,6 @@ prim_info
 .
 combined_local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -3217,6 +3214,7 @@ all
 (
 )
 clip_task_address
+render_task_address
 brush_flags
 :
 BrushFlags
@@ -3459,7 +3457,6 @@ prim_info
 .
 combined_local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -3572,6 +3569,7 @@ bounding_rect
 transform_kind
 render_tasks
 z_id
+render_task_address
 prim_info
 .
 clip_task_index
@@ -3675,7 +3673,6 @@ prim_info
 .
 combined_local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -4126,13 +4123,17 @@ glyph
 index_in_text_run
 |
 (
-rasterization_space
+(
+render_task_address
+.
+0
 as
 i32
 )
 <
 <
 16
+)
 glyph
 .
 uv_rect_address
@@ -4140,6 +4141,15 @@ uv_rect_address
 as_int
 (
 )
+(
+rasterization_space
+as
+i32
+)
+<
+<
+16
+|
 (
 subpx_dir
 as
@@ -4149,7 +4159,7 @@ i32
 )
 <
 <
-16
+8
 |
 (
 color_mode
@@ -4414,7 +4424,6 @@ prim_info
 .
 combined_local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -4494,6 +4503,7 @@ all
 (
 )
 clip_task_address
+render_task_address
 brush_flags
 :
 BrushFlags
@@ -4595,7 +4605,6 @@ prim_info
 .
 combined_local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -4833,15 +4842,12 @@ prim_info
 .
 combined_local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 GpuCacheAddress
 :
 :
-invalid
-(
-)
+INVALID
 transform_id
 :
 transforms
@@ -4993,6 +4999,7 @@ prim_header_index
 child
 .
 gpu_address
+render_task_address
 z_id
 )
 ;
@@ -5169,7 +5176,6 @@ add_pic_to_batch
 (
 picture
 batcher
-task_id
 ctx
 gpu_cache
 render_tasks
@@ -5293,7 +5299,6 @@ local_rect
 tile_rect
 local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -5410,6 +5415,7 @@ BrushInstance
 {
 prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 INVALID_SEGMENT_INDEX
@@ -5486,7 +5492,9 @@ _
 =
 render_tasks
 [
-task_id
+batcher
+.
+render_task_id
 ]
 .
 get_target_rect
@@ -5616,7 +5624,6 @@ add_pic_to_batch
 (
 picture
 batcher
-task_id
 ctx
 gpu_cache
 render_tasks
@@ -5809,6 +5816,7 @@ empty
 (
 )
 brush_flags
+render_task_address
 clip_task_address
 user_data
 :
@@ -6153,6 +6161,7 @@ prim_header_index
 :
 shadow_prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 INVALID_SEGMENT_INDEX
@@ -6256,6 +6265,7 @@ prim_header_index
 :
 content_prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 INVALID_SEGMENT_INDEX
@@ -6656,6 +6666,7 @@ prim_header_index
 :
 shadow_prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 INVALID_SEGMENT_INDEX
@@ -6682,6 +6693,7 @@ prim_header_index
 :
 content_prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 INVALID_SEGMENT_INDEX
@@ -7182,6 +7194,7 @@ BrushInstance
 {
 prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 INVALID_SEGMENT_INDEX
@@ -7404,6 +7417,7 @@ BrushInstance
 {
 prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 INVALID_SEGMENT_INDEX
@@ -7572,6 +7586,7 @@ BrushInstance
 {
 prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 INVALID_SEGMENT_INDEX
@@ -7679,6 +7694,10 @@ BrushBatchKind
 MixBlend
 {
 task_id
+:
+batcher
+.
+render_task_id
 source_id
 :
 cache_task_id
@@ -7754,6 +7773,7 @@ BrushInstance
 {
 prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 INVALID_SEGMENT_INDEX
@@ -7997,7 +8017,6 @@ prim_info
 .
 combined_local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -8053,6 +8072,7 @@ bounding_rect
 transform_kind
 render_tasks
 z_id
+render_task_address
 prim_info
 .
 clip_task_index
@@ -8072,7 +8092,6 @@ add_pic_to_batch
 (
 picture
 batcher
-task_id
 ctx
 gpu_cache
 render_tasks
@@ -8247,7 +8266,6 @@ combined_local_clip_rect
 snap_offsets
 :
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -8362,6 +8380,7 @@ bounding_rect
 transform_kind
 render_tasks
 z_id
+render_task_address
 prim_info
 .
 clip_task_index
@@ -8599,7 +8618,6 @@ combined_local_clip_rect
 snap_offsets
 :
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -8637,6 +8655,7 @@ bounding_rect
 transform_kind
 render_tasks
 z_id
+render_task_address
 prim_info
 .
 clip_task_index
@@ -9062,7 +9081,6 @@ combined_local_clip_rect
 snap_offsets
 :
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -9102,6 +9120,7 @@ bounding_rect
 transform_kind
 render_tasks
 z_id
+render_task_address
 prim_info
 .
 clip_task_index
@@ -9588,7 +9607,6 @@ combined_local_clip_rect
 snap_offsets
 :
 snap_offsets
-task_address
 specific_prim_address
 :
 prim_cache_address
@@ -9626,6 +9644,7 @@ bounding_rect
 transform_kind
 render_tasks
 z_id
+render_task_address
 prim_info
 .
 clip_task_index
@@ -9830,7 +9849,6 @@ image_instance
 .
 tight_local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 gpu_cache
@@ -9907,6 +9925,7 @@ BrushInstance
 {
 prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 i
@@ -10042,15 +10061,12 @@ prim_info
 .
 combined_local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 GpuCacheAddress
 :
 :
-invalid
-(
-)
+INVALID
 transform_id
 }
 ;
@@ -10319,6 +10335,7 @@ all
 (
 )
 clip_task_address
+render_task_address
 brush_flags
 :
 BrushFlags
@@ -10472,6 +10489,7 @@ bounding_rect
 transform_kind
 render_tasks
 z_id
+render_task_address
 prim_info
 .
 clip_task_index
@@ -10527,6 +10545,7 @@ BrushBatchKind
 LinearGradient
 specified_blend_mode
 bounding_rect
+render_task_address
 clip_task_address
 gpu_cache
 batcher
@@ -10592,15 +10611,12 @@ prim_info
 .
 combined_local_clip_rect
 snap_offsets
-task_address
 specific_prim_address
 :
 GpuCacheAddress
 :
 :
-invalid
-(
-)
+INVALID
 transform_id
 }
 ;
@@ -10761,6 +10777,7 @@ bounding_rect
 transform_kind
 render_tasks
 z_id
+render_task_address
 prim_info
 .
 clip_task_index
@@ -10815,6 +10832,7 @@ BrushBatchKind
 RadialGradient
 specified_blend_mode
 bounding_rect
+render_task_address
 clip_task_address
 gpu_cache
 batcher
@@ -10880,6 +10898,9 @@ ZBufferId
 prim_opacity
 :
 PrimitiveOpacity
+render_task_address
+:
+RenderTaskAddress
 clip_task_index
 :
 ClipTaskIndex
@@ -10984,6 +11005,7 @@ segment
 .
 edge_flags
 clip_task_address
+render_task_address
 brush_flags
 :
 BrushFlags
@@ -11103,6 +11125,9 @@ RenderTaskTree
 z_id
 :
 ZBufferId
+render_task_address
+:
+RenderTaskAddress
 clip_task_index
 :
 ClipTaskIndex
@@ -11202,6 +11227,7 @@ transform_kind
 render_tasks
 z_id
 prim_opacity
+render_task_address
 clip_task_index
 ctx
 )
@@ -11262,6 +11288,7 @@ transform_kind
 render_tasks
 z_id
 prim_opacity
+render_task_address
 clip_task_index
 ctx
 )
@@ -11346,6 +11373,7 @@ all
 (
 )
 clip_task_address
+render_task_address
 brush_flags
 :
 BrushFlags
@@ -11428,6 +11456,9 @@ bounding_rect
 :
 &
 PictureRect
+render_task_address
+:
+RenderTaskAddress
 clip_task_address
 :
 RenderTaskAddress
@@ -11583,6 +11614,7 @@ BrushInstance
 {
 prim_header_index
 clip_task_address
+render_task_address
 segment_index
 :
 INVALID_SEGMENT_INDEX
@@ -12541,9 +12573,7 @@ resource_address
 GpuCacheAddress
 :
 :
-invalid
-(
-)
+INVALID
 local_pos
 tile_rect
 :
@@ -13123,17 +13153,13 @@ clip_data_address
 GpuCacheAddress
 :
 :
-invalid
-(
-)
+INVALID
 resource_address
 :
 GpuCacheAddress
 :
 :
-invalid
-(
-)
+INVALID
 local_pos
 :
 clip_instance

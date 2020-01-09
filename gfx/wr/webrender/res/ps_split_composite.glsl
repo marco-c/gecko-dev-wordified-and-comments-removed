@@ -247,6 +247,9 @@ polygons_address
 float
 z
 ;
+int
+render_task_index
+;
 }
 ;
 SplitCompositeInstance
@@ -283,6 +286,14 @@ aData
 .
 z
 )
+;
+ci
+.
+render_task_index
+=
+aData
+.
+w
 ;
 return
 ci
@@ -326,7 +337,7 @@ dest_task
 =
 fetch_picture_task
 (
-ph
+ci
 .
 render_task_index
 )
