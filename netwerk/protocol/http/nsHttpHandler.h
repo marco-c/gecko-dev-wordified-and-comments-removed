@@ -1627,6 +1627,15 @@ GetHttpTrafficAnalyzer
 (
 )
 ;
+bool
+GetThroughCaptivePortal
+(
+)
+{
+return
+mThroughCaptivePortal
+;
+}
 private
 :
 nsHttpHandler
@@ -2382,6 +2391,9 @@ nsTHashtable
 nsCStringHashKey
 >
 mBlacklistedSpdyOrigins
+;
+bool
+mThroughCaptivePortal
 ;
 }
 ;

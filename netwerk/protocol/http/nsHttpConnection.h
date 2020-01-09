@@ -1342,6 +1342,9 @@ HttpTrafficCategory
 >
 mTrafficCategory
 ;
+bool
+mThroughCaptivePortal
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
