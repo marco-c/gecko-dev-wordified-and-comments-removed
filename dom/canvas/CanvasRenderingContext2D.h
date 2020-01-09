@@ -2461,7 +2461,7 @@ GetSize
 height
 ;
 }
-nsIPresShell
+PresShell
 *
 GetPresShell
 (

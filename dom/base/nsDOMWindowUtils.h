@@ -40,9 +40,6 @@ class
 nsGlobalWindowOuter
 ;
 class
-nsIPresShell
-;
-class
 nsIWidget
 ;
 class
@@ -57,6 +54,9 @@ nsPoint
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -236,7 +236,10 @@ Element
 aElement
 )
 ;
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 GetPresShell
 (

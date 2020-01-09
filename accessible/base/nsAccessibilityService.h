@@ -114,6 +114,9 @@ nsITreeView
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -335,7 +338,10 @@ Accessible
 *
 GetRootDocumentAccessible
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 bool

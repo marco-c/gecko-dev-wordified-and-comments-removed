@@ -31794,7 +31794,9 @@ do_QueryInterface
 docShellTreeItem
 )
 ;
-nsIPresShell
+if
+(
+PresShell
 *
 presShell
 =
@@ -31804,10 +31806,6 @@ docShell
 GetPresShell
 (
 )
-;
-if
-(
-presShell
 )
 {
 return

@@ -12000,9 +12000,9 @@ IPC_OK
 }
 if
 (
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
@@ -13544,9 +13544,9 @@ docShell
 {
 if
 (
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
@@ -14596,9 +14596,9 @@ return
 }
 if
 (
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
