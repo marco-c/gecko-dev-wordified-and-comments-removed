@@ -1,0 +1,17 @@
+#
+ifndef
+mozilla_WindowsConsole_h
+#
+define
+mozilla_WindowsConsole_h
+namespace
+mozilla
+{
+void
+UseParentConsole
+(
+)
+;
+}
+#
+endif

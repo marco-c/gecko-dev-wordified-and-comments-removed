@@ -15,6 +15,15 @@ windows
 h
 >
 #
+include
+"
+mozilla
+/
+WindowsConsole
+.
+h
+"
+#
 else
 #
 include
@@ -246,11 +255,6 @@ MozExpectedExit
 #
 ifdef
 XP_WIN
-void
-UseParentConsole
-(
-)
-;
 BOOL
 WinLaunchChild
 (

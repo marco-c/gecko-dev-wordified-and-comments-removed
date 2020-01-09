@@ -179,6 +179,16 @@ LauncherRegistryInfo
 .
 cpp
 '
+'
+/
+widget
+/
+windows
+/
+WindowsConsole
+.
+cpp
+'
 ]
 for
 var
