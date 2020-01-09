@@ -192,6 +192,8 @@ manifest
 .
 toml
 [
+build
+-
 dependencies
 ]
 rustc_version
