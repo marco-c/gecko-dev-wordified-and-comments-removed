@@ -94,6 +94,7 @@ Auto
 CSSFloat
 CSSInteger
 Either
+None_
 }
 ;
 use
@@ -3570,6 +3571,16 @@ GreaterThanOrEqualToOne
 )
 }
 }
+pub
+type
+PositiveIntegerOrNone
+=
+Either
+<
+PositiveInteger
+None_
+>
+;
 pub
 type
 TrackBreadth

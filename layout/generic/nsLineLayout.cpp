@@ -5034,7 +5034,7 @@ mBlockRI
 >
 mFlags
 .
-mCanHaveTextOverflow
+mCanHaveOverflowMarkers
 )
 {
 RecordNoWrapFloat

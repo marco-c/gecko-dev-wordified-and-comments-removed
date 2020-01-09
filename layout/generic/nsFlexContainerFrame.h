@@ -401,6 +401,12 @@ return
 true
 ;
 }
+uint32_t
+GetLineClampValue
+(
+)
+const
+;
 uint16_t
 CSSAlignmentForAbsPosChild
 (
@@ -598,6 +604,8 @@ nscoord
 aMainGapSize
 nscoord
 aCrossGapSize
+bool
+aHasLineClampEllipsis
 )
 ;
 template
@@ -650,6 +658,8 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
+bool
+aHasLineClampEllipsis
 )
 ;
 const
@@ -679,6 +689,8 @@ FlexItem
 aFlexItem
 bool
 aForceBResizeForMeasuringReflow
+bool
+aHasLineClampEllipsis
 const
 ReflowInput
 &
@@ -702,6 +714,8 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
+bool
+aHasLineClampEllipsis
 )
 ;
 bool
@@ -740,6 +754,8 @@ FlexboxAxisTracker
 aAxisTracker
 nscoord
 aMainGapSize
+bool
+aHasLineClampEllipsis
 nsTArray
 <
 nsIFrame
@@ -863,6 +879,8 @@ const
 nsSize
 &
 aContainerSize
+bool
+aHasLineClampEllipsis
 )
 ;
 void

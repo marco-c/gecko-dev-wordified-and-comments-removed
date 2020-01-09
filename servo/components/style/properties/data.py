@@ -2377,6 +2377,10 @@ Percentage
 "
                 
 "
+PositiveIntegerOrNone
+"
+                
+"
 Resize
 "
                 

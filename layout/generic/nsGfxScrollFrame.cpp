@@ -5709,6 +5709,10 @@ NS_QUERYFRAME_ENTRY
 (
 nsIScrollbarMediator
 )
+NS_QUERYFRAME_ENTRY
+(
+nsHTMLScrollFrame
+)
 NS_QUERYFRAME_TAIL_INHERITING
 (
 nsContainerFrame

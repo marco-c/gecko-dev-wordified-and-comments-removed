@@ -109,7 +109,7 @@ mFloatFragmentsInsideColumnEnabled
 (
 false
 )
-mCanHaveTextOverflow
+mCanHaveOverflowMarkers
 (
 false
 )
@@ -171,7 +171,7 @@ mFloatFragmentsInsideColumnEnabled
 1
 ;
 bool
-mCanHaveTextOverflow
+mCanHaveOverflowMarkers
 :
 1
 ;

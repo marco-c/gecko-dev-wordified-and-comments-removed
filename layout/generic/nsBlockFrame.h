@@ -1731,6 +1731,11 @@ nsWindowSizes
 const
 override
 ;
+void
+ClearLineClampEllipsis
+(
+)
+;
 protected
 :
 void

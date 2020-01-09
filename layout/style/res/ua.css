@@ -940,6 +940,15 @@ align
 :
 inherit
 ;
+-
+webkit
+-
+line
+-
+clamp
+:
+inherit
+;
 grid
 -
 auto

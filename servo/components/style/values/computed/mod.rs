@@ -3540,6 +3540,16 @@ int
 }
 pub
 type
+PositiveIntegerOrNone
+=
+Either
+<
+PositiveInteger
+None_
+>
+;
+pub
+type
 ClipRect
 =
 generics
