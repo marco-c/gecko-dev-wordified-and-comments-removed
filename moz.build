@@ -906,6 +906,10 @@ profdata_gen
 inputs
 =
 [
+'
+/
+'
++
 CONFIG
 [
 '
