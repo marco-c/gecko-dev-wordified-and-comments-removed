@@ -17967,10 +17967,10 @@ numBytecodeTypeSets
 ;
 }
 void
-js
+TypeScript
 :
 :
-TypeMonitorResult
+MonitorBytecodeType
 (
 JSContext
 *
@@ -18214,10 +18214,10 @@ type
 ;
 }
 void
-js
+TypeScript
 :
 :
-TypeMonitorResult
+MonitorBytecodeType
 (
 JSContext
 *
@@ -18264,7 +18264,7 @@ types
 return
 ;
 }
-TypeMonitorResult
+MonitorBytecodeType
 (
 cx
 script
