@@ -408,16 +408,6 @@ patch
 '
         
 '
-aarch64
--
-windows
--
-noneon
-.
-patch
-'
-        
-'
 bug_1491848
 .
 patch
