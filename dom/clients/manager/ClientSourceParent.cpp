@@ -902,6 +902,13 @@ const
 ClientSourceConstructorArgs
 &
 aArgs
+const
+Maybe
+<
+ContentParentId
+>
+&
+aContentParentId
 )
 :
 mClientInfo
@@ -926,6 +933,10 @@ aArgs
 creationTime
 (
 )
+)
+mContentParentId
+(
+aContentParentId
 )
 mService
 (

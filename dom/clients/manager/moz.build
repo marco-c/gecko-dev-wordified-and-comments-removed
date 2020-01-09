@@ -124,6 +124,11 @@ ClientManagerActors
 h
 '
 '
+ClientManagerService
+.
+h
+'
+'
 ClientOpenWindowOpActors
 .
 h
