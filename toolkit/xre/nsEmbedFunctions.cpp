@@ -1070,7 +1070,7 @@ rv
 ;
 rv
 =
-NS_InitXPCOM2
+NS_InitXPCOM
 (
 nullptr
 aAppDirectory

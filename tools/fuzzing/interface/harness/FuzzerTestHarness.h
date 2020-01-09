@@ -262,7 +262,7 @@ mTestName
 nsresult
 rv
 =
-NS_InitXPCOM2
+NS_InitXPCOM
 (
 &
 mServMgr
@@ -281,7 +281,7 @@ rv
 fail
 (
 "
-NS_InitXPCOM2
+NS_InitXPCOM
 returned
 failure
 code

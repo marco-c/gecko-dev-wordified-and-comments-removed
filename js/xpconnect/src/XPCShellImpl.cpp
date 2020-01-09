@@ -6793,7 +6793,7 @@ servMan
 ;
 rv
 =
-NS_InitXPCOM2
+NS_InitXPCOM
 (
 getter_AddRefs
 (
@@ -6815,7 +6815,7 @@ rv
 printf
 (
 "
-NS_InitXPCOM2
+NS_InitXPCOM
 failed
 !
 \

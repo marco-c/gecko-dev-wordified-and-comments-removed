@@ -1387,7 +1387,7 @@ EXPORT_XPCOM_API
 (
 nsresult
 )
-NS_InitXPCOM2
+NS_InitXPCOM
 (
 nsIServiceManager
 *
