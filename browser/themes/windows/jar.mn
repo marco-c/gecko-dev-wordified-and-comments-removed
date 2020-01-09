@@ -139,8 +139,6 @@ classic
 browser
 /
 monitor
--
-base
 .
 png
 skin
@@ -149,9 +147,9 @@ classic
 /
 browser
 /
-monitor
+monitor_16
 -
-border
+10
 .
 png
 skin
@@ -180,6 +178,15 @@ classic
 browser
 /
 searchbar
+.
+css
+skin
+/
+classic
+/
+browser
+/
+setDesktopBackground
 .
 css
 skin
