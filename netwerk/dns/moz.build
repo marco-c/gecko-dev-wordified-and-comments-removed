@@ -160,16 +160,6 @@ XPIDL_MODULE
 necko_dns
 '
 EXPORTS
-+
-=
-[
-'
-nsEffectiveTLDService
-.
-h
-'
-]
-EXPORTS
 .
 mozilla
 .

@@ -101,15 +101,6 @@ Init
 (
 )
 ;
-static
-already_AddRefed
-<
-nsEffectiveTLDService
->
-GetInstance
-(
-)
-;
 size_t
 SizeOfIncludingThis
 (
@@ -168,9 +159,6 @@ mHost
 ;
 nsCString
 mBaseDomain
-;
-nsresult
-mResult
 ;
 }
 ;
