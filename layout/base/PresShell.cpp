@@ -7095,6 +7095,13 @@ mDocument
 return
 ;
 }
+PreferenceSheet
+:
+:
+EnsureInitialized
+(
+)
+;
 auto
 cache
 =
@@ -7111,11 +7118,13 @@ StyleSheet
 >
 newPrefSheet
 =
-mPresContext
--
->
-IsChromeOriginImage
+PreferenceSheet
+:
+:
+ShouldUseChromePrefs
 (
+*
+mDocument
 )
 ?
 cache
@@ -7123,7 +7132,6 @@ cache
 >
 ChromePreferenceSheet
 (
-mPresContext
 )
 :
 cache
@@ -7131,7 +7139,6 @@ cache
 >
 ContentPreferenceSheet
 (
-mPresContext
 )
 ;
 if

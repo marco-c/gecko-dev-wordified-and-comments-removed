@@ -574,6 +574,11 @@ PostTraversalTask
 h
 '
 '
+PreferenceSheet
+.
+h
+'
+'
 PreloadedStyleSheet
 .
 h
@@ -1168,6 +1173,11 @@ cpp
 '
 '
 PostTraversalTask
+.
+cpp
+'
+'
+PreferenceSheet
 .
 cpp
 '

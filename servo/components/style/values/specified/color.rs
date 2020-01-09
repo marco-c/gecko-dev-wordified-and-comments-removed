@@ -2353,7 +2353,7 @@ context
 |
 {
 let
-pres_context
+prefs
 =
 context
 .
@@ -2361,7 +2361,7 @@ device
 (
 )
 .
-pres_context
+pref_sheet_prefs
 (
 )
 ;
@@ -2376,7 +2376,7 @@ Keyword
 MozDefaultColor
 =
 >
-pres_context
+prefs
 .
 mDefaultColor
 Keyword
@@ -2385,16 +2385,16 @@ Keyword
 MozDefaultBackgroundColor
 =
 >
-pres_context
+prefs
 .
-mBackgroundColor
+mDefaultBackgroundColor
 Keyword
 :
 :
 MozHyperlinktext
 =
 >
-pres_context
+prefs
 .
 mLinkColor
 Keyword
@@ -2403,7 +2403,7 @@ Keyword
 MozActivehyperlinktext
 =
 >
-pres_context
+prefs
 .
 mActiveLinkColor
 Keyword
@@ -2412,7 +2412,7 @@ Keyword
 MozVisitedhyperlinktext
 =
 >
-pres_context
+prefs
 .
 mVisitedLinkColor
 }

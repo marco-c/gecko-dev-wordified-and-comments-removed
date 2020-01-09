@@ -1137,6 +1137,12 @@ BeforeFlag
 mozilla
 :
 :
+PreferenceSheet
+"
+"
+mozilla
+:
+:
 SeenPtrs
 "
 "
@@ -4280,6 +4286,12 @@ Document
 "
 "
 Document_DocumentTheme
+"
+"
+mozilla
+:
+:
+PreferenceSheet_Prefs
 "
 "
 nsSimpleContentList
