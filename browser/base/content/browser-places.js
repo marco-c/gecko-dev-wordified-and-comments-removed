@@ -2820,7 +2820,7 @@ this
 .
 undoTabMenu
 .
-firstChild
+menupopup
 ;
 while
 (
@@ -2954,7 +2954,7 @@ this
 .
 undoWindowMenu
 .
-firstChild
+menupopup
 ;
 while
 (
