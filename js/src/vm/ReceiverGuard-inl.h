@@ -31,15 +31,6 @@ JSObject
 .
 h
 "
-#
-include
-"
-vm
-/
-ShapedObject
-.
-h
-"
 namespace
 js
 {
@@ -107,7 +98,7 @@ obj
 >
 as
 <
-ShapedObject
+JSObject
 >
 (
 )

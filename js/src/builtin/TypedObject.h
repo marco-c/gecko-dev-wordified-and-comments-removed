@@ -58,15 +58,6 @@ JSObject
 .
 h
 "
-#
-include
-"
-vm
-/
-ShapedObject
-.
-h
-"
 namespace
 js
 {
@@ -1739,7 +1730,7 @@ class
 TypedObject
 :
 public
-ShapedObject
+JSObject
 {
 static
 const
