@@ -53,6 +53,15 @@ include
 "
 vm
 /
+BigIntType
+.
+h
+"
+#
+include
+"
+vm
+/
 Realm
 .
 h

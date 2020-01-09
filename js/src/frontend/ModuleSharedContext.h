@@ -61,6 +61,9 @@ h
 namespace
 js
 {
+class
+ModuleBuilder
+;
 namespace
 frontend
 {

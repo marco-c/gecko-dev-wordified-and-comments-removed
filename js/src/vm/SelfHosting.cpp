@@ -253,6 +253,15 @@ h
 #
 include
 "
+frontend
+/
+BytecodeCompiler
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking
