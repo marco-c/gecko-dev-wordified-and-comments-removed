@@ -895,6 +895,11 @@ VorbisUtils
 h
 '
 '
+WavDumper
+.
+h
+'
+'
 XiphExtradata
 .
 h

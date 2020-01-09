@@ -96,6 +96,13 @@ SoundTouchFactory
 h
 "
 #
+include
+"
+WavDumper
+.
+h
+"
+#
 if
 defined
 (
@@ -1019,8 +1026,7 @@ SoundTouch
 *
 mTimeStretcher
 ;
-FILE
-*
+WavDumper
 mDumpFile
 ;
 UniquePtr
