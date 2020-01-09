@@ -2424,7 +2424,6 @@ angle
 [
 force
 ]
-1
 modifiers
 )
 ;
@@ -2459,7 +2458,6 @@ angle
 [
 force
 ]
-1
 modifiers
 )
 ;
@@ -2491,7 +2489,6 @@ angle
 [
 force
 ]
-1
 modifiers
 )
 ;
