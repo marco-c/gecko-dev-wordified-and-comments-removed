@@ -497,6 +497,7 @@ E10SUtils
 canLoadURIInRemoteType
 (
 url
+false
 CHROME_PROCESS
 )
 chromeResult
@@ -517,6 +518,7 @@ E10SUtils
 canLoadURIInRemoteType
 (
 url
+false
 WEB_CONTENT_PROCESS
 )
 webContentResult
@@ -538,6 +540,7 @@ E10SUtils
 canLoadURIInRemoteType
 (
 url
+false
 PRIVILEGED_CONTENT_PROCESS
 )
 privilegedContentResult
@@ -559,6 +562,7 @@ E10SUtils
 canLoadURIInRemoteType
 (
 url
+false
 EXTENSION_PROCESS
 )
 extensionProcessResult
@@ -584,6 +588,7 @@ url
 #
 foo
 "
+false
 CHROME_PROCESS
 )
 chromeResult
@@ -611,6 +616,7 @@ url
 #
 foo
 "
+false
 WEB_CONTENT_PROCESS
 )
 webContentResult
@@ -639,6 +645,7 @@ url
 #
 foo
 "
+false
 PRIVILEGED_CONTENT_PROCESS
 )
 privilegedContentResult
@@ -667,6 +674,7 @@ url
 #
 foo
 "
+false
 EXTENSION_PROCESS
 )
 extensionProcessResult
@@ -694,6 +702,7 @@ url
 ?
 foo
 "
+false
 CHROME_PROCESS
 )
 chromeResult
@@ -721,6 +730,7 @@ url
 ?
 foo
 "
+false
 WEB_CONTENT_PROCESS
 )
 webContentResult
@@ -749,6 +759,7 @@ url
 ?
 foo
 "
+false
 PRIVILEGED_CONTENT_PROCESS
 )
 privilegedContentResult
@@ -777,6 +788,7 @@ url
 ?
 foo
 "
+false
 EXTENSION_PROCESS
 )
 extensionProcessResult
@@ -806,6 +818,7 @@ foo
 #
 bar
 "
+false
 CHROME_PROCESS
 )
 chromeResult
@@ -837,6 +850,7 @@ foo
 #
 bar
 "
+false
 WEB_CONTENT_PROCESS
 )
 webContentResult
@@ -869,6 +883,7 @@ foo
 #
 bar
 "
+false
 PRIVILEGED_CONTENT_PROCESS
 )
 privilegedContentResult
@@ -901,6 +916,7 @@ foo
 #
 bar
 "
+false
 EXTENSION_PROCESS
 )
 extensionProcessResult

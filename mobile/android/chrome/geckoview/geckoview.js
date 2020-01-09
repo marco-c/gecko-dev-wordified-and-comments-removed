@@ -541,6 +541,7 @@ this
 settings
 .
 useMultiprocess
+false
 currentType
 this
 .

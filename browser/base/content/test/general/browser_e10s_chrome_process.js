@@ -354,6 +354,7 @@ E10SUtils
 canLoadURIInRemoteType
 (
 url
+false
 CHROME_PROCESS
 )
 chromeResult
@@ -374,6 +375,7 @@ E10SUtils
 canLoadURIInRemoteType
 (
 url
+false
 WEB_CONTENT_PROCESS
 )
 contentResult
@@ -400,6 +402,7 @@ url
 #
 foo
 "
+false
 CHROME_PROCESS
 )
 chromeResult
@@ -427,6 +430,7 @@ url
 #
 foo
 "
+false
 WEB_CONTENT_PROCESS
 )
 contentResult
@@ -455,6 +459,7 @@ url
 ?
 foo
 "
+false
 CHROME_PROCESS
 )
 chromeResult
@@ -482,6 +487,7 @@ url
 ?
 foo
 "
+false
 WEB_CONTENT_PROCESS
 )
 contentResult
@@ -512,6 +518,7 @@ foo
 #
 bar
 "
+false
 CHROME_PROCESS
 )
 chromeResult
@@ -543,6 +550,7 @@ foo
 #
 bar
 "
+false
 WEB_CONTENT_PROCESS
 )
 contentResult

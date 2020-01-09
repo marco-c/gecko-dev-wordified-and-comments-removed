@@ -37,6 +37,7 @@ E10SUtils
 canLoadURIInRemoteType
 (
 url
+false
 CHROME_PROCESS
 )
 "
@@ -56,6 +57,7 @@ E10SUtils
 canLoadURIInRemoteType
 (
 url
+false
 WEB_CONTENT_PROCESS
 )
 "

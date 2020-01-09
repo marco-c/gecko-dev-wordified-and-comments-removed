@@ -362,6 +362,7 @@ panel
 .
 uri
 true
+false
 E10SUtils
 .
 EXTENSION_REMOTE_TYPE

@@ -2289,6 +2289,9 @@ E10SUtils
 canLoadURIInRemoteType
 (
 url
+win
+.
+gFissionBrowser
 browser
 .
 remoteType
@@ -2420,6 +2423,11 @@ E10SUtils
 canLoadURIInRemoteType
 (
 uri
+browser
+.
+ownerGlobal
+.
+gFissionBrowser
 browser
 .
 remoteType

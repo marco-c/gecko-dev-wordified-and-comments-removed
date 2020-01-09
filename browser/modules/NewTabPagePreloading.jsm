@@ -185,6 +185,7 @@ const
 {
 gBrowser
 gMultiProcessBrowser
+gFissionBrowser
 BROWSER_NEW_TAB_URL
 }
 =
@@ -199,6 +200,7 @@ getRemoteTypeForURI
 (
 BROWSER_NEW_TAB_URL
 gMultiProcessBrowser
+gFissionBrowser
 )
 ;
 let

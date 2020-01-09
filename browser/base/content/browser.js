@@ -3302,6 +3302,22 @@ nsILoadContext
 useRemoteTabs
 ;
 var
+gFissionBrowser
+=
+window
+.
+docShell
+.
+QueryInterface
+(
+Ci
+.
+nsILoadContext
+)
+.
+useRemoteSubframes
+;
+var
 gBrowserAllowScriptsToCloseInitialTabs
 =
 false
@@ -7353,6 +7369,7 @@ shouldLoadURIInBrowser
 browser
 uri
 gMultiProcessBrowser
+gFissionBrowser
 flags
 )
 ;
@@ -7789,6 +7806,7 @@ loadOptions
 .
 uri
 gMultiProcessBrowser
+gFissionBrowser
 )
 ;
 }
@@ -14053,6 +14071,7 @@ args
 .
 URL
 gMultiProcessBrowser
+gFissionBrowser
 )
 ;
 }

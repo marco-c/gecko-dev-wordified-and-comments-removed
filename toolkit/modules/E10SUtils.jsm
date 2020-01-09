@@ -339,6 +339,7 @@ validatedWebRemoteType
 aPreferredRemoteType
 aTargetUri
 aCurrentUri
+aRemoteSubframes
 )
 {
 const
@@ -360,6 +361,34 @@ aTargetUri
 {
 return
 FILE_REMOTE_TYPE
+;
+}
+if
+(
+aRemoteSubframes
+)
+{
+let
+targetPrincipal
+=
+sm
+.
+createCodebasePrincipal
+(
+aTargetUri
+{
+}
+)
+;
+return
+"
+webIsolated
+=
+"
++
+targetPrincipal
+.
+siteOrigin
 ;
 }
 if
@@ -584,6 +613,7 @@ null
 canLoadURIInRemoteType
 (
 aURL
+aRemoteSubframes
 aRemoteType
 =
 DEFAULT_REMOTE_TYPE
@@ -624,6 +654,7 @@ getRemoteTypeForURI
 (
 aURL
 true
+aRemoteSubframes
 aPreferredRemoteType
 )
 ;
@@ -632,6 +663,7 @@ getRemoteTypeForURI
 (
 aURL
 aMultiProcess
+aRemoteSubframes
 aPreferredRemoteType
 =
 DEFAULT_REMOTE_TYPE
@@ -701,6 +733,7 @@ getRemoteTypeForURIObject
 (
 uri
 aMultiProcess
+aRemoteSubframes
 aPreferredRemoteType
 aCurrentUri
 )
@@ -710,6 +743,7 @@ getRemoteTypeForURIObject
 (
 aURI
 aMultiProcess
+aRemoteSubframes
 aPreferredRemoteType
 =
 DEFAULT_REMOTE_TYPE
@@ -1022,6 +1056,7 @@ getRemoteTypeForURIObject
 (
 innerURI
 aMultiProcess
+aRemoteSubframes
 aPreferredRemoteType
 aCurrentUri
 )
@@ -1033,6 +1068,7 @@ validatedWebRemoteType
 aPreferredRemoteType
 aURI
 aCurrentUri
+aRemoteSubframes
 )
 ;
 }
@@ -1041,6 +1077,7 @@ getRemoteTypeForPrincipal
 (
 aPrincipal
 aMultiProcess
+aRemoteSubframes
 aPreferredRemoteType
 =
 DEFAULT_REMOTE_TYPE
@@ -1120,6 +1157,7 @@ aPrincipal
 .
 URI
 aMultiProcess
+aRemoteSubframes
 aPreferredRemoteType
 currentURI
 )
@@ -1472,6 +1510,9 @@ uri
 multiProcess
 =
 true
+remoteSubframes
+=
+false
 flags
 =
 Ci
@@ -1567,6 +1608,7 @@ getRemoteTypeForURIObject
 (
 uriObject
 multiProcess
+remoteSubframes
 currentRemoteType
 browser
 .
@@ -1650,6 +1692,7 @@ newFrameloader
 shouldLoadURIInThisProcess
 (
 aURI
+aRemoteSubframes
 )
 {
 let
@@ -1671,6 +1714,7 @@ getRemoteTypeForURIObject
 (
 aURI
 true
+aRemoteSubframes
 remoteType
 )
 ;
@@ -1683,6 +1727,13 @@ aReferrer
 aHasPostData
 )
 {
+let
+remoteSubframes
+=
+aDocShell
+.
+useRemoteSubframes
+;
 if
 (
 aDocShell
@@ -1881,6 +1932,7 @@ getRemoteTypeForURIObject
 (
 aURI
 true
+remoteSubframes
 remoteType
 webNav
 .
@@ -1894,6 +1946,7 @@ this
 shouldLoadURIInThisProcess
 (
 aURI
+remoteSubframes
 )
 ;
 }

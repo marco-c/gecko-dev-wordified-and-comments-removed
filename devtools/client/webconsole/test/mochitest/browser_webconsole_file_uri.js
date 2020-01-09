@@ -104,6 +104,7 @@ uri
 .
 spec
 gMultiProcessBrowser
+gFissionBrowser
 )
 ;
 const
