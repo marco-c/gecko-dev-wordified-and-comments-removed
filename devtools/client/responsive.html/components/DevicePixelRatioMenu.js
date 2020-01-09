@@ -298,9 +298,6 @@ button
 event
 .
 target
-useTopLevelWindow
-:
-true
 }
 )
 ;
