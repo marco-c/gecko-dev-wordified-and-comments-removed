@@ -124,7 +124,7 @@ render_task
 :
 :
 {
-RenderTaskTree
+RenderTaskGraph
 }
 ;
 use
@@ -1419,7 +1419,7 @@ render_tasks
 :
 &
 mut
-RenderTaskTree
+RenderTaskGraph
 scratch
 :
 &

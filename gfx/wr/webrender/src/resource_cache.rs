@@ -326,7 +326,7 @@ render_task
 {
 RenderTaskCacheEntry
 RenderTaskCacheEntryHandle
-RenderTaskTree
+RenderTaskGraph
 }
 ;
 use
@@ -2743,7 +2743,7 @@ render_tasks
 :
 &
 mut
-RenderTaskTree
+RenderTaskGraph
 user_data
 :
 Option
@@ -2771,7 +2771,7 @@ FnOnce
 (
 &
 mut
-RenderTaskTree
+RenderTaskGraph
 )
 -
 >
@@ -7065,7 +7065,7 @@ render_task_tree
 :
 &
 mut
-RenderTaskTree
+RenderTaskGraph
 )
 {
 debug_assert_eq
@@ -8311,7 +8311,7 @@ render_tasks
 :
 &
 mut
-RenderTaskTree
+RenderTaskGraph
 texture_cache_profile
 :
 &

@@ -323,7 +323,7 @@ crate
 render_task
 :
 :
-RenderTaskTreeCounters
+RenderTaskGraphCounters
 ;
 use
 crate
@@ -1810,7 +1810,7 @@ scratch
 PrimitiveScratchBuffer
 render_task_counters
 :
-RenderTaskTreeCounters
+RenderTaskGraphCounters
 }
 impl
 Document
@@ -1958,7 +1958,7 @@ new
 )
 render_task_counters
 :
-RenderTaskTreeCounters
+RenderTaskGraphCounters
 :
 :
 new
@@ -9563,7 +9563,7 @@ new
 )
 render_task_counters
 :
-RenderTaskTreeCounters
+RenderTaskGraphCounters
 :
 :
 new
