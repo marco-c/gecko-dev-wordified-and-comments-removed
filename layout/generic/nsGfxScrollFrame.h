@@ -1481,6 +1481,12 @@ GetFrameForDir
 )
 const
 ;
+ScrollSnapInfo
+ComputeScrollSnapInfo
+(
+)
+const
+;
 public
 :
 bool
