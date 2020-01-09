@@ -7245,6 +7245,11 @@ IsBlockWrapper
 )
 const
 ;
+bool
+IsBlockFrameOrSubclass
+(
+)
+;
 enum
 {
 SKIP_SCROLLED_FRAME
