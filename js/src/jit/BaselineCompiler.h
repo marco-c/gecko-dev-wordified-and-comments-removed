@@ -1736,6 +1736,13 @@ emitPushNonArrowFunctionNewTarget
 (
 )
 ;
+void
+emitGetAliasedVar
+(
+ValueOperand
+dest
+)
+;
 MOZ_MUST_USE
 bool
 emitNextIC
