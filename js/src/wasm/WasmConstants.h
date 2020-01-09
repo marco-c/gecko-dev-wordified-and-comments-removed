@@ -874,6 +874,9 @@ TableGrow
 TableSize
 =
 0x10
+TableFill
+=
+0x11
 StructNew
 =
 0x50

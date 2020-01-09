@@ -8156,6 +8156,7 @@ MemFill
 MemInit
 TableCopy
 ElemDrop
+TableFill
 TableGet
 TableGrow
 TableInit
