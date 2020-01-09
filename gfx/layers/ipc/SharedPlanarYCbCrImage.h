@@ -116,14 +116,6 @@ aForwarder
 )
 override
 ;
-uint8_t
-*
-GetBuffer
-(
-)
-const
-override
-;
 already_AddRefed
 <
 gfx
