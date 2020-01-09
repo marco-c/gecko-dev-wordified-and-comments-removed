@@ -1742,6 +1742,14 @@ i
 +
 )
 {
+HandlePropertyName
+description
+=
+descriptions
+[
+i
+]
+;
 JS
 :
 :
@@ -1765,10 +1773,7 @@ SymbolCode
 (
 i
 )
-descriptions
-[
-i
-]
+description
 )
 ;
 if
