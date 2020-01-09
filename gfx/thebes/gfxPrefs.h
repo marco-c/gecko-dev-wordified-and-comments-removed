@@ -793,14 +793,6 @@ aOutValue
 )
 override
 {
-MOZ_ASSERT
-(
-!
-IsPrefsServiceAvailable
-(
-)
-)
-;
 T
 newValue
 ;
