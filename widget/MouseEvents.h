@@ -496,7 +496,7 @@ uint16_t
 mInputSource
 ;
 nsString
-region
+mRegion
 ;
 bool
 IsLeftButtonPressed
