@@ -324,6 +324,11 @@ deviceName
 PropTypes
 .
 string
+adbPackageVersion
+:
+PropTypes
+.
+string
 }
 ;
 const
