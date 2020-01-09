@@ -318,7 +318,10 @@ GeckoRestyleDamage
 structs
 :
 :
-nsChangeHint_nsChangeHint_ReconstructFrame
+nsChangeHint
+:
+:
+nsChangeHint_ReconstructFrame
 )
 }
 }
