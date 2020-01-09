@@ -31638,6 +31638,8 @@ aBuilder
 nsIFrame
 *
 aFrame
+bool
+aEnforceMinimumSize
 )
 {
 if
@@ -31665,9 +31667,14 @@ eCSSProperty_opacity
 &
 &
 !
+(
+aEnforceMinimumSize
+&
+&
 IsItemTooSmallForActiveLayer
 (
 aFrame
+)
 )
 )
 )
@@ -41947,6 +41954,8 @@ MayBeAnimated
 nsDisplayListBuilder
 *
 aBuilder
+bool
+aEnforceMinimumSize
 )
 const
 {
@@ -41975,9 +41984,14 @@ eCSSProperty_transform
 &
 &
 !
+(
+aEnforceMinimumSize
+&
+&
 IsItemTooSmallForActiveLayer
 (
 mFrame
+)
 )
 )
 )
