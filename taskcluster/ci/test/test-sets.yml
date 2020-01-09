@@ -2243,8 +2243,6 @@ geckoview
 -
 junit
 -
-jsreftest
--
 mochitest
 -
 mochitest
@@ -2445,6 +2443,8 @@ unittests
 -
 jittest
 -
+jsreftest
+-
 mochitest
 -
 media
@@ -2458,6 +2458,10 @@ debug
 -
 unittests
 :
+-
+jittest
+-
+jsreftest
 -
 mochitest
 -
