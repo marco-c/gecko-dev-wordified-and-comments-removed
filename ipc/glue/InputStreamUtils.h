@@ -271,7 +271,10 @@ static
 void
 PostSerializationActivation
 (
-OptionalInputStreamParams
+Maybe
+<
+InputStreamParams
+>
 &
 aParams
 bool
