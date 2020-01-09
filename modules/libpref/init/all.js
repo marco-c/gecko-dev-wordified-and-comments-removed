@@ -9878,6 +9878,7 @@ popup_allowed_events
 change
 click
 dblclick
+auxclick
 mouseup
 pointerup
 notificationclick
