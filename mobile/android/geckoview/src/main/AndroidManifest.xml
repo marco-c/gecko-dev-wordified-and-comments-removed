@@ -427,7 +427,7 @@ gecko
 process
 .
 GeckoServiceChildProcess
-geckomediaplugin
+gmplugin
 "
 android
 :
@@ -456,7 +456,7 @@ process
 =
 "
 :
-geckomediaplugin
+gmplugin
 "
 >
 <
