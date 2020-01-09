@@ -430,6 +430,8 @@ mBuffer
 Address
 (
 )
++
+mPosition
 *
 aCountRead
 )
