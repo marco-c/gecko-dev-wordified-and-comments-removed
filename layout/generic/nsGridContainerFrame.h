@@ -1118,6 +1118,13 @@ mIsInEdgeTrack
 ;
 }
 ;
+nsGridContainerFrame
+*
+ParentGridContainerForSubgrid
+(
+)
+const
+;
 protected
 :
 static
