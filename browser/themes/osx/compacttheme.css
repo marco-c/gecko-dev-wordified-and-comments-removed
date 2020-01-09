@@ -119,6 +119,13 @@ tabbrowser
 -
 tab
 [
+multiselected
+]
+.
+tabbrowser
+-
+tab
+[
 visuallyselected
 =
 true
