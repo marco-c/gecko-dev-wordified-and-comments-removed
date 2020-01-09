@@ -518,6 +518,11 @@ test
 "
 :
 "
+TZ
+=
+Africa
+/
+Nairobi
 jest
 "
 "
