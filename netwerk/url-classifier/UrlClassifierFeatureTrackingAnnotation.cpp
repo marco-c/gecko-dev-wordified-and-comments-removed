@@ -600,6 +600,16 @@ CLASSIFIED_TRACKING
 UrlClassifierCommon
 :
 :
+SetTrackingInfo
+(
+aChannel
+aList
+aHashes
+)
+;
+UrlClassifierCommon
+:
+:
 AnnotateChannel
 (
 aChannel
