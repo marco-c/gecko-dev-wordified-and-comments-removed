@@ -11181,15 +11181,12 @@ frame
 .
 push
 (
-DoubleValue
-(
-GET_DOUBLE
+GET_INLINE_VALUE
 (
 handler
 .
 pc
 (
-)
 )
 )
 )
