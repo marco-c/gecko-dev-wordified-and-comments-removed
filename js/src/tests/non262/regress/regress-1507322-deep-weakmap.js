@@ -79,13 +79,3 @@ new
 WeakMap
 )
 ;
-reportCompare
-(
-true
-true
-"
-deep
-weakmaps
-"
-)
-;
