@@ -1332,7 +1332,7 @@ classic
 /
 global
 /
-numberbox
+numberinput
 .
 css
 chrome

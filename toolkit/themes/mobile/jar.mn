@@ -215,7 +215,7 @@ classic
 /
 global
 /
-numberbox
+numberinput
 .
 css
 (
