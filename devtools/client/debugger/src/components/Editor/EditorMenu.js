@@ -87,7 +87,7 @@ editor
 import
 type
 {
-Source
+SourceWithContent
 ThreadContext
 }
 from
@@ -165,9 +165,9 @@ boolean
 isPaused
 :
 boolean
-selectedSource
+selectedSourceWithContent
 :
-Source
+SourceWithContent
 }
 ;
 class
@@ -222,7 +222,7 @@ const
 {
 cx
 editor
-selectedSource
+selectedSourceWithContent
 editorActions
 hasPrettySource
 isPaused
@@ -239,7 +239,9 @@ location
 getSourceLocationFromMouseEvent
 (
 editor
-selectedSource
+selectedSourceWithContent
+.
+source
 (
 event
 :
@@ -255,7 +257,7 @@ editorMenuItems
 {
 cx
 editorActions
-selectedSource
+selectedSourceWithContent
 hasPrettySource
 location
 isPaused
@@ -331,7 +333,9 @@ getPrettySource
 state
 props
 .
-selectedSource
+selectedSourceWithContent
+.
+source
 .
 id
 )

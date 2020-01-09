@@ -138,6 +138,7 @@ PartialPosition
 Frame
 Scope
 Source
+SourceContent
 BindingContents
 ScopeBindings
 }
@@ -169,6 +170,9 @@ buildMappedScopes
 source
 :
 Source
+content
+:
+SourceContent
 frame
 :
 Frame
@@ -284,6 +288,7 @@ await
 mapOriginalBindingsToGenerated
 (
 source
+content
 originalRanges
 originalAstScopes
 generatedAstBindings
@@ -325,6 +330,9 @@ mapOriginalBindingsToGenerated
 source
 :
 Source
+content
+:
+SourceContent
 originalRanges
 :
 Array
@@ -407,6 +415,7 @@ findGeneratedBinding
 cachedSourceMaps
 client
 source
+content
 name
 binding
 originalRanges
@@ -1318,6 +1327,9 @@ any
 source
 :
 Source
+content
+:
+SourceContent
 name
 :
 string
@@ -1643,12 +1655,12 @@ inner
 )
 &
 &
-source
+content
 .
 contentType
 &
 &
-source
+content
 .
 contentType
 .

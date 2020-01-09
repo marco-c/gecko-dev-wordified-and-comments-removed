@@ -67,7 +67,9 @@ token
 >
 {
 const
+{
 source
+}
 =
 populateSource
 (

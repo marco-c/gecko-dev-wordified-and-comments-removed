@@ -197,6 +197,9 @@ query
 text
 "
 }
+selectedContentLoaded
+:
+true
 setFileSearchQuery
 :
 msg

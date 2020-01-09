@@ -96,6 +96,13 @@ ast
 js
 '
 '
+async
+-
+value
+.
+js
+'
+'
 asyncStoreHelper
 .
 js

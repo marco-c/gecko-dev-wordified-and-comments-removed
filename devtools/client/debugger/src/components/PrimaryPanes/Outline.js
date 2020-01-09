@@ -98,7 +98,7 @@ actions
 ;
 import
 {
-getSelectedSource
+getSelectedSourceWithContent
 getSymbols
 getSelectedLocation
 getContext
@@ -1471,7 +1471,7 @@ state
 const
 selectedSource
 =
-getSelectedSource
+getSelectedSourceWithContent
 (
 state
 )
@@ -1485,6 +1485,8 @@ getSymbols
 (
 state
 selectedSource
+.
+source
 )
 :
 null
@@ -1499,6 +1501,13 @@ state
 )
 symbols
 selectedSource
+:
+selectedSource
+&
+&
+selectedSource
+.
+source
 selectedLocation
 :
 getSelectedLocation

@@ -436,6 +436,11 @@ findSource
 :
 false
 "
+findSourceContent
+"
+:
+false
+"
 findElement
 "
 :

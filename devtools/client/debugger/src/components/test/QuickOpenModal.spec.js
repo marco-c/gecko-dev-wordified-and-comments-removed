@@ -1278,6 +1278,9 @@ text
 yo
 "
 }
+selectedContentLoaded
+:
+true
 }
 "
 mount
@@ -1387,6 +1390,9 @@ variables
 selectedSource
 :
 null
+selectedContentLoaded
+:
+false
 }
 "
 mount
@@ -1690,6 +1696,9 @@ id
 :
 sourceId
 }
+selectedContentLoaded
+:
+true
 }
 "
 shallow
@@ -3157,6 +3166,9 @@ id
 :
 sourceId
 }
+selectedContentLoaded
+:
+true
 symbols
 :
 {
@@ -3535,6 +3547,9 @@ id
 :
 sourceId
 }
+selectedContentLoaded
+:
+true
 symbols
 :
 {
@@ -3729,6 +3744,9 @@ variables
 selectedSource
 :
 null
+selectedContentLoaded
+:
+true
 symbols
 :
 {
@@ -3959,6 +3977,9 @@ id
 :
 sourceId
 }
+selectedContentLoaded
+:
+true
 symbols
 :
 {
