@@ -612,6 +612,12 @@ result
 const
 final
 ;
+using
+Base
+:
+:
+defineProperty
+;
 virtual
 bool
 definePropertySameOrigin
