@@ -44,11 +44,11 @@ C
 [
 derive
 (
-Default
 Clone
-PartialEq
+Default
 Eq
 MallocSizeOf
+PartialEq
 ToShmem
 )
 ]

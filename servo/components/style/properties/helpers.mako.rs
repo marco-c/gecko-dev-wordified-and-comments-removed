@@ -1078,6 +1078,7 @@ allow_empty
 NotInitial
 "
 and
+\
 data
 .
 longhands_by_name
