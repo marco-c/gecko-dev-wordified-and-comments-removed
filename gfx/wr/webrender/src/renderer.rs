@@ -57,6 +57,7 @@ api
 {
 RenderApiSender
 RenderNotifier
+TexelRect
 TextureTarget
 }
 ;

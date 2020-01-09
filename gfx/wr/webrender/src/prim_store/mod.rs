@@ -15,7 +15,10 @@ api
 {
 FilterOp
 ImageRendering
+TileOffset
 RepeatMode
+WorldPoint
+WorldSize
 }
 ;
 use
@@ -37,6 +40,7 @@ api
 BoxShadowClipMode
 LineStyle
 LineOrientation
+AuHelpers
 }
 ;
 use
