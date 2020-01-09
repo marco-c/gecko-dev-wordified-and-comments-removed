@@ -16342,12 +16342,6 @@ char16_t
 )
 ;
 }
-JS_updateMallocCounter
-(
-cx
-bytesAllocated
-)
-;
 return
 NS_OK
 ;
