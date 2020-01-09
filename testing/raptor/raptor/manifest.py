@@ -294,6 +294,16 @@ manifest
 )
 )
     
+test_details
+.
+setdefault
+(
+"
+page_timeout
+"
+30000
+)
+    
 if
 '
 playback
