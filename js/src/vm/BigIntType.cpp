@@ -1145,7 +1145,7 @@ else
 static
 constexpr
 Digit
-halfDigitBase
+HalfDigitBase
 =
 1ull
 <
@@ -5935,6 +5935,7 @@ maxExponent
 )
 {
 }
+explicit
 constexpr
 RadixInfo
 (
@@ -8114,9 +8115,11 @@ isNegative
 )
 =
 =
+(
 n
 <
 0
+)
 )
 ;
 return
@@ -11517,12 +11520,18 @@ digitLength
 digit
 |
 =
+static_cast
+<
+uint64_t
+>
+(
 x
 -
 >
 digit
 (
 1
+)
 )
 <
 <
