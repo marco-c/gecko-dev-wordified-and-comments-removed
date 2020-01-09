@@ -140,15 +140,6 @@ aRenderingContext
 )
 override
 ;
-nscoord
-GetAvailableContentBSize
-(
-const
-ReflowInput
-&
-aReflowInput
-)
-;
 nsContainerFrame
 *
 GetContentInsertionFrame
@@ -278,6 +269,7 @@ nsPoint
 &
 aOffset
 )
+const
 ;
 void
 CreateBorderRenderers
@@ -450,6 +442,7 @@ aReflowInput
 bool
 aForceAuto
 )
+const
 ;
 void
 FindBestBalanceBSize
@@ -476,6 +469,16 @@ nsReflowStatus
 aStatus
 )
 ;
+nscoord
+GetAvailableContentBSize
+(
+const
+ReflowInput
+&
+aReflowInput
+)
+const
+;
 void
 ForEachColumnRule
 (
@@ -500,6 +503,7 @@ nsPoint
 &
 aPt
 )
+const
 ;
 }
 ;

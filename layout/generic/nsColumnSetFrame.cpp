@@ -543,6 +543,7 @@ nsPoint
 &
 aPt
 )
+const
 {
 nsIFrame
 *
@@ -845,6 +846,7 @@ nsPoint
 &
 aOffset
 )
+const
 {
 nsRect
 combined
@@ -1328,6 +1330,7 @@ ReflowInput
 &
 aReflowInput
 )
+const
 {
 if
 (
@@ -1418,6 +1421,7 @@ static
 nscoord
 GetColumnGap
 (
+const
 nsColumnSetFrame
 *
 aFrame
@@ -1523,6 +1527,7 @@ aForceAuto
 =
 false
 )
+const
 {
 WritingMode
 wm
