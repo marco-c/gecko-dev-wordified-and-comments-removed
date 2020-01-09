@@ -279,6 +279,8 @@ overflow
 hidden
 ;
 }
+.
+frames
 [
 role
 =
@@ -293,7 +295,10 @@ role
 listitem
 "
 ]
+:
 hover
+.
+frames
 [
 role
 =
@@ -308,6 +313,7 @@ role
 listitem
 "
 ]
+:
 focus
 {
 background
@@ -332,6 +338,8 @@ alt
 theme
 -
 dark
+.
+frames
 [
 role
 =
@@ -346,6 +354,7 @@ role
 listitem
 "
 ]
+:
 focus
 {
 background
