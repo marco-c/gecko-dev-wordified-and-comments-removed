@@ -1367,6 +1367,9 @@ bool
 mWasAllowedToStart
 ;
 bool
+mSuspendedByContent
+;
+bool
 mWasEverAllowedToStart
 ;
 bool

@@ -870,6 +870,10 @@ mWasAllowedToStart
 (
 true
 )
+mSuspendedByContent
+(
+false
+)
 mWasEverAllowedToStart
 (
 false
@@ -1032,6 +1036,10 @@ isAllowedToPlay
 if
 (
 isAllowedToPlay
+&
+&
+!
+mSuspendedByContent
 )
 {
 ResumeInternal
@@ -4539,6 +4547,10 @@ forget
 )
 ;
 }
+mSuspendedByContent
+=
+true
+;
 mPromiseGripArray
 .
 AppendElement
@@ -4819,6 +4831,10 @@ forget
 )
 ;
 }
+mSuspendedByContent
+=
+false
+;
 mPendingResumePromises
 .
 AppendElement
