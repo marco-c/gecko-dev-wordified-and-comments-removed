@@ -200,6 +200,7 @@ export
 {
 getVisibleBreakpoints
 getFirstVisibleBreakpoints
+getFirstVisibleBreakpointPosition
 }
 from
 "

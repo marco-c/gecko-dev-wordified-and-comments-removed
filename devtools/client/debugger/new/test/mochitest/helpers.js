@@ -3169,13 +3169,16 @@ breakpoints
 )
 )
 {
+(
+{
 column
+}
 =
 dbg
 .
 selectors
 .
-getFirstPausePointLocation
+getFirstVisibleBreakpointPosition
 (
 dbg
 .
@@ -3193,8 +3196,7 @@ id
 line
 }
 )
-.
-column
+)
 ;
 }
 return

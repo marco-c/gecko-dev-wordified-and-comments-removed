@@ -675,6 +675,7 @@ syncBreakpointPromise
 getState
 threadClient
 sourceMaps
+dispatch
 reloadedSource
 .
 source
@@ -855,6 +856,7 @@ syncBreakpointPromise
 getState
 threadClient
 sourceMaps
+dispatch
 reloadedSource
 .
 source
@@ -1132,6 +1134,7 @@ syncBreakpointPromise
 getState
 threadClient
 sourceMaps
+dispatch
 reloadedSource
 .
 source
@@ -1280,6 +1283,7 @@ syncBreakpointPromise
 getState
 threadClient
 sourceMaps
+dispatch
 reloadedSource
 .
 source
