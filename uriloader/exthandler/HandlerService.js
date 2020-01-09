@@ -743,7 +743,6 @@ possibleHandlers
 appendElement
 (
 handlerApp
-false
 )
 ;
 }
@@ -1390,8 +1389,6 @@ nsIHandlerInfo
 ]
 )
 type
-:
-type
 get
 _handlerInfo
 (
@@ -1418,8 +1415,6 @@ type
 }
 {
 get
-:
-function
 (
 target
 name
@@ -1441,8 +1436,6 @@ name
 ;
 }
 set
-:
-function
 (
 target
 name

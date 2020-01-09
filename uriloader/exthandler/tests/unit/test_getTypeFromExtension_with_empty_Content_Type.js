@@ -52,6 +52,7 @@ arguments
 )
 ;
 }
+;
 }
 for
 (
@@ -130,8 +131,6 @@ nsIWindowsRegKey
 ]
 )
 open
-:
-function
 (
 aRootKey
 aRelPath
@@ -164,8 +163,6 @@ aMode
 ;
 }
 openChild
-:
-function
 (
 aRelPath
 aMode
@@ -216,8 +213,6 @@ key
 ;
 }
 createChild
-:
-function
 (
 aRelPath
 aMode
@@ -294,8 +289,6 @@ valueCount
 ;
 }
 readStringValue
-:
-function
 (
 aName
 )
@@ -435,8 +428,6 @@ mockWindowsRegKeyFactory
 =
 {
 createInstance
-:
-function
 (
 aOuter
 aIid
