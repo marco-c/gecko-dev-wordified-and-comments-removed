@@ -5025,6 +5025,14 @@ return
 false
 ;
 }
+SVGObserverUtils
+:
+:
+GetAndObserveBackgroundClip
+(
+aFrame
+)
+;
 gfxContext
 *
 sourceCtx

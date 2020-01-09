@@ -785,6 +785,16 @@ aHref
 )
 ;
 static
+Element
+*
+GetAndObserveBackgroundClip
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 already_AddRefed
 <
 URLAndReferrerInfo
