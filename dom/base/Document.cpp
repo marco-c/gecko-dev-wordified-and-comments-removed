@@ -26586,9 +26586,8 @@ false
 ;
 #
 endif
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-false
 "
 CreateElement
 (
