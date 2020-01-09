@@ -51,7 +51,7 @@ Key
 Credentials
 -
 Level
-1
+2
 (
 https
 :
@@ -170,6 +170,14 @@ readonly
 attribute
 ArrayBuffer
 attestationObject
+;
+sequence
+<
+AuthenticatorTransport
+>
+getTransports
+(
+)
 ;
 }
 ;
