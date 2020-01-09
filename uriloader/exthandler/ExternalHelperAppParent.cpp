@@ -424,9 +424,6 @@ ExternalHelperAppParent
 :
 Init
 (
-ContentParent
-*
-parent
 const
 nsCString
 &
