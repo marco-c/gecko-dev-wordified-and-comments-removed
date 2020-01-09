@@ -2843,12 +2843,11 @@ SVGPathData
 :
 BuildPath
 (
-const
-nsTArray
+Span
 <
+const
 StylePathCommand
 >
-&
 aPath
 PathBuilder
 *
