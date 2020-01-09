@@ -789,12 +789,12 @@ target
 =
 "
 "
+optional
 [
 TreatNullAs
 =
 EmptyString
 ]
-optional
 DOMString
 features
 =

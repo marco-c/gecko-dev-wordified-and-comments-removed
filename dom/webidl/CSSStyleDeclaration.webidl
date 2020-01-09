@@ -213,12 +213,12 @@ EmptyString
 ]
 DOMString
 value
+optional
 [
 TreatNullAs
 =
 EmptyString
 ]
-optional
 DOMString
 priority
 =

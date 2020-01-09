@@ -31243,12 +31243,6 @@ defaultValue
 =
 None
                                 
-treatNullAs
-=
-"
-Default
-"
-                                
 isNullOrUndefined
 =
 False
@@ -31903,18 +31897,6 @@ isEnforceRange
 type
 .
 enforceRange
-    
-if
-type
-.
-treatNullAsEmpty
-:
-        
-treatNullAs
-=
-"
-EmptyString
-"
     
 if
 exceptionCode
@@ -38913,6 +38895,27 @@ undefinedBehavior
 "
 eStringify
 "
+            
+if
+type
+.
+treatNullAsEmpty
+:
+                
+treatNullAs
+=
+"
+EmptyString
+"
+            
+else
+:
+                
+treatNullAs
+=
+"
+Default
+"
         
 nullBehavior
 =
@@ -43261,14 +43264,6 @@ self
 argument
 .
 defaultValue
-            
-treatNullAs
-=
-self
-.
-argument
-.
-treatNullAs
             
 lenientFloatCode
 =
@@ -57682,29 +57677,6 @@ self
 _allowTreatNonCallableAsNull
 =
 allowTreatNonCallableAsNull
-        
-if
-interfaceMember
-:
-            
-self
-.
-treatNullAs
-=
-interfaceMember
-.
-treatNullAs
-        
-else
-:
-            
-self
-.
-treatNullAs
-=
-"
-Default
-"
         
 self
 .
@@ -77326,12 +77298,6 @@ argument
 .
 type
 descriptor
-                
-treatNullAs
-=
-argument
-.
-treatNullAs
                 
 sourceDescription
 =
@@ -113011,14 +112977,6 @@ name
 None
 )
 :
-        
-self
-.
-treatNullAs
-=
-"
-Default
-"
         
 if
 name

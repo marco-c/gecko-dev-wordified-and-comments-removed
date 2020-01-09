@@ -21,6 +21,11 @@ return
 s
 ]
 attribute
+[
+TreatNullAs
+=
+EmptyString
+]
 DOMString
 %
 s
@@ -94,11 +99,6 @@ CEReactions
 "
 "
 Throws
-"
-"
-TreatNullAs
-=
-EmptyString
 "
                          
 "
