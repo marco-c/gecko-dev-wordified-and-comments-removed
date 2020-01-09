@@ -6856,7 +6856,7 @@ const
 ;
 uint8_t
 *
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 const

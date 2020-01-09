@@ -128,7 +128,7 @@ type_
 ;
 uint8_t
 *
-returnAddressToFp_
+resumePCinCurrentFrame_
 ;
 size_t
 frameSize_
@@ -189,13 +189,13 @@ newAddr
 {
 if
 (
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 =
 oldAddr
 )
 {
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 newAddr
 ;
@@ -585,13 +585,13 @@ const
 ;
 uint8_t
 *
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 const
 {
 return
-returnAddressToFp_
+resumePCinCurrentFrame_
 ;
 }
 inline
@@ -877,7 +877,7 @@ type_
 ;
 void
 *
-returnAddressToFp_
+resumePCinCurrentFrame_
 ;
 inline
 JitFrameLayout
@@ -1034,7 +1034,7 @@ type_
 }
 void
 *
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 const
@@ -1048,7 +1048,7 @@ done
 )
 ;
 return
-returnAddressToFp_
+resumePCinCurrentFrame_
 ;
 }
 }

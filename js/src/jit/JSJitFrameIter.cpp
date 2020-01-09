@@ -92,7 +92,7 @@ FrameType
 :
 Exit
 )
-returnAddressToFp_
+resumePCinCurrentFrame_
 (
 nullptr
 )
@@ -196,7 +196,7 @@ type_
 (
 frameType
 )
-returnAddressToFp_
+resumePCinCurrentFrame_
 (
 nullptr
 )
@@ -351,7 +351,7 @@ uint8_t
 *
 returnAddr
 =
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 ;
@@ -726,7 +726,7 @@ uint8_t
 *
 retAddr
 =
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 ;
@@ -881,7 +881,7 @@ prevType
 (
 )
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 current
 (
@@ -1356,7 +1356,7 @@ ionScript
 >
 getSafepointIndex
 (
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 )
@@ -2226,7 +2226,7 @@ verifyReturnAddressUsingNativeToBytecodeMap
 {
 MOZ_ASSERT
 (
-returnAddressToFp_
+resumePCinCurrentFrame_
 !
 =
 nullptr
@@ -2343,7 +2343,7 @@ getJitcodeGlobalTable
 >
 lookup
 (
-returnAddressToFp_
+resumePCinCurrentFrame_
 )
 ;
 if
@@ -2373,7 +2373,7 @@ p
 %
 p
 "
-returnAddressToFp_
+resumePCinCurrentFrame_
 entry
 -
 >
@@ -2408,7 +2408,7 @@ entry
 callStackAtAddr
 (
 rt
-returnAddressToFp_
+resumePCinCurrentFrame_
 location
 &
 depth
@@ -2802,7 +2802,7 @@ fp_
 =
 nullptr
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 nullptr
 ;
@@ -2862,7 +2862,7 @@ fp_
 =
 nullptr
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 nullptr
 ;
@@ -2997,7 +2997,7 @@ FrameType
 :
 BaselineJS
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 frameScript
 (
@@ -3138,7 +3138,7 @@ FrameType
 :
 IonJS
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 pc
 ;
@@ -3182,7 +3182,7 @@ FrameType
 :
 BaselineJS
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 pc
 ;
@@ -3306,7 +3306,7 @@ fp_
 =
 nullptr
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 nullptr
 ;
@@ -3353,7 +3353,7 @@ FrameType
 :
 IonJS
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 pc
 ;
@@ -3402,7 +3402,7 @@ FrameType
 :
 BaselineJS
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 pc
 ;
@@ -3485,7 +3485,7 @@ FrameType
 :
 IonJS
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 pc
 ;
@@ -3554,7 +3554,7 @@ getDebugModeOSRInfo
 )
 )
 {
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 info
 -
@@ -3592,7 +3592,7 @@ script
 (
 )
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 script
 -
@@ -3649,7 +3649,7 @@ CommonFrameLayout
 frame
 )
 {
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 nullptr
 ;
@@ -3688,7 +3688,7 @@ moveToCppEntryFrame
 (
 )
 {
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 nullptr
 ;
@@ -3736,7 +3736,7 @@ FrameType
 IonJS
 )
 {
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 frame
 -
@@ -3777,7 +3777,7 @@ FrameType
 BaselineJS
 )
 {
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 frame
 -
@@ -3851,7 +3851,7 @@ FrameType
 BaselineJS
 )
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 stubFrame
 -
@@ -3942,7 +3942,7 @@ FrameType
 IonJS
 )
 {
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 rectFrame
 -
@@ -3996,7 +3996,7 @@ BaselineStubFrameLayout
 rectFrame
 )
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 stubFrame
 -
@@ -4134,7 +4134,7 @@ FrameType
 IonJS
 )
 ;
-returnAddressToFp_
+resumePCinCurrentFrame_
 =
 callFrame
 -

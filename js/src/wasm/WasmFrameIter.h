@@ -160,7 +160,7 @@ unwoundAddressOfReturnAddress_
 ;
 uint8_t
 *
-returnAddressToFp_
+resumePCinCurrentFrame_
 ;
 void
 popFrame
@@ -348,7 +348,7 @@ fp_
 }
 uint8_t
 *
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 const

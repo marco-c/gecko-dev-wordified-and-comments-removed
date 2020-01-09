@@ -993,7 +993,7 @@ retAddr
 =
 frame
 .
-returnAddressToFp
+resumePCinCurrentFrame
 (
 )
 ;
