@@ -179,7 +179,7 @@ tree
 node
 .
 "
-setup
+action
 :
 async
 (
@@ -252,7 +252,7 @@ tree
 node
 .
 "
-setup
+action
 :
 async
 (
@@ -395,7 +395,7 @@ tree
 node
 .
 "
-setup
+action
 :
 (
 {
@@ -476,7 +476,7 @@ tree
 node
 .
 "
-setup
+action
 :
 async
 (
@@ -582,7 +582,7 @@ node
 again
 .
 "
-setup
+action
 :
 async
 (

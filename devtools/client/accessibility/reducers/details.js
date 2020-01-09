@@ -116,7 +116,6 @@ const
 [
 DOMNode
 relationObjects
-audit
 ]
 =
 response
@@ -168,7 +167,6 @@ return
 accessible
 DOMNode
 relations
-audit
 }
 ;
 }

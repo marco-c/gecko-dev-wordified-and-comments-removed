@@ -99,7 +99,7 @@ third
 row
 .
 "
-setup
+action
 :
 async
 (
@@ -257,7 +257,7 @@ a
 document
 .
 "
-setup
+action
 :
 async
 (
@@ -433,7 +433,7 @@ text
 content
 .
 "
-setup
+action
 :
 async
 (
@@ -541,7 +541,7 @@ the
 tree
 .
 "
-setup
+action
 :
 (
 {
