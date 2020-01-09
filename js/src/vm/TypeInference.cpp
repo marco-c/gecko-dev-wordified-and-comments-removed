@@ -23452,7 +23452,7 @@ setBaseObjectCount
 objectCount
 )
 ;
-Poison
+AlwaysPoison
 (
 oldArray
 -
@@ -23678,7 +23678,7 @@ next
 (
 )
 ;
-Poison
+AlwaysPoison
 (
 constraint
 JS_SWEPT_TI_PATTERN
@@ -24039,7 +24039,7 @@ oldCapacity
 1
 )
 ;
-Poison
+AlwaysPoison
 (
 oldArray
 -
@@ -24147,7 +24147,7 @@ isPreservingCode
 )
 )
 {
-Poison
+AlwaysPoison
 (
 prop
 JS_SWEPT_TI_PATTERN
@@ -24179,7 +24179,7 @@ Property
 prop
 )
 ;
-Poison
+AlwaysPoison
 (
 prop
 JS_SWEPT_TI_PATTERN
@@ -24350,7 +24350,7 @@ isPreservingCode
 )
 )
 {
-Poison
+AlwaysPoison
 (
 prop
 JS_SWEPT_TI_PATTERN
@@ -24387,7 +24387,7 @@ Property
 prop
 )
 ;
-Poison
+AlwaysPoison
 (
 prop
 JS_SWEPT_TI_PATTERN

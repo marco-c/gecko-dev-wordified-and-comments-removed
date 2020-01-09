@@ -3310,7 +3310,7 @@ NativeIterator
 (
 )
 {
-Poison
+AlwaysPoison
 (
 static_cast
 <

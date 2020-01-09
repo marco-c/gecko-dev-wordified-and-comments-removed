@@ -20297,7 +20297,7 @@ if
 data_
 )
 {
-Poison
+AlwaysPoison
 (
 data_
 0xdb
