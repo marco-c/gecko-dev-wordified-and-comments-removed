@@ -5279,6 +5279,12 @@ forceLexicalInitializationByName
 NotAllowed
 }
 ;
+ReplayDebugger
+.
+Object
+=
+ReplayDebuggerObject
+;
 function
 ReplayDebuggerObjectSnapshot
 (

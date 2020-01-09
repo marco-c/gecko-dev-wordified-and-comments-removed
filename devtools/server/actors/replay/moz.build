@@ -103,6 +103,11 @@ graphics
 js
 '
 '
+inspector
+.
+js
+'
+'
 replay
 .
 js
