@@ -16777,7 +16777,7 @@ mColor
 )
 )
 ;
-uint8_t
+StyleTextDecorationLine
 decorations
 =
 textContext
@@ -16801,9 +16801,9 @@ if
 decorations
 &
 (
-NS_STYLE_TEXT_DECORATION_LINE_OVERLINE
+StyleTextDecorationLine_OVERLINE
 |
-NS_STYLE_TEXT_DECORATION_LINE_UNDERLINE
+StyleTextDecorationLine_UNDERLINE
 )
 )
 {
@@ -16820,7 +16820,7 @@ if
 (
 decorations
 &
-NS_STYLE_TEXT_DECORATION_LINE_OVERLINE
+StyleTextDecorationLine_OVERLINE
 )
 {
 nsRect
@@ -16863,7 +16863,7 @@ if
 (
 decorations
 &
-NS_STYLE_TEXT_DECORATION_LINE_UNDERLINE
+StyleTextDecorationLine_UNDERLINE
 )
 {
 nsRect
@@ -16911,7 +16911,7 @@ if
 (
 decorations
 &
-NS_STYLE_TEXT_DECORATION_LINE_LINE_THROUGH
+StyleTextDecorationLine_LINE_THROUGH
 )
 {
 fontMet

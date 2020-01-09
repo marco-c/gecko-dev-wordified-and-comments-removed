@@ -670,14 +670,6 @@ stroke
 "
 text
 -
-decoration
--
-line
-"
-    
-"
-text
--
 emphasis
 -
 position

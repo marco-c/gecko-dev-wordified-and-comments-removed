@@ -1355,13 +1355,6 @@ kTextAlignKTable
 static
 const
 KTableEntry
-kTextDecorationLineKTable
-[
-]
-;
-static
-const
-KTableEntry
 kTextDecorationStyleKTable
 [
 ]
