@@ -297,6 +297,11 @@ IteratorResult
 webidl
 '
 '
+JSWindowActor
+.
+webidl
+'
+'
 MatchGlob
 .
 webidl
