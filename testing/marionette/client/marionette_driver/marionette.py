@@ -9410,7 +9410,7 @@ def
 switch_to_window
 (
 self
-window_id
+handle
 focus
 =
 True
@@ -9440,7 +9440,7 @@ window
         
 :
 param
-window_id
+handle
 :
 The
 id
@@ -9500,7 +9500,12 @@ focus
 name
 "
 :
-window_id
+handle
+"
+handle
+"
+:
+handle
 }
 )
         
@@ -9508,7 +9513,7 @@ self
 .
 window
 =
-window_id
+handle
     
 def
 get_active_frame
