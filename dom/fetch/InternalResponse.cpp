@@ -207,6 +207,13 @@ mPaddingSize
 =
 mPaddingSize
 ;
+clone
+-
+>
+mCacheInfoChannel
+=
+mCacheInfoChannel
+;
 if
 (
 mWrappedResponse
