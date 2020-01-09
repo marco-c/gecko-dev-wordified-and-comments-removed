@@ -3321,14 +3321,6 @@ HandleObject
 obj
 )
 {
-cx
--
->
-check
-(
-obj
-)
-;
 if
 (
 obj
