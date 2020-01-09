@@ -243,8 +243,6 @@ values
 textContent
 "
 {
-\
-u2026
 }
 "
 "

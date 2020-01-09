@@ -953,11 +953,6 @@ loadSubScript
 (
 script
 win
-"
-UTF
--
-8
-"
 )
 ;
 }

@@ -344,7 +344,7 @@ var
 msg
 =
 "
-loadSubscript
+loadSubScript
 should
 throw
 an

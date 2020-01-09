@@ -267,13 +267,9 @@ organization
 textContent
 Organization
 :
-\
-u201C
 {
 TEST_ORG
 }
-\
-u201D
 "
 Actual
 and
@@ -304,13 +300,9 @@ textContent
 Issued
 Under
 :
-\
-u201C
 {
 TEST_ISSUER_ORG
 }
-\
-u201D
 "
 Actual
 and

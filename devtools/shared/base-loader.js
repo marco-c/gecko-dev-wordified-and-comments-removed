@@ -913,11 +913,6 @@ module
 .
 uri
 sandbox
-"
-UTF
--
-8
-"
 )
 ;
 }

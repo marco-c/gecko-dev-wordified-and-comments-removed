@@ -4546,11 +4546,6 @@ loadSubScript
 (
 HEURISTICS_REGEXP
 sandbox
-"
-utf
--
-8
-"
 )
 ;
 return

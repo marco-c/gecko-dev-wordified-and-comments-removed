@@ -151,11 +151,6 @@ uri
 .
 spec
 srvScope
-"
-utf
--
-8
-"
 )
 ;
 }

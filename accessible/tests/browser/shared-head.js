@@ -802,7 +802,7 @@ join
 let
 encodedDoc
 =
-btoa
+encodeURIComponent
 (
 <
 html
@@ -865,8 +865,6 @@ charset
 utf
 -
 8
-;
-base64
 {
 encodedDoc
 }

@@ -37,8 +37,6 @@ const
 result
 =
 "
-\
-u2764
 "
 ;
 const

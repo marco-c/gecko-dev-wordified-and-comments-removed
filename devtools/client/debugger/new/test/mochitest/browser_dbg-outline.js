@@ -258,14 +258,6 @@ is
 firstAlphaFunction
 .
 innerText
-.
-replace
-(
-"
-"
-"
-"
-)
 "
 doEval
 (
