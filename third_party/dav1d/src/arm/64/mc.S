@@ -2276,16 +2276,16 @@ is
 set
 to
 (
-24
--
 clz
 (
 w
 )
+-
+24
 )
 .
 function
-put
+put_neon
 adr
 x9
 L
@@ -2852,12 +2852,12 @@ is
 set
 to
 (
-24
--
 clz
 (
 w
 )
+-
+24
 )
 and
 x7
@@ -2867,7 +2867,7 @@ w
 2
 .
 function
-prep
+prep_neon
 adr
 x9
 L
@@ -6663,6 +6663,10 @@ op
 (
 )
 _8tap
+\
+(
+)
+_neon
 endfunc
 .
 endm
@@ -6807,7 +6811,7 @@ type
 \
 (
 )
-_8tap
+_8tap_neon
 mov
 w10
 #
@@ -6951,6 +6955,10 @@ _8tap_v
 b
 \
 type
+\
+(
+)
+_neon
 L
 (
 \
@@ -15243,6 +15251,10 @@ _bilin_v
 b
 \
 type
+\
+(
+)
+_neon
 L
 (
 \
@@ -19064,7 +19076,7 @@ inc
 .
 endm
 function
-warp_filter_horz
+warp_filter_horz_neon
 add
 w12
 w5
@@ -19682,7 +19694,7 @@ x1
 .
 endif
 bl
-warp_filter_horz
+warp_filter_horz_neon
 mov
 v24
 .
@@ -19691,7 +19703,7 @@ v16
 .
 16b
 bl
-warp_filter_horz
+warp_filter_horz_neon
 mov
 v25
 .
@@ -19700,7 +19712,7 @@ v16
 .
 16b
 bl
-warp_filter_horz
+warp_filter_horz_neon
 mov
 v26
 .
@@ -19709,7 +19721,7 @@ v16
 .
 16b
 bl
-warp_filter_horz
+warp_filter_horz_neon
 mov
 v27
 .
@@ -19718,7 +19730,7 @@ v16
 .
 16b
 bl
-warp_filter_horz
+warp_filter_horz_neon
 mov
 v28
 .
@@ -19727,7 +19739,7 @@ v16
 .
 16b
 bl
-warp_filter_horz
+warp_filter_horz_neon
 mov
 v29
 .
@@ -19736,7 +19748,7 @@ v16
 .
 16b
 bl
-warp_filter_horz
+warp_filter_horz_neon
 mov
 v30
 .
@@ -19752,7 +19764,7 @@ w6
 #
 512
 bl
-warp_filter_horz
+warp_filter_horz_neon
 mov
 v31
 .

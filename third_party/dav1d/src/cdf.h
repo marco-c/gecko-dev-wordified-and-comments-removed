@@ -51,6 +51,8 @@ y_mode
 N_INTRA_PRED_MODES
 +
 1
++
+2
 ]
 ;
 uint16_t
@@ -80,6 +82,8 @@ N_INTRA_PRED_MODES
 ]
 [
 N_UV_INTRA_PRED_MODES
++
+1
 +
 1
 ]
@@ -381,6 +385,8 @@ N_BL_LEVELS
 N_PARTITIONS
 +
 1
++
+5
 ]
 ;
 uint16_t
@@ -580,6 +586,8 @@ eob_bin_32
 ]
 [
 7
++
+1
 ]
 ;
 uint16_t
@@ -616,6 +624,8 @@ eob_bin_256
 ]
 [
 10
++
+6
 ]
 ;
 uint16_t
@@ -628,6 +638,8 @@ eob_bin_512
 ]
 [
 11
++
+5
 ]
 ;
 uint16_t
@@ -640,6 +652,8 @@ eob_bin_1024
 ]
 [
 12
++
+4
 ]
 ;
 uint16_t
@@ -727,6 +741,8 @@ classes
 11
 +
 1
++
+4
 ]
 ;
 uint16_t
@@ -824,6 +840,8 @@ kfym
 N_INTRA_PRED_MODES
 +
 1
++
+2
 ]
 ;
 CdfCoefContext

@@ -122,6 +122,15 @@ c
 bitfn_decls
 (
 void
+dav1d_loop_filter_dsp_init_arm
+Dav1dLoopFilterDSPContext
+*
+c
+)
+;
+bitfn_decls
+(
+void
 dav1d_loop_filter_dsp_init_x86
 Dav1dLoopFilterDSPContext
 *

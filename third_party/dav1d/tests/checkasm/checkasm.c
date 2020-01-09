@@ -183,6 +183,12 @@ tests
 ]
 =
 {
+{
+"
+msac
+"
+checkasm_check_msac
+}
 #
 if
 CONFIG_8BPC

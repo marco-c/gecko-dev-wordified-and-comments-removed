@@ -278,6 +278,13 @@ checkasm
 .
 c
 '
+'
+checkasm
+/
+msac
+.
+c
+'
 )
 checkasm_tmpl_sources
 =

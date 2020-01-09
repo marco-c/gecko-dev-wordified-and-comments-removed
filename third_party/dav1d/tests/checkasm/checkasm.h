@@ -155,6 +155,12 @@ _16bpc
 (
 void
 )
+void
+checkasm_check_msac
+(
+void
+)
+;
 decl_check_bitfns
 (
 void
