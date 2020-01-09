@@ -462,7 +462,7 @@ _runtimes
 ;
 }
 async
-_startAdb
+_startTracking
 (
 )
 {
@@ -506,7 +506,7 @@ UPDATE_RUNTIMES_INTERVAL
 ;
 }
 async
-_stopAdb
+_stopTracking
 (
 )
 {
@@ -526,13 +526,6 @@ false
 this
 .
 _trackDevicesCommand
-.
-stop
-(
-)
-;
-await
-adbProcess
 .
 stop
 (
@@ -607,7 +600,7 @@ _shouldTrack
 {
 this
 .
-_startAdb
+_startTracking
 (
 )
 ;
@@ -630,7 +623,7 @@ _shouldTrack
 {
 this
 .
-_stopAdb
+_stopTracking
 (
 )
 ;

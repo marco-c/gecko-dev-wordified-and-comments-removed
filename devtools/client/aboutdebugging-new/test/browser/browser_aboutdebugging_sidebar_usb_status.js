@@ -250,7 +250,7 @@ disabled
 )
 ;
 await
-waitForAdbStop
+stopAdbProcess
 (
 )
 ;
