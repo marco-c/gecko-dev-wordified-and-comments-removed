@@ -1154,6 +1154,15 @@ RunTasks
 (
 )
 {
+if
+(
+!
+mInitialized
+)
+{
+return
+;
+}
 TimeStamp
 now
 =
