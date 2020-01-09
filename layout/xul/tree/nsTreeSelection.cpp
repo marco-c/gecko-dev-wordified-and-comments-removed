@@ -2164,16 +2164,12 @@ nsCOMPtr
 nsITreeView
 >
 view
-;
+=
 mTree
 -
 >
 GetView
 (
-getter_AddRefs
-(
-view
-)
 )
 ;
 if
