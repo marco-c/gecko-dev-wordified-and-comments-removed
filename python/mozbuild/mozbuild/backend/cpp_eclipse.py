@@ -1704,6 +1704,8 @@ self
 .
 _workspace_lang_dir
 "
+Gecko
+.
 *
 .
 pdom
