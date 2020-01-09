@@ -849,7 +849,6 @@ NS_ConvertUTF8toUTF16
 state
 .
 controllerName
-kVRControllerNameMaxLen
 )
 dom
 :
