@@ -47432,12 +47432,16 @@ aConstructor
 >
 Construct
 (
+aRv
 "
 Custom
 Element
 Create
 "
-aRv
+CallbackFunction
+:
+:
+eRethrowExceptions
 )
 ;
 if
