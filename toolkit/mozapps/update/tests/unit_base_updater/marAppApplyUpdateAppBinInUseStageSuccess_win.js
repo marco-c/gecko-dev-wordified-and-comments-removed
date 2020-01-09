@@ -74,7 +74,7 @@ true
 ;
 lockDirectory
 (
-getAppBaseDir
+getGREBinDir
 (
 )
 .

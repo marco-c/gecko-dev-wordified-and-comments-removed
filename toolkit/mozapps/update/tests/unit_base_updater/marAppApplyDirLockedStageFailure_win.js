@@ -33,7 +33,7 @@ setTestFilesAndDirsForFailure
 ;
 createUpdateInProgressLockFile
 (
-getAppBaseDir
+getGREBinDir
 (
 )
 )
@@ -63,7 +63,7 @@ stageUpdateFinished
 {
 removeUpdateInProgressLockFile
 (
-getAppBaseDir
+getGREBinDir
 (
 )
 )
