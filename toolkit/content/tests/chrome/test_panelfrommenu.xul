@@ -731,7 +731,7 @@ menu
 "
 )
 .
-firstChild
+menupopup
 .
 state
 "
@@ -780,7 +780,7 @@ menu
 "
 )
 .
-firstChild
+menupopup
 .
 state
 "
