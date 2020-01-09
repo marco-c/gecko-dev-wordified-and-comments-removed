@@ -2328,8 +2328,6 @@ cppunit
 -
 gtest
 -
-jsreftest
--
 marionette
 -
 mochitest
