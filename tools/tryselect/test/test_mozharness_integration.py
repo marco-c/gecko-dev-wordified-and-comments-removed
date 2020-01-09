@@ -209,14 +209,6 @@ browser
 -
 chrome
 -
-addons
-'
-    
-'
-browser
--
-chrome
--
 instrumentation
 '
     
@@ -282,12 +274,6 @@ qr
 valgrind
 -
 plain
-'
-    
-'
-xpcshell
--
-addons
 '
 )
 "
