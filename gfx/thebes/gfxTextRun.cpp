@@ -5661,12 +5661,11 @@ i
 -
 aStart
 ]
-!
-=
+>
 HyphenType
 :
 :
-None
+Explicit
 ;
 bool
 atAutoHyphenWithManualHyphenInSameWord
