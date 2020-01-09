@@ -22152,7 +22152,7 @@ aMouseEvent
 mMessage
 =
 =
-eMouseClick
+eMouseAuxClick
 &
 &
 aMouseEvent

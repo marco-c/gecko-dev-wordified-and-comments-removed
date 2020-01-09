@@ -1469,6 +1469,7 @@ aTextarea
 .
 value
 "
+abc
 "
 "
 If
@@ -1488,6 +1489,7 @@ body
 >
 paste
 should
+not
 be
 canceled
 "
@@ -1496,7 +1498,7 @@ canceled
 is
 (
 pasteEventCount
-0
+1
 "
 If
 '
@@ -1518,7 +1520,7 @@ paste
 '
 event
 should
-not
+still
 be
 fired
 "
@@ -1529,9 +1531,8 @@ is
 inputEvents
 .
 length
-0
+1
 '
-No
 "
 input
 "
@@ -1792,8 +1793,7 @@ value
 abc
 "
 "
-Even
-if
+If
 '
 click
 '
@@ -1819,8 +1819,7 @@ is
 pasteEventCount
 1
 "
-Even
-if
+If
 '
 click
 '
@@ -1968,7 +1967,7 @@ button
 }
 )
 ;
-todo_is
+is
 (
 aTextarea
 .
@@ -1990,7 +1989,7 @@ canceled
 "
 )
 ;
-todo_is
+is
 (
 pasteEventCount
 0
@@ -2014,7 +2013,7 @@ once
 "
 )
 ;
-todo_is
+is
 (
 inputEvents
 .
@@ -2349,6 +2348,7 @@ aEditableDiv
 .
 innerHTML
 "
+abc
 "
 "
 If
@@ -2366,6 +2366,7 @@ the
 window
 paste
 should
+not
 be
 canceled
 "
@@ -2374,7 +2375,7 @@ canceled
 is
 (
 pasteEventCount
-0
+1
 "
 If
 '
@@ -2405,14 +2406,14 @@ is
 inputEvents
 .
 length
-0
+1
 '
-No
 "
 input
 "
 event
 should
+still
 be
 fired
 when
@@ -2882,7 +2883,7 @@ button
 }
 )
 ;
-todo_is
+is
 (
 aEditableDiv
 .
@@ -2904,7 +2905,7 @@ canceled
 "
 )
 ;
-todo_is
+is
 (
 pasteEventCount
 0
@@ -2927,7 +2928,7 @@ fired
 "
 )
 ;
-todo_is
+is
 (
 inputEvents
 .
@@ -3885,7 +3886,7 @@ button
 }
 )
 ;
-todo_is
+is
 (
 pasteTarget
 textarea
@@ -4430,7 +4431,7 @@ button
 }
 )
 ;
-todo_is
+is
 (
 pasteTarget
 .
