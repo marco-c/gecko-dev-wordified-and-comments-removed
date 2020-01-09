@@ -280,9 +280,6 @@ props
 0
 mode
 maybeScrollToBottom
-focusable
-:
-false
 onCmdCtrlClick
 :
 (
