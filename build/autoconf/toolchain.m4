@@ -400,17 +400,6 @@ strip
 )
 AC_CHECK_PROGS
 (
-WINDRES
-"
-{
-TOOLCHAIN_PREFIX
-}
-windres
-"
-:
-)
-AC_CHECK_PROGS
-(
 OTOOL
 "
 {
