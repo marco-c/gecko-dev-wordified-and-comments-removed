@@ -2438,7 +2438,7 @@ statusOverlay
 removeAttribute
 (
 "
-error
+status
 "
 )
 ;
@@ -3784,7 +3784,7 @@ statusOverlay
 setAttribute
 (
 "
-error
+status
 "
 error
 )
@@ -11210,7 +11210,7 @@ span
 class
 =
 "
-errorLabel
+statusLabel
 "
 id
 =
@@ -11232,7 +11232,7 @@ span
 class
 =
 "
-errorLabel
+statusLabel
 "
 id
 =
@@ -11254,7 +11254,7 @@ span
 class
 =
 "
-errorLabel
+statusLabel
 "
 id
 =
@@ -11276,7 +11276,7 @@ span
 class
 =
 "
-errorLabel
+statusLabel
 "
 id
 =
@@ -11298,7 +11298,7 @@ span
 class
 =
 "
-errorLabel
+statusLabel
 "
 id
 =
@@ -11320,7 +11320,7 @@ span
 class
 =
 "
-errorLabel
+statusLabel
 "
 id
 =
