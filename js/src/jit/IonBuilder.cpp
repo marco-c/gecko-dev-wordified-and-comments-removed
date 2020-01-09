@@ -17150,12 +17150,9 @@ info
 (
 )
 .
-analysisMode
+isAnalysis
 (
 )
-=
-=
-Analysis_ArgumentsUsage
 )
 {
 return
@@ -17170,8 +17167,6 @@ Try
 -
 catch
 during
-arguments
-usage
 analysis
 "
 )
