@@ -3946,8 +3946,15 @@ checkAccessorsAreNative
 )
 const
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+accessors
+.
+getter
+.
+native
+.
+info
 accessors
 .
 getter
