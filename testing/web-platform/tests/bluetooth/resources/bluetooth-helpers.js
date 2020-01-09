@@ -113,8 +113,14 @@ performChromiumSetup
 {
 if
 (
-!
+typeof
 Mojo
+=
+=
+=
+'
+undefined
+'
 )
 {
 return
