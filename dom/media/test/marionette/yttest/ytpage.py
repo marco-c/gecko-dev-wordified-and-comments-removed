@@ -221,6 +221,11 @@ MediaDecoder
 "
 VideoSink
 "
+    
+"
+Dropped
+Frames
+"
 )
 class
 YoutubePage
