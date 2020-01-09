@@ -3284,7 +3284,7 @@ rv
 mEventSource
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -3463,7 +3463,7 @@ rv
 mEventSource
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -4000,7 +4000,7 @@ rv
 mEventSource
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -4323,7 +4323,7 @@ rv
 mEventSource
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -4676,7 +4676,7 @@ rv
 mEventSource
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -5298,7 +5298,7 @@ rv
 mEventSource
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -5936,7 +5936,7 @@ rv
 mEventSource
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;

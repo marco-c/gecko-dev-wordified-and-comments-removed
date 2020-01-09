@@ -219,7 +219,7 @@ NS_FAILED
 mBC
 -
 >
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 )

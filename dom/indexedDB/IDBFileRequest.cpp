@@ -252,7 +252,7 @@ if
 (
 NS_FAILED
 (
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 )

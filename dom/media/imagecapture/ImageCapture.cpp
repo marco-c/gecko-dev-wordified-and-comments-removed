@@ -735,7 +735,7 @@ NS_IsMainThread
 nsresult
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;

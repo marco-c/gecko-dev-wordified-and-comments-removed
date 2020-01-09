@@ -7650,7 +7650,7 @@ thread
 nsresult
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
@@ -7747,7 +7747,7 @@ thread
 nsresult
 rv
 =
-CheckInnerWindowCorrectness
+CheckCurrentGlobalCorrectness
 (
 )
 ;
