@@ -245,8 +245,7 @@ nsAtom
 aName
 )
 {
-if
-(
+return
 aName
 =
 =
@@ -254,12 +253,6 @@ nsGkAtoms
 :
 :
 points
-)
-return
-true
-;
-return
-false
 ;
 }
 void
