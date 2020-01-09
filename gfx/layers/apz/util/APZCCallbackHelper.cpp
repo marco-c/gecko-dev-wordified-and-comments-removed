@@ -815,6 +815,18 @@ IsRootScrollFrameOfDocument
 {
 if
 (
+!
+APZCCallbackHelper
+:
+:
+IsScrollInProgress
+(
+sf
+)
+)
+{
+if
+(
 nsCOMPtr
 <
 nsIPresShell
@@ -861,6 +873,7 @@ MarkEverScrolled
 (
 )
 ;
+}
 }
 }
 }
