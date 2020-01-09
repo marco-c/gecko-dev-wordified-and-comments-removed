@@ -11043,11 +11043,6 @@ isAsync
 funbox
 -
 >
-function
-(
-)
--
->
 explicitName
 (
 )
@@ -12465,11 +12460,6 @@ valid
 =
 (
 funbox
--
->
-function
-(
-)
 -
 >
 kind
@@ -25520,11 +25510,6 @@ nullptr
 funbox
 -
 >
-function
-(
-)
--
->
 kind
 (
 )
@@ -36186,11 +36171,6 @@ asFunctionBox
 if
 (
 box
--
->
-function
-(
-)
 -
 >
 kind

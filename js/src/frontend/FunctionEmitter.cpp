@@ -1918,11 +1918,6 @@ if
 funbox_
 -
 >
-function
-(
-)
--
->
 kind
 (
 )

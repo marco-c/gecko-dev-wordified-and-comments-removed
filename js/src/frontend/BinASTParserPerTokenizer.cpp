@@ -1964,11 +1964,6 @@ if
 funbox
 -
 >
-function
-(
-)
--
->
 isNamedLambda
 (
 )
@@ -2184,11 +2179,6 @@ functionBox
 )
 -
 >
-function
-(
-)
--
->
 isNamedLambda
 (
 )
@@ -2202,11 +2192,6 @@ pc_
 -
 >
 functionBox
-(
-)
--
->
-function
 (
 )
 -
@@ -3347,11 +3332,6 @@ pc_
 -
 >
 functionBox
-(
-)
--
->
-function
 (
 )
 -

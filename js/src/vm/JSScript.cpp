@@ -21635,11 +21635,6 @@ asFunctionBox
 )
 -
 >
-function
-(
-)
--
->
 isNamedLambda
 (
 )

@@ -14636,11 +14636,6 @@ funbox
 )
 -
 >
-function
-(
-)
--
->
 isArrow
 (
 )
@@ -18163,11 +18158,6 @@ FunctionNode
 )
 .
 funbox
-(
-)
--
->
-function
 (
 )
 -
