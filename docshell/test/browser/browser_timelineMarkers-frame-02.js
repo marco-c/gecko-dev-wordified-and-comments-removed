@@ -1021,7 +1021,7 @@ Timestamp
 "
 setup
 (
-docshell
+docShell
 )
 {
 content

@@ -4,7 +4,7 @@ strict
 "
 ;
 var
-URL
+TEST_URL
 =
 "
 <
@@ -116,7 +116,7 @@ div
 >
 "
 ;
-URL
+TEST_URL
 =
 "
 data
@@ -132,7 +132,7 @@ utf8
 +
 encodeURIComponent
 (
-URL
+TEST_URL
 )
 ;
 var
@@ -149,6 +149,6 @@ frame
 .
 js
 "
-URL
+TEST_URL
 )
 ;

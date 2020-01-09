@@ -652,9 +652,6 @@ setup
 docShell
 )
 {
-let
-doc
-=
 content
 .
 window

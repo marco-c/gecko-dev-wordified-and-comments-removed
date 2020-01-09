@@ -21,7 +21,6 @@ id
 )
 {
 return
-await
 ContentTask
 .
 spawn
@@ -136,7 +135,6 @@ parentId
 )
 {
 return
-await
 ContentTask
 .
 spawn
@@ -314,7 +312,6 @@ id
 )
 {
 return
-await
 ContentTask
 .
 spawn

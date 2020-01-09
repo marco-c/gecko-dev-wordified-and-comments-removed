@@ -59,9 +59,6 @@ ds
 =
 >
 {
-let
-window
-=
 ds
 .
 QueryInterface
