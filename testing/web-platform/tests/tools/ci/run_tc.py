@@ -1655,6 +1655,18 @@ except
 KeyError
 :
         
+print
+(
+"
+WARNING
+:
+Missing
+TASK_EVENT
+environment
+variable
+"
+)
+        
 event
 =
 {
