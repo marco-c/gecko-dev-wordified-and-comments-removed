@@ -538,9 +538,9 @@ git
 wholename
 '
 ]
-                  
-]
                  
+]
+                
 ]
             
 ]
@@ -1177,6 +1177,8 @@ True
 try
 :
                     
+_watch_result
+=
 self
 .
 client
@@ -1305,6 +1307,8 @@ pywatchman
 SocketTimeout
 :
                     
+_version
+=
 self
 .
 client

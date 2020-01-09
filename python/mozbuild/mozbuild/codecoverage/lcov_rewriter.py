@@ -1,9 +1,4 @@
 from
-__future__
-import
-absolute_import
-print_function
-from
 argparse
 import
 ArgumentParser
@@ -45,7 +40,6 @@ path
 as
 mozpath
 from
-.
 manifest_handler
 import
 ChromeManifestHandler
@@ -338,7 +332,6 @@ self
 function_exec_counts
 =
 {
-            
 fn_name
 :
 count
@@ -352,7 +345,7 @@ self
 .
 function_exec_counts
 )
-            
+                                     
 if
 fn_name
 in
@@ -986,7 +979,6 @@ _current_pp_info
 =
 dict
 (
-            
 [
 (
 tuple
@@ -3661,7 +3653,6 @@ mozpath
 .
 normpath
 (
-                    
 mozpath
 .
 join
@@ -3672,7 +3663,6 @@ topobjdir
 '
 dist
 '
-                                 
 '
 bin
 '
@@ -3699,7 +3689,6 @@ lstrip
 '
 )
 )
-                    
 )
             
 elif
@@ -3817,7 +3806,6 @@ topobjdir
 '
 dist
 '
-                                                    
 '
 xpi
 -
@@ -3972,7 +3960,6 @@ bin
 browser
 /
 '
-                 
 gredir
 =
 '
@@ -4263,7 +4250,6 @@ parser
 =
 ArgumentParser
 (
-        
 description
 =
 "
@@ -4277,7 +4263,7 @@ info
 files
 produced
 "
-        
+                            
 "
 by
 spidermonkey
@@ -4291,7 +4277,7 @@ maps
 file
 urls
 "
-        
+                            
 "
 back
 to
@@ -4303,7 +4289,7 @@ in
 preprocessed
 files
 "
-        
+                            
 "
 back
 to
@@ -4312,14 +4298,12 @@ original
 locations
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 -
@@ -4338,6 +4322,7 @@ map
 .
 json
 "
+                        
 help
 =
 "
@@ -4352,14 +4337,12 @@ json
 file
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 -
@@ -4367,7 +4350,6 @@ app
 -
 dir
 "
-        
 default
 =
 "
@@ -4378,7 +4360,7 @@ bin
 browser
 /
 "
-        
+                        
 help
 =
 "
@@ -4395,7 +4377,7 @@ used
 to
 map
 "
-        
+                             
 "
 urls
 starting
@@ -4411,7 +4393,7 @@ may
 differ
 by
 "
-        
+                             
 "
 app
 but
@@ -4424,14 +4406,12 @@ for
 firefox
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 -
@@ -4439,7 +4419,6 @@ gre
 -
 dir
 "
-        
 default
 =
 "
@@ -4448,7 +4427,7 @@ dist
 bin
 /
 "
-        
+                        
 help
 =
 "
@@ -4466,7 +4445,7 @@ used
 to
 map
 "
-        
+                             
 "
 urls
 starting
@@ -4482,7 +4461,7 @@ may
 differ
 by
 "
-        
+                             
 "
 app
 but
@@ -4495,14 +4474,12 @@ for
 firefox
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 -
@@ -4516,6 +4493,7 @@ default
 .
 out
 "
+                        
 help
 =
 "
@@ -4528,14 +4506,12 @@ output
 files
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 -
@@ -4545,13 +4521,12 @@ chrome
 -
 manifests
 "
-        
 nargs
 =
 '
 +
 '
-        
+                        
 help
 =
 "
@@ -4564,14 +4539,12 @@ chrome
 registration
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 -
@@ -4579,12 +4552,11 @@ output
 -
 file
 "
-        
 default
 =
 "
 "
-        
+                        
 help
 =
 "
@@ -4604,14 +4576,10 @@ make
 the
 rewriter
 not
-"
-        
-"
 merge
 files
 .
 "
-    
 )
     
 parser
@@ -4626,6 +4594,7 @@ nargs
 '
 +
 '
+                        
 help
 =
 "

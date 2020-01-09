@@ -8,6 +8,8 @@ logging
 import
 os
 import
+subprocess
+import
 sys
 import
 time
@@ -476,7 +478,7 @@ variable
 is
 not
 '
-                        
+            
 '
 supported
 .
@@ -505,7 +507,7 @@ variable
 is
 not
 '
-                        
+            
 '
 supported
 .
@@ -538,7 +540,7 @@ absolute
 directory
 :
 '
-                        
+            
 '
 %
 s
@@ -803,14 +805,14 @@ topobjdir
 defines
 =
 defines
-                            
+            
 non_global_defines
 =
 non_global_defines
 substs
 =
 substs
-                            
+            
 source
 =
 source

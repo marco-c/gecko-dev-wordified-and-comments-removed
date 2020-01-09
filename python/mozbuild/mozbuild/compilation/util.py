@@ -1,10 +1,9 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
+from
+mozbuild
+import
+shellutil
 def
 check_top_objdir
 (
@@ -52,7 +51,7 @@ yet
 Please
 run
 '
-              
+            
 '
 |
 mach
@@ -166,7 +165,7 @@ showbuild
 log
 =
 False
-                      
+                
 print_directory
 =
 False
@@ -176,7 +175,7 @@ False
 silent
 =
 True
-                      
+                
 line_handler
 =
 on_line

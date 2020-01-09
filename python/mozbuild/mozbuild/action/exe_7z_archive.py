@@ -1,7 +1,6 @@
 from
 __future__
 import
-absolute_import
 print_function
 import
 os
@@ -146,7 +145,6 @@ subprocess
 check_call
 (
 [
-            
 sevenz
 '
 a
@@ -174,7 +172,6 @@ app
 -
 mx
 '
-            
 '
 -
 m0
@@ -211,7 +208,6 @@ mb0
 :
 1
 '
-            
 '
 -
 mb0s1

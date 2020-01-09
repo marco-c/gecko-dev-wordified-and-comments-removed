@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 unittest
 import
@@ -107,7 +102,7 @@ NODE_DATA
 .
 '
 )
-             
+        
 (
 2
 100
@@ -119,7 +114,7 @@ Base64
 cpp
 '
 )
-             
+        
 (
 3
 200
@@ -131,7 +126,7 @@ nsArray
 cpp
 '
 )
-             
+        
 (
 4
 100
@@ -143,7 +138,7 @@ nsWildCard
 h
 '
 )
-             
+        
 (
 5
 -
@@ -157,7 +152,7 @@ Unified_cpp_xpcom_io0
 cpp
 '
 )
-             
+        
 (
 6
 -
@@ -171,7 +166,7 @@ Unified_cpp_xpcom_ds0
 cpp
 '
 )
-             
+        
 (
 7
 -
@@ -204,7 +199,7 @@ snNPAPIPlugin
 cpp
 '
 )
-             
+        
 (
 8
 -
@@ -218,7 +213,7 @@ Unified_cpp_xpcom_io1
 cpp
 '
 )
-             
+        
 (
 9
 -
@@ -232,7 +227,7 @@ Unified_cpp_modules_libjar0
 cpp
 '
 )
-             
+        
 (
 10
 -
@@ -245,7 +240,7 @@ Unified_cpp_xpcom_io0
 o
 '
 )
-             
+        
 (
 11
 -
@@ -258,7 +253,7 @@ Unified_cpp_xpcom_dso
 o
 '
 )
-             
+        
 (
 12
 -
@@ -271,7 +266,7 @@ nsNPAPIPlugin
 o
 '
 )
-             
+        
 (
 13
 -
@@ -284,7 +279,7 @@ Unified_cpp_xpcom_io1
 o
 '
 )
-             
+        
 (
 14
 -
@@ -297,7 +292,7 @@ Unified_cpp_modules_libjar0
 o
 '
 )
-             
+        
 (
 15
 -
@@ -311,7 +306,7 @@ libxul
 so
 '
 )
-             
+        
 (
 16
 -
@@ -324,7 +319,7 @@ libxul
 so
 '
 )
-             
+        
 (
 17
 -
@@ -338,7 +333,7 @@ libtestcrasher
 so
 '
 )
-             
+        
 (
 18
 -
@@ -390,7 +385,7 @@ pp
 ]
 '
 )
-             
+        
 (
 19
 -
@@ -414,7 +409,7 @@ plugin
 container
 '
 )
-             
+        
 (
 20
 -
@@ -439,7 +434,7 @@ bin
 xpcshell
 '
 )
-             
+        
 (
 21
 -
@@ -452,7 +447,7 @@ libtestcrasher
 so
 '
 )
-             
+        
 (
 22
 -
@@ -465,7 +460,7 @@ dependentlibs
 list
 '
 )
-             
+        
 (
 23
 -
@@ -480,7 +475,7 @@ list
 gtest
 '
 )
-             
+        
 (
 24
 -
@@ -495,7 +490,7 @@ list
 pp
 '
 )
-             
+        
 (
 25
 -
@@ -508,7 +503,7 @@ plugin
 container
 '
 )
-             
+        
 (
 26
 -
@@ -519,7 +514,7 @@ container
 xpcshell
 '
 )
-             
+        
 (
 27
 -
@@ -532,7 +527,7 @@ shlibs
 >
 '
 )
-             
+        
 (
 28
 1
@@ -543,7 +538,7 @@ dummy
 node
 '
 )
-             
+        
 (
 100
 300
@@ -554,7 +549,7 @@ node
 io
 '
 )
-             
+        
 (
 200
 300
@@ -565,7 +560,7 @@ io
 ds
 '
 )
-             
+        
 (
 300
 1
@@ -1386,7 +1381,7 @@ __name__
 __main__
 '
 :
-    
+  
 mozunit
 .
 main

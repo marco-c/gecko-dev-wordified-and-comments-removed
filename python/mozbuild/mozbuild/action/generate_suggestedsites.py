@@ -258,6 +258,15 @@ import
 DotProperties
 )
 from
+mozbuild
+.
+util
+import
+(
+    
+FileAvoidWrite
+)
+from
 mozpack
 .
 files
@@ -266,6 +275,12 @@ import
     
 FileFinder
 )
+import
+mozpack
+.
+path
+as
+mozpath
 def
 merge_properties
 (
@@ -604,8 +619,6 @@ sources
     
 image_url_template
 =
-\
-        
 '
 android
 .
@@ -693,7 +706,6 @@ name
 .
 format
 (
-                
 name
 =
 name
@@ -815,7 +827,7 @@ name
 }
 '
 "
-                                
+                    
 .
 format
 (
@@ -875,7 +887,6 @@ matches
 resources
 =
 resources
-                                  
 name
 =
 name
@@ -883,7 +894,6 @@ matches
 =
 matches
 )
-                          
 )
     
 lists
@@ -947,7 +957,6 @@ lists
 .
 format
 (
-            
 len
 =
 len
@@ -1012,7 +1021,6 @@ names
 .
 format
 (
-                
 len
 =
 len

@@ -2,7 +2,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 os
 import
@@ -1093,16 +1092,18 @@ guess_buildtype
 )
     
 if
-d
-.
-get
-(
 '
 buildapp
 '
+in
+d
+and
+d
+[
 '
+buildapp
 '
-)
+]
 =
 =
 '

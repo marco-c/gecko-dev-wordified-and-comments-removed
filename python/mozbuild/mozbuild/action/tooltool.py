@@ -1,11 +1,6 @@
 from
 __future__
 import
-absolute_import
-print_function
-from
-__future__
-import
 print_function
 import
 base64
@@ -4654,6 +4649,8 @@ False
     
 except
 IOError
+as
+e
 :
         
 return
@@ -6581,7 +6578,6 @@ is_taskcluster_auth
 True
         
 except
-Exception
 :
             
 pass

@@ -2,7 +2,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 os
 import
@@ -189,8 +188,8 @@ path
 )
         
 if
-path
 not
+path
 in
 code_cache
 or
@@ -711,7 +710,7 @@ topobjdir
 defines
 =
 None
-                 
+        
 non_global_defines
 =
 None
@@ -1068,10 +1067,10 @@ in
 self
 .
 defines
-                          
+            
 if
-name
 not
+name
 in
 self
 .
@@ -1082,9 +1081,9 @@ self
 .
 substs
 [
-"
+'
 ACDEFINES
-"
+'
 ]
 =
 '
@@ -1092,9 +1091,7 @@ ACDEFINES
 .
 join
 (
-            
 [
-                
 '
 -
 D
@@ -1107,6 +1104,7 @@ s
 %
 (
 name
+            
 shell_quote
 (
 self
@@ -1125,7 +1123,7 @@ replace
 '
 )
 )
-                
+            
 for
 name
 in
@@ -1133,9 +1131,7 @@ sorted
 (
 global_defines
 )
-            
 ]
-        
 )
         
 def
@@ -1212,11 +1208,9 @@ n
 .
 join
 (
-            
 sorted
 (
 [
-                
 '
 %
 s
@@ -1226,9 +1220,8 @@ s
 '
 %
 (
-                    
 name
-                    
+            
 serialize
 (
 name
@@ -1239,9 +1232,7 @@ substs
 name
 ]
 )
-                    
 )
-                
 for
 name
 in
@@ -1255,10 +1246,8 @@ substs
 [
 name
 ]
-                
 ]
 )
-            
 )
         
 self
@@ -1277,11 +1266,9 @@ n
 .
 join
 (
-            
 sorted
 (
 [
-                
 '
 %
 s
@@ -1289,7 +1276,7 @@ s
 '
 %
 name
-                
+            
 for
 name
 in
@@ -1304,10 +1291,8 @@ substs
 [
 name
 ]
-                
 ]
 )
-            
 )
         
 self
@@ -1622,7 +1607,7 @@ topsrcdir
 config
 .
 topobjdir
-                                 
+            
 config
 .
 defines
@@ -2614,7 +2599,7 @@ s
 %
 (
 name
-                                           
+            
 shell_quote
 (
 config
@@ -2636,7 +2621,7 @@ replace
 '
 )
 )
-                              
+            
 for
 name
 in

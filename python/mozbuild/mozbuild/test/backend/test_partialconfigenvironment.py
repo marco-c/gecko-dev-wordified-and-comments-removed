@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 buildconfig
 import
@@ -385,7 +380,7 @@ KeyError
 )
 :
             
-_
+x
 =
 env
 .
@@ -493,7 +488,7 @@ KeyError
 )
 :
             
-_
+x
 =
 env
 .
@@ -540,7 +535,6 @@ s
 )
 '
 %
-                       
 (
 mozpath
 .
@@ -782,7 +776,7 @@ KeyError
 )
 :
             
-_
+x
 =
 env
 .
@@ -809,7 +803,6 @@ defines
 /
 MOZ_BAR
 '
-                                
 '
 substs
 /

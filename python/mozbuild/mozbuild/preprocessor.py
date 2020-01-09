@@ -126,11 +126,6 @@ value
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
 import
 sys
 import
@@ -144,8 +139,6 @@ OptionParser
 import
 errno
 from
-mozbuild
-.
 makeutil
 import
 Makefile
@@ -1574,6 +1567,7 @@ self
 .
 e
 )
+;
     
 class
 __AST
@@ -2019,13 +2013,13 @@ FILE
 :
 '
 '
-                     
+                    
 '
 LINE
 '
 :
 0
-                     
+                    
 '
 DIRECTORY
 '
@@ -2406,7 +2400,6 @@ Fake
 object
 )
 :
-                
 pass
             
 fake
@@ -3420,6 +3413,40 @@ stdout
 None
 )
             
+try
+:
+                
+from
+makeutil
+import
+Makefile
+            
+except
+:
+                
+raise
+Preprocessor
+.
+Error
+(
+self
+"
+-
+-
+depend
+requires
+the
+"
+                                               
+"
+mozbuild
+.
+makeutil
+module
+"
+None
+)
+            
 depfile
 =
 get_output_file
@@ -4307,7 +4334,6 @@ val
 )
             
 except
-Exception
 :
                 
 pass
@@ -5125,6 +5151,10 @@ re
 U
 )
         
+do_replace
+=
+False
+        
 def
 vsubst
 (
@@ -5788,7 +5818,6 @@ Error
 raise
             
 except
-Exception
 :
                 
 raise

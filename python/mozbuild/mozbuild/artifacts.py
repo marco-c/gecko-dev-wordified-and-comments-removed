@@ -2300,7 +2300,7 @@ INFO
 '
 artifact
 '
-                         
+                    
 {
 '
 basename
@@ -2308,7 +2308,7 @@ basename
 :
 basename
 }
-                         
+                   
 '
 Adding
 {
@@ -2403,7 +2403,6 @@ ArtifactJob
 .
 process_symbols_archive
 (
-            
 self
 filename
 processed_filename
@@ -2539,9 +2538,6 @@ ELF
 debug
 symbol
 file
-'
-                         
-'
 {
 destpath
 }
@@ -3193,7 +3189,7 @@ INFO
 '
 artifact
 '
-                     
+                
 {
 '
 tempdir
@@ -3201,7 +3197,7 @@ tempdir
 :
 tempdir
 }
-                     
+                
 '
 Unpacking
 DMG
@@ -3509,7 +3505,7 @@ INFO
 '
 artifact
 '
-                                 
+                            
 {
 '
 path
@@ -3517,7 +3513,7 @@ path
 :
 p
 }
-                                 
+                            
 '
 Adding
 {
@@ -3713,7 +3709,7 @@ WARN
 '
 artifact
 '
-                         
+                    
 {
 '
 tempdir
@@ -3721,7 +3717,7 @@ tempdir
 :
 tempdir
 }
-                         
+                    
 '
 Unable
 to
@@ -4257,7 +4253,7 @@ INFO
 '
 artifact
 '
-                         
+                    
 {
 '
 basename
@@ -4265,7 +4261,7 @@ basename
 :
 basename
 }
-                         
+                    
 '
 Adding
 {
@@ -4812,7 +4808,6 @@ cache_size
 cache_callback
 =
 None
-                 
 log
 =
 None
@@ -4927,10 +4922,10 @@ INFO
 '
 artifact
 '
-                     
+                
 {
 }
-                     
+                
 '
 Skipping
 cache
@@ -4995,7 +4990,7 @@ INFO
 '
 artifact
 '
-                     
+                
 {
 '
 filename
@@ -5013,7 +5008,7 @@ repr
 e
 )
 }
-                     
+                
 '
 Ignoring
 exception
@@ -5055,10 +5050,10 @@ INFO
 '
 artifact
 '
-                     
+                
 {
 }
-                     
+                
 '
 Skipping
 cache
@@ -5098,7 +5093,6 @@ items
 )
 )
 )
-                    
 open
 (
 self
@@ -5135,10 +5129,10 @@ INFO
 '
 artifact
 '
-                     
+                
 {
 }
-                     
+                
 '
 Skipping
 cache
@@ -5245,7 +5239,6 @@ cache_dir
 '
 pushhead_cache
 '
-                              
 MAX_CACHED_TASKS
 log
 =
@@ -5586,7 +5579,6 @@ cache_dir
 '
 artifact_url
 '
-                              
 MAX_CACHED_TASKS
 log
 =
@@ -5829,7 +5821,6 @@ KeyError
 raise
 ValueError
 (
-                
 '
 Task
 for
@@ -6114,7 +6105,7 @@ INFO
 '
 artifact
 '
-                     
+                
 {
 '
 job
@@ -6124,7 +6115,7 @@ self
 .
 _job
 }
-                     
+                
 '
 Unknown
 job
@@ -6170,7 +6161,6 @@ _artifact_cache
 =
 ArtifactCache
 (
-            
 self
 .
 _cache_dir
@@ -6192,7 +6182,6 @@ _pushhead_cache
 =
 PushheadCache
 (
-            
 self
 .
 _cache_dir
@@ -7188,7 +7177,6 @@ Source_Code
 Mercurial
 /
 Bundles
-\
 "
 "
 "
@@ -7204,7 +7192,7 @@ INFO
 '
 artifact
 '
-                 
+            
 {
 '
 len
@@ -7215,7 +7203,7 @@ len
 last_revs
 )
 }
-                 
+            
 '
 hg
 suggested
@@ -7478,7 +7466,6 @@ count
 raise
 Exception
 (
-                
 '
 Could
 not
@@ -7497,7 +7484,7 @@ revisions
 \
 n
 '
-                
+                            
 '
 Search
 started
@@ -7518,7 +7505,7 @@ n
 \
 n
 '
-                
+                            
 '
 see
 https
@@ -7542,7 +7529,7 @@ Artifact_builds
 .
 format
 (
-                    
+                                
 rev
 =
 last_revs
@@ -7576,7 +7563,6 @@ task_cache
 .
 artifacts
 (
-                
 tree
 job
 self
@@ -7696,7 +7682,7 @@ INFO
 '
 artifact
 '
-                 
+            
 {
 '
 filename
@@ -7704,7 +7690,7 @@ filename
 :
 filename
 }
-                 
+            
 '
 Installing
 from
@@ -7745,7 +7731,7 @@ INFO
 '
 artifact
 '
-                     
+                
 {
 '
 path
@@ -7753,7 +7739,7 @@ path
 :
 processed_filename
 }
-                     
+                
 '
 Skipping
 cache
@@ -7797,7 +7783,7 @@ INFO
 '
 artifact
 '
-                     
+                
 {
 '
 filename
@@ -7805,7 +7791,7 @@ filename
 :
 filename
 }
-                     
+                
 '
 Processing
 contents
@@ -7826,7 +7812,7 @@ INFO
 '
 artifact
 '
-                     
+                
 {
 '
 processed_filename
@@ -7834,7 +7820,7 @@ processed_filename
 :
 processed_filename
 }
-                     
+                
 '
 Writing
 processed
@@ -7875,7 +7861,7 @@ INFO
 '
 artifact
 '
-                 
+            
 {
 '
 processed_filename
@@ -7883,7 +7869,7 @@ processed_filename
 :
 processed_filename
 }
-                 
+            
 '
 Installing
 from
@@ -8001,7 +7987,7 @@ INFO
 '
 artifact
 '
-                         
+                    
 {
 '
 updating
@@ -8017,14 +8003,13 @@ else
 Not
 updating
 '
-                          
 '
 filename
 '
 :
 n
 }
-                         
+                    
 '
 {
 updating
@@ -8100,7 +8085,7 @@ INFO
 '
 artifact
 '
-                 
+            
 {
 '
 url
@@ -8108,7 +8093,7 @@ url
 :
 url
 }
-                 
+            
 '
 Installing
 from
@@ -8416,7 +8401,7 @@ node
 \
 n
 '
-                                                    
+                                                  
 '
 -
 r
@@ -8783,7 +8768,6 @@ urls
 raise
 ValueError
 (
-                
 '
 Task
 {
@@ -9022,10 +9006,10 @@ INFO
 '
 artifact
 '
-                 
+            
 {
 }
-                 
+            
 '
 Deleting
 cached

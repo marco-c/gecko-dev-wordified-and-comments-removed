@@ -169,7 +169,6 @@ TEST_SCRIPT
 )
         
 except
-Exception
 :
             
 pass

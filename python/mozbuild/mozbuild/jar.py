@@ -43,7 +43,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 sys
 import
@@ -66,6 +65,10 @@ from
 cStringIO
 import
 StringIO
+from
+collections
+import
+defaultdict
 from
 mozbuild
 .
@@ -496,7 +499,6 @@ DeprecatedJarManifest
 Exception
 )
 :
-    
 pass
 class
 JarManifestParser
@@ -731,10 +733,9 @@ re
 .
 compile
 (
-        
 entryre
+                           
 +
-(
 '
 (
 ?
@@ -765,9 +766,6 @@ _
 \
 s
 *
-'
-                   
-'
 (
 \
 (
@@ -815,8 +813,7 @@ _
 s
 *
 '
-)
-        
+                           
 )
     
 def
@@ -1261,7 +1258,7 @@ flat
 useJarfileManifest
 =
 True
-                 
+        
 useChromeManifest
 =
 False
@@ -1418,7 +1415,7 @@ default
 '
 jar
 '
-                     
+            
 choices
 =
 (
@@ -1432,7 +1429,7 @@ flat
 symlink
 '
 )
-                     
+            
 help
 =
 '
@@ -1441,7 +1438,7 @@ used
 for
 output
 '
-                     
+            
 metavar
 =
 '
@@ -1451,7 +1448,7 @@ flat
 symlink
 ]
 '
-                     
+            
 )
         
 p
@@ -1611,12 +1608,12 @@ type
 '
 string
 '
-                     
 action
 =
 '
 append
 '
+                     
 help
 =
 '
@@ -1687,6 +1684,7 @@ action
 store
 '
                      
+                     
 help
 =
 '
@@ -1699,9 +1697,6 @@ for
 l10n
 -
 merge
-'
-                     
-'
 (
 requires
 l10n
@@ -2085,7 +2080,7 @@ appid
 %
 s
 "
-                         
+                          
 %
 (
 chromeDir
@@ -2117,7 +2112,7 @@ s
 %
 (
 chromeDir
-                                     
+                                 
 self
 .
 rootManifestAppId
@@ -2184,7 +2179,7 @@ replace
 '
 %
 '
-                                                           
+            
 chromebasepath
 )
 register
@@ -2253,13 +2248,11 @@ dirs
 '
 '
         
-def
 _normpath
-(
+=
+lambda
 p
-)
 :
-return
 os
 .
 path
@@ -2544,7 +2537,7 @@ join
 self
 .
 topsourcedir
-                                        
+                           
 relativesrcdir
 '
 en
@@ -3201,7 +3194,7 @@ in
 format
 (
 src
-                                                                    
+                               
 '
 '
 .
@@ -3476,7 +3469,6 @@ info
 date_time
             
 except
-Exception
 :
                 
 return
@@ -4033,7 +4025,7 @@ not
 exist
 .
 "
-                            
+                
 "
 Ignore
 this

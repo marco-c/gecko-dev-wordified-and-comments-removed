@@ -470,7 +470,6 @@ substs
 PYTHON
 '
 ]
-             
 os
 .
 path
@@ -483,7 +482,7 @@ topsrcdir
 '
 toolkit
 '
-                          
+                                                       
 '
 crashreporter
 '

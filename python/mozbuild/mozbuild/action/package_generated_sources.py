@@ -7,6 +7,12 @@ unicode_literals
 import
 argparse
 import
+json
+import
+os
+.
+path
+import
 sys
 import
 buildconfig
@@ -171,7 +177,6 @@ archive
 "
 %
 entry_abspath
-                  
 file
 =
 sys

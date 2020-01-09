@@ -6,8 +6,6 @@ print_function
 import
 argparse
 import
-errno
-import
 sys
 import
 json

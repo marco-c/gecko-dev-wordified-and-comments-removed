@@ -1,9 +1,4 @@
 from
-__future__
-import
-absolute_import
-print_function
-from
 mozbuild
 .
 makeutil
@@ -268,7 +263,7 @@ out
 getvalue
 (
 )
-                         
+            
 '
 foo
 bar
@@ -278,7 +273,7 @@ baz
 n
 '
 +
-                         
+            
 '
 \
 techo
@@ -286,7 +281,7 @@ techo
 n
 '
 +
-                         
+            
 '
 \
 t
@@ -300,7 +295,7 @@ o
 n
 '
 +
-                         
+            
 '
 \
 t
@@ -816,7 +811,7 @@ out
 getvalue
 (
 )
-                         
+            
 '
 foo
 :
@@ -827,7 +822,7 @@ qux
 n
 '
 +
-                         
+            
 '
 \
 techo
@@ -836,7 +831,7 @@ foo
 n
 '
 +
-                         
+            
 '
 bar
 baz
@@ -846,7 +841,7 @@ hoge
 n
 '
 +
-                         
+            
 '
 \
 techo
@@ -878,7 +873,7 @@ out
 getvalue
 (
 )
-                         
+            
 '
 foo
 :
@@ -889,7 +884,7 @@ qux
 n
 '
 +
-                         
+            
 '
 \
 techo
@@ -898,7 +893,7 @@ foo
 n
 '
 +
-                         
+            
 '
 bar
 baz
@@ -908,7 +903,7 @@ hoge
 n
 '
 +
-                         
+            
 '
 \
 techo
@@ -916,7 +911,7 @@ techo
 n
 '
 +
-                         
+            
 '
 hoge
 qux
@@ -1029,7 +1024,7 @@ out
 getvalue
 (
 )
-                         
+            
 '
 foo
 :
@@ -1038,7 +1033,7 @@ bar
 n
 '
 +
-                         
+            
 '
 \
 techo
@@ -1047,7 +1042,7 @@ foo
 n
 '
 +
-                         
+            
 '
 BAR
 =
@@ -1056,7 +1051,7 @@ bar
 n
 '
 +
-                         
+            
 '
 (
 BAR
@@ -1066,7 +1061,7 @@ BAR
 n
 '
 +
-                         
+            
 '
 \
 techo
@@ -1190,7 +1185,7 @@ out
 getvalue
 (
 )
-                         
+            
 '
 c
 :
@@ -1211,7 +1206,7 @@ qux
 n
 '
 +
-                         
+            
 '
 \
 techo
@@ -1224,7 +1219,7 @@ foo
 n
 '
 +
-                         
+            
 '
 c
 :

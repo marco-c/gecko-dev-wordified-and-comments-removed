@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
 import
@@ -32,9 +27,15 @@ GeneratedSources
     
 DirectoryTraversal
     
+Linkable
+    
+LocalInclude
+    
 PerSourceFlag
     
 VariablePassthru
+    
+SimpleProgram
 )
 from
 mozbuild
@@ -1020,7 +1021,7 @@ objdir
 filename
 unified
 )
-                                 
+            
 cenv
 .
 substs
@@ -1037,7 +1038,7 @@ split
 (
 )
 +
-                                 
+            
 [
 '
 -

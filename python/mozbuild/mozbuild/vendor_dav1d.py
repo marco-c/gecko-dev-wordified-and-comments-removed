@@ -4,6 +4,12 @@ import
 absolute_import
 print_function
 unicode_literals
+from
+distutils
+.
+version
+import
+LooseVersion
 import
 logging
 from
@@ -12,6 +18,8 @@ mozbuild
 base
 import
 (
+    
+BuildEnvironmentNotFoundException
     
 MozbuildObject
 )
@@ -874,7 +882,7 @@ f0
 .
 *
 '
-                              
+                                
 prefix
 +
 '
@@ -891,7 +899,7 @@ s
 revision
 timestamp
 )
-                              
+                                
 yaml
 flags
 =

@@ -1,8 +1,6 @@
 from
 __future__
 import
-absolute_import
-print_function
 unicode_literals
 import
 os
@@ -47,6 +45,14 @@ GnMozbuildWriterBackend
     
 find_common_attrs
 )
+from
+mozbuild
+.
+backend
+.
+recursivemake
+import
+RecursiveMakeBackend
 from
 mozbuild
 .

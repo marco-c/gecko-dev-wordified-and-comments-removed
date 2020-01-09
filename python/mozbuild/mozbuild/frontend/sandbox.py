@@ -116,7 +116,6 @@ from
 __future__
 import
 absolute_import
-print_function
 unicode_literals
 import
 os
@@ -891,6 +890,8 @@ read
         
 except
 Exception
+as
+e
 :
             
 raise
@@ -901,7 +902,7 @@ self
 _context
 .
 source_stack
-                                   
+                
 sys
 .
 exc_info
@@ -1617,7 +1618,7 @@ list
 dict
 )
 )
-                
+               
 and
 not
 value

@@ -2,7 +2,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 os
 import
@@ -378,8 +377,6 @@ system
         
 elif
 False
-and
-fixable
 :
             
 print

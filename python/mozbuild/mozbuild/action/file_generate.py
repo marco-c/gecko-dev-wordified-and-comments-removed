@@ -466,7 +466,6 @@ kwargs
 )
             
 except
-Exception
 :
                 
 output

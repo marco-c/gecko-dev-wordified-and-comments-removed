@@ -2,7 +2,6 @@ from
 __future__
 import
 absolute_import
-print_function
 unicode_literals
 import
 logging
@@ -118,6 +117,8 @@ HostSources
 InstallationTarget
     
 JARManifest
+    
+Library
     
 Linkable
     
@@ -1107,7 +1108,7 @@ write
 NONRECURSIVE_TARGETS_export_xpidl_DIRECTORY
 =
 '
-                          
+                
 '
 (
 DEPTH
@@ -1132,7 +1133,7 @@ NONRECURSIVE_TARGETS_export_xpidl_TARGETS
 +
 =
 '
-                          
+                
 '
 export
 \
@@ -1712,8 +1713,8 @@ start_node
 )
             
 if
-start_node
 not
+start_node
 in
 self
 .
@@ -1865,8 +1866,8 @@ yield
 start
         
 if
-start
 not
+start
 in
 self
 .
@@ -2228,7 +2229,7 @@ self
 environment
 .
 topobjdir
-                                                  
+            
 '
 config
 '
@@ -2445,7 +2446,7 @@ objdir
 obj
 .
 config
-                                
+                    
 obj
 .
 topsrcdir
@@ -3822,8 +3823,6 @@ backend_file
 .
 write
 (
-(
-                    
 "
 "
 "
@@ -3860,13 +3859,6 @@ locale
 {
 script
 }
-"
-"
-"
-                    
-"
-"
-"
 {
 method
 }
@@ -3898,23 +3890,21 @@ TOUCH
 "
 "
 "
-)
 .
 format
 (
-                    
 stub
 =
 stub_file
-                    
+           
 output
 =
 first_output
-                    
+           
 dep_file
 =
 dep_file
-                    
+           
 inputs
 =
 '
@@ -3932,7 +3922,7 @@ inputs
 else
 '
 '
-                    
+           
 flags
 =
 '
@@ -3961,7 +3951,7 @@ flags
 else
 '
 '
-                    
+           
 backend
 =
 '
@@ -3976,11 +3966,11 @@ flags
 else
 '
 '
-                    
+           
 force
 =
 force
-                    
+           
 locale
 =
 '
@@ -3999,21 +3989,19 @@ localized
 else
 '
 '
-                    
+           
 script
 =
 obj
 .
 script
-                    
+           
 method
 =
 obj
 .
 method
-                    
 )
-                
 )
         
 elif
@@ -5033,6 +5021,7 @@ in
 self
 .
 _idl_dirs
+\
                                         
 and
 tier
@@ -5181,7 +5170,7 @@ y
 x
 |
 y
-                                  
+            
 self
 .
 _compile_graph
@@ -5255,7 +5244,6 @@ rule
 .
 add_dependencies
 (
-                
 chain
 (
 (
@@ -5276,7 +5264,7 @@ self
 .
 _rust_dirs
 )
-                      
+                                        
 (
 r
 for
@@ -5297,7 +5285,6 @@ self
 _rust_dirs
 )
 )
-                
 )
             
 for
@@ -5962,7 +5949,6 @@ makefile
 .
 add_statement
 (
-                
 '
 \
 n
@@ -6311,7 +6297,7 @@ DEBUG
 '
 substitute_makefile
 '
-                             
+                        
 {
 '
 path
@@ -6382,7 +6368,7 @@ DEBUG
 '
 stub_makefile
 '
-                             
+                        
 {
 '
 path
@@ -6488,7 +6474,7 @@ b
 '
 INSTALL_EXTENSION_ID
 '
-                              
+                            
 b
 '
 tools
@@ -6572,7 +6558,7 @@ mozpath
 relpath
 (
 objdir
-                                                                   
+                            
 self
 .
 environment
@@ -6624,7 +6610,7 @@ mozpath
 relpath
 (
 objdir
-                                                                   
+                            
 self
 .
 environment
@@ -7196,6 +7182,7 @@ n
 .
 join
 (
+                
 relativize
 (
 backend_file
@@ -7214,10 +7201,10 @@ _traversal
 .
 add
 (
-                
 backend_file
 .
 relobjdir
+                
 dirs
 =
 relativize
@@ -7231,7 +7218,6 @@ obj
 .
 dirs
 )
-            
 )
         
 self
@@ -7434,7 +7420,6 @@ backend_file
 .
 write
 (
-                
 '
 FINAL_TARGET
 =
@@ -7454,9 +7439,6 @@ stage
 (
 XPI_NAME
 )
-'
-                
-'
 (
 DIST
 )
@@ -7474,7 +7456,6 @@ DIST_SUBDIR
 \
 n
 '
-                
 )
         
 if
@@ -7599,6 +7580,7 @@ join
 .
 deps
 '
+                
 '
 %
 s
@@ -7773,7 +7755,7 @@ topobjdir
 '
 config
 '
-                                       
+            
 '
 makefiles
 '
@@ -7801,7 +7783,7 @@ topsrcdir
 '
 config
 '
-                                      
+            
 '
 makefiles
 '
@@ -8531,7 +8513,7 @@ join
 obj
 .
 topsrcdir
-                                                      
+                
 source
 )
 )
@@ -8610,7 +8592,7 @@ _test_files
 add_pattern_link
 (
 base
-                                                                        
+                    
 pattern
 dest
 )
@@ -8677,7 +8659,7 @@ setdefault
 obj
 .
 flavor
-                                            
+            
 (
 obj
 .
@@ -8887,7 +8869,6 @@ s
 n
 '
 %
-                               
 (
 mozpath
 .
@@ -8925,7 +8906,6 @@ backend_file
 .
 write
 (
-                
 '
 COMPUTED_
 %
@@ -8940,7 +8920,7 @@ n
 %
 (
 var
-                                         
+                                                        
 '
 '
 .
@@ -9510,7 +9490,7 @@ relpath
 obj
 .
 objdir
-                                          
+            
 self
 .
 environment
@@ -9562,6 +9542,17 @@ objdir
                                                  
 name
 )
+)
+        
+topobjdir
+=
+mozpath
+.
+normsep
+(
+obj
+.
+topobjdir
 )
         
 build_target
@@ -9970,7 +9961,7 @@ StaticLibrary
 )
 )
 or
-            
+          
 isinstance
 (
 obj
@@ -10814,10 +10805,10 @@ in
 the
 filename
 part
+of
 "
                                                 
 "
-of
 srcdir
 -
 relative
@@ -12042,7 +12033,7 @@ topobjdir
 '
 _build_manifests
 '
-                               
+            
 dest
 )
         
@@ -12359,6 +12350,7 @@ HAND
 n
 '
 )
+;
             
 pp
 .
@@ -12681,7 +12673,7 @@ DEFINES
 ACDEFINES
 )
 '
-                
+                    
 '
 <
 -
@@ -12714,7 +12706,7 @@ join
 (
 sorted_nonstatic_ipdl_basenames
 )
-                                                    
+                         
 '
 '
 .
@@ -12743,7 +12735,6 @@ mk
 .
 add_statement
 (
-            
 '
 IPDLDIRS
 :
@@ -12771,7 +12762,7 @@ dirname
 (
 p
 )
-                                                      
+            
 for
 p
 in
@@ -12841,7 +12832,7 @@ topobjdir
 '
 dist
 '
-                                   
+            
 '
 include
 '
@@ -13056,7 +13047,7 @@ DEFINES
 ACDEFINES
 )
 '
-                
+                    
 '
 <
 -
@@ -13072,9 +13063,9 @@ self
 _add_unified_build_rules
 (
 mk
-                                      
+            
 unified_source_mapping
-                                      
+            
 unified_files_makefile_variable
 =
 '

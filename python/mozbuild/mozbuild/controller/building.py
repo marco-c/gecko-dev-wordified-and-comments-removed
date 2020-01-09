@@ -2,12 +2,13 @@ from
 __future__
 import
 absolute_import
-print_function
 unicode_literals
 import
 errno
 import
 getpass
+import
+glob
 import
 io
 import
@@ -304,7 +305,6 @@ n
 for
 line
 in
-                                 
 '
 '
 '
@@ -521,7 +521,7 @@ namedtuple
 '
 BuildOutputResult
 '
-                               
+    
 (
 '
 warning
@@ -984,7 +984,7 @@ aggregate_cpu_percent
 start
 =
 start
-                                                           
+            
 end
 =
 end
@@ -1010,7 +1010,7 @@ start
 end
 =
 end
-                                                       
+            
 phase
 =
 phase
@@ -1837,7 +1837,6 @@ message
 line
         
 except
-Exception
 :
             
 pass
@@ -2044,7 +2043,7 @@ WARNING
 '
 build_resources_error
 '
-                     
+                
 {
 '
 msg
@@ -2055,7 +2054,7 @@ str
 e
 )
 }
-                     
+                
 '
 Exception
 when
@@ -2576,7 +2575,7 @@ aggregate_cpu_percent
 phase
 =
 None
-                                                           
+            
 per_cpu
 =
 False
@@ -2593,7 +2592,7 @@ aggregate_cpu_times
 phase
 =
 None
-                                                       
+            
 per_cpu
 =
 False
@@ -2721,7 +2720,7 @@ aggregate_cpu_percent
 usage
 .
 start
-                                                               
+                
 usage
 .
 end
@@ -2741,7 +2740,7 @@ aggregate_cpu_times
 usage
 .
 start
-                                                           
+                
 usage
 .
 end
@@ -2799,7 +2798,7 @@ start
 usage
 .
 start
-                                             
+                    
 end
 =
 usage
@@ -3122,7 +3121,7 @@ WARNING
 '
 swap_activity
 '
-                     
+                
 {
 '
 sin
@@ -3135,7 +3134,7 @@ sout
 :
 sout
 }
-                     
+                
 '
 Swap
 in
@@ -4389,7 +4388,7 @@ INFO
 compiler_warning
 '
 warning
-                     
+                
 '
 Warning
 :
@@ -5604,7 +5603,6 @@ self
 :
         
 return
-(
 '
 ccache
 (
@@ -5633,9 +5631,6 @@ rate
 %
 }
 ;
-'
-                
-'
 miss
 rate
 :
@@ -5649,14 +5644,11 @@ rate
 .
 format
 (
-                    
 *
 self
 .
 hit_rates
 (
-)
-                
 )
 )
     
@@ -6359,7 +6351,7 @@ an
 explicit
 target
 '
-                      
+                    
 '
 name
 .
@@ -6924,7 +6916,7 @@ resolve_target_to_make
 self
 .
 topobjdir
-                                                   
+                                
 path_arg
 .
 relpath
@@ -7178,7 +7170,6 @@ self
 .
 _run_make
 (
-                        
 directory
 =
 make_dir
@@ -7212,7 +7203,6 @@ verbose
 append_env
 =
 {
-                            
 b
 '
 NO_BUILDSTATUS_MESSAGES
@@ -7486,11 +7476,11 @@ topsrcdir
 "
 tools
 "
-                                            
+                                           
 "
 rewriting
 "
-                                            
+                                           
 "
 ThirdPartyPaths
 .
@@ -8005,7 +7995,6 @@ output
 .
 on_line
 (
-                
 '
 We
 know
@@ -8113,7 +8102,6 @@ android
                     
 print
 (
-                        
 '
 For
 more
@@ -8143,7 +8131,6 @@ Developer_Guide
 /
 So_You_Just_Built_Firefox
 '
-                    
 )
             
 except
@@ -8336,6 +8323,7 @@ any
 changes
 '
 )
+;
         
 return
 status

@@ -962,7 +962,6 @@ IOError
 raise
         
 except
-Exception
 :
             
 self

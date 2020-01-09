@@ -1,7 +1,6 @@
 from
 __future__
 import
-absolute_import
 print_function
 from
 collections
@@ -500,7 +499,6 @@ self
 .
 write
 (
-                
 (
 '
 \
@@ -514,7 +512,6 @@ indent
 .
 join
 (
-                    
 alphabetical_sorted
 (
 self
@@ -529,7 +526,6 @@ in
 value
 )
 )
-                
 )
             
 self
@@ -1947,12 +1943,7 @@ asflags_mozilla
 if
 use_defines_in_asflags
 and
-context_attrs
-[
-'
-DEFINES
-'
-]
+defines
 :
             
 context_attrs
@@ -1973,20 +1964,15 @@ d
 for
 d
 in
-context_attrs
-[
-'
-DEFINES
-'
-]
+defines
 ]
         
 flags
 =
 [
-_f
+f
 for
-_f
+f
 in
 spec
 .
@@ -1999,7 +1985,7 @@ cflags
 ]
 )
 if
-_f
+f
 in
 mozilla_flags
 ]
@@ -2974,6 +2960,17 @@ write
 (
 generated_header
 )
+            
+all_attr_sets
+=
+[
+attrs
+for
+_
+attrs
+in
+configs
+]
             
 all_args
 =

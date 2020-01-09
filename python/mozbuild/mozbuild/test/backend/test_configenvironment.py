@@ -1,16 +1,17 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
+posixpath
+from
+StringIO
+import
+StringIO
 import
 unittest
 from
 mozunit
 import
 main
+MockedOpen
 import
 mozbuild
 .
@@ -67,10 +68,10 @@ kwargs
 )
         
 if
+not
 '
 top_srcdir
 '
-not
 in
 self
 .
@@ -242,7 +243,7 @@ ConfigEnvironment
 '
 .
 '
-                                
+                  
 defines
 =
 {
@@ -261,7 +262,7 @@ baz
 qux
 42
 '
-                                         
+                              
 '
 abc
 '
@@ -281,7 +282,7 @@ extra
 foobar
 '
 }
-                                
+                  
 non_global_defines
 =
 [
@@ -292,7 +293,7 @@ extra
 ignore
 '
 ]
-                                
+                  
 substs
 =
 {
@@ -316,7 +317,7 @@ ABC
 '
 def
 '
-                                        
+                             
 '
 bar
 '
@@ -335,7 +336,7 @@ abc
 def
 "
 '
-                                        
+                             
 '
 qux
 '
@@ -357,7 +358,6 @@ substs
 ACDEFINES
 '
 ]
-                         
 "
 "
 "

@@ -2,7 +2,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 sys
 from
@@ -638,14 +637,12 @@ _count
 1
         
 print
-(
-msg
-file
-=
+>
+>
 self
 .
 out
-)
+msg
     
 def
 fatal

@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
 import
@@ -677,7 +672,8 @@ fetchone
             
 if
 ret
-is
+=
+=
 None
 :
                 
@@ -859,7 +855,7 @@ Commands
 %
 d
 "
-                       
+                    
 %
 (
 f

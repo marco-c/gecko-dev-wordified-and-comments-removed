@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
 import
@@ -78,7 +73,7 @@ items
 (
 )
 :
-        
+         
 entry
 =
 parsed
@@ -101,13 +96,13 @@ v
 "
 '
 )
-        
+         
 root
 =
 parsed
 .
 firstChild
-        
+         
 parsed
 .
 insertBefore
@@ -435,17 +430,17 @@ embeddedVersion
 '
     
 if
+not
 '
 a
 '
-not
 in
 version
 and
+not
 '
 b
 '
-not
 in
 version
 :

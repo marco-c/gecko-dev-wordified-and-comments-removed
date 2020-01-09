@@ -2,7 +2,6 @@ from
 __future__
 import
 absolute_import
-print_function
 unicode_literals
 import
 codecs
@@ -564,8 +563,8 @@ required_keys
 :
             
 if
-required_key
 not
+required_key
 in
 D
 :
