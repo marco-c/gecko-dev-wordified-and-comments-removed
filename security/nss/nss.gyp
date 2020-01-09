@@ -833,12 +833,6 @@ cmsutil
 ]
 }
 ]
-]
-'
-conditions
-'
-:
-[
 [
 '
 mozilla_client
