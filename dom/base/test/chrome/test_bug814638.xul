@@ -427,15 +427,6 @@ iframe
 ;
 iframe2
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-;
-iframe2
-.
 swapFrameLoaders
 (
 iframe1

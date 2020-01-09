@@ -464,13 +464,6 @@ tp
 =
 remote
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 .
 tabParent
@@ -581,13 +574,6 @@ var
 tp2
 =
 remote2
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
 .
 frameLoader
 .

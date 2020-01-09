@@ -124,13 +124,6 @@ persistable
 =
 browser
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 ;
 persistable
