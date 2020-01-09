@@ -10560,13 +10560,11 @@ only
 depends
 (
 target
-milestone
 )
 def
 launcher_process_default
 (
 target
-milestone
 )
 :
 return
@@ -10578,10 +10576,6 @@ os
 '
 WINNT
 '
-and
-milestone
-.
-is_nightly
 option
 (
 '
