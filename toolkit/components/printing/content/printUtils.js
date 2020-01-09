@@ -547,7 +547,7 @@ null
 {
 this
 .
-enterPrintPreview
+_enterPrintPreview
 (
 )
 ;
@@ -560,7 +560,7 @@ e
 {
 this
 .
-enterPrintPreview
+_enterPrintPreview
 (
 )
 ;
@@ -1176,7 +1176,7 @@ function
 {
 PrintUtils
 .
-enterPrintPreview
+_enterPrintPreview
 (
 )
 ;
@@ -1233,7 +1233,7 @@ Set
 _currentPPBrowser
 :
 null
-enterPrintPreview
+_enterPrintPreview
 (
 )
 {
