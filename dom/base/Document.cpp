@@ -6130,10 +6130,6 @@ nsIChannelEventSink
 )
 IMPL_SHIM
 (
-nsISecurityEventSink
-)
-IMPL_SHIM
-(
 nsIApplicationCacheContainer
 )
 #
@@ -6308,11 +6304,6 @@ nsIProgressEventSink
 TRY_SHIM
 (
 nsIChannelEventSink
-)
-;
-TRY_SHIM
-(
-nsISecurityEventSink
 )
 ;
 TRY_SHIM

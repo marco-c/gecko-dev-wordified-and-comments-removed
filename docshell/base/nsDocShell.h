@@ -697,12 +697,6 @@ TopSessionStorageManager
 (
 )
 )
-NS_FORWARD_NSISECURITYEVENTSINK
-(
-nsDocLoader
-:
-:
-)
 static
 already_AddRefed
 <

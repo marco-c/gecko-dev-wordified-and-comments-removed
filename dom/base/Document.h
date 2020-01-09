@@ -158,13 +158,6 @@ h
 #
 include
 "
-nsISecurityEventSink
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h
@@ -1477,11 +1470,6 @@ DECL_SHIM
 (
 nsIChannelEventSink
 NSICHANNELEVENTSINK
-)
-DECL_SHIM
-(
-nsISecurityEventSink
-NSISECURITYEVENTSINK
 )
 DECL_SHIM
 (
