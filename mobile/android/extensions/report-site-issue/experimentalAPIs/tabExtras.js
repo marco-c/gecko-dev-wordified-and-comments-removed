@@ -3,6 +3,9 @@ use
 strict
 "
 ;
+var
+Services
+;
 ChromeUtils
 .
 defineModuleGetter
@@ -84,7 +87,7 @@ getInfoFrameScript
 messageName
 )
 {
-const
+(
 {
 Services
 }
@@ -106,6 +109,7 @@ Services
 .
 jsm
 "
+)
 )
 ;
 function
