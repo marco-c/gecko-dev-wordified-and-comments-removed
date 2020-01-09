@@ -99,6 +99,9 @@ curl
 s
 -
 S
+-
+X
+POST
 https
 :
 /
@@ -145,6 +148,9 @@ curl
 s
 -
 S
+-
+X
+POST
 https
 :
 /
