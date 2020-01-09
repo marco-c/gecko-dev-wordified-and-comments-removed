@@ -166,6 +166,8 @@ remote
 debugging
 discussion
 is
+dev
+-
 remote
 lists
 .
@@ -235,7 +237,9 @@ timezone
 .
 .
 .
-_remote
+_dev
+-
+remote
 lists
 .
 mozilla
@@ -244,6 +248,8 @@ org
 :
 mailto
 :
+dev
+-
 remote
 lists
 .
@@ -266,6 +272,8 @@ org
 /
 listinfo
 /
+dev
+-
 remote
 .
 .
@@ -283,5 +291,7 @@ org
 /
 pipermail
 /
+dev
+-
 remote
 /
