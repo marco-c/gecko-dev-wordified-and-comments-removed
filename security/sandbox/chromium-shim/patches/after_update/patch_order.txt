@@ -19,3 +19,6 @@ patch
 remove_dynamic_GetUserDefaultLocaleName_call
 .
 patch
+arm64_set_LoaderThreads
+.
+patch
