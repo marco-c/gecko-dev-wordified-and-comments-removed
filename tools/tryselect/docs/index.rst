@@ -442,6 +442,7 @@ selectors
 /
 index
 presets
+tasks
 .
 .
 rubric
