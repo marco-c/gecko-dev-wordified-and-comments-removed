@@ -13,6 +13,8 @@ locale
 import
 logging
 import
+io
+import
 os
 import
 six
@@ -558,7 +560,12 @@ fd2
 )
         
 except
+(
 AttributeError
+io
+.
+UnsupportedOperation
+)
 :
             
 self
