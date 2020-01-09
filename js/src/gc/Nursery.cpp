@@ -2419,6 +2419,8 @@ Zone
 zone
 size_t
 nbytes
+arena_id_t
+arena
 )
 {
 MOZ_ASSERT
@@ -2475,6 +2477,7 @@ uint8_t
 >
 (
 nbytes
+arena
 )
 ;
 if
@@ -2517,6 +2520,8 @@ JSObject
 obj
 size_t
 nbytes
+arena_id_t
+arena
 )
 {
 MOZ_ASSERT
@@ -2555,6 +2560,7 @@ uint8_t
 >
 (
 nbytes
+arena
 )
 ;
 }
@@ -2568,6 +2574,7 @@ zone
 (
 )
 nbytes
+arena
 )
 ;
 }

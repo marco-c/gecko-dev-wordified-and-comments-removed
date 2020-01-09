@@ -1077,6 +1077,13 @@ Zone
 zone
 size_t
 nbytes
+arena_id_t
+arena
+=
+js
+:
+:
+MallocArena
 )
 ;
 void
@@ -1088,6 +1095,13 @@ JSObject
 obj
 size_t
 nbytes
+arena_id_t
+arena
+=
+js
+:
+:
+MallocArena
 )
 ;
 void
