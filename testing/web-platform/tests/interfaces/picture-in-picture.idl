@@ -90,6 +90,13 @@ CEReactions
 ]
 attribute
 boolean
+autoPictureInPicture
+;
+[
+CEReactions
+]
+attribute
+boolean
 disablePictureInPicture
 ;
 }
