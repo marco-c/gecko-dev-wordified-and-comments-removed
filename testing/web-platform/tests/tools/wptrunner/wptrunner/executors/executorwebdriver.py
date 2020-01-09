@@ -2789,6 +2789,9 @@ innerHeight
         
 )
         
+try
+:
+            
 self
 .
 protocol
@@ -2802,6 +2805,27 @@ position
 (
 0
 0
+)
+        
+except
+client
+.
+InvalidArgumentException
+:
+            
+self
+.
+protocol
+.
+webdriver
+.
+window
+.
+position
+=
+(
+2
+2
 )
         
 self
