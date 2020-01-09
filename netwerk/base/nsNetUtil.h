@@ -3117,14 +3117,6 @@ privateBrowsing
 false
 )
 ;
-bool
-NS_ShouldClassifyChannel
-(
-nsIChannel
-*
-aChannel
-)
-;
 namespace
 mozilla
 {

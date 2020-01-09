@@ -1999,12 +1999,15 @@ tells
 the
 channel
 to
-bypass
-URL
+use
+URI
 classifier
 service
+to
 check
 *
+the
+URI
 when
 opening
 the
@@ -2015,7 +2018,7 @@ channel
 const
 unsigned
 long
-LOAD_BYPASS_URL_CLASSIFIER
+LOAD_CLASSIFY_URI
 =
 1
 <

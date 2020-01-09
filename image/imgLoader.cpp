@@ -4216,6 +4216,14 @@ callbacks
 )
 ;
 }
+aLoadFlags
+|
+=
+nsIChannel
+:
+:
+LOAD_CLASSIFY_URI
+;
 nsCOMPtr
 <
 nsINode

@@ -1699,6 +1699,16 @@ nsIContentPolicy
 TYPE_INTERNAL_TRACK
 nullptr
 loadGroup
+nullptr
+nsIRequest
+:
+:
+LOAD_NORMAL
+|
+nsIChannel
+:
+:
+LOAD_CLASSIFY_URI
 )
 ;
 NS_ENSURE_TRUE_VOID

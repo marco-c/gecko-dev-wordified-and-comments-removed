@@ -30156,9 +30156,10 @@ mStatus
 if
 (
 !
-NS_ShouldClassifyChannel
 (
-this
+mLoadFlags
+&
+LOAD_CLASSIFY_URI
 )
 )
 {
