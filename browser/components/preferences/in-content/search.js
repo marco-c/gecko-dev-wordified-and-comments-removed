@@ -2466,8 +2466,6 @@ cell
 =
 tree
 .
-treeBoxObject
-.
 getCellAt
 (
 event

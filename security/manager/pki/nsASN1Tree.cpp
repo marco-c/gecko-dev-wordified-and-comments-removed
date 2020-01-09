@@ -1020,7 +1020,13 @@ nsNSSASN1Tree
 :
 SetTree
 (
-nsITreeBoxObject
+mozilla
+:
+:
+dom
+:
+:
+XULTreeElement
 *
 tree
 )

@@ -505,8 +505,6 @@ titleColumn
 =
 tree
 .
-treeBoxObject
-.
 columns
 .
 getColumnAt

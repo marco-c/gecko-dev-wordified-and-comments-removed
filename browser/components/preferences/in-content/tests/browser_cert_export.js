@@ -210,8 +210,6 @@ tree
 "
 )
 .
-treeBoxObject
-.
 view
 ;
 for

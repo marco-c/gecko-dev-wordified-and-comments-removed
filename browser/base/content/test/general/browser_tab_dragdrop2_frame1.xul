@@ -915,8 +915,6 @@ currentIndex
 ;
 tree
 .
-treeBoxObject
-.
 scrollToRow
 (
 0
@@ -928,8 +926,6 @@ treechildren
 10
 tree
 .
-treeBoxObject
-.
 rowHeight
 +
 2
@@ -938,8 +934,6 @@ rowHeight
 )
 ;
 tree
-.
-treeBoxObject
 .
 scrollToRow
 (
@@ -951,8 +945,6 @@ synthesizeMouse
 treechildren
 10
 tree
-.
-treeBoxObject
 .
 rowHeight
 +

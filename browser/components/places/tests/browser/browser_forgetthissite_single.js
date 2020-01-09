@@ -289,8 +289,6 @@ rect
 =
 tree
 .
-treeBoxObject
-.
 getCoordsForCellItem
 (
 0

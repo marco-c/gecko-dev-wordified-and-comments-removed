@@ -357,18 +357,9 @@ rows
 and
 cells
 var
-treeBoxObject
-=
-tree
-.
-treeBoxObject
-;
-var
 treeBodyBoxObj
 =
 tree
-.
-treeBoxObject
 .
 treeBody
 .
@@ -377,7 +368,7 @@ boxObject
 var
 rect
 =
-treeBoxObject
+tree
 .
 getCoordsForCellItem
 (

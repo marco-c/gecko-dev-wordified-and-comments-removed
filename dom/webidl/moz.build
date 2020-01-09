@@ -5279,11 +5279,6 @@ TransitionEvent
 webidl
 '
 '
-TreeBoxObject
-.
-webidl
-'
-'
 TreeColumn
 .
 webidl
