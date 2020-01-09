@@ -1609,16 +1609,6 @@ WrClipChainId
 DefineClipChain
 (
 const
-Maybe
-<
-wr
-:
-:
-WrClipChainId
->
-&
-aParent
-const
 nsTArray
 <
 wr
