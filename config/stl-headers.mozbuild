@@ -299,6 +299,9 @@ memory
 ostream
 '
 '
+regex
+'
+'
 set
 '
 '
