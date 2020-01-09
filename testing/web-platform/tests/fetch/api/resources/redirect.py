@@ -362,6 +362,17 @@ location
 '
 ]
         
+if
+"
+simple
+"
+not
+in
+request
+.
+GET
+:
+            
 scheme
 =
 urlparse
@@ -370,7 +381,7 @@ url
 )
 .
 scheme
-        
+            
 if
 scheme
 =
@@ -392,7 +403,7 @@ scheme
 https
 "
 :
-            
+                
 url
 +
 =
@@ -409,12 +420,12 @@ else
 "
 ?
 "
-            
+                
 url_parameters
 =
 {
 }
-            
+                
 for
 item
 in
@@ -426,7 +437,7 @@ items
 (
 )
 :
-                
+                    
 url_parameters
 [
 item
@@ -442,7 +453,7 @@ item
 [
 0
 ]
-            
+                
 url
 +
 =
@@ -450,7 +461,7 @@ urlencode
 (
 url_parameters
 )
-            
+                
 url
 +
 =
