@@ -193,8 +193,6 @@ Cookie
 "
 "
 red
-=
-1
 "
 false
 )
@@ -211,8 +209,6 @@ cookie
 =
 "
 red
-=
-1
 "
 ;
 <
@@ -240,8 +236,6 @@ Cookie
 "
 "
 green
-=
-1
 "
 false
 )
@@ -258,8 +252,6 @@ cookie
 =
 "
 green
-=
-1
 "
 ;
 <
@@ -380,8 +372,6 @@ indexOf
 (
 "
 red
-=
-1
 "
 )
 >
@@ -459,8 +449,6 @@ indexOf
 (
 "
 green
-=
-1
 "
 )
 >
