@@ -24,6 +24,11 @@ only
 '
 -
 -
+enable
+-
+gczeal
+-
+-
 disable
 -
 jemalloc
