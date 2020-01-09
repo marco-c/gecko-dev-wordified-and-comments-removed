@@ -1427,6 +1427,16 @@ aOffset
 )
 ;
 void
+ClampCompositedScrollOffset
+(
+)
+;
+void
+RecalculateCompositedLayoutViewport
+(
+)
+;
+void
 ScrollBy
 (
 const
