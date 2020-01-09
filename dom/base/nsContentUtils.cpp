@@ -149,9 +149,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -39860,7 +39858,7 @@ status
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TestEventsAsyncEnabled

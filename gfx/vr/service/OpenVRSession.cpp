@@ -38,9 +38,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -1221,7 +1219,7 @@ aSystemState
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VREnabled
@@ -1230,7 +1228,7 @@ VREnabled
 |
 |
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VROpenVREnabled
@@ -1516,7 +1514,7 @@ false
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VROpenVRActionInputEnabled
@@ -1584,7 +1582,7 @@ knucklesManifest
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VRProcessEnabled
@@ -4747,7 +4745,7 @@ BeginReading
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VRProcessEnabled
@@ -8622,7 +8620,7 @@ const
 float
 triggerThreshold
 =
-StaticPrefs
+gfxPrefs
 :
 :
 VRControllerTriggerThreshold
@@ -10748,7 +10746,7 @@ const
 float
 triggerThreshold
 =
-StaticPrefs
+gfxPrefs
 :
 :
 VRControllerTriggerThreshold
@@ -12829,7 +12827,7 @@ aSystemState
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VROpenVRActionInputEnabled
@@ -14012,7 +14010,7 @@ aClosure
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VROpenVRActionInputEnabled

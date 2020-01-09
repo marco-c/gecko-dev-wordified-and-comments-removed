@@ -5,6 +5,13 @@ ScrollAnimationBezierPhysics
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 using
 namespace
 mozilla
@@ -378,7 +385,7 @@ aDestination
 aCurrentPos
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollCurrentVelocityWeighting
@@ -397,7 +404,7 @@ Init
 0
 1
 -
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollStopDecelerationWeighting
@@ -461,7 +468,7 @@ dt
 /
 normalization
 *
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollCurrentVelocityWeighting
@@ -475,7 +482,7 @@ slope
 /
 normalization
 *
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollCurrentVelocityWeighting
@@ -490,7 +497,7 @@ dt
 dxy
 1
 -
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollStopDecelerationWeighting

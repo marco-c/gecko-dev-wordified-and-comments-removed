@@ -121,6 +121,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxFailure
 .
 h

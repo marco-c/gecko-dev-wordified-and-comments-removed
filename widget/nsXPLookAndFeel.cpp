@@ -110,6 +110,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 qcms
 .
 h
@@ -4216,6 +4223,13 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
+)
+;
+gfxPrefs
+:
+:
+GetSingleton
+(
 )
 ;
 if

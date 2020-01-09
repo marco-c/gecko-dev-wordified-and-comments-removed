@@ -15,6 +15,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 InputUtils
 .
 h
@@ -4052,7 +4059,7 @@ blockId
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled

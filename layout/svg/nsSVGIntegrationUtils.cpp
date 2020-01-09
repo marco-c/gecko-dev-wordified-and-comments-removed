@@ -15,6 +15,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsCSSAnonBoxes
 .
 h
@@ -4409,7 +4416,7 @@ aPaintChild
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 DrawMaskLayer

@@ -167,15 +167,6 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
-.
-h
-"
-#
-include
-"
 nsCSSRendering
 .
 h
@@ -226,6 +217,13 @@ h
 include
 "
 gfxMatrix
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "
@@ -481,15 +479,6 @@ include
 mozilla
 /
 Preferences
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -6068,7 +6057,7 @@ aDirtyRect
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowZooming
@@ -6202,7 +6191,7 @@ dirtyRectRelativeToDirtyFrame
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled
@@ -7409,7 +7398,7 @@ document
 &
 &
 !
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -13059,7 +13048,7 @@ nullptr
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -13916,7 +13905,7 @@ XRE_IsContentProcess
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 AlwaysPaint
@@ -13978,7 +13967,7 @@ ScrollMetadata
 float
 rootLayerResolution
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -14049,7 +14038,7 @@ IsNull
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS
@@ -14113,7 +14102,7 @@ nullptr
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -17639,7 +17628,7 @@ DEBUG
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -17760,7 +17749,7 @@ aManager
 const
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 LayersAdvancedBasicLayerEnabled
@@ -32557,13 +32546,13 @@ Size
 <
 nsIntSize
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutMinActiveLayerSize
 (
 )
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutMinActiveLayerSize
@@ -35315,7 +35304,7 @@ Default
 ;
 MOZ_ASSERT
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -36797,7 +36786,7 @@ PresShell
 float
 rootLayerResolution
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -36844,7 +36833,7 @@ containerParameters
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -40600,7 +40589,7 @@ UseWebRender
 |
 |
 !
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutFlattenTransform
@@ -42219,7 +42208,7 @@ FullPrerender
 float
 viewportRatioX
 =
-StaticPrefs
+gfxPrefs
 :
 :
 AnimationPrerenderViewportRatioLimitX
@@ -42229,7 +42218,7 @@ AnimationPrerenderViewportRatioLimitX
 float
 viewportRatioY
 =
-StaticPrefs
+gfxPrefs
 :
 :
 AnimationPrerenderViewportRatioLimitY
@@ -42239,7 +42228,7 @@ AnimationPrerenderViewportRatioLimitY
 uint32_t
 absoluteLimitX
 =
-StaticPrefs
+gfxPrefs
 :
 :
 AnimationPrerenderAbsoluteLimitX
@@ -42249,7 +42238,7 @@ AnimationPrerenderAbsoluteLimitX
 uint32_t
 absoluteLimitY
 =
-StaticPrefs
+gfxPrefs
 :
 :
 AnimationPrerenderAbsoluteLimitY
@@ -42447,7 +42436,7 @@ FullPrerender
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PartiallyPrerenderAnimatedContent
@@ -49507,7 +49496,7 @@ false
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 DrawMaskLayer
@@ -51066,7 +51055,7 @@ DEBUG
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -51860,7 +51849,7 @@ Length
 (
 )
 >
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderMaxFilterOpsPerChain
@@ -53116,7 +53105,7 @@ aDisplayListBuilder
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderBlobInvalidation
@@ -53421,7 +53410,7 @@ aDisplayListBuilder
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderBlobInvalidation

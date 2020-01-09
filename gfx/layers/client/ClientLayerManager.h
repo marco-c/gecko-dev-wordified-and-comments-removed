@@ -28,6 +28,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -40,15 +47,6 @@ include
 mozilla
 /
 LinkedList
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -998,7 +996,7 @@ aValue
 {
 MOZ_ASSERT
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled
@@ -1059,7 +1057,7 @@ aValue
 {
 MOZ_ASSERT
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled
@@ -1106,7 +1104,7 @@ aValue
 {
 MOZ_ASSERT
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled

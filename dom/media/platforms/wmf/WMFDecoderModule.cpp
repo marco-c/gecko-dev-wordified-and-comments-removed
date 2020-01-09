@@ -88,6 +88,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -468,7 +475,7 @@ if
 testForVPx
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 MediaWmfVp9Enabled

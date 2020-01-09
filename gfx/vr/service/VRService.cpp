@@ -8,9 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -247,7 +245,7 @@ NS_IsMainThread
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VRServiceEnabled
@@ -331,7 +329,7 @@ NULL
 endif
 mVRProcessEnabled
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VRProcessEnabled
@@ -1211,7 +1209,7 @@ displayState
 .
 minRestartInterval
 =
-StaticPrefs
+gfxPrefs
 :
 :
 VRExternalNotDetectedTimeout
@@ -1292,7 +1290,7 @@ displayState
 .
 minRestartInterval
 =
-StaticPrefs
+gfxPrefs
 :
 :
 VRExternalQuitTimeout

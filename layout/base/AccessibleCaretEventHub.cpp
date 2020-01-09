@@ -29,6 +29,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AutoRestore
@@ -2742,7 +2749,7 @@ return
 int32_t
 longTapDelay
 =
-StaticPrefs
+gfxPrefs
 :
 :
 UiClickHoldContextMenusDelay

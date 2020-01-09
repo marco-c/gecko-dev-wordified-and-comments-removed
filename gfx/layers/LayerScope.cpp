@@ -116,6 +116,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h
@@ -7072,7 +7079,7 @@ NS_SERVERSOCKET_CONTRACTID
 int
 port
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayerScopePort
@@ -7287,7 +7294,7 @@ Init
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 LayerScopeEnabled
@@ -7741,7 +7748,7 @@ gIsGtest
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 LayerScopeEnabled

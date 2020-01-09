@@ -137,9 +137,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -658,7 +656,7 @@ swapInt
 GLint
 swapInt
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutFrameRate
@@ -1150,7 +1148,7 @@ nullptr
 GLint
 opaque
 =
-StaticPrefs
+gfxPrefs
 :
 :
 CompositorGLContextOpaque
@@ -1266,7 +1264,7 @@ attribs
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 GLAllowHighPower
@@ -1349,7 +1347,7 @@ NSOpenGLPFAAllowOfflineRenderers
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 RequireHardwareGL
@@ -1484,7 +1482,7 @@ true
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 GLMultithreaded

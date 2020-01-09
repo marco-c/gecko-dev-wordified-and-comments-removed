@@ -692,6 +692,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -751,15 +758,6 @@ include
 mozilla
 /
 Preferences
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -20555,7 +20553,7 @@ opaque
 aOpaque
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 CompositorGLContextOpaque
@@ -22733,7 +22731,7 @@ basis
 .
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowZooming
@@ -27752,7 +27750,7 @@ SCROLLMODE_INSTANT
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollEnabled
@@ -27760,7 +27758,7 @@ SmoothScrollEnabled
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 WheelSmoothScrollEnabled

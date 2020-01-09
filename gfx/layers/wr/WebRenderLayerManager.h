@@ -22,6 +22,13 @@ vector
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 Layers
 .
 h
@@ -41,15 +48,6 @@ include
 mozilla
 /
 MozPromise
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -810,7 +808,7 @@ aValue
 {
 MOZ_ASSERT
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled
@@ -857,7 +855,7 @@ aValue
 {
 MOZ_ASSERT
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled

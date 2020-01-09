@@ -8,6 +8,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MiscEvents
@@ -704,7 +711,7 @@ touchpoint
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestFailsWithNativeInjection

@@ -59,6 +59,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -781,7 +788,7 @@ Length
 (
 )
 >
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderMaxFilterOpsPerChain

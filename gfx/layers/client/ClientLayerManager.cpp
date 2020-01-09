@@ -22,6 +22,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -34,15 +41,6 @@ include
 mozilla
 /
 Hal
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -1161,7 +1159,7 @@ mPaintSequenceNumber
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled
@@ -1284,7 +1282,7 @@ startTime
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS
@@ -1432,7 +1430,7 @@ DidRenderingDeviceReset
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 AlwaysPaint
@@ -2469,7 +2467,7 @@ aSequenceNumber
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTestLoggingEnabled
@@ -2862,7 +2860,7 @@ SynchronouslyRepaintOnResize
 )
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 LayersForceSynchronousResize
@@ -3240,7 +3238,7 @@ mTransactionStart
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 AlwaysPaint
@@ -4055,7 +4053,7 @@ IsCompositingCheap
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 PersistentBufferProviderSharedEnabled

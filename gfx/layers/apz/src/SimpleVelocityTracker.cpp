@@ -8,9 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-ComputedTimingFunction
+gfxPrefs
 .
 h
 "
@@ -19,7 +17,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+ComputedTimingFunction
 .
 h
 "
@@ -362,7 +360,7 @@ if
 (
 timeDelta
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZVelocityRelevanceTime
@@ -458,7 +456,7 @@ Length
 (
 )
 >
-StaticPrefs
+gfxPrefs
 :
 :
 APZMaxVelocityQueueSize
@@ -493,7 +491,7 @@ aVelocity
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZMaxVelocity
@@ -529,7 +527,7 @@ mAxis
 >
 ToLocalVelocity
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZMaxVelocity
@@ -550,7 +548,7 @@ maxVelocity
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZCurveThreshold
@@ -562,14 +560,14 @@ APZCurveThreshold
 0f
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 APZCurveThreshold
 (
 )
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZMaxVelocity
@@ -585,7 +583,7 @@ mAxis
 >
 ToLocalVelocity
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZCurveThreshold

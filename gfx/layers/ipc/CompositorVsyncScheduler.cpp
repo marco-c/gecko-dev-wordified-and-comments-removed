@@ -63,6 +63,13 @@ endif
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AutoRestore
@@ -75,15 +82,6 @@ include
 mozilla
 /
 DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -451,7 +449,7 @@ this
 ;
 mAsapScheduling
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayersCompositionFrameRate
@@ -1240,7 +1238,7 @@ mVsyncNotificationsSkipped
 +
 +
 >
-StaticPrefs
+gfxPrefs
 :
 :
 CompositorUnobserveCount

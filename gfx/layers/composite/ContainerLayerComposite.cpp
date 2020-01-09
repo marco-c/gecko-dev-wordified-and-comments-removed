@@ -41,6 +41,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -53,15 +60,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -2578,7 +2576,7 @@ continue
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS
@@ -2780,7 +2778,7 @@ geometry
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 UniformityInfo
@@ -2796,7 +2794,7 @@ layer
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 DrawLayerInfo
@@ -2941,7 +2939,7 @@ asyncTransform
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZMinimap
@@ -3687,7 +3685,7 @@ aGeometry
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS

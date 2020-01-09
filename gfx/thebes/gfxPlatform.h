@@ -797,12 +797,6 @@ IsHeadless
 (
 )
 ;
-static
-bool
-UseWebRender
-(
-)
-;
 virtual
 already_AddRefed
 <

@@ -26,11 +26,7 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-gfxVars
+gfxPrefs
 .
 h
 "
@@ -186,7 +182,7 @@ str
 str
 <
 <
-gfxVars
+gfxPrefs
 :
 :
 LayersWindowRecordingPath

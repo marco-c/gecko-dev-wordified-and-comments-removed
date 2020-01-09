@@ -236,15 +236,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtrExtensions
 .
 h
@@ -366,6 +357,13 @@ h
 include
 "
 gfx2DGlue
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "
@@ -8052,7 +8050,7 @@ DumpDisplayList
 )
 {
 return
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutDumpDisplayList
@@ -8061,7 +8059,7 @@ LayoutDumpDisplayList
 |
 |
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutDumpDisplayListParent
@@ -8076,7 +8074,7 @@ XRE_IsParentProcess
 |
 |
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutDumpDisplayListContent
@@ -8114,7 +8112,7 @@ UseWebRender
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -8172,7 +8170,7 @@ UseWebRender
 |
 |
 !
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -8268,7 +8266,7 @@ UseWebRender
 |
 |
 !
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -8367,7 +8365,7 @@ UseWebRender
 |
 |
 !
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -8468,7 +8466,7 @@ UseWebRender
 |
 |
 !
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots

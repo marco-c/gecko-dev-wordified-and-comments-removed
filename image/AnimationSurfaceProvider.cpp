@@ -8,9 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -191,7 +189,7 @@ threshold
 (
 size_t
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ImageAnimatedDecodeOnDemandThresholdKB
@@ -220,7 +218,7 @@ height
 size_t
 batch
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ImageAnimatedDecodeOnDemandBatchSize
@@ -1585,7 +1583,7 @@ GetFrameRecycler
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ImageAnimatedDecodeOnDemandRecycle
@@ -1798,7 +1796,7 @@ mDecoder
 >
 ShouldSyncDecode
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemDecodeBytesAtATime

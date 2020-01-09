@@ -12,6 +12,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 ImageEncoder
 .
 h

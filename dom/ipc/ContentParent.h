@@ -5636,16 +5636,6 @@ UpdateNetworkLinkType
 (
 )
 ;
-static
-bool
-ShouldSyncPreference
-(
-const
-char16_t
-*
-aData
-)
-;
 private
 :
 RefPtr

@@ -45,16 +45,14 @@ h
 #
 include
 "
-InputBlockState
+gfxPrefs
 .
 h
 "
 #
 include
 "
-mozilla
-/
-StaticPrefs
+InputBlockState
 .
 h
 "
@@ -1314,7 +1312,7 @@ Nothing
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 APZOneTouchPinchEnabled
@@ -2571,7 +2569,7 @@ task
 forget
 (
 )
-StaticPrefs
+gfxPrefs
 :
 :
 UiClickHoldContextMenusDelay
@@ -2698,7 +2696,7 @@ task
 forget
 (
 )
-StaticPrefs
+gfxPrefs
 :
 :
 APZMaxTapTime

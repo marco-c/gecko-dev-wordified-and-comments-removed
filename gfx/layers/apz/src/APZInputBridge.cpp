@@ -12,6 +12,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 InputData
 .
 h
@@ -133,7 +140,7 @@ eDragEnd
 |
 |
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TestEventsAsyncEnabled
@@ -312,7 +319,7 @@ mMessage
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowZooming
@@ -614,7 +621,7 @@ SCROLLMODE_INSTANT
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollEnabled
@@ -638,7 +645,7 @@ WheelEvent_Binding
 DOM_DELTA_LINE
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 WheelSmoothScrollEnabled
@@ -662,7 +669,7 @@ WheelEvent_Binding
 DOM_DELTA_PAGE
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 PageSmoothScrollEnabled

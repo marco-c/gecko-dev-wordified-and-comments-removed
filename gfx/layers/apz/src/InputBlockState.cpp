@@ -29,6 +29,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MouseEvents
@@ -693,7 +700,7 @@ mScrolledApzc
 |
 |
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowImmediateHandoff
@@ -1747,7 +1754,7 @@ ToMilliseconds
 )
 >
 =
-StaticPrefs
+gfxPrefs
 :
 :
 MouseWheelIgnoreMoveDelayMs
@@ -1820,7 +1827,7 @@ ToMilliseconds
 (
 )
 <
-StaticPrefs
+gfxPrefs
 :
 :
 MouseWheelTransactionTimeoutMs
@@ -1849,7 +1856,7 @@ this
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 MouseScrollTestingEnabled
@@ -1964,7 +1971,7 @@ ToMilliseconds
 )
 >
 =
-StaticPrefs
+gfxPrefs
 :
 :
 MouseWheelIgnoreMoveDelayMs
@@ -2509,7 +2516,7 @@ this
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -2667,7 +2674,7 @@ aOther
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -2724,7 +2731,7 @@ HasReceivedAllContentNotifications
 &
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -2763,7 +2770,7 @@ false
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -2953,7 +2960,7 @@ const
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -3022,7 +3029,7 @@ const
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -3091,7 +3098,7 @@ const
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -3147,7 +3154,7 @@ const
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -3203,7 +3210,7 @@ const
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -3556,14 +3563,14 @@ TouchActionAllowsPanningXY
 (
 )
 ?
-StaticPrefs
+gfxPrefs
 :
 :
 APZAxisLockAngle
 (
 )
 :
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowedDirectPanAngle

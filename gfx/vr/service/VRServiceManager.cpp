@@ -23,15 +23,6 @@ GPUParent
 .
 h
 "
-#
-include
-"
-mozilla
-/
-StaticPrefs
-.
-h
-"
 namespace
 mozilla
 {
@@ -214,7 +205,7 @@ Shutdown
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VRProcessEnabled
@@ -264,7 +255,7 @@ CreateService
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VRProcessEnabled

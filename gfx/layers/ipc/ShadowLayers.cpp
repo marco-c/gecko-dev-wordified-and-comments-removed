@@ -67,6 +67,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 ipc
 /
 IPCMessageUtils
@@ -3173,7 +3180,7 @@ startTime
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS

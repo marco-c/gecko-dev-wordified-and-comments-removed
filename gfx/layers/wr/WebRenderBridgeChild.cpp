@@ -21,15 +21,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 TabGroup
@@ -363,7 +354,7 @@ XRE_IsParentProcess
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -604,7 +595,7 @@ XRE_IsParentProcess
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -779,7 +770,7 @@ XRE_IsParentProcess
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -901,7 +892,7 @@ RenderRoot
 Default
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 WebRenderSplitRenderRoots
