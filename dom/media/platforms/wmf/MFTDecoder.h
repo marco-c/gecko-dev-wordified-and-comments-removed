@@ -72,17 +72,6 @@ aMFTClsID
 )
 ;
 HRESULT
-Create
-(
-HMODULE
-aDecoderDLL
-const
-GUID
-&
-aMFTClsID
-)
-;
-HRESULT
 SetMediaTypes
 (
 IMFMediaType
