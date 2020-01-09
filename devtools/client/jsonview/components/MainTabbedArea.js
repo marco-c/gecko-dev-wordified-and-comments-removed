@@ -172,7 +172,7 @@ instanceOf
 (
 Text
 )
-tabActive
+activeTab
 :
 PropTypes
 .
@@ -257,11 +257,11 @@ jsonText
 props
 .
 jsonText
-tabActive
+activeTab
 :
 props
 .
-tabActive
+activeTab
 }
 ;
 this
@@ -288,7 +288,7 @@ this
 setState
 (
 {
-tabActive
+activeTab
 :
 index
 }
@@ -304,13 +304,13 @@ return
 Tabs
 (
 {
-tabActive
+activeTab
 :
 this
 .
 state
 .
-tabActive
+activeTab
 onAfterChange
 :
 this

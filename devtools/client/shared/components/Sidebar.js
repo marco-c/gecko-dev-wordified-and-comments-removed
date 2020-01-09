@@ -179,7 +179,7 @@ func
 isRequired
 }
 )
-tabActive
+activeTab
 :
 PropTypes
 .
@@ -275,7 +275,7 @@ onAfterChange
 onAllTabsMenuClick
 renderOnlySelected
 showAllTabsMenu
-tabActive
+activeTab
 }
 =
 this
@@ -292,7 +292,7 @@ onAllTabsMenuClick
 renderOnlySelected
 renderSidebarToggle
 showAllTabsMenu
-tabActive
+activeTab
 }
 children
 )

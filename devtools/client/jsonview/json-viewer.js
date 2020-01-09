@@ -125,7 +125,7 @@ headers
 JSONView
 .
 headers
-tabActive
+activeTab
 :
 0
 prettified
@@ -704,7 +704,7 @@ json
 ;
 input
 .
-tabActive
+activeTab
 =
 1
 ;
@@ -751,7 +751,7 @@ theApp
 setState
 (
 {
-tabActive
+activeTab
 :
 0
 json

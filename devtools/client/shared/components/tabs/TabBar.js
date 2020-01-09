@@ -1709,7 +1709,7 @@ this
 props
 .
 sidebarToggleButton
-tabActive
+activeTab
 :
 this
 .
