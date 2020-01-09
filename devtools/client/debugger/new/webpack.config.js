@@ -515,6 +515,7 @@ manifest
 .
 json
 "
+;
 }
 module
 .
