@@ -306,9 +306,6 @@ URL
 webExtensionInspectedWindowActor
 :
 ActorId
-webaudioActor
-:
-ActorId
 webglActor
 :
 ActorId
