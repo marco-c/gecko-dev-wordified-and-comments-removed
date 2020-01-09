@@ -511,13 +511,6 @@ return
 false
 ;
 }
-if
-(
-UC_LOG_ENABLED
-(
-)
-)
-{
 nsCOMPtr
 <
 nsIURI
@@ -559,7 +552,6 @@ return
 false
 ;
 }
-nsresult
 rv
 =
 channel
@@ -588,6 +580,13 @@ return
 false
 ;
 }
+if
+(
+UC_LOG_ENABLED
+(
+)
+)
+{
 nsCString
 chanSpec
 =
