@@ -3317,6 +3317,9 @@ None
 "
 firefox
 "
+"
+thunderbird
+"
 }
         
 ]
