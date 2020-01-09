@@ -379,6 +379,14 @@ sourceQueue
 .
 queue
 (
+{
+type
+:
+"
+generated
+"
+data
+:
 createSource
 (
 threadClient
@@ -389,6 +397,7 @@ source
 supportsWasm
 }
 )
+}
 )
 ;
 }
