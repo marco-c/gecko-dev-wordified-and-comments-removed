@@ -2881,6 +2881,17 @@ nsIReferrerInfo
 >
 mReferrerInfo
 ;
+#
+ifdef
+DEBUG
+nsCOMPtr
+<
+nsIURI
+>
+mLastOpenedURI
+;
+#
+endif
 nsCOMPtr
 <
 nsISHEntry
