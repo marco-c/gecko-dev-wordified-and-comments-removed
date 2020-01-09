@@ -7988,6 +7988,12 @@ mOverscrollBehaviorY
 mozilla
 :
 :
+StyleOverflowAnchor
+mOverflowAnchor
+;
+mozilla
+:
+:
 StyleScrollSnapType
 mScrollSnapTypeX
 ;
