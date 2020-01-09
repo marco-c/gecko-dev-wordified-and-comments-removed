@@ -6106,6 +6106,8 @@ push_str
 enum
 class
 BinASTKind
+:
+uint16_t
 {
 #
 define
@@ -6328,6 +6330,8 @@ push_str
 enum
 class
 BinASTField
+:
+uint16_t
 {
 #
 define
@@ -6578,6 +6582,8 @@ push_str
 enum
 class
 BinASTVariant
+:
+uint16_t
 {
 #
 define
