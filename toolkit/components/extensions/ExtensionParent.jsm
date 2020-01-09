@@ -2003,6 +2003,9 @@ extensionId
 if
 (
 extension
+&
+&
+extension
 .
 wakeupBackground
 )
