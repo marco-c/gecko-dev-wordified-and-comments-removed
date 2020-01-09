@@ -29,7 +29,7 @@ DisplayItemType
 nsCSSPropertyIDSet
 :
 :
-CompositorAnimatableCount
+CompositorAnimatableDisplayItemCount
 (
 )
 >
@@ -88,6 +88,15 @@ TYPE_OPACITY
 ;
 case
 eCSSProperty_transform
+:
+case
+eCSSProperty_translate
+:
+case
+eCSSProperty_scale
+:
+case
+eCSSProperty_rotate
 :
 return
 DisplayItemType

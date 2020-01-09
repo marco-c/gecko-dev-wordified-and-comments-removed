@@ -74,6 +74,9 @@ transformProperties
 nsCSSPropertyIDSet
 {
 eCSSProperty_transform
+eCSSProperty_translate
+eCSSProperty_scale
+eCSSProperty_rotate
 }
 ;
 static
@@ -259,7 +262,7 @@ DisplayItemType
 nsCSSPropertyIDSet
 :
 :
-CompositorAnimatableCount
+CompositorAnimatableDisplayItemCount
 (
 )
 >
