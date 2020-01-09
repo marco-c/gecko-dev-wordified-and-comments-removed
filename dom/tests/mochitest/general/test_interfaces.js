@@ -4510,6 +4510,9 @@ ResizeObserver
 insecureContext
 :
 true
+nightly
+:
+true
 }
 {
 name
