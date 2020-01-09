@@ -16751,10 +16751,9 @@ PropertySpecNameToId
 JSContext
 *
 cx
-JSPropertySpec
-:
-:
-Name
+const
+char
+*
 name
 MutableHandleId
 id
