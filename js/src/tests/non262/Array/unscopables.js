@@ -125,6 +125,12 @@ find
 findIndex
 "
 "
+flat
+"
+"
+flatMap
+"
+"
 includes
 "
 "
