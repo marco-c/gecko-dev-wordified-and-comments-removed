@@ -2762,20 +2762,6 @@ self
 )
 :
         
-if
-self
-.
-ident
-=
-=
-"
-all
-"
-:
-            
-return
-False
-        
 for
 sub
 in
