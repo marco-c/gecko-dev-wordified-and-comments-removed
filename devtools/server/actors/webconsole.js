@@ -5997,11 +5997,6 @@ executionPoint
 pageError
 .
 executionPoint
-chromeContext
-:
-pageError
-.
-isFromChromeContext
 }
 ;
 }

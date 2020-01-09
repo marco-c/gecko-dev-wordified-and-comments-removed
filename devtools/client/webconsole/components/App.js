@@ -494,11 +494,6 @@ editorMode
 PropTypes
 .
 bool
-hideShowContentMessagesCheckbox
-:
-PropTypes
-.
-bool
 }
 ;
 }
@@ -1091,7 +1086,6 @@ jstermCodeMirror
 autocomplete
 reverseSearchInitialValue
 editorMode
-hideShowContentMessagesCheckbox
 }
 =
 this
@@ -1202,7 +1196,6 @@ hidePersistLogsCheckbox
 webConsoleUI
 .
 isBrowserConsole
-hideShowContentMessagesCheckbox
 attachRefToWebConsoleUI
 closeSplitConsole
 }
