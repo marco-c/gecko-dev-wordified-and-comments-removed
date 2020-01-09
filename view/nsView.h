@@ -94,6 +94,13 @@ nsIWidget
 class
 nsIFrame
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 enum
 nsViewVisibility
 {
@@ -735,7 +742,10 @@ mDirtyRegion
 ;
 }
 virtual
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 GetPresShell
 (

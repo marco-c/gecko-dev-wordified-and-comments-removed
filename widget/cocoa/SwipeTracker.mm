@@ -142,6 +142,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -283,7 +292,7 @@ GetWidgetListener
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =

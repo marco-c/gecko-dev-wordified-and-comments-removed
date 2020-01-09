@@ -260,7 +260,9 @@ DropMouseGrabbing
 (
 )
 {
-nsIPresShell
+if
+(
+PresShell
 *
 presShell
 =
@@ -270,11 +272,8 @@ mViewManager
 GetPresShell
 (
 )
-;
-if
-(
-presShell
 )
+{
 presShell
 -
 >
@@ -283,6 +282,7 @@ ClearMouseCaptureOnView
 this
 )
 ;
+}
 }
 nsView
 :
@@ -4605,7 +4605,7 @@ eWindowType_popup
 )
 ;
 }
-nsIPresShell
+PresShell
 *
 nsView
 :
@@ -4779,7 +4779,7 @@ if
 pm
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -5069,7 +5069,7 @@ TimeStamp
 aCompositeEnd
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -5082,9 +5082,13 @@ GetPresShell
 ;
 if
 (
+!
 presShell
 )
 {
+return
+;
+}
 nsAutoScriptBlocker
 scriptBlocker
 ;
@@ -5214,7 +5218,6 @@ END
 ;
 }
 }
-}
 void
 nsView
 :
@@ -5223,7 +5226,7 @@ RequestRepaint
 (
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
