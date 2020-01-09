@@ -152,11 +152,7 @@ else
 tailNode
 =
 &
-pn_u
-.
-list
-.
-head
+head_
 ;
 }
 MOZ_ASSERT
@@ -189,6 +185,8 @@ ParseNodeAllocator
 :
 allocNode
 (
+size_t
+size
 )
 {
 LifoAlloc
@@ -209,10 +207,7 @@ alloc
 .
 alloc
 (
-sizeof
-(
-ParseNode
-)
+size
 )
 ;
 if
