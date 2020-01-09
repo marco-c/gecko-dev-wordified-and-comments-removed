@@ -5,6 +5,7 @@ api
 {
 ColorF
 ColorU
+LayoutPrimitiveInfo
 LineOrientation
 LineStyle
 PremultipliedColorF
@@ -49,12 +50,6 @@ GpuDataRequest
 ;
 use
 intern
-;
-use
-internal_types
-:
-:
-LayoutPrimitiveInfo
 ;
 use
 prim_store

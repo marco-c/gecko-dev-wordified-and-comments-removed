@@ -8669,6 +8669,7 @@ u8
 ]
 ;
 let
+mut
 texture
 =
 device
@@ -10667,6 +10668,7 @@ ResultMsg
 PublishDocument
 (
 document_id
+mut
 doc
 texture_update_list
 profile_counters

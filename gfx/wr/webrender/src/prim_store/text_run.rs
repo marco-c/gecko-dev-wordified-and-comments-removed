@@ -5,6 +5,7 @@ api
 {
 ColorF
 GlyphInstance
+LayoutPrimitiveInfo
 RasterSpace
 Shadow
 }
@@ -59,12 +60,6 @@ GpuCache
 ;
 use
 intern
-;
-use
-internal_types
-:
-:
-LayoutPrimitiveInfo
 ;
 use
 prim_store

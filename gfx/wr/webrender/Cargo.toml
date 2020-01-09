@@ -162,15 +162,6 @@ ron
 serde
 "
 ]
-display_list_stats
-=
-[
-"
-webrender_api
-/
-display_list_stats
-"
-]
 pathfinder
 =
 [
