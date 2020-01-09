@@ -490,6 +490,17 @@ query
 [
 value
 ]
+                
+kwargs
+[
+'
+selector
+'
+]
+=
+'
+fuzzy
+'
             
 elif
 section
@@ -499,12 +510,6 @@ section
 try
 '
 :
-                
-section
-=
-'
-syntax
-'
                 
 parser
 =
@@ -555,6 +560,17 @@ get_default
 k
 )
 }
+                
+kwargs
+[
+'
+selector
+'
+]
+=
+'
+syntax
+'
             
 else
 :
@@ -588,9 +604,6 @@ presets
 save
 (
 name
-selector
-=
-section
 *
 *
 kwargs
