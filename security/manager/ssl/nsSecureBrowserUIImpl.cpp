@@ -1402,6 +1402,10 @@ mState
 STATE_IDENTITY_EV_TOPLEVEL
 ;
 }
+CheckForMixedContent
+(
+)
+;
 }
 return
 NS_OK
