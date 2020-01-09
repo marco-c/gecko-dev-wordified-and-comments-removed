@@ -891,11 +891,6 @@ MouseEvents
 h
 '
 '
-ProcInfo
-.
-h
-'
-'
 TextEventDispatcher
 .
 h
