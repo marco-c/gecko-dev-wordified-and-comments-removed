@@ -193,10 +193,6 @@ endpoint
 async
 Init
 (
-GfxPrefSetting
-[
-]
-prefs
 GfxVarUpdate
 [
 ]
@@ -210,13 +206,6 @@ NotifyVsync
 (
 TimeStamp
 vsyncTimestamp
-)
-;
-async
-UpdatePref
-(
-GfxPrefSetting
-pref
 )
 ;
 async
