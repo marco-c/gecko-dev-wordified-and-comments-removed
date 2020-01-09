@@ -129,6 +129,8 @@ gBrowser
 selectedTab
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
