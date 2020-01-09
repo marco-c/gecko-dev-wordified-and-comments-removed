@@ -25881,9 +25881,6 @@ cx_
 ;
 if
 (
-isConstructing
-&
-&
 isSpecialized
 &
 &
