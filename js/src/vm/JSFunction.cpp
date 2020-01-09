@@ -9351,10 +9351,9 @@ return
 false
 ;
 }
-RootedAtom
+HandlePropertyName
 anonymousAtom
-(
-cx
+=
 cx
 -
 >
@@ -9363,7 +9362,6 @@ names
 )
 .
 anonymous
-)
 ;
 RootedObject
 defaultProto

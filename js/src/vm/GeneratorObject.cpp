@@ -1799,10 +1799,9 @@ toObject
 )
 )
 ;
-RootedAtom
+HandlePropertyName
 name
-(
-cx
+=
 cx
 -
 >
@@ -1811,7 +1810,6 @@ names
 )
 .
 GeneratorFunction
-)
 ;
 RootedObject
 genFunction

@@ -209,10 +209,9 @@ toObject
 )
 )
 ;
-RootedAtom
+HandlePropertyName
 name
-(
-cx
+=
 cx
 -
 >
@@ -221,7 +220,6 @@ names
 )
 .
 AsyncFunction
-)
 ;
 RootedObject
 asyncFunction
