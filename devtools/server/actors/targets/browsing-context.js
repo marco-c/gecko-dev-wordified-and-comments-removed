@@ -3205,6 +3205,15 @@ e
 continue
 ;
 }
+docShell
+.
+QueryInterface
+(
+Ci
+.
+nsIWebNavigation
+)
+;
 const
 sheets
 =
