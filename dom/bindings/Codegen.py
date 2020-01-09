@@ -50236,7 +50236,6 @@ post
         
 if
 (
-(
 returnType
 is
 None
@@ -50247,22 +50246,11 @@ isVoid
 (
 )
 or
-             
+            
 resultOutParam
 is
 not
 None
-)
-and
-            
-descriptor
-.
-name
-!
-=
-"
-TreeBoxObject
-"
 )
 :
             
