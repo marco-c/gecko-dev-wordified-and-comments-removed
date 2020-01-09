@@ -3597,6 +3597,7 @@ mozilla
 HashNumber
 hashValue
 )
+const
 {
 return
 mozilla
