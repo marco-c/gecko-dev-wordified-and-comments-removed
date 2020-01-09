@@ -56,20 +56,6 @@ type
 str
 )
     
-parser
-.
-add_argument
-(
-'
--
--
-srcdir
-'
-type
-=
-str
-)
-    
 data_file
 =
 os
