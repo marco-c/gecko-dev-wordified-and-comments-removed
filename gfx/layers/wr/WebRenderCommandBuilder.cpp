@@ -1057,6 +1057,12 @@ case
 DisplayItemType
 :
 :
+TYPE_CONTAINER
+:
+case
+DisplayItemType
+:
+:
 TYPE_TRANSFORM
 :
 case
@@ -7508,6 +7514,12 @@ DisplayItemType
 :
 :
 TYPE_WRAP_LIST
+:
+case
+DisplayItemType
+:
+:
+TYPE_CONTAINER
 :
 case
 DisplayItemType
