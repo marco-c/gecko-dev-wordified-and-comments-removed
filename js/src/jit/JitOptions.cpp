@@ -477,7 +477,7 @@ false
 SET_DEFAULT
 (
 disableCacheIRCalls
-true
+false
 )
 ;
 #
