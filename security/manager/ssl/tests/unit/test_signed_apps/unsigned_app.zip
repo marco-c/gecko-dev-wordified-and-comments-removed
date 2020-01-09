@@ -1,5 +1,5 @@
 PK
-qEL
+AEN
 H1
 +
 +
@@ -13,7 +13,7 @@ test
 extension
 .
 PK
-qEL
+AEN
 \
 (
 N
@@ -48,7 +48,7 @@ version
 "
 }
 PK
-qEL
+AEN
 9
 data
 /
@@ -69,12 +69,12 @@ z
 IEND
 B
 PK
-qEL
+AEN
 H1
 +
 +
 READMEPK
-qEL
+AEN
 \
 (
 N
@@ -83,7 +83,7 @@ O
 manifest
 .
 jsonPK
-qEL
+AEN
 9
 data
 /
