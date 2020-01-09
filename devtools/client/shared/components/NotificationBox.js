@@ -182,7 +182,7 @@ wrapping
 :
 PropTypes
 .
-boolean
+bool
 }
 ;
 }
