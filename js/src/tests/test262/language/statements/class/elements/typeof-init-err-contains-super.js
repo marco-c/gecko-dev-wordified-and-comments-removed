@@ -1,0 +1,15 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+x
+=
+typeof
+super
+(
+)
+;
+}

@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+var
+C
+=
+class
+{
+f
+=
+this
+.
+#
+x
+}
+;
