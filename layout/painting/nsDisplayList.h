@@ -20994,6 +20994,12 @@ IsScrollbarContainer
 )
 const
 ;
+bool
+IsZoomingLayer
+(
+)
+const
+;
 protected
 :
 nsDisplayOwnLayerFlags
