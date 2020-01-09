@@ -1441,7 +1441,7 @@ case
 ParseNodeKind
 :
 :
-Colon
+PropertyDefinition
 :
 case
 ParseNodeKind
@@ -7982,7 +7982,7 @@ getKind
 ParseNodeKind
 :
 :
-Colon
+PropertyDefinition
 )
 {
 return
