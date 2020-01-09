@@ -2119,7 +2119,7 @@ to_u32
 dwrote
 :
 :
-FontStretch
+FontStyle
 :
 :
 Normal
@@ -2130,7 +2130,7 @@ to_u32
 dwrote
 :
 :
-FontStyle
+FontStretch
 :
 :
 Normal
