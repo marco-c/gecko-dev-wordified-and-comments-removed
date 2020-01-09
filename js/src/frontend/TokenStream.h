@@ -6124,7 +6124,7 @@ startOffset_
 #
 define
 JS_COLUMN_DIMENSION_IS_CODE_POINTS
-1
+0
 template
 <
 typename
