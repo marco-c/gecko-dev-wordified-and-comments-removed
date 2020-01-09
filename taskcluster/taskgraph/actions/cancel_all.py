@@ -33,16 +33,19 @@ util
 .
 taskcluster
 import
+(
+    
 list_task_group
+    
 cancel_task
+    
+CONCURRENCY
+)
 from
 .
 registry
 import
 register_callback_action
-CONCURRENCY
-=
-50
 logger
 =
 logging
@@ -194,7 +197,7 @@ as
 e
 :
         
-cancels_jobs
+cancel_futs
 =
 [
             
@@ -222,12 +225,17 @@ own_task_id
 ]
         
 for
-job
+f
 in
-cancels_jobs
+futures
+.
+as_completed
+(
+cancel_futs
+)
 :
             
-job
+f
 .
 result
 (
