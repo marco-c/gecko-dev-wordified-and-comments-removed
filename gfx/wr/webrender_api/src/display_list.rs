@@ -8774,6 +8774,9 @@ di
 :
 :
 Shadow
+should_inflate
+:
+bool
 )
 {
 let
@@ -8797,6 +8800,7 @@ space_and_clip
 *
 space_and_clip
 shadow
+should_inflate
 }
 )
 ;

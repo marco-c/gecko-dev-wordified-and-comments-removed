@@ -4919,6 +4919,10 @@ FilterOp
 :
 DropShadow
 (
+Shadow
+{
+offset
+:
 yaml
 [
 "
@@ -4933,6 +4937,8 @@ as_vector
 unwrap
 (
 )
+blur_radius
+:
 yaml
 [
 "
@@ -4949,6 +4955,8 @@ as_f32
 unwrap
 (
 )
+color
+:
 yaml
 [
 "
@@ -4963,6 +4971,7 @@ as_colorf
 unwrap
 (
 )
+}
 )
 )
 }

@@ -203,6 +203,7 @@ internal_types
 FastHashMap
 FastHashSet
 LayoutPrimitiveInfo
+Filter
 }
 ;
 use
@@ -5624,6 +5625,9 @@ info
 .
 shadow
 clip_and_scroll
+info
+.
+should_inflate
 )
 ;
 }
@@ -8175,7 +8179,7 @@ Some
 match
 filter
 {
-FilterOp
+Filter
 :
 :
 ComponentTransfer
@@ -9857,6 +9861,9 @@ Shadow
 clip_and_scroll
 :
 ScrollNodeAndClipChain
+should_inflate
+:
+bool
 )
 {
 /
@@ -9890,6 +9897,7 @@ PendingShadow
 {
 shadow
 clip_and_scroll
+should_inflate
 }
 )
 )
@@ -10541,7 +10549,7 @@ blur
 let
 blur_filter
 =
-FilterOp
+Filter
 :
 :
 Blur
@@ -10621,8 +10629,6 @@ PictureOptions
 inflate_if_required
 :
 pending_shadow
-.
-shadow
 .
 should_inflate
 }
@@ -14502,6 +14508,9 @@ PendingShadow
 shadow
 :
 Shadow
+should_inflate
+:
+bool
 clip_and_scroll
 :
 ScrollNodeAndClipChain
