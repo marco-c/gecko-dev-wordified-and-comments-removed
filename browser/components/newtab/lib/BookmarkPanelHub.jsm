@@ -738,7 +738,7 @@ close
 createElement
 (
 "
-a
+button
 "
 )
 ;
@@ -767,6 +767,16 @@ label
 close
 "
 )
+;
+close
+.
+style
+.
+color
+=
+message
+.
+color
 ;
 this
 .
