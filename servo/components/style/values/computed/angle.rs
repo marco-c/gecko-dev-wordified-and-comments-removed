@@ -102,6 +102,13 @@ ToAnimatedZero
 ToResolvedValue
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 Angle
