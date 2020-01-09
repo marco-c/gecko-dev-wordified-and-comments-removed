@@ -522,11 +522,6 @@ SSE
 h
 '
 '
-WindowsCFGStatus
-.
-h
-'
-'
 WindowsDllBlocklist
 .
 h
