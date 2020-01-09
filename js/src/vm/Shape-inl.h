@@ -1191,9 +1191,6 @@ Inner
 :
 Inner
 (
-JSContext
-*
-cx
 uint8_t
 attrs
 GetterOp
@@ -1204,10 +1201,6 @@ SetterOp
 psetter_
 )
 :
-CustomAutoRooter
-(
-cx
-)
 attrs
 (
 attrs
@@ -1258,9 +1251,12 @@ inner
 emplace
 (
 cx
+Inner
+(
 attrs
 pgetter
 psetter
+)
 )
 ;
 }
