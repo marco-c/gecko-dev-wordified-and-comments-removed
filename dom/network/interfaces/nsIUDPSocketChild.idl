@@ -128,7 +128,6 @@ NetAddr
 )
 ;
 [
-scriptable
 uuid
 (
 1e6ad73b
