@@ -1197,6 +1197,15 @@ aTopic
 )
 )
 ;
+if
+(
+mShuttingDown
+)
+{
+return
+NS_OK
+;
+}
 MOZ_TRY
 (
 EnsureValidCall
