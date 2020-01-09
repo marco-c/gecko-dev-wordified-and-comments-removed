@@ -604,14 +604,14 @@ pdfjsVersion
 .
 2
 .
-154
+160
 '
 ;
 var
 pdfjsBuild
 =
 '
-762c58e0
+155304a0
 '
 ;
 var
@@ -7553,7 +7553,7 @@ apiVersion
 .
 2
 .
-154
+160
 '
 source
 :
@@ -16612,7 +16612,7 @@ version
 .
 2
 .
-154
+160
 '
 ;
 exports
@@ -16625,7 +16625,7 @@ const
 build
 =
 '
-762c58e0
+155304a0
 '
 ;
 exports

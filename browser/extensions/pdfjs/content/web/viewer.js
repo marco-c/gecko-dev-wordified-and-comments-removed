@@ -8766,6 +8766,11 @@ addEventListener
 wheel
 '
 webViewerWheel
+{
+passive
+:
+false
+}
 )
 ;
 window
