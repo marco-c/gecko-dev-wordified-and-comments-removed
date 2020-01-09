@@ -840,6 +840,8 @@ EncodedDocumentWithContext
 {
 bool
 mUnicodeEncodingIsTextHTML
+=
+false
 ;
 nsAutoString
 mSerializationForTextUnicode
