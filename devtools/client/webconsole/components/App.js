@@ -417,13 +417,6 @@ propTypes
 {
 return
 {
-attachRefToWebConsoleUI
-:
-PropTypes
-.
-func
-.
-isRequired
 dispatch
 :
 PropTypes
@@ -1081,7 +1074,6 @@ render
 {
 const
 {
-attachRefToWebConsoleUI
 webConsoleUI
 notifications
 onFirstMeaningfulPaint
@@ -1203,7 +1195,6 @@ webConsoleUI
 .
 isBrowserConsole
 hideShowContentMessagesCheckbox
-attachRefToWebConsoleUI
 closeSplitConsole
 }
 )
