@@ -196,14 +196,6 @@ aArgs
 )
 ;
 Promise
-translateFragment
-(
-in
-Node
-aNode
-)
-;
-Promise
 translateElements
 (
 in

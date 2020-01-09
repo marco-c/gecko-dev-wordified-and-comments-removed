@@ -941,7 +941,7 @@ NewObject
 ]
 Promise
 <
-void
+any
 >
 translateFragment
 (

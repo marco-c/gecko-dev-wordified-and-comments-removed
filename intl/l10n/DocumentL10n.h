@@ -506,6 +506,9 @@ Promise
 >
 TranslateFragment
 (
+JSContext
+*
+aCx
 nsINode
 &
 aNode
