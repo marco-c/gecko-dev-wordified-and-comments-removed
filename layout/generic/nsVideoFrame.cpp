@@ -2821,6 +2821,9 @@ IsCompositingCheap
 )
 {
 return
+LayerState
+:
+:
 LAYER_ACTIVE
 ;
 }
@@ -2850,7 +2853,13 @@ IsPotentiallyPlaying
 (
 )
 ?
+LayerState
+:
+:
 LAYER_ACTIVE_FORCE
+:
+LayerState
+:
 :
 LAYER_INACTIVE
 ;

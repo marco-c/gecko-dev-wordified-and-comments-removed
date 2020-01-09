@@ -973,11 +973,17 @@ return
 mozilla
 :
 :
+LayerState
+:
+:
 LAYER_NONE
 ;
 }
 return
 mozilla
+:
+:
+LayerState
 :
 :
 LAYER_ACTIVE_FORCE

@@ -8976,6 +8976,9 @@ return
 mozilla
 :
 :
+LayerState
+:
+:
 LAYER_NONE
 ;
 }
@@ -17731,6 +17734,9 @@ return
 mozilla
 :
 :
+LayerState
+:
+:
 LAYER_ACTIVE_FORCE
 ;
 }
@@ -22192,6 +22198,9 @@ return
 mozilla
 :
 :
+LayerState
+:
+:
 LAYER_NONE
 ;
 }
@@ -22504,6 +22513,9 @@ return
 mozilla
 :
 :
+LayerState
+:
+:
 LAYER_ACTIVE
 ;
 }
@@ -22728,6 +22740,9 @@ override
 {
 return
 mozilla
+:
+:
+LayerState
 :
 :
 LAYER_ACTIVE_FORCE
@@ -23398,6 +23413,9 @@ return
 mozilla
 :
 :
+LayerState
+:
+:
 LAYER_ACTIVE
 ;
 }
@@ -23549,6 +23567,9 @@ override
 {
 return
 mozilla
+:
+:
+LayerState
 :
 :
 LAYER_ACTIVE_FORCE

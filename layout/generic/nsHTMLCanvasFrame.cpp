@@ -1000,6 +1000,9 @@ aManager
 )
 )
 return
+LayerState
+:
+:
 LAYER_INACTIVE
 ;
 if
@@ -1024,9 +1027,15 @@ return
 mozilla
 :
 :
+LayerState
+:
+:
 LAYER_ACTIVE
 ;
 return
+LayerState
+:
+:
 LAYER_INACTIVE
 ;
 }

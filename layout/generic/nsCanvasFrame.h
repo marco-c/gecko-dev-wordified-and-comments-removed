@@ -727,11 +727,17 @@ return
 mozilla
 :
 :
+LayerState
+:
+:
 LAYER_ACTIVE
 ;
 }
 return
 mozilla
+:
+:
+LayerState
 :
 :
 LAYER_NONE

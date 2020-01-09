@@ -9111,6 +9111,9 @@ GPUImageScalingEnabled
 )
 {
 return
+LayerState
+:
+:
 LAYER_NONE
 ;
 }
@@ -9249,6 +9252,9 @@ height
 )
 {
 return
+LayerState
+:
+:
 LAYER_NONE
 ;
 }
@@ -9268,6 +9274,9 @@ height
 )
 {
 return
+LayerState
+:
+:
 LAYER_NONE
 ;
 }
@@ -9284,6 +9293,9 @@ aBuilder
 )
 {
 return
+LayerState
+:
+:
 LAYER_NONE
 ;
 }
@@ -9311,10 +9323,16 @@ HasImageMap
 )
 {
 return
+LayerState
+:
+:
 LAYER_NONE
 ;
 }
 return
+LayerState
+:
+:
 LAYER_ACTIVE
 ;
 }
