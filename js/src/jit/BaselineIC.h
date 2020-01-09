@@ -11166,7 +11166,7 @@ ret
 ;
 extern
 bool
-DoNewArray
+DoNewArrayFallback
 (
 JSContext
 *
@@ -11185,7 +11185,7 @@ res
 ;
 extern
 bool
-DoNewObject
+DoNewObjectFallback
 (
 JSContext
 *

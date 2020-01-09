@@ -30192,7 +30192,7 @@ masm
 ;
 }
 bool
-DoNewArray
+DoNewArrayFallback
 (
 JSContext
 *
@@ -30450,7 +30450,7 @@ return
 tailCallVM
 <
 Fn
-DoNewArray
+DoNewArrayFallback
 >
 (
 masm
@@ -30458,7 +30458,7 @@ masm
 ;
 }
 bool
-DoNewObject
+DoNewObjectFallback
 (
 JSContext
 *
@@ -30737,7 +30737,7 @@ return
 tailCallVM
 <
 Fn
-DoNewObject
+DoNewObjectFallback
 >
 (
 masm
