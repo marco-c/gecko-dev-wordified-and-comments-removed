@@ -681,6 +681,10 @@ clear
 (
 )
 {
+if
+(
+items
+)
 memset
 (
 items

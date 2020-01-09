@@ -58,6 +58,11 @@ desubroutinize
 :
 1
 ;
+bool
+retain_gids
+:
+1
+;
 }
 ;
 #

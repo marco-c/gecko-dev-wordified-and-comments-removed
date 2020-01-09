@@ -179,13 +179,6 @@ CHANGELOG_RANGE
 -
 stat
 )
-|
-fmt
--
--
-split
--
-only
 >
 .
 tmp

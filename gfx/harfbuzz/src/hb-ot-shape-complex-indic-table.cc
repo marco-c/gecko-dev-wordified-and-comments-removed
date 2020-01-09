@@ -35,7 +35,7 @@ ISC_A
 INDIC_SYLLABIC_CATEGORY_AVAGRAHA
 /
 *
-16
+17
 chars
 ;
 Avagraha
@@ -47,7 +47,7 @@ ISC_Bi
 INDIC_SYLLABIC_CATEGORY_BINDU
 /
 *
-83
+86
 chars
 ;
 Bindu
@@ -71,7 +71,7 @@ ISC_Ca
 INDIC_SYLLABIC_CATEGORY_CANTILLATION_MARK
 /
 *
-58
+59
 chars
 ;
 Cantillation_Mark
@@ -83,7 +83,7 @@ ISC_C
 INDIC_SYLLABIC_CATEGORY_CONSONANT
 /
 *
-2110
+2160
 chars
 ;
 Consonant
@@ -95,7 +95,7 @@ ISC_CD
 INDIC_SYLLABIC_CATEGORY_CONSONANT_DEAD
 /
 *
-10
+12
 chars
 ;
 Consonant_Dead
@@ -155,7 +155,7 @@ ISC_CM
 INDIC_SYLLABIC_CATEGORY_CONSONANT_MEDIAL
 /
 *
-28
+29
 chars
 ;
 Consonant_Medial
@@ -167,7 +167,7 @@ ISC_CP
 INDIC_SYLLABIC_CATEGORY_CONSONANT_PLACEHOLDER
 /
 *
-21
+22
 chars
 ;
 Consonant_Placeholder
@@ -191,7 +191,7 @@ ISC_CPrf
 INDIC_SYLLABIC_CATEGORY_CONSONANT_PREFIXED
 /
 *
-7
+9
 chars
 ;
 Consonant_Prefixed
@@ -203,7 +203,7 @@ ISC_CS
 INDIC_SYLLABIC_CATEGORY_CONSONANT_SUBJOINED
 /
 *
-95
+94
 chars
 ;
 Consonant_Subjoined
@@ -311,7 +311,7 @@ ISC_Nd
 INDIC_SYLLABIC_CATEGORY_NUMBER
 /
 *
-480
+481
 chars
 ;
 Number
@@ -407,7 +407,7 @@ ISC_V
 INDIC_SYLLABIC_CATEGORY_VIRAMA
 /
 *
-25
+27
 chars
 ;
 Virama
@@ -419,7 +419,7 @@ ISC_Vs
 INDIC_SYLLABIC_CATEGORY_VISARGA
 /
 *
-36
+35
 chars
 ;
 Visarga
@@ -443,7 +443,7 @@ ISC_M
 INDIC_SYLLABIC_CATEGORY_VOWEL_DEPENDENT
 /
 *
-660
+673
 chars
 ;
 Vowel_Dependent
@@ -455,7 +455,7 @@ ISC_VI
 INDIC_SYLLABIC_CATEGORY_VOWEL_INDEPENDENT
 /
 *
-464
+476
 chars
 ;
 Vowel_Independent
@@ -467,7 +467,7 @@ IMC_B
 INDIC_MATRA_CATEGORY_BOTTOM
 /
 *
-340
+349
 chars
 ;
 Bottom
@@ -503,7 +503,7 @@ IMC_L
 INDIC_MATRA_CATEGORY_LEFT
 /
 *
-59
+61
 chars
 ;
 Left
@@ -551,7 +551,7 @@ IMC_R
 INDIC_MATRA_CATEGORY_RIGHT
 /
 *
-276
+281
 chars
 ;
 Right
@@ -563,7 +563,7 @@ IMC_T
 INDIC_MATRA_CATEGORY_TOP
 /
 *
-393
+398
 chars
 ;
 Top
@@ -2692,7 +2692,7 @@ x
 _
 (
 Ca
-x
+B
 )
 _
 (
@@ -5486,7 +5486,7 @@ x
 )
 _
 (
-x
+Bi
 x
 )
 _
@@ -8908,12 +8908,12 @@ x
 )
 _
 (
-Vs
+CD
 x
 )
 _
 (
-Vs
+CD
 x
 )
 _
@@ -8948,7 +8948,7 @@ x
 )
 _
 (
-x
+CP
 x
 )
 _

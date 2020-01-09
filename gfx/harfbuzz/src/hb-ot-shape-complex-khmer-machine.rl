@@ -399,7 +399,11 @@ Coeng
 cn
 )
 *
+(
+Coeng
+|
 syllable_tail
+)
 ;
 consonant_syllable
 =

@@ -190,7 +190,6 @@ _
 fi
 EXPORTED_SYMBOLS
 =
-"
 nm
 "
 so
@@ -233,7 +232,6 @@ c
 +
 +
 filt
-"
 prefix
 =
 symprefix

@@ -82,6 +82,17 @@ font
 HB_UNUSED
 )
 {
+if
+(
+buffer
+-
+>
+flags
+&
+HB_BUFFER_FLAG_DO_NOT_INSERT_DOTTED_CIRCLE
+)
+return
+;
 bool
 processed
 =

@@ -295,6 +295,10 @@ Ra
 =
 16
 ;
+CM
+=
+17
+;
 Symbol
 =
 18
@@ -445,6 +449,11 @@ H
 .
 ZWNJ
 ;
+medial_group
+=
+CM
+?
+;
 halant_or_matra_group
 =
 (
@@ -468,6 +477,7 @@ cn
 0
 4
 }
+medial_group
 halant_or_matra_group
 syllable_tail
 ;

@@ -1392,6 +1392,14 @@ D
 D
 D
 D
+X
+X
+X
+X
+X
+X
+X
+T
 }
 ;
 static
@@ -1651,7 +1659,7 @@ hb_codepoint_t
 (
 u
 0x1E900u
-0x1E943u
+0x1E94Bu
 )
 )
 return

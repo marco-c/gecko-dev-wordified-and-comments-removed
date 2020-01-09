@@ -317,9 +317,9 @@ set_num_glyphs
 plan
 -
 >
-glyphs
-.
-length
+num_output_glyphs
+(
+)
 )
 ;
 if

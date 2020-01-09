@@ -207,6 +207,16 @@ version
 0
 &
 &
+c
+-
+>
+check_range
+(
+this
+anchorData
+)
+&
+&
 lookupTable
 .
 sanitize

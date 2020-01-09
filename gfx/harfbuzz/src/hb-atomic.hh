@@ -436,6 +436,7 @@ atomic
 <
 int
 >
+const
 *
 >
 (
@@ -467,6 +468,7 @@ atomic
 <
 int
 >
+const
 *
 >
 (
@@ -535,6 +537,7 @@ atomic
 void
 *
 >
+const
 *
 >
 (
@@ -1224,9 +1227,17 @@ _AIX
 )
 &
 &
+(
 defined
 (
 __IBMCPP__
+)
+|
+|
+defined
+(
+__ibmxl__
+)
 )
 #
 include

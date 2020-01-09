@@ -1058,6 +1058,13 @@ if
 __cplusplus
 <
 201103L
+&
+&
+!
+defined
+(
+_MSC_VER
+)
 #
 ifndef
 nullptr

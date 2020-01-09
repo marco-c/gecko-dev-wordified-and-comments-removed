@@ -2282,7 +2282,7 @@ if
 !
 hb_in_range
 <
-unsigned
+uint8_t
 >
 (
 info
@@ -2378,7 +2378,7 @@ i
 &
 hb_in_range
 <
-unsigned
+uint8_t
 >
 (
 info
@@ -2474,7 +2474,7 @@ context
 !
 hb_in_range
 <
-unsigned
+uint8_t
 >
 (
 info
