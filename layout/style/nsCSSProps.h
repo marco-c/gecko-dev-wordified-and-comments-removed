@@ -784,6 +784,15 @@ ComputedStyle
 aStyle
 )
 {
+MOZ_ASSERT
+(
+!
+IsShorthand
+(
+aProperty
+)
+)
+;
 if
 (
 PropHasFlags
