@@ -1497,6 +1497,7 @@ message
 get
 (
 )
+DOM
 )
 ;
 }

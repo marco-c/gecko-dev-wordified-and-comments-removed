@@ -1864,6 +1864,16 @@ mStackHelper
 GetThreadId
 (
 )
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+OTHER
 "
 BHR
 -

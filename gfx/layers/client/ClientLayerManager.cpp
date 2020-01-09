@@ -1271,6 +1271,7 @@ Paint
 "
 Rasterize
 "
+GRAPHICS
 )
 ;
 Maybe
@@ -3037,6 +3038,7 @@ Paint
 "
 ForwardTransaction
 "
+GRAPHICS
 )
 ;
 TimeStamp

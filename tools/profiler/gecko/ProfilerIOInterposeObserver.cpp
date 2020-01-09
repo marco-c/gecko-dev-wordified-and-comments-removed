@@ -75,6 +75,16 @@ aObservation
 ObservedOperationString
 (
 )
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+OTHER
 MakeUnique
 <
 IOMarkerPayload

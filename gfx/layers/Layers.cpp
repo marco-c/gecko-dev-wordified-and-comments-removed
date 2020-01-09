@@ -996,6 +996,16 @@ marker
 get
 (
 )
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 }

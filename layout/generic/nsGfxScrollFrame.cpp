@@ -23463,6 +23463,7 @@ Paint
 "
 FireScrollEvent
 "
+GRAPHICS
 docShell
 )
 ;

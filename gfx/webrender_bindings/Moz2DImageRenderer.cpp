@@ -1846,6 +1846,7 @@ WebRender
 "
 RasterizeSingleBlob
 "
+GRAPHICS
 )
 ;
 MOZ_ASSERT

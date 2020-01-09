@@ -1988,6 +1988,16 @@ profiler_add_marker
 "
 LogMessages
 "
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+OTHER
 MakeUnique
 <
 LogMarkerPayload

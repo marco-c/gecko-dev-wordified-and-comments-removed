@@ -1602,6 +1602,7 @@ PROFILER_ADD_MARKER
 Shutdown
 start
 "
+OTHER
 )
 ;
 mozilla

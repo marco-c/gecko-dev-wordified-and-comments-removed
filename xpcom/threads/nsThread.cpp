@@ -5071,6 +5071,16 @@ LongTask
 "
 LongIdleTask
 "
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+OTHER
 MakeUnique
 <
 LongTaskMarkerPayload

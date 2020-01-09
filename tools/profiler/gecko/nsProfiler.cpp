@@ -769,6 +769,16 @@ aMarker
 profiler_add_marker
 (
 aMarker
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+OTHER
 )
 ;
 return
