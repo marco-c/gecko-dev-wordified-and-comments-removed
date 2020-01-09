@@ -19340,11 +19340,18 @@ s
 action
 =
 '
-store_true
+store_const
 '
-default
+const
 =
-False
+'
+stdout
+'
+dest
+=
+'
+output_path
+'
                      
 help
 =
@@ -19353,6 +19360,7 @@ Show
 diff
 output
 on
+stdout
 instead
 of
 applying
@@ -19594,14 +19602,70 @@ time
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+output
+'
+'
+-
+o
+'
+default
+=
+None
+dest
+=
+'
+output_path
+'
+                     
+help
+=
+'
+Specify
+a
+file
+handle
+to
+write
+clang
+-
+format
+raw
+output
+instead
+of
+'
+                          
+'
+applying
+changes
+.
+This
+can
+be
+stdout
+or
+a
+file
+path
+.
+'
+)
+    
 def
 clang_format
 (
 self
-show
 assume_filename
 path
 commit
+output_path
+=
+None
 verbose
 =
 False
@@ -19631,6 +19695,38 @@ chdir
 self
 .
 topsrcdir
+)
+        
+output
+=
+None
+        
+if
+output_path
+is
+not
+None
+:
+            
+output
+=
+sys
+.
+stdout
+if
+output_path
+=
+=
+'
+stdout
+'
+else
+open
+(
+output_path
+'
+w
+'
 )
         
 if
@@ -19748,8 +19844,8 @@ _clang_format_diff
 self
 .
 _clang_format_path
-show
 commit
+output
 )
         
 if
@@ -19776,8 +19872,8 @@ _run_clang_format_path
 self
 .
 _clang_format_path
-show
 path
+output
 )
     
 def
@@ -22572,8 +22668,8 @@ _run_clang_format_diff
 self
 clang_format_diff
 clang_format
-show
 commit
+output_file
 )
 :
         
@@ -22624,7 +22720,7 @@ clang_format
         
 if
 not
-show
+output_file
 :
             
 args
@@ -22653,12 +22749,15 @@ stdout
 )
             
 if
-show
+output_file
 :
                 
 print
 (
 output
+file
+=
+output_file
 )
             
 return
@@ -23154,8 +23253,8 @@ _run_clang_format_path
 (
 self
 clang_format
-show
 paths
+output_file
 )
 :
         
@@ -23176,7 +23275,7 @@ i
 ]
         
 if
-show
+output_file
 :
             
 tmpdir
@@ -23255,7 +23354,7 @@ path_list
 )
         
 if
-show
+output_file
 :
             
 for
@@ -23441,6 +23540,9 @@ print
 e
 .
 output
+file
+=
+output_file
 )
             
 shutil
