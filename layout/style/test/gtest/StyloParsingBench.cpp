@@ -503,10 +503,13 @@ UniquePtr
 StyleUseCounters
 >
 counters
-(
+=
 Servo_UseCounters_Create
 (
 )
+.
+Consume
+(
 )
 ;
 ServoParsingBench
