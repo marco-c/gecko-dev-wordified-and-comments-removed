@@ -11741,13 +11741,12 @@ ErrorResult
 aError
 )
 {
-FORWARD_TO_OUTER_OR_THROW
+FORWARD_TO_OUTER
 (
 GetClosedOuter
 (
 )
-aError
-false
+true
 )
 ;
 }
