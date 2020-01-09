@@ -249,10 +249,11 @@ pocket_actions_test
 .
 html
 /
+firefox_learnmore
 ?
 src
 =
-ff_ext
+ff_library
 "
 )
 ;
@@ -295,10 +296,11 @@ pocket_actions_test
 .
 html
 /
+firefox_learnmore
 ?
 src
 =
-ff_ext
+ff_library
 "
 "
 pocket
