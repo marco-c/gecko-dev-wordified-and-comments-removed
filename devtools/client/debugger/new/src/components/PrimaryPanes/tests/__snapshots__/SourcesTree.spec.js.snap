@@ -45,6 +45,7 @@ className
 sources
 -
 pane
+thread
 "
 key
 =
@@ -211,6 +212,7 @@ className
 sources
 -
 pane
+thread
 "
 key
 =
@@ -367,6 +369,7 @@ className
 sources
 -
 pane
+thread
 "
 key
 =
@@ -538,6 +541,7 @@ className
 sources
 -
 pane
+thread
 "
 key
 =
