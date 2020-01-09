@@ -85,3 +85,11 @@ MPL
 0
 /
 .
+TEST_DIRS
++
+=
+[
+'
+unit
+'
+]

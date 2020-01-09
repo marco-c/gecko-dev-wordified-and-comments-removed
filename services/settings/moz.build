@@ -74,6 +74,14 @@ Settings
 Client
 '
 )
+TEST_DIRS
++
+=
+[
+'
+test
+'
+]
 DIRS
 +
 =
