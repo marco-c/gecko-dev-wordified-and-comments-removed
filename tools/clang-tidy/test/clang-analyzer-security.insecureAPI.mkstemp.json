@@ -46,4 +46,13 @@ insecureAPI
 mkstemp
 "
 ]
+{
+"
+reliability
+"
+:
+"
+high
+"
+}
 ]

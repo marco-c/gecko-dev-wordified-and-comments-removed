@@ -36,4 +36,13 @@ core
 CallAndMessage
 "
 ]
+{
+"
+reliability
+"
+:
+"
+medium
+"
+}
 ]
