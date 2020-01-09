@@ -7,14 +7,14 @@ mozilla_dom_SVGAnimatedBoolean_h
 #
 include
 "
-nsWrapperCache
+SVGBoolean
 .
 h
 "
 #
 include
 "
-SVGElement
+nsWrapperCache
 .
 h
 "
@@ -30,7 +30,11 @@ h
 #
 include
 "
-nsSVGBoolean
+mozilla
+/
+dom
+/
+SVGElement
 .
 h
 "
@@ -57,7 +61,7 @@ SVGAnimatedBoolean
 )
 SVGAnimatedBoolean
 (
-nsSVGBoolean
+SVGBoolean
 *
 aVal
 SVGElement
@@ -167,7 +171,7 @@ SVGAnimatedBoolean
 (
 )
 ;
-nsSVGBoolean
+SVGBoolean
 *
 mVal
 ;

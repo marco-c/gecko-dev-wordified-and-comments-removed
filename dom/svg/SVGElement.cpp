@@ -318,7 +318,7 @@ h
 #
 include
 "
-nsSVGBoolean
+SVGBoolean
 .
 h
 "
@@ -332,7 +332,7 @@ h
 #
 include
 "
-nsSVGInteger
+SVGInteger
 .
 h
 "

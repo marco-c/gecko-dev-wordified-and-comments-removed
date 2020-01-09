@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGBoolean
+SVGBoolean
 .
 h
 "
@@ -43,19 +43,18 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 static
 inline
 nsSVGAttrTearoffTable
 <
-nsSVGBoolean
+SVGBoolean
 SVGAnimatedBoolean
 >
 &
@@ -66,7 +65,7 @@ SVGAnimatedBooleanTearoffTable
 static
 nsSVGAttrTearoffTable
 <
-nsSVGBoolean
+SVGBoolean
 SVGAnimatedBoolean
 >
 sSVGAnimatedBooleanTearoffTable
@@ -190,7 +189,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 nsresult
-nsSVGBoolean
+SVGBoolean
 :
 :
 SetBaseValueAtom
@@ -262,7 +261,7 @@ NS_OK
 }
 nsAtom
 *
-nsSVGBoolean
+SVGBoolean
 :
 :
 GetBaseValueAtom
@@ -285,7 +284,7 @@ _false
 ;
 }
 void
-nsSVGBoolean
+SVGBoolean
 :
 :
 SetBaseValue
@@ -343,7 +342,7 @@ mAttrEnum
 ;
 }
 void
-nsSVGBoolean
+SVGBoolean
 :
 :
 SetAnimValue
@@ -390,7 +389,7 @@ already_AddRefed
 <
 SVGAnimatedBoolean
 >
-nsSVGBoolean
+SVGBoolean
 :
 :
 ToDOMAnimatedBoolean
@@ -471,7 +470,7 @@ UniquePtr
 <
 nsISMILAttr
 >
-nsSVGBoolean
+SVGBoolean
 :
 :
 ToSMILAttr
@@ -493,7 +492,7 @@ aSVGElement
 ;
 }
 nsresult
-nsSVGBoolean
+SVGBoolean
 :
 :
 SMILBool
@@ -566,7 +565,7 @@ NS_OK
 ;
 }
 nsSMILValue
-nsSVGBoolean
+SVGBoolean
 :
 :
 SMILBool
@@ -604,7 +603,7 @@ val
 ;
 }
 void
-nsSVGBoolean
+SVGBoolean
 :
 :
 SMILBool
@@ -653,7 +652,7 @@ mAttrEnum
 }
 }
 nsresult
-nsSVGBoolean
+SVGBoolean
 :
 :
 SMILBool
@@ -725,4 +724,5 @@ mSVGElement
 return
 NS_OK
 ;
+}
 }

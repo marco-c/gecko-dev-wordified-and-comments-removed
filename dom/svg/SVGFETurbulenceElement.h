@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsSVGInteger
+SVGInteger
 .
 h
 "
@@ -370,7 +370,7 @@ enum
 OCTAVES
 }
 ;
-nsSVGInteger
+SVGInteger
 mIntegerAttributes
 [
 1
