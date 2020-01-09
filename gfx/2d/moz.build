@@ -1135,6 +1135,11 @@ PathCairo
 cpp
 '
 '
+PathCapture
+.
+cpp
+'
+'
 PathHelpers
 .
 cpp
