@@ -199,10 +199,6 @@ includes
 "
 image
 |
-deck
-|
-stack
-|
 box
 "
 /
@@ -311,15 +307,6 @@ autocomplete
 result
 -
 popupset
-"
-/
->
-<
-children
-includes
-=
-"
-toolbarbutton
 "
 /
 >
