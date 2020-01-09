@@ -39,6 +39,7 @@ nsIScrollbarMediator
 enum
 ScrollSnapMode
 {
+DEFAULT
 DISABLE_SNAP
 ENABLE_SNAP
 }
