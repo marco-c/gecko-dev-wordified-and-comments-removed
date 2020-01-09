@@ -6848,7 +6848,7 @@ if
 element
 -
 >
-IsSingleLineTextOrNumberControl
+IsTextOrNumberControl
 (
 false
 )
