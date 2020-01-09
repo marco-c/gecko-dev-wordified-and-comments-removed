@@ -61,6 +61,17 @@ mach
 run
 -
 -
+setpref
+=
+"
+remote
+.
+enabled
+=
+true
+"
+-
+-
 remote
 -
 debugger
