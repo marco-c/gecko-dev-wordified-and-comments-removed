@@ -14341,7 +14341,7 @@ pc
 )
 )
 ;
-TryAttachStubOld
+TryAttachStub
 <
 GetNameIRGenerator
 >
