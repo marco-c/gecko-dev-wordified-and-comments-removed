@@ -2076,7 +2076,7 @@ test
 )
 ifdef
 RUST_TEST_FEATURES
-rust_features_flag
+rust_test_features_flag
 :
 =
 -
@@ -2138,7 +2138,7 @@ rust_test_flag
 rust_test_options
 )
 (
-rust_features_flag
+rust_test_features_flag
 )
 )
 endif
