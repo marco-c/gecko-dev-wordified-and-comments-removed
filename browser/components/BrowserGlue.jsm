@@ -1427,12 +1427,6 @@ extensions
 activeThemeID
 "
 "
-default
--
-theme
-mozilla
-.
-org
 "
 )
 !
