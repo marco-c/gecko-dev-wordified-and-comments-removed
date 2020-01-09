@@ -43083,13 +43083,6 @@ other_values
 :
 [
 "
-anywhere
-"
-]
-invalid_values
-:
-[
-"
 loose
 "
 "
@@ -43098,6 +43091,13 @@ normal
 "
 strict
 "
+"
+anywhere
+"
+]
+invalid_values
+:
+[
 ]
 }
 "

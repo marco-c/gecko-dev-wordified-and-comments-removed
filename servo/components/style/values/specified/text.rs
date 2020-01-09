@@ -5030,6 +5030,9 @@ enum
 LineBreak
 {
 Auto
+Loose
+Normal
+Strict
 Anywhere
 }
 #

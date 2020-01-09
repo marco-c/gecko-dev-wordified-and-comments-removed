@@ -30021,7 +30021,16 @@ inherit
 initial
 "
 "
+loose
+"
+"
+normal
+"
+"
 revert
+"
+"
+strict
 "
 "
 unset
