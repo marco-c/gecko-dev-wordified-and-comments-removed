@@ -371,7 +371,7 @@ include
 "
 frontend
 /
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 .
 h
 "
@@ -553,7 +553,7 @@ template
 class
 BinASTParser
 <
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 >
 ;
 }
@@ -752,7 +752,7 @@ include
 "
 frontend
 /
-BinToken
+BinASTToken
 .
 h
 "
@@ -761,7 +761,7 @@ include
 "
 frontend
 /
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 .
 h
 "
@@ -1262,7 +1262,7 @@ template
 class
 BinASTParser
 <
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 >
 ;
 }
@@ -1461,7 +1461,7 @@ frontend_BinASTEnum_h
 Rules
 for
 generating
-BinToken
+BinASTToken
 .
 h
 tokens
@@ -1823,10 +1823,10 @@ md
 .
 #
 ifndef
-frontend_BinToken_h
+frontend_BinASTToken_h
 #
 define
-frontend_BinToken_h
+frontend_BinASTToken_h
 #
 include
 <
@@ -2154,7 +2154,7 @@ js
 endif
 /
 /
-frontend_BinToken_h
+frontend_BinASTToken_h
 Arguments
 :
 init

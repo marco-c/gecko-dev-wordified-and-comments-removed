@@ -11716,7 +11716,7 @@ format
 !
 (
 "
-BinTokenReaderBase
+BinASTTokenReaderBase
 :
 :
 SkippableSubTree

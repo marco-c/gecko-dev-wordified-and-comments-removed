@@ -73,7 +73,7 @@ token
 .
 .
 /
-BinToken
+BinASTToken
 -
 tmp
 .
@@ -133,7 +133,7 @@ h
 .
 .
 /
-BinToken
+BinASTToken
 -
 tmp
 .
@@ -280,7 +280,7 @@ update
 .
 .
 /
-BinToken
+BinASTToken
 -
 tmp
 .
@@ -288,6 +288,6 @@ h
 .
 .
 /
-BinToken
+BinASTToken
 .
 h

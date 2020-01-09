@@ -1,9 +1,9 @@
 #
 ifndef
-frontend_BinToken_h
+frontend_BinASTToken_h
 #
 define
-frontend_BinToken_h
+frontend_BinASTToken_h
 #
 include
 <

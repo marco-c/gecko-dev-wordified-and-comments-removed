@@ -438,17 +438,17 @@ BinASTRuntimeSupport
 cpp
 '
 '
-BinToken
+BinASTToken
 .
 cpp
 '
 '
-BinTokenReaderBase
+BinASTTokenReaderBase
 .
 cpp
 '
 '
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 .
 cpp
 '
@@ -548,7 +548,7 @@ libfuzzer_flags
 SOURCES
 [
 '
-BinToken
+BinASTToken
 .
 cpp
 '
@@ -561,7 +561,7 @@ libfuzzer_flags
 SOURCES
 [
 '
-BinTokenReaderBase
+BinASTTokenReaderBase
 .
 cpp
 '
@@ -574,7 +574,7 @@ libfuzzer_flags
 SOURCES
 [
 '
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 .
 cpp
 '
