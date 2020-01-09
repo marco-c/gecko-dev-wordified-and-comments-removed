@@ -65,7 +65,7 @@ stack
 :
 [
 "
-_rebuild
+__rebuild
 chrome
 :
 /
