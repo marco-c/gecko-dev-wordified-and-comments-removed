@@ -1861,7 +1861,7 @@ pwin
 outer
 -
 >
-GetTopOuter
+GetScriptableTop
 (
 )
 ;

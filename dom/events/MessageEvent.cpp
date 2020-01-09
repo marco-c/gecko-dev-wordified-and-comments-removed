@@ -617,6 +617,10 @@ Value
 GetAsWindowProxy
 (
 )
+.
+get
+(
+)
 ;
 }
 else
@@ -860,6 +864,10 @@ Value
 )
 .
 GetAsWindowProxy
+(
+)
+.
+get
 (
 )
 ;

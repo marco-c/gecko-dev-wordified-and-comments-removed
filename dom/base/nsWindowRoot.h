@@ -285,7 +285,7 @@ mParent
 virtual
 nsPIDOMWindowOuter
 *
-GetOwnerGlobalForBindings
+GetOwnerGlobalForBindingsInternal
 (
 )
 override

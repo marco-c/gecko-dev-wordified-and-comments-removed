@@ -1239,6 +1239,11 @@ WindowOrientationObserver
 .
 h
 '
+'
+WindowProxyHolder
+.
+h
+'
 ]
 if
 CONFIG
