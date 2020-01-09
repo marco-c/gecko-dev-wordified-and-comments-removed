@@ -52,10 +52,10 @@ collapse
 separate
 collapse
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_BORDER
+StyleBorderCollapse
 "
 animation_value_type
 =

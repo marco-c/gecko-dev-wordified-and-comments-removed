@@ -713,6 +713,12 @@ StyleStackSizing
 mozilla
 :
 :
+StyleBorderCollapse
+"
+"
+mozilla
+:
+:
 StyleBorderImageRepeat
 "
 "
