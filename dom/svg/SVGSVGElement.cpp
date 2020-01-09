@@ -47,6 +47,17 @@ mozilla
 /
 dom
 /
+SVGRect
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGViewElement
 .
 h
