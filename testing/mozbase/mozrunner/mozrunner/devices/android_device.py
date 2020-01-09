@@ -6579,6 +6579,8 @@ f
 =
 urllib
 .
+request
+.
 urlopen
 (
 url
