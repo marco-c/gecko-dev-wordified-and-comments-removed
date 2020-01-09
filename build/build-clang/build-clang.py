@@ -1314,6 +1314,17 @@ python_path
 gcc_dir
 libcxx_include_dir
                     
+compiler_rt_source_dir
+=
+None
+runtimes_source_link
+=
+None
+                    
+compiler_rt_source_link
+=
+None
+                    
 is_final_stage
 =
 False
@@ -1322,6 +1333,34 @@ android_targets
 None
 )
 :
+    
+if
+is_final_stage
+and
+android_targets
+:
+        
+symlink
+(
+compiler_rt_source_dir
+runtimes_source_link
+)
+        
+try
+:
+            
+os
+.
+unlink
+(
+compiler_rt_source_link
+)
+        
+except
+Exception
+:
+            
+pass
     
 if
 not
@@ -5632,13 +5671,8 @@ gcc_dir
 libcxx_include_dir
 )
     
-if
-android_targets
-:
-        
-symlink
-(
-compiler_rt_source_dir
+runtimes_source_link
+=
 llvm_source_dir
 +
 "
@@ -5649,23 +5683,6 @@ compiler
 -
 rt
 "
-)
-        
-try
-:
-            
-os
-.
-unlink
-(
-compiler_rt_source_link
-)
-        
-except
-Exception
-:
-            
-pass
     
 if
 stages
@@ -5786,6 +5803,10 @@ assertions
 python_path
 gcc_dir
 libcxx_include_dir
+            
+compiler_rt_source_dir
+runtimes_source_link
+compiler_rt_source_link
             
 is_final_stage
 =
@@ -5909,6 +5930,10 @@ assertions
 python_path
 gcc_dir
 libcxx_include_dir
+            
+compiler_rt_source_dir
+runtimes_source_link
+compiler_rt_source_link
             
 (
 stages
