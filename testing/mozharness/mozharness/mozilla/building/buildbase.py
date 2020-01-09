@@ -5890,28 +5890,6 @@ MOZ_UPDATE_CHANNEL
 =
 update_channel
             
-elif
-c
-.
-get
-(
-'
-enable_release_promotion
-'
-)
-:
-                
-env
-[
-"
-MOZ_UPDATE_CHANNEL
-"
-]
-=
-self
-.
-branch
-            
 else
 :
                 
