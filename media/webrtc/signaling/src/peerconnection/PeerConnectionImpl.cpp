@@ -15710,6 +15710,14 @@ query
 report
 )
 ;
+auto
+now
+=
+query
+-
+>
+now
+;
 return
 aTransportHandler
 -
@@ -15717,9 +15725,6 @@ aTransportHandler
 GetIceStats
 (
 transportId
-query
--
->
 now
 std
 :
