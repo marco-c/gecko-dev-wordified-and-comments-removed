@@ -757,9 +757,6 @@ condition
 :
 ?
 string
-noSliding
-:
-boolean
 }
 )
 =

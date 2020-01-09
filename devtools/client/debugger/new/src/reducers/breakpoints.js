@@ -856,7 +856,14 @@ return
 syncBreakpoint
 (
 state
+{
+breakpoint
+:
 value
+previousLocation
+:
+null
+}
 )
 ;
 }
