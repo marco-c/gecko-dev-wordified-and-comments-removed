@@ -13,6 +13,12 @@ defined
 (
 __arm__
 )
+&
+&
+defined
+(
+__ANDROID__
+)
 template
 <
 void
