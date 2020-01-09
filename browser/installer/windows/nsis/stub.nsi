@@ -1284,13 +1284,6 @@ endif
 !
 endif
 !
-undef
-INSTALL_BLURB_TEXT_COLOR
-!
-define
-INSTALL_BLURB_TEXT_COLOR
-0xFFFFFF
-!
 include
 "
 common
