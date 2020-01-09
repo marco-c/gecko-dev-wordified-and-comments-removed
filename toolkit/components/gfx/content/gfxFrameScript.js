@@ -99,8 +99,11 @@ content
 windowUtils
 ;
 let
-triggeringPrincipal
+loadURIOptions
 =
+{
+triggeringPrincipal
+:
 Services
 .
 scriptSecurityManager
@@ -108,6 +111,7 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
+}
 ;
 webNav
 .
@@ -126,15 +130,7 @@ sanitytest
 .
 html
 "
-Ci
-.
-nsIWebNavigation
-.
-LOAD_FLAGS_NONE
-null
-null
-null
-triggeringPrincipal
+loadURIOptions
 )
 ;
 }

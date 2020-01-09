@@ -237,8 +237,11 @@ load
 )
 ;
 let
-systemPrincipal
+loadURIOptions
 =
+{
+triggeringPrincipal
+:
 Services
 .
 scriptSecurityManager
@@ -246,6 +249,7 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
+}
 ;
 webNav
 .
@@ -258,13 +262,7 @@ text
 /
 html
 "
-webNav
-.
-LOAD_FLAGS_NONE
-null
-null
-null
-systemPrincipal
+loadURIOptions
 )
 ;
 await

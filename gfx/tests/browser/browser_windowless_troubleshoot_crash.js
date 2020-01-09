@@ -148,8 +148,11 @@ created
 )
 ;
 let
-triggeringPrincipal
+loadURIOptions
 =
+{
+triggeringPrincipal
+:
 Services
 .
 scriptSecurityManager
@@ -159,6 +162,7 @@ createNullPrincipal
 {
 }
 )
+}
 ;
 webNav
 .
@@ -169,11 +173,7 @@ about
 :
 blank
 "
-0
-null
-null
-null
-triggeringPrincipal
+loadURIOptions
 )
 ;
 await

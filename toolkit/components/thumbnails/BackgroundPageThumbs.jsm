@@ -891,8 +891,11 @@ NOTIFY_STATE_ALL
 )
 ;
 let
-triggeringPrincipal
+loadURIOptions
 =
+{
+triggeringPrincipal
+:
 Services
 .
 scriptSecurityManager
@@ -900,6 +903,7 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
+}
 ;
 wlBrowser
 .
@@ -918,11 +922,7 @@ backgroundPageThumbs
 .
 xhtml
 "
-0
-null
-null
-null
-triggeringPrincipal
+loadURIOptions
 )
 ;
 this

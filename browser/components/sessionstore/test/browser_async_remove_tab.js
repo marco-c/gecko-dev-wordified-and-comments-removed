@@ -611,11 +611,9 @@ com
 /
 "
 \
-null
-null
-null
-null
-\
+{
+triggeringPrincipal
+:
 Services
 .
 scriptSecurityManager
@@ -623,6 +621,7 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
+}
 )
 '
 ;
