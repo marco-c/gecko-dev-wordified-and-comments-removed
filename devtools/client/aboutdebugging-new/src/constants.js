@@ -488,6 +488,13 @@ aboutdebugging
 .
 showHiddenAddons
 "
+XPINSTALL_ENABLED
+:
+"
+xpinstall
+.
+enabled
+"
 }
 ;
 const
