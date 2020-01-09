@@ -476,8 +476,8 @@ false
 ;
 SET_DEFAULT
 (
-disableCacheIRBinaryArith
-false
+disableCacheIRCalls
+true
 )
 ;
 #
