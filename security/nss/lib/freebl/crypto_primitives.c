@@ -70,6 +70,12 @@ value
 }
 #
 elif
+defined
+(
+IS_LITTLE_ENDIAN
+)
+&
+&
 !
 defined
 (
