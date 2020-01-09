@@ -771,6 +771,8 @@ update
 json
 BINPATH
 /
+ANDROID_CPU_ARCH
+/
 greprefs
 .
 js
@@ -1440,9 +1442,7 @@ marionette
 js
 BINPATH
 /
-defaults
-/
-pref
+PREF_DIR
 /
 marionette
 .

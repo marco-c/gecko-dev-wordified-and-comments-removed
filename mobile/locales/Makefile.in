@@ -183,6 +183,10 @@ PREF_DIR
 defaults
 /
 pref
+/
+(
+ANDROID_CPU_ARCH
+)
 (
 MAKE
 )

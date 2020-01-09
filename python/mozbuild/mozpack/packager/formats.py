@@ -2387,6 +2387,32 @@ preferences
 ]
 )
         
+if
+len
+(
+path
+)
+<
+=
+2
+and
+path
+[
+-
+1
+]
+=
+=
+'
+greprefs
+.
+js
+'
+:
+            
+return
+True
+        
 return
 path
 [
@@ -2405,12 +2431,6 @@ actors
             
 '
 dictionaries
-'
-            
-'
-greprefs
-.
-js
 '
             
 '
