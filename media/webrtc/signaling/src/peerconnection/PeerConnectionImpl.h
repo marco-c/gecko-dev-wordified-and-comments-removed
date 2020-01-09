@@ -55,13 +55,6 @@ h
 #
 include
 "
-nsIWeakReferenceUtils
-.
-h
-"
-#
-include
-"
 IPeerConnection
 .
 h
@@ -2704,7 +2697,10 @@ nsIThread
 >
 mThread
 ;
-nsWeakPtr
+RefPtr
+<
+PeerConnectionObserver
+>
 mPCObserver
 ;
 nsCOMPtr
@@ -2898,7 +2894,10 @@ DTMFState
 ;
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_THREADSAFE_ISUPPORTS
-nsWeakPtr
+RefPtr
+<
+PeerConnectionObserver
+>
 mPCObserver
 ;
 RefPtr

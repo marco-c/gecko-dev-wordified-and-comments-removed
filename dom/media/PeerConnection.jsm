@@ -3043,9 +3043,8 @@ _innerObject
 =
 this
 ;
-this
-.
-_observer
+const
+observer
 =
 new
 this
@@ -3146,9 +3145,7 @@ _impl
 .
 initialize
 (
-this
-.
-_observer
+observer
 this
 .
 _win
@@ -8243,11 +8240,6 @@ delete
 this
 .
 _pc
-;
-delete
-this
-.
-_observer
 ;
 }
 getLocalStreams
