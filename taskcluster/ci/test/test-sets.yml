@@ -1974,17 +1974,6 @@ tests
 :
 -
 jsreftest
-#
-various
-mochitest
-(
-plain
-)
-failures
-;
-bug
-1460411
-#
 -
 mochitest
 -
