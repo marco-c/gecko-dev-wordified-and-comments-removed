@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-Debugger
+TargetListener
 "
 ]
 ;
