@@ -27292,11 +27292,10 @@ if
 ActiveLayerTracker
 :
 :
-IsStyleAnimated
+IsTransformAnimated
 (
 aDisplayListBuilder
 aContainerFrame
-eCSSProperty_transform
 )
 )
 {

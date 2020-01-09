@@ -17505,7 +17505,12 @@ nsLayoutUtils
 HasEffectiveAnimation
 (
 frame
-eCSSProperty_opacity
+nsCSSPropertyIDSet
+:
+:
+OpacityProperties
+(
+)
 )
 &
 &
