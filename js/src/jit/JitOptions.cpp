@@ -882,7 +882,7 @@ endif
 SET_DEFAULT
 (
 disableUnboxedObjects
-false
+true
 )
 ;
 SET_DEFAULT
