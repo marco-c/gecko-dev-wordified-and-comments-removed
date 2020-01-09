@@ -202,6 +202,9 @@ instance
 size
 :
 default
+tier
+:
+2
 mozharness
 :
 extra

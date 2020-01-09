@@ -368,6 +368,10 @@ mochitest
 -
 headless
 -
+marionette
+-
+headless
+-
 linux
 -
 talos
