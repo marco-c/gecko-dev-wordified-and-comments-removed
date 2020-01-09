@@ -582,16 +582,6 @@ dnl
 Arg
 1
 :
-compile
-SDK
-version
-like
-23
-.
-dnl
-Arg
-2
-:
 target
 SDK
 version
@@ -600,7 +590,7 @@ like
 .
 dnl
 Arg
-3
+2
 :
 list
 of
@@ -827,7 +817,7 @@ android_sdk_root
 fi
 android_target_sdk
 =
-2
+1
 AC_MSG_CHECKING
 (
 [
@@ -850,7 +840,7 @@ tools
 for
 version
 in
-3
+2
 ;
 do
 android_build_tools
