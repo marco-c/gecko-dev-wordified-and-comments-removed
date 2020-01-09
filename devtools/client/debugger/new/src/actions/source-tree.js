@@ -16,6 +16,11 @@ function
 setExpandedState
 (
 expanded
+:
+Set
+<
+string
+>
 )
 {
 return

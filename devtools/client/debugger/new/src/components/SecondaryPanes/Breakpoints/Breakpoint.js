@@ -1055,11 +1055,6 @@ selectSpecificLocation
 actions
 .
 selectSpecificLocation
-selectLocation
-:
-actions
-.
-selectLocation
 setBreakpointCondition
 :
 actions
