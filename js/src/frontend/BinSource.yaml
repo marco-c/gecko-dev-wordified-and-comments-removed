@@ -1083,7 +1083,7 @@ using
 Base
 :
 :
-factory_
+handler_
 ;
 protected
 :
@@ -2172,7 +2172,7 @@ init
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newList
 (
@@ -2192,7 +2192,7 @@ start
 ;
 append
 :
-factory_
+handler_
 .
 addList
 (
@@ -2915,7 +2915,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newAssignment
 (
@@ -2983,7 +2983,7 @@ id
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newName
 (
@@ -3031,7 +3031,7 @@ identifier
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newName
 (
@@ -3512,7 +3512,7 @@ else
 BINJS_TRY_DECL
 (
 list
-factory_
+handler_
 .
 newList
 (
@@ -3613,7 +3613,7 @@ pc_
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newLexicalScope
 (
@@ -3772,7 +3772,7 @@ alreadyReportedError
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newBreakStatement
 (
@@ -3824,7 +3824,7 @@ PropertyName
 *
 prop
 =
-factory_
+handler_
 .
 maybeDottedProperty
 (
@@ -3908,7 +3908,7 @@ eval
 .
 if
 (
-factory_
+handler_
 .
 isEvalName
 (
@@ -4017,7 +4017,7 @@ JSOP_EVAL
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newCall
 (
@@ -4105,7 +4105,7 @@ pc_
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newLexicalScope
 (
@@ -4117,7 +4117,7 @@ body
 ;
 BINJS_TRY
 (
-factory_
+handler_
 .
 setupCatchScope
 (
@@ -4324,7 +4324,7 @@ break
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newAssignment
 (
@@ -4342,7 +4342,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newPropertyByValue
 (
@@ -4365,7 +4365,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newPropertyByValue
 (
@@ -4388,7 +4388,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newConditional
 (
@@ -4552,7 +4552,7 @@ alreadyReportedError
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newContinueStatement
 (
@@ -4584,7 +4584,7 @@ build
 if
 (
 !
-factory_
+handler_
 .
 isUsableAsObjectPropertyName
 (
@@ -4650,7 +4650,7 @@ proto
 BINJS_TRY_VAR
 (
 result
-factory_
+handler_
 .
 newUnary
 (
@@ -4669,7 +4669,7 @@ else
 BINJS_TRY_VAR
 (
 result
-factory_
+handler_
 .
 newObjectMethodOrPropertyDefinition
 (
@@ -4702,7 +4702,7 @@ start
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newStringLiteral
 (
@@ -4734,7 +4734,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newDoWhileStatement
 (
@@ -5047,7 +5047,7 @@ pn_pos
 )
 )
 ;
-factory_
+handler_
 .
 addList
 (
@@ -5333,7 +5333,7 @@ pc_
 BINJS_TRY_DECL
 (
 bodyScope
-factory_
+handler_
 .
 newLexicalScope
 (
@@ -5707,7 +5707,7 @@ funbox
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newObjectMethodOrPropertyDefinition
 (
@@ -5762,7 +5762,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newEmptyStatement
 (
@@ -5784,7 +5784,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newExprStatement
 (
@@ -5916,7 +5916,7 @@ release
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newDeclarationList
 (
@@ -5931,7 +5931,7 @@ start
 )
 )
 ;
-factory_
+handler_
 .
 addList
 (
@@ -6032,7 +6032,7 @@ build
 BINJS_TRY_DECL
 (
 forHead
-factory_
+handler_
 .
 newForInOrOfHead
 (
@@ -6059,7 +6059,7 @@ result
 BINJS_TRY_VAR
 (
 result
-factory_
+handler_
 .
 newForStatement
 (
@@ -6101,7 +6101,7 @@ pc_
 BINJS_TRY_VAR
 (
 result
-factory_
+handler_
 .
 newLexicalScope
 (
@@ -6251,7 +6251,7 @@ build
 BINJS_TRY_DECL
 (
 forHead
-factory_
+handler_
 .
 newForHead
 (
@@ -6275,7 +6275,7 @@ result
 BINJS_TRY_VAR
 (
 result
-factory_
+handler_
 .
 newForStatement
 (
@@ -6317,7 +6317,7 @@ pc_
 BINJS_TRY_VAR
 (
 result
-factory_
+handler_
 .
 newLexicalScope
 (
@@ -6388,7 +6388,7 @@ id
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newName
 (
@@ -6417,7 +6417,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newIfStatement
 (
@@ -6472,7 +6472,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newLabeledStatement
 (
@@ -6684,7 +6684,7 @@ init
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newStatementList
 (
@@ -6700,7 +6700,7 @@ start
 ;
 append
 :
-factory_
+handler_
 .
 addStatementToList
 (
@@ -6721,7 +6721,7 @@ init
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newObjectLiteral
 (
@@ -6770,7 +6770,7 @@ init
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newArrayLiteral
 (
@@ -6786,7 +6786,7 @@ if
 item
 )
 {
-factory_
+handler_
 .
 addArrayElement
 (
@@ -6803,7 +6803,7 @@ else
 {
 BINJS_TRY
 (
-factory_
+handler_
 .
 addElision
 (
@@ -6858,7 +6858,7 @@ start
 ;
 append
 :
-factory_
+handler_
 .
 addList
 (
@@ -6891,7 +6891,7 @@ init
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newStatementList
 (
@@ -6907,7 +6907,7 @@ start
 ;
 append
 :
-factory_
+handler_
 .
 addStatementToList
 (
@@ -6982,7 +6982,7 @@ init
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newStatementList
 (
@@ -6998,7 +6998,7 @@ start
 ;
 append
 :
-factory_
+handler_
 .
 addCaseStatementToList
 (
@@ -7026,7 +7026,7 @@ init
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newDeclarationList
 (
@@ -7049,7 +7049,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newBooleanLiteral
 (
@@ -7072,7 +7072,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newNumber
 (
@@ -7099,7 +7099,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newNullLiteral
 (
@@ -7140,7 +7140,7 @@ index
 BINJS_TRY_VAR
 (
 result
-factory_
+handler_
 .
 newNumber
 (
@@ -7165,7 +7165,7 @@ else
 BINJS_TRY_VAR
 (
 result
-factory_
+handler_
 .
 newObjectLiteralPropertyName
 (
@@ -7411,7 +7411,7 @@ TenuredObject
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newRegExp
 (
@@ -7436,7 +7436,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newStringLiteral
 (
@@ -7459,7 +7459,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newNewExpression
 (
@@ -7618,7 +7618,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newReturnStatement
 (
@@ -7711,7 +7711,7 @@ Name
 MOZ_ASSERT
 (
 !
-factory_
+handler_
 .
 isUsableAsObjectPropertyName
 (
@@ -7722,7 +7722,7 @@ name
 BINJS_TRY_DECL
 (
 propName
-factory_
+handler_
 .
 newObjectLiteralPropertyName
 (
@@ -7753,7 +7753,7 @@ start
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newShorthandPropertyDefinition
 (
@@ -7776,7 +7776,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newCaseOrDefault
 (
@@ -7794,7 +7794,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newCaseOrDefault
 (
@@ -7832,7 +7832,7 @@ build
 BINJS_TRY_DECL
 (
 scope
-factory_
+handler_
 .
 newLexicalScope
 (
@@ -7844,7 +7844,7 @@ cases
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newSwitchStatement
 (
@@ -7897,7 +7897,7 @@ cases
 =
 preDefaultCases
 ;
-factory_
+handler_
 .
 addList
 (
@@ -7930,7 +7930,7 @@ iter
 >
 pn_next
 ;
-factory_
+handler_
 .
 addList
 (
@@ -7946,7 +7946,7 @@ next
 BINJS_TRY_DECL
 (
 scope
-factory_
+handler_
 .
 newLexicalScope
 (
@@ -7958,7 +7958,7 @@ cases
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newSwitchStatement
 (
@@ -8006,7 +8006,7 @@ build
 BINJS_TRY_DECL
 (
 name
-factory_
+handler_
 .
 newPropertyName
 (
@@ -8029,7 +8029,7 @@ nameStart
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newPropertyAccess
 (
@@ -8069,7 +8069,7 @@ build
 BINJS_TRY_DECL
 (
 name
-factory_
+handler_
 .
 newPropertyName
 (
@@ -8092,7 +8092,7 @@ nameStart
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newPropertyAccess
 (
@@ -8211,7 +8211,7 @@ id
 BINJS_TRY_VAR
 (
 thisName
-factory_
+handler_
 .
 newName
 (
@@ -8225,7 +8225,7 @@ cx_
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newThisLiteral
 (
@@ -8242,7 +8242,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newThrowStatement
 (
@@ -8314,7 +8314,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newTryStatement
 (
@@ -8435,7 +8435,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newTryStatement
 (
@@ -8686,7 +8686,7 @@ break
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newUnary
 (
@@ -8757,7 +8757,7 @@ break
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newUnary
 (
@@ -8981,7 +8981,7 @@ init
 {
 BINJS_TRY
 (
-factory_
+handler_
 .
 finishInitializerAssignment
 (
@@ -9050,7 +9050,7 @@ declaration
 BINJS_TRY_VAR
 (
 result
-factory_
+handler_
 .
 newAssignment
 (
@@ -9086,7 +9086,7 @@ build
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newWhileStatement
 (
@@ -9136,7 +9136,7 @@ setBindingsAccessedDynamically
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newWithStatement
 (
