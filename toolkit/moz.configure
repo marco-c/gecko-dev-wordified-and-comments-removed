@@ -5777,6 +5777,16 @@ simple_keyfile
 (
 '
 Google
+Location
+Service
+API
+'
+)
+simple_keyfile
+(
+'
+Google
+Safebrowsing
 API
 '
 )
