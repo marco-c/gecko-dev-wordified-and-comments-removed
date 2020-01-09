@@ -2763,13 +2763,6 @@ requestedLocales
 )
 ;
 async
-ClearSiteDataReloadNeeded
-(
-nsString
-origin
-)
-;
-async
 RegisterStringBundles
 (
 StringBundleDescriptor
