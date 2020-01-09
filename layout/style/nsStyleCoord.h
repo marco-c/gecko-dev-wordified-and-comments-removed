@@ -164,6 +164,11 @@ NonNegativeLengthPercentage
 =
 StyleNonNegativeLengthPercentage
 ;
+using
+NonNegativeLengthPercentageOrAuto
+=
+StyleNonNegativeLengthPercentageOrAuto
+;
 constexpr
 LengthPercentage
 LengthPercentage

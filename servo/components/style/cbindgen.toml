@@ -407,6 +407,9 @@ NonNegativeLengthPercentage
 LengthPercentageOrAuto
 "
 "
+NonNegativeLengthPercentageOrAuto
+"
+"
 Rect
 "
 "
