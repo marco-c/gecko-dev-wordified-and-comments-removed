@@ -1033,7 +1033,7 @@ heap
 GetInitialHeap
 (
 newKind
-group
+clasp
 )
 ;
 debugCheckNewObject

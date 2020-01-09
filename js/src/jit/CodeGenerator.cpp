@@ -38579,6 +38579,10 @@ NewArrayCopyOnWriteFn
 JSContext
 *
 HandleArrayObject
+gc
+:
+:
+InitialHeap
 )
 ;
 static
@@ -38684,6 +38688,10 @@ ArgList
 ImmGCPtr
 (
 templateObject
+)
+Imm32
+(
+initialHeap
 )
 )
 StoreRegisterTo

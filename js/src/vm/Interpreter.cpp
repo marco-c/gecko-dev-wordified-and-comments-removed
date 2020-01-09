@@ -29464,6 +29464,10 @@ NewDenseCopyOnWriteArray
 (
 cx
 baseobj
+gc
+:
+:
+DefaultHeap
 )
 ;
 }
