@@ -732,16 +732,6 @@ devtools
 -
 filterinput
 "
-type
-=
-"
-search
-"
-timeout
-=
-"
-200
-"
 placeholder
 =
 "

@@ -1083,11 +1083,6 @@ canvasDebuggerUI
 searchboxPlaceholder
 ;
 "
-type
-=
-"
-search
-"
 flex
 =
 "
