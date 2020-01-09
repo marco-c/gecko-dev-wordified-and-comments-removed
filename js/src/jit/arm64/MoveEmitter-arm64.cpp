@@ -1800,7 +1800,7 @@ masm
 .
 Ldr
 (
-toARMReg64
+toARMReg32
 (
 to
 )
