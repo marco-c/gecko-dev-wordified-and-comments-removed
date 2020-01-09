@@ -242,6 +242,13 @@ LayersObserverEpoch
 aEpoch
 )
 ;
+async
+CancelContentJSExecutionIfRunning
+(
+TabId
+tabId
+)
+;
 }
 ;
 }

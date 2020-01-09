@@ -2549,6 +2549,14 @@ LayersObserverEpoch
 aEpoch
 )
 ;
+void
+CancelContentJSExecutionIfRunning
+(
+BrowserParent
+*
+aBrowserParent
+)
+;
 nsresult
 AboutToLoadHttpFtpDocumentForChild
 (
