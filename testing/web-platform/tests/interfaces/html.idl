@@ -5501,6 +5501,12 @@ toDataURL
 optional
 DOMString
 type
+=
+"
+image
+/
+png
+"
 optional
 any
 quality
@@ -5514,6 +5520,12 @@ _callback
 optional
 DOMString
 type
+=
+"
+image
+/
+png
+"
 optional
 any
 quality
@@ -7203,10 +7215,6 @@ png
 unrestricted
 double
 quality
-=
-1
-.
-0
 ;
 }
 ;
