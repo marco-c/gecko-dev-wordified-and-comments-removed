@@ -56,3 +56,7 @@ ac_add_options
 disable
 -
 nodejs
+export
+MOZILLA_OFFICIAL
+=
+1
