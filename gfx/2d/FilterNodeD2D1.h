@@ -432,7 +432,6 @@ ID2D1DeviceContext
 aDC
 )
 ;
-virtual
 void
 SetInput
 (
@@ -444,7 +443,6 @@ aFilter
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -455,7 +453,6 @@ aValue
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -468,7 +465,6 @@ aValue
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -481,7 +477,6 @@ aValue
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -494,7 +489,6 @@ aValue
 )
 override
 ;
-virtual
 ID2D1Effect
 *
 InputEffect
@@ -570,7 +564,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeOpacityD2D1
 override
 )
-explicit
 FilterNodeOpacityD2D1
 (
 ID2D1Effect
@@ -587,7 +580,6 @@ aType
 )
 {
 }
-virtual
 void
 SetAttribute
 (
@@ -625,7 +617,6 @@ FilterType
 aType
 )
 ;
-virtual
 ID2D1Effect
 *
 InputEffect
@@ -641,7 +632,6 @@ get
 )
 ;
 }
-virtual
 ID2D1Effect
 *
 OutputEffect
@@ -699,7 +689,6 @@ FilterType
 aType
 )
 ;
-virtual
 ID2D1Effect
 *
 InputEffect
@@ -715,7 +704,6 @@ get
 )
 ;
 }
-virtual
 ID2D1Effect
 *
 OutputEffect

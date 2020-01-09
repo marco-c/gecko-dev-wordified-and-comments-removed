@@ -92,12 +92,12 @@ NONE
 ;
 protected
 :
+virtual
 ~
 ClientTiledPaintedLayer
 (
 )
 ;
-virtual
 void
 PrintInfo
 (
@@ -116,7 +116,6 @@ override
 ;
 public
 :
-virtual
 const
 char
 *
@@ -132,7 +131,6 @@ TiledPaintedLayer
 "
 ;
 }
-virtual
 Layer
 *
 AsLayer
@@ -144,7 +142,6 @@ return
 this
 ;
 }
-virtual
 void
 InvalidateRegion
 (
@@ -189,7 +186,6 @@ GetRegion
 ;
 }
 }
-virtual
 void
 FillSpecificAttributes
 (
@@ -199,7 +195,6 @@ aAttrs
 )
 override
 ;
-virtual
 ShadowableLayer
 *
 AsShadowableLayer
@@ -211,21 +206,18 @@ return
 this
 ;
 }
-virtual
 void
 RenderLayer
 (
 )
 override
 ;
-virtual
 void
 ClearCachedResources
 (
 )
 override
 ;
-virtual
 void
 HandleMemoryPressure
 (
@@ -260,7 +252,6 @@ bool
 aOutHasTransformAnimation
 )
 ;
-virtual
 bool
 IsOptimizedFor
 (

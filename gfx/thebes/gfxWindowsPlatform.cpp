@@ -9570,8 +9570,9 @@ virtual
 D3DVsyncSource
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 D3DVsyncDisplay

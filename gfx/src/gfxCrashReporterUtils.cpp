@@ -190,8 +190,9 @@ virtual
 ObserverToDestroyFeaturesAlreadyReported
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS

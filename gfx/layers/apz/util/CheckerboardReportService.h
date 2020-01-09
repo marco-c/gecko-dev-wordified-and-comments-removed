@@ -129,8 +129,9 @@ virtual
 CheckerboardEventStorage
 (
 )
-{
-}
+=
+default
+;
 static
 StaticRefPtr
 <
@@ -364,8 +365,9 @@ virtual
 CheckerboardReportService
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsISupports

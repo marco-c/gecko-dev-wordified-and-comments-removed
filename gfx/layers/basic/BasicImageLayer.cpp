@@ -158,11 +158,11 @@ BasicImageLayer
 }
 protected
 :
+virtual
 ~
 BasicImageLayer
 (
 )
-override
 {
 MOZ_COUNT_DTOR
 (

@@ -370,7 +370,6 @@ GetThread
 )
 const
 ;
-virtual
 MessageLoop
 *
 GetMessageLoop
@@ -379,7 +378,6 @@ GetMessageLoop
 const
 override
 ;
-virtual
 base
 :
 :
@@ -576,7 +574,6 @@ ImageContainer
 aContainer
 )
 ;
-virtual
 bool
 IPCOpen
 (
@@ -590,6 +587,7 @@ mCanSend
 }
 private
 :
+virtual
 ~
 ImageBridgeChild
 (
@@ -720,7 +718,6 @@ aIdentifier
 ;
 public
 :
-virtual
 void
 Connect
 (
@@ -733,7 +730,6 @@ aImageContainer
 )
 override
 ;
-virtual
 bool
 UsesImageBridge
 (
@@ -745,7 +741,6 @@ return
 true
 ;
 }
-virtual
 void
 UseTextures
 (
@@ -772,7 +767,6 @@ aRenderRoot
 )
 override
 ;
-virtual
 void
 UseComponentAlphaTextures
 (
@@ -824,7 +818,6 @@ uint64_t
 aFwdTransactionId
 )
 ;
-virtual
 void
 CancelWaitForRecycle
 (
@@ -833,7 +826,6 @@ aTextureId
 )
 override
 ;
-virtual
 bool
 DestroyInTransaction
 (
@@ -852,7 +844,6 @@ CompositableHandle
 aHandle
 )
 ;
-virtual
 void
 RemoveTextureFromCompositable
 (
@@ -875,7 +866,6 @@ aRenderRoot
 )
 override
 ;
-virtual
 void
 UseTiledLayerBuffer
 (
@@ -900,7 +890,6 @@ called
 )
 ;
 }
-virtual
 void
 UpdateTextureRegion
 (
@@ -929,7 +918,6 @@ called
 )
 ;
 }
-virtual
 bool
 AllocUnsafeShmem
 (
@@ -958,7 +946,6 @@ aShmem
 )
 override
 ;
-virtual
 bool
 AllocShmem
 (
@@ -987,7 +974,6 @@ aShmem
 )
 override
 ;
-virtual
 bool
 DeallocShmem
 (
@@ -1003,7 +989,6 @@ aShmem
 )
 override
 ;
-virtual
 PTextureChild
 *
 CreateTexture
@@ -1036,7 +1021,6 @@ nullptr
 )
 override
 ;
-virtual
 bool
 IsSameProcess
 (
@@ -1044,7 +1028,6 @@ IsSameProcess
 const
 override
 ;
-virtual
 void
 UpdateFwdTransactionId
 (
@@ -1056,7 +1039,6 @@ override
 mFwdTransactionId
 ;
 }
-virtual
 uint64_t
 GetFwdTransactionId
 (
@@ -1079,7 +1061,6 @@ InImageBridgeChildThread
 )
 ;
 }
-virtual
 void
 HandleFatalError
 (
@@ -1091,7 +1072,6 @@ aMsg
 const
 override
 ;
-virtual
 wr
 :
 :

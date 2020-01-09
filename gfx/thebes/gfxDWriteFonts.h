@@ -159,14 +159,12 @@ anAAOption
 )
 override
 ;
-virtual
 uint32_t
 GetSpaceGlyph
 (
 )
 override
 ;
-virtual
 bool
 SetupCairoFont
 (
@@ -176,7 +174,6 @@ aDrawTarget
 )
 override
 ;
-virtual
 bool
 AllowSubpixelAA
 (
@@ -199,7 +196,6 @@ GetFontFace
 (
 )
 ;
-virtual
 RunMetrics
 Measure
 (
@@ -230,7 +226,6 @@ aOrientation
 )
 override
 ;
-virtual
 bool
 ProvidesGlyphWidths
 (
@@ -238,7 +233,6 @@ ProvidesGlyphWidths
 const
 override
 ;
-virtual
 int32_t
 GetGlyphWidth
 (
@@ -247,7 +241,6 @@ aGID
 )
 override
 ;
-virtual
 void
 AddSizeOfExcludingThis
 (
@@ -263,7 +256,6 @@ aSizes
 const
 override
 ;
-virtual
 void
 AddSizeOfIncludingThis
 (
@@ -279,7 +271,6 @@ aSizes
 const
 override
 ;
-virtual
 FontType
 GetType
 (
@@ -291,7 +282,6 @@ return
 FONT_TYPE_DWRITE
 ;
 }
-virtual
 already_AddRefed
 <
 mozilla
@@ -324,7 +314,6 @@ InitCairoScaledFont
 (
 )
 ;
-virtual
 const
 Metrics
 &

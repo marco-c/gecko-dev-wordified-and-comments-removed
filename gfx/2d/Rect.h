@@ -2765,6 +2765,7 @@ b
 }
 struct
 RectCornerRadii
+final
 {
 Size
 radii
@@ -2775,8 +2776,9 @@ eCornerCount
 RectCornerRadii
 (
 )
-{
-}
+=
+default
+;
 explicit
 RectCornerRadii
 (
@@ -2802,7 +2804,6 @@ radius
 ;
 }
 }
-explicit
 RectCornerRadii
 (
 Float

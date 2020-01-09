@@ -167,6 +167,7 @@ aChildProcessId
 ;
 public
 :
+virtual
 ~
 ImageBridgeParent
 (
@@ -217,7 +218,6 @@ Shutdown
 (
 )
 ;
-virtual
 ShmemAllocator
 *
 AsShmemAllocator
@@ -229,7 +229,6 @@ return
 this
 ;
 }
-virtual
 void
 ActorDestroy
 (
@@ -238,7 +237,6 @@ aWhy
 )
 override
 ;
-virtual
 void
 SendAsyncMessage
 (
@@ -252,7 +250,6 @@ aMessage
 )
 override
 ;
-virtual
 void
 NotifyNotUsed
 (
@@ -264,7 +261,6 @@ aTransactionId
 )
 override
 ;
-virtual
 base
 :
 :
@@ -418,7 +414,6 @@ return
 mMessageLoop
 ;
 }
-virtual
 bool
 AllocShmem
 (
@@ -441,7 +436,6 @@ aShmem
 )
 override
 ;
-virtual
 bool
 AllocUnsafeShmem
 (
@@ -464,7 +458,6 @@ aShmem
 )
 override
 ;
-virtual
 void
 DeallocShmem
 (
@@ -477,7 +470,6 @@ aShmem
 )
 override
 ;
-virtual
 bool
 IsSameProcess
 (
@@ -508,7 +500,6 @@ ImageCompositeNotificationInfo
 aNotifications
 )
 ;
-virtual
 bool
 UsesImageBridge
 (
@@ -520,7 +511,6 @@ return
 true
 ;
 }
-virtual
 bool
 IPCOpen
 (

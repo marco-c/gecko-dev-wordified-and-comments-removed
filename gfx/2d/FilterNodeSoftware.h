@@ -117,7 +117,6 @@ DrawOptions
 aOptions
 )
 ;
-virtual
 FilterBackend
 GetBackendType
 (
@@ -128,7 +127,6 @@ return
 FILTER_BACKEND_SOFTWARE
 ;
 }
-virtual
 void
 SetInput
 (
@@ -140,7 +138,6 @@ aSurface
 )
 override
 ;
-virtual
 void
 SetInput
 (
@@ -166,7 +163,6 @@ Unknown
 "
 ;
 }
-virtual
 void
 AddInvalidationListener
 (
@@ -175,7 +171,6 @@ FilterInvalidationListener
 aListener
 )
 ;
-virtual
 void
 RemoveInvalidationListener
 (
@@ -184,7 +179,6 @@ FilterInvalidationListener
 aListener
 )
 ;
-virtual
 void
 FilterInvalidated
 (
@@ -446,7 +440,6 @@ FilterNodeTransformSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -467,7 +460,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -478,7 +470,6 @@ aGraphicsFilter
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -491,7 +482,6 @@ aMatrix
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -511,7 +501,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -525,7 +514,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -536,7 +524,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -545,7 +532,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -592,7 +578,6 @@ FilterNodeBlendSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -613,7 +598,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -624,7 +608,6 @@ aBlendMode
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -644,7 +627,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -658,7 +640,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -669,7 +650,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -678,7 +658,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -713,7 +692,6 @@ FilterNodeMorphologySoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -734,7 +712,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -747,7 +724,6 @@ aRadii
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -760,7 +736,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -774,7 +749,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -785,7 +759,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -794,7 +767,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -828,7 +800,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeColorMatrixSoftware
 override
 )
-virtual
 const
 char
 *
@@ -849,7 +820,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -862,7 +832,6 @@ aMatrix
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -875,7 +844,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -889,7 +857,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -900,7 +867,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -909,7 +875,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -920,7 +885,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -961,7 +925,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeFloodSoftware
 override
 )
-virtual
 const
 char
 *
@@ -982,7 +945,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -995,7 +957,6 @@ aColor
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -1015,7 +976,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -1029,7 +989,6 @@ aRect
 )
 override
 ;
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -1043,7 +1002,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -1074,7 +1032,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeTileSoftware
 override
 )
-virtual
 const
 char
 *
@@ -1095,7 +1052,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -1110,7 +1066,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -1124,7 +1079,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -1135,7 +1089,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -1144,7 +1097,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -1185,7 +1137,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -1196,7 +1147,6 @@ aDisable
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -1216,7 +1166,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -1230,7 +1179,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -1241,7 +1189,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -1250,7 +1197,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -1321,7 +1267,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeTableTransferSoftware
 override
 )
-virtual
 const
 char
 *
@@ -1342,7 +1287,6 @@ FilterNodeComponentTransferSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -1359,7 +1303,6 @@ override
 ;
 protected
 :
-virtual
 void
 FillLookupTable
 (
@@ -1445,7 +1388,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeDiscreteTransferSoftware
 override
 )
-virtual
 const
 char
 *
@@ -1466,7 +1408,6 @@ FilterNodeComponentTransferSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -1483,7 +1424,6 @@ override
 ;
 protected
 :
-virtual
 void
 FillLookupTable
 (
@@ -1573,7 +1513,6 @@ FilterNodeLinearTransferSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -1594,7 +1533,6 @@ FilterNodeComponentTransferSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -1607,7 +1545,6 @@ override
 ;
 protected
 :
-virtual
 void
 FillLookupTable
 (
@@ -1680,7 +1617,6 @@ FilterNodeGammaTransferSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -1701,7 +1637,6 @@ FilterNodeComponentTransferSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -1714,7 +1649,6 @@ override
 ;
 protected
 :
-virtual
 void
 FillLookupTable
 (
@@ -1801,7 +1735,6 @@ FilterNodeConvolveMatrixSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -1822,7 +1755,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -1835,7 +1767,6 @@ aKernelSize
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -1850,7 +1781,6 @@ aSize
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -1861,7 +1791,6 @@ aValue
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -1874,7 +1803,6 @@ aKernelUnitLength
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -1887,7 +1815,6 @@ aSourceRect
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -1900,7 +1827,6 @@ aTarget
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -1911,7 +1837,6 @@ aEdgeMode
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -1922,7 +1847,6 @@ aPreserveAlpha
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -1942,7 +1866,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -1956,7 +1879,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -1967,7 +1889,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -1976,7 +1897,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -2080,7 +2000,6 @@ FilterNodeDisplacementMapSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -2101,7 +2020,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -2112,7 +2030,6 @@ aScale
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -2123,7 +2040,6 @@ aValue
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -2143,7 +2059,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -2157,7 +2072,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -2168,7 +2082,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -2177,7 +2090,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -2227,7 +2139,6 @@ FilterNodeTurbulenceSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -2248,7 +2159,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -2261,7 +2171,6 @@ aSize
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -2274,7 +2183,6 @@ aRenderRect
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -2285,7 +2193,6 @@ aStitchable
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -2296,7 +2203,6 @@ aValue
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -2316,7 +2222,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -2330,7 +2235,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -2341,7 +2245,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -2389,7 +2292,6 @@ FilterNodeArithmeticCombineSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -2410,7 +2312,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -2425,7 +2326,6 @@ aSize
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -2445,7 +2345,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -2459,7 +2358,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -2470,7 +2368,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -2479,7 +2376,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -2523,7 +2419,6 @@ FilterNodeCompositeSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -2544,7 +2439,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -2557,7 +2451,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -2571,7 +2464,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -2582,7 +2474,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -2591,7 +2482,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -2602,7 +2492,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -2642,7 +2531,6 @@ override
 )
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -2656,7 +2544,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -2667,7 +2554,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -2685,7 +2571,6 @@ IntRect
 aDestRect
 )
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -2696,7 +2581,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -2741,7 +2625,6 @@ FilterNodeGaussianBlurSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -2762,7 +2645,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -2775,7 +2657,6 @@ override
 ;
 protected
 :
-virtual
 Size
 StdDeviationXY
 (
@@ -2806,7 +2687,6 @@ FilterNodeDirectionalBlurSoftware
 (
 )
 ;
-virtual
 const
 char
 *
@@ -2827,7 +2707,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -2838,7 +2717,6 @@ aStdDeviation
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -2851,7 +2729,6 @@ override
 ;
 protected
 :
-virtual
 Size
 StdDeviationXY
 (
@@ -2881,7 +2758,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeCropSoftware
 override
 )
-virtual
 const
 char
 *
@@ -2902,7 +2778,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -2917,7 +2792,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -2931,7 +2805,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -2942,7 +2815,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -2951,7 +2823,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -2962,7 +2833,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -3000,7 +2870,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodePremultiplySoftware
 override
 )
-virtual
 const
 char
 *
@@ -3017,7 +2886,6 @@ Premultiply
 }
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -3031,7 +2899,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -3042,7 +2909,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -3051,7 +2917,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -3062,7 +2927,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -3095,7 +2959,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeUnpremultiplySoftware
 override
 )
-virtual
 const
 char
 *
@@ -3112,7 +2975,6 @@ Unpremultiply
 }
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -3126,7 +2988,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -3137,7 +2998,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -3146,7 +3006,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -3157,7 +3016,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -3190,7 +3048,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeOpacitySoftware
 override
 )
-virtual
 const
 char
 *
@@ -3211,7 +3068,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -3222,7 +3078,6 @@ aValue
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -3242,7 +3097,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -3256,7 +3110,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -3267,7 +3120,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -3276,7 +3128,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (
@@ -3332,7 +3183,6 @@ defined
 FORCE_BUILD_REFCNT_LOGGING
 )
 )
-virtual
 const
 char
 *
@@ -3346,7 +3196,6 @@ return
 mTypeName
 ;
 }
-virtual
 size_t
 typeSize
 (
@@ -3373,7 +3222,6 @@ char
 aTypeName
 )
 ;
-virtual
 const
 char
 *
@@ -3394,7 +3242,6 @@ FilterNodeSoftware
 :
 SetAttribute
 ;
-virtual
 void
 SetAttribute
 (
@@ -3404,7 +3251,6 @@ Float
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -3416,7 +3262,6 @@ Size
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -3428,7 +3273,6 @@ Point3D
 )
 override
 ;
-virtual
 void
 SetAttribute
 (
@@ -3440,7 +3284,6 @@ Color
 )
 override
 ;
-virtual
 IntRect
 MapRectToSource
 (
@@ -3460,7 +3303,6 @@ override
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -3474,7 +3316,6 @@ aRect
 )
 override
 ;
-virtual
 IntRect
 GetOutputRectInRect
 (
@@ -3485,7 +3326,6 @@ aRect
 )
 override
 ;
-virtual
 int32_t
 InputIndex
 (
@@ -3494,7 +3334,6 @@ aInputEnumIndex
 )
 override
 ;
-virtual
 void
 RequestFromInputsForRect
 (

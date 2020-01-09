@@ -163,12 +163,14 @@ aId
 )
 {
 }
+virtual
 ~
 LayerTransactionChild
 (
 )
-{
-}
+=
+default
+;
 void
 ActorDestroy
 (

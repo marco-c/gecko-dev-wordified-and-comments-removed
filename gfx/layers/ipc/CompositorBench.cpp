@@ -159,8 +159,9 @@ virtual
 BenchTest
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Setup

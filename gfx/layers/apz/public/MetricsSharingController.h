@@ -110,8 +110,9 @@ virtual
 MetricsSharingController
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

@@ -59,6 +59,7 @@ ImageComposite
 (
 )
 ;
+virtual
 ~
 ImageComposite
 (

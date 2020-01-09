@@ -99,6 +99,7 @@ mFont
 )
 ;
 }
+virtual
 ~
 UnscaledFontMac
 (

@@ -39,6 +39,7 @@ layers
 {
 class
 ActiveElementManager
+final
 {
 ~
 ActiveElementManager

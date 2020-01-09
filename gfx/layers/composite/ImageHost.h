@@ -217,12 +217,12 @@ TextureInfo
 aTextureInfo
 )
 ;
+virtual
 ~
 ImageHost
 (
 )
 ;
-virtual
 CompositableType
 GetType
 (
@@ -235,7 +235,6 @@ mTextureInfo
 mCompositableType
 ;
 }
-virtual
 ImageHost
 *
 AsImageHost
@@ -247,7 +246,6 @@ return
 this
 ;
 }
-virtual
 void
 Composite
 (
@@ -305,7 +303,6 @@ Nothing
 )
 override
 ;
-virtual
 void
 UseTextureHost
 (
@@ -319,7 +316,6 @@ aTextures
 )
 override
 ;
-virtual
 void
 RemoveTextureHost
 (
@@ -329,7 +325,6 @@ aTexture
 )
 override
 ;
-virtual
 TextureHost
 *
 GetAsTextureHost
@@ -345,7 +340,6 @@ nullptr
 )
 override
 ;
-virtual
 void
 Attach
 (
@@ -362,7 +356,6 @@ NO_FLAGS
 )
 override
 ;
-virtual
 void
 SetTextureSourceProvider
 (
@@ -381,7 +374,6 @@ GetImageSize
 )
 override
 ;
-virtual
 void
 PrintInfo
 (
@@ -398,7 +390,6 @@ aPrefix
 )
 override
 ;
-virtual
 void
 Dump
 (
@@ -422,7 +413,6 @@ false
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -435,21 +425,18 @@ GetAsSurface
 )
 override
 ;
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 void
 Unlock
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 TexturedEffect
@@ -473,7 +460,6 @@ TextureHost
 aTexture
 )
 ;
-virtual
 void
 CleanupResources
 (
@@ -581,7 +567,6 @@ mCurrentTextureHost
 }
 protected
 :
-virtual
 TimeStamp
 GetCompositionTime
 (

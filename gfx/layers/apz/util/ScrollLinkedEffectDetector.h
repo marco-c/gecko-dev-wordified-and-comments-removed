@@ -22,6 +22,7 @@ layers
 class
 MOZ_STACK_CLASS
 ScrollLinkedEffectDetector
+final
 {
 private
 :

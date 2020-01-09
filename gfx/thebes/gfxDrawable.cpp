@@ -858,11 +858,11 @@ null
 )
 ;
 }
+virtual
 ~
 DrawingCallbackFromDrawable
 (
 )
-override
 =
 default
 ;

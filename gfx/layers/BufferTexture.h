@@ -154,7 +154,6 @@ TextureFlags
 aTextureFlags
 )
 ;
-virtual
 bool
 Lock
 (
@@ -167,7 +166,6 @@ return
 true
 ;
 }
-virtual
 void
 Unlock
 (
@@ -175,7 +173,6 @@ Unlock
 override
 {
 }
-virtual
 void
 FillInfo
 (
@@ -189,7 +186,6 @@ aInfo
 const
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -202,7 +198,6 @@ BorrowDrawTarget
 )
 override
 ;
-virtual
 bool
 BorrowMappedData
 (
@@ -212,7 +207,6 @@ aMap
 )
 override
 ;
-virtual
 bool
 BorrowMappedYCbCrData
 (
@@ -222,7 +216,6 @@ aMap
 )
 override
 ;
-virtual
 bool
 UpdateFromSurface
 (
@@ -235,7 +228,6 @@ aSurface
 )
 override
 ;
-virtual
 BufferTextureData
 *
 AsBufferTextureData

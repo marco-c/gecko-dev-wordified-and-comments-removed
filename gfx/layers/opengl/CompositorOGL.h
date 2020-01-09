@@ -287,8 +287,9 @@ virtual
 CompositorTexturePoolOGL
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING
@@ -350,7 +351,6 @@ PerUnitTexturePoolOGL
 (
 )
 ;
-virtual
 void
 Clear
 (
@@ -362,7 +362,6 @@ DestroyTextures
 )
 ;
 }
-virtual
 GLuint
 GetTexture
 (
@@ -373,7 +372,6 @@ aUnit
 )
 override
 ;
-virtual
 void
 EndFrame
 (
@@ -446,7 +444,6 @@ mPrograms
 ;
 public
 :
-explicit
 CompositorOGL
 (
 CompositorBridgeParent
@@ -484,7 +481,6 @@ CompositorOGL
 ;
 public
 :
-virtual
 CompositorOGL
 *
 AsCompositorOGL
@@ -496,7 +492,6 @@ return
 this
 ;
 }
-virtual
 already_AddRefed
 <
 DataTextureSource
@@ -513,7 +508,6 @@ NO_FLAGS
 )
 override
 ;
-virtual
 already_AddRefed
 <
 DataTextureSource
@@ -526,7 +520,6 @@ aTexture
 )
 override
 ;
-virtual
 already_AddRefed
 <
 DataTextureSource
@@ -542,7 +535,6 @@ aSurface
 )
 override
 ;
-virtual
 bool
 Initialize
 (
@@ -553,14 +545,12 @@ out_failureReason
 )
 override
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
@@ -599,7 +589,6 @@ return
 result
 ;
 }
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -618,7 +607,6 @@ aInit
 )
 override
 ;
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -646,7 +634,6 @@ aSourcePoint
 )
 override
 ;
-virtual
 void
 SetRenderTarget
 (
@@ -656,7 +643,6 @@ aSurface
 )
 override
 ;
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -667,7 +653,6 @@ GetCurrentRenderTarget
 const
 override
 ;
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -678,7 +663,6 @@ GetWindowRenderTarget
 const
 override
 ;
-virtual
 bool
 ReadbackRenderTarget
 (
@@ -691,7 +675,6 @@ aDest
 )
 override
 ;
-virtual
 already_AddRefed
 <
 AsyncReadbackBuffer
@@ -708,7 +691,6 @@ aSize
 )
 override
 ;
-virtual
 bool
 BlitRenderTarget
 (
@@ -732,7 +714,6 @@ aDestSize
 )
 override
 ;
-virtual
 void
 DrawQuad
 (
@@ -776,7 +757,6 @@ aVisibleRect
 )
 override
 ;
-virtual
 void
 DrawTriangles
 (
@@ -830,7 +810,6 @@ aVisibleRect
 )
 override
 ;
-virtual
 bool
 SupportsLayerGeometry
 (
@@ -838,21 +817,18 @@ SupportsLayerGeometry
 const
 override
 ;
-virtual
 void
 EndFrame
 (
 )
 override
 ;
-virtual
 bool
 SupportsPartialTextureUpdate
 (
 )
 override
 ;
-virtual
 bool
 CanUseCanvasLayerForSize
 (
@@ -895,7 +871,6 @@ maxSize
 )
 ;
 }
-virtual
 int32_t
 GetMaxTextureSize
 (
@@ -903,7 +878,6 @@ GetMaxTextureSize
 const
 override
 ;
-virtual
 void
 SetDestinationSurfaceSize
 (
@@ -917,7 +891,6 @@ aSize
 )
 override
 ;
-virtual
 void
 SetScreenRenderOffset
 (
@@ -933,7 +906,6 @@ mRenderOffset
 aOffset
 ;
 }
-virtual
 void
 MakeCurrent
 (
@@ -947,7 +919,6 @@ override
 #
 ifdef
 MOZ_DUMP_PAINTING
-virtual
 const
 char
 *
@@ -965,7 +936,6 @@ OGL
 }
 #
 endif
-virtual
 LayersBackend
 GetBackendType
 (
@@ -980,14 +950,12 @@ LayersBackend
 LAYERS_OPENGL
 ;
 }
-virtual
 void
 Pause
 (
 )
 override
 ;
-virtual
 bool
 Resume
 (
@@ -1020,7 +988,6 @@ mGLContext
 #
 ifdef
 XP_DARWIN
-virtual
 void
 MaybeUnlockBeforeNextComposition
 (
@@ -1030,7 +997,6 @@ aTextureHost
 )
 override
 ;
-virtual
 void
 TryUnlockTextures
 (
@@ -1332,7 +1298,6 @@ mUseExternalSurfaceSize
 bool
 mFrameInProgress
 ;
-virtual
 void
 ClearRect
 (
@@ -1346,7 +1311,6 @@ aRect
 )
 override
 ;
-virtual
 void
 BeginFrame
 (

@@ -565,6 +565,7 @@ mFinished
 ;
 struct
 AutoEndTransaction
+final
 {
 explicit
 AutoEndTransaction

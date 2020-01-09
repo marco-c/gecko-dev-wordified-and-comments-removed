@@ -133,8 +133,9 @@ virtual
 APZInputBridge
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

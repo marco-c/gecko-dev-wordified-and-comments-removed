@@ -101,8 +101,9 @@ virtual
 GradientStopsCairo
 (
 )
-{
-}
+=
+default
+;
 const
 std
 :

@@ -54,6 +54,7 @@ gl
 {
 class
 AndroidNativeWindow
+final
 {
 public
 :

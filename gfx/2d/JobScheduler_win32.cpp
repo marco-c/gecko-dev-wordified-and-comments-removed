@@ -78,6 +78,7 @@ nullptr
 )
 ;
 }
+virtual
 ~
 WorkerThreadWin32
 (

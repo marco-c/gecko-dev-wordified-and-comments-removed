@@ -682,8 +682,9 @@ virtual
 ImageBackendData
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 ImageBackendData
@@ -1009,8 +1010,9 @@ virtual
 Image
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :
@@ -1174,8 +1176,9 @@ virtual
 ImageFactory
 (
 )
-{
-}
+=
+default
+;
 virtual
 RefPtr
 <
@@ -2262,8 +2265,9 @@ virtual
 PlanarYCbCrImage
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 CopyData

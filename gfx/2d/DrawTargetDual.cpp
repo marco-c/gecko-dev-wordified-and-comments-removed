@@ -119,6 +119,7 @@ mB
 ;
 class
 DualPattern
+final
 {
 public
 :

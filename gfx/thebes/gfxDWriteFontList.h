@@ -637,7 +637,6 @@ gfxDWriteFontEntry
 (
 )
 ;
-virtual
 hb_blob_t
 *
 GetFontTable
@@ -1350,7 +1349,6 @@ sPlatformFontList
 )
 ;
 }
-virtual
 nsresult
 InitFontListForPlatform
 (

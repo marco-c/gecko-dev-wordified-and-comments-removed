@@ -105,6 +105,7 @@ mDone
 class
 MOZ_STACK_CLASS
 AutoCompleteTask
+final
 {
 public
 :

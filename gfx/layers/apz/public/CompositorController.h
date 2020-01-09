@@ -88,8 +88,9 @@ virtual
 CompositorController
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

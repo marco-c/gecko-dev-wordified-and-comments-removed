@@ -145,7 +145,6 @@ ClientCanvasLayer
 ;
 public
 :
-virtual
 void
 SetVisibleRegion
 (
@@ -186,14 +185,12 @@ aRegion
 )
 ;
 }
-virtual
 void
 RenderLayer
 (
 )
 override
 ;
-virtual
 void
 ClearCachedResources
 (
@@ -208,7 +205,6 @@ ClearCachedResources
 )
 ;
 }
-virtual
 void
 HandleMemoryPressure
 (
@@ -223,7 +219,6 @@ ClearCachedResources
 )
 ;
 }
-virtual
 void
 FillSpecificAttributes
 (
@@ -242,7 +237,6 @@ mBounds
 )
 ;
 }
-virtual
 Layer
 *
 AsLayer
@@ -254,7 +248,6 @@ return
 this
 ;
 }
-virtual
 ShadowableLayer
 *
 AsShadowableLayer
@@ -266,7 +259,6 @@ return
 this
 ;
 }
-virtual
 void
 Disconnect
 (
@@ -281,7 +273,6 @@ Destroy
 )
 ;
 }
-virtual
 CompositableClient
 *
 GetCompositableClient

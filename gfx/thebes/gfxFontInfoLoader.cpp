@@ -215,8 +215,9 @@ virtual
 FontInfoLoadCompleteEvent
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING_INHERITED
@@ -274,8 +275,9 @@ virtual
 AsyncFontInfoLoader
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING_INHERITED
@@ -347,8 +349,9 @@ virtual
 ShutdownThreadEvent
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING_INHERITED

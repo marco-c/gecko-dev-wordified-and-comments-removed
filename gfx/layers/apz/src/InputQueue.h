@@ -294,6 +294,7 @@ InputQueue
 ;
 class
 AutoRunImmediateTimeout
+final
 {
 public
 :

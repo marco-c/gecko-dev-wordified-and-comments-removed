@@ -48,7 +48,6 @@ false
 )
 {
 }
-explicit
 CompositorOptions
 (
 bool

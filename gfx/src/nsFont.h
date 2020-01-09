@@ -94,6 +94,7 @@ gfxFontStyle
 ;
 struct
 nsFont
+final
 {
 typedef
 mozilla
@@ -300,6 +301,8 @@ aFont
 nsFont
 (
 )
+=
+default
 ;
 ~
 nsFont

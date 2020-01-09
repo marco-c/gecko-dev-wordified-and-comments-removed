@@ -102,6 +102,7 @@ CompositorWidget
 aWidget
 )
 ;
+virtual
 ~
 LayerManagerMLGPU
 (

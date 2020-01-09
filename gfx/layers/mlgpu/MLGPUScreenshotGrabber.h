@@ -42,6 +42,8 @@ public
 MLGPUScreenshotGrabber
 (
 )
+=
+default
 ;
 ~
 MLGPUScreenshotGrabber

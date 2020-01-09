@@ -116,7 +116,6 @@ PaintedLayerComposite
 ;
 public
 :
-virtual
 void
 Disconnect
 (
@@ -130,14 +129,12 @@ GetCompositableHost
 )
 override
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 Layer
 *
 GetLayer
@@ -145,7 +142,6 @@ GetLayer
 )
 override
 ;
-virtual
 void
 SetLayerManager
 (
@@ -155,7 +151,6 @@ aManager
 )
 override
 ;
-virtual
 void
 RenderLayer
 (
@@ -179,21 +174,18 @@ aGeometry
 )
 override
 ;
-virtual
 void
 CleanupResources
 (
 )
 override
 ;
-virtual
 bool
 IsOpaque
 (
 )
 override
 ;
-virtual
 void
 GenEffectChain
 (
@@ -203,7 +195,6 @@ aEffect
 )
 override
 ;
-virtual
 bool
 SetCompositableHost
 (
@@ -213,7 +204,6 @@ aHost
 )
 override
 ;
-virtual
 HostLayer
 *
 AsHostLayer
@@ -225,7 +215,6 @@ return
 this
 ;
 }
-virtual
 void
 InvalidateRegion
 (
@@ -251,7 +240,6 @@ regions
 ;
 }
 const
-virtual
 gfx
 :
 :

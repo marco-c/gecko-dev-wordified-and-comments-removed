@@ -77,7 +77,6 @@ this
 )
 {
 }
-virtual
 void
 SetVisibleRegion
 (
@@ -118,7 +117,6 @@ aRegion
 )
 ;
 }
-virtual
 void
 Paint
 (

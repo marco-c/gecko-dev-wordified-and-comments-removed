@@ -71,7 +71,6 @@ RemoteContentController
 (
 )
 ;
-virtual
 void
 NotifyLayerTransforms
 (
@@ -85,7 +84,6 @@ aTransforms
 )
 override
 ;
-virtual
 void
 RequestContentRepaint
 (
@@ -96,7 +94,6 @@ aRequest
 )
 override
 ;
-virtual
 void
 HandleTap
 (
@@ -117,7 +114,6 @@ aInputBlockId
 )
 override
 ;
-virtual
 void
 NotifyPinchGesture
 (
@@ -137,7 +133,6 @@ aModifiers
 )
 override
 ;
-virtual
 void
 PostDelayedTask
 (
@@ -151,14 +146,12 @@ aDelayMs
 )
 override
 ;
-virtual
 bool
 IsRepaintThread
 (
 )
 override
 ;
-virtual
 void
 DispatchToRepaintThread
 (
@@ -170,7 +163,6 @@ aTask
 )
 override
 ;
-virtual
 void
 NotifyAPZStateChange
 (
@@ -185,7 +177,6 @@ aArg
 )
 override
 ;
-virtual
 void
 UpdateOverscrollVelocity
 (
@@ -198,7 +189,6 @@ aIsRootContent
 )
 override
 ;
-virtual
 void
 UpdateOverscrollOffset
 (
@@ -211,7 +201,6 @@ aIsRootContent
 )
 override
 ;
-virtual
 void
 NotifyMozMouseScrollEvent
 (
@@ -229,14 +218,12 @@ aEvent
 )
 override
 ;
-virtual
 void
 NotifyFlushComplete
 (
 )
 override
 ;
-virtual
 void
 NotifyAsyncScrollbarDragInitiated
 (
@@ -254,7 +241,6 @@ aDirection
 )
 override
 ;
-virtual
 void
 NotifyAsyncScrollbarDragRejected
 (
@@ -268,7 +254,6 @@ aScrollId
 )
 override
 ;
-virtual
 void
 NotifyAsyncAutoscrollRejected
 (
@@ -282,7 +267,6 @@ aScrollId
 )
 override
 ;
-virtual
 void
 CancelAutoscroll
 (
@@ -293,7 +277,6 @@ aScrollId
 )
 override
 ;
-virtual
 void
 ActorDestroy
 (
@@ -302,14 +285,12 @@ aWhy
 )
 override
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 bool
 IsRemote
 (

@@ -56,6 +56,7 @@ layers
 {
 class
 CheckerboardEvent
+final
 {
 public
 :

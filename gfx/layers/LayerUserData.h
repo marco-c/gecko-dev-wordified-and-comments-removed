@@ -20,8 +20,9 @@ virtual
 LayerUserData
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

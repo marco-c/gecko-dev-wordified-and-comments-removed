@@ -86,6 +86,7 @@ kMaxFrames
 ;
 class
 FPSCounter
+final
 {
 public
 :

@@ -463,7 +463,6 @@ CompositableHandle
 aHandle
 )
 ;
-virtual
 void
 RemoveTextureFromCompositable
 (
@@ -486,7 +485,6 @@ aRenderRoot
 )
 override
 ;
-virtual
 void
 UpdateTextureRegion
 (
@@ -504,7 +502,6 @@ aUpdatedRegion
 )
 override
 ;
-virtual
 void
 UseTextures
 (
@@ -531,7 +528,6 @@ aRenderRoot
 )
 override
 ;
-virtual
 void
 UseComponentAlphaTextures
 (
@@ -705,7 +701,6 @@ mWindowOverlayChanged
 true
 ;
 }
-virtual
 bool
 IPCOpen
 (
@@ -768,7 +763,6 @@ PlatformSyncBeforeUpdate
 (
 )
 ;
-virtual
 bool
 AllocSurfaceDescriptor
 (
@@ -787,7 +781,6 @@ aBuffer
 )
 override
 ;
-virtual
 bool
 AllocSurfaceDescriptorWithCaps
 (
@@ -808,7 +801,6 @@ aBuffer
 )
 override
 ;
-virtual
 void
 DestroySurfaceDescriptor
 (
@@ -818,14 +810,12 @@ aSurface
 )
 override
 ;
-virtual
 void
 UpdateFwdTransactionId
 (
 )
 override
 ;
-virtual
 uint64_t
 GetFwdTransactionId
 (
@@ -962,7 +952,6 @@ mEventTarget
 ;
 }
 ;
-virtual
 bool
 IsThreadSafe
 (
@@ -974,7 +963,6 @@ return
 false
 ;
 }
-virtual
 RefPtr
 <
 KnowsCompositor

@@ -4381,8 +4381,9 @@ virtual
 WillShutdownObserver
 (
 )
-{
-}
+=
+default
+;
 gfxFT2FontList
 *
 mFontList

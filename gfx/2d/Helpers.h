@@ -19,14 +19,16 @@ gfx
 {
 class
 AutoRestoreTransform
+final
 {
 public
 :
 AutoRestoreTransform
 (
 )
-{
-}
+=
+default
+;
 explicit
 AutoRestoreTransform
 (
@@ -126,6 +128,7 @@ mOldTransform
 ;
 class
 AutoPopClips
+final
 {
 public
 :

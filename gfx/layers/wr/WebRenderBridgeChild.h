@@ -836,7 +836,6 @@ GetShmemAllocator
 (
 )
 ;
-virtual
 bool
 IsThreadSafe
 (
@@ -848,7 +847,6 @@ return
 false
 ;
 }
-virtual
 RefPtr
 <
 KnowsCompositor

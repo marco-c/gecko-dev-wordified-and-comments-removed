@@ -360,6 +360,7 @@ LayersId
 aRootLayerTreeId
 )
 ;
+virtual
 ~
 UiCompositorControllerParent
 (

@@ -129,6 +129,7 @@ aFlags
 class
 MOZ_RAII
 AutoTextureLock
+final
 {
 public
 :
@@ -175,7 +176,6 @@ TextureData
 {
 public
 :
-virtual
 void
 FillInfo
 (
@@ -197,7 +197,6 @@ SurfaceDescriptorD3D10
 aOutDesc
 )
 ;
-virtual
 bool
 Serialize
 (
@@ -207,7 +206,6 @@ aOutDescrptor
 )
 override
 ;
-virtual
 void
 GetSubDescriptor
 (
@@ -364,7 +362,6 @@ aDevice
 nullptr
 )
 ;
-virtual
 bool
 UpdateFromSurface
 (
@@ -377,7 +374,6 @@ aSurface
 )
 override
 ;
-virtual
 bool
 Lock
 (
@@ -386,14 +382,12 @@ aMode
 )
 override
 ;
-virtual
 void
 Unlock
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -406,7 +400,6 @@ BorrowDrawTarget
 )
 override
 ;
-virtual
 TextureData
 *
 CreateSimilar
@@ -424,7 +417,6 @@ aAllocFlags
 const
 override
 ;
-virtual
 void
 SyncWithObject
 (
@@ -444,7 +436,6 @@ return
 mTexture
 ;
 }
-virtual
 void
 Deallocate
 (
@@ -465,6 +456,7 @@ return
 this
 ;
 }
+virtual
 ~
 D3D11TextureData
 (
@@ -495,7 +487,6 @@ bool
 aIsForOutOfBandContent
 )
 ;
-virtual
 void
 GetDXGIResource
 (
@@ -687,7 +678,6 @@ YUVColorSpace
 aYUVColorSpace
 )
 ;
-virtual
 bool
 Lock
 (
@@ -699,7 +689,6 @@ return
 true
 ;
 }
-virtual
 void
 Unlock
 (
@@ -707,7 +696,6 @@ Unlock
 override
 {
 }
-virtual
 void
 FillInfo
 (
@@ -729,7 +717,6 @@ SurfaceDescriptorDXGIYCbCr
 aOutDesc
 )
 ;
-virtual
 bool
 Serialize
 (
@@ -739,7 +726,6 @@ aOutDescriptor
 )
 override
 ;
-virtual
 void
 GetSubDescriptor
 (
@@ -749,7 +735,6 @@ aOutDesc
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -766,7 +751,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 Deallocate
 (
@@ -776,7 +760,6 @@ aAllocator
 )
 override
 ;
-virtual
 bool
 UpdateFromSurface
 (
@@ -792,7 +775,6 @@ return
 false
 ;
 }
-virtual
 TextureFlags
 GetTextureFlags
 (
@@ -963,8 +945,9 @@ virtual
 TextureSourceD3D11
 (
 )
-{
-}
+=
+default
+;
 virtual
 ID3D11Texture2D
 *
@@ -1099,7 +1082,6 @@ DataTextureSourceD3D11
 (
 )
 ;
-virtual
 const
 char
 *
@@ -1115,7 +1097,6 @@ DataTextureSourceD3D11
 "
 ;
 }
-virtual
 bool
 Update
 (
@@ -1141,7 +1122,6 @@ nullptr
 )
 override
 ;
-virtual
 TextureSourceD3D11
 *
 AsSourceD3D11
@@ -1153,7 +1133,6 @@ return
 this
 ;
 }
-virtual
 ID3D11Texture2D
 *
 GetD3D11Texture
@@ -1162,7 +1141,6 @@ GetD3D11Texture
 const
 override
 ;
-virtual
 ID3D11ShaderResourceView
 *
 GetShaderResourceView
@@ -1170,7 +1148,6 @@ GetShaderResourceView
 )
 override
 ;
-virtual
 DataTextureSource
 *
 AsDataTextureSource
@@ -1186,7 +1163,6 @@ this
 nullptr
 ;
 }
-virtual
 void
 DeallocateDeviceData
 (
@@ -1198,7 +1174,6 @@ mTexture
 nullptr
 ;
 }
-virtual
 gfx
 :
 :
@@ -1213,7 +1188,6 @@ return
 mSize
 ;
 }
-virtual
 gfx
 :
 :
@@ -1228,7 +1202,6 @@ return
 mFormat
 ;
 }
-virtual
 BigImageIterator
 *
 AsBigImageIterator
@@ -1244,7 +1217,6 @@ this
 nullptr
 ;
 }
-virtual
 size_t
 GetTileCount
 (
@@ -1259,7 +1231,6 @@ size
 )
 ;
 }
-virtual
 bool
 NextTile
 (
@@ -1280,7 +1251,6 @@ size
 )
 ;
 }
-virtual
 gfx
 :
 :
@@ -1290,7 +1260,6 @@ GetTileRect
 )
 override
 ;
-virtual
 void
 EndBigImageIteration
 (
@@ -1302,7 +1271,6 @@ mIterating
 false
 ;
 }
-virtual
 void
 BeginBigImageIteration
 (
@@ -1444,7 +1412,6 @@ SurfaceDescriptorD3D10
 aDescriptor
 )
 ;
-virtual
 bool
 BindTextureSource
 (
@@ -1454,7 +1421,6 @@ aTexture
 )
 override
 ;
-virtual
 bool
 AcquireTextureSource
 (
@@ -1464,7 +1430,6 @@ aTexture
 )
 override
 ;
-virtual
 void
 DeallocateDeviceData
 (
@@ -1472,7 +1437,6 @@ DeallocateDeviceData
 override
 {
 }
-virtual
 void
 SetTextureSourceProvider
 (
@@ -1482,7 +1446,6 @@ aProvider
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -1497,35 +1460,30 @@ return
 mFormat
 ;
 }
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 void
 Unlock
 (
 )
 override
 ;
-virtual
 bool
 LockWithoutCompositor
 (
 )
 override
 ;
-virtual
 void
 UnlockWithoutCompositor
 (
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -1540,7 +1498,6 @@ return
 mSize
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -1553,7 +1510,6 @@ GetAsSurface
 )
 override
 ;
-virtual
 void
 CreateRenderTexture
 (
@@ -1567,7 +1523,6 @@ aExternalImageId
 )
 override
 ;
-virtual
 uint32_t
 NumSubTextures
 (
@@ -1575,7 +1530,6 @@ NumSubTextures
 const
 override
 ;
-virtual
 void
 PushResourceUpdates
 (
@@ -1607,7 +1561,6 @@ aExtID
 )
 override
 ;
-virtual
 void
 PushDisplayItems
 (
@@ -1649,7 +1602,6 @@ aImageKeys
 )
 override
 ;
-virtual
 bool
 SupportsWrNativeTexture
 (
@@ -1746,7 +1698,6 @@ SurfaceDescriptorDXGIYCbCr
 aDescriptor
 )
 ;
-virtual
 bool
 BindTextureSource
 (
@@ -1756,7 +1707,6 @@ aTexture
 )
 override
 ;
-virtual
 bool
 AcquireTextureSource
 (
@@ -1766,7 +1716,6 @@ aTexture
 )
 override
 ;
-virtual
 void
 DeallocateDeviceData
 (
@@ -1774,7 +1723,6 @@ DeallocateDeviceData
 override
 {
 }
-virtual
 void
 SetTextureSourceProvider
 (
@@ -1784,7 +1732,6 @@ aProvider
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -1805,7 +1752,6 @@ SurfaceFormat
 YUV
 ;
 }
-virtual
 gfx
 :
 :
@@ -1820,7 +1766,6 @@ return
 mColorDepth
 ;
 }
-virtual
 gfx
 :
 :
@@ -1835,21 +1780,18 @@ return
 mYUVColorSpace
 ;
 }
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 void
 Unlock
 (
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -1864,7 +1806,6 @@ return
 mSize
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -1881,7 +1822,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 CreateRenderTexture
 (
@@ -1895,7 +1835,6 @@ aExternalImageId
 )
 override
 ;
-virtual
 uint32_t
 NumSubTextures
 (
@@ -1903,7 +1842,6 @@ NumSubTextures
 const
 override
 ;
-virtual
 void
 PushResourceUpdates
 (
@@ -1935,7 +1873,6 @@ aExtID
 )
 override
 ;
-virtual
 void
 PushDisplayItems
 (
@@ -1977,7 +1914,6 @@ aImageKeys
 )
 override
 ;
-virtual
 bool
 SupportsWrNativeTexture
 (
@@ -2091,7 +2027,6 @@ aFormatOverride
 DXGI_FORMAT_UNKNOWN
 )
 ;
-virtual
 const
 char
 *
@@ -2107,7 +2042,6 @@ CompositingRenderTargetD3D11
 "
 ;
 }
-virtual
 TextureSourceD3D11
 *
 AsSourceD3D11
@@ -2127,7 +2061,6 @@ ID3D11DeviceContext
 aContext
 )
 ;
-virtual
 gfx
 :
 :
@@ -2185,21 +2118,18 @@ ID3D11Device
 aDevice
 )
 ;
-virtual
 bool
 Init
 (
 )
 override
 ;
-virtual
 SyncHandle
 GetSyncHandle
 (
 )
 override
 ;
-virtual
 bool
 Synchronize
 (
@@ -2230,8 +2160,9 @@ virtual
 SyncObjectD3D11Host
 (
 )
-{
-}
+=
+default
+;
 SyncHandle
 mSyncHandle
 ;
@@ -2263,7 +2194,6 @@ SyncObjectClient
 {
 public
 :
-explicit
 SyncObjectD3D11Client
 (
 SyncHandle
@@ -2273,7 +2203,6 @@ ID3D11Device
 aDevice
 )
 ;
-virtual
 bool
 Synchronize
 (
@@ -2282,14 +2211,12 @@ aFallible
 )
 override
 ;
-virtual
 bool
 IsSyncObjectValid
 (
 )
 override
 ;
-virtual
 SyncType
 GetSyncType
 (

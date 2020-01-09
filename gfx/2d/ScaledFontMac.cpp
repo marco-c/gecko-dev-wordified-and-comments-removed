@@ -171,6 +171,7 @@ T
 >
 class
 AutoRelease
+final
 {
 public
 :
@@ -868,6 +869,7 @@ shift
 }
 struct
 writeBuf
+final
 {
 explicit
 writeBuf

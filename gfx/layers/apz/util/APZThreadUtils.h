@@ -109,8 +109,9 @@ virtual
 GenericNamedTimerCallbackBase
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template
@@ -127,7 +128,6 @@ GenericNamedTimerCallbackBase
 {
 public
 :
-explicit
 GenericNamedTimerCallback
 (
 const

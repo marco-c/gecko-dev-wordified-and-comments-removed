@@ -338,8 +338,9 @@ virtual
 ISurfaceAllocator
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -355,7 +356,6 @@ ClientIPCAllocator
 )
 {
 }
-virtual
 ClientIPCAllocator
 *
 AsClientAllocator
@@ -414,7 +414,6 @@ HostIPCAllocator
 )
 {
 }
-virtual
 HostIPCAllocator
 *
 AsHostIPCAllocator
@@ -969,7 +968,6 @@ FixedSizeSmallShmemSectionAllocator
 (
 )
 ;
-virtual
 bool
 AllocShmemSection
 (
@@ -981,7 +979,6 @@ aShmemSection
 )
 override
 ;
-virtual
 void
 DeallocShmemSection
 (
@@ -991,7 +988,6 @@ aShmemSection
 )
 override
 ;
-virtual
 void
 MemoryPressure
 (

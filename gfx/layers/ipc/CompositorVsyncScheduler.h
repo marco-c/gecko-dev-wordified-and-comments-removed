@@ -116,7 +116,6 @@ CompositorVsyncScheduler
 )
 public
 :
-explicit
 CompositorVsyncScheduler
 (
 CompositorVsyncSchedulerOwner
@@ -287,7 +286,6 @@ CompositorVsyncScheduler
 aOwner
 )
 ;
-virtual
 bool
 NotifyVsync
 (

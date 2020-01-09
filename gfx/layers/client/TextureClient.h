@@ -414,8 +414,9 @@ virtual
 TextureReadbackSink
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 enum
@@ -558,8 +559,9 @@ virtual
 TextureReadLock
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -697,7 +699,6 @@ LayersIPCChannel
 aAllocator
 )
 ;
-virtual
 NonBlockingTextureReadLock
 *
 AsNonBlockingLock
@@ -1084,7 +1085,6 @@ TextureClient
 {
 public
 :
-explicit
 TextureClient
 (
 TextureData
@@ -2607,8 +2607,9 @@ virtual
 KeepAlive
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template

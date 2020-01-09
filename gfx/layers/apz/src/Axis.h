@@ -624,7 +624,6 @@ AsyncPanZoomController
 mAsyncPanZoomController
 )
 ;
-virtual
 ParentLayerCoord
 GetPointOffset
 (
@@ -636,7 +635,6 @@ aPoint
 const
 override
 ;
-virtual
 ParentLayerCoord
 GetRectLength
 (
@@ -648,7 +646,6 @@ aRect
 const
 override
 ;
-virtual
 ParentLayerCoord
 GetRectOffset
 (
@@ -660,7 +657,6 @@ aRect
 const
 override
 ;
-virtual
 CSSToParentLayerScale
 GetScaleForAxis
 (
@@ -672,7 +668,6 @@ aScale
 const
 override
 ;
-virtual
 ScreenPoint
 MakePoint
 (
@@ -682,7 +677,6 @@ aCoord
 const
 override
 ;
-virtual
 const
 char
 *
@@ -702,7 +696,6 @@ const
 ;
 private
 :
-virtual
 OverscrollBehavior
 GetOverscrollBehavior
 (
@@ -728,7 +721,6 @@ AsyncPanZoomController
 mAsyncPanZoomController
 )
 ;
-virtual
 ParentLayerCoord
 GetPointOffset
 (
@@ -740,7 +732,6 @@ aPoint
 const
 override
 ;
-virtual
 ParentLayerCoord
 GetRectLength
 (
@@ -752,7 +743,6 @@ aRect
 const
 override
 ;
-virtual
 ParentLayerCoord
 GetRectOffset
 (
@@ -764,7 +754,6 @@ aRect
 const
 override
 ;
-virtual
 CSSToParentLayerScale
 GetScaleForAxis
 (
@@ -776,7 +765,6 @@ aScale
 const
 override
 ;
-virtual
 ScreenPoint
 MakePoint
 (
@@ -786,7 +774,6 @@ aCoord
 const
 override
 ;
-virtual
 const
 char
 *
@@ -806,7 +793,6 @@ const
 ;
 private
 :
-virtual
 OverscrollBehavior
 GetOverscrollBehavior
 (

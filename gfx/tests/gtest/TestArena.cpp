@@ -78,8 +78,9 @@ virtual
 Base
 (
 )
-{
-}
+=
+default
+;
 virtual
 A
 *

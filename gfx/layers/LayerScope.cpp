@@ -631,8 +631,9 @@ virtual
 SocketListener
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -1620,8 +1621,9 @@ virtual
 DebugGLData
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 Write
@@ -1764,7 +1766,6 @@ mFrameStamp
 )
 {
 }
-virtual
 bool
 Write
 (
@@ -1924,7 +1925,6 @@ img
 )
 ;
 }
-virtual
 bool
 Write
 (
@@ -2361,7 +2361,6 @@ height
 )
 {
 }
-virtual
 bool
 Write
 (
@@ -2482,7 +2481,6 @@ aPacket
 )
 {
 }
-virtual
 bool
 Write
 (
@@ -2565,7 +2563,6 @@ false
 )
 {
 }
-virtual
 bool
 Write
 (
@@ -2743,7 +2740,6 @@ i
 ;
 }
 }
-virtual
 bool
 Write
 (
@@ -3038,8 +3034,9 @@ virtual
 AppendTask
 (
 )
-{
-}
+=
+default
+;
 DebugGLData
 *
 mData
@@ -3099,8 +3096,9 @@ virtual
 ClearTask
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 DebugDataSender
@@ -3211,8 +3209,9 @@ virtual
 SendTask
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 DebugDataSender
@@ -3303,8 +3302,9 @@ virtual
 DebugDataSender
 (
 )
-{
-}
+=
+default
+;
 void
 RemoveData
 (

@@ -182,7 +182,6 @@ ClientImageLayer
 )
 ;
 }
-virtual
 void
 SetContainer
 (
@@ -208,7 +207,6 @@ CompositableType
 UNKNOWN
 ;
 }
-virtual
 void
 SetVisibleRegion
 (
@@ -249,14 +247,12 @@ aRegion
 )
 ;
 }
-virtual
 void
 RenderLayer
 (
 )
 override
 ;
-virtual
 void
 ClearCachedResources
 (
@@ -268,7 +264,6 @@ DestroyBackBuffer
 )
 ;
 }
-virtual
 bool
 SupportsAsyncUpdate
 (
@@ -296,7 +291,6 @@ return
 false
 ;
 }
-virtual
 void
 HandleMemoryPressure
 (
@@ -317,7 +311,6 @@ HandleMemoryPressure
 ;
 }
 }
-virtual
 void
 FillSpecificAttributes
 (
@@ -337,7 +330,6 @@ mScaleMode
 )
 ;
 }
-virtual
 Layer
 *
 AsLayer
@@ -349,7 +341,6 @@ return
 this
 ;
 }
-virtual
 ShadowableLayer
 *
 AsShadowableLayer
@@ -361,7 +352,6 @@ return
 this
 ;
 }
-virtual
 void
 Disconnect
 (
@@ -404,7 +394,6 @@ nullptr
 ;
 }
 }
-virtual
 CompositableClient
 *
 GetCompositableClient

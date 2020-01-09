@@ -1621,11 +1621,11 @@ LogForwarderEvent
 public
 Runnable
 {
+virtual
 ~
 LogForwarderEvent
 (
 )
-override
 =
 default
 ;
@@ -1918,11 +1918,11 @@ CrashTelemetryEvent
 public
 Runnable
 {
+virtual
 ~
 CrashTelemetryEvent
 (
 )
-override
 =
 default
 ;

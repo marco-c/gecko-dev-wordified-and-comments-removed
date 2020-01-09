@@ -39,7 +39,6 @@ IntSize
 aSize
 )
 ;
-virtual
 already_AddRefed
 <
 DrawTarget

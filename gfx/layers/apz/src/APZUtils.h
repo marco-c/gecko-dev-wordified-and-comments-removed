@@ -395,6 +395,7 @@ MultipleAsyncTransforms
 }
 struct
 TargetConfirmationFlags
+final
 {
 explicit
 TargetConfirmationFlags

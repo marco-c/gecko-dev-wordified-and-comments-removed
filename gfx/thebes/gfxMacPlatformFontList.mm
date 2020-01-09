@@ -4970,8 +4970,9 @@ virtual
 gfxMacFontFamily
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 LocalizedName
@@ -6118,8 +6119,9 @@ virtual
 gfxSingleFaceMacFontFamily
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 LocalizedName
@@ -10376,8 +10378,9 @@ virtual
 MacFontInfo
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Load

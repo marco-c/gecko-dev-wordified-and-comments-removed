@@ -1461,6 +1461,7 @@ MaybeLayerRect
 ;
 class
 LayerHandle
+final
 {
 friend
 struct
@@ -1585,6 +1586,7 @@ mHandle
 ;
 class
 CompositableHandle
+final
 {
 friend
 struct

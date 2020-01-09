@@ -36,8 +36,9 @@ virtual
 ClientSingleTiledLayerBuffer
 (
 )
-{
-}
+=
+default
+;
 public
 :
 ClientSingleTiledLayerBuffer
@@ -316,14 +317,12 @@ ClientLayerManager
 aManager
 )
 ;
-virtual
 void
 ClearCachedResources
 (
 )
 override
 ;
-virtual
 void
 UpdatedBuffer
 (
@@ -332,7 +331,6 @@ aType
 )
 override
 ;
-virtual
 ClientTiledLayerBuffer
 *
 GetTiledBuffer
@@ -344,7 +342,6 @@ return
 mTiledBuffer
 ;
 }
-virtual
 ClientTiledLayerBuffer
 *
 GetLowPrecisionTiledBuffer

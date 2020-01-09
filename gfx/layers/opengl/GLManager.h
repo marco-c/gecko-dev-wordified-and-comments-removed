@@ -72,8 +72,9 @@ virtual
 GLManager
 (
 )
-{
-}
+=
+default
+;
 virtual
 gl
 :

@@ -279,6 +279,7 @@ aManager
 ;
 protected
 :
+virtual
 ~
 ContainerLayerComposite
 (
@@ -286,7 +287,6 @@ ContainerLayerComposite
 ;
 public
 :
-virtual
 Layer
 *
 GetLayer
@@ -298,7 +298,6 @@ return
 this
 ;
 }
-virtual
 void
 SetLayerManager
 (
@@ -325,7 +324,6 @@ mLastIntermediateSurface
 nullptr
 ;
 }
-virtual
 void
 Destroy
 (
@@ -339,14 +337,12 @@ GetFirstChildComposite
 )
 override
 ;
-virtual
 void
 Cleanup
 (
 )
 override
 ;
-virtual
 void
 RenderLayer
 (
@@ -370,7 +366,6 @@ aGeometry
 )
 override
 ;
-virtual
 void
 Prepare
 (
@@ -381,7 +376,6 @@ aClipRect
 )
 override
 ;
-virtual
 void
 ComputeEffectiveTransforms
 (
@@ -401,7 +395,6 @@ aTransformToSurface
 )
 ;
 }
-virtual
 const
 LayerIntRegion
 &
@@ -410,14 +403,12 @@ GetShadowVisibleRegion
 )
 override
 ;
-virtual
 void
 CleanupResources
 (
 )
 override
 ;
-virtual
 HostLayer
 *
 AsHostLayer
@@ -440,7 +431,6 @@ return
 nullptr
 ;
 }
-virtual
 float
 GetPostXScale
 (
@@ -458,7 +448,6 @@ GetPostXScale
 mPresShellResolution
 ;
 }
-virtual
 float
 GetPostYScale
 (
@@ -476,7 +465,6 @@ GetPostYScale
 mPresShellResolution
 ;
 }
-virtual
 const
 char
 *
@@ -698,6 +686,7 @@ aManager
 ;
 protected
 :
+virtual
 ~
 RefLayerComposite
 (
@@ -716,7 +705,6 @@ return
 this
 ;
 }
-virtual
 void
 SetLayerManager
 (
@@ -756,7 +744,6 @@ GetFirstChildComposite
 )
 override
 ;
-virtual
 void
 RenderLayer
 (
@@ -780,7 +767,6 @@ aGeometry
 )
 override
 ;
-virtual
 void
 Prepare
 (
@@ -791,7 +777,6 @@ aClipRect
 )
 override
 ;
-virtual
 void
 ComputeEffectiveTransforms
 (
@@ -811,7 +796,6 @@ aTransformToSurface
 )
 ;
 }
-virtual
 const
 LayerIntRegion
 &
@@ -820,21 +804,18 @@ GetShadowVisibleRegion
 )
 override
 ;
-virtual
 void
 Cleanup
 (
 )
 override
 ;
-virtual
 void
 CleanupResources
 (
 )
 override
 ;
-virtual
 HostLayer
 *
 AsHostLayer
@@ -857,7 +838,6 @@ return
 nullptr
 ;
 }
-virtual
 const
 char
 *

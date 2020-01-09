@@ -65,6 +65,7 @@ FontBitmapInfo
 ;
 class
 TextRenderer
+final
 {
 ~
 TextRenderer
@@ -86,12 +87,12 @@ FixedWidth
 NumTypes
 }
 ;
-explicit
 TextRenderer
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 TextureSource

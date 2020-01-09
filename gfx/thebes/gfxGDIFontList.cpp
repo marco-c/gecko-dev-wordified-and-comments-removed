@@ -4461,8 +4461,9 @@ virtual
 GDIFontInfo
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Load

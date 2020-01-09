@@ -57,6 +57,7 @@ endif
 class
 GFX2D_API
 AlphaBoxBlur
+final
 {
 public
 :

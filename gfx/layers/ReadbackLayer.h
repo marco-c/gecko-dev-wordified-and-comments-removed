@@ -118,8 +118,9 @@ virtual
 ReadbackSink
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 SetUnknown

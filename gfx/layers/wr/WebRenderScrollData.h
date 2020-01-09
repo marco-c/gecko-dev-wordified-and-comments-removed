@@ -166,6 +166,7 @@ WebRenderScrollData
 ;
 class
 WebRenderLayerScrollData
+final
 {
 public
 :
@@ -699,6 +700,7 @@ mZoomAnimationId
 ;
 class
 WebRenderScrollData
+final
 {
 public
 :
@@ -712,11 +714,6 @@ WebRenderScrollData
 WebRenderLayerManager
 *
 aManager
-)
-;
-~
-WebRenderScrollData
-(
 )
 ;
 WebRenderLayerManager

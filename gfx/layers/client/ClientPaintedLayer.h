@@ -220,7 +220,6 @@ ClientPaintedLayer
 }
 public
 :
-virtual
 void
 SetVisibleRegion
 (
@@ -261,7 +260,6 @@ aRegion
 )
 ;
 }
-virtual
 void
 InvalidateRegion
 (
@@ -305,7 +303,6 @@ UpdateValidRegionAfterInvalidRegionChanged
 )
 ;
 }
-virtual
 void
 RenderLayer
 (
@@ -318,7 +315,6 @@ nullptr
 )
 ;
 }
-virtual
 void
 RenderLayerWithReadback
 (
@@ -328,7 +324,6 @@ aReadback
 )
 override
 ;
-virtual
 void
 ClearCachedResources
 (
@@ -357,7 +352,6 @@ DestroyBackBuffer
 )
 ;
 }
-virtual
 void
 HandleMemoryPressure
 (
@@ -378,7 +372,6 @@ HandleMemoryPressure
 ;
 }
 }
-virtual
 void
 FillSpecificAttributes
 (
@@ -415,7 +408,6 @@ mManager
 )
 ;
 }
-virtual
 Layer
 *
 AsLayer
@@ -427,7 +419,6 @@ return
 this
 ;
 }
-virtual
 ShadowableLayer
 *
 AsShadowableLayer
@@ -439,7 +430,6 @@ return
 this
 ;
 }
-virtual
 CompositableClient
 *
 GetCompositableClient
@@ -451,7 +441,6 @@ return
 mContentClient
 ;
 }
-virtual
 void
 Disconnect
 (
@@ -512,7 +501,6 @@ PaintState
 aState
 )
 ;
-virtual
 void
 PrintInfo
 (

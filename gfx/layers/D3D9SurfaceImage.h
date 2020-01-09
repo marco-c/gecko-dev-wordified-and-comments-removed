@@ -55,7 +55,6 @@ TextureClientRecycleAllocator
 {
 public
 :
-explicit
 D3D9RecycleAllocator
 (
 KnowsCompositor
@@ -98,7 +97,6 @@ aSize
 ;
 protected
 :
-virtual
 already_AddRefed
 <
 TextureClient
@@ -162,12 +160,12 @@ IDirect3DDevice9
 aDevice
 )
 ;
+virtual
 ~
 DXGID3D9TextureData
 (
 )
 ;
-virtual
 void
 FillInfo
 (
@@ -181,7 +179,6 @@ aInfo
 const
 override
 ;
-virtual
 bool
 Lock
 (
@@ -193,7 +190,6 @@ return
 true
 ;
 }
-virtual
 void
 Unlock
 (
@@ -201,7 +197,6 @@ Unlock
 override
 {
 }
-virtual
 bool
 Serialize
 (
@@ -211,7 +206,6 @@ aOutDescriptor
 )
 override
 ;
-virtual
 void
 Deallocate
 (

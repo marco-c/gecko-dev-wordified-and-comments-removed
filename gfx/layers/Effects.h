@@ -192,8 +192,9 @@ virtual
 Effect
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 struct
@@ -247,7 +248,6 @@ aSamplingFilter
 )
 {
 }
-virtual
 TexturedEffect
 *
 AsTexturedEffect
@@ -269,7 +269,6 @@ Name
 =
 0
 ;
-virtual
 void
 PrintInfo
 (
@@ -353,7 +352,6 @@ aMaskTransform
 )
 {
 }
-virtual
 void
 PrintInfo
 (
@@ -431,7 +429,6 @@ EffectBlendMode
 "
 ;
 }
-virtual
 void
 PrintInfo
 (
@@ -492,7 +489,6 @@ aRenderTarget
 )
 {
 }
-virtual
 const
 char
 *
@@ -507,7 +503,6 @@ EffectRenderTarget
 "
 ;
 }
-virtual
 void
 PrintInfo
 (
@@ -591,21 +586,6 @@ aMatrix
 )
 {
 }
-virtual
-const
-char
-*
-Name
-(
-)
-{
-return
-"
-EffectColorMatrix
-"
-;
-}
-virtual
 void
 PrintInfo
 (
@@ -667,7 +647,6 @@ aSamplingFilter
 )
 {
 }
-virtual
 const
 char
 *
@@ -732,7 +711,6 @@ aColorDepth
 )
 {
 }
-virtual
 const
 char
 *
@@ -805,7 +783,6 @@ EffectTypes
 NV12
 ;
 }
-virtual
 const
 char
 *
@@ -863,7 +840,6 @@ aOnWhite
 )
 {
 }
-virtual
 const
 char
 *
@@ -919,7 +895,6 @@ aColor
 )
 {
 }
-virtual
 void
 PrintInfo
 (

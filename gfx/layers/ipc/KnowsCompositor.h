@@ -128,7 +128,6 @@ aEventTarget
 )
 {
 }
-virtual
 void
 NotifyExpired
 (
@@ -163,6 +162,7 @@ KnowsCompositor
 (
 )
 ;
+virtual
 ~
 KnowsCompositor
 (
@@ -495,7 +495,6 @@ TextureFactoryIdentifier
 aIdentifier
 )
 ;
-virtual
 TextureForwarder
 *
 GetTextureForwarder
@@ -503,7 +502,6 @@ GetTextureForwarder
 )
 override
 ;
-virtual
 LayersIPCActor
 *
 GetLayersIPCActor
@@ -511,7 +509,6 @@ GetLayersIPCActor
 )
 override
 ;
-virtual
 ActiveResourceTracker
 *
 GetActiveResourceTracker
@@ -519,7 +516,6 @@ GetActiveResourceTracker
 )
 override
 ;
-virtual
 void
 SyncWithCompositor
 (

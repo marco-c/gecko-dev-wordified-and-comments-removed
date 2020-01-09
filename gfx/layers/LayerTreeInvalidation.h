@@ -67,8 +67,9 @@ protected
 LayerProperties
 (
 )
-{
-}
+=
+default
+;
 LayerProperties
 (
 const
@@ -99,8 +100,9 @@ virtual
 LayerProperties
 (
 )
-{
-}
+=
+default
+;
 static
 UniquePtr
 <

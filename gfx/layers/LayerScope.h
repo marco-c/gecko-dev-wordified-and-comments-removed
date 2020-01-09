@@ -217,6 +217,7 @@ Init
 ;
 class
 LayerScopeAutoFrame
+final
 {
 public
 :

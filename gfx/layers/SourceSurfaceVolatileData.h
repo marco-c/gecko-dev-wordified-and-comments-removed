@@ -312,13 +312,14 @@ nullptr
 }
 private
 :
+virtual
 ~
 SourceSurfaceVolatileData
 (
 )
-override
-{
-}
+=
+default
+;
 Mutex
 mMutex
 ;

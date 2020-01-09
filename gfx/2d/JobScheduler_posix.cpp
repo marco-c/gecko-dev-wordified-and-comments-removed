@@ -73,11 +73,11 @@ this
 )
 ;
 }
+virtual
 ~
 WorkerThreadPosix
 (
 )
-override
 {
 pthread_join
 (

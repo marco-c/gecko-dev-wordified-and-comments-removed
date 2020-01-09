@@ -918,13 +918,14 @@ friend
 class
 SourceSurfaceSharedDataWrapper
 ;
+virtual
 ~
 SourceSurfaceSharedData
 (
 )
-override
-{
-}
+=
+default
+;
 void
 LockHandle
 (

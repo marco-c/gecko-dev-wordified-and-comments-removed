@@ -625,6 +625,7 @@ aTextureInfo
 ;
 protected
 :
+virtual
 ~
 TiledContentHost
 (
@@ -715,7 +716,6 @@ GetValidRegion
 )
 ;
 }
-virtual
 void
 SetTextureSourceProvider
 (
@@ -760,7 +760,6 @@ SurfaceDescriptorTiles
 aTiledDescriptor
 )
 ;
-virtual
 void
 Composite
 (
@@ -818,7 +817,6 @@ Nothing
 )
 override
 ;
-virtual
 CompositableType
 GetType
 (
@@ -832,7 +830,6 @@ CompositableType
 CONTENT_TILED
 ;
 }
-virtual
 TiledContentHost
 *
 AsTiledContentHost
@@ -844,7 +841,6 @@ return
 this
 ;
 }
-virtual
 void
 Attach
 (
@@ -861,7 +857,6 @@ NO_FLAGS
 )
 override
 ;
-virtual
 void
 Detach
 (
@@ -877,7 +872,6 @@ NO_FLAGS
 )
 override
 ;
-virtual
 void
 Dump
 (
@@ -901,7 +895,6 @@ false
 )
 override
 ;
-virtual
 void
 PrintInfo
 (
@@ -918,7 +911,6 @@ aPrefix
 )
 override
 ;
-virtual
 void
 AddAnimationInvalidation
 (

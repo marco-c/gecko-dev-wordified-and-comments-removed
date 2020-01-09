@@ -123,19 +123,18 @@ IAPZCTreeManager
 aAPZCTreeManager
 )
 ;
+virtual
 ~
 ChromeProcessController
 (
 )
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 void
 NotifyLayerTransforms
 (
@@ -149,7 +148,6 @@ aTransforms
 )
 override
 ;
-virtual
 void
 RequestContentRepaint
 (
@@ -160,7 +158,6 @@ aRequest
 )
 override
 ;
-virtual
 void
 PostDelayedTask
 (
@@ -174,14 +171,12 @@ aDelayMs
 )
 override
 ;
-virtual
 bool
 IsRepaintThread
 (
 )
 override
 ;
-virtual
 void
 DispatchToRepaintThread
 (
@@ -194,7 +189,6 @@ aTask
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 void
 HandleTap
 (
@@ -218,7 +212,6 @@ aInputBlockId
 )
 override
 ;
-virtual
 void
 NotifyPinchGesture
 (
@@ -238,7 +231,6 @@ aModifiers
 )
 override
 ;
-virtual
 void
 NotifyAPZStateChange
 (
@@ -253,7 +245,6 @@ aArg
 )
 override
 ;
-virtual
 void
 NotifyMozMouseScrollEvent
 (
@@ -271,14 +262,12 @@ aEvent
 )
 override
 ;
-virtual
 void
 NotifyFlushComplete
 (
 )
 override
 ;
-virtual
 void
 NotifyAsyncScrollbarDragInitiated
 (
@@ -296,7 +285,6 @@ aDirection
 )
 override
 ;
-virtual
 void
 NotifyAsyncScrollbarDragRejected
 (
@@ -310,7 +298,6 @@ aScrollId
 )
 override
 ;
-virtual
 void
 NotifyAsyncAutoscrollRejected
 (
@@ -324,7 +311,6 @@ aScrollId
 )
 override
 ;
-virtual
 void
 CancelAutoscroll
 (

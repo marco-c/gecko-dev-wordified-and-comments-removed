@@ -139,6 +139,7 @@ ContentReceivedInputBlockCallback
 ;
 class
 APZEventState
+final
 {
 typedef
 GeckoContentController

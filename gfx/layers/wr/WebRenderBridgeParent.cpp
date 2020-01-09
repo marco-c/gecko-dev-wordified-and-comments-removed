@@ -1074,7 +1074,6 @@ aIsActive
 )
 {
 }
-virtual
 void
 Notify
 (
@@ -1148,7 +1147,6 @@ NotificationHandler
 {
 public
 :
-explicit
 SceneBuiltNotification
 (
 WebRenderBridgeParent
@@ -1177,7 +1175,6 @@ aTxnStartTime
 )
 {
 }
-virtual
 void
 Notify
 (
@@ -1288,7 +1285,6 @@ aEndTime
 )
 {
 }
-virtual
 void
 StreamPayload
 (
@@ -1545,6 +1541,7 @@ mSurfaces
 class
 MOZ_STACK_CLASS
 AutoWebRenderBridgeParentAsyncMessageSender
+final
 {
 public
 :
@@ -1981,15 +1978,6 @@ WebRenderBridgeParent
 aPipelineId
 )
 ;
-}
-WebRenderBridgeParent
-:
-:
-~
-WebRenderBridgeParent
-(
-)
-{
 }
 mozilla
 :

@@ -46,11 +46,11 @@ MLGDevice
 aDevice
 )
 ;
+virtual
 ~
 TextureSourceProviderMLGPU
 (
 )
-override
 ;
 already_AddRefed
 <
@@ -128,7 +128,6 @@ override
 #
 ifdef
 XP_WIN
-virtual
 ID3D11Device
 *
 GetD3D11Device

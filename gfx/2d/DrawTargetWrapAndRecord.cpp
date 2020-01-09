@@ -508,7 +508,6 @@ this
 )
 ;
 }
-virtual
 SurfaceType
 GetType
 (
@@ -523,7 +522,6 @@ SurfaceType
 RECORDING
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -540,7 +538,6 @@ GetSize
 )
 ;
 }
-virtual
 SurfaceFormat
 GetFormat
 (
@@ -557,7 +554,6 @@ GetFormat
 )
 ;
 }
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -659,7 +655,6 @@ this
 )
 ;
 }
-virtual
 BackendType
 GetBackendType
 (
@@ -909,7 +904,6 @@ aNode
 mFinalFilterNode
 ;
 }
-virtual
 void
 SetInput
 (
@@ -956,7 +950,6 @@ aSurface
 )
 ;
 }
-virtual
 void
 SetInput
 (
@@ -1013,7 +1006,6 @@ type
 argtype
 )
 \
-virtual
 void
 SetAttribute
 (
@@ -1200,7 +1192,6 @@ aSize
 )
 ;
 }
-virtual
 FilterBackend
 GetBackendType
 (
@@ -1227,6 +1218,7 @@ mRecorder
 ;
 struct
 AdjustedPattern
+final
 {
 explicit
 AdjustedPattern

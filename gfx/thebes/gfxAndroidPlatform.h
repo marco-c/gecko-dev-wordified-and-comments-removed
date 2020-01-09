@@ -92,7 +92,6 @@ GetPlatform
 )
 ;
 }
-virtual
 already_AddRefed
 <
 gfxASurface
@@ -108,7 +107,6 @@ aFormat
 )
 override
 ;
-virtual
 gfxImageFormat
 GetOffscreenFormat
 (
@@ -130,7 +128,6 @@ FontListEntry
 retValue
 )
 ;
-virtual
 gfxPlatformFontList
 *
 CreatePlatformFontList
@@ -138,7 +135,6 @@ CreatePlatformFontList
 )
 override
 ;
-virtual
 void
 GetCommonFallbackFonts
 (
@@ -185,14 +181,12 @@ aDevToCssSize
 )
 override
 ;
-virtual
 bool
 FontHintingEnabled
 (
 )
 override
 ;
-virtual
 bool
 RequiresLinearZoom
 (
@@ -205,7 +199,6 @@ GetFTLibrary
 )
 override
 ;
-virtual
 already_AddRefed
 <
 mozilla

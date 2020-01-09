@@ -137,14 +137,12 @@ ImageLayerComposite
 ;
 public
 :
-virtual
 void
 Disconnect
 (
 )
 override
 ;
-virtual
 bool
 SetCompositableHost
 (
@@ -154,7 +152,6 @@ aHost
 )
 override
 ;
-virtual
 Layer
 *
 GetLayer
@@ -162,7 +159,6 @@ GetLayer
 )
 override
 ;
-virtual
 void
 SetLayerManager
 (
@@ -172,7 +168,6 @@ aManager
 )
 override
 ;
-virtual
 void
 RenderLayer
 (
@@ -196,7 +191,6 @@ aGeometry
 )
 override
 ;
-virtual
 void
 ComputeEffectiveTransforms
 (
@@ -213,7 +207,6 @@ aTransformToSurface
 )
 override
 ;
-virtual
 void
 CleanupResources
 (
@@ -227,7 +220,6 @@ GetCompositableHost
 )
 override
 ;
-virtual
 void
 GenEffectChain
 (
@@ -237,7 +229,6 @@ aEffect
 )
 override
 ;
-virtual
 HostLayer
 *
 AsHostLayer
@@ -249,7 +240,6 @@ return
 this
 ;
 }
-virtual
 const
 char
 *
@@ -265,14 +255,12 @@ ImageLayerComposite
 "
 ;
 }
-virtual
 bool
 IsOpaque
 (
 )
 override
 ;
-virtual
 nsIntRegion
 GetFullyRenderedRegion
 (
@@ -281,7 +269,6 @@ override
 ;
 protected
 :
-virtual
 void
 PrintInfo
 (

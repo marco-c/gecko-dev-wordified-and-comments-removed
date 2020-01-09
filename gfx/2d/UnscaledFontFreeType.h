@@ -168,6 +168,7 @@ aNativeFontResource
 )
 {
 }
+virtual
 ~
 UnscaledFontFreeType
 (

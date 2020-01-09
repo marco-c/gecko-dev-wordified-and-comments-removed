@@ -174,6 +174,7 @@ array
 }
 class
 SharedGL
+final
 {
 public
 :

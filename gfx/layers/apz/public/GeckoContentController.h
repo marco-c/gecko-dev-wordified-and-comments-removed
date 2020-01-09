@@ -409,8 +409,9 @@ virtual
 GeckoContentController
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

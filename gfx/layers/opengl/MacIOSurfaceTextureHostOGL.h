@@ -7,22 +7,7 @@ MOZILLA_GFX_MACIOSURFACETEXTUREHOSTOGL_H
 #
 include
 "
-mozilla
-/
-layers
-/
-CompositorOGL
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
-TextureHostOGL
+MacIOSurfaceHelpers
 .
 h
 "
@@ -40,7 +25,22 @@ h
 #
 include
 "
-MacIOSurfaceHelpers
+mozilla
+/
+layers
+/
+CompositorOGL
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
+TextureHostOGL
 .
 h
 "
@@ -77,7 +77,6 @@ MacIOSurfaceTextureHostOGL
 (
 )
 ;
-virtual
 void
 DeallocateDeviceData
 (
@@ -85,7 +84,6 @@ DeallocateDeviceData
 override
 {
 }
-virtual
 void
 SetTextureSourceProvider
 (
@@ -95,14 +93,12 @@ aProvider
 )
 override
 ;
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -113,7 +109,6 @@ GetFormat
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -124,7 +119,6 @@ GetReadFormat
 const
 override
 ;
-virtual
 bool
 BindTextureSource
 (
@@ -144,7 +138,6 @@ return
 aTexture
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -192,7 +185,6 @@ gl
 )
 const
 ;
-virtual
 gfx
 :
 :
@@ -206,7 +198,6 @@ override
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
-virtual
 const
 char
 *
@@ -223,7 +214,6 @@ MacIOSurfaceTextureHostOGL
 }
 #
 endif
-virtual
 MacIOSurfaceTextureHostOGL
 *
 AsMacIOSurfaceTextureHost
@@ -235,7 +225,6 @@ return
 this
 ;
 }
-virtual
 MacIOSurface
 *
 GetMacIOSurface
@@ -247,7 +236,6 @@ return
 mSurface
 ;
 }
-virtual
 void
 CreateRenderTexture
 (
@@ -261,7 +249,6 @@ aExternalImageId
 )
 override
 ;
-virtual
 uint32_t
 NumSubTextures
 (
@@ -269,7 +256,6 @@ NumSubTextures
 const
 override
 ;
-virtual
 void
 PushResourceUpdates
 (
@@ -301,7 +287,6 @@ aExtID
 )
 override
 ;
-virtual
 void
 PushDisplayItems
 (

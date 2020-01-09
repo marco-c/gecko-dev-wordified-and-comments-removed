@@ -1067,6 +1067,7 @@ return
 class
 MOZ_STACK_CLASS
 AutoUnlockAllTextures
+final
 {
 public
 :

@@ -298,6 +298,7 @@ mData
 ;
 struct
 AnimatedValue
+final
 {
 enum
 {

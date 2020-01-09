@@ -66,6 +66,7 @@ ProcessId
 aParentPid
 )
 ;
+virtual
 ~
 GPUProcessImpl
 (

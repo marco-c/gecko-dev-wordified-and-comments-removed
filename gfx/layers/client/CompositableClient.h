@@ -474,7 +474,6 @@ CompositableChild
 struct
 AutoRemoveTexture
 {
-explicit
 AutoRemoveTexture
 (
 CompositableClient

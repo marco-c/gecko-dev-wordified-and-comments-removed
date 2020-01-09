@@ -220,6 +220,7 @@ mThreadPool
 ;
 class
 WebRenderProgramCache
+final
 {
 public
 :
@@ -265,6 +266,7 @@ mProgramCache
 ;
 class
 WebRenderShaders
+final
 {
 public
 :
@@ -321,6 +323,7 @@ mShaders
 ;
 class
 WebRenderPipelineInfo
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -379,8 +382,9 @@ virtual
 RendererEvent
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Run

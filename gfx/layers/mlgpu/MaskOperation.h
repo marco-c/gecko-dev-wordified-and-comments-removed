@@ -229,11 +229,11 @@ FrameBuilder
 aBuilder
 )
 ;
+virtual
 ~
 MaskCombineOperation
 (
 )
-override
 ;
 void
 Init

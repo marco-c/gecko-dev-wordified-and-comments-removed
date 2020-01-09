@@ -1712,6 +1712,7 @@ surf
 }
 class
 AutoClearDeviceOffset
+final
 {
 public
 :

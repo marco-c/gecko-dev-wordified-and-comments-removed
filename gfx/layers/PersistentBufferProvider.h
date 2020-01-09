@@ -115,8 +115,9 @@ virtual
 PersistentBufferProvider
 (
 )
-{
-}
+=
+default
+;
 virtual
 LayersBackend
 GetType
@@ -294,7 +295,6 @@ DrawTarget
 aTarget
 )
 ;
-virtual
 LayersBackend
 GetType
 (
@@ -308,7 +308,6 @@ LayersBackend
 LAYERS_BASIC
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -328,7 +327,6 @@ aPersistedRect
 )
 override
 ;
-virtual
 bool
 ReturnDrawTarget
 (
@@ -343,7 +341,6 @@ aDT
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -356,7 +353,6 @@ BorrowSnapshot
 )
 override
 ;
-virtual
 void
 ReturnSnapshot
 (
@@ -371,7 +367,6 @@ aSnapshot
 )
 override
 ;
-virtual
 bool
 PreservesDrawingState
 (
@@ -383,7 +378,6 @@ return
 true
 ;
 }
-virtual
 void
 OnShutdown
 (
@@ -404,6 +398,7 @@ Destroy
 ;
 private
 :
+virtual
 ~
 PersistentBufferProviderBasic
 (
@@ -466,14 +461,12 @@ KnowsCompositor
 aKnowsCompositor
 )
 ;
-virtual
 LayersBackend
 GetType
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -493,7 +486,6 @@ aPersistedRect
 )
 override
 ;
-virtual
 bool
 ReturnDrawTarget
 (
@@ -508,7 +500,6 @@ aDT
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -521,7 +512,6 @@ BorrowSnapshot
 )
 override
 ;
-virtual
 void
 ReturnSnapshot
 (
@@ -536,7 +526,6 @@ aSnapshot
 )
 override
 ;
-virtual
 TextureClient
 *
 GetTextureClient
@@ -544,14 +533,12 @@ GetTextureClient
 )
 override
 ;
-virtual
 void
 NotifyInactive
 (
 )
 override
 ;
-virtual
 void
 OnShutdown
 (
@@ -563,7 +550,6 @@ Destroy
 )
 ;
 }
-virtual
 bool
 SetKnowsCompositor
 (
@@ -573,14 +559,12 @@ aKnowsCompositor
 )
 override
 ;
-virtual
 void
 ClearCachedResources
 (
 )
 override
 ;
-virtual
 bool
 PreservesDrawingState
 (
@@ -719,6 +703,7 @@ mSnapshot
 ;
 struct
 AutoReturnSnapshot
+final
 {
 PersistentBufferProvider
 *

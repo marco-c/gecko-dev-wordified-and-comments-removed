@@ -61,7 +61,6 @@ DrawTargetCaptureImpl
 aOwner
 )
 ;
-explicit
 SourceSurfaceCapture
 (
 DrawTargetCaptureImpl
@@ -73,7 +72,6 @@ float
 aOpacity
 )
 ;
-explicit
 SourceSurfaceCapture
 (
 DrawTargetCaptureImpl
@@ -84,6 +82,7 @@ SourceSurface
 aSurfToOptimize
 )
 ;
+virtual
 ~
 SourceSurfaceCapture
 (

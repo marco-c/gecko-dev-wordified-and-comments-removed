@@ -343,7 +343,6 @@ ClearCachedResources
 )
 {
 }
-virtual
 CompositableHost
 *
 GetCompositableHost
@@ -465,11 +464,11 @@ LayerManagerMLGPU
 aManager
 )
 ;
+virtual
 ~
 RefLayerMLGPU
 (
 )
-override
 ;
 HostLayer
 *
@@ -559,11 +558,11 @@ LayerManagerMLGPU
 aManager
 )
 ;
+virtual
 ~
 ColorLayerMLGPU
 (
 )
-override
 ;
 bool
 IsContentOpaque

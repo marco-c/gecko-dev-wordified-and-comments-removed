@@ -236,8 +236,9 @@ virtual
 gfxDrawable
 (
 )
-{
-}
+=
+default
+;
 const
 mozilla
 :
@@ -292,8 +293,9 @@ virtual
 gfxSurfaceDrawable
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 Draw
@@ -471,8 +473,9 @@ virtual
 gfxDrawingCallback
 (
 )
-{
-}
+=
+default
+;
 public
 :
 virtual
@@ -540,8 +543,9 @@ virtual
 gfxCallbackDrawable
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 Draw

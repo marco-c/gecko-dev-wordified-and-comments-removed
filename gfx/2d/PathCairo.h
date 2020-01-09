@@ -52,7 +52,6 @@ FillRule
 aFillRule
 )
 ;
-virtual
 void
 MoveTo
 (
@@ -63,7 +62,6 @@ aPoint
 )
 override
 ;
-virtual
 void
 LineTo
 (
@@ -74,7 +72,6 @@ aPoint
 )
 override
 ;
-virtual
 void
 BezierTo
 (
@@ -93,7 +90,6 @@ aCP3
 )
 override
 ;
-virtual
 void
 QuadraticBezierTo
 (
@@ -108,14 +104,12 @@ aCP2
 )
 override
 ;
-virtual
 void
 Close
 (
 )
 override
 ;
-virtual
 void
 Arc
 (
@@ -136,7 +130,6 @@ false
 )
 override
 ;
-virtual
 Point
 CurrentPoint
 (
@@ -144,7 +137,6 @@ CurrentPoint
 const
 override
 ;
-virtual
 already_AddRefed
 <
 Path
@@ -154,7 +146,6 @@ Finish
 )
 override
 ;
-virtual
 BackendType
 GetBackendType
 (
@@ -235,12 +226,12 @@ cairo_t
 aContext
 )
 ;
+virtual
 ~
 PathCairo
 (
 )
 ;
-virtual
 BackendType
 GetBackendType
 (
@@ -255,7 +246,6 @@ BackendType
 CAIRO
 ;
 }
-virtual
 already_AddRefed
 <
 PathBuilder
@@ -268,7 +258,6 @@ aFillRule
 const
 override
 ;
-virtual
 already_AddRefed
 <
 PathBuilder
@@ -285,7 +274,6 @@ aFillRule
 const
 override
 ;
-virtual
 bool
 ContainsPoint
 (
@@ -301,7 +289,6 @@ aTransform
 const
 override
 ;
-virtual
 bool
 StrokeContainsPoint
 (
@@ -321,7 +308,6 @@ aTransform
 const
 override
 ;
-virtual
 Rect
 GetBounds
 (
@@ -337,7 +323,6 @@ Matrix
 const
 override
 ;
-virtual
 Rect
 GetStrokedBounds
 (
@@ -357,7 +342,6 @@ Matrix
 const
 override
 ;
-virtual
 void
 StreamToSink
 (
@@ -368,7 +352,6 @@ aSink
 const
 override
 ;
-virtual
 FillRule
 GetFillRule
 (

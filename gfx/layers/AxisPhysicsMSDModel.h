@@ -39,6 +39,7 @@ double
 aDampingRatio
 )
 ;
+virtual
 ~
 AxisPhysicsMSDModel
 (
@@ -66,7 +67,6 @@ aSmallestVisibleIncrement
 ;
 protected
 :
-virtual
 double
 Acceleration
 (

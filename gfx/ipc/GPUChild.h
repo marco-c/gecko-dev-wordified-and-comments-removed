@@ -96,6 +96,7 @@ GPUProcessHost
 aHost
 )
 ;
+virtual
 ~
 GPUChild
 (

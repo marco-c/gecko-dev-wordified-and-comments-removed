@@ -241,6 +241,7 @@ ptr
 ;
 class
 FTUserFontData
+final
 {
 public
 :
@@ -900,7 +901,6 @@ gfxFontStyle
 aFontStyle
 )
 ;
-virtual
 FontType
 GetType
 (
@@ -989,7 +989,6 @@ sPlatformFontList
 )
 ;
 }
-virtual
 nsresult
 InitFontListForPlatform
 (

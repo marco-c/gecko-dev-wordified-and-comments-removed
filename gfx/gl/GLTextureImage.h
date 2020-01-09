@@ -520,7 +520,6 @@ TextureImage
 NoFlags
 )
 ;
-virtual
 void
 BindTexture
 (
@@ -529,7 +528,6 @@ aTextureUnit
 )
 override
 ;
-virtual
 bool
 DirectUpdate
 (
@@ -562,7 +560,6 @@ IntPoint
 )
 override
 ;
-virtual
 GLuint
 GetTextureID
 (
@@ -573,7 +570,6 @@ return
 mTexture
 ;
 }
-virtual
 void
 MarkValid
 (
@@ -585,7 +581,6 @@ mTextureState
 Valid
 ;
 }
-virtual
 void
 Resize
 (
@@ -663,6 +658,7 @@ SurfaceFormat
 UNKNOWN
 )
 ;
+virtual
 ~
 TiledTextureImage
 (
@@ -673,7 +669,6 @@ DumpDiv
 (
 )
 ;
-virtual
 void
 Resize
 (
@@ -687,28 +682,24 @@ aSize
 )
 override
 ;
-virtual
 uint32_t
 GetTileCount
 (
 )
 override
 ;
-virtual
 void
 BeginBigImageIteration
 (
 )
 override
 ;
-virtual
 bool
 NextTile
 (
 )
 override
 ;
-virtual
 void
 SetIterationCallback
 (
@@ -720,7 +711,6 @@ aCallbackData
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -730,7 +720,6 @@ GetTileRect
 )
 override
 ;
-virtual
 GLuint
 GetTextureID
 (
@@ -749,7 +738,6 @@ GetTextureID
 )
 ;
 }
-virtual
 bool
 DirectUpdate
 (
@@ -782,7 +770,6 @@ IntPoint
 )
 override
 ;
-virtual
 void
 BindTexture
 (
@@ -792,7 +779,6 @@ override
 ;
 protected
 :
-virtual
 gfx
 :
 :

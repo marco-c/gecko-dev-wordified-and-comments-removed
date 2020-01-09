@@ -231,6 +231,7 @@ PosixCondVar
 endif
 struct
 CriticalSectionAutoEnter
+final
 {
 explicit
 CriticalSectionAutoEnter

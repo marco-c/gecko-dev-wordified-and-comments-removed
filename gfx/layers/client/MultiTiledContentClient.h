@@ -169,7 +169,6 @@ None
 )
 override
 ;
-virtual
 bool
 SupportsProgressiveUpdate
 (

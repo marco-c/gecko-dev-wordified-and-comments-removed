@@ -77,6 +77,7 @@ DrawTarget
 }
 class
 gfxAlphaBoxBlur
+final
 {
 typedef
 mozilla
@@ -113,6 +114,8 @@ public
 gfxAlphaBoxBlur
 (
 )
+=
+default
 ;
 ~
 gfxAlphaBoxBlur
@@ -490,6 +493,8 @@ mDrawTarget
 uint8_t
 *
 mData
+=
+nullptr
 ;
 mozilla
 :
@@ -502,6 +507,8 @@ mBlur
 ;
 bool
 mAccelerated
+=
+false
 ;
 }
 ;

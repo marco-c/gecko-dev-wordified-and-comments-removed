@@ -46,6 +46,7 @@ MLGDevice
 ;
 class
 BufferCache
+final
 {
 public
 :

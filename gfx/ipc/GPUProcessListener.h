@@ -20,8 +20,9 @@ virtual
 GPUProcessListener
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 OnCompositorUnexpectedShutdown

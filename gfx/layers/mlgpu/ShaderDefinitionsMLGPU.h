@@ -416,7 +416,6 @@ rects
 struct
 SimpleTraits
 {
-explicit
 SimpleTraits
 (
 const

@@ -299,11 +299,11 @@ CompositorManagerParent
 (
 )
 ;
+virtual
 ~
 CompositorManagerParent
 (
 )
-override
 ;
 void
 Bind

@@ -164,7 +164,6 @@ eTimedOutAndMainThreadResponded
 eConfirmed
 }
 ;
-explicit
 InputBlockState
 (
 const

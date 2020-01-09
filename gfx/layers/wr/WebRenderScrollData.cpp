@@ -819,15 +819,6 @@ mPaintSequenceNumber
 )
 {
 }
-WebRenderScrollData
-:
-:
-~
-WebRenderScrollData
-(
-)
-{
-}
 WebRenderLayerManager
 *
 WebRenderScrollData

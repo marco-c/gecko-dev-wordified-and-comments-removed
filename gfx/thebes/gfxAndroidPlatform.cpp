@@ -1691,8 +1691,9 @@ virtual
 AndroidVsyncSource
 (
 )
-{
-}
+=
+default
+;
 static
 Display
 &

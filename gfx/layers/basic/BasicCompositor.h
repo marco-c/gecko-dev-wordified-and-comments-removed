@@ -112,7 +112,6 @@ Size
 )
 {
 }
-virtual
 const
 char
 *
@@ -128,7 +127,6 @@ BasicCompositingRenderTarget
 "
 ;
 }
-virtual
 gfx
 :
 :
@@ -148,7 +146,6 @@ BindRenderTarget
 (
 )
 ;
-virtual
 gfx
 :
 :
@@ -209,7 +206,6 @@ Compositor
 {
 public
 :
-explicit
 BasicCompositor
 (
 CompositorBridgeParent
@@ -233,7 +229,6 @@ BasicCompositor
 ;
 public
 :
-virtual
 BasicCompositor
 *
 AsBasicCompositor
@@ -245,7 +240,6 @@ return
 this
 ;
 }
-virtual
 bool
 Initialize
 (
@@ -256,21 +250,18 @@ out_failureReason
 )
 override
 ;
-virtual
 void
 DetachWidget
 (
 )
 override
 ;
-virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -289,7 +280,6 @@ aInit
 )
 override
 ;
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -336,7 +326,6 @@ BufferMode
 aBufferMode
 )
 ;
-virtual
 already_AddRefed
 <
 DataTextureSource
@@ -353,7 +342,6 @@ NO_FLAGS
 )
 override
 ;
-virtual
 already_AddRefed
 <
 DataTextureSource
@@ -369,7 +357,6 @@ aSurface
 )
 override
 ;
-virtual
 already_AddRefed
 <
 DataTextureSource
@@ -382,7 +369,6 @@ aTexture
 )
 override
 ;
-virtual
 bool
 SupportsEffect
 (
@@ -398,7 +384,6 @@ SupportsLayerGeometry
 const
 override
 ;
-virtual
 bool
 ReadbackRenderTarget
 (
@@ -411,7 +396,6 @@ aDest
 )
 override
 ;
-virtual
 already_AddRefed
 <
 AsyncReadbackBuffer
@@ -428,7 +412,6 @@ aSize
 )
 override
 ;
-virtual
 bool
 BlitRenderTarget
 (
@@ -452,7 +435,6 @@ aDestSize
 )
 override
 ;
-virtual
 void
 SetRenderTarget
 (
@@ -481,7 +463,6 @@ BindRenderTarget
 )
 ;
 }
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -499,7 +480,6 @@ mFullWindowRenderTarget
 )
 ;
 }
-virtual
 already_AddRefed
 <
 CompositingRenderTarget
@@ -517,7 +497,6 @@ mRenderTarget
 )
 ;
 }
-virtual
 void
 DrawQuad
 (
@@ -561,7 +540,6 @@ aVisibleRect
 )
 override
 ;
-virtual
 void
 ClearRect
 (
@@ -575,7 +553,6 @@ aRect
 )
 override
 ;
-virtual
 void
 BeginFrame
 (
@@ -620,14 +597,12 @@ nullptr
 )
 override
 ;
-virtual
 void
 EndFrame
 (
 )
 override
 ;
-virtual
 bool
 SupportsPartialTextureUpdate
 (
@@ -638,7 +613,6 @@ return
 true
 ;
 }
-virtual
 bool
 CanUseCanvasLayerForSize
 (
@@ -656,7 +630,6 @@ return
 true
 ;
 }
-virtual
 int32_t
 GetMaxTextureSize
 (
@@ -664,7 +637,6 @@ GetMaxTextureSize
 const
 override
 ;
-virtual
 void
 SetDestinationSurfaceSize
 (
@@ -679,7 +651,6 @@ aSize
 override
 {
 }
-virtual
 void
 SetScreenRenderOffset
 (
@@ -691,7 +662,6 @@ aOffset
 override
 {
 }
-virtual
 void
 MakeCurrent
 (
@@ -706,7 +676,6 @@ override
 #
 ifdef
 MOZ_DUMP_PAINTING
-virtual
 const
 char
 *
@@ -724,7 +693,6 @@ Basic
 }
 #
 endif
-virtual
 LayersBackend
 GetBackendType
 (
@@ -752,7 +720,6 @@ return
 mDrawTarget
 ;
 }
-virtual
 bool
 IsPendingComposite
 (
@@ -763,7 +730,6 @@ return
 mIsPendingEndRemoteDrawing
 ;
 }
-virtual
 void
 FinishPendingComposite
 (
@@ -826,7 +792,6 @@ bool
 aEnableAA
 )
 ;
-virtual
 void
 DrawPolygon
 (

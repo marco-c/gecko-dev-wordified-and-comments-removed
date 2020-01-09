@@ -235,7 +235,6 @@ Derived
 {
 public
 :
-virtual
 ReferencePtr
 GetDestinedDT
 (
@@ -304,7 +303,6 @@ aStream
 )
 const
 ;
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -381,7 +379,6 @@ aExistingData
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -420,7 +417,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -438,7 +434,6 @@ Creation
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -527,7 +522,6 @@ NONE
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -552,7 +546,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -566,7 +559,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -584,7 +576,6 @@ Destruction
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -664,7 +655,6 @@ aFormat
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -703,7 +693,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -720,7 +709,6 @@ CreateSimilarDrawTarget
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -811,7 +799,6 @@ aFormat
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -850,7 +837,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -867,7 +853,6 @@ CreateClippedDrawTarget
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -987,7 +972,6 @@ aDestPoint
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -1026,7 +1010,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -1043,7 +1026,6 @@ CreateSimilarDrawTargetForFilter
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -1151,7 +1133,6 @@ aPattern
 )
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -1176,7 +1157,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -1190,7 +1170,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -1299,7 +1278,6 @@ aPattern
 )
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -1324,7 +1302,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -1338,7 +1315,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -1458,7 +1434,6 @@ aPattern
 )
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -1483,7 +1458,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -1497,7 +1471,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -1602,7 +1575,6 @@ aPattern
 )
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -1627,7 +1599,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -1641,7 +1612,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -1776,7 +1746,6 @@ RecordedFillGlyphs
 (
 )
 ;
-virtual
 bool
 PlayEvent
 (
@@ -1801,7 +1770,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -1815,7 +1783,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -1928,7 +1895,6 @@ aMask
 )
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -1953,7 +1919,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -1967,7 +1932,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -2074,7 +2038,6 @@ aPattern
 )
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -2113,7 +2076,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -2196,7 +2158,6 @@ aRect
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -2221,7 +2182,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -2235,7 +2195,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -2323,7 +2282,6 @@ aDest
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -2348,7 +2306,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -2362,7 +2319,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -2440,7 +2396,6 @@ aPath
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -2465,7 +2420,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -2479,7 +2433,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -2553,7 +2506,6 @@ aRect
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -2578,7 +2530,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -2592,7 +2543,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -2659,7 +2609,6 @@ aDT
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -2684,7 +2633,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -2698,7 +2646,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -2802,7 +2749,6 @@ aCopyBackground
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -2827,7 +2773,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -2841,7 +2786,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -2969,7 +2913,6 @@ aCompositionOp
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -3008,7 +2951,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -3093,7 +3035,6 @@ aDT
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -3118,7 +3059,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -3132,7 +3072,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -3203,7 +3142,6 @@ aTransform
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -3228,7 +3166,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -3242,7 +3179,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -3346,7 +3282,6 @@ aOptions
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -3371,7 +3306,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -3385,7 +3319,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -3493,7 +3426,6 @@ aOptions
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -3518,7 +3450,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -3532,7 +3463,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -3649,7 +3579,6 @@ aOp
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -3674,7 +3603,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -3688,7 +3616,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -3799,7 +3726,6 @@ aOptions
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -3824,7 +3750,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -3838,7 +3763,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -3912,7 +3836,6 @@ RecordedPathCreation
 (
 )
 ;
-virtual
 bool
 PlayEvent
 (
@@ -3937,7 +3860,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -3951,7 +3873,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -3969,7 +3890,6 @@ Creation
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -4046,7 +3966,6 @@ aPath
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -4071,7 +3990,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -4085,7 +4003,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -4103,7 +4020,6 @@ Destruction
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -4202,7 +4118,6 @@ RecordedSourceSurfaceCreation
 (
 )
 ;
-virtual
 bool
 PlayEvent
 (
@@ -4227,7 +4142,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -4241,7 +4155,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -4259,7 +4172,6 @@ Creation
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -4339,7 +4251,6 @@ aRefPtr
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -4364,7 +4275,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -4378,7 +4288,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -4396,7 +4305,6 @@ Destruction
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -4602,7 +4510,6 @@ RecordedFilterNodeCreation
 (
 )
 ;
-virtual
 bool
 PlayEvent
 (
@@ -4627,7 +4534,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -4641,7 +4547,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -4659,7 +4564,6 @@ Creation
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -4726,7 +4630,6 @@ aRefPtr
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -4751,7 +4654,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -4765,7 +4667,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -4783,7 +4684,6 @@ Destruction
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -4874,7 +4774,6 @@ RecordedGradientStopsCreation
 (
 )
 ;
-virtual
 bool
 PlayEvent
 (
@@ -4899,7 +4798,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -4913,7 +4811,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -4931,7 +4828,6 @@ Creation
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -5008,7 +4904,6 @@ aRefPtr
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -5033,7 +4928,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -5047,7 +4941,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -5065,7 +4958,6 @@ Destruction
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -5135,7 +5027,6 @@ aDT
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -5160,7 +5051,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -5174,7 +5064,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -5191,7 +5080,6 @@ Snapshot
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -5276,7 +5164,6 @@ aOpacity
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -5301,7 +5188,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -5315,7 +5201,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -5332,7 +5217,6 @@ IntoLuminanceSource
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -5473,6 +5357,7 @@ this
 mData
 ;
 }
+virtual
 ~
 RecordedFontData
 (
@@ -5488,7 +5373,6 @@ return
 mGetFontFileDataSucceeded
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -5513,7 +5397,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -5527,7 +5410,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -5545,7 +5427,6 @@ Data
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -5706,6 +5587,7 @@ this
 )
 ;
 }
+virtual
 ~
 RecordedFontDescriptor
 (
@@ -5721,7 +5603,6 @@ return
 mHasDesc
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -5746,7 +5627,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -5760,7 +5640,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -5778,7 +5657,6 @@ Desc
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -5933,7 +5811,6 @@ this
 )
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -5958,7 +5835,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -5972,7 +5848,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -5990,7 +5865,6 @@ Creation
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -6080,7 +5954,6 @@ aRefPtr
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -6105,7 +5978,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -6119,7 +5991,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -6137,7 +6008,6 @@ Destruction
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -6271,7 +6141,6 @@ this
 )
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -6296,7 +6165,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -6310,7 +6178,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -6328,7 +6195,6 @@ Creation
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -6433,7 +6299,6 @@ aRefPtr
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -6458,7 +6323,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -6472,7 +6336,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -6490,7 +6353,6 @@ Destruction
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -6586,7 +6448,6 @@ aPattern
 )
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -6611,7 +6472,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -6625,7 +6485,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -6829,7 +6688,6 @@ aSize
 )
 ;
 }
-virtual
 bool
 PlayEvent
 (
@@ -6854,7 +6712,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -6868,7 +6725,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -6885,7 +6741,6 @@ SetAttribute
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (
@@ -7015,7 +6870,6 @@ aInputSurface
 )
 {
 }
-virtual
 bool
 PlayEvent
 (
@@ -7040,7 +6894,6 @@ aStream
 )
 const
 ;
-virtual
 void
 OutputSimpleEventInfo
 (
@@ -7054,7 +6907,6 @@ aStringStream
 const
 override
 ;
-virtual
 std
 :
 :
@@ -7071,7 +6923,6 @@ SetInput
 "
 ;
 }
-virtual
 ReferencePtr
 GetObjectRef
 (

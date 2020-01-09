@@ -274,7 +274,6 @@ SizedToVisibleBounds
 ContainsVisibleBounds
 }
 ;
-explicit
 ContentClient
 (
 CompositableForwarder
@@ -291,13 +290,6 @@ aForwarder
 mBufferSizePolicy
 (
 aBufferSizePolicy
-)
-{
-}
-virtual
-~
-ContentClient
-(
 )
 {
 }
@@ -653,7 +645,6 @@ Matrix
 aMaskTransform
 )
 ;
-virtual
 TextureInfo
 GetTextureInfo
 (
@@ -681,7 +672,6 @@ ContentClient
 }
 protected
 :
-virtual
 RefPtr
 <
 RotatedBuffer
@@ -739,7 +729,6 @@ false
 )
 {
 }
-virtual
 void
 Dump
 (
@@ -770,7 +759,6 @@ Compress
 )
 override
 ;
-virtual
 void
 EndPaint
 (
@@ -791,7 +779,6 @@ nullptr
 )
 override
 ;
-virtual
 void
 Updated
 (
@@ -805,7 +792,6 @@ nsIntRegion
 aVisibleRegion
 )
 ;
-virtual
 TextureFlags
 ExtraTextureFlags
 (
@@ -846,7 +832,6 @@ nsIntRegion
 aVisibleRegion
 )
 ;
-virtual
 RefPtr
 <
 RotatedBuffer
@@ -942,14 +927,6 @@ false
 )
 {
 }
-virtual
-~
-ContentClientDoubleBuffered
-(
-)
-{
-}
-virtual
 void
 Dump
 (
@@ -980,14 +957,12 @@ Compress
 )
 override
 ;
-virtual
 void
 Clear
 (
 )
 override
 ;
-virtual
 void
 SwapBuffers
 (
@@ -998,7 +973,6 @@ aFrontUpdatedRegion
 )
 override
 ;
-virtual
 PaintState
 BeginPaint
 (
@@ -1010,7 +984,6 @@ aFlags
 )
 override
 ;
-virtual
 void
 FinalizeFrame
 (
@@ -1020,7 +993,6 @@ aPaintState
 )
 override
 ;
-virtual
 RefPtr
 <
 RotatedBuffer
@@ -1035,7 +1007,6 @@ return
 mFrontBuffer
 ;
 }
-virtual
 TextureInfo
 GetTextureInfo
 (
@@ -1097,14 +1068,6 @@ aFwd
 )
 {
 }
-virtual
-~
-ContentClientSingleBuffered
-(
-)
-{
-}
-virtual
 TextureInfo
 GetTextureInfo
 (

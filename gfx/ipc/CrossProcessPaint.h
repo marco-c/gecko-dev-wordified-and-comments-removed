@@ -108,6 +108,7 @@ CrossProcessPaint
 ;
 class
 PaintFragment
+final
 {
 public
 :
@@ -216,6 +217,7 @@ mDependencies
 ;
 class
 CrossProcessPaint
+final
 {
 NS_INLINE_DECL_REFCOUNTING
 (

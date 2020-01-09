@@ -288,6 +288,7 @@ public
 class
 MOZ_STACK_CLASS
 AutoReadUnlockTextures
+final
 {
 public
 :

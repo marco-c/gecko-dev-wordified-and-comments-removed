@@ -36,7 +36,6 @@ AutoDirWheelDeltaAdjuster
 {
 public
 :
-explicit
 APZAutoDirWheelDeltaAdjuster
 (
 double

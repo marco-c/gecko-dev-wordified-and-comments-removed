@@ -1217,6 +1217,7 @@ texClient
 ;
 class
 ScopedReadbackFB
+final
 {
 GLContext
 *

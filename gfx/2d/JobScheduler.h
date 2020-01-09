@@ -372,6 +372,7 @@ aPinToWorker
 nullptr
 )
 ;
+virtual
 ~
 SetEventJob
 (
@@ -431,6 +432,7 @@ aNumPrerequisites
 1
 )
 ;
+virtual
 ~
 SyncObject
 (
@@ -547,8 +549,9 @@ virtual
 WorkerThread
 (
 )
-{
-}
+=
+default
+;
 void
 Run
 (

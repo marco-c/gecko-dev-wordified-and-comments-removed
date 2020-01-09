@@ -70,6 +70,7 @@ uint32_t
 aDataLength
 )
 ;
+virtual
 ~
 NativeFontResourceGDI
 (

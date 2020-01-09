@@ -1241,7 +1241,6 @@ FakeLock
 )
 ;
 }
-virtual
 void
 NotifyExpiredLocked
 (
@@ -1924,8 +1923,9 @@ virtual
 gfxFontShaper
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 ShapeText
@@ -2073,8 +2073,9 @@ virtual
 gfxShapedText
 (
 )
-{
-}
+=
+default
+;
 class
 CompressedGlyph
 {
@@ -4447,7 +4448,6 @@ p
 )
 ;
 }
-virtual
 const
 CompressedGlyph
 *
@@ -4465,7 +4465,6 @@ mCharGlyphsStorage
 ]
 ;
 }
-virtual
 CompressedGlyph
 *
 GetCharacterGlyphs

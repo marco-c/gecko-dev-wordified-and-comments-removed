@@ -306,6 +306,7 @@ layers
 ;
 class
 BSPTree
+final
 {
 public
 :

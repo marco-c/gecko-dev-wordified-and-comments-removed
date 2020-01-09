@@ -155,7 +155,6 @@ gfxSVGGlyphsDocument
 (
 )
 ;
-virtual
 void
 DidRefresh
 (

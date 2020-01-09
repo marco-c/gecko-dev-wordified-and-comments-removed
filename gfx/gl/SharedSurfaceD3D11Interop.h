@@ -183,9 +183,7 @@ virtual
 SharedSurface_D3D11Interop
 (
 )
-override
 ;
-virtual
 void
 LockProdImpl
 (
@@ -193,7 +191,6 @@ LockProdImpl
 override
 {
 }
-virtual
 void
 UnlockProdImpl
 (
@@ -201,21 +198,18 @@ UnlockProdImpl
 override
 {
 }
-virtual
 void
 ProducerAcquireImpl
 (
 )
 override
 ;
-virtual
 void
 ProducerReleaseImpl
 (
 )
 override
 ;
-virtual
 GLuint
 ProdRenderbuffer
 (
@@ -232,7 +226,6 @@ return
 mInteropRB
 ;
 }
-virtual
 GLuint
 ProdTexture
 (
@@ -248,7 +241,6 @@ return
 mProdTex
 ;
 }
-virtual
 bool
 ToSurfaceDescriptor
 (
@@ -344,11 +336,9 @@ virtual
 SurfaceFactory_D3D11Interop
 (
 )
-override
 ;
 protected
 :
-virtual
 UniquePtr
 <
 SharedSurface

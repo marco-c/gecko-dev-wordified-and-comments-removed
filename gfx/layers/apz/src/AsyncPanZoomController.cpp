@@ -1003,6 +1003,7 @@ Now
 class
 MOZ_STACK_CLASS
 StateChangeNotificationBlocker
+final
 {
 public
 :
@@ -1106,6 +1107,7 @@ mInitialState
 class
 MOZ_RAII
 AutoApplyAsyncTestAttributes
+final
 {
 public
 :

@@ -67,7 +67,6 @@ TextureData
 {
 public
 :
-virtual
 bool
 Lock
 (
@@ -79,7 +78,6 @@ return
 true
 ;
 }
-virtual
 void
 Unlock
 (
@@ -87,7 +85,6 @@ Unlock
 override
 {
 }
-virtual
 void
 FillInfo
 (
@@ -101,7 +98,6 @@ aInfo
 const
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -234,14 +230,12 @@ false
 )
 {
 }
-virtual
 void
 DeallocateDeviceData
 (
 )
 override
 ;
-virtual
 void
 SetTextureSourceProvider
 (
@@ -251,7 +245,6 @@ aProvider
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -266,7 +259,6 @@ return
 mFormat
 ;
 }
-virtual
 gfx
 :
 :
@@ -281,21 +273,18 @@ return
 mSize
 ;
 }
-virtual
 bool
 Lock
 (
 )
 override
 ;
-virtual
 void
 Unlock
 (
 )
 override
 ;
-virtual
 bool
 HasIntermediateBuffer
 (
@@ -306,7 +295,6 @@ return
 true
 ;
 }
-virtual
 bool
 BindTextureSource
 (
@@ -316,7 +304,6 @@ aTexture
 )
 override
 ;
-virtual
 bool
 AcquireTextureSource
 (
@@ -375,7 +362,6 @@ SurfaceDescriptorDIB
 aDescriptor
 )
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -394,7 +380,6 @@ nullptr
 }
 protected
 :
-virtual
 void
 UpdatedInternal
 (
@@ -438,7 +423,6 @@ TextureHostFileMapping
 (
 )
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -468,7 +452,6 @@ implemented
 }
 protected
 :
-virtual
 void
 UpdatedInternal
 (

@@ -232,7 +232,6 @@ ImageLayer
 "
 TYPE_IMAGE
 )
-virtual
 void
 ComputeEffectiveTransforms
 (
@@ -246,7 +245,6 @@ aTransformToSurface
 )
 override
 ;
-virtual
 const
 gfx
 :
@@ -263,7 +261,6 @@ return
 mEffectiveTransformForBuffer
 ;
 }
-virtual
 ImageLayer
 *
 AsImageLayer
@@ -287,12 +284,12 @@ void
 aImplData
 )
 ;
+virtual
 ~
 ImageLayer
 (
 )
 ;
-virtual
 void
 PrintInfo
 (
@@ -309,7 +306,6 @@ aPrefix
 )
 override
 ;
-virtual
 void
 DumpPacket
 (

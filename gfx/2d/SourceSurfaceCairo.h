@@ -59,7 +59,6 @@ SourceSurfaceCairo
 (
 )
 ;
-virtual
 SurfaceType
 GetType
 (
@@ -74,7 +73,6 @@ SurfaceType
 CAIRO
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -82,7 +80,6 @@ GetSize
 const
 override
 ;
-virtual
 SurfaceFormat
 GetFormat
 (
@@ -90,7 +87,6 @@ GetFormat
 const
 override
 ;
-virtual
 already_AddRefed
 <
 DataSourceSurface
@@ -163,7 +159,6 @@ DataSourceSurfaceCairo
 (
 )
 ;
-virtual
 unsigned
 char
 *
@@ -172,14 +167,12 @@ GetData
 )
 override
 ;
-virtual
 int32_t
 Stride
 (
 )
 override
 ;
-virtual
 SurfaceType
 GetType
 (
@@ -194,7 +187,6 @@ SurfaceType
 CAIRO_IMAGE
 ;
 }
-virtual
 IntSize
 GetSize
 (
@@ -202,7 +194,6 @@ GetSize
 const
 override
 ;
-virtual
 SurfaceFormat
 GetFormat
 (

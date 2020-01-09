@@ -990,11 +990,11 @@ MemoryReport
 }
 protected
 :
+virtual
 ~
 CompositorBridgeParentBase
 (
 )
-override
 ;
 virtual
 PAPZParent
@@ -2084,14 +2084,12 @@ RecvEndRecording
 )
 override
 ;
-virtual
 void
 NotifyMemoryPressure
 (
 )
 override
 ;
-virtual
 void
 AccumulateMemoryReport
 (

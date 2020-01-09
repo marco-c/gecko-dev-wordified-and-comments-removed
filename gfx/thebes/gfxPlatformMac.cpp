@@ -1812,11 +1812,11 @@ NS_NewTimer
 )
 ;
 }
+virtual
 ~
 OSXDisplay
 (
 )
-override
 {
 MOZ_ASSERT
 (
@@ -2260,11 +2260,11 @@ mVsyncRate
 ;
 private
 :
+virtual
 ~
 OSXVsyncSource
 (
 )
-override
 =
 default
 ;

@@ -225,7 +225,6 @@ BasicReadbackLayer
 }
 public
 :
-virtual
 void
 SetVisibleRegion
 (

@@ -155,7 +155,6 @@ RenderRootStateManager
 ;
 class
 SharedSurfacesChild
-final
 {
 public
 :
@@ -345,6 +344,7 @@ ImageKey
 aImageKey
 )
 ;
+virtual
 ~
 ImageKeyData
 (
@@ -755,6 +755,7 @@ ImageKey
 aImageKey
 )
 ;
+virtual
 ~
 AnimationImageKeyData
 (
@@ -810,8 +811,9 @@ SharedSurfacesAnimation
 SharedSurfacesAnimation
 (
 )
-{
-}
+=
+default
+;
 void
 Destroy
 (

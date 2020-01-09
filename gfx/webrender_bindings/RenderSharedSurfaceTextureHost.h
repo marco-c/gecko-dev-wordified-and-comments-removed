@@ -74,11 +74,11 @@ override
 ;
 private
 :
+virtual
 ~
 RenderSharedSurfaceTextureHost
 (
 )
-override
 ;
 RefPtr
 <

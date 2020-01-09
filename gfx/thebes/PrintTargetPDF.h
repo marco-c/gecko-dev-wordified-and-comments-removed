@@ -56,14 +56,12 @@ IntSize
 aSizeInPoints
 )
 ;
-virtual
 nsresult
 EndPage
 (
 )
 override
 ;
-virtual
 void
 Finish
 (

@@ -118,7 +118,6 @@ retValue
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfxASurface
@@ -134,7 +133,6 @@ aFormat
 )
 override
 ;
-virtual
 nsresult
 GetFontList
 (
@@ -154,14 +152,12 @@ aListOfFonts
 )
 override
 ;
-virtual
 nsresult
 UpdateFontList
 (
 )
 override
 ;
-virtual
 void
 GetCommonFallbackFonts
 (
@@ -182,7 +178,6 @@ aFontList
 )
 override
 ;
-virtual
 gfxPlatformFontList
 *
 CreatePlatformFontList
@@ -216,7 +211,6 @@ aDevToCssSize
 )
 override
 ;
-virtual
 void
 FlushContentDrawing
 (
@@ -244,7 +238,6 @@ GetFontScaleFactor
 #
 ifdef
 MOZ_X11
-virtual
 void
 GetAzureBackendInfo
 (
@@ -297,7 +290,6 @@ UseImageOffscreenSurfaces
 (
 )
 ;
-virtual
 gfxImageFormat
 GetOffscreenFormat
 (
@@ -441,7 +433,6 @@ mMaxGenericSubstitutions
 ;
 private
 :
-virtual
 void
 GetPlatformCMSOutputProfile
 (

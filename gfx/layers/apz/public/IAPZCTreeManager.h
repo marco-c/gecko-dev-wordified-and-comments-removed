@@ -344,8 +344,9 @@ virtual
 IAPZCTreeManager
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
