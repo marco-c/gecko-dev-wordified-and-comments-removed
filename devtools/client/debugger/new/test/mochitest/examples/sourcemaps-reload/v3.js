@@ -1,3 +1,7 @@
+window
+.
+bar
+=
 function
 bar
 (

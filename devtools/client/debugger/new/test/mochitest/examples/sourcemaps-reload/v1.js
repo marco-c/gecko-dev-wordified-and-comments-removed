@@ -1,3 +1,7 @@
+window
+.
+bar
+=
 function
 bar
 (
@@ -17,6 +21,10 @@ resolve
 )
 )
 }
+window
+.
+foo
+=
 async
 function
 foo
