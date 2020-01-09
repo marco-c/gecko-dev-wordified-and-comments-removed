@@ -130,8 +130,11 @@ gBadSizeResult
 ;
 }
 let
-updateParams
+params
 =
+{
+queryString
+:
 "
 &
 invalidPartialSize
@@ -142,12 +145,12 @@ invalidCompleteSize
 =
 1
 "
+}
 ;
 await
 runAboutDialogUpdateTest
 (
-updateParams
-false
+params
 [
 {
 panelId
