@@ -117,7 +117,7 @@ gfx
 OpenVRControllerType
 from
 "
-gfxVR
+VRMessageUtils
 .
 h
 "
