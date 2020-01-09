@@ -644,8 +644,6 @@ build
 -
 signing
 /
-artifacts
-/
 {
 artifact_prefix
 }
@@ -658,8 +656,6 @@ reference
 :
 <
 build
-/
-artifacts
 /
 {
 artifact_prefix
@@ -685,8 +681,6 @@ reference
 <
 repackage
 /
-artifacts
-/
 {
 artifact_prefix
 }
@@ -699,8 +693,6 @@ reference
 :
 <
 build
-/
-artifacts
 /
 {
 artifact_prefix
@@ -730,8 +722,6 @@ build
 -
 signing
 /
-artifacts
-/
 {
 artifact_prefix
 }
@@ -747,8 +737,6 @@ repackage
 -
 signing
 /
-artifacts
-/
 {
 artifact_prefix
 }
@@ -761,8 +749,6 @@ reference
 :
 <
 build
-/
-artifacts
 /
 {
 artifact_prefix
@@ -791,8 +777,6 @@ reference
 :
 <
 build
-/
-artifacts
 /
 {
 artifact_prefix
