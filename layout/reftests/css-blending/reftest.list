@@ -1538,6 +1538,17 @@ html
 #
 Test
 10
+test
+-
+pref
+(
+image
+.
+animation_mode
+"
+none
+"
+)
 =
 =
 background
