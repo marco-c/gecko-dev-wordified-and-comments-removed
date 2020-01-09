@@ -3896,6 +3896,14 @@ else
 {
 pbRow
 .
+nextElementSibling
+.
+remove
+(
+)
+;
+pbRow
+.
 remove
 (
 )
