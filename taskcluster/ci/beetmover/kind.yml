@@ -191,6 +191,16 @@ nightly
 /
 opt
 -
+win64
+-
+aarch64
+-
+devedition
+-
+nightly
+/
+opt
+-
 linux64
 -
 asan

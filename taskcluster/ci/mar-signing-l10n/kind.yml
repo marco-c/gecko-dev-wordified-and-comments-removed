@@ -192,6 +192,16 @@ aarch64
 nightly
 /
 opt
+-
+win64
+-
+aarch64
+-
+devedition
+-
+nightly
+/
+opt
 job
 -
 template
