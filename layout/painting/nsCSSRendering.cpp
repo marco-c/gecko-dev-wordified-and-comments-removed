@@ -977,6 +977,12 @@ mPIStartBorderData
 mFrame
 )
 {
+InlineBackgroundData
+temp
+=
+*
+this
+;
 if
 (
 mVertical
@@ -986,6 +992,8 @@ mPIStartBorderData
 .
 SetCoord
 (
+temp
+.
 GetContinuousRect
 (
 mPIStartBorderData
@@ -1003,6 +1011,8 @@ mPIStartBorderData
 .
 SetCoord
 (
+temp
+.
 GetContinuousRect
 (
 mPIStartBorderData
