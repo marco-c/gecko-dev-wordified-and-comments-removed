@@ -1394,15 +1394,6 @@ get
 \
 MACRO
 (
-getPropertyDescriptor
-getPropertyDescriptor
-"
-getPropertyDescriptor
-"
-)
-\
-MACRO
-(
 getPropertySuper
 getPropertySuper
 "
