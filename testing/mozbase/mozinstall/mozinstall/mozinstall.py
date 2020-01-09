@@ -1606,11 +1606,11 @@ None
 try
 :
         
-proc
+appDir
 =
 subprocess
 .
-Popen
+check_output
 (
 '
 hdiutil
@@ -1624,7 +1624,7 @@ noautoopen
 s
 "
 '
-                                
+                                         
 '
 |
 grep
@@ -1632,7 +1632,7 @@ grep
 Volumes
 /
 '
-                                
+                                         
 '
 |
 awk
@@ -1655,29 +1655,15 @@ print
 '
 '
 %
+str
+(
 src
-                                
+)
+                                         
 shell
 =
 True
-                                
-stdout
-=
-subprocess
-.
-PIPE
 )
-        
-appDir
-=
-proc
-.
-communicate
-(
-)
-[
-0
-]
 .
 strip
 (
@@ -1783,7 +1769,7 @@ appDir
             
 subprocess
 .
-call
+check_call
 (
 '
 hdiutil
@@ -1797,7 +1783,7 @@ quiet
 '
 %
 appDir
-                            
+                                  
 shell
 =
 True
@@ -1934,32 +1920,11 @@ dest
 )
 )
     
-result
-=
 subprocess
 .
-call
+check_call
 (
 cmd
-)
-    
-if
-result
-is
-not
-0
-:
-        
-raise
-Exception
-(
-'
-Execution
-of
-installer
-failed
-.
-'
 )
     
 return
