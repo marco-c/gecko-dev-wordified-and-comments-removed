@@ -1165,6 +1165,11 @@ Selection
 h
 '
 '
+ShadowIncludingTreeIterator
+.
+h
+'
+'
 ShadowRoot
 .
 h
