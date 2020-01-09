@@ -178,6 +178,8 @@ p7verify
 \
 pk12util
 \
+pk11importtest
+\
 pk11ectest
 \
 pk11gcmtest

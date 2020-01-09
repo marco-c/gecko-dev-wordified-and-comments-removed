@@ -782,6 +782,16 @@ CheckSrtp
 const
 ;
 void
+CheckEpochs
+(
+uint16_t
+expected_read
+uint16_t
+expected_write
+)
+const
+;
+void
 CheckErrorCode
 (
 int32_t

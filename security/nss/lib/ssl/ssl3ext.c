@@ -179,6 +179,11 @@ ssl_tls13_encrypted_sni_xtn
 tls13_ServerHandleEsniXtn
 }
 {
+ssl_tls13_post_handshake_auth_xtn
+&
+tls13_ServerHandlePostHandshakeAuthXtn
+}
+{
 ssl_record_size_limit_xtn
 &
 ssl_HandleRecordSizeLimitXtn
@@ -463,6 +468,11 @@ tls13_ClientSendPskModesXtn
 ssl_tls13_encrypted_sni_xtn
 &
 tls13_ClientSendEsniXtn
+}
+{
+ssl_tls13_post_handshake_auth_xtn
+&
+tls13_ClientSendPostHandshakeAuthXtn
 }
 {
 ssl_record_size_limit_xtn

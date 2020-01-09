@@ -239,6 +239,12 @@ DummyPrSocket
 )
 {
 }
+static
+PRDescIdentity
+LayerId
+(
+)
+;
 ScopedPRFileDesc
 CreateFD
 (

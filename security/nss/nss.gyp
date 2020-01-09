@@ -1343,6 +1343,17 @@ pk11mode
 '
 cmd
 /
+pk11importtest
+/
+pk11importtest
+.
+gyp
+:
+pk11importtest
+'
+'
+cmd
+/
 pk1sign
 /
 pk1sign

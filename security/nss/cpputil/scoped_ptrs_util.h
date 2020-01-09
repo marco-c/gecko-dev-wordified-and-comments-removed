@@ -167,6 +167,11 @@ SCOPED
 PK11URI
 )
 ;
+SCOPED
+(
+PLArenaPool
+)
+;
 #
 undef
 SCOPED
