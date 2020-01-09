@@ -59,11 +59,6 @@ nsDataObjCollection
 nsDataObjCollection
 (
 )
-:
-m_cRef
-(
-0
-)
 {
 }
 nsDataObjCollection
@@ -168,7 +163,7 @@ NOERROR
 }
 if
 (
-IID_IAsyncOperation
+IID_IDataObjectAsyncCapability
 =
 =
 riid
@@ -179,7 +174,7 @@ ppv
 =
 static_cast
 <
-IAsyncOperation
+IDataObjectAsyncCapability
 *
 >
 (

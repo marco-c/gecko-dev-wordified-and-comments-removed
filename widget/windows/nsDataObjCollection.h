@@ -88,10 +88,13 @@ nsDataObjCollection
 (
 )
 ;
+private
+:
 ~
 nsDataObjCollection
 (
 )
+final
 ;
 public
 :
@@ -102,6 +105,7 @@ ULONG
 AddRef
 (
 )
+final
 ;
 STDMETHODIMP
 QueryInterface
@@ -111,6 +115,7 @@ void
 *
 *
 )
+final
 ;
 STDMETHODIMP_
 (
@@ -119,10 +124,10 @@ ULONG
 Release
 (
 )
+final
 ;
-public
+private
 :
-virtual
 HRESULT
 GetFile
 (
@@ -132,7 +137,6 @@ LPSTGMEDIUM
 pSTM
 )
 ;
-virtual
 HRESULT
 GetText
 (
@@ -142,7 +146,6 @@ LPSTGMEDIUM
 pSTM
 )
 ;
-virtual
 HRESULT
 GetFileDescriptors
 (
@@ -152,7 +155,6 @@ LPSTGMEDIUM
 pSTM
 )
 ;
-virtual
 HRESULT
 GetFileContents
 (
@@ -162,7 +164,6 @@ LPSTGMEDIUM
 pSTM
 )
 ;
-virtual
 HRESULT
 GetFirstSupporting
 (
@@ -200,7 +201,10 @@ aDataFlavor
 LPFORMATETC
 aFE
 )
+final
 ;
+public
+:
 void
 AddDataObject
 (
@@ -245,12 +249,6 @@ nsDataObj
 )
 ;
 }
-CLSID
-GetClassID
-(
-)
-const
-;
 public
 :
 STDMETHODIMP
@@ -261,6 +259,7 @@ pFE
 LPSTGMEDIUM
 pSTM
 )
+final
 ;
 STDMETHODIMP
 GetDataHere
@@ -270,6 +269,7 @@ pFE
 LPSTGMEDIUM
 pSTM
 )
+final
 ;
 STDMETHODIMP
 QueryGetData
@@ -277,6 +277,7 @@ QueryGetData
 LPFORMATETC
 pFE
 )
+final
 ;
 STDMETHODIMP
 SetData
@@ -288,12 +289,10 @@ pSTM
 BOOL
 release
 )
+final
 ;
-protected
+private
 :
-ULONG
-m_cRef
-;
 nsTArray
 <
 RefPtr

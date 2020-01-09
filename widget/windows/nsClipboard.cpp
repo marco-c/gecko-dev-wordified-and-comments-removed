@@ -678,8 +678,12 @@ dataObj
 }
 else
 {
-delete
 dataObj
+-
+>
+Release
+(
+)
 ;
 }
 return

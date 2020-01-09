@@ -1440,7 +1440,7 @@ OpenDragPopup
 ;
 RefPtr
 <
-IAsyncOperation
+IDataObjectAsyncCapability
 >
 pAsyncOp
 ;
@@ -1453,7 +1453,7 @@ aDataObj
 >
 QueryInterface
 (
-IID_IAsyncOperation
+IID_IDataObjectAsyncCapability
 getter_AddRefs
 (
 pAsyncOp
