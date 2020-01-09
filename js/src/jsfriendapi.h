@@ -1521,6 +1521,13 @@ FILE
 fp
 DumpHeapNurseryBehaviour
 nurseryBehaviour
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+=
+nullptr
 )
 ;
 #
