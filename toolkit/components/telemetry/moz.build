@@ -702,6 +702,13 @@ jsm
 '
 pings
 /
+PrioPing
+.
+jsm
+'
+'
+pings
+/
 TelemetrySession
 .
 jsm
