@@ -1144,10 +1144,7 @@ background
 -
 position
 :
-50
-%
-50
-%
+center
 ;
 background
 -
@@ -1161,7 +1158,6 @@ background
 -
 size
 :
-12px
 12px
 ;
 -
@@ -1512,7 +1508,9 @@ skin
 /
 images
 /
-globe
+webconsole
+/
+navigation
 .
 svg
 )
