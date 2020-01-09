@@ -710,6 +710,16 @@ self
 list
 :
 :
+MozListReversed
+;
+pub
+use
+self
+:
+:
+list
+:
+:
 {
 QuotePair
 Quotes

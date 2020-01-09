@@ -411,7 +411,7 @@ mRootWindow
 "
 _NET_WORKAREA
 "
-False
+X11False
 )
 ;
 }

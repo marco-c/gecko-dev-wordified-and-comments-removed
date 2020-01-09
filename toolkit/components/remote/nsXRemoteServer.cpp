@@ -542,7 +542,7 @@ sizeof
 long
 )
 )
-True
+X11True
 XA_STRING
 &
 actual_type
@@ -701,7 +701,7 @@ ArrayLength
 (
 XAtomNames
 )
-False
+X11False
 XAtoms
 )
 ;

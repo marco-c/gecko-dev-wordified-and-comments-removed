@@ -4096,7 +4096,7 @@ XSync
 mWsInfo
 .
 display
-False
+X11False
 )
 ;
 }
@@ -14808,7 +14808,7 @@ exposeEvent
 .
 send_event
 =
-False
+X11False
 ;
 exposeEvent
 .
@@ -16857,7 +16857,7 @@ XSync
 mWsInfo
 .
 display
-False
+X11False
 )
 ;
 }

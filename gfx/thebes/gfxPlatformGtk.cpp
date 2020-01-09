@@ -1720,7 +1720,7 @@ root
 iccAtom
 0
 INT_MAX
-False
+X11False
 AnyPropertyType
 &
 retAtom
@@ -1838,7 +1838,7 @@ root
 edidAtom
 0
 32
-False
+X11False
 AnyPropertyType
 &
 retAtom

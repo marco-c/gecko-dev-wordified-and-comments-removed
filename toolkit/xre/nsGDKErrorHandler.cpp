@@ -485,7 +485,7 @@ gdk_display_get_default
 (
 )
 )
-True
+X11True
 )
 ;
 }

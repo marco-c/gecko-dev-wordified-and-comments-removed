@@ -2325,6 +2325,10 @@ MozForceBrokenImageIcon
 "
                 
 "
+MozListReversed
+"
+                
+"
 MozScriptLevel
 "
                 

@@ -724,13 +724,13 @@ cbWidget
 cbWidget
 ;
 return
-True
+X11True
 ;
 }
 }
 }
 return
-False
+X11False
 ;
 }
 bool

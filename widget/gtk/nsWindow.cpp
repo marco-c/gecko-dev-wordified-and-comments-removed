@@ -22215,7 +22215,7 @@ gdk_display_get_default
 (
 )
 )
-False
+X11False
 )
 ;
 }

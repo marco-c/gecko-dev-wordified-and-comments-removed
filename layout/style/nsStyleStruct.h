@@ -4501,6 +4501,12 @@ mQuotes
 nsRect
 mImageRegion
 ;
+mozilla
+:
+:
+StyleMozListReversed
+mMozListReversed
+;
 }
 ;
 struct
