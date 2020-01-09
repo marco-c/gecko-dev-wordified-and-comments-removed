@@ -100,11 +100,6 @@ Fluent
 jsm
 '
 '
-FluentSyntax
-.
-jsm
-'
-'
 L10nRegistry
 .
 jsm
