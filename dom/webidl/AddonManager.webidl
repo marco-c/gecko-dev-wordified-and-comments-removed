@@ -660,10 +660,9 @@ AddonManagerWebAPI
 h
 "
 ]
-interface
+namespace
 AddonManagerPermissions
 {
-static
 boolean
 isHostPermitted
 (
