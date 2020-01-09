@@ -207,6 +207,11 @@ aGivenProto
 )
 override
 ;
+void
+NotifyUserGestureActivationFromIPC
+(
+)
+;
 protected
 :
 void
