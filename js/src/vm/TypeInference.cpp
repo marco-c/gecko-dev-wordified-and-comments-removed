@@ -18919,10 +18919,10 @@ static_assert
 JSScript
 :
 :
-NumBytecodeTypeSetsBits
+MaxBytecodeTypeSets
 =
 =
-16
+UINT16_MAX
 "
 JSScript
 typesets
