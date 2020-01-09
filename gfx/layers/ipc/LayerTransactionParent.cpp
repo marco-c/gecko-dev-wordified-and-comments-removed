@@ -5256,13 +5256,9 @@ mVsyncStartTime
 mTxnStartTime
 aId
 aCompositeEnd
-TimeDuration
-:
-:
-FromMilliseconds
-(
-0
-)
+mTxnEndTime
+-
+mTxnStartTime
 mVsyncRate
 false
 false

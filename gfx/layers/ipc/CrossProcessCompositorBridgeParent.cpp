@@ -2174,6 +2174,7 @@ aInfo
 transactionStart
 (
 )
+endTime
 aInfo
 .
 url
