@@ -174,7 +174,7 @@ const
 override
 ;
 virtual
-SVGString
+SVGAnimatedString
 &
 GetResultImageName
 (
@@ -241,7 +241,7 @@ RESULT
 IN1
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 2

@@ -8,7 +8,7 @@ h
 #
 include
 "
-SVGOrient
+SVGAnimatedOrient
 .
 h
 "
@@ -85,7 +85,7 @@ CreatedValue
 mVal
 =
 new
-SVGOrient
+SVGAnimatedOrient
 (
 )
 ;

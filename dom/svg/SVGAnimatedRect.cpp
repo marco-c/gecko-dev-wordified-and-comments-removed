@@ -19,6 +19,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 SVGElement
 .
 h
@@ -26,7 +30,7 @@ h
 #
 include
 "
-SVGViewBox
+SVGAnimatedViewBox
 .
 h
 "
@@ -63,7 +67,7 @@ SVGAnimatedRect
 :
 SVGAnimatedRect
 (
-SVGViewBox
+SVGAnimatedViewBox
 *
 aVal
 SVGElement
@@ -89,7 +93,7 @@ SVGAnimatedRect
 (
 )
 {
-SVGViewBox
+SVGAnimatedViewBox
 :
 :
 sSVGAnimatedRectTearoffTable

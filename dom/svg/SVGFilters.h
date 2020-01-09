@@ -41,14 +41,14 @@ h
 #
 include
 "
-nsSVGLength2
+SVGAnimatedString
 .
 h
 "
 #
 include
 "
-SVGString
+nsSVGLength2
 .
 h
 "
@@ -62,7 +62,7 @@ h
 #
 include
 "
-SVGNumberPair
+SVGAnimatedNumberPair
 .
 h
 "
@@ -81,7 +81,7 @@ SVGStringInfo
 SVGStringInfo
 (
 const
-SVGString
+SVGAnimatedString
 *
 aString
 SVGElement
@@ -100,7 +100,7 @@ aElement
 {
 }
 const
-SVGString
+SVGAnimatedString
 *
 mString
 ;
@@ -383,7 +383,7 @@ eFILTER
 ;
 }
 virtual
-SVGString
+SVGAnimatedString
 &
 GetResultImageName
 (
@@ -617,7 +617,7 @@ GetKernelUnitLength
 nsSVGFilterInstance
 *
 aInstance
-SVGNumberPair
+SVGAnimatedNumberPair
 *
 aKernelUnitLength
 )
@@ -802,7 +802,7 @@ const
 override
 ;
 virtual
-SVGString
+SVGAnimatedString
 &
 GetResultImageName
 (
@@ -944,7 +944,7 @@ enum
 KERNEL_UNIT_LENGTH
 }
 ;
-SVGNumberPair
+SVGAnimatedNumberPair
 mNumberPairAttributes
 [
 1
@@ -963,7 +963,7 @@ RESULT
 IN1
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 2

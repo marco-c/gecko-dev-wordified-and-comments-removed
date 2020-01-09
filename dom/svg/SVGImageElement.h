@@ -21,7 +21,7 @@ h
 #
 include
 "
-SVGString
+SVGAnimatedString
 .
 h
 "
@@ -517,7 +517,7 @@ HREF
 XLINK_HREF
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 2

@@ -1,7 +1,7 @@
 #
 include
 "
-SVGClass
+SVGAnimatedClass
 .
 h
 "
@@ -68,7 +68,7 @@ DOMAnimatedString
 )
 DOMAnimatedString
 (
-SVGClass
+SVGAnimatedClass
 *
 aVal
 SVGElement
@@ -86,7 +86,7 @@ aVal
 )
 {
 }
-SVGClass
+SVGAnimatedClass
 *
 mVal
 ;
@@ -176,7 +176,7 @@ already_AddRefed
 <
 DOMSVGAnimatedString
 >
-SVGClass
+SVGAnimatedClass
 :
 :
 ToDOMAnimatedString
@@ -208,7 +208,7 @@ forget
 ;
 }
 void
-SVGClass
+SVGAnimatedClass
 :
 :
 SetBaseValue
@@ -278,7 +278,7 @@ AnimationNeedsResample
 }
 }
 void
-SVGClass
+SVGAnimatedClass
 :
 :
 GetBaseValue
@@ -308,7 +308,7 @@ aValue
 ;
 }
 void
-SVGClass
+SVGAnimatedClass
 :
 :
 GetAnimValue
@@ -351,7 +351,7 @@ aResult
 ;
 }
 void
-SVGClass
+SVGAnimatedClass
 :
 :
 SetAnimValue
@@ -448,7 +448,7 @@ UniquePtr
 <
 SMILAttr
 >
-SVGClass
+SVGAnimatedClass
 :
 :
 ToSMILAttr
@@ -470,7 +470,7 @@ aSVGElement
 ;
 }
 nsresult
-SVGClass
+SVGAnimatedClass
 :
 :
 SMILString
@@ -543,7 +543,7 @@ NS_OK
 ;
 }
 SMILValue
-SVGClass
+SVGAnimatedClass
 :
 :
 SMILString
@@ -595,7 +595,7 @@ val
 ;
 }
 void
-SVGClass
+SVGAnimatedClass
 :
 :
 SMILString
@@ -630,7 +630,7 @@ DidAnimateClass
 }
 }
 nsresult
-SVGClass
+SVGAnimatedClass
 :
 :
 SMILString

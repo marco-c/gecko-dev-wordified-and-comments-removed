@@ -70,10 +70,10 @@ class
 SVGAnimatedTransformList
 ;
 class
-SVGGeometryFrame
+SVGAnimatedViewBox
 ;
 class
-SVGViewBox
+SVGGeometryFrame
 ;
 }
 class
@@ -290,7 +290,7 @@ GetPatternTransform
 )
 ;
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 GetViewBox
 (
@@ -300,7 +300,7 @@ aDefault
 )
 ;
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 GetViewBox
 (
@@ -431,7 +431,7 @@ gfxMatrix
 ConstructCTM
 (
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 aViewBox
 uint16_t

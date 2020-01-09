@@ -98,7 +98,7 @@ mVal
 }
 ;
 class
-SVGEnum
+SVGAnimatedEnumeration
 {
 public
 :
@@ -292,7 +292,7 @@ DOMSVGAnimatedEnumeration
 {
 DOMAnimatedEnum
 (
-SVGEnum
+SVGAnimatedEnumeration
 *
 aVal
 SVGElement
@@ -322,7 +322,7 @@ DOMAnimatedEnum
 (
 )
 ;
-SVGEnum
+SVGAnimatedEnumeration
 *
 mVal
 ;
@@ -416,7 +416,7 @@ public
 :
 SMILEnum
 (
-SVGEnum
+SVGAnimatedEnumeration
 *
 aVal
 SVGElement
@@ -434,7 +434,7 @@ aSVGElement
 )
 {
 }
-SVGEnum
+SVGAnimatedEnumeration
 *
 mVal
 ;

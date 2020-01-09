@@ -70,7 +70,7 @@ SVGElement
 ;
 }
 class
-SVGBoolean
+SVGAnimatedBoolean
 {
 public
 :
@@ -228,7 +228,7 @@ public
 :
 SMILBool
 (
-SVGBoolean
+SVGAnimatedBoolean
 *
 aVal
 SVGElement
@@ -246,7 +246,7 @@ aSVGElement
 )
 {
 }
-SVGBoolean
+SVGAnimatedBoolean
 *
 mVal
 ;

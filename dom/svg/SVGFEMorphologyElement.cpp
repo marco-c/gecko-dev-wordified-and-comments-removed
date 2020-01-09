@@ -252,7 +252,7 @@ RADIUS
 .
 ToDOMAnimatedNumber
 (
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eFirst
@@ -279,7 +279,7 @@ RADIUS
 .
 ToDOMAnimatedNumber
 (
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eSecond
@@ -384,7 +384,7 @@ mNumberPairAttributes
 [
 RADIUS
 ]
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eFirst
@@ -411,7 +411,7 @@ mNumberPairAttributes
 [
 RADIUS
 ]
-SVGNumberPair
+SVGAnimatedNumberPair
 :
 :
 eSecond

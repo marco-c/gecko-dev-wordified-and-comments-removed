@@ -296,7 +296,7 @@ aDefault
 )
 {
 const
-SVGEnum
+SVGAnimatedEnumeration
 &
 thisEnum
 =

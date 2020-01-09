@@ -7,7 +7,7 @@ mozilla_dom_SVGFEBlendElement_h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -181,7 +181,7 @@ const
 override
 ;
 virtual
-SVGString
+SVGAnimatedString
 &
 GetResultImageName
 (
@@ -270,7 +270,7 @@ enum
 MODE
 }
 ;
-SVGEnum
+SVGAnimatedEnumeration
 mEnumAttributes
 [
 1
@@ -296,7 +296,7 @@ IN1
 IN2
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 3

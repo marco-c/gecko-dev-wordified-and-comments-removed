@@ -247,7 +247,7 @@ aViewBox
 }
 ;
 class
-SVGViewBox
+SVGAnimatedViewBox
 {
 public
 :
@@ -500,7 +500,7 @@ DOMBaseVal
 )
 DOMBaseVal
 (
-SVGViewBox
+SVGAnimatedViewBox
 *
 aVal
 SVGElement
@@ -527,7 +527,7 @@ aSVGElement
 )
 {
 }
-SVGViewBox
+SVGAnimatedViewBox
 *
 mVal
 ;
@@ -708,7 +708,7 @@ DOMAnimVal
 )
 DOMAnimVal
 (
-SVGViewBox
+SVGAnimatedViewBox
 *
 aVal
 SVGElement
@@ -735,7 +735,7 @@ aSVGElement
 )
 {
 }
-SVGViewBox
+SVGAnimatedViewBox
 *
 mVal
 ;
@@ -966,7 +966,7 @@ public
 :
 SMILViewBox
 (
-SVGViewBox
+SVGAnimatedViewBox
 *
 aVal
 SVGElement
@@ -984,7 +984,7 @@ aSVGElement
 )
 {
 }
-SVGViewBox
+SVGAnimatedViewBox
 *
 mVal
 ;
@@ -1051,7 +1051,7 @@ override
 static
 SVGAttrTearoffTable
 <
-SVGViewBox
+SVGAnimatedViewBox
 mozilla
 :
 :

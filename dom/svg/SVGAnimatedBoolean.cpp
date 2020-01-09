@@ -1,7 +1,7 @@
 #
 include
 "
-SVGBoolean
+SVGAnimatedBoolean
 .
 h
 "
@@ -56,7 +56,7 @@ static
 inline
 SVGAttrTearoffTable
 <
-SVGBoolean
+SVGAnimatedBoolean
 DOMSVGAnimatedBoolean
 >
 &
@@ -67,7 +67,7 @@ SVGAnimatedBooleanTearoffTable
 static
 SVGAttrTearoffTable
 <
-SVGBoolean
+SVGAnimatedBoolean
 DOMSVGAnimatedBoolean
 >
 sSVGAnimatedBooleanTearoffTable
@@ -191,7 +191,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 nsresult
-SVGBoolean
+SVGAnimatedBoolean
 :
 :
 SetBaseValueAtom
@@ -263,7 +263,7 @@ NS_OK
 }
 nsAtom
 *
-SVGBoolean
+SVGAnimatedBoolean
 :
 :
 GetBaseValueAtom
@@ -286,7 +286,7 @@ _false
 ;
 }
 void
-SVGBoolean
+SVGAnimatedBoolean
 :
 :
 SetBaseValue
@@ -344,7 +344,7 @@ mAttrEnum
 ;
 }
 void
-SVGBoolean
+SVGAnimatedBoolean
 :
 :
 SetAnimValue
@@ -391,7 +391,7 @@ already_AddRefed
 <
 DOMSVGAnimatedBoolean
 >
-SVGBoolean
+SVGAnimatedBoolean
 :
 :
 ToDOMAnimatedBoolean
@@ -472,7 +472,7 @@ UniquePtr
 <
 SMILAttr
 >
-SVGBoolean
+SVGAnimatedBoolean
 :
 :
 ToSMILAttr
@@ -494,7 +494,7 @@ aSVGElement
 ;
 }
 nsresult
-SVGBoolean
+SVGAnimatedBoolean
 :
 :
 SMILBool
@@ -567,7 +567,7 @@ NS_OK
 ;
 }
 SMILValue
-SVGBoolean
+SVGAnimatedBoolean
 :
 :
 SMILBool
@@ -605,7 +605,7 @@ val
 ;
 }
 void
-SVGBoolean
+SVGAnimatedBoolean
 :
 :
 SMILBool
@@ -654,7 +654,7 @@ mAttrEnum
 }
 }
 nsresult
-SVGBoolean
+SVGAnimatedBoolean
 :
 :
 SMILBool

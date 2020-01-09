@@ -14,7 +14,7 @@ h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -304,7 +304,7 @@ enum
 TYPE
 }
 ;
-SVGEnum
+SVGAnimatedEnumeration
 mEnumAttributes
 [
 1

@@ -7,7 +7,7 @@ mozilla_dom_SVGMaskElement_h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -276,7 +276,7 @@ MASKUNITS
 MASKCONTENTUNITS
 }
 ;
-SVGEnum
+SVGAnimatedEnumeration
 mEnumAttributes
 [
 2

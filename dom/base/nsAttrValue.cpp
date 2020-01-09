@@ -1964,7 +1964,7 @@ nsAttrValue
 SetTo
 (
 const
-SVGOrient
+SVGAnimatedOrient
 &
 aValue
 const
@@ -1989,7 +1989,7 @@ nsAttrValue
 SetTo
 (
 const
-SVGIntegerPair
+SVGAnimatedIntegerPair
 &
 aValue
 const
@@ -2125,7 +2125,7 @@ nsAttrValue
 SetTo
 (
 const
-SVGNumberPair
+SVGAnimatedNumberPair
 &
 aValue
 const
@@ -2347,7 +2347,7 @@ nsAttrValue
 SetTo
 (
 const
-SVGViewBox
+SVGAnimatedViewBox
 &
 aValue
 const
@@ -2740,7 +2740,7 @@ GetMiscContainer
 >
 mValue
 .
-mSVGIntegerPair
+mSVGAnimatedIntegerPair
 aResult
 )
 ;
@@ -2763,7 +2763,7 @@ GetMiscContainer
 >
 mValue
 .
-mSVGOrient
+mSVGAnimatedOrient
 aResult
 )
 ;
@@ -2855,7 +2855,7 @@ GetMiscContainer
 >
 mValue
 .
-mSVGNumberPair
+mSVGAnimatedNumberPair
 aResult
 )
 ;
@@ -2924,7 +2924,7 @@ GetMiscContainer
 >
 mValue
 .
-mSVGPreserveAspectRatio
+mSVGAnimatedPreserveAspectRatio
 aResult
 )
 ;
@@ -2993,7 +2993,7 @@ GetMiscContainer
 >
 mValue
 .
-mSVGViewBox
+mSVGAnimatedViewBox
 aResult
 )
 ;

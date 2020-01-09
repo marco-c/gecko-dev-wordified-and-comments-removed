@@ -136,7 +136,7 @@ nsIContent
 aDefault
 )
 {
-SVGEnum
+SVGAnimatedEnumeration
 &
 thisEnum
 =

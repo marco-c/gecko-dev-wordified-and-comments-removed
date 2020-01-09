@@ -75,7 +75,7 @@ class
 SVGElement
 ;
 class
-SVGClass
+SVGAnimatedClass
 {
 public
 :
@@ -214,7 +214,7 @@ public
 :
 SMILString
 (
-SVGClass
+SVGAnimatedClass
 *
 aVal
 SVGElement
@@ -232,7 +232,7 @@ aSVGElement
 )
 {
 }
-SVGClass
+SVGAnimatedClass
 *
 mVal
 ;

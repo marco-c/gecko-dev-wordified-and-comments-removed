@@ -77,7 +77,7 @@ SVGAnimationElement
 ;
 }
 class
-SVGInteger
+SVGAnimatedInteger
 {
 public
 :
@@ -261,7 +261,7 @@ DOMSVGAnimatedInteger
 {
 DOMAnimatedInteger
 (
-SVGInteger
+SVGAnimatedInteger
 *
 aVal
 SVGElement
@@ -291,7 +291,7 @@ DOMAnimatedInteger
 (
 )
 ;
-SVGInteger
+SVGAnimatedInteger
 *
 mVal
 ;
@@ -365,7 +365,7 @@ public
 :
 SMILInteger
 (
-SVGInteger
+SVGAnimatedInteger
 *
 aVal
 SVGElement
@@ -383,7 +383,7 @@ aSVGElement
 )
 {
 }
-SVGInteger
+SVGAnimatedInteger
 *
 mVal
 ;

@@ -15,7 +15,7 @@ h
 #
 include
 "
-SVGIntegerPair
+SVGAnimatedIntegerPair
 .
 h
 "
@@ -36,7 +36,7 @@ h
 #
 include
 "
-SVGNumberPair
+SVGAnimatedNumberPair
 .
 h
 "
@@ -50,7 +50,14 @@ h
 #
 include
 "
-SVGOrient
+SVGAnimatedOrient
+.
+h
+"
+#
+include
+"
+SVGAnimatedViewBox
 .
 h
 "
@@ -82,13 +89,6 @@ SVGTransformList
 .
 h
 "
-#
-include
-"
-SVGViewBox
-.
-h
-"
 namespace
 mozilla
 {
@@ -99,7 +99,7 @@ SVGAttrValueWrapper
 ToString
 (
 const
-SVGOrient
+SVGAnimatedOrient
 *
 aOrient
 nsAString
@@ -123,7 +123,7 @@ SVGAttrValueWrapper
 ToString
 (
 const
-SVGIntegerPair
+SVGAnimatedIntegerPair
 *
 aIntegerPair
 nsAString
@@ -219,7 +219,7 @@ SVGAttrValueWrapper
 ToString
 (
 const
-SVGNumberPair
+SVGAnimatedNumberPair
 *
 aNumberPair
 nsAString
@@ -363,7 +363,7 @@ SVGAttrValueWrapper
 ToString
 (
 const
-SVGViewBox
+SVGAnimatedViewBox
 *
 aViewBox
 nsAString

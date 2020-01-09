@@ -1,7 +1,7 @@
 #
 include
 "
-SVGInteger
+SVGAnimatedInteger
 .
 h
 "
@@ -57,8 +57,8 @@ mozilla
 static
 SVGAttrTearoffTable
 <
-SVGInteger
-SVGInteger
+SVGAnimatedInteger
+SVGAnimatedInteger
 :
 :
 DOMAnimatedInteger
@@ -66,7 +66,7 @@ DOMAnimatedInteger
 sSVGAnimatedIntegerTearoffTable
 ;
 nsresult
-SVGInteger
+SVGAnimatedInteger
 :
 :
 SetBaseValueString
@@ -159,7 +159,7 @@ NS_OK
 ;
 }
 void
-SVGInteger
+SVGAnimatedInteger
 :
 :
 GetBaseValueString
@@ -184,7 +184,7 @@ mBaseVal
 ;
 }
 void
-SVGInteger
+SVGAnimatedInteger
 :
 :
 SetBaseValue
@@ -249,7 +249,7 @@ mAttrEnum
 ;
 }
 void
-SVGInteger
+SVGAnimatedInteger
 :
 :
 SetAnimValue
@@ -296,7 +296,7 @@ already_AddRefed
 <
 DOMSVGAnimatedInteger
 >
-SVGInteger
+SVGAnimatedInteger
 :
 :
 ToDOMAnimatedInteger
@@ -351,7 +351,7 @@ forget
 )
 ;
 }
-SVGInteger
+SVGAnimatedInteger
 :
 :
 DOMAnimatedInteger
@@ -374,7 +374,7 @@ UniquePtr
 <
 SMILAttr
 >
-SVGInteger
+SVGAnimatedInteger
 :
 :
 ToSMILAttr
@@ -396,7 +396,7 @@ aSVGElement
 ;
 }
 nsresult
-SVGInteger
+SVGAnimatedInteger
 :
 :
 SMILInteger
@@ -475,7 +475,7 @@ NS_OK
 ;
 }
 SMILValue
-SVGInteger
+SVGAnimatedInteger
 :
 :
 SMILInteger
@@ -513,7 +513,7 @@ val
 ;
 }
 void
-SVGInteger
+SVGAnimatedInteger
 :
 :
 SMILInteger
@@ -562,7 +562,7 @@ mAttrEnum
 }
 }
 nsresult
-SVGInteger
+SVGAnimatedInteger
 :
 :
 SMILInteger

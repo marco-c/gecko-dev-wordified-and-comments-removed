@@ -1,7 +1,7 @@
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -66,8 +66,8 @@ mozilla
 static
 SVGAttrTearoffTable
 <
-SVGEnum
-SVGEnum
+SVGAnimatedEnumeration
+SVGAnimatedEnumeration
 :
 :
 DOMAnimatedEnum
@@ -77,7 +77,7 @@ sSVGAnimatedEnumTearoffTable
 const
 SVGEnumMapping
 *
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 GetMapping
@@ -138,7 +138,7 @@ mMapping
 ;
 }
 nsresult
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 SetBaseValueAtom
@@ -243,7 +243,7 @@ NS_ERROR_DOM_TYPE_ERR
 }
 nsAtom
 *
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 GetBaseValueAtom
@@ -314,7 +314,7 @@ _empty
 ;
 }
 nsresult
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 SetBaseValue
@@ -424,7 +424,7 @@ NS_ERROR_DOM_TYPE_ERR
 ;
 }
 void
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 SetAnimValue
@@ -471,7 +471,7 @@ already_AddRefed
 <
 DOMSVGAnimatedEnumeration
 >
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 ToDOMAnimatedEnum
@@ -526,7 +526,7 @@ forget
 )
 ;
 }
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 DOMAnimatedEnum
@@ -549,7 +549,7 @@ UniquePtr
 <
 SMILAttr
 >
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 ToSMILAttr
@@ -571,7 +571,7 @@ aSVGElement
 ;
 }
 nsresult
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 SMILEnum
@@ -698,7 +698,7 @@ NS_ERROR_FAILURE
 ;
 }
 SMILValue
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 SMILEnum
@@ -736,7 +736,7 @@ val
 ;
 }
 void
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 SMILEnum
@@ -785,7 +785,7 @@ mAttrEnum
 }
 }
 nsresult
-SVGEnum
+SVGAnimatedEnumeration
 :
 :
 SMILEnum

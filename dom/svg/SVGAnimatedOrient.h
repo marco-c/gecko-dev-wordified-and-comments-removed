@@ -21,7 +21,7 @@ h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -109,7 +109,7 @@ SVGElement
 ;
 }
 class
-SVGOrient
+SVGAnimatedOrient
 {
 friend
 class
@@ -525,7 +525,7 @@ DOMSVGAnimatedEnumeration
 {
 DOMAnimatedEnum
 (
-SVGOrient
+SVGAnimatedOrient
 *
 aVal
 SVGElement
@@ -548,7 +548,7 @@ DOMAnimatedEnum
 (
 )
 ;
-SVGOrient
+SVGAnimatedOrient
 *
 mVal
 ;
@@ -648,7 +648,7 @@ public
 :
 SMILOrient
 (
-SVGOrient
+SVGAnimatedOrient
 *
 aOrient
 SVGElement
@@ -666,7 +666,7 @@ aSVGElement
 )
 {
 }
-SVGOrient
+SVGAnimatedOrient
 *
 mOrient
 ;

@@ -269,7 +269,7 @@ sEnumInfo
 )
 ;
 }
-SVGViewBox
+SVGAnimatedViewBox
 *
 SVGViewElement
 :

@@ -1,7 +1,7 @@
 #
 include
 "
-SVGString
+SVGAnimatedString
 .
 h
 "
@@ -49,7 +49,7 @@ mozilla
 {
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
 (
-SVGString
+SVGAnimatedString
 :
 :
 DOMAnimatedString
@@ -57,21 +57,21 @@ mSVGElement
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-SVGString
+SVGAnimatedString
 :
 :
 DOMAnimatedString
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
-SVGString
+SVGAnimatedString
 :
 :
 DOMAnimatedString
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-SVGString
+SVGAnimatedString
 :
 :
 DOMAnimatedString
@@ -86,8 +86,8 @@ static
 inline
 SVGAttrTearoffTable
 <
-SVGString
-SVGString
+SVGAnimatedString
+SVGAnimatedString
 :
 :
 DOMAnimatedString
@@ -100,8 +100,8 @@ SVGAnimatedStringTearoffTable
 static
 SVGAttrTearoffTable
 <
-SVGString
-SVGString
+SVGAnimatedString
+SVGAnimatedString
 :
 :
 DOMAnimatedString
@@ -113,7 +113,7 @@ sSVGAnimatedStringTearoffTable
 ;
 }
 void
-SVGString
+SVGAnimatedString
 :
 :
 SetBaseValue
@@ -183,7 +183,7 @@ mAttrEnum
 ;
 }
 void
-SVGString
+SVGAnimatedString
 :
 :
 GetAnimValue
@@ -222,7 +222,7 @@ aResult
 ;
 }
 void
-SVGString
+SVGAnimatedString
 :
 :
 SetAnimValue
@@ -297,7 +297,7 @@ already_AddRefed
 <
 DOMSVGAnimatedString
 >
-SVGString
+SVGAnimatedString
 :
 :
 ToDOMAnimatedString
@@ -356,7 +356,7 @@ forget
 )
 ;
 }
-SVGString
+SVGAnimatedString
 :
 :
 DOMAnimatedString
@@ -381,7 +381,7 @@ UniquePtr
 <
 SMILAttr
 >
-SVGString
+SVGAnimatedString
 :
 :
 ToSMILAttr
@@ -403,7 +403,7 @@ aSVGElement
 ;
 }
 nsresult
-SVGString
+SVGAnimatedString
 :
 :
 SMILString
@@ -476,7 +476,7 @@ NS_OK
 ;
 }
 SMILValue
-SVGString
+SVGAnimatedString
 :
 :
 SMILString
@@ -527,7 +527,7 @@ val
 ;
 }
 void
-SVGString
+SVGAnimatedString
 :
 :
 SMILString
@@ -566,7 +566,7 @@ mAttrEnum
 }
 }
 nsresult
-SVGString
+SVGAnimatedString
 :
 :
 SMILString

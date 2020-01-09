@@ -209,7 +209,7 @@ const
 override
 ;
 virtual
-SVGString
+SVGAnimatedString
 &
 GetResultImageName
 (
@@ -436,7 +436,7 @@ HREF
 XLINK_HREF
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 3

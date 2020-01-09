@@ -7,7 +7,7 @@ mozilla_dom_SVGFEDisplacementMapElement_h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -181,7 +181,7 @@ const
 override
 ;
 virtual
-SVGString
+SVGAnimatedString
 &
 GetResultImageName
 (
@@ -366,7 +366,7 @@ CHANNEL_X
 CHANNEL_Y
 }
 ;
-SVGEnum
+SVGAnimatedEnumeration
 mEnumAttributes
 [
 2
@@ -392,7 +392,7 @@ IN1
 IN2
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 3

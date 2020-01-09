@@ -25,7 +25,7 @@ h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -255,7 +255,7 @@ LENGTHADJUST
 }
 ;
 virtual
-SVGEnum
+SVGAnimatedEnumeration
 *
 EnumAttributes
 (

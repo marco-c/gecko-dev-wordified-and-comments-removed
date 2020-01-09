@@ -7,7 +7,7 @@ mozilla_dom_SVGFilterElement_h
 #
 include
 "
-SVGEnum
+SVGAnimatedEnumeration
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-SVGString
+SVGAnimatedString
 .
 h
 "
@@ -309,7 +309,7 @@ FILTERUNITS
 PRIMITIVEUNITS
 }
 ;
-SVGEnum
+SVGAnimatedEnumeration
 mEnumAttributes
 [
 2
@@ -328,7 +328,7 @@ HREF
 XLINK_HREF
 }
 ;
-SVGString
+SVGAnimatedString
 mStringAttributes
 [
 2
