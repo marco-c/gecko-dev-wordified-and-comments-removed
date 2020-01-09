@@ -146,9 +146,9 @@ assertionInfo
 )
 =
 >
-checkJsTermValueAndCursor
+checkInputValueAndCursorPosition
 (
-jsterm
+hud
 expected
 assertionInfo
 )

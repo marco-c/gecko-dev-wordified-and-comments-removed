@@ -210,7 +210,7 @@ HELPERS
 await
 setInputValueForAutocompletion
 (
-jsterm
+hud
 helper
 )
 ;
