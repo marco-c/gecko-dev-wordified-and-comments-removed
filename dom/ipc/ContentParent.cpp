@@ -30314,6 +30314,14 @@ this
 )
 ;
 }
+child
+-
+>
+Attach
+(
+true
+)
+;
 return
 IPC_OK
 (
@@ -30448,6 +30456,7 @@ aContext
 >
 CacheChildren
 (
+true
 )
 ;
 }
@@ -30458,6 +30467,7 @@ aContext
 >
 Detach
 (
+true
 )
 ;
 }
