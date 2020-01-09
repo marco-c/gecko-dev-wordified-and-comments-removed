@@ -9607,6 +9607,7 @@ bool
 ForceDescendIntoIfVisible
 (
 )
+const
 {
 return
 mForceDescendIntoIfVisible
