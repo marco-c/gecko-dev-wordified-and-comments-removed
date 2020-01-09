@@ -251,5 +251,12 @@ detection
 .
 patch
 "
+"
+revert
+-
+r355311
+.
+patch
+"
 ]
 }
