@@ -274,6 +274,8 @@ string
 &
 sourceIn
 size_t
+outputLocationIn
+size_t
 outputIndexIn
 )
 :
@@ -288,6 +290,10 @@ nameIn
 source
 (
 sourceIn
+)
+outputLocation
+(
+outputLocationIn
 )
 outputIndex
 (
@@ -311,6 +317,11 @@ std
 :
 string
 source
+;
+size_t
+outputLocation
+=
+0
 ;
 size_t
 outputIndex

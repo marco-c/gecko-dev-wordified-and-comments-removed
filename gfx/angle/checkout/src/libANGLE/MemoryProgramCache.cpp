@@ -284,6 +284,8 @@ first
 binding
 .
 second
+.
+location
 ;
 }
 return

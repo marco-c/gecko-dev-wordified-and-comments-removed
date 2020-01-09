@@ -480,6 +480,12 @@ data
 const
 ;
 bool
+usesSecondaryColor
+(
+)
+const
+;
+bool
 usesFragDepth
 (
 )
