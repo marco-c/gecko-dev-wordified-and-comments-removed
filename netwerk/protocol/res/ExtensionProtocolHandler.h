@@ -240,7 +240,7 @@ aRetVal
 ;
 Result
 <
-Ok
+bool
 nsresult
 >
 AllowExternalResource
@@ -251,9 +251,6 @@ aExtensionDir
 nsIFile
 *
 aRequestedFile
-bool
-*
-aResult
 )
 ;
 #
@@ -264,7 +261,7 @@ XP_MACOSX
 )
 Result
 <
-Ok
+bool
 nsresult
 >
 DevRepoContains
@@ -272,9 +269,6 @@ DevRepoContains
 nsIFile
 *
 aRequestedFile
-bool
-*
-aResult
 )
 ;
 nsCOMPtr
@@ -297,7 +291,7 @@ XP_WIN
 )
 Result
 <
-Ok
+bool
 nsresult
 >
 AppDirContains
@@ -305,9 +299,6 @@ AppDirContains
 nsIFile
 *
 aExtensionDir
-bool
-*
-aResult
 )
 ;
 nsCOMPtr
