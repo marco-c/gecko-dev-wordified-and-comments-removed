@@ -814,7 +814,9 @@ into
 DIFF_ARTIFACT
 }
 "
-hg
+{
+HG
+}
 -
 R
 "

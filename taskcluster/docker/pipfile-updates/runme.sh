@@ -424,6 +424,10 @@ HOME
 arcrc
 "
 fi
+export
+HGPLAIN
+=
+1
 #
 shellcheck
 disable
