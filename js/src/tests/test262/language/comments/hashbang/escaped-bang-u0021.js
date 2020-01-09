@@ -14,9 +14,3 @@ evaluated
 .
 "
 ;
-reportCompare
-(
-0
-0
-)
-;

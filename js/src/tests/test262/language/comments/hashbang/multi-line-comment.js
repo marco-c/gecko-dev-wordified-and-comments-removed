@@ -26,9 +26,3 @@ a
 comment
 *
 /
-reportCompare
-(
-0
-0
-)
-;
