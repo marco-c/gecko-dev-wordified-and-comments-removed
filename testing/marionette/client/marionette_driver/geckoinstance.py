@@ -162,6 +162,18 @@ max_script_run_time
 0
         
 "
+dom
+.
+push
+.
+connection
+.
+enabled
+"
+:
+False
+        
+"
 extensions
 .
 autoDisableScopes
@@ -421,6 +433,16 @@ server
 )
 s
 "
+        
+"
+privacy
+.
+trackingprotection
+.
+enabled
+"
+:
+False
         
 "
 security
