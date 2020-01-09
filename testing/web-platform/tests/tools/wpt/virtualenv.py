@@ -335,6 +335,13 @@ pip_path
 "
 install
 "
+"
+-
+-
+prefer
+-
+binary
+"
 *
 requirements
 )
@@ -349,6 +356,7 @@ requirements_path
         
 call
 (
+            
 self
 .
 pip_path
@@ -357,7 +365,15 @@ install
 "
 "
 -
+-
+prefer
+-
+binary
+"
+"
+-
 r
 "
 requirements_path
+        
 )
