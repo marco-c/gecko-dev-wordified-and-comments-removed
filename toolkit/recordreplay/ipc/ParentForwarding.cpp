@@ -143,7 +143,7 @@ dom
 PContent
 :
 :
-Msg_PBrowserConstructor__ID
+Msg_ConstructBrowser__ID
 |
 |
 type
