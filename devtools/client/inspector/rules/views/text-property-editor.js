@@ -3441,8 +3441,6 @@ this
 prop
 .
 isKnownProperty
-(
-)
 )
 )
 {
