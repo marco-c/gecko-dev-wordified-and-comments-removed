@@ -13,7 +13,6 @@ GeckoExtensionCommand
 GeckoExtensionRoute
 XblLocatorParameters
 CHROME_ELEMENT_KEY
-LEGACY_ELEMENT_KEY
 }
 ;
 use
@@ -2370,16 +2369,6 @@ FRAME_KEY
 )
 ;
 let
-legacy_element
-=
-data
-.
-get
-(
-LEGACY_ELEMENT_KEY
-)
-;
-let
 window
 =
 data
@@ -2396,11 +2385,6 @@ try_opt
 !
 (
 element
-.
-or
-(
-legacy_element
-)
 .
 or
 (
