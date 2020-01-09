@@ -1011,6 +1011,16 @@ sIsPumpingMessages
 aIsPumping
 ;
 }
+bool
+IsCrossProcess
+(
+)
+const
+{
+return
+mIsCrossProcess
+;
+}
 #
 ifdef
 OS_WIN
