@@ -4352,24 +4352,6 @@ parent
     
 (
 "
-PAsmJSCacheEntry
-"
-"
-child
-"
-)
-    
-(
-"
-PAsmJSCacheEntry
-"
-"
-parent
-"
-)
-    
-(
-"
 PBackgroundFileHandle
 "
 "
