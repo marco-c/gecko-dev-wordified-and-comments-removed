@@ -69,7 +69,6 @@ isPretty
 isLoaded
 getFilename
 isOriginal
-isLoading
 shouldBlackbox
 }
 from
@@ -422,7 +421,8 @@ return
 }
 if
 (
-isLoading
+!
+isLoaded
 (
 selectedSource
 )
