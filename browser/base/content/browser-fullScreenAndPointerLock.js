@@ -1840,6 +1840,13 @@ docShell
 chromeEventHandler
 ;
 }
+gXPInstallObserver
+.
+removeAllNotifications
+(
+browser
+)
+;
 TelemetryStopwatch
 .
 start
