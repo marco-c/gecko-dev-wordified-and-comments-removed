@@ -3704,13 +3704,7 @@ true
 #
 Currently
 Windows
-(
-win10
-:
-1803
-supports
-)
-Linux
+7
 and
 macOS
 all
@@ -3751,9 +3745,6 @@ http
 .
 oscpu
 )
-|
-|
-gtkWidget
 |
 |
 (
@@ -3813,9 +3804,6 @@ oscpu
 )
 |
 |
-gtkWidget
-|
-|
 (
 cocoaWidget
 &
@@ -3873,9 +3861,6 @@ oscpu
 )
 |
 |
-gtkWidget
-|
-|
 (
 cocoaWidget
 &
@@ -3931,9 +3916,6 @@ http
 .
 oscpu
 )
-|
-|
-gtkWidget
 |
 |
 (

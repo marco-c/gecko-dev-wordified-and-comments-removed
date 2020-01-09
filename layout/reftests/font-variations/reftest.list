@@ -49,11 +49,9 @@ not
 running
 recent
 enough
-Windows
+Windows7
 /
 macOS
-/
-Linux
 versions
 in
 CI
@@ -109,12 +107,6 @@ http
 .
 oscpu
 )
-)
-fails
--
-if
-(
-gtkWidget
 )
 !
 =
