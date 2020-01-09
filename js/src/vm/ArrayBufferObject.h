@@ -1108,8 +1108,6 @@ JSContext
 cx
 BufferContents
 newContents
-OwnsState
-ownsState
 )
 ;
 static
