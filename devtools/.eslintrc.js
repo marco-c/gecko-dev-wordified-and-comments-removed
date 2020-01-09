@@ -599,14 +599,6 @@ files
 "
 client
 /
-canvasdebugger
-/
-*
-*
-"
-"
-client
-/
 shadereditor
 /
 *

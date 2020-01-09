@@ -2219,11 +2219,6 @@ BROWSERCONSOLE
 :
 case
 "
-CANVASDEBUGGER
-"
-:
-case
-"
 DOM
 "
 :
