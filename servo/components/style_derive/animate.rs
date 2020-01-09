@@ -1,10 +1,4 @@
 use
-crate
-:
-:
-cg
-;
-use
 darling
 :
 :
@@ -12,6 +6,12 @@ util
 :
 :
 IdentList
+;
+use
+derive_common
+:
+:
+cg
 ;
 use
 proc_macro2
