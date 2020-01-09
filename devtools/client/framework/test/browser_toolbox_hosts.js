@@ -526,10 +526,15 @@ win
 .
 document
 .
-getElementById
+querySelector
 (
 "
+.
+devtools
+-
 toolbox
+-
+window
 -
 iframe
 "
