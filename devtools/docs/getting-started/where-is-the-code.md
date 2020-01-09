@@ -67,7 +67,7 @@ folder
 .
 Development
 of
-newer
+some
 pieces
 of
 the
@@ -79,9 +79,9 @@ GitHub
 on
 the
 [
-devtools
+firefox
 -
-html
+devtools
 ]
 (
 https
@@ -92,9 +92,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 )
 organisation

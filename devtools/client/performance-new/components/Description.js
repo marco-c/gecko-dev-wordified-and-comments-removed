@@ -272,9 +272,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 perf
 .
@@ -285,9 +285,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 perf
 .

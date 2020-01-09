@@ -329,9 +329,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 ux
 )
@@ -369,9 +369,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 ux
 /
