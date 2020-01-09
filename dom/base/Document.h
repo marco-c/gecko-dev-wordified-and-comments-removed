@@ -9741,6 +9741,11 @@ NotifyUserGestureActivation
 (
 )
 ;
+void
+ClearUserGestureActivation
+(
+)
+;
 bool
 HasBeenUserGestureActivated
 (
