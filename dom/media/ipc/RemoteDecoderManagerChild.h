@@ -94,7 +94,7 @@ aWhy
 override
 ;
 void
-DeallocPRemoteDecoderManagerChild
+ActorDealloc
 (
 )
 override

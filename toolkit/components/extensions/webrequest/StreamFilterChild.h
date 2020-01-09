@@ -282,7 +282,7 @@ RecvFlushData
 ;
 virtual
 void
-DeallocPStreamFilterChild
+ActorDealloc
 (
 )
 override

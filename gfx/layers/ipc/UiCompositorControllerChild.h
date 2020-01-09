@@ -284,7 +284,7 @@ aWhy
 override
 ;
 void
-DeallocPUiCompositorControllerChild
+ActorDealloc
 (
 )
 override

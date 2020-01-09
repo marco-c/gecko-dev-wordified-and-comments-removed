@@ -488,7 +488,7 @@ void
 RemoteDecoderManagerChild
 :
 :
-DeallocPRemoteDecoderManagerChild
+ActorDealloc
 (
 )
 {

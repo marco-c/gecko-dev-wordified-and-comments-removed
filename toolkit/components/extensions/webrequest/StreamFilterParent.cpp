@@ -3079,7 +3079,7 @@ void
 StreamFilterParent
 :
 :
-DeallocPStreamFilterParent
+ActorDealloc
 (
 )
 {

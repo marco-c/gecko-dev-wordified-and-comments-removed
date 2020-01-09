@@ -242,7 +242,7 @@ override
 private
 :
 void
-DeallocPVideoBridgeParent
+ActorDealloc
 (
 )
 override

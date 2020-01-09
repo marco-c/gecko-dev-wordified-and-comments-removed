@@ -247,7 +247,7 @@ aWhy
 override
 ;
 void
-DeallocPVideoDecoderManagerChild
+ActorDealloc
 (
 )
 override

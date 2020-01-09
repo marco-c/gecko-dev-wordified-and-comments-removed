@@ -89,7 +89,7 @@ aWhy
 override
 ;
 void
-DeallocPVsyncBridgeChild
+ActorDealloc
 (
 )
 override

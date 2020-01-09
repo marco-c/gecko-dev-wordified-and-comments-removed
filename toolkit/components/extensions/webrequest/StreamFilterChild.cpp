@@ -1910,7 +1910,7 @@ void
 StreamFilterChild
 :
 :
-DeallocPStreamFilterChild
+ActorDealloc
 (
 )
 {

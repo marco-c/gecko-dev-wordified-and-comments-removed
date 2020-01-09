@@ -680,7 +680,7 @@ void
 VideoDecoderManagerChild
 :
 :
-DeallocPVideoDecoderManagerChild
+ActorDealloc
 (
 )
 {

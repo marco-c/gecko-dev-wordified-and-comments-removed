@@ -148,7 +148,7 @@ aActorDestroyReason
 override
 ;
 void
-DeallocPProfilerParent
+ActorDealloc
 (
 )
 override

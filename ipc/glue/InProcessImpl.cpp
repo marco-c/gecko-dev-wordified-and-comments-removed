@@ -498,7 +498,7 @@ void
 InProcessParent
 :
 :
-DeallocPInProcessParent
+ActorDealloc
 (
 )
 {
@@ -520,7 +520,7 @@ void
 InProcessChild
 :
 :
-DeallocPInProcessChild
+ActorDealloc
 (
 )
 {

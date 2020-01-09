@@ -1169,7 +1169,7 @@ void
 ImageBridgeChild
 :
 :
-DeallocPImageBridgeChild
+ActorDealloc
 (
 )
 {

@@ -1047,7 +1047,7 @@ void
 VideoDecoderManagerParent
 :
 :
-DeallocPVideoDecoderManagerParent
+ActorDealloc
 (
 )
 {

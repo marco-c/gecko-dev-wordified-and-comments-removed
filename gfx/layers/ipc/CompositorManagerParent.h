@@ -335,7 +335,7 @@ aIsRoot
 )
 ;
 void
-DeallocPCompositorManagerParent
+ActorDealloc
 (
 )
 override
