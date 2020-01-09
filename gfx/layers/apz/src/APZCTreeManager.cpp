@@ -3069,10 +3069,6 @@ MOZ_ASSERT
 apzc
 -
 >
-Metrics
-(
-)
-.
 IsRootContent
 (
 )
