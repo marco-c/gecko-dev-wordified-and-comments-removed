@@ -274,6 +274,17 @@ include
 "
 js
 /
+experimental
+/
+SourceHook
+.
+h
+"
+#
+include
+"
+js
+/
 MemoryFunctions
 .
 h

@@ -616,6 +616,17 @@ include
 "
 js
 /
+experimental
+/
+SourceHook
+.
+h
+"
+#
+include
+"
+js
+/
 GCVector
 .
 h
