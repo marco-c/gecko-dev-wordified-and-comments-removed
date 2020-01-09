@@ -1625,7 +1625,7 @@ case
 "
 engine
 -
-current
+default
 "
 :
 let
@@ -1661,15 +1661,6 @@ buildDefaultEngineDropDown
 (
 )
 ;
-break
-;
-case
-"
-engine
--
-default
-"
-:
 break
 ;
 }

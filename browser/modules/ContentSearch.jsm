@@ -2132,7 +2132,7 @@ data
 "
 engine
 -
-current
+default
 "
 )
 {
@@ -2158,18 +2158,6 @@ engine
 ;
 }
 else
-if
-(
-data
-!
-=
-=
-"
-engine
--
-default
-"
-)
 {
 let
 state
