@@ -156,6 +156,7 @@ const
 id
 condition
 disabled
+log
 }
 =
 breakpoint
@@ -165,6 +166,7 @@ return
 id
 condition
 disabled
+log
 text
 :
 selectedSource

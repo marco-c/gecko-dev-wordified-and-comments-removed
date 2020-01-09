@@ -153,6 +153,7 @@ condition
 loading
 disabled
 hidden
+log
 }
 =
 breakpoint
@@ -185,6 +186,7 @@ condition
 loading
 disabled
 hidden
+log
 }
 ;
 }

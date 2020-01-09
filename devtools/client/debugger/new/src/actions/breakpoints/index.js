@@ -179,6 +179,10 @@ hidden
 ?
 :
 boolean
+log
+?
+:
+boolean
 }
 ;
 export
@@ -995,6 +999,9 @@ location
 SourceLocation
 {
 condition
+log
+=
+false
 }
 :
 addBreakpointOptions
@@ -1043,6 +1050,7 @@ addBreakpoint
 location
 {
 condition
+log
 }
 )
 )
@@ -1107,6 +1115,7 @@ disabled
 :
 false
 condition
+log
 }
 ;
 assertBreakpoint
