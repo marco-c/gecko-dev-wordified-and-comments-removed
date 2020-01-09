@@ -17515,27 +17515,6 @@ options
 extraPrefs
 )
         
-if
-options
-.
-flavor
-in
-(
-'
-a11y
-'
-'
-chrome
-'
-)
-:
-            
-options
-.
-e10s
-=
-False
-        
 mozinfo
 .
 update
