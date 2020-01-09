@@ -2239,14 +2239,14 @@ void
 growAllocableSpace
 (
 unsigned
-newCount
+newCapacity
 )
 ;
 void
 shrinkAllocableSpace
 (
 unsigned
-newCount
+newCapacity
 )
 ;
 void
