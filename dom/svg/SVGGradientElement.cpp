@@ -127,7 +127,7 @@ using
 namespace
 SVGUnitTypes_Binding
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGGradientElement
 :
 :

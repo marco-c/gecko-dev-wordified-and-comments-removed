@@ -67,7 +67,7 @@ aGivenProto
 )
 ;
 }
-SVGEnumMapping
+nsSVGEnumMapping
 SVGViewElement
 :
 :

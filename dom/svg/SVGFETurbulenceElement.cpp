@@ -175,7 +175,7 @@ numOctaves
 }
 }
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGFETurbulenceElement
 :
 :
@@ -204,7 +204,7 @@ nullptr
 }
 }
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGFETurbulenceElement
 :
 :

@@ -184,7 +184,7 @@ using
 namespace
 SVGSVGElement_Binding
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGSVGElement
 :
 :

@@ -677,6 +677,11 @@ nsSVGBoolean
 cpp
 '
 '
+nsSVGEnum
+.
+cpp
+'
+'
 nsSVGInteger
 .
 cpp
@@ -868,11 +873,6 @@ cpp
 '
 '
 SVGEllipseElement
-.
-cpp
-'
-'
-SVGEnum
 .
 cpp
 '

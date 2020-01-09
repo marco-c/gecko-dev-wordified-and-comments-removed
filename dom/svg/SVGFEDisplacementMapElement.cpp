@@ -107,7 +107,7 @@ false
 }
 }
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGFEDisplacementMapElement
 :
 :

@@ -162,7 +162,7 @@ X
 }
 }
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGTextPathElement
 :
 :
@@ -191,7 +191,7 @@ nullptr
 }
 }
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGTextPathElement
 :
 :
@@ -220,7 +220,7 @@ nullptr
 }
 }
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGTextPathElement
 :
 :

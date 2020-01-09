@@ -117,7 +117,7 @@ false
 }
 }
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGFECompositeElement
 :
 :

@@ -256,7 +256,7 @@ Y
 }
 }
 ;
-SVGEnumMapping
+nsSVGEnumMapping
 SVGMarkerElement
 :
 :

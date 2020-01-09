@@ -2019,7 +2019,7 @@ gfxMatrix
 )
 )
 ;
-SVGEnum
+nsSVGEnum
 *
 clipPathUnits
 =
