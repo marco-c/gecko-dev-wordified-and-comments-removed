@@ -9315,6 +9315,17 @@ return
 false
 ;
 }
+mRequestProxy
+-
+>
+BoostPriority
+(
+imgIRequest
+:
+:
+CATEGORY_FRAME_STYLE
+)
+;
 if
 (
 mModeFlags
