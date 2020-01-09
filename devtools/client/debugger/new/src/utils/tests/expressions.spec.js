@@ -1,7 +1,6 @@
 import
 {
 wrapExpression
-sanitizeInput
 getValue
 }
 from
@@ -182,13 +181,10 @@ quotes
 {
 expect
 (
-sanitizeInput
-(
 '
 foo
 "
 '
-)
 )
 .
 toEqual
@@ -216,14 +212,11 @@ quotes
 {
 expect
 (
-sanitizeInput
-(
 '
 "
 3
 "
 '
-)
 )
 .
 toEqual
@@ -258,8 +251,6 @@ a
 {
 expect
 (
-sanitizeInput
-(
 "
 \
 u
@@ -267,7 +258,6 @@ u
 61
 }
 "
-)
 )
 .
 toEqual
@@ -302,8 +292,6 @@ NaN
 {
 expect
 (
-sanitizeInput
-(
 "
 N
 \
@@ -313,7 +301,6 @@ u
 }
 N
 "
-)
 )
 .
 toEqual
