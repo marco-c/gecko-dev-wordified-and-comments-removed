@@ -273,6 +273,9 @@ DIRS
 about
 '
 '
+aboutconfig
+'
+'
 attribution
 '
 '
@@ -365,9 +368,6 @@ DIRS
 +
 =
 [
-'
-aboutconfig
-'
 '
 payments
 '
