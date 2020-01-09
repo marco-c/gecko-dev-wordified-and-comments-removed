@@ -733,7 +733,10 @@ central
 try
 '
 ]
-macosx64
+macosx
+.
+*
+64
 (
 ?
 :
@@ -1063,7 +1066,10 @@ central
 try
 '
 ]
-macosx64
+macosx
+.
+*
+64
 (
 ?
 :

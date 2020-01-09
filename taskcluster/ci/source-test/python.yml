@@ -87,7 +87,9 @@ t
 linux
 -
 xlarge
-macosx64
+macosx1010
+-
+64
 .
 *
 :
@@ -634,7 +636,9 @@ linux64
 /
 opt
 -
-macosx64
+macosx1010
+-
+64
 /
 opt
 -
@@ -772,7 +776,9 @@ linux64
 /
 opt
 -
-macosx64
+macosx1010
+-
+64
 /
 opt
 -

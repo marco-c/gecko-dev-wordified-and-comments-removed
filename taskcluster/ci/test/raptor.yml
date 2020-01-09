@@ -233,7 +233,10 @@ opt
 try
 '
 ]
-macosx64
+macosx
+.
+*
+64
 (
 ?
 :
