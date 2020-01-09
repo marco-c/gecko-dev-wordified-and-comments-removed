@@ -6463,6 +6463,9 @@ aFocusUrlBar
 var
 aName
 ;
+var
+aCsp
+;
 if
 (
 arguments
@@ -6652,6 +6655,12 @@ params
 .
 name
 ;
+aCsp
+=
+params
+.
+csp
+;
 }
 if
 (
@@ -6793,6 +6802,9 @@ aFocusUrlBar
 name
 :
 aName
+csp
+:
+aCsp
 }
 )
 ;
@@ -6823,6 +6835,7 @@ postDatas
 replace
 targetTab
 triggeringPrincipal
+csp
 userContextId
 }
 =
@@ -7043,6 +7056,7 @@ postDatas
 0
 ]
 triggeringPrincipal
+csp
 }
 )
 ;
@@ -7082,6 +7096,7 @@ triggeringPrincipal
 bulkOrderedOpen
 :
 multiple
+csp
 }
 ;
 if
@@ -7174,6 +7189,7 @@ triggeringPrincipal
 bulkOrderedOpen
 :
 true
+csp
 }
 ;
 if
@@ -10314,6 +10330,7 @@ triggeringPrincipal
 userContextId
 recordExecution
 replayExecution
+csp
 }
 =
 {
@@ -11615,6 +11632,7 @@ referrerURI
 )
 charset
 postData
+csp
 }
 )
 ;

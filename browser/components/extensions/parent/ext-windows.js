@@ -1485,6 +1485,15 @@ nsISupportsPRBool
 )
 )
 ;
+args
+.
+appendElement
+(
+principal
+.
+csp
+)
+;
 let
 features
 =
