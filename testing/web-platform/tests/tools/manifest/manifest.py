@@ -431,6 +431,14 @@ key
 )
 :
         
+if
+key
+in
+self
+.
+data
+:
+            
 del
 self
 .
@@ -438,6 +446,32 @@ data
 [
 key
 ]
+        
+elif
+self
+.
+json_data
+is
+not
+None
+:
+            
+del
+self
+.
+json_data
+[
+from_os_path
+(
+key
+)
+]
+        
+else
+:
+            
+raise
+KeyError
     
 def
 __setitem__
@@ -1784,6 +1818,33 @@ manifest_items
 hash_changed
 =
 True
+                        
+if
+new_type
+!
+=
+old_type
+:
+                            
+try
+:
+                                
+del
+self
+.
+_data
+[
+old_type
+]
+[
+rel_path
+]
+                            
+except
+KeyError
+:
+                                
+pass
                     
 else
 :
@@ -1948,9 +2009,6 @@ reftest_changes
 =
 True
                     
-try
-:
-                        
 del
 self
 .
@@ -1958,12 +2016,6 @@ _path_hash
 [
 rel_path
 ]
-                    
-except
-KeyError
-:
-                        
-pass
                     
 try
 :
