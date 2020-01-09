@@ -77,8 +77,6 @@ junit
             
 '
 jittest
--
-chunked
 '
             
 '
