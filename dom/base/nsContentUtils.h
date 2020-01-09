@@ -5053,16 +5053,6 @@ ShouldResistFingerprinting
 }
 static
 bool
-AnimationsAPICoreEnabled
-(
-)
-{
-return
-sAnimationsAPICoreEnabled
-;
-}
-static
-bool
 GetBoxQuadsEnabled
 (
 )
@@ -7584,10 +7574,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sAnimationsAPICoreEnabled
 ;
 static
 bool
