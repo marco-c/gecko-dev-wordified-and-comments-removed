@@ -97,9 +97,7 @@ const
 REPORT_ENTRY_POINT
 =
 "
-test
--
-entrypoint
+menu
 "
 ;
 const
