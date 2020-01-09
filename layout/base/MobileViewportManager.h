@@ -128,6 +128,8 @@ public
 void
 RequestReflow
 (
+bool
+aForceAdjustResolution
 )
 ;
 void
