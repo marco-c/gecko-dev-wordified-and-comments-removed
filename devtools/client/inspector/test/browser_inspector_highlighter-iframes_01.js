@@ -426,7 +426,9 @@ then
 >
 inspector
 .
-toolbox
+inspector
+.
+nodePicker
 .
 once
 (

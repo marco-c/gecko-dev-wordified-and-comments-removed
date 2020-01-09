@@ -1000,7 +1000,11 @@ _onToolboxPickerCanceled
 ;
 this
 .
-toolbox
+inspector
+.
+inspector
+.
+nodePicker
 .
 on
 (
@@ -8388,7 +8392,11 @@ _onNewSelection
 ;
 this
 .
-toolbox
+inspector
+.
+inspector
+.
+nodePicker
 .
 off
 (
