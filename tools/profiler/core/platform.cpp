@@ -13424,6 +13424,14 @@ PrintUsageThenExit
 ;
 }
 }
+features
+|
+=
+ProfilerFeature
+:
+:
+MainThreadIO
+;
 const
 char
 *
