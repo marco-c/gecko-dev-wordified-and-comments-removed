@@ -369,7 +369,7 @@ slot
 )
 ;
 static
-const
+constexpr
 size_t
 MaxBufferByteLength
 =
@@ -895,7 +895,7 @@ vp
 static
 ArrayBufferObject
 *
-create
+createForContents
 (
 JSContext
 *
@@ -921,7 +921,7 @@ GenericObject
 static
 ArrayBufferObject
 *
-create
+createZeroed
 (
 JSContext
 *
