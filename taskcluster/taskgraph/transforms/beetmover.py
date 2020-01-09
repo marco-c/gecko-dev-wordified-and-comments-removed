@@ -1842,6 +1842,20 @@ nightly
 '
 )
     
+build_platform
+=
+build_platform
+.
+replace
+(
+'
+-
+shippable
+'
+'
+'
+)
+    
 if
 build_platform
 .
