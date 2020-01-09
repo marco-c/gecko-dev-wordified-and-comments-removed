@@ -74,6 +74,7 @@ DOMPoint
 DOMQuad
 DOMRect
 HeapSnapshot
+NodeFilter
 StructuredCloneHolder
 TelemetryStopwatch
 }
@@ -795,6 +796,7 @@ module
 DOMParser
 DOMPoint
 DOMQuad
+NodeFilter
 DOMRect
 Element
 Event
