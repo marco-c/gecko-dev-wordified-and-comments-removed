@@ -1131,7 +1131,7 @@ enclosingScope
 ;
 public
 :
-CodeNode
+FunctionNode
 *
 functionNode
 ;

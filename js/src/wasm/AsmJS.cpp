@@ -2968,25 +2968,11 @@ JSFunction
 *
 FunctionObject
 (
-CodeNode
+FunctionNode
 *
 funNode
 )
 {
-MOZ_ASSERT
-(
-funNode
--
->
-isKind
-(
-ParseNodeKind
-:
-:
-Function
-)
-)
-;
 return
 funNode
 -
@@ -3007,7 +2993,7 @@ PropertyName
 *
 FunctionName
 (
-CodeNode
+FunctionNode
 *
 funNode
 )
@@ -3048,7 +3034,7 @@ ParseNode
 *
 FunctionStatementList
 (
-CodeNode
+FunctionNode
 *
 funNode
 )
@@ -6537,7 +6523,7 @@ JSContext
 *
 cx_
 ;
-CodeNode
+FunctionNode
 *
 moduleFunctionNode_
 ;
@@ -6621,7 +6607,7 @@ ModuleValidatorShared
 JSContext
 *
 cx
-CodeNode
+FunctionNode
 *
 moduleFunctionNode
 )
@@ -9825,7 +9811,7 @@ Unit
 >
 &
 parser
-CodeNode
+FunctionNode
 *
 moduleFunctionNode
 )
@@ -14509,7 +14495,7 @@ CheckFunctionHead
 ModuleValidatorShared
 &
 m
-CodeNode
+FunctionNode
 *
 funNode
 )
@@ -14742,7 +14728,7 @@ CheckModuleArguments
 ModuleValidatorShared
 &
 m
-CodeNode
+FunctionNode
 *
 funNode
 )
@@ -34191,7 +34177,7 @@ Unit
 >
 &
 m
-CodeNode
+FunctionNode
 *
 *
 funNodeOut
@@ -34352,7 +34338,7 @@ return
 false
 ;
 }
-CodeNode
+FunctionNode
 *
 funNode
 =
@@ -34661,7 +34647,7 @@ mark
 }
 )
 ;
-CodeNode
+FunctionNode
 *
 funNode
 =
@@ -36352,7 +36338,7 @@ PRMJ_Now
 (
 )
 ;
-CodeNode
+FunctionNode
 *
 moduleFunctionNode
 =

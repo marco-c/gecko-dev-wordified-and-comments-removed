@@ -358,14 +358,14 @@ JS
 :
 Result
 <
-ParseNode
+FunctionNode
 *
 >
 parseLazyFunction
 (
 ScriptSource
 *
-src
+scriptSource
 const
 size_t
 firstOffset
@@ -624,7 +624,7 @@ JS
 :
 Result
 <
-CodeNode
+FunctionNode
 *
 >
 makeEmptyFunctionNode
@@ -645,7 +645,7 @@ JS
 :
 Result
 <
-ParseNode
+FunctionNode
 *
 >
 buildFunction
