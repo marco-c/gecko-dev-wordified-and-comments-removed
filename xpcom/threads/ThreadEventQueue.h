@@ -134,6 +134,12 @@ HasPendingEvent
 final
 ;
 bool
+HasPendingHighPriorityEvents
+(
+)
+final
+;
+bool
 ShutdownIfNoPendingEvents
 (
 )

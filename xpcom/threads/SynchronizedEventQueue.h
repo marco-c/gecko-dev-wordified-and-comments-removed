@@ -173,6 +173,14 @@ HasPendingEvent
 ;
 virtual
 bool
+HasPendingHighPriorityEvents
+(
+)
+=
+0
+;
+virtual
+bool
 ShutdownIfNoPendingEvents
 (
 )
