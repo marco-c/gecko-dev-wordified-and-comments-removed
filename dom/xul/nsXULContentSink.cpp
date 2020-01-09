@@ -811,10 +811,10 @@ if
 doc
 )
 {
-doc
+mPrototype
 -
 >
-EndLoad
+NotifyLoadDone
 (
 )
 ;

@@ -206,6 +206,9 @@ BoxObject
 class
 HTMLIFrameElement
 ;
+class
+PrototypeDocumentContentSink
+;
 enum
 class
 CallerType
@@ -951,7 +954,7 @@ mozilla
 dom
 :
 :
-XULDocument
+PrototypeDocumentContentSink
 *
 mSrcLoadWaiters
 ;

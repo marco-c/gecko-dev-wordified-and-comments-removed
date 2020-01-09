@@ -345,6 +345,9 @@ plugins
 ipc
 '
 '
+prototype
+'
+'
 indexedDB
 '
 '
