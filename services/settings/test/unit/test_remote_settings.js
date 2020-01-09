@@ -2250,11 +2250,16 @@ clear_state
 ;
 add_task
 (
+withFakeChannel
+(
+"
+nightly
+"
 async
-function
-test_synchronization_duration_is_reported_in_uptake_status
 (
 )
+=
+>
 {
 await
 client
@@ -2315,6 +2320,7 @@ manual
 )
 ;
 }
+)
 )
 ;
 add_task
