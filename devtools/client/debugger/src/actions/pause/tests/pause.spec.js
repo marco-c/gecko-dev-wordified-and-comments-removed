@@ -1010,7 +1010,7 @@ getNextStepSpy
 .
 not
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;
@@ -1155,7 +1155,7 @@ expect
 getNextStepSpy
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;
@@ -1312,7 +1312,7 @@ expect
 getNextStepSpy
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;

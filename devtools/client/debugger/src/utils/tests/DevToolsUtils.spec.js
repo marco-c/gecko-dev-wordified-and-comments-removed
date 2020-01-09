@@ -91,7 +91,7 @@ console
 error
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;
@@ -153,7 +153,7 @@ console
 error
 )
 .
-toBeCalledWith
+toHaveBeenCalledWith
 (
 {
 who
@@ -226,7 +226,7 @@ expect
 setTimeout
 )
 .
-toBeCalledWith
+toHaveBeenCalledWith
 (
 fnc
 0

@@ -322,9 +322,7 @@ ROOT
 children
 :
 {
-"
 ROOT
-"
 :
 nodes
 }
@@ -682,9 +680,7 @@ Set
 children
 :
 {
-"
 ROOT
-"
 :
 nodes
 }
@@ -1259,12 +1255,11 @@ getKey
 x
 =
 >
-"
 key
 -
-"
-+
+{
 x
+}
 onFocus
 :
 x

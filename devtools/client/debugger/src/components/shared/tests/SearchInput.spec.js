@@ -721,7 +721,7 @@ expect
 onHistoryScroll
 )
 .
-toBeCalledWith
+toHaveBeenCalledWith
 (
 searches
 [

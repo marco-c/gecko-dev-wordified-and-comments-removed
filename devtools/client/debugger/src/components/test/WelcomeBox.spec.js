@@ -248,7 +248,7 @@ props
 openQuickOpen
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;
@@ -304,7 +304,7 @@ props
 setActiveSearch
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;
@@ -360,7 +360,7 @@ props
 toggleShortcutsModal
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;

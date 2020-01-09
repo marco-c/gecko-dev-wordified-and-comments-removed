@@ -143,7 +143,7 @@ expect
 handleClickSpy
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;

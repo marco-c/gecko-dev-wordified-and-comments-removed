@@ -1123,7 +1123,7 @@ expect
 onDOMNodeMouseOver
 )
 .
-toBeCalledWith
+toHaveBeenCalledWith
 (
 grips
 [

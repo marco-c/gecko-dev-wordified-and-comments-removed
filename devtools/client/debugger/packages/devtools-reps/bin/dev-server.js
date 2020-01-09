@@ -47,7 +47,7 @@ config
 "
 )
 ;
-let
+const
 webpackConfig
 =
 require
@@ -62,7 +62,7 @@ config
 "
 )
 ;
-let
+const
 {
 app
 }

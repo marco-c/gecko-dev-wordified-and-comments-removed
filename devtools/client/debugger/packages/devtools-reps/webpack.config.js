@@ -69,7 +69,7 @@ src
 "
 )
 ;
-let
+const
 webpackConfig
 =
 {

@@ -218,7 +218,7 @@ props
 breakOnNext
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;
@@ -231,7 +231,7 @@ resume
 .
 not
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;
@@ -407,7 +407,7 @@ props
 resume
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;
@@ -420,7 +420,7 @@ breakOnNext
 .
 not
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;

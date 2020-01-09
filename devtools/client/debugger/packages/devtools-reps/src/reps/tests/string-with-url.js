@@ -126,7 +126,7 @@ expect
 preventDefault
 )
 .
-toBeCalled
+toHaveBeenCalled
 (
 )
 ;
@@ -135,7 +135,7 @@ expect
 openLink
 )
 .
-toBeCalledWith
+toHaveBeenCalledWith
 (
 url
 syntheticEvent

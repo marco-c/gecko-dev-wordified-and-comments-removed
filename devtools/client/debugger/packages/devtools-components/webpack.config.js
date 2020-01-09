@@ -196,9 +196,7 @@ prop
 -
 types
 "
-"
 Services
-"
 :
 path
 .
