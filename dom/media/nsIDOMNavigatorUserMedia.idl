@@ -118,11 +118,6 @@ rawId
 ;
 readonly
 attribute
-AString
-groupId
-;
-readonly
-attribute
 boolean
 scary
 ;
