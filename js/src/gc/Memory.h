@@ -27,6 +27,16 @@ SystemPageSize
 (
 )
 ;
+size_t
+SystemAddressBits
+(
+)
+;
+bool
+UsingScattershotAllocator
+(
+)
+;
 void
 *
 MapAlignedPages
