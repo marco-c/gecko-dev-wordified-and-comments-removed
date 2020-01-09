@@ -230,7 +230,6 @@ l
 )
 =
 >
-{
 match
 l
 .
@@ -294,7 +293,6 @@ px
 (
 )
 )
-}
 }
 SvgLengthPercentageOrNumber
 :
