@@ -668,8 +668,6 @@ apzcTree
 {
 if
 (
-!
-!
 apzcTree
 .
 isRootContent
@@ -828,11 +826,8 @@ paint
 [
 scrollId
 ]
-[
-"
+.
 contentDescription
-"
-]
 .
 includes
 (
@@ -1999,6 +1994,7 @@ repaintDone
 ;
 }
 }
+;
 flushRepaint
 (
 )
@@ -2624,6 +2620,7 @@ chromeHelper
 destroy
 (
 )
+;
 }
 )
 ;
@@ -3686,8 +3683,6 @@ _cleanups
 [
 ]
 register
-:
-function
 (
 func
 )
@@ -3739,8 +3734,6 @@ func
 ;
 }
 execute
-:
-function
 (
 )
 {
