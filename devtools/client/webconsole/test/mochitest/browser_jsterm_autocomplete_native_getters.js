@@ -135,10 +135,9 @@ opened
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 document
 .
@@ -334,10 +333,9 @@ document
 b
 "
 ;
-jsterm
-.
 setInputValue
 (
+hud
 inputStr
 )
 ;

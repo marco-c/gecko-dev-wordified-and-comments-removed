@@ -212,10 +212,9 @@ foo
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 window
 .
@@ -314,10 +313,9 @@ page
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 window

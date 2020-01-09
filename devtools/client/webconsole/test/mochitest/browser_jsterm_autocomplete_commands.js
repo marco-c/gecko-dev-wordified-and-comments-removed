@@ -239,10 +239,9 @@ KEY_Tab
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 :
@@ -283,10 +282,9 @@ completion
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 :
 he
@@ -346,10 +344,9 @@ KEY_Tab
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 :
