@@ -803,6 +803,12 @@ loginsFooter
 "
 )
 ;
+this
+.
+comment
+=
+hostname
+;
 XPCOMUtils
 .
 defineLazyGetter
@@ -817,13 +823,6 @@ label
 >
 {
 return
-JSON
-.
-stringify
-(
-{
-label
-:
 getLocalizedString
 (
 "
@@ -831,9 +830,6 @@ viewSavedLogins
 .
 label
 "
-)
-hostname
-}
 )
 ;
 }
