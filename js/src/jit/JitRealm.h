@@ -1964,6 +1964,8 @@ BailoutReturnStub
 GetProp
 GetPropSuper
 SetProp
+GetElem
+GetElemSuper
 Call
 New
 Count
