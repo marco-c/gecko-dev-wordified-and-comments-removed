@@ -1068,7 +1068,7 @@ return
 }
 capacity_
 =
-NurseryChunkUsableSize
+SubChunkLimit
 ;
 }
 setCurrentChunk
