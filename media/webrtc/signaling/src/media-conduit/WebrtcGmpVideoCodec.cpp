@@ -3092,6 +3092,17 @@ above
 )
 ;
 }
+if
+(
+size
+=
+=
+0x01000000
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 size
