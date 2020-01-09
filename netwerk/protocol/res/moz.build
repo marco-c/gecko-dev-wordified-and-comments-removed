@@ -124,6 +124,11 @@ ExtensionProtocolHandler
 h
 '
 '
+SubstitutingJARURI
+.
+h
+'
+'
 SubstitutingProtocolHandler
 .
 h
