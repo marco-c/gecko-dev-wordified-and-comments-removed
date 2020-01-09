@@ -96,6 +96,11 @@ RefPtr
 WorkletImpl
 >
 aImpl
+nsISupports
+*
+aOwnedObject
+=
+nullptr
 )
 ;
 nsPIDOMWindowInner
@@ -184,6 +189,12 @@ nsCOMPtr
 nsPIDOMWindowInner
 >
 mWindow
+;
+nsCOMPtr
+<
+nsISupports
+>
+mOwnedObject
 ;
 nsRefPtrHashtable
 <
