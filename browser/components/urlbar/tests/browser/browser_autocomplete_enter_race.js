@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 async
@@ -255,6 +260,8 @@ true
 )
 ;
 gURLBar
+.
+inputField
 .
 dispatchEvent
 (
@@ -871,10 +878,12 @@ now
 (
 )
 ;
-gURLBar
+await
+UrlbarTestUtils
 .
-closePopup
+promisePopupClose
 (
+window
 )
 ;
 gURLBar

@@ -171,6 +171,8 @@ document
 getAnonymousElementByAttribute
 (
 gURLBar
+.
+textbox
 "
 anonid
 "
@@ -208,6 +210,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 gURLBar
+.
+inputField
 {
 type
 :
@@ -416,6 +420,8 @@ document
 getAnonymousElementByAttribute
 (
 gURLBar
+.
+textbox
 "
 anonid
 "
@@ -453,6 +459,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 gURLBar
+.
+inputField
 {
 type
 :

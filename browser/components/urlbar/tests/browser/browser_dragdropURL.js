@@ -301,6 +301,8 @@ button
 "
 )
 gURLBar
+.
+inputField
 [
 [
 {
@@ -323,7 +325,9 @@ copy
 window
 )
 ;
-is
+Assert
+.
+equal
 (
 gURLBar
 .
@@ -340,7 +344,9 @@ changed
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 gBrowser
 .
@@ -400,6 +406,8 @@ button
 "
 )
 gURLBar
+.
+inputField
 [
 [
 {
@@ -422,7 +430,9 @@ copy
 window
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 gURLBar
 .
@@ -496,6 +506,8 @@ button
 "
 )
 gURLBar
+.
+inputField
 [
 [
 {
@@ -547,6 +559,8 @@ button
 "
 )
 gURLBar
+.
+inputField
 [
 [
 {
