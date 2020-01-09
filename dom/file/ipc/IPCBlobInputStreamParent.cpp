@@ -223,7 +223,7 @@ nsID
 aID
 uint64_t
 aSize
-nsIContentParent
+ContentParent
 *
 aManager
 )

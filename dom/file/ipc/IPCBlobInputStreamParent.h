@@ -226,7 +226,7 @@ nsID
 aID
 uint64_t
 aSize
-nsIContentParent
+ContentParent
 *
 aManager
 )
@@ -265,7 +265,7 @@ const
 uint64_t
 mSize
 ;
-nsIContentParent
+ContentParent
 *
 mContentManager
 ;

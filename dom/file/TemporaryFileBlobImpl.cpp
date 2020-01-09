@@ -257,7 +257,7 @@ aMaxSize
 uint32_t
 *
 aSizeUsed
-nsIContentParent
+ContentParent
 *
 aManager
 )

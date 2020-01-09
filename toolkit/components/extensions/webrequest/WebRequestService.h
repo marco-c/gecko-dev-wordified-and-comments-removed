@@ -77,7 +77,7 @@ class
 TabParent
 ;
 class
-nsIContentParent
+ContentParent
 ;
 }
 namespace
@@ -198,7 +198,7 @@ aAddonId
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aContentParent
 )
