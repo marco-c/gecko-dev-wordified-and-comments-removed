@@ -481,11 +481,6 @@ label
 "
 Wrench
 "
-assets
-=
-"
-reftests
-"
 android_version
 =
 28
@@ -507,6 +502,13 @@ armv7
 linux
 -
 androideabi
+"
+"
+i686
+-
+linux
+-
+android
 "
 ]
 opengles_version_major
