@@ -1249,6 +1249,16 @@ TreeIterator
 h
 '
 '
+TreeOrderedArray
+.
+h
+'
+'
+TreeOrderedArrayInlines
+.
+h
+'
+'
 TreeWalker
 .
 h

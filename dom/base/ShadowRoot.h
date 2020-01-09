@@ -978,11 +978,9 @@ mStyleRuleMap
 using
 SlotArray
 =
-AutoTArray
+TreeOrderedArray
 <
 HTMLSlotElement
-*
-1
 >
 ;
 nsClassHashtable
