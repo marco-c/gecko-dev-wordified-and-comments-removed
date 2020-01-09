@@ -43,7 +43,6 @@ selectors
 .
 getFileSearchResults
 (
-state
 )
 ;
 return
@@ -93,7 +92,7 @@ html
 "
 )
 ;
-let
+const
 longSrc
 =
 findSource
@@ -116,6 +115,7 @@ long
 js
 "
 )
+;
 await
 addBreakpoint
 (
@@ -150,7 +150,7 @@ getScrollTop
 dbg
 )
 ;
-log
+info
 (
 "
 1
@@ -198,7 +198,7 @@ position
 "
 )
 ;
-log
+info
 (
 "
 2

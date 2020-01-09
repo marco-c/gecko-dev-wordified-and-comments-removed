@@ -87,11 +87,6 @@ selectors
 .
 getSourceCount
 (
-dbg
-.
-getState
-(
-)
 )
 1
 "

@@ -113,9 +113,6 @@ is
 (
 getBreakpointCount
 (
-getState
-(
-)
 )
 1
 "
@@ -129,9 +126,6 @@ ok
 (
 getBreakpoint
 (
-getState
-(
-)
 {
 sourceId
 :

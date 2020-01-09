@@ -36,14 +36,8 @@ frame
 =
 getSelectedFrame
 (
-getState
-(
-)
 getCurrentThread
 (
-getState
-(
-)
 )
 )
 ;
@@ -159,6 +153,7 @@ mock
 .
 html
 "
+;
 httpServer
 .
 registerPathHandler
@@ -417,7 +412,7 @@ selected
 "
 )
 ;
-let
+const
 button
 =
 toggleButton

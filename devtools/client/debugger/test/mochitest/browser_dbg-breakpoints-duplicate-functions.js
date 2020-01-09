@@ -11,11 +11,6 @@ selectors
 .
 getBreakpointsList
 (
-dbg
-.
-getState
-(
-)
 )
 [
 0
@@ -109,7 +104,6 @@ selectors
 .
 getBreakpointCount
 (
-state
 )
 =
 =

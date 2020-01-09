@@ -21,11 +21,6 @@ selectors
 .
 getBreakpoint
 (
-dbg
-.
-getState
-(
-)
 location
 )
 ;
@@ -51,11 +46,6 @@ selectors
 .
 getBreakpointsList
 (
-dbg
-.
-getState
-(
-)
 )
 ;
 }
@@ -72,11 +62,6 @@ selectors
 .
 getBreakpointCount
 (
-dbg
-.
-getState
-(
-)
 )
 ;
 }
@@ -193,7 +178,7 @@ file
 "
 )
 ;
-let
+const
 syncBp
 =
 waitForDispatch

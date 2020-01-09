@@ -40,13 +40,12 @@ dbg
 const
 sourceUrl
 =
+{
 EXAMPLE_URL
-+
-"
+}
 long
 .
 js
-"
 ;
 await
 selectSource
@@ -58,6 +57,7 @@ sourceUrl
 ;
 log
 (
+"
 Select
 line
 16
@@ -68,6 +68,7 @@ the
 editor
 scrolled
 .
+"
 )
 ;
 await
@@ -112,6 +113,7 @@ js
 ;
 log
 (
+"
 Select
 several
 locations
@@ -122,6 +124,7 @@ we
 have
 one
 highlight
+"
 )
 ;
 await
@@ -161,10 +164,12 @@ js
 ;
 log
 (
+"
 Select
 an
 unloaded
 source
+"
 )
 ;
 selectSource
@@ -195,9 +200,6 @@ is
 (
 getSource
 (
-getState
-(
-)
 simple1
 .
 id
@@ -224,9 +226,6 @@ ok
 (
 getSource
 (
-getState
-(
-)
 simple1
 .
 id

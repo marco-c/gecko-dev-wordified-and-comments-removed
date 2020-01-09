@@ -287,11 +287,6 @@ selectors
 .
 getPendingSelectedLocation
 (
-dbg
-.
-getState
-(
-)
 )
 ;
 const

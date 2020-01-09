@@ -56,11 +56,6 @@ dbg
 ;
 onStep
 (
-dbg
-.
-getState
-(
-)
 )
 ;
 }
@@ -97,6 +92,7 @@ join
 "
 "
 )
+;
 }
 async
 function
@@ -114,7 +110,7 @@ invokeInTab
 name
 )
 ;
-let
+const
 locations
 =
 [
@@ -151,14 +147,13 @@ column
 =
 getTopFrame
 (
-state
 getCurrentThread
 (
-state
 )
 )
 .
 location
+;
 locations
 .
 push
@@ -236,6 +231,7 @@ points
 js
 "
 )
+;
 await
 testCase
 (

@@ -21,11 +21,6 @@ selectors
 .
 getBreakpoint
 (
-dbg
-.
-getState
-(
-)
 location
 )
 ;
@@ -156,11 +151,6 @@ selectors
 .
 getBreakpointsList
 (
-dbg
-.
-getState
-(
-)
 )
 ;
 const

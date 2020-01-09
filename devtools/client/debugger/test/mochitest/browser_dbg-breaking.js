@@ -101,7 +101,7 @@ dbg
 ;
 info
 (
-'
+"
 Create
 an
 eval
@@ -110,8 +110,9 @@ that
 pauses
 itself
 .
-'
+"
 )
+;
 invokeInTab
 (
 "
@@ -136,10 +137,8 @@ source
 =
 getSelectedSource
 (
-getState
-(
 )
-)
+;
 ok
 (
 !

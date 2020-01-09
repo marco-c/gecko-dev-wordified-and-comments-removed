@@ -21,11 +21,6 @@ selectors
 .
 getBreakpoint
 (
-dbg
-.
-getState
-(
-)
 location
 )
 ;
@@ -96,6 +91,7 @@ hit
 breakpoint
 "
 )
+;
 await
 addBreakpoint
 (
@@ -140,6 +136,7 @@ then
 reload
 "
 )
+;
 await
 waitForDispatch
 (
@@ -148,6 +145,7 @@ dbg
 ADD_SOURCES
 "
 )
+;
 reload
 (
 dbg
@@ -180,6 +178,7 @@ source
 maps
 "
 )
+;
 await
 waitForDispatch
 (
@@ -225,11 +224,13 @@ correct
 location
 "
 )
+;
 await
 waitForPaused
 (
 dbg
 )
+;
 assertPausedLocation
 (
 dbg

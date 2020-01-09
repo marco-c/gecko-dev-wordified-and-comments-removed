@@ -50,7 +50,7 @@ js
 ;
 info
 (
-'
+"
 Test
 previewing
 an
@@ -61,8 +61,9 @@ of
 a
 react
 component
-'
+"
 )
+;
 invokeInTab
 (
 "
@@ -97,10 +98,8 @@ state
 >
 getSelectedScopeMappings
 (
-state
 getCurrentThread
 (
-state
 )
 )
 )

@@ -49,10 +49,8 @@ state
 >
 getIsWaitingOnBreak
 (
-state
 getCurrentThread
 (
-state
 )
 )
 )

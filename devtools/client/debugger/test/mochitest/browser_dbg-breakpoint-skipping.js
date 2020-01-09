@@ -32,9 +32,9 @@ selectors
 .
 getSkipPausing
 (
-state
 )
 )
+;
 }
 add_task
 (
@@ -43,7 +43,7 @@ function
 (
 )
 {
-let
+const
 dbg
 =
 await
@@ -66,6 +66,7 @@ dbg
 simple3
 "
 )
+;
 await
 addBreakpoint
 (

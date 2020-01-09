@@ -29,7 +29,7 @@ getFocusedEl
 dbg
 )
 {
-let
+const
 doc
 =
 dbg
@@ -131,11 +131,6 @@ selectors
 .
 getActiveSearch
 (
-dbg
-.
-getState
-(
-)
 )
 "
 file
@@ -158,11 +153,6 @@ selectors
 .
 getActiveSearch
 (
-dbg
-.
-getState
-(
-)
 )
 null
 )

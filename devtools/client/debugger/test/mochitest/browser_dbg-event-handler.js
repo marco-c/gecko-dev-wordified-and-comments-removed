@@ -36,17 +36,6 @@ dbg
 )
 ;
 const
-state
-=
-dbg
-.
-store
-.
-getState
-(
-)
-;
-const
 source
 =
 dbg
@@ -55,7 +44,6 @@ selectors
 .
 getSelectedSource
 (
-state
 )
 ;
 ok

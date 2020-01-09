@@ -132,14 +132,6 @@ orientation
 host
 )
 {
-const
-{
-panel
-toolbox
-}
-=
-dbg
-;
 info
 (
 Switching
@@ -180,7 +172,6 @@ selectors
 .
 getOrientation
 (
-state
 )
 =
 =
