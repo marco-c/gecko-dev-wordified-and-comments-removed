@@ -45,6 +45,11 @@ class
 Client
 ;
 }
+void
+InitializeLocalStorage
+(
+)
+;
 PBackgroundLSDatabaseParent
 *
 AllocPBackgroundLSDatabaseParent
