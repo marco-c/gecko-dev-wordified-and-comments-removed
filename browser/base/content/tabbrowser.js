@@ -7058,7 +7058,6 @@ targetTab
 triggeringPrincipal
 csp
 userContextId
-fromExternal
 }
 =
 {
@@ -7256,21 +7255,6 @@ nsIWebNavigation
 LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
 ;
 }
-if
-(
-fromExternal
-)
-{
-flags
-|
-=
-Ci
-.
-nsIWebNavigation
-.
-LOAD_FLAGS_FROM_EXTERNAL
-;
-}
 try
 {
 browser
@@ -7334,7 +7318,6 @@ bulkOrderedOpen
 :
 multiple
 csp
-fromExternal
 }
 ;
 if
@@ -7428,7 +7411,6 @@ bulkOrderedOpen
 :
 true
 csp
-fromExternal
 }
 ;
 if
