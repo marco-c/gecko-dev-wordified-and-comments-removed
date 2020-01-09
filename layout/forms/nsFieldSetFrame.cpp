@@ -1180,6 +1180,7 @@ DefineClipChain
 {
 clip
 }
+true
 )
 ;
 clipOut
