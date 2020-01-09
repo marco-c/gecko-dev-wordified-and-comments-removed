@@ -2317,6 +2317,11 @@ spec
 originAttributes
 :
 {
+appId
+:
+principal
+.
+appId
 inIsolatedMozBrowser
 :
 true

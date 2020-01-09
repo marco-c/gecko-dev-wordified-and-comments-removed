@@ -391,6 +391,7 @@ else
 OriginAttributes
 attrs
 (
+appId
 inIsolatedMozBrowser
 )
 ;
