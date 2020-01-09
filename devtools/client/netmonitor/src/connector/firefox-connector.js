@@ -1099,6 +1099,10 @@ webConsoleClient
 sendHTTPRequest
 (
 data
+)
+.
+then
+(
 callback
 )
 ;
@@ -1106,9 +1110,9 @@ callback
 setPreferences
 (
 request
-callback
 )
 {
+return
 this
 .
 webConsoleClient
@@ -1116,7 +1120,6 @@ webConsoleClient
 setPreferences
 (
 request
-callback
 )
 ;
 }

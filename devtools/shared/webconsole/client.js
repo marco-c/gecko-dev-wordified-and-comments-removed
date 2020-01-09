@@ -1253,7 +1253,6 @@ getPreferences
 function
 (
 preferences
-onResponse
 )
 {
 const
@@ -1283,7 +1282,6 @@ _client
 request
 (
 packet
-onResponse
 )
 ;
 }
@@ -1292,7 +1290,6 @@ setPreferences
 function
 (
 preferences
-onResponse
 )
 {
 const
@@ -1322,7 +1319,6 @@ _client
 request
 (
 packet
-onResponse
 )
 ;
 }
@@ -1671,7 +1667,6 @@ sendHTTPRequest
 function
 (
 data
-onResponse
 )
 {
 const
@@ -1701,7 +1696,6 @@ _client
 request
 (
 packet
-onResponse
 )
 ;
 }
@@ -1710,7 +1704,6 @@ startListeners
 function
 (
 listeners
-onResponse
 )
 {
 const
@@ -1740,7 +1733,6 @@ _client
 request
 (
 packet
-onResponse
 )
 ;
 }
