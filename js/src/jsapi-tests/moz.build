@@ -891,11 +891,6 @@ testBinASTReader
 .
 cpp
 '
-'
-testBinTokenReaderTester
-.
-cpp
-'
 ]
 DEFINES
 [
