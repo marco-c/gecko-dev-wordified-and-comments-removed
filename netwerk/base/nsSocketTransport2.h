@@ -1328,6 +1328,12 @@ mTimeouts
 2
 ]
 ;
+bool
+mLingerPolarity
+;
+int16_t
+mLingerTimeout
+;
 uint8_t
 mQoSBits
 ;
