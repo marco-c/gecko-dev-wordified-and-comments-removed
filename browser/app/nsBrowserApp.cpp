@@ -1118,6 +1118,8 @@ static
 nsresult
 InitXPCOMGlue
 (
+LibLoadingStrategy
+aLibLoadingStrategy
 )
 {
 UniqueFreePtr
@@ -1171,6 +1173,7 @@ exePath
 get
 (
 )
+aLibLoadingStrategy
 )
 ;
 if
@@ -1336,6 +1339,10 @@ rv
 =
 InitXPCOMGlue
 (
+LibLoadingStrategy
+:
+:
+NoReadAhead
 )
 ;
 if
@@ -1410,6 +1417,10 @@ rv
 =
 InitXPCOMGlue
 (
+LibLoadingStrategy
+:
+:
+ReadAhead
 )
 ;
 if
