@@ -911,6 +911,7 @@ mBrowsingContext
 mMessageManager
 mChildMessageManager
 mParentSHistory
+mRemoteBrowser
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (

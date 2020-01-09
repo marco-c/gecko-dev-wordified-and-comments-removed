@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsISupports
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -88,10 +95,12 @@ BrowserBridgeHost
 ;
 class
 RemoteBrowser
+:
+public
+nsISupports
 {
 public
 :
-NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 typedef
 mozilla
 :
