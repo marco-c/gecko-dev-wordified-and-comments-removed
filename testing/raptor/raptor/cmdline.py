@@ -115,6 +115,9 @@ chrome
 '
 geckoview
 '
+'
+fennec
+'
 ]
 )
     
@@ -882,11 +885,16 @@ if
 args
 .
 app
-!
-=
+not
+in
+[
 "
 geckoview
 "
+"
+fennec
+"
+]
 :
         
 if
@@ -1214,6 +1222,9 @@ geckoview
 chrome
 -
 android
+"
+"
+fennec
 "
 ]
 :
@@ -1687,6 +1698,23 @@ return
 "
 Google
 Chrome
+on
+Android
+"
+        
+elif
+app
+=
+=
+"
+fennec
+"
+:
+            
+return
+"
+Firefox
+Fennec
 on
 Android
 "

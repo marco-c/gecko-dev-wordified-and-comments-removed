@@ -271,11 +271,18 @@ kwargs
 app
 '
 ]
-!
-=
+not
+in
+\
+            
+[
 '
 geckoview
 '
+'
+fennec
+'
+]
 else
 None
         
@@ -1343,11 +1350,15 @@ kwargs
 app
 '
 ]
-=
-=
+in
+[
 '
 geckoview
 '
+'
+fennec
+'
+]
 :
             
 from
