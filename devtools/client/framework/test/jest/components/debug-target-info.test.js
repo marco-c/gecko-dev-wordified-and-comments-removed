@@ -61,6 +61,7 @@ DebugTargetInfo
 const
 {
 CONNECTION_TYPES
+DEBUG_TARGET_TYPES
 }
 =
 require
@@ -291,6 +292,11 @@ DebugTargetInfo
 deviceDescription
 :
 USB_DEVICE_DESCRIPTION
+targetType
+:
+DEBUG_TARGET_TYPES
+.
+TAB
 toolbox
 :
 TEST_TOOLBOX
@@ -309,6 +315,11 @@ DebugTargetInfo
 deviceDescription
 :
 THIS_FIREFOX_DEVICE_DESCRIPTION
+targetType
+:
+DEBUG_TARGET_TYPES
+.
+TAB
 toolbox
 :
 TEST_TOOLBOX
@@ -327,6 +338,11 @@ DebugTargetInfo
 deviceDescription
 :
 THIS_FIREFOX_DEVICE_DESCRIPTION
+targetType
+:
+DEBUG_TARGET_TYPES
+.
+TAB
 toolbox
 :
 TEST_TOOLBOX_NO_NAME
