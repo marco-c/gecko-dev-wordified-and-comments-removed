@@ -957,8 +957,6 @@ nsGNOMEShellService
 IsDefaultBrowser
 (
 bool
-aStartupCheck
-bool
 aForAllTypes
 bool
 *
