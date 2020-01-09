@@ -2494,8 +2494,6 @@ char
 classification
 bool
 aFromPrivateWindow
-bool
-aFromChromeContext
 )
 ;
 enum

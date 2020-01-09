@@ -6098,7 +6098,6 @@ GetOriginAttributes
 )
 .
 mPrivateBrowsingId
-true
 )
 ;
 }

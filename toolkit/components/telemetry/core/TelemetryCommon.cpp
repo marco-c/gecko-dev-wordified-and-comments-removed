@@ -498,7 +498,6 @@ chrome
 javascript
 "
 false
-true
 )
 ;
 console

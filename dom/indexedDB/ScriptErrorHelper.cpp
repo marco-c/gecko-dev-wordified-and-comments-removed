@@ -489,7 +489,6 @@ get
 (
 )
 false
-aIsChrome
 )
 )
 ;

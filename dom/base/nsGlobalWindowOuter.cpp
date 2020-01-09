@@ -26475,13 +26475,6 @@ principal
 PrivateBrowsingId
 (
 )
-nsContentUtils
-:
-:
-IsSystemPrincipal
-(
-principal
-)
 )
 ;
 attrs

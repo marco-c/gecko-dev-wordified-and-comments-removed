@@ -125,7 +125,6 @@ aLine
 localstorage
 "
 false
-true
 )
 ;
 }

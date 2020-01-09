@@ -775,11 +775,6 @@ prefix
 "
 "
 ;
-boolean
-chromeContext
-=
-false
-;
 }
 ;
 /
@@ -802,11 +797,6 @@ sequence
 any
 >
 arguments
-;
-boolean
-chromeContext
-=
-false
 ;
 }
 ;

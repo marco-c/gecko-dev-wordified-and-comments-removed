@@ -2386,7 +2386,6 @@ chrome
 javascript
 "
 false
-true
 )
 ;
 console
@@ -4563,7 +4562,6 @@ chrome
 javascript
 "
 false
-true
 )
 ;
 console

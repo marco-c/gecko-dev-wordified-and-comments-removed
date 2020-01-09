@@ -5009,8 +5009,6 @@ nsCString
 category
 bool
 privateWindow
-bool
-fromChromeContext
 )
 ;
 async
@@ -5032,8 +5030,6 @@ nsCString
 category
 bool
 privateWindow
-bool
-fromChromeContext
 ClonedMessageData
 stack
 )

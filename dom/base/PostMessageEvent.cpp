@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsDocShell
 .
 h
@@ -681,13 +688,6 @@ DOM
 Window
 "
 mIsFromPrivateWindow
-nsContentUtils
-:
-:
-IsSystemPrincipal
-(
-mProvidedPrincipal
-)
 )
 ;
 }

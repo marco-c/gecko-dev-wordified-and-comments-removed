@@ -769,7 +769,6 @@ get
 (
 )
 aFromPrivateWindow
-true
 )
 ;
 }

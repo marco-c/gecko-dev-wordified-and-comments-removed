@@ -21633,10 +21633,6 @@ const
 bool
 &
 aFromPrivateWindow
-const
-bool
-&
-aFromChromeContext
 )
 {
 return
@@ -21650,7 +21646,6 @@ aColNumber
 aFlags
 aCategory
 aFromPrivateWindow
-aFromChromeContext
 )
 ;
 }
@@ -21699,10 +21694,6 @@ bool
 &
 aFromPrivateWindow
 const
-bool
-&
-aFromChromeContext
-const
 ClonedMessageData
 &
 aFrame
@@ -21719,7 +21710,6 @@ aColNumber
 aFlags
 aCategory
 aFromPrivateWindow
-aFromChromeContext
 &
 aFrame
 )
@@ -21769,10 +21759,6 @@ const
 bool
 &
 aFromPrivateWindow
-const
-bool
-&
-aFromChromeContext
 const
 ClonedMessageData
 *
@@ -21992,7 +21978,6 @@ get
 (
 )
 aFromPrivateWindow
-aFromChromeContext
 )
 ;
 if

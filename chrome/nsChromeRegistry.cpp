@@ -473,7 +473,6 @@ chrome
 registration
 "
 false
-true
 )
 ;
 if
