@@ -163,6 +163,12 @@ locale
 of
 badLocales
 )
+assertThrowsInstanceOf
+(
+(
+)
+=
+>
 new
 Intl
 .
@@ -175,10 +181,7 @@ x
 +
 locale
 )
-.
-format
-(
-5
+RangeError
 )
 ;
 for
