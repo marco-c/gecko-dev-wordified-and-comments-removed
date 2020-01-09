@@ -13778,16 +13778,9 @@ aKey
 ;
 aKey
 .
-Append
+AppendInt
 (
-nsPrintfCString
-(
-"
-%
-d
-"
 aInt
-)
 )
 ;
 }

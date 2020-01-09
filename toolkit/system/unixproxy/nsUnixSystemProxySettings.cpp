@@ -842,16 +842,9 @@ Append
 ;
 aResult
 .
-Append
+AppendInt
 (
-nsPrintfCString
-(
-"
-%
-d
-"
 aPort
-)
 )
 ;
 }
