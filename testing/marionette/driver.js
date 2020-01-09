@@ -13108,6 +13108,7 @@ Runner
 this
 )
 ;
+await
 this
 .
 _reftest
@@ -13138,8 +13139,6 @@ test
 references
 expected
 timeout
-width
-height
 }
 =
 cmd
@@ -13207,8 +13206,6 @@ test
 references
 expected
 timeout
-width
-height
 )
 }
 ;

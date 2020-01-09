@@ -993,20 +993,12 @@ widget_paints_background
 False
                                           
 "
-layout
+ui
 .
-testing
-.
-overlay
--
-scrollbars
-.
-always
--
-visible
+scrollbarFadeBeginDelay
 "
 :
-True
+100000
 }
 )
         
