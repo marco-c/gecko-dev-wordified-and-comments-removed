@@ -113,6 +113,13 @@ readProfilesIni
 (
 )
 ;
+let
+installData
+=
+readInstallsIni
+(
+)
+;
 Assert
 .
 ok
@@ -219,7 +226,7 @@ Object
 .
 keys
 (
-profileData
+installData
 .
 installs
 )
@@ -241,6 +248,7 @@ yet
 checkProfileService
 (
 profileData
+installData
 )
 ;
 service
@@ -258,6 +266,12 @@ flush
 profileData
 =
 readProfilesIni
+(
+)
+;
+installData
+=
+readInstallsIni
 (
 )
 ;
@@ -375,7 +389,7 @@ Object
 .
 keys
 (
-profileData
+installData
 .
 installs
 )
@@ -397,7 +411,7 @@ Assert
 .
 equal
 (
-profileData
+installData
 .
 installs
 [
@@ -433,6 +447,7 @@ install
 checkProfileService
 (
 profileData
+installData
 )
 ;
 let
@@ -463,6 +478,12 @@ flush
 profileData
 =
 readProfilesIni
+(
+)
+;
+installData
+=
+readInstallsIni
 (
 )
 ;
@@ -623,7 +644,7 @@ Object
 .
 keys
 (
-profileData
+installData
 .
 installs
 )
@@ -645,7 +666,7 @@ Assert
 .
 equal
 (
-profileData
+installData
 .
 installs
 [
@@ -681,6 +702,7 @@ install
 checkProfileService
 (
 profileData
+installData
 )
 ;
 newProfile
@@ -699,6 +721,12 @@ flush
 profileData
 =
 readProfilesIni
+(
+)
+;
+installData
+=
+readInstallsIni
 (
 )
 ;
@@ -807,7 +835,7 @@ Object
 .
 keys
 (
-profileData
+installData
 .
 installs
 )
@@ -829,7 +857,7 @@ Assert
 .
 equal
 (
-profileData
+installData
 .
 installs
 [
@@ -865,6 +893,7 @@ install
 checkProfileService
 (
 profileData
+installData
 )
 ;
 otherProfile
@@ -883,6 +912,12 @@ flush
 profileData
 =
 readProfilesIni
+(
+)
+;
+installData
+=
+readInstallsIni
 (
 )
 ;
@@ -939,7 +974,7 @@ Object
 .
 keys
 (
-profileData
+installData
 .
 installs
 )
@@ -960,6 +995,7 @@ install
 checkProfileService
 (
 profileData
+installData
 )
 ;
 }

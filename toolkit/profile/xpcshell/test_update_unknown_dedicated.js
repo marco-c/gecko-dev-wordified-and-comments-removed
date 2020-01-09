@@ -85,6 +85,13 @@ readProfilesIni
 (
 )
 ;
+let
+installData
+=
+readInstallsIni
+(
+)
+;
 Assert
 .
 ok
@@ -295,7 +302,7 @@ Object
 .
 keys
 (
-profileData
+installData
 .
 installs
 )
@@ -317,7 +324,7 @@ Assert
 .
 equal
 (
-profileData
+installData
 .
 installs
 [
@@ -343,7 +350,7 @@ Assert
 .
 ok
 (
-profileData
+installData
 .
 installs
 [
@@ -370,6 +377,7 @@ install
 checkProfileService
 (
 profileData
+installData
 )
 ;
 Assert
