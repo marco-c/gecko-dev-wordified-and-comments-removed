@@ -93,6 +93,10 @@ aIsTopLevelDocument
 nsIURI
 *
 aURI
+bool
+aForced
+=
+false
 )
 ;
 void
