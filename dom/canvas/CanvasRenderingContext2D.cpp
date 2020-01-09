@@ -19813,10 +19813,7 @@ CreateFontGroup
 (
 FontFamilyList
 (
-StyleGenericFontFamily
-:
-:
-SansSerif
+eFamily_sans_serif
 )
 &
 style

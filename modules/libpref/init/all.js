@@ -23713,7 +23713,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 ar
 "
@@ -23769,7 +23769,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 el
 "
@@ -23827,7 +23827,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 he
 "
@@ -23885,7 +23885,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 ja
 "
@@ -23943,7 +23943,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 ko
 "
@@ -24001,7 +24001,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 th
 "
@@ -24063,7 +24063,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24127,7 +24127,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24191,7 +24191,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24255,7 +24255,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24319,7 +24319,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24383,7 +24383,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24447,7 +24447,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24511,7 +24511,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24575,7 +24575,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24639,7 +24639,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24703,7 +24703,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24767,7 +24767,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24831,7 +24831,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24895,7 +24895,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -24959,7 +24959,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -25023,7 +25023,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -25087,7 +25087,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -25151,7 +25151,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -25215,7 +25215,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -25281,7 +25281,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 zh
 -
@@ -25347,7 +25347,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 zh
 -
@@ -25413,7 +25413,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 zh
 -
@@ -25477,7 +25477,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -32114,7 +32114,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 ar
 "
@@ -32204,7 +32204,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 el
 "
@@ -32294,7 +32294,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 he
 "
@@ -32886,7 +32886,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -34078,7 +34078,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -34178,7 +34178,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -34531,7 +34531,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 ar
 "
@@ -34561,7 +34561,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 el
 "
@@ -34575,7 +34575,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 he
 "
@@ -34607,7 +34607,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -34641,7 +34641,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
@@ -34675,7 +34675,7 @@ font
 .
 size
 .
-monospace
+fixed
 .
 x
 -
