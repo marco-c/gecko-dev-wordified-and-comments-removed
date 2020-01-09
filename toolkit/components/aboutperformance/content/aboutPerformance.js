@@ -1616,6 +1616,15 @@ getByHostname
 host
 )
 ;
+if
+(
+!
+addon
+)
+{
+continue
+;
+}
 name
 =
 {
