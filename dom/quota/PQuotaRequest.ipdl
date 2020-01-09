@@ -125,6 +125,16 @@ PersistResponse
 {
 }
 ;
+struct
+ListInitializedOriginsResponse
+{
+nsCString
+[
+]
+origins
+;
+}
+;
 union
 RequestResponse
 {
@@ -149,6 +159,8 @@ ResetAllResponse
 PersistedResponse
 ;
 PersistResponse
+;
+ListInitializedOriginsResponse
 ;
 }
 ;

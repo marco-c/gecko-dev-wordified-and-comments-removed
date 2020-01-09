@@ -301,6 +301,11 @@ principalInfo
 ;
 }
 ;
+struct
+ListInitializedOriginsParams
+{
+}
+;
 union
 RequestParams
 {
@@ -323,6 +328,8 @@ ResetAllParams
 PersistedParams
 ;
 PersistParams
+;
+ListInitializedOriginsParams
 ;
 }
 ;

@@ -282,6 +282,14 @@ nsIPrincipal
 aPrincipal
 )
 ;
+explicit
+Request
+(
+nsIQuotaCallback
+*
+aCallback
+)
+;
 void
 SetResult
 (
