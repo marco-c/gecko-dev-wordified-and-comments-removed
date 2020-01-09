@@ -472,7 +472,7 @@ if
 (
 grammarNumberOfEntries
 >
-BINKIND_LIMIT
+BINASTKIND_LIMIT
 )
 {
 return
@@ -492,7 +492,7 @@ table
 }
 Vector
 <
-BinKind
+BinASTKind
 >
 grammarTable_
 (
@@ -618,7 +618,7 @@ binast
 (
 )
 .
-binKind
+binASTKind
 (
 cx_
 name
@@ -1626,7 +1626,7 @@ JS
 :
 Result
 <
-BinVariant
+BinASTVariant
 >
 BinASTTokenReaderMultipart
 :
@@ -1726,7 +1726,7 @@ binast
 (
 )
 .
-binVariant
+binASTVariant
 (
 cx_
 slice
@@ -1870,13 +1870,13 @@ BinASTTokenReaderMultipart
 :
 enterTaggedTuple
 (
-BinKind
+BinASTKind
 &
 tag
 BinASTTokenReaderMultipart
 :
 :
-BinFields
+BinASTFields
 &
 AutoTaggedTuple
 &
@@ -1899,7 +1899,7 @@ index
 metadata_
 -
 >
-numBinKinds
+numBinASTKinds
 (
 )
 )
@@ -1922,7 +1922,7 @@ tag
 metadata_
 -
 >
-getBinKind
+getBinASTKind
 (
 index
 )

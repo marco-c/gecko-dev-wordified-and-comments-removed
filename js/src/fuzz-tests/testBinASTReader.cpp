@@ -333,7 +333,7 @@ js
 frontend
 :
 :
-BinTokenReaderMultipart
+BinASTTokenReaderMultipart
 >
 reader
 (
