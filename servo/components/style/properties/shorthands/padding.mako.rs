@@ -67,7 +67,9 @@ padding
 "
 allow_quirks
 =
-True
+"
+Yes
+"
 )
 }
 {

@@ -80,7 +80,9 @@ color
 "
 allow_quirks
 =
-True
+"
+Yes
+"
 )
 }
 {
