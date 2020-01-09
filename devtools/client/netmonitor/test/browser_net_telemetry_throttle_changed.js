@@ -22,6 +22,7 @@ function
 const
 {
 monitor
+toolbox
 }
 =
 await
@@ -141,11 +142,9 @@ click
 (
 )
 ;
-monitor
+toolbox
 .
-panelWin
-.
-parent
+topWindow
 .
 document
 .
