@@ -7344,6 +7344,9 @@ static
 bool
 NativeData2JS
 (
+JSContext
+*
+cx
 JS
 :
 :

@@ -5437,6 +5437,7 @@ XPCConvert
 :
 NativeData2JS
 (
+mCallContext
 &
 v
 &
@@ -5760,6 +5761,7 @@ XPCConvert
 :
 NativeData2JS
 (
+mCallContext
 &
 v
 &
