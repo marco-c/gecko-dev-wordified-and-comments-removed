@@ -203,6 +203,12 @@ view
 inputmethod
 .
 ExtractedTextRequest
+import
+org
+.
+json
+.
+JSONObject
 class
 Callbacks
 private
