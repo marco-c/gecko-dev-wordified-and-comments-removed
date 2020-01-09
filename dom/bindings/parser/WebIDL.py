@@ -35516,6 +35516,14 @@ identifier
 "
 NonEnumerable
 "
+or
+              
+identifier
+=
+=
+"
+Unexposed
+"
 )
 :
             
