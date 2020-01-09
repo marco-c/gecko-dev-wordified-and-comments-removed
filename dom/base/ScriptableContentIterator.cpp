@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+ContentIterator
+.
+h
+"
+#
+include
+"
 nsINode
 .
 h
@@ -111,7 +120,8 @@ SUBTREE_ITERATOR
 :
 mContentIterator
 =
-NS_NewContentSubtreeIterator
+new
+ContentSubtreeIterator
 (
 )
 ;
