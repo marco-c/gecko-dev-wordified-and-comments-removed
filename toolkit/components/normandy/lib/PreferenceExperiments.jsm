@@ -1343,6 +1343,12 @@ experimentType
 "
 exp
 "
+userFacingName
+=
+null
+userFacingDescription
+=
+null
 }
 )
 {
@@ -1909,6 +1915,8 @@ toJSON
 )
 preferences
 experimentType
+userFacingName
+userFacingDescription
 }
 ;
 store
