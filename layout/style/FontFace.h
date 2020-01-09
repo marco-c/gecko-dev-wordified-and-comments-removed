@@ -904,6 +904,11 @@ aDescriptors
 )
 ;
 void
+DescriptorUpdated
+(
+)
+;
+void
 SetStatus
 (
 mozilla

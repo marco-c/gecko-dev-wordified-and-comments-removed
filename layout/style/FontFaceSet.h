@@ -787,6 +787,11 @@ CacheFontLoadability
 (
 )
 ;
+void
+MarkUserFontSetDirty
+(
+)
+;
 private
 :
 ~
@@ -987,11 +992,6 @@ uint32_t
 aFlags
 nsresult
 aStatus
-)
-;
-void
-MarkUserFontSetDirty
-(
 )
 ;
 void
