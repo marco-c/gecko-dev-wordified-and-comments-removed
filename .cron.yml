@@ -565,6 +565,13 @@ tasks
 method
 :
 customv8_update
+optimize
+-
+target
+-
+tasks
+:
+false
 run
 -
 on
