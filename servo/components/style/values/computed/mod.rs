@@ -680,8 +680,8 @@ length
 :
 {
 LengthPercentageOrAuto
-MaxLength
-MozLength
+MaxSize
+Size
 }
 ;
 pub

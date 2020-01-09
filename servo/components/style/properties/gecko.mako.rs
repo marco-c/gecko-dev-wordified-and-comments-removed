@@ -11639,12 +11639,12 @@ LengthPercentageOrAuto
 :
 impl_style_coord
 "
-MaxLength
+MaxSize
 "
 :
 impl_style_coord
 "
-MozLength
+Size
 "
 :
 impl_style_coord

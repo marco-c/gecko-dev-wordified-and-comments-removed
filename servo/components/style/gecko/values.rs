@@ -136,12 +136,12 @@ computed
 :
 :
 {
-MaxLength
+MaxSize
 as
-ComputedMaxLength
-MozLength
+ComputedMaxSize
+Size
 as
-ComputedMozLength
+ComputedSize
 }
 ;
 use
@@ -267,8 +267,8 @@ length
 :
 {
 LengthPercentageOrAuto
-MaxLength
-MozLength
+MaxSize
+Size
 }
 ;
 use
@@ -712,7 +712,7 @@ Some
 width
 )
 =
-ComputedMozLength
+ComputedSize
 :
 :
 from_gecko_style_coord
@@ -2554,7 +2554,7 @@ None
 impl
 GeckoStyleCoordConvertible
 for
-ComputedMozLength
+ComputedSize
 {
 fn
 to_gecko_style_coord
@@ -2577,7 +2577,7 @@ match
 *
 self
 {
-MozLength
+Size
 :
 :
 LengthPercentage
@@ -2593,7 +2593,7 @@ to_gecko_style_coord
 (
 coord
 )
-MozLength
+Size
 :
 :
 Auto
@@ -2608,7 +2608,7 @@ CoordDataValue
 :
 Auto
 )
-MozLength
+Size
 :
 :
 ExtremumLength
@@ -2662,7 +2662,7 @@ as_value
 return
 Some
 (
-MozLength
+Size
 :
 :
 Auto
@@ -2687,7 +2687,7 @@ coord
 return
 Some
 (
-MozLength
+Size
 :
 :
 LengthPercentage
@@ -2707,7 +2707,7 @@ coord
 .
 map
 (
-MozLength
+Size
 :
 :
 ExtremumLength
@@ -2717,7 +2717,7 @@ ExtremumLength
 impl
 GeckoStyleCoordConvertible
 for
-ComputedMaxLength
+ComputedMaxSize
 {
 fn
 to_gecko_style_coord
@@ -2740,7 +2740,7 @@ match
 *
 self
 {
-MaxLength
+MaxSize
 :
 :
 LengthPercentage
@@ -2756,7 +2756,7 @@ to_gecko_style_coord
 (
 coord
 )
-MaxLength
+MaxSize
 :
 :
 None
@@ -2771,7 +2771,7 @@ CoordDataValue
 :
 None
 )
-MaxLength
+MaxSize
 :
 :
 ExtremumLength
@@ -2825,7 +2825,7 @@ as_value
 return
 Some
 (
-MaxLength
+MaxSize
 :
 :
 None
@@ -2850,7 +2850,7 @@ coord
 return
 Some
 (
-MaxLength
+MaxSize
 :
 :
 LengthPercentage
@@ -2870,7 +2870,7 @@ coord
 .
 map
 (
-MaxLength
+MaxSize
 :
 :
 ExtremumLength

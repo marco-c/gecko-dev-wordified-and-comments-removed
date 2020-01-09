@@ -670,8 +670,8 @@ length
 :
 :
 {
-MaxLength
-MozLength
+MaxSize
+Size
 }
 ;
 pub
