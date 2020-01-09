@@ -3019,6 +3019,7 @@ mWorkerPrivate
 CookieSettings
 (
 )
+true
 mWorkerPrivate
 -
 >
