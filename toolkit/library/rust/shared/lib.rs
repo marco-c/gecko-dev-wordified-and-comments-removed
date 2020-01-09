@@ -975,7 +975,7 @@ C
 "
 {
 fn
-GeckoCrashOOL
+GeckoCrash
 (
 filename
 :
@@ -1390,7 +1390,7 @@ filename
 ;
 unsafe
 {
-GeckoCrashOOL
+GeckoCrash
 (
 filename
 .

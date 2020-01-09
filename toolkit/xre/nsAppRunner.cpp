@@ -24397,7 +24397,7 @@ extern
 C
 "
 void
-GeckoCrashOOL
+GeckoCrash
 (
 const
 char
