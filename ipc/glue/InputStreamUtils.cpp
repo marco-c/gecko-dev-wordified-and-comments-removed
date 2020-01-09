@@ -39,8 +39,6 @@ mozilla
 /
 dom
 /
-ipc
-/
 IPCBlobInputStream
 .
 h
@@ -51,8 +49,6 @@ include
 mozilla
 /
 dom
-/
-ipc
 /
 IPCBlobInputStreamStorage
 .

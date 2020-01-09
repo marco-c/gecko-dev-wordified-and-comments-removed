@@ -282,8 +282,6 @@ mozilla
 /
 dom
 /
-ipc
-/
 IPCBlobInputStreamParent
 .
 h
@@ -3302,6 +3300,9 @@ return
 true
 ;
 }
+dom
+:
+:
 PIPCBlobInputStreamParent
 *
 BackgroundParentImpl
@@ -3329,9 +3330,6 @@ AssertIsOnBackgroundThread
 ;
 RefPtr
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -3339,9 +3337,6 @@ IPCBlobInputStreamParent
 >
 actor
 =
-mozilla
-:
-:
 dom
 :
 :
@@ -3379,6 +3374,9 @@ BackgroundParentImpl
 :
 RecvPIPCBlobInputStreamConstructor
 (
+dom
+:
+:
 PIPCBlobInputStreamParent
 *
 aActor
@@ -3397,9 +3395,6 @@ if
 !
 static_cast
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -3435,6 +3430,9 @@ BackgroundParentImpl
 :
 DeallocPIPCBlobInputStreamParent
 (
+dom
+:
+:
 PIPCBlobInputStreamParent
 *
 aActor
@@ -3455,9 +3453,6 @@ aActor
 ;
 RefPtr
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -3469,9 +3464,6 @@ dont_AddRef
 (
 static_cast
 <
-mozilla
-:
-:
 dom
 :
 :
