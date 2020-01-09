@@ -2776,16 +2776,6 @@ break
 if
 (
 !
-this
-.
-popup
-.
-disableKeyNavigation
-)
-{
-if
-(
-!
 aNoDefer
 &
 &
@@ -2833,7 +2823,6 @@ aEvent
 return
 true
 ;
-}
 }
 return
 this
