@@ -2039,11 +2039,6 @@ shape
 "
 shapeSwatchClass
 :
-SHARED_SWATCH_CLASS
-+
-"
-"
-+
 SHAPE_SWATCH_CLASS
 defaultColorType
 :
