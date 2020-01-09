@@ -1302,6 +1302,15 @@ vector
 Component
 :
 :
+Part
+(
+.
+.
+)
+|
+Component
+:
+:
 PseudoElement
 (
 .

@@ -4230,6 +4230,15 @@ ID
 Component
 :
 :
+Part
+(
+.
+.
+)
+|
+Component
+:
+:
 Class
 (
 .
