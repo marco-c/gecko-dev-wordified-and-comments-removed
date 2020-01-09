@@ -4336,6 +4336,15 @@ B
 tier
 :
 2
+attributes
+:
+enable
+-
+full
+-
+crashsymbols
+:
+true
 worker
 -
 type
