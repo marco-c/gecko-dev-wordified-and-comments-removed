@@ -4957,7 +4957,7 @@ e
 ;
 static
 bool
-TeeReaderClosedHandler
+TeeReaderErroredHandler
 (
 JSContext
 *
@@ -5349,7 +5349,7 @@ cx
 NewHandler
 (
 cx
-TeeReaderClosedHandler
+TeeReaderErroredHandler
 teeState
 )
 )
