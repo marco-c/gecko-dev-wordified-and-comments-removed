@@ -12658,12 +12658,6 @@ next
 )
 )
 {
-AutoSweepTypeScript
-sweep
-(
-script
-)
-;
 if
 (
 script
@@ -12679,7 +12673,6 @@ script
 >
 types
 (
-sweep
 )
 )
 {

@@ -1205,7 +1205,7 @@ types
 script
 -
 >
-typesDontCheckGeneration
+types
 (
 )
 )
@@ -1373,7 +1373,7 @@ types
 script
 -
 >
-typesDontCheckGeneration
+types
 (
 )
 )
