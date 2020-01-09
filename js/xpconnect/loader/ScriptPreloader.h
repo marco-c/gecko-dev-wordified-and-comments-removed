@@ -1582,7 +1582,7 @@ nsIFile
 >
 mProfD
 ;
-nsCOMPtr
+RefPtr
 <
 nsIThread
 >
