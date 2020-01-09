@@ -1949,7 +1949,7 @@ AcquireX
 (
 )
 ;
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this

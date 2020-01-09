@@ -21023,7 +21023,7 @@ defined
 (
 JS_CODEGEN_ARM64
 )
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &

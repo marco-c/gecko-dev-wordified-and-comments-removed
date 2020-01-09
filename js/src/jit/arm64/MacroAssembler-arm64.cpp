@@ -1639,7 +1639,7 @@ ptr
 )
 ;
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -2012,7 +2012,7 @@ ptr
 )
 ;
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -4065,7 +4065,7 @@ AcquireX
 (
 )
 ;
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -4318,7 +4318,7 @@ CallSiteDesc
 desc
 )
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -6273,7 +6273,7 @@ wasmTrapInstruction
 (
 )
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -8784,7 +8784,7 @@ case
 :
 {
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -8855,7 +8855,7 @@ case
 :
 {
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -8926,7 +8926,7 @@ case
 :
 {
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -9004,7 +9004,7 @@ case
 :
 {
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &

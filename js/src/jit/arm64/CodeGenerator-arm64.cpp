@@ -5187,7 +5187,7 @@ mir
 (
 )
 ;
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
