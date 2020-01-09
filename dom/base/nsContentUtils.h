@@ -7172,6 +7172,16 @@ Document
 aDocument
 )
 ;
+static
+uint32_t
+GetCookieLifetimePolicy
+(
+)
+{
+return
+sCookiesLifetimePolicy
+;
+}
 private
 :
 static
