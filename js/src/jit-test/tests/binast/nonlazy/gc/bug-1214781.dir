@@ -7,8 +7,6 @@ test
 |
 allow
 -
-unhandlable
--
 oom
 ;
 skip
