@@ -785,6 +785,10 @@ introductionUrl
 ?
 string
 +
+isExtension
+:
+boolean
++
 actors
 :
 SourceActor

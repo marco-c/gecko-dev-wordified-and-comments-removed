@@ -212,6 +212,11 @@ isBlackBoxed
 :
 false
 "
+isExtension
+"
+:
+false
+"
 isPrettyPrinted
 "
 :
@@ -446,6 +451,11 @@ introductionUrl
 null
 "
 isBlackBoxed
+"
+:
+false
+"
+isExtension
 "
 :
 false
@@ -696,6 +706,11 @@ isBlackBoxed
 :
 false
 "
+isExtension
+"
+:
+false
+"
 isPrettyPrinted
 "
 :
@@ -930,6 +945,11 @@ introductionUrl
 null
 "
 isBlackBoxed
+"
+:
+false
+"
+isExtension
 "
 :
 false

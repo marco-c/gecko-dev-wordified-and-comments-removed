@@ -92,6 +92,9 @@ isWasm
 :
 false
 contentType
+isExtension
+:
+false
 text
 }
 ;
@@ -154,6 +157,9 @@ actors
 isWasm
 :
 true
+isExtension
+:
+false
 text
 }
 ;

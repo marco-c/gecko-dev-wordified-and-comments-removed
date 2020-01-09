@@ -293,6 +293,9 @@ loading
 introductionUrl
 :
 null
+isExtension
+:
+false
 actors
 :
 [
