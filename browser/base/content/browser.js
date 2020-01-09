@@ -27266,12 +27266,6 @@ false
 aBrowser
 )
 ;
-ContentBlocking
-.
-onLocationChange
-(
-)
-;
 }
 onLinkIconAvailable
 (
