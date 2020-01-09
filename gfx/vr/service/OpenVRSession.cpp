@@ -12936,10 +12936,10 @@ ETextureType
 TextureType_IOSurface
 aLayer
 .
-mLeftEyeRect
+leftEyeRect
 aLayer
 .
-mRightEyeRect
+rightEyeRect
 )
 ;
 }
