@@ -70,6 +70,9 @@ interface
 nsIAutoCompletePopup
 ;
 webidl
+Element
+;
+webidl
 HTMLInputElement
 ;
 /
@@ -235,6 +238,17 @@ nsIDocShell
 docShell
 in
 nsIAutoCompletePopup
+popup
+)
+;
+void
+attachPopupElementToBrowser
+(
+in
+nsIDocShell
+docShell
+in
+Element
 popup
 )
 ;
