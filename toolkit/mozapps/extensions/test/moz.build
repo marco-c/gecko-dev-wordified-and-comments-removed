@@ -124,6 +124,17 @@ XPCSHELL_TESTS_MANIFESTS
 '
 xpcshell
 /
+rs
+-
+blocklist
+/
+xpcshell
+.
+ini
+'
+'
+xpcshell
+/
 xml
 -
 blocklist

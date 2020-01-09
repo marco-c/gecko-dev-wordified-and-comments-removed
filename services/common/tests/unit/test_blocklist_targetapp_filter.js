@@ -1,5 +1,7 @@
 const
+{
 BlocklistClients
+}
 =
 ChromeUtils
 .
@@ -20,7 +22,6 @@ clients
 .
 js
 "
-null
 )
 ;
 const

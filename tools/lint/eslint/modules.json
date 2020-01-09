@@ -296,16 +296,7 @@ js
 :
 [
 "
-AddonBlocklistClient
-"
-"
-GfxBlocklistClient
-"
-"
-OneCRLBlocklistClient
-"
-"
-PluginBlocklistClient
+BlocklistClients
 "
 ]
 "

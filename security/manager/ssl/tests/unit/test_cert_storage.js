@@ -58,7 +58,9 @@ js
 )
 ;
 const
+{
 BlocklistClients
+}
 =
 ChromeUtils
 .

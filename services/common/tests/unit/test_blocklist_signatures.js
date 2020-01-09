@@ -52,7 +52,9 @@ jsm
 )
 ;
 const
+{
 BlocklistClients
+}
 =
 ChromeUtils
 .
@@ -73,7 +75,6 @@ clients
 .
 js
 "
-null
 )
 ;
 const
@@ -451,6 +452,9 @@ length
 )
 ;
 }
+let
+OneCRLBlocklistClient
+;
 add_task
 (
 async
@@ -467,13 +471,6 @@ server
 identity
 .
 primaryPort
-;
-const
-OneCRLBlocklistClient
-=
-BlocklistClients
-.
-OneCRLBlocklistClient
 ;
 const
 TELEMETRY_HISTOGRAM_KEY
@@ -3659,11 +3656,15 @@ run_test
 (
 )
 {
+OneCRLBlocklistClient
+=
 BlocklistClients
 .
 initialize
 (
 )
+.
+OneCRLBlocklistClient
 ;
 Services
 .

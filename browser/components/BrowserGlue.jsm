@@ -10905,11 +10905,9 @@ init
 }
 )
 ;
-Services
+ChromeUtils
 .
-tm
-.
-idleDispatchToMainThread
+idleDispatch
 (
 (
 )

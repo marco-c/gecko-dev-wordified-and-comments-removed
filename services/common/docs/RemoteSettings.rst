@@ -2869,7 +2869,9 @@ block
 :
 js
 const
+{
 BlocklistClients
+}
 =
 ChromeUtils
 .

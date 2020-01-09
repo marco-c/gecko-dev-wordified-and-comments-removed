@@ -37,7 +37,9 @@ jsm
 )
 ;
 const
+{
 BlocklistClients
+}
 =
 ChromeUtils
 .
@@ -58,7 +60,6 @@ clients
 .
 js
 "
-null
 )
 ;
 const
@@ -158,16 +159,14 @@ test_something
 (
 )
 {
+const
+PinningPreloadClient
+=
 BlocklistClients
 .
 initialize
 (
 )
-;
-const
-PinningPreloadClient
-=
-BlocklistClients
 .
 PinningBlocklistClient
 ;
