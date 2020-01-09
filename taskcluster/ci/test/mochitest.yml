@@ -580,9 +580,6 @@ aarch64
 default
 :
 default
-e10s
-:
-false
 run
 -
 on
