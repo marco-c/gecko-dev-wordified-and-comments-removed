@@ -2011,6 +2011,7 @@ dom
 :
 AllocPBackgroundLSSimpleRequestParent
 (
+this
 aParams
 )
 ;
