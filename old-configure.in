@@ -662,7 +662,7 @@ NSPR_MINVER
 =
 4
 .
-21
+19
 NSS_VERSION
 =
 3
@@ -816,9 +816,9 @@ SQLITE_VERSION
 =
 3
 .
-26
+27
 .
-0
+1
 dnl
 Set
 various
