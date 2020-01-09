@@ -32,8 +32,6 @@ import
 sys
 import
 time
-import
-types
 from
 collections
 import
@@ -2249,9 +2247,10 @@ isinstance
 (
 other
 (
-types
-.
-NoneType
+type
+(
+None
+)
 EmptyValue
 )
 )
@@ -2323,9 +2322,10 @@ isinstance
 (
 other
 (
-types
-.
-NoneType
+type
+(
+None
+)
 EmptyValue
 )
 )
