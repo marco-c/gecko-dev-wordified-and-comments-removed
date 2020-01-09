@@ -47,6 +47,9 @@ namespace
 dom
 {
 class
+Document
+;
+class
 Selection
 ;
 }
