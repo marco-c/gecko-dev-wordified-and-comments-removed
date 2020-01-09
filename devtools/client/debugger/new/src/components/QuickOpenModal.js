@@ -1310,6 +1310,9 @@ resultCount
 )
 %
 resultCount
+|
+|
+0
 ;
 this
 .

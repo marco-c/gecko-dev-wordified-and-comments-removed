@@ -3421,7 +3421,7 @@ selectedIndex
 .
 toEqual
 (
-NaN
+0
 )
 ;
 expect
