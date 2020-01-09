@@ -775,7 +775,7 @@ realm
 )
 -
 >
-maybeGlobal
+unsafeUnbarrieredMaybeGlobal
 (
 )
 ;
