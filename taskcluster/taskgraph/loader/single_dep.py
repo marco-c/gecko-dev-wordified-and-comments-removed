@@ -386,8 +386,9 @@ only_attributes
 )
             
 if
+not
 config_attrs
--
+&
 set
 (
 task
