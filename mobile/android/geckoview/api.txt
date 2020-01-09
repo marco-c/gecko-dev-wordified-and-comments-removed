@@ -808,6 +808,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onContentBlocked
@@ -1758,6 +1759,7 @@ support
 annotation
 .
 Nullable
+default
 public
 android
 .
@@ -1776,6 +1778,7 @@ support
 annotation
 .
 UiThread
+default
 public
 boolean
 isToolbarChromeVisible
@@ -1790,6 +1793,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 toggleToolbarChrome
@@ -6089,6 +6093,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onCloseRequest
@@ -6117,6 +6122,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onContextMenu
@@ -6165,6 +6171,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onCrash
@@ -6193,6 +6200,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onExternalResponse
@@ -6237,6 +6245,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onFirstComposite
@@ -6265,6 +6274,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onFocusRequest
@@ -6293,6 +6303,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onFullScreen
@@ -6322,6 +6333,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onTitleChange
@@ -6694,6 +6706,7 @@ support
 annotation
 .
 Nullable
+default
 public
 org
 .
@@ -6754,6 +6767,7 @@ support
 annotation
 .
 Nullable
+default
 public
 org
 .
@@ -6900,6 +6914,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onMediaAdd
@@ -6942,6 +6957,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onMediaRemove
@@ -6992,6 +7008,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onCanGoBack
@@ -7021,6 +7038,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onCanGoForward
@@ -7057,6 +7075,7 @@ support
 annotation
 .
 Nullable
+default
 public
 org
 .
@@ -7131,6 +7150,7 @@ support
 annotation
 .
 Nullable
+default
 public
 org
 .
@@ -7192,6 +7212,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onLocationChange
@@ -7239,6 +7260,7 @@ support
 annotation
 .
 Nullable
+default
 public
 org
 .
@@ -7418,6 +7440,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onAndroidPermissionsRequest
@@ -7478,6 +7501,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onContentPermissionRequest
@@ -7537,6 +7561,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onMediaPermissionRequest
@@ -7663,6 +7688,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 grant
@@ -7677,6 +7703,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 reject
@@ -7701,6 +7728,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 grant
@@ -7739,6 +7767,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 grant
@@ -7789,6 +7818,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 reject
@@ -7977,6 +8007,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onPageStart
@@ -8017,6 +8048,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onPageStop
@@ -8046,6 +8078,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onProgressChange
@@ -8075,6 +8108,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onSecurityChange
@@ -8289,6 +8323,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onAlert
@@ -8359,6 +8394,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onAuthPrompt
@@ -8447,6 +8483,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onButtonPrompt
@@ -8531,6 +8568,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onChoicePrompt
@@ -8622,6 +8660,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onColorPrompt
@@ -8692,6 +8731,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onDateTimePrompt
@@ -8787,6 +8827,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onFilePrompt
@@ -8867,6 +8908,7 @@ support
 annotation
 .
 Nullable
+default
 public
 org
 .
@@ -8922,6 +8964,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onTextPrompt
@@ -9104,6 +9147,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 dismiss
@@ -9125,6 +9169,7 @@ support
 annotation
 .
 Nullable
+default
 public
 java
 .
@@ -9143,6 +9188,7 @@ support
 annotation
 .
 UiThread
+default
 public
 boolean
 getCheckboxValue
@@ -9157,6 +9203,7 @@ support
 annotation
 .
 UiThread
+default
 public
 boolean
 hasCheckbox
@@ -9171,6 +9218,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 setCheckboxValue
@@ -9208,6 +9256,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 confirm
@@ -9234,6 +9283,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 confirm
@@ -9419,6 +9469,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 confirm
@@ -9565,6 +9616,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 confirm
@@ -9591,6 +9643,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 confirm
@@ -9619,6 +9672,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 confirm
@@ -9651,6 +9705,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 confirm
@@ -9725,6 +9780,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 confirm
@@ -9763,6 +9819,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 confirm
@@ -9843,6 +9900,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 confirm
@@ -9877,6 +9935,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onScrollChanged
@@ -9915,6 +9974,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onHideAction
@@ -9944,6 +10004,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onShowActionRequest
@@ -10449,6 +10510,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 hideSoftInput
@@ -10477,6 +10539,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 notifyAutoFill
@@ -10507,6 +10570,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 restartInput
@@ -10536,6 +10600,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 showSoftInput
@@ -10564,6 +10629,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 updateCursorAnchorInfo
@@ -10606,6 +10672,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 updateExtractedText
@@ -10662,6 +10729,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 updateSelection
@@ -12517,6 +12585,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onError
@@ -12546,6 +12615,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onFullscreenChange
@@ -12575,6 +12645,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onLoadProgress
@@ -12619,6 +12690,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onMetadataChange
@@ -12663,6 +12735,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onPlaybackRateChange
@@ -12692,6 +12765,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onPlaybackStateChange
@@ -12721,6 +12795,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onReadyStateChange
@@ -12750,6 +12825,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onTimeChange
@@ -12779,6 +12855,7 @@ support
 annotation
 .
 UiThread
+default
 public
 void
 onVolumeChange
