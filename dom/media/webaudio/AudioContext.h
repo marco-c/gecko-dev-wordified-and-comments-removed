@@ -1260,6 +1260,14 @@ aPromise
 )
 ;
 void
+CloseInternal
+(
+void
+*
+aPromise
+)
+;
+void
 ReportBlocked
 (
 )
