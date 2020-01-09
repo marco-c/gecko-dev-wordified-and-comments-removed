@@ -17980,6 +17980,8 @@ endBevel
 )
 ;
 }
+break
+;
 }
 MOZ_FALLTHROUGH
 ;
