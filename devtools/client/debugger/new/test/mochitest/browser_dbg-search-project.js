@@ -325,6 +325,17 @@ switching
 )
 )
 ;
+await
+waitForLoadedSource
+(
+dbg
+"
+switching
+-
+01
+"
+)
+;
 }
 )
 ;

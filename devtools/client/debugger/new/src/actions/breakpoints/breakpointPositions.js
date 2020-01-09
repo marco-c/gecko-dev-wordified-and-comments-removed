@@ -604,6 +604,12 @@ thunkArgs
 )
 ;
 }
+catch
+(
+e
+)
+{
+}
 finally
 {
 requests

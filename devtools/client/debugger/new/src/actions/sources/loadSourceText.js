@@ -446,7 +446,6 @@ setSource
 newSource
 )
 ;
-await
 dispatch
 (
 setBreakpointPositions

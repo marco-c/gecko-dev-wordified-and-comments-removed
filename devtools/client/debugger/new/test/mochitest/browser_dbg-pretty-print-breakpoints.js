@@ -35,6 +35,7 @@ pretty
 js
 "
 )
+;
 await
 prettyPrint
 (
