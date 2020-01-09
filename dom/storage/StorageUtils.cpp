@@ -503,10 +503,7 @@ result
 .
 AppendInt
 (
-nsIScriptSecurityManager
-:
-:
-NO_APP_ID
+0
 )
 ;
 result
