@@ -338,6 +338,12 @@ BACKGROUND_FIT
 =
 5
 ;
+const
+long
+BACKGROUND_SPAN
+=
+6
+;
 /
 *
 *

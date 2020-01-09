@@ -108,6 +108,9 @@ BACKGROUND_FILL
 BACKGROUND_FIT
 :
 5
+BACKGROUND_SPAN
+:
+6
 setDesktopBackground
 (
 aElement
