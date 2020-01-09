@@ -796,7 +796,10 @@ JS_HOWMANY
 capacity
 (
 )
-NurseryChunkUsableSize
+gc
+:
+:
+ChunkSize
 )
 ;
 }
@@ -1448,7 +1451,10 @@ chunkCountLimit
 (
 )
 *
-NurseryChunkUsableSize
+gc
+:
+:
+ChunkSize
 )
 ;
 return
@@ -1537,7 +1543,10 @@ currentChunk_
 1
 )
 *
-NurseryChunkUsableSize
+gc
+:
+:
+ChunkSize
 ;
 }
 #
