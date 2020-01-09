@@ -221,6 +221,17 @@ ProcessFlush
 ;
 RefPtr
 <
+DecodePromise
+>
+ProcessDecode
+(
+MediaRawData
+*
+aSample
+)
+;
+RefPtr
+<
 ShutdownPromise
 >
 ProcessShutdown
