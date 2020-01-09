@@ -534,7 +534,6 @@ CowRcStr
 i
 >
 )
-UnknownVendorProperty
 ExperimentalProperty
 InvalidColor
 (
