@@ -227,6 +227,8 @@ components
 /
 telemetry
 /
+core
+/
 nsITelemetry
 .
 idl
@@ -260,6 +262,8 @@ toolkit
 components
 /
 telemetry
+/
+core
 /
 Telemetry
 .
@@ -1044,6 +1048,8 @@ toolkit
 components
 /
 telemetry
+/
+core
 /
 Telemetry
 .
