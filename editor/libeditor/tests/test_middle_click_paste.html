@@ -631,6 +631,7 @@ function
 checkInputEvent
 (
 aEvent
+aInputType
 aData
 aDataTransfer
 aDescription
@@ -698,14 +699,14 @@ is
 aEvent
 .
 inputType
-"
-insertFromPaste
-"
+aInputType
 inputType
 should
 be
 "
-insertFromPaste
+{
+aInputType
+}
 "
 {
 aDescription
@@ -943,6 +944,9 @@ inputEvents
 0
 ]
 "
+insertFromPasteAsQuotation
+"
+"
 abc
 \
 ndef
@@ -1076,6 +1080,9 @@ inputEvents
 [
 0
 ]
+"
+insertFromPasteAsQuotation
+"
 "
 >
 abc
@@ -1217,6 +1224,9 @@ inputEvents
 [
 0
 ]
+"
+insertFromPasteAsQuotation
+"
 "
 >
 abc
@@ -1354,6 +1364,9 @@ inputEvents
 [
 0
 ]
+"
+insertFromPasteAsQuotation
+"
 "
 abc
 \
@@ -1699,6 +1712,9 @@ inputEvents
 0
 ]
 "
+insertFromPaste
+"
+"
 abc
 "
 null
@@ -1877,6 +1893,9 @@ inputEvents
 [
 0
 ]
+"
+insertFromPaste
+"
 "
 abc
 "
@@ -2215,6 +2234,9 @@ inputEvents
 [
 0
 ]
+"
+insertFromPasteAsQuotation
+"
 null
 [
 {
@@ -2571,6 +2593,9 @@ inputEvents
 [
 0
 ]
+"
+insertFromPaste
+"
 null
 [
 {
@@ -2766,6 +2791,9 @@ inputEvents
 [
 0
 ]
+"
+insertFromPaste
+"
 null
 [
 {
@@ -3335,6 +3363,9 @@ inputEvents
 [
 0
 ]
+"
+insertFromPasteAsQuotation
+"
 null
 [
 {

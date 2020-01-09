@@ -53,6 +53,7 @@ eSetTextDirection
 eCut
 eCopy
 ePaste
+ePasteAsQuotation
 eDrop
 eIndent
 eOutdent
@@ -312,6 +313,18 @@ EditorInputType
 :
 :
 eInsertFromPaste
+;
+case
+EditAction
+:
+:
+ePasteAsQuotation
+:
+return
+EditorInputType
+:
+:
+eInsertFromPasteAsQuotation
 ;
 case
 EditAction
