@@ -275,7 +275,7 @@ test_cancel_search
 )
 {
 let
-providerCanceledPromise
+providerCanceledDeferred
 =
 PromiseUtils
 .
@@ -291,7 +291,7 @@ registerBasicTestProvider
 [
 match
 ]
-providerCanceledPromise
+providerCanceledDeferred
 .
 resolve
 )
@@ -329,7 +329,7 @@ promiseControllerNotification
 (
 controller
 "
-onQueryResults
+onQueryCancelled
 "
 )
 ;
@@ -380,7 +380,9 @@ canceled
 )
 ;
 await
-providerCanceledPromise
+providerCanceledDeferred
+.
+promise
 ;
 params
 =
