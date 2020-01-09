@@ -1455,7 +1455,6 @@ span
 enabled
 true
 )
-fails
 =
 =
 contain
@@ -1478,10 +1477,6 @@ multicol
 ref
 .
 html
-#
-Bug
-1494100
-fails
 =
 =
 contain
@@ -1504,9 +1499,6 @@ multicol
 ref
 .
 html
-#
-Bug
-1494100
 default
 -
 preferences
