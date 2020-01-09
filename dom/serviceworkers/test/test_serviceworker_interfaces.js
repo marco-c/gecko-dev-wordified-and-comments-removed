@@ -480,7 +480,7 @@ name
 "
 StorageManager
 "
-android
+fennec
 :
 false
 }
@@ -701,6 +701,18 @@ isAndroid
 !
 isFennec
 )
+)
+|
+|
+(
+entry
+.
+fennec
+=
+=
+=
+!
+isFennec
 )
 |
 |
