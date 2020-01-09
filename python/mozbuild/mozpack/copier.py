@@ -1985,7 +1985,9 @@ assert
 isinstance
 (
 destination
-basestring
+six
+.
+string_types
 )
         
 assert
@@ -3425,7 +3427,9 @@ if
 isinstance
 (
 dest
-basestring
+six
+.
+string_types
 )
 :
             
