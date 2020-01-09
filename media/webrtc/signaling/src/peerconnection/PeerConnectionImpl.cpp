@@ -14708,7 +14708,15 @@ mRoundTripTime
 .
 Construct
 (
+static_cast
+<
+double
+>
+(
 rtt
+)
+/
+1000
 )
 ;
 }

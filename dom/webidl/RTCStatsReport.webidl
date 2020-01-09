@@ -342,7 +342,7 @@ unsigned
 long
 packetsLost
 ;
-long
+double
 roundTripTime
 ;
 /

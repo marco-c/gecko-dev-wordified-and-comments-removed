@@ -3505,6 +3505,8 @@ RTT
 stats
 .
 roundTripTime
+*
+1000
 }
 ms
 ;

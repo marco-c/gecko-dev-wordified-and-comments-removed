@@ -1259,6 +1259,8 @@ mRoundTripTime
 Value
 (
 )
+*
+1000
 )
 ;
 }
