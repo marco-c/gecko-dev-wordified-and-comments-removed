@@ -77,6 +77,14 @@ taskgraph
 .
 transforms
 .
+build_attrs
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 job
 :
 transforms
@@ -165,6 +173,13 @@ amd64
 -
 build
 }
+chain
+-
+of
+-
+trust
+:
+true
 run
 :
 using
@@ -175,6 +190,8 @@ task
 jobs
 :
 linux
+-
+nightly
 /
 opt
 :
@@ -288,6 +305,8 @@ builds
 /
 worker
 linux64
+-
+nightly
 /
 opt
 :
@@ -401,6 +420,8 @@ builds
 /
 worker
 macosx64
+-
+nightly
 /
 opt
 :
@@ -516,6 +537,8 @@ builds
 /
 worker
 win32
+-
+nightly
 /
 opt
 :
@@ -625,6 +648,8 @@ builds
 /
 worker
 win64
+-
+nightly
 /
 opt
 :
