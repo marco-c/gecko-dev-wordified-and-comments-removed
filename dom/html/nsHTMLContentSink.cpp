@@ -2968,11 +2968,6 @@ WillBuildModelImpl
 (
 )
 ;
-if
-(
-mHTMLDocument
-)
-{
 nsCompatibility
 mode
 =
@@ -3006,7 +3001,7 @@ default
 break
 ;
 }
-mHTMLDocument
+mDocument
 -
 >
 SetCompatibilityMode
@@ -3014,7 +3009,6 @@ SetCompatibilityMode
 mode
 )
 ;
-}
 mDocument
 -
 >

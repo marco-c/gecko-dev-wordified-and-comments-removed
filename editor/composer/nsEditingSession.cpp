@@ -2638,7 +2638,7 @@ if
 htmlDoc
 &
 &
-htmlDoc
+doc
 -
 >
 IsWriting

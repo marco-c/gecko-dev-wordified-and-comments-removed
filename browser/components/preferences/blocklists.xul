@@ -580,6 +580,8 @@ button
 oncommand
 =
 "
+window
+.
 close
 (
 )

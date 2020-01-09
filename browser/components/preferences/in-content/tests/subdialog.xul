@@ -221,6 +221,8 @@ button
 oncommand
 =
 "
+window
+.
 close
 (
 )
