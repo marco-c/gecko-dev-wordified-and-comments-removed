@@ -277,11 +277,6 @@ GetActiveCues
 )
 ;
 void
-UpdateActiveCueList
-(
-)
-;
-void
 GetActiveCueArray
 (
 nsTArray
@@ -415,6 +410,14 @@ aEventName
 bool
 IsLoaded
 (
+)
+;
+void
+NotifyCueActiveStateChanged
+(
+TextTrackCue
+*
+aCue
 )
 ;
 private

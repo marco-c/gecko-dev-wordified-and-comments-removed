@@ -3767,13 +3767,6 @@ ttrack
 dummy
 )
 {
-ttrack
--
->
-UpdateActiveCueList
-(
-)
-;
 TextTrackCueList
 *
 activeCueList
