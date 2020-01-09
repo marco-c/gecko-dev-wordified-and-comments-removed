@@ -342,9 +342,7 @@ by
 -
 project
 :
-mozilla
--
-release
+default
 :
 taskcluster
 /
@@ -352,7 +350,7 @@ taskgraph
 /
 manifests
 /
-firefox_candidates
+firefox_nightly
 .
 yml
 mozilla
@@ -368,7 +366,9 @@ manifests
 firefox_candidates
 .
 yml
-default
+mozilla
+-
+release
 :
 taskcluster
 /
@@ -376,6 +376,6 @@ taskgraph
 /
 manifests
 /
-firefox_nightly
+firefox_candidates
 .
 yml
