@@ -12082,13 +12082,9 @@ false
 return
 tokenStream
 .
-getToken
+getTemplateToken
 (
 ttp
-TokenStream
-:
-:
-TemplateTail
 )
 ;
 }
