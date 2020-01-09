@@ -1177,6 +1177,12 @@ true
 testing
 :
 true
+max_texture_size
+:
+Some
+(
+8196
+)
 .
 .
 Default
