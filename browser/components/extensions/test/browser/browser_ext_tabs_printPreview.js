@@ -128,7 +128,7 @@ ppTab
 =
 PrintUtils
 .
-_shouldSimplify
+shouldSimplify
 ?
 PrintPreviewListener
 .
