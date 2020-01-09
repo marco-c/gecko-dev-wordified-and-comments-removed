@@ -148,16 +148,6 @@ finalize
 )
 ;
 }
-newChannel2
-(
-)
-{
-throw
-Cr
-.
-NS_ERROR_NOT_IMPLEMENTED
-;
-}
 newChannel
 (
 )

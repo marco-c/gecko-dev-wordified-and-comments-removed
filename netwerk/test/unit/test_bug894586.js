@@ -183,7 +183,7 @@ this
 uri
 ;
 }
-newChannel2
+newChannel
 :
 function
 (
@@ -197,17 +197,6 @@ loadInfo
 =
 aLoadInfo
 ;
-return
-this
-;
-}
-newChannel
-:
-function
-(
-aURI
-)
-{
 return
 this
 ;

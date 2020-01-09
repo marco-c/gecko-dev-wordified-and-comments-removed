@@ -2507,7 +2507,7 @@ rv
 protocolHandler
 -
 >
-NewChannel2
+NewChannel
 (
 dataURI
 loadInfo

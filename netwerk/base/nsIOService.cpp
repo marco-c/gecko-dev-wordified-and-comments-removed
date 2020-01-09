@@ -4162,7 +4162,7 @@ rv
 handler
 -
 >
-NewChannel2
+NewChannel
 (
 aURI
 aLoadInfo
