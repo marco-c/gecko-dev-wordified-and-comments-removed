@@ -63,7 +63,7 @@ getGeneratedFrameScope
 getOriginalFrameScope
 getIsPaused
 getPauseReason
-getMapScopes
+isMapScopesEnabled
 getCurrentThread
 }
 from
@@ -185,7 +185,7 @@ boolean
 why
 :
 Why
-shouldMapScopes
+mapScopesEnabled
 :
 boolean
 openLink
@@ -453,7 +453,7 @@ openLink
 openElementInInspector
 highlightDomElement
 unHighlightDomElement
-shouldMapScopes
+mapScopesEnabled
 }
 =
 this
@@ -478,7 +478,7 @@ scopes
 showOriginal
 &
 &
-shouldMapScopes
+mapScopesEnabled
 &
 &
 originalScopes
@@ -829,9 +829,9 @@ false
 return
 {
 selectedFrame
-shouldMapScopes
+mapScopesEnabled
 :
-getMapScopes
+isMapScopesEnabled
 (
 state
 )

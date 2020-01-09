@@ -160,23 +160,6 @@ function
 (
 )
 {
-await
-pushPref
-(
-"
-devtools
-.
-debugger
-.
-features
-.
-map
--
-scopes
-"
-true
-)
-;
 const
 dbg
 =
@@ -190,6 +173,14 @@ sourcemapped
 .
 html
 "
+)
+;
+dbg
+.
+actions
+.
+toggleMapScopes
+(
 )
 ;
 for
@@ -2390,7 +2381,6 @@ value
 "
 arrow
 "
-(
 target
 =
 =
@@ -2401,7 +2391,6 @@ rollup
 |
 |
 isParcel
-)
 ?
 "
 (
@@ -2512,7 +2501,6 @@ arg
 Function
 Body
 "
-(
 target
 =
 =
@@ -2523,7 +2511,6 @@ rollup
 |
 |
 isParcel
-)
 ?
 [
 "
@@ -2937,7 +2924,6 @@ maybeLineStart
 "
 Class
 "
-(
 target
 =
 =
@@ -2948,7 +2934,6 @@ rollup
 |
 |
 isParcel
-)
 ?
 [
 "
@@ -2979,7 +2964,6 @@ Another
 "
 one
 "
-(
 target
 =
 =
@@ -2990,7 +2974,6 @@ rollup
 |
 |
 isParcel
-)
 ?
 [
 "
@@ -3977,7 +3960,6 @@ inner
 Function
 Body
 "
-(
 target
 =
 =
@@ -3988,7 +3970,6 @@ rollup
 |
 |
 isParcel
-)
 ?
 [
 "
@@ -4935,7 +4916,6 @@ Thing
 "
 root
 "
-(
 target
 =
 =
@@ -4946,7 +4926,6 @@ rollup
 |
 |
 isParcel
-)
 ?
 [
 "
@@ -5108,12 +5087,10 @@ fn
 "
 ns
 "
-(
 isRollup
 |
 |
 isParcel
-)
 ?
 "
 (
@@ -7120,12 +7097,12 @@ named
 aNamed
 1
 "
-'
+"
 (
 optimized
 away
 )
-'
+"
 ]
 [
 "
