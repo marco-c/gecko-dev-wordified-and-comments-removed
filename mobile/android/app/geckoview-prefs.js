@@ -290,3 +290,15 @@ update
 true
 )
 ;
+pref
+(
+"
+ui
+.
+android
+.
+mouse_as_touch
+"
+2
+)
+;
