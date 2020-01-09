@@ -3154,9 +3154,6 @@ screen_world_rect
 ctx
 .
 device_pixel_scale
-task_info
-.
-snap_offsets
 )
 ;
 }

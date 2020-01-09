@@ -211,9 +211,6 @@ area
 cmi
 .
 sub_rect
-cmi
-.
-snap_offsets
 )
 ;
 vLocalPos
