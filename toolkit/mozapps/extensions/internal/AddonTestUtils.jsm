@@ -4458,6 +4458,10 @@ from
 XPIProvider
 .
 activeAddons
+.
+values
+(
+)
 addon
 =
 >
