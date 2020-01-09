@@ -270,7 +270,7 @@ Cell
 TemplateObject
 :
 :
-maybeShape
+shape
 (
 )
 const
@@ -282,7 +282,7 @@ shape
 obj_
 -
 >
-maybeShape
+shape
 (
 )
 ;

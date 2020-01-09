@@ -7889,9 +7889,8 @@ existingShape
 obj
 -
 >
-ensureShape
+shape
 (
-cx
 )
 ;
 if

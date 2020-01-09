@@ -1235,7 +1235,7 @@ if
 obj
 -
 >
-maybeShape
+shape
 (
 )
 !
