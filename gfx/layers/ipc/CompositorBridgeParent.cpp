@@ -4372,14 +4372,15 @@ AsHostLayer
 (
 )
 ;
-AnimationArray
+const
+auto
 &
 animations
 =
 layer
 -
 >
-GetAnimations
+GetPropertyAnimationGroups
 (
 )
 ;
