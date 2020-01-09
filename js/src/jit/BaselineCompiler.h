@@ -1388,6 +1388,10 @@ type
 void
 pushScriptNameArg
 (
+Register
+scratch1
+Register
+scratch2
 )
 ;
 void
@@ -1482,6 +1486,15 @@ void
 loadGlobalThisValue
 (
 ValueOperand
+dest
+)
+;
+void
+loadScriptAtom
+(
+Register
+index
+Register
 dest
 )
 ;
