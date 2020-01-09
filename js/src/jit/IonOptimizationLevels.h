@@ -208,14 +208,6 @@ const
 uint32_t
 CompilerWarmupThreshold
 ;
-uint32_t
-compilerSmallFunctionWarmUpThreshold_
-;
-static
-const
-uint32_t
-CompilerSmallFunctionWarmupThreshold
-;
 double
 inliningWarmUpThresholdFactor_
 ;
@@ -323,10 +315,6 @@ smallFunctionMaxInlineDepth_
 0
 )
 compilerWarmUpThreshold_
-(
-0
-)
-compilerSmallFunctionWarmUpThreshold_
 (
 0
 )
