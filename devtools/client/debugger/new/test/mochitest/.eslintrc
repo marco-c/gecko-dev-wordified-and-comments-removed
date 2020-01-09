@@ -120,11 +120,6 @@ requestLongerTimeout
 :
 false
 "
-scopedCuImport
-"
-:
-false
-"
 SimpleTest
 "
 :
