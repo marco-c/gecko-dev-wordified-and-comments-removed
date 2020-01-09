@@ -201,6 +201,10 @@ bin
 locales
 -
 all
+-
+libcurl3
+-
+gnutls
 after
 :
 [
