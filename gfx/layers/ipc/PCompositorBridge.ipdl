@@ -1053,6 +1053,10 @@ the
 last
 composite
 .
+prio
+(
+high
+)
 async
 DidComposite
 (
