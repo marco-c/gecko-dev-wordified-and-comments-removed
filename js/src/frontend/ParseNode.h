@@ -280,7 +280,7 @@ BinaryNode
 \
 F
 (
-CallSiteObjExpr
+CallSiteObj
 CallSiteNode
 )
 \
@@ -7996,7 +7996,7 @@ ListNode
 ParseNodeKind
 :
 :
-CallSiteObjExpr
+CallSiteObj
 TokenPos
 (
 begin
@@ -8027,7 +8027,7 @@ isKind
 ParseNodeKind
 :
 :
-CallSiteObjExpr
+CallSiteObj
 )
 ;
 MOZ_ASSERT_IF

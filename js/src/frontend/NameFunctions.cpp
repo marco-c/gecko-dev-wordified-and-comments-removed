@@ -5077,7 +5077,7 @@ case
 ParseNodeKind
 :
 :
-CallSiteObjExpr
+CallSiteObj
 :
 case
 ParseNodeKind

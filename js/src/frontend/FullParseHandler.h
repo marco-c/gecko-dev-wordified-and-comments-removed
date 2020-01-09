@@ -752,7 +752,7 @@ isKind
 ParseNodeKind
 :
 :
-CallSiteObjExpr
+CallSiteObj
 )
 )
 ;

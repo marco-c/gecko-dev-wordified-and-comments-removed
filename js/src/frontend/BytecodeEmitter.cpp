@@ -7197,7 +7197,7 @@ case
 ParseNodeKind
 :
 :
-CallSiteObjExpr
+CallSiteObj
 :
 case
 ParseNodeKind
@@ -19928,7 +19928,7 @@ case
 ParseNodeKind
 :
 :
-CallSiteObjExpr
+CallSiteObj
 :
 case
 ParseNodeKind
@@ -20010,7 +20010,7 @@ getKind
 ParseNodeKind
 :
 :
-CallSiteObjExpr
+CallSiteObj
 )
 {
 count
@@ -41766,7 +41766,7 @@ case
 ParseNodeKind
 :
 :
-CallSiteObjExpr
+CallSiteObj
 :
 if
 (
