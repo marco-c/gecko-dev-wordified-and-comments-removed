@@ -194,7 +194,7 @@ equal
 where
 .
 column
-28
+32
 )
 ;
 const

@@ -193,7 +193,7 @@ frame
 where
 .
 column
-6
+10
 )
 ;
 const
