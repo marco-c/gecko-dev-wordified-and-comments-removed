@@ -16643,6 +16643,12 @@ mArea
 appUnitsPerDevPixel
 )
 ;
+destRect
+.
+Round
+(
+)
+;
 wr
 :
 :
@@ -16652,7 +16658,7 @@ dest
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 destRect
 )

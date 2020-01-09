@@ -1916,6 +1916,12 @@ dest
 appUnitsPerDevPixel
 )
 ;
+fillRect
+.
+Round
+(
+)
+;
 Maybe
 <
 SVGImageContext
@@ -2084,7 +2090,7 @@ fill
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 fillRect
 )
