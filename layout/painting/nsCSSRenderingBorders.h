@@ -992,7 +992,7 @@ mozilla
 StyleBorderImageRepeat
 mRepeatModeVertical
 ;
-uint8_t
+bool
 mFill
 ;
 friend

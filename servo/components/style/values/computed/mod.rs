@@ -669,6 +669,7 @@ length
 Length
 LengthOrNumber
 LengthPercentage
+NonNegativeLengthOrNumber
 }
 ;
 pub
@@ -788,7 +789,7 @@ self
 rect
 :
 :
-LengthOrNumberRect
+NonNegativeLengthOrNumberRect
 ;
 pub
 use
@@ -861,7 +862,6 @@ text
 InitialLetter
 LetterSpacing
 LineHeight
-MozTabSize
 }
 ;
 pub
@@ -3053,6 +3053,14 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+)
+]
+#
+[
+repr
+(
+C
+u8
 )
 ]
 pub
