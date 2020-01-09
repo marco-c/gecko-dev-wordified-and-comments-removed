@@ -4996,6 +4996,12 @@ __func__
 )
 ;
 }
+nsTArray
+<
+uint8_t
+>
+userHandle
+;
 WebAuthnGetAssertionResult
 result
 (
@@ -5009,6 +5015,7 @@ signatureBuf
 authenticatorData
 extensions
 signatureDataBuf
+userHandle
 )
 ;
 return

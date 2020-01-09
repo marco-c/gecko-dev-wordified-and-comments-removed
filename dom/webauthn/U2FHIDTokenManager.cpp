@@ -1798,6 +1798,12 @@ __func__
 return
 ;
 }
+nsTArray
+<
+uint8_t
+>
+userHandle
+;
 WebAuthnGetAssertionResult
 result
 (
@@ -1813,6 +1819,7 @@ signatureBuf
 authenticatorData
 extensions
 rawSignatureBuf
+userHandle
 )
 ;
 mSignPromise

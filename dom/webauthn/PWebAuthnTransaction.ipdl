@@ -536,6 +536,11 @@ uint8_t
 ]
 SignatureData
 ;
+uint8_t
+[
+]
+UserHandle
+;
 }
 ;
 async
