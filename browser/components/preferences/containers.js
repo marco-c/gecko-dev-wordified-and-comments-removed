@@ -148,6 +148,9 @@ tree
 "
 chill
 "
+"
+fence
+"
 ]
 colors
 :
@@ -175,6 +178,9 @@ pink
 "
 "
 purple
+"
+"
+toolbar
 "
 ]
 onLoad

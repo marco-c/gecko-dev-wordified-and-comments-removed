@@ -217,6 +217,15 @@ purple
 af51f5
 "
 ]
+[
+"
+toolbar
+"
+"
+#
+7c7c7d
+"
+]
 ]
 )
 ;
@@ -238,6 +247,9 @@ circle
 "
 "
 dollar
+"
+"
+fence
 "
 "
 fingerprint
