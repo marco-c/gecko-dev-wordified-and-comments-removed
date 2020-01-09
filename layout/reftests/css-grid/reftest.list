@@ -4310,6 +4310,12 @@ stretch
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 grid
@@ -4336,6 +4342,9 @@ stretch
 ref
 .
 html
+#
+Bug
+1527734
 =
 =
 grid
