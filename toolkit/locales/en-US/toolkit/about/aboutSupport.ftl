@@ -1964,16 +1964,6 @@ Thread
 Painting
 Worker
 Count
-low
--
-end
--
-machine
-=
-Detected
-less
-performant
-machine
 target
 -
 frame

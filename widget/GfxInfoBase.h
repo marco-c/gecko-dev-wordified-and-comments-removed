@@ -374,15 +374,6 @@ aOffMainThreadPaintWorkerCount
 override
 ;
 NS_IMETHOD
-GetLowEndMachine
-(
-bool
-*
-aLowEndMachine
-)
-override
-;
-NS_IMETHOD
 GetTargetFrameRate
 (
 uint32_t

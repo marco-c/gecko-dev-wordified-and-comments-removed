@@ -1741,12 +1741,6 @@ UsesOffMainThreadCompositing
 (
 )
 ;
-static
-bool
-ShouldAdjustForLowEndMachine
-(
-)
-;
 virtual
 mozilla
 :
