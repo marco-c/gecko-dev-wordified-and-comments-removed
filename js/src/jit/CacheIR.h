@@ -12532,14 +12532,14 @@ IRGenerator
 HandleValue
 val_
 ;
-bool
+AttachDecision
 tryAttachPrimitive
 (
 ValOperandId
 valId
 )
 ;
-bool
+AttachDecision
 tryAttachObject
 (
 ValOperandId
@@ -12575,7 +12575,7 @@ HandleValue
 value
 )
 ;
-bool
+AttachDecision
 tryAttachStub
 (
 )
