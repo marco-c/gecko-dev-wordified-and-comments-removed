@@ -3250,6 +3250,9 @@ const
 nsString
 &
 aRemoteType
+BrowsingContext
+*
+aBrowsingContext
 )
 override
 ;
