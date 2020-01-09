@@ -189,6 +189,7 @@ several
 minutes
 of
 fetching
+retry
 git
 fetch
 -
@@ -249,6 +250,7 @@ and
 #
 fetch
 everything
+retry
 git
 fetch
 -
