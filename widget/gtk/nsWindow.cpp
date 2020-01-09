@@ -15064,6 +15064,16 @@ visualId
 ;
 if
 (
+useWebRender
+)
+{
+needsAlphaVisual
+=
+true
+;
+}
+if
+(
 GLContextGLX
 :
 :
