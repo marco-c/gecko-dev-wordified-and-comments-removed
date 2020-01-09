@@ -1251,16 +1251,6 @@ FinishOnGraphThread
 (
 )
 ;
-bool
-HasCurrentData
-(
-)
-const
-{
-return
-mHasCurrentData
-;
-}
 StreamTracks
 :
 :
@@ -1588,9 +1578,6 @@ mFinished
 ;
 bool
 mNotifiedFinished
-;
-bool
-mHasCurrentData
 ;
 StreamTime
 mMainThreadCurrentTime
