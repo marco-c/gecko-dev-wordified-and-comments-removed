@@ -2954,7 +2954,7 @@ parentFrame
 ;
 }
 static
-nsIFrame
+nsContainerFrame
 *
 GetMultiColumnContainingBlockFor
 (
@@ -2990,7 +2990,7 @@ ancestor
 "
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 current
 =
@@ -37112,7 +37112,7 @@ if
 needsReframe
 )
 {
-nsIFrame
+nsContainerFrame
 *
 containingBlock
 =
