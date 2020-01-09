@@ -575,7 +575,13 @@ then
 if
 (
 !
+(
+'
 MojoInterfaceInterceptor
+'
+in
+self
+)
 )
 {
 return
