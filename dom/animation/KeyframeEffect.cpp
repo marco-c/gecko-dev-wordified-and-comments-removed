@@ -3021,7 +3021,7 @@ GetAsCSSPseudoElement
 (
 )
 .
-ParentElement
+Element
 (
 )
 ;

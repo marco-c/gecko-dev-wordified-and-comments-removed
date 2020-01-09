@@ -416,7 +416,7 @@ getDocumentWalker
 (
 pseudo
 .
-parentElement
+element
 )
 ;
 return
@@ -976,7 +976,7 @@ target
 =
 target
 .
-parentElement
+element
 ;
 }
 return
@@ -1672,7 +1672,7 @@ target
 =
 target
 .
-parentElement
+element
 ;
 }
 const

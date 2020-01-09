@@ -17216,7 +17216,7 @@ GetAsCSSPseudoElement
 (
 )
 .
-ParentElement
+Element
 (
 )
 ;
