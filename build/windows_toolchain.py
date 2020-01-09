@@ -1512,9 +1512,6 @@ JarWriter
 file
 =
 zip_path
-optimize
-=
-False
 compress_level
 =
 5

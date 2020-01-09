@@ -3011,9 +3011,6 @@ self
 compress
 =
 True
-optimize
-=
-True
 )
 :
         
@@ -3039,9 +3036,7 @@ details
 on
 the
 compress
-and
-optimize
-arguments
+argument
 .
         
 '
@@ -3053,12 +3048,6 @@ self
 compress
 =
 compress
-        
-self
-.
-optimize
-=
-optimize
         
 self
 .
@@ -3508,12 +3497,6 @@ compress
 self
 .
 compress
-                       
-optimize
-=
-self
-.
-optimize
 )
 as
 jar

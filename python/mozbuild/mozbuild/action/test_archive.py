@@ -4945,9 +4945,6 @@ JarWriter
 fileobj
 =
 fh
-optimize
-=
-False
 compress_level
 =
 5

@@ -305,16 +305,6 @@ JARLOG_FILE_AB_CD
 )
 \
 (
-if
-(
-OPTIMIZEJARS
-)
--
--
-optimizejars
-)
-\
-(
 addprefix
 -
 -

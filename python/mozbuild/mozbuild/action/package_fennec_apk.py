@@ -104,9 +104,6 @@ jarrer
 =
 Jarrer
 (
-optimize
-=
-False
 )
     
 last_input_with_dex_files
