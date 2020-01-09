@@ -9,12 +9,12 @@ BroadcastChannel
 cookieJarAccessAllowed
 :
 async
-_
+w
 =
 >
 {
 new
-content
+w
 .
 BroadcastChannel
 (
@@ -37,14 +37,14 @@ used
 cookieJarAccessDenied
 :
 async
-_
+w
 =
 >
 {
 try
 {
 new
-content
+w
 .
 BroadcastChannel
 (
@@ -120,7 +120,7 @@ workers
 cookieJarAccessAllowed
 :
 async
-_
+w
 =
 >
 {
@@ -147,7 +147,7 @@ let
 blob
 =
 new
-content
+w
 .
 Blob
 (
@@ -182,7 +182,7 @@ created
 let
 blobURL
 =
-content
+w
 .
 URL
 .
@@ -207,7 +207,7 @@ let
 worker
 =
 new
-content
+w
 .
 Worker
 (
@@ -227,7 +227,7 @@ created
 ;
 await
 new
-content
+w
 .
 Promise
 (
@@ -273,7 +273,7 @@ reject
 cookieJarAccessDenied
 :
 async
-_
+w
 =
 >
 {
@@ -321,7 +321,7 @@ let
 blob
 =
 new
-content
+w
 .
 Blob
 (
@@ -356,7 +356,7 @@ created
 let
 blobURL
 =
-content
+w
 .
 URL
 .
@@ -381,7 +381,7 @@ let
 worker
 =
 new
-content
+w
 .
 Worker
 (
@@ -401,7 +401,7 @@ created
 ;
 await
 new
-content
+w
 .
 Promise
 (
