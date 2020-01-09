@@ -19,6 +19,8 @@ main
 (
 output
 input_asm
+ffi_h
+ffi_config_h
 defines
 includes
 )
