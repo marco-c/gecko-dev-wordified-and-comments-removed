@@ -5273,6 +5273,13 @@ EnterPrivateMode
 (
 )
 {
+RLogConnector
+:
+:
+CreateInstance
+(
+)
+;
 if
 (
 !
@@ -5313,7 +5320,7 @@ return
 RLogConnector
 :
 :
-CreateInstance
+GetInstance
 (
 )
 -
@@ -5331,6 +5338,13 @@ ExitPrivateMode
 (
 )
 {
+RLogConnector
+:
+:
+CreateInstance
+(
+)
+;
 if
 (
 !
