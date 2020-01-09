@@ -51350,6 +51350,7 @@ TransformString
 fragString
 convertedString
 false
+true
 nullptr
 charsToMergeArray
 deletedCharsArray

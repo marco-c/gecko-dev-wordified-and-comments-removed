@@ -17730,6 +17730,7 @@ TransformString
 origString
 convertedString
 true
+false
 mStyle
 .
 explicitLanguage

@@ -440,6 +440,8 @@ nsString
 aConvertedString
 bool
 aAllUppercase
+bool
+aCaseTransformsOnly
 const
 nsAtom
 *
