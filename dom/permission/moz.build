@@ -152,6 +152,17 @@ PermissionUtils
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+extensions
+/
+cookie
+'
+]
 MOCHITEST_MANIFESTS
 +
 =
