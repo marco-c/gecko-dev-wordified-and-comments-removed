@@ -62,3 +62,11 @@ rdd
 "
 RDD
 )
+GECKO_PROCESS_TYPE
+(
+Socket
+"
+socket
+"
+Socket
+)

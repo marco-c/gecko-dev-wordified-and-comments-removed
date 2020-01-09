@@ -207,6 +207,12 @@ PROCESS_TYPE_RDD
 =
 7
 ;
+const
+long
+PROCESS_TYPE_SOCKET
+=
+8
+;
 /
 /
 New

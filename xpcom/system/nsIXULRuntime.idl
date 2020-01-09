@@ -505,6 +505,13 @@ PROCESS_TYPE_RDD
 =
 7
 ;
+const
+unsigned
+long
+PROCESS_TYPE_SOCKET
+=
+8
+;
 /
 *
 *
