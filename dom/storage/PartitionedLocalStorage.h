@@ -46,9 +46,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 )
 ;
 StorageType

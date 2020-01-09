@@ -409,7 +409,6 @@ getStorage
 (
 null
 principal
-principal
 )
 ;
 }

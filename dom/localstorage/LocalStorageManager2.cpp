@@ -605,9 +605,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 const
 nsAString
 &
@@ -630,11 +627,6 @@ NS_IsMainThread
 MOZ_ASSERT
 (
 aPrincipal
-)
-;
-MOZ_ASSERT
-(
-aStoragePrincipal
 )
 ;
 MOZ_ASSERT
@@ -672,7 +664,6 @@ CreateForPrincipal
 (
 inner
 aPrincipal
-aStoragePrincipal
 aDocumentURI
 aPrivate
 getter_AddRefs
@@ -719,9 +710,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 bool
 aPrivate
 Storage
@@ -740,11 +728,6 @@ NS_IsMainThread
 MOZ_ASSERT
 (
 aPrincipal
-)
-;
-MOZ_ASSERT
-(
-aStoragePrincipal
 )
 ;
 MOZ_ASSERT
@@ -1003,15 +986,6 @@ commonParams
 commonParams
 .
 principalInfo
-(
-)
-=
-*
-principalInfo
-;
-commonParams
-.
-storagePrincipalInfo
 (
 )
 =

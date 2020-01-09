@@ -63,7 +63,6 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 Storage
 mWindow
 mPrincipal
-mStoragePrincipal
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -97,9 +96,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 )
 :
 mWindow
@@ -109,10 +105,6 @@ aWindow
 mPrincipal
 (
 aPrincipal
-)
-mStoragePrincipal
-(
-aStoragePrincipal
 )
 mIsSessionOnly
 (
@@ -212,9 +204,8 @@ Storage
 Storage
 (
 )
-=
-default
-;
+{
+}
 bool
 Storage
 :

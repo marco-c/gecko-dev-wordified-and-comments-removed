@@ -64,16 +64,12 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 )
 :
 Storage
 (
 aWindow
 aPrincipal
-aStoragePrincipal
 )
 mCache
 (

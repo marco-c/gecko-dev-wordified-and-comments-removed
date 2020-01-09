@@ -1456,7 +1456,6 @@ getStorage
 (
 null
 principal
-storagePrincipal
 )
 ;
 if

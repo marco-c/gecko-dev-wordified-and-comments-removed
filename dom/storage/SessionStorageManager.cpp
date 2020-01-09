@@ -269,9 +269,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 const
 nsAString
 &
@@ -438,9 +435,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 bool
 aPrivate
 Storage
