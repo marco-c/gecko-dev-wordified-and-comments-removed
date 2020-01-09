@@ -182,6 +182,11 @@ GamepadPoseState
 h
 '
 '
+GamepadRemapping
+.
+h
+'
+'
 GamepadServiceTest
 .
 h
@@ -264,6 +269,11 @@ cpp
 '
 '
 GamepadPose
+.
+cpp
+'
+'
+GamepadRemapping
 .
 cpp
 '
