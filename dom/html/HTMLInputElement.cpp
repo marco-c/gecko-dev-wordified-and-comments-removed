@@ -3338,14 +3338,6 @@ PopupBlocker
 :
 TryUsePopupOpeningToken
 (
-OwnerDoc
-(
-)
--
->
-NodePrincipal
-(
-)
 )
 ;
 }

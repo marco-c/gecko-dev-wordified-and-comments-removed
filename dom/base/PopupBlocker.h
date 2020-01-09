@@ -89,9 +89,6 @@ static
 bool
 TryUsePopupOpeningToken
 (
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 static
