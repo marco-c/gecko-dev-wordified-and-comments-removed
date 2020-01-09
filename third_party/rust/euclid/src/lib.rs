@@ -61,6 +61,14 @@ extern
 crate
 mint
 ;
+#
+[
+macro_use
+]
+extern
+crate
+euclid_macros
+;
 extern
 crate
 num_traits
