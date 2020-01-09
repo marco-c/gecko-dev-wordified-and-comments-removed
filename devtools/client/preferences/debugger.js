@@ -1096,6 +1096,6 @@ log
 -
 points
 "
-false
+true
 )
 ;
