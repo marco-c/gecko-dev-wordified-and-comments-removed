@@ -2744,6 +2744,10 @@ cdir_offset
 for
 e
 in
+six
+.
+moves
+.
 xrange
 (
 self
