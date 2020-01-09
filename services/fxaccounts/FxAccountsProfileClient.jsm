@@ -27,6 +27,7 @@ ERROR_NETWORK
 ERROR_PARSE
 ERROR_UNKNOWN
 log
+SCOPE_PROFILE
 }
 =
 ChromeUtils
@@ -226,9 +227,7 @@ oauthOptions
 {
 scope
 :
-"
-profile
-"
+SCOPE_PROFILE
 }
 ;
 log
