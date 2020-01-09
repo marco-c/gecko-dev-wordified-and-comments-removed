@@ -128,11 +128,6 @@ testStructuredCloneReader
 .
 cpp
 '
-'
-testWasm
-.
-cpp
-'
 ]
 if
 CONFIG
