@@ -41,6 +41,8 @@ h
 #
 include
 "
+testvectors
+/
 gcm
 -
 vectors

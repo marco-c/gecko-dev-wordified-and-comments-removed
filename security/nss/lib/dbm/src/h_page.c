@@ -745,7 +745,7 @@ off
 }
 extern
 int
-__delpair
+dbm_delpair
 (
 HTAB
 *
@@ -801,7 +801,7 @@ REAL_KEY
 )
 return
 (
-__big_delete
+dbm_big_delete
 (
 hashp
 bufp
@@ -1126,7 +1126,7 @@ return
 }
 extern
 int
-__split_page
+dbm_split_page
 (
 HTAB
 *
@@ -1204,7 +1204,7 @@ BSIZE
 ;
 old_bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 obucket
@@ -1227,7 +1227,7 @@ return
 ;
 new_bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 nbucket
@@ -1436,7 +1436,7 @@ size
 endif
 if
 (
-__call_hash
+dbm_call_hash
 (
 hashp
 (
@@ -1929,7 +1929,7 @@ if
 (
 status
 =
-__big_split
+dbm_big_split
 (
 hashp
 old_bufp
@@ -2152,7 +2152,7 @@ scopyto
 ;
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 ov_addr
@@ -2201,7 +2201,7 @@ if
 (
 last_bfp
 )
-__free_ovflpage
+dbm_free_ovflpage
 (
 hashp
 last_bfp
@@ -2364,7 +2364,7 @@ n
 ;
 if
 (
-__call_hash
+dbm_call_hash
 (
 hashp
 (
@@ -2415,7 +2415,7 @@ else
 {
 old_bufp
 =
-__add_ovflpage
+dbm_add_ovflpage
 (
 hashp
 old_bufp
@@ -2500,7 +2500,7 @@ else
 {
 new_bufp
 =
-__add_ovflpage
+dbm_add_ovflpage
 (
 hashp
 new_bufp
@@ -2557,7 +2557,7 @@ if
 (
 last_bfp
 )
-__free_ovflpage
+dbm_free_ovflpage
 (
 hashp
 last_bfp
@@ -2571,7 +2571,7 @@ return
 }
 extern
 int
-__addel
+dbm_addel
 (
 HTAB
 *
@@ -2688,7 +2688,7 @@ OVFLPAGE
 {
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -2780,7 +2780,7 @@ else
 {
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -2862,7 +2862,7 @@ do_expand
 ;
 bufp
 =
-__add_ovflpage
+dbm_add_ovflpage
 (
 hashp
 bufp
@@ -2929,7 +2929,7 @@ val
 else
 if
 (
-__big_insert
+dbm_big_insert
 (
 hashp
 bufp
@@ -2999,7 +2999,7 @@ FFACTOR
 )
 return
 (
-__expand_table
+dbm_expand_table
 (
 hashp
 )
@@ -3014,7 +3014,7 @@ return
 extern
 BUFHEAD
 *
-__add_ovflpage
+dbm_add_ovflpage
 (
 HTAB
 *
@@ -3151,7 +3151,7 @@ bufp
 >
 ovfl
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 ovfl_num
@@ -3296,7 +3296,7 @@ ovfl
 }
 extern
 int
-__get_page
+dbm_get_page
 (
 HTAB
 *
@@ -3776,7 +3776,7 @@ return
 }
 extern
 int
-__put_page
+dbm_put_page
 (
 HTAB
 *
@@ -4242,7 +4242,7 @@ INT_BYTE_SHIFT
 )
 extern
 int
-__ibitmap
+dbm_ibitmap
 (
 HTAB
 *
@@ -4974,7 +4974,7 @@ return
 }
 if
 (
-__ibitmap
+dbm_ibitmap
 (
 hashp
 (
@@ -5350,7 +5350,7 @@ addr
 }
 extern
 void
-__free_ovflpage
+dbm_free_ovflpage
 (
 HTAB
 *
@@ -5594,7 +5594,7 @@ free_page
 ;
 #
 endif
-__reclaim_buf
+dbm_reclaim_buf
 (
 hashp
 obufp
@@ -6304,7 +6304,7 @@ NULL
 ;
 if
 (
-__get_page
+dbm_get_page
 (
 hashp
 (
@@ -6404,7 +6404,7 @@ addr
 ;
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 addr
@@ -6497,7 +6497,7 @@ oaddr
 ;
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 (

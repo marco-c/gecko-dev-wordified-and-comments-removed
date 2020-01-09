@@ -122,7 +122,7 @@ size_t
 uint32
 (
 *
-__default_hash
+dbm_default_hash
 )
 (
 const

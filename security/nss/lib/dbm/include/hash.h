@@ -729,7 +729,7 @@ hashp
 >
 SPARES
 [
-__log2
+dbm_log2
 (
 (
 uint32
@@ -929,7 +929,7 @@ extern
 uint32
 (
 *
-__default_hash
+dbm_default_hash
 )
 (
 const
@@ -939,7 +939,7 @@ size_t
 )
 ;
 void
-__buf_init
+dbm_buf_init
 (
 HTAB
 *
@@ -949,7 +949,7 @@ nbytes
 )
 ;
 int
-__big_delete
+dbm_big_delete
 (
 HTAB
 *
@@ -961,7 +961,7 @@ bufp
 ;
 BUFHEAD
 *
-__get_buf
+dbm_get_buf
 (
 HTAB
 *
@@ -976,7 +976,7 @@ newpage
 )
 ;
 uint32
-__call_hash
+dbm_call_hash
 (
 HTAB
 *
@@ -997,7 +997,7 @@ h
 "
 extern
 int
-__big_split
+dbm_big_split
 (
 HTAB
 *
@@ -1021,7 +1021,7 @@ ret
 )
 ;
 void
-__free_ovflpage
+dbm_free_ovflpage
 (
 HTAB
 *
@@ -1033,7 +1033,7 @@ obufp
 ;
 BUFHEAD
 *
-__add_ovflpage
+dbm_add_ovflpage
 (
 HTAB
 *
@@ -1044,7 +1044,7 @@ bufp
 )
 ;
 int
-__big_insert
+dbm_big_insert
 (
 HTAB
 *
@@ -1063,7 +1063,7 @@ val
 )
 ;
 int
-__expand_table
+dbm_expand_table
 (
 HTAB
 *
@@ -1071,14 +1071,14 @@ hashp
 )
 ;
 uint32
-__log2
+dbm_log2
 (
 uint32
 num
 )
 ;
 void
-__reclaim_buf
+dbm_reclaim_buf
 (
 HTAB
 *
@@ -1089,7 +1089,7 @@ bp
 )
 ;
 int
-__get_page
+dbm_get_page
 (
 HTAB
 *
@@ -1108,7 +1108,7 @@ is_bitmap
 )
 ;
 int
-__put_page
+dbm_put_page
 (
 HTAB
 *
@@ -1125,7 +1125,7 @@ is_bitmap
 )
 ;
 int
-__ibitmap
+dbm_ibitmap
 (
 HTAB
 *
@@ -1139,7 +1139,7 @@ ndx
 )
 ;
 int
-__buf_free
+dbm_buf_free
 (
 HTAB
 *
@@ -1151,7 +1151,7 @@ to_disk
 )
 ;
 int
-__find_bigpair
+dbm_find_bigpair
 (
 HTAB
 *
@@ -1169,7 +1169,7 @@ size
 )
 ;
 uint16
-__find_last_page
+dbm_find_last_page
 (
 HTAB
 *
@@ -1181,7 +1181,7 @@ bpp
 )
 ;
 int
-__addel
+dbm_addel
 (
 HTAB
 *
@@ -1200,7 +1200,7 @@ val
 )
 ;
 int
-__big_return
+dbm_big_return
 (
 HTAB
 *
@@ -1218,7 +1218,7 @@ set_current
 )
 ;
 int
-__delpair
+dbm_delpair
 (
 HTAB
 *
@@ -1231,7 +1231,7 @@ ndx
 )
 ;
 int
-__big_keydata
+dbm_big_keydata
 (
 HTAB
 *
@@ -1250,7 +1250,7 @@ set
 )
 ;
 int
-__split_page
+dbm_split_page
 (
 HTAB
 *

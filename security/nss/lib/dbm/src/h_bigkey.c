@@ -160,7 +160,7 @@ int
 ;
 extern
 int
-__big_insert
+dbm_big_insert
 (
 HTAB
 *
@@ -364,7 +364,7 @@ PARTIAL_KEY
 ;
 bufp
 =
-__add_ovflpage
+dbm_add_ovflpage
 (
 hashp
 bufp
@@ -652,7 +652,7 @@ FULL_KEY
 ;
 bufp
 =
-__add_ovflpage
+dbm_add_ovflpage
 (
 hashp
 bufp
@@ -710,7 +710,7 @@ return
 }
 extern
 int
-__big_delete
+dbm_big_delete
 (
 HTAB
 *
@@ -843,7 +843,7 @@ BUF_MOD
 ;
 rbufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 pageno
@@ -855,7 +855,7 @@ if
 (
 last_bfp
 )
-__free_ovflpage
+dbm_free_ovflpage
 (
 hashp
 last_bfp
@@ -1006,7 +1006,7 @@ if
 (
 rbufp
 )
-__free_ovflpage
+dbm_free_ovflpage
 (
 hashp
 rbufp
@@ -1019,7 +1019,7 @@ last_bfp
 =
 rbufp
 )
-__free_ovflpage
+dbm_free_ovflpage
 (
 hashp
 last_bfp
@@ -1040,7 +1040,7 @@ return
 }
 extern
 int
-__find_bigpair
+dbm_find_bigpair
 (
 HTAB
 *
@@ -1178,7 +1178,7 @@ bytes
 ;
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -1268,7 +1268,7 @@ ndx
 }
 extern
 uint16
-__find_last_page
+dbm_find_last_page
 (
 HTAB
 *
@@ -1391,7 +1391,7 @@ n
 ;
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 pageno
@@ -1452,7 +1452,7 @@ return
 }
 extern
 int
-__big_return
+dbm_big_return
 (
 HTAB
 *
@@ -1513,7 +1513,7 @@ PARTIAL_KEY
 {
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -1571,7 +1571,7 @@ FULL_KEY
 {
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -1674,7 +1674,7 @@ addr
 ;
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -1803,7 +1803,7 @@ hashp
 >
 cpage
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -2062,7 +2062,7 @@ bufp
 ;
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -2227,7 +2227,7 @@ bufp
 ;
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -2366,7 +2366,7 @@ hashp
 >
 cpage
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -2443,7 +2443,7 @@ totlen
 }
 extern
 int
-__big_keydata
+dbm_big_keydata
 (
 HTAB
 *
@@ -2661,7 +2661,7 @@ return
 ;
 if
 (
-__big_return
+dbm_big_return
 (
 hashp
 bufp
@@ -2681,7 +2681,7 @@ else
 {
 xbp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -2784,7 +2784,7 @@ totlen
 }
 extern
 int
-__big_split
+dbm_big_split
 (
 HTAB
 *
@@ -2839,7 +2839,7 @@ big_keyp
 ;
 if
 (
-__big_keydata
+dbm_big_keydata
 (
 hashp
 big_keyp
@@ -2859,7 +2859,7 @@ return
 change
 =
 (
-__call_hash
+dbm_call_hash
 (
 hashp
 (
@@ -2886,7 +2886,7 @@ ret
 >
 next_addr
 =
-__find_last_page
+dbm_find_last_page
 (
 hashp
 &
@@ -2904,7 +2904,7 @@ ret
 >
 nextp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 ret
@@ -3233,7 +3233,7 @@ off
 ;
 tmpp
 =
-__add_ovflpage
+dbm_add_ovflpage
 (
 hashp
 big_keyp

@@ -256,7 +256,7 @@ DB_BTREE
 :
 return
 (
-__bt_open
+dbm_bt_open
 (
 fname
 flags
@@ -275,7 +275,7 @@ DB_RECNO
 :
 return
 (
-__rec_open
+dbm_rec_open
 (
 fname
 flags
@@ -296,7 +296,7 @@ DB_HASH
 :
 return
 (
-__hash_open
+dbm_hash_open
 (
 fname
 flags
@@ -332,7 +332,7 @@ NULL
 }
 static
 int
-__dberr
+dbm_dberr
 (
 )
 {
@@ -343,7 +343,7 @@ RET_ERROR
 ;
 }
 void
-__dbpanic
+dbm_dbpanic
 (
 DB
 *
@@ -363,7 +363,7 @@ int
 (
 const
 struct
-__db
+dbm_db
 *
 const
 DBT
@@ -371,7 +371,7 @@ DBT
 uint
 )
 )
-__dberr
+dbm_dberr
 ;
 dbp
 -
@@ -386,11 +386,11 @@ int
 (
 const
 struct
-__db
+dbm_db
 *
 )
 )
-__dberr
+dbm_dberr
 ;
 dbp
 -
@@ -405,7 +405,7 @@ int
 (
 const
 struct
-__db
+dbm_db
 *
 const
 DBT
@@ -415,7 +415,7 @@ DBT
 uint
 )
 )
-__dberr
+dbm_dberr
 ;
 dbp
 -
@@ -430,7 +430,7 @@ int
 (
 const
 struct
-__db
+dbm_db
 *
 DBT
 *
@@ -440,7 +440,7 @@ DBT
 uint
 )
 )
-__dberr
+dbm_dberr
 ;
 dbp
 -
@@ -455,7 +455,7 @@ int
 (
 const
 struct
-__db
+dbm_db
 *
 DBT
 *
@@ -464,7 +464,7 @@ DBT
 uint
 )
 )
-__dberr
+dbm_dberr
 ;
 dbp
 -
@@ -479,11 +479,11 @@ int
 (
 const
 struct
-__db
+dbm_db
 *
 uint
 )
 )
-__dberr
+dbm_dberr
 ;
 }

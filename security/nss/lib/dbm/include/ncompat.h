@@ -199,7 +199,7 @@ SIG_SETMASK
 3
 static
 int
-__sigtemp
+dbm_sigtemp
 ;
 #
 define
@@ -212,7 +212,7 @@ oset
 \
 (
 (
-__sigtemp
+dbm_sigtemp
 =
 \
 (
@@ -297,13 +297,13 @@ set
 =
 sigsetmask
 (
-__sigtemp
+dbm_sigtemp
 )
 )
 :
 sigsetmask
 (
-__sigtemp
+dbm_sigtemp
 )
 )
 0

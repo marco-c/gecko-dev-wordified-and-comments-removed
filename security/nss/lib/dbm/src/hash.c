@@ -494,7 +494,7 @@ hash_overflows
 endif
 static
 void
-__remove_database
+dbm_remove_database
 (
 DB
 *
@@ -542,7 +542,7 @@ NULL
 extern
 DB
 *
-__hash_open
+dbm_hash_open
 (
 const
 char
@@ -906,7 +906,7 @@ hashp
 >
 hash
 =
-__default_hash
+dbm_default_hash
 ;
 hdrsize
 =
@@ -1182,7 +1182,7 @@ info
 >
 cachesize
 )
-__buf_init
+dbm_buf_init
 (
 hashp
 (
@@ -1195,7 +1195,7 @@ cachesize
 )
 ;
 else
-__buf_init
+dbm_buf_init
 (
 hashp
 DEF_BUFSIZE
@@ -1616,7 +1616,7 @@ hashp
 >
 hash
 =
-__default_hash
+dbm_default_hash
 ;
 memset
 (
@@ -1756,7 +1756,7 @@ hashp
 >
 BSHIFT
 =
-__log2
+dbm_log2
 (
 (
 uint32
@@ -1786,7 +1786,7 @@ hashp
 >
 BSHIFT
 =
-__log2
+dbm_log2
 (
 info
 -
@@ -1982,7 +1982,7 @@ FFACTOR
 ;
 l2
 =
-__log2
+dbm_log2
 (
 (
 uint32
@@ -2043,7 +2043,7 @@ LAST_FREED
 ;
 if
 (
-__ibitmap
+dbm_ibitmap
 (
 hashp
 (
@@ -2142,7 +2142,7 @@ nsegs
 1
 <
 <
-__log2
+dbm_log2
 (
 (
 uint32
@@ -2333,7 +2333,7 @@ i
 endif
 if
 (
-__buf_free
+dbm_buf_free
 (
 hashp
 1
@@ -2960,7 +2960,7 @@ return
 ;
 if
 (
-__buf_free
+dbm_buf_free
 (
 hashp
 0
@@ -3265,7 +3265,7 @@ i
 )
 if
 (
-__put_page
+dbm_put_page
 (
 hashp
 (
@@ -3428,7 +3428,7 @@ n
 ;
 #
 endif
-__remove_database
+dbm_remove_database
 (
 (
 DB
@@ -3617,7 +3617,7 @@ n
 ;
 #
 endif
-__remove_database
+dbm_remove_database
 (
 (
 DB
@@ -3792,7 +3792,7 @@ n
 ;
 #
 endif
-__remove_database
+dbm_remove_database
 (
 (
 DB
@@ -3910,10 +3910,10 @@ data
 ;
 rbufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
-__call_hash
+dbm_call_hash
 (
 hashp
 kp
@@ -4082,7 +4082,7 @@ bp
 ;
 rbufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 *
@@ -4173,7 +4173,7 @@ if
 (
 ndx
 =
-__find_bigpair
+dbm_find_bigpair
 (
 hashp
 rbufp
@@ -4210,7 +4210,7 @@ if
 (
 pageno
 =
-__find_last_page
+dbm_find_last_page
 (
 hashp
 &
@@ -4232,7 +4232,7 @@ break
 }
 rbufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 pageno
@@ -4323,7 +4323,7 @@ HASH_PUTNEW
 :
 if
 (
-__addel
+dbm_addel
 (
 hashp
 rbufp
@@ -4439,7 +4439,7 @@ REAL_KEY
 {
 if
 (
-__big_return
+dbm_big_return
 (
 hashp
 rbufp
@@ -4506,7 +4506,7 @@ HASH_PUT
 if
 (
 (
-__delpair
+dbm_delpair
 (
 hashp
 rbufp
@@ -4516,7 +4516,7 @@ ndx
 |
 |
 (
-__addel
+dbm_addel
 (
 hashp
 rbufp
@@ -4548,7 +4548,7 @@ HASH_DELETE
 :
 if
 (
-__delpair
+dbm_delpair
 (
 hashp
 rbufp
@@ -4790,7 +4790,7 @@ cndx
 {
 bufp
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bucket
@@ -4924,7 +4924,7 @@ hashp
 >
 cpage
 =
-__get_buf
+dbm_get_buf
 (
 hashp
 bp
@@ -5015,7 +5015,7 @@ REAL_KEY
 {
 if
 (
-__big_keydata
+dbm_big_keydata
 (
 hashp
 bufp
@@ -5177,7 +5177,7 @@ SUCCESS
 }
 extern
 int
-__expand_table
+dbm_expand_table
 (
 HTAB
 *
@@ -5363,7 +5363,7 @@ nsegs
 }
 spare_ndx
 =
-__log2
+dbm_log2
 (
 (
 uint32
@@ -5453,7 +5453,7 @@ LOW_MASK
 }
 return
 (
-__split_page
+dbm_split_page
 (
 hashp
 old_bucket
@@ -5541,7 +5541,7 @@ p
 }
 extern
 uint32
-__call_hash
+dbm_call_hash
 (
 HTAB
 *
