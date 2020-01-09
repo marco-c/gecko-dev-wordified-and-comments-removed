@@ -13843,7 +13843,7 @@ bool
 BytecodeEmitter
 :
 :
-wrapWithDestructuringIteratorCloseTryNote
+wrapWithDestructuringTryNote
 (
 int32_t
 iterDepth
@@ -13867,7 +13867,7 @@ if
 !
 emit1
 (
-JSOP_TRY_DESTRUCTURING_ITERCLOSE
+JSOP_TRY_DESTRUCTURING
 )
 )
 {
@@ -13913,7 +13913,7 @@ end
 return
 addTryNote
 (
-JSTRY_DESTRUCTURING_ITERCLOSE
+JSTRY_DESTRUCTURING
 iterDepth
 start
 end
@@ -14585,7 +14585,7 @@ emitted
 if
 (
 !
-wrapWithDestructuringIteratorCloseTryNote
+wrapWithDestructuringTryNote
 (
 tryNoteDepth
 emitLHSRef
@@ -14877,7 +14877,7 @@ flav
 if
 (
 !
-wrapWithDestructuringIteratorCloseTryNote
+wrapWithDestructuringTryNote
 (
 tryNoteDepth
 emitAssignment
@@ -15345,7 +15345,7 @@ lhsPattern
 if
 (
 !
-wrapWithDestructuringIteratorCloseTryNote
+wrapWithDestructuringTryNote
 (
 tryNoteDepth
 emitDefault
@@ -15391,7 +15391,7 @@ flav
 if
 (
 !
-wrapWithDestructuringIteratorCloseTryNote
+wrapWithDestructuringTryNote
 (
 tryNoteDepth
 emitAssignment

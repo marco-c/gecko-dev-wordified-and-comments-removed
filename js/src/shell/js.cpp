@@ -16496,13 +16496,11 @@ iterclose
 "
 ;
 case
-JSTRY_DESTRUCTURING_ITERCLOSE
+JSTRY_DESTRUCTURING
 :
 return
 "
-dstr
--
-iterclose
+destructuring
 "
 ;
 }
