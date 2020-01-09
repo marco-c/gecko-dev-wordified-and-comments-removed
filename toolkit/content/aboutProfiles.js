@@ -367,6 +367,16 @@ result
 Cr
 .
 NS_ERROR_FILE_NOT_DIRECTORY
+&
+&
+e
+.
+result
+!
+=
+Cr
+.
+NS_ERROR_FILE_NOT_FOUND
 )
 {
 isInUse
