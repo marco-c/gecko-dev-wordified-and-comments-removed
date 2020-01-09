@@ -2603,7 +2603,6 @@ LayoutRetainDisplayList
 (
 )
 ;
-;
 #
 else
 if
