@@ -4356,7 +4356,7 @@ FontFooter
 SetCtlColors
 0
 {
-INSTALL_BLURB_TEXT_COLOR
+INSTALL_FOOTER_TEXT_COLOR
 }
 transparent
 Call
@@ -4740,7 +4740,7 @@ FontFooter
 SetCtlColors
 0
 {
-INSTALL_BLURB_TEXT_COLOR
+INSTALL_FOOTER_TEXT_COLOR
 }
 transparent
 {
