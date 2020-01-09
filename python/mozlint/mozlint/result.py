@@ -466,82 +466,94 @@ __slots__
 =
 (
         
-'
+"
 linter
-'
+"
         
-'
+"
 path
-'
+"
         
-'
+"
 message
-'
+"
         
-'
+"
 lineno
-'
+"
         
-'
+"
 column
-'
+"
         
-'
+"
 hint
-'
+"
         
-'
+"
 source
-'
+"
         
-'
+"
 level
-'
+"
         
-'
+"
 rule
-'
+"
         
-'
+"
 lineoffset
-'
+"
         
-'
+"
 diff
-'
+"
     
 )
     
 def
 __init__
 (
+        
 self
+        
 linter
+        
 path
+        
 message
+        
 lineno
+        
 column
 =
 None
+        
 hint
 =
 None
-                 
+        
 source
 =
 None
+        
 level
 =
 None
+        
 rule
 =
 None
+        
 lineoffset
 =
 None
+        
 diff
 =
 None
+    
 )
 :
         
@@ -601,9 +613,9 @@ level
 =
 level
 or
-'
+"
 error
-'
+"
         
 self
 .
@@ -867,52 +879,52 @@ if
 not
 attrs
 [
-'
+"
 linter
-'
+"
 ]
 :
         
 attrs
 [
-'
+"
 linter
-'
+"
 ]
 =
 config
 .
 get
 (
-'
+"
 name
-'
+"
 )
     
 if
 not
 attrs
 [
-'
+"
 message
-'
+"
 ]
 :
         
 attrs
 [
-'
+"
 message
-'
+"
 ]
 =
 config
 .
 get
 (
-'
+"
 description
-'
+"
 )
     
 return
