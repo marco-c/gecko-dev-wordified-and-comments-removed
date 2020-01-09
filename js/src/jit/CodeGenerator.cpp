@@ -81742,9 +81742,8 @@ ins
 ArgList
 (
 )
-StoreRegisterTo
+StoreNothing
 (
-tmp
 )
 )
 ;
@@ -81760,9 +81759,8 @@ ins
 ArgList
 (
 )
-StoreRegisterTo
+StoreNothing
 (
-tmp
 )
 )
 ;
