@@ -258,6 +258,11 @@ webaudio
 js
 '
 '
+webconsole
+.
+js
+'
+'
 webgl
 .
 js
