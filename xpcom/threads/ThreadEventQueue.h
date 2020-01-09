@@ -184,6 +184,7 @@ nsISerialEventTarget
 PushEventQueue
 (
 )
+final
 ;
 void
 PopEventQueue
@@ -192,6 +193,7 @@ nsIEventTarget
 *
 aTarget
 )
+final
 ;
 already_AddRefed
 <
