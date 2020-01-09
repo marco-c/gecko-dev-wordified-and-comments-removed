@@ -752,12 +752,12 @@ _messages
 :
 [
 "
-RemoteLogins
+PasswordManager
 :
 loginsFound
 "
 "
-RemoteLogins
+PasswordManager
 :
 loginsAutoCompleted
 "
@@ -1047,7 +1047,7 @@ name
 =
 =
 "
-RemoteLogins
+PasswordManager
 :
 fillForm
 "
@@ -1121,7 +1121,7 @@ name
 {
 case
 "
-RemoteLogins
+PasswordManager
 :
 loginsFound
 "
@@ -1169,7 +1169,7 @@ break
 }
 case
 "
-RemoteLogins
+PasswordManager
 :
 loginsAutoCompleted
 "
@@ -1313,7 +1313,7 @@ _sendRequest
 messageManager
 requestData
 "
-RemoteLogins
+PasswordManager
 :
 findLogins
 "
@@ -1456,7 +1456,7 @@ _sendRequest
 messageManager
 requestData
 "
-RemoteLogins
+PasswordManager
 :
 autoCompleteLogins
 "
@@ -2552,7 +2552,7 @@ messageManager
 sendAsyncMessage
 (
 "
-RemoteLogins
+PasswordManager
 :
 insecureLoginFormPresent
 "
@@ -4562,7 +4562,7 @@ messageManager
 sendAsyncMessage
 (
 "
-RemoteLogins
+PasswordManager
 :
 onFormSubmit
 "
@@ -7427,7 +7427,7 @@ _messageManager
 sendAsyncMessage
 (
 "
-RemoteLogins
+PasswordManager
 :
 removeLogin
 "

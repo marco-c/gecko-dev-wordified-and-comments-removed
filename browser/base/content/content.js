@@ -153,7 +153,7 @@ LoginManagerContent
 addMessageListener
 (
 "
-RemoteLogins
+PasswordManager
 :
 fillForm
 "

@@ -344,7 +344,7 @@ name
 {
 case
 "
-RemoteLogins
+PasswordManager
 :
 findLogins
 "
@@ -380,7 +380,7 @@ break
 }
 case
 "
-RemoteLogins
+PasswordManager
 :
 findRecipes
 "
@@ -414,7 +414,7 @@ formHost
 }
 case
 "
-RemoteLogins
+PasswordManager
 :
 onFormSubmit
 "
@@ -452,7 +452,7 @@ break
 }
 case
 "
-RemoteLogins
+PasswordManager
 :
 insecureLoginFormPresent
 "
@@ -475,7 +475,7 @@ break
 }
 case
 "
-RemoteLogins
+PasswordManager
 :
 autoCompleteLogins
 "
@@ -496,7 +496,7 @@ break
 }
 case
 "
-RemoteLogins
+PasswordManager
 :
 removeLogin
 "
@@ -623,7 +623,7 @@ messageManager
 sendAsyncMessage
 (
 "
-RemoteLogins
+PasswordManager
 :
 fillForm
 "
@@ -722,7 +722,7 @@ target
 sendAsyncMessage
 (
 "
-RemoteLogins
+PasswordManager
 :
 loginsFound
 "
@@ -871,7 +871,7 @@ target
 sendAsyncMessage
 (
 "
-RemoteLogins
+PasswordManager
 :
 loginsFound
 "
@@ -978,7 +978,7 @@ target
 sendAsyncMessage
 (
 "
-RemoteLogins
+PasswordManager
 :
 loginsFound
 "
@@ -1079,7 +1079,7 @@ messageManager
 sendAsyncMessage
 (
 "
-RemoteLogins
+PasswordManager
 :
 loginsAutoCompleted
 "
@@ -1237,7 +1237,7 @@ messageManager
 sendAsyncMessage
 (
 "
-RemoteLogins
+PasswordManager
 :
 loginsAutoCompleted
 "
