@@ -793,9 +793,6 @@ SourceSurface
 >
 mPendingRelease
 ;
-bool
-mRecycling
-;
 }
 ;
 class
