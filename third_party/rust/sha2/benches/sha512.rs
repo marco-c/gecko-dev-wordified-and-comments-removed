@@ -23,7 +23,7 @@ extern
 crate
 sha2
 ;
-bench_digest
+bench
 !
 (
 sha2

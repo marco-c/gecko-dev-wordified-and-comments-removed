@@ -52,6 +52,18 @@ Hash
 Hasher
 }
 ;
+use
+functional
+:
+:
+*
+;
+use
+sequence
+:
+:
+*
+;
 impl
 <
 T
@@ -141,7 +153,7 @@ N
 {
 self
 .
-map_ref
+map
 (
 |
 x
