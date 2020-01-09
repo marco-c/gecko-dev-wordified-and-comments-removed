@@ -11410,7 +11410,7 @@ the
 Password
 Manager
 in
-prefernces
+preferences
 Example
 ^
 ^

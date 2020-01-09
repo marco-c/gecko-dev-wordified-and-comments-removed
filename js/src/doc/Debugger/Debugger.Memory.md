@@ -190,7 +190,7 @@ Memory
 ;
 its
 inherited
-accesors
+accessors
 and
 methods
 are

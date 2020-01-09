@@ -1230,7 +1230,7 @@ each
 with
 their
 own
-idiosyncracies
+idiosyncrasies
 .
 And
 they

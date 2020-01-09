@@ -170,7 +170,7 @@ namespace2
 "
 /
 /
-delcarations
+declarations
 for
 namespace
 2
