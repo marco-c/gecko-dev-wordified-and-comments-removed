@@ -941,9 +941,6 @@ user
 modify
 "
 "
--
-moz
--
 user
 -
 select
