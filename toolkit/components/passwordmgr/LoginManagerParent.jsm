@@ -1412,6 +1412,15 @@ jsLogins
 )
 ;
 }
+get
+_browsingContextGlobal
+(
+)
+{
+return
+BrowsingContext
+;
+}
 getGeneratedPassword
 (
 browsingContextId
