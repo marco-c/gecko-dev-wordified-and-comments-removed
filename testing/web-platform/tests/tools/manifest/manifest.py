@@ -1981,6 +1981,12 @@ set
 manifest_items
 )
                 
+if
+is_new
+or
+hash_changed
+:
+                    
 self
 .
 _path_hash
@@ -1992,12 +1998,6 @@ rel_path
 file_hash
 new_type
 )
-                
-if
-is_new
-or
-hash_changed
-:
                     
 changed
 =
