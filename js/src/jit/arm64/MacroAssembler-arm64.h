@@ -75,6 +75,15 @@ MoveResolver
 h
 "
 #
+include
+"
+vm
+/
+BigIntType
+.
+h
+"
+#
 ifdef
 _M_ARM64
 #
