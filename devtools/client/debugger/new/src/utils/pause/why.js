@@ -46,13 +46,6 @@ whyPaused
 .
 resumeLimit
 "
-pauseOnDOMEvents
-:
-"
-whyPaused
-.
-pauseOnDOMEvents
-"
 breakpointConditionThrown
 :
 "
