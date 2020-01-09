@@ -425,6 +425,19 @@ False
 )
 )
         
+build_platform
+=
+dep_job
+.
+attributes
+.
+get
+(
+'
+build_platform
+'
+)
+        
 treeherder
 =
 None
@@ -517,19 +530,6 @@ get
 (
 '
 build_type
-'
-)
-            
-build_platform
-=
-dep_job
-.
-attributes
-.
-get
-(
-'
-build_platform
 '
 )
             
@@ -705,14 +705,7 @@ US
                 
 build_platform
 =
-attributes
-.
-get
-(
-'
 build_platform
-'
-)
                 
 build_type
 =
@@ -781,19 +774,18 @@ signing_cert_scope
 get_signing_cert_scope_per_platform
 (
             
-dep_job
-.
-attributes
-.
-get
-(
-'
 build_platform
-'
-)
 is_nightly
 config
         
+)
+        
+worker_type
+=
+get_worker_type_for_scope
+(
+config
+signing_cert_scope
 )
         
 task
@@ -818,11 +810,7 @@ worker
 type
 '
 :
-get_worker_type_for_scope
-(
-config
-signing_cert_scope
-)
+worker_type
             
 '
 worker
