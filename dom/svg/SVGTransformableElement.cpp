@@ -19,11 +19,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 .
 h
 "
@@ -132,7 +128,7 @@ dom
 {
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 SVGTransformableElement
 :
@@ -142,7 +138,7 @@ Transform
 )
 {
 return
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 :
 :
 GetDOMWrapper

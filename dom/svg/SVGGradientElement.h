@@ -106,7 +106,7 @@ namespace
 dom
 {
 class
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 ;
 typedef
 SVGElement
@@ -239,7 +239,7 @@ GradientUnits
 ;
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 GradientTransform
 (

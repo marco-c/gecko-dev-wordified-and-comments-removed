@@ -225,11 +225,6 @@ SVGAnimatedString
 h
 '
 '
-SVGAnimatedTransformList
-.
-h
-'
-'
 SVGAnimateElement
 .
 h
@@ -615,6 +610,11 @@ DOMSVGAnimatedNumberList
 cpp
 '
 '
+DOMSVGAnimatedTransformList
+.
+cpp
+'
+'
 DOMSVGLength
 .
 cpp
@@ -811,11 +811,6 @@ cpp
 '
 '
 SVGAnimatedString
-.
-cpp
-'
-'
-SVGAnimatedTransformList
 .
 cpp
 '

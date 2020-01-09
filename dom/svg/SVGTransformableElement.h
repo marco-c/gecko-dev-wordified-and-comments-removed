@@ -59,7 +59,7 @@ namespace
 dom
 {
 class
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 ;
 class
 SVGGraphicsElement
@@ -136,7 +136,7 @@ override
 ;
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 Transform
 (

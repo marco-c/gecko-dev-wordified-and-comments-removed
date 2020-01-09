@@ -61,7 +61,7 @@ namespace
 dom
 {
 class
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 final
 :
 public
@@ -78,16 +78,16 @@ public
 :
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 )
 static
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 GetDOMWrapper
 (
@@ -100,7 +100,7 @@ aElement
 )
 ;
 static
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 *
 GetDOMWrapperIfExists
 (
@@ -179,7 +179,7 @@ AnimVal
 private
 :
 explicit
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 (
 SVGElement
 *
@@ -201,7 +201,7 @@ aElement
 {
 }
 ~
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 (
 )
 ;

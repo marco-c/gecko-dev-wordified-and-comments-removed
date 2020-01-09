@@ -24,11 +24,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 .
 h
 "
@@ -384,7 +380,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 SVGPatternElement
 :
@@ -394,7 +390,7 @@ PatternTransform
 )
 {
 return
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 :
 :
 GetDOMWrapper
