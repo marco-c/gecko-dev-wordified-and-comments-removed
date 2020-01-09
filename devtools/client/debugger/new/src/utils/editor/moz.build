@@ -125,3 +125,13 @@ events
 js
 '
 )
+DevToolsModules
+(
+'
+source
+-
+editor
+.
+css
+'
+)

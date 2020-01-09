@@ -64,11 +64,6 @@ MPL
 DevToolsModules
 (
 '
-debugger
-.
-css
-'
-'
 parser
 -
 worker
@@ -90,6 +85,11 @@ search
 worker
 .
 js
+'
+'
+vendors
+.
+css
 '
 '
 vendors

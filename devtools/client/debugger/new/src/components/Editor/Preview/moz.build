@@ -79,3 +79,11 @@ Popup
 js
 '
 )
+DevToolsModules
+(
+'
+Popup
+.
+css
+'
+)
