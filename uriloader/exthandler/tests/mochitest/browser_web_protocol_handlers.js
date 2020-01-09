@@ -293,6 +293,7 @@ url
 template
 "
 )
+;
 protoInfo
 .
 preferredApplicationHandler
