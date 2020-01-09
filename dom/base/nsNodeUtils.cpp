@@ -1395,6 +1395,9 @@ nsNodeUtils
 GetTargetForAnimation
 (
 const
+dom
+:
+:
 Animation
 *
 aAnimation
@@ -1452,6 +1455,9 @@ nsNodeUtils
 :
 AnimationMutated
 (
+dom
+:
+:
 Animation
 *
 aAnimation
@@ -1588,6 +1594,9 @@ nsNodeUtils
 :
 AnimationAdded
 (
+dom
+:
+:
 Animation
 *
 aAnimation
@@ -1609,6 +1618,9 @@ nsNodeUtils
 :
 AnimationChanged
 (
+dom
+:
+:
 Animation
 *
 aAnimation
@@ -1630,6 +1642,9 @@ nsNodeUtils
 :
 AnimationRemoved
 (
+dom
+:
+:
 Animation
 *
 aAnimation

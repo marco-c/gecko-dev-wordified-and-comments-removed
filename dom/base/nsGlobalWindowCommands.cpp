@@ -199,6 +199,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Selection
 .
 h
@@ -2610,6 +2621,9 @@ NS_ERROR_FAILURE
 ;
 RefPtr
 <
+dom
+:
+:
 Document
 >
 doc
