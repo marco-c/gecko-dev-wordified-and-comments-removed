@@ -330,7 +330,7 @@ ShouldNotBeVisible
 )
 {
 return
-true
+false
 ;
 }
 nsEventStatus
