@@ -713,6 +713,8 @@ gFindBar
 .
 _findField
 .
+inputField
+.
 dispatchEvent
 (
 ev

@@ -1084,6 +1084,8 @@ activeElement
 findBar
 .
 _findField
+.
+inputField
 "
 findbar
 is
@@ -1169,6 +1171,8 @@ activeElement
 findBar
 .
 _findField
+.
+inputField
 "
 findbar
 is

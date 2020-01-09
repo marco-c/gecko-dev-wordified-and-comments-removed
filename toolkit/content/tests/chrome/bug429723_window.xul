@@ -389,6 +389,8 @@ gFindBar
 .
 _findField
 .
+inputField
+.
 dispatchEvent
 (
 event
@@ -551,6 +553,8 @@ DOM_VK_BACK_SPACE
 gFindBar
 .
 _findField
+.
+inputField
 .
 dispatchEvent
 (
