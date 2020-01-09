@@ -264,17 +264,6 @@ monospace
 }
 grids
 .
-filter
-(
-grid
-=
->
-!
-grid
-.
-isSubgrid
-)
-.
 map
 (
 grid
@@ -290,7 +279,6 @@ grid
 id
 getSwatchColorPickerTooltip
 grid
-grids
 onHideBoxModelHighlighter
 onSetGridOverlayColor
 onShowBoxModelHighlighterForNode
