@@ -1274,12 +1274,8 @@ buttonElement
 >
 SetTabIndex
 (
-aInputElement
 -
->
-TabIndex
-(
-)
+1
 IgnoreErrors
 (
 )
