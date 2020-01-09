@@ -283,6 +283,11 @@ nsIInputStream
 aIn
 )
 ;
+nsresult
+CleanOldPrefixSet
+(
+)
+;
 RefPtr
 <
 VariableLengthPrefixSet
