@@ -952,15 +952,9 @@ Extra
 (
 )
 .
-type
+isSome
 (
 )
-!
-=
-WebAuthnMaybeGetAssertionExtraInfo
-:
-:
-Tnull_t
 )
 {
 const
@@ -974,7 +968,7 @@ Extra
 (
 )
 .
-get_WebAuthnGetAssertionExtraInfo
+ref
 (
 )
 ;
