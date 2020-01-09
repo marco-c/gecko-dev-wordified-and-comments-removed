@@ -32571,6 +32571,13 @@ SetupLineCursor
 ;
 }
 }
+linesDisplayListCollection
+.
+MoveTo
+(
+aLists
+)
+;
 if
 (
 textOverflow
@@ -32582,7 +32589,7 @@ isSome
 {
 aLists
 .
-PositionedDescendants
+Content
 (
 )
 -
@@ -32599,13 +32606,6 @@ GetMarkers
 )
 ;
 }
-linesDisplayListCollection
-.
-MoveTo
-(
-aLists
-)
-;
 if
 (
 HasOutsideBullet
