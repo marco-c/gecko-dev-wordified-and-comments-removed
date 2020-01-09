@@ -412,7 +412,6 @@ class
 State
 {
 FILE_HEADER
-CLIPBOARD_HEADER
 INFO_HEADER_SIZE
 INFO_HEADER_REST
 BITFIELDS
@@ -455,6 +454,8 @@ State
 aState
 size_t
 aLength
+bool
+aForClipboard
 )
 ;
 int32_t
@@ -488,20 +489,6 @@ LexerTransition
 State
 >
 ReadFileHeader
-(
-const
-char
-*
-aData
-size_t
-aLength
-)
-;
-LexerTransition
-<
-State
->
-ReadClipboardHeader
 (
 const
 char
@@ -647,6 +634,9 @@ mH
 ;
 bool
 mIsWithinICO
+;
+bool
+mIsForClipboard
 ;
 bmp
 :
