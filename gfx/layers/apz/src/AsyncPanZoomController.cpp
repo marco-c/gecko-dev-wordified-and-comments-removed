@@ -2073,6 +2073,11 @@ aInputQueue
 GeckoContentController
 *
 aGeckoContentController
+wr
+:
+:
+RenderRoot
+aRenderRoot
 GestureBehavior
 aGestures
 )
@@ -2080,6 +2085,10 @@ aGestures
 mLayersId
 (
 aLayersId
+)
+mRenderRoot
+(
+aRenderRoot
 )
 mGeckoContentController
 (

@@ -204,7 +204,7 @@ APZCTreeManagerChild
 ZoomToRect
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 const
@@ -254,7 +254,7 @@ aInputBlockId
 const
 nsTArray
 <
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 >
 &
 aTargets
@@ -274,7 +274,7 @@ APZCTreeManagerChild
 UpdateZoomConstraints
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 const
@@ -346,7 +346,7 @@ APZCTreeManagerChild
 StartScrollbarDrag
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 const
@@ -369,7 +369,7 @@ APZCTreeManagerChild
 StartAutoscroll
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 const
@@ -393,7 +393,7 @@ APZCTreeManagerChild
 StopAutoscroll
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 )

@@ -37,8 +37,8 @@ public
 :
 APZCTreeManagerParent
 (
-LayersId
-aLayersId
+WRRootId
+aWrRootId
 RefPtr
 <
 APZCTreeManager
@@ -64,6 +64,8 @@ GetLayersId
 const
 {
 return
+mWrRootId
+.
 mLayersId
 ;
 }
@@ -107,7 +109,7 @@ IPCResult
 RecvZoomToRect
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 const
@@ -154,7 +156,7 @@ uint64_t
 aInputBlockId
 nsTArray
 <
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 >
 &
 &
@@ -171,7 +173,7 @@ IPCResult
 RecvUpdateZoomConstraints
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 const
@@ -227,7 +229,7 @@ IPCResult
 RecvStartScrollbarDrag
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 const
@@ -246,7 +248,7 @@ IPCResult
 RecvStartAutoscroll
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 const
@@ -265,7 +267,7 @@ IPCResult
 RecvStopAutoscroll
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 )
@@ -296,8 +298,17 @@ override
 }
 private
 :
-LayersId
-mLayersId
+bool
+IsGuidValid
+(
+const
+SLGuidAndRenderRoot
+&
+aGuid
+)
+;
+WRRootId
+mWrRootId
 ;
 RefPtr
 <
