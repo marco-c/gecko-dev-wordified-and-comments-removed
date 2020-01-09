@@ -130,6 +130,7 @@ DOMString
 inputType
 ;
 [
+NeedsCallerType
 Pref
 =
 "
@@ -291,6 +292,7 @@ interface
 InputEvent
 {
 [
+NeedsCallerType
 Pref
 =
 "
