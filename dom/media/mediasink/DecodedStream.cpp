@@ -4102,6 +4102,17 @@ AssertOwnerThread
 (
 )
 ;
+MOZ_ASSERT
+(
+mLastOutputTime
+<
+=
+FromMicroseconds
+(
+aTime
+)
+)
+;
 mLastOutputTime
 =
 FromMicroseconds
