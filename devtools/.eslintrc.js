@@ -596,14 +596,6 @@ files
 "
 :
 [
-"
-client
-/
-webaudioeditor
-/
-*
-*
-"
 ]
 "
 rules
