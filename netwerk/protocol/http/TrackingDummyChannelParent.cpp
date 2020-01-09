@@ -195,7 +195,7 @@ self
 channel
 -
 >
-IsTrackingResource
+ClassificationFlags
 (
 )
 )
