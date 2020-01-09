@@ -1079,16 +1079,6 @@ JSObject
 view
 )
 ;
-void
-setNewData
-(
-FreeOp
-*
-fop
-BufferContents
-newContents
-)
-;
 static
 void
 detach
