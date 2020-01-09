@@ -1381,6 +1381,9 @@ source
 frame
 .
 line
+frame
+.
+column
 )
 onSnapshotClick
 :

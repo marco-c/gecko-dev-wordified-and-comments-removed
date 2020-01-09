@@ -649,6 +649,7 @@ selectSourceURL
 (
 url
 line
+column
 )
 {
 return
@@ -661,6 +662,7 @@ selectSourceURL
 url
 {
 line
+column
 }
 )
 ;
@@ -669,6 +671,7 @@ selectSource
 (
 sourceId
 line
+column
 )
 {
 return
@@ -681,6 +684,7 @@ selectSource
 sourceId
 {
 line
+column
 }
 )
 ;

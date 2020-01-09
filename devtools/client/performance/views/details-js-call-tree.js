@@ -626,6 +626,7 @@ onViewSourceInDebugger
 (
 url
 line
+column
 )
 =
 >
@@ -638,6 +639,7 @@ viewSourceInDebugger
 (
 url
 line
+column
 )
 .
 then
@@ -712,6 +714,7 @@ const
 {
 url
 line
+column
 }
 =
 treeItem
@@ -730,6 +733,7 @@ viewSourceInDebugger
 (
 url
 line
+column
 )
 .
 then

@@ -113,6 +113,7 @@ function
 toolbox
 sourceURL
 sourceLine
+sourceColumn
 sourceId
 reason
 =
@@ -180,6 +181,7 @@ source
 .
 id
 sourceLine
+sourceColumn
 )
 ;
 }
@@ -245,6 +247,7 @@ selectSourceURL
 (
 sourceURL
 sourceLine
+sourceColumn
 )
 ;
 }
@@ -283,6 +286,7 @@ viewSource
 toolbox
 sourceURL
 sourceLine
+sourceColumn
 )
 ;
 return

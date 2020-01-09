@@ -664,12 +664,6 @@ uri
 =
 newURI
 ;
-eventEditor
-.
-sourceActor
-=
-null
-;
 this
 .
 _tooltip
@@ -1727,6 +1721,9 @@ url
 location
 .
 line
+location
+.
+column
 sourceActor
 )
 ;

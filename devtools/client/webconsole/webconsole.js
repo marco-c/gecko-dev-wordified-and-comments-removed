@@ -556,6 +556,7 @@ viewSourceInDebugger
 (
 sourceURL
 sourceLine
+sourceColumn
 )
 {
 const
@@ -582,6 +583,7 @@ viewSource
 (
 sourceURL
 sourceLine
+sourceColumn
 )
 ;
 return
@@ -593,6 +595,7 @@ viewSourceInDebugger
 (
 sourceURL
 sourceLine
+sourceColumn
 )
 .
 then
