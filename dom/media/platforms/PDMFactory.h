@@ -229,11 +229,15 @@ mGMPPDMFailedToStartup
 =
 false
 ;
+friend
+class
+VideoDecoderParent
+;
+static
 void
 EnsureInit
 (
 )
-const
 ;
 template
 <

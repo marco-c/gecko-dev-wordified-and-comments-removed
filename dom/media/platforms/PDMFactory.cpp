@@ -790,7 +790,6 @@ PDMFactory
 EnsureInit
 (
 )
-const
 {
 {
 StaticMutexAutoLock

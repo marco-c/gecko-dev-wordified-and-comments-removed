@@ -77,6 +77,13 @@ h
 #
 include
 "
+PDMFactory
+.
+h
+"
+#
+include
+"
 VideoDecoderManagerParent
 .
 h
@@ -293,10 +300,10 @@ CreateDecoderParams
 :
 OptionSet
 ;
-WMFDecoderModule
+PDMFactory
 :
 :
-Init
+EnsureInit
 (
 )
 ;
