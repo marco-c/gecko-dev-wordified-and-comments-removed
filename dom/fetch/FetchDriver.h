@@ -103,6 +103,9 @@ class
 nsIConsoleReportCollector
 ;
 class
+nsICookieSettings
+;
+class
 nsICSPEventListener
 ;
 class
@@ -312,6 +315,9 @@ aLoadGroup
 nsIEventTarget
 *
 aMainThreadEventTarget
+nsICookieSettings
+*
+aCookieSettings
 PerformanceStorage
 *
 aPerformanceStorage
@@ -476,6 +482,12 @@ nsCOMPtr
 nsIEventTarget
 >
 mMainThreadEventTarget
+;
+nsCOMPtr
+<
+nsICookieSettings
+>
+mCookieSettings
 ;
 RefPtr
 <

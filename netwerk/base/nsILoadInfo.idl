@@ -3393,7 +3393,6 @@ null
 .
 *
 /
-readonly
 attribute
 nsICookieSettings
 cookieSettings
