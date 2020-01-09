@@ -359,7 +359,7 @@ value
 {
 jsterm
 .
-setInputValue
+_setValue
 (
 value
 )

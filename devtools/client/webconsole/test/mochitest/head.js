@@ -1549,7 +1549,7 @@ hud
 .
 jsterm
 .
-getInputValue
+_getValue
 (
 )
 ;
@@ -1566,7 +1566,7 @@ hud
 .
 jsterm
 .
-setInputValue
+_setValue
 (
 value
 )
