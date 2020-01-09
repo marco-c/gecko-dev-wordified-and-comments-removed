@@ -22,7 +22,7 @@ top
 0
 width
 =
-600
+800
 height
 =
 600

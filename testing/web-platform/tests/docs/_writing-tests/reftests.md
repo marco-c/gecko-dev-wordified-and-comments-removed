@@ -230,7 +230,7 @@ pixel
 identically
 within
 a
-600x600
+800x600
 window
 *
 including

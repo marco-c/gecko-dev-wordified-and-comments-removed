@@ -2747,7 +2747,7 @@ window
 size
 =
 (
-600
+800
 +
 width_offset
 600
