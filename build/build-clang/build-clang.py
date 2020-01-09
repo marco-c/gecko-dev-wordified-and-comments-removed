@@ -2250,6 +2250,17 @@ target
 -
 DRUNTIMES_
 %
+s_COMPILER_RT_BUILD_XRAY
+=
+OFF
+"
+%
+target
+                
+"
+-
+DRUNTIMES_
+%
 s_SANITIZER_ALLOW_CXXABI
 =
 OFF
