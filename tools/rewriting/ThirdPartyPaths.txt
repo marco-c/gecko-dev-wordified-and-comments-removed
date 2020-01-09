@@ -30,14 +30,6 @@ devtools
 /
 client
 /
-debugger
-/
-node_modules
-/
-devtools
-/
-client
-/
 shared
 /
 build

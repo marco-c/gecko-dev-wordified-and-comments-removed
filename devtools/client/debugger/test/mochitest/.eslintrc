@@ -391,6 +391,11 @@ assertPausedLocation
 :
 false
 "
+assertPreviewTextValue
+"
+:
+false
+"
 assertHighlightLocation
 "
 :
