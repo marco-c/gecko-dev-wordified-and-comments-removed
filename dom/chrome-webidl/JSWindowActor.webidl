@@ -127,8 +127,6 @@ void
 sendAsyncMessage
 (
 DOMString
-actorName
-DOMString
 messageName
 optional
 any

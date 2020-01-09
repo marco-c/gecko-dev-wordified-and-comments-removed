@@ -483,9 +483,6 @@ actorChild
 sendAsyncMessage
 (
 "
-Test
-"
-"
 init
 "
 {
@@ -678,9 +675,6 @@ actorChild
 .
 sendAsyncMessage
 (
-"
-Test
-"
 "
 init
 "

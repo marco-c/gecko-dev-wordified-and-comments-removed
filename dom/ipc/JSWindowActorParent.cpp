@@ -101,6 +101,10 @@ JSWindowActorParent
 :
 Init
 (
+const
+nsAString
+&
+aName
 WindowGlobalParent
 *
 aManager
@@ -121,6 +125,10 @@ twice
 !
 "
 )
+;
+mName
+=
+aName
 ;
 mManager
 =
@@ -292,10 +300,6 @@ aCx
 const
 nsAString
 &
-aActorName
-const
-nsAString
-&
 aMessageName
 JS
 :
@@ -418,7 +422,7 @@ ev
 new
 AsyncMessageToChild
 (
-aActorName
+mName
 aMessageName
 std
 :
@@ -517,10 +521,7 @@ mManager
 >
 SendAsyncMessage
 (
-PromiseFlatString
-(
-aActorName
-)
+mName
 PromiseFlatString
 (
 aMessageName

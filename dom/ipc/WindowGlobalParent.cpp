@@ -1145,6 +1145,7 @@ actor
 >
 Init
 (
+aName
 this
 )
 ;
