@@ -1117,6 +1117,9 @@ nsIDNSRecord
 >
 mDNSRecord
 ;
+bool
+mResolvedByTRR
+;
 nsresult
 mDNSLookupStatus
 ;
