@@ -1890,12 +1890,15 @@ return
 #
 endif
 }
+MOZ_ALWAYS_TRUE
+(
 sRegistry
 -
 >
 emplaceBack
 (
 aProxy
+)
 )
 ;
 }
@@ -2068,6 +2071,8 @@ ShutdownThreads
 )
 ;
 }
+MOZ_ALWAYS_TRUE
+(
 sArrayData
 -
 >
@@ -2077,6 +2082,7 @@ MakePair
 (
 aArrayData
 aLength
+)
 )
 )
 ;
