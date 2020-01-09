@@ -1099,9 +1099,6 @@ MozTogglePictureInPicture
 capture
 :
 true
-wantUntrusted
-:
-true
 }
 }
 messages
