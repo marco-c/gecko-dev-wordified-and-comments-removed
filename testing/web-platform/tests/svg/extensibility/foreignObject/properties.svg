@@ -377,7 +377,7 @@ first
 .
 width
 "
-auto
+0px
 "
 )
 ;
@@ -390,7 +390,7 @@ first
 .
 height
 "
-auto
+0px
 "
 )
 ;
@@ -402,6 +402,14 @@ height
 default
 to
 auto
+(
+which
+computes
+to
+"
+0px
+"
+)
 '
 )
 ;
