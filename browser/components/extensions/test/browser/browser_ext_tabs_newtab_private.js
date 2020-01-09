@@ -476,6 +476,7 @@ true
 false
 )
 ;
+await
 promiseUpdatePrivatePermission
 (
 true
