@@ -739,6 +739,8 @@ BINPATH
 /
 PREF_DIR
 /
+ANDROID_CPU_ARCH
+/
 geckoview
 -
 prefs
@@ -772,6 +774,8 @@ update
 .
 json
 BINPATH
+/
+ANDROID_CPU_ARCH
 /
 greprefs
 .
@@ -1449,9 +1453,7 @@ marionette
 js
 BINPATH
 /
-defaults
-/
-pref
+PREF_DIR
 /
 marionette
 .
