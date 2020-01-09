@@ -2345,14 +2345,6 @@ n
 =
 0
 ;
-n
-+
-=
-mallocSizeOf
-(
-mThread
-)
-;
 for
 (
 const
