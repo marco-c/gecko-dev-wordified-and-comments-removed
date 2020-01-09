@@ -72,15 +72,6 @@ include
 "
 mozilla
 /
-Scoped
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ThreadLocal
 .
 h
