@@ -158,7 +158,7 @@ snap
 ;
 snap
 .
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 StyleScrollSnapStrictness
 :
@@ -545,7 +545,7 @@ snap
 ;
 snap
 .
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 StyleScrollSnapStrictness
 :

@@ -30,7 +30,7 @@ void
 ScrollStyles
 :
 :
-InitializeScrollSnapType
+InitializeScrollSnapStrictness
 (
 WritingMode
 aWritingMode
@@ -40,14 +40,14 @@ nsStyleDisplay
 aDisplay
 )
 {
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 =
 StyleScrollSnapStrictness
 :
 :
 None
 ;
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 StyleScrollSnapStrictness
 :
@@ -89,7 +89,7 @@ StyleScrollSnapAxis
 :
 X
 :
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 =
 aDisplay
 -
@@ -106,7 +106,7 @@ StyleScrollSnapAxis
 :
 Y
 :
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 aDisplay
 -
@@ -132,7 +132,7 @@ IsVertical
 )
 )
 {
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 =
 aDisplay
 -
@@ -144,7 +144,7 @@ strictness
 }
 else
 {
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 aDisplay
 -
@@ -171,7 +171,7 @@ IsVertical
 )
 )
 {
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 aDisplay
 -
@@ -183,7 +183,7 @@ strictness
 }
 else
 {
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 =
 aDisplay
 -
@@ -201,7 +201,7 @@ StyleScrollSnapAxis
 :
 Both
 :
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 =
 aDisplay
 -
@@ -210,7 +210,7 @@ mScrollSnapType
 .
 strictness
 ;
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 aDisplay
 -
@@ -270,7 +270,7 @@ aDisplay
 mOverscrollBehaviorY
 )
 {
-InitializeScrollSnapType
+InitializeScrollSnapStrictness
 (
 aWritingMode
 aDisplay
@@ -326,7 +326,7 @@ aDisplay
 mOverscrollBehaviorY
 )
 {
-InitializeScrollSnapType
+InitializeScrollSnapStrictness
 (
 aWritingMode
 aDisplay

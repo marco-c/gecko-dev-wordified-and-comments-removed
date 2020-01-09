@@ -1246,7 +1246,7 @@ if
 (
 aSnapInfo
 .
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 =
 StyleScrollSnapStrictness
@@ -1257,7 +1257,7 @@ None
 &
 aSnapInfo
 .
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 =
 =
 StyleScrollSnapStrictness
@@ -1562,7 +1562,7 @@ if
 (
 aSnapInfo
 .
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 =
 StyleScrollSnapStrictness
@@ -1608,7 +1608,7 @@ if
 (
 aSnapInfo
 .
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 =
 =
 StyleScrollSnapStrictness

@@ -2151,20 +2151,20 @@ aOther
 const
 {
 return
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 =
 =
 aOther
 .
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 &
 &
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 =
 aOther
 .
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 &
 &
 mScrollSnapIntervalX
@@ -2246,7 +2246,7 @@ HasScrollSnapping
 const
 {
 return
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 !
 =
 mozilla
@@ -2258,7 +2258,7 @@ StyleScrollSnapStrictness
 None
 |
 |
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 !
 =
 mozilla
@@ -2286,7 +2286,7 @@ IsEmpty
 )
 &
 &
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 !
 =
 mozilla
@@ -2308,7 +2308,7 @@ IsEmpty
 )
 &
 &
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 !
 =
 mozilla
@@ -2322,7 +2322,7 @@ None
 ;
 }
 void
-InitializeScrollSnapType
+InitializeScrollSnapStrictness
 (
 WritingMode
 aWritingMode
@@ -2336,7 +2336,7 @@ mozilla
 :
 :
 StyleScrollSnapStrictness
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 =
 mozilla
 :
@@ -2350,7 +2350,7 @@ mozilla
 :
 :
 StyleScrollSnapStrictness
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 =
 mozilla
 :

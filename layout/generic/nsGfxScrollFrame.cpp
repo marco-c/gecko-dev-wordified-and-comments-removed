@@ -25698,7 +25698,7 @@ GetScrollStylesFromFrame
 return
 styles
 .
-mScrollSnapTypeY
+mScrollSnapStrictnessY
 !
 =
 StyleScrollSnapStrictness
@@ -25709,7 +25709,7 @@ None
 |
 styles
 .
-mScrollSnapTypeX
+mScrollSnapStrictnessX
 !
 =
 StyleScrollSnapStrictness
@@ -32620,7 +32620,7 @@ GetWritingMode
 ;
 result
 .
-InitializeScrollSnapType
+InitializeScrollSnapStrictness
 (
 writingMode
 disp
