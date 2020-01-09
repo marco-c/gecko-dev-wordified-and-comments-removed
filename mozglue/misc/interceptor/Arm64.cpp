@@ -68,9 +68,14 @@ base
 =
 aPC
 ;
-uintptr_t
+intptr_t
 offset
 =
+SignExtend
+<
+intptr_t
+>
+(
 (
 (
 aInst
@@ -91,6 +96,8 @@ kMaskDataProcImmPcRelativeImmLo
 >
 >
 29
+)
+21
 )
 ;
 base
