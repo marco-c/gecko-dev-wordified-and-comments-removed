@@ -145,16 +145,6 @@ os
 "
 win
 "
-&
-&
-AppConstants
-.
-MOZ_APP_NAME
-!
-=
-"
-thunderbird
-"
 )
 {
 file
