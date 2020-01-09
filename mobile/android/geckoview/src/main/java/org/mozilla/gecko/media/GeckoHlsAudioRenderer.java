@@ -75,6 +75,17 @@ android
 .
 exoplayer2
 .
+ExoPlaybackException
+;
+import
+com
+.
+google
+.
+android
+.
+exoplayer2
+.
 Format
 ;
 import
@@ -434,6 +445,8 @@ handleFormatRead
 DecoderInputBuffer
 bufferForRead
 )
+throws
+ExoPlaybackException
 {
 onInputFormatChanged
 (
