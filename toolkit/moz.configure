@@ -12234,6 +12234,11 @@ endif
 '
 '
 '
+flags
+=
+jpeg_flags
+.
+cflags
 check_msg
 =
 '
@@ -12316,6 +12321,11 @@ endif
 '
 '
 '
+flags
+=
+jpeg_flags
+.
+cflags
 check_msg
 =
 '
