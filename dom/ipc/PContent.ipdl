@@ -8170,6 +8170,15 @@ DiscardedData
 data
 )
 ;
+async
+RecordOrigin
+(
+uint32_t
+metricId
+nsCString
+origin
+)
+;
 sync
 GetA11yContentId
 (

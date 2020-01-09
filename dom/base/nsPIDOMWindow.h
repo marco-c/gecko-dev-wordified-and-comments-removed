@@ -2842,6 +2842,9 @@ aBlocked
 nsIURI
 *
 aURIHint
+nsIChannel
+*
+aTrackingChannel
 const
 mozilla
 :
