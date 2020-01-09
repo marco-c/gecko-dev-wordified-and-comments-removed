@@ -501,6 +501,16 @@ default
 '
     
 '
+tasks_for
+'
+:
+'
+hg
+-
+push
+'
+    
+'
 try_mode
 '
 :
