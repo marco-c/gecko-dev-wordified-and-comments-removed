@@ -2,14 +2,7 @@ const
 BIN_DIR
 =
 (
-AppConstants
-.
-platform
-=
-=
-"
-win
-"
+IS_WIN
 ?
 "
 test_bug473417
@@ -28,9 +21,7 @@ BIN_EXE
 TestAUSReadStrings
 "
 +
-mozinfo
-.
-bin_suffix
+BIN_SUFFIX
 ;
 const
 tempdir
