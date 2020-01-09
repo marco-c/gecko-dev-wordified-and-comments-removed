@@ -83,8 +83,9 @@ RTCIdentityProviderRegistrar
 RTCIdentityProviderRegistrar
 (
 )
-{
-}
+=
+default
+;
 nsIGlobalObject
 *
 RTCIdentityProviderRegistrar

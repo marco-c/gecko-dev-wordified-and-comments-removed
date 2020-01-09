@@ -591,8 +591,9 @@ protected
 MediaEngineTabVideoSource
 (
 )
-{
-}
+=
+default
+;
 private
 :
 int32_t
@@ -613,7 +614,7 @@ mWindowId
 bool
 mScrollWithPage
 =
-0
+false
 ;
 int32_t
 mViewportOffsetX

@@ -287,8 +287,9 @@ MediaEngineDefaultVideoSource
 MediaEngineDefaultVideoSource
 (
 )
-{
-}
+=
+default
+;
 nsString
 MediaEngineDefaultVideoSource
 :
@@ -1696,8 +1697,9 @@ MediaEngineDefaultAudioSource
 MediaEngineDefaultAudioSource
 (
 )
-{
-}
+=
+default
+;
 nsString
 MediaEngineDefaultAudioSource
 :

@@ -146,8 +146,9 @@ virtual
 MediaEnginePhotoCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 enum

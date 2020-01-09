@@ -206,8 +206,9 @@ MediaEngineTabVideoSource
 MediaEngineTabVideoSource
 (
 )
-{
-}
+=
+default
+;
 nsresult
 MediaEngineTabVideoSource
 :
@@ -601,9 +602,11 @@ if
 !
 win
 )
+{
 return
 NS_OK
 ;
+}
 mVideoSource
 -
 >
