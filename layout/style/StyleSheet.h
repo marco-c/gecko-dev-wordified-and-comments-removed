@@ -1520,14 +1520,10 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
-<
-URLExtraData
->
-CreateURLExtraData
+void
+SetURLExtraData
 (
 )
-const
 ;
 protected
 :

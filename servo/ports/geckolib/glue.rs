@@ -8357,14 +8357,11 @@ let
 extra_data
 =
 UrlExtraData
-(
-RefPtr
 :
 :
 new
 (
 extra_data
-)
 )
 ;
 let
@@ -32943,9 +32940,7 @@ url
 .
 extra_data
 .
-0
-.
-get
+ptr
 (
 )
 }
