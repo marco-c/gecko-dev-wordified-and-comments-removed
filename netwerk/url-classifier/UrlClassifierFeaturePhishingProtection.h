@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_UrlClassifierFeatureNoChannel_h
+mozilla_UrlClassifierFeaturePhishingProtection_h
 #
 define
-mozilla_UrlClassifierFeatureNoChannel_h
+mozilla_UrlClassifierFeaturePhishingProtection_h
 #
 include
 "
@@ -18,7 +18,7 @@ namespace
 net
 {
 class
-UrlClassifierFeatureNoChannel
+UrlClassifierFeaturePhishingProtection
 final
 :
 public
@@ -27,7 +27,7 @@ UrlClassifierFeatureBase
 public
 :
 struct
-NoChannelFeature
+PhishingProtectionFeature
 ;
 static
 void
@@ -112,10 +112,10 @@ override
 private
 :
 explicit
-UrlClassifierFeatureNoChannel
+UrlClassifierFeaturePhishingProtection
 (
 const
-NoChannelFeature
+PhishingProtectionFeature
 &
 aFeature
 )

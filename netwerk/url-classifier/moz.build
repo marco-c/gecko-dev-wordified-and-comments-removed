@@ -198,7 +198,7 @@ UrlClassifierFeatureLoginReputation
 cpp
 '
 '
-UrlClassifierFeatureNoChannel
+UrlClassifierFeaturePhishingProtection
 .
 cpp
 '
