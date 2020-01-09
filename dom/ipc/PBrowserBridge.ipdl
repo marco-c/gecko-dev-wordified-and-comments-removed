@@ -513,6 +513,13 @@ Deactivate
 (
 )
 ;
+async
+SetIsUnderHiddenEmbedderElement
+(
+bool
+aIsUnderHiddenEmbedderElement
+)
+;
 }
 ;
 }

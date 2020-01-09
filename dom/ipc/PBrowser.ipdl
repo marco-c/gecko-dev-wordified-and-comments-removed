@@ -4218,6 +4218,13 @@ aMatrix
 )
 ;
 async
+SetIsUnderHiddenEmbedderElement
+(
+bool
+aIsUnderHiddenEmbedderElement
+)
+;
+async
 ParentActivated
 (
 bool

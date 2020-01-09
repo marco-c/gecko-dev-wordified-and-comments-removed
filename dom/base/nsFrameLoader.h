@@ -501,6 +501,13 @@ nsSubDocumentFrame
 aIFrame
 )
 ;
+void
+SendIsUnderHiddenEmbedderElement
+(
+bool
+aIsUnderHiddenEmbedderElement
+)
+;
 nsDocShell
 *
 GetDocShell
