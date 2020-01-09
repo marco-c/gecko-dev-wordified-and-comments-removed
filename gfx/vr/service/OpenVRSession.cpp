@@ -8620,7 +8620,7 @@ const
 float
 triggerThreshold
 =
-gfxPrefs
+StaticPrefs
 :
 :
 VRControllerTriggerThreshold
@@ -10746,7 +10746,7 @@ const
 float
 triggerThreshold
 =
-gfxPrefs
+StaticPrefs
 :
 :
 VRControllerTriggerThreshold

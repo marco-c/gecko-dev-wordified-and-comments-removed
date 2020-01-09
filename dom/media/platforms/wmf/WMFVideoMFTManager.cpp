@@ -118,13 +118,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxWindowsPlatform
 .
 h
@@ -153,6 +146,15 @@ include
 mozilla
 /
 Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -2327,7 +2329,7 @@ XRE_IsGPUProcess
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFDeblacklistingForTelemetryInGPUProcess
@@ -2355,7 +2357,7 @@ LayersBackend
 LAYERS_D3D11
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFAllowD3D11
@@ -2698,7 +2700,7 @@ mStreamType
 H264
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFAllowUnsupportedResolutions
@@ -3066,7 +3068,7 @@ bool
 lowLatency
 =
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFLowLatencyEnabled
@@ -3081,7 +3083,7 @@ IsWin10OrLater
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFLowLatencyForceDisabled
@@ -6104,7 +6106,7 @@ software
 "
 hw
 ?
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFUseNV12Format

@@ -2207,7 +2207,7 @@ aCategory
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 ImageLayoutNetworkPriority

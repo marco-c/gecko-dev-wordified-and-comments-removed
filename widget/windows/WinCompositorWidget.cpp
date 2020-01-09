@@ -192,7 +192,7 @@ mWnd
 ;
 mNotDeferEndRemoteDrawing
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersCompositionFrameRate

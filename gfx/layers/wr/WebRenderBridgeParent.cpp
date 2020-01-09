@@ -11444,7 +11444,7 @@ ToMilliseconds
 (
 )
 >
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderLateSceneBuildThreshold

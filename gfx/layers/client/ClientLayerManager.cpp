@@ -1159,7 +1159,7 @@ mPaintSequenceNumber
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestLoggingEnabled
@@ -1282,7 +1282,7 @@ startTime
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS
@@ -1430,7 +1430,7 @@ DidRenderingDeviceReset
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 AlwaysPaint
@@ -2467,7 +2467,7 @@ aSequenceNumber
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestLoggingEnabled
@@ -2860,7 +2860,7 @@ SynchronouslyRepaintOnResize
 )
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 LayersForceSynchronousResize
@@ -3238,7 +3238,7 @@ mTransactionStart
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 AlwaysPaint
@@ -4053,7 +4053,7 @@ IsCompositingCheap
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 PersistentBufferProviderSharedEnabled

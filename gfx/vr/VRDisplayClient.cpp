@@ -490,7 +490,7 @@ true
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRAutoActivateEnabled
@@ -529,7 +529,7 @@ false
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRAutoActivateEnabled

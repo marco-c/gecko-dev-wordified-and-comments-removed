@@ -813,7 +813,7 @@ aTask
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersOMTPDumpCapture
@@ -1087,7 +1087,7 @@ Flush
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersOMTPReleaseCaptureOnMainThread

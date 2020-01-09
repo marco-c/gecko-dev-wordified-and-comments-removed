@@ -68,7 +68,7 @@ maxMS
 =
 clamped
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LineSmoothScrollMaxDurationMs
@@ -82,7 +82,7 @@ minMS
 =
 clamped
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LineSmoothScrollMinDurationMs
@@ -106,7 +106,7 @@ maxMS
 =
 clamped
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PageSmoothScrollMaxDurationMs
@@ -120,7 +120,7 @@ minMS
 =
 clamped
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PageSmoothScrollMinDurationMs
@@ -144,7 +144,7 @@ maxMS
 =
 clamped
 (
-gfxPrefs
+StaticPrefs
 :
 :
 OtherSmoothScrollMaxDurationMs
@@ -158,7 +158,7 @@ minMS
 =
 clamped
 (
-gfxPrefs
+StaticPrefs
 :
 :
 OtherSmoothScrollMinDurationMs
@@ -179,7 +179,7 @@ intervalRatio
 (
 double
 )
-gfxPrefs
+StaticPrefs
 :
 :
 SmoothScrollDurationToIntervalRatio

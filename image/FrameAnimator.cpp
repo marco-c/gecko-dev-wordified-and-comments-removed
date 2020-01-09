@@ -558,7 +558,7 @@ aTime
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 ImageAnimatedResumeFromLastDisplayed

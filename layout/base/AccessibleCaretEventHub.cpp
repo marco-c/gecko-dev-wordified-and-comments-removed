@@ -2749,7 +2749,7 @@ return
 int32_t
 longTapDelay
 =
-gfxPrefs
+StaticPrefs
 :
 :
 UiClickHoldContextMenusDelay

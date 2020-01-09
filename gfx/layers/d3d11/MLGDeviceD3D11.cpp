@@ -155,7 +155,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1293,7 +1295,7 @@ dxgiFactory2
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11UseDoubleBuffering

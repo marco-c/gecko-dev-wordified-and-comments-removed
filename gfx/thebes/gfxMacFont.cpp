@@ -82,13 +82,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxTextRun
 .
 h
@@ -1008,7 +1001,7 @@ RequiresAATLayout
 aVertical
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 CoreTextEnabled

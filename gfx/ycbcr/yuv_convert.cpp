@@ -8,7 +8,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -249,7 +251,7 @@ yuv_color_space
 bool
 use_deprecated
 =
-gfxPrefs
+StaticPrefs
 :
 :
 YCbCrAccurateConversion
@@ -1421,7 +1423,7 @@ filter
 bool
 use_deprecated
 =
-gfxPrefs
+StaticPrefs
 :
 :
 YCbCrAccurateConversion

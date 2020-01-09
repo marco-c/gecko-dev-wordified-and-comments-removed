@@ -553,7 +553,7 @@ XRE_IsParentProcess
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLSurfaceTextureEnabled
@@ -728,7 +728,7 @@ if
 factory
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDXGLEnabled

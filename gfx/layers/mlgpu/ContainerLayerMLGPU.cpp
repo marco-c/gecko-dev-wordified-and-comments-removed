@@ -8,7 +8,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -271,7 +273,7 @@ mRenderTarget
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 AdvancedLayersUseInvalidation

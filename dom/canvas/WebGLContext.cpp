@@ -53,13 +53,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h
@@ -231,6 +224,15 @@ include
 mozilla
 /
 Services
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -600,7 +602,7 @@ WebGLContextOptions
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDefaultNoAlpha
@@ -745,7 +747,7 @@ mGL_OnlyClearInDestroyResourcesAndContext
 )
 mMaxPerfWarnings
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLMaxPerfWarnings
@@ -758,7 +760,7 @@ mNumPerfWarnings
 )
 mMaxAcceptableFBStatusInvals
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLMaxAcceptableFBStatusInvals
@@ -791,7 +793,7 @@ false
 )
 mAllowFBInvalidation
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLFBInvalidation
@@ -803,7 +805,7 @@ mMsaaSamples
 (
 uint8_t
 )
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLMsaaSamples
@@ -929,7 +931,7 @@ false
 ;
 mMaxWarnings
 =
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLMaxWarningsPerContext
@@ -1755,7 +1757,7 @@ Value
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 MSAALevel
@@ -1773,7 +1775,7 @@ false
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLForceMSAA
@@ -2406,7 +2408,7 @@ else
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebGL1AllowCoreProfile
@@ -2471,7 +2473,7 @@ default
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDefaultLowPower
@@ -2692,7 +2694,7 @@ true
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDisableWGL
@@ -2707,7 +2709,7 @@ false
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDisableANGLE
@@ -3865,7 +3867,7 @@ mGeneration
 bool
 disabled
 =
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDisabled
@@ -3943,7 +3945,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDisableFailIfMajorPerformanceCaveat
@@ -4028,7 +4030,7 @@ NS_ERROR_FAILURE
 bool
 forceEnabled
 =
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLForceEnabled
@@ -4649,7 +4651,7 @@ const
 auto
 maxWebGLContexts
 =
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLMaxContexts
@@ -4659,7 +4661,7 @@ WebGLMaxContexts
 auto
 maxWebGLContextsPerPrincipal
 =
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLMaxContextsPerPrincipal
@@ -6413,7 +6415,7 @@ const
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLSpewFrameAllocs

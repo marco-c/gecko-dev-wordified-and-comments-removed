@@ -1312,7 +1312,7 @@ Nothing
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 APZOneTouchPinchEnabled
@@ -2569,7 +2569,7 @@ task
 forget
 (
 )
-gfxPrefs
+StaticPrefs
 :
 :
 UiClickHoldContextMenusDelay
@@ -2696,7 +2696,7 @@ task
 forget
 (
 )
-gfxPrefs
+StaticPrefs
 :
 :
 APZMaxTapTime

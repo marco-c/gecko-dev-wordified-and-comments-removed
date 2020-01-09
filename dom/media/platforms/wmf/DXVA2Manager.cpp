@@ -101,6 +101,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -2353,7 +2362,7 @@ VendorId
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFSkipBlacklist
@@ -2789,7 +2798,7 @@ hr
 uint32_t
 dxvaLimit
 =
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFMaxDXVAVideos
@@ -4621,7 +4630,7 @@ VendorId
 &
 &
 !
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFSkipBlacklist
@@ -6784,7 +6793,7 @@ aDevice
 uint32_t
 dxvaLimit
 =
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFMaxDXVAVideos
@@ -6929,7 +6938,7 @@ const
 {
 return
 !
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFAMDHighResEnabled

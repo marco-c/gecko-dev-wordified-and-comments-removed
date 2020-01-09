@@ -1258,7 +1258,7 @@ eRequiresTargetConfirmation
 else
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled

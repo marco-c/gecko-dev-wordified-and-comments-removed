@@ -788,7 +788,7 @@ Length
 (
 )
 >
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderMaxFilterOpsPerChain

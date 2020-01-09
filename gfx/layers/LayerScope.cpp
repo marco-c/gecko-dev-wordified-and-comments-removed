@@ -7079,7 +7079,7 @@ NS_SERVERSOCKET_CONTRACTID
 int
 port
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayerScopePort
@@ -7294,7 +7294,7 @@ Init
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayerScopeEnabled
@@ -7748,7 +7748,7 @@ gIsGtest
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayerScopeEnabled

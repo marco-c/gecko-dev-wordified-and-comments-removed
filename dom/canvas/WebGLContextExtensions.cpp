@@ -326,7 +326,7 @@ true
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLPrivilegedExtensionsEnabled

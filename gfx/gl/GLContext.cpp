@@ -873,7 +873,7 @@ useTLSIsCurrent
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 UseTLSIsCurrent
@@ -887,7 +887,7 @@ return
 useTLSIsCurrent
 ;
 return
-gfxPrefs
+StaticPrefs
 :
 :
 UseTLSIsCurrent
@@ -12023,7 +12023,7 @@ LOCAL_GL_RGB8
 uint32_t
 msaaLevel
 =
-gfxPrefs
+StaticPrefs
 :
 :
 MSAALevel

@@ -2631,7 +2631,7 @@ mNumProcessAttempts
 >
 uint32_t
 (
-gfxPrefs
+StaticPrefs
 :
 :
 GPUProcessMaxRestarts
@@ -2674,7 +2674,7 @@ mNumProcessAttempts
 >
 uint32_t
 (
-gfxPrefs
+StaticPrefs
 :
 :
 GPUProcessMaxRestartsWithDecoder

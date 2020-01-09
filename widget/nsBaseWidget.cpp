@@ -3594,7 +3594,7 @@ HasRemoteContent
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 APZPopupsEnabled
@@ -4389,7 +4389,7 @@ eTouchStart
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 TouchActionEnabled

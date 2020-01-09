@@ -17460,7 +17460,7 @@ eWindowType_toplevel
 mWindowType
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 PointerEventsEnabled

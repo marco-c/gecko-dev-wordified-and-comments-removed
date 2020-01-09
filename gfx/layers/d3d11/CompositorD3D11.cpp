@@ -658,7 +658,7 @@ SupportsLayerGeometry
 const
 {
 return
-gfxPrefs
+StaticPrefs
 :
 :
 D3D11LayerGeometry
@@ -1101,7 +1101,7 @@ _WIN32_WINDOWS_MAXVER
 )
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 Direct3D11UseDoubleBuffering
@@ -1503,7 +1503,7 @@ aDevice
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PartialPresent
@@ -1519,7 +1519,7 @@ true
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PartialPresent
@@ -6662,7 +6662,7 @@ return
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersDrawFPS
@@ -6932,7 +6932,7 @@ Present
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 CompositorClearState

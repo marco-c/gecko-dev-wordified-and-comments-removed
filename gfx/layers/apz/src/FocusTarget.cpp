@@ -649,7 +649,7 @@ GetUnfocusedKeyEventTarget
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZKeyboardPassiveListeners

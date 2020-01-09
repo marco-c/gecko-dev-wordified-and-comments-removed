@@ -996,7 +996,7 @@ aValue
 {
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestLoggingEnabled
@@ -1057,7 +1057,7 @@ aValue
 {
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestLoggingEnabled
@@ -1104,7 +1104,7 @@ aValue
 {
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestLoggingEnabled

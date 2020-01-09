@@ -5403,7 +5403,7 @@ HaveSkia
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 ImageDownscaleDuringDecodeEnabled
