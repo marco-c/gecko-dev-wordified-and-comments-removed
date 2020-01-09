@@ -734,7 +734,7 @@ PR_IntervalNow
 ;
 event
 .
-inputSource
+mInputSource
 =
 dom
 :

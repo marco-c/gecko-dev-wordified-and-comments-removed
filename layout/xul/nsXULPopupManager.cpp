@@ -6674,12 +6674,12 @@ mouseEvent
 {
 event
 .
-inputSource
+mInputSource
 =
 mouseEvent
 -
 >
-inputSource
+mInputSource
 ;
 }
 }

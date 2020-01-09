@@ -126,7 +126,7 @@ AsMouseEvent
 )
 -
 >
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :

@@ -2007,7 +2007,7 @@ SetLastInputSource
 aEvent
 -
 >
-inputSource
+mInputSource
 )
 ;
 }

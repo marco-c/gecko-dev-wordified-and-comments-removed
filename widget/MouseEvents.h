@@ -354,7 +354,7 @@ mHitCluster
 (
 false
 )
-inputSource
+mInputSource
 (
 1
 )
@@ -396,7 +396,7 @@ mHitCluster
 (
 false
 )
-inputSource
+mInputSource
 (
 1
 )
@@ -493,7 +493,7 @@ bool
 mHitCluster
 ;
 uint16_t
-inputSource
+mInputSource
 ;
 nsString
 region
@@ -619,11 +619,11 @@ aEvent
 .
 mHitCluster
 ;
-inputSource
+mInputSource
 =
 aEvent
 .
-inputSource
+mInputSource
 ;
 }
 bool

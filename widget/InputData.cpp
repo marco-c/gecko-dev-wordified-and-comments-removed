@@ -1186,7 +1186,7 @@ eLeftButton
 ;
 event
 .
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :
@@ -1489,7 +1489,7 @@ mInputSource
 (
 aMouseEvent
 .
-inputSource
+mInputSource
 )
 mButtons
 (
@@ -2052,7 +2052,7 @@ clickCount
 ;
 event
 .
-inputSource
+mInputSource
 =
 mInputSource
 ;

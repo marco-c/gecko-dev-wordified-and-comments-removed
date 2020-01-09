@@ -11493,7 +11493,7 @@ true
 ;
 event
 .
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :
@@ -11958,7 +11958,7 @@ eReal
 ;
 event
 .
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :

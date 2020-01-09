@@ -706,7 +706,7 @@ event
 ;
 event
 .
-inputSource
+mInputSource
 =
 static_cast
 <

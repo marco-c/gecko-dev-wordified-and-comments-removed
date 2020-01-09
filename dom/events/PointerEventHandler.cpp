@@ -350,7 +350,7 @@ false
 aEvent
 -
 >
-inputSource
+mInputSource
 true
 )
 )
@@ -360,7 +360,7 @@ MaybeCacheSpoofedPointerID
 aEvent
 -
 >
-inputSource
+mInputSource
 aEvent
 -
 >
@@ -402,7 +402,7 @@ true
 pointerEvent
 -
 >
-inputSource
+mInputSource
 pointerEvent
 -
 >
@@ -415,7 +415,7 @@ MaybeCacheSpoofedPointerID
 pointerEvent
 -
 >
-inputSource
+mInputSource
 pointerEvent
 -
 >
@@ -450,7 +450,7 @@ if
 pointerEvent
 -
 >
-inputSource
+mInputSource
 !
 =
 MouseEvent_Binding
@@ -475,7 +475,7 @@ false
 pointerEvent
 -
 >
-inputSource
+mInputSource
 pointerEvent
 -
 >
@@ -1387,7 +1387,7 @@ if
 pointerEvent
 -
 >
-inputSource
+mInputSource
 !
 =
 MouseEvent_Binding
@@ -2024,12 +2024,12 @@ pointerId
 aPointerEvent
 -
 >
-inputSource
+mInputSource
 =
 aMouseEvent
 -
 >
-inputSource
+mInputSource
 ;
 aPointerEvent
 -
@@ -2315,7 +2315,7 @@ buttons
 aPointerEvent
 -
 >
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :
@@ -3075,7 +3075,7 @@ ConvertPointerTypeToString
 aPointerEvent
 -
 >
-inputSource
+mInputSource
 init
 .
 mPointerType

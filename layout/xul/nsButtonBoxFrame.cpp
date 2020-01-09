@@ -1032,7 +1032,7 @@ mouseEvent
 mouseEvent
 -
 >
-inputSource
+mInputSource
 :
 MouseEvent_Binding
 :

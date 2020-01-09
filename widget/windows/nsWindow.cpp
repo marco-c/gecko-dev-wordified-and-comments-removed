@@ -17030,7 +17030,7 @@ true
 ;
 hittest
 .
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :
@@ -17681,7 +17681,7 @@ aButton
 ;
 event
 .
-inputSource
+mInputSource
 =
 aInputSource
 ;
@@ -28489,7 +28489,7 @@ mTime
 ;
 wheelEvent
 .
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :
@@ -28644,7 +28644,7 @@ mTime
 ;
 event
 .
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :

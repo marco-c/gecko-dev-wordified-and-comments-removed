@@ -1998,7 +1998,7 @@ nullptr
 ;
 event
 .
-inputSource
+mInputSource
 =
 mInputSource
 ;

@@ -646,7 +646,7 @@ byMouse
 mouseEvent
 -
 >
-inputSource
+mInputSource
 !
 =
 MouseEvent_Binding
@@ -662,7 +662,7 @@ byTouch
 mouseEvent
 -
 >
-inputSource
+mInputSource
 =
 =
 MouseEvent_Binding
@@ -848,7 +848,7 @@ eReal
 ;
 event
 .
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :

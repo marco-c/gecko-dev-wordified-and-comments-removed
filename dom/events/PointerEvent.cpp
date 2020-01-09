@@ -160,7 +160,7 @@ LayoutDeviceIntPoint
 mouseEvent
 -
 >
-inputSource
+mInputSource
 =
 MouseEvent_Binding
 :
@@ -544,7 +544,7 @@ mTwist
 widgetEvent
 -
 >
-inputSource
+mInputSource
 =
 ConvertStringToPointerType
 (
@@ -757,7 +757,7 @@ AsPointerEvent
 )
 -
 >
-inputSource
+mInputSource
 aPointerType
 )
 ;
@@ -1326,7 +1326,7 @@ AsPointerEvent
 )
 -
 >
-inputSource
+mInputSource
 =
 =
 MouseEvent_Binding
