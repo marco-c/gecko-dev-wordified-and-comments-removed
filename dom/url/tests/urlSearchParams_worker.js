@@ -48,9 +48,9 @@ postMessage
 {
 type
 :
-'
+"
 status
-'
+"
 status
 :
 !
@@ -121,9 +121,9 @@ postMessage
 {
 type
 :
-'
+"
 status
-'
+"
 status
 :
 a
@@ -182,9 +182,9 @@ postMessage
 {
 type
 :
-'
+"
 finish
-'
+"
 }
 )
 ;
@@ -257,3 +257,4 @@ runTest
 )
 ;
 }
+;

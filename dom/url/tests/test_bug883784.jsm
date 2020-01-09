@@ -26,8 +26,6 @@ Test
 =
 {
 start
-:
-function
 (
 ok
 is
@@ -65,9 +63,9 @@ data
 type
 =
 =
-'
+"
 status
-'
+"
 )
 {
 ok
@@ -95,9 +93,9 @@ data
 type
 =
 =
-'
+"
 url
-'
+"
 )
 {
 var
@@ -112,9 +110,9 @@ xhr
 .
 open
 (
-'
+"
 GET
-'
+"
 event
 .
 data
@@ -168,6 +166,7 @@ finish
 ;
 }
 }
+;
 xhr
 .
 onerror
@@ -205,6 +204,7 @@ finish
 )
 ;
 }
+;
 xhr
 .
 send

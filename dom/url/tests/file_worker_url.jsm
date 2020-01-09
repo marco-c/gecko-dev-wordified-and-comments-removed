@@ -2,9 +2,9 @@ var
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 checkFromJSM
-'
+"
 ]
 ;
 Cu
@@ -12,9 +12,9 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 URL
-'
+"
 ]
 )
 ;
@@ -57,9 +57,9 @@ data
 type
 =
 =
-'
+"
 finish
-'
+"
 )
 {
 finish
@@ -77,9 +77,9 @@ data
 type
 =
 =
-'
+"
 url
-'
+"
 )
 {
 URL
@@ -104,9 +104,9 @@ data
 type
 =
 =
-'
+"
 status
-'
+"
 )
 {
 ok
@@ -125,6 +125,7 @@ msg
 ;
 }
 }
+;
 worker
 .
 onerror
