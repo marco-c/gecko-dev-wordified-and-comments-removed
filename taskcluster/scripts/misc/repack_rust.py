@@ -1604,20 +1604,12 @@ host
 )
 :
     
-if
-'
-linux
-'
-in
-host
-:
-        
 tar_options
 =
 '
 cJf
 '
-        
+    
 tar_ext
 =
 '
@@ -1625,24 +1617,6 @@ tar_ext
 tar
 .
 xz
-'
-    
-else
-:
-        
-tar_options
-=
-'
-cjf
-'
-        
-tar_ext
-=
-'
-.
-tar
-.
-bz2
 '
     
 return
