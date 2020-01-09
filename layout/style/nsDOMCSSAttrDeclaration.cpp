@@ -76,7 +76,7 @@ h
 #
 include
 "
-nsSMILCSSValueType
+SMILCSSValueType
 .
 h
 "
@@ -658,7 +658,7 @@ EnsureMutable
 bool
 changed
 =
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 SetPropertyValues

@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsSMILCSSValueType
+SMILCSSValueType
 .
 h
 "
@@ -1616,7 +1616,7 @@ GetCalcMode
 ;
 if
 (
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 PropertyFromValue
@@ -2016,7 +2016,7 @@ mType
 =
 =
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -2057,7 +2057,7 @@ empty
 }
 else
 {
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 FinalizeValue

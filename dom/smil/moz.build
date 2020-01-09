@@ -151,11 +151,6 @@ nsSMILCSSProperty
 h
 '
 '
-nsSMILCSSValueType
-.
-h
-'
-'
 nsSMILInstanceTime
 .
 h
@@ -226,6 +221,11 @@ nsSMILValue
 h
 '
 '
+SMILCSSValueType
+.
+h
+'
+'
 SMILNullType
 .
 h
@@ -266,11 +266,6 @@ cpp
 '
 '
 nsSMILCSSProperty
-.
-cpp
-'
-'
-nsSMILCSSValueType
 .
 cpp
 '
@@ -331,6 +326,11 @@ cpp
 '
 '
 SMILBoolType
+.
+cpp
+'
+'
+SMILCSSValueType
 .
 cpp
 '

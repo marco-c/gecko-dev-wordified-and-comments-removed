@@ -1,7 +1,7 @@
 #
 include
 "
-nsSMILCSSValueType
+SMILCSSValueType
 .
 h
 "
@@ -152,14 +152,13 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 typedef
 AutoTArray
 <
@@ -171,8 +170,8 @@ RawServoAnimationValue
 >
 ServoAnimationValues
 ;
-nsSMILCSSValueType
-nsSMILCSSValueType
+SMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -551,7 +550,7 @@ mPtr
 ;
 }
 void
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 Init
@@ -593,7 +592,7 @@ this
 ;
 }
 void
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 Destroy
@@ -647,7 +646,7 @@ Singleton
 ;
 }
 nsresult
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 Assign
@@ -774,7 +773,7 @@ NS_OK
 ;
 }
 bool
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 IsEqual
@@ -1247,7 +1246,7 @@ mType
 =
 =
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -1406,7 +1405,7 @@ aCount
 ;
 }
 nsresult
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 SandwichAdd
@@ -1439,7 +1438,7 @@ NS_ERROR_FAILURE
 ;
 }
 nsresult
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 Add
@@ -1677,7 +1676,7 @@ NS_OK
 ;
 }
 nsresult
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 ComputeDistance
@@ -2000,7 +1999,7 @@ NS_OK
 ;
 }
 nsresult
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 Interpolate
@@ -2272,7 +2271,7 @@ result
 ;
 }
 void
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 ValueFromString
@@ -2479,7 +2478,7 @@ parsedValues
 }
 }
 nsSMILValue
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 ValueFromAnimationValue
@@ -2587,7 +2586,7 @@ result
 ;
 }
 bool
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 SetPropertyValues
@@ -2609,7 +2608,7 @@ mType
 =
 =
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -2678,7 +2677,7 @@ changed
 ;
 }
 nsCSSPropertyID
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 PropertyFromValue
@@ -2697,7 +2696,7 @@ mType
 !
 =
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -2735,7 +2734,7 @@ mPropID
 ;
 }
 void
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 FinalizeValue
@@ -2774,7 +2773,7 @@ mType
 =
 =
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -2922,4 +2921,5 @@ zeroValues
 )
 )
 ;
+}
 }

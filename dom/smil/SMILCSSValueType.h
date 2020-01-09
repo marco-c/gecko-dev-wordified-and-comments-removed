@@ -50,9 +50,8 @@ class
 Element
 ;
 }
-}
 class
-nsSMILCSSValueType
+SMILCSSValueType
 :
 public
 nsISMILType
@@ -77,7 +76,7 @@ AnimationValue
 AnimationValue
 ;
 static
-nsSMILCSSValueType
+SMILCSSValueType
 sSingleton
 ;
 protected
@@ -276,12 +275,13 @@ aValueToMatch
 private
 :
 constexpr
-nsSMILCSSValueType
+SMILCSSValueType
 (
 )
 {
 }
 }
 ;
+}
 #
 endif
