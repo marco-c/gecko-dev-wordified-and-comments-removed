@@ -398,10 +398,6 @@ mDoGrouping
 (
 false
 )
-mForEventsAndPluginsOnly
-(
-false
-)
 mContainsSVGGroup
 (
 false
@@ -1199,9 +1195,6 @@ Maybe
 nsRect
 >
 mClippedGroupBounds
-;
-bool
-mForEventsAndPluginsOnly
 ;
 bool
 mContainsSVGGroup

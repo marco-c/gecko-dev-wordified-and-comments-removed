@@ -246,10 +246,6 @@ aMode
 aBuildCaret
 true
 )
-mCurrentSubtreeIsForEventsAndPluginsOnly
-(
-false
-)
 {
 }
 ~
@@ -451,9 +447,6 @@ mList
 ;
 WeakFrame
 mPreviousCaret
-;
-bool
-mCurrentSubtreeIsForEventsAndPluginsOnly
 ;
 }
 ;

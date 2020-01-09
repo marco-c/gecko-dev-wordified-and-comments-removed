@@ -862,10 +862,6 @@ mDisableSubpixelAntialiasingInDescendants
 (
 false
 )
-mForEventsAndPluginsOnly
-(
-false
-)
 mLayerCreationHint
 (
 layers
@@ -925,10 +921,6 @@ mInActiveTransformedSubtree
 false
 )
 mDisableSubpixelAntialiasingInDescendants
-(
-false
-)
-mForEventsAndPluginsOnly
 (
 false
 )
@@ -1011,12 +1003,6 @@ mDisableSubpixelAntialiasingInDescendants
 aParent
 .
 mDisableSubpixelAntialiasingInDescendants
-)
-mForEventsAndPluginsOnly
-(
-aParent
-.
-mForEventsAndPluginsOnly
 )
 mLayerCreationHint
 (
@@ -1088,9 +1074,6 @@ mInActiveTransformedSubtree
 ;
 bool
 mDisableSubpixelAntialiasingInDescendants
-;
-bool
-mForEventsAndPluginsOnly
 ;
 layers
 :

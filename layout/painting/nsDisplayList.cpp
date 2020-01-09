@@ -32220,12 +32220,6 @@ params
 =
 aContainerParameters
 ;
-params
-.
-mForEventsAndPluginsOnly
-=
-mForEventsAndPluginsOnly
-;
 RefPtr
 <
 Layer

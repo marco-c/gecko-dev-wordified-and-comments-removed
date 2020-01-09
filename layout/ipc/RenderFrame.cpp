@@ -1045,14 +1045,6 @@ aManager
 )
 )
 {
-if
-(
-!
-aContainerParameters
-.
-mForEventsAndPluginsOnly
-)
-{
 NS_WARNING
 (
 "
@@ -1063,7 +1055,6 @@ rendered
 "
 )
 ;
-}
 return
 nullptr
 ;
