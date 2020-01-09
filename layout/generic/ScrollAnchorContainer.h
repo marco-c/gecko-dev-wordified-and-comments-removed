@@ -92,6 +92,11 @@ UserScrolled
 )
 ;
 void
+ApplyAdjustments
+(
+)
+;
+void
 InvalidateAnchor
 (
 )
@@ -156,6 +161,11 @@ mLastAnchorPos
 ;
 bool
 mAnchorNodeIsDirty
+:
+1
+;
+bool
+mApplyingAnchorAdjustment
 :
 1
 ;
