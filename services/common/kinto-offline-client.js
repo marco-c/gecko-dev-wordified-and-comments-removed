@@ -10030,6 +10030,7 @@ options
 const
 {
 expectedTimestamp
+headers
 }
 =
 options
@@ -10059,7 +10060,13 @@ client
 .
 getData
 (
+{
+.
+.
+.
 query
+headers
+}
 )
 ;
 return
