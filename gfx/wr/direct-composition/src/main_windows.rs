@@ -19,6 +19,12 @@ crate
 winit
 ;
 use
+euclid
+:
+:
+size2
+;
+use
 direct_composition
 :
 :
@@ -215,17 +221,6 @@ offset_y
 .
 ;
 let
-size
-=
-api
-:
-:
-DeviceIntSize
-:
-:
-new
-;
-let
 mut
 rects
 =
@@ -240,7 +235,7 @@ composition
 &
 notifier
 factor
-size
+size2
 (
 300
 200
@@ -266,7 +261,7 @@ composition
 &
 notifier
 factor
-size
+size2
 (
 400
 300
@@ -672,7 +667,7 @@ size
 api
 :
 :
-DeviceIntSize
+FramebufferIntSize
 color
 :
 api
@@ -705,7 +700,7 @@ size
 api
 :
 :
-DeviceIntSize
+FramebufferIntSize
 r
 :
 f32

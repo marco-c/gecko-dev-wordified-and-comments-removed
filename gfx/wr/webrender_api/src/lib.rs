@@ -185,6 +185,7 @@ gradient_builder
 mod
 image
 ;
+pub
 mod
 units
 ;
