@@ -41,9 +41,9 @@ all
 isinstance
 (
 o
-types
+six
 .
-StringTypes
+string_types
 )
 for
 o
@@ -609,9 +609,9 @@ elif
 isinstance
 (
 value
-types
+six
 .
-StringTypes
+string_types
 )
 :
             
@@ -1264,9 +1264,9 @@ not
 isinstance
 (
 name
-types
+six
 .
-StringTypes
+string_types
 )
 :
                 
@@ -1359,9 +1359,9 @@ not
 isinstance
 (
 env
-types
+six
 .
-StringTypes
+string_types
 )
 :
                 
@@ -1467,9 +1467,9 @@ not
 isinstance
 (
 default
-types
+six
 .
-StringTypes
+string_types
 )
 and
                 
@@ -2154,9 +2154,9 @@ not
 isinstance
 (
 option
-types
+six
 .
-StringTypes
+string_types
 )
 :
             

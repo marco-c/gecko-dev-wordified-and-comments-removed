@@ -7,10 +7,8 @@ import
 os
 import
 re
-from
-types
 import
-StringTypes
+six
 from
 collections
 import
@@ -636,7 +634,9 @@ not
 isinstance
 (
 targets
-StringTypes
+six
+.
+string_types
 )
         
 self
@@ -683,7 +683,9 @@ not
 isinstance
 (
 deps
-StringTypes
+six
+.
+string_types
 )
         
 self
@@ -730,7 +732,9 @@ not
 isinstance
 (
 commands
-StringTypes
+six
+.
+string_types
 )
         
 self
