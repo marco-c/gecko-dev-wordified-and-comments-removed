@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-AudibleAutoplayChild
+AutoplayChild
 "
 ]
 ;
@@ -32,7 +32,7 @@ jsm
 )
 ;
 class
-AudibleAutoplayChild
+AutoplayChild
 extends
 ActorChild
 {
