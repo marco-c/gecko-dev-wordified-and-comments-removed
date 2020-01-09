@@ -7314,16 +7314,6 @@ public
 :
 static
 bool
-IsMethodReflectable
-(
-const
-nsXPTMethodInfo
-&
-info
-)
-;
-static
-bool
 NativeData2JS
 (
 JS
