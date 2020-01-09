@@ -344,17 +344,6 @@ aNumber
 ;
 -
 (
-void
-)
-setBottomCornerRounded
-:
-(
-BOOL
-)
-rounded
-;
--
-(
 BOOL
 )
 bottomCornerRounded

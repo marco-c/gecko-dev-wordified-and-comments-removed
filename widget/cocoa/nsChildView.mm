@@ -21702,13 +21702,6 @@ s
 bottom
 corners
 automatically
-(
-starting
-with
-10
-.
-7
-)
 .
 -
 (
