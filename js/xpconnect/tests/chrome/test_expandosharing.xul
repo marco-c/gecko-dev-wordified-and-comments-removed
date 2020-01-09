@@ -326,6 +326,11 @@ href
 0
 ]
 ;
+const
+{
+checkFromJSM
+}
+=
 ChromeUtils
 .
 import

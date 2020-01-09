@@ -20,8 +20,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 var

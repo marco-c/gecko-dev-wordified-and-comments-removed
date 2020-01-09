@@ -1,3 +1,8 @@
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

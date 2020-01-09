@@ -519,8 +519,7 @@ ExtensionContent
 .
 jsm
 "
-{
-}
+null
 )
 ;
 this

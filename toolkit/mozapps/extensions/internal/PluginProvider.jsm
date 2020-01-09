@@ -9,6 +9,12 @@ EXPORTED_SYMBOLS
 [
 ]
 ;
+const
+{
+AddonManager
+AddonManagerPrivate
+}
+=
 ChromeUtils
 .
 import
@@ -28,6 +34,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -113,6 +124,11 @@ shockwave
 flash
 "
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import

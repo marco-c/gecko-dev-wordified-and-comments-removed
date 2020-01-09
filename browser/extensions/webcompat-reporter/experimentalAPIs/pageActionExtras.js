@@ -71,8 +71,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return

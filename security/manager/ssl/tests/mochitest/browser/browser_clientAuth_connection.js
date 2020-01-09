@@ -25,8 +25,6 @@ MockRegistrar
 .
 jsm
 "
-{
-}
 )
 ;
 const

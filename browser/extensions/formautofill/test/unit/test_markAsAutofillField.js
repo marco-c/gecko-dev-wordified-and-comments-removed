@@ -454,6 +454,9 @@ markedFieldId
 [
 ]
 ;
+var
+FormAutofillContent
+;
 add_task
 (
 async
@@ -462,6 +465,11 @@ setup
 (
 )
 {
+(
+{
+FormAutofillContent
+}
+=
 ChromeUtils
 .
 import
@@ -477,6 +485,7 @@ FormAutofillContent
 .
 jsm
 "
+)
 )
 ;
 FormAutofillContent

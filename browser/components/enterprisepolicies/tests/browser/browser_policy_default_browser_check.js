@@ -24,8 +24,6 @@ ShellService
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

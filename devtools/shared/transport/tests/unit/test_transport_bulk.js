@@ -25,8 +25,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 function

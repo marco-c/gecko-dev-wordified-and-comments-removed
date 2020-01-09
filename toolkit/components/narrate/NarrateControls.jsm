@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+VoiceSelect
+}
+=
 ChromeUtils
 .
 import
@@ -24,6 +29,11 @@ jsm
 "
 )
 ;
+const
+{
+Narrator
+}
+=
 ChromeUtils
 .
 import
@@ -45,6 +55,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -64,6 +79,11 @@ jsm
 "
 )
 ;
+const
+{
+AsyncPrefs
+}
+=
 ChromeUtils
 .
 import

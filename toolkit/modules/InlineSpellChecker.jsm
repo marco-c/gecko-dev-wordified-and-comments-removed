@@ -15,6 +15,11 @@ MAX_UNDO_STACK_DEPTH
 =
 1
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

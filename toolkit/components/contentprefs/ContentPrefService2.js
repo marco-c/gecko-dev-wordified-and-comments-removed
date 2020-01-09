@@ -1,3 +1,8 @@
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -36,6 +46,14 @@ jsm
 "
 )
 ;
+const
+{
+ContentPref
+cbHandleCompletion
+cbHandleError
+cbHandleResult
+}
+=
 ChromeUtils
 .
 import
@@ -55,6 +73,11 @@ jsm
 "
 )
 ;
+const
+{
+ContentPrefStore
+}
+=
 ChromeUtils
 .
 import

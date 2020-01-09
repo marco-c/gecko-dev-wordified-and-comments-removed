@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -342,8 +347,6 @@ RemotePageManagerChild
 .
 jsm
 "
-{
-}
 )
 ;
 new

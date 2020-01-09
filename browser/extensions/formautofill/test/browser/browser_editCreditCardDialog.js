@@ -31,8 +31,6 @@ FormAutofillStorage
 .
 jsm
 "
-{
-}
 )
 ;
 await
@@ -2622,8 +2620,6 @@ FormAutofillStorage
 .
 jsm
 "
-{
-}
 )
 ;
 await

@@ -1,3 +1,8 @@
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -46,8 +51,6 @@ sync
 .
 js
 "
-{
-}
 )
 ;
 class

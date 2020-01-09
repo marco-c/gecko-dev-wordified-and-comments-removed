@@ -61,8 +61,6 @@ DOMHelpers
 .
 jsm
 "
-{
-}
 )
 ;
 const

@@ -36,8 +36,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const

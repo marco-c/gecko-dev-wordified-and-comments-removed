@@ -12,6 +12,11 @@ ExtensionPageChild
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -145,6 +150,11 @@ scripts
 devtools
 "
 ;
+const
+{
+ExtensionCommon
+}
+=
 ChromeUtils
 .
 import
@@ -164,6 +174,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionChild
+}
+=
 ChromeUtils
 .
 import
@@ -183,6 +198,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import

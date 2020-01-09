@@ -35,8 +35,7 @@ ProxyPolicies
 .
 jsm
 "
-{
-}
+null
 )
 ;
 for

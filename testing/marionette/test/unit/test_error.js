@@ -46,8 +46,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 function

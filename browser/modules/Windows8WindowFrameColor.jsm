@@ -36,7 +36,6 @@ WindowsRegistry
 .
 jsm
 "
-null
 )
 ;
 var

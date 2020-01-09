@@ -12,6 +12,11 @@ Preferences
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+TestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -50,6 +60,11 @@ jsm
 "
 )
 ;
+const
+{
+ContentTask
+}
+=
 ChromeUtils
 .
 import

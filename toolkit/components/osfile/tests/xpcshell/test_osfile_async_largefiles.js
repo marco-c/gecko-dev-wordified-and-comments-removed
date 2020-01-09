@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import

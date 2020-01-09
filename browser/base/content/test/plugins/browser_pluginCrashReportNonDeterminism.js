@@ -1,3 +1,8 @@
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import

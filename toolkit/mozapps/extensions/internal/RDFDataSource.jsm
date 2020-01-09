@@ -1720,6 +1720,11 @@ RDFDataSource
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

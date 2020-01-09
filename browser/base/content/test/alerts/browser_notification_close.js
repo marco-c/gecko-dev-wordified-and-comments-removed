@@ -25,8 +25,6 @@ PlacesTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let

@@ -4026,6 +4026,11 @@ start
 (
 )
 {
+const
+{
+BrowserTestUtils
+}
+=
 ChromeUtils
 .
 import

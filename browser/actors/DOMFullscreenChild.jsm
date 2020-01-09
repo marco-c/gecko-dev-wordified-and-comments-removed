@@ -12,6 +12,11 @@ DOMFullscreenChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

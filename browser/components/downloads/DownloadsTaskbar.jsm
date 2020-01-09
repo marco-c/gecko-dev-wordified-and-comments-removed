@@ -12,6 +12,11 @@ DownloadsTaskbar
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

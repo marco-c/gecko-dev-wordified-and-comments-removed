@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,12 @@ jsm
 "
 )
 ;
+const
+{
+Svc
+Utils
+}
+=
 ChromeUtils
 .
 import
@@ -41,6 +52,11 @@ js
 "
 )
 ;
+const
+{
+AddonManager
+}
+=
 ChromeUtils
 .
 import

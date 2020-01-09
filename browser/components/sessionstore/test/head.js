@@ -22,8 +22,6 @@ Utils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -173,8 +171,6 @@ SessionSaver
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -200,8 +196,6 @@ SessionFile
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -227,8 +221,6 @@ TabState
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -254,8 +246,6 @@ TabStateFlusher
 .
 jsm
 "
-{
-}
 )
 ;
 const

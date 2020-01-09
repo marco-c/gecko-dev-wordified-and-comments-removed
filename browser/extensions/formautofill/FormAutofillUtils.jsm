@@ -193,6 +193,11 @@ MAX_FIELD_VALUE_LENGTH
 =
 200
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -212,6 +217,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -231,6 +241,11 @@ jsm
 "
 )
 ;
+const
+{
+FormAutofill
+}
+=
 ChromeUtils
 .
 import
@@ -4469,8 +4484,6 @@ log
 =
 null
 ;
-this
-.
 FormAutofill
 .
 defineLazyLogGetter

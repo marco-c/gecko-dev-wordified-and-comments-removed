@@ -1,3 +1,8 @@
+const
+{
+addDebuggerToGlobal
+}
+=
 ChromeUtils
 .
 import

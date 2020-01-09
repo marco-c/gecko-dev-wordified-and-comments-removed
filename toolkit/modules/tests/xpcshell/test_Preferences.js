@@ -5,6 +5,11 @@ Components
 .
 manager
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import

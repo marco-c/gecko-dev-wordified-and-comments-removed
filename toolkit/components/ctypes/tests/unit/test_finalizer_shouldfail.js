@@ -1,5 +1,10 @@
 try
 {
+var
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

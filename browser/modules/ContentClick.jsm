@@ -12,6 +12,11 @@ ContentClick
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

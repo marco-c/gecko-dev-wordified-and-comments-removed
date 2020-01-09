@@ -306,6 +306,11 @@ javascript
 [
 CDATA
 [
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -12,6 +12,11 @@ NativeManifests
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

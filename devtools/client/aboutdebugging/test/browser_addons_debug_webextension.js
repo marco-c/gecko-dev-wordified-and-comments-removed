@@ -89,8 +89,6 @@ ToolboxProcess
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

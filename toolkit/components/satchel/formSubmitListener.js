@@ -49,6 +49,11 @@ function
 (
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

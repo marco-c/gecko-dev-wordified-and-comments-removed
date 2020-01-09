@@ -637,8 +637,14 @@ Timer
 .
 jsm
 "
+global
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -692,8 +698,6 @@ EventEmitter
 .
 jsm
 "
-{
-}
 )
 ;
 class

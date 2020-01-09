@@ -186,9 +186,12 @@ xhtml
 #
 endif
 >
-Components
-.
-utils
+var
+{
+Services
+}
+=
+ChromeUtils
 .
 import
 (

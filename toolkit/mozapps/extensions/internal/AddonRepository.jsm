@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -480,6 +485,11 @@ mozilla
 org
 "
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import

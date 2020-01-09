@@ -1,3 +1,8 @@
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -59,10 +69,13 @@ element
 .
 js
 "
-{
-}
 )
 ;
+const
+{
+evaluate
+}
+=
 ChromeUtils
 .
 import
@@ -82,6 +95,11 @@ js
 "
 )
 ;
+const
+{
+event
+}
+=
 ChromeUtils
 .
 import
@@ -123,8 +141,6 @@ log
 .
 js
 "
-{
-}
 )
 ;
 XPCOMUtils

@@ -15,6 +15,11 @@ CreditCardResult
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -34,6 +39,11 @@ jsm
 "
 )
 ;
+const
+{
+FormAutofill
+}
+=
 ChromeUtils
 .
 import

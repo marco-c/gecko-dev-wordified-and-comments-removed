@@ -1,3 +1,8 @@
+const
+{
+BrowserUtils
+}
+=
 ChromeUtils
 .
 import

@@ -12,6 +12,11 @@ MockRegistry
 "
 ]
 ;
+const
+{
+MockRegistrar
+}
+=
 ChromeUtils
 .
 import

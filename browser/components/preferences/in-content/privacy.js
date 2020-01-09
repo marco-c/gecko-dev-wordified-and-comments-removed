@@ -1,3 +1,8 @@
+var
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -85,6 +90,11 @@ jsm
 "
 )
 ;
+var
+{
+PrivateBrowsingUtils
+}
+=
 ChromeUtils
 .
 import

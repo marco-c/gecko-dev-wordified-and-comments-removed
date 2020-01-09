@@ -32,8 +32,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 this

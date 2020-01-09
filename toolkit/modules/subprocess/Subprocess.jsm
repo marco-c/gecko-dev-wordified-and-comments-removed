@@ -12,6 +12,11 @@ Subprocess
 "
 ]
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+SubprocessConstants
+}
+=
 ChromeUtils
 .
 import

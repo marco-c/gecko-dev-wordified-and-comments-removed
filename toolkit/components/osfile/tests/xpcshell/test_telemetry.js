@@ -31,8 +31,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -57,8 +55,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

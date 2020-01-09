@@ -441,8 +441,6 @@ Blocklist
 .
 jsm
 "
-{
-}
 )
 ;
 let

@@ -13,7 +13,7 @@ ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -25,9 +25,8 @@ modules
 PushCrypto
 .
 jsm
-'
-{
-}
+"
+null
 )
 ;
 const

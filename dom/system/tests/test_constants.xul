@@ -789,6 +789,9 @@ slice
 )
 ;
 }
+var
+ctypes
+;
 function
 test
 (
@@ -843,6 +846,11 @@ init
 (
 )
 ;
+(
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import
@@ -860,6 +868,7 @@ ctypes
 .
 jsm
 "
+)
 )
 ;
 test_xul

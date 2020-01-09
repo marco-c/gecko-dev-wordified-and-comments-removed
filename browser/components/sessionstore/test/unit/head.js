@@ -1,3 +1,8 @@
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -39,8 +44,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils
@@ -153,6 +156,11 @@ finalized
 "
 )
 ;
+const
+{
+CrashMonitor
+}
+=
 ChromeUtils
 .
 import

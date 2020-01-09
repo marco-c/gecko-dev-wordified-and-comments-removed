@@ -20,7 +20,6 @@ PlacesTestUtils
 .
 jsm
 "
-null
 )
 ;
 function

@@ -38,6 +38,11 @@ URL
 ]
 )
 ;
+var
+{
+ExtensionCommon
+}
+=
 ChromeUtils
 .
 import

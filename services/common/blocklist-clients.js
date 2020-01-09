@@ -12,6 +12,11 @@ initialize
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -53,8 +58,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

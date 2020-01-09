@@ -7,6 +7,11 @@ PageThumbUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

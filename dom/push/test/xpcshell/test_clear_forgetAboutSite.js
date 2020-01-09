@@ -20,7 +20,7 @@ ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -32,9 +32,7 @@ modules
 ForgetAboutSite
 .
 jsm
-'
-{
-}
+"
 )
 ;
 var

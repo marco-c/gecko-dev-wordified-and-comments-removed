@@ -12,6 +12,11 @@ ContentPrefServiceParent
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

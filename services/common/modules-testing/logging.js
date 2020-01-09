@@ -15,6 +15,11 @@ initTestLogging
 "
 ]
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import

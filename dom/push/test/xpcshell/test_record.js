@@ -12,7 +12,7 @@ ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -24,9 +24,7 @@ modules
 PushRecord
 .
 jsm
-'
-{
-}
+"
 )
 ;
 function

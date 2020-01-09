@@ -25,8 +25,7 @@ ExtensionChild
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

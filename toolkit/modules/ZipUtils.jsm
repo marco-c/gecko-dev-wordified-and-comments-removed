@@ -7,6 +7,11 @@ ZipUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

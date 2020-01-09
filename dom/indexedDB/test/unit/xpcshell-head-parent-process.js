@@ -19,6 +19,11 @@ Cu
 =
 Components
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

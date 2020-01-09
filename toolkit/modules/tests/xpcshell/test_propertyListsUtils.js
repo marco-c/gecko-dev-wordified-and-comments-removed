@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+PropertyListUtils
+}
+=
 ChromeUtils
 .
 import

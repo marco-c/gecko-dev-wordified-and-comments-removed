@@ -25,8 +25,6 @@ ResetProfile
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

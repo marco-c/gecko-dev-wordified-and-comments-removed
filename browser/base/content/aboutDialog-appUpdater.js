@@ -1,3 +1,8 @@
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -19,8 +24,12 @@ jsm
 ;
 ChromeUtils
 .
-import
+defineModuleGetter
 (
+this
+"
+DownloadUtils
+"
 "
 resource
 :

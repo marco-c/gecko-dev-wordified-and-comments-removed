@@ -201,6 +201,11 @@ javascript
 [
 CDATA
 [
+const
+{
+ContentTask
+}
+=
 ChromeUtils
 .
 import
@@ -220,6 +225,11 @@ jsm
 "
 )
 ;
+const
+{
+BrowserTestUtils
+}
+=
 ChromeUtils
 .
 import

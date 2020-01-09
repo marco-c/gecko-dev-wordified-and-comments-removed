@@ -23,6 +23,11 @@ errorconsole
 deprecation_warnings
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

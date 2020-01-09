@@ -860,8 +860,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 let

@@ -257,6 +257,11 @@ done
 )
 ;
 }
+const
+{
+WorkerTest
+}
+=
 ChromeUtils
 .
 import

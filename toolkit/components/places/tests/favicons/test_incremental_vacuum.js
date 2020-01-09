@@ -1,3 +1,8 @@
+const
+{
+PlacesDBUtils
+}
+=
 ChromeUtils
 .
 import

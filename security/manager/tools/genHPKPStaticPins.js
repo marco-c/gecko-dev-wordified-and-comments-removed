@@ -83,8 +83,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -109,8 +107,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -135,10 +131,13 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

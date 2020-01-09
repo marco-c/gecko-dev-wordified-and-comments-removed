@@ -12,6 +12,11 @@ ExtensionStorageEngine
 "
 ]
 ;
+const
+{
+SCORE_INCREMENT_MEDIUM
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,12 @@ js
 "
 )
 ;
+const
+{
+SyncEngine
+Tracker
+}
+=
 ChromeUtils
 .
 import
@@ -50,6 +61,11 @@ js
 "
 )
 ;
+const
+{
+Svc
+}
+=
 ChromeUtils
 .
 import

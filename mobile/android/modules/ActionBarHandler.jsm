@@ -12,6 +12,11 @@ ActionBarHandler
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

@@ -1,3 +1,8 @@
+const
+{
+parseKeyValuePairsFromFile
+}
+=
 ChromeUtils
 .
 import

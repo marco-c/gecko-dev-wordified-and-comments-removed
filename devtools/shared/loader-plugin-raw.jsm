@@ -25,8 +25,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 this

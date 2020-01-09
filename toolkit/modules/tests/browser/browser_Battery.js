@@ -26,8 +26,7 @@ Battery
 .
 jsm
 "
-{
-}
+null
 )
 ;
 ChromeUtils

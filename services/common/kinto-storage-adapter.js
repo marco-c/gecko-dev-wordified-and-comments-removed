@@ -20,8 +20,6 @@ Sqlite
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -50,8 +48,6 @@ client
 .
 js
 "
-{
-}
 )
 ;
 function

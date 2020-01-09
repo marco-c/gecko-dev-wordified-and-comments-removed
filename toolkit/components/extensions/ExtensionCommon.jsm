@@ -12,6 +12,11 @@ ExtensionCommon
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -189,6 +199,11 @@ nsIStyleSheetService
 "
 )
 ;
+const
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import

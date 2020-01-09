@@ -1,3 +1,8 @@
+const
+{
+PingCentre
+}
+=
 ChromeUtils
 .
 import

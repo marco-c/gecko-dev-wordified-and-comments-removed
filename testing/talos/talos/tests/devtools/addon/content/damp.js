@@ -20,8 +20,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -46,8 +44,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -72,8 +68,6 @@ AddonManager
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -135,8 +129,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 return
@@ -555,6 +547,11 @@ getTalosParentProfiler
 {
 try
 {
+var
+{
+TalosParentProfiler
+}
+=
 ChromeUtils
 .
 import

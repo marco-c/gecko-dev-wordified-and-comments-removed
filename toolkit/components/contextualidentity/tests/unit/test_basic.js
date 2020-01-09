@@ -10,6 +10,11 @@ do_get_profile
 (
 )
 ;
+const
+{
+ContextualIdentityService
+}
+=
 ChromeUtils
 .
 import
@@ -29,6 +34,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import

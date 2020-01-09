@@ -1,3 +1,8 @@
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,16 @@ jsm
 "
 )
 ;
+var
+{
+clearInterval
+clearTimeout
+setInterval
+setIntervalWithTarget
+setTimeout
+setTimeoutWithTarget
+}
+=
 ChromeUtils
 .
 import

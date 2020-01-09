@@ -25,8 +25,6 @@ SyncedTabs
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -52,8 +50,6 @@ SyncedTabsListStore
 .
 js
 "
-{
-}
 )
 ;
 const

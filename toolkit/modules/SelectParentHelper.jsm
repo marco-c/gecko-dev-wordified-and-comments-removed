@@ -34,8 +34,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -60,8 +58,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const

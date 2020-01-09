@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+AddonManager
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import

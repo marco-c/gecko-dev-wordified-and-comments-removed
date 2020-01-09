@@ -1,3 +1,8 @@
+const
+{
+MockRegistrar
+}
+=
 ChromeUtils
 .
 import

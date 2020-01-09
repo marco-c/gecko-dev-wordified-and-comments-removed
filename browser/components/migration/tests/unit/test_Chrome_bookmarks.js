@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -181,6 +186,11 @@ shift
 )
 ;
 }
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import

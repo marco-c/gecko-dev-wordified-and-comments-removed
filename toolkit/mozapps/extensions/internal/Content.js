@@ -30,8 +30,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const

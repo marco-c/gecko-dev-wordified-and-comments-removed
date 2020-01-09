@@ -12,6 +12,11 @@ AutoplayChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

@@ -98,6 +98,12 @@ contentTask
 (
 )
 {
+const
+{
+clearInterval
+setInterval
+}
+=
 ChromeUtils
 .
 import

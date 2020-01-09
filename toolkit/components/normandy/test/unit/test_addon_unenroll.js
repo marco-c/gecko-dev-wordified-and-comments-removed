@@ -1,3 +1,8 @@
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -36,6 +46,11 @@ jsm
 "
 )
 ;
+const
+{
+AddonStudyAction
+}
+=
 ChromeUtils
 .
 import
@@ -55,6 +70,11 @@ jsm
 "
 )
 ;
+const
+{
+TelemetryEvents
+}
+=
 ChromeUtils
 .
 import
@@ -74,6 +94,11 @@ jsm
 "
 )
 ;
+const
+{
+AddonManager
+}
+=
 ChromeUtils
 .
 import
@@ -315,8 +340,6 @@ AddonStudies
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -341,8 +364,6 @@ ExtensionCommon
 .
 jsm
 "
-{
-}
 )
 ;
 this

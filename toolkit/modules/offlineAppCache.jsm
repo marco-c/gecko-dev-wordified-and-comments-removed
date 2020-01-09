@@ -7,6 +7,11 @@ OfflineAppCacheHelper
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

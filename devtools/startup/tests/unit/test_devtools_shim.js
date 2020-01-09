@@ -27,8 +27,6 @@ DevToolsShim
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -53,8 +51,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 function

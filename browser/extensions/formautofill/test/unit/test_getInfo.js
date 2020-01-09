@@ -3,6 +3,10 @@ use
 strict
 "
 ;
+var
+FormAutofillHeuristics
+LabelUtils
+;
 add_task
 (
 async
@@ -10,6 +14,12 @@ function
 (
 )
 {
+(
+{
+FormAutofillHeuristics
+LabelUtils
+}
+=
 ChromeUtils
 .
 import
@@ -25,6 +35,7 @@ FormAutofillHeuristics
 .
 jsm
 "
+)
 )
 ;
 }

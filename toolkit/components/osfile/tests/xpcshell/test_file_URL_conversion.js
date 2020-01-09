@@ -3,6 +3,11 @@ run_test
 (
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -41,6 +51,11 @@ jsm
 "
 )
 ;
+const
+{
+FileUtils
+}
+=
 ChromeUtils
 .
 import

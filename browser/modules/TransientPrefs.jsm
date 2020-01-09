@@ -12,6 +12,11 @@ TransientPrefs
 "
 ]
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import

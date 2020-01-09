@@ -112,8 +112,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return

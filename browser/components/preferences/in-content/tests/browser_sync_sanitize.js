@@ -25,8 +25,6 @@ UIState
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -51,8 +49,6 @@ Log
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -77,8 +73,6 @@ AsyncShutdown
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -104,8 +98,7 @@ SyncDisconnect
 .
 jsm
 "
-{
-}
+null
 )
 ;
 var

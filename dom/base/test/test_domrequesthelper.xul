@@ -187,6 +187,11 @@ javascript
 [
 CDATA
 [
+const
+{
+DOMRequestIpcHelper
+}
+=
 ChromeUtils
 .
 import

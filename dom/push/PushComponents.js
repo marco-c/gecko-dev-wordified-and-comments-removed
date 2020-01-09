@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -110,8 +120,6 @@ PushService
 .
 jsm
 "
-{
-}
 )
 ;
 PushService

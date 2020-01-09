@@ -23,8 +23,7 @@ TelemetrySession
 .
 jsm
 "
-{
-}
+null
 )
 ;
 add_task

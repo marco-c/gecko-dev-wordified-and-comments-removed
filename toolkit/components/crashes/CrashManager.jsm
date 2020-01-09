@@ -8,6 +8,11 @@ myScope
 =
 this
 ;
+const
+{
+parseKeyValuePairsFromLines
+}
+=
 ChromeUtils
 .
 import
@@ -67,6 +72,11 @@ jsm
 this
 )
 ;
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import
@@ -106,6 +116,11 @@ jsm
 this
 )
 ;
+const
+{
+TelemetryController
+}
+=
 ChromeUtils
 .
 import

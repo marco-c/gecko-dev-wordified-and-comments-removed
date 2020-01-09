@@ -12,6 +12,11 @@ DNSRecord
 "
 ]
 ;
+const
+{
+DataWriter
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,12 @@ jsm
 "
 )
 ;
+const
+{
+DNS_CLASS_CODES
+DNS_RECORD_TYPES
+}
+=
 ChromeUtils
 .
 import

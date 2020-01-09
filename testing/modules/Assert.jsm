@@ -12,6 +12,11 @@ Assert
 "
 ]
 ;
+const
+{
+ObjectUtils
+}
+=
 ChromeUtils
 .
 import

@@ -12,6 +12,11 @@ BrowserChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

@@ -1,3 +1,11 @@
+const
+{
+setTimeout
+clearTimeout
+setInterval
+clearInterval
+}
+=
 ChromeUtils
 .
 import

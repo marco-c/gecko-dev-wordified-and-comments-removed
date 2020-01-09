@@ -9,6 +9,11 @@ fetch
 ]
 )
 ;
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import

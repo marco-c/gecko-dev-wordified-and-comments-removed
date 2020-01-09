@@ -12,6 +12,11 @@ SessionStartup
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

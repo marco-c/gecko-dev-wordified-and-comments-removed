@@ -27,6 +27,11 @@ gSecHistogram
 var
 gNsISecTel
 ;
+const
+{
+PrivateBrowsingUtils
+}
+=
 ChromeUtils
 .
 import

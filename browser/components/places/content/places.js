@@ -1,3 +1,8 @@
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -162,6 +172,11 @@ js
 "
 )
 ;
+var
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -2049,6 +2064,11 @@ fp
 fileURL
 )
 {
+var
+{
+BookmarkHTMLUtils
+}
+=
 ChromeUtils
 .
 import
@@ -2179,6 +2199,11 @@ nsIFilePicker
 returnCancel
 )
 {
+var
+{
+BookmarkHTMLUtils
+}
+=
 ChromeUtils
 .
 import

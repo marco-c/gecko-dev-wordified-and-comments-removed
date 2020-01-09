@@ -12,6 +12,11 @@ AsyncPrefs
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

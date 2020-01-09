@@ -33,8 +33,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 var

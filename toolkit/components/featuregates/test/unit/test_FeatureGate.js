@@ -605,8 +605,7 @@ FeatureGate
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

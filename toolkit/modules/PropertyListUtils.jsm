@@ -12,6 +12,11 @@ PropertyListUtils
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

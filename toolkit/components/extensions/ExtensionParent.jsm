@@ -12,6 +12,11 @@ ExtensionParent
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -288,6 +298,11 @@ enablePerformanceCounters
 false
 )
 ;
+const
+{
+ExtensionCommon
+}
+=
 ChromeUtils
 .
 import
@@ -307,6 +322,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import

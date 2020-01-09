@@ -12,6 +12,11 @@ ManifestMessagesChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

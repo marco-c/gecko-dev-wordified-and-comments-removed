@@ -1,3 +1,8 @@
+const
+{
+SessionStore
+}
+=
 ChromeUtils
 .
 import

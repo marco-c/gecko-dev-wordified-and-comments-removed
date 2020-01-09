@@ -1,3 +1,8 @@
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -19,6 +24,11 @@ jsm
 ;
 try
 {
+var
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

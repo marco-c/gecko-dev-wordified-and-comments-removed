@@ -12,6 +12,11 @@ BrowserWindows
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

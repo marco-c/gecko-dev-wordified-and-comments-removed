@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+ControllerStateMachine
+}
+=
 ChromeUtils
 .
 import
@@ -24,6 +29,11 @@ jsm
 "
 )
 ;
+const
+{
+ReceiverStateMachine
+}
+=
 ChromeUtils
 .
 import
@@ -45,6 +55,11 @@ jsm
 "
 )
 ;
+const
+{
+State
+}
+=
 ChromeUtils
 .
 import

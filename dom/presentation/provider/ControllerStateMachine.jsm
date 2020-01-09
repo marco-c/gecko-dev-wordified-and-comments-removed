@@ -12,6 +12,12 @@ ControllerStateMachine
 "
 ]
 ;
+const
+{
+CommandType
+State
+}
+=
 ChromeUtils
 .
 import

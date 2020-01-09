@@ -86,6 +86,11 @@ Ci
 .
 nsIURIMutator
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

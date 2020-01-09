@@ -3,6 +3,10 @@ use
 strict
 "
 ;
+var
+AddressResult
+CreditCardResult
+;
 add_task
 (
 async
@@ -11,6 +15,12 @@ setup
 (
 )
 {
+(
+{
+AddressResult
+CreditCardResult
+}
+=
 ChromeUtils
 .
 import
@@ -26,6 +36,7 @@ ProfileAutoCompleteResult
 .
 jsm
 "
+)
 )
 ;
 }

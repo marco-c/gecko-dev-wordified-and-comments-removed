@@ -20,8 +20,7 @@ clients
 .
 js
 "
-{
-}
+null
 )
 ;
 const
@@ -48,8 +47,6 @@ settings
 .
 js
 "
-{
-}
 )
 ;
 const

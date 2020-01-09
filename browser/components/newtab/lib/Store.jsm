@@ -27,8 +27,6 @@ ActivityStreamMessageChannel
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -55,8 +53,6 @@ ActivityStreamStorage
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -83,8 +79,6 @@ ActivityStreamPrefs
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -111,8 +105,6 @@ Reducers
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -139,8 +131,6 @@ Redux
 .
 jsm
 "
-{
-}
 )
 ;
 this

@@ -25,8 +25,6 @@ WebNavigation
 .
 jsm
 "
-{
-}
 )
 ;
 const

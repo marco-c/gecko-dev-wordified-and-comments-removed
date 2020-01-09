@@ -231,6 +231,11 @@ javascript
 [
 CDATA
 [
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -250,6 +255,11 @@ jsm
 "
 )
 ;
+const
+{
+BrowserTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -269,6 +279,11 @@ jsm
 "
 )
 ;
+const
+{
+ContentTask
+}
+=
 ChromeUtils
 .
 import

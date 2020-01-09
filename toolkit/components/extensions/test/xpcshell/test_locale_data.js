@@ -3,6 +3,12 @@ use
 strict
 "
 ;
+const
+{
+Extension
+ExtensionData
+}
+=
 ChromeUtils
 .
 import

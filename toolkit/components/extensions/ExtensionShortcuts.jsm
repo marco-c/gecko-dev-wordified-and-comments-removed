@@ -12,6 +12,11 @@ ExtensionShortcuts
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionCommon
+}
+=
 ChromeUtils
 .
 import
@@ -50,6 +60,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import
@@ -69,6 +84,11 @@ jsm
 "
 )
 ;
+const
+{
+ShortcutUtils
+}
+=
 ChromeUtils
 .
 import

@@ -32,8 +32,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -60,8 +58,6 @@ ActivityStreamPrefs
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -88,10 +84,13 @@ PrerenderData
 .
 jsm
 "
-{
-}
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

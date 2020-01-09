@@ -12,6 +12,11 @@ GeckoViewTab
 "
 ]
 ;
+const
+{
+GeckoViewModule
+}
+=
 ChromeUtils
 .
 import

@@ -20,8 +20,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -46,8 +44,6 @@ DOMLocalization
 .
 jsm
 "
-{
-}
 )
 ;
 DOMLocalization

@@ -20,8 +20,7 @@ record
 .
 js
 "
-{
-}
+null
 )
 ;
 function

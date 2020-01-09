@@ -12,6 +12,12 @@ ReceiverStateMachine
 "
 ]
 ;
+const
+{
+CommandType
+State
+}
+=
 ChromeUtils
 .
 import

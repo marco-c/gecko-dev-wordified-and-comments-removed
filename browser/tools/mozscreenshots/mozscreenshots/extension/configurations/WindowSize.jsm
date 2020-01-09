@@ -12,6 +12,11 @@ WindowSize
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import
@@ -50,6 +60,11 @@ jsm
 "
 )
 ;
+const
+{
+BrowserTestUtils
+}
+=
 ChromeUtils
 .
 import

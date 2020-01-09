@@ -15,6 +15,11 @@ RemotePageManager
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -34,6 +39,12 @@ jsm
 "
 )
 ;
+const
+{
+MessageListener
+MessagePort
+}
+=
 ChromeUtils
 .
 import

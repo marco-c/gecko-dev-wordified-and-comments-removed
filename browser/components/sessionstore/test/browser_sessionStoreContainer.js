@@ -629,8 +629,6 @@ TabStateFlusher
 .
 jsm
 "
-{
-}
 )
 ;
 await

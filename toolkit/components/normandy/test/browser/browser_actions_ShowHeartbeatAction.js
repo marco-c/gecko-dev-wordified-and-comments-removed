@@ -318,8 +318,7 @@ ShowHeartbeatAction
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

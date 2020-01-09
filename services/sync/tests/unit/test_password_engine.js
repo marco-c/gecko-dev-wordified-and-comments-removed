@@ -1,3 +1,9 @@
+const
+{
+FXA_PWDMGR_HOST
+FXA_PWDMGR_REALM
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +23,11 @@ js
 "
 )
 ;
+const
+{
+LoginRec
+}
+=
 ChromeUtils
 .
 import
@@ -38,6 +49,11 @@ js
 "
 )
 ;
+const
+{
+Service
+}
+=
 ChromeUtils
 .
 import

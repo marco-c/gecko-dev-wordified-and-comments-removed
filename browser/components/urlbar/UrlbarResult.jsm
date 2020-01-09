@@ -12,6 +12,11 @@ UrlbarResult
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -139,12 +144,6 @@ this
 source
 =
 matchSource
-;
-this
-.
-heuristic
-=
-false
 ;
 if
 (

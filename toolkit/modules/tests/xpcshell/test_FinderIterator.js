@@ -20,8 +20,6 @@ FinderIterator
 .
 jsm
 "
-{
-}
 )
 ;
 var

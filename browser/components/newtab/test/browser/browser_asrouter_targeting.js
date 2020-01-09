@@ -23,8 +23,6 @@ ASRouterTargeting
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -49,8 +47,6 @@ AddonTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

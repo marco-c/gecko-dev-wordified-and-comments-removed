@@ -97,8 +97,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -125,8 +123,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -359,8 +355,6 @@ jsdebugger
 .
 jsm
 "
-{
-}
 )
 ;
 const

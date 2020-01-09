@@ -2181,8 +2181,6 @@ SessionHistory
 .
 jsm
 "
-{
-}
 )
 ;
 return

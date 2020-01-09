@@ -20,8 +20,6 @@ browser
 .
 js
 "
-{
-}
 )
 ;
 add_test

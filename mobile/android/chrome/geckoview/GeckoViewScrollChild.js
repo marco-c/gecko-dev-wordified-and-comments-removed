@@ -1,3 +1,8 @@
+const
+{
+GeckoViewChildModule
+}
+=
 ChromeUtils
 .
 import

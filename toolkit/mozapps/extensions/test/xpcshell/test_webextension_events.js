@@ -54,8 +54,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 for

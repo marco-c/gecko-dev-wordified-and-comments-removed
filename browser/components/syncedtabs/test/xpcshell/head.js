@@ -1,3 +1,8 @@
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -77,6 +87,16 @@ do_get_profile
 (
 )
 ;
+var
+{
+clearInterval
+clearTimeout
+setInterval
+setIntervalWithTarget
+setTimeout
+setTimeoutWithTarget
+}
+=
 ChromeUtils
 .
 import

@@ -430,8 +430,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 function

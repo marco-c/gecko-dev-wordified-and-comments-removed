@@ -1,3 +1,8 @@
+const
+{
+BookmarkHTMLUtils
+}
+=
 ChromeUtils
 .
 import

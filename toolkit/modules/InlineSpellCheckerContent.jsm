@@ -26,8 +26,6 @@ InlineSpellChecker
 .
 jsm
 "
-{
-}
 )
 ;
 var

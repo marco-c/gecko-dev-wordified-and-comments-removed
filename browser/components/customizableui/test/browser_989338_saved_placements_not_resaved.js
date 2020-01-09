@@ -56,8 +56,7 @@ CustomizableUI
 .
 jsm
 "
-{
-}
+null
 )
 ;
 hadSavedState
@@ -324,8 +323,7 @@ CustomizableUI
 .
 jsm
 "
-{
-}
+null
 )
 ;
 if

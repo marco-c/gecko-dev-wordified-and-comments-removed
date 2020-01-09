@@ -1543,8 +1543,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 if
@@ -1664,8 +1662,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -2229,8 +2225,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 var

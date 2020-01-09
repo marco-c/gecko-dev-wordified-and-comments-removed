@@ -20,8 +20,6 @@ Localization
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -46,8 +44,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const

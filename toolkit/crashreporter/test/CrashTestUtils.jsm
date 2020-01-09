@@ -88,6 +88,11 @@ MD_MEMORY_INFO_LIST_STREAM
 16
 }
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -107,6 +112,11 @@ jsm
 "
 )
 ;
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

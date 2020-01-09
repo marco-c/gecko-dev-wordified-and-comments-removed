@@ -69,6 +69,10 @@ name
 }
 ]
 ;
+var
+AddressDataLoader
+FormAutofillUtils
+;
 add_task
 (
 async
@@ -77,6 +81,12 @@ setup
 (
 )
 {
+(
+{
+AddressDataLoader
+FormAutofillUtils
+}
+=
 ChromeUtils
 .
 import
@@ -92,6 +102,7 @@ FormAutofillUtils
 .
 jsm
 "
+)
 )
 ;
 }

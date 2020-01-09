@@ -12,6 +12,11 @@ FormLikeFactory
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

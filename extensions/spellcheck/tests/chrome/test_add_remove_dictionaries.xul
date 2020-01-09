@@ -501,6 +501,11 @@ addDirectory
 map
 )
 ;
+const
+{
+onSpellCheck
+}
+=
 ChromeUtils
 .
 import

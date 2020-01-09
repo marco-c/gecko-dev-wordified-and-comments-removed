@@ -25,8 +25,6 @@ GCTelemetry
 .
 jsm
 "
-{
-}
 )
 ;
 function
@@ -787,8 +785,6 @@ GCTelemetry
 .
 jsm
 "
-{
-}
 )
 ;
 let

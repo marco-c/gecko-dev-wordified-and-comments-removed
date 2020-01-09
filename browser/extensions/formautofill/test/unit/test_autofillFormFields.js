@@ -3,6 +3,10 @@ use
 strict
 "
 ;
+var
+FormAutofillHandler
+OSKeyStore
+;
 add_task
 (
 async
@@ -11,6 +15,11 @@ setup
 (
 )
 {
+(
+{
+FormAutofillHandler
+}
+=
 ChromeUtils
 .
 import
@@ -27,7 +36,13 @@ FormAutofillHandler
 jsm
 "
 )
+)
 ;
+(
+{
+OSKeyStore
+}
+=
 ChromeUtils
 .
 import
@@ -43,6 +58,7 @@ OSKeyStore
 .
 jsm
 "
+)
 )
 ;
 }

@@ -57,8 +57,7 @@ FormAutofillStorage
 .
 jsm
 "
-{
-}
+null
 )
 )
 ;
@@ -82,8 +81,6 @@ OSKeyStore
 .
 jsm
 "
-{
-}
 )
 )
 ;

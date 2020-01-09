@@ -12,6 +12,13 @@ ContentTaskUtils
 "
 ]
 ;
+const
+{
+clearInterval
+setInterval
+setTimeout
+}
+=
 ChromeUtils
 .
 import

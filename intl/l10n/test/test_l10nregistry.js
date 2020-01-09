@@ -22,10 +22,13 @@ L10nRegistry
 .
 jsm
 "
-{
-}
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import

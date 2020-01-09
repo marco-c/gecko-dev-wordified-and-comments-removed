@@ -40,8 +40,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

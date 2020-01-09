@@ -71,8 +71,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -97,8 +95,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -123,8 +119,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 var

@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -68,8 +73,6 @@ Console
 .
 jsm
 "
-{
-}
 )
 ;
 return

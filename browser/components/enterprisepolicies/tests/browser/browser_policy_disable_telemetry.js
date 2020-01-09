@@ -33,8 +33,6 @@ TelemetryReportingPolicy
 .
 jsm
 "
-{
-}
 )
 ;
 ok

@@ -12,6 +12,11 @@ DownloadStore
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

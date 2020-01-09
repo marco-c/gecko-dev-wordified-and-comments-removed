@@ -279,6 +279,11 @@ javascript
 [
 CDATA
 [
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

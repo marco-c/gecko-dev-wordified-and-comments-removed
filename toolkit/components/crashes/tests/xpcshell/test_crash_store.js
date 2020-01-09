@@ -27,8 +27,7 @@ CrashManager
 .
 jsm
 "
-{
-}
+null
 )
 ;
 ChromeUtils

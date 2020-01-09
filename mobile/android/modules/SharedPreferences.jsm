@@ -12,6 +12,11 @@ SharedPreferences
 "
 ]
 ;
+const
+{
+EventDispatcher
+}
+=
 ChromeUtils
 .
 import

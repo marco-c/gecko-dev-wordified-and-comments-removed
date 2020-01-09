@@ -2079,8 +2079,6 @@ AsyncSpellCheckTestHelper
 .
 jsm
 "
-{
-}
 )
 ;
 let

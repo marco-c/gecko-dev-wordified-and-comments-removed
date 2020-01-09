@@ -12,6 +12,11 @@ AboutReaderChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

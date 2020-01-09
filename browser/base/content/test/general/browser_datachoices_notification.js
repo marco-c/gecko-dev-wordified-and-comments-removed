@@ -133,8 +133,7 @@ TelemetryReportingPolicy
 .
 jsm
 "
-{
-}
+null
 )
 .
 Policy
@@ -177,8 +176,7 @@ TelemetryReportingPolicy
 .
 jsm
 "
-{
-}
+null
 )
 .
 TelemetryReportingPolicyImpl

@@ -12,6 +12,11 @@ BulkKeyBundle
 "
 ]
 ;
+const
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ js
 "
 )
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -50,6 +60,11 @@ jsm
 "
 )
 ;
+const
+{
+Weave
+}
+=
 ChromeUtils
 .
 import
@@ -69,6 +84,11 @@ js
 "
 )
 ;
+const
+{
+Utils
+}
+=
 ChromeUtils
 .
 import

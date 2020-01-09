@@ -32,6 +32,11 @@ ERROR_UNKNOWN
 UNKNOWN_ERROR
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

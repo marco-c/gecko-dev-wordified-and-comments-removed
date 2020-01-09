@@ -260,6 +260,11 @@ javascript
 [
 CDATA
 [
+const
+{
+Integration
+}
+=
 ChromeUtils
 .
 import
@@ -279,6 +284,11 @@ jsm
 "
 )
 ;
+const
+{
+E10SUtils
+}
+=
 ChromeUtils
 .
 import

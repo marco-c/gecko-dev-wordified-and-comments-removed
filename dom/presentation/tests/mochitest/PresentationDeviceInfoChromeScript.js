@@ -25,8 +25,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const

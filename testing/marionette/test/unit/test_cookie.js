@@ -1,3 +1,8 @@
+const
+{
+cookie
+}
+=
 ChromeUtils
 .
 import

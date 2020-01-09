@@ -1,3 +1,8 @@
+const
+{
+Lz4
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ js
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import

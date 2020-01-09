@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+PlacesUtils
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+NewTabUtils
+}
+=
 ChromeUtils
 .
 import
@@ -41,6 +51,11 @@ jsm
 "
 )
 ;
+const
+{
+PlacesTestUtils
+}
+=
 ChromeUtils
 .
 import

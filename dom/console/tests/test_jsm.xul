@@ -708,6 +708,7 @@ ChromeUtils
 import
 (
 JSM
+window
 )
 ;
 ConsoleTest

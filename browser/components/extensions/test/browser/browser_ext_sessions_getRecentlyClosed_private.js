@@ -183,8 +183,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

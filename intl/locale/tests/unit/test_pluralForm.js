@@ -1,3 +1,8 @@
+const
+{
+PluralForm
+}
+=
 ChromeUtils
 .
 import

@@ -1,3 +1,8 @@
+const
+{
+BinarySearch
+}
+=
 ChromeUtils
 .
 import

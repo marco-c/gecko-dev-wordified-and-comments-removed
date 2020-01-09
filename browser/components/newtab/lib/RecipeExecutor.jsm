@@ -27,8 +27,6 @@ Tokenize
 .
 jsm
 "
-{
-}
 )
 ;
 this

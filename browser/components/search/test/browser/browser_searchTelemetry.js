@@ -24,7 +24,6 @@ SearchTelemetry
 .
 jsm
 "
-null
 )
 ;
 const

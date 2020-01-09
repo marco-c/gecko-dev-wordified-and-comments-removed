@@ -28,6 +28,11 @@ loadManifest
 pkg
 )
 {
+const
+{
+AddonInternal
+}
+=
 ChromeUtils
 .
 import

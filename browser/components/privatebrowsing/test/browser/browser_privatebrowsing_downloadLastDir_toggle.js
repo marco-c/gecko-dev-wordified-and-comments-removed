@@ -1,3 +1,8 @@
+const
+{
+FileUtils
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+DownloadLastDir
+}
+=
 ChromeUtils
 .
 import

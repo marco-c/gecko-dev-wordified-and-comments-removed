@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+EventDispatcher
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

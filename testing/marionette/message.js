@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+assert
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ js
 "
 )
 ;
+const
+{
+error
+}
+=
 ChromeUtils
 .
 import
@@ -63,8 +73,6 @@ format
 .
 js
 "
-{
-}
 )
 ;
 this

@@ -1,3 +1,8 @@
+var
+{
+PrivateBrowsingUtils
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+var
+{
+BrowserUtils
+}
+=
 ChromeUtils
 .
 import
@@ -36,6 +46,11 @@ jsm
 "
 )
 ;
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -55,6 +70,11 @@ jsm
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -1,3 +1,8 @@
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

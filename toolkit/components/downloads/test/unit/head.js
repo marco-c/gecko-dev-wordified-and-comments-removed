@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+var
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+var
+{
+Integration
+}
+=
 ChromeUtils
 .
 import
@@ -41,6 +51,11 @@ jsm
 "
 )
 ;
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

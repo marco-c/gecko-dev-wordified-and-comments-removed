@@ -1,3 +1,8 @@
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+FileUtils
+}
+=
 ChromeUtils
 .
 import
@@ -36,6 +46,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -55,6 +70,12 @@ jsm
 "
 )
 ;
+const
+{
+parseKeyValuePairs
+parseKeyValuePairsFromFileAsync
+}
+=
 ChromeUtils
 .
 import

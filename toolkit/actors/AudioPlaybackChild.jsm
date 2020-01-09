@@ -12,6 +12,11 @@ AudioPlaybackChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

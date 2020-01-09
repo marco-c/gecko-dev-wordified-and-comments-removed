@@ -1,3 +1,8 @@
+var
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

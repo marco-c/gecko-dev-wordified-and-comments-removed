@@ -17,6 +17,11 @@ TRANSACTIONS_QUEUE_TIMEOUT_MS
 =
 300000
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -36,6 +41,11 @@ jsm
 "
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import

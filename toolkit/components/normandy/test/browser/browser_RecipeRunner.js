@@ -207,8 +207,6 @@ settings
 .
 js
 "
-{
-}
 )
 ;
 add_task

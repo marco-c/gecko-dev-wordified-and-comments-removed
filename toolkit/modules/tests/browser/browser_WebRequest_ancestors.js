@@ -46,8 +46,6 @@ WebRequest
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -72,8 +70,6 @@ PromiseUtils
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

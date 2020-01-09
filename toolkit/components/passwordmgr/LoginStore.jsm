@@ -12,6 +12,11 @@ LoginStore
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

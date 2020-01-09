@@ -12,6 +12,11 @@ DevTools
 "
 ]
 ;
+const
+{
+gDevTools
+}
+=
 ChromeUtils
 .
 import
@@ -33,6 +38,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -52,6 +62,11 @@ jsm
 "
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import
@@ -93,8 +108,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 let

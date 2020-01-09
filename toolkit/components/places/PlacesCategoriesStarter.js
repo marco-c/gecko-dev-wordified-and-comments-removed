@@ -14,6 +14,11 @@ MAINTENANCE_INTERVAL_SECONDS
 *
 86400
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -33,6 +38,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

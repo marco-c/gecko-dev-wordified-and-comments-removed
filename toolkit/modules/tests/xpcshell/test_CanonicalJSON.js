@@ -20,8 +20,6 @@ CanonicalJSON
 .
 jsm
 "
-{
-}
 )
 ;
 function

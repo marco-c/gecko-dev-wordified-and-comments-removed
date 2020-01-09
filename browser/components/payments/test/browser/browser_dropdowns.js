@@ -151,8 +151,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let

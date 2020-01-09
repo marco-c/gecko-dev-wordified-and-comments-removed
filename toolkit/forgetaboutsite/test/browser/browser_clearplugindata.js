@@ -20,8 +20,6 @@ ForgetAboutSite
 .
 jsm
 "
-{
-}
 )
 ;
 const

@@ -1452,6 +1452,11 @@ checkExplicitVersions
 outerSB
 )
 ;
+const
+{
+addDebuggerToGlobal
+}
+=
 ChromeUtils
 .
 import

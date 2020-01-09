@@ -12,6 +12,11 @@ DownloadNotifications
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

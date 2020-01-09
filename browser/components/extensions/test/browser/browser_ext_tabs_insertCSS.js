@@ -33,8 +33,6 @@ MessageChannel
 .
 jsm
 "
-{
-}
 )
 ;
 function

@@ -20,8 +20,6 @@ AddonManager
 .
 jsm
 "
-{
-}
 )
 ;
 const

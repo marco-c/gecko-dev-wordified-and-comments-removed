@@ -18,6 +18,11 @@ jsm
 this
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -771,7 +776,7 @@ from
 (
 list
 .
-menupopup
+firstElementChild
 .
 children
 )
@@ -1024,7 +1029,7 @@ from
 (
 available
 .
-menupopup
+firstElementChild
 .
 children
 )
@@ -1107,7 +1112,7 @@ defaultBrowserLanguage
 "
 )
 .
-menupopup
+firstElementChild
 .
 hidePopup
 (
@@ -1487,7 +1492,7 @@ fr
 ;
 available
 .
-menupopup
+firstElementChild
 .
 lastElementChild
 .
@@ -1497,7 +1502,7 @@ doCommand
 ;
 available
 .
-menupopup
+firstElementChild
 .
 hidePopup
 (
@@ -1508,7 +1513,7 @@ waitForMutation
 (
 available
 .
-menupopup
+firstElementChild
 {
 childList
 :
@@ -1523,7 +1528,7 @@ from
 (
 available
 .
-menupopup
+firstElementChild
 .
 children
 )
@@ -3186,7 +3191,7 @@ waitForMutation
 (
 available
 .
-menupopup
+firstElementChild
 {
 childList
 :
@@ -3612,7 +3617,7 @@ waitForMutation
 (
 available
 .
-menupopup
+firstElementChild
 {
 childList
 :
@@ -3907,7 +3912,7 @@ hasSearchOption
 (
 defaultMenulist
 .
-menupopup
+firstChild
 )
 "
 There
@@ -3941,7 +3946,7 @@ hasSearchOption
 (
 available
 .
-menupopup
+firstChild
 )
 "
 There
@@ -4048,7 +4053,7 @@ hasSearchOption
 (
 defaultMenulist
 .
-menupopup
+firstChild
 )
 "
 There
@@ -4083,7 +4088,7 @@ hasSearchOption
 (
 available
 .
-menupopup
+firstChild
 )
 "
 There
@@ -4305,7 +4310,7 @@ from
 (
 available
 .
-menupopup
+firstElementChild
 .
 children
 )
@@ -4407,7 +4412,7 @@ click
 ;
 available
 .
-menupopup
+firstElementChild
 .
 hidePopup
 (

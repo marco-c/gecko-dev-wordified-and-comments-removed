@@ -25,8 +25,6 @@ Fluent
 .
 jsm
 "
-{
-}
 )
 ;
 test_methods_presence

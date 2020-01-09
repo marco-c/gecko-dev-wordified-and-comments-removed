@@ -12,6 +12,11 @@ PageActions
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

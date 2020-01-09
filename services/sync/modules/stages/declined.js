@@ -12,6 +12,11 @@ DeclinedEngines
 "
 ]
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import
@@ -50,6 +60,11 @@ js
 "
 )
 ;
+const
+{
+Observers
+}
+=
 ChromeUtils
 .
 import

@@ -129,8 +129,6 @@ offlineAppCache
 .
 jsm
 "
-{
-}
 )
 ;
 OfflineAppCacheHelper

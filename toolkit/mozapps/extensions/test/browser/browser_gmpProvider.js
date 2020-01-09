@@ -23,6 +23,11 @@ jsm
 this
 )
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -64,8 +69,7 @@ GMPProvider
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

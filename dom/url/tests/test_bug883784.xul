@@ -204,6 +204,11 @@ waitForWorkerFinish
 (
 )
 ;
+const
+{
+Test
+}
+=
 ChromeUtils
 .
 import

@@ -12,6 +12,11 @@ PermissionUI
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

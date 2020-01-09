@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+GeckoViewChildModule
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

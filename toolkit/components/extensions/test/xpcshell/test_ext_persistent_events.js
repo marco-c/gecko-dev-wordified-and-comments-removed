@@ -14,6 +14,11 @@ disconnected
 /
 )
 ;
+const
+{
+ExtensionCommon
+}
+=
 ChromeUtils
 .
 import

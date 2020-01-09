@@ -42,6 +42,11 @@ callExec
 args
 )
 {
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import
@@ -128,6 +133,11 @@ callFork
 args
 )
 {
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import
@@ -207,6 +217,11 @@ callSysctl
 args
 )
 {
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import
@@ -311,6 +326,11 @@ callOpen
 args
 )
 {
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

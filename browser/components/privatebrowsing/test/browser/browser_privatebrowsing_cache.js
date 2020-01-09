@@ -25,8 +25,6 @@ Sanitizer
 .
 jsm
 "
-{
-}
 )
 ;
 function

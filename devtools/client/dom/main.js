@@ -25,8 +25,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -55,8 +53,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 const

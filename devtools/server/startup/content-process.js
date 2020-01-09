@@ -25,8 +25,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 function
@@ -77,8 +75,6 @@ process
 .
 jsm
 "
-{
-}
 )
 ;
 init

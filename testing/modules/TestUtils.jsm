@@ -12,6 +12,11 @@ TestUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,12 @@ jsm
 "
 )
 ;
+const
+{
+clearInterval
+setInterval
+}
+=
 ChromeUtils
 .
 import

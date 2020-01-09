@@ -1,3 +1,8 @@
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

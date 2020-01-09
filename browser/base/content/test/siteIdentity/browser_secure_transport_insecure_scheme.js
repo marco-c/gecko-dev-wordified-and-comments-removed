@@ -767,8 +767,6 @@ MockRegistrar
 .
 jsm
 "
-{
-}
 )
 ;
 let

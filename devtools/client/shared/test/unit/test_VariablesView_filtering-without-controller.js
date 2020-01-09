@@ -29,8 +29,6 @@ VariablesView
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -55,8 +53,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const

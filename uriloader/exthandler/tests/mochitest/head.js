@@ -1,3 +1,8 @@
+var
+{
+FileUtils
+}
+=
 ChromeUtils
 .
 import

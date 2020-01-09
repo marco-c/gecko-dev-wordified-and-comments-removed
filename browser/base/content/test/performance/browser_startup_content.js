@@ -881,6 +881,11 @@ Ci
 nsIServiceManager
 )
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import

@@ -12,6 +12,11 @@ Downloads
 "
 ]
 ;
+const
+{
+Integration
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,12 @@ jsm
 "
 )
 ;
+const
+{
+Download
+DownloadError
+}
+=
 ChromeUtils
 .
 import

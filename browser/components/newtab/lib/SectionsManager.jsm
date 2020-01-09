@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+EventEmitter
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -70,8 +80,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -98,8 +106,6 @@ ActivityStreamStorage
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

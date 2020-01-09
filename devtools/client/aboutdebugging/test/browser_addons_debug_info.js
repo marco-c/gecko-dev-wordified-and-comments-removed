@@ -25,8 +25,6 @@ Preferences
 .
 jsm
 "
-{
-}
 )
 ;
 const

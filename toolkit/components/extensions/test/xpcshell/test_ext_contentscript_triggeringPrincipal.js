@@ -25,8 +25,7 @@ AddonTestUtils
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

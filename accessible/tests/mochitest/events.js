@@ -211,6 +211,11 @@ kFromUserInput
 =
 1
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

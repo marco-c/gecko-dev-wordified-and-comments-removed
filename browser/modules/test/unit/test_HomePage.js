@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+HomePage
+}
+=
 ChromeUtils
 .
 import
@@ -21,6 +26,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

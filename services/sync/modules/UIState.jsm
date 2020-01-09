@@ -12,6 +12,11 @@ UIState
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

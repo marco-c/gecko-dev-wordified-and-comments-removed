@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+Schemas
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionCommon
+}
+=
 ChromeUtils
 .
 import

@@ -1516,8 +1516,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

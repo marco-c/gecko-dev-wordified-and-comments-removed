@@ -309,8 +309,7 @@ EventPing
 .
 jsm
 "
-{
-}
+null
 )
 ;
 mod

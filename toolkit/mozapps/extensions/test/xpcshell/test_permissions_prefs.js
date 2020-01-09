@@ -110,8 +110,7 @@ PermissionsUtils
 .
 jsm
 "
-{
-}
+null
 )
 ;
 scope

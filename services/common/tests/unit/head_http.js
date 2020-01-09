@@ -1,3 +1,8 @@
+var
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import

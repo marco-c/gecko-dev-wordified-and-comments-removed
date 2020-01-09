@@ -38,8 +38,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 return

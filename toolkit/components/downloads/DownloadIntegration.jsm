@@ -12,6 +12,11 @@ DownloadIntegration
 "
 ]
 ;
+const
+{
+Integration
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

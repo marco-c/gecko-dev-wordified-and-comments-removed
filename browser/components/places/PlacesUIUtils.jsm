@@ -7,6 +7,11 @@ PlacesUIUtils
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -26,6 +31,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -45,6 +55,12 @@ jsm
 "
 )
 ;
+const
+{
+clearTimeout
+setTimeout
+}
+=
 ChromeUtils
 .
 import

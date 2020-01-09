@@ -26,8 +26,7 @@ SyncDisconnect
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const
@@ -52,8 +51,6 @@ AsyncShutdown
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

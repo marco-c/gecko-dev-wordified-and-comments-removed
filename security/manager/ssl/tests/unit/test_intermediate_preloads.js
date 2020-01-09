@@ -31,8 +31,6 @@ RemoteSecuritySettings
 .
 jsm
 "
-{
-}
 )
 ;
 let

@@ -1,3 +1,8 @@
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -36,6 +46,11 @@ jsm
 "
 )
 ;
+const
+{
+MockRegistrar
+}
+=
 ChromeUtils
 .
 import

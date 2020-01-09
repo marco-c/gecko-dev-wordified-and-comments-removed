@@ -12,6 +12,11 @@ DownloadUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -1079,8 +1079,6 @@ ForgetAboutSite
 .
 jsm
 "
-{
-}
 )
 ;
 ForgetAboutSite

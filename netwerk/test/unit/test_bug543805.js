@@ -12,6 +12,11 @@ bug543805
 /
 "
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

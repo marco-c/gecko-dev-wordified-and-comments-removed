@@ -25,8 +25,6 @@ AddonManager
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -51,8 +49,6 @@ ExtensionTestCommon
 .
 jsm
 "
-{
-}
 )
 ;
 async

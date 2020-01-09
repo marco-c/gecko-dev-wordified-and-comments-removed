@@ -10,6 +10,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -29,6 +34,11 @@ jsm
 "
 )
 ;
+const
+{
+element
+}
+=
 ChromeUtils
 .
 import

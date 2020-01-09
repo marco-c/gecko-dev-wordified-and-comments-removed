@@ -1197,6 +1197,11 @@ selector
 }
 )
 {
+const
+{
+FormLikeFactory
+}
+=
 ChromeUtils
 .
 import
@@ -1384,6 +1389,11 @@ function
 (
 )
 {
+const
+{
+FormLikeFactory
+}
+=
 ChromeUtils
 .
 import

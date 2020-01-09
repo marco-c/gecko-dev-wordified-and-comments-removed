@@ -25,10 +25,13 @@ Promise
 .
 jsm
 "
-{
-}
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import

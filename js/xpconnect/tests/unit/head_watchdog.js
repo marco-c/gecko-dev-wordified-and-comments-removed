@@ -1,3 +1,8 @@
+var
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import

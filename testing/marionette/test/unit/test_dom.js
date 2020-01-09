@@ -21,8 +21,6 @@ dom
 .
 js
 "
-{
-}
 )
 ;
 class

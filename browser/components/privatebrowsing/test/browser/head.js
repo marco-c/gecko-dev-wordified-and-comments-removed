@@ -20,10 +20,13 @@ PromiseUtils
 .
 jsm
 "
-{
-}
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

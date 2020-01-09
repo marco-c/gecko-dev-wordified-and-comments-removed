@@ -1,3 +1,8 @@
+var
+{
+PlacesUtils
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+var
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

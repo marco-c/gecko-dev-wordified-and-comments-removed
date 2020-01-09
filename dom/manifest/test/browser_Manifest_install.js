@@ -25,8 +25,6 @@ Manifest
 .
 jsm
 "
-{
-}
 )
 ;
 const

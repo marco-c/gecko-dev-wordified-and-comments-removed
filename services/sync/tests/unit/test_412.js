@@ -1,3 +1,8 @@
+const
+{
+Service
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ js
 "
 )
 ;
+const
+{
+RotaryEngine
+}
+=
 ChromeUtils
 .
 import

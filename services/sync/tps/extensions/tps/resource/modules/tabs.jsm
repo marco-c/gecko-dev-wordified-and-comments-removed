@@ -7,6 +7,11 @@ BrowserTabs
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -26,6 +31,11 @@ jsm
 "
 )
 ;
+const
+{
+Weave
+}
+=
 ChromeUtils
 .
 import
@@ -45,6 +55,11 @@ js
 "
 )
 ;
+const
+{
+TabStateFlusher
+}
+=
 ChromeUtils
 .
 import
@@ -65,6 +80,11 @@ jsm
 "
 )
 ;
+const
+{
+Logger
+}
+=
 ChromeUtils
 .
 import

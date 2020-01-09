@@ -39,6 +39,11 @@ translation
 detectLanguage
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -424,6 +429,11 @@ this
 translationEngine
 ]
 ;
+const
+{
+BrowserWindowTracker
+}
+=
 ChromeUtils
 .
 import

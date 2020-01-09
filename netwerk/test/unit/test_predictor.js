@@ -1,3 +1,8 @@
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -36,11 +46,16 @@ jsm
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
 (
-"
+'
 resource
 :
 /
@@ -52,7 +67,7 @@ modules
 Services
 .
 jsm
-"
+'
 )
 ;
 var

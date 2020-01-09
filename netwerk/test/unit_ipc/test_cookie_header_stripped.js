@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ js
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

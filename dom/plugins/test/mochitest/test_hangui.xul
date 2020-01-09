@@ -377,6 +377,11 @@ nsIPluginTag
 STATE_ENABLED
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -25,8 +25,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -39,6 +37,14 @@ Services
 "
 )
 ;
+const
+{
+setTimeout
+clearTimeout
+setInterval
+clearInterval
+}
+=
 ChromeUtils
 .
 import

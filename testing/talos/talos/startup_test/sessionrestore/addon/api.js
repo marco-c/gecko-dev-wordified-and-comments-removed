@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -139,6 +144,11 @@ getTalosParentProfiler
 {
 try
 {
+var
+{
+TalosParentProfiler
+}
+=
 ChromeUtils
 .
 import

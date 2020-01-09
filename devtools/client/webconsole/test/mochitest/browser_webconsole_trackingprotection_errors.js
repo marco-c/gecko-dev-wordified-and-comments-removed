@@ -92,8 +92,6 @@ UrlClassifierTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 registerCleanupFunction

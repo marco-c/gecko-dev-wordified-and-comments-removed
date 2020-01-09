@@ -25,8 +25,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 function

@@ -21,10 +21,15 @@ error
 .
 js
 "
-{
-}
 )
 ;
+const
+{
+Command
+Message
+Response
+}
+=
 ChromeUtils
 .
 import

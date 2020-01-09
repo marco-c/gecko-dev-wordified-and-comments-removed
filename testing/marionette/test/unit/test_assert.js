@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+assert
+}
+=
 ChromeUtils
 .
 import
@@ -50,8 +55,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 add_test

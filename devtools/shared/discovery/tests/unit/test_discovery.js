@@ -25,8 +25,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -108,8 +106,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 ;
 Services

@@ -38,8 +38,6 @@ UrlClassifierTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const

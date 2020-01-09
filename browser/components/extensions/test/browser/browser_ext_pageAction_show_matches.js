@@ -357,8 +357,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 getId

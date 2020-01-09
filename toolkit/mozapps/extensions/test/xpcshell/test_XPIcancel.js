@@ -1,3 +1,8 @@
+const
+{
+XPIInstall
+}
+=
 ChromeUtils
 .
 import

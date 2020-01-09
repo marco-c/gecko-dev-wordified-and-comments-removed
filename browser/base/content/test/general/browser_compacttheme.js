@@ -57,8 +57,6 @@ LightweightThemeManager
 .
 jsm
 "
-{
-}
 )
 ;
 registerCleanupFunction

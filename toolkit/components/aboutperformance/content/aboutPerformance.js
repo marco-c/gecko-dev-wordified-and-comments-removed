@@ -25,8 +25,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -51,8 +49,6 @@ AddonManager
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -77,8 +73,6 @@ ExtensionParent
 .
 jsm
 "
-{
-}
 )
 ;
 const

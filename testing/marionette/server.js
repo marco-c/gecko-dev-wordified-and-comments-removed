@@ -36,6 +36,11 @@ initSpecialConnection
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -55,6 +60,11 @@ jsm
 "
 )
 ;
+const
+{
+assert
+}
+=
 ChromeUtils
 .
 import
@@ -96,8 +106,6 @@ driver
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -122,8 +130,6 @@ element
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -149,8 +155,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -177,8 +181,6 @@ message
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -203,8 +205,6 @@ log
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -229,8 +229,7 @@ prefs
 .
 js
 "
-{
-}
+null
 )
 ;
 const
@@ -255,8 +254,7 @@ transport
 .
 js
 "
-{
-}
+null
 )
 ;
 XPCOMUtils

@@ -1855,8 +1855,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 )
 ;
@@ -2743,8 +2741,6 @@ PerTestCoverageUtils
 .
 jsm
 "
-{
-}
 )
 ;
 if

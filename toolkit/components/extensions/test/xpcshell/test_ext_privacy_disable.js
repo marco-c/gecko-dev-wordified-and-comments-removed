@@ -38,8 +38,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return

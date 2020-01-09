@@ -7,6 +7,11 @@ NetErrorChild
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -26,6 +31,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -45,6 +55,11 @@ jsm
 "
 )
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

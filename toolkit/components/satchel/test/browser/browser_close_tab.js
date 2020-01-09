@@ -20,8 +20,6 @@ FormHistory
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

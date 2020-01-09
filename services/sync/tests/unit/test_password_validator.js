@@ -1,3 +1,8 @@
+const
+{
+PasswordValidator
+}
+=
 ChromeUtils
 .
 import

@@ -27,8 +27,7 @@ DER
 .
 jsm
 "
-{
-}
+null
 )
 ;
 function

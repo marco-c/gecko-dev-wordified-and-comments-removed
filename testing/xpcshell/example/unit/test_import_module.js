@@ -52,6 +52,9 @@ import_module
 jsm
 "
 ;
+let
+exports
+=
 ChromeUtils
 .
 import
@@ -63,6 +66,8 @@ Assert
 .
 ok
 (
+exports
+.
 MODULE_URI
 =
 =
@@ -73,6 +78,8 @@ Assert
 .
 ok
 (
+exports
+.
 MODULE_IMPORTED
 )
 ;

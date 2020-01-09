@@ -34,7 +34,6 @@ XPCOMUtils
 .
 jsm
 "
-null
 )
 ;
 XPCOMUtils

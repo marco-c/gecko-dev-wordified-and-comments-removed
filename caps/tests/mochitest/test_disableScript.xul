@@ -325,6 +325,11 @@ waitForExplicitFinish
 (
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

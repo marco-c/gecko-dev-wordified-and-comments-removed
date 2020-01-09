@@ -69,8 +69,6 @@ Console
 .
 jsm
 "
-{
-}
 )
 ;
 console
@@ -420,8 +418,6 @@ Console
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -587,8 +583,6 @@ Console
 .
 jsm
 "
-{
-}
 )
 ;
 storage

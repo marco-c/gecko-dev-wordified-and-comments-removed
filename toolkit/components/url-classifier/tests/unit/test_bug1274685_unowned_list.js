@@ -1,3 +1,8 @@
+const
+{
+SafeBrowsing
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+updateAppInfo
+}
+=
 ChromeUtils
 .
 import

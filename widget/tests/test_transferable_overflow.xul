@@ -605,6 +605,11 @@ testing
 for
 Windows
 .
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -819,6 +824,11 @@ RunTest
 (
 )
 {
+const
+{
+PrivateBrowsingUtils
+}
+=
 ChromeUtils
 .
 import
@@ -838,6 +848,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -28,8 +28,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 const

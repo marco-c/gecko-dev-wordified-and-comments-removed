@@ -92,6 +92,11 @@ urlclassifier
 trackingWhitelistTable
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

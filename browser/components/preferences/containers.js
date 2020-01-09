@@ -1,3 +1,8 @@
+const
+{
+ContextualIdentityService
+}
+=
 ChromeUtils
 .
 import

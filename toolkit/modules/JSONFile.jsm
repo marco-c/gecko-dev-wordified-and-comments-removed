@@ -12,6 +12,11 @@ JSONFile
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

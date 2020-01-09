@@ -12,6 +12,11 @@ UrlbarValueFormatter
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

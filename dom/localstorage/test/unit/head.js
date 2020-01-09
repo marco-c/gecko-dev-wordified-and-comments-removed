@@ -3,6 +3,11 @@ NS_ERROR_DOM_QUOTA_EXCEEDED_ERR
 =
 22
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

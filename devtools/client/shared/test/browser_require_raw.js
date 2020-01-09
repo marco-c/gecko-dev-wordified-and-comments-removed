@@ -29,8 +29,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 const

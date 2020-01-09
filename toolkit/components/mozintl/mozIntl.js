@@ -1,3 +1,8 @@
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -58,8 +68,7 @@ Localization
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

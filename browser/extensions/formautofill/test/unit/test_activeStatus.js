@@ -34,8 +34,7 @@ FormAutofillParent
 .
 jsm
 "
-{
-}
+null
 )
 )
 ;

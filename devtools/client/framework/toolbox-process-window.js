@@ -26,8 +26,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 loader

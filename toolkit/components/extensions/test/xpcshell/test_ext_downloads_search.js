@@ -14,6 +14,11 @@ disconnected
 /
 )
 ;
+const
+{
+Downloads
+}
+=
 ChromeUtils
 .
 import

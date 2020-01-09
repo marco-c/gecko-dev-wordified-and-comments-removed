@@ -58,8 +58,6 @@ ContentTaskUtils
 .
 jsm
 "
-{
-}
 )
 ;
 function

@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -41,6 +51,11 @@ jsm
 "
 )
 ;
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import

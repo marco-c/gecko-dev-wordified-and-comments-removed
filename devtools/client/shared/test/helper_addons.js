@@ -104,8 +104,6 @@ AddonManager
 .
 jsm
 "
-{
-}
 )
 ;
 function

@@ -12,6 +12,11 @@ LanguagePrompt
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

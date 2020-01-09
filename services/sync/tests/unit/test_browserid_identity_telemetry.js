@@ -1,3 +1,8 @@
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import
@@ -39,8 +44,7 @@ browserid_identity
 .
 js
 "
-{
-}
+null
 )
 ;
 const

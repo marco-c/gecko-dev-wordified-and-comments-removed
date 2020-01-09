@@ -10,6 +10,11 @@ EnableDelayHelper
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -8,6 +8,11 @@ requestLongerTimeout
 2
 )
 ;
+const
+{
+FxAccounts
+}
+=
 ChromeUtils
 .
 import
@@ -49,8 +54,6 @@ SyncedTabs
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -75,8 +78,6 @@ UIState
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

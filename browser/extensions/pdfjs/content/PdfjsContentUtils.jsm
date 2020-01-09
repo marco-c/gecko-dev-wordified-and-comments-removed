@@ -12,6 +12,11 @@ PdfjsContentUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

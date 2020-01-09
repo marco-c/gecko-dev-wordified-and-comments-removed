@@ -7,6 +7,11 @@ CryptoUtils
 "
 ]
 ;
+const
+{
+Observers
+}
+=
 ChromeUtils
 .
 import
@@ -26,6 +31,11 @@ js
 "
 )
 ;
+const
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import
@@ -45,6 +55,11 @@ js
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

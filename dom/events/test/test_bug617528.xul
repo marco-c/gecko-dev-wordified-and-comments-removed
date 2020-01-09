@@ -232,6 +232,11 @@ javascript
 [
 CDATA
 [
+const
+{
+BrowserTestUtils
+}
+=
 ChromeUtils
 .
 import

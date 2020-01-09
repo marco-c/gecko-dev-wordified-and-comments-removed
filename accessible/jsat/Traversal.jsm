@@ -15,6 +15,12 @@ TraversalHelper
 "
 ]
 ;
+const
+{
+PrefCache
+Utils
+}
+=
 ChromeUtils
 .
 import

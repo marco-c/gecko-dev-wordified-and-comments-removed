@@ -52,8 +52,6 @@ BingTranslator
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -79,8 +77,6 @@ TranslationDocument
 .
 jsm
 "
-{
-}
 )
 ;
 add_task
@@ -213,6 +209,11 @@ function
 (
 )
 {
+const
+{
+BingTranslator
+}
+=
 ChromeUtils
 .
 import
@@ -233,6 +234,11 @@ jsm
 "
 )
 ;
+const
+{
+TranslationDocument
+}
+=
 ChromeUtils
 .
 import
@@ -379,6 +385,11 @@ function
 (
 )
 {
+const
+{
+BingTranslator
+}
+=
 ChromeUtils
 .
 import
@@ -399,6 +410,11 @@ jsm
 "
 )
 ;
+const
+{
+TranslationDocument
+}
+=
 ChromeUtils
 .
 import

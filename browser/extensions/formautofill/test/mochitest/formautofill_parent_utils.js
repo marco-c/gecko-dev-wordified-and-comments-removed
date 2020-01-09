@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+FormAutofillUtils
+}
+=
 ChromeUtils
 .
 import
@@ -39,6 +49,11 @@ jsm
 "
 )
 ;
+const
+{
+OSKeyStoreTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -78,8 +93,6 @@ FormAutofillStorage
 .
 jsm
 "
-{
-}
 )
 ;
 const

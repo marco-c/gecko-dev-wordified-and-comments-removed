@@ -20,8 +20,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -46,8 +44,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -72,8 +68,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -98,8 +92,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -124,8 +116,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 const

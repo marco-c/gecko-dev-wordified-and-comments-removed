@@ -3515,6 +3515,11 @@ root
 manifest
 )
 {
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

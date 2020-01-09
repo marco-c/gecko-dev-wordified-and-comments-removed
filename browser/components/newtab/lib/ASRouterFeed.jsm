@@ -24,8 +24,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -52,8 +50,6 @@ ASRouter
 .
 jsm
 "
-{
-}
 )
 ;
 class

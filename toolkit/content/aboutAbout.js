@@ -1,3 +1,8 @@
+const
+{
+AboutPagesUtils
+}
+=
 ChromeUtils
 .
 import

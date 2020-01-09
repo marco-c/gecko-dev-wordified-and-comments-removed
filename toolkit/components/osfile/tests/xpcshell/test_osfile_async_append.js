@@ -11,6 +11,11 @@ tests
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import

@@ -43,6 +43,11 @@ enabled
 "
 )
 ;
+var
+{
+ExtensionPreferencesManager
+}
+=
 ChromeUtils
 .
 import

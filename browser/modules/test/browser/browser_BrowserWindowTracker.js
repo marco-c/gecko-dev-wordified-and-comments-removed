@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+BrowserWindowTracker
+}
+=
 ChromeUtils
 .
 import
@@ -21,6 +26,11 @@ jsm
 "
 )
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import

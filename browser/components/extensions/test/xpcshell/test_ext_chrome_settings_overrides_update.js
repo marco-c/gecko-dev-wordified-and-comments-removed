@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+HomePage
+}
+=
 ChromeUtils
 .
 import

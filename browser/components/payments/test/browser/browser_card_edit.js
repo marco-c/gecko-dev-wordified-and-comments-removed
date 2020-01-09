@@ -264,8 +264,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -807,8 +805,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -1263,8 +1259,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -1625,8 +1619,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -1935,8 +1927,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 await
@@ -2080,8 +2070,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -3322,8 +3310,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -5476,8 +5462,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -6177,8 +6161,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -6341,8 +6323,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let

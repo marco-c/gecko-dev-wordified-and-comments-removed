@@ -20,8 +20,6 @@ httpd
 .
 js
 "
-{
-}
 )
 ;
 let

@@ -227,6 +227,11 @@ jsm
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -246,6 +251,11 @@ jsm
 "
 )
 ;
+const
+{
+PlacesUtils
+}
+=
 ChromeUtils
 .
 import

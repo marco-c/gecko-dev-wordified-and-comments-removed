@@ -12,6 +12,11 @@ LightweightThemeImageOptimizer
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

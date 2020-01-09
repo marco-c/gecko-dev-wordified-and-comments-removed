@@ -10,6 +10,11 @@ GetClipboardSearchString
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -29,6 +34,11 @@ jsm
 "
 )
 ;
+const
+{
+Rect
+}
+=
 ChromeUtils
 .
 import
@@ -48,6 +58,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -950,8 +965,6 @@ FinderHighlighter
 .
 jsm
 "
-{
-}
 )
 ;
 return

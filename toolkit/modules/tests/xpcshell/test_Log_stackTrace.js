@@ -75,6 +75,11 @@ works
 "
 )
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import

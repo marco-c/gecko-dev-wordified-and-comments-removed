@@ -52,6 +52,11 @@ bookkeeping
 profileCreationTime
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -71,6 +76,11 @@ jsm
 "
 )
 ;
+const
+{
+LaterRun
+}
+=
 ChromeUtils
 .
 import
@@ -99,6 +109,11 @@ kEnabledPref
 true
 )
 ;
+const
+{
+updateAppInfo
+}
+=
 ChromeUtils
 .
 import

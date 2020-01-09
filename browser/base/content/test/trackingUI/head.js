@@ -20,8 +20,6 @@ UrlClassifierTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 function

@@ -1344,8 +1344,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 await
@@ -1523,8 +1521,6 @@ ContentTaskUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let

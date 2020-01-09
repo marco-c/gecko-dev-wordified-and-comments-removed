@@ -27,8 +27,6 @@ Utils
 .
 jsm
 "
-{
-}
 )
 ;
 const

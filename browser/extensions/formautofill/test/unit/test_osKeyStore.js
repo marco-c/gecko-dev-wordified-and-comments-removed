@@ -52,8 +52,6 @@ OSKeyStore
 .
 jsm
 "
-{
-}
 )
 )
 ;

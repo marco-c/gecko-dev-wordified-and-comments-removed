@@ -218,6 +218,11 @@ javascript
 [
 CDATA
 [
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

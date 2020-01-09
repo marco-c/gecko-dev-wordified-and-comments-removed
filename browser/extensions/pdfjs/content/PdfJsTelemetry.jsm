@@ -12,6 +12,11 @@ PdfJsTelemetry
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

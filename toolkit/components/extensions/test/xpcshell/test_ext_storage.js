@@ -626,8 +626,7 @@ ExtensionStorageSync
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

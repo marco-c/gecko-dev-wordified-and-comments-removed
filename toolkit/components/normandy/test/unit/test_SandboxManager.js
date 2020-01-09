@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+SandboxManager
+}
+=
 ChromeUtils
 .
 import

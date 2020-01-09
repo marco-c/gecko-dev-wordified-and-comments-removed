@@ -1,3 +1,8 @@
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -39,8 +44,6 @@ TelemetryUtils
 .
 jsm
 "
-{
-}
 )
 ;
 function

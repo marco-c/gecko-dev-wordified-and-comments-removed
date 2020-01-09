@@ -1,3 +1,8 @@
+const
+{
+ProfileAge
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -36,6 +46,11 @@ jsm
 "
 )
 ;
+const
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import

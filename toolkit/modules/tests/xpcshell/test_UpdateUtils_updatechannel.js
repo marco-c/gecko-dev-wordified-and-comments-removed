@@ -1,3 +1,8 @@
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+UpdateUtils
+}
+=
 ChromeUtils
 .
 import

@@ -1,3 +1,8 @@
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -40,8 +45,6 @@ L10nRegistry
 .
 jsm
 "
-{
-}
 )
 ;
 const

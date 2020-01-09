@@ -51,6 +51,11 @@ function
 aService
 )
 {
+const
+{
+RokuApp
+}
+=
 ChromeUtils
 .
 import
@@ -121,6 +126,11 @@ function
 aService
 )
 {
+const
+{
+MediaPlayerApp
+}
+=
 ChromeUtils
 .
 import

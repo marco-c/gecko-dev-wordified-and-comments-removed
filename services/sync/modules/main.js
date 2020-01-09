@@ -7,6 +7,11 @@ Weave
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -235,8 +240,6 @@ WeaveCrypto
 .
 js
 "
-{
-}
 )
 ;
 return

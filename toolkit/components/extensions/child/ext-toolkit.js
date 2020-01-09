@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+var
+{
+ExtensionCommon
+}
+=
 ChromeUtils
 .
 import

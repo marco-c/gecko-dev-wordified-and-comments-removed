@@ -34,8 +34,6 @@ UrlClassifierTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const

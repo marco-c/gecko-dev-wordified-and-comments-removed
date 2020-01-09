@@ -12,6 +12,11 @@ NativeApp
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -53,8 +58,6 @@ EventEmitter
 .
 jsm
 "
-{
-}
 )
 ;
 XPCOMUtils

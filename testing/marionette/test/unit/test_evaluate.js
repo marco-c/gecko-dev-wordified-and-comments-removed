@@ -21,8 +21,6 @@ element
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -47,8 +45,6 @@ evaluate
 .
 js
 "
-{
-}
 )
 ;
 const

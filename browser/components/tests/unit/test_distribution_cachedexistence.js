@@ -42,6 +42,11 @@ do_get_cwd
 (
 )
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -111,8 +116,6 @@ distribution
 .
 js
 "
-{
-}
 )
 ;
 let

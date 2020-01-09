@@ -31,6 +31,11 @@ tempScope
 .
 LightweightThemeManager
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import

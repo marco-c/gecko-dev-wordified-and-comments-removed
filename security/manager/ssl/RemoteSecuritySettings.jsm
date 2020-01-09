@@ -27,10 +27,13 @@ settings
 .
 js
 "
-{
-}
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -50,6 +53,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

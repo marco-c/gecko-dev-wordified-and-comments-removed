@@ -652,8 +652,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -678,8 +676,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -704,8 +700,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 ;
 function
@@ -1035,8 +1029,6 @@ ToolboxProcess
 .
 jsm
 "
-{
-}
 )
 ;
 let

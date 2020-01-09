@@ -1,3 +1,8 @@
+var
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -4408,8 +4418,6 @@ MigrationUtils
 .
 jsm
 "
-{
-}
 )
 ;
 MigrationUtils

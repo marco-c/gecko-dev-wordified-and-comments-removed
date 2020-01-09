@@ -207,6 +207,11 @@ waitForExplicitFinish
 (
 )
 ;
+const
+{
+CertUtils
+}
+=
 ChromeUtils
 .
 import

@@ -1,3 +1,8 @@
+const
+{
+httpRequest
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import

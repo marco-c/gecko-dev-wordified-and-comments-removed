@@ -1,3 +1,8 @@
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -257,6 +262,11 @@ addResourceAlias
 (
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

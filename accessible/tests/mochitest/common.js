@@ -389,6 +389,11 @@ MAX_TRIM_LENGTH
 =
 100
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

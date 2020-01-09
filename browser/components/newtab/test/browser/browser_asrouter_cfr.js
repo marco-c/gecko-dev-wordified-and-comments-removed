@@ -22,8 +22,6 @@ CFRPageActions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -50,8 +48,6 @@ ASRouterTriggerListeners
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -78,8 +74,6 @@ ASRouter
 .
 jsm
 "
-{
-}
 )
 ;
 function

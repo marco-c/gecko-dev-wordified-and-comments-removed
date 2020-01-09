@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -41,6 +51,11 @@ jsm
 "
 )
 ;
+const
+{
+NewTabUtils
+}
+=
 ChromeUtils
 .
 import
@@ -101,8 +116,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -129,8 +142,6 @@ ActivityStreamPrefs
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -157,8 +168,6 @@ ShortURL
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -185,8 +194,6 @@ SectionsManager
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -213,8 +220,6 @@ UserDomainAffinityProvider
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -241,8 +246,6 @@ PersonalityProvider
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -269,8 +272,6 @@ PersistentCache
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

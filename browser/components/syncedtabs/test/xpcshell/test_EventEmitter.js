@@ -26,8 +26,6 @@ EventEmitter
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

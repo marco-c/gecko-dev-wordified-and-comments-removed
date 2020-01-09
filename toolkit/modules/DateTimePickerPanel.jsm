@@ -12,6 +12,11 @@ DateTimePickerPanel
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

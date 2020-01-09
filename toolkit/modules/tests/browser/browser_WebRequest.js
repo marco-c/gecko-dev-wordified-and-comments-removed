@@ -25,8 +25,6 @@ WebRequest
 .
 jsm
 "
-{
-}
 )
 ;
 const

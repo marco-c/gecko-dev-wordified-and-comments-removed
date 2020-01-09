@@ -8875,6 +8875,11 @@ kTeststr_version
 ]
 ]
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import
@@ -8915,8 +8920,7 @@ LanguageDetector
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

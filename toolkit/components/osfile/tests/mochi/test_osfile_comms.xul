@@ -235,6 +235,7 @@ ctypes
 .
 jsm
 "
+window
 )
 ;
 ChromeUtils
@@ -254,6 +255,7 @@ osfile
 .
 jsm
 "
+window
 )
 ;
 worker

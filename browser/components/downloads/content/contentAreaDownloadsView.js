@@ -1,3 +1,8 @@
+const
+{
+PrivateBrowsingUtils
+}
+=
 ChromeUtils
 .
 import

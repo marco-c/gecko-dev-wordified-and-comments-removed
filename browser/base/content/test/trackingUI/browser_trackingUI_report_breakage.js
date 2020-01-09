@@ -157,8 +157,6 @@ httpd
 .
 js
 "
-{
-}
 )
 ;
 let
@@ -183,8 +181,6 @@ utils
 .
 js
 "
-{
-}
 )
 ;
 let
@@ -209,8 +205,6 @@ Preferences
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

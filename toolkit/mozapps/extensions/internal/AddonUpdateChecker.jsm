@@ -40,6 +40,11 @@ update
 requireBuiltInCerts
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -224,6 +229,11 @@ jsm
 "
 )
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import

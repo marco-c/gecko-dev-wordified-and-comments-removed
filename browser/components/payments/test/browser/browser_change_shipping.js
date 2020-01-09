@@ -592,8 +592,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 is

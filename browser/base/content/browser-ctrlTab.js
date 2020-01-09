@@ -29,8 +29,6 @@ PageThumbUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let

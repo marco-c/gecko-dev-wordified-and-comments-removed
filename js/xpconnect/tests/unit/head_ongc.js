@@ -1,3 +1,8 @@
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,12 @@ jsm
 "
 )
 ;
+var
+{
+addDebuggerToGlobal
+addSandboxedDebuggerToGlobal
+}
+=
 ChromeUtils
 .
 import

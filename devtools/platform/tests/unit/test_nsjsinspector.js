@@ -35,8 +35,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 var

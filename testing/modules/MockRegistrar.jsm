@@ -19,6 +19,11 @@ Components
 .
 manager
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import

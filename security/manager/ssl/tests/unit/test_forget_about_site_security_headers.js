@@ -25,8 +25,6 @@ ForgetAboutSite
 .
 jsm
 "
-{
-}
 )
 ;
 registerCleanupFunction

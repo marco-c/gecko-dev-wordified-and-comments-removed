@@ -12,6 +12,11 @@ ZoomChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

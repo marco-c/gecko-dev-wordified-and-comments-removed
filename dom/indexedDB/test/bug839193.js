@@ -5,6 +5,11 @@ Ci
 .
 nsIQuotaManagerService
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

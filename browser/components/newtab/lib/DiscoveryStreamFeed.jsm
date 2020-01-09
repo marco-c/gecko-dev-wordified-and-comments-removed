@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -34,6 +39,11 @@ fetch
 ]
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -82,8 +92,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -110,8 +118,6 @@ PersistentCache
 .
 jsm
 "
-{
-}
 )
 ;
 const

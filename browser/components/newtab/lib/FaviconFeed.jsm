@@ -29,8 +29,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -57,8 +55,6 @@ TippyTopProvider
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -85,8 +81,6 @@ settings
 .
 js
 "
-{
-}
 )
 ;
 ChromeUtils

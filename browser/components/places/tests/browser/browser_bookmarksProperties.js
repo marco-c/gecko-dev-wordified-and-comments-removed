@@ -137,6 +137,11 @@ bookmarkProperties2
 xul
 "
 ;
+const
+{
+BrowserWindowTracker
+}
+=
 ChromeUtils
 .
 import

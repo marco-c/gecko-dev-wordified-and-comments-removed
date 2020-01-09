@@ -542,8 +542,14 @@ Timer
 .
 jsm
 "
+global
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

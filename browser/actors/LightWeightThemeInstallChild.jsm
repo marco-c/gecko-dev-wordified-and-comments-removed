@@ -7,6 +7,11 @@ LightWeightThemeInstallChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

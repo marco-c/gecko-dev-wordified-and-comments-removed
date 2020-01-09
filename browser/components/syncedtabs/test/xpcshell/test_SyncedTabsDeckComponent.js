@@ -25,8 +25,6 @@ SyncedTabs
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -52,8 +50,6 @@ SyncedTabsDeckComponent
 .
 js
 "
-{
-}
 )
 ;
 let
@@ -79,8 +75,6 @@ TabListComponent
 .
 js
 "
-{
-}
 )
 ;
 let
@@ -106,8 +100,6 @@ SyncedTabsListStore
 .
 js
 "
-{
-}
 )
 ;
 let
@@ -133,8 +125,6 @@ SyncedTabsDeckStore
 .
 js
 "
-{
-}
 )
 ;
 let
@@ -160,8 +150,6 @@ TabListView
 .
 js
 "
-{
-}
 )
 ;
 add_task

@@ -12,6 +12,11 @@ DownloadsViewUI
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

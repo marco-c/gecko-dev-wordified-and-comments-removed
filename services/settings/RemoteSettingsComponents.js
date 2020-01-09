@@ -12,6 +12,11 @@ RemoteSettingsTimer
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

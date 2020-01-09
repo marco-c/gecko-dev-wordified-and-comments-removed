@@ -21,8 +21,6 @@ format
 .
 js
 "
-{
-}
 )
 ;
 const

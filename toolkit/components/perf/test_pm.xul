@@ -199,6 +199,11 @@ waitForExplicitFinish
 (
 )
 ;
+const
+{
+PerfMeasurement
+}
+=
 ChromeUtils
 .
 import

@@ -1,3 +1,8 @@
+var
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -7601,6 +7606,11 @@ acceptAppMenuNotificationWhenShown
 id
 )
 {
+const
+{
+AppMenuNotifications
+}
+=
 ChromeUtils
 .
 import

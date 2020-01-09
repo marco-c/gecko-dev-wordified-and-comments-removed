@@ -7,6 +7,11 @@ RemoteWebProgressManager
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -12,6 +12,11 @@ SiteDataTestUtils
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -50,6 +60,11 @@ jsm
 "
 )
 ;
+const
+{
+ContentTask
+}
+=
 ChromeUtils
 .
 import
@@ -69,6 +84,11 @@ jsm
 "
 )
 ;
+const
+{
+BrowserTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -109,8 +129,6 @@ Sanitizer
 .
 jsm
 "
-{
-}
 )
 ;
 XPCOMUtils

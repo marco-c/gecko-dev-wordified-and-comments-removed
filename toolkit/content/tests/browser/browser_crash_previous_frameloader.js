@@ -288,6 +288,11 @@ function
 (
 )
 {
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

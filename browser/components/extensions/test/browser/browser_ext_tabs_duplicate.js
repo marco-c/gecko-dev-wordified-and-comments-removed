@@ -708,8 +708,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

@@ -25,10 +25,13 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
+var
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -88,7 +91,7 @@ devtools
 "
 )
 ;
-const
+var
 Services
 =
 require

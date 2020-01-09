@@ -6,9 +6,6 @@ strict
 var
 SharedAll
 ;
-var
-Primitives
-;
 if
 (
 typeof
@@ -47,6 +44,11 @@ jsm
 SharedAll
 )
 ;
+var
+{
+Primitives
+}
+=
 ChromeUtils
 .
 import
@@ -66,6 +68,11 @@ js
 "
 )
 ;
+var
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import
@@ -163,6 +170,12 @@ lz4_internal
 js
 "
 )
+;
+ctypes
+=
+self
+.
+ctypes
 ;
 }
 else

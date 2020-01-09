@@ -51,6 +51,11 @@ name
 ]
 ;
 }
+const
+{
+BrowserTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -70,6 +75,11 @@ jsm
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

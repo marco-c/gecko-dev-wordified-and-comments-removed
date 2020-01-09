@@ -12,6 +12,11 @@ ChildMessagePort
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+MessagePort
+}
+=
 ChromeUtils
 .
 import

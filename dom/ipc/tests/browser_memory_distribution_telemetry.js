@@ -23,8 +23,7 @@ TelemetrySession
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

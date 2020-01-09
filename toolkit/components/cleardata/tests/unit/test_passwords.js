@@ -16,6 +16,11 @@ example
 com
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -35,6 +40,11 @@ jsm
 "
 )
 ;
+const
+{
+LoginTestUtils
+}
+=
 ChromeUtils
 .
 import

@@ -25,8 +25,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -56,8 +54,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 var
@@ -86,8 +82,6 @@ raw
 .
 jsm
 "
-{
-}
 )
 ;
 this

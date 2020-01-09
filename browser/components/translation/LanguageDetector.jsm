@@ -12,6 +12,12 @@ LanguageDetector
 "
 ]
 ;
+const
+{
+clearTimeout
+setTimeout
+}
+=
 ChromeUtils
 .
 import

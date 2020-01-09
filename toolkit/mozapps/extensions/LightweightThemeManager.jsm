@@ -12,6 +12,11 @@ LightweightThemeManager
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,12 @@ jsm
 "
 )
 ;
+const
+{
+AddonManager
+AddonManagerPrivate
+}
+=
 ChromeUtils
 .
 import
@@ -50,6 +61,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

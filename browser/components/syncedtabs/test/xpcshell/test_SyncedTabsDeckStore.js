@@ -26,8 +26,6 @@ SyncedTabsDeckStore
 .
 js
 "
-{
-}
 )
 ;
 add_task

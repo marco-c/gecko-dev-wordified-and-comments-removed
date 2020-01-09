@@ -12,6 +12,11 @@ SearchWidgetTracker
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

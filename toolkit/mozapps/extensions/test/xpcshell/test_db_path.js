@@ -1,3 +1,8 @@
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -39,8 +44,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 let

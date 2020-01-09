@@ -4,6 +4,11 @@ strict
 "
 ;
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

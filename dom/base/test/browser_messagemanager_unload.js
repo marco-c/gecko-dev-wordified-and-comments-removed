@@ -3,6 +3,11 @@ frameScript
 (
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

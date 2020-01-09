@@ -37,6 +37,11 @@ a42a
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

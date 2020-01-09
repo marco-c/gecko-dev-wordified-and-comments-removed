@@ -1062,6 +1062,11 @@ resolve
 )
 ;
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

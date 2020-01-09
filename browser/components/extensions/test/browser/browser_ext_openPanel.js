@@ -33,8 +33,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 async

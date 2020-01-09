@@ -25,8 +25,6 @@ ObjectUtils
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -51,8 +49,6 @@ PromiseTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

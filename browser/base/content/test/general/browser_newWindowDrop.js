@@ -142,8 +142,6 @@ CustomizableUI
 .
 jsm
 "
-{
-}
 )
 ;
 let

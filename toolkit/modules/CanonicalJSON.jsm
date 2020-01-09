@@ -57,8 +57,6 @@ jsesc
 .
 js
 "
-{
-}
 )
 ;
 jsescFn

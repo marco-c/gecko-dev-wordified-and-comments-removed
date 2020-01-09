@@ -1,3 +1,8 @@
+var
+{
+ContextualIdentityService
+}
+=
 ChromeUtils
 .
 import

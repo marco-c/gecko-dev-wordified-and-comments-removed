@@ -7,6 +7,11 @@ PermissionsUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

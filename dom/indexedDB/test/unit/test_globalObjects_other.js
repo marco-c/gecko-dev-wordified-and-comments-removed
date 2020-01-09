@@ -43,6 +43,11 @@ uri
 spec
 ;
 }
+const
+{
+GlobalObjectsModule
+}
+=
 ChromeUtils
 .
 import

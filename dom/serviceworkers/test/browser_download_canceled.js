@@ -39,8 +39,6 @@ Downloads
 .
 jsm
 "
-{
-}
 )
 ;
 async

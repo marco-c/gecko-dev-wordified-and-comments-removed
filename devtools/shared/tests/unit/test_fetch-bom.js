@@ -32,8 +32,6 @@ httpd
 .
 js
 "
-{
-}
 )
 ;
 const

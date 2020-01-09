@@ -20,8 +20,6 @@ WebChannel
 .
 jsm
 "
-{
-}
 )
 ;
 const

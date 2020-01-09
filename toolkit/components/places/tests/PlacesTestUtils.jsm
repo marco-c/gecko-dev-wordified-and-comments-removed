@@ -12,6 +12,11 @@ PlacesTestUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

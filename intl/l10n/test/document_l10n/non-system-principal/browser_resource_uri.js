@@ -21,8 +21,6 @@ L10nRegistry
 .
 jsm
 "
-{
-}
 )
 ;
 let

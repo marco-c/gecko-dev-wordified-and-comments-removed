@@ -138,6 +138,11 @@ script
 [
 CDATA
 [
+const
+{
+ContentTask
+}
+=
 ChromeUtils
 .
 import
@@ -225,6 +230,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

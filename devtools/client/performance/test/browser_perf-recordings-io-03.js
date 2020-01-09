@@ -25,8 +25,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -51,8 +49,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 var

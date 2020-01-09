@@ -43,8 +43,7 @@ CustomizableUI
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

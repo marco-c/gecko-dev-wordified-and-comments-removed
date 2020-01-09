@@ -12,6 +12,11 @@ FindBarContent
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

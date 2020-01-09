@@ -1,3 +1,8 @@
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -43,6 +48,9 @@ jsm
 var
 sessionCheckpointsPath
 ;
+var
+CrashMonitor
+;
 function
 run_test
 (
@@ -74,6 +82,11 @@ json
 "
 )
 ;
+(
+{
+CrashMonitor
+}
+=
 ChromeUtils
 .
 import
@@ -91,6 +104,7 @@ CrashMonitor
 .
 jsm
 "
+)
 )
 ;
 run_next_test

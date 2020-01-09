@@ -113,6 +113,11 @@ clearHistoryOnShutdown
 /
 "
 ;
+const
+{
+Sanitizer
+}
+=
 ChromeUtils
 .
 import

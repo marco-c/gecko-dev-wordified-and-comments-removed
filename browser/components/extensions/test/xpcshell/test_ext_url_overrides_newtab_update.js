@@ -29,6 +29,11 @@ nsIAboutNewTabService
 "
 )
 ;
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import

@@ -31,8 +31,6 @@ PromiseTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 PromiseTestUtils

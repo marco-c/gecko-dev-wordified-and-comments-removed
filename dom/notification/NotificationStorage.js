@@ -35,6 +35,11 @@ n
 )
 ;
 }
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

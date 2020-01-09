@@ -5,6 +5,11 @@ Components
 .
 Constructor
 ;
+const
+{
+PlacesUtils
+}
+=
 ChromeUtils
 .
 import

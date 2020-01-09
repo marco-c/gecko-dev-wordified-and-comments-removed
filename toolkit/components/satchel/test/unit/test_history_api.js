@@ -6,6 +6,11 @@ testnum
 var
 dbConnection
 ;
+const
+{
+Promise
+}
+=
 ChromeUtils
 .
 import

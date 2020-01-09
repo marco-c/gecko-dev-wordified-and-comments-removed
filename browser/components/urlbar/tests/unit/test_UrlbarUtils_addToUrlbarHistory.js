@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+PrivateBrowsingUtils
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+PlacesUIUtils
+}
+=
 ChromeUtils
 .
 import

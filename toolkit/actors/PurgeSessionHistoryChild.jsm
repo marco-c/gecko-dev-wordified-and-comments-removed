@@ -12,6 +12,11 @@ PurgeSessionHistoryChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

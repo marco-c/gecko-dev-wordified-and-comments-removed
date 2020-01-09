@@ -10,6 +10,11 @@ Components
 .
 manager
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

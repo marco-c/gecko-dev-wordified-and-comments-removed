@@ -1,3 +1,8 @@
+const
+{
+AddonValidator
+}
+=
 ChromeUtils
 .
 import

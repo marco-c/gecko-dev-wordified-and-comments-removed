@@ -286,8 +286,6 @@ distribution
 .
 js
 "
-{
-}
 )
 ;
 let

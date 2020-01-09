@@ -12,6 +12,11 @@ Accounts
 "
 ]
 ;
+const
+{
+EventDispatcher
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

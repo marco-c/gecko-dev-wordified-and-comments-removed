@@ -1,3 +1,8 @@
+var
+{
+BrowserWindowTracker
+}
+=
 ChromeUtils
 .
 import

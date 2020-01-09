@@ -12,6 +12,11 @@ Toolbars
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

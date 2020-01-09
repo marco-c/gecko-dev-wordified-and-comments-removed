@@ -66,8 +66,6 @@ TabStateFlusher
 .
 jsm
 "
-{
-}
 )
 ;
 requestLongerTimeout

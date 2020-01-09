@@ -20,8 +20,6 @@ AddonTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const

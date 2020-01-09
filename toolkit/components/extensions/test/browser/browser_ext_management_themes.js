@@ -25,8 +25,6 @@ LightweightThemeManager
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -51,7 +49,6 @@ PromiseTestUtils
 .
 jsm
 "
-null
 )
 ;
 PromiseTestUtils

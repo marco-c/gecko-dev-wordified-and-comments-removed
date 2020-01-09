@@ -1,3 +1,8 @@
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

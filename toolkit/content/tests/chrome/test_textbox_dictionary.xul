@@ -362,6 +362,9 @@ button
 )
 ;
 }
+var
+onSpellCheck
+;
 function
 startTests
 (
@@ -388,6 +391,11 @@ testNum
 =
 0
 ;
+(
+{
+onSpellCheck
+}
+=
 ChromeUtils
 .
 import
@@ -405,6 +413,7 @@ AsyncSpellCheckTestHelper
 .
 jsm
 "
+)
 )
 ;
 onSpellCheck

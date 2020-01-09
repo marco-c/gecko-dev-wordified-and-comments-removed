@@ -34,8 +34,6 @@ Policies
 .
 jsm
 "
-{
-}
 )
 ;
 let

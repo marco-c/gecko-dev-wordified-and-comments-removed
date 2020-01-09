@@ -3,6 +3,13 @@ use
 strict
 "
 ;
+const
+{
+ON_PROFILE_CHANGE_NOTIFICATION
+WEBCHANNEL_ID
+log
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +29,11 @@ js
 "
 )
 ;
+const
+{
+CryptoUtils
+}
+=
 ChromeUtils
 .
 import
@@ -64,8 +76,7 @@ FxAccountsWebChannel
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

@@ -217,8 +217,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -418,8 +416,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -795,8 +791,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -1209,8 +1203,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -1728,8 +1720,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -2041,8 +2031,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -2437,8 +2425,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 await
@@ -2932,8 +2918,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -3314,10 +3298,13 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
+const
+{
+FormAutofillUtils
+}
+=
 ChromeUtils
 .
 import
@@ -3615,10 +3602,13 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
+const
+{
+FormAutofillUtils
+}
+=
 ChromeUtils
 .
 import
@@ -4127,8 +4117,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -4417,8 +4405,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -5149,8 +5135,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let

@@ -3,6 +3,11 @@ run_test
 (
 )
 {
+const
+{
+addDebuggerToGlobal
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

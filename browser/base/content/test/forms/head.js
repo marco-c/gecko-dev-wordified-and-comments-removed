@@ -57,8 +57,7 @@ SelectChild
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return

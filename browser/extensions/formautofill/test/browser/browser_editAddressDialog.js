@@ -23,8 +23,6 @@ FormAutofillUtils
 .
 jsm
 "
-{
-}
 )
 ;
 requestLongerTimeout

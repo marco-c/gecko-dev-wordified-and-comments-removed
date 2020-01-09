@@ -669,8 +669,7 @@ ExtensionContent
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+AddonManager
+}
+=
 ChromeUtils
 .
 import
@@ -22,6 +27,11 @@ jsm
 "
 )
 ;
+const
+{
+FileUtils
+}
+=
 ChromeUtils
 .
 import
@@ -63,8 +73,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 this

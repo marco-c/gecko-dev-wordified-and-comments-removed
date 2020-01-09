@@ -25,8 +25,6 @@ AddonTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -51,8 +49,6 @@ ExtensionParent
 .
 jsm
 "
-{
-}
 )
 ;
 function

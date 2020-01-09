@@ -25,8 +25,6 @@ ExtensionXPCShellUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const

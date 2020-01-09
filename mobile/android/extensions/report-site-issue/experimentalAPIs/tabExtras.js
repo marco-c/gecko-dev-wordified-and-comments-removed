@@ -84,6 +84,11 @@ getInfoFrameScript
 messageName
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -597,8 +602,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return

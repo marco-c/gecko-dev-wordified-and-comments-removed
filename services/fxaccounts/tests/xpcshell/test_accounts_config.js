@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+FxAccounts
+}
+=
 ChromeUtils
 .
 import

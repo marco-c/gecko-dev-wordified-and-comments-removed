@@ -1026,8 +1026,6 @@ AutoCompletePopup
 .
 jsm
 "
-{
-}
 )
 ;
 AutoCompletePopup
@@ -2087,8 +2085,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 /
@@ -2734,8 +2730,6 @@ AutoCompletePopup
 .
 jsm
 "
-{
-}
 )
 ;
 AutoCompletePopup

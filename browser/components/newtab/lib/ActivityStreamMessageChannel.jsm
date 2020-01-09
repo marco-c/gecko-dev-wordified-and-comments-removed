@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+AboutNewTab
+}
+=
 ChromeUtils
 .
 import
@@ -21,6 +26,11 @@ jsm
 "
 )
 ;
+const
+{
+RemotePages
+}
+=
 ChromeUtils
 .
 import
@@ -74,8 +84,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const

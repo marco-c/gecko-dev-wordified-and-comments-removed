@@ -32,8 +32,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -56,8 +54,6 @@ Match
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -80,8 +76,6 @@ Census
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -106,8 +100,6 @@ jsdebugger
 .
 jsm
 "
-{
-}
 )
 ;
 const

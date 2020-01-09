@@ -63,6 +63,11 @@ manageCreditCards
 xhtml
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -82,6 +87,11 @@ jsm
 "
 )
 ;
+const
+{
+FormAutofill
+}
+=
 ChromeUtils
 .
 import
@@ -99,6 +109,11 @@ jsm
 "
 )
 ;
+const
+{
+FormAutofillUtils
+}
+=
 ChromeUtils
 .
 import

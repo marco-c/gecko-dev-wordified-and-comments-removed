@@ -108,8 +108,6 @@ TestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let

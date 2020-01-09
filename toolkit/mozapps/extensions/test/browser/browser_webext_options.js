@@ -408,8 +408,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return

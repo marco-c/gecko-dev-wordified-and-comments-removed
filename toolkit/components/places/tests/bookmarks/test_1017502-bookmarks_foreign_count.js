@@ -471,6 +471,11 @@ T_URI
 10
 )
 ;
+const
+{
+PlacesDBUtils
+}
+=
 ChromeUtils
 .
 import

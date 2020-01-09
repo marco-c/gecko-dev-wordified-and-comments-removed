@@ -80,8 +80,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -106,8 +104,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -135,8 +131,6 @@ ospath_unix
 .
 jsm
 "
-{
-}
 )
 ;
 XPCOMUtils

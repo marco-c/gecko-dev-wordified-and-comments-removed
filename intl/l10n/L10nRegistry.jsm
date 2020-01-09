@@ -20,8 +20,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -46,8 +44,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -100,10 +96,13 @@ Fluent
 .
 jsm
 "
-{
-}
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

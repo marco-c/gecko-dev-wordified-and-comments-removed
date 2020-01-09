@@ -1,3 +1,8 @@
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -178,6 +188,11 @@ ensureLoaded
 (
 )
 {
+const
+{
+Weave
+}
+=
 ChromeUtils
 .
 import
@@ -339,6 +354,11 @@ this
 enabled
 )
 {
+var
+{
+Weave
+}
+=
 ChromeUtils
 .
 import

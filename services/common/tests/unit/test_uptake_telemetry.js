@@ -22,8 +22,6 @@ telemetry
 .
 js
 "
-{
-}
 )
 ;
 add_task

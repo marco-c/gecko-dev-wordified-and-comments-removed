@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -53,6 +58,11 @@ ExtensionError
 =
 ExtensionUtils
 ;
+var
+{
+ExtensionParent
+}
+=
 ChromeUtils
 .
 import

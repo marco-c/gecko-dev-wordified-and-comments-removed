@@ -12,6 +12,11 @@ TelemetryTestUtils
 "
 ]
 ;
+const
+{
+Assert
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

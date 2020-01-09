@@ -4,6 +4,11 @@ strict
 "
 ;
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -5372,8 +5377,6 @@ PromiseUtils
 .
 jsm
 "
-{
-}
 )
 ;
 this

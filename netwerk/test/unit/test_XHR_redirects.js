@@ -1,3 +1,8 @@
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ js
 "
 )
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import

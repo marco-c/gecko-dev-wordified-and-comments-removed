@@ -25,8 +25,6 @@ ManifestFinder
 .
 jsm
 "
-{
-}
 )
 ;
 const

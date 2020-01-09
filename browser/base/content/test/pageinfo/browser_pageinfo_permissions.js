@@ -1,3 +1,8 @@
+const
+{
+SitePermissions
+}
+=
 ChromeUtils
 .
 import

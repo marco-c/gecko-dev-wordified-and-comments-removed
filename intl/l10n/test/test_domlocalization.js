@@ -20,8 +20,6 @@ DOMLocalization
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

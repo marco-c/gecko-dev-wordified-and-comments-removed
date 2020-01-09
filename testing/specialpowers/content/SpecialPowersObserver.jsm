@@ -12,6 +12,11 @@ SpecialPowersObserver
 "
 ]
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

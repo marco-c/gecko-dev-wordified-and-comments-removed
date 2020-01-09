@@ -7,6 +7,11 @@ RecentlyClosedTabsAndWindowsMenuUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -72,6 +72,11 @@ jsm
 "
 )
 ;
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import

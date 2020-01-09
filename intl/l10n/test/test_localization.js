@@ -20,8 +20,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -46,8 +44,6 @@ Localization
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -72,8 +68,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 add_task
@@ -156,8 +150,6 @@ L10nRegistry
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -445,8 +437,6 @@ L10nRegistry
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -746,8 +736,6 @@ L10nRegistry
 .
 jsm
 "
-{
-}
 )
 ;
 const

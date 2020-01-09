@@ -12,6 +12,11 @@ PR_UINT32_MAX
 =
 0xffffffff
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

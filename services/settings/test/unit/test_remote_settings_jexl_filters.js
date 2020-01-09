@@ -1,3 +1,8 @@
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -41,8 +46,6 @@ settings
 .
 js
 "
-{
-}
 )
 ;
 let

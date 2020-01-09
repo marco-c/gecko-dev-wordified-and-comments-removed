@@ -200,8 +200,6 @@ AsyncPrefs
 .
 jsm
 "
-{
-}
 )
 ;
 const

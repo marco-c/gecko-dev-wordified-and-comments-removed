@@ -20,8 +20,6 @@ ContentTaskUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const

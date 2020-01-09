@@ -25,8 +25,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -51,8 +49,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const

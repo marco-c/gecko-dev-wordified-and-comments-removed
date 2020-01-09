@@ -433,8 +433,6 @@ UrlClassifierTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 requestLongerTimeout

@@ -903,8 +903,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

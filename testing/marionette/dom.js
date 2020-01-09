@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -44,8 +49,6 @@ log
 .
 js
 "
-{
-}
 )
 ;
 XPCOMUtils

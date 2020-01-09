@@ -25,8 +25,6 @@ ManifestObtainer
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -51,8 +49,6 @@ ManifestIcons
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

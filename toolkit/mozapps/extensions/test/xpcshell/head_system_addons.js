@@ -260,8 +260,6 @@ XPIProvider
 .
 jsm
 "
-{
-}
 )
 ;
 await

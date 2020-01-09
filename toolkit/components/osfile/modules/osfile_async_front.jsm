@@ -321,8 +321,7 @@ osfile_native
 .
 jsm
 "
-{
-}
+null
 )
 ;
 function
@@ -3917,8 +3916,6 @@ Deprecated
 .
 jsm
 "
-{
-}
 )
 ;
 Deprecated

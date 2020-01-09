@@ -7,6 +7,11 @@ SafeBrowsing
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

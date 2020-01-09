@@ -234,8 +234,7 @@ TelemetryReportingPolicy
 .
 jsm
 "
-{
-}
+null
 )
 ;
 reportingPolicy

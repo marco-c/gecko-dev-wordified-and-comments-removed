@@ -1,3 +1,8 @@
+var
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -217,6 +222,11 @@ button
 )
 ;
 }
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
