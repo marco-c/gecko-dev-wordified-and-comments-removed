@@ -42,6 +42,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 test

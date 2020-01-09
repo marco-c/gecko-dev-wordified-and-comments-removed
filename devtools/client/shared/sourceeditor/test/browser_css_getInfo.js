@@ -13,6 +13,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 css

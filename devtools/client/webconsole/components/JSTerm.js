@@ -188,6 +188,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 editor

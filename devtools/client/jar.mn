@@ -250,6 +250,8 @@ xhtml
 )
 content
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -262,6 +264,8 @@ dialog
 .
 css
 (
+shared
+/
 sourceeditor
 /
 codemirror
@@ -275,6 +279,8 @@ dialog
 css
 )
 content
+/
+shared
 /
 sourceeditor
 /
@@ -290,6 +296,8 @@ hint
 .
 js
 (
+shared
+/
 sourceeditor
 /
 codemirror
@@ -306,6 +314,8 @@ js
 )
 content
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -318,6 +328,8 @@ tern
 .
 js
 (
+shared
+/
 sourceeditor
 /
 codemirror
@@ -332,6 +344,8 @@ js
 )
 content
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -342,6 +356,8 @@ bundle
 .
 js
 (
+shared
+/
 sourceeditor
 /
 codemirror
@@ -353,6 +369,8 @@ bundle
 js
 )
 content
+/
+shared
 /
 sourceeditor
 /
@@ -364,6 +382,8 @@ codemirror
 .
 css
 (
+shared
+/
 sourceeditor
 /
 codemirror
@@ -376,6 +396,8 @@ css
 )
 content
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -384,6 +406,8 @@ mozilla
 .
 css
 (
+shared
+/
 sourceeditor
 /
 codemirror
@@ -393,6 +417,8 @@ mozilla
 css
 )
 content
+/
+shared
 /
 sourceeditor
 /
@@ -402,6 +428,8 @@ cmiframe
 .
 html
 (
+shared
+/
 sourceeditor
 /
 codemirror

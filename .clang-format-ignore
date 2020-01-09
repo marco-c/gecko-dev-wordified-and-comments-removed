@@ -506,6 +506,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -515,6 +517,8 @@ codemirror
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /

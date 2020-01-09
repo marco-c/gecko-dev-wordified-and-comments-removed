@@ -1253,6 +1253,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -1264,6 +1266,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -1277,6 +1281,8 @@ js
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /
@@ -1286,6 +1292,8 @@ tern
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /
@@ -1297,6 +1305,8 @@ js
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /

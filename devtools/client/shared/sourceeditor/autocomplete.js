@@ -54,6 +54,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 css
@@ -75,6 +77,8 @@ devtools
 /
 content
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -95,6 +99,8 @@ chrome
 devtools
 /
 content
+/
+shared
 /
 sourceeditor
 /

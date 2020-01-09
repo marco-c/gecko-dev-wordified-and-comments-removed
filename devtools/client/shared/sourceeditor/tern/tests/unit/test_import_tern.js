@@ -13,6 +13,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 tern
@@ -30,6 +32,8 @@ require
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /
@@ -48,6 +52,8 @@ require
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /

@@ -106,6 +106,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 >
 npm
@@ -324,6 +326,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 test
@@ -354,6 +358,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -370,6 +376,8 @@ b
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /
@@ -391,6 +399,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -410,6 +420,8 @@ b
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /
@@ -2294,6 +2306,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -2308,6 +2322,8 @@ b
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /
@@ -2327,6 +2343,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -2344,6 +2362,8 @@ b
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /
@@ -2476,6 +2496,8 @@ devtools
 /
 client
 /
+shared
+/
 sourceeditor
 /
 codemirror
@@ -2485,6 +2507,8 @@ codemirror
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /
@@ -2509,6 +2533,8 @@ mn
 devtools
 /
 client
+/
+shared
 /
 sourceeditor
 /
