@@ -1797,12 +1797,10 @@ args
     
 if
 not
-hasattr
+isinstance
 (
 args
-'
-iteritems
-'
+dict
 )
 :
         
