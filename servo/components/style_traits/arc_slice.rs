@@ -69,10 +69,10 @@ C
 [
 derive
 (
-Debug
 Clone
-PartialEq
+Debug
 Eq
+PartialEq
 ToShmem
 )
 ]
