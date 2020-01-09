@@ -11378,6 +11378,13 @@ gotoHistoryIndex
 aEvent
 )
 {
+aEvent
+=
+getRootEvent
+(
+aEvent
+)
+;
 let
 index
 =
@@ -11695,6 +11702,13 @@ BrowserReloadOrDuplicate
 aEvent
 )
 {
+aEvent
+=
+getRootEvent
+(
+aEvent
+)
+;
 let
 metaKeyPressed
 =

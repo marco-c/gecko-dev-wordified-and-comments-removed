@@ -6260,17 +6260,6 @@ contentPrincipal
 )
 ;
 }
-reload
-(
-event
-)
-{
-BrowserReloadOrDuplicate
-(
-event
-)
-;
-}
 viewPartialSource
 (
 )
