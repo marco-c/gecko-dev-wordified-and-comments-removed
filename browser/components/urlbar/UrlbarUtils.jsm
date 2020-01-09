@@ -1309,9 +1309,6 @@ allowAutofill
 isPrivate
 "
 "
-lastKey
-"
-"
 maxResults
 "
 "

@@ -2470,9 +2470,6 @@ startQuery
 allowAutofill
 =
 true
-lastKey
-=
-null
 searchString
 =
 null
@@ -2611,7 +2608,6 @@ isPrivate
 this
 .
 isPrivate
-lastKey
 maxResults
 :
 UrlbarPrefs
@@ -5686,9 +5682,6 @@ searchString
 :
 value
 allowAutofill
-lastKey
-:
-null
 resetSearchState
 :
 false
