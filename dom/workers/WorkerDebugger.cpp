@@ -516,7 +516,6 @@ workerinternals
 LoadMainScript
 (
 aWorkerPrivate
-nullptr
 mScriptURL
 DebuggerScript
 rv
@@ -1918,6 +1917,9 @@ exist
 ;
 WorkerErrorReport
 report
+(
+nullptr
+)
 ;
 report
 .
