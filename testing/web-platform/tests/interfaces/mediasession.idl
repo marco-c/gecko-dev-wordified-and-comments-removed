@@ -111,9 +111,7 @@ previoustrack
 nexttrack
 "
 "
-skip
--
-ad
+skipad
 "
 }
 ;
