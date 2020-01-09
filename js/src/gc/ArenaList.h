@@ -1175,13 +1175,6 @@ bool
 enabled
 )
 ;
-enum
-KeepArenasEnum
-{
-RELEASE_ARENAS
-KEEP_ARENAS
-}
-;
 private
 :
 inline
