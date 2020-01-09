@@ -228,9 +228,6 @@ T
 class
 Heap
 ;
-class
-ObjectPtr
-;
 }
 class
 nsRegion
@@ -2704,13 +2701,6 @@ mozilla
 :
 :
 SourceBufferTask
-)
-DECLARE_USE_COPY_CONSTRUCTORS
-(
-JS
-:
-:
-ObjectPtr
 )
 template
 <
