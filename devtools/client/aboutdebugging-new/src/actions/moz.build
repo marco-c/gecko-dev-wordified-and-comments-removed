@@ -73,6 +73,11 @@ runtimes
 js
 '
 '
+telemetry
+.
+js
+'
+'
 ui
 .
 js

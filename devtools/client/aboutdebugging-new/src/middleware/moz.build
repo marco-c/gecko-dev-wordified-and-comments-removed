@@ -72,6 +72,13 @@ logging
 js
 '
 '
+event
+-
+recording
+.
+js
+'
+'
 extension
 -
 component
