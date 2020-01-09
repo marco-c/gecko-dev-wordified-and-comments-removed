@@ -124,6 +124,16 @@ properties
 {
 if
 (
+property
+.
+type
+=
+=
+"
+Property
+"
+&
+&
 componentsBlacklist
 .
 includes
