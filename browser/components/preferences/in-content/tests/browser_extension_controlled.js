@@ -5816,6 +5816,11 @@ ExtensionTestUtils
 loadExtension
 (
 {
+incognitoOverride
+:
+"
+spanning
+"
 useAddonManager
 :
 "
