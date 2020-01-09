@@ -811,6 +811,9 @@ aContext
 Element
 *
 aFrameElement
+BrowsingContext
+*
+aBrowsingContext
 ContentParent
 *
 aOpenerContentParent

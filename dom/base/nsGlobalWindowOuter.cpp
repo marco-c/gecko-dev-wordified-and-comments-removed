@@ -11231,6 +11231,13 @@ mDocShell
 =
 nullptr
 ;
+mBrowsingContext
+-
+>
+ClearDocShell
+(
+)
+;
 if
 (
 mFrames
