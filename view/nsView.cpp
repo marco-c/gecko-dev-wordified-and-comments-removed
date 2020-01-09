@@ -1433,6 +1433,10 @@ IsVisible
 bool
 newVisibility
 =
+!
+invisiblePopup
+&
+&
 IsEffectivelyVisible
 (
 )
