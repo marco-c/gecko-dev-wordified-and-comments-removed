@@ -1752,7 +1752,7 @@ nsIPresShell
 ChangeOrigin
 :
 :
-eOther
+eMainThread
 )
 ;
 MVM_LOG

@@ -2973,8 +2973,7 @@ ChangeOrigin
 uint8_t
 {
 eApz
-eRestore
-eOther
+eMainThread
 }
 ;
 virtual
