@@ -54,6 +54,12 @@ Path3
 "
 }
 ]
+}
+;
+let
+installData
+=
+{
 installs
 :
 {
@@ -139,6 +145,11 @@ true
 writeProfilesIni
 (
 profileData
+)
+;
+writeInstallsIni
+(
+installData
 )
 ;
 let
