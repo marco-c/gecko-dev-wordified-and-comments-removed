@@ -2118,10 +2118,6 @@ declare_intern_profile_counters
 name
 :
 ident
-:
-ty
-:
-ty
 )
 +
 )
@@ -2593,7 +2589,7 @@ Interned
 clips
 "
 )
-filter_data
+filterdata
 :
 ResourceProfileCounter
 :
@@ -2602,8 +2598,7 @@ new
 (
 "
 Interned
-filter
-data
+filterdata
 "
 )
 }

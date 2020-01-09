@@ -263,6 +263,9 @@ mod
 intern
 ;
 mod
+intern_types
+;
+mod
 internal_types
 ;
 mod
