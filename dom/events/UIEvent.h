@@ -258,6 +258,11 @@ return
 WindowProxyHolder
 (
 mView
+-
+>
+GetBrowsingContext
+(
+)
 )
 ;
 }

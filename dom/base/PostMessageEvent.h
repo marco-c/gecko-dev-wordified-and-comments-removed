@@ -75,6 +75,9 @@ namespace
 dom
 {
 class
+BrowsingContext
+;
+class
 PostMessageEvent
 final
 :
@@ -88,7 +91,7 @@ public
 NS_DECL_NSIRUNNABLE
 PostMessageEvent
 (
-nsGlobalWindowOuter
+BrowsingContext
 *
 aSource
 const
@@ -146,7 +149,7 @@ aEventTarget
 ;
 RefPtr
 <
-nsGlobalWindowOuter
+BrowsingContext
 >
 mSource
 ;

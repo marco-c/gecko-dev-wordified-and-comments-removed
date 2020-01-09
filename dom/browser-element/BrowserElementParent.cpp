@@ -815,7 +815,7 @@ BrowserElementParent
 :
 OpenWindowInProcess
 (
-nsPIDOMWindowOuter
+BrowsingContext
 *
 aOpenerWindow
 nsIURI
@@ -851,7 +851,12 @@ win
 aOpenerWindow
 -
 >
-GetScriptableTop
+GetDOMWindow
+(
+)
+-
+>
+GetTop
 (
 )
 ;

@@ -7,7 +7,7 @@ nsFrameLoader_h_
 #
 include
 "
-nsIDocShell
+nsDocShell
 .
 h
 "
@@ -429,7 +429,7 @@ nsSubDocumentFrame
 aIFrame
 )
 ;
-nsIDocShell
+nsDocShell
 *
 GetDocShell
 (
@@ -1326,9 +1326,9 @@ OriginAttributes
 aAttr
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocShell
+nsDocShell
 >
 mDocShell
 ;

@@ -502,9 +502,7 @@ GetOwnerGlobalForBindingsInternal
 )
 {
 return
-GetWindow
-(
-)
+mWindow
 ;
 }
 nsIGlobalObject
