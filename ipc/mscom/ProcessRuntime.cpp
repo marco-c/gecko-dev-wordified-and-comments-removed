@@ -264,6 +264,10 @@ MOZILLA_INTERNAL_API
 )
 if
 (
+!
+mIsParentProcess
+&
+&
 IsWin32kLockedDown
 (
 )
@@ -387,6 +391,10 @@ IsInitialized
 )
 )
 {
+mInitResult
+=
+S_OK
+;
 return
 ;
 }
