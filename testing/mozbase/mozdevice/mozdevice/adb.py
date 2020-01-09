@@ -23035,7 +23035,7 @@ intent
 .
 action
 .
-Main
+MAIN
 "
                         
 moz_env
