@@ -1453,6 +1453,9 @@ help
 if
 not
 old_configure
+and
+not
+help
 :
 die
 (
@@ -1665,6 +1668,8 @@ configure
 dies
 .
 if
+old_configure
+and
 os
 .
 path
@@ -3936,7 +3941,7 @@ vcs_checkout_type
 (
 build_env
 automation
-_
+help
 )
 :
 if
@@ -3995,6 +4000,9 @@ git
 '
 elif
 automation
+and
+not
+help
 :
 raise
 FatalCheckError
@@ -6426,7 +6434,7 @@ subprocess
 '
 )
 def
-host
+real_host
 (
 value
 shell
@@ -6501,7 +6509,7 @@ host
 =
 help_host_target
 |
-host
+real_host
 depends
 (
 '
@@ -6509,7 +6517,7 @@ depends
 -
 target
 '
-host
+real_host
 shell
 )
 checking
@@ -6528,7 +6536,7 @@ t
 alias
 )
 def
-target
+real_target
 (
 value
 host
@@ -6619,7 +6627,7 @@ target
 =
 help_host_target
 |
-target
+real_target
 depends
 (
 host

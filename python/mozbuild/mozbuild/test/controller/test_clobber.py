@@ -45,6 +45,14 @@ import
     
 Clobberer
 )
+from
+mozbuild
+.
+test
+.
+common
+import
+prepare_tmp_topsrcdir
 class
 TestClobberer
 (
@@ -207,6 +215,11 @@ self
 .
 get_tempdir
 (
+)
+        
+prepare_tmp_topsrcdir
+(
+t
 )
         
 p
