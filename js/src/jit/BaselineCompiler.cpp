@@ -942,16 +942,6 @@ ensureHasTypes
 cx
 keepTypes
 )
-|
-|
-!
-script
--
->
-ensureHasAnalyzedArgsUsage
-(
-cx
-)
 )
 {
 return
