@@ -75269,9 +75269,6 @@ start
 )
 )
 ;
-#
-endif
-}
 for
 (
 size_t
@@ -75303,6 +75300,9 @@ addTableEntry
 masm
 )
 ;
+}
+#
+endif
 }
 auto
 &
