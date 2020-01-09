@@ -33179,7 +33179,7 @@ GetPrimaryFrame
 |
 CouldHaveBeenDisplayContents
 (
-aChild
+c
 )
 )
 {
@@ -33194,7 +33194,7 @@ ContentRemoved
 (
 c
 nullptr
-REMOVE_FOR_RECONSTRUCTION
+aFlags
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
