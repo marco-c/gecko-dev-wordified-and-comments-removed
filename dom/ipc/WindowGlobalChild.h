@@ -132,11 +132,6 @@ return
 mIPCClosed
 ;
 }
-void
-Destroy
-(
-)
-;
 bool
 IsInProcess
 (
@@ -176,14 +171,6 @@ already_AddRefed
 WindowGlobalParent
 >
 GetParentActor
-(
-)
-;
-already_AddRefed
-<
-TabChild
->
-GetTabChild
 (
 )
 ;
