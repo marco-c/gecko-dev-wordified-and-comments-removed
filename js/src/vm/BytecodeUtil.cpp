@@ -10947,6 +10947,13 @@ Sprinter
 sp
 )
 {
+AutoRealm
+ar
+(
+cx
+script
+)
+;
 LifoAllocScope
 allocScope
 (
