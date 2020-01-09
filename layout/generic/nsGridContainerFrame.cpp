@@ -16706,8 +16706,10 @@ pc
 rs
 aChild
 aAvailableSize
-&
+Some
+(
 aCBSize
+)
 riFlags
 )
 ;
@@ -25621,8 +25623,10 @@ aState
 mReflowInput
 aChild
 childCBSize
-&
+Some
+(
 percentBasis
+)
 flags
 )
 ;

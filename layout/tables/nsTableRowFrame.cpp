@@ -176,7 +176,9 @@ aPresContext
 aParentReflowInput
 aFrame
 aAvailableSpace
-nullptr
+Nothing
+(
+)
 aFlags
 )
 {
@@ -433,7 +435,9 @@ Init
 (
 &
 aPresContext
-nullptr
+Nothing
+(
+)
 pCollapseBorder
 )
 ;

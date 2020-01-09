@@ -3958,8 +3958,10 @@ PresContext
 parentReflowInput
 aFrame
 availSize
-&
+Some
+(
 lcbSize
+)
 )
 ;
 nsSize

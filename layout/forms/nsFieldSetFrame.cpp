@@ -2524,7 +2524,9 @@ aPresContext
 aReflowInput
 inner
 innerAvailSize
-nullptr
+Nothing
+(
+)
 ReflowInput
 :
 :
@@ -2536,7 +2538,9 @@ kidReflowInput
 Init
 (
 aPresContext
-nullptr
+Nothing
+(
+)
 nullptr
 &
 aReflowInput

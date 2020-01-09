@@ -1454,7 +1454,9 @@ Init
 (
 &
 aPresContext
-nullptr
+Nothing
+(
+)
 pCollapseBorder
 &
 padding
@@ -1846,7 +1848,9 @@ aReflowInput
 reflowInput
 kidFrame
 kidAvailSize
-nullptr
+Nothing
+(
+)
 ReflowInput
 :
 :
@@ -5144,7 +5148,9 @@ GetWritingMode
 )
 rowAvailSize
 )
-nullptr
+Nothing
+(
+)
 ReflowInput
 :
 :
@@ -5830,7 +5836,9 @@ GetWritingMode
 )
 availSize
 )
-nullptr
+Nothing
+(
+)
 ReflowInput
 :
 :

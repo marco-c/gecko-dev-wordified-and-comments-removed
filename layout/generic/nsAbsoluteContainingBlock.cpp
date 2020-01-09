@@ -3060,8 +3060,10 @@ wm
 availISize
 NS_UNCONSTRAINEDSIZE
 )
-&
+Some
+(
 logicalCBSize
+)
 rsFlags
 )
 ;

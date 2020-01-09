@@ -1741,8 +1741,10 @@ aPresContext
 aReflowInput
 imageFrame
 availableSize
-&
+Some
+(
 cbSize
+)
 )
 ;
 nsRect
