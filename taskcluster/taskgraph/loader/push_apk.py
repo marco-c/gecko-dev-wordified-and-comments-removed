@@ -69,6 +69,7 @@ dependent_tasks
 get_dependent_loaded_tasks
 (
 config
+params
 loaded_tasks
 )
         
@@ -110,6 +111,7 @@ def
 get_dependent_loaded_tasks
 (
 config
+params
 loaded_tasks
 )
 :
@@ -166,7 +168,7 @@ dependencies
     
 android_tasks
 =
-[
+(
         
 task
 for
@@ -195,11 +197,11 @@ android
 '
 )
     
-]
+)
     
-non_shipping_tasks
+aarch64_tasks_only_on_central
 =
-[
+(
         
 task
 for
@@ -208,6 +210,21 @@ in
 android_tasks
         
 if
+params
+[
+'
+project
+'
+]
+=
+=
+'
+mozilla
+-
+central
+'
+or
+        
 '
 aarch64
 '
@@ -225,8 +242,20 @@ build_platform
 '
 '
 )
-and
-           
+    
+)
+    
+non_shipping_tasks
+=
+[
+        
+task
+for
+task
+in
+aarch64_tasks_only_on_central
+        
+if
 '
 x86_64
 '
