@@ -585,6 +585,12 @@ getStreamsEnabled
 )
 ;
 case
+JSProto_BigInt64Array
+:
+case
+JSProto_BigUint64Array
+:
+case
 JSProto_BigInt
 :
 return
