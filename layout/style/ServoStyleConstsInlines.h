@@ -62,10 +62,10 @@ max
 static
 constexpr
 const
-uint32_t
+uint64_t
 kArcSliceCanary
 =
-0xf3f3f3f3
+0xf3f3f3f3f3f3f3f3
 ;
 #
 define
