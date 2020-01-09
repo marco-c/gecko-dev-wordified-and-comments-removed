@@ -12,6 +12,11 @@ function
 ?
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 :
 undefined

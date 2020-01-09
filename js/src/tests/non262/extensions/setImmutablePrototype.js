@@ -739,6 +739,11 @@ instanceof
 global
 .
 TypeError
+|
+|
+e
+instanceof
+TypeError
 true
 "
 expected
@@ -863,6 +868,11 @@ e
 instanceof
 global
 .
+TypeError
+|
+|
+e
+instanceof
 TypeError
 true
 "

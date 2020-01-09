@@ -4744,6 +4744,14 @@ view
 77
 )
 ;
+if
+(
+isProxy
+(
+alien
+)
+)
+{
 check
 (
 (
@@ -4780,6 +4788,7 @@ view
 )
 )
 ;
+}
 check
 (
 (
