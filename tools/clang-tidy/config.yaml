@@ -1267,6 +1267,14 @@ readability
 -
 redundant
 -
+preprocessor
+-
+name
+:
+readability
+-
+redundant
+-
 smartptr
 -
 get
