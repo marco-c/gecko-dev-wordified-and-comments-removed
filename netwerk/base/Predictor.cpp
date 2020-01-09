@@ -2830,6 +2830,13 @@ IsNeckoChild
 )
 )
 {
+NeckoChild
+:
+:
+InitNeckoChild
+(
+)
+;
 return
 svc
 -
