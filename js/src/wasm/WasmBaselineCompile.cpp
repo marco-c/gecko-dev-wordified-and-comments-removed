@@ -56516,7 +56516,7 @@ b1
 )
 {
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56544,7 +56544,7 @@ I32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56574,7 +56574,7 @@ I32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56602,7 +56602,7 @@ I32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56632,7 +56632,7 @@ I32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56687,7 +56687,7 @@ I64
 #
 endif
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56744,7 +56744,7 @@ I64
 #
 endif
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56799,7 +56799,7 @@ I64
 #
 endif
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56859,7 +56859,7 @@ endif
 ifdef
 ENABLE_WASM_BULKMEM_OPS
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56876,7 +56876,7 @@ true
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56893,7 +56893,7 @@ true
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56909,7 +56909,7 @@ emitMemFill
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56926,7 +56926,7 @@ true
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56943,7 +56943,7 @@ false
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56960,7 +56960,7 @@ false
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56982,7 +56982,7 @@ endif
 ifdef
 ENABLE_WASM_REFTYPES
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -56998,7 +56998,7 @@ emitTableGrow
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -57019,7 +57019,7 @@ endif
 ifdef
 ENABLE_WASM_GC
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -57055,7 +57055,7 @@ emitStructNew
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -57091,7 +57091,7 @@ emitStructGet
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -57127,7 +57127,7 @@ emitStructSet
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -57197,7 +57197,7 @@ b1
 )
 {
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57213,7 +57213,7 @@ emitWake
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57234,7 +57234,7 @@ I32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57255,7 +57255,7 @@ I64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57279,7 +57279,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57303,7 +57303,7 @@ Int64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57327,7 +57327,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57351,7 +57351,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57375,7 +57375,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57399,7 +57399,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57423,7 +57423,7 @@ Uint32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57447,7 +57447,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57471,7 +57471,7 @@ Int64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57495,7 +57495,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57519,7 +57519,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57543,7 +57543,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57567,7 +57567,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57591,7 +57591,7 @@ Uint32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57616,7 +57616,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57641,7 +57641,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57666,7 +57666,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57691,7 +57691,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57716,7 +57716,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57741,7 +57741,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57766,7 +57766,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57791,7 +57791,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57816,7 +57816,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57841,7 +57841,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57866,7 +57866,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57891,7 +57891,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57916,7 +57916,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57941,7 +57941,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57966,7 +57966,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -57991,7 +57991,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58016,7 +58016,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58041,7 +58041,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58066,7 +58066,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58091,7 +58091,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58116,7 +58116,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58141,7 +58141,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58166,7 +58166,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58191,7 +58191,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58216,7 +58216,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58241,7 +58241,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58266,7 +58266,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58291,7 +58291,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58316,7 +58316,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58341,7 +58341,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58366,7 +58366,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58391,7 +58391,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58416,7 +58416,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58441,7 +58441,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58466,7 +58466,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58490,7 +58490,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58514,7 +58514,7 @@ Int64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58538,7 +58538,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58562,7 +58562,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58586,7 +58586,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58610,7 +58610,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58634,7 +58634,7 @@ Uint32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58658,7 +58658,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58682,7 +58682,7 @@ Int64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58706,7 +58706,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58730,7 +58730,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58754,7 +58754,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -58778,7 +58778,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
