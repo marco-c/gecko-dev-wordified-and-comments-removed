@@ -3118,3 +3118,17 @@ reportCompare
 )
 ;
 }
+if
+(
+"
+ignoreUnhandledRejections
+"
+in
+this
+)
+{
+ignoreUnhandledRejections
+(
+)
+;
+}

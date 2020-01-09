@@ -1,0 +1,10 @@
+Promise
+.
+reject
+(
+"
+some
+reason
+"
+)
+;

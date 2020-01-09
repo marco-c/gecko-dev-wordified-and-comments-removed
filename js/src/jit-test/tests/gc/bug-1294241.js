@@ -11,6 +11,10 @@ quit
 (
 )
 ;
+ignoreUnhandledRejections
+(
+)
+;
 gczeal
 (
 9

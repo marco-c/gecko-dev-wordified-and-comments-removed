@@ -9,6 +9,10 @@ js
 "
 )
 ;
+ignoreUnhandledRejections
+(
+)
+;
 const
 g
 =

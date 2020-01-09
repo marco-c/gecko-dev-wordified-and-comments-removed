@@ -1,3 +1,7 @@
+ignoreUnhandledRejections
+(
+)
+;
 const
 global
 =

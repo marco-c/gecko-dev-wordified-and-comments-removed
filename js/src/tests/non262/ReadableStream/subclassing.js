@@ -1,3 +1,17 @@
+if
+(
+"
+ignoreUnhandledRejections
+"
+in
+this
+)
+{
+ignoreUnhandledRejections
+(
+)
+;
+}
 class
 PartyStreamer
 extends

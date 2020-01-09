@@ -1,3 +1,17 @@
+if
+(
+"
+ignoreUnhandledRejections
+"
+in
+this
+)
+{
+ignoreUnhandledRejections
+(
+)
+;
+}
 async
 function
 test

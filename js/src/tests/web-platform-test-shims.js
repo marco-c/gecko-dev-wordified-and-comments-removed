@@ -379,3 +379,17 @@ this
 clearTimeout
 ;
 }
+if
+(
+"
+ignoreUnhandledRejections
+"
+in
+this
+)
+{
+ignoreUnhandledRejections
+(
+)
+;
+}
