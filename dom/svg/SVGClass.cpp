@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGClass
+SVGClass
 .
 h
 "
@@ -46,17 +46,12 @@ SMILStringType
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
+{
 struct
 DOMAnimatedString
 final
@@ -71,7 +66,7 @@ DOMAnimatedString
 )
 DOMAnimatedString
 (
-nsSVGClass
+SVGClass
 *
 aVal
 SVGElement
@@ -89,7 +84,7 @@ aVal
 )
 {
 }
-nsSVGClass
+SVGClass
 *
 mVal
 ;
@@ -179,7 +174,7 @@ already_AddRefed
 <
 SVGAnimatedString
 >
-nsSVGClass
+SVGClass
 :
 :
 ToDOMAnimatedString
@@ -211,7 +206,7 @@ forget
 ;
 }
 void
-nsSVGClass
+SVGClass
 :
 :
 SetBaseValue
@@ -281,7 +276,7 @@ AnimationNeedsResample
 }
 }
 void
-nsSVGClass
+SVGClass
 :
 :
 GetBaseValue
@@ -311,7 +306,7 @@ aValue
 ;
 }
 void
-nsSVGClass
+SVGClass
 :
 :
 GetAnimValue
@@ -354,7 +349,7 @@ aResult
 ;
 }
 void
-nsSVGClass
+SVGClass
 :
 :
 SetAnimValue
@@ -451,7 +446,7 @@ UniquePtr
 <
 nsISMILAttr
 >
-nsSVGClass
+SVGClass
 :
 :
 ToSMILAttr
@@ -473,7 +468,7 @@ aSVGElement
 ;
 }
 nsresult
-nsSVGClass
+SVGClass
 :
 :
 SMILString
@@ -546,7 +541,7 @@ NS_OK
 ;
 }
 nsSMILValue
-nsSVGClass
+SVGClass
 :
 :
 SMILString
@@ -598,7 +593,7 @@ val
 ;
 }
 void
-nsSVGClass
+SVGClass
 :
 :
 SMILString
@@ -633,7 +628,7 @@ DidAnimateClass
 }
 }
 nsresult
-nsSVGClass
+SVGClass
 :
 :
 SMILString
@@ -710,4 +705,6 @@ mSVGElement
 return
 NS_OK
 ;
+}
+}
 }

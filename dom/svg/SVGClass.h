@@ -69,10 +69,8 @@ SVGAnimatedString
 class
 SVGElement
 ;
-}
-}
 class
-nsSVGClass
+SVGClass
 {
 public
 :
@@ -211,7 +209,7 @@ public
 :
 SMILString
 (
-nsSVGClass
+SVGClass
 *
 aVal
 SVGElement
@@ -229,7 +227,7 @@ aSVGElement
 )
 {
 }
-nsSVGClass
+SVGClass
 *
 mVal
 ;
@@ -295,5 +293,7 @@ override
 ;
 }
 ;
+}
+}
 #
 endif
