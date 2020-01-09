@@ -7,6 +7,8 @@ NSDISPLAYITEMTYPES_H_
 enum
 class
 DisplayItemType
+:
+uint32_t
 {
 TYPE_ZERO
 =

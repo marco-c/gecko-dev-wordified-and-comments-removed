@@ -882,6 +882,17 @@ aIsRunning
 )
 ;
 void
+SetIsRunningOnCompositor
+(
+const
+nsCSSPropertyIDSet
+&
+aPropertySet
+bool
+aIsRunning
+)
+;
+void
 ResetIsRunningOnCompositor
 (
 )
