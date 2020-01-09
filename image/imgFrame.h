@@ -296,6 +296,9 @@ gfx
 :
 BackendType
 aBackend
+DrawTarget
+*
+aTarget
 )
 ;
 DrawableFrameRef
