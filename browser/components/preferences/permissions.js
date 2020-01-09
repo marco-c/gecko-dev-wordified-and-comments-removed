@@ -2708,17 +2708,3 @@ sortDirection
 }
 }
 ;
-function
-initWithParams
-(
-params
-)
-{
-gPermissionManager
-.
-init
-(
-params
-)
-;
-}

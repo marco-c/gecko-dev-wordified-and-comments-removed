@@ -5725,6 +5725,17 @@ hbox
 >
 <
 hbox
+data
+-
+subcategory
+=
+"
+permissions
+-
+block
+-
+popups
+"
 >
 <
 checkbox
