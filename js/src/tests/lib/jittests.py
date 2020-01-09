@@ -1819,7 +1819,16 @@ test_also
 .
 append
 (
-[
+re
+.
+split
+(
+r
+'
+\
+s
++
+'
 name
 [
 len
@@ -1833,7 +1842,7 @@ also
 )
 :
 ]
-]
+)
 )
                     
 elif
@@ -1856,7 +1865,16 @@ test_join
 .
 append
 (
-[
+re
+.
+split
+(
+r
+'
+\
+s
++
+'
 name
 [
 len
@@ -1870,7 +1888,7 @@ join
 )
 :
 ]
-]
+)
 )
                     
 elif
