@@ -3519,7 +3519,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -3548,7 +3548,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -9801,7 +9801,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -9861,7 +9861,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -10848,7 +10848,7 @@ version
 .
 8
 .
-6
+1
 "
 source
 =
@@ -10882,7 +10882,7 @@ darling_core
 .
 8
 .
-6
+1
 (
 registry
 +
@@ -10911,7 +10911,7 @@ darling_macro
 .
 8
 .
-6
+1
 (
 registry
 +
@@ -10952,7 +10952,7 @@ version
 .
 8
 .
-6
+1
 "
 source
 =
@@ -11046,7 +11046,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -11075,7 +11075,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -11104,7 +11104,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -11145,7 +11145,7 @@ version
 .
 8
 .
-6
+1
 "
 source
 =
@@ -11179,7 +11179,7 @@ darling_core
 .
 8
 .
-6
+1
 (
 registry
 +
@@ -11208,7 +11208,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -11237,7 +11237,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -11289,7 +11289,7 @@ darling
 .
 8
 .
-6
+1
 (
 registry
 +
@@ -11320,7 +11320,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -11349,7 +11349,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -11378,7 +11378,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -11484,7 +11484,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -11513,7 +11513,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -11571,7 +11571,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -13472,7 +13472,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -13501,7 +13501,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -13530,7 +13530,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -13711,7 +13711,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -13740,7 +13740,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -13769,7 +13769,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -21990,7 +21990,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -22019,7 +22019,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -24018,7 +24018,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -25786,7 +25786,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -25815,7 +25815,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -28061,7 +28061,7 @@ version
 .
 4
 .
-27
+24
 "
 source
 =
@@ -28560,7 +28560,7 @@ version
 .
 6
 .
-11
+10
 "
 source
 =
@@ -28596,7 +28596,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -31256,7 +31256,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -31285,7 +31285,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -31314,7 +31314,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -32107,7 +32107,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -32136,7 +32136,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -32165,7 +32165,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -33678,7 +33678,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -33707,7 +33707,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -35135,7 +35135,7 @@ darling
 .
 8
 .
-6
+1
 (
 registry
 +
@@ -35174,7 +35174,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -35203,7 +35203,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -35232,7 +35232,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -35996,7 +35996,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -36025,7 +36025,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -36097,7 +36097,7 @@ version
 .
 15
 .
-30
+24
 "
 source
 =
@@ -36133,7 +36133,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -36162,7 +36162,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -36270,7 +36270,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -36299,7 +36299,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -36328,7 +36328,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -37773,7 +37773,7 @@ darling
 .
 8
 .
-6
+1
 (
 registry
 +
@@ -37812,7 +37812,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -37841,7 +37841,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -37870,7 +37870,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -48377,7 +48377,7 @@ darling
 .
 8
 .
-6
+1
 (
 registry
 +
@@ -48402,7 +48402,7 @@ index
 "
 =
 "
-9158d690bc62a3a57c3e45b85e4d50de2008b39345592c64efd79345c7e24be0
+f593353cad5af2df6d54810de2b61aa8acba5b5fbc70b0d75e7cc5bdd80aca73
 "
 "
 checksum
@@ -48411,7 +48411,7 @@ darling_core
 .
 8
 .
-6
+1
 (
 registry
 +
@@ -48436,7 +48436,7 @@ index
 "
 =
 "
-d2a368589465391e127e10c9e3a08efc8df66fd49b87dc8524c764bbe7f2ef82
+168c246e87e727d58575d9b4595491010627f0cdc910e3e6ea3b36db2b9a9d9a
 "
 "
 checksum
@@ -48445,7 +48445,7 @@ darling_macro
 .
 8
 .
-6
+1
 (
 registry
 +
@@ -48470,7 +48470,7 @@ index
 "
 =
 "
-244e8987bd4e174385240cde20a3657f607fb0797563c28255c353b5819a07b1
+99c4eff4bcbeaf6a22578012ff79c95910338668278d1901e528bd34a22f575d
 "
 "
 checksum
@@ -52629,7 +52629,7 @@ macro2
 .
 4
 .
-27
+24
 (
 registry
 +
@@ -52654,7 +52654,7 @@ index
 "
 =
 "
-4d317f9caece796be1980837fd5cb3dfec5613ebdb04ad0956deea83ce168915
+77619697826f31a02ae974457af0b29b723e5619e113e9397b8b82c6bd253f09
 "
 "
 checksum
@@ -52769,7 +52769,7 @@ quote
 .
 6
 .
-11
+10
 (
 registry
 +
@@ -52794,7 +52794,7 @@ index
 "
 =
 "
-cdd8e04bd9c52e0342b406469d494fcb033be4bdbe5c606016defbb1681411e1
+53fa22a1994bd0f9372d7a816207d8a2677ad0325b073f5c5332760f0fb62b5c
 "
 "
 checksum
@@ -54485,7 +54485,7 @@ syn
 .
 15
 .
-30
+24
 (
 registry
 +
@@ -54510,7 +54510,7 @@ index
 "
 =
 "
-66c8865bf5a7cbb662d8b011950060b3c8743dca141b054bf7195b20d314d8e2
+734ecc29cd36e8123850d9bf21dfd62ef8300aaa8f879aabaa899721808be37c
 "
 "
 checksum

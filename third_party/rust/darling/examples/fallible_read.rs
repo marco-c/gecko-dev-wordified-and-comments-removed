@@ -176,6 +176,10 @@ u64
 Self
 {
 name
+:
+name
+frequency
+:
 frequency
 amplitude
 :

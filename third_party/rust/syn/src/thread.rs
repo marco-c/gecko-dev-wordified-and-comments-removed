@@ -268,13 +268,6 @@ syn_can_use_thread_id
 mod
 thread_id
 {
-#
-[
-allow
-(
-deprecated
-)
-]
 use
 std
 :
@@ -300,13 +293,6 @@ THREAD_ID
 usize
 =
 {
-#
-[
-allow
-(
-deprecated
-)
-]
 static
 NEXT_THREAD_ID
 :

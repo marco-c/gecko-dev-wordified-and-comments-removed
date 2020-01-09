@@ -36,9 +36,6 @@ over_ride
 mod
 with_original
 ;
-mod
-spanned_value
-;
 pub
 use
 self
@@ -78,16 +75,6 @@ over_ride
 :
 :
 Override
-;
-pub
-use
-self
-:
-:
-spanned_value
-:
-:
-SpannedValue
 ;
 pub
 use
