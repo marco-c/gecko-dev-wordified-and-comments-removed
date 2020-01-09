@@ -155,7 +155,7 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
-EXTRA_COMPONENTS
+EXTRA_JS_MODULES
 +
 =
 [
@@ -167,12 +167,7 @@ device
 '
 AndroidCastDeviceProvider
 .
-js
-'
-'
-AndroidCastDeviceProvider
-.
-manifest
+jsm
 '
 ]
 include
