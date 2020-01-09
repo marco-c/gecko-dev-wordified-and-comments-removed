@@ -20547,9 +20547,16 @@ Height
 CSSToParentLayerScale
 localMaxZoom
 =
+std
+:
+:
+max
+(
+localMinZoom
 mZoomConstraints
 .
 mMaxZoom
+)
 ;
 if
 (
