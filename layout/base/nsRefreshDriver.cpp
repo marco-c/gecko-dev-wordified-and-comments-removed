@@ -127,7 +127,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -435,6 +439,13 @@ mozilla
 :
 :
 ipc
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 using
 namespace
@@ -6049,7 +6060,7 @@ DocumentFrameCallbacks
 explicit
 DocumentFrameCallbacks
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -6060,13 +6071,13 @@ aDocument
 )
 {
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
-nsIDocument
+Document
 :
 :
 FrameRequestCallbackList
@@ -6109,7 +6120,7 @@ nsIPresShell
 aShell
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -6371,7 +6382,7 @@ static
 void
 TakeFrameRequestCallbacksFrom
 (
-nsIDocument
+Document
 *
 aDocument
 nsTArray
@@ -6461,9 +6472,9 @@ UpdateIntersectionObservations
 {
 AutoTArray
 <
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 32
 >
@@ -6512,7 +6523,7 @@ documents
 ]
 (
 const
-nsIDocument
+Document
 *
 document
 )
@@ -6551,7 +6562,7 @@ Length
 i
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -6666,7 +6677,7 @@ Length
 {
 nsTArray
 <
-nsIDocument
+Document
 *
 >
 docsToRemove
@@ -6701,7 +6712,7 @@ true
 }
 for
 (
-nsIDocument
+Document
 *
 doc
 :
@@ -6763,7 +6774,7 @@ else
 {
 for
 (
-nsIDocument
+Document
 *
 doc
 :
@@ -6782,7 +6793,7 @@ doc
 }
 for
 (
-nsIDocument
+Document
 *
 doc
 :
@@ -9736,7 +9747,7 @@ nsRefreshDriver
 :
 ScheduleFrameRequestCallbacks
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -9819,7 +9830,7 @@ nsRefreshDriver
 :
 RevokeFrameRequestCallbacks
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -9876,7 +9887,7 @@ nsRefreshDriver
 :
 CancelPendingFullscreenEvents
 (
-nsIDocument
+Document
 *
 aDocument
 )

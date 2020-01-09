@@ -680,7 +680,7 @@ GetOwner
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
