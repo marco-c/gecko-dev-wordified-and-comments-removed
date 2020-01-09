@@ -782,7 +782,7 @@ this
 )
 ;
 return
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 self
 .
@@ -790,6 +790,10 @@ forget
 (
 )
 500
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 }

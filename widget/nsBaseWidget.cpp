@@ -9538,7 +9538,7 @@ kungFuDeathGrip
 this
 ;
 return
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 NS_NewRunnableFunction
 (
@@ -9561,6 +9561,10 @@ aEnable
 }
 )
 kAsyncDragDropTimeout
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 }

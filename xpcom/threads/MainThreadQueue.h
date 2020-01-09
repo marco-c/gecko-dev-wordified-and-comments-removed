@@ -136,6 +136,16 @@ InnerQueueT
 EventQueuePriority
 :
 :
+DeferredTimers
+)
+MakeUnique
+<
+InnerQueueT
+>
+(
+EventQueuePriority
+:
+:
 Idle
 )
 do_AddRef

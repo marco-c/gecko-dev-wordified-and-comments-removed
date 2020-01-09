@@ -1392,7 +1392,7 @@ AsyncPreload
 )
 {
 return
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 NewIdleRunnableMethod
 (
@@ -1409,6 +1409,10 @@ nsStringBundleBase
 :
 LoadProperties
 )
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 }

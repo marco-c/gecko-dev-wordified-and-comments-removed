@@ -1492,7 +1492,7 @@ aURI
 nsresult
 rv
 =
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 NS_NewRunnableFunction
 (
@@ -1727,6 +1727,10 @@ columnNumber
 }
 )
 kMaxConsoleOutputDelayMs
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 if
@@ -1902,7 +1906,7 @@ columnNumber
 nsresult
 rv
 =
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 NS_NewRunnableFunction
 (
@@ -2119,6 +2123,10 @@ columnNumber
 }
 )
 kMaxConsoleOutputDelayMs
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 if

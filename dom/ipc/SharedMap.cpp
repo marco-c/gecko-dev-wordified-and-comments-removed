@@ -2035,7 +2035,7 @@ mPendingFlush
 {
 MOZ_TRY
 (
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 NewRunnableMethod
 (
@@ -2052,6 +2052,10 @@ WritableSharedMap
 :
 IdleFlush
 )
+EventQueuePriority
+:
+:
+Idle
 )
 )
 ;

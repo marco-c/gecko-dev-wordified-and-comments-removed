@@ -18202,7 +18202,7 @@ bundleIndex
 nsresult
 rv
 =
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 NS_NewRunnableFunction
 (
@@ -18249,6 +18249,10 @@ AsyncPreload
 ;
 }
 )
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 Unused

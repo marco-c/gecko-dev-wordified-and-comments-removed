@@ -2353,7 +2353,7 @@ mLastPoll
 =
 now
 ;
-NS_IdleDispatchToCurrentThread
+NS_DispatchToCurrentThreadQueue
 (
 NewRunnableMethod
 <
@@ -2382,6 +2382,10 @@ MemoryTelemetry
 GatherReports
 nullptr
 )
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 }

@@ -2042,13 +2042,15 @@ NS_IMETHODIMP
 LazyIdleThread
 :
 :
-IdleDispatch
+DispatchToQueue
 (
 already_AddRefed
 <
 nsIRunnable
 >
 aEvent
+EventQueuePriority
+aQueue
 )
 {
 return

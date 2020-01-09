@@ -2306,7 +2306,7 @@ aTimeout
 )
 {
 return
-NS_IdleDispatchToThread
+NS_DispatchToThreadQueue
 (
 event
 .
@@ -2315,11 +2315,15 @@ forget
 )
 aTimeout
 mMainThread
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 }
 return
-NS_IdleDispatchToThread
+NS_DispatchToThreadQueue
 (
 event
 .
@@ -2327,6 +2331,10 @@ forget
 (
 )
 mMainThread
+EventQueuePriority
+:
+:
+Idle
 )
 ;
 }
