@@ -26,8 +26,6 @@ BuildEnvironmentNotFoundException
 MozbuildObject
 )
 import
-mozfile
-import
 mozpack
 .
 path
@@ -441,6 +439,7 @@ repository
 .
 get_changed_files
 (
+            
 '
 M
 '
@@ -872,6 +871,7 @@ cargo_version
 '
 {
 }
+                     
 '
 Cargo
 >
@@ -939,6 +939,7 @@ subprocess
 .
 check_output
 (
+            
 [
 cargo
 '
@@ -971,6 +972,7 @@ installing
 '
 {
 }
+                     
 '
 Installing
 cargo
@@ -1035,6 +1037,7 @@ self
 .
 log
 (
+                
 logging
 .
 INFO
@@ -1043,6 +1046,8 @@ cargo_vendor
 '
 {
 }
+                
+(
 '
 cargo
 -
@@ -1056,6 +1061,9 @@ vendor
 23
 required
 ;
+'
+                 
+'
 force
 -
 reinstalling
@@ -1071,6 +1079,8 @@ minutes
 .
 .
 '
+)
+                
 )
             
 env
@@ -1124,6 +1134,7 @@ cargo_vendor
 '
 {
 }
+                     
 '
 sufficiently
 new
@@ -1236,6 +1247,12 @@ zircon
 -
 sys
 '
+            
+'
+fuchsia
+-
+cprng
+'
         
 ]
     
@@ -1254,10 +1271,6 @@ Clause
 '
 :
 [
-            
-'
-sha1
-'
         
 ]
     
@@ -1676,7 +1689,7 @@ package_license_error
 '
 {
 }
-                            
+                             
 '
 '
 '
@@ -1763,7 +1776,7 @@ package_license_error
 '
 {
 }
-                            
+                             
 '
 '
 '
@@ -1963,6 +1976,7 @@ license_matches
 =
 list
 (
+                    
 filter
 (
 lambda
@@ -1988,6 +2002,7 @@ license_file_matches
 =
 list
 (
+                    
 filter
 (
 lambda
@@ -2264,6 +2279,7 @@ path
 .
 join
 (
+                        
 vendor_dir
 package
 license_file
@@ -2383,6 +2399,7 @@ listdir
 (
 vendor_dir
 )
+                   
 if
 os
 .
@@ -2525,6 +2542,7 @@ quiet
 -
 sync
 '
+                               
 '
 Cargo
 .
@@ -2556,6 +2574,7 @@ self
 .
 log
 (
+                
 logging
 .
 ERROR
@@ -2564,7 +2583,7 @@ license_check_failed
 '
 {
 }
-                     
+                
 '
 '
 '
@@ -2894,8 +2913,10 @@ publishing
 .
 format
 (
+                
 size
 =
 cumulative_added_size
 )
+            
 )

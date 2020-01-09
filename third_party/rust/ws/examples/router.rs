@@ -1,10 +1,10 @@
 extern
 crate
-ws
+env_logger
 ;
 extern
 crate
-env_logger
+ws
 ;
 struct
 Router
@@ -110,6 +110,7 @@ one
 "
 =
 >
+{
 self
 .
 inner
@@ -147,6 +148,7 @@ five
 ]
 }
 )
+}
 "
 /
 data
@@ -155,6 +157,7 @@ two
 "
 =
 >
+{
 self
 .
 inner
@@ -187,12 +190,14 @@ vec
 ]
 }
 )
+}
 "
 /
 closure
 "
 =
 >
+{
 self
 .
 inner
@@ -249,6 +254,7 @@ Implemented
 )
 }
 )
+}
 _
 =
 >
@@ -443,9 +449,6 @@ let
 mut
 res
 =
-try
-!
-(
 ws
 :
 :
@@ -456,7 +459,7 @@ from_request
 (
 req
 )
-)
+?
 ;
 res
 .
@@ -603,17 +606,11 @@ Result
 for
 msg
 in
+&
 self
 .
 data
-.
-iter
-(
-)
 {
-try
-!
-(
 self
 .
 ws
@@ -623,7 +620,7 @@ send
 *
 msg
 )
-)
+?
 }
 Ok
 (
@@ -708,10 +705,6 @@ env_logger
 :
 :
 init
-(
-)
-.
-unwrap
 (
 )
 ;

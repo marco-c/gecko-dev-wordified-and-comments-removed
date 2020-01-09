@@ -1,10 +1,10 @@
 extern
 crate
-ws
+env_logger
 ;
 extern
 crate
-env_logger
+ws
 ;
 use
 ws
@@ -24,10 +24,6 @@ env_logger
 :
 :
 init
-(
-)
-.
-unwrap
 (
 )
 ;
@@ -60,12 +56,6 @@ out
 |
 {
 if
-let
-Err
-(
-_
-)
-=
 out
 .
 send
@@ -74,6 +64,10 @@ send
 Hello
 WebSocket
 "
+)
+.
+is_err
+(
 )
 {
 println
