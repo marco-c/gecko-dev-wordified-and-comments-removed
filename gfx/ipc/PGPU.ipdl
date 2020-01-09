@@ -103,6 +103,9 @@ include
 HangTypes
 ;
 include
+PrefsTypes
+;
+include
 protocol
 PAPZInputBridge
 ;
@@ -570,6 +573,13 @@ UpdateVar
 (
 GfxVarUpdate
 var
+)
+;
+async
+PreferenceUpdate
+(
+Pref
+pref
 )
 ;
 /
