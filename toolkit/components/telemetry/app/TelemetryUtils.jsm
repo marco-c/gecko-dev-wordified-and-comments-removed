@@ -424,17 +424,6 @@ eventping
 .
 maximumFrequency
 "
-EcosystemTelemetryEnabled
-:
-"
-toolkit
-.
-telemetry
-.
-ecosystemtelemetry
-.
-enabled
-"
 LogLevel
 :
 "
