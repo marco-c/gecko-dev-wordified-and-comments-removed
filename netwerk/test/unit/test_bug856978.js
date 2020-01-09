@@ -437,7 +437,6 @@ function
 test_onStartR
 (
 request
-ctx
 )
 {
 }
@@ -467,7 +466,6 @@ function
 test_onStopR
 (
 request
-ctx
 status
 )
 {

@@ -249,7 +249,6 @@ function
 start_throws_exception
 (
 ch
-cx
 )
 {
 checkStatusLine
@@ -270,7 +269,6 @@ function
 start_nonexistent_404_fails_so_400
 (
 ch
-cx
 )
 {
 checkStatusLine
@@ -290,7 +288,6 @@ function
 start_multiple_exceptions_500
 (
 ch
-cx
 )
 {
 checkStatusLine
@@ -311,7 +308,6 @@ function
 succeeded
 (
 ch
-cx
 status
 data
 )

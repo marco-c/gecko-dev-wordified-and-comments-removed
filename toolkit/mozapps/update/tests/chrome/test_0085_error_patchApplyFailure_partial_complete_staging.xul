@@ -298,7 +298,6 @@ testDownloadListener
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 }
@@ -323,7 +322,6 @@ aStatusText
 onStopRequest
 (
 aRequest
-aContext
 aStatus
 )
 {

@@ -446,7 +446,6 @@ aListener
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 this
@@ -511,7 +510,6 @@ true
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -621,7 +619,6 @@ listener
 onStopRequest
 (
 aRequest
-null
 aStatusCode
 )
 ;

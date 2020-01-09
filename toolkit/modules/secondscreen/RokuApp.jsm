@@ -907,7 +907,6 @@ prototype
 onStartRequest
 (
 request
-context
 )
 {
 }
@@ -1048,7 +1047,6 @@ this
 onStopRequest
 (
 request
-context
 result
 )
 {

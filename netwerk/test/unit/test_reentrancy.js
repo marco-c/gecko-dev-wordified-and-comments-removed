@@ -234,7 +234,6 @@ onStartRequest
 function
 (
 request
-ctx
 )
 {
 switch
@@ -380,7 +379,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {

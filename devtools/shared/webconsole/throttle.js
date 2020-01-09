@@ -208,7 +208,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 this
@@ -218,7 +217,6 @@ originalListener
 onStartRequest
 (
 request
-context
 )
 ;
 this
@@ -236,7 +234,6 @@ onStopRequest
 function
 (
 request
-context
 statusCode
 )
 {
@@ -248,7 +245,6 @@ push
 (
 {
 request
-context
 statusCode
 }
 )
@@ -425,7 +421,6 @@ originalListener
 onStopRequest
 (
 request
-context
 statusCode
 )
 ;

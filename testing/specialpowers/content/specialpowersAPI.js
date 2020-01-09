@@ -10152,7 +10152,6 @@ httpStatus
 onStartRequest
 (
 request
-context
 )
 {
 request
@@ -10197,7 +10196,6 @@ count
 onStopRequest
 (
 request
-context
 status
 )
 {

@@ -1489,7 +1489,6 @@ null
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 let
@@ -1527,14 +1526,12 @@ contentListener
 onStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -1545,7 +1542,6 @@ contentListener
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;

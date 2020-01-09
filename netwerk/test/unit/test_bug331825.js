@@ -71,7 +71,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 }
@@ -84,7 +83,6 @@ onStopRequest
 function
 (
 request
-context
 status
 )
 {

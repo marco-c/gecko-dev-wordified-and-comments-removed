@@ -870,7 +870,6 @@ _data
 onStartRequest
 (
 request
-cx
 )
 {
 Assert
@@ -925,7 +924,6 @@ testIndex
 onStartRequest
 (
 ch
-cx
 )
 ;
 }
@@ -1059,7 +1057,6 @@ newData
 onStopRequest
 (
 request
-cx
 status
 )
 {
@@ -1098,7 +1095,6 @@ testIndex
 onStopRequest
 (
 ch
-cx
 status
 this
 .

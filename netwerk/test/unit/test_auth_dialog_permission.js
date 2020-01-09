@@ -764,7 +764,6 @@ onStartRequest
 function
 (
 request
-ctx
 )
 {
 try
@@ -899,7 +898,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {

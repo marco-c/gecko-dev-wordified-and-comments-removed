@@ -110,7 +110,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 }
@@ -119,7 +118,6 @@ onStopRequest
 function
 (
 request
-cx
 statusCode
 )
 {

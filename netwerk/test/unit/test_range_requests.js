@@ -283,7 +283,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 }
@@ -320,7 +319,6 @@ onStopRequest
 function
 (
 request
-context
 status
 )
 {
@@ -421,7 +419,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 this
@@ -466,7 +463,6 @@ onStopRequest
 function
 (
 request
-context
 status
 )
 {
@@ -558,7 +554,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 }
@@ -579,7 +574,6 @@ onStopRequest
 function
 (
 request
-context
 status
 )
 {

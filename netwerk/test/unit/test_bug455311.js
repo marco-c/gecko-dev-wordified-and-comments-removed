@@ -433,7 +433,6 @@ onStartRequest
 function
 (
 req
-ctx
 )
 {
 var
@@ -532,7 +531,6 @@ onStopRequest
 function
 (
 req
-ctx
 status
 )
 {

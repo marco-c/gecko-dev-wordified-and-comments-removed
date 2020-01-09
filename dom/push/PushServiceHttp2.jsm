@@ -355,7 +355,6 @@ onStartRequest
 function
 (
 aRequest
-aContext
 )
 {
 console
@@ -454,7 +453,6 @@ onStopRequest
 function
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -604,7 +602,6 @@ onStartRequest
 function
 (
 aRequest
-aContext
 )
 {
 this
@@ -716,7 +713,6 @@ onStopRequest
 function
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -903,7 +899,6 @@ onStartRequest
 function
 (
 aRequest
-aContext
 )
 {
 }
@@ -976,7 +971,6 @@ onStopRequest
 function
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -1109,7 +1103,6 @@ onStartRequest
 function
 (
 aRequest
-aContext
 )
 {
 }
@@ -1199,7 +1192,6 @@ onStopRequest
 function
 (
 aRequest
-aContext
 aStatus
 )
 {

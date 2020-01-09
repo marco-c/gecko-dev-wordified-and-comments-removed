@@ -17488,7 +17488,6 @@ function
 Downloader_onStartRequest
 (
 request
-context
 )
 {
 if
@@ -17631,7 +17630,6 @@ i
 onStartRequest
 (
 request
-context
 )
 ;
 }
@@ -17968,7 +17966,6 @@ function
 Downloader_onStopRequest
 (
 request
-context
 status
 )
 {
@@ -18912,7 +18909,6 @@ i
 onStopRequest
 (
 request
-context
 status
 )
 ;

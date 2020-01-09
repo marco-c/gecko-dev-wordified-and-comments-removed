@@ -7342,7 +7342,6 @@ function
 saveLinkAs_onStartRequest
 (
 aRequest
-aContext
 )
 {
 if
@@ -7527,7 +7526,6 @@ extListener
 onStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
@@ -7537,7 +7535,6 @@ function
 saveLinkAs_onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -7575,7 +7572,6 @@ extListener
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;

@@ -9547,7 +9547,6 @@ aNewChannel
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 if
@@ -9735,7 +9734,6 @@ path
 onStopRequest
 (
 aRequest
-aContext
 aStatus
 )
 {

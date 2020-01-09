@@ -319,7 +319,6 @@ listener
 onStartRequest
 (
 request
-context
 )
 {
 info
@@ -434,7 +433,6 @@ ex
 onStopRequest
 (
 request
-context
 status
 )
 {

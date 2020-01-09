@@ -1182,7 +1182,6 @@ function
 SRCH_loadStartR
 (
 aRequest
-aContext
 )
 {
 LOG
@@ -1231,7 +1230,6 @@ function
 SRCH_loadStopR
 (
 aRequest
-aContext
 aStatusCode
 )
 {

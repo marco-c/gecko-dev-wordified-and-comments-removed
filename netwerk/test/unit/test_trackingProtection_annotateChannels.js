@@ -183,7 +183,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 Assert
@@ -316,7 +315,6 @@ onStopRequest
 :
 (
 request
-context
 status
 )
 =

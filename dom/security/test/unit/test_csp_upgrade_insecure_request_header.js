@@ -274,7 +274,6 @@ prototype
 onStartRequest
 (
 request
-context
 )
 {
 }
@@ -303,7 +302,6 @@ data
 onStopRequest
 (
 request
-context
 status
 )
 {
