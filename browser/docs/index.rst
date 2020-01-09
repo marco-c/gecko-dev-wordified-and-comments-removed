@@ -37,4 +37,3 @@ maxdepth
 2
 AddressBar
 BrowserUsageTelemetry
-BrowserErrorReporter

@@ -962,11 +962,6 @@ AsyncTabSwitcher
 jsm
 '
 '
-BrowserErrorReporter
-.
-jsm
-'
-'
 BrowserUsageTelemetry
 .
 jsm
