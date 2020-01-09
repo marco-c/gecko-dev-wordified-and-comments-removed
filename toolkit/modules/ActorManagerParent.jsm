@@ -330,6 +330,9 @@ FindBarChild
 .
 jsm
 "
+allFrames
+:
+true
 events
 :
 {
