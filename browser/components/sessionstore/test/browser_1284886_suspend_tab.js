@@ -65,8 +65,6 @@ gBrowser
 discardBrowser
 (
 tab0
-.
-linkedBrowser
 )
 ;
 ok
@@ -96,8 +94,6 @@ gBrowser
 discardBrowser
 (
 tab0
-.
-linkedBrowser
 )
 ;
 ok
@@ -129,8 +125,6 @@ gBrowser
 discardBrowser
 (
 tab1
-.
-linkedBrowser
 )
 ;
 ok
@@ -193,13 +187,6 @@ gBrowser
 url
 )
 ;
-let
-browser1
-=
-tab1
-.
-linkedBrowser
-;
 await
 BrowserTestUtils
 .
@@ -213,7 +200,7 @@ gBrowser
 .
 discardBrowser
 (
-browser1
+tab1
 )
 ;
 ok
@@ -241,7 +228,7 @@ gBrowser
 .
 discardBrowser
 (
-browser1
+tab1
 true
 )
 ;
@@ -311,12 +298,6 @@ gBrowser
 url
 )
 ;
-browser1
-=
-tab1
-.
-linkedBrowser
-;
 await
 BrowserTestUtils
 .
@@ -330,7 +311,7 @@ gBrowser
 .
 discardBrowser
 (
-browser1
+tab1
 )
 ;
 ok
@@ -419,8 +400,6 @@ gBrowser
 discardBrowser
 (
 tab1
-.
-linkedBrowser
 )
 ;
 ok

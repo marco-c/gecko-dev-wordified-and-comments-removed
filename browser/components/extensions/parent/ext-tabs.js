@@ -4024,8 +4024,6 @@ gBrowser
 discardBrowser
 (
 nativeTab
-.
-linkedBrowser
 )
 ;
 }
