@@ -850,7 +850,7 @@ keepAtoms_
 (
 cx
 )
-foldConstants
+foldConstants_
 (
 foldConstants
 )
@@ -1915,7 +1915,7 @@ null
 }
 if
 (
-foldConstants
+foldConstants_
 )
 {
 Node

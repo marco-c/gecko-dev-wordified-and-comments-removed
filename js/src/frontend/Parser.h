@@ -384,7 +384,7 @@ keepAtoms_
 ;
 const
 bool
-foldConstants
+foldConstants_
 :
 1
 ;
@@ -2220,7 +2220,7 @@ using
 Base
 :
 :
-foldConstants
+foldConstants_
 ;
 using
 Base
