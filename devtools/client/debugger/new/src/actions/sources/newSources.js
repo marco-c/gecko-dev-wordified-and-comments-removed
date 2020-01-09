@@ -318,12 +318,14 @@ originalSources
 }
 )
 )
+;
 await
 sourceQueue
 .
 flush
 (
 )
+;
 return
 flatten
 (
