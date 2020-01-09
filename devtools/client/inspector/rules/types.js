@@ -99,11 +99,6 @@ isEnabled
 PropTypes
 .
 bool
-isInvisible
-:
-PropTypes
-.
-bool
 isKnownProperty
 :
 PropTypes

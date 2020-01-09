@@ -183,10 +183,8 @@ properties
 true
 )
 ;
-class
+function
 ElementStyle
-{
-constructor
 (
 element
 ruleView
@@ -347,7 +345,14 @@ onStyleSheetUpdated
 ;
 }
 }
+ElementStyle
+.
+prototype
+=
+{
 destroy
+:
+function
 (
 )
 {
@@ -422,6 +427,8 @@ onStyleSheetUpdated
 }
 }
 _changed
+:
+function
 (
 )
 {
@@ -441,6 +448,8 @@ onChanged
 }
 }
 populate
+:
+function
 (
 )
 {
@@ -629,6 +638,8 @@ populated
 ;
 }
 getRule
+:
+function
 (
 id
 )
@@ -656,6 +667,8 @@ id
 ;
 }
 getUsedFontFamilies
+:
+function
 (
 )
 {
@@ -741,6 +754,8 @@ e
 ;
 }
 _sortRulesForPseudoElement
+:
+function
 (
 )
 {
@@ -789,6 +804,8 @@ z
 ;
 }
 _maybeAddRule
+:
+function
 (
 options
 existingRules
@@ -944,6 +961,8 @@ true
 ;
 }
 markOverriddenAll
+:
+function
 (
 )
 {
@@ -983,6 +1002,8 @@ pseudo
 }
 }
 markOverridden
+:
+function
 (
 pseudo
 =
@@ -1334,6 +1355,8 @@ updateEditor
 }
 }
 addNewDeclaration
+:
+function
 (
 ruleId
 value
@@ -1415,8 +1438,10 @@ pseudoClassLocks
 )
 ;
 }
-async
 modifyDeclarationName
+:
+async
+function
 (
 ruleID
 declarationId
@@ -1526,6 +1551,8 @@ true
 }
 }
 _addMultipleDeclarations
+:
+function
 (
 rule
 declarationsToAdd
@@ -1577,6 +1604,8 @@ siblingDeclaration
 }
 }
 _getValueAndExtraProperties
+:
+function
 (
 value
 )
@@ -1707,8 +1736,10 @@ firstValue
 }
 ;
 }
-async
 modifyDeclarationValue
+:
+async
+function
 (
 ruleId
 declarationId
@@ -1852,8 +1883,10 @@ declaration
 )
 ;
 }
-async
 modifySelector
+:
+async
+function
 (
 ruleId
 selector
@@ -2103,6 +2136,8 @@ e
 }
 }
 toggleDeclaration
+:
+function
 (
 ruleId
 declarationId
@@ -2158,6 +2193,8 @@ enabled
 ;
 }
 _updatePropertyOverridden
+:
+function
 (
 prop
 )
@@ -2238,6 +2275,8 @@ dirty
 ;
 }
 getVariable
+:
+function
 (
 name
 )
@@ -2253,8 +2292,10 @@ name
 )
 ;
 }
-async
 onStyleSheetUpdated
+:
+async
+function
 (
 )
 {
@@ -2315,6 +2356,7 @@ _changed
 ;
 }
 }
+;
 module
 .
 exports

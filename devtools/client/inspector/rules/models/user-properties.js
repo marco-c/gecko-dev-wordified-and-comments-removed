@@ -3,10 +3,8 @@ use
 strict
 "
 ;
-class
+function
 UserProperties
-{
-constructor
 (
 )
 {
@@ -20,7 +18,14 @@ Map
 )
 ;
 }
+UserProperties
+.
+prototype
+=
+{
 getProperty
+:
+function
 (
 style
 name
@@ -72,6 +77,8 @@ value
 ;
 }
 setProperty
+:
+function
 (
 style
 name
@@ -143,6 +150,8 @@ props
 }
 }
 contains
+:
+function
 (
 style
 name
@@ -184,6 +193,8 @@ entry
 ;
 }
 getKey
+:
+function
 (
 style
 name
@@ -202,6 +213,8 @@ name
 ;
 }
 clear
+:
+function
 (
 )
 {
@@ -215,6 +228,7 @@ clear
 ;
 }
 }
+;
 module
 .
 exports

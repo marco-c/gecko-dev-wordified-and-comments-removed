@@ -43,10 +43,8 @@ utils
 true
 )
 ;
-class
+function
 TextProperty
-{
-constructor
 (
 rule
 name
@@ -153,6 +151,11 @@ updateComputed
 )
 ;
 }
+TextProperty
+.
+prototype
+=
+{
 get
 computedProperties
 (
@@ -232,6 +235,8 @@ name
 ;
 }
 updateEditor
+:
+function
 (
 )
 {
@@ -253,6 +258,8 @@ update
 }
 }
 updateComputed
+:
+function
 (
 )
 {
@@ -373,6 +380,8 @@ prop
 }
 }
 set
+:
+function
 (
 prop
 )
@@ -448,6 +457,8 @@ updateEditor
 }
 }
 setValue
+:
+function
 (
 value
 priority
@@ -535,6 +546,8 @@ updateEditor
 ;
 }
 updateValue
+:
+function
 (
 value
 )
@@ -564,8 +577,10 @@ updateEditor
 ;
 }
 }
-async
 setName
+:
+async
+function
 (
 name
 )
@@ -638,6 +653,8 @@ updateEditor
 ;
 }
 setEnabled
+:
+function
 (
 value
 )
@@ -660,6 +677,8 @@ updateEditor
 ;
 }
 remove
+:
+function
 (
 )
 {
@@ -674,6 +693,8 @@ this
 ;
 }
 stringifyProperty
+:
+function
 (
 )
 {
@@ -731,6 +752,8 @@ declaration
 ;
 }
 isValid
+:
+function
 (
 )
 {
@@ -783,6 +806,8 @@ isValid
 ;
 }
 isNameValid
+:
+function
 (
 )
 {
@@ -856,6 +881,7 @@ true
 ;
 }
 }
+;
 module
 .
 exports
