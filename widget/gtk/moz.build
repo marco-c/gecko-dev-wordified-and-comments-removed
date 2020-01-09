@@ -547,6 +547,11 @@ widget
 =
 [
 '
+nsWaylandDisplay
+.
+h
+'
+'
 nsWaylandDisplayShutdown
 .
 h

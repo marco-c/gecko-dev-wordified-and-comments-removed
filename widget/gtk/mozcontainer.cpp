@@ -3197,8 +3197,8 @@ MozContainer
 container
 )
 {
-gboolean
-state
+int
+ret
 =
 container
 -
@@ -3213,7 +3213,7 @@ surface_needs_clear
 false
 ;
 return
-state
+ret
 ;
 }
 #
