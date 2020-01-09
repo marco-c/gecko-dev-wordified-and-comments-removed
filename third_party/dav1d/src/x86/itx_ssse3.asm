@@ -34883,7 +34883,7 @@ inv_txfm_add_identity_identity_32x32
 8
 16
 *
-4
+5
 dst
 stride
 coeff
