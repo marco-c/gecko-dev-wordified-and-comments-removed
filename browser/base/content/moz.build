@@ -478,7 +478,11 @@ BUG_COMPONENT
 Firefox
 "
 "
-Preferences
+Site
+Identity
+and
+Permission
+Panels
 "
 )
 with
