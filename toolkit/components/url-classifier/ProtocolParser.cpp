@@ -4716,7 +4716,7 @@ has_checksum
 tuV4
 -
 >
-NewChecksum
+SetSHA256
 (
 aResponse
 .

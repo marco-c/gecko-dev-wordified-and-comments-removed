@@ -239,12 +239,12 @@ VER
 ;
 }
 nsresult
-VerifyChecksum
+VerifySHA256
 (
 const
 nsACString
 &
-aChecksum
+aSHA256
 )
 ;
 RefPtr
