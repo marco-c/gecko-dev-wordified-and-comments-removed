@@ -1210,9 +1210,14 @@ ExtensionSettings
 type
 "
 :
+[
+"
+JSON
+"
 "
 object
 "
+]
 "
 properties
 "
