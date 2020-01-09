@@ -809,6 +809,9 @@ WorkletThread
 :
 WorkletThread
 (
+WorkletImpl
+*
+aWorkletImpl
 )
 :
 nsThread
@@ -840,6 +843,10 @@ nsThread
 :
 NOT_MAIN_THREAD
 kWorkletStackSize
+)
+mWorkletImpl
+(
+aWorkletImpl
 )
 mExitLoop
 (
@@ -889,6 +896,9 @@ WorkletThread
 :
 Create
 (
+WorkletImpl
+*
+aWorkletImpl
 )
 {
 RefPtr
@@ -900,6 +910,7 @@ thread
 new
 WorkletThread
 (
+aWorkletImpl
 )
 ;
 if
@@ -1475,7 +1486,10 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 0
 )
 ;
-Terminate
+mWorkletImpl
+-
+>
+NotifyWorkletFinished
 (
 )
 ;
