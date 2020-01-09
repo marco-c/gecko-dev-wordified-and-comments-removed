@@ -1617,7 +1617,7 @@ GetProperty
 (
 cx
 obj
-obj
+vp
 cx
 -
 >
