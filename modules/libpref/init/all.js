@@ -19595,9 +19595,6 @@ js
 tree
 .
 xml
-dialog
-.
-xml
 preferencesbindings
 .
 js
