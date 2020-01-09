@@ -106,8 +106,16 @@ aPriority
 =
 =
 PROCESS_PRIORITY_BACKGROUND
-|
-|
+)
+{
+priority
+=
+IDLE_PRIORITY_CLASS
+;
+}
+else
+if
+(
 aPriority
 =
 =
@@ -116,7 +124,7 @@ PROCESS_PRIORITY_BACKGROUND_PERCEIVABLE
 {
 priority
 =
-IDLE_PRIORITY_CLASS
+BELOW_NORMAL_PRIORITY_CLASS
 ;
 }
 :
