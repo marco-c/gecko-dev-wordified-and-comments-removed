@@ -233,7 +233,7 @@ getStr
 "
 editor
 .
-addConditionalBreakpoint
+addConditionBreakpoint
 "
 )
 }
@@ -318,7 +318,7 @@ getStr
 "
 editor
 .
-editConditionalBreakpoint
+editConditionBreakpoint
 "
 )
 }
@@ -570,7 +570,7 @@ getStr
 "
 editor
 .
-addConditionalBreakpoint
+addConditionBreakpoint
 .
 accesskey
 "
