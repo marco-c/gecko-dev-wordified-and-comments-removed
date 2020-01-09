@@ -327,7 +327,10 @@ TimeoutsResponse
 pub
 script
 :
+Option
+<
 u64
+>
 #
 [
 serde
@@ -357,7 +360,10 @@ new
 (
 script
 :
+Option
+<
 u64
+>
 page_load
 :
 u64
@@ -1326,7 +1332,10 @@ TimeoutsResponse
 :
 new
 (
+Some
+(
 1
+)
 2
 3
 )

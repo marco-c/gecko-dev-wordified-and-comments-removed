@@ -402,7 +402,7 @@ fromJSON
 (
 {
 "
-script
+implicit
 "
 :
 value
