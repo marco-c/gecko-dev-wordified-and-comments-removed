@@ -2,6 +2,9 @@ job
 -
 defaults
 :
+suite
+:
+xpcshell
 variants
 :
 by
@@ -151,9 +154,6 @@ xpcshell
 test
 run
 "
-suite
-:
-xpcshell
 treeherder
 -
 symbol
