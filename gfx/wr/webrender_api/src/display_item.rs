@@ -1718,6 +1718,10 @@ pub
 blur_radius
 :
 f32
+pub
+should_inflate
+:
+bool
 }
 #
 [

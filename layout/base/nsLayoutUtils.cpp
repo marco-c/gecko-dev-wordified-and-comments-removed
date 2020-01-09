@@ -31151,6 +31151,12 @@ wrShadow
 ;
 wrShadow
 .
+should_inflate
+=
+false
+;
+wrShadow
+.
 offset
 =
 {
