@@ -1784,6 +1784,10 @@ mPrValue
 (
 value
 )
+mNegotiated
+(
+negotiated
+)
 mOrdered
 (
 ordered
@@ -1972,6 +1976,15 @@ GetMaxRetransmits
 )
 const
 ;
+bool
+GetNegotiated
+(
+)
+{
+return
+mNegotiated
+;
+}
 bool
 GetOrdered
 (
@@ -2182,6 +2195,10 @@ mPrPolicy
 ;
 uint32_t
 mPrValue
+;
+const
+bool
+mNegotiated
 ;
 const
 bool
