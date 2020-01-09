@@ -1474,10 +1474,8 @@ aPercentageBasis
 )
 ;
 }
+static
 nscoord
-nsColumnSetFrame
-:
-:
 ClampUsedColumnWidth
 (
 const
