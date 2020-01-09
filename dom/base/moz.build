@@ -1264,6 +1264,11 @@ TreeWalker
 h
 '
 '
+UIDirectionManager
+.
+h
+'
+'
 VisualViewport
 .
 h
@@ -2067,6 +2072,11 @@ cpp
 '
 '
 TreeWalker
+.
+cpp
+'
+'
+UIDirectionManager
 .
 cpp
 '
