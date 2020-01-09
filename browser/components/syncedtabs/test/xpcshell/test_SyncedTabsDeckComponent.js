@@ -228,10 +228,6 @@ SyncedTabs
 "
 syncTabs
 "
-)
-.
-callsFake
-(
 (
 )
 =
@@ -724,10 +720,6 @@ SyncedTabs
 "
 syncTabs
 "
-)
-.
-callsFake
-(
 (
 )
 =
@@ -1232,10 +1224,6 @@ fxAccounts
 "
 getSignedInUser
 "
-)
-.
-callsFake
-(
 (
 )
 =
@@ -1420,10 +1408,6 @@ SyncedTabsMock
 "
 getTabClients
 "
-)
-.
-callsFake
-(
 (
 )
 =
@@ -1504,10 +1488,6 @@ fxAccounts
 "
 getSignedInUser
 "
-)
-.
-callsFake
-(
 (
 )
 =
@@ -1551,10 +1531,6 @@ component
 "
 getPanelStatus
 "
-)
-.
-callsFake
-(
 (
 )
 =

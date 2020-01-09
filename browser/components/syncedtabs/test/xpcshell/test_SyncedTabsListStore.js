@@ -393,10 +393,6 @@ SyncedTabs
 "
 getTabClients
 "
-)
-.
-callsFake
-(
 (
 )
 =
@@ -578,10 +574,6 @@ SyncedTabs
 "
 getTabClients
 "
-)
-.
-callsFake
-(
 (
 )
 =
@@ -1051,10 +1043,6 @@ SyncedTabs
 "
 getTabClients
 "
-)
-.
-callsFake
-(
 (
 )
 =
@@ -1331,10 +1319,6 @@ SyncedTabs
 "
 getTabClients
 "
-)
-.
-callsFake
-(
 (
 )
 =
@@ -1584,10 +1568,6 @@ SyncedTabs
 "
 getTabClients
 "
-)
-.
-callsFake
-(
 (
 )
 =
@@ -1919,10 +1899,6 @@ SyncedTabs
 "
 getTabClients
 "
-)
-.
-callsFake
-(
 (
 )
 =

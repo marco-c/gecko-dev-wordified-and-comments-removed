@@ -146,7 +146,9 @@ sandbox
 =
 sinon
 .
-createSandbox
+sandbox
+.
+create
 (
 )
 ;
@@ -293,10 +295,6 @@ _internal
 "
 getTabClients
 "
-)
-.
-callsFake
-(
 (
 )
 =

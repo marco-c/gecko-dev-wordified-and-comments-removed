@@ -3025,7 +3025,7 @@ FormAutofillContent
 .
 _onFormSubmit
 .
-resetHistory
+reset
 (
 )
 ;
@@ -3129,7 +3129,7 @@ FormAutofillContent
 .
 _onFormSubmit
 .
-resetHistory
+reset
 (
 )
 ;
@@ -3217,7 +3217,7 @@ FormAutofillContent
 .
 _onFormSubmit
 .
-resetHistory
+reset
 (
 )
 ;
@@ -3322,7 +3322,7 @@ FormAutofillContent
 .
 _onFormSubmit
 .
-resetHistory
+reset
 (
 )
 ;

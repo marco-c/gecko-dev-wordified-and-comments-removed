@@ -19506,15 +19506,6 @@ js
 jszip
 .
 js
-sinon
--
-7
-.
-2
-.
-7
-.
-js
 ajv
 -
 4

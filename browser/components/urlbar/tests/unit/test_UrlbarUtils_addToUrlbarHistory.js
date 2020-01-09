@@ -64,7 +64,9 @@ sandbox
 =
 sinon
 .
-createSandbox
+sandbox
+.
+create
 (
 )
 ;
