@@ -106,6 +106,7 @@ resolve
 )
 ;
 }
+async
 function
 createDebuggerContext
 (
@@ -115,9 +116,10 @@ toolbox
 const
 panel
 =
+await
 toolbox
 .
-getPanel
+getPanelWhenReady
 (
 "
 jsdebugger
@@ -424,6 +426,7 @@ jsdebugger
 const
 dbg
 =
+await
 createDebuggerContext
 (
 toolbox
