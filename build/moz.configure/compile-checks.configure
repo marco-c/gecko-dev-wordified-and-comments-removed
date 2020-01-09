@@ -523,6 +523,11 @@ None
 when
 =
 None
+onerror
+=
+lambda
+:
+None
 )
 :
 if
@@ -579,6 +584,9 @@ header
 when
 =
 when
+onerror
+=
+onerror
 )
 header_var
 =
