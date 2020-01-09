@@ -193,6 +193,17 @@ XMLDocument
 [
 Throws
 NeedsCallerType
+Pref
+=
+"
+dom
+.
+xmldocument
+.
+load
+.
+enabled
+"
 ]
 boolean
 load
