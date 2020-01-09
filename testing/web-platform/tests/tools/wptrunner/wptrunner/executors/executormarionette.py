@@ -5866,18 +5866,7 @@ None
 )
 :
         
-self
-.
-teardown
-(
-)
-        
-self
-.
-setup
-(
-screenshot
-)
+pass
     
 def
 run_test
