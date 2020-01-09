@@ -7396,13 +7396,6 @@ SetWrBridge
 this
 )
 ;
-wrHost
--
->
-EnableUseAsyncImagePipeline
-(
-)
-;
 mAsyncCompositables
 .
 emplace
