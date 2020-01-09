@@ -1324,6 +1324,7 @@ aAction
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsEventStatus
 OnLongPress
 (
@@ -1360,6 +1361,7 @@ TapGestureInput
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsEventStatus
 OnDoubleTap
 (

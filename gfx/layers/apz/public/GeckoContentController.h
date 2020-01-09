@@ -39,6 +39,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DefineEnum
 .
 h
@@ -149,6 +158,7 @@ eLongTapUp
 )
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 HandleTap
