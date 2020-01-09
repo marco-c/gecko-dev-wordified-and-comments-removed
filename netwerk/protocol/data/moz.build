@@ -94,6 +94,11 @@ net
 =
 [
 '
+DataChannelChild
+.
+h
+'
+'
 DataChannelParent
 .
 h
@@ -103,6 +108,11 @@ EXPORTS
 +
 =
 [
+'
+nsDataChannel
+.
+h
+'
 '
 nsDataHandler
 .

@@ -101,6 +101,10 @@ h
 #
 include
 "
+mozilla
+/
+net
+/
 PrivateBrowsingChannel
 .
 h

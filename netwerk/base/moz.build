@@ -725,6 +725,11 @@ nsAsyncRedirectVerifyHelper
 h
 '
 '
+nsBaseChannel
+.
+h
+'
+'
 nsFileStreams
 .
 h
@@ -877,6 +882,11 @@ h
 '
 '
 Predictor
+.
+h
+'
+'
+PrivateBrowsingChannel
 .
 h
 '
