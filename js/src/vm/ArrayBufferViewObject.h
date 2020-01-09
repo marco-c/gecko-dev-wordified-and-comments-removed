@@ -250,9 +250,6 @@ obj
 void
 notifyBufferDetached
 (
-void
-*
-newData
 )
 ;
 uint8_t
