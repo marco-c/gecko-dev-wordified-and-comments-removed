@@ -7,6 +7,14 @@ bash
 set
 -
 e
+export
+GITHUB_PULL_REQUEST
+=
+TRAVIS_PULL_REQUEST
+export
+GITHUB_BRANCH
+=
+TRAVIS_BRANCH
 if
 [
 [
