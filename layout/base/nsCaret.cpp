@@ -362,10 +362,7 @@ nsBlockFrame
 *
 blockParent
 =
-nsLayoutUtils
-:
-:
-GetAsBlock
+do_QueryFrame
 (
 parent
 )

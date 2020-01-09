@@ -6919,10 +6919,7 @@ nsBlockFrame
 *
 block
 =
-nsLayoutUtils
-:
-:
-GetAsBlock
+do_QueryFrame
 (
 aLineContainer
 )
@@ -27803,10 +27800,7 @@ nsBlockFrame
 *
 fBlock
 =
-nsLayoutUtils
-:
-:
-GetAsBlock
+do_QueryFrame
 (
 f
 )
@@ -46753,10 +46747,7 @@ nsBlockFrame
 *
 parentBlock
 =
-nsLayoutUtils
-:
-:
-GetAsBlock
+do_QueryFrame
 (
 parent
 )
@@ -53287,10 +53278,7 @@ nsBlockFrame
 *
 fBlock
 =
-nsLayoutUtils
-:
-:
-GetAsBlock
+do_QueryFrame
 (
 f
 )

@@ -6618,10 +6618,7 @@ nsBlockFrame
 *
 blockFrame
 =
-nsLayoutUtils
-:
-:
-GetAsBlock
+do_QueryFrame
 (
 containingBlock
 -
