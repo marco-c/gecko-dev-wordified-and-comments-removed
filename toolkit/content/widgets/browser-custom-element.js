@@ -2354,9 +2354,9 @@ browsingContext
 ;
 }
 return
-ChromeUtils
+BrowsingContext
 .
-getBrowsingContext
+get
 (
 this
 .

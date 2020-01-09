@@ -461,6 +461,11 @@ BrowsingContext
 h
 '
 '
+BrowsingContextGroup
+.
+h
+'
+'
 CanonicalBrowsingContext
 .
 h
@@ -477,6 +482,11 @@ UNIFIED_SOURCES
 [
 '
 BrowsingContext
+.
+cpp
+'
+'
+BrowsingContextGroup
 .
 cpp
 '
