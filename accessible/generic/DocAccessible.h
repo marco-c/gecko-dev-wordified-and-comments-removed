@@ -1436,12 +1436,7 @@ DocAccessibleChild
 *
 aIPCDoc
 )
-{
-mIPCDoc
-=
-aIPCDoc
 ;
-}
 friend
 class
 DocAccessibleChildBase
