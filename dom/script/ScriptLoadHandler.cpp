@@ -1572,15 +1572,8 @@ return
 NS_OK
 ;
 }
-mRequest
--
->
-SetTextSource
-(
-)
-;
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
 }
 }
