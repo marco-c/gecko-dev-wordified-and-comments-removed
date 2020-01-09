@@ -147,6 +147,9 @@ geckodriver
 SPHINX_TREES
 [
 "
+/
+testing
+/
 geckodriver
 "
 ]
@@ -157,12 +160,12 @@ doc
 with
 Files
 (
-'
+"
 doc
 /
 *
 *
-'
+"
 )
 :
 SCHEDULES
@@ -170,7 +173,7 @@ SCHEDULES
 exclusive
 =
 [
-'
+"
 docs
-'
+"
 ]

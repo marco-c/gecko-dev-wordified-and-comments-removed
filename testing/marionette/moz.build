@@ -164,6 +164,9 @@ ui
 SPHINX_TREES
 [
 "
+/
+testing
+/
 marionette
 "
 ]
