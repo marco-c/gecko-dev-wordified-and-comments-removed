@@ -4445,6 +4445,8 @@ AsTouchEvent
 )
 )
 aGuid
+.
+mLayersId
 aInputBlockId
 )
 ;
@@ -4509,6 +4511,8 @@ AsWheelEvent
 )
 )
 aGuid
+.
+mLayersId
 aInputBlockId
 )
 ;
@@ -4590,6 +4594,8 @@ AsMouseEvent
 )
 )
 aGuid
+.
+mLayersId
 aInputBlockId
 )
 ;

@@ -452,9 +452,9 @@ WidgetGUIEvent
 &
 aEvent
 const
-ScrollableLayerGuid
+LayersId
 &
-aGuid
+aLayersId
 uint64_t
 aInputBlockId
 )
