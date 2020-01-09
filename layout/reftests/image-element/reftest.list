@@ -102,6 +102,15 @@ fails
 if
 (
 azureSkia
+&
+&
+!
+(
+webrender
+&
+&
+winWidget
+)
 )
 fails
 -
