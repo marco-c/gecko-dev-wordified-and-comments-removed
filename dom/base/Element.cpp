@@ -11675,7 +11675,6 @@ this
 aNamespaceID
 aName
 modType
-nullptr
 )
 ;
 }
@@ -11872,8 +11871,6 @@ this
 aNamespaceID
 aName
 modType
-&
-aParsedValue
 )
 ;
 }
@@ -13301,7 +13298,6 @@ MutationEvent_Binding
 :
 :
 REMOVAL
-nullptr
 )
 ;
 }

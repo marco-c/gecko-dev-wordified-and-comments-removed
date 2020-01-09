@@ -156,10 +156,6 @@ nsAtom
 aAttribute
 int32_t
 aModType
-const
-nsAttrValue
-*
-aNewValue
 )
 =
 0
@@ -355,11 +351,6 @@ aAttribute
 \
 int32_t
 aModType
-\
-const
-nsAttrValue
-*
-aNewValue
 )
 override
 ;
@@ -599,10 +590,6 @@ nsAtom
 aAttribute
 int32_t
 aModType
-const
-nsAttrValue
-*
-aNewValue
 )
 {
 }
