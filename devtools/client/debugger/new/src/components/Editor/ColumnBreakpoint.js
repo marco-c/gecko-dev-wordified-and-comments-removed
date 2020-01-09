@@ -42,7 +42,7 @@ editor
 "
 ;
 import
-Svg
+BreakpointSvg
 from
 "
 .
@@ -50,7 +50,7 @@ from
 /
 shared
 /
-Svg
+BreakpointSvg
 "
 ;
 import
@@ -172,15 +172,11 @@ ReactDOM
 render
 (
 <
-Svg
-name
+BreakpointSvg
+column
 =
 {
-"
-column
--
-marker
-"
+true
 }
 /
 >

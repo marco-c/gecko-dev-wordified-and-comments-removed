@@ -25,7 +25,7 @@ classnames
 "
 ;
 import
-Svg
+BreakpointSvg
 from
 "
 .
@@ -33,7 +33,7 @@ from
 /
 shared
 /
-Svg
+BreakpointSvg
 "
 ;
 import
@@ -178,12 +178,12 @@ ReactDOM
 render
 (
 <
-Svg
-name
+BreakpointSvg
+column
 =
-"
-breakpoint
-"
+{
+false
+}
 /
 >
 breakpointSvg
