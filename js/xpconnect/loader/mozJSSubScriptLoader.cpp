@@ -848,7 +848,7 @@ return
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 options
@@ -860,7 +860,7 @@ return
 JS
 :
 :
-CompileForNonSyntacticScope
+CompileForNonSyntacticScopeDontInflate
 (
 cx
 options
