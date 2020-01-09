@@ -26421,12 +26421,6 @@ EnableOrientationChangeListener
 (
 )
 {
-nsIDocShell
-*
-docShell
-=
-nullptr
-;
 if
 (
 !
@@ -26435,7 +26429,9 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
-docShell
+GetDocShell
+(
+)
 )
 &
 &
@@ -27360,6 +27356,9 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
+GetDocShell
+(
+)
 )
 )
 {
