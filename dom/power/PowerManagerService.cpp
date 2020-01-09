@@ -719,7 +719,7 @@ mozilla
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_SOCKET_PROCESS
 }
 {
 nullptr
@@ -750,7 +750,7 @@ mozilla
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_SOCKET_PROCESS
 }
 {
 nullptr
@@ -785,7 +785,7 @@ mozilla
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_SOCKET_PROCESS
 }
 ;
 NSMODULE_DEFN

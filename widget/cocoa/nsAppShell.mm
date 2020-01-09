@@ -1950,6 +1950,14 @@ XRE_GetProcessType
 !
 =
 GeckoProcessType_RDD
+&
+&
+XRE_GetProcessType
+(
+)
+!
+=
+GeckoProcessType_Socket
 )
 {
 /
