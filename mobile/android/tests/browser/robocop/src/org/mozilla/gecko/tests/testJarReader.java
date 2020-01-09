@@ -219,7 +219,7 @@ url
 /
 chrome
 /
-chrome
+geckoview
 /
 content
 /
