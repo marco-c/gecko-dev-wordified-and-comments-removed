@@ -937,10 +937,6 @@ Vec
 <
 DirtyRegion
 >
-pub
-clip_chain_stack
-:
-ClipChainStack
 }
 impl
 <
@@ -1842,14 +1838,6 @@ surfaces
 dirty_region_stack
 :
 Vec
-:
-:
-new
-(
-)
-clip_chain_stack
-:
-ClipChainStack
 :
 :
 new
