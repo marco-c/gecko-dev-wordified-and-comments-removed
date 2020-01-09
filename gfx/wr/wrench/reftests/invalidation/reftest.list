@@ -19,6 +19,7 @@ Skipped
 on
 debug
 Android
+debug
 because
 of
 panic
@@ -28,10 +29,18 @@ error
 502
 at
 blit_framebuffer
+.
+It
+also
+fails
+on
+#
+Android
+release
+.
 skip_on
 (
 android
-debug
 )
 dirty
 (

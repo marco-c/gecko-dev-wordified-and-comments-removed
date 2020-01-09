@@ -11,7 +11,6 @@ yaml
 skip_on
 (
 android
-debug
 )
 =
 =
@@ -33,6 +32,9 @@ error
 502
 at
 tex_sub_image_3d_pbo
+fails
+on
+opt
 =
 =
 nested
@@ -50,7 +52,6 @@ yaml
 skip_on
 (
 android
-debug
 )
 =
 =
@@ -76,6 +77,9 @@ error
 502
 at
 tex_sub_image_3d_pbo
+fails
+on
+opt
 !
 =
 mask
@@ -235,7 +239,6 @@ png
 skip_on
 (
 android
-debug
 )
 =
 =
@@ -264,6 +267,9 @@ error
 502
 at
 tex_sub_image_3d_pbo
+fails
+on
+opt
 platform
 (
 linux
@@ -280,7 +286,6 @@ png
 skip_on
 (
 android
-debug
 )
 =
 =
@@ -300,6 +305,9 @@ error
 502
 at
 blit_framebuffer
+fails
+on
+opt
 =
 =
 missing

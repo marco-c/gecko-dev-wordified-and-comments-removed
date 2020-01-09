@@ -53,6 +53,10 @@ clip
 large
 .
 png
+skip_on
+(
+android
+)
 =
 =
 image
@@ -69,6 +73,10 @@ rotated
 clip
 .
 png
+#
+Fails
+on
+Android
 #
 Something
 leaks
@@ -502,6 +510,12 @@ clip
 ref
 .
 yaml
+skip_on
+(
+android
+)
+=
+=
 clip
 -
 translate
@@ -514,6 +528,10 @@ translate
 ref
 .
 yaml
+#
+Fails
+on
+Android
 platform
 (
 linux

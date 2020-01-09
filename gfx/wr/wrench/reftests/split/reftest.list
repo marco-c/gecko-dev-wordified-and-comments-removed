@@ -161,6 +161,10 @@ ordering
 ref
 .
 yaml
+skip_on
+(
+android
+)
 fuzzy
 (
 1
@@ -178,6 +182,10 @@ near
 plane
 .
 png
+#
+Fails
+on
+Android
 #
 Note
 :

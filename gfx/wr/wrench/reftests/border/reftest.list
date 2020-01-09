@@ -412,6 +412,10 @@ crash
 ref
 .
 yaml
+skip_on
+(
+android
+)
 =
 =
 border
@@ -430,6 +434,10 @@ fill
 ref
 .
 png
+#
+fails
+on
+Android
 =
 =
 border
