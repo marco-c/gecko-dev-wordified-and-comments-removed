@@ -204,6 +204,10 @@ aData
 nsIPrincipal
 *
 aLoadingPrincipal
+const
+OriginAttributes
+&
+aStoragePrincipalAttrs
 )
 ;
 already_AddRefed
@@ -229,6 +233,10 @@ aName
 nsIPrincipal
 *
 aLoadingPrincipal
+const
+OriginAttributes
+&
+aStoragePrincipalAttrs
 )
 ;
 void
@@ -346,6 +354,10 @@ aData
 nsIPrincipal
 *
 aLoadingPrincipal
+const
+OriginAttributes
+&
+aStoragePrincipalAttrs
 )
 ;
 ~
@@ -367,6 +379,9 @@ mLoadingPrincipal
 ;
 nsCString
 mDomain
+;
+OriginAttributes
+mStoragePrincipalAttrs
 ;
 nsCOMPtr
 <
