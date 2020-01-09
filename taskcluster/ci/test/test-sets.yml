@@ -1211,6 +1211,16 @@ reftest
 xpcshell
 linux
 -
+qr
+-
+smoketests
+:
+-
+crashtest
+-
+reftest
+linux
+-
 talos
 -
 flex
