@@ -5307,7 +5307,7 @@ world_rect
 *
 ctx
 .
-device_pixel_scale
+global_device_pixel_scale
 )
 .
 round

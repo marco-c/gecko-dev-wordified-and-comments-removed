@@ -166,8 +166,6 @@ snap_device_pos
 vi
 pic_task
 .
-common_data
-.
 device_pixel_scale
 )
 ;

@@ -3535,7 +3535,7 @@ world_ref_point
 *
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 ;
 let
 device_world_rect
@@ -3546,7 +3546,7 @@ screen_world_rect
 *
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 ;
 let
 pic_device_rect
@@ -3555,7 +3555,7 @@ pic_world_rect
 *
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 ;
 let
 needed_device_rect
@@ -3825,7 +3825,7 @@ scroll_delta
 *
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 ;
 let
 key
@@ -3887,7 +3887,7 @@ x
 /
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 .
 0
 p0
@@ -3896,7 +3896,7 @@ y
 /
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 .
 0
 )
@@ -3916,7 +3916,7 @@ f32
 /
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 .
 0
 tile_height
@@ -3925,7 +3925,7 @@ f32
 /
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 .
 0
 )
@@ -4078,14 +4078,14 @@ px
 /
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 .
 0
 py
 /
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 .
 0
 )
@@ -6409,7 +6409,7 @@ world_rect
 *
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 ;
 let
 mut
@@ -6588,7 +6588,7 @@ world_rect
 *
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 debug_colors
 :
 :
@@ -6657,7 +6657,7 @@ origin
 *
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 )
 .
 round
@@ -6743,7 +6743,7 @@ valid_rect
 *
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 )
 .
 round
@@ -7585,6 +7585,10 @@ pub
 inflation_factor
 :
 f32
+pub
+device_pixel_scale
+:
+DevicePixelScale
 }
 impl
 SurfaceInfo
@@ -7609,6 +7613,9 @@ clip_scroll_tree
 :
 &
 ClipScrollTree
+device_pixel_scale
+:
+DevicePixelScale
 )
 -
 >
@@ -7688,6 +7695,7 @@ new
 (
 )
 inflation_factor
+device_pixel_scale
 }
 }
 pub
@@ -10948,6 +10956,9 @@ screen_world_rect
 frame_context
 .
 clip_scroll_tree
+frame_context
+.
+global_device_pixel_scale
 )
 ;
 self
@@ -11685,6 +11696,7 @@ let
 (
 raster_spatial_node_index
 child_tasks
+device_pixel_scale
 )
 =
 {
@@ -11713,6 +11725,9 @@ surface_info
 take_render_tasks
 (
 )
+surface_info
+.
+device_pixel_scale
 )
 }
 ;
@@ -11778,8 +11793,6 @@ map_pic_to_raster
 &
 map_raster_to_world
 clipped_prim_bounding_rect
-frame_context
-.
 device_pixel_scale
 )
 {
@@ -11871,8 +11884,6 @@ blur_std_deviation
 =
 blur_radius
 *
-frame_context
-.
 device_pixel_scale
 .
 0
@@ -11897,8 +11908,6 @@ inflation_factor
 (
 inflation_factor
 *
-frame_context
-.
 device_pixel_scale
 .
 0
@@ -11962,8 +11971,6 @@ pic_rect
 transform
 &
 device_rect
-frame_context
-.
 device_pixel_scale
 true
 )
@@ -11998,6 +12005,7 @@ uv_rect_kind
 pic_context
 .
 raster_spatial_node_index
+device_pixel_scale
 )
 ;
 let
@@ -12092,8 +12100,6 @@ blur_std_deviation
 =
 blur_radius
 *
-frame_context
-.
 device_pixel_scale
 .
 0
@@ -12174,8 +12180,6 @@ pic_rect
 transform
 &
 device_rect
-frame_context
-.
 device_pixel_scale
 true
 )
@@ -12211,6 +12215,7 @@ uv_rect_kind
 pic_context
 .
 raster_spatial_node_index
+device_pixel_scale
 )
 ;
 picture_task
@@ -12430,8 +12435,6 @@ pic_rect
 transform
 &
 clipped
-frame_context
-.
 device_pixel_scale
 true
 )
@@ -12466,6 +12469,7 @@ uv_rect_kind
 pic_context
 .
 raster_spatial_node_index
+device_pixel_scale
 )
 ;
 let
@@ -12646,8 +12650,6 @@ pic_rect
 transform
 &
 clipped
-frame_context
-.
 device_pixel_scale
 true
 )
@@ -12682,6 +12684,7 @@ uv_rect_kind
 pic_context
 .
 raster_spatial_node_index
+device_pixel_scale
 )
 ;
 let
@@ -12764,8 +12767,6 @@ pic_rect
 transform
 &
 clipped
-frame_context
-.
 device_pixel_scale
 supports_snapping
 )
@@ -12800,6 +12801,7 @@ uv_rect_kind
 pic_context
 .
 raster_spatial_node_index
+device_pixel_scale
 )
 ;
 let

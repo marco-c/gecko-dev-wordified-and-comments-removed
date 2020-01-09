@@ -474,8 +474,6 @@ device_scale
 =
 task
 .
-common_data
-.
 device_pixel_scale
 /
 transform
@@ -978,8 +976,6 @@ xy
 *
 task
 .
-common_data
-.
 device_pixel_scale
 ;
 /
@@ -1238,8 +1234,6 @@ m
 *
 task
 .
-common_data
-.
 device_pixel_scale
 ;
 /
@@ -1303,8 +1297,6 @@ res
 scale
 /
 task
-.
-common_data
 .
 device_pixel_scale
 ;

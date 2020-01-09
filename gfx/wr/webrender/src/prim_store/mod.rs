@@ -4750,10 +4750,6 @@ pic_state
 &
 mut
 PictureState
-frame_context
-:
-&
-FrameBuildingContext
 frame_state
 :
 &
@@ -4771,6 +4767,9 @@ DeviceRect
 prim_snap_offsets
 :
 SnapOffsets
+device_pixel_scale
+:
+DevicePixelScale
 )
 -
 >
@@ -4891,8 +4890,6 @@ pic_state
 .
 map_raster_to_world
 segment_world_rect
-frame_context
-.
 device_pixel_scale
 )
 {
@@ -4947,6 +4944,7 @@ frame_state
 render_tasks
 clip_data_store
 snap_offsets
+device_pixel_scale
 )
 ;
 let
@@ -8690,7 +8688,7 @@ gpu_cache
 frame_state
 .
 resource_cache
-frame_context
+surface
 .
 device_pixel_scale
 &
@@ -9101,7 +9099,7 @@ clipped_world_rect
 *
 frame_context
 .
-device_pixel_scale
+global_device_pixel_scale
 ;
 frame_state
 .
@@ -10809,6 +10807,22 @@ is_chased
 (
 )
 ;
+let
+device_pixel_scale
+=
+frame_state
+.
+surfaces
+[
+pic_context
+.
+surface_index
+.
+0
+]
+.
+device_pixel_scale
+;
 match
 &
 mut
@@ -10921,8 +10935,6 @@ new
 0
 )
 *
-frame_context
-.
 device_pixel_scale
 ;
 let
@@ -11124,8 +11136,6 @@ font
 prim_data
 .
 glyphs
-frame_context
-.
 device_pixel_scale
 &
 transform
@@ -11296,8 +11306,6 @@ scale
 =
 world_scale
 *
-frame_context
-.
 device_pixel_scale
 ;
 let
@@ -14068,6 +14076,9 @@ DeviceRect
 prim_snap_offsets
 :
 SnapOffsets
+device_pixel_scale
+:
+DevicePixelScale
 )
 -
 >
@@ -14458,7 +14469,6 @@ pic_context
 .
 surface_index
 pic_state
-frame_context
 frame_state
 &
 mut
@@ -14467,6 +14477,7 @@ data_stores
 clip
 unclipped
 prim_snap_offsets
+device_pixel_scale
 )
 ;
 clip_mask_instances
@@ -14561,8 +14572,6 @@ gpu_cache
 frame_state
 .
 resource_cache
-frame_context
-.
 device_pixel_scale
 &
 dirty_world_rect
@@ -14593,7 +14602,6 @@ pic_context
 .
 surface_index
 pic_state
-frame_context
 frame_state
 &
 mut
@@ -14602,6 +14610,7 @@ data_stores
 clip
 unclipped
 prim_snap_offsets
+device_pixel_scale
 )
 ;
 clip_mask_instances
@@ -14681,6 +14690,22 @@ as
 usize
 ]
 ;
+let
+device_pixel_scale
+=
+frame_state
+.
+surfaces
+[
+pic_context
+.
+surface_index
+.
+0
+]
+.
+device_pixel_scale
+;
 if
 self
 .
@@ -14734,8 +14759,6 @@ pic_clip_rect
 pic_state
 .
 map_pic_to_raster
-frame_context
-.
 device_pixel_scale
 frame_context
 frame_state
@@ -14809,6 +14832,7 @@ clip_mask_instances
 &
 unclipped
 prim_snap_offsets
+device_pixel_scale
 )
 {
 if
@@ -14866,8 +14890,6 @@ map_raster_to_world
 prim_info
 .
 clipped_world_rect
-frame_context
-.
 device_pixel_scale
 )
 {
@@ -14904,6 +14926,7 @@ data_stores
 .
 clip
 snap_offsets
+device_pixel_scale
 )
 ;
 let

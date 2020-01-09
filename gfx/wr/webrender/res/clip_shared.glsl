@@ -432,8 +432,6 @@ device_pos
 /
 area
 .
-common_data
-.
 device_pixel_scale
 ;
 vec4

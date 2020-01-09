@@ -450,8 +450,6 @@ xy
 *
 dest_task
 .
-common_data
-.
 device_pixel_scale
 world_pos
 .

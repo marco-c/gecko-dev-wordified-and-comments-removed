@@ -570,8 +570,6 @@ m
 visible_rect
 task
 .
-common_data
-.
 device_pixel_scale
 )
 ;
@@ -622,8 +620,6 @@ world_pos
 xy
 *
 task
-.
-common_data
 .
 device_pixel_scale
 ;
@@ -1231,8 +1227,6 @@ xy
 *
 task
 .
-common_data
-.
 device_pixel_scale
 +
 task_offset
@@ -1320,8 +1314,6 @@ world_pos
 xy
 *
 area
-.
-common_data
 .
 device_pixel_scale
 +
