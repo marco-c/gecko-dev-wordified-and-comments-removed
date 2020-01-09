@@ -39,7 +39,7 @@ lazyRequireGetter
 (
 this
 "
-WebConsoleFrame
+WebConsoleUI
 "
 "
 devtools
@@ -50,7 +50,7 @@ webconsole
 /
 webconsole
 -
-frame
+ui
 "
 true
 )
@@ -222,7 +222,7 @@ this
 ui
 =
 new
-WebConsoleFrame
+WebConsoleUI
 (
 this
 )

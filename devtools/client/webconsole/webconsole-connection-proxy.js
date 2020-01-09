@@ -61,15 +61,15 @@ timeout
 function
 WebConsoleConnectionProxy
 (
-webConsoleFrame
+webConsoleUI
 target
 )
 {
 this
 .
-webConsoleFrame
+webConsoleUI
 =
-webConsoleFrame
+webConsoleUI
 ;
 this
 .
@@ -247,7 +247,7 @@ WebConsoleConnectionProxy
 prototype
 =
 {
-webConsoleFrame
+webConsoleUI
 :
 null
 target
@@ -494,7 +494,7 @@ isBrowsingContext
 {
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 onLocationChange
 (
@@ -685,7 +685,7 @@ if
 (
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 isBrowserConsole
 )
@@ -697,7 +697,7 @@ false
 }
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 setSaveRequestAndResponseBodies
 (
@@ -764,14 +764,6 @@ _onCachedMessages
 cachedMessages
 )
 ;
-this
-.
-webConsoleFrame
-.
-_onUpdateListeners
-(
-)
-;
 }
 dispatchMessageAdd
 :
@@ -782,7 +774,7 @@ packet
 {
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 wrapper
 .
@@ -801,7 +793,7 @@ packets
 {
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 wrapper
 .
@@ -821,7 +813,7 @@ response
 {
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 wrapper
 .
@@ -842,7 +834,7 @@ data
 {
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 wrapper
 .
@@ -989,7 +981,7 @@ hasNativeConsoleAPI
 await
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 logWarningAboutReplacedAPI
 (
@@ -1025,7 +1017,7 @@ if
 !
 this
 .
-webConsoleFrame
+webConsoleUI
 |
 |
 packet
@@ -1064,7 +1056,7 @@ if
 !
 this
 .
-webConsoleFrame
+webConsoleUI
 |
 |
 packet
@@ -1103,7 +1095,7 @@ if
 !
 this
 .
-webConsoleFrame
+webConsoleUI
 |
 |
 packet
@@ -1142,7 +1134,7 @@ if
 !
 this
 .
-webConsoleFrame
+webConsoleUI
 )
 {
 return
@@ -1203,7 +1195,7 @@ if
 !
 this
 .
-webConsoleFrame
+webConsoleUI
 )
 {
 return
@@ -1229,7 +1221,7 @@ if
 !
 this
 .
-webConsoleFrame
+webConsoleUI
 )
 {
 return
@@ -1258,7 +1250,7 @@ if
 (
 this
 .
-webConsoleFrame
+webConsoleUI
 &
 &
 packet
@@ -1275,7 +1267,7 @@ actor
 {
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 clearPrivateMessages
 (
@@ -1295,7 +1287,7 @@ if
 !
 this
 .
-webConsoleFrame
+webConsoleUI
 )
 {
 return
@@ -1303,7 +1295,7 @@ return
 }
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 handleTabNavigated
 (
@@ -1323,7 +1315,7 @@ if
 !
 this
 .
-webConsoleFrame
+webConsoleUI
 )
 {
 return
@@ -1331,7 +1323,7 @@ return
 }
 this
 .
-webConsoleFrame
+webConsoleUI
 .
 handleTabWillNavigate
 (
@@ -1586,7 +1578,7 @@ false
 ;
 this
 .
-webConsoleFrame
+webConsoleUI
 =
 null
 ;

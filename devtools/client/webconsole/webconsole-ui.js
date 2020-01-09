@@ -205,8 +205,10 @@ webconsole
 sidebarToggle
 "
 ;
-function
-WebConsoleFrame
+class
+WebConsoleUI
+{
+constructor
 (
 webConsoleOwner
 )
@@ -294,11 +296,6 @@ this
 )
 ;
 }
-WebConsoleFrame
-.
-prototype
-=
-{
 get
 webConsoleClient
 (
@@ -733,11 +730,6 @@ this
 wrapper
 ;
 }
-_onUpdateListeners
-(
-)
-{
-}
 logWarningAboutReplacedAPI
 (
 )
@@ -764,11 +756,6 @@ ConsoleAPIDisabled
 "
 )
 ;
-}
-handleNetworkEventUpdate
-(
-)
-{
 }
 async
 setSaveRequestAndResponseBodies
@@ -820,8 +807,6 @@ toSet
 ;
 }
 _initConnection
-:
-function
 (
 )
 {
@@ -915,8 +900,6 @@ promise
 ;
 }
 _initUI
-:
-function
 (
 )
 {
@@ -1055,8 +1038,6 @@ _onChangeSplitConsoleState
 }
 }
 _initOutputSyntaxHighlighting
-:
-function
 (
 )
 {
@@ -1178,8 +1159,6 @@ this
 ;
 }
 _initShortcuts
-:
-function
 (
 )
 {
@@ -1442,8 +1421,6 @@ focus
 }
 }
 onLocationChange
-:
-function
 (
 uri
 title
@@ -1477,8 +1454,6 @@ title
 }
 }
 _releaseObject
-:
-function
 (
 actor
 )
@@ -1502,8 +1477,6 @@ actor
 }
 }
 _onToolboxPrefChanged
-:
-function
 (
 )
 {
@@ -1530,8 +1503,6 @@ newValue
 ;
 }
 _onPanelSelected
-:
-function
 (
 )
 {
@@ -1545,8 +1516,6 @@ focus
 ;
 }
 _onChangeSplitConsoleState
-:
-function
 (
 )
 {
@@ -1559,10 +1528,8 @@ dispatchSplitConsoleCloseButtonToggle
 )
 ;
 }
-handleTabNavigated
-:
 async
-function
+handleTabNavigated
 (
 packet
 )
@@ -1622,8 +1589,6 @@ reloaded
 ;
 }
 handleTabWillNavigate
-:
-function
 (
 packet
 )
@@ -1659,7 +1624,6 @@ title
 }
 }
 }
-;
 function
 quickRestart
 (
@@ -1751,7 +1715,7 @@ eRestart
 }
 exports
 .
-WebConsoleFrame
+WebConsoleUI
 =
-WebConsoleFrame
+WebConsoleUI
 ;

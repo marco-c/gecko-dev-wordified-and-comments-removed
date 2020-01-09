@@ -170,14 +170,14 @@ js
 '
 webconsole
 -
-frame
+l10n
 .
 js
 '
 '
 webconsole
 -
-l10n
+ui
 .
 js
 '
