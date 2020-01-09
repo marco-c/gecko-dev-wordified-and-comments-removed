@@ -737,6 +737,8 @@ source
 stylesheetText
 +
 =
+\
+n
 /
 *
 {
@@ -785,6 +787,11 @@ ruleId
 rule
 0
 )
++
+"
+\
+n
+"
 ;
 return
 str

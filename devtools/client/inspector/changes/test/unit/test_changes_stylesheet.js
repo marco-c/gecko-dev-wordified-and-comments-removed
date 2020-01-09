@@ -106,10 +106,6 @@ red
 }
 }
 }
-.
-trim
-(
-)
 ;
 const
 STYLESHEET_FOR_DESCENDANT
@@ -156,10 +152,6 @@ color
 red
 ;
 }
-.
-trim
-(
-)
 ;
 add_test
 (
