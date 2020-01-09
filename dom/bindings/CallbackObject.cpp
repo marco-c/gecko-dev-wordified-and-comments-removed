@@ -116,6 +116,15 @@ h
 #
 include
 "
+js
+/
+ContextOptions
+.
+h
+"
+#
+include
+"
 nsJSPrincipals
 .
 h
