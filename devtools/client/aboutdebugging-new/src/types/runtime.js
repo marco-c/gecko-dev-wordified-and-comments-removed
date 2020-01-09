@@ -373,6 +373,13 @@ PropTypes
 bool
 .
 isRequired
+isFenix
+:
+PropTypes
+.
+bool
+.
+isRequired
 isUnavailable
 :
 PropTypes
