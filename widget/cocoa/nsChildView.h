@@ -227,6 +227,9 @@ WidgetRenderingContext
 ;
 }
 }
+class
+PixelHostingView
+;
 interface
 NSEvent
 (
@@ -417,6 +420,10 @@ NSView
 *
 mNonDraggableViewsContainer
 ;
+PixelHostingView
+*
+mPixelHostingView
+;
 NSInteger
 mLastPressureStage
 ;
@@ -554,6 +561,13 @@ NSView
 *
 )
 nonDraggableViewsContainer
+;
+-
+(
+NSView
+*
+)
+pixelHostingView
 ;
 -
 (
