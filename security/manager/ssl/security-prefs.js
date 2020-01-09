@@ -867,10 +867,11 @@ false
 if
 defined
 (
-RELEASE_OR_BETA
+MOZ_NEW_CERT_STORAGE
 )
-|
-|
+&
+&
+!
 defined
 (
 MOZ_WIDGET_ANDROID
@@ -886,7 +887,7 @@ intermediates
 .
 enabled
 "
-false
+true
 )
 ;
 #
@@ -902,7 +903,7 @@ intermediates
 .
 enabled
 "
-true
+false
 )
 ;
 #
