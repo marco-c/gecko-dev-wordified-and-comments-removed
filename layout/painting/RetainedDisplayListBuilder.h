@@ -327,6 +327,9 @@ aList
 AnimatedGeometryRoot
 *
 aAGR
+PartialUpdateResult
+&
+aUpdated
 uint32_t
 aCallerKey
 =
@@ -335,6 +338,10 @@ uint32_t
 aNestingDepth
 =
 0
+bool
+aKeepLinked
+=
+false
 )
 ;
 bool
