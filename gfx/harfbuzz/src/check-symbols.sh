@@ -199,7 +199,7 @@ so
 grep
 '
 [
-BCDGINRSTVW
+BCDGINRST
 ]
 .
 '

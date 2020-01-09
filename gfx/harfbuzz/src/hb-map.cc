@@ -11,7 +11,6 @@ hb_map_t
 *
 hb_map_create
 (
-void
 )
 {
 hb_map_t
@@ -52,7 +51,6 @@ hb_map_t
 *
 hb_map_get_empty
 (
-void
 )
 {
 return

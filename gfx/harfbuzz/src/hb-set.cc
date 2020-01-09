@@ -11,7 +11,6 @@ hb_set_t
 *
 hb_set_create
 (
-void
 )
 {
 hb_set_t
@@ -52,7 +51,6 @@ hb_set_t
 *
 hb_set_get_empty
 (
-void
 )
 {
 return
@@ -476,6 +474,7 @@ hb_set_invert
 hb_set_t
 *
 set
+HB_UNUSED
 )
 {
 }

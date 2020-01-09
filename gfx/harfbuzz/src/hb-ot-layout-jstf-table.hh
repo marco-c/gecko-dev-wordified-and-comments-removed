@@ -47,7 +47,6 @@ JstfMax
 struct
 JstfPriority
 {
-inline
 bool
 sanitize
 (
@@ -243,7 +242,6 @@ OffsetListOf
 JstfPriority
 >
 {
-inline
 bool
 sanitize
 (
@@ -251,13 +249,7 @@ hb_sanitize_context_t
 *
 c
 const
-Record
-<
-JstfLangSys
->
-:
-:
-sanitize_closure_t
+Record_sanitize_closure_t
 *
 =
 nullptr
@@ -296,12 +288,10 @@ ExtenderGlyphs
 struct
 JstfScript
 {
-inline
 unsigned
 int
 get_lang_sys_count
 (
-void
 )
 const
 {
@@ -311,7 +301,6 @@ langSys
 len
 ;
 }
-inline
 const
 Tag
 &
@@ -332,7 +321,6 @@ i
 )
 ;
 }
-inline
 unsigned
 int
 get_lang_sys_tags
@@ -361,7 +349,6 @@ lang_sys_tags
 )
 ;
 }
-inline
 const
 JstfLangSys
 &
@@ -399,7 +386,6 @@ i
 offset
 ;
 }
-inline
 bool
 find_lang_sys_index
 (
@@ -422,11 +408,9 @@ index
 )
 ;
 }
-inline
 bool
 has_default_lang_sys
 (
-void
 )
 const
 {
@@ -437,13 +421,11 @@ defaultLangSys
 0
 ;
 }
-inline
 const
 JstfLangSys
 &
 get_default_lang_sys
 (
-void
 )
 const
 {
@@ -453,7 +435,6 @@ this
 defaultLangSys
 ;
 }
-inline
 bool
 sanitize
 (
@@ -461,13 +442,7 @@ hb_sanitize_context_t
 *
 c
 const
-Record
-<
-JstfScript
->
-:
-:
-sanitize_closure_t
+Record_sanitize_closure_t
 *
 =
 nullptr
@@ -542,19 +517,17 @@ langSys
 struct
 JSTF
 {
-static
-const
-hb_tag_t
+enum
+{
 tableTag
 =
 HB_OT_TAG_JSTF
+}
 ;
-inline
 unsigned
 int
 get_script_count
 (
-void
 )
 const
 {
@@ -564,7 +537,6 @@ scriptList
 len
 ;
 }
-inline
 const
 Tag
 &
@@ -585,7 +557,6 @@ i
 )
 ;
 }
-inline
 unsigned
 int
 get_script_tags
@@ -614,7 +585,6 @@ script_tags
 )
 ;
 }
-inline
 const
 JstfScript
 &
@@ -637,7 +607,6 @@ i
 offset
 ;
 }
-inline
 bool
 find_script_index
 (
@@ -660,7 +629,6 @@ index
 )
 ;
 }
-inline
 bool
 sanitize
 (

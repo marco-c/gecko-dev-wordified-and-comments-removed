@@ -16,7 +16,6 @@ hh
 int
 main
 (
-void
 )
 {
 for
@@ -60,16 +59,6 @@ khmer_category
 !
 =
 INDIC_SYLLABIC_CATEGORY_OTHER
-|
-|
-info
-.
-khmer_position
-(
-)
-!
-=
-INDIC_MATRA_CATEGORY_NOT_APPLICABLE
 )
 printf
 (
@@ -80,8 +69,6 @@ U
 04X
 %
 u
-%
-u
 \
 n
 "
@@ -89,11 +76,6 @@ u
 info
 .
 khmer_category
-(
-)
-info
-.
-khmer_position
 (
 )
 )

@@ -31,7 +31,6 @@ char
 *
 hb_buffer_serialize_list_formats
 (
-void
 )
 {
 return

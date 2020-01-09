@@ -41,7 +41,6 @@ AAT
 struct
 BaselineTableFormat0Part
 {
-inline
 bool
 sanitize
 (
@@ -91,7 +90,6 @@ DEFINE_SIZE_STATIC
 struct
 BaselineTableFormat1Part
 {
-inline
 bool
 sanitize
 (
@@ -155,7 +153,6 @@ DEFINE_SIZE_MIN
 struct
 BaselineTableFormat2Part
 {
-inline
 bool
 sanitize
 (
@@ -208,7 +205,6 @@ DEFINE_SIZE_STATIC
 struct
 BaselineTableFormat3Part
 {
-inline
 bool
 sanitize
 (
@@ -272,14 +268,13 @@ DEFINE_SIZE_MIN
 struct
 bsln
 {
-static
-const
-hb_tag_t
+enum
+{
 tableTag
 =
 HB_AAT_TAG_bsln
+}
 ;
-inline
 bool
 sanitize
 (

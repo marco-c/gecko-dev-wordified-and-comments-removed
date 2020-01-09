@@ -65,7 +65,6 @@ name
 #
 _get_type
 (
-void
 )
 \
 {

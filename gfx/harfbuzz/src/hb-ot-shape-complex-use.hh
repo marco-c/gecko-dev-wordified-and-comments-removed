@@ -142,6 +142,9 @@ USE_SMBlw
 USE_CS
 =
 43
+USE_HVM
+=
+44
 }
 ;
 HB_INTERNAL

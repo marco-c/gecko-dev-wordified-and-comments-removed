@@ -45,7 +45,6 @@ OT
 struct
 MathValueRecord
 {
-inline
 hb_position_t
 get_x_value
 (
@@ -80,7 +79,6 @@ font
 )
 ;
 }
-inline
 hb_position_t
 get_y_value
 (
@@ -115,7 +113,6 @@ font
 )
 ;
 }
-inline
 bool
 sanitize
 (
@@ -178,7 +175,6 @@ DEFINE_SIZE_STATIC
 struct
 MathConstants
 {
-inline
 bool
 sanitize_math_value_records
 (
@@ -243,7 +239,6 @@ true
 )
 ;
 }
-inline
 bool
 sanitize
 (
@@ -276,7 +271,6 @@ c
 )
 ;
 }
-inline
 hb_position_t
 get_value
 (
@@ -556,7 +550,6 @@ DEFINE_SIZE_STATIC
 struct
 MathItalicsCorrectionInfo
 {
-inline
 bool
 sanitize
 (
@@ -601,7 +594,6 @@ this
 )
 ;
 }
-inline
 hb_position_t
 get_value
 (
@@ -668,7 +660,6 @@ italicsCorrection
 struct
 MathTopAccentAttachment
 {
-inline
 bool
 sanitize
 (
@@ -713,7 +704,6 @@ this
 )
 ;
 }
-inline
 hb_position_t
 get_value
 (
@@ -800,7 +790,6 @@ topAccentAttachment
 struct
 MathKern
 {
-inline
 bool
 sanitize_math_value_records
 (
@@ -844,7 +833,9 @@ i
 if
 (
 !
-mathValueRecords
+mathValueRecordsZ
+.
+arrayZ
 [
 i
 ]
@@ -866,7 +857,6 @@ true
 )
 ;
 }
-inline
 bool
 sanitize
 (
@@ -897,13 +887,9 @@ c
 >
 check_array
 (
-mathValueRecords
-mathValueRecords
-[
-0
-]
+mathValueRecordsZ
 .
-static_size
+arrayZ
 2
 *
 heightCount
@@ -919,7 +905,6 @@ c
 )
 ;
 }
-inline
 hb_position_t
 get_value
 (
@@ -936,14 +921,18 @@ MathValueRecord
 *
 correctionHeight
 =
-mathValueRecords
+mathValueRecordsZ
+.
+arrayZ
 ;
 const
 MathValueRecord
 *
 kernValue
 =
-mathValueRecords
+mathValueRecordsZ
+.
+arrayZ
 +
 heightCount
 ;
@@ -1056,18 +1045,18 @@ protected
 HBUINT16
 heightCount
 ;
+UnsizedArrayOf
+<
 MathValueRecord
-mathValueRecords
-[
-VAR
-]
+>
+mathValueRecordsZ
 ;
 public
 :
 DEFINE_SIZE_ARRAY
 (
 2
-mathValueRecords
+mathValueRecordsZ
 )
 ;
 }
@@ -1075,7 +1064,6 @@ mathValueRecords
 struct
 MathKernInfoRecord
 {
-inline
 bool
 sanitize
 (
@@ -1147,7 +1135,6 @@ true
 )
 ;
 }
-inline
 hb_position_t
 get_kerning
 (
@@ -1227,7 +1214,6 @@ DEFINE_SIZE_STATIC
 struct
 MathKernInfo
 {
-inline
 bool
 sanitize
 (
@@ -1272,7 +1258,6 @@ this
 )
 ;
 }
-inline
 hb_position_t
 get_kerning
 (
@@ -1345,7 +1330,6 @@ mathKernInfoRecords
 struct
 MathGlyphInfo
 {
-inline
 bool
 sanitize
 (
@@ -1408,7 +1392,6 @@ this
 )
 ;
 }
-inline
 hb_position_t
 get_italics_correction
 (
@@ -1434,7 +1417,6 @@ font
 )
 ;
 }
-inline
 hb_position_t
 get_top_accent_attachment
 (
@@ -1460,7 +1442,6 @@ font
 )
 ;
 }
-inline
 bool
 is_extended_shape
 (
@@ -1485,7 +1466,6 @@ glyph
 NOT_COVERED
 ;
 }
-inline
 hb_position_t
 get_kerning
 (
@@ -1559,7 +1539,6 @@ friend
 struct
 MathGlyphConstruction
 ;
-inline
 bool
 sanitize
 (
@@ -1631,7 +1610,6 @@ DEFINE_SIZE_STATIC
 struct
 MathGlyphPartRecord
 {
-inline
 bool
 sanitize
 (
@@ -1658,7 +1636,6 @@ this
 )
 ;
 }
-inline
 void
 extract
 (
@@ -1789,7 +1766,6 @@ DEFINE_SIZE_STATIC
 struct
 MathGlyphAssembly
 {
-inline
 bool
 sanitize
 (
@@ -1833,7 +1809,6 @@ c
 )
 ;
 }
-inline
 unsigned
 int
 get_parts
@@ -1875,9 +1850,11 @@ dir_scale
 direction
 )
 ;
+hb_array_t
+<
 const
 MathGlyphPartRecord
-*
+>
 arr
 =
 partRecords
@@ -1892,8 +1869,9 @@ unsigned
 int
 count
 =
-*
-parts_count
+arr
+.
+len
 ;
 for
 (
@@ -1972,7 +1950,6 @@ partRecords
 struct
 MathGlyphConstruction
 {
-inline
 bool
 sanitize
 (
@@ -2016,13 +1993,11 @@ c
 )
 ;
 }
-inline
 const
 MathGlyphAssembly
 &
 get_assembly
 (
-void
 )
 const
 {
@@ -2032,7 +2007,6 @@ this
 glyphAssembly
 ;
 }
-inline
 unsigned
 int
 get_variants
@@ -2071,9 +2045,11 @@ dir_scale
 direction
 )
 ;
+hb_array_t
+<
 const
 MathGlyphVariantRecord
-*
+>
 arr
 =
 mathGlyphVariantRecord
@@ -2088,8 +2064,9 @@ unsigned
 int
 count
 =
-*
-variants_count
+arr
+.
+len
 ;
 for
 (
@@ -2178,7 +2155,6 @@ mathGlyphVariantRecord
 struct
 MathVariants
 {
-inline
 bool
 sanitize_offsets
 (
@@ -2221,6 +2197,8 @@ if
 (
 !
 glyphConstruction
+.
+arrayZ
 [
 i
 ]
@@ -2242,7 +2220,6 @@ true
 )
 ;
 }
-inline
 bool
 sanitize
 (
@@ -2292,12 +2269,8 @@ c
 check_array
 (
 glyphConstruction
-glyphConstruction
-[
-0
-]
 .
-static_size
+arrayZ
 vertGlyphCount
 +
 horizGlyphCount
@@ -2311,7 +2284,6 @@ c
 )
 ;
 }
-inline
 hb_position_t
 get_min_connector_overlap
 (
@@ -2334,7 +2306,6 @@ direction
 )
 ;
 }
-inline
 unsigned
 int
 get_glyph_variants
@@ -2377,7 +2348,6 @@ variants
 )
 ;
 }
-inline
 unsigned
 int
 get_glyph_parts
@@ -2430,7 +2400,6 @@ italics_correction
 }
 private
 :
-inline
 const
 MathGlyphConstruction
 &
@@ -2443,6 +2412,7 @@ direction
 hb_font_t
 *
 font
+HB_UNUSED
 )
 const
 {
@@ -2551,14 +2521,14 @@ vertGlyphCount
 HBUINT16
 horizGlyphCount
 ;
+UnsizedArrayOf
+<
 OffsetTo
 <
 MathGlyphConstruction
 >
+>
 glyphConstruction
-[
-VAR
-]
 ;
 public
 :
@@ -2573,18 +2543,16 @@ glyphConstruction
 struct
 MATH
 {
-static
-const
-hb_tag_t
+enum
+{
 tableTag
 =
 HB_OT_TAG_MATH
+}
 ;
-inline
 bool
 has_data
 (
-void
 )
 const
 {
@@ -2594,12 +2562,8 @@ version
 to_int
 (
 )
-!
-=
-0
 ;
 }
-inline
 bool
 sanitize
 (
@@ -2663,7 +2627,6 @@ this
 )
 ;
 }
-inline
 hb_position_t
 get_constant
 (
@@ -2689,13 +2652,11 @@ font
 )
 ;
 }
-inline
 const
 MathGlyphInfo
 &
-get_math_glyph_info
+get_glyph_info
 (
-void
 )
 const
 {
@@ -2705,13 +2666,11 @@ this
 mathGlyphInfo
 ;
 }
-inline
 const
 MathVariants
 &
-get_math_variants
+get_variants
 (
-void
 )
 const
 {

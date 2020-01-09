@@ -34,11 +34,11 @@ HB_BEGIN_DECLS
 #
 define
 HB_VERSION_MAJOR
-1
+2
 #
 define
 HB_VERSION_MINOR
-9
+3
 #
 define
 HB_VERSION_MICRO
@@ -47,9 +47,9 @@ HB_VERSION_MICRO
 define
 HB_VERSION_STRING
 "
-1
+2
 .
-9
+3
 .
 0
 "

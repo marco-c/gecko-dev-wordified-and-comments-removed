@@ -8,15 +8,6 @@ HB_H
 define
 HB_H_IN
 #
-ifndef
-HB_EXTERN
-#
-define
-HB_EXTERN
-extern
-#
-endif
-#
 include
 "
 hb

@@ -24,7 +24,7 @@ hh
 "
 HB_INTERNAL
 void
-_hb_ot_shape_fallback_position
+_hb_ot_shape_fallback_mark_position
 (
 const
 hb_ot_shape_plan_t
@@ -40,7 +40,7 @@ buffer
 ;
 HB_INTERNAL
 void
-_hb_ot_shape_fallback_position_recategorize_marks
+_hb_ot_shape_fallback_mark_position_recategorize_marks
 (
 const
 hb_ot_shape_plan_t
