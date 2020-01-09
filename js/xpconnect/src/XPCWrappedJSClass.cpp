@@ -1457,7 +1457,7 @@ displayName
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsXPCWrappedJSClass
 :
 :
@@ -2199,7 +2199,6 @@ uint32_t
 *
 result
 )
-const
 {
 if
 (
@@ -2363,7 +2362,6 @@ nsID
 *
 result
 )
-const
 {
 result
 -
@@ -2600,7 +2598,6 @@ inOutOnly
 uint8_t
 count
 )
-const
 {
 for
 (
@@ -3469,7 +3466,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXPCWrappedJSClass
 :
 :

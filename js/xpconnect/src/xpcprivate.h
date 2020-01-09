@@ -6582,7 +6582,8 @@ GetInterfaceName
 (
 )
 ;
-NS_IMETHOD
+static
+nsresult
 DelegatedQueryInterface
 (
 nsXPCWrappedJS
@@ -6596,6 +6597,7 @@ void
 aInstancePtr
 )
 ;
+static
 JSObject
 *
 GetRootJSObject
@@ -6608,7 +6610,7 @@ JSObject
 aJSObj
 )
 ;
-NS_IMETHOD
+nsresult
 CallMethod
 (
 nsXPCWrappedJS
@@ -6625,6 +6627,7 @@ nsXPTCMiniVariant
 params
 )
 ;
+static
 JSObject
 *
 CallQueryInterfaceOnJSObject
@@ -6709,6 +6712,7 @@ nsXPTInterfaceInfo
 aInfo
 )
 ;
+static
 bool
 GetArraySizeFromParam
 (
@@ -6727,8 +6731,8 @@ uint32_t
 *
 result
 )
-const
 ;
+static
 bool
 GetInterfaceTypeFromParam
 (
@@ -6747,8 +6751,8 @@ nsID
 *
 result
 )
-const
 ;
+static
 void
 CleanupOutparams
 (
@@ -6762,9 +6766,8 @@ nativeParams
 bool
 inOutOnly
 uint8_t
-n
+count
 )
-const
 ;
 private
 :
