@@ -1840,15 +1840,6 @@ sdk
 -
 with
 -
-android
--
-sdk
-'
-'
--
--
-with
--
 app
 -
 basename

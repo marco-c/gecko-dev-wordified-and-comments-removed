@@ -14619,14 +14619,6 @@ mobile
 android
 )
 MOZ_ANDROID_SDK
-(
-28
-27
-.
-0
-.
-3
-)
 ;
 ;
 esac
