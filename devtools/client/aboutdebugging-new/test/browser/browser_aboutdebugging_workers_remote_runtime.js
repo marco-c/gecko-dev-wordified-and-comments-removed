@@ -504,7 +504,7 @@ _eventEmitter
 emit
 (
 "
-workerListChanged
+workersUpdated
 "
 )
 ;
@@ -617,7 +617,7 @@ _eventEmitter
 emit
 (
 "
-workerListChanged
+workersUpdated
 "
 )
 ;
@@ -741,7 +741,7 @@ info
 (
 "
 Emit
-workerListChanged
+workersUpdated
 on
 remoteClient
 and
@@ -762,7 +762,7 @@ _eventEmitter
 emit
 (
 "
-workerListChanged
+workersUpdated
 "
 )
 ;
