@@ -860,6 +860,7 @@ Touch
 *
 aTouch
 )
+const
 {
 return
 mRefPoint

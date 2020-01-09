@@ -206,6 +206,7 @@ Touch
 *
 aTouch
 )
+const
 ;
 virtual
 JSObject
