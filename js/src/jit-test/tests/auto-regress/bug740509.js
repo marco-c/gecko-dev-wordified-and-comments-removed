@@ -6,6 +6,8 @@ d
 e
 a
 )
+{
+return
 TestCase
 .
 prototype
@@ -16,6 +18,8 @@ function
 (
 )
 {
+}
+;
 }
 var
 lfcode
@@ -129,7 +133,11 @@ lfcode
 push
 (
 "
+{
+return
 1
+;
+}
 "
 )
 ;
@@ -367,6 +375,8 @@ ResultArray
 msMode
 )
 \
+{
+return
 ResultArray
 [
 UTC_HOURS
@@ -377,6 +387,7 @@ HourFromTime
 t
 )
 ;
+}
 \
 ResultArray
 [
