@@ -1543,6 +1543,14 @@ GlobalObject
 )
 ;
 }
+void
+setWindowProxyThisValue
+(
+JSObject
+*
+obj
+)
+;
 bool
 isExtensible
 (
