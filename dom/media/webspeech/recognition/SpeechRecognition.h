@@ -902,7 +902,7 @@ GetName
 (
 SpeechEvent
 *
-aId
+aEvent
 )
 ;
 }

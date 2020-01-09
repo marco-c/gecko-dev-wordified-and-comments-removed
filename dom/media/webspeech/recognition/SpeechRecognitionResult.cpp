@@ -75,8 +75,9 @@ SpeechRecognitionResult
 SpeechRecognitionResult
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 SpeechRecognitionResult

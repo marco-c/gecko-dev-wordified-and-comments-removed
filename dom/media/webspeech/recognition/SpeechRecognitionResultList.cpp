@@ -76,8 +76,9 @@ SpeechRecognitionResultList
 SpeechRecognitionResultList
 (
 )
-{
-}
+=
+default
+;
 nsISupports
 *
 SpeechRecognitionResultList

@@ -68,8 +68,9 @@ SpeechGrammar
 SpeechGrammar
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 SpeechGrammar
