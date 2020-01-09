@@ -18528,6 +18528,11 @@ gfxScrollFrame
 )
 ;
 }
+MOZ_ASSERT
+(
+gfxScrollFrame
+)
+;
 AutoTArray
 <
 nsIAnonymousContentCreator
@@ -18632,11 +18637,6 @@ aScrolledPseudo
 contentStyle
 )
 ;
-if
-(
-gfxScrollFrame
-)
-{
 gfxScrollFrame
 -
 >
@@ -18646,7 +18646,6 @@ kPrincipalList
 anonymousItems
 )
 ;
-}
 return
 scrolledChildStyle
 .
