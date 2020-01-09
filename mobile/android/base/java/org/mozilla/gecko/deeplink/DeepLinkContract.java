@@ -103,6 +103,16 @@ public
 static
 final
 String
+LINK_SEARCH_WIDGET
+=
+"
+search_widget
+"
+;
+public
+static
+final
+String
 LINK_SAVE_AS_PDF
 =
 "
