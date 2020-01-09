@@ -315,10 +315,14 @@ condition
 ?
 :
 string
+|
+null
 logValue
 ?
 :
 string
+|
+null
 }
 ;
 export

@@ -177,8 +177,6 @@ breakpoint
 .
 has
 -
-condition
-.
 log
 svg
 {
@@ -192,7 +190,7 @@ theme
 -
 graphs
 -
-orange
+purple
 )
 ;
 stroke
@@ -201,11 +199,9 @@ var
 (
 -
 -
-theme
+purple
 -
-graphs
--
-yellow
+60
 )
 ;
 }
