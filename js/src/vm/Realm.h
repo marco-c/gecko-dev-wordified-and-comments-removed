@@ -1650,6 +1650,11 @@ globalWriteBarriered
 =
 0
 ;
+uint32_t
+warnedAboutArrayGenericsMethods
+=
+0
+;
 #
 ifdef
 DEBUG
