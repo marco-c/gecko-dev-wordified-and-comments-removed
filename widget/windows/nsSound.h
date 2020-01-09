@@ -45,6 +45,9 @@ class
 nsIThread
 ;
 class
+nsIRunnable
+;
+class
 nsSound
 :
 public
@@ -98,6 +101,12 @@ nsCOMPtr
 nsIThread
 >
 mPlayerThread
+;
+nsCOMPtr
+<
+nsIRunnable
+>
+mSoundPlayer
 ;
 bool
 mInited
