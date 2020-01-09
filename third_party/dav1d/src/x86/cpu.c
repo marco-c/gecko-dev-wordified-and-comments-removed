@@ -1,5 +1,12 @@
 #
 include
+"
+config
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -196,6 +203,9 @@ flags
 =
 DAV1D_X86_CPU_FLAG_SSE42
 ;
+#
+if
+ARCH_X86_64
 if
 (
 info
@@ -318,6 +328,8 @@ DAV1D_X86_CPU_FLAG_AVX512
 }
 }
 }
+#
+endif
 }
 return
 flags

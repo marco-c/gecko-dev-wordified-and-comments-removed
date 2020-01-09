@@ -39,7 +39,7 @@ ATTR_ALIAS
 endif
 #
 if
-ARCH_X86
+ARCH_X86_64
 #
 define
 ALIGN_32_VAL
@@ -50,6 +50,9 @@ ALIGN_16_VAL
 16
 #
 elif
+ARCH_X86_32
+|
+|
 ARCH_ARM
 |
 |

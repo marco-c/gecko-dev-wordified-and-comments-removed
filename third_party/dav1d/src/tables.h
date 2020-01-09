@@ -524,10 +524,10 @@ dav1d_sm_weights
 ;
 extern
 const
-int16_t
+uint16_t
 dav1d_dr_intra_derivative
 [
-90
+44
 ]
 ;
 extern

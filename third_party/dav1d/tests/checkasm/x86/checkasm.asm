@@ -1474,11 +1474,9 @@ eax
 mov
 r4
 edx
-lea
+LEA
 r0
-[
 error_message
-]
 mov
 [
 esp
