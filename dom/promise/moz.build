@@ -175,6 +175,14 @@ base
 /
 ipc
 '
+'
+/
+js
+/
+xpconnect
+/
+src
+'
 ]
 include
 (
