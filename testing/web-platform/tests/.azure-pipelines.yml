@@ -1110,7 +1110,7 @@ infrastructure
 '
 condition
 :
-succeededOrFailed
+always
 (
 )
 -
@@ -1643,7 +1643,7 @@ infrastructure
 '
 condition
 :
-succeededOrFailed
+always
 (
 )
 -
