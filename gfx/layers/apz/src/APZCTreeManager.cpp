@@ -3926,11 +3926,11 @@ aGuid
 mLayersId
 )
 ;
-MOZ_ASSERT
+if
 (
 controller
 )
-;
+{
 controller
 -
 >
@@ -3943,6 +3943,7 @@ mScrollId
 aDirection
 )
 ;
+}
 }
 void
 APZCTreeManager
@@ -3968,11 +3969,6 @@ GetContentController
 aGuid
 .
 mLayersId
-)
-;
-MOZ_ASSERT
-(
-controller
 )
 ;
 if
