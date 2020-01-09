@@ -130,6 +130,11 @@ RenderCompositorOGL
 h
 '
 '
+RenderEGLImageTextureHost
+.
+h
+'
+'
 RendererOGL
 .
 h
@@ -201,6 +206,11 @@ cpp
 '
 '
 RenderCompositorOGL
+.
+cpp
+'
+'
+RenderEGLImageTextureHost
 .
 cpp
 '
