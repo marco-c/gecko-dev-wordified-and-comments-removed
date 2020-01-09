@@ -665,7 +665,7 @@ false
 isConnectionNotResponding
 :
 false
-isUnknown
+isUnavailable
 :
 false
 isUnplugged
@@ -1531,7 +1531,7 @@ false
 isConnectionNotResponding
 :
 false
-isUnknown
+isUnavailable
 :
 false
 isUnplugged
@@ -1629,11 +1629,11 @@ false
 isConnectionNotResponding
 :
 false
-isUnknown
+isUnavailable
 :
 adbRuntime
 .
-isUnknown
+isUnavailable
 isUnplugged
 :
 adbRuntime

@@ -241,7 +241,7 @@ PropTypes
 bool
 .
 isRequired
-isUnknown
+isUnavailable
 :
 PropTypes
 .
@@ -598,7 +598,7 @@ const
 {
 deviceName
 getString
-isUnknown
+isUnavailable
 isUnplugged
 name
 }
@@ -651,7 +651,7 @@ unplugged
 else
 if
 (
-isUnknown
+isUnavailable
 )
 {
 displayName
@@ -872,7 +872,7 @@ getString
 icon
 isConnected
 isSelected
-isUnknown
+isUnavailable
 runtimeId
 }
 =
@@ -1004,7 +1004,7 @@ renderName
 (
 )
 !
-isUnknown
+isUnavailable
 &
 &
 !

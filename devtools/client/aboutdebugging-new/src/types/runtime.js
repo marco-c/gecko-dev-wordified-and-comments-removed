@@ -366,7 +366,7 @@ PropTypes
 bool
 .
 isRequired
-isUnknown
+isUnavailable
 :
 PropTypes
 .
