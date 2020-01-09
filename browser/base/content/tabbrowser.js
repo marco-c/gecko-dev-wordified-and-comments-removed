@@ -12559,16 +12559,6 @@ aTab
 )
 ;
 }
-window
-.
-maybeRecordAbandonmentTelemetry
-(
-aTab
-"
-tabClosed
-"
-)
-;
 if
 (
 !
