@@ -186,7 +186,9 @@ mTransaction
 tmp
 -
 >
-ClearTransaction
+mTransaction
+.
+reset
 (
 )
 ;
