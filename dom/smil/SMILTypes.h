@@ -16,7 +16,7 @@ mozilla
 {
 typedef
 int64_t
-nsSMILTime
+SMILTime
 ;
 }
 #

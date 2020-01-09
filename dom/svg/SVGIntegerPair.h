@@ -21,7 +21,9 @@ h
 #
 include
 "
-nsISMILAttr
+mozilla
+/
+Attributes
 .
 h
 "
@@ -30,7 +32,7 @@ include
 "
 mozilla
 /
-Attributes
+SMILAttr
 .
 h
 "
@@ -286,7 +288,7 @@ mozilla
 :
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -445,7 +447,7 @@ struct
 SMILIntegerPair
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :

@@ -1952,7 +1952,7 @@ mVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 nsSVGLength2
 :

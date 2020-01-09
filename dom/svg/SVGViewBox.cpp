@@ -1295,7 +1295,7 @@ mSVGElement
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGViewBox
 :

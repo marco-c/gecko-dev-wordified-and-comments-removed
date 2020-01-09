@@ -840,7 +840,7 @@ mVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGIntegerPair
 :

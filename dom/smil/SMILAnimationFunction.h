@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+SMILAttr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SMILKeySpline
 .
 h
@@ -60,13 +69,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsISMILAttr
 .
 h
 "
@@ -150,7 +152,7 @@ aAttribute
 void
 SampleAt
 (
-nsSMILTime
+SMILTime
 aSampleTime
 const
 SMILTimeValue
@@ -170,7 +172,7 @@ aRepeatIteration
 void
 Activate
 (
-nsSMILTime
+SMILTime
 aBeginTime
 )
 ;
@@ -185,7 +187,7 @@ void
 ComposeResult
 (
 const
-nsISMILAttr
+SMILAttr
 &
 aSMILAttr
 SMILValue
@@ -398,7 +400,7 @@ SMILValue
 SMILValueArray
 ;
 enum
-nsSMILCalcMode
+SMILCalcMode
 :
 uint8_t
 {
@@ -408,7 +410,7 @@ CALC_PACED
 CALC_SPLINE
 }
 ;
-nsSMILTime
+SMILTime
 GetBeginTime
 (
 )
@@ -431,7 +433,7 @@ GetAdditive
 const
 ;
 virtual
-nsSMILCalcMode
+SMILCalcMode
 GetCalcMode
 (
 )
@@ -589,7 +591,7 @@ ScaleSimpleProgress
 (
 double
 aProgress
-nsSMILCalcMode
+SMILCalcMode
 aCalcMode
 )
 ;
@@ -644,7 +646,7 @@ nsAtom
 *
 aAttName
 const
-nsISMILAttr
+SMILAttr
 &
 aSMILAttr
 SMILValue
@@ -661,7 +663,7 @@ nsresult
 GetValues
 (
 const
-nsISMILAttr
+SMILAttr
 &
 aSMILAttr
 SMILValueArray
@@ -985,7 +987,7 @@ SMILKeySpline
 >
 mKeySplines
 ;
-nsSMILTime
+SMILTime
 mSampleTime
 ;
 SMILTimeValue
@@ -994,7 +996,7 @@ mSimpleDuration
 uint32_t
 mRepeatIteration
 ;
-nsSMILTime
+SMILTime
 mBeginTime
 ;
 mozilla
@@ -1010,7 +1012,7 @@ mAnimationElement
 uint16_t
 mErrorFlags
 ;
-nsSMILWeakTargetIdentifier
+SMILWeakTargetIdentifier
 mLastTarget
 ;
 bool

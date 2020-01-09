@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+SMILAttr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -26,13 +35,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsISMILAttr
 .
 h
 "
@@ -192,7 +194,7 @@ mAnimVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -219,7 +221,7 @@ struct
 SMILAnimatedPointList
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :

@@ -478,7 +478,7 @@ mVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 nsSVGNumber2
 :

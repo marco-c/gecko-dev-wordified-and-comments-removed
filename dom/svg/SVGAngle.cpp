@@ -1427,7 +1427,7 @@ mVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGAngle
 :

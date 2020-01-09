@@ -101,11 +101,11 @@ mAttributeNamespaceID
 }
 ;
 class
-nsSMILWeakTargetIdentifier
+SMILWeakTargetIdentifier
 {
 public
 :
-nsSMILWeakTargetIdentifier
+SMILWeakTargetIdentifier
 (
 )
 :
@@ -119,7 +119,7 @@ nullptr
 )
 {
 }
-nsSMILWeakTargetIdentifier
+SMILWeakTargetIdentifier
 &
 operator
 =

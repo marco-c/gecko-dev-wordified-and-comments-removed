@@ -1105,7 +1105,7 @@ seconds
 *
 PR_MSEC_PER_SEC
 ;
-nsSMILTime
+SMILTime
 lMilliseconds
 =
 int64_t

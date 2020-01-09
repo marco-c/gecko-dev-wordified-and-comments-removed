@@ -93,7 +93,7 @@ Shouldn
 '
 t
 using
-nsISMILAttr
+SMILAttr
 :
 :
 ValueFromString

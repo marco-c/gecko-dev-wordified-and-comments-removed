@@ -474,7 +474,7 @@ mVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGBoolean
 :

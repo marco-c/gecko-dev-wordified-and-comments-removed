@@ -359,7 +359,7 @@ aAttrEnum
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGAnimatedLengthList
 :

@@ -10833,7 +10833,7 @@ true
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGElement
 :

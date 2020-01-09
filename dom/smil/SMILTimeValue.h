@@ -45,7 +45,7 @@ STATE_UNRESOLVED
 explicit
 SMILTimeValue
 (
-nsSMILTime
+SMILTime
 aMillis
 )
 :
@@ -145,7 +145,7 @@ mState
 STATE_DEFINITE
 ;
 }
-nsSMILTime
+SMILTime
 GetMillis
 (
 )
@@ -184,7 +184,7 @@ kUnresolvedMillis
 void
 SetMillis
 (
-nsSMILTime
+SMILTime
 aMillis
 )
 {
@@ -339,10 +339,10 @@ private
 :
 static
 const
-nsSMILTime
+SMILTime
 kUnresolvedMillis
 ;
-nsSMILTime
+SMILTime
 mMilliseconds
 ;
 enum

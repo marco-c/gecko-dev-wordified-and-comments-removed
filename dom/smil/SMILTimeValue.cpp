@@ -9,7 +9,7 @@ namespace
 mozilla
 {
 const
-nsSMILTime
+SMILTime
 SMILTimeValue
 :
 :
@@ -20,7 +20,7 @@ std
 :
 numeric_limits
 <
-nsSMILTime
+SMILTime
 >
 :
 :

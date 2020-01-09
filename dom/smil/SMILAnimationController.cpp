@@ -470,7 +470,7 @@ Sample
 ;
 }
 }
-nsSMILTime
+SMILTime
 SMILAnimationController
 :
 :
@@ -481,7 +481,7 @@ const
 {
 return
 (
-nsSMILTime
+SMILTime
 )
 (
 mCurrentSampleTime
@@ -544,11 +544,11 @@ SAMPLE_DEV_THRESHOLD
 .
 0
 ;
-nsSMILTime
+SMILTime
 elapsedTime
 =
 (
-nsSMILTime
+SMILTime
 )
 (
 aTime
@@ -613,7 +613,7 @@ mAvgTimeBetweenSamples
 mAvgTimeBetweenSamples
 =
 (
-nsSMILTime
+SMILTime
 )
 (
 elapsedTime
@@ -1914,7 +1914,7 @@ DoMilestoneSamples
 (
 )
 {
-nsSMILTime
+SMILTime
 sampleTime
 =
 INT64_MIN
@@ -2221,7 +2221,7 @@ IsDefinite
 )
 continue
 ;
-nsSMILTime
+SMILTime
 containerTime
 =
 std
@@ -2229,7 +2229,7 @@ std
 :
 max
 <
-nsSMILTime
+SMILTime
 >
 (
 0
@@ -2323,7 +2323,7 @@ timeContainer
 )
 return
 ;
-nsSMILTime
+SMILTime
 containerTime
 =
 timeContainer

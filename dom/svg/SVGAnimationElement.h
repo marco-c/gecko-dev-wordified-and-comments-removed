@@ -65,14 +65,6 @@ typedef
 SVGElement
 SVGAnimationElementBase
 ;
-enum
-nsSMILTargetAttrType
-{
-eSMILTargetAttrType_auto
-eSMILTargetAttrType_CSS
-eSMILTargetAttrType_XML
-}
-;
 class
 SVGAnimationElement
 :

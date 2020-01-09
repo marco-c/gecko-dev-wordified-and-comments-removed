@@ -120,7 +120,7 @@ SMILTimeContainer
 :
 ContainerToParentTime
 (
-nsSMILTime
+SMILTime
 aContainerTime
 )
 const
@@ -159,7 +159,7 @@ SMILTimeContainer
 :
 ParentToContainerTime
 (
-nsSMILTime
+SMILTime
 aParentTime
 )
 const
@@ -304,7 +304,7 @@ if
 mPauseState
 )
 {
-nsSMILTime
+SMILTime
 extraOffset
 =
 GetParentTime
@@ -324,7 +324,7 @@ NotifyTimeChange
 ;
 }
 }
-nsSMILTime
+SMILTime
 SMILTimeContainer
 :
 :
@@ -353,7 +353,7 @@ SMILTimeContainer
 :
 SetCurrentTime
 (
-nsSMILTime
+SMILTime
 aSeekTo
 )
 {
@@ -364,14 +364,14 @@ std
 :
 max
 <
-nsSMILTime
+SMILTime
 >
 (
 0
 aSeekTo
 )
 ;
-nsSMILTime
+SMILTime
 parentTime
 =
 GetParentTime
@@ -429,7 +429,7 @@ NotifyTimeChange
 )
 ;
 }
-nsSMILTime
+SMILTime
 SMILTimeContainer
 :
 :
@@ -469,14 +469,14 @@ IsPaused
 )
 )
 {
-nsSMILTime
+SMILTime
 parentTime
 =
 GetParentTime
 (
 )
 ;
-nsSMILTime
+SMILTime
 extraOffset
 =
 parentTime
@@ -996,7 +996,7 @@ UpdateCurrentTime
 (
 )
 {
-nsSMILTime
+SMILTime
 now
 =
 IsPaused

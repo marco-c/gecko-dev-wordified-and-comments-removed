@@ -547,7 +547,7 @@ mVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGEnum
 :

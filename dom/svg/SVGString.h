@@ -194,7 +194,7 @@ mozilla
 :
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -347,7 +347,7 @@ struct
 SMILString
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :

@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+SMILAttr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SMILKeySpline
 .
 h
@@ -74,13 +83,6 @@ include
 mozilla
 /
 TextUtils
-.
-h
-"
-#
-include
-"
-nsISMILAttr
 .
 h
 "
@@ -877,7 +879,7 @@ aResult
 >
 SetMillis
 (
-nsSMILTime
+SMILTime
 (
 hours
 )
@@ -981,7 +983,7 @@ aResult
 >
 SetMillis
 (
-nsSMILTime
+SMILTime
 (
 timecount
 )
@@ -2437,7 +2439,7 @@ SVGAnimationElement
 *
 aSrcElement
 const
-nsISMILAttr
+SMILAttr
 *
 aSMILAttr
 FallibleTArray
@@ -2547,7 +2549,7 @@ SVGAnimationElement
 mSrcElement
 ;
 const
-nsISMILAttr
+SMILAttr
 *
 mSMILAttr
 ;
@@ -2579,7 +2581,7 @@ SVGAnimationElement
 *
 aSrcElement
 const
-nsISMILAttr
+SMILAttr
 &
 aAttribute
 FallibleTArray

@@ -278,7 +278,7 @@ private
 :
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 CreateSMILAttr
 (

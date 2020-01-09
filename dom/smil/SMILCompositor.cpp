@@ -218,7 +218,7 @@ nullptr
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 smilAttr
 =
@@ -404,7 +404,7 @@ rv
 NS_WARNING
 (
 "
-nsISMILAttr
+SMILAttr
 :
 :
 SetAnimValue
@@ -439,7 +439,7 @@ return
 ;
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 smilAttr
 =
@@ -467,7 +467,7 @@ ClearAnimValue
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SMILCompositor
 :

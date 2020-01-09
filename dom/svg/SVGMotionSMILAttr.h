@@ -16,7 +16,9 @@ h
 #
 include
 "
-nsISMILAttr
+mozilla
+/
+SMILAttr
 .
 h
 "
@@ -43,7 +45,7 @@ class
 SVGMotionSMILAttr
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :

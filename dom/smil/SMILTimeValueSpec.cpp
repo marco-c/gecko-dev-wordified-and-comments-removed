@@ -574,7 +574,7 @@ NS_WARNING
 New
 time
 overflows
-nsSMILTime
+SMILTime
 ignoring
 "
 )
@@ -703,7 +703,7 @@ NS_WARNING
 Updated
 time
 overflows
-nsSMILTime
+SMILTime
 ignoring
 "
 )
@@ -1423,7 +1423,7 @@ aEvent
 return
 ;
 }
-nsSMILTime
+SMILTime
 currentTime
 =
 container
@@ -1457,7 +1457,7 @@ generated
 from
 event
 overflows
-nsSMILTime
+SMILTime
 ignoring
 "
 )
@@ -1743,7 +1743,7 @@ std
 :
 numeric_limits
 <
-nsSMILTime
+SMILTime
 >
 :
 :
@@ -1759,7 +1759,7 @@ std
 :
 numeric_limits
 <
-nsSMILTime
+SMILTime
 >
 :
 :

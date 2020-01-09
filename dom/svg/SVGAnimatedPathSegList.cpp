@@ -464,7 +464,7 @@ IsEmpty
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGAnimatedPathSegList
 :

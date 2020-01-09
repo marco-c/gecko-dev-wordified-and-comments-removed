@@ -16,7 +16,9 @@ h
 #
 include
 "
-nsISMILAttr
+mozilla
+/
+SMILAttr
 .
 h
 "
@@ -58,7 +60,7 @@ class
 SMILCSSProperty
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :

@@ -18,12 +18,12 @@ nsStringFwd
 .
 h
 "
-class
-nsISMILAttr
-;
 namespace
 mozilla
 {
+class
+SMILAttr
+;
 class
 SMILKeySpline
 ;
@@ -135,7 +135,7 @@ SVGAnimationElement
 *
 aSrcElement
 const
-nsISMILAttr
+SMILAttr
 &
 aAttribute
 FallibleTArray

@@ -23,7 +23,7 @@ public
 :
 SMILMilestone
 (
-nsSMILTime
+SMILTime
 aTime
 bool
 aIsEnd
@@ -191,7 +191,7 @@ aOther
 )
 ;
 }
-nsSMILTime
+SMILTime
 mTime
 ;
 bool

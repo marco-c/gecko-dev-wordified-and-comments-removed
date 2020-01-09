@@ -154,7 +154,7 @@ aType
 override
 ;
 virtual
-nsSMILTime
+SMILTime
 GetParentTime
 (
 )
@@ -556,7 +556,7 @@ mozilla
 TimeStamp
 mStartTime
 ;
-nsSMILTime
+SMILTime
 mAvgTimeBetweenSamples
 ;
 bool

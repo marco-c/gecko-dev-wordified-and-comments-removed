@@ -598,7 +598,7 @@ true
 SMILAnimationFunction
 :
 :
-nsSMILCalcMode
+SMILCalcMode
 SVGMotionSMILAnimationFunction
 :
 :
@@ -631,7 +631,7 @@ CALC_PACED
 ;
 }
 return
-nsSMILCalcMode
+SMILCalcMode
 (
 value
 -
@@ -1540,7 +1540,7 @@ SVGMotionSMILAnimationFunction
 GetValues
 (
 const
-nsISMILAttr
+SMILAttr
 &
 aSMILAttr
 SMILValueArray

@@ -44,7 +44,9 @@ h
 #
 include
 "
-nsISMILAttr
+mozilla
+/
+SMILAttr
 .
 h
 "
@@ -453,7 +455,7 @@ mozilla
 :
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -958,7 +960,7 @@ struct
 SMILViewBox
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :
