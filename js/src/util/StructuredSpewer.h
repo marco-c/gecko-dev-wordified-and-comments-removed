@@ -116,9 +116,15 @@ STRUCTURED_CHANNEL_LIST
 (
 _
 )
+\
 _
 (
 BaselineICStats
+)
+\
+_
+(
+ScriptStats
 )
 enum
 class
