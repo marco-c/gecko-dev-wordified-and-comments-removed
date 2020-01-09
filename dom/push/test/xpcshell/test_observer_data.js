@@ -107,9 +107,6 @@ systemPrincipal
 "
 "
 payload
-.
-length
-payload
 )
 ;
 let
@@ -228,8 +225,8 @@ test
 systemPrincipal
 "
 "
-0
-null
+[
+]
 )
 ;
 let
