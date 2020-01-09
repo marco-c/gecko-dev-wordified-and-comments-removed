@@ -235,11 +235,6 @@ TestObserverService
 cpp
 '
 '
-TestPipes
-.
-cpp
-'
-'
 TestPLDHash
 .
 cpp
@@ -384,6 +379,11 @@ cpp
 '
 '
 TestBase64
+.
+cpp
+'
+'
+TestPipes
 .
 cpp
 '
