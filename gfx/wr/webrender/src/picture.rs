@@ -531,8 +531,9 @@ i32
 =
 64
 ;
+pub
 const
-FRAMES_BEFORE_CACHING
+FRAMES_BEFORE_PICTURE_CACHING
 :
 usize
 =
@@ -6471,7 +6472,8 @@ tile
 .
 same_frames
 >
-FRAMES_BEFORE_CACHING
+=
+FRAMES_BEFORE_PICTURE_CACHING
 {
 resource_cache
 .

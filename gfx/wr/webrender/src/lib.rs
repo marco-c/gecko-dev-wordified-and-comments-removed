@@ -879,6 +879,13 @@ ChasePrimitive
 ;
 pub
 use
+picture
+:
+:
+FRAMES_BEFORE_PICTURE_CACHING
+;
+pub
+use
 renderer
 :
 :
