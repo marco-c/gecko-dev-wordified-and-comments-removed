@@ -445,6 +445,15 @@ AverageFrameLength
 )
 const
 ;
+Maybe
+<
+uint32_t
+>
+ValidNumAudioFrames
+(
+)
+const
+;
 MediaResourceIndex
 mSource
 ;
