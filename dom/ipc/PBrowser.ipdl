@@ -208,23 +208,6 @@ h
 "
 ;
 using
-class
-IPC
-:
-:
-Principal
-from
-"
-mozilla
-/
-dom
-/
-PermissionMessageUtils
-.
-h
-"
-;
-using
 moveonly
 mozilla
 :
@@ -1244,7 +1227,7 @@ CpowEntry
 [
 ]
 aCpows
-Principal
+nsIPrincipal
 aPrincipal
 ClonedMessageData
 aData
@@ -1759,7 +1742,7 @@ CpowEntry
 [
 ]
 aCpows
-Principal
+nsIPrincipal
 aPrincipal
 )
 returns
@@ -1785,7 +1768,7 @@ CpowEntry
 [
 ]
 aCpows
-Principal
+nsIPrincipal
 aPrincipal
 )
 returns
@@ -3053,7 +3036,7 @@ provided
 async
 IndexedDBPermissionRequest
 (
-Principal
+nsIPrincipal
 aPrincipal
 )
 returns
@@ -3855,7 +3838,7 @@ SurfaceFormat
 format
 LayoutDeviceIntRect
 dragRect
-Principal
+nsIPrincipal
 principal
 )
 ;
@@ -4602,7 +4585,7 @@ uint32_t
 aDragAction
 uint32_t
 aDropEffect
-Principal
+nsIPrincipal
 aPrincipal
 )
 ;
@@ -4682,7 +4665,7 @@ IPCDataTransfer
 aDataTransfer
 bool
 aIsPrivateData
-Principal
+nsIPrincipal
 aRequestingPrincipal
 uint32_t
 aContentPolicyType

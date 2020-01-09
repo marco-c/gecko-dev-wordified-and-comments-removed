@@ -3083,9 +3083,8 @@ NeckoParent
 :
 AllocPUDPSocketParent
 (
-const
-Principal
-&
+nsIPrincipal
+*
 const
 nsCString
 &
@@ -3130,9 +3129,8 @@ RecvPUDPSocketConstructor
 PUDPSocketParent
 *
 aActor
-const
-Principal
-&
+nsIPrincipal
+*
 aPrincipal
 const
 nsCString
@@ -3352,9 +3350,8 @@ const
 URIParams
 &
 aURI
-const
-Principal
-&
+nsIPrincipal
+*
 aPrincipal
 const
 bool

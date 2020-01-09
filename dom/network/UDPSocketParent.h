@@ -97,12 +97,8 @@ aManager
 bool
 Init
 (
-const
-IPC
-:
-:
-Principal
-&
+nsIPrincipal
+*
 aPrincipal
 const
 nsACString

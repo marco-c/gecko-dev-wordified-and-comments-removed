@@ -127,11 +127,9 @@ include
 InputStreamParams
 ;
 using
+refcounted
 class
-IPC
-:
-:
-Principal
+nsIPrincipal
 from
 "
 mozilla
@@ -193,7 +191,7 @@ windowId
 TabId
 tabId
 ;
-Principal
+nsIPrincipal
 principal
 ;
 }
