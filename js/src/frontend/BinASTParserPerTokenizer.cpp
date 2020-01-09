@@ -475,7 +475,7 @@ NewGlobalScopeData
 cx_
 varScope
 alloc_
-parseContext_
+pc_
 )
 ;
 if
@@ -723,7 +723,7 @@ init
 )
 )
 ;
-parseContext_
+pc_
 -
 >
 functionScope
@@ -732,12 +732,12 @@ functionScope
 .
 useAsVarScope
 (
-parseContext_
+pc_
 )
 ;
 MOZ_ASSERT
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -752,7 +752,7 @@ Scope
 lexicalScope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -762,7 +762,7 @@ lexicalScope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -824,7 +824,7 @@ NewLexicalScopeData
 cx_
 lexicalScope
 alloc_
-parseContext_
+pc_
 )
 )
 ;
@@ -985,7 +985,7 @@ name
 MOZ_ASSERT_IF
 (
 !
-parseContext_
+pc_
 lazyScript_
 )
 ;
@@ -1030,7 +1030,7 @@ atom
 }
 if
 (
-parseContext_
+pc_
 &
 &
 syntax
@@ -1045,7 +1045,7 @@ Statement
 auto
 ptr
 =
-parseContext_
+pc_
 -
 >
 varScope
@@ -1138,7 +1138,7 @@ BINJS_TRY_VAR
 (
 fun
 !
-parseContext_
+pc_
 ?
 lazyScript_
 -
@@ -1160,7 +1160,7 @@ nullptr
 ;
 MOZ_ASSERT_IF
 (
-parseContext_
+pc_
 fun
 -
 >
@@ -1183,14 +1183,14 @@ directives
 ;
 if
 (
-parseContext_
+pc_
 )
 {
 directives
 .
 emplace
 (
-parseContext_
+pc_
 )
 ;
 }
@@ -1249,7 +1249,7 @@ funbox
 ;
 if
 (
-parseContext_
+pc_
 )
 {
 funbox
@@ -1257,7 +1257,7 @@ funbox
 >
 initWithEnclosingParseContext
 (
-parseContext_
+pc_
 syntax
 )
 ;
@@ -1662,7 +1662,7 @@ Scope
 &
 funScope
 =
-parseContext_
+pc_
 -
 >
 functionScope
@@ -1697,7 +1697,7 @@ funScope
 .
 addDeclaredName
 (
-parseContext_
+pc_
 p
 dotThis
 DeclarationKind
@@ -1739,7 +1739,7 @@ arguments
 )
 |
 |
-parseContext_
+pc_
 -
 >
 functionBox
@@ -1766,7 +1766,7 @@ Scope
 &
 funScope
 =
-parseContext_
+pc_
 -
 >
 functionScope
@@ -1801,7 +1801,7 @@ funScope
 .
 addDeclaredName
 (
-parseContext_
+pc_
 p
 arguments
 DeclarationKind
@@ -1870,7 +1870,7 @@ setArgumentsHasLocalBinding
 ;
 if
 (
-parseContext_
+pc_
 -
 >
 sc
@@ -1883,7 +1883,7 @@ bindingsAccessedDynamically
 )
 |
 |
-parseContext_
+pc_
 -
 >
 sc
@@ -1923,7 +1923,7 @@ Scope
 &
 funScope
 =
-parseContext_
+pc_
 -
 >
 functionScope
@@ -1970,7 +1970,7 @@ funScope
 .
 addDeclaredName
 (
-parseContext_
+pc_
 p
 dotGenerator
 DeclarationKind
@@ -1993,13 +1993,13 @@ noteUse
 (
 cx_
 dotGenerator
-parseContext_
+pc_
 -
 >
 scriptId
 (
 )
-parseContext_
+pc_
 -
 >
 innermostScope
@@ -2089,7 +2089,7 @@ bindings
 NewFunctionScopeData
 (
 cx_
-parseContext_
+pc_
 -
 >
 functionScope
@@ -2097,7 +2097,7 @@ functionScope
 )
 false
 alloc_
-parseContext_
+pc_
 )
 )
 ;
@@ -2135,14 +2135,14 @@ recursiveBinding
 NewLexicalScopeData
 (
 cx_
-parseContext_
+pc_
 -
 >
 namedLambdaScope
 (
 )
 alloc_
-parseContext_
+pc_
 )
 )
 ;
@@ -2246,7 +2246,7 @@ scope
 >
 addDeclaredName
 (
-parseContext_
+pc_
 ptr
 name
 .
@@ -2321,7 +2321,7 @@ captureFunctionName
 {
 MOZ_ASSERT
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -2331,7 +2331,7 @@ isFunctionBox
 ;
 MOZ_ASSERT
 (
-parseContext_
+pc_
 -
 >
 functionBox
@@ -2353,7 +2353,7 @@ RootedAtom
 funName
 (
 cx_
-parseContext_
+pc_
 -
 >
 functionBox
@@ -2379,7 +2379,7 @@ funName
 auto
 ptr
 =
-parseContext_
+pc_
 -
 >
 namedLambdaScope
@@ -2521,7 +2521,7 @@ Var
 scope
 =
 &
-parseContext_
+pc_
 -
 >
 varScope
@@ -2545,7 +2545,7 @@ Let
 ;
 scope
 =
-parseContext_
+pc_
 -
 >
 innermostScope
@@ -2569,7 +2569,7 @@ Const
 ;
 scope
 =
-parseContext_
+pc_
 -
 >
 innermostScope
@@ -2659,7 +2659,7 @@ CatchParameter
 ;
 scope
 =
-parseContext_
+pc_
 -
 >
 innermostScope
@@ -2676,7 +2676,7 @@ Parameter
 :
 MOZ_ASSERT
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -2694,7 +2694,7 @@ PositionalFormalParameter
 scope
 =
 &
-parseContext_
+pc_
 -
 >
 functionScope
@@ -2762,7 +2762,7 @@ VariableDeclarationKind
 :
 Var
 ?
-parseContext_
+pc_
 -
 >
 varScope
@@ -2770,7 +2770,7 @@ varScope
 )
 :
 *
-parseContext_
+pc_
 -
 >
 innermostScope
@@ -2854,7 +2854,7 @@ const
 bool
 hasRest
 =
-parseContext_
+pc_
 -
 >
 functionBox
@@ -3274,7 +3274,7 @@ expectedLength
 {
 if
 (
-parseContext_
+pc_
 -
 >
 functionBox
@@ -3351,7 +3351,7 @@ scope
 .
 bindings
 (
-parseContext_
+pc_
 )
 ;
 bi
@@ -3390,7 +3390,7 @@ value
 .
 noteBoundInScope
 (
-parseContext_
+pc_
 -
 >
 scriptId
@@ -3461,7 +3461,7 @@ checkFunctionClosedVars
 {
 MOZ_ASSERT
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -3474,7 +3474,7 @@ MOZ_TRY
 checkClosedVars
 (
 *
-parseContext_
+pc_
 -
 >
 innermostScope
@@ -3487,7 +3487,7 @@ MOZ_TRY
 (
 checkClosedVars
 (
-parseContext_
+pc_
 -
 >
 functionScope
@@ -3498,7 +3498,7 @@ functionScope
 ;
 if
 (
-parseContext_
+pc_
 -
 >
 functionBox
@@ -3520,7 +3520,7 @@ MOZ_TRY
 (
 checkClosedVars
 (
-parseContext_
+pc_
 -
 >
 namedLambdaScope

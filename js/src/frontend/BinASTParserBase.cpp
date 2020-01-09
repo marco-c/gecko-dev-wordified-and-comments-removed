@@ -105,7 +105,7 @@ lazyScript_
 cx
 lazyScript
 )
-parseContext_
+pc_
 (
 nullptr
 )
@@ -217,7 +217,7 @@ value
 .
 isUsedInScript
 (
-parseContext_
+pc_
 -
 >
 scriptId

@@ -281,7 +281,7 @@ lazyScript_
 ;
 ParseContext
 *
-parseContext_
+pc_
 ;
 FullParseHandler
 factory_

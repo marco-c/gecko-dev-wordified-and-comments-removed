@@ -3117,7 +3117,7 @@ fields
 if
 (
 !
-parseContext_
+pc_
 -
 >
 positionalFormalParameterNames
@@ -3151,7 +3151,7 @@ raiseOOM
 }
 if
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -3159,7 +3159,7 @@ isFunctionBox
 )
 )
 {
-parseContext_
+pc_
 -
 >
 functionBox
@@ -6314,7 +6314,7 @@ if
 hasDirectEval
 )
 {
-parseContext_
+pc_
 -
 >
 sc
@@ -6326,7 +6326,7 @@ setHasDirectEval
 (
 )
 ;
-parseContext_
+pc_
 -
 >
 sc
@@ -6344,7 +6344,7 @@ if
 hasDirectEval
 &
 &
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -6353,7 +6353,7 @@ isFunctionBox
 &
 &
 !
-parseContext_
+pc_
 -
 >
 sc
@@ -6366,7 +6366,7 @@ strict
 )
 )
 {
-parseContext_
+pc_
 -
 >
 functionBox
@@ -6900,7 +6900,7 @@ if
 hasDirectEval
 )
 {
-parseContext_
+pc_
 -
 >
 sc
@@ -6912,7 +6912,7 @@ setHasDirectEval
 (
 )
 ;
-parseContext_
+pc_
 -
 >
 sc
@@ -6930,7 +6930,7 @@ if
 hasDirectEval
 &
 &
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -6939,7 +6939,7 @@ isFunctionBox
 &
 &
 !
-parseContext_
+pc_
 -
 >
 sc
@@ -6952,7 +6952,7 @@ strict
 )
 )
 {
-parseContext_
+pc_
 -
 >
 functionBox
@@ -7577,7 +7577,7 @@ if
 hasDirectEval
 )
 {
-parseContext_
+pc_
 -
 >
 sc
@@ -7589,7 +7589,7 @@ setHasDirectEval
 (
 )
 ;
-parseContext_
+pc_
 -
 >
 sc
@@ -7623,7 +7623,7 @@ if
 hasDirectEval
 &
 &
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -7632,7 +7632,7 @@ isFunctionBox
 &
 &
 !
-parseContext_
+pc_
 -
 >
 sc
@@ -7645,7 +7645,7 @@ strict
 )
 )
 {
-parseContext_
+pc_
 -
 >
 functionBox
@@ -7778,7 +7778,7 @@ bool
 allowDuplicateName
 =
 !
-parseContext_
+pc_
 -
 >
 sc
@@ -8239,7 +8239,7 @@ if
 hasDirectEval
 )
 {
-parseContext_
+pc_
 -
 >
 sc
@@ -8251,7 +8251,7 @@ setHasDirectEval
 (
 )
 ;
-parseContext_
+pc_
 -
 >
 sc
@@ -8269,7 +8269,7 @@ if
 hasDirectEval
 &
 &
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -8278,7 +8278,7 @@ isFunctionBox
 &
 &
 !
-parseContext_
+pc_
 -
 >
 sc
@@ -8291,7 +8291,7 @@ strict
 )
 )
 {
-parseContext_
+pc_
 -
 >
 functionBox
@@ -8545,7 +8545,7 @@ if
 hasDirectEval
 )
 {
-parseContext_
+pc_
 -
 >
 sc
@@ -8557,7 +8557,7 @@ setHasDirectEval
 (
 )
 ;
-parseContext_
+pc_
 -
 >
 sc
@@ -8575,7 +8575,7 @@ if
 hasDirectEval
 &
 &
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -8584,7 +8584,7 @@ isFunctionBox
 &
 &
 !
-parseContext_
+pc_
 -
 >
 sc
@@ -8597,7 +8597,7 @@ strict
 )
 )
 {
-parseContext_
+pc_
 -
 >
 functionBox
@@ -8879,13 +8879,13 @@ noteUse
 (
 cx_
 name
-parseContext_
+pc_
 -
 >
 scriptId
 (
 )
-parseContext_
+pc_
 -
 >
 innermostScope
@@ -10092,7 +10092,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -10106,7 +10106,7 @@ Scope
 currentScope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -10116,7 +10116,7 @@ currentScope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -10151,7 +10151,7 @@ NewLexicalScopeData
 cx_
 currentScope
 alloc_
-parseContext_
+pc_
 )
 )
 ;
@@ -10304,7 +10304,7 @@ identifier
 auto
 validity
 =
-parseContext_
+pc_
 -
 >
 checkBreakStatement
@@ -10569,7 +10569,7 @@ JSOP_FUNAPPLY
 ;
 if
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -10577,7 +10577,7 @@ isFunctionBox
 )
 )
 {
-parseContext_
+pc_
 -
 >
 functionBox
@@ -10627,7 +10627,7 @@ cx_
 if
 (
 !
-parseContext_
+pc_
 -
 >
 varScope
@@ -10648,7 +10648,7 @@ eval
 &
 &
 !
-parseContext_
+pc_
 -
 >
 innermostScope
@@ -10672,7 +10672,7 @@ eval
 if
 (
 !
-parseContext_
+pc_
 -
 >
 sc
@@ -10693,7 +10693,7 @@ raiseMissingDirectEvalInAssertedScope
 }
 op
 =
-parseContext_
+pc_
 -
 >
 sc
@@ -10944,7 +10944,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -10958,7 +10958,7 @@ Scope
 currentScope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -10968,7 +10968,7 @@ currentScope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -11011,7 +11011,7 @@ NewLexicalScopeData
 cx_
 currentScope
 alloc_
-parseContext_
+pc_
 )
 )
 ;
@@ -12061,7 +12061,7 @@ identifier
 auto
 validity
 =
-parseContext_
+pc_
 -
 >
 checkContinueStatement
@@ -12781,7 +12781,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -13222,7 +13222,7 @@ init
 )
 )
 ;
-parseContext_
+pc_
 -
 >
 functionScope
@@ -13231,12 +13231,12 @@ functionScope
 .
 useAsVarScope
 (
-parseContext_
+pc_
 )
 ;
 MOZ_ASSERT
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -13251,7 +13251,7 @@ Scope
 lexicalScope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -13261,7 +13261,7 @@ lexicalScope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -13302,7 +13302,7 @@ NewLexicalScopeData
 cx_
 lexicalScope
 alloc_
-parseContext_
+pc_
 )
 )
 ;
@@ -13622,7 +13622,7 @@ init
 )
 )
 ;
-parseContext_
+pc_
 -
 >
 functionScope
@@ -13631,12 +13631,12 @@ functionScope
 .
 useAsVarScope
 (
-parseContext_
+pc_
 )
 ;
 MOZ_ASSERT
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -13651,7 +13651,7 @@ Scope
 lexicalScope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -13661,7 +13661,7 @@ lexicalScope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -13702,7 +13702,7 @@ NewLexicalScopeData
 cx_
 lexicalScope
 alloc_
-parseContext_
+pc_
 )
 )
 ;
@@ -13961,7 +13961,7 @@ init
 )
 )
 ;
-parseContext_
+pc_
 -
 >
 functionScope
@@ -13970,12 +13970,12 @@ functionScope
 .
 useAsVarScope
 (
-parseContext_
+pc_
 )
 ;
 MOZ_ASSERT
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -13990,7 +13990,7 @@ Scope
 lexicalScope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -14000,7 +14000,7 @@ lexicalScope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -14358,7 +14358,7 @@ init
 )
 )
 ;
-parseContext_
+pc_
 -
 >
 functionScope
@@ -14367,12 +14367,12 @@ functionScope
 .
 useAsVarScope
 (
-parseContext_
+pc_
 )
 ;
 MOZ_ASSERT
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -14387,7 +14387,7 @@ Scope
 lexicalScope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -14397,7 +14397,7 @@ lexicalScope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -14694,7 +14694,7 @@ init
 )
 )
 ;
-parseContext_
+pc_
 -
 >
 functionScope
@@ -14703,12 +14703,12 @@ functionScope
 .
 useAsVarScope
 (
-parseContext_
+pc_
 )
 ;
 MOZ_ASSERT
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -14723,7 +14723,7 @@ Scope
 lexicalScope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -14733,7 +14733,7 @@ lexicalScope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -15338,7 +15338,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -15352,7 +15352,7 @@ Scope
 scope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -15362,7 +15362,7 @@ scope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -15449,7 +15449,7 @@ NewLexicalScopeData
 cx_
 scope
 alloc_
-parseContext_
+pc_
 )
 )
 ;
@@ -15629,7 +15629,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -15643,7 +15643,7 @@ Scope
 scope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -15653,7 +15653,7 @@ scope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -15745,7 +15745,7 @@ NewLexicalScopeData
 cx_
 scope
 alloc_
-parseContext_
+pc_
 )
 )
 ;
@@ -16262,7 +16262,7 @@ readBool
 ;
 if
 (
-parseContext_
+pc_
 -
 >
 functionBox
@@ -17275,13 +17275,13 @@ noteUse
 (
 cx_
 name
-parseContext_
+pc_
 -
 >
 scriptId
 (
 )
-parseContext_
+pc_
 -
 >
 innermostScope
@@ -17593,7 +17593,7 @@ ParseContext
 LabelStatement
 stmt
 (
-parseContext_
+pc_
 label
 )
 ;
@@ -18038,13 +18038,13 @@ Create
 cx_
 fun
 sourceObject_
-parseContext_
+pc_
 -
 >
 closedOverBindingsForLazy
 (
 )
-parseContext_
+pc_
 -
 >
 innerFunctionsForLazy
@@ -18420,13 +18420,13 @@ Create
 cx_
 fun
 sourceObject_
-parseContext_
+pc_
 -
 >
 closedOverBindingsForLazy
 (
 )
-parseContext_
+pc_
 -
 >
 innerFunctionsForLazy
@@ -20228,7 +20228,7 @@ endif
 if
 (
 !
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -20247,7 +20247,7 @@ kind
 )
 ;
 }
-parseContext_
+pc_
 -
 >
 functionBox
@@ -20401,7 +20401,7 @@ parseListOfDirective
 ;
 forceStrictIfNecessary
 (
-parseContext_
+pc_
 -
 >
 sc
@@ -20422,7 +20422,7 @@ MOZ_TRY
 (
 checkClosedVars
 (
-parseContext_
+pc_
 -
 >
 varScope
@@ -21979,7 +21979,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -22137,7 +22137,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -22370,7 +22370,7 @@ fields
 ;
 if
 (
-parseContext_
+pc_
 -
 >
 isFunctionBox
@@ -22378,7 +22378,7 @@ isFunctionBox
 )
 )
 {
-parseContext_
+pc_
 -
 >
 functionBox
@@ -22411,7 +22411,7 @@ nullptr
 ;
 if
 (
-parseContext_
+pc_
 -
 >
 sc
@@ -22450,13 +22450,13 @@ noteUse
 (
 cx_
 dotThis
-parseContext_
+pc_
 -
 >
 scriptId
 (
 )
-parseContext_
+pc_
 -
 >
 innermostScope
@@ -22719,7 +22719,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -22733,7 +22733,7 @@ Scope
 scope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -22743,7 +22743,7 @@ scope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -22888,7 +22888,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -22902,7 +22902,7 @@ Scope
 scope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -22912,7 +22912,7 @@ scope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -22944,7 +22944,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -22958,7 +22958,7 @@ Scope
 scope
 (
 cx_
-parseContext_
+pc_
 usedNames_
 )
 ;
@@ -22968,7 +22968,7 @@ scope
 .
 init
 (
-parseContext_
+pc_
 )
 )
 ;
@@ -23280,7 +23280,7 @@ JSMSG_DEPRECATED_DELETE_OPERAND
 )
 )
 ;
-parseContext_
+pc_
 -
 >
 sc
@@ -24210,7 +24210,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -24355,7 +24355,7 @@ ParseContext
 Statement
 stmt
 (
-parseContext_
+pc_
 StatementKind
 :
 :
@@ -24370,7 +24370,7 @@ parseStatement
 )
 )
 ;
-parseContext_
+pc_
 -
 >
 sc
