@@ -513,6 +513,16 @@ WindowsDllServices
 h
 '
 ]
+USE_LIBS
++
+=
+[
+'
+mscom
+-
+mozglue
+'
+]
 EXPORTS
 .
 mozilla
