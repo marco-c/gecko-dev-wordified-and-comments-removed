@@ -611,10 +611,10 @@ js
 :
 AllocFunction
 allocFunc
-size_t
-nbytes
 arena_id_t
 arena
+size_t
+nbytes
 void
 *
 reallocPtr
