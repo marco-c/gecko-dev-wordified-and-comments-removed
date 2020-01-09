@@ -264,6 +264,9 @@ aProfile
 bool
 *
 aDidCreate
+bool
+*
+aWasDefaultSelection
 )
 ;
 nsresult
