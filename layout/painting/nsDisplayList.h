@@ -2879,6 +2879,12 @@ GetBackgroundPaintFlags
 (
 )
 ;
+uint32_t
+GetImageDecodeFlags
+(
+)
+const
+;
 void
 SubtractFromVisibleRegion
 (
