@@ -295,9 +295,7 @@ popup
 (
 screenX
 screenY
-{
 doc
-}
 )
 ;
 }

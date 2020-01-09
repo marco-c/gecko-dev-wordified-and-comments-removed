@@ -1427,7 +1427,9 @@ this
 .
 inspector
 .
-_toolbox
+toolbox
+.
+doc
 )
 ;
 return

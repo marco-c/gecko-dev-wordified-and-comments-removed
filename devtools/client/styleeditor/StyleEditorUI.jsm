@@ -1286,6 +1286,8 @@ screenY
 this
 .
 _toolbox
+.
+doc
 )
 ;
 }

@@ -14357,13 +14357,9 @@ popup
 (
 x
 y
-{
-doc
-:
 this
 .
 doc
-}
 )
 ;
 }
