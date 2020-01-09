@@ -3307,7 +3307,7 @@ Shippable
 "
 attributes
 :
-nightly
+shippable
 :
 true
 enable
@@ -4913,7 +4913,7 @@ pgo
 true
 attributes
 :
-nightly
+shippable
 :
 true
 enable

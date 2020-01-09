@@ -1654,7 +1654,7 @@ compile
 "
 attributes
 :
-nightly
+shippable
 :
 true
 enable

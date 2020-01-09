@@ -1600,7 +1600,7 @@ type
 shippable
 attributes
 :
-nightly
+shippable
 :
 true
 enable
@@ -2074,7 +2074,7 @@ type
 shippable
 attributes
 :
-nightly
+shippable
 :
 true
 enable
@@ -6630,7 +6630,7 @@ type
 shippable
 attributes
 :
-nightly
+shippable
 :
 true
 enable
