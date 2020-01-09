@@ -945,10 +945,6 @@ speedometer
 -
 chrome
 '
-"
-"
-"
- 
 def
 test_get_raptor_test_list_geckoview
 (
@@ -965,7 +961,7 @@ app
 "
 geckoview
 "
-                         
+                       
 test
 =
 "
@@ -1017,9 +1013,6 @@ webgl
 -
 geckoview
 '
-"
-"
-"
 def
 test_get_raptor_test_list_gecko_profiling
 (
