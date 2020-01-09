@@ -524,6 +524,8 @@ bool
 isTrackingResource
 bool
 firstPartyStorageAccessGranted
+OriginAttributes
+aStoragePrincipalAttrs
 nsCString
 cookieString
 nsCString
