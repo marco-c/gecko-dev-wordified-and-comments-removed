@@ -2675,7 +2675,7 @@ Center
 ComputedLengthOrPercentage
 :
 :
-Percentage
+new_percent
 (
 ComputedPercentage
 (
@@ -2737,7 +2737,7 @@ else
 ComputedLengthOrPercentage
 :
 :
-Percentage
+new_percent
 (
 p
 )

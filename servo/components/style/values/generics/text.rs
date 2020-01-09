@@ -583,13 +583,6 @@ Spacing
 <
 V
 >
-where
-V
-:
-From
-<
-Au
->
 {
 #
 [

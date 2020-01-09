@@ -673,7 +673,6 @@ length
 :
 :
 {
-CalcLengthOrPercentage
 Length
 LengthOrNumber
 LengthOrPercentage
