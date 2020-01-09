@@ -121,3 +121,15 @@ Web
 Replay
 '
 )
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+'
+mochitest
+/
+browser
+.
+ini
+'
+]

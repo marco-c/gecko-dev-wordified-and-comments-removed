@@ -55,7 +55,7 @@ switching
 )
 ;
 await
-getSplitConsole
+getDebuggerSplitConsole
 (
 dbg
 )
