@@ -34,6 +34,8 @@ grid
 grid
 :
 subgrid
+/
+subgrid
 ;
 }
 #
