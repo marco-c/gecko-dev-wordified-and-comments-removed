@@ -7328,6 +7328,17 @@ RecordStartupTelemetry
 (
 )
 {
+if
+(
+!
+XRE_IsParentProcess
+(
+)
+)
+{
+return
+;
+}
 DeviceManagerDx
 *
 dx
