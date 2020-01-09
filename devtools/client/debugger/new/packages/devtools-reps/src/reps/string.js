@@ -111,6 +111,11 @@ title
 PropTypes
 .
 string
+isInContentPage
+:
+PropTypes
+.
+bool
 }
 ;
 function
@@ -134,6 +139,7 @@ true
 member
 openLink
 title
+isInContentPage
 }
 =
 props
@@ -271,6 +277,7 @@ shouldCrop
 &
 cropLimit
 openLink
+isInContentPage
 )
 )
 ;
@@ -525,6 +532,7 @@ getLinkifiedElements
 text
 cropLimit
 openLink
+isInContentPage
 )
 {
 const
@@ -682,6 +690,16 @@ token
 draggable
 :
 false
+href
+:
+openLink
+|
+|
+isInContentPage
+?
+token
+:
+null
 onClick
 :
 openLink
