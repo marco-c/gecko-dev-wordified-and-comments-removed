@@ -4076,6 +4076,11 @@ macosx
 '
 linux
 '
+'
+linux
+-
+bitbar
+'
 )
     
 Required
