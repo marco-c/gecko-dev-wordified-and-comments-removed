@@ -1030,11 +1030,6 @@ stdin
 fileno
 (
 )
-cwd
-=
-'
-/
-'
 env
 =
 env
