@@ -344,6 +344,7 @@ script
 )
 ;
 }
+inline
 js
 :
 :
@@ -414,6 +415,7 @@ frame
 )
 ;
 }
+inline
 js
 :
 :
@@ -484,6 +486,7 @@ frame
 )
 ;
 }
+inline
 js
 :
 :
@@ -534,6 +537,7 @@ frame
 )
 ;
 }
+inline
 js
 :
 :
@@ -584,6 +588,7 @@ frame
 )
 ;
 }
+inline
 void
 js
 :
@@ -627,6 +632,7 @@ wasmInstance
 ;
 }
 }
+inline
 void
 js
 :
@@ -677,6 +683,7 @@ promise
 ;
 }
 }
+inline
 void
 js
 :
