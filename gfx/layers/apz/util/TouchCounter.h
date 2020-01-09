@@ -40,6 +40,15 @@ MultiTouchInput
 aInput
 )
 ;
+void
+Update
+(
+const
+WidgetTouchEvent
+&
+aEvent
+)
+;
 uint32_t
 GetActiveTouchCount
 (
