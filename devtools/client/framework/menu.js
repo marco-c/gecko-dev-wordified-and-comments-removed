@@ -303,7 +303,7 @@ setAttribute
 consumeoutsideclicks
 "
 "
-true
+false
 "
 )
 ;
