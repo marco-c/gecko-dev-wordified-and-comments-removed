@@ -4318,9 +4318,9 @@ MOZ_ASSERT
 (
 mOutlineStyle
 .
-border_style
-.
-_0
+AsBorderStyle
+(
+)
 !
 =
 mozilla

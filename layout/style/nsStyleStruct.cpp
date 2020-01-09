@@ -1730,9 +1730,9 @@ value
 =
 coord
 .
-length
-.
-_0
+AsLength
+(
+)
 .
 ToAppUnits
 (
@@ -1754,9 +1754,9 @@ value
 =
 coord
 .
-number
-.
-_0
+AsNumber
+(
+)
 *
 mComputedBorder
 .

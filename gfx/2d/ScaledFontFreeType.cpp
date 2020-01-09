@@ -247,7 +247,13 @@ options
 .
 flags
 =
+wr
+:
+:
+FontInstanceFlags
+{
 0
+}
 ;
 options
 .

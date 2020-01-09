@@ -6747,9 +6747,9 @@ position
 >
 mZIndex
 .
-integer
-.
-_0
+AsInteger
+(
+)
 ;
 }
 else

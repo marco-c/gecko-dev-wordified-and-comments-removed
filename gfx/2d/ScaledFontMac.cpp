@@ -2084,10 +2084,7 @@ flags
 wr
 :
 :
-FontInstanceFlags
-:
-:
-SUBPIXEL_POSITION
+FontInstanceFlags_SUBPIXEL_POSITION
 ;
 if
 (
@@ -2102,10 +2099,7 @@ flags
 wr
 :
 :
-FontInstanceFlags
-:
-:
-FONT_SMOOTHING
+FontInstanceFlags_FONT_SMOOTHING
 ;
 }
 if
@@ -2121,10 +2115,7 @@ flags
 wr
 :
 :
-FontInstanceFlags
-:
-:
-SYNTHETIC_BOLD
+FontInstanceFlags_SYNTHETIC_BOLD
 ;
 }
 options

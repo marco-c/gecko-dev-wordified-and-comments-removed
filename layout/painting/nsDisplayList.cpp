@@ -17014,9 +17014,9 @@ position
 >
 mZIndex
 .
-integer
-.
-_0
+AsInteger
+(
+)
 ;
 MOZ_ASSERT
 (

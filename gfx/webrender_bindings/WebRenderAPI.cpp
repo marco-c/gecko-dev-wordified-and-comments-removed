@@ -1735,7 +1735,7 @@ if
 (
 mDebugFlags
 .
-mBits
+bits
 !
 =
 aFlags
@@ -1743,7 +1743,7 @@ aFlags
 {
 mDebugFlags
 .
-mBits
+bits
 =
 aFlags
 ;
