@@ -1454,6 +1454,12 @@ nsRect
 aRect
 )
 ;
+nsIWidget
+*
+GetParentMenuWidget
+(
+)
+;
 protected
 :
 nsString

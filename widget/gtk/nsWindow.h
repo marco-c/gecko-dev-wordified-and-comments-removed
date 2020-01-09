@@ -2553,6 +2553,12 @@ ForceTitlebarRedraw
 (
 )
 ;
+GtkWindow
+*
+GetPopupParentWindow
+(
+)
+;
 RefPtr
 <
 mozilla
