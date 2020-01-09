@@ -528,6 +528,10 @@ Destroy
 (
 )
 ;
+mTabParent
+=
+nullptr
+;
 }
 }
 IPCResult
