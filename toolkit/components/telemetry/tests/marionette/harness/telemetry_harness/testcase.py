@@ -6,6 +6,8 @@ import
 re
 import
 textwrap
+import
+time
 from
 marionette_driver
 .
@@ -464,6 +466,15 @@ keys
 Keys
 .
 ENTER
+)
+        
+time
+.
+sleep
+(
+0
+.
+1
 )
     
 def
