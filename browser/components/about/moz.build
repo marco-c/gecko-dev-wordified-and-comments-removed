@@ -142,6 +142,16 @@ AboutRedirector
 cpp
 '
 ]
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 EXTRA_JS_MODULES
 .
 aboutpages

@@ -1540,7 +1540,7 @@ const
 int
 CONTRACTID_HASHTABLE_INITIAL_LENGTH
 =
-256
+128
 ;
 nsComponentManagerImpl
 :
