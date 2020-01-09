@@ -226,17 +226,6 @@ byteorder
 .
 0
 "
-cfg
--
-if
-=
-"
-0
-.
-1
-.
-0
-"
 cssparser
 =
 "
