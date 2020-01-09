@@ -1407,7 +1407,7 @@ Slice
 )
 mBorderTopColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 CurrentColor
@@ -1416,7 +1416,7 @@ CurrentColor
 )
 mBorderRightColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 CurrentColor
@@ -1425,7 +1425,7 @@ CurrentColor
 )
 mBorderBottomColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 CurrentColor
@@ -1434,7 +1434,7 @@ CurrentColor
 )
 mBorderLeftColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 CurrentColor
@@ -2092,7 +2092,7 @@ mOutlineOffset
 )
 mOutlineColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 CurrentColor
@@ -3004,7 +3004,7 @@ eStyleUnit_Auto
 )
 mColumnRuleColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 CurrentColor
@@ -5433,7 +5433,7 @@ Mask
 )
 mStopColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 Black
@@ -5442,7 +5442,7 @@ Black
 )
 mFloodColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 Black
@@ -5451,7 +5451,7 @@ Black
 )
 mLightingColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 White
@@ -5962,7 +5962,7 @@ aType
 :
 mPaint
 (
-StyleComplexColor
+StyleColor
 :
 :
 Black
@@ -5979,7 +5979,7 @@ eStyleSVGFallbackType_NotSet
 )
 mFallbackColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 Black
@@ -6074,7 +6074,7 @@ mPaint
 .
 mColor
 =
-StyleComplexColor
+StyleColor
 :
 :
 Black
@@ -6115,7 +6115,7 @@ eStyleSVGFallbackType_NotSet
 ;
 mFallbackColor
 =
-StyleComplexColor
+StyleColor
 :
 :
 Black
@@ -6300,7 +6300,7 @@ nsStyleSVGPaintType
 aType
 nsStyleSVGFallbackType
 aFallbackType
-StyleComplexColor
+StyleColor
 aFallbackColor
 )
 {
@@ -6341,7 +6341,7 @@ nsStyleSVGPaint
 :
 SetColor
 (
-StyleComplexColor
+StyleColor
 aColor
 )
 {
@@ -6374,7 +6374,7 @@ URLValue
 aPaintServer
 nsStyleSVGFallbackType
 aFallbackType
-StyleComplexColor
+StyleColor
 aFallbackColor
 )
 {
@@ -14199,7 +14199,7 @@ Background
 )
 mBackgroundColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 Transparent
@@ -18393,7 +18393,7 @@ mInitialLetterSize
 )
 mTextDecorationColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 CurrentColor
@@ -18773,7 +18773,7 @@ Auto
 )
 mTextEmphasisColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 CurrentColor
@@ -18782,7 +18782,7 @@ CurrentColor
 )
 mWebkitTextFillColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 CurrentColor
@@ -18791,7 +18791,7 @@ CurrentColor
 )
 mWebkitTextStrokeColor
 (
-StyleComplexColor
+StyleColor
 :
 :
 CurrentColor

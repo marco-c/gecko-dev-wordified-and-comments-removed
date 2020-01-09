@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-StyleComplexColor
+StyleColorInlines
 .
 h
 "
@@ -39,10 +39,9 @@ nsStyleStruct
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 static
 nscolor
 LinearBlendColors
@@ -279,7 +278,7 @@ template
 <
 >
 bool
-StyleComplexColor
+StyleColor
 :
 :
 MaybeTransparent
@@ -336,7 +335,7 @@ template
 <
 >
 nscolor
-StyleComplexColor
+StyleColor
 :
 :
 CalcColor
@@ -416,7 +415,7 @@ template
 <
 >
 nscolor
-StyleComplexColor
+StyleColor
 :
 :
 CalcColor
@@ -467,7 +466,7 @@ template
 <
 >
 nscolor
-StyleComplexColor
+StyleColor
 :
 :
 CalcColor
@@ -491,4 +490,5 @@ Style
 )
 )
 ;
+}
 }
