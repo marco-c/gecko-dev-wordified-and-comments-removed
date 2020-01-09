@@ -17124,15 +17124,9 @@ ENABLE_WASM_GC
 HasGcTypes
 gcTypesConfigured
 =
+HasGcSupport
+(
 cx
--
->
-options
-(
-)
-.
-wasmGc
-(
 )
 ?
 HasGcTypes

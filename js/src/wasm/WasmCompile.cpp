@@ -458,15 +458,9 @@ ENABLE_WASM_GC
 bool
 gcEnabled
 =
+HasGcSupport
+(
 cx
--
->
-options
-(
-)
-.
-wasmGc
-(
 )
 ;
 #
