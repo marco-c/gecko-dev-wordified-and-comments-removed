@@ -1756,13 +1756,6 @@ WeakSetObject
 cpp
 '
 '
-devtools
-/
-sharkctl
-.
-cpp
-'
-'
 ds
 /
 Bitmap
