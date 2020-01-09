@@ -2,6 +2,7 @@ from
 __future__
 import
 absolute_import
+print_function
 import
 argparse
 import
@@ -1004,11 +1005,7 @@ buildid
 :
         
 print
->
->
-sys
-.
-stderr
+(
 '
 Ignoring
 invalid
@@ -1019,6 +1016,12 @@ s
 '
 %
 buildid
+file
+=
+sys
+.
+stderr
+)
         
 buildid
 =
