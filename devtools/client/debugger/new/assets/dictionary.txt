@@ -247,3 +247,6 @@ Homebrew
 -
 60minutes
 myScriptFunction
+strict
+-
+ssl
