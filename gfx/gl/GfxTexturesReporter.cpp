@@ -25,7 +25,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -255,7 +257,7 @@ amount
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 GfxLoggingTextureUsageEnabled
@@ -310,7 +312,7 @@ sAmount
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 GfxLoggingPeakTextureUsageEnabled

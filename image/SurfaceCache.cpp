@@ -96,6 +96,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
@@ -127,13 +136,6 @@ h
 include
 "
 gfxPlatform
-.
-h
-"
-#
-include
-"
-gfxPrefs
 .
 h
 "
@@ -4769,7 +4771,7 @@ WrapNotNull
 cache
 )
 !
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -6206,7 +6208,7 @@ once
 uint32_t
 surfaceCacheExpirationTimeMS
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemSurfaceCacheMinExpirationMS
@@ -6218,7 +6220,7 @@ surfaceCacheDiscardFactor
 =
 max
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemSurfaceCacheDiscardFactor
@@ -6230,7 +6232,7 @@ ImageMemSurfaceCacheDiscardFactor
 uint64_t
 surfaceCacheMaxSizeKB
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemSurfaceCacheMaxSizeKB
@@ -6242,7 +6244,7 @@ surfaceCacheSizeFactor
 =
 max
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemSurfaceCacheSizeFactor

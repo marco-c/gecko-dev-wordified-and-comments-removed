@@ -29041,7 +29041,7 @@ return
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZKeyboardEnabled

@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 LayerMetricsWrapper
@@ -1498,7 +1507,7 @@ nullptr
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 TileEdgePaddingEnabled

@@ -166,6 +166,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BrowserParent
@@ -1711,7 +1720,7 @@ defaultFrameRate
 int32_t
 compositionFrameRatePref
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersCompositionFrameRate
@@ -8935,7 +8944,7 @@ mWrBridge
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
