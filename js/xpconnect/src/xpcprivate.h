@@ -9722,6 +9722,10 @@ sameZoneAs
 (
 cx
 )
+freshCompartment
+(
+false
+)
 freshZone
 (
 false
@@ -9792,6 +9796,9 @@ JS
 :
 RootedObject
 sameZoneAs
+;
+bool
+freshCompartment
 ;
 bool
 freshZone
