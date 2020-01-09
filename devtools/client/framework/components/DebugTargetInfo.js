@@ -841,6 +841,11 @@ className
 iconized
 -
 label
+qa
+-
+runtime
+-
+info
 "
 }
 dom
@@ -855,6 +860,11 @@ className
 :
 "
 channel
+-
+icon
+qa
+-
+runtime
 -
 icon
 "
