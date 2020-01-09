@@ -10991,6 +10991,17 @@ event
 )
 ;
 "
+onkeypress
+=
+"
+DownloadsIndicatorView
+.
+onCommand
+(
+event
+)
+;
+"
 ondrop
 =
 "
