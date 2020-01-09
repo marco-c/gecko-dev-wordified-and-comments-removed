@@ -338,7 +338,6 @@ onQueryCancelled
 "
 )
 ;
-await
 controller
 .
 startQuery
