@@ -3070,6 +3070,8 @@ aNavigationIndex
 nsIURI
 *
 aNavigationURI
+int32_t
+aEpoch
 bool
 *
 aCanCancel
@@ -3220,6 +3222,18 @@ uint64_t
 aInputBlockId
 )
 ;
+void
+SetCancelContentJSEpoch
+(
+int32_t
+aEpoch
+)
+{
+mCancelContentJSEpoch
+=
+aEpoch
+;
+}
 static
 bool
 HasVisibleTabs
@@ -4154,6 +4168,9 @@ mPendingLayersObserverEpoch
 ;
 uint32_t
 mPendingDocShellBlockers
+;
+int32_t
+mCancelContentJSEpoch
 ;
 WindowsHandle
 mWidgetNativeData

@@ -286,6 +286,8 @@ aNavigationIndex
 nsCString
 ?
 aNavigationURI
+int32_t
+aEpoch
 )
 ;
 }
