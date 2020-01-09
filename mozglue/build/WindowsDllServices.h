@@ -202,6 +202,9 @@ wchar_t
 >
 mFullPath
 ;
+double
+mLoadDurationMS
+;
 }
 ;
 ModuleLoadEvent

@@ -200,6 +200,12 @@ nsIFile
 >
 mFile
 ;
+Maybe
+<
+double
+>
+mLoadDurationMS
+;
 nsString
 mFilePathClean
 ;

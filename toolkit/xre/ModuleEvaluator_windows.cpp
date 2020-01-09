@@ -192,6 +192,15 @@ aOther
 .
 mBase
 )
+mLoadDurationMS
+(
+Some
+(
+aOther
+.
+mLoadDurationMS
+)
+)
 {
 if
 (
