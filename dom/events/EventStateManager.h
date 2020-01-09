@@ -784,7 +784,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleMiddleClickPaste
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 WidgetMouseEvent
@@ -996,7 +996,7 @@ nsEventStatus
 aStatus
 EventMessage
 aMessage
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -1056,7 +1056,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 DispatchClickEvents
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 WidgetMouseEvent

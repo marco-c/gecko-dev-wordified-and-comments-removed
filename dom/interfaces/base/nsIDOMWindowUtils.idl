@@ -6434,7 +6434,7 @@ trusted
 event
 via
 the
-nsIPresShell
+PresShell
 object
 of
 the

@@ -218,9 +218,6 @@ class
 nsINodeList
 ;
 class
-nsIPresShell
-;
-class
 nsIPrincipal
 ;
 class
@@ -246,6 +243,9 @@ mozilla
 {
 class
 EventListenerManager
+;
+class
+PresShell
 ;
 class
 TextEditor
@@ -3391,7 +3391,10 @@ nsIContent
 *
 GetSelectionRootContent
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 )

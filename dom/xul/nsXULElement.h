@@ -1317,6 +1317,7 @@ aVisitor
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 PreHandleEvent
@@ -2737,6 +2738,7 @@ CallerType
 aCallerType
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DoCommand
 (
@@ -3209,6 +3211,7 @@ EventMessage
 aMessage
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DispatchXULCommand
 (

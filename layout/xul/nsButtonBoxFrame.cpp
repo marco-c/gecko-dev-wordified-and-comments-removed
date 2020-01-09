@@ -967,6 +967,14 @@ presShell
 return
 ;
 }
+nsCOMPtr
+<
+nsIContent
+>
+content
+=
+mContent
+;
 WidgetInputEvent
 *
 inputEvent
@@ -994,7 +1002,7 @@ nsContentUtils
 :
 DispatchXULCommand
 (
-mContent
+content
 aEvent
 -
 >

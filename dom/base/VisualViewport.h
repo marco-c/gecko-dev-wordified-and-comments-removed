@@ -40,13 +40,6 @@ Units
 .
 h
 "
-#
-include
-"
-nsIPresShell
-.
-h
-"
 namespace
 mozilla
 {
