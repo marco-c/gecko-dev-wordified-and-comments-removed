@@ -1390,6 +1390,7 @@ funbox
 initWithEnclosingParseContext
 (
 pc_
+fun
 syntax
 )
 ;
