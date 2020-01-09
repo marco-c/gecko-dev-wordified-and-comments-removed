@@ -4616,8 +4616,9 @@ const
 size_t
 match
 ;
-MOZ_ALWAYS_TRUE
+if
 (
+!
 BinarySearch
 (
 ProjectLazyFuncIndex
@@ -4635,7 +4636,11 @@ funcIndex
 match
 )
 )
+{
+return
+nullptr
 ;
+}
 const
 LazyFuncExport
 &
