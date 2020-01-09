@@ -809,8 +809,6 @@ Uptake
 reportRecipe
 (
 recipe
-.
-id
 status
 )
 ;
@@ -850,8 +848,6 @@ Uptake
 reportRecipe
 (
 recipe
-.
-id
 Uptake
 .
 RECIPE_INVALID_ACTION
