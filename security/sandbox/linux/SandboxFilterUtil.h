@@ -120,6 +120,12 @@ Nothing
 }
 #
 endif
+static
+bool
+HasSeparateSocketCalls
+(
+)
+;
 }
 ;
 }
