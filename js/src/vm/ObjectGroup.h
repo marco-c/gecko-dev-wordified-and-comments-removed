@@ -552,16 +552,6 @@ return
 nullptr
 ;
 }
-TypeNewScript
-*
-anyNewScript
-(
-const
-AutoSweepObjectGroup
-&
-sweep
-)
-;
 void
 detachNewScript
 (
