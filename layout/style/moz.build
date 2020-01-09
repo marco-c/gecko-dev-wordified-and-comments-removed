@@ -694,6 +694,11 @@ URLExtraData
 h
 '
 '
+UserAgentStyleSheetID
+.
+h
+'
+'
 UserAgentStyleSheetList
 .
 h
