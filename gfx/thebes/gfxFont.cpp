@@ -4810,8 +4810,6 @@ ProvidesGlyphWidths
 return
 GetGlyphWidth
 (
-*
-aDrawTarget
 aGID
 )
 /

@@ -136,17 +136,6 @@ gfxFont
 MOZ_NON_OWNING_REF
 mFont
 ;
-mozilla
-:
-:
-gfx
-:
-:
-DrawTarget
-*
-MOZ_NON_OWNING_REF
-mDrawTarget
-;
 }
 ;
 CallbackData

@@ -2633,9 +2633,6 @@ gfxFT2FontBase
 :
 GetGlyphWidth
 (
-DrawTarget
-&
-aDrawTarget
 uint16_t
 aGID
 )

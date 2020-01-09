@@ -2792,9 +2792,6 @@ gfxDWriteFont
 :
 GetGlyphWidth
 (
-DrawTarget
-&
-aDrawTarget
 uint16_t
 aGID
 )

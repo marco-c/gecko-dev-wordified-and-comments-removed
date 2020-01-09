@@ -1713,11 +1713,6 @@ GetFont
 >
 GetGlyphWidth
 (
-*
-fcd
--
->
-mDrawTarget
 glyph
 )
 ;
@@ -1868,11 +1863,6 @@ mShaper
 >
 GetGlyphVOrigin
 (
-*
-fcd
--
->
-mDrawTarget
 glyph
 x
 y
@@ -1888,9 +1878,6 @@ gfxHarfBuzzShaper
 :
 GetGlyphVOrigin
 (
-DrawTarget
-&
-aDT
 hb_codepoint_t
 aGlyph
 hb_position_t
@@ -1917,7 +1904,6 @@ mFont
 >
 GetGlyphWidth
 (
-aDT
 aGlyph
 )
 :
@@ -6527,12 +6513,6 @@ return
 false
 ;
 }
-mCallbackData
-.
-mDrawTarget
-=
-aDrawTarget
-;
 mUseVerticalPresentationForms
 =
 false
