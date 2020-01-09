@@ -2468,6 +2468,7 @@ xpc
 IsReflector
 (
 obj
+aCx
 )
 )
 {
@@ -2480,7 +2481,7 @@ base
 xpc
 :
 :
-UnwrapReflectorToISupports
+ReflectorToISupportsStatic
 (
 obj
 )
@@ -5299,7 +5300,7 @@ base
 xpc
 :
 :
-UnwrapReflectorToISupports
+ReflectorToISupportsStatic
 (
 aObj
 )

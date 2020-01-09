@@ -98,9 +98,10 @@ supports
 xpc
 :
 :
-UnwrapReflectorToISupports
+ReflectorToISupportsDynamic
 (
 obj
+cx
 )
 ;
 nsCOMPtr

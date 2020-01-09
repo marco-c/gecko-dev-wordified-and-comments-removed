@@ -6832,7 +6832,7 @@ sandbox
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 sandbox
 )
@@ -6915,7 +6915,7 @@ sandbox
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 sandbox
 )
@@ -8224,9 +8224,10 @@ obj
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 obj
+cx
 false
 )
 ;
@@ -10734,9 +10735,10 @@ scope
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 scope
+aCx
 )
 ;
 if
@@ -11038,9 +11040,10 @@ obj
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 obj
+cx
 )
 ;
 MOZ_ASSERT
@@ -11120,9 +11123,10 @@ obj
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 obj
+cx
 )
 ;
 MOZ_ASSERT
