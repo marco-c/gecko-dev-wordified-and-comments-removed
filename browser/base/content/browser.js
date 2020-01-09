@@ -16862,11 +16862,6 @@ case
 advancedButton
 "
 :
-case
-"
-moreInformationButton
-"
-:
 securityInfo
 =
 getSecurityInfo

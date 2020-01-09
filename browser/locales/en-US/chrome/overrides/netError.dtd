@@ -153,17 +153,6 @@ Advanced
 <
 !
 ENTITY
-moreInformation
-.
-label
-"
-More
-Information
-"
->
-<
-!
-ENTITY
 viewCertificate
 .
 label
