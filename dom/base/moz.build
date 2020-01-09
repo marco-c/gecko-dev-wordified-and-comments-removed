@@ -1149,6 +1149,11 @@ ProcessMessageManager
 h
 '
 '
+ResizeObserver
+.
+h
+'
+'
 ResponsiveImageSelector
 .
 h
@@ -1957,6 +1962,11 @@ cpp
 '
 '
 RemoteOuterWindowProxy
+.
+cpp
+'
+'
+ResizeObserver
 .
 cpp
 '
