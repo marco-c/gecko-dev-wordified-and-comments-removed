@@ -345,11 +345,6 @@ TestThreadPoolListener
 cpp
 '
 '
-TestThreads
-.
-cpp
-'
-'
 TestThrottledEventQueue
 .
 cpp
@@ -389,6 +384,11 @@ UNIFIED_SOURCES
 [
 '
 TestPipes
+.
+cpp
+'
+'
+TestThreads
 .
 cpp
 '
