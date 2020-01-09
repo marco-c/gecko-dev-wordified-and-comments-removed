@@ -813,7 +813,7 @@ cx_
 (
 cx
 )
-alloc
+alloc_
 (
 alloc
 )
@@ -896,7 +896,7 @@ addActiveCompilation
 ;
 tempPoolMark
 =
-alloc
+alloc_
 .
 mark
 (
@@ -941,14 +941,14 @@ MOZ_ASSERT
 checkOptionsCalled
 )
 ;
-alloc
+alloc_
 .
 release
 (
 tempPoolMark
 )
 ;
-alloc
+alloc_
 .
 freeAllIfHugeAndUnused
 (
@@ -1342,7 +1342,7 @@ BoxT
 *
 box
 =
-alloc
+alloc_
 .
 template
 new_
@@ -1462,7 +1462,7 @@ FunctionBox
 *
 funbox
 =
-alloc
+alloc_
 .
 new_
 <
@@ -4925,7 +4925,7 @@ NewGlobalScopeData
 (
 cx_
 scope
-alloc
+alloc_
 pc
 )
 ;
@@ -5306,7 +5306,7 @@ NewModuleScopeData
 (
 cx_
 scope
-alloc
+alloc_
 pc
 )
 ;
@@ -5513,7 +5513,7 @@ NewEvalScopeData
 (
 cx_
 scope
-alloc
+alloc_
 pc
 )
 ;
@@ -6015,7 +6015,7 @@ NewFunctionScopeData
 cx_
 scope
 hasParameterExprs
-alloc
+alloc_
 pc
 )
 ;
@@ -6229,7 +6229,7 @@ NewVarScopeData
 (
 cx_
 scope
-alloc
+alloc_
 pc
 )
 ;
@@ -6477,7 +6477,7 @@ NewLexicalScopeData
 (
 cx_
 scope
-alloc
+alloc_
 pc
 )
 ;
@@ -42731,7 +42731,7 @@ LifoAllocScope
 scopeAlloc
 (
 &
-alloc
+alloc_
 )
 ;
 if

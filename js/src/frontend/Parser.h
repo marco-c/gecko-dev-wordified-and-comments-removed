@@ -349,7 +349,7 @@ cx_
 ;
 LifoAlloc
 &
-alloc
+alloc_
 ;
 TokenStreamAnyChars
 anyChars
@@ -873,7 +873,7 @@ m
 .
 mark
 =
-alloc
+alloc_
 .
 mark
 (
@@ -896,7 +896,7 @@ Mark
 m
 )
 {
-alloc
+alloc_
 .
 release
 (
@@ -2173,7 +2173,7 @@ using
 Base
 :
 :
-alloc
+alloc_
 ;
 using
 Base
@@ -4957,7 +4957,7 @@ using
 Base
 :
 :
-alloc
+alloc_
 ;
 #
 if
@@ -5622,7 +5622,7 @@ using
 Base
 :
 :
-alloc
+alloc_
 ;
 using
 Base
