@@ -275,9 +275,6 @@ script
 )
 )
 ;
-if
-(
-!
 JSScript
 :
 :
@@ -286,12 +283,7 @@ argumentsOptimizationFailed
 cx
 script
 )
-)
-{
-return
-false
 ;
-}
 args
 [
 1
@@ -3203,9 +3195,6 @@ script
 )
 )
 ;
-if
-(
-!
 JSScript
 :
 :
@@ -3214,12 +3203,7 @@ argumentsOptimizationFailed
 cx
 script
 )
-)
-{
-return
-false
 ;
-}
 lref
 .
 set

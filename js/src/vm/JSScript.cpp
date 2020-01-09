@@ -27001,7 +27001,7 @@ argsobj
 }
 }
 }
-bool
+void
 JSScript
 :
 :
@@ -27055,7 +27055,6 @@ needsArgsObj
 )
 {
 return
-true
 ;
 }
 MOZ_ASSERT
@@ -27196,9 +27195,6 @@ argsobj
 ;
 }
 }
-return
-true
-;
 }
 bool
 JSScript

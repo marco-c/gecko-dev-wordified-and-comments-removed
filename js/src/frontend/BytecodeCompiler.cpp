@@ -2561,9 +2561,6 @@ argumentsHasVarBinding
 )
 )
 {
-if
-(
-!
 JSScript
 :
 :
@@ -2572,12 +2569,7 @@ argumentsOptimizationFailed
 cx
 script
 )
-)
-{
-return
-false
 ;
-}
 }
 }
 env
