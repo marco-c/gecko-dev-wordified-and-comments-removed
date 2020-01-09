@@ -253,6 +253,7 @@ n
 >
 &
 |
+~
 (
 )
 {
@@ -1125,16 +1126,6 @@ SHELL_QUOTE_RE
 search
 (
 s
-)
-and
-not
-s
-.
-startswith
-(
-'
-~
-'
 )
 :
         
