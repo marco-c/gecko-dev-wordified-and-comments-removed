@@ -53,6 +53,9 @@ class
 AbstractThread
 ;
 class
+DriftCompensator
+;
+class
 TrackEncoder
 ;
 class
@@ -682,6 +685,11 @@ public
 explicit
 VideoTrackEncoder
 (
+RefPtr
+<
+DriftCompensator
+>
+aDriftCompensator
 TrackRate
 aTrackRate
 FrameDroppingMode
@@ -851,6 +859,13 @@ aDisplayHeight
 )
 =
 0
+;
+const
+RefPtr
+<
+DriftCompensator
+>
+mDriftCompensator
 ;
 int
 mFrameWidth

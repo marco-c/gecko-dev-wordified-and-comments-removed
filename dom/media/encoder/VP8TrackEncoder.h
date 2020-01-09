@@ -56,6 +56,11 @@ public
 :
 VP8TrackEncoder
 (
+RefPtr
+<
+DriftCompensator
+>
+aDriftCompensator
 TrackRate
 aTrackRate
 FrameDroppingMode

@@ -77,6 +77,9 @@ namespace
 mozilla
 {
 class
+DriftCompensator
+;
+class
 TaskQueue
 ;
 namespace
@@ -175,6 +178,11 @@ MediaEncoder
 TaskQueue
 *
 aEncoderThread
+RefPtr
+<
+DriftCompensator
+>
+aDriftCompensator
 UniquePtr
 <
 ContainerWriter
@@ -186,6 +194,8 @@ aAudioEncoder
 VideoTrackEncoder
 *
 aVideoEncoder
+TrackRate
+aTrackRate
 const
 nsAString
 &
