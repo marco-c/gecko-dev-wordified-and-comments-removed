@@ -610,6 +610,7 @@ Clone
 Copy
 Debug
 Eq
+MallocSizeOf
 PartialEq
 )
 ]
@@ -4240,6 +4241,7 @@ new_opacity
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 #
