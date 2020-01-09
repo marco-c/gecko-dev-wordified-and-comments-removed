@@ -1618,12 +1618,6 @@ kContentProcessWidgetModule
 if
 defined
 (
-MOZ_WIDGET_ANDROID
-)
-|
-|
-defined
-(
 MOZ_WIDGET_COCOA
 )
 |
@@ -2172,12 +2166,6 @@ kContentProcessWidgetModule
 ;
 #
 if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
-|
-|
 defined
 (
 MOZ_WIDGET_COCOA
