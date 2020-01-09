@@ -252,7 +252,7 @@ GetAllowedToPlayPromise
 >
 Then
 (
-AbstractMainThread
+GetAbstractMainThread
 (
 )
 __func__

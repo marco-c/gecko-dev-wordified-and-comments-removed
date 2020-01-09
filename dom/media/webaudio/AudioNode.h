@@ -703,7 +703,7 @@ const
 ;
 AbstractThread
 *
-AbstractMainThread
+GetAbstractMainThread
 (
 )
 const
