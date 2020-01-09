@@ -54,6 +54,13 @@ id
 declaration
 .
 id
+isDeclarationValid
+:
+declaration
+.
+isValid
+(
+)
 isEnabled
 :
 declaration
@@ -64,6 +71,13 @@ isKnownProperty
 declaration
 .
 isKnownProperty
+isNameValid
+:
+declaration
+.
+isNameValid
+(
+)
 isOverridden
 :
 !
