@@ -184,6 +184,17 @@ mFrameStartTime
 kVRFrameTimingHistoryDepth
 ]
 ;
+#
+if
+defined
+(
+XP_WIN
+)
+HANDLE
+mMutex
+;
+#
+endif
 bool
 mVRProcessEnabled
 ;
