@@ -2967,9 +2967,10 @@ NS_ERROR_DOM_INVALID_ACCESS_XHR_TIMEOUT_AND_RESPONSETYPE_UNSUPPORTED_FOR_SYNC
 return
 ;
 }
-mResponseType
-=
+SetResponseTypeRaw
+(
 aResponseType
+)
 ;
 }
 void
