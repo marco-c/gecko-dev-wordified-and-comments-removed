@@ -13234,7 +13234,7 @@ void
 SourceCompressionTask
 :
 :
-work
+runTask
 (
 )
 {

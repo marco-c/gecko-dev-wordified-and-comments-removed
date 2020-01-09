@@ -381,6 +381,9 @@ ExclusiveCompileTaskState
 ;
 struct
 CompileTask
+:
+public
+RunnableTask
 {
 const
 ModuleEnvironment
@@ -427,6 +430,14 @@ defaultChunkSize
 )
 {
 }
+virtual
+~
+CompileTask
+(
+)
+{
+}
+;
 size_t
 sizeOfExcludingThis
 (
@@ -437,6 +448,12 @@ MallocSizeOf
 mallocSizeOf
 )
 const
+;
+void
+runTask
+(
+)
+override
 ;
 }
 ;
