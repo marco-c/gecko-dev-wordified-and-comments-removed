@@ -269,11 +269,6 @@ textbox
 >
 <
 content
-sizetopopup
-=
-"
-pref
-"
 >
 <
 children
@@ -577,11 +572,6 @@ autocomplete
 >
 <
 content
-sizetopopup
-=
-"
-pref
-"
 >
 <
 children
