@@ -402,7 +402,7 @@ true
 ;
 CHECK
 (
-CompileLatin1ForNonSyntacticScope
+CompileUtf8ForNonSyntacticScope
 (
 cx
 options
@@ -502,7 +502,7 @@ nonSyntactic
 ;
 CHECK
 (
-CompileLatin1
+CompileUtf8
 (
 cx
 options
