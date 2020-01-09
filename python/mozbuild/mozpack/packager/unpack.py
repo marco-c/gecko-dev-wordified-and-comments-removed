@@ -207,6 +207,9 @@ __init__
 (
 self
 source
+omnijar_name
+=
+None
 )
 :
         
@@ -262,11 +265,41 @@ kind
 flat
 '
         
+if
+omnijar_name
+:
+            
 self
 .
 omnijar
 =
-None
+omnijar_name
+        
+else
+:
+            
+from
+buildconfig
+import
+substs
+            
+self
+.
+omnijar
+=
+substs
+.
+get
+(
+'
+OMNIJAR_NAME
+'
+'
+omni
+.
+ja
+'
+)
         
 self
 .
@@ -324,17 +357,6 @@ p
 )
             
 if
-not
-p
-.
-endswith
-(
-'
-.
-xpi
-'
-)
-and
 self
 .
 _maybe_zip
@@ -342,23 +364,19 @@ _maybe_zip
 f
 )
 and
-\
-                    
-(
 mozpath
 .
-basename
+match
 (
 p
-)
-=
-=
-self
-.
-omnijar
-or
-                     
-not
+'
+*
+*
+/
+%
+s
+'
+%
 self
 .
 omnijar
@@ -395,20 +413,21 @@ omni
                     
 self
 .
-omnijar
-=
-mozpath
-.
-basename
-(
-p
-)
-                    
-self
-.
 _fill_with_jar
 (
-base
+p
+[
+:
+-
+len
+(
+self
+.
+omnijar
+)
+-
+1
+]
 jar
 )
                     
@@ -1254,6 +1273,9 @@ unpack_to_registry
 (
 source
 registry
+omnijar_name
+=
+None
 )
 :
     
@@ -1295,6 +1317,7 @@ finder
 UnpackFinder
 (
 source
+omnijar_name
 )
     
 packager
@@ -1338,6 +1361,9 @@ def
 unpack
 (
 source
+omnijar_name
+=
+None
 )
 :
     
@@ -1373,6 +1399,7 @@ unpack_to_registry
 (
 source
 copier
+omnijar_name
 )
     
 copier
