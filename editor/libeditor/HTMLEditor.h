@@ -2302,6 +2302,7 @@ InsertParagraphSeparatorAsSubAction
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SelectAllInternal
@@ -3476,6 +3477,7 @@ aAncestorLimit
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SelectEntireDocument
