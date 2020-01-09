@@ -3843,10 +3843,6 @@ valueEnd
 +
 )
 ;
-input
-=
-valueEnd
-;
 if
 (
 !
