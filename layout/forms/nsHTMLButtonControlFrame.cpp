@@ -459,6 +459,7 @@ set
 aBuilder
 )
 ;
+{
 DisplayListClipState
 :
 :
@@ -548,6 +549,7 @@ set
 DISPLAY_CHILD_FORCE_PSEUDO_STACKING_CONTEXT
 )
 ;
+}
 set
 .
 Content
