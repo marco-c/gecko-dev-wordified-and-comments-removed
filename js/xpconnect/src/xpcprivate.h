@@ -10863,9 +10863,6 @@ bool
 universalXPConnectEnabled
 ;
 bool
-forcePermissiveCOWs
-;
-bool
 wasShutdown
 ;
 bool
@@ -11071,6 +11068,11 @@ scriptability
 XPCWrappedNativeScope
 *
 scope
+;
+bool
+forcePermissiveCOWs
+=
+false
 ;
 const
 nsACString
