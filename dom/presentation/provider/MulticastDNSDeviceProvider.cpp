@@ -465,6 +465,14 @@ nsIObserver
 MulticastDNSDeviceProvider
 :
 :
+MulticastDNSDeviceProvider
+(
+)
+{
+}
+MulticastDNSDeviceProvider
+:
+:
 ~
 MulticastDNSDeviceProvider
 (
