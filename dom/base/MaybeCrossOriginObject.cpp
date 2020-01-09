@@ -2199,5 +2199,15 @@ proxy
 )
 ;
 }
+template
+class
+MaybeCrossOriginObject
+<
+js
+:
+:
+Wrapper
+>
+;
 }
 }
