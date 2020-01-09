@@ -339,6 +339,13 @@ Deserialize
 )
 )
 ]
+#
+[
+derive
+(
+MallocSizeOf
+)
+]
 pub
 struct
 ClipNode
@@ -2982,6 +2989,7 @@ derive
 Debug
 Clone
 Eq
+MallocSizeOf
 PartialEq
 Hash
 )
@@ -3289,6 +3297,7 @@ ClipItemKey
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 #

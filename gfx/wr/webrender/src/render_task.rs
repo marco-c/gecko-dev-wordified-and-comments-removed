@@ -5558,6 +5558,7 @@ TextureCacheHandle
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 pub

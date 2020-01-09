@@ -88,6 +88,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -451,6 +452,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 )

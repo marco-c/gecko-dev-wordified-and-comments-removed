@@ -73,6 +73,7 @@ derive
 (
 Debug
 Clone
+MallocSizeOf
 )
 ]
 #
@@ -185,6 +186,7 @@ Debug
 Clone
 Eq
 Hash
+MallocSizeOf
 PartialEq
 )
 ]

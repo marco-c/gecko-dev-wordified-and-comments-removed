@@ -865,6 +865,7 @@ Clone
 Copy
 Debug
 Deserialize
+MallocSizeOf
 PartialEq
 Serialize
 Eq
@@ -893,6 +894,7 @@ Clone
 Copy
 Debug
 Deserialize
+MallocSizeOf
 PartialEq
 Serialize
 Eq
@@ -948,6 +950,7 @@ Clone
 Copy
 Debug
 Deserialize
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -1260,6 +1263,7 @@ derive
 Debug
 Copy
 Clone
+MallocSizeOf
 PartialEq
 Serialize
 Deserialize
@@ -1492,6 +1496,7 @@ Clone
 Copy
 Debug
 Deserialize
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -1524,6 +1529,7 @@ Clone
 Copy
 Debug
 Deserialize
+MallocSizeOf
 PartialEq
 Serialize
 Hash
@@ -1616,6 +1622,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -1728,6 +1735,7 @@ Copy
 Clone
 Hash
 Eq
+MallocSizeOf
 PartialEq
 Serialize
 Deserialize
@@ -1815,6 +1823,7 @@ Clone
 Copy
 Debug
 Deserialize
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -2489,6 +2498,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -2517,6 +2527,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -2582,6 +2593,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -2704,6 +2716,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 )
