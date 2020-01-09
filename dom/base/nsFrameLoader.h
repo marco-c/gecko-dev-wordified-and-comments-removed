@@ -532,6 +532,9 @@ aURI
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 bool
 aOriginalSrc
 )
@@ -1063,6 +1066,10 @@ nsIPrincipal
 *
 *
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+*
+*
+aCsp
 )
 ;
 nsresult
@@ -1386,6 +1393,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mTriggeringPrincipal
+;
+nsCOMPtr
+<
+nsIContentSecurityPolicy
+>
+mCsp
 ;
 mozilla
 :
