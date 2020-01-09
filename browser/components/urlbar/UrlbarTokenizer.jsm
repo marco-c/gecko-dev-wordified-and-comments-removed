@@ -1467,13 +1467,6 @@ tokenObj
 value
 :
 token
-lowerCaseValue
-:
-token
-.
-toLocaleLowerCase
-(
-)
 type
 :
 UrlbarTokenizer
