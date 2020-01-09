@@ -386,7 +386,7 @@ StyleSheet
 nsLayoutStylesheetCache
 :
 :
-UserContentSheet
+GetUserContentSheet
 (
 )
 {
@@ -399,7 +399,7 @@ StyleSheet
 nsLayoutStylesheetCache
 :
 :
-UserChromeSheet
+GetUserChromeSheet
 (
 )
 {

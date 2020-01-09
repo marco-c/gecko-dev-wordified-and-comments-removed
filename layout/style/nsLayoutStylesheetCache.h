@@ -143,7 +143,7 @@ mozilla
 :
 StyleSheet
 *
-UserContentSheet
+GetUserContentSheet
 (
 )
 ;
@@ -152,7 +152,7 @@ mozilla
 :
 StyleSheet
 *
-UserChromeSheet
+GetUserChromeSheet
 (
 )
 ;
