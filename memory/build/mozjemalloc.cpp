@@ -12746,6 +12746,7 @@ aInfo
 TagUnknown
 nullptr
 0
+0
 }
 ;
 return
@@ -12819,6 +12820,13 @@ node
 -
 >
 mSize
+node
+-
+>
+mArena
+-
+>
+mId
 }
 ;
 return
@@ -12842,6 +12850,7 @@ aInfo
 {
 TagUnknown
 nullptr
+0
 0
 }
 ;
@@ -12895,6 +12904,7 @@ aInfo
 {
 TagUnknown
 nullptr
+0
 0
 }
 ;
@@ -13012,6 +13022,13 @@ aInfo
 tag
 pageaddr
 gPageSize
+chunk
+-
+>
+arena
+-
+>
+mId
 }
 ;
 return
@@ -13076,6 +13093,7 @@ aInfo
 TagUnknown
 nullptr
 0
+0
 }
 ;
 return
@@ -13117,6 +13135,7 @@ aInfo
 TagUnknown
 nullptr
 0
+0
 }
 ;
 return
@@ -13149,6 +13168,13 @@ aInfo
 TagLiveLarge
 addr
 size
+chunk
+-
+>
+arena
+-
+>
+mId
 }
 ;
 return
@@ -13223,6 +13249,7 @@ aInfo
 {
 TagUnknown
 nullptr
+0
 0
 }
 ;
@@ -13332,6 +13359,13 @@ aInfo
 tag
 addr
 size
+chunk
+-
+>
+arena
+-
+>
+mId
 }
 ;
 }
