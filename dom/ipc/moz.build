@@ -347,6 +347,11 @@ URLClassifierParent
 h
 '
 '
+WindowGlobalActor
+.
+h
+'
+'
 WindowGlobalChild
 .
 h
@@ -545,6 +550,11 @@ cpp
 '
 '
 URLClassifierParent
+.
+cpp
+'
+'
+WindowGlobalActor
 .
 cpp
 '

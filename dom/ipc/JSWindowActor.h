@@ -58,6 +58,9 @@ nsRefPtrHashtable
 .
 h
 "
+class
+nsIGlobalObject
+;
 namespace
 mozilla
 {
@@ -99,6 +102,14 @@ JSWindowActor
 JSWindowActor
 (
 )
+;
+enum
+class
+Type
+{
+Parent
+Child
+}
 ;
 const
 nsString
