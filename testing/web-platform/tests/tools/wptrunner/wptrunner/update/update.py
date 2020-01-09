@@ -1127,11 +1127,14 @@ sync_path
         
 if
 kwargs
-[
+.
+get
+(
 "
 store_state
 "
-]
+False
+)
 :
             
 self

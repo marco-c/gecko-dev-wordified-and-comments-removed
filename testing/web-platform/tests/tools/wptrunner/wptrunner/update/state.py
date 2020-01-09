@@ -516,7 +516,7 @@ classmethod
 def
 load
 (
-self
+cls
 )
 :
         
@@ -601,6 +601,25 @@ serialized
 "
 "
 "
+    
+filename
+=
+os
+.
+path
+.
+join
+(
+here
+"
+.
+wpt
+-
+update
+.
+lock
+"
+)
     
 classmethod
     
