@@ -270,6 +270,12 @@ buttonactivetext
 -
 moz
 -
+gtk
+-
+buttonactivetext
+-
+moz
+-
 mac
 -
 chrome

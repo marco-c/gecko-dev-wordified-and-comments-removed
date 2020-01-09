@@ -1040,6 +1040,16 @@ ui
 -
 moz
 -
+gtk
+-
+buttonactivetext
+"
+"
+ui
+.
+-
+moz
+-
 mac
 -
 buttonactivetext
@@ -3418,6 +3428,9 @@ break
 ;
 case
 eColorID__moz_oddtreerow
+:
+case
+eColorID__moz_gtk_buttonactivetext
 :
 result
 =

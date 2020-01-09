@@ -278,6 +278,11 @@ mButtonHoverFace
 kWhite
 ;
 nscolor
+mButtonActiveText
+=
+kBlack
+;
+nscolor
 mFrameOuterLightBorder
 =
 kBlack
