@@ -941,7 +941,7 @@ NS_LITERAL_STRING
 blur
 "
 )
-TrustedEventsAtCapture
+TrustedEventsAtSystemGroupCapture
 (
 )
 )
@@ -958,7 +958,7 @@ NS_LITERAL_STRING
 focus
 "
 )
-TrustedEventsAtCapture
+TrustedEventsAtSystemGroupCapture
 (
 )
 )
@@ -1353,7 +1353,7 @@ NS_LITERAL_STRING
 blur
 "
 )
-TrustedEventsAtCapture
+TrustedEventsAtSystemGroupCapture
 (
 )
 )
@@ -1370,7 +1370,7 @@ NS_LITERAL_STRING
 focus
 "
 )
-TrustedEventsAtCapture
+TrustedEventsAtSystemGroupCapture
 (
 )
 )
