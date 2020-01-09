@@ -27,4 +27,13 @@ core
 NonNullParamChecker
 "
 ]
+{
+"
+reliability
+"
+:
+"
+high
+"
+}
 ]

@@ -25,4 +25,13 @@ cplusplus
 NewDeleteLeaks
 "
 ]
+{
+"
+reliability
+"
+:
+"
+medium
+"
+}
 ]
