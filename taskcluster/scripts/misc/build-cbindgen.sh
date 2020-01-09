@@ -37,13 +37,15 @@ configure
 as
 well
 .
-CBINDGEN_VERSION
+CBINDGEN_REVISION
 =
+fbe9eff351c15c6ef348c33016fb72ad3520f32b
+#
 v0
 .
-6
+7
 .
-8
+1
 TARGET
 =
 "
@@ -773,7 +775,7 @@ cd
 _
 git
 checkout
-CBINDGEN_VERSION
+CBINDGEN_REVISION
 cargo
 build
 -
