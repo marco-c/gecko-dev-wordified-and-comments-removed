@@ -225,12 +225,18 @@ prefObj
 )
 ;
 return
+(
 data
 &
 &
 data
 .
 enabled
+)
+?
+true
+:
+false
 ;
 }
 catch
@@ -239,7 +245,7 @@ e
 )
 {
 return
-null
+false
 ;
 }
 }
