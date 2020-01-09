@@ -9046,6 +9046,14 @@ rv
 )
 )
 {
+if
+(
+rv
+!
+=
+NS_ERROR_NOT_AVAILABLE
+)
+{
 NS_WARNING
 (
 "
@@ -9056,6 +9064,7 @@ CHILD
 "
 )
 ;
+}
 continue
 ;
 }
@@ -9691,6 +9700,14 @@ rv
 )
 )
 {
+if
+(
+rv
+!
+=
+NS_ERROR_NOT_AVAILABLE
+)
+{
 NS_WARNING
 (
 "
@@ -9701,6 +9718,7 @@ CHILD
 "
 )
 ;
+}
 continue
 ;
 }
