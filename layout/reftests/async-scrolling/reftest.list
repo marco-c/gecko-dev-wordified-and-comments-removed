@@ -1256,9 +1256,6 @@ if
 (
 !
 asyncPan
-|
-|
-Android
 )
 =
 =
@@ -1282,13 +1279,6 @@ scrollable
 ref
 .
 html
-#
-Bug
-1430787
-for
-the
-Android
-failure
 skip
 -
 if

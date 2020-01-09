@@ -1024,12 +1024,6 @@ iframe
 ref
 .
 html
-skip
--
-if
-(
-Android
-)
 =
 =
 transformed
@@ -1044,11 +1038,6 @@ transformed
 ref
 .
 html
-#
-bug
-1430787
-for
-android
 fuzzy
 -
 if
@@ -1067,9 +1056,6 @@ if
 (
 !
 asyncPan
-|
-|
-Android
 )
 =
 =
@@ -1085,11 +1071,6 @@ transformed
 ref
 .
 html
-#
-bug
-1430787
-for
-android
 skip
 -
 if
