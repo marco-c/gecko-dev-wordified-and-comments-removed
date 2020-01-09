@@ -15,13 +15,6 @@ Types
 .
 h
 "
-#
-include
-"
-OGLShaderProgram
-.
-h
-"
 namespace
 mozilla
 {
@@ -37,6 +30,9 @@ layers
 {
 class
 LayerManagerComposite
+;
+class
+ShaderProgramOGL
 ;
 class
 GLManager

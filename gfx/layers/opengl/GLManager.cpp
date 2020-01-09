@@ -22,6 +22,13 @@ h
 #
 include
 "
+OGLShaderProgram
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
