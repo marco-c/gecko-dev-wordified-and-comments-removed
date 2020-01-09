@@ -11847,6 +11847,11 @@ isTemporarilyUnoptimizable
 false
 ;
 bool
+canAddSlot
+=
+false
+;
+bool
 attached
 =
 false
@@ -11910,6 +11915,8 @@ mode
 )
 &
 isTemporarilyUnoptimizable
+&
+canAddSlot
 objv
 index
 rhs
@@ -12325,6 +12332,8 @@ mode
 )
 &
 isTemporarilyUnoptimizable
+&
+canAddSlot
 objv
 index
 rhs
@@ -12332,6 +12341,9 @@ rhs
 ;
 if
 (
+canAddSlot
+&
+&
 gen
 .
 tryAttachAddSlotStub
@@ -16149,6 +16161,11 @@ isTemporarilyUnoptimizable
 false
 ;
 bool
+canAddSlot
+=
+false
+;
+bool
 attached
 =
 false
@@ -16222,6 +16239,8 @@ mode
 )
 &
 isTemporarilyUnoptimizable
+&
+canAddSlot
 lhs
 idVal
 rhs
@@ -16645,6 +16664,8 @@ mode
 )
 &
 isTemporarilyUnoptimizable
+&
+canAddSlot
 lhs
 idVal
 rhs
@@ -16652,6 +16673,9 @@ rhs
 ;
 if
 (
+canAddSlot
+&
+&
 gen
 .
 tryAttachAddSlotStub

@@ -1452,6 +1452,11 @@ isTemporarilyUnoptimizable
 =
 false
 ;
+bool
+canAddSlot
+=
+false
+;
 if
 (
 ic
@@ -1633,6 +1638,8 @@ mode
 )
 &
 isTemporarilyUnoptimizable
+&
+canAddSlot
 objv
 idVal
 rhs
@@ -2084,6 +2091,8 @@ mode
 )
 &
 isTemporarilyUnoptimizable
+&
+canAddSlot
 objv
 idVal
 rhs
@@ -2103,6 +2112,9 @@ guardHoles
 ;
 if
 (
+canAddSlot
+&
+&
 gen
 .
 tryAttachAddSlotStub

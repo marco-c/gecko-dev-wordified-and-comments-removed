@@ -3645,7 +3645,7 @@ ObjectGroup
 )
 ;
 }
-private
+public
 :
 void
 guardGroup
@@ -3682,8 +3682,6 @@ ObjectGroup
 )
 ;
 }
-public
-:
 void
 guardGroupForProto
 (
@@ -10263,6 +10261,10 @@ bool
 *
 isTemporarilyUnoptimizable_
 ;
+bool
+*
+canAddSlot_
+;
 PropertyTypeCheckInfo
 typeCheckInfo_
 ;
@@ -10597,6 +10599,15 @@ ValOperandId
 rhsId
 )
 ;
+bool
+canAttachAddSlotStub
+(
+HandleObject
+obj
+HandleId
+id
+)
+;
 public
 :
 SetPropIRGenerator
@@ -10619,6 +10630,9 @@ mode
 bool
 *
 isTemporarilyUnoptimizable
+bool
+*
+canAddSlot
 HandleValue
 lhsVal
 HandleValue
