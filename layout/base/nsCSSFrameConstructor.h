@@ -1404,10 +1404,6 @@ FCDATA_ALLOW_GRID_FLEX_COLUMN
 define
 FCDATA_IS_WRAPPER_ANON_BOX
 0x400000
-#
-define
-FCDATA_MAY_NEED_BULLET
-0x800000
 struct
 FrameConstructionData
 {
@@ -4665,14 +4661,6 @@ aPositionedFrameForAbsPosContainer
 PendingBinding
 *
 aPendingBinding
-)
-;
-void
-CreateBulletFrameForListItemIfNeeded
-(
-nsBlockFrame
-*
-aBlockFrame
 )
 ;
 nsContainerFrame

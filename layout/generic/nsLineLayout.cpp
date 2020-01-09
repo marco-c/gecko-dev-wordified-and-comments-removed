@@ -7286,7 +7286,7 @@ nsLineLayout
 :
 AddBulletFrame
 (
-nsBulletFrame
+nsIFrame
 *
 aFrame
 const
@@ -7517,7 +7517,7 @@ nsLineLayout
 :
 RemoveBulletFrame
 (
-nsBulletFrame
+nsIFrame
 *
 aFrame
 )

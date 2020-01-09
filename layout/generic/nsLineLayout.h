@@ -295,7 +295,7 @@ aPushedFrame
 void
 AddBulletFrame
 (
-nsBulletFrame
+nsIFrame
 *
 aFrame
 const
@@ -307,7 +307,7 @@ aMetrics
 void
 RemoveBulletFrame
 (
-nsBulletFrame
+nsIFrame
 *
 aFrame
 )

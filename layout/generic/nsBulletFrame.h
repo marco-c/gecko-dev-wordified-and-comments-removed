@@ -327,6 +327,12 @@ nsFrame
 IsFrameOfType
 (
 aFlags
+&
+~
+nsIFrame
+:
+:
+eLineParticipant
 )
 ;
 }
