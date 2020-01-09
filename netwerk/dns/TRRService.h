@@ -307,6 +307,11 @@ MaybeConfirm
 (
 )
 ;
+void
+MaybeConfirm_locked
+(
+)
+;
 bool
 mInitialized
 ;
