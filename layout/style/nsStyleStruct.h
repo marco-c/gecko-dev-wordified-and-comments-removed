@@ -3344,7 +3344,10 @@ mBorderRadius
 nsStyleImage
 mBorderImageSource
 ;
-nsStyleSides
+mozilla
+:
+:
+StyleBorderImageWidth
 mBorderImageWidth
 ;
 mozilla

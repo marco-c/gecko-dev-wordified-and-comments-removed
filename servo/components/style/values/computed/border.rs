@@ -61,8 +61,6 @@ generics
 border
 :
 :
-BorderImageSideWidth
-as
 GenericBorderImageSideWidth
 ;
 use

@@ -922,7 +922,7 @@ Ok
 GenericBorderImageSideWidth
 :
 :
-Length
+LengthPercentage
 (
 len
 )
