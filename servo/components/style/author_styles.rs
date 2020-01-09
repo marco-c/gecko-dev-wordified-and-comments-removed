@@ -103,6 +103,13 @@ stylist
 :
 CascadeData
 ;
+#
+[
+derive
+(
+MallocSizeOf
+)
+]
 pub
 struct
 AuthorStyles
