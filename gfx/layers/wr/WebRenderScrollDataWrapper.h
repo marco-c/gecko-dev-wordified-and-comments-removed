@@ -659,7 +659,7 @@ WebRenderScrollDataWrapper
 (
 *
 mUpdater
-mWrRootId
+newWrRootId
 )
 ;
 }
