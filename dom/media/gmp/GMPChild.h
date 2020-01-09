@@ -161,17 +161,6 @@ class
 GMPContentChild
 ;
 bool
-ResolveLinks
-(
-nsCOMPtr
-<
-nsIFile
->
-&
-aPath
-)
-;
-bool
 GetUTF8LibPath
 (
 nsACString
