@@ -6250,6 +6250,16 @@ cx
 )
 )
 ;
+if
+(
+!
+templateObject
+)
+{
+return
+nullptr
+;
+}
 NativeObject
 *
 obj
