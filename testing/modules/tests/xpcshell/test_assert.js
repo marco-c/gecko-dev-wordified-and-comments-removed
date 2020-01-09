@@ -1360,6 +1360,8 @@ function
 )
 {
 throw
+new
+Error
 (
 {
 }
@@ -2189,10 +2191,14 @@ toJSON
 )
 {
 throw
+new
+Error
+(
 "
 bam
 !
 "
+)
 ;
 }
 }

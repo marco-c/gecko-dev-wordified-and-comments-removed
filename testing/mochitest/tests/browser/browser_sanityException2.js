@@ -27,6 +27,9 @@ expectUncaughtException
 )
 ;
 throw
+new
+Error
+(
 "
 this
 is
@@ -35,6 +38,7 @@ deliberately
 thrown
 exception
 "
+)
 ;
 }
 )

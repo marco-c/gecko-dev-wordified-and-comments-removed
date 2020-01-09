@@ -107,6 +107,8 @@ ex
 )
 {
 throw
+new
+Error
 (
 "
 goQuitApplication

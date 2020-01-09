@@ -1188,6 +1188,8 @@ boolean
 )
 {
 throw
+new
+Error
 (
 "
 The

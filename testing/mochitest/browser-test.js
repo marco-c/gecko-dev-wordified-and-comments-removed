@@ -6786,6 +6786,9 @@ scope
 )
 {
 throw
+new
+Error
+(
 "
 Cannot
 run
@@ -6803,6 +6806,7 @@ same
 time
 .
 "
+)
 ;
 }
 let
@@ -7170,6 +7174,9 @@ test
 else
 {
 throw
+new
+Error
+(
 "
 This
 test
@@ -7208,6 +7215,7 @@ run
 it
 .
 "
+)
 ;
 }
 }
@@ -8616,12 +8624,16 @@ min
 )
 {
 throw
+new
+Error
+(
 "
 bad
 parameter
 to
 expectAssertions
 "
+)
 ;
 }
 self

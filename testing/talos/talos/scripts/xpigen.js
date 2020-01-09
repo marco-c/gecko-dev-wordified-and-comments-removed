@@ -118,6 +118,8 @@ status
 )
 )
 throw
+new
+Error
 (
 "
 FileNotRetrieved

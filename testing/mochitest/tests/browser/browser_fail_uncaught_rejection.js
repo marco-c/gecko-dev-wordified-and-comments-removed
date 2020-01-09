@@ -74,6 +74,9 @@ async
 >
 {
 throw
+new
+Error
+(
 "
 Synchronous
 rejection
@@ -82,6 +85,7 @@ async
 function
 .
 "
+)
 ;
 }
 )
@@ -148,6 +152,9 @@ async
 >
 {
 throw
+new
+Error
+(
 "
 Synchronous
 rejection
@@ -156,6 +163,7 @@ async
 function
 .
 "
+)
 ;
 }
 )
