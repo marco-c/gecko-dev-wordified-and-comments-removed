@@ -4304,10 +4304,8 @@ display
 none
 ;
 }
-#
-main
--
-window
+:
+root
 :
 not
 (
@@ -4342,10 +4340,8 @@ tracking
 action
 -
 unblock
-#
-main
--
-window
+:
+root
 [
 privatebrowsingmode
 ]
