@@ -1732,6 +1732,12 @@ RESULT_TYPE
 OMNIBOX
 :
 {
+this
+.
+handleRevert
+(
+)
+;
 ExtensionSearchHandler
 .
 handleInputEntered
