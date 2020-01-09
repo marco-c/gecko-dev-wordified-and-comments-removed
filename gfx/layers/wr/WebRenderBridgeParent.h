@@ -558,6 +558,10 @@ aVsyncId
 const
 TimeStamp
 &
+aVsyncStartTime
+const
+TimeStamp
+&
 aRefreshStartTime
 const
 TimeStamp
@@ -652,6 +656,10 @@ const
 VsyncId
 &
 aVsyncId
+const
+TimeStamp
+&
+aVsyncStartTime
 const
 TimeStamp
 &
@@ -1091,6 +1099,10 @@ const
 VsyncId
 &
 aVsyncId
+const
+TimeStamp
+&
+aVsyncStartTime
 const
 TimeStamp
 &
@@ -1789,6 +1801,10 @@ aVsyncId
 const
 TimeStamp
 &
+aVsyncStartTime
+const
+TimeStamp
+&
 aRefreshStartTime
 const
 TimeStamp
@@ -1821,6 +1837,10 @@ aId
 mVsyncId
 (
 aVsyncId
+)
+mVsyncStartTime
+(
+aVsyncStartTime
 )
 mRefreshStartTime
 (
@@ -1867,6 +1887,9 @@ mId
 ;
 VsyncId
 mVsyncId
+;
+TimeStamp
+mVsyncStartTime
 ;
 TimeStamp
 mRefreshStartTime

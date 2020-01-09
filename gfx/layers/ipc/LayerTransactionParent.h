@@ -310,6 +310,10 @@ aVsyncId
 const
 TimeStamp
 &
+aVsyncStartTime
+const
+TimeStamp
+&
 aRefreshStartTime
 const
 TimeStamp
@@ -332,6 +336,10 @@ aId
 mTxnVsyncId
 =
 aVsyncId
+;
+mVsyncStartTime
+=
+aVsyncStartTime
 ;
 mRefreshStartTime
 =
@@ -989,6 +997,9 @@ mPendingTransaction
 ;
 VsyncId
 mTxnVsyncId
+;
+TimeStamp
+mVsyncStartTime
 ;
 TimeStamp
 mRefreshStartTime

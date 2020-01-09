@@ -516,6 +516,8 @@ containsSVGGroup
 VsyncId
 vsyncId
 TimeStamp
+vsyncStartTime
+TimeStamp
 refreshStartTime
 TimeStamp
 txnStartTime
@@ -562,6 +564,8 @@ IdNamespace
 aIdNamespace
 VsyncId
 vsyncId
+TimeStamp
+vsyncStartTime
 TimeStamp
 refreshStartTime
 TimeStamp

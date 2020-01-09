@@ -2805,6 +2805,9 @@ VsyncId
 vsyncId
 ;
 TimeStamp
+vsyncStart
+;
+TimeStamp
 refreshStart
 ;
 TimeStamp
