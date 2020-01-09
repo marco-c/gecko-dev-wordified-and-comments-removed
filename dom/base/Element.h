@@ -3399,7 +3399,7 @@ return
 if
 (
 !
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
