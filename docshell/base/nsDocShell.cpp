@@ -46331,12 +46331,11 @@ GetRootSessionHistory
 (
 )
 ;
-NS_ENSURE_TRUE
+if
 (
 rootSH
-NS_ERROR_UNEXPECTED
 )
-;
+{
 if
 (
 !
@@ -46430,6 +46429,7 @@ index
 rootSHEntry
 )
 ;
+}
 }
 }
 if
