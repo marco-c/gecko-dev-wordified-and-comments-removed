@@ -1928,6 +1928,11 @@ rv
 )
 )
 {
+*
+aPointAfterInsertedString
+=
+pointToInsert
+;
 return
 NS_OK
 ;
