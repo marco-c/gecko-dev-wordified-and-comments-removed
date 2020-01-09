@@ -458,6 +458,12 @@ AudioInfo
 >
 mInfo
 ;
+media
+:
+:
+TimeUnit
+mPreRoll
+;
 }
 ;
 }
