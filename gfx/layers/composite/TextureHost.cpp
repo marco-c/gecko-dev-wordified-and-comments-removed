@@ -494,7 +494,7 @@ TextureFlags
 &
 aTextureFlags
 )
-override
+final
 ;
 TextureHost
 *

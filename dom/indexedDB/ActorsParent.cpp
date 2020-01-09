@@ -28985,7 +28985,7 @@ FileMode
 &
 aMode
 )
-override
+final
 ;
 mozilla
 :
@@ -29004,7 +29004,7 @@ FileMode
 &
 aMode
 )
-override
+final
 ;
 mozilla
 :
@@ -29019,7 +29019,7 @@ int64_t
 *
 aFileId
 )
-override
+final
 ;
 }
 ;
@@ -29398,7 +29398,7 @@ IPCResult
 RecvPermissionRetry
 (
 )
-override
+final
 ;
 virtual
 void
@@ -31116,7 +31116,7 @@ PreprocessResponse
 &
 aResponse
 )
-override
+final
 ;
 }
 ;

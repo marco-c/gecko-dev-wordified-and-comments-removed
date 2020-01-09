@@ -3749,7 +3749,7 @@ IPCResult
 RecvCancel
 (
 )
-override
+final
 ;
 }
 ;

@@ -100,7 +100,6 @@ Destroy
 )
 {
 }
-virtual
 mozilla
 :
 :
@@ -111,7 +110,7 @@ IPCResult
 RecvDestroy
 (
 )
-override
+final
 {
 DestroyIfNeeded
 (
