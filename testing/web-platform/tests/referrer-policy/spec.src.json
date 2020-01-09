@@ -2050,14 +2050,14 @@ source_protocol
 "
 :
 "
-http
+https
 "
 "
 target_protocol
 "
 :
 "
-https
+http
 "
 "
 delivery_method
