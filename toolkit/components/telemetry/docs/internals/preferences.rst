@@ -1307,14 +1307,6 @@ enabled
 .
 Defaults
 to
-false
-except
-on
-Firefox
-Nightly
-where
-it
-is
 true
 .
 Change
