@@ -35,6 +35,9 @@ namespace
 js
 {
 class
+ArrayBufferObjectMaybeShared
+;
+class
 GlobalObject
 ;
 class

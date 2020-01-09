@@ -8189,9 +8189,8 @@ nextInSite
 (
 )
 ;
-const
-PreBarrieredObject
-&
+JSObject
+*
 getHandler
 (
 )

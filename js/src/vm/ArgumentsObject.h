@@ -38,6 +38,9 @@ class
 AbstractFramePtr
 ;
 class
+ArgumentsObject
+;
+class
 ScriptFrameIter
 ;
 namespace

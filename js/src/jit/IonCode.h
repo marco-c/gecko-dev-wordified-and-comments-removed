@@ -670,7 +670,7 @@ IonScript
 {
 private
 :
-PreBarrieredJitCode
+HeapPtrJitCode
 method_
 ;
 jsbytecode

@@ -3672,7 +3672,7 @@ protected
 GCPtrBaseShape
 base_
 ;
-PreBarrieredId
+GCPtrId
 propid_
 ;
 enum
@@ -5599,7 +5599,7 @@ count
 ;
 }
 const
-PreBarrieredId
+GCPtrId
 &
 propid
 (
@@ -5627,7 +5627,7 @@ return
 propid_
 ;
 }
-PreBarrieredId
+GCPtrId
 &
 propidRef
 (
