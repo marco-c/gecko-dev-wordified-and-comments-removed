@@ -1192,7 +1192,7 @@ url
 "
 )
 .
-textContent
+value
 ;
 is
 (

@@ -4792,7 +4792,7 @@ this
 .
 reportBreakageURL
 .
-textContent
+value
 =
 urlWithoutQuery
 ;
