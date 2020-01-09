@@ -306,6 +306,10 @@ ThrottledEventQueue
 Create
 (
 thread
+"
+test
+queue
+"
 )
 ;
 EXPECT_TRUE

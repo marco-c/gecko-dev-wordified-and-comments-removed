@@ -9279,6 +9279,12 @@ ThrottledEventQueue
 Create
 (
 target
+"
+Worker
+queue
+for
+messaging
+"
 )
 ;
 if
@@ -9301,6 +9307,10 @@ Create
 GetMainThreadSerialEventTarget
 (
 )
+"
+Worker
+queue
+"
 nsIRunnablePriority
 :
 :
@@ -9323,6 +9333,11 @@ ThrottledEventQueue
 Create
 (
 target
+"
+Worker
+debuggee
+queue
+"
 )
 ;
 if
