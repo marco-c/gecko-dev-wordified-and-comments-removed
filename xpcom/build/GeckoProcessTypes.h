@@ -5,7 +5,6 @@ Default
 default
 "
 Parent
-Self
 )
 GECKO_PROCESS_TYPE
 (
@@ -14,7 +13,6 @@ Plugin
 plugin
 "
 Plugin
-PluginContainer
 )
 GECKO_PROCESS_TYPE
 (
@@ -23,7 +21,6 @@ Content
 tab
 "
 Content
-Self
 )
 GECKO_PROCESS_TYPE
 (
@@ -32,7 +29,6 @@ IPDLUnitTest
 ipdlunittest
 "
 IPDLUnitTest
-PluginContainer
 )
 GECKO_PROCESS_TYPE
 (
@@ -41,7 +37,6 @@ GMPlugin
 gmplugin
 "
 GMPlugin
-PluginContainer
 )
 GECKO_PROCESS_TYPE
 (
@@ -50,7 +45,6 @@ GPU
 gpu
 "
 GPU
-Self
 )
 GECKO_PROCESS_TYPE
 (
@@ -59,7 +53,6 @@ VR
 vr
 "
 VR
-Self
 )
 GECKO_PROCESS_TYPE
 (
@@ -68,7 +61,6 @@ RDD
 rdd
 "
 RDD
-Self
 )
 GECKO_PROCESS_TYPE
 (
@@ -77,7 +69,6 @@ Socket
 socket
 "
 Socket
-Self
 )
 GECKO_PROCESS_TYPE
 (
@@ -86,5 +77,4 @@ RemoteSandboxBroker
 sandbox
 "
 RemoteSandboxBroker
-PluginContainer
 )
