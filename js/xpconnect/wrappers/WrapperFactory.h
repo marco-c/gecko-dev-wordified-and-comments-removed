@@ -235,6 +235,10 @@ JS
 :
 HandleObject
 obj
+bool
+allowExisting
+=
+false
 )
 ;
 static
