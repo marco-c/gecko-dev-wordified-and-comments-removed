@@ -126,7 +126,7 @@ ssh
 min_scm_level
 "
 :
-3
+1
             
 "
 mode
