@@ -45026,7 +45026,7 @@ prompts
 .
 authentication_dialog_abuse_limit
 "
-3
+2
 )
 ;
 pref
