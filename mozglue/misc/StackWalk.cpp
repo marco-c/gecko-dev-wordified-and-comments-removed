@@ -3784,6 +3784,7 @@ aBp
 |
 next
 >
+=
 aStackEnd
 |
 |
