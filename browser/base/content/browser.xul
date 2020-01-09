@@ -3671,6 +3671,13 @@ id
 "
 editBookmarkPanelBottomButtons
 "
+class
+=
+"
+panel
+-
+footer
+"
 style
 =
 "

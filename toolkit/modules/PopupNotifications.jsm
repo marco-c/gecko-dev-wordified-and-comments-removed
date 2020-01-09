@@ -3045,7 +3045,7 @@ accessKey
 ;
 popupnotification
 .
-setAttribute
+toggleAttribute
 (
 "
 buttonhighlight
@@ -3165,14 +3165,12 @@ buttoncommand
 ;
 popupnotification
 .
-setAttribute
+toggleAttribute
 (
 "
 buttonhighlight
 "
-"
 true
-"
 )
 ;
 popupnotification

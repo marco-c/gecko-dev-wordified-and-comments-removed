@@ -1773,6 +1773,9 @@ footer
 class
 =
 "
+panel
+-
+footer
 identity
 -
 popup
@@ -3012,6 +3015,9 @@ footer
 class
 =
 "
+panel
+-
+footer
 identity
 -
 popup
@@ -3190,6 +3196,9 @@ vbox
 class
 =
 "
+panel
+-
+footer
 identity
 -
 popup
@@ -3332,6 +3341,9 @@ vbox
 class
 =
 "
+panel
+-
+footer
 identity
 -
 popup
@@ -3686,6 +3698,9 @@ footer
 class
 =
 "
+panel
+-
+footer
 identity
 -
 popup

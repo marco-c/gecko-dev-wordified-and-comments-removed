@@ -1150,6 +1150,13 @@ id
 "
 downloadsFooterButtons
 "
+class
+=
+"
+panel
+-
+footer
+"
 >
 <
 button
@@ -1321,6 +1328,9 @@ buttons
 class
 =
 "
+panel
+-
+footer
 downloadsPanelFooter
 "
 align
