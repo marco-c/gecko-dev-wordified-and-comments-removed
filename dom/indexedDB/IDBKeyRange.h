@@ -196,7 +196,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 IDBKeyRange
 )
 static
-nsresult
+void
 FromJSVal
 (
 JSContext
@@ -217,6 +217,9 @@ IDBKeyRange
 *
 *
 aKeyRange
+ErrorResult
+&
+aRv
 )
 ;
 static
