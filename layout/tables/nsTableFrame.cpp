@@ -7264,6 +7264,7 @@ isVisible
 {
 if
 (
+!
 aFrame
 -
 >
@@ -7273,6 +7274,10 @@ StyleEffects
 -
 >
 mBoxShadow
+.
+IsEmpty
+(
+)
 )
 {
 aLists
@@ -7732,6 +7737,7 @@ isVisible
 {
 if
 (
+!
 aFrame
 -
 >
@@ -7741,6 +7747,10 @@ StyleEffects
 -
 >
 mBoxShadow
+.
+IsEmpty
+(
+)
 )
 {
 aLists

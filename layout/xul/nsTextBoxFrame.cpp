@@ -4770,7 +4770,9 @@ if
 textStyle
 -
 >
-mTextShadow
+HasTextShadow
+(
+)
 )
 {
 nsRect
@@ -4827,7 +4829,9 @@ StyleText
 )
 -
 >
-mTextShadow
+HasTextShadow
+(
+)
 )
 {
 return
