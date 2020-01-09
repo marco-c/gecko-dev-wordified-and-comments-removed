@@ -35736,7 +35736,7 @@ GetJitCompilerOptions
 0
 0
 "
-getCompilerOptions
+getJitCompilerOptions
 (
 )
 "
