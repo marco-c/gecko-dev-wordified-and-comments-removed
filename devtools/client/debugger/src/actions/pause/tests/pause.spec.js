@@ -49,9 +49,9 @@ mockup
 "
 ;
 import
-*
-as
-parser
+{
+parserWorker
+}
 from
 "
 .
@@ -63,11 +63,11 @@ from
 .
 .
 /
-workers
+test
 /
-parser
-/
-index
+tests
+-
+setup
 "
 ;
 const
@@ -987,7 +987,7 @@ jest
 .
 spyOn
 (
-parser
+parserWorker
 "
 getNextStep
 "
@@ -1134,7 +1134,7 @@ jest
 .
 spyOn
 (
-parser
+parserWorker
 "
 getNextStep
 "
@@ -1291,7 +1291,7 @@ jest
 .
 spyOn
 (
-parser
+parserWorker
 "
 getNextStep
 "
