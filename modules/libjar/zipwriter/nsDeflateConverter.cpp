@@ -673,6 +673,7 @@ char
 mWriteBuffer
 bytesToWrite
 )
+NS_ASSIGNMENT_DEPEND
 )
 ;
 NS_ENSURE_SUCCESS

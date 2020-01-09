@@ -98,8 +98,6 @@ char
 aStringToRead
 nsAssignmentType
 aAssignment
-=
-NS_ASSIGNMENT_DEPEND
 )
 ;
 extern

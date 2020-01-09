@@ -6876,6 +6876,7 @@ MakeSpan
 fromRawSegment
 count
 )
+NS_ASSIGNMENT_DEPEND
 )
 ;
 if

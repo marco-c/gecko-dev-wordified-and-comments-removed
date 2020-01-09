@@ -430,6 +430,7 @@ MakeSpan
 aCorruptData
 aCorruptLength
 )
+NS_ASSIGNMENT_DEPEND
 )
 ;
 ASSERT_TRUE
