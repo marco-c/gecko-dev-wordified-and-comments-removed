@@ -1511,7 +1511,7 @@ true
 sInstance
 -
 >
-Enable
+EnableFull
 (
 )
 ;
