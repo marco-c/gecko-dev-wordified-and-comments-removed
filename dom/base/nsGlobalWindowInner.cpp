@@ -20920,6 +20920,9 @@ nsGlobalWindowInner
 :
 ShowSlowScriptDialog
 (
+JSContext
+*
+aCx
 const
 nsString
 &
@@ -20928,9 +20931,6 @@ aAddonId
 {
 nsresult
 rv
-;
-AutoJSContext
-cx
 ;
 if
 (
@@ -20964,7 +20964,7 @@ IsSafeToRunScript
 {
 JS_ReportWarningASCII
 (
-cx
+aCx
 "
 A
 long
@@ -21021,7 +21021,7 @@ JS
 :
 DescribeScriptedCaller
 (
-cx
+aCx
 &
 filename
 linenop
@@ -21897,7 +21897,7 @@ buttonPressed
 AutoDisableJSInterruptCallback
 disabler
 (
-cx
+aCx
 )
 ;
 rv
@@ -22010,7 +22010,7 @@ KillSlowScript
 }
 JS_ClearPendingException
 (
-cx
+aCx
 )
 ;
 if

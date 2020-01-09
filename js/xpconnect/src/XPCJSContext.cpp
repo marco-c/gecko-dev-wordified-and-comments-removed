@@ -3018,6 +3018,7 @@ win
 >
 ShowSlowScriptDialog
 (
+cx
 addonId
 )
 ;
