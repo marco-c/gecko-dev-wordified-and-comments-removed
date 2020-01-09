@@ -1094,6 +1094,9 @@ aFrame
 )
 ;
 struct
+Subgrid
+;
+struct
 TrackSize
 ;
 struct
