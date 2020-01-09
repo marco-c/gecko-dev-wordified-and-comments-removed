@@ -11433,6 +11433,12 @@ HandleObject
 enclosingEnv
 HandleScope
 newScope
+Handle
+<
+ScriptSourceObject
+*
+>
+sourceObject
 gc
 :
 :
@@ -11653,6 +11659,7 @@ cx
 newScope
 clone
 script
+sourceObject
 )
 )
 ;

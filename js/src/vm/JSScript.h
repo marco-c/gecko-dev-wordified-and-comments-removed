@@ -13641,6 +13641,12 @@ HandleFunction
 fun
 HandleScript
 src
+Handle
+<
+ScriptSourceObject
+*
+>
+sourceObject
 )
 ;
 JSScript
