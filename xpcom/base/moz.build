@@ -472,11 +472,6 @@ nsTraceRefcnt
 h
 '
 '
-nsTWeakRef
-.
-h
-'
-'
 nsVersionComparator
 .
 h

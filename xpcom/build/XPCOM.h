@@ -90,13 +90,6 @@ h
 #
 include
 "
-nsTWeakRef
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
