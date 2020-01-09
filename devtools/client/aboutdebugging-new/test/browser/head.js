@@ -1564,7 +1564,7 @@ js
 -
 runtime
 -
-info
+name
 "
 )
 ;

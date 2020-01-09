@@ -328,7 +328,7 @@ js
 -
 runtime
 -
-info
+name
 "
 )
 ;

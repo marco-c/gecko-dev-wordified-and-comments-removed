@@ -179,7 +179,7 @@ js
 -
 runtime
 -
-info
+name
 "
 )
 ;
