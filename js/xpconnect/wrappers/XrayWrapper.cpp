@@ -79,6 +79,15 @@ h
 #
 include
 "
+js
+/
+PropertySpec
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

@@ -37,6 +37,15 @@ include
 "
 js
 /
+PropertySpec
+.
+h
+"
+#
+include
+"
+js
+/
 TracingAPI
 .
 h
