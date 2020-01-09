@@ -2687,6 +2687,7 @@ reinterpret_cast
 <
 BOOL
 (
+WINAPI
 *
 )
 (
