@@ -186,6 +186,10 @@ nsString
 &
 aDocumentURI
 const
+nsString
+&
+aKey
+const
 bool
 &
 aIncreasePeakUsage
