@@ -1020,11 +1020,12 @@ else
 {
 mPIStartBorderData
 .
-mCoord
-=
+SetCoord
+(
 saved
 .
 mCoord
+)
 ;
 }
 if
