@@ -84,7 +84,7 @@ resource
 :
 /
 /
-app
+gre
 /
 modules
 /

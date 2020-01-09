@@ -23,7 +23,7 @@ resource
 :
 /
 /
-app
+gre
 /
 modules
 /
