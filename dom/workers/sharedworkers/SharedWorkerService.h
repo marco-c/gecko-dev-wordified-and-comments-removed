@@ -110,14 +110,6 @@ aPortIdentifier
 )
 ;
 void
-RemoveWorkerManager
-(
-SharedWorkerManager
-*
-aManager
-)
-;
-void
 RemoveWorkerManagerOnMainThread
 (
 SharedWorkerManager
