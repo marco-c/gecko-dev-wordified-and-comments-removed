@@ -3050,6 +3050,16 @@ showSponsored
 |
 32
 |
+|
+showCFRAddons
+|
+64
+|
+|
+showCFRFeatures
+|
+128
+|
 Each
 item
 above

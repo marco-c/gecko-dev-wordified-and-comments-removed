@@ -39,6 +39,13 @@ DEFAULT_CONTENT
 =
 {
 "
+category
+"
+:
+"
+dummyCategory
+"
+"
 bucket_id
 "
 :
@@ -277,6 +284,13 @@ const
 L10N_CONTENT
 =
 {
+"
+category
+"
+:
+"
+dummyL10NCategory
+"
 "
 bucket_id
 "

@@ -387,8 +387,8 @@ prefs_content_discovery_header
 "
 :
 "
+Beranda
 Firefox
-Home
 "
 "
 prefs_content_discovery_description
@@ -1113,15 +1113,6 @@ context_menu_title
 "
 Buka
 menu
-"
-"
-pocket_learn_more
-"
-:
-"
-Pelajari
-Lebih
-Lanjut
 "
 }
 ;

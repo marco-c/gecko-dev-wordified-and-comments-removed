@@ -400,6 +400,15 @@ props
 .
 onUpdate
 }
+onShow
+=
+{
+this
+.
+props
+.
+onShow
+}
 options
 =
 {

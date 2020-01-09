@@ -6424,6 +6424,8 @@ event
 [
 INSTALL
 |
+PIN
+|
 BLOCK
 |
 DISMISS
@@ -6550,6 +6552,8 @@ event
 "
 [
 INSTALL
+|
+PIN
 |
 BLOCK
 |
