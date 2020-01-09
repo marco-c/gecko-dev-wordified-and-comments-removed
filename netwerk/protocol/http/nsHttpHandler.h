@@ -203,6 +203,8 @@ nsHttpRequestHead
 *
 bool
 isSecure
+nsContentPolicyType
+aContentPolicyType
 )
 ;
 MOZ_MUST_USE
@@ -1590,15 +1592,6 @@ pref
 ;
 MOZ_MUST_USE
 nsresult
-SetAccept
-(
-const
-char
-*
-)
-;
-MOZ_MUST_USE
-nsresult
 SetAcceptLanguages
 (
 )
@@ -1810,9 +1803,6 @@ mQoSBits
 ;
 bool
 mEnforceAssocReq
-;
-nsCString
-mAccept
 ;
 nsCString
 mAcceptLanguages
