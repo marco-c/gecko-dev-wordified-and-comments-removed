@@ -4406,7 +4406,7 @@ gfx
 YUVColorSpace
 :
 :
-UNKNOWN
+_NUM_COLORSPACE
 >
 {
 }

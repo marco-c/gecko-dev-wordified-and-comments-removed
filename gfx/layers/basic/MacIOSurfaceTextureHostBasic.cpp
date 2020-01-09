@@ -184,6 +184,11 @@ aDescriptor
 isOpaque
 (
 )
+aDescriptor
+.
+yUVColorSpace
+(
+)
 )
 ;
 }
