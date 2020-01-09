@@ -2318,15 +2318,6 @@ tag
 nsGkAtoms
 :
 :
-datetimebox
-|
-|
-tag
-=
-=
-nsGkAtoms
-:
-:
 embed
 |
 |

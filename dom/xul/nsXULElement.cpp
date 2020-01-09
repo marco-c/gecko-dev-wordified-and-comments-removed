@@ -3462,15 +3462,6 @@ tag
 nsGkAtoms
 :
 :
-datetimebox
-|
-|
-tag
-=
-=
-nsGkAtoms
-:
-:
 resizer
 |
 |
