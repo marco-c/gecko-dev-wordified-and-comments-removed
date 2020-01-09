@@ -8378,7 +8378,9 @@ aThreshold
 aStyleDisplay
 -
 >
-mWillChangeBitField
+mWillChange
+.
+bits
 &
 StyleWillChangeBits_OPACITY
 )
@@ -14592,7 +14594,9 @@ IsForPainting
 disp
 -
 >
-mWillChangeBitField
+mWillChange
+.
+bits
 &
 StyleWillChangeBits_OPACITY
 )
@@ -14644,7 +14648,9 @@ if
 disp
 -
 >
-mWillChangeBitField
+mWillChange
+.
+bits
 )
 {
 aBuilder
@@ -52849,7 +52855,9 @@ IsInteger
 aStyleDisplay
 -
 >
-mWillChangeBitField
+mWillChange
+.
+bits
 &
 StyleWillChangeBits_STACKING_CONTEXT
 )

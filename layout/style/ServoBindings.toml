@@ -3717,7 +3717,7 @@ TouchAction
 gecko
 =
 "
-StyleWillChangeBits
+StyleWillChange
 "
 servo
 =
@@ -3731,7 +3731,7 @@ specified
 box_
 :
 :
-WillChangeBits
+WillChange
 "
 }
 {

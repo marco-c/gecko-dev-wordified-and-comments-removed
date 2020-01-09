@@ -789,7 +789,9 @@ aStyle
 ;
 if
 (
-mWillChangeBitField
+mWillChange
+.
+bits
 &
 mozilla
 :
@@ -1017,7 +1019,9 @@ IsRelativelyPositionedStyle
 |
 |
 (
-mWillChangeBitField
+mWillChange
+.
+bits
 &
 mozilla
 :
