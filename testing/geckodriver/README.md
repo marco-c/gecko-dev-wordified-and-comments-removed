@@ -132,8 +132,6 @@ testing
 /
 marionette
 /
-marionette
-/
 Protocol
 .
 html
@@ -601,8 +599,6 @@ testing
 /
 geckodriver
 /
-geckodriver
-/
 Usage
 .
 html
@@ -628,8 +624,6 @@ mozilla
 org
 /
 testing
-/
-geckodriver
 /
 geckodriver
 /
@@ -661,8 +655,6 @@ testing
 /
 geckodriver
 /
-geckodriver
-/
 Capabilities
 .
 html
@@ -688,8 +680,6 @@ mozilla
 org
 /
 testing
-/
-geckodriver
 /
 geckodriver
 /
@@ -726,8 +716,6 @@ testing
 /
 geckodriver
 /
-geckodriver
-/
 TraceLogs
 .
 html
@@ -759,8 +747,6 @@ testing
 /
 geckodriver
 /
-geckodriver
-/
 CrashReports
 .
 html
@@ -785,8 +771,6 @@ mozilla
 org
 /
 testing
-/
-geckodriver
 /
 geckodriver
 /
@@ -893,8 +877,6 @@ mozilla
 org
 /
 testing
-/
-geckodriver
 /
 geckodriver
 /

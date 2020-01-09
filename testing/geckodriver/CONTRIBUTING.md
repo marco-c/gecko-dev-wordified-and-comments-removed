@@ -22,8 +22,6 @@ testing
 /
 geckodriver
 /
-geckodriver
-/
 #
 for
 -

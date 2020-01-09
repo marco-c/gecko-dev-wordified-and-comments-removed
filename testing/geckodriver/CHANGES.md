@@ -1612,8 +1612,6 @@ testing
 /
 geckodriver
 /
-geckodriver
-/
 .
 0
 .
