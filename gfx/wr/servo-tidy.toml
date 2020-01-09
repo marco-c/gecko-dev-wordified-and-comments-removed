@@ -60,6 +60,9 @@ log
 rand
 "
 "
+rand_core
+"
+"
 winapi
 "
 "
