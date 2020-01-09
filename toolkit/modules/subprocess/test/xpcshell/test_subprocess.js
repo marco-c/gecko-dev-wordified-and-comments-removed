@@ -1142,6 +1142,17 @@ code
 ;
 add_task
 (
+{
+skip_if
+:
+(
+)
+=
+>
+mozinfo
+.
+ccov
+}
 async
 function
 test_subprocess_round_trip_perf
