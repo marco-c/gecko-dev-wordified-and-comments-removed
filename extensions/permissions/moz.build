@@ -94,10 +94,15 @@ nsContentBlocker
 .
 cpp
 '
+]
+XPCOM_MANIFESTS
++
+=
+[
 '
-nsModuleFactory
+components
 .
-cpp
+conf
 '
 ]
 FINAL_LIBRARY
