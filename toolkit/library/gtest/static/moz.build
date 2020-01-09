@@ -97,6 +97,13 @@ if
 CONFIG
 [
 '
+ENABLE_TESTS
+'
+]
+and
+CONFIG
+[
+'
 OS_ARCH
 '
 ]
