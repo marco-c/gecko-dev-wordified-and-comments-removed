@@ -28,7 +28,7 @@ for
 ICU
 64
 .
-1
+2
 .
 #
 #
@@ -4946,7 +4946,7 @@ PACKAGE_VERSION
 '
 64
 .
-1
+2
 '
 PACKAGE_STRING
 =
@@ -4954,7 +4954,7 @@ PACKAGE_STRING
 ICU
 64
 .
-1
+2
 '
 PACKAGE_BUGREPORT
 =
@@ -11005,7 +11005,7 @@ configures
 ICU
 64
 .
-1
+2
 to
 adapt
 to
@@ -11628,7 +11628,7 @@ of
 ICU
 64
 .
-1
+2
 :
 "
 ;
@@ -12862,7 +12862,7 @@ ICU
 configure
 64
 .
-1
+2
 generated
 by
 GNU
@@ -18220,7 +18220,7 @@ ICU
 as_me
 64
 .
-1
+2
 which
 was
 generated
@@ -60974,7 +60974,7 @@ ICU
 as_me
 64
 .
-1
+2
 which
 was
 generated
@@ -61311,7 +61311,7 @@ config
 status
 64
 .
-1
+2
 configured
 by
 0
@@ -66982,6 +66982,17 @@ data
 rules
 .
 mk
+echo
+"
+"
+>
+test
+/
+testdata
+/
+rules
+.
+mk
 else
 if
 test
@@ -68088,6 +68099,9 @@ build
 data
 from
 source
+or
+run
+tests
 .
 "
 fi

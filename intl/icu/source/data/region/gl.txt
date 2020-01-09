@@ -1286,6 +1286,8 @@ MK
 {
 "
 Macedonia
+do
+Norte
 "
 }
 ML
@@ -2141,15 +2143,6 @@ Falkland
 )
 "
 }
-MK
-{
-"
-Macedonia
-(
-ARIM
-)
-"
-}
 SZ
 {
 "
@@ -2170,9 +2163,9 @@ Version
 .
 1
 .
-48
+49
 .
-17
+82
 "
 }
 }

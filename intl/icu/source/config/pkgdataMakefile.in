@@ -119,6 +119,10 @@ pkgdata
 inc
 MIDDLE_SO_TARGET
 =
+PKGDATA_TRAILING_SPACE
+=
+"
+"
 all
 :
 clean

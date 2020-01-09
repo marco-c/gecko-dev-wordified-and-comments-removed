@@ -37,6 +37,15 @@ rw
 {
 Countries
 {
+MK
+{
+"
+Masedoniya
+y
+'
+Amajyaruguru
+"
+}
 RW
 {
 "
@@ -58,7 +67,7 @@ Version
 .
 1
 .
-47
+49
 .
 82
 "

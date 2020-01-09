@@ -1339,6 +1339,7 @@ adalary
 MK
 {
 "
+Demirgazyk
 Makedoni
 a
 "
@@ -2236,16 +2237,6 @@ Malwina
 adalary
 "
 }
-MK
-{
-"
-Makedoni
-a
-(
-R
-)
-"
-}
 TL
 {
 "
@@ -2262,9 +2253,9 @@ Version
 .
 1
 .
-48
+49
 .
-86
+82
 "
 }
 }

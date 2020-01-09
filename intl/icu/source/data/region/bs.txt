@@ -1245,6 +1245,7 @@ ostrva
 MK
 {
 "
+Sjeverna
 Makedonija
 "
 }
@@ -2068,15 +2069,6 @@ Malvinska
 ostrva
 "
 }
-MK
-{
-"
-Makedonija
-(
-BJR
-)
-"
-}
 SZ
 {
 "
@@ -2097,9 +2089,9 @@ Version
 .
 1
 .
-48
+49
 .
-17
+82
 "
 }
 }

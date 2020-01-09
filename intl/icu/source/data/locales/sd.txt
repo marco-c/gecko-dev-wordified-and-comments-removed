@@ -39,6 +39,12 @@ AuxExemplarCharacters
 {
 "
 [
+\
+u064E
+\
+u064F
+\
+u0650
 ]
 "
 }
@@ -917,9 +923,9 @@ Version
 .
 1
 .
-48
+49
 .
-17
+82
 "
 }
 calendar

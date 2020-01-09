@@ -17984,7 +17984,7 @@ wa
 Heisei
 "
 "
-Qqqq
+Reiwa
 "
 }
 wide
@@ -19728,7 +19728,7 @@ wa
 Heisei
 "
 "
-Qqqq
+Reiwa
 "
 }
 }

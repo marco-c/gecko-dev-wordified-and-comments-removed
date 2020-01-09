@@ -37,6 +37,13 @@ xh
 {
 Countries
 {
+MK
+{
+"
+uMntla
+Macedonia
+"
+}
 ZA
 {
 "
@@ -52,9 +59,9 @@ Version
 .
 1
 .
-48
+49
 .
-89
+82
 "
 }
 }

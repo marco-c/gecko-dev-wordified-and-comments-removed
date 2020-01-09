@@ -9430,6 +9430,17 @@ data
 rules
 .
 mk
+echo
+"
+"
+>
+test
+/
+testdata
+/
+rules
+.
+mk
 else
 if
 test
@@ -10458,6 +10469,9 @@ build
 data
 from
 source
+or
+run
+tests
 .
 "
 fi

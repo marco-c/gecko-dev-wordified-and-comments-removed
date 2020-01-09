@@ -86,6 +86,13 @@ JP
 Hapon
 "
 }
+MK
+{
+"
+Amihanang
+Macedonia
+"
+}
 PH
 {
 "
@@ -124,7 +131,7 @@ Version
 .
 49
 .
-33
+82
 "
 }
 }

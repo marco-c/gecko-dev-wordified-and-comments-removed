@@ -1214,6 +1214,7 @@ Uharteak
 MK
 {
 "
+Ipar
 Mazedonia
 "
 }
@@ -2023,15 +2024,6 @@ Malvinak
 )
 "
 }
-MK
-{
-"
-Mazedoniako
-Jugoslaviar
-Errepublika
-Ohia
-"
-}
 TL
 {
 "
@@ -2046,9 +2038,9 @@ Version
 .
 1
 .
-48
+49
 .
-17
+82
 "
 }
 }

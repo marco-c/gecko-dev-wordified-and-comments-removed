@@ -1223,6 +1223,7 @@ MK
 {
 "
 Masedooniya
+Waqooyi
 "
 }
 ML
@@ -2038,15 +2039,6 @@ Jasiiradaha
 Fookland
 "
 }
-MK
-{
-"
-Masedooniya
-(
-FYROM
-)
-"
-}
 SZ
 {
 "
@@ -2068,9 +2060,9 @@ Version
 .
 1
 .
-48
+49
 .
-17
+82
 "
 }
 }

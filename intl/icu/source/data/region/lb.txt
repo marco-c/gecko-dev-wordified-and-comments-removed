@@ -1204,7 +1204,7 @@ Marshallinselen
 MK
 {
 "
-Mazedonien
+Nordmazedonien
 "
 }
 ML
@@ -1990,15 +1990,6 @@ Elfebeek
 st
 "
 }
-MK
-{
-"
-Mazedonien
-(
-EJR
-)
-"
-}
 }
 Version
 {
@@ -2007,7 +1998,7 @@ Version
 .
 1
 .
-47
+49
 .
 82
 "

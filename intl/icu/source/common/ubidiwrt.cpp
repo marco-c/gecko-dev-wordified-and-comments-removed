@@ -66,6 +66,12 @@ h
 "
 #
 if
+defined
+(
+UTF_SIZE
+)
+&
+&
 UTF_SIZE
 =
 =

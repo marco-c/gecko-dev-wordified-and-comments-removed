@@ -1212,7 +1212,7 @@ erne
 MK
 {
 "
-Makedonien
+Nordmakedonien
 "
 }
 ML
@@ -2033,16 +2033,6 @@ Malvinas
 )
 "
 }
-MK
-{
-"
-Den
-tidligere
-jugoslaviske
-republik
-Makedonien
-"
-}
 SZ
 {
 "
@@ -2063,9 +2053,9 @@ Version
 .
 1
 .
-48
+49
 .
-17
+82
 "
 }
 }

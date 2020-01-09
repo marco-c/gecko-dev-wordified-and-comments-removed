@@ -1320,6 +1320,8 @@ MK
 "
 Mac
 doine
+du
+Nord
 "
 }
 ML
@@ -2242,16 +2244,6 @@ les
 Falkland
 "
 }
-MK
-{
-"
-Mac
-doine
-(
-ARYM
-)
-"
-}
 SZ
 {
 "
@@ -2274,9 +2266,9 @@ Version
 .
 1
 .
-48
+49
 .
-43
+82
 "
 }
 }

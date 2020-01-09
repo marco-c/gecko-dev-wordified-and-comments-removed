@@ -369,6 +369,8 @@ MK
 "
 Maced
 nia
+do
+Norte
 "
 }
 MS
@@ -605,16 +607,6 @@ Malvinas
 )
 "
 }
-MK
-{
-"
-Maced
-nia
-(
-ARJM
-)
-"
-}
 }
 Version
 {
@@ -623,9 +615,9 @@ Version
 .
 1
 .
-47
+49
 .
-89
+82
 "
 }
 }

@@ -1458,7 +1458,7 @@ ec
 )
 {
 #
-if
+ifdef
 U_DEBUG_TZ
 char
 buf

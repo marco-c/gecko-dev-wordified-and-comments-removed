@@ -2091,12 +2091,6 @@ intvector
 }
 236
 {
-named
-{
-"
-false
-"
-}
 start
 :
 intvector
@@ -3739,6 +3733,8 @@ cldrVersion
 {
 "
 35
+.
+1
 "
 }
 codeMappings

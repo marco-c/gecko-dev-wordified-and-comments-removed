@@ -1243,6 +1243,8 @@ yane
 MK
 {
 "
+Nord
+-
 Makedonia
 "
 }
@@ -2060,16 +2062,6 @@ Malvinas
 )
 "
 }
-MK
-{
-"
-Den
-tidlegare
-jugoslaviske
-republikken
-Makedonia
-"
-}
 TL
 {
 "
@@ -2086,7 +2078,7 @@ Version
 .
 1
 .
-47
+49
 .
 82
 "

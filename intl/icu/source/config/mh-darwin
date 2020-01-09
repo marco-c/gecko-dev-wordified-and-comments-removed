@@ -306,6 +306,9 @@ notdir
 MIDDLE_SO_TARGET
 )
 )
+(
+PKGDATA_TRAILING_SPACE
+)
 #
 #
 Compiler

@@ -3229,6 +3229,10 @@ n
 result
 )
 ;
+result
+=
+1
+;
 }
 if
 (

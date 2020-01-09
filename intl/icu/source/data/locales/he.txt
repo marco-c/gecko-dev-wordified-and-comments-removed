@@ -8397,7 +8397,7 @@ wa
 Heisei
 "
 "
-Qqqq
+Reiwa
 "
 }
 }

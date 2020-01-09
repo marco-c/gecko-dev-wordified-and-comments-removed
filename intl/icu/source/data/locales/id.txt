@@ -9257,7 +9257,7 @@ wa
 Heisei
 "
 "
-Qqqq
+Reiwa
 "
 }
 }

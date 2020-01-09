@@ -1248,6 +1248,7 @@ orollari
 MK
 {
 "
+Shimoliy
 Makedoniya
 "
 }
@@ -2082,15 +2083,6 @@ Malvin
 orollari
 "
 }
-MK
-{
-"
-Makedoniya
-(
-SYRM
-)
-"
-}
 TL
 {
 "
@@ -2106,9 +2098,9 @@ Version
 .
 1
 .
-48
+49
 .
-17
+82
 "
 }
 }

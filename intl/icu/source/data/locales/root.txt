@@ -830,7 +830,7 @@ Version
 .
 1
 .
-47
+49
 .
 82
 "
@@ -12509,7 +12509,7 @@ wa
 Heisei
 "
 "
-Qqqq
+Reiwa
 "
 }
 narrow
@@ -14244,7 +14244,7 @@ S
 H
 "
 "
-Q
+R
 "
 }
 wide

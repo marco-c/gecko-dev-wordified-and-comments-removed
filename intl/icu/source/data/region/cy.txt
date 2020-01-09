@@ -1262,6 +1262,7 @@ Marshall
 MK
 {
 "
+Gogledd
 Macedonia
 "
 }
@@ -2118,15 +2119,6 @@ Malfinas
 )
 "
 }
-MK
-{
-"
-Macedonia
-(
-CWIM
-)
-"
-}
 SZ
 {
 "
@@ -2149,9 +2141,9 @@ Version
 .
 1
 .
-48
+49
 .
-17
+82
 "
 }
 }

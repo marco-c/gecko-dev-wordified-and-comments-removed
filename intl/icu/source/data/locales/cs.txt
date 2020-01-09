@@ -15584,7 +15584,7 @@ wa
 Heisei
 "
 "
-Qqqq
+Reiwa
 "
 }
 narrow
@@ -17327,7 +17327,7 @@ S
 H
 "
 "
-Q
+R
 "
 }
 wide
@@ -19071,7 +19071,7 @@ wa
 Heisei
 "
 "
-Qqqq
+Reiwa
 "
 }
 }

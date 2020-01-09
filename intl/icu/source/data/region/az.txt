@@ -1282,6 +1282,7 @@ adalar
 MK
 {
 "
+imali
 Makedoniya
 "
 }
@@ -2166,15 +2167,6 @@ adalar
 )
 "
 }
-MK
-{
-"
-Makedoniya
-(
-KYRM
-)
-"
-}
 SZ
 {
 "
@@ -2197,9 +2189,9 @@ Version
 .
 1
 .
-48
+49
 .
-17
+82
 "
 }
 }
