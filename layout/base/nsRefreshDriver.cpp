@@ -3088,6 +3088,13 @@ mLastProcessedTickInChildProcess
 aVsyncTimestamp
 ;
 }
+#
+if
+!
+defined
+(
+_WIN32
+)
 DebugOnly
 <
 TimeStamp
@@ -3127,6 +3134,8 @@ aVsyncTimestamp
 rightnow
 )
 ;
+#
+endif
 if
 (
 mVsyncRefreshDriverTimer
