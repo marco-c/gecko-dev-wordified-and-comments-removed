@@ -538,7 +538,6 @@ FileMode
 &
 aMode
 )
-override
 ;
 virtual
 mozilla
@@ -568,7 +567,6 @@ PBackgroundFileHandleParent
 *
 aActor
 )
-final
 ;
 mozilla
 :

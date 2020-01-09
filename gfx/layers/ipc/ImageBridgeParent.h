@@ -305,7 +305,6 @@ aFwdTransactionId
 )
 override
 ;
-virtual
 PTextureParent
 *
 AllocPTextureParent
@@ -338,9 +337,7 @@ MaybeExternalImageId
 &
 aExternalImageId
 )
-override
 ;
-virtual
 bool
 DeallocPTextureParent
 (
@@ -348,7 +345,6 @@ PTextureParent
 *
 actor
 )
-override
 ;
 virtual
 mozilla
@@ -397,7 +393,6 @@ PMediaSystemResourceManagerParent
 AllocPMediaSystemResourceManagerParent
 (
 )
-override
 ;
 bool
 DeallocPMediaSystemResourceManagerParent
@@ -406,7 +401,6 @@ PMediaSystemResourceManagerParent
 *
 aActor
 )
-override
 ;
 virtual
 mozilla

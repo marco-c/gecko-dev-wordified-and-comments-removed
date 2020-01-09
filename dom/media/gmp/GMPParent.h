@@ -641,7 +641,6 @@ PGMPStorageParent
 AllocPGMPStorageParent
 (
 )
-override
 ;
 bool
 DeallocPGMPStorageParent
@@ -650,7 +649,6 @@ PGMPStorageParent
 *
 aActor
 )
-override
 ;
 mozilla
 :
@@ -672,7 +670,6 @@ PGMPTimerParent
 AllocPGMPTimerParent
 (
 )
-override
 ;
 bool
 DeallocPGMPTimerParent
@@ -681,7 +678,6 @@ PGMPTimerParent
 *
 aActor
 )
-override
 ;
 mozilla
 :

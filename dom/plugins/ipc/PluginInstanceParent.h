@@ -263,13 +263,11 @@ why
 )
 override
 ;
-virtual
 PPluginScriptableObjectParent
 *
 AllocPPluginScriptableObjectParent
 (
 )
-override
 ;
 virtual
 mozilla
@@ -287,7 +285,6 @@ aActor
 )
 override
 ;
-virtual
 bool
 DeallocPPluginScriptableObjectParent
 (
@@ -295,9 +292,7 @@ PPluginScriptableObjectParent
 *
 aObject
 )
-override
 ;
-virtual
 PBrowserStreamParent
 *
 AllocPBrowserStreamParent
@@ -322,9 +317,7 @@ nsCString
 &
 headers
 )
-override
 ;
-virtual
 bool
 DeallocPBrowserStreamParent
 (
@@ -332,7 +325,6 @@ PBrowserStreamParent
 *
 stream
 )
-override
 ;
 virtual
 mozilla
@@ -675,7 +667,6 @@ result
 )
 override
 ;
-virtual
 PStreamNotifyParent
 *
 AllocPStreamNotifyParent
@@ -704,7 +695,6 @@ NPError
 *
 result
 )
-override
 ;
 virtual
 mozilla
@@ -745,7 +735,6 @@ result
 )
 override
 ;
-virtual
 bool
 DeallocPStreamNotifyParent
 (
@@ -753,7 +742,6 @@ PStreamNotifyParent
 *
 notifyData
 )
-override
 ;
 virtual
 mozilla
@@ -925,7 +913,6 @@ prevSurface
 )
 override
 ;
-virtual
 PPluginSurfaceParent
 *
 AllocPPluginSurfaceParent
@@ -949,9 +936,7 @@ bool
 &
 transparent
 )
-override
 ;
-virtual
 bool
 DeallocPPluginSurfaceParent
 (
@@ -959,7 +944,6 @@ PPluginSurfaceParent
 *
 s
 )
-override
 ;
 virtual
 mozilla
@@ -1604,15 +1588,12 @@ GetImageContainer
 (
 )
 ;
-virtual
 PPluginBackgroundDestroyerParent
 *
 AllocPPluginBackgroundDestroyerParent
 (
 )
-override
 ;
-virtual
 bool
 DeallocPPluginBackgroundDestroyerParent
 (
@@ -1620,7 +1601,6 @@ PPluginBackgroundDestroyerParent
 *
 aActor
 )
-override
 ;
 bool
 InternalGetValueForNPObject

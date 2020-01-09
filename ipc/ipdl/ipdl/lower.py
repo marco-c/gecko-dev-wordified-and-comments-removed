@@ -21121,6 +21121,21 @@ recvDecl
 )
 )
         
+if
+(
+self
+.
+protocol
+.
+name
+self
+.
+side
+)
+in
+VIRTUAL_CALL_CLASSES
+:
+            
 for
 md
 in
@@ -21128,7 +21143,7 @@ p
 .
 messageDecls
 :
-            
+                
 managed
 =
 md
@@ -21140,7 +21155,7 @@ type
 constructedType
 (
 )
-            
+                
 if
 not
 ptype
@@ -21160,9 +21175,9 @@ isDtor
 (
 )
 :
-                
+                    
 continue
-            
+                
 actortype
 =
 md
@@ -21177,7 +21192,7 @@ self
 .
 side
 )
-            
+                
 self
 .
 cls
@@ -21188,7 +21203,7 @@ StmtDecl
 (
 MethodDecl
 (
-                
+                    
 _allocMethod
 (
 managed
@@ -21196,7 +21211,7 @@ self
 .
 side
 )
-                
+                    
 params
 =
 md
@@ -21212,7 +21227,7 @@ implicit
 =
 False
 )
-                
+                    
 ret
 =
 actortype
@@ -21224,7 +21239,7 @@ PURE
 )
 )
 )
-            
+                
 self
 .
 cls
@@ -21235,7 +21250,7 @@ StmtDecl
 (
 MethodDecl
 (
-                
+                    
 _deallocMethod
 (
 managed
@@ -21243,7 +21258,7 @@ self
 .
 side
 )
-                
+                    
 params
 =
 [
@@ -21255,7 +21270,7 @@ aActor
 '
 )
 ]
-                
+                    
 ret
 =
 Type

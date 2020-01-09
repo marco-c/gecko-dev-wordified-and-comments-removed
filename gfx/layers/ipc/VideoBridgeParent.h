@@ -105,7 +105,6 @@ uint64_t
 &
 aSerial
 )
-override
 ;
 bool
 DeallocPTextureParent
@@ -114,7 +113,6 @@ PTextureParent
 *
 actor
 )
-override
 ;
 base
 :

@@ -204,7 +204,6 @@ VRManagerParent
 (
 )
 ;
-virtual
 PVRLayerParent
 *
 AllocPVRLayerParent
@@ -218,9 +217,7 @@ uint32_t
 &
 aGroup
 )
-override
 ;
-virtual
 bool
 DeallocPVRLayerParent
 (
@@ -228,7 +225,6 @@ PVRLayerParent
 *
 actor
 )
-override
 ;
 virtual
 void

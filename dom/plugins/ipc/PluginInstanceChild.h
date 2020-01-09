@@ -564,7 +564,6 @@ bool
 aIsAsync
 )
 ;
-virtual
 PPluginSurfaceChild
 *
 AllocPPluginSurfaceChild
@@ -582,7 +581,6 @@ const
 bool
 &
 )
-override
 {
 return
 new
@@ -591,7 +589,6 @@ PPluginSurfaceChild
 )
 ;
 }
-virtual
 bool
 DeallocPPluginSurfaceChild
 (
@@ -599,7 +596,6 @@ PPluginSurfaceChild
 *
 s
 )
-override
 {
 delete
 s
@@ -704,15 +700,12 @@ result
 )
 override
 ;
-virtual
 PPluginScriptableObjectChild
 *
 AllocPPluginScriptableObjectChild
 (
 )
-override
 ;
-virtual
 bool
 DeallocPPluginScriptableObjectChild
 (
@@ -720,7 +713,6 @@ PPluginScriptableObjectChild
 *
 aObject
 )
-override
 ;
 virtual
 mozilla
@@ -803,7 +795,6 @@ stype
 )
 override
 ;
-virtual
 PBrowserStreamChild
 *
 AllocPBrowserStreamChild
@@ -828,9 +819,7 @@ nsCString
 &
 headers
 )
-override
 ;
-virtual
 bool
 DeallocPBrowserStreamChild
 (
@@ -838,9 +827,7 @@ PBrowserStreamChild
 *
 stream
 )
-override
 ;
-virtual
 PStreamNotifyChild
 *
 AllocPStreamNotifyChild
@@ -869,9 +856,7 @@ NPError
 *
 result
 )
-override
 ;
-virtual
 bool
 DeallocPStreamNotifyChild
 (
@@ -879,7 +864,6 @@ PStreamNotifyChild
 *
 notifyData
 )
-override
 ;
 virtual
 mozilla
@@ -1216,15 +1200,12 @@ aRect
 )
 override
 ;
-virtual
 PPluginBackgroundDestroyerChild
 *
 AllocPPluginBackgroundDestroyerChild
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1240,7 +1221,6 @@ aActor
 )
 override
 ;
-virtual
 bool
 DeallocPPluginBackgroundDestroyerChild
 (
@@ -1248,7 +1228,6 @@ PPluginBackgroundDestroyerChild
 *
 aActor
 )
-override
 ;
 #
 if

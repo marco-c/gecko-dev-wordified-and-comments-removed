@@ -256,7 +256,6 @@ PCompositorBridgeParent
 *
 aActor
 )
-override
 ;
 PCompositorBridgeParent
 *
@@ -267,7 +266,6 @@ CompositorBridgeOptions
 &
 aOpt
 )
-override
 ;
 private
 :

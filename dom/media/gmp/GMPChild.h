@@ -232,7 +232,6 @@ PGMPTimerChild
 AllocPGMPTimerChild
 (
 )
-override
 ;
 bool
 DeallocPGMPTimerChild
@@ -241,14 +240,12 @@ PGMPTimerChild
 *
 aActor
 )
-override
 ;
 PGMPStorageChild
 *
 AllocPGMPStorageChild
 (
 )
-override
 ;
 bool
 DeallocPGMPStorageChild
@@ -257,7 +254,6 @@ PGMPStorageChild
 *
 aActor
 )
-override
 ;
 void
 GMPContentChildActorDestroy

@@ -126,7 +126,6 @@ bool
 &
 aIsChrome
 )
-override
 ;
 bool
 DeallocPSpeechSynthesisRequestParent
@@ -135,7 +134,6 @@ PSpeechSynthesisRequestParent
 *
 aActor
 )
-override
 ;
 mozilla
 :

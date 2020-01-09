@@ -91,7 +91,6 @@ nsString
 &
 aCommand
 )
-override
 ;
 mozilla
 :
@@ -119,7 +118,6 @@ PTestShellCommandChild
 *
 aCommand
 )
-override
 ;
 private
 :

@@ -94,7 +94,6 @@ nsCString
 *
 aErrorDescription
 )
-override
 ;
 bool
 DeallocPRemoteVideoDecoderParent
@@ -103,7 +102,6 @@ PRemoteVideoDecoderParent
 *
 actor
 )
-override
 ;
 void
 ActorDestroy

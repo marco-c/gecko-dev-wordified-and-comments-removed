@@ -91,7 +91,6 @@ nsString
 &
 aCommand
 )
-override
 ;
 bool
 DeallocPTestShellCommandParent
@@ -100,7 +99,6 @@ PTestShellCommandParent
 *
 aActor
 )
-override
 ;
 bool
 CommandDone

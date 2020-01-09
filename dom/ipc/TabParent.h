@@ -1559,7 +1559,6 @@ aEvent
 )
 override
 ;
-virtual
 PColorPickerParent
 *
 AllocPColorPickerParent
@@ -1573,9 +1572,7 @@ nsString
 &
 aInitialColor
 )
-override
 ;
-virtual
 bool
 DeallocPColorPickerParent
 (
@@ -1583,9 +1580,7 @@ PColorPickerParent
 *
 aColorPicker
 )
-override
 ;
-virtual
 PDocAccessibleParent
 *
 AllocPDocAccessibleParent
@@ -1602,16 +1597,13 @@ const
 IAccessibleHolder
 &
 )
-override
 ;
-virtual
 bool
 DeallocPDocAccessibleParent
 (
 PDocAccessibleParent
 *
 )
-override
 ;
 virtual
 mozilla
@@ -1654,7 +1646,6 @@ GetTopLevelDocAccessible
 )
 const
 ;
-virtual
 PWindowGlobalParent
 *
 AllocPWindowGlobalParent
@@ -1664,9 +1655,7 @@ WindowGlobalInit
 &
 aInit
 )
-override
 ;
-virtual
 bool
 DeallocPWindowGlobalParent
 (
@@ -1674,7 +1663,6 @@ PWindowGlobalParent
 *
 aActor
 )
-override
 ;
 virtual
 mozilla
@@ -2218,7 +2206,6 @@ uint64_t
 aInputBlockId
 )
 ;
-virtual
 PFilePickerParent
 *
 AllocPFilePickerParent
@@ -2232,9 +2219,7 @@ int16_t
 &
 aMode
 )
-override
 ;
-virtual
 bool
 DeallocPFilePickerParent
 (
@@ -2242,9 +2227,7 @@ PFilePickerParent
 *
 actor
 )
-override
 ;
-virtual
 PIndexedDBPermissionRequestParent
 *
 AllocPIndexedDBPermissionRequestParent
@@ -2254,7 +2237,6 @@ Principal
 &
 aPrincipal
 )
-override
 ;
 virtual
 mozilla
@@ -2276,7 +2258,6 @@ aPrincipal
 )
 override
 ;
-virtual
 bool
 DeallocPIndexedDBPermissionRequestParent
 (
@@ -2284,7 +2265,6 @@ PIndexedDBPermissionRequestParent
 *
 aActor
 )
-override
 ;
 bool
 GetGlobalJSObject
@@ -2466,15 +2446,12 @@ LayoutDevicePoint
 aPoint
 )
 ;
-virtual
 PPluginWidgetParent
 *
 AllocPPluginWidgetParent
 (
 )
-override
 ;
-virtual
 bool
 DeallocPPluginWidgetParent
 (
@@ -2482,17 +2459,13 @@ PPluginWidgetParent
 *
 aActor
 )
-override
 ;
-virtual
 PPaymentRequestParent
 *
 AllocPPaymentRequestParent
 (
 )
-override
 ;
-virtual
 bool
 DeallocPPaymentRequestParent
 (
@@ -2500,7 +2473,6 @@ PPaymentRequestParent
 *
 aActor
 )
-override
 ;
 bool
 SendLoadRemoteScript

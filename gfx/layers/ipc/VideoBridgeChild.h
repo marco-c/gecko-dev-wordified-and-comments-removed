@@ -96,7 +96,6 @@ uint64_t
 &
 aSerial
 )
-override
 ;
 bool
 DeallocPTextureChild
@@ -105,7 +104,6 @@ PTextureChild
 *
 actor
 )
-override
 ;
 void
 ActorDestroy

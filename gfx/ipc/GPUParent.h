@@ -110,7 +110,6 @@ LayersId
 &
 aLayersId
 )
-override
 ;
 bool
 DeallocPAPZInputBridgeParent
@@ -119,7 +118,6 @@ PAPZInputBridgeParent
 *
 aActor
 )
-override
 ;
 mozilla
 :
