@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -230,7 +230,7 @@ virtual
 mozilla
 :
 :
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (
@@ -421,7 +421,7 @@ nsAutoPtr
 mozilla
 :
 :
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 >
 mPatternTransform
 ;

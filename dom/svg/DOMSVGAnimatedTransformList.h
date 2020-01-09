@@ -55,7 +55,7 @@ class
 DOMSVGTransformList
 ;
 class
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 ;
 namespace
 dom
@@ -91,7 +91,7 @@ DOMSVGAnimatedTransformList
 >
 GetDOMWrapper
 (
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 aList
 SVGElement
@@ -104,7 +104,7 @@ DOMSVGAnimatedTransformList
 *
 GetDOMWrapperIfExists
 (
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 aList
 )
@@ -205,14 +205,14 @@ DOMSVGAnimatedTransformList
 (
 )
 ;
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 &
 InternalAList
 (
 )
 ;
 const
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 &
 InternalAList
 (

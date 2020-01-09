@@ -165,11 +165,6 @@ dom
 =
 [
 '
-nsSVGAnimatedTransformList
-.
-h
-'
-'
 SVGAElement
 .
 h
@@ -675,11 +670,6 @@ nsSVGAngle
 cpp
 '
 '
-nsSVGAnimatedTransformList
-.
-cpp
-'
-'
 nsSVGBoolean
 .
 cpp
@@ -811,6 +801,11 @@ cpp
 '
 '
 SVGAnimatedString
+.
+cpp
+'
+'
+SVGAnimatedTransformList
 .
 cpp
 '

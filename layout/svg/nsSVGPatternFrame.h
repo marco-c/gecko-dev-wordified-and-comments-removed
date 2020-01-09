@@ -70,10 +70,10 @@ class
 SVGAnimatedPreserveAspectRatio
 ;
 class
-SVGGeometryFrame
+SVGAnimatedTransformList
 ;
 class
-nsSVGAnimatedTransformList
+SVGGeometryFrame
 ;
 }
 class
@@ -272,7 +272,7 @@ mContent
 mozilla
 :
 :
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetPatternTransformList
 (

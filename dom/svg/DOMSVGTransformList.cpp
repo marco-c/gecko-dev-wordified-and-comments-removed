@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -525,7 +525,7 @@ InternalList
 )
 const
 {
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 alist
 =

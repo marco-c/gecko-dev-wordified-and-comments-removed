@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -99,7 +99,7 @@ namespace
 mozilla
 {
 nsresult
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 SetBaseValueString
@@ -147,7 +147,7 @@ aSVGElement
 ;
 }
 nsresult
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 SetBaseValue
@@ -257,7 +257,7 @@ rv
 ;
 }
 void
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 ClearBaseValue
@@ -309,7 +309,7 @@ false
 ;
 }
 nsresult
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 SetAnimValue
@@ -449,7 +449,7 @@ NS_OK
 ;
 }
 void
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 ClearAnimValue
@@ -539,7 +539,7 @@ modType
 ;
 }
 bool
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 IsExplicitlySet
@@ -566,7 +566,7 @@ UniquePtr
 <
 nsISMILAttr
 >
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 ToSMILAttr
@@ -588,7 +588,7 @@ aSVGElement
 ;
 }
 nsresult
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 SMILAnimatedTransformList
@@ -726,7 +726,7 @@ NS_OK
 ;
 }
 void
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 SMILAnimatedTransformList
@@ -1031,7 +1031,7 @@ val
 ;
 }
 int32_t
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 SMILAnimatedTransformList
@@ -1132,7 +1132,7 @@ numArgsFound
 ;
 }
 nsSMILValue
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 SMILAnimatedTransformList
@@ -1182,7 +1182,7 @@ val
 ;
 }
 nsresult
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 SMILAnimatedTransformList
@@ -1253,7 +1253,7 @@ mElement
 ;
 }
 void
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 SMILAnimatedTransformList

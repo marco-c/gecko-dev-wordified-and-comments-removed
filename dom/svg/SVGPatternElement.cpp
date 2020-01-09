@@ -593,7 +593,7 @@ name
 )
 ;
 }
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 SVGPatternElement
 :
@@ -620,7 +620,7 @@ DO_ALLOCATE
 mPatternTransform
 =
 new
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 (
 )
 ;

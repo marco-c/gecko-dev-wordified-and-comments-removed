@@ -695,7 +695,7 @@ this
 )
 ;
 }
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 SVGGradientElement
 :
@@ -722,7 +722,7 @@ DO_ALLOCATE
 mGradientTransform
 =
 new
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 (
 )
 ;

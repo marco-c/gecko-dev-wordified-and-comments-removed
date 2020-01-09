@@ -620,7 +620,7 @@ mViewBox
 ;
 }
 virtual
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetTransformInternal
 (

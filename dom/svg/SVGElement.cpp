@@ -167,7 +167,7 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -2979,7 +2979,7 @@ GetTransformListAttrName
 aAttribute
 )
 {
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 transformList
 =
@@ -4058,7 +4058,7 @@ GetTransformListAttrName
 aName
 )
 {
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 transformList
 =
