@@ -106,6 +106,9 @@ fastMode
 ;
 }
 ;
+[
+Serializable
+]
 interface
 DetectedFace
 {
@@ -211,6 +214,9 @@ formats
 ;
 }
 ;
+[
+Serializable
+]
 interface
 DetectedBarcode
 {
