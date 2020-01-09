@@ -5337,8 +5337,6 @@ cl
 -
 win64
 -
-aarch64
--
 rust
 -
 win64
@@ -5542,8 +5540,6 @@ clang
 cl
 -
 win64
--
-aarch64
 -
 rust
 -
@@ -6376,8 +6372,6 @@ cl
 -
 win64
 -
-aarch64
--
 rust
 -
 win64
@@ -6619,8 +6613,6 @@ clang
 cl
 -
 win64
--
-aarch64
 -
 rust
 -
