@@ -1806,7 +1806,7 @@ md
 )
 :
         
-if
+assert
 md
 .
 decl
@@ -1816,10 +1816,7 @@ methodspec
 =
 MethodSpec
 .
-PURE
-:
-            
-return
+NONE
         
 self
 .

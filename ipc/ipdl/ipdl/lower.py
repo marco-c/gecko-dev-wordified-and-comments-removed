@@ -33477,6 +33477,10 @@ StmtDecl
 decl
 )
             
+if
+defn
+:
+                
 defns
 .
 addstmts
@@ -33499,6 +33503,25 @@ md
 cls
 )
 :
+    
+if
+md
+.
+decl
+.
+methodspec
+=
+=
+MethodSpec
+.
+PURE
+:
+        
+return
+md
+.
+decl
+None
     
 saveddecl
 =
