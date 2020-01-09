@@ -2913,6 +2913,15 @@ WidgetEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+MaybeHandleKeyboardEventBeforeDispatch
+(
+WidgetKeyboardEvent
+*
+aKeyboardEvent
+)
+;
 bool
 PrepareToDispatchContextMenuEvent
 (
