@@ -4279,7 +4279,7 @@ switch
 listener
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 )

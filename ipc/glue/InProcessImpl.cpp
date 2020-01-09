@@ -582,7 +582,7 @@ if
 current
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 =
@@ -802,7 +802,7 @@ MOZ_ASSERT
 otherActor
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 =
@@ -810,7 +810,7 @@ GetProtocolTypeId
 aActor
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 "

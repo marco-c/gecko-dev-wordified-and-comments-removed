@@ -2141,7 +2141,7 @@ switch
 actor
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 )

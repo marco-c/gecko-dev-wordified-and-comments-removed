@@ -1300,7 +1300,7 @@ switch
 manager
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 )

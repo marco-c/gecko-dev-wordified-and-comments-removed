@@ -2107,7 +2107,7 @@ if
 listener
 -
 >
-GetProtocolTypeId
+GetProtocolId
 (
 )
 !
@@ -3716,6 +3716,7 @@ aSide
 :
 IProtocol
 (
+aProtoId
 aSide
 MakeUnique
 <
@@ -3726,10 +3727,6 @@ aName
 this
 aSide
 )
-)
-mProtocolId
-(
-aProtoId
 )
 mOtherPid
 (
