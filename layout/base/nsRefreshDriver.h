@@ -184,6 +184,7 @@ nsARefreshObserver
 public
 :
 NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 WillRefresh
@@ -1286,6 +1287,7 @@ UpdateIntersectionObservations
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Tick
 (

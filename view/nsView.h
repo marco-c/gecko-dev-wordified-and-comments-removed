@@ -72,6 +72,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventForwards
 .
 h
@@ -855,6 +864,7 @@ ShouldNotBeVisible
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsEventStatus
 HandleEvent

@@ -3108,6 +3108,7 @@ aFlags
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 HandleEvent
@@ -3200,6 +3201,7 @@ IsVisible
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchSynthMouseMove
 (

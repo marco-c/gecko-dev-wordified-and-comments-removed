@@ -58,6 +58,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventForwards
 .
 h
@@ -213,6 +222,7 @@ InvalidateAllViews
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchEvent
 (

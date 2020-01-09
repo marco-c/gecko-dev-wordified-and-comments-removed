@@ -324,6 +324,7 @@ int32_t
 aButtons
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 SendTouchEventCommon
 (
