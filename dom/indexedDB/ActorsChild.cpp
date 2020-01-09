@@ -15547,6 +15547,14 @@ swap
 cursor
 )
 ;
+RefPtr
+<
+IDBTransaction
+>
+transaction
+=
+mTransaction
+;
 switch
 (
 aResponse
@@ -15672,7 +15680,7 @@ here
 )
 ;
 }
-mTransaction
+transaction
 -
 >
 OnRequestFinished
