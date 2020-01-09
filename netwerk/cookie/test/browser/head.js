@@ -47,13 +47,13 @@ const
 TEST_DOMAIN
 =
 "
-http
+https
 :
 /
 /
 example
 .
-net
+com
 /
 "
 ;
