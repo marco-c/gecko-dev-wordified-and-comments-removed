@@ -2388,11 +2388,6 @@ frame_rect
 clip_region
 .
 main
-.
-translate
-(
-reference_frame_relative_offset
-)
 ;
 let
 content_size
