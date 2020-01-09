@@ -309,13 +309,6 @@ privacy
 -
 reports
 "
-{
-origin
-:
-"
-dataReporting
-"
-}
 )
 ;
 }

@@ -1247,13 +1247,6 @@ form
 -
 autofill
 "
-{
-origin
-:
-"
-autofillFooter
-"
-}
 )
 ;
 break
@@ -2390,13 +2383,6 @@ address
 -
 autofill
 "
-{
-origin
-:
-"
-autofillDoorhanger
-"
-}
 )
 ;
 }

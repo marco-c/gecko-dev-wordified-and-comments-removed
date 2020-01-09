@@ -1100,13 +1100,6 @@ openPreferences
 '
 paneGeneral
 '
-{
-origin
-:
-'
-translationInfobar
-'
-}
 )
 ;
 "

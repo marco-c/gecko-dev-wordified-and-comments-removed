@@ -5693,13 +5693,6 @@ openPreferences
 "
 paneSearch
 "
-{
-origin
-:
-"
-contentSearch
-"
-}
 )
 ;
 this

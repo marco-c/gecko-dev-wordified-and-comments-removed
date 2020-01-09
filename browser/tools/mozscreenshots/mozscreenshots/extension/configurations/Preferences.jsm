@@ -484,13 +484,6 @@ browserWindow
 openPreferences
 (
 primary
-{
-origin
-:
-"
-mozscreenshots
-"
-}
 )
 ;
 await

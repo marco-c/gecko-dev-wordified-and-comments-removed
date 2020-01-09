@@ -1101,13 +1101,6 @@ privacy
 -
 reports
 "
-{
-origin
-:
-"
-aboutStudies
-"
-}
 )
 ;
 }

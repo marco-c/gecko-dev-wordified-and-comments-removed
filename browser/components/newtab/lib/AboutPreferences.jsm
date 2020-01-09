@@ -517,13 +517,6 @@ openPreferences
 "
 paneHome
 "
-{
-origin
-:
-"
-aboutHome
-"
-}
 )
 ;
 break

@@ -1930,13 +1930,6 @@ openPreferences
 "
 paneSearch
 "
-{
-origin
-:
-"
-contentSearch
-"
-}
 )
 ;
 }

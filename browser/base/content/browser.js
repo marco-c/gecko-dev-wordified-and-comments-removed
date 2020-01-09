@@ -5091,13 +5091,6 @@ privacy
 -
 sitedata
 "
-{
-origin
-:
-"
-storagePressure
-"
-}
 )
 ;
 }
@@ -35362,13 +35355,6 @@ openPreferences
 "
 panePrivacy
 "
-{
-origin
-:
-"
-offlineApps
-"
-}
 )
 ;
 }

@@ -969,13 +969,6 @@ privacy
 -
 reports
 "
-{
-origin
-:
-"
-aboutTelemetry
-"
-}
 )
 ;
 }

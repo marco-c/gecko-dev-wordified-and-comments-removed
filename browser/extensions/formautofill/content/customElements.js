@@ -796,13 +796,6 @@ form
 -
 autofill
 "
-{
-origin
-:
-"
-autofillFooter
-"
-}
 )
 ;
 }
