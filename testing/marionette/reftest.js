@@ -2486,6 +2486,16 @@ DRAWWINDOW_USE_WIDGET_LAYERS
 )
 ;
 }
+url
+=
+new
+URL
+(
+url
+)
+.
+href
+;
 logger
 .
 debug
