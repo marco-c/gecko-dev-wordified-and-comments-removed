@@ -176,6 +176,10 @@ extern
 crate
 rsdparsa_capi
 ;
+extern
+crate
+xulstore
+;
 #
 [
 cfg
