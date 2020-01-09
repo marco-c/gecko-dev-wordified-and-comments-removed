@@ -919,6 +919,10 @@ BluetoothDeviceEventHandlers
 {
 attribute
 EventHandler
+onadvertisementreceived
+;
+attribute
+EventHandler
 ongattserverdisconnected
 ;
 }
