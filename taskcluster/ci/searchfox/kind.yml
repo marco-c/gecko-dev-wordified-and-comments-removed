@@ -592,11 +592,6 @@ run
 using
 :
 mozharness
-actions
-:
-[
-build
-]
 use
 -
 caches
