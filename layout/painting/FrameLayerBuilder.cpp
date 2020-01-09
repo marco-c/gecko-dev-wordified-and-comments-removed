@@ -9296,6 +9296,7 @@ forget
 )
 ;
 }
+static
 void
 ReleaseLayerUserData
 (

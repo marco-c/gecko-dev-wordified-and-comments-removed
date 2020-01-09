@@ -5286,6 +5286,7 @@ f
 }
 }
 }
+static
 void
 FindContainingBlocks
 (
