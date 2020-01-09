@@ -564,14 +564,6 @@ ExtensionPermissions
 js
 )
 %
-content
-branding
-%
-content
-/
-branding
-/
-%
 override
 chrome
 :
