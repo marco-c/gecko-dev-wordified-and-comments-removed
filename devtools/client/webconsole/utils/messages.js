@@ -919,6 +919,11 @@ executionPoint
 message
 .
 executionPoint
+logpointId
+:
+message
+.
+logpointId
 }
 )
 ;
