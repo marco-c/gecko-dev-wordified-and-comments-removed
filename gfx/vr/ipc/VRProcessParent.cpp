@@ -371,6 +371,11 @@ DestroyProcess
 (
 )
 {
+if
+(
+mLaunchThread
+)
+{
 mLaunchThread
 -
 >
@@ -386,6 +391,7 @@ this
 )
 )
 ;
+}
 }
 void
 VRProcessParent

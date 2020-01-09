@@ -57,11 +57,6 @@ LaunchVRProcess
 (
 )
 ;
-void
-DestroyProcess
-(
-)
-;
 bool
 CreateGPUBridges
 (
@@ -130,6 +125,11 @@ OnXPCOMShutdown
 ;
 void
 CleanShutdown
+(
+)
+;
+void
+DestroyProcess
 (
 )
 ;

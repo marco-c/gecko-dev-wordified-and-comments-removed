@@ -539,11 +539,8 @@ QuickExit
 ;
 }
 mVRGPUParent
--
->
-Close
-(
-)
+=
+nullptr
 ;
 #
 if

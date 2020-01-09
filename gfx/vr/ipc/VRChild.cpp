@@ -102,10 +102,6 @@ OnChannelClosed
 (
 )
 ;
-XRE_ShutdownChildProcess
-(
-)
-;
 }
 void
 VRChild

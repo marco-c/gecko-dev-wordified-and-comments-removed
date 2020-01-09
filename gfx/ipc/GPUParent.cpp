@@ -2793,7 +2793,7 @@ VRProcessEnabled
 VRGPUChild
 :
 :
-ShutDown
+Shutdown
 (
 )
 ;
