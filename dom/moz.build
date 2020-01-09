@@ -444,6 +444,9 @@ localstorage
 '
 prio
 '
+'
+l10n
+'
 ]
 if
 CONFIG

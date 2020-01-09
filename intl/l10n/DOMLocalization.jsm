@@ -2901,6 +2901,14 @@ null
 ;
 }
 }
+DOMLocalization
+.
+DOMOverlays
+=
+{
+translateElement
+}
+;
 var
 getDOMLocalization
 =
