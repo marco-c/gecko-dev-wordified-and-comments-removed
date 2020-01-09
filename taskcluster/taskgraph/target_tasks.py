@@ -3238,7 +3238,7 @@ t
 )
 ]
 def
-make_nightly_filter
+make_desktop_nightly_filter
 (
 platforms
 )
@@ -3300,6 +3300,24 @@ nightly
 '
 False
 )
+            
+task
+.
+attributes
+.
+get
+(
+'
+shipping_product
+'
+)
+in
+{
+None
+"
+firefox
+"
+}
         
 ]
 )
@@ -3363,7 +3381,7 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
 '
@@ -3457,7 +3475,7 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
 '
@@ -3548,7 +3566,7 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
 '
@@ -3639,7 +3657,7 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
 '
@@ -3730,7 +3748,7 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
 '
@@ -3821,9 +3839,10 @@ balrog
     
 filter
 =
-make_nightly_filter
+make_desktop_nightly_filter
 (
 {
+        
 '
 linux64
 -
@@ -3833,6 +3852,7 @@ reporter
 -
 nightly
 '
+        
 '
 win64
 -
@@ -3842,6 +3862,7 @@ reporter
 -
 nightly
 '
+    
 }
 )
     
@@ -3903,6 +3924,41 @@ windows
 "
 "
 "
+    
+release_filter
+=
+make_desktop_nightly_filter
+(
+{
+None
+}
+)
+    
+release_tasks
+=
+[
+        
+l
+for
+l
+t
+in
+full_task_graph
+.
+tasks
+.
+iteritems
+(
+)
+        
+if
+release_filter
+(
+t
+parameters
+)
+    
+]
     
 return
 list
@@ -3971,6 +4027,12 @@ full_task_graph
 parameters
 graph_config
 )
+)
+        
+|
+set
+(
+release_tasks
 )
     
 )
