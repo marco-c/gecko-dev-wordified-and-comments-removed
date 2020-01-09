@@ -2555,6 +2555,15 @@ UpdateGlass
 (
 )
 ;
+bool
+WithinDraggableRegion
+(
+int32_t
+clientX
+int32_t
+clientY
+)
+;
 protected
 :
 #
@@ -2812,6 +2821,9 @@ bool
 mMousePresent
 ;
 bool
+mMouseInDraggableArea
+;
+bool
 mDestroyCalled
 ;
 bool
@@ -3051,6 +3063,9 @@ mIsChildWindow
 :
 1
 ;
+bool
+mCachedHitTestResult
+;
 TimeStamp
 mLastPaintEndTime
 ;
@@ -3068,9 +3083,6 @@ mCachedHitTestPoint
 ;
 TimeStamp
 mCachedHitTestTime
-;
-int32_t
-mCachedHitTestResult
 ;
 RefPtr
 <
