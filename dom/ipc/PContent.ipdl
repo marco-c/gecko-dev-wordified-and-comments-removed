@@ -1351,6 +1351,11 @@ JSWindowActorEventDecl
 ]
 events
 ;
+nsCString
+[
+]
+observers
+;
 }
 ;
 struct
