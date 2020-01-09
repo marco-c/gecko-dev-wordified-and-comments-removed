@@ -2590,6 +2590,17 @@ options
 .
 suite
         
+prefs
+[
+'
+gfx
+.
+font_ahem_antialias_none
+'
+]
+=
+True
+        
 if
 tests
 :
