@@ -1187,6 +1187,9 @@ crypt32
 shell32
 '
 '
+ntdll
+'
+'
 ole32
 '
 '
