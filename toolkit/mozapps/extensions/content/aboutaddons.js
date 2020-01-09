@@ -3803,6 +3803,12 @@ setAddon
 addon
 )
 ;
+card
+.
+render
+(
+)
+;
 section
 .
 appendChild
@@ -3816,6 +3822,7 @@ return
 section
 ;
 }
+async
 render
 (
 sectionedAddons
@@ -3890,6 +3897,16 @@ node
 )
 ;
 }
+await
+document
+.
+l10n
+.
+translateFragment
+(
+frag
+)
+;
 this
 .
 appendChild
