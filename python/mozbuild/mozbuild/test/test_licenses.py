@@ -85,6 +85,8 @@ VendorRust
 runtime_license
 (
 '
+'
+'
 Apache
 -
 2
@@ -104,6 +106,8 @@ VendorRust
 runtime_license
 (
 '
+'
+'
 MIT
 '
 )
@@ -119,6 +123,8 @@ VendorRust
 runtime_license
 (
 '
+'
+'
 GPL
 '
 )
@@ -133,6 +139,8 @@ VendorRust
 .
 runtime_license
 (
+'
+'
 '
 MIT
 /
@@ -150,6 +158,8 @@ VendorRust
 .
 runtime_license
 (
+'
+'
 '
 GPL
 /
@@ -168,6 +178,8 @@ VendorRust
 runtime_license
 (
 '
+'
+'
 GPL
 AND
 MIT
@@ -184,6 +196,8 @@ VendorRust
 .
 runtime_license
 (
+'
+'
 '
 ISC
 \
@@ -204,6 +218,8 @@ VendorRust
 runtime_license
 (
 '
+'
+'
 GPL
 OR
 MIT
@@ -220,6 +236,8 @@ VendorRust
 .
 runtime_license
 (
+'
+'
 '
 ALLIGATOR
 MIT
