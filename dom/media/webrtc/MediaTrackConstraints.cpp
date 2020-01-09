@@ -3058,6 +3058,12 @@ aDeviceId
 NS_LITERAL_STRING
 (
 "
+GroupID
+"
+)
+NS_LITERAL_STRING
+(
+"
 "
 )
 )

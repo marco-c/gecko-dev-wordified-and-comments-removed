@@ -329,7 +329,6 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIMEDIADEVICE
-explicit
 MediaDevice
 (
 const
@@ -350,10 +349,13 @@ aID
 const
 nsString
 &
+aGroupID
+const
+nsString
+&
 aRawID
 )
 ;
-explicit
 MediaDevice
 (
 const
@@ -370,6 +372,10 @@ aID
 const
 nsString
 &
+aGroupID
+const
+nsString
+&
 aRawID
 =
 NS_LITERAL_STRING
@@ -379,7 +385,6 @@ NS_LITERAL_STRING
 )
 )
 ;
-explicit
 MediaDevice
 (
 const
@@ -393,6 +398,10 @@ const
 nsString
 &
 aID
+const
+nsString
+&
+aGroupID
 const
 nsString
 &
@@ -649,6 +658,10 @@ mName
 const
 nsString
 mID
+;
+const
+nsString
+mGroupID
 ;
 const
 nsString

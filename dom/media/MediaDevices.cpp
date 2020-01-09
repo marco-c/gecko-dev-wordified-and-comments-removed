@@ -717,6 +717,10 @@ device
 >
 mKind
 label
+device
+-
+>
+mGroupID
 )
 )
 ;
