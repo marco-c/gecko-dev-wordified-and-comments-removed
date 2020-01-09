@@ -601,7 +601,7 @@ get
 ;
 }
 class
-LocalAllocPolicy
+SingleAllocPolicy
 :
 :
 AutoDeallocCombinedToken
@@ -617,7 +617,7 @@ already_AddRefed
 <
 Token
 >
-aLocalAllocPolicyToken
+aSingleAllocPolicyToken
 already_AddRefed
 <
 Token
@@ -625,9 +625,9 @@ Token
 aGlobalAllocPolicyToken
 )
 :
-mLocalToken
+mSingleToken
 (
-aLocalAllocPolicyToken
+aSingleAllocPolicyToken
 )
 mGlobalToken
 (
@@ -649,7 +649,7 @@ RefPtr
 <
 Token
 >
-mLocalToken
+mSingleToken
 ;
 const
 RefPtr
@@ -661,7 +661,7 @@ mGlobalToken
 }
 ;
 auto
-LocalAllocPolicy
+SingleAllocPolicy
 :
 :
 Alloc
@@ -701,7 +701,7 @@ time
 ;
 RefPtr
 <
-LocalAllocPolicy
+SingleAllocPolicy
 >
 self
 =
@@ -907,11 +907,11 @@ __func__
 )
 ;
 }
-LocalAllocPolicy
+SingleAllocPolicy
 :
 :
 ~
-LocalAllocPolicy
+SingleAllocPolicy
 (
 )
 {
@@ -931,7 +931,7 @@ DisconnectIfExists
 ;
 }
 void
-LocalAllocPolicy
+SingleAllocPolicy
 :
 :
 Cancel

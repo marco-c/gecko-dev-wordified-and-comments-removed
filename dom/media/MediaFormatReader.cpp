@@ -1604,7 +1604,7 @@ aTrack
 mPolicy
 (
 new
-LocalAllocPolicy
+SingleAllocPolicy
 (
 aTrack
 aThread
@@ -1622,7 +1622,7 @@ mTrack
 ;
 RefPtr
 <
-LocalAllocPolicy
+SingleAllocPolicy
 >
 mPolicy
 ;
