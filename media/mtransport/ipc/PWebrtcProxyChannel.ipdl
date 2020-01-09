@@ -119,6 +119,10 @@ protocol
 PNecko
 ;
 include
+protocol
+PSocketProcess
+;
+include
 NeckoChannelParams
 ;
 namespace
@@ -133,6 +137,8 @@ PWebrtcProxyChannel
 {
 manager
 PNecko
+or
+PSocketProcess
 ;
 parent
 :
