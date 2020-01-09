@@ -130,6 +130,13 @@ nsSVGFeatures
 .
 h
 '
+]
+EXPORTS
+.
+mozilla
++
+=
+[
 '
 SVGAttrValueWrapper
 .
