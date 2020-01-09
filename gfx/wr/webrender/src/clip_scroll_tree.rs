@@ -2514,8 +2514,6 @@ TransformStyle
 :
 :
 Preserve3D
-Some
-(
 PropertyBinding
 :
 :
@@ -2523,8 +2521,10 @@ Value
 (
 transform
 )
-)
-None
+ReferenceFrameKind
+:
+:
+Perspective
 origin_in_parent_reference_frame
 PipelineId
 :
