@@ -2392,18 +2392,6 @@ undefined
 )
 )
     
-skip_if_mobile
-(
-"
-Intermittent
-on
-Android
--
-bug
-1334035
-"
-)
-    
 def
 test_window_set_timeout_is_not_cancelled
 (
