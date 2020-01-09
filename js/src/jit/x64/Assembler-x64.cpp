@@ -179,6 +179,12 @@ MIRType
 :
 Pointer
 :
+case
+MIRType
+:
+:
+RefOrNull
+:
 current_
 =
 ABIArg
@@ -336,6 +342,12 @@ MIRType
 :
 :
 Pointer
+:
+case
+MIRType
+:
+:
+RefOrNull
 :
 if
 (

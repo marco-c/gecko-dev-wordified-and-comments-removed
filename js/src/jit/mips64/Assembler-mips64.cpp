@@ -90,6 +90,12 @@ MIRType
 :
 Pointer
 :
+case
+MIRType
+:
+:
+RefOrNull
+:
 {
 Register
 destReg

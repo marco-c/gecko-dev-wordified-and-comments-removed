@@ -4045,7 +4045,7 @@ jit
 MIRType
 :
 :
-Pointer
+RefOrNull
 :
 vp
 .

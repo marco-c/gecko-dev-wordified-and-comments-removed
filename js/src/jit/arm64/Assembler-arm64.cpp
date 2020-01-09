@@ -180,6 +180,12 @@ MIRType
 :
 Pointer
 :
+case
+MIRType
+:
+:
+RefOrNull
+:
 if
 (
 intRegIndex_
