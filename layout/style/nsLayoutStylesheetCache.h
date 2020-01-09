@@ -260,6 +260,13 @@ nsIURI
 aURI
 )
 ;
+static
+nsIURI
+*
+GetUserContentCSSURL
+(
+)
+;
 size_t
 SizeOfIncludingThis
 (
