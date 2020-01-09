@@ -451,6 +451,11 @@ RawServoSelectorList
 )
 SERVO_BOXED_TYPE
 (
+SharedMemoryBuilder
+RawServoSharedMemoryBuilder
+)
+SERVO_BOXED_TYPE
+(
 SourceSizeList
 RawServoSourceSizeList
 )
