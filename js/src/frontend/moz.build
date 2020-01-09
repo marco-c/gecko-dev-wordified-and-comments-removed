@@ -267,6 +267,11 @@ ForOfLoopControl
 cpp
 '
 '
+FunctionEmitter
+.
+cpp
+'
+'
 IfEmitter
 .
 cpp
