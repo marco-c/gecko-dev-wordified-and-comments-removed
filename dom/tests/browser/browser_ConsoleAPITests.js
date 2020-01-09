@@ -420,10 +420,10 @@ toString
 .
 join
 (
-'
+"
 \
 n
-'
+"
 )
 ;
 return

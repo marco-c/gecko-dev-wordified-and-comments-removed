@@ -27,10 +27,10 @@ e
 var
 workerResult
 =
-'
+"
 Result
 :
-'
+"
 +
 (
 e
@@ -61,4 +61,6 @@ data
 )
 ;
 }
+;
 }
+;

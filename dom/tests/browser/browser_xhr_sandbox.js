@@ -131,8 +131,6 @@ postMessage
 (
 {
 result
-:
-result
 }
 "
 *

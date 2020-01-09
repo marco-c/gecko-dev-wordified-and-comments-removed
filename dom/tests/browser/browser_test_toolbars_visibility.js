@@ -150,6 +150,7 @@ locationbar
 .
 visible
 }
+;
 }
 function
 testDefaultToolbars

@@ -86,8 +86,6 @@ nsIObserver
 ]
 )
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -121,9 +119,9 @@ arguments
 ]
 !
 =
-'
+"
 bug1004814
-'
+"
 |
 |
 obj
@@ -131,9 +129,9 @@ obj
 level
 !
 =
-'
+"
 timeEnd
-'
+"
 )
 {
 return

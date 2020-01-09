@@ -112,6 +112,7 @@ depth
 .
 "
 )
+;
 }
 return
 controlFrameAt
@@ -213,6 +214,7 @@ depth
 .
 "
 )
+;
 }
 return
 controlFrameAt

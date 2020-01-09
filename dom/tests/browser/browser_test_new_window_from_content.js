@@ -500,6 +500,7 @@ of
 +
 aExpectation
 )
+;
 return
 ;
 }

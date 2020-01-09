@@ -53,9 +53,9 @@ open
 (
 undefined
 undefined
-'
+"
 noopener
-'
+"
 )
 "
 window

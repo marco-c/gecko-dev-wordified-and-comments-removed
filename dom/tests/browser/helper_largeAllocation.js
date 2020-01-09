@@ -667,9 +667,9 @@ body
 .
 querySelector
 (
-'
+"
 iframe
-'
+"
 )
 .
 onload
@@ -817,7 +817,7 @@ body
 .
 innerHTML
 =
-'
+"
 <
 button
 >
@@ -827,7 +827,7 @@ ME
 /
 button
 >
-'
+"
 ;
 return
 new
@@ -843,9 +843,9 @@ document
 .
 querySelector
 (
-'
+"
 button
-'
+"
 )
 .
 onclick
@@ -864,9 +864,9 @@ window
 open
 (
 TEST_URI
-'
+"
 _blank
-'
+"
 )
 ;
 w

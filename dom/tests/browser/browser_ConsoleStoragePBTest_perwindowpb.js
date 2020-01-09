@@ -166,8 +166,6 @@ consoleObserver
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -384,7 +382,6 @@ aWin
 )
 ;
 }
-;
 registerCleanupFunction
 (
 function

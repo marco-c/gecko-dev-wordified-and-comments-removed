@@ -9,9 +9,9 @@ console
 .
 time
 (
-'
+"
 bug1004814
-'
+"
 )
 ;
 setTimeout
@@ -24,9 +24,9 @@ console
 .
 timeEnd
 (
-'
+"
 bug1004814
-'
+"
 )
 ;
 }
@@ -34,3 +34,4 @@ bug1004814
 )
 ;
 }
+;
