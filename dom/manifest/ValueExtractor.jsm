@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 const
 {
@@ -110,9 +110,9 @@ type
 isArray
 )
 ?
-'
+"
 array
-'
+"
 :
 typeof
 value
@@ -132,9 +132,9 @@ type
 !
 =
 =
-'
+"
 undefined
-'
+"
 )
 {
 this
@@ -173,9 +173,9 @@ expectedType
 =
 =
 =
-'
+"
 string
-'
+"
 &
 &
 value
@@ -278,8 +278,8 @@ var
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 ValueExtractor
-'
+"
 ]
 ;
