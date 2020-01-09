@@ -9502,7 +9502,7 @@ be
 provided
 "
 "
-TypeError
+InvalidParameterError
 "
 )
 ;
