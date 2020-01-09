@@ -9959,8 +9959,6 @@ SetSMILOverrideStyleDeclaration
 DeclarationBlock
 *
 aDeclaration
-bool
-aNotify
 )
 {
 Element
@@ -9981,11 +9979,6 @@ mSMILOverrideStyleDeclaration
 =
 aDeclaration
 ;
-if
-(
-aNotify
-)
-{
 Document
 *
 doc
@@ -10026,7 +10019,6 @@ this
 eRestyle_StyleAttribute_Animations
 )
 ;
-}
 }
 }
 return

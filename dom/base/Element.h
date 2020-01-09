@@ -959,8 +959,6 @@ SetSMILOverrideStyleDeclaration
 DeclarationBlock
 *
 aDeclaration
-bool
-aNotify
 )
 ;
 virtual
