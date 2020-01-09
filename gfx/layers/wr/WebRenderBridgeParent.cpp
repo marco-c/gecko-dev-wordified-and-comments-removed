@@ -6609,9 +6609,6 @@ RenderRootArray
 bool
 >
 scheduleComposite
-(
-false
-)
 ;
 UpdateAPZFocusState
 (

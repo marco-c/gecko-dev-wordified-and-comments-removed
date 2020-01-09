@@ -199,10 +199,6 @@ mWebRenderCommandBuilder
 (
 this
 )
-mLastDisplayListSizes
-{
-0
-}
 {
 MOZ_COUNT_CTOR
 (
