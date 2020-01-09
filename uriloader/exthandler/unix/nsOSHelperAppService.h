@@ -43,10 +43,6 @@ nsExternalHelperAppService
 {
 public
 :
-nsOSHelperAppService
-(
-)
-;
 virtual
 ~
 nsOSHelperAppService
@@ -159,9 +155,6 @@ aFileExt
 ;
 private
 :
-uint32_t
-mPermissions
-;
 static
 nsresult
 UnescapeCommand
