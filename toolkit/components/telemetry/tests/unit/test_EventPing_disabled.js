@@ -147,13 +147,13 @@ jsm
 )
 ;
 const
-OPTIN
+PRERELEASE_CHANNELS
 =
 Ci
 .
 nsITelemetry
 .
-DATASET_RELEASE_CHANNEL_OPTIN
+DATASET_PRERELEASE_CHANNELS
 ;
 add_task
 (
@@ -247,7 +247,7 @@ Telemetry
 .
 snapshotEvents
 (
-OPTIN
+PRERELEASE_CHANNELS
 true
 )
 ;

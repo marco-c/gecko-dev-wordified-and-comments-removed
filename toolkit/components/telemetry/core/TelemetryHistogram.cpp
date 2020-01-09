@@ -14389,7 +14389,7 @@ main
 nsITelemetry
 :
 :
-DATASET_RELEASE_CHANNEL_OPTIN
+DATASET_PRERELEASE_CHANNELS
 false
 includeGPUProcess
 false
@@ -14572,7 +14572,7 @@ main
 nsITelemetry
 :
 :
-DATASET_RELEASE_CHANNEL_OPTIN
+DATASET_PRERELEASE_CHANNELS
 false
 includeGPUProcess
 false

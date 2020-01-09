@@ -2414,7 +2414,7 @@ in
 '
 :
 '
-OPTIN
+DATASET_PRERELEASE_CHANNELS
 '
             
 '
@@ -2424,7 +2424,7 @@ out
 '
 :
 '
-OPTOUT
+DATASET_ALL_CHANNELS
 '
         
 }
@@ -2434,7 +2434,6 @@ return
 nsITelemetry
 :
 :
-DATASET_RELEASE_CHANNEL_
 '
 +
 table

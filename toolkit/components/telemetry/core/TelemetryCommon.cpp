@@ -155,7 +155,7 @@ aContainingDataset
 nsITelemetry
 :
 :
-DATASET_RELEASE_CHANNEL_OPTIN
+DATASET_PRERELEASE_CHANNELS
 &
 &
 aDataset
@@ -164,7 +164,7 @@ aDataset
 nsITelemetry
 :
 :
-DATASET_RELEASE_CHANNEL_OPTOUT
+DATASET_ALL_CHANNELS
 )
 {
 return
@@ -206,7 +206,7 @@ aDataset
 nsITelemetry
 :
 :
-DATASET_RELEASE_CHANNEL_OPTOUT
+DATASET_ALL_CHANNELS
 )
 )
 {
