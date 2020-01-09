@@ -136,7 +136,6 @@ Clear
 }
 #
 endif
-virtual
 nsRect
 GetBounds
 (
@@ -174,7 +173,6 @@ ToReferenceFrame
 )
 ;
 }
-virtual
 bool
 CreateWebRenderCommands
 (
@@ -215,7 +213,6 @@ aDisplayListBuilder
 )
 override
 ;
-virtual
 void
 Paint
 (
