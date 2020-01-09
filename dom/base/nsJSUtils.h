@@ -502,6 +502,12 @@ GetScript
 (
 )
 ;
+JSScript
+*
+MaybeGetScript
+(
+)
+;
 MOZ_MUST_USE
 nsresult
 ExecScript
