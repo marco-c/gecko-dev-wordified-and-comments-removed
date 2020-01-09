@@ -827,6 +827,7 @@ source
 }
 )
 )
+;
 return
 addSources
 (
@@ -1107,6 +1108,7 @@ thread
 =
 {
 }
+;
 }
 state
 .
