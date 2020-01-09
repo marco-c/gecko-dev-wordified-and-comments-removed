@@ -591,6 +591,8 @@ void
 calloc_
 (
 size_t
+aCount
+size_t
 aSize
 )
 {
@@ -5141,7 +5143,6 @@ InfallibleAllocPolicy
 calloc_
 (
 aCount
-*
 aSize
 )
 ;
