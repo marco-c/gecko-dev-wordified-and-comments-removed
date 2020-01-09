@@ -287,10 +287,12 @@ important
 }
 textbox
 [
-type
+is
 =
 "
 search
+-
+textbox
 "
 ]
 {

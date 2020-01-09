@@ -445,10 +445,12 @@ id
 "
 searchBox
 "
-type
+is
 =
 "
 search
+-
+textbox
 "
 flex
 =

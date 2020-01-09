@@ -249,14 +249,10 @@ selectPopup
 querySelector
 (
 "
-textbox
-[
-type
-=
-'
-search
-'
-]
+.
+contentSelectDropdown
+-
+searchbox
 "
 )
 ;
@@ -277,6 +273,7 @@ searchInput
 "
 focus
 "
+true
 )
 ;
 await

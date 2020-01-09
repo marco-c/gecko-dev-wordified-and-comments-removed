@@ -5397,7 +5397,10 @@ selectPopup
 querySelector
 (
 "
-textbox
+.
+contentSelectDropdown
+-
+searchbox
 "
 )
 ;

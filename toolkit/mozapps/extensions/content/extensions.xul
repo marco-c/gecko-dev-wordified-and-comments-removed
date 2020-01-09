@@ -2445,10 +2445,12 @@ header
 -
 search
 "
-type
+is
 =
 "
 search
+-
+textbox
 "
 searchbutton
 =

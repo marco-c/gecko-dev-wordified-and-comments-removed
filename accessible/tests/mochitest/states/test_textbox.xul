@@ -1104,10 +1104,12 @@ flex
 "
 1
 "
-type
+is
 =
 "
 search
+-
+textbox
 "
 results
 =
@@ -1132,10 +1134,12 @@ add
 -
 ons
 "
-type
+is
 =
 "
 search
+-
+textbox
 "
 searchbutton
 =
