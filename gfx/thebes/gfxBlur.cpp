@@ -2412,6 +2412,7 @@ return
 minSize
 ;
 }
+static
 void
 CacheBlur
 (

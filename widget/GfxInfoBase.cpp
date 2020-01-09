@@ -419,6 +419,7 @@ NS_IMPL_ISUPPORTS
 ShutdownObserver
 nsIObserver
 )
+static
 void
 InitGfxDriverInfoShutdownObserver
 (
