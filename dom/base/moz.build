@@ -162,11 +162,6 @@ nsIDroppedLinkHandler
 idl
 '
 '
-nsIFrameLoaderOwner
-.
-idl
-'
-'
 nsIImageLoadingContent
 .
 idl
