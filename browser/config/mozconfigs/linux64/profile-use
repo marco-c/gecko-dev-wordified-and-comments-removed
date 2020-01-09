@@ -60,7 +60,3 @@ builds
 worker
 /
 fetches
-/
-default
-.
-profraw

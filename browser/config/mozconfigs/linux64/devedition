@@ -93,10 +93,6 @@ builds
 worker
 /
 fetches
-/
-default
-.
-profraw
 #
 Enable
 MOZ_ALLOW_LEGACY_EXTENSIONS
