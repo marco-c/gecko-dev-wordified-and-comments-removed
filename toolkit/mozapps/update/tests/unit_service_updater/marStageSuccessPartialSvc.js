@@ -33,7 +33,7 @@ gTestFiles
 .
 length
 -
-2
+1
 ]
 .
 originalContents
@@ -46,7 +46,7 @@ gTestFiles
 .
 length
 -
-2
+1
 ]
 .
 compareContents
@@ -63,7 +63,7 @@ gTestFiles
 .
 length
 -
-2
+1
 ]
 .
 comparePerms

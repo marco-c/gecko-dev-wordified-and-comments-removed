@@ -589,13 +589,6 @@ simple
 mar
 '
 '
-data
-/
-wrong_product_channel
-.
-mar
-'
-'
 TestAUSReadStrings1
 .
 ini
