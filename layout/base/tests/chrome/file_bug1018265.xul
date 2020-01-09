@@ -234,7 +234,10 @@ true
 ;
 setTimeout
 (
-"
+function
+(
+)
+{
 testcontent
 .
 contentWindow
@@ -245,7 +248,7 @@ back
 (
 )
 ;
-"
+}
 0
 )
 ;
