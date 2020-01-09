@@ -345,7 +345,12 @@ msgTotalSize
 IPC
 :
 :
-MAX_MESSAGE_SIZE
+Channel
+:
+:
+kMaximumMessageSize
+/
+2
 )
 {
 return
