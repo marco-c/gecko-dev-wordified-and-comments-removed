@@ -2031,9 +2031,10 @@ nsIContent
 *
 *
 aTargetNode
-nsACString
-&
-aPrincipalURISpec
+nsIPrincipal
+*
+*
+aPrincipal
 )
 ;
 bool
@@ -2060,10 +2061,9 @@ dom
 Selection
 *
 aSelection
-const
-nsACString
-&
-aPrincipalURISpec
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 bool

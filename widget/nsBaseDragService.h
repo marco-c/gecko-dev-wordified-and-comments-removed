@@ -403,8 +403,11 @@ nsINode
 >
 mSourceNode
 ;
-nsCString
-mTriggeringPrincipalURISpec
+nsCOMPtr
+<
+nsIPrincipal
+>
+mTriggeringPrincipal
 ;
 RefPtr
 <

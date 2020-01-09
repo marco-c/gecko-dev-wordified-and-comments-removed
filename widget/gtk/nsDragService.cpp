@@ -1280,10 +1280,9 @@ InvokeDragSession
 nsINode
 *
 aDOMNode
-const
-nsACString
-&
-aPrincipalURISpec
+nsIPrincipal
+*
+aPrincipal
 nsIArray
 *
 aArrayTransferables
@@ -1329,7 +1328,7 @@ nsBaseDragService
 InvokeDragSession
 (
 aDOMNode
-aPrincipalURISpec
+aPrincipal
 aArrayTransferables
 aActionType
 aContentPolicyType

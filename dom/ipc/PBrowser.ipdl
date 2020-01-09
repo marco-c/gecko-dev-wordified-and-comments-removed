@@ -3776,8 +3776,8 @@ SurfaceFormat
 format
 LayoutDeviceIntRect
 dragRect
-nsCString
-principalURISpec
+Principal
+principal
 )
 ;
 /
@@ -4514,8 +4514,8 @@ uint32_t
 aDragAction
 uint32_t
 aDropEffect
-nsCString
-aPrincipalURISpec
+Principal
+aPrincipal
 )
 ;
 async

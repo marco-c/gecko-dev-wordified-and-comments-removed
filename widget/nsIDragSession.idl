@@ -347,10 +347,6 @@ sourceNode
 *
 *
 *
-The
-URI
-spec
-of
 the
 triggering
 principal
@@ -360,10 +356,10 @@ may
 be
 different
 than
-*
 sourceNode
 '
 s
+*
 principal
 when
 sourceNode
@@ -387,8 +383,8 @@ it
 *
 /
 attribute
-AUTF8String
-triggeringPrincipalURISpec
+nsIPrincipal
+triggeringPrincipal
 ;
 /
 *
