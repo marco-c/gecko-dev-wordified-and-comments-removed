@@ -206,16 +206,9 @@ template
 let
 frag
 =
-MozXULElement
-.
-parseXULToFragment
-(
 template
 .
-firstChild
-.
-data
-)
+content
 ;
 await
 document
