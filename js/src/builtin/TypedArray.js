@@ -5248,7 +5248,7 @@ O
 |
 |
 !
-IsTypedArray
+IsPossiblyWrappedTypedArray
 (
 O
 )
