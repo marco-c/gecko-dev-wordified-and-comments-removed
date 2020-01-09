@@ -536,7 +536,9 @@ obs
 .
 notifyObservers
 (
-null
+this
+.
+lwtData
 "
 lightweight
 -
@@ -546,14 +548,6 @@ styling
 -
 update
 "
-JSON
-.
-stringify
-(
-this
-.
-lwtData
-)
 )
 ;
 }
@@ -1863,7 +1857,7 @@ obs
 .
 notifyObservers
 (
-null
+lwtData
 "
 lightweight
 -
@@ -1873,12 +1867,6 @@ styling
 -
 update
 "
-JSON
-.
-stringify
-(
-lwtData
-)
 )
 ;
 }

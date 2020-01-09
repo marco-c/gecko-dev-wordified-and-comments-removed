@@ -105,7 +105,14 @@ updates
 .
 push
 (
-data
+JSON
+.
+stringify
+(
+subject
+.
+wrappedJSObject
+)
 )
 ;
 }
