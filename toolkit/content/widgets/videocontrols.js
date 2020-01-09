@@ -1358,6 +1358,11 @@ pipToggleEnabled
 this
 .
 isShowingPictureInPictureMessage
+|
+|
+this
+.
+isAudioOnly
 )
 {
 this
