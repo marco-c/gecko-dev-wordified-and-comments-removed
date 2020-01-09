@@ -2468,7 +2468,7 @@ mut
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 ;
 pub
 fn
@@ -2481,7 +2481,7 @@ mut
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 id
 :
 jsid
@@ -2501,7 +2501,7 @@ const
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 length
 :
 *
@@ -2525,7 +2525,7 @@ mut
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 )
 ;
 pub
@@ -2539,7 +2539,7 @@ mut
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 )
 -
 >
@@ -2565,7 +2565,7 @@ mut
 JS
 :
 :
-RootedObjectVector
+PersistentRootedObjectVector
 ;
 pub
 fn
@@ -2578,7 +2578,7 @@ mut
 JS
 :
 :
-RootedObjectVector
+PersistentRootedObjectVector
 obj
 :
 *
@@ -2600,7 +2600,7 @@ mut
 JS
 :
 :
-RootedObjectVector
+PersistentRootedObjectVector
 )
 ;
 pub

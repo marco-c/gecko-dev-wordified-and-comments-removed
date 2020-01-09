@@ -3912,7 +3912,7 @@ stopAtOuter
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 *
 CreateRootedIdVector
 (
@@ -3926,7 +3926,7 @@ new
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 (
 cx
 )
@@ -3938,7 +3938,7 @@ AppendToRootedIdVector
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 *
 v
 jsid
@@ -3964,7 +3964,7 @@ const
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 *
 v
 size_t
@@ -3997,7 +3997,7 @@ DestroyRootedIdVector
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 *
 v
 )
@@ -4015,7 +4015,7 @@ GetMutableHandleIdVector
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 *
 v
 )
@@ -4033,7 +4033,7 @@ v
 JS
 :
 :
-RootedObjectVector
+PersistentRootedObjectVector
 *
 CreateRootedObjectVector
 (
@@ -4045,7 +4045,7 @@ aCx
 JS
 :
 :
-RootedObjectVector
+PersistentRootedObjectVector
 *
 vec
 =
@@ -4053,7 +4053,7 @@ new
 JS
 :
 :
-RootedObjectVector
+PersistentRootedObjectVector
 (
 aCx
 )
@@ -4068,7 +4068,7 @@ AppendToRootedObjectVector
 JS
 :
 :
-RootedObjectVector
+PersistentRootedObjectVector
 *
 v
 JSObject
@@ -4092,7 +4092,7 @@ DeleteRootedObjectVector
 JS
 :
 :
-RootedObjectVector
+PersistentRootedObjectVector
 *
 v
 )

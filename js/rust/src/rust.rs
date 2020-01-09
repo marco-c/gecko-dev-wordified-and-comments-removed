@@ -4515,7 +4515,7 @@ mut
 JS
 :
 :
-RootedObjectVector
+PersistentRootedObjectVector
 }
 impl
 RootedObjectVectorWrapper
@@ -5623,7 +5623,7 @@ mut
 JS
 :
 :
-RootedIdVector
+PersistentRootedIdVector
 }
 impl
 RootedIdVectorWrapper
