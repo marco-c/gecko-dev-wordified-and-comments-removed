@@ -3899,8 +3899,8 @@ SystemAllocPolicy
 >
 unmarkGrayStack
 ;
-HeapUsage
-usage
+HeapSize
+heapSize
 ;
 GCSchedulingTunables
 tunables

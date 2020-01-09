@@ -2291,8 +2291,8 @@ js
 gc
 :
 :
-HeapUsage
-usage
+HeapSize
+zoneSize
 ;
 js
 :

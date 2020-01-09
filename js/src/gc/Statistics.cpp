@@ -5953,7 +5953,7 @@ runtime
 >
 gc
 .
-usage
+heapSize
 .
 gcBytes
 (

@@ -2215,7 +2215,7 @@ runtime
 >
 gc
 .
-usage
+heapSize
 .
 gcBytes
 (
@@ -2315,7 +2315,7 @@ runtime
 >
 gc
 .
-usage
+heapSize
 .
 gcBytes
 (

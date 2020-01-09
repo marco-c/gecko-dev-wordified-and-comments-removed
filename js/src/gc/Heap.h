@@ -3608,9 +3608,9 @@ offset
 )
 ;
 class
-HeapUsage
+HeapSize
 {
-HeapUsage
+HeapSize
 *
 const
 parent_
@@ -3641,9 +3641,9 @@ gcBytes_
 public
 :
 explicit
-HeapUsage
+HeapSize
 (
-HeapUsage
+HeapSize
 *
 parent
 )
@@ -3727,7 +3727,7 @@ removeGCArena
 void
 adopt
 (
-HeapUsage
+HeapSize
 &
 other
 )

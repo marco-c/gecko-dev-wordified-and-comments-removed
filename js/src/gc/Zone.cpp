@@ -301,7 +301,7 @@ purgeAtomsDeferred
 this
 0
 )
-usage
+zoneSize
 (
 &
 rt
@@ -309,7 +309,7 @@ rt
 >
 gc
 .
-usage
+heapSize
 )
 threshold
 (

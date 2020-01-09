@@ -4008,7 +4008,7 @@ arena
 zone
 -
 >
-usage
+zoneSize
 .
 removeGCArena
 (
@@ -4060,7 +4060,7 @@ marker
 (
 rt
 )
-usage
+heapSize
 (
 nullptr
 )
@@ -6826,7 +6826,7 @@ updateAfterGC
 zone
 -
 >
-usage
+zoneSize
 .
 gcBytes
 (
@@ -7878,7 +7878,7 @@ updateAfterGC
 zone
 -
 >
-usage
+zoneSize
 .
 gcBytes
 (
@@ -8199,7 +8199,7 @@ JSGC_BYTES
 return
 uint32_t
 (
-usage
+heapSize
 .
 gcBytes
 (
@@ -16246,7 +16246,7 @@ usedBytes
 zone
 -
 >
-usage
+zoneSize
 .
 gcBytes
 (
@@ -16670,7 +16670,7 @@ usedBytes
 zone
 -
 >
-usage
+zoneSize
 .
 gcBytes
 (
@@ -29293,7 +29293,7 @@ updateAfterGC
 zone
 -
 >
-usage
+zoneSize
 .
 gcBytes
 (
@@ -36710,7 +36710,7 @@ if
 zone
 -
 >
-usage
+zoneSize
 .
 gcBytes
 (
@@ -37051,7 +37051,7 @@ if
 zone
 -
 >
-usage
+zoneSize
 .
 gcBytes
 (
@@ -41365,7 +41365,7 @@ zone
 )
 -
 >
-usage
+zoneSize
 .
 adopt
 (
@@ -41377,7 +41377,7 @@ zone
 )
 -
 >
-usage
+zoneSize
 )
 ;
 target
@@ -45226,7 +45226,7 @@ runtime
 >
 gc
 .
-usage
+heapSize
 .
 gcBytes
 (
@@ -45651,7 +45651,7 @@ zone
 )
 -
 >
-usage
+zoneSize
 .
 gcBytes
 (

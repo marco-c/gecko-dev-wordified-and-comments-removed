@@ -4652,7 +4652,7 @@ rt
 >
 gc
 .
-usage
+heapSize
 .
 gcBytes
 (
