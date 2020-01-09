@@ -2145,7 +2145,7 @@ this
 _createElement
 (
 "
-div
+span
 "
 )
 ;
