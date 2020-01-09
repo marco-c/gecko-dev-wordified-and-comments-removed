@@ -44,7 +44,6 @@ breakpoints
 ;
 import
 {
-setPausePoints
 setSymbols
 }
 from
@@ -649,17 +648,6 @@ dispatch
 (
 mapFrames
 (
-)
-)
-;
-await
-dispatch
-(
-setPausePoints
-(
-newPrettySource
-.
-id
 )
 )
 ;

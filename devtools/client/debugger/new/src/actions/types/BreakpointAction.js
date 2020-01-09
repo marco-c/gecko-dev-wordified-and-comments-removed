@@ -4,7 +4,7 @@ type
 Breakpoint
 SourceLocation
 XHRBreakpoint
-BreakpointLinePositions
+BreakpointPositions
 }
 from
 "
@@ -359,7 +359,7 @@ ADD_BREAKPOINT_POSITIONS
 "
 positions
 :
-BreakpointLinePositions
+BreakpointPositions
 location
 :
 SourceLocation

@@ -45,6 +45,7 @@ location
 sourceId
 :
 "
+foo
 "
 line
 column
@@ -55,6 +56,7 @@ generatedLocation
 sourceId
 :
 "
+foo
 "
 line
 column
@@ -196,13 +198,6 @@ bp
 ]
 ;
 const
-selectedSource
-=
-defaultSource
-(
-)
-;
-const
 columnBps
 =
 getColumnBreakpoints
@@ -210,7 +205,6 @@ getColumnBreakpoints
 pausePoints
 breakpoints
 viewport
-selectedSource
 )
 ;
 expect
@@ -296,13 +290,6 @@ bp
 ]
 ;
 const
-selectedSource
-=
-defaultSource
-(
-)
-;
-const
 columnBps
 =
 getColumnBreakpoints
@@ -310,7 +297,6 @@ getColumnBreakpoints
 pausePoints
 breakpoints
 viewport
-selectedSource
 )
 ;
 expect
@@ -396,13 +382,6 @@ bp
 ]
 ;
 const
-selectedSource
-=
-defaultSource
-(
-)
-;
-const
 columnBps
 =
 getColumnBreakpoints
@@ -410,7 +389,6 @@ getColumnBreakpoints
 pausePoints
 breakpoints
 viewport
-selectedSource
 )
 ;
 expect
@@ -497,13 +475,6 @@ bp
 ]
 ;
 const
-selectedSource
-=
-defaultSource
-(
-)
-;
-const
 columnBps
 =
 getColumnBreakpoints
@@ -511,7 +482,6 @@ getColumnBreakpoints
 pausePoints
 breakpoints
 viewport
-selectedSource
 )
 ;
 expect

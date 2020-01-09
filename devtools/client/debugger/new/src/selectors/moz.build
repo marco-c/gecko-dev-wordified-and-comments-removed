@@ -114,11 +114,6 @@ visibleColumnBreakpoints
 js
 '
 '
-visiblePausePoints
-.
-js
-'
-'
 visibleSelectedFrame
 .
 js

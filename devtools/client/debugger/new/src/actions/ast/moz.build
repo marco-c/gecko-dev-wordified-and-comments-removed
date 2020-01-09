@@ -73,9 +73,4 @@ setInScopeLines
 .
 js
 '
-'
-setPausePoints
-.
-js
-'
 )

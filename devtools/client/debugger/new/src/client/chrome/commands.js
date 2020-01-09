@@ -451,12 +451,6 @@ SourceLocation
 {
 }
 function
-setPausePoints
-(
-)
-{
-}
-function
 getFrameScopes
 (
 )
@@ -492,7 +486,6 @@ debuggeeCommand
 navigate
 getProperties
 getBreakpointByLocation
-setPausePoints
 getFrameScopes
 evaluateInFrame
 evaluateExpressions

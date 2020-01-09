@@ -310,9 +310,6 @@ type
 {
 SourceMetaDataMap
 SourceMetaDataType
-PausePoints
-PausePointsMap
-PausePoint
 }
 from
 "
