@@ -221,6 +221,7 @@ Bailout_TypeBarrierV
 Bailout_MonitorTypes
 Bailout_Hole
 Bailout_NegativeIndex
+Bailout_NonIntegerIndex
 Bailout_ObjectIdentityOrTypeGuard
 Bailout_NonInt32Input
 Bailout_NonNumericInput
@@ -369,6 +370,14 @@ Bailout_NegativeIndex
 return
 "
 Bailout_NegativeIndex
+"
+;
+case
+Bailout_NonIntegerIndex
+:
+return
+"
+Bailout_NonIntegerIndex
 "
 ;
 case
