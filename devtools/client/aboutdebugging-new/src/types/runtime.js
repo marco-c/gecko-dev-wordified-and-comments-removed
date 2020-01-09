@@ -373,6 +373,13 @@ PropTypes
 bool
 .
 isRequired
+isUnplugged
+:
+PropTypes
+.
+bool
+.
+isRequired
 name
 :
 PropTypes
