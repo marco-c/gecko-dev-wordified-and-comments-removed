@@ -28657,13 +28657,6 @@ IsCurrentActiveDocument
 mMediaKeys
 )
 {
-mMediaKeys
--
->
-Shutdown
-(
-)
-;
 DDUNLINKCHILD
 (
 mMediaKeys
