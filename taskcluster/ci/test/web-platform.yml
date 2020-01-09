@@ -96,7 +96,7 @@ macosx
 -
 web_platform_tests
 /
-prod_config
+prod_config_mac
 .
 py
 android
