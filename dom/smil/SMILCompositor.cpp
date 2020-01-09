@@ -1,7 +1,7 @@
 #
 include
 "
-nsSMILCompositor
+SMILCompositor
 .
 h
 "
@@ -33,8 +33,11 @@ nsSMILCSSProperty
 .
 h
 "
+namespace
+mozilla
+{
 bool
-nsSMILCompositor
+SMILCompositor
 :
 :
 KeyEquals
@@ -58,7 +61,7 @@ mKey
 ;
 }
 PLDHashNumber
-nsSMILCompositor
+SMILCompositor
 :
 :
 HashKey
@@ -99,7 +102,7 @@ get
 ;
 }
 void
-nsSMILCompositor
+SMILCompositor
 :
 :
 Traverse
@@ -142,7 +145,7 @@ mElement
 ;
 }
 void
-nsSMILCompositor
+SMILCompositor
 :
 :
 AddAnimationFunction
@@ -167,7 +170,7 @@ aFunc
 }
 }
 void
-nsSMILCompositor
+SMILCompositor
 :
 :
 ComposeAttribute
@@ -412,7 +415,7 @@ failed
 }
 }
 void
-nsSMILCompositor
+SMILCompositor
 :
 :
 ClearAnimationEffects
@@ -466,7 +469,7 @@ UniquePtr
 <
 nsISMILAttr
 >
-nsSMILCompositor
+SMILCompositor
 :
 :
 CreateSMILAttr
@@ -527,7 +530,7 @@ mAttributeName
 ;
 }
 nsCSSPropertyID
-nsSMILCompositor
+SMILCompositor
 :
 :
 GetCSSPropertyToAnimate
@@ -643,7 +646,7 @@ propID
 ;
 }
 bool
-nsSMILCompositor
+SMILCompositor
 :
 :
 MightNeedBaseStyle
@@ -696,7 +699,7 @@ false
 ;
 }
 uint32_t
-nsSMILCompositor
+SMILCompositor
 :
 :
 GetFirstFuncToAffectSandwich
@@ -851,7 +854,7 @@ i
 ;
 }
 void
-nsSMILCompositor
+SMILCompositor
 :
 :
 UpdateCachedBaseValue
@@ -878,5 +881,6 @@ mForceCompositing
 =
 true
 ;
+}
 }
 }

@@ -1,9 +1,16 @@
 #
 include
 "
+SMILTimedElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
-DebugOnly
+AutoRestore
 .
 h
 "
@@ -21,7 +28,34 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SMILAnimationFunction
+.
+h
+"
+#
+include
+"
+mozilla
+/
+TaskCategory
 .
 h
 "
@@ -39,30 +73,7 @@ h
 #
 include
 "
-mozilla
-/
-TaskCategory
-.
-h
-"
-#
-include
-"
-nsSMILTimedElement
-.
-h
-"
-#
-include
-"
 nsAttrValueInlines
-.
-h
-"
-#
-include
-"
-SMILAnimationFunction
 .
 h
 "
@@ -167,15 +178,6 @@ h
 #
 include
 "
-mozilla
-/
-AutoRestore
-.
-h
-"
-#
-include
-"
 nsCharSeparatedTokenizer
 .
 h
@@ -188,16 +190,15 @@ algorithm
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 InstanceTimeComparator
@@ -310,7 +311,7 @@ Serial
 ;
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 InstanceTimeComparator
@@ -546,7 +547,7 @@ event
 }
 class
 MOZ_STACK_CLASS
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 AutoIntervalUpdateBatcher
@@ -556,7 +557,7 @@ public
 explicit
 AutoIntervalUpdateBatcher
 (
-nsSMILTimedElement
+SMILTimedElement
 &
 aTimedElement
 )
@@ -621,7 +622,7 @@ UpdateCurrentInterval
 }
 private
 :
-nsSMILTimedElement
+SMILTimedElement
 &
 mTimedElement
 ;
@@ -632,7 +633,7 @@ mDidSetFlag
 ;
 class
 MOZ_STACK_CLASS
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 AutoIntervalUpdater
@@ -642,7 +643,7 @@ public
 explicit
 AutoIntervalUpdater
 (
-nsSMILTimedElement
+SMILTimedElement
 &
 aTimedElement
 )
@@ -667,7 +668,7 @@ UpdateCurrentInterval
 }
 private
 :
-nsSMILTimedElement
+SMILTimedElement
 &
 mTimedElement
 ;
@@ -679,7 +680,7 @@ class
 TestFunctor
 >
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 RemoveInstanceTimes
@@ -805,7 +806,7 @@ nsAttrValue
 :
 :
 EnumTable
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 sFillModeTable
@@ -836,7 +837,7 @@ nsAttrValue
 :
 :
 EnumTable
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 sRestartModeTable
@@ -870,7 +871,7 @@ nullptr
 ;
 const
 nsSMILMilestone
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 sMaxMilestone
@@ -892,7 +893,7 @@ false
 ;
 const
 uint8_t
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 sMaxNumIntervals
@@ -901,7 +902,7 @@ sMaxNumIntervals
 ;
 const
 uint8_t
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 sMaxNumInstanceTimes
@@ -910,17 +911,17 @@ sMaxNumInstanceTimes
 ;
 const
 uint8_t
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 sMaxUpdateIntervalRecursionDepth
 =
 20
 ;
-nsSMILTimedElement
+SMILTimedElement
 :
 :
-nsSMILTimedElement
+SMILTimedElement
 (
 )
 :
@@ -1005,11 +1006,11 @@ SetIndefinite
 )
 ;
 }
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 ~
-nsSMILTimedElement
+SMILTimedElement
 (
 )
 {
@@ -1107,7 +1108,7 @@ when
 an
 "
 "
-nsSMILTimedElement
+SMILTimedElement
 disappears
 "
 )
@@ -1129,14 +1130,14 @@ when
 an
 "
 "
-nsSMILTimedElement
+SMILTimedElement
 disappears
 "
 )
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetAnimationElement
@@ -1175,7 +1176,7 @@ aElement
 }
 nsSMILTimeContainer
 *
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetTimeContainer
@@ -1200,7 +1201,7 @@ dom
 :
 Element
 *
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetTargetElement
@@ -1221,7 +1222,7 @@ nullptr
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 BeginElementAt
@@ -1266,7 +1267,7 @@ true
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 EndElementAt
@@ -1311,7 +1312,7 @@ false
 ;
 }
 nsSMILTimeValue
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetStartTime
@@ -1349,7 +1350,7 @@ nsSMILTimeValue
 ;
 }
 nsSMILTimeValue
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetHyperlinkTime
@@ -1412,7 +1413,7 @@ hyperlinkTime
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 AddInstanceTime
@@ -1563,7 +1564,7 @@ UpdateCurrentInterval
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UpdateInstanceTime
@@ -1654,7 +1655,7 @@ changedCurrentInterval
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 RemoveInstanceTime
@@ -1833,7 +1834,7 @@ mCreator
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 RemoveInstanceTimesForCreator
@@ -1884,7 +1885,7 @@ UpdateCurrentInterval
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetTimeClient
@@ -1900,7 +1901,7 @@ aClient
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SampleAt
@@ -1927,7 +1928,7 @@ false
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SampleEndAt
@@ -1976,7 +1977,7 @@ RegisterMilestone
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 DoSampleAt
@@ -2731,7 +2732,7 @@ RegisterMilestone
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 HandleContainerTimeChange
@@ -2827,7 +2828,7 @@ ShouldPreserve
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 Rewind
@@ -2941,7 +2942,7 @@ true
 }
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetIsDisabled
@@ -3022,7 +3023,7 @@ ShouldPreserve
 }
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetAttr
@@ -3274,7 +3275,7 @@ foundMatch
 ;
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnsetAttr
@@ -3455,7 +3456,7 @@ foundMatch
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetBeginSpec
@@ -3482,7 +3483,7 @@ aRemove
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnsetBeginSpec
@@ -3504,7 +3505,7 @@ UpdateCurrentInterval
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetEndSpec
@@ -3531,7 +3532,7 @@ aRemove
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnsetEndSpec
@@ -3553,7 +3554,7 @@ UpdateCurrentInterval
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetSimpleDuration
@@ -3677,7 +3678,7 @@ NS_OK
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnsetSimpleDuration
@@ -3696,7 +3697,7 @@ UpdateCurrentInterval
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetMin
@@ -3803,7 +3804,7 @@ NS_OK
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnsetMin
@@ -3823,7 +3824,7 @@ UpdateCurrentInterval
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetMax
@@ -3947,7 +3948,7 @@ NS_OK
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnsetMax
@@ -3966,7 +3967,7 @@ UpdateCurrentInterval
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetRestart
@@ -4020,7 +4021,7 @@ NS_ERROR_FAILURE
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnsetRestart
@@ -4037,7 +4038,7 @@ UpdateCurrentInterval
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetRepeatCount
@@ -4089,7 +4090,7 @@ NS_ERROR_FAILURE
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnsetRepeatCount
@@ -4108,7 +4109,7 @@ UpdateCurrentInterval
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetRepeatDur
@@ -4197,7 +4198,7 @@ NS_OK
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnsetRepeatDur
@@ -4216,7 +4217,7 @@ UpdateCurrentInterval
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetFillMode
@@ -4300,7 +4301,7 @@ NS_ERROR_FAILURE
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnsetFillMode
@@ -4340,7 +4341,7 @@ false
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 AddDependent
@@ -4398,7 +4399,7 @@ GetTimeContainer
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 RemoveDependent
@@ -4418,13 +4419,13 @@ aDependent
 ;
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 IsTimeDependent
 (
 const
-nsSMILTimedElement
+SMILTimedElement
 &
 aOther
 )
@@ -4474,7 +4475,7 @@ otherBegin
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 BindToTree
@@ -4593,7 +4594,7 @@ RegisterMilestone
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 HandleTargetElementChange
@@ -4685,7 +4686,7 @@ aNewTarget
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 Traverse
@@ -4818,7 +4819,7 @@ aCallback
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 Unlink
@@ -4963,7 +4964,7 @@ Clear
 ;
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SetBeginOrEndSpec
@@ -5130,7 +5131,7 @@ public
 explicit
 RemoveByFunction
 (
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 RemovalTestFunction
@@ -5163,7 +5164,7 @@ aInstanceTime
 }
 private
 :
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 RemovalTestFunction
@@ -5173,7 +5174,7 @@ mFunction
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 ClearSpecs
@@ -5246,7 +5247,7 @@ removeByFunction
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 ClearIntervals
@@ -5316,7 +5317,7 @@ Clear
 ;
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 ApplyEarlyEnd
@@ -5516,7 +5517,7 @@ mCurrentIntervalBegin
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 Reset
@@ -5558,7 +5559,7 @@ resetEnd
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 ClearTimingState
@@ -5601,7 +5602,7 @@ false
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 RebuildTimingState
@@ -5735,7 +5736,7 @@ RegisterMilestone
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 DoPostSeek
@@ -5838,7 +5839,7 @@ SEEK_NOT_SEEKING
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UnpreserveInstanceTimes
@@ -5957,7 +5958,7 @@ UnmarkShouldPreserve
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 FilterHistory
@@ -5980,7 +5981,7 @@ mEndInstances
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 FilterIntervals
@@ -6264,7 +6265,7 @@ mTimesToKeep
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 FilterInstanceTimes
@@ -6423,7 +6424,7 @@ removeBelowThreshold
 }
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetNextInterval
@@ -7119,7 +7120,7 @@ false
 }
 nsSMILInstanceTime
 *
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetNextGreater
@@ -7176,7 +7177,7 @@ result
 }
 nsSMILInstanceTime
 *
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetNextGreaterOrEqual
@@ -7275,7 +7276,7 @@ result
 ;
 }
 nsSMILTimeValue
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 CalcActiveEnd
@@ -7441,7 +7442,7 @@ result
 ;
 }
 nsSMILTimeValue
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetRepeatDuration
@@ -7574,7 +7575,7 @@ repeatDuration
 ;
 }
 nsSMILTimeValue
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 ApplyMinAndMax
@@ -7651,7 +7652,7 @@ result
 ;
 }
 nsSMILTime
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 ActiveTimeToSimpleTime
@@ -7760,7 +7761,7 @@ result
 }
 nsSMILInstanceTime
 *
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 CheckForEarlyEnd
@@ -7892,7 +7893,7 @@ nullptr
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 UpdateCurrentInterval
@@ -8299,7 +8300,7 @@ ResetCurrentInterval
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SampleSimpleTime
@@ -8338,7 +8339,7 @@ repeatIteration
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 SampleFillValue
@@ -8644,7 +8645,7 @@ repeatIteration
 }
 }
 nsresult
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 AddInstanceTimeFromCurrentTime
@@ -8727,7 +8728,7 @@ NS_OK
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 RegisterMilestone
@@ -8803,7 +8804,7 @@ nextMilestone
 ;
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetNextMilestone
@@ -9076,7 +9077,7 @@ state
 ;
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 NotifyNewInterval
@@ -9199,7 +9200,7 @@ container
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 NotifyChangedInterval
@@ -9293,7 +9294,7 @@ aEndObjectChanged
 }
 }
 void
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 FireTimeEventAsync
@@ -9350,7 +9351,7 @@ forget
 const
 nsSMILInstanceTime
 *
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetEffectiveBeginInstance
@@ -9423,7 +9424,7 @@ state
 const
 nsSMILInterval
 *
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 GetPreviousInterval
@@ -9457,7 +9458,7 @@ get
 ;
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 HasClientInFillRange
@@ -9502,7 +9503,7 @@ IsActive
 ;
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 EndHasEventConditions
@@ -9551,7 +9552,7 @@ false
 ;
 }
 bool
-nsSMILTimedElement
+SMILTimedElement
 :
 :
 AreEndTimesDependentOn
@@ -9618,4 +9619,5 @@ false
 return
 true
 ;
+}
 }

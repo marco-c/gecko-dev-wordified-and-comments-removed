@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+SMILTimedElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h
@@ -50,13 +59,6 @@ h
 include
 "
 SMILNullType
-.
-h
-"
-#
-include
-"
-nsSMILTimedElement
 .
 h
 "
@@ -1244,7 +1246,7 @@ GetBeginTime
 1
 ;
 const
-nsSMILTimedElement
+SMILTimedElement
 &
 thisTimedElement
 =
@@ -1256,7 +1258,7 @@ TimedElement
 )
 ;
 const
-nsSMILTimedElement
+SMILTimedElement
 &
 otherTimedElement
 =

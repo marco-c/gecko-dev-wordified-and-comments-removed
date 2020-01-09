@@ -35,6 +35,15 @@ include
 "
 mozilla
 /
+SMILTimedElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -97,7 +106,7 @@ h
 #
 include
 "
-nsSMILCompositor
+SMILCompositor
 .
 h
 "
@@ -105,13 +114,6 @@ h
 include
 "
 nsSMILCSSProperty
-.
-h
-"
-#
-include
-"
-nsSMILTimedElement
 .
 h
 "
@@ -811,7 +813,7 @@ Next
 )
 )
 {
-nsSMILCompositor
+SMILCompositor
 *
 compositor
 =
@@ -1344,12 +1346,12 @@ container
 }
 nsAutoPtr
 <
-nsSMILCompositorTable
+SMILCompositorTable
 >
 currentCompositorTable
 (
 new
-nsSMILCompositorTable
+SMILCompositorTable
 (
 0
 )
@@ -1470,7 +1472,7 @@ Next
 )
 )
 {
-nsSMILCompositor
+SMILCompositor
 *
 compositor
 =
@@ -1480,7 +1482,7 @@ Get
 (
 )
 ;
-nsSMILCompositor
+SMILCompositor
 *
 lastCompositor
 =
@@ -2375,7 +2377,7 @@ AddAnimationToCompositorTable
 SVGAnimationElement
 *
 aElement
-nsSMILCompositorTable
+SMILCompositorTable
 *
 aCompositorTable
 bool
@@ -2417,7 +2419,7 @@ IsActiveOrFrozen
 )
 )
 {
-nsSMILCompositor
+SMILCompositor
 *
 result
 =
@@ -2449,7 +2451,7 @@ HasChanged
 )
 )
 {
-nsSMILCompositor
+SMILCompositor
 *
 result
 =
