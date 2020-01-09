@@ -186,10 +186,6 @@ nsString
 &
 aDocumentURI
 const
-nsString
-&
-aKey
-const
 bool
 &
 aIncreasePeakUsage
@@ -316,11 +312,11 @@ nsString
 &
 aKey
 const
-LSValue
+nsString
 &
 aOldValue
 const
-LSValue
+nsString
 &
 aNewValue
 )
