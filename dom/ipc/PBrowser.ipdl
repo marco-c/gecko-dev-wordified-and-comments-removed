@@ -4128,6 +4128,15 @@ info
 )
 ;
 async
+ResumeLoad
+(
+uint64_t
+pendingSwitchID
+ShowInfo
+info
+)
+;
+async
 UpdateDimensions
 (
 DimensionInfo

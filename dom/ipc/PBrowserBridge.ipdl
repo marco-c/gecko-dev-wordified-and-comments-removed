@@ -336,6 +336,13 @@ nsCString
 aSpec
 )
 ;
+async
+ResumeLoad
+(
+uint64_t
+aPendingSwitchID
+)
+;
 /
 /
 Out

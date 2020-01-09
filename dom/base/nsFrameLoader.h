@@ -564,6 +564,13 @@ aOriginalSrc
 )
 ;
 void
+ResumeLoad
+(
+uint64_t
+aPendingSwitchID
+)
+;
+void
 Destroy
 (
 )
@@ -1476,6 +1483,9 @@ RefPtr
 Document
 >
 mContainerDocWhileDetached
+;
+uint64_t
+mPendingSwitchID
 ;
 RefPtr
 <
