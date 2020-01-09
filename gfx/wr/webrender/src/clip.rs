@@ -1902,7 +1902,7 @@ usize
 }
 pub
 fn
-push_surface
+push_raster_root
 (
 &
 mut
@@ -1930,7 +1930,7 @@ spatial_node_index
 }
 pub
 fn
-pop_surface
+pop_raster_root
 (
 &
 mut
