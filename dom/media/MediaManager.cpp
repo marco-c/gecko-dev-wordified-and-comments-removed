@@ -15539,6 +15539,9 @@ const
 nsACString
 &
 aOriginKey
+const
+uint64_t
+aWindowId
 )
 {
 if
@@ -15595,6 +15598,13 @@ device
 GetGroupId
 (
 groupId
+)
+;
+groupId
+.
+AppendInt
+(
+aWindowId
 )
 ;
 AnonymizeId
@@ -16641,6 +16651,7 @@ AnonymizeDevices
 aOutDevices
 *
 originKey
+aWindowId
 )
 ;
 return
