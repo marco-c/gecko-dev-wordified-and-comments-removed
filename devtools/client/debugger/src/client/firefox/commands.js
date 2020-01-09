@@ -1268,8 +1268,9 @@ Promise
 {
 result
 :
-?
-Object
+Grip
+|
+null
 }
 >
 {
