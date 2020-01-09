@@ -106,6 +106,11 @@ aEvent
 if
 (
 gAppUpdater
+)
+{
+if
+(
+gAppUpdater
 .
 isChecking
 )
@@ -127,6 +132,7 @@ gAppUpdater
 =
 null
 ;
+}
 }
 function
 appUpdater
