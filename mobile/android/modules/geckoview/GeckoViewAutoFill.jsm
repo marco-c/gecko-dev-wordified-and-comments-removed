@@ -114,6 +114,12 @@ jsm
 }
 )
 ;
+const
+{
+debug
+warn
+}
+=
 GeckoViewUtils
 .
 initLogging
@@ -121,7 +127,6 @@ initLogging
 "
 AutoFill
 "
-this
 )
 ;
 class

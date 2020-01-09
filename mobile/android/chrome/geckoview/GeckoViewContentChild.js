@@ -2657,7 +2657,7 @@ progressFilter
 ;
 }
 }
-let
+const
 {
 debug
 warn
@@ -2672,7 +2672,7 @@ GeckoViewContent
 "
 )
 ;
-let
+const
 module
 =
 GeckoViewContentChild

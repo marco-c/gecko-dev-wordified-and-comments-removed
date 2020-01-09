@@ -84,6 +84,12 @@ jsm
 }
 )
 ;
+const
+{
+debug
+warn
+}
+=
 GeckoViewUtils
 .
 initLogging
@@ -91,7 +97,6 @@ initLogging
 "
 LoadURIDelegate
 "
-this
 )
 ;
 const

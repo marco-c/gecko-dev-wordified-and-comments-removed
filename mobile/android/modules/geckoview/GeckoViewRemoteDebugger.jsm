@@ -199,6 +199,12 @@ SocketListener
 }
 )
 ;
+const
+{
+debug
+warn
+}
+=
 GeckoViewUtils
 .
 initLogging
@@ -206,7 +212,6 @@ initLogging
 "
 RemoteDebugger
 "
-this
 )
 ;
 var

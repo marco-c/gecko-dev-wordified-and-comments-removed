@@ -663,7 +663,7 @@ break
 }
 }
 }
-let
+const
 {
 debug
 warn
@@ -678,7 +678,7 @@ GeckoViewNavigation
 "
 )
 ;
-let
+const
 module
 =
 GeckoViewNavigationChild

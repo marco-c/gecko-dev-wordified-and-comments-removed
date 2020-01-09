@@ -728,7 +728,7 @@ aAllowJavascript
 ;
 }
 }
-let
+const
 {
 debug
 warn
@@ -743,7 +743,7 @@ GeckoViewSettings
 "
 )
 ;
-let
+const
 module
 =
 GeckoViewSettingsChild

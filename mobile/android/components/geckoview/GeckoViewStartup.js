@@ -160,6 +160,12 @@ jsm
 }
 )
 ;
+const
+{
+debug
+warn
+}
+=
 GeckoViewUtils
 .
 initLogging
@@ -167,7 +173,6 @@ initLogging
 "
 Startup
 "
-this
 )
 ;
 function

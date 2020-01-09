@@ -137,6 +137,12 @@ jsm
 "
 )
 ;
+const
+{
+debug
+warn
+}
+=
 GeckoViewUtils
 .
 initLogging
@@ -144,7 +150,6 @@ initLogging
 "
 ContentCrashHandler
 "
-this
 )
 ;
 function

@@ -51,6 +51,12 @@ jsm
 "
 )
 ;
+const
+{
+debug
+warn
+}
+=
 GeckoViewUtils
 .
 initLogging
@@ -58,7 +64,6 @@ initLogging
 "
 ExternalAppService
 "
-this
 )
 ;
 ChromeUtils

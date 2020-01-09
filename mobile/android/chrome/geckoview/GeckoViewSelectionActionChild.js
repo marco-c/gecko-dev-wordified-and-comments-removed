@@ -1402,7 +1402,7 @@ reason
 }
 }
 }
-let
+const
 {
 debug
 warn
@@ -1417,7 +1417,7 @@ GeckoViewSelectionAction
 "
 )
 ;
-let
+const
 module
 =
 GeckoViewSelectionActionChild

@@ -70,6 +70,12 @@ jsm
 "
 )
 ;
+const
+{
+debug
+warn
+}
+=
 GeckoViewUtils
 .
 initLogging
@@ -77,7 +83,6 @@ initLogging
 "
 ErrorPageEventHandler
 "
-this
 )
 ;
 ChromeUtils

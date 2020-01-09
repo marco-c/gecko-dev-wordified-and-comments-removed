@@ -36,6 +36,12 @@ jsm
 "
 )
 ;
+const
+{
+debug
+warn
+}
+=
 GeckoViewUtils
 .
 initLogging
@@ -46,7 +52,6 @@ Module
 C
 ]
 "
-this
 )
 ;
 class
@@ -90,8 +95,6 @@ GeckoViewUtils
 initLogging
 (
 tag
-{
-}
 )
 ;
 }

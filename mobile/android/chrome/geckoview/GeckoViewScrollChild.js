@@ -161,7 +161,7 @@ break
 }
 }
 }
-let
+const
 {
 debug
 warn
@@ -176,7 +176,7 @@ GeckoViewScroll
 "
 )
 ;
-let
+const
 module
 =
 GeckoViewScrollChild

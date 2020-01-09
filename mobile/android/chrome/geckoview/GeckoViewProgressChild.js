@@ -1756,7 +1756,7 @@ finish
 }
 }
 ;
-let
+const
 {
 debug
 warn
@@ -1771,7 +1771,7 @@ GeckoViewProgress
 "
 )
 ;
-let
+const
 module
 =
 GeckoViewProgressChild

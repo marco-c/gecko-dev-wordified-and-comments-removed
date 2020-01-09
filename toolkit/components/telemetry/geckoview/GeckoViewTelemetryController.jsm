@@ -105,6 +105,12 @@ jsm
 }
 )
 ;
+const
+{
+debug
+warn
+}
+=
 GeckoViewUtils
 .
 initLogging
@@ -114,7 +120,6 @@ GeckoView
 .
 TelemetryController
 "
-this
 )
 ;
 var
