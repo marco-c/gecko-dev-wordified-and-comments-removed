@@ -549,6 +549,16 @@ PictureInPicture
 :
 SetupPlayer
 "
+"
+PictureInPicture
+:
+Play
+"
+"
+PictureInPicture
+:
+Pause
+"
 ]
 }
 }
