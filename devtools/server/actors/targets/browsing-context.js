@@ -5087,6 +5087,12 @@ win
 )
 ;
 }
+docShell
+.
+watchedByDevtools
+=
+true
+;
 }
 unwatch
 (
@@ -5224,6 +5230,12 @@ win
 )
 ;
 }
+docShell
+.
+watchedByDevtools
+=
+false
+;
 }
 _getWindowsInDocShell
 (
