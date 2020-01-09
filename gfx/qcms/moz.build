@@ -293,7 +293,7 @@ transform
 -
 sse2
 .
-c
+cpp
 '
 ]
 SOURCES
@@ -303,7 +303,7 @@ transform
 -
 sse2
 .
-c
+cpp
 '
 ]
 .

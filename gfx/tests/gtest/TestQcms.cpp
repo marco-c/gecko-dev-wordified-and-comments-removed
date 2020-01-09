@@ -35,6 +35,13 @@ h
 #
 include
 "
+qcmsint
+.
+h
+"
+#
+include
+"
 transform_util
 .
 h

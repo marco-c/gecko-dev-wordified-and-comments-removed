@@ -1,4 +1,10 @@
 #
+ifndef
+QCMS_INT_H
+#
+define
+QCMS_INT_H
+#
 include
 "
 qcms
@@ -12,6 +18,16 @@ qcmstypes
 .
 h
 "
+#
+ifdef
+__cplusplus
+extern
+"
+C
+"
+{
+#
+endif
 struct
 precache_output
 {
@@ -609,7 +625,7 @@ struct
 _qcms_profile
 {
 uint32_t
-class
+class_type
 ;
 uint32_t
 color_space
@@ -797,7 +813,7 @@ precache_output
 p
 )
 ;
-qcms_bool
+bool
 set_rgb_colorants
 (
 qcms_profile
@@ -809,7 +825,7 @@ qcms_CIE_xyYTRIPLE
 primaries
 )
 ;
-qcms_bool
+bool
 get_rgb_colorants
 (
 struct
@@ -931,7 +947,7 @@ length
 )
 ;
 extern
-qcms_bool
+bool
 qcms_supports_iccv4
 ;
 #
@@ -1103,5 +1119,13 @@ OUTPUT_B_INDEX
 define
 OUTPUT_A_INDEX
 3
+#
+endif
+#
+ifdef
+__cplusplus
+}
+#
+endif
 #
 endif
