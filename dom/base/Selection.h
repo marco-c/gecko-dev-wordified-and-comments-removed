@@ -34,6 +34,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RangeBoundary
 .
 h
@@ -78,13 +87,6 @@ h
 include
 "
 nsDirection
-.
-h
-"
-#
-include
-"
-nsIPresShell
 .
 h
 "
@@ -298,7 +300,7 @@ true
 void
 MaybeNotifyAccessibleCaretEventHub
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -374,7 +376,7 @@ GetPresContext
 )
 const
 ;
-nsIPresShell
+PresShell
 *
 GetPresShell
 (
