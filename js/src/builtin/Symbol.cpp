@@ -376,10 +376,16 @@ if
 i
 =
 =
+static_cast
+<
+size_t
+>
+(
 SymbolCode
 :
 :
 matchAll
+)
 )
 {
 continue
