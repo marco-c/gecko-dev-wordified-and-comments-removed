@@ -438,6 +438,7 @@ options
 async
 listAddons
 (
+options
 )
 {
 return
@@ -449,6 +450,7 @@ mainRoot
 .
 listAddons
 (
+options
 )
 ;
 }
