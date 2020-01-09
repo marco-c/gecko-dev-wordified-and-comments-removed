@@ -1318,6 +1318,17 @@ false
 user_pref
 (
 "
+idle
+.
+lastDailyNotification
+"
+-
+1
+)
+;
+user_pref
+(
+"
 lightweightThemes
 .
 selectedThemeID
