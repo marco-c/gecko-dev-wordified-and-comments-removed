@@ -155,13 +155,6 @@ loop
 js
 '
 '
-function
--
-call
-.
-js
-'
-'
 make
 -
 debugger
