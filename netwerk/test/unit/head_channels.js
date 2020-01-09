@@ -1349,17 +1349,10 @@ NS_OK
 function
 OriginAttributes
 (
-appId
 inIsolatedMozBrowser
 privateId
 )
 {
-this
-.
-appId
-=
-appId
-;
 this
 .
 inIsolatedMozBrowser
@@ -1378,9 +1371,6 @@ OriginAttributes
 prototype
 =
 {
-appId
-:
-0
 inIsolatedMozBrowser
 :
 false

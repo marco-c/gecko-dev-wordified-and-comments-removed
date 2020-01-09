@@ -398,16 +398,6 @@ mInitialized
 false
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-aOriginAttributes
-.
-mAppId
-=
-=
-NO_APP_ID
-)
-;
 mInitialized
 =
 true

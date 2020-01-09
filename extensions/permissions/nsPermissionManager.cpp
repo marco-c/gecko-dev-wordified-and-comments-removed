@@ -966,8 +966,6 @@ GetPrincipal
 nsIURI
 *
 aURI
-uint32_t
-aAppId
 bool
 aIsInIsolatedMozBrowserElement
 nsIPrincipal
@@ -982,7 +980,6 @@ mozilla
 OriginAttributes
 attrs
 (
-aAppId
 aIsInIsolatedMozBrowserElement
 )
 ;
@@ -2215,8 +2212,6 @@ int64_t
 aExpireTime
 int64_t
 aModificationTime
-uint32_t
-aAppId
 bool
 aIsInIsolatedMozBrowserElement
 UpgradeHostToOriginHelper
@@ -2355,7 +2350,6 @@ rv
 GetPrincipal
 (
 uri
-aAppId
 aIsInIsolatedMozBrowserElement
 getter_AddRefs
 (
@@ -2884,7 +2878,6 @@ rv
 GetPrincipal
 (
 uri
-aAppId
 aIsInIsolatedMozBrowserElement
 getter_AddRefs
 (
@@ -3098,7 +3091,6 @@ rv
 GetPrincipal
 (
 uri
-aAppId
 aIsInIsolatedMozBrowserElement
 getter_AddRefs
 (
@@ -3171,7 +3163,6 @@ rv
 GetPrincipal
 (
 uri
-aAppId
 aIsInIsolatedMozBrowserElement
 getter_AddRefs
 (
@@ -5611,7 +5602,7 @@ int64_t
 modificationTime
 ;
 uint32_t
-appId
+deprecatedAppId
 ;
 bool
 isInBrowserElement
@@ -5758,7 +5749,7 @@ true
 continue
 ;
 }
-appId
+deprecatedAppId
 =
 static_cast
 <
@@ -5808,7 +5799,6 @@ permission
 expireType
 expireTime
 modificationTime
-appId
 isInBrowserElement
 &
 upHelper
@@ -6461,7 +6451,7 @@ int64_t
 modificationTime
 ;
 uint32_t
-appId
+deprecatedAppId
 ;
 bool
 isInBrowserElement
@@ -6624,7 +6614,7 @@ AsInt64
 continue
 ;
 }
-appId
+deprecatedAppId
 =
 static_cast
 <
@@ -6674,7 +6664,6 @@ permission
 expireType
 expireTime
 modificationTime
-appId
 isInBrowserElement
 &
 upHelper
@@ -13145,10 +13134,6 @@ nsIPermissionManager
 EXPIRE_NEVER
 0
 modificationTime
-nsIScriptSecurityManager
-:
-:
-NO_APP_ID
 false
 &
 upHelper
