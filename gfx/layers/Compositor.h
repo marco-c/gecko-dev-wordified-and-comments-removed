@@ -1399,6 +1399,15 @@ return
 mParent
 ;
 }
+virtual
+void
+RequestRecordFrames
+(
+bool
+aWillRecord
+)
+{
+}
 already_AddRefed
 <
 RecordedFrame
