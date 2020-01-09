@@ -198,6 +198,8 @@ Option
 Default
 LowLatency
 HardwareDecoderNotAllowed
+FullH264Parsing
+SENTINEL
 }
 ;
 using
@@ -829,7 +831,7 @@ CreateDecoderParams
 Option
 :
 :
-HardwareDecoderNotAllowed
+SENTINEL
 )
 ;
 }
