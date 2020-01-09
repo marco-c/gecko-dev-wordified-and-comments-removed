@@ -6163,6 +6163,10 @@ mobile_projects
 (
         
 '
+fenix
+'
+        
+'
 fennec
 '
         
