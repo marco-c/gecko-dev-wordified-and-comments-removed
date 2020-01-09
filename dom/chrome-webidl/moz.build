@@ -387,11 +387,6 @@ XULMenuElement
 webidl
 '
 '
-XULScrollElement
-.
-webidl
-'
-'
 XULTextElement
 .
 webidl

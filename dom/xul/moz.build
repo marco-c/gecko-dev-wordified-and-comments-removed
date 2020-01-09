@@ -211,11 +211,6 @@ XULPopupElement
 h
 '
 '
-XULScrollElement
-.
-h
-'
-'
 XULTextElement
 .
 h
@@ -302,11 +297,6 @@ cpp
 '
 '
 XULPopupElement
-.
-cpp
-'
-'
-XULScrollElement
 .
 cpp
 '
