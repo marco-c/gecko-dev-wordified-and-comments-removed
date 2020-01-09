@@ -2510,6 +2510,20 @@ Jarrer
 continue
             
 if
+respath
+:
+                
+p
+=
+mozpath
+.
+relpath
+(
+p
+respath
+)
+            
+if
 p
 in
 log
