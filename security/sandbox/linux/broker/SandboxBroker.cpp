@@ -4654,6 +4654,8 @@ permissive
 AllowOperation
 (
 W_OK
+|
+X_OK
 perms
 )
 )
@@ -4719,6 +4721,8 @@ permissive
 AllowOperation
 (
 W_OK
+|
+X_OK
 perms
 )
 )
@@ -4875,6 +4879,8 @@ permissive
 AllowOperation
 (
 W_OK
+|
+X_OK
 perms
 )
 )
