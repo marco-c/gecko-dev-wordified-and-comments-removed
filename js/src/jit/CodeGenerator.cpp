@@ -13895,7 +13895,7 @@ return
 js
 :
 :
-Allocate
+AllocateString
 <
 JSString
 NoGC
@@ -13929,7 +13929,7 @@ return
 js
 :
 :
-Allocate
+AllocateString
 <
 JSFatInlineString
 NoGC
@@ -14170,9 +14170,8 @@ return
 js
 :
 :
-Allocate
+AllocateObject
 <
-JSObject
 NoGC
 >
 (
@@ -38580,6 +38579,10 @@ NewArrayCopyOnWriteFn
 JSContext
 *
 HandleArrayObject
+gc
+:
+:
+InitialHeap
 )
 ;
 static
@@ -38685,6 +38688,10 @@ ArgList
 ImmGCPtr
 (
 templateObject
+)
+Imm32
+(
+initialHeap
 )
 )
 StoreRegisterTo
