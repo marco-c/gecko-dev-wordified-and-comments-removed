@@ -851,6 +851,12 @@ ConstructActor
 aName
 false
 mBrowsingContext
+mWindowGlobal
+-
+>
+GetDocumentURI
+(
+)
 &
 obj
 aRv

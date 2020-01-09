@@ -1081,6 +1081,7 @@ ConstructActor
 aName
 true
 mBrowsingContext
+mDocumentURI
 &
 obj
 aRv

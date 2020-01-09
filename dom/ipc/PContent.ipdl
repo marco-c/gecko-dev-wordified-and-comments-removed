@@ -1346,6 +1346,11 @@ nsCString
 ]
 observers
 ;
+nsString
+[
+]
+matches
+;
 }
 ;
 struct

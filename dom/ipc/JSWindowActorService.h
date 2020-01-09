@@ -114,6 +114,9 @@ aParentSide
 BrowsingContext
 *
 aBrowsingContext
+nsIURI
+*
+aURI
 JS
 :
 :
