@@ -2971,11 +2971,9 @@ var
 -
 theme
 -
-text
+body
 -
 color
--
-inactive
 )
 ;
 display
@@ -3024,11 +3022,9 @@ var
 -
 theme
 -
-text
+body
 -
 color
--
-inactive
 )
 ;
 transition
