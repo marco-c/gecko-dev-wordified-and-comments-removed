@@ -468,6 +468,13 @@ StartDestroy
 (
 )
 {
+JSWindowActor
+:
+:
+StartDestroy
+(
+)
+;
 mCanSend
 =
 false
@@ -481,6 +488,13 @@ AfterDestroy
 (
 )
 {
+JSWindowActor
+:
+:
+AfterDestroy
+(
+)
+;
 mManager
 =
 nullptr
