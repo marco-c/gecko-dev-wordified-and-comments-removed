@@ -8285,9 +8285,9 @@ enum
 class
 TableKind
 {
-FuncRef
 AnyRef
-TypedFunction
+FuncRef
+AsmJS
 }
 ;
 struct

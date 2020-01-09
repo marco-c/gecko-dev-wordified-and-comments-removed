@@ -1895,7 +1895,7 @@ case
 TableKind
 :
 :
-TypedFunction
+AsmJS
 :
 break
 ;
