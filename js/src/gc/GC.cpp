@@ -21990,7 +21990,7 @@ DiscardBaselineCode
 Zone
 :
 :
-ReleaseTypes
+DiscardJitScripts
 )
 ;
 }

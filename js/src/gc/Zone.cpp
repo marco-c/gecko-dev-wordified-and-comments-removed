@@ -1130,8 +1130,8 @@ FreeOp
 fop
 ShouldDiscardBaselineCode
 discardBaselineCode
-ShouldReleaseTypes
-releaseTypes
+ShouldDiscardJitScripts
+discardJitScripts
 )
 {
 if
@@ -1160,7 +1160,7 @@ if
 discardBaselineCode
 |
 |
-releaseTypes
+discardJitScripts
 )
 {
 #
@@ -1365,7 +1365,7 @@ nullptr
 }
 if
 (
-releaseTypes
+discardJitScripts
 )
 {
 script
