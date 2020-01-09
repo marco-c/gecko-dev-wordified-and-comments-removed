@@ -375,6 +375,8 @@ const
 ;
 }
 ;
+STATIC_ASSERT_ANYREF_IS_JSOBJECT
+;
 class
 WasmGlobalObject
 :
@@ -503,7 +505,13 @@ f64
 ;
 JSObject
 *
-ptr
+ref
+;
+wasm
+:
+:
+AnyRef
+anyref
 ;
 Cell
 (

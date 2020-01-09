@@ -816,7 +816,7 @@ uint64_t
 ;
 static
 int32_t
-callImport_ref
+callImport_anyref
 (
 Instance
 *

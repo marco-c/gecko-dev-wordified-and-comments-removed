@@ -6256,7 +6256,7 @@ case
 SymbolicAddress
 :
 :
-CallImport_Ref
+CallImport_AnyRef
 :
 case
 SymbolicAddress
