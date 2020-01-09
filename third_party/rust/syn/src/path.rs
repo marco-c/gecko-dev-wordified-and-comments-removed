@@ -517,6 +517,17 @@ _
 false
 }
 }
+#
+[
+cfg
+(
+feature
+=
+"
+parsing
+"
+)
+]
 fn
 is_none
 (

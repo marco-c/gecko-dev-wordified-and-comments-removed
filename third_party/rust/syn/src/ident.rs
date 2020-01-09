@@ -636,10 +636,7 @@ _
 "
 token
 .
-spans
-[
-0
-]
+span
 )
 }
 }

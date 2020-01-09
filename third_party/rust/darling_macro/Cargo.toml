@@ -122,7 +122,7 @@ version
 .
 8
 .
-1
+6
 "
 authors
 =
@@ -222,7 +222,7 @@ version
 .
 8
 .
-1
+6
 "
 [
 dependencies
@@ -247,4 +247,6 @@ version
 0
 .
 15
+.
+26
 "
