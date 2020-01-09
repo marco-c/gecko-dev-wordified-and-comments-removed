@@ -727,7 +727,7 @@ if
 CONFIG
 [
 '
-VPX_AS_CONVERSION
+GNU_AS
 '
 ]
 :
