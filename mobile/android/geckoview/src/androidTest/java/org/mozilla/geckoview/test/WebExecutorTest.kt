@@ -502,6 +502,9 @@ fetch
 request
 :
 WebRequest
+GeckoWebExecutor
+.
+FetchFlags
 flags
 :
 Int

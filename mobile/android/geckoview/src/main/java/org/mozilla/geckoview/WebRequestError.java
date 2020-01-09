@@ -84,6 +84,7 @@ ERROR_CATEGORY_PROXY
 ERROR_CATEGORY_SAFEBROWSING
 }
 )
+public
 interface
 ErrorCategory
 {
@@ -125,6 +126,7 @@ ERROR_UNSAFE_CONTENT_TYPE
 ERROR_CORRUPTED_CONTENT
 }
 )
+public
 interface
 Error
 {
