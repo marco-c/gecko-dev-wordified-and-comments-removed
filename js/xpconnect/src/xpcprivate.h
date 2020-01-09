@@ -3310,15 +3310,6 @@ ScopeSizeInfo
 scopeSizeInfo
 )
 ;
-static
-bool
-IsDyingScope
-(
-XPCWrappedNativeScope
-*
-scope
-)
-;
 JSObject
 *
 EnsureContentXBLScope
