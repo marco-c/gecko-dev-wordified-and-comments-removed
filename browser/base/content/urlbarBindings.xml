@@ -7709,6 +7709,8 @@ url
 let
 strippedURL
 =
+UrlbarUtils
+.
 stripUnsafeProtocolOnPaste
 (
 url
@@ -9692,6 +9694,8 @@ selectionEnd
 let
 pasteData
 =
+UrlbarUtils
+.
 stripUnsafeProtocolOnPaste
 (
 originalPasteData
