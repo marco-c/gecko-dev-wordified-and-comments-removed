@@ -453,6 +453,11 @@ BinASTTokenReaderBase
 cpp
 '
 '
+BinASTTokenReaderContext
+.
+cpp
+'
+'
 BinASTTokenReaderMultipart
 .
 cpp
