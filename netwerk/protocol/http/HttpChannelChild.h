@@ -559,6 +559,10 @@ isFromCache
 const
 bool
 &
+isRacing
+const
+bool
+&
 cacheEntryAvailable
 const
 uint64_t
@@ -1652,6 +1656,13 @@ Atomic
 bool
 SequentiallyConsistent
 >
+mIsRacing
+;
+Atomic
+<
+bool
+SequentiallyConsistent
+>
 mCacheNeedToReportBytesReadInitialized
 ;
 Atomic
@@ -1791,6 +1802,10 @@ const
 bool
 &
 isFromCache
+const
+bool
+&
+isRacing
 const
 bool
 &

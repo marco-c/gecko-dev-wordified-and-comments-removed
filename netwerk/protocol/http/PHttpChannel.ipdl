@@ -844,6 +844,8 @@ loadInfoForwarder
 bool
 isFromCache
 bool
+isRacing
+bool
 cacheEntryAvailable
 uint64_t
 cacheEntryId
