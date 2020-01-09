@@ -74,6 +74,7 @@ util
 .
 Log
 ;
+final
 class
 GeckoFontScaleListener
 extends
