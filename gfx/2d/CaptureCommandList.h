@@ -627,6 +627,8 @@ void
 Log
 (
 TreeLog
+<
+>
 &
 aStream
 )

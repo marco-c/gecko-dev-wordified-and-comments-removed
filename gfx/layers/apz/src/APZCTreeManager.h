@@ -1597,6 +1597,12 @@ gfx
 :
 :
 TreeLog
+<
+gfx
+:
+:
+LOG_DEFAULT
+>
 mApzcTreeLog
 ;
 class

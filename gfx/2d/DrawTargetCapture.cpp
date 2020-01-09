@@ -1762,6 +1762,8 @@ Dump
 )
 {
 TreeLog
+<
+>
 output
 ;
 output
@@ -1789,6 +1791,8 @@ n
 "
 ;
 TreeAutoIndent
+<
+>
 indent
 (
 output

@@ -151,6 +151,8 @@ void
 Log
 (
 TreeLog
+<
+>
 &
 aLog
 )

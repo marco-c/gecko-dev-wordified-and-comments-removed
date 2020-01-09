@@ -4361,6 +4361,13 @@ INDENT_PER_LEVEL
 =
 2
 ;
+template
+<
+int
+Level
+=
+LOG_DEBUG
+>
 class
 TreeLog
 {
@@ -4578,7 +4585,7 @@ private
 :
 Log
 <
-LOG_DEBUG
+Level
 >
 mLog
 ;
@@ -4707,6 +4714,13 @@ aString
 }
 }
 ;
+template
+<
+int
+Level
+=
+LOG_DEBUG
+>
 class
 TreeAutoIndent
 {
@@ -4716,6 +4730,9 @@ explicit
 TreeAutoIndent
 (
 TreeLog
+<
+Level
+>
 &
 aTreeLog
 )
@@ -4782,6 +4799,9 @@ DecreaseIndent
 private
 :
 TreeLog
+<
+Level
+>
 &
 mTreeLog
 ;
