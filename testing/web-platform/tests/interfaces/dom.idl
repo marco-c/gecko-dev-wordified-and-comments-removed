@@ -748,8 +748,6 @@ unsigned
 long
 length
 ;
-/
-/
 iterable
 <
 Node
@@ -3124,8 +3122,6 @@ attribute
 DOMString
 value
 ;
-/
-/
 iterable
 <
 DOMString
