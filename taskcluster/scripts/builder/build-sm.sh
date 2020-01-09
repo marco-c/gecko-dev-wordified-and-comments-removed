@@ -56,6 +56,16 @@ automation
 autospider
 .
 py
+{
+SPIDERMONKEY_PLATFORM
+:
++
+-
+-
+platform
+=
+SPIDERMONKEY_PLATFORM
+}
 SPIDERMONKEY_VARIANT
 BUILD_STATUS
 =
