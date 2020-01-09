@@ -10730,6 +10730,8 @@ isDestElementInBody
 SetAttributeOrEquivalent
 (
 destElement
+MOZ_KnownLive
+(
 attr
 -
 >
@@ -10740,6 +10742,7 @@ NodeInfo
 >
 NameAtom
 (
+)
 )
 value
 false
@@ -10751,6 +10754,8 @@ else
 SetAttributeOrEquivalent
 (
 destElement
+MOZ_KnownLive
+(
 attr
 -
 >
@@ -10761,6 +10766,7 @@ NodeInfo
 >
 NameAtom
 (
+)
 )
 value
 true

@@ -229,6 +229,7 @@ AsHTMLEditRules
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Init
@@ -267,6 +268,7 @@ EDirection
 aDirection
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 AfterEdit
@@ -296,6 +298,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 DidDoAction
@@ -404,6 +407,7 @@ int32_t
 aMaxLength
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillSetText
@@ -565,6 +569,7 @@ CreateTrailingBRIfNeeded
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 CreateBogusNodeIfNeeded
