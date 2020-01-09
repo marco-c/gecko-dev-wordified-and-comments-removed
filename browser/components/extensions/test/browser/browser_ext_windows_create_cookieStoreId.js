@@ -171,11 +171,6 @@ ExtensionTestUtils
 loadExtension
 (
 {
-incognitoOverride
-:
-"
-spanning
-"
 manifest
 :
 {
@@ -471,11 +466,6 @@ ExtensionTestUtils
 loadExtension
 (
 {
-incognitoOverride
-:
-"
-spanning
-"
 manifest
 :
 {
@@ -1645,11 +1635,6 @@ ExtensionTestUtils
 loadExtension
 (
 {
-incognitoOverride
-:
-"
-spanning
-"
 manifest
 :
 {

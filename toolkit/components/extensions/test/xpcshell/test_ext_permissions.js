@@ -4291,7 +4291,7 @@ add_task
 (
 async
 function
-test_internal_permissions
+test_internal_permisisons
 (
 )
 {

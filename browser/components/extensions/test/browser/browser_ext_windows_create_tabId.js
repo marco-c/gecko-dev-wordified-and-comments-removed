@@ -1234,11 +1234,6 @@ ExtensionTestUtils
 loadExtension
 (
 {
-incognitoOverride
-:
-"
-spanning
-"
 manifest
 :
 {

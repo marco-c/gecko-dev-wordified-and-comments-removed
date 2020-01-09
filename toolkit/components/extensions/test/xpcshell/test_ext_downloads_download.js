@@ -720,11 +720,6 @@ downloads
 "
 ]
 }
-incognitoOverride
-:
-"
-spanning
-"
 }
 )
 ;
