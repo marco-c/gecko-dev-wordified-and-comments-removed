@@ -3207,7 +3207,7 @@ prevState
 case
 at
 .
-PLACES_LINK_BLOCKED
+DISCOVERY_STREAM_LINK_BLOCKED
 :
 return
 isNotReady

@@ -432,7 +432,16 @@ msg
 >
 msg
 .
-content
+template
+in
+[
+"
+onboarding
+"
+"
+return_to_amo_overlay
+"
+]
 )
 .
 forEach
