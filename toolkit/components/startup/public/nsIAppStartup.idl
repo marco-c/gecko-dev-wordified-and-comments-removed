@@ -103,7 +103,6 @@ nsIToolkitProfile
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 6621f6d5
@@ -844,9 +843,6 @@ down
 .
 *
 /
-[
-infallible
-]
 readonly
 attribute
 boolean
