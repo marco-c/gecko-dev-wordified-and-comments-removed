@@ -281,10 +281,9 @@ doc
 >
 {
 await
-toggleBadge
+toggleFilter
 (
 doc
-0
 0
 )
 ;

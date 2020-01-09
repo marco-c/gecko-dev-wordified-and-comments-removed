@@ -248,7 +248,8 @@ desc
 Click
 on
 the
-badge
+contrast
+filter
 .
 "
 setup
@@ -263,10 +264,9 @@ doc
 >
 {
 await
-toggleBadge
+toggleFilter
 (
 doc
-2
 0
 )
 ;
@@ -336,7 +336,8 @@ desc
 Click
 on
 the
-badge
+contrast
+filter
 again
 .
 "
@@ -352,10 +353,9 @@ doc
 >
 {
 await
-toggleBadge
+toggleFilter
 (
 doc
-0
 0
 )
 ;
@@ -474,8 +474,7 @@ tree
 with
 contrast
 badge
-audit
-activation
+present
 .
 "
 )
