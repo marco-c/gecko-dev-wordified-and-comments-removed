@@ -83,6 +83,8 @@ firefox
 b
 -
 1
+-
+d
 "
 ;
 break
@@ -98,6 +100,8 @@ code
 firefox
 -
 b
+-
+d
 "
 ;
 break
@@ -140,11 +144,7 @@ codes
 .
 keyword
 =
-{
 code
-}
--
-ab
 ;
 }
 function
