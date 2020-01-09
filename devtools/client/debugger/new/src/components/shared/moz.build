@@ -69,7 +69,7 @@ DIRS
 Button
 '
 ]
-DebuggerModules
+CompiledModules
 (
 '
 AccessibleImage

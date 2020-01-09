@@ -80,7 +80,7 @@ sources
 tree
 '
 ]
-DebuggerModules
+CompiledModules
 (
 '
 assert

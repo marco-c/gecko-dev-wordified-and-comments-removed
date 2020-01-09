@@ -72,7 +72,7 @@ chrome
 firefox
 '
 ]
-DebuggerModules
+CompiledModules
 (
 '
 chrome

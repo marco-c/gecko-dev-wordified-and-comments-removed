@@ -78,6 +78,16 @@ src
 include
 (
 '
+.
+.
+/
+.
+.
+/
+shared
+/
+build
+/
 node
 -
 templates
