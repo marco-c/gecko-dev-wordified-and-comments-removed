@@ -638,14 +638,6 @@ aRv
 )
 ;
 void
-RebindToNewWindow
-(
-nsPIDOMWindowInner
-*
-aNewWindow
-)
-;
-void
 DisconnectFromWindow
 (
 nsPIDOMWindowInner
