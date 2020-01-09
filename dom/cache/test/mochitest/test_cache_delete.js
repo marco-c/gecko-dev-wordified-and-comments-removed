@@ -7,9 +7,6 @@ delete
 +
 context
 ;
-var
-c
-;
 function
 setupTest
 (

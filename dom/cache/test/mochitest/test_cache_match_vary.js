@@ -354,12 +354,12 @@ then
 (
 function
 (
-r
+res
 )
 {
 response
 =
-r
+res
 ;
 return
 Promise
@@ -1010,9 +1010,6 @@ fail
 )
 ;
 }
-var
-test
-;
 return
 new
 Promise

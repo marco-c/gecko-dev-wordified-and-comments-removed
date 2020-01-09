@@ -338,12 +338,12 @@ then
 (
 function
 (
-keys
+key_arr
 )
 {
 is
 (
-keys
+key_arr
 .
 length
 tests
@@ -357,7 +357,7 @@ elements
 "
 )
 ;
-keys
+key_arr
 .
 forEach
 (

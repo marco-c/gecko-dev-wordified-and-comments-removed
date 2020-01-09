@@ -1,5 +1,5 @@
 var
-request1
+req1
 =
 new
 Request
@@ -27,7 +27,7 @@ fragment
 )
 ;
 var
-request2
+req2
 =
 new
 Request
@@ -50,7 +50,7 @@ context
 )
 ;
 var
-request3
+req3
 =
 new
 Request
@@ -316,7 +316,7 @@ fetch
 new
 Request
 (
-request1
+req1
 )
 )
 .
@@ -358,7 +358,7 @@ fetch
 new
 Request
 (
-request3
+req3
 )
 )
 ;
@@ -400,12 +400,12 @@ text
 return
 testRequest
 (
-request1
-request2
-request3
+req1
+req2
+req3
 unknownRequest
 requestWithAltQS
-request1
+req1
 .
 url
 .
@@ -434,13 +434,13 @@ function
 return
 testRequest
 (
-request1
+req1
 .
 url
-request2
+req2
 .
 url
-request3
+req3
 .
 url
 unknownRequest
@@ -449,7 +449,7 @@ url
 requestWithAltQS
 .
 url
-request1
+req1
 .
 url
 .
@@ -488,7 +488,7 @@ testRequest
 request1
 request2
 request3
-unknownRequest
+unknownReq
 requestWithAlternateQueryString
 requestWithDifferentFragment
 )
@@ -1321,7 +1321,7 @@ c
 .
 matchAll
 (
-unknownRequest
+unknownReq
 )
 ;
 }
@@ -1357,7 +1357,7 @@ caches
 .
 match
 (
-unknownRequest
+unknownReq
 {
 cacheName
 :

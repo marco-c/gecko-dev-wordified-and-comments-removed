@@ -659,7 +659,7 @@ args
 ]
 ;
 var
-response
+res
 =
 args
 [
@@ -668,7 +668,7 @@ args
 ;
 ok
 (
-response
+res
 instanceof
 Response
 "
@@ -682,7 +682,7 @@ Response
 ;
 is
 (
-response
+res
 .
 status
 200
@@ -729,7 +729,7 @@ put
 /
 cachekey2
 "
-response
+res
 )
 ]
 )
@@ -771,11 +771,11 @@ then
 (
 function
 (
-response
+res
 )
 {
 return
-response
+res
 .
 text
 (

@@ -1,5 +1,5 @@
 var
-request
+req
 =
 new
 Request
@@ -45,7 +45,7 @@ queryString
 )
 ;
 var
-unknownRequest
+unknownReq
 =
 new
 Request
@@ -279,7 +279,7 @@ fetch
 new
 Request
 (
-request
+req
 )
 )
 .
@@ -318,10 +318,10 @@ text
 return
 testRequest
 (
-request
-unknownRequest
+req
+unknownReq
 requestWithAltQS
-request
+req
 .
 url
 .
@@ -350,16 +350,16 @@ function
 return
 testRequest
 (
-request
+req
 .
 url
-unknownRequest
+unknownReq
 .
 url
 requestWithAltQS
 .
 url
-request
+req
 .
 url
 .
@@ -713,7 +713,7 @@ method
 )
 {
 var
-req
+req1
 =
 new
 Request
@@ -729,7 +729,7 @@ c
 .
 match
 (
-req
+req1
 )
 .
 then
@@ -768,7 +768,7 @@ c
 .
 match
 (
-req
+req1
 {
 ignoreMethod
 :

@@ -547,7 +547,7 @@ script
 }
 catch
 (
-e
+err
 )
 {
 client
@@ -583,7 +583,7 @@ error
 :
 "
 +
-e
+err
 .
 message
 }

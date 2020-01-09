@@ -62,7 +62,7 @@ js
 function
 addOpaque
 (
-cache
+c
 url
 )
 {
@@ -93,7 +93,7 @@ response
 )
 {
 return
-cache
+c
 .
 put
 (
