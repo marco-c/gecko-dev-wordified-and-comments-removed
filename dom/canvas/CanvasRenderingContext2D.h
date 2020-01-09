@@ -3349,10 +3349,6 @@ Rect
 aCoveredRect
 =
 nullptr
-bool
-aWillClear
-=
-false
 )
 ;
 void
@@ -3490,11 +3486,6 @@ PatternIsOpaque
 (
 Style
 aStyle
-bool
-*
-aIsColor
-=
-nullptr
 )
 const
 ;
