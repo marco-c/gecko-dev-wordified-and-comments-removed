@@ -5218,6 +5218,9 @@ srcArray
 realm
 (
 )
+|
+|
+isWrapped
 )
 {
 if
