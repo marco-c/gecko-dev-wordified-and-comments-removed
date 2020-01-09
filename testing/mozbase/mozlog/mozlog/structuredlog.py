@@ -1306,7 +1306,7 @@ hasattr
 (
 handler
 "
-handle_message
+message_handler
 "
 )
 :
@@ -1315,6 +1315,8 @@ rv
 +
 =
 handler
+.
+message_handler
 .
 handle_message
 (
