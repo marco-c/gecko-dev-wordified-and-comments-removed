@@ -610,6 +610,14 @@ bindings
 '
 '
 /
+js
+/
+xpconnect
+/
+src
+'
+'
+/
 layout
 /
 base
