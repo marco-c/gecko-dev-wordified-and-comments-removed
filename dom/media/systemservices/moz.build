@@ -344,16 +344,6 @@ clang
 cl
 '
 :
-DEFINES
-[
-'
-__PRETTY_FUNCTION__
-'
-]
-=
-'
-__FUNCSIG__
-'
 #
 This
 is

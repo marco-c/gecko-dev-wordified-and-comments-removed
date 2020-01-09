@@ -578,13 +578,3 @@ of
 greater
 size
 ]
-DEFINES
-[
-'
-__PRETTY_FUNCTION__
-'
-]
-=
-'
-__FUNCSIG__
-'
