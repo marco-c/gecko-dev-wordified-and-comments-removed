@@ -326,6 +326,11 @@ match
 svg
 '
 '
+reload
+.
+svg
+'
+'
 resume
 .
 svg
