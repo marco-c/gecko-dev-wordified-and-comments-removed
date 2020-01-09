@@ -28478,10 +28478,6 @@ nsIFrame
 *
 aFrame
 const
-CompositorAnimatableDisplayItemTypes
-&
-aDisplayItemTypes
-const
 AnimationGenerationCallback
 &
 aCallback
@@ -28510,7 +28506,10 @@ for
 auto
 displayItemType
 :
-aDisplayItemTypes
+LayerAnimationInfo
+:
+:
+sDisplayItemTypes
 )
 {
 notFoundTypes
@@ -28532,7 +28531,10 @@ for
 auto
 displayItemType
 :
-aDisplayItemTypes
+LayerAnimationInfo
+:
+:
+sDisplayItemTypes
 )
 {
 const
@@ -28779,7 +28781,10 @@ for
 auto
 displayItemType
 :
-aDisplayItemTypes
+LayerAnimationInfo
+:
+:
+sDisplayItemTypes
 )
 {
 if

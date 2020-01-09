@@ -1060,10 +1060,6 @@ FrameLayerBuilder
 EnumerateGenerationForDedicatedLayers
 (
 aFrame
-LayerAnimationInfo
-:
-:
-sDisplayItemTypes
 aCallback
 )
 ;
