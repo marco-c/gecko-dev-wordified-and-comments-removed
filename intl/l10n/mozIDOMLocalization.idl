@@ -222,6 +222,14 @@ Element
 aElement
 )
 ;
+void
+disconnectRoot
+(
+in
+Element
+aElement
+)
+;
 Promise
 translateRoots
 (
