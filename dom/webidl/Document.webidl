@@ -969,12 +969,9 @@ Location
 ?
 location
 ;
-/
-/
-(
-HTML
-only
-)
+[
+SetterThrows
+]
 attribute
 DOMString
 domain

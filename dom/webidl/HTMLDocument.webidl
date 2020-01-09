@@ -99,13 +99,6 @@ HTMLDocument
 :
 Document
 {
-[
-SetterThrows
-]
-attribute
-DOMString
-domain
-;
 /
 /
 DOM
