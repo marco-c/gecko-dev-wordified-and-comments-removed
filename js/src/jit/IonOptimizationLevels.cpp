@@ -368,7 +368,13 @@ warmUpThreshold
 +
 loopDepth
 *
-100
+(
+baseCompilerWarmUpThreshold
+(
+)
+/
+10
+)
 ;
 }
 OptimizationLevelInfo
