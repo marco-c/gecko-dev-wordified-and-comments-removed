@@ -538,11 +538,6 @@ products
 "
 gecko
 "
-gecko_ffi_name
-=
-"
-mSpecifiedWindowTransform
-"
 flags
 =
 "

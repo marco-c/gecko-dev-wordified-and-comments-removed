@@ -894,9 +894,12 @@ CSSValue
 >
 GetTransformValue
 (
-nsCSSValueSharedList
-*
-aSpecifiedTransform
+const
+mozilla
+:
+:
+StyleTransform
+&
 )
 ;
 void
