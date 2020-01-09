@@ -152,6 +152,11 @@ content
 GeckoViewSelectionActionChild
 .
 js
+content
+/
+SessionStateAggregator
+.
+js
 %
 content
 branding
