@@ -11988,7 +11988,7 @@ const
 int
 max_retries
 =
-50
+300
 ;
 int
 retries
