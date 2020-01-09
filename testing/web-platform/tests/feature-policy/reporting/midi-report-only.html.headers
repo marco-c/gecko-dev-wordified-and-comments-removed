@@ -1,12 +1,12 @@
 Feature
 -
 Policy
+-
+Report
+-
+Only
 :
 midi
--
-report
--
-only
 '
 none
 '
