@@ -397,6 +397,15 @@ fakeIntlReady
 )
 ;
 await
+Services
+.
+search
+.
+init
+(
+)
+;
+await
 setEmptyPrefWatchlist
 (
 )
