@@ -670,7 +670,7 @@ topsites_form_image_url_label
 "
 :
 "
-URL
+Adresse
 von
 benutzerdefinierter
 Grafik
@@ -733,7 +733,7 @@ topsites_form_url_validation
 "
 G
 ltige
-URL
+Adresse
 erforderlich
 "
 "
@@ -751,7 +751,7 @@ Verwenden
 Sie
 eine
 andere
-URL
+Adresse
 .
 "
 "
@@ -1207,14 +1207,6 @@ context_menu_title
 "
 Men
 ffnen
-"
-"
-pocket_learn_more
-"
-:
-"
-Weitere
-Informationen
 "
 }
 ;
