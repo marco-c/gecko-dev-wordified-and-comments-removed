@@ -730,10 +730,13 @@ aState
 override
 ;
 virtual
-void
+nsresult
 SetFocus
 (
-Raise
+bool
+aRaise
+=
+false
 )
 override
 ;

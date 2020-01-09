@@ -4305,13 +4305,14 @@ BackingScaleFactor
 ]
 ;
 }
-void
+nsresult
 nsWindow
 :
 :
 SetFocus
 (
-Raise
+bool
+aRaise
 )
 {
 [
@@ -4326,6 +4327,9 @@ makeKeyWindow
 mNativeView
 becomeFirstResponder
 ]
+;
+return
+NS_OK
 ;
 }
 void
