@@ -1237,7 +1237,7 @@ isWasmCall
 target
 -
 >
-isWasmOptimized
+isWasmWithJitEntry
 (
 )
 ;
@@ -24598,7 +24598,7 @@ MOZ_ASSERT
 target
 -
 >
-isWasmOptimized
+isWasmWithJitEntry
 (
 )
 )
