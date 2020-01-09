@@ -499,7 +499,6 @@ preferAlternativeDataType
 altContentType
 "
 "
-true
 )
 ;
 chan
@@ -729,7 +728,6 @@ text
 /
 javascript
 "
-true
 )
 ;
 cc
@@ -742,7 +740,6 @@ text
 /
 plain
 "
-true
 )
 ;
 cc
@@ -754,7 +751,6 @@ dummy2
 "
 "
 "
-true
 )
 ;
 chan
@@ -946,7 +942,6 @@ preferAlternativeDataType
 altContentType
 "
 "
-true
 )
 ;
 chan

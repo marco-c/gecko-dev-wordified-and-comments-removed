@@ -2265,7 +2265,11 @@ Wasm
 :
 requiredMimeType
 =
-WASM_CONTENT_TYPE
+"
+application
+/
+wasm
+"
 ;
 break
 ;
