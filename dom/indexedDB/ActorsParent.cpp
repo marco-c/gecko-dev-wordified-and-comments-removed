@@ -50063,7 +50063,7 @@ MOZ_ASSERT
 aDatabaseInfo
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 aDatabaseInfo
