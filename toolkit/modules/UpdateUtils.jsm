@@ -833,9 +833,11 @@ catch
 e
 )
 {
-Cu
+Services
 .
-reportError
+console
+.
+logStringMessage
 (
 "
 UpdateUtils
@@ -845,11 +847,11 @@ getAppUpdateAutoEnabled
 Unable
 to
 read
+app
+update
 "
 +
 "
-app
-update
 configuration
 file
 .
