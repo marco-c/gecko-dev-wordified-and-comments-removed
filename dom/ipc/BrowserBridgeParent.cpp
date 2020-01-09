@@ -79,6 +79,19 @@ BrowserBridgeParent
 (
 )
 {
+if
+(
+mTabParent
+)
+{
+mTabParent
+-
+>
+mBrowserBridgeParent
+=
+nullptr
+;
+}
 }
 nsresult
 BrowserBridgeParent
@@ -256,6 +269,7 @@ constructorSender
 tabId
 tabContext
 chromeFlags
+this
 )
 )
 ;

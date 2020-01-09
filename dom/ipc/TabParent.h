@@ -314,6 +314,9 @@ Element
 class
 DataTransfer
 ;
+class
+BrowserBridgeParent
+;
 namespace
 ipc
 {
@@ -356,6 +359,10 @@ friend
 class
 PBrowserParent
 ;
+friend
+class
+BrowserBridgeParent
+;
 virtual
 ~
 TabParent
@@ -384,6 +391,11 @@ TabContext
 aContext
 uint32_t
 aChromeFlags
+BrowserBridgeParent
+*
+aBrowserBridgeParent
+=
+nullptr
 )
 ;
 Element
@@ -2635,6 +2647,13 @@ GetRenderFrame
 (
 )
 ;
+BrowserBridgeParent
+*
+GetBrowserBridgeParent
+(
+)
+const
+;
 mozilla
 :
 :
@@ -3151,6 +3170,10 @@ RefPtr
 CanonicalBrowsingContext
 >
 mBrowsingContext
+;
+BrowserBridgeParent
+*
+mBrowserBridgeParent
 ;
 TabId
 mTabId
