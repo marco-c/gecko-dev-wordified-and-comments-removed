@@ -1187,15 +1187,6 @@ DOMWindowID
 ;
 }
 ;
-union
-OptionalWebProgressData
-{
-void_t
-;
-WebProgressData
-;
-}
-;
 struct
 RequestData
 {
@@ -3577,7 +3568,8 @@ documentURI
 async
 OnContentBlockingEvent
 (
-OptionalWebProgressData
+WebProgressData
+?
 aWebProgressData
 RequestData
 aRequestData
