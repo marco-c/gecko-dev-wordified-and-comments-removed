@@ -1124,9 +1124,6 @@ BinASTTokenReaderMultipart
 :
 readBool
 (
-const
-Context
-&
 )
 {
 updateLatestKnownGood
@@ -1200,9 +1197,6 @@ BinASTTokenReaderMultipart
 :
 readDouble
 (
-const
-Context
-&
 )
 {
 updateLatestKnownGood
@@ -1320,9 +1314,6 @@ BinASTTokenReaderMultipart
 :
 readMaybeAtom
 (
-const
-Context
-&
 )
 {
 updateLatestKnownGood
@@ -1386,10 +1377,6 @@ BinASTTokenReaderMultipart
 :
 readAtom
 (
-const
-Context
-&
-context
 )
 {
 BINJS_MOZ_TRY_DECL
@@ -1397,7 +1384,6 @@ BINJS_MOZ_TRY_DECL
 maybe
 readMaybeAtom
 (
-context
 )
 )
 ;
@@ -1434,10 +1420,6 @@ BinASTTokenReaderMultipart
 :
 readMaybeIdentifierName
 (
-const
-Context
-&
-context
 )
 {
 BINJS_MOZ_TRY_DECL
@@ -1445,7 +1427,6 @@ BINJS_MOZ_TRY_DECL
 result
 readMaybeAtom
 (
-context
 )
 )
 ;
@@ -1491,10 +1472,6 @@ BinASTTokenReaderMultipart
 :
 readIdentifierName
 (
-const
-Context
-&
-context
 )
 {
 BINJS_MOZ_TRY_DECL
@@ -1502,7 +1479,6 @@ BINJS_MOZ_TRY_DECL
 result
 readAtom
 (
-context
 )
 )
 ;
@@ -1542,16 +1518,11 @@ BinASTTokenReaderMultipart
 :
 readPropertyKey
 (
-const
-Context
-&
-context
 )
 {
 return
 readAtom
 (
-context
 )
 ;
 }
@@ -1570,9 +1541,6 @@ readChars
 Chars
 &
 out
-const
-Context
-&
 )
 {
 updateLatestKnownGood
@@ -1644,9 +1612,6 @@ BinASTTokenReaderMultipart
 :
 readVariant
 (
-const
-Context
-&
 )
 {
 updateLatestKnownGood
@@ -1805,9 +1770,6 @@ BinASTTokenReaderMultipart
 :
 readSkippableSubTree
 (
-const
-Context
-&
 )
 {
 updateLatestKnownGood
@@ -1895,9 +1857,6 @@ BinASTTokenReaderMultipart
 :
 BinASTFields
 &
-const
-Context
-&
 AutoTaggedTuple
 &
 guard
@@ -1974,9 +1933,6 @@ enterList
 uint32_t
 &
 items
-const
-Context
-&
 AutoList
 &
 guard
