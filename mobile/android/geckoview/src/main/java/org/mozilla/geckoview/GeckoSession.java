@@ -14504,7 +14504,6 @@ CATEGORY_SOCIAL
 CATEGORY_CONTENT
 CATEGORY_ALL
 CATEGORY_TEST
-CATEGORY_AD_EXT
 }
 )
 interface
@@ -14581,16 +14580,6 @@ CATEGORY_ALL
 )
 -
 1
-;
-static
-final
-int
-CATEGORY_AD_EXT
-=
-1
-<
-<
-6
 ;
 UiThread
 void
