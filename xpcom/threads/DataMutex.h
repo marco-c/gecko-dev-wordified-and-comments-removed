@@ -6,6 +6,11 @@ define
 DataMutex_h__
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -247,7 +252,13 @@ aName
 )
 mValue
 (
+std
+:
+:
+move
+(
 aValue
+)
 )
 {
 }
