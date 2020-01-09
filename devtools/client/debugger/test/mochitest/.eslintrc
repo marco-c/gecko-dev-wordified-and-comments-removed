@@ -216,6 +216,11 @@ getContext
 :
 false
 "
+getEditorLineGutter
+"
+:
+false
+"
 getCM
 "
 :
@@ -562,6 +567,11 @@ clickElementWithSelector
 false
 "
 clickDOMElement
+"
+:
+false
+"
+dblClickElement
 "
 :
 false
