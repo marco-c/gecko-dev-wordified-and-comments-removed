@@ -670,11 +670,11 @@ aContext
 Element
 *
 aCanvasElement
-nsTArray
+Span
 <
-nsStyleFilter
+const
+StyleFilter
 >
-&
 aFilters
 )
 ;
@@ -791,7 +791,7 @@ nsIFrame
 *
 aFrame
 const
-nsStyleFilter
+StyleFilter
 &
 aFilter
 )

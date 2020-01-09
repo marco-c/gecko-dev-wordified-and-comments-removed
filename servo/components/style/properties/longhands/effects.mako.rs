@@ -237,6 +237,14 @@ None
 vector
 =
 True
+simple_vector_bindings
+=
+True
+gecko_ffi_name
+=
+"
+mFilters
+"
 separator
 =
 "

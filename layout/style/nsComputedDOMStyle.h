@@ -168,9 +168,6 @@ nsROCSSPrimitiveValue
 class
 nsStyleCoord
 ;
-struct
-nsStyleFilter
-;
 class
 nsStyleGradient
 ;

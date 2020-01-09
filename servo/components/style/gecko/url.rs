@@ -1146,13 +1146,6 @@ ToCss
 ToShmem
 )
 ]
-#
-[
-repr
-(
-C
-)
-]
 pub
 struct
 SpecifiedImageUrl
@@ -1571,6 +1564,13 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+)
+]
+#
+[
+repr
+(
+transparent
 )
 ]
 pub

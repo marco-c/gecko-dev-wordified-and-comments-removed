@@ -157,7 +157,7 @@ nsSVGFilterInstance
 nsSVGFilterInstance
 (
 const
-nsStyleFilter
+StyleFilter
 &
 aFilter
 nsIFrame
@@ -505,14 +505,12 @@ aTargetFrame
 {
 if
 (
+!
 mFilter
 .
-GetType
+IsUrl
 (
 )
-!
-=
-NS_STYLE_FILTER_URL
 )
 {
 return
@@ -581,7 +579,7 @@ url
 =
 mFilter
 .
-GetURL
+AsUrl
 (
 )
 .
@@ -601,7 +599,7 @@ MOZ_ASSERT_UNREACHABLE
 (
 "
 an
-nsStyleFilter
+StyleFilter
 of
 type
 URL
@@ -635,7 +633,7 @@ mTargetContent
 url
 mFilter
 .
-GetURL
+AsUrl
 (
 )
 .
@@ -648,7 +646,7 @@ GetReferrer
 )
 mFilter
 .
-GetURL
+AsUrl
 (
 )
 .
