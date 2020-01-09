@@ -50699,14 +50699,6 @@ ShouldHandleMetaViewport
 (
 mDocument
 )
-|
-|
-gfxPrefs
-:
-:
-APZAllowZooming
-(
-)
 ;
 if
 (
