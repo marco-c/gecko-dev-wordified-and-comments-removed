@@ -1210,6 +1210,8 @@ restore
 ;
 add_task
 (
+withMockApiServer
+(
 async
 function
 test_fetchSignedObjects_validation_error
@@ -1436,6 +1438,7 @@ restore
 )
 ;
 }
+)
 )
 ;
 const
