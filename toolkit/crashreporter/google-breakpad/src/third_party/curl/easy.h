@@ -122,6 +122,15 @@ size_t
 n
 )
 ;
+CURL_EXTERN
+CURLcode
+curl_easy_upkeep
+(
+CURL
+*
+curl
+)
+;
 #
 ifdef
 __cplusplus
