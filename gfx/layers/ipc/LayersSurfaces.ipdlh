@@ -304,6 +304,9 @@ format
 IntSize
 size
 ;
+YUVColorSpace
+yUVColorSpace
+;
 }
 ;
 struct

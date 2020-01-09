@@ -1929,6 +1929,13 @@ mDXGIHandle
 )
 format
 mSize
+gfx
+:
+:
+YUVColorSpace
+:
+:
+UNKNOWN
 )
 ;
 return
