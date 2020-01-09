@@ -258,9 +258,9 @@ webrender
 5
 -
 9
-700
+1560
 -
-850
+1680
 )
 =
 =
@@ -618,6 +618,15 @@ fuzzy
 0
 -
 440
+)
+fails
+-
+if
+(
+webrender
+&
+&
+gtkWidget
 )
 =
 =
