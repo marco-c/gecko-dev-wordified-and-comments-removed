@@ -56,16 +56,6 @@ MPL
 DevToolsModules
 (
 '
-IconLabel
-.
-css
-'
-'
-IconLabel
-.
-js
-'
-'
 Message
 .
 css
