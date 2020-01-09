@@ -843,7 +843,10 @@ sdpMLineIndex
 null
 ;
 DOMString
+?
 usernameFragment
+=
+null
 ;
 }
 ;
@@ -2014,6 +2017,8 @@ Window
 ]
 interface
 RTCSctpTransport
+:
+EventTarget
 {
 readonly
 attribute
