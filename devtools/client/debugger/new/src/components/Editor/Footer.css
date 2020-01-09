@@ -344,9 +344,11 @@ var
 -
 theme
 -
-highlight
+icon
 -
-blue
+checked
+-
+color
 )
 ;
 }
