@@ -221,6 +221,15 @@ string
 title
 )
 ;
+int
+GetWindowProcessID
+(
+:
+:
+Window
+window
+)
+;
 Callback
 *
 callback_

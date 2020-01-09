@@ -5,7 +5,7 @@ modules
 /
 desktop_capture
 /
-x11
+linux
 /
 shared_x_util
 .

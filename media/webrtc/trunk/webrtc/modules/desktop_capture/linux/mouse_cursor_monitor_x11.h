@@ -66,6 +66,8 @@ DesktopCaptureOptions
 options
 Window
 window
+Window
+inner_window
 )
 ;
 ~
@@ -183,6 +185,9 @@ mode_
 ;
 Window
 window_
+;
+Window
+inner_window_
 ;
 bool
 have_xfixes_
