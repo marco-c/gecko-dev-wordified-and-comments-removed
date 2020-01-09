@@ -522,7 +522,7 @@ handler_
 }
 ;
 struct
-ParserBaseMatcher
+ParserSharedBaseMatcher
 {
 template
 <
@@ -532,7 +532,7 @@ Parser
 frontend
 :
 :
-ParserBase
+ParserSharedBase
 &
 match
 (
@@ -548,7 +548,7 @@ static_cast
 frontend
 :
 :
-ParserBase
+ParserSharedBase
 *
 >
 (
