@@ -365,7 +365,7 @@ Number
 how
 many
 dispatches
-occured
+occurred
 for
 this
 page
@@ -399,7 +399,7 @@ Number
 how
 many
 dispatches
-occured
+occurred
 in
 the
 last
