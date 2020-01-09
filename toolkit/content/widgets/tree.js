@@ -3004,9 +3004,9 @@ chrome
 /
 global
 /
-skin
+content
 /
-tree
+widgets
 .
 css
 "
