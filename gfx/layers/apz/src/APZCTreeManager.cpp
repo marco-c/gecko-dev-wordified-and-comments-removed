@@ -2485,11 +2485,14 @@ mScrollThumbInfo
 .
 emplace_back
 (
+*
+(
 thumb
 -
 >
 GetScrollbarAnimationId
 (
+)
 )
 thumb
 -

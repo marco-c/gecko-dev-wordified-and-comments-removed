@@ -270,7 +270,10 @@ void
 SetScrollbarData
 (
 const
+Maybe
+<
 uint64_t
+>
 &
 aScrollbarAnimationId
 const
@@ -324,9 +327,10 @@ GetScrollbarData
 )
 const
 ;
-const
+Maybe
+<
 uint64_t
-&
+>
 GetScrollbarAnimationId
 (
 )
@@ -481,7 +485,10 @@ mLockCount
 LayersId
 mLayersId
 ;
+Maybe
+<
 uint64_t
+>
 mScrollbarAnimationId
 ;
 ScrollbarData

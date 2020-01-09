@@ -144,10 +144,6 @@ mLayersId
 (
 aLayersId
 )
-mScrollbarAnimationId
-(
-0
-)
 mFixedPosTarget
 (
 ScrollableLayerGuid
@@ -409,7 +405,10 @@ HitTestingTreeNode
 SetScrollbarData
 (
 const
+Maybe
+<
 uint64_t
+>
 &
 aScrollbarAnimationId
 const
@@ -566,9 +565,10 @@ mScrollbarData
 mTargetViewId
 ;
 }
-const
+Maybe
+<
 uint64_t
-&
+>
 HitTestingTreeNode
 :
 :
