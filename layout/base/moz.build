@@ -337,11 +337,6 @@ nsIPercentBSizeObserver
 h
 '
 '
-nsIPresShell
-.
-h
-'
-'
 nsIReflowCallback
 .
 h
