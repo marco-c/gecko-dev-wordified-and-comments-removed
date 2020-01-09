@@ -16866,6 +16866,10 @@ schedulingState
 inHighFrequencyGCMode
 (
 )
+&
+&
+!
+cleanUpEverything
 )
 {
 return
