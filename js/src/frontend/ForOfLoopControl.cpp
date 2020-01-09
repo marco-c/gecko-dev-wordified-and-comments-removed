@@ -147,7 +147,13 @@ numYieldsAtBeginCodeNeedingIterClose_
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 numYields
+(
+)
 ;
 return
 true
@@ -370,7 +376,13 @@ numYieldsEmitted
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 numYields
+(
+)
 ;
 if
 (
