@@ -181,6 +181,12 @@ testText
 ;
 gURLBar
 .
+valueIsTyped
+=
+true
+;
+gURLBar
+.
 focus
 (
 )

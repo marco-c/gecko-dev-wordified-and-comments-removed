@@ -162,6 +162,8 @@ bar
 {
 gURLBar
 .
+textbox
+.
 parentNode
 .
 appendChild
