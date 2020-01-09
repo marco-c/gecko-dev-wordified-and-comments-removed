@@ -603,7 +603,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_WindowBackground
+ColorID
+:
+:
+WindowBackground
 &
 browser
 -

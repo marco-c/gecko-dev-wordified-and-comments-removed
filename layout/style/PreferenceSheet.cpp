@@ -348,7 +348,10 @@ GetColorUsingStandins
 LookAndFeel
 :
 :
-eColorID_windowtext
+ColorID
+:
+:
+Windowtext
 mDefaultColor
 )
 ;
@@ -362,7 +365,10 @@ GetColorUsingStandins
 LookAndFeel
 :
 :
-eColorID_window
+ColorID
+:
+:
+Window
 mDefaultBackgroundColor
 )
 ;
@@ -410,7 +416,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_WindowForeground
+ColorID
+:
+:
+WindowForeground
 mDefaultColor
 )
 ;
@@ -424,7 +433,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_WindowBackground
+ColorID
+:
+:
+WindowBackground
 mDefaultBackgroundColor
 )
 ;

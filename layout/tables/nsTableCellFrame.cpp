@@ -1350,7 +1350,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_TextSelectBackground
+ColorID
+:
+:
+TextSelectBackground
 )
 ;
 }

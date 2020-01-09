@@ -1201,7 +1201,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_TextSelectForeground
+ColorID
+:
+:
+TextSelectForeground
 &
 selectionForegroundColor
 )
@@ -1287,7 +1290,10 @@ GetColor
 LookAndFeel
 :
 :
-eColorID_TextSelectBackground
+ColorID
+:
+:
+TextSelectBackground
 &
 selectionBackgroundColor
 )

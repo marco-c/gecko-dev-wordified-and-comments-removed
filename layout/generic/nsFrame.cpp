@@ -11359,7 +11359,10 @@ colorID
 LookAndFeel
 :
 :
-eColorID_TextSelectBackground
+ColorID
+:
+:
+TextSelectBackground
 ;
 }
 else
@@ -11379,7 +11382,10 @@ colorID
 LookAndFeel
 :
 :
-eColorID_TextSelectBackgroundAttention
+ColorID
+:
+:
+TextSelectBackgroundAttention
 ;
 }
 else
@@ -11389,7 +11395,10 @@ colorID
 LookAndFeel
 :
 :
-eColorID_TextSelectBackgroundDisabled
+ColorID
+:
+:
+TextSelectBackgroundDisabled
 ;
 }
 return
