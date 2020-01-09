@@ -1266,6 +1266,7 @@ scroll_offset
 .
 post_translate
 (
+&
 -
 scroll_offset
 )
@@ -1315,6 +1316,7 @@ resolved_transform
 .
 post_translate
 (
+&
 state
 .
 parent_accumulated_scroll_offset
