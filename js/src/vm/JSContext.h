@@ -613,6 +613,8 @@ AllocFunction
 allocFunc
 size_t
 nbytes
+arena_id_t
+arena
 void
 *
 reallocPtr
@@ -642,6 +644,7 @@ runtime_
 onOutOfMemory
 (
 allocFunc
+arena
 nbytes
 reallocPtr
 this
@@ -753,6 +756,7 @@ AllocFunction
 :
 :
 Calloc
+arena
 bytes
 )
 )

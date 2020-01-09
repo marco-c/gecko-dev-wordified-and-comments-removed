@@ -20192,6 +20192,10 @@ AllocFunction
 :
 :
 Malloc
+js
+:
+:
+MallocArena
 JSRuntime
 :
 :
