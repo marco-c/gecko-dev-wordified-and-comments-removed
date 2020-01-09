@@ -211,8 +211,8 @@ root
 "
 >
 <
-Svg
-name
+AccessibleImage
+className
 =
 "
 home
@@ -220,8 +220,8 @@ home
 /
 >
 <
-Svg
-name
+AccessibleImage
+className
 =
 "
 breadcrumb
@@ -489,8 +489,8 @@ root
 "
 >
 <
-Svg
-name
+AccessibleImage
+className
 =
 "
 home
@@ -498,8 +498,8 @@ home
 /
 >
 <
-Svg
-name
+AccessibleImage
+className
 =
 "
 breadcrumb

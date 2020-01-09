@@ -4626,8 +4626,8 @@ arrow
 /
 >
 <
-Svg
-name
+AccessibleImage
+className
 =
 "
 angular
@@ -5152,8 +5152,8 @@ arrow
 /
 >
 <
-Svg
-name
+AccessibleImage
+className
 =
 "
 angular
@@ -7555,8 +7555,8 @@ arrow
 /
 >
 <
-Svg
-name
+AccessibleImage
+className
 =
 "
 webpack
@@ -8081,8 +8081,8 @@ arrow
 /
 >
 <
-Svg
-name
+AccessibleImage
+className
 =
 "
 webpack
