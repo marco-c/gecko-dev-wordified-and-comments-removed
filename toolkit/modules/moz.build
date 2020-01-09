@@ -1661,6 +1661,13 @@ Services
 jsm
 '
 '
+sessionstore
+/
+FormData
+.
+jsm
+'
+'
 ShortcutUtils
 .
 jsm

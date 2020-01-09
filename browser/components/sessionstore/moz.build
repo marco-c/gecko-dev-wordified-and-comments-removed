@@ -177,6 +177,11 @@ SessionStartup
 jsm
 '
 '
+SessionStorage
+.
+jsm
+'
+'
 SessionStore
 .
 jsm
