@@ -1150,7 +1150,6 @@ svg
 ref
 .
 html
-fails
 =
 =
 object
@@ -1177,10 +1176,6 @@ svg
 ref
 .
 html
-#
-bug
-1092436
-fails
 =
 =
 object
@@ -1207,9 +1202,6 @@ svg
 ref
 .
 html
-#
-bug
-1092436
 =
 =
 object
