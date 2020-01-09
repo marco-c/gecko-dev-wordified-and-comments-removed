@@ -35,7 +35,7 @@ mozilla
 /
 mscom
 /
-MainThreadRuntime
+ProcessRuntime
 .
 h
 "
@@ -112,7 +112,7 @@ mozilla
 mscom
 :
 :
-MainThreadRuntime
+ProcessRuntime
 mCOMRuntime
 ;
 #
