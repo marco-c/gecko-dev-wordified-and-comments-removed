@@ -443,6 +443,14 @@ hazmap
 assert
 (
 '
+unsafe3b
+'
+in
+hazmap
+)
+assert
+(
+'
 unsafe4
 '
 in
