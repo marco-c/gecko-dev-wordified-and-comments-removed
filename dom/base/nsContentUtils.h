@@ -3514,17 +3514,6 @@ aWindow
 )
 ;
 static
-void
-RequestFrameFocus
-(
-Element
-&
-aFrameElement
-bool
-aCanRaise
-)
-;
-static
 nsresult
 DispatchEventOnlyToChrome
 (
