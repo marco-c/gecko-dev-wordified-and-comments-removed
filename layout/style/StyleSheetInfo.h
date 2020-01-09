@@ -56,6 +56,9 @@ h
 class
 nsIPrincipal
 ;
+struct
+nsLayoutStylesheetCacheShm
+;
 namespace
 mozilla
 {
@@ -209,6 +212,12 @@ const
 RawServoStyleSheetContents
 >
 mContents
+;
+RefPtr
+<
+nsLayoutStylesheetCacheShm
+>
+mSharedMemory
 ;
 RefPtr
 <

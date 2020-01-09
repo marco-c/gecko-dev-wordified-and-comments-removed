@@ -32,7 +32,7 @@ counterstyles
 .
 css
 "
-false
+true
 )
 STYLE_SHEET
 (
@@ -86,7 +86,7 @@ html
 .
 css
 "
-false
+true
 )
 STYLE_SHEET
 (
@@ -124,7 +124,7 @@ xul
 .
 css
 "
-false
+true
 )
 STYLE_SHEET
 (
@@ -196,7 +196,7 @@ quirk
 .
 css
 "
-false
+true
 )
 STYLE_SHEET
 (
@@ -232,7 +232,7 @@ svg
 .
 css
 "
-false
+true
 )
 STYLE_SHEET
 (
@@ -268,5 +268,5 @@ xul
 .
 css
 "
-true
+false
 )
