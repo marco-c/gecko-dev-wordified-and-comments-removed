@@ -65,16 +65,14 @@ h
 #
 include
 "
-mozilla
-/
-PresShell
+nsIContentInlines
 .
 h
 "
 #
 include
 "
-nsIContentInlines
+nsIPresShell
 .
 h
 "
@@ -231,7 +229,7 @@ presShell
 retargetEventDoc
 -
 >
-GetPresShell
+GetShell
 (
 )
 ;

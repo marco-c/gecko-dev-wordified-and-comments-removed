@@ -150,15 +150,6 @@ include
 "
 mozilla
 /
-PresShell
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
@@ -2486,7 +2477,7 @@ OwnerDoc
 )
 -
 >
-GetPresShell
+GetShell
 (
 )
 ;

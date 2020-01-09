@@ -36,17 +36,6 @@ mozilla
 /
 dom
 /
-DocumentInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 HTMLIFrameElement
 .
 h

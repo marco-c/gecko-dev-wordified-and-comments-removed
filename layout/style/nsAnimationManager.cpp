@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsPresContextInlines
-.
-h
-"
-#
-include
-"
 nsStyleChangeList
 .
 h

@@ -69,13 +69,6 @@ h
 #
 include
 "
-nsPresContextInlines
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

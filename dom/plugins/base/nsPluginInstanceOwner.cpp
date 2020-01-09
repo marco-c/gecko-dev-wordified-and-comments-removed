@@ -324,17 +324,6 @@ mozilla
 /
 dom
 /
-DocumentInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 DragEvent
 .
 h

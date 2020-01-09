@@ -131,15 +131,6 @@ include
 "
 mozilla
 /
-LookAndFeel
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
@@ -149,7 +140,7 @@ include
 "
 mozilla
 /
-PresShell
+LookAndFeel
 .
 h
 "
@@ -2537,7 +2528,7 @@ GetPopupContainer
 document
 -
 >
-GetPresShell
+GetShell
 (
 )
 )
@@ -2632,7 +2623,7 @@ GetPopupContainer
 document
 -
 >
-GetPresShell
+GetShell
 (
 )
 )
@@ -2832,7 +2823,7 @@ GetPopupContainer
 document
 -
 >
-GetPresShell
+GetShell
 (
 )
 )

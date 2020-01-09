@@ -25,13 +25,6 @@ ServoStyleSet
 .
 h
 "
-#
-include
-"
-nsPresContextInlines
-.
-h
-"
 using
 namespace
 mozilla

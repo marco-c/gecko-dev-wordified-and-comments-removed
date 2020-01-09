@@ -122,15 +122,6 @@ include
 "
 mozilla
 /
-PresShell
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs
 .
 h

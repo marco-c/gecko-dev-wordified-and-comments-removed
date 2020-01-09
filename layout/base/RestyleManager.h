@@ -75,13 +75,6 @@ h
 #
 include
 "
-nsPresContextInlines
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h

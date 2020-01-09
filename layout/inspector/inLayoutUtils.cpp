@@ -74,17 +74,6 @@ mozilla
 /
 dom
 /
-DocumentInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Element
 .
 h

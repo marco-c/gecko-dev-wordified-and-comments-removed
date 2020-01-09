@@ -70,17 +70,6 @@ mozilla
 /
 dom
 /
-DocumentInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 HTMLLinkElementBinding
 .
 h
