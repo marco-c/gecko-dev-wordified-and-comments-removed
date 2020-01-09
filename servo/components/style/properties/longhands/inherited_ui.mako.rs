@@ -503,6 +503,9 @@ animation_value_type
 "
 AnimatedCaretColor
 "
+boxed
+=
+True
 ignored_when_colors_disabled
 =
 True

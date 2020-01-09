@@ -2588,7 +2588,7 @@ color
 GenericColor
 :
 :
-Foreground
+CurrentColor
 =
 >
 Color
@@ -2601,10 +2601,10 @@ GenericColor
 :
 :
 Complex
-(
+{
 .
 .
-)
+}
 =
 >
 Color
