@@ -6079,6 +6079,11 @@ chromeContext
 pageError
 .
 isFromChromeContext
+cssSelectors
+:
+pageError
+.
+cssSelectors
 }
 ;
 }

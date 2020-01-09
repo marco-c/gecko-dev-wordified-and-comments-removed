@@ -74,6 +74,11 @@ ConsoleCommand
 js
 '
 '
+CSSWarning
+.
+js
+'
+'
 DefaultRenderer
 .
 js

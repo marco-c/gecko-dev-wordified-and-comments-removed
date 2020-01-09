@@ -460,9 +460,10 @@ ms
 ;
 }
 const
-toggle
+onToggle
 =
 (
+messageId
 e
 )
 =
@@ -525,7 +526,7 @@ actions
 .
 messageClose
 (
-id
+messageId
 )
 )
 ;
@@ -538,7 +539,7 @@ actions
 .
 messageOpen
 (
-id
+messageId
 )
 )
 ;
@@ -610,9 +611,6 @@ title
 request
 .
 url
-onClick
-:
-toggle
 }
 request
 .
@@ -634,9 +632,6 @@ className
 "
 status
 "
-onClick
-:
-toggle
 }
 statusInfo
 )
@@ -845,6 +840,7 @@ collapsible
 :
 true
 open
+onToggle
 attachment
 topLevelClasses
 timeStamp

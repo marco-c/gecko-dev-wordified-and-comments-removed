@@ -94,6 +94,7 @@ const
 {
 getAllMessagesById
 getAllMessagesUiById
+getAllMessagesPayloadById
 getAllMessagesTableDataById
 getAllNetworkMessagesUpdateById
 getVisibleMessages
@@ -387,6 +388,13 @@ timestampsVisible
 PropTypes
 .
 bool
+messagesPayload
+:
+PropTypes
+.
+object
+.
+isRequired
 messagesTableData
 :
 PropTypes
@@ -901,6 +909,7 @@ dispatch
 visibleMessages
 messages
 messagesUi
+messagesPayload
 messagesTableData
 messagesRepeat
 warningGroups
@@ -992,6 +1001,14 @@ open
 messagesUi
 .
 includes
+(
+messageId
+)
+payload
+:
+messagesPayload
+.
+get
 (
 messageId
 )
@@ -1235,6 +1252,12 @@ state
 messagesUi
 :
 getAllMessagesUiById
+(
+state
+)
+messagesPayload
+:
+getAllMessagesPayloadById
 (
 state
 )

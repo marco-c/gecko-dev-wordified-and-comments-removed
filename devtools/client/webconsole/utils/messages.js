@@ -1242,6 +1242,11 @@ chromeContext
 pageError
 .
 chromeContext
+cssSelectors
+:
+pageError
+.
+cssSelectors
 }
 )
 ;
