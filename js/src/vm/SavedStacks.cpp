@@ -8803,7 +8803,7 @@ global
 realm
 -
 >
-maybeGlobal
+unsafeUnbarrieredMaybeGlobal
 (
 )
 ;
