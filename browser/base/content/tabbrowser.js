@@ -7281,6 +7281,7 @@ opener
 remoteType
 sameProcessAsFrameLoader
 recordExecution
+replaceBrowsingContext
 }
 =
 {
@@ -7842,6 +7843,7 @@ changeRemoteness
 (
 {
 remoteType
+replaceBrowsingContext
 }
 )
 ;

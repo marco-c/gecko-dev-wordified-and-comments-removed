@@ -185,6 +185,14 @@ if
 mFrameLoader
 )
 {
+if
+(
+!
+aOptions
+.
+mReplaceBrowsingContext
+)
+{
 bc
 =
 mFrameLoader
@@ -201,6 +209,7 @@ SkipBrowsingContextDetach
 (
 )
 ;
+}
 mFrameLoader
 -
 >
