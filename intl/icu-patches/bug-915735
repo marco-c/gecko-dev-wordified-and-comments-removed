@@ -38,12 +38,6 @@ config
 mh
 -
 darwin
-index
-97d6bfc
-.
-.
-fe1490e
-100644
 -
 -
 -
@@ -77,10 +71,10 @@ mh
 -
 darwin
 -
-23
+25
 21
 +
-23
+25
 17
 ARFLAGS
 +
@@ -263,6 +257,9 @@ notdir
 MIDDLE_SO_TARGET
 )
 )
+(
+PKGDATA_TRAILING_SPACE
+)
 -
 endif
 +
@@ -295,6 +292,9 @@ notdir
 (
 MIDDLE_SO_TARGET
 )
+)
+(
+PKGDATA_TRAILING_SPACE
 )
 #
 #
