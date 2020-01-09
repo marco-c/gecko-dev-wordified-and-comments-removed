@@ -5437,6 +5437,17 @@ offline
 ;
 if
 (
+connection_state_
+=
+=
+ICE_CTX_CLOSED
+)
+{
+return
+;
+}
+if
+(
 online
 )
 {

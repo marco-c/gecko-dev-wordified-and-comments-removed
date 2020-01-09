@@ -577,6 +577,10 @@ state
 =
 =
 TS_OPEN
+&
+&
+!
+mSendSrtp
 )
 {
 TransportLayerDtls
