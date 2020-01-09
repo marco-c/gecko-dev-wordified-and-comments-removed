@@ -124,7 +124,7 @@ Ci
 .
 nsIFile
 .
-FILE_TYPE
+NORMAL_FILE_TYPE
 0o600
 )
 ;
