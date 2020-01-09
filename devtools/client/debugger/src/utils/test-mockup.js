@@ -87,10 +87,6 @@ null
 introductionType
 :
 undefined
-actors
-:
-[
-]
 isWasm
 :
 false
@@ -156,10 +152,6 @@ null
 introductionType
 :
 undefined
-actors
-:
-[
-]
 isWasm
 :
 true
