@@ -214,13 +214,6 @@ css
 '
 privileged
 /
-FirefoxMonitor
-.
-jsm
-'
-'
-privileged
-/
 schema
 .
 json
