@@ -619,20 +619,6 @@ manifests
 [
                 
 '
-dom
-/
-media
-/
-test
-/
-marionette
-/
-manifest
-.
-ini
-'
-                
-'
 testing
 /
 marionette

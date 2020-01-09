@@ -1543,16 +1543,6 @@ tests
 marionette
 -
 gpu
-marionette
--
-media
--
-tests
-:
--
-marionette
--
-media
 macosx64
 -
 tests
