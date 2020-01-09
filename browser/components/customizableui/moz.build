@@ -147,11 +147,6 @@ PanelMultiView
 jsm
 '
 '
-ScrollbarSampler
-.
-jsm
-'
-'
 SearchWidgetTracker
 .
 jsm
