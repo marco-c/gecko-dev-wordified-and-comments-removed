@@ -71,6 +71,9 @@ mozilla
 class
 SVGGeometryFrame
 ;
+struct
+SVGMark
+;
 namespace
 dom
 {
@@ -79,9 +82,6 @@ SVGViewportElement
 ;
 }
 }
-struct
-nsSVGMark
-;
 class
 nsSVGMarkerFrame
 final
@@ -89,6 +89,13 @@ final
 public
 nsSVGContainerFrame
 {
+typedef
+mozilla
+:
+:
+SVGMark
+SVGMark
+;
 typedef
 mozilla
 :
@@ -308,7 +315,7 @@ SVGGeometryFrame
 *
 aMarkedFrame
 const
-nsSVGMark
+SVGMark
 &
 aMark
 float
@@ -334,7 +341,7 @@ SVGGeometryFrame
 *
 aMarkedFrame
 const
-nsSVGMark
+SVGMark
 &
 aMark
 float

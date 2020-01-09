@@ -1266,7 +1266,7 @@ GetMarkerTransform
 float
 aStrokeWidth
 const
-nsSVGMark
+SVGMark
 &
 aMark
 )
@@ -1330,7 +1330,7 @@ aMark
 type
 =
 =
-nsSVGMark
+SVGMark
 :
 :
 eStart

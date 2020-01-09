@@ -91,9 +91,6 @@ h
 class
 nsSVGMarkerFrame
 ;
-struct
-nsSVGMark
-;
 nsresult
 NS_NewSVGMarkerElement
 (
@@ -119,6 +116,9 @@ aNodeInfo
 namespace
 mozilla
 {
+struct
+SVGMark
+;
 namespace
 dom
 {
@@ -509,7 +509,7 @@ GetMarkerTransform
 float
 aStrokeWidth
 const
-nsSVGMark
+SVGMark
 &
 aMark
 )

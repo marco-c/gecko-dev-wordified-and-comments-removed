@@ -36,8 +36,11 @@ nsSVGNumber2
 .
 h
 "
+namespace
+mozilla
+{
 struct
-nsSVGMark
+SVGMark
 {
 enum
 Type
@@ -56,7 +59,7 @@ angle
 Type
 type
 ;
-nsSVGMark
+SVGMark
 (
 float
 aX
@@ -88,9 +91,6 @@ aType
 }
 }
 ;
-namespace
-mozilla
-{
 namespace
 dom
 {
@@ -307,7 +307,7 @@ GetMarkPoints
 (
 nsTArray
 <
-nsSVGMark
+SVGMark
 >
 *
 aMarks

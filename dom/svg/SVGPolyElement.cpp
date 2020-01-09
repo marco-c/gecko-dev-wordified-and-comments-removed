@@ -279,7 +279,7 @@ GetMarkPoints
 (
 nsTArray
 <
-nsSVGMark
+SVGMark
 >
 *
 aMarks
@@ -335,12 +335,12 @@ aMarks
 >
 AppendElement
 (
-nsSVGMark
+SVGMark
 (
 px
 py
 0
-nsSVGMark
+SVGMark
 :
 :
 eStart
@@ -455,12 +455,12 @@ aMarks
 >
 AppendElement
 (
-nsSVGMark
+SVGMark
 (
 x
 y
 0
-nsSVGMark
+SVGMark
 :
 :
 eMid
@@ -500,7 +500,7 @@ LastElement
 .
 type
 =
-nsSVGMark
+SVGMark
 :
 :
 eEnd

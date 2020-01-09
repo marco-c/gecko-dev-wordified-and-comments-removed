@@ -4251,7 +4251,7 @@ GetMarkerPositioningData
 (
 nsTArray
 <
-nsSVGMark
+SVGMark
 >
 *
 aMarks
@@ -5983,7 +5983,7 @@ Length
 )
 )
 {
-nsSVGMark
+SVGMark
 &
 mark
 =
@@ -6089,7 +6089,7 @@ aMarks
 >
 AppendElement
 (
-nsSVGMark
+SVGMark
 (
 static_cast
 <
@@ -6112,7 +6112,7 @@ y
 0
 .
 0f
-nsSVGMark
+SVGMark
 :
 :
 eMid
@@ -6235,7 +6235,7 @@ LastElement
 .
 type
 =
-nsSVGMark
+SVGMark
 :
 :
 eEnd
@@ -6250,7 +6250,7 @@ ElementAt
 .
 type
 =
-nsSVGMark
+SVGMark
 :
 :
 eStart

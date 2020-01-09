@@ -104,12 +104,12 @@ string
 .
 h
 >
-struct
-nsSVGMark
-;
 namespace
 mozilla
 {
+struct
+SVGMark
+;
 class
 SVGPathDataParser
 ;
@@ -367,7 +367,7 @@ GetMarkerPositioningData
 (
 nsTArray
 <
-nsSVGMark
+SVGMark
 >
 *
 aMarks

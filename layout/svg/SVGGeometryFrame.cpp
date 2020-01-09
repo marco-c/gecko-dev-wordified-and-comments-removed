@@ -2840,7 +2840,7 @@ nsSVGMarkerFrame
 *
 markerFrames
 [
-nsSVGMark
+SVGMark
 :
 :
 eTypeCount
@@ -2861,7 +2861,7 @@ markerFrames
 {
 nsTArray
 <
-nsSVGMark
+SVGMark
 >
 marks
 ;
@@ -2914,7 +2914,7 @@ i
 )
 {
 const
-nsSVGMark
+SVGMark
 &
 mark
 =
@@ -3732,7 +3732,7 @@ nsSVGMarkerFrame
 *
 markerFrames
 [
-nsSVGMark
+SVGMark
 :
 :
 eTypeCount
@@ -3753,7 +3753,7 @@ markerFrames
 {
 nsTArray
 <
-nsSVGMark
+SVGMark
 >
 marks
 ;
@@ -3821,7 +3821,7 @@ i
 )
 {
 const
-nsSVGMark
+SVGMark
 &
 mark
 =

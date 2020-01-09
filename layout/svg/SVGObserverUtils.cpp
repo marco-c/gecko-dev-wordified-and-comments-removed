@@ -4030,7 +4030,7 @@ marker
 aFrames
 )
 [
-nsSVGMark
+SVGMark
 :
 :
 e

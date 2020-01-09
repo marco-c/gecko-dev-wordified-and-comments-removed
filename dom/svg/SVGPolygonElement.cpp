@@ -136,7 +136,7 @@ GetMarkPoints
 (
 nsTArray
 <
-nsSVGMark
+SVGMark
 >
 *
 aMarks
@@ -170,7 +170,7 @@ LastElement
 type
 !
 =
-nsSVGMark
+SVGMark
 :
 :
 eEnd
@@ -179,7 +179,7 @@ eEnd
 return
 ;
 }
-nsSVGMark
+SVGMark
 *
 endMark
 =
@@ -191,7 +191,7 @@ LastElement
 (
 )
 ;
-nsSVGMark
+SVGMark
 *
 startMark
 =
@@ -234,7 +234,7 @@ endMark
 >
 type
 =
-nsSVGMark
+SVGMark
 :
 :
 eMid
@@ -278,7 +278,7 @@ aMarks
 >
 AppendElement
 (
-nsSVGMark
+SVGMark
 (
 startMark
 -
@@ -292,7 +292,7 @@ startMark
 -
 >
 angle
-nsSVGMark
+SVGMark
 :
 :
 eEnd
