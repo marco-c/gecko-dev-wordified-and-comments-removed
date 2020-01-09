@@ -142,6 +142,12 @@ python2
 }
     
 '
+avoid_avx2
+'
+:
+True
+    
+'
 dump_syms_binary
 '
 :
@@ -154,7 +160,7 @@ arch
 '
 :
 '
-arm
+x86_64
 '
     
 '

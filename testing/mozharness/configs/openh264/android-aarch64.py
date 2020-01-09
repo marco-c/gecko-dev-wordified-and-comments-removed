@@ -75,10 +75,6 @@ dump
 -
 symbols
 '
-        
-'
-upload
-'
     
 ]
     
@@ -138,13 +134,6 @@ python2
 '
 :
 "
-/
-tools
-/
-python27
-/
-bin
-/
 python2
 .
 7
@@ -192,12 +181,15 @@ partial_env
 PATH
 '
 :
+(
 '
 %
 (
 abs_work_dir
 )
 s
+/
+src
 /
 android
 -
@@ -207,12 +199,29 @@ linux
 /
 tools
 :
+'
+                 
+'
+%
+(
+abs_work_dir
+)
+s
+/
+src
+/
+clang
+/
+bin
+/
+:
 %
 (
 PATH
 )
 s
 '
+)
     
 }
 }
