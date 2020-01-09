@@ -1351,6 +1351,8 @@ mFramesEncoded
 ;
 int32_t
 mFramesDeliveredToEncoder
+=
+0
 ;
 bool
 mSsrcFound
