@@ -719,6 +719,11 @@ ErrorResult
 aRv
 )
 ;
+void
+Persist
+(
+)
+;
 bool
 IsRunningOnCompositor
 (
