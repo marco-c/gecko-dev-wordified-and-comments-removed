@@ -1886,8 +1886,6 @@ junit
 -
 jsreftest
 -
-marionette
--
 mochitest
 -
 mochitest
@@ -1976,6 +1974,8 @@ tests
 :
 -
 jsreftest
+-
+marionette
 -
 mochitest
 -
