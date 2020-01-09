@@ -18259,7 +18259,13 @@ nresumeoffsets
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 resumeOffsetList
+(
+)
 .
 length
 (
@@ -18443,7 +18449,13 @@ nresumeoffsets
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 resumeOffsetList
+(
+)
 .
 finish
 (
