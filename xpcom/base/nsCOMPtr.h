@@ -3741,6 +3741,7 @@ template
 <
 >
 class
+MOZ_IS_REFPTR
 nsCOMPtr
 <
 nsISupports
