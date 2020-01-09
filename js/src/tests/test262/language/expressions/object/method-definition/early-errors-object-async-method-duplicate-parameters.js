@@ -4,6 +4,7 @@ DONOTEVALUATE
 ;
 (
 {
+async
 foo
 (
 a

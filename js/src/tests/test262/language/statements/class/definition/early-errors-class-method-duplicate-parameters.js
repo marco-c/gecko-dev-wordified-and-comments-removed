@@ -5,7 +5,6 @@ DONOTEVALUATE
 class
 Foo
 {
-async
 foo
 (
 a

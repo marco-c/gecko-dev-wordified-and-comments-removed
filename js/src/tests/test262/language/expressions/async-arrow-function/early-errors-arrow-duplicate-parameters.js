@@ -2,14 +2,12 @@ DONOTEVALUATE
 (
 )
 ;
-(
-{
-foo
+async
 (
 a
 a
 )
+=
+>
 {
 }
-}
-)
