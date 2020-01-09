@@ -15707,7 +15707,13 @@ extra
 )
 {
 return
-false
+AbruptRejectPromise
+(
+cx
+args
+resultPromise
+nullptr
+)
 ;
 }
 args
