@@ -42,9 +42,7 @@ ThunkArgs
 )
 {
 const
-{
 workers
-}
 =
 await
 client

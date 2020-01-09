@@ -211,4 +211,9 @@ vuejs
 .
 svg
 '
+'
+worker
+.
+svg
+'
 )

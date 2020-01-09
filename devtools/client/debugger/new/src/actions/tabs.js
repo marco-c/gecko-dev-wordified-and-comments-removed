@@ -64,7 +64,7 @@ from
 /
 reducers
 /
-pause
+debuggee
 "
 ;
 import
@@ -490,6 +490,8 @@ thread
 !
 =
 mainThread
+.
+actor
 &
 &
 !

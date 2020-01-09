@@ -284,4 +284,9 @@ worker
 .
 js
 '
+'
+workers
+.
+js
+'
 )

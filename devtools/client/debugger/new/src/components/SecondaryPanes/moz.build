@@ -100,6 +100,11 @@ UtilsBar
 js
 '
 '
+Worker
+.
+js
+'
+'
 Workers
 .
 js
