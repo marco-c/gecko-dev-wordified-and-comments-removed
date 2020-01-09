@@ -11985,9 +11985,6 @@ mUserHasInteracted
 bool
 mHasUserInteractionTimerScheduled
 ;
-bool
-mUserGestureActivated
-;
 mozilla
 :
 :

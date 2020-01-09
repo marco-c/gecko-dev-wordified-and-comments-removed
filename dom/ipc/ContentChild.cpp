@@ -17285,10 +17285,6 @@ const
 Principal
 &
 aPrincipal
-const
-bool
-&
-aUseTrackingProtection
 bool
 *
 aSuccess
