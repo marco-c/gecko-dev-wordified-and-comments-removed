@@ -39221,13 +39221,6 @@ defined
 (
 HAVE_64BIT_BUILD
 )
-&
-&
-!
-defined
-(
-ANDROID
-)
 pref
 (
 "
@@ -39328,13 +39321,6 @@ if
 defined
 (
 HAVE_64BIT_BUILD
-)
-&
-&
-!
-defined
-(
-ANDROID
 )
 pref
 (
