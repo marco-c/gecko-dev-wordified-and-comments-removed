@@ -1352,7 +1352,7 @@ aAllocator
 )
 override
 {
-DXGITextureData
+D3D11TextureData
 *
 data
 =

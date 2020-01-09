@@ -637,7 +637,7 @@ DIRECT2D1_1
 {
 data
 =
-DXGITextureData
+D3D11TextureData
 :
 :
 Create
