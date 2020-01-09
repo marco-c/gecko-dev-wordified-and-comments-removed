@@ -284,7 +284,7 @@ aOldProfile
 )
 ;
 void
-RecordStartupTelemetry
+CompleteStartup
 (
 )
 ;
@@ -476,6 +476,9 @@ mCreatedAlternateProfile
 ;
 nsString
 mStartupReason
+;
+bool
+mMaybeLockProfile
 ;
 static
 nsToolkitProfileService

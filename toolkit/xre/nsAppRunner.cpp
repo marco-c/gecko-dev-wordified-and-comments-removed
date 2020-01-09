@@ -22267,7 +22267,7 @@ get
 )
 -
 >
-RecordStartupTelemetry
+CompleteStartup
 (
 )
 ;
