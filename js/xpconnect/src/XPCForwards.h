@@ -26,9 +26,6 @@ class
 nsXPCWrappedJS
 ;
 class
-nsXPCWrappedJSClass
-;
-class
 XPCNativeMember
 ;
 class
@@ -54,9 +51,6 @@ JSObject2WrappedJSMap
 ;
 class
 Native2WrappedNativeMap
-;
-class
-IID2WrappedJSClassMap
 ;
 class
 IID2NativeInterfaceMap
