@@ -104,8 +104,6 @@ attributes
 :
 -
 nightly
--
-shippable
 job
 -
 template

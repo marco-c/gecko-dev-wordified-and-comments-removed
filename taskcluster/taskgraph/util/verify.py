@@ -1618,9 +1618,6 @@ graph_config
 if
 task
 and
-any
-(
-[
 task
 .
 attributes
@@ -1630,18 +1627,6 @@ get
 '
 nightly
 '
-)
-task
-.
-attributes
-.
-get
-(
-'
-shippable
-'
-)
-]
 )
 :
         

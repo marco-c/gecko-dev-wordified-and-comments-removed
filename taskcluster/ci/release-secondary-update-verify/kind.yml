@@ -314,7 +314,7 @@ build_platform
 :
 linux64
 -
-shippable
+nightly
 firefox
 -
 secondary
@@ -358,7 +358,7 @@ build_platform
 :
 linux
 -
-shippable
+nightly
 firefox
 -
 secondary
@@ -404,7 +404,7 @@ build_platform
 :
 win64
 -
-shippable
+nightly
 firefox
 -
 secondary
@@ -450,7 +450,7 @@ build_platform
 :
 win32
 -
-shippable
+nightly
 firefox
 -
 secondary
@@ -496,4 +496,4 @@ build_platform
 :
 macosx64
 -
-shippable
+nightly

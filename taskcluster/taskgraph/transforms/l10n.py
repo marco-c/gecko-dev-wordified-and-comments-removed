@@ -320,10 +320,7 @@ type
 '
 )
 :
-_by_platform
-(
 basestring
-)
     
 }
     
@@ -1311,12 +1308,6 @@ platform
 "
 index
 .
-type
-"
-        
-"
-index
-.
 product
 "
         
@@ -1539,20 +1530,6 @@ attributes
 build_platform
 '
 ]
-.
-replace
-(
-"
--
-shippable
-"
-"
-"
-)
-        
-locales_platform
-=
-locales_platform
 .
 replace
 (

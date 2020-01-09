@@ -412,7 +412,7 @@ build_platform
 :
 linux
 -
-shippable
+nightly
 extra
 :
 platform
@@ -455,7 +455,7 @@ build_platform
 :
 linux64
 -
-shippable
+nightly
 extra
 :
 platform
@@ -498,7 +498,7 @@ build_platform
 :
 macosx64
 -
-shippable
+nightly
 extra
 :
 platform
@@ -539,7 +539,7 @@ build_platform
 :
 win32
 -
-shippable
+nightly
 extra
 :
 platform
@@ -580,7 +580,7 @@ build_platform
 :
 win64
 -
-shippable
+nightly
 extra
 :
 platform

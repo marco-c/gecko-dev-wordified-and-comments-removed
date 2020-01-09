@@ -408,21 +408,10 @@ attributes
 .
 get
 (
-            
 '
 nightly
 '
-dep_job
-.
-attributes
-.
-get
-(
-'
-shippable
-'
 False
-)
 )
         
 treeherder

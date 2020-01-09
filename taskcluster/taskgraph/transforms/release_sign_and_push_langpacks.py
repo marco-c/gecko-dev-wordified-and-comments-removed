@@ -580,7 +580,6 @@ if
 build_platform
 in
 (
-                
 '
 linux64
 -
@@ -592,12 +591,6 @@ linux64
 devedition
 -
 nightly
-'
-                
-'
-linux64
--
-shippable
 '
 )
 :
@@ -609,7 +602,6 @@ elif
 build_platform
 in
 (
-                
 '
 macosx64
 -
@@ -621,12 +613,6 @@ macosx64
 devedition
 -
 nightly
-'
-                
-'
-macosx64
--
-shippable
 '
 )
 and

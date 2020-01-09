@@ -101,7 +101,7 @@ platforms
 -
 linux64
 -
-shippable
+nightly
 /
 opt
 #
@@ -135,7 +135,7 @@ opt
 -
 macosx64
 -
-shippable
+nightly
 /
 opt
 #
@@ -291,13 +291,6 @@ always
 macosx64
 -
 nightly
-.
-*
-:
-unlisted
-macosx64
--
-shippable
 .
 *
 :

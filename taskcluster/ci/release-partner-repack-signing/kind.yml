@@ -128,12 +128,6 @@ macosx64
 nightly
 /
 opt
--
-macosx64
--
-shippable
-/
-opt
 job
 -
 template

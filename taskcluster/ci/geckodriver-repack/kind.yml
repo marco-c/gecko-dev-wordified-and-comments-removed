@@ -197,7 +197,7 @@ build
 -
 linux
 -
-shippable
+nightly
 /
 opt
 fetches
@@ -310,7 +310,7 @@ build
 -
 linux64
 -
-shippable
+nightly
 /
 opt
 fetches
@@ -425,7 +425,7 @@ build
 -
 macosx64
 -
-shippable
+nightly
 /
 opt
 fetches
@@ -540,7 +540,7 @@ build
 -
 win32
 -
-shippable
+nightly
 /
 opt
 fetches
@@ -649,7 +649,7 @@ build
 -
 win64
 -
-shippable
+nightly
 /
 opt
 fetches

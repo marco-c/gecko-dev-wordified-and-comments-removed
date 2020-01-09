@@ -894,22 +894,9 @@ job
 .
 get
 (
-            
 '
 nightly
 '
-            
-dep_job
-.
-attributes
-.
-get
-(
-                
-'
-nightly
-'
-                
 dep_job
 .
 attributes
@@ -917,9 +904,8 @@ attributes
 get
 (
 '
-shippable
+nightly
 '
-)
 )
 )
         
