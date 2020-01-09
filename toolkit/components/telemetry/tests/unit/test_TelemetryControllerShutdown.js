@@ -234,10 +234,6 @@ finishAddonManagerStartup
 (
 )
 ;
-fakeIntlReady
-(
-)
-;
 await
 setEmptyPrefWatchlist
 (
