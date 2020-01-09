@@ -25,6 +25,15 @@ h
 #
 include
 "
+ds
+/
+Fifo
+.
+h
+"
+#
+include
+"
 threading
 /
 ConditionVariable
@@ -1251,9 +1260,9 @@ SystemAllocPolicy
 >
 ;
 using
-DispatchableVector
+DispatchableFifo
 =
-Vector
+Fifo
 <
 JS
 :
@@ -1293,7 +1302,7 @@ live_
 size_t
 numCanceled_
 ;
-DispatchableVector
+DispatchableFifo
 internalDispatchQueue_
 ;
 ConditionVariable
