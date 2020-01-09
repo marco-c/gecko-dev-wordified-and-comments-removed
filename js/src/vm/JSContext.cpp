@@ -66,13 +66,6 @@ h
 #
 include
 <
-ctype
-.
-h
->
-#
-include
-<
 stdarg
 .
 h
@@ -3662,7 +3655,10 @@ fmt
 {
 if
 (
-isdigit
+mozilla
+:
+:
+IsAsciiDigit
 (
 fmt
 [

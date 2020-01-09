@@ -293,6 +293,12 @@ using
 mozilla
 :
 :
+IsAsciiDigit
+;
+using
+mozilla
+:
+:
 IsFinite
 ;
 using
@@ -14894,7 +14900,7 @@ result_len
 &
 &
 !
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -14905,7 +14911,7 @@ result_len
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -14916,7 +14922,7 @@ result_len
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -14929,7 +14935,7 @@ result_len
 &
 !
 (
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -14938,7 +14944,7 @@ buf
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -14947,7 +14953,7 @@ buf
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 buf
 [
@@ -14956,7 +14962,7 @@ buf
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 buf
 [
