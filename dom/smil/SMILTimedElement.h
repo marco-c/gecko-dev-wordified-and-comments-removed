@@ -267,7 +267,7 @@ RemoveInstanceTimesForCreator
 const
 SMILTimeValueSpec
 *
-aSpec
+aCreator
 bool
 aIsBegin
 )

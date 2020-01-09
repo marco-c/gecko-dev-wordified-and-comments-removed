@@ -255,7 +255,7 @@ RegisterEventListener
 (
 Element
 *
-aElement
+aTarget
 )
 ;
 void
@@ -263,7 +263,7 @@ UnregisterEventListener
 (
 Element
 *
-aElement
+aTarget
 )
 ;
 void
