@@ -39,7 +39,7 @@ values
 computed
 :
 :
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 ;
 #
 [

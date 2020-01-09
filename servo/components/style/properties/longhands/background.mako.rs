@@ -257,7 +257,7 @@ initial_value
 computed
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero

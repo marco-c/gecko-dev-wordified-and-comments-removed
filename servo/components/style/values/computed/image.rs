@@ -56,7 +56,7 @@ computed
 :
 {
 Length
-LengthOrPercentage
+LengthPercentage
 NumberOrPercentage
 ToComputedValue
 }
@@ -196,7 +196,7 @@ Gradient
 <
 LineDirection
 Length
-LengthOrPercentage
+LengthPercentage
 Position
 Color
 Angle
@@ -213,7 +213,7 @@ GradientKind
 <
 LineDirection
 Length
-LengthOrPercentage
+LengthPercentage
 Position
 Angle
 >
@@ -283,7 +283,7 @@ generic
 EndingShape
 <
 Length
-LengthOrPercentage
+LengthPercentage
 >
 ;
 pub
@@ -296,7 +296,7 @@ generic
 GradientItem
 <
 Color
-LengthOrPercentage
+LengthPercentage
 >
 ;
 pub
@@ -309,7 +309,7 @@ generic
 ColorStop
 <
 Color
-LengthOrPercentage
+LengthPercentage
 >
 ;
 pub

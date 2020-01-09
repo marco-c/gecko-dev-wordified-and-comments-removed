@@ -202,7 +202,7 @@ specified
 AllowQuirks
 Angle
 Integer
-LengthOrPercentage
+LengthPercentage
 }
 ;
 use
@@ -2732,7 +2732,7 @@ FontSize
 {
 Length
 (
-LengthOrPercentage
+LengthPercentage
 )
 Keyword
 (
@@ -2755,7 +2755,7 @@ SystemFont
 impl
 From
 <
-LengthOrPercentage
+LengthPercentage
 >
 for
 FontSize
@@ -2765,7 +2765,7 @@ from
 (
 other
 :
-LengthOrPercentage
+LengthPercentage
 )
 -
 >
@@ -4567,7 +4567,7 @@ FontSize
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -4621,7 +4621,7 @@ FontSize
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -4657,7 +4657,7 @@ FontSize
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -4696,7 +4696,7 @@ FontSize
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -4724,7 +4724,7 @@ FontSize
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -4767,7 +4767,7 @@ FontSize
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Calc
@@ -5159,7 +5159,7 @@ FontSize
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -5270,7 +5270,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_non_negative_quirky

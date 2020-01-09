@@ -154,7 +154,7 @@ computed
 :
 {
 Length
-LengthOrPercentage
+LengthPercentage
 }
 ;
 use
@@ -7311,7 +7311,7 @@ fy
 .
 unwrap_or
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
@@ -7326,7 +7326,7 @@ ty
 .
 unwrap_or
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
@@ -10166,8 +10166,8 @@ self
 -
 >
 (
-LengthOrPercentage
-LengthOrPercentage
+LengthPercentage
+LengthPercentage
 Length
 )
 {
@@ -10182,13 +10182,13 @@ None
 =
 >
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero
 (
 )
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero

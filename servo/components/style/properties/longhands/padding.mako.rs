@@ -167,13 +167,13 @@ side
 0
 ]
 "
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 "
 "
 computed
 :
 :
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 zero
@@ -199,7 +199,7 @@ s
 animation_value_type
 =
 "
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 "
 logical
 =

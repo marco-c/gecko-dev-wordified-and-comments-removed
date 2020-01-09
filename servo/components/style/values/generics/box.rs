@@ -30,7 +30,7 @@ pub
 enum
 VerticalAlign
 <
-LengthOrPercentage
+LengthPercentage
 >
 {
 Baseline
@@ -55,7 +55,7 @@ gecko
 MozMiddleWithBaseline
 Length
 (
-LengthOrPercentage
+LengthPercentage
 )
 }
 impl

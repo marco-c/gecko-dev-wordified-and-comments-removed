@@ -109,7 +109,7 @@ specified
 length
 :
 :
-LengthOrPercentage
+LengthPercentage
 ;
 use
 cssparser
@@ -152,7 +152,7 @@ ScrollSnapPoint
 =
 GenericScrollSnapPoint
 <
-LengthOrPercentage
+LengthPercentage
 >
 ;
 impl
@@ -249,7 +249,7 @@ parse_nested_block
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_non_negative

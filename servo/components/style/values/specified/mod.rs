@@ -618,7 +618,7 @@ length
 :
 {
 AbsoluteLength
-CalcLengthOrPercentage
+CalcLengthPercentage
 CharacterWidth
 }
 ;
@@ -645,8 +645,8 @@ length
 :
 :
 {
-LengthOrPercentage
-LengthOrPercentageOrAuto
+LengthPercentage
+LengthPercentageOrAuto
 }
 ;
 pub
@@ -658,7 +658,7 @@ length
 :
 :
 {
-LengthOrPercentageOrNone
+LengthPercentageOrNone
 MaxLength
 MozLength
 }
@@ -685,8 +685,8 @@ length
 :
 :
 {
-NonNegativeLengthOrPercentage
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentage
+NonNegativeLengthPercentageOrAuto
 }
 ;
 #
@@ -3426,7 +3426,7 @@ TrackBreadth
 =
 GenericTrackBreadth
 <
-LengthOrPercentage
+LengthPercentage
 >
 ;
 pub
@@ -3435,7 +3435,7 @@ TrackSize
 =
 GenericTrackSize
 <
-LengthOrPercentage
+LengthPercentage
 >
 ;
 pub
@@ -3444,7 +3444,7 @@ TrackList
 =
 GenericTrackList
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 ;
@@ -3463,7 +3463,7 @@ GridTemplateComponent
 =
 GenericGridTemplateComponent
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 ;

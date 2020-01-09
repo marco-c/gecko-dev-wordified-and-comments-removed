@@ -2468,7 +2468,7 @@ pub
 enum
 TrackListValue
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 {
@@ -2476,14 +2476,14 @@ TrackSize
 (
 TrackSize
 <
-LengthOrPercentage
+LengthPercentage
 >
 )
 TrackRepeat
 (
 TrackRepeat
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 )
@@ -2526,7 +2526,7 @@ pub
 struct
 TrackList
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 {
@@ -2548,7 +2548,7 @@ Vec
 <
 TrackListValue
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 >
@@ -2573,7 +2573,7 @@ Option
 <
 TrackRepeat
 <
-LengthOrPercentage
+LengthPercentage
 Integer
 >
 >

@@ -38,9 +38,9 @@ values
 computed
 :
 :
-LengthOrPercentage
+LengthPercentage
 as
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 ;
 use
 crate
@@ -120,7 +120,7 @@ specified
 {
 AllowQuirks
 Integer
-LengthOrPercentage
+LengthPercentage
 }
 ;
 use
@@ -238,14 +238,14 @@ S
 Center
 Length
 (
-LengthOrPercentage
+LengthPercentage
 )
 Side
 (
 S
 Option
 <
-LengthOrPercentage
+LengthPercentage
 >
 )
 }
@@ -625,7 +625,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_quirky
@@ -792,7 +792,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_quirky
@@ -918,7 +918,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_quirky
@@ -960,7 +960,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_quirky
@@ -1479,7 +1479,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_quirky
@@ -1526,7 +1526,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_quirky
@@ -1577,7 +1577,7 @@ PositionComponent
 :
 Length
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -1608,7 +1608,7 @@ S
 type
 ComputedValue
 =
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 ;
 fn
 to_computed_value
@@ -1637,7 +1637,7 @@ PositionComponent
 Center
 =
 >
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 :
 :
 new_percent
@@ -1683,7 +1683,7 @@ else
 }
 )
 ;
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 :
 :
 new_percent
@@ -1749,7 +1749,7 @@ unclamped_length
 (
 )
 ;
-ComputedLengthOrPercentage
+ComputedLengthPercentage
 :
 :
 with_clamping_mode
@@ -2311,7 +2311,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_quirky
@@ -2449,7 +2449,7 @@ try
 |
 i
 |
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse_quirky

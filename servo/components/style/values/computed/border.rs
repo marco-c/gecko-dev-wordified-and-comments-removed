@@ -13,7 +13,7 @@ length
 :
 {
 NonNegativeLength
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 }
 ;
 use
@@ -195,7 +195,7 @@ BorderImageSideWidth
 =
 GenericBorderImageSideWidth
 <
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 NonNegativeNumber
 >
 ;
@@ -214,7 +214,7 @@ BorderRadius
 =
 GenericBorderRadius
 <
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 >
 ;
 pub
@@ -223,7 +223,7 @@ BorderCornerRadius
 =
 GenericBorderCornerRadius
 <
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 >
 ;
 pub
@@ -408,13 +408,13 @@ Size
 :
 new
 (
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 zero
 (
 )
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 zero
@@ -456,7 +456,7 @@ is_zero
 l
 :
 &
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 )
 -
 >
@@ -466,7 +466,7 @@ bool
 l
 =
 =
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 zero

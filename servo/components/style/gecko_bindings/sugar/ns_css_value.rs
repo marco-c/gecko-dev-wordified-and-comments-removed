@@ -68,7 +68,7 @@ computed
 {
 Angle
 Length
-LengthOrPercentage
+LengthPercentage
 Percentage
 }
 ;
@@ -392,7 +392,7 @@ mut
 self
 lop
 :
-LengthOrPercentage
+LengthPercentage
 )
 {
 if
@@ -533,7 +533,7 @@ self
 )
 -
 >
-LengthOrPercentage
+LengthPercentage
 {
 match
 self
@@ -547,7 +547,7 @@ eCSSUnit_Pixel
 =
 >
 {
-LengthOrPercentage
+LengthPercentage
 :
 :
 new
@@ -574,7 +574,7 @@ nsCSSUnit
 eCSSUnit_Percent
 =
 >
-LengthOrPercentage
+LengthPercentage
 :
 :
 new_percent

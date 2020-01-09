@@ -63,7 +63,7 @@ values
 specified
 :
 :
-NonNegativeLengthOrPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 ;
 #
 [

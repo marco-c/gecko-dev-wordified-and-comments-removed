@@ -135,7 +135,7 @@ Gradient
 <
 LineDirection
 Length
-LengthOrPercentage
+LengthPercentage
 Position
 Color
 Angle
@@ -148,7 +148,7 @@ GradientKind
 <
 LineDirection
 Length
-LengthOrPercentage
+LengthPercentage
 Position
 Angle
 >
@@ -160,7 +160,7 @@ Vec
 GradientItem
 <
 Color
-LengthOrPercentage
+LengthPercentage
 >
 >
 pub
@@ -210,7 +210,7 @@ GradientKind
 <
 LineDirection
 Length
-LengthOrPercentage
+LengthPercentage
 Position
 Angle
 >
@@ -224,7 +224,7 @@ Radial
 EndingShape
 <
 Length
-LengthOrPercentage
+LengthPercentage
 >
 Position
 Option
@@ -251,7 +251,7 @@ enum
 EndingShape
 <
 Length
-LengthOrPercentage
+LengthPercentage
 >
 {
 Circle
@@ -265,7 +265,7 @@ Ellipse
 (
 Ellipse
 <
-LengthOrPercentage
+LengthPercentage
 >
 )
 }
@@ -314,13 +314,13 @@ pub
 enum
 Ellipse
 <
-LengthOrPercentage
+LengthPercentage
 >
 {
 Radii
 (
-LengthOrPercentage
-LengthOrPercentage
+LengthPercentage
+LengthPercentage
 )
 Extent
 (
@@ -394,7 +394,7 @@ enum
 GradientItem
 <
 Color
-LengthOrPercentage
+LengthPercentage
 >
 {
 ColorStop
@@ -402,12 +402,12 @@ ColorStop
 ColorStop
 <
 Color
-LengthOrPercentage
+LengthPercentage
 >
 )
 InterpolationHint
 (
-LengthOrPercentage
+LengthPercentage
 )
 }
 #
@@ -428,7 +428,7 @@ struct
 ColorStop
 <
 Color
-LengthOrPercentage
+LengthPercentage
 >
 {
 pub
@@ -440,7 +440,7 @@ position
 :
 Option
 <
-LengthOrPercentage
+LengthPercentage
 >
 }
 #

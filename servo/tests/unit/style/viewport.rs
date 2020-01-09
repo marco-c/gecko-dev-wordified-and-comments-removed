@@ -122,7 +122,7 @@ values
 specified
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 {
@@ -626,7 +626,7 @@ ViewportLength
 :
 Specified
 (
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -656,7 +656,7 @@ ViewportLength
 :
 Specified
 (
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length

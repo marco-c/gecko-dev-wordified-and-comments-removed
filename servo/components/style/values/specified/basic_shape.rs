@@ -163,8 +163,8 @@ specified
 :
 :
 {
-LengthOrPercentage
-NonNegativeLengthOrPercentage
+LengthPercentage
+NonNegativeLengthPercentage
 }
 ;
 use
@@ -249,8 +249,8 @@ BasicShape
 <
 HorizontalPosition
 VerticalPosition
-LengthOrPercentage
-NonNegativeLengthOrPercentage
+LengthPercentage
+NonNegativeLengthPercentage
 >
 ;
 pub
@@ -262,8 +262,8 @@ generic
 :
 InsetRect
 <
-LengthOrPercentage
-NonNegativeLengthOrPercentage
+LengthPercentage
+NonNegativeLengthPercentage
 >
 ;
 pub
@@ -277,7 +277,7 @@ Circle
 <
 HorizontalPosition
 VerticalPosition
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 >
 ;
 pub
@@ -291,7 +291,7 @@ Ellipse
 <
 HorizontalPosition
 VerticalPosition
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 >
 ;
 pub
@@ -303,7 +303,7 @@ generic
 :
 ShapeRadius
 <
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 >
 ;
 pub
@@ -315,7 +315,7 @@ generic
 :
 Polygon
 <
-LengthOrPercentage
+LengthPercentage
 >
 ;
 #
@@ -1332,7 +1332,7 @@ parse_with
 (
 context
 input
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -2116,7 +2116,7 @@ try
 |
 i
 |
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 parse
@@ -2356,7 +2356,7 @@ Ok
 (
 PolygonCoord
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse
@@ -2365,7 +2365,7 @@ context
 i
 )
 ?
-LengthOrPercentage
+LengthPercentage
 :
 :
 parse

@@ -466,7 +466,7 @@ Length
 "
     
 "
-LengthOrPercentage
+LengthPercentage
 "
     
 "
@@ -474,7 +474,7 @@ NonNegativeLength
 "
     
 "
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 "
     
 "

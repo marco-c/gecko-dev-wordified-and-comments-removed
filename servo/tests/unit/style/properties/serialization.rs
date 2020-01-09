@@ -91,8 +91,8 @@ specified
 :
 {
 Length
-LengthOrPercentage
-LengthOrPercentageOrAuto
+LengthPercentage
+LengthPercentageOrAuto
 }
 ;
 use
@@ -228,7 +228,7 @@ PropertyDeclaration
 :
 Width
 (
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -253,7 +253,7 @@ PropertyDeclaration
 :
 MinHeight
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -278,7 +278,7 @@ PropertyDeclaration
 :
 Height
 (
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -489,7 +489,7 @@ new
 let
 px_70
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -611,7 +611,7 @@ new
 let
 vertical_px
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -628,7 +628,7 @@ from_px
 let
 horizontal_px
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -747,7 +747,7 @@ new
 let
 top_px
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -764,7 +764,7 @@ from_px
 let
 bottom_px
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -781,7 +781,7 @@ from_px
 let
 horizontal_px
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -897,7 +897,7 @@ new
 let
 top_px
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -914,7 +914,7 @@ from_px
 let
 right_px
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -931,7 +931,7 @@ from_px
 let
 bottom_px
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -948,7 +948,7 @@ from_px
 let
 left_px
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Length
@@ -1695,7 +1695,7 @@ values
 specified
 :
 :
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 ;
 let
 mut
@@ -1711,7 +1711,7 @@ new
 let
 px_10
 :
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 =
 NoCalcLength
 :
@@ -1728,7 +1728,7 @@ into
 let
 px_15
 :
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 =
 NoCalcLength
 :

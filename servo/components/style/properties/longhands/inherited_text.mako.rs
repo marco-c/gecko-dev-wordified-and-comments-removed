@@ -357,13 +357,13 @@ text
 indent
 "
 "
-LengthOrPercentage
+LengthPercentage
 "
 "
 computed
 :
 :
-LengthOrPercentage
+LengthPercentage
 :
 :
 zero

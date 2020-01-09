@@ -25309,7 +25309,7 @@ length
 {
 NoCalcLength
 NonNegativeLength
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 }
 ;
 use
@@ -25326,8 +25326,8 @@ length
 :
 :
 {
-LengthOrPercentageOrAuto
-LengthOrPercentage
+LengthPercentageOrAuto
+LengthPercentage
 }
 ;
 use
@@ -25368,7 +25368,7 @@ value
 let
 lop
 =
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -25379,10 +25379,10 @@ nocalc
 let
 lop_or_auto
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
 lop
 .
@@ -25404,7 +25404,7 @@ Height
 MozLength
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 (
 lop_or_auto
 )
@@ -25414,7 +25414,7 @@ Width
 MozLength
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 (
 lop_or_auto
 )
@@ -25559,7 +25559,7 @@ BorderTopLeftRadius
 let
 length
 =
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 from
@@ -25593,7 +25593,7 @@ BorderTopRightRadius
 let
 length
 =
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 from
@@ -25627,7 +25627,7 @@ BorderBottomLeftRadius
 let
 length
 =
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 from
@@ -25661,7 +25661,7 @@ BorderBottomRightRadius
 let
 length
 =
-NonNegativeLengthOrPercentage
+NonNegativeLengthPercentage
 :
 :
 from
@@ -25820,8 +25820,8 @@ length
 :
 :
 {
-LengthOrPercentage
-LengthOrPercentageOrAuto
+LengthPercentage
+LengthPercentageOrAuto
 NoCalcLength
 }
 ;
@@ -26075,14 +26075,14 @@ Width
 MozLength
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 (
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Length
@@ -26094,7 +26094,7 @@ nocalc
 FontSize
 =
 >
-LengthOrPercentage
+LengthPercentage
 :
 :
 from
@@ -26358,8 +26358,8 @@ length
 :
 :
 {
-LengthOrPercentageOrAuto
-LengthOrPercentage
+LengthPercentageOrAuto
+LengthPercentage
 }
 ;
 let
@@ -26382,12 +26382,12 @@ value
 let
 lop_or_auto
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
-LengthOrPercentage
+LengthPercentage
 (
-LengthOrPercentage
+LengthPercentage
 :
 :
 Percentage
@@ -26409,7 +26409,7 @@ Height
 MozLength
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 (
 lop_or_auto
 )
@@ -26419,7 +26419,7 @@ Width
 MozLength
 :
 :
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 (
 lop_or_auto
 )
@@ -26442,7 +26442,7 @@ lop_or_auto
 FontSize
 =
 >
-LengthOrPercentage
+LengthPercentage
 :
 :
 from
@@ -26523,7 +26523,7 @@ specified
 :
 :
 {
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 MozLength
 }
 ;
@@ -26539,7 +26539,7 @@ property
 let
 auto
 =
-LengthOrPercentageOrAuto
+LengthPercentageOrAuto
 :
 :
 Auto

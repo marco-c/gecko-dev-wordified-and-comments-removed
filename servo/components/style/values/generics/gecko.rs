@@ -30,7 +30,7 @@ pub
 enum
 ScrollSnapPoint
 <
-LengthOrPercentage
+LengthPercentage
 >
 {
 None
@@ -43,7 +43,7 @@ function
 ]
 Repeat
 (
-LengthOrPercentage
+LengthPercentage
 )
 }
 impl

@@ -217,7 +217,7 @@ CalcUnit
 Number
 Length
 Percentage
-LengthOrPercentage
+LengthPercentage
 Angle
 Time
 }
@@ -242,7 +242,7 @@ missing_docs
 ]
 pub
 struct
-CalcLengthOrPercentage
+CalcLengthPercentage
 {
 pub
 clamping_mode
@@ -325,7 +325,7 @@ Percentage
 impl
 ToCss
 for
-CalcLengthOrPercentage
+CalcLengthPercentage
 {
 #
 [
@@ -669,7 +669,7 @@ write_str
 impl
 SpecifiedValueInfo
 for
-CalcLengthOrPercentage
+CalcLengthPercentage
 {
 }
 impl
@@ -796,7 +796,7 @@ unit
 CalcUnit
 :
 :
-LengthOrPercentage
+LengthPercentage
 )
 =
 >
@@ -968,7 +968,7 @@ unit_value
 CalcUnit
 :
 :
-LengthOrPercentage
+LengthPercentage
 )
 |
 (
@@ -1561,7 +1561,7 @@ AllowedNumericType
 >
 Result
 <
-CalcLengthOrPercentage
+CalcLengthPercentage
 (
 )
 >
@@ -1570,7 +1570,7 @@ let
 mut
 ret
 =
-CalcLengthOrPercentage
+CalcLengthPercentage
 {
 clamping_mode
 :
@@ -1864,7 +1864,7 @@ ret
 :
 &
 mut
-CalcLengthOrPercentage
+CalcLengthPercentage
 factor
 :
 CSSFloat
@@ -3481,7 +3481,7 @@ AllowedNumericType
 >
 Result
 <
-CalcLengthOrPercentage
+CalcLengthPercentage
 ParseError
 <
 '
@@ -3499,7 +3499,7 @@ input
 CalcUnit
 :
 :
-LengthOrPercentage
+LengthPercentage
 )
 ?
 .
@@ -3631,7 +3631,7 @@ AllowedNumericType
 >
 Result
 <
-CalcLengthOrPercentage
+CalcLengthPercentage
 ParseError
 <
 '
