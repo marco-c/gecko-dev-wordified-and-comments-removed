@@ -47,6 +47,7 @@ lmdb
 {
 Cursor
 Database
+Info
 Iter
 as
 LmdbIter
