@@ -244,6 +244,11 @@ aTimestamp
 )
 ;
 void
+CancelCurrentVRTask
+(
+)
+;
+void
 Composite
 (
 VsyncId
@@ -379,7 +384,7 @@ mCurrentVRTaskMonitor
 ;
 RefPtr
 <
-Runnable
+CancelableRunnable
 >
 mCurrentVRTask
 ;
