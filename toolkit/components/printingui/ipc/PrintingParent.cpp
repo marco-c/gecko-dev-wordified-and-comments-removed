@@ -286,7 +286,7 @@ rv
 pps
 -
 >
-ShowProgress
+ShowPrintProgressDialog
 (
 parentWin
 nullptr

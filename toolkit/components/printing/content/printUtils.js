@@ -117,7 +117,7 @@ nsIPrintingPromptService
 ;
 PRINTPROMPTSVC
 .
-showPageSetup
+showPageSetupDialog
 (
 window
 printSettings
@@ -479,7 +479,7 @@ try
 {
 PPROMPTSVC
 .
-showProgress
+showPrintProgressDialog
 (
 window
 null
