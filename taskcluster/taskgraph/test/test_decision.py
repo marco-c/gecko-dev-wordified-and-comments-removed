@@ -407,9 +407,7 @@ central
 pushlog_id
 '
 :
-'
 143
-'
             
 '
 pushdate
@@ -442,9 +440,7 @@ push
 level
 '
 :
-'
 3
-'
         
 }
     
@@ -510,9 +506,7 @@ params
 pushlog_id
 '
 ]
-'
 143
-'
 )
         
 self
@@ -612,17 +606,9 @@ def
 test_no_email_owner
 (
 self
-mock_get_hg_revision_branch
+_
 )
 :
-        
-mock_get_hg_revision_branch
-.
-return_value
-=
-'
-default
-'
         
 self
 .
@@ -709,7 +695,7 @@ test_try_options
 (
 self
 mock_get_hg_commit_message
-mock_get_hg_revision_branch
+_
 )
 :
         
@@ -726,14 +712,6 @@ do
 -
 t
 all
-'
-        
-mock_get_hg_revision_branch
-.
-return_value
-=
-'
-default
 '
         
 self
@@ -869,7 +847,7 @@ test_try_task_config
 (
 self
 mock_get_hg_commit_message
-mock_get_hg_revision_branch
+_
 )
 :
         
@@ -882,14 +860,6 @@ Fuzzy
 query
 =
 foo
-'
-        
-mock_get_hg_revision_branch
-.
-return_value
-=
-'
-default
 '
         
 ttc
