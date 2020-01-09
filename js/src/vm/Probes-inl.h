@@ -153,7 +153,6 @@ enter
 (
 cx
 script
-maybeFun
 )
 )
 {
@@ -285,8 +284,8 @@ geckoProfiler
 .
 exit
 (
+cx
 script
-maybeFun
 )
 ;
 }
