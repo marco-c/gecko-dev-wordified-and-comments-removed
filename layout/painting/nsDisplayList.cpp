@@ -31068,13 +31068,12 @@ nsDisplayWrapList
 *
 wrapper
 =
-MakeDisplayItem
+MakeClone
 <
 nsDisplayWrapList
 >
 (
 aBuilder
-*
 wrappedItem
 )
 ;
