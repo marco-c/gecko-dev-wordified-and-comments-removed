@@ -168,7 +168,7 @@ at
 least
 this
 large
-size_t
+uint32_t
 bufferSize
 ;
 /
