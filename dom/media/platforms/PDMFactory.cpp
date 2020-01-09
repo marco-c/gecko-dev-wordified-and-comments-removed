@@ -85,6 +85,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CDMProxy
@@ -1697,6 +1704,11 @@ StaticPrefs
 :
 :
 MediaRddProcessEnabled
+(
+)
+&
+&
+BrowserTabsRemoteAutostart
 (
 )
 )
