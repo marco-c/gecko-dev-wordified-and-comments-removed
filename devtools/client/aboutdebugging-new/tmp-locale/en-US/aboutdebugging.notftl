@@ -423,6 +423,7 @@ debugging
 connect
 -
 wifi
+=
 .
 title
 =
@@ -619,6 +620,7 @@ debugging
 connect
 -
 usb
+=
 .
 title
 =
@@ -793,6 +795,7 @@ debugging
 connect
 -
 network
+=
 .
 title
 =
@@ -1746,6 +1749,8 @@ locations
 remove
 -
 button
+=
+Remove
 #
 This
 string
@@ -1904,6 +1909,7 @@ Listening
 for
 fetch
 events
+*
 [
 not
 -
@@ -1978,6 +1984,7 @@ status
 running
 ]
 Running
+*
 [
 stopped
 ]
