@@ -6059,11 +6059,6 @@ allocKindForTenure
 const
 ;
 void
-updateShapeAfterMovingGC
-(
-)
-;
-void
 sweepDictionaryListPointer
 (
 )
