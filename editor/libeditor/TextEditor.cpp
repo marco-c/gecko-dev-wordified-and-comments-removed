@@ -5537,6 +5537,16 @@ aString
 )
 ;
 }
+else
+{
+editActionData
+.
+InitializeDataTransfer
+(
+aString
+)
+;
+}
 AutoPlaceholderBatch
 treatAsOneTransaction
 (
