@@ -143,7 +143,7 @@ dom
 :
 Element
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 GetListState
@@ -482,7 +482,10 @@ return
 GetCurrentState
 (
 tagName
+MOZ_KnownLive
+(
 htmlEditor
+)
 aParams
 )
 ;

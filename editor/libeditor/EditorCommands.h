@@ -71,6 +71,7 @@ nsIControllerCommand
 public
 :
 NS_DECL_ISUPPORTS
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 IsCommandEnabled
 (
@@ -118,6 +119,7 @@ aCommandRefCon
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 GetCommandStateParams
 (
@@ -134,6 +136,7 @@ aCommandRefCon
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 bool
 IsCommandEnabled
@@ -187,6 +190,7 @@ const
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetCommandStateParams
@@ -237,6 +241,8 @@ _cmd
 public
 :
 \
+MOZ_CAN_RUN_SCRIPT
+\
 virtual
 bool
 IsCommandEnabled
@@ -316,6 +322,8 @@ EditorCommand
 :
 DoCommandParams
 ;
+\
+MOZ_CAN_RUN_SCRIPT
 \
 virtual
 nsresult
@@ -562,7 +570,7 @@ Clear
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetCurrentState
@@ -990,7 +998,7 @@ StyleUpdatingCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
@@ -1212,7 +1220,7 @@ ListCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
@@ -1274,7 +1282,7 @@ ListItemCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
@@ -1340,7 +1348,7 @@ MultiStateCommandBase
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 GetCurrentState
@@ -1404,7 +1412,7 @@ ParagraphStateCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
@@ -1464,7 +1472,7 @@ FontFaceStateCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
@@ -1524,7 +1532,7 @@ FontSizeStateCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
@@ -1584,7 +1592,7 @@ HighlightColorStateCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
@@ -1644,7 +1652,7 @@ FontColorStateCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
@@ -1704,7 +1712,7 @@ AlignCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
@@ -1764,7 +1772,7 @@ BackgroundColorStateCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
@@ -1824,7 +1832,7 @@ AbsolutePositioningCommand
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCurrentState
 (
