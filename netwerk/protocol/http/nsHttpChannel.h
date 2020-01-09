@@ -2380,6 +2380,11 @@ SetCachedContentType
 (
 )
 ;
+void
+StoreSiteAccessToCacheEntry
+(
+)
+;
 private
 :
 nsCOMPtr
