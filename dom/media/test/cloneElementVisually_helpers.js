@@ -152,6 +152,16 @@ ms
 "
 0
 ]
+[
+"
+media
+.
+cloneElementVisually
+.
+testing
+"
+true
+]
 ]
 }
 )
