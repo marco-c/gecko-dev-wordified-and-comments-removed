@@ -355,18 +355,6 @@ AUTOCOMPLETE
 )
 ;
 const
-groupWarnings
-=
-getBoolPref
-(
-PREFS
-.
-FEATURES
-.
-GROUP_WARNINGS
-)
-;
-const
 historyCount
 =
 getIntPref
@@ -392,7 +380,6 @@ sidebarToggle
 jstermCodeMirror
 autocomplete
 historyCount
-groupWarnings
 }
 )
 filters

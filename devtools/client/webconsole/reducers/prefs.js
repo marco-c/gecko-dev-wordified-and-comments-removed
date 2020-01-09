@@ -29,9 +29,6 @@ false
 jstermCodeMirror
 :
 false
-groupWarnings
-:
-false
 historyCount
 :
 50
