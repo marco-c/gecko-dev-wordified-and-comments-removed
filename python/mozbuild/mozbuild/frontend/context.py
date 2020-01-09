@@ -2492,7 +2492,6 @@ USE_NASM
 :
                 
 if
-(
 self
 .
 _context
@@ -2512,24 +2511,6 @@ OS_ARCH
 '
 WINNT
 '
-and
-                    
-not
-self
-.
-_context
-.
-config
-.
-substs
-.
-get
-(
-'
-GNU_CC
-'
-)
-)
 :
                     
 debug_flags
