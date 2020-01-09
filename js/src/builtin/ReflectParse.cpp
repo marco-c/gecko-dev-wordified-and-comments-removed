@@ -19333,18 +19333,6 @@ funbox
 (
 )
 ;
-RootedFunction
-func
-(
-cx
-funbox
--
->
-function
-(
-)
-)
-;
 GeneratorStyle
 generatorStyle
 =
@@ -19395,7 +19383,7 @@ RootedAtom
 funcAtom
 (
 cx
-func
+funbox
 -
 >
 explicitName
