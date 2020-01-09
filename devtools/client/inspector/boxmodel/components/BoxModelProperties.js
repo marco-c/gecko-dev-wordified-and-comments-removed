@@ -98,7 +98,7 @@ client
 /
 inspector
 /
-layout
+boxmodel
 /
 components
 /

@@ -112,4 +112,9 @@ BoxModelProperties
 .
 js
 '
+'
+ComputedProperty
+.
+js
+'
 )
