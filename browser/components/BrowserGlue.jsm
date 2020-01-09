@@ -3379,17 +3379,6 @@ LoginManagerParent
 "
 ]
 "
-PasswordManager
-:
-OpenPreferences
-"
-:
-[
-"
-LoginManagerParent
-"
-]
-"
 rtcpeer
 :
 CancelRequest

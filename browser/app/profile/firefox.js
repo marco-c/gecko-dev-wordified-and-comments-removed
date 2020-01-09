@@ -13270,16 +13270,6 @@ true
 pref
 (
 "
-signon
-.
-showAutoCompleteFooter
-"
-true
-)
-;
-pref
-(
-"
 print
 .
 use_simplify_page
