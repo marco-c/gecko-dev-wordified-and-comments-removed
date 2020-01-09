@@ -94,6 +94,16 @@ aRunnable
 )
 override
 ;
+AudioNodeStream
+*
+DestinationStream
+(
+)
+{
+return
+mDestinationStream
+;
+}
 protected
 :
 already_AddRefed
