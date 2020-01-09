@@ -96,6 +96,9 @@ reverseSearchInitialValue
 :
 "
 "
+editor
+:
+false
 }
 overrides
 )

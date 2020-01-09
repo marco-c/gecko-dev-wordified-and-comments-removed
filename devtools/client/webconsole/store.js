@@ -476,6 +476,16 @@ UI
 .
 PERSIST
 )
+editor
+:
+getBoolPref
+(
+PREFS
+.
+UI
+.
+EDITOR
+)
 }
 )
 }

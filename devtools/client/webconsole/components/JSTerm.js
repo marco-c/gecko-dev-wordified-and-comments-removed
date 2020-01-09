@@ -540,6 +540,11 @@ PropTypes
 object
 .
 isRequired
+editorMode
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -2865,6 +2870,16 @@ usageCount
 +
 +
 ;
+if
+(
+!
+this
+.
+props
+.
+editorMode
+)
+{
 this
 .
 _setValue
@@ -2873,6 +2888,7 @@ _setValue
 "
 )
 ;
+}
 this
 .
 clearCompletion

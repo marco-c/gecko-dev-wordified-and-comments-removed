@@ -287,6 +287,17 @@ webconsole
 .
 inputHistoryCount
 "
+EDITOR
+:
+"
+devtools
+.
+webconsole
+.
+input
+.
+editor
+"
 }
 FEATURES
 :
