@@ -940,6 +940,12 @@ mozilla
 :
 SystemColor
 "
+"
+mozilla
+:
+:
+StyleMaskMode
+"
 ]
 whitelist
 -

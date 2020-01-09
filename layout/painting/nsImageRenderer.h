@@ -754,7 +754,10 @@ aMode
 void
 SetMaskOp
 (
-uint8_t
+mozilla
+:
+:
+StyleMaskMode
 aMaskOp
 )
 {
@@ -993,7 +996,10 @@ gfx
 ExtendMode
 mExtendMode
 ;
-uint8_t
+mozilla
+:
+:
+StyleMaskMode
 mMaskOp
 ;
 }

@@ -1910,7 +1910,10 @@ mBlendMode
 uint8_t
 mComposite
 ;
-uint8_t
+mozilla
+:
+:
+StyleMaskMode
 mMaskMode
 ;
 Repeat

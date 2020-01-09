@@ -359,7 +359,10 @@ aParams
 maskMode
 =
 =
-NS_STYLE_MASK_MODE_MATCH_SOURCE
+StyleMaskMode
+:
+:
+MatchSource
 )
 {
 maskType
@@ -381,7 +384,10 @@ aParams
 maskMode
 =
 =
-NS_STYLE_MASK_MODE_LUMINANCE
+StyleMaskMode
+:
+:
+Luminance
 ?
 NS_STYLE_MASK_TYPE_LUMINANCE
 :

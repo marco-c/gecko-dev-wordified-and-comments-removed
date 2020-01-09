@@ -173,7 +173,10 @@ Matrix
 *
 maskTransform
 ;
-uint8_t
+mozilla
+:
+:
+StyleMaskMode
 maskMode
 ;
 imgDrawingParams
@@ -198,7 +201,10 @@ aOpacity
 Matrix
 *
 aMaskTransform
-uint8_t
+mozilla
+:
+:
+StyleMaskMode
 aMaskMode
 imgDrawingParams
 &
