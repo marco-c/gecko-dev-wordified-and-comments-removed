@@ -1,7 +1,4 @@
 use
-parser
-;
-use
 grammar
 :
 :
@@ -9,6 +6,9 @@ parse_tree
 :
 :
 Span
+;
+use
+parser
 ;
 use
 regex

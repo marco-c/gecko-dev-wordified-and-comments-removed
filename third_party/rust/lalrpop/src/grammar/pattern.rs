@@ -1,12 +1,4 @@
 use
-string_cache
-:
-:
-DefaultAtom
-as
-Atom
-;
-use
 grammar
 :
 :
@@ -30,6 +22,14 @@ Display
 Error
 Formatter
 }
+;
+use
+string_cache
+:
+:
+DefaultAtom
+as
+Atom
 ;
 use
 util

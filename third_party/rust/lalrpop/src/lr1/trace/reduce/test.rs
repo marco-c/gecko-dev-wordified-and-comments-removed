@@ -1,12 +1,4 @@
 use
-string_cache
-:
-:
-DefaultAtom
-as
-Atom
-;
-use
 grammar
 :
 :
@@ -68,6 +60,14 @@ tls
 :
 :
 Lr1Tls
+;
+use
+string_cache
+:
+:
+DefaultAtom
+as
+Atom
 ;
 use
 test_util

@@ -55,7 +55,10 @@ lane_table
 table
 :
 :
-LaneTable
+context_set
+:
+:
+ContextSet
 ;
 use
 lr1
@@ -67,10 +70,7 @@ lane_table
 table
 :
 :
-context_set
-:
-:
-ContextSet
+LaneTable
 ;
 pub
 struct
