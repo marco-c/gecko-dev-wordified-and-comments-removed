@@ -438,6 +438,13 @@ cancel
 (
 )
 {
+await
+this
+.
+stop
+(
+)
+;
 this
 .
 emit
@@ -449,13 +456,6 @@ node
 -
 canceled
 "
-)
-;
-await
-this
-.
-stop
-(
 )
 ;
 }
