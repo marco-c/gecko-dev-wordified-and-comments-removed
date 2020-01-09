@@ -50,10 +50,6 @@ const
 nsString
 &
 aOrigin
-const
-U2FOperation
-&
-aOp
 nsString
 &
 aAppId
