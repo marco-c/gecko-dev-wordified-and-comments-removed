@@ -56,9 +56,7 @@ crate
 properties
 :
 :
-{
 parse_property_declaration_list
-}
 ;
 use
 crate

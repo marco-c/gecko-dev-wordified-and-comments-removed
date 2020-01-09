@@ -6350,7 +6350,6 @@ GenericFontFamily
 MozEmoji
 =
 >
-{
 unreachable
 !
 (
@@ -6373,7 +6372,6 @@ font
 family
 "
 )
-}
 }
 )
 }

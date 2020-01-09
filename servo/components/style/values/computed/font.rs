@@ -2546,7 +2546,6 @@ f
 )
 =
 >
-{
 unsafe
 {
 bindings
@@ -2568,7 +2567,6 @@ syntax
 )
 ;
 }
-}
 SingleFontFamily
 :
 :
@@ -2578,7 +2576,6 @@ family
 )
 =
 >
-{
 unsafe
 {
 bindings
@@ -2590,7 +2587,6 @@ names
 family
 )
 ;
-}
 }
 }
 }
