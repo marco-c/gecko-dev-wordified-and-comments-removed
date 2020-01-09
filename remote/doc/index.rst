@@ -307,8 +307,10 @@ often
 someone
 in
 the
+*
 #
-devtools
+remote
+*
 IRC
 channel
 on
