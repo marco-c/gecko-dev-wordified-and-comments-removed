@@ -18073,7 +18073,7 @@ case
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 :
 {
 BigInt

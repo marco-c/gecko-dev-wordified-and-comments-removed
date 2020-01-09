@@ -2235,7 +2235,7 @@ case
 ParseNodeKind
 :
 :
-BigInt
+BigIntExpr
 :
 MOZ_ASSERT
 (
