@@ -1569,7 +1569,7 @@ void
 nsStyleBorder
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -2385,7 +2385,7 @@ void
 nsStyleList
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -4480,7 +4480,7 @@ void
 StyleShapeSource
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -5482,7 +5482,7 @@ void
 nsStyleSVGReset
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -14431,7 +14431,7 @@ void
 nsStyleBackground
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -15978,7 +15978,7 @@ void
 nsStyleDisplay
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -15998,7 +15998,7 @@ NS_IsMainThread
 ;
 mShapeOutside
 .
-FinishStyle
+TriggerImageLoads
 (
 aDocument
 aOldStyle
@@ -18380,7 +18380,7 @@ void
 nsStyleContent
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &
@@ -20173,7 +20173,7 @@ void
 nsStyleUI
 :
 :
-FinishStyle
+TriggerImageLoads
 (
 Document
 &

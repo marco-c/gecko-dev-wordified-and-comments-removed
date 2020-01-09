@@ -315,7 +315,7 @@ data
 )
 -
 >
-FinishStyle
+TriggerImageLoads
 (
 \
 *
@@ -413,7 +413,7 @@ nsStyle
 name_
 :
 :
-kHasFinishStyle
+kHasTriggerImageLoads
 &
 &
 \
@@ -492,8 +492,9 @@ data
 )
 -
 >
-FinishStyle
+TriggerImageLoads
 (
+\
 *
 mPresContext
 -
@@ -501,7 +502,6 @@ mPresContext
 Document
 (
 )
-\
 oldData
 )
 ;

@@ -377,7 +377,7 @@ nsStyleFont
 ;
 }
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -396,7 +396,7 @@ nsStyleFont
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -1638,7 +1638,7 @@ nsStyleColor
 ;
 }
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -1657,7 +1657,7 @@ nsStyleColor
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -2670,7 +2670,7 @@ nsStyleBackground
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -2688,7 +2688,7 @@ nsStyleBackground
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 true
 ;
@@ -2830,7 +2830,7 @@ nsStyleMargin
 ;
 }
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -2849,7 +2849,7 @@ nsStyleMargin
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -2977,7 +2977,7 @@ nsStylePadding
 ;
 }
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -2996,7 +2996,7 @@ nsStylePadding
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -3709,7 +3709,7 @@ nsStyleBorder
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -3727,7 +3727,7 @@ nsStyleBorder
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 true
 ;
@@ -4394,7 +4394,7 @@ nsStyleOutline
 ;
 }
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -4413,7 +4413,7 @@ nsStyleOutline
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -4567,7 +4567,7 @@ nsStyleList
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -4585,7 +4585,7 @@ nsStyleList
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 true
 ;
@@ -5081,7 +5081,7 @@ nsStylePosition
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -5100,7 +5100,7 @@ nsStylePosition
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -5935,7 +5935,7 @@ nsStyleTextReset
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -5954,7 +5954,7 @@ nsStyleTextReset
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -6045,7 +6045,7 @@ nsStyleText
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -6064,7 +6064,7 @@ nsStyleText
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -6573,7 +6573,7 @@ nsStyleVisibility
 ;
 }
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -6592,7 +6592,7 @@ nsStyleVisibility
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -7756,7 +7756,7 @@ aPath
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -7974,7 +7974,7 @@ nsStyleDisplay
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -7992,7 +7992,7 @@ nsStyleDisplay
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 true
 ;
@@ -9943,7 +9943,7 @@ nsStyleTable
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -9962,7 +9962,7 @@ nsStyleTable
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -10016,7 +10016,7 @@ nsStyleTableBorder
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -10035,7 +10035,7 @@ nsStyleTableBorder
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -10683,7 +10683,7 @@ nsStyleContent
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -10701,7 +10701,7 @@ nsStyleContent
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 true
 ;
@@ -11004,7 +11004,7 @@ nsStyleUIReset
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -11023,7 +11023,7 @@ nsStyleUIReset
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -11205,7 +11205,7 @@ nsStyleUI
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -11223,7 +11223,7 @@ nsStyleUI
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 true
 ;
@@ -11355,7 +11355,7 @@ nsStyleXUL
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -11374,7 +11374,7 @@ nsStyleXUL
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -11458,7 +11458,7 @@ nsStyleColumn
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -11477,7 +11477,7 @@ nsStyleColumn
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -12060,7 +12060,7 @@ nsStyleSVG
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -12079,7 +12079,7 @@ nsStyleSVG
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -12437,7 +12437,7 @@ nsStyleFilter
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -12456,7 +12456,7 @@ nsStyleFilter
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
@@ -12723,7 +12723,7 @@ nsStyleSVGReset
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -12741,7 +12741,7 @@ nsStyleSVGReset
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 true
 ;
@@ -12873,7 +12873,7 @@ nsStyleEffects
 )
 ;
 void
-FinishStyle
+TriggerImageLoads
 (
 mozilla
 :
@@ -12892,7 +12892,7 @@ nsStyleEffects
 const
 static
 bool
-kHasFinishStyle
+kHasTriggerImageLoads
 =
 false
 ;
