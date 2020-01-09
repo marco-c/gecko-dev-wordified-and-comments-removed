@@ -383,6 +383,12 @@ binary
 "
 )
         
+self
+.
+policies_dir
+=
+None
+        
 if
 self
 .
@@ -513,11 +519,26 @@ start
 (
 )
         
+try
+:
+            
 self
 .
 setup
 (
 )
+        
+except
+Exception
+:
+            
+self
+.
+stop
+(
+)
+            
+raise
     
 def
 download
@@ -2169,6 +2190,13 @@ app
 "
 firefox
 "
+and
+self
+.
+policies_dir
+is
+not
+None
 :
             
 LOG
