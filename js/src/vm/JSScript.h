@@ -6215,6 +6215,8 @@ warmUpCount
 {
 }
 ;
+public
+:
 enum
 class
 ImmutableFlags
@@ -6367,6 +6369,8 @@ TrackRecordReplayProgress
 23
 }
 ;
+private
+:
 uint32_t
 immutableFlags_
 =
@@ -6895,6 +6899,8 @@ flag
 )
 ;
 }
+public
+:
 MOZ_MUST_USE
 bool
 hasFlag
@@ -6913,6 +6919,8 @@ flag
 )
 ;
 }
+private
+:
 void
 setFlag
 (
@@ -8721,6 +8729,20 @@ offsetof
 (
 JSScript
 mutableFlags_
+)
+;
+}
+static
+size_t
+offsetOfImmutableFlags
+(
+)
+{
+return
+offsetof
+(
+JSScript
+immutableFlags_
 )
 ;
 }
