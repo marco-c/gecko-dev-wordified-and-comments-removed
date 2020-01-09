@@ -49,6 +49,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+DocumentInlines
+.
+h
+"
+#
+include
+"
 nsIPresShell
 .
 h

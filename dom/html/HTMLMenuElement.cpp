@@ -34,6 +34,17 @@ mozilla
 /
 dom
 /
+DocumentInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLMenuElementBinding
 .
 h
