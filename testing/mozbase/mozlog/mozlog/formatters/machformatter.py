@@ -43,7 +43,7 @@ log_test_status_fail
 '
 :
 '
-yellow
+red
 '
     
 '
@@ -100,6 +100,14 @@ heading
 :
 '
 bold_yellow
+'
+    
+'
+sub_heading
+'
+:
+'
+yellow
 '
     
 '
@@ -938,7 +946,7 @@ self
 .
 color_formatter
 .
-log_test_status_pass
+log_test_status_fail
             
 if
 status
@@ -1153,7 +1161,7 @@ self
 .
 color_formatter
 .
-log_test_status_fail
+sub_heading
 (
 suite
 )
@@ -1162,7 +1170,7 @@ self
 .
 color_formatter
 .
-log_test_status_fail
+sub_heading
 (
                 
 "
@@ -2207,7 +2215,14 @@ self
 .
 color_formatter
 .
-log_test_status_pass
+log_test_status_unexpected_fail
+(
+"
+UNEXPECTED
+-
+FAIL
+"
+)
         
 action
 =
@@ -2882,7 +2897,7 @@ self
 .
 color_formatter
 .
-log_test_status_pass
+log_test_status_unexpected_fail
 (
             
 "
@@ -3162,7 +3177,7 @@ self
 .
 color_formatter
 .
-log_test_status_pass
+log_test_status_fail
 (
 "
 ASSERT
