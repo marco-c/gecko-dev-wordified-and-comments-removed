@@ -741,16 +741,6 @@ action
 SitePermissions
 .
 BLOCK
-|
-|
-SitePermissions
-.
-permitTemporaryAllow
-(
-this
-.
-permissionKey
-)
 )
 {
 SitePermissions
