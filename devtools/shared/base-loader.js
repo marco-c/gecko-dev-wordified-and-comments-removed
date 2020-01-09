@@ -2570,6 +2570,9 @@ requireHook
 enumerable
 :
 false
+writable
+:
+true
 value
 :
 options
