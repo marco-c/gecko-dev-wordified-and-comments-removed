@@ -931,11 +931,16 @@ move
 aRenderer
 )
 ;
+auto
+windows
+=
 mWindowInfos
 .
 Lock
 (
 )
+;
+windows
 -
 >
 emplace
