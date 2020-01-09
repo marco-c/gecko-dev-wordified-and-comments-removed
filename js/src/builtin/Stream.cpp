@@ -11380,6 +11380,13 @@ setCancelMethod
 UndefinedHandleValue
 )
 ;
+controller
+-
+>
+clearUnderlyingSource
+(
+)
+;
 if
 (
 controller
