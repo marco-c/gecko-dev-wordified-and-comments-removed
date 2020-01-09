@@ -235,8 +235,8 @@ setNoScriptRval
 false
 )
 ;
-CHECK
-(
+fun
+=
 JS
 :
 :
@@ -251,9 +251,6 @@ f
 0
 nullptr
 srcBuf
-&
-fun
-)
 )
 ;
 CHECK
