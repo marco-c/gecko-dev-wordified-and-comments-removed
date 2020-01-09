@@ -1600,6 +1600,20 @@ nightly
 "
 )
         
+locales_platform
+=
+locales_platform
+.
+replace
+(
+"
+-
+pgo
+"
+"
+"
+)
+        
 locales_with_changesets
 =
 parse_locales_file

@@ -126,6 +126,8 @@ nightly
 opt
 -
 win32
+-
+pgo
 /
 opt
 -
@@ -144,6 +146,8 @@ nightly
 opt
 -
 win64
+-
+pgo
 /
 opt
 -
