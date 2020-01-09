@@ -155,8 +155,6 @@ firefox
 devtools
 /
 debugger
-.
-html
 /
 blob
 /
@@ -188,8 +186,6 @@ firefox
 devtools
 /
 debugger
-.
-html
 /
 blob
 /

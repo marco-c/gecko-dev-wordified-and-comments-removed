@@ -538,8 +538,6 @@ github
 io
 /
 debugger
-.
-html
 "
 ;
 const

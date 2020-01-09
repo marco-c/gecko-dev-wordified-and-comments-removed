@@ -242,8 +242,6 @@ devtools
 /
 debugger
 .
-html
-.
 git
 cd
 debugger
