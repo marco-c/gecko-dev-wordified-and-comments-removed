@@ -4868,7 +4868,7 @@ surface_index
 0
 ]
 .
-surface
+render_tasks
 .
 expect
 (
@@ -4879,6 +4879,8 @@ no
 surface
 "
 )
+.
+root
 gpu_cache
 )
 ;
@@ -5075,7 +5077,17 @@ surface_index
 0
 ]
 .
-surface
+render_tasks
+.
+map
+(
+|
+s
+|
+s
+.
+root
+)
 ;
 match
 raster_config
