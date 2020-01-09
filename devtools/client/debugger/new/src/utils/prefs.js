@@ -12,7 +12,6 @@ modules
 import
 {
 isDevelopment
-isTesting
 }
 from
 "
@@ -49,7 +48,7 @@ prefsSchemaVersion
 .
 0
 .
-8
+9
 "
 ;
 const
@@ -1728,12 +1727,14 @@ breakpoints
 }
 )
 ;
+export
+function
+verifyPrefSchema
+(
+)
+{
 if
 (
-!
-isTesting
-&
-&
 prefs
 .
 debuggerPrefsSchemaVersion
@@ -1770,4 +1771,5 @@ debuggerPrefsSchemaVersion
 =
 prefsSchemaVersion
 ;
+}
 }
