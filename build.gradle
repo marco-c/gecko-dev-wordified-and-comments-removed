@@ -362,6 +362,17 @@ jacoco_version
 .
 1
 '
+ext
+.
+lifecycle_library_version
+=
+'
+1
+.
+1
+.
+1
+'
 if
 (
 gradle
