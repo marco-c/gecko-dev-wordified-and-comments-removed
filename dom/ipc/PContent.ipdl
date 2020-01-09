@@ -4359,6 +4359,8 @@ nsIURI
 aOriginalURI
 uint64_t
 aIdentifier
+uint32_t
+aRedirectMode
 )
 ;
 /
