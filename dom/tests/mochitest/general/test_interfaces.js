@@ -6107,6 +6107,9 @@ U2F
 insecureContext
 :
 false
+android
+:
+false
 }
 {
 name
