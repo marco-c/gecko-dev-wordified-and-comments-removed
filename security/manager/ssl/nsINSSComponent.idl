@@ -743,11 +743,6 @@ removable
 slots
 .
 *
-Main
-thread
-only
-.
-*
 /
 [
 noscript
@@ -771,11 +766,6 @@ any
 client
 authentication
 certificates
-.
-*
-Main
-thread
-only
 .
 *
 /
