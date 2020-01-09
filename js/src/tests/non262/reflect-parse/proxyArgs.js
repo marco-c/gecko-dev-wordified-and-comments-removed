@@ -15,6 +15,10 @@ false
 ;
 assertEq
 (
+"
+loc
+"
+in
 Reflect
 .
 parse
@@ -25,13 +29,7 @@ parse
 "
 opts
 )
-.
-loc
-=
-=
-=
-null
-true
+false
 )
 ;
 opts
