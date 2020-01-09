@@ -257,6 +257,16 @@ get
 '
 nightly
 '
+dep_job
+.
+attributes
+.
+get
+(
+'
+shippable
+'
+)
 )
         
 label

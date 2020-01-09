@@ -79,6 +79,10 @@ nightly
 '
     
 '
+shippable
+'
+    
+'
 devedition
 '
     
@@ -249,23 +253,6 @@ test
 ]
     
 if
-get_variant
-(
-test
-[
-'
-test
--
-platform
-'
-]
-)
-=
-=
-"
-nightly
-"
-and
 '
 android
 '
@@ -278,6 +265,30 @@ test
 platform
 '
 ]
+and
+(
+            
+get_variant
+(
+test
+[
+'
+test
+-
+platform
+'
+]
+)
+in
+(
+"
+nightly
+"
+'
+shippable
+'
+)
+)
 :
         
 head

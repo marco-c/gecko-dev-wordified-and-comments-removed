@@ -146,6 +146,8 @@ treeherder
 platform
 :
 linux64
+-
+shippable
 /
 opt
 kind
@@ -469,7 +471,7 @@ build_platform
 :
 linux64
 -
-nightly
+shippable
 treeherder
 :
 symbol

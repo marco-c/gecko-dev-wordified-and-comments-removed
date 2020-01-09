@@ -96,6 +96,8 @@ parameters
 :
     
 return
+(
+        
 not
 task
 .
@@ -106,6 +108,27 @@ get
 '
 nightly
 '
+)
+and
+        
+task
+.
+attributes
+.
+get
+(
+'
+shipping_phase
+'
+)
+in
+(
+None
+'
+build
+'
+)
+        
 )
 def
 filter_out_cron
@@ -3289,6 +3312,10 @@ task
 parameters
 )
             
+any
+(
+[
+                
 task
 .
 attributes
@@ -3299,6 +3326,21 @@ get
 nightly
 '
 False
+)
+                
+task
+.
+attributes
+.
+get
+(
+'
+shippable
+'
+False
+)
+            
+]
 )
             
 task
@@ -3320,6 +3362,17 @@ firefox
 "
 thunderbird
 "
+}
+            
+task
+.
+kind
+not
+in
+{
+'
+l10n
+'
 }
         
 ]
@@ -3387,6 +3440,7 @@ filter
 make_desktop_nightly_filter
 (
 {
+        
 '
 linux64
 -
@@ -3397,6 +3451,17 @@ linux
 -
 nightly
 '
+'
+linux64
+-
+shippable
+'
+'
+linux
+-
+shippable
+'
+        
 }
 )
     
@@ -3485,6 +3550,11 @@ make_desktop_nightly_filter
 macosx64
 -
 nightly
+'
+'
+macosx64
+-
+shippable
 '
 }
 )
@@ -3577,6 +3647,11 @@ win32
 -
 nightly
 '
+'
+win32
+-
+shippable
+'
 }
 )
     
@@ -3667,6 +3742,11 @@ make_desktop_nightly_filter
 win64
 -
 nightly
+'
+'
+win64
+-
+shippable
 '
 }
 )
@@ -3760,6 +3840,13 @@ win64
 aarch64
 -
 nightly
+'
+'
+win64
+-
+aarch64
+-
+shippable
 '
 }
 )

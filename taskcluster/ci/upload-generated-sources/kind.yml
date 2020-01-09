@@ -102,6 +102,8 @@ attributes
 :
 -
 nightly
+-
+shippable
 job
 -
 template
@@ -114,11 +116,6 @@ source
 files
 from
 build
-attributes
-:
-nightly
-:
-true
 worker
 -
 type

@@ -127,6 +127,12 @@ platforms
 -
 macosx64
 -
+shippable
+/
+opt
+-
+macosx64
+-
 nightly
 /
 opt
