@@ -163,14 +163,6 @@ MediaEngineSource
 :
 FocusOnSelectedSource
 (
-const
-RefPtr
-<
-const
-AllocationHandle
->
-&
-aHandle
 )
 {
 return

@@ -152,11 +152,6 @@ EXPORTS
 =
 [
 '
-AllocationHandle
-.
-h
-'
-'
 CubebDeviceEnumerator
 .
 h

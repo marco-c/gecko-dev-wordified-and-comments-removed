@@ -305,9 +305,6 @@ PrincipalInfo
 ;
 }
 class
-AllocationHandle
-;
-class
 GetUserMediaTask
 ;
 class
@@ -613,12 +610,6 @@ ConstrainDOMStringParameters
 &
 aParams
 )
-;
-RefPtr
-<
-AllocationHandle
->
-mAllocationHandle
 ;
 public
 :

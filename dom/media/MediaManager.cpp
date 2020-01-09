@@ -8,13 +8,6 @@ h
 #
 include
 "
-AllocationHandle
-.
-h
-"
-#
-include
-"
 AudioDeviceInfo
 .
 h
@@ -4020,10 +4013,6 @@ aConstraints
 aPrefs
 mID
 aPrincipalInfo
-getter_AddRefs
-(
-mAllocationHandle
-)
 aOutBadConstraint
 )
 ;
@@ -4069,7 +4058,6 @@ mSource
 >
 SetTrack
 (
-mAllocationHandle
 aStream
 aTrackID
 aPrincipalHandle
@@ -4105,7 +4093,6 @@ mSource
 >
 Start
 (
-mAllocationHandle
 )
 ;
 }
@@ -4154,7 +4141,6 @@ mSource
 >
 Reconfigure
 (
-mAllocationHandle
 aConstraints
 aPrefs
 mID
@@ -4191,7 +4177,6 @@ mSource
 >
 FocusOnSelectedSource
 (
-mAllocationHandle
 )
 ;
 }
@@ -4224,7 +4209,6 @@ mSource
 >
 Stop
 (
-mAllocationHandle
 )
 ;
 }
@@ -4257,7 +4241,6 @@ mSource
 >
 Deallocate
 (
-mAllocationHandle
 )
 ;
 }
