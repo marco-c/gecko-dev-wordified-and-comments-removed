@@ -456,8 +456,8 @@ util
 {
 ScaleOffset
 MatrixHelpers
-recycle_vec
 MaxRect
+Recycler
 }
 ;
 use
@@ -7243,8 +7243,15 @@ recycle
 &
 mut
 self
+recycler
+:
+&
+mut
+Recycler
 )
 {
+recycler
+.
 recycle_vec
 (
 &
@@ -7254,6 +7261,8 @@ self
 clip_mask_instances
 )
 ;
+recycler
+.
 recycle_vec
 (
 &
@@ -7269,6 +7278,7 @@ glyph_keys
 .
 recycle
 (
+recycler
 )
 ;
 self
@@ -7277,6 +7287,7 @@ border_cache_handles
 .
 recycle
 (
+recycler
 )
 ;
 self
@@ -7285,6 +7296,7 @@ segments
 .
 recycle
 (
+recycler
 )
 ;
 self
@@ -7293,6 +7305,7 @@ segment_instances
 .
 recycle
 (
+recycler
 )
 ;
 self
@@ -7301,6 +7314,7 @@ gradient_tiles
 .
 recycle
 (
+recycler
 )
 ;
 #
@@ -7314,6 +7328,8 @@ debug_renderer
 "
 )
 ]
+recycler
+.
 recycle_vec
 (
 &
