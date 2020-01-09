@@ -302,7 +302,7 @@ friend
 nsresult
 NS_NewToolkitProfileService
 (
-nsToolkitProfileService
+nsIToolkitProfileService
 *
 *
 )
