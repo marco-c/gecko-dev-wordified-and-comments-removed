@@ -308,13 +308,6 @@ EndLoad
 )
 override
 ;
-virtual
-void
-InitialDocumentTranslationCompleted
-(
-)
-override
-;
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
@@ -765,11 +758,6 @@ aPINode
 ;
 nsresult
 ResumeWalk
-(
-)
-;
-nsresult
-MaybeDoneWalking
 (
 )
 ;

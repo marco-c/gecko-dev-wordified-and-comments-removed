@@ -348,13 +348,6 @@ WillResume
 )
 override
 ;
-virtual
-void
-InitialDocumentTranslationCompleted
-(
-)
-override
-;
 NS_IMETHOD
 SetParser
 (

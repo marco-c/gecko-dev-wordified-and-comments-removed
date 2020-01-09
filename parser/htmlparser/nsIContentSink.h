@@ -224,13 +224,6 @@ ContinueInterruptedParsingAsync
 )
 {
 }
-virtual
-void
-InitialDocumentTranslationCompleted
-(
-)
-{
-}
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
