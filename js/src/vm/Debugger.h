@@ -5874,7 +5874,7 @@ fop
 )
 ;
 void
-maybeDecrementFrameScriptStepModeCount
+maybeDecrementFrameScriptStepperCount
 (
 FreeOp
 *

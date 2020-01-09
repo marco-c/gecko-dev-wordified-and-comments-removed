@@ -119,7 +119,7 @@ uint32_t
 >
 SystemAllocPolicy
 >
-StepModeCounters
+StepperCounters
 ;
 typedef
 HashMap
@@ -155,8 +155,8 @@ enterAndLeaveFrameTrapsCounter_
 WasmBreakpointSiteMap
 breakpointSites_
 ;
-StepModeCounters
-stepModeCounters_
+StepperCounters
+stepperCounters_
 ;
 void
 toggleDebugTrap
@@ -358,7 +358,7 @@ funcIndex
 const
 ;
 bool
-incrementStepModeCount
+incrementStepperCount
 (
 JSContext
 *
@@ -368,7 +368,7 @@ funcIndex
 )
 ;
 bool
-decrementStepModeCount
+decrementStepperCount
 (
 FreeOp
 *

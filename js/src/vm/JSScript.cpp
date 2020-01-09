@@ -26943,7 +26943,7 @@ bool
 JSScript
 :
 :
-incrementStepModeCount
+incrementStepperCount
 (
 JSContext
 *
@@ -27002,7 +27002,7 @@ false
 debug
 -
 >
-stepMode
+stepperCount
 +
 +
 ;
@@ -27011,7 +27011,7 @@ if
 debug
 -
 >
-stepMode
+stepperCount
 =
 =
 1
@@ -27043,7 +27043,7 @@ void
 JSScript
 :
 :
-decrementStepModeCount
+decrementStepperCount
 (
 FreeOp
 *
@@ -27068,7 +27068,7 @@ MOZ_ASSERT
 debug
 -
 >
-stepMode
+stepperCount
 >
 0
 )
@@ -27076,7 +27076,7 @@ stepMode
 debug
 -
 >
-stepMode
+stepperCount
 -
 -
 ;
@@ -27085,7 +27085,7 @@ if
 debug
 -
 >
-stepMode
+stepperCount
 =
 =
 0

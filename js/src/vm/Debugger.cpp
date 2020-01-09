@@ -12312,7 +12312,7 @@ suspendedStepperCount
 trappingScript
 -
 >
-stepModeCount
+stepperCount
 (
 )
 )
@@ -23294,7 +23294,7 @@ fop
 frameobj
 -
 >
-maybeDecrementFrameScriptStepModeCount
+maybeDecrementFrameScriptStepperCount
 (
 fop
 frame
@@ -40405,7 +40405,7 @@ fop
 frameobj
 -
 >
-maybeDecrementFrameScriptStepModeCount
+maybeDecrementFrameScriptStepperCount
 (
 fop
 to
@@ -40529,7 +40529,7 @@ suspending
 frameobj
 -
 >
-maybeDecrementFrameScriptStepModeCount
+maybeDecrementFrameScriptStepperCount
 (
 fop
 frame
@@ -48572,7 +48572,7 @@ debug
 (
 )
 .
-incrementStepModeCount
+incrementStepperCount
 (
 cx
 wasmFrame
@@ -48625,7 +48625,7 @@ debug
 (
 )
 .
-decrementStepModeCount
+decrementStepperCount
 (
 fop
 wasmFrame
@@ -48707,7 +48707,7 @@ script
 )
 -
 >
-incrementStepModeCount
+incrementStepperCount
 (
 cx
 )
@@ -48735,7 +48735,7 @@ script
 )
 -
 >
-decrementStepModeCount
+decrementStepperCount
 (
 cx
 -
@@ -50315,7 +50315,7 @@ void
 DebuggerFrame
 :
 :
-maybeDecrementFrameScriptStepModeCount
+maybeDecrementFrameScriptStepperCount
 (
 FreeOp
 *
@@ -50368,7 +50368,7 @@ debug
 (
 )
 .
-decrementStepModeCount
+decrementStepperCount
 (
 fop
 frame
@@ -50393,7 +50393,7 @@ script
 )
 -
 >
-decrementStepModeCount
+decrementStepperCount
 (
 fop
 )
