@@ -53,13 +53,11 @@ GenericClassInfo
 :
 GetInterfaces
 (
-uint32_t
-*
-aCount
+nsTArray
+<
 nsIID
-*
-*
-*
+>
+&
 aArray
 )
 {
@@ -69,7 +67,6 @@ mData
 >
 getinterfaces
 (
-aCount
 aArray
 )
 ;

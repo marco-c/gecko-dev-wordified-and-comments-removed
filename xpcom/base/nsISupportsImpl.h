@@ -5955,13 +5955,11 @@ _class
 :
 GetInterfaces
 (
-uint32_t
-*
-_count
+nsTArray
+<
 nsIID
-*
-*
-*
+>
+&
 _array
 )
 {
@@ -5972,7 +5970,6 @@ NS_CI_INTERFACE_GETTER_NAME
 _class
 )
 (
-_count
 _array
 )
 ;
