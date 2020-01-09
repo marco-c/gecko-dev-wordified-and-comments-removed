@@ -429,6 +429,10 @@ originalReferrerUri
 const
 uint32_t
 &
+originalReferrerPolicy
+const
+uint32_t
+&
 referrerPolicy
 const
 Maybe

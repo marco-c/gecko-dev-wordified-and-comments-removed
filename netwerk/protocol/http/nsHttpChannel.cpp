@@ -46647,6 +46647,12 @@ if
 mOriginalReferrer
 &
 &
+mOriginalReferrerPolicy
+=
+=
+REFERRER_POLICY_UNSET
+&
+&
 mReferrerPolicy
 =
 =

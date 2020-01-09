@@ -11907,6 +11907,14 @@ originalReferrer
 ;
 openArgs
 .
+originalReferrerPolicy
+(
+)
+=
+mOriginalReferrerPolicy
+;
+openArgs
+.
 referrerPolicy
 (
 )

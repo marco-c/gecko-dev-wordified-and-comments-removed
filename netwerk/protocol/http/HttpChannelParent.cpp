@@ -794,6 +794,11 @@ originalReferrer
 )
 a
 .
+originalReferrerPolicy
+(
+)
+a
+.
 referrerPolicy
 (
 )
@@ -2089,6 +2094,10 @@ aOriginalReferrerURI
 const
 uint32_t
 &
+aOriginalReferrerPolicy
+const
+uint32_t
+&
 aReferrerPolicy
 const
 Maybe
@@ -2712,6 +2721,7 @@ httpChannel
 SetReferrerWithPolicyInternal
 (
 referrerUri
+aOriginalReferrerPolicy
 aReferrerPolicy
 )
 ;
