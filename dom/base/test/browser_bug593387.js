@@ -24,7 +24,7 @@ global
 /
 content
 /
-aboutProfiles
+mozilla
 .
 xhtml
 "
