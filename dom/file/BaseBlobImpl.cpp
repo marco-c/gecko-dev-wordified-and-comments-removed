@@ -133,7 +133,6 @@ ErrorResult
 &
 aRv
 )
-const
 {
 MOZ_ASSERT
 (
@@ -168,7 +167,6 @@ ErrorResult
 &
 aRv
 )
-const
 {
 if
 (
