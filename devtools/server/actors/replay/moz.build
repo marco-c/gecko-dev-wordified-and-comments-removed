@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 '
+control
+.
+js
+'
+'
 debugger
 .
 js
@@ -111,6 +116,11 @@ devtools_rr
 XPIDL_SOURCES
 =
 [
+'
+rrIControl
+.
+idl
+'
 '
 rrIGraphics
 .
