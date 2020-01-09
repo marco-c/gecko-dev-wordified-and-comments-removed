@@ -6815,6 +6815,10 @@ ConvertLegacyStyleToAlignItems
 containerStyleXUL
 )
 ;
+mAlignSelfFlags
+=
+0
+;
 }
 else
 {
@@ -7118,6 +7122,10 @@ false
 mAlignSelf
 (
 NS_STYLE_ALIGN_FLEX_START
+)
+mAlignSelfFlags
+(
+0
 )
 {
 MOZ_ASSERT
