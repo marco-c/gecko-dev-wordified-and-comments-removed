@@ -198,6 +198,17 @@ pszKeyboardShortcut
 )
 ;
 }
+if
+(
+IsDefunct
+(
+)
+)
+{
+return
+CO_E_OBJNOTCONNECTED
+;
+}
 KeyBinding
 keyBinding
 =
