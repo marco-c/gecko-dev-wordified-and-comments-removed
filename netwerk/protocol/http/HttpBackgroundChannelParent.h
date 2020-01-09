@@ -193,10 +193,8 @@ aRejectedReason
 )
 ;
 bool
-OnNotifyClassificationFlags
+OnNotifyTrackingResource
 (
-uint32_t
-aClassificationFlags
 bool
 aIsThirdParty
 )

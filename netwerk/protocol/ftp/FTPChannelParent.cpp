@@ -2518,10 +2518,8 @@ NS_IMETHODIMP
 FTPChannelParent
 :
 :
-NotifyClassificationFlags
+NotifyTrackingResource
 (
-uint32_t
-aClassificationFlags
 bool
 aIsThirdParty
 )

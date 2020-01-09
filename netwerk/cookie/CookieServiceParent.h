@@ -191,7 +191,7 @@ aIsForeign
 const
 bool
 &
-aIsTrackingResource
+aIsTackingResource
 const
 bool
 &
