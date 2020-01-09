@@ -118,6 +118,11 @@ cursor
 =
 true
 ;
+boolean
+restrictOwnAudio
+=
+true
+;
 }
 ;
 partial
@@ -132,6 +137,9 @@ logicalSurface
 ;
 ConstrainDOMString
 cursor
+;
+ConstrainBoolean
+restrictOwnAudio
 ;
 }
 ;
