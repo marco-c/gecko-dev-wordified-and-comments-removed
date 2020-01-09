@@ -169,14 +169,6 @@ dom
 /
 base
 '
-'
-/
-js
-/
-xpconnect
-/
-src
-'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
