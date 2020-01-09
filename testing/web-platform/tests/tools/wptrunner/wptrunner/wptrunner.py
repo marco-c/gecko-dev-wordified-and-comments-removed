@@ -341,6 +341,13 @@ kwargs
 include_manifest
 "
 ]
+or
+kwargs
+[
+"
+default_exclude
+"
+]
 :
         
 manifest_filters
@@ -381,6 +388,15 @@ include_manifest
 test_manifests
 =
 test_manifests
+                                                      
+explicit
+=
+kwargs
+[
+"
+default_exclude
+"
+]
 )
 )
     
@@ -1117,6 +1133,13 @@ test_ids
 =
 =
 0
+and
+kwargs
+[
+"
+test_list
+"
+]
 :
             
 logger
@@ -1989,6 +2012,32 @@ skipped
 else
 :
             
+if
+kwargs
+[
+"
+default_exclude
+"
+]
+:
+                
+logger
+.
+info
+(
+"
+No
+tests
+ran
+"
+)
+                
+return
+True
+            
+else
+:
+                
 logger
 .
 error
@@ -1999,7 +2048,7 @@ tests
 ran
 "
 )
-            
+                
 return
 False
     
