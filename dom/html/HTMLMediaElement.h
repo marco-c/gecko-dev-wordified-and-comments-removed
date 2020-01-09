@@ -3245,13 +3245,6 @@ AudioChannelAgentDelayingPlayback
 )
 ;
 void
-EnsureAutoplayRequested
-(
-bool
-aHandlingUserInput
-)
-;
-void
 UpdateAudioTrackSilenceRange
 (
 bool
@@ -3625,12 +3618,6 @@ MozPromiseRequestHolder
 SetCDMPromise
 >
 mSetCDMRequest
-;
-MozPromiseRequestHolder
-<
-GenericNonExclusivePromise
->
-mAutoplayPermissionRequest
 ;
 double
 mCurrentPlayRangeStart
