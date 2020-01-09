@@ -114,6 +114,16 @@ XPIDL_MODULE
 chrome
 '
 EXPORTS
++
+=
+[
+'
+nsChromeProtocolHandler
+.
+h
+'
+]
+EXPORTS
 .
 mozilla
 .
