@@ -2011,16 +2011,8 @@ SetNull
 (
 )
 ;
-UpdateTiming
+UpdateEffect
 (
-SeekFlag
-:
-:
-NoSeek
-SyncNotifyFlag
-:
-:
-Async
 )
 ;
 if
