@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

@@ -4719,9 +4719,9 @@ bool
 aUseCapture
 ManualNACPtr
 aElement
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 )
 ;
 void
@@ -4729,9 +4729,9 @@ DeleteRefToAnonymousNode
 (
 ManualNACPtr
 aContent
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 )
 ;
 nsresult

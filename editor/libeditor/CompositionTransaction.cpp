@@ -78,14 +78,14 @@ h
 #
 include
 "
-nsIPresShell
+nsRange
 .
 h
 "
 #
 include
 "
-nsRange
+nsISelectionController
 .
 h
 "
