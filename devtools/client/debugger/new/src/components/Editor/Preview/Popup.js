@@ -96,6 +96,7 @@ actions
 import
 {
 getAllPopupObjectProperties
+getCurrentThread
 }
 from
 "
@@ -1533,6 +1534,10 @@ popupObjectProperties
 getAllPopupObjectProperties
 (
 state
+getCurrentThread
+(
+state
+)
 )
 }
 )

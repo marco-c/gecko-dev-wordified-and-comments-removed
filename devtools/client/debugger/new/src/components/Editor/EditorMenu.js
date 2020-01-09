@@ -56,6 +56,7 @@ import
 {
 getPrettySource
 getIsPaused
+getCurrentThread
 }
 from
 "
@@ -303,6 +304,10 @@ isPaused
 getIsPaused
 (
 state
+getCurrentThread
+(
+state
+)
 )
 hasPrettySource
 :

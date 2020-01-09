@@ -219,6 +219,7 @@ import
 getBreakpointsList
 getSelectedFrame
 getSelectedSource
+getCurrentThread
 }
 from
 "
@@ -1169,6 +1170,10 @@ frame
 getFormattedFrame
 (
 state
+getCurrentThread
+(
+state
+)
 )
 }
 )

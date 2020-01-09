@@ -1,5 +1,6 @@
 import
 {
+getCurrentThread
 getSelectedSource
 getSelectedFrame
 getCanRewind
@@ -78,6 +79,16 @@ ThunkArgs
 )
 {
 const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
+const
 selectedSource
 =
 getSelectedSource
@@ -95,6 +106,7 @@ getSelectedFrame
 getState
 (
 )
+thread
 )
 ;
 if
