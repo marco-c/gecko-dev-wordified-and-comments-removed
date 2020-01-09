@@ -32,6 +32,12 @@ WebProgressChild
 this
 )
 ;
+this
+.
+beginSendingWebProgressEventsToParent
+(
+)
+;
 addEventListener
 (
 "
