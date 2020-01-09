@@ -122,16 +122,6 @@ taskcluster
 0
 .
 1
-taskcluster
--
-urls
-=
-=
-11
-.
-0
-.
-0
 virtualenv
 =
 =

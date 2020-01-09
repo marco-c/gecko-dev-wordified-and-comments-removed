@@ -462,17 +462,6 @@ third_party
 /
 python
 /
-taskcluster
--
-urls
-mozilla
-.
-pth
-:
-third_party
-/
-python
-/
 voluptuous
 mozilla
 .

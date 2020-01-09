@@ -277,13 +277,11 @@ https
 :
 /
 /
-tc
+queue
+.
+taskcluster
 .
 net
-/
-api
-/
-queue
 /
 v1
 /

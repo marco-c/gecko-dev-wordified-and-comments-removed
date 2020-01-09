@@ -57,8 +57,6 @@ import
 optionally_keyed_by
     
 resolve_keyed_by
-    
-taskref_or_string
 )
 from
 taskgraph
@@ -127,6 +125,26 @@ build
 platform
 '
 arg
+)
+taskref_or_string
+=
+Any
+(
+    
+basestring
+    
+{
+Required
+(
+'
+task
+-
+reference
+'
+)
+:
+basestring
+}
 )
 job_description_schema
 =
