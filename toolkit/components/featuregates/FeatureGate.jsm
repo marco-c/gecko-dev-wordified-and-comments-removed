@@ -495,12 +495,17 @@ toml
 const
 definition
 =
+{
+.
+.
+.
 featureDefinitions
 .
 get
 (
 id
 )
+}
 ;
 const
 targetValueKeys

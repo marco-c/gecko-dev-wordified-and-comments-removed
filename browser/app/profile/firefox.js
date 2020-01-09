@@ -13725,11 +13725,13 @@ shield
 pref
 (
 "
-app
+features
 .
 normandy
-.
-remotesettings
+-
+remote
+-
+settings
 .
 enabled
 "
