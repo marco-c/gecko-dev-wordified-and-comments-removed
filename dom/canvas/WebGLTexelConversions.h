@@ -2653,6 +2653,7 @@ dst
 0
 ]
 =
+uint8_t
 (
 r
 <
@@ -2671,6 +2672,7 @@ dst
 1
 ]
 =
+uint8_t
 (
 g
 <
@@ -2689,6 +2691,7 @@ dst
 2
 ]
 =
+uint8_t
 (
 b
 <
@@ -2986,6 +2989,7 @@ dst
 0
 ]
 =
+uint8_t
 (
 r
 <
@@ -3000,6 +3004,7 @@ dst
 1
 ]
 =
+uint8_t
 (
 g
 <
@@ -3014,6 +3019,7 @@ dst
 2
 ]
 =
+uint8_t
 (
 b
 <
@@ -3028,6 +3034,7 @@ dst
 3
 ]
 =
+uint8_t
 (
 a
 <
@@ -3113,6 +3120,7 @@ dst
 0
 ]
 =
+uint8_t
 (
 r
 <
@@ -3131,6 +3139,7 @@ dst
 1
 ]
 =
+uint8_t
 (
 g
 <
@@ -3149,6 +3158,7 @@ dst
 2
 ]
 =
+uint8_t
 (
 b
 <
@@ -5719,6 +5729,7 @@ dst
 *
 dst
 =
+uint16_t
 (
 (
 (
@@ -5857,6 +5868,7 @@ scaleFactor
 *
 dst
 =
+uint16_t
 (
 (
 (
@@ -5995,6 +6007,7 @@ scaleFactor
 *
 dst
 =
+uint16_t
 (
 (
 (
@@ -7122,6 +7135,7 @@ dst
 *
 dst
 =
+uint16_t
 (
 (
 (
@@ -7265,6 +7279,7 @@ scaleFactor
 *
 dst
 =
+uint16_t
 (
 (
 (
@@ -7408,6 +7423,7 @@ scaleFactor
 *
 dst
 =
+uint16_t
 (
 (
 (
@@ -7482,6 +7498,7 @@ dst
 *
 dst
 =
+uint16_t
 (
 (
 (
@@ -7630,6 +7647,7 @@ scaleFactor
 *
 dst
 =
+uint16_t
 (
 (
 (
@@ -7778,6 +7796,7 @@ scaleFactor
 *
 dst
 =
+uint16_t
 (
 (
 (

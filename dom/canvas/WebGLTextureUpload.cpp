@@ -43,6 +43,15 @@ include
 "
 mozilla
 /
+Casting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
@@ -5806,7 +5815,10 @@ true
 ;
 mImmutableLevelCount
 =
+AutoAssertCast
+(
 levels
+)
 ;
 ClampLevelBaseAndMax
 (
