@@ -407,6 +407,11 @@ all_urls
 "
 ]
 }
+incognitoOverride
+:
+"
+spanning
+"
 useAddonManager
 :
 "
