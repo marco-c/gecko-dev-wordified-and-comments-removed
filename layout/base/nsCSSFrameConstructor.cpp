@@ -30615,7 +30615,6 @@ parentFrame
 List
 (
 stdout
-0
 )
 ;
 }
@@ -31091,7 +31090,6 @@ mRootElementFrame
 List
 (
 stdout
-0
 )
 ;
 }
@@ -32490,7 +32488,6 @@ mParentFrame
 List
 (
 stdout
-0
 )
 ;
 }
@@ -33587,7 +33584,6 @@ parentFrame
 List
 (
 stdout
-0
 )
 ;
 }
@@ -33838,7 +33834,6 @@ parentFrame
 List
 (
 stdout
-0
 )
 ;
 }

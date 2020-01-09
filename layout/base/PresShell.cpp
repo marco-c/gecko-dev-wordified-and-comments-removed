@@ -44890,7 +44890,6 @@ root1
 List
 (
 stdout
-0
 )
 ;
 printf
@@ -44910,7 +44909,6 @@ root2
 List
 (
 stdout
-0
 )
 ;
 }
