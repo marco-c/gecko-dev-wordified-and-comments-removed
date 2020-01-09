@@ -2180,7 +2180,7 @@ ci
 ci
 -
 >
-GetTrrUsed
+GetIsTrrServiceChannel
 (
 )
 )

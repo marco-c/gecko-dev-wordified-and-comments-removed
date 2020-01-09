@@ -641,7 +641,7 @@ if
 ci
 -
 >
-GetTrrUsed
+GetIsTrrServiceChannel
 (
 )
 )
