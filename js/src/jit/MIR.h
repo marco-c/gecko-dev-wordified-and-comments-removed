@@ -5064,7 +5064,9 @@ append
 (
 guard
 .
-group
+getGroup
+(
+)
 )
 &
 &
@@ -5072,7 +5074,9 @@ append
 (
 guard
 .
-shape
+getShape
+(
+)
 )
 ;
 }
