@@ -319,6 +319,11 @@ description
 Linux64
 PGO
 "
+use
+-
+pgo
+:
+true
 index
 :
 product
@@ -349,7 +354,10 @@ linux64
 pgo
 symbol
 :
+Bpgo
+(
 B
+)
 worker
 -
 type
@@ -439,6 +447,13 @@ need
 xvfb
 :
 true
+mozconfig
+-
+variant
+:
+profile
+-
+use
 toolchains
 :
 -
