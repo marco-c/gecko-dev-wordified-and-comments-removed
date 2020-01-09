@@ -769,10 +769,6 @@ mDataAllocGLCallCount
 (
 0
 )
-mBypassShaderValidation
-(
-false
-)
 mEmptyTFO
 (
 0

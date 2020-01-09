@@ -2664,15 +2664,6 @@ LOCAL_GL_TEXTURE_CUBE_MAP_SEAMLESS
 )
 ;
 }
-mBypassShaderValidation
-=
-gfxPrefs
-:
-:
-WebGLBypassShaderValidator
-(
-)
-;
 if
 (
 !

@@ -1025,7 +1025,10 @@ std
 :
 map
 <
-nsCString
+std
+:
+:
+string
 GLuint
 >
 mNextLink_BoundAttribLocs
