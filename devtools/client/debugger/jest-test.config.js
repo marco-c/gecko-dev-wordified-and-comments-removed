@@ -97,6 +97,7 @@ mochitest
 "
 "
 firefox
+/
 "
 ]
 collectCoverageFrom
