@@ -445,7 +445,11 @@ uint32_t
 sDiskFreeSpaceHardLimit
 ;
 static
+Atomic
+<
 bool
+Relaxed
+>
 sSmartCacheSizeEnabled
 ;
 static

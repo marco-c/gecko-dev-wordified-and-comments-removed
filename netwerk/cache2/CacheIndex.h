@@ -4519,7 +4519,7 @@ ReportHashStats
 )
 ;
 void
-DoBaseDomainAccessTelemetryReport
+DoTelemetryReport
 (
 )
 ;
