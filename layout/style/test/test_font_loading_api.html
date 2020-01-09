@@ -942,9 +942,6 @@ fetchAsArrayBuffer
 aURL
 )
 {
-var
-xhr
-;
 return
 new
 Promise
@@ -20347,11 +20344,6 @@ s
 FontFaceSet
 .
 var
-i
-=
-0
-;
-var
 faces
 =
 [
@@ -20369,6 +20361,7 @@ what
 :
 whatWin
 }
+index
 )
 {
 var
@@ -20383,9 +20376,7 @@ FontFace
 test
 "
 +
-+
-+
-i
+index
 "
 url
 (
@@ -20457,8 +20448,8 @@ what
 }
 )
 {
-var
-all
+let
+allFonts
 =
 Array
 .
@@ -20477,7 +20468,7 @@ what
 ]
 .
 length
-all
+allFonts
 .
 length
 "
@@ -20500,7 +20491,7 @@ what
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -20528,7 +20519,7 @@ what
 [
 i
 ]
-all
+allFonts
 [
 i
 ]
