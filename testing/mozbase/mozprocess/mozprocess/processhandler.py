@@ -1295,6 +1295,9 @@ def
 wait
 (
 self
+timeout
+=
+None
 )
 :
             
@@ -1341,8 +1344,11 @@ returncode
 =
 self
 .
-_wait
+_custom_wait
 (
+timeout
+=
+timeout
 )
             
 self
@@ -2858,11 +2864,45 @@ value
 pass
             
 def
-_wait
+_custom_wait
 (
 self
+timeout
+=
+None
 )
 :
+                
+"
+"
+"
+Custom
+implementation
+of
+wait
+.
+                
+-
+timeout
+:
+number
+of
+seconds
+before
+timing
+out
+.
+If
+None
+                  
+will
+wait
+indefinitely
+.
+                
+"
+"
+"
                 
 if
 self
@@ -2947,6 +2987,25 @@ port
 "
 )
                     
+if
+timeout
+is
+None
+:
+                        
+timeout
+=
+(
+self
+.
+MAX_IOCOMPLETION_PORT_NOTIFICATION_DELAY
++
+                                   
+self
+.
+MAX_PROCESS_KILL_DELAY
+)
+                    
 try
 :
                         
@@ -2958,17 +3017,9 @@ _process_events
 .
 get
 (
-                            
 timeout
 =
-self
-.
-MAX_IOCOMPLETION_PORT_NOTIFICATION_DELAY
-+
-                            
-self
-.
-MAX_PROCESS_KILL_DELAY
+timeout
 )
                         
 if
@@ -3130,6 +3181,26 @@ self
 _handle
 :
                         
+if
+timeout
+is
+None
+:
+                            
+timeout
+=
+-
+1
+                        
+else
+:
+                            
+timeout
+=
+timeout
+*
+1000
+                        
 rc
 =
 winprocess
@@ -3139,8 +3210,7 @@ WaitForSingleObject
 self
 .
 _handle
--
-1
+timeout
 )
                     
 if
@@ -3494,9 +3564,12 @@ isPosix
 :
             
 def
-_wait
+_custom_wait
 (
 self
+timeout
+=
+None
 )
 :
                 
@@ -3538,7 +3611,7 @@ wait
 then
 a
 new
-_wait
+_custom_wait
 method
                     
 could
@@ -3646,6 +3719,12 @@ returncode
 else
 :
                     
+if
+six
+.
+PY2
+:
+                        
 subprocess
 .
 Popen
@@ -3653,6 +3732,21 @@ Popen
 wait
 (
 self
+)
+                    
+else
+:
+                        
+subprocess
+.
+Popen
+.
+wait
+(
+self
+timeout
+=
+timeout
 )
                     
 return
@@ -3696,12 +3790,21 @@ stderr
 )
             
 def
-_wait
+_custom_wait
 (
 self
+timeout
+=
+None
 )
 :
                 
+if
+six
+.
+PY2
+:
+                    
 self
 .
 returncode
@@ -3713,6 +3816,25 @@ Popen
 wait
 (
 self
+)
+                
+else
+:
+                    
+self
+.
+returncode
+=
+subprocess
+.
+Popen
+.
+wait
+(
+self
+timeout
+=
+timeout
 )
                 
 return
