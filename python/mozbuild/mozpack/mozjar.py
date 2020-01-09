@@ -27,11 +27,6 @@ from
 collections
 import
 OrderedDict
-from
-urlparse
-import
-urlparse
-ParseResult
 import
 mozpack
 .
