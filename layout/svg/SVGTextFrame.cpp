@@ -12281,16 +12281,6 @@ AppUnitsPerCSSPixel
 )
 )
 ;
-double
-contextScale
-=
-GetContextScale
-(
-GetCanvasTM
-(
-)
-)
-;
 mRect
 .
 Inflate
@@ -12304,7 +12294,7 @@ AppUnitsPerDevPixel
 (
 )
 /
-contextScale
+mLastContextScale
 )
 )
 ;
