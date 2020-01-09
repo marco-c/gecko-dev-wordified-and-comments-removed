@@ -243,6 +243,11 @@ InsecurePasswordUtils
 jsm
 '
 '
+LoginAutoCompleteResult
+.
+jsm
+'
+'
 LoginHelper
 .
 jsm

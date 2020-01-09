@@ -158,7 +158,7 @@ defineModuleGetter
 (
 this
 "
-UserAutoCompleteResult
+LoginAutoCompleteResult
 "
 "
 resource
@@ -169,7 +169,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginAutoCompleteResult
 .
 jsm
 "
@@ -2585,7 +2585,7 @@ let
 results
 =
 new
-UserAutoCompleteResult
+LoginAutoCompleteResult
 (
 aSearchString
 logins

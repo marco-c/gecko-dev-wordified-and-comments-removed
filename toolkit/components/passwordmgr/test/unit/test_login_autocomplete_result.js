@@ -1,6 +1,6 @@
 const
 {
-UserAutoCompleteResult
+LoginAutoCompleteResult
 }
 =
 ChromeUtils
@@ -16,7 +16,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginAutoCompleteResult
 .
 jsm
 "
@@ -1958,7 +1958,7 @@ LoginHelper
 createLogger
 (
 "
-UserAutoCompleteResult
+LoginAutoCompleteResult
 "
 )
 ;
@@ -1998,7 +1998,7 @@ let
 actual
 =
 new
-UserAutoCompleteResult
+LoginAutoCompleteResult
 (
 "
 "
