@@ -92,6 +92,12 @@ TryUsePopupOpeningToken
 )
 ;
 static
+bool
+IsPopupOpeningTokenUnused
+(
+)
+;
+static
 PopupBlocker
 :
 :
