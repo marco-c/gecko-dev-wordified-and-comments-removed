@@ -680,16 +680,6 @@ Build_Instructions
 /
 Simple_Firefox_for_Android_build
 )
-with
-ac_add_options
--
--
-enable
--
-marionette
-in
-your
-mozconfig
 .
 *
 You
