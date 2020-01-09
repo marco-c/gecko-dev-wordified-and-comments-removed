@@ -83,6 +83,13 @@ script
 )
 ;
 void
+beginWasmFunction
+(
+unsigned
+funcIndex
+)
+;
+void
 beginPass
 (
 const
