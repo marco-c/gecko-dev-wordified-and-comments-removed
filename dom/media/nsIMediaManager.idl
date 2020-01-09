@@ -232,13 +232,6 @@ optional
 out
 unsigned
 short
-aAppShare
-[
-optional
-]
-out
-unsigned
-short
 aBrowserShare
 )
 ;
