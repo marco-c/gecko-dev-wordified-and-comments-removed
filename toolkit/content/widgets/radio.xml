@@ -311,15 +311,6 @@ this
 .
 control
 ;
-window
-.
-customElements
-.
-upgrade
-(
-control
-)
-;
 if
 (
 control
