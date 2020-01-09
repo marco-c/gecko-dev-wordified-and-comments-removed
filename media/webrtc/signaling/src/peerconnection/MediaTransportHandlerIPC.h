@@ -32,7 +32,7 @@ namespace
 mozilla
 {
 class
-MediaTransportHandlerChild
+MediaTransportChild
 ;
 class
 MediaTransportHandlerIPC
@@ -358,9 +358,9 @@ private
 :
 friend
 class
-MediaTransportHandlerChild
+MediaTransportChild
 ;
-MediaTransportHandlerChild
+MediaTransportChild
 *
 mChild
 =
