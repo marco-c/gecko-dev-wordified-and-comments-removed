@@ -10,7 +10,6 @@ LayoutPrimitiveInfo
 MixBlendMode
 PropertyBinding
 PropertyBindingId
-LayoutVector2D
 }
 ;
 use
@@ -947,9 +946,6 @@ _
 &
 mut
 PrimitiveStore
-_reference_frame_relative_offset
-:
-LayoutVector2D
 )
 -
 >
