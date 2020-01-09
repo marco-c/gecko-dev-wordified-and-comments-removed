@@ -2954,6 +2954,12 @@ defaultProxy
 !
 =
 defaultProxy
+&
+&
+!
+Cu
+.
+isInAutomation
 )
 {
 LOG
