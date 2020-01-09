@@ -3144,8 +3144,6 @@ Ok
 >
 jsop_defvar
 (
-uint32_t
-index
 )
 ;
 AbortReasonOr
@@ -3154,8 +3152,6 @@ Ok
 >
 jsop_deflexical
 (
-uint32_t
-index
 )
 ;
 AbortReasonOr

@@ -899,6 +899,15 @@ alloc
 )
 LDefLexical
 (
+useRegisterAtStart
+(
+ins
+-
+>
+environmentChain
+(
+)
+)
 )
 ;
 add
