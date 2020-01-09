@@ -1699,6 +1699,11 @@ macos
 -
 sdk
 '
+env
+=
+'
+MACOS_SDK_DIR
+'
 nargs
 =
 1
@@ -1844,6 +1849,11 @@ private
 -
 frameworks
 '
+env
+=
+"
+MACOS_PRIVATE_FRAMEWORKS_DIR
+"
 nargs
 =
 1
