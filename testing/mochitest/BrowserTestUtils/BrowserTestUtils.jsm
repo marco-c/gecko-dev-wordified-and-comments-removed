@@ -2290,6 +2290,9 @@ url
 browser
 .
 remoteType
+browser
+.
+remoteType
 )
 )
 {
