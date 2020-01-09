@@ -52,6 +52,13 @@ Service
 worker
 response
 "
+{
+statusText
+:
+"
+OK
+"
+}
 )
 ;
 event
