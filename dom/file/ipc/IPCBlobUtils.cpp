@@ -469,7 +469,7 @@ aInputStream
 ;
 nsCOMPtr
 <
-nsIIPCBlobInputStream
+mozIIPCBlobInputStream
 >
 ipcBlobInputStream
 =
