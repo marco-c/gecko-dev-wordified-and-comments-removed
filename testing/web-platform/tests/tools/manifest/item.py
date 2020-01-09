@@ -470,9 +470,6 @@ self
 _extras
 =
 extras
-or
-{
-}
     
 property
     
@@ -992,14 +989,27 @@ url
 extras
 )
         
+if
+references
+is
+None
+:
+            
+self
+.
+references
+=
+[
+]
+        
+else
+:
+            
 self
 .
 references
 =
 references
-or
-[
-]
     
 property
     
