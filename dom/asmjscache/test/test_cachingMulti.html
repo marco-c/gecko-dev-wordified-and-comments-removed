@@ -240,7 +240,7 @@ n
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -311,7 +311,7 @@ codes
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -500,7 +500,7 @@ code2
 function
 evalAsync
 (
-code
+codeInner
 )
 {
 var
@@ -510,7 +510,7 @@ new
 Blob
 (
 [
-code
+codeInner
 ]
 {
 type
@@ -607,7 +607,7 @@ true
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -655,7 +655,7 @@ runTest
 {
 for
 (
-var
+let
 i
 =
 0

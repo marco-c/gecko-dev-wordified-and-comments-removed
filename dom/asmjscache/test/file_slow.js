@@ -208,7 +208,7 @@ Int32Array
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -404,7 +404,7 @@ asm
 "
 ;
 var
-done
+doneFunc
 =
 foreign
 .
@@ -430,7 +430,9 @@ var
 i
 =
 0
-sum
+;
+var
+total
 =
 0
 ;
@@ -463,10 +465,10 @@ i
 |
 0
 )
-sum
+total
 =
 (
-sum
+total
 +
 i
 )
@@ -475,9 +477,9 @@ i
 ;
 if
 (
-done
+doneFunc
 (
-sum
+total
 |
 0
 )
@@ -488,7 +490,7 @@ break
 ;
 }
 return
-sum
+total
 |
 0
 ;
@@ -506,12 +508,12 @@ lastSum
 function
 done
 (
-sum
+sumInner
 )
 {
 if
 (
-sum
+sumInner
 !
 =
 =
@@ -532,7 +534,7 @@ sum
 :
 "
 +
-sum
+sumInner
 +
 "
 "
@@ -554,7 +556,7 @@ lastSum
 ;
 lastSum
 =
-sum
+sumInner
 ;
 return
 (

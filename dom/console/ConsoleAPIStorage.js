@@ -342,7 +342,6 @@ for
 (
 let
 [
-id
 events
 ]
 of

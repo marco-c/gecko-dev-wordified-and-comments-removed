@@ -34,12 +34,12 @@ onmessage
 =
 function
 (
-evt
+event
 )
 {
 postMessage
 (
-evt
+event
 .
 data
 )
