@@ -1582,7 +1582,6 @@ nullptr
 enum
 {
 PaintText
-PaintTextBGColor
 GenerateTextMask
 }
 ;
@@ -1629,19 +1628,6 @@ state
 =
 =
 GenerateTextMask
-;
-}
-bool
-IsPaintBGColor
-(
-)
-const
-{
-return
-state
-=
-=
-PaintTextBGColor
 ;
 }
 }
