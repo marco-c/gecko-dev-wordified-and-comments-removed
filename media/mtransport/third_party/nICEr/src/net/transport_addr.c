@@ -2016,7 +2016,7 @@ break
 ;
 default
 :
-UNIMPLEMENTED
+NR_UNIMPLEMENTED
 ;
 break
 ;
@@ -2060,7 +2060,7 @@ break
 ;
 default
 :
-UNIMPLEMENTED
+NR_UNIMPLEMENTED
 ;
 }
 return
@@ -2171,7 +2171,7 @@ break
 ;
 default
 :
-UNIMPLEMENTED
+NR_UNIMPLEMENTED
 ;
 }
 return
@@ -2301,7 +2301,7 @@ break
 ;
 default
 :
-UNIMPLEMENTED
+NR_UNIMPLEMENTED
 ;
 }
 return
@@ -2387,7 +2387,7 @@ break
 ;
 default
 :
-UNIMPLEMENTED
+NR_UNIMPLEMENTED
 ;
 }
 return
@@ -2586,7 +2586,7 @@ break
 ;
 default
 :
-UNIMPLEMENTED
+NR_UNIMPLEMENTED
 ;
 }
 return
@@ -2722,7 +2722,7 @@ return
 ;
 default
 :
-UNIMPLEMENTED
+NR_UNIMPLEMENTED
 ;
 }
 return

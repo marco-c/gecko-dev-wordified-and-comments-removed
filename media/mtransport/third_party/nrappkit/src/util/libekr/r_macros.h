@@ -330,7 +330,7 @@ a
 endif
 #
 define
-UNIMPLEMENTED
+NR_UNIMPLEMENTED
 do
 {
 fprintf
