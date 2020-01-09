@@ -1408,6 +1408,13 @@ GetIPCInitializer
 (
 )
 {
+MOZ_ASSERT
+(
+IsContent
+(
+)
+)
+;
 IPCInitializer
 init
 ;
