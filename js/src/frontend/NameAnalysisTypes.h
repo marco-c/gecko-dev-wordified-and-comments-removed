@@ -248,7 +248,6 @@ PositionalFormalParameter
 FormalParameter
 CoverArrowParameter
 Var
-ForOfVar
 Let
 Const
 Class
@@ -323,12 +322,6 @@ DeclarationKind
 :
 :
 VarForAnnexBLexicalFunction
-:
-case
-DeclarationKind
-:
-:
-ForOfVar
 :
 return
 BindingKind

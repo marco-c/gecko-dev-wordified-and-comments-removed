@@ -1,9 +1,3 @@
-assertThrowsInstanceOf
-(
-(
-)
-=
->
 evaluate
 (
 try
@@ -34,11 +28,7 @@ of
 )
 }
 )
-SyntaxError
-)
 ;
-assertThrowsInstanceOf
-(
 new
 Function
 (
@@ -70,7 +60,7 @@ of
 )
 }
 )
-SyntaxError
+(
 )
 ;
 if
