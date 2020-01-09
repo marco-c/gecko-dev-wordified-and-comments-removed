@@ -42,15 +42,6 @@ rayon
 "
 1
 "
-num_cpus
-=
-"
-1
-.
-7
-.
-0
-"
 thread_profiler
 =
 "

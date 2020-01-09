@@ -7700,15 +7700,4 @@ delete
 handler
 ;
 }
-void
-wr_register_thread_local_arena
-(
-)
-{
-jemalloc_thread_local_arena
-(
-true
-)
-;
-}
 }
