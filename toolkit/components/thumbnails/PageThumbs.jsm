@@ -605,7 +605,7 @@ createCanvas
 (
 aBrowser
 .
-contentWindow
+ownerGlobal
 )
 ;
 this
@@ -1009,7 +1009,7 @@ createSnapshotThumbnail
 (
 aBrowser
 .
-contentWindow
+ownerGlobal
 aCanvas
 aArgs
 )

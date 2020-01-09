@@ -95,16 +95,7 @@ aHeight
 let
 doc
 =
-(
 aWindow
-|
-|
-Services
-.
-appShell
-.
-hiddenDOMWindow
-)
 .
 document
 ;

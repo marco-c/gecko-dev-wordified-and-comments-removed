@@ -548,6 +548,9 @@ PageThumbs
 .
 createCanvas
 (
+this
+.
+win
 )
 ;
 canvas
@@ -964,6 +967,9 @@ PageThumbs
 .
 createCanvas
 (
+this
+.
+win
 )
 ;
 composite
