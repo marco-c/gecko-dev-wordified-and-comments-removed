@@ -1599,12 +1599,9 @@ float
 aResolution
 )
 ;
-void
+float
 getResolution
 (
-out
-float
-aResolution
 )
 ;
 /
