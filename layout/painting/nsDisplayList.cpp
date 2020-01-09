@@ -13407,6 +13407,7 @@ Paint
 "
 LayerBuilding
 "
+GRAPHICS
 docShell
 )
 ;
