@@ -6206,6 +6206,14 @@ txn
 IsResourceUpdatesEmpty
 (
 )
+&
+&
+!
+txn
+.
+IsRenderedFrameInvalidated
+(
+)
 )
 {
 RollbackWrEpoch
