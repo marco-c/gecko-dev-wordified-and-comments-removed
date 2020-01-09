@@ -591,7 +591,7 @@ class
 NodeInfo
 ;
 class
-nsIContentChild
+ContentChild
 ;
 class
 ContentParent
@@ -5868,7 +5868,7 @@ mozilla
 dom
 :
 :
-nsIContentChild
+ContentChild
 *
 aChild
 mozilla
@@ -5906,7 +5906,7 @@ mozilla
 dom
 :
 :
-nsIContentChild
+ContentChild
 *
 aChild
 mozilla

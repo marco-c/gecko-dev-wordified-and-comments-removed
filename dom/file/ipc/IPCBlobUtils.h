@@ -58,7 +58,7 @@ class
 IPCBlob
 ;
 class
-nsIContentChild
+ContentChild
 ;
 class
 ContentParent
@@ -84,7 +84,7 @@ Serialize
 BlobImpl
 *
 aBlobImpl
-nsIContentChild
+ContentChild
 *
 aManager
 IPCBlob

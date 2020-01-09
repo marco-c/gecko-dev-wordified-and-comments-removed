@@ -234,7 +234,7 @@ class
 ContentParent
 ;
 class
-nsIContentChild
+ContentChild
 ;
 class
 ChildProcessMessageManager
@@ -463,7 +463,7 @@ aClonedData
 bool
 BuildClonedMessageDataForChild
 (
-nsIContentChild
+ContentChild
 *
 aChild
 StructuredCloneData
