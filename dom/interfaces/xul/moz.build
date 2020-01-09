@@ -139,6 +139,11 @@ nsIDOMXULMultSelectCntrlEl
 idl
 '
 '
+nsIDOMXULRadioGroupElement
+.
+idl
+'
+'
 nsIDOMXULRelatedElement
 .
 idl

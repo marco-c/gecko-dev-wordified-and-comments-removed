@@ -342,6 +342,9 @@ class
 nsIDOMXULMultiSelectControlElement
 ;
 class
+nsIDOMXULRadioGroupElement
+;
+class
 nsIDOMXULRelatedElement
 ;
 class
@@ -5109,6 +5112,14 @@ already_AddRefed
 nsIDOMXULMultiSelectControlElement
 >
 AsXULMultiSelectControl
+(
+)
+;
+already_AddRefed
+<
+nsIDOMXULRadioGroupElement
+>
+AsXULRadioGroup
 (
 )
 ;
