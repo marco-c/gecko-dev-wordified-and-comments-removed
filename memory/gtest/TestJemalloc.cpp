@@ -427,6 +427,8 @@ void
 aAddr
 size_t
 aSize
+arena_id_t
+arenaId
 )
 {
 return
@@ -452,6 +454,19 @@ size
 =
 =
 aSize
+#
+ifdef
+MOZ_DEBUG
+&
+&
+aInfo
+.
+arenaId
+=
+=
+arenaId
+#
+endif
 ;
 }
 bool
@@ -465,6 +480,8 @@ void
 aAddr
 size_t
 aPageSize
+arena_id_t
+arenaId
 )
 {
 size_t
@@ -508,6 +525,19 @@ size
 =
 =
 aPageSize
+#
+ifdef
+MOZ_DEBUG
+&
+&
+aInfo
+.
+arenaId
+=
+=
+arenaId
+#
+endif
 ;
 }
 TEST
@@ -516,9 +546,19 @@ Jemalloc
 PtrInfo
 )
 {
-jemalloc_thread_local_arena
+arena_id_t
+arenaId
+=
+moz_create_arena
 (
-true
+)
+;
+ASSERT_TRUE
+(
+arenaId
+!
+=
+0
 )
 ;
 jemalloc_stats_t
@@ -576,8 +616,9 @@ p
 char
 *
 )
-malloc
+moz_arena_malloc
 (
+arenaId
 n
 )
 ;
@@ -634,6 +675,7 @@ info
 TagLiveSmall
 p
 usable
+arenaId
 )
 )
 ;
@@ -668,8 +710,9 @@ p
 char
 *
 )
-malloc
+moz_arena_malloc
 (
+arenaId
 n
 )
 ;
@@ -727,6 +770,7 @@ info
 TagLiveLarge
 p
 usable
+arenaId
 )
 )
 ;
@@ -759,8 +803,9 @@ p
 char
 *
 )
-malloc
+moz_arena_malloc
 (
+arenaId
 n
 )
 ;
@@ -818,6 +863,7 @@ info
 TagLiveHuge
 p
 usable
+arenaId
 )
 )
 ;
@@ -927,6 +973,7 @@ info
 TagFreedSmall
 p
 usable
+arenaId
 )
 )
 {
@@ -949,6 +996,7 @@ k
 stats
 .
 page_size
+arenaId
 )
 )
 {
@@ -1091,6 +1139,7 @@ k
 stats
 .
 page_size
+arenaId
 )
 )
 ;
@@ -1190,6 +1239,7 @@ info
 TagUnknown
 nullptr
 0U
+0U
 )
 )
 ;
@@ -1209,6 +1259,7 @@ InfoEq
 info
 TagUnknown
 nullptr
+0U
 0U
 )
 )
@@ -1231,6 +1282,7 @@ InfoEq
 info
 TagUnknown
 nullptr
+0U
 0U
 )
 )
@@ -1258,6 +1310,7 @@ info
 TagUnknown
 nullptr
 0U
+0U
 )
 )
 ;
@@ -1279,6 +1332,7 @@ InfoEq
 info
 TagUnknown
 nullptr
+0U
 0U
 )
 )
@@ -1304,6 +1358,7 @@ info
 TagUnknown
 nullptr
 0U
+0U
 )
 )
 ;
@@ -1322,6 +1377,7 @@ InfoEq
 info
 TagUnknown
 nullptr
+0U
 0U
 )
 )
@@ -1421,6 +1477,7 @@ info
 TagUnknown
 nullptr
 0U
+0U
 )
 )
 ;
@@ -1497,6 +1554,7 @@ info
 TagUnknown
 nullptr
 0U
+0U
 )
 )
 ;
@@ -1532,11 +1590,6 @@ info
 )
 ;
 }
-jemalloc_thread_local_arena
-(
-false
-)
-;
 }
 size_t
 sSizes
