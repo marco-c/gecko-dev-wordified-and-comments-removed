@@ -414,6 +414,10 @@ MainThread
 canRewind
 :
 boolean
++
+isWebExtension
+:
+boolean
 |
 }
 |
