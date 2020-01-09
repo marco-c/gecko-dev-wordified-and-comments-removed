@@ -87,6 +87,16 @@ ccov
 .
 *
 '
+    
+'
+windows10
+-
+aarch64
+/
+opt
+.
+*
+'
 )
 FZF_NOT_FOUND
 =
