@@ -165,12 +165,6 @@ cleanup
 (
 )
 {
-super
-.
-cleanup
-(
-)
-;
 Services
 .
 prefs
