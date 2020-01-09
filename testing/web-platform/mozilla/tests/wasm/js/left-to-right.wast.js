@@ -1,9 +1,3 @@
-(
-function
-left_to_right_wast_js
-(
-)
-{
 let
 1
 =
@@ -8841,14 +8835,5 @@ br_table
 ]
 )
 258
-)
-;
-reinitializeRegistry
-(
-)
-;
-}
-)
-(
 )
 ;

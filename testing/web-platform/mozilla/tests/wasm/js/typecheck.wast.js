@@ -1,9 +1,3 @@
-(
-function
-typecheck_wast_js
-(
-)
-{
 assert_invalid
 (
 "
@@ -3078,7 +3072,7 @@ x00
 \
 x0a
 \
-x90
+x93
 \
 x80
 \
@@ -3090,7 +3084,7 @@ x00
 \
 x01
 \
-x8a
+x8d
 \
 x80
 \
@@ -3115,6 +3109,12 @@ x00
 x04
 \
 x40
+\
+x01
+\
+x05
+\
+x01
 \
 x0b
 \
@@ -20210,14 +20210,5 @@ x00
 \
 x0b
 "
-)
-;
-reinitializeRegistry
-(
-)
-;
-}
-)
-(
 )
 ;

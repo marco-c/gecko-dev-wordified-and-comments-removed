@@ -1,9 +1,3 @@
-(
-function
-comments_wast_js
-(
-)
-{
 let
 1
 =
@@ -102,14 +96,5 @@ x00
 \
 x00
 "
-)
-;
-reinitializeRegistry
-(
-)
-;
-}
-)
-(
 )
 ;

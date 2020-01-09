@@ -1,9 +1,3 @@
-(
-function
-endianness_wast_js
-(
-)
-{
 let
 1
 =
@@ -13387,14 +13381,5 @@ run
 [
 ]
 )
-)
-;
-reinitializeRegistry
-(
-)
-;
-}
-)
-(
 )
 ;
