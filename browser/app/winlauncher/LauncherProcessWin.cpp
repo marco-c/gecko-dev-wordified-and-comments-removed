@@ -202,6 +202,10 @@ mozilla
 LauncherVoidResult
 PostCreationSetup
 (
+const
+wchar_t
+*
+aFullImagePath
 HANDLE
 aChildProcess
 HANDLE
@@ -239,6 +243,7 @@ mozilla
 :
 InitializeDllBlocklistOOP
 (
+aFullImagePath
 aChildProcess
 )
 ;
@@ -1756,6 +1761,10 @@ setupResult
 =
 PostCreationSetup
 (
+argv
+[
+0
+]
 process
 .
 get

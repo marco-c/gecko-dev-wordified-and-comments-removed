@@ -26,6 +26,10 @@ mozilla
 LauncherVoidResult
 InitializeDllBlocklistOOP
 (
+const
+wchar_t
+*
+aFullImagePath
 HANDLE
 aChildProcess
 )
