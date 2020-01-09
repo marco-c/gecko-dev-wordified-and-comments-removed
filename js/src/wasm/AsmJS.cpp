@@ -38357,13 +38357,11 @@ ArrayBufferObject
 if
 (
 !
-ArrayBufferObject
-:
-:
+arrayBuffer
+-
+>
 prepareForAsmJS
 (
-cx
-arrayBuffer
 )
 )
 {
