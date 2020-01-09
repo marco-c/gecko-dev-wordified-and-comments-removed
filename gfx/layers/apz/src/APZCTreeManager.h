@@ -1376,6 +1376,9 @@ HitTestingTreeNode
 >
 mRootNode
 ;
+bool
+mUsingAsyncZoomContainer
+;
 mutable
 mozilla
 :
