@@ -4063,7 +4063,7 @@ fun
 ;
 if
 (
-IsExportedWasmFunction
+IsWasmExportedFunction
 (
 fun
 )
@@ -6173,7 +6173,7 @@ isAsmJS
 )
 &
 &
-IsExportedWasmFunction
+IsWasmExportedFunction
 (
 f
 )
