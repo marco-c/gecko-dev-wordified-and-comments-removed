@@ -227,6 +227,7 @@ binary
 "
 "
 "
+true
 )
 ;
 chan
@@ -424,6 +425,7 @@ binary
 "
 "
 "
+true
 )
 ;
 chan
