@@ -871,6 +871,9 @@ false
 handleKeyNavigation
 (
 event
+executeAction
+=
+true
 )
 {
 const
@@ -924,6 +927,11 @@ p
 )
 )
 {
+if
+(
+executeAction
+)
+{
 this
 .
 view
@@ -945,6 +953,7 @@ p
 }
 )
 ;
+}
 event
 .
 preventDefault
@@ -961,6 +970,9 @@ this
 view
 .
 isOpen
+&
+&
+executeAction
 )
 {
 let
@@ -1023,6 +1035,11 @@ KeyEvent
 .
 DOM_VK_ESCAPE
 :
+if
+(
+executeAction
+)
+{
 this
 .
 input
@@ -1031,6 +1048,7 @@ handleRevert
 (
 )
 ;
+}
 event
 .
 preventDefault
@@ -1061,6 +1079,11 @@ preventDefault
 )
 ;
 }
+if
+(
+executeAction
+)
+{
 this
 .
 input
@@ -1070,6 +1093,7 @@ handleCommand
 event
 )
 ;
+}
 break
 ;
 case
@@ -1084,6 +1108,11 @@ this
 view
 .
 isOpen
+)
+{
+if
+(
+executeAction
 )
 {
 this
@@ -1110,6 +1139,7 @@ userSelectionBehavior
 tab
 "
 ;
+}
 event
 .
 preventDefault
@@ -1161,6 +1191,11 @@ this
 view
 .
 isOpen
+)
+{
+if
+(
+executeAction
 )
 {
 this
@@ -1224,6 +1259,7 @@ DOM_VK_PAGE_UP
 )
 ;
 }
+}
 else
 {
 if
@@ -1239,6 +1275,11 @@ event
 break
 ;
 }
+if
+(
+executeAction
+)
+{
 this
 .
 input
@@ -1247,6 +1288,7 @@ startQuery
 (
 )
 ;
+}
 }
 event
 .
@@ -1280,10 +1322,16 @@ view
 isOpen
 &
 &
+(
+!
+executeAction
+|
+|
 this
 .
 _handleDeleteEntry
 (
+)
 )
 )
 {
