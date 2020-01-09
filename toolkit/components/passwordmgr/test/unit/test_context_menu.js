@@ -465,7 +465,7 @@ findDuplicates
 unfilteredLoginList
 )
 {
-var
+let
 seen
 =
 new
@@ -473,7 +473,7 @@ Set
 (
 )
 ;
-var
+let
 duplicates
 =
 new

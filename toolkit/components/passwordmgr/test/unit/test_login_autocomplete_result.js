@@ -22,7 +22,7 @@ jsm
 "
 )
 ;
-var
+let
 nsLoginInfo
 =
 Components

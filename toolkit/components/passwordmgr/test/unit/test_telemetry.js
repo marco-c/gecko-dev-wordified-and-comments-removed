@@ -37,7 +37,7 @@ getTime
 (
 )
 ;
-var
+const
 daysBeforeMs
 =
 days

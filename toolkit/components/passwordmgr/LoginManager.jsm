@@ -1328,7 +1328,7 @@ _checkLogin
 login
 )
 ;
-var
+let
 logins
 =
 this

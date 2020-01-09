@@ -26,7 +26,7 @@ jsm
 "
 )
 ;
-var
+let
 crypto
 =
 new
