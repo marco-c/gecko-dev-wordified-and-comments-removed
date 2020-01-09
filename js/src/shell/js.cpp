@@ -10112,7 +10112,7 @@ contents
 BufferContents
 :
 :
-createMalloced
+createPlainData
 (
 buffer
 )
@@ -10128,7 +10128,7 @@ cx
 ArrayBufferObject
 :
 :
-createForContents
+create
 (
 cx
 length
@@ -39001,7 +39001,7 @@ cx
 ArrayBufferObject
 :
 :
-createZeroed
+create
 (
 cx
 bytes

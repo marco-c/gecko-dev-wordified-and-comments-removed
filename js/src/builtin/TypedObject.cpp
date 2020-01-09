@@ -7916,7 +7916,7 @@ buffer
 ArrayBufferObject
 :
 :
-createZeroed
+create
 (
 cx
 totalSize

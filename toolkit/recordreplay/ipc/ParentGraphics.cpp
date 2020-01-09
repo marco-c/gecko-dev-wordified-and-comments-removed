@@ -724,7 +724,7 @@ cx
 ;
 bufferObject
 =
-JS_NewArrayBufferWithUserOwnedContents
+JS_NewArrayBufferWithExternalContents
 (
 cx
 width

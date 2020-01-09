@@ -139,11 +139,6 @@ testArrayBufferView
 cpp
 '
 '
-testArrayBufferWithUserOwnedContents
-.
-cpp
-'
-'
 testAtomicOperations
 .
 cpp
@@ -250,6 +245,11 @@ cpp
 '
 '
 testExecuteInJSMEnvironment
+.
+cpp
+'
+'
+testExternalArrayBuffer
 .
 cpp
 '
