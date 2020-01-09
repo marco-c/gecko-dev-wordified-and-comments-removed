@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsIIPCSerializableURI
-.
-h
-"
-#
-include
-"
 nsIURIMutator
 .
 h
@@ -115,8 +108,6 @@ public
 nsIClassInfo
 public
 nsISizeOf
-public
-nsIIPCSerializableURI
 {
 protected
 :
@@ -138,7 +129,6 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIURI
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
-NS_DECL_NSIIPCSERIALIZABLEURI
 static
 already_AddRefed
 <

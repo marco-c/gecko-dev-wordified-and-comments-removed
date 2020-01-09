@@ -6246,10 +6246,6 @@ nsIClassInfo
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIIPCSerializableURI
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsISensitiveInfoHiddenURI
 )
 if

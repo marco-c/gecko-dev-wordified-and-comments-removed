@@ -90,13 +90,6 @@ h
 #
 include
 "
-nsIIPCSerializableURI
-.
-h
-"
-#
-include
-"
 mozilla
 /
 MemoryReporting
@@ -238,7 +231,6 @@ nsSimpleURI
 nsIURI
 nsISerializable
 nsIClassInfo
-nsIIPCSerializableURI
 )
 NS_INTERFACE_TABLE_TO_MAP_SEGUE
 if

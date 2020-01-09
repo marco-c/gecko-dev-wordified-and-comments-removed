@@ -107,11 +107,6 @@ nsIIPCSerializableInputStream
 .
 h
 '
-'
-nsIIPCSerializableURI
-.
-h
-'
 ]
 EXPORTS
 .
