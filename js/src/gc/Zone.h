@@ -156,7 +156,7 @@ typename
 T
 >
 class
-ZoneCellIter
+ZoneAllCellIter
 ;
 template
 <
@@ -164,7 +164,7 @@ typename
 T
 >
 class
-SafeZoneCellIter
+ZoneCellIter
 ;
 }
 class
@@ -745,7 +745,7 @@ js
 gc
 :
 :
-SafeZoneCellIter
+ZoneCellIter
 <
 T
 >
@@ -767,7 +767,7 @@ js
 gc
 :
 :
-SafeZoneCellIter
+ZoneCellIter
 <
 T
 >
@@ -812,7 +812,7 @@ js
 gc
 :
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -834,7 +834,7 @@ js
 gc
 :
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >

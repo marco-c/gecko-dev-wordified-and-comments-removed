@@ -813,13 +813,13 @@ typename
 T
 >
 class
-ZoneCellIter
+ZoneAllCellIter
 ;
 template
 <
 >
 class
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -844,7 +844,7 @@ nogc
 ;
 protected
 :
-ZoneCellIter
+ZoneAllCellIter
 (
 )
 {
@@ -1013,7 +1013,7 @@ settle
 }
 public
 :
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -1055,7 +1055,7 @@ kind
 )
 ;
 }
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -1235,10 +1235,10 @@ typename
 GCType
 >
 class
-ZoneCellIter
+ZoneAllCellIter
 :
 public
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -1246,7 +1246,7 @@ TenuredCell
 public
 :
 explicit
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -1256,7 +1256,7 @@ Zone
 zone
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -1276,7 +1276,7 @@ kind
 )
 ;
 }
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -1295,13 +1295,13 @@ AutoAssertEmptyNursery
 &
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 (
 zone
 )
 {
 }
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -1313,7 +1313,7 @@ AllocKind
 kind
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -1323,7 +1323,7 @@ kind
 )
 {
 }
-ZoneCellIter
+ZoneAllCellIter
 (
 JS
 :
@@ -1345,7 +1345,7 @@ AutoAssertEmptyNursery
 empty
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -1364,7 +1364,7 @@ get
 const
 {
 return
-ZoneCellIter
+ZoneAllCellIter
 <
 TenuredCell
 >
@@ -1414,10 +1414,10 @@ typename
 T
 >
 class
-SafeZoneCellIter
+ZoneCellIter
 :
 public
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -1425,7 +1425,7 @@ T
 public
 :
 explicit
-SafeZoneCellIter
+ZoneCellIter
 (
 JS
 :
@@ -1435,7 +1435,7 @@ Zone
 zone
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -1448,7 +1448,7 @@ skipDying
 )
 ;
 }
-SafeZoneCellIter
+ZoneCellIter
 (
 JS
 :
@@ -1468,7 +1468,7 @@ AutoAssertEmptyNursery
 empty
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -1482,7 +1482,7 @@ skipDying
 )
 ;
 }
-SafeZoneCellIter
+ZoneCellIter
 (
 JS
 :
@@ -1494,7 +1494,7 @@ AllocKind
 kind
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -1508,7 +1508,7 @@ skipDying
 )
 ;
 }
-SafeZoneCellIter
+ZoneCellIter
 (
 JS
 :
@@ -1530,7 +1530,7 @@ AutoAssertEmptyNursery
 empty
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -1550,7 +1550,7 @@ next
 (
 )
 {
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -1575,7 +1575,7 @@ skipDying
 while
 (
 !
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -1590,7 +1590,7 @@ T
 *
 current
 =
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >
@@ -1613,7 +1613,7 @@ current
 return
 ;
 }
-ZoneCellIter
+ZoneAllCellIter
 <
 T
 >

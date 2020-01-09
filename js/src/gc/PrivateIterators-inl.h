@@ -123,7 +123,7 @@ class
 GrayObjectIter
 :
 public
-ZoneCellIter
+ZoneAllCellIter
 <
 js
 :
@@ -149,7 +149,7 @@ AllocKind
 kind
 )
 :
-ZoneCellIter
+ZoneAllCellIter
 <
 js
 :
@@ -177,7 +177,7 @@ get
 const
 {
 return
-ZoneCellIter
+ZoneAllCellIter
 <
 js
 :
