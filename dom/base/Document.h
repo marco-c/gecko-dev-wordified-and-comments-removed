@@ -9751,6 +9751,13 @@ HasBeenUserGestureActivated
 (
 )
 ;
+BrowsingContext
+*
+GetBrowsingContext
+(
+)
+const
+;
 bool
 IsExtensionPage
 (
