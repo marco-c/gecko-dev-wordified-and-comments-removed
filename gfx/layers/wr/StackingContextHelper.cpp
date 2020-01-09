@@ -181,7 +181,7 @@ reference_frame_kind
 wr
 :
 :
-ReferenceFrameKind
+WrReferenceFrameKind
 :
 :
 Perspective

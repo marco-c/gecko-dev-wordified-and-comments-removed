@@ -1627,6 +1627,10 @@ ReferenceFrameKind
 :
 :
 Perspective
+{
+.
+.
+}
 =
 >
 "

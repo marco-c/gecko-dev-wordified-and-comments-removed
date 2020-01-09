@@ -2076,12 +2076,6 @@ scrolling
 ref
 .
 html
-random
--
-if
-(
-webrender
-)
 skip
 -
 if
@@ -2107,9 +2101,6 @@ scrolling
 ref
 .
 html
-#
-bug
-1498639
 pref
 (
 apz

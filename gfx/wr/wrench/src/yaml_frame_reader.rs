@@ -11739,6 +11739,11 @@ ReferenceFrameKind
 :
 :
 Perspective
+{
+scrolling_relative_to
+:
+None
+}
 }
 else
 {
