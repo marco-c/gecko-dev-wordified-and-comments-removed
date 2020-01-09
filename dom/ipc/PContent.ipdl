@@ -2333,6 +2333,13 @@ AudioDefaultDeviceChange
 (
 )
 ;
+async
+NetworkLinkTypeChange
+(
+uint32_t
+type
+)
+;
 /
 /
 Re
