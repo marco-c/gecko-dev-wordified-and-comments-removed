@@ -109,6 +109,15 @@ topsites
 >
 <
 span
+className
+=
+"
+ds
+-
+header
+-
+title
+"
 >
 {
 header

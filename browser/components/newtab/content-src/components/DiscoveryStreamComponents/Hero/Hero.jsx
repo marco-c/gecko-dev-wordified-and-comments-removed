@@ -449,6 +449,8 @@ this
 props
 .
 items
+-
+1
 }
 type
 =
@@ -639,6 +641,11 @@ p
 (
 <
 p
+className
+=
+"
+source
+"
 >
 {
 truncateText

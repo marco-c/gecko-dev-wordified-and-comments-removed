@@ -1258,6 +1258,13 @@ properties
 .
 alignment
 }
+header
+=
+{
+component
+.
+header
+}
 /
 >
 )
