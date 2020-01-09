@@ -9800,12 +9800,6 @@ aFlags
 eSetValue_BySetUserInput
 )
 {
-RefPtr
-<
-nsRange
->
-range
-;
 DebugOnly
 <
 nsresult
@@ -9818,7 +9812,6 @@ textEditor
 ReplaceTextAsAction
 (
 newValue
-range
 )
 ;
 NS_WARNING_ASSERTION

@@ -529,10 +529,7 @@ aWord
 =
 currWord
 ;
-MOZ_KnownLive
-(
 mTextServicesDocument
-)
 -
 >
 SetSelection
@@ -1226,10 +1223,7 @@ begin
 ;
 }
 }
-MOZ_KnownLive
-(
 mTextServicesDocument
-)
 -
 >
 SetSelection
@@ -1240,10 +1234,7 @@ end
 begin
 )
 ;
-MOZ_KnownLive
-(
 mTextServicesDocument
-)
 -
 >
 InsertText
@@ -1467,10 +1458,7 @@ begin
 end
 )
 ;
-MOZ_KnownLive
-(
 mTextServicesDocument
-)
 -
 >
 SetSelection
@@ -1482,10 +1470,7 @@ begin
 }
 else
 {
-MOZ_KnownLive
-(
 mTextServicesDocument
-)
 -
 >
 SetSelection
@@ -1499,10 +1484,7 @@ begin
 }
 else
 {
-MOZ_KnownLive
-(
 mTextServicesDocument
-)
 -
 >
 InsertText
@@ -2329,10 +2311,7 @@ mFromStart
 {
 rv
 =
-MOZ_KnownLive
-(
 mTextServicesDocument
-)
 -
 >
 LastSelectedBlock

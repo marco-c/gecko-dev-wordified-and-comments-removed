@@ -300,9 +300,6 @@ mozSpellChecker
 GetNextMisspelledWord
 *
 /
-[
-can_run_script
-]
 AString
 GetNextMisspelledWord
 (
@@ -487,9 +484,6 @@ mozSpellChecker
 CheckCurrentWord
 *
 /
-[
-can_run_script
-]
 void
 ReplaceWord
 (

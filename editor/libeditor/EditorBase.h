@@ -1145,7 +1145,6 @@ aListener
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 HandleKeyPressEvent
@@ -4696,7 +4695,6 @@ aCharset
 )
 const
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SelectAllInternal
@@ -4765,14 +4763,11 @@ TDocumentListenerNotification
 aNotificationType
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SelectEntireDocument
 (
 )
-=
-0
 ;
 nsresult
 ScrollSelectionIntoView

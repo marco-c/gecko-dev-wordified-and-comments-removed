@@ -183,9 +183,6 @@ long
 aOffset
 )
 ;
-[
-can_run_script
-]
 void
 replaceWord
 (
