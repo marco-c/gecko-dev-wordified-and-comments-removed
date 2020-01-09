@@ -1138,6 +1138,7 @@ namespace
 mozilla
 {
 enum
+class
 BaselineSharingGroup
 {
 eFirst
