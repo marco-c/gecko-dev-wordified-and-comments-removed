@@ -7993,7 +7993,7 @@ aPrincipal
 )
 {
 return
-NS_OK
+NS_ERROR_INVALID_ARG
 ;
 }
 nsCOMPtr
