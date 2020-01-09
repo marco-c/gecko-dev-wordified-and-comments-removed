@@ -5083,6 +5083,12 @@ IsTypedArrayConstructor
 (
 C
 )
+&
+&
+IsObject
+(
+source
+)
 )
 {
 if
