@@ -522,6 +522,14 @@ self
 run_test
                     
 "
+reset
+"
+:
+self
+.
+reset
+                    
+"
 stop
 "
 :
@@ -628,6 +636,21 @@ self
         
 return
 Stop
+    
+def
+reset
+(
+self
+)
+:
+        
+self
+.
+executor
+.
+reset
+(
+)
     
 def
 run_test
@@ -3519,6 +3542,15 @@ self
 .
 rerun
 )
+)
+            
+self
+.
+send_message
+(
+"
+reset
+"
 )
         
 self
