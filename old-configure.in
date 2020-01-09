@@ -31958,15 +31958,9 @@ MOZ_APP_REMOTINGNAME
 export
 MOZ_DEV_EDITION
 export
-RUSTC
-export
-CARGO
-export
 MOZILLA_CENTRAL_PATH
 =
 _topsrcdir
-export
-STLPORT_CPPFLAGS
 export
 STLPORT_LIBS
 unset
