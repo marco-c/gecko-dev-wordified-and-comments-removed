@@ -411,6 +411,7 @@ protected
 :
 virtual
 VRHMDSensorState
+&
 GetSensorState
 (
 )

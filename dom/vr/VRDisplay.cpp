@@ -2057,10 +2057,12 @@ IsDirty
 mPresentation
 )
 {
+const
 gfx
 :
 :
 VRHMDSensorState
+&
 state
 =
 mClient

@@ -489,6 +489,7 @@ false
 }
 }
 VRHMDSensorState
+&
 VRDisplayExternal
 :
 :

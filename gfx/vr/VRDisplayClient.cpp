@@ -1692,13 +1692,16 @@ kVRControllerMaxCount
 )
 ;
 }
+const
 VRHMDSensorState
+&
 VRDisplayClient
 :
 :
 GetSensorState
 (
 )
+const
 {
 return
 mDisplayInfo
