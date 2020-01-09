@@ -4405,13 +4405,6 @@ if
 exists
 )
 {
-nsCacheService
-:
-:
-MarkStartingFresh
-(
-)
-;
 rv
 =
 mCacheDirectory
