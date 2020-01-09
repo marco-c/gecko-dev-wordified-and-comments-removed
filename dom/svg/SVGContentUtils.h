@@ -878,6 +878,8 @@ const
 nsStyleCoord
 &
 aCoord
+bool
+aClampNegativeCalc
 )
 ;
 static

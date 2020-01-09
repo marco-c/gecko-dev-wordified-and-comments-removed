@@ -20021,6 +20021,7 @@ style
 -
 >
 mStrokeWidth
+true
 )
 >
 0
