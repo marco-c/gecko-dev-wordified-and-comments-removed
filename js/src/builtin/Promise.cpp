@@ -21816,7 +21816,9 @@ AutoDebuggerJobQueueInterruption
 {
 MOZ_ASSERT_IF
 (
-cx
+initialized
+(
+)
 cx
 -
 >
