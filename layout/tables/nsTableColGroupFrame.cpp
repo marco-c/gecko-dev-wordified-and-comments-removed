@@ -2060,12 +2060,6 @@ BorderBackground
 )
 )
 ;
-DisplayOutline
-(
-aBuilder
-aLists
-)
-;
 for
 (
 nsIFrame
