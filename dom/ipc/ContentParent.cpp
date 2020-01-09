@@ -6331,6 +6331,14 @@ CanonicalBrowsingContext
 browsingContext
 -
 >
+SetEmbedderElement
+(
+aFrameElement
+)
+;
+browsingContext
+-
+>
 Group
 (
 )
