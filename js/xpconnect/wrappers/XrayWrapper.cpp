@@ -2163,6 +2163,8 @@ cx
 psMatch
 -
 >
+u
+.
 accessors
 .
 getter
@@ -2205,6 +2207,8 @@ if
 psMatch
 -
 >
+u
+.
 accessors
 .
 setter
@@ -2234,6 +2238,8 @@ cx
 psMatch
 -
 >
+u
+.
 accessors
 .
 setter
@@ -2295,6 +2301,8 @@ id
 psMatch
 -
 >
+u
+.
 accessors
 .
 getter
@@ -2305,6 +2313,8 @@ op
 psMatch
 -
 >
+u
+.
 accessors
 .
 setter

@@ -8045,6 +8045,8 @@ cx
 wrapper
 attrSpec
 .
+u
+.
 accessors
 .
 getter
@@ -8083,6 +8085,8 @@ if
 (
 attrSpec
 .
+u
+.
 accessors
 .
 setter
@@ -8099,6 +8103,8 @@ XrayCreateFunction
 cx
 wrapper
 attrSpec
+.
+u
 .
 accessors
 .
@@ -21420,6 +21426,8 @@ info
 specs
 -
 >
+u
+.
 accessors
 .
 getter

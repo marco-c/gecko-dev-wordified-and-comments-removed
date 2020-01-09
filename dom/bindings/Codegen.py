@@ -17944,7 +17944,11 @@ fields
         
 return
 '
-{
+JSPropertySpec
+:
+:
+nativeAccessors
+(
 "
 %
 s
@@ -17955,7 +17959,7 @@ s
 s
 %
 s
-}
+)
 '
 %
 fields
