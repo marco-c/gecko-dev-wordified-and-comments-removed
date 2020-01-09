@@ -1447,16 +1447,10 @@ nsTextFragment
 *
 text
 =
-&
 aContent
 -
 >
-AsText
-(
-)
--
->
-TextFragment
+GetText
 (
 )
 ;

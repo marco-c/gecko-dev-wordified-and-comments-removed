@@ -5952,10 +5952,7 @@ return
 true
 ;
 }
-dom
-:
-:
-Text
+nsIContent
 *
 content
 =
@@ -5963,11 +5960,6 @@ frame
 -
 >
 GetContent
-(
-)
--
->
-AsText
 (
 )
 ;
@@ -5990,11 +5982,10 @@ nsTextFragment
 *
 txt
 =
-&
 content
 -
 >
-TextFragment
+GetText
 (
 )
 ;

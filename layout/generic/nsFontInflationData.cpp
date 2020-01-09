@@ -1464,11 +1464,6 @@ nsTextFrameUtils
 ComputeApproximateLengthWithWhitespaceCompression
 (
 content
--
->
-AsText
-(
-)
 kid
 -
 >
@@ -1648,11 +1643,6 @@ optionChild
 -
 >
 GetContent
-(
-)
--
->
-AsText
 (
 )
 optionChild
@@ -1860,11 +1850,6 @@ nsTextFrameUtils
 ComputeApproximateLengthWithWhitespaceCompression
 (
 content
--
->
-AsText
-(
-)
 kid
 -
 >

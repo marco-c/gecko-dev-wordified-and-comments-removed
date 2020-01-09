@@ -167,7 +167,7 @@ aContent
 bool
 TextNodeWillChangeDirection
 (
-nsTextNode
+nsIContent
 *
 aTextNode
 Directionality
