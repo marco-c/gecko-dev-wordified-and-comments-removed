@@ -387,6 +387,12 @@ if
 this
 .
 isOpen
+|
+|
+!
+this
+.
+_selected
 )
 {
 return
