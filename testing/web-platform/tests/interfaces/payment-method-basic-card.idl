@@ -72,6 +72,9 @@ sequence
 DOMString
 >
 supportedNetworks
+=
+[
+]
 ;
 }
 ;
