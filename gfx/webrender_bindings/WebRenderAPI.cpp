@@ -840,10 +840,12 @@ Color
 aBgColor
 Epoch
 aEpoch
-mozilla
+const
+wr
 :
 :
-LayerSize
+LayoutSize
+&
 aViewportSize
 wr
 :
@@ -882,11 +884,6 @@ ToColorF
 aBgColor
 )
 aViewportSize
-.
-width
-aViewportSize
-.
-height
 pipeline_id
 content_size
 dl_descriptor

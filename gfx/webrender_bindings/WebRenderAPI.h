@@ -290,10 +290,12 @@ Color
 aBgColor
 Epoch
 aEpoch
-mozilla
+const
+wr
 :
 :
-LayerSize
+LayoutSize
+&
 aViewportSize
 wr
 :
