@@ -961,6 +961,21 @@ load
 (
 f
 )
+        
+logger
+.
+info
+(
+json
+.
+dumps
+(
+event
+indent
+=
+2
+)
+)
     
 if
 "
@@ -1013,11 +1028,19 @@ info
 Not
 tagging
 for
-non
--
-master
-branch
+ref
+%
+s
 "
+%
+event
+.
+get
+(
+"
+ref
+"
+)
 )
         
 return
@@ -1037,30 +1060,12 @@ repo_key
 GITHUB_REPOSITORY
 "
     
-should_run
-=
+if
+not
 should_run_action
 (
 )
-    
-if
-not
-should_run
 :
-        
-logger
-.
-info
-(
-"
-Not
-tagging
-master
-for
-this
-push
-"
-)
         
 return
     
