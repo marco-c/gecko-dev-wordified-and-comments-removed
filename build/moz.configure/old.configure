@@ -2057,15 +2057,6 @@ with
 -
 system
 -
-libvpx
-'
-'
--
--
-with
--
-system
--
 nspr
 '
 '
