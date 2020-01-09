@@ -438,7 +438,7 @@ path
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -520,7 +520,7 @@ randomURI1
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -561,7 +561,7 @@ randomURI2
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

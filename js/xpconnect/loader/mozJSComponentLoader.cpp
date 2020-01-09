@@ -3635,7 +3635,7 @@ scriptStream
 ;
 MOZ_TRY
 (
-NS_MaybeOpenChannelUsingOpen2
+NS_MaybeOpenChannelUsingOpen
 (
 aInfo
 .

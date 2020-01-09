@@ -216,7 +216,7 @@ false
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 TestListener

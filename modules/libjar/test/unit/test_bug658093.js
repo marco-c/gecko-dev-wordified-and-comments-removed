@@ -120,7 +120,7 @@ stream
 =
 channel
 .
-open2
+open
 (
 )
 ;

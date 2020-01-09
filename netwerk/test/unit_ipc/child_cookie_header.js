@@ -144,7 +144,7 @@ resolve
 }
 aChannel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

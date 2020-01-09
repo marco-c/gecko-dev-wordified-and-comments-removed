@@ -1954,7 +1954,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2002,7 +2002,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2050,7 +2050,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2098,7 +2098,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2154,7 +2154,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2210,7 +2210,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2258,7 +2258,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2306,7 +2306,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2354,7 +2354,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2406,7 +2406,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2454,7 +2454,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2504,7 +2504,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2632,7 +2632,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2682,7 +2682,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2732,7 +2732,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2782,7 +2782,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -4145,7 +4145,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -4182,7 +4182,7 @@ expectedCode
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

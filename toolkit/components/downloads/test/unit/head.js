@@ -1480,7 +1480,7 @@ true
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 {
 contentListener

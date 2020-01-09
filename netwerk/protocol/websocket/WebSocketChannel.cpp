@@ -6433,7 +6433,7 @@ return
 }
 rv
 =
-NS_MaybeOpenChannelUsingAsyncOpen2
+NS_MaybeOpenChannelUsingAsyncOpen
 (
 localChannel
 this

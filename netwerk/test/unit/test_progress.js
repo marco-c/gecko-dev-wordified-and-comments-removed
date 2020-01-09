@@ -573,7 +573,7 @@ testpath
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 progressCallback
 )

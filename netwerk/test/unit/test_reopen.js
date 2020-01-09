@@ -286,7 +286,7 @@ function
 {
 chan
 .
-open2
+open
 (
 listener
 )
@@ -310,7 +310,7 @@ function
 {
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -424,7 +424,7 @@ inputStream
 =
 chan
 .
-open2
+open
 (
 )
 ;
@@ -449,7 +449,7 @@ createChanClosure
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

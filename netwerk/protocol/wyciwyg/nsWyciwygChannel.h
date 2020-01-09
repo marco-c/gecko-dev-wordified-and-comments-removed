@@ -296,12 +296,6 @@ mListener
 ;
 nsCOMPtr
 <
-nsISupports
->
-mListenerContext
-;
-nsCOMPtr
-<
 nsIInputStreamPump
 >
 mPump

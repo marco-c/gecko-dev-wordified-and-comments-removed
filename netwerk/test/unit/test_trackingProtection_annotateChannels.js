@@ -594,7 +594,7 @@ topWindowURI
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 listener

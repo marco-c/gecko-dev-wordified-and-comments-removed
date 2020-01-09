@@ -591,7 +591,7 @@ true
 ;
 channel
 .
-open2
+open
 (
 )
 ;

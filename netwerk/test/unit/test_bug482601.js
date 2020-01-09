@@ -737,7 +737,7 @@ nocache
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -947,7 +947,7 @@ partial
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1167,7 +1167,7 @@ VALIDATE_ALWAYS
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1387,7 +1387,7 @@ LOAD_ONLY_FROM_CACHE
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

@@ -379,7 +379,7 @@ normalEntry
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -500,7 +500,7 @@ noStoreEntry
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

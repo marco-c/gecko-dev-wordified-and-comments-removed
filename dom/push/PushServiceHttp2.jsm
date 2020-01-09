@@ -533,7 +533,7 @@ this
 ;
 pushChannel
 .
-asyncOpen2
+asyncOpen
 (
 pushChannelListener
 )
@@ -2604,7 +2604,7 @@ POST
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2685,7 +2685,7 @@ DELETE
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 PushServiceDelete
@@ -2824,7 +2824,7 @@ try
 {
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -2850,7 +2850,7 @@ server
 .
 "
 "
-asyncOpen2
+asyncOpen
 failed
 "
 e

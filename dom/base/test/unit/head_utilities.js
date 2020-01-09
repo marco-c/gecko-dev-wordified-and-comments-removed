@@ -205,7 +205,7 @@ init
 (
 chann
 .
-open2
+open
 (
 )
 aCharset

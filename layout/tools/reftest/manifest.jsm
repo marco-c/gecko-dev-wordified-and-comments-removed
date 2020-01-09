@@ -339,7 +339,7 @@ inputStream
 =
 channel
 .
-open2
+open
 (
 )
 ;

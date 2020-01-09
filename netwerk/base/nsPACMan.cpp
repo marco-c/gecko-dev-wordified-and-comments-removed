@@ -2954,7 +2954,7 @@ NS_SUCCEEDED
 channel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 mLoader
 )

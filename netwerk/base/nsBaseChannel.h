@@ -575,10 +575,6 @@ mListener
 =
 nullptr
 ;
-mListenerContext
-=
-nullptr
-;
 OnChannelDone
 (
 )
@@ -806,12 +802,6 @@ nsCOMPtr
 nsIStreamListener
 >
 mListener
-;
-nsCOMPtr
-<
-nsISupports
->
-mListenerContext
 ;
 nsresult
 mStatus

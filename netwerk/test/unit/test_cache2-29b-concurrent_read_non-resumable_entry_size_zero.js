@@ -326,7 +326,7 @@ content
 ;
 chan1
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -352,7 +352,7 @@ content
 ;
 chan2
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

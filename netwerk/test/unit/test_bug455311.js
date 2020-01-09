@@ -688,7 +688,7 @@ linkURI
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 RequestObserver
@@ -830,7 +830,7 @@ newURI
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 RequestObserver

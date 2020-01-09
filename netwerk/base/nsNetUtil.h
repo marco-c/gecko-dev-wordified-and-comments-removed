@@ -2820,7 +2820,7 @@ _result
 )
 ;
 nsresult
-NS_MaybeOpenChannelUsingOpen2
+NS_MaybeOpenChannelUsingOpen
 (
 nsIChannel
 *
@@ -2832,7 +2832,7 @@ aStream
 )
 ;
 nsresult
-NS_MaybeOpenChannelUsingAsyncOpen2
+NS_MaybeOpenChannelUsingAsyncOpen
 (
 nsIChannel
 *

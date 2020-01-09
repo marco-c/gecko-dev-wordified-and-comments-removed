@@ -1116,7 +1116,7 @@ defaultFaviconMimeType
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1210,7 +1210,7 @@ defaultFaviconMimeType
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -1343,7 +1343,7 @@ png
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

@@ -130,7 +130,7 @@ nsIHttpChannel
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

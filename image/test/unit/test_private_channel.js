@@ -436,7 +436,7 @@ ChannelListener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 channelListener
 )

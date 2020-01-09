@@ -376,7 +376,7 @@ LOAD_BYPASS_CACHE
 ;
 ch0
 .
-asyncOpen2
+asyncOpen
 (
 new
 Listener
@@ -408,7 +408,7 @@ LOAD_BYPASS_CACHE
 ;
 ch1
 .
-asyncOpen2
+asyncOpen
 (
 new
 Listener
@@ -438,7 +438,7 @@ used
 ;
 ch2
 .
-asyncOpen2
+asyncOpen
 (
 new
 Listener

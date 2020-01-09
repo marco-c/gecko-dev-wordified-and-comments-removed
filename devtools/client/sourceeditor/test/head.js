@@ -603,7 +603,7 @@ input
 =
 channel
 .
-open2
+open
 (
 )
 ;

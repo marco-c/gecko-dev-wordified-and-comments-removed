@@ -1150,7 +1150,7 @@ SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 {
 QueryInterface

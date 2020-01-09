@@ -585,7 +585,7 @@ rcwn
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -654,7 +654,7 @@ rcwn
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -746,7 +746,7 @@ now
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -848,7 +848,7 @@ test_delayCacheEntryOpeningBy
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -954,7 +954,7 @@ test_delayCacheEntryOpeningBy
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1051,7 +1051,7 @@ test_delayCacheEntryOpeningBy
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1181,7 +1181,7 @@ test_delayCacheEntryOpeningBy
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1287,7 +1287,7 @@ rcwn_cached
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1356,7 +1356,7 @@ rcwn_cached
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1443,7 +1443,7 @@ test_delayCacheEntryOpeningBy
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1553,7 +1553,7 @@ test_delayCacheEntryOpeningBy
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -1713,7 +1713,7 @@ test_delayCacheEntryOpeningBy
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

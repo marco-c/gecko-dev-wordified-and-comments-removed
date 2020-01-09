@@ -324,7 +324,7 @@ targetFile
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 downloader
 )

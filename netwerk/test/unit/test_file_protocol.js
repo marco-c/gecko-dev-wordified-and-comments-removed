@@ -867,7 +867,7 @@ special_type
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 FileStreamListener
@@ -1008,7 +1008,7 @@ expected_type
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 FileStreamListener
@@ -1361,7 +1361,7 @@ special_type
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 FileStreamListener

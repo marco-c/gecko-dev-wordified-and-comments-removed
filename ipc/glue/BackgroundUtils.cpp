@@ -2560,12 +2560,6 @@ GetBrowsingContextID
 aLoadInfo
 -
 >
-GetEnforceSecurity
-(
-)
-aLoadInfo
--
->
 GetInitialSecurityCheckDone
 (
 )
@@ -3500,11 +3494,6 @@ frameOuterWindowID
 loadInfoArgs
 .
 browsingContextID
-(
-)
-loadInfoArgs
-.
-enforceSecurity
 (
 )
 loadInfoArgs

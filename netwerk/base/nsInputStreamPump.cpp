@@ -1498,10 +1498,6 @@ mListener
 =
 listener
 ;
-mListenerContext
-=
-ctxt
-;
 return
 NS_OK
 ;
@@ -1950,7 +1946,7 @@ mListener
 OnStartRequest
 (
 this
-mListenerContext
+nullptr
 )
 ;
 }
@@ -2253,7 +2249,7 @@ mListener
 OnDataAvailable
 (
 this
-mListenerContext
+nullptr
 mAsyncStream
 mStreamOffset
 odaAvail
@@ -2650,16 +2646,12 @@ mListener
 OnStopRequest
 (
 this
-mListenerContext
+nullptr
 mStatus
 )
 ;
 }
 mListener
-=
-nullptr
-;
-mListenerContext
 =
 nullptr
 ;

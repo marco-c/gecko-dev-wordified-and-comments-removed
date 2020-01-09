@@ -854,7 +854,7 @@ rv
 mChannel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 this
 )
@@ -959,7 +959,7 @@ rv
 mChannel
 -
 >
-Open2
+Open
 (
 getter_AddRefs
 (

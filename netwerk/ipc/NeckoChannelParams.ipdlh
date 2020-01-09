@@ -504,9 +504,6 @@ uint64_t
 browsingContextID
 ;
 bool
-enforceSecurity
-;
-bool
 initialSecurityCheckDone
 ;
 bool

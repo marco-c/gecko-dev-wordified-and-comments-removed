@@ -978,7 +978,7 @@ nsPingListener
 chan
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 pingListener
 )

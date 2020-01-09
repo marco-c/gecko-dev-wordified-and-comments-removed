@@ -121,7 +121,7 @@ try
 {
 channel
 .
-asyncOpen2
+asyncOpen
 (
 null
 )

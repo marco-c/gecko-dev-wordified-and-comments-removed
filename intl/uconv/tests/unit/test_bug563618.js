@@ -162,7 +162,7 @@ testInputStream
 =
 channel
 .
-open2
+open
 (
 )
 ;

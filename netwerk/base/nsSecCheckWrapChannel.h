@@ -199,7 +199,7 @@ aLoadInfo
 override
 ;
 NS_IMETHOD
-AsyncOpen2
+AsyncOpen
 (
 nsIStreamListener
 *
@@ -208,7 +208,7 @@ aListener
 override
 ;
 NS_IMETHOD
-Open2
+Open
 (
 nsIInputStream
 *

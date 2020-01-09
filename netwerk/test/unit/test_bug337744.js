@@ -371,7 +371,7 @@ try
 {
 channel
 .
-asyncOpen2
+asyncOpen
 (
 null
 )
@@ -380,7 +380,7 @@ ok
 (
 false
 "
-asyncOpen2
+asyncOpen
 (
 )
 of
@@ -415,7 +415,7 @@ try
 {
 channel
 .
-open2
+open
 (
 )
 ;
@@ -423,7 +423,7 @@ ok
 (
 false
 "
-Open2
+Open
 (
 )
 of

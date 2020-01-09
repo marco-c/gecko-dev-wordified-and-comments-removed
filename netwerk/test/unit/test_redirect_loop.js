@@ -368,7 +368,7 @@ relativeLoopURI
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -409,7 +409,7 @@ emptyLoopURI
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -487,7 +487,7 @@ fullLoopURI
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

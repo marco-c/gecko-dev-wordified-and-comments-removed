@@ -4224,7 +4224,7 @@ rv
 mHttpChannel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 this
 )

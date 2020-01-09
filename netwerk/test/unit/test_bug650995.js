@@ -635,7 +635,7 @@ value
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -712,7 +712,7 @@ firstRequest
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -764,7 +764,7 @@ function
 {
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

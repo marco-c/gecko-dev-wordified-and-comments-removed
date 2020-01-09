@@ -362,12 +362,6 @@ nsCOMPtr
 <
 nsISupports
 >
-mListenerContext
-;
-nsCOMPtr
-<
-nsISupports
->
 mSecurityInfo
 ;
 enum

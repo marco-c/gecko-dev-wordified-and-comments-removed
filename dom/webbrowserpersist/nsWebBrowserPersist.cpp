@@ -2228,7 +2228,7 @@ rv
 destChannel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 this
 )
@@ -5822,7 +5822,7 @@ bufferedInputStream
 nsresult
 rv
 =
-NS_MaybeOpenChannelUsingOpen2
+NS_MaybeOpenChannelUsingOpen
 (
 aChannel
 getter_AddRefs
@@ -5911,7 +5911,7 @@ Throttleable
 nsresult
 rv
 =
-NS_MaybeOpenChannelUsingAsyncOpen2
+NS_MaybeOpenChannelUsingAsyncOpen
 (
 aChannel
 this

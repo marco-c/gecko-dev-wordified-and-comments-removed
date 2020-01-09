@@ -6570,7 +6570,7 @@ listener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )
@@ -8119,7 +8119,7 @@ listener
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 listener
 )

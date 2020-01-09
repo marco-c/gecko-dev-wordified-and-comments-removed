@@ -426,7 +426,7 @@ unexpected304
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -564,7 +564,7 @@ false
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

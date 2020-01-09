@@ -190,7 +190,7 @@ testpath
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

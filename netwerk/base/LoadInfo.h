@@ -402,8 +402,6 @@ aFrameOuterWindowID
 uint64_t
 aBrowsingContextID
 bool
-aEnforceSecurity
-bool
 aInitialSecurityCheckDone
 bool
 aIsThirdPartyRequest
@@ -728,9 +726,6 @@ mFrameOuterWindowID
 ;
 uint64_t
 mBrowsingContextID
-;
-bool
-mEnforceSecurity
 ;
 bool
 mInitialSecurityCheckDone

@@ -224,7 +224,7 @@ LOAD_BYPASS_CACHE
 ;
 channel1
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -324,7 +324,7 @@ LOAD_FROM_CACHE
 ;
 channel2
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

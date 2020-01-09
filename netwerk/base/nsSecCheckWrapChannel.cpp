@@ -595,7 +595,7 @@ NS_IMETHODIMP
 nsSecCheckWrapChannel
 :
 :
-AsyncOpen2
+AsyncOpen
 (
 nsIStreamListener
 *
@@ -637,7 +637,6 @@ return
 AsyncOpen
 (
 secWrapChannelListener
-nullptr
 )
 ;
 }
@@ -645,7 +644,7 @@ NS_IMETHODIMP
 nsSecCheckWrapChannel
 :
 :
-Open2
+Open
 (
 nsIInputStream
 *

@@ -320,7 +320,7 @@ plain
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -454,7 +454,7 @@ uploadStream
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -643,7 +643,7 @@ plain
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

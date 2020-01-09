@@ -345,7 +345,7 @@ testpath
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -453,7 +453,7 @@ testpathGZip
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

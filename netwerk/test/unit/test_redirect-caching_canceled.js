@@ -268,7 +268,7 @@ randomURI
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -325,7 +325,7 @@ ES_ABORT_REDIRECT
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -410,7 +410,7 @@ randomURI
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

@@ -1076,7 +1076,7 @@ rv
 ;
 rv
 =
-NS_MaybeOpenChannelUsingAsyncOpen2
+NS_MaybeOpenChannelUsingAsyncOpen
 (
 httpChannel
 this

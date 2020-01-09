@@ -546,7 +546,7 @@ ChannelListener
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 channellistener
 )
@@ -698,7 +698,7 @@ ChannelListener
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 channellistener
 )

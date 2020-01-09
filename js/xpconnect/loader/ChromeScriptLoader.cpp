@@ -550,7 +550,7 @@ return
 channel
 -
 >
-AsyncOpen2
+AsyncOpen
 (
 loader
 )

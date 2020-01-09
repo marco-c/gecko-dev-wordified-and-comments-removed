@@ -96,7 +96,7 @@ inp
 =
 channel
 .
-open2
+open
 (
 )
 ;
@@ -430,7 +430,7 @@ inp
 =
 channel2
 .
-open2
+open
 (
 )
 ;

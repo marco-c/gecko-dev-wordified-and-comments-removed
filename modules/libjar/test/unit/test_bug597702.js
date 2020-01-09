@@ -168,7 +168,7 @@ instr
 =
 goodChannel
 .
-open2
+open
 (
 )
 ;
@@ -198,7 +198,7 @@ instr
 =
 badChannel
 .
-open2
+open
 (
 )
 ;

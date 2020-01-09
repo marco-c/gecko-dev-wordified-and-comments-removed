@@ -745,7 +745,7 @@ userContextId
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -802,7 +802,7 @@ userContextId
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

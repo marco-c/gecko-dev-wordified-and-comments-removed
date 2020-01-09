@@ -199,7 +199,7 @@ redirect1
 ;
 channel
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener

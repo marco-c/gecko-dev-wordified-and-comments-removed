@@ -194,9 +194,6 @@ AsyncOpen
 nsIStreamListener
 *
 listener
-nsISupports
-*
-aContext
 )
 override
 ;

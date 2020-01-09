@@ -222,7 +222,7 @@ true
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
@@ -392,7 +392,7 @@ INHIBIT_CACHING
 ;
 chan
 .
-asyncOpen2
+asyncOpen
 (
 new
 ChannelListener
