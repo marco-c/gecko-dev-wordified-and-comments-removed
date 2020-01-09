@@ -60,7 +60,6 @@ cx
 ;
 template
 <
-typename
 AllowGC
 allowGC
 =
@@ -68,7 +67,7 @@ CanGC
 >
 JSObject
 *
-Allocate
+AllocateObject
 (
 JSContext
 *
@@ -102,7 +101,7 @@ CanGC
 >
 StringAllocT
 *
-AllocateString
+AllocateStringImpl
 (
 JSContext
 *
@@ -125,7 +124,7 @@ CanGC
 >
 StringT
 *
-Allocate
+AllocateString
 (
 JSContext
 *
@@ -144,10 +143,7 @@ StringT
 *
 >
 (
-js
-:
-:
-AllocateString
+AllocateStringImpl
 <
 JSString
 allowGC
@@ -165,7 +161,7 @@ template
 inline
 JSFatInlineString
 *
-Allocate
+AllocateString
 <
 JSFatInlineString
 CanGC
@@ -191,7 +187,7 @@ JSFatInlineString
 js
 :
 :
-AllocateString
+AllocateStringImpl
 <
 JSFatInlineString
 CanGC
@@ -209,7 +205,7 @@ template
 inline
 JSFatInlineString
 *
-Allocate
+AllocateString
 <
 JSFatInlineString
 NoGC
@@ -235,7 +231,7 @@ JSFatInlineString
 js
 :
 :
-AllocateString
+AllocateStringImpl
 <
 JSFatInlineString
 NoGC

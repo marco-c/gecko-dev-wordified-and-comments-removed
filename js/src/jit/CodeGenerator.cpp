@@ -13895,7 +13895,7 @@ return
 js
 :
 :
-Allocate
+AllocateString
 <
 JSString
 NoGC
@@ -13929,7 +13929,7 @@ return
 js
 :
 :
-Allocate
+AllocateString
 <
 JSFatInlineString
 NoGC
@@ -14170,9 +14170,8 @@ return
 js
 :
 :
-Allocate
+AllocateObject
 <
-JSObject
 NoGC
 >
 (
