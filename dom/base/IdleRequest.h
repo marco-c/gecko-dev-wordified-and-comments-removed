@@ -109,7 +109,8 @@ uint32_t
 aHandle
 )
 ;
-nsresult
+MOZ_CAN_RUN_SCRIPT
+void
 IdleRun
 (
 nsPIDOMWindowInner

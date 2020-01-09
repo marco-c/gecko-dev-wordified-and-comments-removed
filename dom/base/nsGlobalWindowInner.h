@@ -7023,7 +7023,8 @@ mIdleRequestCallbackCounter
 1
 ;
 }
-nsresult
+MOZ_CAN_RUN_SCRIPT
+void
 RunIdleRequest
 (
 mozilla
@@ -7041,7 +7042,8 @@ bool
 aDidTimeout
 )
 ;
-nsresult
+MOZ_CAN_RUN_SCRIPT
+void
 ExecuteIdleRequest
 (
 TimeStamp

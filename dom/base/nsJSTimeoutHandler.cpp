@@ -326,15 +326,12 @@ mArgs
 ;
 }
 virtual
-nsresult
+void
 Call
 (
 )
 override
 {
-return
-NS_OK
-;
 }
 virtual
 void
