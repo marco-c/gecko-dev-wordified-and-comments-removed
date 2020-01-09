@@ -66,6 +66,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 AudioNode
@@ -2416,7 +2425,7 @@ GetParentObject
 (
 )
 ;
-Document
+nsIDocument
 *
 document
 =
@@ -4155,7 +4164,7 @@ GetIsExpandedPrincipal
 mPrincipal
 -
 >
-GetIsSystemPrincipal
+IsSystemPrincipal
 (
 )
 )

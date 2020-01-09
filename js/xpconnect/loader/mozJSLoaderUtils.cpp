@@ -26,7 +26,9 @@ h
 #
 include
 "
-nsJSPrincipals
+mozilla
+/
+BasePrincipal
 .
 h
 "
@@ -237,7 +239,7 @@ script
 )
 -
 >
-GetIsSystemPrincipal
+IsSystemPrincipal
 (
 )
 )

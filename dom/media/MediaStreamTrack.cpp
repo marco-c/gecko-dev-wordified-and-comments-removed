@@ -38,6 +38,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Promise
@@ -1811,7 +1820,7 @@ GetIsExpandedPrincipal
 mPrincipal
 -
 >
-GetIsSystemPrincipal
+IsSystemPrincipal
 (
 )
 )

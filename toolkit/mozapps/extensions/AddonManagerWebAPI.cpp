@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Navigator
@@ -622,7 +631,7 @@ if
 principal
 -
 >
-GetIsSystemPrincipal
+IsSystemPrincipal
 (
 )
 )
@@ -714,7 +723,7 @@ return
 true
 ;
 }
-Document
+nsIDocument
 *
 doc
 =
