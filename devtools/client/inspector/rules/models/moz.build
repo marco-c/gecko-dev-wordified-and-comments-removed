@@ -88,6 +88,13 @@ MPL
 DevToolsModules
 (
 '
+class
+-
+list
+.
+js
+'
+'
 element
 -
 style
