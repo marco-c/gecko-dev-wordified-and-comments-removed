@@ -322,7 +322,10 @@ gecko
 url
 :
 :
+{
+self
 CssUrlData
+}
 ;
 use
 style
@@ -1750,6 +1753,13 @@ null_mut
 )
 ;
 Stylist
+:
+:
+shutdown
+(
+)
+;
+url
 :
 :
 shutdown
@@ -15879,9 +15889,7 @@ url
 .
 url
 .
-url_value
-.
-get
+url_value_ptr
 (
 )
 )
