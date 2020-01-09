@@ -440,7 +440,6 @@ ParseNodeKind
 :
 :
 Name
-JSOP_NOP
 name
 pos
 )
@@ -501,7 +500,6 @@ ParseNodeKind
 :
 :
 ObjectPropertyName
-JSOP_NOP
 atom
 pos
 )
@@ -630,7 +628,6 @@ ParseNodeKind
 :
 :
 StringExpr
-JSOP_NOP
 atom
 pos
 )
@@ -658,7 +655,6 @@ ParseNodeKind
 :
 :
 TemplateStringExpr
-JSOP_NOP
 atom
 pos
 )
@@ -1180,10 +1176,6 @@ Node
 left
 Node
 right
-JSOp
-op
-=
-JSOP_NOP
 )
 {
 TokenPos
@@ -1210,7 +1202,6 @@ BinaryNode
 >
 (
 kind
-op
 pos
 left
 right
@@ -1499,7 +1490,6 @@ ParseNodeKind
 :
 :
 Arguments
-JSOP_NOP
 pos
 )
 ;
@@ -1680,7 +1670,6 @@ ParseNodeKind
 :
 :
 NewTargetExpr
-JSOP_NOP
 newHolder
 targetHolder
 )
@@ -2040,7 +2029,6 @@ ParseNodeKind
 Shorthand
 name
 expr
-JSOP_NOP
 )
 ;
 if
@@ -2885,7 +2873,6 @@ ParseNodeKind
 :
 :
 ImportDecl
-JSOP_NOP
 pos
 importSpecSet
 moduleSpec
@@ -2963,7 +2950,6 @@ ParseNodeKind
 :
 :
 ExportFromStmt
-JSOP_NOP
 exportSpecSet
 moduleSpec
 )
@@ -3050,7 +3036,6 @@ ParseNodeKind
 :
 :
 ExportDefaultStmt
-JSOP_NOP
 pos
 kid
 maybeBinding
@@ -3097,7 +3082,6 @@ ParseNodeKind
 :
 :
 ExportBatchSpecStmt
-JSOP_NOP
 pos
 )
 ;
@@ -3121,7 +3105,6 @@ ParseNodeKind
 :
 :
 ImportMetaExpr
-JSOP_NOP
 importHolder
 metaHolder
 )
@@ -3275,7 +3258,6 @@ ParseNodeKind
 :
 :
 DoWhileStmt
-JSOP_NOP
 pos
 body
 cond
@@ -3315,7 +3297,6 @@ ParseNodeKind
 :
 :
 WhileStmt
-JSOP_NOP
 pos
 cond
 body
@@ -3619,7 +3600,6 @@ ParseNodeKind
 :
 :
 WithStmt
-JSOP_NOP
 TokenPos
 (
 begin
@@ -3765,7 +3745,6 @@ ParseNodeKind
 :
 :
 PropertyNameExpr
-JSOP_NOP
 name
 pos
 )
@@ -3863,7 +3842,6 @@ ParseNodeKind
 :
 :
 Catch
-JSOP_NOP
 catchName
 catchBody
 )
@@ -3882,7 +3860,6 @@ ParseNodeKind
 :
 :
 Catch
-JSOP_NOP
 catchBody
 -
 >
@@ -4033,7 +4010,6 @@ ParseNodeKind
 Shorthand
 key
 value
-JSOP_NOP
 )
 ;
 }
@@ -4316,7 +4292,6 @@ AssignmentNode
 >
 (
 kind
-JSOP_NOP
 lhs
 rhs
 )
@@ -4857,7 +4832,6 @@ ListNode
 >
 (
 kind
-JSOP_NOP
 pos
 )
 ;
@@ -4889,7 +4863,6 @@ ListNode
 >
 (
 kind
-JSOP_NOP
 kid
 )
 ;
@@ -4920,7 +4893,6 @@ ListNode
 >
 (
 kind
-JSOP_NOP
 pos
 )
 ;
@@ -4998,7 +4970,6 @@ ParseNodeKind
 :
 :
 CommaExpr
-JSOP_NOP
 kid
 )
 ;
