@@ -142,11 +142,6 @@ frameElement
 =
 null
 ;
-boolean
-forceNoReferrer
-=
-false
-;
 }
 ;
 dictionary
