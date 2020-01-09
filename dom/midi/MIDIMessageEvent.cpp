@@ -595,14 +595,6 @@ Clear
 (
 )
 ;
-JS
-:
-:
-ExposeObjectToActiveJS
-(
-mData
-)
-;
 }
 aData
 .
