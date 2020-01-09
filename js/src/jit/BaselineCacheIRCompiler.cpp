@@ -13418,7 +13418,11 @@ readBool
 bool
 isConstructing
 =
-false
+reader
+.
+readBool
+(
+)
 ;
 allocator
 .
@@ -13545,7 +13549,7 @@ enterFakeExitFrameForNative
 (
 scratch
 scratch
-false
+isConstructing
 )
 ;
 masm
@@ -13912,7 +13916,11 @@ readBool
 bool
 isConstructing
 =
-false
+reader
+.
+readBool
+(
+)
 ;
 allocator
 .

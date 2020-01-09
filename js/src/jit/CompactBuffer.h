@@ -504,6 +504,7 @@ MOZ_ASSERT
 (
 buffer_
 <
+=
 end_
 )
 ;
