@@ -181,9 +181,6 @@ replace
 \
 "
 )
-MITMDUMP_SLEEP
-=
-10
 POLICIES_CONTENT_ON
 =
 "
@@ -588,6 +585,48 @@ stop
 )
             
 raise
+    
+property
+    
+def
+mitmdump_sleep_seconds
+(
+self
+)
+:
+        
+"
+"
+"
+Time
+to
+sleep
+in
+seconds
+after
+issuing
+a
+mitmdump
+command
+.
+"
+"
+"
+        
+return
+10
+if
+not
+self
+.
+config
+[
+'
+run_local
+'
+]
+else
+1
     
 def
 download
@@ -1079,7 +1118,9 @@ time
 .
 sleep
 (
-MITMDUMP_SLEEP
+self
+.
+mitmdump_sleep_seconds
 )
         
 data
@@ -1207,7 +1248,9 @@ time
 .
 sleep
 (
-MITMDUMP_SLEEP
+self
+.
+mitmdump_sleep_seconds
 )
         
 status
@@ -2126,6 +2169,48 @@ android_device
 =
 android_device
     
+property
+    
+def
+certutil_sleep_seconds
+(
+self
+)
+:
+        
+"
+"
+"
+Time
+to
+sleep
+in
+seconds
+after
+issuing
+a
+certutil
+command
+.
+"
+"
+"
+        
+return
+10
+if
+not
+self
+.
+config
+[
+'
+run_local
+'
+]
+else
+1
+    
 def
 setup
 (
@@ -2369,12 +2454,6 @@ pem
 "
 "
 "
-        
-self
-.
-CERTUTIL_SLEEP
-=
-10
         
 if
 self
@@ -2985,7 +3064,7 @@ sleep
 (
 self
 .
-CERTUTIL_SLEEP
+certutil_sleep_seconds
 )
         
 if
@@ -3089,7 +3168,7 @@ sleep
 (
 self
 .
-CERTUTIL_SLEEP
+certutil_sleep_seconds
 )
             
 cmd_terminated
@@ -3232,7 +3311,7 @@ sleep
 (
 self
 .
-CERTUTIL_SLEEP
+certutil_sleep_seconds
 )
         
 cmd_terminated
@@ -3458,7 +3537,7 @@ sleep
 (
 self
 .
-CERTUTIL_SLEEP
+certutil_sleep_seconds
 )
         
 LOG
