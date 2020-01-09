@@ -5147,9 +5147,7 @@ findSources
 {
 this
 .
-sources
-.
-createSourceActor
+_addSource
 (
 source
 )
@@ -7421,15 +7419,6 @@ skipBreakpoints
 this
 .
 skipBreakpoints
-breakpoints
-:
-this
-.
-breakpointActorMap
-.
-listKeys
-(
-)
 }
 ;
 }
