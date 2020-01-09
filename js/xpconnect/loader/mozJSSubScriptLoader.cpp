@@ -791,6 +791,13 @@ setNoScriptRval
 wantReturnValue
 )
 ;
+options
+.
+setSourceIsLazy
+(
+true
+)
+;
 if
 (
 wantGlobalScript

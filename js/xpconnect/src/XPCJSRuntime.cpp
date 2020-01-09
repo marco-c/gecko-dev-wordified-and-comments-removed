@@ -16098,8 +16098,13 @@ get
 (
 )
 rawLen
-EmptyString
+NS_LITERAL_STRING
 (
+"
+UTF
+-
+8
+"
 )
 nullptr
 *
