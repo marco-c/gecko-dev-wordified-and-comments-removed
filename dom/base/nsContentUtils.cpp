@@ -20624,11 +20624,15 @@ if
 inputElement
 )
 {
+MOZ_KnownLive
+(
 inputElement
+)
 -
 >
 MaybeUpdateAllValidityStates
 (
+true
 )
 ;
 }
