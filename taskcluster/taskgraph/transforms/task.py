@@ -376,7 +376,12 @@ tags
 {
 basestring
 :
+Any
+(
 basestring
+int
+bool
+)
 }
     
 Optional
