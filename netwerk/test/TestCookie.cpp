@@ -5580,10 +5580,7 @@ cookie
 get
 (
 )
-MUST_EQUAL
-"
-eight
-"
+MUST_BE_NULL
 )
 )
 ;
