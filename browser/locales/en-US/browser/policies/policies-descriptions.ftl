@@ -710,6 +710,17 @@ IDs
 .
 policy
 -
+ExtensionUpdate
+=
+Enable
+or
+disable
+automatic
+extension
+updates
+.
+policy
+-
 FlashPlugin
 =
 Allow
