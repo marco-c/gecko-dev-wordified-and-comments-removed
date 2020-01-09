@@ -92,6 +92,13 @@ DebuggerModules
 '
 main
 .
+development
+.
+js
+'
+'
+main
+.
 js
 '
 '
