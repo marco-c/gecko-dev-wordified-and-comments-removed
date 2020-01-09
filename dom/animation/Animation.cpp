@@ -2743,7 +2743,7 @@ NoSeek
 SyncNotifyFlag
 :
 :
-Async
+Sync
 )
 ;
 if
@@ -4868,7 +4868,7 @@ NoSeek
 SyncNotifyFlag
 :
 :
-Async
+Sync
 )
 ;
 if
