@@ -3815,6 +3815,7 @@ aOpenerBrowser
 promptToSavePassword
 (
 aLogin
+dismissed
 )
 {
 this
@@ -3856,6 +3857,9 @@ dismissed
 this
 .
 _inPrivateBrowsing
+|
+|
+dismissed
 }
 )
 ;
@@ -5977,6 +5981,7 @@ promptToChangePassword
 (
 aOldLogin
 aNewLogin
+dismissed
 )
 {
 this
@@ -6009,6 +6014,7 @@ _showChangeLoginNotification
 notifyObj
 aOldLogin
 aNewLogin
+dismissed
 )
 ;
 }
@@ -6029,6 +6035,9 @@ _showChangeLoginNotification
 aNotifyObj
 aOldLogin
 aNewLogin
+dismissed
+=
+false
 )
 {
 aOldLogin
@@ -6073,6 +6082,9 @@ password
 -
 change
 "
+{
+dismissed
+}
 )
 ;
 let
