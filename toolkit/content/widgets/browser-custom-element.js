@@ -7779,7 +7779,6 @@ unsupported
 swapBrowsers
 (
 aOtherBrowser
-aFlags
 )
 {
 let
@@ -7834,7 +7833,6 @@ swapBrowsers
 (
 ourTab
 otherTab
-aFlags
 )
 ;
 return
