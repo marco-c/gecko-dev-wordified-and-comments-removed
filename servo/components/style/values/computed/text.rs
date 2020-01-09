@@ -219,6 +219,7 @@ specified
 :
 :
 {
+LineBreak
 OverflowWrap
 WordBreak
 }

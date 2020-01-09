@@ -320,6 +320,15 @@ if
 (
 !
 mCurrentWordContainsComplexChar
+|
+|
+mWordBreak
+=
+=
+LineBreaker
+:
+:
+kWordBreak_Anywhere
 )
 {
 memset
@@ -330,7 +339,7 @@ Elements
 (
 )
 mWordBreak
-=
+>
 =
 LineBreaker
 :
@@ -1285,7 +1294,7 @@ isBreakableSpace
 |
 (
 mWordBreak
-=
+>
 =
 LineBreaker
 :
@@ -2124,7 +2133,7 @@ isBreakableSpace
 |
 (
 mWordBreak
-=
+>
 =
 LineBreaker
 :
