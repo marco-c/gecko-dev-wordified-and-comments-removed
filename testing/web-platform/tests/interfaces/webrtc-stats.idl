@@ -825,6 +825,7 @@ RTCNetworkType
 networkType
 ;
 DOMString
+?
 address
 ;
 long
