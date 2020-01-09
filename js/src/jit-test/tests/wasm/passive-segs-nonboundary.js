@@ -3087,16 +3087,6 @@ false
 checkMiscPrefixed
 (
 [
-MemoryFillCode
-0x80
-0x00
-]
-false
-)
-;
-checkMiscPrefixed
-(
-[
 0x13
 ]
 true
