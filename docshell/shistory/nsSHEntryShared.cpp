@@ -282,6 +282,16 @@ mPrincipalToInherit
 newEntry
 -
 >
+mCsp
+=
+aEntry
+-
+>
+mCsp
+;
+newEntry
+-
+>
 mContentType
 .
 Assign

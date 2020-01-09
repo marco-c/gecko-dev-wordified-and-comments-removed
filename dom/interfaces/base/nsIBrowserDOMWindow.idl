@@ -110,6 +110,9 @@ nsIURI
 interface
 nsIPrincipal
 ;
+interface
+nsIContentSecurityPolicy
+;
 webidl
 Element
 ;
@@ -150,6 +153,10 @@ isPrivate
 attribute
 nsIPrincipal
 triggeringPrincipal
+;
+attribute
+nsIContentSecurityPolicy
+csp
 ;
 /
 /

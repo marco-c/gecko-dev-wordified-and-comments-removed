@@ -763,6 +763,9 @@ aIsTrusted
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 )
 override
 ;
@@ -816,6 +819,11 @@ false
 nsIPrincipal
 *
 aTriggeringPrincipal
+=
+nullptr
+nsIContentSecurityPolicy
+*
+aCsp
 =
 nullptr
 )
@@ -1777,6 +1785,9 @@ aTriggeringPrincipal
 nsIPrincipal
 *
 aPrincipalToInherit
+nsIContentSecurityPolicy
+*
+aCsp
 bool
 aCloneChildren
 nsISHEntry
@@ -1928,6 +1939,9 @@ nsIPrincipal
 aPrincipalToInherit
 uint32_t
 aLoadType
+nsIContentSecurityPolicy
+*
+aCsp
 bool
 aFireOnLocationChange
 bool

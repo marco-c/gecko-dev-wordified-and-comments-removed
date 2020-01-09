@@ -24,6 +24,9 @@ class
 nsIContent
 ;
 class
+nsIContentSecurityPolicy
+;
+class
 nsIDocShell
 ;
 class
@@ -97,6 +100,9 @@ aIsTrusted
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 )
 =
 0
@@ -151,6 +157,11 @@ false
 nsIPrincipal
 *
 aTriggeringPrincipal
+=
+nullptr
+nsIContentSecurityPolicy
+*
+aCsp
 =
 nullptr
 )

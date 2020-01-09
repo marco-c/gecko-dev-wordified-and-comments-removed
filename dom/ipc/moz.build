@@ -237,6 +237,11 @@ CPOWManagerGetter
 h
 '
 '
+CSPMessageUtils
+.
+h
+'
+'
 DocShellMessageUtils
 .
 h
@@ -400,6 +405,11 @@ cpp
 '
 '
 ContentProcessManager
+.
+cpp
+'
+'
+CSPMessageUtils
 .
 cpp
 '

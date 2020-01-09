@@ -6238,6 +6238,8 @@ float
 aFullZoom
 Principal
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+aCsp
 uint32_t
 aReferrerPolicy
 )
@@ -6272,6 +6274,8 @@ nsString
 aName
 Principal
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+aCsp
 uint32_t
 aReferrerPolicy
 )
