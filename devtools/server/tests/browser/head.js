@@ -1340,6 +1340,9 @@ states
 "
 attributes
 "
+"
+checks
+"
 ]
 .
 includes
