@@ -947,7 +947,7 @@ isTrackingResource
 httpChannel
 -
 >
-GetIsTrackingResource
+IsTrackingResource
 (
 )
 ;
@@ -2983,7 +2983,7 @@ isTrackingResource
 httpChannel
 -
 >
-GetIsTrackingResource
+IsTrackingResource
 (
 )
 ;
@@ -3196,7 +3196,7 @@ isTrackingResource
 httpChannel
 -
 >
-GetIsTrackingResource
+IsTrackingResource
 (
 )
 ;

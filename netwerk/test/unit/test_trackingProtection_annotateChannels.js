@@ -199,6 +199,8 @@ nsIHttpChannel
 )
 .
 isTrackingResource
+(
+)
 this
 .
 _tracking

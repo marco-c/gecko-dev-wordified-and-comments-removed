@@ -347,7 +347,7 @@ NS_IMETHODIMP
 NullHttpChannel
 :
 :
-GetIsTrackingResource
+IsTrackingResource
 (
 bool
 *
@@ -362,7 +362,7 @@ NS_IMETHODIMP
 NullHttpChannel
 :
 :
-GetIsThirdPartyTrackingResource
+IsThirdPartyTrackingResource
 (
 bool
 *

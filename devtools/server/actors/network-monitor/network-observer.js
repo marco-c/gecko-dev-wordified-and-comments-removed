@@ -1875,6 +1875,8 @@ isThirdPartyTrackingResource
 channel
 .
 isThirdPartyTrackingResource
+(
+)
 ;
 event
 .

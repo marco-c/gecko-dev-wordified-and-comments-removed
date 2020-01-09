@@ -931,6 +931,8 @@ isTrackingResource
 channel
 .
 isTrackingResource
+(
+)
 }
 )
 ;

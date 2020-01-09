@@ -18696,7 +18696,7 @@ if
 httpChannel
 -
 >
-GetIsThirdPartyTrackingResource
+IsThirdPartyTrackingResource
 (
 )
 )

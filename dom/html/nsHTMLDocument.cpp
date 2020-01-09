@@ -4760,7 +4760,7 @@ isTracking
 docHTTPChannel
 -
 >
-GetIsTrackingResource
+IsTrackingResource
 (
 )
 ;

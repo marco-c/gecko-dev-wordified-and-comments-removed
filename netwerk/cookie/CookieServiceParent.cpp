@@ -850,7 +850,7 @@ isTrackingResource
 httpChannel
 -
 >
-GetIsTrackingResource
+IsTrackingResource
 (
 )
 ;
