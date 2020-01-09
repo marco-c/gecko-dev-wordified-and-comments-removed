@@ -150,6 +150,17 @@ backgroundMaxErrors
 "
 ;
 const
+PREF_APP_UPDATE_BADGEWAITTIME
+=
+"
+app
+.
+update
+.
+badgeWaitTime
+"
+;
+const
 PREF_APP_UPDATE_BITS_ENABLED
 =
 "
