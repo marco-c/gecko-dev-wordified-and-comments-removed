@@ -1183,6 +1183,9 @@ clone
 )
 disable_dual_source_blending
 chase_primitive
+enable_picture_caching
+:
+true
 testing
 :
 true

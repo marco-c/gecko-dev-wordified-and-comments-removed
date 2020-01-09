@@ -53,6 +53,12 @@ reftest
 .
 list
 include
+invalidation
+/
+reftest
+.
+list
+include
 mask
 /
 reftest
