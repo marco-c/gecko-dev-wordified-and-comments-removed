@@ -4174,7 +4174,10 @@ None
 )
 :
       
-with
+self
+.
+_data
+=
 open
 (
 self
@@ -4184,15 +4187,6 @@ sourcepath
 r
 '
 )
-as
-f
-:
-        
-self
-.
-_data
-=
-f
 .
 read
 (
@@ -4671,7 +4665,8 @@ data
 (
 )
     
-with
+f
+=
 open
 (
 format
@@ -4686,10 +4681,7 @@ relpath
 w
 '
 )
-as
-f
-:
-      
+    
 f
 .
 write
@@ -6678,19 +6670,13 @@ self
 sourcepath
 :
       
-with
+data
++
+=
 open
 (
 src
 )
-as
-f
-:
-        
-data
-+
-=
-f
 .
 read
 (
@@ -7127,21 +7113,15 @@ basepath
 src
 )
       
-with
+for
+line
+in
 open
 (
 src
 )
-as
-f
 :
         
-for
-line
-in
-f
-:
-          
 strip
 =
 self
@@ -7152,11 +7132,11 @@ search
 (
 line
 )
-          
+        
 if
 strip
 :
-            
+          
 striplist
 .
 append
@@ -7168,7 +7148,7 @@ group
 1
 )
 )
-          
+        
 line
 =
 self
@@ -7181,7 +7161,7 @@ sub
 '
 line
 )
-          
+        
 m
 =
 self
@@ -7192,11 +7172,11 @@ search
 (
 line
 )
-          
+        
 if
 m
 :
-            
+          
 record
 =
 (
@@ -7223,7 +7203,7 @@ group
 )
 )
 \
-                      
+                    
 (
 join
 (
@@ -7247,7 +7227,7 @@ group
 )
 )
 \
-                      
+                    
 m
 .
 group
@@ -7255,7 +7235,7 @@ group
 1
 )
 )
-            
+          
 if
 not
 exists
@@ -7269,7 +7249,7 @@ record
 ]
 )
 :
-              
+            
 raise
 ReftestFilepathError
 (
@@ -7281,7 +7261,7 @@ in
 s
 :
 "
-                                         
+                                       
 "
 Reftest
 test
@@ -7294,7 +7274,7 @@ exist
 .
 "
 \
-                                          
+                                        
 %
 (
 src
@@ -7307,7 +7287,7 @@ record
 ]
 )
 )
-            
+          
 elif
 not
 exists
@@ -7321,7 +7301,7 @@ record
 ]
 )
 :
-              
+            
 raise
 ReftestFilepathError
 (
@@ -7333,7 +7313,7 @@ in
 s
 :
 "
-                                         
+                                       
 "
 Reftest
 reference
@@ -7346,7 +7326,7 @@ exist
 .
 "
 \
-                                         
+                                       
 %
 (
 src
@@ -7359,7 +7339,7 @@ record
 ]
 )
 )
-            
+          
 elif
 not
 isPathInsideBase
@@ -7373,7 +7353,7 @@ record
 ]
 )
 :
-              
+            
 raise
 ReftestFilepathError
 (
@@ -7385,7 +7365,7 @@ in
 s
 :
 "
-                                         
+                                       
 "
 Reftest
 test
@@ -7399,7 +7379,7 @@ root
 .
 "
 \
-                                         
+                                       
 %
 (
 src
@@ -7412,7 +7392,7 @@ record
 ]
 )
 )
-            
+          
 elif
 not
 isPathInsideBase
@@ -7426,7 +7406,7 @@ record
 ]
 )
 :
-              
+            
 raise
 ReftestFilepathError
 (
@@ -7438,7 +7418,7 @@ in
 s
 :
 "
-                                         
+                                       
 "
 Reftest
 test
@@ -7452,7 +7432,7 @@ root
 .
 "
 \
-                                         
+                                       
 %
 (
 src
@@ -7465,7 +7445,7 @@ record
 ]
 )
 )
-            
+          
 yield
 record
 import
@@ -8594,7 +8574,8 @@ unicode
 (
 )
     
-with
+f
+=
 open
 (
 format
@@ -8609,10 +8590,7 @@ relpath
 w
 '
 )
-as
-f
-:
-      
+    
 f
 .
 write
@@ -8628,6 +8606,12 @@ encoding
 xmlcharrefreplace
 '
 )
+)
+    
+f
+.
+close
+(
 )
   
 def

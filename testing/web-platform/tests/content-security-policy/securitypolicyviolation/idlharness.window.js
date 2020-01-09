@@ -14,9 +14,6 @@ CSP
 '
 dom
 '
-'
-reporting
-'
 ]
 idl_array
 =

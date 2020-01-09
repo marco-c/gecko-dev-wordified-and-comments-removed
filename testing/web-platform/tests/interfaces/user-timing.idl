@@ -85,7 +85,7 @@ DOMString
 or
 DOMHighResTimeStamp
 )
-start
+startTime
 ;
 DOMHighResTimeStamp
 duration
@@ -95,7 +95,7 @@ DOMString
 or
 DOMHighResTimeStamp
 )
-end
+endTime
 ;
 }
 ;
@@ -132,7 +132,6 @@ DOMString
 or
 PerformanceMeasureOptions
 )
-?
 startOrMeasureOptions
 optional
 DOMString

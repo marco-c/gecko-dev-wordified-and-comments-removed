@@ -398,14 +398,6 @@ width
 100
 "
 ]
-[
-"
-unknown
-"
-"
-doesitmatter
-"
-]
 ]
 )
 ;

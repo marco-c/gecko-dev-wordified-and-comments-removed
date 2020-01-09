@@ -35,12 +35,11 @@ case
 ready
 '
 :
-new
-IdleDetector
-(
-)
+navigator
 .
-start
+idle
+.
+query
 (
 )
 .
@@ -50,7 +49,6 @@ then
 )
 =
 >
-{
 postMessage
 (
 {
@@ -59,12 +57,9 @@ enabled
 true
 }
 )
-;
-}
 error
 =
 >
-{
 postMessage
 (
 {
@@ -73,8 +68,6 @@ enabled
 false
 }
 )
-;
-}
 )
 ;
 break

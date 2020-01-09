@@ -286,7 +286,6 @@ styleMap
 ;
 partial
 interface
-mixin
 ElementCSSInlineStyle
 {
 [

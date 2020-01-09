@@ -171,8 +171,13 @@ node
 ;
 }
 ;
+[
+Exposed
+=
+Window
+NoInterfaceObject
+]
 interface
-mixin
 Region
 {
 readonly
@@ -192,6 +197,6 @@ getRegionFlowRanges
 }
 ;
 Element
-includes
+implements
 Region
 ;

@@ -61,7 +61,6 @@ contexts
 )
 partial
 interface
-mixin
 WindowOrWorkerGlobalScope
 {
 readonly

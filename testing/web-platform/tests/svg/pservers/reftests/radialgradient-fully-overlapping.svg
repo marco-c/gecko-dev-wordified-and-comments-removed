@@ -131,10 +131,9 @@ with
 the
 end
 circle
-the
+no
 gradient
-should
-be
+is
 drawn
 .
 "
@@ -159,7 +158,7 @@ height
 fill
 =
 "
-red
+green
 "
 /
 >
@@ -188,7 +187,7 @@ stop
 color
 =
 "
-green
+red
 "
 /
 >
@@ -199,7 +198,7 @@ stop
 color
 =
 "
-green
+red
 "
 offset
 =

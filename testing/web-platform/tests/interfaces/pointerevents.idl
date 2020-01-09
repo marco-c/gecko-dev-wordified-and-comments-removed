@@ -212,7 +212,6 @@ pointerId
 ;
 partial
 interface
-mixin
 GlobalEventHandlers
 {
 attribute

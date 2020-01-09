@@ -7,9 +7,7 @@ idl_test
 (
 [
 '
-resize
--
-observer
+ResizeObserver
 '
 ]
 [

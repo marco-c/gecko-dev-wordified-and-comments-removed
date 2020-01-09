@@ -92,15 +92,9 @@ ubuntu
 steps
 :
 -
-checkout
-:
-none
--
 script
 :
 curl
--
-f
 -
 s
 -
@@ -153,8 +147,6 @@ hook
 script
 :
 curl
--
-f
 -
 s
 -
