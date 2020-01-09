@@ -33899,6 +33899,9 @@ ContentCount
 0
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 void
 nsBlockFrame
 :
@@ -34028,6 +34031,8 @@ Truncate
 }
 }
 }
+#
+endif
 void
 nsBlockFrame
 :

@@ -775,6 +775,9 @@ MarkerIsEmpty
 )
 const
 ;
+#
+ifdef
+ACCESSIBILITY
 void
 GetSpokenMarkerText
 (
@@ -784,6 +787,8 @@ aText
 )
 const
 ;
+#
+endif
 bool
 HasMarker
 (

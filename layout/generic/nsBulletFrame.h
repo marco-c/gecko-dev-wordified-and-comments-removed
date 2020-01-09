@@ -356,6 +356,9 @@ nsAString
 aResult
 )
 ;
+#
+ifdef
+ACCESSIBILITY
 void
 GetSpokenText
 (
@@ -364,6 +367,8 @@ nsAString
 aText
 )
 ;
+#
+endif
 Maybe
 <
 BulletRenderer
@@ -457,6 +462,10 @@ aInflation
 int32_t
 Ordinal
 (
+bool
+aDebugFromA11y
+=
+false
 )
 const
 ;
