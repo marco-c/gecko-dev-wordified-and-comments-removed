@@ -446,6 +446,11 @@ NotifyShutdown
 (
 )
 ;
+void
+MaybeDispatchLoadResource
+(
+)
+;
 protected
 :
 virtual
@@ -526,11 +531,6 @@ CreateTextTrack
 ;
 private
 :
-void
-DispatchLoadResource
-(
-)
-;
 void
 LoadResource
 (
