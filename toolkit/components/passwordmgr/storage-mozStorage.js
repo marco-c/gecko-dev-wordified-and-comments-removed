@@ -1929,7 +1929,6 @@ logins
 }
 searchLogins
 (
-count
 matchData
 )
 {
@@ -2023,14 +2022,6 @@ _decryptLogins
 (
 logins
 )
-;
-count
-.
-value
-=
-logins
-.
-length
 ;
 return
 logins

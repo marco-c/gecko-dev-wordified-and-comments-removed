@@ -1138,8 +1138,6 @@ logins
 .
 searchLogins
 (
-{
-}
 prop
 )
 ;

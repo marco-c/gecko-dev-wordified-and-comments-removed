@@ -138,8 +138,6 @@ logins
 .
 searchLogins
 (
-{
-}
 newPropertyBag
 (
 )
@@ -338,8 +336,6 @@ logins
 .
 searchLogins
 (
-{
-}
 matchData
 )
 .
@@ -657,8 +653,6 @@ logins
 .
 searchLogins
 (
-{
-}
 searchProp
 )
 .
@@ -727,8 +721,6 @@ logins
 .
 searchLogins
 (
-{
-}
 searchProp
 )
 .
@@ -753,8 +745,6 @@ logins
 .
 searchLogins
 (
-{
-}
 searchProp
 )
 .

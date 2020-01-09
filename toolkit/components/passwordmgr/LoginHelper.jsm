@@ -844,8 +844,6 @@ logins
 .
 searchLogins
 (
-{
-}
 this
 .
 newPropertyBag

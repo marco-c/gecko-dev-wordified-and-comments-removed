@@ -1915,7 +1915,6 @@ httpRealm
 }
 searchLogins
 (
-count
 matchData
 )
 {
@@ -2028,7 +2027,6 @@ _storage
 .
 searchLogins
 (
-count
 matchData
 )
 ;
