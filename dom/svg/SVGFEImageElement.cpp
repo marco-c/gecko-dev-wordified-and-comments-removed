@@ -755,8 +755,6 @@ SVGFEImageElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -765,7 +763,6 @@ nsImageLoadingContent
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;
@@ -774,7 +771,6 @@ SVGFEImageElementBase
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

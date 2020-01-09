@@ -812,10 +812,6 @@ void
 UnbindFromTree
 (
 bool
-aDeep
-=
-true
-bool
 aNullParent
 =
 true

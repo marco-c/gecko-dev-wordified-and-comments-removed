@@ -283,8 +283,6 @@ void
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 override

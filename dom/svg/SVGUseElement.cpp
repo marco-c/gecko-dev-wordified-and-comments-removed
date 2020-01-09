@@ -817,8 +817,6 @@ SVGUseElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -827,7 +825,6 @@ SVGUseElementBase
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

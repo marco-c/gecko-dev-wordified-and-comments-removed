@@ -889,8 +889,6 @@ SVGAElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -913,7 +911,6 @@ SVGAElementBase
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

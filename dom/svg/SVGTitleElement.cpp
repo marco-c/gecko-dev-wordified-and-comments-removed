@@ -232,8 +232,6 @@ SVGTitleElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -247,7 +245,6 @@ SVGTitleElementBase
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

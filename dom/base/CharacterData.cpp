@@ -2637,8 +2637,6 @@ CharacterData
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {

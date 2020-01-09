@@ -2479,8 +2479,6 @@ nsGenericHTMLElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -2545,7 +2543,6 @@ nsStyledElement
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;
@@ -8845,8 +8842,6 @@ nsGenericHTMLFormElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -8947,7 +8942,6 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

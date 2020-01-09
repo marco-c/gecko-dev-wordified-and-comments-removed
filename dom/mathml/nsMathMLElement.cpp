@@ -541,8 +541,6 @@ nsMathMLElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -565,7 +563,6 @@ nsMathMLElementBase
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

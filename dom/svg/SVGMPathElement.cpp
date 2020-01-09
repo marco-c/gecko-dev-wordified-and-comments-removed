@@ -420,8 +420,6 @@ SVGMPathElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -435,7 +433,6 @@ SVGMPathElementBase
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

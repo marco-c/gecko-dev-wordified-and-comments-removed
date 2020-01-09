@@ -162,8 +162,6 @@ XMLStylesheetProcessingInstruction
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -182,7 +180,6 @@ ProcessingInstruction
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

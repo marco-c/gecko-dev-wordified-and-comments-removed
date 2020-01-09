@@ -3670,8 +3670,6 @@ nsXULElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -3794,7 +3792,6 @@ nsStyledElement
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

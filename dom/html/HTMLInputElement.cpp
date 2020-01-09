@@ -20039,8 +20039,6 @@ HTMLInputElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -20092,7 +20090,6 @@ nsImageLoadingContent
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;
@@ -20101,7 +20098,6 @@ nsGenericHTMLFormElementWithState
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

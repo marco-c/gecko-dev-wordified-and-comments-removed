@@ -258,8 +258,6 @@ SVGStyleElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -286,7 +284,6 @@ SVGStyleElementBase
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

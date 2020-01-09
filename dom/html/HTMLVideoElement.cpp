@@ -970,8 +970,6 @@ HTMLVideoElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -1004,7 +1002,6 @@ HTMLMediaElement
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;

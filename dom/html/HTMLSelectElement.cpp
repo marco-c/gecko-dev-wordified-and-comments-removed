@@ -4356,8 +4356,6 @@ HTMLSelectElement
 UnbindFromTree
 (
 bool
-aDeep
-bool
 aNullParent
 )
 {
@@ -4366,7 +4364,6 @@ nsGenericHTMLFormElementWithState
 :
 UnbindFromTree
 (
-aDeep
 aNullParent
 )
 ;
