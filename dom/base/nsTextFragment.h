@@ -757,17 +757,6 @@ aMallocSizeOf
 )
 const
 ;
-MOZ_MUST_USE
-bool
-TextEquals
-(
-const
-nsTextFragment
-&
-aOther
-)
-const
-;
 private
 :
 void
