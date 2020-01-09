@@ -52,7 +52,9 @@ h
 #
 include
 "
-nsSMILTimeContainer
+mozilla
+/
+SMILTimeContainer
 .
 h
 "
@@ -523,7 +525,7 @@ GetCurrentTimeAsFloat
 (
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 root
 =
@@ -1366,7 +1368,7 @@ IsDefinite
 )
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 timeContainer
 =
@@ -1412,7 +1414,7 @@ IgnoreErrors
 ;
 }
 }
-nsSMILTimeContainer
+SMILTimeContainer
 *
 SVGAnimationElement
 :

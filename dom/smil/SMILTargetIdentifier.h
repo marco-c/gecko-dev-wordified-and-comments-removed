@@ -15,10 +15,13 @@ Element
 .
 h
 "
-struct
-nsSMILTargetIdentifier
+namespace
+mozilla
 {
-nsSMILTargetIdentifier
+struct
+SMILTargetIdentifier
+{
+SMILTargetIdentifier
 (
 )
 :
@@ -41,7 +44,7 @@ bool
 Equals
 (
 const
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 &
 aOther
 )
@@ -122,7 +125,7 @@ operator
 =
 (
 const
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 &
 aOther
 )
@@ -149,7 +152,7 @@ bool
 Equals
 (
 const
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 &
 aOther
 )
@@ -188,5 +191,6 @@ mAttributeName
 ;
 }
 ;
+}
 #
 endif

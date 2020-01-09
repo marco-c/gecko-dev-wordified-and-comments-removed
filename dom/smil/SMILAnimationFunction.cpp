@@ -1391,7 +1391,7 @@ SMILAnimationFunction
 UpdateCachedTarget
 (
 const
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 &
 aNewTarget
 )

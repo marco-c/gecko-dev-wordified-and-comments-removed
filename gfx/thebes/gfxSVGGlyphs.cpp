@@ -934,7 +934,7 @@ GetAnimationController
 >
 Resume
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_IMAGE

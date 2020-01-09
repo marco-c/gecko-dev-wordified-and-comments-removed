@@ -5124,7 +5124,7 @@ controller
 >
 Resume
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_USERPREF
@@ -5153,7 +5153,7 @@ controller
 >
 Pause
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_USERPREF

@@ -335,7 +335,7 @@ NS_ASSERTION
 (
 mPauseState
 &
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_PAGEHIDE
@@ -373,7 +373,7 @@ uint32_t
 aType
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 Pause
@@ -431,7 +431,7 @@ Now
 (
 )
 ;
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 Resume
@@ -747,7 +747,7 @@ OnPageShow
 {
 Resume
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_PAGEHIDE
@@ -764,7 +764,7 @@ OnPageHide
 {
 Pause
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_PAGEHIDE
@@ -1261,7 +1261,7 @@ Next
 )
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =
@@ -1293,7 +1293,7 @@ container
 >
 IsPausedByType
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_BEGIN
@@ -1744,7 +1744,7 @@ Next
 )
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =
@@ -1824,7 +1824,7 @@ GetKey
 (
 )
 ;
-nsSMILTimeContainer
+SMILTimeContainer
 *
 timeContainer
 =
@@ -1922,7 +1922,7 @@ while
 true
 )
 {
-nsSMILMilestone
+SMILMilestone
 nextMilestone
 (
 GetCurrentTimeAsSMILTime
@@ -1958,7 +1958,7 @@ Next
 )
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =
@@ -1980,7 +1980,7 @@ container
 >
 IsPausedByType
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_BEGIN
@@ -1990,7 +1990,7 @@ PAUSE_BEGIN
 continue
 ;
 }
-nsSMILMilestone
+SMILMilestone
 thisMilestone
 ;
 bool
@@ -2074,7 +2074,7 @@ Next
 )
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =
@@ -2096,7 +2096,7 @@ container
 >
 IsPausedByType
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_BEGIN
@@ -2179,7 +2179,7 @@ list
 "
 )
 ;
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =
@@ -2290,7 +2290,7 @@ TimeContainerHashtable
 aActiveContainers
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 timeContainer
 =
@@ -2385,7 +2385,7 @@ bool
 aStyleFlushNeeded
 )
 {
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 key
 ;
 if
@@ -2544,7 +2544,7 @@ GetTargetIdentifierForAnimation
 SVGAnimationElement
 *
 aAnimElem
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 &
 aResult
 )
@@ -2752,7 +2752,7 @@ GetKey
 (
 )
 ;
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 key
 ;
 if
@@ -2835,7 +2835,7 @@ SMILAnimationController
 :
 AddChild
 (
-nsSMILTimeContainer
+SMILTimeContainer
 &
 aChild
 )
@@ -2896,7 +2896,7 @@ SMILAnimationController
 :
 RemoveChild
 (
-nsSMILTimeContainer
+SMILTimeContainer
 &
 aChild
 )

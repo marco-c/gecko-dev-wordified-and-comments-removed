@@ -57,7 +57,7 @@ h
 #
 include
 "
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 .
 h
 "
@@ -80,7 +80,7 @@ PLDHashEntryHdr
 public
 :
 typedef
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 KeyType
 ;
 typedef
