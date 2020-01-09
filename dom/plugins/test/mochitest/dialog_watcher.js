@@ -662,6 +662,7 @@ Number
 (
 hwnd
 )
+;
 if
 (
 event
