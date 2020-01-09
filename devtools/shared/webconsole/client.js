@@ -1910,14 +1910,6 @@ onDocEvent
 ;
 this
 .
-stopListeners
-(
-null
-onResponse
-)
-;
-this
-.
 _longStrings
 =
 null
@@ -1953,6 +1945,10 @@ this
 _networkRequests
 =
 null
+;
+onResponse
+(
+)
 ;
 }
 clearNetworkRequests
