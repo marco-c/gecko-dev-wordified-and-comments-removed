@@ -2645,6 +2645,17 @@ bool
 aDidHandleLoad
 )
 ;
+nsresult
+MaybeHandleSameDocumentNavigation
+(
+nsDocShellLoadState
+*
+aLoadState
+bool
+*
+aWasSameDocument
+)
+;
 private
 :
 static
