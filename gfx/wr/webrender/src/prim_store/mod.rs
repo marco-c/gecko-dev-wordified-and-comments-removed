@@ -11354,16 +11354,7 @@ max_scale
 =
 get_max_scale_for_border
 (
-&
 border_data
-.
-border
-.
-radius
-&
-border_data
-.
-widths
 )
 ;
 scale
