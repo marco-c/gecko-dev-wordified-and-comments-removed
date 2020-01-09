@@ -757,6 +757,9 @@ TransformClipNode
 >
 &
 aTransform
+const
+bool
+aIsMerged
 )
 ;
 ~
