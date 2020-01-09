@@ -1957,7 +1957,7 @@ runner
 .
 0
 .
-1
+2
 '
 androidTestImplementation
 '
@@ -1975,7 +1975,7 @@ rules
 .
 0
 .
-1
+2
 '
 androidTestImplementation
 '
@@ -1997,7 +1997,7 @@ core
 .
 0
 .
-1
+2
 '
 androidTestImplementation
 "
