@@ -52,7 +52,9 @@ docShellIsActive
 ;
 }
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 waitForActive
 )
@@ -82,7 +84,9 @@ minimize
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 waitForInactive
 )
@@ -112,7 +116,9 @@ restore
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 waitForActive
 )
