@@ -488,6 +488,15 @@ aboutdebugging
 .
 showHiddenAddons
 "
+TEMPORARY_EXTENSION_PATH
+:
+"
+devtools
+.
+aboutdebugging
+.
+tmpExtDirPath
+"
 XPINSTALL_ENABLED
 :
 "
