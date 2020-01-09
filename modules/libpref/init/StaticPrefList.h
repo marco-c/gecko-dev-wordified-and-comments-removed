@@ -873,6 +873,17 @@ true
 VARCACHE_PREF
 (
 "
+dom
+.
+enable_performance_navigation_timing
+"
+dom_enable_performance_navigation_timing
+bool
+true
+)
+VARCACHE_PREF
+(
+"
 browser
 .
 measurement

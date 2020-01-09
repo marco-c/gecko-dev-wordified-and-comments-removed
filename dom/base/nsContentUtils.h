@@ -5018,16 +5018,6 @@ aSubjectPrincipal
 ;
 static
 bool
-IsPerformanceNavigationTimingEnabled
-(
-)
-{
-return
-sIsPerformanceNavigationTimingEnabled
-;
-}
-static
-bool
 SendPerformanceTimingNotifications
 (
 )
@@ -7630,10 +7620,6 @@ sAllowXULXBL_for_file
 static
 uint32_t
 sHandlingInputTimeout
-;
-static
-bool
-sIsPerformanceNavigationTimingEnabled
 ;
 static
 bool

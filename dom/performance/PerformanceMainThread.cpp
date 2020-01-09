@@ -1444,10 +1444,10 @@ null
 if
 (
 !
-nsContentUtils
+StaticPrefs
 :
 :
-IsPerformanceNavigationTimingEnabled
+dom_enable_performance_navigation_timing
 (
 )
 )

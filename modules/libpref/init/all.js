@@ -622,16 +622,6 @@ pref
 "
 dom
 .
-enable_performance_navigation_timing
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 performance
 .
 enable_notify_performance_timing
