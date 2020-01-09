@@ -7893,12 +7893,15 @@ nsLayoutUtils
 :
 IsProperAncestorFrame
 (
+const
 nsIFrame
 *
 aAncestorFrame
+const
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aCommonAncestor
@@ -7916,6 +7919,7 @@ false
 ;
 for
 (
+const
 nsIFrame
 *
 f
