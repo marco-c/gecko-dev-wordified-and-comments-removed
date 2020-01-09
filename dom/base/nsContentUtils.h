@@ -5028,12 +5028,6 @@ sSendPerformanceTimingNotifications
 }
 static
 bool
-IsFrameTimingEnabled
-(
-)
-;
-static
-bool
 ResistFingerprinting
 (
 mozilla
@@ -7620,10 +7614,6 @@ sAllowXULXBL_for_file
 static
 uint32_t
 sHandlingInputTimeout
-;
-static
-bool
-sIsFrameTimingPrefEnabled
 ;
 static
 bool
