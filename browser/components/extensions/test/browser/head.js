@@ -2629,7 +2629,7 @@ submenu
 =
 submenuItem
 .
-firstElementChild
+menupopup
 ;
 const
 shown
