@@ -126,13 +126,12 @@ logMessages
 [
 ChromeOnly
 ]
-interface
+namespace
 WebrtcGlobalInformation
 {
 [
 Throws
 ]
-static
 void
 getAllStats
 (
@@ -143,7 +142,6 @@ DOMString
 pcIdFilter
 )
 ;
-static
 void
 clearAllStats
 (
@@ -152,7 +150,6 @@ clearAllStats
 [
 Throws
 ]
-static
 void
 getLogging
 (
@@ -162,7 +159,6 @@ WebrtcGlobalLoggingCallback
 callback
 )
 ;
-static
 void
 clearLogging
 (
@@ -220,7 +216,6 @@ log
 to
 disk
 .
-static
 attribute
 long
 debugLevel
@@ -231,12 +226,10 @@ WebRTC
 AEC
 debugging
 enable
-static
 attribute
 boolean
 aecDebug
 ;
-static
 readonly
 attribute
 DOMString
