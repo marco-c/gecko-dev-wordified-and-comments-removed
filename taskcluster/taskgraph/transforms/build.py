@@ -1244,6 +1244,7 @@ jobs
 :
         
 if
+(
 config
 .
 kind
@@ -1255,8 +1256,28 @@ build
 and
 use_artifact
 and
-\
-                
+            
+not
+job
+.
+get
+(
+'
+attributes
+'
+{
+}
+)
+.
+get
+(
+'
+nightly
+'
+False
+)
+and
+            
 job
 .
 get
@@ -1278,6 +1299,7 @@ name
 )
 in
 ARTIFACT_JOBS
+)
 :
             
 job
