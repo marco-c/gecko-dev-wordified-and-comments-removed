@@ -7617,10 +7617,6 @@ sHandlingInputTimeout
 ;
 static
 bool
-sIsFormAutofillAutocompleteEnabled
-;
-static
-bool
 sSendPerformanceTimingNotifications
 ;
 static
