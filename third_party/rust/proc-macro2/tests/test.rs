@@ -1498,7 +1498,7 @@ path
 (
 )
 .
-to_string
+to_string_lossy
 (
 )
 "

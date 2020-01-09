@@ -5,6 +5,12 @@ super
 ToTokens
 ;
 use
+std
+:
+:
+iter
+;
+use
 proc_macro2
 :
 :
@@ -169,7 +175,10 @@ self
 .
 extend
 (
-Some
+iter
+:
+:
+once
 (
 token
 .
