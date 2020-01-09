@@ -443,11 +443,6 @@ camera
 :
 CaptureEngine
 aCapEngine
-dom
-:
-:
-MediaSourceEnum
-aMediaSource
 bool
 aScary
 )
@@ -477,11 +472,7 @@ GetMediaSource
 )
 const
 override
-{
-return
-mMediaSource
 ;
-}
 nsresult
 Allocate
 (
@@ -759,13 +750,6 @@ const
 ;
 int
 mCaptureIndex
-;
-const
-dom
-:
-:
-MediaSourceEnum
-mMediaSource
 ;
 const
 camera
