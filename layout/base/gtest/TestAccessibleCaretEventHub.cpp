@@ -921,10 +921,19 @@ nsEventStatus
 aExpectedEventStatus
 )
 {
+RefPtr
+<
+MockAccessibleCaretEventHub
+>
+hub
+(
+mHub
+)
+;
 nsEventStatus
 rv
 =
-mHub
+hub
 -
 >
 HandleEvent
@@ -938,7 +947,7 @@ get
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -2418,7 +2427,16 @@ LongTapState
 nsEventStatus_eIgnore
 )
 ;
+RefPtr
+<
+MockAccessibleCaretEventHub
+>
+hub
+(
 mHub
+)
+;
+hub
 -
 >
 AsyncPanZoomStarted
@@ -2427,7 +2445,7 @@ AsyncPanZoomStarted
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -2441,7 +2459,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 ScrollPositionChanged
@@ -2450,7 +2468,7 @@ ScrollPositionChanged
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -2464,7 +2482,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 AsyncPanZoomStopped
@@ -2473,7 +2491,7 @@ AsyncPanZoomStopped
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -2943,7 +2961,16 @@ Call
 "
 )
 ;
+RefPtr
+<
+MockAccessibleCaretEventHub
+>
+hub
+(
 mHub
+)
+;
+hub
 -
 >
 AsyncPanZoomStarted
@@ -2952,7 +2979,7 @@ AsyncPanZoomStarted
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -2982,7 +3009,7 @@ ScrollState
 nsEventStatus_eIgnore
 )
 ;
-mHub
+hub
 -
 >
 ScrollPositionChanged
@@ -2991,7 +3018,7 @@ ScrollPositionChanged
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3005,7 +3032,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 AsyncPanZoomStopped
@@ -3014,7 +3041,7 @@ AsyncPanZoomStopped
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3094,7 +3121,7 @@ Call
 "
 )
 ;
-mHub
+hub
 -
 >
 AsyncPanZoomStarted
@@ -3103,7 +3130,7 @@ AsyncPanZoomStarted
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3117,7 +3144,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 ScrollPositionChanged
@@ -3126,7 +3153,7 @@ ScrollPositionChanged
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3140,7 +3167,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 AsyncPanZoomStopped
@@ -3149,7 +3176,7 @@ AsyncPanZoomStopped
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3335,7 +3362,16 @@ Call
 "
 )
 ;
+RefPtr
+<
+MockAccessibleCaretEventHub
+>
+hub
+(
 mHub
+)
+;
+hub
 -
 >
 AsyncPanZoomStarted
@@ -3344,7 +3380,7 @@ AsyncPanZoomStarted
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3358,7 +3394,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 ScrollPositionChanged
@@ -3367,7 +3403,7 @@ ScrollPositionChanged
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3381,7 +3417,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 AsyncPanZoomStopped
@@ -3390,7 +3426,7 @@ AsyncPanZoomStopped
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3413,7 +3449,7 @@ Call
 "
 )
 ;
-mHub
+hub
 -
 >
 AsyncPanZoomStarted
@@ -3422,7 +3458,7 @@ AsyncPanZoomStarted
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3436,7 +3472,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 ScrollPositionChanged
@@ -3445,7 +3481,7 @@ ScrollPositionChanged
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3459,7 +3495,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 AsyncPanZoomStopped
@@ -3468,7 +3504,7 @@ AsyncPanZoomStopped
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3542,7 +3578,16 @@ OnBlur
 )
 ;
 }
+RefPtr
+<
+MockAccessibleCaretEventHub
+>
+hub
+(
 mHub
+)
+;
+hub
 -
 >
 AsyncPanZoomStarted
@@ -3551,7 +3596,7 @@ AsyncPanZoomStarted
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3565,7 +3610,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 ScrollPositionChanged
@@ -3574,7 +3619,7 @@ ScrollPositionChanged
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3588,7 +3633,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 NotifyBlur
@@ -3598,7 +3643,7 @@ true
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3667,7 +3712,16 @@ OnBlur
 )
 ;
 }
+RefPtr
+<
+MockAccessibleCaretEventHub
+>
+hub
+(
 mHub
+)
+;
+hub
 -
 >
 AsyncPanZoomStarted
@@ -3676,7 +3730,7 @@ AsyncPanZoomStarted
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3690,7 +3744,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 ScrollPositionChanged
@@ -3699,7 +3753,7 @@ ScrollPositionChanged
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3713,7 +3767,7 @@ ScrollState
 )
 )
 ;
-mHub
+hub
 -
 >
 AsyncPanZoomStopped
@@ -3722,7 +3776,7 @@ AsyncPanZoomStopped
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
@@ -3736,7 +3790,7 @@ NoActionState
 )
 )
 ;
-mHub
+hub
 -
 >
 NotifyBlur
@@ -3746,7 +3800,7 @@ true
 ;
 EXPECT_EQ
 (
-mHub
+hub
 -
 >
 GetState
