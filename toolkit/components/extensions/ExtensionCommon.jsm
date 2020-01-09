@@ -1342,6 +1342,17 @@ if
 this
 .
 contentWindow
+&
+&
+!
+Cu
+.
+isDeadWrapper
+(
+this
+.
+contentWindow
+)
 )
 {
 this
