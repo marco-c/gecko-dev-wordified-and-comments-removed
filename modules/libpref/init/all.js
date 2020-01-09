@@ -19461,6 +19461,7 @@ js
 parent_utils
 .
 js
+chrometask_chromescript
 "
 )
 ;
@@ -35368,18 +35369,6 @@ formlessCapture
 enabled
 "
 true
-)
-;
-pref
-(
-"
-signon
-.
-privateBrowsingCapture
-.
-enabled
-"
-false
 )
 ;
 pref
