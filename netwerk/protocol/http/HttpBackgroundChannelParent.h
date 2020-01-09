@@ -174,10 +174,8 @@ OnDiversion
 )
 ;
 bool
-OnNotifyChannelClassifierProtectionDisabled
+OnNotifyTrackingProtectionDisabled
 (
-uint32_t
-aAcceptedReason
 )
 ;
 bool
@@ -186,7 +184,7 @@ OnNotifyCookieAllowed
 )
 ;
 bool
-OnNotifyCookieBlocked
+OnNotifyTrackingCookieBlocked
 (
 uint32_t
 aRejectedReason

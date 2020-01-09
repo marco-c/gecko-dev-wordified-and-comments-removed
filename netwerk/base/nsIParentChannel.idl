@@ -177,11 +177,10 @@ notify
 the
 HttpChannelChild
 that
-channel
-classifier
+tracking
 protection
-*
 was
+*
 disabled
 for
 this
@@ -193,11 +192,8 @@ load
 noscript
 ]
 void
-notifyChannelClassifierProtectionDisabled
+notifyTrackingProtectionDisabled
 (
-in
-uint32_t
-aAcceptedReason
 )
 ;
 /
@@ -254,7 +250,7 @@ load
 noscript
 ]
 void
-notifyCookieBlocked
+notifyTrackingCookieBlocked
 (
 in
 uint32_t

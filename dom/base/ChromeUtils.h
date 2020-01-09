@@ -923,17 +923,6 @@ ErrorResult
 aRv
 )
 ;
-static
-bool
-IsClassifierBlockingErrorCode
-(
-GlobalObject
-&
-aGlobal
-uint32_t
-aError
-)
-;
 }
 ;
 }

@@ -1957,10 +1957,8 @@ NS_IMETHODIMP
 TrackingDummyChannel
 :
 :
-CancelByChannelClassifier
+CancelForTrackingProtection
 (
-nsresult
-aErrorCode
 )
 {
 return

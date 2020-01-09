@@ -602,7 +602,7 @@ UrlClassifierCommon
 SetBlockedContent
 (
 aChannel
-NS_ERROR_CRYPTOMINING_URI
+NS_ERROR_TRACKING_URI
 aList
 EmptyCString
 (
@@ -655,9 +655,8 @@ Unused
 httpChannel
 -
 >
-CancelByChannelClassifier
+CancelForTrackingProtection
 (
-NS_ERROR_CRYPTOMINING_URI
 )
 ;
 }
@@ -671,7 +670,7 @@ aChannel
 >
 Cancel
 (
-NS_ERROR_CRYPTOMINING_URI
+NS_ERROR_TRACKING_URI
 )
 ;
 }

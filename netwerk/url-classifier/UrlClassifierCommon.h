@@ -98,13 +98,11 @@ aURI
 ;
 static
 void
-NotifyChannelClassifierProtectionDisabled
+NotifyTrackingProtectionDisabled
 (
 nsIChannel
 *
 aChannel
-uint32_t
-aAcceptedReason
 )
 ;
 static

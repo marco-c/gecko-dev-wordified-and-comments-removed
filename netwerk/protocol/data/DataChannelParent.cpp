@@ -94,10 +94,8 @@ NS_IMETHODIMP
 DataChannelParent
 :
 :
-NotifyChannelClassifierProtectionDisabled
+NotifyTrackingProtectionDisabled
 (
-uint32_t
-aAcceptedReason
 )
 {
 return
@@ -120,7 +118,7 @@ NS_IMETHODIMP
 DataChannelParent
 :
 :
-NotifyCookieBlocked
+NotifyTrackingCookieBlocked
 (
 uint32_t
 aRejectedReason

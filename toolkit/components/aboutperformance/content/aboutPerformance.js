@@ -1227,12 +1227,12 @@ _trackingState
 set
 (
 host
-ChromeUtils
-.
-IsClassifierBlockingErrorCode
-(
 aErrorCode
-)
+=
+=
+Cr
+.
+NS_ERROR_TRACKING_URI
 )
 ;
 }

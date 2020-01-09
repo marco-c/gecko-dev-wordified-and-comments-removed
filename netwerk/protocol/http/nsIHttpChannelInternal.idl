@@ -2242,9 +2242,7 @@ be
 blocked
 *
 for
-safe
--
-browsing
+tracking
 protection
 .
 This
@@ -2256,8 +2254,8 @@ that
 is
 meant
 to
-*
 be
+*
 called
 by
 the
@@ -2272,10 +2270,10 @@ this
 API
 if
 you
-*
 don
 '
 t
+*
 know
 whether
 you
@@ -2290,11 +2288,8 @@ it
 noscript
 ]
 void
-cancelByChannelClassifier
+cancelForTrackingProtection
 (
-in
-nsresult
-aErrorCode
 )
 ;
 /
