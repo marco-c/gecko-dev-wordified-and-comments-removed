@@ -434,7 +434,7 @@ bp
 .
 condition
 "
-12
+2
 "
 "
 breakpoint
