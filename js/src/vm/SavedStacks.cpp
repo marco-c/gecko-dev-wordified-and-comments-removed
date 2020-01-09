@@ -7809,6 +7809,14 @@ framePtr
 hasCachedSavedFrame
 (
 )
+|
+|
+framePtr
+-
+>
+isRematerializedFrame
+(
+)
 )
 ;
 seenCached
