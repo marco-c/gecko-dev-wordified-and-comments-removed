@@ -1911,6 +1911,7 @@ unwrap
 )
 None
 true
+true
 RasterSpace
 :
 :
@@ -7828,6 +7829,9 @@ leaf_output_pipeline_id
 true
 stacking_context
 .
+is_backface_visible
+stacking_context
+.
 requested_raster_space
 PrimitiveList
 :
@@ -8075,6 +8079,9 @@ stacking_context
 .
 frame_output_pipeline_id
 true
+stacking_context
+.
+is_backface_visible
 stacking_context
 .
 requested_raster_space
@@ -8377,6 +8384,9 @@ stacking_context
 pipeline_id
 None
 true
+stacking_context
+.
+is_backface_visible
 stacking_context
 .
 requested_raster_space
@@ -8731,6 +8741,9 @@ stacking_context
 pipeline_id
 None
 true
+stacking_context
+.
+is_backface_visible
 stacking_context
 .
 requested_raster_space
@@ -10589,6 +10602,18 @@ into
 (
 )
 ;
+let
+is_backface_visible
+=
+true
+;
+/
+/
+TODO
+:
+double
+check
+this
 /
 /
 Pass
@@ -10671,6 +10696,7 @@ Out
 pipeline_id
 None
 is_passthrough
+is_backface_visible
 raster_space
 PrimitiveList
 :
@@ -14403,6 +14429,9 @@ self
 pipeline_id
 None
 true
+self
+.
+is_backface_visible
 self
 .
 requested_raster_space
