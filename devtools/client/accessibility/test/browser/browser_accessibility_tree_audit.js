@@ -186,6 +186,9 @@ Accessibility
 Panel
 Test
 "
+level
+:
+1
 }
 {
 role
@@ -200,6 +203,9 @@ Top
 level
 header
 "
+level
+:
+2
 }
 {
 role
@@ -223,6 +229,9 @@ badges
 contrast
 "
 ]
+level
+:
+3
 }
 {
 role
@@ -237,6 +246,9 @@ Second
 level
 header
 "
+level
+:
+2
 }
 ]
 }
@@ -299,6 +311,9 @@ badges
 contrast
 "
 ]
+level
+:
+1
 }
 {
 role
@@ -325,6 +340,9 @@ contrast
 selected
 :
 true
+level
+:
+1
 }
 ]
 }
@@ -379,6 +397,9 @@ Accessibility
 Panel
 Test
 "
+level
+:
+1
 }
 {
 role
@@ -393,6 +414,9 @@ Top
 level
 header
 "
+level
+:
+2
 }
 {
 role
@@ -416,6 +440,9 @@ badges
 contrast
 "
 ]
+level
+:
+3
 }
 {
 role
@@ -430,6 +457,9 @@ Second
 level
 header
 "
+level
+:
+2
 }
 {
 role
@@ -456,6 +486,9 @@ contrast
 selected
 :
 true
+level
+:
+3
 }
 ]
 }
