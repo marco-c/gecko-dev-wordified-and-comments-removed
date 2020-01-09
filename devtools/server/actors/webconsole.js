@@ -4940,6 +4940,17 @@ reset
 )
 ;
 }
+else
+{
+this
+.
+consoleServiceListener
+.
+clearCachedMessages
+(
+)
+;
+}
 }
 getPreferences
 :
