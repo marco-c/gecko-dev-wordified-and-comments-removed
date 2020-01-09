@@ -374,8 +374,15 @@ public
 struct
 AutoUseNewTab
 ;
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECL_NSITABPARENT
 NS_DECL_NSIDOMEVENTLISTENER
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+TabParent
+nsITabParent
+)
 TabParent
 (
 ContentParent
@@ -2223,8 +2230,6 @@ JSObject
 globalp
 )
 ;
-NS_DECL_ISUPPORTS
-NS_DECL_NSIAUTHPROMPTPROVIDER
 void
 StartPersistence
 (
@@ -2822,8 +2827,10 @@ why
 )
 override
 ;
+nsCOMPtr
+<
 Element
-*
+>
 mFrameElement
 ;
 nsCOMPtr
