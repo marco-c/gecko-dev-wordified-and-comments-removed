@@ -280,12 +280,6 @@ children
 includes
 =
 "
-image
-|
-deck
-|
-stack
-|
 box
 "
 /
@@ -594,12 +588,6 @@ children
 includes
 =
 "
-image
-|
-deck
-|
-stack
-|
 box
 "
 /
