@@ -64,6 +64,9 @@ nsIFrame
 *
 NS_NewHTMLCanvasFrame
 (
+mozilla
+:
+:
 PresShell
 *
 aPresShell

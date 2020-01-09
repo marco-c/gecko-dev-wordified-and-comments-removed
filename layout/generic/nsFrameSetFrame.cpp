@@ -182,6 +182,15 @@ include
 "
 mozilla
 /
+ServoStyleSetInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
