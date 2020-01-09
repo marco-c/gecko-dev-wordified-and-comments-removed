@@ -10399,13 +10399,6 @@ DocumentL10n
 >
 mDocumentL10n
 ;
-virtual
-bool
-UseWidthDeviceWidthFallbackViewport
-(
-)
-const
-;
 private
 :
 void
