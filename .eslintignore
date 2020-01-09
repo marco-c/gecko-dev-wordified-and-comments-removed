@@ -1783,12 +1783,6 @@ svg
 *
 dom
 /
-system
-/
-*
-*
-dom
-/
 tests
 /
 browser
@@ -1808,14 +1802,6 @@ dom
 tests
 /
 mochitest
-/
-*
-*
-dom
-/
-tests
-/
-unit
 /
 *
 *

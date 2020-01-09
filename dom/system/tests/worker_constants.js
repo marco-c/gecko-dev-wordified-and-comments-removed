@@ -48,7 +48,7 @@ onmessage
 =
 function
 (
-msg
+msgInner
 )
 {
 log
@@ -62,7 +62,7 @@ JSON
 .
 stringify
 (
-msg
+msgInner
 .
 data
 )
@@ -206,10 +206,6 @@ kind
 ok
 "
 condition
-:
-condition
-description
-:
 description
 }
 )
@@ -232,13 +228,7 @@ kind
 is
 "
 a
-:
-a
 b
-:
-b
-description
-:
 description
 }
 )
@@ -261,13 +251,7 @@ kind
 isnot
 "
 a
-:
-a
 b
-:
-b
-description
-:
 description
 }
 )
