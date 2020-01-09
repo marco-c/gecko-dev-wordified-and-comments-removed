@@ -1265,10 +1265,6 @@ from
 (
 transform
 )
-.
-quantize
-(
-)
 }
 else
 {
