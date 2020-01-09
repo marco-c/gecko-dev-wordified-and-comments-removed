@@ -1016,10 +1016,10 @@ firstrun_learn_more_link
 "
 Su
 inokite
-daugiau
 apie
 Firefox
 paskyras
+daugiau
 "
 "
 firstrun_form_header

@@ -289,7 +289,7 @@ this
 .
 props
 .
-onDoneButton
+onDismissBundle
 }
 >
 <
@@ -333,7 +333,7 @@ this
 .
 props
 .
-onDoneButton
+onDismissBundle
 }
 >
 {

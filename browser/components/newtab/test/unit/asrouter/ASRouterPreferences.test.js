@@ -132,7 +132,7 @@ features
 const
 NUMBER_OF_PREFS_TO_OBSERVE
 =
-5
+6
 ;
 describe
 (

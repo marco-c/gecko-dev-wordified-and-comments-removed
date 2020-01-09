@@ -1072,7 +1072,7 @@ firstrun_extra_legal_links
 :
 "
 Proseguendo
-accetto
+accetti
 le
 {
 terms
