@@ -1154,14 +1154,14 @@ renderSourceSummary
 {
 this
 .
-renderCursorPosition
+renderToggleButton
 (
 )
 }
 {
 this
 .
-renderToggleButton
+renderCursorPosition
 (
 )
 }
