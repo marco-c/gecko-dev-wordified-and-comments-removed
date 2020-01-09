@@ -12056,7 +12056,7 @@ lastObjId
 env
 -
 >
-shape
+maybeShape
 (
 )
 )
@@ -12878,7 +12878,7 @@ lastObjId
 env
 -
 >
-shape
+maybeShape
 (
 )
 )
@@ -20373,6 +20373,19 @@ objValId
 maybeEmitIdGuard
 (
 id
+)
+;
+MOZ_ASSERT
+(
+obj
+-
+>
+is
+<
+ShapedObject
+>
+(
+)
 )
 ;
 writer

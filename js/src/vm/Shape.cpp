@@ -7889,8 +7889,9 @@ existingShape
 obj
 -
 >
-shape
+ensureShape
 (
+cx
 )
 ;
 if
@@ -8073,7 +8074,7 @@ obj
 >
 as
 <
-JSObject
+ShapedObject
 >
 (
 )
@@ -10269,7 +10270,7 @@ JSObject
 *
 last
 =
-JSObject
+ShapedObject
 :
 :
 fromShapeFieldPointer

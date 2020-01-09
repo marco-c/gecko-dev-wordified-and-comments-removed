@@ -13,6 +13,15 @@ Proxy
 .
 h
 "
+#
+include
+"
+vm
+/
+ShapedObject
+.
+h
+"
 namespace
 js
 {
@@ -20,7 +29,7 @@ class
 ProxyObject
 :
 public
-JSObject
+ShapedObject
 {
 detail
 :

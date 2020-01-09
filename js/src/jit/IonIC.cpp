@@ -1504,7 +1504,7 @@ oldShape
 obj
 -
 >
-shape
+maybeShape
 (
 )
 ;

@@ -7303,6 +7303,14 @@ obj
 hasLazyGroup
 (
 )
+&
+&
+obj
+-
+>
+maybeShape
+(
+)
 obj
 -
 >
@@ -7319,7 +7327,7 @@ clasp
 obj
 -
 >
-shape
+maybeShape
 (
 )
 -

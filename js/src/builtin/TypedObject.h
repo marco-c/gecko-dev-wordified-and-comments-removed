@@ -58,6 +58,15 @@ JSObject
 .
 h
 "
+#
+include
+"
+vm
+/
+ShapedObject
+.
+h
+"
 namespace
 js
 {
@@ -1730,7 +1739,7 @@ class
 TypedObject
 :
 public
-JSObject
+ShapedObject
 {
 static
 const
@@ -2203,7 +2212,9 @@ addressOfShapeFromGC
 )
 {
 return
-shape_
+shapeRef
+(
+)
 .
 unsafeUnbarrieredForTracing
 (
