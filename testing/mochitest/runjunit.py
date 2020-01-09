@@ -27,6 +27,7 @@ mozdevice
 import
 ADBDevice
 ADBError
+ADBTimeoutError
 from
 mozprofile
 import
@@ -3358,6 +3359,10 @@ result
 try
 :
         
+device_exception
+=
+False
+        
 result
 =
 runner
@@ -3395,6 +3400,8 @@ result
     
 except
 Exception
+as
+e
 :
         
 traceback
@@ -3425,10 +3432,27 @@ tests
 result
 =
 1
+        
+if
+isinstance
+(
+e
+ADBTimeoutError
+)
+:
+            
+device_exception
+=
+True
     
 finally
 :
         
+if
+not
+device_exception
+:
+            
 runner
 .
 cleanup
