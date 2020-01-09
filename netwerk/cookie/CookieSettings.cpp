@@ -569,6 +569,16 @@ UNKNOWN_ACTION
 nsresult
 rv
 ;
+if
+(
+!
+mCookiePermissions
+.
+IsEmpty
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIPrincipal
@@ -673,6 +683,7 @@ rv
 return
 NS_OK
 ;
+}
 }
 nsPermissionManager
 *
