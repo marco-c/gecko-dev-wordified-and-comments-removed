@@ -5354,7 +5354,7 @@ supports
 xpc
 :
 :
-UnwrapReflectorToISupports
+ReflectorToISupportsStatic
 (
 obj
 )

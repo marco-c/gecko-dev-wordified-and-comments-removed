@@ -630,7 +630,7 @@ native
 xpc
 :
 :
-UnwrapReflectorToISupports
+ReflectorToISupportsStatic
 (
 thisObj
 )

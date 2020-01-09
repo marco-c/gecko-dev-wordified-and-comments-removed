@@ -184,7 +184,7 @@ using
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 ;
 using
 js
@@ -9693,7 +9693,7 @@ getterObject
 {
 MOZ_ASSERT
 (
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 wrapped
 .
@@ -9750,7 +9750,7 @@ setterObject
 {
 MOZ_ASSERT
 (
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 wrapped
 .

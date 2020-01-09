@@ -137,6 +137,9 @@ IsReflector
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 {
 obj
@@ -144,9 +147,10 @@ obj
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 obj
+cx
 false
 )
 ;
@@ -325,6 +329,7 @@ MOZ_ASSERT
 IsReflector
 (
 reflector
+aCx
 )
 "
 Object
@@ -700,6 +705,7 @@ wrapReflectors
 IsReflector
 (
 aObj
+aCx
 )
 )
 |
@@ -1859,9 +1865,10 @@ targetScope
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 targetScope
+cx
 )
 ;
 funObj
@@ -1869,7 +1876,7 @@ funObj
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 funObj
 )
@@ -2222,7 +2229,7 @@ cx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 &
 vobj
@@ -2230,6 +2237,7 @@ vobj
 toObject
 (
 )
+cx
 )
 )
 ;
