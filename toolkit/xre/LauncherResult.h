@@ -336,7 +336,6 @@ LAUNCHER_ERROR_FROM_MOZ_WINDOWS_ERROR
 (
 err
 )
-\
 :
 :
 mozilla

@@ -13481,6 +13481,8 @@ should
 have
 the
 same
+"
+"
 geckoViewSessionContextId
 attribute
 "
