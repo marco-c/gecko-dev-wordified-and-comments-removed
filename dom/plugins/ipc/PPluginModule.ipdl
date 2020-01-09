@@ -790,9 +790,9 @@ int32_t
 aX
 int32_t
 aY
-size_t
+double
 aWidth
-size_t
+double
 aHeight
 )
 ;
