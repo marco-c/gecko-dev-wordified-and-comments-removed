@@ -120,6 +120,15 @@ StopListeningOnMainThread
 (
 )
 ;
+class
+DelayedUpdate
+;
+RefPtr
+<
+DelayedUpdate
+>
+mDelayedUpdate
+;
 void
 UpdateState
 (
