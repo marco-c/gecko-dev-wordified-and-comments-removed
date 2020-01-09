@@ -639,6 +639,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 void
 GetProperties
@@ -1158,6 +1159,7 @@ ComputedStyle
 GetTargetComputedStyle
 (
 )
+const
 ;
 void
 MarkCascadeNeedsUpdate
