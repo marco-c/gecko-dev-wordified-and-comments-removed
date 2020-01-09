@@ -601,6 +601,16 @@ InitMemorySubsystem
 (
 )
 ;
+js
+:
+:
+coverage
+:
+:
+InitLCov
+(
+)
+;
 RETURN_IF_FAIL
 (
 js

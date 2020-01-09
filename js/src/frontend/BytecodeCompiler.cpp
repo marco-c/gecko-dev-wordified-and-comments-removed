@@ -1987,10 +1987,10 @@ sourceIsLazy
 &
 &
 !
-cx
--
->
-lcovEnabled
+coverage
+:
+:
+IsLCovEnabled
 (
 )
 &
