@@ -31249,14 +31249,6 @@ treatNullAs
 Default
 "
                                 
-isEnforceRange
-=
-False
-                                
-isClamp
-=
-False
-                                
 isNullOrUndefined
 =
 False
@@ -31902,16 +31894,12 @@ isNullOrUndefined
     
 isClamp
 =
-isClamp
-or
 type
 .
 clamp
     
 isEnforceRange
 =
-isEnforceRange
-or
 type
 .
 enforceRange
@@ -43281,22 +43269,6 @@ self
 argument
 .
 treatNullAs
-            
-isEnforceRange
-=
-self
-.
-argument
-.
-enforceRange
-            
-isClamp
-=
-self
-.
-argument
-.
-clamp
             
 lenientFloatCode
 =
@@ -57733,45 +57705,6 @@ treatNullAs
 "
 Default
 "
-        
-if
-isinstance
-(
-interfaceMember
-IDLAttribute
-)
-:
-            
-self
-.
-enforceRange
-=
-interfaceMember
-.
-enforceRange
-            
-self
-.
-clamp
-=
-interfaceMember
-.
-clamp
-        
-else
-:
-            
-self
-.
-enforceRange
-=
-False
-            
-self
-.
-clamp
-=
-False
         
 self
 .
@@ -91203,18 +91136,6 @@ member
 type
                  
 descriptorProvider
-                 
-isEnforceRange
-=
-member
-.
-enforceRange
-                 
-isClamp
-=
-member
-.
-clamp
                  
 isMember
 =
