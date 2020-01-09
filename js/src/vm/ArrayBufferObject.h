@@ -996,8 +996,9 @@ old
 )
 ;
 static
-BufferContents
-externalizeContents
+void
+*
+exposeMallocedContents
 (
 JSContext
 *
@@ -1008,8 +1009,6 @@ ArrayBufferObject
 *
 >
 buffer
-bool
-hasStealableContents
 )
 ;
 static
