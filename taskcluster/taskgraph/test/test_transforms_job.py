@@ -473,13 +473,20 @@ True
     
 if
 impl
-!
-=
+not
+in
+(
 '
 docker
 -
 worker
 '
+'
+generic
+-
+worker
+'
+)
 :
         
 pytest
@@ -507,6 +514,19 @@ key
 =
 '
 caches
+'
+if
+impl
+=
+=
+'
+docker
+-
+worker
+'
+else
+'
+mounts
 '
     
 assert
