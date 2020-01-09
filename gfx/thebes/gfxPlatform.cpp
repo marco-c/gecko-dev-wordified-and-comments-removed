@@ -12822,6 +12822,7 @@ aHasBattery
 ;
 if
 (
+(
 adapterVendorID
 =
 =
@@ -12829,6 +12830,16 @@ u
 "
 0x8086
 "
+|
+|
+adapterVendorID
+=
+=
+u
+"
+0x1002
+"
+)
 &
 &
 screenPixels
