@@ -2197,6 +2197,16 @@ PresShell
 aPresShell
 )
 ;
+static
+nsIContent
+*
+GetCapturingContentFor
+(
+WidgetGUIEvent
+*
+aGUIEvent
+)
+;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 RetargetEventToParent
