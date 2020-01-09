@@ -513,6 +513,8 @@ values
                     
 low_value_tasks
 =
+set
+(
 task_list
 .
 values
@@ -521,34 +523,7 @@ values
 [
 0
 ]
-                    
-if
-type
-(
-low_value_tasks
-[
-0
-]
 )
-=
-=
-list
-:
-                        
-low_value_tasks
-=
-[
-self
-.
-_get_task_string
-(
-x
-)
-for
-x
-in
-low_value_tasks
-]
             
 logger
 .
@@ -673,6 +648,8 @@ values
                     
 high_value_tasks
 =
+set
+(
 task_list
 .
 values
@@ -681,6 +658,7 @@ values
 [
 0
 ]
+)
             
 def
 only_android_raptor
@@ -720,7 +698,7 @@ high_value_tasks
             
 low_value_tasks
 .
-extend
+update
 (
 high_value_android_tasks
 )
@@ -896,7 +874,7 @@ low_value_tasks
                     
 low_value_tasks
 .
-extend
+update
 (
                         
 [
@@ -944,7 +922,7 @@ high_value_tasks
                     
 high_value_tasks
 .
-extend
+update
 (
                         
 [
@@ -1014,6 +992,8 @@ False
             
 low_value_tasks
 =
+set
+(
 [
 x
 for
@@ -1027,9 +1007,12 @@ new_as_old_is_high_value
 x
 )
 ]
+)
             
 low_value_tasks
 =
+set
+(
 [
 x
 for
@@ -1044,6 +1027,7 @@ not
 in
 x
 ]
+)
         
 except
 exceptions
