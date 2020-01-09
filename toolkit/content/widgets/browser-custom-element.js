@@ -3347,7 +3347,7 @@ isRemoteBrowser
 {
 this
 .
-inLoadURI
+isNavigating
 =
 true
 ;
@@ -3362,7 +3362,7 @@ finally
 {
 this
 .
-inLoadURI
+isNavigating
 =
 false
 ;
@@ -4513,7 +4513,7 @@ return
 !
 this
 .
-inLoadURI
+isNavigating
 &
 &
 this

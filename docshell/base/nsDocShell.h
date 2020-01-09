@@ -3349,6 +3349,11 @@ mIsFrame
 :
 1
 ;
+bool
+mIsNavigating
+:
+1
+;
 }
 ;
 #

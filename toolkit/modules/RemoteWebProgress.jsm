@@ -823,7 +823,7 @@ this
 .
 _browser
 .
-inLoadURI
+isNavigating
 =
 false
 ;
@@ -989,7 +989,7 @@ if
 typeof
 json
 .
-inLoadURI
+isNavigating
 !
 =
 "
@@ -1001,11 +1001,11 @@ this
 .
 _browser
 .
-inLoadURI
+isNavigating
 =
 json
 .
-inLoadURI
+isNavigating
 ;
 }
 if
