@@ -1363,13 +1363,6 @@ script
 {
 if
 (
-isGlobalFrame
-(
-)
-)
-{
-if
-(
 script
 -
 >
@@ -1388,7 +1381,6 @@ AdvanceExecutionProgressCounter
 (
 )
 ;
-}
 }
 return
 false
