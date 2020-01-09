@@ -1499,6 +1499,13 @@ const
 {
 MOZ_ASSERT
 (
+isEnabled
+(
+)
+)
+;
+MOZ_ASSERT
+(
 currentEnd_
 -
 position_
