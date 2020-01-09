@@ -342,6 +342,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -414,9 +415,8 @@ actions
 .
 loadSourceText
 (
-{
+cx
 source
-}
 )
 )
 ;
@@ -451,6 +451,7 @@ actions
 .
 addBreakpoint
 (
+cx
 bp
 .
 location
@@ -593,6 +594,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -698,11 +700,8 @@ actions
 .
 loadSourceText
 (
-{
-source
-:
+cx
 source1
-}
 )
 )
 ;
@@ -713,11 +712,8 @@ actions
 .
 loadSourceText
 (
-{
-source
-:
+cx
 source2
-}
 )
 )
 ;
@@ -728,6 +724,7 @@ actions
 .
 addBreakpoint
 (
+cx
 breakpoint1
 .
 location
@@ -741,6 +738,7 @@ actions
 .
 addBreakpoint
 (
+cx
 breakpoint2
 .
 location
@@ -807,6 +805,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -875,9 +874,8 @@ actions
 .
 loadSourceText
 (
-{
+cx
 source
-}
 )
 )
 ;
@@ -888,6 +886,7 @@ actions
 .
 addBreakpoint
 (
+cx
 breakpoint1
 .
 location
@@ -947,6 +946,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -1052,11 +1052,8 @@ actions
 .
 loadSourceText
 (
-{
-source
-:
+cx
 source1
-}
 )
 )
 ;
@@ -1067,11 +1064,8 @@ actions
 .
 loadSourceText
 (
-{
-source
-:
+cx
 source2
-}
 )
 )
 ;
@@ -1082,6 +1076,7 @@ actions
 .
 addBreakpoint
 (
+cx
 breakpoint1
 .
 location
@@ -1095,6 +1090,7 @@ actions
 .
 addBreakpoint
 (
+cx
 breakpoint2
 .
 location
@@ -1108,6 +1104,7 @@ actions
 .
 removeBreakpoint
 (
+cx
 breakpoint1
 )
 )
@@ -1194,6 +1191,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -1282,9 +1280,8 @@ actions
 .
 loadSourceText
 (
-{
+cx
 source
-}
 )
 )
 ;
@@ -1295,6 +1292,7 @@ actions
 .
 addBreakpoint
 (
+cx
 bp
 .
 location
@@ -1308,6 +1306,7 @@ actions
 .
 setBreakpointOptions
 (
+cx
 bp
 .
 location
@@ -1379,6 +1378,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -1467,9 +1467,8 @@ actions
 .
 loadSourceText
 (
-{
+cx
 source
-}
 )
 )
 ;
@@ -1480,6 +1479,7 @@ actions
 .
 addBreakpoint
 (
+cx
 bp
 .
 location
@@ -1493,6 +1493,7 @@ actions
 .
 disableBreakpoint
 (
+cx
 bp
 )
 )
@@ -1554,6 +1555,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -1638,9 +1640,8 @@ actions
 .
 loadSourceText
 (
-{
+cx
 source
-}
 )
 )
 ;
@@ -1661,6 +1662,7 @@ actions
 .
 addBreakpoint
 (
+cx
 bp
 .
 location
@@ -1674,6 +1676,7 @@ actions
 .
 setBreakpointOptions
 (
+cx
 bp
 .
 location
@@ -1831,6 +1834,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -1918,9 +1922,8 @@ actions
 .
 loadSourceText
 (
-{
+cx
 source
-}
 )
 )
 ;
@@ -1931,6 +1934,7 @@ actions
 .
 addBreakpoint
 (
+cx
 bar
 .
 location
@@ -1985,6 +1989,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -2069,9 +2074,8 @@ actions
 .
 loadSourceText
 (
-{
+cx
 source
-}
 )
 )
 ;
@@ -2082,6 +2086,7 @@ actions
 .
 addBreakpoint
 (
+cx
 bp
 .
 location
@@ -2181,6 +2186,7 @@ const
 {
 getState
 dispatch
+cx
 }
 =
 store
@@ -2233,9 +2239,8 @@ actions
 .
 loadSourceText
 (
-{
+cx
 source
-}
 )
 )
 ;
@@ -2422,6 +2427,7 @@ const
 {
 getState
 dispatch
+cx
 }
 =
 store
@@ -2491,9 +2497,8 @@ actions
 .
 loadSourceText
 (
-{
+cx
 source
-}
 )
 )
 ;
@@ -2836,6 +2841,7 @@ const
 {
 getState
 dispatch
+cx
 }
 =
 store
@@ -2938,11 +2944,8 @@ actions
 .
 loadSourceText
 (
-{
-source
-:
+cx
 source1
-}
 )
 )
 ;
@@ -2953,11 +2956,8 @@ actions
 .
 loadSourceText
 (
-{
-source
-:
+cx
 source2
-}
 )
 )
 ;

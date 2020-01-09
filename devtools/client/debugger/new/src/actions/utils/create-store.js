@@ -88,6 +88,19 @@ middleware
 timing
 "
 ;
+import
+{
+context
+}
+from
+"
+.
+/
+middleware
+/
+context
+"
+;
 type
 ReduxStoreOptions
 =
@@ -143,6 +156,7 @@ opts
 .
 makeThunkArgs
 )
+context
 promise
 waitUntilService
 ]

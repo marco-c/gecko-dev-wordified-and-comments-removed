@@ -42,6 +42,10 @@ actions
 .
 stepOver
 (
+getThreadContext
+(
+dbg
+)
 )
 ;
 await

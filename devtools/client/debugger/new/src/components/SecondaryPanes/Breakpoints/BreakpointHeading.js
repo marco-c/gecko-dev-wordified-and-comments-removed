@@ -71,6 +71,7 @@ import
 {
 getHasSiblingOfSameName
 getBreakpointsForSource
+getContext
 }
 from
 "
@@ -106,6 +107,7 @@ type
 {
 Source
 Breakpoint
+Context
 }
 from
 "
@@ -134,6 +136,9 @@ type
 Props
 =
 {
+cx
+:
+Context
 sources
 :
 Source
@@ -213,6 +218,7 @@ render
 {
 const
 {
+cx
 sources
 source
 hasSiblingOfSameName
@@ -274,6 +280,7 @@ onClick
 >
 selectSource
 (
+cx
 source
 .
 id
@@ -379,6 +386,12 @@ source
 >
 (
 {
+cx
+:
+getContext
+(
+state
+)
 hasSiblingOfSameName
 :
 getHasSiblingOfSameName

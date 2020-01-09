@@ -118,6 +118,7 @@ getActiveSearch
 getTextSearchResults
 getTextSearchStatus
 getTextSearchQuery
+getContext
 }
 from
 "
@@ -202,6 +203,19 @@ project
 text
 -
 search
+"
+;
+import
+type
+{
+Context
+}
+from
+"
+.
+.
+/
+types
 "
 ;
 import
@@ -296,6 +310,9 @@ type
 Props
 =
 {
+cx
+:
+Context
 query
 :
 string
@@ -626,6 +643,11 @@ props
 .
 searchSources
 (
+this
+.
+props
+.
+cx
 searchTerm
 )
 ;
@@ -645,6 +667,7 @@ KeyboardEvent
 {
 const
 {
+cx
 closeProjectSearch
 setActiveSearch
 }
@@ -677,6 +700,7 @@ isProjectSearchEnabled
 return
 closeProjectSearch
 (
+cx
 )
 ;
 }
@@ -724,6 +748,11 @@ props
 .
 selectSpecificLocation
 (
+this
+.
+props
+.
+cx
 {
 sourceId
 :
@@ -1036,6 +1065,7 @@ value
 ;
 const
 {
+cx
 clearSearch
 }
 =
@@ -1064,6 +1094,7 @@ inputValue
 {
 clearSearch
 (
+cx
 )
 ;
 }
@@ -1877,6 +1908,12 @@ state
 >
 (
 {
+cx
+:
+getContext
+(
+state
+)
 activeSearch
 :
 getActiveSearch

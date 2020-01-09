@@ -6,6 +6,7 @@ SourceLocation
 XHRBreakpoint
 Source
 BreakpointPositions
+Context
 }
 from
 "
@@ -155,6 +156,10 @@ type
 SET_BREAKPOINT
 "
 +
+cx
+:
+Context
++
 breakpoint
 :
 Breakpoint
@@ -170,6 +175,10 @@ type
 REMOVE_BREAKPOINT
 "
 +
+cx
+:
+Context
++
 location
 :
 SourceLocation
@@ -183,6 +192,10 @@ type
 "
 ADD_BREAKPOINT_POSITIONS
 "
++
+cx
+:
+Context
 positions
 :
 BreakpointPositions

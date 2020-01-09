@@ -43,6 +43,7 @@ getDisplayedSourcesForThread
 getFocusedSourceItem
 getWorkerByThread
 getWorkerCount
+getContext
 }
 from
 "
@@ -222,6 +223,7 @@ type
 {
 Worker
 Source
+Context
 }
 from
 "
@@ -274,6 +276,9 @@ type
 Props
 =
 {
+cx
+:
+Context
 thread
 :
 string
@@ -659,6 +664,11 @@ props
 .
 selectSource
 (
+this
+.
+props
+.
+cx
 item
 .
 contents
@@ -685,6 +695,11 @@ props
 .
 focusItem
 (
+this
+.
+props
+.
+cx
 {
 thread
 :
@@ -1738,6 +1753,12 @@ thread
 ;
 return
 {
+cx
+:
+getContext
+(
+state
+)
 shownSource
 :
 getSourceForTree

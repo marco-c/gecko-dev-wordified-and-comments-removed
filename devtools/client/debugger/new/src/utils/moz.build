@@ -120,6 +120,11 @@ connect
 js
 '
 '
+context
+.
+js
+'
+'
 dbg
 .
 js
@@ -183,11 +188,6 @@ js
 '
 '
 memoize
-.
-js
-'
-'
-memoizableAction
 .
 js
 '

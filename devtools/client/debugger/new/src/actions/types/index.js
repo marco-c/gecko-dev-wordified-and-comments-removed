@@ -3,6 +3,7 @@ type
 {
 WorkerList
 MainThread
+Context
 }
 from
 "
@@ -414,6 +415,10 @@ type
 "
 SET_FOCUSED_SOURCE_ITEM
 "
++
+cx
+:
+Context
 item
 :
 FocusItem
@@ -434,6 +439,10 @@ type
 ADD_QUERY
 "
 +
+cx
+:
+Context
++
 query
 :
 string
@@ -448,6 +457,10 @@ type
 "
 ADD_SEARCH_RESULT
 "
++
+cx
+:
+Context
 +
 result
 :
@@ -464,6 +477,10 @@ type
 UPDATE_STATUS
 "
 +
+cx
+:
+Context
++
 status
 :
 string
@@ -478,6 +495,10 @@ type
 "
 CLEAR_SEARCH_RESULTS
 "
++
+cx
+:
+Context
 |
 }
 |
@@ -489,6 +510,10 @@ type
 "
 ADD_ONGOING_SEARCH
 "
++
+cx
+:
+Context
 +
 ongoingSearch
 :
@@ -504,6 +529,10 @@ type
 "
 CLEAR_SEARCH
 "
++
+cx
+:
+Context
 |
 }
 ;
@@ -538,6 +567,10 @@ type
 TOGGLE_FILE_SEARCH_MODIFIER
 "
 +
+cx
+:
+Context
++
 modifier
 :
 FileTextSearchModifier
@@ -553,6 +586,10 @@ type
 UPDATE_FILE_SEARCH_QUERY
 "
 +
+cx
+:
+Context
++
 query
 :
 string
@@ -567,6 +604,10 @@ type
 "
 UPDATE_SEARCH_RESULTS
 "
++
+cx
+:
+Context
 +
 results
 :
@@ -638,7 +679,7 @@ CLOSE_QUICK_OPEN
 ;
 export
 type
-DebugeeAction
+DebuggeeAction
 =
 |
 {
@@ -649,6 +690,10 @@ type
 "
 SET_WORKERS
 "
++
+cx
+:
+Context
 +
 workers
 :
@@ -668,6 +713,10 @@ type
 "
 SELECT_THREAD
 "
++
+cx
+:
+Context
 +
 thread
 :
@@ -745,7 +794,7 @@ FileTextSearchAction
 |
 ProjectTextSearchAction
 |
-DebugeeAction
+DebuggeeAction
 |
 SourceTreeAction
 ;

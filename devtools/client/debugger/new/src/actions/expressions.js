@@ -94,6 +94,7 @@ import
 type
 {
 Expression
+ThreadContext
 }
 from
 "
@@ -119,6 +120,9 @@ export
 function
 addExpression
 (
+cx
+:
+ThreadContext
 input
 :
 string
@@ -178,6 +182,7 @@ dispatch
 (
 evaluateExpression
 (
+cx
 expression
 )
 )
@@ -191,6 +196,7 @@ type
 "
 ADD_EXPRESSION
 "
+cx
 input
 expressionError
 }
@@ -217,6 +223,7 @@ dispatch
 (
 evaluateExpression
 (
+cx
 newExpression
 )
 )
@@ -229,6 +236,9 @@ export
 function
 autocomplete
 (
+cx
+:
+ThreadContext
 input
 :
 string
@@ -261,16 +271,6 @@ return
 ;
 }
 const
-thread
-=
-getCurrentThread
-(
-getState
-(
-)
-)
-;
-const
 frameId
 =
 getSelectedFrameId
@@ -278,6 +278,8 @@ getSelectedFrameId
 getState
 (
 )
+cx
+.
 thread
 )
 ;
@@ -303,6 +305,7 @@ type
 "
 AUTOCOMPLETE
 "
+cx
 input
 result
 }
@@ -347,6 +350,9 @@ export
 function
 updateExpression
 (
+cx
+:
+ThreadContext
 input
 :
 string
@@ -396,6 +402,7 @@ type
 "
 UPDATE_EXPRESSION
 "
+cx
 expression
 input
 :
@@ -414,6 +421,7 @@ dispatch
 (
 evaluateExpressions
 (
+cx
 )
 )
 ;
@@ -463,6 +471,9 @@ export
 function
 evaluateExpressions
 (
+cx
+:
+ThreadContext
 )
 {
 return
@@ -510,16 +521,6 @@ input
 )
 ;
 const
-thread
-=
-getCurrentThread
-(
-getState
-(
-)
-)
-;
-const
 frameId
 =
 getSelectedFrameId
@@ -527,6 +528,8 @@ getSelectedFrameId
 getState
 (
 )
+cx
+.
 thread
 )
 ;
@@ -542,6 +545,10 @@ inputs
 {
 frameId
 thread
+:
+cx
+.
+thread
 }
 )
 ;
@@ -553,6 +560,7 @@ type
 "
 EVALUATE_EXPRESSIONS
 "
+cx
 inputs
 results
 }
@@ -564,6 +572,9 @@ results
 function
 evaluateExpression
 (
+cx
+:
+ThreadContext
 expression
 :
 Expression
@@ -615,16 +626,6 @@ expression
 input
 ;
 const
-thread
-=
-getCurrentThread
-(
-getState
-(
-)
-)
-;
-const
 frame
 =
 getSelectedFrame
@@ -632,6 +633,8 @@ getSelectedFrame
 getState
 (
 )
+cx
+.
 thread
 )
 ;
@@ -721,6 +724,8 @@ getSelectedFrameId
 getState
 (
 )
+cx
+.
 thread
 )
 ;
@@ -733,6 +738,11 @@ type
 "
 EVALUATE_EXPRESSION
 "
+cx
+thread
+:
+cx
+.
 thread
 input
 :
@@ -753,6 +763,10 @@ input
 )
 {
 frameId
+thread
+:
+cx
+.
 thread
 }
 )

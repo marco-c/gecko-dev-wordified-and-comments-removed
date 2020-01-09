@@ -108,6 +108,7 @@ Breakpoint
 Source
 SourceLocation
 XHRBreakpoint
+Context
 }
 from
 "
@@ -151,6 +152,9 @@ export
 function
 addHiddenBreakpoint
 (
+cx
+:
+Context
 location
 :
 SourceLocation
@@ -172,6 +176,7 @@ dispatch
 (
 addBreakpoint
 (
+cx
 location
 {
 hidden
@@ -188,6 +193,9 @@ export
 function
 disableBreakpointsInSource
 (
+cx
+:
+Context
 source
 :
 Source
@@ -240,6 +248,7 @@ dispatch
 (
 disableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -253,6 +262,9 @@ export
 function
 enableBreakpointsInSource
 (
+cx
+:
+Context
 source
 :
 Source
@@ -304,6 +316,7 @@ dispatch
 (
 enableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -317,6 +330,9 @@ export
 function
 toggleAllBreakpoints
 (
+cx
+:
+Context
 shouldDisableBreakpoints
 :
 boolean
@@ -363,6 +379,7 @@ dispatch
 (
 disableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -374,6 +391,7 @@ dispatch
 (
 enableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -387,6 +405,9 @@ export
 function
 toggleBreakpoints
 (
+cx
+:
+Context
 shouldDisableBreakpoints
 :
 boolean
@@ -425,6 +446,7 @@ dispatch
 (
 disableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -433,6 +455,7 @@ dispatch
 (
 enableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -453,6 +476,9 @@ export
 function
 toggleBreakpointsAtLine
 (
+cx
+:
+Context
 shouldDisableBreakpoints
 :
 boolean
@@ -477,7 +503,6 @@ ThunkArgs
 const
 breakpoints
 =
-await
 getBreakpointsAtLine
 (
 getState
@@ -491,6 +516,7 @@ dispatch
 (
 toggleBreakpoints
 (
+cx
 shouldDisableBreakpoints
 breakpoints
 )
@@ -503,6 +529,9 @@ export
 function
 removeAllBreakpoints
 (
+cx
+:
+Context
 )
 {
 return
@@ -544,6 +573,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 bp
 )
 )
@@ -557,6 +587,9 @@ export
 function
 removeBreakpoints
 (
+cx
+:
+Context
 breakpoints
 :
 Breakpoint
@@ -592,6 +625,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 bp
 )
 )
@@ -605,6 +639,9 @@ export
 function
 removeBreakpointsInSource
 (
+cx
+:
+Context
 source
 :
 Source
@@ -649,6 +686,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -661,6 +699,9 @@ export
 function
 remapBreakpoints
 (
+cx
+:
+Context
 sourceId
 :
 string
@@ -714,6 +755,7 @@ dispatch
 (
 addBreakpoint
 (
+cx
 bp
 .
 location
@@ -734,6 +776,9 @@ export
 function
 toggleBreakpointAtLine
 (
+cx
+:
+Context
 line
 :
 number
@@ -843,6 +888,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 bp
 )
 )
@@ -853,6 +899,7 @@ dispatch
 (
 addBreakpoint
 (
+cx
 {
 sourceId
 :
@@ -878,6 +925,9 @@ export
 function
 addBreakpointAtLine
 (
+cx
+:
+Context
 line
 :
 number
@@ -936,6 +986,7 @@ dispatch
 (
 addBreakpoint
 (
+cx
 {
 sourceId
 :
@@ -962,6 +1013,9 @@ export
 function
 removeBreakpointsAtLine
 (
+cx
+:
+Context
 sourceId
 :
 string
@@ -1001,6 +1055,7 @@ dispatch
 (
 removeBreakpoints
 (
+cx
 breakpointsAtLine
 )
 )
@@ -1012,6 +1067,9 @@ export
 function
 disableBreakpointsAtLine
 (
+cx
+:
+Context
 sourceId
 :
 string
@@ -1051,6 +1109,7 @@ dispatch
 (
 toggleBreakpoints
 (
+cx
 true
 breakpointsAtLine
 )
@@ -1063,6 +1122,9 @@ export
 function
 enableBreakpointsAtLine
 (
+cx
+:
+Context
 sourceId
 :
 string
@@ -1102,6 +1164,7 @@ dispatch
 (
 toggleBreakpoints
 (
+cx
 false
 breakpointsAtLine
 )
@@ -1114,6 +1177,9 @@ export
 function
 toggleDisabledBreakpoint
 (
+cx
+:
+Context
 breakpoint
 :
 Breakpoint
@@ -1146,6 +1212,7 @@ dispatch
 (
 disableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -1156,6 +1223,7 @@ dispatch
 (
 enableBreakpoint
 (
+cx
 breakpoint
 )
 )

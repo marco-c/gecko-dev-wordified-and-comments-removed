@@ -74,6 +74,7 @@ getHasSiblingOfSameName
 hasPrettySource
 as
 checkHasPrettySource
+getContext
 }
 from
 "
@@ -200,6 +201,7 @@ import
 type
 {
 Source
+Context
 }
 from
 "
@@ -216,6 +218,9 @@ type
 Props
 =
 {
+cx
+:
+Context
 debuggeeUrl
 :
 string
@@ -763,6 +768,7 @@ url
 ;
 const
 {
+cx
 source
 }
 =
@@ -848,6 +854,7 @@ props
 .
 toggleBlackBox
 (
+cx
 source
 )
 }
@@ -895,6 +902,7 @@ item
 ;
 const
 {
+cx
 projectRoot
 }
 =
@@ -946,6 +954,7 @@ props
 .
 clearProjectDirectoryRoot
 (
+cx
 )
 }
 )
@@ -990,6 +999,7 @@ props
 .
 setProjectDirectoryRoot
 (
+cx
 path
 )
 }
@@ -1491,6 +1501,12 @@ props
 ;
 return
 {
+cx
+:
+getContext
+(
+state
+)
 hasMatchingGeneratedSource
 :
 getHasMatchingGeneratedSource

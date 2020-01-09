@@ -104,6 +104,8 @@ type
 {
 Source
 SourceLocation
+Context
+ThreadContext
 }
 from
 "
@@ -146,6 +148,9 @@ const
 continueToHereItem
 =
 (
+cx
+:
+ThreadContext
 location
 :
 SourceLocation
@@ -188,6 +193,7 @@ editorActions
 .
 continueToHere
 (
+cx
 location
 .
 line
@@ -479,6 +485,9 @@ const
 jumpToMappedLocationItem
 =
 (
+cx
+:
+Context
 selectedSource
 :
 Source
@@ -584,6 +593,7 @@ editorActions
 .
 jumpToMappedLocation
 (
+cx
 location
 )
 }
@@ -593,6 +603,9 @@ const
 showSourceMenuItem
 =
 (
+cx
+:
+Context
 selectedSource
 :
 Source
@@ -657,6 +670,7 @@ editorActions
 .
 showSource
 (
+cx
 selectedSource
 .
 id
@@ -668,6 +682,9 @@ const
 blackBoxMenuItem
 =
 (
+cx
+:
+Context
 selectedSource
 :
 Source
@@ -746,6 +763,7 @@ editorActions
 .
 toggleBlackBox
 (
+cx
 selectedSource
 )
 }
@@ -755,6 +773,9 @@ const
 watchExpressionItem
 =
 (
+cx
+:
+ThreadContext
 selectedSource
 :
 Source
@@ -816,6 +837,7 @@ editorActions
 .
 addExpression
 (
+cx
 selectionText
 )
 }
@@ -953,6 +975,7 @@ function
 editorMenuItems
 (
 {
+cx
 editorActions
 selectedSource
 location
@@ -963,6 +986,9 @@ isPaused
 }
 :
 {
+cx
+:
+ThreadContext
 editorActions
 :
 EditorItemActions
@@ -999,6 +1025,7 @@ push
 (
 jumpToMappedLocationItem
 (
+cx
 selectedSource
 location
 hasPrettySource
@@ -1006,6 +1033,7 @@ editorActions
 )
 continueToHereItem
 (
+cx
 location
 isPaused
 editorActions
@@ -1047,11 +1075,13 @@ separator
 }
 showSourceMenuItem
 (
+cx
 selectedSource
 editorActions
 )
 blackBoxMenuItem
 (
+cx
 selectedSource
 editorActions
 )
@@ -1075,6 +1105,7 @@ separator
 }
 watchExpressionItem
 (
+cx
 selectedSource
 selectionText
 editorActions
