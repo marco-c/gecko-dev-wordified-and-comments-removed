@@ -524,8 +524,6 @@ layoutDirection
 smallestScreenSize
 |
 screenLayout
-|
-uiMode
 "
 android
 :
@@ -3225,8 +3223,6 @@ layoutDirection
 smallestScreenSize
 |
 screenLayout
-|
-uiMode
 "
 android
 :
