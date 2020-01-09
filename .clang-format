@@ -93,3 +93,12 @@ false
 IndentPPDirectives
 :
 AfterHash
+StatementMacros
+:
+[
+MARKUPMAP
+ASSERT_TRUE
+ASSERT_FALSE
+TEST
+CHECK
+]
