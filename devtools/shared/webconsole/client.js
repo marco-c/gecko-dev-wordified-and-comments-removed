@@ -884,7 +884,6 @@ evaluateJS
 function
 (
 string
-onResponse
 options
 =
 {
@@ -943,7 +942,6 @@ _client
 request
 (
 packet
-onResponse
 )
 ;
 }
@@ -952,7 +950,6 @@ evaluateJSAsync
 function
 (
 string
-onResponse
 options
 =
 {
@@ -1050,17 +1047,6 @@ resp
 =
 >
 {
-if
-(
-onResponse
-)
-{
-onResponse
-(
-resp
-)
-;
-}
 if
 (
 resp
