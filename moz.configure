@@ -4818,6 +4818,8 @@ return
 (
 llvm_objdump
 )
+llvm_objdump
+=
 check_prog
 (
 '
@@ -4842,6 +4844,13 @@ compile
 -
 environment
 '
+)
+add_old_configure_assignment
+(
+'
+LLVM_OBJDUMP
+'
+llvm_objdump
 )
 #
 Please
