@@ -57811,6 +57811,10 @@ JS_HAS_CTYPES
 if
 (
 !
+fuzzingSafe
+&
+&
+!
 JS_InitCTypesClass
 (
 cx
