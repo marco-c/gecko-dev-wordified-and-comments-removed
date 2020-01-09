@@ -244,12 +244,14 @@ vAlign
 ;
 [
 CEReactions
-TreatNullAs
-=
-EmptyString
 SetterThrows
 ]
 attribute
+[
+TreatNullAs
+=
+EmptyString
+]
 DOMString
 bgColor
 ;
