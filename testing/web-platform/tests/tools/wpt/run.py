@@ -3555,6 +3555,18 @@ files_changed
 (
             
 affected_revish
+            
+ignore_rules
+=
+[
+"
+resources
+/
+testharness
+*
+"
+]
+            
 include_uncommitted
 =
 True
