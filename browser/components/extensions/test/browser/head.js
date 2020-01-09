@@ -4018,6 +4018,12 @@ function
 getIncognitoWindow
 (
 url
+=
+"
+about
+:
+privatebrowsing
+"
 )
 {
 function
