@@ -35918,10 +35918,6 @@ aPresContext
 imgIContainer
 *
 aImage
-const
-CSSIntSize
-&
-aImageSize
 SamplingFilter
 aSamplingFilter
 const
