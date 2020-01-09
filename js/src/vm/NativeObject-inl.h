@@ -2824,7 +2824,10 @@ obj
 js
 :
 :
-AllocateObject
+Allocate
+<
+JSObject
+>
 (
 cx
 kind

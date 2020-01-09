@@ -345,8 +345,9 @@ NativeObject
 *
 >
 (
-AllocateObject
+Allocate
 <
+JSObject
 NoGC
 >
 (
