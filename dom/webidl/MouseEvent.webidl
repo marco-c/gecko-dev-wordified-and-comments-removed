@@ -503,6 +503,13 @@ and
 1
 .
 0
+[
+Deprecated
+=
+"
+MouseEvent_MozPressure
+"
+]
 readonly
 attribute
 float
