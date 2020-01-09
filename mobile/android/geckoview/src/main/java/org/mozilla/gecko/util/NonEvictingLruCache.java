@@ -38,7 +38,7 @@ ConcurrentHashMap
 K
 V
 >
-permanent
+mPermanent
 =
 new
 ConcurrentHashMap
@@ -56,7 +56,7 @@ LruCache
 K
 V
 >
-evictable
+mEvitable
 ;
 public
 NonEvictingLruCache
@@ -66,7 +66,7 @@ int
 evictableSize
 )
 {
-evictable
+mEvitable
 =
 new
 LruCache
@@ -91,7 +91,7 @@ key
 V
 val
 =
-permanent
+mPermanent
 .
 get
 (
@@ -107,7 +107,7 @@ null
 )
 {
 return
-evictable
+mEvitable
 .
 get
 (
@@ -131,7 +131,7 @@ V
 value
 )
 {
-permanent
+mPermanent
 .
 put
 (
@@ -152,7 +152,7 @@ V
 value
 )
 {
-evictable
+mEvitable
 .
 put
 (
@@ -167,7 +167,7 @@ evictAll
 (
 )
 {
-evictable
+mEvitable
 .
 evictAll
 (
