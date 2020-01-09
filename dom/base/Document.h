@@ -5669,6 +5669,16 @@ IsScriptEnabled
 )
 ;
 bool
+HasPrototypeDocument
+(
+)
+const
+{
+return
+mPrototypeDocument
+;
+}
+bool
 IsTopLevelContentDocument
 (
 )

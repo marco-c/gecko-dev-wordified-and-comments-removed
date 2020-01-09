@@ -614,6 +614,11 @@ ResumeWalk
 )
 ;
 nsresult
+ResumeWalkInternal
+(
+)
+;
+nsresult
 MaybeDoneWalking
 (
 )
