@@ -7344,6 +7344,8 @@ attlistDeclHandler
 attdecl
 ;
 }
+#
+endif
 void
 XMLCALL
 XML_SetEntityDeclHandler
@@ -7366,8 +7368,6 @@ entityDeclHandler
 handler
 ;
 }
-#
-endif
 void
 XMLCALL
 XML_SetXmlDeclHandler
