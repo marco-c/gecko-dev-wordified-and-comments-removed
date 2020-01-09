@@ -56,6 +56,8 @@ x11
 \
 earlyoom
 \
+fluxbox
+\
 gdebi
 \
 git

@@ -262,3 +262,9 @@ x
 SCREEN_DEPTH
 }
 &
+sudo
+fluxbox
+-
+display
+DISPLAY
+&
