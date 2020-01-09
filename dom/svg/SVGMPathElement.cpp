@@ -350,7 +350,9 @@ rv
 ;
 if
 (
-aDocument
+IsInComposedDoc
+(
+)
 )
 {
 const
@@ -501,7 +503,7 @@ nsGkAtoms
 href
 &
 &
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )

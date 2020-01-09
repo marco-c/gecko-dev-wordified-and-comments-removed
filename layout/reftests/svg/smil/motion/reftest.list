@@ -338,3 +338,15 @@ svg
 lime
 .
 svg
+=
+=
+animateMotion
+-
+mpath
+-
+shadow
+.
+svg
+lime
+.
+svg
