@@ -1542,11 +1542,6 @@ artifactName
 '
 results
 '
-condition
-:
-succeededOrFailed
-(
-)
 #
 The
 InvokeRESTAPI
