@@ -4023,6 +4023,7 @@ template
 XDRMode
 mode
 >
+static
 MOZ_MUST_USE
 XDRResult
 performXDR
@@ -4033,6 +4034,9 @@ mode
 >
 *
 xdr
+ScriptSource
+*
+ss
 )
 ;
 private
