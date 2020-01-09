@@ -5612,6 +5612,11 @@ BrowsingContextGroup
 aGroup
 )
 ;
+void
+UpdateNetworkLinkType
+(
+)
+;
 private
 :
 RefPtr

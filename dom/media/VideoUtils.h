@@ -2255,6 +2255,11 @@ aSrc
 ;
 }
 }
+bool
+OnCellularConnection
+(
+)
+;
 }
 #
 endif
