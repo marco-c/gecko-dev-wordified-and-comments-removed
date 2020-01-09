@@ -3410,7 +3410,7 @@ side
 *
 /
 required
-ByteString
+DOMString
 moduleURI
 ;
 }

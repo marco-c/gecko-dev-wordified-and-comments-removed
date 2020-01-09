@@ -2947,14 +2947,6 @@ attribute
 boolean
 hasOpenerForInitialContentBrowser
 ;
-[
-ChromeOnly
-]
-WindowGlobalChild
-getWindowGlobalChild
-(
-)
-;
 }
 ;
 Window
