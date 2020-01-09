@@ -503,9 +503,6 @@ frameOuterWindowID
 uint64_t
 browsingContextID
 ;
-uint64_t
-frameBrowsingContextID
-;
 bool
 initialSecurityCheckDone
 ;
