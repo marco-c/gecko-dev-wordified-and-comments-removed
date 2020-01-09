@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 array
 import
@@ -236,6 +240,7 @@ new_disabled
 :
                         
 print
+(
 "
 disabled
 :
@@ -263,6 +268,7 @@ test_path
 subtest
 .
 name
+)
                     
 if
 test
@@ -271,6 +277,7 @@ new_disabled
 :
                         
 print
+(
 "
 disabled
 :
@@ -283,6 +290,7 @@ test
 root
 .
 test_path
+)
 def
 do_delayed_imports
 (
@@ -2351,6 +2359,7 @@ KeyError
 :
             
 print
+(
 "
 Test
 not
@@ -2361,6 +2370,7 @@ skipping
 "
 %
 test_id
+)
             
 return
         

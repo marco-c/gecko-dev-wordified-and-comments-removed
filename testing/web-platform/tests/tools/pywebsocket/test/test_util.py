@@ -9,6 +9,10 @@ module
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -1267,6 +1271,7 @@ source
 )
         
 print
+(
 "
 Input
 chunk
@@ -1286,6 +1291,7 @@ c
 in
 chunked_input
 ]
+)
         
 deflater
 =
