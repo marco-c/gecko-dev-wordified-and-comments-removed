@@ -778,9 +778,9 @@ EOL
 :
 html
 /
-form
--
-elements
+semantics
+/
+forms
 /
 the
 -
@@ -801,9 +801,9 @@ EOL
 :
 html
 /
-form
--
-elements
+semantics
+/
+forms
 /
 the
 -
