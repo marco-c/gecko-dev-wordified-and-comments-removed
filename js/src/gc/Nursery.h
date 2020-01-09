@@ -2303,6 +2303,16 @@ GCReason
 reason
 )
 ;
+bool
+maybeResizeExact
+(
+JS
+:
+:
+GCReason
+reason
+)
+;
 void
 growAllocableSpace
 (
