@@ -13218,7 +13218,7 @@ aGivenProto
 )
 )
 ;
-MOZ_ASSERT_IF
+if
 (
 obj
 &
@@ -13226,6 +13226,10 @@ obj
 ChromeOnlyAccess
 (
 )
+)
+{
+MOZ_RELEASE_ASSERT
+(
 JS
 :
 :
@@ -13264,6 +13268,7 @@ obj
 )
 )
 ;
+}
 return
 obj
 ;
