@@ -78,6 +78,17 @@ shared
 quantum_render
 "
 ]
+webrender_debugger
+=
+[
+"
+gkrust
+-
+shared
+/
+webrender_debugger
+"
+]
 cubeb
 -
 remoting
