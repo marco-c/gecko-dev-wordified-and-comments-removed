@@ -1176,11 +1176,6 @@ UnregisterTarget
 (
 )
 ;
-void
-MaybeUpdateFrameForCompositor
-(
-)
-;
 enum
 class
 Flush
