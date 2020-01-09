@@ -763,15 +763,6 @@ if
 animation
 -
 >
-IsRelevant
-(
-)
-&
-&
-!
-animation
--
->
 NeedsTicks
 (
 )
