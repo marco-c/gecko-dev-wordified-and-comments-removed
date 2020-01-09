@@ -61,7 +61,7 @@ classnames
 ;
 import
 {
-debounce
+throttle
 }
 from
 "
@@ -1675,14 +1675,14 @@ line
 ;
 onEditorScroll
 =
-debounce
+throttle
 (
 this
 .
 props
 .
 updateViewport
-200
+100
 )
 ;
 onKeyDown
