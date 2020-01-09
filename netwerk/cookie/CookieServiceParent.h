@@ -158,6 +158,10 @@ bool
 &
 aFirstPartyStorageAccessGranted
 const
+uint32_t
+&
+aRejectedReason
+const
 OriginAttributes
 &
 aAttrs
@@ -200,6 +204,10 @@ const
 bool
 &
 aFirstPartyStorageAccessGranted
+const
+uint32_t
+&
+aRejectedReason
 const
 bool
 &

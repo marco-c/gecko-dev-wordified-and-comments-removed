@@ -885,6 +885,11 @@ firstPartyStorageAccessGranted
 =
 false
 ;
+uint32_t
+rejectedReason
+=
+0
+;
 nsCOMPtr
 <
 nsIURI
@@ -959,11 +964,6 @@ httpChannel
 IsTrackingResource
 (
 )
-;
-uint32_t
-rejectedReason
-=
-0
 ;
 if
 (
@@ -1065,6 +1065,7 @@ uriParams
 isForeign
 isTrackingResource
 firstPartyStorageAccessGranted
+rejectedReason
 isSafeTopLevelNav
 isSameSiteForeign
 attrs
@@ -1787,6 +1788,8 @@ bool
 aIsTrackingResource
 bool
 aFirstPartyStorageAccessGranted
+uint32_t
+aRejectedReason
 bool
 aIsSafeTopLevelNav
 bool
@@ -2000,7 +2003,8 @@ baseDomain
 attrs
 )
 attrs
-nullptr
+&
+aRejectedReason
 )
 ;
 if
@@ -2991,6 +2995,11 @@ firstPartyStorageAccessGranted
 =
 false
 ;
+uint32_t
+rejectedReason
+=
+0
+;
 nsCOMPtr
 <
 nsIHttpChannel
@@ -3028,7 +3037,8 @@ IsFirstPartyStorageAccessGrantedFor
 (
 httpChannel
 aHostURI
-nullptr
+&
+rejectedReason
 )
 )
 {
@@ -3064,6 +3074,7 @@ aHostURI
 isForeign
 isTrackingResource
 firstPartyStorageAccessGranted
+rejectedReason
 isSafeTopLevelNav
 isSameSiteForeign
 aChannel
@@ -3204,6 +3215,11 @@ firstPartyStorageAccessGranted
 =
 false
 ;
+uint32_t
+rejectedReason
+=
+0
+;
 nsCOMPtr
 <
 nsIHttpChannel
@@ -3241,7 +3257,8 @@ IsFirstPartyStorageAccessGrantedFor
 (
 httpChannel
 aHostURI
-nullptr
+&
+rejectedReason
 )
 )
 {
@@ -3379,6 +3396,7 @@ optionalLoadInfoArgs
 isForeign
 isTrackingResource
 firstPartyStorageAccessGranted
+rejectedReason
 attrs
 cookieString
 stringServerTime
@@ -3439,7 +3457,8 @@ baseDomain
 attrs
 )
 attrs
-nullptr
+&
+rejectedReason
 )
 ;
 if
