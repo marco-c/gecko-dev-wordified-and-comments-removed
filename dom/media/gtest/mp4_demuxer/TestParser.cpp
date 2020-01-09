@@ -2686,7 +2686,7 @@ if
 0
 TEST
 (
-MPEG4Metadata
+MP4Metadata
 test_case_mp4_subsets
 )
 {
