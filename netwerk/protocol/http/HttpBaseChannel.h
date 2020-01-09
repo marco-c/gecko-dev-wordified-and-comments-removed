@@ -1576,7 +1576,7 @@ aBeConservative
 override
 ;
 NS_IMETHOD
-GetTrr
+GetIsTRRServiceChannel
 (
 bool
 *
@@ -1585,7 +1585,7 @@ aTRR
 override
 ;
 NS_IMETHOD
-SetTrr
+SetIsTRRServiceChannel
 (
 bool
 aTRR
@@ -3237,7 +3237,7 @@ mBeConservative
 1
 ;
 uint32_t
-mTRR
+mIsTRRServiceChannel
 :
 1
 ;

@@ -3160,7 +3160,7 @@ NS_HTTP_DISALLOW_SPDY
 }
 if
 (
-mTRR
+mIsTRRServiceChannel
 )
 {
 mCaps
@@ -3243,9 +3243,9 @@ mTlsFlags
 mConnectionInfo
 -
 >
-SetTrrUsed
+SetIsTrrServiceChannel
 (
-mTRR
+mIsTRRServiceChannel
 )
 ;
 mConnectionInfo
@@ -18708,7 +18708,7 @@ mPostID
 }
 if
 (
-mTRR
+mIsTRRServiceChannel
 )
 {
 extension
