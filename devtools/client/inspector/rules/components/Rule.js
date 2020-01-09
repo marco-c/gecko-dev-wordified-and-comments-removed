@@ -139,6 +139,13 @@ propTypes
 {
 return
 {
+onToggleDeclaration
+:
+PropTypes
+.
+func
+.
+isRequired
 rule
 :
 PropTypes
@@ -160,6 +167,7 @@ render
 {
 const
 {
+onToggleDeclaration
 rule
 }
 =
@@ -249,6 +257,7 @@ Declarations
 (
 {
 declarations
+onToggleDeclaration
 }
 )
 dom
