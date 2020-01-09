@@ -559,7 +559,7 @@ addonID
 )
 {
 const
-addonTargetFront
+addonFront
 =
 await
 gClient
@@ -573,6 +573,16 @@ id
 :
 addonID
 }
+)
+;
+const
+addonTargetFront
+=
+await
+addonFront
+.
+connect
+(
 )
 ;
 await

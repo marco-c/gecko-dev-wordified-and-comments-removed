@@ -595,7 +595,7 @@ connect
 )
 ;
 const
-addonTargetFront
+addonFront
 =
 await
 client
@@ -609,6 +609,16 @@ id
 :
 addonId
 }
+)
+;
+const
+addonTargetFront
+=
+await
+addonFront
+.
+connect
+(
 )
 ;
 if

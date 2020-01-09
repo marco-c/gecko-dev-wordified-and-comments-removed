@@ -209,7 +209,7 @@ client
 )
 {
 const
-addonTargetFront
+addonFront
 =
 await
 client
@@ -221,6 +221,16 @@ getAddon
 {
 id
 }
+)
+;
+const
+addonTargetFront
+=
+await
+addonFront
+.
+connect
+(
 )
 ;
 closeToolbox
