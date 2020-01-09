@@ -18,12 +18,15 @@ nsDebug
 .
 h
 "
+namespace
+mozilla
+{
 class
-nsSMILTimeValue
+SMILTimeValue
 {
 public
 :
-nsSMILTimeValue
+SMILTimeValue
 (
 )
 :
@@ -38,7 +41,7 @@ STATE_UNRESOLVED
 {
 }
 explicit
-nsSMILTimeValue
+SMILTimeValue
 (
 nsSMILTime
 aMillis
@@ -55,12 +58,12 @@ STATE_DEFINITE
 {
 }
 static
-nsSMILTimeValue
+SMILTimeValue
 Indefinite
 (
 )
 {
-nsSMILTimeValue
+SMILTimeValue
 value
 ;
 value
@@ -196,7 +199,7 @@ int8_t
 CompareTo
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -208,7 +211,7 @@ operator
 =
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -230,7 +233,7 @@ operator
 =
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -251,7 +254,7 @@ operator
 <
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -271,7 +274,7 @@ operator
 >
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -292,7 +295,7 @@ operator
 =
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -314,7 +317,7 @@ operator
 =
 (
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aOther
 )
@@ -350,5 +353,6 @@ mState
 ;
 }
 ;
+}
 #
 endif

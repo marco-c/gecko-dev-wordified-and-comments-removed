@@ -45,12 +45,12 @@ nsTPriorityQueue
 .
 h
 "
-class
-nsSMILTimeValue
-;
 namespace
 mozilla
 {
+class
+SMILTimeValue
+;
 class
 SMILTimeContainer
 {
@@ -153,7 +153,7 @@ GetParentTime
 )
 const
 ;
-nsSMILTimeValue
+SMILTimeValue
 ContainerToParentTime
 (
 nsSMILTime
@@ -161,7 +161,7 @@ aContainerTime
 )
 const
 ;
-nsSMILTimeValue
+SMILTimeValue
 ParentToContainerTime
 (
 nsSMILTime

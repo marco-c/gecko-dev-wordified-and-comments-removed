@@ -469,7 +469,7 @@ FlushAnimations
 (
 )
 ;
-nsSMILTimeValue
+SMILTimeValue
 startTime
 =
 mTimedElement
@@ -572,7 +572,7 @@ ErrorResult
 rv
 )
 {
-nsSMILTimeValue
+SMILTimeValue
 simpleDur
 =
 mTimedElement
@@ -1350,7 +1350,7 @@ FlushAnimations
 (
 )
 ;
-nsSMILTimeValue
+SMILTimeValue
 seekTime
 =
 mTimedElement

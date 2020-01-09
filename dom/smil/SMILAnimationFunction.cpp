@@ -704,7 +704,7 @@ SampleAt
 nsSMILTime
 aSampleTime
 const
-nsSMILTimeValue
+SMILTimeValue
 &
 aSimpleDuration
 uint32_t

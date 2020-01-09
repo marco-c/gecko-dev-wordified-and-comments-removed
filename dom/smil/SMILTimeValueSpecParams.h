@@ -7,7 +7,9 @@ NS_SMILTIMEVALUESPECPARAMS_H_
 #
 include
 "
-nsSMILTimeValue
+mozilla
+/
+SMILTimeValue
 .
 h
 "
@@ -18,12 +20,15 @@ nsAtom
 .
 h
 "
+namespace
+mozilla
+{
 class
-nsSMILTimeValueSpecParams
+SMILTimeValueSpecParams
 {
 public
 :
-nsSMILTimeValueSpecParams
+SMILTimeValueSpecParams
 (
 )
 :
@@ -52,7 +57,7 @@ INDEFINITE
 }
 mType
 ;
-nsSMILTimeValue
+SMILTimeValue
 mOffset
 ;
 RefPtr
@@ -75,5 +80,6 @@ mRepeatIteration
 ;
 }
 ;
+}
 #
 endif

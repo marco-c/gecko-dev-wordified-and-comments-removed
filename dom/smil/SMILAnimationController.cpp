@@ -2199,7 +2199,7 @@ container
 )
 continue
 ;
-nsSMILTimeValue
+SMILTimeValue
 containerTimeValue
 =
 container
