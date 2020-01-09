@@ -1597,12 +1597,6 @@ mSubmitInitiatedFromUserInput
 bool
 mEverTriedInvalidSubmit
 ;
-protected
-:
-static
-bool
-gFirstFormSubmitted
-;
 private
 :
 ~
