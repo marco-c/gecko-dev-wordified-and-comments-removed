@@ -5471,7 +5471,7 @@ buf
 ArrayBufferObject
 :
 :
-create
+createZeroed
 (
 cx
 cs

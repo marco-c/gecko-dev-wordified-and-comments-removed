@@ -10128,7 +10128,7 @@ cx
 ArrayBufferObject
 :
 :
-create
+createForContents
 (
 cx
 length
@@ -39001,7 +39001,7 @@ cx
 ArrayBufferObject
 :
 :
-create
+createZeroed
 (
 cx
 bytes
