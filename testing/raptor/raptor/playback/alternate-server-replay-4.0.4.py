@@ -5,6 +5,10 @@ urllib
 import
 typing
 from
+urllib
+import
+parse
+from
 mitmproxy
 import
 command
@@ -454,9 +458,14 @@ parse
 .
 urlparse
 (
+parse
+.
+unquote
+(
 r
 .
 url
+)
 )
         
 queriesArray
