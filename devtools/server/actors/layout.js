@@ -1846,15 +1846,6 @@ parentNode
 )
 )
 {
-if
-(
-!
-currentNode
-)
-{
-break
-;
-}
 const
 displayType
 =
