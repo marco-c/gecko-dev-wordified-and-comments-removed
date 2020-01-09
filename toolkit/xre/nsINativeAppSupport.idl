@@ -453,11 +453,6 @@ enable
 )
 ;
 void
-quit
-(
-)
-;
-void
 onLastWindowClosing
 (
 )

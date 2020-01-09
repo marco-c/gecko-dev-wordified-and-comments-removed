@@ -7264,13 +7264,6 @@ aBlankCommandLine
 false
 )
 {
-aNative
--
->
-Quit
-(
-)
-;
 #
 ifdef
 MOZ_JPROF
@@ -22176,12 +22169,6 @@ gShutdownChecks
 SCM_NOTHING
 ;
 }
-if
-(
-!
-mShuttingDown
-)
-{
 #
 if
 defined
@@ -22203,7 +22190,6 @@ ShutdownServer
 }
 #
 endif
-}
 mScopedXPCOM
 =
 nullptr
