@@ -945,10 +945,10 @@ GetJSObject
 (
 )
 ;
-mClass
--
->
-GetRuntime
+XPCJSRuntime
+:
+:
+Get
 (
 )
 -
