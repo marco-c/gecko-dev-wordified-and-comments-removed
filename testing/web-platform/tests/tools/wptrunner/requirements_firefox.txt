@@ -11,7 +11,7 @@ mozprofile
 =
 2
 .
-1
+2
 .
 0
 mozprocess
