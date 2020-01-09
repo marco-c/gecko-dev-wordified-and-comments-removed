@@ -1,8 +1,3 @@
-const
-STATE_AFTER_RUNUPDATE
-=
-STATE_FAILED_INVALID_CALLBACK_PATH_ERROR
-;
 async
 function
 run_test
@@ -20,6 +15,11 @@ setupTestCommon
 return
 ;
 }
+const
+STATE_AFTER_RUNUPDATE
+=
+STATE_FAILED_INVALID_CALLBACK_PATH_ERROR
+;
 gTestFiles
 =
 gTestFilesCompleteSuccess
