@@ -2656,19 +2656,6 @@ wm
 finalSize
 )
 ;
-if
-(
-!
-aReflowInput
-.
-mStyleDisplay
--
->
-IsContainLayout
-(
-)
-)
-{
 nscoord
 lineHeight
 =
@@ -2767,7 +2754,6 @@ SetBlockStartAscent
 mFirstBaseline
 )
 ;
-}
 aDesiredSize
 .
 SetOverflowAreasToDesiredBounds
