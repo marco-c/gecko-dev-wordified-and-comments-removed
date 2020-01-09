@@ -4181,8 +4181,7 @@ aDevToCssSize
 )
 ;
 }
-gfxFontFamily
-*
+FontFamily
 gfxGDIFontList
 :
 :
@@ -4254,7 +4253,10 @@ ff
 )
 {
 return
+FontFamily
+(
 ff
+)
 ;
 }
 }
@@ -4304,7 +4306,10 @@ lfFaceName
 ;
 }
 return
+FontFamily
+(
 ff
+)
 ;
 }
 void

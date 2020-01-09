@@ -7985,8 +7985,7 @@ serif
 )
 ;
 }
-gfxFontFamily
-*
+FontFamily
 gfxFcPlatformFontList
 :
 :
@@ -8056,7 +8055,9 @@ prefFonts
 ;
 }
 return
-nullptr
+FontFamily
+(
+)
 ;
 }
 gfxFontEntry
@@ -9369,10 +9370,6 @@ AppendElement
 FamilyAndGeneric
 (
 f
-.
-get
-(
-)
 aGenericType
 )
 )

@@ -8925,8 +8925,7 @@ const
 gfxFontStyle
 *
 aMatchStyle
-gfxFontFamily
-*
+FontFamily
 *
 aMatchedFamily
 )
@@ -9265,7 +9264,10 @@ aCh
 *
 aMatchedFamily
 =
+FontFamily
+(
 family
+)
 ;
 }
 else
@@ -9325,8 +9327,7 @@ return
 fontEntry
 ;
 }
-gfxFontFamily
-*
+FontFamily
 gfxMacPlatformFontList
 :
 :
@@ -9368,11 +9369,14 @@ familyName
 )
 ;
 return
+FontFamily
+(
 FindFamily
 (
 NS_ConvertUTF16toUTF8
 (
 familyName
+)
 )
 )
 ;

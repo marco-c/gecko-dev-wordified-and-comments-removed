@@ -3770,10 +3770,7 @@ gfxTextRun
 >
 mCachedEllipsisTextRun
 ;
-RefPtr
-<
-gfxFontFamily
->
+FontFamily
 mLastPrefFamily
 ;
 RefPtr

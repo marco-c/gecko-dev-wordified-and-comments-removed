@@ -392,10 +392,7 @@ Script
 typedef
 nsTArray
 <
-RefPtr
-<
-gfxFontFamily
->
+FontFamily
 >
 PrefFontList
 ;
@@ -657,8 +654,7 @@ mExtraNames
 nullptr
 ;
 }
-gfxFontFamily
-*
+FontFamily
 GetDefaultFont
 (
 const
@@ -1410,6 +1406,8 @@ families
 ]
 .
 mFamily
+.
+mUnshared
 :
 nullptr
 ;
@@ -1476,8 +1474,7 @@ const
 gfxFontStyle
 *
 aMatchStyle
-gfxFontFamily
-*
+FontFamily
 *
 aMatchedFamily
 )
@@ -1498,8 +1495,7 @@ aMatchStyle
 uint32_t
 &
 aCmapCount
-gfxFontFamily
-*
+FontFamily
 *
 aMatchedFamily
 )
@@ -1518,8 +1514,7 @@ const
 gfxFontStyle
 *
 aMatchStyle
-gfxFontFamily
-*
+FontFamily
 *
 aMatchedFamily
 )
@@ -1815,8 +1810,7 @@ aMallocSizeOf
 )
 ;
 virtual
-gfxFontFamily
-*
+FontFamily
 GetDefaultFontForPlatform
 (
 const
@@ -1959,10 +1953,7 @@ mEmojiPrefFont
 gfxSparseBitSet
 mCodepointsWithNoFonts
 ;
-RefPtr
-<
-gfxFontFamily
->
+FontFamily
 mReplacementCharFallbackFamily
 ;
 nsTArray

@@ -1510,9 +1510,7 @@ const
 ;
 protected
 :
-virtual
-gfxFontFamily
-*
+FontFamily
 GetDefaultFontForPlatform
 (
 const
@@ -1535,8 +1533,7 @@ const
 gfxFontStyle
 *
 aMatchStyle
-gfxFontFamily
-*
+FontFamily
 *
 aMatchedFamily
 )

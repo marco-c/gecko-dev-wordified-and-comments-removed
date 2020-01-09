@@ -8130,8 +8130,7 @@ return
 fe
 ;
 }
-gfxFontFamily
-*
+FontFamily
 gfxFT2FontList
 :
 :
@@ -8190,7 +8189,10 @@ Sans
 #
 endif
 return
+FontFamily
+(
 ff
+)
 ;
 }
 gfxFontEntry
