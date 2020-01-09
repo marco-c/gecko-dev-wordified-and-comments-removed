@@ -681,22 +681,29 @@ get_hg_revision_branch
 '
 )
     
+patch
+(
+'
+taskgraph
+.
+decision
+.
+get_hg_commit_message
+'
+)
+    
 def
 test_try_options
 (
 self
+mock_get_hg_commit_message
 _
 )
 :
         
-self
+mock_get_hg_commit_message
 .
-options
-[
-'
-message
-'
-]
+return_value
 =
 '
 try

@@ -78,6 +78,7 @@ util
 hg
 import
 get_hg_revision_branch
+get_hg_commit_message
 from
 taskgraph
 .
@@ -1023,10 +1024,6 @@ head_ref
 '
         
 '
-message
-'
-        
-'
 project
 '
         
@@ -1180,6 +1177,18 @@ app_version
 get_app_version
 (
 product_dir
+)
+    
+parameters
+[
+'
+message
+'
+]
+=
+get_hg_commit_message
+(
+GECKO
 )
     
 parameters
