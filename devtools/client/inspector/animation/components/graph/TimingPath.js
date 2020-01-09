@@ -194,13 +194,13 @@ Math
 .
 min
 (
-iterationCount
 1
-)
 -
 iterationStart
 %
 1
+iterationCount
+)
 ;
 if
 (
