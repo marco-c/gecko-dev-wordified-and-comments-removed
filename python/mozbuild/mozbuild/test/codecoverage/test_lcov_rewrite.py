@@ -2193,6 +2193,7 @@ application
 +
 app_name
 +
+             
 '
 /
 '
@@ -2236,6 +2237,7 @@ application
 +
 app_name
 +
+             
 '
 /
 browser
@@ -2452,6 +2454,7 @@ osfile_async_worker
 .
 js
 '
+             
 (
 '
 toolkit
@@ -2486,6 +2489,7 @@ PrefsFeed
 .
 jsm
 '
+             
 (
 '
 browser
@@ -2518,6 +2522,7 @@ netError
 .
 xhtml
 '
+             
 (
 '
 browser
@@ -2611,6 +2616,7 @@ osfile_async_worker
 .
 js
 '
+             
 (
 '
 toolkit
@@ -2702,6 +2708,7 @@ q
 .
 9098419174803978
 '
+             
 (
 '
 browser

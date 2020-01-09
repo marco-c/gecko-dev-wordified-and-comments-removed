@@ -105,7 +105,7 @@ gyp
 .
 __file__
 )
-    
+                                          
 '
 .
 .
@@ -344,7 +344,7 @@ template
 '
 Gyp
 '
-            
+                                 
 allowed_variables
 =
 VARIABLES
@@ -428,6 +428,7 @@ outputs
 raise
 NotImplementedError
 (
+                
 '
 GYP
 actions
@@ -466,6 +467,7 @@ idir
 raise
 NotImplementedError
 (
+                
 '
 GYP
 actions
@@ -587,6 +589,7 @@ dist
 raise
 NotImplementedError
 (
+                
 '
 GYP
 copies
@@ -759,7 +762,7 @@ dirname
 (
 build_file
 )
-                                  
+                                 
 mozpath
 .
 dirname
@@ -959,7 +962,7 @@ actions
 in
 spec
 :
-          
+            
 handle_actions
 (
 spec
@@ -979,7 +982,7 @@ copies
 in
 spec
 :
-          
+            
 handle_copies
 (
 spec
@@ -1130,7 +1133,7 @@ l
 in
 libs
 :
-          
+            
 if
 l
 .
@@ -1141,14 +1144,14 @@ startswith
 '
 )
 :
-              
+                
 os_libs
 .
 append
 (
 l
 )
-          
+            
 elif
 l
 .
@@ -1160,7 +1163,7 @@ lib
 '
 )
 :
-              
+                
 os_libs
 .
 append
@@ -1172,11 +1175,11 @@ l
 4
 ]
 )
-          
+            
 elif
 l
 :
-            
+                
 use_libs
 .
 append
@@ -1204,7 +1207,7 @@ type
 none
 '
 :
-          
+            
 if
 not
 (
@@ -1221,7 +1224,7 @@ in
 spec
 )
 :
-            
+                
 continue
         
 elif
@@ -1507,7 +1510,7 @@ INTERMEDIATE_DIR
 '
 )
 :
-                  
+                    
 s
 =
 ObjDirPath
@@ -1529,7 +1532,7 @@ INTERMEDIATE_DIR
                 
 else
 :
-                  
+                    
 s
 =
 SourcePath
@@ -1920,6 +1923,7 @@ mozpath
 .
 join
 (
+                            
 mozpath
 .
 dirname
@@ -2232,7 +2236,7 @@ if
 not
 no_chromium
 :
-          
+            
 context
 [
 '
@@ -2242,7 +2246,7 @@ LOCAL_INCLUDES
 +
 =
 [
-              
+                
 '
 !
 /
@@ -2252,7 +2256,7 @@ ipdl
 /
 _ipdlheaders
 '
-              
+                
 '
 /
 ipc
@@ -2261,16 +2265,16 @@ chromium
 /
 src
 '
-              
+                
 '
 /
 ipc
 /
 glue
 '
-          
+            
 ]
-          
+            
 if
 config
 .
@@ -2286,7 +2290,7 @@ OS_TARGET
 WINNT
 '
 :
-              
+                
 context
 [
 '
@@ -2300,7 +2304,7 @@ UNICODE
 ]
 =
 True
-              
+                
 context
 [
 '

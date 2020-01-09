@@ -1086,7 +1086,7 @@ noted
 in
 a
 '
-                
+                            
 '
 test
 manifest
@@ -1105,7 +1105,7 @@ n
 s
 "
 '
-                
+                            
 '
 must
 appear
@@ -1118,7 +1118,7 @@ specify
 an
 install
 '
-                
+                            
 '
 for
 "

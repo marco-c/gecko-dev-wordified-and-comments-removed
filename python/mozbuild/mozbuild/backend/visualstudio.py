@@ -528,7 +528,6 @@ _process_unified_sources
 (
 obj
 )
-;
         
 elif
 isinstance
@@ -747,7 +746,7 @@ _write_projects_for_sources
 self
 .
 _libs_to_paths
-            
+                                                    
 "
 library
 "
@@ -765,7 +764,7 @@ _write_projects_for_sources
 self
 .
 _progs_to_paths
-            
+                                                         
 "
 binary
 "
@@ -844,11 +843,11 @@ _write_vs_project
 out_proj_dir
 basename
 target
-                
+                                                
 build_command
 =
 command
-                
+                                                
 clean_command
 =
 '
@@ -895,7 +894,7 @@ visual
 -
 studio
 '
-            
+                                            
 build_command
 =
 '
@@ -1238,7 +1237,7 @@ join
 TopSrcDir
 )
 '
-                
+                                                     
 path
 f
 )
@@ -1349,7 +1348,7 @@ NSS_CFLAGS
 '
 MOZ_JPEG_CFLAGS
 '
-                    
+                      
 '
 MOZ_PNG_CFLAGS
 '
@@ -1663,14 +1662,15 @@ _write_vs_project
 out_dir
 basename
 item
-                
+                                                
 includes
 =
 includes
-                
+                                                
 forced_includes
 =
 [
+                                                    
 '
 (
 TopObjDir
@@ -1690,19 +1690,19 @@ config
 h
 '
 ]
-                
+                                                
 defines
 =
 defines
-                
+                                                
 headers
 =
 headers
-                
+                                                
 sources
 =
 sources
-                
+                                                
 debugger
 =
 debugger
@@ -3144,7 +3144,7 @@ self
 environment
 .
 topsrcdir
-            
+                                  
 self
 .
 environment
@@ -3268,7 +3268,7 @@ env
 :
 TOPOBJDIR
 '
-            
+                 
 b
 '
 -
@@ -3286,14 +3286,14 @@ bin
 \
 bash
 '
-            
+                 
 b
 '
 -
 ArgumentList
 procargs
 '
-            
+                 
 b
 '
 -
@@ -3432,7 +3432,7 @@ self
 environment
 .
 topsrcdir
-            
+                                  
 self
 .
 environment
@@ -3474,7 +3474,7 @@ bin
 bash
 "
 '
-            
+                 
 b
 '
 -
@@ -3590,7 +3590,7 @@ VisualStudioBackend
 write_vs_project
 (
 fh
-                
+                                                                    
 self
 .
 _version
@@ -3690,7 +3690,7 @@ r
 n
 '
 %
-                
+                     
 MSBUILD_NAMESPACE
 )
             
@@ -3726,7 +3726,7 @@ includes
 =
 [
 ]
-        
+                         
 forced_includes
 =
 [
@@ -3735,14 +3735,14 @@ defines
 =
 [
 ]
-        
+                         
 build_command
 =
 None
 clean_command
 =
 None
-        
+                         
 debugger
 =
 None
@@ -4111,6 +4111,7 @@ doc
 .
 createTextNode
 (
+            
 visual_studio_product_to_platform_toolset_version
 (
 version

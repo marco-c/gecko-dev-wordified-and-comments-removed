@@ -9371,7 +9371,7 @@ self
 assertRaisesRegexp
 (
 InvalidOptionError
-            
+                                     
 "
 -
 -
@@ -9427,7 +9427,7 @@ self
 assertRaisesRegexp
 (
 InvalidOptionError
-            
+                                     
 "
 BAZ
 =

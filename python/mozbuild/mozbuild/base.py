@@ -1074,7 +1074,7 @@ object
 directory
 appears
 '
-                    
+                                              
 '
 to
 be
@@ -1092,7 +1092,7 @@ s
 This
 build
 '
-                    
+                                              
 '
 configuration
 is
@@ -1167,7 +1167,7 @@ replace
 '
 CONFIG_GUESS
 '
-                
+                                          
 self
 .
 resolve_config_guess
@@ -1590,7 +1590,7 @@ VirtualenvManager
 self
 .
 topsrcdir
-                
+                                                         
 self
 .
 topobjdir
@@ -1600,6 +1600,7 @@ path
 .
 join
 (
+                                                             
 self
 .
 topobjdir
@@ -1610,7 +1611,7 @@ _virtualenvs
 init
 '
 )
-                
+                                                         
 sys
 .
 stdout
@@ -1626,7 +1627,7 @@ topsrcdir
 '
 build
 '
-                
+                                                                                  
 '
 virtualenv_packages
 .
@@ -3457,7 +3458,6 @@ XUL
 framework
 '
 )
-;
             
 else
 :
@@ -3480,7 +3480,7 @@ MOZ_MACBUNDLE_NAME
 '
 Contents
 '
-                    
+                                    
 '
 MacOS
 '
@@ -3721,7 +3721,7 @@ notifier
 to
 get
 '
-                        
+                                    
 '
 a
 notification
@@ -3743,7 +3743,7 @@ notifier
 -
 title
 '
-                    
+                                  
 '
 Mozilla
 Build
@@ -3756,7 +3756,7 @@ group
 '
 mozbuild
 '
-                    
+                                  
 '
 -
 message
@@ -3908,9 +3908,9 @@ sizeof
 (
 FLASHWINDOW
 )
-                                    
+                                     
 console
-                                    
+                                     
 FLASHW_CAPTION
 |
 FLASHW_TRAY
@@ -3963,7 +3963,7 @@ usually
 part
 of
 '
-                        
+                                    
 '
 the
 libnotify
@@ -3975,7 +3975,7 @@ a
 notification
 when
 '
-                        
+                                    
 '
 the
 build
@@ -4001,7 +4001,7 @@ Mozilla
 Build
 System
 '
-                    
+                                  
 '
 Mozilla
 Build
@@ -4037,7 +4037,7 @@ failed
 error
 '
 :
-                
+                                                          
 e
 .
 message
@@ -4206,7 +4206,7 @@ None
 log
 =
 True
-            
+                  
 srcdir
 =
 False
@@ -4216,7 +4216,7 @@ True
 line_handler
 =
 None
-            
+                  
 append_env
 =
 None
@@ -4226,7 +4226,7 @@ None
 ignore_errors
 =
 False
-            
+                  
 ensure_exit_code
 =
 0
@@ -4236,7 +4236,7 @@ True
 print_directory
 =
 True
-            
+                  
 pass_thru
 =
 False
@@ -5126,7 +5126,7 @@ agreement
 \
 n
 '
-                
+                            
 '
 Please
 run
@@ -5163,7 +5163,7 @@ implementation
 \
 n
 '
-                
+                            
 '
 Please
 use
@@ -5362,7 +5362,7 @@ settings
 self
 .
 log_manager
-            
+                   
 topobjdir
 =
 self
@@ -5502,6 +5502,7 @@ path
 .
 join
 (
+                    
 self
 .
 topsrcdir
@@ -5681,7 +5682,7 @@ detect_virtualenv_mozinfo
 getattr
 (
 context
-                
+                                                
 '
 detect_virtualenv_mozinfo
 '
@@ -5701,7 +5702,7 @@ cwd
 context
 .
 cwd
-                
+                                                    
 detect_virtualenv_mozinfo
 =
 detect_virtualenv_mozinfo
@@ -5773,7 +5774,7 @@ We
 detected
 that
 '
-                
+                  
 '
 both
 %
@@ -5789,7 +5790,7 @@ directories
 This
 is
 '
-                
+                  
 '
 typically
 caused
@@ -5801,7 +5802,7 @@ pointing
 to
 a
 '
-                
+                  
 '
 different
 object
@@ -5811,7 +5812,7 @@ the
 current
 working
 '
-                
+                  
 '
 directory
 .
@@ -5826,7 +5827,7 @@ not
 have
 a
 '
-                
+                  
 '
 default
 mozconfig
@@ -5840,7 +5841,7 @@ paths
 e
 .
 objdir1
-                    
+                                                            
 e
 .
 objdir2
@@ -5943,7 +5944,7 @@ topsrcdir
 context
 .
 settings
-            
+                                
 context
 .
 log_manager

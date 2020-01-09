@@ -902,7 +902,7 @@ self
 _context
 .
 source_stack
-                
+                                   
 sys
 .
 exc_info
@@ -1618,7 +1618,7 @@ list
 dict
 )
 )
-               
+                
 and
 not
 value

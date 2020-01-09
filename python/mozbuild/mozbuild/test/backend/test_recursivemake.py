@@ -532,7 +532,7 @@ d
 in
 parallels
 ]
-                
+                    
 [
 d
 for
@@ -884,7 +884,7 @@ D
 '
 I
 '
-                         
+                          
 '
 M
 '
@@ -915,7 +915,7 @@ Q
 '
 R
 '
-                         
+                          
 '
 V
 '
@@ -1877,7 +1877,7 @@ join
 env
 .
 topobjdir
-            
+                                                    
 '
 backend
 .
@@ -1904,7 +1904,7 @@ join
 env
 .
 topobjdir
-            
+                                                    
 '
 backend
 .
@@ -3476,7 +3476,7 @@ join
 env
 .
 topobjdir
-            
+                                              
 '
 _build_manifests
 '
@@ -6018,7 +6018,7 @@ join
 env
 .
 topobjdir
-            
+                                              
 '
 _build_manifests
 '
@@ -6391,7 +6391,7 @@ join
 env
 .
 topobjdir
-            
+                                              
 '
 _build_manifests
 '
@@ -6762,7 +6762,7 @@ join
 env
 .
 topobjdir
-            
+                                              
 '
 _build_manifests
 '
@@ -7175,7 +7175,7 @@ topobjdir
 '
 _build_manifests
 '
-            
+                                   
 '
 install
 '
@@ -7385,7 +7385,7 @@ join
 env
 .
 topobjdir
-            
+                                              
 '
 _build_manifests
 '
@@ -7964,6 +7964,7 @@ ipdlh
 tuple
 (
 [
+                                                                                                                              
 topsrcdir
 ]
 *
@@ -9705,7 +9706,7 @@ str
 in
 lines
 if
-                
+                     
 str
 .
 startswith
@@ -9724,7 +9725,7 @@ XPI_NAME
 '
 )
 or
-                
+                     
 str
 .
 startswith
@@ -11601,7 +11602,7 @@ support
 -
 files
 '
-            
+                            
 RecursiveMakeBackend
 )
         
