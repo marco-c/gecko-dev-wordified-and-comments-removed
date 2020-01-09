@@ -7274,6 +7274,18 @@ return
 false
 ;
 }
+if
+(
+MOZ_LOG_TEST
+(
+gAntiTrackingLog
+LogLevel
+:
+:
+Debug
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -7344,6 +7356,7 @@ failure
 parentPrincipalURI
 )
 ;
+}
 return
 result
 =
