@@ -229,11 +229,11 @@ GetVertexFormatInfo
 (
 DWORD
 supportedDeclTypes
-gl
+angle
 :
 :
-VertexFormatType
-vertexFormatType
+FormatID
+vertexFormatID
 )
 ;
 struct

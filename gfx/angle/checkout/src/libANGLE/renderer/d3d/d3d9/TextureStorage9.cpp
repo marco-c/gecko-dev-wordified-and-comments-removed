@@ -497,8 +497,6 @@ Result
 :
 :
 Stop
-(
-)
 ;
 }
 TextureStorage9_2D
@@ -867,8 +865,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -1090,8 +1086,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -1364,8 +1358,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -1525,8 +1517,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 TextureStorage9_EGLImage
@@ -1723,8 +1713,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -1869,8 +1857,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -1922,8 +1908,6 @@ Result
 :
 :
 Stop
-(
-)
 ;
 }
 angle
@@ -2143,8 +2127,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 TextureStorage9_Cube
@@ -2193,7 +2175,7 @@ i
 gl
 :
 :
-CUBE_FACE_COUNT
+kCubeFaceCount
 ;
 +
 +
@@ -2296,7 +2278,7 @@ i
 gl
 :
 :
-CUBE_FACE_COUNT
+kCubeFaceCount
 ;
 +
 +
@@ -2453,8 +2435,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -2665,8 +2645,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -2935,8 +2913,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -3101,8 +3077,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 }

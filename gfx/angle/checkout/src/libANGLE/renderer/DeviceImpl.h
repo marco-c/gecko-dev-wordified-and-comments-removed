@@ -18,7 +18,7 @@ include
 "
 libANGLE
 /
-Error
+Caps
 .
 h
 "
@@ -27,7 +27,7 @@ include
 "
 libANGLE
 /
-Caps
+Error
 .
 h
 "

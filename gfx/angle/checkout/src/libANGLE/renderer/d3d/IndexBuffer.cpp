@@ -143,7 +143,10 @@ mIndexBuffer
 ;
 }
 }
-GLenum
+gl
+:
+:
+DrawElementsType
 IndexBufferInterface
 :
 :
@@ -239,7 +242,7 @@ size
 mWritePosition
 )
 ;
-ANGLE_CHECK_HR
+ANGLE_CHECK
 (
 GetImplAs
 <
@@ -263,7 +266,7 @@ integer
 overflow
 .
 "
-E_OUTOFMEMORY
+GL_OUT_OF_MEMORY
 )
 ;
 angle
@@ -295,8 +298,6 @@ Result
 :
 :
 Stop
-(
-)
 )
 {
 if
@@ -338,8 +339,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -461,7 +460,10 @@ context
 unsigned
 int
 bufferSize
-GLenum
+gl
+:
+:
+DrawElementsType
 indexType
 )
 {
@@ -551,7 +553,10 @@ context
 unsigned
 int
 size
-GLenum
+gl
+:
+:
+DrawElementsType
 indexType
 )
 {
@@ -642,8 +647,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 StaticIndexBufferInterface
@@ -691,7 +694,10 @@ context
 unsigned
 int
 size
-GLenum
+gl
+:
+:
+DrawElementsType
 indexType
 )
 {
@@ -744,8 +750,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 }

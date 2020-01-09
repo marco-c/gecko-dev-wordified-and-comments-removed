@@ -130,6 +130,7 @@ __LITTLE_ENDIAN__
 1
 |
 |
+\
 defined
 (
 _LITTLE_ENDIAN
@@ -465,7 +466,9 @@ DOBLOCK
 h1
 k1
 )
+\
 do
+\
 {
 \
 k1
@@ -530,7 +533,9 @@ n
 ptr
 len
 )
+\
 do
+\
 {
 \
 int
@@ -545,6 +550,7 @@ _i
 -
 -
 )
+\
 {
 \
 c
@@ -567,6 +573,7 @@ n
 +
 +
 ;
+\
 len
 -
 -
@@ -579,6 +586,7 @@ n
 =
 4
 )
+\
 {
 \
 DOBLOCK
@@ -596,6 +604,7 @@ n
 }
 \
 }
+\
 }
 while
 (

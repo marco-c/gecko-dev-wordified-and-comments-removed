@@ -19,7 +19,7 @@ gl
 class
 Context
 ;
-struct
+class
 SamplerState
 ;
 }

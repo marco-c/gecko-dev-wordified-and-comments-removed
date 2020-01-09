@@ -165,19 +165,19 @@ endif
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 cassert
 >
 #
 include
 <
 sstream
->
-#
-include
-<
-stdint
-.
-h
 >
 #
 include
@@ -683,7 +683,6 @@ if
 (
 defined
 __GNUC__
-\
 &
 &
 (
@@ -706,9 +705,9 @@ __GNUC_MINOR__
 )
 )
 )
+|
+|
 \
-|
-|
 defined
 __SUNPRO_C
 &
@@ -772,7 +771,6 @@ if
 !
 defined
 _Noreturn
-\
 &
 &
 (
@@ -876,7 +874,6 @@ diagnostic
 push
 "
 )
-\
 _Pragma
 (
 "
@@ -911,7 +908,6 @@ uninitialized
 #
 define
 YY_IGNORE_MAYBE_UNINITIALIZED_END
-\
 _Pragma
 (
 "
@@ -1057,14 +1053,18 @@ YYSTACK_FREE
 (
 Ptr
 )
+\
 do
+\
 {
 /
 *
 empty
 *
 /
+\
 ;
+\
 }
 while
 (
@@ -1115,9 +1115,9 @@ __cplusplus
 !
 defined
 EXIT_SUCCESS
+&
+&
 \
-&
-&
 !
 (
 (
@@ -1128,7 +1128,6 @@ YYMALLOC
 defined
 malloc
 )
-\
 &
 &
 (
@@ -1225,14 +1224,13 @@ if
 !
 defined
 yyoverflow
+&
+&
 \
-&
-&
 (
 !
 defined
 __cplusplus
-\
 |
 |
 (
@@ -1273,7 +1271,6 @@ YYSTACK_BYTES
 (
 N
 )
-\
 (
 (
 N
@@ -1290,7 +1287,6 @@ sizeof
 YYSTYPE
 )
 )
-\
 +
 YYSTACK_GAP_MAXIMUM
 )
@@ -1361,7 +1357,6 @@ yyptr
 ;
 \
 }
-\
 while
 (
 0
@@ -1395,7 +1390,6 @@ Dst
 Src
 Count
 )
-\
 __builtin_memcpy
 (
 Dst
@@ -1464,7 +1458,6 @@ yyi
 ;
 \
 }
-\
 while
 (
 0
@@ -1513,7 +1506,6 @@ YYTRANSLATE
 (
 YYX
 )
-\
 (
 (
 unsigned
@@ -2062,7 +2054,6 @@ yypact_value_is_default
 (
 Yystate
 )
-\
 (
 !
 !
@@ -2089,7 +2080,6 @@ yytable_value_is_error
 (
 Yytable_value
 )
-\
 0
 static
 const
@@ -2972,6 +2962,7 @@ Args
 )
 \
 do
+\
 {
 \
 if
@@ -3017,6 +3008,7 @@ Location
 )
 \
 do
+\
 {
 \
 if
@@ -3040,7 +3032,6 @@ Title
 yy_symbol_print
 (
 stderr
-\
 Type
 Value
 context
@@ -3267,6 +3258,7 @@ Top
 )
 \
 do
+\
 {
 \
 if
@@ -3432,6 +3424,7 @@ Rule
 )
 \
 do
+\
 {
 \
 if
@@ -6845,7 +6838,6 @@ yysyntax_error
 yymsg_alloc
 &
 yymsg
-\
 yyssp
 yytoken
 )

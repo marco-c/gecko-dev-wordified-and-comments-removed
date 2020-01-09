@@ -52,15 +52,6 @@ CompilerD3D
 override
 {
 }
-gl
-:
-:
-Error
-release
-(
-)
-override
-;
 ShShaderOutput
 getTranslatorOutputType
 (

@@ -155,9 +155,9 @@ const
 gl
 :
 :
-Rectangle
+Box
 &
-sourceRect
+sourceBox
 const
 gl
 :

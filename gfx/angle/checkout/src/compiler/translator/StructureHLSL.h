@@ -245,9 +245,6 @@ angle
 NonCopyable
 {
 POOL_ALLOCATOR_NEW_DELETE
-(
-)
-;
 TStructProperties
 (
 )

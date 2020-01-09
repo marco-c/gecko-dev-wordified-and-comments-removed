@@ -20,6 +20,11 @@ disableProgramCachingForTransformFeedback
 =
 false
 ;
+bool
+syncFramebufferBindingsOnTexImage
+=
+false
+;
 }
 ;
 }

@@ -57,6 +57,9 @@ namespace
 gl
 {
 class
+Context
+;
+class
 LabeledObject
 {
 public
@@ -72,6 +75,10 @@ virtual
 void
 setLabel
 (
+const
+Context
+*
+context
 const
 std
 :

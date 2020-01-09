@@ -1505,8 +1505,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 if
@@ -1629,8 +1627,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 switch
@@ -1763,8 +1759,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 Clear11
@@ -1847,8 +1841,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 TRACE_EVENT0
@@ -2323,8 +2315,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 bool
@@ -2387,8 +2377,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 D3D11_BUFFER_DESC
@@ -2493,8 +2481,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -2539,8 +2525,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 static_assert
@@ -2789,8 +2773,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -3027,8 +3009,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 if
@@ -3085,8 +3065,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 needScissoredClear
@@ -3403,9 +3381,8 @@ renderTarget
 =
 nullptr
 ;
-ANGLE_TRY_HANDLE
+ANGLE_TRY
 (
-context
 attachment
 .
 getRenderTarget
@@ -4081,9 +4058,8 @@ depthStencilAttachment
 nullptr
 )
 ;
-ANGLE_TRY_HANDLE
+ANGLE_TRY
 (
-context
 depthStencilAttachment
 -
 >
@@ -4282,8 +4258,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 ASSERT
@@ -4996,8 +4970,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 }

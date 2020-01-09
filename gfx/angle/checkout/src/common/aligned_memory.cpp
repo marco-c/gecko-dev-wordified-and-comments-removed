@@ -17,6 +17,15 @@ debug
 h
 "
 #
+include
+"
+common
+/
+platform
+.
+h
+"
+#
 if
 defined
 (

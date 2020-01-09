@@ -1149,6 +1149,7 @@ VERTEX_ONLY
 S
 L
 )
+do
 {
 \
 if
@@ -1185,6 +1186,10 @@ S
 }
 \
 }
+while
+(
+0
+)
 #
 define
 COMPUTE_ONLY
@@ -1192,6 +1197,7 @@ COMPUTE_ONLY
 S
 L
 )
+do
 {
 \
 if
@@ -1228,6 +1234,10 @@ S
 }
 \
 }
+while
+(
+0
+)
 #
 define
 ES2_ONLY
@@ -1235,6 +1245,7 @@ ES2_ONLY
 S
 L
 )
+do
 {
 \
 if
@@ -1274,6 +1285,10 @@ S
 }
 \
 }
+while
+(
+0
+)
 #
 define
 ES3_OR_NEWER
@@ -1282,6 +1297,7 @@ TOKEN
 LINE
 REASON
 )
+do
 {
 \
 if
@@ -1323,6 +1339,10 @@ TOKEN
 }
 \
 }
+while
+(
+0
+)
 #
 define
 ES3_OR_NEWER_OR_MULTIVIEW
@@ -1331,6 +1351,7 @@ TOKEN
 LINE
 REASON
 )
+do
 {
 \
 if
@@ -1385,6 +1406,10 @@ TOKEN
 }
 \
 }
+while
+(
+0
+)
 #
 define
 ES3_1_ONLY
@@ -1393,6 +1418,7 @@ TOKEN
 LINE
 REASON
 )
+do
 {
 \
 if
@@ -1433,6 +1459,10 @@ TOKEN
 }
 \
 }
+while
+(
+0
+)
 #
 ifdef
 short

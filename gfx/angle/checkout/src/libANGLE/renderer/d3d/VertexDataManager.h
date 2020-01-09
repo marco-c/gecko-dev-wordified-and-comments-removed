@@ -197,7 +197,10 @@ VertexBinding
 *
 binding
 ;
-GLenum
+gl
+:
+:
+VertexAttribType
 currentValueType
 ;
 unsigned

@@ -22,7 +22,6 @@ sample
 )
 ANGLE_HISTOGRAM_CUSTOM_TIMES
 (
-\
 name
 sample
 1
@@ -36,9 +35,9 @@ ANGLE_HISTOGRAM_MEDIUM_TIMES
 name
 sample
 )
+\
 ANGLE_HISTOGRAM_CUSTOM_TIMES
 (
-\
 name
 sample
 10
@@ -52,9 +51,9 @@ ANGLE_HISTOGRAM_LONG_TIMES
 name
 sample
 )
+\
 ANGLE_HISTOGRAM_CUSTOM_TIMES
 (
-\
 name
 sample
 1
@@ -68,9 +67,9 @@ ANGLE_HISTOGRAM_LONG_TIMES_100
 name
 sample
 )
+\
 ANGLE_HISTOGRAM_CUSTOM_TIMES
 (
-\
 name
 sample
 1
@@ -103,9 +102,9 @@ ANGLE_HISTOGRAM_COUNTS
 name
 sample
 )
+\
 ANGLE_HISTOGRAM_CUSTOM_COUNTS
 (
-\
 name
 sample
 1
@@ -238,9 +237,9 @@ ANGLE_HISTOGRAM_MEMORY_KB
 name
 sample
 )
+\
 ANGLE_HISTOGRAM_CUSTOM_COUNTS
 (
-\
 name
 sample
 1000
@@ -254,9 +253,9 @@ ANGLE_HISTOGRAM_MEMORY_MB
 name
 sample
 )
+\
 ANGLE_HISTOGRAM_CUSTOM_COUNTS
 (
-\
 name
 sample
 1
@@ -369,7 +368,6 @@ ANGLEPlatformCurrent
 )
 \
 {
-\
 }
 \
 ~

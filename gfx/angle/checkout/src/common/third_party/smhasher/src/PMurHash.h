@@ -21,7 +21,6 @@ MH_UINT32
 &
 &
 (
-\
 defined
 (
 __STDC_VERSION__

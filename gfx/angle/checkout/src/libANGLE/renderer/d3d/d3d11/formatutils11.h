@@ -163,11 +163,11 @@ VertexFormat
 &
 GetVertexFormatInfo
 (
-gl
+angle
 :
 :
-VertexFormatType
-vertexFormatType
+FormatID
+vertexFormatID
 D3D_FEATURE_LEVEL
 featureLevel
 )

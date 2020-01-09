@@ -51,10 +51,10 @@ Program11
 )
 override
 ;
-gl
+angle
 :
 :
-Error
+Result
 syncState
 (
 const

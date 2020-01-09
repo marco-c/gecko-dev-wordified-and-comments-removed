@@ -219,8 +219,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 ShaderObject
@@ -312,8 +310,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 void

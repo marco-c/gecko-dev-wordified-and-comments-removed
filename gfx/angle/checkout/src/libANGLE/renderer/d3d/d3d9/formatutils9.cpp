@@ -3488,11 +3488,11 @@ GetVertexFormatInfo
 (
 DWORD
 supportedDeclTypes
-gl
+angle
 :
 :
-VertexFormatType
-vertexFormatType
+FormatID
+vertexFormatID
 )
 {
 static
@@ -3734,9 +3734,9 @@ vertexFormat
 gl
 :
 :
-GetVertexFormatFromType
+GetVertexFormatFromID
 (
-vertexFormatType
+vertexFormatID
 )
 ;
 ASSERT

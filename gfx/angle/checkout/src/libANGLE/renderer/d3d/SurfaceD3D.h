@@ -303,10 +303,10 @@ DisplayD3D
 displayD3D
 )
 ;
-gl
+angle
 :
 :
-Error
+Result
 getAttachmentRenderTarget
 (
 const
@@ -332,10 +332,10 @@ rtOut
 )
 override
 ;
-gl
+angle
 :
 :
-Error
+Result
 initializeContents
 (
 const

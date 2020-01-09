@@ -90,9 +90,6 @@ NonCopyable
 public
 :
 POOL_ALLOCATOR_NEW_DELETE
-(
-)
-;
 TQualifierWrapperBase
 (
 const
@@ -114,7 +111,6 @@ TQualifierWrapperBase
 )
 {
 }
-;
 virtual
 TQualifierType
 getType
@@ -737,9 +733,6 @@ TQualifierWrapperBase
 public
 :
 POOL_ALLOCATOR_NEW_DELETE
-(
-)
-;
 TTypeQualifierBuilder
 (
 const

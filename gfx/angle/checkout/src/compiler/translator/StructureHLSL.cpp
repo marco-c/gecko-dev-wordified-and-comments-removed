@@ -47,7 +47,7 @@ compiler
 /
 translator
 /
-util
+UtilsHLSL
 .
 h
 "
@@ -58,7 +58,7 @@ compiler
 /
 translator
 /
-UtilsHLSL
+util
 .
 h
 "

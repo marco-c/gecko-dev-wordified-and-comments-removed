@@ -342,8 +342,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 D3D11_RASTERIZER_DESC
@@ -714,8 +712,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 void
@@ -1175,7 +1171,7 @@ sourceBuffer
 context
 -
 >
-getGLState
+getState
 (
 )
 .
@@ -1599,8 +1595,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -1786,8 +1780,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 const

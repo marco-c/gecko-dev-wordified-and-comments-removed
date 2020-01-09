@@ -92,7 +92,6 @@ ImageD3D
 )
 {
 }
-;
 GLsizei
 getWidth
 (

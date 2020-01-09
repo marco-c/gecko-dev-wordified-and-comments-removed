@@ -407,6 +407,7 @@ INITDATATYPE
 template
 <
 >
+\
 struct
 NAME
 <
@@ -441,6 +442,7 @@ INITDATATYPE
 template
 <
 >
+\
 struct
 NAME
 <
@@ -475,6 +477,7 @@ INITDATATYPE
 template
 <
 >
+\
 struct
 NAME
 <
@@ -524,11 +527,11 @@ template
 ResourceType
 Param
 >
+\
 struct
 NAME
 \
 {
-\
 }
 ;
 \
@@ -538,6 +541,7 @@ template
 ResourceType
 Param
 >
+\
 using
 Get
 #
@@ -610,11 +614,11 @@ template
 typename
 Param
 >
+\
 struct
 NAME
 \
 {
-\
 }
 ;
 \
@@ -624,6 +628,7 @@ template
 typename
 Param
 >
+\
 constexpr
 ResourceType
 Get
@@ -661,6 +666,7 @@ INITDATATYPE
 template
 <
 >
+\
 struct
 NAME
 <
@@ -1557,8 +1563,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 template

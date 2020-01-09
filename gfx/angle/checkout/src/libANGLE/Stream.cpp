@@ -497,7 +497,7 @@ glState
 context
 -
 >
-getGLState
+getState
 (
 )
 ;
@@ -935,6 +935,8 @@ nullptr
 {
 ANGLE_TRY
 (
+ResultToEGL
+(
 mPlanes
 [
 i
@@ -952,6 +954,7 @@ mProducerImplementation
 getGLFrameDescription
 (
 i
+)
 )
 )
 )
@@ -1055,6 +1058,8 @@ nullptr
 {
 ANGLE_TRY
 (
+ResultToEGL
+(
 mPlanes
 [
 i
@@ -1066,6 +1071,7 @@ texture
 releaseImageFromStream
 (
 context
+)
 )
 )
 ;

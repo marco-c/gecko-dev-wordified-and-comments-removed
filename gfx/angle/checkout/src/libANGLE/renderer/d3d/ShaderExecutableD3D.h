@@ -25,12 +25,12 @@ h
 #
 include
 <
-vector
+cstdint
 >
 #
 include
 <
-cstdint
+vector
 >
 namespace
 rx

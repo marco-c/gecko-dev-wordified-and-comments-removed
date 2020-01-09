@@ -18,7 +18,7 @@ compiler
 /
 translator
 /
-Common
+BaseTypes
 .
 h
 "
@@ -29,7 +29,7 @@ compiler
 /
 translator
 /
-BaseTypes
+Common
 .
 h
 "
@@ -45,9 +45,6 @@ TConstantUnion
 public
 :
 POOL_ALLOCATOR_NEW_DELETE
-(
-)
-;
 TConstantUnion
 (
 )

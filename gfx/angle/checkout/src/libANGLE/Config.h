@@ -195,6 +195,9 @@ optimalOrientation
 EGLenum
 colorComponentType
 ;
+EGLBoolean
+recordable
+;
 }
 ;
 class

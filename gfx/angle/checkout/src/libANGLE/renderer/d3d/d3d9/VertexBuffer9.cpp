@@ -249,8 +249,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 angle
@@ -283,7 +281,10 @@ gl
 VertexBinding
 &
 binding
-GLenum
+gl
+:
+:
+VertexAttribType
 currentValueType
 GLint
 start
@@ -442,16 +443,16 @@ inputStride
 start
 ;
 }
-gl
+angle
 :
 :
-VertexFormatType
-vertexFormatType
+FormatID
+vertexFormatID
 =
 gl
 :
 :
-GetVertexFormatType
+GetVertexFormatID
 (
 attrib
 currentValueType
@@ -476,7 +477,7 @@ mRenderer
 getCapsDeclTypes
 (
 )
-vertexFormatType
+vertexFormatID
 )
 ;
 bool
@@ -547,8 +548,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 unsigned
@@ -612,8 +611,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 }
@@ -722,8 +719,6 @@ Result
 :
 :
 Continue
-(
-)
 ;
 }
 IDirect3DVertexBuffer9

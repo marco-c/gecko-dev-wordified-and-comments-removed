@@ -72,11 +72,11 @@ DeviceImpl
 impl
 )
 ;
-virtual
 ~
 Device
 (
 )
+override
 ;
 void
 setLabel
@@ -111,7 +111,6 @@ return
 mOwningDisplay
 ;
 }
-;
 EGLint
 getType
 (

@@ -8,11 +8,6 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 stdlib
 .
 h
@@ -23,6 +18,11 @@ include
 string
 .
 h
+>
+#
+include
+<
+algorithm
 >
 #
 include

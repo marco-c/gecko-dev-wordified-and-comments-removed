@@ -101,10 +101,10 @@ display
 )
 override
 ;
-gl
+angle
 :
 :
-Error
+Result
 orphan
 (
 const
@@ -145,10 +145,10 @@ const
 ;
 private
 :
-gl
+angle
 :
 :
-Error
+Result
 copyToLocalRendertarget
 (
 const

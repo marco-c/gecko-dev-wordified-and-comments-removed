@@ -46,7 +46,6 @@ class
 ProgramPipelineImpl
 ;
 }
-;
 namespace
 gl
 {
@@ -130,7 +129,7 @@ ProgramPipeline
 )
 override
 ;
-Error
+void
 onDestroy
 (
 const
@@ -143,6 +142,10 @@ override
 void
 setLabel
 (
+const
+Context
+*
+context
 const
 std
 :

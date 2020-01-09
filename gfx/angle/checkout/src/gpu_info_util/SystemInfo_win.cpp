@@ -67,14 +67,14 @@ GPU_INFO_USE_DXGI
 #
 include
 <
-dxgi
+d3d10
 .
 h
 >
 #
 include
 <
-d3d10
+dxgi
 .
 h
 >

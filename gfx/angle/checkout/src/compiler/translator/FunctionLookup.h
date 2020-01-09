@@ -40,9 +40,6 @@ NonCopyable
 public
 :
 POOL_ALLOCATOR_NEW_DELETE
-(
-)
-;
 static
 TFunctionLookup
 *

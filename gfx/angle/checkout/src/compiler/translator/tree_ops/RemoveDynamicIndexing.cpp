@@ -1731,7 +1731,7 @@ if
 IntermNodePatternMatcher
 :
 :
-IsDynamicIndexingOfVectorOrMatrix
+IsDynamicIndexingOfNonSSBOVectorOrMatrix
 (
 node
 )
@@ -1997,7 +1997,7 @@ nullptr
 IntermNodePatternMatcher
 :
 :
-IsDynamicIndexingOfVectorOrMatrix
+IsDynamicIndexingOfNonSSBOVectorOrMatrix
 (
 leftBinary
 )

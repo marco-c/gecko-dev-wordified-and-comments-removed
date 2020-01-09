@@ -131,7 +131,7 @@ release
 )
 ;
 }
-Error
+void
 ProgramPipeline
 :
 :
@@ -143,11 +143,6 @@ Context
 context
 )
 {
-return
-NoError
-(
-)
-;
 }
 void
 ProgramPipeline
@@ -155,6 +150,10 @@ ProgramPipeline
 :
 setLabel
 (
+const
+Context
+*
+context
 const
 std
 :

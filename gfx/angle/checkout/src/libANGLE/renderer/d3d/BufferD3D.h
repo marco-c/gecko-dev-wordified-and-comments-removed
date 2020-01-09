@@ -230,10 +230,10 @@ size_t
 dataSize
 )
 ;
-gl
+angle
 :
 :
-Error
+Result
 getIndexRange
 (
 const
@@ -243,7 +243,10 @@ gl
 Context
 *
 context
-GLenum
+gl
+:
+:
+DrawElementsType
 type
 size_t
 offset

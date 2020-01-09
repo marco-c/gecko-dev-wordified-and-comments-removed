@@ -77,7 +77,10 @@ context
 unsigned
 int
 bufferSize
-GLenum
+gl
+:
+:
+DrawElementsType
 indexType
 bool
 dynamic
@@ -126,7 +129,10 @@ context
 )
 override
 ;
-GLenum
+gl
+:
+:
+DrawElementsType
 getIndexType
 (
 )
@@ -157,7 +163,10 @@ context
 unsigned
 int
 bufferSize
-GLenum
+gl
+:
+:
+DrawElementsType
 indexType
 )
 override
@@ -212,7 +221,10 @@ unsigned
 int
 mBufferSize
 ;
-GLenum
+gl
+:
+:
+DrawElementsType
 mIndexType
 ;
 bool

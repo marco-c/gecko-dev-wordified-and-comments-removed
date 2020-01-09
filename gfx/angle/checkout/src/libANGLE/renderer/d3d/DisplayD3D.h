@@ -9,9 +9,7 @@ include
 "
 libANGLE
 /
-renderer
-/
-DisplayImpl
+Device
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 libANGLE
 /
-Device
+renderer
+/
+DisplayImpl
 .
 h
 "
@@ -215,9 +215,15 @@ const
 gl
 :
 :
-ContextState
+State
 &
 state
+gl
+:
+:
+ErrorSet
+*
+errorSet
 const
 egl
 :
@@ -421,7 +427,7 @@ const
 override
 ;
 void
-handleError
+handleResult
 (
 HRESULT
 hr

@@ -87,7 +87,10 @@ gl
 VertexBinding
 &
 binding
-GLenum
+gl
+:
+:
+VertexAttribType
 currentValueType
 GLint
 start

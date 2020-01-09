@@ -502,7 +502,7 @@ d3d11
 :
 :
 PixelShader
-mPassThroughPS
+mPassThroughOrResolvePS
 ;
 d3d11
 :

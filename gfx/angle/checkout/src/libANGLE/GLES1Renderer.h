@@ -96,7 +96,10 @@ State
 state
 )
 ;
-Error
+angle
+:
+:
+Result
 prepareForDraw
 (
 PrimitiveMode
@@ -202,7 +205,10 @@ handle
 )
 const
 ;
-Error
+angle
+:
+:
+Result
 compileShader
 (
 Context
@@ -219,7 +225,10 @@ GLuint
 shaderOut
 )
 ;
-Error
+angle
+:
+:
+Result
 linkProgram
 (
 Context
@@ -251,7 +260,10 @@ GLuint
 programOut
 )
 ;
-Error
+angle
+:
+:
+Result
 initializeRendererProgram
 (
 Context
@@ -265,6 +277,9 @@ glState
 void
 setUniform1i
 (
+Context
+*
+context
 Program
 *
 programObject
@@ -277,6 +292,9 @@ value
 void
 setUniform1iv
 (
+Context
+*
+context
 Program
 *
 programObject

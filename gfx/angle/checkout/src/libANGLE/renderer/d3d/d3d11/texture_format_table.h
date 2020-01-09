@@ -81,11 +81,13 @@ angle
 :
 NonCopyable
 {
+inline
 constexpr
 Format
 (
 )
 ;
+inline
 constexpr
 Format
 (

@@ -165,6 +165,12 @@ std
 :
 :
 string
+machineManufacturer
+;
+std
+:
+:
+string
 machineModelName
 ;
 std
