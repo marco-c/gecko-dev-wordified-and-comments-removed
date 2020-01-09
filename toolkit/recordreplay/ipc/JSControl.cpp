@@ -1788,9 +1788,10 @@ obj
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 obj
+aCx
 )
 ;
 if
