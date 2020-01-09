@@ -4992,11 +4992,6 @@ gecko_profiler_unregister_thread
 (
 )
 ;
-fn
-wr_register_thread_local_arena
-(
-)
-;
 }
 struct
 GeckoProfilerThreadListener
@@ -5180,10 +5175,6 @@ start_handler
 idx
 |
 {
-wr_register_thread_local_arena
-(
-)
-;
 let
 name
 =
