@@ -181,12 +181,6 @@ tests
 ]
     
 "
-download_minidump_stackwalk
-"
-:
-True
-    
-"
 tooltool_cache
 "
 :

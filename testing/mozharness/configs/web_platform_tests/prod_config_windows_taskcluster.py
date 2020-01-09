@@ -388,12 +388,6 @@ True
 ]
     
 "
-download_minidump_stackwalk
-"
-:
-True
-    
-"
 geckodriver
 "
 :

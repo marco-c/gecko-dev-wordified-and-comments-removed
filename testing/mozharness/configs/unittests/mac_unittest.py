@@ -2067,12 +2067,6 @@ jittest
 }
     
 "
-download_minidump_stackwalk
-"
-:
-True
-    
-"
 minidump_stackwalk_path
 "
 :

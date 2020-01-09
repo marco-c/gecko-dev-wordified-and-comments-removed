@@ -57,12 +57,6 @@ hg
 }
     
 "
-download_minidump_stackwalk
-"
-:
-True
-    
-"
 download_symbols
 "
 :

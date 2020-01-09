@@ -157,12 +157,6 @@ certutil
 ]
     
 "
-download_minidump_stackwalk
-"
-:
-True
-    
-"
 geckodriver
 "
 :
