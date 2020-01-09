@@ -10878,7 +10878,7 @@ CFDataGetLength
 nameTable
 )
 ;
-gfxFontFamily
+gfxFontUtils
 :
 :
 ReadOtherFamilyNamesForFace

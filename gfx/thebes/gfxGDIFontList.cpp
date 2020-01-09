@@ -4901,7 +4901,7 @@ mFontInfo
 mLoadOtherNames
 )
 {
-gfxFontFamily
+gfxFontUtils
 :
 :
 ReadOtherFamilyNamesForFace
