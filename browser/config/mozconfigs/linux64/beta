@@ -1,7 +1,13 @@
-export
-MOZ_PGO
-=
-1
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+pgo
+"
 .
 "
 topsrcdir
