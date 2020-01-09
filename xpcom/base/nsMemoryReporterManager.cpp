@@ -8499,6 +8499,10 @@ forget
 }
 if
 (
+!
+mIsRegistrationBlocked
+&
+&
 net
 :
 :
