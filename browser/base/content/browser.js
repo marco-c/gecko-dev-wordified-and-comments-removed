@@ -20477,11 +20477,6 @@ textbox
 inputField
 )
 {
-focusAndSelectUrlBar
-(
-true
-)
-;
 gURLBar
 .
 typeRestrictToken

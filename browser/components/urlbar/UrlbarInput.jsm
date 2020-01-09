@@ -1626,6 +1626,14 @@ char
 {
 this
 .
+window
+.
+focusAndSelectUrlBar
+(
+)
+;
+this
+.
 inputField
 .
 value

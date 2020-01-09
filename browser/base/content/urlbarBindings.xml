@@ -12792,6 +12792,10 @@ body
 [
 CDATA
 [
+focusAndSelectUrlBar
+(
+)
+;
 this
 .
 inputField
