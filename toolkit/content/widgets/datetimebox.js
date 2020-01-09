@@ -8220,7 +8220,7 @@ targetField
 getAttribute
 (
 "
-maxLength
+maxlength
 "
 )
 ;
