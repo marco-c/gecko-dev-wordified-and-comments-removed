@@ -173,7 +173,7 @@ Exec
 dependsOn
 rootProject
 .
-generateCodeAndResources
+machBuildGeneratedAndroidCodeAndResources
 /
 /
 See
