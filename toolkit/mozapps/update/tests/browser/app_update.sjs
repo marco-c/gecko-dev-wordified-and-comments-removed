@@ -398,7 +398,7 @@ SLOW_RESPONSE_INTERVAL
 const
 MAX_SLOW_RESPONSE_RETRIES
 =
-50
+200
 ;
 var
 gSlowDownloadTimer
