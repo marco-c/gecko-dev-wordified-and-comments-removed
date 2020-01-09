@@ -1783,9 +1783,8 @@ mozIStorageAsyncConnection
 ;
 Assert
 .
-equal
+ok
 (
-false
 adb
 instanceof
 Ci
@@ -2687,9 +2686,8 @@ mozIStorageAsyncConnection
 ;
 Assert
 .
-equal
+ok
 (
-false
 clone
 instanceof
 Ci
@@ -2775,9 +2773,8 @@ mozIStorageAsyncConnection
 ;
 Assert
 .
-equal
+ok
 (
-false
 adb1
 instanceof
 Ci
@@ -2836,9 +2833,8 @@ mozIStorageAsyncConnection
 ;
 Assert
 .
-equal
+ok
 (
-false
 adb2
 instanceof
 Ci

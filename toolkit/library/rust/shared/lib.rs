@@ -208,6 +208,10 @@ bitsdownload
 ;
 extern
 crate
+storage
+;
+extern
+crate
 arrayvec
 ;
 use

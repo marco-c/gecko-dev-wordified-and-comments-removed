@@ -4566,7 +4566,7 @@ to
 +
 source
 .
-database
+databaseFile
 .
 path
 )
@@ -4908,7 +4908,7 @@ to
 +
 connection
 .
-database
+databaseFile
 .
 path
 )
@@ -5160,6 +5160,19 @@ TRANSACTION_EXCLUSIVE
 "
 EXCLUSIVE
 "
+get
+unsafeRawConnection
+(
+)
+{
+return
+this
+.
+_connectionData
+.
+_dbConn
+;
+}
 getSchemaVersion
 (
 schemaName
