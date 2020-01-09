@@ -4505,16 +4505,6 @@ true
 name
 :
 "
-ResizeObserver
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 Response
 "
 insecureContext

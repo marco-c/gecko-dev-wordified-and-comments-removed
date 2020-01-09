@@ -7172,15 +7172,6 @@ Document
 aDocument
 )
 ;
-static
-uint32_t
-GetNodeDepth
-(
-nsINode
-*
-aNode
-)
-;
 private
 :
 static
