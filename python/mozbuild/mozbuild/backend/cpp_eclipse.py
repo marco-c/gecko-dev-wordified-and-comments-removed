@@ -7,15 +7,11 @@ errno
 import
 glob
 import
-random
-import
 os
 import
 shutil
 import
 subprocess
-import
-types
 from
 xml
 .
@@ -24,14 +20,6 @@ sax
 saxutils
 import
 quoteattr
-import
-xml
-.
-etree
-.
-ElementTree
-as
-ET
 from
 .
 common
@@ -47,8 +35,6 @@ import
 (
     
 ComputedFlags
-    
-Defines
 )
 from
 mozbuild
@@ -1504,8 +1490,6 @@ _write_noindex
 try
 :
             
-process
-=
 subprocess
 .
 check_call
@@ -2695,11 +2679,11 @@ triggers
 /
 triggers
 >
-			
+            
 <
 arguments
 >
-			
+            
 <
 /
 arguments
@@ -3873,7 +3857,7 @@ cross
 "
 /
 >
-							
+                            
 <
 builder
 arguments
@@ -4269,11 +4253,11 @@ CPROJECT_TEMPLATE_FOOTER
 "
 "
 "
-					
+                    
 <
 sourceEntries
 >
-						
+                        
 <
 entry
 excluding
@@ -4449,7 +4433,7 @@ name
 "
 /
 >
-					
+                    
 <
 /
 sourceEntries
@@ -4881,7 +4865,7 @@ no
 <
 project
 >
-	
+    
 <
 configuration
 id
@@ -4897,7 +4881,7 @@ name
 Default
 "
 >
-		
+        
 <
 extension
 point
@@ -4914,7 +4898,7 @@ core
 LanguageSettingsProvider
 "
 >
-			
+            
 <
 provider
 class
@@ -4978,7 +4962,7 @@ project
 true
 "
 >
-				
+                
 <
 language
 id
@@ -5017,7 +5001,7 @@ path
 RELATIVE_PATH
 "
 >
-						
+                        
 <
 entry
 kind
@@ -5031,7 +5015,7 @@ name
 PREINCLUDE_FILE_PATH
 "
 >
-							
+                            
 <
 flag
 value
@@ -5041,7 +5025,7 @@ LOCAL
 "
 /
 >
-						
+                        
 <
 /
 entry
@@ -5067,7 +5051,7 @@ name
 INCLUDE_PATH
 "
 >
-							
+                            
 <
 flag
 value
@@ -5077,7 +5061,7 @@ LOCAL
 "
 /
 >
-						
+                        
 <
 /
 entry
@@ -5131,12 +5115,12 @@ LANGUAGE_SETTINGS_TEMPLATE_FOOTER
 /
 language
 >
-			
+                
 <
 /
 provider
 >
-			
+            
 <
 provider
 class
@@ -5255,7 +5239,7 @@ project
 true
 "
 >
-				
+                
 <
 language
 -
@@ -5275,7 +5259,7 @@ gcc
 "
 /
 >
-				
+                
 <
 language
 -
@@ -5297,12 +5281,12 @@ g
 "
 /
 >
-			
+            
 <
 /
 provider
 >
-			
+            
 <
 provider
 -
@@ -5331,12 +5315,12 @@ provider
 "
 /
 >
-		
+        
 <
 /
 extension
 >
-	
+    
 <
 /
 configuration

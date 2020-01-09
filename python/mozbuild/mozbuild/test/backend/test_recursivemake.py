@@ -7,8 +7,6 @@ cPickle
 as
 pickle
 import
-json
-import
 os
 import
 unittest
@@ -7802,6 +7800,7 @@ IPDL_SOURCES
 are
 written
 to
+        
 ipdlsrcs
 .
 mk
@@ -7964,7 +7963,6 @@ ipdlh
 tuple
 (
 [
-                                                                                                                              
 topsrcdir
 ]
 *
@@ -8418,23 +8416,6 @@ readlines
 :
 ]
 ]
-        
-topobjdir
-=
-env
-.
-topobjdir
-.
-replace
-(
-'
-\
-\
-'
-'
-/
-'
-)
         
 expected
 =

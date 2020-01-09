@@ -1446,6 +1446,7 @@ add_commands
 (
                     
 [
+                        
 '
 (
 PYTHON
@@ -1457,6 +1458,9 @@ mozbuild
 action
 .
 l10n_merge
+'
+                        
+'
 -
 -
 output
@@ -1480,11 +1484,15 @@ file
 .
 format
 (
+                            
 merge
 ref_file
 l10n_file
+                        
 )
+                    
 ]
+                
 )
                 
 mk

@@ -8,8 +8,6 @@ errno
 import
 getpass
 import
-glob
-import
 io
 import
 json
@@ -1838,6 +1836,7 @@ message
 line
         
 except
+Exception
 :
             
 pass
@@ -5604,6 +5603,7 @@ self
 :
         
 return
+(
 '
 ccache
 (
@@ -5632,6 +5632,9 @@ rate
 %
 }
 ;
+'
+                
+'
 miss
 rate
 :
@@ -5645,11 +5648,14 @@ rate
 .
 format
 (
+                    
 *
 self
 .
 hit_rates
 (
+)
+                
 )
 )
     
@@ -7171,13 +7177,14 @@ self
 .
 _run_make
 (
+                        
 directory
 =
 make_dir
 target
 =
 make_target
-                                            
+                        
 line_handler
 =
 output
@@ -7189,7 +7196,7 @@ False
 print_directory
 =
 False
-                                            
+                        
 ensure_exit_code
 =
 False
@@ -7200,11 +7207,11 @@ silent
 =
 not
 verbose
-                                            
+                        
 append_env
 =
 {
-                                                
+                            
 b
 '
 NO_BUILDSTATUS_MESSAGES
@@ -7212,7 +7219,7 @@ NO_BUILDSTATUS_MESSAGES
 :
 no_build_status
 }
-                                            
+                        
 keep_going
 =
 keep_going
@@ -8105,6 +8112,7 @@ android
                     
 print
 (
+                        
 '
 For
 more
@@ -8116,7 +8124,7 @@ do
 now
 see
 '
-                          
+                        
 '
 https
 :
@@ -8134,6 +8142,7 @@ Developer_Guide
 /
 So_You_Just_Built_Firefox
 '
+                    
 )
             
 except

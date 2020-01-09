@@ -53,8 +53,6 @@ mozbuild
 preprocessor
 import
 Preprocessor
-import
-buildconfig
 def
 write_file
 (

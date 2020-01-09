@@ -1,12 +1,6 @@
 import
 unittest
 import
-sys
-import
-os
-.
-path
-import
 mozunit
 from
 mozbuild

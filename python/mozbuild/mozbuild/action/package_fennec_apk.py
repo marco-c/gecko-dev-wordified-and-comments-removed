@@ -29,8 +29,6 @@ buildconfig
 import
 os
 import
-subprocess
-import
 sys
 from
 mozpack

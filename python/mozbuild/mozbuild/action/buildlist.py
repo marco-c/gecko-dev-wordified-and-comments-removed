@@ -234,9 +234,8 @@ n
 finally
 :
         
+del
 lock
-=
-None
 def
 main
 (

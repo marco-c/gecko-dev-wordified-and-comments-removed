@@ -324,6 +324,7 @@ yield
 config
         
 except
+Exception
 :
             
 raise
@@ -387,6 +388,7 @@ yield
 handle_make_line
         
 except
+Exception
 :
             
 print

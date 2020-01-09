@@ -620,6 +620,7 @@ winrm
 )
         
 except
+Exception
 :
             
 return

@@ -106,9 +106,8 @@ key
 :
     
 if
-(
-not
 key
+not
 in
 searchinfo
 [
@@ -116,7 +115,6 @@ searchinfo
 default
 "
 ]
-)
 :
         
 print
@@ -161,10 +159,10 @@ visibleDefaultEngines
 "
 )
 if
-not
 "
 searchDefault
 "
+not
 in
 localeSearchInfo
 [
@@ -198,10 +196,12 @@ searchDefault
 "
 ]
 if
-not
+(
+    
 "
 searchOrder
 "
+not
 in
 localeSearchInfo
 [
@@ -209,6 +209,7 @@ localeSearchInfo
 default
 "
 ]
+    
 and
 "
 searchOrder
@@ -220,6 +221,7 @@ searchinfo
 default
 "
 ]
+)
 :
     
 localeSearchInfo
@@ -408,6 +410,8 @@ visibleDefaultEngines
 i
 ]
 =
+\
+                        
 regionOverrides
 [
 region

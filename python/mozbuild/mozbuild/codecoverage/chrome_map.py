@@ -1,15 +1,9 @@
-from
-collections
-import
-defaultdict
 import
 json
 import
 os
 import
 re
-import
-urlparse
 from
 mach
 .

@@ -34,6 +34,7 @@ tag
 setupexe
 package
 output
+                        
 package_name
 sfx_stub
 use_upx
