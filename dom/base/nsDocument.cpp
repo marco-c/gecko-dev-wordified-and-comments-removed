@@ -12247,7 +12247,7 @@ GetServiceWorkerTaintingSynthesized
 ;
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 IsCallerChromeOrAddon
@@ -15596,7 +15596,7 @@ mDocumentL10n
 ;
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 DocumentSupportsL10n
@@ -15896,7 +15896,7 @@ TriggerInitialDocumentTranslation
 }
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 IsWebAnimationsEnabled
@@ -15934,7 +15934,7 @@ AnimationsAPICoreEnabled
 ;
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 IsWebAnimationsEnabled
@@ -15972,7 +15972,7 @@ AnimationsAPICoreEnabled
 ;
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 IsWebAnimationsGetAnimationsEnabled
@@ -16010,7 +16010,7 @@ dom_animations_api_getAnimations_enabled
 ;
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 AreWebAnimationsImplicitKeyframesEnabled
@@ -16048,7 +16048,7 @@ dom_animations_api_implicit_keyframes_enabled
 ;
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 AreWebAnimationsTimelinesEnabled
