@@ -750,7 +750,7 @@ There
 is
 also
 a
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 /
 CompositorBridgeChild
 *
@@ -762,7 +762,7 @@ content
 process
 .
 The
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 *
 lives
 in
@@ -841,7 +841,7 @@ CompositorBridgeChild
 the
 corresponding
 *
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 has
 to
 use
