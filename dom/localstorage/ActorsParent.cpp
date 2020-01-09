@@ -5397,7 +5397,7 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aValue
 int64_t
@@ -5414,7 +5414,7 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aValue
 int64_t
@@ -5555,7 +5555,7 @@ WriteInfo
 nsString
 mKey
 ;
-nsString
+LSValue
 mValue
 ;
 public
@@ -5567,7 +5567,7 @@ nsAString
 &
 aKey
 const
-nsAString
+LSValue
 &
 aValue
 )
@@ -5595,7 +5595,7 @@ mKey
 ;
 }
 const
-nsAString
+LSValue
 &
 GetValue
 (
@@ -5650,7 +5650,7 @@ nsAString
 &
 aKey
 const
-nsAString
+LSValue
 &
 aValue
 )
@@ -6268,7 +6268,7 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aValue
 int64_t
@@ -6283,7 +6283,7 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aValue
 int64_t
@@ -6767,7 +6767,7 @@ mActiveDatabases
 nsDataHashtable
 <
 nsStringHashKey
-nsString
+LSValue
 >
 mValues
 ;
@@ -6857,7 +6857,7 @@ aQuotaObject
 nsDataHashtable
 <
 nsStringHashKey
-nsString
+LSValue
 >
 &
 aValues
@@ -7059,7 +7059,7 @@ const
 nsString
 &
 aKey
-nsString
+LSValue
 &
 aValue
 )
@@ -7092,11 +7092,11 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aOldValue
 const
-nsString
+LSValue
 &
 aValue
 )
@@ -7116,7 +7116,7 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aOldValue
 )
@@ -7205,7 +7205,7 @@ nsAString
 &
 aKey
 const
-nsAString
+LSValue
 &
 aOldValue
 bool
@@ -7232,11 +7232,11 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aOldValue
 const
-nsString
+LSValue
 &
 aNewValue
 )
@@ -7906,7 +7906,7 @@ mUnknownItems
 nsDataHashtable
 <
 nsStringHashKey
-nsString
+LSValue
 >
 mValues
 ;
@@ -8188,7 +8188,7 @@ nsAString
 &
 aKey
 const
-nsAString
+LSValue
 &
 aOldValue
 bool
@@ -8298,7 +8298,7 @@ const
 nsString
 &
 aKey
-nsString
+LSValue
 *
 aValue
 nsTArray
@@ -8416,11 +8416,11 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aOldValue
 const
-nsString
+LSValue
 &
 aNewValue
 )
@@ -8721,7 +8721,7 @@ mLoadDataOp
 nsDataHashtable
 <
 nsStringHashKey
-nsString
+LSValue
 >
 mValues
 ;
@@ -13850,7 +13850,7 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aValue
 int64_t
@@ -13948,7 +13948,7 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aValue
 int64_t
@@ -16276,7 +16276,7 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aValue
 int64_t
@@ -16313,7 +16313,7 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aValue
 int64_t
@@ -18045,7 +18045,7 @@ aQuotaObject
 nsDataHashtable
 <
 nsStringHashKey
-nsString
+LSValue
 >
 &
 aValues
@@ -19048,7 +19048,7 @@ Partial
 ;
 }
 ;
-nsString
+LSValue
 value
 ;
 bool
@@ -19248,7 +19248,7 @@ key
 )
 ;
 const
-nsString
+LSValue
 &
 value
 =
@@ -19455,7 +19455,7 @@ key
 )
 ;
 const
-nsString
+LSValue
 &
 value
 =
@@ -19688,7 +19688,7 @@ const
 nsString
 &
 aKey
-nsString
+LSValue
 &
 aValue
 )
@@ -19790,11 +19790,11 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aOldValue
 const
-nsString
+LSValue
 &
 aValue
 )
@@ -19819,7 +19819,7 @@ MOZ_ASSERT
 mInUpdateBatch
 )
 ;
-nsString
+LSValue
 oldValue
 ;
 GetItem
@@ -19834,20 +19834,6 @@ oldValue
 !
 =
 aValue
-|
-|
-oldValue
-.
-IsVoid
-(
-)
-!
-=
-aValue
-.
-IsVoid
-(
-)
 )
 {
 bool
@@ -20055,7 +20041,7 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aOldValue
 )
@@ -20080,7 +20066,7 @@ MOZ_ASSERT
 mInUpdateBatch
 )
 ;
-nsString
+LSValue
 oldValue
 ;
 GetItem
@@ -20193,7 +20179,7 @@ aDatabase
 aDocumentURI
 aKey
 aOldValue
-VoidString
+VoidLSValue
 (
 )
 )
@@ -20285,7 +20271,7 @@ Key
 )
 ;
 const
-nsAString
+LSValue
 &
 value
 =
@@ -20383,10 +20369,10 @@ aDocumentURI
 VoidString
 (
 )
-VoidString
+VoidLSValue
 (
 )
-VoidString
+VoidLSValue
 (
 )
 )
@@ -21000,7 +20986,7 @@ nsAString
 &
 aKey
 const
-nsAString
+LSValue
 &
 aOldValue
 bool
@@ -21192,11 +21178,11 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aOldValue
 const
-nsString
+LSValue
 &
 aNewValue
 )
@@ -22446,7 +22432,7 @@ nsAString
 &
 aKey
 const
-nsAString
+LSValue
 &
 aOldValue
 bool
@@ -22489,7 +22475,7 @@ aKey
 )
 )
 {
-nsString
+LSValue
 oldValue
 (
 aOldValue
@@ -23167,7 +23153,7 @@ const
 nsString
 &
 aKey
-nsString
+LSValue
 *
 aValue
 nsTArray
@@ -23476,7 +23462,7 @@ Count
 )
 )
 {
-nsString
+LSValue
 value
 ;
 auto
@@ -24062,11 +24048,11 @@ nsString
 &
 aKey
 const
-nsString
+LSValue
 &
 aOldValue
 const
-nsString
+LSValue
 &
 aNewValue
 )
@@ -30010,7 +29996,7 @@ rv
 ;
 }
 nsString
-value
+buffer
 ;
 rv
 =
@@ -30020,7 +30006,7 @@ stmt
 GetString
 (
 1
-value
+buffer
 )
 ;
 if
@@ -30038,6 +30024,12 @@ return
 rv
 ;
 }
+LSValue
+value
+(
+buffer
+)
+;
 mPrepareDatastoreOp
 -
 >
