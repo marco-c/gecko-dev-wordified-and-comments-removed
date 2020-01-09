@@ -1947,7 +1947,10 @@ js
 ObjectClassName
 "
 "
-JS_ObjectIsDate
+JS
+:
+:
+ObjectIsDate
 "
 "
 JS_ParseJSON
