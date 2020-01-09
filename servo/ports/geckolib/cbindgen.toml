@@ -534,6 +534,9 @@ Color
 "
 ColorOrAuto
 "
+"
+GradientItem
+"
 ]
 item_types
 =
