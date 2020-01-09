@@ -187,6 +187,10 @@ nsString
 &
 aDOMNodeID
 const
+nsString
+&
+aDescription
+const
 double
 &
 aCurVal
