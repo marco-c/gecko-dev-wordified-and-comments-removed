@@ -81,6 +81,11 @@ AuditController
 js
 '
 '
+AuditFilter
+.
+js
+'
+'
 Badge
 .
 js
