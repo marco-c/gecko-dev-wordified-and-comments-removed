@@ -261,7 +261,7 @@ source
 )
 ;
 const
-sourceClient
+sourceFront
 =
 gThreadClient
 .
@@ -273,7 +273,7 @@ source
 response
 =
 await
-sourceClient
+sourceFront
 .
 getBreakpointPositions
 (
@@ -348,7 +348,7 @@ column
 response
 =
 await
-sourceClient
+sourceFront
 .
 getBreakpointPositionsCompressed
 (

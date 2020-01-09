@@ -112,7 +112,7 @@ threadClient
 )
 ;
 const
-sourceClient
+sourceFront
 =
 threadClient
 .
@@ -131,7 +131,7 @@ threadClient
 {
 sourceUrl
 :
-sourceClient
+sourceFront
 .
 url
 line
@@ -147,7 +147,7 @@ threadClient
 {
 sourceUrl
 :
-sourceClient
+sourceFront
 .
 url
 line
@@ -184,7 +184,7 @@ colum
 ;
 blackBox
 (
-sourceClient
+sourceFront
 range
 )
 ;
@@ -228,7 +228,7 @@ threadClient
 ;
 unBlackBox
 (
-sourceClient
+sourceFront
 range
 )
 ;

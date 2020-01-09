@@ -3426,7 +3426,7 @@ async
 function
 blackBox
 (
-sourceClient
+sourceFront
 range
 =
 null
@@ -3441,7 +3441,7 @@ source
 :
 "
 +
-sourceClient
+sourceFront
 .
 actor
 )
@@ -3450,7 +3450,7 @@ const
 pausedInSource
 =
 await
-sourceClient
+sourceFront
 .
 blackBox
 (
@@ -3477,7 +3477,7 @@ async
 function
 unBlackBox
 (
-sourceClient
+sourceFront
 range
 =
 null
@@ -3494,13 +3494,13 @@ source
 :
 "
 +
-sourceClient
+sourceFront
 .
 actor
 )
 ;
 await
-sourceClient
+sourceFront
 .
 unblackBox
 (
@@ -3523,7 +3523,7 @@ throw
 function
 getSourceContent
 (
-sourceClient
+sourceFront
 )
 {
 dumpn
@@ -3535,13 +3535,13 @@ content
 for
 "
 +
-sourceClient
+sourceFront
 .
 actor
 )
 ;
 return
-sourceClient
+sourceFront
 .
 source
 (
@@ -4010,7 +4010,7 @@ await
 promise
 ;
 const
-sourceClient
+sourceFront
 =
 threadClient
 .
@@ -4024,7 +4024,7 @@ return
 global
 debuggerClient
 threadClient
-sourceClient
+sourceFront
 }
 ;
 }

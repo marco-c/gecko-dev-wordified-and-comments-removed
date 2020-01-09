@@ -283,7 +283,7 @@ error
 )
 ;
 const
-sourceClient
+sourceFront
 =
 gThreadClient
 .
@@ -314,7 +314,7 @@ pausedInSource
 await
 blackBox
 (
-sourceClient
+sourceFront
 )
 ;
 Assert

@@ -39,7 +39,7 @@ protocol
 )
 ;
 class
-SourceClient
+SourceFront
 extends
 FrontClassWithSpec
 (
@@ -352,12 +352,12 @@ newResponse
 }
 exports
 .
-SourceClient
+SourceFront
 =
-SourceClient
+SourceFront
 ;
 registerFront
 (
-SourceClient
+SourceFront
 )
 ;

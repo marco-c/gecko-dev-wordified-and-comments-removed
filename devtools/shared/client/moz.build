@@ -155,13 +155,6 @@ client
 js
 '
 '
-source
--
-client
-.
-js
-'
-'
 symbol
 -
 iterator

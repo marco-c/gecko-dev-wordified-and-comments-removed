@@ -96,7 +96,7 @@ await
 promise
 ;
 const
-sourceClient
+sourceFront
 =
 threadClient
 .
@@ -123,7 +123,7 @@ breakpointClient
 await
 setBreakpoint
 (
-sourceClient
+sourceFront
 location
 )
 ;
