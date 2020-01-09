@@ -1525,6 +1525,14 @@ UrlbarUtils
 RESULT_TYPE
 .
 SEARCH
+&
+&
+!
+result
+.
+payload
+.
+isKeywordOffer
 )
 {
 item
