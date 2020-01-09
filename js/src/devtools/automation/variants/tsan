@@ -123,8 +123,6 @@ tsan
 slow
 .
 txt
--
-j2
 "
 "
 JSTESTS_EXTRA_ARGS
@@ -148,8 +146,6 @@ jstests
 slow
 .
 txt
--
-j2
 "
 }
 "
