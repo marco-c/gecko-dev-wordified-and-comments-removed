@@ -1270,11 +1270,6 @@ inline
 size
 "
 "
-offset
--
-rotate
-"
-"
 padding
 -
 block
@@ -1626,6 +1621,11 @@ position
 offset
 -
 path
+"
+"
+offset
+-
+rotate
 "
 "
 order
