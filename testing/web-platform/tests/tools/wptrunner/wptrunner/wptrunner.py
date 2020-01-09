@@ -315,11 +315,6 @@ manifest_filters
 [
 ]
     
-meta_filters
-=
-[
-]
-    
 if
 kwargs
 [
@@ -400,34 +395,6 @@ default_exclude
 )
 )
     
-if
-kwargs
-[
-"
-tags
-"
-]
-:
-        
-meta_filters
-.
-append
-(
-testloader
-.
-TagFilter
-(
-tags
-=
-kwargs
-[
-"
-tags
-"
-]
-)
-)
-    
 ssl_enabled
 =
 sslutils
@@ -464,10 +431,6 @@ run_info
 manifest_filters
 =
 manifest_filters
-                                        
-meta_filters
-=
-meta_filters
                                         
 chunk_type
 =

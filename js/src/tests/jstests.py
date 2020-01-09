@@ -2791,6 +2791,9 @@ load_wpt_tests
 xul_tester
 requested_paths
 excluded_paths
+update_manifest
+=
+True
 )
 :
     
@@ -2970,6 +2973,14 @@ testing
 mozbase
 /
 mozrunner
+"
+        
+"
+testing
+/
+mozbase
+/
+mozversion
 "
         
 "
@@ -3257,6 +3268,8 @@ setup
 }
 )
     
+test_manifests
+=
 manifestupdate
 .
 run
@@ -3264,6 +3277,10 @@ run
 repo_root
 manifest_root
 logger
+                                        
+update
+=
+update_manifest
 )
     
 kwargs
@@ -3354,15 +3371,6 @@ set_from_config
 kwargs
 )
     
-test_paths
-=
-kwargs
-[
-"
-test_paths
-"
-]
-    
 def
 filter_jsshell_tests
 (
@@ -3371,53 +3379,36 @@ it
 :
         
 for
-test
+item_type
+path
+tests
 in
 it
 :
             
-if
-test
-[
-1
-]
-.
-get
+tests
+=
+set
 (
-"
+item
+for
+item
+in
+tests
+if
+item
+.
 jsshell
-"
 )
+            
+if
+tests
 :
                 
 yield
-test
-    
-test_manifests
-=
-testloader
-.
-ManifestLoader
-(
-test_paths
-types
-=
-[
-"
-testharness
-"
-]
-                                               
-meta_filters
-=
-[
-filter_jsshell_tests
-]
-)
-.
-load
-(
-)
+item_type
+path
+tests
     
 run_info_extras
 =
@@ -3525,6 +3516,7 @@ manifest_filters
 =
 [
 path_filter
+filter_jsshell_tests
 ]
 )
     
