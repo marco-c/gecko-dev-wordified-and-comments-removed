@@ -1030,10 +1030,9 @@ preference
 .
 policy
 -
-SanitizeOnShutdown
+SanitizeOnShutdown2
 =
 Clear
-all
 navigation
 data
 on
