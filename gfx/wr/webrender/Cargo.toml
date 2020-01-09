@@ -644,6 +644,13 @@ features
 =
 false
 }
+libc
+=
+"
+0
+.
+2
+"
 [
 target
 .
