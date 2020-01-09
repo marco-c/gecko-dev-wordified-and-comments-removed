@@ -299,6 +299,8 @@ clangTidyReadabilityModule
   
 clangTidyUtils
   
+clangTidyMPIModule
+  
 )
 "
 "
