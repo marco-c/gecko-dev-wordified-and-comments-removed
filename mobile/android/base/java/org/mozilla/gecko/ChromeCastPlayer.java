@@ -1184,7 +1184,7 @@ location
 "
 device
 .
-getIpAddress
+getInetAddress
 (
 )
 .
