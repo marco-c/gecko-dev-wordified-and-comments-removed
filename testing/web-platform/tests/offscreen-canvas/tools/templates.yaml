@@ -44,6 +44,11 @@ s
 /
 title
 >
+%
+(
+timeout
+)
+s
 <
 script
 src
