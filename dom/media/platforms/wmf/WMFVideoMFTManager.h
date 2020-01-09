@@ -302,11 +302,14 @@ mDecodedImageSize
 uint32_t
 mVideoStride
 ;
+Maybe
+<
 gfx
 :
 :
 YUVColorSpace
-mYUVColorSpace
+>
+mColorSpace
 ;
 RefPtr
 <
