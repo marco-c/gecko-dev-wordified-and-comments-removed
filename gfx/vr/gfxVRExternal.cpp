@@ -4322,7 +4322,7 @@ pthread_mutex_t
 mExternalShmem
 -
 >
-browserMutex
+geckoMutex
 )
 )
 =
@@ -4341,7 +4341,7 @@ void
 mExternalShmem
 -
 >
-browserState
+geckoState
 )
 aBrowserState
 sizeof
@@ -4366,7 +4366,7 @@ pthread_cond_t
 mExternalShmem
 -
 >
-browserCond
+geckoCond
 )
 )
 ;
@@ -4382,7 +4382,7 @@ pthread_mutex_t
 mExternalShmem
 -
 >
-browserMutex
+geckoMutex
 )
 )
 ;
@@ -4424,7 +4424,7 @@ status
 mExternalShmem
 -
 >
-browserGenerationA
+geckoGenerationA
 +
 +
 ;
@@ -4439,7 +4439,7 @@ void
 mExternalShmem
 -
 >
-browserState
+geckoState
 )
 (
 void
@@ -4455,14 +4455,14 @@ VRBrowserState
 mExternalShmem
 -
 >
-browserGenerationB
+geckoGenerationB
 +
 +
 ;
 mExternalShmem
 -
 >
-browserGenerationA
+geckoGenerationA
 +
 +
 ;
@@ -4477,7 +4477,7 @@ void
 mExternalShmem
 -
 >
-browserState
+geckoState
 )
 (
 void
@@ -4493,7 +4493,7 @@ VRBrowserState
 mExternalShmem
 -
 >
-browserGenerationB
+geckoGenerationB
 +
 +
 ;
