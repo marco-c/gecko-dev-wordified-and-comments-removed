@@ -303,17 +303,11 @@ js
 namespace
 jit
 {
-class
-AutoKeepJitScripts
-;
 struct
 BaselineScript
 ;
 struct
 IonScriptCounts
-;
-class
-JitScript
 ;
 }
 #
@@ -381,6 +375,9 @@ BaselineScript
 0x1
 )
 class
+AutoKeepJitScripts
+;
+class
 AutoSweepJitScript
 ;
 class
@@ -406,6 +403,9 @@ SourceCompressionTask
 ;
 class
 Shape
+;
+class
+JitScript
 ;
 namespace
 frontend
@@ -6823,9 +6823,6 @@ private
 js
 :
 :
-jit
-:
-:
 JitScript
 *
 jitScript_
@@ -10608,9 +10605,6 @@ cx
 js
 :
 :
-jit
-:
-:
 AutoKeepJitScripts
 &
 )
@@ -10629,9 +10623,6 @@ nullptr
 ;
 }
 js
-:
-:
-jit
 :
 :
 JitScript
