@@ -470,6 +470,16 @@ false
 "
 ui
 .
+GtkCSDHideTitlebarByDefault
+"
+eIntID_GTKCSDHideTitlebarByDefault
+false
+0
+}
+{
+"
+ui
+.
 GtkCSDTransparentBackground
 "
 eIntID_GTKCSDTransparentBackground

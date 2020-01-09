@@ -13971,6 +13971,7 @@ prefs
 getBoolPref
 (
 kPrefDrawInTitlebar
+false
 )
 ;
 gUIStateBeforeReset
