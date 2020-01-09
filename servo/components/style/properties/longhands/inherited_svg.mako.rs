@@ -1288,9 +1288,6 @@ None
 vector
 =
 True
-need_index
-=
-True
 animation_value_type
 =
 "
