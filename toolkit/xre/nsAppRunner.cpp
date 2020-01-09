@@ -20059,9 +20059,6 @@ ifdef
 MOZ_BLOCK_PROFILE_DOWNGRADE
 if
 (
-isDowngrade
-&
-&
 !
 CheckArg
 (
@@ -20071,6 +20068,9 @@ allow
 downgrade
 "
 )
+&
+&
+isDowngrade
 )
 {
 rv
