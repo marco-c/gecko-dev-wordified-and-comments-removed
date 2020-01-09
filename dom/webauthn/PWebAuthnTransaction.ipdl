@@ -350,15 +350,6 @@ attestationConveyancePreference
 ;
 }
 ;
-union
-WebAuthnMaybeMakeCredentialExtraInfo
-{
-WebAuthnMakeCredentialExtraInfo
-;
-null_t
-;
-}
-;
 struct
 WebAuthnMakeCredentialInfo
 {
@@ -384,7 +375,8 @@ WebAuthnScopedCredential
 ]
 ExcludeList
 ;
-WebAuthnMaybeMakeCredentialExtraInfo
+WebAuthnMakeCredentialExtraInfo
+?
 Extra
 ;
 }

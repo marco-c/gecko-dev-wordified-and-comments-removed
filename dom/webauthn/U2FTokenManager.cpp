@@ -1263,15 +1263,9 @@ Extra
 (
 )
 .
-type
+isSome
 (
 )
-=
-=
-WebAuthnMaybeMakeCredentialExtraInfo
-:
-:
-TWebAuthnMakeCredentialExtraInfo
 )
 {
 const
@@ -1285,7 +1279,7 @@ Extra
 (
 )
 .
-get_WebAuthnMakeCredentialExtraInfo
+ref
 (
 )
 ;
