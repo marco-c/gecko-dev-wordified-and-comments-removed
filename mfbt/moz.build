@@ -211,6 +211,11 @@ Compression
 h
 '
 '
+DbgMacro
+.
+h
+'
+'
 DebugOnly
 .
 h
