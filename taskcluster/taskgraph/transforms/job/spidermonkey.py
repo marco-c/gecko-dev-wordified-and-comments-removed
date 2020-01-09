@@ -254,11 +254,6 @@ name
 '
 :
 '
-level
--
-{
-}
--
 {
 }
 -
@@ -271,15 +266,6 @@ workspace
 .
 format
 (
-            
-config
-.
-params
-[
-'
-level
-'
-]
 config
 .
 params
