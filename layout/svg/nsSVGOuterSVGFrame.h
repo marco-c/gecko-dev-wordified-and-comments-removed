@@ -325,7 +325,13 @@ IsFrameOfType
 aFlags
 &
 ~
+(
 eSupportsContainLayoutAndPaint
+|
+eReplaced
+|
+eReplacedSizing
+)
 )
 ;
 }
