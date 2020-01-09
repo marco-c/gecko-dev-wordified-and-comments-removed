@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 import
 ConfigParser
 import
@@ -1085,12 +1081,10 @@ import
 traceback
             
 print
-(
 traceback
 .
 format_exc
 (
-)
 )
             
 pdb

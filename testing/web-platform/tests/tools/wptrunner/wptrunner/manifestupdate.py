@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 import
 itertools
 import
@@ -572,7 +568,6 @@ child_map
 :
             
 print
-(
 "
 Warning
 :
@@ -585,7 +580,6 @@ s
 child
 .
 id
-)
         
 self
 .

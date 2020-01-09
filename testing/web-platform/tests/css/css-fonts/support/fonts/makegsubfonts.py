@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 import
 os
 import
@@ -2929,7 +2925,6 @@ close
 (
 )
 print
-(
 "
 Making
 lookup
@@ -2940,12 +2935,10 @@ font
 .
 .
 "
-)
 makeLookup1
 (
 )
 print
-(
 "
 Making
 lookup
@@ -2956,12 +2949,10 @@ font
 .
 .
 "
-)
 makeLookup3
 (
 )
 print
-(
 "
 Making
 javascript
@@ -2971,7 +2962,6 @@ file
 .
 .
 "
-)
 makeJavascriptData
 (
 )

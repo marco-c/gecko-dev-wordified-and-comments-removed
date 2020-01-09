@@ -19,7 +19,9 @@ service
 workers
 '
 '
-html
+dedicated
+-
+workers
 '
 '
 dom

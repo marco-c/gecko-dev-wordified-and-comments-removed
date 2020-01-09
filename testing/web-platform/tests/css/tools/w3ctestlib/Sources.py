@@ -1,8 +1,4 @@
 from
-__future__
-import
-print_function
-from
 os
 .
 path
@@ -8088,7 +8084,6 @@ e
 :
       
 print
-(
 "
 PARSE
 ERROR
@@ -8098,7 +8093,6 @@ ERROR
 self
 .
 sourcepath
-)
       
 self
 .
@@ -12416,7 +12410,6 @@ e
 :
       
 print
-(
 "
 PARSE
 ERROR
@@ -12426,7 +12419,6 @@ ERROR
 self
 .
 sourcepath
-)
       
 e
 .

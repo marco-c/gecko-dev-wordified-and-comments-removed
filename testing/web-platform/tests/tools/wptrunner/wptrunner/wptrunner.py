@@ -1,7 +1,6 @@
 from
 __future__
 import
-print_function
 unicode_literals
 import
 json
@@ -556,9 +555,7 @@ test_types
 :
         
 print
-(
 item
-)
 def
 list_disabled
 (
@@ -667,7 +664,6 @@ disabled
 )
     
 print
-(
 json
 .
 dumps
@@ -676,7 +672,6 @@ rv
 indent
 =
 2
-)
 )
 def
 list_tests
@@ -746,9 +741,7 @@ test_ids
 :
         
 print
-(
 test
-)
 def
 get_pause_after_test
 (
@@ -2426,12 +2419,10 @@ import
 traceback
             
 print
-(
 traceback
 .
 format_exc
 (
-)
 )
             
 pdb
