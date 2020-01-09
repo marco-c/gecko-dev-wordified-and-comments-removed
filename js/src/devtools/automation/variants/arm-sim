@@ -22,15 +22,6 @@ i686
 pc
 -
 linux
--
--
-host
-=
-i686
--
-pc
--
-linux
 "
 "
 optimize
