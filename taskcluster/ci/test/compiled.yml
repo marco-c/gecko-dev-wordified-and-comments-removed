@@ -113,7 +113,7 @@ windows
 -
 unittests
 /
-win_taskcluster_unittest
+win_unittest
 .
 py
 cppunit

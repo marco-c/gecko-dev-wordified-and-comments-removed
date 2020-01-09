@@ -820,7 +820,7 @@ windows
 -
 unittests
 /
-win_taskcluster_unittest
+win_unittest
 .
 py
 extra
@@ -1132,7 +1132,7 @@ windows
 -
 unittests
 /
-win_taskcluster_unittest
+win_unittest
 .
 py
 extra
@@ -1330,7 +1330,7 @@ windows
 -
 unittests
 /
-win_taskcluster_unittest
+win_unittest
 .
 py
 extra
@@ -1575,7 +1575,7 @@ windows
 -
 unittests
 /
-win_taskcluster_unittest
+win_unittest
 .
 py
 extra
