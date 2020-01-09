@@ -1907,6 +1907,17 @@ pushd
 dirname
 INSTALL_DIR
 )
+rm
+-
+f
+clang
+/
+lib
+/
+libstdc
++
++
+*
 tar
 caf
 clangmingw
