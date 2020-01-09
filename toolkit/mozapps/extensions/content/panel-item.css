@@ -6,6 +6,10 @@ color
 :
 transparent
 ;
+color
+:
+inherit
+;
 background
 -
 image
