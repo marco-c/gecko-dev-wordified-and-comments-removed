@@ -16,13 +16,13 @@ browser
 /
 browser
 /
-base
+components
 /
-content
+places
 /
-test
+tests
 /
-general
+browser
 /
 dummy_page
 .
