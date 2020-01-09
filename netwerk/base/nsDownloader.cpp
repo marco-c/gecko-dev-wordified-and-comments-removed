@@ -309,9 +309,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsresult
 status
 )
@@ -340,7 +337,7 @@ OnDownloadComplete
 (
 this
 request
-ctxt
+nullptr
 status
 mLocation
 )

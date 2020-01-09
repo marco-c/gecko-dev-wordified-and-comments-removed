@@ -889,7 +889,6 @@ mObserver
 OnStopRequest
 (
 this
-mObserverContext
 mStatus
 )
 ;
@@ -2877,9 +2876,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsresult
 status
 )

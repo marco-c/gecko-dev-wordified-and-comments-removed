@@ -3670,9 +3670,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )
@@ -3724,7 +3721,6 @@ mListener
 OnStopRequest
 (
 this
-nullptr
 mStatus
 )
 ;

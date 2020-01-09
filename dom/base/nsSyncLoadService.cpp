@@ -383,9 +383,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -397,7 +394,6 @@ mListener
 OnStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;
@@ -1021,9 +1017,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -1056,7 +1049,6 @@ mListener
 OnStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;
@@ -1605,7 +1597,6 @@ aListener
 OnStopRequest
 (
 aChannel
-nullptr
 rv
 )
 ;

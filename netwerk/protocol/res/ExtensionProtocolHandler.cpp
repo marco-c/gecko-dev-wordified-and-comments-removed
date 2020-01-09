@@ -1124,7 +1124,6 @@ aListener
 OnStopRequest
 (
 aChannel
-nullptr
 aResult
 )
 ;

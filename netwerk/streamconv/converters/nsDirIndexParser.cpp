@@ -381,9 +381,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsresult
 aStatusCode
 )
@@ -405,7 +402,7 @@ mLineStart
 ProcessData
 (
 aRequest
-aCtxt
+nullptr
 )
 ;
 }

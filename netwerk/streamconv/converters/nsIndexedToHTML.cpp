@@ -4807,9 +4807,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )
@@ -4856,7 +4853,7 @@ aStatus
 SendToListener
 (
 request
-aContext
+nullptr
 buffer
 )
 ;
@@ -4867,7 +4864,6 @@ mParser
 OnStopRequest
 (
 request
-aContext
 aStatus
 )
 ;
@@ -4882,7 +4878,6 @@ mListener
 OnStopRequest
 (
 request
-aContext
 aStatus
 )
 ;

@@ -1287,9 +1287,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -1444,7 +1441,6 @@ mListener
 OnStopRequest
 (
 aRequest
-mParser
 aStatusCode
 )
 ;

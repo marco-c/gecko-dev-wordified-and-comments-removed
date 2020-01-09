@@ -1386,7 +1386,6 @@ mListener
 OnStopRequest
 (
 this
-nullptr
 statusCode
 )
 ;
@@ -1608,7 +1607,6 @@ mListener
 OnStopRequest
 (
 this
-nullptr
 mStatus
 )
 ;

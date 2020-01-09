@@ -2232,9 +2232,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -2340,7 +2337,6 @@ mOrigListener
 OnStopRequest
 (
 mChannel
-mContext
 aStatusCode
 )
 ;

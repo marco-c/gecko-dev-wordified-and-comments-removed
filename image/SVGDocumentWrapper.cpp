@@ -1044,9 +1044,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 nsresult
 status
 )
@@ -1062,7 +1059,6 @@ mListener
 OnStopRequest
 (
 aRequest
-ctxt
 status
 )
 ;

@@ -3096,9 +3096,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -5127,14 +5124,6 @@ observer
 =
 mProcessObserver
 ;
-nsCOMPtr
-<
-nsISupports
->
-context
-=
-mProcessContext
-;
 mProcessObserver
 =
 nullptr
@@ -5157,7 +5146,6 @@ observer
 OnStopRequest
 (
 nullptr
-context
 aStatus
 )
 ;

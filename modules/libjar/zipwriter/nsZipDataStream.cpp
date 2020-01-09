@@ -329,9 +329,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -353,7 +350,6 @@ mOutput
 OnStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;
@@ -692,7 +688,6 @@ rv
 OnStopRequest
 (
 nullptr
-nullptr
 rv
 )
 ;
@@ -733,7 +728,6 @@ rv
 OnStopRequest
 (
 nullptr
-nullptr
 rv
 )
 ;
@@ -758,7 +752,6 @@ read
 return
 OnStopRequest
 (
-nullptr
 nullptr
 NS_OK
 )

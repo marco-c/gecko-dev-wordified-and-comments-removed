@@ -4913,9 +4913,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 nsresult
 status
 )
@@ -5034,7 +5031,6 @@ mObserver
 OnStopRequest
 (
 request
-aContext
 status
 )
 ;
