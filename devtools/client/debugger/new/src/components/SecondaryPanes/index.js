@@ -65,7 +65,6 @@ import
 getTopFrame
 getBreakpointsList
 getBreakpointsDisabled
-getBreakpointsLoading
 getExpressions
 getIsWaitingOnBreak
 getMapScopes
@@ -386,9 +385,6 @@ Frame
 breakpointsDisabled
 :
 boolean
-breakpointsLoading
-:
-boolean
 isWaitingOnBreak
 :
 boolean
@@ -562,7 +558,6 @@ const
 toggleAllBreakpoints
 breakpoints
 breakpointsDisabled
-breakpointsLoading
 }
 =
 this
@@ -655,7 +650,7 @@ toggle
 "
 disabled
 :
-breakpointsLoading
+false
 key
 :
 "
@@ -2196,12 +2191,6 @@ state
 breakpointsDisabled
 :
 getBreakpointsDisabled
-(
-state
-)
-breakpointsLoading
-:
-getBreakpointsLoading
 (
 state
 )

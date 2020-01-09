@@ -246,7 +246,6 @@ componentWillUnmount
 {
 const
 {
-breakpoint
 selectedSource
 }
 =
@@ -258,11 +257,6 @@ if
 (
 !
 selectedSource
-|
-|
-breakpoint
-.
-loading
 )
 {
 return
@@ -686,11 +680,6 @@ if
 (
 !
 selectedSource
-|
-|
-breakpoint
-.
-loading
 )
 {
 return

@@ -280,10 +280,6 @@ generatedLocation
 :
 SourceLocation
 +
-loading
-:
-boolean
-+
 disabled
 :
 boolean
@@ -421,10 +417,6 @@ ASTLocation
 generatedLocation
 :
 PendingLocation
-+
-loading
-:
-boolean
 +
 disabled
 :

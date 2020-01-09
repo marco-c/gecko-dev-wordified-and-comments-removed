@@ -251,9 +251,6 @@ generatedLocation
 disabled
 :
 false
-loading
-:
-false
 options
 :
 breakpoint
@@ -336,16 +333,6 @@ ThunkArgs
 =
 >
 {
-if
-(
-breakpoint
-.
-loading
-)
-{
-return
-;
-}
 const
 enabledBreakpoint
 =

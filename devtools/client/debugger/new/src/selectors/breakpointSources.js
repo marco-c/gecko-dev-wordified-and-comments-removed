@@ -160,12 +160,6 @@ options
 hidden
 &
 &
-!
-bp
-.
-loading
-&
-&
 (
 bp
 .
