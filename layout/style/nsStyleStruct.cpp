@@ -8176,7 +8176,7 @@ NS_STYLE_HINT_REFLOW
 }
 }
 static
-StyleRGBA
+nscolor
 DefaultColor
 (
 const
@@ -8186,11 +8186,6 @@ aDocument
 )
 {
 return
-StyleRGBA
-:
-:
-FromColor
-(
 PreferenceSheet
 :
 :
@@ -8200,7 +8195,6 @@ aDocument
 )
 .
 mDefaultColor
-)
 ;
 }
 nsStyleColor

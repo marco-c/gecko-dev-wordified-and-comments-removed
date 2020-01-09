@@ -1768,10 +1768,6 @@ aStyle
 fontSmoothingBackgroundColor
 =
 fontSmoothingBackgroundColor
-.
-ToColor
-(
-)
 ;
 }
 void

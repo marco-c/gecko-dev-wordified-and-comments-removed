@@ -77,13 +77,13 @@ ToCss
 ;
 pub
 type
-ColorPropertyValue
+RGBAColor
 =
 RGBA
 ;
 pub
 type
-MozFontSmoothingBackgroundColor
+ColorPropertyValue
 =
 RGBA
 ;
@@ -93,7 +93,7 @@ Color
 =
 GenericColor
 <
-RGBA
+RGBAColor
 >
 ;
 impl

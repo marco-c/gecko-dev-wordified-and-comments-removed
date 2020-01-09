@@ -47,10 +47,10 @@ color
 Color
 "
 "
-computed
+computed_value
 :
 :
-Color
+T
 :
 :
 transparent

@@ -979,9 +979,6 @@ aElement
 namespace
 mozilla
 {
-struct
-StyleRGBA
-;
 namespace
 gfx
 {
@@ -989,15 +986,6 @@ Color
 ToDeviceColor
 (
 Color
-aColor
-)
-;
-Color
-ToDeviceColor
-(
-const
-StyleRGBA
-&
 aColor
 )
 ;

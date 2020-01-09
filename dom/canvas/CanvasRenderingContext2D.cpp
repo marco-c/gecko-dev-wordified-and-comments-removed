@@ -5156,10 +5156,6 @@ StyleColor
 -
 >
 mColor
-.
-ToColor
-(
-)
 ;
 }
 }

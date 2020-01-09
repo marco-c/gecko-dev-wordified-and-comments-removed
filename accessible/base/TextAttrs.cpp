@@ -1747,10 +1747,6 @@ StyleColor
 -
 >
 mColor
-.
-ToColor
-(
-)
 ;
 mIsRootDefined
 =
@@ -1772,10 +1768,6 @@ StyleColor
 -
 >
 mColor
-.
-ToColor
-(
-)
 ;
 mIsDefined
 =
@@ -1822,8 +1814,6 @@ if
 elm
 )
 {
-if
-(
 nsIFrame
 *
 frame
@@ -1834,6 +1824,10 @@ elm
 GetPrimaryFrame
 (
 )
+;
+if
+(
+frame
 )
 {
 *
@@ -1848,10 +1842,6 @@ StyleColor
 -
 >
 mColor
-.
-ToColor
-(
-)
 ;
 return
 true
