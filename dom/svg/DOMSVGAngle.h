@@ -37,6 +37,9 @@ namespace
 dom
 {
 class
+SVGSVGElement
+;
+class
 DOMSVGAngle
 final
 :
@@ -91,7 +94,7 @@ aType
 explicit
 DOMSVGAngle
 (
-SVGElement
+SVGSVGElement
 *
 aSVGElement
 )
