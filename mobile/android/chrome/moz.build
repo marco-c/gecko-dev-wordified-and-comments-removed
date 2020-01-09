@@ -136,12 +136,10 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
-for
-Android
-'
-'
 GeckoView
+'
+'
+General
 '
 )
 DIRS
