@@ -573,7 +573,9 @@ check
 "
 )
 ;
-is_element_hidden
+BrowserTestUtils
+.
+is_hidden
 (
 urlHbox
 "
