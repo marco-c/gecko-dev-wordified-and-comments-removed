@@ -5631,7 +5631,11 @@ pageActionContextMenu
 return
 Array
 .
+prototype
+.
 filter
+.
+call
 (
 contextMenu
 .

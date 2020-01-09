@@ -201,14 +201,12 @@ ASCII
 serialized
 )
 ;
-Array
-.
-forEach
+for
 (
-serialized
-function
-(
+let
 ch
+of
+serialized
 )
 {
 let
@@ -251,8 +249,6 @@ checkCount
 +
 ;
 }
-)
-;
 _
 (
 "

@@ -434,7 +434,11 @@ aValue
 else
 Array
 .
+prototype
+.
 forEach
+.
+call
 (
 node
 .
@@ -577,7 +581,11 @@ selectedIndex
 return
 Array
 .
+prototype
+.
 every
+.
+call
 (
 node
 .

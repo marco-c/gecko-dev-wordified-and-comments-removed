@@ -535,7 +535,9 @@ _win
 .
 Array
 .
-indexOf
+prototype
+.
+forEach
 (
 )
 ;
@@ -546,7 +548,9 @@ testThrowSelfHosted
 {
 Array
 .
-indexOf
+prototype
+.
+forEach
 (
 )
 ;

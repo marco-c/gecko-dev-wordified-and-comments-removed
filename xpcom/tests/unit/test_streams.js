@@ -151,7 +151,7 @@ HelloArray
 =
 Array
 .
-map
+from
 (
 HelloStr
 function

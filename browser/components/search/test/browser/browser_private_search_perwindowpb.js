@@ -377,7 +377,7 @@ searchBar
 return
 Array
 .
-map
+from
 (
 searchBar
 .

@@ -124,6 +124,10 @@ function
 scheduleTest
 (
 aFunc
+.
+.
+.
+aFuncArgs
 )
 {
 var
@@ -135,13 +139,7 @@ func
 aFunc
 funcArgs
 :
-Array
-.
-slice
-(
-arguments
-1
-)
+aFuncArgs
 }
 ;
 this

@@ -366,7 +366,11 @@ is
 (
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 gBrowser
 .

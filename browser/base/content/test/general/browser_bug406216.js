@@ -192,7 +192,7 @@ scheme
 ;
 Array
 .
-slice
+from
 (
 gBrowser
 .

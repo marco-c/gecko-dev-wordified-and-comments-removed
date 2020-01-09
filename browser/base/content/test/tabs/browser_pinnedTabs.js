@@ -10,7 +10,11 @@ tab
 return
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 gBrowser
 .

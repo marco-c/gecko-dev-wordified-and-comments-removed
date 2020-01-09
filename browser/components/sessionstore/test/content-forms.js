@@ -468,7 +468,7 @@ data
 return
 Array
 .
-map
+from
 (
 input
 .
@@ -520,7 +520,11 @@ data
 ;
 Array
 .
+prototype
+.
 forEach
+.
+call
 (
 input
 .

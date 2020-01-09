@@ -241,7 +241,11 @@ is
 (
 Array
 .
+prototype
+.
 every
+.
+call
 (
 document
 .
@@ -662,7 +666,11 @@ is
 (
 Array
 .
+prototype
+.
 every
+.
+call
 (
 document
 .
@@ -1110,7 +1118,11 @@ ok
 (
 Array
 .
+prototype
+.
 every
+.
+call
 (
 document
 .
@@ -1469,7 +1481,11 @@ ok
 (
 Array
 .
+prototype
+.
 every
+.
+call
 (
 document
 .

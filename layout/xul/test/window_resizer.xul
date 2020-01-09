@@ -674,7 +674,11 @@ resizer
 ;
 Array
 .
+prototype
+.
 forEach
+.
+call
 (
 resizers
 function
@@ -746,7 +750,11 @@ rtl
 ;
 Array
 .
+prototype
+.
 forEach
+.
+call
 (
 resizers
 function

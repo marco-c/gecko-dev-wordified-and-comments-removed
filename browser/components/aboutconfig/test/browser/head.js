@@ -544,7 +544,7 @@ hidden
 return
 Array
 .
-map
+from
 (
 elements
 element

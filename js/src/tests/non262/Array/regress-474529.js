@@ -119,7 +119,11 @@ print
 (
 Array
 .
+prototype
+.
 join
+.
+call
 (
 arguments
 "

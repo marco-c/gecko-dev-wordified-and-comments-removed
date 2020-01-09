@@ -271,11 +271,15 @@ is
 (
 Array
 .
-filter
+from
 (
 container
 .
 childNodes
+)
+.
+filter
+(
 e
 =
 >

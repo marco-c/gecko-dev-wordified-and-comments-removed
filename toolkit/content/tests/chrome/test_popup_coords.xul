@@ -765,7 +765,11 @@ event
 rangeOffset
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 trigger
 .

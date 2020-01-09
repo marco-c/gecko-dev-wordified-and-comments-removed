@@ -910,7 +910,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 body
 .
@@ -1056,7 +1056,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 body
 .
@@ -1853,7 +1853,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 body
 .
@@ -1955,7 +1955,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 body
 .
@@ -2587,7 +2587,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 body
 .
@@ -2735,7 +2735,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 body
 .
@@ -3131,7 +3131,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 body
 .
@@ -3237,7 +3237,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 body
 .

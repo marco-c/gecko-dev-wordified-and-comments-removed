@@ -203,7 +203,7 @@ titles
 =
 Array
 .
-map
+from
 (
 sheets
 ss

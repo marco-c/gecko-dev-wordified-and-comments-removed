@@ -1321,7 +1321,11 @@ menuItems
 =
 Array
 .
+prototype
+.
 filter
+.
+call
 (
 menu
 .

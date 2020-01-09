@@ -263,7 +263,7 @@ getMenuEntries
 return
 Array
 .
-map
+from
 (
 searchBar
 .

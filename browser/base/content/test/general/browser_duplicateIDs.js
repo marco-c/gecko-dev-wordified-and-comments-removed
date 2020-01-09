@@ -11,7 +11,11 @@ ids
 ;
 Array
 .
+prototype
+.
 forEach
+.
+call
 (
 document
 .

@@ -70,7 +70,11 @@ is
 (
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 gBrowser
 .
@@ -125,7 +129,11 @@ is
 (
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 gBrowser
 .

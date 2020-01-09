@@ -4816,7 +4816,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 BrowserPageActions
 .
@@ -5090,7 +5090,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 BrowserPageActions
 .
@@ -5353,7 +5353,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 BrowserPageActions
 .
@@ -9065,7 +9065,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 BrowserPageActions
 .
@@ -9236,7 +9236,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 BrowserPageActions
 .
@@ -9366,7 +9366,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 BrowserPageActions
 .
@@ -9577,7 +9577,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 BrowserPageActions
 .
@@ -9763,7 +9763,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 BrowserPageActions
 .
@@ -9919,7 +9919,7 @@ deepEqual
 (
 Array
 .
-map
+from
 (
 BrowserPageActions
 .
@@ -10804,7 +10804,11 @@ pageActionContextMenu
 return
 Array
 .
+prototype
+.
 filter
+.
+call
 (
 contextMenu
 .

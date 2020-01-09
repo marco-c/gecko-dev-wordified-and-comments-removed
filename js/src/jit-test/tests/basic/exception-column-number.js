@@ -2,7 +2,7 @@ try
 {
 Array
 .
-indexOf
+from
 (
 )
 ;
