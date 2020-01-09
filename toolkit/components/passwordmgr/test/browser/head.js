@@ -531,6 +531,9 @@ aKind
 popupNotifications
 =
 PopupNotifications
+browser
+=
+null
 )
 {
 ok
@@ -559,6 +562,7 @@ getNotification
 "
 password
 "
+browser
 )
 ;
 if
