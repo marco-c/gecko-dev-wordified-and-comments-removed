@@ -1328,11 +1328,11 @@ aHandle
 )
 ;
 typedef
-uint32_t
+ContainerFrameID
 FrameID
 ;
 typedef
-uint32_t
+ContainerProducerID
 ProducerID
 ;
 RefPtr

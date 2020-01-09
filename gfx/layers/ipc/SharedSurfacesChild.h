@@ -76,6 +76,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+ImageTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -258,6 +265,8 @@ wr
 ImageKey
 &
 aKey
+ContainerProducerID
+aProducerId
 )
 ;
 static

@@ -484,6 +484,9 @@ RequestPaintIfNeeded
 FrameSet
 *
 aFrameSet
+imgIRequest
+*
+aRequest
 bool
 aForcePaint
 )

@@ -56,6 +56,13 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+ImageTypes
+.
+h
+"
 class
 nsDisplayItemGeometry
 ;
@@ -198,6 +205,8 @@ nsIFrame
 aFrame
 DisplayItemType
 aType
+ContainerProducerID
+aProducerId
 )
 ;
 NS_INLINE_DECL_REFCOUNTING
@@ -710,6 +719,8 @@ isSome
 bool
 UsingSharedSurface
 (
+ContainerProducerID
+aProducerId
 )
 const
 ;
