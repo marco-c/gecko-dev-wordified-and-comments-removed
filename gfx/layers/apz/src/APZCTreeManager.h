@@ -938,6 +938,18 @@ ScreenCoord
 aDeltaY
 )
 ;
+already_AddRefed
+<
+AsyncPanZoomController
+>
+FindZoomableApzc
+(
+AsyncPanZoomController
+*
+aStart
+)
+const
+;
 private
 :
 typedef
@@ -1119,7 +1131,7 @@ already_AddRefed
 <
 AsyncPanZoomController
 >
-GetMultitouchTarget
+GetZoomableTarget
 (
 AsyncPanZoomController
 *
