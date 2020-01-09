@@ -32,7 +32,6 @@ do_get_profile
 (
 )
 ;
-var
 plugin
 =
 get_test_plugintag
