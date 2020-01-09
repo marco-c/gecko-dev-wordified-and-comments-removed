@@ -6101,6 +6101,11 @@ Space
 :
 case
 "
+NumpadEnter
+"
+:
+case
+"
 Enter
 "
 :
