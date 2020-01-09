@@ -122,7 +122,7 @@ i
 writable
 "
 :
-false
+true
 "
 enumerable
 "
@@ -132,7 +132,7 @@ true
 configurable
 "
 :
-false
+true
 }
 )
 ;
@@ -144,11 +144,6 @@ result
 length
 "
 {
-"
-writable
-"
-:
-false
 "
 enumerable
 "
