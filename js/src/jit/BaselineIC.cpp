@@ -5696,6 +5696,11 @@ Linker
 linker
 (
 masm
+)
+;
+AutoFlushICache
+afc
+(
 "
 getStubCode
 "
