@@ -4826,6 +4826,11 @@ nsIFocusManager
 :
 :
 FLAG_BYKEY
+|
+nsIFocusManager
+:
+:
+FLAG_BYELEMENTFOCUS
 )
 ;
 focusChanged
