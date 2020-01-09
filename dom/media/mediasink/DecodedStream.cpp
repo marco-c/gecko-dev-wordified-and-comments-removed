@@ -915,9 +915,6 @@ DecodedStreamGraphListener
 >
 mListener
 ;
-bool
-mEOSVideoCompensation
-;
 const
 RefPtr
 <
@@ -1040,10 +1037,6 @@ aVideoEndedPromise
 )
 aMainThread
 )
-)
-mEOSVideoCompensation
-(
-false
 )
 mOutputStreamManager
 (
@@ -3376,6 +3369,11 @@ mDisplay
 ;
 }
 }
+bool
+compensateEOS
+=
+false
+;
 if
 (
 output
@@ -3385,10 +3383,7 @@ GetLastFrame
 )
 )
 {
-mData
--
->
-mEOSVideoCompensation
+compensateEOS
 =
 ZeroDurationAtLastChunk
 (
@@ -3455,10 +3450,7 @@ mHaveSentFinishVideo
 {
 if
 (
-mData
--
->
-mEOSVideoCompensation
+compensateEOS
 )
 {
 VideoSegment
