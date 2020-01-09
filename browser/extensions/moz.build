@@ -93,6 +93,9 @@ DIRS
 formautofill
 '
 '
+fxmonitor
+'
+'
 pdfjs
 '
 '
