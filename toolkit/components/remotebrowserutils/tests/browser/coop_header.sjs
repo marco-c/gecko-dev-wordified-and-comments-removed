@@ -24,6 +24,17 @@ coop
 request
 .
 queryString
+.
+replace
+(
+/
+\
+.
+/
+g
+'
+'
+)
 ;
 if
 (
