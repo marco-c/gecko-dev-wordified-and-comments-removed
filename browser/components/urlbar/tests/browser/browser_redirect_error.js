@@ -34,7 +34,7 @@ REDIRECT_FROM
 {
 TEST_PATH
 }
-redirect_bug623155
+redirect_error
 .
 sjs
 ;
