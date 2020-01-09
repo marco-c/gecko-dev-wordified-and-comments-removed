@@ -94,6 +94,9 @@ namespace
 dom
 {
 class
+BrowsingContext
+;
+class
 XULFrameElement
 final
 :
@@ -140,7 +143,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 XULFrameElement
 nsXULElement
 )
-nsIDocShell
+nsDocShell
 *
 GetDocShell
 (
@@ -362,9 +365,9 @@ nsFrameLoader
 >
 mFrameLoader
 ;
-nsCOMPtr
+RefPtr
 <
-nsPIDOMWindowOuter
+BrowsingContext
 >
 mOpener
 ;

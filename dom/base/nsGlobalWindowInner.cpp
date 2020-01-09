@@ -15060,8 +15060,10 @@ nullptr
 )
 ;
 }
-nsPIDOMWindowOuter
-*
+already_AddRefed
+<
+BrowsingContext
+>
 nsGlobalWindowInner
 :
 :
@@ -17032,10 +17034,8 @@ nullptr
 )
 ;
 }
-already_AddRefed
-<
-nsPIDOMWindowOuter
->
+BrowsingContext
+*
 nsGlobalWindowInner
 :
 :
@@ -31898,9 +31898,9 @@ aRv
 #
 ifdef
 HAVE_SIDEBAR
-nsCOMPtr
+RefPtr
 <
-nsPIDOMWindowOuter
+BrowsingContext
 >
 domWindow
 =

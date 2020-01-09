@@ -3384,12 +3384,14 @@ mCallbacks
 OnNewDocument
 (
 aMatcher
-dom
-:
-:
 WindowProxyHolder
 (
 aWindow
+-
+>
+GetBrowsingContext
+(
+)
 )
 rv
 )
