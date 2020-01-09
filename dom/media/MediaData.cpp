@@ -2757,6 +2757,13 @@ mEOS
 =
 mEOS
 ;
+s
+-
+>
+mOriginalPresentationWindow
+=
+mOriginalPresentationWindow
+;
 if
 (
 !

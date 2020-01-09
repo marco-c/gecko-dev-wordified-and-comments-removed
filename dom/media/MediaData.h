@@ -2525,6 +2525,15 @@ TrackInfoSharedPtr
 >
 mTrackInfo
 ;
+Maybe
+<
+media
+:
+:
+TimeInterval
+>
+mOriginalPresentationWindow
+;
 already_AddRefed
 <
 MediaRawData
