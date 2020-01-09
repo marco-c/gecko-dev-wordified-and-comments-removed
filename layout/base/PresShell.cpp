@@ -31577,8 +31577,10 @@ IsUsingCoordinates
 )
 )
 {
+nsCOMPtr
+<
 nsIContent
-*
+>
 capturingContent
 =
 EventHandler
