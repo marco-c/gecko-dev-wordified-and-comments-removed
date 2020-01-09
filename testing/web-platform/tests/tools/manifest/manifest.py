@@ -2721,6 +2721,9 @@ None
 meta_filters
 =
 None
+allow_cached
+=
+True
 )
 :
     
@@ -2742,6 +2745,8 @@ name
 )
     
 if
+allow_cached
+and
 manifest_path
 in
 __load_cache
@@ -2897,6 +2902,10 @@ meta_filters
 meta_filters
 )
     
+if
+allow_cached
+:
+        
 __load_cache
 [
 manifest_path
@@ -2946,6 +2955,10 @@ None
 write_manifest
 =
 True
+                    
+allow_cached
+=
+True
 )
 :
     
@@ -2984,6 +2997,10 @@ types
 meta_filters
 =
 meta_filters
+                             
+allow_cached
+=
+allow_cached
 )
         
 except
