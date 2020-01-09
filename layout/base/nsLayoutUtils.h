@@ -5281,12 +5281,6 @@ IsInterCharacterRubyEnabled
 ;
 static
 bool
-IsContentSelectEnabled
-(
-)
-;
-static
-bool
 InterruptibleReflowEnabled
 (
 )
