@@ -540,6 +540,20 @@ mozboot
 import
 node
         
+node_artifact
+=
+node
+.
+WIN32
+if
+is_aarch64_host
+(
+)
+else
+node
+.
+WIN64
+        
 self
 .
 install_toolchain_artifact
@@ -547,9 +561,7 @@ install_toolchain_artifact
             
 state_dir
 checkout_root
-node
-.
-WINDOWS
+node_artifact
 )
     
 def
