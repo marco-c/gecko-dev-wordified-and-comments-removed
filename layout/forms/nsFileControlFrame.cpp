@@ -1014,7 +1014,7 @@ mCachedMinISize
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
 ;
-mPrefWidth
+mCachedPrefISize
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
 ;
@@ -2685,7 +2685,7 @@ result
 ;
 if
 (
-mPrefWidth
+mCachedPrefISize
 =
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
