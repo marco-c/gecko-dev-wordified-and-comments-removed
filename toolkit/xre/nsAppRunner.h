@@ -381,4 +381,14 @@ aDir
 #
 endif
 #
+ifdef
+MOZ_WAYLAND
+bool
+IsWaylandDisabled
+(
+)
+;
+#
+endif
+#
 endif
