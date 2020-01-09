@@ -549,6 +549,16 @@ this
 0
 ;
 }
+static
+constexpr
+uintptr_t
+TypeHashSetMarkBit
+=
+1
+<
+<
+1
+;
 inline
 ObjectGroup
 *
