@@ -6288,6 +6288,20 @@ create_browser_profile
 (
 )
                 
+if
+test
+.
+get
+(
+'
+playback
+'
+)
+is
+not
+None
+:
+                    
 self
 .
 log
@@ -6306,7 +6320,7 @@ browser
 profile
 "
 )
-                
+                    
 self
 .
 copy_cert_db
