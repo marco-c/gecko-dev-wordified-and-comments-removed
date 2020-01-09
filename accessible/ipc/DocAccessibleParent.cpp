@@ -2370,6 +2370,14 @@ aMaxScrollY
 )
 ;
 #
+else
+ProxyEvent
+(
+target
+aType
+)
+;
+#
 endif
 if
 (
