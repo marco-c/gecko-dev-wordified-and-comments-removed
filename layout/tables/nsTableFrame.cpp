@@ -10406,7 +10406,7 @@ availSize
 ReflowInput
 :
 :
-DUMMY_PARENT_REFLOW_STATE
+DUMMY_PARENT_REFLOW_INPUT
 )
 ;
 nsReflowStatus
