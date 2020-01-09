@@ -750,13 +750,7 @@ from_json
 self
 .
 manifest
-                                                        
-self
-.
-tests_root
-                                                        
 path
-                                                        
 test
 )
                 
@@ -896,13 +890,7 @@ from_json
 self
 .
 manifest
-                                                            
-self
-.
-tests_root
-                                                            
 path
-                                                            
 test
 )
                     
@@ -1230,6 +1218,9 @@ def
 __init__
 (
 self
+tests_root
+=
+None
 url_base
 =
 "
@@ -1269,6 +1260,12 @@ self
 _reftest_nodes_by_url
 =
 None
+        
+self
+.
+tests_root
+=
+tests_root
         
 self
 .
@@ -1826,9 +1823,6 @@ new_type
 old_type
 :
                             
-try
-:
-                                
 del
 self
 .
@@ -1839,12 +1833,6 @@ old_type
 [
 rel_path
 ]
-                            
-except
-KeyError
-:
-                                
-pass
                     
 else
 :
@@ -1907,6 +1895,13 @@ reftest_nodes
 .
 extend
 (
+(
+item
+file_hash
+)
+for
+item
+in
 manifest_items
 )
                     
@@ -1920,8 +1915,7 @@ reftest_changes
 =
 True
                 
-elif
-new_type
+else
 :
                     
 self
@@ -2139,6 +2133,7 @@ set
         
 for
 item
+_
 in
 reftest_nodes
 :
@@ -2180,6 +2175,7 @@ changed_hashes
         
 for
 item
+file_hash
 in
 reftest_nodes
 :
@@ -2212,18 +2208,12 @@ changed_hashes
 [
 item
 .
-source_file
-.
-rel_path
+path
 ]
 =
 (
-item
-.
-source_file
-.
-hash
-                                                                 
+file_hash
+                                                 
 item
 .
 item_type
@@ -2233,9 +2223,7 @@ references
 [
 item
 .
-source_file
-.
-rel_path
+path
 ]
 .
 add
@@ -2266,18 +2254,12 @@ changed_hashes
 [
 item
 .
-source_file
-.
-rel_path
+path
 ]
 =
 (
-item
-.
-source_file
-.
-hash
-                                                                 
+file_hash
+                                                 
 item
 .
 item_type
@@ -2287,9 +2269,7 @@ reftests
 [
 item
 .
-source_file
-.
-rel_path
+path
 ]
 .
 add
@@ -2471,6 +2451,7 @@ self
 =
 cls
 (
+tests_root
 url_base
 =
 obj
@@ -2964,6 +2945,7 @@ manifest
 =
 Manifest
 (
+tests_root
 url_base
 meta_filters
 =

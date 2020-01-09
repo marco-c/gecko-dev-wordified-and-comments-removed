@@ -2760,9 +2760,6 @@ choices
 none
 "
 "
-equal_time
-"
-"
 hash
 "
 "

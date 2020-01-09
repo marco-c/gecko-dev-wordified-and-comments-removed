@@ -28,7 +28,8 @@ path
 hash
 cls
 *
-args
+*
+kwargs
 )
 :
     
@@ -46,11 +47,44 @@ hash
 hash
 )
     
+if
+cls
+=
+=
+item
+.
+SupportFile
+:
+        
 test
 =
 cls
 (
-s
+"
+/
+foobar
+"
+path
+*
+*
+kwargs
+)
+    
+else
+:
+        
+test
+=
+cls
+(
+"
+/
+foobar
+"
+path
+"
+/
+"
 utils
 .
 rel_path_to_url
@@ -58,7 +92,8 @@ rel_path_to_url
 path
 )
 *
-args
+*
+kwargs
 )
     
 s
@@ -112,7 +147,14 @@ tests
 [
 cls
 (
-s
+"
+/
+foobar
+"
+path
+"
+/
+"
 item
 [
 0
@@ -309,9 +351,6 @@ item
 TestharnessTest
 item
 .
-RefTest
-item
-.
 RefTestNode
                     
 item
@@ -391,15 +430,10 @@ hash
     
 if
 cls
-in
-(
-item
-.
-RefTest
+is
 item
 .
 RefTestNode
-)
 :
         
 ref_path
@@ -446,13 +480,22 @@ test
 =
 cls
 (
-s
+"
+/
+foobar
+"
+path
+"
+/
+"
 utils
 .
 rel_path_to_url
 (
 path
 )
+references
+=
 [
 (
 utils
@@ -478,7 +521,11 @@ test
 =
 cls
 (
-s
+"
+/
+foobar
+"
+path
 )
     
 else
@@ -488,7 +535,14 @@ test
 =
 cls
 (
-s
+"
+/
+foobar
+"
+path
+"
+/
+"
 utils
 .
 rel_path_to_url
@@ -706,7 +760,9 @@ a
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -1230,7 +1286,9 @@ test1
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -1259,7 +1317,9 @@ test2
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -1318,14 +1378,6 @@ manifest_items
 0
 ]
     
-test2_node
-=
-test2
-.
-to_RefTestNode
-(
-)
-    
 assert
 list
 (
@@ -1343,6 +1395,10 @@ test1
 path
 {
 test1
+.
+to_RefTest
+(
+)
 }
 )
                        
@@ -1354,7 +1410,7 @@ test2
 .
 path
 {
-test2_node
+test2
 }
 )
 ]
@@ -1386,7 +1442,9 @@ test2
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -1447,6 +1505,10 @@ test2
 path
 {
 test2
+.
+to_RefTest
+(
+)
 }
 )
 ]
@@ -1465,7 +1527,9 @@ test1
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -1513,14 +1577,6 @@ True
 is
 True
     
-test2_node
-=
-test2
-.
-to_RefTestNode
-(
-)
-    
 assert
 list
 (
@@ -1538,6 +1594,10 @@ test1
 path
 {
 test1
+.
+to_RefTest
+(
+)
 }
 )
                        
@@ -1549,7 +1609,7 @@ test2
 .
 path
 {
-test2_node
+test2
 }
 )
 ]
@@ -1581,7 +1641,9 @@ test1
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -1610,7 +1672,9 @@ test2
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -1672,14 +1736,6 @@ manifest_items
 0
 ]
     
-test2_node
-=
-test2
-.
-to_RefTestNode
-(
-)
-    
 assert
 list
 (
@@ -1697,6 +1753,10 @@ test1
 path
 {
 test1
+.
+to_RefTest
+(
+)
 }
 )
                        
@@ -1708,7 +1768,7 @@ test2
 .
 path
 {
-test2_node
+test2
 }
 )
 ]
@@ -1745,6 +1805,10 @@ test2
 path
 {
 test2
+.
+to_RefTest
+(
+)
 }
 )
 ]
@@ -1776,7 +1840,9 @@ test
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -1839,6 +1905,10 @@ test1
 path
 {
 test1
+.
+to_RefTest
+(
+)
 }
 )
 ]
@@ -1937,7 +2007,9 @@ test1
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -1967,6 +2039,8 @@ test2
 item
 .
 RefTestNode
+references
+=
 [
 (
 "
@@ -2045,6 +2119,10 @@ test1
 path
 {
 test1
+.
+to_RefTest
+(
+)
 }
 )
                        
@@ -2128,6 +2206,10 @@ test1
 path
 {
 test1
+.
+to_RefTest
+(
+)
 }
 )
                        
@@ -2172,41 +2254,14 @@ test1
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
 /
 test1
--
-ref
-"
-"
-=
-=
-"
-)
-]
-)
-               
-SourceFileWithTest
-(
-"
-test2
-"
-"
-0
-"
-*
-40
-item
-.
-RefTest
-[
-(
-"
-/
-test2
 -
 ref
 "
@@ -2314,11 +2369,6 @@ set
 "
 /
 test2
-"
-                                                                 
-"
-/
-test2
 -
 1
 .
@@ -2382,41 +2432,14 @@ test1
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
 /
 test1
--
-ref
-"
-"
-=
-=
-"
-)
-]
-)
-               
-SourceFileWithTest
-(
-"
-test2
-"
-"
-1
-"
-*
-40
-item
-.
-RefTest
-[
-(
-"
-/
-test2
 -
 ref
 "
@@ -2668,7 +2691,9 @@ test1
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -2697,7 +2722,9 @@ test2
 40
 item
 .
-RefTest
+RefTestNode
+references
+=
 [
 (
 "
@@ -2756,14 +2783,6 @@ manifest_items
 0
 ]
     
-test2_node
-=
-test2
-.
-to_RefTestNode
-(
-)
-    
 assert
 m
 .
@@ -2777,13 +2796,17 @@ test1
 "
 :
 test1
+.
+to_RefTest
+(
+)
                                       
 "
 /
 test2
 "
 :
-test2_node
+test2
 }
     
 m
@@ -2805,13 +2828,17 @@ test1
 "
 :
 test1
+.
+to_RefTest
+(
+)
                                       
 "
 /
 test2
 "
 :
-test2_node
+test2
 }
 def
 test_no_update

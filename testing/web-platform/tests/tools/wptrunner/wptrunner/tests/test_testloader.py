@@ -55,7 +55,7 @@ as
 Filter
 from
 .
-test_chunker
+test_wpttest
 import
 make_mock_manifest
 structured

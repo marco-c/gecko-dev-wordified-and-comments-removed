@@ -998,9 +998,7 @@ http
 return
 cls
 (
-manifest_item
-.
-source_file
+manifest_file
 .
 tests_root
                    
@@ -1018,11 +1016,19 @@ timeout
                    
 path
 =
-manifest_item
-.
-source_file
+os
 .
 path
+.
+join
+(
+manifest_file
+.
+tests_root
+manifest_item
+.
+path
+)
                    
 protocol
 =
@@ -2010,8 +2016,6 @@ script_metadata
 =
 manifest_item
 .
-source_file
-.
 script_metadata
 or
 [
@@ -2041,9 +2045,7 @@ script
 return
 cls
 (
-manifest_item
-.
-source_file
+manifest_file
 .
 tests_root
                    
@@ -2061,11 +2063,19 @@ timeout
                    
 path
 =
-manifest_item
-.
-source_file
+os
 .
 path
+.
+join
+(
+manifest_file
+.
+tests_root
+manifest_item
+.
+path
+)
                    
 protocol
 =
@@ -2082,6 +2092,7 @@ jsshell
 scripts
 =
 scripts
+                   
 )
     
 property
@@ -2306,9 +2317,7 @@ node
 =
 cls
 (
-manifest_test
-.
-source_file
+manifest_file
 .
 tests_root
                    
@@ -2466,9 +2475,7 @@ reference
 =
 ReftestTest
 (
-manifest_test
-.
-source_file
+manifest_file
 .
 tests_root
                                         

@@ -167,7 +167,14 @@ test
 =
 cls
 (
-s
+"
+/
+foobar
+"
+path
+"
+/
+"
 rel_path_to_url
 (
 path
