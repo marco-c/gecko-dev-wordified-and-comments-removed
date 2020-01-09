@@ -141,5 +141,10 @@ fieldName
 "
 "
 ;
+boolean
+canAutomaticallyPersist
+=
+true
+;
 }
 ;
