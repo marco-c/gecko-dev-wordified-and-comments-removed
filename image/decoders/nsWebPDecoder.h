@@ -258,14 +258,6 @@ mNeedDemuxer
 bool
 mGotColorProfile
 ;
-qcms_profile
-*
-mInProfile
-;
-qcms_transform
-*
-mTransform
-;
 }
 ;
 }
