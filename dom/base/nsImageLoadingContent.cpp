@@ -4245,7 +4245,7 @@ triggeringPrincipal
 aDocument
 -
 >
-GetDocumentURI
+GetDocumentURIAsReferrer
 (
 )
 referrerPolicy
