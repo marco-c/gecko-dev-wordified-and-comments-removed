@@ -1219,7 +1219,6 @@ ss_setWindowState
 aWindow
 aState
 aOverwrite
-aFirstWindow
 )
 {
 SessionStoreInternal
@@ -1229,7 +1228,6 @@ setWindowState
 aWindow
 aState
 aOverwrite
-aFirstWindow
 )
 ;
 }
@@ -10305,7 +10303,6 @@ ssi_setWindowState
 aWindow
 aState
 aOverwrite
-aFirstWindow
 )
 {
 if
@@ -10343,9 +10340,6 @@ aState
 overwriteTabs
 :
 aOverwrite
-firstWindow
-:
-aFirstWindow
 }
 )
 ;
