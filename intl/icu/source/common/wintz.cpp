@@ -91,7 +91,7 @@ U_NAMESPACE_BEGIN
 define
 MAX_TIMEZONE_ID_LENGTH
 128
-U_CFUNC
+U_INTERNAL
 const
 char
 *
@@ -297,12 +297,8 @@ dynamicTZI
 .
 TimeZoneKeyName
 )
-UPRV_LENGTHOF
-(
-dynamicTZI
-.
-TimeZoneKeyName
-)
+-
+1
 &
 status
 )
