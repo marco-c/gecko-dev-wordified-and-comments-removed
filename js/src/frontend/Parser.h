@@ -3738,7 +3738,7 @@ Node
 forInOrOfExpression
 )
 ;
-Node
+NameNodeType
 declarationName
 (
 DeclarationKind
@@ -3757,7 +3757,7 @@ Node
 forInOrOfExpression
 )
 ;
-Node
+bool
 initializerInNameDeclaration
 (
 NameNodeType
