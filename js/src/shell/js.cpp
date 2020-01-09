@@ -5673,11 +5673,6 @@ return
 false
 ;
 }
-MOZ_ASSERT
-(
-deleted
-)
-;
 break
 ;
 }
