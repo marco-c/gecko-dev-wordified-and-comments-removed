@@ -272,6 +272,11 @@ FilePickerParent
 h
 '
 '
+JSWindowActor
+.
+h
+'
+'
 JSWindowActorChild
 .
 h
@@ -435,6 +440,11 @@ cpp
 '
 '
 FilePickerParent
+.
+cpp
+'
+'
+JSWindowActor
 .
 cpp
 '
