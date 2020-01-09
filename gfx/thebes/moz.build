@@ -344,6 +344,11 @@ gfxUtils
 h
 '
 '
+SharedFontList
+.
+h
+'
+'
 SoftwareVsyncSource
 .
 h
@@ -1142,6 +1147,11 @@ cpp
 '
 '
 gfxUtils
+.
+cpp
+'
+'
+SharedFontList
 .
 cpp
 '
