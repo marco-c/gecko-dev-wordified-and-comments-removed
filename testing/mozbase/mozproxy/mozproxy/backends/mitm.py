@@ -183,6 +183,9 @@ replace
 \
 "
 )
+MITMDUMP_COMMAND_TIMEOUT
+=
+30
 POLICIES_CONTENT_ON
 =
 "
@@ -581,48 +584,6 @@ stop
 )
             
 raise
-    
-property
-    
-def
-mitmdump_sleep_seconds
-(
-self
-)
-:
-        
-"
-"
-"
-Time
-to
-sleep
-in
-seconds
-after
-issuing
-a
-mitmdump
-command
-.
-"
-"
-"
-        
-return
-10
-if
-not
-self
-.
-config
-[
-'
-run_local
-'
-]
-else
-1
     
 def
 download
@@ -1132,7 +1093,7 @@ run
 (
 )
         
-max_wait
+end_time
 =
 time
 .
@@ -1140,9 +1101,7 @@ time
 (
 )
 +
-self
-.
-mitmdump_sleep_seconds
+MITMDUMP_COMMAND_TIMEOUT
         
 ready
 =
@@ -1155,7 +1114,7 @@ time
 (
 )
 <
-max_wait
+end_time
 :
             
 ready
@@ -1201,7 +1160,9 @@ time
 .
 sleep
 (
-1
+0
+.
+25
 )
         
 LOG
@@ -1211,12 +1172,11 @@ error
 "
 Aborting
 :
-mitmproxy
-playback
+Mitmproxy
 process
-failed
-to
-work
+did
+not
+startup
 "
 )
         
