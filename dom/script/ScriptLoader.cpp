@@ -12138,8 +12138,13 @@ IsTopLevel
 aOptions
 -
 >
-setIntroductionType
+setIntroductionInfoToCaller
 (
+jsapi
+.
+cx
+(
+)
 isScriptElement
 ?
 "
