@@ -212,12 +212,12 @@ RemoteAgentActorChild
 {
 constructor
 (
-despatcher
+dispatcher
 )
 {
 super
 (
-despatcher
+dispatcher
 )
 ;
 this

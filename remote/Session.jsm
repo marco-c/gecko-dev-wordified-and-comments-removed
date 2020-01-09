@@ -126,7 +126,7 @@ onmessage
 =
 this
 .
-despatch
+dispatch
 .
 bind
 (
@@ -156,7 +156,7 @@ clear
 ;
 }
 async
-despatch
+dispatch
 (
 {
 id
