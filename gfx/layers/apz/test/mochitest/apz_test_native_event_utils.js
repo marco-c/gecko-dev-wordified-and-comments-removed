@@ -1284,7 +1284,7 @@ yields
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1376,7 +1376,7 @@ length
 }
 for
 (
-var
+let
 j
 =
 0
@@ -1503,7 +1503,7 @@ yields
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1542,7 +1542,7 @@ continue
 }
 for
 (
-var
+let
 j
 =
 0
@@ -1748,15 +1748,7 @@ aDeltaY
 var
 positions
 =
-new
-Array
-(
-)
-;
-positions
-.
-push
-(
+[
 [
 {
 x
@@ -1767,7 +1759,7 @@ y
 aY
 }
 ]
-)
+]
 ;
 for
 (
