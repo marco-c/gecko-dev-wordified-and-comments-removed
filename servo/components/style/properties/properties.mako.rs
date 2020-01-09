@@ -19388,6 +19388,7 @@ regarding
 this
 style
 .
+pub
 flags
 :
 ComputedValueFlags
@@ -26532,6 +26533,9 @@ computed_value_flags
 :
 ComputedValueFlags
 ;
+lazy_static
+!
+{
 /
 /
 /
@@ -26548,9 +26552,6 @@ by
 the
 specification
 .
-lazy_static
-!
-{
 pub
 static
 ref
@@ -26719,17 +26720,11 @@ visited_style
 None
 flags
 :
-Cell
-:
-:
-new
-(
 ComputedValueFlags
 :
 :
 empty
 (
-)
 )
 }
 }
