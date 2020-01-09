@@ -740,7 +740,7 @@ true
 }
 requestLongerTimeout
 (
-30
+25
 )
 ;
 add_task
