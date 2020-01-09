@@ -588,10 +588,6 @@ media_queries
 ;
 pub
 mod
-owned_slice
-;
-pub
-mod
 parallel
 ;
 pub
@@ -871,6 +867,9 @@ Atom
 ;
 pub
 use
+style_traits
+:
+:
 owned_slice
 :
 :
