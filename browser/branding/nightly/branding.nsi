@@ -386,7 +386,7 @@ settings
 define
 PROFILE_CLEANUP_LABEL_TOP
 "
-39u
+35u
 "
 !
 define
@@ -400,6 +400,12 @@ PROFILE_CLEANUP_LABEL_WIDTH
 "
 100
 %
+"
+!
+define
+PROFILE_CLEANUP_LABEL_HEIGHT
+"
+80u
 "
 !
 define
