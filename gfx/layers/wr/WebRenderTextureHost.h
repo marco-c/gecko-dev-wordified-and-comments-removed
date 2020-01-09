@@ -310,6 +310,13 @@ SupportsWrNativeTexture
 )
 override
 ;
+bool
+NeedsYFlip
+(
+)
+const
+override
+;
 protected
 :
 void
