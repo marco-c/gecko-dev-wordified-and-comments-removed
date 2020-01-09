@@ -17,22 +17,23 @@ parse
 "
         
 interface
-TestCallback
+TestCallbackConstructor
 {
           
 attribute
-CallbackType
+CallbackConstructorType
 ?
-listener
+constructorAttribute
 ;
         
 }
 ;
         
 callback
-CallbackType
+constructor
+CallbackConstructorType
 =
-boolean
+TestCallbackConstructor
 (
 unsigned
 long
@@ -59,7 +60,7 @@ ok
 (
 True
 "
-TestCallback
+TestCallbackConstructor
 interface
 parsed
 without
@@ -127,7 +128,7 @@ QName
 "
 :
 :
-TestCallback
+TestCallbackConstructor
 "
 "
 Interface
@@ -148,7 +149,7 @@ identifier
 .
 name
 "
-TestCallback
+TestCallbackConstructor
 "
 "
 Interface
@@ -278,10 +279,10 @@ QName
 "
 :
 :
-TestCallback
+TestCallbackConstructor
 :
 :
-listener
+constructorAttribute
 "
 "
 Attr
@@ -302,7 +303,7 @@ identifier
 .
 name
 "
-listener
+constructorAttribute
 "
 "
 Attr
@@ -389,16 +390,14 @@ harness
 .
 ok
 (
-not
 callback
 .
 isConstructor
 (
 )
 "
-callback
+Callback
 is
-not
 constructor
 "
 )

@@ -30833,6 +30833,7 @@ parentScope
 identifier
 returnType
 arguments
+isConstructor
 )
 :
         
@@ -30911,6 +30912,12 @@ self
 _isRunScriptBoundary
 =
 False
+        
+self
+.
+_isConstructor
+=
+isConstructor
     
 def
 isCallback
@@ -30921,6 +30928,18 @@ self
         
 return
 True
+    
+def
+isConstructor
+(
+self
+)
+:
+        
+return
+self
+.
+_isConstructor
     
 def
 signatures
@@ -37147,6 +37166,14 @@ ReadableStream
 READABLESTREAM
 "
         
+"
+constructor
+"
+:
+"
+CONSTRUCTOR
+"
+        
 }
     
 tokens
@@ -37837,6 +37864,9 @@ p
 CallbackRestOrInterface
 :
 CallbackRest
+                                    
+|
+CallbackConstructorRest
                                     
 |
 Interface
@@ -40167,6 +40197,87 @@ p
 [
 5
 ]
+isConstructor
+=
+False
+)
+    
+def
+p_CallbackConstructorRest
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+CallbackConstructorRest
+:
+CONSTRUCTOR
+IDENTIFIER
+EQUALS
+ReturnType
+LPAREN
+ArgumentList
+RPAREN
+SEMICOLON
+        
+"
+"
+"
+        
+identifier
+=
+IDLUnresolvedIdentifier
+(
+self
+.
+getLocation
+(
+p
+2
+)
+p
+[
+2
+]
+)
+        
+p
+[
+0
+]
+=
+IDLCallback
+(
+self
+.
+getLocation
+(
+p
+2
+)
+self
+.
+globalScope
+(
+)
+                           
+identifier
+p
+[
+4
+]
+p
+[
+6
+]
+isConstructor
+=
+True
 )
     
 def
@@ -43299,6 +43410,9 @@ CALLBACK
 CONST
                          
 |
+CONSTRUCTOR
+                         
+|
 DELETER
                          
 |
@@ -43828,6 +43942,9 @@ LEGACYCALLER
                   
 |
 CONST
+                  
+|
+CONSTRUCTOR
                   
 |
 DELETER
