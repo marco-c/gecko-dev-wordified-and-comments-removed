@@ -217,6 +217,14 @@ resume
 (
 )
 ;
+do_timeout
+(
+0
+(
+)
+=
+>
+{
 Cu
 .
 evalInSandbox
@@ -262,6 +270,9 @@ b
 n
 "
 debuggee
+)
+;
+}
 )
 ;
 }
