@@ -298,6 +298,14 @@ MOZ_ASSERT
 !
 oldTransceiver
 .
+IsNegotiated
+(
+)
+|
+|
+!
+oldTransceiver
+.
 HasLevel
 (
 )
