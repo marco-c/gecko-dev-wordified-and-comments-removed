@@ -922,6 +922,8 @@ exceptionDocURL
 )
 ;
 it
+.
+skip
 (
 "
 has
@@ -930,7 +932,7 @@ stacktrace
 which
 can
 be
-openned
+opened
 "
 (
 )
@@ -1034,6 +1036,8 @@ toBe
 )
 ;
 it
+.
+skip
 (
 "
 toggle
