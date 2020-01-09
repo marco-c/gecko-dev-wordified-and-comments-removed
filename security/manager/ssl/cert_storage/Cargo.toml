@@ -48,6 +48,15 @@ base64
 .
 10
 "
+lmdb
+-
+rkv
+=
+"
+0
+.
+11
+"
 nserror
 =
 {
