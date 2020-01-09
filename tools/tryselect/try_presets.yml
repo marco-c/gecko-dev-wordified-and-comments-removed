@@ -138,6 +138,17 @@ linux64
 '
 xpcshell
 "
+-
+"
+!
+pgo
+!
+qr
+!
+macosx
+'
+damp
+"
 sample
 -
 suites
