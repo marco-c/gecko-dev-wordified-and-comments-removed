@@ -283,7 +283,7 @@ kind
 ParseNodeKind
 :
 :
-PowExpr
+Pow
 ?
 !
 left
@@ -399,14 +399,9 @@ define
 ARITY
 (
 _name
-type
-)
-type
-:
-:
 arity
-(
 )
+arity
 FOR_EACH_PARSE_NODE_KIND
 (
 ARITY
@@ -434,7 +429,7 @@ define
 STRINGIFY
 (
 name
-_type
+_arity
 )
 #
 name
@@ -905,7 +900,7 @@ case
 ParseNodeKind
 :
 :
-TrueExpr
+True
 :
 out
 .
@@ -923,7 +918,7 @@ case
 ParseNodeKind
 :
 :
-FalseExpr
+False
 :
 out
 .
@@ -941,7 +936,7 @@ case
 ParseNodeKind
 :
 :
-NullExpr
+Null
 :
 out
 .
@@ -959,7 +954,7 @@ case
 ParseNodeKind
 :
 :
-RawUndefinedExpr
+RawUndefined
 :
 out
 .
@@ -1324,7 +1319,7 @@ isKind
 ParseNodeKind
 :
 :
-DotExpr
+Dot
 )
 )
 {
@@ -1917,13 +1912,13 @@ case
 ParseNodeKind
 :
 :
-StringExpr
+String
 :
 case
 ParseNodeKind
 :
 :
-TemplateStringExpr
+TemplateString
 :
 case
 ParseNodeKind
@@ -1959,7 +1954,7 @@ case
 ParseNodeKind
 :
 :
-PropertyNameExpr
+PropertyName
 :
 if
 (
@@ -2139,7 +2134,7 @@ case
 ParseNodeKind
 :
 :
-LabelStmt
+Label
 :
 {
 const

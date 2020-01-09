@@ -13601,7 +13601,7 @@ newList
 ParseNodeKind
 :
 :
-TemplateStringListExpr
+TemplateStringList
 literal
 )
 ;
@@ -18745,7 +18745,7 @@ newAssignment
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 lhs
 rhs
 )
@@ -20927,7 +20927,7 @@ newAssignment
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 pattern
 init
 )
@@ -21543,7 +21543,7 @@ kind
 ParseNodeKind
 :
 :
-VarStmt
+Var
 |
 |
 kind
@@ -21552,7 +21552,7 @@ kind
 ParseNodeKind
 :
 :
-LetDecl
+Let
 |
 |
 kind
@@ -21561,7 +21561,7 @@ kind
 ParseNodeKind
 :
 :
-ConstDecl
+Const
 )
 ;
 DeclarationKind
@@ -21576,7 +21576,7 @@ case
 ParseNodeKind
 :
 :
-VarStmt
+Var
 :
 declKind
 =
@@ -21591,7 +21591,7 @@ case
 ParseNodeKind
 :
 :
-ConstDecl
+Const
 :
 declKind
 =
@@ -21606,7 +21606,7 @@ case
 ParseNodeKind
 :
 :
-LetDecl
+Let
 :
 declKind
 =
@@ -21886,12 +21886,12 @@ Const
 ParseNodeKind
 :
 :
-ConstDecl
+Const
 :
 ParseNodeKind
 :
 :
-LetDecl
+Let
 )
 ;
 if
@@ -23349,7 +23349,7 @@ isKind
 ParseNodeKind
 :
 :
-ArrayExpr
+Array
 )
 )
 ;
@@ -23430,7 +23430,7 @@ isKind
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 )
 )
 {
@@ -23571,7 +23571,7 @@ isKind
 ParseNodeKind
 :
 :
-ObjectExpr
+Object
 )
 )
 ;
@@ -23736,7 +23736,7 @@ isKind
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 )
 )
 {
@@ -23912,7 +23912,7 @@ isKind
 ParseNodeKind
 :
 :
-ArrayExpr
+Array
 )
 )
 {
@@ -23951,7 +23951,7 @@ isKind
 ParseNodeKind
 :
 :
-ObjectExpr
+Object
 )
 )
 ;
@@ -24091,7 +24091,7 @@ isKind
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 )
 )
 {
@@ -25670,7 +25670,7 @@ YieldIsName
 ParseNodeKind
 :
 :
-VarStmt
+Var
 )
 ;
 if
@@ -28460,7 +28460,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-VarStmt
+Var
 forHeadKind
 forInOrOfExpression
 )
@@ -28640,12 +28640,12 @@ Const
 ParseNodeKind
 :
 :
-ConstDecl
+Const
 :
 ParseNodeKind
 :
 :
-LetDecl
+Let
 forHeadKind
 forInOrOfExpression
 )
@@ -31029,7 +31029,7 @@ kind
 ParseNodeKind
 :
 :
-YieldExpr
+Yield
 ;
 TokenKind
 tt
@@ -31149,7 +31149,7 @@ kind
 ParseNodeKind
 :
 :
-YieldStarExpr
+YieldStar
 ;
 tokenStream
 .
@@ -31199,7 +31199,7 @@ kind
 ParseNodeKind
 :
 :
-YieldStarExpr
+YieldStar
 )
 {
 return
@@ -34576,7 +34576,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-VarStmt
+Var
 )
 ;
 if
@@ -37888,7 +37888,7 @@ kind
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 ;
 break
 ;
@@ -37903,7 +37903,7 @@ kind
 ParseNodeKind
 :
 :
-AddAssignExpr
+AddAssign
 ;
 break
 ;
@@ -37918,7 +37918,7 @@ kind
 ParseNodeKind
 :
 :
-SubAssignExpr
+SubAssign
 ;
 break
 ;
@@ -37933,7 +37933,7 @@ kind
 ParseNodeKind
 :
 :
-BitOrAssignExpr
+BitOrAssign
 ;
 break
 ;
@@ -37948,7 +37948,7 @@ kind
 ParseNodeKind
 :
 :
-BitXorAssignExpr
+BitXorAssign
 ;
 break
 ;
@@ -37963,7 +37963,7 @@ kind
 ParseNodeKind
 :
 :
-BitAndAssignExpr
+BitAndAssign
 ;
 break
 ;
@@ -37978,7 +37978,7 @@ kind
 ParseNodeKind
 :
 :
-LshAssignExpr
+LshAssign
 ;
 break
 ;
@@ -37993,7 +37993,7 @@ kind
 ParseNodeKind
 :
 :
-RshAssignExpr
+RshAssign
 ;
 break
 ;
@@ -38008,7 +38008,7 @@ kind
 ParseNodeKind
 :
 :
-UrshAssignExpr
+UrshAssign
 ;
 break
 ;
@@ -38023,7 +38023,7 @@ kind
 ParseNodeKind
 :
 :
-MulAssignExpr
+MulAssign
 ;
 break
 ;
@@ -38038,7 +38038,7 @@ kind
 ParseNodeKind
 :
 :
-DivAssignExpr
+DivAssign
 ;
 break
 ;
@@ -38053,7 +38053,7 @@ kind
 ParseNodeKind
 :
 :
-ModAssignExpr
+ModAssign
 ;
 break
 ;
@@ -38068,7 +38068,7 @@ kind
 ParseNodeKind
 :
 :
-PowAssignExpr
+PowAssign
 ;
 break
 ;
@@ -38145,7 +38145,7 @@ kind
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 )
 {
 error
@@ -38817,7 +38817,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-VoidExpr
+Void
 begin
 )
 ;
@@ -38834,7 +38834,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-NotExpr
+Not
 begin
 )
 ;
@@ -38851,7 +38851,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-BitNotExpr
+BitNot
 begin
 )
 ;
@@ -38868,7 +38868,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-PosExpr
+Pos
 begin
 )
 ;
@@ -38885,7 +38885,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-NegExpr
+Neg
 begin
 )
 ;
@@ -39020,12 +39020,12 @@ Inc
 ParseNodeKind
 :
 :
-PreIncrementExpr
+PreIncrement
 :
 ParseNodeKind
 :
 :
-PreDecrementExpr
+PreDecrement
 ;
 return
 handler
@@ -39327,12 +39327,12 @@ Inc
 ParseNodeKind
 :
 :
-PostIncrementExpr
+PostIncrement
 :
 ParseNodeKind
 :
 :
-PostDecrementExpr
+PostDecrement
 ;
 return
 handler
@@ -45827,7 +45827,7 @@ newAssignment
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 lhs
 rhs
 )
