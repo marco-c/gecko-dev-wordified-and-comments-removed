@@ -11881,10 +11881,10 @@ doc
 ;
 SerializeURI
 (
-mReferrer
+mOriginalReferrer
 openArgs
 .
-referrer
+originalReferrer
 (
 )
 )

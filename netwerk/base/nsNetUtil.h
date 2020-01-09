@@ -169,6 +169,9 @@ class
 nsIFileStream
 ;
 class
+nsIHttpChannel
+;
+class
 nsIInputStream
 ;
 class
@@ -3019,6 +3022,16 @@ aChannel
 uint32_t
 NS_GetDefaultReferrerPolicy
 (
+nsIHttpChannel
+*
+aChannel
+=
+nullptr
+nsIURI
+*
+aURI
+=
+nullptr
 bool
 privateBrowsing
 =

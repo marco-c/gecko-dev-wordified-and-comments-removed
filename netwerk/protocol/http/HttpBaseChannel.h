@@ -2376,6 +2376,10 @@ return
 rv
 ;
 }
+mOriginalReferrer
+=
+referrer
+;
 mReferrer
 =
 referrer
@@ -2733,6 +2737,12 @@ nsCOMPtr
 nsIProgressEventSink
 >
 mProgressSink
+;
+nsCOMPtr
+<
+nsIURI
+>
+mOriginalReferrer
 ;
 nsCOMPtr
 <

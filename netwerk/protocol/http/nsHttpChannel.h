@@ -2398,6 +2398,11 @@ ReleaseMainThreadOnlyReferences
 (
 )
 ;
+void
+ReEvaluateReferrerAfterTrackingStatusIsKnown
+(
+)
+;
 private
 :
 nsCOMPtr

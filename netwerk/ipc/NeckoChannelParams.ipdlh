@@ -1546,7 +1546,7 @@ OptionalURIParams
 doc
 ;
 OptionalURIParams
-referrer
+originalReferrer
 ;
 uint32_t
 referrerPolicy
