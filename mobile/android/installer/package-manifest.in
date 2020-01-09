@@ -534,10 +534,6 @@ js
 #
 ifndef
 RELEASE_OR_BETA
-#
-Bug
-1440601
-#
 BINPATH
 /
 components

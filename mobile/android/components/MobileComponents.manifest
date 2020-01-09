@@ -1381,12 +1381,6 @@ RELEASE_OR_BETA
 TabSource
 .
 js
--
--
-disabled
-Bug
-1440601
-#
 component
 {
 5850c76e
@@ -1402,7 +1396,6 @@ b99a
 TabSource
 .
 js
-#
 contract
 mozilla
 .
