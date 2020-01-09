@@ -390,7 +390,7 @@ Exposed
 =
 Window
 ]
-interface
+namespace
 PromiseDebugging
 {
 /
@@ -503,7 +503,6 @@ promise
 [
 Throws
 ]
-static
 PromiseDebuggingStateHolder
 getState
 (
@@ -540,7 +539,6 @@ process
 [
 Throws
 ]
-static
 DOMString
 getPromiseID
 (
@@ -582,7 +580,6 @@ script
 [
 Throws
 ]
-static
 object
 ?
 getAllocationStack
@@ -637,7 +634,6 @@ script
 [
 Throws
 ]
-static
 object
 ?
 getRejectionStack
@@ -692,7 +688,6 @@ script
 [
 Throws
 ]
-static
 object
 ?
 getFullfillmentStack
@@ -732,7 +727,6 @@ events
 .
 *
 /
-static
 void
 addUncaughtRejectionObserver
 (
@@ -740,7 +734,6 @@ UncaughtRejectionObserver
 o
 )
 ;
-static
 boolean
 removeUncaughtRejectionObserver
 (
