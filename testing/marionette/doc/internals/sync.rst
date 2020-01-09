@@ -22,6 +22,14 @@ primitives
 .
 js
 :
+autofunction
+:
+:
+executeSoon
+.
+.
+js
+:
 autoclass
 :
 :
