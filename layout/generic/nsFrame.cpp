@@ -10898,7 +10898,7 @@ nsIContent
 *
 capturingContent
 =
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent
@@ -20465,7 +20465,7 @@ Text
 if
 (
 !
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent
@@ -22212,7 +22212,7 @@ nsIContent
 >
 captureContent
 =
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent

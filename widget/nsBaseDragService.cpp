@@ -924,7 +924,7 @@ LayoutDeviceIntPoint
 0
 )
 ;
-PresShell
+nsIPresShell
 :
 :
 ClearMouseCapture

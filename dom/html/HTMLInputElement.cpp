@@ -15851,7 +15851,7 @@ mIsDraggingRange
 ;
 if
 (
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent
@@ -15928,7 +15928,7 @@ false
 ;
 if
 (
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent
@@ -16253,7 +16253,7 @@ mNumberControlSpinnerIsSpinning
 {
 if
 (
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent
@@ -19417,7 +19417,7 @@ break
 }
 if
 (
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent
@@ -19578,7 +19578,7 @@ break
 }
 if
 (
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent

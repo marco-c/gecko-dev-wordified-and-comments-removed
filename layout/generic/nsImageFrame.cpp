@@ -11255,7 +11255,7 @@ HasMouseEventMessage
 (
 )
 ?
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent

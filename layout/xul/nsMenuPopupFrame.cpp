@@ -8715,9 +8715,15 @@ Size
 (
 )
 )
+nsIPresShell
+:
+:
 ScrollAxis
 (
 )
+nsIPresShell
+:
+:
 ScrollAxis
 (
 )

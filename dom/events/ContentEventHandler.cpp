@@ -14914,9 +14914,15 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
+nsIPresShell
+:
+:
 ScrollAxis
 (
 )
+nsIPresShell
+:
+:
 ScrollAxis
 (
 )

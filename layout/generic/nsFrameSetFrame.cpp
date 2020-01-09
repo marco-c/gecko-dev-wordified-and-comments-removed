@@ -6429,7 +6429,7 @@ aEvent
 {
 if
 (
-PresShell
+nsIPresShell
 :
 :
 GetCapturingContent
