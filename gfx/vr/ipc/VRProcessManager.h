@@ -68,6 +68,11 @@ LaunchVRProcess
 )
 ;
 bool
+EnsureVRReady
+(
+)
+;
+bool
 CreateGPUBridges
 (
 base
@@ -223,6 +228,10 @@ mObserver
 VRProcessParent
 *
 mProcess
+;
+VRChild
+*
+mVRChild
 ;
 }
 ;
