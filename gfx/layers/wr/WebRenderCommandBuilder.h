@@ -217,7 +217,13 @@ wr
 LayoutSize
 &
 aContentSize
-WrFiltersHolder
+nsTArray
+<
+wr
+:
+:
+FilterOp
+>
 &
 &
 aFilters

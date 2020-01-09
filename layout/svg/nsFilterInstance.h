@@ -315,7 +315,16 @@ BuildWebRenderFilters
 nsIFrame
 *
 aFilteredFrame
-WrFiltersHolder
+nsTArray
+<
+mozilla
+:
+:
+wr
+:
+:
+FilterOp
+>
 &
 aWrFilters
 mozilla
