@@ -690,6 +690,9 @@ sourceId
 :
 SourceLocation
 )
+:
+?
+BreakpointPosition
 {
 const
 positions

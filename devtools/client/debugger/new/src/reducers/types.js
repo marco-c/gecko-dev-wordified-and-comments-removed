@@ -305,6 +305,7 @@ pause
 export
 type
 {
+LoadedSymbols
 Symbols
 }
 from
