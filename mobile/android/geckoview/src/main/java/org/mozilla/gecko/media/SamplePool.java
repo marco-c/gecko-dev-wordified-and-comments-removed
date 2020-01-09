@@ -257,7 +257,7 @@ new
 Sample
 (
 new
-SharedMemBuffer
+SampleBuffer
 (
 shm
 )
