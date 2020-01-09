@@ -4889,6 +4889,9 @@ compile
 -
 environment
 '
+paths
+=
+toolchain_search_path
 )
 add_old_configure_assignment
 (
