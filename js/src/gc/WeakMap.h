@@ -625,12 +625,6 @@ using
 Base
 :
 :
-shallowSizeOfIncludingThis
-;
-using
-Base
-:
-:
 remove
 ;
 explicit
