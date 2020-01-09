@@ -37,10 +37,13 @@ Gecko
 name_
 {
 \
+ServoManuallyDrop
+<
 nsStyle
 #
 #
 name_
+>
 gecko
 ;
 \
@@ -90,6 +93,8 @@ mPtr
 -
 >
 gecko
+.
+mInner
 ;
 \
 }
