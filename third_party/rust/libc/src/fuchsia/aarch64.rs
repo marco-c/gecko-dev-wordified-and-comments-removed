@@ -22,7 +22,9 @@ pub
 type
 nlink_t
 =
-u32
+:
+:
+c_ulong
 ;
 pub
 type
@@ -30,7 +32,7 @@ blksize_t
 =
 :
 :
-c_int
+c_long
 ;
 s
 !

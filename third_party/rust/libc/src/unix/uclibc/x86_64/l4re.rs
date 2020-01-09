@@ -189,6 +189,13 @@ l4re
 "
 )
 ]
+#
+[
+allow
+(
+missing_debug_implementations
+)
+]
 pub
 struct
 pthread_attr_t

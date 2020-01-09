@@ -2090,7 +2090,7 @@ SA_ONSTACK
 :
 :
 :
-c_int
+c_uint
 =
 0x08000000
 ;
@@ -2100,7 +2100,7 @@ SA_SIGINFO
 :
 :
 :
-c_int
+c_uint
 =
 0x00000008
 ;

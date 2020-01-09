@@ -4023,7 +4023,7 @@ FIOCLEX
 :
 :
 :
-c_ulong
+c_int
 =
 0x20006601
 ;
@@ -4033,7 +4033,7 @@ FIONBIO
 :
 :
 :
-c_ulong
+c_int
 =
 0x8004667e
 ;
@@ -4187,7 +4187,7 @@ TCGETS
 :
 :
 :
-c_ulong
+c_int
 =
 0x403c7413
 ;
@@ -4197,7 +4197,7 @@ TCSETS
 :
 :
 :
-c_ulong
+c_int
 =
 0x803c7414
 ;
@@ -4207,7 +4207,7 @@ TCSETSW
 :
 :
 :
-c_ulong
+c_int
 =
 0x803c7415
 ;
@@ -4217,7 +4217,7 @@ TCSETSF
 :
 :
 :
-c_ulong
+c_int
 =
 0x803c7416
 ;
@@ -4227,7 +4227,7 @@ TCGETA
 :
 :
 :
-c_ulong
+c_int
 =
 0x40147417
 ;
@@ -4237,7 +4237,7 @@ TCSETA
 :
 :
 :
-c_ulong
+c_int
 =
 0x80147418
 ;
@@ -4247,7 +4247,7 @@ TCSETAW
 :
 :
 :
-c_ulong
+c_int
 =
 0x80147419
 ;
@@ -4257,7 +4257,7 @@ TCSETAF
 :
 :
 :
-c_ulong
+c_int
 =
 0x8014741c
 ;
@@ -4267,7 +4267,7 @@ TCSBRK
 :
 :
 :
-c_ulong
+c_int
 =
 0x2000741d
 ;
@@ -4277,7 +4277,7 @@ TCXONC
 :
 :
 :
-c_ulong
+c_int
 =
 0x2000741e
 ;
@@ -4287,7 +4287,7 @@ TCFLSH
 :
 :
 :
-c_ulong
+c_int
 =
 0x2000741f
 ;
@@ -4297,7 +4297,7 @@ TIOCGSOFTCAR
 :
 :
 :
-c_ulong
+c_int
 =
 0x5419
 ;
@@ -4307,7 +4307,7 @@ TIOCSSOFTCAR
 :
 :
 :
-c_ulong
+c_int
 =
 0x541A
 ;
@@ -4317,7 +4317,7 @@ TIOCLINUX
 :
 :
 :
-c_ulong
+c_int
 =
 0x541C
 ;
@@ -4327,7 +4327,7 @@ TIOCGSERIAL
 :
 :
 :
-c_ulong
+c_int
 =
 0x541E
 ;
@@ -4337,7 +4337,7 @@ TIOCEXCL
 :
 :
 :
-c_ulong
+c_int
 =
 0x540C
 ;
@@ -4347,7 +4347,7 @@ TIOCNXCL
 :
 :
 :
-c_ulong
+c_int
 =
 0x540D
 ;
@@ -4357,7 +4357,7 @@ TIOCSCTTY
 :
 :
 :
-c_ulong
+c_int
 =
 0x540E
 ;
@@ -4367,7 +4367,7 @@ TIOCGPGRP
 :
 :
 :
-c_ulong
+c_int
 =
 0x40047477
 ;
@@ -4377,7 +4377,7 @@ TIOCSPGRP
 :
 :
 :
-c_ulong
+c_int
 =
 0x80047476
 ;
@@ -4387,7 +4387,7 @@ TIOCOUTQ
 :
 :
 :
-c_ulong
+c_int
 =
 0x40047473
 ;
@@ -4397,7 +4397,7 @@ TIOCGWINSZ
 :
 :
 :
-c_ulong
+c_int
 =
 0x40087468
 ;
@@ -4407,7 +4407,7 @@ TIOCSWINSZ
 :
 :
 :
-c_ulong
+c_int
 =
 0x80087467
 ;
@@ -4417,7 +4417,7 @@ TIOCMGET
 :
 :
 :
-c_ulong
+c_int
 =
 0x5415
 ;
@@ -4427,7 +4427,7 @@ TIOCMBIS
 :
 :
 :
-c_ulong
+c_int
 =
 0x5416
 ;
@@ -4437,7 +4437,7 @@ TIOCMBIC
 :
 :
 :
-c_ulong
+c_int
 =
 0x5417
 ;
@@ -4447,7 +4447,7 @@ TIOCMSET
 :
 :
 :
-c_ulong
+c_int
 =
 0x5418
 ;
@@ -4457,7 +4457,7 @@ FIONREAD
 :
 :
 :
-c_ulong
+c_int
 =
 0x4004667f
 ;
@@ -4467,7 +4467,7 @@ TIOCCONS
 :
 :
 :
-c_ulong
+c_int
 =
 0x541D
 ;
@@ -4477,7 +4477,7 @@ TIOCM_LE
 :
 :
 :
-c_ulong
+c_int
 =
 0x001
 ;
@@ -4487,7 +4487,7 @@ TIOCM_DTR
 :
 :
 :
-c_ulong
+c_int
 =
 0x002
 ;
@@ -4497,7 +4497,7 @@ TIOCM_RTS
 :
 :
 :
-c_ulong
+c_int
 =
 0x004
 ;
@@ -4507,7 +4507,7 @@ TIOCM_ST
 :
 :
 :
-c_ulong
+c_int
 =
 0x008
 ;
@@ -4517,7 +4517,7 @@ TIOCM_SR
 :
 :
 :
-c_ulong
+c_int
 =
 0x010
 ;
@@ -4527,7 +4527,7 @@ TIOCM_CTS
 :
 :
 :
-c_ulong
+c_int
 =
 0x020
 ;
@@ -4537,7 +4537,7 @@ TIOCM_CAR
 :
 :
 :
-c_ulong
+c_int
 =
 0x040
 ;
@@ -4547,7 +4547,7 @@ TIOCM_RNG
 :
 :
 :
-c_ulong
+c_int
 =
 0x080
 ;
@@ -4557,7 +4557,7 @@ TIOCM_DSR
 :
 :
 :
-c_ulong
+c_int
 =
 0x100
 ;
@@ -4567,7 +4567,7 @@ TIOCM_CD
 :
 :
 :
-c_ulong
+c_int
 =
 TIOCM_CAR
 ;
@@ -4577,9 +4577,29 @@ TIOCM_RI
 :
 :
 :
-c_ulong
+c_int
 =
 TIOCM_RNG
+;
+pub
+const
+TIOCGRS485
+:
+:
+:
+c_int
+=
+0x542E
+;
+pub
+const
+TIOCSRS485
+:
+:
+:
+c_int
+=
+0x542F
 ;
 pub
 const
@@ -4597,7 +4617,7 @@ TIOCINQ
 :
 :
 :
-c_ulong
+c_int
 =
 :
 :
@@ -5282,7 +5302,7 @@ request
 :
 :
 :
-c_ulong
+c_int
 .
 .
 .

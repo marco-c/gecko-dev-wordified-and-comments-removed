@@ -74,9 +74,6 @@ sa_restorer
 :
 :
 :
-dox
-:
-:
 Option
 <
 extern
