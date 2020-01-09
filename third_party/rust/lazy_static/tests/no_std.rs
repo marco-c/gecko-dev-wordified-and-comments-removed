@@ -13,14 +13,6 @@ spin_no_std
 #
 !
 [
-feature
-(
-const_fn
-)
-]
-#
-!
-[
 no_std
 ]
 #

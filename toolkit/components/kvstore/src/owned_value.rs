@@ -98,20 +98,12 @@ String
 pub
 fn
 value_to_owned
-<
-'
-a
->
 (
 value
 :
 Option
 <
 Value
-<
-'
-a
->
 >
 )
 -
@@ -573,8 +565,6 @@ None
 unsupported_type
 =
 >
-{
-return
 Err
 (
 KeyValueError
@@ -585,7 +575,5 @@ UnsupportedType
 unsupported_type
 )
 )
-;
-}
 }
 }

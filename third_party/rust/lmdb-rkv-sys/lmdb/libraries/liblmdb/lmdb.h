@@ -65,7 +65,7 @@ MDB_VERSION_MINOR
 #
 define
 MDB_VERSION_PATCH
-21
+23
 #
 define
 MDB_VERINT
@@ -111,9 +111,9 @@ MDB_VERSION_PATCH
 define
 MDB_VERSION_DATE
 "
-June
-1
-2017
+December
+19
+2018
 "
 #
 define

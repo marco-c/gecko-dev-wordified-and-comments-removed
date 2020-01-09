@@ -235,6 +235,10 @@ char
 *
 ptr
 ;
+flags
+=
+0
+;
 while
 (
 fgets
@@ -2505,10 +2509,6 @@ data
 ;
 int
 batch
-=
-0
-;
-flags
 =
 0
 ;
