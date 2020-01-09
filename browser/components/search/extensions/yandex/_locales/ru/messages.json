@@ -192,16 +192,6 @@ message
 "
 :
 "
-resource
-:
-/
-/
-search
--
-plugins
-/
-images
-/
 yandex
 -
 ru

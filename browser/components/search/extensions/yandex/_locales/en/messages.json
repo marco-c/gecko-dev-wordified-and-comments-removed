@@ -201,16 +201,6 @@ message
 "
 :
 "
-resource
-:
-/
-/
-search
--
-plugins
-/
-images
-/
 yandex
 -
 en
