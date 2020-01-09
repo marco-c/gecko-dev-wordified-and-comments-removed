@@ -7723,6 +7723,17 @@ rv
 rv
 )
 ;
+mChannel
+-
+>
+SetLoadFlags
+(
+nsIChannel
+:
+:
+LOAD_BYPASS_URL_CLASSIFIER
+)
+;
 nsCOMPtr
 <
 nsILoadInfo
