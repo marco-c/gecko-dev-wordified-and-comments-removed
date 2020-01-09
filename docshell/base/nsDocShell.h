@@ -399,9 +399,6 @@ EventTarget
 }
 }
 class
-nsICommandManager
-;
-class
 nsIContentViewer
 ;
 class
@@ -445,6 +442,9 @@ nsIWidget
 ;
 class
 nsIReferrerInfo
+;
+class
+nsCommandManager
 ;
 class
 nsDocShell
@@ -2830,9 +2830,9 @@ nsIWebBrowserFind
 >
 mFind
 ;
-nsCOMPtr
+RefPtr
 <
-nsICommandManager
+nsCommandManager
 >
 mCommandManager
 ;

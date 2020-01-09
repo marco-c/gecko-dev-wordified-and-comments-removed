@@ -166,6 +166,9 @@ nsIURI
 h
 "
 class
+nsCommandManager
+;
+class
 nsPresContext
 ;
 class
@@ -226,6 +229,15 @@ native
 nsIPresShell
 (
 nsIPresShell
+)
+;
+[
+ptr
+]
+native
+nsCommandManager
+(
+nsCommandManager
 )
 ;
 [
@@ -343,9 +355,6 @@ nsITabParent
 ;
 interface
 nsITabChild
-;
-interface
-nsICommandManager
 ;
 interface
 nsICommandParams
@@ -6309,7 +6318,7 @@ noscript
 nostdcall
 notxpcom
 ]
-nsICommandManager
+nsCommandManager
 GetCommandManager
 (
 )
