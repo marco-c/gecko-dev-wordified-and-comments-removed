@@ -919,7 +919,7 @@ operator
 [
 ]
 (
-int
+ptrdiff_t
 aIndex
 )
 const
