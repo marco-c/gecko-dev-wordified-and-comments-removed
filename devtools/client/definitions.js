@@ -114,7 +114,7 @@ lazyGetter
 (
 this
 "
-NewDebuggerPanel
+DebuggerPanel
 "
 (
 )
@@ -1292,7 +1292,7 @@ toolbox
 {
 return
 new
-NewDebuggerPanel
+DebuggerPanel
 (
 iframeWindow
 toolbox
