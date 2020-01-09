@@ -781,7 +781,7 @@ mozinfo
 info
 [
 '
-is_fennec
+isFennec
 '
 ]
 =
