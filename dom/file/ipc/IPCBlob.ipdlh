@@ -237,6 +237,9 @@ type
 uint64_t
 size
 ;
+nsString
+blobImplType
+;
 IPCBlobStream
 inputStream
 ;

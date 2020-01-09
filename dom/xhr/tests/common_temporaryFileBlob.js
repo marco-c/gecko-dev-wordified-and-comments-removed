@@ -159,6 +159,9 @@ response
 blobImplType
 "
 StreamBlobImpl
+[
+TemporaryBlobImpl
+]
 "
 "
 We
@@ -396,6 +399,9 @@ response
 blobImplType
 "
 StreamBlobImpl
+[
+TemporaryBlobImpl
+]
 "
 "
 We

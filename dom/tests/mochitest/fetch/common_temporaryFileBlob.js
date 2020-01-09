@@ -128,6 +128,9 @@ blob
 blobImplType
 "
 StreamBlobImpl
+[
+TemporaryBlobImpl
+]
 "
 "
 We
@@ -341,6 +344,9 @@ blob
 blobImplType
 "
 StreamBlobImpl
+[
+TemporaryBlobImpl
+]
 "
 "
 We
@@ -501,6 +507,9 @@ blob
 blobImplType
 "
 StreamBlobImpl
+[
+TemporaryBlobImpl
+]
 "
 "
 We
@@ -680,6 +689,9 @@ blob
 blobImplType
 "
 StreamBlobImpl
+[
+TemporaryBlobImpl
+]
 "
 "
 We
