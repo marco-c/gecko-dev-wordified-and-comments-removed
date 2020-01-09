@@ -4761,8 +4761,10 @@ Length
 ;
 nsTArray
 <
+RefPtr
+<
 nsIContentProcessInfo
-*
+>
 >
 infos
 (
@@ -4858,15 +4860,6 @@ ProvideProcess
 aRemoteType
 openerInfo
 infos
-.
-Elements
-(
-)
-infos
-.
-Length
-(
-)
 maxContentParents
 &
 index
