@@ -3613,8 +3613,9 @@ Realloc
 :
 p
 =
-js_realloc
+js_arena_realloc
 (
+arena
 reallocPtr
 nbytes
 )
