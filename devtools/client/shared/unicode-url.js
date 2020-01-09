@@ -131,7 +131,7 @@ hostname
 ;
 url
 =
-decodeURIComponent
+decodeURI
 (
 url
 )
