@@ -362,7 +362,7 @@ tempPoolMark_
 ;
 TraceListNode
 *
-traceListHead
+traceListHead_
 ;
 ParseContext
 *
@@ -883,7 +883,7 @@ m
 .
 traceListHead
 =
-traceListHead
+traceListHead_
 ;
 return
 m
@@ -905,7 +905,7 @@ m
 mark
 )
 ;
-traceListHead
+traceListHead_
 =
 m
 .
@@ -2316,7 +2316,7 @@ using
 Base
 :
 :
-traceListHead
+traceListHead_
 ;
 using
 Base
