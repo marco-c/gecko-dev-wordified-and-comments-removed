@@ -105,9 +105,8 @@ document
 .
 title
 "
-about
-:
-config
+Advanced
+Configurations
 "
 )
 ;
