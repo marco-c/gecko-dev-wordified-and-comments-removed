@@ -113,7 +113,7 @@ js
 '
 event
 -
-parsers
+collector
 .
 js
 '
