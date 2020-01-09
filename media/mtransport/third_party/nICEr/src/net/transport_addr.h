@@ -53,13 +53,6 @@ h
 #
 endif
 #
-include
-"
-r_types
-.
-h
-"
-#
 define
 MAXIFNAME
 33

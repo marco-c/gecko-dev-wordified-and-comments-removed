@@ -195,13 +195,11 @@ any
 more
 .
 Bug
-1521879
+1524688
 :
-Adding
-PMediaTransport
-.
-ipdl
+Deleting
+preprocessed
+manifests
 requires
-a
 clobber
 .
