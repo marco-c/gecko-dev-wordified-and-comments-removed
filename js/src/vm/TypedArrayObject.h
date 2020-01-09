@@ -763,8 +763,10 @@ cx
 Native
 native
 const
-CallArgs
-&
+JS
+:
+:
+HandleValueArray
 args
 MutableHandleObject
 res
