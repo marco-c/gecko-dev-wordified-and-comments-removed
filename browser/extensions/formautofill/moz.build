@@ -372,6 +372,17 @@ test
 /
 mochitest
 /
+creditCard
+/
+mochitest
+.
+ini
+'
+'
+test
+/
+mochitest
+/
 mochitest
 .
 ini

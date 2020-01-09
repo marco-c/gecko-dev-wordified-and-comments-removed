@@ -1734,6 +1734,17 @@ formautofill_parent_utils
 js
 "
 )
+.
+replace
+(
+/
+\
+/
+creditCard
+/
+"
+"
+)
 ;
 formFillChromeScript
 =
