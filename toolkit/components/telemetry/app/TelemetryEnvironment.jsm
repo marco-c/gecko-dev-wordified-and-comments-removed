@@ -4356,8 +4356,6 @@ tag
 .
 getMimeTypes
 (
-{
-}
 )
 updateDay
 :
