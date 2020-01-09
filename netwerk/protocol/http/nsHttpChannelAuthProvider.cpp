@@ -1906,6 +1906,7 @@ ident
 result
 generateFlags
 sessionState
+proxyAuth
 )
 ;
 }
@@ -1953,6 +1954,8 @@ generateFlags
 nsISupports
 *
 sessionState
+bool
+aProxyAuth
 )
 {
 nsresult
@@ -2039,6 +2042,15 @@ AuthCache
 mIsPrivate
 )
 ;
+nsAutoCString
+suffix
+;
+if
+(
+!
+aProxyAuth
+)
+{
 nsCOMPtr
 <
 nsIChannel
@@ -2050,15 +2062,13 @@ do_QueryInterface
 mAuthChannel
 )
 ;
-nsAutoCString
-suffix
-;
 GetOriginAttributesSuffix
 (
 chan
 suffix
 )
 ;
+}
 rv
 =
 authCache
@@ -6335,6 +6345,7 @@ ident
 aGeneratedCreds
 aFlags
 aSessionState
+mProxyAuth
 )
 ;
 MOZ_ASSERT
