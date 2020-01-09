@@ -3406,6 +3406,12 @@ if
 oldPriority
 <
 mPriority
+&
+&
+oldPriority
+!
+=
+PROCESS_PRIORITY_UNKNOWN
 )
 {
 Telemetry
@@ -3425,6 +3431,12 @@ DOM_CONTENTPROCESS_OS_PRIORITY_RAISED
 ;
 }
 else
+if
+(
+oldPriority
+>
+mPriority
+)
 {
 Telemetry
 :
