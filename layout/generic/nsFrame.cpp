@@ -36722,7 +36722,9 @@ true
 ;
 }
 return
-false
+Combines3DTransformWithAncestors
+(
+)
 ;
 }
 bool
