@@ -5500,7 +5500,9 @@ const
 nsXULAppInfo
 kAppInfo
 ;
-static
+namespace
+mozilla
+{
 nsresult
 AppInfoConstructor
 (
@@ -5538,6 +5540,7 @@ aIID
 aResult
 )
 ;
+}
 }
 bool
 gLogConsoleErrors
