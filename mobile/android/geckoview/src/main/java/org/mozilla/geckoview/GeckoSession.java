@@ -900,6 +900,8 @@ void
 attachNPZC
 (
 PanZoomController
+.
+NativeProvider
 npzc
 )
 ;
@@ -8475,7 +8477,6 @@ mState
 )
 ;
 }
-public
 void
 updateSessionState
 (
@@ -12045,7 +12046,6 @@ mShouldPinOnScreen
 ;
 }
 AnyThread
-public
 NonNull
 EventDispatcher
 getEventDispatcher
@@ -16231,6 +16231,8 @@ mCompositor
 attachNPZC
 (
 mPanZoomController
+.
+mNative
 )
 ;
 if

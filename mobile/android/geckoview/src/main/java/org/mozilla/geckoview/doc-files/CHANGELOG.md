@@ -405,6 +405,19 @@ getSnapshots
 -
 boolean
 -
+-
+Removed
+all
+org
+.
+mozilla
+.
+gecko
+references
+in
+the
+API
+.
 #
 #
 v67
@@ -2638,4 +2651,4 @@ api
 version
 ]
 :
-0d106c73184df553b2204170473080bf2825ea23
+2105a5c321285d3e0e2756fbd56e26090a275c25
