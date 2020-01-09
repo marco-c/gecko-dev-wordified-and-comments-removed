@@ -28,6 +28,13 @@ platform
 windows10
 -
 64
+(
+?
+:
+-
+pgo
+)
+?
 -
 qr
 /
