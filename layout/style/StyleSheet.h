@@ -1660,6 +1660,13 @@ Rule
 )
 ;
 void
+StyleSheetCloned
+(
+StyleSheet
+&
+)
+;
+void
 ApplicableStateChanged
 (
 bool

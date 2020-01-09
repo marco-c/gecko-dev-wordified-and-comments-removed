@@ -311,6 +311,13 @@ Rule
 )
 ;
 void
+StyleSheetCloned
+(
+StyleSheet
+&
+)
+;
+void
 StyleSheetApplicableStateChanged
 (
 StyleSheet
