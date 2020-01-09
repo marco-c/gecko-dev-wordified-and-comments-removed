@@ -308,6 +308,15 @@ CLEARTYPE_QUALITY
 *
 /
 )
+\
+_
+(
+LayersWindowRecordingPath
+nsCString
+nsCString
+(
+)
+)
 class
 gfxVars
 final
