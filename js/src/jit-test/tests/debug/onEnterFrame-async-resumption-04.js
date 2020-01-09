@@ -101,7 +101,8 @@ frame
 hits
 =
 =
-3
+=
+2
 )
 {
 return

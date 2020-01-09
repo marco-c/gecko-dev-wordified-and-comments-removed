@@ -753,7 +753,8 @@ reason
 )
 ;
 MOZ_MUST_USE
-bool
+JSObject
+*
 AsyncFunctionAwait
 (
 JSContext

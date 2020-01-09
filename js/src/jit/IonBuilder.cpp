@@ -12931,6 +12931,9 @@ case
 JSOP_GENERATOR
 :
 case
+JSOP_ASYNCAWAIT
+:
+case
 JSOP_ASYNCRESOLVE
 :
 case
@@ -12963,9 +12966,6 @@ break
 ;
 case
 JSOP_UNUSED71
-:
-case
-JSOP_UNUSED151
 :
 case
 JSOP_LIMIT

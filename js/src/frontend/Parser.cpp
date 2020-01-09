@@ -9518,6 +9518,16 @@ null
 )
 ;
 }
+if
+(
+pc_
+-
+>
+isGenerator
+(
+)
+)
+{
 NameNodeType
 generator
 =
@@ -9559,6 +9569,7 @@ null
 (
 )
 ;
+}
 }
 }
 if

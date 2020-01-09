@@ -84,9 +84,6 @@ assertEq
 (
 /
 ^
-async
-\
-*
 inner
 .
 +
@@ -272,9 +269,6 @@ assertEq
 (
 /
 ^
-async
-\
-*
 middle
 .
 +
@@ -604,9 +598,6 @@ assertEq
 (
 /
 ^
-async
-\
-*
 outer
 .
 +
@@ -924,9 +915,6 @@ assertEq
 (
 /
 ^
-async
-\
-*
 .
 +
 ErrorStack
@@ -1167,9 +1155,6 @@ assertEq
 (
 /
 ^
-async
-\
-*
 inner
 .
 +

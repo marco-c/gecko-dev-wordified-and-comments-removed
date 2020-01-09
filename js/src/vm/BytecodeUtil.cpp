@@ -10639,6 +10639,9 @@ RVAL
 )
 ;
 case
+JSOP_ASYNCAWAIT
+:
+case
 JSOP_ASYNCRESOLVE
 :
 return
