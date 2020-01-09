@@ -5660,6 +5660,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+FUZZING
 if
 (
 canRecord
@@ -5697,6 +5700,8 @@ mCanRecordBase
 canRecord
 ;
 }
+#
+endif
 return
 NS_OK
 ;
@@ -5745,6 +5750,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+FUZZING
 if
 (
 canRecord
@@ -5782,6 +5790,8 @@ mCanRecordExtended
 canRecord
 ;
 }
+#
+endif
 return
 NS_OK
 ;
@@ -5911,6 +5921,9 @@ useTelemetry
 =
 false
 ;
+#
+ifndef
+FUZZING
 if
 (
 (
@@ -5949,6 +5962,8 @@ useTelemetry
 true
 ;
 }
+#
+endif
 SetCurrentProduct
 (
 )
