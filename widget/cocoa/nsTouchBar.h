@@ -749,6 +749,12 @@ NSString
 )
 aImageName
 ;
+-
+(
+void
+)
+releaseJSObjects
+;
 end
 #
 endif

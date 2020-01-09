@@ -1227,6 +1227,17 @@ OnCommand
 )
 ;
 }
+-
+(
+void
+)
+releaseJSObjects
+{
+mTouchBarHelper
+=
+nil
+;
+}
 #
 pragma
 mark
