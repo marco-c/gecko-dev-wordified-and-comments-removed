@@ -129,11 +129,6 @@ addons
 json
 '
 '
-certificates
-.
-json
-'
-'
 gfx
 .
 json

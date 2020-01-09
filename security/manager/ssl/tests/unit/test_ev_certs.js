@@ -1471,7 +1471,9 @@ setIntPref
 "
 services
 .
-blocklist
+settings
+.
+security
 .
 onecrl
 .
@@ -1655,7 +1657,9 @@ setIntPref
 "
 services
 .
-blocklist
+settings
+.
+security
 .
 onecrl
 .
@@ -1876,7 +1880,9 @@ setIntPref
 "
 services
 .
-blocklist
+settings
+.
+security
 .
 onecrl
 .
@@ -1960,7 +1966,9 @@ clearUserPref
 "
 services
 .
-blocklist
+settings
+.
+security
 .
 onecrl
 .

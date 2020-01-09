@@ -462,9 +462,11 @@ defaults
 /
 settings
 /
-blocklists
+security
+-
+state
 /
-certificates
+onecrl
 .
 json
 ;
