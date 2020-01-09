@@ -209,6 +209,7 @@ operation
 /
 [
 scriptable
+builtinclass
 uuid
 (
 52e49370
