@@ -944,6 +944,18 @@ mozilla
 -
 release
 '
+        
+'
+comm
+-
+esr60
+'
+        
+'
+comm
+-
+esr68
+'
     
 ]
 )
@@ -962,12 +974,6 @@ mozilla
 -
 esr60
 '
-        
-'
-comm
--
-esr60
-'
     
 ]
 )
@@ -983,12 +989,6 @@ set
         
 '
 mozilla
--
-esr68
-'
-        
-'
-comm
 -
 esr68
 '
