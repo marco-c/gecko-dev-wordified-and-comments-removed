@@ -139,6 +139,24 @@ package
 "
 )
     
+binary
+=
+os
+.
+path
+.
+normpath
+(
+os
+.
+path
+.
+abspath
+(
+binary
+)
+)
+    
 path_mappings
 =
 {
