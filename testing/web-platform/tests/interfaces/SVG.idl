@@ -1217,7 +1217,8 @@ createSVGTransform
 SVGTransform
 createSVGTransformFromMatrix
 (
-DOMMatrixReadOnly
+optional
+DOMMatrix2DInit
 matrix
 )
 ;
@@ -1640,7 +1641,8 @@ angle
 void
 setMatrix
 (
-DOMMatrixReadOnly
+optional
+DOMMatrix2DInit
 matrix
 )
 ;
@@ -1789,7 +1791,8 @@ interfaces
 SVGTransform
 createSVGTransformFromMatrix
 (
-DOMMatrixReadOnly
+optional
+DOMMatrix2DInit
 matrix
 )
 ;
