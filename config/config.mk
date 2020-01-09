@@ -1735,12 +1735,12 @@ CC_TYPE
 )
 )
 )
-ifeq
+ifneq
 (
 (
 CPU_ARCH
 )
-x86_64
+x86
 )
 #
 Normal
