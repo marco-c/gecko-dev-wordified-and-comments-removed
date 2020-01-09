@@ -2453,6 +2453,12 @@ nsIContent
 >
 mContent
 ;
+nsCOMPtr
+<
+nsIContent
+>
+mOverrideClickTarget
+;
 }
 ;
 MOZ_CAN_RUN_SCRIPT
