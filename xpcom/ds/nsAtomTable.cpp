@@ -75,6 +75,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -2195,10 +2204,7 @@ i
 ;
 MOZ_ASSERT
 (
-nsCRT
-:
-:
-IsAscii
+IsAsciiNullTerminated
 (
 atom
 -

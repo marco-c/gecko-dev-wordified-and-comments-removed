@@ -9,6 +9,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
 <
 ole2
 .
@@ -476,6 +485,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -605,6 +617,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 mChannelResult
@@ -627,6 +642,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -5152,7 +5170,7 @@ E_FAIL
 ;
 if
 (
-NS_IsAscii
+IsAsciiNullTerminated
 (
 path
 .

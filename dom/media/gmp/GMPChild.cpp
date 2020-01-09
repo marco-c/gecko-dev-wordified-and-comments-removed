@@ -138,6 +138,15 @@ h
 #
 include
 "
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
 GMPUtils
 .
 h
@@ -1459,7 +1468,10 @@ char16_t
 *
 )
 =
-NS_IsAscii
+IsAsciiNullTerminated
+<
+char16_t
+>
 ;
 static_assert
 (
