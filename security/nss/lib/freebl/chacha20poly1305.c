@@ -720,6 +720,9 @@ ctx
 #
 endif
 }
+#
+ifndef
+NSS_DISABLE_CHACHAPOLY
 void
 ChaCha20Xor
 (
@@ -778,6 +781,8 @@ ctr
 ;
 }
 }
+#
+endif
 SECStatus
 ChaCha20Poly1305_Seal
 (
