@@ -433,10 +433,6 @@ msi
 repackage
 platform_names
 :
-path_platform
-:
-'
-'
 filename_platform
 :
 by
