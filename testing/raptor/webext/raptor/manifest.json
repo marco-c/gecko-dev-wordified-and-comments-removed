@@ -489,6 +489,13 @@ measure
 js
 "
 ]
+"
+run_at
+"
+:
+"
+document_end
+"
 }
 {
 "
@@ -634,6 +641,13 @@ relay
 js
 "
 ]
+"
+run_at
+"
+:
+"
+document_end
+"
 }
 ]
 "
