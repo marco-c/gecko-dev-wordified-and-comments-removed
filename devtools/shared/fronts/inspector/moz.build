@@ -94,11 +94,4 @@ picker
 .
 js
 '
-'
-rule
--
-rewriter
-.
-js
-'
 )
