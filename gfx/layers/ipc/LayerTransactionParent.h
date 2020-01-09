@@ -323,6 +323,8 @@ const
 TimeStamp
 &
 aTxnEndTime
+bool
+aContainsSVG
 const
 nsCString
 &
@@ -356,6 +358,10 @@ aTxnStartTime
 mTxnEndTime
 =
 aTxnEndTime
+;
+mContainsSVG
+=
+aContainsSVG
 ;
 mTxnURL
 =
@@ -1023,6 +1029,9 @@ mFwdTime
 ;
 nsCString
 mTxnURL
+;
+bool
+mContainsSVG
 ;
 bool
 mDestroyed

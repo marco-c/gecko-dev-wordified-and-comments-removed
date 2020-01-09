@@ -2832,6 +2832,9 @@ refreshStart
 TimeStamp
 transactionStart
 ;
+bool
+containsSVG
+;
 nsCString
 url
 ;

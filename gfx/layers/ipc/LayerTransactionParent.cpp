@@ -5260,7 +5260,7 @@ mTxnEndTime
 -
 mTxnStartTime
 mVsyncRate
-false
+mContainsSVG
 false
 )
 ;
