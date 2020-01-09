@@ -1851,10 +1851,6 @@ eCSSKeyword_layout
 NS_STYLE_CONTAIN_LAYOUT
 }
 {
-eCSSKeyword_style
-NS_STYLE_CONTAIN_STYLE
-}
-{
 eCSSKeyword_paint
 NS_STYLE_CONTAIN_PAINT
 }
