@@ -127,6 +127,17 @@ AntiTrackingCommon
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+extensions
+/
+cookie
+'
+]
 include
 (
 '
