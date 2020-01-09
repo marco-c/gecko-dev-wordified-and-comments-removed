@@ -1424,6 +1424,7 @@ start
 (
 {
 name
+actionName
 branch
 preferences
 experimentType
@@ -1987,6 +1988,7 @@ experiment
 =
 {
 name
+actionName
 branch
 expired
 :

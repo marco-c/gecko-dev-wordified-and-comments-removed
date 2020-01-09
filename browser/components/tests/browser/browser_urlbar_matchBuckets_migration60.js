@@ -1202,6 +1202,11 @@ assign
 name
 :
 STUDY_NAME
+actionName
+:
+"
+SomeAction
+"
 branch
 :
 "
