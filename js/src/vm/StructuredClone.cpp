@@ -9412,7 +9412,7 @@ kind
 ArrayBufferObject
 :
 :
-PLAIN_DATA
+MALLOCED
 "
 failing
 to

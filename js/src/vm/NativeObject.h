@@ -4002,7 +4002,7 @@ value
 ;
 }
 static
-const
+constexpr
 uint32_t
 MAX_FIXED_SLOTS
 =
