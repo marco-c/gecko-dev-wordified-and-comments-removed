@@ -757,8 +757,6 @@ this
 .
 getAllDisabledHosts
 (
-{
-}
 )
 .
 length
@@ -1777,7 +1775,6 @@ removeAllLogins
 }
 getAllDisabledHosts
 (
-count
 )
 {
 log
@@ -1849,20 +1846,6 @@ displayPrePath
 )
 ;
 }
-}
-if
-(
-count
-)
-{
-count
-.
-value
-=
-disabledHosts
-.
-length
-;
 }
 log
 .
