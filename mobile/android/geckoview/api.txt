@@ -12067,6 +12067,15 @@ FETCH_FLAGS_NONE
 =
 0
 ;
+field
+public
+static
+final
+int
+FETCH_FLAGS_NO_REDIRECTS
+=
+2
+;
 }
 public
 static
