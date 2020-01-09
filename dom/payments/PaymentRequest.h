@@ -1167,6 +1167,12 @@ PaymentAddress
 >
 mFullShippingAddress
 ;
+RefPtr
+<
+Document
+>
+mDocument
+;
 nsString
 mShippingOption
 ;
