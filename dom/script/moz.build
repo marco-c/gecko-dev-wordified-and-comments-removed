@@ -163,12 +163,12 @@ UNIFIED_SOURCES
 =
 [
 '
-ModuleLoadRequest
+LoadedScript
 .
 cpp
 '
 '
-ModuleScript
+ModuleLoadRequest
 .
 cpp
 '
