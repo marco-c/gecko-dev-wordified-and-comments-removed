@@ -2101,7 +2101,7 @@ suite_end
 )
     
 def
-test_status_expected_intermittent
+test_status_known_intermittent
 (
 self
 )
@@ -2144,7 +2144,8 @@ name
 "
 fail
 "
-expected_intermittent
+                                
+known_intermittent
 =
 [
 "
@@ -2192,7 +2193,7 @@ PASS
 "
                                 
 "
-expected_intermittent
+known_intermittent
 "
 :
 [
@@ -7790,7 +7791,7 @@ loglines
         
 self
 .
-assertNotIn
+assertIn
 (
 "
 Unexpected
