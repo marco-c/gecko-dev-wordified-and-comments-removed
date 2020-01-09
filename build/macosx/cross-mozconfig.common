@@ -93,6 +93,12 @@ bin
 :
 topsrcdir
 /
+binutils
+/
+bin
+:
+topsrcdir
+/
 llvm
 -
 dsymutil

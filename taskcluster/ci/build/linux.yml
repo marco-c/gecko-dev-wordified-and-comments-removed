@@ -1872,6 +1872,10 @@ toolchains
 -
 linux64
 -
+binutils
+-
+linux64
+-
 clang
 -
 4
@@ -2074,6 +2078,10 @@ xvfb
 true
 toolchains
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -

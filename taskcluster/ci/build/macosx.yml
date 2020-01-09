@@ -164,6 +164,10 @@ toolchains
 -
 linux64
 -
+binutils
+-
+linux64
+-
 cctools
 -
 port
@@ -360,6 +364,10 @@ downloads
 internal
 toolchains
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -
@@ -584,6 +592,10 @@ downloads
 internal
 toolchains
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -
@@ -843,6 +855,10 @@ toolchains
 -
 linux64
 -
+binutils
+-
+linux64
+-
 cctools
 -
 port
@@ -1074,6 +1090,10 @@ try
 ]
 toolchains
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -
@@ -1330,6 +1350,10 @@ toolchains
 -
 linux64
 -
+binutils
+-
+linux64
+-
 cctools
 -
 port
@@ -1549,6 +1573,10 @@ downloads
 internal
 toolchains
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -
@@ -1781,6 +1809,10 @@ try
 ]
 toolchains
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -
