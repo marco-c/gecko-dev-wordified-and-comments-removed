@@ -544,17 +544,6 @@ content
 /
 test
 /
-urlbar
-/
-browser
-.
-ini
-'
-'
-content
-/
-test
-/
 webextensions
 /
 browser

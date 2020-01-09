@@ -151,6 +151,15 @@ browser
 .
 ini
 '
+'
+tests
+/
+legacy
+/
+browser
+.
+ini
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
