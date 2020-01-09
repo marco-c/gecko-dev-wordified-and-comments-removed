@@ -4457,7 +4457,9 @@ aSample
 >
 mCrypto
 .
-mValid
+IsEncrypted
+(
+)
 )
 {
 MOZ_ASSERT

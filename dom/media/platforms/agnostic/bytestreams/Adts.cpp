@@ -342,7 +342,9 @@ aSample
 >
 mCrypto
 .
-mValid
+IsEncrypted
+(
+)
 )
 {
 if
@@ -518,7 +520,9 @@ aSample
 >
 mCrypto
 .
-mValid
+IsEncrypted
+(
+)
 )
 {
 if
