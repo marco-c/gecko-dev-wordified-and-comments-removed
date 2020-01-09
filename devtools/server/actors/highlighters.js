@@ -1683,7 +1683,7 @@ target
 addEventListener
 (
 "
-mouseup
+click
 "
 this
 .
@@ -1709,7 +1709,7 @@ target
 addEventListener
 (
 "
-click
+mouseup
 "
 this
 .
