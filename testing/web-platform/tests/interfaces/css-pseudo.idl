@@ -79,6 +79,11 @@ type
 ;
 readonly
 attribute
+Element
+element
+;
+readonly
+attribute
 CSSStyleDeclaration
 style
 ;
