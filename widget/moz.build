@@ -1350,7 +1350,7 @@ DIRS
 x11
 '
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -1359,11 +1359,6 @@ GfxInfoX11
 .
 cpp
 '
-]
-SOURCES
-+
-=
-[
 '
 nsShmImage
 .

@@ -64,6 +64,15 @@ aDwriteVersion
 override
 ;
 NS_IMETHOD
+GetWindowProtocol
+(
+nsAString
+&
+aWindowProtocol
+)
+override
+;
+NS_IMETHOD
 GetCleartypeParameters
 (
 nsAString
