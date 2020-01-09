@@ -5408,6 +5408,7 @@ gl
 resource_override_path
 upload_method
 cached_programs
+false
 )
 }
 #
@@ -6016,6 +6017,9 @@ namespace_alloc_by_client
 :
 true
 enable_picture_caching
+allow_pixel_local_storage_support
+:
+false
 .
 .
 Default
@@ -14983,6 +14987,9 @@ opts
 RendererOptions
 {
 precache_flags
+allow_pixel_local_storage_support
+:
+false
 .
 .
 Default

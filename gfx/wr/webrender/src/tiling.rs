@@ -2110,6 +2110,7 @@ alpha_batch_containers
 &
 mut
 merged_batches
+target_rect
 )
 ;
 }

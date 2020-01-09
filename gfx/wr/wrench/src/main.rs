@@ -4254,6 +4254,11 @@ DebugFlags
 :
 :
 PROFILER_DBG
+|
+DebugFlags
+:
+:
+COMPACT_PROFILER
 )
 ;
 wrench

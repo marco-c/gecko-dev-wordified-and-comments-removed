@@ -686,8 +686,8 @@ vUvSampleBounds
 zw
 )
 ;
-oFragColor
-=
+write_output
+(
 alpha
 *
 textureLod
@@ -703,6 +703,7 @@ x
 0
 .
 0
+)
 )
 ;
 }

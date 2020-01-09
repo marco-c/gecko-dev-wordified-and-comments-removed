@@ -1986,13 +1986,14 @@ a
 ;
 #
 else
-oFragColor
-=
+write_output
+(
 vColor
 *
 mask
 *
 alpha
+)
 ;
 #
 endif
