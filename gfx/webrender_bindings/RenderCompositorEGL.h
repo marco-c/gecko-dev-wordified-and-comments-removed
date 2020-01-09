@@ -169,16 +169,9 @@ CompositorWidget
 aWidget
 )
 ;
-static
 EGLSurface
 CreateEGLSurface
 (
-widget
-:
-:
-CompositorWidget
-*
-aWidget
 )
 ;
 void

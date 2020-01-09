@@ -413,6 +413,12 @@ defined
 (
 MOZ_WAYLAND
 )
+|
+|
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 static
 EGLSurface
 CreateEGLSurfaceForCompositorWidget
@@ -423,8 +429,9 @@ widget
 CompositorWidget
 *
 aCompositorWidget
-bool
-aForceAccelerated
+const
+EGLConfig
+aConfig
 )
 ;
 #
