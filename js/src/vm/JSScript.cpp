@@ -14910,7 +14910,7 @@ ss
 binASTMetadata_
 ;
 uint32_t
-numBinKinds
+numBinASTKinds
 ;
 uint32_t
 numStrings
@@ -14923,12 +14923,12 @@ mode
 XDR_ENCODE
 )
 {
-numBinKinds
+numBinASTKinds
 =
 binASTMetadata
 -
 >
-numBinKinds
+numBinASTKinds
 (
 )
 ;
@@ -14950,7 +14950,7 @@ xdr
 codeUint32
 (
 &
-numBinKinds
+numBinASTKinds
 )
 )
 ;
@@ -14996,7 +14996,7 @@ BinASTSourceMetadata
 :
 totalSize
 (
-numBinKinds
+numBinASTKinds
 numStrings
 )
 )
@@ -15030,7 +15030,7 @@ frontend
 :
 BinASTSourceMetadata
 (
-numBinKinds
+numBinASTKinds
 numStrings
 )
 ;
@@ -15052,7 +15052,7 @@ i
 ;
 i
 <
-numBinKinds
+numBinASTKinds
 ;
 i
 +
@@ -15062,14 +15062,14 @@ i
 frontend
 :
 :
-BinKind
+BinASTKind
 *
-binKindBase
+binASTKindBase
 =
 binASTMetadata
 -
 >
-binKindBase
+binASTKindBase
 (
 )
 ;
@@ -15081,7 +15081,7 @@ xdr
 codeEnum32
 (
 &
-binKindBase
+binASTKindBase
 [
 i
 ]

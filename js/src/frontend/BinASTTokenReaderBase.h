@@ -211,7 +211,7 @@ Error
 raiseInvalidNumberOfFields
 (
 const
-BinKind
+BinASTKind
 kind
 const
 uint32_t
@@ -237,7 +237,7 @@ char
 *
 kind
 const
-BinField
+BinASTField
 field
 )
 ;

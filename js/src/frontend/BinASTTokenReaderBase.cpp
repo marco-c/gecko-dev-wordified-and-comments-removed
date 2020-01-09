@@ -180,7 +180,7 @@ BinASTTokenReaderBase
 raiseInvalidNumberOfFields
 (
 const
-BinKind
+BinASTKind
 kind
 const
 uint32_t
@@ -227,7 +227,7 @@ got
 %
 u
 "
-describeBinKind
+describeBinASTKind
 (
 kind
 )
@@ -265,7 +265,7 @@ char
 *
 kind
 const
-BinField
+BinASTField
 field
 )
 {
@@ -302,7 +302,7 @@ s
 '
 "
 kind
-describeBinField
+describeBinASTField
 (
 field
 )
