@@ -111,10 +111,6 @@ const
 nsACString
 &
 username
-const
-nsACString
-&
-topWindowOrigin
 bool
 privateBrowsing
 uint32_t
@@ -172,10 +168,6 @@ const
 nsACString
 &
 username
-const
-nsACString
-&
-topWindowOrigin
 bool
 privateBrowsing
 nsIInterfaceRequestor
@@ -454,9 +446,6 @@ mOriginPort
 ;
 nsCString
 mUsername
-;
-nsCString
-mTopWindowOrigin
 ;
 MOZ_INIT_OUTSIDE_CTOR
 bool

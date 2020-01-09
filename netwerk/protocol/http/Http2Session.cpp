@@ -14216,12 +14216,6 @@ GetUsername
 mCI
 -
 >
-GetTopWindowOrigin
-(
-)
-mCI
--
->
 GetPrivate
 (
 )
