@@ -1581,6 +1581,17 @@ span
 className
 =
 "
+pipe
+-
+divider
+"
+/
+>
+<
+span
+className
+=
+"
 search
 -
 type
