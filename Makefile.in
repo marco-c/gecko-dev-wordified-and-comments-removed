@@ -1438,6 +1438,8 @@ enabled
 .
 ifdef
 MOZ_PGO
+ifdef
+COMPILE_ENVIRONMENT
 #
 If
 one
@@ -1483,6 +1485,7 @@ OVERRIDE_DEFAULT_GOAL
 :
 =
 profiledbuild
+endif
 endif
 endif
 include
