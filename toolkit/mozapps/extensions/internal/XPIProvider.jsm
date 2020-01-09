@@ -9988,6 +9988,7 @@ installDistributionAddons
 (
 aManifests
 aAppChanged
+aOldAppVersion
 )
 {
 let
@@ -10152,6 +10153,7 @@ installDistributionAddon
 id
 file
 loc
+aOldAppVersion
 )
 )
 ;
@@ -10472,6 +10474,7 @@ installDistributionAddons
 (
 manifests
 aAppChanged
+aOldAppVersion
 )
 ;
 if
