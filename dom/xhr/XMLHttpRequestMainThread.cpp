@@ -7995,6 +7995,17 @@ mFlagParseBody
 =
 true
 ;
+if
+(
+mErrorLoad
+=
+=
+ErrorType
+:
+:
+eOK
+)
+{
 ChangeState
 (
 XMLHttpRequest_Binding
@@ -8003,6 +8014,7 @@ XMLHttpRequest_Binding
 HEADERS_RECEIVED
 )
 ;
+}
 ResetResponse
 (
 )
