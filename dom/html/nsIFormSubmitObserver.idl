@@ -187,12 +187,6 @@ earlyformsubmit
 "
 #
 define
-NS_FIRST_FORMSUBMIT_CATEGORY
-"
-firstformsubmit
-"
-#
-define
 NS_INVALIDFORMSUBMIT_SUBJECT
 "
 invalidformsubmit
