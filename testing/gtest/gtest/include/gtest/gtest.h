@@ -128,6 +128,15 @@ test
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 testing
 {
@@ -744,6 +753,7 @@ HasSameFixtureClass
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 TestBody

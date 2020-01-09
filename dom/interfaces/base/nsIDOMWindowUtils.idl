@@ -2298,6 +2298,7 @@ event
 /
 [
 optional_argc
+can_run_script
 ]
 boolean
 sendMouseEvent
@@ -2612,6 +2613,9 @@ touch
 event
 *
 /
+[
+can_run_script
+]
 boolean
 sendTouchEvent
 (
@@ -2731,6 +2735,7 @@ children
 /
 [
 optional_argc
+can_run_script
 ]
 void
 sendMouseEventToWindow
@@ -2826,6 +2831,9 @@ children
 .
 *
 /
+[
+can_run_script
+]
 boolean
 sendTouchEventToWindow
 (

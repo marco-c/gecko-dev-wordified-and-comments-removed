@@ -284,7 +284,7 @@ GetWebRenderBridge
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 SendMouseEventCommon
 (
@@ -324,7 +324,7 @@ int32_t
 aButtons
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 SendTouchEventCommon
 (
