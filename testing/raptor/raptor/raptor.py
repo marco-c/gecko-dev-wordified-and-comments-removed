@@ -247,8 +247,8 @@ GeckoProfile
 from
 power
 import
-init_geckoview_power_test
-finish_geckoview_power_test
+init_android_power_test
+finish_android_power_test
 from
 utils
 import
@@ -4684,6 +4684,7 @@ def
 launch_firefox_android_app
 (
 self
+test_name
 )
 :
         
@@ -4933,9 +4934,10 @@ power_test
 ]
 :
                 
-finish_geckoview_power_test
+finish_android_power_test
 (
 self
+test_name
 )
             
 raise
@@ -5513,7 +5515,7 @@ power_test
 ]
 :
             
-init_geckoview_power_test
+init_android_power_test
 (
 self
 )
@@ -5811,6 +5813,12 @@ self
 .
 launch_firefox_android_app
 (
+test
+[
+'
+name
+'
+]
 )
             
 self
@@ -5890,9 +5898,15 @@ power_test
 ]
 :
             
-finish_geckoview_power_test
+finish_android_power_test
 (
 self
+test
+[
+'
+name
+'
+]
 )
         
 self
@@ -5960,7 +5974,7 @@ power_test
 ]
 :
             
-init_geckoview_power_test
+init_android_power_test
 (
 self
 )
@@ -6064,6 +6078,12 @@ self
 .
 launch_firefox_android_app
 (
+test
+[
+'
+name
+'
+]
 )
         
 self
@@ -6093,9 +6113,15 @@ power_test
 ]
 :
             
-finish_geckoview_power_test
+finish_android_power_test
 (
 self
+test
+[
+'
+name
+'
+]
 )
         
 self
