@@ -104,6 +104,16 @@ MozURL_ffi
 h
 '
 ]
+SOURCES
++
+=
+[
+'
+MozURL
+.
+cpp
+'
+]
 FINAL_LIBRARY
 =
 '
