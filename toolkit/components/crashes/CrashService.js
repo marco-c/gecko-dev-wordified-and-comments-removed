@@ -918,6 +918,15 @@ PROCESS_TYPE_RDD
 ;
 break
 ;
+case
+Ci
+.
+nsICrashService
+.
+PROCESS_TYPE_IPDLUNITTEST
+:
+return
+;
 default
 :
 throw
