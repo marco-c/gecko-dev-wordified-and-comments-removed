@@ -80,6 +80,7 @@ aNativeKey
 NS_NATIVE_KEY_TO_DOM_KEY_NAME_INDEX
 (
 aNativeKey
+\
 KEY_NAME_INDEX_
 #
 #
@@ -104,8 +105,8 @@ aNativeKey
 \
 NS_JAPANESE_NATIVE_KEY_TO_DOM_KEY_NAME_INDEX
 (
-aNativeKey
 \
+aNativeKey
 KEY_NAME_INDEX_
 #
 #
@@ -183,6 +184,7 @@ aAppCommand
 NS_APPCOMMAND_TO_DOM_KEY_NAME_INDEX
 (
 aAppCommand
+\
 KEY_NAME_INDEX_
 #
 #
@@ -224,6 +226,7 @@ aNativeKey
 NS_NATIVE_KEY_TO_DOM_KEY_NAME_INDEX
 (
 aNativeKey
+\
 KEY_NAME_INDEX_
 #
 #
@@ -249,6 +252,7 @@ aNativeKey
 NS_NATIVE_KEY_TO_DOM_KEY_NAME_INDEX
 (
 aNativeKey
+\
 KEY_NAME_INDEX_
 #
 #
@@ -274,6 +278,7 @@ aNativeKey
 NS_NATIVE_KEY_TO_DOM_KEY_NAME_INDEX
 (
 aNativeKey
+\
 KEY_NAME_INDEX_
 #
 #

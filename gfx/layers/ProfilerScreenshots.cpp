@@ -255,7 +255,6 @@ aPopulateSurface
 callback
 failed
 "
-GRAPHICS
 )
 ;
 ReturnSurface
@@ -309,7 +308,6 @@ creation
 "
 failed
 "
-DOM
 )
 ;
 ReturnSurface
@@ -459,16 +457,6 @@ rv
 profiler_add_marker_for_thread
 (
 sourceThread
-js
-:
-:
-ProfilingStackFrame
-:
-:
-Category
-:
-:
-GRAPHICS
 "
 CompositorScreenshot
 "

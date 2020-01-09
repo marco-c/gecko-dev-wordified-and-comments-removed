@@ -355,8 +355,8 @@ be
 used
 by
 clients
-of
 \
+of
 class
 '
 nsInputStream
@@ -385,8 +385,8 @@ nsISupports
 used
 as
 base
-for
 \
+for
 dll
 -
 interface

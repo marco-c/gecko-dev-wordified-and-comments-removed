@@ -2502,6 +2502,7 @@ STATIC_INVARIANT_ASSUME
 (
 COND
 )
+\
 __attribute__
 (
 (

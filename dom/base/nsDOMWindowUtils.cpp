@@ -15339,7 +15339,6 @@ PROFILER_ADD_MARKER
 Enter
 fullscreen
 "
-DOM
 )
 ;
 nsCOMPtr
@@ -15440,7 +15439,6 @@ PROFILER_ADD_MARKER
 Exit
 fullscreen
 "
-DOM
 )
 ;
 nsCOMPtr

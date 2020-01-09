@@ -1480,7 +1480,6 @@ Paint
 "
 RefreshDriverTick
 "
-GRAPHICS
 )
 ;
 TickRefreshDrivers
@@ -6832,7 +6831,6 @@ Paint
 "
 Scripts
 "
-GRAPHICS
 GetDocShell
 (
 mPresContext

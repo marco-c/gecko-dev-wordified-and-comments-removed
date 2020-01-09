@@ -2230,8 +2230,8 @@ MozLogPrintf
 _this
 _logModule
 _logLevel
-_format
 \
+_format
 #
 #
 __VA_ARGS__
@@ -2291,8 +2291,8 @@ MozLogPrintf
 _this
 _logModule
 _logLevel
-_format
 \
+_format
 #
 #
 __VA_ARGS__

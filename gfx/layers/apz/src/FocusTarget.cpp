@@ -100,6 +100,7 @@ s
 :
 "
 FMT
+\
 XRE_IsParentProcess
 (
 )
@@ -111,7 +112,6 @@ chrome
 "
 content
 "
-\
 __VA_ARGS__
 )
 #

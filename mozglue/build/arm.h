@@ -43,6 +43,7 @@ __ARM_ARCH_4T__
 )
 |
 |
+\
 defined
 (
 _ARM_ARCH_4

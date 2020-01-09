@@ -942,13 +942,13 @@ T
 )
 _InterlockedCompareExchange64
 (
-\
 (
 __int64
 volatile
 *
 )
 addr
+\
 (
 __int64
 )
@@ -957,6 +957,7 @@ oldval
 +
 val
 )
+\
 (
 __int64
 )
@@ -1276,13 +1277,13 @@ T
 )
 _InterlockedCompareExchange64
 (
-\
 (
 __int64
 volatile
 *
 )
 addr
+\
 (
 __int64
 )
@@ -1291,6 +1292,7 @@ oldval
 OP
 val
 )
+\
 (
 __int64
 )

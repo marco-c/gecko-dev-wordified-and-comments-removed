@@ -183,6 +183,7 @@ RealWidget
 >
 GetNativeData
 (
+\
 NS_NATIVE_WINDOW
 )
 )

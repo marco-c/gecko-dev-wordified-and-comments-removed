@@ -2975,8 +2975,8 @@ qualifier
 applied
 to
 function
-type
 \
+type
 has
 no
 meaning

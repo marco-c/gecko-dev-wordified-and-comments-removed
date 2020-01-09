@@ -520,16 +520,6 @@ false
 "
 ui
 .
-GtkCSDReversedPlacement
-"
-eIntID_GTKCSDReversedPlacement
-false
-0
-}
-{
-"
-ui
-.
 systemUsesDarkTheme
 "
 eIntID_SystemUsesDarkTheme

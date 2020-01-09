@@ -382,6 +382,7 @@ MOZ_WIDGET_ANDROID
 #
 define
 NS_UPDATEPROCESSOR_CONTRACTID
+\
 "
 mozilla
 .
@@ -1095,8 +1096,11 @@ NS_TELEMETRYGECKOVIEWTESTING_CID
 \
 {
 0xaaa3f7f2
+\
 0x8ef0
+\
 0x41ec
+\
 {
 0x8d
 0x3

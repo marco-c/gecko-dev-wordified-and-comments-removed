@@ -249,7 +249,6 @@ eIntID_GTKCSDTransparentBackground
 eIntID_GTKCSDMinimizeButton
 eIntID_GTKCSDMaximizeButton
 eIntID_GTKCSDCloseButton
-eIntID_GTKCSDReversedPlacement
 eIntID_SystemUsesDarkTheme
 eIntID_PrefersReducedMotion
 eIntID_PrimaryPointerCapabilities

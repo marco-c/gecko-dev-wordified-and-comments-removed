@@ -1720,12 +1720,12 @@ header
 .
 msgh_size
 =
+\
 static_cast
 <
 mach_msg_size_t
 >
 (
-\
 sizeof
 (
 dst
@@ -1738,6 +1738,7 @@ dst
 trailer
 )
 -
+\
 sizeof
 (
 dst

@@ -17789,7 +17789,6 @@ Fullscreen
 transition
 start
 "
-DOM
 )
 ;
 mWidget
@@ -17825,7 +17824,6 @@ Fullscreen
 toggle
 start
 "
-DOM
 )
 ;
 mFullscreenChangeStartTime
@@ -18030,7 +18028,6 @@ Fullscreen
 transition
 end
 "
-DOM
 )
 ;
 mWidget
@@ -18162,7 +18159,6 @@ Fullscreen
 toggle
 end
 "
-DOM
 )
 ;
 }
@@ -18247,7 +18243,6 @@ Fullscreen
 toggle
 timeout
 "
-DOM
 )
 ;
 }
@@ -32597,6 +32592,7 @@ MOZ_WRAPPED_WINDOWS_H
 pragma
 message
 (
+\
 "
 wrapper
 failure

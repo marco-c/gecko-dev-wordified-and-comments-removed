@@ -5377,7 +5377,6 @@ ForgetSkippable
 "
 IdleForgetSkippable
 "
-GCCC
 )
 ;
 PRTime
@@ -6511,7 +6510,6 @@ CCSlice
 "
 IdleCCSlice
 "
-GCCC
 )
 ;
 AUTO_PROFILER_LABEL

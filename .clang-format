@@ -90,3 +90,6 @@ NS_QUERYFRAME_TAIL
 SortIncludes
 :
 false
+IndentPPDirectives
+:
+AfterHash

@@ -664,16 +664,6 @@ profiler_add_marker
 "
 LayerTranslation
 "
-js
-:
-:
-ProfilingStackFrame
-:
-:
-Category
-:
-:
-GRAPHICS
 MakeUnique
 <
 LayerTranslationMarkerPayload

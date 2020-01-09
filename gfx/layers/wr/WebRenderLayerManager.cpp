@@ -1102,7 +1102,6 @@ Paint
 "
 RenderLayers
 "
-GRAPHICS
 )
 ;
 mAnimationReadyTime
@@ -1644,7 +1643,6 @@ Paint
 "
 ForwardDPTransaction
 "
-GRAPHICS
 )
 ;
 WrBridge

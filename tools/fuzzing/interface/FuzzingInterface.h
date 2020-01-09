@@ -231,7 +231,6 @@ testFilePtr
 \
 fprintf
 (
-\
 stderr
 \
 "
@@ -241,6 +240,9 @@ testfile
 in
 MOZ_FUZZ_TESTFILE
 environment
+"
+\
+"
 variable
 .
 \
@@ -269,6 +271,8 @@ function
 can
 safely
 call
+\
+*
 getenv
 \
 *
