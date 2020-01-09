@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsSVGLength2
+SVGAnimatedLength
 .
 h
 "
@@ -228,7 +228,7 @@ ATTR_CY
 ATTR_R
 }
 ;
-nsSVGLength2
+SVGAnimatedLength
 mLengthAttributes
 [
 3

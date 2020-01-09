@@ -1,9 +1,9 @@
 #
 ifndef
-__NS_SVGNUMBER2_H__
+mozilla_SVGAnimatedNumber_h
 #
 define
-__NS_SVGNUMBER2_H__
+mozilla_SVGAnimatedNumber_h
 #
 include
 "
@@ -92,9 +92,8 @@ class
 SVGAnimationElement
 ;
 }
-}
 class
-nsSVGNumber2
+SVGAnimatedNumber
 {
 public
 :
@@ -292,7 +291,7 @@ DOMSVGAnimatedNumber
 {
 DOMAnimatedNumber
 (
-nsSVGNumber2
+SVGAnimatedNumber
 *
 aVal
 SVGElement
@@ -322,7 +321,7 @@ DOMAnimatedNumber
 (
 )
 ;
-nsSVGNumber2
+SVGAnimatedNumber
 *
 mVal
 ;
@@ -407,7 +406,7 @@ public
 :
 SMILNumber
 (
-nsSVGNumber2
+SVGAnimatedNumber
 *
 aVal
 SVGElement
@@ -425,7 +424,7 @@ aSVGElement
 )
 {
 }
-nsSVGNumber2
+SVGAnimatedNumber
 *
 mVal
 ;
@@ -491,5 +490,6 @@ override
 ;
 }
 ;
+}
 #
 endif

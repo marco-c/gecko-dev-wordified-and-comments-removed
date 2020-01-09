@@ -337,14 +337,14 @@ h
 #
 include
 "
-nsSVGLength2
+SVGAnimatedLength
 .
 h
 "
 #
 include
 "
-nsSVGNumber2
+SVGAnimatedNumber
 .
 h
 "
@@ -6450,7 +6450,7 @@ nsAtom
 *
 aName
 const
-nsSVGLength2
+SVGAnimatedLength
 &
 aLength
 )
@@ -6693,7 +6693,7 @@ SMIL
 ;
 }
 }
-nsSVGLength2
+SVGAnimatedLength
 *
 SVGElement
 :

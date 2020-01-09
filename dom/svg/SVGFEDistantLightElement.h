@@ -7,14 +7,14 @@ mozilla_dom_SVGFEDistantLightElement_h
 #
 include
 "
-SVGFilters
+SVGAnimatedNumber
 .
 h
 "
 #
 include
 "
-nsSVGNumber2
+SVGFilters
 .
 h
 "
@@ -220,7 +220,7 @@ AZIMUTH
 ELEVATION
 }
 ;
-nsSVGNumber2
+SVGAnimatedNumber
 mNumberAttributes
 [
 2

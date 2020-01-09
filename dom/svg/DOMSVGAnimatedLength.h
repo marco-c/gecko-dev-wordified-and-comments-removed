@@ -20,12 +20,12 @@ SVGElement
 .
 h
 "
-class
-nsSVGLength2
-;
 namespace
 mozilla
 {
+class
+SVGAnimatedLength
+;
 namespace
 dom
 {
@@ -51,7 +51,7 @@ DOMSVGAnimatedLength
 )
 DOMSVGAnimatedLength
 (
-nsSVGLength2
+SVGAnimatedLength
 *
 aVal
 SVGElement
@@ -122,7 +122,7 @@ DOMSVGAnimatedLength
 (
 )
 ;
-nsSVGLength2
+SVGAnimatedLength
 *
 mVal
 ;
