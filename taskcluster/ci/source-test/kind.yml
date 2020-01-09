@@ -130,11 +130,11 @@ jsshell
 .
 yml
 -
-mocha
+mozlint
 .
 yml
 -
-mozlint
+node
 .
 yml
 -
