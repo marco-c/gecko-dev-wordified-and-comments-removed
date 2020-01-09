@@ -180,11 +180,6 @@ bigIntEnabledOption
 =
 false
 ;
-bool
-fieldsEnabledOption
-=
-false
-;
 const
 char
 *
