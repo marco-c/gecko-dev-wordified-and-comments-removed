@@ -111,16 +111,6 @@ FuzzingInterface
 h
 '
 ]
-SOURCES
-+
-=
-[
-'
-FuzzingInterface
-.
-cpp
-'
-]
 if
 CONFIG
 [
