@@ -1198,15 +1198,6 @@ webrtc
 CaptureDeviceType
 :
 :
-Application
-:
-case
-webrtc
-:
-:
-CaptureDeviceType
-:
-:
 Screen
 :
 {
