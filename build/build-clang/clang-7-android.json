@@ -4,7 +4,7 @@ llvm_revision
 "
 :
 "
-356365
+349247
 "
 "
 stages
@@ -53,7 +53,7 @@ llvm
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 "
@@ -80,7 +80,7 @@ cfe
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 "
@@ -107,7 +107,7 @@ lld
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 "
@@ -136,7 +136,7 @@ rt
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 "
@@ -163,7 +163,7 @@ libcxx
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 "
@@ -190,7 +190,7 @@ libcxxabi
 /
 tags
 /
-RELEASE_800
+RELEASE_701
 /
 final
 "
@@ -734,6 +734,11 @@ patch
 "
 "
 rename_gcov_flush_
+.
+patch
+"
+"
+r350774
 .
 patch
 "
