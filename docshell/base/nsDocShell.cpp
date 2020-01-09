@@ -54888,6 +54888,12 @@ aHistoryIndex
 >
 =
 0
+&
+&
+self
+-
+>
+mSessionHistory
 )
 {
 nsCOMPtr
