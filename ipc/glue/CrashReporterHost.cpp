@@ -479,7 +479,10 @@ crashDump
 if
 (
 !
-XRE_TakeMinidumpForChild
+CrashReporter
+:
+:
+TakeMinidumpForChild
 (
 aPid
 getter_AddRefs
