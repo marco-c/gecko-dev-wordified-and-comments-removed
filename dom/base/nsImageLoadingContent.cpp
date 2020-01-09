@@ -5880,11 +5880,11 @@ aBindingParent
 {
 if
 (
-!
-aDocument
+GetOurCurrentDoc
+(
 )
-return
-;
+)
+{
 TrackImage
 (
 mCurrentRequest
@@ -5895,6 +5895,7 @@ TrackImage
 mPendingRequest
 )
 ;
+}
 }
 void
 nsImageLoadingContent
