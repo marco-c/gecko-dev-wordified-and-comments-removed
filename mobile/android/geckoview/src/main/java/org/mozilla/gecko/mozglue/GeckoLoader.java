@@ -1270,7 +1270,6 @@ deprecation
 )
 private
 static
-final
 String
 getCPUABI
 (
@@ -2251,7 +2250,6 @@ toString
 }
 private
 static
-final
 boolean
 attemptLoad
 (
@@ -2307,7 +2305,6 @@ false
 }
 private
 static
-final
 Throwable
 doLoadLibraryExpected
 (
