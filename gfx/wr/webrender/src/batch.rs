@@ -5517,6 +5517,7 @@ PictureCompositeMode
 :
 Filter
 (
+ref
 filter
 )
 =

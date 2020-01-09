@@ -10570,8 +10570,11 @@ map
 c_filter
 |
 {
-*
 c_filter
+.
+clone
+(
+)
 }
 )
 .
