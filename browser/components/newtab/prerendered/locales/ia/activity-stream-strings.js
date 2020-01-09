@@ -139,7 +139,7 @@ Aperir
 in
 un
 nove
-fenestra
+Fenestra
 private
 "
 "
