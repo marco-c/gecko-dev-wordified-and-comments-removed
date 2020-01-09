@@ -2546,6 +2546,16 @@ endif
 pref
 (
 "
+toolkit
+.
+lazyHiddenWindow
+"
+true
+)
+;
+pref
+(
+"
 browser
 .
 slowStartup
