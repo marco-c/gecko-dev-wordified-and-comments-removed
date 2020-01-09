@@ -990,7 +990,7 @@ GetMaxSurfaceSize
 )
 {
 return
-32767
+32766
 ;
 }
 private
