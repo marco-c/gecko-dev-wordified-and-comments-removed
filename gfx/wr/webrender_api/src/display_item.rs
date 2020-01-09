@@ -780,6 +780,10 @@ pub
 scroll_sensitivity
 :
 ScrollSensitivity
+pub
+external_scroll_offset
+:
+LayoutPoint
 }
 #
 [

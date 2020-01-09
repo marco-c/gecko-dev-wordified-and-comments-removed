@@ -231,6 +231,12 @@ ScrollSensitivity
 :
 :
 ScriptAndInputEvents
+LayoutPoint
+:
+:
+zero
+(
+)
 )
 ;
 let
@@ -465,6 +471,12 @@ ScrollSensitivity
 :
 :
 ScriptAndInputEvents
+LayoutPoint
+:
+:
+zero
+(
+)
 )
 ;
 let

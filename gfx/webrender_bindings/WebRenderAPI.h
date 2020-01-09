@@ -1772,6 +1772,13 @@ wr
 LayoutRect
 &
 aClipRect
+const
+wr
+:
+:
+LayoutPoint
+&
+aScrollOffset
 )
 ;
 void

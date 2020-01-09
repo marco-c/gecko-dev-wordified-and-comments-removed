@@ -7320,6 +7320,9 @@ di
 :
 :
 ScrollSensitivity
+external_scroll_offset
+:
+LayoutPoint
 )
 -
 >
@@ -7387,6 +7390,7 @@ scroll_frame_id
 external_id
 image_mask
 scroll_sensitivity
+external_scroll_offset
 }
 )
 ;

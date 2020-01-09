@@ -4447,6 +4447,13 @@ wr
 LayoutRect
 &
 aClipRect
+const
+wr
+:
+:
+LayoutPoint
+&
+aScrollOffset
 )
 {
 auto
@@ -4518,6 +4525,7 @@ ptr
 defaultParent
 aContentRect
 aClipRect
+aScrollOffset
 )
 ;
 WRDL_LOG
