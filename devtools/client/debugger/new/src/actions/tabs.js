@@ -40,7 +40,7 @@ import
 {
 getSourcesByURLs
 getSourceTabs
-getSourceFromId
+getSource
 getNewSelectedSourceId
 removeSourceFromTabList
 removeSourcesFromTabList
@@ -474,7 +474,7 @@ sourceId
 const
 source
 =
-getSourceFromId
+getSource
 (
 getState
 (
@@ -484,6 +484,9 @@ sourceId
 ;
 if
 (
+source
+&
+&
 source
 .
 thread
