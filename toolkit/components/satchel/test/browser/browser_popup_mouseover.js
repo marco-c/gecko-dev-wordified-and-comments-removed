@@ -288,7 +288,7 @@ length
 ;
 is
 (
-itemsBox
+autoCompletePopup
 .
 mousedOverIndex
 -
@@ -357,7 +357,7 @@ waitForCondition
 >
 {
 return
-itemsBox
+autoCompletePopup
 .
 mousedOverIndex
 =
