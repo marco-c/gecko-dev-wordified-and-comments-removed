@@ -885,7 +885,10 @@ TextTrackManager
 HonorUserPreferencesForTrackSelection
 )
 ;
-NS_DispatchToMainThread
+nsContentUtils
+:
+:
+RunInStableState
 (
 task
 .
@@ -1001,7 +1004,10 @@ TextTrackManager
 HonorUserPreferencesForTrackSelection
 )
 ;
-NS_DispatchToMainThread
+nsContentUtils
+:
+:
+RunInStableState
 (
 task
 .
