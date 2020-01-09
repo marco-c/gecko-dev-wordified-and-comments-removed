@@ -183,6 +183,11 @@ TestBlankVideoDataCreator
 cpp
 '
 '
+TestBufferReader
+.
+cpp
+'
+'
 TestCDMStorage
 .
 cpp
