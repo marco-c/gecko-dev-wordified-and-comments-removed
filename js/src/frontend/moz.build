@@ -212,6 +212,11 @@ BytecodeEmitter
 cpp
 '
 '
+BytecodeSection
+.
+cpp
+'
+'
 CallOrNewEmitter
 .
 cpp
