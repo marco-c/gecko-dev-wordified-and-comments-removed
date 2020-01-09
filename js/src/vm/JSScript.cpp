@@ -9381,7 +9381,7 @@ bool
 JSScript
 :
 :
-tryLoadSource
+loadSource
 (
 JSContext
 *

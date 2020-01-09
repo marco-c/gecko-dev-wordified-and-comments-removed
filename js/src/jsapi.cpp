@@ -19627,7 +19627,7 @@ if
 JSScript
 :
 :
-tryLoadSource
+loadSource
 (
 cx
 script

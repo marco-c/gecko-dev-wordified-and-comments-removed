@@ -39016,7 +39016,7 @@ if
 JSScript
 :
 :
-tryLoadSource
+loadSource
 (
 cx
 source
@@ -40742,7 +40742,7 @@ if
 JSScript
 :
 :
-tryLoadSource
+loadSource
 (
 cx
 source
@@ -41043,7 +41043,7 @@ if
 JSScript
 :
 :
-tryLoadSource
+loadSource
 (
 cx
 source
