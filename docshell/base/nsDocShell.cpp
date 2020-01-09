@@ -45333,7 +45333,7 @@ history
 .
 maxStateObjectSize
 "
-0xA0000
+2097152
 )
 ;
 if

@@ -39454,7 +39454,7 @@ history
 .
 maxStateObjectSize
 "
-655360
+2097152
 )
 ;
 pref
