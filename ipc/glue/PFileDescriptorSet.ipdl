@@ -64,10 +64,6 @@ include
 protocol
 PContent
 ;
-include
-protocol
-PContentBridge
-;
 namespace
 mozilla
 {
@@ -81,8 +77,6 @@ manager
 PBackground
 or
 PContent
-or
-PContentBridge
 ;
 both
 :
