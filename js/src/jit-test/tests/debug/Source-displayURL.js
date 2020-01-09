@@ -3,11 +3,11 @@ g
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
+{
+newCompartment
+:
+true
+}
 )
 ;
 let

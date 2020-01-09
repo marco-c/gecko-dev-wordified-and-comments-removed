@@ -840,8 +840,11 @@ g
 =
 newGlobal
 (
-'
-'
+{
+newCompartment
+:
+true
+}
 )
 ;
 let

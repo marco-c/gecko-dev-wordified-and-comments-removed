@@ -84,6 +84,9 @@ typeof
 newGlobal
 (
 {
+newCompartment
+:
+true
 invisibleToDebugger
 :
 true
@@ -114,6 +117,9 @@ addDebuggee
 newGlobal
 (
 {
+newCompartment
+:
+true
 invisibleToDebugger
 :
 true
@@ -129,6 +135,9 @@ glob
 newGlobal
 (
 {
+newCompartment
+:
+true
 invisibleToDebugger
 :
 true

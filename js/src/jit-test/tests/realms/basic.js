@@ -204,6 +204,9 @@ systemRealm
 newGlobal
 (
 {
+newCompartment
+:
+true
 systemPrincipal
 :
 true

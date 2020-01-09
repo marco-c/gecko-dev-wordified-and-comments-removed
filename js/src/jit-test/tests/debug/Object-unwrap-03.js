@@ -15,6 +15,9 @@ g
 newGlobal
 (
 {
+newCompartment
+:
+true
 invisibleToDebugger
 :
 true

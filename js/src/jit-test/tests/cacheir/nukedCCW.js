@@ -30,6 +30,9 @@ global
 newGlobal
 (
 {
+newCompartment
+:
+true
 sameZoneAs
 :
 this
@@ -158,6 +161,9 @@ global
 newGlobal
 (
 {
+newCompartment
+:
+true
 }
 )
 }

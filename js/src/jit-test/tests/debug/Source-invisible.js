@@ -4,6 +4,9 @@ gi
 newGlobal
 (
 {
+newCompartment
+:
+true
 invisibleToDebugger
 :
 true

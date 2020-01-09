@@ -54,6 +54,11 @@ global
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 const
