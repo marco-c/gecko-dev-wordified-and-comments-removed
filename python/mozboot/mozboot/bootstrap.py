@@ -760,8 +760,6 @@ CLONE_VCS_NOT_EMPTY
 '
 '
 '
-ERROR
-!
 Destination
 directory
 '
@@ -782,6 +780,7 @@ to
 {
 }
 '
+instead
 ?
   
 1
@@ -830,6 +829,12 @@ directory
 is
 not
 empty
+and
+'
+{
+}
+'
+exists
 .
 '
 '
@@ -1909,6 +1914,7 @@ CLONE_VCS_NOT_EMPTY_FALLBACK_FAILED
 format
 (
 dest
+newdest
 )
 )
                 
