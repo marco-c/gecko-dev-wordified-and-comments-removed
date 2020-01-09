@@ -123,9 +123,6 @@ getTestPlugin
 (
 )
 ;
-var
-results
-=
 sendAsyncMessage
 (
 "

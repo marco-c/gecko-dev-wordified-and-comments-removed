@@ -43,6 +43,9 @@ PM_NOREMOVE
 =
 0
 ;
+var
+user32
+;
 function
 DialogWatcher
 (
@@ -627,6 +630,9 @@ readString
 )
 ;
 }
+return
+undefined
+;
 }
 ;
 DialogWatcher
@@ -824,6 +830,7 @@ hook
 )
 {
 return
+null
 ;
 }
 var

@@ -1642,16 +1642,6 @@ plugins
 /
 test
 /
-mochitest
-/
-*
-*
-dom
-/
-plugins
-/
-test
-/
 unit
 /
 *
