@@ -1,0 +1,17 @@
+#
+include
+"
+wasm
+/
+WasmGC
+.
+h
+"
+namespace
+js
+{
+namespace
+wasm
+{
+}
+}
