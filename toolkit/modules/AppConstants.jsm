@@ -603,17 +603,6 @@ else
 false
 #
 endif
-MOZ_TOOLKIT_SEARCH
-:
-#
-ifdef
-MOZ_TOOLKIT_SEARCH
-true
-#
-else
-false
-#
-endif
 MOZ_GECKO_PROFILER
 :
 #

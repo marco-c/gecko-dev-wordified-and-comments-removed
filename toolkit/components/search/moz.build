@@ -110,14 +110,6 @@ xpcshell
 ini
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_TOOLKIT_SEARCH
-'
-]
-:
 XPIDL_SOURCES
 +
 =

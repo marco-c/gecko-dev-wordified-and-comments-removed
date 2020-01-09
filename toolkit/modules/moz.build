@@ -2000,9 +2000,6 @@ var
 in
 (
 '
-MOZ_TOOLKIT_SEARCH
-'
-'
 MOZ_SYSTEM_NSS
 '
 '

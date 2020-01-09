@@ -32,17 +32,12 @@ include
 algorithm
 >
 #
-ifdef
-MOZ_TOOLKIT_SEARCH
-#
 include
 "
 nsISearchService
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2162,9 +2157,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_TOOLKIT_SEARCH
 nsCOMPtr
 <
 nsISearchService
@@ -2372,8 +2364,6 @@ mPreferredURI
 }
 }
 }
-#
-endif
 return
 NS_ERROR_NOT_AVAILABLE
 ;
