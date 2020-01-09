@@ -10336,7 +10336,7 @@ buf
 ;
 static
 bool
-loadSource
+tryLoadSource
 (
 JSContext
 *
@@ -10349,7 +10349,7 @@ ScriptSource
 ss
 bool
 *
-worked
+loaded
 )
 ;
 void
