@@ -96,7 +96,7 @@ aDisplay
 >
 mScrollSnapDestination
 .
-mXPosition
+horizontal
 )
 mScrollSnapDestinationY
 (
@@ -105,7 +105,7 @@ aDisplay
 >
 mScrollSnapDestination
 .
-mYPosition
+vertical
 )
 {
 }
@@ -190,7 +190,7 @@ aDisplay
 >
 mScrollSnapDestination
 .
-mXPosition
+horizontal
 )
 mScrollSnapDestinationY
 (
@@ -199,7 +199,7 @@ aDisplay
 >
 mScrollSnapDestination
 .
-mYPosition
+vertical
 )
 {
 }
