@@ -2491,6 +2491,13 @@ function
 indexedDBActor
 )
 {
+delete
+indexedDBActor
+.
+hosts
+.
+chrome
+;
 is
 (
 Object
