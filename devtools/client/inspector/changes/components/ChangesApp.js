@@ -464,7 +464,9 @@ monospace
 "
 data
 -
-ruleid
+rule
+-
+id
 "
 :
 ruleId
@@ -640,7 +642,9 @@ sourceId
 "
 data
 -
-sourceid
+source
+-
+id
 "
 :
 sourceId
