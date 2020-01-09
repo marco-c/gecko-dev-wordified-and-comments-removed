@@ -627,7 +627,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 TAB_SWITCH
 UrlbarUtils

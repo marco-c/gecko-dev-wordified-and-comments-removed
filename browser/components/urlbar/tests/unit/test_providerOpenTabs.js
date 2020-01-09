@@ -152,14 +152,14 @@ match
 type
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 TAB_SWITCH
 "
 Got
 the
 expected
-match
+result
 type
 "
 )

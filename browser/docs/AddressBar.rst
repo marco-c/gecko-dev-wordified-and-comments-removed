@@ -1013,7 +1013,7 @@ the
 search
 to
 specific
-match
+result
 type
 (
 See
@@ -2528,7 +2528,7 @@ search
 result
 with
 a
-match
+result
 type
 that
 identifies
@@ -2567,7 +2567,7 @@ results
 note
 :
 :
-Match
+Result
 types
 are
 also
@@ -2576,7 +2576,7 @@ by
 *
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 *
 .
 .
@@ -2594,7 +2594,7 @@ UrlbarResult
 {
 constructor
 (
-matchType
+resultType
 payload
 )
 ;
@@ -2607,7 +2607,7 @@ One
 of
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 source
 :
@@ -2636,7 +2636,7 @@ a
 label
 for
 this
-match
+result
 .
 icon
 :
@@ -2649,7 +2649,7 @@ an
 icon
 for
 this
-match
+result
 .
 payload
 :
@@ -2662,12 +2662,12 @@ properties
 for
 the
 specific
-MATCH_TYPE
+RESULT_TYPE
 .
 }
 The
 following
-MATCH_TYPEs
+RESULT_TYPEs
 are
 supported
 :

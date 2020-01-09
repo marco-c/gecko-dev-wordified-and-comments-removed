@@ -874,7 +874,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 SEARCH
 UrlbarUtils
@@ -954,7 +954,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 KEYWORD
 UrlbarUtils
@@ -1022,7 +1022,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 OMNIBOX
 UrlbarUtils
@@ -1090,7 +1090,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 REMOTE_TAB
 UrlbarUtils
@@ -1158,7 +1158,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 TAB_SWITCH
 UrlbarUtils
@@ -1226,7 +1226,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 URL
 UrlbarUtils
@@ -1317,7 +1317,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 SEARCH
 UrlbarUtils
@@ -1498,7 +1498,7 @@ UrlbarResult
 (
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 URL
 source

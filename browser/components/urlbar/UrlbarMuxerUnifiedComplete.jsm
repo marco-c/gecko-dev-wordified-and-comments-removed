@@ -126,7 +126,7 @@ UrlbarMuxerUnifiedComplete
 )
 ;
 const
-MATCH_TYPE_TO_GROUP
+RESULT_TYPE_TO_GROUP
 =
 new
 Map
@@ -135,7 +135,7 @@ Map
 [
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 TAB_SWITCH
 UrlbarUtils
@@ -147,7 +147,7 @@ GENERAL
 [
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 SEARCH
 UrlbarUtils
@@ -159,7 +159,7 @@ SUGGESTION
 [
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 URL
 UrlbarUtils
@@ -171,7 +171,7 @@ GENERAL
 [
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 KEYWORD
 UrlbarUtils
@@ -183,7 +183,7 @@ GENERAL
 [
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 OMNIBOX
 UrlbarUtils
@@ -195,7 +195,7 @@ EXTENSION
 [
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 REMOTE_TAB
 UrlbarUtils
@@ -275,7 +275,7 @@ type
 =
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 SEARCH
 ?
@@ -415,7 +415,7 @@ if
 group
 =
 =
-MATCH_TYPE_TO_GROUP
+RESULT_TYPE_TO_GROUP
 .
 get
 (
@@ -448,7 +448,7 @@ else
 if
 (
 !
-MATCH_TYPE_TO_GROUP
+RESULT_TYPE_TO_GROUP
 .
 has
 (
@@ -461,7 +461,7 @@ type
 let
 errorMsg
 =
-Match
+Result
 type
 {
 match

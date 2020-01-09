@@ -1261,7 +1261,7 @@ type
 case
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 TAB_SWITCH
 :
@@ -1368,7 +1368,7 @@ return
 case
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 SEARCH
 :
@@ -1481,7 +1481,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 OMNIBOX
 :
@@ -1533,7 +1533,7 @@ type
 case
 UrlbarUtils
 .
-MATCH_TYPE
+RESULT_TYPE
 .
 SEARCH
 :
