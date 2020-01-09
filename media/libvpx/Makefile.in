@@ -72,8 +72,6 @@ rules
 .
 mk
 ifdef
-VPX_ARM_ASM
-ifdef
 VPX_AS_CONVERSION
 #
 The
@@ -218,5 +216,4 @@ idct_neon
 asm
 .
 S
-endif
 endif
