@@ -440,8 +440,6 @@ tests
 ]
 {
 method
-:
-method
 }
 )
 ;

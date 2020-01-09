@@ -3,7 +3,7 @@ ss
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -13,7 +13,7 @@ storage
 service
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -28,7 +28,7 @@ sts
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -42,7 +42,7 @@ transport
 service
 ;
 1
-'
+"
 ]
 .
 getService
@@ -57,7 +57,7 @@ hash
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -67,7 +67,7 @@ security
 hash
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -82,15 +82,15 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 caches
-'
-'
+"
+"
 File
-'
-'
+"
+"
 fetch
-'
+"
 ]
 )
 ;
@@ -109,7 +109,7 @@ directoryService
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -119,7 +119,7 @@ file
 directory_service
 ;
 1
-'
+"
 ]
 .
 getService
@@ -136,9 +136,9 @@ directoryService
 .
 get
 (
-'
+"
 ProfD
-'
+"
 Ci
 .
 nsIFile
@@ -151,9 +151,9 @@ directoryService
 .
 get
 (
-'
+"
 CurWorkD
-'
+"
 Ci
 .
 nsIFile
@@ -180,7 +180,7 @@ zipReader
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -192,7 +192,7 @@ zip
 reader
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -261,9 +261,9 @@ entryName
 .
 split
 (
-'
+"
 /
-'
+"
 )
 .
 forEach
@@ -301,9 +301,9 @@ nsIFile
 DIRECTORY_TYPE
 parseInt
 (
-'
+"
 0755
-'
+"
 8
 )
 )
@@ -326,7 +326,7 @@ ostream
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -340,7 +340,7 @@ output
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -359,9 +359,9 @@ file
 1
 parseInt
 (
-'
+"
 0644
-'
+"
 8
 )
 0
@@ -372,7 +372,7 @@ bostream
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -386,7 +386,7 @@ output
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance

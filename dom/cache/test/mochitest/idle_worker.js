@@ -1,9 +1,9 @@
 const
 name
 =
-'
+"
 idle_worker_cache
-'
+"
 ;
 var
 cache
@@ -48,9 +48,9 @@ _
 {
 postMessage
 (
-'
+"
 LOADED
-'
+"
 )
 ;
 }

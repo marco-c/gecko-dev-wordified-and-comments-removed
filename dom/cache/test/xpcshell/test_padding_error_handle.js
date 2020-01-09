@@ -97,11 +97,11 @@ do_test_pending
 ;
 create_test_profile
 (
-'
+"
 schema_25_profile
 .
 zip
-'
+"
 )
 ;
 let
