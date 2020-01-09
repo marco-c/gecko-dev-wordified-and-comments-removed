@@ -242,11 +242,6 @@ STATE_DATA
 "
 state_data
 "
-NS_IMPL_ISUPPORTS
-(
-HTMLEditorCommandBase
-nsIControllerCommand
-)
 nsRefPtrHashtable
 <
 nsCharPtrHashKey
