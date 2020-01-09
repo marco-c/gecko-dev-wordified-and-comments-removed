@@ -1919,17 +1919,6 @@ offset
 ;
 MOZ_MUST_USE
 bool
-addToSrcNoteDelta
-(
-jssrcnote
-*
-sn
-ptrdiff_t
-delta
-)
-;
-MOZ_MUST_USE
-bool
 finishTakingSrcNotes
 (
 uint32_t
