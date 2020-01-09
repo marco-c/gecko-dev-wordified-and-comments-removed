@@ -40149,7 +40149,7 @@ popupBlocked
 )
 {
 return
-NS_ERROR_UNKNOWN_PROTOCOL
+NS_OK
 ;
 }
 }
