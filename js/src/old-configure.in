@@ -2846,6 +2846,17 @@ Android
 libstdc
 +
 +
+placed
+here
+so
+it
+can
+use
+MOZ_ARCH
+dnl
+computed
+above
+.
 dnl
 =
 =
