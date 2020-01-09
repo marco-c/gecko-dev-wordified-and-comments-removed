@@ -617,7 +617,7 @@ const
 void
 incReserve
 (
-unsigned
+int
 extraPtCount
 )
 ;
