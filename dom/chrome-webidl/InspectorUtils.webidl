@@ -647,13 +647,6 @@ DOMString
 input
 )
 ;
-void
-scrollElementIntoView
-(
-Element
-element
-)
-;
 boolean
 isCustomElementName
 (
