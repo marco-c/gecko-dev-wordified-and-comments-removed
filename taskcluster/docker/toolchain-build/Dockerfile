@@ -77,6 +77,10 @@ install
 \
 autoconf
 \
+autoconf2
+.
+13
+\
 automake
 \
 bison
@@ -100,6 +104,12 @@ multilib
 gnupg
 \
 libbz2
+-
+dev
+\
+libcurl4
+-
+openssl
 -
 dev
 \
