@@ -588,6 +588,9 @@ height
 ;
 aDistance
 =
+std
+:
+:
 sqrt
 (
 dLeft

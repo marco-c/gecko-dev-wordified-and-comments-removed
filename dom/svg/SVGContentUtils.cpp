@@ -3222,6 +3222,9 @@ a2
 float
 delta
 =
+std
+:
+:
 fmod
 (
 a2
