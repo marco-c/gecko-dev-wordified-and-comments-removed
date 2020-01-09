@@ -3047,6 +3047,17 @@ TilePaintFlags
 aFlags
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+TileClient
+:
+:
+AcquireBackBuffer
+"
+GRAPHICS_TileAllocation
+)
+;
 if
 (
 !

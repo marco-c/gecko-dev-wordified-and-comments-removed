@@ -3227,6 +3227,11 @@ nsDisplayItem
 aOuterItem
 )
 {
+AUTO_PROFILER_LABEL_CATEGORY_PAIR
+(
+GRAPHICS_DisplayListMerging
+)
+;
 MergeState
 merge
 (

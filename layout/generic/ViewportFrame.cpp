@@ -225,7 +225,7 @@ ViewportFrame
 :
 BuildDisplayList
 "
-GRAPHICS
+GRAPHICS_DisplayListBuilding
 )
 ;
 if

@@ -1725,17 +1725,6 @@ TilePaintFlags
 aFlags
 )
 {
-AUTO_PROFILER_LABEL
-(
-"
-ClientMultiTiledLayerBuffer
-:
-:
-ValidateTile
-"
-GRAPHICS
-)
-;
 #
 ifdef
 GFX_TILEDLAYER_PREF_WARNINGS
