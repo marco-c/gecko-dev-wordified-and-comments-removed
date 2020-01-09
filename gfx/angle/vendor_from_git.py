@@ -111,11 +111,19 @@ kwargs
 )
 :
     
-print_now
+print
 (
 '
 '
 args
+)
+    
+sys
+.
+stdout
+.
+flush
+(
 )
     
 return
