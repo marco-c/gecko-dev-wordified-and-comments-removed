@@ -149,7 +149,7 @@ ipc
 .
 processCount
 .
-privileged
+privilegedabout
 "
 1
 ]
@@ -161,7 +161,7 @@ ipc
 .
 keepProcessesAlive
 .
-privileged
+privilegedabout
 "
 1
 ]
@@ -205,7 +205,7 @@ checkBrowserRemoteType
 browser1
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 )
 ;
 let
@@ -301,6 +301,8 @@ in
 the
 same
 privileged
+about
+:
 content
 process
 .
@@ -374,13 +376,13 @@ of
 ABOUT_NEWTAB
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ]
 [
 ABOUT_BLANK
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ]
 [
 TEST_HTTP
@@ -392,7 +394,7 @@ WEB_REMOTE_TYPE
 ABOUT_HOME
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ]
 [
 TEST_HTTP
@@ -404,7 +406,7 @@ WEB_REMOTE_TYPE
 ABOUT_WELCOME
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ]
 [
 TEST_HTTP
@@ -426,7 +428,7 @@ ABOUT_NEWTAB
 foo
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ]
 [
 TEST_HTTP
@@ -442,7 +444,7 @@ ABOUT_WELCOME
 bar
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ]
 [
 TEST_HTTP
@@ -458,7 +460,7 @@ ABOUT_HOME
 baz
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ]
 [
 TEST_HTTP
@@ -476,7 +478,7 @@ q
 foo
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ]
 [
 TEST_HTTP
@@ -494,7 +496,7 @@ q
 bar
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ]
 [
 TEST_HTTP
@@ -512,7 +514,7 @@ q
 baz
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ]
 [
 TEST_HTTP
@@ -595,7 +597,7 @@ checkBrowserRemoteType
 browser
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 )
 ;
 let
@@ -698,6 +700,8 @@ is
 loaded
 in
 privileged
+about
+:
 content
 process
 .
@@ -738,6 +742,8 @@ is
 still
 in
 privileged
+about
+:
 content
 process
 after
@@ -823,6 +829,8 @@ is
 still
 in
 privileged
+about
+:
 content
 process
 after
@@ -925,6 +933,8 @@ newtab
 is
 in
 privileged
+about
+:
 content
 process
 after
@@ -1009,6 +1019,8 @@ newtab
 is
 in
 privileged
+about
+:
 content
 process
 after

@@ -501,7 +501,7 @@ remoteType
 =
 =
 "
-privileged
+privilegedabout
 "
 )
 {

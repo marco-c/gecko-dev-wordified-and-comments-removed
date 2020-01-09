@@ -4060,7 +4060,7 @@ processType
 .
 EqualsLiteral
 (
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 )
 )
 {
@@ -4072,7 +4072,7 @@ mozilla
 ProcType
 :
 :
-Privileged
+PrivilegedAbout
 ;
 }
 else

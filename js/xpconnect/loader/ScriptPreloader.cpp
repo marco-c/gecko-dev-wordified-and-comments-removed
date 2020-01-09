@@ -899,7 +899,7 @@ remoteType
 .
 EqualsLiteral
 (
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 )
 )
 {
@@ -907,7 +907,7 @@ return
 ProcessType
 :
 :
-Privileged
+PrivilegedAbout
 ;
 }
 return
@@ -1616,7 +1616,7 @@ sProcessType
 ProcessType
 :
 :
-Privileged
+PrivilegedAbout
 )
 ;
 }
@@ -1630,7 +1630,7 @@ sProcessType
 ProcessType
 :
 :
-Privileged
+PrivilegedAbout
 )
 ;
 }
@@ -2178,7 +2178,7 @@ sProcessType
 ProcessType
 :
 :
-Privileged
+PrivilegedAbout
 )
 {
 mContentStartupFinishedTopic

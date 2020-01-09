@@ -23536,7 +23536,7 @@ ipc
 .
 processCount
 .
-privileged
+privilegedabout
 "
 1
 )
@@ -23550,7 +23550,7 @@ ipc
 .
 keepProcessesAlive
 .
-privileged
+privilegedabout
 "
 1
 )
