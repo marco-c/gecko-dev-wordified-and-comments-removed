@@ -206,6 +206,7 @@ __CYGWIN__
 )
 &
 &
+\
 defined
 (
 MOZ_ASAN
