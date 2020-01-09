@@ -10088,7 +10088,7 @@ Adopt
 (
 aDesc
 .
-formatJSON
+formatJSONTelemetry
 (
 aCx
 PR_Now

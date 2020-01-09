@@ -186,7 +186,7 @@ json
 (
 desc
 .
-formatJSON
+formatJSONTelemetry
 (
 cx
 0

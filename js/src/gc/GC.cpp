@@ -44267,7 +44267,7 @@ JS
 GCDescription
 :
 :
-formatJSON
+formatJSONTelemetry
 (
 JSContext
 *
@@ -44531,7 +44531,7 @@ JS
 GCDescription
 :
 :
-sliceToJSON
+sliceToJSONProfiler
 (
 JSContext
 *
@@ -44604,7 +44604,7 @@ JS
 GCDescription
 :
 :
-summaryToJSON
+formatJSONProfiler
 (
 JSContext
 *
