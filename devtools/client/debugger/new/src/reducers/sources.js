@@ -747,6 +747,16 @@ source
 id
 ]
 ;
+if
+(
+!
+existingSource
+)
+{
+return
+state
+;
+}
 return
 {
 .
