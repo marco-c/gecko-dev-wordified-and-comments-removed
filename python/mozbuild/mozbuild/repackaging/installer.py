@@ -36,7 +36,6 @@ package
 output
 package_name
 sfx_stub
-use_upx
 )
 :
     
@@ -243,7 +242,6 @@ package_name
 tag
 sfx_package
 output
-use_upx
 )
     
 finally
