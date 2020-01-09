@@ -103,11 +103,6 @@ bufLen
 =
 3
 ;
-bufLen
-+
-=
-1
-;
 if
 (
 !

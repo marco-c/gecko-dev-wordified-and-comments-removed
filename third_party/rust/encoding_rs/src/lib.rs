@@ -40,7 +40,7 @@ encoding_rs
 .
 8
 .
-13
+14
 "
 )
 ]
@@ -6960,6 +6960,7 @@ max_utf8_buffer_length
 (
 byte_length
 )
+;
 }
 DecoderLifeCycle
 :
@@ -7423,6 +7424,7 @@ max_utf8_buffer_length_without_replacement
 (
 byte_length
 )
+;
 }
 DecoderLifeCycle
 :
@@ -8676,6 +8678,7 @@ max_utf16_buffer_length
 (
 byte_length
 )
+;
 }
 DecoderLifeCycle
 :
