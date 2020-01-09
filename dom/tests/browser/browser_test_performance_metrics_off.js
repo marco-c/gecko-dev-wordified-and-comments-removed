@@ -17,9 +17,6 @@ false
 ;
 try
 {
-let
-promise
-=
 await
 ChromeUtils
 .

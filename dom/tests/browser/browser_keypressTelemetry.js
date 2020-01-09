@@ -101,11 +101,8 @@ snapshot
 [
 prop
 ]
-[
-"
+.
 KEYPRESS_PRESENT_LATENCY
-"
-]
 )
 {
 dump
@@ -127,11 +124,8 @@ snapshot
 [
 prop
 ]
-[
-"
+.
 KEYPRESS_PRESENT_LATENCY
-"
-]
 .
 values
 )
@@ -228,9 +222,9 @@ EventUtils
 .
 sendChar
 (
-'
+"
 x
-'
+"
 )
 ;
 await
@@ -259,6 +253,7 @@ telemetry
 200
 600
 )
+;
 let
 result
 =
@@ -297,9 +292,9 @@ EventUtils
 .
 sendChar
 (
-'
+"
 x
-'
+"
 )
 ;
 await
@@ -328,6 +323,7 @@ telemetry
 200
 600
 )
+;
 result
 =
 getRecordedKeypressCount

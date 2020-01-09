@@ -1785,14 +1785,6 @@ dom
 /
 tests
 /
-browser
-/
-*
-*
-dom
-/
-tests
-/
 html
 /
 *

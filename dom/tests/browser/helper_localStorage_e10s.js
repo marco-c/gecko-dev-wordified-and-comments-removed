@@ -90,9 +90,9 @@ realUrl
 =
 helperPageUrl
 +
-'
+"
 ?
-'
+"
 +
 encodeURIComponent
 (
@@ -111,11 +111,11 @@ openNewForegroundTab
 gBrowser
 opening
 :
-'
+"
 about
 :
 blank
-'
+"
 forceNewProcess
 :
 true

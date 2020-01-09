@@ -358,8 +358,6 @@ aBrowser
 (
 )
 ;
-break
-;
 case
 kNewWin
 :
@@ -425,8 +423,6 @@ newWin
 (
 )
 ;
-break
-;
 case
 kNewTab
 :
@@ -480,8 +476,6 @@ newTab
 (
 )
 ;
-break
-;
 default
 :
 ok
@@ -502,13 +496,13 @@ aExpectation
 )
 ;
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
-return
-deferred
-.
-promise
-;
 }
 function
 testLinkWithMatrix

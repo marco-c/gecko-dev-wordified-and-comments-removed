@@ -372,11 +372,6 @@ parentProcessEvent
 false
 ;
 let
-workerEvent
-=
-false
-;
-let
 subFrameIds
 =
 [
@@ -702,10 +697,6 @@ entry
 isWorker
 )
 {
-workerEvent
-=
-true
-;
 workerDuration
 +
 =
