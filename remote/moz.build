@@ -150,6 +150,7 @@ docs
 SPHINX_TREES
 [
 "
+/
 remote
 "
 ]
