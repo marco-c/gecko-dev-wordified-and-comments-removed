@@ -72,6 +72,12 @@ nsAString
 aRemoteType
 )
 ;
+static
+void
+CompositorBridgeParentSetup
+(
+)
+;
 template
 <
 typename
