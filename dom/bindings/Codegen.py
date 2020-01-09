@@ -15259,17 +15259,6 @@ m
 isIdentifierLess
 (
 )
-and
-                       
-not
-m
-.
-getExtendedAttribute
-(
-"
-Unexposed
-"
-)
 ]
         
 else
@@ -65170,34 +65159,6 @@ slotAssert
 slotAssert
 )
         
-if
-self
-.
-member
-.
-getExtendedAttribute
-(
-"
-Unexposed
-"
-)
-:
-            
-storageClass
-=
-"
-extern
-"
-        
-else
-:
-            
-storageClass
-=
-"
-static
-"
-        
 return
 fill
 (
@@ -65206,9 +65167,7 @@ fill
 "
 "
             
-{
-storageClass
-}
+static
 const
 JSJitInfo
 {
@@ -65228,10 +65187,6 @@ slotAssert
 "
 "
 "
-            
-storageClass
-=
-storageClass
             
 infoName
 =
