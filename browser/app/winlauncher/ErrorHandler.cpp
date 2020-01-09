@@ -6,6 +6,12 @@ ErrorHandler
 h
 "
 #
+if
+defined
+(
+MOZ_LAUNCHER_PROCESS
+)
+#
 include
 "
 mozilla
@@ -23,6 +29,8 @@ Unused
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
@@ -35,6 +43,12 @@ LauncherError
 aError
 )
 {
+#
+if
+defined
+(
+MOZ_LAUNCHER_PROCESS
+)
 LauncherRegistryInfo
 regInfo
 ;
@@ -47,6 +61,8 @@ DisableDueToFailure
 (
 )
 ;
+#
+endif
 WindowsError
 :
 :
