@@ -7069,6 +7069,14 @@ clip_data_store
 ClipDataStore
 )
 {
+profile_marker
+!
+(
+"
+UpdatePictures
+"
+)
+;
 let
 mut
 state
