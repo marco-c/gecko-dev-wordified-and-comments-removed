@@ -11110,6 +11110,17 @@ fd
 SSL_ENABLE_SESSION_TICKETS
 false
 )
+|
+|
+SECSuccess
+!
+=
+SSL_OptionSet
+(
+fd
+SSL_NO_CACHE
+true
+)
 )
 {
 return
