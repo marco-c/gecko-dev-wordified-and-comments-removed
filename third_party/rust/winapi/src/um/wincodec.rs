@@ -3809,7 +3809,7 @@ CopyPalette
 pIPalette
 :
 *
-const
+mut
 IWICPalette
 )
 -
