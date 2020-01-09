@@ -3969,6 +3969,24 @@ None
 )
         
 except
+errors
+.
+NoSuchWindowException
+:
+            
+self
+.
+result
+=
+False
+(
+"
+CRASH
+"
+None
+)
+        
+except
 Exception
 as
 e
