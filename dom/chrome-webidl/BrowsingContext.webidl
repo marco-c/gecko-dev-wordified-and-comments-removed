@@ -157,12 +157,6 @@ docShell
 ;
 readonly
 attribute
-Element
-?
-embedderElement
-;
-readonly
-attribute
 unsigned
 long
 long
@@ -205,12 +199,6 @@ attribute
 WindowGlobalParent
 ?
 currentWindowGlobal
-;
-readonly
-attribute
-WindowGlobalParent
-?
-embedderWindowGlobal
 ;
 void
 notifyStartDelayedAutoplayMedia
