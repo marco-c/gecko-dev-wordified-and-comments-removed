@@ -622,6 +622,7 @@ window
 ]
 (
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 window
 -
@@ -713,7 +714,16 @@ return
 ;
 }
 }
+RefPtr
+<
+ReportingObserverCallback
+>
+callback
+(
 mCallback
+)
+;
+callback
 -
 >
 Call
