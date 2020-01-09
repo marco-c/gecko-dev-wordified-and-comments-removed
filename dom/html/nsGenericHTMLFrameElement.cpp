@@ -551,6 +551,15 @@ Create
 (
 this
 mOpenerWindow
+?
+mOpenerWindow
+-
+>
+GetDOMWindow
+(
+)
+:
+nullptr
 mNetworkCreated
 )
 ;
