@@ -698,6 +698,14 @@ tokens
 str
 )
 {
+str
+=
+str
+.
+toLocaleLowerCase
+(
+)
+;
 let
 hits
 =
@@ -717,7 +725,9 @@ fill
 for
 (
 let
-token
+{
+lowerCaseValue
+}
 of
 tokens
 )
@@ -730,9 +740,7 @@ index
 0
 needle
 =
-token
-.
-value
+lowerCaseValue
 ;
 index
 >
