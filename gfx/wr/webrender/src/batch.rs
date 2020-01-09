@@ -97,7 +97,6 @@ gpu_types
 {
 ClipMaskInstance
 SplitCompositeInstance
-SnapOffsets
 }
 ;
 use
@@ -10844,14 +10843,6 @@ zero
 (
 )
 sub_rect
-snap_offsets
-:
-SnapOffsets
-:
-:
-empty
-(
-)
 }
 ;
 self
@@ -11260,9 +11251,6 @@ WorldRect
 device_pixel_scale
 :
 DevicePixelScale
-snap_offsets
-:
-SnapOffsets
 )
 {
 for
@@ -11384,7 +11372,6 @@ to_f32
 (
 )
 )
-snap_offsets
 }
 ;
 match
