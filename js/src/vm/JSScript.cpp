@@ -18376,7 +18376,7 @@ script
 >
 setFlag
 (
-MutableFlags
+ImmutableFlags
 :
 :
 TrackRecordReplayProgress
