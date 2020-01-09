@@ -2557,9 +2557,7 @@ register
 True
 )
         
-self
-.
-concrete
+concreteDefault
 =
 (
 not
@@ -2571,7 +2569,7 @@ isExternal
 (
 )
 and
-                         
+                           
 not
 self
 .
@@ -2581,7 +2579,17 @@ isCallback
 (
 )
 and
-                         
+                           
+not
+self
+.
+interface
+.
+isConsequential
+(
+)
+and
+                           
 not
 self
 .
@@ -2591,7 +2599,35 @@ isNamespace
 (
 )
 and
-                         
+                           
+(
+not
+self
+.
+interface
+.
+hasChildInterfaces
+(
+)
+or
+                            
+self
+.
+interface
+.
+ctor
+(
+)
+is
+not
+None
+)
+)
+        
+self
+.
+concrete
+=
 desc
 .
 get
@@ -2599,8 +2635,7 @@ get
 '
 concrete
 '
-True
-)
+concreteDefault
 )
         
 self
@@ -4974,6 +5009,10 @@ self
 :
         
 return
+self
+.
+concrete
+and
 self
 .
 hasCrossOriginMembers
