@@ -731,16 +731,6 @@ uint8_t
 aDocFrameCount
 )
 ;
-void
-DecPendingFrameCount
-(
-wr
-:
-:
-WindowId
-aWindowId
-)
-;
 mozilla
 :
 :
