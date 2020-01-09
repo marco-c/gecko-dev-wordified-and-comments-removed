@@ -148,6 +148,11 @@ TestAudioBuffers
 cpp
 '
 '
+TestAudioCallbackDriver
+.
+cpp
+'
+'
 TestAudioCompactor
 .
 cpp
