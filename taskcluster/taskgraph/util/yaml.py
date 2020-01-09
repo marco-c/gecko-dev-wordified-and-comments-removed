@@ -11,8 +11,8 @@ yaml
 def
 load_yaml
 (
-path
-name
+*
+parts
 )
 :
     
@@ -57,8 +57,8 @@ path
 .
 join
 (
-path
-name
+*
+parts
 )
     
 with

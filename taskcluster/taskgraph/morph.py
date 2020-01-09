@@ -66,8 +66,6 @@ import
 re
 import
 jsone
-import
-yaml
 from
 slugid
 import
@@ -89,6 +87,13 @@ from
 taskgraph
 import
 TaskGraph
+from
+.
+util
+.
+yaml
+import
+load_yaml
 here
 =
 os
@@ -1364,13 +1369,9 @@ target_tasks
                 
 }
                 
-template_path
+template
 =
-os
-.
-path
-.
-join
+load_yaml
 (
 self
 .
@@ -1381,24 +1382,6 @@ template
 .
 yml
 '
-)
-                
-with
-open
-(
-template_path
-)
-as
-f
-:
-                    
-template
-=
-yaml
-.
-safe_load
-(
-f
 )
                 
 result

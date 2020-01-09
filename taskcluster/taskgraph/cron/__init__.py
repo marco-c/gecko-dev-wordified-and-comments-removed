@@ -26,8 +26,6 @@ import
 os
 import
 traceback
-import
-yaml
 from
 .
 import
@@ -81,6 +79,14 @@ util
 taskcluster
 import
 get_session
+from
+taskgraph
+.
+util
+.
+yaml
+import
+load_yaml
 JOB_TYPES
 =
 {
@@ -111,14 +117,9 @@ root
 )
 :
     
-with
-open
-(
-os
-.
-path
-.
-join
+cron_yml
+=
+load_yaml
 (
 root
 '
@@ -127,22 +128,6 @@ cron
 .
 yml
 '
-)
-'
-rb
-'
-)
-as
-f
-:
-        
-cron_yml
-=
-yaml
-.
-safe_load
-(
-f
 )
     
 schema

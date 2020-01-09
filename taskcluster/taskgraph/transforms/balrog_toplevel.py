@@ -20,8 +20,6 @@ import
 absolute_import
 print_function
 unicode_literals
-import
-yaml
 from
 taskgraph
 .
@@ -41,6 +39,14 @@ import
     
 get_release_config
 )
+from
+taskgraph
+.
+util
+.
+yaml
+import
+load_yaml
 from
 mozrelease
 .
@@ -114,25 +120,11 @@ config
 '
 )
         
-with
-open
-(
-config_file
-"
-rb
-"
-)
-as
-f
-:
-            
 update_config
 =
-yaml
-.
-safe_load
+load_yaml
 (
-f
+config_file
 )
         
 product

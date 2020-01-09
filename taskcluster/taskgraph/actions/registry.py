@@ -175,15 +175,7 @@ yaml
 .
 load_yaml
 (
-*
-os
-.
-path
-.
-split
-(
 filename
-)
 )
 memoize
 def
