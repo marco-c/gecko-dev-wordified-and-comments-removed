@@ -822,10 +822,8 @@ nsString
 aNames
 )
 ;
-already_AddRefed
-<
 Document
->
+*
 Open
 (
 JSContext
@@ -846,7 +844,6 @@ nsAString
 const
 nsAString
 &
-aReplace
 mozilla
 :
 :

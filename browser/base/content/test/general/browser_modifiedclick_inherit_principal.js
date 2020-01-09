@@ -126,6 +126,14 @@ spoof
 '
 )
 ;
+location
+.
+href
+=
+'
+#
+'
+;
 void
 (
 0

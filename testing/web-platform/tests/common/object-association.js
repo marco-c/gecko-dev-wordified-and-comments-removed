@@ -365,7 +365,7 @@ frame
 propertyName
 ]
 ;
-assert_not_equals
+assert_equals
 (
 after
 before
