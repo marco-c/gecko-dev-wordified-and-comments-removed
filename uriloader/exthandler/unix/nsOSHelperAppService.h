@@ -45,10 +45,7 @@ nsOSHelperAppService
 (
 )
 ;
-already_AddRefed
-<
-nsIMIMEInfo
->
+NS_IMETHOD
 GetMIMEInfoFromOS
 (
 const
@@ -62,6 +59,10 @@ aFileExt
 bool
 *
 aFound
+nsIMIMEInfo
+*
+*
+aMIMEInfo
 )
 override
 ;
