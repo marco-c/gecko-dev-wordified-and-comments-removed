@@ -11556,7 +11556,7 @@ pairing
 .
 enabled
 "
-false
+true
 )
 ;
 pref
