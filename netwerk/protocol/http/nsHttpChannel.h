@@ -2439,6 +2439,16 @@ ReEvaluateReferrerAfterTrackingStatusIsKnown
 (
 )
 ;
+void
+PerformBackgroundCacheRevalidation
+(
+)
+;
+void
+PerformBackgroundCacheRevalidationNow
+(
+)
+;
 private
 :
 nsCOMPtr
