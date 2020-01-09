@@ -18640,7 +18640,7 @@ ReflowCallbackCanceled
 }
 }
 void
-nsIPresShell
+PresShell
 :
 :
 HandlePostedReflowCallbacks

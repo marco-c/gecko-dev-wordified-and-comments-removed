@@ -1635,6 +1635,14 @@ bool
 aInterruptible
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+HandlePostedReflowCallbacks
+(
+bool
+aInterruptible
+)
+;
 void
 SetupFontInflation
 (

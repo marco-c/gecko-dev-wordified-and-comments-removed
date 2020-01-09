@@ -1643,13 +1643,6 @@ aCallback
 )
 ;
 void
-HandlePostedReflowCallbacks
-(
-bool
-aInterruptible
-)
-;
-void
 ScheduleBeforeFirstPaint
 (
 )
