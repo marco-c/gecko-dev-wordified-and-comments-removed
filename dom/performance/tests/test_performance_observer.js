@@ -113,7 +113,7 @@ assert_throws
 name
 :
 "
-TypeError
+SyntaxError
 "
 }
 function
@@ -149,7 +149,7 @@ assert_throws
 name
 :
 "
-TypeError
+SyntaxError
 "
 }
 function
