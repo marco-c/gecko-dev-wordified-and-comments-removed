@@ -3475,27 +3475,6 @@ f
 prologue
 ]
     
-shutil
-.
-rmtree
-(
-jittests
-.
-JS_CACHE_DIR
-ignore_errors
-=
-True
-)
-    
-os
-.
-mkdir
-(
-jittests
-.
-JS_CACHE_DIR
-)
-    
 if
 options
 .
