@@ -5115,6 +5115,8 @@ wr_finished_scene_build
 (
 WrWindowId
 aWindowId
+WrPipelineInfo
+aPipelineInfo
 )
 ;
 extern

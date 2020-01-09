@@ -9967,6 +9967,14 @@ CompositorBridgeParent
 :
 NotifyDidSceneBuild
 (
+RefPtr
+<
+wr
+:
+:
+WebRenderPipelineInfo
+>
+aInfo
 )
 {
 MOZ_ASSERT
@@ -9997,6 +10005,7 @@ mWrBridge
 >
 NotifyDidSceneBuild
 (
+aInfo
 )
 ;
 }
