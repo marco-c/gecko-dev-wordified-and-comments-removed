@@ -174,13 +174,6 @@ cpp
 '
 ipc
 /
-ChildNavigation
-.
-cpp
-'
-'
-ipc
-/
 ChildProcess
 .
 cpp

@@ -188,7 +188,7 @@ IsMainThread
 )
 )
 {
-child
+js
 :
 :
 EndIdleTime
@@ -296,7 +296,7 @@ IsMainThread
 )
 )
 {
-child
+js
 :
 :
 BeginIdleTime
@@ -532,7 +532,7 @@ IsMainThread
 )
 )
 {
-child
+js
 :
 :
 BeginIdleTime
@@ -562,7 +562,7 @@ IsMainThread
 )
 )
 {
-child
+js
 :
 :
 EndIdleTime

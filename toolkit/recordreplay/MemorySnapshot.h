@@ -174,13 +174,6 @@ FixupFreeRegionsAfterRewind
 )
 ;
 void
-SetAllowIntentionalCrashes
-(
-bool
-aAllowed
-)
-;
-void
 StartCountdown
 (
 size_t

@@ -1950,7 +1950,7 @@ aArguments
 if
 (
 !
-HasSavedCheckpoint
+HasSavedAnyCheckpoint
 (
 )
 )
@@ -2147,7 +2147,7 @@ MAP_FIXED
 if
 (
 !
-HasSavedCheckpoint
+HasSavedAnyCheckpoint
 (
 )
 )
@@ -2204,7 +2204,7 @@ else
 int
 newProt
 =
-HasSavedCheckpoint
+HasSavedAnyCheckpoint
 (
 )
 ?
@@ -3259,6 +3259,13 @@ pthread_mutex_t
 (
 )
 ;
+js
+:
+:
+BeginIdleTime
+(
+)
+;
 aArguments
 -
 >
@@ -3292,6 +3299,13 @@ mutex
 )
 ;
 }
+)
+;
+js
+:
+:
+EndIdleTime
+(
 )
 ;
 return
@@ -4875,7 +4889,7 @@ AreThreadEventsPassedThrough
 MOZ_RELEASE_ASSERT
 (
 !
-HasSavedCheckpoint
+HasSavedAnyCheckpoint
 (
 )
 )
@@ -4960,7 +4974,7 @@ aArguments
 if
 (
 !
-HasSavedCheckpoint
+HasSavedAnyCheckpoint
 (
 )
 )
