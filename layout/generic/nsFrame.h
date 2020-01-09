@@ -383,6 +383,7 @@ FrameIID
 GetFrameId
 (
 )
+const
 override
 MOZ_MUST_OVERRIDE
 {
@@ -460,7 +461,6 @@ MOZ_MUST_OVERRIDE
 delete
 ;
 \
-virtual
 nsQueryFrame
 :
 :
@@ -468,6 +468,7 @@ FrameIID
 GetFrameId
 (
 )
+const
 override
 MOZ_MUST_OVERRIDE
 =
@@ -540,6 +541,7 @@ FrameIID
 GetFrameId
 (
 )
+const
 MOZ_MUST_OVERRIDE
 {
 return

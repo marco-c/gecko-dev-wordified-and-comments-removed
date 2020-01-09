@@ -7249,6 +7249,7 @@ bool
 IsBlockFrameOrSubclass
 (
 )
+const
 ;
 enum
 {
