@@ -647,6 +647,8 @@ LineBreaker
 :
 Strictness
 aLevel
+bool
+aIsChineseOrJapanese
 )
 {
 static
@@ -864,6 +866,11 @@ CLASS_CLOSE_LIKE_CHARACTER
 }
 if
 (
+aIsChineseOrJapanese
+)
+{
+if
+(
 cls
 =
 =
@@ -927,6 +934,7 @@ u
 return
 CLASS_CLOSE_LIKE_CHARACTER
 ;
+}
 }
 break
 ;
@@ -1007,6 +1015,11 @@ CLASS_CLOSE_LIKE_CHARACTER
 }
 if
 (
+aIsChineseOrJapanese
+)
+{
+if
+(
 cls
 =
 =
@@ -1070,6 +1083,7 @@ u
 return
 CLASS_BREAKABLE
 ;
+}
 }
 break
 ;
@@ -1148,6 +1162,11 @@ return
 CLASS_BREAKABLE
 ;
 }
+if
+(
+aIsChineseOrJapanese
+)
+{
 if
 (
 u
@@ -1279,6 +1298,7 @@ u
 return
 CLASS_BREAKABLE
 ;
+}
 }
 break
 ;
@@ -1481,6 +1501,7 @@ GetClass
 (
 0x3002
 aLevel
+aIsChineseOrJapanese
 )
 ;
 case
@@ -1491,6 +1512,7 @@ GetClass
 (
 0x300c
 aLevel
+aIsChineseOrJapanese
 )
 ;
 case
@@ -1501,6 +1523,7 @@ GetClass
 (
 0x300d
 aLevel
+aIsChineseOrJapanese
 )
 ;
 case
@@ -1511,6 +1534,7 @@ GetClass
 (
 0x3001
 aLevel
+aIsChineseOrJapanese
 )
 ;
 case
@@ -1521,6 +1545,7 @@ GetClass
 (
 0x30fb
 aLevel
+aIsChineseOrJapanese
 )
 ;
 case
@@ -1531,6 +1556,7 @@ GetClass
 (
 0x309b
 aLevel
+aIsChineseOrJapanese
 )
 ;
 case
@@ -1541,6 +1567,7 @@ GetClass
 (
 0x309c
 aLevel
+aIsChineseOrJapanese
 )
 ;
 default
@@ -1616,6 +1643,7 @@ l
 0x00e0
 ]
 aLevel
+aIsChineseOrJapanese
 )
 ;
 }
@@ -2664,6 +2692,8 @@ LineBreaker
 :
 Strictness
 aLevel
+bool
+aIsChineseOrJapanese
 )
 {
 if
@@ -2745,6 +2775,7 @@ GetClass
 (
 prevOfHyphen
 aLevel
+aIsChineseOrJapanese
 )
 ;
 int8_t
@@ -2754,6 +2785,7 @@ GetClass
 (
 next
 aLevel
+aIsChineseOrJapanese
 )
 ;
 bool
@@ -3134,6 +3166,7 @@ GetClass
 (
 cur
 aLevel
+aIsChineseOrJapanese
 )
 ;
 }
@@ -3352,6 +3385,7 @@ Strictness
 :
 :
 Auto
+false
 breakState
 .
 Elements
@@ -3557,6 +3591,8 @@ WordBreak
 aWordBreak
 Strictness
 aLevel
+bool
+aIsChineseOrJapanese
 uint8_t
 *
 aBreakBefore
@@ -3732,6 +3768,7 @@ ch
 next
 state
 aLevel
+aIsChineseOrJapanese
 )
 ;
 }
@@ -3763,6 +3800,7 @@ GetClass
 (
 ch
 aLevel
+aIsChineseOrJapanese
 )
 ;
 }
@@ -3993,6 +4031,7 @@ GetClass
 (
 c
 aLevel
+false
 )
 )
 {
@@ -4139,6 +4178,8 @@ WordBreak
 aWordBreak
 Strictness
 aLevel
+bool
+aIsChineseOrJapanese
 uint8_t
 *
 aBreakBefore
@@ -4231,6 +4272,7 @@ cur
 U_NULL
 state
 aLevel
+aIsChineseOrJapanese
 )
 ;
 }
@@ -4262,6 +4304,7 @@ GetClass
 (
 ch
 aLevel
+aIsChineseOrJapanese
 )
 ;
 }

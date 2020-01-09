@@ -635,6 +635,9 @@ bool
 mCurrentWordContainsComplexChar
 ;
 bool
+mScriptIsChineseOrJapanese
+;
+bool
 mAfterBreakableSpace
 ;
 bool
