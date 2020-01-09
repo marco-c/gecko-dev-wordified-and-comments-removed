@@ -163,11 +163,6 @@ aGroups
 =
 0
 ;
-bool
-IsReadyToRun
-(
-)
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
