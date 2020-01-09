@@ -749,6 +749,11 @@ InputData
 h
 '
 '
+nsBaseAppShell
+.
+h
+'
+'
 nsBaseDragService
 .
 h
