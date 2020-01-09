@@ -3719,6 +3719,8 @@ StreamTimeToMicroseconds
 (
 1
 )
++
+1
 )
 ;
 WriteVideoToMediaStream
