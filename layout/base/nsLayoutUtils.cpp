@@ -199,6 +199,13 @@ h
 #
 include
 "
+nsPresContextInlines
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h

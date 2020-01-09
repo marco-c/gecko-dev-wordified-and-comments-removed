@@ -118,6 +118,13 @@ h
 #
 include
 "
+nsPresContextInlines
+.
+h
+"
+#
+include
+"
 nsNodeInfoManager
 .
 h

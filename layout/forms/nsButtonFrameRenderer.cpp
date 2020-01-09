@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsPresContextInlines
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
