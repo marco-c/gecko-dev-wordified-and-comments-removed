@@ -2910,8 +2910,6 @@ focus
 )
 ;
 }
-return
-;
 }
 }
 _focusPrevNode

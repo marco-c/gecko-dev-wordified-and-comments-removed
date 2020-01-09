@@ -179,8 +179,6 @@ i
 "
 ;
 }
-return
-;
 }
 export
 default

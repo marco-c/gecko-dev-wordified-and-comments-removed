@@ -450,7 +450,6 @@ sourceId
 )
 ;
 return
-await
 dispatch
 (
 selectSpecificLocation

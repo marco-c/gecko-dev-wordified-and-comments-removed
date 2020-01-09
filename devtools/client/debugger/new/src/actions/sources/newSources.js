@@ -967,7 +967,7 @@ ThunkArgs
 >
 {
 const
-newSources
+_newSources
 =
 sources
 .
@@ -1005,7 +1005,7 @@ for
 const
 source
 of
-newSources
+_newSources
 )
 {
 dispatch
@@ -1023,7 +1023,7 @@ dispatch
 (
 restoreBlackBoxedSources
 (
-newSources
+_newSources
 )
 )
 ;
@@ -1031,7 +1031,7 @@ dispatch
 (
 loadSourceMaps
 (
-newSources
+_newSources
 )
 )
 ;

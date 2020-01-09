@@ -252,7 +252,6 @@ content
 )
 ;
 return
-await
 getOriginalURLs
 (
 source

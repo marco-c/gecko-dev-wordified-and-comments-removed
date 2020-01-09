@@ -984,8 +984,6 @@ openQuickOpen
 (
 )
 ;
-return
-;
 }
 ;
 onLayoutChange

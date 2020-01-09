@@ -160,6 +160,7 @@ SELECT_THREAD
 "
 thread
 }
+;
 }
 export
 function

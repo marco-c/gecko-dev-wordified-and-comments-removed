@@ -5,8 +5,6 @@ name
 :
 "
 debugger
-.
-html
 "
 "
 version
@@ -54,8 +52,6 @@ devtools
 /
 debugger
 .
-html
-.
 git
 "
 "
@@ -89,8 +85,6 @@ firefox
 devtools
 /
 debugger
-.
-html
 /
 issues
 "
@@ -113,8 +107,6 @@ firefox
 devtools
 /
 debugger
-.
-html
 #
 readme
 "
@@ -409,8 +401,6 @@ qf
 .
 md
 src
-configs
-docs
 "
 "
 mochi

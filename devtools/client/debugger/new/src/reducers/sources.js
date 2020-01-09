@@ -62,7 +62,6 @@ Source
 SourceId
 SourceLocation
 ThreadId
-WorkerList
 }
 from
 "
