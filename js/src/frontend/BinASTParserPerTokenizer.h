@@ -635,9 +635,6 @@ params
 ParseNode
 *
 body
-FunctionBox
-*
-funbox
 )
 ;
 JS
