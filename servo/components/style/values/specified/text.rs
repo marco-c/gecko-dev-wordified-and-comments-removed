@@ -4349,6 +4349,17 @@ WordBreak
 Normal
 BreakAll
 KeepAll
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 BreakWord
 }
 #

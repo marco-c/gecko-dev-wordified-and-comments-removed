@@ -259,6 +259,7 @@ pub
 struct
 LetterSpacing
 (
+pub
 Length
 )
 ;
