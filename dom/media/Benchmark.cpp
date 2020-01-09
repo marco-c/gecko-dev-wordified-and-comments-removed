@@ -322,7 +322,7 @@ return
 StaticPrefs
 :
 :
-MediaBenchmarkVp9Threshold
+MediaBenchmarkVp9Fps
 (
 )
 ;
