@@ -2402,6 +2402,9 @@ GetMsid
 .
 mMsids
 ;
+return
+NS_OK
+;
 }
 if
 (
