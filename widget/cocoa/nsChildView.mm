@@ -12008,6 +12008,7 @@ return
 ctx
 ;
 }
+static
 LayoutDeviceIntSize
 TextureSizeForSize
 (

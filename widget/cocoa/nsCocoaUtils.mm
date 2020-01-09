@@ -2398,6 +2398,7 @@ mainWindow
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
+static
 void
 data_ss_release_callback
 (
