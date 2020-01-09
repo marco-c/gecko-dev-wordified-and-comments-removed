@@ -594,7 +594,7 @@ dom
 :
 Element
 *
-CheckIfFocusable
+FlushAndCheckIfFocusable
 (
 mozilla
 :
@@ -604,7 +604,7 @@ dom
 :
 Element
 *
-aContent
+aElement
 uint32_t
 aFlags
 )
