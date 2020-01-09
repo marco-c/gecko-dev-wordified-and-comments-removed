@@ -1030,13 +1030,6 @@ partial
 retry
 wget
 -
--
-no
--
-check
--
-certificate
--
 q
 -
 O

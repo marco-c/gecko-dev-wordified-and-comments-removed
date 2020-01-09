@@ -308,13 +308,6 @@ mega
 server
 -
 response
--
--
-no
--
-check
--
-certificate
 "
 {
 url

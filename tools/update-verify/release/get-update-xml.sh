@@ -78,8 +78,6 @@ max
 time
 300
 -
-k
--
 s
 -
 D

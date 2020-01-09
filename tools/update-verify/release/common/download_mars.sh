@@ -514,8 +514,6 @@ URL
 "
 curl
 -
-k
--
 s
 -
 I
