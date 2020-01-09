@@ -742,6 +742,13 @@ files
 void
 AssignLinesToFunctions
 (
+const
+LineToModuleHandler
+:
+:
+FileMap
+&
+files
 )
 ;
 LineToModuleHandler
