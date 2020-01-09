@@ -478,7 +478,7 @@ time
 600
 tier
 :
-2
+default
 mozharness
 :
 script
