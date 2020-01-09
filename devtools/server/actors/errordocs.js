@@ -439,11 +439,6 @@ JSMSG_PROPERTY_FAIL_EXPR
 "
 cant_access_property
 "
-JSMSG_REDECLARED_VAR
-:
-"
-Redeclared_parameter
-"
 }
 ;
 const
