@@ -239,15 +239,6 @@ char
 aAppBundle
 )
 ;
-void
-RefreshMacAppIcon
-(
-const
-char
-*
-aAppBundle
-)
-;
 bool
 ObtainUpdaterArguments
 (
@@ -12385,11 +12376,6 @@ gSucceeded
 )
 {
 LaunchMacPostProcess
-(
-gInstallDirPath
-)
-;
-RefreshMacAppIcon
 (
 gInstallDirPath
 )
