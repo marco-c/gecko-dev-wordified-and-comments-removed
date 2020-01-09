@@ -1241,7 +1241,10 @@ Base
 >
 class
 extends
+BaseControlMixin
+(
 Base
+)
 {
 set
 label
