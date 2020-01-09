@@ -31,7 +31,7 @@ moz
 .
 configure
 /
-rust
+bindgen
 .
 configure
 as
@@ -43,7 +43,7 @@ v0
 .
 6
 .
-7
+8
 TARGET
 =
 "
