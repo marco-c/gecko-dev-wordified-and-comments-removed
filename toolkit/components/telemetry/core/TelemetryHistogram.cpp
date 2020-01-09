@@ -409,14 +409,6 @@ gTelemetryHistogramMutex
 ;
 namespace
 {
-typedef
-nsDataHashtable
-<
-nsCStringHashKey
-HistogramID
->
-StringToHistogramIdMap
-;
 struct
 HistogramInfo
 {
