@@ -334,7 +334,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -767,7 +767,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -4192,7 +4192,7 @@ syn
 .
 15
 .
-17
+30
 (
 registry
 +
@@ -4460,7 +4460,7 @@ syn
 .
 15
 .
-17
+30
 (
 registry
 +
@@ -5009,7 +5009,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -5038,7 +5038,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -5056,7 +5056,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -5433,7 +5433,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -5568,7 +5568,7 @@ syn
 .
 15
 .
-17
+30
 (
 registry
 +
@@ -8748,7 +8748,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -10153,7 +10153,7 @@ syn
 .
 15
 .
-17
+30
 (
 registry
 +
@@ -11622,7 +11622,7 @@ syn
 .
 15
 .
-17
+30
 (
 registry
 +
@@ -12930,7 +12930,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -12959,7 +12959,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -12977,7 +12977,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -13455,7 +13455,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -13484,7 +13484,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -13502,7 +13502,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 ]
@@ -13615,7 +13615,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -13644,7 +13644,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -13662,7 +13662,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 ]
@@ -15657,7 +15657,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -16022,7 +16022,7 @@ version
 .
 0
 .
-80
+88
 "
 source
 =
@@ -16056,7 +16056,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -16074,7 +16074,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 ]
@@ -16129,7 +16129,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -16170,7 +16170,7 @@ version
 .
 0
 .
-80
+88
 "
 source
 =
@@ -16191,9 +16191,9 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 #
-e0cc925c259cb74ce41377e4fe02713adfa6d836
+84b2795d2a7b5312125a99b1ef11c67fd8d17c35
 "
 dependencies
 =
@@ -16264,7 +16264,7 @@ syn
 .
 15
 .
-17
+30
 (
 registry
 +
@@ -16397,7 +16397,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -17193,7 +17193,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -17693,7 +17693,7 @@ version
 .
 15
 .
-17
+30
 "
 source
 =
@@ -17924,7 +17924,7 @@ syn
 .
 15
 .
-17
+30
 (
 registry
 +
@@ -21377,7 +21377,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -22159,7 +22159,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -22217,7 +22217,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -22235,7 +22235,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -22304,7 +22304,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -23899,7 +23899,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -30043,7 +30043,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -30068,7 +30068,7 @@ index
 "
 =
 "
-15c141fc7027dd265a47c090bf864cf62b42c4d228bbcf4e51a0c9e2b0d3f7ef
+9f301d728f2b94c9a7691c90f07b0b4e8a4517181d9461be94c04bddeb4bd850
 "
 "
 checksum
@@ -30111,7 +30111,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -30129,7 +30129,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 =
@@ -30567,7 +30567,7 @@ syn
 .
 15
 .
-17
+30
 (
 registry
 +
@@ -30592,7 +30592,7 @@ index
 "
 =
 "
-3391038ebc3e4ab24eb028cb0ef2f2dc4ba0cbf72ee895ed6a6fad730640b5bc
+66c8865bf5a7cbb662d8b011950060b3c8743dca141b054bf7195b20d314d8e2
 "
 "
 checksum

@@ -396,7 +396,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -1279,7 +1279,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -1308,7 +1308,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -1326,7 +1326,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -3186,7 +3186,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -4123,7 +4123,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -4152,7 +4152,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -4170,7 +4170,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -12126,7 +12126,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -12155,7 +12155,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -12173,7 +12173,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -12592,7 +12592,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -12621,7 +12621,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -12639,7 +12639,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -13382,7 +13382,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -15104,7 +15104,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -15133,7 +15133,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -15151,7 +15151,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -19818,7 +19818,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -19847,7 +19847,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -19865,7 +19865,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -23919,7 +23919,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -23948,7 +23948,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -23966,7 +23966,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -27760,7 +27760,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -30173,7 +30173,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -30202,7 +30202,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -30220,7 +30220,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -30333,7 +30333,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -30414,7 +30414,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -30443,7 +30443,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -30461,7 +30461,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 ]
@@ -31880,7 +31880,7 @@ version
 .
 0
 .
-80
+88
 "
 source
 =
@@ -31914,7 +31914,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -31932,7 +31932,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 ]
@@ -31987,7 +31987,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -32028,7 +32028,7 @@ version
 .
 0
 .
-80
+88
 "
 source
 =
@@ -32049,9 +32049,9 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 #
-e0cc925c259cb74ce41377e4fe02713adfa6d836
+84b2795d2a7b5312125a99b1ef11c67fd8d17c35
 "
 dependencies
 =
@@ -32255,7 +32255,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -32976,7 +32976,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -33442,7 +33442,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -40506,7 +40506,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -42376,7 +42376,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -42405,7 +42405,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -42423,7 +42423,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -43300,7 +43300,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -43757,7 +43757,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -43815,7 +43815,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -43833,7 +43833,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -44324,7 +44324,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -53716,7 +53716,7 @@ serde
 .
 0
 .
-80
+88
 (
 registry
 +
@@ -53741,7 +53741,7 @@ index
 "
 =
 "
-15c141fc7027dd265a47c090bf864cf62b42c4d228bbcf4e51a0c9e2b0d3f7ef
+9f301d728f2b94c9a7691c90f07b0b4e8a4517181d9461be94c04bddeb4bd850
 "
 "
 checksum
@@ -53784,7 +53784,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -53802,7 +53802,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 =
