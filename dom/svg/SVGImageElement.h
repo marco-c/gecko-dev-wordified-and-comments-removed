@@ -443,6 +443,14 @@ ErrorResult
 aRv
 )
 ;
+static
+nsCSSPropertyID
+GetCSSPropertyIdForAttrEnum
+(
+uint8_t
+aAttrEnum
+)
+;
 protected
 :
 nsresult
