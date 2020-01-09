@@ -6016,6 +6016,14 @@ mInstallTrigger
 =
 nullptr
 ;
+mLocalStorage
+=
+nullptr
+;
+mSessionStorage
+=
+nullptr
+;
 mPerformance
 =
 nullptr
