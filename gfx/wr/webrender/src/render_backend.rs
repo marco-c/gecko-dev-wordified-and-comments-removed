@@ -4016,7 +4016,7 @@ Some
 (
 (
 rasterizer
-epoch
+info
 )
 )
 =
@@ -4035,7 +4035,7 @@ resource_cache
 set_blob_rasterizer
 (
 rasterizer
-epoch
+info
 )
 ;
 }
