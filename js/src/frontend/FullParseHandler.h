@@ -1588,7 +1588,7 @@ Node
 name
 Node
 heritage
-Node
+LexicalScopeNodeType
 memberBlock
 const
 TokenPos
