@@ -18,9 +18,6 @@ wasm
 /
 cranelift
 /
--
-servo
-/
 extensions
 :
 -
