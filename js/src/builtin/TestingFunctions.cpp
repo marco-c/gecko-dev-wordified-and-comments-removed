@@ -23085,6 +23085,7 @@ CheckedUnwrapDynamic
 (
 global
 cx
+false
 )
 ;
 if
@@ -23634,6 +23635,7 @@ CheckedUnwrapDynamic
 (
 global
 cx
+false
 )
 ;
 if
@@ -25774,6 +25776,7 @@ CheckedUnwrapDynamic
 (
 global
 cx
+false
 )
 ;
 if
@@ -31572,7 +31575,7 @@ toObject
 ;
 if
 (
-IsWrapper
+IsCrossCompartmentWrapper
 (
 obj
 )

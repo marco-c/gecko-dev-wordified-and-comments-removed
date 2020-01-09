@@ -10924,7 +10924,7 @@ global
 js
 :
 :
-UncheckedUnwrap
+CheckedUnwrapDynamic
 (
 &
 v
@@ -10932,6 +10932,8 @@ v
 toObject
 (
 )
+cx
+false
 )
 ;
 if
@@ -45298,6 +45300,9 @@ RootedObject
 newGlobal
 (
 cx
+js
+:
+:
 CheckedUnwrapDynamic
 (
 &
@@ -45310,6 +45315,7 @@ toObject
 (
 )
 cx
+false
 )
 )
 ;
