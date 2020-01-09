@@ -567,6 +567,17 @@ numBytes
 )
 const
 ;
+bool
+memoryAccessInBounds
+(
+uint8_t
+*
+addr
+unsigned
+numBytes
+)
+const
+;
 const
 StructTypeVector
 &
