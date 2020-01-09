@@ -88,15 +88,6 @@ MPL
 DevToolsModules
 (
 '
-array
--
-buffer
--
-client
-.
-js
-'
-'
 connection
 -
 manager
