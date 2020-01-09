@@ -25120,6 +25120,13 @@ MutableHandleObject
 res
 )
 {
+AutoRealm
+ar
+(
+cx_
+calleeFunc
+)
+;
 bool
 isSuper
 =
