@@ -306,7 +306,7 @@ BUFFER_REPLACEMENT_MODE_NORMAL
 private
 final
 DecoderInputBuffer
-mFlagsOnlyBuffer
+mflagsOnlyBuffer
 =
 DecoderInputBuffer
 .
@@ -318,7 +318,6 @@ protected
 void
 assertTrue
 (
-final
 boolean
 condition
 )
@@ -350,10 +349,8 @@ true
 public
 GeckoHlsRendererBase
 (
-final
 int
 trackType
-final
 GeckoHlsPlayer
 .
 ComponentEventDispatcher
@@ -482,7 +479,6 @@ public
 Format
 getFormat
 (
-final
 int
 index
 )
@@ -566,7 +562,6 @@ GeckoHLSSample
 >
 getQueuedSamples
 (
-final
 int
 number
 )
@@ -739,10 +734,8 @@ protected
 void
 handleDrmInitChanged
 (
-final
 Format
 oldFormat
-final
 Format
 newFormat
 )
@@ -794,10 +787,8 @@ protected
 boolean
 canReconfigure
 (
-final
 Format
 oldFormat
-final
 Format
 newFormat
 )
@@ -817,7 +808,6 @@ protected
 void
 updateCSDInfo
 (
-final
 Format
 format
 )
@@ -827,7 +817,6 @@ protected
 void
 onInputFormatChanged
 (
-final
 Format
 newFormat
 )
@@ -1279,7 +1268,7 @@ readFormat
 throws
 ExoPlaybackException
 {
-mFlagsOnlyBuffer
+mflagsOnlyBuffer
 .
 clear
 (
@@ -1291,7 +1280,7 @@ result
 readSource
 (
 mFormatHolder
-mFlagsOnlyBuffer
+mflagsOnlyBuffer
 true
 )
 ;
@@ -1319,7 +1308,6 @@ protected
 void
 onEnabled
 (
-final
 boolean
 joining
 )
@@ -1378,10 +1366,8 @@ synchronized
 void
 onPositionReset
 (
-final
 long
 positionUs
-final
 boolean
 joining
 )
@@ -1427,10 +1413,8 @@ public
 void
 render
 (
-final
 long
 positionUs
-final
 long
 elapsedRealtimeUs
 )

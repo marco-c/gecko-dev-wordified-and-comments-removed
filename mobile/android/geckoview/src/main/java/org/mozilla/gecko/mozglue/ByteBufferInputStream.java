@@ -38,10 +38,8 @@ mNativeRef
 protected
 ByteBufferInputStream
 (
-final
 ByteBuffer
 buffer
-final
 NativeReference
 ref
 )
@@ -122,15 +120,12 @@ public
 int
 read
 (
-final
 byte
 [
 ]
 buffer
-final
 int
 offset
-final
 int
 length
 )
@@ -157,8 +152,7 @@ return
 1
 ;
 }
-int
-remainingLength
+length
 =
 Math
 .
@@ -178,7 +172,7 @@ get
 (
 buffer
 offset
-remainingLength
+length
 )
 ;
 return
@@ -190,7 +184,6 @@ public
 long
 skip
 (
-final
 long
 byteCount
 )
@@ -213,8 +206,7 @@ return
 0
 ;
 }
-long
-remainingByteCount
+byteCount
 =
 Math
 .
@@ -241,11 +233,11 @@ position
 (
 int
 )
-remainingByteCount
+byteCount
 )
 ;
 return
-remainingByteCount
+byteCount
 ;
 }
 }

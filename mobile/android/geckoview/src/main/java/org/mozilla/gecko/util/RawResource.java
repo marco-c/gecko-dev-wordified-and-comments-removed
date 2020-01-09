@@ -61,10 +61,8 @@ static
 String
 getAsString
 (
-final
 Context
 context
-final
 int
 id
 )

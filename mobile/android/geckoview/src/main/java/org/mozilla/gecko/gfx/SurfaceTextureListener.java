@@ -106,7 +106,6 @@ public
 void
 onFrameAvailable
 (
-final
 SurfaceTexture
 surfaceTexture
 )

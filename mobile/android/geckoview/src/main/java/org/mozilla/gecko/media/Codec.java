@@ -113,6 +113,15 @@ util
 Queue
 ;
 import
+java
+.
+util
+.
+concurrent
+.
+ConcurrentLinkedQueue
+;
+import
 org
 .
 mozilla
@@ -174,10 +183,8 @@ public
 void
 onInputBufferAvailable
 (
-final
 AsyncCodec
 codec
-final
 int
 index
 )
@@ -195,13 +202,10 @@ public
 void
 onOutputBufferAvailable
 (
-final
 AsyncCodec
 codec
-final
 int
 index
-final
 MediaCodec
 .
 BufferInfo
@@ -222,10 +226,8 @@ public
 void
 onError
 (
-final
 AsyncCodec
 codec
-final
 int
 error
 )
@@ -254,10 +256,8 @@ public
 void
 onOutputFormatChanged
 (
-final
 AsyncCodec
 codec
-final
 MediaFormat
 format
 )
@@ -362,7 +362,6 @@ synchronized
 Sample
 onAllocate
 (
-final
 int
 size
 )
@@ -393,7 +392,6 @@ synchronized
 void
 onSample
 (
-final
 Sample
 sample
 )
@@ -492,7 +490,6 @@ private
 void
 queueSample
 (
-final
 Sample
 sample
 )
@@ -563,7 +560,6 @@ synchronized
 void
 onBuffer
 (
-final
 int
 index
 )
@@ -1152,7 +1148,6 @@ Output
 final
 Sample
 sample
-final
 int
 index
 )
@@ -1205,7 +1200,6 @@ mStopped
 private
 OutputProcessor
 (
-final
 boolean
 renderToSurface
 )
@@ -1220,10 +1214,8 @@ synchronized
 void
 onBuffer
 (
-final
 int
 index
-final
 MediaCodec
 .
 BufferInfo
@@ -1398,10 +1390,8 @@ private
 Sample
 obtainOutputSample
 (
-final
 int
 index
-final
 MediaCodec
 .
 BufferInfo
@@ -1537,10 +1527,8 @@ synchronized
 void
 onRelease
 (
-final
 Sample
 sample
-final
 boolean
 render
 )
@@ -1615,7 +1603,6 @@ private
 void
 onFormatChanged
 (
-final
 MediaFormat
 format
 )
@@ -1783,7 +1770,6 @@ synchronized
 void
 setCallbacks
 (
-final
 ICodecCallbacks
 callbacks
 )
@@ -1848,16 +1834,12 @@ synchronized
 boolean
 configure
 (
-final
 FormatParam
 format
-final
 GeckoSurface
 surface
-final
 int
 flags
-final
 String
 drmStubId
 )
@@ -2686,10 +2668,8 @@ private
 void
 reportError
 (
-final
 Error
 error
-final
 Exception
 e
 )
@@ -2917,7 +2897,6 @@ synchronized
 Sample
 dequeueInput
 (
-final
 int
 size
 )
@@ -2960,7 +2939,6 @@ synchronized
 void
 queueInput
 (
-final
 Sample
 sample
 )
@@ -3002,7 +2980,6 @@ synchronized
 void
 setRates
 (
-final
 int
 newBitRate
 )
@@ -3039,10 +3016,8 @@ synchronized
 void
 releaseOutput
 (
-final
 Sample
 sample
-final
 boolean
 render
 )

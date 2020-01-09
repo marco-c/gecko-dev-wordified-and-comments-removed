@@ -118,6 +118,13 @@ UiThread
 import
 android
 .
+text
+.
+TextUtils
+;
+import
+android
+.
 util
 .
 Log
@@ -208,6 +215,17 @@ gecko
 util
 .
 GeckoBundle
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+StringUtils
 ;
 import
 org
@@ -692,7 +710,6 @@ static
 String
 getProcessName
 (
-final
 Context
 context
 )
@@ -1190,7 +1207,6 @@ true
 void
 setDefaultPrefs
 (
-final
 GeckoBundle
 prefs
 )
@@ -1281,7 +1297,6 @@ public
 void
 sendSuccess
 (
-final
 Object
 response
 )
@@ -1545,7 +1560,6 @@ name
 final
 Object
 value
-final
 boolean
 override
 )
@@ -1664,7 +1678,6 @@ public
 void
 orientationChanged
 (
-final
 int
 newOrientation
 )
@@ -1705,10 +1718,8 @@ public
 void
 writeToParcel
 (
-final
 Parcel
 out
-final
 int
 flags
 )

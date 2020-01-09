@@ -67,10 +67,8 @@ public
 boolean
 hasPermissions
 (
-final
 Context
 context
-final
 String
 .
 .
@@ -121,10 +119,8 @@ public
 void
 prompt
 (
-final
 Activity
 activity
-final
 String
 [
 ]

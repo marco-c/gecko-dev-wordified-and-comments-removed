@@ -45,12 +45,10 @@ mVmPolicy
 private
 StrictModeContext
 (
-final
 StrictMode
 .
 ThreadPolicy
 threadPolicy
-final
 StrictMode
 .
 VmPolicy
@@ -69,7 +67,6 @@ vmPolicy
 private
 StrictModeContext
 (
-final
 StrictMode
 .
 ThreadPolicy
@@ -86,7 +83,6 @@ null
 private
 StrictModeContext
 (
-final
 StrictMode
 .
 VmPolicy

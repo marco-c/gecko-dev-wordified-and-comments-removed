@@ -196,13 +196,10 @@ static
 GeckoSurface
 acquireSurface
 (
-final
 int
 width
-final
 int
 height
-final
 boolean
 singleBufferMode
 )
@@ -316,7 +313,6 @@ static
 void
 disposeSurface
 (
-final
 GeckoSurface
 surface
 )
@@ -428,7 +424,6 @@ static
 void
 sync
 (
-final
 int
 upstream
 )
@@ -554,10 +549,8 @@ synchronized
 void
 onServiceConnected
 (
-final
 ComponentName
 name
-final
 IBinder
 service
 )
@@ -586,7 +579,6 @@ synchronized
 void
 onServiceDisconnected
 (
-final
 ComponentName
 name
 )

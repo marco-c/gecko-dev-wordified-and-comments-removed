@@ -56,6 +56,13 @@ view
 .
 Window
 ;
+import
+android
+.
+view
+.
+WindowManager
+;
 public
 class
 ActivityUtils
@@ -71,10 +78,8 @@ static
 void
 setFullScreen
 (
-final
 Activity
 activity
-final
 boolean
 fullscreen
 )
@@ -266,7 +271,6 @@ static
 void
 goToHomeScreen
 (
-final
 Context
 context
 )
@@ -313,7 +317,6 @@ static
 Activity
 getActivityFromContext
 (
-final
 Context
 context
 )
@@ -339,6 +342,19 @@ Activity
 context
 ;
 }
+context
+=
+(
+(
+ContextWrapper
+)
+context
+)
+.
+getBaseContext
+(
+)
+;
 }
 return
 null
@@ -352,7 +368,6 @@ preventDisplayStatusbar
 final
 Activity
 activity
-final
 boolean
 registering
 )
@@ -392,7 +407,6 @@ public
 void
 onSystemUiVisibilityChange
 (
-final
 int
 visibility
 )

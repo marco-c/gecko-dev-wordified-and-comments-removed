@@ -93,7 +93,6 @@ mSections
 public
 INIParser
 (
-final
 File
 iniFile
 )
@@ -125,7 +124,6 @@ public
 void
 writeTo
 (
-final
 File
 f
 )
@@ -215,7 +213,6 @@ public
 void
 write
 (
-final
 BufferedWriter
 writer
 )
@@ -357,7 +354,6 @@ private
 void
 parse
 (
-final
 File
 f
 )
@@ -675,7 +671,6 @@ public
 void
 addSection
 (
-final
 INISection
 sect
 )
@@ -701,7 +696,6 @@ public
 INISection
 getSection
 (
-final
 String
 key
 )
@@ -723,7 +717,6 @@ public
 void
 removeSection
 (
-final
 String
 name
 )
@@ -744,10 +737,8 @@ public
 void
 renameSection
 (
-final
 String
 oldName
-final
 String
 newName
 )

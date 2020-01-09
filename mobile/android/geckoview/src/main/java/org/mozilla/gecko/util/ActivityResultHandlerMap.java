@@ -44,7 +44,6 @@ synchronized
 int
 put
 (
-final
 ActivityResultHandler
 handler
 )
@@ -68,7 +67,6 @@ synchronized
 ActivityResultHandler
 getAndRemove
 (
-final
 int
 i
 )

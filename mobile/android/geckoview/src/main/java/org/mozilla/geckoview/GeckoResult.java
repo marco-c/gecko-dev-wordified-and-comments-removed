@@ -14,6 +14,17 @@ gecko
 .
 annotation
 .
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
 WrapForJNI
 ;
 import
@@ -265,7 +276,6 @@ handler
 public
 GeckoResult
 (
-final
 GeckoResult
 <
 T
@@ -1226,7 +1236,6 @@ Nullable
 T
 poll
 (
-final
 long
 timeoutMillis
 )

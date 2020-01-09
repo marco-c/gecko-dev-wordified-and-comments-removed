@@ -81,7 +81,6 @@ public
 void
 setName
 (
-final
 String
 name
 )
@@ -106,7 +105,6 @@ mProperties
 public
 INISection
 (
-final
 String
 name
 )
@@ -120,7 +118,6 @@ protected
 void
 debug
 (
-final
 String
 msg
 )
@@ -144,7 +141,6 @@ public
 Object
 getProperty
 (
-final
 String
 key
 )
@@ -166,7 +162,6 @@ public
 int
 getIntProperty
 (
-final
 String
 key
 )
@@ -207,7 +202,6 @@ public
 String
 getStringProperty
 (
-final
 String
 key
 )
@@ -310,10 +304,8 @@ public
 void
 setProperty
 (
-final
 String
 key
-final
 Object
 value
 )
@@ -352,7 +344,6 @@ public
 void
 removeProperty
 (
-final
 String
 name
 )
@@ -373,7 +364,6 @@ public
 void
 write
 (
-final
 BufferedWriter
 writer
 )
@@ -477,13 +467,10 @@ private
 void
 writeProperty
 (
-final
 BufferedWriter
 writer
-final
 String
 key
-final
 Object
 value
 )

@@ -50,6 +50,13 @@ io
 .
 InputStream
 ;
+import
+java
+.
+nio
+.
+ByteBuffer
+;
 WrapForJNI
 AnyThread
 public
@@ -251,7 +258,6 @@ NonNull
 Builder
 statusCode
 (
-final
 int
 code
 )

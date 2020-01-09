@@ -58,6 +58,27 @@ java
 .
 util
 .
+Collections
+;
+import
+java
+.
+util
+.
+LinkedHashSet
+;
+import
+java
+.
+util
+.
+List
+;
+import
+java
+.
+util
+.
 Set
 ;
 public
@@ -122,16 +143,13 @@ static
 boolean
 isSearchQuery
 (
-final
 String
 text
-final
 boolean
 wasSearchQuery
 )
 {
-String
-trimmedText
+text
 =
 text
 .
@@ -141,7 +159,7 @@ trim
 ;
 if
 (
-trimmedText
+text
 .
 length
 (
@@ -158,7 +176,7 @@ wasSearchQuery
 int
 colon
 =
-trimmedText
+text
 .
 indexOf
 (
@@ -170,7 +188,7 @@ indexOf
 int
 dot
 =
-trimmedText
+text
 .
 indexOf
 (
@@ -182,7 +200,7 @@ indexOf
 int
 space
 =
-trimmedText
+text
 .
 indexOf
 (
@@ -353,7 +371,6 @@ static
 String
 stripScheme
 (
-final
 String
 url
 )
@@ -373,10 +390,8 @@ static
 String
 stripScheme
 (
-final
 String
 url
-final
 int
 flags
 )
@@ -509,7 +524,6 @@ static
 boolean
 isHttpOrHttps
 (
-final
 String
 url
 )
@@ -560,7 +574,6 @@ static
 String
 stripCommonSubdomains
 (
-final
 String
 host
 )
@@ -652,10 +665,8 @@ static
 String
 getQueryParameter
 (
-final
 String
 url
-final
 String
 desiredKey
 )
@@ -841,7 +852,6 @@ static
 boolean
 isFilterUrl
 (
-final
 String
 url
 )
@@ -874,7 +884,6 @@ static
 String
 getFilterFromUrl
 (
-final
 String
 url
 )
@@ -980,7 +989,6 @@ static
 boolean
 isUserEnteredUrl
 (
-final
 String
 url
 )
@@ -1007,7 +1015,6 @@ static
 String
 decodeUserEnteredUrl
 (
-final
 String
 url
 )
@@ -1057,7 +1064,6 @@ static
 String
 encodeUserEnteredUrl
 (
-final
 String
 url
 )
@@ -1089,7 +1095,6 @@ String
 >
 getQueryParameterNames
 (
-final
 Uri
 uri
 )
@@ -1107,7 +1112,6 @@ static
 int
 pathStartIndex
 (
-final
 String
 text
 )
@@ -1211,7 +1215,6 @@ static
 boolean
 isRTL
 (
-final
 String
 text
 )
@@ -1290,7 +1293,6 @@ static
 String
 forceLTR
 (
-final
 String
 text
 )
@@ -1322,10 +1324,8 @@ static
 boolean
 caseInsensitiveStartsWith
 (
-final
 String
 text
-final
 String
 prefix
 )
@@ -1344,13 +1344,10 @@ static
 boolean
 caseInsensitiveStartsWith
 (
-final
 String
 text
-final
 String
 prefix
-final
 int
 start
 )

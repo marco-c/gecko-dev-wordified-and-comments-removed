@@ -207,7 +207,6 @@ public
 void
 doFrame
 (
-final
 long
 frameTimeNanos
 )
@@ -236,7 +235,6 @@ synchronized
 boolean
 observeVsync
 (
-final
 boolean
 enable
 )

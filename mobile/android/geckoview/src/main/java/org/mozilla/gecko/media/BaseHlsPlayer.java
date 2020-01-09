@@ -61,7 +61,6 @@ mNumVal
 private
 ResourceError
 (
-final
 int
 numVal
 )
@@ -114,7 +113,6 @@ mNumVal
 private
 DemuxerError
 (
-final
 int
 numVal
 )

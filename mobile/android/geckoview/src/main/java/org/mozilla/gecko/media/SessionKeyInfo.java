@@ -55,12 +55,10 @@ WrapForJNI
 public
 SessionKeyInfo
 (
-final
 byte
 [
 ]
 keyId
-final
 int
 status
 )
@@ -94,10 +92,8 @@ public
 void
 writeToParcel
 (
-final
 Parcel
 dest
-final
 int
 parcelableFlags
 )
@@ -139,7 +135,6 @@ public
 SessionKeyInfo
 createFromParcel
 (
-final
 Parcel
 in
 )
@@ -159,7 +154,6 @@ SessionKeyInfo
 ]
 newArray
 (
-final
 int
 size
 )
@@ -177,7 +171,6 @@ size
 private
 SessionKeyInfo
 (
-final
 Parcel
 src
 )

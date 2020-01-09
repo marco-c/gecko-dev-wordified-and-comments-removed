@@ -23,7 +23,6 @@ static
 boolean
 isPointerTypeDevice
 (
-final
 InputDevice
 inputDevice
 )

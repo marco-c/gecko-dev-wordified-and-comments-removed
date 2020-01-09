@@ -7,6 +7,13 @@ gecko
 .
 util
 ;
+import
+java
+.
+lang
+.
+IllegalArgumentException
+;
 public
 final
 class
@@ -23,10 +30,8 @@ static
 boolean
 fuzzyEquals
 (
-final
 float
 a
-final
 float
 b
 )

@@ -5,6 +5,13 @@ mozilla
 .
 gecko
 ;
+import
+android
+.
+view
+.
+HapticFeedbackConstants
+;
 public
 interface
 HapticFeedbackDelegate

@@ -144,10 +144,8 @@ UnsupportedOperationException
 private
 GeckoHLSResourceWrapper
 (
-final
 String
 url
-final
 BaseHlsPlayer
 .
 ResourceCallbacks
@@ -252,10 +250,8 @@ static
 GeckoHLSResourceWrapper
 create
 (
-final
 String
 url
-final
 BaseHlsPlayer
 .
 ResourceCallbacks
@@ -494,7 +490,6 @@ static
 void
 assertTrue
 (
-final
 boolean
 condition
 )

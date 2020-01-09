@@ -129,7 +129,6 @@ NonNull
 Builder
 categories
 (
-final
 Category
 int
 cat
@@ -153,7 +152,6 @@ NonNull
 Builder
 cookieBehavior
 (
-final
 CookieBehavior
 int
 behavior
@@ -177,7 +175,6 @@ NonNull
 Builder
 cookieLifetime
 (
-final
 CookieLifetime
 int
 lifetime
@@ -511,7 +508,6 @@ NonNull
 Settings
 setCookieBehavior
 (
-final
 CookieBehavior
 int
 behavior
@@ -548,7 +544,6 @@ NonNull
 Settings
 setCookieLifetime
 (
-final
 CookieLifetime
 int
 lifetime
@@ -861,7 +856,6 @@ final
 String
 uri
 Category
-final
 int
 categories
 )
@@ -1076,7 +1070,6 @@ Category
 int
 sbMalwareToCat
 (
-final
 boolean
 enabled
 )
@@ -1100,7 +1093,6 @@ Category
 int
 sbPhishingToCat
 (
-final
 boolean
 enabled
 )
@@ -1118,7 +1110,6 @@ boolean
 catToSbMalware
 (
 Category
-final
 int
 cat
 )
@@ -1145,7 +1136,6 @@ boolean
 catToSbPhishing
 (
 Category
-final
 int
 cat
 )
@@ -1166,7 +1156,6 @@ String
 catToAtPref
 (
 Category
-final
 int
 cat
 )

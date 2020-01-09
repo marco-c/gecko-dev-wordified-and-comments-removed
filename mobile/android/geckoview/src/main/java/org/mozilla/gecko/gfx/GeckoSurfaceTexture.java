@@ -200,7 +200,6 @@ mBlitter
 private
 GeckoSurfaceTexture
 (
-final
 int
 handle
 )
@@ -230,10 +229,8 @@ KITKAT
 private
 GeckoSurfaceTexture
 (
-final
 int
 handle
-final
 boolean
 singleBufferMode
 )
@@ -283,10 +280,8 @@ private
 void
 init
 (
-final
 int
 handle
-final
 boolean
 singleBufferMode
 )
@@ -347,10 +342,8 @@ synchronized
 void
 attachToGLContext
 (
-final
 long
 context
-final
 int
 texName
 )
@@ -421,7 +414,6 @@ synchronized
 boolean
 isAttachedToGLContext
 (
-final
 long
 context
 )
@@ -655,7 +647,6 @@ synchronized
 void
 setListener
 (
-final
 GeckoSurfaceTexture
 .
 Callbacks
@@ -820,7 +811,6 @@ static
 void
 destroyUnused
 (
-final
 long
 context
 )
@@ -955,7 +945,6 @@ static
 void
 detachAllFromGLContext
 (
-final
 long
 context
 )
@@ -1033,10 +1022,8 @@ static
 GeckoSurfaceTexture
 acquire
 (
-final
 boolean
 singleBufferMode
-final
 int
 handle
 )
@@ -1092,20 +1079,15 @@ return
 null
 ;
 }
-int
-resolvedHandle
-=
-handle
-;
 if
 (
-resolvedHandle
+handle
 =
 =
 0
 )
 {
-resolvedHandle
+handle
 =
 sNextHandle
 +
@@ -1128,7 +1110,7 @@ gst
 new
 GeckoSurfaceTexture
 (
-resolvedHandle
+handle
 singleBufferMode
 )
 ;
@@ -1140,7 +1122,7 @@ gst
 new
 GeckoSurfaceTexture
 (
-resolvedHandle
+handle
 )
 ;
 }
@@ -1150,7 +1132,7 @@ sSurfaceTextures
 .
 containsKey
 (
-resolvedHandle
+handle
 )
 )
 {
@@ -1180,7 +1162,7 @@ sSurfaceTextures
 .
 put
 (
-resolvedHandle
+handle
 gst
 )
 ;
@@ -1195,7 +1177,6 @@ static
 GeckoSurfaceTexture
 lookup
 (
-final
 int
 handle
 )
@@ -1219,7 +1200,6 @@ synchronized
 void
 track
 (
-final
 int
 upstream
 )
@@ -1233,13 +1213,10 @@ synchronized
 void
 configureSnapshot
 (
-final
 GeckoSurface
 target
-final
 int
 width
-final
 int
 height
 )

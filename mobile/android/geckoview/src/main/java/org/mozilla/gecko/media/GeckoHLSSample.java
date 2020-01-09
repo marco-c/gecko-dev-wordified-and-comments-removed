@@ -129,7 +129,7 @@ cryptoInfo
 ;
 private
 ByteBuffer
-mBuffer
+buffer
 =
 null
 ;
@@ -138,7 +138,6 @@ public
 void
 writeToByteBuffer
 (
-final
 ByteBuffer
 dest
 )
@@ -147,7 +146,7 @@ IOException
 {
 if
 (
-mBuffer
+buffer
 !
 =
 null
@@ -170,7 +169,7 @@ dest
 .
 put
 (
-mBuffer
+buffer
 )
 ;
 }
@@ -224,16 +223,12 @@ static
 GeckoHLSSample
 create
 (
-final
 ByteBuffer
 src
-final
 BufferInfo
 info
-final
 CryptoInfo
 cryptoInfo
-final
 int
 formatIndex
 )
@@ -252,16 +247,12 @@ formatIndex
 private
 GeckoHLSSample
 (
-final
 ByteBuffer
 buffer
-final
 BufferInfo
 info
-final
 CryptoInfo
 cryptoInfo
-final
 int
 formatIndex
 )
@@ -280,7 +271,7 @@ MAX_VALUE
 ;
 this
 .
-mBuffer
+buffer
 =
 buffer
 ;

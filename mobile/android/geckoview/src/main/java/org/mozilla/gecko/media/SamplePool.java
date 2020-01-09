@@ -96,10 +96,8 @@ mBufferless
 private
 Impl
 (
-final
 String
 name
-final
 boolean
 bufferless
 )
@@ -117,7 +115,6 @@ private
 void
 setDefaultBufferSize
 (
-final
 int
 size
 )
@@ -156,7 +153,6 @@ synchronized
 Sample
 obtain
 (
-final
 int
 size
 )
@@ -207,7 +203,6 @@ private
 Sample
 allocateSharedMemorySample
 (
-final
 int
 size
 )
@@ -267,7 +262,6 @@ synchronized
 void
 recycle
 (
-final
 Sample
 recycled
 )
@@ -361,10 +355,8 @@ mOutputs
 ;
 SamplePool
 (
-final
 String
 name
-final
 boolean
 renderToSurface
 )
@@ -403,7 +395,6 @@ renderToSurface
 void
 setInputBufferSize
 (
-final
 int
 size
 )
@@ -419,7 +410,6 @@ size
 void
 setOutputBufferSize
 (
-final
 int
 size
 )
@@ -435,7 +425,6 @@ size
 Sample
 obtainInput
 (
-final
 int
 size
 )
@@ -469,7 +458,6 @@ input
 Sample
 obtainOutput
 (
-final
 MediaCodec
 .
 BufferInfo
@@ -513,7 +501,6 @@ output
 void
 recycleInput
 (
-final
 Sample
 sample
 )
@@ -535,7 +522,6 @@ sample
 void
 recycleOutput
 (
-final
 Sample
 sample
 )
