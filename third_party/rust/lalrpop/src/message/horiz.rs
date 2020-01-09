@@ -1,4 +1,10 @@
 use
+super
+:
+:
+*
+;
+use
 ascii_canvas
 :
 :
@@ -9,12 +15,6 @@ itertools
 :
 :
 Itertools
-;
-use
-super
-:
-:
-*
 ;
 #
 [

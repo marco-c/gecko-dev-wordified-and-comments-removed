@@ -1,4 +1,10 @@
 use
+super
+:
+:
+*
+;
+use
 ascii_canvas
 :
 :
@@ -22,12 +28,6 @@ style
 :
 :
 Style
-;
-use
-super
-:
-:
-*
 ;
 pub
 struct

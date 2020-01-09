@@ -1,7 +1,4 @@
 use
-parser
-;
-use
 grammar
 :
 :
@@ -12,6 +9,9 @@ parse_tree
 GrammarItem
 MatchItem
 }
+;
+use
+parser
 ;
 #
 [

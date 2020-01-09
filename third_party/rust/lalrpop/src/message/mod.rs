@@ -32,11 +32,11 @@ horiz
 ;
 pub
 mod
-message
+indent
 ;
 pub
 mod
-indent
+message
 ;
 pub
 mod
