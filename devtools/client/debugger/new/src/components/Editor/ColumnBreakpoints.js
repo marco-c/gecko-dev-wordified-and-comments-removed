@@ -138,6 +138,16 @@ columnBreakpoints
 ColumnBreakpointType
 [
 ]
+toggleBreakpoint
+:
+(
+number
+?
+number
+)
+=
+>
+void
 }
 ;
 render
