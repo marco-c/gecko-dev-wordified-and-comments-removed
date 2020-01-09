@@ -113,6 +113,9 @@ nsIPrincipal
 interface
 nsIContentSecurityPolicy
 ;
+interface
+nsIReferrerInfo
+;
 webidl
 Element
 ;
@@ -137,13 +140,8 @@ nsIOpenURIInFrameParams
 nsISupports
 {
 attribute
-AString
-referrer
-;
-attribute
-unsigned
-long
-referrerPolicy
+nsIReferrerInfo
+referrerInfo
 ;
 readonly
 attribute

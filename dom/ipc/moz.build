@@ -277,6 +277,11 @@ PermissionMessageUtils
 h
 '
 '
+ReferrerInfoUtils
+.
+h
+'
+'
 TabChild
 .
 h
@@ -445,6 +450,11 @@ cpp
 '
 '
 ProcessPriorityManager
+.
+cpp
+'
+'
+ReferrerInfoUtils
 .
 cpp
 '
