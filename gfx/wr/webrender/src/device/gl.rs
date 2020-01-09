@@ -11790,7 +11790,7 @@ _
 gl
 :
 :
-READ_ONLY
+MAP_READ_BIT
 )
 }
 }
