@@ -21,15 +21,6 @@ include
 "
 base
 /
-lock
-.
-h
-"
-#
-include
-"
-base
-/
 message_pump
 .
 h

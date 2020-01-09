@@ -21,9 +21,9 @@ h
 #
 include
 "
-base
+mozilla
 /
-lock
+Mutex
 .
 h
 "
@@ -120,7 +120,10 @@ param_
 ;
 }
 ;
-Lock
+mozilla
+:
+:
+Mutex
 lock_
 ;
 std
