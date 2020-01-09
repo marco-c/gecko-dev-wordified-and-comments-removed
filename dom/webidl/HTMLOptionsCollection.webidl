@@ -201,7 +201,6 @@ null
 ;
 [
 CEReactions
-Throws
 ]
 void
 remove
@@ -210,9 +209,6 @@ long
 index
 )
 ;
-[
-Throws
-]
 attribute
 long
 selectedIndex

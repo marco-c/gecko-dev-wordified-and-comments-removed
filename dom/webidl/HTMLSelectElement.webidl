@@ -300,7 +300,6 @@ HTMLCollection
 selectedOptions
 ;
 [
-SetterThrows
 Pure
 ]
 attribute

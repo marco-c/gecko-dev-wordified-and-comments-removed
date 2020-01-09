@@ -488,7 +488,10 @@ aSelected
 )
 override
 ;
-NS_IMETHOD
+NS_IMETHOD_
+(
+void
+)
 OnSetSelectedIndex
 (
 int32_t
