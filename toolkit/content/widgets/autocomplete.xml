@@ -3396,6 +3396,15 @@ aEvent
 /
 >
 <
+parameter
+name
+=
+"
+aOptions
+"
+/
+>
+<
 body
 >
 <
@@ -3934,6 +3943,7 @@ this
 handleEnter
 (
 aEvent
+aOptions
 )
 ;
 break
