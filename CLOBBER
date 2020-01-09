@@ -194,12 +194,6 @@ changes
 any
 more
 .
-Bug
-1533481
--
-Update
-to
-ICU
-64
-requires
+Merge
+day
 clobber
