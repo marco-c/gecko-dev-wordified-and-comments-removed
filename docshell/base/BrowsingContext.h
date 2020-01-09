@@ -1362,6 +1362,10 @@ aError
 ;
 private
 :
+friend
+class
+RemoteLocationProxy
+;
 BrowsingContext
 *
 GetBrowsingContext
