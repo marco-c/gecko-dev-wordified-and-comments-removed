@@ -6845,6 +6845,8 @@ jitRuntime
 getArgumentsRectifier
 (
 )
+.
+value
 ;
 jsJitExceptionHandler_
 =
@@ -6854,6 +6856,8 @@ jitRuntime
 getExceptionTail
 (
 )
+.
+value
 ;
 preBarrierCode_
 =
@@ -6867,6 +6871,8 @@ MIRType
 :
 Object
 )
+.
+value
 ;
 if
 (
