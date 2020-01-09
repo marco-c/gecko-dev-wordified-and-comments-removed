@@ -24297,9 +24297,6 @@ DecodeLocalEntries
 d
 env
 .
-kind
-env
-.
 types
 env
 .
