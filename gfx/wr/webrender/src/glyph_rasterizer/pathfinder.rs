@@ -63,7 +63,7 @@ render_task
 :
 {
 RenderTask
-RenderTaskGraph
+RenderTaskTree
 RenderTaskCache
 RenderTaskCacheKey
 RenderTaskCacheEntryHandle
@@ -757,7 +757,7 @@ render_task_tree
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 )
 -
 >
@@ -919,7 +919,7 @@ render_task_tree
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 )
 {
 debug_assert
@@ -1394,7 +1394,7 @@ _
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 _
 :
 &
@@ -1513,7 +1513,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 )
 -
 >

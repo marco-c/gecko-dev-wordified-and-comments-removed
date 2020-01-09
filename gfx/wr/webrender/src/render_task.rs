@@ -654,7 +654,7 @@ Deserialize
 ]
 pub
 struct
-RenderTaskGraph
+RenderTaskTree
 {
 pub
 tasks
@@ -693,7 +693,7 @@ Debug
 ]
 pub
 struct
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 {
 tasks_len
 :
@@ -706,7 +706,7 @@ cacheable_render_tasks_len
 usize
 }
 impl
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 {
 pub
 fn
@@ -717,7 +717,7 @@ new
 >
 Self
 {
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 {
 tasks_len
 :
@@ -732,7 +732,7 @@ cacheable_render_tasks_len
 }
 }
 impl
-RenderTaskGraph
+RenderTaskTree
 {
 pub
 fn
@@ -744,7 +744,7 @@ FrameId
 counters
 :
 &
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 )
 -
 >
@@ -755,7 +755,7 @@ extra_items
 =
 8
 ;
-RenderTaskGraph
+RenderTaskTree
 {
 tasks
 :
@@ -814,9 +814,9 @@ self
 )
 -
 >
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 {
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 {
 tasks_len
 :
@@ -1955,7 +1955,7 @@ Index
 RenderTaskId
 >
 for
-RenderTaskGraph
+RenderTaskTree
 {
 type
 Output
@@ -2016,7 +2016,7 @@ IndexMut
 RenderTaskId
 >
 for
-RenderTaskGraph
+RenderTaskTree
 {
 fn
 index_mut
@@ -4219,7 +4219,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 clip_data_store
 :
 &
@@ -4752,7 +4752,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 target_kind
 :
 RenderTargetKind
@@ -5231,7 +5231,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 target_kind
 :
 RenderTargetKind
@@ -6823,7 +6823,7 @@ T
 tree
 :
 &
-RenderTaskGraph
+RenderTaskTree
 )
 -
 >
@@ -7883,7 +7883,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 )
 {
 let
@@ -8125,7 +8125,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 user_data
 :
 Option
@@ -8158,7 +8158,7 @@ FnOnce
 (
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 )
 -
 >
@@ -8523,7 +8523,7 @@ dump_render_tasks_as_svg
 render_tasks
 :
 &
-RenderTaskGraph
+RenderTaskTree
 passes
 :
 &
@@ -9669,7 +9669,7 @@ Color
 let
 counters
 =
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 :
 :
 new
@@ -9680,7 +9680,7 @@ let
 mut
 tasks
 =
-RenderTaskGraph
+RenderTaskTree
 :
 :
 new
@@ -9966,7 +9966,7 @@ Color
 let
 counters
 =
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 :
 :
 new
@@ -9977,7 +9977,7 @@ let
 mut
 tasks
 =
-RenderTaskGraph
+RenderTaskTree
 :
 :
 new
@@ -10820,7 +10820,7 @@ Color
 let
 counters
 =
-RenderTaskGraphCounters
+RenderTaskTreeCounters
 :
 :
 new
@@ -10831,7 +10831,7 @@ let
 mut
 tasks
 =
-RenderTaskGraph
+RenderTaskTree
 :
 :
 new

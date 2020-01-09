@@ -143,7 +143,7 @@ render_task
 :
 :
 {
-RenderTaskGraph
+RenderTaskTree
 RenderTaskCache
 }
 ;
@@ -271,7 +271,7 @@ _
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 )
 {
 assert
@@ -745,7 +745,7 @@ _
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 _
 :
 &

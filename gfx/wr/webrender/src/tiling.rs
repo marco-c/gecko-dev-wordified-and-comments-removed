@@ -289,7 +289,7 @@ BlurTask
 ClearMode
 GlyphTask
 RenderTaskLocation
-RenderTaskGraph
+RenderTaskTree
 ScalingTask
 }
 ;
@@ -548,7 +548,7 @@ _render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 _deferred_resolves
 :
 &
@@ -596,7 +596,7 @@ GpuCache
 render_tasks
 :
 &
-RenderTaskGraph
+RenderTaskTree
 clip_store
 :
 &
@@ -861,7 +861,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 deferred_resolves
 :
 &
@@ -1969,7 +1969,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 deferred_resolves
 :
 &
@@ -2251,7 +2251,7 @@ GpuCache
 render_tasks
 :
 &
-RenderTaskGraph
+RenderTaskTree
 _
 :
 &
@@ -3115,7 +3115,7 @@ GpuCache
 render_tasks
 :
 &
-RenderTaskGraph
+RenderTaskTree
 clip_store
 :
 &
@@ -3842,7 +3842,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 )
 {
 let
@@ -4962,7 +4962,7 @@ render_tasks
 :
 &
 mut
-RenderTaskGraph
+RenderTaskTree
 deferred_resolves
 :
 &
@@ -5782,7 +5782,7 @@ TransformData
 pub
 render_tasks
 :
-RenderTaskGraph
+RenderTaskTree
 pub
 prim_headers
 :
