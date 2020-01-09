@@ -734,6 +734,9 @@ documentHasUserInteracted
 bool
 documentHasLoaded
 ;
+nsString
+cspNonce
+;
 bool
 isFromProcessingFrameAttributes
 ;
