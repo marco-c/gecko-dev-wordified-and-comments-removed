@@ -4059,6 +4059,9 @@ bool
 mCoalesceMouseMoveEvents
 ;
 bool
+mShouldSendWebProgressEventsToParent
+;
+bool
 mPendingDocShellIsActive
 ;
 bool
