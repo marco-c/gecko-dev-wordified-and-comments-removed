@@ -125,6 +125,14 @@ Suffix
 Finished
 }
 ;
+void
+ReportInvalidArg
+(
+txIEvalContext
+*
+aContext
+)
+;
 txStylesheet
 *
 mStylesheet
