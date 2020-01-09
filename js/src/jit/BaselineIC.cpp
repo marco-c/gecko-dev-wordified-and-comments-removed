@@ -9313,6 +9313,15 @@ ReferenceType
 :
 :
 TYPE_OBJECT
+|
+|
+type
+=
+=
+ReferenceType
+:
+:
+TYPE_WASM_ANYREF
 )
 ;
 if

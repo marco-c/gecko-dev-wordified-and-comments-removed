@@ -18471,6 +18471,12 @@ case
 ReferenceType
 :
 :
+TYPE_WASM_ANYREF
+:
+case
+ReferenceType
+:
+:
 TYPE_OBJECT
 :
 {
@@ -20363,6 +20369,12 @@ dest
 ;
 break
 ;
+case
+ReferenceType
+:
+:
+TYPE_WASM_ANYREF
+:
 case
 ReferenceType
 :

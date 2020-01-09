@@ -3622,6 +3622,15 @@ wasm
 \
 MACRO
 (
+WasmAnyRef
+WasmAnyRef
+"
+WasmAnyRef
+"
+)
+\
+MACRO
+(
 wasmcall
 wasmcall
 "

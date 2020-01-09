@@ -9066,8 +9066,6 @@ ValType
 :
 AnyRef
 :
-ASSERT_ANYREF_IS_JSOBJECT
-;
 offset
 =
 layout
@@ -9077,7 +9075,7 @@ addReference
 ReferenceType
 :
 :
-TYPE_OBJECT
+TYPE_WASM_ANYREF
 )
 ;
 break

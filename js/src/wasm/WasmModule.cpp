@@ -6027,8 +6027,6 @@ ValType
 :
 AnyRef
 :
-ASSERT_ANYREF_IS_JSOBJECT
-;
 t
 =
 GlobalObject
@@ -6046,7 +6044,7 @@ global
 ReferenceType
 :
 :
-TYPE_OBJECT
+TYPE_WASM_ANYREF
 )
 ;
 break
