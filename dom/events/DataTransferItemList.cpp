@@ -865,7 +865,7 @@ nsIWritableVariant
 data
 =
 new
-nsVariant
+nsVariantCC
 (
 )
 ;
