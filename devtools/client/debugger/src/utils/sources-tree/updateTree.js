@@ -159,7 +159,6 @@ updateTree
 newSources
 prevSources
 debuggeeUrl
-projectRoot
 uncollapsedTree
 sourceTree
 }
@@ -197,7 +196,6 @@ addToTree
 uncollapsedTree
 source
 debuggeeHost
-projectRoot
 )
 ;
 }
