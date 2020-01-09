@@ -931,6 +931,7 @@ LOG_FONTLIST
 (
 args
 )
+\
 MOZ_LOG
 (
 gfxPlatform
@@ -940,7 +941,6 @@ GetLog
 (
 eGfxLog_fontlist
 )
-\
 mozilla
 :
 :
@@ -955,9 +955,9 @@ define
 LOG_FONTLIST_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -965,7 +965,6 @@ GetLog
 (
 eGfxLog_fontlist
 )
-\
 mozilla
 :
 :
@@ -979,9 +978,9 @@ define
 LOG_CMAPDATA_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -989,7 +988,6 @@ GetLog
 (
 eGfxLog_cmapdata
 )
-\
 mozilla
 :
 :
@@ -5313,18 +5311,6 @@ mHasStyles
 )
 return
 ;
-AUTO_PROFILER_LABEL_DYNAMIC_NSCSTRING
-(
-"
-gfxMacFontFamily
-:
-:
-FindStyleVariations
-"
-LAYOUT
-mName
-)
-;
 nsAutoreleasePool
 localPool
 ;
@@ -5371,6 +5357,8 @@ psname
 style
 name
 weight
+/
+/
 traits
 ]
 elements
@@ -7419,12 +7407,12 @@ changes
 in
 the
 pref
+/
+/
 fonts
 will
 only
 cause
-/
-/
 a
 font
 lookup
@@ -7440,6 +7428,8 @@ it
 '
 s
 not
+/
+/
 required
 for
 correctness

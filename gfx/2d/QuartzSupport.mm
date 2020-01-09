@@ -175,7 +175,6 @@ h
 #
 define
 IOSURFACE_FRAMEWORK_PATH
-\
 "
 /
 System
@@ -193,7 +192,6 @@ IOSurface
 #
 define
 OPENGL_FRAMEWORK_PATH
-\
 "
 /
 System
@@ -230,6 +228,9 @@ CoreGraphics
 .
 framework
 /
+"
+\
+"
 CoreGraphics
 "
 interface

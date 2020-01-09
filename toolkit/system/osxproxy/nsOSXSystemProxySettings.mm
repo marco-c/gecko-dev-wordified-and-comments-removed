@@ -554,6 +554,8 @@ changes
 /
 See
 :
+/
+/
 http
 :
 /
@@ -1607,10 +1609,10 @@ NS_OSXSYSTEMPROXYSERVICE_CID
 /
 \
 {
+\
 0x9afcd4b8
 0x2e0f
 0x41f4
-\
 {
 0x8f
 0x1f
@@ -1621,6 +1623,7 @@ NS_OSXSYSTEMPROXYSERVICE_CID
 0x67
 0xde
 }
+\
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (

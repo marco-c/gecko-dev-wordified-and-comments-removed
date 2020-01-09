@@ -1031,6 +1031,7 @@ function
 )
 \
 {
+\
 reinterpret_cast
 <
 const
@@ -1053,6 +1054,7 @@ void
 (
 function
 )
+\
 }
 __attribute__
 (

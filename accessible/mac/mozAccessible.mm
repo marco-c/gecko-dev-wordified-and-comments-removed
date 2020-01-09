@@ -5987,9 +5987,9 @@ than
 for
 really
 important
+/
+/
 objects
-/
-/
 like
 mozTextAccessible
 .

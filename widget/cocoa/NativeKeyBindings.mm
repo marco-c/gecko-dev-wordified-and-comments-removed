@@ -313,7 +313,6 @@ mSelectorToCommand
 .
 Put
 (
-\
 reinterpret_cast
 <
 struct

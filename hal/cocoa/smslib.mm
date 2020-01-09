@@ -2564,7 +2564,6 @@ logObject
 performSelector
 :
 logSelector
-\
 withObject
 :
 [
