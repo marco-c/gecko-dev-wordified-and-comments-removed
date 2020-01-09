@@ -97,6 +97,13 @@ node
 )
 {
 return
+(
+!
+node
+.
+style
+|
+|
 node
 .
 style
@@ -107,6 +114,7 @@ display
 "
 none
 "
+)
 &
 &
 !
