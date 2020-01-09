@@ -127,6 +127,10 @@ AdoptMinidump
 nsIFile
 *
 aFile
+const
+AnnotationTable
+&
+aAnnotations
 )
 ;
 bool
@@ -236,6 +240,7 @@ childHandle
 mThreadId
 aPairName
 aMinidumpToPair
+mExtraAnnotations
 getter_AddRefs
 (
 targetDump
@@ -362,13 +367,6 @@ aChildDumpID
 int32_t
 GetCrashType
 (
-const
-CrashReporter
-:
-:
-AnnotationTable
-&
-aAnnotations
 )
 ;
 static
