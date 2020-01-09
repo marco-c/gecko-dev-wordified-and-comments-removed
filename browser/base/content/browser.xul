@@ -8165,11 +8165,6 @@ type
 "
 autocomplete
 "
-quantumbar
-=
-"
-false
-"
 autocompletesearch
 =
 "
