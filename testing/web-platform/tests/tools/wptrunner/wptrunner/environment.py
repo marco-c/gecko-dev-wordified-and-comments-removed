@@ -1322,12 +1322,27 @@ self
 )
 :
         
+total_sleep_secs
+=
+30
+        
+each_sleep_secs
+=
+0
+.
+01
+        
 for
 _
 in
 xrange
 (
-60
+int
+(
+total_sleep_secs
+/
+each_sleep_secs
+)
 )
 :
             
@@ -1350,9 +1365,7 @@ time
 .
 sleep
 (
-0
-.
-5
+each_sleep_secs
 )
         
 raise
