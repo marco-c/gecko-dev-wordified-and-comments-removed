@@ -514,7 +514,7 @@ spec
 null
 triggeringPrincipal
 :
-Utils
+E10SUtils
 .
 serializePrincipal
 (

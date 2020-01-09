@@ -11270,7 +11270,7 @@ title
 lazyTabTitle
 triggeringPrincipal_base64
 :
-Utils
+E10SUtils
 .
 serializePrincipal
 (
@@ -26387,7 +26387,7 @@ try
 {
 triggeringPrincipal
 =
-Utils
+E10SUtils
 .
 deserializePrincipal
 (
