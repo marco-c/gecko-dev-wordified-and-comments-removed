@@ -10475,6 +10475,8 @@ aExtend
 nsIFrame
 *
 frame
+=
+nullptr
 ;
 if
 (
@@ -10496,7 +10498,11 @@ eVertical
 )
 ;
 }
-else
+if
+(
+!
+frame
+)
 {
 frame
 =
@@ -10507,7 +10513,6 @@ GetFrameToPageSelect
 (
 )
 ;
-}
 if
 (
 !
@@ -10517,6 +10522,7 @@ frame
 return
 NS_OK
 ;
+}
 }
 RefPtr
 <
