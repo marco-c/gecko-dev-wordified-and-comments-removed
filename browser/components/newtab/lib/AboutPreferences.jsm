@@ -1526,6 +1526,17 @@ label
 )
 ;
 const
+tooltipBox
+=
+createAppend
+(
+"
+hbox
+"
+detailHbox
+)
+;
+const
 menulist
 =
 createAppend
@@ -1533,7 +1544,7 @@ createAppend
 "
 menulist
 "
-detailHbox
+tooltipBox
 )
 ;
 menulist
