@@ -249,6 +249,10 @@ aProofOfLock
 void
 MaybeCreateTemporaryFileOnMainThread
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 ;
 MOZ_MUST_USE
