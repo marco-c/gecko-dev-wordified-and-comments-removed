@@ -268,6 +268,7 @@ function
 (
 task
 data
+transfer
 )
 {
 if
@@ -379,6 +380,7 @@ worker
 postMessage
 (
 payload
+transfer
 )
 ;
 return
@@ -720,7 +722,10 @@ url
 const
 wrapperFn
 =
+(
 data
+transfer
+)
 =
 >
 worker
@@ -731,6 +736,7 @@ performTask
 workerifiedTask
 "
 data
+transfer
 )
 ;
 wrapperFn
