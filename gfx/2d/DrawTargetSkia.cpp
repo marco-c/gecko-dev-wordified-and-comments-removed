@@ -9930,7 +9930,7 @@ aMask
 {
 clipMatrix
 .
-postTranslate
+preTranslate
 (
 aMask
 -
