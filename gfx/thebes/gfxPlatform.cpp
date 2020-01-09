@@ -12593,7 +12593,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+BlockedOverride
 "
 HW
 qualification
@@ -12667,7 +12667,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+Blacklisted
 "
 No
 qualified
@@ -12731,7 +12731,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+BlockedDeviceUnknown
 "
 Bad
 device
@@ -12824,7 +12824,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+BlockedHasBattery
 "
 Has
 battery
@@ -12864,7 +12864,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+BlockedDeviceTooOld
 "
 Device
 too
@@ -13006,7 +13006,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+BlockedDeviceTooOld
 "
 Device
 too
@@ -13142,7 +13142,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+BlockedDeviceTooOld
 "
 Device
 too
@@ -13184,7 +13184,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+BlockedScreenTooLarge
 "
 Screen
 size
@@ -13216,7 +13216,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+BlockedScreenUnknown
 "
 Screen
 size
@@ -13246,7 +13246,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+BlockedVendorUnsupported
 "
 Unsupported
 vendor
@@ -13272,7 +13272,7 @@ Disable
 FeatureStatus
 :
 :
-Blocked
+BlockedNoGfxInfo
 "
 gfxInfo
 is
@@ -13558,7 +13558,7 @@ ForceDisable
 FeatureStatus
 :
 :
-Unavailable
+UnavailableNoHwCompositing
 "
 Hardware
 compositing
@@ -13599,7 +13599,7 @@ ForceDisable
 FeatureStatus
 :
 :
-Unavailable
+UnavailableNoGpuProcess
 "
 GPU
 Process
@@ -13631,7 +13631,7 @@ ForceDisable
 FeatureStatus
 :
 :
-Unavailable
+UnavailableInSafeMode
 "
 Safe
 -
@@ -13658,7 +13658,7 @@ ForceDisable
 FeatureStatus
 :
 :
-Unavailable
+UnavailableNotBuilt
 "
 Build
 doesn
@@ -13722,7 +13722,7 @@ ForceDisable
 FeatureStatus
 :
 :
-Unavailable
+UnavailableNoAngle
 "
 ANGLE
 is
