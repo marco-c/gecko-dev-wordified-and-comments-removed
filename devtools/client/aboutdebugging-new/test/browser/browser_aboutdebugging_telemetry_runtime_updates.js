@@ -448,9 +448,6 @@ mocks
 document
 )
 ;
-await
-undefined
-;
 checkTelemetryEvents
 (
 [
@@ -635,6 +632,16 @@ waitUntil
 )
 =
 >
+!
+findSidebarItemByText
+(
+runtime
+.
+name
+doc
+)
+&
+&
 !
 findSidebarItemByText
 (
