@@ -108547,6 +108547,15 @@ kind
 count
 "
 "
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
+"
+"
 description
 "
 :
