@@ -105,6 +105,14 @@ l10n_bumper
 "
     
 "
+log_type
+"
+:
+"
+multi
+"
+    
+"
 exes
 "
 :
