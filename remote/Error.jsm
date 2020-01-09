@@ -13,6 +13,9 @@ FatalError
 "
 UnsupportedError
 "
+"
+formatError
+"
 ]
 ;
 const
