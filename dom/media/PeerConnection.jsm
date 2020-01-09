@@ -5923,12 +5923,6 @@ expectedIdentity
 )
 )
 {
-this
-.
-close
-(
-)
-;
 throw
 new
 this
