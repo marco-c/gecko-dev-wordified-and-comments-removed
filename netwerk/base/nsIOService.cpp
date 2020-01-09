@@ -1901,10 +1901,10 @@ nsCString
 aName
 )
 false
-null_t
+Nothing
 (
 )
-null_t
+Nothing
 (
 )
 )
