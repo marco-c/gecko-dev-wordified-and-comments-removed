@@ -30,7 +30,9 @@ profiles
 {
 name
 :
-PROFILE_DEFAULT
+"
+Foo
+"
 path
 :
 defaultProfile
