@@ -9736,7 +9736,7 @@ storage
 .
 next_gen
 "
-false
+true
 )
 ;
 #
@@ -35407,18 +35407,6 @@ pref
 signon
 .
 autofillForms
-"
-true
-)
-;
-pref
-(
-"
-signon
-.
-autofillForms
-.
-autocompleteOff
 "
 true
 )
