@@ -1922,10 +1922,6 @@ bool
 &
 aApplyConversion
 const
-bool
-&
-aIsResolvedByTRR
-const
 ResourceTimingStruct
 &
 aTiming
@@ -2014,10 +2010,6 @@ mLoadInfoForwarder
 (
 loadInfoForwarder
 )
-mIsResolvedByTRR
-(
-aIsResolvedByTRR
-)
 mTiming
 (
 aTiming
@@ -2072,7 +2064,6 @@ mAltDataType
 mAltDataLen
 mDeliveringAltData
 mApplyConversion
-mIsResolvedByTRR
 mTiming
 )
 ;
@@ -2135,9 +2126,6 @@ mDeliveringAltData
 ;
 ParentLoadInfoForwarderArgs
 mLoadInfoForwarder
-;
-bool
-mIsResolvedByTRR
 ;
 ResourceTimingStruct
 mTiming
@@ -2236,10 +2224,6 @@ const
 bool
 &
 aApplyConversion
-const
-bool
-&
-aIsResolvedByTRR
 const
 ResourceTimingStruct
 &
@@ -2340,7 +2324,6 @@ altDataType
 altDataLen
 deliveringAltData
 aApplyConversion
-aIsResolvedByTRR
 aTiming
 )
 )
@@ -2481,10 +2464,6 @@ const
 bool
 &
 aApplyConversion
-const
-bool
-&
-aIsResolvedByTRR
 const
 ResourceTimingStruct
 &
@@ -2713,10 +2692,6 @@ deliveringAltData
 mAltDataLength
 =
 altDataLen
-;
-mResolvedByTRR
-=
-aIsResolvedByTRR
 ;
 SetApplyConversion
 (
