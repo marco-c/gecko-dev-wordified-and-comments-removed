@@ -1089,7 +1089,7 @@ appVersion
 4
 )
 %
-7
+8
 )
 ;
 spoofedUserAgentNavigator

@@ -2499,6 +2499,9 @@ rv
 rv
 )
 ;
+#
+ifdef
+DEBUG
 if
 (
 !
@@ -2520,7 +2523,7 @@ MOZ_ASSERT
 (
 firefoxVersion
 %
-7
+8
 )
 =
 =
@@ -2528,7 +2531,7 @@ firefoxVersion
 )
 "
 Please
-udpate
+update
 ESR
 version
 formula
@@ -2540,6 +2543,8 @@ cpp
 )
 ;
 }
+#
+endif
 uint32_t
 spoofedVersion
 =
@@ -2552,7 +2557,7 @@ firefoxVersion
 4
 )
 %
-7
+8
 )
 ;
 const
