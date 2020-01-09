@@ -51,8 +51,7 @@ LabelEmitter
 :
 emitLabel
 (
-JSAtom
-*
+HandleAtom
 name
 )
 {
