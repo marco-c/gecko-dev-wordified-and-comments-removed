@@ -281,6 +281,11 @@ DominatorTree
 webidl
 '
 '
+DOMOverlays
+.
+webidl
+'
+'
 Flex
 .
 webidl
