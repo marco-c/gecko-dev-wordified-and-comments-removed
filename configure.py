@@ -8,6 +8,8 @@ codecs
 import
 itertools
 import
+logging
+import
 os
 import
 sys
@@ -335,19 +337,25 @@ MOZCONFIG
 '
 )
     
-print
+logging
+.
+getLogger
 (
-"
+'
+moz
+.
+configure
+'
+)
+.
+info
+(
+'
 Creating
 config
 .
 status
-"
-file
-=
-sys
-.
-stderr
+'
 )
     
 encoding
