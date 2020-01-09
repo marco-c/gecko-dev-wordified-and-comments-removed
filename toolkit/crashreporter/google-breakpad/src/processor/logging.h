@@ -237,6 +237,9 @@ pargv
 #
 endif
 #
+ifndef
+BPLOG_LAZY_STREAM
+#
 define
 BPLOG_LAZY_STREAM
 (
@@ -268,6 +271,8 @@ BPLOG_
 #
 stream
 )
+#
+endif
 #
 ifndef
 BPLOG_MINIMUM_SEVERITY
@@ -444,6 +449,9 @@ __LINE__
 #
 endif
 #
+ifndef
+BPLOG_IF
+#
 define
 BPLOG_IF
 (
@@ -466,5 +474,7 @@ severity
 )
 )
 )
+#
+endif
 #
 endif

@@ -1210,9 +1210,10 @@ handler_finish_semaphore_
 NULL
 )
 ;
-while
+for
 (
-true
+;
+;
 )
 {
 if

@@ -3928,6 +3928,16 @@ ranges_it
 func
 )
 ;
+if
+(
+range
+.
+size
+!
+=
+0
+)
+{
 dest_ranges
 .
 push_back
@@ -3935,6 +3945,7 @@ push_back
 range
 )
 ;
+}
 }
 }
 sort
