@@ -149,15 +149,9 @@ file
 (
 )
 .
-type
+isNothing
 (
 )
-=
-=
-PendingIPCFileUnion
-:
-:
-Tvoid_t
 )
 {
 mBlobImpl
@@ -195,7 +189,7 @@ file
 (
 )
 .
-get_PendingIPCFileData
+ref
 (
 )
 ;

@@ -112,7 +112,10 @@ nsString
 aContentType
 )
 aLength
+Some
+(
 fileData
+)
 )
 ;
 Unused
@@ -183,7 +186,7 @@ nsString
 aContentType
 )
 aLength
-void_t
+Nothing
 (
 )
 )
