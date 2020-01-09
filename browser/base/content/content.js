@@ -58,7 +58,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginFormFactory
 .
 jsm
 "

@@ -41,7 +41,6 @@ null
 const
 {
 LoginManagerContent
-LoginFormFactory
 }
 =
 LMCBackstagePass
