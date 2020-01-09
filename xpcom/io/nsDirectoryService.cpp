@@ -1493,7 +1493,7 @@ NS_OK
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 &
 &
@@ -2223,7 +2223,7 @@ localFile
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 }
 else

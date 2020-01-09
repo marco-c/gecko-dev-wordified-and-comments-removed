@@ -99,7 +99,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -643,7 +643,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 void
 GMPLoader
@@ -752,7 +752,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 class
 MacSandboxStarter
@@ -867,7 +867,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 namespace
 {
@@ -1024,7 +1024,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 return
 mozilla
@@ -1047,7 +1047,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 return
 LinuxSandboxStarter

@@ -2490,7 +2490,7 @@ required
 :
 AppConstants
 .
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 type
 :
 "
@@ -2504,7 +2504,7 @@ required
 :
 AppConstants
 .
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 type
 :
 "

@@ -55,7 +55,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -93,7 +93,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -152,7 +152,7 @@ XP_WIN
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 static
 void
@@ -244,7 +244,7 @@ XP_WIN
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 static
 void
@@ -440,7 +440,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 nsCOMPtr
 <
@@ -901,7 +901,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 }
 else
@@ -1132,7 +1132,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mContent
 .
@@ -1201,7 +1201,7 @@ XP_WIN
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 SetUpSandboxEnvironment
 (

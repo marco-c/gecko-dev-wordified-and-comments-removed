@@ -1883,12 +1883,6 @@ JOB_NONE
 )
 ;
 }
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 void
 SandboxBroker
 :
@@ -3200,8 +3194,6 @@ happened
 )
 ;
 }
-#
-endif
 void
 SandboxBroker
 :

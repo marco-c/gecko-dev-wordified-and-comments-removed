@@ -277,12 +277,6 @@ endif
 namespace
 mozilla
 {
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 namespace
 {
 static
@@ -337,8 +331,6 @@ SandboxBroker
 MAY_ACCESS
 ;
 }
-#
-endif
 static
 void
 AddMesaSysfsPaths
@@ -1227,12 +1219,6 @@ SandboxBrokerPolicyFactory
 (
 )
 {
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 SandboxBroker
 :
 :
@@ -2537,12 +2523,7 @@ reset
 policy
 )
 ;
-#
-endif
 }
-#
-ifdef
-MOZ_CONTENT_SANDBOX
 UniquePtr
 <
 SandboxBroker
@@ -3445,6 +3426,4 @@ return
 policy
 ;
 }
-#
-endif
 }

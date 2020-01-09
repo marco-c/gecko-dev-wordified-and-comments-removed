@@ -361,7 +361,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 class
 SandboxBroker
@@ -2799,7 +2799,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 static
 StaticAutoPtr
@@ -5317,7 +5317,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 void
 AppendSandboxParams
@@ -5612,7 +5612,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mozilla
 :
@@ -5721,7 +5721,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 static
 bool

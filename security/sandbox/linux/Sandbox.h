@@ -41,9 +41,6 @@ SandboxEarlyInit
 (
 )
 ;
-#
-ifdef
-MOZ_CONTENT_SANDBOX
 struct
 ContentProcessSandboxParams
 {
@@ -100,11 +97,6 @@ ContentProcessSandboxParams
 aParams
 )
 ;
-#
-endif
-#
-ifdef
-MOZ_GMP_SANDBOX
 MOZ_EXPORT
 void
 SetMediaPluginSandbox
@@ -115,8 +107,6 @@ char
 aFilePath
 )
 ;
-#
-endif
 MOZ_EXPORT
 void
 SetRemoteDataDecoderSandbox

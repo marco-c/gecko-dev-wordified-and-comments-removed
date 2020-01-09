@@ -143,7 +143,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 bool
 SetMacSandboxInfo

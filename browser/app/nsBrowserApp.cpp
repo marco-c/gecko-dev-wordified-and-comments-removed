@@ -1037,12 +1037,6 @@ GetPermissionsService
 (
 )
 ;
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 if
 (
 !
@@ -1069,8 +1063,6 @@ return
 255
 ;
 }
-#
-endif
 config
 .
 sandboxBrokerServices

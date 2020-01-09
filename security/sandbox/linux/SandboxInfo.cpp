@@ -712,9 +712,6 @@ kHasUserNamespaces
 ;
 }
 }
-#
-ifdef
-MOZ_CONTENT_SANDBOX
 if
 (
 !
@@ -748,11 +745,6 @@ flags
 kPermissive
 ;
 }
-#
-endif
-#
-ifdef
-MOZ_GMP_SANDBOX
 if
 (
 !
@@ -770,8 +762,6 @@ flags
 kEnabledForMedia
 ;
 }
-#
-endif
 if
 (
 getenv

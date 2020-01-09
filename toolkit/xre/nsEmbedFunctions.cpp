@@ -604,7 +604,7 @@ endif
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -1539,7 +1539,7 @@ endif
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 void
 AddContentSandboxLevelAnnotation
@@ -2018,7 +2018,7 @@ NS_ERROR_FAILURE
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 int
 allArgc
@@ -2465,7 +2465,7 @@ NS_ERROR_FAILURE
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 std
 :
@@ -3625,7 +3625,7 @@ OverrideDefaultLocaleIfNeeded
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 AddContentSandboxLevelAnnotation
 (

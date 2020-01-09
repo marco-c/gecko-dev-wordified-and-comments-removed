@@ -122,12 +122,6 @@ aProcessHandle
 =
 0
 ;
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 virtual
 void
 SetSecurityLevelForContentProcess
@@ -140,8 +134,6 @@ aIsFileProcess
 =
 0
 ;
-#
-endif
 virtual
 void
 SetSecurityLevelForGPUProcess
@@ -292,12 +284,6 @@ SandboxBroker
 (
 )
 ;
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 void
 SetSecurityLevelForContentProcess
 (
@@ -308,8 +294,6 @@ aIsFileProcess
 )
 override
 ;
-#
-endif
 void
 SetSecurityLevelForGPUProcess
 (

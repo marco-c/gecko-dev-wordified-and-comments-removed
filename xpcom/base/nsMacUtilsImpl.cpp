@@ -539,7 +539,7 @@ NS_OK
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 bool
 nsMacUtilsImpl

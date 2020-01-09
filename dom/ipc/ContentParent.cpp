@@ -2030,7 +2030,7 @@ endif
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -3437,7 +3437,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 UniquePtr
 <
@@ -3479,7 +3479,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 StaticAutoPtr
 <
@@ -3670,7 +3670,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 bool
 ContentParent
@@ -3790,7 +3790,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 sSandboxBrokerPolicyFactory
 =
@@ -3813,7 +3813,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 sMacSandboxParams
 =
@@ -3854,7 +3854,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 sSandboxBrokerPolicyFactory
 =
@@ -3872,7 +3872,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 sMacSandboxParams
 =
@@ -9796,7 +9796,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 void
 ContentParent
@@ -11000,7 +11000,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -12035,7 +12035,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -13493,7 +13493,7 @@ iconPath
 endif
 #
 ifdef
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 bool
 shouldSandbox
 =

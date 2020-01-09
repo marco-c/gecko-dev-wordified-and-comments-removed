@@ -66,7 +66,7 @@ h
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -276,7 +276,7 @@ aActCtx
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 void
 PreserveStream
@@ -354,7 +354,7 @@ mPtr
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mMarshaledStream
 (
@@ -400,7 +400,7 @@ mPtr
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mMarshaledStream
 =
@@ -449,7 +449,7 @@ mPtr
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mMarshaledStream
 =
@@ -515,7 +515,7 @@ mActCtx
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mutable
 PreservedStreamPtr
@@ -586,7 +586,7 @@ aParam
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 static
 const
@@ -737,7 +737,7 @@ bufLen
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (

@@ -46,7 +46,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -99,7 +99,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 virtual
 void
@@ -244,7 +244,7 @@ XP_MACOSX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 void
 SetSandboxInfo

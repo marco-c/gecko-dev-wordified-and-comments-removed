@@ -53,9 +53,6 @@ mozilla
 class
 SandboxBrokerClient
 ;
-#
-ifdef
-MOZ_CONTENT_SANDBOX
 struct
 ContentProcessSandboxParams
 ;
@@ -80,11 +77,6 @@ ContentProcessSandboxParams
 aParams
 )
 ;
-#
-endif
-#
-ifdef
-MOZ_GMP_SANDBOX
 class
 SandboxOpenedFiles
 ;
@@ -106,8 +98,6 @@ SandboxOpenedFiles
 aFiles
 )
 ;
-#
-endif
 UniquePtr
 <
 sandbox

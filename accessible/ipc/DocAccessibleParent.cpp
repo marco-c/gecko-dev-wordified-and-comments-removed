@@ -4140,7 +4140,7 @@ return
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mParentProxyStream
 =
@@ -4215,7 +4215,7 @@ aPluginCOMProxy
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 HWND
 childWnd

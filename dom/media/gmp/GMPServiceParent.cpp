@@ -198,7 +198,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -4353,7 +4353,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 if
 (

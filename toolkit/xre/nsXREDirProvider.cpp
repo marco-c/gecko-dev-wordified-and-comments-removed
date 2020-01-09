@@ -676,7 +676,7 @@ XP_WIN
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -1011,7 +1011,7 @@ XP_WIN
 &
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -2567,7 +2567,7 @@ file
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 else
 if
@@ -3446,7 +3446,7 @@ endif
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 nsresult
 nsXREDirProvider
@@ -3912,7 +3912,7 @@ procType
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -5453,7 +5453,7 @@ nullptr
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 if
 (
@@ -5720,7 +5720,7 @@ XRE_IsParentProcess
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 mozilla
 :
@@ -5733,14 +5733,6 @@ DeleteDirIfExists
 mContentProcessSandboxTempDir
 )
 ;
-#
-endif
-#
-if
-defined
-(
-MOZ_SANDBOX
-)
 mozilla
 :
 :

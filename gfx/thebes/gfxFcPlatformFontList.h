@@ -109,7 +109,7 @@ h
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 &
 &
@@ -1196,7 +1196,7 @@ gfxFcPlatformFontList
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 &
 &

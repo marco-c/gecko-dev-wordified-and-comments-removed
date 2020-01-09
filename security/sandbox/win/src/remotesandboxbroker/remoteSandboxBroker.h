@@ -68,12 +68,6 @@ aProcessHandle
 )
 override
 ;
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 void
 SetSecurityLevelForContentProcess
 (
@@ -84,8 +78,6 @@ aIsFileProcess
 )
 override
 ;
-#
-endif
 void
 SetSecurityLevelForGPUProcess
 (
