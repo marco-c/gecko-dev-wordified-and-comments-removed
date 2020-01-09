@@ -104,6 +104,9 @@ class
 nsIContent
 ;
 class
+nsIDocument
+;
+class
 nsIPresShell
 ;
 struct
@@ -239,10 +242,7 @@ virtual
 nsresult
 OnSelectionChanged
 (
-dom
-:
-:
-Document
+nsIDocument
 *
 aDoc
 dom
@@ -750,6 +750,11 @@ bool
 mFlushingLayout
 =
 false
+;
+bool
+mAllowFlushingLayout
+=
+true
 ;
 static
 const
