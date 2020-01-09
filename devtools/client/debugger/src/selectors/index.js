@@ -169,6 +169,8 @@ tree
 export
 {
 getSourceActor
+hasSourceActor
+getSourceActors
 getSourceActorsForThread
 }
 from
