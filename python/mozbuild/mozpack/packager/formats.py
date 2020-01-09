@@ -1869,10 +1869,6 @@ keys
 )
 )
             
-if
-parent_base
-:
-                
 rel_base
 =
 mozpath
@@ -1882,7 +1878,7 @@ relpath
 base
 parent_base
 )
-                
+            
 parent_sub_formatter
 =
 self
@@ -1891,7 +1887,7 @@ _sub_formatter
 [
 parent_base
 ]
-                
+            
 if
 parent_sub_formatter
 .
@@ -1900,11 +1896,11 @@ is_resource
 rel_base
 )
 :
-                    
+                
 omnijar_sub_formatter
 =
 \
-                        
+                    
 parent_sub_formatter
 .
 _sub_formatter
@@ -1913,7 +1909,7 @@ self
 .
 _omnijar_name
 ]
-                    
+                
 self
 .
 _sub_formatter
@@ -1923,7 +1919,7 @@ base
 =
 FlatSubFormatter
 (
-                        
+                    
 FileRegistrySubtree
 (
 rel_base
@@ -1932,7 +1928,7 @@ omnijar_sub_formatter
 copier
 )
 )
-                    
+                
 return
             
 JarFormatter
