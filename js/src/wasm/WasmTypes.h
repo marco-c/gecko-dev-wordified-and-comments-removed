@@ -8322,7 +8322,7 @@ enum
 class
 TableKind
 {
-AnyFunction
+FuncRef
 AnyRef
 TypedFunction
 }

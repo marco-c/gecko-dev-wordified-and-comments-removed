@@ -88,7 +88,7 @@ F32
 F64
 =
 0x7c
-AnyFunc
+FuncRef
 =
 0x70
 AnyRef
