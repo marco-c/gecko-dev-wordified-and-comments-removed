@@ -207,6 +207,11 @@ IsCurrentGlobal
 (
 )
 ;
+bool
+IsProcessRoot
+(
+)
+;
 already_AddRefed
 <
 WindowGlobalParent
