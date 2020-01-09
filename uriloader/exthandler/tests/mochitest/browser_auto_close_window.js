@@ -325,15 +325,6 @@ browser
 )
 {
 let
-targetURL
-=
-browser
-.
-currentURI
-.
-spec
-;
-let
 dialogAppeared
 =
 promiseHelperAppDialog

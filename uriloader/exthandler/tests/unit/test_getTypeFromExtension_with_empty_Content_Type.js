@@ -412,13 +412,6 @@ key
 1
 "
 ;
-const
-kWindowsRegKeyClassName
-=
-"
-nsWindowsRegKey
-"
-;
 function
 registerMockWindowsRegKeyFactory
 (
@@ -538,9 +531,6 @@ registerMockWindowsRegKeyFactory
 ;
 try
 {
-var
-type
-=
 Cc
 [
 "
