@@ -1258,10 +1258,6 @@ base_repo
 head_repo
 head_rev
 path
-                               
-sparse_profile
-=
-None
 )
 :
     
@@ -1359,58 +1355,12 @@ base_repo
 revision
 '
 head_rev
-    
-]
-    
-if
-sparse_profile
-:
-        
-args
-.
-extend
-(
-[
-'
--
--
-config
-'
-'
-extensions
-.
-sparse
-=
-'
-]
-)
-        
-args
-.
-extend
-(
-[
-'
--
--
-sparseprofile
-'
-sparse_profile
-]
-)
-    
-args
-.
-extend
-(
-[
         
 head_repo
         
 path
     
 ]
-)
     
 logging_args
 =
