@@ -16138,14 +16138,6 @@ VFPRegister
 dest
 )
 ;
-ScratchFloat32Scope
-scratch
-(
-asMasm
-(
-)
-)
-;
 as_vxfer
 (
 operand
@@ -16154,7 +16146,7 @@ payloadReg
 (
 )
 InvalidReg
-scratch
+vfpdest
 .
 sintOverlay
 (
@@ -16165,7 +16157,7 @@ CoreToFloat
 as_vcvt
 (
 vfpdest
-scratch
+vfpdest
 .
 sintOverlay
 (

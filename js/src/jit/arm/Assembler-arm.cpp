@@ -6323,6 +6323,17 @@ Single
 )
 ;
 }
+static_assert
+(
+FloatRegisters
+:
+:
+TotalDouble
+<
+=
+16
+)
+;
 VFPRegister
 VFPRegister
 :
