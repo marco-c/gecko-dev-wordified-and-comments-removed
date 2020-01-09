@@ -73,6 +73,22 @@ support_url
         
 self
 .
+marionette
+.
+set_pref
+(
+'
+browser
+.
+privatebrowsing
+.
+searchUI
+'
+False
+)
+        
+self
+.
 pb_url
 =
 support_url
