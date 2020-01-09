@@ -1144,6 +1144,24 @@ for_each_task
 update_parent
 )
     
+if
+decision_task_id
+and
+decision_task_id
+!
+=
+os
+.
+environ
+.
+get
+(
+'
+TASK_ID
+'
+)
+:
+        
 target_task_graph
 .
 for_each_task
