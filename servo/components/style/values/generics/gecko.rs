@@ -24,7 +24,6 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]

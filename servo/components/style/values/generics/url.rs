@@ -14,7 +14,6 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]

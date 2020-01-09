@@ -58,7 +58,6 @@ PartialOrd
 SpecifiedValueInfo
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]

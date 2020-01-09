@@ -312,7 +312,6 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
-ToResolvedValue
 )
 ]
 #
@@ -586,7 +585,6 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
-ToResolvedValue
 )
 ]
 pub
@@ -872,7 +870,6 @@ MallocSizeOf
 Parse
 PartialEq
 ToCss
-ToResolvedValue
 )
 ]
 #

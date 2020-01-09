@@ -571,7 +571,6 @@ Copy
 Debug
 MallocSizeOf
 ToAnimatedZero
-ToResolvedValue
 )
 ]
 #
@@ -3145,7 +3144,6 @@ PartialEq
 PartialOrd
 ToAnimatedValue
 ToAnimatedZero
-ToResolvedValue
 ToShmem
 )
 ]
@@ -3951,7 +3949,6 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]

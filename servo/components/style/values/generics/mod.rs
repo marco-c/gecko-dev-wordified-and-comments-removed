@@ -216,7 +216,6 @@ Parse
 PartialEq
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]
@@ -447,7 +446,6 @@ Eq
 PartialEq
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]
@@ -886,7 +884,6 @@ SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]
@@ -1043,7 +1040,6 @@ SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]
@@ -1080,7 +1076,6 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]

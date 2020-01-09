@@ -12,7 +12,6 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]
@@ -97,7 +96,6 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]
@@ -248,7 +246,6 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 ToCss
-ToResolvedValue
 ToShmem
 )
 ]
