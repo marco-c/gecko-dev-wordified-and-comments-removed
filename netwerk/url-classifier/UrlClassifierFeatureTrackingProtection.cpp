@@ -600,6 +600,9 @@ aShouldContinue
 bool
 isAllowListed
 =
+UrlClassifierCommon
+:
+:
 IsAllowListed
 (
 aChannel
