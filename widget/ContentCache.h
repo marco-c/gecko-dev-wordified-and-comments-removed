@@ -85,7 +85,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 }
 class
@@ -1221,9 +1221,9 @@ ContentCacheInParent
 dom
 :
 :
-TabParent
+BrowserParent
 &
-aTabParent
+aBrowserParent
 )
 ;
 void
@@ -1346,7 +1346,7 @@ uint8_t
 {
 eToOldCompositionReceived
 eToCommittedCompositionReceived
-eReceivedAfterTabParentBlur
+eReceivedAfterBrowserParentBlur
 eReceivedButNoTextComposition
 eHandledAsynchronously
 eHandledSynchronously
@@ -1405,8 +1405,10 @@ is
 not
 handled
 because
-TabParent
+BrowserParent
 has
+"
+"
 already
 "
 "
@@ -1422,7 +1424,7 @@ case
 RequestIMEToCommitCompositionResult
 :
 :
-eReceivedAfterTabParentBlur
+eReceivedAfterBrowserParentBlur
 :
 return
 "
@@ -1437,7 +1439,7 @@ string
 "
 "
 because
-TabParent
+BrowserParent
 has
 already
 lost
@@ -1528,10 +1530,10 @@ endif
 dom
 :
 :
-TabParent
+BrowserParent
 &
 MOZ_NON_OWNING_REF
-mTabParent
+mBrowserParent
 ;
 nsString
 mCompositionString

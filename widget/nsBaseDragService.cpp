@@ -319,7 +319,7 @@ h
 #
 include
 "
-TabParent
+BrowserParent
 .
 h
 "
@@ -2432,7 +2432,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
 >
 (

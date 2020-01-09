@@ -275,7 +275,7 @@ h
 #
 include
 "
-TabParent
+BrowserParent
 .
 h
 "
@@ -2434,13 +2434,13 @@ if
 fl
 )
 {
-TabParent
+BrowserParent
 *
 tp
 =
 static_cast
 <
-TabParent
+BrowserParent
 *
 >
 (

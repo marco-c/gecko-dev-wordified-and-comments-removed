@@ -157,7 +157,7 @@ class
 Selection
 ;
 class
-TabParent
+BrowserParent
 ;
 }
 class
@@ -2012,7 +2012,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 ;
 void
 BeginTrackingRemoteDragGesture
@@ -2148,7 +2148,7 @@ aEvent
 dom
 :
 :
-TabParent
+BrowserParent
 *
 GetCrossProcessTarget
 (

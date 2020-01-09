@@ -48,7 +48,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -863,14 +863,14 @@ const
 dom
 :
 :
-TabParent
+BrowserParent
 *
 tab
 =
 dom
 :
 :
-TabParent
+BrowserParent
 :
 :
 GetFrom

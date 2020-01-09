@@ -27,7 +27,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -609,7 +609,7 @@ TPBrowserParent
 {
 context
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom

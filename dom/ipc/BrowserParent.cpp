@@ -10,7 +10,7 @@ h
 #
 include
 "
-TabParent
+BrowserParent
 .
 h
 "
@@ -995,11 +995,11 @@ StaticAutoPtr
 <
 nsTArray
 <
-TabParent
+BrowserParent
 *
 >
 >
-TabParent
+BrowserParent
 :
 :
 sFocusStack
@@ -1014,21 +1014,21 @@ mozilla
 namespace
 dom
 {
-TabParent
+BrowserParent
 :
 :
-LayerToTabParentTable
+LayerToBrowserParentTable
 *
-TabParent
+BrowserParent
 :
 :
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 =
 nullptr
 ;
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-TabParent
+BrowserParent
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -1050,7 +1050,7 @@ nsIRemoteTab
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTION
 (
-TabParent
+BrowserParent
 mFrameElement
 mBrowserDOMWindow
 mLoadContext
@@ -1059,16 +1059,16 @@ mBrowsingContext
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-TabParent
+BrowserParent
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
-TabParent
+BrowserParent
 )
-TabParent
+BrowserParent
 :
 :
-TabParent
+BrowserParent
 (
 ContentParent
 *
@@ -1262,21 +1262,21 @@ IsInputEventQueueSupported
 )
 ;
 }
-TabParent
+BrowserParent
 :
 :
 ~
-TabParent
+BrowserParent
 (
 )
 {
 }
-TabParent
+BrowserParent
 *
-TabParent
+BrowserParent
 :
 :
-GetTabParentFromLayersId
+GetBrowserParentFromLayersId
 (
 layers
 :
@@ -1288,7 +1288,7 @@ aLayersId
 if
 (
 !
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 )
 {
 return
@@ -1296,7 +1296,7 @@ nullptr
 ;
 }
 return
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 -
 >
 Get
@@ -1309,36 +1309,36 @@ aLayersId
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
-AddTabParentToTable
+AddBrowserParentToTable
 (
 layers
 :
 :
 LayersId
 aLayersId
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 )
 {
 if
 (
 !
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 )
 {
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 =
 new
-LayerToTabParentTable
+LayerToBrowserParentTable
 (
 )
 ;
 }
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 -
 >
 Put
@@ -1347,15 +1347,15 @@ uint64_t
 (
 aLayersId
 )
-aTabParent
+aBrowserParent
 )
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
-RemoveTabParentFromTable
+RemoveBrowserParentFromTable
 (
 layers
 :
@@ -1367,13 +1367,13 @@ aLayersId
 if
 (
 !
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 )
 {
 return
 ;
 }
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 -
 >
 Remove
@@ -1386,7 +1386,7 @@ aLayersId
 ;
 if
 (
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 -
 >
 Count
@@ -1398,16 +1398,16 @@ Count
 )
 {
 delete
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 ;
-sLayerToTabParentTable
+sLayerToBrowserParentTable
 =
 nullptr
 ;
 }
 }
 void
-TabParent
+BrowserParent
 :
 :
 CacheFrameLoader
@@ -1426,7 +1426,7 @@ already_AddRefed
 <
 nsPIDOMWindowOuter
 >
-TabParent
+BrowserParent
 :
 :
 GetParentWindowOuter
@@ -1498,7 +1498,7 @@ forget
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SetOwnerElement
@@ -1925,7 +1925,7 @@ GetKey
 browserBridge
 -
 >
-GetTabParent
+GetBrowserParent
 (
 )
 -
@@ -1938,7 +1938,7 @@ aElement
 }
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetOwnerElement
@@ -1968,7 +1968,7 @@ NS_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 AddWindowListeners
@@ -2040,7 +2040,7 @@ false
 }
 }
 void
-TabParent
+BrowserParent
 :
 :
 RemoveWindowListeners
@@ -2128,7 +2128,7 @@ false
 }
 }
 void
-TabParent
+BrowserParent
 :
 :
 DestroyInternal
@@ -2257,7 +2257,7 @@ false
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 Destroy
@@ -2317,7 +2317,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvEnsureLayersConnected
@@ -2357,7 +2357,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 Recv__delete__
@@ -2395,7 +2395,7 @@ IPC_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 ActorDestroy
@@ -2413,7 +2413,7 @@ IsInitialized
 )
 )
 {
-RemoveTabParentFromTable
+RemoveBrowserParentFromTable
 (
 mRenderFrame
 .
@@ -2429,7 +2429,7 @@ Destroy
 )
 ;
 }
-TabParent
+BrowserParent
 :
 :
 PopFocus
@@ -2764,7 +2764,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvMoveFocus
@@ -2948,7 +2948,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSizeShellTo
@@ -3125,7 +3125,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvDropLinks
@@ -3349,7 +3349,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvEvent
@@ -3424,7 +3424,7 @@ IPC_OK
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 SendLoadRemoteScript
@@ -3480,7 +3480,7 @@ aRunInGlobalScope
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 LoadURL
@@ -3548,7 +3548,7 @@ GetShowInfo
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 ResumeLoad
@@ -3589,7 +3589,7 @@ GetShowInfo
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 InitRendering
@@ -3634,7 +3634,7 @@ GetLayersId
 (
 )
 ;
-AddTabParentToTable
+AddBrowserParentToTable
 (
 layersId
 this
@@ -3672,7 +3672,7 @@ IsLayersConnected
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 MaybeShowFrame
@@ -3707,7 +3707,7 @@ MaybeShowFrame
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 Show
@@ -3821,7 +3821,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSetDimensions
@@ -4167,7 +4167,7 @@ this
 ;
 }
 nsresult
-TabParent
+BrowserParent
 :
 :
 UpdatePosition
@@ -4220,7 +4220,7 @@ NS_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 UpdateDimensions
@@ -4266,7 +4266,7 @@ No
 widget
 found
 in
-TabParent
+BrowserParent
 :
 :
 UpdateDimensions
@@ -4394,7 +4394,7 @@ GetDimensionInfo
 }
 }
 DimensionInfo
-TabParent
+BrowserParent
 :
 :
 GetDimensionInfo
@@ -4485,7 +4485,7 @@ di
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SizeModeChanged
@@ -4523,7 +4523,7 @@ aSizeMode
 }
 }
 void
-TabParent
+BrowserParent
 :
 :
 UIResolutionChanged
@@ -4569,7 +4569,7 @@ scale
 }
 }
 void
-TabParent
+BrowserParent
 :
 :
 ThemeChanged
@@ -4598,7 +4598,7 @@ GetIntCache
 }
 }
 void
-TabParent
+BrowserParent
 :
 :
 HandleAccessKey
@@ -4639,7 +4639,7 @@ aCharCodes
 }
 }
 void
-TabParent
+BrowserParent
 :
 :
 Activate
@@ -4685,7 +4685,7 @@ this
 }
 }
 void
-TabParent
+BrowserParent
 :
 :
 Deactivate
@@ -4735,7 +4735,7 @@ a11y
 :
 PDocAccessibleParent
 *
-TabParent
+BrowserParent
 :
 :
 AllocPDocAccessibleParent
@@ -4775,7 +4775,7 @@ nullptr
 endif
 }
 bool
-TabParent
+BrowserParent
 :
 :
 DeallocPDocAccessibleParent
@@ -4814,7 +4814,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvPDocAccessibleConstructor
@@ -5130,7 +5130,7 @@ a11y
 :
 DocAccessibleParent
 *
-TabParent
+BrowserParent
 :
 :
 GetTopLevelDocAccessible
@@ -5262,7 +5262,7 @@ nullptr
 }
 PFilePickerParent
 *
-TabParent
+BrowserParent
 :
 :
 AllocPFilePickerParent
@@ -5287,7 +5287,7 @@ aMode
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 DeallocPFilePickerParent
@@ -5305,7 +5305,7 @@ true
 ;
 }
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvIndexedDBPermissionRequest
@@ -5448,7 +5448,7 @@ IPC_OK
 ;
 }
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvPWindowGlobalConstructor
@@ -5485,7 +5485,7 @@ IPC_OK
 }
 PWindowGlobalParent
 *
-TabParent
+BrowserParent
 :
 :
 AllocPWindowGlobalParent
@@ -5513,7 +5513,7 @@ take
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 DeallocPWindowGlobalParent
@@ -5542,7 +5542,7 @@ true
 ;
 }
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvPBrowserBridgeConstructor
@@ -5599,7 +5599,7 @@ IPC_OK
 }
 PBrowserBridgeParent
 *
-TabParent
+BrowserParent
 :
 :
 AllocPBrowserBridgeParent
@@ -5636,7 +5636,7 @@ take
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 DeallocPBrowserBridgeParent
@@ -5665,7 +5665,7 @@ true
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SendMouseEvent
@@ -5717,7 +5717,7 @@ aIgnoreRootScrollFrame
 }
 }
 void
-TabParent
+BrowserParent
 :
 :
 SendRealMouseEvent
@@ -6118,7 +6118,7 @@ HasBeenPostedToRemoteProcess
 ;
 }
 LayoutDeviceToCSSScale
-TabParent
+BrowserParent
 :
 :
 GetLayoutDeviceToCSSScale
@@ -6185,7 +6185,7 @@ AppUnitsPerCSSPixel
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 QueryDropLinksForVerification
@@ -6549,7 +6549,7 @@ true
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SendRealDragEvent
@@ -6674,7 +6674,7 @@ HasBeenPostedToRemoteProcess
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SendMouseWheelEvent
@@ -6792,7 +6792,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvDispatchWheelEvent
@@ -6873,7 +6873,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvDispatchMouseEvent
@@ -6954,7 +6954,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvDispatchKeyboardEvent
@@ -7035,7 +7035,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvRequestNativeKeyBindings
@@ -7215,18 +7215,18 @@ public
 :
 SynthesizedEventObserver
 (
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 const
 uint64_t
 &
 aObserverId
 )
 :
-mTabParent
+mBrowserParent
 (
-aTabParent
+aBrowserParent
 )
 mObserverId
 (
@@ -7235,7 +7235,7 @@ aObserverId
 {
 MOZ_ASSERT
 (
-mTabParent
+mBrowserParent
 )
 ;
 }
@@ -7259,7 +7259,7 @@ override
 if
 (
 !
-mTabParent
+mBrowserParent
 |
 |
 !
@@ -7272,7 +7272,7 @@ NS_OK
 }
 if
 (
-mTabParent
+mBrowserParent
 -
 >
 IsDestroyed
@@ -7283,12 +7283,14 @@ IsDestroyed
 NS_WARNING
 (
 "
-TabParent
+BrowserParent
 was
 unexpectedly
 destroyed
 during
 event
+"
+"
 synthesization
 !
 "
@@ -7299,7 +7301,7 @@ else
 if
 (
 !
-mTabParent
+mBrowserParent
 -
 >
 SendNativeSynthesisResponse
@@ -7327,7 +7329,7 @@ response
 )
 ;
 }
-mTabParent
+mBrowserParent
 =
 nullptr
 ;
@@ -7346,9 +7348,9 @@ SynthesizedEventObserver
 }
 RefPtr
 <
-TabParent
+BrowserParent
 >
-mTabParent
+mBrowserParent
 ;
 uint64_t
 mObserverId
@@ -7368,9 +7370,9 @@ public
 :
 AutoSynthesizedEventResponder
 (
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 const
 uint64_t
 &
@@ -7386,7 +7388,7 @@ mObserver
 new
 SynthesizedEventObserver
 (
-aTabParent
+aBrowserParent
 aObserverId
 )
 )
@@ -7444,7 +7446,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSynthesizeNativeKeyEvent
@@ -7531,7 +7533,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSynthesizeNativeMouseEvent
@@ -7608,7 +7610,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSynthesizeNativeMouseMove
@@ -7675,7 +7677,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSynthesizeNativeMouseScrollEvent
@@ -7772,7 +7774,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSynthesizeNativeTouchPoint
@@ -7859,7 +7861,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSynthesizeNativeTouchTap
@@ -7931,7 +7933,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvClearNativeTouchSequence
@@ -7993,7 +7995,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSetPrefersReducedMotionOverrideForTest
@@ -8041,7 +8043,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvResetPrefersReducedMotionOverrideForTest
@@ -8078,7 +8080,7 @@ IPC_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SendRealKeyEvent
@@ -8197,7 +8199,7 @@ HasBeenPostedToRemoteProcess
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SendRealTouchEvent
@@ -8502,7 +8504,7 @@ HasBeenPostedToRemoteProcess
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SendPluginEvent
@@ -8555,7 +8557,7 @@ HasBeenPostedToRemoteProcess
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 SendHandleTap
@@ -8734,7 +8736,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSyncMessage
@@ -8772,7 +8774,7 @@ aRetVal
 AUTO_PROFILER_LABEL_DYNAMIC_LOSSY_NSSTRING
 (
 "
-TabParent
+BrowserParent
 :
 :
 RecvSyncMessage
@@ -8787,7 +8789,7 @@ MMPrinter
 Print
 (
 "
-TabParent
+BrowserParent
 :
 :
 RecvSyncMessage
@@ -8853,7 +8855,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvRpcMessage
@@ -8891,7 +8893,7 @@ aRetVal
 AUTO_PROFILER_LABEL_DYNAMIC_LOSSY_NSSTRING
 (
 "
-TabParent
+BrowserParent
 :
 :
 RecvRpcMessage
@@ -8906,7 +8908,7 @@ MMPrinter
 Print
 (
 "
-TabParent
+BrowserParent
 :
 :
 RecvRpcMessage
@@ -8972,7 +8974,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvAsyncMessage
@@ -9004,7 +9006,7 @@ aData
 AUTO_PROFILER_LABEL_DYNAMIC_LOSSY_NSSTRING
 (
 "
-TabParent
+BrowserParent
 :
 :
 RecvAsyncMessage
@@ -9019,7 +9021,7 @@ MMPrinter
 Print
 (
 "
-TabParent
+BrowserParent
 :
 :
 RecvAsyncMessage
@@ -9085,7 +9087,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSetCursor
@@ -9338,7 +9340,7 @@ IPC_OK
 }
 nsIXULBrowserWindow
 *
-TabParent
+BrowserParent
 :
 :
 GetXULBrowserWindow
@@ -9459,7 +9461,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSetStatus
@@ -9532,7 +9534,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvShowTooltip
@@ -9644,7 +9646,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvHideTooltip
@@ -9693,7 +9695,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvNotifyIMEFocus
@@ -9813,7 +9815,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvNotifyIMETextChange
@@ -9848,7 +9850,7 @@ widget
 IMEStateManager
 :
 :
-DoesTabParentHaveIMEFocus
+DoesBrowserParentHaveIMEFocus
 (
 this
 )
@@ -9891,7 +9893,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvNotifyIMECompositionUpdate
@@ -9926,7 +9928,7 @@ widget
 IMEStateManager
 :
 :
-DoesTabParentHaveIMEFocus
+DoesBrowserParentHaveIMEFocus
 (
 this
 )
@@ -9969,7 +9971,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvNotifyIMESelection
@@ -10004,7 +10006,7 @@ widget
 IMEStateManager
 :
 :
-DoesTabParentHaveIMEFocus
+DoesBrowserParentHaveIMEFocus
 (
 this
 )
@@ -10047,7 +10049,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvUpdateContentCache
@@ -10078,7 +10080,7 @@ widget
 IMEStateManager
 :
 :
-DoesTabParentHaveIMEFocus
+DoesBrowserParentHaveIMEFocus
 (
 this
 )
@@ -10111,7 +10113,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvNotifyIMEMouseButtonEvent
@@ -10145,7 +10147,7 @@ widget
 IMEStateManager
 :
 :
-DoesTabParentHaveIMEFocus
+DoesBrowserParentHaveIMEFocus
 (
 this
 )
@@ -10196,7 +10198,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvNotifyIMEPositionChange
@@ -10231,7 +10233,7 @@ widget
 IMEStateManager
 :
 :
-DoesTabParentHaveIMEFocus
+DoesBrowserParentHaveIMEFocus
 (
 this
 )
@@ -10274,7 +10276,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvOnEventNeedingAckHandled
@@ -10297,7 +10299,7 @@ GetDocWidget
 ;
 RefPtr
 <
-TabParent
+BrowserParent
 >
 kungFuDeathGrip
 (
@@ -10319,7 +10321,7 @@ IPC_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 HandledWindowedPluginKeyEvent
@@ -10361,7 +10363,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvOnWindowedPluginKeyEvent
@@ -10481,7 +10483,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvRequestFocus
@@ -10638,7 +10640,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvEnableDisableCommands
@@ -10878,7 +10880,7 @@ IPC_OK
 ;
 }
 LayoutDeviceIntPoint
-TabParent
+BrowserParent
 :
 :
 TransformPoint
@@ -10916,7 +10918,7 @@ floatTransformed
 ;
 }
 LayoutDevicePoint
-TabParent
+BrowserParent
 :
 :
 TransformPoint
@@ -10941,7 +10943,7 @@ aPoint
 ;
 }
 LayoutDeviceIntPoint
-TabParent
+BrowserParent
 :
 :
 TransformParentToChild
@@ -10986,7 +10988,7 @@ matrix
 ;
 }
 LayoutDevicePoint
-TabParent
+BrowserParent
 :
 :
 TransformParentToChild
@@ -11035,7 +11037,7 @@ matrix
 ;
 }
 LayoutDeviceIntPoint
-TabParent
+BrowserParent
 :
 :
 TransformChildToParent
@@ -11057,7 +11059,7 @@ GetChildToParentConversionMatrix
 ;
 }
 LayoutDevicePoint
-TabParent
+BrowserParent
 :
 :
 TransformChildToParent
@@ -11079,7 +11081,7 @@ GetChildToParentConversionMatrix
 ;
 }
 LayoutDeviceIntRect
-TabParent
+BrowserParent
 :
 :
 TransformChildToParent
@@ -11121,7 +11123,7 @@ floatTransformed
 ;
 }
 LayoutDeviceToLayoutDeviceMatrix4x4
-TabParent
+BrowserParent
 :
 :
 GetChildToParentConversionMatrix
@@ -11158,7 +11160,7 @@ offset
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SetChildToParentConversionMatrix
@@ -11201,7 +11203,7 @@ ToUnknownMatrix
 ;
 }
 LayoutDeviceIntPoint
-TabParent
+BrowserParent
 :
 :
 GetChildProcessOffset
@@ -11376,7 +11378,7 @@ widget
 ;
 }
 LayoutDeviceIntPoint
-TabParent
+BrowserParent
 :
 :
 GetClientOffset
@@ -11447,7 +11449,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvReplyKeyEvent
@@ -11684,7 +11686,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvAccessKeyNotHandled
@@ -11815,7 +11817,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSetHasBeforeUnload
@@ -11843,7 +11845,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvRegisterProtocolHandler
@@ -11906,7 +11908,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvOnProgressChange
@@ -12066,7 +12068,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvOnStatusChange
@@ -12223,7 +12225,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvOnContentBlockingEvent
@@ -12360,7 +12362,7 @@ IPC_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 ReconstructWebProgressAndRequest
@@ -12483,7 +12485,7 @@ matchedList
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 HandleQueryContentEvent
@@ -12631,7 +12633,7 @@ true
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 SendCompositionEvent
@@ -12720,7 +12722,7 @@ true
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 SendSelectionEvent
@@ -12827,7 +12829,7 @@ true
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 SendPasteTransferable
@@ -12867,7 +12869,7 @@ aContentPolicyType
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 InitializeStatics
@@ -12886,7 +12888,7 @@ sFocusStack
 new
 nsTArray
 <
-TabParent
+BrowserParent
 *
 >
 (
@@ -12899,9 +12901,9 @@ sFocusStack
 )
 ;
 }
-TabParent
+BrowserParent
 *
-TabParent
+BrowserParent
 :
 :
 GetFocused
@@ -12942,14 +12944,14 @@ LastElement
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 PushFocus
 (
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 )
 {
 if
@@ -12974,7 +12976,7 @@ return
 if
 (
 !
-aTabParent
+aBrowserParent
 -
 >
 GetBrowserBridgeParent
@@ -13012,7 +13014,7 @@ stack
 %
 p
 "
-aTabParent
+aBrowserParent
 )
 )
 ;
@@ -13070,7 +13072,7 @@ stack
 %
 p
 "
-aTabParent
+aBrowserParent
 )
 )
 ;
@@ -13102,7 +13104,7 @@ nsIWidget
 >
 iframeWigdet
 =
-aTabParent
+aBrowserParent
 -
 >
 GetWidget
@@ -13141,7 +13143,7 @@ content
 %
 p
 "
-aTabParent
+aBrowserParent
 )
 )
 ;
@@ -13156,7 +13158,7 @@ sFocusStack
 >
 Contains
 (
-aTabParent
+aBrowserParent
 )
 )
 {
@@ -13167,7 +13169,7 @@ Trying
 to
 push
 a
-TabParent
+BrowserParent
 that
 is
 already
@@ -13180,7 +13182,7 @@ stack
 return
 ;
 }
-TabParent
+BrowserParent
 *
 old
 =
@@ -13193,7 +13195,7 @@ sFocusStack
 >
 AppendElement
 (
-aTabParent
+aBrowserParent
 )
 ;
 MOZ_ASSERT
@@ -13203,7 +13205,7 @@ GetFocused
 )
 =
 =
-aTabParent
+aBrowserParent
 )
 ;
 LOGBROWSERFOCUS
@@ -13217,7 +13219,7 @@ to
 %
 p
 "
-aTabParent
+aBrowserParent
 )
 )
 ;
@@ -13227,19 +13229,19 @@ IMEStateManager
 OnFocusMovedBetweenBrowsers
 (
 old
-aTabParent
+aBrowserParent
 )
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 PopFocus
 (
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 )
 {
 if
@@ -13269,7 +13271,7 @@ sFocusStack
 >
 LastIndexOf
 (
-aTabParent
+aBrowserParent
 )
 ;
 if
@@ -13279,7 +13281,7 @@ pos
 =
 nsTArray
 <
-TabParent
+BrowserParent
 *
 >
 :
@@ -13298,7 +13300,7 @@ stack
 %
 p
 "
-aTabParent
+aBrowserParent
 )
 )
 ;
@@ -13335,7 +13337,7 @@ items
 p
 "
 itemsToPop
-aTabParent
+aBrowserParent
 )
 )
 ;
@@ -13351,7 +13353,7 @@ Length
 )
 )
 {
-TabParent
+BrowserParent
 *
 popped
 =
@@ -13362,7 +13364,7 @@ PopLastElement
 (
 )
 ;
-TabParent
+BrowserParent
 *
 focused
 =
@@ -13396,9 +13398,9 @@ focused
 ;
 }
 }
-TabParent
+BrowserParent
 *
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -13432,7 +13434,7 @@ GetRemoteBrowser
 return
 static_cast
 <
-TabParent
+BrowserParent
 *
 >
 (
@@ -13440,55 +13442,55 @@ remoteBrowser
 )
 ;
 }
-TabParent
+BrowserParent
 *
-TabParent
+BrowserParent
 :
 :
 GetFrom
 (
 nsIRemoteTab
 *
-aTabParent
+aBrowserParent
 )
 {
 return
 static_cast
 <
-TabParent
+BrowserParent
 *
 >
 (
-aTabParent
+aBrowserParent
 )
 ;
 }
-TabParent
+BrowserParent
 *
-TabParent
+BrowserParent
 :
 :
 GetFrom
 (
 PBrowserParent
 *
-aTabParent
+aBrowserParent
 )
 {
 return
 static_cast
 <
-TabParent
+BrowserParent
 *
 >
 (
-aTabParent
+aBrowserParent
 )
 ;
 }
-TabParent
+BrowserParent
 *
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -13540,7 +13542,7 @@ frameLoader
 ;
 }
 TabId
-TabParent
+BrowserParent
 :
 :
 GetTabIdFrom
@@ -13599,7 +13601,7 @@ TabId
 }
 RenderFrame
 *
-TabParent
+BrowserParent
 :
 :
 GetRenderFrame
@@ -13627,7 +13629,7 @@ mRenderFrame
 }
 BrowserBridgeParent
 *
-TabParent
+BrowserParent
 :
 :
 GetBrowserBridgeParent
@@ -13646,7 +13648,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvRequestIMEToCommitComposition
@@ -13716,7 +13718,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvStartPluginIME
@@ -13796,7 +13798,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSetPluginFocused
@@ -13854,7 +13856,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSetCandidateWindowForPlugin
@@ -13908,7 +13910,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvEnableIMEForPlugin
@@ -13962,7 +13964,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvDefaultProcOfPluginEvent
@@ -14016,7 +14018,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvGetInputContext
@@ -14094,7 +14096,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSetInputContext
@@ -14129,7 +14131,7 @@ already_AddRefed
 <
 nsIWidget
 >
-TabParent
+BrowserParent
 :
 :
 GetTopLevelWidget
@@ -14218,7 +14220,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSetNativeChildOfShareableWindow
@@ -14270,7 +14272,7 @@ else
 MOZ_ASSERT_UNREACHABLE
 (
 "
-TabParent
+BrowserParent
 :
 :
 RecvSetNativeChildOfShareableWindow
@@ -14296,7 +14298,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvDispatchFocusToTopLevelWindow
@@ -14334,7 +14336,7 @@ IPC_OK
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 ReceiveMessage
@@ -14432,7 +14434,7 @@ true
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetAuthPrompt
@@ -14574,7 +14576,7 @@ NS_OK
 }
 PColorPickerParent
 *
-TabParent
+BrowserParent
 :
 :
 AllocPColorPickerParent
@@ -14599,7 +14601,7 @@ aInitialColor
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 DeallocPColorPickerParent
@@ -14620,7 +14622,7 @@ already_AddRefed
 <
 nsFrameLoader
 >
-TabParent
+BrowserParent
 :
 :
 GetFrameLoader
@@ -14698,7 +14700,7 @@ nullptr
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 TryCacheDPIAndScale
@@ -14763,7 +14765,7 @@ already_AddRefed
 <
 nsIWidget
 >
-TabParent
+BrowserParent
 :
 :
 GetWidget
@@ -14829,7 +14831,7 @@ already_AddRefed
 <
 nsIWidget
 >
-TabParent
+BrowserParent
 :
 :
 GetDocWidget
@@ -14866,7 +14868,7 @@ OwnerDoc
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 ApzAwareEventRoutingToChild
@@ -15021,7 +15023,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvBrowserFrameOpenWindow
@@ -15077,7 +15079,7 @@ BrowserElementParent
 :
 OpenWindowOOP
 (
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -15178,7 +15180,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvRespondStartSwipeEvent
@@ -15226,7 +15228,7 @@ already_AddRefed
 <
 nsILoadContext
 >
-TabParent
+BrowserParent
 :
 :
 GetLoadContext
@@ -15346,7 +15348,7 @@ forget
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 SetDocShellIsActive
@@ -15490,7 +15492,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetDocShellIsActive
@@ -15510,7 +15512,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 SetRenderLayers
@@ -15562,7 +15564,7 @@ mPreserveLayers
 {
 RefPtr
 <
-TabParent
+BrowserParent
 >
 self
 =
@@ -15581,7 +15583,7 @@ NS_NewRunnableFunction
 dom
 :
 :
-TabParent
+BrowserParent
 :
 :
 RenderLayers
@@ -15646,7 +15648,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetRenderLayers
@@ -15666,7 +15668,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetHasLayers
@@ -15686,7 +15688,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 Deprioritize
@@ -15717,7 +15719,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 ForceRepaint
@@ -15755,7 +15757,7 @@ NS_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SetRenderLayersInternal
@@ -15804,7 +15806,7 @@ mLayerTreeEpoch
 }
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 PreserveLayers
@@ -15822,7 +15824,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 SaveRecording
@@ -15881,7 +15883,7 @@ aRetval
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetContentBlockingLog
@@ -16073,7 +16075,7 @@ NS_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SuppressDisplayport
@@ -16132,7 +16134,7 @@ aEnabled
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetTabId
@@ -16154,7 +16156,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetOsPid
@@ -16181,7 +16183,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetHasContentOpener
@@ -16201,7 +16203,7 @@ NS_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 SetHasContentOpener
@@ -16216,7 +16218,7 @@ aHasContentOpener
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetHasPresented
@@ -16236,7 +16238,7 @@ NS_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 NavigateByKey
@@ -16258,7 +16260,7 @@ aForDocumentNavigation
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 TransmitPermissionsForPrincipal
@@ -16281,7 +16283,7 @@ aPrincipal
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 GetHasBeforeUnload
@@ -16301,7 +16303,7 @@ NS_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 LayerTreeUpdate
@@ -16459,7 +16461,7 @@ event
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 RequestRootPaint
@@ -16568,7 +16570,7 @@ tabId
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 RequestSubPaint
@@ -16680,7 +16682,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvPaintWhileInterruptingJSNoOp
@@ -16710,7 +16712,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvRemotePaintIsReady
@@ -16829,7 +16831,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvNotifyCompositorTransaction
@@ -16905,7 +16907,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvRemoteIsReadyToHandleInputEvents
@@ -16930,7 +16932,7 @@ plugins
 :
 PPluginWidgetParent
 *
-TabParent
+BrowserParent
 :
 :
 AllocPPluginWidgetParent
@@ -16971,7 +16973,7 @@ nullptr
 endif
 }
 bool
-TabParent
+BrowserParent
 :
 :
 DeallocPPluginWidgetParent
@@ -16996,7 +16998,7 @@ true
 }
 PPaymentRequestParent
 *
-TabParent
+BrowserParent
 :
 :
 AllocPPaymentRequestParent
@@ -17027,7 +17029,7 @@ take
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 DeallocPPaymentRequestParent
@@ -17060,7 +17062,7 @@ true
 ;
 }
 nsresult
-TabParent
+BrowserParent
 :
 :
 HandleEvent
@@ -17764,7 +17766,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvAsyncAuthPrompt
@@ -17904,7 +17906,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvInvokeDragSession
@@ -18240,7 +18242,7 @@ IPC_OK
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 AddInitialDnDDataTo
@@ -18607,7 +18609,7 @@ nullptr
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 TakeDragVisualization
@@ -18659,7 +18661,7 @@ true
 ;
 }
 bool
-TabParent
+BrowserParent
 :
 :
 AsyncPanZoomEnabled
@@ -18690,7 +18692,7 @@ AsyncPanZoomEnabled
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 StartPersistence
@@ -18753,7 +18755,7 @@ NS_ERROR_FAILURE
 }
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 StartApzAutoscroll
@@ -18906,7 +18908,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TabParent
+BrowserParent
 :
 :
 StopApzAutoscroll
@@ -18992,7 +18994,7 @@ NS_OK
 ;
 }
 ShowInfo
-TabParent
+BrowserParent
 :
 :
 GetShowInfo
@@ -19137,7 +19139,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvLookUpDictionary
@@ -19212,7 +19214,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvShowCanvasPermissionPrompt
@@ -19350,7 +19352,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvVisitURI
@@ -19478,7 +19480,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvQueryVisitedState
@@ -19668,7 +19670,7 @@ only
 endif
 }
 void
-TabParent
+BrowserParent
 :
 :
 LiveResizeStarted
@@ -19682,7 +19684,7 @@ true
 ;
 }
 void
-TabParent
+BrowserParent
 :
 :
 LiveResizeStopped
@@ -19696,13 +19698,13 @@ false
 ;
 }
 size_t
-TabParent
+BrowserParent
 :
 :
 gNumActiveRecordReplayTabs
 ;
 void
-TabParent
+BrowserParent
 :
 :
 SetIsActiveRecordReplayTab
@@ -19742,7 +19744,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvSetSystemFont
@@ -19790,7 +19792,7 @@ ipc
 :
 :
 IPCResult
-TabParent
+BrowserParent
 :
 :
 RecvGetSystemFont

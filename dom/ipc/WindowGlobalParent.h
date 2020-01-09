@@ -31,7 +31,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -181,7 +181,7 @@ aRv
 ;
 already_AddRefed
 <
-TabParent
+BrowserParent
 >
 GetRemoteTab
 (

@@ -390,7 +390,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -4002,11 +4002,11 @@ do_QueryInterface
 sourceNode
 )
 ;
-TabParent
+BrowserParent
 *
 tp
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom

@@ -33159,7 +33159,7 @@ nsCOMPtr
 <
 nsIRemoteTab
 >
-tabParent
+browserParent
 ;
 JS
 :
@@ -33192,7 +33192,7 @@ aCx
 obj
 getter_AddRefs
 (
-tabParent
+browserParent
 )
 )
 ;
@@ -33219,7 +33219,7 @@ mPromiseHolder
 .
 Resolve
 (
-tabParent
+browserParent
 __func__
 )
 ;

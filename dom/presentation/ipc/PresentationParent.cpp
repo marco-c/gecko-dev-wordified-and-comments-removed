@@ -1749,14 +1749,14 @@ GetSingleton
 ;
 RefPtr
 <
-TabParent
+BrowserParent
 >
 tp
 =
 cpm
 -
 >
-GetTopLevelTabParentByProcessAndTabId
+GetTopLevelBrowserParentByProcessAndTabId
 (
 mChildId
 aRequest

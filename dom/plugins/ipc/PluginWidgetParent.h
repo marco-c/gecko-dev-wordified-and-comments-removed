@@ -60,7 +60,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 }
 namespace
@@ -195,9 +195,9 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
-GetTabParent
+GetBrowserParent
 (
 )
 ;

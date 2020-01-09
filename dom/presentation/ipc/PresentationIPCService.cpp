@@ -38,7 +38,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -316,7 +316,7 @@ aWindowId
 TabId
 tabId
 =
-TabParent
+BrowserParent
 :
 :
 GetTabIdFrom

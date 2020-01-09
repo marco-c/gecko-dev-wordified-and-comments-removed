@@ -4018,7 +4018,7 @@ widget
 composition
 -
 >
-GetTabParent
+GetBrowserParent
 (
 )
 )

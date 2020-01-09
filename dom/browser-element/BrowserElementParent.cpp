@@ -1,7 +1,7 @@
 #
 include
 "
-TabParent
+BrowserParent
 .
 h
 "
@@ -729,12 +729,12 @@ BrowserElementParent
 :
 OpenWindowOOP
 (
-TabParent
+BrowserParent
 *
-aOpenerTabParent
-TabParent
+aOpenerBrowserParent
+BrowserParent
 *
-aPopupTabParent
+aPopupBrowserParent
 const
 nsAString
 &
@@ -755,7 +755,7 @@ Element
 >
 openerFrameElement
 =
-aOpenerTabParent
+aOpenerBrowserParent
 -
 >
 GetOwnerElement
@@ -818,7 +818,7 @@ return
 opened
 ;
 }
-aPopupTabParent
+aPopupBrowserParent
 -
 >
 SetOwnerElement
@@ -838,7 +838,7 @@ popupFrameElement
 >
 CreateRemoteFrameLoader
 (
-aPopupTabParent
+aPopupBrowserParent
 )
 ;
 return

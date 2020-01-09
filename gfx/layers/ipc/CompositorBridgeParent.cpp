@@ -168,7 +168,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "

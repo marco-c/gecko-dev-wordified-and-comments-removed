@@ -601,7 +601,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -36085,11 +36085,11 @@ nsFrameLoader
 cb
 )
 ;
-TabParent
+BrowserParent
 *
 remote
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -36223,7 +36223,7 @@ aShowFocusRings
 bool
 SetKeyboardIndicatorsChild
 (
-TabParent
+BrowserParent
 *
 aParent
 void

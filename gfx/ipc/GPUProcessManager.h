@@ -202,7 +202,7 @@ class
 ContentParent
 ;
 class
-TabParent
+BrowserParent
 ;
 }
 namespace

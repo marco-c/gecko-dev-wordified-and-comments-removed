@@ -441,7 +441,7 @@ class
 Element
 ;
 class
-TabParent
+BrowserParent
 ;
 class
 ClonedMessageData
@@ -800,7 +800,7 @@ aPriority
 )
 ;
 static
-TabParent
+BrowserParent
 *
 CreateBrowser
 (
@@ -817,7 +817,7 @@ aBrowsingContext
 ContentParent
 *
 aOpenerContentParent
-TabParent
+BrowserParent
 *
 aSameTabGroupAs
 uint64_t
@@ -2039,7 +2039,7 @@ RecvFinishShutdown
 void
 MaybeInvokeDragSession
 (
-TabParent
+BrowserParent
 *
 aParent
 )
@@ -2125,7 +2125,7 @@ RecvCreateWindow
 (
 PBrowserParent
 *
-aThisTabParent
+aThisBrowserParent
 PBrowserParent
 *
 aNewTab
@@ -2523,9 +2523,9 @@ aActor
 void
 PaintTabWhileInterruptingJS
 (
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 bool
 aForceRepaint
 const
@@ -2885,7 +2885,7 @@ nsCOMPtr
 nsIRemoteTab
 >
 &
-aNewTabParent
+aNewBrowserParent
 bool
 *
 aWindowIsNew
@@ -5725,10 +5725,10 @@ static
 nsDataHashtable
 <
 nsUint64HashKey
-TabParent
+BrowserParent
 *
 >
-sNextTabParents
+sNextBrowserParents
 ;
 #
 if

@@ -444,7 +444,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -1694,7 +1694,7 @@ uint32_t
 aChromeFlags
 nsIRemoteTab
 *
-aOpeningTabParent
+aOpeningBrowserParent
 mozIDOMWindowProxy
 *
 aOpener
@@ -1752,7 +1752,7 @@ CreateChromeWindow2
 (
 aParentChrome
 aChromeFlags
-aOpeningTabParent
+aOpeningBrowserParent
 aOpener
 aNextRemoteTabId
 &
@@ -1977,11 +1977,11 @@ if
 aRemoteTab
 )
 {
-TabParent
+BrowserParent
 *
 openingTab
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -2333,7 +2333,7 @@ nsCOMPtr
 <
 nsIRemoteTab
 >
-newTabParent
+newBrowserParent
 ;
 chromeTreeOwner
 -
@@ -2342,7 +2342,7 @@ GetPrimaryRemoteTab
 (
 getter_AddRefs
 (
-newTabParent
+newBrowserParent
 )
 )
 ;
@@ -2351,7 +2351,7 @@ if
 NS_WARN_IF
 (
 !
-newTabParent
+newBrowserParent
 )
 )
 {
@@ -2359,7 +2359,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-newTabParent
+newBrowserParent
 .
 forget
 (

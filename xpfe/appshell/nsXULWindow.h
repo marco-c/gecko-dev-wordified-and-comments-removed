@@ -802,7 +802,7 @@ nsCOMPtr
 <
 nsIRemoteTab
 >
-mPrimaryTabParent
+mPrimaryBrowserParent
 ;
 private
 :

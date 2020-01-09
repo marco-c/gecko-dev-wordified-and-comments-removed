@@ -74,7 +74,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 class
 ContentParent

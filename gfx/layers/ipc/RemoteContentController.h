@@ -33,7 +33,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 }
 namespace

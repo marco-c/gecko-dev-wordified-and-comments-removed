@@ -71,7 +71,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 class
 PBrowserOrId
@@ -461,9 +461,9 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 >
-mTabParent
+mBrowserParent
 ;
 RefPtr
 <

@@ -53,7 +53,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 class
 ChildSHistory
@@ -137,9 +137,9 @@ GetDocShell
 (
 )
 ;
-TabParent
+BrowserParent
 *
-GetTabParent
+GetBrowserParent
 (
 )
 ;

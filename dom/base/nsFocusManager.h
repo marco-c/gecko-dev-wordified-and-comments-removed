@@ -122,7 +122,7 @@ struct
 FocusOptions
 ;
 class
-TabParent
+BrowserParent
 ;
 }
 }

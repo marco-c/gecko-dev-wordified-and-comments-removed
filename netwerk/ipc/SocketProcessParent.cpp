@@ -62,7 +62,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -763,14 +763,14 @@ RefPtr
 dom
 :
 :
-TabParent
+BrowserParent
 >
 tab
 =
 cpm
 -
 >
-GetTabParentByProcessAndTabId
+GetBrowserParentByProcessAndTabId
 (
 cpId
 tabId
@@ -789,7 +789,7 @@ false
 Cannot
 find
 the
-TabParent
+BrowserParent
 !
 "
 )

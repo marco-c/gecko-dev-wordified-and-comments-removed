@@ -121,14 +121,14 @@ nullptr
 ;
 RefPtr
 <
-TabParent
+BrowserParent
 >
 tab
 =
 cpm
 -
 >
-GetTopLevelTabParentByProcessAndTabId
+GetTopLevelBrowserParentByProcessAndTabId
 (
 ContentParentId
 (

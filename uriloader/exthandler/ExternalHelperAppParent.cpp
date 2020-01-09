@@ -64,7 +64,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -277,7 +277,7 @@ already_AddRefed
 <
 nsIInterfaceRequestor
 >
-GetWindowFromTabParent
+GetWindowFromBrowserParent
 (
 PBrowserParent
 *
@@ -300,11 +300,11 @@ nsIInterfaceRequestor
 >
 window
 ;
-TabParent
+BrowserParent
 *
-tabParent
+browserParent
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -314,7 +314,7 @@ aBrowser
 ;
 if
 (
-tabParent
+browserParent
 -
 >
 GetOwnerElement
@@ -326,7 +326,7 @@ window
 =
 do_QueryInterface
 (
-tabParent
+browserParent
 -
 >
 GetOwnerElement
@@ -375,7 +375,7 @@ nsIInterfaceRequestor
 >
 window
 =
-GetWindowFromTabParent
+GetWindowFromBrowserParent
 (
 aBrowser
 )
@@ -512,11 +512,11 @@ if
 aBrowser
 )
 {
-TabParent
+BrowserParent
 *
-tabParent
+browserParent
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -526,7 +526,7 @@ aBrowser
 ;
 if
 (
-tabParent
+browserParent
 -
 >
 GetOwnerElement
@@ -537,7 +537,7 @@ window
 =
 do_QueryInterface
 (
-tabParent
+browserParent
 -
 >
 GetOwnerElement
@@ -566,7 +566,7 @@ nsILoadContext
 >
 loadContext
 =
-tabParent
+browserParent
 -
 >
 GetLoadContext

@@ -339,7 +339,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
 aBrowser
 )
@@ -355,7 +355,7 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
 aBrowser
 )

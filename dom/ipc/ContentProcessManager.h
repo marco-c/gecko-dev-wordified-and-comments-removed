@@ -291,7 +291,7 @@ nsTArray
 <
 TabId
 >
-GetTabParentsByProcessId
+GetBrowserParentsByProcessId
 (
 const
 ContentParentId
@@ -300,7 +300,7 @@ aChildCpId
 )
 ;
 uint32_t
-GetTabParentCountByProcessId
+GetBrowserParentCountByProcessId
 (
 const
 ContentParentId
@@ -310,9 +310,9 @@ aChildCpId
 ;
 already_AddRefed
 <
-TabParent
+BrowserParent
 >
-GetTabParentByProcessAndTabId
+GetBrowserParentByProcessAndTabId
 (
 const
 ContentParentId
@@ -326,9 +326,9 @@ aChildTabId
 ;
 already_AddRefed
 <
-TabParent
+BrowserParent
 >
-GetTopLevelTabParentByProcessAndTabId
+GetTopLevelBrowserParentByProcessAndTabId
 (
 const
 ContentParentId

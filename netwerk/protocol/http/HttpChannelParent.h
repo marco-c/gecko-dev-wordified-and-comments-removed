@@ -148,7 +148,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 class
 PBrowserOrId
@@ -1007,9 +1007,9 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 >
-mTabParent
+mBrowserParent
 ;
 MOZ_MUST_USE
 nsresult

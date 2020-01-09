@@ -111,7 +111,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -608,7 +608,7 @@ ContentParent
 *
 parent
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom
@@ -1152,7 +1152,7 @@ Element
 *
 element
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom

@@ -23,7 +23,7 @@ class
 ContentParent
 ;
 class
-TabParent
+BrowserParent
 ;
 }
 class
@@ -68,9 +68,9 @@ TabActivityChanged
 dom
 :
 :
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 bool
 aIsActive
 )

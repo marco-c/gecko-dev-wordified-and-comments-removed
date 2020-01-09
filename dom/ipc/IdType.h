@@ -38,7 +38,7 @@ class
 ContentParent
 ;
 class
-TabParent
+BrowserParent
 ;
 template
 <
@@ -142,7 +142,7 @@ mId
 typedef
 IdType
 <
-TabParent
+BrowserParent
 >
 TabId
 ;

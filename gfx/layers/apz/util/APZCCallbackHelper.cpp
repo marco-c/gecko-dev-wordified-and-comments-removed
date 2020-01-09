@@ -62,7 +62,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -280,7 +280,7 @@ using
 dom
 :
 :
-TabParent
+BrowserParent
 ;
 uint64_t
 APZCCallbackHelper
@@ -1265,14 +1265,14 @@ msg
 aTransforms
 )
 {
-TabParent
+BrowserParent
 *
 parent
 =
-TabParent
+BrowserParent
 :
 :
-GetTabParentFromLayersId
+GetBrowserParentFromLayersId
 (
 msg
 .

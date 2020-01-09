@@ -89,7 +89,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -668,7 +668,7 @@ static_cast
 dom
 :
 :
-TabParent
+BrowserParent
 *
 >
 (

@@ -38,7 +38,7 @@ mozilla
 /
 dom
 /
-TabParent
+BrowserParent
 .
 h
 "
@@ -738,11 +738,11 @@ return
 }
 if
 (
-TabParent
+BrowserParent
 *
 browserParent
 =
-TabParent
+BrowserParent
 :
 :
 GetFrom

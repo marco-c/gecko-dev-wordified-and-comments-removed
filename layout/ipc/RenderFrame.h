@@ -77,7 +77,7 @@ namespace
 dom
 {
 class
-TabParent
+BrowserParent
 ;
 }
 namespace
@@ -152,9 +152,9 @@ Initialize
 dom
 :
 :
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 )
 ;
 void
@@ -247,9 +247,9 @@ mCompositorOptions
 dom
 :
 :
-TabParent
+BrowserParent
 *
-mTabParent
+mBrowserParent
 ;
 RefPtr
 <

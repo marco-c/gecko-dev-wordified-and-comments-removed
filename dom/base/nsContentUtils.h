@@ -606,7 +606,7 @@ class
 Selection
 ;
 class
-TabParent
+BrowserParent
 ;
 }
 namespace
@@ -734,9 +734,9 @@ mozilla
 dom
 :
 :
-TabParent
+BrowserParent
 *
-aTabParent
+aBrowserParent
 void
 *
 aArg

@@ -62,7 +62,7 @@ class
 ContentParent
 ;
 class
-TabParent
+BrowserParent
 ;
 }
 namespace
@@ -154,7 +154,7 @@ aParent
 dom
 :
 :
-TabParent
+BrowserParent
 *
 aTab
 bool
