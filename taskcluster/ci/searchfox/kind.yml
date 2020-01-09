@@ -273,6 +273,10 @@ clang
 -
 linux64
 -
+nasm
+-
+linux64
+-
 node
 -
 linux64
@@ -472,6 +476,10 @@ linux64
 llvm
 -
 dsymutil
+-
+linux64
+-
+nasm
 -
 linux64
 -

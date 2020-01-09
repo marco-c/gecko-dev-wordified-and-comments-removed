@@ -6283,6 +6283,10 @@ cbindgen
 -
 linux64
 -
+nasm
+-
+linux64
+-
 node
 -
 linux64
@@ -6477,6 +6481,10 @@ sccache
 linux64
 -
 cbindgen
+-
+linux64
+-
+nasm
 -
 linux64
 -
@@ -6675,6 +6683,10 @@ cbindgen
 -
 linux64
 -
+nasm
+-
+linux64
+-
 node
 -
 linux64
@@ -6869,6 +6881,10 @@ sccache
 linux64
 -
 cbindgen
+-
+linux64
+-
+nasm
 -
 linux64
 -
