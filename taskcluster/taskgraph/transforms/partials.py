@@ -1195,23 +1195,10 @@ type
 '
 :
 '
-aws
--
-provisioner
--
-v1
-/
-gecko
--
-%
-s
--
 b
 -
 linux
 '
-%
-level
             
 '
 dependencies

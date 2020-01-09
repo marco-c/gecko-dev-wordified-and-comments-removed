@@ -2528,16 +2528,13 @@ worker
 type
 '
 ]
-.
-endswith
-(
+=
+=
 "
--
 b
 -
 win2012
 "
-)
 :
             
 job_description

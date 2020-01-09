@@ -54,14 +54,6 @@ linux64
 .
 *
 :
-aws
--
-provisioner
--
-v1
-/
-gecko
--
 t
 -
 linux

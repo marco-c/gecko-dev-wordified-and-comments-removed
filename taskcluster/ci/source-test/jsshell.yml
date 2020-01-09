@@ -24,12 +24,6 @@ linux64
 .
 *
 :
-releng
--
-hardware
-/
-gecko
--
 t
 -
 linux

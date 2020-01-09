@@ -521,18 +521,6 @@ type
 '
 :
 '
-aws
--
-provisioner
--
-v1
-/
-gecko
--
-{
-level
-}
--
 images
 '
         
