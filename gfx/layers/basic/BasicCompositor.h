@@ -738,7 +738,7 @@ override
 ;
 virtual
 void
-RequestRecordFrames
+RequestAllowFrameRecording
 (
 bool
 aWillRecord

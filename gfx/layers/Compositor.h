@@ -1401,7 +1401,7 @@ mParent
 }
 virtual
 void
-RequestRecordFrames
+RequestAllowFrameRecording
 (
 bool
 aWillRecord
