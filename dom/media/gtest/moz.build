@@ -193,6 +193,11 @@ TestDataMutex
 cpp
 '
 '
+TestDriftCompensation
+.
+cpp
+'
+'
 TestGMPCrossOrigin
 .
 cpp

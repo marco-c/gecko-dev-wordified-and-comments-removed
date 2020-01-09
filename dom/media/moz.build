@@ -640,6 +640,11 @@ DOMMediaStream
 h
 '
 '
+DriftCompensation
+.
+h
+'
+'
 FileBlockCache
 .
 h
