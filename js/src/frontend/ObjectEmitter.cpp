@@ -1692,6 +1692,10 @@ top_
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )

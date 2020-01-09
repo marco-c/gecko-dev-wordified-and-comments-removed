@@ -236,6 +236,10 @@ tryStart_
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -336,6 +340,10 @@ EndOfTryJumpOffset
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )

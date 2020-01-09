@@ -740,6 +740,10 @@ top_
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -795,6 +799,10 @@ top_
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -881,6 +889,10 @@ top_
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -939,6 +951,10 @@ top_
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -973,6 +989,10 @@ pc
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 code
 (
 top_
@@ -1089,6 +1109,10 @@ NextCaseOffset
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -1974,6 +1998,10 @@ pc
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 code
 (
 top_
