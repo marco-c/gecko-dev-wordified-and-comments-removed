@@ -1345,18 +1345,10 @@ isActor
                  
 or
 (
-(
 ipdltype
 .
-isArray
+hasBaseType
 (
-)
-or
-ipdltype
-.
-isMaybe
-(
-)
 )
                      
 and
@@ -3027,18 +3019,10 @@ isIPDL
 (
 )
 and
-(
 ipdltype
 .
-isArray
+hasBaseType
 (
-)
-or
-ipdltype
-.
-isMaybe
-(
-)
 )
 :
         
@@ -3264,13 +3248,7 @@ isIPDL
 if
 ipdltype
 .
-isMaybe
-(
-)
-or
-ipdltype
-.
-isArray
+hasBaseType
 (
 )
 :

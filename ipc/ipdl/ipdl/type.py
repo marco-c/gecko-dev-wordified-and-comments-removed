@@ -372,6 +372,27 @@ args
 )
     
 def
+visitUniquePtrType
+(
+self
+m
+*
+args
+)
+:
+        
+m
+.
+basetype
+.
+accept
+(
+self
+*
+args
+)
+    
+def
 visitShmemType
 (
 self
@@ -440,18 +461,6 @@ pass
     
 def
 visitManagedEndpointType
-(
-self
-s
-*
-args
-)
-:
-        
-pass
-    
-def
-visitUniquePtrType
 (
 self
 s
@@ -1065,6 +1074,15 @@ isInterrupt
 (
 )
 )
+    
+def
+hasBaseType
+(
+self
+)
+:
+return
+False
     
 classmethod
     
@@ -2059,13 +2077,7 @@ True
 elif
 t
 .
-isArray
-(
-)
-or
-t
-.
-isMaybe
+hasBaseType
 (
 )
 :
@@ -2371,6 +2383,15 @@ return
 True
     
 def
+hasBaseType
+(
+self
+)
+:
+return
+True
+    
+def
 name
 (
 self
@@ -2441,6 +2462,15 @@ False
     
 def
 isMaybe
+(
+self
+)
+:
+return
+True
+    
+def
+hasBaseType
 (
 self
 )
@@ -2778,7 +2808,7 @@ qname
 class
 UniquePtrType
 (
-Type
+IPDLType
 )
 :
     
@@ -2786,18 +2816,36 @@ def
 __init__
 (
 self
-innertype
+basetype
 )
 :
         
 self
 .
-innertype
+basetype
 =
-innertype
+basetype
+    
+def
+isAtom
+(
+self
+)
+:
+return
+False
     
 def
 isUniquePtr
+(
+self
+)
+:
+return
+True
+    
+def
+hasBaseType
 (
 self
 )
@@ -2820,9 +2868,9 @@ UniquePtr
 +
 self
 .
-innertype
+basetype
 .
-fullname
+name
 (
 )
 +
@@ -2848,7 +2896,7 @@ UniquePtr
 +
 self
 .
-innertype
+basetype
 .
 fullname
 (
@@ -2924,13 +2972,7 @@ t
 elif
 t
 .
-isArray
-(
-)
-or
-t
-.
-isMaybe
+hasBaseType
 (
 )
 :
@@ -6782,13 +6824,7 @@ True
 elif
 t
 .
-isArray
-(
-)
-or
-t
-.
-isMaybe
+hasBaseType
 (
 )
 :
