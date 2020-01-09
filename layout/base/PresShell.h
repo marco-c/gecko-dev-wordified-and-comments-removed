@@ -2197,6 +2197,14 @@ PresShell
 aPresShell
 )
 ;
+bool
+MaybeDiscardEvent
+(
+WidgetGUIEvent
+*
+aGUIEvent
+)
+;
 static
 nsIContent
 *
