@@ -9722,10 +9722,6 @@ sameZoneAs
 (
 cx
 )
-freshCompartment
-(
-false
-)
 freshZone
 (
 false
@@ -9796,9 +9792,6 @@ JS
 :
 RootedObject
 sameZoneAs
-;
-bool
-freshCompartment
 ;
 bool
 freshZone
@@ -10870,6 +10863,9 @@ bool
 universalXPConnectEnabled
 ;
 bool
+forcePermissiveCOWs
+;
+bool
 wasShutdown
 ;
 bool
@@ -11075,11 +11071,6 @@ scriptability
 XPCWrappedNativeScope
 *
 scope
-;
-bool
-forcePermissiveCOWs
-=
-false
 ;
 const
 nsACString

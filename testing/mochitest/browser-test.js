@@ -2358,9 +2358,6 @@ Sandbox
 (
 window
 {
-freshCompartment
-:
-true
 sandboxPrototype
 :
 window
@@ -8864,9 +8861,6 @@ Sandbox
 (
 window
 {
-freshCompartment
-:
-true
 sandboxPrototype
 :
 window
