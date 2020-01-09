@@ -1192,7 +1192,7 @@ ac_exeext
 }
 &
 &
-objdump
+LLVM_OBJDUMP
 -
 t
 conftest
