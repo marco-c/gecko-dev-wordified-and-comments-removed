@@ -849,6 +849,13 @@ RequestRepaint
 override
 ;
 virtual
+bool
+ShouldNotBeVisible
+(
+)
+override
+;
+virtual
 nsEventStatus
 HandleEvent
 (

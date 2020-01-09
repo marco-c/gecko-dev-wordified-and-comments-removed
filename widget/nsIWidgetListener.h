@@ -287,6 +287,12 @@ RequestRepaint
 )
 ;
 virtual
+bool
+ShouldNotBeVisible
+(
+)
+;
+virtual
 nsEventStatus
 HandleEvent
 (
