@@ -113,6 +113,13 @@ PropTypes
 shape
 (
 {
+brandName
+:
+PropTypes
+.
+string
+.
+isRequired
 channel
 :
 PropTypes
@@ -132,13 +139,6 @@ deviceName
 PropTypes
 .
 string
-name
-:
-PropTypes
-.
-string
-.
-isRequired
 version
 :
 PropTypes
@@ -183,7 +183,7 @@ props
 ;
 const
 {
-name
+brandName
 version
 connectionType
 }
@@ -228,7 +228,7 @@ debugTargetInfo
 .
 runtimeLabel
 "
-name
+brandName
 version
 )
 ;
