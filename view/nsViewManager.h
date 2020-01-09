@@ -502,11 +502,13 @@ nsView
 aView
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessPendingUpdates
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateWidgetGeometry
 (
@@ -543,6 +545,7 @@ FlushPendingInvalidates
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessPendingUpdatesForView
 (
@@ -573,6 +576,7 @@ nsIWidget
 aWidgets
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessPendingUpdatesPaint
 (
@@ -637,6 +641,7 @@ nsView
 aView
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Refresh
 (
@@ -773,6 +778,7 @@ mRefreshDisableCount
 0
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 WillPaintWindow
 (
@@ -781,6 +787,7 @@ nsIWidget
 aWidget
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 PaintWindow
 (

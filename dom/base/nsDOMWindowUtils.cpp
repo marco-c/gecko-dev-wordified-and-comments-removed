@@ -2176,6 +2176,8 @@ GetViewManager
 (
 )
 ;
+if
+(
 nsView
 *
 view
@@ -2186,10 +2188,6 @@ vm
 GetRootView
 (
 )
-;
-if
-(
-view
 )
 {
 nsAutoScriptBlocker
