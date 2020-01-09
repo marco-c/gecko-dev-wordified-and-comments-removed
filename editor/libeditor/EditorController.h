@@ -12,7 +12,7 @@ nscore
 h
 "
 class
-nsIControllerCommandTable
+nsControllerCommandTable
 ;
 namespace
 mozilla
@@ -27,7 +27,7 @@ static
 nsresult
 RegisterEditorCommands
 (
-nsIControllerCommandTable
+nsControllerCommandTable
 *
 aCommandTable
 )
@@ -36,7 +36,7 @@ static
 nsresult
 RegisterEditingCommands
 (
-nsIControllerCommandTable
+nsControllerCommandTable
 *
 aCommandTable
 )

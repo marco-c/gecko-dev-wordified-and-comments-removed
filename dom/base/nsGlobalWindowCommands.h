@@ -23,7 +23,7 @@ KeyboardScrollAction
 }
 }
 class
-nsIControllerCommandTable
+nsControllerCommandTable
 ;
 class
 nsWindowCommandRegistration
@@ -34,9 +34,9 @@ static
 nsresult
 RegisterWindowCommands
 (
-nsIControllerCommandTable
+nsControllerCommandTable
 *
-ccm
+aCommandTable
 )
 ;
 }

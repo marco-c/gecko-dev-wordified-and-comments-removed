@@ -26,6 +26,13 @@ h
 #
 include
 "
+nsControllerCommandTable
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -34,13 +41,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsIControllerCommandTable
 .
 h
 "
@@ -198,7 +198,7 @@ EditorController
 :
 RegisterEditingCommands
 (
-nsIControllerCommandTable
+nsControllerCommandTable
 *
 aCommandTable
 )
@@ -381,7 +381,7 @@ EditorController
 :
 RegisterEditorCommands
 (
-nsIControllerCommandTable
+nsControllerCommandTable
 *
 aCommandTable
 )

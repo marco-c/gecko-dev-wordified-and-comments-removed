@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIControllerCommandTable
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -39,6 +32,9 @@ nsIWeakReferenceUtils
 .
 h
 "
+class
+nsControllerCommandTable
+;
 class
 nsBaseCommandController
 :
@@ -65,7 +61,7 @@ NS_DECL_NSIINTERFACEREQUESTOR
 static
 already_AddRefed
 <
-nsIController
+nsBaseCommandController
 >
 CreateWindowController
 (
@@ -74,7 +70,7 @@ CreateWindowController
 static
 already_AddRefed
 <
-nsIController
+nsBaseCommandController
 >
 CreateEditorController
 (
@@ -83,7 +79,7 @@ CreateEditorController
 static
 already_AddRefed
 <
-nsIController
+nsBaseCommandController
 >
 CreateEditingController
 (
@@ -92,7 +88,7 @@ CreateEditingController
 static
 already_AddRefed
 <
-nsIController
+nsBaseCommandController
 >
 CreateHTMLEditorController
 (
@@ -101,7 +97,7 @@ CreateHTMLEditorController
 static
 already_AddRefed
 <
-nsIController
+nsBaseCommandController
 >
 CreateHTMLEditorDocStateController
 (
@@ -124,9 +120,9 @@ nsISupports
 *
 mCommandContextRawPtr
 ;
-nsCOMPtr
+RefPtr
 <
-nsIControllerCommandTable
+nsControllerCommandTable
 >
 mCommandTable
 ;
