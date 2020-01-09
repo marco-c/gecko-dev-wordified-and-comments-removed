@@ -414,14 +414,6 @@ nsIDocShell
 :
 nsIDocShellTreeItem
 {
-void
-setCancelContentJSEpoch
-(
-in
-long
-aEpoch
-)
-;
 /
 *
 *
