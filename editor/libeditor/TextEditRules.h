@@ -565,6 +565,7 @@ RemoveRedundantTrailingBR
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 CreateTrailingBRIfNeeded
@@ -613,6 +614,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 CreateElementResult
 CreateBR
 (
@@ -672,6 +674,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 CreateElementResult
 CreateMozBR
 (
@@ -815,6 +818,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 CreateElementResult
 CreateBRInternal
 (

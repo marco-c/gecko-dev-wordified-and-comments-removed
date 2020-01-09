@@ -1426,6 +1426,9 @@ blockquote
 "
 *
 /
+[
+can_run_script
+]
 void
 setParagraphFormat
 (
@@ -1939,6 +1942,9 @@ me
 *
 *
 /
+[
+can_run_script
+]
 void
 makeOrChangeList
 (
@@ -2016,6 +2022,9 @@ me
 *
 *
 /
+[
+can_run_script
+]
 void
 indent
 (

@@ -2061,7 +2061,10 @@ NS_OK
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 htmlEditor
+)
 -
 >
 IndentAsAction
@@ -2249,7 +2252,10 @@ NS_OK
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 htmlEditor
+)
 -
 >
 OutdentAsAction

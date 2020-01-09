@@ -1315,7 +1315,10 @@ Element
 >
 newBrElement
 =
+MOZ_KnownLive
+(
 mHTMLEditor
+)
 -
 >
 InsertBrElementWithTransaction

@@ -555,11 +555,13 @@ nsAtom
 aTagName
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 IndentAsAction
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OutdentAsAction
 (
@@ -1618,6 +1620,7 @@ nsAString
 aValue
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SplitStyleAbovePoint
 (
@@ -2272,6 +2275,7 @@ nsAtom
 aAttribute
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetPositionToAbsolute
 (
@@ -3384,6 +3388,7 @@ nsAString
 aStringToInsert
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 IndentOrOutdentAsSubAction
 (
@@ -4534,6 +4539,7 @@ nsAtom
 aTagName
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertBasicBlockWithTransaction
 (
@@ -4611,6 +4617,7 @@ nsRange
 aRange
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SplitStyleAboveRange
 (

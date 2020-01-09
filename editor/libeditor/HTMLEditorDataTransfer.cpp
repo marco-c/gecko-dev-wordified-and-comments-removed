@@ -1699,11 +1699,14 @@ splitNodeResult
 =
 SplitNodeDeepWithTransaction
 (
+MOZ_KnownLive
+(
 *
 pointToInsert
 .
 GetContainerAsContent
 (
+)
 )
 pointToInsert
 SplitAtEdges

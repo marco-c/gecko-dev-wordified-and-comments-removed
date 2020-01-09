@@ -2963,6 +2963,9 @@ sibling
 .
 *
 /
+[
+can_run_script
+]
 void
 splitNode
 (

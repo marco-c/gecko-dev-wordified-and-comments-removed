@@ -402,6 +402,7 @@ nsAString
 outFormat
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MakeSureElemStartsAndEndsOnCR
@@ -713,6 +714,7 @@ DidDeleteSelection
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertBRIfNeeded
@@ -728,6 +730,7 @@ aElement
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertBRIfNeeded
@@ -745,6 +748,7 @@ false
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertMozBRIfNeeded
@@ -762,6 +766,7 @@ true
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertBRIfNeededInternal
@@ -1042,6 +1047,7 @@ nsAtom
 aBlockType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DidMakeBasicBlock
@@ -1335,6 +1341,7 @@ nsIContent
 aEndOfRange
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitRangeOffFromNodeResult
 SplitRangeOffFromBlock
@@ -1704,6 +1711,7 @@ nsINode
 aNodeArray
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 BustUpInlinesAtRangeEndpoints
@@ -1818,6 +1826,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitNodeResult
 MaybeSplitAncestorsForInsertWithTransaction
@@ -1905,6 +1914,7 @@ ClearCachedStyles
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 InsertBRElementToEmptyListItemsAndTableCellsInChangedRange
@@ -1922,6 +1932,7 @@ CheckInterlinePosition
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 AdjustSelection
@@ -2040,6 +2051,7 @@ bool
 aDescendantsOnly
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MakeSureElemStartsOrEndsOnCR

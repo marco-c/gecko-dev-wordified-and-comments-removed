@@ -7838,8 +7838,11 @@ Element
 >
 brElement
 =
+MOZ_KnownLive
+(
 TextEditorRef
 (
+)
 )
 .
 InsertBrElementWithTransaction
