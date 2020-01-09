@@ -5138,7 +5138,7 @@ requestList
 .
 childNodes
 [
-1
+0
 ]
 ;
 const
@@ -5265,10 +5265,6 @@ document
 querySelector
 (
 "
-.
-devtools
--
-toolbar
 .
 requests
 -
@@ -5400,10 +5396,6 @@ document
 querySelector
 (
 "
-.
-devtools
--
-toolbar
 .
 requests
 -
