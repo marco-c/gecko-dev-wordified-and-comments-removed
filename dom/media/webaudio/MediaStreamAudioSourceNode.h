@@ -342,6 +342,12 @@ aTrack
 override
 ;
 void
+NotifyActive
+(
+)
+override
+;
+void
 PrincipalChanged
 (
 MediaStreamTrack
