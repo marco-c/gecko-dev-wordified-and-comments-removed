@@ -1457,6 +1457,8 @@ nsString
 aRemoteType
 BrowsingContext
 aBrowsingContext
+uint32_t
+aChromeFlags
 )
 ;
 /

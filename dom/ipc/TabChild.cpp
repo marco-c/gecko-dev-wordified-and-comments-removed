@@ -15884,6 +15884,9 @@ nsString
 &
 BrowsingContext
 *
+const
+uint32_t
+&
 )
 {
 MOZ_CRASH

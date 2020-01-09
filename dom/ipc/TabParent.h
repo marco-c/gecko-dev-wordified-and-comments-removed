@@ -1732,6 +1732,10 @@ aRemoteType
 BrowsingContext
 *
 aBrowsingContext
+const
+uint32_t
+&
+aChromeFlags
 )
 ;
 bool
@@ -1766,6 +1770,10 @@ aRemoteType
 BrowsingContext
 *
 aBrowsingContext
+const
+uint32_t
+&
+aChromeFlags
 )
 override
 ;
