@@ -9283,6 +9283,16 @@ FT_Select_Charmap
 face
 FT_ENCODING_UNICODE
 )
+&
+&
+FT_Err_Ok
+!
+=
+FT_Select_Charmap
+(
+face
+FT_ENCODING_MS_SYMBOL
+)
 )
 {
 Factory
