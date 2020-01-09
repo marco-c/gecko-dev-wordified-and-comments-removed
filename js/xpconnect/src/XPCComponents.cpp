@@ -6832,7 +6832,7 @@ sandbox
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 sandbox
 )
@@ -6915,7 +6915,7 @@ sandbox
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 sandbox
 )
@@ -7167,9 +7167,10 @@ if
 (
 NS_SUCCEEDED
 (
-UNWRAP_NON_WRAPPER_OBJECT
+UNWRAP_OBJECT
 (
 Window
+&
 global
 win
 )
@@ -8224,10 +8225,9 @@ obj
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 obj
-cx
 false
 )
 ;
@@ -10735,10 +10735,9 @@ scope
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 scope
-aCx
 )
 ;
 if
@@ -11040,10 +11039,9 @@ obj
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 obj
-cx
 )
 ;
 MOZ_ASSERT
@@ -11123,10 +11121,9 @@ obj
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 obj
-cx
 )
 ;
 MOZ_ASSERT

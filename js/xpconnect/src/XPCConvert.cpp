@@ -4309,7 +4309,6 @@ void
 *
 )
 d
-cx
 )
 ;
 if
@@ -5277,14 +5276,15 @@ aOuter
 RootedObject
 inner
 (
-cx
+RootingCx
+(
+)
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 src
-cx
 false
 )
 )
@@ -6287,10 +6287,9 @@ unwrapped
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 obj
-cx
 false
 )
 ;
@@ -6312,7 +6311,7 @@ nsISupports
 >
 supports
 =
-ReflectorToISupportsStatic
+UnwrapReflectorToISupports
 (
 unwrapped
 )

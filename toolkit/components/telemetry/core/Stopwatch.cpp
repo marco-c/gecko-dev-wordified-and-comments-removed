@@ -139,7 +139,7 @@ reflector
 xpc
 :
 :
-ReflectorToISupportsStatic
+UnwrapReflectorToISupports
 (
 aReflector
 )

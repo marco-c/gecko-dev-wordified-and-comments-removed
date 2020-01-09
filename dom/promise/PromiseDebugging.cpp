@@ -341,7 +341,7 @@ cx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 aPromise
 )
@@ -532,7 +532,7 @@ cx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 aPromise
 )
@@ -655,7 +655,7 @@ cx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 aPromise
 )
@@ -769,7 +769,7 @@ cx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 aPromise
 )
@@ -883,7 +883,7 @@ cx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 aPromise
 )

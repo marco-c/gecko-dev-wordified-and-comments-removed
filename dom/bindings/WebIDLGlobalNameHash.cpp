@@ -418,10 +418,9 @@ aCx
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 aObj
-aCx
 false
 )
 )
@@ -469,13 +468,12 @@ MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
-UNWRAP_MAYBE_CROSS_ORIGIN_OBJECT
+UNWRAP_OBJECT
 (
 Window
 &
 temp
 win
-aCx
 )
 )
 )

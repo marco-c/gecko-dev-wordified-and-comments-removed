@@ -3224,10 +3224,7 @@ toObject
 ;
 obj
 =
-js
-:
-:
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 obj
 )
