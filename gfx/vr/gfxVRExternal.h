@@ -277,6 +277,9 @@ aTextureType
 VRLayerTextureHandle
 *
 aTextureHandle
+IntSize_POD
+*
+aTextureSize
 )
 ;
 void
