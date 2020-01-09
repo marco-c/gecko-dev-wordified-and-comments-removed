@@ -9754,6 +9754,7 @@ TriggerInitialDocumentTranslation
 (
 )
 ;
+virtual
 void
 InitialDocumentTranslationCompleted
 (
