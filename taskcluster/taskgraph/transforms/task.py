@@ -136,6 +136,8 @@ optionally_keyed_by
 resolve_keyed_by
     
 OptimizationSchema
+    
+taskref_or_string
 )
 from
 taskgraph
@@ -238,26 +240,6 @@ RUN_TASK
 :
 20
 ]
-taskref_or_string
-=
-Any
-(
-    
-basestring
-    
-{
-Required
-(
-'
-task
--
-reference
-'
-)
-:
-basestring
-}
-)
 task_description_schema
 =
 Schema
