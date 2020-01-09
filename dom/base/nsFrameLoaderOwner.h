@@ -4,6 +4,13 @@ nsFrameLoaderOwner_h_
 #
 define
 nsFrameLoaderOwner_h_
+#
+include
+"
+nsISupports
+.
+h
+"
 class
 nsFrameLoader
 ;
