@@ -2427,7 +2427,7 @@ set_window_rect
 (
 0
 0
-600
+800
 +
 width_offset
 600
