@@ -373,7 +373,9 @@ updated
 )
 inspector
 .
-toolbox
+inspector
+.
+nodePicker
 .
 once
 (
@@ -418,7 +420,9 @@ args
 return
 inspector
 .
-toolbox
+inspector
+.
+nodePicker
 .
 once
 (

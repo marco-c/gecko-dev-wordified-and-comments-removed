@@ -325,9 +325,11 @@ focus
 await
 toolbox
 .
-highlighterUtils
+inspector
 .
-startPicker
+nodePicker
+.
+start
 (
 )
 ;
