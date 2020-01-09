@@ -8664,6 +8664,17 @@ sw
 aCharIndex
 )
 ;
+GetCharacterGlyphs
+(
+)
+[
+aCharIndex
+]
+.
+SetIsSpace
+(
+)
+;
 }
 }
 bool
