@@ -6455,9 +6455,6 @@ nsXPCWrappedJSClass
 >
 GetNewOrUsed
 (
-JSContext
-*
-cx
 REFNSIID
 aIID
 )
@@ -6622,9 +6619,6 @@ delete
 ;
 nsXPCWrappedJSClass
 (
-JSContext
-*
-cx
 REFNSIID
 aIID
 const
