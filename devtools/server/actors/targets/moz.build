@@ -129,6 +129,13 @@ js
 '
 '
 webextension
+-
+proxy
+.
+js
+'
+'
+webextension
 .
 js
 '
