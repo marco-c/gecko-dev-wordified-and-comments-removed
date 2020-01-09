@@ -775,6 +775,9 @@ alert_mic
 else
 {
 throw
+new
+Error
+(
 "
 Couldn
 '
@@ -787,6 +790,7 @@ microphones
 being
 used
 "
+)
 ;
 }
 if

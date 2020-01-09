@@ -679,9 +679,13 @@ aPassword
 )
 {
 throw
+new
+Error
+(
 "
 Unimplemented
 "
+)
 ;
 }
 getPKCS12FilePassword

@@ -211,6 +211,9 @@ this
 __strBundle
 )
 throw
+new
+Error
+(
 "
 String
 bundle
@@ -221,6 +224,7 @@ not
 present
 !
 "
+)
 ;
 }
 return

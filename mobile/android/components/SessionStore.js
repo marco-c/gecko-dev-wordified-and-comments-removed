@@ -7832,6 +7832,9 @@ e
 )
 {
 throw
+new
+Error
+(
 "
 Invalid
 session
@@ -7840,6 +7843,7 @@ JSON
 "
 +
 aData
+)
 ;
 }
 if
@@ -7885,6 +7889,9 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 Invalid
 session
@@ -7893,6 +7900,7 @@ JSON
 "
 +
 aData
+)
 ;
 }
 let
@@ -8251,6 +8259,8 @@ __SSID
 )
 {
 throw
+new
+Error
 (
 Components
 .
@@ -8290,6 +8300,8 @@ __SSID
 )
 {
 throw
+new
+Error
 (
 Components
 .
@@ -8588,6 +8600,8 @@ __SSID
 )
 {
 throw
+new
+Error
 (
 Components
 .

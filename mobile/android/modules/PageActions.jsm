@@ -120,6 +120,9 @@ if
 aURI
 )
 throw
+new
+Error
+(
 "
 Can
 '
@@ -129,6 +132,7 @@ an
 empty
 uri
 "
+)
 ;
 if
 (

@@ -202,6 +202,9 @@ undefined
 )
 {
 throw
+new
+Error
+(
 "
 Shared
 Preferences
@@ -211,6 +214,7 @@ a
 scope
 .
 "
+)
 ;
 }
 this

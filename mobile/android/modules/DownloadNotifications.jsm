@@ -865,6 +865,9 @@ download
 }
 }
 throw
+new
+Error
+(
 "
 Couldn
 '
@@ -875,6 +878,7 @@ for
 "
 +
 cookie
+)
 ;
 }
 )
