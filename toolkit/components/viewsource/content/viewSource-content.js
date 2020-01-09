@@ -2294,15 +2294,6 @@ nsIWebNavigation
 LOAD_FLAGS_NONE
 ;
 let
-referrerPolicy
-=
-Ci
-.
-nsIHttpChannel
-.
-REFERRER_POLICY_UNSET
-;
-let
 webNav
 =
 docShell
@@ -2328,7 +2319,6 @@ getSystemPrincipal
 (
 )
 loadFlags
-referrerPolicy
 baseURI
 :
 Services
