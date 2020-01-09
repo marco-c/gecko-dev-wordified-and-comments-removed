@@ -373,6 +373,10 @@ this
 .
 name
 .
+toLowerCase
+(
+)
+.
 includes
 (
 gFilterString
@@ -2173,6 +2177,10 @@ trim
 gFilterString
 =
 searchName
+.
+toLowerCase
+(
+)
 ;
 let
 prefArray
