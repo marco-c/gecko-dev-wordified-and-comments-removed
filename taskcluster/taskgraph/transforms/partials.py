@@ -988,6 +988,16 @@ run
 time
 '
 :
+3600
+if
+'
+asan
+'
+in
+dep_job
+.
+label
+else
 600
             
 '
