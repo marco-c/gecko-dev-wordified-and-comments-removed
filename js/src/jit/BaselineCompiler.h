@@ -1356,8 +1356,6 @@ t
 void
 pushScriptArg
 (
-Register
-scratch
 )
 ;
 void
