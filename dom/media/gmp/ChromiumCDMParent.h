@@ -873,12 +873,6 @@ mMaxRefFrames
 ReorderQueue
 mReorderQueue
 ;
-nsCOMPtr
-<
-nsIEventTarget
->
-mMainThread
-;
 }
 ;
 }
