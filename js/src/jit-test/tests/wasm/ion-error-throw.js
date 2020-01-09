@@ -42,7 +42,9 @@ i32
 param
 i32
 )
-get_local
+local
+.
+get
 0
 i32
 .
@@ -54,9 +56,13 @@ eq
 if
 unreachable
 end
-get_local
+local
+.
+get
 0
-get_local
+local
+.
+get
 1
 i32
 .

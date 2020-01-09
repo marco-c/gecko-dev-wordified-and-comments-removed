@@ -574,7 +574,9 @@ drop
 optext
 }
 (
-get_local
+local
+.
+get
 0
 )
 )
@@ -628,7 +630,9 @@ i32
 optext
 }
 (
-get_local
+local
+.
+get
 0
 )
 (

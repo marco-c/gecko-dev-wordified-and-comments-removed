@@ -30,7 +30,9 @@ out
 out
 end
 end
-get_local
+local
+.
+get
 p
 br_if
 0

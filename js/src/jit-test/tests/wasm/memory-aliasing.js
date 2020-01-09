@@ -65,7 +65,9 @@ i32
 .
 load8_u
 (
-get_local
+local
+.
+get
 base
 )
 )
@@ -77,7 +79,9 @@ offset
 =
 1
 (
-get_local
+local
+.
+get
 base
 )
 )
@@ -114,7 +118,9 @@ offset
 =
 1
 (
-get_local
+local
+.
+get
 base
 )
 )
@@ -126,7 +132,9 @@ offset
 =
 2
 (
-get_local
+local
+.
+get
 base
 )
 )

@@ -107,7 +107,9 @@ const
 5
 .
 0
-set_local
+local
+.
+set
 local
 f64
 .

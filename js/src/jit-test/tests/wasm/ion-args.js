@@ -23,7 +23,9 @@ i32
 param
 i32
 )
-get_local
+local
+.
+get
 0
 )
 (
@@ -42,7 +44,9 @@ f32
 param
 f32
 )
-get_local
+local
+.
+get
 0
 )
 (
@@ -61,7 +65,9 @@ f64
 param
 f64
 )
-get_local
+local
+.
+get
 0
 )
 (
@@ -113,7 +119,9 @@ f64
 param
 i32
 )
-get_local
+local
+.
+get
 f64
 )
 )
@@ -456,7 +464,9 @@ param
 last
 i32
 )
-get_local
+local
+.
+get
 last
 )
 )
@@ -634,7 +644,9 @@ param
 last
 i32
 )
-get_local
+local
+.
+get
 last
 )
 )
@@ -872,7 +884,9 @@ param
 last
 i32
 )
-get_local
+local
+.
+get
 last
 )
 )

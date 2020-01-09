@@ -191,9 +191,13 @@ param
 var1
 i64
 )
-get_local
+local
+.
+get
 var0
-get_local
+local
+.
+get
 var1
 i64
 .
@@ -214,7 +218,9 @@ i32
 result
 i64
 )
-get_local
+local
+.
+get
 var0
 i64
 .

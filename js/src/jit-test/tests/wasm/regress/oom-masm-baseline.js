@@ -50,7 +50,9 @@ i64
 .
 const
 0
-get_local
+local
+.
+get
 0
 drop
 i32

@@ -48,7 +48,9 @@ const
 1
 )
 (
-get_local
+local
+.
+get
 0
 )
 )

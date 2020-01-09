@@ -47,7 +47,9 @@ align
 =
 1
 (
-get_local
+local
+.
+get
 ptr
 )
 (
@@ -79,7 +81,9 @@ align
 =
 2
 (
-get_local
+local
+.
+get
 ptr
 )
 (
@@ -111,7 +115,9 @@ align
 =
 1
 (
-get_local
+local
+.
+get
 ptr
 )
 (

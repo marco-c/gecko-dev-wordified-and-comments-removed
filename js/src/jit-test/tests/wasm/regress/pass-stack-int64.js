@@ -40,7 +40,9 @@ locals
 +
 =
 (
-get_local
+local
+.
+get
 {
 i
 }

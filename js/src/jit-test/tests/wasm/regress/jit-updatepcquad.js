@@ -128,7 +128,9 @@ i32
 result
 i32
 )
-get_local
+local
+.
+get
 0
 call
 0

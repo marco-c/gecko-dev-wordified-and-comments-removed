@@ -71,10 +71,14 @@ i32
 loop
 top
 i32
-get_local
+local
+.
+get
 x
 if
-get_local
+local
+.
+get
 x
 br
 2

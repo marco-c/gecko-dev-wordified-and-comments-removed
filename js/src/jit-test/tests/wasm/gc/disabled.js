@@ -131,7 +131,9 @@ ref
 .
 is_null
 (
-get_local
+local
+.
+get
 0
 )
 )

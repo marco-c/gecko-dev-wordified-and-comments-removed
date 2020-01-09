@@ -39,7 +39,9 @@ get
 result
 anyref
 )
-get_global
+global
+.
+get
 anyref
 )
 )

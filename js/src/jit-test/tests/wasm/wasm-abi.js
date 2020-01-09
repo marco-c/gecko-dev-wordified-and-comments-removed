@@ -86,7 +86,9 @@ setLocals
 +
 =
 (
-set_local
+local
+.
+set
 {
 i
 +
@@ -97,7 +99,9 @@ i32
 .
 add
 (
-get_local
+local
+.
+get
 0
 )
 (
@@ -118,7 +122,9 @@ n
 getLocals
 +
 =
-get_local
+local
+.
+get
 {
 i
 +
