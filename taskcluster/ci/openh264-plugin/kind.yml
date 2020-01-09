@@ -686,7 +686,7 @@ attributes
 :
 build_platform
 :
-windows2012
+win64
 -
 aarch64
 build_type
