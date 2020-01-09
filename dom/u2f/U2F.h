@@ -546,11 +546,6 @@ C
 aCb
 )
 ;
-void
-ClearTransaction
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 void
 RejectTransaction
@@ -559,6 +554,11 @@ const
 nsresult
 &
 aError
+)
+;
+void
+ClearTransaction
+(
 )
 ;
 nsString
