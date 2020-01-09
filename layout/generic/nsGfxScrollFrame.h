@@ -2521,6 +2521,11 @@ mIsUsingMinimumScaleSize
 :
 1
 ;
+bool
+mMinimumScaleSizeChanged
+:
+1
+;
 mozilla
 :
 :
