@@ -83,17 +83,6 @@ aGivenProto
 )
 override
 ;
-nsresult
-SendControlMessage
-(
-already_AddRefed
-<
-nsIRunnable
->
-aRunnable
-)
-override
-;
 protected
 :
 already_AddRefed
