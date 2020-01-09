@@ -3421,7 +3421,7 @@ push
 (
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 HEURISTIC
 )
@@ -3448,7 +3448,7 @@ push
 (
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 SUGGESTION
 )
@@ -3475,7 +3475,7 @@ push
 (
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 EXTENSION
 )
@@ -3491,7 +3491,7 @@ push
 (
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 GENERAL
 )
@@ -3550,7 +3550,7 @@ values
 (
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 )
 .
 reduce
@@ -4177,7 +4177,7 @@ _cleanUpNonCurrentMatches
 (
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 HEURISTIC
 )
@@ -4611,7 +4611,7 @@ _cleanUpNonCurrentMatches
 (
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 SUGGESTION
 )
@@ -4834,7 +4834,7 @@ _cleanUpNonCurrentMatches
 (
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 GENERAL
 )
@@ -4854,7 +4854,7 @@ _counts
 [
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 GENERAL
 ]
@@ -4865,7 +4865,7 @@ _counts
 [
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 HEURISTIC
 ]
@@ -7364,7 +7364,7 @@ _counts
 [
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 EXTENSION
 ]
@@ -7375,7 +7375,7 @@ _counts
 [
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 HEURISTIC
 ]
@@ -7445,7 +7445,7 @@ type
 :
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 EXTENSION
 }
@@ -7623,7 +7623,7 @@ type
 =
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 SUGGESTION
 ;
@@ -7719,7 +7719,7 @@ _cleanUpNonCurrentMatches
 (
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 EXTENSION
 )
@@ -8332,7 +8332,7 @@ _counts
 [
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 GENERAL
 ]
@@ -8343,7 +8343,7 @@ _counts
 [
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 HEURISTIC
 ]
@@ -8544,7 +8544,7 @@ type
 =
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 HEURISTIC
 ;
@@ -8567,7 +8567,7 @@ type
 =
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 GENERAL
 ;
@@ -8798,7 +8798,7 @@ type
 =
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 HEURISTIC
 )
@@ -8951,7 +8951,7 @@ matchType
 =
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 HEURISTIC
 &
@@ -9082,7 +9082,7 @@ type
 =
 UrlbarUtils
 .
-MATCH_GROUP
+RESULT_GROUP
 .
 HEURISTIC
 &
