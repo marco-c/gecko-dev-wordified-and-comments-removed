@@ -155,9 +155,13 @@ playback_pageset_manifest
 '
 mitmproxy
 -
-playback
+recordings
 -
-set
+raptor
+-
+tp6
+-
+1
 .
 manifest
 '
@@ -170,10 +174,6 @@ playback_recordings
 ]
 =
 '
-mitmproxy
--
-recording
--
 amazon
 .
 mp
