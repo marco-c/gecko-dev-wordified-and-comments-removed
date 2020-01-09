@@ -1751,13 +1751,6 @@ aRawSegment
 nullptr
 )
 ;
-StreamTime
-GetEndOfAppendedData
-(
-TrackID
-aID
-)
-;
 void
 EndTrack
 (
