@@ -669,6 +669,12 @@ CallImportExpr
 BinaryNode
 )
 \
+F
+(
+InitExpr
+BinaryNode
+)
+\
 \
 /
 *
@@ -914,10 +920,10 @@ etc
 \
 /
 *
-ParseNode
+AssignmentNode
 :
 :
-isAssignment
+test
 assumes
 all
 these

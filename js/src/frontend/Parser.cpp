@@ -34736,7 +34736,7 @@ null
 }
 }
 AssignmentNodeType
-initializerAssignment
+initializerPropInit
 =
 handler_
 .
@@ -34745,7 +34745,7 @@ newAssignment
 ParseNodeKind
 :
 :
-AssignExpr
+InitExpr
 propAssignFieldAccess
 initializerExpr
 )
@@ -34753,7 +34753,7 @@ initializerExpr
 if
 (
 !
-initializerAssignment
+initializerPropInit
 )
 {
 return
@@ -34797,7 +34797,7 @@ handler_
 .
 newExprStatement
 (
-initializerAssignment
+initializerPropInit
 wholeInitializerPos
 .
 end

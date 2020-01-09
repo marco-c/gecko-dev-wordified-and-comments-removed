@@ -4040,13 +4040,13 @@ templateString
 ;
 MOZ_MUST_USE
 bool
-emitAssignment
+emitAssignmentOrInit
 (
+ParseNodeKind
+kind
 ParseNode
 *
 lhs
-JSOp
-compoundOp
 ParseNode
 *
 rhs
