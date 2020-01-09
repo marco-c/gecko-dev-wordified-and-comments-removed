@@ -501,6 +501,12 @@ test_names
         
 output
 .
+combine_browser_cycles
+(
+)
+        
+output
+.
 summarize_screenshots
 (
 self
