@@ -182,7 +182,7 @@ gc
 :
 Cell
 *
-maybeShape
+shape
 (
 )
 const
