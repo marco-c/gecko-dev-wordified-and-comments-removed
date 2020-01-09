@@ -129,6 +129,11 @@ mozIDOMLocalization
 .
 idl
 '
+'
+mozILocalization
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
