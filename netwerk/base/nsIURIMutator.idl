@@ -2001,7 +2001,7 @@ URIParams
 .
 *
 See
-nsIIPCSerializableURI
+nsIURI
 .
 *
 /
