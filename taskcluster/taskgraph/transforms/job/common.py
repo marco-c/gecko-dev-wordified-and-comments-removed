@@ -1458,7 +1458,7 @@ logging_args
 )
 ]
 def
-setup_secrets
+docker_worker_setup_secrets
 (
 config
 job
