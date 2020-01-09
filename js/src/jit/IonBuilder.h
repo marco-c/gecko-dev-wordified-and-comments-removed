@@ -3135,6 +3135,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_tonumeric
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_inc_or_dec
 (
 JSOp

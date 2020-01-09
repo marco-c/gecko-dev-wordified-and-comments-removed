@@ -99,12 +99,6 @@ ToBool_Fallback
 \
 _
 (
-ToNumber_Fallback
-)
-\
-\
-_
-(
 UnaryArith_Fallback
 )
 \

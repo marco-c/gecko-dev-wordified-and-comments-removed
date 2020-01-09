@@ -9565,7 +9565,7 @@ if
 !
 emit1
 (
-JSOP_POS
+JSOP_TONUMERIC
 )
 )
 {
