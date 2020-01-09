@@ -679,6 +679,9 @@ aState
 nsIFrame
 *
 aParentMenu
+nsIFrame
+*
+aAnchor
 bool
 aSizedToPopup
 )

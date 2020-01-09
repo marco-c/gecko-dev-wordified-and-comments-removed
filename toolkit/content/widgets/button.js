@@ -1125,12 +1125,6 @@ nsIDOMXULButtonElement
 ]
 )
 ;
-MozElements
-.
-ButtonBase
-=
-MozButtonBase
-;
 class
 MozButton
 extends

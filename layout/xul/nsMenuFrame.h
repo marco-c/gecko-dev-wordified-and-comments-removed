@@ -409,6 +409,12 @@ GetScrollTargetFrame
 )
 override
 ;
+nsIContent
+*
+GetAnchor
+(
+)
+;
 void
 OpenMenu
 (
