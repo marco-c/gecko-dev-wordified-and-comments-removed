@@ -27903,7 +27903,7 @@ nsIContent
 *
 capturingContent
 =
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent

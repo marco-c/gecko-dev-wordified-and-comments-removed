@@ -1930,7 +1930,7 @@ nsIContent
 *
 capturedContent
 =
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent

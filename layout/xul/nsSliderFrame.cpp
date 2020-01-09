@@ -5453,8 +5453,7 @@ isDraggingThumb
 const
 {
 return
-(
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent
@@ -5464,7 +5463,6 @@ GetCapturingContent
 =
 GetContent
 (
-)
 )
 ;
 }
