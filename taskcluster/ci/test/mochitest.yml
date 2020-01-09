@@ -592,6 +592,13 @@ ccov
 debug
 :
 7200
+windows10
+-
+aarch64
+/
+*
+:
+7200
 macosx64
 -
 ccov
