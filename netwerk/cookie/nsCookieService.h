@@ -1377,7 +1377,10 @@ nsDependentCString
 aCookieHeader
 nsCookieAttributes
 &
-aCookie
+aCookieAttributes
+bool
+&
+aDiscard
 )
 ;
 bool

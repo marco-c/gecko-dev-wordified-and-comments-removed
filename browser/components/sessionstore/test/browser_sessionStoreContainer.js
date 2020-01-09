@@ -684,6 +684,11 @@ USER_CONTEXTS
 [
 userContextId
 ]
++
+"
+=
+1
+"
 ;
 let
 {
