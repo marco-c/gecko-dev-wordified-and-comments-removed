@@ -14652,6 +14652,8 @@ RecvDispatchFocusToTopLevelWindow
 (
 )
 {
+if
+(
 nsCOMPtr
 <
 nsIWidget
@@ -14661,10 +14663,6 @@ widget
 GetTopLevelWidget
 (
 )
-;
-if
-(
-widget
 )
 {
 widget
@@ -14672,7 +14670,13 @@ widget
 >
 SetFocus
 (
-false
+nsIWidget
+:
+:
+Raise
+:
+:
+No
 )
 ;
 }

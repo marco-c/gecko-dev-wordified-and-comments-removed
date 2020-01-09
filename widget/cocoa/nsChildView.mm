@@ -2489,7 +2489,7 @@ nsWidgetInitData
 aInitData
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 /
 /
@@ -4443,14 +4443,13 @@ return
 true
 ;
 }
-nsresult
+void
 nsChildView
 :
 :
 SetFocus
 (
-bool
-aRaise
+Raise
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
@@ -4475,10 +4474,7 @@ makeFirstResponder
 mView
 ]
 ;
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
