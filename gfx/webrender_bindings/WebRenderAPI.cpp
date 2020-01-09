@@ -381,6 +381,12 @@ WebRenderPictureCaching
 &
 &
 supportPictureCaching
+gfxPrefs
+:
+:
+WebRenderStartDebugServer
+(
+)
 compositor
 -
 >
