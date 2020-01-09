@@ -59,6 +59,9 @@ x86
 -
 64
 "
+"
+aarch64
+"
 ]
 ;
 browser
