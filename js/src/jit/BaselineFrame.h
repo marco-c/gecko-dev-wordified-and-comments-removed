@@ -1060,6 +1060,14 @@ return
 interpreterPC_
 ;
 }
+void
+setInterpreterPC
+(
+jsbytecode
+*
+pc
+)
+;
 bool
 hasReturnValue
 (
