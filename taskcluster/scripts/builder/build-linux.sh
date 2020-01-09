@@ -730,14 +730,6 @@ debug
 \
 -
 -
-scm
--
-level
-=
-MOZ_SCM_LEVEL
-\
--
--
 work
 -
 dir
