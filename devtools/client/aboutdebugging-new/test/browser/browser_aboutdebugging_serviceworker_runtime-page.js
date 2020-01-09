@@ -103,11 +103,6 @@ window
 await
 openAboutDebugging
 (
-{
-enableWorkerUpdates
-:
-true
-}
 )
 ;
 const
