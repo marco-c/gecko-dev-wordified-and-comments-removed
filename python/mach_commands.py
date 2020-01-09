@@ -366,14 +366,6 @@ CommandArgument
 python
 '
                      
-default
-=
-'
-2
-.
-7
-'
-                     
 help
 =
 '
@@ -661,6 +653,16 @@ None
 kwargs
 )
 :
+        
+python
+=
+python
+or
+self
+.
+virtualenv_manager
+.
+python_path
         
 self
 .
