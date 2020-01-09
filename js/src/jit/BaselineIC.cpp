@@ -13890,7 +13890,7 @@ return
 false
 ;
 }
-TryAttachStubOld
+TryAttachStub
 <
 HasPropIRGenerator
 >
@@ -14082,7 +14082,7 @@ HasOwn
 "
 )
 ;
-TryAttachStubOld
+TryAttachStub
 <
 HasPropIRGenerator
 >
