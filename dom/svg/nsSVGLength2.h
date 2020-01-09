@@ -114,10 +114,10 @@ namespace
 dom
 {
 class
-DOMSVGLength
+DOMSVGAnimatedLength
 ;
 class
-SVGAnimatedLength
+DOMSVGLength
 ;
 class
 SVGAnimationElement
@@ -358,7 +358,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedLength
+DOMSVGAnimatedLength
 ;
 friend
 class
@@ -782,7 +782,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 ToDOMAnimatedLength
 (

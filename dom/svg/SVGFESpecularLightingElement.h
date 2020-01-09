@@ -192,7 +192,7 @@ override
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In1
 (
@@ -200,7 +200,7 @@ In1
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SurfaceScale
 (
@@ -208,7 +208,7 @@ SurfaceScale
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SpecularConstant
 (
@@ -216,7 +216,7 @@ SpecularConstant
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SpecularExponent
 (
@@ -224,7 +224,7 @@ SpecularExponent
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 KernelUnitLengthX
 (
@@ -232,7 +232,7 @@ KernelUnitLengthX
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 KernelUnitLengthY
 (

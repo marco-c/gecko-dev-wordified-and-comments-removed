@@ -105,7 +105,7 @@ namespace
 dom
 {
 class
-SVGAnimatedLength
+DOMSVGAnimatedLength
 ;
 JSObject
 *
@@ -283,7 +283,7 @@ SVGRectElement
 )
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRectElement
 :
@@ -306,7 +306,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRectElement
 :
@@ -329,7 +329,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRectElement
 :
@@ -352,7 +352,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRectElement
 :
@@ -375,7 +375,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRectElement
 :
@@ -398,7 +398,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGRectElement
 :

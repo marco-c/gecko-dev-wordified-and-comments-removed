@@ -260,7 +260,7 @@ GetReferencedPath
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Href
 (

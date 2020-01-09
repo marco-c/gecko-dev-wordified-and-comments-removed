@@ -234,7 +234,7 @@ override
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In1
 (
@@ -242,7 +242,7 @@ In1
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Dx
 (
@@ -250,7 +250,7 @@ Dx
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Dy
 (

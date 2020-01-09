@@ -1,11 +1,7 @@
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimatedString
+DOMSVGAnimatedString
 .
 h
 "
@@ -28,7 +24,7 @@ dom
 {
 JSObject
 *
-SVGAnimatedString
+DOMSVGAnimatedString
 :
 :
 WrapObject

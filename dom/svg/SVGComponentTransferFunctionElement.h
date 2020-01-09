@@ -182,7 +182,7 @@ override
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 Type
 (
@@ -198,7 +198,7 @@ TableValues
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Slope
 (
@@ -206,7 +206,7 @@ Slope
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Intercept
 (
@@ -214,7 +214,7 @@ Intercept
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Amplitude
 (
@@ -222,7 +222,7 @@ Amplitude
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Exponent
 (
@@ -230,7 +230,7 @@ Exponent
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Offset
 (

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGAnimatedString_h
+mozilla_dom_DOMSVGAnimatedString_h
 #
 define
-mozilla_dom_SVGAnimatedString_h
+mozilla_dom_DOMSVGAnimatedString_h
 #
 include
 "
@@ -18,7 +18,7 @@ namespace
 dom
 {
 class
-SVGAnimatedString
+DOMSVGAnimatedString
 :
 public
 nsISupports
@@ -28,7 +28,7 @@ nsWrapperCache
 public
 :
 explicit
-SVGAnimatedString
+DOMSVGAnimatedString
 (
 SVGElement
 *

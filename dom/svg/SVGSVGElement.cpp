@@ -707,7 +707,7 @@ SVGSVGElement
 )
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGSVGElement
 :
@@ -730,7 +730,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGSVGElement
 :
@@ -753,7 +753,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGSVGElement
 :
@@ -776,7 +776,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGSVGElement
 :

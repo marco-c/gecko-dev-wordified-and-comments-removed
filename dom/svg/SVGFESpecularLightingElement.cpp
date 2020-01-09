@@ -90,7 +90,7 @@ SVGFESpecularLightingElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFESpecularLightingElement
 :
@@ -113,7 +113,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpecularLightingElement
 :
@@ -136,7 +136,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpecularLightingElement
 :
@@ -159,7 +159,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpecularLightingElement
 :
@@ -182,7 +182,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpecularLightingElement
 :
@@ -209,7 +209,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFESpecularLightingElement
 :

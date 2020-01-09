@@ -159,7 +159,7 @@ override
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Offset
 (

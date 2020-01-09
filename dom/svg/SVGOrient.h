@@ -7,6 +7,13 @@ __NS_SVGORIENT_H__
 #
 include
 "
+DOMSVGAnimatedEnumeration
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -63,17 +70,6 @@ mozilla
 /
 dom
 /
-SVGAnimatedEnumeration
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SVGMarkerElementBinding
 .
 h
@@ -103,7 +99,7 @@ class
 DOMSVGAngle
 ;
 class
-SVGAnimatedAngle
+DOMSVGAnimatedAngle
 ;
 class
 SVGAnimationElement
@@ -137,7 +133,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedAngle
+DOMSVGAnimatedAngle
 ;
 typedef
 mozilla
@@ -374,7 +370,7 @@ already_AddRefed
 dom
 :
 :
-SVGAnimatedAngle
+DOMSVGAnimatedAngle
 >
 ToDOMAnimatedAngle
 (
@@ -388,7 +384,7 @@ already_AddRefed
 dom
 :
 :
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 ToDOMAnimatedEnum
 (
@@ -525,7 +521,7 @@ public
 dom
 :
 :
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 {
 DOMAnimatedEnum
 (
@@ -537,7 +533,7 @@ SVGElement
 aSVGElement
 )
 :
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 (
 aSVGElement
 )
@@ -563,7 +559,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 :
 :
 SetBaseVal

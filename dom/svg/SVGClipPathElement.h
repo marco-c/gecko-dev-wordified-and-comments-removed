@@ -158,7 +158,7 @@ override
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 ClipPathUnits
 (

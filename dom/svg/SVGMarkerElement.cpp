@@ -19,6 +19,13 @@ h
 #
 include
 "
+DOMSVGAngle
+.
+h
+"
+#
+include
+"
 SVGAnimatedPreserveAspectRatio
 .
 h
@@ -36,17 +43,6 @@ include
 mozilla
 /
 ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-DOMSVGAngle
 .
 h
 "
@@ -392,7 +388,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGMarkerElement
 :
@@ -415,7 +411,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGMarkerElement
 :
@@ -438,7 +434,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGMarkerElement
 :
@@ -461,7 +457,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGMarkerElement
 :
@@ -484,7 +480,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGMarkerElement
 :
@@ -507,7 +503,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGMarkerElement
 :
@@ -527,7 +523,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedAngle
+DOMSVGAnimatedAngle
 >
 SVGMarkerElement
 :

@@ -212,7 +212,7 @@ SVGFEColorMatrixElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEColorMatrixElement
 :
@@ -235,7 +235,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGFEColorMatrixElement
 :

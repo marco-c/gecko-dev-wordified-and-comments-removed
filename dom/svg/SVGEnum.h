@@ -7,6 +7,13 @@ __NS_SVGENUM_H__
 #
 include
 "
+DOMSVGAnimatedEnumeration
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -42,17 +49,6 @@ include
 mozilla
 /
 UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-SVGAnimatedEnumeration
 .
 h
 "
@@ -229,7 +225,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 ToDOMAnimatedEnum
 (
@@ -292,7 +288,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 {
 DOMAnimatedEnum
 (
@@ -310,7 +306,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 (
 aSVGElement
 )
@@ -337,7 +333,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 :
 :
 SetBaseVal

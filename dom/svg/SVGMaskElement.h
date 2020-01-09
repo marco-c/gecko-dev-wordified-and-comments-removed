@@ -187,7 +187,7 @@ override
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 MaskUnits
 (
@@ -195,7 +195,7 @@ MaskUnits
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 MaskContentUnits
 (
@@ -203,7 +203,7 @@ MaskContentUnits
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 X
 (
@@ -211,7 +211,7 @@ X
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Y
 (
@@ -219,7 +219,7 @@ Y
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Width
 (
@@ -227,7 +227,7 @@ Width
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Height
 (

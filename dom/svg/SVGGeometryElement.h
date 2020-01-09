@@ -95,7 +95,7 @@ namespace
 dom
 {
 class
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 ;
 typedef
 mozilla
@@ -661,7 +661,7 @@ aFor
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 PathLength
 (

@@ -400,7 +400,7 @@ mAttrEnum
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 nsSVGNumber2
 :

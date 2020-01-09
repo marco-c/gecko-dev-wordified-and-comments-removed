@@ -507,7 +507,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 X
 (
@@ -521,7 +521,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Y
 (
@@ -535,7 +535,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Width
 (
@@ -549,7 +549,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 Height
 (
@@ -563,7 +563,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 Result
 (

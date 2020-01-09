@@ -195,7 +195,7 @@ override
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 X
 (
@@ -203,7 +203,7 @@ X
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Y
 (
@@ -211,7 +211,7 @@ Y
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Z
 (
@@ -219,7 +219,7 @@ Z
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 PointsAtX
 (
@@ -227,7 +227,7 @@ PointsAtX
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 PointsAtY
 (
@@ -235,7 +235,7 @@ PointsAtY
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 PointsAtZ
 (
@@ -243,7 +243,7 @@ PointsAtZ
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SpecularExponent
 (
@@ -251,7 +251,7 @@ SpecularExponent
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 LimitingConeAngle
 (

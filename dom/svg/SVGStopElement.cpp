@@ -119,7 +119,7 @@ SVGStopElement
 )
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGStopElement
 :

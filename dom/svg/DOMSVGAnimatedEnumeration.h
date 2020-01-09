@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGAnimatedEnumeration_h
+mozilla_dom_DOMSVGAnimatedEnumeration_h
 #
 define
-mozilla_dom_SVGAnimatedEnumeration_h
+mozilla_dom_DOMSVGAnimatedEnumeration_h
 #
 include
 "
@@ -25,7 +25,7 @@ namespace
 dom
 {
 class
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 :
 public
 nsISupports
@@ -37,7 +37,7 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 )
 SVGElement
 *
@@ -101,7 +101,7 @@ AnimVal
 protected
 :
 explicit
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 (
 SVGElement
 *
@@ -116,7 +116,7 @@ aSVGElement
 }
 virtual
 ~
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 (
 )
 {

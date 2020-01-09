@@ -216,7 +216,7 @@ SVGForeignObjectElement
 )
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGForeignObjectElement
 :
@@ -239,7 +239,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGForeignObjectElement
 :
@@ -262,7 +262,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGForeignObjectElement
 :
@@ -285,7 +285,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGForeignObjectElement
 :

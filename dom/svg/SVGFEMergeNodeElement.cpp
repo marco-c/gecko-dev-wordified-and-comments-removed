@@ -122,7 +122,7 @@ in
 }
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEMergeNodeElement
 :

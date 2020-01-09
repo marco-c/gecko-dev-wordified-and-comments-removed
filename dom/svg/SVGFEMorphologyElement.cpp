@@ -189,7 +189,7 @@ SVGFEMorphologyElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEMorphologyElement
 :
@@ -212,7 +212,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGFEMorphologyElement
 :
@@ -235,7 +235,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEMorphologyElement
 :
@@ -262,7 +262,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEMorphologyElement
 :

@@ -293,7 +293,7 @@ SVGFETurbulenceElement
 )
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFETurbulenceElement
 :
@@ -320,7 +320,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFETurbulenceElement
 :
@@ -347,7 +347,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 SVGFETurbulenceElement
 :
@@ -370,7 +370,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFETurbulenceElement
 :
@@ -393,7 +393,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGFETurbulenceElement
 :
@@ -416,7 +416,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGFETurbulenceElement
 :

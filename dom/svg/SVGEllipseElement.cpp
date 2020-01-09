@@ -225,7 +225,7 @@ SVGEllipseElement
 )
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGEllipseElement
 :
@@ -248,7 +248,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGEllipseElement
 :
@@ -271,7 +271,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGEllipseElement
 :
@@ -294,7 +294,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 SVGEllipseElement
 :

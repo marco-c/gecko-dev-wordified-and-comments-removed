@@ -144,7 +144,7 @@ SVGFEGaussianBlurElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEGaussianBlurElement
 :
@@ -167,7 +167,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEGaussianBlurElement
 :
@@ -194,7 +194,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEGaussianBlurElement
 :

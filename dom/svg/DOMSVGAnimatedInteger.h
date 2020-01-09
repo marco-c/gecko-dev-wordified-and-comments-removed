@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGAnimatedInteger_h
+mozilla_dom_DOMSVGAnimatedInteger_h
 #
 define
-mozilla_dom_SVGAnimatedInteger_h
+mozilla_dom_DOMSVGAnimatedInteger_h
 #
 include
 "
@@ -25,7 +25,7 @@ namespace
 dom
 {
 class
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 :
 public
 nsISupports
@@ -37,7 +37,7 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 )
 SVGElement
 *
@@ -98,7 +98,7 @@ AnimVal
 protected
 :
 explicit
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 (
 SVGElement
 *
@@ -113,7 +113,7 @@ aSVGElement
 }
 virtual
 ~
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 (
 )
 {

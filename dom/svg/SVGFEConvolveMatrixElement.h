@@ -7,7 +7,7 @@ mozilla_dom_SVGFEConvolveMatrixElement_h
 #
 include
 "
-SVGAnimatedNumberList
+DOMSVGAnimatedNumberList
 .
 h
 "
@@ -92,7 +92,7 @@ class
 DOMSVGAnimatedNumberList
 ;
 class
-SVGAnimatedBoolean
+DOMSVGAnimatedBoolean
 ;
 typedef
 SVGFE
@@ -275,7 +275,7 @@ override
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In1
 (
@@ -283,7 +283,7 @@ In1
 ;
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 OrderX
 (
@@ -291,7 +291,7 @@ OrderX
 ;
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 OrderY
 (
@@ -307,7 +307,7 @@ KernelMatrix
 ;
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 TargetX
 (
@@ -315,7 +315,7 @@ TargetX
 ;
 already_AddRefed
 <
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 TargetY
 (
@@ -323,7 +323,7 @@ TargetY
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 EdgeMode
 (
@@ -331,7 +331,7 @@ EdgeMode
 ;
 already_AddRefed
 <
-SVGAnimatedBoolean
+DOMSVGAnimatedBoolean
 >
 PreserveAlpha
 (
@@ -339,7 +339,7 @@ PreserveAlpha
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Divisor
 (
@@ -347,7 +347,7 @@ Divisor
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Bias
 (
@@ -355,7 +355,7 @@ Bias
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 KernelUnitLengthX
 (
@@ -363,7 +363,7 @@ KernelUnitLengthX
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 KernelUnitLengthY
 (

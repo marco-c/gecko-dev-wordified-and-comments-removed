@@ -469,7 +469,7 @@ mAttrEnum
 }
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 SVGEnum
 :

@@ -90,7 +90,7 @@ SVGFEDiffuseLightingElement
 )
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 SVGFEDiffuseLightingElement
 :
@@ -113,7 +113,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDiffuseLightingElement
 :
@@ -136,7 +136,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDiffuseLightingElement
 :
@@ -159,7 +159,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDiffuseLightingElement
 :
@@ -186,7 +186,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGFEDiffuseLightingElement
 :

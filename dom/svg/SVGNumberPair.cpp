@@ -694,7 +694,7 @@ mAttrEnum
 }
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 SVGNumberPair
 :

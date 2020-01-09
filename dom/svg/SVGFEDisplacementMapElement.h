@@ -227,7 +227,7 @@ override
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In1
 (
@@ -235,7 +235,7 @@ In1
 ;
 already_AddRefed
 <
-SVGAnimatedString
+DOMSVGAnimatedString
 >
 In2
 (
@@ -243,7 +243,7 @@ In2
 ;
 already_AddRefed
 <
-SVGAnimatedNumber
+DOMSVGAnimatedNumber
 >
 Scale
 (
@@ -251,7 +251,7 @@ Scale
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 XChannelSelector
 (
@@ -259,7 +259,7 @@ XChannelSelector
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 YChannelSelector
 (

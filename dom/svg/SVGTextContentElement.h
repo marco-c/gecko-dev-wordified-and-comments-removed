@@ -18,11 +18,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 .
 h
 "
@@ -81,7 +77,7 @@ TextLength
 ;
 already_AddRefed
 <
-SVGAnimatedLength
+DOMSVGAnimatedLength
 >
 TextLength
 (
@@ -89,7 +85,7 @@ TextLength
 ;
 already_AddRefed
 <
-SVGAnimatedEnumeration
+DOMSVGAnimatedEnumeration
 >
 LengthAdjust
 (

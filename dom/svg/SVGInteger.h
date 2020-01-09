@@ -21,7 +21,7 @@ h
 #
 include
 "
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 .
 h
 "
@@ -204,7 +204,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 >
 ToDOMAnimatedInteger
 (
@@ -257,7 +257,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 {
 DOMAnimatedInteger
 (
@@ -275,7 +275,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedInteger
+DOMSVGAnimatedInteger
 (
 aSVGElement
 )
