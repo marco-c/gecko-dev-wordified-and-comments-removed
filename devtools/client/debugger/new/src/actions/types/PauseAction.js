@@ -148,10 +148,6 @@ type
 PAUSE_ON_EXCEPTIONS
 "
 +
-thread
-:
-string
-+
 shouldPauseOnExceptions
 :
 boolean
