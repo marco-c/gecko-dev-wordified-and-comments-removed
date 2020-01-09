@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIdentifierMapEntry
-.
-h
-"
-#
-include
-"
 nsIRadioGroupContainer
 .
 h

@@ -465,11 +465,6 @@ nsIContentSerializer
 h
 '
 '
-nsIdentifierMapEntry
-.
-h
-'
-'
 nsIDocumentObserver
 .
 h
@@ -711,6 +706,11 @@ h
 '
 '
 FullscreenChange
+.
+h
+'
+'
+IdentifierMapEntry
 .
 h
 '

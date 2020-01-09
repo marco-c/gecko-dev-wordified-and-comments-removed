@@ -18,6 +18,15 @@ h
 #
 include
 "
+mozilla
+/
+IdentifierMapEntry
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
@@ -33,13 +42,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsIdentifierMapEntry
 .
 h
 "
@@ -748,7 +750,7 @@ mDOMStyleSheets
 ;
 nsTHashtable
 <
-nsIdentifierMapEntry
+IdentifierMapEntry
 >
 mIdentifierMap
 ;
@@ -802,7 +804,7 @@ return
 nullptr
 ;
 }
-nsIdentifierMapEntry
+IdentifierMapEntry
 *
 entry
 =
