@@ -10321,7 +10321,6 @@ pic_context
 surface_index
 frame_context
 frame_state
-data_stores
 )
 {
 if

@@ -214,12 +214,6 @@ macro
 text_run
 )
 ;
-\
-macro
-(
-filterdata
-)
-;
 namespace
 mozilla
 {
