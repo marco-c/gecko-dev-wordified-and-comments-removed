@@ -48,6 +48,8 @@ uint32_t
 aExpireType
 int64_t
 aExpireTime
+int64_t
+aModificationTime
 )
 ;
 static
@@ -79,6 +81,8 @@ uint32_t
 aExpireType
 int64_t
 aExpireTime
+int64_t
+aModificationTime
 )
 ;
 virtual
@@ -106,6 +110,9 @@ mExpireType
 ;
 int64_t
 mExpireTime
+;
+int64_t
+mModificationTime
 ;
 }
 ;

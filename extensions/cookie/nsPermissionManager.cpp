@@ -8024,6 +8024,7 @@ typeIndex
 aPermission
 aExpireType
 aExpireTime
+aModificationTime
 u
 "
 added
@@ -8181,6 +8182,9 @@ mExpireType
 oldPermissionEntry
 .
 mExpireTime
+oldPermissionEntry
+.
+mModificationTime
 u
 "
 deleted
@@ -8543,6 +8547,7 @@ typeIndex
 aPermission
 aExpireType
 aExpireTime
+aModificationTime
 u
 "
 changed
@@ -8732,6 +8737,7 @@ typeIndex
 aPermission
 aExpireType
 aExpireTime
+aModificationTime
 u
 "
 changed
@@ -10181,6 +10187,9 @@ mExpireType
 perm
 .
 mExpireTime
+perm
+.
+mModificationTime
 )
 ;
 if
@@ -11423,6 +11432,9 @@ mExpireType
 permEntry
 .
 mExpireTime
+permEntry
+.
+mModificationTime
 )
 ;
 if
@@ -11645,6 +11657,9 @@ mExpireType
 permEntry
 .
 mExpireTime
+permEntry
+.
+mModificationTime
 )
 ;
 if
@@ -12164,6 +12179,8 @@ uint32_t
 aExpireType
 int64_t
 aExpireTime
+int64_t
+aModificationTime
 const
 char16_t
 *
@@ -12186,6 +12203,7 @@ aType
 aPermission
 aExpireType
 aExpireTime
+aModificationTime
 )
 ;
 if

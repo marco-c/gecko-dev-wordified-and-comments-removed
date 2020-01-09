@@ -1644,6 +1644,8 @@ uint32_t
 aExpireType
 int64_t
 aExpireTime
+int64_t
+aModificationTime
 const
 char16_t
 *
