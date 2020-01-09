@@ -117,6 +117,7 @@ GN
 gn
 >
 telemetry
+test_certificates
 integrated
 development
 environment
