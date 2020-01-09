@@ -241,7 +241,7 @@ nscoord_MIN
 ;
 }
 return
-roundf
+NSToIntRound
 (
 length
 )
