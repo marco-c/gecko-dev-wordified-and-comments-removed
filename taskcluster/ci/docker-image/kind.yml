@@ -262,6 +262,10 @@ zstandard
 -
 deb7
 -
+sqlite3
+-
+deb7
+-
 xz
 -
 utils
