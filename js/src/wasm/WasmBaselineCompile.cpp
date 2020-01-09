@@ -9736,9 +9736,6 @@ trapExitLayoutNumWords
 Decoder
 &
 decoder
-ExclusiveDeferredValidationState
-&
-dvs
 TempAllocator
 *
 alloc
@@ -59270,9 +59267,6 @@ trapExitLayoutNumWords
 Decoder
 &
 decoder
-ExclusiveDeferredValidationState
-&
-dvs
 TempAllocator
 *
 alloc
@@ -59292,7 +59286,6 @@ iter_
 (
 env
 decoder
-dvs
 )
 func_
 (
@@ -60188,9 +60181,6 @@ inputs
 CompiledCode
 *
 code
-ExclusiveDeferredValidationState
-&
-dvs
 UniqueChars
 *
 error
@@ -60381,7 +60371,6 @@ locals
 trapExitLayout
 trapExitLayoutNumWords
 d
-dvs
 &
 alloc
 &

@@ -354,9 +354,6 @@ env
 Decoder
 &
 decoder
-ExclusiveDeferredValidationState
-&
-dvs
 const
 FuncCompileInput
 &
@@ -378,7 +375,6 @@ iter_
 (
 env
 decoder
-dvs
 )
 func_
 (
@@ -24150,9 +24146,6 @@ inputs
 CompiledCode
 *
 code
-ExclusiveDeferredValidationState
-&
-dvs
 UniqueChars
 *
 error
@@ -24380,7 +24373,6 @@ f
 (
 env
 d
-dvs
 func
 locals
 mir
