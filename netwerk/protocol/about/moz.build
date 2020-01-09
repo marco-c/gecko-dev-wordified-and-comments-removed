@@ -105,6 +105,11 @@ EXPORTS
 =
 [
 '
+nsAboutProtocolHandler
+.
+h
+'
+'
 nsAboutProtocolUtils
 .
 h
