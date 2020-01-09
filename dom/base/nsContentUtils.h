@@ -1013,6 +1013,15 @@ static
 bool
 ShouldResistFingerprinting
 (
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
+bool
+ShouldResistFingerprinting
+(
 const
 Document
 *
