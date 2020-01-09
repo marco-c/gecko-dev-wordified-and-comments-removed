@@ -2552,6 +2552,7 @@ Bytes
 *
 serialized
 ;
+explicit
 SerializeListener
 (
 Bytes
