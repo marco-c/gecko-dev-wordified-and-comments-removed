@@ -23372,7 +23372,7 @@ thunks
 "
 )
 ;
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this
@@ -23526,7 +23526,7 @@ CallSiteDesc
 desc
 )
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 this

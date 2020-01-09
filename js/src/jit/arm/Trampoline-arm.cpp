@@ -1033,7 +1033,7 @@ numStackValues
 )
 ;
 {
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
@@ -3078,7 +3078,7 @@ masm
 Label
 bailout
 ;
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &

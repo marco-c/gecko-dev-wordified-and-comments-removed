@@ -20857,7 +20857,7 @@ defined
 (
 JS_CODEGEN_ARM
 )
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &

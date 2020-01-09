@@ -7155,7 +7155,7 @@ Assembler
 NotSigned
 )
 ;
-AutoForbidPools
+AutoForbidPoolsAndNops
 afp
 (
 &
