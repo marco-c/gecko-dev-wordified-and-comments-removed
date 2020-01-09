@@ -247,6 +247,13 @@ args
 kwargs
 )
         
+self
+.
+addon_ids
+=
+[
+]
+        
 with
 self
 .
@@ -890,6 +897,14 @@ Install
 a
 minimal
 addon
+and
+add
+its
+ID
+to
+self
+.
+addon_ids
 .
 "
 "
@@ -949,6 +964,8 @@ self
 marionette
 )
             
+addon_id
+=
 addons
 .
 install
@@ -993,6 +1010,18 @@ e
 message
 )
             
+)
+        
+else
+:
+            
+self
+.
+addon_ids
+.
+append
+(
+addon_id
 )
     
 property
