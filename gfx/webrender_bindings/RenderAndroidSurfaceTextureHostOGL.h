@@ -172,6 +172,10 @@ gfx
 IntSize
 mSize
 ;
+const
+bool
+mContinuousUpdate
+;
 bool
 mIsPrepared
 ;
