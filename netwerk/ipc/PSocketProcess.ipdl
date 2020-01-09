@@ -389,6 +389,16 @@ PProfilerChild
 aEndpoint
 )
 ;
+/
+/
+test
+-
+only
+async
+SocketProcessTelemetryPing
+(
+)
+;
 }
 ;
 }
