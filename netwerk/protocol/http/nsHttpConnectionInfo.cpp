@@ -219,6 +219,10 @@ const
 nsACString
 &
 username
+const
+nsACString
+&
+topWindowOrigin
 nsProxyInfo
 *
 proxyInfo
@@ -245,6 +249,7 @@ originHost
 originPort
 npnToken
 username
+topWindowOrigin
 proxyInfo
 originAttributes
 endToEndSSL
@@ -270,6 +275,10 @@ const
 nsACString
 &
 username
+const
+nsACString
+&
+topWindowOrigin
 nsProxyInfo
 *
 proxyInfo
@@ -338,6 +347,7 @@ originHost
 originPort
 npnToken
 username
+topWindowOrigin
 proxyInfo
 originAttributes
 true
@@ -364,6 +374,10 @@ const
 nsACString
 &
 username
+const
+nsACString
+&
+topWindowOrigin
 nsProxyInfo
 *
 proxyInfo
@@ -393,6 +407,10 @@ this
 mUsername
 =
 username
+;
+mTopWindowOrigin
+=
+topWindowOrigin
 ;
 mProxyInfo
 =
@@ -1108,6 +1126,7 @@ mOrigin
 mOriginPort
 mNPNToken
 mUsername
+mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 mEndToEndSSL
@@ -1130,6 +1149,7 @@ mOrigin
 mOriginPort
 mNPNToken
 mUsername
+mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 mRoutedHost
@@ -1322,6 +1342,7 @@ EmptyCString
 (
 )
 mUsername
+mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 mEndToEndSSL
@@ -1492,6 +1513,7 @@ NS_LITERAL_CSTRING
 0
 mNPNToken
 mUsername
+mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 true
