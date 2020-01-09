@@ -6,6 +6,8 @@ unicode_literals
 import
 os
 import
+requests
+import
 sys
 import
 threading
@@ -481,9 +483,6 @@ raptor
     
 import
 datetime
-    
-import
-requests
     
 def
 post_state
