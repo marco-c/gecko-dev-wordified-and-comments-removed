@@ -140,7 +140,7 @@ override
 ;
 static
 void
-Init
+InitStatics
 (
 )
 ;
