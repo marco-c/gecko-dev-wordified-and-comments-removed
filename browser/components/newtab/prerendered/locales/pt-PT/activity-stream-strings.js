@@ -1105,9 +1105,7 @@ firstrun_form_header
 Introduza
 o
 seu
-e
--
-mail
+email
 "
 "
 firstrun_form_sub_header
@@ -1209,7 +1207,7 @@ pocket_learn_more
 "
 :
 "
-Saber
+Saiba
 mais
 "
 }

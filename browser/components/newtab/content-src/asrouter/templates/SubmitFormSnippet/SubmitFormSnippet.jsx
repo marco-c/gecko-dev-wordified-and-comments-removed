@@ -364,6 +364,11 @@ method
 "
 POST
 "
+credentials
+:
+"
+omit
+"
 }
 )
 ;

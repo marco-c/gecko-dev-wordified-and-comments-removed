@@ -1168,13 +1168,5 @@ Aperir
 le
 menu
 "
-"
-pocket_learn_more
-"
-:
-"
-Saper
-plus
-"
 }
 ;

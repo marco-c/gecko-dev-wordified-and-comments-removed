@@ -303,5 +303,11 @@ waitingForSpoc
 :
 true
 }
+"
+Layout
+"
+:
+[
+]
 }
 ;

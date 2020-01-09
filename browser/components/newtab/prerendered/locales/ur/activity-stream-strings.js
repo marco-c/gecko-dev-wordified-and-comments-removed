@@ -379,9 +379,6 @@ prefs_highlights_options_download_label
 "
 :
 "
-Most
-Recent
-Download
 "
 "
 prefs_highlights_options_pocket_label
@@ -892,12 +889,6 @@ step
 "
 "
 context_menu_title
-"
-:
-"
-"
-"
-pocket_learn_more
 "
 :
 "

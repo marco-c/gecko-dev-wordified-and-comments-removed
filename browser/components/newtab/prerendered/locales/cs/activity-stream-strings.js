@@ -341,7 +341,7 @@ menu_action_remove_download
 "
 :
 "
-Odebrat
+Odstranit
 z
 historie
 "
@@ -1116,8 +1116,7 @@ section_menu_action_add_search_engine
 P
 idat
 vyhled
-vac
-modul
+va
 "
 "
 section_menu_action_move_up
@@ -1291,7 +1290,9 @@ firstrun_privacy_notice
 Z
 sadami
 ochrany
-soukrom
+osobn
+ch
+daj
 "
 "
 firstrun_continue_to_login
@@ -1321,15 +1322,6 @@ Otev
 e
 nab
 dku
-"
-"
-pocket_learn_more
-"
-:
-"
-Zjistit
-v
-ce
 "
 }
 ;

@@ -180,6 +180,13 @@ await
 fetch
 (
 TIPPYTOP_JSON_PATH
+{
+credentials
+:
+"
+omit
+"
+}
 )
 )
 .

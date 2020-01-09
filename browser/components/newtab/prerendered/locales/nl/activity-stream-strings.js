@@ -1144,13 +1144,5 @@ context_menu_title
 Menu
 openen
 "
-"
-pocket_learn_more
-"
-:
-"
-Meer
-info
-"
 }
 ;

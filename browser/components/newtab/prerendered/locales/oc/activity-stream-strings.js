@@ -799,9 +799,8 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Coss
+fonciona
 "
 "
 pocket_cta_button

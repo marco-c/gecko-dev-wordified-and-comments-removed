@@ -246,6 +246,13 @@ flow
 {
 fxaParams
 }
+{
+credentials
+:
+"
+omit
+"
+}
 )
 ;
 if
