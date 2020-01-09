@@ -634,6 +634,12 @@ maxLookahead
 }
 JS_HAZ_ROOTED
 ;
+#
+define
+JS_COLUMN_DIMENSION_IS_CODE_POINTS
+(
+)
+0
 class
 TokenStreamAnyChars
 :
@@ -5433,10 +5439,6 @@ startOffset_
 }
 }
 ;
-#
-define
-JS_COLUMN_DIMENSION_IS_CODE_POINTS
-0
 template
 <
 typename
