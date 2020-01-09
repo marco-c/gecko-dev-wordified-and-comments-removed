@@ -2340,6 +2340,10 @@ true
 ;
 break
 ;
+default
+:
+break
+;
 }
 actor
 =
