@@ -111,10 +111,6 @@ protocol
 PContent
 ;
 include
-protocol
-PContentBridge
-;
-include
 DOMTypes
 ;
 include
@@ -152,8 +148,6 @@ PJavaScript
 {
 manager
 PContent
-or
-PContentBridge
 ;
 both
 :
