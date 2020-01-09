@@ -1138,7 +1138,7 @@ AssertCalled
 (
 count
 =
-1
+3
 )
 override
 fun
@@ -1194,10 +1194,6 @@ uri
 endsWith
 (
 "
-trackertest
-.
-org
-/
 tracker
 .
 js
