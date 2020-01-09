@@ -694,7 +694,7 @@ in
 particular
 scrollbars
 at
-800
+600
 &
 #
 xD7
