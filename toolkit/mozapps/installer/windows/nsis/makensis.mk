@@ -160,6 +160,10 @@ ApplicationID
 .
 dll
 \
+BitsUtils
+.
+dll
+\
 CertCheck
 .
 dll

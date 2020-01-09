@@ -802,6 +802,14 @@ define
 MOZ_MAINTENANCE_SERVICE
 #
 endif
+#
+ifdef
+MOZ_BITS_DOWNLOAD
+!
+define
+MOZ_BITS_DOWNLOAD
+#
+endif
 !
 if
 "
