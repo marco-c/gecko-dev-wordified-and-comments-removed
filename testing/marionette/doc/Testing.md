@@ -894,11 +894,6 @@ address
 1
 :
 2828
--
--
-disable
--
-e10s
 To
 connect
 to
@@ -988,11 +983,6 @@ address
 1
 :
 2828
--
--
-disable
--
-e10s
 If
 Fennec
 is
