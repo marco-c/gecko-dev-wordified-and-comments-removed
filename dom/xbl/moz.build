@@ -216,16 +216,6 @@ nsXBLPrototypeHandler
 cpp
 '
 '
-nsXBLPrototypeResources
-.
-cpp
-'
-'
-nsXBLResourceLoader
-.
-cpp
-'
-'
 nsXBLSerialize
 .
 cpp
