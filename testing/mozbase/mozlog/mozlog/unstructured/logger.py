@@ -924,14 +924,10 @@ fmt
         
 return
 Formatter
-(
-fmt
-=
-fmt
-)
 .
 format
 (
+self
 record
 )
 def

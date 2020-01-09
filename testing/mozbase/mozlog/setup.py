@@ -15,9 +15,9 @@ mozlog
 PACKAGE_VERSION
 =
 '
-4
+3
 .
-0
+10
 '
 DEPS
 =
@@ -270,8 +270,6 @@ Python
 :
 :
 3
-.
-5
 '
                    
 '
