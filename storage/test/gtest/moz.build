@@ -120,6 +120,11 @@ test_mutex
 cpp
 '
 '
+test_service_init_background_thread
+.
+cpp
+'
+'
 test_spinningSynchronousClose
 .
 cpp

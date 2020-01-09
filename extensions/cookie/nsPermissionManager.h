@@ -793,7 +793,7 @@ true
 }
 static
 void
-Startup
+ClearOriginDataObserverInit
 (
 )
 ;
@@ -1791,6 +1791,9 @@ mPermissionTable
 ;
 int64_t
 mLargestID
+;
+bool
+mIsShuttingDown
 ;
 nsCOMPtr
 <

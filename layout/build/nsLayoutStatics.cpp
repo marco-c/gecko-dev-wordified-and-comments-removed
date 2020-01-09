@@ -1538,7 +1538,7 @@ Init
 nsPermissionManager
 :
 :
-Startup
+ClearOriginDataObserverInit
 (
 )
 ;
