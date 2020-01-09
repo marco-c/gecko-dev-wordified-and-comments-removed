@@ -29,7 +29,6 @@ nserror
 :
 {
 nsresult
-NsresultExt
 NS_ERROR_FAILURE
 }
 ;
