@@ -36,6 +36,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+ZoomConstraints
+.
+h
+"
+#
+include
+"
 nsTArrayForwardDeclare
 .
 h
