@@ -3299,6 +3299,9 @@ push_back
 kDtlsSrtpAes128CmHmacSha1_80
 )
 ;
+#
+ifndef
+NIGHTLY_BUILD
 ciphers
 .
 push_back
@@ -3306,6 +3309,8 @@ push_back
 kDtlsSrtpAes128CmHmacSha1_32
 )
 ;
+#
+endif
 return
 ciphers
 ;
