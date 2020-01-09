@@ -70,6 +70,7 @@ url
 :
 PAGE_URL
 }
+async
 browser
 =
 >
@@ -84,19 +85,6 @@ loaded
 "
 )
 ;
-return
-ContentTask
-.
-spawn
-(
-browser
-null
-async
-(
-)
-=
->
-{
 Assert
 .
 equal
@@ -183,9 +171,6 @@ click
 }
 )
 ;
-}
-)
-;
 await
 BrowserTestUtils
 .
@@ -197,6 +182,7 @@ url
 :
 PAGE_URL
 }
+async
 browser
 =
 >
