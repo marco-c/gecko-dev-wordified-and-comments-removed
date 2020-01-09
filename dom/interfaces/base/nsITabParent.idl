@@ -90,17 +90,6 @@ nsITabParent
 :
 nsISupports
 {
-void
-getChildProcessOffset
-(
-out
-int32_t
-aCssX
-out
-int32_t
-aCssY
-)
-;
 /
 *
 *
