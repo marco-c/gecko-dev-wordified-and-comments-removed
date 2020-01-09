@@ -11313,7 +11313,7 @@ option
 '
 -
 -
-enable
+disable
 -
 verify
 -
@@ -11322,7 +11322,7 @@ mar
 help
 =
 '
-Enable
+Disable
 verifying
 MAR
 signatures

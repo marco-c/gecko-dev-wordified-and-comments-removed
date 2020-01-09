@@ -35,14 +35,6 @@ disable
 install
 -
 strip
-ac_add_options
--
--
-enable
--
-verify
--
-mar
 export
 MOZ_LTO
 =
