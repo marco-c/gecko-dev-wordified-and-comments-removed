@@ -3358,6 +3358,7 @@ ACK_NOT_DELIVERED
 receivedBroadcastMessage
 (
 message
+context
 )
 {
 pushBroadcastService
@@ -3367,6 +3368,7 @@ receivedBroadcastMessage
 message
 .
 broadcasts
+context
 )
 .
 catch
