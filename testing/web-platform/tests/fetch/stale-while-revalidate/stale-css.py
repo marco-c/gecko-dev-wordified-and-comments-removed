@@ -6,31 +6,18 @@ response
 )
 :
     
-token
+cookie
 =
 request
 .
-GET
+cookies
 .
 first
 (
 "
-token
+Count
 "
 None
-)
-    
-value
-=
-request
-.
-server
-.
-stash
-.
-take
-(
-token
 )
     
 count
@@ -38,7 +25,7 @@ count
 0
     
 if
-value
+cookie
 !
 =
 None
@@ -48,6 +35,8 @@ count
 =
 int
 (
+cookie
+.
 value
 )
     
@@ -156,6 +145,25 @@ css
                
 (
 "
+Set
+-
+Cookie
+"
+"
+Count
+=
+{
+}
+"
+.
+format
+(
+count
+)
+)
+               
+(
+"
 Cache
 -
 Control
@@ -173,22 +181,10 @@ while
 -
 revalidate
 =
-60
+10
 "
 )
 ]
-      
-request
-.
-server
-.
-stash
-.
-put
-(
-token
-count
-)
       
 return
 200

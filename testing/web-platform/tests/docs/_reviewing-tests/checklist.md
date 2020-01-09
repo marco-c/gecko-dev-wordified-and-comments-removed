@@ -635,7 +635,7 @@ reference
 render
 within
 a
-800x600
+600x600
 viewport
 only
 displaying
@@ -1092,7 +1092,7 @@ test
 renders
 within
 a
-800x600
+600x600
 viewport
 only
 displaying

@@ -111,9 +111,6 @@ interface
 mixin
 NavigatorNetworkInformation
 {
-[
-SameObject
-]
 readonly
 attribute
 NetworkInformation

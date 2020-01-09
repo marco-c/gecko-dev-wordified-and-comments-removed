@@ -1,9 +1,3 @@
-#
-!
-/
-bin
-/
-bash
 set
 -
 ex

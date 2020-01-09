@@ -1,10 +1,4 @@
 #
-!
-/
-bin
-/
-bash
-#
 This
 script
 is
@@ -94,6 +88,12 @@ taskcluster
 .
 yml
 file
+#
+!
+/
+bin
+/
+bash
 set
 -
 ex

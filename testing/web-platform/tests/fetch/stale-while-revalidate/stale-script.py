@@ -3,7 +3,7 @@ random
 string
 datetime
 def
-id_token
+token
 (
 )
 :
@@ -42,31 +42,18 @@ response
 )
 :
     
-token
+cookie
 =
 request
 .
-GET
+cookies
 .
 first
 (
 "
-token
+Count
 "
 None
-)
-    
-value
-=
-request
-.
-server
-.
-stash
-.
-take
-(
-token
 )
     
 count
@@ -74,7 +61,7 @@ count
 0
     
 if
-value
+cookie
 !
 =
 None
@@ -84,6 +71,8 @@ count
 =
 int
 (
+cookie
+.
 value
 )
     
@@ -136,7 +125,7 @@ count
       
 unique_id
 =
-id_token
+token
 (
 )
       
@@ -175,15 +164,32 @@ while
 -
 revalidate
 =
-60
+10
 "
 )
                  
 (
 "
-Unique
+Set
 -
-Id
+Cookie
+"
+"
+Count
+=
+{
+}
+"
+.
+format
+(
+count
+)
+)
+                 
+(
+"
+Token
 "
 unique_id
 )
@@ -204,18 +210,6 @@ report
 format
 (
 unique_id
-)
-      
-request
-.
-server
-.
-stash
-.
-put
-(
-token
-count
 )
       
 return

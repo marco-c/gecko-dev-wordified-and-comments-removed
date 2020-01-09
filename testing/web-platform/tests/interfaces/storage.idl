@@ -62,9 +62,6 @@ interface
 mixin
 NavigatorStorage
 {
-[
-SameObject
-]
 readonly
 attribute
 StorageManager

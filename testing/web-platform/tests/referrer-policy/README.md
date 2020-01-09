@@ -783,13 +783,7 @@ defined
 in
 .
 /
-common
-/
-security
--
-features
-/
-resources
+generic
 /
 common
 .

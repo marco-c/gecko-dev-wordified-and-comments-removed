@@ -1490,21 +1490,6 @@ read
 )
     
 def
-reset
-(
-self
-)
-:
-        
-self
-.
-implementation
-.
-reset
-(
-)
-    
-def
 is_alive
 (
 self

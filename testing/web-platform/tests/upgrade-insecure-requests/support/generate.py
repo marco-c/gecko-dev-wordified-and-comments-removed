@@ -115,13 +115,11 @@ src
 =
 "
 /
-common
-/
-security
+mixed
 -
-features
+content
 /
-resources
+generic
 /
 common
 .

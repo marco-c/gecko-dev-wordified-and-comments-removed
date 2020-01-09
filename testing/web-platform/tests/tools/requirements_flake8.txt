@@ -3,9 +3,9 @@ flake8
 =
 3
 .
-7
+6
 .
-7
+0
 pycodestyle
 =
 =

@@ -74,7 +74,7 @@ Geometry
 Properties
 :
 parsing
-ry
+rx
 with
 invalid
 values
@@ -129,7 +129,7 @@ assert
 content
 =
 "
-ry
+rx
 supports
 only
 the
@@ -230,7 +230,7 @@ CDATA
 test_invalid_value
 (
 "
-ry
+rx
 "
 "
 10
@@ -240,7 +240,7 @@ ry
 test_invalid_value
 (
 "
-ry
+rx
 "
 "
 none
@@ -250,7 +250,7 @@ none
 test_invalid_value
 (
 "
-ry
+rx
 "
 "
 10px
@@ -261,7 +261,7 @@ ry
 test_invalid_value
 (
 "
-ry
+rx
 "
 "
 -

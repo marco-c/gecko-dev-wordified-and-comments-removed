@@ -1,8 +1,5 @@
 let
 functions
-=
-{
-}
 ;
 setup
 (

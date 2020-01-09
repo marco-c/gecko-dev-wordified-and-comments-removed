@@ -57,7 +57,7 @@ width
 of
 at
 least
-800px
+600px
 .
 *
 The

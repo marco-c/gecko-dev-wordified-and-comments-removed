@@ -27,15 +27,13 @@ mozcrash
 =
 1
 .
-1
-.
 0
 mozrunner
 =
 =
 7
 .
-4
+3
 .
 0
 mozleak

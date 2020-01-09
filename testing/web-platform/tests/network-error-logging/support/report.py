@@ -10,7 +10,6 @@ retrieve_from_stash
 request
 key
 timeout
-min_count
 default_value
 )
 :
@@ -64,14 +63,6 @@ value
 is
 not
 None
-and
-len
-(
-value
-)
->
-=
-min_count
 :
       
 request
@@ -281,32 +272,6 @@ timeout
 .
 5
     
-try
-:
-      
-min_count
-=
-int
-(
-request
-.
-GET
-.
-first
-(
-"
-min_count
-"
-)
-)
-    
-except
-:
-      
-min_count
-=
-1
-    
 return
 [
 (
@@ -327,7 +292,6 @@ retrieve_from_stash
 request
 key
 timeout
-min_count
 '
 [
 ]
