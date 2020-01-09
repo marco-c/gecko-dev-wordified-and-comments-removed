@@ -26,6 +26,17 @@ InlineTranslator
 .
 h
 "
+#
+include
+"
+mozilla
+/
+webrender
+/
+webrender_ffi
+.
+h
+"
 namespace
 mozilla
 {

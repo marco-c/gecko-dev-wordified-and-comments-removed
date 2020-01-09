@@ -29,6 +29,17 @@ LayerMLGPU
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+MLGPUScreenshotGrabber
+.
+h
+"
 namespace
 mozilla
 {
@@ -550,6 +561,9 @@ RefPtr
 MLGBuffer
 >
 mDiagnosticVertices
+;
+MLGPUScreenshotGrabber
+mProfilerScreenshotGrabber
 ;
 }
 ;

@@ -1442,6 +1442,13 @@ h
 '
 mlgpu
 /
+MLGPUScreenshotGrabber
+.
+h
+'
+'
+mlgpu
+/
 ShaderDefinitionsMLGPU
 .
 h
@@ -3056,6 +3063,13 @@ cpp
 mlgpu
 /
 MLGDevice
+.
+cpp
+'
+'
+mlgpu
+/
+MLGPUScreenshotGrabber
 .
 cpp
 '

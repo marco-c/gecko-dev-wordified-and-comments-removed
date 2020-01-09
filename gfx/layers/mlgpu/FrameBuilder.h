@@ -248,6 +248,12 @@ LayerMLGPU
 aLayer
 )
 ;
+MLGRenderTarget
+*
+GetWidgetRT
+(
+)
+;
 private
 :
 void
