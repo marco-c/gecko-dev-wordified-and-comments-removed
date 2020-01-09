@@ -25559,6 +25559,19 @@ y
 )
 )
 ;
+if
+(
+GetType
+(
+)
+=
+=
+DisplayItemType
+:
+:
+TYPE_BACKGROUND_COLOR
+)
+{
 nsDisplayListBuilder
 :
 :
@@ -25573,6 +25586,7 @@ GetType
 )
 )
 ;
+}
 return
 layer
 .
