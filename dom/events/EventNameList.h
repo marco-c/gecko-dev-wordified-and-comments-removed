@@ -407,6 +407,13 @@ eMouseEventClass
 )
 EVENT
 (
+cuechange
+eCueChange
+EventNameType_All
+eBasicEventClass
+)
+EVENT
+(
 dblclick
 eMouseDoubleClick
 EventNameType_HTMLXUL

@@ -217,6 +217,10 @@ eContextMenu
 )
 NS_EVENT_MESSAGE
 (
+eCueChange
+)
+NS_EVENT_MESSAGE
+(
 eLoad
 )
 NS_EVENT_MESSAGE
