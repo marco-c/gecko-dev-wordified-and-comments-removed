@@ -1056,6 +1056,7 @@ int32_t
 aEndPos
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 PasteText
 (

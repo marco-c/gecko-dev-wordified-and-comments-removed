@@ -203,6 +203,7 @@ aCanPaste
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 PasteTransferable
 (
@@ -335,6 +336,7 @@ GetDOMEventTarget
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PasteAsAction
 (
@@ -353,6 +355,7 @@ nsAString
 aStringToInsert
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 PasteAsQuotationAsAction

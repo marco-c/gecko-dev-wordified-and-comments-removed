@@ -3119,9 +3119,17 @@ IsAccessible
 )
 )
 {
+RefPtr
+<
+HyperTextAccessible
+>
+acc
+=
 Intl
 (
 )
+;
+acc
 -
 >
 PasteText

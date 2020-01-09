@@ -961,6 +961,9 @@ and
 formatting
 *
 /
+[
+can_run_script
+]
 void
 pasteNoFormatting
 (

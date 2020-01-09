@@ -393,6 +393,7 @@ aCanPaste
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 PasteTransferable
 (
@@ -498,6 +499,7 @@ aState
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 PasteAsQuotationAsAction
@@ -3278,6 +3280,7 @@ nullptr
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PasteInternal
 (
@@ -4167,7 +4170,7 @@ nsITransferable
 transferable
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertFromTransferable
 (

@@ -390,6 +390,9 @@ object
 .
 *
 /
+[
+can_run_script
+]
 void
 pasteText
 (

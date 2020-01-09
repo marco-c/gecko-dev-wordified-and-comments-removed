@@ -3661,8 +3661,10 @@ bool
 aValid
 )
 {
+RefPtr
+<
 HyperTextAccessible
-*
+>
 acc
 =
 IdToHyperTextAccessible

@@ -574,6 +574,7 @@ aEndPos
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 void
 pasteTextCB
@@ -602,8 +603,10 @@ if
 accWrap
 )
 {
+RefPtr
+<
 HyperTextAccessible
-*
+>
 text
 =
 accWrap

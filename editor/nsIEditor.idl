@@ -1987,6 +1987,9 @@ any
 )
 *
 /
+[
+can_run_script
+]
 void
 paste
 (
@@ -2021,6 +2024,9 @@ any
 .
 *
 /
+[
+can_run_script
+]
 void
 pasteTransferable
 (

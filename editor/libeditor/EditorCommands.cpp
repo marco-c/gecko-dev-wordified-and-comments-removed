@@ -1817,7 +1817,10 @@ textEditor
 )
 ;
 return
+MOZ_KnownLive
+(
 textEditor
+)
 -
 >
 PasteAsAction
@@ -2142,7 +2145,10 @@ textEditor
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 textEditor
+)
 -
 >
 PasteTransferable
@@ -5278,7 +5284,10 @@ textEditor
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 textEditor
+)
 -
 >
 PasteAsQuotationAsAction
@@ -5367,7 +5376,10 @@ textEditor
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 textEditor
+)
 -
 >
 PasteAsQuotationAsAction

@@ -4930,8 +4930,11 @@ aClipboardType
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 AsTextEditor
 (
+)
 )
 -
 >
