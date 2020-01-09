@@ -32902,6 +32902,14 @@ GetCrossOriginOpenerPolicy
 head
 )
 ;
+mLoadInfo
+-
+>
+SetOpenerPolicy
+(
+resultPolicy
+)
+;
 if
 (
 !
