@@ -263,6 +263,13 @@ waitForMeatballMenuToClose
 toolbox
 )
 ;
+await
+toolbox
+.
+destroy
+(
+)
+;
 }
 )
 ;
