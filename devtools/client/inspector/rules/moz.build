@@ -111,6 +111,11 @@ views
 DevToolsModules
 (
 '
+constants
+.
+js
+'
+'
 new
 -
 rules
