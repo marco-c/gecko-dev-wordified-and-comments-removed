@@ -17,8 +17,9 @@ asan
 #
 Disable
 telemetry
-unset
+ac_add_options
 MOZ_TELEMETRY_REPORTING
+=
 ac_add_options
 -
 -

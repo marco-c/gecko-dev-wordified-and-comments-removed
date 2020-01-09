@@ -134,10 +134,6 @@ export
 MOZILLA_OFFICIAL
 =
 1
-export
-MOZ_TELEMETRY_REPORTING
-=
-1
 ac_add_options
 -
 -

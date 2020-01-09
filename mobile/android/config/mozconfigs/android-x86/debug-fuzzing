@@ -29,9 +29,13 @@ debug
 mozconfig
 .
 unset
-MOZ_TELEMETRY_REPORTING
-unset
 MOZ_ANDROID_POCKET
+#
+Disable
+Telemetry
+ac_add_options
+MOZ_TELEMETRY_REPORTING
+=
 ac_add_options
 -
 -

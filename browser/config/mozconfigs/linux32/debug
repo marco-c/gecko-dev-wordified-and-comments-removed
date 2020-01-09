@@ -39,13 +39,6 @@ MOZILLA_OFFICIAL
 =
 1
 #
-Enable
-Telemetry
-export
-MOZ_TELEMETRY_REPORTING
-=
-1
-#
 Use
 ccache
 #

@@ -74,13 +74,6 @@ MOZ_PACKAGE_JSSHELL
 =
 1
 #
-Enable
-Telemetry
-export
-MOZ_TELEMETRY_REPORTING
-=
-1
-#
 Need
 this
 to

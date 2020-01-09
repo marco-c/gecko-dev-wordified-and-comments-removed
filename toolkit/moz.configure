@@ -5507,6 +5507,9 @@ env
 '
 MOZ_TELEMETRY_REPORTING
 '
+default
+=
+mozilla_official
 help
 =
 '

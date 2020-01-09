@@ -76,6 +76,12 @@ export
 MOZ_PKG_SPECIAL
 =
 asan
+#
+Disable
+telemetry
+ac_add_options
+MOZ_TELEMETRY_REPORTING
+=
 .
 "
 topsrcdir
