@@ -870,7 +870,7 @@ glinearRGBTosRGBMap
 000f
 }
 ;
-static
+extern
 const
 float
 gsRGBToLinearRGBMap

@@ -97,6 +97,14 @@ gfx
 :
 FilterPrimitiveDescription
 )
+extern
+const
+float
+gsRGBToLinearRGBMap
+[
+256
+]
+;
 namespace
 mozilla
 {
