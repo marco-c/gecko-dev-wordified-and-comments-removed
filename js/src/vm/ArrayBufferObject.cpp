@@ -6094,11 +6094,6 @@ reservedSlots
 ;
 if
 (
-true
-)
-{
-if
-(
 contents
 .
 kind
@@ -6234,7 +6229,6 @@ updateMallocCounter
 nAllocated
 )
 ;
-}
 }
 MOZ_ASSERT
 (
