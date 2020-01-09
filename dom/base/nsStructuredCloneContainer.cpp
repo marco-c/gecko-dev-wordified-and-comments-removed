@@ -572,9 +572,6 @@ SetLength
 size
 )
 ;
-if
-(
-!
 Data
 (
 )
@@ -589,12 +586,7 @@ BeginWriting
 )
 size
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 nsAutoCString
 base64Data
 ;
