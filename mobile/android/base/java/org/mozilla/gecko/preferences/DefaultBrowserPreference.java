@@ -60,17 +60,6 @@ mozilla
 .
 gecko
 .
-mma
-.
-MmaDelegate
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 PackageUtil
@@ -174,7 +163,7 @@ else
 if
 (
 !
-MmaDelegate
+PackageUtil
 .
 isDefaultBrowser
 (
