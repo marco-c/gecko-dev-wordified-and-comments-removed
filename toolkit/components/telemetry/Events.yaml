@@ -1193,6 +1193,8 @@ browserAction
 customize
 -
 pageAction
+-
+doorhanger
 extra_keys
 :
 action
@@ -1214,6 +1216,7 @@ contribute
 preferences
 installFromFile
 manage
+dismiss
 checkForUpdates
 checkForUpdate
 setUpdatePolicy
@@ -1247,6 +1250,7 @@ upon
 "
 view
 :
+>
 The
 view
 for
@@ -1256,6 +1260,14 @@ when
 object
 is
 aboutAddons
+or
+the
+specific
+doorhanger
+when
+object
+is
+doorhanger
 .
 addonId
 :
