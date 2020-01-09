@@ -1718,17 +1718,6 @@ method
         
 if
 '
-notxpcom
-'
-in
-method
-[
-'
-flags
-'
-]
-or
-'
 hidden
 '
 in
