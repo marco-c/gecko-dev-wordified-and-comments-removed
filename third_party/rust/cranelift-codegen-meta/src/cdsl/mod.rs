@@ -1,3 +1,15 @@
+#
+[
+macro_use
+]
+pub
+mod
+ast
+;
+pub
+mod
+cpu_modes
+;
 pub
 mod
 formats
@@ -33,6 +45,10 @@ types
 pub
 mod
 typevar
+;
+pub
+mod
+xform
 ;
 #
 [

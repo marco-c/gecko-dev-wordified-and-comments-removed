@@ -362,6 +362,11 @@ wasmparser
 /
 std
 "
+"
+failure
+/
+std
+"
 ]
 core
 =
