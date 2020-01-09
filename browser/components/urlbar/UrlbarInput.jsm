@@ -4023,6 +4023,16 @@ handleRevert
 }
 this
 .
+selectionStart
+=
+this
+.
+selectionEnd
+=
+0
+;
+this
+.
 closePopup
 (
 )
