@@ -26,8 +26,7 @@ from
 mozlog
 import
 structuredlog
-import
-wptlogging
+capture
 Stop
 =
 object
@@ -797,7 +796,7 @@ send_message
 )
     
 with
-wptlogging
+capture
 .
 CaptureIO
 (

@@ -28,6 +28,10 @@ wptlogging
 import
 wpttest
 from
+mozlog
+import
+capture
+from
 font
 import
 FontInstaller
@@ -867,7 +871,7 @@ kwargs
 :
     
 with
-wptlogging
+capture
 .
 CaptureIO
 (
