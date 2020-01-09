@@ -2643,9 +2643,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -2669,9 +2667,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -2722,6 +2718,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -3077,9 +3075,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -3130,6 +3126,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -3294,9 +3292,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -3347,6 +3343,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -3711,9 +3709,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -3764,6 +3760,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -4194,9 +4192,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -4247,6 +4243,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -4665,9 +4663,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -4718,6 +4714,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -5094,9 +5092,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -5147,6 +5143,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -5565,9 +5563,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -5618,6 +5614,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -5994,9 +5992,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -6047,6 +6043,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -6423,9 +6421,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -6476,6 +6472,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -11250,9 +11248,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -11276,9 +11272,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -11349,6 +11343,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -11569,9 +11565,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -11595,9 +11589,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -11646,6 +11638,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
@@ -12797,9 +12791,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -12823,9 +12815,7 @@ reference
 -
 browser
 .
-signed
--
-nightly
+v2
 .
 nightly
 .
@@ -12876,6 +12866,8 @@ mozilla
 reference
 .
 browser
+.
+raptor
 -
 -
 -
