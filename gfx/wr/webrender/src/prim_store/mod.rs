@@ -8124,11 +8124,6 @@ pic
 local_rect
 frame_context
 frame_state
-.
-resource_cache
-frame_state
-.
-retained_tiles
 )
 ;
 frame_state

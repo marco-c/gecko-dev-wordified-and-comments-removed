@@ -4028,6 +4028,7 @@ BoxShadow
 source
 )
 }
+pub
 fn
 get_local_clip_rect
 (
