@@ -2803,6 +2803,7 @@ GetScrollYOuter
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SizeToContentOuter
 (
@@ -4003,6 +4004,7 @@ nscoord
 height
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SetDocShellWidthAndHeight
 (

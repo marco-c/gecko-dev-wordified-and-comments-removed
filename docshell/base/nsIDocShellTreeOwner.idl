@@ -357,6 +357,9 @@ specified
 .
 *
 /
+[
+can_run_script
+]
 void
 sizeShellTo
 (

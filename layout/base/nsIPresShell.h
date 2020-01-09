@@ -998,6 +998,7 @@ eBSizeExact
 eBSizeLimit
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 ResizeReflow
