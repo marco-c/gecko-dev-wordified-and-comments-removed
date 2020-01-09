@@ -543,6 +543,16 @@ set_sp
 tos
 )
 ;
+if
+(
+getenv
+(
+"
+VIXL_STATS
+"
+)
+)
+{
 instrumentation_
 =
 js_new
@@ -570,6 +580,7 @@ true
 ;
 return
 ;
+}
 }
 print_exclusive_access_warning_
 =

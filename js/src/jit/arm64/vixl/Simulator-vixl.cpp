@@ -1327,6 +1327,17 @@ value
 {
 if
 (
+instrumentation_
+=
+=
+nullptr
+)
+{
+return
+;
+}
+if
+(
 value
 !
 =
