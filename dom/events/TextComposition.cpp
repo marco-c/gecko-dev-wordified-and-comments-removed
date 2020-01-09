@@ -2810,6 +2810,10 @@ GetEditorBase
 ;
 MOZ_ASSERT
 (
+!
+editorBase
+|
+|
 editorBase
 =
 =
