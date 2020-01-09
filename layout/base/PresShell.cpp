@@ -31802,6 +31802,12 @@ return
 NS_OK
 ;
 }
+nsCOMPtr
+<
+nsIContent
+>
+overrideClickTarget
+;
 if
 (
 PointerEventHandler
@@ -31835,9 +31841,7 @@ if
 pointerCapturingContent
 )
 {
-eventTargetData
-.
-mOverrideClickTarget
+overrideClickTarget
 =
 GetOverrideClickTarget
 (
@@ -32137,9 +32141,7 @@ HandleEventInternal
 aGUIEvent
 aEventStatus
 true
-eventTargetData
-.
-mOverrideClickTarget
+overrideClickTarget
 )
 ;
 #
