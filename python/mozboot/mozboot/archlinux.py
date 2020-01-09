@@ -578,6 +578,12 @@ Multilib
 raise
 e
         
+self
+.
+ensure_java
+(
+)
+        
 from
 mozboot
 import

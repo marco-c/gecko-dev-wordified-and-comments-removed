@@ -790,6 +790,12 @@ bin
 ]
 )
         
+self
+.
+ensure_java
+(
+)
+        
 from
 mozboot
 import
