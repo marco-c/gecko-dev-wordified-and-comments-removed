@@ -685,6 +685,10 @@ RequestTabStateFlush
 (
 uint32_t
 aFlushId
+bool
+aIsFinal
+=
+false
 )
 ;
 void

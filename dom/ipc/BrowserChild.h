@@ -1808,6 +1808,10 @@ const
 uint32_t
 &
 aFlushId
+const
+bool
+&
+aIsFinal
 )
 ;
 mozilla
@@ -3214,6 +3218,10 @@ UpdateSessionStore
 (
 uint32_t
 aFlushId
+bool
+aIsFinal
+=
+false
 )
 ;
 protected

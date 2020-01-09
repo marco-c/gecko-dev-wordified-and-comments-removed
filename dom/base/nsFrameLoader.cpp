@@ -8456,6 +8456,12 @@ mDestroyCalled
 =
 true
 ;
+RequestTabStateFlush
+(
+0
+true
+)
+;
 if
 (
 mMessageManager
@@ -14688,6 +14694,8 @@ RequestTabStateFlush
 (
 uint32_t
 aFlushId
+bool
+aIsFinal
 )
 {
 if
@@ -14701,6 +14709,7 @@ mSessionStoreListener
 ForceFlushFromParent
 (
 aFlushId
+aIsFinal
 )
 ;
 return
@@ -14721,6 +14730,7 @@ mBrowserParent
 SendFlushTabState
 (
 aFlushId
+aIsFinal
 )
 ;
 return

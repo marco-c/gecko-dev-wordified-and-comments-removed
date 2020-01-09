@@ -3653,6 +3653,8 @@ int32_t
 aPositionDescendants
 uint32_t
 aFlushId
+bool
+aIsFinal
 )
 ;
 child
@@ -3671,6 +3673,8 @@ FlushTabState
 (
 uint32_t
 aFlushId
+bool
+aIsFinal
 )
 ;
 parent

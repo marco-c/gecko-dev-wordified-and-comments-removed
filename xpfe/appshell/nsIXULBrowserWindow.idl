@@ -643,6 +643,9 @@ aBrowser
 in
 uint32_t
 aFlushId
+in
+boolean
+aIsFinal
 )
 ;
 }

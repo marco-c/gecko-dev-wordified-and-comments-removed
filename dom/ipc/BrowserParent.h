@@ -1226,6 +1226,10 @@ const
 uint32_t
 &
 aFlushId
+const
+bool
+&
+aIsFinal
 )
 ;
 mozilla

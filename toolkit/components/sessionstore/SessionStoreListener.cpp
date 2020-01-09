@@ -1880,6 +1880,8 @@ ForceFlushFromParent
 (
 uint32_t
 aFlushId
+bool
+aIsFinal
 )
 {
 if
@@ -1908,6 +1910,7 @@ return
 UpdateSessionStore
 (
 aFlushId
+aIsFinal
 )
 ;
 }
@@ -1919,6 +1922,8 @@ UpdateSessionStore
 (
 uint32_t
 aFlushId
+bool
+aIsFinal
 )
 {
 if
@@ -2199,6 +2204,7 @@ UpdateSessionStore
 (
 mOwnerContent
 aFlushId
+aIsFinal
 )
 ;
 StopTimerForUpdate
