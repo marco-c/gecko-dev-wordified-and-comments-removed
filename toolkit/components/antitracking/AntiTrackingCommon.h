@@ -272,6 +272,7 @@ eStorageChecks
 eTrackingProtection
 eTrackingAnnotations
 eFingerprinting
+eCryptomining
 }
 ;
 static

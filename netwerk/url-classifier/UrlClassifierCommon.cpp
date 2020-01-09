@@ -463,6 +463,15 @@ AntiTrackingCommon
 :
 :
 eFingerprinting
+|
+|
+aBlockingPurpose
+=
+=
+AntiTrackingCommon
+:
+:
+eCryptomining
 )
 ;
 nsCOMPtr
