@@ -118,10 +118,14 @@ including
 suite
 )
 if
+'
+gtk
+'
+in
 CONFIG
 [
 '
-MOZ_HAS_REMOTE
+MOZ_WIDGET_TOOLKIT
 '
 ]
 :

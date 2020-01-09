@@ -852,6 +852,12 @@ system
 /
 gnome
 '
+'
+/
+widget
+/
+xremoteclient
+'
 ]
 if
 CONFIG
