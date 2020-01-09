@@ -215,17 +215,6 @@ attribute
 long
 OffMainThreadPaintWorkerCount
 ;
-readonly
-attribute
-boolean
-LowEndMachine
-;
-readonly
-attribute
-unsigned
-long
-TargetFrameRate
-;
 /
 /
 XXX

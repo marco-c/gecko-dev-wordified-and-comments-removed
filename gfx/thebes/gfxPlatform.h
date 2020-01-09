@@ -2147,12 +2147,6 @@ true
 ;
 }
 ;
-static
-uint32_t
-TargetFrameRate
-(
-)
-;
 protected
 :
 gfxPlatform

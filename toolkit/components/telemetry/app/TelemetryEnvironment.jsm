@@ -8184,15 +8184,6 @@ ContentBackend
 "
 null
 )
-LowEndMachine
-:
-getGfxField
-(
-"
-LowEndMachine
-"
-false
-)
 adapters
 :
 [
