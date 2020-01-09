@@ -8,14 +8,14 @@ EXPECTED_TARGET_PANES
 =
 [
 "
+Tabs
+"
+"
 Temporary
 Extensions
 "
 "
 Extensions
-"
-"
-Tabs
 "
 "
 Service
