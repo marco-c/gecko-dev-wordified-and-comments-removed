@@ -941,7 +941,6 @@ df
 live
 .
 com
-.
 *
 .
 officeapps
