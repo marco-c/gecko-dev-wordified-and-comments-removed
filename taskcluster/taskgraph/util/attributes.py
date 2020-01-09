@@ -35,6 +35,9 @@ comm
 -
 central
 '
+'
+oak
+'
 }
 RELEASE_PROJECTS
 =
@@ -80,6 +83,10 @@ beta
 comm
 -
 esr60
+'
+    
+'
+oak
 '
 }
 RELEASE_PROMOTION_PROJECTS

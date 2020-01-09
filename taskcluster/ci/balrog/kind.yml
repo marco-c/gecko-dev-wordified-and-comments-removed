@@ -137,6 +137,8 @@ release
 type
 :
 nightly
+.
+*
 :
 false
 default
