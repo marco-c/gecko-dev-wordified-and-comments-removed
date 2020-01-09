@@ -239,6 +239,11 @@ Shmem
 profile
 )
 ;
+async
+ClearAllPages
+(
+)
+;
 }
 ;
 }

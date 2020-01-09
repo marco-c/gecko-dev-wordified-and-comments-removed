@@ -112,6 +112,12 @@ ProfilerResumed
 (
 )
 ;
+static
+void
+ClearAllPages
+(
+)
+;
 private
 :
 friend

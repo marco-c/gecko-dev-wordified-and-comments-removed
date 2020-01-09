@@ -1239,6 +1239,11 @@ nsID
 aRegisteredDocShellId
 )
 ;
+void
+profiler_clear_all_pages
+(
+)
+;
 class
 BaseProfilerCount
 ;
