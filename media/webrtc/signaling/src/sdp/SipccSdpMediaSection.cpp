@@ -606,6 +606,15 @@ kTcpTlsRtpSavpf
 break
 ;
 case
+SDP_TRANSPORT_TCPDTLSRTPSAVPF
+:
+mProtocol
+=
+kTcpDtlsRtpSavpf
+;
+break
+;
+case
 SDP_TRANSPORT_DTLSSCTP
 :
 mProtocol

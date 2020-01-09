@@ -293,6 +293,7 @@ RustSdpProtocolValue
 RtpSavpf
 UdpTlsRtpSavpf
 TcpTlsRtpSavpf
+TcpDtlsRtpSavpf
 DtlsSctp
 UdpDtlsSctp
 TcpDtlsSctp
@@ -358,6 +359,16 @@ RustSdpProtocolValue
 :
 :
 TcpTlsRtpSavpf
+SdpProtocolValue
+:
+:
+TcpDtlsRtpSavpf
+=
+>
+RustSdpProtocolValue
+:
+:
+TcpDtlsRtpSavpf
 SdpProtocolValue
 :
 :
