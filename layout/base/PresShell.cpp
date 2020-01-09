@@ -31310,12 +31310,6 @@ return
 NS_OK
 ;
 }
-nsIFrame
-*
-frame
-=
-aFrame
-;
 if
 (
 aGUIEvent
@@ -31339,6 +31333,12 @@ GetCapturingContentFor
 (
 aGUIEvent
 )
+;
+nsIFrame
+*
+frameForPresShell
+=
+aFrame
 ;
 if
 (
@@ -31369,7 +31369,7 @@ UnlockPointer
 AutoWeakFrame
 weakFrame
 (
-frame
+frameForPresShell
 )
 ;
 {
@@ -31403,7 +31403,7 @@ IsAlive
 )
 )
 {
-frame
+frameForPresShell
 =
 GetNearestFrameContainingPresShell
 (
@@ -31415,7 +31415,7 @@ mPresShell
 if
 (
 !
-frame
+frameForPresShell
 )
 {
 NS_WARNING
@@ -31438,7 +31438,7 @@ nsPresContext
 *
 framePresContext
 =
-frame
+frameForPresShell
 -
 >
 PresContext
@@ -31523,6 +31523,12 @@ capturingContent
 nullptr
 ;
 }
+nsIFrame
+*
+rootFrameToHandleEvent
+=
+frameForPresShell
+;
 if
 (
 popupFrame
@@ -31562,7 +31568,7 @@ framePresContext
 rootPresContext
 &
 &
-frame
+frameForPresShell
 =
 =
 FrameConstructor
@@ -31575,7 +31581,7 @@ GetRootFrame
 )
 )
 {
-frame
+rootFrameToHandleEvent
 =
 popupFrame
 ;
@@ -31601,7 +31607,7 @@ GetContent
 )
 )
 {
-frame
+rootFrameToHandleEvent
 =
 popupFrame
 ;
@@ -31764,7 +31770,7 @@ if
 scrollFrame
 )
 {
-frame
+rootFrameToHandleEvent
 =
 scrollFrame
 -
@@ -31794,7 +31800,7 @@ nullptr
 AutoWeakFrame
 frameKeeper
 (
-frame
+rootFrameToHandleEvent
 )
 ;
 PointerEventHandler
@@ -31851,7 +31857,7 @@ if
 pointerCapturingContent
 )
 {
-frame
+rootFrameToHandleEvent
 =
 pointerCapturingContent
 -
@@ -31863,7 +31869,7 @@ GetPrimaryFrame
 if
 (
 !
-frame
+rootFrameToHandleEvent
 )
 {
 RefPtr
@@ -31983,6 +31989,12 @@ WidgetMouseEvent
 eTopLevel
 )
 ;
+nsIFrame
+*
+frameToHandleEvent
+=
+rootFrameToHandleEvent
+;
 if
 (
 !
@@ -32008,7 +32020,7 @@ mClass
 eTouchEventClass
 )
 {
-frame
+frameToHandleEvent
 =
 TouchManager
 :
@@ -32021,7 +32033,7 @@ aGUIEvent
 AsTouchEvent
 (
 )
-frame
+rootFrameToHandleEvent
 )
 ;
 }
@@ -32041,7 +32053,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aGUIEvent
-frame
+rootFrameToHandleEvent
 )
 ;
 if
@@ -32077,7 +32089,7 @@ target
 FindFrameTargetedByInputEvent
 (
 aGUIEvent
-frame
+rootFrameToHandleEvent
 eventPoint
 flags
 )
@@ -32087,7 +32099,7 @@ if
 target
 )
 {
-frame
+frameToHandleEvent
 =
 target
 ;
@@ -32110,7 +32122,7 @@ mRetargetToElement
 |
 |
 !
-frame
+frameToHandleEvent
 -
 >
 GetContent
@@ -32124,7 +32136,7 @@ nsContentUtils
 :
 ContentIsCrossDocDescendantOf
 (
-frame
+frameToHandleEvent
 -
 >
 GetContent
@@ -32170,7 +32182,7 @@ if
 capturingFrame
 )
 {
-frame
+frameToHandleEvent
 =
 capturingFrame
 ;
@@ -32187,7 +32199,7 @@ mClass
 eMouseEventClass
 &
 &
-frame
+frameToHandleEvent
 -
 >
 PresContext
@@ -32288,7 +32300,7 @@ EventListener
 >
 suppressedListener
 =
-frame
+frameToHandleEvent
 -
 >
 PresContext
@@ -32333,7 +32345,7 @@ nsIContent
 >
 targetContent
 ;
-frame
+frameToHandleEvent
 -
 >
 GetContentForEvent
@@ -32381,7 +32393,7 @@ EventDispatcher
 CreateEvent
 (
 et
-frame
+frameToHandleEvent
 -
 >
 PresContext
@@ -32409,22 +32421,13 @@ NS_OK
 }
 if
 (
+NS_WARN_IF
+(
 !
-frame
+frameToHandleEvent
+)
 )
 {
-NS_WARNING
-(
-"
-Nothing
-to
-handle
-this
-event
-!
-"
-)
-;
 return
 NS_OK
 ;
@@ -32441,7 +32444,7 @@ PresShell
 *
 >
 (
-frame
+frameToHandleEvent
 -
 >
 PresShell
@@ -32561,7 +32564,7 @@ PresShell
 activeShell
 )
 ;
-frame
+frameToHandleEvent
 =
 shell
 -
@@ -32579,7 +32582,7 @@ GetRootFrame
 if
 (
 !
-frame
+frameToHandleEvent
 )
 {
 NS_WARNING
@@ -32604,7 +32607,7 @@ nsIContent
 >
 targetElement
 ;
-frame
+frameToHandleEvent
 -
 >
 GetContentForEvent
@@ -32686,7 +32689,7 @@ eTouchEventClass
 ?
 aFrame
 :
-frame
+frameToHandleEvent
 ;
 if
 (
@@ -32739,7 +32742,7 @@ GetPrimaryFrame
 (
 )
 ;
-frame
+frameToHandleEvent
 =
 targetFrame
 ;
@@ -32753,7 +32756,7 @@ targetFrame
 AutoWeakFrame
 weakFrame
 (
-frame
+frameToHandleEvent
 )
 ;
 nsCOMPtr
@@ -32808,7 +32811,7 @@ return
 NS_OK
 ;
 }
-frame
+frameToHandleEvent
 =
 targetContent
 -
@@ -32824,7 +32827,7 @@ PresShell
 :
 GetShellForEventTarget
 (
-frame
+frameToHandleEvent
 targetContent
 )
 ;
@@ -32903,11 +32906,11 @@ touchEvent
 )
 )
 {
-frame
+frameToHandleEvent
 =
 newFrame
 ;
-frame
+frameToHandleEvent
 -
 >
 GetContentForEvent
@@ -32927,7 +32930,7 @@ PresShell
 *
 >
 (
-frame
+frameToHandleEvent
 -
 >
 PresShell
@@ -32964,7 +32967,7 @@ shell
 >
 PushCurrentEventInfo
 (
-frame
+frameToHandleEvent
 targetElement
 )
 ;
@@ -33018,7 +33021,7 @@ NS_OK
 ;
 if
 (
-frame
+aFrame
 )
 {
 PushCurrentEventInfo
@@ -33408,7 +33411,7 @@ mPresShell
 >
 mCurrentEventFrame
 =
-frame
+aFrame
 ;
 }
 if
