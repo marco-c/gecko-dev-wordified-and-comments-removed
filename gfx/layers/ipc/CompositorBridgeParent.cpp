@@ -3644,6 +3644,12 @@ nullptr
 ;
 ScheduleRenderOnCompositorThread
 (
+wr
+:
+:
+RenderRootSet
+(
+)
 )
 ;
 }

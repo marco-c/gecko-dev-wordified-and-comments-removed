@@ -54,13 +54,6 @@ wr
 RenderRootSet
 &
 aRenderRoots
-=
-wr
-:
-:
-RenderRootSet
-(
-)
 )
 =
 0
