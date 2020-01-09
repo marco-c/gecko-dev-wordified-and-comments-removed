@@ -133,6 +133,11 @@ supportedNetworks
 [
 ]
 ;
+boolean
+requestSecurityCode
+=
+true
+;
 }
 ;
 dictionary
