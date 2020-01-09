@@ -737,6 +737,9 @@ this
 .
 walker
 nodeFront
+this
+.
+supports
 )
 ;
 }
