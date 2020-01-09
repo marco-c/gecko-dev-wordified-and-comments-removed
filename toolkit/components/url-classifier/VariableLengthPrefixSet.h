@@ -84,7 +84,6 @@ aName
 nsresult
 SetPrefixes
 (
-const
 mozilla
 :
 :
