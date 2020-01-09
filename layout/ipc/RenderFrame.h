@@ -503,9 +503,9 @@ GetRemoteLayersId
 )
 const
 ;
-RenderFrame
+nsFrameLoader
 *
-GetRenderFrame
+GetFrameLoader
 (
 )
 const
