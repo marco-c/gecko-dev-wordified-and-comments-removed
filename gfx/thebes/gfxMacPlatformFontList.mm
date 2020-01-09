@@ -12491,6 +12491,15 @@ list
 )
 )
 ;
+if
+(
+!
+face
+)
+{
+continue
+;
+}
 nsAutoCString
 name
 (

@@ -6045,6 +6045,15 @@ list
 )
 )
 ;
+if
+(
+!
+face
+)
+{
+continue
+;
+}
 RefPtr
 <
 IDWriteFont
