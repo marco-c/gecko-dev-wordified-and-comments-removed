@@ -1235,6 +1235,8 @@ buf
 +
 length
 bufsize
+-
+length
 "
 MESA_VENDOR_ID
 \
@@ -1372,6 +1374,8 @@ buf
 +
 length
 bufsize
+-
+length
 "
 DRI_DRIVER
 \
