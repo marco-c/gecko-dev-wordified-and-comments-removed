@@ -1609,6 +1609,7 @@ deserialize
 context
 .
 cloneScope
+true
 )
 ;
 }
