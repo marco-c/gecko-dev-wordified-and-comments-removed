@@ -1695,14 +1695,6 @@ gpu
 -
 driver
 -
-vendor
-=
-Driver
-Vendor
-gpu
--
-driver
--
 version
 =
 Driver

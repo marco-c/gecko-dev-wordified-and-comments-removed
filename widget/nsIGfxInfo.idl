@@ -340,16 +340,6 @@ adapterRAM2
 readonly
 attribute
 AString
-adapterDriverVendor
-;
-readonly
-attribute
-AString
-adapterDriverVendor2
-;
-readonly
-attribute
-AString
 adapterDriverVersion
 ;
 readonly
