@@ -39455,7 +39455,7 @@ MOZ_ASSERT
 mUpdateRefcountFunction
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mInWriteTransaction
@@ -41842,7 +41842,7 @@ MOZ_ASSERT
 mDEBUGSavepointCount
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mInWriteTransaction
