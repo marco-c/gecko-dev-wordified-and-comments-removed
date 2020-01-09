@@ -2384,17 +2384,6 @@ aBuilder
 aLists
 )
 ;
-nsAutoPushCurrentTableItem
-pushTableItem
-;
-pushTableItem
-.
-Push
-(
-aBuilder
-nullptr
-)
-;
 nsIFrame
 *
 kid
