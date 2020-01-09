@@ -990,7 +990,7 @@ test_list
 )
 =
 =
-1
+0
     
 assert
 test_list
