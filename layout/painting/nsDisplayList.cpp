@@ -16749,6 +16749,10 @@ mPaintRectValid
 (
 false
 )
+mCanBeReused
+(
+true
+)
 #
 ifdef
 MOZ_DUMP_PAINTING
