@@ -233,11 +233,6 @@ ResetGathering
 (
 )
 ;
-void
-ClearExpiredExitProfiles
-(
-)
-;
 RefPtr
 <
 SymbolTablePromise
