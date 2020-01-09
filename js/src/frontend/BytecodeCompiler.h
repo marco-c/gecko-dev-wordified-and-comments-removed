@@ -471,7 +471,7 @@ defined
 JS_BUILD_BINAST
 )
 void
-TraceBinParser
+TraceBinASTParser
 (
 JSTracer
 *

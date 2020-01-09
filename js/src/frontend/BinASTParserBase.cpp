@@ -48,6 +48,13 @@ cx
 alloc
 usedNames
 sourceObject
+ParserSharedBase
+:
+:
+Kind
+:
+:
+BinASTParser
 )
 {
 }

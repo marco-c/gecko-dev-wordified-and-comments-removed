@@ -4262,7 +4262,7 @@ true
 ;
 }
 void
-TraceBinParser
+TraceBinASTParser
 (
 JSTracer
 *

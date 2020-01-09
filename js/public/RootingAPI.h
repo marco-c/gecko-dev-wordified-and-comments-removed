@@ -3980,7 +3980,7 @@ defined
 (
 JS_BUILD_BINAST
 )
-BinParser
+BinASTParser
 #
 endif
 WrapperVector
