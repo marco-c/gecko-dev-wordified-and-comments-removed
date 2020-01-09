@@ -403,6 +403,11 @@ products
 "
 gecko
 "
+gecko_enum_prefix
+=
+"
+StyleColorAdjust
+"
 gecko_pref
 =
 "

@@ -11601,7 +11601,10 @@ visibility
 mColorAdjust
 !
 =
-NS_STYLE_COLOR_ADJUST_EXACT
+StyleColorAdjust
+:
+:
+Exact
 &
 &
 aFrame

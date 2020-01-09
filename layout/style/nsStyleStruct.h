@@ -6479,7 +6479,10 @@ mWritingMode
 uint8_t
 mTextOrientation
 ;
-uint8_t
+mozilla
+:
+:
+StyleColorAdjust
 mColorAdjust
 ;
 bool
