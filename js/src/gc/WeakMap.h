@@ -215,8 +215,9 @@ marker
 )
 ;
 static
+MOZ_MUST_USE
 bool
-findInterZoneEdges
+findSweepGroupEdges
 (
 JS
 :
