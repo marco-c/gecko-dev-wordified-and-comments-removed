@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIPresShell
+.
+h
+"
+#
+include
+"
 nsNodeUtils
 .
 h

@@ -75,6 +75,13 @@ h
 #
 include
 "
+nsIPresShell
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
