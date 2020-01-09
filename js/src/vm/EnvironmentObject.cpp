@@ -8633,7 +8633,7 @@ SET
 TypeScript
 :
 :
-SetArgument
+MonitorArgType
 (
 cx
 script

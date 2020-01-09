@@ -2455,7 +2455,7 @@ isUndefined
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 rval
@@ -2836,7 +2836,7 @@ isUndefined
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 rval
@@ -3670,7 +3670,7 @@ false
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 rval

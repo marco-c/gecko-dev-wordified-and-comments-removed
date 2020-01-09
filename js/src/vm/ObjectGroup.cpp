@@ -8248,7 +8248,7 @@ isSingleton
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script

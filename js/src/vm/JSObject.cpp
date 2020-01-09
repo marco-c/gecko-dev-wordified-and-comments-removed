@@ -6349,7 +6349,7 @@ nullptr
 TypeScript
 :
 :
-SetThis
+MonitorThisType
 (
 cx
 script
@@ -6717,7 +6717,7 @@ nonLazyScript
 TypeScript
 :
 :
-SetThis
+MonitorThisType
 (
 cx
 calleeScript

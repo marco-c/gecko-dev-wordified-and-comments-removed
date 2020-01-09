@@ -3025,7 +3025,7 @@ void
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 JSContext
 *
@@ -3059,7 +3059,7 @@ void
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 JSContext
 *
@@ -3091,7 +3091,7 @@ void
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 JSContext
 *
@@ -3123,7 +3123,7 @@ pc
 )
 )
 ;
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -3137,7 +3137,7 @@ void
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 JSContext
 *
@@ -3279,7 +3279,7 @@ void
 TypeScript
 :
 :
-SetThis
+MonitorThisType
 (
 JSContext
 *
@@ -3404,7 +3404,7 @@ void
 TypeScript
 :
 :
-SetThis
+MonitorThisType
 (
 JSContext
 *
@@ -3421,7 +3421,7 @@ Value
 value
 )
 {
-SetThis
+MonitorThisType
 (
 cx
 script
@@ -3440,7 +3440,7 @@ void
 TypeScript
 :
 :
-SetArgument
+MonitorArgType
 (
 JSContext
 *
@@ -3576,7 +3576,7 @@ void
 TypeScript
 :
 :
-SetArgument
+MonitorArgType
 (
 JSContext
 *
@@ -3595,7 +3595,7 @@ Value
 value
 )
 {
-SetArgument
+MonitorArgType
 (
 cx
 script

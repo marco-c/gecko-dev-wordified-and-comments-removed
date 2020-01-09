@@ -1370,7 +1370,7 @@ monitoredResult
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 ic
@@ -1545,7 +1545,7 @@ false
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 ic

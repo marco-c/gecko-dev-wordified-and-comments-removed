@@ -17770,7 +17770,7 @@ constructing
 TypeScript
 :
 :
-SetThis
+MonitorThisType
 (
 cx
 script
@@ -17811,7 +17811,7 @@ arg
 TypeScript
 :
 :
-SetArgument
+MonitorArgType
 (
 cx
 script
@@ -17838,7 +17838,7 @@ arg
 TypeScript
 :
 :
-SetArgument
+MonitorArgType
 (
 cx
 script

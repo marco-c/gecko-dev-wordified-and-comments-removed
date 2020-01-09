@@ -5933,7 +5933,7 @@ pc
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -7896,7 +7896,7 @@ monitorsThis
 TypeScript
 :
 :
-SetThis
+MonitorThisType
 (
 cx
 script
@@ -7914,7 +7914,7 @@ else
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -7996,7 +7996,7 @@ argument
 TypeScript
 :
 :
-SetArgument
+MonitorArgType
 (
 cx
 script
@@ -8043,7 +8043,7 @@ script
 TypeScript
 :
 :
-SetThis
+MonitorThisType
 (
 cx
 script
@@ -8068,7 +8068,7 @@ pc
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
@@ -14753,7 +14753,7 @@ false
 TypeScript
 :
 :
-Monitor
+MonitorBytecodeType
 (
 cx
 script
