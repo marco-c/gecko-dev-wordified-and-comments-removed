@@ -962,6 +962,7 @@ mDocument
 )
 {
 return
+NS_OK
 ;
 }
 if
