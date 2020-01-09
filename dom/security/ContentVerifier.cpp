@@ -477,7 +477,6 @@ nextListener
 OnDataAvailable
 (
 mContentRequest
-mContentContext
 oInStr
 offset
 mContent
@@ -651,9 +650,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream

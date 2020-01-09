@@ -1384,9 +1384,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsIInputStream
 *
 aStream
@@ -1478,7 +1475,7 @@ return
 ProcessData
 (
 aRequest
-aCtxt
+nullptr
 )
 ;
 }

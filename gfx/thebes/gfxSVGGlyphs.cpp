@@ -1960,7 +1960,6 @@ listener
 OnDataAvailable
 (
 channel
-nullptr
 stream
 0
 aBufLen

@@ -249,9 +249,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-context
 nsIInputStream
 *
 stream
@@ -591,9 +588,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 nsIInputStream
 *
 aStream
@@ -733,7 +727,7 @@ rv
 FireListenerNotifications
 (
 request
-aCtxt
+nullptr
 )
 ;
 }
@@ -846,7 +840,6 @@ listener
 OnDataAvailable
 (
 request
-aCtxt
 aStream
 aSourceOffset
 aCount
@@ -3335,7 +3328,6 @@ listener
 OnDataAvailable
 (
 request
-aCtxt
 in
 0
 len
@@ -3549,7 +3541,6 @@ listener
 OnDataAvailable
 (
 request
-nullptr
 rawStream
 0
 length

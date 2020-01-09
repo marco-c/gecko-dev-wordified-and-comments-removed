@@ -3451,7 +3451,6 @@ aC
 onDataAvailable
 (
 aR
-aC
 aStream
 aO
 aCount

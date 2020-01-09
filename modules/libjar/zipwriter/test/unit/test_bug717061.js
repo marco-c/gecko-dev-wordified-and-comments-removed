@@ -168,7 +168,6 @@ callback
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

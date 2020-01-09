@@ -1196,9 +1196,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aIStream
@@ -1216,7 +1213,6 @@ mListener
 OnDataAvailable
 (
 aRequest
-mContext
 aIStream
 aSourceOffset
 aLength
@@ -1338,9 +1334,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aIStream

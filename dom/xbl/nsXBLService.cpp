@@ -894,9 +894,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 nsIInputStream
 *
 aInStr
@@ -917,7 +914,6 @@ mInner
 OnDataAvailable
 (
 request
-aCtxt
 aInStr
 aSourceOffset
 aCount

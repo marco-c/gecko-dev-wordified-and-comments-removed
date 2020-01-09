@@ -995,9 +995,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream
@@ -1063,7 +1060,6 @@ mFetchDriver
 OnDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount
@@ -4953,9 +4949,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream

@@ -3171,7 +3171,6 @@ true
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 )
 {

@@ -5667,7 +5667,6 @@ NS_OK
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount
@@ -5678,7 +5677,6 @@ backgroundFileSaver
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

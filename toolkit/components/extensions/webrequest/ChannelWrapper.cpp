@@ -4971,9 +4971,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 nsIInputStream
 *
 inStr
@@ -5000,7 +4997,6 @@ mOrigStreamListener
 OnDataAvailable
 (
 request
-aCtxt
 inStr
 sourceOffset
 count

@@ -266,9 +266,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsIInputStream
 *
 inStr
@@ -430,10 +427,6 @@ request
 =
 %
 p
-ctxt
-=
-%
-p
 inStr
 =
 %
@@ -455,7 +448,6 @@ u
 n
 "
 request
-ctxt
 inStr
 sourceOffset
 count
@@ -786,7 +778,6 @@ mFinalListener
 OnDataAvailable
 (
 request
-ctxt
 inputData
 0
 indexFormat

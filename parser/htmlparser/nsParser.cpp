@@ -4582,9 +4582,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 nsIInputStream
 *
 pIStream

@@ -1549,7 +1549,6 @@ aStatusCode
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount
@@ -1562,7 +1561,6 @@ contentListener
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

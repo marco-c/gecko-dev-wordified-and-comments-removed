@@ -3124,9 +3124,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsIInputStream
 *
 stream
@@ -3149,7 +3146,6 @@ mListener
 OnDataAvailable
 (
 this
-nullptr
 stream
 offset
 count
