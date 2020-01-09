@@ -4,6 +4,13 @@ mozilla_dom_StorageUtils_h
 #
 define
 mozilla_dom_StorageUtils_h
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIPrincipal
 ;
