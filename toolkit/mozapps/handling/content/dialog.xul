@@ -169,17 +169,6 @@ id
 "
 handling
 "
-ondialogaccept
-=
-"
-return
-dialog
-.
-onAccept
-(
-)
-;
-"
 onload
 =
 "

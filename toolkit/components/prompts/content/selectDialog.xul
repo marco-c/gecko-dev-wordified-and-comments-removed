@@ -153,15 +153,6 @@ dialogOnLoad
 (
 )
 "
-ondialogaccept
-=
-"
-return
-dialogOK
-(
-)
-;
-"
 >
 <
 script

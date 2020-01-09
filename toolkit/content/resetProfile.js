@@ -3,6 +3,16 @@ use
 strict
 "
 ;
+document
+.
+addEventListener
+(
+"
+dialogaccept
+"
+onResetProfileAccepted
+)
+;
 function
 onResetProfileAccepted
 (

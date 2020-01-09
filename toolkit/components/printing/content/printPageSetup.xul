@@ -201,15 +201,6 @@ onLoad
 )
 ;
 "
-ondialogaccept
-=
-"
-return
-onAccept
-(
-)
-;
-"
 oncancel
 =
 "

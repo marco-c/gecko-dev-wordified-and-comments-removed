@@ -156,16 +156,6 @@ width
 35em
 ;
 "
-ondialogaccept
-=
-"
-gRemovePasswordDialog
-.
-removePassword
-(
-)
-;
-"
 onload
 =
 "

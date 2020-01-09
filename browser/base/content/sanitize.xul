@@ -305,17 +305,6 @@ init
 )
 ;
 "
-ondialogaccept
-=
-"
-return
-gSanitizePromptDialog
-.
-sanitize
-(
-)
-;
-"
 >
 <
 linkset

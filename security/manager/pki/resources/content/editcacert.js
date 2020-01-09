@@ -45,6 +45,16 @@ arguments
 0
 ]
 ;
+document
+.
+addEventListener
+(
+"
+dialogaccept
+"
+onDialogAccept
+)
+;
 let
 certMsg
 =
@@ -220,8 +230,5 @@ trustSSL
 |
 trustEmail
 )
-;
-return
-true
 ;
 }

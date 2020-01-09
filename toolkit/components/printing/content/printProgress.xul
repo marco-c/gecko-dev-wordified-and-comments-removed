@@ -167,13 +167,6 @@ width
 36em
 ;
 "
-ondialogcancel
-=
-"
-onCancel
-(
-)
-"
 onload
 =
 "

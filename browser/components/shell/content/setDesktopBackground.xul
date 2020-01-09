@@ -281,16 +281,6 @@ load
 )
 ;
 "
-ondialogaccept
-=
-"
-gSetBackground
-.
-setDesktopBackground
-(
-)
-;
-"
 title
 =
 "

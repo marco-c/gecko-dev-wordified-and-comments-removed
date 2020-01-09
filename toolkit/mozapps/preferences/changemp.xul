@@ -156,14 +156,6 @@ width
 40em
 ;
 "
-ondialogaccept
-=
-"
-setPassword
-(
-)
-;
-"
 onload
 =
 "

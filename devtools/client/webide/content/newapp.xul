@@ -177,15 +177,6 @@ buttons
 accept
 cancel
 "
-ondialogaccept
-=
-"
-return
-doOK
-(
-)
-;
-"
 buttondisabledaccept
 =
 "

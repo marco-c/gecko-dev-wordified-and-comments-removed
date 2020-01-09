@@ -375,6 +375,16 @@ enabled
 =
 false
 ;
+document
+.
+addEventListener
+(
+"
+dialogaccept
+"
+onAccept
+)
+;
 }
 function
 isListOfPrinterFeaturesAvailable
@@ -2519,9 +2529,6 @@ gPrintSettings
 true
 flags
 )
-;
-return
-true
 ;
 }
 function

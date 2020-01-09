@@ -228,6 +228,16 @@ focus
 (
 )
 ;
+document
+.
+addEventListener
+(
+"
+dialogaccept
+"
+dialogOK
+)
+;
 window
 .
 sizeToContent
@@ -307,9 +317,6 @@ ok
 "
 true
 )
-;
-return
-true
 ;
 }
 function
