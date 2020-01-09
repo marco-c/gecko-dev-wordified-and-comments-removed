@@ -1529,7 +1529,7 @@ c
 )
 )
 static
-PNG_CONST
+const
 char
 png_digit
 [
@@ -3210,7 +3210,6 @@ error_message
 PNG_NORETURN
 )
 {
-const
 png_const_structrp
 png_ptr
 =
@@ -3357,7 +3356,6 @@ png_const_charp
 warning_message
 )
 {
-const
 png_const_structrp
 png_ptr
 =

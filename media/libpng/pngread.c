@@ -4498,6 +4498,37 @@ NULL
 ;
 #
 endif
+#
+if
+defined
+(
+PNG_READ_EXPAND_SUPPORTED
+)
+&
+&
+\
+defined
+(
+PNG_ARM_NEON_IMPLEMENTATION
+)
+png_free
+(
+png_ptr
+png_ptr
+-
+>
+riffled_palette
+)
+;
+png_ptr
+-
+>
+riffled_palette
+=
+NULL
+;
+#
+endif
 }
 void
 PNGAPI
@@ -6653,7 +6684,7 @@ png_ptr
 {
 {
 static
-PNG_CONST
+const
 png_byte
 chunks_to_process
 [
@@ -7134,7 +7165,6 @@ display
 >
 image
 ;
-const
 int
 output_encoding
 =
@@ -7154,7 +7184,6 @@ P_LINEAR
 :
 P_sRGB
 ;
-const
 int
 convert_to_Y
 =
@@ -7624,7 +7653,6 @@ error
 #
 ifdef
 PNG_FORMAT_AFIRST_SUPPORTED
-const
 int
 afirst
 =
@@ -7664,7 +7692,6 @@ endif
 #
 ifdef
 PNG_FORMAT_BGR_SUPPORTED
-const
 int
 bgr
 =
@@ -8461,7 +8488,6 @@ png_image_read_control
 argument
 )
 ;
-const
 png_imagep
 image
 =
@@ -8470,7 +8496,6 @@ display
 >
 image
 ;
-const
 png_structrp
 png_ptr
 =
@@ -8482,7 +8507,6 @@ opaque
 >
 png_ptr
 ;
-const
 png_uint_32
 output_format
 =
@@ -8491,7 +8515,6 @@ image
 >
 format
 ;
-const
 int
 output_encoding
 =
@@ -10628,7 +10651,6 @@ png_ptr
 >
 palette
 ;
-const
 int
 do_background
 =
@@ -14565,7 +14587,6 @@ linear
 0
 )
 {
-PNG_CONST
 png_uint_16
 le
 =
@@ -15218,7 +15239,6 @@ version
 PNG_IMAGE_VERSION
 )
 {
-const
 unsigned
 int
 channels
@@ -15247,7 +15267,6 @@ channels
 png_uint_32
 check
 ;
-const
 png_uint_32
 png_row_stride
 =

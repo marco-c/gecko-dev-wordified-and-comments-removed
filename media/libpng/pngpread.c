@@ -4647,7 +4647,7 @@ png_ptr
 ifdef
 PNG_READ_INTERLACING_SUPPORTED
 static
-PNG_CONST
+const
 png_byte
 png_pass_start
 [
@@ -4664,7 +4664,7 @@ png_pass_start
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_inc
 [
@@ -4681,7 +4681,7 @@ png_pass_inc
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_ystart
 [
@@ -4698,7 +4698,7 @@ png_pass_ystart
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_yinc
 [

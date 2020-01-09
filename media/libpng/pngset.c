@@ -641,7 +641,6 @@ png_const_structrp
 png_ptr
 png_inforp
 info_ptr
-const
 png_bytep
 eXIf_buf
 )
@@ -677,10 +676,8 @@ png_const_structrp
 png_ptr
 png_inforp
 info_ptr
-const
 png_uint_32
 num_exif
-const
 png_bytep
 eXIf_buf
 )
@@ -7012,7 +7009,7 @@ num_chunks_in
 )
 {
 static
-PNG_CONST
+const
 png_byte
 chunks_to_ignore
 [

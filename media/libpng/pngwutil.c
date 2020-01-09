@@ -8125,7 +8125,7 @@ png_ptr
 ifdef
 PNG_WRITE_INTERLACING_SUPPORTED
 static
-PNG_CONST
+const
 png_byte
 png_pass_start
 [
@@ -8143,7 +8143,7 @@ png_pass_start
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_inc
 [
@@ -8161,7 +8161,7 @@ png_pass_inc
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_ystart
 [
@@ -8179,7 +8179,7 @@ png_pass_ystart
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_yinc
 [
@@ -8663,7 +8663,7 @@ png_ptr
 ifdef
 PNG_WRITE_INTERLACING_SUPPORTED
 static
-PNG_CONST
+const
 png_byte
 png_pass_start
 [
@@ -8681,7 +8681,7 @@ png_pass_start
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_inc
 [
@@ -8699,7 +8699,7 @@ png_pass_inc
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_ystart
 [
@@ -8717,7 +8717,7 @@ png_pass_ystart
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_yinc
 [
@@ -9024,7 +9024,7 @@ pass
 )
 {
 static
-PNG_CONST
+const
 png_byte
 png_pass_start
 [
@@ -9042,7 +9042,7 @@ png_pass_start
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_inc
 [
@@ -9754,7 +9754,6 @@ png_setup_sub_row
 (
 png_structrp
 png_ptr
-const
 png_uint_32
 bpp
 size_t
@@ -9986,7 +9985,6 @@ png_setup_sub_row_only
 (
 png_structrp
 png_ptr
-const
 png_uint_32
 bpp
 size_t
@@ -10383,7 +10381,6 @@ png_setup_avg_row
 (
 png_structrp
 png_ptr
-const
 png_uint_32
 bpp
 size_t
@@ -10657,7 +10654,6 @@ png_setup_avg_row_only
 (
 png_structrp
 png_ptr
-const
 png_uint_32
 bpp
 size_t
@@ -10829,7 +10825,6 @@ png_setup_paeth_row
 (
 png_structrp
 png_ptr
-const
 png_uint_32
 bpp
 size_t
@@ -11231,7 +11226,6 @@ png_setup_paeth_row_only
 (
 png_structrp
 png_ptr
-const
 png_uint_32
 bpp
 size_t

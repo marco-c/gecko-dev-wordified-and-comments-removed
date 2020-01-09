@@ -1625,7 +1625,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
@@ -1918,7 +1917,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
@@ -2264,7 +2262,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
@@ -2784,7 +2781,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
@@ -3542,7 +3538,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =
@@ -4242,7 +4237,6 @@ png_const_bytep
 prev_row
 )
 {
-const
 png_byte
 bpp
 =

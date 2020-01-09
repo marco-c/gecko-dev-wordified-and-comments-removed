@@ -988,7 +988,6 @@ bp
 +
 )
 {
-const
 unsigned
 int
 c
@@ -1117,7 +1116,6 @@ i
 +
 )
 {
-const
 unsigned
 int
 c

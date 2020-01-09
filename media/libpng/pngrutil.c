@@ -5514,7 +5514,6 @@ size
 0
 )
 {
-const
 png_uint_32
 profile_length
 =
@@ -5564,7 +5563,6 @@ color_type
 0
 )
 {
-const
 png_uint_32
 tag_count
 =
@@ -13343,7 +13341,6 @@ png_check_chunk_name
 (
 png_const_structrp
 png_ptr
-const
 png_uint_32
 chunk_name
 )
@@ -13434,7 +13431,6 @@ png_check_chunk_length
 (
 png_const_structrp
 png_ptr
-const
 png_uint_32
 length
 )
@@ -14596,7 +14592,7 @@ d
 )
 )
 static
-PNG_CONST
+const
 png_uint_32
 row_mask
 [
@@ -14647,7 +14643,7 @@ S_MASKS
 }
 ;
 static
-PNG_CONST
+const
 png_uint_32
 display_mask
 [
@@ -15726,7 +15722,7 @@ transformations
 )
 {
 static
-PNG_CONST
+const
 unsigned
 int
 png_pass_inc
@@ -18793,7 +18789,7 @@ png_ptr
 )
 {
 static
-PNG_CONST
+const
 png_byte
 png_pass_start
 [
@@ -18811,7 +18807,7 @@ png_pass_start
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_inc
 [
@@ -18829,7 +18825,7 @@ png_pass_inc
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_ystart
 [
@@ -18847,7 +18843,7 @@ png_pass_ystart
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_yinc
 [
@@ -19092,7 +19088,7 @@ png_ptr
 )
 {
 static
-PNG_CONST
+const
 png_byte
 png_pass_start
 [
@@ -19110,7 +19106,7 @@ png_pass_start
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_inc
 [
@@ -19128,7 +19124,7 @@ png_pass_inc
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_ystart
 [
@@ -19146,7 +19142,7 @@ png_pass_ystart
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 png_pass_yinc
 [

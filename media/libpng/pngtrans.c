@@ -1239,7 +1239,7 @@ defined
 PNG_WRITE_PACKSWAP_SUPPORTED
 )
 static
-PNG_CONST
+const
 png_byte
 onebppswaptable
 [
@@ -1506,7 +1506,7 @@ onebppswaptable
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 twobppswaptable
 [
@@ -1773,7 +1773,7 @@ twobppswaptable
 }
 ;
 static
-PNG_CONST
+const
 png_byte
 fourbppswaptable
 [

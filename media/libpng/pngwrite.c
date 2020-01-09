@@ -2239,7 +2239,7 @@ png_convert_from_struct_tm
 (
 png_timep
 ptime
-PNG_CONST
+const
 struct
 tm
 *
@@ -6454,7 +6454,6 @@ local_row
 png_uint_16p
 row_end
 ;
-const
 unsigned
 int
 channels
@@ -6612,7 +6611,6 @@ out_ptr
 row_end
 )
 {
-const
 png_uint_16
 alpha
 =
@@ -6978,7 +6976,6 @@ image
 >
 height
 ;
-const
 unsigned
 int
 channels
@@ -7341,7 +7338,6 @@ png_image_write_control
 display
 )
 {
-const
 png_imagep
 image
 =
@@ -7360,7 +7356,6 @@ display
 >
 colormap
 ;
-const
 int
 entries
 =
@@ -7381,7 +7376,6 @@ image
 >
 colormap_entries
 ;
-const
 png_uint_32
 format
 =
@@ -7390,7 +7384,6 @@ image
 >
 format
 ;
-const
 unsigned
 int
 channels
@@ -7413,7 +7406,6 @@ defined
 (
 PNG_SIMPLIFIED_WRITE_AFIRST_SUPPORTED
 )
-const
 int
 afirst
 =
@@ -7447,7 +7439,6 @@ endif
 #
 ifdef
 PNG_FORMAT_BGR_SUPPORTED
-const
 int
 bgr
 =
@@ -8238,7 +8229,6 @@ png_ptr
 #
 endif
 {
-const
 unsigned
 int
 channels
@@ -8267,7 +8257,6 @@ channels
 png_uint_32
 check
 ;
-const
 png_uint_32
 png_row_stride
 =
@@ -8652,7 +8641,6 @@ write_16bit
 0
 )
 {
-PNG_CONST
 png_uint_16
 le
 =
@@ -9139,7 +9127,6 @@ png_ptr
 io_ptr
 )
 ;
-const
 png_alloc_size_t
 ob
 =
