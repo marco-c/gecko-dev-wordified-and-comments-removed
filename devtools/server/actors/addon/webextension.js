@@ -191,11 +191,6 @@ _destroyProxy
 ;
 }
 }
-setOptions
-(
-)
-{
-}
 reload
 (
 )
