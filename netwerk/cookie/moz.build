@@ -250,6 +250,12 @@ LOCAL_INCLUDES
 [
 '
 /
+dom
+/
+base
+'
+'
+/
 extensions
 /
 cookie
