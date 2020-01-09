@@ -8841,6 +8841,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 gURLBar
+.
+inputField
 {
 type
 :
