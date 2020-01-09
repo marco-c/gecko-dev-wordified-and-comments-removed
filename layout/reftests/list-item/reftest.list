@@ -122,10 +122,6 @@ reversed
 ref
 .
 html
-asserts
-(
-1
-)
 =
 =
 ol
@@ -144,9 +140,6 @@ reversed
 ref
 .
 html
-#
-bug
-478135
 =
 =
 ol
