@@ -284,7 +284,7 @@ return
 returnType
 =
 =
-Type_Pointer
+Type_Object
 |
 |
 outParam
