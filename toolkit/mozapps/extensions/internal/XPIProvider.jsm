@@ -1430,6 +1430,11 @@ isTemporary
 location
 .
 isSystem
+|
+|
+location
+.
+isBuiltin
 ;
 }
 function
