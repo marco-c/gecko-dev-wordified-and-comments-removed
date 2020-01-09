@@ -103,9 +103,8 @@ Core
 "
 DOM
 :
-Core
-&
-HTML
+Web
+Storage
 "
 )
 XPIDL_SOURCES

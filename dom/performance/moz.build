@@ -101,11 +101,7 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
-:
-Core
-&
-HTML
+Performance
 "
 )
 EXPORTS

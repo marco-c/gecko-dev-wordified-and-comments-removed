@@ -101,11 +101,11 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
+Audio
+/
+Video
 :
-Core
-&
-HTML
+Playback
 "
 )
 XPIDL_SOURCES

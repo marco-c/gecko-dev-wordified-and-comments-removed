@@ -103,9 +103,8 @@ Core
 "
 DOM
 :
-Core
-&
-HTML
+Push
+Notifications
 "
 )
 XPIDL_SOURCES

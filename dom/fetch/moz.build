@@ -103,9 +103,7 @@ Core
 "
 DOM
 :
-Core
-&
-HTML
+Networking
 "
 )
 EXPORTS

@@ -103,9 +103,8 @@ Core
 "
 DOM
 :
-Core
-&
-HTML
+Service
+Workers
 "
 )
 EXPORTS
