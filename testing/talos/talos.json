@@ -517,9 +517,6 @@ tests
 :
 [
 "
-tp6_google
-"
-"
 tp6_youtube
 "
 "
@@ -645,9 +642,6 @@ tests
 "
 :
 [
-"
-tp6_google
-"
 "
 tp6_youtube
 "
