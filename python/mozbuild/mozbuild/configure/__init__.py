@@ -3483,7 +3483,6 @@ option
 )
         
 if
-(
 when
 and
 not
@@ -3494,41 +3493,32 @@ _value_for
 when
 )
 and
-            
 value
 is
 not
 None
-and
-value
-.
-origin
-!
-=
-'
-default
-'
-)
 :
             
 if
 value
 .
 origin
-=
-=
+not
+in
+(
+'
+default
+'
 '
 environment
 '
+)
 :
                 
-return
-None
-            
 raise
 InvalidOptionError
 (
-                
+                    
 '
 %
 s
@@ -3539,7 +3529,7 @@ in
 this
 configuration
 '
-                
+                    
 %
 option_string
 .
@@ -3554,6 +3544,9 @@ split
 0
 ]
 )
+            
+return
+None
         
 return
 value
