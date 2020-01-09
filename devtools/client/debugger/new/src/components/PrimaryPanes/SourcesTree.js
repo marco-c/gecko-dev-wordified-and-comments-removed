@@ -1356,6 +1356,7 @@ children
 const
 {
 projectRoot
+thread
 }
 =
 this
@@ -1393,6 +1394,7 @@ root
 "
 :
 projectRoot
+thread
 }
 )
 }
