@@ -2710,13 +2710,6 @@ muxer
 "
 UnifiedComplete
 "
-providers
-:
-[
-"
-UnifiedComplete
-"
-]
 searchString
 userContextId
 :
