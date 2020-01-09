@@ -4179,7 +4179,7 @@ key
 =
 FTL
 .
-NumberExpression
+NumberLiteral
 (
 "
 1
