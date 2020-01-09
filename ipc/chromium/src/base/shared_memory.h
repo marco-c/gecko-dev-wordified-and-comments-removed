@@ -172,6 +172,11 @@ Map
 (
 size_t
 bytes
+void
+*
+fixed_address
+=
+nullptr
 )
 ;
 bool
@@ -213,6 +218,15 @@ bool
 unmap_view
 =
 true
+)
+;
+static
+void
+*
+FindFreeAddressSpace
+(
+size_t
+size
 )
 ;
 bool

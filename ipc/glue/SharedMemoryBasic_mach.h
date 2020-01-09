@@ -221,6 +221,11 @@ Map
 (
 size_t
 nBytes
+void
+*
+fixed_address
+=
+nullptr
 )
 override
 ;
@@ -285,6 +290,15 @@ Handle
 )
 ;
 }
+static
+void
+*
+FindFreeAddressSpace
+(
+size_t
+aSize
+)
+;
 virtual
 bool
 IsHandleValid
