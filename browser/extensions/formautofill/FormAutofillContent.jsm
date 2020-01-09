@@ -1055,6 +1055,15 @@ resetInternalState
 )
 ;
 }
+else
+{
+ProfileAutocomplete
+.
+lastProfileAutoCompleteResult
+=
+null
+;
+}
 }
 )
 ;
