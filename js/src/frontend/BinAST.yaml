@@ -939,15 +939,6 @@ Tokenizer
 :
 Chars
 ;
-using
-Context
-=
-typename
-BinASTTokenReaderBase
-:
-:
-Context
-;
 public
 :
 /
@@ -1874,13 +1865,6 @@ stddef
 .
 h
 >
-#
-include
-"
-jstypes
-.
-h
-"
 /
 *
 *
@@ -3648,7 +3632,6 @@ tokenizer_
 >
 readMaybeAtom
 (
-fieldContext
 )
 )
 ;
@@ -4461,7 +4444,6 @@ tokenizer_
 >
 readMaybeAtom
 (
-fieldContext
 )
 )
 ;
@@ -7211,7 +7193,6 @@ tokenizer_
 readChars
 (
 flags
-fieldContext
 )
 )
 ;
