@@ -65,8 +65,6 @@ CHROME_URL_ROOT
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -90,8 +88,6 @@ CHROME_URL_ROOT
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -114,8 +110,6 @@ CHROME_URL_ROOT
 .
 /
 debugger
-/
-new
 /
 test
 /
