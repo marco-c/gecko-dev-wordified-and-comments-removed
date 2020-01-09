@@ -150,18 +150,6 @@ line
         
 if
 "
-error
-"
-in
-line
-or
-"
-warning
-"
-in
-line
-or
-"
 raptor
 "
 in
