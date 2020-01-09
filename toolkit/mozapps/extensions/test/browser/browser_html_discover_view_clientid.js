@@ -434,11 +434,10 @@ visible
 "
 )
 ;
-is
+ok
 (
 await
 requestPromise
-EXPECTED_CLIENT_ID
 "
 Moz
 -
