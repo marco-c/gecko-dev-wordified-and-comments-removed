@@ -155,6 +155,7 @@ BE
 scripts
 "
 )
+;
 if
 (
 !
@@ -349,7 +350,7 @@ abort
 }
 sendAsyncMessage
 (
-'
+"
 browser
 -
 element
@@ -357,15 +358,15 @@ element
 api
 :
 call
-'
+"
 {
-'
+"
 msg_name
-'
+"
 :
-'
+"
 hello
-'
+"
 }
 )
 ;
