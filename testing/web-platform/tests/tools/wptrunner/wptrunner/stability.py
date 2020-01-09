@@ -1161,6 +1161,26 @@ values
 )
 )
     
+if
+total_results
+>
+iterations
+:
+        
+rv
+.
+append
+(
+"
+Duplicate
+subtest
+name
+"
+)
+    
+else
+:
+        
 for
 key
 value
@@ -1174,7 +1194,7 @@ items
 )
 )
 :
-        
+            
 rv
 .
 append
@@ -1186,7 +1206,7 @@ s
 s
 "
 %
-                  
+                      
 (
 key
 "
