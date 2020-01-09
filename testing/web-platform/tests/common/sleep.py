@@ -1,5 +1,7 @@
 import
 time
+import
+timeit
 sleep_padding
 =
 15
@@ -14,9 +16,9 @@ sleep_in_ms
     
 sleep_until
 =
-time
+timeit
 .
-time
+default_timer
 (
 )
 +
@@ -40,9 +42,9 @@ sleep_padding
 )
     
 while
-time
+timeit
 .
-time
+default_timer
 (
 )
 <
