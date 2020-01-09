@@ -311,8 +311,11 @@ url_
 lazy_
 )
 \
+NotNull
+<
 StyleSheet
 *
+>
 nsLayoutStylesheetCache
 :
 :
@@ -359,6 +362,8 @@ eCrash
 }
 \
 return
+WrapNotNull
+(
 m
 #
 #
@@ -366,6 +371,7 @@ identifier_
 #
 #
 Sheet
+)
 ;
 \
 }
