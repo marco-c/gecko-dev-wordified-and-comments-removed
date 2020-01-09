@@ -11056,7 +11056,10 @@ mUserFocus
 uint8_t
 mPointerEvents
 ;
-uint8_t
+mozilla
+:
+:
+StyleCursorKind
 mCursor
 ;
 nsTArray

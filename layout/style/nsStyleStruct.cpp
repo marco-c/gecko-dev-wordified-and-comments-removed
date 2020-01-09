@@ -20074,7 +20074,10 @@ NS_STYLE_POINTER_EVENTS_AUTO
 )
 mCursor
 (
-NS_STYLE_CURSOR_AUTO
+StyleCursorKind
+:
+:
+Auto
 )
 mCaretColor
 (

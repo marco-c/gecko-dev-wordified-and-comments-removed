@@ -528,7 +528,7 @@ aPresContext
 nsresult
 SetCursor
 (
-int32_t
+StyleCursorKind
 aCursor
 imgIContainer
 *
@@ -2296,7 +2296,7 @@ nsIContent
 aContent
 )
 ;
-int32_t
+StyleCursorKind
 mLockCursor
 ;
 bool

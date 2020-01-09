@@ -11,10 +11,13 @@ Write
 }
 ;
 use
-style_traits
+values
 :
 :
-cursor
+specified
+:
+:
+ui
 :
 :
 CursorKind

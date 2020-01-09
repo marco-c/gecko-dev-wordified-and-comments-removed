@@ -1736,14 +1736,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetCursor
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetForceBrokenImageIcon
 (
 )

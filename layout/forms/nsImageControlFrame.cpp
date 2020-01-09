@@ -749,7 +749,10 @@ aCursor
 ;
 if
 (
-NS_STYLE_CURSOR_AUTO
+StyleCursorKind
+:
+:
+Auto
 =
 =
 aCursor
@@ -761,7 +764,10 @@ aCursor
 .
 mCursor
 =
-NS_STYLE_CURSOR_POINTER
+StyleCursorKind
+:
+:
+Pointer
 ;
 }
 return
