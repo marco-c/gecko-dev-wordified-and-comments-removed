@@ -211,7 +211,7 @@ True
 yield
 test
             
-if
+elif
 "
 hg
 .
@@ -241,6 +241,33 @@ a
                 
 yield
 test
+            
+else
+:
+                
+LOG
+.
+warning
+(
+'
+%
+s
+is
+not
+allowed
+to
+run
+with
+use_live_sites
+'
+%
+test
+[
+'
+name
+'
+]
+)
         
 else
 :
