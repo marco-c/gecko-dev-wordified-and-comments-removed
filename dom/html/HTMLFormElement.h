@@ -1603,10 +1603,6 @@ static
 bool
 gFirstFormSubmitted
 ;
-static
-bool
-gPasswordManagerInitialized
-;
 private
 :
 ~
