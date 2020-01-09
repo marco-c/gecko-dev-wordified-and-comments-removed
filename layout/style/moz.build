@@ -1744,7 +1744,7 @@ consts
 script
 =
 '
-GenerateServoStyleConsts
+RunCbindgen
 .
 py
 :
@@ -1762,10 +1762,6 @@ servo
 components
 /
 style
-/
-cbindgen
-.
-toml
 '
 ]
 CONFIGURE_SUBST_FILES
