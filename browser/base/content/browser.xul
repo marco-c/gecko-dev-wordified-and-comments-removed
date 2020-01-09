@@ -8299,11 +8299,6 @@ tabscrolling
 "
 true
 "
-newlines
-=
-"
-stripsurroundingwhitespace
-"
 ontextentered
 =
 "

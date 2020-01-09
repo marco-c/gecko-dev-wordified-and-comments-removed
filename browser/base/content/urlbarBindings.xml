@@ -602,6 +602,11 @@ autocomplete
 >
 <
 content
+newlines
+=
+"
+stripsurroundingwhitespace
+"
 >
 <
 children
