@@ -213,6 +213,11 @@ isLargeText
 "
 :
 true
+score
+:
+"
+AAA
+"
 }
 }
 )

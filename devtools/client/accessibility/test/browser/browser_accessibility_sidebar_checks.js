@@ -226,6 +226,13 @@ isLargeText
 "
 :
 false
+"
+score
+"
+:
+"
+fail
+"
 }
 }
 }
@@ -312,6 +319,13 @@ isLargeText
 "
 :
 false
+"
+score
+"
+:
+"
+AAA
+"
 }
 }
 }

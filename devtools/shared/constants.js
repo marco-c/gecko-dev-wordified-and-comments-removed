@@ -17,7 +17,7 @@ CONTRAST
 CONTRAST
 "
 }
-ColorContrastScores
+SCORES
 :
 {
 FAIL
