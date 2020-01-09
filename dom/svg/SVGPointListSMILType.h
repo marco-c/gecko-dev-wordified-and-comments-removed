@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -30,7 +30,7 @@ class
 SVGPointListSMILType
 :
 public
-nsISMILType
+SMILType
 {
 public
 :

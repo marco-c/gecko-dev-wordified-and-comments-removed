@@ -7,7 +7,7 @@ NS_SMILVALUE_H_
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -29,6 +29,13 @@ mozilla
 :
 SMILNullType
 SMILNullType
+;
+typedef
+mozilla
+:
+:
+SMILType
+SMILType
 ;
 nsSMILValue
 (
@@ -52,7 +59,7 @@ explicit
 nsSMILValue
 (
 const
-nsISMILType
+SMILType
 *
 aType
 )
@@ -264,7 +271,7 @@ mPtr
 mU
 ;
 const
-nsISMILType
+SMILType
 *
 mType
 ;
@@ -274,7 +281,7 @@ void
 InitAndCheckPostcondition
 (
 const
-nsISMILType
+SMILType
 *
 aNewType
 )
@@ -288,7 +295,7 @@ void
 DestroyAndReinit
 (
 const
-nsISMILType
+SMILType
 *
 aNewType
 )

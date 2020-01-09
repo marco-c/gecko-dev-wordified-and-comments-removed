@@ -27,7 +27,7 @@ h
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -49,7 +49,7 @@ class
 SVGMotionSMILType
 :
 public
-nsISMILType
+SMILType
 {
 typedef
 mozilla

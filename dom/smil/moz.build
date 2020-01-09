@@ -126,11 +126,6 @@ nsISMILAttr
 h
 '
 '
-nsISMILType
-.
-h
-'
-'
 nsSMILAnimationController
 .
 h
@@ -227,6 +222,11 @@ h
 '
 '
 SMILNullType
+.
+h
+'
+'
+SMILType
 .
 h
 '

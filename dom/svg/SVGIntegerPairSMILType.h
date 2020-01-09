@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -30,7 +30,7 @@ class
 SVGIntegerPairSMILType
 :
 public
-nsISMILType
+SMILType
 {
 public
 :

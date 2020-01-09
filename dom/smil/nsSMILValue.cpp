@@ -25,7 +25,7 @@ nsSMILValue
 nsSMILValue
 (
 const
-nsISMILType
+SMILType
 *
 aType
 )
@@ -551,7 +551,7 @@ nsSMILValue
 InitAndCheckPostcondition
 (
 const
-nsISMILType
+SMILType
 *
 aNewType
 )
@@ -634,7 +634,7 @@ nsSMILValue
 DestroyAndReinit
 (
 const
-nsISMILType
+SMILType
 *
 aNewType
 )

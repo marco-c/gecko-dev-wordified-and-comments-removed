@@ -23,11 +23,16 @@ h
 class
 nsSMILValue
 ;
+namespace
+mozilla
+{
 class
-nsISMILType
+SMILType
 {
 friend
 class
+:
+:
 nsSMILValue
 ;
 protected
@@ -174,5 +179,6 @@ const
 ;
 }
 ;
+}
 #
 endif

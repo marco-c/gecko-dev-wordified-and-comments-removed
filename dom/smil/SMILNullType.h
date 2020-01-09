@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsISMILType
+SMILType
 .
 h
 "
@@ -27,7 +27,7 @@ class
 SMILNullType
 :
 public
-nsISMILType
+SMILType
 {
 public
 :
