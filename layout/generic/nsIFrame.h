@@ -5411,6 +5411,12 @@ nsIFrame
 aStartFrame
 )
 ;
+int32_t
+ZIndex
+(
+)
+const
+;
 bool
 IsScrollAnchor
 (
