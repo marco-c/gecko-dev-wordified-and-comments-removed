@@ -214,11 +214,15 @@ join
 os
 .
 environ
-[
+.
+get
+(
 '
 PROGRAMFILES
 '
-]
+'
+'
+)
 '
 Mercurial
 '
