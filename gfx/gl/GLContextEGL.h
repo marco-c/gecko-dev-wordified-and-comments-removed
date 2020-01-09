@@ -288,11 +288,14 @@ ReleaseSurface
 )
 override
 ;
-virtual
-bool
-SetupLookupFunction
+Maybe
+<
+SymbolLoader
+>
+GetSymbolLoader
 (
 )
+const
 override
 ;
 virtual
