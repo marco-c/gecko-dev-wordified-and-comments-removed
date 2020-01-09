@@ -109,8 +109,10 @@ nsFrameManager
 .
 h
 "
-struct
+using
 nsFrameItems
+=
+nsFrameList
 ;
 struct
 nsStyleDisplay
