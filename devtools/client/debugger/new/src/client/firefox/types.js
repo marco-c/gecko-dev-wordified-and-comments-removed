@@ -1049,16 +1049,6 @@ Promise
 url
 :
 string
-setEventListenerBreakpoints
-:
-(
-string
-[
-]
-)
-=
->
-void
 }
 ;
 export

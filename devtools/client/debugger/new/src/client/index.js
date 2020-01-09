@@ -198,14 +198,6 @@ asyncStore
 xhrBreakpoints
 ;
 const
-eventListenerBreakpoints
-=
-await
-asyncStore
-.
-eventListenerBreakpoints
-;
-const
 breakpoints
 =
 initialBreakpointsState
@@ -218,7 +210,6 @@ return
 pendingBreakpoints
 tabs
 breakpoints
-eventListenerBreakpoints
 }
 ;
 }
