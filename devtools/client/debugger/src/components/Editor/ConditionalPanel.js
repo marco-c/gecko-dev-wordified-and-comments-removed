@@ -1036,6 +1036,15 @@ keepFocusOnInput
 (
 )
 }
+onBlur
+=
+{
+this
+.
+props
+.
+closeConditionalPanel
+}
 ref
 =
 {
