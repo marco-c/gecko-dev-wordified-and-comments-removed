@@ -2216,13 +2216,6 @@ self
 color_formatter
 .
 log_test_status_unexpected_fail
-(
-"
-UNEXPECTED
--
-FAIL
-"
-)
         
 action
 =
