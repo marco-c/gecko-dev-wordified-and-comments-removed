@@ -117,6 +117,8 @@ This
 can
 occur
 for
+/
+/
 certain
 types
 of
@@ -134,6 +136,8 @@ SMS
 message
 )
 or
+/
+/
 when
 the
 user
@@ -150,9 +154,9 @@ the
 background
 state
 .
-/
-/
 Use
+/
+/
 this
 method
 to
@@ -169,6 +173,8 @@ ES
 frame
 rates
 .
+/
+/
 Games
 should
 use
@@ -208,6 +214,8 @@ invalidate
 timers
 and
 store
+/
+/
 enough
 application
 state
@@ -222,13 +230,13 @@ current
 state
 in
 case
+/
+/
 it
 is
 terminated
 later
 .
-/
-/
 If
 your
 application
@@ -238,6 +246,8 @@ execution
 this
 method
 is
+/
+/
 called
 instead
 of
@@ -281,6 +291,8 @@ here
 you
 can
 undo
+/
+/
 many
 of
 the
@@ -325,6 +337,8 @@ was
 inactive
 .
 If
+/
+/
 the
 application
 was
@@ -369,6 +383,8 @@ appropriate
 .
 See
 also
+/
+/
 applicationDidEnterBackground
 :
 .
