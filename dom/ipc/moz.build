@@ -794,12 +794,6 @@ security
 '
 '
 /
-dom
-/
-storage
-'
-'
-/
 extensions
 /
 cookie

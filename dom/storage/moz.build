@@ -211,11 +211,6 @@ SessionStorageManager
 cpp
 '
 '
-SessionStorageObserver
-.
-cpp
-'
-'
 Storage
 .
 cpp
@@ -267,11 +262,6 @@ ipdl
 '
 '
 PBackgroundStorage
-.
-ipdl
-'
-'
-PSessionStorageObserver
 .
 ipdl
 '
