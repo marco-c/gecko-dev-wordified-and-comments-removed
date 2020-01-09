@@ -915,16 +915,6 @@ automation
 py
 '
 ]
-DIRS
-+
-=
-[
-'
-tests
-/
-gtest
-'
-]
 #
 NOTE
 :
