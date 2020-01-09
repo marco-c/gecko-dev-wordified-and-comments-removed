@@ -13988,6 +13988,9 @@ bar
 1
 .
 21ms
+-
+timer
+ended
 "
 "
 parameters
@@ -14118,6 +14121,9 @@ bar
 1
 .
 21ms
+-
+timer
+ended
 \
 "
 \
