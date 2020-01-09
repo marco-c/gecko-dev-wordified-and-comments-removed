@@ -5754,7 +5754,9 @@ node
 spatial_node_index
 )
 .
-flattened
+into_transform
+(
+)
 )
 }
 ;
