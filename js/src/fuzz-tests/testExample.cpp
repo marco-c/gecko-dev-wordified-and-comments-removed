@@ -125,7 +125,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API

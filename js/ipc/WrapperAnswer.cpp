@@ -162,7 +162,7 @@ NonIncrementalGC
 (
 cx
 GC_NORMAL
-gcreason
+GCReason
 :
 :
 COMPONENT_UTILS

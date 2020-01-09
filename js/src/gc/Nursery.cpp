@@ -657,7 +657,7 @@ minorGCTriggerReason_
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 NO_REASON
@@ -3157,7 +3157,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 NO_REASON
@@ -3219,10 +3219,7 @@ reason
 JS
 :
 :
-gcreason
-:
-:
-ExplainReason
+ExplainGCReason
 (
 previousGC
 .
@@ -3883,10 +3880,7 @@ IsFullStoreBufferReason
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 reason
 )
 {
@@ -3897,7 +3891,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_WHOLE_CELL_BUFFER
@@ -3909,7 +3903,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_GENERIC_BUFFER
@@ -3921,7 +3915,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_VALUE_BUFFER
@@ -3933,7 +3927,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_CELL_PTR_BUFFER
@@ -3945,7 +3939,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_SLOT_BUFFER
@@ -3957,7 +3951,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_SHAPE_BUFFER
@@ -3975,10 +3969,7 @@ collect
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 reason
 )
 {
@@ -4155,7 +4146,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 NO_REASON
@@ -4733,7 +4724,10 @@ rt
 addTelemetry
 (
 JS_TELEMETRY_GC_MINOR_REASON
+uint32_t
+(
 reason
+)
 )
 ;
 if
@@ -4755,7 +4749,10 @@ rt
 addTelemetry
 (
 JS_TELEMETRY_GC_MINOR_REASON_LONG
+uint32_t
+(
 reason
+)
 )
 ;
 }
@@ -4853,10 +4850,7 @@ MinorGC
 JS
 :
 :
-gcreason
-:
-:
-ExplainReason
+ExplainGCReason
 (
 reason
 )
@@ -4947,10 +4941,7 @@ doCollection
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 reason
 TenureCountCache
 &
@@ -6289,10 +6280,7 @@ maybeResizeNursery
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 reason
 )
 {

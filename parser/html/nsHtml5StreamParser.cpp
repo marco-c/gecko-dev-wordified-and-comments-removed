@@ -4280,7 +4280,7 @@ mDocShell
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 HTML_PARSER

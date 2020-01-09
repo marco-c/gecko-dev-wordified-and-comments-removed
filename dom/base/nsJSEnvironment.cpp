@@ -1471,7 +1471,7 @@ GarbageCollectNow
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 MEM_PRESSURE
@@ -1507,7 +1507,7 @@ GarbageCollectNow
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 MEM_PRESSURE
@@ -2778,7 +2778,7 @@ PokeGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 NSJSCONTEXT_DESTROY
@@ -5058,7 +5058,7 @@ GarbageCollectNow
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_GC_TIMER
@@ -5078,10 +5078,7 @@ GarbageCollectNow
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 aReason
 IsIncremental
 aIncremental
@@ -5103,10 +5100,7 @@ GCCC
 JS
 :
 :
-gcreason
-:
-:
-ExplainReason
+ExplainGCReason
 (
 aReason
 )
@@ -5212,7 +5206,7 @@ aReason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_GC_TIMER
@@ -5339,7 +5333,7 @@ cx
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 CC_FORCED
@@ -7166,7 +7160,7 @@ PokeGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 CC_WAITING
@@ -8250,10 +8244,7 @@ static_cast
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 >
 (
 reason
@@ -8262,7 +8253,7 @@ reason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 INTER_SLICE_GC
@@ -8495,7 +8486,7 @@ GarbageCollectNow
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 USER_INACTIVE
@@ -8863,10 +8854,7 @@ RunNextCollectorTimer
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 aReason
 mozilla
 :
@@ -9015,10 +9003,7 @@ aDocShell
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 aReason
 )
 {
@@ -9232,10 +9217,7 @@ PokeGC
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 aReason
 JSObject
 *
@@ -9295,7 +9277,7 @@ aReason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 CC_WAITING

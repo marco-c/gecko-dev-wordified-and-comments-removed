@@ -7361,7 +7361,7 @@ NonIncrementalGC
 (
 cx
 GC_NORMAL
-gcreason
+GCReason
 :
 :
 COMPONENT_UTILS
@@ -7545,7 +7545,7 @@ NonIncrementalGC
 (
 cx
 GC_SHRINK
-gcreason
+GCReason
 :
 :
 COMPONENT_UTILS
@@ -7602,7 +7602,7 @@ nsJSContext
 :
 GarbageCollectNow
 (
-gcreason
+GCReason
 :
 :
 COMPONENT_UTILS

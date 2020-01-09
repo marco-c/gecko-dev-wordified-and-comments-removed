@@ -695,7 +695,7 @@ minorGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -780,7 +780,7 @@ minorGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -900,7 +900,7 @@ minorGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API

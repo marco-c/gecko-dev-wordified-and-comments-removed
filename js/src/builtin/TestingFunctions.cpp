@@ -2269,7 +2269,7 @@ gckind
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -2391,7 +2391,7 @@ setAboutToOverflow
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_GENERIC_BUFFER
@@ -2406,7 +2406,7 @@ minorGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -3234,7 +3234,7 @@ GC_SHRINK
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -24645,7 +24645,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 API
@@ -24772,7 +24772,7 @@ evictNursery
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 DEBUG_GC

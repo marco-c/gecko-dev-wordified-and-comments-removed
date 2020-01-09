@@ -19317,7 +19317,7 @@ GC_SHRINK
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 DOM_WORKER
@@ -19363,7 +19363,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 DOM_WORKER

@@ -55,7 +55,7 @@ GC_SHRINK
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 DEBUG_GC

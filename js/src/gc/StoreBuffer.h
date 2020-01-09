@@ -998,7 +998,7 @@ setAboutToOverflow
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_GENERIC_BUFFER
@@ -1344,7 +1344,7 @@ FullBufferReason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_CELL_PTR_BUFFER
@@ -1603,7 +1603,7 @@ FullBufferReason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_VALUE_BUFFER
@@ -2098,7 +2098,7 @@ FullBufferReason
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_SLOT_BUFFER
@@ -2686,10 +2686,7 @@ setAboutToOverflow
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 )
 ;
 void

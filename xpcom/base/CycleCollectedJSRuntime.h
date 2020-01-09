@@ -811,10 +811,7 @@ aProgress
 JS
 :
 :
-gcreason
-:
-:
-Reason
+GCReason
 aReason
 )
 ;
@@ -1203,7 +1200,10 @@ const
 void
 GarbageCollect
 (
-uint32_t
+JS
+:
+:
+GCReason
 aReason
 )
 const

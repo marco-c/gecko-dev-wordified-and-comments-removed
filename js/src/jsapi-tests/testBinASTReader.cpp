@@ -1324,7 +1324,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 NO_REASON

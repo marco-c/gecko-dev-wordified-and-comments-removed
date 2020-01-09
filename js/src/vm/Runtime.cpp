@@ -1326,7 +1326,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 DESTROY_RUNTIME

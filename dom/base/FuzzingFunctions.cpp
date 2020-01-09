@@ -119,7 +119,7 @@ GarbageCollectNow
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 COMPONENT_UTILS

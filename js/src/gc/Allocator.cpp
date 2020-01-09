@@ -629,7 +629,7 @@ minorGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 OUT_OF_NURSERY
@@ -946,7 +946,7 @@ minorGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 OUT_OF_NURSERY
@@ -1687,7 +1687,7 @@ GC_SHRINK
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 LAST_DITCH
@@ -2059,7 +2059,7 @@ GC_NORMAL
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 INCREMENTAL_TOO_SLOW

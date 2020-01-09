@@ -454,7 +454,7 @@ GarbageCollect
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 XPCONNECT_SHUTDOWN
@@ -486,7 +486,7 @@ GarbageCollect
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 XPCONNECT_SHUTDOWN

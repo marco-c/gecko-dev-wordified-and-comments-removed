@@ -848,7 +848,7 @@ setAboutToOverflow
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 FULL_SHAPE_BUFFER

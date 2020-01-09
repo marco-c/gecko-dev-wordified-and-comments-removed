@@ -4230,7 +4230,7 @@ PokeGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 LOAD_END
@@ -5310,7 +5310,7 @@ PokeGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 PAGE_HIDE
@@ -9005,7 +9005,7 @@ PokeGC
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 PAGE_HIDE

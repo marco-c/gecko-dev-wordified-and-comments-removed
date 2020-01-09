@@ -347,7 +347,7 @@ n_buckets
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 NUM_TELEMETRY_REASONS

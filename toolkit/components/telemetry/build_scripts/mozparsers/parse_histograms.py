@@ -3834,7 +3834,7 @@ EXPRESSIONS
 JS
 :
 :
-gcreason
+GCReason
 :
 :
 NUM_TELEMETRY_REASONS
