@@ -860,7 +860,7 @@ if
 ssl_trace
 >
 =
-10
+50
 )
 {
 char

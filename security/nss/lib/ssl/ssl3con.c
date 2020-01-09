@@ -21778,12 +21778,6 @@ max
 >
 =
 SSL_LIBRARY_VERSION_TLS_1_3
-&
-&
-type
-=
-=
-client_hello_initial
 )
 {
 rv
@@ -21791,6 +21785,7 @@ rv
 tls13_SetupClientHello
 (
 ss
+type
 )
 ;
 if
