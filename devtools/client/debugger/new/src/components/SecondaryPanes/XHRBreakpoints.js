@@ -976,6 +976,9 @@ index
 }
 >
 <
+label
+>
+<
 input
 type
 =
@@ -1039,6 +1042,10 @@ text
 <
 /
 div
+>
+<
+/
+label
 >
 <
 div
