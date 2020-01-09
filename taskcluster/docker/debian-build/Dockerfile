@@ -364,8 +364,6 @@ multilib
 \
 gnupg
 \
-libucl1
-\
 p7zip
 -
 full
