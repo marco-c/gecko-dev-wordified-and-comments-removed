@@ -1431,6 +1431,7 @@ url
 =
 page
 ;
+return
 Screenshots
 .
 maybeCacheScreenshot

@@ -835,10 +835,6 @@ mozilla
 .
 org
 /
-en
--
-US
-/
 firefox
 /
 addon
@@ -1261,10 +1257,6 @@ addons
 mozilla
 .
 org
-/
-en
--
-US
 /
 firefox
 /
@@ -1695,10 +1687,6 @@ mozilla
 .
 org
 /
-en
--
-US
-/
 firefox
 /
 addon
@@ -2124,10 +2112,6 @@ addons
 mozilla
 .
 org
-/
-en
--
-US
 /
 firefox
 /
@@ -2565,10 +2549,6 @@ addons
 mozilla
 .
 org
-/
-en
--
-US
 /
 firefox
 /

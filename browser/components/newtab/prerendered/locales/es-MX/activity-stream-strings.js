@@ -469,7 +469,7 @@ prefs_content_discovery_button
 "
 :
 "
-Desactivar
+Deshabilitar
 Content
 Discovery
 "
@@ -1240,15 +1240,6 @@ context_menu_title
 "
 Abrir
 men
-"
-"
-pocket_learn_more
-"
-:
-"
-Saber
-m
-s
 "
 }
 ;

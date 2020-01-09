@@ -1184,10 +1184,8 @@ Saccine
 de
 ci
 in
-sce
-l
-'
-account
+sci
+conto
 Firefox
 "
 "

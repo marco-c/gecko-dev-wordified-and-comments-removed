@@ -5153,8 +5153,6 @@ FAKE_URL
 }
 ;
 await
-feed
-.
 fetchImage
 (
 card

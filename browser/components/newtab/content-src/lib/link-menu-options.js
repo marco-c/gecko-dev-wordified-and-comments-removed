@@ -1046,6 +1046,8 @@ menu_action_delete_pocket
 icon
 :
 "
+pocket
+-
 delete
 "
 action
@@ -1093,7 +1095,9 @@ menu_action_archive_pocket
 icon
 :
 "
-check
+pocket
+-
+archive
 "
 action
 :

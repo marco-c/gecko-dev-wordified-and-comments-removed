@@ -147,11 +147,6 @@ az
 be
 bg
 bn
--
-BD
-bn
--
-IN
 br
 bs
 ca
@@ -231,9 +226,7 @@ lo
 lt
 ltg
 lv
-mai
 mk
-ml
 mr
 ms
 my
@@ -274,6 +267,7 @@ te
 th
 tl
 tr
+trs
 uk
 ur
 uz

@@ -1232,14 +1232,5 @@ context_menu_title
 Abrir
 men
 "
-"
-pocket_learn_more
-"
-:
-"
-Saber
-m
-s
-"
 }
 ;

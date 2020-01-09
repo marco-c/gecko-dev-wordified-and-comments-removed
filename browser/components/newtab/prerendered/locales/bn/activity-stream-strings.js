@@ -234,7 +234,6 @@ section_disclaimer_topstories
 "
 Pocket
 Mozilla
--
 "
 "
 section_disclaimer_topstories_linktext
@@ -254,6 +253,7 @@ prefs_home_header
 :
 "
 Firefox
+Home
 "
 "
 prefs_home_description
@@ -261,6 +261,7 @@ prefs_home_description
 :
 "
 Firefox
+Home
 "
 "
 prefs_content_discovery_header
@@ -572,7 +573,6 @@ manual_migration_explanation2
 "
 :
 "
-Firefox
 "
 "
 manual_migration_cancel_button
@@ -683,6 +683,7 @@ firstrun_form_header
 "
 :
 "
+-
 "
 "
 firstrun_form_sub_header
@@ -741,12 +742,6 @@ firstrun_skip_login
 "
 "
 context_menu_title
-"
-:
-"
-"
-"
-pocket_learn_more
 "
 :
 "

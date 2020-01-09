@@ -421,8 +421,9 @@ prefs_content_discovery_header
 "
 :
 "
+Acakki
+me
 Firefox
-Home
 "
 "
 prefs_content_discovery_description

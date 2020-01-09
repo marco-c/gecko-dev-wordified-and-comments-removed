@@ -414,6 +414,15 @@ linkMenuProps
 options
 [
 "
+CheckBookmarkOrArchive
+"
+"
+CheckSavedToPocket
+"
+"
+Separator
+"
+"
 OpenInNewWindow
 "
 "
