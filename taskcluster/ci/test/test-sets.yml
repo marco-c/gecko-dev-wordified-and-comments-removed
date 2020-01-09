@@ -1392,6 +1392,12 @@ mochitest
 -
 mochitest
 -
+browser
+-
+chrome
+-
+mochitest
+-
 gpu
 -
 mochitest
