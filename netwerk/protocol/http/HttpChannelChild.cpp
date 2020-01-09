@@ -13958,7 +13958,10 @@ HttpChannelChild
 RecvOriginalCacheInputStreamAvailable
 (
 const
-OptionalIPCStream
+Maybe
+<
+IPCStream
+>
 &
 aStream
 )
@@ -14020,7 +14023,10 @@ HttpChannelChild
 RecvAltDataCacheInputStreamAvailable
 (
 const
-OptionalIPCStream
+Maybe
+<
+IPCStream
+>
 &
 aStream
 )

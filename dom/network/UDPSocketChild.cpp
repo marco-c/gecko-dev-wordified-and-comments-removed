@@ -902,7 +902,7 @@ UDPData
 (
 autoStream
 .
-TakeOptionalValue
+TakeValue
 (
 )
 )

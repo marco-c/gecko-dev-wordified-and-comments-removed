@@ -1569,7 +1569,8 @@ requestHeaders
 nsCString
 requestMethod
 ;
-OptionalIPCStream
+IPCStream
+?
 uploadStream
 ;
 bool
@@ -1911,7 +1912,8 @@ startPos
 nsCString
 entityID
 ;
-OptionalIPCStream
+IPCStream
+?
 uploadStream
 ;
 OptionalLoadInfoArgs

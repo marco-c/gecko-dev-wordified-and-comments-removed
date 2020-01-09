@@ -847,7 +847,10 @@ IPCResult
 RecvOriginalCacheInputStreamAvailable
 (
 const
-OptionalIPCStream
+Maybe
+<
+IPCStream
+>
 &
 aStream
 )
@@ -863,7 +866,10 @@ IPCResult
 RecvAltDataCacheInputStreamAvailable
 (
 const
-OptionalIPCStream
+Maybe
+<
+IPCStream
+>
 &
 aStream
 )

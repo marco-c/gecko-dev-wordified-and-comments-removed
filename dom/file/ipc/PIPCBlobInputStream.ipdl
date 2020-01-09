@@ -139,7 +139,8 @@ child
 async
 StreamReady
 (
-OptionalIPCStream
+IPCStream
+?
 aStream
 )
 ;

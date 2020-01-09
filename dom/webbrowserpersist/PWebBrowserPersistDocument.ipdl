@@ -456,7 +456,8 @@ Attributes
 (
 WebBrowserPersistDocumentAttrs
 aAttrs
-OptionalIPCStream
+IPCStream
+?
 stream
 )
 ;

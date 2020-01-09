@@ -488,7 +488,7 @@ if
 !
 SendStreamReady
 (
-void_t
+Nothing
 (
 )
 )
@@ -591,10 +591,13 @@ if
 !
 SendStreamReady
 (
+Some
+(
 ipcStream
 .
 TakeValue
 (
+)
 )
 )
 )

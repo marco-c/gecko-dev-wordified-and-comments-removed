@@ -2110,7 +2110,10 @@ nsCString
 &
 requestMethod
 const
-OptionalIPCStream
+Maybe
+<
+IPCStream
+>
 &
 uploadStream
 const
