@@ -2257,7 +2257,7 @@ class
 nsDisplayVideo
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -2271,7 +2271,7 @@ nsVideoFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
