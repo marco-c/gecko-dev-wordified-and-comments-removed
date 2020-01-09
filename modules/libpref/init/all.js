@@ -37138,6 +37138,16 @@ pref
 "
 signon
 .
+includeOtherSubdomainsInLookup
+"
+false
+)
+;
+pref
+(
+"
+signon
+.
 masterPasswordReprompt
 .
 timeout_ms
