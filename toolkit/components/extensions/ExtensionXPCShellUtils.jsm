@@ -674,6 +674,15 @@ stateFlags
 statusCode
 )
 {
+request
+.
+QueryInterface
+(
+Ci
+.
+nsIChannel
+)
+;
 let
 requestUrl
 =
