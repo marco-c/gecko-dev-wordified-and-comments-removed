@@ -5529,16 +5529,6 @@ pref
 "
 apz
 .
-allow_checkerboarding
-"
-true
-)
-;
-pref
-(
-"
-apz
-.
 allow_double_tap_zooming
 "
 true
