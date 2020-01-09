@@ -468,7 +468,7 @@ prefs_content_discovery_button
 "
 :
 "
-Deshabilitar
+Desactivar
 Content
 Discovery
 "
