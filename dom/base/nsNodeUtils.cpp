@@ -951,6 +951,10 @@ nsAtom
 aAttribute
 int32_t
 aModType
+const
+nsAttrValue
+*
+aNewValue
 )
 {
 Document
@@ -973,6 +977,7 @@ aElement
 aNameSpaceID
 aAttribute
 aModType
+aNewValue
 )
 IsRemoveNotification
 :

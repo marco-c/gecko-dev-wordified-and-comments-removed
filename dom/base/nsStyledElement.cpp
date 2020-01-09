@@ -498,6 +498,7 @@ style
 aData
 .
 mModType
+nullptr
 )
 ;
 }
