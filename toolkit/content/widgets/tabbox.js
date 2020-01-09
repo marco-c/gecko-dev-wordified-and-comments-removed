@@ -1028,7 +1028,11 @@ tabpanelIdx
 =
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 this
 .

@@ -28,7 +28,7 @@ mappedArguments
 =
 Array
 .
-map
+from
 (
 aMessage
 .
@@ -42,11 +42,10 @@ this
 let
 joinedArguments
 =
-Array
+mappedArguments
 .
 join
 (
-mappedArguments
 "
 "
 )

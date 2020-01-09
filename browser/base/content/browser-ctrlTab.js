@@ -1848,7 +1848,11 @@ selectedIndex
 =
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 this
 .
@@ -3302,7 +3306,11 @@ _recentlyUsedTabs
 =
 Array
 .
+prototype
+.
 filter
+.
+call
 (
 gBrowser
 .

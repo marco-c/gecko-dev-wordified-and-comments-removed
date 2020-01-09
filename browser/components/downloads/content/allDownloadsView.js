@@ -1157,7 +1157,11 @@ selectedNodes
 return
 Array
 .
+prototype
+.
 filter
+.
+call
 (
 this
 .
@@ -2027,7 +2031,11 @@ default
 return
 Array
 .
+prototype
+.
 every
+.
+call
 (
 this
 .
@@ -2058,7 +2066,7 @@ urls
 =
 Array
 .
-map
+from
 (
 this
 .

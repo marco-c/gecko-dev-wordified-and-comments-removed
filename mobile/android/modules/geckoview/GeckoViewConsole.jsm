@@ -264,7 +264,7 @@ mappedArguments
 =
 Array
 .
-map
+from
 (
 aMessage
 .
@@ -278,11 +278,10 @@ this
 const
 joinedArguments
 =
-Array
+mappedArguments
 .
 join
 (
-mappedArguments
 "
 "
 )

@@ -4438,7 +4438,7 @@ xul
 return
 Array
 .
-map
+from
 (
 this
 .

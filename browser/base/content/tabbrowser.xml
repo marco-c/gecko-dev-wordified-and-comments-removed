@@ -1350,7 +1350,11 @@ _getScrollableElements
 return
 Array
 .
+prototype
+.
 filter
+.
+call
 (
 this
 .

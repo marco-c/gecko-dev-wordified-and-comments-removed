@@ -2925,7 +2925,7 @@ gRows
 =
 Array
 .
-slice
+from
 (
 gTBody
 .
@@ -3276,7 +3276,7 @@ gRows
 =
 Array
 .
-slice
+from
 (
 gTBody
 .
