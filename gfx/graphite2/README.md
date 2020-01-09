@@ -268,7 +268,7 @@ builds
 /
 buildType
 :
-Graphite_Windows64bitProduction
+Graphite_Windows64bit
 /
 statusIcon
 )
@@ -290,7 +290,7 @@ html
 ?
 buildTypeId
 =
-Graphite_Windows64bitProduction
+Graphite_Windows64bit
 &
 guest
 =
