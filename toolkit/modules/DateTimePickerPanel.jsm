@@ -546,7 +546,7 @@ Services
 .
 locale
 .
-regionalPrefsLocales
+webExposedLocales
 [
 0
 ]

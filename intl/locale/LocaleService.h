@@ -155,6 +155,11 @@ LocalesChanged
 (
 )
 ;
+void
+WebExposedLocalesChanged
+(
+)
+;
 bool
 IsAppLocaleRTL
 (
@@ -259,6 +264,12 @@ nsTArray
 nsCString
 >
 mPackagedLocales
+;
+nsTArray
+<
+nsCString
+>
+mWebExposedLocales
 ;
 const
 bool

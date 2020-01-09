@@ -328,7 +328,7 @@ this
 .
 window
 .
-getRegionalPrefsLocales
+getWebExposedLocales
 (
 )
 ;

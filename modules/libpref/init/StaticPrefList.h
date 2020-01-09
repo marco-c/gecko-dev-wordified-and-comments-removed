@@ -4785,6 +4785,17 @@ privacy_trackingprotection_cryptomining_annotate_enabled
 bool
 false
 )
+VARCACHE_PREF
+(
+"
+privacy
+.
+spoof_english
+"
+privacy_spoof_english
+RelaxedAtomicUint32
+0
+)
 #
 ifdef
 NIGHTLY_BUILD

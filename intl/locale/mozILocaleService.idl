@@ -754,6 +754,14 @@ ACString
 >
 regionalPrefsLocales
 ;
+readonly
+attribute
+Array
+<
+ACString
+>
+webExposedLocales
+;
 /
 *
 *
