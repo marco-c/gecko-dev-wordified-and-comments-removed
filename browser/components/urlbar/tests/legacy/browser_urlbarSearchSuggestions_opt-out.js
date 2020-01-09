@@ -423,13 +423,9 @@ waitForAutocompleteResultAt
 0
 )
 ;
-Assert
-.
-ok
+await
+promiseSuggestionsPresent
 (
-suggestionsPresent
-(
-)
 )
 ;
 assertVisible
