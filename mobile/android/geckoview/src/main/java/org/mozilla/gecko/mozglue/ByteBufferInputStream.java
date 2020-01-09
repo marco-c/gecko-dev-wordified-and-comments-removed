@@ -152,7 +152,8 @@ return
 1
 ;
 }
-length
+int
+remainingLength
 =
 Math
 .
@@ -172,7 +173,7 @@ get
 (
 buffer
 offset
-length
+remainingLength
 )
 ;
 return
@@ -206,7 +207,8 @@ return
 0
 ;
 }
-byteCount
+long
+remainingByteCount
 =
 Math
 .
@@ -233,11 +235,11 @@ position
 (
 int
 )
-byteCount
+remainingByteCount
 )
 ;
 return
-byteCount
+remainingByteCount
 ;
 }
 }
