@@ -38,6 +38,14 @@ compile
 =
 off
 '
+         
+'
+-
+-
+more
+-
+compartments
+'
 ]
         
 [
@@ -121,6 +129,13 @@ no
 -
 ion
 '
+'
+-
+-
+more
+-
+compartments
+'
 ]
     
 ]
@@ -160,6 +175,13 @@ compile
 =
 off
 '
+'
+-
+-
+more
+-
+compartments
+'
 ]
     
 ]
@@ -191,6 +213,14 @@ offthread
 compile
 =
 off
+'
+         
+'
+-
+-
+more
+-
+compartments
 '
 ]
         
