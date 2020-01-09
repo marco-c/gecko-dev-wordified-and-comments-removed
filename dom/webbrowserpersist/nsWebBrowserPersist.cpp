@@ -5331,10 +5331,7 @@ nsILoadInfo
 :
 :
 SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
-nsIContentPolicy
-:
-:
-TYPE_SAVEAS_DOWNLOAD
+aContentPolicyType
 cookieSettings
 nullptr
 nullptr
