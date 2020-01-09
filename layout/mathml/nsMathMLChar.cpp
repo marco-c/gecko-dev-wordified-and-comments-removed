@@ -9611,7 +9611,6 @@ unionRect
 Inflate
 (
 oneDevPixel
-oneDevPixel
 )
 ;
 gfxTextRun
@@ -10609,7 +10608,6 @@ unionRect
 .
 Inflate
 (
-oneDevPixel
 oneDevPixel
 )
 ;

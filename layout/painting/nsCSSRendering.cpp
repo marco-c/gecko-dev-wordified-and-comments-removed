@@ -5138,7 +5138,6 @@ innerRect
 Inflate
 (
 offset
-offset
 )
 ;
 if
@@ -5174,7 +5173,6 @@ outerRect
 .
 Inflate
 (
-width
 width
 )
 ;
@@ -7224,10 +7222,6 @@ shadowRect
 .
 Inflate
 (
-shadowItem
--
->
-mSpread
 shadowItem
 -
 >
