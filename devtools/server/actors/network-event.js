@@ -262,11 +262,6 @@ referrerPolicy
 this
 .
 _referrerPolicy
-blockedReason
-:
-this
-.
-_blockedReason
 }
 ;
 }
@@ -531,14 +526,6 @@ _discardResponseBody
 networkEvent
 .
 discardResponseBody
-;
-this
-.
-_blockedReason
-=
-networkEvent
-.
-blockedReason
 ;
 this
 .
@@ -1281,6 +1268,7 @@ info
 addSecurityInfo
 (
 info
+isRacing
 )
 {
 if
@@ -1324,6 +1312,9 @@ state
 info
 .
 state
+isRacing
+:
+isRacing
 }
 )
 ;
