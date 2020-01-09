@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 argparse
 import
@@ -132,11 +136,7 @@ name
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 Missing
 required
@@ -146,6 +146,12 @@ s
 "
 %
 name
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -4866,6 +4872,7 @@ test_paths
 :
             
 print
+(
 "
 Fatal
 :
@@ -4879,6 +4886,7 @@ and
 metadata
 path
 "
+)
             
 sys
 .
@@ -4982,6 +4990,7 @@ path
 :
                 
 print
+(
 "
 Fatal
 :
@@ -4998,6 +5007,7 @@ exist
 (
 name
 path
+)
 )
                 
 sys
@@ -5020,6 +5030,7 @@ path
 :
                 
 print
+(
 "
 Fatal
 :
@@ -5037,6 +5048,7 @@ directory
 (
 name
 path
+)
 )
                 
 sys
@@ -5451,11 +5463,7 @@ binary
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 Binary
 path
@@ -5472,6 +5480,12 @@ kwargs
 binary
 "
 ]
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
@@ -5672,11 +5686,7 @@ None
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 openssl
 -
@@ -5689,6 +5699,12 @@ a
 valid
 executable
 "
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
@@ -5758,11 +5774,7 @@ None
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 certutil
 -
@@ -5775,6 +5787,12 @@ a
 valid
 executable
 "
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
@@ -5860,11 +5878,7 @@ missing
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 Preferences
 via
@@ -5879,6 +5893,12 @@ key
 value
 format
 "
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
@@ -6070,11 +6090,7 @@ item
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 Log
 file
@@ -6086,6 +6102,12 @@ directory
 "
 %
 item
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
