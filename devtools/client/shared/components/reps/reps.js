@@ -12613,6 +12613,8 @@ const
 locationParts
 =
 location
+?
+location
 .
 match
 (
@@ -12636,6 +12638,8 @@ d
 )
 /
 )
+:
+null
 ;
 if
 (
