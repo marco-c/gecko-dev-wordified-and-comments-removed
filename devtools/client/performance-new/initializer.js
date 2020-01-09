@@ -54,7 +54,9 @@ devtools
 /
 client
 /
-memory
+performance
+-
+new
 /
 "
 window
