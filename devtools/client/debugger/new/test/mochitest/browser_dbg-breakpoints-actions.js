@@ -162,16 +162,6 @@ dbg
 "
 simple1
 "
-1
-)
-;
-await
-addBreakpoint
-(
-dbg
-"
-simple1
-"
 4
 )
 ;
@@ -252,7 +242,7 @@ line
 !
 =
 =
-1
+4
 )
 =
 =
@@ -271,7 +261,7 @@ ok
 "
 breakpoint
 at
-1
+4
 is
 the
 only
@@ -358,7 +348,7 @@ dbg
 "
 ENABLE_BREAKPOINT
 "
-3
+2
 )
 ;
 selectContextMenuItem
@@ -401,7 +391,7 @@ line
 =
 =
 =
-1
+4
 )
 =
 =
@@ -441,7 +431,7 @@ dbg
 "
 REMOVE_BREAKPOINT
 "
-3
+2
 )
 ;
 selectContextMenuItem
@@ -495,7 +485,7 @@ line
 =
 =
 =
-1
+4
 )
 ;
 await
@@ -510,7 +500,7 @@ should
 be
 on
 line
-1
+4
 "
 )
 ;

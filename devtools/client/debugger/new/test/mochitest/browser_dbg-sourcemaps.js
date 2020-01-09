@@ -429,12 +429,6 @@ stepIn
 dbg
 )
 ;
-await
-stepIn
-(
-dbg
-)
-;
 assertPausedLocation
 (
 dbg
