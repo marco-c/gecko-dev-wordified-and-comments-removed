@@ -312,6 +312,12 @@ boolean
 isLocal
 =
 features
+!
+=
+null
+&
+&
+features
 .
 contains
 (
