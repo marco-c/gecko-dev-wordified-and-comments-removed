@@ -6,6 +6,16 @@ name
 "
 webrender_build
 "
+authors
+=
+[
+"
+The
+Servo
+Project
+Developers
+"
+]
 version
 =
 "
