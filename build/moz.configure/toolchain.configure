@@ -11809,6 +11809,11 @@ enable
 -
 lto
 '
+env
+=
+'
+MOZ_LTO
+'
 nargs
 =
 '

@@ -43,12 +43,10 @@ enable
 verify
 -
 mar
-ac_add_options
--
--
-enable
--
-lto
+export
+MOZ_LTO
+=
+1
 ac_add_options
 -
 -
