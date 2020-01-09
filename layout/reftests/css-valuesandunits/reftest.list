@@ -214,6 +214,9 @@ skip
 if
 (
 gtkWidget
+|
+|
+cocoaWidget
 )
 =
 =
