@@ -1161,11 +1161,6 @@ Content
 StatusChange
 "
 "
-Content
-:
-ContentBlockingEvent
-"
-"
 DOMTitleChanged
 "
 "
