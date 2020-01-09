@@ -469,6 +469,11 @@ name
 deviceDescription
 .
 name
+os
+:
+deviceDescription
+.
+os
 type
 :
 runtime

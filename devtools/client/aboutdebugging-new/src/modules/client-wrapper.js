@@ -420,6 +420,11 @@ name
 description
 .
 brandName
+os
+:
+description
+.
+os
 version
 :
 description
