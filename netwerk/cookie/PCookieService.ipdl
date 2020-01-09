@@ -524,8 +524,6 @@ bool
 isTrackingResource
 bool
 firstPartyStorageAccessGranted
-uint32_t
-rejectedReason
 OriginAttributes
 aStoragePrincipalAttrs
 nsCString
@@ -547,8 +545,6 @@ bool
 isTrackingResource
 bool
 firstPartyStorageAccessGranted
-uint32_t
-rejectedReason
 bool
 isSafeTopLevelNav
 bool

@@ -117,11 +117,6 @@ AntiTrackingCommon
 h
 '
 '
-StorageAccess
-.
-h
-'
-'
 StoragePrincipalHelper
 .
 h
@@ -133,11 +128,6 @@ UNIFIED_SOURCES
 [
 '
 AntiTrackingCommon
-.
-cpp
-'
-'
-StorageAccess
 .
 cpp
 '

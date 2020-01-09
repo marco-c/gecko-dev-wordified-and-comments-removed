@@ -8241,14 +8241,6 @@ GetTopLevelContentDocument
 (
 )
 ;
-const
-Document
-*
-GetTopLevelContentDocument
-(
-)
-const
-;
 already_AddRefed
 <
 nsIXULWindow

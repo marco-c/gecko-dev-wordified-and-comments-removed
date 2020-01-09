@@ -34,9 +34,6 @@ name
 +
 "
 '
-with
-storage
-principal
 .
 .
 .
@@ -572,12 +569,6 @@ cleanupFunction
 {
 await
 cleanupFunction
-(
-)
-;
-UrlClassifierTestUtils
-.
-cleanupTestTrackers
 (
 )
 ;

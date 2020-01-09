@@ -228,7 +228,7 @@ nsContentUtils
 StorageAccess
 :
 :
-ePartitionForeignOrDeny
+ePartitionedOrDeny
 nsContentUtils
 :
 :
