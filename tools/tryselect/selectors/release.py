@@ -191,6 +191,7 @@ choices
 '
 :
 [
+              
 '
 central
 -
@@ -198,6 +199,7 @@ to
 -
 beta
 '
+              
 '
 beta
 -
@@ -205,6 +207,7 @@ to
 -
 release
 '
+              
 '
 early
 -
@@ -214,6 +217,15 @@ late
 -
 beta
 '
+              
+'
+release
+-
+to
+-
+esr
+'
+          
 ]
           
 '
