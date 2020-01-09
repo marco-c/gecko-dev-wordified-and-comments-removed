@@ -302,6 +302,7 @@ defaults
 =
 {
 selector
+ruleId
 add
 :
 [
