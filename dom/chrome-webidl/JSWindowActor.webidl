@@ -208,6 +208,15 @@ BrowsingContext
 ?
 browsingContext
 ;
+[
+Throws
+]
+readonly
+attribute
+nsIDocShell
+?
+docShell
+;
 /
 /
 NOTE
