@@ -142,6 +142,12 @@ false
 ]
 [
 "
+ctrlCanonizesURLs
+"
+true
+]
+[
+"
 decodeURLsOnCopy
 "
 false
