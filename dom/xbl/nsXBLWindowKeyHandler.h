@@ -166,6 +166,7 @@ nsXBLWindowKeyHandler
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 WalkHandlers
 (
@@ -174,6 +175,7 @@ KeyboardEvent
 aKeyEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 WalkHandlersInternal
 (
@@ -189,6 +191,7 @@ aOutReservedForChrome
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 WalkHandlersAndExecute
 (
@@ -210,6 +213,7 @@ aOutReservedForChrome
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleEventOnCaptureInDefaultEventGroup
 (
@@ -218,6 +222,7 @@ KeyboardEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleEventOnCaptureInSystemEventGroup
 (
@@ -226,6 +231,7 @@ KeyboardEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 HasHandlerForEvent
 (

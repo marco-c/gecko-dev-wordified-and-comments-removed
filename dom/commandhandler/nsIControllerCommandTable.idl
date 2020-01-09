@@ -481,6 +481,9 @@ context
 data
 *
 /
+[
+can_run_script
+]
 void
 doCommand
 (

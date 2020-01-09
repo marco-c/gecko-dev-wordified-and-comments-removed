@@ -136,6 +136,9 @@ string
 command
 )
 ;
+[
+can_run_script
+]
 void
 doCommand
 (

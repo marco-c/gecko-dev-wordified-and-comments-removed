@@ -295,6 +295,7 @@ nsXBLKeyEventHandler
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 ExecuteMatchedHandlers
 (
