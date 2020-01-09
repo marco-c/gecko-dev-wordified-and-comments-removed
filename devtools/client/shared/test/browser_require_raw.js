@@ -98,6 +98,11 @@ worked
 "
 )
 ;
+delete
+window
+.
+getBrowserLoaderForWindow
+;
 finish
 (
 )

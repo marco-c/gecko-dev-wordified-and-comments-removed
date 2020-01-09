@@ -45,7 +45,7 @@ document
 )
 {
 const
-browserLoader
+WebConsoleWrapper
 =
 BrowserLoader
 (
@@ -67,17 +67,6 @@ webconsole
 window
 }
 )
-;
-hud
-.
-browserLoader
-=
-browserLoader
-;
-const
-WebConsoleWrapper
-=
-browserLoader
 .
 require
 (
