@@ -82,6 +82,13 @@ Create
 nsISerialEventTarget
 *
 aBaseTarget
+uint32_t
+aPriority
+=
+nsIRunnablePriority
+:
+:
+PRIORITY_NORMAL
 )
 ;
 bool

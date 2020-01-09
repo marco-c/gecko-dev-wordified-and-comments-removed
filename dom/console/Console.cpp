@@ -3114,6 +3114,17 @@ ReleaseData
 =
 0
 ;
+bool
+ForMessaging
+(
+)
+const
+override
+{
+return
+true
+;
+}
 RefPtr
 <
 Console
