@@ -3610,9 +3610,11 @@ pub
 struct
 PointKey
 {
+pub
 x
 :
 f32
+pub
 y
 :
 f32
