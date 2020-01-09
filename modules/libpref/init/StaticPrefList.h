@@ -1,5 +1,6 @@
 VARCACHE_PREF
 (
+Live
 "
 accessibility
 .
@@ -16,6 +17,7 @@ ifdef
 FUZZING
 VARCACHE_PREF
 (
+Live
 "
 fuzzing
 .
@@ -27,6 +29,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 fuzzing
 .
@@ -74,6 +77,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 clipboard
 .
@@ -103,6 +107,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -138,6 +143,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -158,6 +164,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -190,6 +197,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -225,6 +233,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -262,6 +271,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -282,6 +292,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -338,6 +349,7 @@ PREF_VALUE
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -356,6 +368,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -371,6 +384,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -386,6 +400,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -399,6 +414,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -412,6 +428,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -427,6 +444,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -444,6 +462,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -459,6 +478,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -472,6 +492,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -487,6 +508,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -512,6 +534,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -527,6 +550,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -542,6 +566,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -557,6 +582,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -570,6 +596,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -585,6 +612,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -598,6 +626,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -611,6 +640,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -639,6 +669,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -655,6 +686,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -685,6 +717,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -703,6 +736,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -716,6 +750,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -731,6 +766,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -765,6 +801,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -781,6 +818,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -794,6 +832,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -826,6 +865,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -862,6 +902,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -878,6 +919,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -891,6 +933,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -902,6 +945,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -913,6 +957,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -924,6 +969,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -935,6 +981,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -948,6 +995,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -961,6 +1009,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -979,6 +1028,7 @@ ifdef
 JS_BUILD_BINAST
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -994,6 +1044,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1013,6 +1064,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1028,6 +1080,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1058,6 +1111,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -1078,6 +1132,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1093,6 +1148,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1106,6 +1162,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1119,6 +1176,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1130,6 +1188,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1143,6 +1202,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1169,6 +1229,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1185,6 +1246,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1196,6 +1258,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1209,6 +1272,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1222,6 +1286,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1237,6 +1302,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1254,6 +1320,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1267,6 +1334,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1278,6 +1346,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1293,6 +1362,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1306,6 +1376,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1319,6 +1390,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1336,6 +1408,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1349,6 +1422,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1364,6 +1438,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -1392,6 +1467,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 extensions
 .
@@ -1406,6 +1482,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 extensions
 .
@@ -1419,6 +1496,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 full
 -
@@ -1434,6 +1512,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 full
 -
@@ -1451,6 +1530,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 full
 -
@@ -1472,6 +1552,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -1485,6 +1566,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -1498,6 +1580,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -1511,6 +1594,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -1524,6 +1608,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -1537,6 +1622,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -1550,6 +1636,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -1561,6 +1648,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -1657,6 +1745,7 @@ String
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -1670,6 +1759,7 @@ RelaxedAtomicInt32
 )
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -1685,6 +1775,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -1698,6 +1789,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -1724,6 +1816,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -1742,6 +1835,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 html5
 .
@@ -1753,6 +1847,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 html5
 .
@@ -1766,6 +1861,7 @@ RelaxedAtomicInt32
 )
 VARCACHE_PREF
 (
+Live
 "
 html5
 .
@@ -1779,6 +1875,7 @@ RelaxedAtomicInt32
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1794,6 +1891,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1811,6 +1909,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1824,6 +1923,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1837,6 +1937,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1850,6 +1951,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1863,6 +1965,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1876,6 +1979,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1889,6 +1993,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1902,6 +2007,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1915,6 +2021,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1928,6 +2035,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1943,6 +2051,7 @@ float
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1958,6 +2067,7 @@ float
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1976,6 +2086,7 @@ float
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -1989,6 +2100,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2019,6 +2131,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2039,6 +2152,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2052,6 +2166,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2069,6 +2184,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2084,6 +2200,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2105,6 +2222,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2124,6 +2242,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2158,6 +2277,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2178,6 +2298,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2191,6 +2312,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2208,6 +2330,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2242,6 +2365,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2277,6 +2401,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2303,6 +2428,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2324,6 +2450,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2347,6 +2474,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2383,6 +2511,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2407,6 +2536,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2432,6 +2562,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2449,6 +2580,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2470,6 +2602,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2489,6 +2622,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2508,6 +2642,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2540,6 +2675,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2558,6 +2694,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2592,6 +2729,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2612,6 +2750,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2623,6 +2762,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2640,6 +2780,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2657,6 +2798,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2676,6 +2818,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2712,6 +2855,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2745,6 +2889,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2778,6 +2923,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 xul
 .
@@ -2796,6 +2942,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -2830,6 +2977,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 javascript
 .
@@ -2846,6 +2994,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 javascript
 .
@@ -2880,6 +3029,7 @@ ms
 endif
 VARCACHE_PREF
 (
+Live
 "
 javascript
 .
@@ -2896,6 +3046,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 javascript
 .
@@ -2911,6 +3062,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 javascript
 .
@@ -2926,6 +3078,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 javascript
 .
@@ -2939,6 +3092,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 javascript
 .
@@ -2952,6 +3106,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 javascript
 .
@@ -2967,6 +3122,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 javascript
 .
@@ -2997,6 +3153,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -3013,6 +3170,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3024,6 +3182,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3037,6 +3196,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3048,6 +3208,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3059,6 +3220,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3070,6 +3232,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3081,6 +3244,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3094,6 +3258,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3105,6 +3270,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3118,6 +3284,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3161,6 +3328,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3177,6 +3345,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3236,6 +3405,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3252,6 +3422,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3281,6 +3452,7 @@ MOZ_SANDBOX
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3298,6 +3470,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3331,6 +3504,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3401,6 +3575,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3419,6 +3594,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3434,6 +3610,7 @@ RelaxedAtomicInt32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3452,6 +3629,7 @@ ifdef
 ANDROID
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3469,6 +3647,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3488,6 +3667,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3501,6 +3681,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3516,6 +3697,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3531,6 +3713,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3550,6 +3733,7 @@ ifdef
 ANDROID
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3626,6 +3810,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3664,6 +3849,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3685,6 +3871,7 @@ ifdef
 MOZ_OMX
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3721,6 +3908,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3737,6 +3925,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3757,6 +3946,7 @@ ifdef
 MOZ_FFVPX
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3784,6 +3974,7 @@ MOZ_FFVPX
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3806,6 +3997,7 @@ ifdef
 MOZ_WMF
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3819,6 +4011,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3857,6 +4050,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3875,6 +4069,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3898,6 +4093,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3913,6 +4109,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3928,6 +4125,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3943,6 +4141,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3962,6 +4161,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3979,6 +4179,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -3998,6 +4199,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4017,6 +4219,7 @@ RelaxedAtomicInt32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4032,6 +4235,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4047,6 +4251,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4062,6 +4267,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4080,6 +4286,7 @@ ifdef
 MOZ_WEBSPEECH
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4097,6 +4304,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4130,6 +4338,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4166,6 +4375,7 @@ PREF_VALUE
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4204,6 +4414,7 @@ PREF_VALUE
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4224,6 +4435,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4237,6 +4449,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4250,6 +4463,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4263,6 +4477,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4328,6 +4543,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4344,6 +4560,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4401,6 +4618,7 @@ endif
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4429,6 +4647,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4448,6 +4667,7 @@ ifdef
 ANDROID
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4480,6 +4700,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4496,6 +4717,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4513,6 +4735,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4547,6 +4770,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4567,6 +4791,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4580,6 +4805,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4597,6 +4823,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4612,6 +4839,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4629,6 +4857,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4644,6 +4873,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4659,6 +4889,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4674,6 +4905,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4687,6 +4919,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4700,6 +4933,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4715,6 +4949,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4730,6 +4965,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -4747,6 +4983,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4766,6 +5003,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4791,6 +5029,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4818,6 +5057,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4831,6 +5071,7 @@ RelaxedAtomicInt32
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4844,6 +5085,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4857,6 +5099,7 @@ RelaxedAtomicInt32
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4870,6 +5113,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4883,6 +5127,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4902,6 +5147,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4917,6 +5163,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4934,6 +5181,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4951,6 +5199,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4968,6 +5217,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -4985,6 +5235,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5002,6 +5253,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5019,6 +5271,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5036,6 +5289,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5053,6 +5307,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5070,6 +5325,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5087,6 +5343,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5106,6 +5363,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5123,6 +5381,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5140,6 +5399,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5157,6 +5417,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5176,6 +5437,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5195,6 +5457,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5226,6 +5489,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5241,6 +5505,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5254,6 +5519,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5269,6 +5535,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5282,6 +5549,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 network
 .
@@ -5297,6 +5565,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5324,6 +5593,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5341,6 +5611,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5358,6 +5629,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5373,6 +5645,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5409,6 +5682,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5427,6 +5701,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5440,6 +5715,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5455,6 +5731,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5472,6 +5749,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5487,6 +5765,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5504,6 +5783,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5515,6 +5795,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5543,6 +5824,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5559,6 +5841,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5572,6 +5855,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5585,6 +5869,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5619,6 +5904,7 @@ PREF_VALUE
 endif
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5635,6 +5921,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5646,6 +5933,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5659,6 +5947,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5672,6 +5961,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5685,6 +5975,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -5698,6 +5989,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -5719,6 +6011,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5734,6 +6027,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5749,6 +6043,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5764,6 +6059,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5779,6 +6075,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5794,6 +6091,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -5809,6 +6107,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 ui
 .
@@ -5820,6 +6119,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 ui
 .
@@ -5831,6 +6131,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 channelclassifier
 .
@@ -5842,6 +6143,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 security
 .
@@ -5855,6 +6157,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 security
 .
@@ -5868,6 +6171,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 security
 .
@@ -5889,6 +6193,7 @@ int32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 view_source
 .
@@ -5902,6 +6207,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 devtools
 .
@@ -5928,6 +6234,7 @@ true
 endif
 VARCACHE_PREF
 (
+Live
 "
 devtools
 .
@@ -5946,6 +6253,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 devtools
 .
@@ -5976,6 +6284,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -5991,6 +6300,7 @@ PREF_VALUE
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6008,6 +6318,7 @@ PREF_VALUE
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6028,6 +6339,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 plugins
 .
@@ -6041,6 +6353,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 plugins
 .
@@ -6067,6 +6380,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6083,6 +6397,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6113,6 +6428,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6131,6 +6447,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6146,6 +6463,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6161,6 +6479,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6176,6 +6495,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6191,6 +6511,7 @@ uint32_t
 )
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6221,6 +6542,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -6239,6 +6561,7 @@ undef
 PREF_VALUE
 VARCACHE_PREF
 (
+Live
 "
 medium_high_event_queue
 .
@@ -6250,6 +6573,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 security
 .
@@ -6263,6 +6587,7 @@ true
 )
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -6278,6 +6603,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 telemetry
 .
@@ -6291,6 +6617,7 @@ false
 )
 VARCACHE_PREF
 (
+Live
 "
 accessibility
 .
@@ -6303,6 +6630,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6315,6 +6643,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6327,6 +6656,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6339,6 +6669,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6355,6 +6686,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6373,6 +6705,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6391,6 +6724,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6409,6 +6743,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6423,6 +6758,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6444,6 +6780,7 @@ M_PI
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6464,6 +6801,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6485,6 +6823,7 @@ M_PI
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6506,6 +6845,7 @@ M_PI
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6520,6 +6860,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6532,6 +6873,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6544,6 +6886,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6556,6 +6899,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6568,6 +6912,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6580,6 +6925,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6594,6 +6940,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6610,6 +6957,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6626,6 +6974,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6638,6 +6987,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6656,6 +7006,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6674,6 +7025,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6692,6 +7044,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6706,6 +7059,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6718,6 +7072,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6732,6 +7087,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6746,6 +7102,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6761,6 +7118,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6775,6 +7133,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6789,6 +7148,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6803,6 +7163,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6817,6 +7178,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6831,6 +7193,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6847,6 +7210,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6859,6 +7223,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6874,6 +7239,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6888,6 +7254,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6902,6 +7269,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6916,6 +7284,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6930,6 +7299,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6946,6 +7316,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6962,6 +7333,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6978,6 +7350,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -6992,6 +7365,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7006,6 +7380,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7020,6 +7395,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7040,6 +7416,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7060,6 +7437,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7080,6 +7458,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7094,6 +7473,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7106,6 +7486,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7118,6 +7499,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7132,6 +7514,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7146,6 +7529,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7160,6 +7544,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7174,6 +7559,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7192,6 +7578,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7206,6 +7593,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7218,6 +7606,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7232,6 +7621,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7246,6 +7636,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7260,6 +7651,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7274,6 +7666,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7288,6 +7681,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7302,6 +7696,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7314,6 +7709,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7326,6 +7722,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 apz
 .
@@ -7342,6 +7739,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -7360,6 +7758,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -7380,6 +7779,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 browser
 .
@@ -7394,6 +7794,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7412,6 +7813,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7428,6 +7830,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7444,6 +7847,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7460,6 +7864,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7478,6 +7883,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7496,6 +7902,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7512,6 +7919,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7530,6 +7938,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7548,6 +7957,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7566,6 +7976,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7584,6 +7995,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7602,6 +8014,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7618,6 +8031,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7634,6 +8048,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7650,6 +8065,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7666,6 +8082,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7682,6 +8099,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7698,6 +8116,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 dom
 .
@@ -7712,6 +8131,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7724,6 +8144,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7740,6 +8161,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7754,6 +8176,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7770,6 +8193,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7786,6 +8210,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7800,6 +8225,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7816,6 +8242,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7832,6 +8259,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7848,6 +8276,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7864,6 +8293,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7878,6 +8308,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7894,6 +8325,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7910,6 +8342,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7926,6 +8359,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7942,6 +8376,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7958,6 +8393,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7974,6 +8410,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -7990,6 +8427,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -8006,6 +8444,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -8022,6 +8461,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -8040,6 +8480,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -8056,6 +8497,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 general
 .
@@ -8078,6 +8520,7 @@ MOZ_WIDGET_ANDROID
 )
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8100,6 +8543,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8122,6 +8566,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8144,6 +8589,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8168,6 +8614,7 @@ AtomicFloat
 endif
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8182,6 +8629,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8198,6 +8646,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8214,6 +8663,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8228,6 +8678,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8243,6 +8694,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8257,6 +8709,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8273,6 +8726,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8293,6 +8747,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8312,6 +8767,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8330,6 +8786,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8348,6 +8805,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8362,6 +8820,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8376,6 +8835,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8390,6 +8850,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8412,6 +8873,7 @@ XP_MACOSX
 )
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8430,6 +8892,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8444,6 +8907,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8458,6 +8922,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8478,6 +8943,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8492,6 +8958,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8508,6 +8975,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8524,6 +8992,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8540,6 +9009,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8556,6 +9026,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8576,6 +9047,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8594,6 +9066,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8610,6 +9083,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8626,6 +9100,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8644,6 +9119,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8662,6 +9138,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8680,6 +9157,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8698,6 +9176,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8716,6 +9195,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8738,6 +9218,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8754,6 +9235,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gfx
 .
@@ -8772,6 +9254,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gl
 .
@@ -8788,6 +9271,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 gl
 .
@@ -8806,6 +9290,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gl
 .
@@ -8826,6 +9311,7 @@ XP_MACOSX
 )
 VARCACHE_PREF
 (
+Live
 "
 gl
 .
@@ -8840,6 +9326,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 gl
 .
@@ -8854,6 +9341,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 gl
 .
@@ -8872,6 +9360,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -8894,6 +9383,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -8916,6 +9406,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -8936,6 +9427,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -8956,6 +9448,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -8975,6 +9468,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -8999,6 +9493,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -9015,6 +9510,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -9033,6 +9529,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -9053,6 +9550,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -9065,6 +9563,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -9079,6 +9578,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -9095,6 +9595,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -9111,6 +9612,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -9125,6 +9627,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -9142,6 +9645,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 image
 .
@@ -9156,6 +9660,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9172,6 +9677,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9192,6 +9698,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9214,6 +9721,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9232,6 +9740,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9246,6 +9755,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9262,6 +9772,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9276,6 +9787,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9292,6 +9804,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9306,6 +9819,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9322,6 +9836,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9338,6 +9853,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9350,6 +9866,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9367,6 +9884,7 @@ ifdef
 MOZ_DUMP_PAINTING
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9383,6 +9901,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9397,6 +9916,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9415,6 +9935,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9431,6 +9952,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9445,6 +9967,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9459,6 +9982,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9473,6 +9997,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9489,6 +10014,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9505,6 +10031,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9521,6 +10048,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9539,6 +10067,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9557,6 +10086,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9572,6 +10102,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9588,6 +10119,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9605,6 +10137,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9621,6 +10154,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9643,6 +10177,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9662,6 +10197,7 @@ uint32_t
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9676,6 +10212,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9694,6 +10231,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9710,6 +10248,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9726,6 +10265,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9744,6 +10284,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9762,6 +10303,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9782,6 +10324,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9798,6 +10341,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9814,6 +10358,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9830,6 +10375,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9846,6 +10392,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layers
 .
@@ -9862,6 +10409,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -9878,6 +10426,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -9902,6 +10451,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -9926,6 +10476,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -9946,6 +10497,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -9966,6 +10518,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -9984,6 +10537,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10006,6 +10560,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10024,6 +10579,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10046,6 +10602,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10068,6 +10625,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10090,6 +10648,7 @@ AtomicFloat
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10110,6 +10669,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10126,6 +10686,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10144,6 +10705,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10160,6 +10722,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10178,6 +10741,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10196,6 +10760,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10216,6 +10781,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10236,6 +10802,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10252,6 +10819,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10270,6 +10838,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10288,6 +10857,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10308,6 +10878,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10326,6 +10897,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10344,6 +10916,7 @@ int
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10362,6 +10935,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10380,6 +10954,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 layout
 .
@@ -10399,6 +10974,7 @@ ifdef
 XP_WIN
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -10417,6 +10993,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -10435,6 +11012,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -10453,6 +11031,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -10473,6 +11052,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -10491,6 +11071,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -10511,6 +11092,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -10527,6 +11109,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -10551,6 +11134,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -10569,6 +11153,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 media
 .
@@ -10589,6 +11174,7 @@ false
 endif
 VARCACHE_PREF
 (
+Live
 "
 mousewheel
 .
@@ -10604,6 +11190,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 mousewheel
 .
@@ -10619,6 +11206,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 mousewheel
 .
@@ -10633,6 +11221,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 mousewheel
 .
@@ -10649,6 +11238,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 mousewheel
 .
@@ -10665,6 +11255,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 mousewheel
 .
@@ -10682,6 +11273,7 @@ int32_t
 ;
 VARCACHE_PREF
 (
+Live
 "
 mousewheel
 .
@@ -10699,6 +11291,7 @@ int32_t
 ;
 VARCACHE_PREF
 (
+Live
 "
 nglayout
 .
@@ -10713,6 +11306,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 print
 .
@@ -10731,6 +11325,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 privacy
 .
@@ -10743,6 +11338,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 test
 .
@@ -10759,6 +11355,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 test
 .
@@ -10771,6 +11368,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 toolkit
 .
@@ -10785,6 +11383,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 toolkit
 .
@@ -10799,6 +11398,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 ui
 .
@@ -10813,6 +11413,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10831,6 +11432,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10847,6 +11449,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10863,6 +11466,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10879,6 +11483,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10895,6 +11500,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10915,6 +11521,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10931,6 +11538,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10947,6 +11555,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10961,6 +11570,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10975,6 +11585,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -10989,6 +11600,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11003,6 +11615,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11019,6 +11632,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11041,6 +11655,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11059,6 +11674,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11071,6 +11687,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11087,6 +11704,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11103,6 +11721,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11119,6 +11738,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11133,6 +11753,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11147,6 +11768,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11163,6 +11785,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11183,6 +11806,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11197,6 +11821,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11215,6 +11840,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11233,6 +11859,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11245,6 +11872,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11259,6 +11887,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11273,6 +11902,7 @@ RelaxedAtomicUint32
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11287,6 +11917,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11303,6 +11934,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11319,6 +11951,7 @@ false
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11335,6 +11968,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11357,6 +11991,7 @@ RelaxedAtomicInt32
 ;
 VARCACHE_PREF
 (
+Live
 "
 webgl
 .
@@ -11375,6 +12010,7 @@ true
 ;
 VARCACHE_PREF
 (
+Live
 "
 widget
 .
