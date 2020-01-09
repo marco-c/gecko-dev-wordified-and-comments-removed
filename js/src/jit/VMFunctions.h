@@ -4058,17 +4058,6 @@ BaselineFrame
 frame
 )
 ;
-JSObject
-*
-BindVar
-(
-JSContext
-*
-cx
-HandleObject
-scopeChain
-)
-;
 MOZ_MUST_USE
 bool
 DefVar
