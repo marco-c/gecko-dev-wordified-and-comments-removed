@@ -289,6 +289,11 @@ mozilla
 =
 [
 '
+LauncherResult
+.
+h
+'
+'
 ModuleEvaluator_windows
 .
 h
@@ -385,11 +390,6 @@ mozilla
 [
 '
 LauncherRegistryInfo
-.
-h
-'
-'
-LauncherResult
 .
 h
 '
