@@ -936,9 +936,6 @@ case
 eIntID_GTKCSDAvailable
 :
 case
-eIntID_GTKCSDHideTitlebarByDefault
-:
-case
 eIntID_GTKCSDTransparentBackground
 :
 aResult
