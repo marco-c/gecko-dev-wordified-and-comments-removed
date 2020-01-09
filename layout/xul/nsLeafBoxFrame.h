@@ -164,13 +164,6 @@ override
 #
 endif
 virtual
-void
-MarkIntrinsicISizesDirty
-(
-)
-override
-;
-virtual
 nscoord
 GetMinISize
 (

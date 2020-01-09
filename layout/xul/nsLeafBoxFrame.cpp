@@ -1512,15 +1512,6 @@ aState
 )
 ;
 }
-void
-nsLeafBoxFrame
-:
-:
-MarkIntrinsicISizesDirty
-(
-)
-{
-}
 NS_IMETHODIMP
 nsLeafBoxFrame
 :

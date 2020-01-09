@@ -3960,6 +3960,13 @@ state
 )
 ;
 }
+nsContainerFrame
+:
+:
+MarkIntrinsicISizesDirty
+(
+)
+;
 }
 void
 nsBoxFrame
