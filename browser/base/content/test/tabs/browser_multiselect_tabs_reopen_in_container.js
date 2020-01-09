@@ -424,9 +424,11 @@ test
 let
 tab4
 =
-await
+BrowserTestUtils
+.
 addTab
 (
+gBrowser
 "
 http
 :
