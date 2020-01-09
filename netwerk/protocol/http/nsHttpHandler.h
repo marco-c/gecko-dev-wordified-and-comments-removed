@@ -40,6 +40,13 @@ h
 #
 include
 "
+HttpTrafficAnalyzer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex
@@ -1599,6 +1606,12 @@ return
 mDumpHpackTables
 ;
 }
+HttpTrafficAnalyzer
+*
+GetHttpTrafficAnalyzer
+(
+)
+;
 private
 :
 nsHttpHandler
@@ -2142,6 +2155,9 @@ mFastOpenStallsTimeout
 ;
 bool
 mActiveTabPriority
+;
+HttpTrafficAnalyzer
+mHttpTrafficAnalyzer
 ;
 private
 :

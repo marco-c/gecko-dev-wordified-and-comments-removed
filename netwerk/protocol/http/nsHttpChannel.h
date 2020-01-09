@@ -2039,6 +2039,11 @@ nsresult
 rv
 )
 ;
+HttpTrafficCategory
+CreateTrafficCategory
+(
+)
+;
 MOZ_MUST_USE
 nsresult
 ProcessSecurityHeaders
