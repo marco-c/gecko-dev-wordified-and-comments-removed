@@ -40,7 +40,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -408,7 +410,7 @@ met
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 AdvancedLayersEnableBufferSharing
@@ -476,7 +478,7 @@ false
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 AdvancedLayersEnableClearView
@@ -596,7 +598,7 @@ buffer
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 AdvancedLayersEnableBufferCache

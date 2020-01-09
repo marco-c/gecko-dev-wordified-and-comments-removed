@@ -870,6 +870,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
+include
+"
 nsFrameSelection
 .
 h
@@ -3967,7 +3976,7 @@ aFallbackPrescontext
 MOZ_ASSERT
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayersTilesEnabled
@@ -4494,7 +4503,7 @@ ScreenSize
 else
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersTilesEnabled
@@ -4586,7 +4595,7 @@ height
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 LayersTilesEnabled
@@ -5635,7 +5644,7 @@ aMultiplier
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayersTilesEnabled

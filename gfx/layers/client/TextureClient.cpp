@@ -51,6 +51,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SystemGroup
 .
 h
@@ -249,13 +258,6 @@ h
 include
 "
 BufferTexture
-.
-h
-"
-#
-include
-"
-gfxPrefs
 .
 h
 "
@@ -4737,7 +4739,7 @@ if
 data
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 UseIOSurfaceTextures
@@ -4769,7 +4771,7 @@ if
 data
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 UseSurfaceTextureTextures

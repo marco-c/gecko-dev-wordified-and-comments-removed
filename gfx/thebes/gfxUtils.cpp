@@ -236,6 +236,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtrExtensions
 .
 h
@@ -357,13 +366,6 @@ h
 include
 "
 gfx2DGlue
-.
-h
-"
-#
-include
-"
-gfxPrefs
 .
 h
 "
@@ -8112,7 +8114,7 @@ UseWebRender
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -8170,7 +8172,7 @@ UseWebRender
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -8266,7 +8268,7 @@ UseWebRender
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -8365,7 +8367,7 @@ UseWebRender
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -8466,7 +8468,7 @@ UseWebRender
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots

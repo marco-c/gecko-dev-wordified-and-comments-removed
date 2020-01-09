@@ -226,6 +226,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -289,13 +298,6 @@ h
 include
 "
 gfx2DGlue
-.
-h
-"
-#
-include
-"
-gfxPrefs
 .
 h
 "
@@ -1424,7 +1426,7 @@ PlaybackType
 eAnimated
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -1676,7 +1678,7 @@ mAnimationState
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -1942,7 +1944,7 @@ mAnimationState
 {
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -3070,7 +3072,7 @@ mSize
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -4286,7 +4288,7 @@ MOZ_ASSERT
 mAnimationState
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -4376,7 +4378,7 @@ mAllSourceData
 mAnimationState
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedDiscardable

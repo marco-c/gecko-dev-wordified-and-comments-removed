@@ -293,7 +293,7 @@ aMessage
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled
