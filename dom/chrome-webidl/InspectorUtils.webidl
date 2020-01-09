@@ -162,7 +162,7 @@ false
 ;
 sequence
 <
-CSSRule
+CSSStyleRule
 >
 getCSSStyleRules
 (
