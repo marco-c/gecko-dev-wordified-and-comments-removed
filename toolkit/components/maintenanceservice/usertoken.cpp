@@ -2457,7 +2457,7 @@ impersonate
 }
 else
 {
-LOG_WARN
+LOG
 (
 (
 "
