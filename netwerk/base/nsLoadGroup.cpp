@@ -406,6 +406,10 @@ mDefaultLoadFlags
 (
 0
 )
+mPriority
+(
+PRIORITY_NORMAL
+)
 mRequests
 (
 &
@@ -418,10 +422,6 @@ RequestMapEntry
 mStatus
 (
 NS_OK
-)
-mPriority
-(
-PRIORITY_NORMAL
 )
 mIsCanceling
 (
