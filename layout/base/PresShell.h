@@ -2302,7 +2302,7 @@ nsIFrame
 *
 GetNearestFrameContainingPresShell
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )

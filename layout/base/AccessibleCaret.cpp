@@ -26,6 +26,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs
 .
 h
@@ -358,7 +367,7 @@ AccessibleCaret
 :
 AccessibleCaret
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )

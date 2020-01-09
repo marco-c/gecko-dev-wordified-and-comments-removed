@@ -51,9 +51,6 @@ Units
 h
 "
 class
-nsIPresShell
-;
-class
 nsViewportInfo
 ;
 namespace

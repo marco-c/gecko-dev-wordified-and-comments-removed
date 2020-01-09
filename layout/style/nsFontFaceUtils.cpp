@@ -342,9 +342,9 @@ static
 void
 ScheduleReflow
 (
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 nsIFrame
 *
 aFrame
@@ -495,7 +495,7 @@ reflow
 ;
 }
 }
-aShell
+aPresShell
 -
 >
 FrameNeedsReflow

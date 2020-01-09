@@ -840,7 +840,10 @@ nsImageFrame
 *
 CreateContinuingFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 ComputedStyle
 *

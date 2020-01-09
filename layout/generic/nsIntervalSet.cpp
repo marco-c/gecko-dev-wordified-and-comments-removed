@@ -18,7 +18,9 @@ algorithm
 #
 include
 "
-nsIPresShell
+mozilla
+/
+PresShell
 .
 h
 "
@@ -31,7 +33,7 @@ nsIntervalSet
 :
 nsIntervalSet
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )

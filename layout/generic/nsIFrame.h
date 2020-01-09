@@ -9012,7 +9012,10 @@ IncrementPaintCount
 bool
 DidPaintPresShell
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aShell
 )

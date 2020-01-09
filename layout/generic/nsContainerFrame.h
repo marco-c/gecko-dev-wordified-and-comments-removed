@@ -61,6 +61,13 @@ NS_FRAME_NO_DELETE_NEXT_IN_FLOW_CHILD
 class
 nsOverflowContinuationTracker
 ;
+namespace
+mozilla
+{
+class
+PresShell
+;
+}
 #
 ifdef
 DEBUG
@@ -1178,7 +1185,10 @@ aDestructRoot
 PostDestroyData
 &
 aPostDestroyData
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 FrameListPropertyDescriptor

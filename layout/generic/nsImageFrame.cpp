@@ -944,7 +944,10 @@ nsImageFrame
 :
 CreateContinuingFrame
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 ComputedStyle

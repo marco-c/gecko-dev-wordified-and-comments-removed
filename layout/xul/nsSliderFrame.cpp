@@ -4314,7 +4314,10 @@ public
 :
 AsyncScrollbarDragStarter
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 nsIWidget
@@ -4444,7 +4447,10 @@ private
 :
 RefPtr
 <
-nsIPresShell
+mozilla
+:
+:
+PresShell
 >
 mPresShell
 ;

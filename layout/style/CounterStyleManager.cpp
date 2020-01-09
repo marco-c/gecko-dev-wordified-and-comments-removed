@@ -4008,9 +4008,9 @@ Destroy
 (
 )
 {
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 mManager
 -
@@ -4032,7 +4032,7 @@ DependentBuiltinCounterStyle
 (
 )
 ;
-shell
+presShell
 -
 >
 FreeByObjectID
@@ -4418,9 +4418,9 @@ Destroy
 (
 )
 {
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 mManager
 -
@@ -4442,7 +4442,7 @@ CustomCounterStyle
 (
 )
 ;
-shell
+presShell
 -
 >
 FreeByObjectID

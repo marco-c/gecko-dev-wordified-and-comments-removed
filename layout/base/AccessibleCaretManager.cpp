@@ -436,7 +436,7 @@ AccessibleCaretManager
 :
 AccessibleCaretManager
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )

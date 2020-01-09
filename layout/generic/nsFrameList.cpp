@@ -99,7 +99,10 @@ new
 (
 size_t
 sz
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 )
@@ -121,7 +124,10 @@ nsFrameList
 :
 Delete
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 )

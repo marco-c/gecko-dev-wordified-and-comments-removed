@@ -144,7 +144,10 @@ nsIContent
 *
 GetContentToResize
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 nsIBaseWindow

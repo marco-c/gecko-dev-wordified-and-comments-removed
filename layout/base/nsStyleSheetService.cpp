@@ -28,6 +28,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSheet
 .
 h
@@ -845,9 +854,9 @@ rv
 {
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 >
 toNotify
@@ -857,7 +866,7 @@ mPresShells
 ;
 for
 (
-nsIPresShell
+PresShell
 *
 presShell
 :
@@ -1669,9 +1678,9 @@ foundIndex
 }
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 >
 toNotify
@@ -1681,7 +1690,7 @@ mPresShells
 ;
 for
 (
-nsIPresShell
+PresShell
 *
 presShell
 :
@@ -1990,7 +1999,7 @@ nsStyleSheetService
 :
 RegisterPresShell
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -2020,7 +2029,7 @@ nsStyleSheetService
 :
 UnregisterPresShell
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )

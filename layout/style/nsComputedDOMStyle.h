@@ -140,6 +140,9 @@ class
 Element
 ;
 }
+class
+PresShell
+;
 struct
 ComputedGridTrackInfo
 ;
@@ -152,9 +155,6 @@ nsCSSKTableEntry
 ;
 class
 nsIFrame
-;
-class
-nsIPresShell
 ;
 class
 nsDOMCSSValueList
@@ -690,7 +690,10 @@ aElement
 nsAtom
 *
 aPseudo
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 StyleType
@@ -1769,7 +1772,10 @@ nsIFrame
 *
 mInnerFrame
 ;
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 mPresShell
 ;

@@ -5535,7 +5535,7 @@ static
 void
 ApplyRenderingChangeToTree
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIFrame

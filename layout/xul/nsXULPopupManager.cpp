@@ -2313,7 +2313,7 @@ nsXULPopupManager
 :
 AdjustPopupsOnWindowChange
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )

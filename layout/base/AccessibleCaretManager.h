@@ -103,15 +103,15 @@ nsFrameSelection
 class
 nsIContent
 ;
-class
-nsIPresShell
-;
 struct
 nsPoint
 ;
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -130,7 +130,7 @@ public
 explicit
 AccessibleCaretManager
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -701,7 +701,7 @@ mOffsetYToCaretLogicalPosition
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsIPresShell
+PresShell
 *
 MOZ_NON_OWNING_REF
 mPresShell

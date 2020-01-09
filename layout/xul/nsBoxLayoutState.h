@@ -7,15 +7,6 @@ nsBoxLayoutState_h___
 #
 include
 "
-mozilla
-/
-PresShell
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -33,6 +24,9 @@ gfxContext
 namespace
 mozilla
 {
+class
+PresShell
+;
 struct
 ReflowInput
 ;
@@ -93,7 +87,10 @@ return
 mPresContext
 ;
 }
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 PresShell
 (

@@ -117,6 +117,9 @@ nsIPageSequenceFrame
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -700,7 +703,10 @@ Cancelled
 (
 )
 ;
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 GetPrintPreviewPresShell
 (
