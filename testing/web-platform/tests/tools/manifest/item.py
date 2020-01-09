@@ -536,6 +536,45 @@ self
 )
 :
         
+if
+self
+.
+_url
+[
+0
+]
+=
+=
+"
+/
+"
+:
+            
+return
+self
+.
+_url
+        
+if
+self
+.
+url_base
+=
+=
+"
+/
+"
+:
+            
+return
+"
+/
+"
++
+self
+.
+_url
+        
 return
 urljoin
 (
@@ -837,11 +876,14 @@ self
         
 rv
 =
-URLManifestItem
+super
+(
+TestharnessTest
+self
+)
 .
 to_json
 (
-self
 )
         
 if
@@ -1173,7 +1215,7 @@ rv
 [
 self
 .
-url
+_url
 self
 .
 references
@@ -1501,11 +1543,14 @@ self
         
 rv
 =
-URLManifestItem
+super
+(
+WebDriverSpecTest
+self
+)
 .
 to_json
 (
-self
 )
         
 if
