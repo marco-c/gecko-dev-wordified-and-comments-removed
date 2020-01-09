@@ -13205,13 +13205,6 @@ i
 )
 ;
 }
-bool
-shouldProcessKind
-(
-AllocKind
-kind
-)
-;
 Arena
 *
 next
