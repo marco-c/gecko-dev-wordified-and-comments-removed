@@ -207,7 +207,7 @@ CardGrid
 defaultProps
 =
 {
-style
+border
 :
 border
 items

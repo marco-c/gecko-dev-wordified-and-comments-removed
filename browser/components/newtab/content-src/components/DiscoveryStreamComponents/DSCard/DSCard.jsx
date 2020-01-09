@@ -57,6 +57,15 @@ onLinkClick
 event
 )
 {
+if
+(
+this
+.
+props
+.
+dispatch
+)
+{
 this
 .
 props
@@ -144,6 +153,7 @@ index
 )
 )
 ;
+}
 }
 render
 (

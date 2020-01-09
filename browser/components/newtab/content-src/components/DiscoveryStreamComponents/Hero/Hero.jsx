@@ -73,6 +73,15 @@ onLinkClick
 event
 )
 {
+if
+(
+this
+.
+props
+.
+dispatch
+)
+{
 this
 .
 props
@@ -152,6 +161,7 @@ pos
 )
 )
 ;
+}
 }
 render
 (
@@ -423,7 +433,7 @@ this
 .
 props
 .
-style
+border
 }
 }
 >
@@ -588,7 +598,7 @@ data
 :
 {
 }
-style
+border
 :
 border
 items
