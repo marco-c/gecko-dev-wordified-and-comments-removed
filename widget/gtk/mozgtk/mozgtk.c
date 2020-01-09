@@ -1916,6 +1916,10 @@ gtk_window_set_auto_startup_notification
 )
 STUB
 (
+gtk_window_set_keep_above
+)
+STUB
+(
 gtk_window_set_opacity
 )
 STUB
