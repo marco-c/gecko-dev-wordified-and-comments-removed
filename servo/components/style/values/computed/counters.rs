@@ -57,9 +57,9 @@ generics
 counters
 :
 :
-CounterReset
+CounterSetOrReset
 as
-GenericCounterReset
+GenericCounterSetOrReset
 ;
 pub
 type
@@ -72,9 +72,9 @@ i32
 ;
 pub
 type
-CounterReset
+CounterSetOrReset
 =
-GenericCounterReset
+GenericCounterSetOrReset
 <
 i32
 >

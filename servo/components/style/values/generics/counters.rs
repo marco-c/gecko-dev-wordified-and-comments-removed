@@ -252,7 +252,7 @@ ToCss
 ]
 pub
 struct
-CounterReset
+CounterSetOrReset
 <
 I
 >
@@ -267,7 +267,7 @@ impl
 <
 I
 >
-CounterReset
+CounterSetOrReset
 <
 I
 >
@@ -294,7 +294,7 @@ I
 >
 Self
 {
-CounterReset
+CounterSetOrReset
 (
 Counters
 (
@@ -313,7 +313,7 @@ I
 >
 Deref
 for
-CounterReset
+CounterSetOrReset
 <
 I
 >

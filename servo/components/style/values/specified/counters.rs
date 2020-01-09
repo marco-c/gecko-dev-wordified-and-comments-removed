@@ -94,9 +94,9 @@ generics
 counters
 :
 :
-CounterReset
+CounterSetOrReset
 as
-GenericCounterReset
+GenericCounterSetOrReset
 ;
 #
 [
@@ -278,9 +278,9 @@ input
 }
 pub
 type
-CounterReset
+CounterSetOrReset
 =
-GenericCounterReset
+GenericCounterSetOrReset
 <
 Integer
 >
@@ -288,7 +288,7 @@ Integer
 impl
 Parse
 for
-CounterReset
+CounterSetOrReset
 {
 fn
 parse

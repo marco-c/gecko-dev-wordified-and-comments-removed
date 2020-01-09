@@ -260,6 +260,11 @@ counter
 reset
 "
 "
+counter
+-
+set
+"
+"
 cursor
 "
 "
