@@ -2037,17 +2037,6 @@ target
 }
 #
 endif
-if
-(
-!
-wrapper
--
->
-isMarkedGray
-(
-)
-)
-{
 JS
 :
 :
@@ -2056,7 +2045,6 @@ ExposeObjectToActiveJS
 target
 )
 ;
-}
 }
 return
 target
