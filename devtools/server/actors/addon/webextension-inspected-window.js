@@ -656,8 +656,6 @@ addObserver
 (
 this
 "
-initial
--
 document
 -
 element
@@ -728,8 +726,6 @@ topic
 =
 =
 "
-initial
--
 document
 -
 element
@@ -1047,8 +1043,6 @@ removeObserver
 (
 this
 "
-initial
--
 document
 -
 element

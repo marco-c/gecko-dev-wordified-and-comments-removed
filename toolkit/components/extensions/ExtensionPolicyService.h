@@ -430,6 +430,14 @@ aDocument
 )
 ;
 void
+CheckWindow
+(
+nsPIDOMWindowOuter
+*
+aWindow
+)
+;
+void
 CheckContentScripts
 (
 const
