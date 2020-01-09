@@ -101,6 +101,10 @@ protocol
 PSocketProcessBridge
 ;
 include
+protocol
+PProfiler
+;
+include
 PrefsTypes
 ;
 using
@@ -209,6 +213,16 @@ Endpoint
 PSocketProcessBridgeParent
 >
 endpoint
+)
+;
+async
+InitProfiler
+(
+Endpoint
+<
+PProfilerChild
+>
+aEndpoint
 )
 ;
 }
