@@ -118,7 +118,7 @@ mPositionAlign
 PositionAlignSetting
 :
 :
-Center
+Auto
 ;
 mSize
 =
