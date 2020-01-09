@@ -206,7 +206,7 @@ actions
 :
 doc
 :
-measuring
+Measuring
 elapsed
 time
 <
@@ -218,7 +218,7 @@ time
 :
 doc
 :
-custom
+Custom
 pings
 <
 custom
@@ -229,7 +229,7 @@ pings
 :
 doc
 :
-stack
+Stack
 capture
 <
 stack
