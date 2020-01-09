@@ -177,9 +177,6 @@ aFilename
 nsresult
 Init
 (
-bool
-&
-aDataWillPersist
 const
 InfallibleTArray
 <
@@ -193,8 +190,6 @@ DataStorageItem
 >
 *
 aItems
-=
-nullptr
 )
 ;
 nsCString
@@ -440,9 +435,6 @@ aProofOfLock
 nsresult
 AsyncReadData
 (
-bool
-&
-aHaveProfileDir
 const
 MutexAutoLock
 &
