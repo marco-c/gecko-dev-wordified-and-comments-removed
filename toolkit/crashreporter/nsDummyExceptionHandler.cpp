@@ -623,16 +623,6 @@ OOPInit
 )
 {
 }
-void
-GetChildProcessTmpDir
-(
-nsIFile
-*
-*
-aOutTmpDir
-)
-{
-}
 #
 if
 defined

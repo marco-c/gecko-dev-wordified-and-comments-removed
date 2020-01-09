@@ -741,15 +741,6 @@ nsACString
 name
 )
 ;
-void
-GetChildProcessTmpDir
-(
-nsIFile
-*
-*
-aOutTmpDir
-)
-;
 #
 if
 defined
