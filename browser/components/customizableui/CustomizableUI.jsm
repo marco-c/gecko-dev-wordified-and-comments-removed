@@ -14030,11 +14030,6 @@ handler
 ;
 }
 }
-delete
-viewNode
-.
-_addedEventListeners
-;
 }
 }
 if
