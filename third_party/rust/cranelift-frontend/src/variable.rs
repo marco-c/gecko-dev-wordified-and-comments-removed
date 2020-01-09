@@ -1,4 +1,10 @@
 use
+core
+:
+:
+u32
+;
+use
 cranelift_codegen
 :
 :
@@ -6,12 +12,6 @@ entity
 :
 :
 EntityRef
-;
-use
-std
-:
-:
-u32
 ;
 #
 [

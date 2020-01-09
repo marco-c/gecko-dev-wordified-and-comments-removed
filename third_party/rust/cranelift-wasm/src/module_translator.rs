@@ -1,10 +1,7 @@
 use
-cranelift_codegen
+crate
 :
 :
-timing
-;
-use
 environ
 :
 :
@@ -14,6 +11,9 @@ WasmResult
 }
 ;
 use
+crate
+:
+:
 sections_translator
 :
 :
@@ -30,6 +30,12 @@ parse_start_section
 parse_table_section
 parse_type_section
 }
+;
+use
+cranelift_codegen
+:
+:
+timing
 ;
 use
 wasmparser

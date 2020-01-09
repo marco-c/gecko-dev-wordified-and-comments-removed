@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 cursor
 :
 :
@@ -8,12 +11,18 @@ FuncCursor
 }
 ;
 use
+crate
+:
+:
 flowgraph
 :
 :
 ControlFlowGraph
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -23,6 +32,9 @@ InstBuilder
 }
 ;
 use
+crate
+:
+:
 isa
 :
 :

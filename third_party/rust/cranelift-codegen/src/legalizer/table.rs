@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 cursor
 :
 :
@@ -8,12 +11,18 @@ FuncCursor
 }
 ;
 use
+crate
+:
+:
 flowgraph
 :
 :
 ControlFlowGraph
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -23,6 +32,9 @@ condcodes
 IntCC
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -32,6 +44,9 @@ immediates
 Offset32
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -41,6 +56,9 @@ InstBuilder
 }
 ;
 use
+crate
+:
+:
 isa
 :
 :

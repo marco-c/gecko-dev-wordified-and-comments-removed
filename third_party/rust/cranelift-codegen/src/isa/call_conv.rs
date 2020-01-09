@@ -1,11 +1,11 @@
 use
-std
+core
 :
 :
 fmt
 ;
 use
-std
+core
 :
 :
 str

@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 ir
 ;
 #
@@ -623,6 +626,9 @@ cvt_imm64
 )
 {
 use
+crate
+:
+:
 ir
 :
 :

@@ -19,7 +19,7 @@ Cranelift
 instructions
 and
 other
-entitties
+entities
 .
 "
 "
