@@ -1,4 +1,7 @@
 #
+ifdef
+XML_TOK_IMPL_C
+#
 ifndef
 IS_INVALID_CHAR
 #
@@ -8882,3 +8885,5 @@ CHECK_NMSTRT_CASE
 #
 undef
 CHECK_NMSTRT_CASES
+#
+endif

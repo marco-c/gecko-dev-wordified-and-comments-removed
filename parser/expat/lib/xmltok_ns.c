@@ -1,3 +1,6 @@
+#
+ifdef
+XML_TOK_NS_C
 const
 ENCODING
 *
@@ -551,3 +554,5 @@ standalone
 )
 ;
 }
+#
+endif
