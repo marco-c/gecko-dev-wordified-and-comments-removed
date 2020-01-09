@@ -165,7 +165,7 @@ why
 .
 type
 "
-debuggerStatement
+exception
 "
 )
 ;
@@ -175,12 +175,10 @@ equal
 (
 packet
 .
-frame
+why
 .
-where
-.
-line
-8
+exception
+42
 )
 ;
 gThreadClient
@@ -233,8 +231,6 @@ catch
 e
 )
 {
-debugger
-;
 }
 }
 +
