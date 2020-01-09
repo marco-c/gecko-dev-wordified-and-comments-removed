@@ -4197,11 +4197,6 @@ markAndScan
 thing
 )
 ;
-markImplicitEdges
-(
-thing
-)
-;
 }
 template
 <
@@ -5092,7 +5087,6 @@ isMarkingTracer
 )
 )
 {
-return
 GCMarker
 :
 :
@@ -5328,6 +5322,11 @@ i
 )
 ;
 }
+markImplicitEdges
+(
+thing
+)
+;
 }
 void
 Shape
