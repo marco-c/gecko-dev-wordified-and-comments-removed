@@ -109,7 +109,8 @@ PRE_ORDER_ITERATOR
 :
 mContentIterator
 =
-NS_NewPreContentIterator
+new
+PreContentIterator
 (
 )
 ;
