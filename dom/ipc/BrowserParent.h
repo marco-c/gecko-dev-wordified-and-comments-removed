@@ -3562,7 +3562,7 @@ nsILoadContext
 >
 mLoadContext
 ;
-nsCOMPtr
+RefPtr
 <
 Element
 >
