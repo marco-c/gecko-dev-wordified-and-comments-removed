@@ -1132,9 +1132,9 @@ discardJitCode
 FreeOp
 *
 fop
-bool
+ShouldDiscardBaselineCode
 discardBaselineCode
-bool
+ShouldReleaseTypes
 releaseTypes
 )
 {
