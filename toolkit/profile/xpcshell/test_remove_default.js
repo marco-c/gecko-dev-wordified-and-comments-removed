@@ -48,17 +48,6 @@ default
 true
 }
 ]
-}
-;
-writeProfilesIni
-(
-profilesIni
-)
-;
-let
-installsIni
-=
-{
 installs
 :
 {
@@ -76,9 +65,9 @@ leafName
 }
 }
 ;
-writeInstallsIni
+writeProfilesIni
 (
-installsIni
+profilesIni
 )
 ;
 let
@@ -91,7 +80,6 @@ getProfileService
 checkProfileService
 (
 profilesIni
-installsIni
 )
 ;
 let
@@ -165,7 +153,6 @@ profile
 checkProfileService
 (
 profilesIni
-installsIni
 )
 ;
 profile
@@ -223,7 +210,7 @@ pop
 (
 )
 ;
-installsIni
+profilesIni
 .
 installs
 [
@@ -238,7 +225,7 @@ default
 checkProfileService
 (
 profilesIni
-installsIni
+false
 )
 ;
 service
@@ -251,10 +238,9 @@ checkProfileService
 (
 )
 ;
-let
-installs
+profilesIni
 =
-readInstallsIni
+readProfilesIni
 (
 )
 ;
@@ -262,7 +248,7 @@ Assert
 .
 equal
 (
-installs
+profilesIni
 .
 installs
 [
