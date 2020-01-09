@@ -1357,6 +1357,10 @@ SymbolDeclarations
 name
 :
 string
+base
+?
+:
+Object
 }
 {
 if

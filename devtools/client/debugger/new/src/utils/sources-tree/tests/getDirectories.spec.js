@@ -40,6 +40,8 @@ tree
 {
 const
 paths
+:
+any
 =
 getDirectories
 (
@@ -199,6 +201,10 @@ createTree
 {
 sources
 debuggeeUrl
+projectRoot
+:
+"
+"
 }
 )
 ;

@@ -257,6 +257,10 @@ debuggeeUrl
 sources
 :
 prevSources
+projectRoot
+:
+"
+"
 }
 )
 ;
@@ -285,6 +289,10 @@ sources
 )
 uncollapsedTree
 sourceTree
+projectRoot
+:
+"
+"
 }
 )
 ;
@@ -341,6 +349,10 @@ debuggeeUrl
 sources
 :
 prevSources
+projectRoot
+:
+"
+"
 }
 )
 ;
@@ -373,6 +385,10 @@ sources
 )
 uncollapsedTree
 sourceTree
+projectRoot
+:
+"
+"
 }
 )
 ;
@@ -430,6 +446,10 @@ debuggeeUrl
 sources
 :
 prevSources
+projectRoot
+:
+"
+"
 }
 )
 ;
@@ -454,6 +474,10 @@ sources
 )
 uncollapsedTree
 sourceTree
+projectRoot
+:
+"
+"
 }
 )
 ;

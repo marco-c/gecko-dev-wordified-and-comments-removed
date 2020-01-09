@@ -542,7 +542,8 @@ results
 find
 (
 ctx
-null
+"
+"
 true
 modifiers
 )

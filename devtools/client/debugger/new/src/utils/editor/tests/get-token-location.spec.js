@@ -55,6 +55,8 @@ C
 ;
 const
 token
+:
+any
 =
 {
 getBoundingClientRect

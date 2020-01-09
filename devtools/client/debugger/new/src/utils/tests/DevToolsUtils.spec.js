@@ -75,11 +75,13 @@ reportException
 "
 caller
 "
+[
 "
 you
 broke
 it
 "
+]
 )
 ;
 expect
@@ -116,8 +118,9 @@ text
 const
 who
 =
-{
-}
+"
+who
+"
 exception
 =
 "
@@ -138,7 +141,9 @@ exception
 reportException
 (
 who
+[
 exception
+]
 )
 ;
 expect
@@ -156,7 +161,9 @@ who
 {
 msgTxt
 }
+[
 exception
+]
 )
 ;
 }
