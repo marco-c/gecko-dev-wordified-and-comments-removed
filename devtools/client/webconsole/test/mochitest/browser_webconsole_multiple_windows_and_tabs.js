@@ -38,6 +38,12 @@ requestLongerTimeout
 3
 )
 ;
+Cu
+.
+forceShrinkingGC
+(
+)
+;
 const
 win1
 =

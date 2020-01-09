@@ -283,6 +283,12 @@ message
 "
 )
 ;
+Cu
+.
+forceShrinkingGC
+(
+)
+;
 await
 pushPref
 (
@@ -389,6 +395,12 @@ cookies
 blocked
 message
 "
+)
+;
+Cu
+.
+forceShrinkingGC
+(
 )
 ;
 await
