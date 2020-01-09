@@ -937,6 +937,7 @@ nullptr
 initWithEnclosingScope
 (
 enclosingScope_
+fun
 )
 ;
 }
@@ -1298,6 +1299,9 @@ initWithEnclosingScope
 Scope
 *
 enclosingScope
+JSFunction
+*
+fun
 )
 {
 if
@@ -1314,9 +1318,7 @@ true
 ;
 allowSuperProperty_
 =
-function
-(
-)
+fun
 -
 >
 allowSuperProperty

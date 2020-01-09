@@ -1203,6 +1203,9 @@ initWithEnclosingScope
 Scope
 *
 enclosingScope
+JSFunction
+*
+fun
 )
 ;
 public
