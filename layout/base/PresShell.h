@@ -3043,6 +3043,14 @@ bool
 aTouchIsNew
 )
 ;
+void
+FinalizeHandlingEvent
+(
+WidgetEvent
+*
+aEvent
+)
+;
 struct
 MOZ_STACK_CLASS
 AutoCurrentEventInfoSetter
