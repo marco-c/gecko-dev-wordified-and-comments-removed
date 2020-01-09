@@ -1725,7 +1725,13 @@ dstBuffer
 =
 calloc
 (
+(
+size_t
+)
 1
+(
+size_t
+)
 dstTotalBytes
 .
 value
