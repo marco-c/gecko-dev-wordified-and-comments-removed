@@ -69,6 +69,11 @@ isBlackBoxed
 :
 false
 "
+isExtension
+"
+:
+false
+"
 isPrettyPrinted
 "
 :
