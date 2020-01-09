@@ -356,7 +356,7 @@ false
 #
 ifdef
 DEBUG
-gcLastSweepGroupIndex
+gcSweepGroupIndex
 (
 0
 )
