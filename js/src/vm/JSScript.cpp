@@ -20253,7 +20253,13 @@ numBytecodeTypeSets_
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 typesetCount
+(
+)
 ;
 script
 -
