@@ -1463,10 +1463,16 @@ devtools
 gpu
 |
 -
+harness
+|
+-
 media
 |
 -
 screen
+|
+-
+webgl
 )
 (
 |
