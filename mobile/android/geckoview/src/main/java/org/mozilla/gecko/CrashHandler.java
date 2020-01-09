@@ -285,6 +285,11 @@ exc
 Throwable
 cause
 ;
+Throwable
+result
+=
+exc
+;
 for
 (
 cause
@@ -305,9 +310,13 @@ getCause
 )
 )
 {
+result
+=
+cause
+;
 }
 return
-cause
+result
 ;
 }
 public
