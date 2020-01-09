@@ -208,6 +208,11 @@ UrlClassifierFeatureFactory
 cpp
 '
 '
+UrlClassifierFeatureFingerprintingAnnotation
+.
+cpp
+'
+'
 UrlClassifierFeatureFingerprintingProtection
 .
 cpp
