@@ -48944,6 +48944,10 @@ const
 nsPoint
 &
 aScrollOffset
+const
+nsPoint
+&
+aPrevRelativeOffset
 )
 {
 if
@@ -48988,6 +48992,7 @@ VisualViewport
 >
 PostScrollEvent
 (
+aPrevRelativeOffset
 )
 ;
 }

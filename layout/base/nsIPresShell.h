@@ -3687,6 +3687,10 @@ const
 nsPoint
 &
 aScrollOffset
+const
+nsPoint
+&
+aPrevRelativeOffset
 )
 ;
 nsPoint
