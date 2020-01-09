@@ -286,6 +286,14 @@ texel_rect
 .
 xy
 ;
+vPos
+=
+vPos
+*
+local_rect
+.
+size
+;
 }
 else
 {
