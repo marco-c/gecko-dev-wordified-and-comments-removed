@@ -114,7 +114,7 @@ nsISupports
 public
 :
 virtual
-nsresult
+void
 OnTunnelNudged
 (
 TLSFilterTransaction
@@ -129,7 +129,7 @@ TLSFilterTransaction
 define
 NS_DECL_NUDGETUNNELCALLBACK
 \
-nsresult
+void
 OnTunnelNudged
 (
 TLSFilterTransaction
@@ -497,8 +497,8 @@ mFilterReadCode
 bool
 mForce
 ;
-nsresult
-mReadSegmentReturnValue
+bool
+mReadSegmentBlocked
 ;
 uint32_t
 mNudgeCounter
