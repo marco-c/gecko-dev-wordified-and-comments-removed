@@ -481,7 +481,7 @@ BROWSER_CHROME_MANIFESTS
 '
 test
 /
-mochitest
+browser
 /
 browser
 .

@@ -18,7 +18,7 @@ plugin
 :
 mozilla
 /
-mochitest
+browser
 -
 test
 "
