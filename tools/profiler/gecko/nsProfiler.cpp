@@ -2475,6 +2475,7 @@ COUNT_IF_SET
 n_
 str_
 Name_
+desc_
 )
 \
 if
@@ -2539,6 +2540,7 @@ DUP_IF_SET
 n_
 str_
 Name_
+desc_
 )
 \
 if
