@@ -2869,6 +2869,12 @@ mWebSocket
 -
 >
 mEstablishedExtensions
+mChannel
+-
+>
+HttpChannelId
+(
+)
 )
 ;
 RefPtr

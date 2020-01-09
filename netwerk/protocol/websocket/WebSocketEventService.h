@@ -167,6 +167,8 @@ const
 nsACString
 &
 aExtensions
+uint64_t
+aHttpChannelId
 nsIEventTarget
 *
 aTarget

@@ -264,6 +264,8 @@ const
 nsACString
 &
 aExtensions
+uint64_t
+aHttpChannelId
 )
 {
 Unused
@@ -284,6 +286,7 @@ nsCString
 (
 aExtensions
 )
+aHttpChannelId
 )
 ;
 return

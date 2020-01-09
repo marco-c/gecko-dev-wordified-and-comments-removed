@@ -315,6 +315,9 @@ aProtocols
 in
 ACString
 aExtensions
+in
+uint64_t
+aHttpChannelId
 )
 ;
 const

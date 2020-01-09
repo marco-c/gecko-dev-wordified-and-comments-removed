@@ -172,6 +172,8 @@ nsCString
 aProtocols
 nsCString
 aExtensions
+uint64_t
+aHttpChannelId
 )
 ;
 async
