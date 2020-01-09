@@ -622,12 +622,6 @@ splicePrototype
 (
 cx
 obj
-obj
--
->
-getClass
-(
-)
 tagged
 )
 ;
