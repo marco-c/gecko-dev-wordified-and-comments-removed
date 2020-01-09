@@ -52,10 +52,6 @@ dom_enable_performance_observer
 )
 DOM_WEBIDL_PREF
 (
-dom_performance_enable_scheduler_timing
-)
-DOM_WEBIDL_PREF
-(
 dom_reporting_enabled
 )
 DOM_WEBIDL_PREF

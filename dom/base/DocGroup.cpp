@@ -237,19 +237,6 @@ mTabGroup
 aTabGroup
 )
 {
-if
-(
-mozilla
-:
-:
-StaticPrefs
-:
-:
-dom_performance_enable_scheduler_timing
-(
-)
-)
-{
 mPerformanceCounter
 =
 new
@@ -269,7 +256,6 @@ DocGroup
 aKey
 )
 ;
-}
 }
 DocGroup
 :
