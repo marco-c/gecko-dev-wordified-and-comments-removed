@@ -8491,6 +8491,9 @@ const
 FormatUsageInfo
 *
 usage
+const
+bool
+expectRenderable
 )
 {
 MOZ_ASSERT
@@ -8524,6 +8527,10 @@ usage
 IsRenderable
 (
 )
+|
+|
+!
+expectRenderable
 )
 ;
 AlwaysInsert

@@ -97,6 +97,9 @@ webgl
 :
 EffectiveFormat
 effFormat
+const
+bool
+renderable
 )
 {
 auto
@@ -110,6 +113,11 @@ EditUsage
 effFormat
 )
 ;
+if
+(
+renderable
+)
+{
 usage
 -
 >
@@ -117,6 +125,7 @@ SetRenderable
 (
 )
 ;
+}
 fua
 -
 >
@@ -124,6 +133,7 @@ AllowRBFormat
 (
 sizedFormat
 usage
+renderable
 )
 ;
 }
@@ -133,6 +143,7 @@ define
 FOO
 (
 x
+y
 )
 fnUpdateUsage
 (
@@ -147,15 +158,18 @@ EffectiveFormat
 :
 :
 x
+y
 )
 FOO
 (
 RGBA16F
+true
 )
 ;
 FOO
 (
 RGB16F
+false
 )
 ;
 #

@@ -866,6 +866,10 @@ const
 FormatUsageInfo
 *
 usage
+bool
+expectRenderable
+=
+true
 )
 ;
 void
