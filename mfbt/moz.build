@@ -929,13 +929,6 @@ tools
 /
 crashreporter
 '
-'
-tools
-/
-update
--
-packaging
-'
 )
 :
 #

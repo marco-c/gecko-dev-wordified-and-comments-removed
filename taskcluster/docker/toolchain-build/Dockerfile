@@ -119,10 +119,6 @@ dev
 \
 libtool
 \
-libucl
--
-dev
-\
 ninja
 -
 build
