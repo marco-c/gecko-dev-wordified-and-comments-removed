@@ -9697,6 +9697,10 @@ is_backface_visible
 :
 bool
 pub
+cache_tiles
+:
+bool
+pub
 mix_blend_mode
 :
 MixBlendMode
@@ -10194,6 +10198,9 @@ mix_blend_mode
 &
 filters
 glyph_raster_space
+params
+.
+cache_tiles
 )
 ;
 result

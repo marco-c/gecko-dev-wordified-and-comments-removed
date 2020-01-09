@@ -2091,6 +2091,10 @@ pub
 raster_space
 :
 RasterSpace
+pub
+cache_tiles
+:
+bool
 }
 #
 [
