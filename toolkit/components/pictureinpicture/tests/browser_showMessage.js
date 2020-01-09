@@ -107,10 +107,12 @@ UAWidgetSetupOrChange
 "
 )
 ;
-pipWin
+await
+BrowserTestUtils
 .
-close
+closeWindow
 (
+pipWin
 )
 ;
 await
