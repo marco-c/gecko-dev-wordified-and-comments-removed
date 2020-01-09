@@ -76,6 +76,13 @@ SocketProcessParent
 (
 )
 ;
+static
+SocketProcessParent
+*
+GetSingleton
+(
+)
+;
 mozilla
 :
 :
