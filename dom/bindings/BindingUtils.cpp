@@ -12659,7 +12659,7 @@ supp
 xpc
 :
 :
-UnwrapReflectorToISupports
+ReflectorToISupportsStatic
 (
 mGlobalJSObject
 )
@@ -17621,9 +17621,10 @@ iface
 xpc
 :
 :
-UnwrapReflectorToISupports
+ReflectorToISupportsDynamic
 (
 src
+cx
 )
 ;
 if
