@@ -108,12 +108,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_IMETHOD
-RefreshSkins
-(
-)
-override
-;
-NS_IMETHOD
 AllowScriptsForPackage
 (
 nsIURI

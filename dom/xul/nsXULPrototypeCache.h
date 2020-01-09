@@ -374,11 +374,6 @@ nsXULPrototypeCache
 *
 sInstance
 ;
-void
-FlushSkinFiles
-(
-)
-;
 using
 StyleSheetTable
 =
