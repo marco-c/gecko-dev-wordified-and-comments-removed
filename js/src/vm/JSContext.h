@@ -3550,6 +3550,17 @@ return
 jitStackLimitNoInterrupt
 ;
 }
+void
+*
+addressOfZone
+(
+)
+{
+return
+&
+zone_
+;
+}
 js
 :
 :
