@@ -1132,7 +1132,7 @@ nsDisplayXULTextBox
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -1146,7 +1146,7 @@ nsTextBoxFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

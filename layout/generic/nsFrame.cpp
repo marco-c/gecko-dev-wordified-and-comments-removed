@@ -11082,7 +11082,7 @@ class
 nsDisplaySelectionOverlay
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -11098,7 +11098,7 @@ int16_t
 aSelectionValue
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

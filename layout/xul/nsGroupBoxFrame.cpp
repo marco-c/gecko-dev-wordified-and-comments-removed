@@ -323,7 +323,7 @@ nsDisplayXULGroupBorder
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -337,7 +337,7 @@ nsGroupBoxFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

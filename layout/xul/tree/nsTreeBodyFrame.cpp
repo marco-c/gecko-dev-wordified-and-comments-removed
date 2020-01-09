@@ -12089,7 +12089,7 @@ nsDisplayTreeBody
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -12103,7 +12103,7 @@ nsFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
@@ -12168,7 +12168,7 @@ UnregisterThemeGeometry
 this
 )
 ;
-nsDisplayItem
+nsPaintedDisplayItem
 :
 :
 Destroy
@@ -12244,7 +12244,7 @@ snap
 )
 ;
 }
-nsDisplayItem
+nsPaintedDisplayItem
 :
 :
 ComputeInvalidationRegion

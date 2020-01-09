@@ -2760,7 +2760,7 @@ nsDisplayBullet
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -2774,7 +2774,7 @@ nsBulletFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
@@ -3110,7 +3110,7 @@ snap
 ;
 }
 return
-nsDisplayItem
+nsPaintedDisplayItem
 :
 :
 ComputeInvalidationRegion

@@ -7826,7 +7826,7 @@ nsDisplayMathMLSelectionRect
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -7844,7 +7844,7 @@ nsRect
 aRect
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
@@ -7995,7 +7995,7 @@ nsDisplayMathMLCharForeground
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -8016,7 +8016,7 @@ bool
 aIsSelected
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
@@ -8253,7 +8253,7 @@ nsDisplayMathMLCharDebug
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -8271,7 +8271,7 @@ nsRect
 aRect
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

@@ -174,7 +174,7 @@ class
 nsDisplayTableItem
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -192,7 +192,7 @@ aDrawsBackground
 true
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

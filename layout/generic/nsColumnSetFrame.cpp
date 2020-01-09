@@ -87,7 +87,7 @@ class
 nsDisplayColumnRule
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -101,7 +101,7 @@ nsIFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

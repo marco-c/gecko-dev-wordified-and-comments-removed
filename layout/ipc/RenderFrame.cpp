@@ -789,7 +789,7 @@ nsSubDocumentFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame

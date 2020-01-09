@@ -2325,7 +2325,7 @@ nsDisplayOuterSVG
 final
 :
 public
-nsDisplayItem
+nsPaintedDisplayItem
 {
 public
 :
@@ -2339,7 +2339,7 @@ nsSVGOuterSVGFrame
 aFrame
 )
 :
-nsDisplayItem
+nsPaintedDisplayItem
 (
 aBuilder
 aFrame
