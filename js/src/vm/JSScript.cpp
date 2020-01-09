@@ -25873,6 +25873,10 @@ noteLength
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 notes
 (
 )
