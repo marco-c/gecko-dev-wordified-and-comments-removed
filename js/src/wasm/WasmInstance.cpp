@@ -4135,7 +4135,7 @@ funcTableEntry
 ;
 table
 .
-setAnyFunc
+setFuncRef
 (
 dstOffset
 +
@@ -4169,7 +4169,7 @@ funcTableEntry
 ;
 table
 .
-setAnyFunc
+setFuncRef
 (
 dstOffset
 +
@@ -4325,7 +4325,7 @@ kind
 TableKind
 :
 :
-AnyFunction
+FuncRef
 )
 ;
 if
