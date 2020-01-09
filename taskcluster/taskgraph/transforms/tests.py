@@ -1414,9 +1414,6 @@ projects
 :
 [
 '
-try
-'
-'
 ash
 '
 ]
