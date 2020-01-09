@@ -16027,6 +16027,10 @@ firsttime
 #
 ifdef
 DEBUG
+ssl_trace_iob
+=
+NULL
+;
 ev
 =
 PR_GetEnvSecure
@@ -16167,6 +16171,10 @@ endif
 #
 ifdef
 NSS_ALLOW_SSLKEYLOGFILE
+ssl_keylog_iob
+=
+NULL
+;
 ev
 =
 PR_GetEnvSecure

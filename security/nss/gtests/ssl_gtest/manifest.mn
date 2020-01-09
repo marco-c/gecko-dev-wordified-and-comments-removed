@@ -124,6 +124,10 @@ ssl_damage_unittest
 .
 cc
 \
+ssl_debug_env_unittest
+.
+cc
+\
 ssl_dhe_unittest
 .
 cc
@@ -165,10 +169,6 @@ ssl_gtest
 cc
 \
 ssl_hrr_unittest
-.
-cc
-\
-ssl_keylog_unittest
 .
 cc
 \
@@ -255,6 +255,10 @@ cc
 tls_esni_unittest
 .
 cc
+\
+(
+SSLKEYLOGFILE_FILES
+)
 \
 (
 NULL
