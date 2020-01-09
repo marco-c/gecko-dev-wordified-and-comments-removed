@@ -3704,8 +3704,7 @@ packed
         
 if
 value_idx
-=
-=
+is
 0
 :
             

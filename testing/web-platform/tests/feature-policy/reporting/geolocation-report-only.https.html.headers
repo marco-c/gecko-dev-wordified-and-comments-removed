@@ -1,12 +1,12 @@
 Feature
 -
 Policy
--
-Report
--
-Only
 :
 geolocation
+-
+report
+-
+only
 '
 none
 '

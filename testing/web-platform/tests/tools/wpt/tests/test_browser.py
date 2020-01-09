@@ -2,21 +2,12 @@ import
 mock
 import
 subprocess
-import
-logging
 from
 tools
 .
 wpt
 import
 browser
-logger
-=
-logging
-.
-getLogger
-(
-)
 mock
 .
 patch
@@ -40,7 +31,6 @@ browser
 .
 Safari
 (
-logger
 )
     
 mocked_check_output
@@ -167,7 +157,6 @@ browser
 .
 Safari
 (
-logger
 )
     
 assert

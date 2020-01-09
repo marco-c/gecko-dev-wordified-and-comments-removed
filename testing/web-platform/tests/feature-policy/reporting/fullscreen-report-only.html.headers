@@ -1,12 +1,12 @@
 Feature
 -
 Policy
--
-Report
--
-Only
 :
 fullscreen
+-
+report
+-
+only
 '
 none
 '

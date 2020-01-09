@@ -1683,9 +1683,6 @@ RTCDtlsTransport
 :
 EventTarget
 {
-[
-SameObject
-]
 readonly
 attribute
 RTCIceTransport

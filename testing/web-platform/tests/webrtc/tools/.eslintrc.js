@@ -280,7 +280,7 @@ true
 blobToArrayBuffer
 :
 true
-assert_equals_typed_array
+assert_equals_array_buffer
 :
 true
 generateMediaStreamTrack

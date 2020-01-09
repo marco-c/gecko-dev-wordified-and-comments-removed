@@ -64,17 +64,6 @@ same
 -
 origin
 "
-"
-https
-:
-/
-/
-www
-.
-example
-.
-com
-"
 ]
 .
 forEach

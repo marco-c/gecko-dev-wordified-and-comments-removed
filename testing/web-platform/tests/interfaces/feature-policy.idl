@@ -61,7 +61,7 @@ policy
 NoInterfaceObject
 ]
 interface
-FeaturePolicy
+Policy
 {
 boolean
 allowsFeature
@@ -71,14 +71,6 @@ feature
 optional
 DOMString
 origin
-)
-;
-sequence
-<
-DOMString
->
-features
-(
 )
 ;
 sequence
@@ -110,8 +102,8 @@ SameObject
 ]
 readonly
 attribute
-FeaturePolicy
-featurePolicy
+Policy
+policy
 ;
 }
 ;
@@ -124,8 +116,8 @@ SameObject
 ]
 readonly
 attribute
-FeaturePolicy
-featurePolicy
+Policy
+policy
 ;
 }
 ;

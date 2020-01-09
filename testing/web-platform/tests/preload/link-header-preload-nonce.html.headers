@@ -24,10 +24,6 @@ dummy
 .
 js
 ?
-from
--
-header
-&
 without
 -
 nonce
@@ -52,10 +48,6 @@ dummy
 .
 js
 ?
-from
--
-header
-&
 with
 -
 nonce

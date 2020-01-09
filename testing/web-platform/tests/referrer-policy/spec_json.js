@@ -2402,7 +2402,7 @@ target_protocol
 "
 :
 "
-http
+https
 "
 "
 expansion
@@ -2451,7 +2451,7 @@ source_protocol
 "
 :
 "
-https
+http
 "
 "
 subresource

@@ -398,6 +398,11 @@ region
 readonly
 attribute
 DOMString
+regionCode
+;
+readonly
+attribute
+DOMString
 sortingCode
 ;
 readonly
@@ -424,6 +429,9 @@ addressLine
 ;
 DOMString
 region
+;
+DOMString
+regionCode
 ;
 DOMString
 city
@@ -477,6 +485,9 @@ recipient
 ;
 DOMString
 region
+;
+DOMString
+regionCode
 ;
 DOMString
 sortingCode

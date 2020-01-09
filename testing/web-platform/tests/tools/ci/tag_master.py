@@ -98,8 +98,8 @@ __name__
 def
 get_pr
 (
-owner
 repo
+owner
 sha
 )
 :
@@ -148,8 +148,8 @@ s
 %
            
 (
-owner
 repo
+owner
 sha
 )
 )
@@ -350,8 +350,8 @@ number
 def
 tag
 (
-owner
 repo
+owner
 sha
 tag
 )
@@ -417,8 +417,8 @@ refs
 "
 %
 (
-owner
 repo
+owner
 )
         
 req

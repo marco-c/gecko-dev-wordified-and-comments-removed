@@ -188,7 +188,7 @@ tab
     
 session
 .
-window_handle
+handle
 =
 value
 [
@@ -249,7 +249,7 @@ tab
     
 session
 .
-window_handle
+handle
 =
 value
 [
@@ -308,7 +308,7 @@ tab
     
 session
 .
-window_handle
+handle
 =
 value
 [

@@ -1091,11 +1091,6 @@ name
 )
 ;
 void
-commit
-(
-)
-;
-void
 abort
 (
 )

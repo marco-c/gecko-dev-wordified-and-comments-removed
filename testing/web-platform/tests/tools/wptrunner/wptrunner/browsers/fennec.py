@@ -54,8 +54,6 @@ import
 (
 get_timeout_multiplier
                       
-run_info_browser_version
-                      
 update_properties
                       
 executor_kwargs
@@ -414,21 +412,20 @@ kwargs
 )
 :
     
-rv
-=
+return
 {
 "
 e10s
 "
 :
 False
-          
+            
 "
 headless
 "
 :
 False
-          
+            
 "
 sw
 -
@@ -437,24 +434,6 @@ e10s
 :
 False
 }
-    
-rv
-.
-update
-(
-run_info_browser_version
-(
-kwargs
-[
-"
-binary
-"
-]
-)
-)
-    
-return
-rv
 def
 env_options
 (

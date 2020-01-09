@@ -459,20 +459,6 @@ in
 LOCATIONHDRS
 :
             
-if
-(
-len
-(
-header
-[
-1
-]
-)
->
-0
-)
-:
-                
 header
 [
 1
@@ -497,18 +483,6 @@ header
 1
 ]
 )
-            
-else
-:
-                
-header
-[
-1
-]
-=
-request
-.
-url
         
 if
 header

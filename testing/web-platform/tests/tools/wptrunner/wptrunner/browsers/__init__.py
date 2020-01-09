@@ -260,8 +260,4 @@ opera
 "
 webkit
 "
-                
-"
-epiphany
-"
 ]

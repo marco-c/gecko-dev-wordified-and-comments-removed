@@ -769,11 +769,20 @@ hosts
 )
 :
     
-return
-"
-"
+rv
+=
+[
+]
+    
+for
+name
+in
+hosts
+:
+        
+rv
 .
-join
+append
 (
 "
 DNS
@@ -782,18 +791,8 @@ DNS
 s
 "
 %
-host
-for
-host
-in
-hosts
+name
 )
-def
-make_name_constraints
-(
-hosts
-)
-:
     
 return
 "
@@ -801,20 +800,7 @@ return
 .
 join
 (
-"
-permitted
-;
-DNS
-:
-%
-s
-"
-%
-host
-for
-host
-in
-hosts
+rv
 )
 def
 get_config
@@ -837,11 +823,6 @@ san_line
 =
 "
 "
-        
-constraints_line
-=
-"
-"
     
 else
 :
@@ -856,18 +837,6 @@ s
 "
 %
 make_alt_names
-(
-hosts
-)
-        
-constraints_line
-=
-"
-nameConstraints
-=
-"
-+
-make_name_constraints
 (
 hosts
 )
@@ -1276,11 +1245,6 @@ always
 keyUsage
 =
 keyCertSign
-%
-(
-constraints_line
-)
-s
 "
 "
 "
@@ -1303,12 +1267,6 @@ duration
 "
 :
 duration
-       
-"
-constraints_line
-"
-:
-constraints_line
        
 "
 sep
@@ -1832,7 +1790,6 @@ def
 ca_cert_path
 (
 self
-hosts
 )
 :
         
@@ -1889,7 +1846,6 @@ self
 .
 _generate_ca
 (
-hosts
 )
         
 return
@@ -2127,7 +2083,6 @@ def
 _generate_ca
 (
 self
-hosts
 )
 :
         
@@ -2195,7 +2150,7 @@ self
 .
 _config_openssl
 (
-hosts
+None
 )
 as
 openssl
@@ -2603,7 +2558,6 @@ self
 .
 _generate_ca
 (
-hosts
 )
         
 ca_key_path

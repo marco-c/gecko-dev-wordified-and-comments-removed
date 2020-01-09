@@ -647,7 +647,6 @@ code
 "
 :
 "
-NumpadAdd
 "
         
 "
@@ -2789,7 +2788,7 @@ code
 "
 :
 "
-Numpad4
+PageDown
 "
         
 "
@@ -2847,7 +2846,7 @@ code
 "
 :
 "
-Numpad5
+PageUp
 "
         
 "
@@ -3137,7 +3136,6 @@ code
 "
 :
 "
-PageDown
 "
         
 "
@@ -3195,7 +3193,6 @@ code
 "
 :
 "
-PageUp
 "
         
 "
@@ -4295,7 +4292,7 @@ code
 "
 :
 "
-NumpadComma
+NumpadSubtract
 "
         
 "
@@ -4467,7 +4464,6 @@ code
 "
 :
 "
-NumpadSubtract
 "
         
 "

@@ -3744,11 +3744,6 @@ window
 )
         
 if
-handles
-is
-not
-None
-and
 len
 (
 handles

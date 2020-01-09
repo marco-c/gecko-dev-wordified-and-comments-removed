@@ -90,7 +90,6 @@ exitPointerLock
 ;
 partial
 interface
-mixin
 DocumentOrShadowRoot
 {
 readonly

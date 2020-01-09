@@ -134,7 +134,6 @@ def
 ca_cert_path
 (
 self
-hosts
 )
 :
         

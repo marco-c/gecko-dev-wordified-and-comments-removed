@@ -53,13 +53,13 @@ iframe
 )
 '
 ]
-FeaturePolicy
+Policy
 :
 [
 '
 document
 .
-featurePolicy
+policy
 '
 ]
 }

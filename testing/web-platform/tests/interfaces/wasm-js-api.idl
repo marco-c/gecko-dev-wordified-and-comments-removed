@@ -244,7 +244,7 @@ customSections
 (
 Module
 moduleObject
-DOMString
+USVString
 sectionName
 )
 ;

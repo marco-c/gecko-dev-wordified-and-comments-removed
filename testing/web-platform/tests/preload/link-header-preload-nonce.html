@@ -165,7 +165,7 @@ verifyPreloadAndRTSupport
 (
 )
 ;
-verifyNumberOfResourceTimingEntries
+verifyNumberOfDownloads
 (
 "
 resources
@@ -174,10 +174,6 @@ dummy
 .
 js
 ?
-from
--
-header
-&
 without
 -
 nonce
@@ -185,7 +181,7 @@ nonce
 0
 )
 ;
-verifyNumberOfResourceTimingEntries
+verifyNumberOfDownloads
 (
 "
 resources
@@ -194,10 +190,6 @@ dummy
 .
 js
 ?
-from
--
-header
-&
 with
 -
 nonce

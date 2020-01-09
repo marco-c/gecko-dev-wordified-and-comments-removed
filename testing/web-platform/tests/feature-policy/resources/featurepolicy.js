@@ -7,7 +7,7 @@ assert_not_equals
 (
 document
 .
-featurePolicy
+policy
 undefined
 '
 Feature
@@ -1557,7 +1557,7 @@ frame_policy
 =
 frame
 .
-featurePolicy
+policy
 ;
 if
 (

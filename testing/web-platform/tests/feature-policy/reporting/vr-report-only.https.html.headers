@@ -1,12 +1,12 @@
 Feature
 -
 Policy
--
-Report
--
-Only
 :
 vr
+-
+report
+-
+only
 '
 none
 '

@@ -9,9 +9,6 @@ is
 appcached
 .
 html
-blank
-.
-html
 FALLBACK
 :
 appcache

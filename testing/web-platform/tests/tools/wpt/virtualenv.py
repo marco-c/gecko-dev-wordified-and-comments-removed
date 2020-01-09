@@ -40,7 +40,6 @@ __init__
 (
 self
 path
-skip_virtualenv_setup
 )
 :
         
@@ -50,17 +49,6 @@ path
 =
 path
         
-self
-.
-skip_virtualenv_setup
-=
-skip_virtualenv_setup
-        
-if
-not
-skip_virtualenv_setup
-:
-            
 self
 .
 virtualenv
@@ -71,14 +59,14 @@ find_executable
 virtualenv
 "
 )
-            
+        
 if
 not
 self
 .
 virtualenv
 :
-                
+            
 raise
 ValueError
 (

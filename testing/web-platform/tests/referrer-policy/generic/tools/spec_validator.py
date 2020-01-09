@@ -286,25 +286,11 @@ items
         
 return
     
-assert
-isinstance
+assert_non_empty_list
 (
 obj
-[
 field
-]
-list
 )
-'
-%
-s
-must
-be
-a
-list
-'
-%
-field
     
 for
 allowed_value
@@ -436,60 +422,6 @@ value
 ]
 =
 True
-def
-assert_valid_artifact
-(
-exp_pattern
-artifact_key
-schema
-)
-:
-    
-if
-isinstance
-(
-schema
-list
-)
-:
-        
-assert_atom_or_list_items_from
-(
-exp_pattern
-artifact_key
-                                       
-[
-"
-*
-"
-]
-+
-schema
-)
-        
-return
-    
-for
-sub_artifact_key
-sub_schema
-in
-schema
-.
-iteritems
-(
-)
-:
-        
-assert_valid_artifact
-(
-exp_pattern
-[
-artifact_key
-]
-sub_artifact_key
-                              
-sub_schema
-)
 def
 validate
 (
@@ -782,7 +714,7 @@ name
 '
 ]
 )
-                                   
+                                     
 used_spec_names
 )
             
@@ -807,11 +739,17 @@ test_expansion_field
 =
 artifact
                 
-assert_valid_artifact
+assert_atom_or_list_items_from
 (
+                    
 spec_exp
 artifact
-                                      
+[
+'
+*
+'
+]
++
 test_expansion_schema
 [
 artifact
@@ -919,13 +857,19 @@ test_expansion_field
 =
 artifact
             
-assert_valid_artifact
+assert_atom_or_list_items_from
 (
                 
 excluded_test_expansion
                 
 artifact
                 
+[
+'
+*
+'
+]
++
 test_expansion_schema
 [
 artifact

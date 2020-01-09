@@ -90,13 +90,6 @@ CEReactions
 ]
 attribute
 boolean
-autoPictureInPicture
-;
-[
-CEReactions
-]
-attribute
-boolean
 disablePictureInPicture
 ;
 }
@@ -125,7 +118,6 @@ exitPictureInPicture
 ;
 partial
 interface
-mixin
 DocumentOrShadowRoot
 {
 readonly
