@@ -120,7 +120,7 @@ NS_IMETHODIMP
 SimpleChannelParent
 :
 :
-NotifyTrackingCookieBlocked
+NotifyCookieBlocked
 (
 uint32_t
 aRejectedReason

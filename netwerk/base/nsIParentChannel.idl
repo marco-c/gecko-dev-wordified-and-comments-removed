@@ -254,7 +254,7 @@ load
 noscript
 ]
 void
-notifyTrackingCookieBlocked
+notifyCookieBlocked
 (
 in
 uint32_t

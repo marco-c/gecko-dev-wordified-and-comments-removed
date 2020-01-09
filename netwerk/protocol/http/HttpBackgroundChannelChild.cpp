@@ -1572,7 +1572,7 @@ IPCResult
 HttpBackgroundChannelChild
 :
 :
-RecvNotifyTrackingCookieBlocked
+RecvNotifyCookieBlocked
 (
 const
 uint32_t
@@ -1587,7 +1587,7 @@ LOG
 HttpBackgroundChannelChild
 :
 :
-RecvNotifyTrackingCookieBlocked
+RecvNotifyCookieBlocked
 [
 this
 =
@@ -1635,7 +1635,7 @@ IPC_OK
 mChannelChild
 -
 >
-ProcessNotifyTrackingCookieBlocked
+ProcessNotifyCookieBlocked
 (
 aRejectedReason
 )

@@ -1545,7 +1545,7 @@ NS_IMETHODIMP
 nsExtProtocolChannel
 :
 :
-NotifyTrackingCookieBlocked
+NotifyCookieBlocked
 (
 uint32_t
 aRejectedReason
