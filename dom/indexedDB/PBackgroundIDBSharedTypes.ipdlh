@@ -396,15 +396,6 @@ localizedValue
 ;
 }
 ;
-union
-OptionalKeyRange
-{
-SerializedKeyRange
-;
-void_t
-;
-}
-;
 struct
 DatabaseMetadata
 {
@@ -494,7 +485,8 @@ ObjectStoreOpenCursorParams
 int64_t
 objectStoreId
 ;
-OptionalKeyRange
+SerializedKeyRange
+?
 optionalKeyRange
 ;
 Direction
@@ -508,7 +500,8 @@ ObjectStoreOpenKeyCursorParams
 int64_t
 objectStoreId
 ;
-OptionalKeyRange
+SerializedKeyRange
+?
 optionalKeyRange
 ;
 Direction
@@ -525,7 +518,8 @@ objectStoreId
 int64_t
 indexId
 ;
-OptionalKeyRange
+SerializedKeyRange
+?
 optionalKeyRange
 ;
 Direction
@@ -542,7 +536,8 @@ objectStoreId
 int64_t
 indexId
 ;
-OptionalKeyRange
+SerializedKeyRange
+?
 optionalKeyRange
 ;
 Direction
@@ -651,7 +646,8 @@ ObjectStoreGetAllParams
 int64_t
 objectStoreId
 ;
-OptionalKeyRange
+SerializedKeyRange
+?
 optionalKeyRange
 ;
 uint32_t
@@ -665,7 +661,8 @@ ObjectStoreGetAllKeysParams
 int64_t
 objectStoreId
 ;
-OptionalKeyRange
+SerializedKeyRange
+?
 optionalKeyRange
 ;
 uint32_t
@@ -698,7 +695,8 @@ ObjectStoreCountParams
 int64_t
 objectStoreId
 ;
-OptionalKeyRange
+SerializedKeyRange
+?
 optionalKeyRange
 ;
 }
@@ -740,7 +738,8 @@ objectStoreId
 int64_t
 indexId
 ;
-OptionalKeyRange
+SerializedKeyRange
+?
 optionalKeyRange
 ;
 uint32_t
@@ -757,7 +756,8 @@ objectStoreId
 int64_t
 indexId
 ;
-OptionalKeyRange
+SerializedKeyRange
+?
 optionalKeyRange
 ;
 uint32_t
@@ -774,7 +774,8 @@ objectStoreId
 int64_t
 indexId
 ;
-OptionalKeyRange
+SerializedKeyRange
+?
 optionalKeyRange
 ;
 }
