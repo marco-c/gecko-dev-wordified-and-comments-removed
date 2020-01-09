@@ -6883,7 +6883,7 @@ return
 split_triplet
 (
 '
-armv7a
+arm
 -
 unknown
 -

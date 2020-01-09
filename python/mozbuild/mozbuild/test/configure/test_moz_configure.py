@@ -753,7 +753,7 @@ android
 )
             
 '
-armv7a
+arm
 -
 unknown
 -
