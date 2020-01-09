@@ -2400,6 +2400,9 @@ app
 in
 [
 "
+fennec
+"
+"
 geckoview
 "
 "
