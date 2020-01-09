@@ -1696,14 +1696,18 @@ Re
 install
 '
         
-if
-not
+installed
+=
 device
 .
 is_app_installed
 (
 app
 )
+        
+if
+not
+installed
 :
             
 _log_info
@@ -1792,6 +1796,17 @@ response
 '
 '
 :
+                
+if
+installed
+:
+                    
+device
+.
+uninstall_app
+(
+app
+)
                 
 _log_info
 (
@@ -1892,6 +1907,17 @@ response
 '
 '
 :
+                
+if
+installed
+:
+                    
+device
+.
+uninstall_app
+(
+app
+)
                 
 _log_info
 (
@@ -2004,6 +2030,17 @@ response
 '
 :
                 
+if
+installed
+:
+                    
+device
+.
+uninstall_app
+(
+app
+)
+                
 _log_info
 (
 "
@@ -2057,24 +2094,16 @@ build_obj
 _mach_context
 )
         
-else
+elif
+not
+installed
 :
             
-if
-not
-device
-.
-is_app_installed
-(
-app
-)
-:
-                
 response
 =
 raw_input
 (
-                    
+                
 "
 It
 looks
@@ -2090,7 +2119,7 @@ device
 \
 n
 "
-                    
+                
 "
 but
 I
@@ -2106,7 +2135,7 @@ it
 \
 n
 "
-                    
+                
 "
 Install
 it
