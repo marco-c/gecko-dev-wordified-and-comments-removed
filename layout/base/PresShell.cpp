@@ -50803,6 +50803,15 @@ ShouldHandleMetaViewport
 (
 mDocument
 )
+|
+|
+nsLayoutUtils
+:
+:
+AllowZoomingForDocument
+(
+mDocument
+)
 ;
 if
 (
