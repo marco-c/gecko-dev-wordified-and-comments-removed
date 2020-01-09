@@ -5304,6 +5304,17 @@ Android
 AArch64
 Nightly
 "
+use
+-
+pgo
+:
+android
+-
+api
+-
+16
+/
+pgo
 attributes
 :
 nightly
@@ -5730,6 +5741,8 @@ variant
 cfg
 :
 aarch64
+-
+pgo
 tooltool
 -
 downloads
