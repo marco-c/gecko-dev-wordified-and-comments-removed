@@ -43069,14 +43069,6 @@ other_values
 47px
 "
 "
--
-moz
--
-block
--
-height
-"
-"
 calc
 (
 2px
