@@ -868,7 +868,7 @@ ParsingModeDOM
 {
 #
 define
-CHECK
+CHECK_MODE
 (
 X
 Y
@@ -920,7 +920,7 @@ values
 "
 )
 ;
-CHECK
+CHECK_MODE
 (
 mozilla
 :
@@ -938,7 +938,7 @@ css
 eAgentSheetFeatures
 )
 ;
-CHECK
+CHECK_MODE
 (
 mozilla
 :
@@ -956,7 +956,7 @@ css
 eUserSheetFeatures
 )
 ;
-CHECK
+CHECK_MODE
 (
 mozilla
 :
@@ -976,7 +976,7 @@ eAuthorSheetFeatures
 ;
 #
 undef
-CHECK
+CHECK_MODE
 return
 static_cast
 <
