@@ -712,13 +712,6 @@ components
 extensions
 .
 manifest
-BINPATH
-/
-components
-/
-addonManager
-.
-js
 #
 ifndef
 MOZ_GECKOVIEW_JAR
