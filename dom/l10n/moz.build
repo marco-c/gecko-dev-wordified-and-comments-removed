@@ -119,6 +119,11 @@ DOMOverlays
 .
 h
 '
+'
+Mutations
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -126,6 +131,11 @@ UNIFIED_SOURCES
 [
 '
 DOMOverlays
+.
+cpp
+'
+'
+Mutations
 .
 cpp
 '

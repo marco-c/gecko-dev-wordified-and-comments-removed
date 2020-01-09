@@ -103,6 +103,7 @@ dom
 :
 l10n
 ;
+static
 already_AddRefed
 <
 Document
