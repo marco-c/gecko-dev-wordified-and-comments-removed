@@ -942,3 +942,15 @@ initDelay
 99999999
 )
 ;
+user_pref
+(
+"
+toolkit
+.
+legacyUserProfileCustomizations
+.
+stylesheets
+"
+true
+)
+;
