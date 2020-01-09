@@ -2929,17 +2929,6 @@ products
 "
 gecko
 "
-gecko_pref
-=
-"
-layout
-.
-css
-.
-isolation
-.
-enabled
-"
 spec
 =
 "
