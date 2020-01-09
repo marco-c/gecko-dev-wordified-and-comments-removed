@@ -801,6 +801,15 @@ MDefinition
 Opcode
 :
 :
+TypedArrayByteOffset
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 SetTypedObjectOffset
 :
 case

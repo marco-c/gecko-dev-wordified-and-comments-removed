@@ -642,6 +642,11 @@ IntrinsicPossiblyWrappedTypedArrayLength
 \
 _
 (
+IntrinsicTypedArrayByteOffset
+)
+\
+_
+(
 IntrinsicSetDisjointTypedElements
 )
 \
