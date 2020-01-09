@@ -3001,10 +3001,6 @@ stream
 CloseAudioInput
 (
 id
-that
--
->
-mInputProcessing
 )
 ;
 }

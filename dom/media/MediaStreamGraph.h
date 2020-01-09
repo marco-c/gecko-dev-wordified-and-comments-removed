@@ -1671,10 +1671,13 @@ AudioDeviceID
 >
 &
 aID
-AudioDataListener
-*
-aListener
 )
+;
+void
+Destroy
+(
+)
+override
 ;
 void
 DestroyImpl
