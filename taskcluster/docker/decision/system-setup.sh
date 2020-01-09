@@ -53,6 +53,12 @@ certificates
 python
 \
 sudo
+\
+python3
+\
+python3
+-
+yaml
 BUILD
 =
 /
