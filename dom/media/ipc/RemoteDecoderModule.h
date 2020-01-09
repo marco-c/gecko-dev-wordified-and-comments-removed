@@ -67,11 +67,7 @@ CreateDecoderParams
 aParams
 )
 override
-{
-return
-nullptr
 ;
-}
 }
 ;
 }
