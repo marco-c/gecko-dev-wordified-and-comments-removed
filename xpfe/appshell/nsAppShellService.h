@@ -111,6 +111,11 @@ aIsPrivate
 )
 ;
 void
+EnsureHiddenWindow
+(
+)
+;
+void
 EnsurePrivateHiddenWindow
 (
 )
