@@ -6968,8 +6968,13 @@ GetMarkedCCGeneration
 )
 |
 |
+(
+mInnerWindow
+&
+&
 HasKnownLiveWrapper
 (
+)
 )
 )
 &
