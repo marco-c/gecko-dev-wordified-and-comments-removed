@@ -107,6 +107,13 @@ process
 js
 '
 '
+target
+-
+mixin
+.
+js
+'
+'
 worker
 .
 js
