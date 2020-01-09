@@ -35,4 +35,4 @@ PREFIX
 %
 define
 STACK_ALIGNMENT
-32
+16
