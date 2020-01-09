@@ -215,6 +215,17 @@ default
 }
 }
 }
+#
+[
+cfg
+(
+feature
+=
+"
+capture
+"
+)
+]
 pub
 fn
 file_path
