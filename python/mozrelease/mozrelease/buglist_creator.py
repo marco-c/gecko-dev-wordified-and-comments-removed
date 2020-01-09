@@ -30,18 +30,6 @@ notify
 import
 Notify
 from
-taskcluster
-import
-optionsFromEnvironment
-from
-taskgraph
-.
-util
-.
-taskcluster
-import
-get_root_url
-from
 operator
 import
 itemgetter
@@ -1412,18 +1400,8 @@ build_number
     
 notify_options
 =
-optionsFromEnvironment
-(
 {
-'
-rootUrl
-'
-:
-get_root_url
-(
-)
 }
-)
     
 if
 '
@@ -1435,12 +1413,7 @@ os
 environ
 :
         
-notify_options
-[
-'
-rootUrl
-'
-]
+base_url
 =
 os
 .
@@ -1450,6 +1423,34 @@ environ
 TASKCLUSTER_PROXY_URL
 '
 ]
+.
+rstrip
+(
+'
+/
+'
+)
+        
+notify_options
+[
+'
+baseUrl
+'
+]
+=
+'
+{
+}
+/
+notify
+/
+v1
+'
+.
+format
+(
+base_url
+)
     
 notify
 =

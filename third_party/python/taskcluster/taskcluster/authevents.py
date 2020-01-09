@@ -46,16 +46,25 @@ BaseClient
 The
 auth
 service
+typically
+available
+at
+auth
+.
+taskcluster
+.
+net
+    
 is
 responsible
 for
 storing
 credentials
 managing
-    
 assignment
 of
 scopes
+    
 and
 validation
 of
@@ -63,7 +72,6 @@ request
 signatures
 from
 other
-    
 services
 .
     
@@ -142,18 +150,6 @@ v1
 "
     
 }
-    
-serviceName
-=
-'
-auth
-'
-    
-apiVersion
-=
-'
-v1
-'
     
 def
 clientCreated

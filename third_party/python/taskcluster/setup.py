@@ -17,11 +17,11 @@ sys
 VERSION
 =
 '
-6
+4
 .
 0
 .
-0
+1
 '
 tests_require
 =
@@ -204,21 +204,6 @@ slugid
 7
 <
 2
-'
-    
-'
-taskcluster
--
-urls
->
-=
-10
-.
-1
-.
-0
-<
-12
 '
     
 '

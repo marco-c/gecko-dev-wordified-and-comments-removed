@@ -81,12 +81,6 @@ v1
     
 }
     
-apiVersion
-=
-'
-v1
-'
-    
 def
 workerTypeCreated
 (
