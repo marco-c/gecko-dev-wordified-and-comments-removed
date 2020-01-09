@@ -175,6 +175,11 @@ PolicyTokenizer
 h
 '
 '
+ReferrerInfo
+.
+h
+'
+'
 SRICheck
 .
 h
@@ -201,6 +206,11 @@ h
 '
 '
 nsMixedContentBlocker
+.
+h
+'
+'
+ReferrerInfo
 .
 h
 '
@@ -256,6 +266,11 @@ cpp
 '
 '
 PolicyTokenizer
+.
+cpp
+'
+'
+ReferrerInfo
 .
 cpp
 '

@@ -51,6 +51,9 @@ class
 nsIURI
 ;
 class
+nsIReferrerInfo
+;
+class
 nsSHEntry
 final
 :
@@ -123,12 +126,9 @@ mResultPrincipalURI
 ;
 nsCOMPtr
 <
-nsIURI
+nsIReferrerInfo
 >
-mReferrerURI
-;
-uint32_t
-mReferrerPolicy
+mReferrerInfo
 ;
 nsString
 mTitle

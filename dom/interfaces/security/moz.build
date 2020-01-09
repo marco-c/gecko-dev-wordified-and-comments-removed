@@ -120,6 +120,11 @@ nsIContentSecurityPolicy
 .
 idl
 '
+'
+nsIReferrerInfo
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
