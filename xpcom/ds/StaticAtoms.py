@@ -20859,6 +20859,16 @@ AnimationsOfAfterProperty
 Atom
 (
 "
+animationsOfMarkerProperty
+"
+"
+AnimationsOfMarkerProperty
+"
+)
+    
+Atom
+(
+"
 animationEffectsProperty
 "
 "
@@ -20883,6 +20893,16 @@ animationEffectsForAfterProperty
 "
 "
 AnimationsEffectsForAfterProperty
+"
+)
+    
+Atom
+(
+"
+animationEffectsForMarkerProperty
+"
+"
+AnimationsEffectsForMarkerProperty
 "
 )
     
@@ -20919,6 +20939,16 @@ CSSPseudoElementAfterProperty
 Atom
 (
 "
+cssPseudoElementMarkerProperty
+"
+"
+CSSPseudoElementMarkerProperty
+"
+)
+    
+Atom
+(
+"
 transitionsProperty
 "
 "
@@ -20943,6 +20973,16 @@ transitionsOfAfterProperty
 "
 "
 TransitionsOfAfterProperty
+"
+)
+    
+Atom
+(
+"
+transitionsOfMarkerProperty
+"
+"
+TransitionsOfMarkerProperty
 "
 )
     
