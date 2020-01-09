@@ -148,9 +148,6 @@ startMonitoring
 target
 .
 client
-target
-.
-form
 )
 ;
 }
@@ -198,7 +195,6 @@ startMonitoring
 function
 (
 client
-tabGrip
 callback
 )
 {
@@ -206,15 +202,6 @@ if
 (
 !
 client
-)
-{
-return
-;
-}
-if
-(
-!
-tabGrip
 )
 {
 return
