@@ -838,9 +838,9 @@ ContentCrash
 }
 )
 ;
-}
 break
 ;
+}
 }
 }
 _findInPage
