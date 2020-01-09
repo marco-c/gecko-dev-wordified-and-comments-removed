@@ -1069,13 +1069,6 @@ RESPATH
 /
 components
 /
-PageThumbsComponents
-.
-manifest
-RESPATH
-/
-components
-/
 crashmonitor
 .
 manifest
@@ -1170,13 +1163,6 @@ components
 ProcessSingleton
 .
 manifest
-RESPATH
-/
-components
-/
-PageThumbsStorageService
-.
-js
 RESPATH
 /
 components
