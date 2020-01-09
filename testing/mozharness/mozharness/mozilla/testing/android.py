@@ -2327,6 +2327,9 @@ d
 )
 "
 line
+re
+.
+IGNORECASE
 )
             
 if
