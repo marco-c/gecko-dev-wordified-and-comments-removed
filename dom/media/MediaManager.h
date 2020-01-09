@@ -1293,6 +1293,8 @@ DeviceEnumerationType
 aVideoInputEnumType
 DeviceEnumerationType
 aAudioInputEnumType
+bool
+aForceNoPermRequest
 const
 RefPtr
 <
@@ -1326,6 +1328,8 @@ DeviceEnumerationType
 aVideoInputEnumType
 DeviceEnumerationType
 aAudioInputEnumType
+bool
+aForceNoPermRequest
 const
 RefPtr
 <
