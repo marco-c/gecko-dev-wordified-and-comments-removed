@@ -10003,6 +10003,11 @@ ReportShadowDOMUsage
 )
 ;
 void
+MaybeNotifyAutoplayBlocked
+(
+)
+;
+void
 SetDocTreeHadAudibleMedia
 (
 )
