@@ -105,16 +105,6 @@ xpcshell
 ini
 '
 ]
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]
 BROWSER_CHROME_MANIFESTS
 +
 =

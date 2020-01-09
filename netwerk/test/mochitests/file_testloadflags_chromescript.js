@@ -299,11 +299,11 @@ org
 /
 tests
 /
-extensions
-/
-cookie
+netwerk
 /
 test
+/
+mochitests
 /
 "
 )
