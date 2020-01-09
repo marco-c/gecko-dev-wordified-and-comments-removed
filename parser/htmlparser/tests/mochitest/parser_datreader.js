@@ -123,12 +123,16 @@ lines
 )
 ;
 throw
+new
+Error
+(
 "
 Unknown
 test
 format
 .
 "
+)
 ;
 }
 var
