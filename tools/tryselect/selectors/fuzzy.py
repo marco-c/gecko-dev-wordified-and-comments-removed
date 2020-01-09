@@ -507,6 +507,13 @@ append
 '
           
 '
+default
+'
+:
+[
+]
+          
+'
 help
 '
 :
@@ -558,6 +565,65 @@ union
 of
 computed
 tasks
+.
+"
+          
+}
+]
+        
+[
+[
+'
+-
+i
+'
+'
+-
+-
+interactive
+'
+]
+         
+{
+'
+action
+'
+:
+'
+store_true
+'
+          
+'
+default
+'
+:
+False
+          
+'
+help
+'
+:
+"
+Force
+running
+fzf
+interactively
+even
+when
+using
+presets
+or
+"
+                  
+"
+queries
+with
+-
+q
+/
+-
+-
+query
 .
 "
           
@@ -1826,6 +1892,9 @@ get_tasks
 query_arg
 =
 None
+candidate_tasks
+=
+all_tasks
 )
 :
         
@@ -1838,6 +1907,13 @@ base_cmd
         
 if
 query_arg
+and
+query_arg
+!
+=
+'
+INTERACTIVE
+'
 :
             
 cmd
@@ -1859,7 +1935,10 @@ tasks
 run_fzf
 (
 cmd
-all_tasks
+sorted
+(
+candidate_tasks
+)
 )
         
 queries
@@ -1901,17 +1980,17 @@ or
 ]
 :
         
+if
+not
+selected
+:
+            
 tasks
 =
 get_tasks
 (
 q
 )
-        
-if
-not
-selected
-:
             
 selected
 |
@@ -1920,6 +1999,14 @@ tasks
         
 else
 :
+            
+tasks
+=
+get_tasks
+(
+q
+selected
+)
             
 selected
 &
