@@ -12641,6 +12641,14 @@ mDocLWTheme
 float
 mSavedResolution
 ;
+public
+:
+js
+:
+:
+ExpandoAndGeneration
+mExpandoAndGeneration
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
