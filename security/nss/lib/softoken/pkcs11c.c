@@ -21438,6 +21438,13 @@ crv
 =
 CKR_ATTRIBUTE_VALUE_INVALID
 ;
+PORT_Free
+(
+pubExp
+.
+data
+)
+;
 break
 ;
 }
