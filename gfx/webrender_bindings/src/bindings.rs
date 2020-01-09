@@ -5872,6 +5872,9 @@ bool
 enable_picture_caching
 :
 bool
+start_debug_server
+:
+bool
 gl_context
 :
 *
@@ -6478,8 +6481,6 @@ allow_pixel_local_storage_support
 :
 false
 start_debug_server
-:
-false
 .
 .
 Default
