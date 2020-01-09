@@ -3562,7 +3562,7 @@ MOZ_MUST_USE
 bool
 emitCallOrNew
 (
-BinaryNode
+CallNode
 *
 callNode
 ValueUsage
@@ -3578,7 +3578,7 @@ MOZ_MUST_USE
 bool
 emitSelfHostedCallFunction
 (
-BinaryNode
+CallNode
 *
 callNode
 )
