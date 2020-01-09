@@ -21,6 +21,15 @@ support
 .
 annotation
 .
+LongDef
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -208,7 +217,7 @@ RetentionPolicy
 .
 SOURCE
 )
-IntDef
+LongDef
 (
 flag
 =
