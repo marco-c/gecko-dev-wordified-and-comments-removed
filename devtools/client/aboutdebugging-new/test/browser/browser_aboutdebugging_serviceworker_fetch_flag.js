@@ -118,6 +118,11 @@ tab
 await
 openAboutDebugging
 (
+{
+enableWorkerUpdates
+:
+true
+}
 )
 ;
 info

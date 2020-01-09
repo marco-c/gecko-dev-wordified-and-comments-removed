@@ -51,6 +51,11 @@ window
 await
 openAboutDebugging
 (
+{
+enableWorkerUpdates
+:
+true
+}
 )
 ;
 info
