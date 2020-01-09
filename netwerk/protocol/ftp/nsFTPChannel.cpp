@@ -52,6 +52,7 @@ nsIResumableChannel
 nsIFTPChannel
 nsIProxiedChannel
 nsIForcePendingChannel
+nsISupportsWeakReference
 nsIChannelWithDivertableParentListener
 )
 NS_IMETHODIMP
