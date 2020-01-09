@@ -223,6 +223,14 @@ Toggle
 password
 visibility
 .
+open
+-
+site
+-
+button
+=
+Launch
+.
 password
 -
 label
