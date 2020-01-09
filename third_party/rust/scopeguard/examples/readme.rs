@@ -109,7 +109,7 @@ sync_all
 ;
 file
 .
-write_all
+write
 (
 b
 "
