@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-LanguagePrompt
+RFPHelper
 "
 ]
 ;
@@ -68,7 +68,7 @@ request
 "
 ;
 class
-_LanguagePrompt
+_RFPHelper
 {
 constructor
 (
@@ -869,10 +869,10 @@ Language
 }
 }
 let
-LanguagePrompt
+RFPHelper
 =
 new
-_LanguagePrompt
+_RFPHelper
 (
 )
 ;
