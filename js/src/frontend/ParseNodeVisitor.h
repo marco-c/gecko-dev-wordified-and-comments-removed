@@ -56,7 +56,7 @@ public
 :
 JSContext
 *
-cx
+cx_
 ;
 explicit
 ParseNodeVisitor
@@ -66,7 +66,7 @@ JSContext
 cx
 )
 :
-cx
+cx_
 (
 cx
 )
@@ -87,7 +87,7 @@ if
 !
 CheckRecursionLimit
 (
-cx
+cx_
 )
 )
 {
