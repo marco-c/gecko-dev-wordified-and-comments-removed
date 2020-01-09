@@ -47555,12 +47555,6 @@ aParentFrame
 columnSetFrame
 )
 ;
-SetInitialSingleChild
-(
-columnSetFrame
-aColumnContent
-)
-;
 RefPtr
 <
 ComputedStyle
@@ -47596,6 +47590,12 @@ InitAndRestoreFrame
 (
 aState
 aContent
+columnSetFrame
+aColumnContent
+)
+;
+SetInitialSingleChild
+(
 columnSetFrame
 aColumnContent
 )
