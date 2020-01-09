@@ -7679,6 +7679,14 @@ mPrincipal
 ;
 info
 .
+mStoragePrincipal
+=
+info
+.
+mPrincipal
+;
+info
+.
 mStorageAccess
 =
 nsContentUtils
