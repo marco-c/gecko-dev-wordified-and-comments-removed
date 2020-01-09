@@ -2677,7 +2677,7 @@ aRenderingContext
 nscoord
 result
 ;
-DISPLAY_MIN_INLINE_SIZE
+DISPLAY_PREF_INLINE_SIZE
 (
 this
 result
