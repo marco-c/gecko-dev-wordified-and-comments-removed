@@ -705,12 +705,12 @@ mEverUsedSpdy
 Telemetry
 :
 :
-SPDY_KBREAD_PER_CONN
+SPDY_KBREAD_PER_CONN2
 :
 Telemetry
 :
 :
-HTTP_KBREAD_PER_CONN
+HTTP_KBREAD_PER_CONN2
 totalKBRead
 )
 ;
