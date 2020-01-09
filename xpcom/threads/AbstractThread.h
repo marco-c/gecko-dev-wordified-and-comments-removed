@@ -362,6 +362,11 @@ AbstractThread
 aThread
 )
 {
+MOZ_ASSERT
+(
+aThread
+)
+;
 mLastCurrentThread
 =
 sCurrentThreadTLS
