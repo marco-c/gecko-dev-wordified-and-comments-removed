@@ -7104,7 +7104,7 @@ f
 nsLayoutUtils
 :
 :
-GetParentOrPlaceholderForCrossDoc
+GetDisplayListParent
 (
 f
 )
@@ -7785,7 +7785,7 @@ f
 nsLayoutUtils
 :
 :
-GetParentOrPlaceholderForCrossDoc
+GetDisplayListParent
 (
 f
 )
