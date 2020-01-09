@@ -217,7 +217,6 @@ wr
 LayoutSize
 &
 aContentSize
-const
 nsTArray
 <
 wr
@@ -225,6 +224,7 @@ wr
 :
 FilterOp
 >
+&
 &
 aFilters
 )

@@ -1079,7 +1079,6 @@ aDisplayList
 nsDisplayListBuilder
 *
 aDisplayListBuilder
-const
 nsTArray
 <
 wr
@@ -1087,6 +1086,7 @@ wr
 :
 FilterOp
 >
+&
 &
 aFilters
 WebRenderBackgroundData
@@ -1266,7 +1266,13 @@ aDisplayList
 aDisplayListBuilder
 mScrollData
 contentSize
+std
+:
+:
+move
+(
 aFilters
+)
 )
 ;
 builderDumpIndex

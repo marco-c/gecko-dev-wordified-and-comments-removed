@@ -29143,7 +29143,13 @@ EndTransactionWithoutLayer
 (
 nullptr
 nullptr
+std
+:
+:
+move
+(
 wrFilters
+)
 &
 data
 )

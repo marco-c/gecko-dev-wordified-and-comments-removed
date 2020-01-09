@@ -385,7 +385,6 @@ aDisplayList
 nsDisplayListBuilder
 *
 aDisplayListBuilder
-const
 nsTArray
 <
 wr
@@ -393,6 +392,7 @@ wr
 :
 FilterOp
 >
+&
 &
 aFilters
 =
