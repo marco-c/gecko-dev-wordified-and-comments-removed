@@ -89,7 +89,7 @@ urls
 "
 about
 :
-config
+preferences
 "
 "
 about

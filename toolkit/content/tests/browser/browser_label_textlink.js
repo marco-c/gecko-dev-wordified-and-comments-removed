@@ -67,7 +67,7 @@ label
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -111,9 +111,9 @@ me
 ;
 doc
 .
-documentElement
+body
 .
-append
+prepend
 (
 label
 )
