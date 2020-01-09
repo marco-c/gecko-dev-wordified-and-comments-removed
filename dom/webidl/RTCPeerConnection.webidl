@@ -748,12 +748,10 @@ addTrack
 MediaStreamTrack
 track
 MediaStream
-stream
-MediaStream
 .
 .
 .
-moreStreams
+streams
 )
 ;
 void
