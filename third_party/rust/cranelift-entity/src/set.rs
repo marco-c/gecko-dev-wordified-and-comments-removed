@@ -1,4 +1,10 @@
 use
+keys
+:
+:
+Keys
+;
+use
 std
 :
 :
@@ -17,10 +23,7 @@ vec
 Vec
 ;
 use
-{
 EntityRef
-Keys
-}
 ;
 #
 [

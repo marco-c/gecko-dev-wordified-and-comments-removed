@@ -1923,7 +1923,7 @@ all
 the
 numbered
         
-predcate
+predicate
 bits
 rounded
 up

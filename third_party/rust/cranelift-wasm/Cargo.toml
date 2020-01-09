@@ -122,7 +122,7 @@ version
 "
 0
 .
-25
+26
 .
 0
 "
@@ -206,6 +206,20 @@ cranelift
 [
 dependencies
 .
+cast
+]
+version
+=
+"
+0
+.
+2
+.
+2
+"
+[
+dependencies
+.
 cranelift
 -
 codegen
@@ -215,7 +229,7 @@ version
 "
 0
 .
-25
+26
 .
 0
 "
@@ -236,7 +250,7 @@ version
 "
 0
 .
-25
+26
 .
 0
 "
@@ -257,7 +271,7 @@ version
 "
 0
 .
-25
+26
 .
 0
 "

@@ -844,15 +844,11 @@ T
 >
 {
 Zero
-(
-)
 One
 (
 T
 )
 More
-(
-)
 }
 #
 [
@@ -2470,8 +2466,6 @@ ZeroOneOrMore
 :
 :
 Zero
-(
-)
 ;
 for
 _
@@ -2512,8 +2506,6 @@ ZeroOneOrMore
 :
 :
 Zero
-(
-)
 =
 >
 {
@@ -2563,8 +2555,6 @@ ZeroOneOrMore
 :
 :
 More
-(
-)
 ;
 }
 }
@@ -2572,8 +2562,6 @@ ZeroOneOrMore
 :
 :
 More
-(
-)
 =
 >
 {
@@ -2590,8 +2578,6 @@ ZeroOneOrMore
 :
 :
 Zero
-(
-)
 =
 >
 {
@@ -2756,8 +2742,6 @@ ZeroOneOrMore
 :
 :
 More
-(
-)
 =
 >
 {

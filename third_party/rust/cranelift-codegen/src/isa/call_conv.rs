@@ -47,7 +47,7 @@ CallConv
 {
 pub
 fn
-default_for_triple
+triple_default
 (
 triple
 :

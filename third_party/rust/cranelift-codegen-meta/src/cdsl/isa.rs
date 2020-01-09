@@ -21,6 +21,15 @@ RegClassIndex
 RegClassProto
 }
 ;
+use
+super
+:
+:
+settings
+:
+:
+SettingGroup
+;
 pub
 struct
 TargetIsa
@@ -48,6 +57,10 @@ PrimaryMap
 RegClassIndex
 RegClass
 >
+pub
+settings
+:
+SettingGroup
 }
 impl
 TargetIsa
@@ -62,6 +75,9 @@ name
 '
 static
 str
+settings
+:
+SettingGroup
 )
 -
 >
@@ -86,6 +102,7 @@ PrimaryMap
 new
 (
 )
+settings
 }
 }
 }
@@ -110,6 +127,9 @@ name
 '
 static
 str
+settings
+:
+SettingGroup
 )
 -
 >
@@ -125,6 +145,7 @@ TargetIsa
 new
 (
 name
+settings
 )
 }
 }

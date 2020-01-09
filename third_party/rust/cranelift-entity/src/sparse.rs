@@ -1,4 +1,10 @@
 use
+map
+:
+:
+SecondaryMap
+;
+use
 std
 :
 :
@@ -26,10 +32,7 @@ vec
 Vec
 ;
 use
-{
 EntityRef
-SecondaryMap
-}
 ;
 pub
 trait

@@ -6,6 +6,13 @@ extern
 crate
 cranelift_entity
 ;
+#
+[
+macro_use
+]
+mod
+cdsl
+;
 pub
 mod
 error
@@ -13,6 +20,10 @@ error
 pub
 mod
 gen_registers
+;
+pub
+mod
+gen_settings
 ;
 pub
 mod
@@ -26,8 +37,11 @@ mod
 base
 ;
 mod
-cdsl
+constant_hash
 ;
 mod
 srcgen
+;
+mod
+unique_table
 ;

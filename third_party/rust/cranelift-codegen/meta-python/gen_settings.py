@@ -2462,7 +2462,6 @@ def
 gen_constructor
 (
 sgrp
-parent
 fmt
 )
 :
@@ -2978,7 +2977,6 @@ byte_size
 gen_constructor
 (
 sgrp
-None
 fmt
 )
     

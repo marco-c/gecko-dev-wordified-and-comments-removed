@@ -5,7 +5,7 @@ ir
 immediates
 :
 :
-Imm64
+Uimm64
 ;
 use
 ir
@@ -40,11 +40,11 @@ GlobalValue
 pub
 min_size
 :
-Imm64
+Uimm64
 pub
-guard_size
+offset_guard_size
 :
-Imm64
+Uimm64
 pub
 style
 :
@@ -75,7 +75,7 @@ Static
 {
 bound
 :
-Imm64
+Uimm64
 }
 }
 impl
@@ -219,7 +219,7 @@ write
 (
 f
 "
-guard
+offset_guard
 {
 }
 index_type
@@ -228,7 +228,7 @@ index_type
 "
 self
 .
-guard_size
+offset_guard_size
 self
 .
 index_type

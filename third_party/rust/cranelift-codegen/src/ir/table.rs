@@ -5,7 +5,7 @@ ir
 immediates
 :
 :
-Imm64
+Uimm64
 ;
 use
 ir
@@ -40,7 +40,7 @@ GlobalValue
 pub
 min_size
 :
-Imm64
+Uimm64
 pub
 bound_gv
 :
@@ -48,7 +48,7 @@ GlobalValue
 pub
 element_size
 :
-Imm64
+Uimm64
 pub
 index_type
 :
