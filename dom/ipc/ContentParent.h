@@ -5512,9 +5512,6 @@ LifecycleState
 mLifecycleState
 ;
 bool
-mShuttingDown
-;
-bool
 mIsForBrowser
 ;
 RecordReplayState
