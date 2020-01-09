@@ -47,7 +47,7 @@ frontend
 template
 <
 typename
-Super
+Derived
 >
 class
 ParseNodeVisitor
@@ -123,7 +123,7 @@ KIND
 return
 static_cast
 <
-Super
+Derived
 *
 >
 (
@@ -227,7 +227,7 @@ accept
 *
 static_cast
 <
-Super
+Derived
 *
 >
 (
