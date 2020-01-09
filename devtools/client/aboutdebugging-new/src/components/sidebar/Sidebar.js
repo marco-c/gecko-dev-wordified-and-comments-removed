@@ -724,6 +724,11 @@ keyId
 isConnected
 :
 runtimeHasDetails
+isConnecting
+:
+runtime
+.
+isConnecting
 isSelected
 isUnknown
 :

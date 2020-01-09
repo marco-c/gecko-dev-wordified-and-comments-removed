@@ -345,6 +345,13 @@ shape
 (
 runtimeExtra
 )
+isConnecting
+:
+PropTypes
+.
+bool
+.
+isRequired
 isUnknown
 :
 PropTypes

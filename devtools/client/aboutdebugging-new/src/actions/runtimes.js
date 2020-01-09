@@ -304,6 +304,7 @@ dispatch
 type
 :
 CONNECT_RUNTIME_START
+id
 }
 )
 ;
@@ -584,6 +585,7 @@ dispatch
 type
 :
 CONNECT_RUNTIME_FAILURE
+id
 error
 :
 e
@@ -616,6 +618,9 @@ id
 RUNTIMES
 .
 THIS_FIREFOX
+isConnecting
+:
+false
 isUnknown
 :
 false
@@ -1470,6 +1475,9 @@ port
 )
 }
 }
+isConnecting
+:
+false
 isUnknown
 :
 false
@@ -1560,6 +1568,9 @@ adbRuntime
 .
 deviceName
 }
+isConnecting
+:
+false
 isUnknown
 :
 adbRuntime
@@ -1769,6 +1780,18 @@ existingRuntime
 runtimeDetails
 :
 null
+;
+runtime
+.
+isConnecting
+=
+existingRuntime
+?
+existingRuntime
+.
+isConnecting
+:
+false
 ;
 }
 )
