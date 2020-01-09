@@ -1454,7 +1454,6 @@ error
 {
 error
 :
-[
 aData
 .
 split
@@ -1465,7 +1464,6 @@ split
 )
 [
 1
-]
 ]
 }
 )
@@ -1504,7 +1502,6 @@ error
 {
 error
 :
-[
 aData
 .
 split
@@ -1515,7 +1512,6 @@ split
 )
 [
 1
-]
 ]
 }
 )
