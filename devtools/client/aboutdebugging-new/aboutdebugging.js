@@ -472,13 +472,8 @@ mount
 ;
 this
 .
-actions
-.
-updateNetworkLocations
+onNetworkLocationsUpdated
 (
-getNetworkLocations
-(
-)
 )
 ;
 addNetworkLocationsObserver
