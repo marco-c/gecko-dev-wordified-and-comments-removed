@@ -108,6 +108,11 @@ InlineTooltip
 js
 '
 '
+RulePreviewTooltip
+.
+js
+'
+'
 SwatchBasedEditorTooltip
 .
 js
