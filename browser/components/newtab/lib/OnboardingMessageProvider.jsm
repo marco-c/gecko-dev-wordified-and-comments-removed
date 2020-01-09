@@ -1543,7 +1543,7 @@ tracking
 -
 protection
 -
-title
+title2
 "
 }
 text
@@ -1558,7 +1558,7 @@ tracking
 -
 protection
 -
-text
+text2
 "
 }
 icon
@@ -1581,7 +1581,7 @@ tracking
 -
 protection
 -
-button
+button2
 "
 }
 action
@@ -1673,7 +1673,7 @@ data
 -
 sync
 -
-text
+text2
 "
 }
 icon
@@ -1696,7 +1696,7 @@ data
 -
 sync
 -
-button
+button2
 "
 }
 action
@@ -2062,7 +2062,7 @@ firefox
 -
 send
 -
-text
+text2
 "
 }
 icon
@@ -2462,7 +2462,7 @@ pocket
 -
 anywhere
 -
-text
+text2
 "
 }
 icon
@@ -2588,7 +2588,7 @@ lockwise
 -
 passwords
 -
-text
+text2
 "
 }
 icon
@@ -2611,7 +2611,7 @@ lockwise
 -
 passwords
 -
-button
+button2
 "
 }
 action
@@ -2715,7 +2715,7 @@ facebook
 -
 container
 -
-text
+text2
 "
 }
 icon
