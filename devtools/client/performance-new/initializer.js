@@ -251,7 +251,6 @@ gInit
 (
 perfFront
 preferenceFront
-actorVersion
 )
 {
 const
@@ -261,13 +260,6 @@ createStore
 (
 reducers
 )
-;
-actorVersion
-=
-actorVersion
-|
-|
-0
 ;
 store
 .
@@ -280,7 +272,6 @@ initializeStore
 {
 perfFront
 receiveProfile
-actorVersion
 recordingSettingsFromPreferences
 :
 await
