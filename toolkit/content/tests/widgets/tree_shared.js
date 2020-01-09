@@ -2754,6 +2754,8 @@ end
 ;
 tree
 .
+treeBoxObject
+.
 scrollToRow
 (
 4
@@ -2790,6 +2792,8 @@ is
 (
 tree
 .
+treeBoxObject
+.
 getFirstVisibleRow
 (
 )
@@ -2805,6 +2809,8 @@ scroll
 )
 ;
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -2842,6 +2848,8 @@ is
 (
 tree
 .
+treeBoxObject
+.
 getFirstVisibleRow
 (
 )
@@ -2857,6 +2865,8 @@ scroll
 )
 ;
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -2923,6 +2933,8 @@ is
 (
 tree
 .
+treeBoxObject
+.
 getFirstVisibleRow
 (
 )
@@ -2940,6 +2952,8 @@ scroll
 )
 ;
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -3005,6 +3019,8 @@ multiple
 is
 (
 tree
+.
+treeBoxObject
 .
 getFirstVisibleRow
 (
@@ -3112,6 +3128,8 @@ moveselection
 ;
 tree
 .
+treeBoxObject
+.
 scrollToRow
 (
 4
@@ -3277,6 +3295,8 @@ expected
 )
 ;
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -3459,6 +3479,8 @@ pageUpOrDownMovesSelection
 }
 tree
 .
+treeBoxObject
+.
 scrollToRow
 (
 4
@@ -3507,6 +3529,8 @@ home
 ;
 tree
 .
+treeBoxObject
+.
 scrollToRow
 (
 0
@@ -3554,6 +3578,8 @@ end
 )
 ;
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -3613,6 +3639,8 @@ multiple
 )
 ;
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -3998,6 +4026,8 @@ rev
 ;
 tree
 .
+treeBoxObject
+.
 scrollToRow
 (
 lastidx
@@ -4224,6 +4254,8 @@ testidmod
 }
 tree
 .
+treeBoxObject
+.
 scrollToRow
 (
 1
@@ -4450,6 +4482,8 @@ multiple
 {
 tree
 .
+treeBoxObject
+.
 scrollToRow
 (
 3
@@ -4523,6 +4557,8 @@ testidmod
 ;
 tree
 .
+treeBoxObject
+.
 scrollToRow
 (
 2
@@ -4594,6 +4630,8 @@ testidmod
 )
 ;
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -4669,6 +4707,8 @@ testidmod
 )
 ;
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -4755,6 +4795,8 @@ pageUpOrDownMovesSelection
 ;
 }
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -4824,6 +4866,8 @@ multiple
 )
 ;
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -4987,6 +5031,8 @@ off
 ;
 }
 tree
+.
+treeBoxObject
 .
 scrollToRow
 (
@@ -6706,6 +6752,8 @@ is
 (
 tree
 .
+treeBoxObject
+.
 getFirstVisibleRow
 (
 )
@@ -7367,6 +7415,8 @@ aDeltaMode
 {
 aTree
 .
+treeBoxObject
+.
 scrollToRow
 (
 aStart
@@ -7418,6 +7468,8 @@ aStart
 +
 aTree
 .
+treeBoxObject
+.
 getPageLength
 (
 )
@@ -7430,6 +7482,8 @@ expected
 aStart
 -
 aTree
+.
+treeBoxObject
 .
 getPageLength
 (
@@ -7460,6 +7514,8 @@ rowCount
 -
 aTree
 .
+treeBoxObject
+.
 getPageLength
 (
 )
@@ -7474,6 +7530,8 @@ view
 rowCount
 -
 aTree
+.
+treeBoxObject
 .
 getPageLength
 (
@@ -7503,6 +7561,8 @@ aIntDelta
 is
 (
 aTree
+.
+treeBoxObject
 .
 getFirstVisibleRow
 (
@@ -7538,6 +7598,8 @@ aDeltaMode
 ;
 aTree
 .
+treeBoxObject
+.
 scrollToRow
 (
 aStart
@@ -7566,6 +7628,8 @@ aIntDelta
 is
 (
 aTree
+.
+treeBoxObject
 .
 getFirstVisibleRow
 (
@@ -8183,6 +8247,8 @@ rect
 =
 tree
 .
+boxObject
+.
 getCoordsForCellItem
 (
 row
@@ -8315,6 +8381,8 @@ row
 ;
 tree
 .
+treeBoxObject
+.
 ensureRowIsVisible
 (
 row
@@ -8324,6 +8392,8 @@ var
 rect
 =
 tree
+.
+treeBoxObject
 .
 getCoordsForCellItem
 (

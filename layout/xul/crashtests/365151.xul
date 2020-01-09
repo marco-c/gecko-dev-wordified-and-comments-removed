@@ -93,6 +93,8 @@ col
 =
 tree
 .
+treeBoxObject
+.
 columns
 .
 getFirstColumn

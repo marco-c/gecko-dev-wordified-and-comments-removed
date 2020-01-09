@@ -1033,7 +1033,7 @@ Throws
 void
 setTree
 (
-XULTreeElement
+TreeBoxObject
 ?
 tree
 )

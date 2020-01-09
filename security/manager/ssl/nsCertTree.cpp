@@ -5022,13 +5022,7 @@ nsCertTree
 :
 SetTree
 (
-mozilla
-:
-:
-dom
-:
-:
-XULTreeElement
+nsITreeBoxObject
 *
 tree
 )

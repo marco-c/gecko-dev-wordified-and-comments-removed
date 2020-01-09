@@ -182,9 +182,16 @@ row
 )
 {
 let
-rect
+tbo
 =
 aTree
+.
+treeBoxObject
+;
+let
+rect
+=
+tbo
 .
 getCoordsForCellItem
 (

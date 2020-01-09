@@ -739,6 +739,8 @@ view
 ;
 tree
 .
+treeBoxObject
+.
 ensureRowIsVisible
 (
 0
@@ -747,6 +749,8 @@ ensureRowIsVisible
 is
 (
 tree
+.
+treeBoxObject
 .
 getFirstVisibleRow
 (

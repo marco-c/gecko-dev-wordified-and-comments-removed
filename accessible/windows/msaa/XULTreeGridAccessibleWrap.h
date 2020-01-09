@@ -110,10 +110,7 @@ aDoc
 XULTreeGridRowAccessible
 *
 aRowAcc
-dom
-:
-:
-XULTreeElement
+nsITreeBoxObject
 *
 aTree
 nsITreeView

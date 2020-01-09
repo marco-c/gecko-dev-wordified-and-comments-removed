@@ -96,6 +96,8 @@ b
 this
 .
 parentNode
+.
+treeBoxObject
 ;
 var
 cell
@@ -371,6 +373,8 @@ b
 this
 .
 parentNode
+.
+treeBoxObject
 ;
 var
 cell
@@ -709,11 +713,13 @@ disabled
 return
 ;
 var
-tree
+tbo
 =
 this
 .
 parentNode
+.
+treeBoxObject
 ;
 var
 view
@@ -746,7 +752,7 @@ return
 var
 cell
 =
-tree
+tbo
 .
 getCellAt
 (
@@ -1783,6 +1789,8 @@ mTargetCol
 ;
 tree
 .
+treeBoxObject
+.
 invalidateColumn
 (
 column
@@ -1822,6 +1830,8 @@ sib
 )
 ;
 tree
+.
+treeBoxObject
 .
 invalidateColumn
 (
@@ -1922,6 +1932,8 @@ sib
 ;
 tree
 .
+treeBoxObject
+.
 invalidateColumn
 (
 column
@@ -1941,6 +1953,8 @@ targetCol
 )
 ;
 tree
+.
+treeBoxObject
 .
 invalidateColumn
 (
@@ -2122,6 +2136,8 @@ col
 parentNode
 .
 parentNode
+.
+treeBoxObject
 .
 invalidate
 (

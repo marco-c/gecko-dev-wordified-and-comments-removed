@@ -978,6 +978,8 @@ currentIndex
 ;
 tree
 .
+treeBoxObject
+.
 scrollToRow
 (
 0
@@ -988,6 +990,8 @@ synthesizeMouse
 treechildren
 10
 tree
+.
+treeBoxObject
 .
 rowHeight
 +
@@ -1010,6 +1014,8 @@ selection
 ;
 tree
 .
+treeBoxObject
+.
 scrollToRow
 (
 2
@@ -1020,6 +1026,8 @@ synthesizeMouse
 treechildren
 10
 tree
+.
+treeBoxObject
 .
 rowHeight
 +

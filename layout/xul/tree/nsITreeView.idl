@@ -101,6 +101,9 @@ nsISupports
 idl
 "
 interface
+nsITreeBoxObject
+;
+interface
 nsITreeSelection
 ;
 webidl
@@ -108,9 +111,6 @@ DataTransfer
 ;
 webidl
 TreeColumn
-;
-webidl
-XULTreeElement
 ;
 [
 scriptable
@@ -1039,7 +1039,7 @@ void
 setTree
 (
 in
-XULTreeElement
+nsITreeBoxObject
 tree
 )
 ;

@@ -474,6 +474,8 @@ rect
 =
 tree
 .
+treeBoxObject
+.
 getCoordsForCellItem
 (
 1

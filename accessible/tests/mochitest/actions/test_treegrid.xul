@@ -619,6 +619,8 @@ treeBodyNode
 =
 treeNode
 .
+boxObject
+.
 treeBody
 ;
 treeNode

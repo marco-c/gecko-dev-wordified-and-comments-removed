@@ -93,6 +93,9 @@ MPL
 .
 *
 /
+interface
+nsITreeBoxObject
+;
 #
 include
 "
@@ -100,9 +103,6 @@ nsISupports
 .
 idl
 "
-webidl
-XULTreeElement
-;
 [
 scriptable
 uuid
@@ -137,7 +137,7 @@ selection
 *
 /
 attribute
-XULTreeElement
+nsITreeBoxObject
 tree
 ;
 /

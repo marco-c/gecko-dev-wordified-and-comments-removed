@@ -241,6 +241,8 @@ FilterPasswords
 }
 signonsTree
 .
+treeBoxObject
+.
 ensureRowIsVisible
 (
 signonsTree
@@ -1224,6 +1226,8 @@ row
 ;
 signonsTree
 .
+treeBoxObject
+.
 invalidateRow
 (
 row
@@ -1595,6 +1599,8 @@ break
 }
 signonsTree
 .
+treeBoxObject
+.
 invalidate
 (
 )
@@ -1608,6 +1614,8 @@ selectedRow
 )
 {
 signonsTree
+.
+treeBoxObject
 .
 ensureRowIsVisible
 (
@@ -2108,6 +2116,8 @@ j
 ;
 tree
 .
+treeBoxObject
+.
 rowCountChanged
 (
 j
@@ -2342,7 +2352,14 @@ rowCount
 =
 0
 ;
+let
+box
+=
 signonsTree
+.
+treeBoxObject
+;
+box
 .
 rowCountChanged
 (
@@ -2353,7 +2370,7 @@ deletedSignons
 length
 )
 ;
-signonsTree
+box
 .
 invalidate
 (
@@ -3001,6 +3018,8 @@ rowCount
 ;
 signonsTree
 .
+treeBoxObject
+.
 rowCountChanged
 (
 0
@@ -3473,6 +3492,8 @@ rowCount
 ;
 signonsTree
 .
+treeBoxObject
+.
 rowCountChanged
 (
 0
@@ -3491,6 +3512,8 @@ _filterSet
 length
 ;
 signonsTree
+.
+treeBoxObject
 .
 rowCountChanged
 (
