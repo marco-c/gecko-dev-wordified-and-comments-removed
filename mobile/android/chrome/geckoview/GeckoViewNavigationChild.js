@@ -443,6 +443,7 @@ aURI
 aReferrer
 aHasPostData
 aTriggeringPrincipal
+aCsp
 )
 {
 debug
@@ -476,6 +477,8 @@ aURI
 aReferrer
 aTriggeringPrincipal
 false
+null
+aCsp
 )
 ;
 return
@@ -515,6 +518,7 @@ aURI
 aReferrer
 aTriggeringPrincipal
 aLoadFlags
+aCsp
 )
 {
 debug
@@ -535,6 +539,7 @@ aReferrer
 aTriggeringPrincipal
 true
 aLoadFlags
+aCsp
 )
 ;
 return
