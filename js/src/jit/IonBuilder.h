@@ -4394,6 +4394,14 @@ type
 )
 ;
 InliningResult
+inlineArrayIteratorPrototypeOptimizable
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineMathAbs
 (
 CallInfo

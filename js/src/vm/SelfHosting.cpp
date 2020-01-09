@@ -15786,7 +15786,7 @@ intrinsic_NewArrayIterator
 0
 IntrinsicNewArrayIterator
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 ArrayIteratorPrototypeOptimizable
@@ -15794,6 +15794,7 @@ ArrayIteratorPrototypeOptimizable
 intrinsic_ArrayIteratorPrototypeOptimizable
 0
 0
+IntrinsicArrayIteratorPrototypeOptimizable
 )
 JS_FN
 (

@@ -587,6 +587,11 @@ _
 IntrinsicNewRegExpStringIterator
 )
 \
+_
+(
+IntrinsicArrayIteratorPrototypeOptimizable
+)
+\
 \
 _
 (
