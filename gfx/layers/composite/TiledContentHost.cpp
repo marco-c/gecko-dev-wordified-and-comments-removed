@@ -831,6 +831,7 @@ return
 true
 ;
 }
+static
 void
 UseTileTexture
 (

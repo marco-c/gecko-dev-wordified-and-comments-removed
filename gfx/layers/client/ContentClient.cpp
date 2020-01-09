@@ -1645,6 +1645,7 @@ EndCapture
 ;
 }
 }
+static
 nsIntRegion
 ExpandDrawRegion
 (

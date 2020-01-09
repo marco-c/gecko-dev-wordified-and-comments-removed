@@ -108,6 +108,7 @@ sLongTapEnabled
 =
 true
 ;
+static
 ScreenPoint
 GetCurrentFocus
 (
@@ -155,6 +156,7 @@ secondTouch
 2
 ;
 }
+static
 ScreenCoord
 GetCurrentSpan
 (
@@ -243,6 +245,7 @@ start
 y
 ;
 }
+static
 TapGestureInput
 CreateTapEvent
 (

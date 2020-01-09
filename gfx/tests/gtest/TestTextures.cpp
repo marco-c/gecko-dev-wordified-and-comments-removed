@@ -161,6 +161,7 @@ mozilla
 namespace
 layers
 {
+static
 void
 SetupSurface
 (
@@ -308,6 +309,7 @@ val
 }
 }
 }
+static
 void
 AssertSurfacesEqual
 (
@@ -499,6 +501,7 @@ b
 }
 }
 }
+static
 void
 AssertSurfacesEqual
 (

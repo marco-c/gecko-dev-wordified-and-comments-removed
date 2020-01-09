@@ -428,6 +428,7 @@ expected
 )
 ;
 }
+static
 void
 TestClipRect
 (

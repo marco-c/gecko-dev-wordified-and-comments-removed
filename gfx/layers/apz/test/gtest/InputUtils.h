@@ -18,6 +18,7 @@ gfxPrefs
 .
 h
 "
+inline
 PinchGestureInput
 CreatePinchGestureInput
 (
@@ -175,6 +176,7 @@ defaultBehaviors
 )
 ;
 }
+inline
 MultiTouchInput
 CreateMultiTouchInput
 (

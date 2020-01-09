@@ -1208,6 +1208,7 @@ Nothing
 )
 ;
 }
+static
 bool
 ShouldProcessLayer
 (
@@ -7341,6 +7342,7 @@ SimplifyOutward
 )
 ;
 }
+static
 void
 ComputeVisibleRegionForChildren
 (

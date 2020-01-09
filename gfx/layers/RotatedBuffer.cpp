@@ -980,6 +980,7 @@ aMaskTransform
 )
 ;
 }
+static
 bool
 IsClippingCheap
 (

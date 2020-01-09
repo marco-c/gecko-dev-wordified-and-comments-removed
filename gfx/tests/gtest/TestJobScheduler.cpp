@@ -83,6 +83,7 @@ gfx
 :
 SyncObject
 ;
+static
 void
 MaybeYieldThread
 (
@@ -429,6 +430,7 @@ mSanityChecker
 ;
 }
 ;
+static
 void
 TestSchedulerJoin
 (
@@ -637,6 +639,7 @@ advancement
 ;
 }
 }
+static
 void
 TestSchedulerChain
 (

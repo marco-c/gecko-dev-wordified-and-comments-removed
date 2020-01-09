@@ -15709,6 +15709,7 @@ aUpdateType
 )
 ;
 }
+static
 CSSRect
 GetDisplayPortRect
 (

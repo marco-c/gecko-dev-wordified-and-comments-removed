@@ -359,6 +359,7 @@ LAYERS_BASIC
 ;
 }
 }
+static
 already_AddRefed
 <
 Compositor
@@ -430,6 +431,7 @@ forget
 )
 ;
 }
+static
 void
 CheckCompatibilityWithBasicCompositor
 (

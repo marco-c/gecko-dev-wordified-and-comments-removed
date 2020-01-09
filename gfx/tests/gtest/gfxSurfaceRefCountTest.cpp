@@ -35,6 +35,7 @@ cairo
 .
 h
 "
+static
 int
 GetASurfaceRefCount
 (
@@ -57,6 +58,7 @@ Release
 )
 ;
 }
+static
 int
 CheckInt
 (
@@ -99,6 +101,7 @@ return
 0
 ;
 }
+static
 int
 CheckPointer
 (
@@ -147,6 +150,7 @@ static
 cairo_user_data_key_t
 destruction_key
 ;
+static
 void
 SurfaceDestroyNotifier
 (
@@ -165,6 +169,7 @@ data
 1
 ;
 }
+static
 int
 TestNewSurface
 (
@@ -460,6 +465,7 @@ return
 failures
 ;
 }
+static
 int
 TestExistingSurface
 (

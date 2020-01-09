@@ -264,6 +264,7 @@ GeckoContentController
 TapType
 TapType
 ;
+inline
 SingleTouchData
 CreateSingleTouchData
 (
@@ -307,6 +308,7 @@ return
 touch
 ;
 }
+inline
 SingleTouchData
 CreateSingleTouchData
 (
@@ -4107,6 +4109,7 @@ USE_GESTURE_DETECTOR
 )
 ;
 }
+inline
 FrameMetrics
 TestFrameMetrics
 (
@@ -4171,6 +4174,7 @@ return
 fm
 ;
 }
+inline
 uint32_t
 MillisecondsSinceStartup
 (

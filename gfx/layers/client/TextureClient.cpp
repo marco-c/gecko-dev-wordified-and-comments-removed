@@ -1037,6 +1037,7 @@ sSerialCounter
 0
 )
 ;
+static
 void
 DeallocateTextureClientSyncProxy
 (
@@ -3053,6 +3054,7 @@ UnlockActor
 ;
 }
 }
+static
 void
 CancelTextureClientRecycle
 (

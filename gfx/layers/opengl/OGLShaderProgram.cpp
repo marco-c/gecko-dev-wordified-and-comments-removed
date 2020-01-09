@@ -106,6 +106,7 @@ GAUSSIAN_KERNEL_STEP
 0
 .
 2
+static
 void
 AddUniforms
 (

@@ -198,6 +198,17 @@ include
 "
 mozilla
 /
+layers
+/
+LayersHelpers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h
