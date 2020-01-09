@@ -275,7 +275,7 @@ url
 ;
 }
 function
-assertWebNFCMessagesEqual
+assertWebNDEFMessagesEqual
 (
 a
 b
@@ -441,7 +441,7 @@ data
 }
 }
 function
-testNFCMessage
+testNDEFMessage
 (
 pushedMessage
 watchOptions
@@ -508,7 +508,7 @@ message
 =
 >
 {
-assertWebNFCMessagesEqual
+assertWebNDEFMessagesEqual
 (
 message
 pushedMessage
