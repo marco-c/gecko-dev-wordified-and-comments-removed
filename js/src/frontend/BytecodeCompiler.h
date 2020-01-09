@@ -170,7 +170,7 @@ srcBuf
 ;
 ModuleObject
 *
-CompileModule
+ParseModule
 (
 JSContext
 *
