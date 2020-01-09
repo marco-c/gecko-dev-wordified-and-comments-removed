@@ -1170,6 +1170,10 @@ collection
 "
 getAll
 "
+)
+.
+callsFake
+(
 (
 )
 =

@@ -1496,9 +1496,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;
@@ -1515,9 +1513,10 @@ ClientEnvironment
 "
 userId
 "
-{
+)
+.
 get
-:
+(
 (
 )
 =
@@ -1527,7 +1526,6 @@ fake
 -
 id
 "
-}
 )
 ;
 result

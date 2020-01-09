@@ -195,7 +195,7 @@ formAutofillParent
 .
 _updateSavedFieldNames
 .
-reset
+resetHistory
 (
 )
 ;
