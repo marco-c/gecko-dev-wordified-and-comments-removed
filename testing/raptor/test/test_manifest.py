@@ -247,6 +247,16 @@ mp
 '
                     
 '
+python3_win_manifest
+'
+:
+'
+py3
+.
+manifest
+'
+                    
+'
 manifest
 '
 :
@@ -441,6 +451,16 @@ playback_recordings
 recorded_site
 .
 mp
+'
+                      
+'
+python3_win_manifest
+'
+:
+'
+py3
+.
+manifest
 '
                       
 '
@@ -661,6 +681,16 @@ playback_recordings
 recorded_site
 .
 mp
+'
+                      
+'
+python3_win_manifest
+'
+:
+'
+py3
+.
+manifest
 '
                       
 '

@@ -117,6 +117,9 @@ playback_pageset_manifest
 '
 playback_recordings
 '
+'
+python3_win_manifest
+'
 ]
 def
 filter_app
