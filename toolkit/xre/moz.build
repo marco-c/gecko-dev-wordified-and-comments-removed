@@ -1439,12 +1439,6 @@ widget
 /
 cocoa
 '
-'
-/
-xpcom
-/
-base
-'
 ]
 CXXFLAGS
 +
