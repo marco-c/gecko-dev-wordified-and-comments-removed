@@ -116,13 +116,15 @@ if
 CONFIG
 [
 '
-OS_ARCH
+CXX_TYPE
 '
 ]
 =
 =
 '
-WINNT
+clang
+-
+cl
 '
 :
 CXXFLAGS
