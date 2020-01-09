@@ -111,14 +111,6 @@ locales
 "
     
 "
-hg_l10n_tag
-"
-:
-"
-default
-"
-    
-"
 local_mar_tool_dir
 "
 :

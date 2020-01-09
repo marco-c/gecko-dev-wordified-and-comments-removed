@@ -435,6 +435,14 @@ l10n
 -
 central
 "
+                
+"
+log_name
+"
+:
+"
+single_locale
+"
             
 }
         
