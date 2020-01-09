@@ -807,9 +807,6 @@ traits
 getAppliedCreatesStyleCache
 :
 true
-authoredStyles
-:
-true
 fontStretchLevel4
 :
 CSS
@@ -3922,9 +3919,6 @@ addNewRule
 (
 node
 pseudoClasses
-editAuthored
-=
-false
 )
 {
 const
@@ -4090,11 +4084,6 @@ cssRules
 length
 )
 ;
-if
-(
-editAuthored
-)
-{
 const
 sheetActor
 =
@@ -4148,7 +4137,6 @@ authoredText
 false
 )
 ;
-}
 return
 this
 .
