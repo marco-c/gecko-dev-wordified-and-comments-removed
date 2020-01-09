@@ -91,6 +91,8 @@ mozpack
 path
 as
 mozpath
+import
+six
 from
 itertools
 import
@@ -1046,6 +1048,10 @@ for
 p
 f
 in
+six
+.
+iteritems
+(
 {
             
 '
@@ -1181,9 +1187,6 @@ xpt
 foo2_xpt
         
 }
-.
-iteritems
-(
 )
     
 }
@@ -1592,10 +1595,11 @@ for
 p
 f
 in
-RESULT_FLAT
+six
 .
 iteritems
 (
+RESULT_FLAT
 )
         
 if
@@ -1647,10 +1651,11 @@ for
 p
 f
 in
-RESULT_FLAT
+six
 .
 iteritems
 (
+RESULT_FLAT
 )
         
 if
@@ -2107,15 +2112,16 @@ for
 b
 a
 in
+six
+.
+iteritems
+(
 CONTENTS
 [
 '
 bases
 '
 ]
-.
-iteritems
-(
 )
     
 }
@@ -2181,15 +2187,16 @@ for
 p
 f
 in
+six
+.
+iteritems
+(
 CONTENTS
 [
 '
 files
 '
 ]
-.
-iteritems
-(
 )
     
 }
@@ -2253,10 +2260,11 @@ for
 p
 v
 in
-results
+six
 .
 iteritems
 (
+results
 )
     
 }
@@ -2347,15 +2355,16 @@ v
 in
 sorted
 (
+six
+.
+iteritems
+(
 contents
 [
 '
 files
 '
 ]
-.
-iteritems
-(
 )
 )
 :
