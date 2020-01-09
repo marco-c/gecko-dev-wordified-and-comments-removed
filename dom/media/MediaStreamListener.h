@@ -185,17 +185,6 @@ NotifyDirectListenerUninstalled
 )
 {
 }
-virtual
-MediaStreamVideoSink
-*
-AsMediaStreamVideoSink
-(
-)
-{
-return
-nullptr
-;
-}
 protected
 :
 virtual
