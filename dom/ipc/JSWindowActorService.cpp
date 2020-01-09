@@ -2235,13 +2235,7 @@ error
 AutoEntryScript
 aes
 (
-js
-:
-:
-CheckedUnwrap
-(
 aObj
-)
 "
 WindowGlobalChild
 Message
