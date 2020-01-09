@@ -816,7 +816,7 @@ nsLayoutUtils
 RepaintMode
 :
 :
-DoNotRepaint
+Repaint
 )
 ;
 }
