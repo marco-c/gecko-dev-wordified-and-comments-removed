@@ -2313,7 +2313,7 @@ post_startup_delay
 1000
 )
 +
-3
+10
 )
         
 if
@@ -6637,6 +6637,21 @@ timeout
 =
 None
 )
+            
+if
+len
+(
+self
+.
+results_handler
+.
+page_timeout_list
+)
+>
+0
+:
+                
+break
     
 def
 run_test_warm
