@@ -74,6 +74,15 @@ h
 #
 include
 "
+mozilla
+/
+Atomics
+.
+h
+"
+#
+include
+"
 Point
 .
 h
@@ -207,7 +216,10 @@ LoggingPrefs
 public
 :
 static
+Atomic
+<
 int32_t
+>
 sGfxLogLevel
 ;
 }
