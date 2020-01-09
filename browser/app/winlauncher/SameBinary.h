@@ -7,6 +7,8 @@ mozilla_SameBinary_h
 #
 include
 "
+mozilla
+/
 LauncherResult
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+mozilla
+/
 NativeNt
 .
 h

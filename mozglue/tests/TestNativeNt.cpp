@@ -1,6 +1,8 @@
 #
 include
 "
+mozilla
+/
 NativeNt
 .
 h
