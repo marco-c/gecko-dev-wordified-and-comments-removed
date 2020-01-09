@@ -194,6 +194,12 @@ changes
 any
 more
 .
-Merge
-day
+Bug
+1524688
+:
+Deleting
+preprocessed
+manifests
+requires
 clobber
+.
