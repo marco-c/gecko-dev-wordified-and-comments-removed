@@ -157,6 +157,12 @@ opt
 -
 win64
 -
+shippable
+/
+opt
+-
+win64
+-
 aarch64
 -
 nightly
