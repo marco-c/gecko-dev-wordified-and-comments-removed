@@ -15178,7 +15178,7 @@ JSString
 js
 :
 :
-str_flat_replace_string
+StringFlatReplaceString
 (
 JSContext
 *

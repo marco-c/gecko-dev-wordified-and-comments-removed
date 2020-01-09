@@ -5340,7 +5340,7 @@ LexicalEnvironmentObject
 LexicalEnvironmentObject
 :
 :
-create
+createForFrame
 (
 JSContext
 *

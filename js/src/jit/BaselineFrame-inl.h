@@ -233,7 +233,7 @@ env
 LexicalEnvironmentObject
 :
 :
-create
+createForFrame
 (
 cx
 scope
