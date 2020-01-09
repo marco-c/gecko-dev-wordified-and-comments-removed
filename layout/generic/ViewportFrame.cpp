@@ -439,6 +439,10 @@ aBuilder
 aFrame
 visible
 dirty
+nsDisplayListBuilder
+:
+:
+RIIS_YES
 )
 ;
 nsDisplayList

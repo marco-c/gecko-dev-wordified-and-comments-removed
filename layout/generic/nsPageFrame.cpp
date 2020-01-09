@@ -2754,6 +2754,10 @@ aBuilder
 page
 childVisible
 childVisible
+nsDisplayListBuilder
+:
+:
+RIIS_YES
 )
 ;
 BuildDisplayListForExtraPage
