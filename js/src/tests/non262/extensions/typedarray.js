@@ -4677,6 +4677,11 @@ alien
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var
