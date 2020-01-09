@@ -36,6 +36,9 @@ euclid
 HomogeneousVector
 ;
 use
+image
+:
+:
 DirtyRect
 ;
 #
