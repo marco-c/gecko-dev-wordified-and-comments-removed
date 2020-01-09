@@ -36,6 +36,8 @@ get
 qqy
 install
 \
+bzip2
+\
 git
 \
 locales
@@ -47,6 +49,8 @@ python
 pip
 \
 tzdata
+\
+zstd
 RUN
 pip
 install
