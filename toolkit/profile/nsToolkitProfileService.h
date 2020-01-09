@@ -387,6 +387,15 @@ IsSnapEnvironment
 (
 )
 ;
+nsresult
+CreateDefaultProfile
+(
+nsIToolkitProfile
+*
+*
+aResult
+)
+;
 nsTArray
 <
 nsCString
