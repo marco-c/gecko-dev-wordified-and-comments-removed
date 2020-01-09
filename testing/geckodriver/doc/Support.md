@@ -74,6 +74,7 @@ gray
 ;
 }
 td
+th
 {
 padding
 :
