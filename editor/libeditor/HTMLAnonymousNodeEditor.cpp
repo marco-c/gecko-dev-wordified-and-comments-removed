@@ -1347,7 +1347,13 @@ rv
 )
 {
 return
+EditorBase
+:
+:
+ToGenericNSResult
+(
 rv
+)
 ;
 }
 return
