@@ -143,6 +143,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

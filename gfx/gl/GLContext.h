@@ -210,13 +210,6 @@ GeckoProfiler
 h
 "
 namespace
-android
-{
-class
-GraphicBuffer
-;
-}
-namespace
 mozilla
 {
 namespace

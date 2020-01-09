@@ -13,6 +13,13 @@ cstdlib
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 gfxPrefs
 .
 h

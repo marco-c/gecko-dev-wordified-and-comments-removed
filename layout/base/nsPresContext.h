@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -276,6 +269,9 @@ nsIDocShell
 ;
 class
 nsITheme
+;
+class
+nsITimer
 ;
 class
 nsIContent
