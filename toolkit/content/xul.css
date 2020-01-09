@@ -1323,6 +1323,9 @@ type
 arrow
 "
 ]
+[
+side
+]
 :
 not
 (
@@ -1455,6 +1458,9 @@ arrow
 "
 ]
 [
+side
+]
+[
 animate
 =
 "
@@ -1523,6 +1529,9 @@ type
 "
 arrow
 "
+]
+[
+side
 ]
 [
 animate
@@ -1553,6 +1562,9 @@ type
 arrow
 "
 ]
+[
+side
+]
 {
 will
 -
@@ -1569,6 +1581,9 @@ type
 "
 arrow
 "
+]
+[
+side
 ]
 :
 not
@@ -1677,6 +1692,9 @@ arrow
 "
 ]
 [
+side
+]
+[
 animate
 =
 "
@@ -1735,6 +1753,9 @@ type
 "
 arrow
 "
+]
+[
+side
 ]
 [
 animate

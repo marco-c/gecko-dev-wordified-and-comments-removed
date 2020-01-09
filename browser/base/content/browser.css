@@ -6921,6 +6921,9 @@ translateY
 #
 BMB_bookmarksPopup
 [
+side
+]
+[
 animate
 =
 "
@@ -7112,6 +7115,9 @@ translateY
 }
 #
 BMB_bookmarksPopup
+[
+side
+]
 [
 animate
 =
