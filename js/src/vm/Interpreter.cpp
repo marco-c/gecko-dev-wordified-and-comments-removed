@@ -23295,6 +23295,10 @@ isDebuggee
 )
 )
 ;
+COUNT_COVERAGE
+(
+)
+;
 }
 END_CASE
 (

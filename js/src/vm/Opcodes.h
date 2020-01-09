@@ -3821,10 +3821,10 @@ JSOP_AFTERYIELD
 afteryield
 "
 NULL
-1
+5
 0
 0
-JOF_BYTE
+JOF_ICINDEX
 )
 \
 \
