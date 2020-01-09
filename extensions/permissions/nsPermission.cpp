@@ -154,6 +154,14 @@ OriginAttributes
 :
 :
 STRIP_USER_CONTEXT_ID
+|
+mozilla
+:
+:
+OriginAttributes
+:
+:
+STRIP_FIRST_PARTY_DOMAIN
 )
 ;
 nsAutoCString

@@ -2970,7 +2970,7 @@ lang
 )
 ;
 let
-principal
+uri
 =
 this
 .
@@ -2978,7 +2978,7 @@ translation
 .
 browser
 .
-contentPrincipal
+currentURI
 ;
 let
 perms
@@ -3004,9 +3004,9 @@ disabled
 =
 perms
 .
-testExactPermissionFromPrincipal
+testExactPermission
 (
-principal
+uri
 "
 translate
 "
@@ -3091,7 +3091,7 @@ neverForSite
 )
 {
 let
-principal
+uri
 =
 this
 .
@@ -3099,7 +3099,7 @@ translation
 .
 browser
 .
-contentPrincipal
+currentURI
 ;
 let
 perms
@@ -3110,9 +3110,9 @@ perms
 ;
 perms
 .
-addFromPrincipal
+add
 (
-principal
+uri
 "
 translate
 "
