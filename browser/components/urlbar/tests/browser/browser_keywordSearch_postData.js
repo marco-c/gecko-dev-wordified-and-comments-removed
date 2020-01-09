@@ -114,13 +114,13 @@ browser
 /
 browser
 /
-base
+components
 /
-content
+urlbar
 /
-test
+tests
 /
-general
+browser
 /
 POSTSearchEngine
 .
