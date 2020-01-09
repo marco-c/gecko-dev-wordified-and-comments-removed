@@ -4,7 +4,7 @@ llvm_revision
 "
 :
 "
-353414
+355016
 "
 "
 stages
@@ -55,7 +55,7 @@ tags
 /
 RELEASE_800
 /
-rc2
+rc3
 "
 "
 clang_repo
@@ -82,7 +82,7 @@ tags
 /
 RELEASE_800
 /
-rc2
+rc3
 "
 "
 lld_repo
@@ -109,7 +109,7 @@ tags
 /
 RELEASE_800
 /
-rc2
+rc3
 "
 "
 compiler_repo
@@ -138,7 +138,7 @@ tags
 /
 RELEASE_800
 /
-rc2
+rc3
 "
 "
 libcxx_repo
@@ -165,7 +165,7 @@ tags
 /
 RELEASE_800
 /
-rc2
+rc3
 "
 "
 python_path
@@ -250,11 +250,6 @@ msvc
 detection
 .
 patch
-"
-"
-D57636
-.
-diff
 "
 ]
 }
