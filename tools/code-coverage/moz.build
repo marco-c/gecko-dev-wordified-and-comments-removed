@@ -134,10 +134,15 @@ nsCodeCoverage
 .
 cpp
 '
+]
+XPCOM_MANIFESTS
++
+=
+[
 '
-nsCodeCoverageFactory
+components
 .
-cpp
+conf
 '
 ]
 EXPORTS
