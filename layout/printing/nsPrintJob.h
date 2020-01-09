@@ -579,14 +579,6 @@ bool
 aDoFront
 )
 ;
-nsresult
-CheckForPrinters
-(
-nsIPrintSettings
-*
-aPrintSettings
-)
-;
 void
 CleanupDocTitleArray
 (
