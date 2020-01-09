@@ -2561,8 +2561,7 @@ net
 true
 false
 true
--
-1
+16
 &
 kPinset_mozilla_services
 }
@@ -2577,8 +2576,7 @@ org
 true
 false
 true
--
-1
+17
 &
 kPinset_mozilla_services
 }
@@ -3469,7 +3467,8 @@ com
 false
 false
 false
-0
+-
+1
 &
 kPinset_mozilla_test
 }
