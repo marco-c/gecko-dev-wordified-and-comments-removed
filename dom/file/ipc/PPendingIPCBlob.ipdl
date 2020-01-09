@@ -67,7 +67,7 @@ namespace
 mozilla
 {
 namespace
-dom
+ipc
 {
 /
 /

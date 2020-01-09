@@ -118,6 +118,8 @@ mozilla
 /
 dom
 /
+ipc
+/
 PendingIPCBlobParent
 .
 h

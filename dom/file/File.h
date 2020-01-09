@@ -299,6 +299,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 void
 GetMozFullPathInternal
@@ -310,6 +311,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 protected
 :

@@ -83,7 +83,7 @@ namespace
 mozilla
 {
 namespace
-dom
+ipc
 {
 union
 IPCBlobOrError

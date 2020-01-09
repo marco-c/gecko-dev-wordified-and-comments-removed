@@ -196,7 +196,9 @@ mozilla
 /
 dom
 /
-IPCBlobUtils
+ipc
+/
+PendingIPCBlobChild
 .
 h
 "
@@ -207,7 +209,7 @@ mozilla
 /
 dom
 /
-PendingIPCBlobChild
+IPCBlobUtils
 .
 h
 "
