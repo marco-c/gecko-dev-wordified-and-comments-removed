@@ -3753,6 +3753,32 @@ CXXFLAGS
 '
 )
 )
+            
+(
+'
+COVERAGE
+'
+context
+.
+config
+.
+substs
+.
+get
+(
+'
+COVERAGE_CFLAGS
+'
+)
+(
+'
+CXXFLAGS
+'
+'
+CFLAGS
+'
+)
+)
         
 )
         
