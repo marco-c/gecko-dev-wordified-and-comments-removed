@@ -263,6 +263,11 @@ TestRust
 cpp
 '
 '
+TestVideoFrameConverter
+.
+cpp
+'
+'
 TestVideoSegment
 .
 cpp

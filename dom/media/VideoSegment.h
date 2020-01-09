@@ -63,7 +63,6 @@ already_AddRefed
 <
 Image
 >
-&
 aImage
 const
 gfx
