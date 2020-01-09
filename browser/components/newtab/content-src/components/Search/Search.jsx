@@ -1121,17 +1121,6 @@ caret
 /
 >
 <
-div
-className
-=
-"
-fake
--
-button
-"
-/
->
-<
 /
 button
 >

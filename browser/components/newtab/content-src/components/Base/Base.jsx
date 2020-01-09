@@ -179,6 +179,11 @@ Sections
 Sections
 "
 ;
+let
+didLogDevtoolsHelpText
+=
+false
+;
 const
 PrefsButton
 =
@@ -762,6 +767,13 @@ ASRouterAdmin
 )
 ;
 }
+else
+if
+(
+!
+didLogDevtoolsHelpText
+)
+{
 console
 .
 log
@@ -801,6 +813,11 @@ line
 no
 -
 console
+didLogDevtoolsHelpText
+=
+true
+;
+}
 }
 if
 (
