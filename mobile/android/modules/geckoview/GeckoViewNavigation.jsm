@@ -77,9 +77,7 @@ gre
 /
 modules
 /
-sessionstore
-/
-Utils
+E10SUtils
 .
 jsm
 "
