@@ -144,7 +144,6 @@ nsVideoFrame
 .
 h
 "
-static
 mozilla
 :
 :
