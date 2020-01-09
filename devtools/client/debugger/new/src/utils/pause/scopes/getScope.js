@@ -438,6 +438,10 @@ getScopeTitle
 type
 scope
 )
+|
+|
+"
+"
 ;
 vars
 .
