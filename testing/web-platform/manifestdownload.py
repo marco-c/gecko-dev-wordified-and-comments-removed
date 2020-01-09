@@ -382,6 +382,23 @@ rebuild_time
             
 return
 True
+        
+if
+os
+.
+path
+.
+getsize
+(
+manifest_path
+)
+=
+=
+0
+:
+            
+return
+True
     
 logger
 .
