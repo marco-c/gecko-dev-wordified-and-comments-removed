@@ -369,7 +369,7 @@ resultHeight
 =
 Math
 .
-floor
+round
 (
 MAX_WIDTH
 /
@@ -387,7 +387,7 @@ resultWidth
 =
 Math
 .
-floor
+round
 (
 MAX_HEIGHT
 *
@@ -431,12 +431,12 @@ left
 pipLeft
 }
 +
-width
+outerWidth
 =
 {
 resultWidth
 }
-height
+outerHeight
 =
 {
 resultHeight
