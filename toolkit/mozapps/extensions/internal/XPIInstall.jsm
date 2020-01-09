@@ -16878,6 +16878,8 @@ hasResource
 path
 )
 {
+try
+{
 let
 response
 =
@@ -16899,6 +16901,16 @@ response
 .
 ok
 ;
+}
+catch
+(
+e
+)
+{
+return
+false
+;
+}
 }
 }
 ;
