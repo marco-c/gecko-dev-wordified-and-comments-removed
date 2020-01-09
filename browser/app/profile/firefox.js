@@ -7381,7 +7381,7 @@ mac
 .
 earlyinit
 "
-true
+false
 )
 ;
 pref
