@@ -322,9 +322,6 @@ badges
 contrast
 "
 ]
-selected
-:
-true
 }
 ]
 }
@@ -453,9 +450,6 @@ badges
 contrast
 "
 ]
-selected
-:
-true
 }
 ]
 }
