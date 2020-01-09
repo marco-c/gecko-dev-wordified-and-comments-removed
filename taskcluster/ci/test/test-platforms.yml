@@ -1341,6 +1341,12 @@ windows
 qr
 -
 tests
+-
+web
+-
+platform
+-
+tests
 windows10
 -
 64
@@ -1376,6 +1382,12 @@ talos
 raptor
 -
 firefox
+-
+web
+-
+platform
+-
+tests
 #
 #
 #

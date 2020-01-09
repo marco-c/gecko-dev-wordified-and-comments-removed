@@ -1217,14 +1217,6 @@ webgl2
 ext
 -
 reftest
--
-web
--
-platform
--
-tests
--
-reftests
 ccov
 -
 code

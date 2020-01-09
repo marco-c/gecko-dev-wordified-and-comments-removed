@@ -273,7 +273,8 @@ central
 try
 '
 ]
-linux64
+.
+*
 -
 qr
 /
@@ -322,7 +323,8 @@ asan
 opt
 :
 2
-linux64
+.
+*
 -
 qr
 /
@@ -922,7 +924,8 @@ central
 try
 '
 ]
-linux64
+.
+*
 -
 qr
 /
@@ -971,7 +974,8 @@ asan
 opt
 :
 2
-linux64
+.
+*
 -
 qr
 /
