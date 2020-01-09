@@ -1133,6 +1133,10 @@ windows
 aarch64
 -
 tests
+-
+windows
+-
+talos
 windows10
 -
 64
