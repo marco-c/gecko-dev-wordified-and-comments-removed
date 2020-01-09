@@ -6892,6 +6892,15 @@ resource_cache
 requires_frame_build
 (
 )
+&
+&
+doc
+.
+frame_builder
+.
+is_some
+(
+)
 ;
 if
 invalidate_rendered_frame
