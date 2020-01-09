@@ -71,6 +71,14 @@ TransformedRectKind
 MatrixHelpers
 }
 ;
+pub
+const
+VECS_PER_TRANSFORM
+:
+usize
+=
+8
+;
 #
 [
 derive
@@ -2042,6 +2050,11 @@ new
 >
 Self
 {
+let
+_
+=
+VECS_PER_TRANSFORM
+;
 TransformPalette
 {
 transforms
