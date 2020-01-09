@@ -117,6 +117,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]

@@ -56,6 +56,7 @@ SpecifiedValueInfo
 ToAnimatedZero
 ToAnimatedValue
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
