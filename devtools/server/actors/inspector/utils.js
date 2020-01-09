@@ -395,6 +395,17 @@ nodeName
 =
 =
 "
+_moz_generated_content_marker
+"
+|
+|
+node
+.
+nodeName
+=
+=
+=
+"
 _moz_generated_content_before
 "
 |
