@@ -158,10 +158,7 @@ dom
 :
 Event
 *
-aDOMEvent
-nsINode
-*
-aTarget
+aEvent
 )
 ;
 void
