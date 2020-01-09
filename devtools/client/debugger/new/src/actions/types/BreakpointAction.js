@@ -4,6 +4,7 @@ type
 Breakpoint
 SourceLocation
 XHRBreakpoint
+Source
 BreakpointPositions
 }
 from
@@ -360,9 +361,9 @@ ADD_BREAKPOINT_POSITIONS
 positions
 :
 BreakpointPositions
-sourceId
+source
 :
-string
+Source
 |
 }
 ;
