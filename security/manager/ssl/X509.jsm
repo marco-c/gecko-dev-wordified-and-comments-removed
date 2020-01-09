@@ -17,9 +17,9 @@ resource
 :
 /
 /
-testing
--
-common
+gre
+/
+modules
 /
 psm
 /

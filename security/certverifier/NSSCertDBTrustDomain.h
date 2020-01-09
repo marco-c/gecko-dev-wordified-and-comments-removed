@@ -984,7 +984,7 @@ nsCOMPtr
 <
 nsICertStorage
 >
-mCertBlocklist
+mCertStorage
 ;
 CertVerifier
 :
