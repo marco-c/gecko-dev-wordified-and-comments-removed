@@ -207,6 +207,14 @@ the
 editor
 *
 /
+[
+can_run_script
+]
+/
+/
+Setter
+only
+.
 attribute
 boolean
 objectResizingEnabled
@@ -291,6 +299,9 @@ BlueGriffon
 .
 *
 /
+[
+can_run_script
+]
 void
 refreshResizers
 (

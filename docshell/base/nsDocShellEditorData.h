@@ -65,6 +65,7 @@ nsDocShellEditorData
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 MakeEditable
 (
@@ -97,6 +98,7 @@ return
 mHTMLEditor
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SetHTMLEditor
 (
@@ -108,6 +110,7 @@ HTMLEditor
 aHTMLEditor
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 TearDownEditor
 (

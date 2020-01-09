@@ -725,6 +725,9 @@ saved
 .
 *
 /
+[
+can_run_script
+]
 void
 resetModificationCount
 (
@@ -805,6 +808,9 @@ the
 count
 *
 /
+[
+can_run_script
+]
 void
 incrementModificationCount
 (
@@ -918,6 +924,9 @@ to
 execute
 *
 /
+[
+can_run_script
+]
 void
 doTransaction
 (
@@ -1471,6 +1480,9 @@ beginTransaction
 .
 *
 /
+[
+can_run_script
+]
 void
 endTransaction
 (

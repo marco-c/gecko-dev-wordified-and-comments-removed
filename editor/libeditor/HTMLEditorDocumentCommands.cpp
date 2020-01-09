@@ -850,7 +850,10 @@ StealNSResult
 )
 ;
 }
+MOZ_KnownLive
+(
 htmlEditor
+)
 -
 >
 EnableObjectResizer
@@ -927,7 +930,10 @@ StealNSResult
 )
 ;
 }
+MOZ_KnownLive
+(
 htmlEditor
+)
 -
 >
 EnableInlineTableEditor
@@ -1004,7 +1010,10 @@ StealNSResult
 )
 ;
 }
+MOZ_KnownLive
+(
 htmlEditor
+)
 -
 >
 EnableAbsolutePositionEditor

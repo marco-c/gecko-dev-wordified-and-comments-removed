@@ -332,6 +332,7 @@ GetHTMLDocument
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 PreDestroy
@@ -567,6 +568,7 @@ OutdentAsAction
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OnMouseDown
 (
@@ -631,6 +633,7 @@ IsCSSPrefChecked
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 EnableObjectResizer
 (
@@ -680,7 +683,7 @@ mIsObjectResizingEnabled
 =
 aEnable
 ;
-RefereshEditingUI
+RefreshEditingUI
 (
 )
 ;
@@ -695,6 +698,7 @@ return
 mIsObjectResizingEnabled
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 EnableInlineTableEditor
 (
@@ -744,7 +748,7 @@ mIsInlineTableEditingEnabled
 =
 aEnable
 ;
-RefereshEditingUI
+RefreshEditingUI
 (
 )
 ;
@@ -759,6 +763,7 @@ return
 mIsInlineTableEditingEnabled
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 EnableAbsolutePositionEditor
 (
@@ -808,7 +813,7 @@ mIsAbsolutelyPositioningEnabled
 =
 aEnable
 ;
-RefereshEditingUI
+RefreshEditingUI
 (
 )
 ;
@@ -1355,6 +1360,7 @@ bool
 aEnabled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RelativeChangeElementZIndex
 (
@@ -3484,6 +3490,7 @@ Element
 aCell
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetCSSBackgroundColorWithTransaction
 (
@@ -4740,6 +4747,7 @@ aClearStyle
 true
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetTopAndLeft
 (
@@ -4798,8 +4806,9 @@ PresShell
 aPresShell
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
-RefereshEditingUI
+RefreshEditingUI
 (
 )
 ;
@@ -4862,11 +4871,13 @@ UpdateRootElement
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetAllResizersPosition
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ShowResizersInternal
 (
@@ -4880,6 +4891,7 @@ HideResizersInternal
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RefreshResizersInternal
 (
@@ -4895,6 +4907,7 @@ nsIContent
 aParentContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetAnonymousElementPosition
 (
@@ -4918,6 +4931,7 @@ Element
 aOriginalObject
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetShadowPosition
 (
@@ -4941,6 +4955,7 @@ nsIContent
 aParentContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetResizingInfoPosition
 (
@@ -4975,6 +4990,7 @@ ResizeAt
 aResizeAt
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 StartResizing
 (
@@ -5059,6 +5075,7 @@ HideAnonymousEditingUIsIfUnnecessary
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetZIndex
 (
@@ -5069,6 +5086,7 @@ int32_t
 aZorder
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ShowGrabberInternal
 (
@@ -5077,6 +5095,7 @@ Element
 aElement
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RefreshGrabberInternal
 (
@@ -5095,11 +5114,13 @@ nsIContent
 aParentContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 StartMoving
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetFinalPosition
 (
@@ -5136,6 +5157,7 @@ GrabberClicked
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 EndMoving
 (
@@ -5152,6 +5174,7 @@ nsAString
 aReturn
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ShowInlineTableEditingUIInternal
 (
@@ -5165,6 +5188,7 @@ HideInlineTableEditingUIInternal
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RefreshInlineTableEditingUIInternal
 (
@@ -5178,6 +5202,7 @@ nsINode
 aNode
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 IsSimpleModifiableNode
 (

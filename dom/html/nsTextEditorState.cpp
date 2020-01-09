@@ -5355,6 +5355,7 @@ NS_OK
 ;
 }
 struct
+MOZ_STACK_CLASS
 PreDestroyer
 {
 void
@@ -5370,6 +5371,7 @@ mTextEditor
 aTextEditor
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 ~
 PreDestroyer
 (
@@ -5380,7 +5382,10 @@ if
 mTextEditor
 )
 {
+MOZ_KnownLive
+(
 mTextEditor
+)
 -
 >
 PreDestroy
@@ -8343,7 +8348,15 @@ if
 mEditorInitialized
 )
 {
+RefPtr
+<
+TextEditor
+>
+textEditor
+=
 mTextEditor
+;
+textEditor
 -
 >
 PreDestroy

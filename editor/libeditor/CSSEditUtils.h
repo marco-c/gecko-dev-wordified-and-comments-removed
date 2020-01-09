@@ -197,6 +197,7 @@ nsAtom
 aAttribute
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetCSSProperty
 (
@@ -219,6 +220,7 @@ aSuppressTxn
 false
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetCSSPropertyPixels
 (
@@ -433,6 +435,7 @@ StyleType
 aStyleType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 SetCSSEquivalentToHTMLStyle
 (

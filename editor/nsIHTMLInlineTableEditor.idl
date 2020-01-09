@@ -185,6 +185,14 @@ border
 .
 *
 /
+[
+can_run_script
+]
+/
+/
+Setter
+only
+.
 attribute
 boolean
 inlineTableEditingEnabled
@@ -253,6 +261,9 @@ BlueGriffon
 .
 *
 /
+[
+can_run_script
+]
 void
 refreshInlineTableEditingUI
 (

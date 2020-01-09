@@ -1342,7 +1342,7 @@ NS_ERROR_NOT_INITIALIZED
 nsresult
 rv
 =
-RefereshEditingUI
+RefreshEditingUI
 (
 )
 ;
@@ -1375,7 +1375,7 @@ nsresult
 HTMLEditor
 :
 :
-RefereshEditingUI
+RefreshEditingUI
 (
 )
 {

@@ -4637,11 +4637,14 @@ SetCSSProperty
 (
 *
 aElement
+MOZ_KnownLive
+(
 *
 cssPropertyArray
 [
 index
 ]
+)
 cssValueArray
 [
 index
