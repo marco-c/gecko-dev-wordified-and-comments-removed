@@ -2857,6 +2857,8 @@ MediaStreamGraphImpl
 aGraphImpl
 uint32_t
 aInputChannelCount
+AudioInputType
+aAudioInputType
 )
 :
 GraphDriver
