@@ -2820,9 +2820,6 @@ contentPluginStripe
 .
 png
 )
-#
-ifdef
-NIGHTLY_BUILD
 skin
 /
 classic
@@ -2875,5 +2872,3 @@ pictureinpicture
 .
 svg
 )
-#
-endif
