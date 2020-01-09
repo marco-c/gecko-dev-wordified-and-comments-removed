@@ -6555,7 +6555,12 @@ GetIID
 const
 {
 return
-mIID
+mInfo
+-
+>
+IID
+(
+)
 ;
 }
 const
@@ -6695,10 +6700,9 @@ nsXPCWrappedJSClass
 =
 delete
 ;
+explicit
 nsXPCWrappedJSClass
 (
-REFNSIID
-aIID
 const
 nsXPTInterfaceInfo
 *
@@ -6855,9 +6859,6 @@ const
 nsXPTInterfaceInfo
 *
 mInfo
-;
-nsIID
-mIID
 ;
 uint32_t
 *
