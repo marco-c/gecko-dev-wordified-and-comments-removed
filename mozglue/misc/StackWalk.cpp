@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntegerPrintfMacros
 .
 h
@@ -3725,6 +3734,7 @@ XP_LINUX
 namespace
 mozilla
 {
+MOZ_ASAN_BLACKLIST
 void
 FramePointerStackWalk
 (
