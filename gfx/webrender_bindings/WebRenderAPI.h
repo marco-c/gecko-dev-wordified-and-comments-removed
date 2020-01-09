@@ -3041,6 +3041,8 @@ const
 SpaceAndClipChainHelper
 &
 )
+=
+delete
 ;
 DisplayListBuilder
 &

@@ -20,14 +20,6 @@ namespace
 wr
 {
 enum
-{
-ROOT_CLIP_CHAIN
-=
-~
-0
-}
-;
-enum
 class
 AntialiasBorder
 {
@@ -5118,7 +5110,7 @@ aSpatialId
 const
 WrClipId
 *
-aClipId
+aClipNodeId
 const
 WrAnimationProperty
 *
