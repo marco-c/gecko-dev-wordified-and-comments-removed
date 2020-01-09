@@ -110,9 +110,6 @@ openNewBrowserWindow
 (
 )
 ;
-let
-tab
-=
 await
 BrowserTestUtils
 .
