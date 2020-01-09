@@ -2340,8 +2340,6 @@ logins
 .
 findLogins
 (
-{
-}
 FXA_PWDMGR_HOST
 null
 FXA_PWDMGR_REALM
@@ -2582,8 +2580,6 @@ logins
 .
 findLogins
 (
-{
-}
 FXA_PWDMGR_HOST
 null
 FXA_PWDMGR_REALM
@@ -2755,8 +2751,6 @@ logins
 .
 findLogins
 (
-{
-}
 FXA_PWDMGR_HOST
 null
 FXA_PWDMGR_REALM

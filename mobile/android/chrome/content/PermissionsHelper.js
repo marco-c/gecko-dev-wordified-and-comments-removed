@@ -744,8 +744,6 @@ logins
 .
 findLogins
 (
-{
-}
 aURI
 .
 displayPrePath

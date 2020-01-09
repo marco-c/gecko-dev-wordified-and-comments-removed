@@ -504,8 +504,6 @@ logins
 .
 findLogins
 (
-{
-}
 this
 .
 props

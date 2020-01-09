@@ -1719,8 +1719,6 @@ logins
 .
 findLogins
 (
-{
-}
 host
 "
 "

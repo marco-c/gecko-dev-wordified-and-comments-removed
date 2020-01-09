@@ -3187,8 +3187,6 @@ logins
 .
 findLogins
 (
-{
-}
 login
 .
 hostname

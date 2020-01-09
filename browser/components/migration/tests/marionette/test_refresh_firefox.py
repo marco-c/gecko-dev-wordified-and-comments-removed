@@ -1630,8 +1630,6 @@ logins
 .
 findLogins
 (
-{
-}
             
 "
 test

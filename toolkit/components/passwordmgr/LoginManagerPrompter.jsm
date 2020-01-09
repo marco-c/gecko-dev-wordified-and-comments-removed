@@ -1832,8 +1832,6 @@ logins
 .
 findLogins
 (
-{
-}
 hostname
 null
 realm
@@ -2304,8 +2302,6 @@ logins
 .
 findLogins
 (
-{
-}
 hostname
 null
 realm

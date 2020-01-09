@@ -82,8 +82,6 @@ logins
 .
 findLogins
 (
-{
-}
 aLoginInfo
 .
 hostname

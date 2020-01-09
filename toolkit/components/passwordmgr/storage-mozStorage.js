@@ -1545,8 +1545,6 @@ this
 .
 findLogins
 (
-{
-}
 newLogin
 .
 hostname
@@ -2914,7 +2912,6 @@ null
 }
 findLogins
 (
-count
 hostname
 formSubmitURL
 httpRealm
@@ -3017,14 +3014,6 @@ length
 logins
 "
 )
-;
-count
-.
-value
-=
-logins
-.
-length
 ;
 return
 logins

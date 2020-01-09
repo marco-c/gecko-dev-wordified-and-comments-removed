@@ -521,8 +521,6 @@ logins
 .
 findLogins
 (
-{
-}
 host
 "
 "
@@ -740,8 +738,6 @@ logins
 .
 findLogins
 (
-{
-}
 login
 .
 hostname

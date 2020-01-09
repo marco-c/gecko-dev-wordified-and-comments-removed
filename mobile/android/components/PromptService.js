@@ -2126,8 +2126,6 @@ pwmgr
 .
 findLogins
 (
-{
-}
 hostname
 null
 realm
@@ -2282,8 +2280,6 @@ pwmgr
 .
 findLogins
 (
-{
-}
 hostname
 null
 httpRealm
@@ -2576,8 +2572,6 @@ pwmgr
 .
 findLogins
 (
-{
-}
 hostname
 null
 httpRealm

@@ -1335,8 +1335,6 @@ this
 .
 findLogins
 (
-{
-}
 login
 .
 hostname
@@ -1872,7 +1870,6 @@ disabledHosts
 }
 findLogins
 (
-count
 origin
 formActionOrigin
 httpRealm
@@ -1910,7 +1907,6 @@ _storage
 .
 findLogins
 (
-count
 origin
 formActionOrigin
 httpRealm
