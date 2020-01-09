@@ -5346,6 +5346,10 @@ commonAncestor
 ;
 }
 else
+if
+(
+mRegisteredCommonAncestor
+)
 {
 UnregisterCommonAncestor
 (
