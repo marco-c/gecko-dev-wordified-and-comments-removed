@@ -1,9 +1,5 @@
 button
 {
-color
-:
-inherit
-;
 background
 -
 color
@@ -210,6 +206,13 @@ background
 ;
 }
 button
+:
+not
+(
+[
+disabled
+]
+)
 :
 hover
 :
