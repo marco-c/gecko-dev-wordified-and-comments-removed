@@ -2316,7 +2316,7 @@ aChannel
 )
 ;
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 RefPtr
@@ -3595,6 +3595,16 @@ rv
 {
 return
 rv
+;
+}
+if
+(
+!
+task
+)
+{
+return
+NS_ERROR_FAILURE
 ;
 }
 RefPtr
