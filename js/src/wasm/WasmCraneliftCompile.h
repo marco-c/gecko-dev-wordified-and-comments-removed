@@ -30,6 +30,12 @@ wasm
 {
 MOZ_MUST_USE
 bool
+CraneliftCanCompile
+(
+)
+;
+MOZ_MUST_USE
+bool
 CraneliftCompileFunctions
 (
 const

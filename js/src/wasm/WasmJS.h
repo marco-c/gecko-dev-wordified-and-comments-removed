@@ -64,6 +64,14 @@ cx
 )
 ;
 bool
+HasOptimizedCompilerTier
+(
+JSContext
+*
+cx
+)
+;
+bool
 HasSupport
 (
 JSContext
