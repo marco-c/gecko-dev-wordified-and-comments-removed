@@ -1669,6 +1669,13 @@ kwargs
 :
 {
 '
+flavor
+'
+:
+'
+plain
+'
+'
 subsuite
 '
 :
@@ -1767,6 +1774,13 @@ kwargs
 '
 :
 {
+'
+flavor
+'
+:
+'
+plain
+'
 '
 subsuite
 '
