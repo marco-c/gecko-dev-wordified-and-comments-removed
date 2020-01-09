@@ -91,6 +91,13 @@ propTypes
 {
 return
 {
+disabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 onChange
 :
 PropTypes
@@ -116,6 +123,13 @@ return
 FontPropertyValue
 (
 {
+disabled
+:
+this
+.
+props
+.
+disabled
 label
 :
 getStr

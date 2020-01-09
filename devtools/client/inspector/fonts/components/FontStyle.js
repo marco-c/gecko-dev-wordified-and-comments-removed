@@ -97,6 +97,13 @@ propTypes
 {
 return
 {
+disabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 onChange
 :
 PropTypes
@@ -276,6 +283,13 @@ checkbox
 -
 toggle
 "
+disabled
+:
+this
+.
+props
+.
+disabled
 name
 :
 this

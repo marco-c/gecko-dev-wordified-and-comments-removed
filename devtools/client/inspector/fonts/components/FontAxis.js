@@ -97,6 +97,13 @@ Types
 .
 fontVariationAxis
 )
+disabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 onChange
 :
 PropTypes
@@ -219,6 +226,13 @@ control
 -
 axis
 "
+disabled
+:
+this
+.
+props
+.
+disabled
 label
 :
 axis
