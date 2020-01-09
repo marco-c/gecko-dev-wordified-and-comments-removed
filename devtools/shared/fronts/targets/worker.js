@@ -72,11 +72,13 @@ workerTargetSpec
 constructor
 (
 client
+form
 )
 {
 super
 (
 client
+form
 )
 ;
 this
