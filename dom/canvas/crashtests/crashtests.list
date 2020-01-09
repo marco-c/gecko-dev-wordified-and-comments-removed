@@ -431,3 +431,16 @@ load
 1443671
 .
 html
+pref
+(
+gfx
+.
+offscreencanvas
+.
+enabled
+true
+)
+load
+1546390
+.
+html
