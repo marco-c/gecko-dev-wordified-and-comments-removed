@@ -411,10 +411,13 @@ GLContext
 aGL
 )
 ;
-GLuint
+const
+auto
+&
 FB
 (
 )
+const
 {
 return
 mFB
