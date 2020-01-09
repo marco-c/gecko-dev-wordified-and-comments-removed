@@ -468,14 +468,6 @@ promiseAsyncUpdates
 (
 )
 ;
-await
-UrlbarTestUtils
-.
-promisePopupClose
-(
-window
-)
-;
 Assert
 .
 ok

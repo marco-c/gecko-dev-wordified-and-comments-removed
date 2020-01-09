@@ -357,14 +357,6 @@ assertSelected
 0
 )
 ;
-await
-UrlbarTestUtils
-.
-promisePopupClose
-(
-window
-)
-;
 }
 )
 ;

@@ -64,14 +64,6 @@ function
 )
 {
 await
-UrlbarTestUtils
-.
-promisePopupClose
-(
-window
-)
-;
-await
 PlacesUtils
 .
 history

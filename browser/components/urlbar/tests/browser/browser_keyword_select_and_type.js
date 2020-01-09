@@ -449,14 +449,6 @@ url
 )
 ;
 }
-await
-UrlbarTestUtils
-.
-promisePopupClose
-(
-window
-)
-;
 gBrowser
 .
 removeTab

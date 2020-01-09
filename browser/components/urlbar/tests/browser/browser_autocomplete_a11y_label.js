@@ -462,14 +462,6 @@ length
 0
 )
 ;
-await
-UrlbarTestUtils
-.
-promisePopupClose
-(
-window
-)
-;
 }
 )
 ;
