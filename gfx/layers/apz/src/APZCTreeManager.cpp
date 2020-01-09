@@ -6894,16 +6894,6 @@ case
 KEYBOARD_INPUT
 :
 {
-aEvent
-.
-mLayersId
-=
-mFocusState
-.
-GetFocusLayersId
-(
-)
-;
 if
 (
 !
