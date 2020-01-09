@@ -305,625 +305,342 @@ return
 prop
 .
 camel_case
-LONGHANDS_NOT_SERIALIZED_WITH_SERVO
+SERIALIZED_PREDEFINED_TYPES
 =
 [
     
 "
-animation
--
-delay
+Appearance
 "
     
 "
-animation
--
-duration
+AlignContent
 "
     
 "
-animation
--
-iteration
--
-count
+AlignItems
 "
     
 "
-animation
--
-name
+AlignSelf
 "
     
 "
-border
--
-bottom
--
-left
--
-radius
+BackgroundRepeat
 "
     
 "
-border
--
-bottom
--
-right
--
-radius
+BackgroundSize
 "
     
 "
-border
--
-end
--
-end
--
-radius
+BorderImageRepeat
 "
     
 "
-border
--
-end
--
-start
--
-radius
+BorderStyle
 "
     
 "
-border
--
-image
--
-width
+BreakBetween
 "
     
 "
-border
--
-spacing
+BreakWithin
 "
     
 "
-border
--
-start
--
-end
--
-radius
+Clear
 "
     
 "
-border
--
-start
--
-start
--
-radius
+ClipRectOrAuto
 "
     
 "
-border
--
-top
--
-left
--
-radius
+Color
 "
     
 "
-border
--
-top
--
-right
--
-radius
+Content
 "
     
 "
-border
--
-image
--
-width
+CounterIncrement
 "
     
 "
-border
--
-spacing
+CounterReset
 "
     
 "
-box
--
-shadow
+Cursor
 "
     
 "
-caret
--
-color
+FillRule
 "
     
 "
-color
+Float
 "
     
 "
-column
--
-count
+FontFamily
 "
     
 "
-column
--
-gap
+FontFeatureSettings
 "
     
 "
-column
--
-rule
--
-width
+FontLanguageOverride
 "
     
 "
-column
--
-width
+FontSize
 "
     
 "
-contain
+FontSizeAdjust
 "
     
 "
-display
+FontStretch
 "
     
 "
-fill
+FontStyle
 "
     
 "
-fill
--
-opacity
+FontSynthesis
 "
     
 "
-filter
+FontVariant
 "
     
 "
-flex
--
-basis
+FontVariantAlternates
 "
     
 "
-flex
--
-grow
+FontVariantEastAsian
 "
     
 "
-flex
--
-shrink
+FontVariantLigatures
 "
     
 "
-grid
--
-auto
--
-columns
+FontVariantNumeric
 "
     
 "
-grid
--
-auto
--
-flow
+FontVariationSettings
 "
     
 "
-grid
--
-auto
--
-rows
+FontWeight
 "
     
 "
-grid
--
-column
--
-end
+Integer
 "
     
 "
-grid
--
-column
--
-start
+ImageLayer
 "
     
 "
-grid
--
-row
--
-end
+JustifyContent
 "
     
 "
-grid
--
-row
--
-start
+JustifyItems
 "
     
 "
-grid
--
-template
--
-areas
+JustifySelf
 "
     
 "
-initial
--
-letter
+Length
 "
     
 "
-letter
--
-spacing
+LengthPercentage
 "
     
 "
-marker
--
-end
+NonNegativeLength
 "
     
 "
-marker
--
-mid
+NonNegativeLengthPercentage
 "
     
 "
-marker
--
-start
+NonNegativeLengthPercentageOrAuto
 "
     
 "
-max
--
-block
--
-size
+ListStyleType
 "
     
 "
-max
--
-height
+OffsetPath
 "
     
 "
-max
--
-inline
--
-size
+Opacity
 "
     
 "
-max
--
-width
+OutlineStyle
 "
     
 "
-min
--
-block
--
-size
+OverflowWrap
 "
     
 "
-min
--
-height
+Position
 "
     
 "
-min
--
-inline
--
-size
+Quotes
 "
     
 "
-min
--
-width
+Resize
 "
     
 "
--
-moz
--
-binding
+Rotate
 "
     
 "
--
-moz
--
-box
--
-flex
+Scale
 "
     
 "
--
-moz
--
-force
--
-broken
--
-image
--
-icon
+TextAlign
 "
     
 "
--
-moz
--
-osx
--
-font
--
-smoothing
+Translate
 "
     
 "
--
-moz
--
-outline
--
-radius
--
-bottomleft
+TimingFunction
 "
     
 "
--
-moz
--
-outline
--
-radius
--
-bottomright
+TransformOrigin
 "
     
 "
--
-moz
--
-outline
--
-radius
--
-topleft
+TransformStyle
 "
     
 "
--
-moz
--
-outline
--
-radius
--
-topright
+UserSelect
 "
     
 "
-outline
--
-width
+background
+:
+:
+BackgroundSize
 "
     
 "
-paint
--
-order
+basic_shape
+:
+:
+ClippingShape
 "
     
 "
-row
--
-gap
+basic_shape
+:
+:
+FloatAreaShape
 "
     
 "
-scrollbar
--
-color
-"
-    
-"
-scroll
--
-snap
--
-points
--
-x
-"
-    
-"
-scroll
--
-snap
--
-points
--
-y
-"
-    
-"
-stroke
-"
-    
-"
-stroke
--
-dasharray
-"
-    
-"
-stroke
--
-dashoffset
-"
-    
-"
-stroke
--
-miterlimit
-"
-    
-"
-stroke
--
-opacity
-"
-    
-"
-stroke
--
-width
-"
-    
-"
-text
--
-decoration
--
-line
-"
-    
-"
-text
--
-emphasis
--
 position
+:
+:
+HorizontalPosition
 "
     
 "
-text
--
-emphasis
--
-style
+position
+:
+:
+VerticalPosition
 "
     
 "
-text
--
-overflow
+url
+:
+:
+ImageUrlOrNone
 "
     
 "
-text
--
-shadow
+Appearance
 "
     
 "
-touch
--
-action
+OverscrollBehavior
 "
     
 "
-transition
--
-delay
+OverflowAnchor
 "
     
 "
-transition
--
-duration
+OverflowClipBox
 "
     
 "
-transition
--
-property
+ScrollSnapAlign
 "
     
 "
-vertical
--
-align
+ScrollSnapType
 "
     
 "
--
-webkit
--
-text
--
-stroke
--
-width
+Float
 "
     
 "
-will
--
-change
+Overflow
 "
     
 "
-word
--
-spacing
+BorderImageSlice
+"
+    
+"
+NonNegativeLengthOrNumberRect
+"
+    
+"
+NonNegativeLengthOrNumber
+"
+    
+"
+ZIndex
+"
+    
+"
+Perspective
 "
 ]
 def
@@ -1005,13 +722,19 @@ smoothing
 return
 True
     
-return
+if
 prop
 .
-name
-not
+predefined_type
 in
-LONGHANDS_NOT_SERIALIZED_WITH_SERVO
+SERIALIZED_PREDEFINED_TYPES
+:
+        
+return
+True
+    
+return
+False
 def
 exposed_on_getcs
 (
