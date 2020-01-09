@@ -479,6 +479,11 @@ areSonyXperiaGamepadKeysSwapped
 (
 )
 ;
+int
+translatedKeyCode
+=
+keyCode
+;
 switch
 (
 keyCode
@@ -489,7 +494,7 @@ KeyEvent
 .
 KEYCODE_BACK
 :
-keyCode
+translatedKeyCode
 =
 (
 areKeysSwapped
@@ -510,7 +515,7 @@ KeyEvent
 .
 KEYCODE_DPAD_CENTER
 :
-keyCode
+translatedKeyCode
 =
 (
 areKeysSwapped
@@ -541,7 +546,7 @@ event
 getAction
 (
 )
-keyCode
+translatedKeyCode
 )
 ;
 }

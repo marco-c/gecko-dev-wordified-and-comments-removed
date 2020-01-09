@@ -7429,6 +7429,11 @@ iconSize
 {
 try
 {
+int
+resolvedIconSize
+=
+iconSize
+;
 if
 (
 iconSize
@@ -7436,9 +7441,16 @@ iconSize
 =
 0
 )
-iconSize
+{
+resolvedIconSize
 =
 16
+;
+}
+String
+resolvedExt
+=
+aExt
 ;
 if
 (
@@ -7469,7 +7481,8 @@ charAt
 .
 '
 )
-aExt
+{
+resolvedExt
 =
 aExt
 .
@@ -7478,6 +7491,7 @@ substring
 1
 )
 ;
+}
 PackageManager
 pm
 =
@@ -7495,7 +7509,7 @@ icon
 getDrawableForExtension
 (
 pm
-aExt
+resolvedExt
 )
 ;
 if
@@ -7538,7 +7552,7 @@ getWidth
 )
 !
 =
-iconSize
+resolvedIconSize
 |
 |
 bitmap
@@ -7548,7 +7562,7 @@ getHeight
 )
 !
 =
-iconSize
+resolvedIconSize
 )
 bitmap
 =
@@ -7557,8 +7571,8 @@ Bitmap
 createScaledBitmap
 (
 bitmap
-iconSize
-iconSize
+resolvedIconSize
+resolvedIconSize
 true
 )
 ;
@@ -7569,9 +7583,9 @@ ByteBuffer
 .
 allocate
 (
-iconSize
+resolvedIconSize
 *
-iconSize
+resolvedIconSize
 *
 4
 )

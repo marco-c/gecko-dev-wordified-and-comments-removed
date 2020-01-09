@@ -216,9 +216,11 @@ buffer
 length
 )
 {
+int
+newBufferSize
+=
 bufferSize
 *
-=
 2
 ;
 byte
@@ -229,7 +231,7 @@ newBuffer
 new
 byte
 [
-bufferSize
+newBufferSize
 ]
 ;
 System
