@@ -926,3 +926,15 @@ string
 [
 ]
 ;
+export
+type
+SourceDocuments
+=
+{
+[
+string
+]
+:
+Object
+}
+;
