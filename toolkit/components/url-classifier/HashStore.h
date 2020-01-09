@@ -891,6 +891,11 @@ CachedFullHashResponse
 aResponse
 )
 ;
+void
+Clear
+(
+)
+;
 private
 :
 virtual

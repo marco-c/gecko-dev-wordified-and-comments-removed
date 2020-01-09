@@ -3058,6 +3058,13 @@ return
 NS_ERROR_UC_UPDATE_WRONG_REMOVAL_INDICES
 ;
 }
+aTableUpdate
+-
+>
+Clear
+(
+)
+;
 nsAutoCString
 sha256
 ;
