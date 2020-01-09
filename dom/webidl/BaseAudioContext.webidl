@@ -147,9 +147,6 @@ apply
 .
 *
 /
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 DecodeSuccessCallback
 =
@@ -159,9 +156,6 @@ AudioBuffer
 decodedData
 )
 ;
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 DecodeErrorCallback
 =
