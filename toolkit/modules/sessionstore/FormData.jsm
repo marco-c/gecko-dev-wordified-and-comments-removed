@@ -619,6 +619,11 @@ node
 .
 value
 )
+|
+|
+node
+.
+hasBeenTypePassword
 )
 {
 continue
