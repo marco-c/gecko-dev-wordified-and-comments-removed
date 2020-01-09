@@ -297,9 +297,6 @@ true
 storageInspectorReadOnly
 :
 true
-conditionalBreakpoints
-:
-true
 debuggerSourceActors
 :
 true

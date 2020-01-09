@@ -806,15 +806,7 @@ response
 .
 actor
 location
-root
-.
-traits
-.
-conditionalBreakpoints
-?
 condition
-:
-undefined
 )
 ;
 }
