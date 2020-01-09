@@ -76,7 +76,7 @@ console
 warn
 (
 {
-protocol
+url
 }
 is
 not

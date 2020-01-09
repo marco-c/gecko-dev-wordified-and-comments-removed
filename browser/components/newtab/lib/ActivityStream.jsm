@@ -2597,6 +2597,15 @@ JSON
 stringify
 (
 {
+api_key_pref
+:
+"
+extensions
+.
+pocket
+.
+oAuthConsumerKey
+"
 enabled
 :
 isEnabled
@@ -2632,9 +2641,7 @@ version
 &
 consumer_key
 =
-40249
--
-e88c401e1b1f2242d9e441c4
+apiKey
 &
 layout_variant
 =
