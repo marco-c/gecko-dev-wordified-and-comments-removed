@@ -2402,7 +2402,7 @@ ci
 ci
 -
 >
-GetTrrUsed
+GetIsTrrServiceChannel
 (
 )
 )
