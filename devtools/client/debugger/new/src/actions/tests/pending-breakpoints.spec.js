@@ -119,6 +119,9 @@ prefs
 prefs
 :
 {
+clientSourceMapsEnabled
+:
+true
 expressions
 :
 [
@@ -2596,7 +2599,7 @@ getState
 .
 toEqual
 (
-2
+1
 )
 ;
 }

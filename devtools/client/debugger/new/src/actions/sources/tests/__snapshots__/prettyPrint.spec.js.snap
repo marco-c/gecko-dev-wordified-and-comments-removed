@@ -48,11 +48,6 @@ text
 javascript
 "
 "
-error
-"
-:
-undefined
-"
 id
 "
 :
@@ -118,11 +113,6 @@ js
 :
 formatted
 "
-"
-sourceMapURL
-"
-:
-undefined
 "
 text
 "
