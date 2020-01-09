@@ -105,13 +105,6 @@ tabListChanged
 tabListChanged
 "
 "
-reflowActivity
-"
-:
-"
-reflowActivity
-"
-"
 addonListChanged
 "
 :
