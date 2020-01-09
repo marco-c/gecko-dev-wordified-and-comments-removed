@@ -4745,7 +4745,7 @@ nsIFrame
 :
 AddDisplayItem
 (
-nsDisplayItem
+nsDisplayItemBase
 *
 aItem
 )
@@ -4810,7 +4810,7 @@ nsIFrame
 :
 RemoveDisplayItem
 (
-nsDisplayItem
+nsDisplayItemBase
 *
 aItem
 )
@@ -4901,7 +4901,7 @@ nsIFrame
 :
 HasDisplayItem
 (
-nsDisplayItem
+nsDisplayItemBase
 *
 aItem
 )
@@ -4970,7 +4970,7 @@ false
 }
 for
 (
-nsDisplayItem
+nsDisplayItemBase
 *
 i
 :
@@ -5030,7 +5030,7 @@ return
 }
 for
 (
-nsDisplayItem
+nsDisplayItemBase
 *
 i
 :
@@ -5153,7 +5153,7 @@ items
 {
 for
 (
-nsDisplayItem
+nsDisplayItemBase
 *
 i
 :
@@ -5568,7 +5568,7 @@ items
 {
 for
 (
-nsDisplayItem
+nsDisplayItemBase
 *
 i
 :

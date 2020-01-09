@@ -8,7 +8,7 @@ enum
 class
 DisplayItemType
 :
-uint32_t
+uint8_t
 {
 TYPE_ZERO
 =
