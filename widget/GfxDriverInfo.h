@@ -360,6 +360,7 @@ DriverMesaLLVMPipe
 DriverMesaSoftPipe
 DriverMesaSWRast
 DriverMesaUnknown
+DriverNonMesaAll
 DriverVendorMax
 }
 ;
