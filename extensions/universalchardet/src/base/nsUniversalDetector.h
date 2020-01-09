@@ -7,10 +7,6 @@ nsUniversalDetector_h__
 class
 nsCharSetProber
 ;
-#
-define
-NUM_OF_CHARSET_PROBERS
-3
 typedef
 enum
 {
@@ -111,10 +107,7 @@ mLanguageFilter
 ;
 nsCharSetProber
 *
-mCharSetProbers
-[
-NUM_OF_CHARSET_PROBERS
-]
+mMultibyteProber
 ;
 nsCharSetProber
 *

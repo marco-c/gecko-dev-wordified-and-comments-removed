@@ -120,11 +120,6 @@ nsEUCJPProber
 cpp
 '
 '
-nsLatin1Prober
-.
-cpp
-'
-'
 nsMBCSGroupProber
 .
 cpp
