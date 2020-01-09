@@ -8,15 +8,9 @@ function
 update
 (
 state
-:
-string
-[
-]
 =
 initialAsyncRequestState
 action
-:
-any
 )
 {
 const
@@ -103,7 +97,6 @@ done
 {
 newState
 =
-(
 state
 .
 filter
@@ -116,11 +109,6 @@ id
 =
 =
 seqId
-)
-:
-string
-[
-]
 )
 ;
 }

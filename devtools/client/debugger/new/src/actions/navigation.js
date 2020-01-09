@@ -142,6 +142,7 @@ Object
 )
 {
 return
+async
 function
 (
 {
@@ -154,6 +155,7 @@ sourceMaps
 ThunkArgs
 )
 {
+await
 sourceMaps
 .
 clearSourceMaps

@@ -40,7 +40,7 @@ Function
 title
 =
 "
-Collapse
+Expand
 panes
 "
 >
@@ -49,9 +49,9 @@ AccessibleImage
 className
 =
 "
-pane
+toggle
 -
-collapse
+panes
 "
 /
 >

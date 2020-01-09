@@ -147,12 +147,6 @@ line
 :
 5
 "
-sourceId
-"
-:
-"
-"
-"
 sourceUrl
 "
 :
@@ -215,11 +209,6 @@ offset
 Object
 {
 "
-column
-"
-:
-0
-"
 line
 "
 :
@@ -269,7 +258,7 @@ Object
 column
 "
 :
-0
+undefined
 "
 line
 "
@@ -305,7 +294,7 @@ Object
 column
 "
 :
-0
+undefined
 "
 line
 "

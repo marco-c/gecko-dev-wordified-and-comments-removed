@@ -15,8 +15,6 @@ string
 =
 null
 )
-:
-any
 {
 if
 (

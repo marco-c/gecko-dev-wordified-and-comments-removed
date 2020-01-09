@@ -192,9 +192,6 @@ this
 frame
 .
 this
-source
-:
-null
 scope
 :
 frame

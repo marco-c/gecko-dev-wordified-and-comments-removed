@@ -76,7 +76,6 @@ goto
 gotoSource
 "
 ;
-export
 type
 QuickOpenState
 =
@@ -95,15 +94,6 @@ QuickOpenType
 export
 const
 createQuickOpenState
-:
-(
-)
-=
->
-Record
-<
-QuickOpenState
->
 =
 makeRecord
 (

@@ -2241,13 +2241,7 @@ variables
 }
 }
 }
-source
-:
-null
 this
-:
-undefined
-thread
 :
 undefined
 }
@@ -2308,13 +2302,7 @@ variables
 }
 }
 }
-source
-:
-null
 this
-:
-undefined
-thread
 :
 undefined
 }

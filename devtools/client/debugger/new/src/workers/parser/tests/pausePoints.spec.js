@@ -132,10 +132,6 @@ formatPausePoints
 source
 .
 text
-|
-|
-"
-"
 nodes
 )
 )
