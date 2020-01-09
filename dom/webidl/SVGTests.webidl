@@ -160,12 +160,5 @@ attribute
 SVGStringList
 systemLanguage
 ;
-boolean
-hasExtension
-(
-DOMString
-extension
-)
-;
 }
 ;
