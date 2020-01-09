@@ -1381,6 +1381,11 @@ Comment
 cpp
 '
 '
+ContentBlockingLog
+.
+cpp
+'
+'
 ContentFrameMessageManager
 .
 cpp

@@ -61,6 +61,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

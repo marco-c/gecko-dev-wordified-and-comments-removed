@@ -205,6 +205,13 @@ h
 #
 include
 "
+nsGenericHTMLElement
+.
+h
+"
+#
+include
+"
 nsIImageLoadingContent
 .
 h
