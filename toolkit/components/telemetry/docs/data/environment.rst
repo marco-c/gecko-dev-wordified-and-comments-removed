@@ -1158,6 +1158,16 @@ bool
 windows
 -
 only
+isWowARM64
+:
+<
+bool
+>
+/
+/
+windows
+-
+only
 cpu
 :
 {
