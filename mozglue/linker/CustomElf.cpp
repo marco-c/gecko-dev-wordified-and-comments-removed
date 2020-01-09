@@ -79,10 +79,6 @@ using
 namespace
 Elf
 ;
-using
-namespace
-mozilla
-;
 #
 ifdef
 ANDROID

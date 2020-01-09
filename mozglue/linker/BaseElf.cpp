@@ -41,10 +41,6 @@ using
 namespace
 Elf
 ;
-using
-namespace
-mozilla
-;
 unsigned
 long
 BaseElf
