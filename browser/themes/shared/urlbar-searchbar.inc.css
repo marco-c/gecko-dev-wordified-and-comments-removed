@@ -824,6 +824,16 @@ visibility
 hidden
 ;
 }
+.
+urlbar
+-
+input
+{
+padding
+:
+0
+;
+}
 #
 urlbar
 -
