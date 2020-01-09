@@ -5911,7 +5911,6 @@ Map
 }
 onShutdown
 (
-reason
 )
 {
 let

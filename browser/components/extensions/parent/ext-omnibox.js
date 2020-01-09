@@ -97,7 +97,6 @@ message
 }
 onShutdown
 (
-reason
 )
 {
 ExtensionSearchHandler

@@ -1178,6 +1178,8 @@ once
 shutdown
 "
 (
+what
+isAppShutdown
 )
 =
 >
@@ -1193,9 +1195,7 @@ this
 .
 onShutdown
 (
-extension
-.
-shutdownReason
+isAppShutdown
 )
 ;
 }

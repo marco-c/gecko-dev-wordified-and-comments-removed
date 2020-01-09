@@ -882,7 +882,6 @@ pageAction
 }
 onShutdown
 (
-reason
 )
 {
 let

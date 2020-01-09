@@ -515,7 +515,6 @@ browserAction
 }
 onShutdown
 (
-reason
 )
 {
 let

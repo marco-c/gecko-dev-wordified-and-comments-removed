@@ -663,7 +663,6 @@ tab
 }
 onShutdown
 (
-reason
 )
 {
 browserActionMap

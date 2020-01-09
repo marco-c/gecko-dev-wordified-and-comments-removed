@@ -111,7 +111,6 @@ register
 }
 onShutdown
 (
-reason
 )
 {
 this
