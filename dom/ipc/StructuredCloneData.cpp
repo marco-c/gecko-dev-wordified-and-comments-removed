@@ -1188,7 +1188,7 @@ StructuredCloneData
 :
 BuildClonedMessageDataForChild
 (
-nsIContentChild
+ContentChild
 *
 aChild
 ClonedMessageData

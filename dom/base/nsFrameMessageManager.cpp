@@ -987,7 +987,7 @@ MessageManagerCallback
 :
 BuildClonedMessageDataForChild
 (
-nsIContentChild
+ContentChild
 *
 aChild
 StructuredCloneData

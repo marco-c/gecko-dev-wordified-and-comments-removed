@@ -2151,7 +2151,7 @@ mozilla
 dom
 :
 :
-nsIContentChild
+ContentChild
 *
 aManager
 )

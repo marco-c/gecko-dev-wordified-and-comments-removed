@@ -2622,7 +2622,6 @@ FileDescriptor
 )
 override
 ;
-virtual
 PFileDescriptorSetChild
 *
 AllocPFileDescriptorSetChild
@@ -2631,16 +2630,13 @@ const
 FileDescriptor
 &
 )
-override
 ;
-virtual
 bool
 DeallocPFileDescriptorSetChild
 (
 PFileDescriptorSetChild
 *
 )
-override
 ;
 virtual
 bool

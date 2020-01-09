@@ -73,7 +73,7 @@ namespace
 dom
 {
 class
-nsIContentChild
+ContentChild
 ;
 class
 ContentParent
@@ -492,7 +492,7 @@ aClonedData
 bool
 BuildClonedMessageDataForChild
 (
-nsIContentChild
+ContentChild
 *
 aChild
 ClonedMessageData
