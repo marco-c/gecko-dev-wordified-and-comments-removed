@@ -780,12 +780,6 @@ popBack
 (
 )
 ;
-framePtr
-.
-clearHasCachedSavedFrame
-(
-)
-;
 frame
 .
 set
@@ -7199,6 +7193,13 @@ parent
 break
 ;
 }
+framePtr
+-
+>
+clearHasCachedSavedFrame
+(
+)
+;
 }
 Rooted
 <
