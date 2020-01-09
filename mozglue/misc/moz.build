@@ -270,6 +270,11 @@ WindowsMapRemoteView
 .
 h
 '
+'
+WindowsProcessMitigations
+.
+h
+'
 ]
 SOURCES
 +
@@ -282,6 +287,11 @@ cpp
 '
 '
 WindowsMapRemoteView
+.
+cpp
+'
+'
+WindowsProcessMitigations
 .
 cpp
 '
