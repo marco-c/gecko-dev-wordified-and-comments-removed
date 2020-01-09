@@ -53,7 +53,10 @@ static
 void
 OnSelectionChange
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 dom

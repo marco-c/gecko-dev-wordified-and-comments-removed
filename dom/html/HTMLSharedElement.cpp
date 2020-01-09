@@ -223,7 +223,7 @@ nsIURI
 >
 uri
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -307,7 +307,7 @@ head
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -653,7 +653,7 @@ static
 void
 SetBaseURIUsingFirstBaseWithHref
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -928,7 +928,7 @@ static
 void
 SetBaseTargetUsingFirstBaseWithTarget
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -1207,7 +1207,7 @@ HTMLSharedElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -1309,7 +1309,7 @@ bool
 aNullParent
 )
 {
-nsIDocument
+Document
 *
 doc
 =

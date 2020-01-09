@@ -95,9 +95,6 @@ nsTHashtable
 h
 "
 class
-nsIDocument
-;
-class
 nsIEventTarget
 ;
 class
@@ -381,7 +378,7 @@ const
 ;
 already_AddRefed
 <
-nsIDocument
+Document
 >
 GetOwnerDocument
 (

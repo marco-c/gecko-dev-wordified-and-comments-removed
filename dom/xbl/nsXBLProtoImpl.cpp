@@ -24,7 +24,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -151,7 +155,7 @@ mFields
 return
 NS_OK
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -820,7 +824,7 @@ mPrecompiledMemberHolder
 )
 ;
 }
-nsIDocument
+Document
 *
 ownerDoc
 =

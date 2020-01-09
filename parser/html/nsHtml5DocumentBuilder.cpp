@@ -100,7 +100,13 @@ nsHtml5DocumentBuilder
 :
 Init
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDoc
 nsIURI

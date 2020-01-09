@@ -15,7 +15,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1508,7 +1512,7 @@ nsIBoxObject
 >
 bx
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1918,7 +1922,7 @@ false
 false
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -2566,7 +2570,7 @@ aTarget
 return
 NS_ERROR_NULL_POINTER
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -3147,7 +3151,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

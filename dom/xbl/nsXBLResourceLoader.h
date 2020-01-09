@@ -60,9 +60,6 @@ class
 nsIObjectOutputStream
 ;
 class
-nsIDocument
-;
-class
 nsXBLResourceLoader
 :
 public
@@ -183,7 +180,10 @@ nsXBLResourceLoader
 ;
 private
 :
-nsIDocument
+dom
+:
+:
+Document
 *
 MOZ_NON_OWNING_REF
 mBoundDocument

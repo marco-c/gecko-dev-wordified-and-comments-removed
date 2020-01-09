@@ -141,7 +141,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2685,7 +2689,7 @@ if
 aParent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2878,7 +2882,7 @@ aParent
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -4313,9 +4317,9 @@ required
 ;
 #
 endif
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -6364,7 +6368,7 @@ baseWindow
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -8334,9 +8338,9 @@ channel
 ;
 #
 endif
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8883,7 +8887,7 @@ aParent
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =

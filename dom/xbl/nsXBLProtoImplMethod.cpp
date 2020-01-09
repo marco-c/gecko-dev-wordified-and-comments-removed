@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1268,7 +1272,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 document
 =

@@ -350,7 +350,7 @@ true
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

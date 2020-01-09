@@ -376,7 +376,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -11631,9 +11635,9 @@ WebNavigation
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -16550,9 +16554,9 @@ nsAString
 aContentType
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

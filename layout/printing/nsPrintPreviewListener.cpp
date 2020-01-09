@@ -53,7 +53,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -832,7 +836,7 @@ keydown
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -852,7 +856,7 @@ document
 "
 )
 ;
-nsIDocument
+Document
 *
 parentDoc
 =

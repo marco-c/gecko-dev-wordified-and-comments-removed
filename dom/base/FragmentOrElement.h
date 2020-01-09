@@ -98,9 +98,6 @@ class
 nsDOMCSSAttributeDeclaration
 ;
 class
-nsIDocument
-;
-class
 nsDOMStringMap
 ;
 class
@@ -382,7 +379,7 @@ static
 void
 FireNodeInserted
 (
-nsIDocument
+Document
 *
 aDoc
 nsINode

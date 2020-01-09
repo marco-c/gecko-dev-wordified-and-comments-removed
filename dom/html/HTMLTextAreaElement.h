@@ -104,9 +104,6 @@ class
 nsIControllers
 ;
 class
-nsIDocument
-;
-class
 nsPresContext
 ;
 namespace
@@ -565,7 +562,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

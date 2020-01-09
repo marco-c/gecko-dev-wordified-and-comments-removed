@@ -64,7 +64,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1398,7 +1402,7 @@ CreateFromPrototype
 nsXULPrototypeElement
 *
 aPrototype
-nsIDocument
+Document
 *
 aDocument
 bool
@@ -1642,7 +1646,7 @@ namespace
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -2187,7 +2191,7 @@ bool
 aDefer
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2690,7 +2694,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -3162,7 +3166,7 @@ public
 explicit
 XULInContentErrorReporter
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -3193,7 +3197,7 @@ mDocument
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eImportXULIntoContent
@@ -3208,7 +3212,7 @@ private
 :
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -3275,7 +3279,7 @@ nsXULElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -3319,7 +3323,7 @@ aDocument
 >
 HasWarnedAbout
 (
-nsIDocument
+Document
 :
 :
 eImportXULIntoContent
@@ -3358,7 +3362,7 @@ rv
 rv
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -3657,7 +3661,7 @@ RemoveTooltipSupport
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3753,7 +3757,7 @@ nsAString
 aOldValue
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -3992,7 +3996,7 @@ oldValue
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -4295,7 +4299,7 @@ true
 ;
 }
 }
-nsIDocument
+Document
 *
 document
 =
@@ -4633,7 +4637,7 @@ ResetChromeMargins
 ;
 }
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -4855,7 +4859,7 @@ RemoveTooltipSupport
 }
 }
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -5307,7 +5311,7 @@ aCommand
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -6027,7 +6031,7 @@ return
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -6212,7 +6216,7 @@ DoCommand
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -6643,7 +6647,7 @@ bool
 aShouldHide
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -6776,7 +6780,7 @@ GetWindowWidget
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -7015,7 +7019,7 @@ nsXULElement
 :
 UpdateBrightTitlebarForeground
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -7046,7 +7050,7 @@ GetDocumentLWTheme
 )
 =
 =
-nsIDocument
+Document
 :
 :
 Doc_Theme_Bright
@@ -10976,7 +10980,7 @@ nsIURI
 aURI
 uint32_t
 aLineNo
-nsIDocument
+Document
 *
 aDocument
 nsIOffThreadScriptReceiver

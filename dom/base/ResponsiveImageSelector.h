@@ -100,7 +100,10 @@ aContent
 explicit
 ResponsiveImageSelector
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 )
@@ -157,7 +160,10 @@ Content
 (
 )
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 Document
 (

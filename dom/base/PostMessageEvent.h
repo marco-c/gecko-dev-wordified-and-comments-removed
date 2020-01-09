@@ -85,9 +85,6 @@ class
 nsGlobalWindowInner
 ;
 class
-nsIDocument
-;
-class
 nsIPrincipal
 ;
 namespace

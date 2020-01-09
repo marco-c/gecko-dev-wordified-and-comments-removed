@@ -5322,7 +5322,7 @@ to
 allow
 DocumentL10n
 and
-nsIDocument
+Document
 to
 communicate
 with
@@ -5349,7 +5349,7 @@ WebIDL
 API
 and
 allows
-nsIDocument
+Document
 to
 communicate
 with

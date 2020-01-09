@@ -416,7 +416,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -456,7 +456,7 @@ virtual
 void
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )
@@ -1428,7 +1428,7 @@ static
 nsresult
 ReportAttributeParseFailure
 (
-nsIDocument
+Document
 *
 aDocument
 nsAtom

@@ -43,7 +43,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -352,7 +356,10 @@ nsPIDOMWindowInner
 aWindow
 )
 {
-nsIDocument
+dom
+:
+:
+Document
 *
 document
 =

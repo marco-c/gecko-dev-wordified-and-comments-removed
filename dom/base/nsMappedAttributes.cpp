@@ -1542,7 +1542,10 @@ nsMappedAttributes
 :
 LazilyResolveServoDeclaration
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 )

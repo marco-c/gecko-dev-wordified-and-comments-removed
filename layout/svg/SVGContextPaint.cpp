@@ -53,7 +53,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -804,7 +808,10 @@ nsIContent
 aContent
 )
 {
-nsIDocument
+dom
+:
+:
+Document
 *
 ownerDoc
 =

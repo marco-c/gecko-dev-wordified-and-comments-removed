@@ -146,7 +146,7 @@ tracked
 *
 For
 example
-nsIDocument
+Document
 :
 :
 mDocumentLoadGroup

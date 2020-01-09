@@ -61,7 +61,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1267,7 +1271,7 @@ StashDocument
 ;
 RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

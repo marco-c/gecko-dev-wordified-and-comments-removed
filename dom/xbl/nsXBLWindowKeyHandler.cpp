@@ -1834,7 +1834,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2930,7 +2930,7 @@ return
 true
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

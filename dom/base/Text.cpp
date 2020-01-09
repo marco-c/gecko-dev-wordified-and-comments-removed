@@ -106,7 +106,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 document
 =

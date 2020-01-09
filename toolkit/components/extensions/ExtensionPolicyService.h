@@ -122,9 +122,6 @@ class
 nsIObserverService
 ;
 class
-nsIDocument
-;
-class
 nsIPIDOMWindowInner
 ;
 class
@@ -424,7 +421,10 @@ aChannel
 void
 CheckDocument
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 )

@@ -263,7 +263,13 @@ mozInlineSpellWordUtil
 aWordUtil
 )
 ;
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 GetDocument
 (

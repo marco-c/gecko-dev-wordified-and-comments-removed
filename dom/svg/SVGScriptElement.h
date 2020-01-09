@@ -36,9 +36,6 @@ ScriptElement
 .
 h
 "
-class
-nsIDocument
-;
 nsresult
 NS_NewSVGScriptElement
 (
@@ -201,7 +198,7 @@ virtual
 void
 FreezeExecutionAttrs
 (
-nsIDocument
+Document
 *
 aOwnerDoc
 )
@@ -226,7 +223,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

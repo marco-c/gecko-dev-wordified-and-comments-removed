@@ -43,9 +43,6 @@ class
 JSObject
 ;
 class
-nsIDocument
-;
-class
 ComputedStyle
 ;
 struct
@@ -75,6 +72,9 @@ PropertyStyleAnimationValuePair
 namespace
 dom
 {
+class
+Document
+;
 class
 Element
 ;
@@ -106,7 +106,10 @@ GetKeyframesFromObject
 JSContext
 *
 aCx
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 JS

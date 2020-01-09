@@ -4800,7 +4800,7 @@ NS_IsMainThread
 )
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -4968,7 +4968,7 @@ HTMLTableElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

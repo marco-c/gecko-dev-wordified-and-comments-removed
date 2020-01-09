@@ -79,7 +79,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -5400,7 +5404,10 @@ ContentDocShellTreeItem
 }
 nsCOMPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 doc
 (

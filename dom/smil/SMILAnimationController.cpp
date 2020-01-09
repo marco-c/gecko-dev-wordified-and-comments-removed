@@ -78,7 +78,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -132,7 +136,7 @@ SMILAnimationController
 :
 SMILAnimationController
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -1198,7 +1202,7 @@ false
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 (

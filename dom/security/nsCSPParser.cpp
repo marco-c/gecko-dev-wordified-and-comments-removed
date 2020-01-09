@@ -2277,7 +2277,7 @@ GetLoadingContext
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2376,7 +2376,7 @@ GetLoadingContext
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

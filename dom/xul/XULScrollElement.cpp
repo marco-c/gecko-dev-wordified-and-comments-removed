@@ -286,7 +286,7 @@ horiz
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -721,7 +721,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -837,7 +837,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

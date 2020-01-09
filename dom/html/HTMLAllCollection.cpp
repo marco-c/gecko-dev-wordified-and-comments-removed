@@ -319,7 +319,7 @@ if
 mCollection
 )
 {
-nsIDocument
+Document
 *
 document
 =

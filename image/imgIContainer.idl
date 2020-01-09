@@ -99,6 +99,9 @@ nsISupports
 .
 idl
 "
+webidl
+Document
+;
 %
 {
 C
@@ -182,9 +185,6 @@ limits
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -457,15 +457,6 @@ native
 nsIntSizeByVal
 (
 nsIntSize
-)
-;
-[
-ptr
-]
-native
-nsIDocument
-(
-nsIDocument
 )
 ;
 /
@@ -4940,7 +4931,7 @@ void
 propagateUseCounters
 (
 in
-nsIDocument
+Document
 aDocument
 )
 ;

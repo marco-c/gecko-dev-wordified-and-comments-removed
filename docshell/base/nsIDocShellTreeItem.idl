@@ -103,10 +103,10 @@ interface
 nsIDocShellTreeOwner
 ;
 interface
-nsIDocument
-;
-interface
 nsPIDOMWindowOuter
+;
+webidl
+Document
 ;
 /
 *
@@ -1389,7 +1389,7 @@ noscript
 nostdcall
 notxpcom
 ]
-nsIDocument
+Document
 getDocument
 (
 )

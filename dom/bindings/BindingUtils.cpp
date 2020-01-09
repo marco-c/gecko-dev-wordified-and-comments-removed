@@ -13735,7 +13735,7 @@ GetDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eLenientThis
@@ -19051,7 +19051,7 @@ CustomElements
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -20298,7 +20298,7 @@ aWindow
 nsIURI
 *
 aURI
-nsIDocument
+Document
 :
 :
 DeprecatedOperations
@@ -20539,7 +20539,7 @@ MaybeReportDeprecation
 nsPIDOMWindowInner
 *
 aWindow
-nsIDocument
+Document
 :
 :
 DeprecatedOperations
@@ -20649,7 +20649,7 @@ public
 WorkerProxyToMainThreadRunnable
 {
 const
-nsIDocument
+Document
 :
 :
 DeprecatedOperations
@@ -20660,7 +20660,7 @@ public
 explicit
 DeprecationWarningRunnable
 (
-nsIDocument
+Document
 :
 :
 DeprecatedOperations
@@ -20783,7 +20783,7 @@ aCx
 JSObject
 *
 aObject
-nsIDocument
+Document
 :
 :
 DeprecatedOperations
@@ -20835,7 +20835,7 @@ const
 GlobalObject
 &
 aGlobal
-nsIDocument
+Document
 :
 :
 DeprecatedOperations

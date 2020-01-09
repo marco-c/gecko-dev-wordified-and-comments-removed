@@ -214,7 +214,7 @@ GetOwner
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =

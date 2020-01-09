@@ -127,7 +127,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -7321,7 +7325,10 @@ nsStyledElement
 aElement
 )
 {
-nsIDocument
+dom
+:
+:
+Document
 *
 ownerDoc
 =

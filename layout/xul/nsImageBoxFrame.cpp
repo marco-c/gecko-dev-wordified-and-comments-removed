@@ -94,7 +94,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -953,7 +957,7 @@ if
 mUseSrcAttr
 )
 {
-nsIDocument
+Document
 *
 doc
 =

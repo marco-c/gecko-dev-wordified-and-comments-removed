@@ -831,7 +831,7 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 document
 =

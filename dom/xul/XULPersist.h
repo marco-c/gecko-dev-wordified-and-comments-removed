@@ -26,7 +26,7 @@ NS_DECL_ISUPPORTS
 explicit
 XULPersist
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -101,7 +101,7 @@ nsIXULStore
 >
 mLocalStore
 ;
-nsIDocument
+Document
 *
 MOZ_NON_OWNING_REF
 mDocument

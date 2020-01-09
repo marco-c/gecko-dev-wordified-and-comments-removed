@@ -75,6 +75,9 @@ class
 Blob
 ;
 class
+Document
+;
+class
 DOMException
 ;
 class
@@ -511,9 +514,9 @@ Session
 >
 mSessions
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

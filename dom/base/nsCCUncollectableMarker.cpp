@@ -36,7 +36,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -892,7 +896,7 @@ aViewer
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -2622,7 +2626,7 @@ aTrc
 #
 ifdef
 MOZ_XUL
-nsIDocument
+Document
 *
 doc
 =

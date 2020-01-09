@@ -56,9 +56,6 @@ nsIDTD
 h
 "
 class
-nsIDocument
-;
-class
 nsIScriptSecurityManager
 ;
 class
@@ -183,7 +180,13 @@ override
 nsresult
 Init
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 nsXULPrototypeDocument

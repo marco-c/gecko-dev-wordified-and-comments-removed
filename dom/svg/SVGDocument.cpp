@@ -228,7 +228,7 @@ NS_OK
 nsresult
 NS_NewSVGDocument
 (
-nsIDocument
+Document
 *
 *
 aInstancePtrResult

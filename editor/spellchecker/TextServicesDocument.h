@@ -84,7 +84,10 @@ namespace
 dom
 {
 class
-Elemenent
+Document
+;
+class
+Element
 ;
 }
 ;
@@ -111,9 +114,12 @@ ePrev
 eNext
 }
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 mDocument
 ;

@@ -24,9 +24,6 @@ DOMEventTargetHelper
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -237,7 +234,7 @@ aPromise
 bool
 IsProhibitMixedSecurityContexts
 (
-nsIDocument
+Document
 *
 aDocument
 )

@@ -1497,7 +1497,7 @@ x
 y
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1717,7 +1717,7 @@ SVGSVGElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -2642,7 +2642,7 @@ GetPreserveAspectRatioWithOverride
 )
 const
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2821,7 +2821,7 @@ if
 mCurrentViewID
 )
 {
-nsIDocument
+Document
 *
 doc
 =

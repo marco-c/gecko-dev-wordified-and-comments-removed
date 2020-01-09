@@ -165,7 +165,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -3714,9 +3718,9 @@ NS_LITERAL_STRING
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -13,9 +13,6 @@ RefPtr
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -47,9 +44,11 @@ PositioningPropertyMutated
 explicit
 ScrollLinkedEffectDetector
 (
-nsIDocument
+dom
+:
+:
+Document
 *
-aDoc
 )
 ;
 ~
@@ -61,7 +60,10 @@ private
 :
 RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 mDocument
 ;

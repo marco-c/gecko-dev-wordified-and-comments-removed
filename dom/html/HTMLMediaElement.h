@@ -515,7 +515,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -2253,7 +2253,7 @@ CallerAPI
 aAPI
 )
 ;
-nsIDocument
+Document
 *
 GetDocument
 (
@@ -3403,7 +3403,7 @@ mSourcePointer
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mLoadBlockedDoc
 ;

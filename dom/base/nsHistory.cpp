@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -630,7 +634,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -827,7 +831,7 @@ IsHandlingResizeEvent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

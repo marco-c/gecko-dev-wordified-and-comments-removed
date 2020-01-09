@@ -675,7 +675,7 @@ mParent
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

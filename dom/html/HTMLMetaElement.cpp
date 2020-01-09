@@ -177,7 +177,7 @@ HTMLMetaElement
 :
 SetMetaReferrer
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -305,7 +305,7 @@ aNameSpaceID
 kNameSpaceID_None
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -401,7 +401,7 @@ HTMLMetaElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -734,7 +734,7 @@ aNullParent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 oldDoc
 =
@@ -769,7 +769,7 @@ HTMLMetaElement
 :
 CreateAndDispatchEvent
 (
-nsIDocument
+Document
 *
 aDoc
 const

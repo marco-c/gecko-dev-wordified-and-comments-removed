@@ -61,7 +61,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -177,7 +181,7 @@ const
 OptionsType
 &
 aOptions
-nsIDocument
+Document
 *
 aDocument
 ErrorResult
@@ -292,7 +296,7 @@ dom
 UnrestrictedDoubleOrKeyframeEffectOptions
 &
 aOptions
-nsIDocument
+Document
 *
 aDocument
 ErrorResult
@@ -322,7 +326,7 @@ dom
 UnrestrictedDoubleOrKeyframeAnimationOptions
 &
 aOptions
-nsIDocument
+Document
 *
 aDocument
 ErrorResult
@@ -352,7 +356,7 @@ dom
 EffectTiming
 &
 aEffectTiming
-nsIDocument
+Document
 *
 aDocument
 ErrorResult
@@ -571,7 +575,7 @@ dom
 OptionalEffectTiming
 &
 aEffectTiming
-nsIDocument
+Document
 *
 aDocument
 ErrorResult
@@ -994,7 +998,7 @@ const
 nsAString
 &
 aEasing
-nsIDocument
+Document
 *
 aDocument
 ErrorResult

@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -83,6 +87,13 @@ Preferences
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 namespace
 mozilla
 {
@@ -222,7 +233,7 @@ get
 )
 ;
 }
-nsIDocument
+Document
 *
 AnimationUtils
 :
@@ -265,7 +276,7 @@ GetDoc
 )
 ;
 }
-nsIDocument
+Document
 *
 AnimationUtils
 :

@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -385,7 +389,7 @@ ContentInfo
 aElements
 )
 {
-nsIDocument
+Document
 *
 doc
 =

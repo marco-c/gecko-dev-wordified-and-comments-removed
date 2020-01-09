@@ -1497,7 +1497,7 @@ CSSPseudoElementType
 aPseudoType
 )
 {
-nsIDocument
+Document
 *
 doc
 =

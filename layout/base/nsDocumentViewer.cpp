@@ -104,7 +104,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -883,7 +887,7 @@ public
 explicit
 BFCachePreventionObserver
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -920,7 +924,7 @@ MutationHappened
 (
 )
 ;
-nsIDocument
+Document
 *
 mDocument
 ;
@@ -1382,7 +1386,7 @@ mDeviceContext
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -1593,7 +1597,7 @@ public
 explicit
 AutoPrintEventDispatcher
 (
-nsIDocument
+Document
 *
 aTop
 )
@@ -1645,7 +1649,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 >
 targets
@@ -1661,7 +1665,7 @@ for
 (
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 &
 doc
@@ -1699,7 +1703,7 @@ static
 bool
 CollectDocuments
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -1718,7 +1722,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 >
 *
@@ -1749,7 +1753,7 @@ true
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mTop
 ;
@@ -1769,7 +1773,7 @@ nsDocumentShownDispatcher
 (
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 aDocument
 )
@@ -1796,7 +1800,7 @@ private
 :
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -2195,7 +2199,7 @@ nsDocumentViewer
 :
 LoadStart
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -2341,7 +2345,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parent_doc
 =
@@ -2988,7 +2992,7 @@ nsPresContext
 *
 CreatePresContext
 (
-nsIDocument
+Document
 *
 aDocument
 nsPresContext
@@ -3463,7 +3467,7 @@ window
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 curDoc
 =
@@ -3741,7 +3745,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -3771,7 +3775,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_INTERACTIVE
@@ -3786,7 +3790,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_UNINITIALIZED
@@ -3854,7 +3858,7 @@ document
 endif
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 d
 =
@@ -3865,7 +3869,7 @@ mDocument
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -4578,7 +4582,7 @@ disableDialogs
 globalWindow
 )
 ;
-nsIDocument
+Document
 :
 :
 PageUnloadingEventTimeStamp
@@ -5444,7 +5448,7 @@ openAbused
 true
 )
 ;
-nsIDocument
+Document
 :
 :
 PageUnloadingEventTimeStamp
@@ -5524,7 +5528,7 @@ SetIsHidden
 false
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -6199,7 +6203,7 @@ if
 viewer
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -7035,7 +7039,7 @@ nsDocumentViewer
 :
 GetDOMDocument
 (
-nsIDocument
+Document
 *
 *
 aResult
@@ -7049,7 +7053,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -7066,7 +7070,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 nsDocumentViewer
 :
@@ -7085,7 +7089,7 @@ nsDocumentViewer
 :
 SetDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -7112,7 +7116,7 @@ nsDocumentViewer
 :
 SetDocumentInternal
 (
-nsIDocument
+Document
 *
 aDocument
 bool
@@ -7950,7 +7954,7 @@ true
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -8563,7 +8567,7 @@ nsDocumentViewer
 :
 CreateStyleSet
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -9640,7 +9644,7 @@ here
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -10386,7 +10390,7 @@ nsINode
 aNode
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -10869,7 +10873,7 @@ static
 bool
 SetExtResourceTextZoom
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -10928,7 +10932,7 @@ static
 bool
 SetExtResourceMinFontSize
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -10972,7 +10976,7 @@ static
 bool
 SetExtResourceFullZoom
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -11031,7 +11035,7 @@ static
 bool
 SetExtResourceOverrideDPPX
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -12067,7 +12071,7 @@ static
 bool
 ExtResourceEmulateMedium
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -12226,7 +12230,7 @@ static
 bool
 ExtResourceStopEmulatingMedium
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -13369,7 +13373,7 @@ GetPopupNode
 (
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -13467,7 +13471,7 @@ rootWindow
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 rootDoc
 =
@@ -13820,7 +13824,7 @@ nsDocViewerSelectionListener
 :
 NotifySelectionChanged
 (
-nsIDocument
+Document
 *
 Selection
 *
@@ -13867,7 +13871,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsIDocument
+Document
 *
 theDoc
 =
@@ -14798,7 +14802,7 @@ window
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -2378,7 +2378,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -9054,7 +9054,7 @@ aDocShell
 return
 ;
 }
-nsIDocument
+Document
 *
 rootDocument
 =
@@ -9079,7 +9079,7 @@ GetReadyStateEnum
 )
 !
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE

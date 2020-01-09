@@ -164,7 +164,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1584,7 +1588,7 @@ rv
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1809,7 +1813,7 @@ HTMLTrackElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -2114,7 +2118,7 @@ nsString
 aEventName
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2190,7 +2194,7 @@ nsAString
 aName
 )
 {
-nsIDocument
+Document
 *
 doc
 =

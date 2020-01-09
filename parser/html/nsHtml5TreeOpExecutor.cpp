@@ -3388,7 +3388,7 @@ nsHtml5TreeOpExecutor
 :
 ComplainAboutBogusProtocolCharset
 (
-nsIDocument
+Document
 *
 aDoc
 )

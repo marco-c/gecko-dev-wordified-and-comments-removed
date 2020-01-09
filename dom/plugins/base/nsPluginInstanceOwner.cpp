@@ -1425,7 +1425,7 @@ aInstance
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -1537,7 +1537,7 @@ aMode
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -1736,7 +1736,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -2133,7 +2133,7 @@ nsPluginInstanceOwner
 :
 GetDocument
 (
-nsIDocument
+Document
 *
 *
 aDocument
@@ -13836,7 +13836,7 @@ nsIWidget
 >
 parentWidget
 ;
-nsIDocument
+Document
 *
 doc
 =

@@ -308,7 +308,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -9313,7 +9317,7 @@ if
 (
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

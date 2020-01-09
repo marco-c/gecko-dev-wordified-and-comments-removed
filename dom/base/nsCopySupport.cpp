@@ -159,7 +159,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -433,7 +437,7 @@ SelectionCopyHelper
 Selection
 *
 aSel
-nsIDocument
+Document
 *
 aDoc
 bool
@@ -1185,7 +1189,7 @@ HTMLCopy
 Selection
 *
 aSel
-nsIDocument
+Document
 *
 aDoc
 int16_t
@@ -1276,7 +1280,7 @@ GetTransferableForSelection
 Selection
 *
 aSel
-nsIDocument
+Document
 *
 aDoc
 nsITransferable
@@ -1309,7 +1313,7 @@ GetTransferableForNode
 nsINode
 *
 aNode
-nsIDocument
+Document
 *
 aDoc
 nsITransferable
@@ -1437,7 +1441,7 @@ aFlags
 Selection
 *
 aSel
-nsIDocument
+Document
 *
 aDoc
 nsAString
@@ -2006,7 +2010,7 @@ do_createHTMLCopyEncoder
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -2645,7 +2649,7 @@ nsCopySupport
 :
 GetSelectionForCopy
 (
-nsIDocument
+Document
 *
 aDocument
 Selection
@@ -2745,7 +2749,7 @@ nsCopySupport
 :
 CanCopy
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -3070,7 +3074,7 @@ false
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

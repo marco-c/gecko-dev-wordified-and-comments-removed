@@ -744,7 +744,7 @@ GetInnerSize
 ;
 already_AddRefed
 <
-nsIDocument
+Document
 >
 GetDocument
 (

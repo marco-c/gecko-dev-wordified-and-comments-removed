@@ -155,7 +155,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1366,7 +1370,7 @@ IsEmpty
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2166,7 +2170,7 @@ if
 popup
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -2805,7 +2809,7 @@ if
 aShouldFlush
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -3114,7 +3118,7 @@ inputEvent
 mModifiers
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -4183,7 +4187,7 @@ piWindow
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 focusedDoc
 =
@@ -5883,7 +5887,7 @@ nsXULPopupManager
 :
 IsChildOfDocShell
 (
-nsIDocument
+Document
 *
 aDoc
 nsIDocShellTreeItem
@@ -6746,7 +6750,7 @@ if
 fm
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -7053,7 +7057,7 @@ if
 fm
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -7712,7 +7716,7 @@ nsXULPopupManager
 :
 GetLastTriggerNode
 (
-nsIDocument
+Document
 *
 aDocument
 bool
@@ -8948,7 +8952,7 @@ aPopup
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -12826,7 +12830,7 @@ GetInstance
 (
 )
 ;
-nsIDocument
+Document
 *
 document
 =

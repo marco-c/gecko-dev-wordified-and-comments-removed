@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -578,7 +582,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -21,7 +21,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -115,7 +119,7 @@ aContent
 nsresult
 Init
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -129,7 +133,7 @@ nsIChannel
 aChannel
 )
 ;
-nsIDocument
+Document
 *
 GetDocument
 (

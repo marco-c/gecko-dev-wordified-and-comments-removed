@@ -112,7 +112,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -505,7 +509,7 @@ HTMLLinkElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -551,7 +555,7 @@ rv
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -738,7 +742,7 @@ ElementHasHref
 )
 )
 ;
-nsIDocument
+Document
 *
 oldDoc
 =
@@ -954,7 +958,7 @@ HTMLLinkElement
 :
 CreateAndDispatchEvent
 (
-nsIDocument
+Document
 *
 aDoc
 const
@@ -1263,7 +1267,7 @@ nsGkAtoms
 rel
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -1409,7 +1413,7 @@ eIgnoreCase
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2545,7 +2549,7 @@ const
 nsAString
 &
 aMedia
-nsIDocument
+Document
 *
 aDocument
 )

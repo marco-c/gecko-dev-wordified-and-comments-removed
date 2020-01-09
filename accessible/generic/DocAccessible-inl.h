@@ -49,7 +49,11 @@ h
 #
 include
 "
-nsIDocumentInlines
+mozilla
+/
+dom
+/
+DocumentInlines
 .
 h
 "

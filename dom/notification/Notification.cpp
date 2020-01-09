@@ -297,7 +297,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -6264,7 +6268,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -7815,7 +7819,7 @@ GetBaseURI
 }
 else
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -8045,7 +8049,7 @@ aWindow
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

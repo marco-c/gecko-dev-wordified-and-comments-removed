@@ -285,7 +285,13 @@ mIsInline
 SheetInfo
 (
 const
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 &
 nsIContent
 *

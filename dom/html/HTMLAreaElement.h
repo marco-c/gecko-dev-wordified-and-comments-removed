@@ -45,9 +45,6 @@ nsIURL
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -164,7 +161,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -654,7 +651,7 @@ aResult
 void
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )

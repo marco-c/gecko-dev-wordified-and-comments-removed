@@ -17,7 +17,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -567,7 +571,7 @@ nsXBLDocumentInfo
 :
 nsXBLDocumentInfo
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -876,7 +880,7 @@ nsXBLDocumentInfo
 *
 *
 aDocInfo
-nsIDocument
+Document
 *
 aBoundDocument
 )
@@ -1060,7 +1064,7 @@ principal
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

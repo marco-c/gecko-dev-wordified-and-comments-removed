@@ -53,9 +53,6 @@ class
 nsIPrincipal
 ;
 class
-nsIDocument
-;
-class
 nsIHttpChannel
 ;
 namespace
@@ -64,6 +61,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 InternalRequest
 ;
@@ -131,7 +131,7 @@ SetRequestReferrer
 nsIPrincipal
 *
 aPrincipal
-nsIDocument
+Document
 *
 aDoc
 nsIHttpChannel

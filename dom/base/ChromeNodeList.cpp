@@ -64,7 +64,7 @@ GetAsSupports
 )
 )
 ;
-nsIDocument
+Document
 *
 root
 =

@@ -69,9 +69,6 @@ h
 class
 nsIPrincipal
 ;
-class
-nsIDocument
-;
 struct
 JSContext
 ;
@@ -100,6 +97,9 @@ Rule
 namespace
 dom
 {
+class
+Document
+;
 class
 Element
 ;
@@ -674,7 +674,13 @@ aClosureData
 0
 ;
 virtual
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 DocToUpdate
 (

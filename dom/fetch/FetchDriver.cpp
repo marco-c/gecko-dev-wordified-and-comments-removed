@@ -28,7 +28,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -5876,7 +5880,7 @@ FetchDriver
 :
 SetDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )

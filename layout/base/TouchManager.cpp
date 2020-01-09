@@ -148,7 +148,7 @@ Init
 PresShell
 *
 aPresShell
-nsIDocument
+Document
 *
 aDocument
 )
@@ -244,7 +244,7 @@ Touch
 >
 &
 aTouch
-nsIDocument
+Document
 *
 aLimitToDocument
 )
@@ -269,7 +269,7 @@ if
 node
 )
 {
-nsIDocument
+Document
 *
 doc
 =

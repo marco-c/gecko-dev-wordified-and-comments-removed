@@ -168,7 +168,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -4785,7 +4789,7 @@ content
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -5629,7 +5633,7 @@ if
 aContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -7903,7 +7907,7 @@ nsPresContext
 aPresContext
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -9633,7 +9637,7 @@ if
 aPresContext
 )
 {
-nsIDocument
+Document
 *
 document
 =

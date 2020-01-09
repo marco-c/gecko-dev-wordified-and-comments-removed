@@ -216,7 +216,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1123,7 +1127,10 @@ GtkWindow
 *
 GetGtkWindow
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 )

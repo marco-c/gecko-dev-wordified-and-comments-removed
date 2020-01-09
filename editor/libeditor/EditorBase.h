@@ -149,7 +149,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -825,6 +829,13 @@ typedef
 dom
 :
 :
+Document
+Document
+;
+typedef
+dom
+:
+:
 Element
 Element
 ;
@@ -858,7 +869,7 @@ virtual
 nsresult
 Init
 (
-nsIDocument
+Document
 &
 doc
 Element
@@ -910,7 +921,7 @@ return
 mDidPreDestroy
 ;
 }
-nsIDocument
+Document
 *
 GetDocument
 (
@@ -2855,7 +2866,7 @@ virtual
 nsresult
 InsertTextWithTransaction
 (
-nsIDocument
+Document
 &
 aDocument
 const
@@ -3341,7 +3352,7 @@ nsTextNode
 >
 CreateTextNode
 (
-nsIDocument
+Document
 &
 aDocument
 const
@@ -5060,9 +5071,9 @@ nsISelectionController
 >
 mSelectionController
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

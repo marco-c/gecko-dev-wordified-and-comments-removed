@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2132,7 +2136,7 @@ aGlobal
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

@@ -28,9 +28,6 @@ h
 class
 nsIStreamListener
 ;
-class
-nsIDocument
-;
 #
 define
 NS_CONTENTSECURITYMANAGER_CONTRACTID

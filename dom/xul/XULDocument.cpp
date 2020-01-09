@@ -781,7 +781,7 @@ mOffThreadCompileStringBuf
 nsresult
 NS_NewXULDocument
 (
-nsIDocument
+Document
 *
 *
 result

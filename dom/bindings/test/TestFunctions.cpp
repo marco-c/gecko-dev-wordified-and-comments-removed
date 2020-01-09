@@ -540,7 +540,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

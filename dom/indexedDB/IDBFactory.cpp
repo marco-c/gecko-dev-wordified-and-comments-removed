@@ -2125,7 +2125,7 @@ GetExtantDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eIDBOpenDBOptions_StorageType

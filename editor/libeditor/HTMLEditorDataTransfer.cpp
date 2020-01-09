@@ -307,7 +307,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1067,7 +1071,7 @@ const
 nsAString
 &
 aFlavor
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -3628,9 +3632,9 @@ if
 aTransferable
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 destdoc
 =
@@ -4806,7 +4810,7 @@ HTMLEditor
 aHTMLEditor
 bool
 aIsSafe
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -5551,7 +5555,7 @@ nsISupports
 aObject
 bool
 aIsSafe
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -6086,7 +6090,7 @@ InsertFromTransferable
 nsITransferable
 *
 transferable
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -6598,7 +6602,7 @@ DataTransfer
 aDataTransfer
 int32_t
 aIndex
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -8049,9 +8053,9 @@ aCanPaste
 =
 false
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8665,9 +8669,9 @@ trans
 NS_ERROR_FAILURE
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 destdoc
 =
@@ -10883,9 +10887,9 @@ outEndNode
 NS_ERROR_NULL_POINTER
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -11353,7 +11357,7 @@ aFragStr
 nsAtom
 *
 aContextLocalName
-nsIDocument
+Document
 *
 aTargetDocument
 DocumentFragment

@@ -123,7 +123,7 @@ SVGViewElement
 *
 GetViewElement
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -791,7 +791,7 @@ SVGFragmentIdentifier
 :
 ProcessFragmentIdentifier
 (
-nsIDocument
+Document
 *
 aDocument
 const

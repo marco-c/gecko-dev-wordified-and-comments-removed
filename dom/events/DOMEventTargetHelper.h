@@ -91,9 +91,6 @@ EventTarget
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -103,6 +100,9 @@ ErrorResult
 namespace
 dom
 {
+class
+Document
+;
 class
 Event
 ;
@@ -615,7 +615,13 @@ GetWindowIfCurrent
 )
 const
 ;
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 GetDocumentIfCurrent
 (

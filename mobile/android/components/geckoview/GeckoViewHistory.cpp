@@ -225,7 +225,7 @@ GET_VISITS_WAIT_MS
 ;
 static
 inline
-nsIDocument
+Document
 *
 OwnerDocForLink
 (
@@ -2372,7 +2372,7 @@ true
 ;
 nsTArray
 <
-nsIDocument
+Document
 *
 >
 seen
@@ -2411,7 +2411,7 @@ GetNext
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -3451,7 +3451,7 @@ DispatchNotifyVisited
 nsIURI
 *
 aURI
-nsIDocument
+Document
 *
 aDocument
 )
@@ -3465,9 +3465,9 @@ kungFuDeathGrip
 this
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 (

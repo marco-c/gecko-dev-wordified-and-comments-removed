@@ -380,7 +380,13 @@ aNode
 void
 RemoveForDocument
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDoc
 )

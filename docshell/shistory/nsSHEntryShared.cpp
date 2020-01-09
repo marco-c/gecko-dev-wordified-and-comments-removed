@@ -43,7 +43,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -774,9 +778,12 @@ viewer
 =
 mContentViewer
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 document
 =

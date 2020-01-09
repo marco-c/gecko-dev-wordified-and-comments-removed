@@ -817,7 +817,7 @@ SVGAElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -861,7 +861,7 @@ rv
 rv
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1098,7 +1098,7 @@ return
 isFocusable
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1544,7 +1544,7 @@ case
 return
 ;
 }
-nsIDocument
+Document
 *
 ownerDoc
 =

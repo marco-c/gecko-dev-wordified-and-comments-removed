@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -418,7 +422,7 @@ tcElm
 )
 return
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -1993,7 +1997,7 @@ nsCoreUtils
 :
 IsRootDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -2052,7 +2056,7 @@ nsCoreUtils
 :
 IsContentDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -2108,7 +2112,7 @@ nsCoreUtils
 :
 IsTabDocument
 (
-nsIDocument
+Document
 *
 aDocumentNode
 )
@@ -2184,7 +2188,7 @@ nsCoreUtils
 :
 IsErrorPage
 (
-nsIDocument
+Document
 *
 aDocument
 )

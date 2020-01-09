@@ -137,7 +137,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1829,7 +1833,7 @@ AddMutationObserver
 this
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -9648,7 +9652,7 @@ DocumentObserver
 :
 Observe
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -9660,7 +9664,7 @@ aDocument
 ;
 RefPtr
 <
-nsIDocument
+Document
 >
 newDocument
 =
@@ -9723,7 +9727,7 @@ forget
 ;
 RefPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -9791,7 +9795,7 @@ DocumentObserver
 :
 BeginUpdate
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -9839,7 +9843,7 @@ DocumentObserver
 :
 EndUpdate
 (
-nsIDocument
+Document
 *
 aDocument
 )

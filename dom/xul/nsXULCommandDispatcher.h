@@ -58,6 +58,9 @@ namespace
 dom
 {
 class
+Document
+;
+class
 Element
 ;
 }
@@ -75,7 +78,13 @@ public
 explicit
 nsXULCommandDispatcher
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 )
@@ -124,9 +133,9 @@ nsPIDOMWindowOuter
 aWindow
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

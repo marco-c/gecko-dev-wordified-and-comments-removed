@@ -114,8 +114,8 @@ nsIInputStream
 .
 idl
 "
-interface
-nsIDocument
+webidl
+Document
 ;
 %
 {
@@ -433,7 +433,7 @@ document
 /
 readonly
 attribute
-nsIDocument
+Document
 document
 ;
 /

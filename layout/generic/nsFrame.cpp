@@ -21533,7 +21533,7 @@ frameSelection
 captureContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =

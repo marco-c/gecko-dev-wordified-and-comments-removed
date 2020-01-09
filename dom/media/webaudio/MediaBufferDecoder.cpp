@@ -2676,7 +2676,7 @@ MediaDecodeAudioDataUnknownError
 break
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

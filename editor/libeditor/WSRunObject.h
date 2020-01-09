@@ -707,7 +707,10 @@ CT
 nsresult
 InsertText
 (
-nsIDocument
+dom
+:
+:
+Document
 &
 aDocument
 const

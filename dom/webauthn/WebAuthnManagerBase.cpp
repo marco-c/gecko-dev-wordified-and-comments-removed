@@ -508,7 +508,7 @@ kVisibilityChange
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -253,7 +253,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2406,9 +2410,9 @@ global
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

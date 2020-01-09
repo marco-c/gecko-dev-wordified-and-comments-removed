@@ -203,9 +203,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsIFrame
 ;
 class
@@ -371,6 +368,9 @@ ConvertCoordinateOptions
 ;
 class
 DocGroup
+;
+class
+Document
 ;
 class
 DocumentFragment
@@ -837,6 +837,16 @@ mozilla
 dom
 :
 :
+Document
+Document
+;
+typedef
+mozilla
+:
+:
+dom
+:
+:
 DOMPoint
 DOMPoint
 ;
@@ -1289,7 +1299,7 @@ IsInUncomposedDoc
 ;
 }
 inline
-nsIDocument
+Document
 *
 AsDocument
 (
@@ -1297,7 +1307,7 @@ AsDocument
 ;
 inline
 const
-nsIDocument
+Document
 *
 AsDocument
 (
@@ -1698,7 +1708,7 @@ aPossibleChild
 )
 const
 ;
-nsIDocument
+Document
 *
 OwnerDoc
 (
@@ -1735,7 +1745,7 @@ IsInDocument
 )
 ;
 }
-nsIDocument
+Document
 *
 GetUncomposedDoc
 (
@@ -1767,7 +1777,7 @@ IsConnected
 )
 ;
 }
-nsIDocument
+Document
 *
 GetComposedDoc
 (
@@ -3395,7 +3405,7 @@ GetLastChild
 )
 const
 ;
-nsIDocument
+Document
 *
 GetOwnerDocument
 (

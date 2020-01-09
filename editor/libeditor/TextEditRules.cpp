@@ -2053,9 +2053,9 @@ NS_ERROR_FAILURE
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3709,9 +3709,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4334,7 +4334,7 @@ NS_OK
 }
 RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

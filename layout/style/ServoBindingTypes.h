@@ -123,9 +123,6 @@ class
 nsCSSValue
 ;
 class
-nsIDocument
-;
-class
 nsINode
 ;
 class
@@ -197,6 +194,9 @@ dom
 {
 class
 StyleChildrenIterator
+;
+class
+Document
 ;
 class
 Element

@@ -32,9 +32,6 @@ nsTArrayForwardDeclare
 .
 h
 "
-class
-nsIDocument
-;
 #
 define
 NS_NSICONSOLEREPORTCOLLECTOR_IID
@@ -253,7 +250,13 @@ virtual
 void
 FlushConsoleReports
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 ReportAction

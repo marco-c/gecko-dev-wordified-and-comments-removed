@@ -1142,7 +1142,13 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 nsPIDOMWindowInner

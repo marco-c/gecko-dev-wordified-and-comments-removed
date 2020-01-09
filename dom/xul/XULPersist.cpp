@@ -129,7 +129,7 @@ XULPersist
 :
 XULPersist
 (
-nsIDocument
+Document
 *
 aDocument
 )

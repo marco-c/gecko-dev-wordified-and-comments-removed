@@ -194,7 +194,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -6769,7 +6773,7 @@ aLists
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -7289,7 +7293,7 @@ GenerateStateKey
 nsIContent
 *
 aContent
-nsIDocument
+Document
 *
 aDocument
 nsACString

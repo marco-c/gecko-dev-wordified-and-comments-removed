@@ -273,7 +273,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 XULFrameElement
 :
@@ -642,7 +642,7 @@ XULFrameElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

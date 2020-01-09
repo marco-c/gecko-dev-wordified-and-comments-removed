@@ -25,9 +25,6 @@ nsIDOMEventListener
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -47,7 +44,10 @@ public
 :
 RootAccessible
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIPresShell

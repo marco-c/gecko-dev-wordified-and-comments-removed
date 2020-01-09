@@ -626,7 +626,7 @@ SVGAnimationElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -687,7 +687,7 @@ rv
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =

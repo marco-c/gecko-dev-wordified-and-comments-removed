@@ -3432,7 +3432,7 @@ content
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4377,7 +4377,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5675,7 +5675,7 @@ mEditorInitialized
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -9662,7 +9662,7 @@ textEditor
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

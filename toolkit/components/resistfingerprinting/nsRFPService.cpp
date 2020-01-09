@@ -3524,7 +3524,10 @@ nsRFPService
 GetSpoofedKeyCodeInfo
 (
 const
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 const
@@ -3723,7 +3726,10 @@ nsRFPService
 GetSpoofedModifierStates
 (
 const
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 const
@@ -3808,7 +3814,10 @@ nsRFPService
 GetSpoofedCode
 (
 const
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 const
@@ -3913,7 +3922,10 @@ nsRFPService
 GetSpoofedKeyCode
 (
 const
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 const

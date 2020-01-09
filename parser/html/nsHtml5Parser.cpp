@@ -3139,7 +3139,13 @@ nsHtml5Parser
 :
 Initialize
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDoc
 nsIURI

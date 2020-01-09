@@ -266,7 +266,10 @@ SystemPrincipal
 :
 EnsureCSP
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIContentSecurityPolicy
@@ -306,7 +309,10 @@ SystemPrincipal
 :
 EnsurePreloadCSP
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIContentSecurityPolicy

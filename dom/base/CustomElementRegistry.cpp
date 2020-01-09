@@ -440,7 +440,7 @@ mType
 )
 {
 case
-nsIDocument
+Document
 :
 :
 eConnected
@@ -467,7 +467,7 @@ mThisObject
 break
 ;
 case
-nsIDocument
+Document
 :
 :
 eDisconnected
@@ -494,7 +494,7 @@ mThisObject
 break
 ;
 case
-nsIDocument
+Document
 :
 :
 eAdopted
@@ -527,7 +527,7 @@ mNewDocument
 break
 ;
 case
-nsIDocument
+Document
 :
 :
 eAttributeChanged
@@ -566,7 +566,7 @@ namespaceURI
 break
 ;
 case
-nsIDocument
+Document
 :
 :
 eGetCustomInterface
@@ -680,7 +680,7 @@ CustomElementCallback
 Element
 *
 aThisObject
-nsIDocument
+Document
 :
 :
 ElementCallbackType
@@ -2141,7 +2141,7 @@ CustomElementRegistry
 :
 CreateCustomElementCallback
 (
-nsIDocument
+Document
 :
 :
 ElementCallbackType
@@ -2199,7 +2199,7 @@ aType
 )
 {
 case
-nsIDocument
+Document
 :
 :
 eConnected
@@ -2237,7 +2237,7 @@ Value
 break
 ;
 case
-nsIDocument
+Document
 :
 :
 eDisconnected
@@ -2275,7 +2275,7 @@ Value
 break
 ;
 case
-nsIDocument
+Document
 :
 :
 eAdopted
@@ -2313,7 +2313,7 @@ Value
 break
 ;
 case
-nsIDocument
+Document
 :
 :
 eAttributeChanged
@@ -2351,7 +2351,7 @@ Value
 break
 ;
 case
-nsIDocument
+Document
 :
 :
 eGetCustomInterface
@@ -2435,7 +2435,7 @@ CustomElementRegistry
 :
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 ElementCallbackType
@@ -2567,7 +2567,7 @@ if
 aType
 =
 =
-nsIDocument
+Document
 :
 :
 eAttributeChanged
@@ -2660,7 +2660,7 @@ nsIWeakReference
 >
 &
 aCandidates
-nsIDocument
+Document
 *
 aDoc
 )
@@ -2697,7 +2697,7 @@ aOrderedElements
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDoc
 ;
@@ -2727,7 +2727,7 @@ nsIWeakReference
 >
 &
 aCandidates
-nsIDocument
+Document
 *
 aDoc
 )
@@ -3542,7 +3542,7 @@ aCx
 constructor
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -4913,7 +4913,7 @@ aName
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -5356,7 +5356,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 eAttributeChanged
@@ -5385,7 +5385,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 eConnected

@@ -47,7 +47,10 @@ RootAccessibleWrap
 :
 RootAccessibleWrap
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIPresShell

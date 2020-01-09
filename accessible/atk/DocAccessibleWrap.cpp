@@ -24,7 +24,10 @@ DocAccessibleWrap
 :
 DocAccessibleWrap
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIPresShell

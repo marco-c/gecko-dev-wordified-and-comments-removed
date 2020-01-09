@@ -217,7 +217,7 @@ learn
 about
 eg
 .
-nsIDocument
+Document
 .
 [
 Searchfox

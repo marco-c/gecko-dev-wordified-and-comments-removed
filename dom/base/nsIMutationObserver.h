@@ -21,9 +21,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsINode
 ;
 namespace

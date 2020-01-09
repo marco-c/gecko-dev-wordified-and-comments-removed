@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -511,7 +515,7 @@ if
 aShowSubDocuments
 )
 {
-nsIDocument
+Document
 *
 domdoc
 =

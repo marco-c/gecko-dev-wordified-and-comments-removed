@@ -85,9 +85,6 @@ nsRefreshDriver
 h
 "
 class
-nsIDocument
-;
-class
 nsIContentViewer
 ;
 class
@@ -105,6 +102,9 @@ SVGContextPaint
 namespace
 dom
 {
+class
+Document
+;
 class
 Element
 ;
@@ -211,9 +211,15 @@ gfxSVGGlyphs
 *
 mOwner
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 >
 mDocument
 ;

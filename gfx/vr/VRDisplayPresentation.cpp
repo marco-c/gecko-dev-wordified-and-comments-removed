@@ -380,12 +380,6 @@ nsCOMPtr
 nsIEventTarget
 >
 target
-;
-nsIDocument
-*
-doc
-;
-doc
 =
 canvasElement
 -
@@ -393,15 +387,6 @@ canvasElement
 OwnerDoc
 (
 )
-;
-if
-(
-doc
-)
-{
-target
-=
-doc
 -
 >
 EventTargetFor
@@ -412,7 +397,6 @@ TaskCategory
 Other
 )
 ;
-}
 if
 (
 mLayers

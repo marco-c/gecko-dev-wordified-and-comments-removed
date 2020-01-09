@@ -101,7 +101,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -3534,7 +3538,7 @@ aStream
 nsXBLDocumentInfo
 *
 aDocInfo
-nsIDocument
+Document
 *
 aDocument
 uint8_t
@@ -4409,7 +4413,7 @@ aStream
 nsXBLDocumentInfo
 *
 aDocInfo
-nsIDocument
+Document
 *
 aDocument
 uint8_t
@@ -5155,7 +5159,7 @@ ReadContentNode
 nsIObjectInputStream
 *
 aStream
-nsIDocument
+Document
 *
 aDocument
 nsNodeInfoManager
@@ -7122,7 +7126,7 @@ true
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

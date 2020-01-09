@@ -187,7 +187,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -8958,7 +8962,7 @@ mResolved
 =
 true
 ;
-nsIDocument
+Document
 *
 doc
 =

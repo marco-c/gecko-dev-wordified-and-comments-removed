@@ -101,8 +101,8 @@ idl
 interface
 mozIDOMWindowProxy
 ;
-interface
-nsIDocument
+webidl
+Document
 ;
 webidl
 Element
@@ -1981,7 +1981,7 @@ void
 fireDelayedEvents
 (
 in
-nsIDocument
+Document
 aDocument
 )
 ;

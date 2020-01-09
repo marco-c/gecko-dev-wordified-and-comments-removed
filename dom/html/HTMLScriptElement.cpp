@@ -15,7 +15,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -248,7 +252,7 @@ HTMLScriptElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -835,7 +839,7 @@ HTMLScriptElement
 :
 FreezeExecutionAttrs
 (
-nsIDocument
+Document
 *
 aOwnerDoc
 )

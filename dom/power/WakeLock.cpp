@@ -55,7 +55,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -223,7 +227,7 @@ aWindow
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -617,7 +621,7 @@ mWindow
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -719,7 +723,7 @@ mWindow
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -885,7 +889,7 @@ visibilitychange
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

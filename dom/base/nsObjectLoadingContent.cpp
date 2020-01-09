@@ -43,7 +43,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -778,7 +782,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1159,7 +1163,7 @@ this
 )
 )
 ;
-nsIDocument
+Document
 *
 composedDoc
 =
@@ -1351,7 +1355,7 @@ mDocument
 }
 nsSimplePluginEvent
 (
-nsIDocument
+Document
 *
 aTarget
 const
@@ -1396,7 +1400,7 @@ nsSimplePluginEvent
 nsIContent
 *
 aTarget
-nsIDocument
+Document
 *
 aDocument
 const
@@ -1460,7 +1464,7 @@ mTarget
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -1686,7 +1690,7 @@ get
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2737,7 +2741,7 @@ nsObjectLoadingContent
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -2820,7 +2824,7 @@ MOZ_ASSERT
 thisElement
 )
 ;
-nsIDocument
+Document
 *
 ownerDoc
 =
@@ -2908,7 +2912,7 @@ mType
 eType_Plugin
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -3187,7 +3191,7 @@ this
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -6366,7 +6370,7 @@ content
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -6554,7 +6558,7 @@ content
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -8554,7 +8558,7 @@ content
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -10784,7 +10788,7 @@ content
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -11557,7 +11561,7 @@ aNotify
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -12743,7 +12747,7 @@ this
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -14098,7 +14102,7 @@ MOZ_ASSERT
 thisContent
 )
 ;
-nsIDocument
+Document
 *
 ownerDoc
 =
@@ -14153,7 +14157,7 @@ false
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 topDoc
 =
@@ -15233,7 +15237,7 @@ return
 mPreferFallback
 ;
 }
-nsIDocument
+Document
 *
 nsObjectLoadingContent
 :
@@ -15278,7 +15282,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 sub_doc
 =

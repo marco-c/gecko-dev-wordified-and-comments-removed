@@ -2947,7 +2947,7 @@ WorkerScriptLoaded
 (
 )
 ;
-nsIDocument
+Document
 *
 GetDocument
 (

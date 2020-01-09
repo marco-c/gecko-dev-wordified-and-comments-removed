@@ -237,7 +237,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -14460,7 +14464,7 @@ aCx
 JSObject
 *
 aObject
-nsIDocument
+Document
 :
 :
 DeprecatedOperations
@@ -14474,7 +14478,7 @@ const
 GlobalObject
 &
 aGlobal
-nsIDocument
+Document
 :
 :
 DeprecatedOperations

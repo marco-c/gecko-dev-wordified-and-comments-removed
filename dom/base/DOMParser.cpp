@@ -264,7 +264,7 @@ value
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMParser
 :
@@ -295,7 +295,7 @@ Text_html
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -479,7 +479,7 @@ aRv
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMParser
 :
@@ -526,7 +526,7 @@ aRv
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMParser
 :
@@ -620,7 +620,7 @@ aRv
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMParser
 :
@@ -769,7 +769,7 @@ bufferedStream
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -1343,7 +1343,7 @@ forget
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 DOMParser
 :
@@ -1395,7 +1395,7 @@ now
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

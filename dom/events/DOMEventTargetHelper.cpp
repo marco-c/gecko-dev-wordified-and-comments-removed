@@ -8,7 +8,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -614,7 +618,7 @@ GetOwner
 )
 ;
 }
-nsIDocument
+Document
 *
 DOMEventTargetHelper
 :
@@ -954,7 +958,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

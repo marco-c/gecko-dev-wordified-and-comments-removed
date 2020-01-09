@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -562,7 +566,7 @@ SetRequestReferrer
 nsIPrincipal
 *
 aPrincipal
-nsIDocument
+Document
 *
 aDoc
 nsIHttpChannel

@@ -625,7 +625,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

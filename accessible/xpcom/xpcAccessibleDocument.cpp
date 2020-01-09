@@ -334,7 +334,10 @@ xpcAccessibleDocument
 :
 GetDOMDocument
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 *
 aDOMDocument

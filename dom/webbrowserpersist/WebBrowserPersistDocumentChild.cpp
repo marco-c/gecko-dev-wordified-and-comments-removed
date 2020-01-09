@@ -30,7 +30,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -89,7 +93,10 @@ WebBrowserPersistDocumentChild
 :
 Start
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 )

@@ -145,7 +145,7 @@ apply
 Func
 =
 "
-nsIDocument
+Document
 :
 :
 AreWebAnimationsTimelinesEnabled

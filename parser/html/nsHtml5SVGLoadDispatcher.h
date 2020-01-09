@@ -35,9 +35,15 @@ nsIContent
 >
 mElement
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 >
 mDocument
 ;

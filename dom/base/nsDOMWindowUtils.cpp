@@ -747,13 +747,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 HTMLImageElement
 .
 h
@@ -784,6 +777,17 @@ mozilla
 layers
 /
 IAPZCTreeManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1442,7 +1446,7 @@ GetPresContext
 )
 ;
 }
-nsIDocument
+Document
 *
 nsDOMWindowUtils
 :
@@ -1788,7 +1792,7 @@ aIsForced
 =
 false
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1881,7 +1885,7 @@ nsAString
 aValue
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2275,7 +2279,7 @@ bool
 aAutoSize
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -5320,7 +5324,7 @@ GetWidget
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -5952,7 +5956,7 @@ aReturn
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -6023,7 +6027,7 @@ aReturn
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -6159,7 +6163,7 @@ root
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -7219,7 +7223,7 @@ aSuppress
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -7289,7 +7293,7 @@ aWindow
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -7537,7 +7541,7 @@ aOffsetY
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -7635,7 +7639,7 @@ aHeight
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -7869,7 +7873,7 @@ aResult
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -7973,7 +7977,7 @@ FlushLayoutWithoutThrottledAnimations
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8018,7 +8022,7 @@ DOMRect
 aResult
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -8683,7 +8687,7 @@ NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 targetDoc
 =
@@ -11204,7 +11208,7 @@ aMilliseconds
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -12361,7 +12365,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -12730,7 +12734,7 @@ FLUSH_STYLE
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -14810,7 +14814,7 @@ aPlugins
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -14965,7 +14969,7 @@ aFrameElement
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -15000,7 +15004,7 @@ RemoteFrameFullscreenReverted
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -15164,7 +15168,7 @@ fullscreen
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -15234,7 +15238,7 @@ oldSize
 *
 aRetVal
 =
-nsIDocument
+Document
 :
 :
 HandlePendingFullscreenRequests
@@ -15264,7 +15268,7 @@ fullscreen
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -15311,7 +15315,7 @@ GetPresShell
 oldSize
 )
 ;
-nsIDocument
+Document
 :
 :
 ExitFullscreenInDocTree
@@ -15618,7 +15622,7 @@ NS_OK
 ;
 }
 static
-nsIDocument
+Document
 :
 :
 additionalSheetType
@@ -15640,7 +15644,7 @@ nsDOMWindowUtils
 AGENT_SHEET
 :
 return
-nsIDocument
+Document
 :
 :
 eAgentSheet
@@ -15652,7 +15656,7 @@ nsDOMWindowUtils
 USER_SHEET
 :
 return
-nsIDocument
+Document
 :
 :
 eUserSheet
@@ -15664,7 +15668,7 @@ nsDOMWindowUtils
 AUTHOR_SHEET
 :
 return
-nsIDocument
+Document
 :
 :
 eAuthorSheet
@@ -15681,7 +15685,7 @@ type
 )
 ;
 return
-nsIDocument
+Document
 :
 :
 AdditionalSheetTypeCount
@@ -15728,7 +15732,7 @@ AUTHOR_SHEET
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -15742,7 +15746,7 @@ doc
 NS_ERROR_FAILURE
 )
 ;
-nsIDocument
+Document
 :
 :
 additionalSheetType
@@ -15850,7 +15854,7 @@ AUTHOR_SHEET
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -15920,7 +15924,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsIDocument
+Document
 :
 :
 additionalSheetType
@@ -15982,7 +15986,7 @@ AUTHOR_SHEET
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -15996,7 +16000,7 @@ doc
 NS_ERROR_FAILURE
 )
 ;
-nsIDocument
+Document
 :
 :
 additionalSheetType
@@ -17557,7 +17561,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -18926,7 +18930,7 @@ if
 (
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -18964,7 +18968,7 @@ const
 auto
 reportKind
 =
-nsIDocument
+Document
 :
 :
 UseCounterReportKind
@@ -19629,7 +19633,7 @@ EnsureDirtyRootFrame
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -20187,7 +20191,7 @@ aRecorded
 =
 false
 ;
-nsIDocument
+Document
 *
 doc
 =

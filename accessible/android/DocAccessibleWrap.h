@@ -34,7 +34,7 @@ public
 :
 DocAccessibleWrap
 (
-nsIDocument
+Document
 *
 aDocument
 nsIPresShell

@@ -473,7 +473,7 @@ aRv
 0
 ;
 virtual
-nsIDocument
+Document
 *
 GetResponseXML
 (

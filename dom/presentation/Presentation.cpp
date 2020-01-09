@@ -260,7 +260,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -656,7 +656,7 @@ false
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

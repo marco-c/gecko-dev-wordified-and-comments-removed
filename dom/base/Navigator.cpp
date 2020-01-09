@@ -2283,7 +2283,7 @@ cookieEnabled
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2499,7 +2499,7 @@ mWindow
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2846,7 +2846,7 @@ VibrateWindowListener
 nsPIDOMWindowInner
 *
 aWindow
-nsIDocument
+Document
 *
 aDocument
 )
@@ -2924,7 +2924,7 @@ static
 bool
 MayVibrate
 (
-nsIDocument
+Document
 *
 doc
 )
@@ -2957,7 +2957,7 @@ aEvent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3219,7 +3219,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3413,7 +3413,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4563,7 +4563,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4590,7 +4590,7 @@ doc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eRegisterProtocolHandlerInsecure
@@ -5325,7 +5325,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8233,7 +8233,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8484,7 +8484,7 @@ IsSecureContext
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -8561,7 +8561,7 @@ params
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

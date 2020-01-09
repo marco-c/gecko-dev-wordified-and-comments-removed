@@ -233,7 +233,11 @@ h
 #
 include
 "
-nsIDocumentInlines
+mozilla
+/
+dom
+/
+DocumentInlines
 .
 h
 "
@@ -674,7 +678,7 @@ void
 EnumerateShadowRoots
 (
 const
-nsIDocument
+Document
 &
 aDoc
 const
@@ -684,7 +688,7 @@ aCb
 )
 {
 const
-nsIDocument
+Document
 :
 :
 ShadowRootSet
@@ -3606,7 +3610,7 @@ AddDocStyleSheet
 StyleSheet
 *
 aSheet
-nsIDocument
+Document
 *
 aDocument
 )

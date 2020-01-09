@@ -234,7 +234,7 @@ SendShowEvent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -645,7 +645,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

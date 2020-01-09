@@ -328,7 +328,7 @@ null
 Func
 =
 "
-nsIDocument
+Document
 :
 :
 IsWebAnimationsEnabled

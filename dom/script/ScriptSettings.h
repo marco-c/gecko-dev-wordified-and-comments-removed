@@ -67,9 +67,6 @@ class
 nsIScriptContext
 ;
 class
-nsIDocument
-;
-class
 nsIDocShell
 ;
 namespace
@@ -78,6 +75,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 void
 InitScriptSettings
 (
@@ -109,7 +109,7 @@ GetEntryGlobal
 (
 )
 ;
-nsIDocument
+Document
 *
 GetEntryDocument
 (

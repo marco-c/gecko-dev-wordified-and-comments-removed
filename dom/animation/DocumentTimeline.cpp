@@ -208,7 +208,7 @@ ErrorResult
 aRv
 )
 {
-nsIDocument
+Document
 *
 doc
 =

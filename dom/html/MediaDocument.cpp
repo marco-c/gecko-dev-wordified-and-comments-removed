@@ -595,7 +595,7 @@ aSink
 nsresult
 rv
 =
-nsIDocument
+Document
 :
 :
 StartDocumentLoad
@@ -722,7 +722,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_LOADING
@@ -759,7 +759,7 @@ this
 ;
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_INTERACTIVE

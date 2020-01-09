@@ -527,7 +527,13 @@ nsILoadGroup
 aLoadGroup
 )
 ;
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 GetOurCurrentDoc
 (

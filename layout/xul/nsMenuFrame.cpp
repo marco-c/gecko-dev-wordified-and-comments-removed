@@ -94,7 +94,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -3154,7 +3158,7 @@ IsEmpty
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -4510,7 +4514,7 @@ IsEmpty
 )
 return
 ;
-nsIDocument
+Document
 *
 document
 =

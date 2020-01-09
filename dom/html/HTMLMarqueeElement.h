@@ -81,7 +81,7 @@ nsGenericHTMLElement
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

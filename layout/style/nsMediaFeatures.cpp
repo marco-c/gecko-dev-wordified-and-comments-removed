@@ -80,7 +80,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -205,7 +209,7 @@ static
 nsSize
 GetSize
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -268,7 +272,7 @@ static
 bool
 IsDeviceSizePageSize
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -307,7 +311,7 @@ static
 nsSize
 GetDeviceSize
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -405,7 +409,7 @@ size
 bool
 Gecko_MediaFeatures_IsResourceDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -424,7 +428,7 @@ nsDeviceContext
 *
 GetDeviceContextFor
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -462,7 +466,7 @@ DeviceContext
 void
 Gecko_MediaFeatures_GetDeviceSize
 (
-nsIDocument
+Document
 *
 aDocument
 nscoord
@@ -499,7 +503,7 @@ height
 uint32_t
 Gecko_MediaFeatures_GetColorDepth
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -552,7 +556,7 @@ depth
 float
 Gecko_MediaFeatures_GetResolution
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -648,16 +652,16 @@ AppUnitsPerDevPixel
 ;
 }
 static
-nsIDocument
+Document
 *
 TopDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
 {
-nsIDocument
+Document
 *
 current
 =
@@ -665,7 +669,7 @@ aDocument
 ;
 while
 (
-nsIDocument
+Document
 *
 parent
 =
@@ -689,12 +693,12 @@ current
 StyleDisplayMode
 Gecko_MediaFeatures_GetDisplayMode
 (
-nsIDocument
+Document
 *
 aDocument
 )
 {
-nsIDocument
+Document
 *
 rootDocument
 =
@@ -897,7 +901,7 @@ GetDisplayMode
 bool
 Gecko_MediaFeatures_HasSystemMetric
 (
-nsIDocument
+Document
 *
 aDocument
 nsAtom
@@ -952,7 +956,7 @@ nsAtom
 *
 Gecko_MediaFeatures_GetOperatingSystemVersion
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -1034,7 +1038,7 @@ nullptr
 bool
 Gecko_MediaFeatures_PrefersReducedMotion
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -1075,7 +1079,7 @@ static
 PointerCapabilities
 GetPointerCapabilities
 (
-nsIDocument
+Document
 *
 aDocument
 LookAndFeel
@@ -1218,7 +1222,7 @@ intValue
 PointerCapabilities
 Gecko_MediaFeatures_PrimaryPointerCapabilities
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -1237,7 +1241,7 @@ eIntID_PrimaryPointerCapabilities
 PointerCapabilities
 Gecko_MediaFeatures_AllPointerCapabilities
 (
-nsIDocument
+Document
 *
 aDocument
 )

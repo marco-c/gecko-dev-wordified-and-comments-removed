@@ -112,7 +112,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -175,6 +179,13 @@ mozilla
 :
 :
 css
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 nsCSSValue
 :
@@ -4815,7 +4826,7 @@ URLValue
 :
 LoadImage
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -4848,7 +4859,7 @@ sNextLoadID
 +
 ;
 }
-nsIDocument
+Document
 *
 loadingDoc
 =

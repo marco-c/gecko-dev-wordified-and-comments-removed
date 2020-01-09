@@ -1661,9 +1661,9 @@ aShellItem
 NS_ERROR_FAILURE
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 document
 =

@@ -2158,7 +2158,7 @@ SVGContentUtils
 :
 ReportToConsole
 (
-nsIDocument
+Document
 *
 doc
 const
@@ -2735,7 +2735,7 @@ true
 )
 ;
 }
-nsIDocument
+Document
 *
 currentDoc
 =

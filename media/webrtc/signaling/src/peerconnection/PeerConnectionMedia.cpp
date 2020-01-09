@@ -2657,7 +2657,7 @@ if
 aSendTrack
 )
 {
-nsIDocument
+Document
 *
 doc
 =

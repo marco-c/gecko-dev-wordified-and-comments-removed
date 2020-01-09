@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsIDocumentInlines
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -560,7 +553,22 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+DocumentInlines
 .
 h
 "
@@ -1532,7 +1540,7 @@ EventStates
 aStates
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -1656,7 +1664,7 @@ IsEmpty
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2291,7 +2299,7 @@ this
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -2491,7 +2499,7 @@ EventStates
 aStates
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2857,7 +2865,7 @@ bool
 MayNeedToLoadXBLBinding
 (
 const
-nsIDocument
+Document
 &
 aDocument
 const
@@ -2933,7 +2941,7 @@ Element
 :
 GetBindingURL
 (
-nsIDocument
+Document
 *
 aDocument
 css
@@ -3059,7 +3067,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3587,7 +3595,7 @@ scrollFrame
 }
 }
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3770,7 +3778,7 @@ ScrollIntoViewOptions
 aOptions
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -5574,7 +5582,7 @@ aId
 }
 else
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -5665,7 +5673,7 @@ id
 }
 else
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -6182,7 +6190,7 @@ DOCUMENT_FRAGMENT_NODE
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -6464,7 +6472,7 @@ ownerDoc
 =
 RefPtr
 <
-nsIDocument
+Document
 >
 (
 OwnerDoc
@@ -6574,7 +6582,7 @@ ownerDoc
 =
 RefPtr
 <
-nsIDocument
+Document
 >
 (
 OwnerDoc
@@ -6708,7 +6716,7 @@ scriptBlocker
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -8019,7 +8027,7 @@ Element
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -8678,7 +8686,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 eConnected
@@ -9093,7 +9101,7 @@ aManager
 nsIContent
 *
 aContent
-nsIDocument
+Document
 *
 aDoc
 )
@@ -9289,7 +9297,7 @@ RemoveFromIdTable
 )
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -9304,7 +9312,7 @@ HasPointerLock
 )
 )
 {
-nsIDocument
+Document
 :
 :
 UnlockPointer
@@ -9349,7 +9357,7 @@ RemovedFullscreenElement
 "
 )
 ;
-nsIDocument
+Document
 :
 :
 ExitFullscreenInDocTree
@@ -9848,7 +9856,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 eDisconnected
@@ -10094,7 +10102,7 @@ if
 aNotify
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -10548,7 +10556,7 @@ nsIContent
 aContent
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -11026,7 +11034,7 @@ FlushType
 aType
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -11128,7 +11136,7 @@ bool
 aDefer
 )
 {
-nsIDocument
+Document
 *
 ownerDoc
 =
@@ -11621,7 +11629,7 @@ value
 aSingleClassName
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -11834,7 +11842,7 @@ preparsedAttrValue
 )
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -12059,7 +12067,7 @@ aName
 value
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -12129,7 +12137,7 @@ bool
 aNotify
 bool
 aCallAfterSetAttr
-nsIDocument
+Document
 *
 aComposedDocument
 const
@@ -12520,7 +12528,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 eAttributeChanged
@@ -13183,7 +13191,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 eAttributeChanged
@@ -13435,7 +13443,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -13784,7 +13792,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 eAttributeChanged
@@ -14502,7 +14510,7 @@ Element
 this
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -15523,7 +15531,7 @@ GetLinkHandler
 (
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -17591,7 +17599,7 @@ Animation
 aAnimations
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -18587,7 +18595,7 @@ destination
 this
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -20297,7 +20305,7 @@ Element
 :
 ClearServoData
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -21438,7 +21446,7 @@ IsInComposedDoc
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -21943,7 +21951,7 @@ HasServoData
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

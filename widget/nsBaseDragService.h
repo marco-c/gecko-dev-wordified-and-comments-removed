@@ -115,9 +115,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsINode
 ;
 class
@@ -409,9 +406,15 @@ mSourceNode
 nsCString
 mTriggeringPrincipalURISpec
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 >
 mSourceDocument
 ;

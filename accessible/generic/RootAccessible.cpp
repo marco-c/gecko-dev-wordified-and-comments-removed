@@ -187,7 +187,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -288,7 +292,7 @@ RootAccessible
 :
 RootAccessible
 (
-nsIDocument
+Document
 *
 aDocument
 nsIPresShell
@@ -2239,9 +2243,9 @@ if
 contentWindow
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 contentDocumentNode
 =

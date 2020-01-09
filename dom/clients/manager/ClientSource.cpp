@@ -423,7 +423,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1144,7 +1144,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

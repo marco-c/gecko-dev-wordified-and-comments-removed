@@ -124,7 +124,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -11853,7 +11857,13 @@ sizes
 mState
 )
 ;
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 :
 :
 AddSizeOfNodeTree

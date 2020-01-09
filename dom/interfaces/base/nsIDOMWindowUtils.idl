@@ -785,7 +785,7 @@ tag
 .
 *
 See
-nsIDocument
+Document
 :
 :
 GetViewportInfo

@@ -86,9 +86,6 @@ nsINode
 h
 "
 class
-nsIDocument
-;
-class
 txAExprResult
 ;
 #
@@ -738,9 +735,9 @@ nsINode
 >
 mResultNodes
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

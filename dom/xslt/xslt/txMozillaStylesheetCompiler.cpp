@@ -15,7 +15,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1576,7 +1580,7 @@ txCompileObserver
 txMozillaXSLTProcessor
 *
 aProcessor
-nsIDocument
+Document
 *
 aLoaderDocument
 )
@@ -1613,7 +1617,7 @@ mProcessor
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mLoaderDocument
 ;
@@ -1637,7 +1641,7 @@ txCompileObserver
 txMozillaXSLTProcessor
 *
 aProcessor
-nsIDocument
+Document
 *
 aLoaderDocument
 )
@@ -2105,7 +2109,7 @@ aUri
 txMozillaXSLTProcessor
 *
 aProcessor
-nsIDocument
+Document
 *
 aLoaderDocument
 ReferrerPolicy
@@ -2801,7 +2805,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 ;
@@ -2937,7 +2941,7 @@ aStylesheet
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

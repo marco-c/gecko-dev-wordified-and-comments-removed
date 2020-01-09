@@ -202,7 +202,7 @@ NS_UnescapeURL
 refPart
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -492,7 +492,7 @@ isEqualExceptRef
 {
 RefPtr
 <
-nsIDocument
+Document
 :
 :
 ExternalResourceLoad
@@ -1066,7 +1066,7 @@ mTarget
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

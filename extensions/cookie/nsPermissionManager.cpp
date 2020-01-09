@@ -237,7 +237,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -9452,9 +9456,9 @@ From
 aWindow
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 document
 =

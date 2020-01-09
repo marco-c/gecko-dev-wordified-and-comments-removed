@@ -71,7 +71,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -253,7 +257,7 @@ Init
 nsIDocShell
 *
 aDocShell
-nsIDocument
+Document
 *
 aDoc
 bool
@@ -392,7 +396,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 dummy
 =

@@ -280,7 +280,7 @@ thisDocShellItem
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 topDoc
 ;
@@ -1246,7 +1246,7 @@ topURI
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

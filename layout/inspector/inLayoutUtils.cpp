@@ -8,7 +8,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -90,7 +94,7 @@ Element
 aElement
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -128,7 +132,7 @@ EventStateManager
 )
 ;
 }
-nsIDocument
+Document
 *
 inLayoutUtils
 :
@@ -158,7 +162,7 @@ content
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -197,7 +201,7 @@ inLayoutUtils
 GetContainerFor
 (
 const
-nsIDocument
+Document
 &
 aDoc
 )

@@ -364,7 +364,7 @@ href
 baseURI
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -656,7 +656,7 @@ SVGFEImageElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

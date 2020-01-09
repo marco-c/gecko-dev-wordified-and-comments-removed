@@ -3141,7 +3141,10 @@ loaded
 {
 nsCOMPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 doc
 =

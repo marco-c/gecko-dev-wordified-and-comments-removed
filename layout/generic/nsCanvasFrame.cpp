@@ -362,7 +362,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

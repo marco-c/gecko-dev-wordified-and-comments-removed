@@ -70,7 +70,7 @@ namespace
 void
 ReportToConsoleUnsupportedFeature
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -129,7 +129,7 @@ params
 void
 ReportToConsoleInvalidEmptyAllowValue
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -188,7 +188,7 @@ params
 void
 ReportToConsoleInvalidAllowValue
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -255,7 +255,7 @@ const
 nsAString
 &
 aPolicy
-nsIDocument
+Document
 *
 aDocument
 nsIPrincipal

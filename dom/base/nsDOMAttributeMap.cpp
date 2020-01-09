@@ -89,7 +89,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -434,7 +438,7 @@ nsDOMAttributeMap
 :
 SetOwnerDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )

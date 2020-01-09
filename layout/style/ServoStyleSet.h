@@ -187,9 +187,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsPresContext
 ;
 struct
@@ -746,7 +743,10 @@ AddDocStyleSheet
 StyleSheet
 *
 aSheet
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 )
@@ -1327,7 +1327,10 @@ StyleSheet
 aSheet
 )
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 mDocument
 ;

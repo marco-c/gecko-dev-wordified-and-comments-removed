@@ -48,9 +48,6 @@ nsStubMutationObserver
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -60,6 +57,9 @@ EventChainPreVisitor
 namespace
 dom
 {
+class
+Document
+;
 class
 Attr
 final
@@ -205,7 +205,7 @@ const
 nsresult
 SetOwnerDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )

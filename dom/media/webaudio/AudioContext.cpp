@@ -1255,7 +1255,7 @@ DispatchBlockedEvent
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -4099,7 +4099,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -5199,7 +5199,7 @@ parent
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

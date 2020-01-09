@@ -350,7 +350,7 @@ virtual
 nsresult
 Init
 (
-nsIDocument
+Document
 &
 aDoc
 Element
@@ -1080,7 +1080,7 @@ virtual
 nsresult
 InsertTextWithTransaction
 (
-nsIDocument
+Document
 &
 aDocument
 const
@@ -3593,7 +3593,7 @@ HTMLEditor
 aHTMLEditor
 bool
 aIsSafe
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -3655,7 +3655,7 @@ mHTMLEditor
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mSourceDoc
 ;
@@ -4136,7 +4136,7 @@ nsISupports
 aObject
 bool
 aIsSafe
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -4174,7 +4174,7 @@ InsertFromTransferable
 nsITransferable
 *
 transferable
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -4204,7 +4204,7 @@ DataTransfer
 aDataTransfer
 int32_t
 aIndex
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -4305,7 +4305,7 @@ aStr
 nsAtom
 *
 aContextLocalName
-nsIDocument
+Document
 *
 aTargetDoc
 dom
@@ -4659,7 +4659,7 @@ const
 nsAString
 &
 aFlavor
-nsIDocument
+Document
 *
 aSourceDoc
 const

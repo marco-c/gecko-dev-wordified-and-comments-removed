@@ -70,9 +70,6 @@ ShadowRoot
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -298,7 +295,7 @@ aError
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

@@ -751,7 +751,13 @@ GenerateStateKey
 nsIContent
 *
 aContent
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 nsACString

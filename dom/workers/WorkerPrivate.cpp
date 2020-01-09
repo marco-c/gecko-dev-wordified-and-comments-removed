@@ -5442,7 +5442,7 @@ false
 endif
 {
 }
-nsIDocument
+Document
 *
 WorkerPrivate
 :
@@ -10016,7 +10016,7 @@ aCx
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 ;
@@ -10236,7 +10236,7 @@ SANDBOXED_ORIGIN
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 tmpDoc
 =

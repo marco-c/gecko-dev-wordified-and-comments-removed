@@ -6576,9 +6576,9 @@ failed
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -28056,7 +28056,7 @@ HTMLEditRules
 :
 CreateStyleForInsertText
 (
-nsIDocument
+Document
 &
 aDocument
 )

@@ -37,7 +37,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -355,7 +359,7 @@ HTMLStyleElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -441,7 +445,7 @@ aNullParent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 oldDoc
 =

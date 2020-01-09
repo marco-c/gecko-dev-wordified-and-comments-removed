@@ -6525,7 +6525,7 @@ this
 ;
 }
 static
-nsIDocument
+Document
 *
 GetLinkDocument
 (
@@ -6712,7 +6712,7 @@ IsEmpty
 {
 nsTArray
 <
-nsIDocument
+Document
 *
 >
 seen
@@ -6748,7 +6748,7 @@ GetNext
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -6798,7 +6798,7 @@ NotifyVisitedForDocument
 nsIURI
 *
 aURI
-nsIDocument
+Document
 *
 aDocument
 )
@@ -6865,7 +6865,7 @@ GetNext
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -6949,14 +6949,14 @@ DispatchNotifyVisited
 nsIURI
 *
 aURI
-nsIDocument
+Document
 *
 aDocument
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -1985,7 +1985,10 @@ override
 void
 FlushConsoleReports
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 ReportAction

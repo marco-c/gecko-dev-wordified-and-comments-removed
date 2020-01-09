@@ -596,7 +596,7 @@ MOZ_ASSERT
 aOwner
 )
 ;
-nsIDocument
+Document
 *
 aDoc
 =

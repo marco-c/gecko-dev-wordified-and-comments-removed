@@ -64,9 +64,6 @@ h
 class
 nsAtom
 ;
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -328,6 +325,16 @@ mozilla
 dom
 :
 :
+Document
+Document
+;
+typedef
+mozilla
+:
+:
+dom
+:
+:
 Element
 Element
 ;
@@ -369,7 +376,7 @@ mContent
 nsresult
 SetOwnerDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )

@@ -118,7 +118,7 @@ AnimationEffect
 :
 AnimationEffect
 (
-nsIDocument
+Document
 *
 aDocument
 TimingParams

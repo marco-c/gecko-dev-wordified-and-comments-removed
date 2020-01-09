@@ -661,7 +661,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -6119,9 +6123,9 @@ get
 )
 }
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -40601,7 +40605,7 @@ warner
 >
 IssueWarning
 (
-nsIDocument
+Document
 :
 :
 eAppCache
@@ -40640,7 +40644,7 @@ warner
 >
 IssueWarning
 (
-nsIDocument
+Document
 :
 :
 eAppCacheInsecure

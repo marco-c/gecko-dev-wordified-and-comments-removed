@@ -292,7 +292,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -349,13 +353,6 @@ h
 include
 "
 nsIEditor
-.
-h
-"
-#
-include
-"
-nsIDocument
 .
 h
 "
@@ -3386,7 +3383,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3574,7 +3571,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -4123,7 +4120,7 @@ UploadLastDir
 :
 FetchDirectoryAndDisplayPicker
 (
-nsIDocument
+Document
 *
 aDoc
 nsIFilePicker
@@ -4284,7 +4281,7 @@ UploadLastDir
 :
 StoreLastUsedDirectory
 (
-nsIDocument
+Document
 *
 aDoc
 nsIFile
@@ -17742,7 +17739,7 @@ SelectTextFieldOnFocus
 )
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -19861,7 +19858,7 @@ HTMLInputElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

@@ -204,7 +204,7 @@ aExpression
 txResultRecycler
 *
 aRecycler
-nsIDocument
+Document
 *
 aDocument
 )
@@ -447,7 +447,7 @@ mCheckDocument
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

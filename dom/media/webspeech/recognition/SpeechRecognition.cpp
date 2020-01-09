@@ -163,7 +163,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -3409,7 +3413,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

@@ -5792,7 +5792,7 @@ LayersBackend
 LAYERS_NONE
 ;
 }
-nsIDocument
+Document
 *
 WebGLContext
 :
@@ -11147,7 +11147,7 @@ AvailabilityRunnable
 this
 )
 ;
-nsIDocument
+Document
 *
 document
 =

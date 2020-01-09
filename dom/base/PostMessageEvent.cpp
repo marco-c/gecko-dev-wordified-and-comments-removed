@@ -319,12 +319,11 @@ nsCOMPtr
 nsIURI
 >
 callerDocumentURI
-;
-callerDocumentURI
-.
-swap
-(
+=
 mCallerDocumentURI
+.
+forget
+(
 )
 ;
 RefPtr

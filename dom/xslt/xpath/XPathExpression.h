@@ -60,9 +60,6 @@ class
 Expr
 ;
 class
-nsIDocument
-;
-class
 nsINode
 ;
 class
@@ -98,7 +95,7 @@ aExpression
 txResultRecycler
 *
 aRecycler
-nsIDocument
+Document
 *
 aDocument
 )

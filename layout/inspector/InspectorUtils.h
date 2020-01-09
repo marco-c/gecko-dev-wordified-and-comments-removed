@@ -19,9 +19,6 @@ class
 nsAtom
 ;
 class
-nsIDocument
-;
-class
 ComputedStyle
 ;
 namespace
@@ -69,7 +66,7 @@ GetAllStyleSheets
 GlobalObject
 &
 aGlobal
-nsIDocument
+Document
 &
 aDocument
 bool

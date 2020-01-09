@@ -70,7 +70,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -605,7 +609,7 @@ level
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

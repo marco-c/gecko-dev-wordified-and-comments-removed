@@ -52675,7 +52675,7 @@ DeprecationWarning
 (
 cx
 obj
-nsIDocument
+Document
 :
 :
 e
@@ -64219,7 +64219,7 @@ DeprecationWarning
 (
 cx
 obj
-nsIDocument
+Document
 :
 :
 eLenientSetter
@@ -98045,7 +98045,11 @@ iface
 bindingHeaders
 [
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "

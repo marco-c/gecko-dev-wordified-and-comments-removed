@@ -15,7 +15,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1631,7 +1635,7 @@ this
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1764,7 +1768,7 @@ this
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1920,7 +1924,7 @@ aDoFlush
 mFlushesNeeded
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -3892,7 +3896,7 @@ aDoFlush
 mFlushesNeeded
 )
 {
-nsIDocument
+Document
 *
 doc
 =

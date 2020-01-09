@@ -177,7 +177,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -230,7 +234,10 @@ ptr
 "
 )
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 doc
 =

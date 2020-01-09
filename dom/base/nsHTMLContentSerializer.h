@@ -97,7 +97,13 @@ override
 NS_IMETHOD
 AppendDocumentStart
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 nsAString

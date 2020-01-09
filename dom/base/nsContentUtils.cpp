@@ -279,6 +279,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MessageBroadcaster
 .
 h
@@ -894,13 +905,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsDOMCID
 .
 h
@@ -1101,7 +1105,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -9190,7 +9198,7 @@ nsContentUtils
 :
 GetOfflineAppManifest
 (
-nsIDocument
+Document
 *
 aDocument
 nsIURI
@@ -10365,7 +10373,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -10528,7 +10536,7 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -11231,7 +11239,7 @@ return
 parent
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -11242,7 +11250,7 @@ AsDocument
 (
 )
 ;
-nsIDocument
+Document
 *
 parentDoc
 =
@@ -13712,7 +13720,7 @@ GenerateStateKey
 nsIContent
 *
 aContent
-nsIDocument
+Document
 *
 aDocument
 nsACString
@@ -14456,7 +14464,7 @@ const
 nsAString
 &
 aSpec
-nsIDocument
+Document
 *
 aDocument
 nsIURI
@@ -15772,7 +15780,7 @@ nsIContent
 aContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -15855,7 +15863,7 @@ aURI
 nsINode
 *
 aNode
-nsIDocument
+Document
 *
 aLoadingDocument
 nsIPrincipal
@@ -16087,7 +16095,7 @@ nsContentUtils
 :
 GetOriginAttributes
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -16260,7 +16268,7 @@ nsContentUtils
 :
 IsInPrivateBrowsing
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -16447,7 +16455,7 @@ nsContentUtils
 :
 DocumentInactiveForImageLoads
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -16514,7 +16522,7 @@ nsContentUtils
 :
 GetImgLoaderForDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -16580,7 +16588,7 @@ GetImgLoaderForChannel
 nsIChannel
 *
 aChannel
-nsIDocument
+Document
 *
 aContext
 )
@@ -16657,7 +16665,7 @@ IsImageInCache
 nsIURI
 *
 aURI
-nsIDocument
+Document
 *
 aDocument
 )
@@ -16771,7 +16779,7 @@ aURI
 nsINode
 *
 aContext
-nsIDocument
+Document
 *
 aLoadingDocument
 nsIPrincipal
@@ -17075,7 +17083,7 @@ nsContentUtils
 :
 GetStaticRequest
 (
-nsIDocument
+Document
 *
 aLoadingDocument
 imgRequestProxy
@@ -18487,7 +18495,7 @@ nsACString
 &
 aCategory
 const
-nsIDocument
+Document
 *
 aDocument
 PropertiesFile
@@ -18615,7 +18623,7 @@ nsContentUtils
 ReportEmptyGetElementByIdArg
 (
 const
-nsIDocument
+Document
 *
 aDoc
 )
@@ -18660,7 +18668,7 @@ nsACString
 &
 aCategory
 const
-nsIDocument
+Document
 *
 aDocument
 nsIURI
@@ -18973,7 +18981,7 @@ nsContentUtils
 :
 IsChromeDoc
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -19006,7 +19014,7 @@ nsContentUtils
 :
 IsChildOfSameType
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -19207,7 +19215,7 @@ nsContentUtils
 :
 IsInChromeDocshell
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -19831,7 +19839,7 @@ static
 nsresult
 GetEventAndTarget
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -19984,7 +19992,7 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -20048,7 +20056,7 @@ nsContentUtils
 :
 DispatchUntrustedEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -20093,7 +20101,7 @@ nsContentUtils
 :
 DispatchEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -20223,7 +20231,7 @@ nsContentUtils
 :
 DispatchEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -20668,7 +20676,7 @@ NS_ERROR_FAILURE
 }
 else
 {
-nsIDocument
+Document
 *
 document
 =
@@ -20821,7 +20829,7 @@ nsContentUtils
 :
 DispatchChromeEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -20988,9 +20996,9 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -21039,7 +21047,7 @@ nsContentUtils
 :
 DispatchEventOnlyToChrome
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -21208,14 +21216,14 @@ id
 )
 ;
 }
-nsIDocument
+Document
 *
 nsContentUtils
 :
 :
 GetSubdocumentWithOuterWindowId
 (
-nsIDocument
+Document
 *
 aDocument
 uint64_t
@@ -21273,9 +21281,9 @@ AsOuter
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 foundDoc
 =
@@ -21475,7 +21483,7 @@ nsINode
 aTargetForSubtreeModified
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -21705,7 +21713,7 @@ nsContentUtils
 :
 HasMutationListeners
 (
-nsIDocument
+Document
 *
 aDocument
 uint32_t
@@ -22514,9 +22522,9 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -23418,7 +23426,7 @@ const
 nsAString
 &
 aSourceBuffer
-nsIDocument
+Document
 *
 aTargetDocument
 bool
@@ -23531,7 +23539,7 @@ const
 nsAString
 &
 aSourceBuffer
-nsIDocument
+Document
 *
 aDocument
 nsTArray
@@ -23860,9 +23868,9 @@ CreateWithoutOriginAttributes
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 document
 ;
@@ -24011,7 +24019,7 @@ nullptr
 )
 ;
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -25875,7 +25883,7 @@ nsContentUtils
 :
 WarnScriptWasIgnored
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -26219,7 +26227,7 @@ static
 void
 ProcessViewportToken
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -26562,7 +26570,7 @@ nsContentUtils
 :
 ProcessViewportInfo
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -26817,7 +26825,7 @@ nsContentUtils
 :
 HidePopupsInDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -27388,7 +27396,7 @@ return
 true
 ;
 }
-nsIDocument
+Document
 *
 targetDoc
 =
@@ -27463,9 +27471,9 @@ return
 false
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -29678,7 +29686,7 @@ NS_ENSURE_STATE
 aTarget
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -30512,7 +30520,7 @@ nsIContent
 aContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -30548,7 +30556,7 @@ return
 true
 ;
 }
-nsIDocument
+Document
 *
 subDoc
 =
@@ -30800,9 +30808,9 @@ return
 }
 if
 (
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -31178,19 +31186,19 @@ nsContentUtils
 FindPresShellForDocument
 (
 const
-nsIDocument
+Document
 *
 aDoc
 )
 {
 const
-nsIDocument
+Document
 *
 doc
 =
 aDoc
 ;
-nsIDocument
+Document
 *
 displayDoc
 =
@@ -31314,7 +31322,7 @@ nsContentUtils
 WidgetForDocument
 (
 const
-nsIDocument
+Document
 *
 aDoc
 )
@@ -31533,7 +31541,7 @@ LayerManager
 LayerManagerForDocumentInternal
 (
 const
-nsIDocument
+Document
 *
 aDoc
 bool
@@ -31603,7 +31611,7 @@ nsContentUtils
 LayerManagerForDocument
 (
 const
-nsIDocument
+Document
 *
 aDoc
 )
@@ -31625,7 +31633,7 @@ nsContentUtils
 :
 PersistentLayerManagerForDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -31973,7 +31981,7 @@ ReportPatternCompileFailure
 nsAString
 &
 aPattern
-nsIDocument
+Document
 *
 aDocument
 JSContext
@@ -32200,7 +32208,7 @@ aValue
 nsAString
 &
 aPattern
-nsIDocument
+Document
 *
 aDocument
 )
@@ -32715,10 +32723,10 @@ nsContentUtils
 :
 HaveEqualPrincipals
 (
-nsIDocument
+Document
 *
 aDoc1
-nsIDocument
+Document
 *
 aDoc2
 )
@@ -32890,7 +32898,7 @@ nsContentUtils
 :
 FireMutationEventsForDirectParsing
 (
-nsIDocument
+Document
 *
 aDoc
 nsIContent
@@ -33009,14 +33017,14 @@ childNodes
 ;
 }
 }
-nsIDocument
+Document
 *
 nsContentUtils
 :
 :
 GetRootDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -33031,7 +33039,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -33084,7 +33092,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 pointerLockedDoc
 =
@@ -39730,9 +39738,9 @@ bool
 aOnlySystemGroup
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -39990,9 +39998,9 @@ aOnlySystemGroup
 ;
 }
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -40048,7 +40056,7 @@ nsContentUtils
 :
 GetWindowRoot
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -40173,7 +40181,7 @@ SetFetchReferrerURIWithPolicy
 nsIPrincipal
 *
 aPrincipal
-nsIDocument
+Document
 *
 aDoc
 nsIHttpChannel
@@ -40685,7 +40693,7 @@ aWindow
 {
 if
 (
-nsIDocument
+Document
 *
 document
 =
@@ -40747,7 +40755,7 @@ nsContentUtils
 :
 StorageAllowedForDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -41345,7 +41353,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -41417,7 +41425,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -41803,7 +41811,7 @@ if
 aWindow
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -45888,9 +45896,9 @@ receiver
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -46245,7 +46253,7 @@ nsContentUtils
 :
 HttpsStateIsModern
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -46587,7 +46595,7 @@ Element
 *
 *
 aElement
-nsIDocument
+Document
 *
 aDoc
 NodeInfo
@@ -47161,7 +47169,7 @@ if
 global
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -47706,7 +47714,7 @@ nsContentUtils
 :
 GetCustomElementRegistry
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -47768,7 +47776,7 @@ nsContentUtils
 :
 LookupCustomElementDefinition
 (
-nsIDocument
+Document
 *
 aDoc
 nsAtom
@@ -47851,7 +47859,7 @@ MOZ_ASSERT
 aElement
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -47906,7 +47914,7 @@ MOZ_ASSERT
 aElement
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -47974,7 +47982,7 @@ GetCustomElementType
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -48029,7 +48037,7 @@ MOZ_ASSERT
 aElement
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -48086,7 +48094,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 ElementCallbackType
@@ -48859,7 +48867,7 @@ nsContentUtils
 :
 AppendDocumentLevelNativeAnonymousContentTo
 (
-nsIDocument
+Document
 *
 aDocument
 nsTArray
@@ -49846,7 +49854,7 @@ if
 content
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -50011,7 +50019,7 @@ if
 aContent
 )
 {
-nsIDocument
+Document
 *
 currentDoc
 =
@@ -50426,9 +50434,9 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

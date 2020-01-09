@@ -66,7 +66,7 @@ GeneratedImageContent
 >
 Create
 (
-nsIDocument
+Document
 &
 uint32_t
 aContentIndex

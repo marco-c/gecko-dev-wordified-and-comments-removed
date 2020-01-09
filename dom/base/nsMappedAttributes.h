@@ -306,7 +306,13 @@ const
 void
 LazilyResolveServoDeclaration
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 )

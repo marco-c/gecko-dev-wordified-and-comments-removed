@@ -100,7 +100,10 @@ KeyframeEffect
 {
 ElementPropertyTransition
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 Maybe

@@ -206,7 +206,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -329,7 +333,7 @@ aWindow
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -400,7 +404,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

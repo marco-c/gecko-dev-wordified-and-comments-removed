@@ -2430,7 +2430,7 @@ IsShutdown
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -4970,7 +4970,7 @@ GetOwner
 (
 )
 ;
-nsIDocument
+Document
 *
 ownerDoc
 =

@@ -158,7 +158,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1271,7 +1275,7 @@ HTMLFormElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -2240,7 +2244,7 @@ EventMessage
 aMessage
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2770,7 +2774,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3164,7 +3168,7 @@ aCancelSubmit
 =
 false
 ;
-nsIDocument
+Document
 *
 parent
 =
@@ -6138,7 +6142,7 @@ IsEmpty
 )
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -6393,7 +6397,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 document
 =

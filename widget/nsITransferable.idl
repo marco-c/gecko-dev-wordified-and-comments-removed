@@ -980,7 +980,7 @@ can
 just
 call
 *
-nsIDocument
+Document
 :
 :
 GetLoadContext

@@ -317,7 +317,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1709,7 +1713,7 @@ forget
 }
 already_AddRefed
 <
-nsIDocument
+Document
 >
 IDBDatabase
 :
@@ -1732,7 +1736,7 @@ GetOwner
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

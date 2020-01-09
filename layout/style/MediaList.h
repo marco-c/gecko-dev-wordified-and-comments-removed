@@ -50,9 +50,6 @@ nsWrapperCache
 h
 "
 class
-nsIDocument
-;
-class
 nsPresContext
 ;
 class

@@ -287,7 +287,7 @@ LenientSetter
 Func
 =
 "
-nsIDocument
+Document
 :
 :
 IsUnprefixedFullscreenEnabled

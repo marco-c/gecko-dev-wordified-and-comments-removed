@@ -726,7 +726,7 @@ aRv
 override
 ;
 virtual
-nsIDocument
+Document
 *
 GetResponseXML
 (

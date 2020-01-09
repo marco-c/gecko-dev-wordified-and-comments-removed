@@ -147,7 +147,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1098,7 +1102,7 @@ name
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1158,7 +1162,7 @@ NameAtom
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -1948,7 +1952,7 @@ nsGenericHTMLElement
 :
 InNavQuirksMode
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -2101,7 +2105,7 @@ nsGenericHTMLElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -3657,7 +3661,7 @@ nsPIDOMWindowInner
 *
 win
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -4513,7 +4517,7 @@ IsEmpty
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -4757,7 +4761,7 @@ PresContextFor
 aFor
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -7760,7 +7764,7 @@ IsEmpty
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -8498,7 +8502,7 @@ nsGenericHTMLFormElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -9776,7 +9780,7 @@ FocusState
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -11121,7 +11125,7 @@ IsEmpty
 )
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -11219,7 +11223,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -11326,7 +11330,7 @@ int32_t
 aTabIndex
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -11994,7 +11998,7 @@ IsEditableRoot
 )
 const
 {
-nsIDocument
+Document
 *
 document
 =
@@ -12071,7 +12075,7 @@ MakeContentDescendantsEditable
 nsIContent
 *
 aContent
-nsIDocument
+Document
 *
 aDocument
 )
@@ -12191,7 +12195,7 @@ int32_t
 aChange
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -12331,7 +12335,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -12518,7 +12522,7 @@ aRead
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -12674,7 +12678,7 @@ nsGenericHTMLFormElementWithState
 :
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )
@@ -13006,7 +13010,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -13149,7 +13153,7 @@ ErrorResult
 aError
 )
 {
-nsIDocument
+Document
 *
 doc
 =

@@ -98,7 +98,7 @@ int32_t
 aTabIndex
 )
 {
-nsIDocument
+Document
 *
 doc
 =

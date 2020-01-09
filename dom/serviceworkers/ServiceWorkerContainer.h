@@ -441,7 +441,7 @@ function
 <
 void
 (
-nsIDocument
+Document
 *
 )
 >

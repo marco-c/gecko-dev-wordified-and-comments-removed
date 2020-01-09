@@ -93,7 +93,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -5139,7 +5143,10 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIFile

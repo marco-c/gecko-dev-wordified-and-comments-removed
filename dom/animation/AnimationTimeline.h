@@ -73,9 +73,6 @@ nsTHashtable
 .
 h
 "
-class
-nsIDocument
-;
 namespace
 mozilla
 {
@@ -84,6 +81,9 @@ dom
 {
 class
 Animation
+;
+class
+Document
 ;
 class
 AnimationTimeline
@@ -283,7 +283,7 @@ aAnimation
 )
 ;
 virtual
-nsIDocument
+Document
 *
 GetDocument
 (

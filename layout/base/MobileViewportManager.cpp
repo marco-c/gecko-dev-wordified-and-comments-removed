@@ -88,7 +88,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -174,7 +178,7 @@ MobileViewportManager
 nsIPresShell
 *
 aPresShell
-nsIDocument
+Document
 *
 aDocument
 )

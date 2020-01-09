@@ -187,15 +187,15 @@ const
 struct
 LifecycleAdoptedCallbackArgs
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mOldDocument
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mNewDocument
 ;
@@ -211,7 +211,7 @@ CustomElementCallback
 Element
 *
 aThisObject
-nsIDocument
+Document
 :
 :
 ElementCallbackType
@@ -256,7 +256,7 @@ MOZ_ASSERT
 mType
 =
 =
-nsIDocument
+Document
 :
 :
 eAttributeChanged
@@ -291,7 +291,7 @@ MOZ_ASSERT
 mType
 =
 =
-nsIDocument
+Document
 :
 :
 eAdopted
@@ -326,7 +326,7 @@ CallbackFunction
 >
 mCallback
 ;
-nsIDocument
+Document
 :
 :
 ElementCallbackType
@@ -1240,7 +1240,7 @@ static
 void
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 ElementCallbackType
@@ -1428,7 +1428,7 @@ CustomElementCallback
 >
 CreateCustomElementCallback
 (
-nsIDocument
+Document
 :
 :
 ElementCallbackType

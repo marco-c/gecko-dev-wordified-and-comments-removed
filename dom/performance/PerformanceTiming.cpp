@@ -42,7 +42,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2807,7 +2811,7 @@ const
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =

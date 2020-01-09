@@ -104,7 +104,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1363,7 +1367,7 @@ HTMLButtonElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

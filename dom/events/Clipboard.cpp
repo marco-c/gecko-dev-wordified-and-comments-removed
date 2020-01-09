@@ -671,7 +671,7 @@ GetOwner
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

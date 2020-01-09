@@ -2580,7 +2580,7 @@ nsILoadInfo
 .
 idl
 and
-nsIDocument
+Document
 :
 :
 AncestorPrincipals

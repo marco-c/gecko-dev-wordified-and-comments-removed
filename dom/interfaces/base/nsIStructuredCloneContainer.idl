@@ -116,9 +116,6 @@ idl
 interface
 nsIVariant
 ;
-interface
-nsIDocument
-;
 %
 {
 C

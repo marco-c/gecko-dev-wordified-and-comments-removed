@@ -1173,7 +1173,7 @@ true
 bool
 GetBindingURL
 (
-nsIDocument
+Document
 *
 aDocument
 css
@@ -1324,7 +1324,7 @@ GetComposedDoc
 void
 ClearServoData
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -1760,7 +1760,7 @@ override
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -4765,7 +4765,7 @@ virtual
 void
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )
@@ -5217,7 +5217,7 @@ bool
 aNotify
 bool
 aCallAfterSetAttr
-nsIDocument
+Document
 *
 aComposedDocument
 const
@@ -5594,7 +5594,7 @@ aManager
 nsIContent
 *
 aContent
-nsIDocument
+Document
 *
 aDoc
 )
@@ -5625,9 +5625,9 @@ nsIContent
 >
 mContent
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDoc
 ;

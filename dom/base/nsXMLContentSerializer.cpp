@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -4992,7 +4996,7 @@ nsXMLContentSerializer
 :
 AppendDocumentStart
 (
-nsIDocument
+Document
 *
 aDocument
 nsAString

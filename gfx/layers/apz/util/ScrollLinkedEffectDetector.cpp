@@ -8,7 +8,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -74,7 +78,10 @@ ScrollLinkedEffectDetector
 :
 ScrollLinkedEffectDetector
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 )

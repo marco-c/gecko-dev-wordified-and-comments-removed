@@ -305,13 +305,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -449,7 +442,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1403,7 +1400,7 @@ mComposed
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -1940,7 +1937,7 @@ if
 htmlEditor
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -2074,7 +2071,7 @@ if
 content
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -3002,7 +2999,7 @@ IsEmpty
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -5475,7 +5472,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -5772,7 +5769,7 @@ WantAllTraces
 )
 )
 {
-nsIDocument
+Document
 *
 currentDoc
 =
@@ -6278,7 +6275,7 @@ already
 "
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -6681,7 +6678,7 @@ DidMutate
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -7984,7 +7981,7 @@ const
 OwningNodeOrString
 &
 aNode
-nsIDocument
+Document
 *
 aDocument
 )
@@ -8077,7 +8074,7 @@ OwningNodeOrString
 >
 &
 aNodes
-nsIDocument
+Document
 *
 aDocument
 ErrorResult
@@ -8460,7 +8457,7 @@ aNodes
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8575,7 +8572,7 @@ aNodes
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8672,7 +8669,7 @@ aNodes
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -9376,7 +9373,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -9447,7 +9444,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -9902,7 +9899,7 @@ IsDocument
 return
 ;
 }
-nsIDocument
+Document
 *
 parentDocument
 =
@@ -10064,7 +10061,7 @@ NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 return
 ;
 }
-nsIDocument
+Document
 *
 parentDocument
 =
@@ -11423,7 +11420,7 @@ true
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -12433,7 +12430,7 @@ ErrorResult
 aRv
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -12441,7 +12438,7 @@ OwnerDoc
 (
 )
 ;
-nsIDocument
+Document
 :
 :
 SelectorCache
@@ -12455,7 +12452,7 @@ GetSelectorCache
 (
 )
 ;
-nsIDocument
+Document
 :
 :
 SelectorCache

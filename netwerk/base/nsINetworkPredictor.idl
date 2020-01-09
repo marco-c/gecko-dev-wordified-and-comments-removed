@@ -87,6 +87,9 @@ nsIURI
 interface
 nsINetworkPredictorVerifier
 ;
+webidl
+Document
+;
 typedef
 unsigned
 long
@@ -985,9 +988,6 @@ class
 nsIChannel
 ;
 class
-nsIDocument
-;
-class
 nsILoadContext
 ;
 class
@@ -1066,7 +1066,10 @@ nsIURI
 sourceURI
 PredictorLearnReason
 reason
-nsIDocument
+dom
+:
+:
+Document
 *
 document
 )

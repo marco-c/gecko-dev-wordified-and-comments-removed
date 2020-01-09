@@ -115,7 +115,11 @@ h
 #
 include
 "
-nsIDocumentInlines
+mozilla
+/
+dom
+/
+DocumentInlines
 .
 h
 "
@@ -1320,7 +1324,7 @@ bool
 Gecko_VisitedStylesEnabled
 (
 const
-nsIDocument
+Document
 *
 aDoc
 )
@@ -2463,7 +2467,7 @@ MOZ_ASSERT
 aElement
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -3504,7 +3508,7 @@ RawGeckoElementBorrowed
 aElement
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -3844,14 +3848,14 @@ take
 )
 ;
 }
-nsIDocument
+Document
 :
 :
 DocumentTheme
 Gecko_GetDocumentLWTheme
 (
 const
-nsIDocument
+Document
 *
 aDocument
 )
@@ -11107,7 +11111,7 @@ get
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -12009,7 +12013,7 @@ NS_IsMainThread
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -12526,7 +12530,7 @@ Element
 Gecko_Document_GetElementsWithId
 (
 const
-nsIDocument
+Document
 *
 aDoc
 nsAtom

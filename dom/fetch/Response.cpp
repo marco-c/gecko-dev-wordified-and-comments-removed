@@ -466,7 +466,7 @@ GetAsSupports
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1051,7 +1051,7 @@ if
 window
 )
 {
-nsIDocument
+Document
 *
 doc
 =

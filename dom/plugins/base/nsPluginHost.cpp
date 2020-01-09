@@ -231,7 +231,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -671,6 +675,15 @@ mozilla
 :
 :
 TimeStamp
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
 ;
 using
 mozilla
@@ -3822,7 +3835,7 @@ rv
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 ;
@@ -3839,7 +3852,7 @@ document
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 currentdocument
 =
@@ -14871,7 +14884,7 @@ element
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

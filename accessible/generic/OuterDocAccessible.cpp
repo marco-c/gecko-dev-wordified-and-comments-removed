@@ -136,7 +136,10 @@ SendParentCOMProxy
 }
 #
 endif
-nsIDocument
+dom
+:
+:
+Document
 *
 outerDoc
 =
@@ -152,7 +155,10 @@ if
 outerDoc
 )
 {
-nsIDocument
+dom
+:
+:
+Document
 *
 innerDoc
 =

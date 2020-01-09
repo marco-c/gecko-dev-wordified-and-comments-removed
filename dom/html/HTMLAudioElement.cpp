@@ -44,7 +44,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -249,7 +253,7 @@ GetAsSupports
 )
 )
 ;
-nsIDocument
+Document
 *
 doc
 ;

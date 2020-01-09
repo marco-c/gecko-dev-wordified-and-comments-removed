@@ -85,7 +85,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -583,7 +587,7 @@ nsBindingManager
 :
 nsBindingManager
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -894,7 +898,7 @@ RemovedFromDocumentInternal
 nsIContent
 *
 aContent
-nsIDocument
+Document
 *
 aOldDocument
 DestructorHandling
@@ -1158,7 +1162,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1259,7 +1263,7 @@ nsBindingManager
 :
 LoadBindingDocument
 (
-nsIDocument
+Document
 *
 aBoundDoc
 nsIURI
@@ -1681,7 +1685,7 @@ mDocument
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

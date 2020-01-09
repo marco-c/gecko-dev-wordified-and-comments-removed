@@ -87,7 +87,11 @@ h
 #
 include
 "
-nsIDocumentInlines
+mozilla
+/
+dom
+/
+DocumentInlines
 .
 h
 "
@@ -2315,7 +2319,7 @@ Hidden
 break
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -4107,7 +4111,7 @@ if
 aContent
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -23462,7 +23466,7 @@ mIsRoot
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -24503,7 +24507,7 @@ PresContext
 (
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -29699,7 +29703,7 @@ GetScrollableOverflowRectRelativeToParent
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =

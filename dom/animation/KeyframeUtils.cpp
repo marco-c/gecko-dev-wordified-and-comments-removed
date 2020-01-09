@@ -197,7 +197,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -521,7 +525,7 @@ GetKeyframeListFromKeyframeSequence
 JSContext
 *
 aCx
-nsIDocument
+Document
 *
 aDocument
 JS
@@ -548,7 +552,7 @@ ConvertKeyframeSequence
 JSContext
 *
 aCx
-nsIDocument
+Document
 *
 aDocument
 JS
@@ -658,7 +662,7 @@ const
 nsAString
 &
 aStringValue
-nsIDocument
+Document
 *
 aDocument
 )
@@ -741,7 +745,7 @@ GetKeyframeListFromPropertyIndexedKeyframe
 JSContext
 *
 aCx
-nsIDocument
+Document
 *
 aDocument
 JS
@@ -777,7 +781,7 @@ Keyframe
 >
 &
 aKeyframes
-nsIDocument
+Document
 *
 aDocument
 )
@@ -807,7 +811,7 @@ GetKeyframesFromObject
 JSContext
 *
 aCx
-nsIDocument
+Document
 *
 aDocument
 JS
@@ -979,7 +983,7 @@ keyframes
 if
 (
 !
-nsIDocument
+Document
 :
 :
 AreWebAnimationsImplicitKeyframesEnabled
@@ -1515,7 +1519,7 @@ GetKeyframeListFromKeyframeSequence
 JSContext
 *
 aCx
-nsIDocument
+Document
 *
 aDocument
 JS
@@ -1632,7 +1636,7 @@ ConvertKeyframeSequence
 JSContext
 *
 aCx
-nsIDocument
+Document
 *
 aDocument
 JS
@@ -2561,7 +2565,7 @@ const
 nsAString
 &
 aInvalidPropertyValue
-nsIDocument
+Document
 *
 aDoc
 )
@@ -2653,7 +2657,7 @@ const
 nsAString
 &
 aStringValue
-nsIDocument
+Document
 *
 aDocument
 )
@@ -4084,7 +4088,7 @@ GetKeyframeListFromPropertyIndexedKeyframe
 JSContext
 *
 aCx
-nsIDocument
+Document
 *
 aDocument
 JS
@@ -5065,7 +5069,7 @@ Keyframe
 >
 &
 aKeyframes
-nsIDocument
+Document
 *
 aDocument
 )

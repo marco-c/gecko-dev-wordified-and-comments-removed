@@ -52,7 +52,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -65,6 +69,15 @@ Logging
 .
 h
 "
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
+;
 extern
 mozilla
 :
@@ -374,7 +387,7 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsIDocument
+Document
 *
 aDocument
 nsIFile
@@ -519,7 +532,7 @@ OfflineCacheUpdateGlue
 :
 SetDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )

@@ -113,7 +113,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -476,7 +480,7 @@ GetIncumbentGlobal
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2010,7 +2014,7 @@ mDocShell
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -3484,7 +3488,7 @@ return
 }
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -3632,7 +3636,7 @@ IsHandlingResizeEvent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3827,7 +3831,7 @@ GetSourceBaseURL
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =

@@ -210,7 +210,7 @@ aMsgs
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -11563,7 +11563,7 @@ Document
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eIgnoringWillChangeOverBudget
@@ -13007,7 +13007,7 @@ static
 bool
 TriggerPendingAnimationsOnSubDocuments
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -13099,7 +13099,7 @@ static
 void
 TriggerPendingAnimations
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -13926,7 +13926,7 @@ PresShell
 (
 )
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -16086,7 +16086,7 @@ FindContentInDocument
 nsDisplayItem
 *
 aItem
-nsIDocument
+Document
 *
 aDoc
 )
@@ -16295,7 +16295,7 @@ aRight
 )
 const
 {
-nsIDocument
+Document
 *
 commonAncestorDoc
 =

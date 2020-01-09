@@ -1361,7 +1361,10 @@ DynamicImage
 :
 PropagateUseCounters
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 )
 {

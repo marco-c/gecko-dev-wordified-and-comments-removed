@@ -434,7 +434,13 @@ ForceMapped
 nsMappedAttributeElement
 *
 aContent
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 )

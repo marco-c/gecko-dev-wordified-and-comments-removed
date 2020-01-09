@@ -524,9 +524,12 @@ aEvent
 ;
 protected
 :
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 mDocument
 ;

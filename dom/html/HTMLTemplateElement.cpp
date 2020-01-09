@@ -95,7 +95,7 @@ SetHasWeirdParserInsertionMode
 (
 )
 ;
-nsIDocument
+Document
 *
 contentsOwner
 =

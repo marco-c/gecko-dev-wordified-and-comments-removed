@@ -5729,7 +5729,7 @@ GetLayoutDeviceToCSSScale
 (
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -10764,7 +10764,7 @@ MarkAsHandledInRemoteProcess
 (
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -11017,7 +11017,7 @@ mMessage
 =
 eAccessKeyNotFound
 ;
-nsIDocument
+Document
 *
 doc
 =

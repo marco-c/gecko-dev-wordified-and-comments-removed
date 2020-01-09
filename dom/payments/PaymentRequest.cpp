@@ -3006,7 +3006,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3087,7 +3087,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 topLevelDoc
 =
@@ -3756,7 +3756,7 @@ do_QueryInterface
 global
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -5724,7 +5724,7 @@ do_QueryInterface
 global
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -5754,7 +5754,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 parentDoc
 =
@@ -5823,7 +5823,7 @@ GetOwner
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5876,7 +5876,7 @@ GetOwner
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5929,7 +5929,7 @@ NS_ENSURE_TRUE_VOID
 window
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

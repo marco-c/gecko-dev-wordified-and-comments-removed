@@ -57,7 +57,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -493,7 +497,10 @@ spec
 utf8spec
 )
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 document
 =

@@ -41,7 +41,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -92,6 +96,16 @@ nsCoreUtils
 {
 public
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+Document
+Document
+;
 static
 bool
 IsLabelWithControl
@@ -331,7 +345,7 @@ static
 bool
 IsRootDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -340,7 +354,7 @@ static
 bool
 IsContentDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -349,7 +363,7 @@ static
 bool
 IsTabDocument
 (
-nsIDocument
+Document
 *
 aDocumentNode
 )
@@ -358,7 +372,7 @@ static
 bool
 IsErrorPage
 (
-nsIDocument
+Document
 *
 aDocument
 )

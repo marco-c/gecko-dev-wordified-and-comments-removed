@@ -36,7 +36,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -793,7 +797,7 @@ aTerminated
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -889,7 +893,7 @@ aEncoding
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -924,7 +928,7 @@ GetTarget
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -946,7 +950,7 @@ XULContentSinkImpl
 :
 Init
 (
-nsIDocument
+Document
 *
 aDocument
 nsXULPrototypeDocument
@@ -1937,7 +1941,7 @@ HasScriptObject
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2458,7 +2462,7 @@ mTextLength
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 idoc
 =
@@ -3511,7 +3515,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 (
@@ -3613,7 +3617,7 @@ rv
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

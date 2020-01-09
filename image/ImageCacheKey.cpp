@@ -96,7 +96,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -194,7 +198,7 @@ const
 OriginAttributes
 &
 aAttrs
-nsIDocument
+Document
 *
 aDocument
 nsresult
@@ -628,7 +632,7 @@ ImageCacheKey
 :
 GetSpecialCaseDocumentToken
 (
-nsIDocument
+Document
 *
 aDocument
 nsIURI

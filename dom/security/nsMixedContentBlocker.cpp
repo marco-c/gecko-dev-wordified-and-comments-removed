@@ -78,7 +78,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -441,7 +445,7 @@ item
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 rootDoc
 =
@@ -933,7 +937,7 @@ aClassification
 nsIURI
 *
 aContentLocation
-nsIDocument
+Document
 *
 aRootDoc
 nsMixedContentBlockerMessageType
@@ -2477,7 +2481,7 @@ return
 NS_OK
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -2957,7 +2961,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 rootDoc
 =
@@ -3233,7 +3237,7 @@ rootDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eMixedDisplayObjectSubrequest

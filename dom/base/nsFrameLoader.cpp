@@ -59,7 +59,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1008,7 +1012,7 @@ aOwner
 nullptr
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1242,7 +1246,7 @@ NodePrincipal
 ;
 }
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1491,7 +1495,7 @@ aOriginalSrc
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2795,7 +2799,7 @@ static
 bool
 ParentWindowIsActive
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -3171,7 +3175,7 @@ if
 presShell
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -3423,7 +3427,7 @@ aMarginHeight
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -4121,7 +4125,7 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-nsIDocument
+Document
 *
 ourDoc
 =
@@ -4132,7 +4136,7 @@ GetComposedDoc
 (
 )
 ;
-nsIDocument
+Document
 *
 otherDoc
 =
@@ -6272,7 +6276,7 @@ exactly
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ourChildDocument
 =
@@ -6285,7 +6289,7 @@ GetExtantDoc
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 otherChildDocument
 =
@@ -6312,7 +6316,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ourParentDocument
 =
@@ -6325,7 +6329,7 @@ GetParentDocument
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 otherParentDocument
 =
@@ -6336,7 +6340,7 @@ GetParentDocument
 (
 )
 ;
-nsIDocument
+Document
 *
 ourDoc
 =
@@ -6347,7 +6351,7 @@ GetComposedDoc
 (
 )
 ;
-nsIDocument
+Document
 *
 otherDoc
 =
@@ -7267,7 +7271,7 @@ RemoveWindowListeners
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -8275,7 +8279,7 @@ NS_ENSURE_STATE
 mDestroyCalled
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -10221,7 +10225,7 @@ nsIntRect
 aRect
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -10958,7 +10962,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -11973,7 +11977,7 @@ mDocShell
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 kungFuDeathGrip
 =
@@ -12035,7 +12039,7 @@ origDocShell
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -12053,7 +12057,7 @@ doc
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 clonedDoc
 =
@@ -12987,7 +12991,7 @@ SetDetachedSubdocFrame
 nsIFrame
 *
 aDetachedFrame
-nsIDocument
+Document
 *
 aContainerDoc
 )
@@ -13008,7 +13012,7 @@ nsFrameLoader
 :
 GetDetachedSubdocFrame
 (
-nsIDocument
+Document
 *
 *
 aContainerDoc
@@ -13748,7 +13752,7 @@ nullptr
 }
 RefPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -14308,7 +14312,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 rootDoc
 =
@@ -14325,7 +14329,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 foundDoc
 ;
@@ -14710,7 +14714,7 @@ chromeOuterWindowID
 =
 0
 ;
-nsIDocument
+Document
 *
 doc
 =

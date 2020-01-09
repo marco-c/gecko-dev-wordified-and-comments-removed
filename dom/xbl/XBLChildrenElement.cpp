@@ -204,7 +204,7 @@ GetParentElement
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =

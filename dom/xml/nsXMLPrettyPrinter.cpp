@@ -84,7 +84,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -216,7 +220,7 @@ nsXMLPrettyPrinter
 :
 PrettyPrint
 (
-nsIDocument
+Document
 *
 aDocument
 bool
@@ -304,7 +308,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 xslDocument
 ;

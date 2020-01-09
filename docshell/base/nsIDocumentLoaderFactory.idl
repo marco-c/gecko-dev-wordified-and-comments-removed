@@ -109,13 +109,13 @@ interface
 nsIDocShell
 ;
 interface
-nsIDocument
-;
-interface
 nsILoadGroup
 ;
 interface
 nsIPrincipal
+;
+webidl
+Document
 ;
 /
 *
@@ -240,7 +240,7 @@ in
 nsISupports
 aContainer
 in
-nsIDocument
+Document
 aDocument
 in
 string

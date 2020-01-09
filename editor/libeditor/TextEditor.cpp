@@ -621,7 +621,7 @@ TextEditor
 :
 Init
 (
-nsIDocument
+Document
 &
 aDoc
 Element
@@ -1071,9 +1071,9 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1276,7 +1276,7 @@ TextEditor
 :
 UpdateMetaCharset
 (
-nsIDocument
+Document
 &
 aDocument
 const
@@ -8206,9 +8206,9 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8360,9 +8360,9 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -8566,9 +8566,9 @@ docEncoder
 mCachedDocumentEncoder
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

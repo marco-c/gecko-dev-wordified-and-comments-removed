@@ -226,7 +226,7 @@ forget
 ;
 }
 }
-nsIDocument
+Document
 *
 doc
 =

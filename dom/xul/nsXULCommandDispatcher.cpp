@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -168,7 +172,7 @@ nsXULCommandDispatcher
 :
 nsXULCommandDispatcher
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -565,7 +569,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

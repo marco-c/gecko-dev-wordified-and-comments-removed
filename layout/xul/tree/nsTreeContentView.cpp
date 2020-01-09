@@ -120,7 +120,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2556,7 +2560,7 @@ mRoot
 )
 ;
 }
-nsIDocument
+Document
 *
 document
 =

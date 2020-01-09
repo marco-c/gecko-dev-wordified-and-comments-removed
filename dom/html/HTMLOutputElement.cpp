@@ -415,7 +415,7 @@ HTMLOutputElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

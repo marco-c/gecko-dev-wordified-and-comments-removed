@@ -266,7 +266,7 @@ HTMLLegendElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

@@ -57,7 +57,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -100,7 +104,7 @@ public
 explicit
 XPathEvaluator
 (
-nsIDocument
+Document
 *
 aDocument
 =
@@ -138,7 +142,7 @@ JSObject
 aReflector
 )
 ;
-nsIDocument
+Document
 *
 GetParentObject
 (
@@ -146,7 +150,7 @@ GetParentObject
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -267,7 +271,7 @@ aExpression
 txIParseContext
 *
 aContext
-nsIDocument
+Document
 *
 aDocument
 ErrorResult

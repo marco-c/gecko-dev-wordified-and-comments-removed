@@ -325,7 +325,7 @@ NS_DECL_NSIOBSERVER
 nsresult
 FetchDirectoryAndDisplayPicker
 (
-nsIDocument
+Document
 *
 aDoc
 nsIFilePicker
@@ -339,7 +339,7 @@ aFpCallback
 nsresult
 StoreLastUsedDirectory
 (
-nsIDocument
+Document
 *
 aDoc
 nsIFile
@@ -791,7 +791,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent

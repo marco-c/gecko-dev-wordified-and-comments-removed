@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -991,7 +995,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1499,7 +1503,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1697,7 +1701,7 @@ aRv
 &
 ]
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -1961,7 +1965,7 @@ aRv
 [
 ]
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -2295,7 +2299,7 @@ aRv
 [
 ]
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -2979,7 +2983,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3045,7 +3049,7 @@ function
 <
 void
 (
-nsIDocument
+Document
 *
 )
 >
@@ -3085,7 +3089,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

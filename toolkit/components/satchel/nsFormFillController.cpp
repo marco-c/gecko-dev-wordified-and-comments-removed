@@ -205,7 +205,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2700,9 +2704,9 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3559,7 +3563,7 @@ ePageHide
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -3652,7 +3656,7 @@ nsFormFillController
 :
 RemoveForDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -5313,9 +5317,9 @@ StopControllingInput
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5918,9 +5922,9 @@ contentViewer
 nullptr
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

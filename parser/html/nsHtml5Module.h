@@ -51,7 +51,13 @@ Initialize
 nsIParser
 *
 aParser
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDoc
 nsIURI

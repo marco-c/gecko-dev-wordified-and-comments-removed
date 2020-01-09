@@ -22,9 +22,6 @@ class
 nsIChannel
 ;
 class
-nsIDocument
-;
-class
 nsIGlobalObject
 ;
 class
@@ -43,6 +40,9 @@ IPCChannelInfo
 namespace
 dom
 {
+class
+Document
+;
 class
 ChannelInfo
 final
@@ -122,7 +122,7 @@ this
 void
 InitFromDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )

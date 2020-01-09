@@ -944,7 +944,7 @@ nullptr
 }
 if
 (
-nsIDocument
+Document
 *
 document
 =

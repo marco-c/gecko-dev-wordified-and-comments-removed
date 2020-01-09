@@ -64,9 +64,6 @@ nsWrapperCache
 h
 "
 class
-nsIDocument
-;
-class
 nsIHttpChannel
 ;
 class
@@ -78,6 +75,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 FeaturePolicyUtils
 ;
@@ -144,7 +144,13 @@ aParentFeaturePolicy
 void
 SetDeclaredPolicy
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 const

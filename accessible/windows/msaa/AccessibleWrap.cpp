@@ -2054,7 +2054,10 @@ IsEmpty
 )
 )
 {
-nsIDocument
+dom
+:
+:
+Document
 *
 document
 =

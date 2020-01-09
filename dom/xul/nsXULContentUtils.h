@@ -20,9 +20,6 @@ nsICollation
 class
 nsIContent
 ;
-class
-nsIDocument
-;
 namespace
 mozilla
 {

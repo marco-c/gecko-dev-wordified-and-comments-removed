@@ -245,7 +245,7 @@ CanvasUtils
 bool
 IsImageExtractionAllowed
 (
-nsIDocument
+Document
 *
 aDocument
 JSContext
@@ -462,7 +462,7 @@ true
 ;
 }
 }
-nsIDocument
+Document
 *
 topLevelDocument
 =

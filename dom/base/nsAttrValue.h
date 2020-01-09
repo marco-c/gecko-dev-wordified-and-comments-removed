@@ -127,9 +127,6 @@ SVGAttrValueWrapper
 h
 "
 class
-nsIDocument
-;
-class
 nsIURI
 ;
 class

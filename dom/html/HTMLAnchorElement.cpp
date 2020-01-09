@@ -85,7 +85,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -395,7 +399,7 @@ HTMLAnchorElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -439,7 +443,7 @@ rv
 rv
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -586,7 +590,7 @@ return
 true
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

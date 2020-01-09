@@ -337,7 +337,11 @@ endif
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1433,7 +1437,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -8649,7 +8653,7 @@ PeerIdentity
 aPeerIdentity
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -8769,7 +8773,7 @@ if
 mPrivacyRequested
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -8838,7 +8842,7 @@ MediaStreamTrack
 aTrack
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -9816,7 +9820,7 @@ nsIPrincipal
 >
 principal
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -11329,9 +11333,9 @@ aPluginID
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

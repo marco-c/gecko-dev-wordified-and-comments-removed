@@ -491,9 +491,9 @@ mSelCon
 selCon
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

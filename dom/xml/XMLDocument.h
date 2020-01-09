@@ -27,7 +27,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -54,7 +58,7 @@ class
 XMLDocument
 :
 public
-nsIDocument
+Document
 {
 public
 :
@@ -76,7 +80,7 @@ xml
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 XMLDocument
-nsIDocument
+Document
 )
 virtual
 void
@@ -251,7 +255,7 @@ aAsync
 ;
 }
 using
-nsIDocument
+Document
 :
 :
 GetLocation
@@ -292,7 +296,7 @@ nsresult
 NS_NewXMLDocument
 )
 (
-nsIDocument
+Document
 *
 *
 bool

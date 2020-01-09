@@ -31,7 +31,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -355,7 +359,7 @@ SelectionChangeEventDispatcher
 :
 OnSelectionChange
 (
-nsIDocument
+Document
 *
 aDoc
 Selection
@@ -365,7 +369,7 @@ int16_t
 aReason
 )
 {
-nsIDocument
+Document
 *
 doc
 =

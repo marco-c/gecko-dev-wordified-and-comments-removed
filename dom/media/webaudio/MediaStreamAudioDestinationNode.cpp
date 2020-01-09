@@ -8,7 +8,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -273,7 +277,7 @@ Graph
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =

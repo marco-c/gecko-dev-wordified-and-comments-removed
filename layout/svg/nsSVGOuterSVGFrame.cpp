@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -491,7 +495,7 @@ aParent
 aPrevInFlow
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -4244,7 +4248,7 @@ GetParent
 )
 )
 {
-nsIDocument
+Document
 *
 doc
 =

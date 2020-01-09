@@ -299,7 +299,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -737,7 +741,10 @@ FontFaceSet
 nsPIDOMWindowInner
 *
 aWindow
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 )

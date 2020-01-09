@@ -288,7 +288,7 @@ aCheckSandbox
 )
 const
 ;
-nsIDocument
+Document
 *
 GetResponsibleDocument
 (

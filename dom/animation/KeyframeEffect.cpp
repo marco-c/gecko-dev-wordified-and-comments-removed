@@ -339,7 +339,7 @@ KeyframeEffect
 :
 KeyframeEffect
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -3040,7 +3040,7 @@ ErrorResult
 aRv
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -4025,7 +4025,7 @@ ErrorResult
 aRv
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -5869,7 +5869,7 @@ aFrame
 )
 const
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -6184,7 +6184,7 @@ return
 frame
 ;
 }
-nsIDocument
+Document
 *
 KeyframeEffect
 :
@@ -6226,7 +6226,7 @@ GetPresShell
 )
 const
 {
-nsIDocument
+Document
 *
 doc
 =

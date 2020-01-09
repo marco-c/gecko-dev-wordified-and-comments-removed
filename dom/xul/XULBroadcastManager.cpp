@@ -444,7 +444,7 @@ XULBroadcastManager
 :
 XULBroadcastManager
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -2405,7 +2405,7 @@ aListener
 NS_ERROR_UNEXPECTED
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

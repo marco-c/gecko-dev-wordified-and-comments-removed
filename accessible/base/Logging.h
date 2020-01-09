@@ -28,9 +28,6 @@ Attributes
 h
 "
 class
-nsIDocument
-;
-class
 nsINode
 ;
 class
@@ -48,6 +45,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 Selection
 ;
@@ -214,7 +214,10 @@ const
 char
 *
 aMsg
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocumentNode
 )
@@ -252,7 +255,10 @@ const
 char
 *
 aMsg
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocumentNode
 DocAccessible
@@ -269,7 +275,10 @@ const
 char
 *
 aMsg
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocumentNode
 DocAccessible

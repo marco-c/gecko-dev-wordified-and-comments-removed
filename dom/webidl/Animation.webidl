@@ -186,7 +186,7 @@ id
 Func
 =
 "
-nsIDocument
+Document
 :
 :
 IsWebAnimationsEnabled
@@ -202,7 +202,7 @@ effect
 Func
 =
 "
-nsIDocument
+Document
 :
 :
 AreWebAnimationsTimelinesEnabled
@@ -270,7 +270,7 @@ pending
 Func
 =
 "
-nsIDocument
+Document
 :
 :
 IsWebAnimationsEnabled
@@ -289,7 +289,7 @@ ready
 Func
 =
 "
-nsIDocument
+Document
 :
 :
 IsWebAnimationsEnabled

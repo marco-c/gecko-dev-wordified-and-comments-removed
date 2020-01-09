@@ -1109,7 +1109,7 @@ mEditorHasBeenInitialized
 return
 NS_OK
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1412,7 +1412,7 @@ nsTextControlFrame
 aOwnerFrame
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -3312,7 +3312,7 @@ lastFocusMethod
 =
 0
 ;
-nsIDocument
+Document
 *
 doc
 =

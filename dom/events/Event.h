@@ -774,7 +774,7 @@ const
 ;
 already_AddRefed
 <
-nsIDocument
+Document
 >
 GetDocument
 (

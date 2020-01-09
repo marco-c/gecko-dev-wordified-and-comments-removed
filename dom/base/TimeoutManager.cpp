@@ -946,7 +946,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1784,7 +1784,7 @@ aReturn
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

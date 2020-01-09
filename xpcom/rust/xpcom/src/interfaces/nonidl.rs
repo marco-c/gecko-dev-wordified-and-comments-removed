@@ -201,7 +201,7 @@ self
 nonidl
 !
 (
-nsIDocument
+Document
 nsID
 (
 0xce1f7627

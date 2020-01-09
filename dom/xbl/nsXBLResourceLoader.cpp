@@ -15,7 +15,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -351,7 +355,7 @@ true
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -1036,7 +1040,7 @@ ready
 continue
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

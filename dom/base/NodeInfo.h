@@ -62,9 +62,6 @@ nsHashKeys
 h
 "
 class
-nsIDocument
-;
-class
 nsNodeInfoManager
 ;
 namespace
@@ -73,6 +70,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 NodeInfo
 final
@@ -492,7 +492,7 @@ mQualifiedName
 aQualifiedName
 ;
 }
-nsIDocument
+Document
 *
 GetDocument
 (
@@ -903,7 +903,7 @@ class
 :
 nsNodeInfoManager
 ;
-nsIDocument
+Document
 *
 MOZ_NON_OWNING_REF
 mDocument

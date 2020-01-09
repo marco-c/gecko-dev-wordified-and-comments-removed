@@ -194,7 +194,7 @@ options
 Func
 =
 "
-nsIDocument
+Document
 :
 :
 IsWebAnimationsGetAnimationsEnabled

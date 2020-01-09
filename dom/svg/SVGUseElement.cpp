@@ -70,7 +70,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -775,7 +779,7 @@ SVGUseElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -2167,7 +2171,7 @@ TriggerReclone
 {
 if
 (
-nsIDocument
+Document
 *
 doc
 =

@@ -2059,7 +2059,10 @@ FindContentFor
 aViewId
 )
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 doc
 =
@@ -2195,7 +2198,10 @@ FindContentFor
 aViewId
 )
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 doc
 =

@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -243,7 +247,7 @@ namespace
 void
 SendJSWarning
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -413,7 +417,7 @@ Encoding
 aEncoding
 int32_t
 aMethod
-nsIDocument
+Document
 *
 aDocument
 Element
@@ -529,7 +533,7 @@ mQueryString
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;
@@ -3665,7 +3669,7 @@ spPos
 )
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -4039,7 +4043,7 @@ aOriginatingElement
 }
 else
 {
-nsIDocument
+Document
 *
 doc
 =

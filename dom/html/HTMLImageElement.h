@@ -271,7 +271,7 @@ virtual
 nsresult
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -323,7 +323,7 @@ virtual
 void
 NodeInfoChanged
 (
-nsIDocument
+Document
 *
 aOldDoc
 )
@@ -1188,7 +1188,7 @@ static
 bool
 SelectSourceForTagWithAttrs
 (
-nsIDocument
+Document
 *
 aDocument
 bool

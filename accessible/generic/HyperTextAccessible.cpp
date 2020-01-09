@@ -6315,7 +6315,10 @@ editingSession
 return
 nullptr
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 docNode
 =
@@ -6525,7 +6528,10 @@ mDoc
 NS_ERROR_FAILURE
 )
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 docNode
 =

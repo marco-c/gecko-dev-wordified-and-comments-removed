@@ -343,7 +343,7 @@ dom
 nsresult
 NS_NewDOMDocument
 (
-nsIDocument
+Document
 *
 *
 aInstancePtrResult
@@ -386,7 +386,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 d
 ;
@@ -1137,7 +1137,7 @@ NS_OK
 nsresult
 NS_NewXMLDocument
 (
-nsIDocument
+Document
 *
 *
 aInstancePtrResult
@@ -1214,7 +1214,7 @@ NS_OK
 nsresult
 NS_NewXBLDocument
 (
-nsIDocument
+Document
 *
 *
 aInstancePtrResult
@@ -1272,7 +1272,7 @@ rv
 rv
 )
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -1299,7 +1299,7 @@ doc
 >
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -1326,7 +1326,7 @@ char
 aContentType
 )
 :
-nsIDocument
+Document
 (
 aContentType
 )
@@ -1384,7 +1384,7 @@ Init
 nsresult
 rv
 =
-nsIDocument
+Document
 :
 :
 Init
@@ -1415,7 +1415,7 @@ nsILoadGroup
 aLoadGroup
 )
 {
-nsIDocument
+Document
 :
 :
 Reset
@@ -1464,7 +1464,7 @@ mChannelIsPending
 false
 ;
 }
-nsIDocument
+Document
 :
 :
 ResetToURI
@@ -1528,7 +1528,7 @@ false
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 callingDoc
 =
@@ -1600,7 +1600,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 docForWarning
 =
@@ -1630,7 +1630,7 @@ docForWarning
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eChromeUseOfDOM3LoadMethod
@@ -1644,7 +1644,7 @@ docForWarning
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eUseOfDOM3LoadMethod
@@ -2007,7 +2007,7 @@ get
 :
 static_cast
 <
-nsIDocument
+Document
 *
 >
 (
@@ -2094,7 +2094,7 @@ GetReadyStateEnum
 )
 =
 =
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -2106,7 +2106,7 @@ readyState
 ;
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_UNINITIALIZED
@@ -2403,7 +2403,7 @@ aSink
 nsresult
 rv
 =
-nsIDocument
+Document
 :
 :
 StartDocumentLoad
@@ -2701,7 +2701,7 @@ mLoadedAsData
 mLoadedAsInteractiveData
 )
 ;
-nsIDocument
+Document
 :
 :
 EndLoad
@@ -2717,12 +2717,12 @@ mSynchronousDOMContentLoaded
 =
 false
 ;
-nsIDocument
+Document
 :
 :
 SetReadyStateInternal
 (
-nsIDocument
+Document
 :
 :
 READYSTATE_COMPLETE
@@ -2763,7 +2763,7 @@ aWindowSizes
 )
 const
 {
-nsIDocument
+Document
 :
 :
 DocAddSizeOfExcludingThis

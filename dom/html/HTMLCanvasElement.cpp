@@ -1357,7 +1357,7 @@ mElement
 return
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -1402,7 +1402,7 @@ mElement
 return
 ;
 }
-nsIDocument
+Document
 *
 document
 =
@@ -4092,7 +4092,7 @@ OwnerDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eMozGetAsFile
@@ -5623,7 +5623,7 @@ if
 mRequestedFrameRefreshObserver
 )
 {
-nsIDocument
+Document
 *
 doc
 =

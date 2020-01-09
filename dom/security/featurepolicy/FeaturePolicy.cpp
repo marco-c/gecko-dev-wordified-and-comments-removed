@@ -359,7 +359,7 @@ FeaturePolicy
 :
 SetDeclaredPolicy
 (
-nsIDocument
+Document
 *
 aDocument
 const

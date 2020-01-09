@@ -211,7 +211,7 @@ resolved
 Func
 =
 "
-nsIDocument
+Document
 :
 :
 IsWebAnimationsGetAnimationsEnabled

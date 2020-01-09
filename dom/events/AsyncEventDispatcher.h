@@ -52,7 +52,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -566,9 +570,12 @@ LoadBlockingAsyncEventDispatcher
 ;
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 mBlockedDoc
 ;

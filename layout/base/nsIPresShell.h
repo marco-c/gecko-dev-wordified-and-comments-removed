@@ -267,9 +267,6 @@ class
 nsDocShell
 ;
 class
-nsIDocument
-;
-class
 nsIFrame
 ;
 class
@@ -404,6 +401,9 @@ Element
 ;
 class
 Event
+;
+class
+Document
 ;
 class
 HTMLSlotElement
@@ -555,6 +555,16 @@ NS_IPRESSHELL_IID
 )
 protected
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+Document
+Document
+;
 typedef
 mozilla
 :
@@ -817,7 +827,7 @@ aObjectID
 )
 ;
 }
-nsIDocument
+Document
 *
 GetDocument
 (
@@ -2255,7 +2265,7 @@ virtual
 void
 ContentStateChanged
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -3789,7 +3799,7 @@ aView
 )
 ;
 virtual
-nsIDocument
+Document
 *
 GetPrimaryContentDocument
 (
@@ -3835,9 +3845,9 @@ friend
 class
 nsRefreshDriver
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

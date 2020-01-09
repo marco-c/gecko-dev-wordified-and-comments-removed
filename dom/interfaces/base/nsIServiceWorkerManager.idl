@@ -118,9 +118,6 @@ interface
 nsIArray
 ;
 interface
-nsIDocument
-;
-interface
 nsIInterceptedChannel
 ;
 interface

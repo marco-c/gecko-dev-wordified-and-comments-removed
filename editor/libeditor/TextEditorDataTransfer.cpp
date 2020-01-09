@@ -126,7 +126,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -304,9 +308,9 @@ if
 transferable
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 destdoc
 =
@@ -753,7 +757,7 @@ DataTransfer
 aDataTransfer
 int32_t
 aIndex
-nsIDocument
+Document
 *
 aSourceDoc
 const
@@ -1003,9 +1007,9 @@ GetMozSourceNode
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 srcdoc
 ;
@@ -1063,7 +1067,7 @@ NS_OK
 ;
 }
 }
-nsIDocument
+Document
 *
 destdoc
 =
@@ -1876,9 +1880,9 @@ aCanPaste
 =
 false
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2078,7 +2082,7 @@ TextEditor
 :
 IsSafeToInsertData
 (
-nsIDocument
+Document
 *
 aSourceDoc
 )
@@ -2088,9 +2092,9 @@ isSafe
 =
 false
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 destdoc
 =

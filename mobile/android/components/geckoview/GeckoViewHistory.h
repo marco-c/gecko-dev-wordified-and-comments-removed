@@ -63,9 +63,6 @@ StaticPtr
 h
 "
 class
-nsIDocument
-;
-class
 nsIWidget
 ;
 struct
@@ -194,7 +191,13 @@ DispatchNotifyVisited
 nsIURI
 *
 aURI
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 )

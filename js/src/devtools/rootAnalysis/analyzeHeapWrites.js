@@ -1950,7 +1950,7 @@ true
 if
 (
 /
-nsIDocument
+Document
 :
 :
 GetExtraPropertyTable
@@ -1963,7 +1963,7 @@ callee
 &
 &
 /
-nsIDocument
+Document
 :
 :
 PropertyTable
@@ -5651,7 +5651,7 @@ dom
 Element
 "
 "
-nsIDocument
+Document
 :
 :
 Element

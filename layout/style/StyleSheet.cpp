@@ -445,7 +445,7 @@ mContents
 )
 ;
 }
-nsIDocument
+Document
 *
 StyleSheet
 :
@@ -472,7 +472,7 @@ OwnerDoc
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 StyleSheet
 :
@@ -2658,7 +2658,7 @@ aRule
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -2713,7 +2713,7 @@ aRule
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -2768,7 +2768,7 @@ aRule
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -2896,7 +2896,7 @@ windowID
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -4194,7 +4194,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -4704,7 +4704,7 @@ loader
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =

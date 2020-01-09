@@ -188,6 +188,15 @@ mozilla
 :
 MakeStringSpan
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
+;
 #
 define
 kExpatSeparatorChar
@@ -2991,7 +3000,7 @@ mOriginalSink
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -3743,7 +3752,7 @@ mOriginalSink
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5177,7 +5186,7 @@ get
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =

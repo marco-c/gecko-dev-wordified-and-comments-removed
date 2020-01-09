@@ -10161,9 +10161,12 @@ if
 elt
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 doc
 =
@@ -10174,11 +10177,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-doc
-)
-{
 nsCOMPtr
 <
 nsIEventTarget
@@ -10202,7 +10200,6 @@ parentInstance
 eventTarget
 )
 ;
-}
 }
 if
 (

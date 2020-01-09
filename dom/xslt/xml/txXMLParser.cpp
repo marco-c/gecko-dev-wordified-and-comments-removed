@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -54,6 +58,13 @@ nsIPrincipal
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsresult
 txParseDocumentFromURI
 (
@@ -108,7 +119,7 @@ rv
 rv
 )
 ;
-nsIDocument
+Document
 *
 loaderDocument
 =
@@ -133,7 +144,7 @@ GetDocumentLoadGroup
 (
 )
 ;
-nsIDocument
+Document
 *
 theDocument
 =

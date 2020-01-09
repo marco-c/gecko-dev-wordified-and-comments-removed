@@ -2165,7 +2165,7 @@ NS_ENSURE_ARG_POINTER
 aRangeRet
 )
 ;
-nsIDocument
+Document
 *
 document
 =

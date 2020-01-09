@@ -136,9 +136,6 @@ interface
 nsIURI
 ;
 interface
-nsIDocument
-;
-interface
 nsIFrame
 ;
 [

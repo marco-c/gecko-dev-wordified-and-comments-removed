@@ -3663,7 +3663,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3967,9 +3967,9 @@ Window
 aWin
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =

@@ -739,7 +739,7 @@ aScriptURL
 nsIURI
 *
 baseURI
-nsIDocument
+Document
 *
 parentDoc
 bool
@@ -807,7 +807,7 @@ ChannelFromScriptURL
 nsIPrincipal
 *
 principal
-nsIDocument
+Document
 *
 parentDoc
 WorkerPrivate
@@ -3994,7 +3994,7 @@ mWorkerPrivate
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parentDoc
 =
@@ -4978,7 +4978,7 @@ tRPHeaderCValue
 )
 ;
 }
-nsIDocument
+Document
 *
 parentDoc
 =
@@ -5651,7 +5651,7 @@ responsePrincipal
 )
 )
 ;
-nsIDocument
+Document
 *
 parentDoc
 =
@@ -8278,7 +8278,7 @@ baseURI
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parentDoc
 =
@@ -9936,7 +9936,7 @@ ChannelFromScriptURLMainThread
 nsIPrincipal
 *
 aPrincipal
-nsIDocument
+Document
 *
 aParentDoc
 nsILoadGroup

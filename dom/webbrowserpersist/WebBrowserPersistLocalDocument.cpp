@@ -266,7 +266,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -381,7 +385,10 @@ WebBrowserPersistLocalDocument
 :
 WebBrowserPersistLocalDocument
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 )
@@ -4287,7 +4294,10 @@ get
 )
 )
 ;
-nsIDocument
+dom
+:
+:
+Document
 *
 ownerDoc
 =

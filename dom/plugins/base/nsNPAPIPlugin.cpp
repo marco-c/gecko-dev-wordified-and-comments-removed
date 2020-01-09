@@ -142,7 +142,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -521,6 +525,15 @@ plugins
 :
 :
 parent
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+Document
 ;
 static
 NPNetscapeFuncs
@@ -1631,7 +1644,7 @@ char
 gNPPException
 ;
 static
-nsIDocument
+Document
 *
 GetDocumentFromNPP
 (
@@ -1691,7 +1704,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -2956,7 +2969,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -3146,7 +3159,7 @@ element
 return
 nullptr
 ;
-nsIDocument
+Document
 *
 doc
 =
@@ -4426,7 +4439,7 @@ nppPusher
 npp
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

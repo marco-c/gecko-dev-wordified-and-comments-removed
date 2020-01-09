@@ -141,7 +141,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2279,7 +2283,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;

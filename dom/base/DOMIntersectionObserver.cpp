@@ -1131,7 +1131,7 @@ DOMIntersectionObserver
 :
 Update
 (
-nsIDocument
+Document
 *
 aDocument
 DOMHighResTimeStamp

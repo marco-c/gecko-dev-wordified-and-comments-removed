@@ -61,7 +61,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -5227,7 +5231,7 @@ nscolor
 aColor
 )
 {
-nsIDocument
+Document
 *
 document
 =
@@ -11707,7 +11711,7 @@ const
 nsAString
 &
 aPropertyValue
-nsIDocument
+Document
 *
 aDocument
 )
@@ -11861,7 +11865,7 @@ const
 nsAString
 &
 aFont
-nsIDocument
+Document
 *
 aDocument
 )
@@ -12131,7 +12135,7 @@ const
 nsAString
 &
 aFilter
-nsIDocument
+Document
 *
 aDocument
 )
@@ -19740,7 +19744,7 @@ presShell
 return
 NS_ERROR_FAILURE
 ;
-nsIDocument
+Document
 *
 document
 =
@@ -21712,7 +21716,7 @@ mCanvasElement
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ownerDoc
 =
@@ -21928,7 +21932,7 @@ mCanvasElement
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ownerDoc
 =
@@ -26681,7 +26685,7 @@ mCanvasElement
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 ownerDoc
 =

@@ -16,15 +16,15 @@ include
 <
 functional
 >
-class
-nsIDocument
-;
 namespace
 mozilla
 {
 namespace
 dom
 {
+class
+Document
+;
 class
 FeaturePolicyUtils
 final
@@ -43,7 +43,7 @@ static
 bool
 IsFeatureAllowed
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -99,7 +99,7 @@ static
 void
 ReportViolation
 (
-nsIDocument
+Document
 *
 aDocument
 const

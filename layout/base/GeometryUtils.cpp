@@ -155,7 +155,7 @@ GeometryNodeType
 aType
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -830,7 +830,7 @@ public
 :
 AccumulateQuadCallback
 (
-nsIDocument
+Document
 *
 aParentObject
 nsTArray
@@ -1366,7 +1366,7 @@ weakFrame
 frame
 )
 ;
-nsIDocument
+Document
 *
 ownerDoc
 =

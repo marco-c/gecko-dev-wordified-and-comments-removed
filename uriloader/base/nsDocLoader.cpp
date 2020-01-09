@@ -166,7 +166,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2300,7 +2304,13 @@ mDontFlushLayout
 {
 nsCOMPtr
 <
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 >
 doc
 =

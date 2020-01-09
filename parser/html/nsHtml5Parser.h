@@ -449,7 +449,13 @@ virtual
 nsresult
 Initialize
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDoc
 nsIURI

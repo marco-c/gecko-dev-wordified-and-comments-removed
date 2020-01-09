@@ -43,7 +43,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -90,7 +94,7 @@ public
 :
 DocumentTimeline
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -345,7 +349,7 @@ nsRefreshDriver
 aDriver
 )
 ;
-nsIDocument
+Document
 *
 GetDocument
 (
@@ -398,9 +402,9 @@ nsRefreshDriver
 aDriver
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 mDocument
 ;

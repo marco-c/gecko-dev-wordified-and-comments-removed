@@ -95,9 +95,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsIPresShell
 ;
 class

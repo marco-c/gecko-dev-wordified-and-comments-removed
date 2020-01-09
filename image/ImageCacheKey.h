@@ -39,9 +39,6 @@ PLDHashTable
 h
 "
 class
-nsIDocument
-;
-class
 nsIURI
 ;
 namespace
@@ -65,7 +62,10 @@ const
 OriginAttributes
 &
 aAttrs
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsresult
@@ -171,7 +171,10 @@ void
 *
 GetSpecialCaseDocumentToken
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIURI

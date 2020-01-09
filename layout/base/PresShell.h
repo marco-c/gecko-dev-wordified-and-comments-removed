@@ -270,7 +270,7 @@ aDocShell
 void
 Init
 (
-nsIDocument
+Document
 *
 aDocument
 nsPresContext
@@ -2688,7 +2688,7 @@ UIResolutionChangedSync
 )
 ;
 }
-nsIDocument
+Document
 *
 GetPrimaryContentDocument
 (

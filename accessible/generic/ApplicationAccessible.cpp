@@ -656,9 +656,14 @@ IsRootOuterWindow
 )
 )
 {
-nsCOMPtr
+if
+(
+RefPtr
 <
-nsIDocument
+dom
+:
+:
+Document
 >
 docNode
 =
@@ -668,10 +673,6 @@ window
 GetExtantDoc
 (
 )
-;
-if
-(
-docNode
 )
 {
 GetAccService

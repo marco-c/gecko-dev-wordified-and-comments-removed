@@ -204,7 +204,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -1102,9 +1106,9 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -2283,7 +2287,7 @@ static
 void
 LoadNativeMenus
 (
-nsIDocument
+Document
 *
 aDoc
 nsIWidget
@@ -2827,9 +2831,9 @@ if
 cv
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 menubarDoc
 =

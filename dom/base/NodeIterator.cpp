@@ -26,7 +26,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -762,7 +766,7 @@ OwnerDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eNodeIteratorDetach

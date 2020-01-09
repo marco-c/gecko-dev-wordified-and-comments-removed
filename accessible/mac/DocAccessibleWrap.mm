@@ -114,7 +114,13 @@ DocAccessibleWrap
 :
 DocAccessibleWrap
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
 aDocument
 nsIPresShell

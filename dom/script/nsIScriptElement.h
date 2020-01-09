@@ -328,9 +328,14 @@ virtual
 void
 FreezeExecutionAttrs
 (
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
-aOwnerDoc
 )
 =
 0

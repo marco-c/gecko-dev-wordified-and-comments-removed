@@ -2040,7 +2040,7 @@ LoadImage
 URLValue
 *
 aImage
-nsIDocument
+Document
 *
 aLoadingDoc
 )

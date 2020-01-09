@@ -123,9 +123,6 @@ C
 class
 nsINode
 ;
-class
-nsIDocument
-;
 %
 }
 [
@@ -135,15 +132,6 @@ native
 nsINodePtr
 (
 nsINode
-)
-;
-[
-ptr
-]
-native
-nsIDocumentPtr
-(
-nsIDocument
 )
 ;
 [
@@ -1731,7 +1719,7 @@ OutputDisallowLineBreaking
 Release
 reference
 of
-nsIDocument
+Document
 after
 using
 encodeTo
@@ -1744,7 +1732,7 @@ this
 encoder
 without
 holding
-nsIDocument
+Document
 .
 To
 use
@@ -1850,7 +1838,7 @@ void
 nativeInit
 (
 in
-nsIDocumentPtr
+Document
 aDocument
 in
 AString
