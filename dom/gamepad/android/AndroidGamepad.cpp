@@ -109,6 +109,8 @@ _empty
 kStandardGamepadButtons
 kStandardGamepadAxes
 0
+0
+0
 )
 ;
 java
