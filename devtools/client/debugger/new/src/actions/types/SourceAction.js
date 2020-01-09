@@ -50,6 +50,10 @@ LOAD_SOURCE_TEXT
 sourceId
 :
 string
++
+epoch
+:
+number
 |
 }
 Source
