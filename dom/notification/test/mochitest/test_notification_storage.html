@@ -30,12 +30,7 @@ javascript
 src
 =
 "
-/
-tests
-/
-SimpleTest
-/
-SimpleTest
+MockServices
 .
 js
 "
@@ -56,7 +51,12 @@ javascript
 src
 =
 "
-MockServices
+/
+tests
+/
+SimpleTest
+/
+SimpleTest
 .
 js
 "
@@ -304,9 +304,6 @@ get
 works
 while
 creating
-var
-notification
-=
 new
 Notification
 (
@@ -444,7 +441,7 @@ i
 )
 {
 var
-notification
+currentNotification
 =
 notifications
 [
@@ -453,7 +450,7 @@ i
 ;
 if
 (
-notification
+currentNotification
 .
 tag
 =
@@ -501,7 +498,7 @@ NotificationTest
 .
 customDataMatches
 (
-notification
+currentNotification
 .
 data
 )
@@ -518,7 +515,7 @@ continue
 }
 is
 (
-notification
+currentNotification
 [
 key
 ]
@@ -536,7 +533,7 @@ match
 )
 ;
 }
-notification
+currentNotification
 .
 close
 (
@@ -694,10 +691,7 @@ notification
 ;
 is
 (
-notifications
-[
-0
-]
+notification
 .
 title
 "
@@ -712,10 +706,7 @@ match
 ;
 is
 (
-notifications
-[
-0
-]
+notification
 .
 tag
 "

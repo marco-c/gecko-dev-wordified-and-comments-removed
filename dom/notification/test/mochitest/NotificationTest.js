@@ -108,10 +108,11 @@ remainingTests
 length
 )
 {
-return
 callback
 (
 )
+;
+return
 ;
 }
 var
@@ -216,9 +217,6 @@ ArrayBuffer
 2
 )
 ;
-var
-dv
-=
 new
 DataView
 (
