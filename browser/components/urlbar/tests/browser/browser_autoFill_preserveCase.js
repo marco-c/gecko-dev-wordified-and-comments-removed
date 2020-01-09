@@ -473,11 +473,11 @@ KEY_Escape
 )
 ;
 await
-promisePopupHidden
-(
-gURLBar
+UrlbarTestUtils
 .
-popup
+promisePopupClose
+(
+window
 )
 ;
 await

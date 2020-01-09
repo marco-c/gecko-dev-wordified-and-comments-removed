@@ -28,7 +28,9 @@ promiseAutocompleteResultPopup
 typed
 )
 ;
-is
+Assert
+.
+equal
 (
 gURLBar
 .
@@ -77,7 +79,9 @@ mods
 )
 )
 ;
-is
+Assert
+.
+equal
 (
 gURLBar
 .
