@@ -1207,6 +1207,9 @@ true
 }
 else
 {
+#
+ifndef
+XP_WIN
 MOZ_ASSERT
 (
 !
@@ -1227,6 +1230,8 @@ enumerating
 "
 )
 ;
+#
+endif
 }
 #
 endif
