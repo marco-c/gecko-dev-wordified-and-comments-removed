@@ -6,6 +6,7 @@ strict
 const
 {
 createFactory
+createElement
 }
 =
 require
@@ -69,13 +70,14 @@ Grip
 =
 REPS
 ;
-const
+loader
+.
+lazyRequireGetter
+(
+this
+"
 SmartTrace
-=
-createFactory
-(
-require
-(
+"
 "
 devtools
 /
@@ -87,7 +89,6 @@ components
 /
 SmartTrace
 "
-)
 )
 ;
 function
@@ -213,8 +214,9 @@ renderStacktrace
 stacktrace
 =
 >
-SmartTrace
+createElement
 (
+SmartTrace
 {
 stacktrace
 onViewSourceInDebugger
