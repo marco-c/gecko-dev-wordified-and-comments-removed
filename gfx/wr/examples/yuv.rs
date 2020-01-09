@@ -519,7 +519,7 @@ mut
 Transaction
 _framebuffer_size
 :
-FramebufferIntSize
+DeviceIntSize
 pipeline_id
 :
 PipelineId

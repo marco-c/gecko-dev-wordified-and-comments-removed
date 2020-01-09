@@ -368,8 +368,12 @@ aTransformArray
 )
 ;
 void
-SetDocumentView
+SetWindowParameters
 (
+const
+LayoutDeviceIntSize
+&
+aWindowSize
 const
 LayoutDeviceIntRect
 &
