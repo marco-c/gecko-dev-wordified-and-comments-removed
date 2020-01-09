@@ -197,6 +197,9 @@ mod
 ellipse
 ;
 mod
+filterdata
+;
+mod
 frame_builder
 ;
 mod
@@ -888,6 +891,13 @@ frame_builder
 :
 :
 ChasePrimitive
+;
+pub
+use
+picture
+:
+:
+FRAMES_BEFORE_PICTURE_CACHING
 ;
 pub
 use
