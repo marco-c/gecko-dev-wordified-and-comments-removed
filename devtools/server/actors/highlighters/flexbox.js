@@ -3325,6 +3325,13 @@ this
 win
 .
 devicePixelRatio
+{
+zoomWindow
+:
+this
+.
+win
+}
 )
 ;
 const
