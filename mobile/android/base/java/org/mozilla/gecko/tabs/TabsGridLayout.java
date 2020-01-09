@@ -138,9 +138,7 @@ ItemTouchHelper
 .
 END
 ;
-final
-TabsTouchHelperCallback
-callback
+tabTouchCallback
 =
 new
 TabsTouchHelperCallback
@@ -185,7 +183,7 @@ touchHelper
 new
 ItemTouchHelper
 (
-callback
+tabTouchCallback
 )
 ;
 touchHelper
