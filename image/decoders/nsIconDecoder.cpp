@@ -310,6 +310,7 @@ B8G8R8A8
 Nothing
 (
 )
+mTransform
 SurfacePipeFlags
 (
 )

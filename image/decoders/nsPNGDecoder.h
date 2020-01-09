@@ -327,6 +327,9 @@ mDisablePremultipliedAlpha
 bool
 mGotInfoCallback
 ;
+bool
+mUsePipeTransform
+;
 struct
 AnimFrameInfo
 {
