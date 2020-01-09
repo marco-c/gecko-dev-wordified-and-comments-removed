@@ -175,7 +175,7 @@ remote
 /
 content
 /
-Prefs
+RecommendedPreferences
 .
 jsm
 "
