@@ -9,10 +9,14 @@ MozWizardPage
 extends
 MozXULElement
 {
-connectedCallback
+constructor
 (
 )
 {
+super
+(
+)
+;
 this
 .
 pageIndex
