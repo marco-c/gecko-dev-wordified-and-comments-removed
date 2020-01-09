@@ -2042,9 +2042,11 @@ null
 {
 mRuntime
 .
-configurationChanged
+orientationChanged
 (
 newConfig
+.
+orientation
 )
 ;
 }
