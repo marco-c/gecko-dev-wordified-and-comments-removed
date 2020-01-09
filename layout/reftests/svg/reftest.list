@@ -2045,6 +2045,16 @@ ref
 html
 =
 =
+test_bug1323962
+.
+html
+test_bug1323962
+-
+ref
+.
+html
+=
+=
 dynamic
 -
 opacity
