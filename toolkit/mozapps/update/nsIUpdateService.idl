@@ -219,6 +219,7 @@ new
 version
 *
 /
+readonly
 attribute
 AString
 type
@@ -237,6 +238,7 @@ downloaded
 from
 *
 /
+readonly
 attribute
 AString
 URL
@@ -274,6 +276,7 @@ bytes
 .
 *
 /
+readonly
 attribute
 unsigned
 long
@@ -611,6 +614,7 @@ update
 )
 *
 /
+readonly
 attribute
 AString
 type
@@ -637,6 +641,7 @@ Version
 "
 *
 /
+readonly
 attribute
 AString
 name
@@ -670,6 +675,7 @@ appVersion
 .
 *
 /
+readonly
 attribute
 AString
 displayVersion
@@ -687,6 +693,7 @@ update
 .
 *
 /
+readonly
 attribute
 AString
 appVersion
@@ -707,6 +714,7 @@ updated
 .
 *
 /
+readonly
 attribute
 AString
 previousAppVersion
@@ -763,6 +771,7 @@ example
 .
 *
 /
+readonly
 attribute
 AString
 buildID
@@ -821,6 +830,7 @@ notes
 .
 *
 /
+readonly
 attribute
 AString
 detailsURL
@@ -842,6 +852,7 @@ update
 .
 *
 /
+readonly
 attribute
 AString
 serviceURL
@@ -864,6 +875,7 @@ Service
 .
 *
 /
+readonly
 attribute
 AString
 channel
@@ -885,6 +897,7 @@ system
 .
 *
 /
+readonly
 attribute
 boolean
 unsupported
