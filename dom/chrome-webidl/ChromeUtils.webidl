@@ -2511,6 +2511,7 @@ registerWindowActor
 (
 DOMString
 aName
+optional
 WindowActorOptions
 aOptions
 )
@@ -3829,13 +3830,15 @@ actor
 .
 *
 /
-required
 WindowActorSidedOptions
 parent
+=
+null
 ;
-required
 WindowActorChildOptions
 child
+=
+null
 ;
 }
 ;
@@ -3861,7 +3864,6 @@ side
 .
 *
 /
-required
 ByteString
 moduleURI
 ;
