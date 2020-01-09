@@ -119,7 +119,11 @@ name
 =
 formatDisplayName
 (
+(
 func
+:
+any
+)
 undefined
 l10n
 )

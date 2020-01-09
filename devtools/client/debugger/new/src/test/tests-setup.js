@@ -446,6 +446,8 @@ worker
 js
 "
 )
+"
+"
 )
 ;
 startPrettyPrintWorker

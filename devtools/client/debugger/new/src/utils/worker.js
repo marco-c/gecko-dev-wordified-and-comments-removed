@@ -47,6 +47,11 @@ args
 :
 any
 )
+:
+Promise
+<
+any
+>
 {
 return
 new
@@ -161,6 +166,8 @@ function
 workerHandler
 (
 publicInterface
+:
+any
 )
 {
 return

@@ -230,11 +230,15 @@ p
 div
 >
 <
+/
+div
+>
+<
 PaneToggleButton
 collapsed
 =
 {
-true
+false
 }
 handleClick
 =
@@ -254,10 +258,6 @@ position
 end
 "
 /
->
-<
-/
-div
 >
 <
 /

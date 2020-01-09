@@ -15,6 +15,8 @@ string
 =
 null
 )
+:
+any
 {
 if
 (

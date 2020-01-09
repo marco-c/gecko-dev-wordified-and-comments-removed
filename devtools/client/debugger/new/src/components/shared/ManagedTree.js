@@ -210,9 +210,6 @@ new
 Set
 (
 )
-focusedItem
-:
-null
 }
 ;
 }

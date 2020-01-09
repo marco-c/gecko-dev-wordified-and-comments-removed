@@ -30,6 +30,13 @@ close
 -
 btn
 "
+onClick
+=
+{
+[
+Function
+]
+}
 title
 =
 "

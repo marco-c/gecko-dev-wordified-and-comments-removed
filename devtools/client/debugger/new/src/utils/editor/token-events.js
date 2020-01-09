@@ -281,6 +281,8 @@ function
 onMouseOver
 (
 codeMirror
+:
+any
 )
 {
 let
@@ -353,7 +355,11 @@ true
 ;
 }
 return
+(
 enterEvent
+:
+any
+)
 =
 >
 {

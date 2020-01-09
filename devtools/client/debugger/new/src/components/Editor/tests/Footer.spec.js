@@ -129,6 +129,9 @@ fn
 )
 }
 }
+endPanelCollapsed
+:
+false
 selectedSource
 :
 makeSource
