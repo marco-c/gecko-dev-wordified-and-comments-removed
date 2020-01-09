@@ -107,15 +107,6 @@ slow
 "
 }
 ;
-[
-NoInterfaceObject
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 mixin
 NavigatorNetworkInformation
