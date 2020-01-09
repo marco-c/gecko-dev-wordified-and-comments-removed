@@ -5005,8 +5005,10 @@ aContent
 )
 ;
 static
-bool
-IsRequestFullscreenAllowed
+const
+char
+*
+CheckRequestFullscreenAllowed
 (
 mozilla
 :
