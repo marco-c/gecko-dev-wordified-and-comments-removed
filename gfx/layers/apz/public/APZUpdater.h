@@ -453,6 +453,9 @@ APZCTreeManager
 mApz
 ;
 bool
+mDestroyed
+;
+bool
 mIsUsingWebRender
 ;
 std
