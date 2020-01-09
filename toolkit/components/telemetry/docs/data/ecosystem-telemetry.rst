@@ -662,9 +662,6 @@ roughly
 every
 24
 hours
-during
-idle
-periods
 *
 shutdown
 -
@@ -950,9 +947,6 @@ roughly
 every
 24
 hours
-during
-idle
-periods
 with
 reason
 *
@@ -1076,9 +1070,6 @@ roughly
 every
 24
 hours
-during
-idle
-periods
 with
 reason
 *
