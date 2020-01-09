@@ -224,6 +224,12 @@ getInstance
 isAttachedToContext
 (
 )
+|
+|
+!
+AppConstants
+.
+RELEASE_OR_BETA
 )
 {
 currentNotification
