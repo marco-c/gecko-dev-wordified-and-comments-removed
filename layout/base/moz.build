@@ -342,11 +342,6 @@ nsIPresShell
 h
 '
 '
-nsIPresShellInlines
-.
-h
-'
-'
 nsIReflowCallback
 .
 h
@@ -470,6 +465,11 @@ h
 '
 '
 PresShellForwards
+.
+h
+'
+'
+PresShellInlines
 .
 h
 '
