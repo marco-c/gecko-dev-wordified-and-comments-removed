@@ -2241,8 +2241,6 @@ geckoview
 -
 junit
 -
-mochitest
--
 web
 -
 platform
@@ -2270,6 +2268,8 @@ cppunit
 jsreftest
 -
 marionette
+-
+mochitest
 -
 mochitest
 -
