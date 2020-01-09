@@ -2013,6 +2013,13 @@ nativeTab
 adoptedTab
 )
 ;
+if
+(
+adoptedTab
+.
+linkedPanel
+)
+{
 adoptedTab
 .
 linkedBrowser
@@ -2040,6 +2047,7 @@ ownerGlobal
 }
 )
 ;
+}
 }
 else
 {
