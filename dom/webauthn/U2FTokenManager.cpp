@@ -111,7 +111,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -1240,7 +1240,7 @@ Get
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 if
 (
 pm

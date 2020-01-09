@@ -359,13 +359,13 @@ if
 CONFIG
 [
 '
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 '
 ]
 =
 =
 '
-Android
+android
 '
 :
 EXPORTS
