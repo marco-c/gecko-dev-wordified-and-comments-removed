@@ -4209,7 +4209,6 @@ popup
 )
 {
 return
-false
 ;
 }
 let
@@ -4243,9 +4242,6 @@ stopPropagation
 )
 ;
 }
-return
-handled
-;
 }
 _handleKeyPress
 (
