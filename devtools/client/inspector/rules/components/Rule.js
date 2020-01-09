@@ -175,6 +175,13 @@ propTypes
 {
 return
 {
+onOpenSourceLink
+:
+PropTypes
+.
+func
+.
+isRequired
 onToggleDeclaration
 :
 PropTypes
@@ -376,6 +383,7 @@ render
 {
 const
 {
+onOpenSourceLink
 onToggleDeclaration
 onToggleSelectorHighlighter
 rule
@@ -444,7 +452,11 @@ uneditable
 SourceLink
 (
 {
+id
+isUserAgentStyle
+onOpenSourceLink
 sourceLink
+type
 }
 )
 dom

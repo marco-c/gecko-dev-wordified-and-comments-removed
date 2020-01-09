@@ -238,6 +238,13 @@ PropTypes
 func
 .
 isRequired
+onOpenSourceLink
+:
+PropTypes
+.
+func
+.
+isRequired
 onSetClassState
 :
 PropTypes
@@ -327,6 +334,13 @@ getRuleProps
 {
 return
 {
+onOpenSourceLink
+:
+this
+.
+props
+.
+onOpenSourceLink
 onToggleDeclaration
 :
 this
