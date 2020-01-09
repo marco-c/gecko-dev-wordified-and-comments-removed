@@ -207,14 +207,11 @@ IsCurrentImpl
 const
 override
 ;
-Maybe
-<
-SymbolLoader
->
-GetSymbolLoader
+virtual
+bool
+SetupLookupFunction
 (
 )
-const
 override
 ;
 virtual
