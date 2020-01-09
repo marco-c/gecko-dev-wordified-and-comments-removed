@@ -464,7 +464,7 @@ a
 number
 of
 registry
-entires
+entries
 contain
 the
 version

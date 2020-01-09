@@ -259,7 +259,7 @@ files
 shortcuts
 and
 registry
-entires
+entries
 are
 created
 in

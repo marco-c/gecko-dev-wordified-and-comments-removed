@@ -201,7 +201,7 @@ Now
 the
 client
 is
-conected
+connected
 to
 the
 server
@@ -396,7 +396,7 @@ Now
 the
 client
 is
-conected
+connected
 to
 the
 server
@@ -1153,7 +1153,7 @@ Now
 the
 client
 is
-conected
+connected
 to
 the
 server

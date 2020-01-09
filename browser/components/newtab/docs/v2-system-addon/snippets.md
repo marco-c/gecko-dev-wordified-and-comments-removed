@@ -397,7 +397,7 @@ data
 due
 to
 performance
-constraits
+constraints
 (
 .
 isFullData

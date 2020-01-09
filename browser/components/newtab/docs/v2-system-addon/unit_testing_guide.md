@@ -111,7 +111,7 @@ should
 run
 them
 in
-continous
+continuous
 mode
 with
 npm

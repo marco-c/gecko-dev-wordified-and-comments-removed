@@ -130,7 +130,7 @@ need
 to
 store
 a
-JavaSript
+JavaScript
 object
 or
 array

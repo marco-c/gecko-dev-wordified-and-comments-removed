@@ -2676,7 +2676,7 @@ an
 array
 which
 contains
-informations
+information
 about
 the
 coverage

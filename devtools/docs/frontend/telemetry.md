@@ -1577,7 +1577,7 @@ on
 which
 the
 event
-occured
+occurred
 .
 This
 key
@@ -1616,7 +1616,7 @@ can
 be
 from
 completely
-independant
+independent
 code
 paths
 we

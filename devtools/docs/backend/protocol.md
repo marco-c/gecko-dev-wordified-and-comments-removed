@@ -1867,7 +1867,7 @@ on
 If
 an
 actor
-recieves
+receives
 a
 packet
 which
@@ -1934,7 +1934,7 @@ problem
 If
 an
 actor
-recieves
+receives
 a
 packet
 with
@@ -8379,7 +8379,7 @@ response
 if
 the
 attach
-suceeded
+succeeded
 it
 receives
 an

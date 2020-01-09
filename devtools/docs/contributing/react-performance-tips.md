@@ -2360,7 +2360,8 @@ it
 .
 *
 *
-Everytime
+Every
+time
 some
 data
 changes

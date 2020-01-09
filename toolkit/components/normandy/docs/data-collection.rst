@@ -840,7 +840,7 @@ A
 reason
 was
 not
-specificied
+specified
 .
 This
 should

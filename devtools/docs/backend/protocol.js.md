@@ -3498,7 +3498,8 @@ a
 specific
 event
 and
-atleast
+at
+least
 one
 fires
 asynchronously
@@ -4175,7 +4176,7 @@ use
 of
 the
 parent
-proeprty
+property
 provided
 by
 the
