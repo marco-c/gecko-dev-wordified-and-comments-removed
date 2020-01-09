@@ -1138,6 +1138,9 @@ mEsniQueried
 bool
 mEsniUsed
 ;
+bool
+mResolvedByTRR
+;
 void
 SetSocketName
 (
