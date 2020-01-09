@@ -7,6 +7,13 @@ mozilla_dom_BrowserHost_h
 #
 include
 "
+nsIRemoteTab
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -37,6 +44,8 @@ BrowserHost
 :
 public
 RemoteBrowser
+public
+nsIRemoteTab
 {
 public
 :
@@ -58,12 +67,8 @@ BrowserParent
 aParent
 )
 ;
-NS_INLINE_DECL_REFCOUNTING
-(
-BrowserHost
-override
-)
-;
+NS_DECL_ISUPPORTS
+NS_DECL_NSIREMOTETAB
 BrowserParent
 *
 GetActor
