@@ -1573,6 +1573,10 @@ WifiManager
 )
 context
 .
+getApplicationContext
+(
+)
+.
 getSystemService
 (
 Context
