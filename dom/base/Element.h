@@ -3615,7 +3615,7 @@ aRetargetToElement
 if
 (
 !
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent
@@ -3697,7 +3697,7 @@ ReleaseCapture
 {
 if
 (
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent

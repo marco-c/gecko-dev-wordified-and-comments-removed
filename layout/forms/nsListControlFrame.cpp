@@ -3528,7 +3528,7 @@ nsIContent
 *
 capturingContent
 =
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent
@@ -6643,7 +6643,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent

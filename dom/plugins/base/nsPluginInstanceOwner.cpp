@@ -8268,7 +8268,7 @@ eMouseMove
 {
 if
 (
-nsIPresShell
+PresShell
 :
 :
 GetCapturingContent
