@@ -64,13 +64,6 @@ rel
 "
 stylesheet
 "
-type
-=
-"
-text
-/
-css
-"
 href
 =
 "
