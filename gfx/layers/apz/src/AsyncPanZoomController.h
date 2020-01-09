@@ -180,6 +180,13 @@ h
 #
 include
 "
+RecentEventsBuffer
+.
+h
+"
+#
+include
+"
 base
 /
 message_loop
@@ -1512,10 +1519,6 @@ aDelta
 void
 HandlePinchLocking
 (
-ScreenCoord
-spanDistance
-ScreenPoint
-focusChange
 )
 ;
 nsEventStatus
@@ -1783,6 +1786,12 @@ mPanDirRestricted
 ;
 bool
 mPinchLocked
+;
+RecentEventsBuffer
+<
+PinchGestureInput
+>
+mPinchEventBuffer
 ;
 ZoomConstraints
 mZoomConstraints
