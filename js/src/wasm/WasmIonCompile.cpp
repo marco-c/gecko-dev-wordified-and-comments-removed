@@ -3797,6 +3797,7 @@ AliasSet
 :
 :
 WasmTableElement
+false
 )
 ;
 curBlock_

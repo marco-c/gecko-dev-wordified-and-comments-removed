@@ -4596,7 +4596,7 @@ void
 (
 table
 .
-getAnyRefLocForCompiledCode
+getShortlivedAnyRefLocForCompiledCode
 (
 index
 )
