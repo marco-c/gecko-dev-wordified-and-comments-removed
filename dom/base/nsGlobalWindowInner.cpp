@@ -31568,6 +31568,11 @@ StorageAccessGranted
 (
 )
 {
+PropagateFirstPartyStorageAccessGrantedToWorkers
+(
+this
+)
+;
 if
 (
 mLocalStorage
