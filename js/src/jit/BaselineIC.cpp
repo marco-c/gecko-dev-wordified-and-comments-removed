@@ -14937,7 +14937,7 @@ pc
 res
 )
 ;
-TryAttachStubOld
+TryAttachStub
 <
 GetIntrinsicIRGenerator
 >

@@ -30036,7 +30036,7 @@ val_
 #
 endif
 }
-bool
+AttachDecision
 GetIntrinsicIRGenerator
 :
 :
@@ -30071,7 +30071,10 @@ GetIntrinsic
 )
 ;
 return
-true
+AttachDecision
+:
+:
+Attach
 ;
 }
 UnaryArithIRGenerator
