@@ -277,9 +277,10 @@ BROWSER_CHROME_URL
 }
 )
 ;
-let
-muxer
-=
+class
+TestMuxer
+extends
+UrlbarMuxer
 {
 get
 name
@@ -369,6 +370,13 @@ BOOKMARKS
 ;
 }
 }
+let
+muxer
+=
+new
+TestMuxer
+(
+)
 ;
 UrlbarProvidersManager
 .

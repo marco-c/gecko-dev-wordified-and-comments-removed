@@ -3735,7 +3735,7 @@ trackBrowserWindow
 "
 ]
 "
-UrlbarController
+UrlbarUtils
 .
 jsm
 "
@@ -3745,7 +3745,13 @@ jsm
 QueryContext
 "
 "
-UrlbarController
+UrlbarMuxer
+"
+"
+UrlbarProvider
+"
+"
+UrlbarUtils
 "
 ]
 "
