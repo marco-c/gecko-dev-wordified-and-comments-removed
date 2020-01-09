@@ -262,6 +262,12 @@ uint32_t
 ]
 mCipherBytes
 ;
+uint8_t
+mCryptByteBlock
+;
+uint8_t
+mSkipByteBlock
+;
 GMPEncryptionScheme
 mEncryptionScheme
 ;
