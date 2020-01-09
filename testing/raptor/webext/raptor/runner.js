@@ -1287,7 +1287,7 @@ else
 setTimeout
 (
 checkForResult
-5
+250
 )
 ;
 }
@@ -1332,7 +1332,7 @@ else
 setTimeout
 (
 checkForResult
-5
+250
 )
 ;
 }
