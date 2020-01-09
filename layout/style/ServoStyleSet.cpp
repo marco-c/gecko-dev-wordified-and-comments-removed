@@ -709,6 +709,10 @@ count
 ;
 }
 }
+UpdateStylistIfNeeded
+(
+)
+;
 MaybeGCRuleTree
 (
 )
