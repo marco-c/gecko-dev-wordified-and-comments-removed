@@ -9729,7 +9729,7 @@ nsIWidget
 >
 widget
 =
-GetDocWidget
+GetWidget
 (
 )
 ;
