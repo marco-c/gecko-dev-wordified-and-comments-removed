@@ -595,10 +595,6 @@ fails
 if
 (
 Android
-&
-&
-!
-release_or_beta
 )
 =
 =
@@ -619,10 +615,6 @@ fails
 if
 (
 Android
-&
-&
-!
-release_or_beta
 )
 =
 =
