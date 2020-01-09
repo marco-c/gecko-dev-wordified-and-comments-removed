@@ -3774,9 +3774,9 @@ if
 isinstance
 (
 arg
-types
+six
 .
-StringTypes
+string_types
 )
 :
             
@@ -4959,9 +4959,9 @@ not
 isinstance
 (
 what
-types
+six
 .
-StringTypes
+string_types
 )
 :
                     
@@ -5485,9 +5485,9 @@ not
 isinstance
 (
 value
-types
+six
 .
-StringTypes
+string_types
 )
 and
 (
@@ -6205,9 +6205,9 @@ not
 isinstance
 (
 name
-types
+six
 .
-StringTypes
+string_types
 )
 :
             
@@ -7224,9 +7224,9 @@ or
 isinstance
 (
 value
-types
+six
 .
-StringTypes
+string_types
 )
 )
 :

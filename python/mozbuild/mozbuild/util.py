@@ -7324,9 +7324,9 @@ not
 isinstance
 (
 value
-types
+six
 .
-StringTypes
+string_types
 )
 :
             
