@@ -3742,12 +3742,6 @@ JSProto_Float64Array
 case
 JSProto_Uint8ClampedArray
 :
-case
-JSProto_BigInt64Array
-:
-case
-JSProto_BigUint64Array
-:
 return
 &
 TypedArrayObject
