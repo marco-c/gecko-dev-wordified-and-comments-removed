@@ -1507,13 +1507,6 @@ principal
 originAttributes
 :
 {
-appId
-:
-permission
-.
-principal
-.
-appId
 }
 }
 type

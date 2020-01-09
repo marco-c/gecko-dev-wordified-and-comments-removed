@@ -236,13 +236,6 @@ ChromeUtils
 originAttributesToSuffix
 (
 {
-appId
-:
-Ci
-.
-nsIScriptSecurityManager
-.
-NO_APP_ID
 inIsolatedMozBrowser
 :
 false
@@ -281,13 +274,6 @@ ChromeUtils
 originAttributesToSuffix
 (
 {
-appId
-:
-Ci
-.
-nsIScriptSecurityManager
-.
-NO_APP_ID
 inIsolatedMozBrowser
 :
 false

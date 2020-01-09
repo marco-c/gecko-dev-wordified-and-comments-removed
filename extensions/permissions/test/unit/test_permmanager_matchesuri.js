@@ -260,9 +260,6 @@ function
 mk_permission
 (
 uri
-isAppPermission
-=
-false
 )
 {
 let
@@ -312,15 +309,6 @@ nsIScriptSecurityManager
 )
 ;
 let
-attrs
-=
-{
-appId
-:
-1000
-}
-;
-let
 principal
 =
 secMan
@@ -328,10 +316,6 @@ secMan
 createCodebasePrincipal
 (
 uri
-isAppPermission
-?
-attrs
-:
 {
 }
 )
