@@ -247,6 +247,11 @@ FilePickerParent
 h
 '
 '
+JSWindowActorService
+.
+h
+'
+'
 MemoryReportRequest
 .
 h
@@ -385,6 +390,11 @@ cpp
 '
 '
 FilePickerParent
+.
+cpp
+'
+'
+JSWindowActorService
 .
 cpp
 '
