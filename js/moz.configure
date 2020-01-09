@@ -571,9 +571,9 @@ shared
 -
 js
 '
-default
+when
 =
-building_js
+js_standalone
 help
 =
 '
@@ -600,9 +600,9 @@ export
 -
 js
 '
-default
+when
 =
-building_js
+js_standalone
 help
 =
 '
@@ -642,6 +642,9 @@ export
 -
 js
 '
+when
+=
+js_standalone
 )
 def
 shared_js
@@ -708,6 +711,9 @@ export
 -
 js
 '
+when
+=
+js_standalone
 )
 def
 exportable_js_api
@@ -751,6 +757,9 @@ export
 -
 js
 '
+when
+=
+js_standalone
 )
 def
 static_js_api
@@ -786,6 +795,9 @@ shared
 -
 js
 '
+when
+=
+js_standalone
 )
 def
 static_js
