@@ -1065,16 +1065,6 @@ canceled
 break
 ;
 }
-if
-(
-this
-.
-_providerHasAcceptableSources
-(
-provider
-)
-)
-{
 promises
 .
 push
@@ -1097,7 +1087,6 @@ this
 )
 )
 ;
-}
 }
 this
 .
