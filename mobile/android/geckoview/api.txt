@@ -4681,6 +4681,15 @@ PERMISSION_GEOLOCATION
 =
 0
 ;
+field
+public
+static
+final
+int
+PERMISSION_PERSISTENT_STORAGE
+=
+2
+;
 }
 public
 static

@@ -2558,6 +2558,17 @@ NS_IsMainThread
 PromptResult
 pr
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
+pr
+=
+CheckPromptPrefs
+(
+)
+;
+#
+else
 nsresult
 rv
 =
@@ -2581,6 +2592,8 @@ return
 rv
 ;
 }
+#
+endif
 if
 (
 pr
