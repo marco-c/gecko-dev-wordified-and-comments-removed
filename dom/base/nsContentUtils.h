@@ -6392,6 +6392,9 @@ StorageAllowedForServiceWorker
 nsIPrincipal
 *
 aPrincipal
+nsICookieSettings
+*
+aCookieSettings
 )
 ;
 static
@@ -7459,6 +7462,9 @@ aURI
 nsIChannel
 *
 aChannel
+nsICookieSettings
+*
+aCookieSettings
 uint32_t
 &
 aRejectedReason
