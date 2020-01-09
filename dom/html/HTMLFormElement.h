@@ -1592,9 +1592,6 @@ bool
 mNotifiedObserversResult
 ;
 bool
-mSubmitInitiatedFromUserInput
-;
-bool
 mEverTriedInvalidSubmit
 ;
 private
