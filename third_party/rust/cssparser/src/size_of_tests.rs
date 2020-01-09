@@ -194,6 +194,7 @@ file
 }
 }
 }
+;
 }
 size_of_test
 !

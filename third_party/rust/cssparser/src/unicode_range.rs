@@ -1,11 +1,4 @@
 use
-{
-Parser
-ToCss
-BasicParseError
-}
-;
-use
 std
 :
 :
@@ -22,6 +15,13 @@ tokenizer
 :
 :
 Token
+;
+use
+{
+BasicParseError
+Parser
+ToCss
+}
 ;
 #
 [
@@ -152,6 +152,7 @@ Err
 )
 =
 >
+{
 return
 Err
 (
@@ -172,6 +173,7 @@ into
 )
 )
 )
+}
 }
 ;
 if
@@ -347,12 +349,10 @@ Dimension
 }
 =
 >
-{
 parse_question_marks
 (
 input
 )
-}
 Token
 :
 :
@@ -521,6 +521,7 @@ start
 )
 ;
 return
+;
 }
 }
 }
@@ -627,6 +628,7 @@ Err
 (
 )
 )
+;
 }
 if
 question_marks
@@ -675,6 +677,7 @@ question_marks
 1
 }
 )
+;
 }
 }
 else
@@ -698,6 +701,7 @@ end
 first_hex_value
 }
 )
+;
 }
 else
 {
@@ -766,6 +770,7 @@ end
 second_hex_value
 }
 )
+;
 }
 }
 }
@@ -862,6 +867,7 @@ rest
 else
 {
 break
+;
 }
 }
 (
