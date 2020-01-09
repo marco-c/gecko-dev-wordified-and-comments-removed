@@ -6689,6 +6689,10 @@ mInTransform
 (
 false
 )
+mInEventsAndPluginsOnly
+(
+false
+)
 mInFilter
 (
 false
