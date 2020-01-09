@@ -61,6 +61,9 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 DOMSVGNumber
@@ -763,9 +766,6 @@ aGivenProto
 )
 {
 return
-dom
-:
-:
 SVGNumber_Binding
 :
 :
@@ -776,5 +776,6 @@ this
 aGivenProto
 )
 ;
+}
 }
 }

@@ -26,12 +26,12 @@ nsSVGLength2
 namespace
 mozilla
 {
-class
-DOMSVGLength
-;
 namespace
 dom
 {
+class
+DOMSVGLength
+;
 class
 SVGAnimatedLength
 final

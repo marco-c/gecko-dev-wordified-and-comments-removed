@@ -85,12 +85,12 @@ aNodeInfo
 namespace
 mozilla
 {
-class
-DOMSVGAnimatedNumberList
-;
 namespace
 dom
 {
+class
+DOMSVGAnimatedNumberList
+;
 class
 SVGAnimatedBoolean
 ;

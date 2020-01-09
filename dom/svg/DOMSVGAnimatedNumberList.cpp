@@ -54,6 +54,9 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
 static
 inline
 nsSVGAttrTearoffTable
@@ -516,5 +519,6 @@ GetAnimatedNumberList
 mAttrEnum
 )
 ;
+}
 }
 }

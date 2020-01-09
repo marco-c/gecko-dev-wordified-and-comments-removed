@@ -45,13 +45,16 @@ namespace
 mozilla
 {
 class
-DOMSVGNumberList
-;
-class
 SVGAnimatedNumberList
 ;
 class
 SVGNumberList
+;
+namespace
+dom
+{
+class
+DOMSVGNumberList
 ;
 class
 DOMSVGAnimatedNumberList
@@ -250,6 +253,7 @@ mAttrEnum
 ;
 }
 ;
+}
 }
 #
 endif

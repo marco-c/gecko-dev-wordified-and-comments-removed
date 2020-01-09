@@ -54,6 +54,9 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
 static
 inline
 nsSVGAttrTearoffTable
@@ -508,5 +511,6 @@ GetAnimatedLengthList
 mAttrEnum
 )
 ;
+}
 }
 }

@@ -102,7 +102,6 @@ dom
 class
 SVGElement
 ;
-}
 class
 DOMSVGLength
 final
@@ -518,6 +517,7 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 DOMSVGLength
 MOZILLA_DOMSVGLENGTH_IID
 )
+}
 }
 #
 undef

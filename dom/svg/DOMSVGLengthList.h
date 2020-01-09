@@ -60,16 +60,15 @@ h
 namespace
 mozilla
 {
-class
-DOMSVGLength
-;
 namespace
 dom
 {
 class
+DOMSVGLength
+;
+class
 SVGElement
 ;
-}
 class
 DOMSVGLengthList
 final
@@ -586,6 +585,7 @@ mAList
 ;
 }
 ;
+}
 }
 #
 endif

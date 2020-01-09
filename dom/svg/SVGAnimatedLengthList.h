@@ -64,10 +64,16 @@ SVGAnimatedLengthList
 {
 friend
 class
+dom
+:
+:
 DOMSVGLength
 ;
 friend
 class
+dom
+:
+:
 DOMSVGLengthList
 ;
 public

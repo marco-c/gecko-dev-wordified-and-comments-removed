@@ -71,7 +71,6 @@ dom
 class
 SVGElement
 ;
-}
 class
 DOMSVGNumber
 final
@@ -364,6 +363,7 @@ mValue
 ;
 }
 ;
+}
 }
 #
 undef
