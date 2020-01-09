@@ -1303,6 +1303,15 @@ NS_IsMainThread
 )
 )
 ;
+BackgroundHangMonitor
+:
+:
+UnregisterAnnotator
+(
+*
+this
+)
+;
 MonitorAutoLock
 lock
 (
