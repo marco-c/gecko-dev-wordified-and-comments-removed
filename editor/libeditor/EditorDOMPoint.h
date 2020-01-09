@@ -389,7 +389,7 @@ mIsChildInitialized
 true
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aContainer
 "
@@ -439,6 +439,15 @@ Length
 mOffset
 .
 value
+(
+)
+|
+|
+!
+mParent
+-
+>
+IsContainerNode
 (
 )
 )
