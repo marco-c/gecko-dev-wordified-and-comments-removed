@@ -94,3 +94,5 @@ unset
 NM
 unset
 RANLIB
+unset
+NASM
