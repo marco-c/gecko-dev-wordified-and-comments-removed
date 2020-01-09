@@ -2537,6 +2537,14 @@ LayersObserverEpoch
 aEpoch
 )
 ;
+void
+CancelContentJSExecutionIfRunning
+(
+TabParent
+*
+aTabParent
+)
+;
 nsresult
 AboutToLoadHttpFtpDocumentForChild
 (
