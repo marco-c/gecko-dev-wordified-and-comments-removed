@@ -35,9 +35,6 @@ comm
 -
 central
 '
-'
-oak
-'
 }
 RELEASE_PROJECTS
 =
