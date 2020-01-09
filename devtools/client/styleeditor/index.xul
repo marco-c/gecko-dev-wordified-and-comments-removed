@@ -594,6 +594,11 @@ id
 "
 sourceEditorContextMenu
 "
+incontentshell
+=
+"
+false
+"
 onpopupshowing
 =
 "
@@ -931,6 +936,11 @@ id
 sidebar
 -
 context
+"
+incontentshell
+=
+"
+false
 "
 >
 <

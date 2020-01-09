@@ -3522,6 +3522,16 @@ panel
 setAttribute
 (
 "
+incontentshell
+"
+false
+)
+;
+panel
+.
+setAttribute
+(
+"
 noautofocus
 "
 true
