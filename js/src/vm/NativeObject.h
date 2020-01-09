@@ -5766,7 +5766,15 @@ storeBuffer
 >
 putCell
 (
+reinterpret_cast
+<
+JSObject
+*
+*
+>
+(
 cellp
+)
 )
 ;
 }
