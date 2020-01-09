@@ -1413,6 +1413,14 @@ list
 )
 ;
 }
+this
+.
+userContextId
+=
+options
+.
+userContextId
+;
 }
 _checkRequiredOptions
 (
