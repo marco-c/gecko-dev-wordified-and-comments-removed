@@ -542,7 +542,6 @@ into_buf
 )
 ;
 let
-mut
 fds
 =
 match
