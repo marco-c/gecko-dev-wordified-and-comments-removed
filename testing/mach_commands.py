@@ -524,6 +524,8 @@ plain
 mochitest
 -
 browser
+-
+chrome
 '
                              
 '
@@ -1963,6 +1965,8 @@ guessed_suite
 mochitest
 -
 browser
+-
+chrome
 "
             
 elif
