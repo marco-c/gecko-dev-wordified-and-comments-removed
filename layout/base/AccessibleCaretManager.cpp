@@ -6480,7 +6480,7 @@ event
 )
 -
 >
-RunDOMEventWhenSafe
+PostDOMEvent
 (
 )
 ;
