@@ -2996,6 +2996,8 @@ nsIDocShellTreeOwner
 *
 mTreeOwner
 ;
+RefPtr
+<
 mozilla
 :
 :
@@ -3003,7 +3005,7 @@ dom
 :
 :
 EventTarget
-*
+>
 mChromeEventHandler
 ;
 nsIntPoint
