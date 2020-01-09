@@ -449,7 +449,7 @@ JS_SetGCParameter
 (
 cx
 JSGC_MODE
-JSGC_MODE_INCREMENTAL
+JSGC_MODE_ZONE_INCREMENTAL
 )
 ;
 gSliceCallbackCount
