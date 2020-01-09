@@ -728,7 +728,7 @@ clang
 -
 tidy
 -
-win32
+win64
 .
 json
 '
