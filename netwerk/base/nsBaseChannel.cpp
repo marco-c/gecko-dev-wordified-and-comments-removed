@@ -1262,7 +1262,6 @@ mListener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 mListener
@@ -2945,9 +2944,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 )
 {
 MOZ_ASSERT_IF
@@ -3035,7 +3031,6 @@ mListener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 return

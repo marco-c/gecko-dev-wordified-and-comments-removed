@@ -5715,9 +5715,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-acontext
 )
 {
 return

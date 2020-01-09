@@ -247,9 +247,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 )
 {
 nsresult
@@ -261,7 +258,6 @@ mHandler
 OnStartRequest
 (
 request
-ctx
 )
 ;
 NS_ENSURE_SUCCESS

@@ -62,9 +62,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 )
 {
 MOZ_ASSERT

@@ -1048,9 +1048,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 int32_t
@@ -1278,7 +1275,6 @@ mListener
 OnStartRequest
 (
 aRequest
-mParser
 )
 ;
 }

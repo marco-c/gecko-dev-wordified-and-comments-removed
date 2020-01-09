@@ -903,9 +903,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 return
@@ -1563,9 +1560,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 mState
@@ -4556,9 +4550,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 nsresult
@@ -4661,7 +4652,6 @@ nsOfflineCacheUpdateItem
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }

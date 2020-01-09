@@ -100,8 +100,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
 )
 {
 nsCOMPtr

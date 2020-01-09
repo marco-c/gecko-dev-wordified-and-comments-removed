@@ -843,7 +843,6 @@ mObserver
 OnStartRequest
 (
 this
-mObserverContext
 )
 ;
 }
@@ -2003,9 +2002,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 )
 {
 nsresult

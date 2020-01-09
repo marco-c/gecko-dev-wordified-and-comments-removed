@@ -12952,9 +12952,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 )
 {
 if
@@ -13178,7 +13175,6 @@ mDestListener
 OnStartRequest
 (
 aRequest
-ctxt
 )
 ;
 }
@@ -13710,9 +13706,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 )
 {
 nsCOMPtr
@@ -14075,7 +14068,6 @@ mDestListener
 OnStartRequest
 (
 aRequest
-ctxt
 )
 ;
 }

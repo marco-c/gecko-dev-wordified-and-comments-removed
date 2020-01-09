@@ -4839,9 +4839,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 )
 {
 MOZ_ASSERT
@@ -4895,7 +4892,6 @@ mOrigStreamListener
 OnStartRequest
 (
 request
-aCtxt
 )
 ;
 }

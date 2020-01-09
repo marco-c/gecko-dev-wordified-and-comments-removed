@@ -1302,7 +1302,6 @@ OnStartRequest
 AsRequest
 (
 )
-nullptr
 )
 ;
 if

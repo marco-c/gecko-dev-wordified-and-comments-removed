@@ -4891,9 +4891,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 override
 {
@@ -4904,7 +4901,6 @@ mNext
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
@@ -13884,7 +13880,6 @@ listener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 mOnStartRequestCalled

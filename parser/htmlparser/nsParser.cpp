@@ -3531,9 +3531,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 )
 {
 MOZ_ASSERT
@@ -3574,7 +3571,6 @@ mObserver
 OnStartRequest
 (
 request
-aContext
 )
 ;
 }

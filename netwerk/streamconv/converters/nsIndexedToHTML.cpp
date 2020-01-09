@@ -493,9 +493,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 )
 {
 nsCString
@@ -507,7 +504,7 @@ rv
 DoOnStartRequest
 (
 request
-aContext
+nullptr
 buffer
 )
 ;
@@ -536,7 +533,6 @@ mListener
 OnStartRequest
 (
 request
-aContext
 )
 ;
 if
@@ -573,7 +569,7 @@ rv
 SendToListener
 (
 request
-aContext
+nullptr
 buffer
 )
 ;
@@ -760,7 +756,6 @@ mParser
 OnStartRequest
 (
 request
-aContext
 )
 ;
 if

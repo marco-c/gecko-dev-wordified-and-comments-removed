@@ -6785,9 +6785,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 )
 {
 MOZ_ASSERT

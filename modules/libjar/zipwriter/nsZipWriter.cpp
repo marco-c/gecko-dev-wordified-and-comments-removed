@@ -2642,7 +2642,6 @@ mProcessObserver
 OnStartRequest
 (
 nullptr
-mProcessContext
 )
 ;
 BeginProcessingNextItem
@@ -3082,9 +3081,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 return

@@ -936,9 +936,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 )
 {
 nsCOMPtr
@@ -1051,7 +1048,6 @@ mInner
 OnStartRequest
 (
 request
-aCtxt
 )
 ;
 }

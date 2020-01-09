@@ -809,9 +809,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 )
 {
 return
@@ -821,7 +818,6 @@ mFinalListener
 OnStartRequest
 (
 request
-ctxt
 )
 ;
 }

@@ -530,9 +530,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 if
@@ -546,7 +543,7 @@ mOwner
 DoOnStartRequest
 (
 mOwner
-mContext
+nullptr
 )
 ;
 }
@@ -2762,9 +2759,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 override
 {
@@ -3014,7 +3008,6 @@ mListener
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 if
