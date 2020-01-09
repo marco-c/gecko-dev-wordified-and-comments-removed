@@ -428,6 +428,9 @@ sidebar
 runtime
 -
 item__message
+isCloseable
+:
+true
 }
 Localized
 (
