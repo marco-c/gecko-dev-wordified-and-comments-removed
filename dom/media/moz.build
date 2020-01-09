@@ -929,6 +929,13 @@ WebrtcGlobal
 .
 h
 '
+'
+webrtc
+/
+WebrtcIPCTraits
+.
+h
+'
 ]
 if
 not

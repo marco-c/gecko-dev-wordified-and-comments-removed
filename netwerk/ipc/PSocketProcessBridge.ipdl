@@ -115,6 +115,10 @@ include
 protocol
 PBackground
 ;
+include
+protocol
+PMediaTransport
+;
 namespace
 mozilla
 {
@@ -186,6 +190,9 @@ sync
 protocol
 PSocketProcessBridge
 {
+manages
+PMediaTransport
+;
 parent
 :
 async
@@ -196,6 +203,11 @@ Endpoint
 PBackgroundParent
 >
 aEndpoint
+)
+;
+async
+PMediaTransport
+(
 )
 ;
 both
