@@ -2022,7 +2022,9 @@ aTabBrowser
 )
 {
 return
-promiseWaitForEvent
+BrowserTestUtils
+.
+waitForEvent
 (
 aTabBrowser
 .
