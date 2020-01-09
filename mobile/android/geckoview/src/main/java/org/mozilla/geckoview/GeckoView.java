@@ -1097,7 +1097,6 @@ active
 ;
 }
 }
-UiThread
 public
 Nullable
 GeckoSession
@@ -1271,7 +1270,6 @@ return
 session
 ;
 }
-UiThread
 public
 void
 setSession
@@ -1324,7 +1322,6 @@ getRuntime
 )
 ;
 }
-UiThread
 public
 void
 setSession
