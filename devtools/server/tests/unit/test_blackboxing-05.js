@@ -259,6 +259,10 @@ gThreadClient
 .
 getSources
 (
+)
+.
+then
+(
 async
 function
 (

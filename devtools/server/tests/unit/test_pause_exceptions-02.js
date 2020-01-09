@@ -138,6 +138,10 @@ pauseOnExceptions
 (
 true
 false
+)
+.
+then
+(
 function
 (
 )
@@ -184,6 +188,10 @@ exception
 gThreadClient
 .
 resume
+(
+)
+.
+then
 (
 (
 )

@@ -235,6 +235,10 @@ threadClient
 .
 resume
 (
+)
+.
+then
+(
 resolve
 )
 ;
@@ -256,6 +260,10 @@ resume
 threadClient
 .
 resume
+(
+)
+.
+then
 (
 (
 )

@@ -399,7 +399,6 @@ resume
 :
 function
 (
-onResponse
 )
 {
 return
@@ -409,7 +408,6 @@ _doResume
 (
 null
 false
-onResponse
 )
 ;
 }
@@ -417,7 +415,6 @@ resumeThenPause
 :
 function
 (
-onResponse
 )
 {
 return
@@ -433,7 +430,6 @@ break
 "
 }
 false
-onResponse
 )
 ;
 }
@@ -441,16 +437,15 @@ rewind
 :
 function
 (
-onResponse
 )
 {
+return
 this
 .
 _doResume
 (
 null
 true
-onResponse
 )
 ;
 }
@@ -458,7 +453,6 @@ stepOver
 :
 function
 (
-onResponse
 )
 {
 return
@@ -474,7 +468,6 @@ next
 "
 }
 false
-onResponse
 )
 ;
 }
@@ -482,7 +475,6 @@ stepIn
 :
 function
 (
-onResponse
 )
 {
 return
@@ -498,7 +490,6 @@ step
 "
 }
 false
-onResponse
 )
 ;
 }
@@ -506,7 +497,6 @@ stepOut
 :
 function
 (
-onResponse
 )
 {
 return
@@ -522,7 +512,6 @@ finish
 "
 }
 false
-onResponse
 )
 ;
 }
@@ -530,7 +519,6 @@ reverseStepOver
 :
 function
 (
-onResponse
 )
 {
 return
@@ -546,7 +534,6 @@ next
 "
 }
 true
-onResponse
 )
 ;
 }
@@ -554,7 +541,6 @@ reverseStepIn
 :
 function
 (
-onResponse
 )
 {
 return
@@ -570,7 +556,6 @@ step
 "
 }
 true
-onResponse
 )
 ;
 }
@@ -578,7 +563,6 @@ reverseStepOut
 :
 function
 (
-onResponse
 )
 {
 return
@@ -594,7 +578,6 @@ finish
 "
 }
 true
-onResponse
 )
 ;
 }
@@ -602,7 +585,6 @@ interrupt
 :
 function
 (
-onResponse
 )
 {
 return
@@ -611,7 +593,6 @@ this
 _doInterrupt
 (
 null
-onResponse
 )
 ;
 }
@@ -619,7 +600,6 @@ breakOnNext
 :
 function
 (
-onResponse
 )
 {
 return
@@ -630,7 +610,6 @@ _doInterrupt
 "
 onNext
 "
-onResponse
 )
 ;
 }
@@ -639,7 +618,6 @@ timeWarp
 function
 (
 target
-onResponse
 )
 {
 const
@@ -663,7 +641,6 @@ warp
 target
 }
 true
-onResponse
 )
 ;
 }
@@ -675,21 +652,24 @@ this
 paused
 )
 {
+return
 warp
 (
 )
 ;
 }
-else
-{
+return
 this
 .
 interrupt
 (
+)
+.
+then
+(
 warp
 )
 ;
-}
 }
 _doInterrupt
 :

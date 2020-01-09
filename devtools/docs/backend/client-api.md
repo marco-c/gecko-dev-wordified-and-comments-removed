@@ -1352,6 +1352,10 @@ activeThread
 .
 detach
 (
+)
+.
+then
+(
 (
 )
 =
@@ -1368,6 +1372,10 @@ tab
 client
 .
 detach
+(
+)
+.
+then
 (
 (
 )

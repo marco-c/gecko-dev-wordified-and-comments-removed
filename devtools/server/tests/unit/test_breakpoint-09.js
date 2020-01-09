@@ -195,6 +195,10 @@ threadClient
 .
 resume
 (
+)
+.
+then
+(
 function
 (
 )

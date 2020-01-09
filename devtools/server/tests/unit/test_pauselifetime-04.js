@@ -170,6 +170,10 @@ getFrames
 (
 0
 1
+)
+.
+then
+(
 function
 (
 response
@@ -203,6 +207,10 @@ actor
 gThreadClient
 .
 resume
+(
+)
+.
+then
 (
 function
 (

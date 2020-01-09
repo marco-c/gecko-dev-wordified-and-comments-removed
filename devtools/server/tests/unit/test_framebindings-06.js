@@ -305,6 +305,10 @@ gThreadClient
 .
 resume
 (
+)
+.
+then
+(
 function
 (
 )

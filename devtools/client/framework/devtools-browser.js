@@ -2189,6 +2189,10 @@ threadClient
 .
 interrupt
 (
+)
+.
+then
+(
 (
 )
 =
@@ -2229,6 +2233,10 @@ resumed
 threadClient
 .
 interrupt
+(
+)
+.
+then
 (
 (
 )
