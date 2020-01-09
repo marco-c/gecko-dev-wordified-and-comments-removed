@@ -31987,6 +31987,10 @@ EnsureObserver
 ;
 }
 }
+mIndexedDB
+=
+nullptr
+;
 }
 mozilla
 :

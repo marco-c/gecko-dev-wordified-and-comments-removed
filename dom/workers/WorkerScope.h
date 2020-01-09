@@ -891,6 +891,11 @@ aDescriptor
 )
 override
 ;
+void
+FirstPartyStorageAccessGranted
+(
+)
+;
 }
 ;
 class
