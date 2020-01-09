@@ -2724,16 +2724,24 @@ value
 :
                 
 if
-len
+isinstance
 (
 key
+(
+tuple
+list
 )
-=
-=
-3
+)
 :
                     
 key
+=
+list
+(
+key
+)
+                    
+key
 [
 0
 ]
@@ -2768,8 +2776,16 @@ key
 1
 ]
 )
+                    
+key
+=
+tuple
+(
+key
+)
                 
-else
+elif
+key
 :
                     
 key
