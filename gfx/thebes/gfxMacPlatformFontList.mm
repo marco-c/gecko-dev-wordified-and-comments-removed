@@ -5281,7 +5281,7 @@ can
 '
 t
 use
-StaticPrefs
+gfxPrefs
 to
 access
 them

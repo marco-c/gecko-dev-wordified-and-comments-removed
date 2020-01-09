@@ -22,6 +22,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsIGlobalObject
 .
 h
@@ -483,7 +490,7 @@ true
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VRAutoActivateEnabled
@@ -522,7 +529,7 @@ false
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VRAutoActivateEnabled

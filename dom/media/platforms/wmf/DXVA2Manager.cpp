@@ -78,6 +78,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxWindowsPlatform
 .
 h
@@ -86,15 +93,6 @@ h
 include
 "
 mfapi
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -2355,7 +2353,7 @@ VendorId
 &
 &
 !
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFSkipBlacklist
@@ -2791,7 +2789,7 @@ hr
 uint32_t
 dxvaLimit
 =
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFMaxDXVAVideos
@@ -3707,7 +3705,7 @@ GetSingleton
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFUseSyncTexture
@@ -3782,7 +3780,7 @@ NV12
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFUseSyncTexture
@@ -4623,7 +4621,7 @@ VendorId
 &
 &
 !
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFSkipBlacklist
@@ -6786,7 +6784,7 @@ aDevice
 uint32_t
 dxvaLimit
 =
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFMaxDXVAVideos
@@ -6931,7 +6929,7 @@ const
 {
 return
 !
-StaticPrefs
+gfxPrefs
 :
 :
 PDMWMFAMDHighResEnabled

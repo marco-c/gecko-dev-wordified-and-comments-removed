@@ -133,7 +133,7 @@ MediumHigh
 StaticPrefs
 :
 :
-threads_medium_high_event_queue_enabled
+medium_high_event_queue_enabled
 (
 )
 )

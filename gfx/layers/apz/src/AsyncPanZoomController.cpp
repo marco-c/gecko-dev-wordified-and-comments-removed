@@ -194,9 +194,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -301,15 +299,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -1245,7 +1234,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZZoomAnimationDuration
@@ -2090,25 +2079,25 @@ ComputedTimingFunction
 (
 nsTimingFunction
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZCurveFunctionX1
 (
 )
-StaticPrefs
+gfxPrefs
 :
 :
 APZCurveFunctionY1
 (
 )
-StaticPrefs
+gfxPrefs
 :
 :
 APZCurveFunctionX2
 (
 )
-StaticPrefs
+gfxPrefs
 :
 :
 APZCurveFunctionY2
@@ -2241,7 +2230,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZPinchLockBufferMaxAge
@@ -2654,7 +2643,7 @@ const
 {
 return
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTouchStartTolerance
@@ -2678,7 +2667,7 @@ const
 {
 return
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZTouchMoveTolerance
@@ -2702,7 +2691,7 @@ const
 {
 return
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZSecondTapTolerance
@@ -2732,7 +2721,7 @@ static_cast
 AxisLockMode
 >
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZAxisLockMode
@@ -2758,7 +2747,7 @@ static_cast
 PinchLockMode
 >
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZPinchLockMode
@@ -2986,7 +2975,7 @@ aInitialThumbPos
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 APZDragEnabled
@@ -3234,7 +3223,7 @@ if
 int
 snapMultiplier
 =
-StaticPrefs
+gfxPrefs
 :
 :
 SliderSnapMultiplier
@@ -4861,7 +4850,7 @@ GetCurrentTouchBlock
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -5405,7 +5394,7 @@ mTime
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowZooming
@@ -5624,7 +5613,7 @@ mTime
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowZooming
@@ -6084,7 +6073,7 @@ const
 int
 delay
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZScaleRepaintDelay
@@ -6230,7 +6219,7 @@ nsEventStatus_eIgnore
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowZooming
@@ -6581,7 +6570,7 @@ Length
 )
 .
 value
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingMinVelocityThreshold
@@ -6597,7 +6586,7 @@ Length
 (
 )
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingMinVelocityThreshold
@@ -7113,7 +7102,7 @@ aMultiplierY
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 MouseWheelHasRootScrollDeltaOverride
@@ -7199,7 +7188,7 @@ mScrollSeriesNumber
 int32_t
 start
 =
-StaticPrefs
+gfxPrefs
 :
 :
 MouseWheelAccelerationStart
@@ -7228,7 +7217,7 @@ start
 int32_t
 factor
 =
-StaticPrefs
+gfxPrefs
 :
 :
 MouseWheelAccelerationFactor
@@ -7405,7 +7394,7 @@ destination
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollEnabled
@@ -7880,7 +7869,7 @@ eScrollCharacter
 int32_t
 scrollDistance
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ToolkitHorizontalScrollDistance
@@ -7933,7 +7922,7 @@ eScrollLine
 int32_t
 scrollDistance
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ToolkitVerticalScrollDistance
@@ -8591,7 +8580,7 @@ AllowScrollHandoff
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowImmediateHandoff
@@ -8987,7 +8976,7 @@ GetActiveWheelTransaction
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 MouseScrollTestingEnabled
@@ -11790,7 +11779,7 @@ apz
 IsCloseToHorizontal
 (
 aAngle
-StaticPrefs
+gfxPrefs
 :
 :
 APZAxisLockAngle
@@ -11821,7 +11810,7 @@ apz
 IsCloseToVertical
 (
 aAngle
-StaticPrefs
+gfxPrefs
 :
 :
 APZAxisLockAngle
@@ -11897,7 +11886,7 @@ apz
 IsCloseToHorizontal
 (
 aAngle
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowedDirectPanAngle
@@ -11953,7 +11942,7 @@ apz
 IsCloseToVertical
 (
 aAngle
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowedDirectPanAngle
@@ -12130,7 +12119,7 @@ apz
 IsCloseToHorizontal
 (
 aAngle
-StaticPrefs
+gfxPrefs
 :
 :
 APZAxisLockAngle
@@ -12167,7 +12156,7 @@ apz
 IsCloseToVertical
 (
 aAngle
-StaticPrefs
+gfxPrefs
 :
 :
 APZAxisLockAngle
@@ -12262,7 +12251,7 @@ angle
 float
 breakThreshold
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZAxisBreakoutThreshold
@@ -12312,7 +12301,7 @@ apz
 IsCloseToHorizontal
 (
 angle
-StaticPrefs
+gfxPrefs
 :
 :
 APZAxisBreakoutAngle
@@ -12353,7 +12342,7 @@ apz
 IsCloseToVertical
 (
 angle
-StaticPrefs
+gfxPrefs
 :
 :
 APZAxisBreakoutAngle
@@ -12530,7 +12519,7 @@ PINCH_STICKY
 ScreenCoord
 spanBreakoutThreshold
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZPinchLockSpanBreakoutThreshold
@@ -12567,7 +12556,7 @@ PINCH_FREE
 ScreenCoord
 spanLockThreshold
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZPinchLockSpanLockThreshold
@@ -12581,7 +12570,7 @@ GetDPI
 ScreenCoord
 scrollLockThreshold
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZPinchLockScrollLockThreshold
@@ -12668,7 +12657,7 @@ mRecursiveMutex
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -13281,7 +13270,7 @@ aPanDistance
 .
 x
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZMinPanDistanceRatio
@@ -13306,7 +13295,7 @@ aPanDistance
 .
 y
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZMinPanDistanceRatio
@@ -13346,7 +13335,7 @@ aOverscroll
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 APZOverscrollEnabled
@@ -13679,7 +13668,7 @@ Length
 (
 )
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingMinVelocityThreshold
@@ -13990,7 +13979,7 @@ IsPannable
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 APZOverscrollEnabled
@@ -14243,13 +14232,13 @@ this
 initialPosition
 initialVelocity
 destination
-StaticPrefs
+gfxPrefs
 :
 :
 ScrollBehaviorSpringConstant
 (
 )
-StaticPrefs
+gfxPrefs
 :
 :
 ScrollBehaviorDampingRatio
@@ -15225,7 +15214,7 @@ aVelocity
 x
 )
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZMinSkateSpeed
@@ -15242,7 +15231,7 @@ aVelocity
 y
 )
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZMinSkateSpeed
@@ -15254,14 +15243,14 @@ xMultiplier
 =
 xIsStationarySpeed
 ?
-StaticPrefs
+gfxPrefs
 :
 :
 APZXStationarySizeMultiplier
 (
 )
 :
-StaticPrefs
+gfxPrefs
 :
 :
 APZXSkateSizeMultiplier
@@ -15273,14 +15262,14 @@ yMultiplier
 =
 yIsStationarySpeed
 ?
-StaticPrefs
+gfxPrefs
 :
 :
 APZYStationarySizeMultiplier
 (
 )
 :
-StaticPrefs
+gfxPrefs
 :
 :
 APZYSkateSizeMultiplier
@@ -15301,7 +15290,7 @@ xIsStationarySpeed
 xMultiplier
 +
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZXSkateHighMemAdjust
@@ -15323,7 +15312,7 @@ yIsStationarySpeed
 yMultiplier
 +
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZYSkateHighMemAdjust
@@ -15396,13 +15385,13 @@ dangerZone
 =
 LayerSize
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZDangerZoneX
 (
 )
-StaticPrefs
+gfxPrefs
 :
 :
 APZDangerZoneY
@@ -15681,7 +15670,7 @@ aFrameMetrics
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZEnlargeDisplayPortWhenClipped
@@ -15746,7 +15735,7 @@ velocity
 *
 paintFactor
 *
-StaticPrefs
+gfxPrefs
 :
 :
 APZVelocityBias
@@ -16077,7 +16066,7 @@ Length
 (
 )
 >
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingStopOnTapThreshold
@@ -17619,7 +17608,7 @@ this
 ;
 return
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZAllowZooming
@@ -17762,7 +17751,7 @@ const
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZFrameDelayEnabled
@@ -17803,7 +17792,7 @@ const
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZFrameDelayEnabled
@@ -17844,7 +17833,7 @@ const
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZFrameDelayEnabled
@@ -18322,7 +18311,7 @@ aSampleTime
 bool
 recordTrace
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZRecordCheckerboarding
@@ -18518,7 +18507,7 @@ CheckerboardDone
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZRecordCheckerboarding
@@ -19986,7 +19975,7 @@ relativeDelta
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZRelativeUpdate
@@ -20320,7 +20309,7 @@ mState
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZRelativeUpdate
@@ -21940,7 +21929,7 @@ MOZ_WIDGET_GTK
 )
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 HidePluginsForScroll
@@ -22057,7 +22046,7 @@ MOZ_WIDGET_GTK
 )
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 HidePluginsForScroll
@@ -22568,7 +22557,7 @@ frame
 mSharedLock
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 ProgressivePaint
@@ -22620,7 +22609,7 @@ mSharedFrameMetricsBuffer
 mMetricsSharingController
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 ProgressivePaint
@@ -23108,7 +23097,7 @@ mRecursiveMutex
 float
 friction
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingFriction

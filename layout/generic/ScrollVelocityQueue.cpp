@@ -8,9 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -49,7 +47,7 @@ aScrollPosition
 float
 flingSensitivity
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ScrollSnapPredictionSensitivity
@@ -59,7 +57,7 @@ ScrollSnapPredictionSensitivity
 int
 maxVelocity
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ScrollSnapPredictionMaxVelocity
@@ -133,7 +131,7 @@ if
 (
 durationMs
 >
-StaticPrefs
+gfxPrefs
 :
 :
 APZVelocityRelevanceTime
@@ -320,7 +318,7 @@ if
 timeDelta
 >
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZVelocityRelevanceTime

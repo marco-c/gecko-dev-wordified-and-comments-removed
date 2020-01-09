@@ -138,6 +138,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxPoint
 .
 h
@@ -3454,7 +3461,7 @@ aContext
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WidgetUpdateFlashing

@@ -22,6 +22,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsPoint
 .
 h
@@ -82,7 +89,7 @@ aInitialPosition
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 SmoothScrollMSDPhysicsEnabled

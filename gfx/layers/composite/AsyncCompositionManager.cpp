@@ -40,9 +40,7 @@ h
 #
 include
 "
-mozilla
-/
-ServoBindings
+gfxPrefs
 .
 h
 "
@@ -51,7 +49,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+ServoBindings
 .
 h
 "
@@ -270,6 +268,13 @@ h
 include
 "
 UnitTransforms
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "
@@ -3642,7 +3647,7 @@ aLayer
 {
 MOZ_ASSERT
 (
-StaticPrefs
+gfxPrefs
 :
 :
 CollectScrollTransforms
@@ -6336,7 +6341,7 @@ trans
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 CollectScrollTransforms
@@ -6401,7 +6406,7 @@ mFixedLayerMargins
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZFixedMarginOverrideEnabled
@@ -6413,7 +6418,7 @@ result
 .
 top
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZFixedMarginOverrideTop
@@ -6424,7 +6429,7 @@ result
 .
 bottom
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZFixedMarginOverrideBottom

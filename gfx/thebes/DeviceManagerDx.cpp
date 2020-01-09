@@ -29,6 +29,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxWindowsPlatform
 .
 h
@@ -39,15 +46,6 @@ include
 mozilla
 /
 D3DMessageUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -961,7 +959,7 @@ if
 int32_t
 sleepSec
 =
-StaticPrefs
+gfxPrefs
 :
 :
 Direct3D11SleepOnCreateDevice
@@ -1855,7 +1853,7 @@ aOutDevice
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 DeviceFailForTesting
@@ -2122,7 +2120,7 @@ d3d11
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayersD3D11ForceWARP
@@ -2476,7 +2474,7 @@ aOutDevice
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 Direct3D11EnableDebugLayer
@@ -2484,7 +2482,7 @@ Direct3D11EnableDebugLayer
 )
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 Direct3D11BreakOnError
@@ -2539,7 +2537,7 @@ false
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 Direct3D11BreakOnError
@@ -2714,7 +2712,7 @@ D3D11
 -
 WARP
 "
-StaticPrefs
+gfxPrefs
 :
 :
 LayersD3D11ForceWARP
@@ -3316,7 +3314,7 @@ false
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 Direct3D11ReuseDecoderDevice
@@ -3340,7 +3338,7 @@ true
 else
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 Direct3D11ReuseDecoderDevice
@@ -4598,7 +4596,7 @@ NS_IsMainThread
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 DeviceResetForTesting
@@ -4606,7 +4604,7 @@ DeviceResetForTesting
 )
 )
 {
-StaticPrefs
+gfxPrefs
 :
 :
 SetDeviceResetForTesting
@@ -5046,7 +5044,7 @@ return
 mDeviceStatus
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 Direct3D11AllowKeyedMutex

@@ -132,6 +132,13 @@ nscore
 h
 "
 #
+include
+"
+gfxPrefs
+.
+h
+"
+#
 define
 AXIS_LOG
 (

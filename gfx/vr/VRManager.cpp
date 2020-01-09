@@ -84,16 +84,14 @@ include
 "
 mozilla
 /
-StaticPrefs
+Unused
 .
 h
 "
 #
 include
 "
-mozilla
-/
-Unused
+gfxPrefs
 .
 h
 "
@@ -309,7 +307,7 @@ MOZ_WIDGET_ANDROID
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VRProcessEnabled
@@ -420,7 +418,7 @@ XRE_IsParentProcess
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 VREnabled
@@ -699,7 +697,7 @@ XRE_IsGPUProcess
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 VRProcessEnabled
@@ -1648,7 +1646,7 @@ ToMilliseconds
 (
 )
 >
-StaticPrefs
+gfxPrefs
 :
 :
 VRInactiveTimeout
@@ -1781,7 +1779,7 @@ ToMilliseconds
 (
 )
 <
-StaticPrefs
+gfxPrefs
 :
 :
 VRDisplayEnumerateInterval
@@ -1846,7 +1844,7 @@ XRE_IsGPUProcess
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 VRProcessEnabled
@@ -2920,7 +2918,7 @@ ToMilliseconds
 (
 )
 <
-StaticPrefs
+gfxPrefs
 :
 :
 VRControllerEnumerateInterval

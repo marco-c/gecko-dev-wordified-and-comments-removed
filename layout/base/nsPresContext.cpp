@@ -472,6 +472,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsIDOMChromeWindow
 .
 h
@@ -1632,6 +1639,13 @@ GetDocumentColorPreferences
 (
 )
 {
+gfxPrefs
+:
+:
+GetSingleton
+(
+)
+;
 PreferenceSheet
 :
 :

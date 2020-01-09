@@ -30,9 +30,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -1033,7 +1031,7 @@ aSystemState
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VREnabled
@@ -1042,7 +1040,7 @@ VREnabled
 |
 |
 !
-StaticPrefs
+gfxPrefs
 :
 :
 VROculusEnabled
@@ -1200,7 +1198,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VROculusPresentTimeout
@@ -1350,7 +1348,7 @@ ovrInit_MixedRendering
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VROculusInvisibleEnabled
@@ -6166,7 +6164,7 @@ predictedFrameTime
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 VRPosePredictionEnabled
@@ -7460,7 +7458,7 @@ const
 float
 triggerThreshold
 =
-StaticPrefs
+gfxPrefs
 :
 :
 VRControllerTriggerThreshold

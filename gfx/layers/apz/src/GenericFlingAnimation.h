@@ -63,6 +63,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -298,7 +305,7 @@ ToMilliseconds
 (
 )
 <
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingAccelInterval
@@ -313,7 +320,7 @@ Length
 )
 >
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingAccelMinVelocity
@@ -917,7 +924,7 @@ return
 (
 aBase
 *
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingAccelBaseMultiplier
@@ -928,7 +935,7 @@ APZFlingAccelBaseMultiplier
 (
 aSupplemental
 *
-StaticPrefs
+gfxPrefs
 :
 :
 APZFlingAccelSupplementalMultiplier

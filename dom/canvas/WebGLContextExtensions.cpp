@@ -22,6 +22,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 GLContext
 .
 h
@@ -323,7 +330,7 @@ true
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 WebGLPrivilegedExtensionsEnabled

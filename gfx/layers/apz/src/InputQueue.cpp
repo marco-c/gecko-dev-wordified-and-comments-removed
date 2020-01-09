@@ -15,6 +15,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 InputBlockState
 .
 h
@@ -364,7 +371,7 @@ false
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -511,7 +518,7 @@ false
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 TouchActionEnabled
@@ -1493,7 +1500,7 @@ ProcessQueue
 )
 ;
 return
-StaticPrefs
+gfxPrefs
 :
 :
 APZKeyboardPassiveListeners
@@ -2688,7 +2695,7 @@ GetBlockId
 int32_t
 timeout
 =
-StaticPrefs
+gfxPrefs
 :
 :
 APZContentResponseTimeout

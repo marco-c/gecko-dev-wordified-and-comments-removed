@@ -48,6 +48,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -194,15 +201,6 @@ include
 mozilla
 /
 mozalloc
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -2766,7 +2764,7 @@ endif
 bool
 drawFps
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayersDrawFPS
@@ -2781,7 +2779,7 @@ drawFps
 uint32_t
 visualWarningTrigger
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayerTransactionWarning
@@ -4443,7 +4441,7 @@ z
 }
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames

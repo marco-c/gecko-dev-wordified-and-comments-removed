@@ -43,6 +43,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxWindowsSurface
 .
 h
@@ -1076,7 +1083,7 @@ DXInterop2Blocked
 &
 &
 !
-StaticPrefs
+gfxPrefs
 :
 :
 IgnoreDXInterop2Blacklist

@@ -22,6 +22,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AutoRestore
@@ -17453,7 +17460,7 @@ eWindowType_toplevel
 mWindowType
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 PointerEventsEnabled

@@ -8,6 +8,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h
@@ -322,7 +329,7 @@ const
 bool
 mVerifyOrder
 =
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutVerifyRetainDisplayListOrder

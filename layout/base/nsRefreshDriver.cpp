@@ -353,6 +353,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 BackgroundChild
 .
 h
@@ -4239,6 +4246,13 @@ PodArrayZero
 sJankLevels
 )
 ;
+gfxPrefs
+:
+:
+GetSingleton
+(
+)
+;
 if
 (
 gfxPlatform
@@ -8032,7 +8046,7 @@ SchedulePaintIfDeviceReset
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 APZPeekMessages
@@ -9337,7 +9351,7 @@ XRE_IsContentProcess
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 AlwaysPaint

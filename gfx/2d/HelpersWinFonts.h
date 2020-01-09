@@ -1,9 +1,7 @@
 #
 include
 "
-mozilla
-/
-StaticPrefs
+gfxPrefs
 .
 h
 "
@@ -43,7 +41,7 @@ SUBPIXEL
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 DisableAllTextAA

@@ -20,6 +20,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h
@@ -1601,6 +1608,13 @@ CreateTrivialDecoder
 (
 )
 {
+gfxPrefs
+:
+:
+GetSingleton
+(
+)
+;
 DecoderType
 decoderType
 =

@@ -43,6 +43,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxRect
 .
 h
@@ -53,15 +60,6 @@ include
 mozilla
 /
 Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StaticPrefs
 .
 h
 "
@@ -467,7 +465,7 @@ GetTransform
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 LayoutUseContainersForRootFrames
@@ -1279,7 +1277,7 @@ UseProgressiveDraw
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 ProgressivePaint
@@ -2366,7 +2364,7 @@ ClientManager
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 LayersSingleTileEnabled

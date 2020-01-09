@@ -15,6 +15,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -35662,7 +35669,7 @@ GLYPH_STROKE
 ;
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 PaintOrderEnabled

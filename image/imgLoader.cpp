@@ -65,15 +65,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ChaosMode
 .
 h
@@ -339,6 +330,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 prtime
 .
 h
@@ -466,7 +464,7 @@ manager
 |
 |
 !
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemDebugReporting
@@ -1550,7 +1548,7 @@ IsNotable
 )
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemDebugReporting
@@ -2103,7 +2101,7 @@ eAnimated
 {
 if
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemDebugReporting
@@ -6353,7 +6351,7 @@ GlobalInit
 {
 sCacheTimeWeight
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ImageCacheTimeWeight
@@ -6367,7 +6365,7 @@ ImageCacheTimeWeight
 int32_t
 cachesize
 =
-StaticPrefs
+gfxPrefs
 :
 :
 ImageCacheSize

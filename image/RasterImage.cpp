@@ -226,15 +226,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-StaticPrefs
-.
-h
-"
-#
-include
 <
 stdint
 .
@@ -298,6 +289,13 @@ h
 include
 "
 gfx2DGlue
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "
@@ -1426,7 +1424,7 @@ PlaybackType
 eAnimated
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -1678,7 +1676,7 @@ mAnimationState
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -1944,7 +1942,7 @@ mAnimationState
 {
 MOZ_ASSERT
 (
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -3072,7 +3070,7 @@ mSize
 if
 (
 !
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -4288,7 +4286,7 @@ MOZ_ASSERT
 mAnimationState
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -4378,7 +4376,7 @@ mAllSourceData
 mAnimationState
 |
 |
-StaticPrefs
+gfxPrefs
 :
 :
 ImageMemAnimatedDiscardable
@@ -5405,7 +5403,7 @@ HaveSkia
 |
 |
 !
-StaticPrefs
+gfxPrefs
 :
 :
 ImageDownscaleDuringDecodeEnabled

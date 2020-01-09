@@ -670,6 +670,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused
@@ -8458,6 +8465,13 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+gfxPrefs
+:
+:
+GetSingleton
+(
 )
 ;
 rv

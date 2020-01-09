@@ -8,6 +8,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsMimeTypes
 .
 h
@@ -392,7 +399,7 @@ IMAGE_WEBP
 )
 &
 &
-StaticPrefs
+gfxPrefs
 :
 :
 ImageWebPEnabled

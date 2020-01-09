@@ -10,6 +10,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 MediaSystemResourceManagerChild
 .
 h
