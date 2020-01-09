@@ -33,11 +33,11 @@ wptserve
 mozdevice
 >
 =
-1
+3
+.
+0
 .
 1
-.
-6
 mozproxy
 >
 =
