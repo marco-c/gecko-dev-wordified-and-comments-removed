@@ -1698,6 +1698,9 @@ URIParams
 ?
 doc
 ;
+nsIReferrerInfo
+referrerInfo
+;
 URIParams
 ?
 originalReferrer
