@@ -189,6 +189,9 @@ INTERNET
 "
 /
 >
+#
+ifdef
+MOZ_ANDROID_MLS_STUMBLER
 <
 uses
 -
@@ -206,6 +209,8 @@ RECEIVE_BOOT_COMPLETED
 "
 /
 >
+#
+endif
 <
 uses
 -
