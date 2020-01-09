@@ -62,8 +62,8 @@ enum
 Type
 {
 RESET
-SET
 INCREMENT
+SET
 USE
 }
 ;
@@ -289,7 +289,7 @@ INT32_MIN
 aChangeType
 =
 =
-SET
+INCREMENT
 ?
 (
 (
