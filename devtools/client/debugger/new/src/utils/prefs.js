@@ -920,9 +920,7 @@ Bool
 "
 debugger
 .
-alphabetize
--
-outline
+logging
 "
 ]
 alphabetizeOutline
