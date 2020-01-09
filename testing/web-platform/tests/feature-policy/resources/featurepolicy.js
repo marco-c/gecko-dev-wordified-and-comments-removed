@@ -257,9 +257,12 @@ location
 .
 hash
 .
-includes
+endsWith
 (
+#
+{
 feature_name
+}
 )
 )
 {
