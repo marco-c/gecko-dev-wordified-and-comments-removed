@@ -1,6 +1,11 @@
 #
 include
 <
+cstdarg
+>
+#
+include
+<
 cstdint
 >
 #
@@ -2977,8 +2982,8 @@ static
 RasterSpace
 Local
 (
-float
 const
+float
 &
 a0
 )
@@ -3322,6 +3327,7 @@ uintptr_t
 const
 void
 *
+ptr
 )
 ;
 struct
