@@ -9900,12 +9900,9 @@ styleText
 >
 mLineHeight
 .
-GetUnit
+IsNormal
 (
 )
-=
-=
-eStyleUnit_Normal
 )
 {
 logicalBSize
@@ -11390,12 +11387,9 @@ StyleText
 >
 mLineHeight
 .
-GetUnit
+IsNormal
 (
 )
-=
-=
-eStyleUnit_Normal
 ;
 }
 else

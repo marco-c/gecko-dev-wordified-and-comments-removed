@@ -1117,7 +1117,7 @@ computed
 WordSpacing
 :
 :
-normal
+zero
 (
 )
 "
