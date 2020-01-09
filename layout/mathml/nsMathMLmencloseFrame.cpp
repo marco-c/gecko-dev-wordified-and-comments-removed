@@ -4231,9 +4231,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayNotation
 >
@@ -4243,7 +4241,6 @@ aFrame
 aRect
 aThickness
 aType
-)
 )
 ;
 }

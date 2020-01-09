@@ -12402,6 +12402,15 @@ aBuilder
 this
 )
 ;
+if
+(
+!
+item
+)
+{
+return
+;
+}
 aLists
 .
 Content

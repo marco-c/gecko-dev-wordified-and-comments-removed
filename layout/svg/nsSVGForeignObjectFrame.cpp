@@ -819,9 +819,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayForeignObject
 >
@@ -830,7 +828,6 @@ aBuilder
 this
 &
 newList
-)
 )
 ;
 }

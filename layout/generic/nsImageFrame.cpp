@@ -10426,16 +10426,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayAltFeedback
 >
 (
 aBuilder
 this
-)
 )
 ;
 if
@@ -10511,9 +10508,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayImage
 >
@@ -10522,7 +10517,6 @@ aBuilder
 this
 mImage
 mPrevImage
-)
 )
 ;
 if
@@ -10565,9 +10559,7 @@ Outlines
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayGeneric
 >
@@ -10582,7 +10574,6 @@ DisplayItemType
 :
 :
 TYPE_DEBUG_IMAGE_MAP
-)
 )
 ;
 }

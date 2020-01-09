@@ -1331,16 +1331,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayRangeFocusRing
 >
 (
 aBuilder
 this
-)
 )
 ;
 }

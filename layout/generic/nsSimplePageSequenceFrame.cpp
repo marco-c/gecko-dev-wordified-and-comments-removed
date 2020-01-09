@@ -3517,9 +3517,7 @@ GetNextSibling
 }
 content
 .
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayTransform
 >
@@ -3537,7 +3535,6 @@ GetBuildingRect
 :
 :
 ComputePageSequenceTransform
-)
 )
 ;
 aLists

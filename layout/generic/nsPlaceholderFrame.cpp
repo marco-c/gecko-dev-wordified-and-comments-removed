@@ -1169,9 +1169,7 @@ Outlines
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayGeneric
 >
@@ -1186,7 +1184,6 @@ DisplayItemType
 :
 :
 TYPE_DEBUG_PLACEHOLDER
-)
 )
 ;
 }

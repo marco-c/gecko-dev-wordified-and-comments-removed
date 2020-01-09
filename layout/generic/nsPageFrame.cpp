@@ -2823,9 +2823,7 @@ NS_RGBA
 }
 content
 .
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayTransform
 >
@@ -2843,7 +2841,6 @@ GetBuildingRect
 :
 :
 ComputePageTransform
-)
 )
 ;
 set
@@ -2878,16 +2875,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayHeaderFooter
 >
 (
 aBuilder
 this
-)
 )
 ;
 }

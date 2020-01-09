@@ -3593,16 +3593,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayOuterSVG
 >
 (
 aBuilder
 this
-)
 )
 ;
 }
@@ -4516,9 +4513,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplaySVGWrapper
 >
@@ -4527,7 +4522,6 @@ aBuilder
 this
 &
 newList
-)
 )
 ;
 }

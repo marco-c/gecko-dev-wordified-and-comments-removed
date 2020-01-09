@@ -1441,9 +1441,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayMathMLBoundingMetrics
 >
@@ -1456,7 +1454,6 @@ x
 y
 w
 h
-)
 )
 )
 ;
@@ -1713,9 +1710,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayMathMLBar
 >
@@ -1724,7 +1719,6 @@ aBuilder
 aFrame
 aRect
 aIndex
-)
 )
 ;
 }

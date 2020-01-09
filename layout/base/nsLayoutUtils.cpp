@@ -15165,6 +15165,11 @@ nsRect
 0
 )
 ;
+MOZ_ASSERT
+(
+item
+)
+;
 *
 aTransform
 =

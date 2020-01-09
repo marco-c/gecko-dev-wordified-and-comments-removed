@@ -1206,16 +1206,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplaySVGGeometry
 >
 (
 aBuilder
 this
-)
 )
 ;
 }

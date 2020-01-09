@@ -732,16 +732,13 @@ Outlines
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayListFocus
 >
 (
 aBuilder
 this
-)
 )
 ;
 }

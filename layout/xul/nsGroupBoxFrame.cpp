@@ -635,16 +635,13 @@ BorderBackground
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayXULGroupBorder
 >
 (
 aBuilder
 this
-)
 )
 ;
 DisplayOutline

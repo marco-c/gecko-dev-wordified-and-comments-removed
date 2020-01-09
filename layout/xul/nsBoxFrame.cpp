@@ -5398,9 +5398,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayOwnLayer
 >
@@ -5426,7 +5424,6 @@ ScrollbarData
 true
 true
 )
-)
 ;
 }
 else
@@ -5446,9 +5443,7 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayRenderRoot
 >
@@ -5459,7 +5454,6 @@ this
 masterList
 ownLayerASR
 renderRoot
-)
 )
 ;
 }

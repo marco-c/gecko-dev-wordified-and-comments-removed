@@ -2941,16 +2941,13 @@ Content
 )
 -
 >
-AppendToTop
-(
-MakeDisplayItem
+AppendNewToTop
 <
 nsDisplayVideo
 >
 (
 aBuilder
 this
-)
 )
 ;
 }
