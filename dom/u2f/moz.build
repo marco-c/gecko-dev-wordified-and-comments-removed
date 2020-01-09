@@ -103,8 +103,8 @@ Core
 "
 DOM
 :
-Device
-Interfaces
+Web
+Authentication
 "
 )
 EXPORTS
