@@ -2424,9 +2424,7 @@ aCtx
 ToReferenceFrame
 (
 )
-IsSubpixelAADisabled
-(
-)
+mDisableSubpixelAA
 )
 ;
 }
@@ -2754,10 +2752,6 @@ aBuilder
 page
 childVisible
 childVisible
-nsDisplayListBuilder
-:
-:
-RIIS_YES
 )
 ;
 BuildDisplayListForExtraPage

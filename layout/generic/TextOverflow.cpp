@@ -1235,9 +1235,7 @@ aCtx
 GetDrawTarget
 (
 )
-IsSubpixelAADisabled
-(
-)
+mDisableSubpixelAA
 )
 ;
 nscolor

@@ -2259,9 +2259,6 @@ true
 }
 if
 (
-subdocRootFrame
-&
-&
 aBuilder
 -
 >
@@ -2286,14 +2283,6 @@ GetCaretFrame
 dirty
 =
 visible
-;
-aBuilder
--
->
-MarkFrameModifiedDuringBuilding
-(
-subdocRootFrame
-)
 ;
 aBuilder
 -
