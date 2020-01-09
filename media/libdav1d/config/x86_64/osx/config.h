@@ -43,5 +43,9 @@ HAVE_UNISTD_H
 1
 #
 define
+PREFIX
+1
+#
+define
 STACK_ALIGNMENT
 32

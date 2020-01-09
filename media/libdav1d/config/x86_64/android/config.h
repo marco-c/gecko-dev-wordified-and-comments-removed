@@ -32,7 +32,7 @@ CONFIG_8BPC
 #
 define
 HAVE_ASM
-1
+0
 #
 define
 HAVE_POSIX_MEMALIGN
