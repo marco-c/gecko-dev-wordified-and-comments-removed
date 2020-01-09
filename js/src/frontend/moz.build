@@ -280,6 +280,11 @@ LabelEmitter
 cpp
 '
 '
+LexicalScopeEmitter
+.
+cpp
+'
+'
 NameFunctions
 .
 cpp
