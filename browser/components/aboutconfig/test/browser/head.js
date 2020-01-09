@@ -108,6 +108,17 @@ irc
 name
 "
 ;
+const
+PREF_NEW
+=
+"
+test
+.
+aboutconfig
+.
+new
+"
+;
 class
 AboutConfigRowTest
 {
