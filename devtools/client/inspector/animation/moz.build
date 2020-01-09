@@ -115,7 +115,8 @@ BUG_COMPONENT
 DevTools
 '
 '
-Animation
 Inspector
+:
+Animations
 '
 )

@@ -393,8 +393,9 @@ BUG_COMPONENT
 DevTools
 '
 '
-Animation
 Inspector
+:
+Animations
 '
 )
 with
@@ -436,9 +437,9 @@ BUG_COMPONENT
 DevTools
 '
 '
-CSS
-Rules
 Inspector
+:
+Rules
 '
 )
 with

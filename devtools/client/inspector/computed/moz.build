@@ -121,8 +121,8 @@ BUG_COMPONENT
 DevTools
 '
 '
-Computed
-Styles
 Inspector
+:
+Computed
 '
 )

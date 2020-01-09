@@ -161,8 +161,8 @@ BUG_COMPONENT
 DevTools
 '
 '
-CSS
-Rules
 Inspector
+:
+Rules
 '
 )
