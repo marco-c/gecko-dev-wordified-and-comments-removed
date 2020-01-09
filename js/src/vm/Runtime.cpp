@@ -1740,7 +1740,7 @@ nursery
 (
 )
 .
-sizeOfHeapCommitted
+committed
 (
 )
 ;
