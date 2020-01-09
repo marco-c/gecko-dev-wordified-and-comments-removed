@@ -2708,10 +2708,7 @@ aStorage
 nsCSSPropertyID
 aProperty
 const
-Maybe
-<
-TransformData
->
+AnimationData
 &
 aAnimationData
 const
@@ -2968,7 +2965,7 @@ transformData
 =
 aAnimationData
 .
-ref
+get_TransformData
 (
 )
 ;
@@ -3356,7 +3353,7 @@ lastPropertyAnimationGroup
 .
 mAnimationData
 .
-ref
+get_TransformData
 (
 )
 ;
