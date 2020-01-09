@@ -8592,6 +8592,11 @@ return
 else
 if
 (
+aInstallingPrincipal
+.
+isNullPrincipal
+|
+|
 !
 aBrowser
 .

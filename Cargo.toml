@@ -294,6 +294,13 @@ rust
 /
 mp4parse_fallible
 "
+"
+xpcom
+/
+rust
+/
+gkrust_utils
+"
 ]
 #
 Explicitly
