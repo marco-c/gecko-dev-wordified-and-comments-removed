@@ -565,6 +565,11 @@ attribute
 boolean
 isFromPrivateWindow
 ;
+readonly
+attribute
+boolean
+isFromChromeContext
+;
 attribute
 jsval
 stack
@@ -754,6 +759,12 @@ optional
 in
 bool
 fromPrivateWindow
+[
+optional
+]
+in
+bool
+fromChromeContext
 )
 ;
 /

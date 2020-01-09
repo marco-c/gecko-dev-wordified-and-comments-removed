@@ -160,6 +160,15 @@ nsGlobalWindowInner
 aWindow
 )
 ;
+static
+bool
+ComputeIsFromChromeContext
+(
+nsGlobalWindowInner
+*
+aWindow
+)
+;
 protected
 :
 virtual
@@ -254,6 +263,9 @@ mInitializedOnMainThread
 ;
 bool
 mIsFromPrivateWindow
+;
+bool
+mIsFromChromeContext
 ;
 }
 ;

@@ -5108,6 +5108,7 @@ errorFlag
 SOP
 "
 aFromPrivateWindow
+true
 )
 ;
 NS_ENSURE_SUCCESS
