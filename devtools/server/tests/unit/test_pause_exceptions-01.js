@@ -206,6 +206,7 @@ gThreadClient
 pauseOnExceptions
 (
 true
+false
 )
 ;
 gThreadClient

@@ -37,6 +37,7 @@ threadClient
 pauseOnExceptions
 (
 true
+false
 )
 ;
 await
