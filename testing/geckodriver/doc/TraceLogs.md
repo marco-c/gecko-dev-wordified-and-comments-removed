@@ -1183,7 +1183,7 @@ client
 ]
 comes
 with
-an
+a
 [
 selenium
 .
@@ -1246,7 +1246,7 @@ driver
 =
 Firefox
 (
-firefox_options
+options
 =
 opts
 )
