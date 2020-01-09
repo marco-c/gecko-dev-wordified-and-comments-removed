@@ -3097,11 +3097,7 @@ Self
 if
 self
 .
-implemented_pseudo_element
-(
-)
-.
-is_some
+is_pseudo_element
 (
 )
 {
