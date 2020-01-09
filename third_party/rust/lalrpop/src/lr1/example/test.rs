@@ -1,12 +1,4 @@
 use
-string_cache
-:
-:
-DefaultAtom
-as
-Atom
-;
-use
 grammar
 :
 :
@@ -14,6 +6,14 @@ repr
 :
 :
 *
+;
+use
+string_cache
+:
+:
+DefaultAtom
+as
+Atom
 ;
 use
 test_util
@@ -130,6 +130,7 @@ t
 )
 )
 }
+;
 }
 macro_rules
 !

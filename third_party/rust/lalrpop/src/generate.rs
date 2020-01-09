@@ -438,6 +438,7 @@ trees
 )
 =
 >
+{
 for
 tree
 in
@@ -450,6 +451,7 @@ push_terminals
 vec
 )
 ;
+}
 }
 }
 }

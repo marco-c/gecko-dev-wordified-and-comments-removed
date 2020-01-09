@@ -1,10 +1,4 @@
 use
-lexer
-:
-:
-re
-;
-use
 grammar
 :
 :
@@ -24,6 +18,12 @@ repr
 Grammar
 TerminalLiteral
 }
+;
+use
+lexer
+:
+:
+re
 ;
 use
 rust

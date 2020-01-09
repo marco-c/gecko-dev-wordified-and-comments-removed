@@ -1,10 +1,8 @@
 use
-string_cache
+super
 :
 :
-DefaultAtom
-as
-Atom
+inline_order
 ;
 use
 grammar
@@ -31,10 +29,12 @@ session
 Session
 ;
 use
-super
+string_cache
 :
 :
-inline_order
+DefaultAtom
+as
+Atom
 ;
 #
 [

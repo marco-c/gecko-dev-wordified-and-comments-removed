@@ -1,12 +1,4 @@
 use
-string_cache
-:
-:
-DefaultAtom
-as
-Atom
-;
-use
 grammar
 :
 :
@@ -20,6 +12,14 @@ ExprSymbol
 Symbol
 SymbolKind
 }
+;
+use
+string_cache
+:
+:
+DefaultAtom
+as
+Atom
 ;
 #
 [
