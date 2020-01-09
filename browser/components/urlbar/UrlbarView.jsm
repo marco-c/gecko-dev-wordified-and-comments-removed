@@ -1133,9 +1133,6 @@ toolbar
 "
 after_end
 "
-0
--
-1
 )
 ;
 }
