@@ -664,6 +664,13 @@ closeListener
 }
 ;
 enum
+CookieOperation
+{
+OPERATION_READ
+OPERATION_WRITE
+}
+;
+enum
 CookieStatus
 {
 STATUS_ACCEPTED
@@ -948,6 +955,9 @@ GetCookiesForURI
 nsIURI
 *
 aHostURI
+nsIChannel
+*
+aChannel
 bool
 aIsForeign
 bool
@@ -957,7 +967,7 @@ aFirstPartyStorageAccessGranted
 bool
 aIsSafeTopLevelNav
 bool
-aIsTopLevelForeign
+aIsSameSiteForeign
 bool
 aHttpBound
 const
@@ -1140,6 +1150,9 @@ GetCookieStringInternal
 nsIURI
 *
 aHostURI
+nsIChannel
+*
+aChannel
 bool
 aIsForeign
 bool
@@ -1149,7 +1162,7 @@ aFirstPartyStorageAccessGranted
 bool
 aIsSafeTopLevelNav
 bool
-aIsTopLevelForeign
+aIsSameSiteForeign
 bool
 aHttpBound
 const
@@ -1516,6 +1529,8 @@ nsIChannel
 aChannel
 uint32_t
 aRejectedReason
+CookieOperation
+aOperation
 )
 ;
 void

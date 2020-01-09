@@ -943,6 +943,7 @@ mCookieService
 GetCookiesForURI
 (
 uri
+aChannel
 isForeign
 isTrackingResource
 storageAccessGranted
@@ -1262,6 +1263,7 @@ mCookieService
 GetCookiesForURI
 (
 hostURI
+nullptr
 aIsForeign
 aIsTrackingResource
 aFirstPartyStorageAccessGranted
