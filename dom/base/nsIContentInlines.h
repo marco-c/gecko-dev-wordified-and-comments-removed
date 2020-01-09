@@ -884,6 +884,17 @@ return
 true
 ;
 }
+if
+(
+IsInNativeAnonymousSubtree
+(
+)
+)
+{
+return
+false
+;
+}
 Document
 *
 doc
