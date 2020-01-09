@@ -342,6 +342,9 @@ props
 .
 onBrowserMounted
 (
+this
+.
+browser
 )
 ;
 if
