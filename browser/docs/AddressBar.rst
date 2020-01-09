@@ -288,7 +288,7 @@ unique
 object
 the
 *
-QueryContext
+UrlbarQueryContext
 *
 .
 This
@@ -322,7 +322,7 @@ information
 .
 The
 *
-QueryContext
+UrlbarQueryContext
 *
 is
 passed
@@ -348,7 +348,7 @@ a
 property
 of
 *
-QueryContext
+UrlbarQueryContext
 *
 in
 chunks
@@ -386,7 +386,7 @@ and
 responsibilities
 .
 The
-QueryContext
+UrlbarQueryContext
 =
 =
 =
@@ -405,7 +405,7 @@ QueryContext
 =
 The
 *
-QueryContext
+UrlbarQueryContext
 *
 object
 describes
@@ -440,7 +440,7 @@ JavaScript
 code
 :
 :
-QueryContext
+UrlbarQueryContext
 {
 enableAutofill
 ;
@@ -1223,7 +1223,7 @@ example
 mapping
 them
 by
-QueryContext
+UrlbarQueryContext
 .
 .
 .
@@ -1407,9 +1407,9 @@ querying
 *
 param
 {
-object
+UrlbarQueryContext
 }
-QueryContext
+queryContext
 The
 query
 context
@@ -1419,7 +1419,7 @@ param
 {
 function
 }
-AddCallback
+addCallback
 Callback
 invoked
 by
@@ -1466,8 +1466,8 @@ abstract
 /
 startQuery
 (
-QueryContext
-AddCallback
+queryContext
+addCallback
 )
 {
 throw
@@ -1499,14 +1499,16 @@ query
 *
 param
 {
-object
+UrlbarQueryContext
 }
-QueryContext
-the
-QueryContext
+queryContext
+The
+query
+context
 object
 to
 cancel
+*
 query
 for
 .
@@ -1516,7 +1518,7 @@ abstract
 /
 cancelQuery
 (
-QueryContext
+queryContext
 )
 {
 throw
@@ -1570,7 +1572,7 @@ that
 depend
 on
 the
-QueryContext
+UrlbarQueryContext
 .
 The
 muxer
@@ -1580,7 +1582,7 @@ is
 indicated
 by
 the
-QueryContext
+UrlbarQueryContext
 .
 muxer
 property
@@ -1683,7 +1685,7 @@ UrlbarMuxerBase
 *
 *
 Sorts
-QueryContext
+UrlbarQueryContext
 matches
 in
 -
@@ -1692,9 +1694,9 @@ place
 *
 param
 {
-object
+UrlbarQueryContext
 }
-QueryContext
+queryContext
 the
 context
 to
@@ -1708,7 +1710,7 @@ abstract
 /
 sort
 (
-QueryContext
+queryContext
 )
 {
 throw
@@ -1862,7 +1864,7 @@ UrlbarController
 async
 startQuery
 (
-QueryContext
+queryContext
 )
 ;
 cancelQuery

@@ -8,9 +8,6 @@ EXPORTED_SYMBOLS
 =
 [
 "
-QueryContext
-"
-"
 UrlbarController
 "
 ]

@@ -3745,7 +3745,7 @@ jsm
 :
 [
 "
-QueryContext
+UrlbarQueryContext
 "
 "
 UrlbarMuxer

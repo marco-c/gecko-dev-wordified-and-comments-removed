@@ -318,7 +318,7 @@ let
 context
 =
 new
-QueryContext
+UrlbarQueryContext
 (
 {
 enableAutofill

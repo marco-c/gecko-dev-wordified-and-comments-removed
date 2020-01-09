@@ -19,7 +19,7 @@ throws
 =
 >
 new
-QueryContext
+UrlbarQueryContext
 (
 )
 /
@@ -29,7 +29,7 @@ empty
 enableAutofill
 provided
 to
-QueryContext
+UrlbarQueryContext
 /
 "
 Should
@@ -49,7 +49,7 @@ throws
 =
 >
 new
-QueryContext
+UrlbarQueryContext
 (
 {
 enableAutofill
@@ -75,7 +75,7 @@ empty
 lastKey
 provided
 to
-QueryContext
+UrlbarQueryContext
 /
 "
 Should
@@ -97,7 +97,7 @@ throws
 =
 >
 new
-QueryContext
+UrlbarQueryContext
 (
 {
 enableAutofill
@@ -125,7 +125,7 @@ empty
 maxResults
 provided
 to
-QueryContext
+UrlbarQueryContext
 /
 "
 Should
@@ -147,7 +147,7 @@ throws
 =
 >
 new
-QueryContext
+UrlbarQueryContext
 (
 {
 enableAutofill
@@ -175,7 +175,7 @@ empty
 isPrivate
 provided
 to
-QueryContext
+UrlbarQueryContext
 /
 "
 Should
@@ -197,7 +197,7 @@ throws
 =
 >
 new
-QueryContext
+UrlbarQueryContext
 (
 {
 isPrivate
@@ -225,7 +225,7 @@ empty
 enableAutofill
 provided
 to
-QueryContext
+UrlbarQueryContext
 /
 "
 Should
@@ -242,7 +242,7 @@ let
 qc
 =
 new
-QueryContext
+UrlbarQueryContext
 (
 {
 enableAutofill

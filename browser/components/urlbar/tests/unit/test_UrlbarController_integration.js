@@ -74,12 +74,12 @@ ok
 (
 context
 instanceof
-QueryContext
+UrlbarQueryContext
 "
 Should
 be
 a
-QueryContext
+UrlbarQueryContext
 "
 )
 ;
@@ -119,7 +119,7 @@ key
 }
 in
 the
-QueryContext
+UrlbarQueryContext
 )
 ;
 }

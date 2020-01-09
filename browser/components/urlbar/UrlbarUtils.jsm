@@ -8,13 +8,13 @@ EXPORTED_SYMBOLS
 =
 [
 "
-QueryContext
-"
-"
 UrlbarMuxer
 "
 "
 UrlbarProvider
+"
+"
+UrlbarQueryContext
 "
 "
 UrlbarUtils
@@ -763,7 +763,7 @@ matches
 }
 ;
 class
-QueryContext
+UrlbarQueryContext
 {
 constructor
 (
@@ -819,7 +819,7 @@ maxResults
 property
 provided
 to
-QueryContext
+UrlbarQueryContext
 )
 ;
 }
@@ -936,7 +936,7 @@ optionName
 }
 provided
 to
-QueryContext
+UrlbarQueryContext
 )
 ;
 }
