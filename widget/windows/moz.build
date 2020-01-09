@@ -380,6 +380,11 @@ nsWinGesture
 cpp
 '
 '
+ProcInfo
+.
+cpp
+'
+'
 ScreenHelperWin
 .
 cpp

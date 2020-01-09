@@ -322,6 +322,11 @@ nsWindow
 cpp
 '
 '
+ProcInfo
+.
+cpp
+'
+'
 ScreenHelperAndroid
 .
 cpp
