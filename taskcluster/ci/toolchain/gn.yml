@@ -184,9 +184,7 @@ linux64
 -
 gcc
 -
-4
-.
-9
+6
 macosx64
 -
 gn
