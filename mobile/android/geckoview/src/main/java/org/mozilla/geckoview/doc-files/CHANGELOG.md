@@ -128,6 +128,18 @@ to
 absolute
 form
 .
+-
+Added
+scrollBy
+(
+)
+and
+scrollTo
+(
+)
+to
+PanZoomController
+.
 #
 #
 v66
@@ -1210,4 +1222,4 @@ api
 version
 ]
 :
-a42a6f4481dd690ac46f14d8e692785bb00e8b04
+fb3375bbe85695b337d830dcf3fffec7231f4e4b
