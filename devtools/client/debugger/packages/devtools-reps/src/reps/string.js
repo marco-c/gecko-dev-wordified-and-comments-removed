@@ -744,6 +744,11 @@ isInContentPage
 useUrl
 :
 null
+target
+:
+"
+_blank
+"
 onClick
 :
 openLink
