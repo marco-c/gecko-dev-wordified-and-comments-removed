@@ -1353,7 +1353,6 @@ baseline
 ref
 .
 html
-fails
 =
 =
 contain
@@ -1380,9 +1379,6 @@ baseline
 ref
 .
 html
-#
-bug
-1552287
 #
 The
 following
