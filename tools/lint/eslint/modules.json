@@ -3379,6 +3379,17 @@ prettyFast
 "
 ]
 "
+profiler_get_symbols
+.
+js
+"
+:
+[
+"
+wasm_bindgen
+"
+]
+"
 PromiseWorker
 .
 jsm
