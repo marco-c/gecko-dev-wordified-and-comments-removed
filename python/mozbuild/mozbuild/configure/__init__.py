@@ -2579,12 +2579,13 @@ path
 for
 option
 in
-self
-.
-_options
+six
 .
 itervalues
 (
+self
+.
+_options
 )
 :
             
