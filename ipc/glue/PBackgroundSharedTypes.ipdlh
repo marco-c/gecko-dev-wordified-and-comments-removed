@@ -217,6 +217,10 @@ originNoSuffix
 nsCString
 spec
 ;
+nsCString
+?
+domain
+;
 ContentSecurityPolicy
 [
 ]
