@@ -4816,7 +4816,7 @@ virtual
 const
 ScrollAnchorContainer
 *
-GetAnchor
+Anchor
 (
 )
 const
@@ -4832,7 +4832,7 @@ mAnchor
 virtual
 ScrollAnchorContainer
 *
-GetAnchor
+Anchor
 (
 )
 override
@@ -7159,7 +7159,7 @@ virtual
 const
 ScrollAnchorContainer
 *
-GetAnchor
+Anchor
 (
 )
 const
@@ -7175,7 +7175,7 @@ mAnchor
 virtual
 ScrollAnchorContainer
 *
-GetAnchor
+Anchor
 (
 )
 override

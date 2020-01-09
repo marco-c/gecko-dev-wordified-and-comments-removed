@@ -5599,7 +5599,7 @@ PresShell
 >
 PostPendingScrollAnchorAdjustment
 (
-GetAnchor
+Anchor
 (
 )
 )

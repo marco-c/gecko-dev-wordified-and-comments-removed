@@ -12123,7 +12123,7 @@ GetKey
 scroll
 -
 >
-GetAnchor
+Anchor
 (
 )
 -
@@ -12215,7 +12215,7 @@ GetKey
 scroll
 -
 >
-GetAnchor
+Anchor
 (
 )
 -
@@ -50994,7 +50994,7 @@ container
 rootScrollFrame
 -
 >
-GetAnchor
+Anchor
 (
 )
 ;
@@ -51110,7 +51110,7 @@ container
 rootScrollFrame
 -
 >
-GetAnchor
+Anchor
 (
 )
 ;

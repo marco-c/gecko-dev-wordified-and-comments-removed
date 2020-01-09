@@ -1011,7 +1011,7 @@ virtual
 const
 ScrollAnchorContainer
 *
-GetAnchor
+Anchor
 (
 )
 const
@@ -1021,7 +1021,7 @@ const
 virtual
 ScrollAnchorContainer
 *
-GetAnchor
+Anchor
 (
 )
 =
