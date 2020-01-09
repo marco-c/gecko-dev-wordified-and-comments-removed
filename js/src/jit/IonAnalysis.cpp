@@ -562,7 +562,12 @@ cphi
 producer
 )
 {
-continue
+return
+push
+(
+producer
+use
+)
 ;
 }
 if
