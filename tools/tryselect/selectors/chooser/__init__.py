@@ -203,15 +203,8 @@ run
         
 return
     
-Timer
-(
-1
-lambda
-:
-webbrowser
-.
-open
-(
+url
+=
 '
 http
 :
@@ -227,11 +220,38 @@ http
 :
 5000
 '
+    
+Timer
+(
+1
+lambda
+:
+webbrowser
+.
+open
+(
+url
 )
 )
 .
 start
 (
+)
+    
+print
+(
+"
+Starting
+trychooser
+on
+{
+}
+"
+.
+format
+(
+url
+)
 )
     
 app
