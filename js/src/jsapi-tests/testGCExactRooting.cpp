@@ -1406,10 +1406,6 @@ ShapeVec
 shapes
 (
 cx
-ShapeVec
-(
-cx
-)
 )
 ;
 for
