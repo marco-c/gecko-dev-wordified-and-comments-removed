@@ -20578,6 +20578,15 @@ asFunctionBox
 )
 ;
 }
+bce
+-
+>
+objectList
+.
+finishInnerFunctions
+(
+)
+;
 #
 ifdef
 JS_STRUCTURED_SPEW
