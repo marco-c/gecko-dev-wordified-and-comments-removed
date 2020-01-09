@@ -15022,6 +15022,14 @@ pd
 minidump
 )
 ;
+if
+(
+pd
+-
+>
+annotations
+)
+{
 aAnnotations
 =
 *
@@ -15032,6 +15040,7 @@ pd
 annotations
 )
 ;
+}
 if
 (
 aSequence
