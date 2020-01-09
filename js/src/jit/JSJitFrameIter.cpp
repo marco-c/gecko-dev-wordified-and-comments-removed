@@ -3610,15 +3610,6 @@ override
 slotInfo
 )
 ;
-MOZ_ASSERT
-(
-slotInfo
-.
-isStackSynced
-(
-)
-)
-;
 return
 ;
 }
