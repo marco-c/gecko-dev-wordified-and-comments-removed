@@ -702,7 +702,7 @@ remoteTypes
 :
 [
 "
-privileged
+privilegedabout
 "
 ]
 url

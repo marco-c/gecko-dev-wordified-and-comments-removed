@@ -329,9 +329,9 @@ extension
 "
 #
 define
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 "
-privileged
+privilegedabout
 "
 #
 define

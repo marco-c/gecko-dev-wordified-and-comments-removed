@@ -358,7 +358,7 @@ remoteType
 =
 E10SUtils
 .
-PRIVILEGED_REMOTE_TYPE
+PRIVILEGEDABOUT_REMOTE_TYPE
 ;
 const
 IS_RELEASE_OR_BETA
@@ -368,7 +368,7 @@ AppConstants
 RELEASE_OR_BETA
 ;
 const
-PREF_SEPARATE_PRIVILEGED_CONTENT_PROCESS
+PREF_SEPARATE_PRIVILEGEDABOUT_CONTENT_PROCESS
 =
 "
 browser
@@ -441,7 +441,7 @@ prefs
 .
 addObserver
 (
-PREF_SEPARATE_PRIVILEGED_CONTENT_PROCESS
+PREF_SEPARATE_PRIVILEGEDABOUT_CONTENT_PROCESS
 this
 )
 ;
@@ -542,7 +542,7 @@ _activityStreamPath
 _activityStreamDebug
 :
 false
-_privilegedContentProcess
+_privilegedAboutContentProcess
 :
 false
 _overridden
@@ -611,12 +611,12 @@ data
 =
 =
 =
-PREF_SEPARATE_PRIVILEGED_CONTENT_PROCESS
+PREF_SEPARATE_PRIVILEGEDABOUT_CONTENT_PROCESS
 )
 {
 this
 .
-_privilegedContentProcess
+_privilegedAboutContentProcess
 =
 Services
 .
@@ -624,7 +624,7 @@ prefs
 .
 getBoolPref
 (
-PREF_SEPARATE_PRIVILEGED_CONTENT_PROCESS
+PREF_SEPARATE_PRIVILEGEDABOUT_CONTENT_PROCESS
 )
 ;
 this
@@ -1147,7 +1147,7 @@ false
 }
 this
 .
-_privilegedContentProcess
+_privilegedAboutContentProcess
 =
 Services
 .
@@ -1155,7 +1155,7 @@ prefs
 .
 getBoolPref
 (
-PREF_SEPARATE_PRIVILEGED_CONTENT_PROCESS
+PREF_SEPARATE_PRIVILEGEDABOUT_CONTENT_PROCESS
 )
 ;
 this
@@ -1225,7 +1225,7 @@ _activityStreamDebug
 !
 this
 .
-_privilegedContentProcess
+_privilegedAboutContentProcess
 ?
 "
 static
@@ -1284,7 +1284,7 @@ _activityStreamDebug
 !
 this
 .
-_privilegedContentProcess
+_privilegedAboutContentProcess
 ?
 "
 -
@@ -1295,7 +1295,7 @@ debug
 "
 this
 .
-_privilegedContentProcess
+_privilegedAboutContentProcess
 ?
 "
 -
@@ -1710,7 +1710,7 @@ prefs
 .
 removeObserver
 (
-PREF_SEPARATE_PRIVILEGED_CONTENT_PROCESS
+PREF_SEPARATE_PRIVILEGEDABOUT_CONTENT_PROCESS
 this
 )
 ;

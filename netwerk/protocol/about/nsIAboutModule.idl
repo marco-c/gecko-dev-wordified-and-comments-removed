@@ -575,11 +575,12 @@ in
 the
 privileged
 *
+activity
+stream
 content
 process
 if
-privileged
-content
+said
 process
 is
 enabled
@@ -597,7 +598,7 @@ specified
 const
 unsigned
 long
-URI_CAN_LOAD_IN_PRIVILEGED_CHILD
+URI_CAN_LOAD_IN_PRIVILEGEDABOUT_PROCESS
 =
 (
 1

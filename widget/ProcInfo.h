@@ -43,7 +43,7 @@ ProcType
 Web
 File
 Extension
-Privileged
+PrivilegedAbout
 WebLargeAllocation
 Gpu
 Rdd
