@@ -3326,17 +3326,6 @@ AzureContentBackend
 "
 )
 ;
-var
-canvasAccelerated
-=
-readGfxInfo
-(
-info
-"
-AzureCanvasAccelerated
-"
-)
-;
 sandbox
 .
 gpuProcess
@@ -3382,7 +3371,7 @@ sandbox
 .
 azureSkiaGL
 =
-canvasAccelerated
+false
 ;
 sandbox
 .
