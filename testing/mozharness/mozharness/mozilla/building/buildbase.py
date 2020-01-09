@@ -6620,6 +6620,29 @@ env_value
 %
 dirs
         
+if
+c
+.
+get
+(
+'
+upload_env
+'
+)
+:
+            
+check_test_env
+.
+update
+(
+c
+[
+'
+upload_env
+'
+]
+)
+        
 return
 check_test_env
     
