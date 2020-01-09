@@ -305,342 +305,625 @@ return
 prop
 .
 camel_case
-SERIALIZED_PREDEFINED_TYPES
+LONGHANDS_NOT_SERIALIZED_WITH_SERVO
 =
 [
     
 "
-Appearance
+animation
+-
+delay
 "
     
 "
-AlignContent
+animation
+-
+duration
 "
     
 "
-AlignItems
+animation
+-
+iteration
+-
+count
 "
     
 "
-AlignSelf
+animation
+-
+name
 "
     
 "
-BackgroundRepeat
+border
+-
+bottom
+-
+left
+-
+radius
 "
     
 "
-BackgroundSize
+border
+-
+bottom
+-
+right
+-
+radius
 "
     
 "
-BorderImageRepeat
+border
+-
+end
+-
+end
+-
+radius
 "
     
 "
-BorderStyle
+border
+-
+end
+-
+start
+-
+radius
 "
     
 "
-BreakBetween
+border
+-
+image
+-
+width
 "
     
 "
-BreakWithin
+border
+-
+spacing
 "
     
 "
-Clear
+border
+-
+start
+-
+end
+-
+radius
 "
     
 "
-ClipRectOrAuto
+border
+-
+start
+-
+start
+-
+radius
 "
     
 "
-Color
+border
+-
+top
+-
+left
+-
+radius
 "
     
 "
-Content
+border
+-
+top
+-
+right
+-
+radius
 "
     
 "
-CounterIncrement
+border
+-
+image
+-
+width
 "
     
 "
-CounterReset
+border
+-
+spacing
 "
     
 "
-Cursor
+box
+-
+shadow
 "
     
 "
-FillRule
+caret
+-
+color
 "
     
 "
-Float
+color
 "
     
 "
-FontFamily
+column
+-
+count
 "
     
 "
-FontFeatureSettings
+column
+-
+gap
 "
     
 "
-FontLanguageOverride
+column
+-
+rule
+-
+width
 "
     
 "
-FontSize
+column
+-
+width
 "
     
 "
-FontSizeAdjust
+contain
 "
     
 "
-FontStretch
+display
 "
     
 "
-FontStyle
+fill
 "
     
 "
-FontSynthesis
+fill
+-
+opacity
 "
     
 "
-FontVariant
+filter
 "
     
 "
-FontVariantAlternates
+flex
+-
+basis
 "
     
 "
-FontVariantEastAsian
+flex
+-
+grow
 "
     
 "
-FontVariantLigatures
+flex
+-
+shrink
 "
     
 "
-FontVariantNumeric
+grid
+-
+auto
+-
+columns
 "
     
 "
-FontVariationSettings
+grid
+-
+auto
+-
+flow
 "
     
 "
-FontWeight
+grid
+-
+auto
+-
+rows
 "
     
 "
-Integer
+grid
+-
+column
+-
+end
 "
     
 "
-ImageLayer
+grid
+-
+column
+-
+start
 "
     
 "
-JustifyContent
+grid
+-
+row
+-
+end
 "
     
 "
-JustifyItems
+grid
+-
+row
+-
+start
 "
     
 "
-JustifySelf
+grid
+-
+template
+-
+areas
 "
     
 "
-Length
+initial
+-
+letter
 "
     
 "
-LengthPercentage
+letter
+-
+spacing
 "
     
 "
-NonNegativeLength
+marker
+-
+end
 "
     
 "
-NonNegativeLengthPercentage
+marker
+-
+mid
 "
     
 "
-NonNegativeLengthPercentageOrAuto
+marker
+-
+start
 "
     
 "
-ListStyleType
+max
+-
+block
+-
+size
 "
     
 "
-OffsetPath
+max
+-
+height
 "
     
 "
-Opacity
+max
+-
+inline
+-
+size
 "
     
 "
-OutlineStyle
+max
+-
+width
 "
     
 "
-OverflowWrap
+min
+-
+block
+-
+size
 "
     
 "
-Position
+min
+-
+height
 "
     
 "
-Quotes
+min
+-
+inline
+-
+size
 "
     
 "
-Resize
+min
+-
+width
 "
     
 "
-Rotate
+-
+moz
+-
+binding
 "
     
 "
-Scale
+-
+moz
+-
+box
+-
+flex
 "
     
 "
-TextAlign
+-
+moz
+-
+force
+-
+broken
+-
+image
+-
+icon
 "
     
 "
-Translate
+-
+moz
+-
+osx
+-
+font
+-
+smoothing
 "
     
 "
-TimingFunction
+-
+moz
+-
+outline
+-
+radius
+-
+bottomleft
 "
     
 "
-TransformOrigin
+-
+moz
+-
+outline
+-
+radius
+-
+bottomright
 "
     
 "
-TransformStyle
+-
+moz
+-
+outline
+-
+radius
+-
+topleft
 "
     
 "
-UserSelect
+-
+moz
+-
+outline
+-
+radius
+-
+topright
 "
     
 "
-background
-:
-:
-BackgroundSize
+outline
+-
+width
 "
     
 "
-basic_shape
-:
-:
-ClippingShape
+paint
+-
+order
 "
     
 "
-basic_shape
-:
-:
-FloatAreaShape
+row
+-
+gap
 "
     
 "
+scrollbar
+-
+color
+"
+    
+"
+scroll
+-
+snap
+-
+points
+-
+x
+"
+    
+"
+scroll
+-
+snap
+-
+points
+-
+y
+"
+    
+"
+stroke
+"
+    
+"
+stroke
+-
+dasharray
+"
+    
+"
+stroke
+-
+dashoffset
+"
+    
+"
+stroke
+-
+miterlimit
+"
+    
+"
+stroke
+-
+opacity
+"
+    
+"
+stroke
+-
+width
+"
+    
+"
+text
+-
+decoration
+-
+line
+"
+    
+"
+text
+-
+emphasis
+-
 position
-:
-:
-HorizontalPosition
 "
     
 "
-position
-:
-:
-VerticalPosition
+text
+-
+emphasis
+-
+style
 "
     
 "
-url
-:
-:
-ImageUrlOrNone
+text
+-
+overflow
 "
     
 "
-Appearance
+text
+-
+shadow
 "
     
 "
-OverscrollBehavior
+touch
+-
+action
 "
     
 "
-OverflowAnchor
+transition
+-
+delay
 "
     
 "
-OverflowClipBox
+transition
+-
+duration
 "
     
 "
-ScrollSnapAlign
+transition
+-
+property
 "
     
 "
-ScrollSnapType
+vertical
+-
+align
 "
     
 "
-Float
+-
+webkit
+-
+text
+-
+stroke
+-
+width
 "
     
 "
-Overflow
+will
+-
+change
 "
     
 "
-BorderImageSlice
-"
-    
-"
-NonNegativeLengthOrNumberRect
-"
-    
-"
-NonNegativeLengthOrNumber
-"
-    
-"
-ZIndex
-"
-    
-"
-Perspective
+word
+-
+spacing
 "
 ]
 def
@@ -722,19 +1005,13 @@ smoothing
 return
 True
     
-if
+return
 prop
 .
-predefined_type
+name
+not
 in
-SERIALIZED_PREDEFINED_TYPES
-:
-        
-return
-True
-    
-return
-False
+LONGHANDS_NOT_SERIALIZED_WITH_SERVO
 def
 exposed_on_getcs
 (
