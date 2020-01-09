@@ -2493,6 +2493,9 @@ aView
 aCallback
 aLoadCallback
 aLongerTimeout
+aWin
+=
+window
 )
 {
 let
@@ -2700,6 +2703,8 @@ loaded
 "
 )
 ;
+aWin
+.
 gBrowser
 .
 selectedTab
@@ -2708,9 +2713,13 @@ BrowserTestUtils
 .
 addTab
 (
+aWin
+.
 gBrowser
 )
 ;
+aWin
+.
 switchToTabHavingURI
 (
 MANAGER_URI
