@@ -126,6 +126,12 @@ append
 DUMMY_FILE
 )
 ;
+dummyPage
+.
+normalize
+(
+)
+;
 const
 uriString
 =
