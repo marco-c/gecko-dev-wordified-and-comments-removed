@@ -4491,6 +4491,17 @@ this
 )
 ;
 }
+else
+{
+this
+.
+dbg
+.
+onExceptionUnwind
+=
+undefined
+;
+}
 }
 _getNextStepFrame
 :
