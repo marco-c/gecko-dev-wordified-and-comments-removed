@@ -88,13 +88,3 @@ mozconfig
 .
 artifact
 "
-ac_add_options
--
--
-enable
--
-artifact
--
-build
--
-symbols
