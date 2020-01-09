@@ -999,9 +999,9 @@ download
 }
 else
 {
-this
+ConfirmCancelPrompt
 .
-showInAboutDownloads
+show
 (
 download
 )
