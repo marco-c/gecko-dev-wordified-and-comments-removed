@@ -2181,6 +2181,15 @@ SetOverflowAreasToDesiredBounds
 if
 (
 !
+HasAnyStateBits
+(
+NS_FRAME_IS_NONDISPLAY
+)
+)
+{
+if
+(
+!
 mIsRootContent
 )
 {
@@ -2223,6 +2232,7 @@ FinishAndStoreOverflow
 aDesiredSize
 )
 ;
+}
 NS_FRAME_TRACE
 (
 NS_FRAME_TRACE_CALLS
