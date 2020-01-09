@@ -40,6 +40,7 @@ util
 treeherder
 import
 add_suffix
+inherit_treeherder_from_dep
 transforms
 =
 TransformSequence
@@ -188,6 +189,19 @@ cfg
 "
         
 ]
+        
+task
+[
+'
+treeherder
+'
+]
+=
+inherit_treeherder_from_dep
+(
+task
+config_task
+)
         
 for
 this_chunk

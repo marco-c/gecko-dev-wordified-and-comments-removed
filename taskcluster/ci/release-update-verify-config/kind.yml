@@ -563,6 +563,8 @@ UVC
 platform
 :
 linux32
+-
+shippable
 /
 opt
 kind
@@ -671,6 +673,8 @@ UVC
 platform
 :
 linux64
+-
+shippable
 /
 opt
 kind
@@ -780,7 +784,7 @@ platform
 :
 osx
 -
-cross
+shippable
 /
 opt
 kind
@@ -889,6 +893,8 @@ platform
 windows2012
 -
 32
+-
+shippable
 /
 opt
 kind
@@ -997,6 +1003,8 @@ platform
 windows2012
 -
 64
+-
+shippable
 /
 opt
 kind
@@ -1107,6 +1115,8 @@ platform
 windows2012
 -
 aarch64
+-
+shippable
 /
 opt
 kind

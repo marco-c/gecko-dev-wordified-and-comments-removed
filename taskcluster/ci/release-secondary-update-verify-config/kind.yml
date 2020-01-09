@@ -410,6 +410,8 @@ UVCS
 platform
 :
 linux
+-
+shippable
 /
 opt
 kind
@@ -453,6 +455,8 @@ UVCS
 platform
 :
 linux64
+-
+shippable
 /
 opt
 kind
@@ -536,7 +540,11 @@ symbol
 UVCS
 platform
 :
-win32
+windows2012
+-
+32
+-
+shippable
 /
 opt
 kind
@@ -577,7 +585,11 @@ symbol
 UVCS
 platform
 :
-win64
+windows2012
+-
+64
+-
+shippable
 /
 opt
 kind
@@ -620,9 +632,11 @@ symbol
 UVCS
 platform
 :
-win64
+windows2012
 -
 aarch64
+-
+shippable
 /
 opt
 kind
