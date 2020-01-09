@@ -5139,7 +5139,7 @@ true
 }
 else
 {
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker

@@ -2935,7 +2935,7 @@ nsIDocShell
 docShell
 ;
 {
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 mSubmitPopupState

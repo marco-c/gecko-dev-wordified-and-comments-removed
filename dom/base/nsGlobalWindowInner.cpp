@@ -26101,7 +26101,7 @@ mRunning
 =
 true
 ;
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 timeout

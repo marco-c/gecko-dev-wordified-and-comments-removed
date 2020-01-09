@@ -858,7 +858,7 @@ MouseEvent_Binding
 :
 MOZ_SOURCE_KEYBOARD
 ;
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 aIsTrustedEvent

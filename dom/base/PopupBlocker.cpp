@@ -1753,10 +1753,10 @@ TimeStamp
 }
 }
 }
-nsAutoPopupStatePusherInternal
+AutoPopupStatePusherInternal
 :
 :
-nsAutoPopupStatePusherInternal
+AutoPopupStatePusherInternal
 (
 mozilla
 :
@@ -1805,11 +1805,11 @@ PopupStatePusherCreated
 )
 ;
 }
-nsAutoPopupStatePusherInternal
+AutoPopupStatePusherInternal
 :
 :
 ~
-nsAutoPopupStatePusherInternal
+AutoPopupStatePusherInternal
 (
 )
 {

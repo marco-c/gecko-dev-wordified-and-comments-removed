@@ -11948,7 +11948,7 @@ if
 aKeyCausesActivation
 )
 {
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 aIsTrustedEvent

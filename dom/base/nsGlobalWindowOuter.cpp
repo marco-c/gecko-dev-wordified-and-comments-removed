@@ -11952,7 +11952,7 @@ return
 true
 ;
 }
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker
@@ -20796,7 +20796,7 @@ return
 false
 ;
 }
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker
@@ -21196,7 +21196,7 @@ AreDialogsEnabled
 return
 ;
 }
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker
@@ -31706,7 +31706,7 @@ openControlled
 )
 ;
 {
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker

@@ -1007,7 +1007,7 @@ return
 NS_ERROR_DOM_RETVAL_UNDEFINED
 ;
 }
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 aPopupState

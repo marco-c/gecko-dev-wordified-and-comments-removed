@@ -5713,7 +5713,7 @@ PreventDefault
 }
 Maybe
 <
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 >
 popupStatePusher
 ;

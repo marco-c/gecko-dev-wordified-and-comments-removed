@@ -2045,7 +2045,7 @@ disable_from_plugins
 "
 )
 ;
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 (

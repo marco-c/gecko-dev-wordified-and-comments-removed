@@ -4545,7 +4545,7 @@ dialogsAreEnabled
 false
 ;
 {
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker
@@ -5441,7 +5441,7 @@ mTarget
 =
 mDocument
 ;
-nsAutoPopupStatePusher
+AutoPopupStatePusher
 popupStatePusher
 (
 PopupBlocker
