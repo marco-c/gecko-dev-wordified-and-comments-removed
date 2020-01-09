@@ -381,10 +381,9 @@ Element
 enum
 nsPresContext_CachedBoolPrefType
 {
-kPresContext_UseDocumentFonts
+kPresContext_UnderlineLinks
 =
 1
-kPresContext_UnderlineLinks
 }
 ;
 enum
@@ -1063,12 +1062,6 @@ switch
 aPrefType
 )
 {
-case
-kPresContext_UseDocumentFonts
-:
-return
-mUseDocumentFonts
-;
 case
 kPresContext_UnderlineLinks
 :
@@ -3887,11 +3880,6 @@ mPendingInterruptFromTest
 ;
 unsigned
 mInterruptsEnabled
-:
-1
-;
-unsigned
-mUseDocumentFonts
 :
 1
 ;
