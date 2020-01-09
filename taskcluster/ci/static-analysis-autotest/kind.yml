@@ -502,4 +502,8 @@ tidy
 -
 win64
 -
+nasm
+-
+win64
+-
 node
