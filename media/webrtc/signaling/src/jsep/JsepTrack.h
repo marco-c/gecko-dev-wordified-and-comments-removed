@@ -579,8 +579,6 @@ sdp
 msection
 &
 mStreamIds
-&
-mTrackId
 )
 ;
 }
