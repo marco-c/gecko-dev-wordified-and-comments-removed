@@ -197,7 +197,10 @@ mPortionInSegmentOnLastCompose
 TimeStamp
 mOriginTime
 ;
-MaybeTimeDuration
+Maybe
+<
+TimeDuration
+>
 mStartTime
 ;
 TimeDuration

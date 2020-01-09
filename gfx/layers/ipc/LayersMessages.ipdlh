@@ -1174,15 +1174,6 @@ TransformMatrix
 }
 ;
 union
-MaybeTimeDuration
-{
-null_t
-;
-TimeDuration
-;
-}
-;
-union
 Animatable
 {
 null_t
@@ -1395,7 +1386,8 @@ using
 a
 TimeStamp
 .
-MaybeTimeDuration
+TimeDuration
+?
 startTime
 ;
 TimeDuration
