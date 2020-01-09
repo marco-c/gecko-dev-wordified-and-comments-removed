@@ -48,6 +48,15 @@ HeapAPI
 .
 h
 "
+#
+include
+"
+vm
+/
+BigIntType
+.
+h
+"
 namespace
 js
 {
