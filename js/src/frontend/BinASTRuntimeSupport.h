@@ -18,7 +18,7 @@ include
 "
 frontend
 /
-BinToken
+BinASTToken
 .
 h
 "
