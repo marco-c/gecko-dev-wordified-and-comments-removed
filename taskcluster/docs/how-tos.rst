@@ -720,11 +720,9 @@ taskcluster
 /
 taskgraph
 /
-transform
+transforms
 /
 tests
-/
-test_description
 .
 py
 .
@@ -877,11 +875,9 @@ taskcluster
 /
 taskgraph
 /
-transform
+transforms
 /
 tests
-/
-test_description
 .
 py
 should
