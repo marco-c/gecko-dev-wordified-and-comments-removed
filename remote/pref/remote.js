@@ -5,7 +5,7 @@ remote
 .
 enabled
 "
-true
+false
 )
 ;
 pref
