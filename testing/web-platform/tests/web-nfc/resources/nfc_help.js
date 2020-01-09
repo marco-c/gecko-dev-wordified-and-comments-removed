@@ -469,6 +469,7 @@ reader
 new
 NFCReader
 (
+readOptions
 )
 ;
 await
