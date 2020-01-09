@@ -379,3 +379,12 @@ bin
 /
 node
 "
+NASM
+=
+"
+TOOLTOOL_DIR
+/
+nasm
+/
+nasm
+"
