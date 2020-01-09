@@ -577,12 +577,12 @@ SetupClearTypeParams
 (
 )
 ;
+static
 inline
 bool
 DWriteEnabled
 (
 )
-const
 {
 return
 !
