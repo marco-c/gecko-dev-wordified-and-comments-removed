@@ -48,10 +48,12 @@ addr
 )
 ;
 extern
+const
 PRIPv6Addr
 _pr_in6addr_any
 ;
 extern
+const
 PRIPv6Addr
 _pr_in6addr_loopback
 ;
