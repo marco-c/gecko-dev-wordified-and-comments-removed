@@ -7838,7 +7838,7 @@ startRegs
 if
 defined
 (
-GP_PLAT_amd64_linux
+GP_ARCH_amd64
 )
 volatile
 uintptr_t
