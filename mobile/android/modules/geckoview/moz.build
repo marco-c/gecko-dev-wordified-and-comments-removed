@@ -125,6 +125,11 @@ GeckoViewContent
 jsm
 '
 '
+GeckoViewContentBlocking
+.
+jsm
+'
+'
 GeckoViewMedia
 .
 jsm
@@ -161,11 +166,6 @@ jsm
 '
 '
 GeckoViewTelemetry
-.
-jsm
-'
-'
-GeckoViewTrackingProtection
 .
 jsm
 '

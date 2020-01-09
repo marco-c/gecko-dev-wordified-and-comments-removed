@@ -2095,7 +2095,7 @@ jsm
 name
 :
 "
-GeckoViewTrackingProtection
+GeckoViewContentBlocking
 "
 onEnable
 :
@@ -2111,7 +2111,7 @@ gre
 /
 modules
 /
-GeckoViewTrackingProtection
+GeckoViewContentBlocking
 .
 jsm
 "

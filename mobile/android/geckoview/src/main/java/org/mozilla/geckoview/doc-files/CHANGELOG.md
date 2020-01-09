@@ -33,6 +33,13 @@ h1
 v66
 -
 Added
+nested
+ContentBlocking
+runtime
+settings
+.
+-
+Added
 RuntimeSettings
 base
 class
@@ -1141,4 +1148,4 @@ api
 version
 ]
 :
-53ffb6141c90d561251dd831e9af1bd7197c3c75
+2b12249de4649178832780cb5c0aba13079803c8
