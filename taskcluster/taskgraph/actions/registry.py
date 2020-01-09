@@ -1815,12 +1815,6 @@ hook
 '
                     
 '
-actionPerm
-'
-:
-actionPerm
-                    
-'
 hookGroupId
 '
 :
@@ -1959,6 +1953,20 @@ taskGroupId
 }
                         
 }
+                    
+}
+                    
+'
+extra
+'
+:
+{
+                        
+'
+actionPerm
+'
+:
+actionPerm
                     
 }
                 
