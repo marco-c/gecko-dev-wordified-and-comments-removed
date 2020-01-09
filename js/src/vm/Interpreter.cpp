@@ -20419,7 +20419,7 @@ JSFunction
 if
 (
 !
-SetFunctionName
+SetFunctionNameIfNoOwnName
 (
 cx
 fun

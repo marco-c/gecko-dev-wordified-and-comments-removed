@@ -4291,7 +4291,7 @@ None
 ;
 extern
 bool
-SetFunctionName
+SetFunctionNameIfNoOwnName
 (
 JSContext
 *
