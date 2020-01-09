@@ -3608,9 +3608,9 @@ const
 wr
 :
 :
-WrClipId
-*
-aClipNodeId
+WrStackingContextClip
+&
+aClip
 const
 WrAnimationProperty
 *
@@ -3812,7 +3812,8 @@ aBounds
 mCurrentSpaceAndClipChain
 .
 space
-aClipNodeId
+&
+aClip
 aAnimation
 aOpacity
 maybeTransform

@@ -157,9 +157,9 @@ const
 wr
 :
 :
-WrClipId
-*
-aClipNodeId
+WrStackingContextClip
+&
+aClip
 bool
 aAnimated
 )
@@ -384,7 +384,7 @@ ToLayoutRect
 (
 aBounds
 )
-aClipNodeId
+aClip
 aAnimation
 aOpacityPtr
 aTransformPtr
