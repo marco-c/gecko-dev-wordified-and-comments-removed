@@ -1205,6 +1205,7 @@ NotificationPermissionRequest
 =
 default
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ResolvePromise
 (
@@ -2483,7 +2484,16 @@ mCallback
 ErrorResult
 error
 ;
+RefPtr
+<
+NotificationPermissionCallback
+>
+callback
+(
 mCallback
+)
+;
+callback
 -
 >
 Call

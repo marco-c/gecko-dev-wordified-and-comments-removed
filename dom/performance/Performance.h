@@ -333,6 +333,7 @@ PerformanceObserver
 aObserver
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyObservers
 (

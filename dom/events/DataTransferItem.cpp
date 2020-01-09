@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ContentEvents
 .
 h
@@ -2069,6 +2078,7 @@ aStringData
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -2078,7 +2088,10 @@ override
 ErrorResult
 rv
 ;
+MOZ_KnownLive
+(
 mCallback
+)
 -
 >
 Call
@@ -2111,6 +2124,7 @@ StealNSResult
 }
 private
 :
+const
 RefPtr
 <
 FunctionStringCallback

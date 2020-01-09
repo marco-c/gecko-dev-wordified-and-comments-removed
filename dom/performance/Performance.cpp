@@ -2213,6 +2213,7 @@ mPerformance
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -2224,7 +2225,16 @@ MOZ_ASSERT
 mPerformance
 )
 ;
+RefPtr
+<
+Performance
+>
+performance
+(
 mPerformance
+)
+;
+performance
 -
 >
 NotifyObservers

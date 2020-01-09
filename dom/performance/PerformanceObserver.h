@@ -192,6 +192,7 @@ PerformanceEntry
 aRetval
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Notify
 (

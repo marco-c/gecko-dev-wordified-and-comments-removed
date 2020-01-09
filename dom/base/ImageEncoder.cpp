@@ -437,6 +437,7 @@ GetMainThreadEventTarget
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -447,6 +448,19 @@ nsresult
 rv
 =
 NS_OK
+;
+RefPtr
+<
+EncodeCompleteCallback
+>
+callback
+(
+mEncodeCompleteCallback
+.
+forget
+(
+)
+)
 ;
 if
 (
@@ -478,7 +492,7 @@ blob
 ;
 rv
 =
-mEncodeCompleteCallback
+callback
 -
 >
 ReceiveBlob
@@ -491,10 +505,6 @@ forget
 )
 ;
 }
-mEncodeCompleteCallback
-=
-nullptr
-;
 return
 rv
 ;

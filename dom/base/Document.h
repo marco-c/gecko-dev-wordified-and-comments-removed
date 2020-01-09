@@ -317,6 +317,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CORSMode
 .
 h
@@ -9643,6 +9652,7 @@ ScheduleIntersectionObserverNotification
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyIntersectionObservers
 (
