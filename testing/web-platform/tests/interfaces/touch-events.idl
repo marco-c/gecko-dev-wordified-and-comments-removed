@@ -353,6 +353,7 @@ shiftKey
 ;
 partial
 interface
+mixin
 GlobalEventHandlers
 {
 attribute
