@@ -88,8 +88,6 @@ fetches
 /
 d8
 /
-release
-/
 d8
 max
 -
@@ -184,14 +182,10 @@ target
 jsshell
 .
 zip
-toolchain
+fetch
 :
 -
-linux64
--
-custom
--
-v8
+d8
 bench
 -
 ares6
