@@ -35,10 +35,7 @@ computed
 url
 :
 :
-{
-ComputedImageUrl
 ComputedUrl
-}
 ;
 use
 crate
@@ -1826,12 +1823,6 @@ trivial_to_animated_value
 !
 (
 ComputedUrl
-)
-;
-trivial_to_animated_value
-!
-(
-ComputedImageUrl
 )
 ;
 trivial_to_animated_value
