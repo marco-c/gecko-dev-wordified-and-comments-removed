@@ -9192,6 +9192,11 @@ nsIFile
 aLocation
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aLocation
+)
+;
 nsString
 path
 ;
@@ -9287,6 +9292,11 @@ nsIFile
 aLocation
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aLocation
+)
+;
 nsCOMPtr
 <
 nsIChromeRegistry
