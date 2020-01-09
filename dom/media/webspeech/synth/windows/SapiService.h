@@ -105,12 +105,6 @@ GetInstanceForService
 ;
 static
 void
-Shutdown
-(
-)
-;
-static
-void
 __stdcall
 SpeechEventCallback
 (
