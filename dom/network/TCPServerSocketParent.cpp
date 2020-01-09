@@ -216,13 +216,6 @@ TCPSocketParent
 socket
 )
 {
-socket
--
->
-AddIPDLReference
-(
-)
-;
 nsresult
 rv
 ;
@@ -319,6 +312,13 @@ port
 )
 )
 {
+socket
+-
+>
+AddIPDLReference
+(
+)
+;
 mozilla
 :
 :
