@@ -1,6 +1,6 @@
 import
 {
-Component
+PureComponent
 }
 from
 "
@@ -190,7 +190,7 @@ export
 class
 DebugLine
 extends
-Component
+PureComponent
 <
 Props
 >

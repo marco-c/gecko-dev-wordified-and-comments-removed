@@ -30,9 +30,6 @@ blacklist
 =
 [
 "
-SET_POPUP_OBJECT_PROPERTIES
-"
-"
 ADD_BREAKPOINT_POSITIONS
 "
 "

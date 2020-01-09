@@ -324,6 +324,8 @@ type
 {
 LoadedSymbols
 Symbols
+Preview
+PreviewValue
 }
 from
 "

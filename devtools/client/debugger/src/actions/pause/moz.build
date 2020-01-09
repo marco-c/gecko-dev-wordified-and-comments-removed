@@ -124,11 +124,6 @@ selectFrame
 js
 '
 '
-setPopupObjectProperties
-.
-js
-'
-'
 skipPausing
 .
 js
