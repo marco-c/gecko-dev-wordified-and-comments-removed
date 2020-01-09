@@ -700,11 +700,6 @@ nsIURLParser
 idl
 '
 '
-nsPILoadGroupInternal
-.
-idl
-'
-'
 nsPISocketTransportService
 .
 idl
