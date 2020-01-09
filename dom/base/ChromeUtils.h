@@ -469,16 +469,6 @@ aB
 return
 aA
 .
-mAppId
-=
-=
-aB
-.
-mAppId
-&
-&
-aA
-.
 mInIsolatedMozBrowser
 =
 =

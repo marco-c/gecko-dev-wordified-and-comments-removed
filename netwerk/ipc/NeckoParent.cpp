@@ -984,7 +984,6 @@ aAttrs
 =
 OriginAttributes
 (
-NECKO_NO_APP_ID
 false
 )
 ;
