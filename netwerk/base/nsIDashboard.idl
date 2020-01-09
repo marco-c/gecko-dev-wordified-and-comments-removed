@@ -104,7 +104,7 @@ d96e9e4b1f6d
 )
 ]
 interface
-NetDashboardCallback
+nsINetDashboardCallback
 :
 nsISupports
 {
@@ -195,7 +195,7 @@ void
 requestSockets
 (
 in
-NetDashboardCallback
+nsINetDashboardCallback
 cb
 )
 ;
@@ -220,7 +220,7 @@ void
 requestHttpConnections
 (
 in
-NetDashboardCallback
+nsINetDashboardCallback
 cb
 )
 ;
@@ -240,7 +240,7 @@ void
 requestWebsocketConnections
 (
 in
-NetDashboardCallback
+nsINetDashboardCallback
 cb
 )
 ;
@@ -258,7 +258,7 @@ void
 requestDNSInfo
 (
 in
-NetDashboardCallback
+nsINetDashboardCallback
 cb
 )
 ;
@@ -337,7 +337,7 @@ unsigned
 long
 aTimeout
 in
-NetDashboardCallback
+nsINetDashboardCallback
 cb
 )
 ;
@@ -378,7 +378,7 @@ in
 ACString
 aHost
 in
-NetDashboardCallback
+nsINetDashboardCallback
 cb
 )
 ;
@@ -405,7 +405,7 @@ void
 requestRcwnStats
 (
 in
-NetDashboardCallback
+nsINetDashboardCallback
 cb
 )
 ;
