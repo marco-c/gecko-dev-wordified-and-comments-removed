@@ -26,7 +26,7 @@ yaml
 =
 color_targets
 (
-2
+3
 )
 alpha_targets
 (
@@ -103,16 +103,6 @@ yaml
 repeated
 -
 difference
--
-ref
-.
-yaml
-=
-=
-canvas
-.
-yaml
-canvas
 -
 ref
 .
