@@ -151,9 +151,9 @@ SVG_MEETORSLICE_UNKNOWN
 }
 SVGPreserveAspectRatio
 (
-uint16_t
+uint8_t
 aAlign
-uint16_t
+uint8_t
 aMeetOrSlice
 )
 :
@@ -236,7 +236,7 @@ return
 NS_OK
 ;
 }
-uint16_t
+auto
 GetAlign
 (
 )
@@ -281,7 +281,7 @@ return
 NS_OK
 ;
 }
-uint16_t
+auto
 GetMeetOrSlice
 (
 )

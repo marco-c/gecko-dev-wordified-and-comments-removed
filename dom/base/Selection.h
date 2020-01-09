@@ -2918,6 +2918,10 @@ eNone
 ?
 0
 :
+static_cast
+<
+SelectionTypeMask
+>
 (
 1
 <
