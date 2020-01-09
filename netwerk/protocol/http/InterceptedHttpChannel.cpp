@@ -3595,9 +3595,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 MOZ_ASSERT
@@ -3657,7 +3654,6 @@ mListener
 OnStartRequest
 (
 this
-nullptr
 )
 ;
 }

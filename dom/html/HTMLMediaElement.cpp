@@ -2572,9 +2572,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 nsContentUtils
@@ -2969,7 +2966,6 @@ mNextListener
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }

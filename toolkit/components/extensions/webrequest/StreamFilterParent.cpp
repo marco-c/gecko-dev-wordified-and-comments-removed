@@ -1985,18 +1985,11 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 AssertIsMainThread
 (
 )
-;
-mContext
-=
-aContext
 ;
 if
 (
@@ -2116,7 +2109,6 @@ mOrigListener
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 if

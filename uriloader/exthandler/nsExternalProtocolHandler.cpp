@@ -740,7 +740,6 @@ listener
 OnStartRequest
 (
 self
-nullptr
 )
 ;
 listener
@@ -1589,9 +1588,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 MOZ_CRASH

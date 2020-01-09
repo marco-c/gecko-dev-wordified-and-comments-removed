@@ -152,12 +152,6 @@ request
 being
 observed
 *
-param
-aContext
-user
-defined
-context
-*
 *
 An
 exception
@@ -186,9 +180,6 @@ onStartRequest
 in
 nsIRequest
 aRequest
-in
-nsISupports
-aContext
 )
 ;
 /

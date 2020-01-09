@@ -7079,9 +7079,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 nsresult
@@ -11207,7 +11204,6 @@ mDivertListener
 OnStartRequest
 (
 mChannel
-nullptr
 )
 ;
 if
@@ -11628,7 +11624,6 @@ mParentListener
 OnStartRequest
 (
 mChannel
-nullptr
 )
 ;
 mChannel

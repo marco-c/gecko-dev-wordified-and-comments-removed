@@ -1910,7 +1910,6 @@ listener
 OnStartRequest
 (
 channel
-nullptr
 )
 ;
 if

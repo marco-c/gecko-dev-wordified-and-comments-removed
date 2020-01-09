@@ -2092,9 +2092,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 MOZ_ASSERT
@@ -2270,7 +2267,6 @@ listener
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 return
@@ -2302,7 +2298,6 @@ listener
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
@@ -5543,9 +5538,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 #

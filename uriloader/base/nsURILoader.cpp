@@ -674,9 +674,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 )
 {
 LOG
@@ -1106,7 +1103,7 @@ rv
 DispatchContent
 (
 request
-aCtxt
+nullptr
 )
 ;
 LOG
@@ -1184,7 +1181,6 @@ m_targetStreamListener
 OnStartRequest
 (
 request
-aCtxt
 )
 ;
 LOG

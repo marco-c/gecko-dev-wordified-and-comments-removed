@@ -2510,9 +2510,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 )
 {
 mHexDumpState

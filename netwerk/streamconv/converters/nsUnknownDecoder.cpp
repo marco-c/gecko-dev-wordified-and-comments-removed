@@ -231,9 +231,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-context
 )
 {
 return
@@ -872,9 +869,6 @@ OnStartRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 )
 {
 nsresult
@@ -3068,7 +3062,6 @@ listener
 OnStartRequest
 (
 request
-aCtxt
 )
 ;
 nsCOMPtr
@@ -3110,7 +3103,6 @@ listener
 OnStartRequest
 (
 request
-aCtxt
 )
 ;
 nsCOMPtr
@@ -3508,7 +3500,6 @@ listener
 OnStartRequest
 (
 request
-nullptr
 )
 ;
 if

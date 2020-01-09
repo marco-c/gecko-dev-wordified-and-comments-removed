@@ -4401,9 +4401,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 MOZ_RELEASE_ASSERT
@@ -4473,7 +4470,6 @@ mObserver
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }

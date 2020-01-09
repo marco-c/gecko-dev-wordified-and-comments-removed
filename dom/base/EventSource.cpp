@@ -2408,9 +2408,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 )
 {
 AssertIsOnMainThread

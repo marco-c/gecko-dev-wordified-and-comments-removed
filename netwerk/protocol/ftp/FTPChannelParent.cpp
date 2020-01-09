@@ -1934,9 +1934,6 @@ OnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 LOG
@@ -1986,7 +1983,6 @@ mDivertToListener
 OnStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
@@ -3282,7 +3278,6 @@ rv
 OnStartRequest
 (
 mChannel
-nullptr
 )
 ;
 if
@@ -3615,7 +3610,6 @@ mDivertToListener
 OnStartRequest
 (
 mChannel
-nullptr
 )
 ;
 if
