@@ -2364,13 +2364,10 @@ body
 =
 {
 "
-value
+text
 "
 :
-list
-(
 value
-)
 }
         
 self
