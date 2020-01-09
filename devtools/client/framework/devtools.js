@@ -1561,14 +1561,6 @@ toolId
 !
 =
 null
-&
-&
-toolbox
-.
-currentToolId
-!
-=
-toolId
 )
 {
 await
