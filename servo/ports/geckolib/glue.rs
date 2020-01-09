@@ -52,7 +52,6 @@ nsstring
 {
 nsCString
 nsString
-nsStringRepr
 }
 ;
 use
@@ -7104,7 +7103,7 @@ as
 mut
 nsTArray
 <
-nsStringRepr
+nsString
 >
 len
 as
