@@ -1225,6 +1225,10 @@ ReadableStreamController
 *
 >
 controller
+bool
+finalizeSource
+=
+true
 )
 {
 if
@@ -1235,6 +1239,11 @@ controller
 hasExternalSource
 (
 )
+)
+{
+if
+(
+finalizeSource
 )
 {
 controller
@@ -1249,6 +1258,7 @@ finalize
 (
 )
 ;
+}
 controller
 -
 >
