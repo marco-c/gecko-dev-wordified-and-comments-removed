@@ -320,11 +320,14 @@ SELECTED_RUNTIME_ID_UPDATED
 :
 {
 const
-{
-runtimeId
-}
+selectedRuntimeId
 =
 action
+.
+runtimeId
+|
+|
+null
 ;
 return
 Object
@@ -336,8 +339,6 @@ assign
 state
 {
 selectedRuntimeId
-:
-runtimeId
 }
 )
 ;

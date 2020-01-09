@@ -355,7 +355,7 @@ selectedPage
 PropTypes
 .
 string
-selectedRuntime
+selectedRuntimeId
 :
 PropTypes
 .
@@ -401,7 +401,7 @@ const
 {
 getString
 selectedPage
-selectedRuntime
+selectedRuntimeId
 }
 =
 this
@@ -411,7 +411,7 @@ props
 const
 runtimeTitle
 =
-selectedRuntime
+selectedRuntimeId
 ?
 getString
 (
@@ -430,7 +430,7 @@ runtime
 "
 {
 selectedPage
-selectedRuntime
+selectedRuntimeId
 }
 )
 :
@@ -818,7 +818,7 @@ dispatch
 isScanningUsb
 networkRuntimes
 selectedPage
-selectedRuntime
+selectedRuntimeId
 usbRuntimes
 }
 =
@@ -855,7 +855,7 @@ dispatch
 isScanningUsb
 networkRuntimes
 selectedPage
-selectedRuntime
+selectedRuntimeId
 usbRuntimes
 }
 )
@@ -932,13 +932,13 @@ state
 ui
 .
 selectedPage
-selectedRuntime
+selectedRuntimeId
 :
 state
 .
-ui
+runtimes
 .
-selectedRuntime
+selectedRuntimeId
 usbRuntimes
 :
 state
