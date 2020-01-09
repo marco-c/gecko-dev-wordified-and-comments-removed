@@ -430,6 +430,14 @@ copyString
 text
 )
 ;
+this
+.
+view
+.
+onContextMenuCopy
+(
+)
+;
 }
 destroy
 (

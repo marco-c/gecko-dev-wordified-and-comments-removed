@@ -185,6 +185,13 @@ PropTypes
 func
 .
 isRequired
+onCopy
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -841,6 +848,13 @@ this
 props
 .
 onContextMenu
+onCopy
+:
+this
+.
+props
+.
+onCopy
 }
 !
 hasChanges
