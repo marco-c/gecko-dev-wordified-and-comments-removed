@@ -286,7 +286,7 @@ developing
 webdriver
 in
 #
-ateam
+interop
 on
 irc
 .

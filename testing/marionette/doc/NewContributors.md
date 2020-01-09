@@ -263,7 +263,7 @@ document
 Join
 our
 #
-ateam
+interop
 channel
 and
 introduce
