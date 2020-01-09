@@ -1315,6 +1315,7 @@ menupopup
 querySelectorAll
 (
 "
+menuitem
 [
 disabled
 ]
@@ -1341,6 +1342,7 @@ menupopup
 querySelector
 (
 "
+menuitem
 [
 disabled
 ]
@@ -1576,6 +1578,7 @@ menupopup
 querySelectorAll
 (
 "
+menuitem
 [
 disabled
 ]
@@ -1795,6 +1798,7 @@ menupopup
 querySelectorAll
 (
 "
+menuitem
 [
 disabled
 ]
@@ -1827,6 +1831,7 @@ menupopup
 querySelectorAll
 (
 "
+menuitem
 [
 disabled
 ]
@@ -1871,6 +1876,7 @@ menupopup
 querySelectorAll
 (
 "
+menuitem
 [
 disabled
 ]
