@@ -15072,7 +15072,7 @@ gcGrayRoots
 (
 )
 .
-sizeOfExcludingThis
+SizeOfExcludingThis
 (
 mallocSizeOf
 )
