@@ -38,7 +38,9 @@ path
 fill
 =
 "
-gray
+context
+-
+fill
 "
 d
 =

@@ -47,6 +47,13 @@ viewBox
 >
 <
 path
+fill
+=
+"
+context
+-
+fill
+"
 d
 =
 "
@@ -62,12 +69,6 @@ M6
 4
 1
 1z
-"
-fill
-=
-"
-#
-4C4C4C
 "
 /
 >

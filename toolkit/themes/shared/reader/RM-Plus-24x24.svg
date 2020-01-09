@@ -118,8 +118,9 @@ evenodd
 fill
 =
 "
-#
-808080
+context
+-
+fill
 "
 d
 =
