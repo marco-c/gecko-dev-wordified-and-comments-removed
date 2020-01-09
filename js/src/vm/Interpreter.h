@@ -1526,7 +1526,7 @@ ok
 )
 ;
 bool
-Throw
+ThrowOperation
 (
 JSContext
 *
