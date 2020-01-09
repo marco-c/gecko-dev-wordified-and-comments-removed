@@ -15631,7 +15631,7 @@ xpc
 WrapperFactory
 :
 :
-IsXrayWrapper
+IsCrossOriginWrapper
 (
 aObj
 )
