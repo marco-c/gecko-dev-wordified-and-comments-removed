@@ -195,9 +195,6 @@ bool
 disableLicm
 ;
 bool
-disableLoopUnrolling
-;
-bool
 disableOptimizationTracking
 ;
 bool

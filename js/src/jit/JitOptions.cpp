@@ -434,12 +434,6 @@ false
 ;
 SET_DEFAULT
 (
-disableLoopUnrolling
-true
-)
-;
-SET_DEFAULT
-(
 disableOptimizationTracking
 true
 )
