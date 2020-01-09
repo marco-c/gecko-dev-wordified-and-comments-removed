@@ -83,9 +83,6 @@ SourcesMap
 debuggeeUrl
 :
 string
-projectRoot
-:
-string
 }
 ;
 export
@@ -95,7 +92,6 @@ createTree
 {
 sources
 debuggeeUrl
-projectRoot
 }
 :
 Params
@@ -144,7 +140,6 @@ addToTree
 uncollapsedTree
 source
 debuggeeHost
-projectRoot
 )
 ;
 }
