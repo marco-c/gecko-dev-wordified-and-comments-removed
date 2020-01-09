@@ -1316,9 +1316,7 @@ if
 tex
 )
 {
-gfxCriticalError
-(
-)
+gfxCriticalNote
 <
 <
 "
