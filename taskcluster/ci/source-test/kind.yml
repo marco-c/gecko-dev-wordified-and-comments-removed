@@ -160,6 +160,12 @@ yml
 -
 wpt
 -
+metadata
+.
+yml
+-
+wpt
+-
 manifest
 .
 yml
