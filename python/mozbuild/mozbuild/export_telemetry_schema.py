@@ -212,15 +212,6 @@ f
 indent
 =
 2
-separators
-=
-(
-'
-'
-'
-:
-'
-)
 sort_keys
 =
 True

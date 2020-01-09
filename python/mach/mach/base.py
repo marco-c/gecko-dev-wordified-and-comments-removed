@@ -78,13 +78,6 @@ commands
 =
 commands
         
-self
-.
-command_attrs
-=
-{
-}
-        
 for
 k
 v

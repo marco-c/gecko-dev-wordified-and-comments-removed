@@ -1634,18 +1634,6 @@ substs
 {
 }
         
-command_attrs
-=
-getattr
-(
-context
-'
-command_attrs
-'
-{
-}
-)
-        
 paths
 =
 {
@@ -1740,9 +1728,6 @@ substs
 =
 substs
                                 
-command_attrs
-=
-command_attrs
 paths
 =
 paths
