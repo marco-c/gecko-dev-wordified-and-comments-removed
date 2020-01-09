@@ -693,9 +693,6 @@ off
 "
 close
 "
-this
-.
-disconnect
 )
 ;
 }
@@ -715,11 +712,6 @@ off
 "
 networkEvent
 "
-this
-.
-dataProvider
-.
-onNetworkEvent
 )
 ;
 this
@@ -731,11 +723,6 @@ off
 "
 networkEventUpdate
 "
-this
-.
-dataProvider
-.
-onNetworkEventUpdate
 )
 ;
 this
@@ -747,9 +734,6 @@ off
 "
 docEvent
 "
-this
-.
-onDocEvent
 )
 ;
 }
@@ -1236,6 +1220,8 @@ return
 this
 .
 tabTarget
+.
+activeTab
 .
 reconfigure
 (

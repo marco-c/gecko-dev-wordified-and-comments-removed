@@ -1492,6 +1492,8 @@ Promise
 return
 tabTarget
 .
+activeTab
+.
 navigateTo
 (
 {
@@ -1512,6 +1514,8 @@ Promise
 {
 return
 tabTarget
+.
+activeTab
 .
 reload
 (
@@ -2246,6 +2250,8 @@ workers
 =
 await
 tabTarget
+.
+activeTab
 .
 listWorkers
 (

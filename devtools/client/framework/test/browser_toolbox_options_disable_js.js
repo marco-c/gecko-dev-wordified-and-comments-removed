@@ -408,6 +408,8 @@ toolbox
 .
 target
 .
+activeTab
+.
 configureOptions
 ;
 is
@@ -459,6 +461,8 @@ javascriptEnabled
 toolbox
 .
 target
+.
+activeTab
 .
 configureOptions
 )

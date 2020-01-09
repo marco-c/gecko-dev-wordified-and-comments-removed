@@ -420,6 +420,8 @@ return
 }
 target
 .
+activeTab
+.
 off
 (
 "
@@ -438,6 +440,8 @@ frames
 }
 ;
 target
+.
+activeTab
 .
 on
 (

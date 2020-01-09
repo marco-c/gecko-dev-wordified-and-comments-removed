@@ -238,7 +238,15 @@ traits
 =
 tabTarget
 .
+activeTab
+?
+tabTarget
+.
+activeTab
+.
 traits
+:
+null
 ;
 await
 actions

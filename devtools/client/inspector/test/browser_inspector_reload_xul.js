@@ -205,6 +205,8 @@ toolbox
 .
 target
 .
+activeTab
+.
 reload
 (
 )

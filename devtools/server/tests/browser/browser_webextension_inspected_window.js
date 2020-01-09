@@ -109,6 +109,13 @@ client
 target
 ;
 const
+targetFront
+=
+target
+.
+activeTab
+;
+const
 consoleClient
 =
 target
@@ -131,7 +138,7 @@ webExtensionInspectedWindow
 return
 {
 client
-target
+targetFront
 consoleClient
 inspectedWindowFront
 extension
@@ -179,7 +186,7 @@ unload
 function
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 {
 return
@@ -190,7 +197,7 @@ resolve
 =
 >
 {
-target
+targetFront
 .
 on
 (
@@ -221,7 +228,7 @@ pkt
 isFrameSwitching
 )
 {
-target
+targetFront
 .
 off
 (
@@ -1524,7 +1531,7 @@ consoleClient
 inspectedWindowFront
 extension
 fakeExtCallerInfo
-target
+targetFront
 }
 =
 await
@@ -1544,7 +1551,7 @@ waitForNoBypassCacheReload
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 const
@@ -1627,7 +1634,7 @@ waitForForceBypassCacheReload
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 await
@@ -1717,7 +1724,7 @@ consoleClient
 inspectedWindowFront
 extension
 fakeExtCallerInfo
-target
+targetFront
 }
 =
 await
@@ -1739,7 +1746,7 @@ waitForCustomUserAgentReload
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 await
@@ -1808,7 +1815,7 @@ waitForNoCustomUserAgentReload
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 await
@@ -1892,7 +1899,7 @@ consoleClient
 inspectedWindowFront
 extension
 fakeExtCallerInfo
-target
+targetFront
 }
 =
 await
@@ -1918,7 +1925,7 @@ waitForInjectedScriptReload
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 await
@@ -2010,7 +2017,7 @@ waitForNoInjectedScriptReload
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 await
@@ -2118,7 +2125,7 @@ consoleClient
 inspectedWindowFront
 extension
 fakeExtCallerInfo
-target
+targetFront
 }
 =
 await
@@ -2140,7 +2147,7 @@ waitForCustomUserAgentReload
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 inspectedWindowFront
@@ -2227,7 +2234,7 @@ waitForNoCustomUserAgentReload
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 await
@@ -2311,7 +2318,7 @@ consoleClient
 inspectedWindowFront
 extension
 fakeExtCallerInfo
-target
+targetFront
 }
 =
 await
@@ -2337,7 +2344,7 @@ waitForPageLoad
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 await
@@ -2403,7 +2410,7 @@ waitForInjectedScriptReload
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 await
@@ -2512,7 +2519,7 @@ waitForNoInjectedScriptReload
 =
 waitForNextTabNavigated
 (
-target
+targetFront
 )
 ;
 await

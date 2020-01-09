@@ -113,11 +113,7 @@ json
 events
 :
 {
-"
-worker
--
 close
-"
 :
 {
 type
