@@ -2536,3 +2536,15 @@ initDelay
 99999999
 )
 ;
+user_pref
+(
+"
+security
+.
+data_uri
+.
+block_toplevel_data_uri_navigations
+"
+false
+)
+;
