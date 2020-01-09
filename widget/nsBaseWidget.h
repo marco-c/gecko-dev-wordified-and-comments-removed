@@ -2761,6 +2761,17 @@ MultiTouchInput
 aInput
 )
 ;
+void
+DispatchPanGestureInput
+(
+mozilla
+:
+:
+PanGestureInput
+&
+aInput
+)
+;
 #
 if
 defined
