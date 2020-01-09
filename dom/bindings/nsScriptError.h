@@ -94,6 +94,8 @@ nsAString
 &
 sourceName
 uint32_t
+sourceId
+uint32_t
 lineNumber
 uint32_t
 columnNumber
@@ -115,6 +117,9 @@ mSourceName
 ;
 nsString
 mSourceLine
+;
+uint32_t
+mSourceId
 ;
 uint32_t
 mLineNumber
@@ -207,6 +212,9 @@ mMessageName
 ;
 nsString
 mSourceName
+;
+uint32_t
+mSourceId
 ;
 uint32_t
 mLineNumber
