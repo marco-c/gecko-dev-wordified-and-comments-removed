@@ -3361,6 +3361,16 @@ now
 "
 numTimersToRun
 this
+nextDeadline
+.
+IsNull
+(
+)
+?
+0
+.
+0
+:
 (
 nextDeadline
 -
