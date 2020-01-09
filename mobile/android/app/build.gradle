@@ -200,6 +200,16 @@ buildDir
 \
 "
 "
+.
+tr
+(
+File
+.
+separator
+"
+/
+"
+)
 vectorDrawables
 .
 useSupportLibrary
