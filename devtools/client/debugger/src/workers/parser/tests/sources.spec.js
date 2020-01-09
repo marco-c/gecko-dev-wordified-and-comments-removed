@@ -117,6 +117,10 @@ loaded
 isExtension
 :
 false
+actors
+:
+[
+]
 }
 ;
 expect

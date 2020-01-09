@@ -492,13 +492,6 @@ if
 scopes
 &
 &
-scopes
-.
-length
->
-0
-&
-&
 !
 isLoading
 )
