@@ -404,6 +404,9 @@ None
 interrupt_handler
 =
 None
+e10s
+=
+True
 *
 *
 kwargs
@@ -529,6 +532,12 @@ enable_control_server_wait
 '
 :
 memory_test
+            
+'
+e10s
+'
+:
+e10s
         
 }
         
@@ -7094,7 +7103,14 @@ use_multiprocess
 '
 ]
 =
-True
+self
+.
+config
+[
+'
+e10s
+'
+]
                 
 self
 .
