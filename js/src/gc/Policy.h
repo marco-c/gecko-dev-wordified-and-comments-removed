@@ -326,7 +326,7 @@ name
 js
 :
 :
-TraceEdge
+TraceNullableEdge
 (
 trc
 thingp
