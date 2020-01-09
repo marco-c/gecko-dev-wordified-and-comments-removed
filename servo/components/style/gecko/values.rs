@@ -2320,7 +2320,8 @@ None
 _
 =
 >
-LengthOrPercentage
+{
+GeckoStyleCoordConvertible
 :
 :
 from_gecko_style_coord
@@ -2335,6 +2336,7 @@ ShapeRadius
 :
 Length
 )
+}
 }
 }
 }

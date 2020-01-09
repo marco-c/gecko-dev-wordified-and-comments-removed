@@ -596,7 +596,10 @@ True
 animation_value_type
 =
 "
-ComputedValue
+basic_shape
+:
+:
+ClippingShape
 "
 flags
 =

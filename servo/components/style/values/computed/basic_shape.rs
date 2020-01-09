@@ -145,7 +145,7 @@ Circle
 <
 LengthOrPercentage
 LengthOrPercentage
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 ;
 pub
@@ -159,7 +159,7 @@ Ellipse
 <
 LengthOrPercentage
 LengthOrPercentage
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 ;
 pub
@@ -171,7 +171,7 @@ generic
 :
 ShapeRadius
 <
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 ;
 impl

@@ -277,7 +277,7 @@ Circle
 <
 HorizontalPosition
 VerticalPosition
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 ;
 pub
@@ -291,7 +291,7 @@ Ellipse
 <
 HorizontalPosition
 VerticalPosition
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 ;
 pub
@@ -303,7 +303,7 @@ generic
 :
 ShapeRadius
 <
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 ;
 pub
@@ -2116,10 +2116,10 @@ try
 |
 i
 |
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 :
 :
-parse_non_negative
+parse
 (
 context
 i
