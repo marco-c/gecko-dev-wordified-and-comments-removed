@@ -2616,6 +2616,15 @@ ensure_python_modern
 (
 )
         
+if
+not
+self
+.
+instance
+.
+artifact_mode
+:
+            
 self
 .
 instance
