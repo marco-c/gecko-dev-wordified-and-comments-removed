@@ -818,6 +818,13 @@ id
 "
 restoreDefaultSearchEngines
 "
+is
+=
+"
+highlightable
+-
+button
+"
 data
 -
 l10n
@@ -848,6 +855,13 @@ id
 =
 "
 removeEngineButton
+"
+is
+=
+"
+highlightable
+-
+button
 "
 class
 =

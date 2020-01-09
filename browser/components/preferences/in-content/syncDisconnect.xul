@@ -593,6 +593,13 @@ id
 "
 butCancel
 "
+is
+=
+"
+highlightable
+-
+button
+"
 oncommand
 =
 "
@@ -628,6 +635,13 @@ id
 =
 "
 butDisconnect
+"
+is
+=
+"
+highlightable
+-
+button
 "
 oncommand
 =

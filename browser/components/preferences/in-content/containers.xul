@@ -277,6 +277,13 @@ id
 "
 containersAdd
 "
+is
+=
+"
+highlightable
+-
+button
+"
 oncommand
 =
 "
