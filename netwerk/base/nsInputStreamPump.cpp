@@ -2645,7 +2645,6 @@ mListener
 OnStopRequest
 (
 this
-nullptr
 mStatus
 )
 ;

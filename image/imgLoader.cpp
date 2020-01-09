@@ -13187,9 +13187,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 nsresult
 status
 )
@@ -13211,7 +13208,6 @@ mDestListener
 OnStopRequest
 (
 aRequest
-ctxt
 status
 )
 ;
@@ -14080,9 +14076,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 nsresult
 status
 )
@@ -14108,7 +14101,6 @@ mDestListener
 OnStopRequest
 (
 aRequest
-ctxt
 status
 )
 ;

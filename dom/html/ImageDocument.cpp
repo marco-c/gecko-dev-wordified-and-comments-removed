@@ -720,9 +720,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsresult
 aStatus
 )
@@ -777,7 +774,6 @@ MediaDocumentStreamListener
 OnStopRequest
 (
 aRequest
-aCtxt
 aStatus
 )
 ;

@@ -1684,9 +1684,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsresult
 aStatus
 )

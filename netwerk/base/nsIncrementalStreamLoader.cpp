@@ -338,9 +338,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsresult
 aStatus
 )
@@ -425,10 +422,6 @@ mRequest
 nullptr
 ;
 mObserver
-=
-nullptr
-;
-mContext
 =
 nullptr
 ;

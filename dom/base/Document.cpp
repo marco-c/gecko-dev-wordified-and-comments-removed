@@ -5894,9 +5894,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )
@@ -5926,7 +5923,6 @@ listener
 OnStopRequest
 (
 aRequest
-aContext
 aStatus
 )
 ;

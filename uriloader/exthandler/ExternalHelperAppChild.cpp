@@ -385,9 +385,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 nsresult
 status
 )
@@ -406,7 +403,6 @@ mHandler
 OnStopRequest
 (
 request
-ctx
 status
 )
 ;

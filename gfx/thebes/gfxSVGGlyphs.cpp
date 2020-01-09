@@ -2004,7 +2004,6 @@ listener
 OnStopRequest
 (
 channel
-nullptr
 status
 )
 ;

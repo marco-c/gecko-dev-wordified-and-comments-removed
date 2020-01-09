@@ -539,9 +539,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )
@@ -576,7 +573,7 @@ rv
 PushAvailableData
 (
 aRequest
-aContext
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -607,7 +604,6 @@ mListener
 OnStopRequest
 (
 aRequest
-mContext
 aStatusCode
 )
 ;

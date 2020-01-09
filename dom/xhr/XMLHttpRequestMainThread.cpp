@@ -9017,9 +9017,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsresult
 status
 )
@@ -9133,7 +9130,6 @@ mRequestObserver
 OnStopRequest
 (
 request
-ctxt
 status
 )
 ;
@@ -9165,7 +9161,6 @@ mXMLParserStreamListener
 OnStopRequest
 (
 request
-ctxt
 status
 )
 ;
@@ -9187,7 +9182,6 @@ mXMLParserStreamListener
 OnStopRequest
 (
 request
-ctxt
 status
 )
 ;

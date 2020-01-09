@@ -1620,9 +1620,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )
@@ -4863,9 +4860,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )

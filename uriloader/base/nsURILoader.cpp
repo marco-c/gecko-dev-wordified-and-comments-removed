@@ -1381,9 +1381,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 nsresult
 aStatus
 )
@@ -1436,7 +1433,6 @@ listener
 OnStopRequest
 (
 request
-aCtxt
 aStatus
 )
 ;

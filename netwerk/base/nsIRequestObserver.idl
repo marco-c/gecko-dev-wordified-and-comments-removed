@@ -217,12 +217,6 @@ being
 observed
 *
 param
-aContext
-user
-defined
-context
-*
-param
 aStatusCode
 reason
 for
@@ -252,9 +246,6 @@ onStopRequest
 in
 nsIRequest
 aRequest
-in
-nsISupports
-aContext
 in
 nsresult
 aStatusCode

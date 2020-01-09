@@ -2383,9 +2383,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 nsresult
 status
 )
@@ -2468,7 +2465,6 @@ listener
 OnStopRequest
 (
 this
-nullptr
 mStatus
 )
 ;
@@ -3023,7 +3019,6 @@ listener
 OnStopRequest
 (
 this
-nullptr
 mStatus
 )
 ;

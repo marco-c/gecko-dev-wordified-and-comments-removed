@@ -748,7 +748,6 @@ listener
 OnStopRequest
 (
 self
-nullptr
 self
 -
 >
@@ -1616,9 +1615,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatusCode
 )

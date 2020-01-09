@@ -2712,9 +2712,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctx
 nsresult
 result
 )

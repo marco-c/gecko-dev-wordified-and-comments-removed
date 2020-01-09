@@ -3673,9 +3673,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsresult
 status
 )

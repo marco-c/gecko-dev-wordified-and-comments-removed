@@ -100,9 +100,6 @@ OnStopRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsresult
 aStatus
 )
@@ -161,7 +158,7 @@ OnDownloadComplete
 (
 this
 aRequest
-aCtxt
+nullptr
 aStatus
 std
 :

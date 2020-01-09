@@ -1375,9 +1375,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 nsresult
 aStatus
 )

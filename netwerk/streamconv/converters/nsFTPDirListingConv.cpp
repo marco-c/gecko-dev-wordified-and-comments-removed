@@ -830,9 +830,6 @@ OnStopRequest
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsresult
 aStatus
 )
@@ -844,7 +841,6 @@ mFinalListener
 OnStopRequest
 (
 request
-ctxt
 aStatus
 )
 ;
