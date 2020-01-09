@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsPipe
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h
