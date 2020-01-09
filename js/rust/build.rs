@@ -1204,6 +1204,12 @@ RootedObjectVector
 JS
 :
 :
+RootedValue
+"
+"
+JS
+:
+:
 RootingContext
 "
 "
