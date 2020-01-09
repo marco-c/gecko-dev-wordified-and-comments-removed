@@ -941,8 +941,6 @@ oldIndex
 }
 OnHistoryGotoIndex
 (
-index
-gotoURI
 )
 {
 this
@@ -955,7 +953,6 @@ kLastIndex
 }
 OnHistoryPurge
 (
-numEntries
 )
 {
 this
@@ -967,8 +964,6 @@ collect
 }
 OnHistoryReload
 (
-reloadURI
-reloadFlags
 )
 {
 this
@@ -983,7 +978,6 @@ true
 }
 OnHistoryReplaceEntry
 (
-index
 )
 {
 this

@@ -20287,8 +20287,6 @@ LegacySHistory
 >
 NotifyOnHistoryReload
 (
-mCurrentURI
-aReloadFlags
 &
 canReload
 )

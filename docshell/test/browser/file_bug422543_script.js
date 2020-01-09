@@ -33,8 +33,6 @@ newentry
 }
 OnHistoryGotoIndex
 (
-aIndex
-aGotoURI
 )
 {
 this
@@ -48,7 +46,6 @@ gotoindex
 }
 OnHistoryPurge
 (
-aNumEntries
 )
 {
 this
@@ -62,8 +59,6 @@ purge
 }
 OnHistoryReload
 (
-aReloadURI
-aReloadFlags
 )
 {
 this
@@ -82,7 +77,6 @@ retval
 }
 OnHistoryReplaceEntry
 (
-aIndex
 )
 {
 }
@@ -296,12 +290,6 @@ history
 .
 notifyOnHistoryReload
 (
-content
-.
-document
-.
-documentURIObject
-0
 )
 ;
 sendAsyncMessage

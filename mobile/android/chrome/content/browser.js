@@ -26295,8 +26295,6 @@ OnHistoryReload
 :
 function
 (
-reloadURI
-reloadFlags
 )
 {
 Services
@@ -26323,8 +26321,6 @@ OnHistoryGotoIndex
 :
 function
 (
-index
-gotoURI
 )
 {
 Services
@@ -26348,7 +26344,6 @@ OnHistoryPurge
 :
 function
 (
-numEntries
 )
 {
 Services
@@ -26372,7 +26367,6 @@ OnHistoryReplaceEntry
 :
 function
 (
-index
 )
 {
 Services

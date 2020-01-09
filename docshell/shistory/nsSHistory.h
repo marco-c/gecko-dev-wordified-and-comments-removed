@@ -215,15 +215,6 @@ uint32_t
 aReloadFlags
 )
 ;
-nsresult
-GetCurrentURI
-(
-nsIURI
-*
-*
-aResultURI
-)
-;
 static
 nsresult
 Startup
