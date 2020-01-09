@@ -322,13 +322,6 @@ cf
 ;
 return
 flags
-&
-~
-Ci
-.
-nsIClearDataService
-.
-CLEAR_HISTORY
 ;
 }
 const
