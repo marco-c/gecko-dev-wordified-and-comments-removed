@@ -650,7 +650,7 @@ const
 size_t
 GCMinNurseryBytes
 =
-192
+256
 *
 1024
 ;
