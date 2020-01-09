@@ -67,6 +67,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -99,6 +100,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -166,6 +168,7 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -185,6 +188,13 @@ L
 #
 [
 css
+(
+field_bound
+)
+]
+#
+[
+shmem
 (
 field_bound
 )
@@ -308,6 +318,7 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -327,6 +338,13 @@ L
 #
 [
 css
+(
+field_bound
+)
+]
+#
+[
+shmem
 (
 field_bound
 )
@@ -389,6 +407,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
+ToShmem
 )
 ]
 #
@@ -405,6 +424,13 @@ GenericBorderRadius
 LengthPercentage
 >
 {
+#
+[
+shmem
+(
+field_bound
+)
+]
 pub
 top_left
 :

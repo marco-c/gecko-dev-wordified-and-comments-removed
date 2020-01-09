@@ -192,6 +192,7 @@ ToCss
 derive
 (
 Debug
+ToShmem
 )
 ]
 pub
@@ -445,6 +446,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 pub
@@ -2007,6 +2009,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 pub
@@ -2337,6 +2340,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 pub

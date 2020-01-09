@@ -249,6 +249,7 @@ PartialOrd
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -318,6 +319,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1424,6 +1426,7 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1446,6 +1449,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 pub

@@ -647,6 +647,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -702,6 +703,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToShmem
 )
 ]
 #

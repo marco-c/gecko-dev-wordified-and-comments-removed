@@ -1963,6 +1963,7 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub

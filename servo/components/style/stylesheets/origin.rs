@@ -25,6 +25,7 @@ Copy
 Debug
 Eq
 PartialEq
+ToShmem
 )
 ]
 #

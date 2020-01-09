@@ -213,6 +213,7 @@ ToCss
 derive
 (
 Debug
+ToShmem
 )
 ]
 pub
@@ -597,6 +598,7 @@ Debug
 MallocSizeOf
 PartialEq
 PartialOrd
+ToShmem
 )
 ]
 pub
@@ -949,6 +951,7 @@ Debug
 Eq
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1069,6 +1072,7 @@ KeyframeSelector
 derive
 (
 Debug
+ToShmem
 )
 ]
 pub

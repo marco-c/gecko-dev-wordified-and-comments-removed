@@ -109,6 +109,7 @@ ToCss
 derive
 (
 Debug
+ToShmem
 )
 ]
 pub

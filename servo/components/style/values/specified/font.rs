@@ -570,6 +570,7 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -851,6 +852,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1785,6 +1787,7 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 #
@@ -1968,6 +1971,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 #
@@ -2013,6 +2017,7 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 #
@@ -2558,6 +2563,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -2624,6 +2630,7 @@ Eq
 Hash
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3179,6 +3186,7 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -5320,6 +5328,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -5430,6 +5439,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -5570,6 +5580,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -6525,6 +6536,7 @@ bitflags
 derive
 (
 MallocSizeOf
+ToShmem
 )
 ]
 /
@@ -7100,6 +7112,7 @@ Debug
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -7845,6 +7858,7 @@ bitflags
 derive
 (
 MallocSizeOf
+ToShmem
 )
 ]
 /
@@ -8406,6 +8420,7 @@ Debug
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -9087,6 +9102,7 @@ bitflags
 derive
 (
 MallocSizeOf
+ToShmem
 )
 ]
 /
@@ -9605,6 +9621,7 @@ Debug
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -10182,6 +10199,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -10409,6 +10427,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -10888,6 +10907,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -11406,6 +11426,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -11918,6 +11939,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -12019,6 +12041,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -12161,6 +12184,7 @@ Debug
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -12302,6 +12326,7 @@ Debug
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -12446,6 +12471,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub

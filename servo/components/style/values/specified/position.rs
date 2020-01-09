@@ -232,6 +232,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -270,6 +271,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -301,6 +303,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -2788,6 +2791,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -2810,6 +2814,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3299,6 +3304,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3988,6 +3994,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -4102,6 +4109,7 @@ Clone
 Debug
 PartialEq
 SpecifiedValueInfo
+ToShmem
 )
 ]
 pub

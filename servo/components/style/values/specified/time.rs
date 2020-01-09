@@ -120,6 +120,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -146,6 +147,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub

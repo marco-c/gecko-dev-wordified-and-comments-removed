@@ -312,6 +312,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -1755,6 +1756,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 #
@@ -2032,6 +2034,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -2072,6 +2075,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -2109,6 +2113,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 #
@@ -2361,6 +2366,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -2415,6 +2421,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -2468,6 +2475,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -2495,6 +2503,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -2581,6 +2590,7 @@ derive
 MallocSizeOf
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 #
@@ -3192,8 +3202,22 @@ derive
 (
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
+/
+/
+/
+These
+constants
+match
+Gecko
+'
+s
+NS_STYLE_TOUCH_ACTION_
+*
+constants
+.
 #
 [
 value_info
@@ -3701,6 +3725,7 @@ derive
 MallocSizeOf
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 #
@@ -4436,6 +4461,7 @@ Hash
 MallocSizeOf
 PartialEq
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -4992,6 +5018,7 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -5041,6 +5068,7 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -5091,6 +5119,7 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -5126,6 +5155,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToComputedValue
+ToShmem
 )
 ]
 #
@@ -6664,6 +6694,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToComputedValue
+ToShmem
 )
 ]
 #
@@ -6977,6 +7008,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToComputedValue
+ToShmem
 )
 ]
 #
@@ -7015,6 +7047,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToComputedValue
+ToShmem
 )
 ]
 #

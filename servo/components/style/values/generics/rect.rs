@@ -52,6 +52,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
+ToShmem
 )
 ]
 #

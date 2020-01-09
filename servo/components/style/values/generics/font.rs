@@ -89,6 +89,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -218,6 +219,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -262,6 +264,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -452,6 +455,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -723,6 +727,7 @@ PartialEq
 ToAnimatedValue
 ToAnimatedZero
 ToCss
+ToShmem
 )
 ]
 pub
@@ -897,6 +902,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 ToCss
+ToShmem
 )
 ]
 #
@@ -1031,6 +1037,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
+ToShmem
 )
 ]
 pub

@@ -373,6 +373,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1044,6 +1045,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1311,6 +1313,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1392,6 +1395,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -2197,6 +2201,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -2898,6 +2903,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -4136,6 +4142,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub

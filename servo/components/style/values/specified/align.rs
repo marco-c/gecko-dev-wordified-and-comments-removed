@@ -85,6 +85,7 @@ derive
 (
 MallocSizeOf
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -874,6 +875,7 @@ MallocSizeOf
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -1437,6 +1439,7 @@ MallocSizeOf
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1629,6 +1632,7 @@ MallocSizeOf
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1821,6 +1825,7 @@ MallocSizeOf
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -2064,6 +2069,7 @@ MallocSizeOf
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -2241,6 +2247,7 @@ MallocSizeOf
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -2418,6 +2425,7 @@ MallocSizeOf
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -2637,6 +2645,7 @@ Eq
 MallocSizeOf
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub

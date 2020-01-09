@@ -231,6 +231,7 @@ Debug
 Default
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 #

@@ -8,6 +8,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub

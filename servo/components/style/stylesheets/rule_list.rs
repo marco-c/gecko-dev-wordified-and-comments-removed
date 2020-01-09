@@ -130,6 +130,7 @@ Write
 derive
 (
 Debug
+ToShmem
 )
 ]
 pub

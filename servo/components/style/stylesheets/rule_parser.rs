@@ -661,6 +661,7 @@ derive
 Clone
 Debug
 MallocSizeOf
+ToShmem
 )
 ]
 pub

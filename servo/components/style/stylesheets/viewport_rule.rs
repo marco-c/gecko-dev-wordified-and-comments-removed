@@ -540,6 +540,7 @@ derive
 Clone
 Debug
 PartialEq
+ToShmem
 )
 ]
 #
@@ -867,6 +868,7 @@ Clone
 Debug
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1506,6 +1508,7 @@ derive
 Clone
 Debug
 PartialEq
+ToShmem
 )
 ]
 #
@@ -2370,6 +2373,7 @@ derive
 Clone
 Debug
 PartialEq
+ToShmem
 )
 ]
 #

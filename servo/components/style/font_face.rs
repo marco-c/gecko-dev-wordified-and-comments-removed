@@ -319,6 +319,7 @@ Debug
 Eq
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -453,6 +454,7 @@ Clone
 Debug
 Eq
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -628,6 +630,7 @@ Parse
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -852,6 +855,7 @@ derive
 Clone
 Debug
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -993,6 +997,7 @@ derive
 Clone
 Debug
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -1150,6 +1155,7 @@ derive
 Clone
 Debug
 PartialEq
+ToShmem
 )
 ]
 #
@@ -2422,6 +2428,7 @@ derive
 Clone
 Debug
 PartialEq
+ToShmem
 )
 ]
 pub

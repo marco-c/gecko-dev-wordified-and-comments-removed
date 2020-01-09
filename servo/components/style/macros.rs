@@ -327,6 +327,7 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub

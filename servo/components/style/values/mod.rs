@@ -647,6 +647,7 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -755,6 +756,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -975,6 +977,7 @@ Debug
 MallocSizeOf
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 pub

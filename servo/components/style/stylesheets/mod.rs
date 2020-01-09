@@ -1185,6 +1185,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 #

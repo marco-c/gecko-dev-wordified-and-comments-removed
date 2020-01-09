@@ -88,6 +88,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
+ToShmem
 )
 ]
 #

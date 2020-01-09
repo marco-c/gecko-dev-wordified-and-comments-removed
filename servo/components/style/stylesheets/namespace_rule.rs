@@ -53,6 +53,7 @@ derive
 Clone
 Debug
 PartialEq
+ToShmem
 )
 ]
 #

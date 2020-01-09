@@ -2031,6 +2031,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -2363,6 +2364,7 @@ Eq
 MallocSizeOf
 PartialEq
 PartialOrd
+ToShmem
 )
 ]
 pub
