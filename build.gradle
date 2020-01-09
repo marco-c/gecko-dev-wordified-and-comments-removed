@@ -406,6 +406,17 @@ google_play_services_cast_version
 .
 0
 '
+ext
+.
+google_play_services_fido_version
+=
+'
+17
+.
+0
+.
+0
+'
 }
 dependencies
 {

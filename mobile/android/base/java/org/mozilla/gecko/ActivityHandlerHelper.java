@@ -87,10 +87,10 @@ ActivityResultHandlerMap
 (
 )
 ;
-private
+public
 static
 int
-makeRequestCode
+registerActivityHandler
 (
 ActivityResultHandler
 aHandler
