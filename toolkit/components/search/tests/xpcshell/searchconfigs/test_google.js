@@ -90,14 +90,6 @@ CN
 }
 ]
 }
-available
-:
-{
-excluded
-:
-[
-]
-}
 }
 )
 ;
