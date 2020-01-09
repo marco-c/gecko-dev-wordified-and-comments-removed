@@ -5,7 +5,7 @@ strict
 ;
 requestLongerTimeout
 (
-2
+3
 )
 ;
 Services
@@ -67,7 +67,7 @@ js
 const
 SW_TIMEOUT
 =
-1000
+4000
 ;
 add_task
 (
@@ -298,7 +298,7 @@ wait
 (
 SW_TIMEOUT
 *
-10
+5
 )
 ;
 const
