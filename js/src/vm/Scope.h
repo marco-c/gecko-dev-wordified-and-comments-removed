@@ -5050,6 +5050,14 @@ public
 explicit
 PositionalFormalParameterIter
 (
+Scope
+*
+scope
+)
+;
+explicit
+PositionalFormalParameterIter
+(
 JSScript
 *
 script
