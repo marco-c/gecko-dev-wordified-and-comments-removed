@@ -264,7 +264,7 @@ aOutBadConstraint
 0
 ;
 virtual
-void
+nsresult
 SetTrack
 (
 const

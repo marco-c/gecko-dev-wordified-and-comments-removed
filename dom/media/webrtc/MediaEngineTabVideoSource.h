@@ -155,7 +155,7 @@ aHandle
 )
 override
 ;
-void
+nsresult
 SetTrack
 (
 const
