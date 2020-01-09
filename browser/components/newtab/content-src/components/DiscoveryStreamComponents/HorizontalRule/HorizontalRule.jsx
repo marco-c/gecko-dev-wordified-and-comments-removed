@@ -21,6 +21,13 @@ return
 (
 <
 hr
+className
+=
+"
+ds
+-
+hr
+"
 /
 >
 )

@@ -159,7 +159,7 @@ getComputedStyle
 hr
 )
 .
-borderBottomWidth
+borderTopWidth
 .
 match
 (

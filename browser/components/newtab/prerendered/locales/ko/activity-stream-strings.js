@@ -274,7 +274,6 @@ prefs_content_discovery_header
 :
 "
 Firefox
-Home
 "
 "
 prefs_content_discovery_description
@@ -756,12 +755,6 @@ firstrun_skip_login
 "
 "
 context_menu_title
-"
-:
-"
-"
-"
-pocket_learn_more
 "
 :
 "

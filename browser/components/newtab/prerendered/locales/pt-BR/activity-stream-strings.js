@@ -338,7 +338,7 @@ search_web_placeholder
 "
 Pesquisar
 na
-Web
+web
 "
 "
 section_disclaimer_topstories
