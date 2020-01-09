@@ -2201,7 +2201,7 @@ MaybeShowFrame
 (
 )
 ;
-void
+bool
 Show
 (
 const
