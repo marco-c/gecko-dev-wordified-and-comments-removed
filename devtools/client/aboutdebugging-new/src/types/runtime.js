@@ -366,6 +366,13 @@ PropTypes
 bool
 .
 isRequired
+isConnectionTimeout
+:
+PropTypes
+.
+bool
+.
+isRequired
 isUnavailable
 :
 PropTypes
