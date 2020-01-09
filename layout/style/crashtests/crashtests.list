@@ -1387,6 +1387,16 @@ html
 #
 Bug
 1525117
+load
+scale
+-
+on
+-
+block
+-
+continuation
+.
+html
 skip
 -
 if
