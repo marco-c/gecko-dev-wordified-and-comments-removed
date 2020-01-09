@@ -87,13 +87,9 @@ CanonicalBrowsingContext
 BrowsingContext
 *
 aParent
-BrowsingContext
+BrowsingContextGroup
 *
-aOpener
-const
-nsAString
-&
-aName
+aGroup
 uint64_t
 aBrowsingContextId
 uint64_t
@@ -108,8 +104,7 @@ aType
 BrowsingContext
 (
 aParent
-aOpener
-aName
+aGroup
 aBrowsingContextId
 aType
 )
