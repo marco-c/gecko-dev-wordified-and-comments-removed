@@ -4112,7 +4112,6 @@ if
 let
 Some
 (
-mut
 built_scene
 )
 =
