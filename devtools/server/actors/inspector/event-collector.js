@@ -2021,6 +2021,9 @@ const
 listener
 =
 prop
+&
+&
+prop
 .
 __reactBoundMethod
 |
@@ -2173,6 +2176,14 @@ memoizedProps
 ;
 }
 return
+value
+&
+&
+value
+.
+_currentElement
+&
+&
 value
 .
 _currentElement
