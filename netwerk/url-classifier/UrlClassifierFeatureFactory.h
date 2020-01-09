@@ -151,6 +151,14 @@ aEventCode
 )
 ;
 static
+uint32_t
+GetClassifierBlockingEventCode
+(
+nsresult
+aErrorCode
+)
+;
+static
 const
 char
 *

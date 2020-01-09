@@ -2864,3 +2864,13 @@ is
 harmful
 "
 )
+XPC_MSG_DEF
+(
+NS_ERROR_FINGERPRINTING_URI
+"
+The
+URI
+is
+fingerprinting
+"
+)

@@ -602,7 +602,7 @@ UrlClassifierCommon
 SetBlockedContent
 (
 aChannel
-NS_ERROR_TRACKING_URI
+NS_ERROR_FINGERPRINTING_URI
 aList
 EmptyCString
 (
@@ -657,7 +657,7 @@ httpChannel
 >
 CancelByChannelClassifier
 (
-NS_ERROR_TRACKING_URI
+NS_ERROR_FINGERPRINTING_URI
 )
 ;
 }
@@ -671,7 +671,7 @@ aChannel
 >
 Cancel
 (
-NS_ERROR_TRACKING_URI
+NS_ERROR_FINGERPRINTING_URI
 )
 ;
 }
