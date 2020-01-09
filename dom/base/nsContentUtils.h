@@ -6864,16 +6864,6 @@ GetUserIsInteracting
 ;
 static
 bool
-ShowInputPlaceholderOnFocus
-(
-)
-{
-return
-sShowInputPlaceholderOnFocus
-;
-}
-static
-bool
 AutoFocusEnabled
 (
 )
@@ -7534,10 +7524,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sShowInputPlaceholderOnFocus
 ;
 static
 bool
