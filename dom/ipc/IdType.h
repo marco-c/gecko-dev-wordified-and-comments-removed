@@ -153,13 +153,6 @@ ContentParent
 >
 ContentParentId
 ;
-typedef
-IdType
-<
-BrowsingContext
->
-BrowsingContextId
-;
 }
 }
 namespace
