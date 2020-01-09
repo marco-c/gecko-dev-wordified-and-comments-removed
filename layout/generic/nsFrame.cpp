@@ -15007,6 +15007,7 @@ aBuilder
 this
 visibleRect
 dirtyRect
+isTransformed
 )
 ;
 enum
@@ -17079,6 +17080,7 @@ aBuilder
 aChild
 visible
 dirty
+false
 )
 ;
 CheckForApzAwareEventHandlers
