@@ -23,9 +23,10 @@ const
 LSValue
 sVoidLSValue
 (
-VoidString
+VoidCString
 (
 )
+0
 )
 ;
 return

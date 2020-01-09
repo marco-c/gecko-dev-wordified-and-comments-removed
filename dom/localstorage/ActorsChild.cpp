@@ -499,7 +499,15 @@ nullptr
 principal
 aKey
 aOldValue
+.
+AsString
+(
+)
 aNewValue
+.
+AsString
+(
+)
 kLocalStorageType
 aDocumentURI
 !
