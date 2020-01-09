@@ -4928,7 +4928,7 @@ mType
 TRRTYPE_TXT
 )
 {
-nsAutoPtr
+RefPtr
 <
 AddrInfo
 >
@@ -5056,10 +5056,6 @@ CompleteLookup
 mRec
 NS_OK
 ai
-.
-forget
-(
-)
 mPB
 mOriginSuffix
 )
@@ -5142,8 +5138,10 @@ mPB
 }
 else
 {
+RefPtr
+<
 AddrInfo
-*
+>
 ai
 =
 new
