@@ -1010,16 +1010,6 @@ GetService
 (
 )
 )
-mLastResizeEventVisibleArea
-(
-nsRect
-(
-nscoord_MIN
-nscoord_MIN
-NS_UNCONSTRAINEDSIZE
-NS_UNCONSTRAINEDSIZE
-)
-)
 mPageSize
 (
 -
