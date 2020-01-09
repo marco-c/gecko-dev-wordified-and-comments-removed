@@ -136,6 +136,11 @@ FileDescriptorArray
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 M
 *
 aManager

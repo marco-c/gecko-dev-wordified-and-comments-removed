@@ -68,6 +68,11 @@ FileDescriptor
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 mozilla
 :
 :
@@ -97,6 +102,11 @@ FileDescriptor
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 PBackgroundChild
 *
 aManager
@@ -120,6 +130,11 @@ FileDescriptor
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 mozilla
 :
 :
@@ -149,6 +164,11 @@ FileDescriptor
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 PBackgroundParent
 *
 aManager

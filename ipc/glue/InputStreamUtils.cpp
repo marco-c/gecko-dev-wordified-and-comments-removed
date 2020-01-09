@@ -272,6 +272,11 @@ FileDescriptor
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 M
 *
 aManager
@@ -325,6 +330,8 @@ Serialize
 aParams
 aFileDescriptors
 aDelayedStart
+aMaxSize
+aSizeUsed
 aManager
 )
 ;
@@ -550,6 +557,11 @@ FileDescriptor
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 nsIContentChild
 *
 aManager
@@ -561,6 +573,8 @@ aInputStream
 aParams
 aFileDescriptors
 aDelayedStart
+aMaxSize
+aSizeUsed
 aManager
 )
 ;
@@ -585,6 +599,11 @@ FileDescriptor
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 PBackgroundChild
 *
 aManager
@@ -596,6 +615,8 @@ aInputStream
 aParams
 aFileDescriptors
 aDelayedStart
+aMaxSize
+aSizeUsed
 aManager
 )
 ;
@@ -620,6 +641,11 @@ FileDescriptor
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 nsIContentParent
 *
 aManager
@@ -631,6 +657,8 @@ aInputStream
 aParams
 aFileDescriptors
 aDelayedStart
+aMaxSize
+aSizeUsed
 aManager
 )
 ;
@@ -655,6 +683,11 @@ FileDescriptor
 aFileDescriptors
 bool
 aDelayedStart
+uint32_t
+aMaxSize
+uint32_t
+*
+aSizeUsed
 PBackgroundParent
 *
 aManager
@@ -666,6 +699,8 @@ aInputStream
 aParams
 aFileDescriptors
 aDelayedStart
+aMaxSize
+aSizeUsed
 aManager
 )
 ;
