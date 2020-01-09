@@ -240,9 +240,9 @@ const
 wr
 :
 :
-WrClipId
+WrSpatialId
 &
-aClipId
+aSpatialId
 )
 ;
 void
