@@ -149,7 +149,7 @@ div
 {
 className
 :
-declaration
+changes__declaration
 {
 className
 }
@@ -163,7 +163,7 @@ span
 className
 :
 "
-declaration
+changes__declaration
 -
 name
 theme
@@ -186,7 +186,7 @@ span
 className
 :
 "
-declaration
+changes__declaration
 -
 value
 theme

@@ -142,14 +142,8 @@ panelDoc
 .
 querySelectorAll
 (
-#
-sidebar
--
-panel
--
-changes
 .
-declaration
+changes__declaration
 {
 selector
 }
@@ -200,7 +194,7 @@ querySelector
 (
 "
 .
-declaration
+changes__declaration
 -
 name
 "
@@ -215,7 +209,7 @@ querySelector
 (
 "
 .
-declaration
+changes__declaration
 -
 value
 "
