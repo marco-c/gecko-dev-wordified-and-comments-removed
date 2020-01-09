@@ -412,14 +412,6 @@ nsACString
 aFileExt
 )
 ;
-bool
-GetClipboardText
-(
-nsAString
-&
-aText
-)
-;
 int
 GetScreenDepth
 (
