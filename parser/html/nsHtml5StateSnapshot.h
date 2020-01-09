@@ -172,10 +172,6 @@ nsIContentHandle
 *
 headPointer
 ;
-nsIContentHandle
-*
-deepTreeSurrogateParent
-;
 int32_t
 mode
 ;
@@ -221,9 +217,6 @@ formPointer
 nsIContentHandle
 *
 headPointer
-nsIContentHandle
-*
-deepTreeSurrogateParent
 int32_t
 mode
 int32_t
@@ -278,13 +271,6 @@ override
 nsIContentHandle
 *
 getHeadPointer
-(
-)
-override
-;
-nsIContentHandle
-*
-getDeepTreeSurrogateParent
 (
 )
 override
