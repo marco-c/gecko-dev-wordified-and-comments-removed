@@ -110,6 +110,16 @@ Localization
 jsm
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+FluentSyntax
+.
+jsm
+'
+]
 XPIDL_SOURCES
 +
 =
