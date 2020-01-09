@@ -453,11 +453,6 @@ HttpInfo
 cpp
 '
 '
-HttpTrafficAnalyzer
-.
-cpp
-'
-'
 InterceptedChannel
 .
 cpp
