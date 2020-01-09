@@ -1148,7 +1148,7 @@ nsIContent
 *
 widgetElm
 =
-BindingParent
+BindingOrWidgetParent
 (
 )
 ;
@@ -1363,7 +1363,7 @@ nsIContent
 *
 widgetElm
 =
-BindingParent
+BindingOrWidgetParent
 (
 )
 ;
@@ -1544,7 +1544,7 @@ nsIContent
 *
 widgetElm
 =
-BindingParent
+BindingOrWidgetParent
 (
 )
 ;
@@ -1797,7 +1797,7 @@ HASPOPUP
 if
 (
 !
-BindingParent
+BindingOrWidgetParent
 (
 )
 &
