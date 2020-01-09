@@ -41,8 +41,12 @@ DeleteSubprocess
 (
 )
 {
-delete
 gSubprocess
+-
+>
+Destroy
+(
+)
 ;
 gSubprocess
 =

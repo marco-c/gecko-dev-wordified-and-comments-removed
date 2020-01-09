@@ -90,8 +90,12 @@ lock
 mutex
 )
 ;
-delete
 gSubprocess
+-
+>
+Destroy
+(
+)
 ;
 gSubprocess
 =

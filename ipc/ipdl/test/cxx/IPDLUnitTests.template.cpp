@@ -879,8 +879,16 @@ MessageLoop
 uiLoop
 )
 {
-delete
 gSubprocess
+-
+>
+Destroy
+(
+)
+;
+gSubprocess
+=
+nullptr
 ;
 uiLoop
 -

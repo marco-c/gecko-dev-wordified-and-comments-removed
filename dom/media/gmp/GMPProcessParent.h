@@ -99,11 +99,6 @@ string
 aGMPPath
 )
 ;
-~
-GMPProcessParent
-(
-)
-;
 bool
 Launch
 (
@@ -173,6 +168,11 @@ GetChildProcessHandle
 ;
 private
 :
+~
+GMPProcessParent
+(
+)
+;
 void
 DoDelete
 (

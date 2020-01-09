@@ -118,11 +118,6 @@ Listener
 listener
 )
 ;
-~
-RDDProcessHost
-(
-)
-;
 bool
 Launch
 (
@@ -212,6 +207,11 @@ KillProcess
 ;
 private
 :
+~
+RDDProcessHost
+(
+)
+;
 void
 OnChannelConnectedTask
 (
@@ -248,8 +248,6 @@ DestroyProcess
 (
 )
 ;
-private
-:
 DISALLOW_COPY_AND_ASSIGN
 (
 RDDProcessHost

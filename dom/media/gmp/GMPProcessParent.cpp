@@ -518,8 +518,9 @@ Run
 )
 ;
 }
-delete
-this
+Destroy
+(
+)
 ;
 }
 }

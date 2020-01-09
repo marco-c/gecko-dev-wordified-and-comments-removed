@@ -40,13 +40,13 @@ IPDLUnitTestSubprocess
 (
 )
 ;
+private
+:
 ~
 IPDLUnitTestSubprocess
 (
 )
 ;
-private
-:
 DISALLOW_EVIL_CONSTRUCTORS
 (
 IPDLUnitTestSubprocess

@@ -172,6 +172,7 @@ mLaunchSucceeded
 ;
 class
 PluginProcessParent
+final
 :
 public
 mozilla
@@ -194,11 +195,6 @@ std
 string
 &
 aPluginFilePath
-)
-;
-~
-PluginProcessParent
-(
 )
 ;
 bool
@@ -224,11 +220,6 @@ bool
 aIsSandboxLoggingEnabled
 =
 false
-)
-;
-void
-Delete
-(
 )
 ;
 virtual
@@ -313,6 +304,11 @@ procId
 ;
 private
 :
+~
+PluginProcessParent
+(
+)
+;
 void
 RunLaunchCompleteTask
 (
