@@ -5286,8 +5286,6 @@ nsHTMLDocument
 :
 Open
 (
-JSContext
-*
 const
 nsAString
 &
@@ -5449,9 +5447,6 @@ nsHTMLDocument
 :
 Open
 (
-JSContext
-*
-cx
 const
 Optional
 <
@@ -6275,9 +6270,6 @@ nsHTMLDocument
 :
 WriteCommon
 (
-JSContext
-*
-cx
 const
 Sequence
 <
@@ -6309,7 +6301,6 @@ Length
 {
 WriteCommon
 (
-cx
 aText
 [
 0
@@ -6357,7 +6348,6 @@ i
 }
 WriteCommon
 (
-cx
 text
 aNewlineTerminate
 rv
@@ -6371,9 +6361,6 @@ nsHTMLDocument
 :
 WriteCommon
 (
-JSContext
-*
-cx
 const
 nsAString
 &
@@ -6604,7 +6591,6 @@ return
 }
 Open
 (
-cx
 Optional
 <
 nsAString
@@ -6633,26 +6619,6 @@ mParser
 return
 ;
 }
-MOZ_ASSERT
-(
-!
-JS_IsExceptionPending
-(
-cx
-)
-"
-Open
-(
-)
-succeeded
-but
-JS
-exception
-is
-pending
-"
-)
-;
 }
 static
 NS_NAMED_LITERAL_STRING
@@ -6797,9 +6763,6 @@ nsHTMLDocument
 :
 Write
 (
-JSContext
-*
-cx
 const
 Sequence
 <
@@ -6814,7 +6777,6 @@ rv
 {
 WriteCommon
 (
-cx
 aText
 false
 rv
@@ -6827,9 +6789,6 @@ nsHTMLDocument
 :
 Writeln
 (
-JSContext
-*
-cx
 const
 Sequence
 <
@@ -6844,7 +6803,6 @@ rv
 {
 WriteCommon
 (
-cx
 aText
 true
 rv
