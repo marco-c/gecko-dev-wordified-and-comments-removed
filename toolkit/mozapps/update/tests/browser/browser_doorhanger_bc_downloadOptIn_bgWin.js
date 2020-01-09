@@ -69,7 +69,7 @@ function
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
