@@ -5098,6 +5098,9 @@ wr
 WrYuvColorSpace
 ToWrYuvColorSpace
 (
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 )
@@ -5108,6 +5111,9 @@ aYUVColorSpace
 )
 {
 case
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -5123,6 +5129,9 @@ WrYuvColorSpace
 Rec601
 ;
 case
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -5138,6 +5147,9 @@ WrYuvColorSpace
 Rec709
 ;
 case
+gfx
+:
+:
 YUVColorSpace
 :
 :

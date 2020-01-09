@@ -2263,6 +2263,9 @@ b
 .
 mYUVColorSpace
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -2279,6 +2282,9 @@ b
 .
 mYUVColorSpace
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -2296,6 +2302,9 @@ b
 .
 mYUVColorSpace
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -2327,6 +2336,9 @@ b
 .
 mYUVColorSpace
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :

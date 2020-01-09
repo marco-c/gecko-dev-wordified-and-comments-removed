@@ -91,6 +91,16 @@ v
 v
 ;
 }
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+YUVColorSpace
+YUVColorSpace
+;
 struct
 YUVBuferIter
 {
@@ -945,9 +955,6 @@ YUVBuferIter
 iter
 uint32
 src_fourcc
-mozilla
-:
-:
 YUVColorSpace
 yuv_color_space
 )
@@ -994,9 +1001,6 @@ yuv_color_space
 )
 {
 case
-mozilla
-:
-:
 YUVColorSpace
 :
 :
@@ -1012,9 +1016,6 @@ kYuv2020Constants
 break
 ;
 case
-mozilla
-:
-:
 YUVColorSpace
 :
 :
@@ -1169,9 +1170,6 @@ FilterMode
 filtering
 uint32
 src_fourcc
-mozilla
-:
-:
 YUVColorSpace
 yuv_color_space
 )
@@ -1867,9 +1865,6 @@ FilterMode
 filtering
 uint32
 src_fourcc
-mozilla
-:
-:
 YUVColorSpace
 yuv_color_space
 )
@@ -2476,9 +2471,6 @@ FilterMode
 filtering
 uint32
 src_fourcc
-mozilla
-:
-:
 YUVColorSpace
 yuv_color_space
 )
@@ -3373,9 +3365,6 @@ FilterMode
 filtering
 uint32
 src_fourcc
-mozilla
-:
-:
 YUVColorSpace
 yuv_color_space
 )
@@ -4271,9 +4260,6 @@ int
 dy
 uint32
 src_fourcc
-mozilla
-:
-:
 YUVColorSpace
 yuv_color_space
 )
@@ -4627,9 +4613,6 @@ int
 dst_height
 uint32
 src_fourcc
-mozilla
-:
-:
 YUVColorSpace
 yuv_color_space
 )
@@ -4768,9 +4751,6 @@ FilterMode
 filtering
 uint32
 src_fourcc
-mozilla
-:
-:
 YUVColorSpace
 yuv_color_space
 )
@@ -5141,9 +5121,6 @@ int
 src_stride_v
 uint32
 src_fourcc
-mozilla
-:
-:
 YUVColorSpace
 yuv_color_space
 int

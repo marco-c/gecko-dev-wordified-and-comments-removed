@@ -153,6 +153,9 @@ GetAsSurface
 override
 ;
 virtual
+gfx
+:
+:
 YUVColorSpace
 GetYUVColorSpace
 (

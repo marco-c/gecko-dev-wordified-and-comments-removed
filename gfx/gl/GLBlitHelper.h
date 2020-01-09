@@ -426,6 +426,9 @@ final
 Mat3
 texMatrix1
 ;
+gfx
+:
+:
 YUVColorSpace
 colorSpace
 ;
@@ -1011,6 +1014,9 @@ IntSize
 &
 uvSize
 const
+gfx
+:
+:
 YUVColorSpace
 colorSpace
 const

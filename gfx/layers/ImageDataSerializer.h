@@ -243,6 +243,9 @@ aDescriptor
 ;
 Maybe
 <
+gfx
+:
+:
 YUVColorSpace
 >
 YUVColorSpaceFromBufferDescriptor

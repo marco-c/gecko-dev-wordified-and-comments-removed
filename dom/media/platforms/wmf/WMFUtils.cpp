@@ -316,6 +316,9 @@ return
 hr
 ;
 }
+gfx
+:
+:
 YUVColorSpace
 GetYUVColorSpace
 (
@@ -346,6 +349,9 @@ SUCCEEDED
 (
 hr
 )
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -364,6 +370,9 @@ case
 MFVideoTransferMatrix_BT2020_12
 :
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -373,6 +382,9 @@ case
 MFVideoTransferMatrix_BT709
 :
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -384,6 +396,9 @@ MFVideoTransferMatrix_BT601
 default
 :
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :

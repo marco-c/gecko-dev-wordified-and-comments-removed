@@ -389,9 +389,6 @@ yuv_color_space
 )
 {
 case
-mozilla
-:
-:
 YUVColorSpace
 :
 :
@@ -407,9 +404,6 @@ U444ToARGB
 break
 ;
 case
-mozilla
-:
-:
 YUVColorSpace
 :
 :
@@ -518,9 +512,6 @@ yuv_color_space
 )
 {
 case
-mozilla
-:
-:
 YUVColorSpace
 :
 :
@@ -536,9 +527,6 @@ U422ToARGB
 break
 ;
 case
-mozilla
-:
-:
 YUVColorSpace
 :
 :
@@ -658,9 +646,6 @@ yuv_color_space
 )
 {
 case
-mozilla
-:
-:
 YUVColorSpace
 :
 :
@@ -676,9 +661,6 @@ U420ToARGB
 break
 ;
 case
-mozilla
-:
-:
 YUVColorSpace
 :
 :

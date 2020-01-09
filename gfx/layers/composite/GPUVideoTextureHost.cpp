@@ -274,6 +274,9 @@ aProvider
 ;
 }
 }
+gfx
+:
+:
 YUVColorSpace
 GPUVideoTextureHost
 :
@@ -298,6 +301,9 @@ GetYUVColorSpace
 ;
 }
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :

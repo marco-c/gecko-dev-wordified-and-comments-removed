@@ -1280,6 +1280,9 @@ f
 void
 SetYUVColorSpace
 (
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 )

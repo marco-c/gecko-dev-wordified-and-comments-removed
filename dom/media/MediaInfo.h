@@ -1223,9 +1223,15 @@ ColorDepth
 :
 COLOR_8
 ;
+gfx
+:
+:
 YUVColorSpace
 mColorSpace
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :

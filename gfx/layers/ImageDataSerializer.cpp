@@ -930,6 +930,9 @@ CbCrSizeFromBufferDescriptor
 }
 Maybe
 <
+gfx
+:
+:
 YUVColorSpace
 >
 YUVColorSpaceFromBufferDescriptor

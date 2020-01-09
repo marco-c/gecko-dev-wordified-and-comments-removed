@@ -106,6 +106,9 @@ uint32_t
 aOutStride
 )
 ;
+gfx
+:
+:
 YUVColorSpace
 GetYUVColorSpace
 (

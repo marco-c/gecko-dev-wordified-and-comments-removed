@@ -14,7 +14,11 @@ h
 #
 include
 "
-ImageTypes
+mozilla
+/
+gfx
+/
+Types
 .
 h
 "

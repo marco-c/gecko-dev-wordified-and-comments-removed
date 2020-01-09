@@ -129,6 +129,9 @@ nullptr
 ;
 }
 virtual
+gfx
+:
+:
 YUVColorSpace
 GetYUVColorSpace
 (

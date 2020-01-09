@@ -1443,6 +1443,9 @@ const
 auto
 colorSpace
 =
+gfx
+:
+:
 YUVColorSpace
 :
 :
@@ -1823,6 +1826,9 @@ IntSize
 &
 uvSize
 const
+gfx
+:
+:
 YUVColorSpace
 colorSpace
 const

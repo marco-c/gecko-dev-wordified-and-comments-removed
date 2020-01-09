@@ -4484,6 +4484,9 @@ return
 mFormat
 ;
 }
+gfx
+:
+:
 YUVColorSpace
 BufferTextureHost
 :
@@ -4527,6 +4530,9 @@ yUVColorSpace
 ;
 }
 return
+gfx
+:
+:
 YUVColorSpace
 :
 :

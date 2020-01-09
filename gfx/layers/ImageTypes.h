@@ -44,16 +44,6 @@ TOP_BOTTOM
 MAX
 }
 ;
-enum
-class
-YUVColorSpace
-{
-BT601
-BT709
-BT2020
-UNKNOWN
-}
-;
 namespace
 layers
 {
