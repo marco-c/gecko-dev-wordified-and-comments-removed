@@ -2905,6 +2905,14 @@ aEvent
 )
 ;
 bool
+PrepareToDispatchContextMenuEvent
+(
+WidgetEvent
+*
+aEvent
+)
+;
+bool
 AdjustContextMenuKeyEvent
 (
 WidgetMouseEvent
