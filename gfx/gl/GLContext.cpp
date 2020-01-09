@@ -6011,10 +6011,6 @@ true
 }
 #
 endif
-mMaxTextureImageSize
-=
-mMaxTextureSize
-;
 if
 (
 IsSupported

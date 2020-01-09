@@ -12597,15 +12597,6 @@ char
 extension
 )
 ;
-GLint
-GetMaxTextureImageSize
-(
-)
-{
-return
-mMaxTextureImageSize
-;
-}
 public
 :
 std
@@ -13217,11 +13208,6 @@ mMaxTextureSize
 ;
 GLint
 mMaxCubeMapTextureSize
-=
-0
-;
-GLint
-mMaxTextureImageSize
 =
 0
 ;
