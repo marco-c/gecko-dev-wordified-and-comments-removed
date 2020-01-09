@@ -225,6 +225,15 @@ manifest
 ini
 '
 '
+mozsystemmonitor
+/
+tests
+/
+manifest
+.
+ini
+'
+'
 moztest
 /
 tests

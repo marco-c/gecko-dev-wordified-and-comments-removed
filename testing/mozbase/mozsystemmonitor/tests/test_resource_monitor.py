@@ -862,7 +862,10 @@ self
 assertIsInstance
 (
 v
+(
 long
+int
+)
 )
         
 v
