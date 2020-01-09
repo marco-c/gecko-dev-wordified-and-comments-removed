@@ -2542,7 +2542,7 @@ result
 .
 payload
 .
-url
+displayUrl
 |
 |
 "
@@ -2559,7 +2559,7 @@ result
 .
 payloadHighlights
 .
-url
+displayUrl
 |
 |
 [
