@@ -1162,10 +1162,11 @@ this
 .
 mm
 "
-scroll
+mozvisualscroll
 "
 this
 false
+true
 )
 ;
 this
