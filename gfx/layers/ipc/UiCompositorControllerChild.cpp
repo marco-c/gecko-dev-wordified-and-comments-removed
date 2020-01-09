@@ -779,6 +779,10 @@ if
 mIsOpen
 )
 {
+mWidget
+=
+nullptr
+;
 PUiCompositorControllerChild
 :
 :
