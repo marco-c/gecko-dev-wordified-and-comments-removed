@@ -127,10 +127,15 @@ nsNSSDialogs
 .
 cpp
 '
+]
+XPCOM_MANIFESTS
++
+=
+[
 '
-nsPKIModule
+components
 .
-cpp
+conf
 '
 ]
 LOCAL_INCLUDES

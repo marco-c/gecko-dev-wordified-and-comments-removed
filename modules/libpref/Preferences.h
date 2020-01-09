@@ -135,6 +135,11 @@ nsPrefBranch
 namespace
 mozilla
 {
+void
+UnloadPrefsModule
+(
+)
+;
 template
 <
 typename
