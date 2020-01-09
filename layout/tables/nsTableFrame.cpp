@@ -112,6 +112,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsCellMap
 .
 h

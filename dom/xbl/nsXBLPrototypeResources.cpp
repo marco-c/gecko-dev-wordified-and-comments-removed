@@ -19,6 +19,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h

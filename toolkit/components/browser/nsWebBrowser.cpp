@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIURIContentListener
 .
 h

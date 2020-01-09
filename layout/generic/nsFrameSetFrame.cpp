@@ -129,6 +129,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

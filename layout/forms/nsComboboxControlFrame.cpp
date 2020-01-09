@@ -93,6 +93,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsNameSpaceManager
 .
 h

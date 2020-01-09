@@ -33,6 +33,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsXBLService
 .
 h

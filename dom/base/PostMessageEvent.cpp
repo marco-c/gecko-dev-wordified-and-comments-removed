@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

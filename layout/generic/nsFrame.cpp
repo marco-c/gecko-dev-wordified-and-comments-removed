@@ -276,6 +276,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsIScrollableFrame
 .
 h

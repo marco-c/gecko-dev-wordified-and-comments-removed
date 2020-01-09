@@ -267,13 +267,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsISupportsPrimitives
 .
 h

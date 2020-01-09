@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsITableCellLayout
 .
 h

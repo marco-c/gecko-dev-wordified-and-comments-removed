@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
