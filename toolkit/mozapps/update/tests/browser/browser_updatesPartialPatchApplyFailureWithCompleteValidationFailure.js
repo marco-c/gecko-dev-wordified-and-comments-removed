@@ -15,7 +15,7 @@ set
 :
 [
 [
-PREF_APP_UPDATE_DOWNLOADPROMPTMAXATTEMPTS
+PREF_APP_UPDATE_DOWNLOADPROMPT_MAXATTEMPTS
 0
 ]
 ]
@@ -111,6 +111,7 @@ beforeClick
 {
 checkWhatsNewLink
 (
+window
 "
 update
 -

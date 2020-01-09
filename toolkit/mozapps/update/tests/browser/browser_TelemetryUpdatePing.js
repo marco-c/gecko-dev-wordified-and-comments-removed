@@ -101,6 +101,7 @@ beforeClick
 {
 checkWhatsNewLink
 (
+window
 "
 update
 -

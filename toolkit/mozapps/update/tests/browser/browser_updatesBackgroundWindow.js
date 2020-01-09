@@ -189,6 +189,7 @@ popupShownPromise
 ;
 checkWhatsNewLink
 (
+window
 "
 update
 -

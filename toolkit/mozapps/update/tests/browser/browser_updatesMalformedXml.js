@@ -80,6 +80,7 @@ beforeClick
 {
 checkWhatsNewLink
 (
+window
 "
 update
 -

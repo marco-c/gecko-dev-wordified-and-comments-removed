@@ -1186,6 +1186,7 @@ button
 function
 checkWhatsNewLink
 (
+win
 id
 url
 )
@@ -1193,6 +1194,8 @@ url
 let
 whatsNewLink
 =
+win
+.
 document
 .
 getElementById

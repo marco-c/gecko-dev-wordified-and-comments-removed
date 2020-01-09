@@ -68,6 +68,7 @@ beforeClick
 {
 checkWhatsNewLink
 (
+window
 "
 update
 -
