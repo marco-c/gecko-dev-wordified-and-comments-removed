@@ -4277,6 +4277,8 @@ ResumeMode
 resumeMode
 MutableHandleValue
 value
+MutableHandleSavedFrame
+exnStack
 )
 ;
 MOZ_MUST_USE
@@ -4292,6 +4294,9 @@ const
 Value
 &
 value
+SavedFrame
+*
+exnStack
 MutableHandleValue
 result
 )
@@ -5071,6 +5076,8 @@ ResumeMode
 resumeMode
 MutableHandleValue
 vp
+HandleSavedFrame
+exnStack
 )
 =
 0
@@ -5134,6 +5141,8 @@ ResumeMode
 resumeMode
 MutableHandleValue
 vp
+HandleSavedFrame
+exnStack
 )
 override
 ;
@@ -5397,6 +5406,8 @@ ResumeMode
 resumeMode
 MutableHandleValue
 value
+MutableHandleSavedFrame
+exnStack
 )
 ;
 bool
@@ -6356,6 +6367,8 @@ ResumeMode
 resumeMode
 MutableHandleValue
 value
+MutableHandleSavedFrame
+exnStack
 )
 ;
 static
