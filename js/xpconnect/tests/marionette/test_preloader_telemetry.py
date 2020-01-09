@@ -165,6 +165,7 @@ self
 wait_for_file_change
 (
 start_time
+                                  
 "
 {
 }
@@ -187,6 +188,7 @@ self
 wait_for_file_change
 (
 start_time
+                                  
 "
 {
 }
@@ -395,7 +397,7 @@ expires
 :
                     
 raise
-Error
+Exception
 (
 "
 Never
