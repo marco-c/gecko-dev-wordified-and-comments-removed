@@ -321,6 +321,9 @@ browser
 allowChromeProcess
 :
 false
+keepAlive
+:
+false
 get
 rootlessServer
 (

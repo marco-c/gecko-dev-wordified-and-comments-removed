@@ -723,6 +723,11 @@ DebuggerServer
 hasConnection
 (
 )
+|
+|
+DebuggerServer
+.
+keepAlive
 )
 {
 return
