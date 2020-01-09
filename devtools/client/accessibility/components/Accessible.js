@@ -316,7 +316,7 @@ node_inspected_count
 const
 TREE_DEPTH_PADDING_INCREMENT
 =
-15
+20
 ;
 class
 AccessiblePropertyClass

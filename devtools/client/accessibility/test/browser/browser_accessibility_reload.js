@@ -138,7 +138,7 @@ is
 expanded
 .
 "
-action
+setup
 :
 async
 (
@@ -226,7 +226,7 @@ the
 page
 .
 "
-action
+setup
 :
 async
 (
@@ -292,7 +292,7 @@ new
 page
 .
 "
-action
+setup
 :
 async
 (

@@ -179,7 +179,7 @@ tree
 node
 .
 "
-action
+setup
 :
 async
 (
@@ -252,7 +252,7 @@ tree
 node
 .
 "
-action
+setup
 :
 async
 (
@@ -359,7 +359,7 @@ containing
 document
 .
 "
-action
+setup
 :
 async
 (
