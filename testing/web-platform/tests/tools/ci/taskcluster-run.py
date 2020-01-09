@@ -392,6 +392,16 @@ no
 -
 headless
 "
+        
+"
+-
+-
+verify
+-
+log
+-
+full
+"
     
 ]
     
