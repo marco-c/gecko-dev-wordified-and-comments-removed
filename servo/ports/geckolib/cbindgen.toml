@@ -400,7 +400,13 @@ OverscrollBehavior
 ScrollSnapAlign
 "
 "
+ScrollSnapAxis
+"
+"
 ScrollSnapStrictness
+"
+"
+ScrollSnapType
 "
 "
 OverflowAnchor

@@ -416,7 +416,9 @@ box_
 :
 {
 ScrollSnapAlign
+ScrollSnapAxis
 ScrollSnapStrictness
+ScrollSnapType
 }
 ;
 pub

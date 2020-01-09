@@ -18938,6 +18938,12 @@ StyleDisplay
 return
 ScrollStyles
 (
+mOuter
+-
+>
+GetWritingMode
+(
+)
 disp
 )
 ;

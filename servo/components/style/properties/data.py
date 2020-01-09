@@ -2393,7 +2393,15 @@ ScrollSnapAlign
 "
                 
 "
+ScrollSnapAxis
+"
+                
+"
 ScrollSnapStrictness
+"
+                
+"
+ScrollSnapType
 "
                 
 "

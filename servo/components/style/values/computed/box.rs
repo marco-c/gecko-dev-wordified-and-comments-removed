@@ -178,6 +178,7 @@ box_
 {
 OverflowAnchor
 OverflowClipBox
+OverscrollBehavior
 }
 ;
 pub
@@ -195,9 +196,10 @@ box_
 :
 :
 {
-OverscrollBehavior
 ScrollSnapAlign
+ScrollSnapAxis
 ScrollSnapStrictness
+ScrollSnapType
 }
 ;
 pub
