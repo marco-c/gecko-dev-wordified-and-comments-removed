@@ -728,6 +728,11 @@ concealedSamples
 unsigned
 long
 long
+silentConcealedSamples
+;
+unsigned
+long
+long
 concealmentEvents
 ;
 }
