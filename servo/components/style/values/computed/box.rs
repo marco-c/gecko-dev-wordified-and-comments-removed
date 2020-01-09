@@ -304,6 +304,7 @@ Clone
 Copy
 Debug
 Eq
+FromPrimitive
 Hash
 MallocSizeOf
 Parse
@@ -576,6 +577,7 @@ Clone
 Copy
 Debug
 Eq
+FromPrimitive
 Hash
 MallocSizeOf
 Parse
