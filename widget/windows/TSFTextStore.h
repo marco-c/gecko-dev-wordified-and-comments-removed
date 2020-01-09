@@ -3883,9 +3883,6 @@ bool
 mDeferClearingContentForTSF
 ;
 bool
-mNativeCaretIsCreated
-;
-bool
 mDeferNotifyingTSF
 ;
 bool
