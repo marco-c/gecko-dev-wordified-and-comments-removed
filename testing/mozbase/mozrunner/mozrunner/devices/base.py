@@ -1260,6 +1260,9 @@ self
 app_ctx
 .
 remote_profile
+force
+=
+True
 recursive
 =
 True
