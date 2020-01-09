@@ -115,7 +115,7 @@ createInstance
 (
 Ci
 .
-nsISupportsString
+nsIProperty
 )
 ;
 Assert
@@ -124,7 +124,7 @@ equal
 (
 svc
 .
-data
+name
 "
 main
 process
@@ -187,7 +187,7 @@ createInstance
 (
 Ci
 .
-nsISupportsString
+nsIProperty
 )
 ;
 Assert
@@ -196,7 +196,7 @@ equal
 (
 svc
 .
-data
+name
 "
 child
 process
