@@ -3,6 +3,10 @@ __future__
 import
 absolute_import
 from
+marionette_driver
+import
+By
+from
 marionette_harness
 import
 MarionetteTestCase
@@ -30,6 +34,17 @@ self
 .
 setUp
 (
+)
+        
+self
+.
+marionette
+.
+set_context
+(
+'
+chrome
+'
 )
     
 def
@@ -62,25 +77,43 @@ self
 )
 :
         
-with
+def
+open_with_menu
+(
+)
+:
+            
+menu
+=
 self
 .
 marionette
 .
-using_context
+find_element
 (
-"
-chrome
-"
+By
+.
+ID
+'
+aboutName
+'
 )
-:
             
+menu
+.
+click
+(
+)
+        
 new_window
 =
 self
 .
 open_window
 (
+trigger
+=
+open_with_menu
 )
         
 self
@@ -116,12 +149,6 @@ closing
 the
 chrome
 window
-in
-content
-'
-                                          
-'
-context
 '
 )
             
