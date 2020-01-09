@@ -531,9 +531,9 @@ props
 usbRuntimes
 ]
 ;
-return
-!
-!
+const
+runtime
+=
 runtimes
 .
 find
@@ -549,6 +549,14 @@ id
 =
 id
 )
+;
+return
+runtime
+&
+&
+runtime
+.
+runtimeDetails
 ;
 }
 ;
