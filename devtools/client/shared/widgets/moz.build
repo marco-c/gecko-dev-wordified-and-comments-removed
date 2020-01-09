@@ -171,11 +171,6 @@ SideMenuWidget
 jsm
 '
 '
-SimpleListWidget
-.
-jsm
-'
-'
 Spectrum
 .
 js
