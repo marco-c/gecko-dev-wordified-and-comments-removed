@@ -105,7 +105,7 @@ neon
 )
 ]
 use
-simd
+packed_simd
 :
 :
 u16x8
