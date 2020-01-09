@@ -496,6 +496,10 @@ mmc
 "
 "
 .
+mobileconfig
+"
+"
+.
 mof
 "
 "

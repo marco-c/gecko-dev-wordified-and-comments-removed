@@ -963,6 +963,10 @@ mmc
 "
 "
 .
+mobileconfig
+"
+"
+.
 mof
 "
 "
