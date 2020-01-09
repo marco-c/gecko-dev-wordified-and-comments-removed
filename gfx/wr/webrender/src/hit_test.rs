@@ -9,7 +9,6 @@ HitTestFlags
 HitTestItem
 HitTestResult
 ItemTag
-LayoutPoint
 }
 ;
 use
@@ -18,10 +17,17 @@ api
 :
 {
 LayoutPrimitiveInfo
-LayoutRect
 PipelineId
-WorldPoint
 }
+;
+use
+api
+:
+:
+units
+:
+:
+*
 ;
 use
 clip
