@@ -41767,8 +41767,6 @@ showDescription
 4000
 :
 1500
-+
-120
 ;
 this
 .
@@ -41816,6 +41814,8 @@ true
 ;
 }
 DURATION
++
+120
 )
 ;
 }

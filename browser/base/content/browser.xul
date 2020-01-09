@@ -5665,6 +5665,17 @@ hbox
 >
 <
 vbox
+id
+=
+"
+confirmation
+-
+hint
+-
+message
+-
+container
+"
 >
 <
 label
