@@ -484,15 +484,6 @@ buffer
 }
 ;
 union
-OptionalTransform
-{
-Matrix4x4
-;
-void_t
-;
-}
-;
-union
 OptionalOpacity
 {
 float
