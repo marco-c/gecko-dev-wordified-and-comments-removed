@@ -103,7 +103,7 @@ MakeUnique
 InnerQueueT
 >
 (
-EventPriority
+EventQueuePriority
 :
 :
 High
@@ -113,7 +113,7 @@ MakeUnique
 InnerQueueT
 >
 (
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -123,7 +123,7 @@ MakeUnique
 InnerQueueT
 >
 (
-EventPriority
+EventQueuePriority
 :
 :
 Normal
@@ -133,7 +133,7 @@ MakeUnique
 InnerQueueT
 >
 (
-EventPriority
+EventQueuePriority
 :
 :
 Idle

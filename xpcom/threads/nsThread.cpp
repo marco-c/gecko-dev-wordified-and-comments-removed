@@ -2721,7 +2721,7 @@ do_AddRef
 (
 startup
 )
-EventPriority
+EventQueuePriority
 :
 :
 Normal
@@ -3336,7 +3336,7 @@ event
 forget
 (
 )
-EventPriority
+EventQueuePriority
 :
 :
 Normal
@@ -3724,7 +3724,7 @@ event
 forget
 (
 )
-EventPriority
+EventQueuePriority
 :
 :
 Idle
@@ -4005,7 +4005,7 @@ aEvent
 nsACString
 &
 aName
-EventPriority
+EventQueuePriority
 aPriority
 )
 {
@@ -4123,7 +4123,7 @@ labeled
 &
 aPriority
 >
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -4550,7 +4550,7 @@ rv
 NS_OK
 ;
 {
-EventPriority
+EventQueuePriority
 priority
 ;
 nsCOMPtr
@@ -4835,7 +4835,7 @@ if
 priority
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -4981,7 +4981,7 @@ if
 priority
 !
 =
-EventPriority
+EventQueuePriority
 :
 :
 Idle
@@ -5012,7 +5012,7 @@ profiler_add_marker
 priority
 !
 =
-EventPriority
+EventQueuePriority
 :
 :
 Idle

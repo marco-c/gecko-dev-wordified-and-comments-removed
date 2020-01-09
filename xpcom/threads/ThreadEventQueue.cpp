@@ -111,7 +111,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 )
 final
@@ -309,7 +309,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 )
 {
@@ -349,7 +349,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 NestedSink
 *
@@ -440,7 +440,7 @@ PRIORITY_HIGH
 {
 aPriority
 =
-EventPriority
+EventQueuePriority
 :
 :
 High
@@ -460,7 +460,7 @@ PRIORITY_INPUT
 {
 aPriority
 =
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -583,7 +583,7 @@ GetEvent
 (
 bool
 aMayWait
-EventPriority
+EventQueuePriority
 *
 aPriority
 )
@@ -1199,7 +1199,7 @@ nsIRunnable
 >
 event
 ;
-EventPriority
+EventQueuePriority
 prio
 ;
 while

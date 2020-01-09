@@ -39,7 +39,7 @@ mozilla
 {
 enum
 class
-EventPriority
+EventQueuePriority
 {
 High
 Input
@@ -64,7 +64,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 const
 MutexAutoLock
@@ -81,7 +81,7 @@ nsIRunnable
 >
 GetEvent
 (
-EventPriority
+EventQueuePriority
 *
 aPriority
 const

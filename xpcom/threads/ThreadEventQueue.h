@@ -105,7 +105,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 )
 final
@@ -118,7 +118,7 @@ GetEvent
 (
 bool
 aMayWait
-EventPriority
+EventQueuePriority
 *
 aPriority
 )
@@ -263,7 +263,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 NestedSink
 *

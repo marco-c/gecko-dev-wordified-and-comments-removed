@@ -175,7 +175,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 const
 MutexAutoLock
@@ -192,7 +192,7 @@ event
 aEvent
 )
 ;
-EventPriority
+EventQueuePriority
 priority
 =
 aPriority
@@ -202,7 +202,7 @@ if
 priority
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -216,7 +216,7 @@ STATE_DISABLED
 {
 priority
 =
-EventPriority
+EventQueuePriority
 :
 :
 Normal
@@ -228,7 +228,7 @@ priority
 )
 {
 case
-EventPriority
+EventQueuePriority
 :
 :
 High
@@ -250,7 +250,7 @@ aProofOfLock
 break
 ;
 case
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -272,7 +272,7 @@ aProofOfLock
 break
 ;
 case
-EventPriority
+EventQueuePriority
 :
 :
 Normal
@@ -294,7 +294,7 @@ aProofOfLock
 break
 ;
 case
-EventPriority
+EventQueuePriority
 :
 :
 Idle
@@ -316,7 +316,7 @@ aProofOfLock
 break
 ;
 case
-EventPriority
+EventQueuePriority
 :
 :
 Count
@@ -324,7 +324,7 @@ Count
 MOZ_CRASH
 (
 "
-EventPriority
+EventQueuePriority
 :
 :
 Count
@@ -464,7 +464,7 @@ template
 class
 InnerQueueT
 >
-EventPriority
+EventQueuePriority
 PrioritizedEventQueue
 <
 InnerQueueT
@@ -554,7 +554,7 @@ inputCount
 )
 ;
 }
-EventPriority
+EventQueuePriority
 queue
 ;
 if
@@ -564,7 +564,7 @@ mProcessHighPriorityQueue
 {
 queue
 =
-EventPriority
+EventQueuePriority
 :
 :
 High
@@ -614,7 +614,7 @@ mInputHandlingStartTime
 {
 queue
 =
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -648,7 +648,7 @@ events
 ;
 queue
 =
-EventPriority
+EventQueuePriority
 :
 :
 Normal
@@ -662,7 +662,7 @@ highPending
 {
 queue
 =
-EventPriority
+EventQueuePriority
 :
 :
 High
@@ -706,7 +706,7 @@ disabled
 ;
 queue
 =
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -716,7 +716,7 @@ else
 {
 queue
 =
-EventPriority
+EventQueuePriority
 :
 :
 Idle
@@ -727,7 +727,7 @@ MOZ_ASSERT_IF
 queue
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -774,7 +774,7 @@ InnerQueueT
 :
 GetEvent
 (
-EventPriority
+EventQueuePriority
 *
 aPriority
 const
@@ -811,7 +811,7 @@ TimeStamp
 ;
 #
 endif
-EventPriority
+EventQueuePriority
 queue
 =
 SelectQueue
@@ -836,7 +836,7 @@ if
 queue
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 High
@@ -885,7 +885,7 @@ if
 queue
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -924,7 +924,7 @@ if
 queue
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 Normal
@@ -958,7 +958,7 @@ MOZ_ASSERT
 queue
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 Idle
@@ -1147,7 +1147,7 @@ mHasPendingEventsPromisedIdleEvent
 =
 false
 ;
-EventPriority
+EventQueuePriority
 queue
 =
 SelectQueue
@@ -1161,7 +1161,7 @@ if
 queue
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 High
@@ -1183,7 +1183,7 @@ if
 queue
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 Input
@@ -1205,7 +1205,7 @@ if
 queue
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 Normal
@@ -1226,7 +1226,7 @@ MOZ_ASSERT
 queue
 =
 =
-EventPriority
+EventQueuePriority
 :
 :
 Idle

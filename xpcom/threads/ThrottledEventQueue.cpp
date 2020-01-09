@@ -902,7 +902,7 @@ move
 (
 aEvent
 )
-EventPriority
+EventQueuePriority
 :
 :
 Normal

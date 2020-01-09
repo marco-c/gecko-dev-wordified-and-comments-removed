@@ -587,7 +587,7 @@ GetQueue
 mozilla
 :
 :
-EventPriority
+EventQueuePriority
 aPriority
 )
 {
@@ -755,7 +755,7 @@ size_t
 mozilla
 :
 :
-EventPriority
+EventQueuePriority
 :
 :
 Count

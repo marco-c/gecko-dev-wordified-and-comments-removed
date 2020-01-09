@@ -120,7 +120,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 const
 MutexAutoLock
@@ -135,7 +135,7 @@ nsIRunnable
 >
 GetEvent
 (
-EventPriority
+EventQueuePriority
 *
 aPriority
 const
@@ -340,7 +340,7 @@ n
 }
 private
 :
-EventPriority
+EventQueuePriority
 SelectQueue
 (
 bool

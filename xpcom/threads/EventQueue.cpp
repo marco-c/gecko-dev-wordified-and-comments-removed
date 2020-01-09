@@ -23,7 +23,7 @@ EventQueue
 :
 EventQueue
 (
-EventPriority
+EventQueuePriority
 aPriority
 )
 {
@@ -41,7 +41,7 @@ nsIRunnable
 &
 &
 aEvent
-EventPriority
+EventQueuePriority
 aPriority
 const
 MutexAutoLock
@@ -81,7 +81,7 @@ EventQueue
 :
 GetEvent
 (
-EventPriority
+EventQueuePriority
 *
 aPriority
 const
@@ -111,7 +111,7 @@ aPriority
 *
 aPriority
 =
-EventPriority
+EventQueuePriority
 :
 :
 Normal
