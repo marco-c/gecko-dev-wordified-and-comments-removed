@@ -18425,6 +18425,14 @@ check
 this
 )
 ;
+MOZ_ASSERT
+(
+!
+hasForceInterpreterOp
+(
+)
+)
+;
 AutoEnterAnalysis
 enter
 (
