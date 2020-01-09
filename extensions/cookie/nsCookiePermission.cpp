@@ -147,6 +147,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 const
 bool
@@ -415,10 +419,10 @@ default
 :
 if
 (
-nsContentUtils
+StaticPrefs
 :
 :
-GetCookieLifetimePolicy
+network_cookie_lifetimePolicy
 (
 )
 =
@@ -469,10 +473,10 @@ delta
 {
 if
 (
-nsContentUtils
+StaticPrefs
 :
 :
-GetCookieLifetimePolicy
+network_cookie_lifetimePolicy
 (
 )
 =

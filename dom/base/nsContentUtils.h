@@ -7172,16 +7172,6 @@ Document
 aDocument
 )
 ;
-static
-uint32_t
-GetCookieLifetimePolicy
-(
-)
-{
-return
-sCookiesLifetimePolicy
-;
-}
 private
 :
 static
@@ -7755,10 +7745,6 @@ sIsBytecodeCacheEnabled
 static
 int32_t
 sBytecodeCacheStrategy
-;
-static
-uint32_t
-sCookiesLifetimePolicy
 ;
 static
 bool
