@@ -174,6 +174,12 @@ Ci
 nsIGfxInfoDebug
 )
 ;
+gfxInfo
+.
+fireTestProcess
+(
+)
+;
 switch
 (
 Services

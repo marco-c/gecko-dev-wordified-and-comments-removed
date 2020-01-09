@@ -176,6 +176,12 @@ nsIGfxInfoDebug
 ;
 gfxInfo
 .
+fireTestProcess
+(
+)
+;
+gfxInfo
+.
 spoofDriverVersion
 (
 "
