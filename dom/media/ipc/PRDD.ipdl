@@ -97,6 +97,9 @@ include
 MemoryReportTypes
 ;
 include
+PrefsTypes
+;
+include
 protocol
 PProfiler
 ;
@@ -229,6 +232,13 @@ minimizeMemoryUsage
 FileDescriptor
 ?
 DMDFile
+)
+;
+async
+PreferenceUpdate
+(
+Pref
+pref
 )
 ;
 child
