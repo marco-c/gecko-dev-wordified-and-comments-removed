@@ -8630,6 +8630,9 @@ action
 SET
 )
 {
+jit
+:
+:
 JitScript
 :
 :

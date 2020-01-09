@@ -1039,7 +1039,6 @@ args
 }
 }
 ;
-}
 bool
 JitScript
 :
@@ -1094,13 +1093,6 @@ numICEntries
 (
 )
 )
-;
-using
-namespace
-js
-:
-:
-jit
 ;
 FallbackStubAllocator
 alloc
@@ -2793,9 +2785,6 @@ return
 true
 ;
 }
-namespace
-jit
-{
 ICStubConstIterator
 &
 ICStubConstIterator
@@ -6706,7 +6695,6 @@ intptr_t
 )
 ;
 }
-}
 void
 JitScript
 :
@@ -6717,9 +6705,6 @@ uint32_t
 pcOffset
 )
 {
-jit
-:
-:
 ICEntry
 &
 entry
@@ -6729,9 +6714,6 @@ icEntryFromPCOffset
 pcOffset
 )
 ;
-jit
-:
-:
 ICFallbackStub
 *
 stub
@@ -6766,9 +6748,6 @@ noteAccessedGetter
 ;
 }
 }
-namespace
-jit
-{
 bool
 ICTypeMonitor_Fallback
 :
@@ -13197,7 +13176,6 @@ masm
 )
 ;
 }
-}
 void
 JitScript
 :
@@ -13208,9 +13186,6 @@ uint32_t
 pcOffset
 )
 {
-jit
-:
-:
 ICEntry
 &
 entry
@@ -13220,9 +13195,6 @@ icEntryFromPCOffset
 pcOffset
 )
 ;
-jit
-:
-:
 ICFallbackStub
 *
 stub
@@ -13257,9 +13229,6 @@ noteHasDenseAdd
 ;
 }
 }
-namespace
-jit
-{
 template
 <
 typename

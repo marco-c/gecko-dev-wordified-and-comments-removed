@@ -8245,6 +8245,9 @@ isSingleton
 )
 )
 ;
+jit
+:
+:
 JitScript
 :
 :

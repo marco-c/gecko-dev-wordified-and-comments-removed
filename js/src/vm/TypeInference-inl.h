@@ -2646,6 +2646,9 @@ cx
 }
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -2711,6 +2714,9 @@ type
 }
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -2788,6 +2794,9 @@ group
 }
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -2913,6 +2922,9 @@ type
 }
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -2949,6 +2961,9 @@ value
 }
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -3085,6 +3100,9 @@ type
 }
 inline
 void
+jit
+:
+:
 JitScript
 :
 :
@@ -6513,6 +6531,9 @@ endif
 {
 if
 (
+jit
+:
+:
 JitScript
 *
 jitScript
