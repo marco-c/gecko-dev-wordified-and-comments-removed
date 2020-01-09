@@ -829,9 +829,6 @@ TimeStamp
 aTime
 )
 {
-nsAutoMicroTask
-mt
-;
 MostRecentRefreshTimeUpdated
 (
 )
