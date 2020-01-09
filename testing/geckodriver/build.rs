@@ -466,7 +466,7 @@ s
 |
 s
 .
-trim_right
+trim_end
 (
 )
 .
@@ -661,7 +661,7 @@ s
 |
 s
 .
-trim_right
+trim_end
 (
 )
 .
