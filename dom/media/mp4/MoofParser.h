@@ -875,6 +875,8 @@ uint64_t
 aDecoderTime
 bool
 aIsAudio
+bool
+aIsMultitrackParser
 )
 ;
 bool
@@ -987,6 +989,8 @@ uint64_t
 aDecodeTime
 bool
 aIsAudio
+bool
+aIsMultitrackParser
 )
 ;
 Result
@@ -1052,6 +1056,10 @@ uint32_t
 aTrackId
 bool
 aIsAudio
+bool
+aIsMultitrackParser
+=
+false
 )
 :
 mSource
@@ -1073,6 +1081,10 @@ aIsAudio
 mLastDecodeTime
 (
 0
+)
+mIsMultitrackParser
+(
+aIsMultitrackParser
 )
 {
 DDLINKCHILD
@@ -1326,6 +1338,9 @@ mIsAudio
 ;
 uint64_t
 mLastDecodeTime
+;
+bool
+mIsMultitrackParser
 ;
 }
 ;

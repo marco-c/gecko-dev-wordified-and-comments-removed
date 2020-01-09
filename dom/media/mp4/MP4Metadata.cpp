@@ -2715,6 +2715,7 @@ MoofParser
 aSource
 0
 false
+true
 )
 ;
 RefPtr

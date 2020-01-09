@@ -3187,6 +3187,7 @@ MoofParser
 mStream
 0
 false
+true
 )
 ;
 DDLINKCHILD
