@@ -2433,7 +2433,7 @@ E
 {
 CERTNAME
 }
-bogus
+example
 .
 com
 O

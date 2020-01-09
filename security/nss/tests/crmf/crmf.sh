@@ -825,7 +825,7 @@ Bob
 -
 e
 dave
-bogus
+example
 .
 com
 -
@@ -853,7 +853,7 @@ Bob
 -
 e
 dave
-bogus
+example
 .
 com
 -
@@ -888,7 +888,7 @@ Bob
 -
 e
 dave
-bogus
+example
 .
 com
 -
@@ -915,7 +915,7 @@ Bob
 -
 e
 dave
-bogus
+example
 .
 com
 -

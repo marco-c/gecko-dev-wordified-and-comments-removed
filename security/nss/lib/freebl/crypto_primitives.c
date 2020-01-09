@@ -75,6 +75,13 @@ defined
 (
 _MSC_VER
 )
+&
+&
+!
+__has_builtin
+(
+__builtin_bswap64
+)
 PRUint64
 swap8b
 (

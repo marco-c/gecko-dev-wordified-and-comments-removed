@@ -676,7 +676,7 @@ certName
 {
 keyType
 }
-bogus
+example
 .
 com
 O
@@ -1600,7 +1600,7 @@ E
 {
 certName
 }
-bogus
+example
 .
 com
 O

@@ -4623,7 +4623,7 @@ hs
 .
 resumptionMasterSecret
 =
-PK11_UnwrapSymKeyWithFlags
+ssl_unwrapSymKey
 (
 wrapKey
 sid
@@ -4646,6 +4646,10 @@ hashType
 CKF_SIGN
 |
 CKF_VERIFY
+ss
+-
+>
+pkcs11PinArg
 )
 ;
 PK11_FreeSymKey
