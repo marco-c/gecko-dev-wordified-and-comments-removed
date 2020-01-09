@@ -6221,6 +6221,17 @@ assertStackAlignment
 WasmStackAlignment
 )
 ;
+#
+ifdef
+JS_CODEGEN_ARM64
+masm
+.
+initPseudoStackPtr
+(
+)
+;
+#
+endif
 masm
 .
 branchPtr
