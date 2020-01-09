@@ -34,6 +34,7 @@ breakpoint
 import
 {
 getTextAtPosition
+isInlineScript
 }
 from
 "
@@ -642,6 +643,13 @@ return
 {
 previousLocation
 breakpoint
+:
+isInlineScript
+(
+generatedSource
+)
+?
+bp
 :
 null
 }
