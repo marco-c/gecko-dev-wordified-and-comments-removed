@@ -1873,7 +1873,6 @@ style
 visibility
 =
 "
-visible
 "
 ;
 }
