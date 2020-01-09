@@ -11533,7 +11533,6 @@ if
 (
 JS_ObjectIsFunction
 (
-cx
 obj
 )
 )

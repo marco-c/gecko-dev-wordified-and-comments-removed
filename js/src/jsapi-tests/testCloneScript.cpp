@@ -816,7 +816,6 @@ CHECK
 (
 JS_ObjectIsFunction
 (
-cx
 funobj
 )
 )

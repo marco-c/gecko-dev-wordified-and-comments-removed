@@ -2416,7 +2416,6 @@ isObject
 !
 JS_ObjectIsFunction
 (
-cx
 &
 args
 [

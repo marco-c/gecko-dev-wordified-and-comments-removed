@@ -141,7 +141,6 @@ CHECK
 (
 JS_ObjectIsFunction
 (
-cx
 target
 )
 )

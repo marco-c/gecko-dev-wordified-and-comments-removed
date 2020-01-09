@@ -3365,7 +3365,6 @@ isPrimitive
 :
 JS_ObjectIsFunction
 (
-cx
 v
 .
 toObjectOrNull
