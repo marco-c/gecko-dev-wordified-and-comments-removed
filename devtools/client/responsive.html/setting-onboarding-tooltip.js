@@ -96,6 +96,9 @@ this
 .
 doc
 {
+consumeOutsideClicks
+:
+false
 type
 :
 "
