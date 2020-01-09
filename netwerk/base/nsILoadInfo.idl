@@ -4629,7 +4629,7 @@ the
 element
 QIs
 to
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 )
 *
 the

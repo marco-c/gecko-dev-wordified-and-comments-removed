@@ -467,12 +467,6 @@ nsGenericHTMLFrameElement
 :
 GetContentWindow
 ;
-NS_FORWARD_NSIFRAMELOADEROWNER
-(
-nsGenericHTMLFrameElement
-:
-:
-)
 protected
 :
 virtual

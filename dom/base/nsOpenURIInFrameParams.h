@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 .
 h
 "
@@ -67,7 +67,7 @@ mozilla
 OriginAttributes
 &
 aOriginAttributes
-nsIFrameLoaderOwner
+Element
 *
 aOpener
 )
@@ -85,9 +85,9 @@ mozilla
 OriginAttributes
 mOpenerOriginAttributes
 ;
-nsCOMPtr
+RefPtr
 <
-nsIFrameLoaderOwner
+Element
 >
 mOpenerBrowser
 ;

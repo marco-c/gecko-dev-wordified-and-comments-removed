@@ -132,7 +132,7 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 XULFrameElement
 nsXULElement
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 )
 JSObject
 *
@@ -580,7 +580,7 @@ XULFrameElement
 :
 SwapFrameLoaders
 (
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 *
 aOtherLoaderOwner
 mozilla

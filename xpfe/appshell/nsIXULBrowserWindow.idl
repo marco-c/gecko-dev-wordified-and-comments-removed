@@ -116,9 +116,6 @@ interface
 nsIDocShell
 ;
 interface
-nsIFrameLoaderOwner
-;
-interface
 nsITabParent
 ;
 interface
@@ -449,7 +446,7 @@ in
 AString
 direction
 in
-nsIFrameLoaderOwner
+Element
 browser
 )
 ;

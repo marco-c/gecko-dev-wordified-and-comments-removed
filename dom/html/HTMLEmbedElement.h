@@ -563,12 +563,6 @@ bool
 aForceLoad
 )
 ;
-NS_FORWARD_NSIFRAMELOADEROWNER
-(
-nsObjectLoadingContent
-:
-:
-)
 protected
 :
 nsIContent

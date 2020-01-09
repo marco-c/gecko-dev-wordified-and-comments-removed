@@ -83,7 +83,7 @@ h
 #
 include
 "
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 .
 h
 "
@@ -152,7 +152,7 @@ nsImageLoadingContent
 public
 nsIStreamListener
 public
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 public
 nsIObjectLoadingContent
 public
@@ -292,7 +292,6 @@ nsObjectLoadingContent
 ;
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
-NS_DECL_NSIFRAMELOADEROWNER
 NS_DECL_NSIOBJECTLOADINGCONTENT
 NS_DECL_NSICHANNELEVENTSINK
 mozilla
@@ -1243,12 +1242,6 @@ nsCOMPtr
 nsIStreamListener
 >
 mFinalListener
-;
-RefPtr
-<
-nsFrameLoader
->
-mFrameLoader
 ;
 nsCOMPtr
 <
