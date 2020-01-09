@@ -1243,6 +1243,24 @@ ERROR
     
 {
 '
+substr
+'
+:
+'
+A
+content
+process
+crashed
+'
+'
+level
+'
+:
+ERROR
+}
+    
+{
+'
 regex
 '
 :
