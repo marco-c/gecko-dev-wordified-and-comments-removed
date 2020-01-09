@@ -12,9 +12,6 @@ options
 localeMatcher
 "
 "
-lineBreakStyle
-"
-"
 granularity
 "
 ]

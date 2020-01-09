@@ -14,7 +14,7 @@ granularity
 "
 :
 "
-line
+word
 "
 }
 )
@@ -32,9 +32,6 @@ locale
 "
 "
 granularity
-"
-"
-lineBreakStyle
 "
 ]
 ;

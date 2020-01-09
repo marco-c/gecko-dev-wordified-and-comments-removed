@@ -1,7 +1,13 @@
+if
+(
+false
+)
+{
 +
 +
 arguments
 ;
+}
 reportCompare
 (
 0

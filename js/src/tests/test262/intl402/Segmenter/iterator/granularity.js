@@ -31,9 +31,6 @@ word
 "
 sentence
 "
-"
-line
-"
 ]
 )
 {
