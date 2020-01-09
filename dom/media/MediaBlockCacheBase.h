@@ -112,9 +112,11 @@ Flush
 0
 ;
 virtual
-int32_t
+size_t
 GetMaxBlocks
 (
+size_t
+aCacheSizeInKiB
 )
 const
 =
