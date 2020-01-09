@@ -249,9 +249,19 @@ manually
             
 return
         
+from
+mozboot
+import
+static_analysis
+        
 self
 .
 install_toolchain_static_analysis
 (
+            
+state_dir
 checkout_root
+static_analysis
+.
+LINUX_CLANG_TIDY
 )
