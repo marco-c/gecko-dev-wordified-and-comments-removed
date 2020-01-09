@@ -276,6 +276,14 @@ h
 #
 endif
 #
+ifndef
+_WIN32
+#
+define
+HAVE_CPP_DYNAMIC_CAST_TO_VOID_PTR
+#
+endif
+#
 include
 "
 prthread
