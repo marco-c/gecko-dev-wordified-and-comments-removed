@@ -2150,6 +2150,15 @@ MIRType
 :
 :
 Int32
+|
+|
+mirType
+=
+=
+MIRType
+:
+:
+RefOrNull
 )
 {
 Register
@@ -2192,7 +2201,7 @@ output
 ;
 masm
 .
-cmovzl
+cmovz
 (
 falseExpr
 out
