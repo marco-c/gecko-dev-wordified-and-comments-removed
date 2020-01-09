@@ -10089,15 +10089,9 @@ presShell
 ScrollContentIntoView
 (
 aContent
-nsIPresShell
-:
-:
 ScrollAxis
 (
 )
-nsIPresShell
-:
-:
 ScrollAxis
 (
 )

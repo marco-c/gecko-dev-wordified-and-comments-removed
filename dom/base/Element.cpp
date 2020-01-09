@@ -4030,9 +4030,6 @@ presShell
 ScrollContentIntoView
 (
 this
-nsIPresShell
-:
-:
 ScrollAxis
 (
 whereToScrollVertically
@@ -4041,9 +4038,6 @@ WhenToScroll
 :
 Always
 )
-nsIPresShell
-:
-:
 ScrollAxis
 (
 whereToScrollHorizontally
