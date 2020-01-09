@@ -67,17 +67,6 @@ undef
 "
 off
 "
-"
-no
--
-unused
--
-vars
-"
-:
-"
-off
-"
 }
 }
 ;
