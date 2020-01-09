@@ -128,9 +128,6 @@ function
 <
 void
 (
-const
-ScrollableLayerGuid
-&
 uint64_t
 bool
 )
@@ -186,10 +183,6 @@ CSSToLayoutDeviceScale
 aScale
 Modifiers
 aModifiers
-const
-ScrollableLayerGuid
-&
-aGuid
 int32_t
 aClickCount
 )
@@ -211,10 +204,6 @@ CSSToLayoutDeviceScale
 aScale
 Modifiers
 aModifiers
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 )
@@ -264,10 +253,6 @@ const
 WidgetWheelEvent
 &
 aEvent
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 )
@@ -279,10 +264,6 @@ const
 WidgetMouseEvent
 &
 aEvent
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 )

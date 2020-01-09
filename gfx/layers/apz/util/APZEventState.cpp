@@ -893,10 +893,6 @@ CSSToLayoutDeviceScale
 aScale
 Modifiers
 aModifiers
-const
-ScrollableLayerGuid
-&
-aGuid
 int32_t
 aClickCount
 )
@@ -910,9 +906,6 @@ tap
 at
 %
 s
-on
-%
-s
 with
 %
 d
@@ -922,14 +915,6 @@ n
 Stringify
 (
 aPoint
-)
-.
-c_str
-(
-)
-Stringify
-(
-aGuid
 )
 .
 c_str
@@ -1283,10 +1268,6 @@ CSSToLayoutDeviceScale
 aScale
 Modifiers
 aModifiers
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 )
@@ -1386,7 +1367,6 @@ widget
 endif
 mContentReceivedInputBlockCallback
 (
-aGuid
 aInputBlockId
 eventHandled
 )
@@ -1730,7 +1710,6 @@ isTouchPrevented
 {
 mContentReceivedInputBlockCallback
 (
-aGuid
 aInputBlockId
 isTouchPrevented
 )
@@ -2008,10 +1987,6 @@ const
 WidgetWheelEvent
 &
 aEvent
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 )
@@ -2034,7 +2009,6 @@ TriggersSwipe
 ;
 mContentReceivedInputBlockCallback
 (
-aGuid
 aInputBlockId
 defaultPrevented
 )
@@ -2050,10 +2024,6 @@ const
 WidgetMouseEvent
 &
 aEvent
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 )
@@ -2065,7 +2035,6 @@ false
 ;
 mContentReceivedInputBlockCallback
 (
-aGuid
 aInputBlockId
 defaultPrevented
 )
@@ -2496,7 +2465,6 @@ c_str
 ;
 mContentReceivedInputBlockCallback
 (
-mPendingTouchPreventedGuid
 mPendingTouchPreventedBlockId
 aPreventDefault
 )
