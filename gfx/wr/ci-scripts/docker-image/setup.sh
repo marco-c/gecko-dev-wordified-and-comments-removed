@@ -137,6 +137,12 @@ libx11
 -
 dev
 \
+openjdk
+-
+8
+-
+jdk
+\
 pkg
 -
 config
