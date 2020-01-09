@@ -342,7 +342,7 @@ button
 (
 0
 )
-buttons
+mButtons
 (
 0
 )
@@ -384,7 +384,7 @@ button
 (
 0
 )
-buttons
+mButtons
 (
 0
 )
@@ -484,7 +484,7 @@ e5thButtonFlag
 }
 ;
 int16_t
-buttons
+mButtons
 ;
 float
 pressure
@@ -508,7 +508,7 @@ return
 !
 !
 (
-buttons
+mButtons
 &
 eLeftButtonFlag
 )
@@ -524,7 +524,7 @@ return
 !
 !
 (
-buttons
+mButtons
 &
 eRightButtonFlag
 )
@@ -540,7 +540,7 @@ return
 !
 !
 (
-buttons
+mButtons
 &
 eMiddleButtonFlag
 )
@@ -556,7 +556,7 @@ return
 !
 !
 (
-buttons
+mButtons
 &
 e4thButtonFlag
 )
@@ -572,7 +572,7 @@ return
 !
 !
 (
-buttons
+mButtons
 &
 e5thButtonFlag
 )
@@ -601,11 +601,11 @@ aEvent
 .
 button
 ;
-buttons
+mButtons
 =
 aEvent
 .
-buttons
+mButtons
 ;
 pressure
 =

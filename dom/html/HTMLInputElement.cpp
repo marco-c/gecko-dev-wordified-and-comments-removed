@@ -19478,7 +19478,7 @@ AsMouseEvent
 )
 -
 >
-buttons
+mButtons
 =
 =
 WidgetMouseEvent

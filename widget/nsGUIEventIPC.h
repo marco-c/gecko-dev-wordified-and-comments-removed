@@ -829,7 +829,7 @@ WriteParam
 aMsg
 aParam
 .
-buttons
+mButtons
 )
 ;
 WriteParam
@@ -912,7 +912,7 @@ aIter
 aResult
 -
 >
-buttons
+mButtons
 )
 &
 &

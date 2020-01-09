@@ -565,7 +565,7 @@ mIsPrimary
 widgetEvent
 -
 >
-buttons
+mButtons
 =
 aParam
 .
@@ -911,7 +911,7 @@ AsPointerEvent
 )
 -
 >
-buttons
+mButtons
 )
 {
 spoofedPressure

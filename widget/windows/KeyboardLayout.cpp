@@ -4712,7 +4712,7 @@ AsMouseEventBase
 ;
 mouseEvent
 .
-buttons
+mButtons
 =
 0
 ;
@@ -4730,7 +4730,7 @@ VK_LBUTTON
 {
 mouseEvent
 .
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -4753,7 +4753,7 @@ VK_RBUTTON
 {
 mouseEvent
 .
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -4776,7 +4776,7 @@ VK_MBUTTON
 {
 mouseEvent
 .
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -4799,7 +4799,7 @@ VK_XBUTTON1
 {
 mouseEvent
 .
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -4822,7 +4822,7 @@ VK_XBUTTON2
 {
 mouseEvent
 .
-buttons
+mButtons
 |
 =
 WidgetMouseEvent

@@ -29377,7 +29377,7 @@ AsMouseEventBase
 mouseEvent
 -
 >
-buttons
+mButtons
 =
 0
 ;
@@ -29399,7 +29399,7 @@ mouseButtons
 mouseEvent
 -
 >
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -29418,7 +29418,7 @@ mouseButtons
 mouseEvent
 -
 >
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -29437,7 +29437,7 @@ mouseButtons
 mouseEvent
 -
 >
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -29456,7 +29456,7 @@ mouseButtons
 mouseEvent
 -
 >
-buttons
+mButtons
 |
 =
 WidgetMouseEvent
@@ -29475,7 +29475,7 @@ mouseButtons
 mouseEvent
 -
 >
-buttons
+mButtons
 |
 =
 WidgetMouseEvent

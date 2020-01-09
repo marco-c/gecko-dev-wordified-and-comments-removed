@@ -17709,7 +17709,7 @@ mPressure
 ;
 event
 .
-buttons
+mButtons
 =
 aPointerInfo
 -

@@ -558,7 +558,7 @@ AsMouseEventBase
 )
 -
 >
-buttons
+mButtons
 =
 aParam
 .
@@ -951,7 +951,7 @@ AsMouseEventBase
 )
 -
 >
-buttons
+mButtons
 ;
 default
 :

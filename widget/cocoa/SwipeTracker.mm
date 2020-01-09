@@ -1348,7 +1348,7 @@ aPosition
 ;
 geckoEvent
 .
-buttons
+mButtons
 =
 0
 ;
