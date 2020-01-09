@@ -31,6 +31,7 @@ import
 {
 makeMockFrame
 makeMockSource
+mockthreadcx
 }
 from
 "
@@ -99,6 +100,9 @@ overrides
 {
 return
 {
+cx
+:
+mockthreadcx
 frame
 selectedFrame
 copyStackTrace

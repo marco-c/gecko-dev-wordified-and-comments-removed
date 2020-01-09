@@ -65,6 +65,7 @@ getSelectedSource
 getSymbols
 getTabs
 isSymbolsLoading
+getContext
 }
 from
 "
@@ -164,6 +165,7 @@ import
 type
 {
 Source
+Context
 }
 from
 "
@@ -218,6 +220,9 @@ type
 Props
 =
 {
+cx
+:
+Context
 enabled
 :
 boolean
@@ -1359,6 +1364,7 @@ GotoLocationType
 {
 const
 {
+cx
 selectSpecificLocation
 selectedSource
 }
@@ -1402,6 +1408,7 @@ selectedSourceId
 ;
 selectSpecificLocation
 (
+cx
 {
 sourceId
 line
@@ -2469,6 +2476,12 @@ state
 ;
 return
 {
+cx
+:
+getContext
+(
+state
+)
 enabled
 :
 getQuickOpenEnabled

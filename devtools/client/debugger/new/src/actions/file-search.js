@@ -64,6 +64,7 @@ import
 type
 {
 WasmSource
+Context
 }
 from
 "
@@ -115,6 +116,9 @@ export
 function
 doSearch
 (
+cx
+:
+Context
 query
 :
 string
@@ -164,6 +168,7 @@ dispatch
 (
 setFileSearchQuery
 (
+cx
 query
 )
 )
@@ -172,6 +177,7 @@ dispatch
 (
 searchContents
 (
+cx
 query
 editor
 )
@@ -254,6 +260,9 @@ export
 function
 setFileSearchQuery
 (
+cx
+:
+Context
 query
 :
 string
@@ -268,6 +277,7 @@ type
 "
 UPDATE_FILE_SEARCH_QUERY
 "
+cx
 query
 }
 ;
@@ -276,6 +286,9 @@ export
 function
 toggleFileSearchModifier
 (
+cx
+:
+Context
 modifier
 :
 FileTextSearchModifier
@@ -290,6 +303,7 @@ type
 "
 TOGGLE_FILE_SEARCH_MODIFIER
 "
+cx
 modifier
 }
 ;
@@ -298,6 +312,9 @@ export
 function
 updateSearchResults
 (
+cx
+:
+Context
 characterIndex
 :
 number
@@ -348,6 +365,7 @@ type
 "
 UPDATE_SEARCH_RESULTS
 "
+cx
 results
 :
 {
@@ -369,6 +387,9 @@ export
 function
 searchContents
 (
+cx
+:
+Context
 query
 :
 string
@@ -557,6 +578,7 @@ dispatch
 (
 updateSearchResults
 (
+cx
 ch
 line
 matches
@@ -685,6 +707,9 @@ export
 function
 traverseResults
 (
+cx
+:
+Context
 rev
 :
 boolean
@@ -852,6 +877,7 @@ dispatch
 (
 updateSearchResults
 (
+cx
 ch
 line
 matchedLocations
@@ -866,6 +892,9 @@ export
 function
 closeFileSearch
 (
+cx
+:
+Context
 editor
 :
 Editor
@@ -923,6 +952,7 @@ dispatch
 (
 setFileSearchQuery
 (
+cx
 "
 "
 )

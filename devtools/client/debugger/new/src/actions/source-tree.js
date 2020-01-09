@@ -12,6 +12,19 @@ from
 types
 "
 ;
+import
+type
+{
+Context
+}
+from
+"
+.
+.
+/
+types
+"
+;
 export
 function
 setExpandedState
@@ -63,6 +76,9 @@ export
 function
 focusItem
 (
+cx
+:
+Context
 item
 :
 FocusItem
@@ -88,6 +104,7 @@ type
 "
 SET_FOCUSED_SOURCE_ITEM
 "
+cx
 item
 }
 )

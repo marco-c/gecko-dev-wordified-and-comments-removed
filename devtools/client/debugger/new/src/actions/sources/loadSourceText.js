@@ -140,6 +140,7 @@ import
 type
 {
 Source
+Context
 }
 from
 "
@@ -350,6 +351,9 @@ async
 function
 loadSourceTextPromise
 (
+cx
+:
+Context
 source
 :
 Source
@@ -460,6 +464,7 @@ dispatch
 setBreakpointPositions
 (
 {
+cx
 sourceId
 :
 newSource
@@ -499,6 +504,7 @@ dispatch
 (
 addBreakpoint
 (
+cx
 location
 options
 disabled
@@ -515,6 +521,9 @@ export
 function
 loadSourceById
 (
+cx
+:
+Context
 sourceId
 :
 string
@@ -549,6 +558,7 @@ dispatch
 loadSourceText
 (
 {
+cx
 source
 }
 )
@@ -564,6 +574,9 @@ loadSourceText
 MemoizedAction
 <
 {
+cx
+:
+Context
 source
 :
 Source
@@ -665,6 +678,7 @@ action
 :
 (
 {
+cx
 source
 }
 thunkArgs
@@ -673,6 +687,7 @@ thunkArgs
 >
 loadSourceTextPromise
 (
+cx
 source
 thunkArgs
 )

@@ -50,6 +50,7 @@ import
 getSelectedSource
 getPrettySource
 getPaneCollapse
+getContext
 }
 from
 "
@@ -148,6 +149,7 @@ import
 type
 {
 Source
+Context
 }
 from
 "
@@ -185,6 +187,9 @@ type
 Props
 =
 {
+cx
+:
+Context
 selectedSource
 :
 Source
@@ -397,6 +402,7 @@ prettyPrintButton
 {
 const
 {
+cx
 selectedSource
 togglePrettyPrint
 }
@@ -517,6 +523,7 @@ onClick
 >
 togglePrettyPrint
 (
+cx
 selectedSource
 .
 id
@@ -584,6 +591,7 @@ blackBoxButton
 {
 const
 {
+cx
 selectedSource
 toggleBlackBox
 }
@@ -680,6 +688,7 @@ onClick
 >
 toggleBlackBox
 (
+cx
 selectedSource
 )
 }
@@ -857,6 +866,7 @@ renderSourceSummary
 {
 const
 {
+cx
 mappedSource
 jumpToMappedLocation
 selectedSource
@@ -958,6 +968,7 @@ onClick
 >
 jumpToMappedLocation
 (
+cx
 mappedSourceLocation
 )
 }
@@ -1190,6 +1201,12 @@ state
 ;
 return
 {
+cx
+:
+getContext
+(
+state
+)
 selectedSource
 mappedSource
 :

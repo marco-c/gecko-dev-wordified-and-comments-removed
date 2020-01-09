@@ -31,6 +31,7 @@ getSelectedSource
 getSourcesForTabs
 getIsPaused
 getCurrentThread
+getContext
 }
 from
 "
@@ -189,6 +190,7 @@ import
 type
 {
 Source
+Context
 }
 from
 "
@@ -212,6 +214,9 @@ type
 Props
 =
 {
+cx
+:
+Context
 tabSources
 :
 SourcesList
@@ -664,6 +669,7 @@ Source
 {
 const
 {
+cx
 selectSource
 }
 =
@@ -688,6 +694,7 @@ onClick
 >
 selectSource
 (
+cx
 source
 .
 id
@@ -1117,6 +1124,12 @@ state
 >
 (
 {
+cx
+:
+getContext
+(
+state
+)
 selectedSource
 :
 getSelectedSource

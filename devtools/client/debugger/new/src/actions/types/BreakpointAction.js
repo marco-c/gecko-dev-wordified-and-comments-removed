@@ -7,6 +7,7 @@ XHRBreakpoint
 Source
 BreakpointPositions
 PendingLocation
+Context
 }
 from
 "
@@ -156,6 +157,10 @@ type
 SET_BREAKPOINT
 "
 +
+cx
+:
+Context
++
 breakpoint
 :
 Breakpoint
@@ -170,6 +175,10 @@ type
 "
 REMOVE_BREAKPOINT
 "
++
+cx
+:
+Context
 +
 location
 :
@@ -186,6 +195,10 @@ type
 REMOVE_PENDING_BREAKPOINT
 "
 +
+cx
+:
+Context
++
 location
 :
 PendingLocation
@@ -199,6 +212,10 @@ type
 "
 ADD_BREAKPOINT_POSITIONS
 "
++
+cx
+:
+Context
 positions
 :
 BreakpointPositions

@@ -77,6 +77,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 store
@@ -104,6 +105,7 @@ actions
 setBreakpointPositions
 (
 {
+cx
 sourceId
 :
 "
@@ -284,6 +286,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 store
@@ -311,6 +314,7 @@ actions
 setBreakpointPositions
 (
 {
+cx
 sourceId
 :
 "
@@ -327,6 +331,7 @@ actions
 setBreakpointPositions
 (
 {
+cx
 sourceId
 :
 "

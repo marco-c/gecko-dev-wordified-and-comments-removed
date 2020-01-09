@@ -2,6 +2,7 @@ import
 {
 isStepping
 getPauseReason
+getThreadContext
 }
 from
 "
@@ -149,6 +150,16 @@ wasStepping
 }
 )
 ;
+const
+cx
+=
+getThreadContext
+(
+getState
+(
+)
+)
+;
 if
 (
 !
@@ -157,6 +168,14 @@ wasStepping
 &
 !
 wasPausedInEval
+&
+&
+cx
+.
+thread
+=
+=
+thread
 )
 {
 await
@@ -164,6 +183,7 @@ dispatch
 (
 evaluateExpressions
 (
+cx
 )
 )
 ;

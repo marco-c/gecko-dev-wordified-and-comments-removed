@@ -120,6 +120,7 @@ Breakpoint
 BreakpointOptions
 BreakpointPosition
 SourceLocation
+Context
 }
 from
 "
@@ -225,6 +226,9 @@ export
 function
 enableBreakpoint
 (
+cx
+:
+Context
 initialBreakpoint
 :
 Breakpoint
@@ -281,6 +285,7 @@ type
 "
 SET_BREAKPOINT
 "
+cx
 breakpoint
 :
 {
@@ -311,6 +316,9 @@ export
 function
 addBreakpoint
 (
+cx
+:
+Context
 initialLocation
 :
 SourceLocation
@@ -376,6 +384,7 @@ dispatch
 setBreakpointPositions
 (
 {
+cx
 sourceId
 }
 )
@@ -540,6 +549,7 @@ type
 "
 SET_BREAKPOINT
 "
+cx
 breakpoint
 }
 )
@@ -575,6 +585,9 @@ export
 function
 removeBreakpoint
 (
+cx
+:
+Context
 initialBreakpoint
 :
 Breakpoint
@@ -630,6 +643,7 @@ type
 "
 REMOVE_BREAKPOINT
 "
+cx
 location
 :
 breakpoint
@@ -666,6 +680,9 @@ export
 function
 removeBreakpointAtGeneratedLocation
 (
+cx
+:
+Context
 target
 :
 SourceLocation
@@ -732,6 +749,7 @@ type
 "
 REMOVE_BREAKPOINT
 "
+cx
 location
 }
 )
@@ -786,6 +804,7 @@ type
 "
 REMOVE_PENDING_BREAKPOINT
 "
+cx
 location
 }
 )
@@ -808,6 +827,9 @@ export
 function
 disableBreakpoint
 (
+cx
+:
+Context
 initialBreakpoint
 :
 Breakpoint
@@ -861,6 +883,7 @@ type
 "
 SET_BREAKPOINT
 "
+cx
 breakpoint
 :
 {
@@ -893,6 +916,9 @@ export
 function
 setBreakpointOptions
 (
+cx
+:
+Context
 location
 :
 SourceLocation
@@ -940,6 +966,7 @@ dispatch
 (
 addBreakpoint
 (
+cx
 location
 options
 )
@@ -967,6 +994,7 @@ type
 "
 SET_BREAKPOINT
 "
+cx
 breakpoint
 }
 )

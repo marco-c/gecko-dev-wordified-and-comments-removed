@@ -42,6 +42,7 @@ type
 {
 Frame
 Why
+ThreadContext
 }
 from
 "
@@ -150,6 +151,7 @@ getSelectedFrame
 getCallStackFrames
 getPauseReason
 getCurrentThread
+getThreadContext
 }
 from
 "
@@ -183,6 +185,9 @@ type
 Props
 =
 {
+cx
+:
+ThreadContext
 frames
 :
 Array
@@ -200,7 +205,10 @@ why
 Why
 selectFrame
 :
-Function
+typeof
+actions
+.
+selectFrame
 toggleBlackBox
 :
 Function
@@ -568,6 +576,7 @@ Frame
 {
 const
 {
+cx
 selectFrame
 selectedFrame
 toggleBlackBox
@@ -637,6 +646,11 @@ id
 (
 <
 FrameComponent
+cx
+=
+{
+cx
+}
 frame
 =
 {
@@ -717,6 +731,11 @@ selectable
 (
 <
 Group
+cx
+=
+{
+cx
+}
 group
 =
 {
@@ -1054,6 +1073,12 @@ state
 >
 (
 {
+cx
+:
+getThreadContext
+(
+state
+)
 frames
 :
 getCallStackFrames
