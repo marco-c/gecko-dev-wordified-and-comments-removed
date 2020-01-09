@@ -202,7 +202,7 @@ maxResults
 isPrivate
 :
 true
-autoFill
+autofill
 :
 false
 }
@@ -298,7 +298,7 @@ strictEqual
 (
 qc
 .
-autoFill
+autofill
 false
 "
 Should
@@ -308,7 +308,7 @@ the
 correct
 value
 for
-autoFill
+autofill
 "
 )
 ;

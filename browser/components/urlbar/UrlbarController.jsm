@@ -286,7 +286,7 @@ queryContext
 ;
 queryContext
 .
-autoFill
+autofill
 =
 UrlbarPrefs
 .
