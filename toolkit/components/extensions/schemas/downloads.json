@@ -736,6 +736,11 @@ type
 "
 string
 "
+"
+optional
+"
+:
+true
 }
 "
 startTime
@@ -1692,12 +1697,6 @@ type
 "
 number
 "
-"
-default
-"
-:
--
-1
 }
 "
 totalBytesLess
