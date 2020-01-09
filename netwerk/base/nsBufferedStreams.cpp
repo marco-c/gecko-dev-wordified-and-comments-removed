@@ -145,6 +145,12 @@ using
 mozilla
 :
 :
+MutexAutoLock
+;
+using
+mozilla
+:
+:
 Nothing
 ;
 using
