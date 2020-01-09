@@ -100,11 +100,6 @@ viewport
 svg
 '
 '
-screenshot
-.
-svg
-'
-'
 touch
 -
 events
