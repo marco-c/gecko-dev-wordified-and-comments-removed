@@ -2701,7 +2701,7 @@ void
 ImageLoader
 :
 :
-DoRedraw
+RequestPaintIfNeeded
 (
 FrameSet
 *
@@ -3575,7 +3575,7 @@ frameSet
 aRequest
 )
 ;
-DoRedraw
+RequestPaintIfNeeded
 (
 frameSet
 true
@@ -3630,7 +3630,7 @@ return
 NS_OK
 ;
 }
-DoRedraw
+RequestPaintIfNeeded
 (
 frameSet
 false
