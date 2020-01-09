@@ -317,6 +317,15 @@ browserconsole
 .
 contentMessages
 "
+MESSAGE_TIMESTAMP
+:
+"
+devtools
+.
+webconsole
+.
+timestampMessages
+"
 }
 FEATURES
 :
