@@ -118,6 +118,17 @@ DocManager
 h
 "
 #
+include
+"
+mozilla
+/
+jni
+/
+GeckoBundleUtils
+.
+h
+"
+#
 ifdef
 DEBUG
 #

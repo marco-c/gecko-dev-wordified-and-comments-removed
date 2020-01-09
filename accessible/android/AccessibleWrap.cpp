@@ -103,6 +103,17 @@ PDocAccessibleChild
 h
 "
 #
+include
+"
+mozilla
+/
+jni
+/
+GeckoBundleUtils
+.
+h
+"
+#
 define
 ROLE_STRINGS_URL
 "
