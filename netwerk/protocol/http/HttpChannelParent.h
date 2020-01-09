@@ -318,7 +318,7 @@ nsACString
 type
 int64_t
 predictedSize
-nsIOutputStream
+nsIAsyncOutputStream
 *
 *
 _retval

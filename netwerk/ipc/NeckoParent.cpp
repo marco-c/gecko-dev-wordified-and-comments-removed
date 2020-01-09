@@ -1930,7 +1930,7 @@ channel
 ;
 nsCOMPtr
 <
-nsIOutputStream
+nsIAsyncOutputStream
 >
 stream
 ;
