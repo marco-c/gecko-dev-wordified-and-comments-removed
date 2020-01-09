@@ -1450,6 +1450,7 @@ arguments
 ;
 return
 {
+environment
 normandy
 :
 environment
