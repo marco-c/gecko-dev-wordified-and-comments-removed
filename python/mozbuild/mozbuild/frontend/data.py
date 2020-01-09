@@ -6634,6 +6634,10 @@ node
 .
 stub
 '
+            
+'
+android_apks
+'
         
 )
         
