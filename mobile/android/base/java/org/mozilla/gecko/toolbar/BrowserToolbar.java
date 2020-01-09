@@ -2576,6 +2576,9 @@ break
 case
 SECURITY_CHANGE
 :
+case
+TRACKING_CHANGE
+:
 flags
 .
 add
