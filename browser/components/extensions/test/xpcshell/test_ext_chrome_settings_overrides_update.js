@@ -348,6 +348,14 @@ startup
 )
 ;
 await
+AddonTestUtils
+.
+waitForSearchProviderStartup
+(
+extension
+)
+;
+await
 prefPromise
 ;
 equal
