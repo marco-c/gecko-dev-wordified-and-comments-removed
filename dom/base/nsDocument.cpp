@@ -9987,7 +9987,7 @@ false
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 nsresult
-nsDocument
+nsIDocument
 :
 :
 Init
@@ -36532,7 +36532,7 @@ true
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 Destroy
@@ -36657,7 +36657,7 @@ Shutdown
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 RemovedFromDocShell
