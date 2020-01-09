@@ -486,7 +486,7 @@ aKey
 optional
 ]
 in
-ACString
+AUTF8String
 aProfileName
 )
 ;
