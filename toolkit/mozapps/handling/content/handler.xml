@@ -192,6 +192,7 @@ inherits
 src
 =
 image
+disabled
 "
 height
 =
@@ -238,6 +239,7 @@ inherits
 value
 =
 name
+disabled
 "
 /
 >
@@ -258,6 +260,7 @@ inherits
 value
 =
 description
+disabled
 "
 /
 >
