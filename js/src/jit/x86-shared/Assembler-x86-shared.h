@@ -1885,12 +1885,6 @@ HARDCODED
 #
 endif
 }
-void
-setUnlimitedBuffer
-(
-)
-{
-}
 bool
 oom
 (
