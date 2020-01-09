@@ -17217,8 +17217,6 @@ const
 ActiveScrolledRoot
 *
 aActiveScrolledRoot
-bool
-aAnonymous
 )
 :
 mFrame
@@ -17281,10 +17279,6 @@ aBuilder
 IsRetainingDisplayList
 (
 )
-&
-&
-!
-aAnonymous
 )
 {
 mFrame
@@ -30564,8 +30558,6 @@ aFrame
 nsDisplayList
 *
 aList
-bool
-aAnonymous
 )
 :
 nsDisplayWrapList
@@ -30581,7 +30573,6 @@ CurrentActiveScrolledRoot
 )
 false
 0
-aAnonymous
 )
 {
 }
@@ -30607,8 +30598,6 @@ bool
 aClearClipChain
 uint32_t
 aIndex
-bool
-aAnonymous
 )
 :
 nsDisplayHitTestInfoItem
@@ -30616,7 +30605,6 @@ nsDisplayHitTestInfoItem
 aBuilder
 aFrame
 aActiveScrolledRoot
-aAnonymous
 )
 mFrameActiveScrolledRoot
 (
@@ -30802,8 +30790,6 @@ aFrame
 nsDisplayItem
 *
 aItem
-bool
-aAnonymous
 )
 :
 nsDisplayHitTestInfoItem
@@ -30816,7 +30802,6 @@ aBuilder
 CurrentActiveScrolledRoot
 (
 )
-aAnonymous
 )
 mOverrideZIndex
 (
