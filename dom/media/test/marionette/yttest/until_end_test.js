@@ -60,12 +60,6 @@ ended
 =
 >
 {
-video
-.
-pause
-(
-)
-;
 %
 (
 video_playback_quality
@@ -76,6 +70,12 @@ s
 debug_info
 )
 s
+video
+.
+pause
+(
+)
+;
 }
 {
 once
