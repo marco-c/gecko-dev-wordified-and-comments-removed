@@ -25809,17 +25809,6 @@ mUpdateScrollbarAttributes
 =
 false
 ;
-nsPresContext
-*
-presContext
-=
-mOuter
--
->
-PresContext
-(
-)
-;
 if
 (
 mMayHaveDirtyFixedChildren
@@ -25873,7 +25862,7 @@ GetNextSibling
 )
 )
 {
-presContext
+mOuter
 -
 >
 PresShell
