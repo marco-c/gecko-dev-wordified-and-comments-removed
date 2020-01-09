@@ -1,6 +1,8 @@
 import
 itertools
 import
+json
+import
 os
 from
 collections
@@ -50,25 +52,14 @@ try
 import
 ujson
 as
-json
-    
-JSON_LIBRARY
-=
-'
-ujson
-'
+fast_json
 except
 ImportError
 :
     
-import
-json
-    
-JSON_LIBRARY
+fast_json
 =
-'
 json
-'
 CURRENT_VERSION
 =
 5
@@ -2831,7 +2822,7 @@ from_json
 (
 tests_root
                                         
-json
+fast_json
 .
 load
 (
@@ -2886,7 +2877,7 @@ from_json
 (
 tests_root
                                 
-json
+fast_json
 .
 load
 (
@@ -3167,15 +3158,6 @@ as
 f
 :
         
-if
-JSON_LIBRARY
-=
-=
-'
-ujson
-'
-:
-            
 json
 .
 dump
@@ -3186,28 +3168,7 @@ to_json
 (
 )
 f
-sort_keys
-=
-True
-indent
-=
-1
-)
-        
-else
-:
-            
-json
-.
-dump
-(
-manifest
-.
-to_json
-(
-)
-f
-                      
+                  
 sort_keys
 =
 True
