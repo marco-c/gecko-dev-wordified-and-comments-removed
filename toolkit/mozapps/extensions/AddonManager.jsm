@@ -11599,6 +11599,14 @@ options
 .
 url
 {
+browser
+:
+target
+triggeringPrincipal
+:
+options
+.
+triggeringPrincipal
 hash
 :
 options
