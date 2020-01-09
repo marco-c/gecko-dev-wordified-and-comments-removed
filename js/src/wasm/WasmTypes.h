@@ -9030,6 +9030,7 @@ TableInit
 TableSet
 TableSize
 PostBarrier
+PostBarrierFiltering
 StructNew
 StructNarrow
 #
