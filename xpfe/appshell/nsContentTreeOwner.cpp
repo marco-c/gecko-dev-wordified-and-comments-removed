@@ -3669,6 +3669,7 @@ aParent
 openLocation
 flags
 nullPrincipal
+nullptr
 aReturn
 )
 ;
