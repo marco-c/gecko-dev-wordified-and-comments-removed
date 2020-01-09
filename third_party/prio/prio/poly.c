@@ -463,7 +463,7 @@ n_inverse
 =
 NULL
 ;
-MP_CHECK
+MP_CHECKC
 (
 fft_recurse
 (
