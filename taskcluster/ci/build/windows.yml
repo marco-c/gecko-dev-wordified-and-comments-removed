@@ -1418,6 +1418,11 @@ true
 release
 :
 true
+esr
+.
+*
+:
+false
 default
 :
 by
