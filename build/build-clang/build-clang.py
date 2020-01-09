@@ -5237,6 +5237,13 @@ extra_cflags2
 -
 fPIC
 "
+'
+-
+gcc
+-
+toolchain
+'
+stage1_inst_dir
 ]
         
 extra_cxxflags2
@@ -5252,6 +5259,13 @@ Qunused
 -
 arguments
 '
+'
+-
+gcc
+-
+toolchain
+'
+stage1_inst_dir
 ]
         
 extra_asmflags
