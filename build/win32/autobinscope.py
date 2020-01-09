@@ -201,7 +201,7 @@ symbol_path
         
 "
 /
-Checks
+SkippedChecks
 "
 "
 ATLVersionCheck
@@ -329,7 +329,7 @@ SharedSectionCheck
         
 "
 /
-Checks
+SkippedChecks
 "
 "
 VB6Check
