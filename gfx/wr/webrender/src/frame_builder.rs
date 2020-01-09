@@ -1897,12 +1897,6 @@ DeviceIntPoint
 zero
 (
 )
-Vec
-:
-:
-new
-(
-)
 UvRectKind
 :
 :
