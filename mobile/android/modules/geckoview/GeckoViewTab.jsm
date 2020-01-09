@@ -86,7 +86,7 @@ tab
 new
 Tab
 (
-10001
+0
 this
 .
 browser
