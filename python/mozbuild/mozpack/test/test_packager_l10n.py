@@ -7,6 +7,8 @@ unicode_literals
 import
 unittest
 import
+six
+import
 mozunit
 from
 test_packager
@@ -1220,10 +1222,11 @@ for
 p
 f
 in
-repacked
+six
 .
 iteritems
 (
+repacked
 )
 )
         

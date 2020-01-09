@@ -7,6 +7,8 @@ unicode_literals
 import
 os
 import
+six
+import
 stat
 import
 sys
@@ -957,12 +959,13 @@ registry
 '
         
 return
-self
-.
-_files
+six
 .
 iteritems
 (
+self
+.
+_files
 )
     
 def

@@ -49,6 +49,8 @@ mozunit
 import
 os
 import
+six
+import
 stat
 from
 mozpack
@@ -1002,10 +1004,11 @@ for
 path
 parts
 in
-cases
+six
 .
 iteritems
 (
+cases
 )
 :
             

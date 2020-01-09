@@ -16,6 +16,8 @@ import
 zlib
 import
 os
+import
+six
 from
 zipfile
 import
@@ -628,12 +630,13 @@ for
 name
 t
 in
-self
-.
-STRUCT
+six
 .
 iteritems
 (
+self
+.
+STRUCT
 )
 :
             
@@ -763,12 +766,13 @@ for
 name
 t
 in
-self
-.
-STRUCT
+six
 .
 iteritems
 (
+self
+.
+STRUCT
 )
 :
             
@@ -966,16 +970,18 @@ dict
 t
 name
 )
+                     
 for
 name
 t
 in
-self
-.
-STRUCT
+six
 .
 iteritems
 (
+self
+.
+STRUCT
 )
                      
 if
@@ -991,12 +997,13 @@ for
 name
 t
 in
-self
-.
-STRUCT
+six
 .
 iteritems
 (
+self
+.
+STRUCT
 )
 :
             
@@ -1134,12 +1141,13 @@ for
 name
 type
 in
-self
-.
-STRUCT
+six
 .
 iteritems
 (
+self
+.
+STRUCT
 )
 :
             
@@ -1273,12 +1281,13 @@ self
 :
         
 return
-self
-.
-_values
+six
 .
 iteritems
 (
+self
+.
+_values
 )
     
 def

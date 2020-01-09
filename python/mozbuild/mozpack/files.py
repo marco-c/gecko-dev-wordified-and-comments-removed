@@ -15,6 +15,8 @@ platform
 import
 shutil
 import
+six
+import
 stat
 import
 subprocess
@@ -6856,10 +6858,11 @@ finder
 in
 sorted
 (
-finders
+six
 .
 iteritems
 (
+finders
 )
 )
 :
