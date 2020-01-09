@@ -4862,12 +4862,7 @@ gfxPrefs
 AndroidRGB16Force
 (
 )
-gfxPrefs
-:
-:
-CanvasAzureAccelerated
-(
-)
+0
 gfxPrefs
 :
 :
