@@ -268,15 +268,6 @@ Globals
 .
 jsm
 '
-'
-privileged
-/
-subscripts
-/
-PanelUI
-.
-jsm
-'
 ]
 with
 Files
