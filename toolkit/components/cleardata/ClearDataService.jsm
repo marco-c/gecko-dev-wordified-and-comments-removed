@@ -1915,7 +1915,7 @@ Services
 .
 qms
 .
-getUsage
+listInitializedOrigins
 (
 aRequest
 =

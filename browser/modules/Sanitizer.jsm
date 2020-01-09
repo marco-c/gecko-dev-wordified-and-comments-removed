@@ -2942,7 +2942,7 @@ resolve
 {
 quotaManagerService
 .
-getUsage
+listInitializedOrigins
 (
 request
 =
@@ -2959,7 +2959,7 @@ quota
 -
 manager
 -
-getUsage
+listInitializedOrigins
 "
 ;
 if
