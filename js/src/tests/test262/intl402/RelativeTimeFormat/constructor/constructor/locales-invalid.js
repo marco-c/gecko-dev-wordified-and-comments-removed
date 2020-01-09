@@ -1,3 +1,16 @@
+assert
+.
+sameValue
+(
+typeof
+Intl
+.
+RelativeTimeFormat
+"
+function
+"
+)
+;
 for
 (
 const
@@ -29,6 +42,7 @@ locales
 )
 }
 )
+;
 }
 reportCompare
 (

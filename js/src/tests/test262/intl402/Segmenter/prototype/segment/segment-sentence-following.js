@@ -174,7 +174,7 @@ assert
 (
 iter
 .
-position
+index
 >
 =
 0
@@ -184,7 +184,7 @@ assert
 (
 iter
 .
-position
+index
 <
 =
 text
@@ -196,7 +196,7 @@ assert
 (
 iter
 .
-position
+index
 >
 prev
 )
@@ -212,7 +212,7 @@ substring
 prev
 iter
 .
-position
+index
 )
 )
 ;
@@ -220,7 +220,7 @@ prev
 =
 iter
 .
-position
+index
 ;
 }
 assert

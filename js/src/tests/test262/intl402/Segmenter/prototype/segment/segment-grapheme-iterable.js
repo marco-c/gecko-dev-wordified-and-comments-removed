@@ -229,7 +229,7 @@ substring
 prev
 iter
 .
-position
+index
 )
 v
 .
@@ -240,7 +240,7 @@ prev
 =
 iter
 .
-position
+index
 ;
 }
 assert

@@ -233,7 +233,7 @@ sameValue
 typeof
 v
 .
-position
+index
 "
 number
 "
@@ -245,14 +245,14 @@ oldPos
 <
 v
 .
-position
+index
 )
 ;
 oldPos
 =
 v
 .
-position
+index
 ;
 }
 assert

@@ -144,7 +144,7 @@ sameValue
 0
 iter
 .
-position
+index
 )
 ;
 }

@@ -42,7 +42,7 @@ sameValue
 (
 iter
 .
-position
+index
 0
 )
 ;

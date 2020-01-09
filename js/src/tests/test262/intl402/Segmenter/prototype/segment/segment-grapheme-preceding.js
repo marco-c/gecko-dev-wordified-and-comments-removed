@@ -159,7 +159,7 @@ assert
 (
 iter
 .
-position
+index
 >
 =
 0
@@ -169,7 +169,7 @@ assert
 (
 iter
 .
-position
+index
 <
 prev
 )
@@ -184,7 +184,7 @@ substring
 (
 iter
 .
-position
+index
 prev
 )
 )
@@ -193,7 +193,7 @@ prev
 =
 iter
 .
-position
+index
 ;
 while
 (
@@ -219,7 +219,7 @@ assert
 (
 iter
 .
-position
+index
 >
 =
 0
@@ -229,7 +229,7 @@ assert
 (
 iter
 .
-position
+index
 <
 =
 text
@@ -241,7 +241,7 @@ assert
 (
 iter
 .
-position
+index
 <
 prev
 )
@@ -256,7 +256,7 @@ substring
 (
 iter
 .
-position
+index
 prev
 )
 )
@@ -265,7 +265,7 @@ prev
 =
 iter
 .
-position
+index
 ;
 }
 assert

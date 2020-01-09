@@ -1,3 +1,16 @@
+assert
+.
+sameValue
+(
+typeof
+Intl
+.
+RelativeTimeFormat
+"
+function
+"
+)
+;
 const
 invalidOptions
 =
