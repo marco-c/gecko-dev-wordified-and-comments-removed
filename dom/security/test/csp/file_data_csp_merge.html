@@ -187,7 +187,7 @@ dataFrame
 )
 ;
 var
-principal
+contentDoc
 =
 SpecialPowers
 .
@@ -197,8 +197,6 @@ frame
 )
 .
 contentDocument
-.
-nodePrincipal
 ;
 var
 cspOBJ
@@ -207,7 +205,7 @@ JSON
 .
 parse
 (
-principal
+contentDoc
 .
 cspJSON
 )

@@ -316,7 +316,7 @@ translates
 into
 data
 var
-principal
+contentDoc
 =
 SpecialPowers
 .
@@ -326,15 +326,6 @@ frame
 )
 .
 contentDocument
-.
-nodePrincipal
-;
-var
-cspJSON
-=
-principal
-.
-cspJSON
 ;
 /
 /
@@ -353,6 +344,8 @@ JSON
 .
 parse
 (
+contentDoc
+.
 cspJSON
 )
 ;

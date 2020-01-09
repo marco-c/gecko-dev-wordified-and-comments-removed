@@ -469,10 +469,13 @@ selfuri
 ;
 csp
 .
-setRequestContext
+setRequestContextWithPrincipal
 (
-null
 principal
+selfuri
+"
+"
+0
 )
 ;
 csp
