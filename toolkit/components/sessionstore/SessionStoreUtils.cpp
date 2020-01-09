@@ -1468,13 +1468,13 @@ CollectedData
 aRetVal
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
 aDocument
 .
-GetShell
+GetPresShell
 (
 )
 ;

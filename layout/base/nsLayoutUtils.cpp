@@ -142,6 +142,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleSetInlines
 .
 h
@@ -3283,7 +3292,7 @@ OwnerDoc
 )
 -
 >
-GetShell
+GetPresShell
 (
 )
 ;
@@ -49023,7 +49032,7 @@ result
 doc
 -
 >
-GetShell
+GetPresShell
 (
 )
 ;

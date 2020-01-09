@@ -195,9 +195,6 @@ nsIContent
 class
 nsIFrame
 ;
-class
-nsIPresShell
-;
 namespace
 mozilla
 {
@@ -224,6 +221,9 @@ EffectSet
 ;
 class
 ComputedStyle
+;
+class
+PresShell
 ;
 namespace
 dom
@@ -957,7 +957,7 @@ GetRenderedDocument
 )
 const
 ;
-nsIPresShell
+PresShell
 *
 GetPresShell
 (
