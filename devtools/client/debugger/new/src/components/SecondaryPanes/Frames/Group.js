@@ -502,6 +502,7 @@ reduce
 (
 acc
 frame
+i
 )
 =
 >
@@ -517,6 +518,17 @@ push
 (
 <
 FrameIndent
+key
+=
+{
+frame
+-
+indent
+-
+{
+i
+}
+}
 /
 >
 )
