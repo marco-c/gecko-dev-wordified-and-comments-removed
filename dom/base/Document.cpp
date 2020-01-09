@@ -56951,9 +56951,7 @@ MaybeAllowStorageForOpenerAfterUserInteraction
 {
 if
 (
-CookieSettings
-(
-)
+mCookieSettings
 -
 >
 GetCookieBehavior
@@ -59113,9 +59111,7 @@ forget
 }
 if
 (
-CookieSettings
-(
-)
+mCookieSettings
 -
 >
 GetCookieBehavior
@@ -59325,9 +59321,7 @@ forget
 }
 if
 (
-CookieSettings
-(
-)
+mCookieSettings
 -
 >
 GetCookieBehavior
