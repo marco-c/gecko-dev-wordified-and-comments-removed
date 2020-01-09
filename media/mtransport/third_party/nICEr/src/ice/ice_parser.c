@@ -2358,7 +2358,7 @@ pctx
 >
 controlling
 =
-0
+1
 ;
 fast_forward
 (
