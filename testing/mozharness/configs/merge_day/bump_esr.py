@@ -120,6 +120,34 @@ suffix
 ]
     
 "
+tools_repo_url
+"
+:
+"
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+build
+/
+tools
+"
+    
+"
+tools_repo_branch
+"
+:
+"
+default
+"
+    
+"
 to_repo_url
 "
 :
@@ -175,6 +203,10 @@ repos
         
 "
 pull
+"
+        
+"
+set_push_to_ssh
 "
         
 "
