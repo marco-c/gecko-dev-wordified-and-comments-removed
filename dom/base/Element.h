@@ -3986,16 +3986,6 @@ aOptions
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-bool
-ScrollByNoFlush
-(
-int32_t
-aDx
-int32_t
-aDy
-)
-;
-MOZ_CAN_RUN_SCRIPT
 int32_t
 ScrollTop
 (
