@@ -308,7 +308,6 @@ Entry
 :
 Occupied
 (
-mut
 entry
 )
 =
