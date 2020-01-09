@@ -79,6 +79,11 @@ BreakpointHeading
 js
 '
 '
+BreakpointHeadingsContextMenu
+.
+js
+'
+'
 BreakpointsContextMenu
 .
 js
