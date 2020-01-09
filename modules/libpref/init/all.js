@@ -35492,6 +35492,16 @@ timeout_ms
 pref
 (
 "
+signon
+.
+showAutoCompleteFooter
+"
+false
+)
+;
+pref
+(
+"
 browser
 .
 formfill
