@@ -1163,13 +1163,9 @@ charset
 var
 aReferrerInfo
 =
-(
-"
-referrerInfo
-"
-in
 params
-)
+.
+referrerInfo
 ?
 params
 .
