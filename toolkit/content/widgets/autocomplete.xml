@@ -251,6 +251,11 @@ allowevents
 "
 true
 "
+autocomplete
+=
+"
+off
+"
 xbl
 :
 inherits
