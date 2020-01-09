@@ -97,6 +97,15 @@ getHeadPointer
 0
 ;
 virtual
+nsIContentHandle
+*
+getDeepTreeSurrogateParent
+(
+)
+=
+0
+;
+virtual
 int32_t
 getMode
 (

@@ -2023,17 +2023,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-Android
-&
-&
-AndroidVersion
-<
-21
-)
 load
 507119
 .

@@ -295,9 +295,6 @@ mCallContinueInterruptedParsingIfEnabled
 bool
 mAlreadyComplainedAboutCharset
 ;
-bool
-mAlreadyComplainedAboutDeepTree
-;
 public
 :
 nsHtml5TreeOpExecutor
@@ -541,13 +538,6 @@ dom
 :
 Document
 *
-)
-;
-void
-MaybeComplainAboutDeepTree
-(
-uint32_t
-aLineNumber
 )
 ;
 bool

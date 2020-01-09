@@ -392,11 +392,6 @@ aHighlighter
 )
 ;
 void
-errDeepTree
-(
-)
-;
-void
 errStrayStartTag
 (
 nsAtom
