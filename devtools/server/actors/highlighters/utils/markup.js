@@ -2857,10 +2857,16 @@ zoom
 )
 translate
 (
+calc
+(
 {
 left
 }
 px
+-
+50
+%
+)
 {
 top
 }
