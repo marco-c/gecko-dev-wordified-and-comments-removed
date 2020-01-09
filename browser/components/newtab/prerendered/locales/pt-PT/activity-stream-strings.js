@@ -1254,5 +1254,13 @@ context_menu_title
 Abrir
 menu
 "
+"
+pocket_learn_more
+"
+:
+"
+Saiba
+mais
+"
 }
 ;

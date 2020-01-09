@@ -456,10 +456,8 @@ prefs_content_discovery_header
 "
 :
 "
-Domovsk
-str
-nka
-Firefoxu
+Firefox
+Home
 "
 "
 prefs_content_discovery_description

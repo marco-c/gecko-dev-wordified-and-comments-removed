@@ -536,17 +536,8 @@ feed
 .
 url
 ]
-?
-feeds
-[
-feed
-.
-url
-]
 .
 lastUpdated
-:
-null
 )
 |
 |
