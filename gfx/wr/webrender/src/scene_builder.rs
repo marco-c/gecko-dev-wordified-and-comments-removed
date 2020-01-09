@@ -3801,6 +3801,17 @@ rasterize_blobs
 is_low_priority
 )
 ;
+txn
+.
+blob_requests
+=
+Vec
+:
+:
+new
+(
+)
+;
 if
 self
 .
