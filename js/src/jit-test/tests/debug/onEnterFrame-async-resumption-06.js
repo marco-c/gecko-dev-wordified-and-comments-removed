@@ -268,7 +268,10 @@ assertEq
 pw2
 .
 promiseValue
-undefined
+"
+moar
+ponies
+"
 )
 ;
 let

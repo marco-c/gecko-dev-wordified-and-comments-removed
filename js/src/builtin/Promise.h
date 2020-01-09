@@ -763,12 +763,6 @@ AsyncFunctionGeneratorObject
 *
 >
 genObj
-Handle
-<
-PromiseObject
-*
->
-resultPromise
 HandleValue
 value
 )
