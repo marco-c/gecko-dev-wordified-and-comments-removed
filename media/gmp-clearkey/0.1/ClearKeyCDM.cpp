@@ -21,7 +21,7 @@ ClearKeyCDM
 :
 ClearKeyCDM
 (
-Host_9
+Host_10
 *
 aHost
 )
@@ -49,6 +49,8 @@ bool
 aAllowDistinctiveIdentifier
 bool
 aAllowPersistentState
+bool
+aUseHardwareSecureCodecs
 )
 {
 mSessionManager
@@ -283,7 +285,7 @@ ClearKeyCDM
 Decrypt
 (
 const
-InputBuffer_1
+InputBuffer_2
 &
 aEncryptedBuffer
 DecryptedBlock
@@ -309,7 +311,7 @@ ClearKeyCDM
 InitializeAudioDecoder
 (
 const
-AudioDecoderConfig_1
+AudioDecoderConfig_2
 &
 aAudioDecoderConfig
 )
@@ -328,7 +330,7 @@ ClearKeyCDM
 InitializeVideoDecoder
 (
 const
-VideoDecoderConfig_1
+VideoDecoderConfig_2
 &
 aVideoDecoderConfig
 )
@@ -445,7 +447,7 @@ ClearKeyCDM
 DecryptAndDecodeFrame
 (
 const
-InputBuffer_1
+InputBuffer_2
 &
 aEncryptedBuffer
 VideoFrame
@@ -484,7 +486,7 @@ ClearKeyCDM
 DecryptAndDecodeSamples
 (
 const
-InputBuffer_1
+InputBuffer_2
 &
 aEncryptedBuffer
 AudioFrames

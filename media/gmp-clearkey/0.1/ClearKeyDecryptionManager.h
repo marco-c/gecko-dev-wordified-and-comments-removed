@@ -57,7 +57,7 @@ const
 cdm
 :
 :
-InputBuffer_1
+InputBuffer_2
 *
 aInputBuffer
 )
@@ -75,7 +75,7 @@ const
 cdm
 :
 :
-InputBuffer_1
+InputBuffer_2
 *
 aInputBuffer
 )
