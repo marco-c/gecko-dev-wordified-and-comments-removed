@@ -80,6 +80,13 @@ selectStartupProfile
 (
 )
 ;
+checkStartupReason
+(
+"
+default
+"
+)
+;
 let
 profileData
 =

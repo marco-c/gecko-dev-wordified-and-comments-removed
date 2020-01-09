@@ -118,6 +118,17 @@ selectStartupProfile
 (
 )
 ;
+checkStartupReason
+(
+"
+firstrun
+-
+claimed
+-
+default
+"
+)
+;
 let
 hash
 =
