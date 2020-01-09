@@ -83,14 +83,13 @@ res
 .
 statusText
 "
+OK
 "
 "
 Default
 statusText
 is
-an
-empty
-string
+OK
 "
 )
 ;
