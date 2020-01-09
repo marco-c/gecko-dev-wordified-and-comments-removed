@@ -26776,18 +26776,6 @@ stringifier
         
 self
 .
-enforceRange
-=
-False
-        
-self
-.
-clamp
-=
-False
-        
-self
-.
 slotIndices
 =
 None
@@ -30495,18 +30483,6 @@ dictionaryMember
 self
 .
 _isComplete
-=
-False
-        
-self
-.
-enforceRange
-=
-False
-        
-self
-.
-clamp
 =
 False
         
