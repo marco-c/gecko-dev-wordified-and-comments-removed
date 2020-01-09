@@ -277,6 +277,8 @@ TestEnvironment
 (
 test_paths
                                          
+1
+                                         
 False
                                          
 None
