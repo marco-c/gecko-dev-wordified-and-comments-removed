@@ -3214,7 +3214,7 @@ this
 .
 div
 .
-offsetWidth
+clientWidthDouble
 height
 =
 isWritingDirectionHorizontal
@@ -3223,7 +3223,7 @@ this
 .
 div
 .
-offsetHeight
+clientHeightDouble
 :
 this
 .
