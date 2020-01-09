@@ -545,6 +545,9 @@ IonCanCompile
 (
 )
 )
+#
+ifdef
+ENABLE_WASM_CRANELIFT
 |
 |
 (
@@ -564,6 +567,8 @@ CraneliftCanCompile
 (
 )
 )
+#
+endif
 ;
 }
 static
