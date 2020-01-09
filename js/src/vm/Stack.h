@@ -5512,8 +5512,10 @@ prevJitActivation_
 typedef
 GCVector
 <
+UniquePtr
+<
 RematerializedFrame
-*
+>
 >
 RematerializedFrameVector
 ;
