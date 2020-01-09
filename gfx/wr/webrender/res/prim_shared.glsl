@@ -1872,6 +1872,7 @@ WR_FEATURE_DITHERING
 vec4
 sample_gradient
 (
+HIGHP_FS_ADDRESS
 int
 address
 float

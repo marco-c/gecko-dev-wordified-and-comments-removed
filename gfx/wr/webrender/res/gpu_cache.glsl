@@ -135,6 +135,7 @@ vertices
 ivec2
 get_gpu_cache_uv
 (
+HIGHP_FS_ADDRESS
 int
 address
 )
@@ -204,6 +205,7 @@ vec4
 ]
 fetch_from_gpu_cache_2
 (
+HIGHP_FS_ADDRESS
 int
 address
 )
@@ -266,6 +268,7 @@ address
 vec4
 fetch_from_gpu_cache_1
 (
+HIGHP_FS_ADDRESS
 int
 address
 )

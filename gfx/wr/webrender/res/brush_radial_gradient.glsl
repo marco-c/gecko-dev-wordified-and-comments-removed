@@ -67,6 +67,7 @@ prim_shared
 brush
 flat
 varying
+HIGHP_FS_ADDRESS
 int
 vGradientAddress
 ;
