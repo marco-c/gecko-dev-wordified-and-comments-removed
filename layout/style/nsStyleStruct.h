@@ -6171,7 +6171,10 @@ mLetterSpacing
 nsStyleCoord
 mLineHeight
 ;
-nsStyleCoord
+mozilla
+:
+:
+LengthPercentage
 mTextIndent
 ;
 nscoord

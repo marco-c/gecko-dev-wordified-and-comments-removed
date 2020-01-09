@@ -19022,11 +19022,12 @@ eStyleUnit_Normal
 )
 mTextIndent
 (
-0
-nsStyleCoord
+LengthPercentage
 :
 :
-CoordConstructor
+Zero
+(
+)
 )
 mWebkitTextStrokeWidth
 (

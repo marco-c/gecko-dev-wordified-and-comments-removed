@@ -11692,7 +11692,7 @@ impl_style_coord
 LengthPercentage
 "
 :
-impl_style_coord
+impl_simple
 "
 LengthPercentageOrAuto
 "
