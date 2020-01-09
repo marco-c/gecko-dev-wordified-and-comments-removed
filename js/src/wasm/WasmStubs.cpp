@@ -1588,8 +1588,6 @@ ImmPtr
 >
 &
 funcPtr
-HasGcTypes
-gcTypesConfigured
 Offsets
 *
 offsets
@@ -2561,8 +2559,6 @@ ImmPtr
 >
 &
 funcPtr
-HasGcTypes
-gcTypesConfigured
 Offsets
 *
 offsets
@@ -10340,8 +10336,6 @@ ImmPtr
 callee
 bool
 isAsmJS
-HasGcTypes
-gcTypesConfigured
 CodeRangeVector
 *
 codeRanges
@@ -10381,7 +10375,6 @@ GenerateInterpEntry
 masm
 fe
 callee
-gcTypesConfigured
 &
 offsets
 )
@@ -10445,7 +10438,6 @@ masm
 funcExportIndex
 fe
 callee
-gcTypesConfigured
 &
 offsets
 )
@@ -10764,9 +10756,6 @@ env
 isAsmJS
 (
 )
-env
-.
-gcTypesConfigured
 &
 code
 -

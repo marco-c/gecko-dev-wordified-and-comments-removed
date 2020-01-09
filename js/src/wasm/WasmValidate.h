@@ -137,7 +137,7 @@ optimizedBackend_
 DebugEnabled
 debug_
 ;
-HasGcTypes
+bool
 gcTypes_
 ;
 }
@@ -165,7 +165,7 @@ OptimizedBackend
 optimizedBackend
 DebugEnabled
 debugEnabled
-HasGcTypes
+bool
 gcTypesConfigured
 )
 ;
@@ -175,14 +175,14 @@ computeParameters
 Decoder
 &
 d
-HasGcTypes
+bool
 gcFeatureOptIn
 )
 ;
 void
 computeParameters
 (
-HasGcTypes
+bool
 gcFeatureOptIn
 )
 ;
@@ -267,7 +267,7 @@ return
 debug_
 ;
 }
-HasGcTypes
+bool
 gcTypes
 (
 )
@@ -297,10 +297,6 @@ const
 Shareable
 sharedMemoryEnabled
 ;
-const
-HasGcTypes
-gcTypesConfigured
-;
 CompilerEnvironment
 *
 const
@@ -309,7 +305,7 @@ compilerEnv
 #
 ifdef
 ENABLE_WASM_REFTYPES
-HasGcTypes
+bool
 gcFeatureOptIn
 ;
 #
@@ -389,7 +385,7 @@ funcNames
 explicit
 ModuleEnvironment
 (
-HasGcTypes
+bool
 gcTypesConfigured
 CompilerEnvironment
 *
@@ -413,10 +409,6 @@ sharedMemoryEnabled
 (
 sharedMemoryEnabled
 )
-gcTypesConfigured
-(
-gcTypesConfigured
-)
 compilerEnv
 (
 compilerEnv
@@ -426,10 +418,7 @@ ifdef
 ENABLE_WASM_REFTYPES
 gcFeatureOptIn
 (
-HasGcTypes
-:
-:
-False
+false
 )
 #
 endif
@@ -586,7 +575,7 @@ length
 )
 ;
 }
-HasGcTypes
+bool
 gcTypesEnabled
 (
 )
@@ -721,12 +710,6 @@ MOZ_ASSERT
 gcTypesEnabled
 (
 )
-=
-=
-HasGcTypes
-:
-:
-True
 )
 ;
 return
@@ -4130,7 +4113,7 @@ const
 TypeDefVector
 &
 types
-HasGcTypes
+bool
 gcTypesEnabled
 ValTypeVector
 *

@@ -1180,9 +1180,6 @@ kind
 MemoryUsage
 memoryUsage
 ;
-HasGcTypes
-temporaryGcTypesConfigured
-;
 uint32_t
 minMemoryLength
 ;
@@ -1227,13 +1224,6 @@ MemoryUsage
 :
 :
 None
-)
-temporaryGcTypesConfigured
-(
-HasGcTypes
-:
-:
-False
 )
 minMemoryLength
 (
@@ -1936,8 +1926,6 @@ lastStubSegmentIndex_
 bool
 createMany
 (
-HasGcTypes
-gcTypesEnabled
 const
 Uint32Vector
 &
@@ -2008,8 +1996,6 @@ codeTier
 bool
 createTier2
 (
-HasGcTypes
-gcTypesConfigured
 const
 Uint32Vector
 &
