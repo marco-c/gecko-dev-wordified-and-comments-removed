@@ -1263,7 +1263,7 @@ layout
 *
 /
 void
-setPageMode
+setPageModeForTesting
 (
 in
 boolean

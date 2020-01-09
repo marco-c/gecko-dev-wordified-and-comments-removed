@@ -16111,7 +16111,7 @@ NS_IMETHODIMP
 nsDocumentViewer
 :
 :
-SetPageMode
+SetPageModeForTesting
 (
 bool
 aPageMode
