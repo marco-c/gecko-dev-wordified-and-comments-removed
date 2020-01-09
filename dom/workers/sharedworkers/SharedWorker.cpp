@@ -1063,6 +1063,19 @@ void_t
 )
 ;
 }
+bool
+storageAccessAllowed
+=
+storageAllowed
+>
+nsContentUtils
+:
+:
+StorageAccess
+:
+:
+eDeny
+;
 RemoteWorkerData
 remoteWorkerData
 (
@@ -1084,6 +1097,7 @@ loadInfo
 mDomain
 isSecureContext
 ipcClientInfo
+storageAccessAllowed
 true
 )
 ;
