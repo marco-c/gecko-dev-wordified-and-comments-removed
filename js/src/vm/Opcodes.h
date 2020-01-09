@@ -1464,8 +1464,6 @@ NULL
 1
 2
 JOF_BYTE
-|
-JOF_IC
 )
 \
 \
@@ -1496,8 +1494,6 @@ NULL
 1
 0
 JOF_BYTE
-|
-JOF_IC
 )
 \
 \
