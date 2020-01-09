@@ -208,6 +208,7 @@ Copy
 Clone
 Eq
 Hash
+MallocSizeOf
 PartialEq
 PartialOrd
 Ord

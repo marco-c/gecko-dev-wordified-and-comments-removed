@@ -474,6 +474,7 @@ derive
 Debug
 Clone
 Copy
+MallocSizeOf
 )
 ]
 pub
@@ -3688,6 +3689,7 @@ MAX_COORD
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 pub

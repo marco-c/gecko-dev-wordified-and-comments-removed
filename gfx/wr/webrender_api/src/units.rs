@@ -367,6 +367,7 @@ Clone
 Copy
 Debug
 Eq
+MallocSizeOf
 PartialEq
 Ord
 PartialOrd
@@ -487,6 +488,7 @@ Clone
 Copy
 Debug
 Eq
+MallocSizeOf
 PartialEq
 Ord
 PartialOrd
