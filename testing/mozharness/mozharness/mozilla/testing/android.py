@@ -2507,9 +2507,14 @@ apk
 )
         
 except
+(
 mozdevice
 .
 ADBError
+mozdevice
+.
+ADBTimeoutError
+)
 :
             
 self
@@ -2595,15 +2600,15 @@ return
 True
         
 except
+(
 ValueError
-:
-            
-pass
-        
-except
 mozdevice
 .
 ADBError
+mozdevice
+.
+ADBTimeoutError
+)
 :
             
 pass
