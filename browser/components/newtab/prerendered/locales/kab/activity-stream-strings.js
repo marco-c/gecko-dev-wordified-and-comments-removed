@@ -430,8 +430,9 @@ prefs_content_discovery_header
 "
 :
 "
+Asebter
+agejdan
 Firefox
-Home
 "
 "
 prefs_content_discovery_description
@@ -1234,14 +1235,6 @@ context_menu_title
 "
 Ldi
 umu
-"
-"
-pocket_learn_more
-"
-:
-"
-Issin
-ugar
 "
 }
 ;
