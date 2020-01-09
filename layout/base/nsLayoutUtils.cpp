@@ -16012,12 +16012,11 @@ aFrame
 float
 devPixelPerCSSPixel
 =
-1
-.
-f
-*
+float
+(
 AppUnitsPerCSSPixel
 (
+)
 )
 /
 srcAppUnitsPerDevPixel
