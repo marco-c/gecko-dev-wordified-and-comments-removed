@@ -86,6 +86,9 @@ setRemoteDescription
 answer
 )
 ;
+return
+callee
+;
 }
 function
 validateSenderRtpParameters
