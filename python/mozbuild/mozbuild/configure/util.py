@@ -15,6 +15,8 @@ logging
 import
 os
 import
+six
+import
 sys
 from
 collections
@@ -251,7 +253,9 @@ if
 isinstance
 (
 other
-unicode
+six
+.
+text_type
 )
 :
             

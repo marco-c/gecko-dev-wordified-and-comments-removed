@@ -1614,7 +1614,9 @@ __import__
 forbidden_import
 str
 =
-unicode
+six
+.
+text_type
 )
     
 OS
