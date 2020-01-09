@@ -2,7 +2,6 @@ import
 type
 {
 Source
-SourceActor
 SourceLocation
 }
 from
@@ -93,12 +92,6 @@ Array
 <
 Source
 >
-+
-sourceActors
-:
-SourceActor
-[
-]
 |
 }
 |

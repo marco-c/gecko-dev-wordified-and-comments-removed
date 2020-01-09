@@ -39,7 +39,7 @@ getSelectedSource
 getDebuggeeUrl
 getExpandedState
 getProjectDirectoryRoot
-getRelativeSourcesForThread
+getDisplayedSourcesForThread
 getFocusedSourceItem
 getWorkerByThread
 getWorkerCount
@@ -1625,7 +1625,7 @@ getSourceForTree
 state
 :
 AppState
-relativeSources
+displayedSources
 :
 SourcesMap
 source
@@ -1650,7 +1650,7 @@ null
 }
 source
 =
-relativeSources
+displayedSources
 [
 source
 .
@@ -1728,9 +1728,9 @@ props
 thread
 ;
 const
-relativeSources
+displayedSources
 =
-getRelativeSourcesForThread
+getDisplayedSourcesForThread
 (
 state
 thread
@@ -1743,7 +1743,7 @@ shownSource
 getSourceForTree
 (
 state
-relativeSources
+displayedSources
 shownSource
 thread
 )
@@ -1752,7 +1752,7 @@ selectedSource
 getSourceForTree
 (
 state
-relativeSources
+displayedSources
 selectedSource
 thread
 )
@@ -1798,14 +1798,14 @@ state
 )
 sources
 :
-relativeSources
+displayedSources
 sourceCount
 :
 Object
 .
 values
 (
-relativeSources
+displayedSources
 )
 .
 length

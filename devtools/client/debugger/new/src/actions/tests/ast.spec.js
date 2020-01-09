@@ -357,7 +357,7 @@ getState
 store
 ;
 const
-csr
+source
 =
 makeOriginalSource
 (
@@ -393,7 +393,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -409,8 +409,6 @@ getSource
 getState
 (
 )
-csr
-.
 source
 .
 id
@@ -425,8 +423,6 @@ actions
 .
 setSourceMetaData
 (
-csr
-.
 source
 .
 id
@@ -447,8 +443,6 @@ metaData
 getSourceMetaData
 (
 state
-csr
-.
 source
 .
 id
@@ -473,8 +467,6 @@ getSourceMetaData
 getState
 (
 )
-csr
-.
 source
 .
 id
@@ -563,8 +555,6 @@ actions
 loadSourceText
 (
 base
-.
-source
 )
 )
 ;
@@ -592,8 +582,6 @@ getState
 (
 )
 base
-.
-source
 .
 id
 )
@@ -703,8 +691,6 @@ actions
 loadSourceText
 (
 base
-.
-source
 )
 )
 ;
@@ -735,8 +721,6 @@ isSymbolsLoading
 (
 state
 base
-.
-source
 )
 )
 ;
@@ -749,8 +733,6 @@ getState
 (
 )
 base
-.
-source
 )
 ;
 expect
@@ -839,8 +821,6 @@ getState
 (
 )
 base
-.
-source
 )
 ;
 expect
@@ -982,7 +962,7 @@ getState
 store
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -1000,7 +980,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;

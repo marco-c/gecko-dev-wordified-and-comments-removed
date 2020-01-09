@@ -39,7 +39,7 @@ types
 const
 {
 getProjectDirectoryRoot
-getRelativeSources
+getDisplayedSources
 }
 =
 selectors
@@ -450,7 +450,7 @@ js
 const
 filteredSourcesByThread
 =
-getRelativeSources
+getDisplayedSources
 (
 getState
 (

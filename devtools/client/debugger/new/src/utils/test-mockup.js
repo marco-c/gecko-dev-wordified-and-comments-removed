@@ -84,6 +84,10 @@ url
 introductionUrl
 :
 null
+actors
+:
+[
+]
 isWasm
 :
 false
@@ -143,6 +147,10 @@ url
 introductionUrl
 :
 null
+actors
+:
+[
+]
 isWasm
 :
 true

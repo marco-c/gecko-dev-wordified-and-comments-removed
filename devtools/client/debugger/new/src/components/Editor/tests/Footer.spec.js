@@ -141,8 +141,6 @@ foo
 "
 )
 .
-source
-.
 .
 .
 overrides

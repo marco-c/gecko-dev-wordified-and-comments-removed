@@ -361,7 +361,7 @@ foo
 "
 ;
 const
-csr1
+source1
 =
 makeSource
 (
@@ -371,7 +371,7 @@ foo1
 )
 ;
 const
-csr2
+source2
 =
 makeSource
 (
@@ -387,7 +387,7 @@ actions
 .
 newSource
 (
-csr1
+source1
 )
 )
 ;
@@ -398,7 +398,7 @@ actions
 .
 newSource
 (
-csr2
+source2
 )
 )
 ;
@@ -452,7 +452,7 @@ async
 >
 {
 const
-csr1
+source1
 =
 makeSource
 (
@@ -471,7 +471,7 @@ formatted
 )
 ;
 const
-csr2
+source2
 =
 makeSource
 (
@@ -536,9 +536,7 @@ async
 =
 >
 [
-csr2
-.
-source
+source2
 .
 url
 ]
@@ -572,7 +570,7 @@ actions
 .
 newSource
 (
-csr1
+source1
 )
 )
 ;
@@ -583,7 +581,7 @@ actions
 .
 newSource
 (
-csr2
+source2
 )
 )
 ;
@@ -647,7 +645,7 @@ threadClient
 )
 ;
 const
-csr
+source
 =
 makeSource
 (
@@ -663,7 +661,7 @@ actions
 .
 newSource
 (
-csr
+source
 )
 )
 ;
@@ -674,8 +672,6 @@ actions
 .
 loadSourceText
 (
-csr
-.
 source
 )
 )

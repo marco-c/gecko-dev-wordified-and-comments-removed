@@ -155,8 +155,6 @@ foo
 "
 )
 .
-source
-.
 .
 .
 overrides
@@ -342,8 +340,6 @@ loaded
 "
 }
 )
-.
-source
 }
 )
 ;
@@ -485,8 +481,6 @@ loaded
 "
 }
 )
-.
-source
 }
 )
 ;

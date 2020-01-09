@@ -1,6 +1,6 @@
 import
 {
-createSource
+makeMockSource
 }
 from
 "
@@ -13,9 +13,11 @@ from
 .
 .
 /
-reducers
+utils
 /
-sources
+test
+-
+mockup
 "
 ;
 import
@@ -76,9 +78,14 @@ source
 id
 ]
 =
-createSource
+makeMockSource
 (
 source
+.
+url
+source
+.
+id
 )
 ;
 return
