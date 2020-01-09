@@ -293,9 +293,6 @@ BLUR
 :
 2
 }
-MAX_TEXT_LENGTH
-:
-255
 addToUrlbarHistory
 (
 url
