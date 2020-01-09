@@ -550,11 +550,6 @@ value
 "
 FILL
 "
-id
-=
-"
-fillPosition
-"
 /
 >
 <
@@ -572,11 +567,6 @@ value
 =
 "
 FIT
-"
-id
-=
-"
-fitPosition
 "
 /
 >
