@@ -95,6 +95,9 @@ threadClient
 18
 )
 ;
+const
+bp
+=
 await
 setBreakpoint
 (
@@ -139,6 +142,14 @@ threadClient
 number
 "
 5
+)
+;
+await
+threadClient
+.
+removeBreakpoint
+(
+bp
 )
 ;
 await

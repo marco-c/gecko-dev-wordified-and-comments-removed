@@ -37,6 +37,9 @@ toolbox
 =
 dbg
 ;
+const
+bp
+=
 await
 setBreakpoint
 (
@@ -200,6 +203,14 @@ threadClient
 number
 "
 10
+)
+;
+await
+threadClient
+.
+removeBreakpoint
+(
+bp
 )
 ;
 await
