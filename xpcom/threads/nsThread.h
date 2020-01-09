@@ -270,12 +270,6 @@ const
 nsACString
 &
 aName
-=
-NS_LITERAL_CSTRING
-(
-"
-"
-)
 )
 ;
 nsresult
