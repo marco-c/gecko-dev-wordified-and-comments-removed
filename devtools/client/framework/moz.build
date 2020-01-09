@@ -102,6 +102,15 @@ ini
 test
 /
 browser
+-
+rtl
+.
+ini
+'
+'
+test
+/
+browser
 .
 ini
 '
