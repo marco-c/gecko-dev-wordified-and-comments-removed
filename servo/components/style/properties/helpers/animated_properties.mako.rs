@@ -189,6 +189,8 @@ animated
 effects
 :
 :
+Filter
+as
 AnimatedFilter
 ;
 #

@@ -11,6 +11,8 @@ generics
 url
 :
 :
+UrlOrNone
+as
 GenericUrlOrNone
 ;
 #
