@@ -198,6 +198,11 @@ UrlClassifierFeatureLoginReputation
 cpp
 '
 '
+UrlClassifierFeatureNoChannel
+.
+cpp
+'
+'
 UrlClassifierFeatureResult
 .
 cpp
