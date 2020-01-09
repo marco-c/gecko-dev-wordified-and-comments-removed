@@ -275,6 +275,7 @@ BLAKE2B_End
 BLAKE2B_FlattenSize
 BLAKE2B_Flatten
 BLAKE2B_Resurrect
+ChaCha20_Xor
 }
 ;
 const

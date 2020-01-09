@@ -3454,7 +3454,7 @@ error
 =
 CKR_ATTRIBUTE_TYPE_INVALID
 ;
-break
+continue
 ;
 }
 if
@@ -3521,7 +3521,7 @@ error
 =
 CKR_BUFFER_TOO_SMALL
 ;
-break
+continue
 ;
 }
 PORT_Memcpy

@@ -250,6 +250,12 @@ kTlsAlertUnrecognizedName
 ;
 const
 uint8_t
+kTlsAlertCertificateRequired
+=
+116
+;
+const
+uint8_t
 kTlsAlertNoApplicationProtocol
 =
 120

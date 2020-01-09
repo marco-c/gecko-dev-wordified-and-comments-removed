@@ -701,6 +701,7 @@ SSL_READER_CURRENT
 reader
 )
 hashLen
+ssl3_UpdateHandshakeHashes
 )
 ;
 if
@@ -757,6 +758,7 @@ SSL_BUFFER_LEN
 &
 messageBuf
 )
+ssl3_UpdateHandshakeHashes
 )
 ;
 sslBuffer_Clear

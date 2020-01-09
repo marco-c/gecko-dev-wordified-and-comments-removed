@@ -1258,11 +1258,8 @@ comment
 match
 (
 /
-^
 \
-s
-*
-try
+btry
 :
 \
 s
@@ -1275,6 +1272,7 @@ s
 s
 *
 /
+m
 )
 ;
 if

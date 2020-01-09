@@ -169,6 +169,9 @@ bad_certificate_status_response
 bad_certificate_hash_value
 =
 114
+certificate_required
+=
+116
 no_application_protocol
 =
 120

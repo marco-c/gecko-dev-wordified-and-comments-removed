@@ -1606,6 +1606,15 @@ CKF_EN_DE
 }
 PR_TRUE
 }
+{
+CKM_NSS_CHACHA20_CTR
+{
+32
+32
+CKF_EN_DE
+}
+PR_TRUE
+}
 #
 endif
 {
