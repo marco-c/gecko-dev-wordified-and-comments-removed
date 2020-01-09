@@ -3,6 +3,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 from
 io
 import
@@ -39,7 +40,12 @@ mozbuild
 .
 util
 import
+(
+    
 memoize
+    
+ensure_bytes
+)
 JAR_STORED
 =
 ZIP_STORED
@@ -891,6 +897,7 @@ struct
 .
 unpack
 (
+b
 '
 <
 '
@@ -941,6 +948,7 @@ struct
 .
 pack
 (
+b
 '
 <
 I
@@ -1046,6 +1054,7 @@ struct
 .
 pack
 (
+b
 '
 <
 '
@@ -1060,10 +1069,13 @@ else
 serialized
 +
 =
+ensure_bytes
+(
 self
 [
 name
 ]
+)
         
 return
 serialized

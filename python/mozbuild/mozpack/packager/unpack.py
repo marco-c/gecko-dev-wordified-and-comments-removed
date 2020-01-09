@@ -3,6 +3,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 mozpack
 .
@@ -1118,6 +1119,7 @@ header
 ]
 =
 =
+b
 '
 PK
 '
@@ -1131,6 +1133,7 @@ header
 ]
 =
 =
+b
 '
 PK
 '
