@@ -1179,7 +1179,10 @@ uint32_t
 loadType
 ;
 uint64_t
-DOMWindowID
+outerDOMWindowID
+;
+uint64_t
+innerDOMWindowID
 ;
 }
 ;

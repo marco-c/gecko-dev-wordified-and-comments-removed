@@ -11710,7 +11710,7 @@ loadType
 aWebProgressData
 -
 >
-DOMWindowID
+outerDOMWindowID
 (
 )
 aRequestData
