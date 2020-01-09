@@ -617,6 +617,11 @@ TypedArrayConstructor
 \
 _
 (
+IntrinsicIsTypedArrayConstructor
+)
+\
+_
+(
 IntrinsicIsTypedArray
 )
 \
