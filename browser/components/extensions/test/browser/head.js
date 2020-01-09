@@ -1879,11 +1879,16 @@ selector
 #
 img1
 "
+win
+=
+window
 )
 {
 let
 contentAreaContextMenu
 =
+win
+.
 document
 .
 getElementById
@@ -1922,6 +1927,8 @@ button
 :
 2
 }
+win
+.
 gBrowser
 .
 selectedBrowser
@@ -1940,6 +1947,8 @@ type
 contextmenu
 "
 }
+win
+.
 gBrowser
 .
 selectedBrowser
