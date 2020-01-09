@@ -2554,7 +2554,11 @@ value
 getAttribute
 (
 "
-value
+data
+-
+l10n
+-
+id
 "
 )
 >
@@ -2575,7 +2579,11 @@ value
 getAttribute
 (
 "
-value
+data
+-
+l10n
+-
+id
 "
 )
 ;
