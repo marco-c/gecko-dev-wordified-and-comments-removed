@@ -506,10 +506,11 @@ GetCssRulesInternal
 mozilla
 :
 :
-OriginFlags
+StyleOrigin
 GetOrigin
 (
 )
+const
 ;
 enum
 class

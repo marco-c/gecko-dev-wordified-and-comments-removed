@@ -63,6 +63,15 @@ include
 "
 mozilla
 /
+ServoStyleConsts
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
@@ -4088,7 +4097,7 @@ RemoveSheet
 mozilla
 :
 :
-SheetType
+StyleOrigin
 mozilla
 :
 :

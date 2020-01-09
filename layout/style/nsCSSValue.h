@@ -54,15 +54,6 @@ include
 "
 mozilla
 /
-SheetType
-.
-h
-"
-#
-include
-"
-mozilla
-/
 URLExtraData
 .
 h

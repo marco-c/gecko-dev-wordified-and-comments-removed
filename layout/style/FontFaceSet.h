@@ -860,8 +860,11 @@ FontFace
 >
 mFontFace
 ;
-SheetType
-mSheetType
+Maybe
+<
+StyleOrigin
+>
+mOrigin
 ;
 bool
 mLoadEventShouldFire
@@ -882,8 +885,7 @@ aFamilyName
 FontFace
 *
 aFontFace
-SheetType
-aSheetType
+StyleOrigin
 )
 ;
 RawServoFontFaceRule
@@ -998,8 +1000,8 @@ InsertRuleFontFace
 FontFace
 *
 aFontFace
-SheetType
-aSheetType
+StyleOrigin
+aOrigin
 nsTArray
 <
 FontFaceRecord

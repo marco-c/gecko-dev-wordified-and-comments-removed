@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-SheetType
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h
