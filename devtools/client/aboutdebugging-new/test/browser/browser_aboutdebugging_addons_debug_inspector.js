@@ -26,7 +26,9 @@ const
 PromiseTestUtils
 }
 =
-scopedCuImport
+ChromeUtils
+.
+import
 (
 "
 resource
