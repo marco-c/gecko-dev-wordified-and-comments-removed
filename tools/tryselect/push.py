@@ -244,9 +244,6 @@ join
 get_state_dir
 (
 )
-[
-0
-]
 '
 history
 '
@@ -268,9 +265,6 @@ join
 get_state_dir
 (
 )
-[
-0
-]
 '
 history
 '

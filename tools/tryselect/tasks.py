@@ -303,9 +303,6 @@ join
 get_state_dir
 (
 )
-[
-0
-]
 '
 cache
 '
@@ -363,9 +360,6 @@ join
 get_state_dir
 (
 )
-[
-0
-]
 '
 cache
 '

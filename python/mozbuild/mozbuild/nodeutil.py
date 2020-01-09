@@ -85,7 +85,6 @@ directory
 "
     
 mozbuild_state_dir
-_
 =
 get_state_dir
 (

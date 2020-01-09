@@ -925,9 +925,6 @@ join
 get_state_dir
 (
 )
-[
-0
-]
 '
 fzf
 '
