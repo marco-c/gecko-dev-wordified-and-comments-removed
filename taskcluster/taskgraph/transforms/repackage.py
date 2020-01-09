@@ -76,6 +76,7 @@ platforms
 import
 archive_format
 executable_extension
+architecture
 from
 taskgraph
 .
@@ -368,6 +369,17 @@ args
 '
 mar
 '
+                 
+'
+-
+-
+arch
+'
+'
+{
+architecture
+}
+'
 ]
         
 '
@@ -542,7 +554,7 @@ arch
 '
 '
 {
-_arch
+architecture
 }
 '
                  
@@ -1644,22 +1656,6 @@ stub
 '
 ]
         
-_fetch_subst_arch
-=
-'
-x86
-'
-if
-'
-win32
-'
-in
-build_platform
-else
-'
-x64
-'
-        
 for
 format
 in
@@ -1707,10 +1703,13 @@ _locale
 _fetch_subst_locale
                 
 '
-_arch
+architecture
 '
 :
-_fetch_subst_arch
+architecture
+(
+build_platform
+)
                 
 '
 version_display

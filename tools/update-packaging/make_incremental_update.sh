@@ -1087,9 +1087,7 @@ XZ
 -
 -
 compress
--
--
-x86
+BCJ_OPTIONS
 -
 -
 lzma2
@@ -1214,9 +1212,7 @@ XZ
 -
 -
 compress
--
--
-x86
+BCJ_OPTIONS
 -
 -
 lzma2
@@ -1551,9 +1547,7 @@ XZ
 -
 -
 compress
--
--
-x86
+BCJ_OPTIONS
 -
 -
 lzma2
@@ -1781,9 +1775,7 @@ XZ
 -
 -
 compress
--
--
-x86
+BCJ_OPTIONS
 -
 -
 lzma2
@@ -1861,9 +1853,7 @@ XZ
 -
 -
 compress
--
--
-x86
+BCJ_OPTIONS
 -
 -
 lzma2
@@ -2226,9 +2216,7 @@ XZ
 -
 -
 compress
--
--
-x86
+BCJ_OPTIONS
 -
 -
 lzma2
@@ -2593,9 +2581,7 @@ XZ
 -
 -
 compress
--
--
-x86
+BCJ_OPTIONS
 -
 -
 lzma2
@@ -2632,9 +2618,7 @@ XZ
 -
 -
 compress
--
--
-x86
+BCJ_OPTIONS
 -
 -
 lzma2
