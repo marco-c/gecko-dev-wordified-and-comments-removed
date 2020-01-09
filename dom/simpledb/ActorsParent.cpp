@@ -4480,7 +4480,6 @@ PERSISTENCE_TYPE_DEFAULT
 mSuffix
 mGroup
 mOrigin
-true
 getter_AddRefs
 (
 dbDirectory

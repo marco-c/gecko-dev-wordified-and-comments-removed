@@ -1467,7 +1467,6 @@ mGroup
 mQuotaInfo
 .
 mOrigin
-true
 getter_AddRefs
 (
 mQuotaInfo
