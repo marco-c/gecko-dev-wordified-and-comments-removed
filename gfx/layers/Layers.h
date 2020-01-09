@@ -2057,10 +2057,10 @@ Length
 ;
 }
 void
-RegisterPayload
+RegisterPayloads
 (
 const
-InfallibleTArray
+nsTArray
 <
 CompositionPayload
 >
@@ -2178,7 +2178,7 @@ mAnimationReadyTime
 uint32_t
 mPaintedPixelCount
 ;
-InfallibleTArray
+nsTArray
 <
 CompositionPayload
 >

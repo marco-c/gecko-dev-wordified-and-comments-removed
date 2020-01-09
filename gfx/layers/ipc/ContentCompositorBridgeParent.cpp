@@ -2172,7 +2172,7 @@ ToMilliseconds
 )
 )
 ;
-RegisterPayload
+RegisterPayloads
 (
 aLayerTree
 aInfo
@@ -3479,13 +3479,13 @@ void
 ContentCompositorBridgeParent
 :
 :
-RegisterPayload
+RegisterPayloads
 (
 LayerTransactionParent
 *
 aLayerTree
 const
-InfallibleTArray
+nsTArray
 <
 CompositionPayload
 >
@@ -3549,7 +3549,7 @@ state
 mParent
 -
 >
-RegisterPayload
+RegisterPayloads
 (
 aLayerTree
 aPayload
