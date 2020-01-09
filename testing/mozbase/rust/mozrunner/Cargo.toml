@@ -91,6 +91,13 @@ path
 mozprofile
 "
 }
+plist
+=
+"
+0
+.
+4
+"
 [
 target
 .
