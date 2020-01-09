@@ -94,7 +94,7 @@ using
 namespace
 SVGTextContentElement_Binding
 ;
-nsSVGEnumMapping
+SVGEnumMapping
 SVGTextContentElement
 :
 :

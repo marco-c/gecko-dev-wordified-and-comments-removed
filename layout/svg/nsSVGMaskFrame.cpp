@@ -1116,7 +1116,7 @@ GetContent
 )
 )
 ;
-nsSVGEnum
+SVGEnum
 *
 maskContentUnits
 =
