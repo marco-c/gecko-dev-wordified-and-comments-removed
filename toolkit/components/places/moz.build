@@ -144,6 +144,11 @@ mozIPlacesPendingOperation
 idl
 '
 '
+mozISyncedBookmarksMirror
+.
+idl
+'
+'
 nsIAnnotationService
 .
 idl
@@ -188,6 +193,11 @@ h
 '
 '
 Shutdown
+.
+h
+'
+'
+SyncedBookmarksMirror
 .
 h
 '

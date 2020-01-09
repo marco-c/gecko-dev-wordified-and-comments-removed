@@ -143,6 +143,17 @@ shared
 moz_memory
 "
 ]
+moz_places
+=
+[
+"
+gkrust
+-
+shared
+/
+moz_places
+"
+]
 spidermonkey_rust
 =
 [
