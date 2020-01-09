@@ -1139,7 +1139,13 @@ log
 s
 '
 %
+quote
+(
+normsep
+(
 path
+)
+)
 )
 with
 open
