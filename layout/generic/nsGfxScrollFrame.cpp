@@ -31066,13 +31066,10 @@ aState
 resolution
 (
 )
-nsIPresShell
+ResolutionChangeOrigin
 :
 :
-ChangeOrigin
-:
-:
-eMainThread
+MainThread
 )
 ;
 }

@@ -991,10 +991,10 @@ selectedContent
 get
 (
 )
-nsIPresShell
+ScrollableDirection
 :
 :
-eHorizontal
+Horizontal
 )
 ;
 nsIScrollableFrame
@@ -1011,10 +1011,10 @@ selectedContent
 get
 (
 )
-nsIPresShell
+ScrollableDirection
 :
 :
-eVertical
+Vertical
 )
 ;
 ScrollTargets
