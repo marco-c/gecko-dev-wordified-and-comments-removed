@@ -15007,7 +15007,6 @@ aBuilder
 this
 visibleRect
 dirtyRect
-true
 )
 ;
 enum
@@ -17080,7 +17079,6 @@ aBuilder
 aChild
 visible
 dirty
-false
 )
 ;
 CheckForApzAwareEventHandlers
@@ -18098,7 +18096,6 @@ aBuilder
 child
 visible
 dirty
-pseudoStackingContext
 )
 ;
 DisplayListClipState

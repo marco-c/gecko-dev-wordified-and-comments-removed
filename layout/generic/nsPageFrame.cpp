@@ -2694,12 +2694,6 @@ aBuilder
 child
 visibleRect
 visibleRect
-aBuilder
--
->
-IsAtRootOfPseudoStackingContext
-(
-)
 )
 ;
 child
@@ -2756,12 +2750,6 @@ aBuilder
 page
 childVisible
 childVisible
-aBuilder
--
->
-IsAtRootOfPseudoStackingContext
-(
-)
 )
 ;
 BuildDisplayListForExtraPage
@@ -2784,7 +2772,6 @@ aBuilder
 child
 visibleRect
 visibleRect
-true
 )
 ;
 nsRect

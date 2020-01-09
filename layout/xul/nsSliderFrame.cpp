@@ -1771,7 +1771,6 @@ aBuilder
 this
 dirty
 dirty
-false
 )
 ;
 DisplayListClipState

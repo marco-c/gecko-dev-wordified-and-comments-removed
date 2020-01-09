@@ -3480,12 +3480,6 @@ child
 GetPosition
 (
 )
-aBuilder
--
->
-IsAtRootOfPseudoStackingContext
-(
-)
 )
 ;
 child
