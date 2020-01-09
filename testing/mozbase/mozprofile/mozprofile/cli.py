@@ -157,7 +157,6 @@ context
 '
 key
 value
-:
 '
 )
 :
@@ -272,6 +271,9 @@ Error
 syntax
 error
 in
+%
+s
+:
 %
 s
 "
