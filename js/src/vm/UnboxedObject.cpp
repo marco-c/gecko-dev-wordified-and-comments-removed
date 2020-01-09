@@ -4519,10 +4519,7 @@ obj
 js
 :
 :
-Allocate
-<
-JSObject
->
+AllocateObject
 (
 cx
 kind
@@ -4681,8 +4678,7 @@ heap
 GetInitialHeap
 (
 newKind
-&
-class_
+group
 )
 ;
 MOZ_ASSERT
