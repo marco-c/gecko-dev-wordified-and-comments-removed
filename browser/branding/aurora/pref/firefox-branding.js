@@ -188,6 +188,7 @@ firefox
 %
 VERSION
 %
+beta
 /
 releasenotes
 /
