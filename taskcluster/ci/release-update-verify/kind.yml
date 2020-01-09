@@ -197,11 +197,9 @@ builds
 /
 worker
 /
-tools
+checkouts
 /
-release
-/
-updates
+gecko
 /
 diff
 -

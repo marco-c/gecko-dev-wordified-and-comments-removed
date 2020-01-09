@@ -128,6 +128,10 @@ override_certs
 "
 diff_summary_log
 =
+{
+DIFF_SUMMARY_LOG
+:
+-
 "
 PWD
 /
@@ -137,6 +141,7 @@ summary
 .
 log
 "
+}
 if
 [
 -
