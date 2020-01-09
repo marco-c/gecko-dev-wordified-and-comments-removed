@@ -5518,6 +5518,13 @@ done
 return
 ;
 }
+MOZ_ASSERT
+(
+unwindState
+.
+codeRange
+)
+;
 if
 (
 unwoundCaller
@@ -5537,11 +5544,6 @@ pc
 ;
 if
 (
-unwindState
-.
-codeRange
-&
-&
 unwindState
 .
 codeRange
