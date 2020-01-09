@@ -117,11 +117,6 @@ GMPProvider
 jsm
 '
 '
-LightweightThemeImageOptimizer
-.
-jsm
-'
-'
 ProductAddonChecker
 .
 jsm
