@@ -1483,6 +1483,11 @@ _getState
 }
 )
 ;
+if
+(
+expectUrl
+)
+{
 is
 (
 dbg
@@ -1499,11 +1504,7 @@ _getState
 )
 .
 url
-expectUrl
-?
 url
-:
-null
 "
 expected
 source
@@ -1511,6 +1512,7 @@ url
 "
 )
 ;
+}
 }
 function
 hasFocus
