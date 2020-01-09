@@ -738,6 +738,14 @@ updates
 .
 policy
 -
+FirefoxHome
+=
+Configure
+Firefox
+Home
+.
+policy
+-
 FlashPlugin
 =
 Allow
