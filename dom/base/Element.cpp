@@ -10980,7 +10980,7 @@ pressure
 sourceMouseEvent
 -
 >
-pressure
+mPressure
 ;
 pointerId
 =
@@ -11027,7 +11027,7 @@ MOZ_SOURCE_KEYBOARD
 }
 event
 .
-pressure
+mPressure
 =
 pressure
 ;

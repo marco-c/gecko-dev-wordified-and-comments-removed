@@ -200,11 +200,11 @@ mRefPoint
 mCoalescedInputEvent
 -
 >
-pressure
+mPressure
 =
 aEvent
 .
-pressure
+mPressure
 ;
 mCoalescedInputEvent
 -

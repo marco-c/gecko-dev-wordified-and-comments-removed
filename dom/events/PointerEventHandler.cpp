@@ -2074,7 +2074,7 @@ mButtons
 aPointerEvent
 -
 >
-pressure
+mPressure
 =
 aPointerEvent
 -
@@ -2084,12 +2084,12 @@ mButtons
 aMouseEvent
 -
 >
-pressure
+mPressure
 ?
 aMouseEvent
 -
 >
-pressure
+mPressure
 :
 0
 .

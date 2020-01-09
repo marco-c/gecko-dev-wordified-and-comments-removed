@@ -499,7 +499,7 @@ mHeight
 widgetEvent
 -
 >
-pressure
+mPressure
 =
 aParam
 .
@@ -891,7 +891,7 @@ AsPointerEvent
 )
 -
 >
-pressure
+mPressure
 ;
 }
 float

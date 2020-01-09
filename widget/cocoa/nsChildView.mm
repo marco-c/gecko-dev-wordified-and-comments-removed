@@ -29617,7 +29617,7 @@ NSMouseMoved
 aOutGeckoEvent
 -
 >
-pressure
+mPressure
 =
 [
 aPointerEvent
@@ -29629,7 +29629,7 @@ MOZ_ASSERT
 aOutGeckoEvent
 -
 >
-pressure
+mPressure
 >
 =
 0
@@ -29640,7 +29640,7 @@ pressure
 aOutGeckoEvent
 -
 >
-pressure
+mPressure
 <
 =
 1

@@ -346,7 +346,7 @@ mButtons
 (
 0
 )
-pressure
+mPressure
 (
 0
 )
@@ -388,7 +388,7 @@ mButtons
 (
 0
 )
-pressure
+mPressure
 (
 0
 )
@@ -487,7 +487,7 @@ int16_t
 mButtons
 ;
 float
-pressure
+mPressure
 ;
 bool
 hitCluster
@@ -607,11 +607,11 @@ aEvent
 .
 mButtons
 ;
-pressure
+mPressure
 =
 aEvent
 .
-pressure
+mPressure
 ;
 hitCluster
 =
