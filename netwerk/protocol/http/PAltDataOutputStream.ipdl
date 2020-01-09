@@ -172,6 +172,8 @@ done
 async
 Close
 (
+nsresult
+status
 )
 ;
 async

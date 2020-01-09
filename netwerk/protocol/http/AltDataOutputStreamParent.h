@@ -71,6 +71,10 @@ ipc
 IPCResult
 RecvClose
 (
+const
+nsresult
+&
+aStatus
 )
 ;
 virtual
