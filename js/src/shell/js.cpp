@@ -43148,6 +43148,9 @@ false
 ;
 }
 }
+#
+ifndef
+JS_MORE_DETERMINISTIC
 script
 -
 >
@@ -43160,6 +43163,8 @@ dump
 (
 )
 ;
+#
+endif
 args
 .
 rval
