@@ -158,9 +158,6 @@ AccessibilityEvent
 AndroidBuild
 '
 '
-AndroidGraphics
-'
-'
 AndroidInputType
 '
 '
@@ -171,9 +168,6 @@ InetAddress
 '
 '
 JavaBuiltins
-'
-'
-JavaExceptions
 '
 '
 KeyEvent
