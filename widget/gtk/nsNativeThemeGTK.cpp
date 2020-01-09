@@ -8306,6 +8306,10 @@ StyleAppearance
 :
 :
 Radio
+?
+MOZ_GTK_RADIOBUTTON
+:
+MOZ_GTK_CHECKBUTTON
 )
 ;
 aResult

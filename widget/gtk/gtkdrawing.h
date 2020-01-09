@@ -633,8 +633,8 @@ ToggleGTKMetrics
 *
 GetToggleMetrics
 (
-bool
-isRadio
+WidgetNodeType
+aWidgetType
 )
 ;
 gint
