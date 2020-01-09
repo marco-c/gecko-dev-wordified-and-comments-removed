@@ -1836,7 +1836,9 @@ networkProxyNone
 /
 >
 <
-textbox
+html
+:
+textarea
 id
 =
 "
@@ -1850,11 +1852,6 @@ network
 proxy
 .
 no_proxies_on
-"
-multiline
-=
-"
-true
 "
 rows
 =

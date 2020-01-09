@@ -1207,13 +1207,9 @@ return
 }
 node
 .
-setAttribute
-(
-"
 value
-"
+=
 value
-)
 ;
 }
 function
