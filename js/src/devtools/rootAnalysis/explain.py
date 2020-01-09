@@ -1,7 +1,11 @@
+from
+__future__
 import
-re
+print_function
 import
 argparse
+import
+re
 from
 collections
 import
@@ -251,22 +255,28 @@ mm
 :
                 
 print
->
->
+(
+line
+file
+=
 hazards
-line
+)
                 
 print
->
->
+(
+line
+file
+=
 extra
-line
+)
                 
 print
->
->
-refs
+(
 line
+file
+=
+refs
+)
                 
 continue
             
@@ -294,10 +304,12 @@ m
 :
                 
 print
->
->
-extra
+(
 line
+file
+=
+extra
+)
                 
 continue
             
@@ -332,10 +344,12 @@ num_refs
 1
                 
 print
->
->
-refs
+(
 line
+file
+=
+refs
+)
                 
 continue
             
@@ -604,9 +618,6 @@ gcExplanations
 :
                 
 print
->
->
-hazards
 (
 gcHazards
 [
@@ -617,19 +628,24 @@ gcExplanations
 [
 gcFunction
 ]
+file
+=
+hazards
 )
             
 else
 :
                 
 print
->
->
-hazards
+(
 gcHazards
 [
 index
 ]
+file
+=
+hazards
+)
 except
 IOError
 as
