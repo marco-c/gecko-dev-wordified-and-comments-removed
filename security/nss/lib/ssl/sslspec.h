@@ -233,9 +233,11 @@ unsigned
 char
 *
 out
+unsigned
 int
 *
 outlen
+unsigned
 int
 maxout
 const
@@ -243,6 +245,7 @@ unsigned
 char
 *
 in
+unsigned
 int
 inlen
 )
@@ -254,6 +257,7 @@ SECStatus
 SSLAEADCipher
 )
 (
+const
 ssl3KeyMaterial
 *
 keys
@@ -263,9 +267,11 @@ unsigned
 char
 *
 out
+unsigned
 int
 *
 outlen
+unsigned
 int
 maxout
 const
@@ -273,6 +279,7 @@ unsigned
 char
 *
 in
+unsigned
 int
 inlen
 const
@@ -280,6 +287,7 @@ unsigned
 char
 *
 additionalData
+unsigned
 int
 additionalDataLen
 )

@@ -234,6 +234,11 @@ ssl_misc_unittest
 cc
 '
 '
+ssl_primitive_unittest
+.
+cc
+'
+'
 ssl_record_unittest
 .
 cc

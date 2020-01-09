@@ -224,6 +224,11 @@ sslnonce
 c
 '
 '
+sslprimitive
+.
+c
+'
+'
 sslreveal
 .
 c
