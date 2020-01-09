@@ -1946,7 +1946,12 @@ asflags_mozilla
 if
 use_defines_in_asflags
 and
-defines
+context_attrs
+[
+'
+DEFINES
+'
+]
 :
             
 context_attrs
@@ -1967,7 +1972,12 @@ d
 for
 d
 in
-defines
+context_attrs
+[
+'
+DEFINES
+'
+]
 ]
         
 flags
