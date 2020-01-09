@@ -1290,6 +1290,17 @@ getQueryParameter
 uid
 "
 )
+.
+replaceAll
+(
+"
+\
+\
+n
+"
+"
+"
+)
 ;
 final
 String
