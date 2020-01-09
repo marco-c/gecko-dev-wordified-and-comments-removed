@@ -2590,7 +2590,7 @@ void
 ModuleEnvironmentObject
 :
 :
-fixEnclosingEnvironmentAfterCompartmentMerge
+fixEnclosingEnvironmentAfterRealmMerge
 (
 GlobalObject
 &

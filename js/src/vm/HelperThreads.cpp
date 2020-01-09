@@ -9234,7 +9234,7 @@ module
 module
 -
 >
-fixEnvironmentsAfterCompartmentMerge
+fixEnvironmentsAfterRealmMerge
 (
 )
 ;

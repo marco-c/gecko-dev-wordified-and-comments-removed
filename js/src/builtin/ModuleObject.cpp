@@ -5108,7 +5108,7 @@ void
 ModuleObject
 :
 :
-fixEnvironmentsAfterCompartmentMerge
+fixEnvironmentsAfterRealmMerge
 (
 )
 {
@@ -5121,7 +5121,7 @@ initialEnvironment
 (
 )
 .
-fixEnclosingEnvironmentAfterCompartmentMerge
+fixEnclosingEnvironmentAfterRealmMerge
 (
 script
 (

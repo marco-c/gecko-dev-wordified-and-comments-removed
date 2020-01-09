@@ -879,7 +879,7 @@ shapeOut
 )
 ;
 void
-fixEnclosingEnvironmentAfterCompartmentMerge
+fixEnclosingEnvironmentAfterRealmMerge
 (
 GlobalObject
 &
