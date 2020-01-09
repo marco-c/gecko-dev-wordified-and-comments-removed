@@ -6176,16 +6176,6 @@ uint32_t
 aReferrerPolicy
 )
 ;
-sync
-GetAndroidSystemInfo
-(
-)
-returns
-(
-AndroidSystemInfo
-info
-)
-;
 /
 *
 *
