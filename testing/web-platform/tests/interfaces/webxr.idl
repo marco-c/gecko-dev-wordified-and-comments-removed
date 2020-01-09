@@ -547,11 +547,6 @@ projectionMatrix
 ;
 readonly
 attribute
-Float32Array
-viewMatrix
-;
-readonly
-attribute
 XRRigidTransform
 transform
 ;
@@ -620,6 +615,11 @@ readonly
 attribute
 Float32Array
 matrix
+;
+XRRigidTransform
+inverse
+(
+)
 ;
 }
 ;
@@ -809,6 +809,11 @@ alpha
 =
 true
 ;
+boolean
+ignoreDepthValues
+=
+false
+;
 double
 framebufferScaleFactor
 =
@@ -866,6 +871,11 @@ readonly
 attribute
 boolean
 alpha
+;
+readonly
+attribute
+boolean
+ignoreDepthValues
 ;
 readonly
 attribute
