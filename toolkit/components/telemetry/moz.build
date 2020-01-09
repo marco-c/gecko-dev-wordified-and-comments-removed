@@ -597,6 +597,13 @@ EXTRA_JS_MODULES
 '
 app
 /
+ClientID
+.
+jsm
+'
+'
+app
+/
 TelemetryArchive
 .
 jsm
