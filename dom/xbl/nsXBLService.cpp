@@ -4771,6 +4771,7 @@ nsIContentPolicy
 :
 TYPE_XBL
 nullptr
+nullptr
 loadGroup
 )
 ;

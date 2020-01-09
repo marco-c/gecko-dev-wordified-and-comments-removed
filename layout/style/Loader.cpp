@@ -6829,6 +6829,12 @@ nsILoadGroup
 >
 loadGroup
 ;
+nsCOMPtr
+<
+nsICookieSettings
+>
+cookieSettings
+;
 if
 (
 mDocument
@@ -6873,6 +6879,15 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+cookieSettings
+=
+mDocument
+-
+>
+CookieSettings
+(
+)
+;
 }
 #
 ifdef
@@ -7051,6 +7066,7 @@ GetSystemPrincipal
 )
 securityFlags
 contentPolicyType
+cookieSettings
 nullptr
 loadGroup
 nullptr

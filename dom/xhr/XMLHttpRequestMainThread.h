@@ -815,6 +815,9 @@ aPrincipal
 nsIGlobalObject
 *
 aGlobalObject
+nsICookieSettings
+*
+aCookieSettings
 nsIURI
 *
 aBaseURI
@@ -858,6 +861,10 @@ aBaseURI
 mLoadGroup
 =
 aLoadGroup
+;
+mCookieSettings
+=
+aCookieSettings
 ;
 mPerformanceStorage
 =
@@ -1980,6 +1987,12 @@ nsCOMPtr
 nsIStreamListener
 >
 mXMLParserStreamListener
+;
+nsCOMPtr
+<
+nsICookieSettings
+>
+mCookieSettings
 ;
 RefPtr
 <

@@ -10282,6 +10282,7 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
+mCookieSettings
 mPerformanceStorage
 loadGroup
 nullptr
@@ -10306,6 +10307,7 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
+mCookieSettings
 mPerformanceStorage
 loadGroup
 nullptr

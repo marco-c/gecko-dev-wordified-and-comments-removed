@@ -369,6 +369,7 @@ aContentPolicyType
 nullptr
 nullptr
 nullptr
+nullptr
 nsIRequest
 :
 :
