@@ -6471,12 +6471,6 @@ mViewManager
 nullptr
 ;
 }
-mFrameArena
-.
-ClearArenaRefPtrs
-(
-)
-;
 mStyleSet
 -
 >
