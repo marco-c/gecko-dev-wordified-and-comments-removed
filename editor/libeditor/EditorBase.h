@@ -3329,6 +3329,7 @@ int32_t
 aLength
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteTextWithTransaction
 (
