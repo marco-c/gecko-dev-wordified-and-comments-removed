@@ -1963,6 +1963,8 @@ uint32_t
 chromeFlags
 ContentParentId
 cpId
+BrowsingContext
+browsingContext
 bool
 isForBrowser
 )

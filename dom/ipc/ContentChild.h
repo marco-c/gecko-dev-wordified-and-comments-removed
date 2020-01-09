@@ -914,6 +914,9 @@ const
 ContentParentId
 &
 aCpID
+BrowsingContext
+*
+aBrowsingContext
 const
 bool
 &
@@ -2681,6 +2684,9 @@ const
 ContentParentId
 &
 aCpID
+BrowsingContext
+*
+aBrowsingContext
 const
 bool
 &
@@ -2720,6 +2726,9 @@ const
 ContentParentId
 &
 aCpID
+BrowsingContext
+*
+aBrowsingContext
 const
 bool
 &

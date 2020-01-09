@@ -139,6 +139,14 @@ ContentParent
 aOriginProcess
 )
 ;
+void
+EnsureSubscribed
+(
+ContentParent
+*
+aProcess
+)
+;
 ContentParents
 :
 :
