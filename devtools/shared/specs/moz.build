@@ -131,11 +131,6 @@ properties
 js
 '
 '
-csscoverage
-.
-js
-'
-'
 device
 .
 js
