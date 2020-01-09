@@ -555,6 +555,16 @@ aTargetFrame
 mFilter
 )
 ;
+if
+(
+!
+urlExtraReferrer
+)
+{
+return
+nullptr
+;
+}
 url
 =
 urlExtraReferrer
