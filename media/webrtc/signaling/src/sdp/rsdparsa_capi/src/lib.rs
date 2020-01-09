@@ -284,7 +284,6 @@ parser_result
 {
 Ok
 (
-mut
 parsed
 )
 =
@@ -327,10 +326,12 @@ new
 parsed
 .
 warnings
-.
-remove
-(
+[
 0
+]
+.
+clone
+(
 )
 )
 )

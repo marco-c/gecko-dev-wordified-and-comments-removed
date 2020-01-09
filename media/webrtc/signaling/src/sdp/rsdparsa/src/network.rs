@@ -2,6 +2,15 @@ use
 std
 :
 :
+str
+:
+:
+FromStr
+;
+use
+std
+:
+:
 fmt
 ;
 use
@@ -12,15 +21,6 @@ net
 :
 :
 IpAddr
-;
-use
-std
-:
-:
-str
-:
-:
-FromStr
 ;
 use
 error
@@ -56,6 +56,7 @@ pub
 fn
 same_protocol
 (
+&
 self
 addr
 :
@@ -74,6 +75,7 @@ is_ipv6
 )
 &
 &
+*
 self
 =
 =
@@ -92,6 +94,7 @@ is_ipv4
 )
 &
 &
+*
 self
 =
 =
@@ -365,7 +368,6 @@ to_string
 )
 )
 )
-;
 }
 }
 )
