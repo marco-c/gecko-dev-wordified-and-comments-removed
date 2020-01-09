@@ -346,7 +346,7 @@ SitePermissions
 .
 remove
 (
-URL
+URI
 "
 desktop
 -
@@ -409,7 +409,7 @@ SitePermissions
 .
 remove
 (
-URL
+URI
 "
 desktop
 -
