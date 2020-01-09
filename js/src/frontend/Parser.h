@@ -394,7 +394,7 @@ protected
 if
 DEBUG
 bool
-checkOptionsCalled
+checkOptionsCalled_
 :
 1
 ;
@@ -2200,7 +2200,7 @@ using
 Base
 :
 :
-checkOptionsCalled
+checkOptionsCalled_
 ;
 #
 endif
@@ -4966,7 +4966,7 @@ using
 Base
 :
 :
-checkOptionsCalled
+checkOptionsCalled_
 ;
 #
 endif
@@ -5637,7 +5637,7 @@ using
 Base
 :
 :
-checkOptionsCalled
+checkOptionsCalled_
 ;
 #
 endif

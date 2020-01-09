@@ -857,7 +857,7 @@ foldConstants
 #
 ifdef
 DEBUG
-checkOptionsCalled
+checkOptionsCalled_
 (
 false
 )
@@ -914,7 +914,7 @@ checkOptions
 #
 ifdef
 DEBUG
-checkOptionsCalled
+checkOptionsCalled_
 =
 true
 ;
@@ -938,7 +938,7 @@ ParserBase
 {
 MOZ_ASSERT
 (
-checkOptionsCalled
+checkOptionsCalled_
 )
 ;
 alloc_
@@ -1759,7 +1759,7 @@ parse
 {
 MOZ_ASSERT
 (
-checkOptionsCalled
+checkOptionsCalled_
 )
 ;
 Directives
@@ -7262,7 +7262,7 @@ modulesc
 {
 MOZ_ASSERT
 (
-checkOptionsCalled
+checkOptionsCalled_
 )
 ;
 SourceParseContext
@@ -8908,7 +8908,7 @@ newDirectives
 {
 MOZ_ASSERT
 (
-checkOptionsCalled
+checkOptionsCalled_
 )
 ;
 TokenKind
@@ -14056,7 +14056,7 @@ asyncKind
 {
 MOZ_ASSERT
 (
-checkOptionsCalled
+checkOptionsCalled_
 )
 ;
 FunctionSyntaxKind
@@ -34878,7 +34878,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-checkOptionsCalled
+checkOptionsCalled_
 )
 ;
 if
@@ -35633,7 +35633,7 @@ canHaveDirectives
 {
 MOZ_ASSERT
 (
-checkOptionsCalled
+checkOptionsCalled_
 )
 ;
 if
