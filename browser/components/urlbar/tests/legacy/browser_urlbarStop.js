@@ -231,6 +231,8 @@ page
 let
 promise
 =
+BrowserTestUtils
+.
 waitForDocLoadAndStopIt
 (
 url

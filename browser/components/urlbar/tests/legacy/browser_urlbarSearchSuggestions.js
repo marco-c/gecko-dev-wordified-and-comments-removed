@@ -372,9 +372,14 @@ spec
 let
 promiseLoad
 =
+BrowserTestUtils
+.
 waitForDocLoadAndStopIt
 (
 expectedUrl
+gBrowser
+.
+selectedBrowser
 )
 ;
 for

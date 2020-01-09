@@ -280,6 +280,8 @@ changed
 let
 docLoad
 =
+BrowserTestUtils
+.
 waitForDocLoadAndStopIt
 (
 "
@@ -290,6 +292,9 @@ http
 "
 +
 editedValue
+gBrowser
+.
+selectedBrowser
 )
 ;
 info

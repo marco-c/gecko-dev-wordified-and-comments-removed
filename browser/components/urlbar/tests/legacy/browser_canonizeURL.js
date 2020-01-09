@@ -447,9 +447,14 @@ testcases
 let
 promiseLoad
 =
+BrowserTestUtils
+.
 waitForDocLoadAndStopIt
 (
 expectedURL
+gBrowser
+.
+selectedBrowser
 )
 ;
 gURLBar

@@ -251,6 +251,8 @@ focus
 let
 docLoadPromise
 =
+BrowserTestUtils
+.
 waitForDocLoadAndStopIt
 (
 expectedURI
@@ -856,6 +858,8 @@ fixup
 let
 docLoadPromise
 =
+BrowserTestUtils
+.
 waitForDocLoadAndStopIt
 (
 "
