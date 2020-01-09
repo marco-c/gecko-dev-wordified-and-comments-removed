@@ -215,6 +215,9 @@ class
 EventDispatchingCallback
 ;
 class
+GeckoMVMContext
+;
+class
 OverflowChangedTracker
 ;
 typedef
@@ -3584,6 +3587,12 @@ RefPtr
 ZoomConstraintsClient
 >
 mZoomConstraintsClient
+;
+RefPtr
+<
+GeckoMVMContext
+>
+mMVMContext
 ;
 RefPtr
 <
