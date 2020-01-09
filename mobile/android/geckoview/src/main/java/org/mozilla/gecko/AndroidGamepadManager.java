@@ -911,10 +911,10 @@ onGamepadAdded
 (
 final
 int
-device_id
+deviceId
 final
 int
-service_id
+serviceId
 )
 {
 ThreadUtils
@@ -935,8 +935,8 @@ run
 {
 handleGamepadAdded
 (
-device_id
-service_id
+deviceId
+serviceId
 )
 ;
 }
