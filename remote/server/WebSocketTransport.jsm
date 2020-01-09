@@ -181,6 +181,17 @@ close
 (
 )
 {
+if
+(
+!
+this
+.
+socket
+)
+{
+return
+;
+}
 this
 .
 emit
