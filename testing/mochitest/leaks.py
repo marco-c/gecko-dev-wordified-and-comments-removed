@@ -1557,9 +1557,9 @@ browser
 /
 content
 /
-hiddenWindow
+hiddenWindowMac
 .
-xul
+xhtml
 "
 )
 class

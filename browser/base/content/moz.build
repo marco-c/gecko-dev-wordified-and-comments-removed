@@ -1241,9 +1241,9 @@ with
 Files
 (
 "
-hiddenWindow
+hiddenWindowMac
 .
-xul
+xhtml
 "
 )
 :
