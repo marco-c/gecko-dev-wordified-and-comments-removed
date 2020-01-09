@@ -2337,15 +2337,6 @@ nsGkAtoms
 :
 :
 object
-|
-|
-tag
-=
-=
-nsGkAtoms
-:
-:
-marquee
 "
 Unexpected
 XBL

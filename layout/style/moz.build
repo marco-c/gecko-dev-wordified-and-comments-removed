@@ -317,16 +317,6 @@ and
 Animations
 '
 )
-DIRS
-+
-=
-[
-'
-xbl
--
-marquee
-'
-]
 TEST_DIRS
 +
 =
