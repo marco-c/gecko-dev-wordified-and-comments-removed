@@ -219,7 +219,7 @@ HitDisk
 ;
 Assert
 .
-notEqual
+less
 (
 histValue
 (
@@ -227,7 +227,7 @@ LABELS_STARTUP_CACHE_REQUESTS
 .
 Miss
 )
-0
+9
 )
 ;
 await
@@ -280,7 +280,7 @@ true
 ;
 Assert
 .
-notEqual
+less
 (
 histValue
 (
@@ -288,7 +288,7 @@ LABELS_STARTUP_CACHE_REQUESTS
 .
 HitMemory
 )
-0
+4
 )
 ;
 Assert
@@ -306,7 +306,7 @@ HitDisk
 ;
 Assert
 .
-ok
+less
 (
 histValue
 (
@@ -314,7 +314,6 @@ LABELS_STARTUP_CACHE_REQUESTS
 .
 Miss
 )
-<
 5
 )
 ;
