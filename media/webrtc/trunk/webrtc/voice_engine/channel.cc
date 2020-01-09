@@ -6131,6 +6131,16 @@ IsPacketInOrder
 header
 )
 ;
+statistics_proxy_
+-
+>
+OnSendCodecFrequencyChanged
+(
+header
+.
+payload_type_frequency
+)
+;
 rtp_receive_statistics_
 -
 >
