@@ -5704,6 +5704,7 @@ getAttribute
 image
 "
 )
+false
 )
 .
 then
