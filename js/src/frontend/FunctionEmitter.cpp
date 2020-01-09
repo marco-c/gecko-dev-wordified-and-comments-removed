@@ -2547,7 +2547,7 @@ bce_
 >
 emit1
 (
-JSOP_CALLELEM
+JSOP_GETELEM
 )
 )
 {

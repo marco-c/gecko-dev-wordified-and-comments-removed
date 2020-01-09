@@ -1100,7 +1100,7 @@ function
 classField
 (
 id
-initializer
+init
 )
 {
 return
@@ -1115,9 +1115,9 @@ ClassField
 name
 :
 id
-initializer
+init
 :
-initializer
+init
 }
 )
 ;

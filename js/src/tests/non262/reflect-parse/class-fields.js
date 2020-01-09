@@ -174,8 +174,9 @@ ident
 x
 "
 )
-undefined
+null
 )
+genConstructor
 ]
 )
 )
@@ -213,7 +214,7 @@ ident
 x
 "
 )
-undefined
+null
 )
 classField
 (
