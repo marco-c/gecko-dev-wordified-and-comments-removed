@@ -790,13 +790,13 @@ mClientState
 const
 nsACString
 &
-SHA256
+Checksum
 (
 )
 const
 {
 return
-mSHA256
+mChecksum
 ;
 }
 const
@@ -856,7 +856,7 @@ aState
 ;
 }
 void
-SetSHA256
+NewChecksum
 (
 const
 std
@@ -864,7 +864,7 @@ std
 :
 string
 &
-aSHA256
+aChecksum
 )
 ;
 nsresult
@@ -918,7 +918,7 @@ nsCString
 mClientState
 ;
 nsCString
-mSHA256
+mChecksum
 ;
 FullHashResponseMap
 mFullHashResponseMap
