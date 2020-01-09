@@ -507,6 +507,9 @@ uname
 let
 pword
 ;
+let
+hostname
+;
 /
 /
 Check
@@ -730,6 +733,14 @@ password
 "
 )
 ;
+hostname
+=
+frameDoc
+.
+documentURIObject
+.
+host
+;
 }
 )
 ;
@@ -882,10 +893,11 @@ More
 "
 ]
 ;
-checkArrayValues
+checkAutoCompleteResults
 (
 results
 expectedMenuItems
+hostname
 "
 Check
 all
