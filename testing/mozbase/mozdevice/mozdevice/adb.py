@@ -4274,6 +4274,57 @@ timeout
 timeout
 )
         
+adb_process
+=
+self
+.
+shell
+(
+"
+su
+-
+c
+setenforce
+0
+"
+)
+        
+self
+.
+_logger
+.
+info
+(
+"
+setenforce
+0
+exitcode
+%
+s
+stdout
+:
+%
+s
+"
+%
+(
+            
+adb_process
+.
+proc
+.
+poll
+(
+)
+            
+adb_process
+.
+proc
+.
+stdout
+)
+)
+        
 uid
 =
 '
@@ -4340,6 +4391,8 @@ supported
         
 except
 ADBError
+as
+e
 :
             
 self
@@ -4355,7 +4408,15 @@ su
 -
 c
 failed
+:
+{
+}
 "
+.
+format
+(
+e
+)
 )
         
 try
@@ -4420,6 +4481,8 @@ supported
         
 except
 ADBError
+as
+e
 :
             
 self
@@ -4434,7 +4497,15 @@ for
 su
 0
 failed
+:
+{
+}
 "
+.
+format
+(
+e
+)
 )
         
 self
