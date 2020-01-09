@@ -883,7 +883,7 @@ org
 /
 security
 /
-certstorage
+certblocklist
 ;
 1
 "
@@ -893,12 +893,12 @@ getService
 (
 Ci
 .
-nsICertStorage
+nsICertBlocklist
 )
 ;
 certBlocklist
 .
-setRevocationBySubjectAndPubKey
+revokeCertBySubjectAndPubKey
 (
 "
 MBIxEDAOBgNVBAMMB3Jldm9rZWQ
@@ -908,11 +908,6 @@ MBIxEDAOBgNVBAMMB3Jldm9rZWQ
 VCIlmPM9NkgFQtrs4Oa5TeFcDu6MWRTKSNdePEhOgD8
 =
 "
-Ci
-.
-nsICertStorage
-.
-STATE_ENFORCE
 )
 ;
 let

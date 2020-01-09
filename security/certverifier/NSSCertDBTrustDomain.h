@@ -39,7 +39,7 @@ h
 #
 include
 "
-nsICertStorage
+nsICertBlocklist
 .
 h
 "
@@ -921,7 +921,7 @@ mHostname
 ;
 nsCOMPtr
 <
-nsICertStorage
+nsICertBlocklist
 >
 mCertBlocklist
 ;
