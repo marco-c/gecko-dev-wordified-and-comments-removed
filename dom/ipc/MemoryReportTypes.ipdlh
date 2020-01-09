@@ -140,14 +140,5 @@ desc
 ;
 }
 ;
-union
-MaybeFileDesc
-{
-FileDescriptor
-;
-void_t
-;
-}
-;
 }
 }

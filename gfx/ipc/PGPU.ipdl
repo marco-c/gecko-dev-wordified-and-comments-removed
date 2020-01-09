@@ -772,7 +772,8 @@ bool
 anonymize
 bool
 minimizeMemoryUsage
-MaybeFileDesc
+FileDescriptor
+?
 DMDFile
 )
 ;

@@ -2280,7 +2280,8 @@ specific
 async
 SetProcessSandbox
 (
-MaybeFileDesc
+FileDescriptor
+?
 aBroker
 )
 ;
@@ -2293,7 +2294,8 @@ bool
 anonymize
 bool
 minimizeMemoryUsage
-MaybeFileDesc
+FileDescriptor
+?
 DMDFile
 )
 ;

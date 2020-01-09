@@ -863,7 +863,6 @@ uint32_t
 namespaces
 )
 ;
-virtual
 mozilla
 :
 :
@@ -886,7 +885,6 @@ RecvReinitRenderingForDeviceReset
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -897,7 +895,10 @@ IPCResult
 RecvSetProcessSandbox
 (
 const
-MaybeFileDesc
+Maybe
+<
+FileDescriptor
+>
 &
 aBroker
 )
@@ -1719,7 +1720,6 @@ nsString
 aData
 )
 ;
-virtual
 mozilla
 :
 :
@@ -2990,7 +2990,10 @@ bool
 &
 minimizeMemoryUsage
 const
-MaybeFileDesc
+Maybe
+<
+FileDescriptor
+>
 &
 DMDFile
 )

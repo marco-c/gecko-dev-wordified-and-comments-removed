@@ -202,7 +202,8 @@ settings
 async
 Init
 (
-MaybeFileDesc
+FileDescriptor
+?
 sandboxBroker
 )
 ;
@@ -235,7 +236,8 @@ bool
 anonymize
 bool
 minimizeMemoryUsage
-MaybeFileDesc
+FileDescriptor
+?
 DMDFile
 )
 ;
