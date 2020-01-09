@@ -298,9 +298,7 @@ testPosition
 const
 collapsed
 =
-"
-testCollapsed
-"
+false
 ;
 wrapper
 .
@@ -329,7 +327,7 @@ handleClickSpy
 toBeCalledWith
 (
 position
-collapsed
+true
 )
 ;
 }

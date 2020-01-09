@@ -234,7 +234,7 @@ PaneToggleButton
 collapsed
 =
 {
-true
+false
 }
 handleClick
 =
