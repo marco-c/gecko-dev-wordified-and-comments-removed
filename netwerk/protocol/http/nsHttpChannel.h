@@ -2717,6 +2717,11 @@ mAsyncResumePending
 :
 1
 ;
+uint32_t
+mResolvedByTRR
+:
+1
+;
 nsTArray
 <
 nsContinueRedirectionFunc
