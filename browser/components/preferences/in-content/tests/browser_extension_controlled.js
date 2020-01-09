@@ -5146,6 +5146,13 @@ querySelectorAll
 (
 "
 label
+[
+data
+-
+l10n
+-
+id
+]
 :
 not
 (
