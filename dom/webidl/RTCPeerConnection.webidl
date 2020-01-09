@@ -973,6 +973,8 @@ optional
 MediaStreamTrack
 ?
 selector
+=
+null
 )
 ;
 /
