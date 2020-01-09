@@ -1884,11 +1884,12 @@ newZoom
 scale
 )
 ;
-return
-;
 }
 if
 (
+newZoom
+|
+|
 aType
 =
 =
