@@ -1987,7 +1987,6 @@ android_system
 android_sysroot
 android_toolchain
 android_version
-stlport_cppflags
 )
 def
 extra_toolchain_flags
@@ -1996,7 +1995,6 @@ android_system
 android_sysroot
 toolchain_dir
 android_version
-stlport_cppflags
 )
 :
 if
@@ -2049,17 +2047,6 @@ d
 %
 android_version
 ]
-flags
-.
-extend
-(
-stlport_cppflags
-if
-stlport_cppflags
-else
-[
-]
-)
 return
 flags
 depends
@@ -2120,6 +2107,7 @@ ndk
 depends
 (
 extra_toolchain_flags
+stlport_cppflags
 android_toolchain
 android_toolchain_prefix_base
 )
@@ -2142,6 +2130,7 @@ def
 bindgen_cflags_android
 (
 toolchain_flags
+stlport_flags
 toolchain
 toolchain_prefix
 )
@@ -2206,6 +2195,8 @@ toolchain_prefix
 )
 return
 toolchain_flags
++
+stlport_flags
 +
 [
 '

@@ -258,6 +258,23 @@ return
 [
 ]
             
+depends
+(
+when
+=
+True
+)
+            
+def
+stlport_cppflags
+(
+)
+:
+                
+return
+[
+]
+            
 target
 =
 depends
