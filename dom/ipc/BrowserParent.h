@@ -2618,6 +2618,11 @@ GetClientOffset
 (
 )
 ;
+void
+StopIMEStateManagement
+(
+)
+;
 PPluginWidgetParent
 *
 AllocPPluginWidgetParent
