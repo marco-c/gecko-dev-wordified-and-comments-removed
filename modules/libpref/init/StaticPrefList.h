@@ -1449,6 +1449,17 @@ browser_underline_anchors
 bool
 true
 )
+VARCACHE_PREF
+(
+"
+browser
+.
+autofocus
+"
+browser_autofocus
+bool
+true
+)
 PREF
 (
 "

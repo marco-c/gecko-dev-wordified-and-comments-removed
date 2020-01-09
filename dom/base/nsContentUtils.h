@@ -6864,16 +6864,6 @@ GetUserIsInteracting
 ;
 static
 bool
-AutoFocusEnabled
-(
-)
-{
-return
-sAutoFocusEnabled
-;
-}
-static
-bool
 IsBytecodeCacheEnabled
 (
 )
@@ -7524,10 +7514,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sAutoFocusEnabled
 ;
 #
 ifndef

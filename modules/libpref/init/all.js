@@ -1376,16 +1376,6 @@ pref
 "
 browser
 .
-autofocus
-"
-true
-)
-;
-pref
-(
-"
-browser
-.
 send_pings
 "
 false
