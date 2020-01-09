@@ -11229,7 +11229,7 @@ script
 script
 -
 >
-hasICScript
+hasJitScript
 (
 )
 )
@@ -11255,7 +11255,7 @@ JSOP_LENGTH
 script
 -
 >
-icScript
+jitScript
 (
 )
 -

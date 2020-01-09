@@ -168,7 +168,7 @@ script
 ;
 }
 bool
-hasICScript
+hasJitScript
 (
 )
 const
@@ -177,14 +177,14 @@ return
 script
 -
 >
-hasICScript
+hasJitScript
 (
 )
 ;
 }
-ICScript
+JitScript
 *
-icScript
+jitScript
 (
 )
 const
@@ -258,7 +258,7 @@ nullptr
 ;
 if
 (
-hasICScript
+hasJitScript
 (
 )
 )
