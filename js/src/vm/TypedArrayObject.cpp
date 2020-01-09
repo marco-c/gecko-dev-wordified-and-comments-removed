@@ -10963,7 +10963,7 @@ index
 uint32_t
 digit
 =
-JS7_UNDEC
+AsciiDigitToNumber
 (
 *
 s
@@ -11021,7 +11021,7 @@ false
 }
 digit
 =
-JS7_UNDEC
+AsciiDigitToNumber
 (
 *
 s

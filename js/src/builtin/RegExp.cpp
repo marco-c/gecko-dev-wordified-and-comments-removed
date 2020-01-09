@@ -5850,7 +5850,7 @@ c
 unsigned
 num
 =
-JS7_UNDEC
+AsciiDigitToNumber
 (
 c
 )
@@ -5906,7 +5906,7 @@ tmpNum
 *
 num
 +
-JS7_UNDEC
+AsciiDigitToNumber
 (
 c
 )

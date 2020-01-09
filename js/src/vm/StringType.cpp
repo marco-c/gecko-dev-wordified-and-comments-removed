@@ -6367,7 +6367,7 @@ length
 uint32_t
 index
 =
-JS7_UNDEC
+AsciiDigitToNumber
 (
 *
 cp
@@ -6408,7 +6408,7 @@ index
 ;
 c
 =
-JS7_UNDEC
+AsciiDigitToNumber
 (
 *
 cp

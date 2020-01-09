@@ -50,6 +50,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -3665,7 +3674,7 @@ fmt
 int
 d
 =
-JS7_UNDEC
+AsciiDigitToNumber
 (
 fmt
 [

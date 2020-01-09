@@ -1240,7 +1240,7 @@ previous
 uint32_t
 index
 =
-JS7_UNDEC
+AsciiDigitToNumber
 (
 *
 s
@@ -1298,7 +1298,7 @@ index
 ;
 c
 =
-JS7_UNDEC
+AsciiDigitToNumber
 (
 *
 s
