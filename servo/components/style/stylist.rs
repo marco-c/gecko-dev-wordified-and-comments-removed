@@ -2934,7 +2934,6 @@ each_applicable_non_document_style_rule_data
 |
 data
 _
-_
 |
 {
 maybe
@@ -5011,7 +5010,6 @@ each_applicable_non_document_style_rule_data
 (
 |
 data
-quirks_mode
 host
 |
 {
@@ -5031,6 +5029,8 @@ selectors_for_cache_revalidation
 lookup
 (
 element
+self
+.
 quirks_mode
 |
 selector_and_hashes

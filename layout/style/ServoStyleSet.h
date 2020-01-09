@@ -204,7 +204,7 @@ StyleSheetsDirty
 <
 <
 0
-XBLStyleSheetsDirty
+ShadowDOMStyleSheetsDirty
 =
 1
 <
@@ -1233,7 +1233,7 @@ SetStylistStyleSheetsDirty
 )
 ;
 void
-SetStylistXBLStyleSheetsDirty
+SetStylistShadowDOMStyleSheetsDirty
 (
 )
 ;
