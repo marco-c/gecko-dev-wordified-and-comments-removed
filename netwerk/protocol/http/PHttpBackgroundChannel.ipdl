@@ -490,7 +490,7 @@ this
 load
 .
 async
-NotifyTrackingCookieBlocked
+NotifyCookieBlocked
 (
 uint32_t
 aRejectedReason

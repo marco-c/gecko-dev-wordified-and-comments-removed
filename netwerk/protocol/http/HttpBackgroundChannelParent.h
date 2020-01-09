@@ -186,7 +186,7 @@ OnNotifyCookieAllowed
 )
 ;
 bool
-OnNotifyTrackingCookieBlocked
+OnNotifyCookieBlocked
 (
 uint32_t
 aRejectedReason

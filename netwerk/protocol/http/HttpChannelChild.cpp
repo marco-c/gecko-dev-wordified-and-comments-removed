@@ -8488,7 +8488,7 @@ void
 HttpChannelChild
 :
 :
-ProcessNotifyTrackingCookieBlocked
+ProcessNotifyCookieBlocked
 (
 uint32_t
 aRejectedReason
@@ -8501,7 +8501,7 @@ LOG
 HttpChannelChild
 :
 :
-ProcessNotifyTrackingCookieBlocked
+ProcessNotifyCookieBlocked
 [
 this
 =

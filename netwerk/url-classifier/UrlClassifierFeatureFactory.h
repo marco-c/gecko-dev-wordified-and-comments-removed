@@ -143,6 +143,14 @@ aError
 )
 ;
 static
+bool
+IsClassifierBlockingEventCode
+(
+uint32_t
+aEventCode
+)
+;
+static
 const
 char
 *
