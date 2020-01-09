@@ -115,13 +115,6 @@ h
 #
 include
 "
-nsILabelableRunnable
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -1856,8 +1849,6 @@ MessageTask
 >
 public
 nsIRunnablePriority
-public
-nsILabelableRunnable
 {
 public
 :

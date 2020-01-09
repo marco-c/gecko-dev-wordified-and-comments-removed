@@ -190,11 +190,6 @@ nsIIdleRunnable
 h
 '
 '
-nsILabelableRunnable
-.
-h
-'
-'
 nsMemoryPressure
 .
 h
@@ -453,11 +448,6 @@ cpp
 '
 '
 nsEnvironment
-.
-cpp
-'
-'
-nsILabelableRunnable
 .
 cpp
 '

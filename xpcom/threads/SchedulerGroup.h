@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsILabelableRunnable
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -282,8 +275,6 @@ mozilla
 Runnable
 public
 nsIRunnablePriority
-public
-nsILabelableRunnable
 {
 public
 :
