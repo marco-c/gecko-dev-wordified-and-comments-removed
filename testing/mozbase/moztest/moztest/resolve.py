@@ -3430,6 +3430,21 @@ ancestor_manifest
 :
                         
 defaults_manifests
+[
+0
+]
+=
+(
+ancestor_manifest
+metadata
+[
+'
+manifest
+'
+]
+)
+                        
+defaults_manifests
 .
 append
 (
