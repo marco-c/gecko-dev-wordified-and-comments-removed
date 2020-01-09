@@ -13,6 +13,11 @@ fingerprinting
 .
 enabled
 "
+telemetryIdentifier
+:
+"
+fp
+"
 strings
 :
 {
@@ -716,6 +721,11 @@ trackingprotection
 cryptomining
 .
 enabled
+"
+telemetryIdentifier
+:
+"
+cm
 "
 strings
 :
