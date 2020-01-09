@@ -295,6 +295,12 @@ emulator
 "
     
 "
+bogomips_minimum
+"
+:
+4000
+    
+"
 android_version
 "
 :
