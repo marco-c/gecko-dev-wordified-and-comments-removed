@@ -3620,6 +3620,10 @@ d
 %
 d
 }
+%
+d
+%
+d
 "
 brect
 .
@@ -3641,12 +3645,18 @@ brect
 Height
 (
 )
+mPosX
+mPosY
 )
 ;
 fprintf
 (
 out
 "
+flags
+=
+%
+x
 z
 =
 %
@@ -3663,6 +3673,7 @@ p
 \
 n
 "
+mVFlags
 mZIndex
 mVis
 static_cast
