@@ -158,8 +158,9 @@ constexpr
 SVGLengthListSMILType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

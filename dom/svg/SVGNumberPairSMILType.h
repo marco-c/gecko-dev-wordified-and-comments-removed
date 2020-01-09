@@ -157,8 +157,9 @@ constexpr
 SVGNumberPairSMILType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

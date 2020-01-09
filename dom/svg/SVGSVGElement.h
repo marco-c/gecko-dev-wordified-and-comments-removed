@@ -267,8 +267,9 @@ private
 DOMSVGTranslatePoint
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 typedef

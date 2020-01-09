@@ -117,8 +117,9 @@ virtual
 SVGTransformableElement
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 Clone

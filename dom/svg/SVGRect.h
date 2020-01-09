@@ -219,8 +219,9 @@ protected
 SVGRect
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIContent

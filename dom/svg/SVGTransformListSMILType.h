@@ -245,8 +245,9 @@ constexpr
 SVGTransformListSMILType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

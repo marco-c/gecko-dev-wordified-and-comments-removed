@@ -135,8 +135,9 @@ virtual
 UserSpaceMetrics
 (
 )
-{
-}
+=
+default
+;
 virtual
 float
 GetEmLength

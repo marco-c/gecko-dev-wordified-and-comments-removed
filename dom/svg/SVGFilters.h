@@ -236,8 +236,9 @@ virtual
 SVGFE
 (
 )
-{
-}
+=
+default
+;
 public
 :
 typedef
@@ -779,8 +780,9 @@ virtual
 SVGFELightingElement
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING_INHERITED

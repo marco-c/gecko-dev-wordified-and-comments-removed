@@ -83,8 +83,9 @@ public
 SVGAnimatedLengthList
 (
 )
-{
-}
+=
+default
+;
 const
 SVGLengthList
 &

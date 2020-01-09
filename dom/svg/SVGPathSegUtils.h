@@ -188,8 +188,9 @@ private
 SVGPathSegUtils
 (
 )
-{
-}
+=
+default
+;
 public
 :
 static

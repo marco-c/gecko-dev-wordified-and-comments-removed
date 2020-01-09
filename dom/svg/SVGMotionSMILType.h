@@ -232,8 +232,9 @@ constexpr
 SVGMotionSMILType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

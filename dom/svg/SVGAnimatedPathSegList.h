@@ -87,8 +87,9 @@ public
 SVGAnimatedPathSegList
 (
 )
-{
-}
+=
+default
+;
 const
 SVGPathData
 &

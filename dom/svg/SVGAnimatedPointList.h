@@ -77,8 +77,9 @@ public
 SVGAnimatedPointList
 (
 )
-{
-}
+=
+default
+;
 const
 SVGPointList
 &

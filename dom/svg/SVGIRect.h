@@ -71,8 +71,9 @@ virtual
 SVGIRect
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 WrapObject
