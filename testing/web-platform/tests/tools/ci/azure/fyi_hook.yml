@@ -92,6 +92,10 @@ ubuntu
 steps
 :
 -
+checkout
+:
+none
+-
 script
 :
 curl
