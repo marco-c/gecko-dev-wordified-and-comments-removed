@@ -271,7 +271,7 @@ equal
 frame
 .
 column
-23
+7
 "
 Frame
 column
