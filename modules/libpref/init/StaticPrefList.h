@@ -913,7 +913,7 @@ standard_content_type_normalization
 "
 dom_xhr_standard_content_type_normalization
 RelaxedAtomicBool
-false
+true
 )
 VARCACHE_PREF
 (
