@@ -27,7 +27,6 @@ WebDriverSpecTest
 Stub
 RefTestNode
 RefTest
-RefTestBase
                    
 TestharnessTest
 SupportFile
@@ -138,12 +137,6 @@ reftest_node
 "
 :
 RefTestNode
-                
-"
-reftest_base
-"
-:
-RefTestBase
                 
 "
 manual

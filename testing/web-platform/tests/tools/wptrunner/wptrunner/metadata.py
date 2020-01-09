@@ -3169,6 +3169,9 @@ support
 "
 conformancechecker
 "
+"
+reftest_base
+"
 ]
 )
     
