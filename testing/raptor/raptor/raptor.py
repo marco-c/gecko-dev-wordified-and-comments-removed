@@ -1695,6 +1695,25 @@ browsers
 "
 )
         
+self
+.
+config
+[
+'
+subtest_alert_on
+'
+]
+=
+test
+.
+get
+(
+'
+alert_on
+'
+None
+)
+        
 if
 self
 .

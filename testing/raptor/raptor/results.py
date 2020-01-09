@@ -452,6 +452,12 @@ results
 self
 .
 supporting_data
+test_config
+[
+'
+subtest_alert_on
+'
+]
 )
         
 output

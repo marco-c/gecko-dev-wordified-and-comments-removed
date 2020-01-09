@@ -58,6 +58,7 @@ __init__
 self
 results
 supporting_data
+subtest_alert_on
 )
 :
         
@@ -109,6 +110,12 @@ summarized_screenshots
 =
 [
 ]
+        
+self
+.
+subtest_alert_on
+=
+subtest_alert_on
     
 def
 summarize
@@ -433,6 +440,53 @@ filtered_values
 :
                             
 continue
+                    
+if
+self
+.
+subtest_alert_on
+is
+not
+None
+:
+                        
+if
+measurement_name
+in
+self
+.
+subtest_alert_on
+:
+                            
+LOG
+.
+info
+(
+"
+turning
+on
+subtest
+alerting
+for
+measurement
+type
+:
+%
+s
+"
+                                     
+%
+measurement_name
+)
+                            
+new_subtest
+[
+'
+shouldAlert
+'
+]
+=
+True
                     
 new_subtest
 [
