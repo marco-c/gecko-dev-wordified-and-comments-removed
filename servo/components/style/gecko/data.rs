@@ -42,7 +42,7 @@ structs
 :
 :
 {
-RawGeckoPresContextBorrowed
+self
 ServoStyleSetSizes
 }
 ;
@@ -874,9 +874,14 @@ pub
 fn
 new
 (
-pres_context
+document
 :
-RawGeckoPresContextBorrowed
+*
+const
+structs
+:
+:
+Document
 )
 -
 >
@@ -890,7 +895,7 @@ Device
 :
 new
 (
-pres_context
+document
 )
 ;
 let
