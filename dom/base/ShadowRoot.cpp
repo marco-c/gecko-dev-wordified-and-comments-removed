@@ -1911,13 +1911,12 @@ mServoStyles
 )
 {
 mServoStyles
-=
+.
+reset
+(
 Servo_AuthorStyles_Create
 (
 )
-.
-Consume
-(
 )
 ;
 }

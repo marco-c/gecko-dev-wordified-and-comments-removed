@@ -7410,13 +7410,12 @@ layout_css_use_counters_enabled
 )
 {
 mStyleUseCounters
-=
+.
+reset
+(
 Servo_UseCounters_Create
 (
 )
-.
-Consume
-(
 )
 ;
 }
