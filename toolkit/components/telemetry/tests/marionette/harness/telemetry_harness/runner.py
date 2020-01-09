@@ -140,6 +140,20 @@ DE
 "
                 
 "
+browser
+.
+cache
+.
+disk
+.
+smart_size
+.
+enabled
+"
+:
+False
+                
+"
 toolkit
 .
 telemetry
