@@ -94,4 +94,9 @@ main
 .
 js
 '
+'
+vendors
+.
+js
+'
 )

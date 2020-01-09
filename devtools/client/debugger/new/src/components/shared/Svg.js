@@ -11,8 +11,6 @@ from
 .
 .
 /
-assets
-/
 images
 /
 Svg

@@ -1,0 +1,15 @@
+dispatch
+(
+{
+.
+.
+.
+action
+[
+PROMISE
+]
+:
+promise
+}
+)
+;

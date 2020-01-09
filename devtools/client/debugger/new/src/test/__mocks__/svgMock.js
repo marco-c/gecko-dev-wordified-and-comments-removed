@@ -1,0 +1,14 @@
+module
+.
+exports
+=
+"
+<
+svg
+>
+<
+/
+svg
+>
+"
+;
