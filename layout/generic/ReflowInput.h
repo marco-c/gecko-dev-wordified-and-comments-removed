@@ -3239,7 +3239,13 @@ const
 mozilla
 :
 :
+Maybe
+<
+mozilla
+:
+:
 LogicalSize
+>
 &
 aContainingBlockSize
 const
