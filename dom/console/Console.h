@@ -176,6 +176,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Log
@@ -196,6 +197,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Info
@@ -216,6 +218,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Warn
@@ -236,6 +239,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Error
@@ -256,6 +260,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Exception
@@ -276,6 +281,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Debug
@@ -296,6 +302,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Table
@@ -316,6 +323,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Trace
@@ -336,6 +344,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Dir
@@ -356,6 +365,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Dirxml
@@ -376,6 +386,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Group
@@ -396,6 +407,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 GroupCollapsed
@@ -416,6 +428,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 GroupEnd
@@ -426,6 +439,7 @@ GlobalObject
 aGlobal
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Time
@@ -440,6 +454,7 @@ nsAString
 aLabel
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 TimeLog
@@ -464,6 +479,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 TimeEnd
@@ -478,6 +494,7 @@ nsAString
 aLabel
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 TimeStamp
@@ -500,6 +517,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Profile
@@ -520,6 +538,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 ProfileEnd
@@ -540,6 +559,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Assert
@@ -562,6 +582,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Count
@@ -576,6 +597,7 @@ nsAString
 aLabel
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 CountReset
@@ -590,6 +612,7 @@ nsAString
 aLabel
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Clear
@@ -741,6 +764,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 ProfileMethod
@@ -767,6 +791,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProfileMethodInternal
 (
@@ -793,6 +818,30 @@ aData
 ;
 static
 void
+ProfileMethodMainthread
+(
+JSContext
+*
+aCx
+const
+nsAString
+&
+aAction
+const
+Sequence
+<
+JS
+:
+:
+Value
+>
+&
+aData
+)
+;
+MOZ_CAN_RUN_SCRIPT
+static
+void
 Method
 (
 const
@@ -817,6 +866,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 MethodInternal
 (
@@ -841,6 +891,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 StringMethod
@@ -871,6 +922,7 @@ nsAString
 aMethodString
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 StringMethodInternal
 (
@@ -944,6 +996,7 @@ ConsoleCallData
 aCallData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyHandler
 (
@@ -1339,6 +1392,7 @@ DOMHighResTimeStamp
 aTimeStamp
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 MaybeExecuteDumpFunction
 (
@@ -1364,6 +1418,7 @@ nsIStackFrame
 aStack
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 MaybeExecuteDumpFunctionForTime
 (
@@ -1387,6 +1442,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ExecuteDumpFunction
 (

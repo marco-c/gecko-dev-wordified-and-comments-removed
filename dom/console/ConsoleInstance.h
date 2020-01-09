@@ -79,6 +79,7 @@ return
 nullptr
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 Log
 (
@@ -97,6 +98,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Info
 (
@@ -115,6 +117,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Warn
 (
@@ -133,6 +136,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Error
 (
@@ -151,6 +155,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Exception
 (
@@ -169,6 +174,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Debug
 (
@@ -187,6 +193,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Table
 (
@@ -205,6 +212,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Trace
 (
@@ -223,6 +231,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Dir
 (
@@ -241,6 +250,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Dirxml
 (
@@ -259,6 +269,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Group
 (
@@ -277,6 +288,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GroupCollapsed
 (
@@ -295,6 +307,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GroupEnd
 (
@@ -303,6 +316,7 @@ JSContext
 aCx
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Time
 (
@@ -315,6 +329,7 @@ nsAString
 aLabel
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 TimeLog
 (
@@ -337,6 +352,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 TimeEnd
 (
@@ -349,6 +365,7 @@ nsAString
 aLabel
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 TimeStamp
 (
@@ -369,6 +386,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Profile
 (
@@ -387,6 +405,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProfileEnd
 (
@@ -405,6 +424,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Assert
 (
@@ -425,6 +445,7 @@ Value
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Count
 (
@@ -437,6 +458,7 @@ nsAString
 aLabel
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CountReset
 (
@@ -449,6 +471,7 @@ nsAString
 aLabel
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Clear
 (
