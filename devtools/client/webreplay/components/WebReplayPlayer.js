@@ -192,6 +192,8 @@ client
 /
 debugger
 /
+new
+/
 images
 "
 ;
