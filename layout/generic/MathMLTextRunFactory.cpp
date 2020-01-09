@@ -2436,10 +2436,7 @@ ch2
 ch
 )
 {
-gfxTextRange
-:
-:
-MatchType
+FontMatchType
 matchType
 ;
 RefPtr

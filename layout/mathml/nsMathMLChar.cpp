@@ -2352,10 +2352,7 @@ aFontGroup
 GetFirstValidFont
 (
 )
-gfxTextRange
-:
-:
-MatchType
+FontMatchType
 :
 :
 kFontGroup
