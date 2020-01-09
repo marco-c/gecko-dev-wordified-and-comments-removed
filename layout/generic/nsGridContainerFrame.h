@@ -1321,6 +1321,11 @@ nsString
 aLineNameLists
 )
 ;
+void
+NormalizeChildLists
+(
+)
+;
 nscoord
 ReflowChildren
 (
