@@ -434,7 +434,7 @@ int32_t
 struct
 GfxVarUpdate
 {
-size_t
+uint32_t
 index
 ;
 GfxVarValue
