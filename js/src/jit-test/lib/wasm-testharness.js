@@ -33,7 +33,7 @@ load
 harnessdir
 +
 '
-index
+sync_index
 .
 js
 '

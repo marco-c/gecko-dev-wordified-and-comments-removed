@@ -1,3 +1,9 @@
+(
+function
+break_drop_wast_js
+(
+)
+{
 let
 1
 =
@@ -270,5 +276,14 @@ br_table
 [
 ]
 )
+)
+;
+reinitializeRegistry
+(
+)
+;
+}
+)
+(
 )
 ;

@@ -1,3 +1,9 @@
+(
+function
+float_memory_wast_js
+(
+)
+{
 let
 1
 =
@@ -13416,5 +13422,14 @@ run
 [
 ]
 )
+)
+;
+reinitializeRegistry
+(
+)
+;
+}
+)
+(
 )
 ;
