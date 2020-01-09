@@ -2827,6 +2827,10 @@ error_list
 BaseErrorList
 +
 HarnessErrorList
+                                        
+allow_crashes
+=
+True
 )
         
 env
