@@ -1445,12 +1445,6 @@ GetAzureDeviceSpaceClipBounds
 const
 ;
 Matrix
-GetDeviceTransform
-(
-)
-const
-;
-Matrix
 GetDTTransform
 (
 )
