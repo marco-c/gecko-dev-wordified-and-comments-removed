@@ -1303,7 +1303,7 @@ complexity
 "
 error
 "
-20
+40
 ]
 "
 consistent
