@@ -1124,7 +1124,7 @@ rt
 >
 gc
 .
-freeUnusedLifoBlocksAfterSweeping
+queueUnusedLifoBlocksForFree
 (
 &
 allocator_

@@ -2889,6 +2889,17 @@ check
 (
 )
 ;
+if
+(
+!
+other
+.
+head
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 tail

@@ -25071,7 +25071,7 @@ rt
 >
 gc
 .
-freeAllLifoBlocksAfterSweeping
+queueAllLifoBlocksForFree
 (
 &
 sweepTypeLifoAlloc
