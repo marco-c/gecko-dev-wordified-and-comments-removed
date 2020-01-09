@@ -330,6 +330,11 @@ nsILoadContext
 idl
 '
 '
+nsILoadURIDelegate
+.
+idl
+'
+'
 nsIPrivacyTransitionObserver
 .
 idl
