@@ -266,6 +266,17 @@ f
 testInterfaceIsSequence
 :
 f_is
+testOptionalSequence
+:
+function
+(
+arr
+)
+{
+return
+arr
+;
+}
 testShortArray
 :
 f_is
