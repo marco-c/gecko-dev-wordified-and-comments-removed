@@ -101,21 +101,6 @@ TELEMETRY_RESULT_ENUM
 SUCCESS
 )
 ;
-for
-(
-let
-hid
-of
-[
-"
-SEARCH_SERVICE_COUNTRY_TIMEOUT
-"
-"
-SEARCH_SERVICE_COUNTRY_FETCH_CAUSED_SYNC_INIT
-"
-]
-)
-{
 let
 histogram
 =
@@ -125,7 +110,9 @@ telemetry
 .
 getHistogramById
 (
-hid
+"
+SEARCH_SERVICE_COUNTRY_TIMEOUT
+"
 )
 ;
 let
@@ -152,7 +139,6 @@ values
 }
 )
 ;
-}
 let
 probeUSMismatched
 probeNonUSMismatched
@@ -317,7 +303,6 @@ AU
 }
 ;
 }
-let
 histogram
 =
 Services
@@ -329,7 +314,6 @@ getHistogramById
 hid
 )
 ;
-let
 snapshot
 =
 histogram
