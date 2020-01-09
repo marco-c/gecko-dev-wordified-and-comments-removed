@@ -533,7 +533,6 @@ void
 CancelFromStyle
 (
 )
-override
 {
 mAnimationIndex
 =
@@ -548,7 +547,7 @@ true
 Animation
 :
 :
-CancelFromStyle
+Cancel
 (
 )
 ;
