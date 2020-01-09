@@ -3389,7 +3389,7 @@ nsPresContext
 *
 mPresContext
 ;
-nsIPresShell
+PresShell
 *
 mPresShell
 ;
@@ -3446,7 +3446,7 @@ mGeneratedTextNodesWithInitializer
 ;
 nsFrameConstructorState
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsContainerFrame
@@ -3467,7 +3467,7 @@ aHistoryState
 ;
 nsFrameConstructorState
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsContainerFrame
@@ -3782,7 +3782,7 @@ nsFrameConstructorState
 :
 nsFrameConstructorState
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsContainerFrame
@@ -3950,7 +3950,7 @@ nsFrameConstructorState
 :
 nsFrameConstructorState
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsContainerFrame
@@ -6517,7 +6517,7 @@ nsCSSFrameConstructor
 Document
 *
 aDocument
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -11929,7 +11929,7 @@ nsCSSFrameConstructor
 :
 ConstructPageFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsContainerFrame
@@ -12208,7 +12208,7 @@ nsCSSFrameConstructor
 :
 CreatePlaceholderFrameFor
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -28339,12 +28339,12 @@ static
 void
 InvalidateCanvasIfNeeded
 (
-nsIPresShell
+PresShell
 *
-presShell
+aPresShell
 nsIContent
 *
-node
+aNode
 )
 ;
 void
@@ -34190,17 +34190,17 @@ static
 void
 InvalidateCanvasIfNeeded
 (
-nsIPresShell
+PresShell
 *
-presShell
+aPresShell
 nsIContent
 *
-node
+aNode
 )
 {
 MOZ_ASSERT
 (
-presShell
+aPresShell
 -
 >
 GetRootFrame
@@ -34216,7 +34216,7 @@ here
 ;
 MOZ_ASSERT
 (
-presShell
+aPresShell
 -
 >
 GetPresContext
@@ -34233,7 +34233,7 @@ nsIContent
 *
 parent
 =
-node
+aNode
 -
 >
 GetParent
@@ -34267,7 +34267,7 @@ return
 if
 (
 !
-node
+aNode
 -
 >
 IsHTMLElement
@@ -34287,7 +34287,7 @@ nsIFrame
 *
 rootFrame
 =
-presShell
+aPresShell
 -
 >
 GetRootFrame
@@ -34884,7 +34884,7 @@ nsCSSFrameConstructor
 :
 CreateContinuingOuterTableFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsPresContext
@@ -35008,7 +35008,7 @@ nsCSSFrameConstructor
 :
 CreateContinuingTableFrame
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIFrame
@@ -35306,9 +35306,9 @@ bool
 aIsFluid
 )
 {
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 aPresContext
 -
@@ -35392,7 +35392,7 @@ newFrame
 =
 NS_NewContinuingTextFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -35423,7 +35423,7 @@ newFrame
 =
 NS_NewInlineFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -35474,7 +35474,7 @@ newFrame
 =
 NS_NewBlockFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -35508,7 +35508,7 @@ newFrame
 =
 NS_NewXULLabelFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -35541,7 +35541,7 @@ newFrame
 =
 NS_NewColumnSetWrapperFrame
 (
-shell
+presShell
 computedStyle
 nsFrameState
 (
@@ -35596,7 +35596,7 @@ newFrame
 =
 NS_NewColumnSetFrame
 (
-shell
+presShell
 computedStyle
 nsFrameState
 (
@@ -35635,7 +35635,7 @@ newFrame
 =
 ConstructPageFrame
 (
-shell
+presShell
 aParentFrame
 aFrame
 canvasFrame
@@ -35658,7 +35658,7 @@ newFrame
 =
 CreateContinuingOuterTableFrame
 (
-shell
+presShell
 aPresContext
 aFrame
 aParentFrame
@@ -35683,7 +35683,7 @@ newFrame
 =
 CreateContinuingTableFrame
 (
-shell
+presShell
 aFrame
 aParentFrame
 content
@@ -35707,7 +35707,7 @@ newFrame
 =
 NS_NewTableRowGroupFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -35761,7 +35761,7 @@ rowFrame
 =
 NS_NewTableRowFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -35909,7 +35909,7 @@ cellFrame
 =
 NS_NewTableCellFrame
 (
-shell
+presShell
 computedStyle
 tableFrame
 )
@@ -36005,7 +36005,7 @@ newFrame
 =
 NS_NewFirstLineFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36036,7 +36036,7 @@ newFrame
 =
 NS_NewFirstLetterFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36083,7 +36083,7 @@ imageFrame
 >
 CreateContinuingFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36114,7 +36114,7 @@ newFrame
 =
 NS_NewImageControlFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36147,7 +36147,7 @@ fieldset
 =
 NS_NewFieldSetFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36240,7 +36240,7 @@ newFrame
 =
 NS_NewLegendFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36271,7 +36271,7 @@ newFrame
 =
 NS_NewFlexContainerFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36302,7 +36302,7 @@ newFrame
 =
 NS_NewGridContainerFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36333,7 +36333,7 @@ newFrame
 =
 NS_NewRubyFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36364,7 +36364,7 @@ newFrame
 =
 NS_NewRubyBaseContainerFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36395,7 +36395,7 @@ newFrame
 =
 NS_NewRubyTextContainerFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -36426,7 +36426,7 @@ newFrame
 =
 NS_NewDetailsFrame
 (
-shell
+presShell
 computedStyle
 )
 ;
@@ -45906,7 +45906,7 @@ nsCSSFrameConstructor
 :
 RemoveFloatingFirstLetterFrames
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIFrame
@@ -46263,7 +46263,7 @@ nsCSSFrameConstructor
 :
 RemoveFirstLetterFrames
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsContainerFrame
@@ -46588,7 +46588,7 @@ nsCSSFrameConstructor
 :
 RemoveLetterFrames
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsContainerFrame
