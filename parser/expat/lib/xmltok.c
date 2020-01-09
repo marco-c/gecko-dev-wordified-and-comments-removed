@@ -9324,7 +9324,7 @@ encPtr
 if
 (
 ptr
-=
+>
 =
 end
 )
