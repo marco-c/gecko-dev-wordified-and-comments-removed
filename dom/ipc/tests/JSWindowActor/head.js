@@ -265,6 +265,8 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+url
 )
 ;
 info
