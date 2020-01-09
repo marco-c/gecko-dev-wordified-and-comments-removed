@@ -6771,6 +6771,8 @@ linux64
 -
 clang
 -
+trunk
+-
 mingw
 -
 x86
@@ -6970,6 +6972,8 @@ linux64
 -
 clang
 -
+trunk
+-
 mingw
 -
 x86
@@ -7166,6 +7170,8 @@ node
 linux64
 -
 clang
+-
+trunk
 -
 mingw
 -
@@ -7365,6 +7371,8 @@ node
 linux64
 -
 clang
+-
+trunk
 -
 mingw
 -
