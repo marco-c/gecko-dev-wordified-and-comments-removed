@@ -84,7 +84,17 @@ pattern
 node_modules
 \
 /
+(
+?
+:
 react
+|
+react
+-
+dom
+)
+\
+/
 )
 |
 (
@@ -105,7 +115,6 @@ z
 js
 )
 /
-i
 }
 {
 label

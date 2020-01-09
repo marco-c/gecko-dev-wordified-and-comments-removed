@@ -485,8 +485,11 @@ thread
 ;
 if
 (
-!
 result
+=
+=
+=
+null
 )
 {
 return
