@@ -106,6 +106,14 @@ Scale
 )
 const
 ;
+IMPL_EVENT_HANDLER
+(
+resize
+)
+IMPL_EVENT_HANDLER
+(
+scroll
+)
 virtual
 JSObject
 *

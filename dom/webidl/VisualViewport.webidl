@@ -162,5 +162,13 @@ attribute
 double
 scale
 ;
+attribute
+EventHandler
+onresize
+;
+attribute
+EventHandler
+onscroll
+;
 }
 ;
