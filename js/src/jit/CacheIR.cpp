@@ -15673,6 +15673,16 @@ CacheKind
 :
 :
 SetProp
+&
+&
+IsPropertySetOp
+(
+JSOp
+(
+*
+pc_
+)
+)
 )
 {
 writer
