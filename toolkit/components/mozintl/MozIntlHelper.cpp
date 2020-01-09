@@ -142,7 +142,7 @@ cx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 &
 val
@@ -150,6 +150,7 @@ val
 toObject
 (
 )
+cx
 )
 )
 ;
@@ -345,7 +346,7 @@ cx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 &
 val
@@ -353,6 +354,7 @@ val
 toObject
 (
 )
+cx
 )
 )
 ;
