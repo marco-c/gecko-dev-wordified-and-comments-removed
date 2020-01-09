@@ -447,6 +447,7 @@ aType
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DoFlushPendingNotifications
 (
@@ -1617,6 +1618,14 @@ class
 :
 :
 AutoPointerEventTargetUpdater
+;
+MOZ_CAN_RUN_SCRIPT
+bool
+ProcessReflowCommands
+(
+bool
+aInterruptible
+)
 ;
 void
 SetupFontInflation

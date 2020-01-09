@@ -1455,6 +1455,7 @@ aType
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 DoFlushPendingNotifications
@@ -4137,13 +4138,6 @@ GetPerformanceNowUnclamped
 ;
 void
 DidDoReflow
-(
-bool
-aInterruptible
-)
-;
-bool
-ProcessReflowCommands
 (
 bool
 aInterruptible
