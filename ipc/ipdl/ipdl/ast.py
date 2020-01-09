@@ -1406,6 +1406,13 @@ self
 fields
 =
 fields
+        
+self
+.
+packed_field_ordering
+=
+[
+]
 class
 UnionDecl
 (
