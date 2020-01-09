@@ -13923,14 +13923,6 @@ MOZ_PHOENIX
 )
 ;
 ;
-xulrunner
-)
-AC_DEFINE
-(
-MOZ_XULRUNNER
-)
-;
-;
 esac
 #
 Graphene
@@ -13963,10 +13955,6 @@ fi
 AC_SUBST
 (
 MOZ_PHOENIX
-)
-AC_SUBST
-(
-MOZ_XULRUNNER
 )
 dnl
 =
