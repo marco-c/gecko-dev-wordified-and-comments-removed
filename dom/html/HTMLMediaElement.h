@@ -1768,6 +1768,12 @@ IsVideoDecodingSuspended
 )
 const
 ;
+bool
+IsVisible
+(
+)
+const
+;
 already_AddRefed
 <
 layers
