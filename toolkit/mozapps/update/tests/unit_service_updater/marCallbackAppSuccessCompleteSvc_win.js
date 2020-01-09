@@ -50,12 +50,6 @@ false
 true
 )
 ;
-}
-function
-runUpdateFinished
-(
-)
-{
 checkPostUpdateAppLog
 (
 )

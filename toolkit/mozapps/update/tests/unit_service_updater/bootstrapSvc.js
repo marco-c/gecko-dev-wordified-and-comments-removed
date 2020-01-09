@@ -43,12 +43,6 @@ false
 true
 )
 ;
-}
-function
-runUpdateFinished
-(
-)
-{
 checkFilesAfterUpdateSuccess
 (
 getApplyDirFile

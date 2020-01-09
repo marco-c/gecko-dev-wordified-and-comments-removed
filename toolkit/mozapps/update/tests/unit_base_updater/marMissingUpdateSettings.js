@@ -55,6 +55,7 @@ false
 )
 ;
 }
+async
 function
 setupUpdaterTestFinished
 (
@@ -74,13 +75,6 @@ USE_EXECV
 false
 )
 ;
-}
-async
-function
-runUpdateFinished
-(
-)
-{
 standardInit
 (
 )

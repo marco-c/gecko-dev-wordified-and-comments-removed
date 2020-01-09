@@ -8346,6 +8346,8 @@ aInstallDirPath
 aApplyToDirPath
 |
 |
+!
+!
 aCallbackPath
 ;
 let
@@ -9026,11 +9028,6 @@ string
 ;
 }
 }
-executeSoon
-(
-runUpdateFinished
-)
-;
 }
 function
 runTestHelperSync

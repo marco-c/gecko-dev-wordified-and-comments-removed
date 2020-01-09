@@ -58,6 +58,7 @@ false
 )
 ;
 }
+async
 function
 setupUpdaterTestFinished
 (
@@ -89,13 +90,6 @@ path
 null
 )
 ;
-}
-async
-function
-runUpdateFinished
-(
-)
-{
 standardInit
 (
 )

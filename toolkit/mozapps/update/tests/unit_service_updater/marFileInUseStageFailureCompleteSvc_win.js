@@ -112,12 +112,6 @@ true
 true
 )
 ;
-}
-function
-runUpdateFinished
-(
-)
-{
 waitForHelperExit
 (
 )

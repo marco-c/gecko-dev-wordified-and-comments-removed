@@ -46,6 +46,7 @@ false
 )
 ;
 }
+async
 function
 setupUpdaterTestFinished
 (
@@ -65,13 +66,6 @@ USE_EXECV
 true
 )
 ;
-}
-async
-function
-runUpdateFinished
-(
-)
-{
 checkAppBundleModTime
 (
 )
