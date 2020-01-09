@@ -1103,7 +1103,7 @@ value
 "
 maxResults
 :
-1000
+100
 }
 )
 ;
@@ -1205,7 +1205,7 @@ value
 "
 maxResults
 :
-1000
+100
 }
 )
 ;
@@ -1331,7 +1331,7 @@ value
 "
 maxResults
 :
-1000
+100
 }
 )
 ;
