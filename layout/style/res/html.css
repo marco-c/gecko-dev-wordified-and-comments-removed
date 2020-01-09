@@ -2606,12 +2606,6 @@ size
 :
 smaller
 ;
-line
--
-height
-:
-normal
-;
 }
 sup
 {
@@ -2626,12 +2620,6 @@ font
 size
 :
 smaller
-;
-line
--
-height
-:
-normal
 ;
 }
 nobr
