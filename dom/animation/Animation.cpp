@@ -3372,9 +3372,14 @@ mSyncWithGeometricAnimations
 keyframeEffect
 -
 >
-HasAnimationOfProperty
+HasAnimationOfPropertySet
 (
-eCSSProperty_transform
+nsCSSPropertyIDSet
+:
+:
+TransformLikeProperties
+(
+)
 )
 )
 {

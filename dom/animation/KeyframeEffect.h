@@ -752,10 +752,12 @@ aStyle
 )
 ;
 bool
-HasAnimationOfProperty
+HasAnimationOfPropertySet
 (
-nsCSSPropertyID
-aProperty
+const
+nsCSSPropertyIDSet
+&
+aPropertySet
 )
 const
 ;
