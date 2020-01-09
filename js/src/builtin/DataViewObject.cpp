@@ -781,7 +781,7 @@ RootedObject
 unwrapped
 (
 cx
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 bufobj
 )

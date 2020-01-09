@@ -501,7 +501,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 obj
 )
@@ -940,9 +940,14 @@ nullptr
 }
 obj
 =
-CheckedUnwrap
-(
 obj
+-
+>
+maybeUnwrapAs
+<
+T
+>
+(
 )
 ;
 if

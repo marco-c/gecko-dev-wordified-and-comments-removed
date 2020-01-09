@@ -1561,7 +1561,7 @@ JSObject
 *
 callerObj
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 caller
 )

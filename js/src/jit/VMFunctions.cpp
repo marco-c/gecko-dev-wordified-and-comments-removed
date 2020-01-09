@@ -9859,9 +9859,10 @@ JSObject
 *
 unwrapped
 =
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 obj
+cx
 )
 ;
 if

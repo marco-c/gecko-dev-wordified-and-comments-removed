@@ -8929,7 +8929,7 @@ JSObject
 *
 obj
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 objArg
 )

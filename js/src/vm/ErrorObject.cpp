@@ -1069,7 +1069,7 @@ RootedObject
 target
 (
 cx
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 obj
 )
@@ -1160,7 +1160,7 @@ false
 }
 target
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 proto
 )

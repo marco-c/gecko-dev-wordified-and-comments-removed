@@ -6522,7 +6522,7 @@ JSObject
 *
 unwrappedConstructor
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 newTarget
 )

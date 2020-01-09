@@ -2320,7 +2320,7 @@ cx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 &
 rval
@@ -2748,7 +2748,7 @@ cx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 &
 rval
