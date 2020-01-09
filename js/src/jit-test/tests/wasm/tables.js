@@ -2337,7 +2337,9 @@ isAsmJSFunction
 (
 asmjsFun
 )
-true
+isAsmJSCompilationAvailable
+(
+)
 )
 ;
 assertErrorMessage
