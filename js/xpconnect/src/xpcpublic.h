@@ -2169,6 +2169,15 @@ JS
 Value
 >
 exception
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+exceptionStack
 )
 ;
 void
@@ -2182,6 +2191,11 @@ JS
 :
 HandleValue
 exceptionValue
+JS
+:
+:
+HandleObject
+exceptionStack
 JS
 :
 :

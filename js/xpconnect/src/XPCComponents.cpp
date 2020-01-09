@@ -5739,6 +5739,7 @@ FindExceptionStackForConsoleReport
 (
 win
 error
+nullptr
 &
 stackVal
 &
