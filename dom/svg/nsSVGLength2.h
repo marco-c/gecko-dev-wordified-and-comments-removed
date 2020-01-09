@@ -377,6 +377,9 @@ Init
 uint8_t
 aCtxType
 =
+mozilla
+:
+:
 SVGContentUtils
 :
 :
