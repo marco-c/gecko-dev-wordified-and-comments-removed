@@ -170,8 +170,10 @@ aCreationTime
 )
 ;
 static
+already_AddRefed
+<
 nsCookie
-*
+>
 Create
 (
 const
