@@ -309,6 +309,9 @@ i
 option
 (
 {
+key
+:
+fullPath
 className
 :
 "

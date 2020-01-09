@@ -93,14 +93,14 @@ height
 :
 PropTypes
 .
-number
+string
 "
 width
 "
 :
 PropTypes
 .
-number
+string
 }
 ;
 const
