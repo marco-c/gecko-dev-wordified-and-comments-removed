@@ -188,7 +188,6 @@ ErrorResult
 &
 aRv
 )
-const
 override
 {
 aFullPath
