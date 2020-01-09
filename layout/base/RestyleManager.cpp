@@ -13389,7 +13389,7 @@ DidInitialize
 return
 ;
 }
-nsIPresShell
+PresShell
 :
 :
 AutoAssertNoFlush

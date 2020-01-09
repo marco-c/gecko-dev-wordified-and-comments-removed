@@ -2936,7 +2936,7 @@ mTargetContent
 }
 ;
 void
-nsIPresShell
+PresShell
 :
 :
 DirtyRootsList
@@ -3009,7 +3009,7 @@ CompareByReverseDepth
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 DirtyRootsList
@@ -3032,7 +3032,7 @@ aFrame
 }
 nsIFrame
 *
-nsIPresShell
+PresShell
 :
 :
 DirtyRootsList
@@ -3087,7 +3087,7 @@ frame
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 DirtyRootsList
@@ -3105,7 +3105,7 @@ Clear
 ;
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 DirtyRootsList
@@ -3129,7 +3129,7 @@ aFrame
 ;
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 DirtyRootsList
@@ -3149,7 +3149,7 @@ IsEmpty
 ;
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 DirtyRootsList
@@ -3219,11 +3219,8 @@ sDisableNonTestMouseEvents
 =
 false
 ;
-mozilla
-:
-:
 LazyLogModule
-nsIPresShell
+PresShell
 :
 :
 gLog
@@ -3233,9 +3230,6 @@ PresShell
 "
 )
 ;
-mozilla
-:
-:
 TimeStamp
 PresShell
 :
@@ -3245,9 +3239,6 @@ EventHandler
 :
 sLastInputCreated
 ;
-mozilla
-:
-:
 TimeStamp
 PresShell
 :
@@ -3282,7 +3273,7 @@ bool
 gVerifyReflowEnabled
 ;
 bool
-nsIPresShell
+PresShell
 :
 :
 GetVerifyReflowEnable
@@ -3607,7 +3598,7 @@ gVerifyReflowEnabled
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 SetVerifyReflowEnable
@@ -3622,7 +3613,7 @@ aEnabled
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 AddAutoWeakFrame
@@ -3670,7 +3661,7 @@ aWeakFrame
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 AddWeakFrame
@@ -3724,7 +3715,7 @@ aWeakFrame
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 RemoveAutoWeakFrame
@@ -3807,7 +3798,7 @@ GetPreviousWeakFrame
 }
 }
 void
-nsIPresShell
+PresShell
 :
 :
 RemoveWeakFrame
@@ -3839,7 +3830,7 @@ already_AddRefed
 <
 nsFrameSelection
 >
-nsIPresShell
+PresShell
 :
 :
 FrameSelection
@@ -4498,10 +4489,12 @@ Someone
 did
 not
 call
-nsIPresShell
+PresShell
 :
 :
-destroy
+Destroy
+(
+)
 "
 )
 ;
@@ -6866,7 +6859,7 @@ Destroy
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 StopObservingRefreshDriver
@@ -6949,7 +6942,7 @@ this
 }
 }
 void
-nsIPresShell
+PresShell
 :
 :
 StartObservingRefreshDriver
@@ -7033,7 +7026,7 @@ this
 }
 nsRefreshDriver
 *
-nsIPresShell
+PresShell
 :
 :
 GetRefreshDriver
@@ -8106,7 +8099,7 @@ aRawSelectionType
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 BeginObservingDocument
@@ -8166,7 +8159,7 @@ false
 }
 }
 void
-nsIPresShell
+PresShell
 :
 :
 EndObservingDocument
@@ -9782,7 +9775,7 @@ current
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 NativeAnonymousContentRemoved
@@ -9904,7 +9897,7 @@ nullptr
 }
 }
 void
-nsIPresShell
+PresShell
 :
 :
 SetIgnoreFrameDestruction
@@ -10151,7 +10144,7 @@ already_AddRefed
 <
 nsCaret
 >
-nsIPresShell
+PresShell
 :
 :
 GetCaret
@@ -10179,7 +10172,7 @@ already_AddRefed
 <
 AccessibleCaretEventHub
 >
-nsIPresShell
+PresShell
 :
 :
 GetAccessibleCaretEventHub
@@ -10204,7 +10197,7 @@ forget
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 SetCaret
@@ -10220,7 +10213,7 @@ aNewCaret
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 RestoreCaret
@@ -11497,7 +11490,7 @@ NS_OK
 }
 nsIFrame
 *
-nsIPresShell
+PresShell
 :
 :
 GetRootScrollFrame
@@ -11571,7 +11564,7 @@ theFrame
 }
 nsIScrollableFrame
 *
-nsIPresShell
+PresShell
 :
 :
 GetRootScrollFrameAsScrollable
@@ -11623,7 +11616,7 @@ scrollableFrame
 }
 nsIPageSequenceFrame
 *
-nsIPresShell
+PresShell
 :
 :
 GetPageSequenceFrame
@@ -11651,7 +11644,7 @@ frame
 }
 nsCanvasFrame
 *
-nsIPresShell
+PresShell
 :
 :
 GetCanvasFrame
@@ -12234,7 +12227,7 @@ reflowed
 #
 endif
 void
-nsIPresShell
+PresShell
 :
 :
 PostPendingScrollAnchorSelection
@@ -12264,7 +12257,7 @@ ScrollableFrame
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 FlushPendingScrollAnchorSelections
@@ -12332,7 +12325,7 @@ Clear
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 PostPendingScrollAnchorAdjustment
@@ -12356,7 +12349,7 @@ ScrollableFrame
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 FlushPendingScrollAnchorAdjustments
@@ -13235,7 +13228,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsIPresShell
+PresShell
 :
 :
 GetContentForScrolling
@@ -13274,7 +13267,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsIPresShell
+PresShell
 :
 :
 GetSelectedContentForScrolling
@@ -13340,7 +13333,7 @@ forget
 }
 nsIScrollableFrame
 *
-nsIPresShell
+PresShell
 :
 :
 GetNearestScrollableFrame
@@ -13402,7 +13395,7 @@ eHorizontal
 }
 nsIScrollableFrame
 *
-nsIPresShell
+PresShell
 :
 :
 GetScrollableFrameToScrollForContent
@@ -13526,7 +13519,7 @@ scrollFrame
 }
 nsIScrollableFrame
 *
-nsIPresShell
+PresShell
 :
 :
 GetScrollableFrameToScroll
@@ -13558,7 +13551,7 @@ aDirection
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 CancelAllPendingReflows
@@ -13654,7 +13647,7 @@ didReconstruct
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 SlotAssignmentWillChange
@@ -13941,7 +13934,7 @@ child
 #
 endif
 void
-nsIPresShell
+PresShell
 :
 :
 DestroyFramesForAndRestyle
@@ -14083,7 +14076,7 @@ mChangeNestCount
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 PostRecreateFramesFor
@@ -14125,7 +14118,7 @@ nsChangeHint_ReconstructFrame
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 RestyleForAnimation
@@ -14157,7 +14150,7 @@ nsChangeHint
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 SetForwardingContainer
@@ -14177,7 +14170,7 @@ aContainer
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 ClearFrameRefs
@@ -14356,7 +14349,7 @@ already_AddRefed
 <
 gfxContext
 >
-nsIPresShell
+PresShell
 :
 :
 CreateReferenceRenderingContext
@@ -16889,7 +16882,7 @@ mContentToScrollToFlags
 ;
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 ScrollFrameRectIntoView
@@ -17898,7 +17891,7 @@ SetNeedLayoutFlush
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 DispatchSynthMouseMove
@@ -18331,7 +18324,7 @@ NS_OK
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 ScheduleBeforeFirstPaint
@@ -18386,7 +18379,7 @@ mDocument
 }
 }
 void
-nsIPresShell
+PresShell
 :
 :
 UnsuppressAndInvalidate
@@ -18545,7 +18538,7 @@ UnsuppressAndInvalidate
 ;
 }
 nsresult
-nsIPresShell
+PresShell
 :
 :
 PostReflowCallback
@@ -18623,7 +18616,7 @@ NS_OK
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 CancelReflowCallback
@@ -18758,7 +18751,7 @@ next
 }
 }
 void
-nsIPresShell
+PresShell
 :
 :
 CancelPostedReflowCallbacks
@@ -18937,7 +18930,7 @@ flushType
 }
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 IsSafeToFlush
@@ -18999,7 +18992,7 @@ true
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 NotifyFontFaceSetOnRefresh
@@ -20783,7 +20776,7 @@ oldNextSibling
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 NotifyCounterStylesAreDirty
@@ -20812,7 +20805,7 @@ NotifyCounterStylesAreDirty
 ;
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 FrameIsAncestorOfDirtyRoot
@@ -29797,7 +29790,7 @@ PointerLock
 }
 nsIContent
 *
-nsIPresShell
+PresShell
 :
 :
 GetCurrentEventContent
@@ -29835,7 +29828,7 @@ mCurrentEventContent
 }
 nsIFrame
 *
-nsIPresShell
+PresShell
 :
 :
 GetCurrentEventFrame
@@ -29911,7 +29904,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsIPresShell
+PresShell
 :
 :
 GetEventTargetContent
@@ -29999,7 +29992,7 @@ forget
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 PushCurrentEventInfo
@@ -30047,7 +30040,7 @@ aContent
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 PopCurrentEventInfo
@@ -30323,7 +30316,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsIPresShell
+PresShell
 :
 :
 GetFocusedContentInOurWindow
@@ -41823,7 +41816,7 @@ UnsuppressPainting
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 MaybeScheduleReflow
@@ -41881,7 +41874,7 @@ ASSERT_REFLOW_SCHEDULED_STATE
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 ScheduleReflow
@@ -41902,7 +41895,7 @@ ASSERT_REFLOW_SCHEDULED_STATE
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 WillCauseReflow
@@ -41922,7 +41915,7 @@ mChangeNestCount
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 DidCauseReflow
@@ -41958,7 +41951,7 @@ RemoveScriptBlocker
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 WillDoReflow
@@ -42083,7 +42076,7 @@ NotifyMissingFonts
 ;
 }
 DOMHighResTimeStamp
-nsIPresShell
+PresShell
 :
 :
 GetPerformanceNowUnclamped
@@ -42141,7 +42134,7 @@ now
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 sReflowContinueCallback
@@ -42200,7 +42193,7 @@ ScheduleReflow
 ;
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 ScheduleReflowOffTimer
@@ -44287,7 +44280,7 @@ NS_ERROR_FAILURE
 ;
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 AddRefreshObserver
@@ -44339,7 +44332,7 @@ true
 ;
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 RemoveRefreshObserver
@@ -44379,7 +44372,7 @@ aFlushType
 ;
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 AddPostRefreshObserver
@@ -44425,7 +44418,7 @@ true
 ;
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 RemovePostRefreshObserver
@@ -44471,7 +44464,7 @@ true
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 DoObserveStyleFlushes
@@ -44527,7 +44520,7 @@ this
 }
 }
 void
-nsIPresShell
+PresShell
 :
 :
 DoObserveLayoutFlushes
@@ -50025,7 +50018,7 @@ true
 endif
 nsIFrame
 *
-nsIPresShell
+PresShell
 :
 :
 GetAbsoluteContainingBlock
@@ -51382,7 +51375,7 @@ didChange
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 ScrollToVisual
@@ -51467,7 +51460,7 @@ aUpdateType
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 SetPendingVisualScrollUpdate
@@ -51485,9 +51478,6 @@ aUpdateType
 {
 mPendingVisualScrollUpdate
 =
-mozilla
-:
-:
 Some
 (
 VisualScrollUpdate
@@ -51518,7 +51508,7 @@ SchedulePaint
 }
 }
 void
-nsIPresShell
+PresShell
 :
 :
 ClearPendingVisualScrollUpdate
@@ -51548,7 +51538,7 @@ Nothing
 }
 }
 void
-nsIPresShell
+PresShell
 :
 :
 AcknowledgePendingVisualScrollUpdate
@@ -51588,7 +51578,7 @@ GetLayoutViewportOffset
 ;
 }
 nsPoint
-nsIPresShell
+PresShell
 :
 :
 GetLayoutViewportOffset
@@ -51625,7 +51615,7 @@ result
 ;
 }
 nsSize
-nsIPresShell
+PresShell
 :
 :
 GetLayoutViewportSize
@@ -51666,7 +51656,7 @@ result
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 RecomputeFontSizeInflationEnabled
@@ -51749,7 +51739,7 @@ fontScale
 }
 }
 bool
-nsIPresShell
+PresShell
 :
 :
 DetermineFontSizeInflationState
@@ -52106,7 +52096,7 @@ Thaw
 ;
 }
 void
-nsIPresShell
+PresShell
 :
 :
 SyncWindowProperties
@@ -52227,7 +52217,7 @@ Author
 }
 }
 nsresult
-nsIPresShell
+PresShell
 :
 :
 HasRuleProcessorUsedByMultipleStyleSets
