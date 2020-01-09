@@ -163,7 +163,9 @@ module
 global
 i32
 (
-get_global
+global
+.
+get
 0
 )
 )
@@ -280,7 +282,9 @@ type
 }
 )
 (
-set_global
+global
+.
+set
 0
 (
 get_local

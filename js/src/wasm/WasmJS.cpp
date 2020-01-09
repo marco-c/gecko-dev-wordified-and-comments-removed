@@ -13595,7 +13595,9 @@ isTenured
 "
 assumed
 by
-set_global
+global
+.
+set
 post
 barriers
 "

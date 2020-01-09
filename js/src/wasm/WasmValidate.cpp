@@ -12391,7 +12391,9 @@ fail
 failed
 to
 read
-get_global
+global
+.
+get
 index
 in
 initializer
