@@ -14029,6 +14029,11 @@ sheet
 presShell
 -
 >
+GetDocument
+(
+)
+-
+>
 ApplicableStylesChanged
 (
 )
@@ -14356,6 +14361,11 @@ sheet
 )
 ;
 presShell
+-
+>
+GetDocument
+(
+)
 -
 >
 ApplicableStylesChanged
