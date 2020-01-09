@@ -3379,10 +3379,9 @@ mCheckLongPress
 {
 if
 (
-!
 Versions
 .
-preN
+N
 )
 {
 mCheckLongPress
@@ -3420,10 +3419,9 @@ event
 {
 if
 (
-!
 Versions
 .
-preN
+N
 &
 &
 keyCode
@@ -3507,10 +3505,9 @@ event
 {
 if
 (
-!
 Versions
 .
-preN
+N
 &
 &
 keyCode
@@ -19085,9 +19082,10 @@ event
 {
 if
 (
+!
 Versions
 .
-preN
+N
 &
 &
 keyCode
