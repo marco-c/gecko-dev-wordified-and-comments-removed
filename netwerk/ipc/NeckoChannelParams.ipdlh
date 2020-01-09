@@ -1713,9 +1713,6 @@ URIParams
 ?
 topWindowURI
 ;
-nsIPrincipal
-topWindowPrincipal
-;
 uint32_t
 loadFlags
 ;
