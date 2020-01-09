@@ -3922,6 +3922,27 @@ platform
 ]
 :
             
+opt
+=
+test
+[
+'
+test
+-
+platform
+'
+]
+.
+split
+(
+'
+/
+'
+)
+[
+1
+]
+            
 test
 [
 '
@@ -3944,8 +3965,9 @@ em
 -
 x86
 /
-opt
 '
++
+opt
         
 else
 :
