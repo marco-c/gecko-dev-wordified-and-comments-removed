@@ -8795,9 +8795,6 @@ isInitialized
 )
 )
 ;
-#
-ifdef
-DEBUG
 Label
 ok
 ;
@@ -8834,8 +8831,6 @@ bind
 ok
 )
 ;
-#
-endif
 if
 (
 !
