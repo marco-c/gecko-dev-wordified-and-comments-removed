@@ -16735,6 +16735,12 @@ mViewportZoom
 =
 zoom
 ;
+mTextInput
+.
+onScreenMetricsUpdated
+(
+)
+;
 }
 void
 onWindowBoundsChanged
