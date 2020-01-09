@@ -246,15 +246,6 @@ status
 :
 -
 255
-env
-:
-CHANNEL
-:
-"
-beta
--
-localtest
-"
 treeherder
 :
 symbol
