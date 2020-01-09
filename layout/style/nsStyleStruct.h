@@ -395,7 +395,10 @@ mFontSizeOffset
 uint8_t
 mFontSizeKeyword
 ;
-uint8_t
+mozilla
+:
+:
+StyleGenericFontFamily
 mGenericID
 ;
 int8_t

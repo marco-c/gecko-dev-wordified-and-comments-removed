@@ -329,7 +329,10 @@ mLanguage
 >
 GetDefaultFont
 (
-kGenericFont_serif
+StyleGenericFontFamily
+:
+:
+Serif
 )
 ;
 mPageData

@@ -48480,7 +48480,10 @@ devPixelOffset
 nsFont
 font
 (
-eFamily_serif
+StyleGenericFontFamily
+:
+:
+Serif
 nsPresContext
 :
 :
