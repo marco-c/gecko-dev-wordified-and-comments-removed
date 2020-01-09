@@ -81,6 +81,8 @@ wr
 LayoutSize
 mContentSize
 ;
+Maybe
+<
 mozilla
 :
 :
@@ -88,6 +90,7 @@ ipc
 :
 :
 ByteBuf
+>
 mDL
 ;
 wr
@@ -120,7 +123,10 @@ Shmem
 >
 mLargeShmems
 ;
+Maybe
+<
 WebRenderScrollData
+>
 mScrollData
 ;
 }
