@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIReferrerInfo
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -101,11 +108,9 @@ aContent
 nsIURI
 *
 aTarget
-nsIURI
+nsIReferrerInfo
 *
-aReferrer
-uint32_t
-aReferrerPolicy
+aReferrerInfo
 )
 ;
 private
