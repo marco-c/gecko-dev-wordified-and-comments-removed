@@ -2998,6 +2998,9 @@ postToControlServer
 (
 msgType
 msgData
+=
+"
+"
 )
 {
 if
@@ -3310,10 +3313,7 @@ stopGeckoProfiling
 postToControlServer
 (
 "
-status
-"
-"
-__raptor_shutdownBrowser
+shutdownBrowser
 "
 )
 ;
