@@ -543,7 +543,10 @@ mGroupId
 #
 ifdef
 MOZ_SANDBOX
-SandboxBroker
+RefPtr
+<
+AbstractSandboxBroker
+>
 mSandboxBroker
 ;
 std
