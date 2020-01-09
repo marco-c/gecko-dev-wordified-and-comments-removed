@@ -1796,16 +1796,12 @@ report_breakage
 )
 ;
 "
-is
+class
 =
 "
 text
 -
 link
-"
-class
-=
-"
 subviewkeynav
 "
 flex
