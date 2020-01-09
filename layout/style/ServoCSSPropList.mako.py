@@ -400,12 +400,6 @@ width
 "
     
 "
-column
--
-width
-"
-    
-"
 display
 "
     

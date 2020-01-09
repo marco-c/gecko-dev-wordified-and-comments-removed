@@ -9864,14 +9864,6 @@ predefined_types
 length
 :
 :
-NonNegativeLengthOrAuto
-"
-:
-impl_style_coord
-"
-length
-:
-:
 NonNegativeLengthPercentageOrNormal
 "
 :

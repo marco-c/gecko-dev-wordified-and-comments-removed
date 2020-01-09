@@ -544,7 +544,10 @@ nscoord
 ClampUsedColumnWidth
 (
 const
-nsStyleCoord
+mozilla
+:
+:
+Length
 &
 aColumnWidth
 )
