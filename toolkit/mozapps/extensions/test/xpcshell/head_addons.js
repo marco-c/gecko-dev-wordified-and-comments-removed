@@ -5778,17 +5778,8 @@ PluginHost
 {
 getPluginTags
 (
-count
 )
 {
-count
-.
-value
-=
-plugins
-.
-length
-;
 return
 plugins
 .
