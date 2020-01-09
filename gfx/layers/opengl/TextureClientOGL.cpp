@@ -137,6 +137,8 @@ gl
 :
 OriginPos
 aOriginPos
+bool
+aHasAlpha
 LayersIPCChannel
 *
 aAllocator
@@ -179,6 +181,7 @@ AndroidSurfaceTextureData
 aHandle
 aSize
 aContinuous
+aHasAlpha
 )
 aFlags
 aAllocator
@@ -199,6 +202,8 @@ IntSize
 aSize
 bool
 aContinuous
+bool
+aHasAlpha
 )
 :
 mHandle
@@ -212,6 +217,10 @@ aSize
 mContinuous
 (
 aContinuous
+)
+mHasAlpha
+(
+aHasAlpha
 )
 {
 MOZ_ASSERT
@@ -304,6 +313,8 @@ SurfaceTextureDescriptor
 (
 mHandle
 mSize
+mHasAlpha
+?
 gfx
 :
 :
@@ -311,6 +322,14 @@ SurfaceFormat
 :
 :
 R8G8B8A8
+:
+gfx
+:
+:
+SurfaceFormat
+:
+:
+R8G8B8X8
 mContinuous
 false
 )
