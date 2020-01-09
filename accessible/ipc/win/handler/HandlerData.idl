@@ -139,7 +139,7 @@ idl
 ;
 import
 "
-ServProv
+servprov
 .
 idl
 "
@@ -1044,6 +1044,15 @@ f108
 library
 AccessibleHandlerTypeLib
 {
+importlib
+(
+"
+stdole2
+.
+tlb
+"
+)
+;
 /
 *
 *
