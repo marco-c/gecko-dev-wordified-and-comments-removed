@@ -1480,6 +1480,8 @@ isBlacklisted
 =
 true
 ;
+break
+;
 }
 }
 }
