@@ -53,10 +53,10 @@ ruleData
 {
 const
 {
-selector
+selectors
 =
-"
-"
+[
+]
 ancestors
 =
 [
@@ -119,7 +119,7 @@ return
 atRules
 }
 {
-selector
+selectors
 }
 {
 ruleIndex
