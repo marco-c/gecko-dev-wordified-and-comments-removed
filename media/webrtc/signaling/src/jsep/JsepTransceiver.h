@@ -303,6 +303,12 @@ HasLevel
 )
 |
 |
+!
+HasLevel
+(
+)
+|
+|
 oldTransceiver
 .
 GetLevel
