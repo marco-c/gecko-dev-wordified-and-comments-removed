@@ -507,7 +507,7 @@ frames
 [
 3
 ]
-true
+false
 "
 Should
 be
@@ -521,6 +521,14 @@ with
 document
 .
 domain
+but
+can
+'
+t
+because
+of
+cached
+CCWs
 "
 )
 }
