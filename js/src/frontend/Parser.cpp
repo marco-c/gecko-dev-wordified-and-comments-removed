@@ -5641,6 +5641,8 @@ Scope
 scope
 bool
 hasParameterExprs
+IsFieldInitializer
+isFieldInitializer
 LifoAlloc
 &
 alloc
@@ -6055,6 +6057,13 @@ Nothing
 )
 ;
 }
+bindings
+-
+>
+isFieldInitializer
+=
+isFieldInitializer
+;
 InitializeBindingData
 (
 bindings
@@ -6109,6 +6118,8 @@ Scope
 scope
 bool
 hasParameterExprs
+IsFieldInitializer
+isFieldInitializer
 )
 {
 return
@@ -6117,6 +6128,7 @@ NewFunctionScopeData
 cx_
 scope
 hasParameterExprs
+isFieldInitializer
 alloc_
 pc_
 )
@@ -8081,6 +8093,8 @@ finishFunction
 (
 bool
 isStandaloneFunction
+IsFieldInitializer
+isFieldInitializer
 )
 {
 if
@@ -8184,6 +8198,7 @@ functionScope
 (
 )
 hasParameterExprs
+isFieldInitializer
 )
 ;
 if
@@ -8291,6 +8306,8 @@ finishFunction
 (
 bool
 isStandaloneFunction
+IsFieldInitializer
+isFieldInitializer
 )
 {
 if
@@ -34862,6 +34879,11 @@ if
 !
 finishFunction
 (
+false
+IsFieldInitializer
+:
+:
+Yes
 )
 )
 {

@@ -1902,6 +1902,10 @@ functionScope
 (
 )
 false
+IsFieldInitializer
+:
+:
+No
 alloc_
 pc_
 )
