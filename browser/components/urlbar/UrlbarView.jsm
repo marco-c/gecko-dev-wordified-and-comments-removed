@@ -4072,6 +4072,15 @@ if
 (
 event
 .
+detail
+=
+=
+1
+&
+&
+(
+event
+.
 target
 .
 classList
@@ -4099,6 +4108,7 @@ urlbarView
 -
 title
 "
+)
 )
 )
 {
@@ -4125,6 +4135,15 @@ if
 (
 event
 .
+detail
+=
+=
+1
+&
+&
+(
+event
+.
 target
 .
 classList
@@ -4152,6 +4171,7 @@ urlbarView
 -
 title
 "
+)
 )
 )
 {
