@@ -1248,10 +1248,8 @@ static
 PRBool
 ipv6_is_present
 ;
-PR_EXTERN
-(
+extern
 PRBool
-)
 _pr_test_ipv6_socket
 (
 void
