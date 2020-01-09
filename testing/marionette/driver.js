@@ -737,6 +737,11 @@ AnonAttribute
 )
 ;
 const
+TIMEOUT_NO_WINDOW_MANAGER
+=
+5000
+;
+const
 globalMessageManager
 =
 Services
@@ -11269,6 +11274,9 @@ minimize
 throws
 :
 null
+timeout
+:
+TIMEOUT_NO_WINDOW_MANAGER
 }
 )
 ;
@@ -11433,6 +11441,9 @@ maximize
 throws
 :
 null
+timeout
+:
+TIMEOUT_NO_WINDOW_MANAGER
 }
 )
 ;
@@ -11582,6 +11593,9 @@ true
 throws
 :
 null
+timeout
+:
+TIMEOUT_NO_WINDOW_MANAGER
 }
 )
 ;
@@ -14080,6 +14094,14 @@ fullScreen
 false
 ;
 }
+{
+throws
+:
+null
+timeout
+:
+TIMEOUT_NO_WINDOW_MANAGER
+}
 )
 ;
 window
@@ -14093,6 +14115,7 @@ cb
 )
 ;
 }
+async
 function
 restoreWindow
 (
@@ -14105,7 +14128,7 @@ restore
 (
 )
 ;
-return
+await
 new
 PollPromise
 (
@@ -14149,7 +14172,7 @@ reject
 {
 timeout
 :
-2000
+TIMEOUT_NO_WINDOW_MANAGER
 }
 )
 ;
