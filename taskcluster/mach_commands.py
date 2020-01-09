@@ -2617,12 +2617,24 @@ parameters
 .
 load_parameters_file
 (
+                
 options
 [
 '
 parameters
 '
 ]
+                
+strict
+=
+False
+                
+trust_domain
+=
+"
+gecko
+"
+            
 )
             
 parameters
@@ -2893,7 +2905,7 @@ taskgraph
 .
 parameters
 .
-load_parameters_file
+parameters_loader
 (
 options
 [
@@ -2901,12 +2913,6 @@ options
 parameters
 '
 ]
-)
-            
-parameters
-.
-check
-(
 )
             
 tgg
@@ -3322,7 +3328,7 @@ taskgraph
 .
 parameters
 .
-load_parameters_file
+parameters_loader
 (
 options
 [
@@ -3330,12 +3336,6 @@ options
 parameters
 '
 ]
-)
-            
-parameters
-.
-check
-(
 )
             
 tgg
@@ -3371,6 +3371,8 @@ actions
 .
 render_actions_json
 (
+tgg
+.
 parameters
 tgg
 .
