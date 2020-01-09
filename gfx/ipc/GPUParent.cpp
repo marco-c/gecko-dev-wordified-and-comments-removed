@@ -1906,7 +1906,10 @@ CopyFeatureChange
 (
 Feature
 aFeature
-FeatureChange
+Maybe
+<
+FeatureFailure
+>
 *
 aOut
 )
@@ -1942,7 +1945,7 @@ IsEnabled
 *
 aOut
 =
-null_t
+Nothing
 (
 )
 ;
@@ -1976,6 +1979,8 @@ GetFailureMessage
 *
 aOut
 =
+Some
+(
 FeatureFailure
 (
 feature
@@ -1988,6 +1993,7 @@ feature
 .
 GetFailureId
 (
+)
 )
 )
 ;
@@ -2093,7 +2099,10 @@ gpuDevice
 (
 )
 =
+Some
+(
 deviceStatus
+)
 ;
 }
 #
@@ -2105,7 +2114,7 @@ gpuDevice
 (
 )
 =
-null_t
+Nothing
 (
 )
 ;

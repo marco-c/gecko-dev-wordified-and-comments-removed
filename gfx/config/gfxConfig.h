@@ -32,6 +32,15 @@ Assertions
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Maybe
+.
+h
+"
 namespace
 mozilla
 {
@@ -39,7 +48,7 @@ namespace
 gfx
 {
 class
-FeatureChange
+FeatureFailure
 ;
 class
 gfxConfig
@@ -508,7 +517,10 @@ ImportChange
 Feature
 aFeature
 const
-FeatureChange
+Maybe
+<
+FeatureFailure
+>
 &
 aChange
 )

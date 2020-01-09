@@ -1313,7 +1313,10 @@ ImportChange
 Feature
 aFeature
 const
-FeatureChange
+Maybe
+<
+FeatureFailure
+>
 &
 aChange
 )
@@ -1322,15 +1325,9 @@ if
 (
 aChange
 .
-type
+isNothing
 (
 )
-=
-=
-FeatureChange
-:
-:
-Tnull_t
 )
 {
 return
@@ -1343,7 +1340,7 @@ failure
 =
 aChange
 .
-get_FeatureFailure
+ref
 (
 )
 ;
