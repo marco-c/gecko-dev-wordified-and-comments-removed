@@ -516,6 +516,7 @@ workerinternals
 LoadMainScript
 (
 aWorkerPrivate
+nullptr
 mScriptURL
 DebuggerScript
 rv
