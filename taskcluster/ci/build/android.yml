@@ -3426,11 +3426,6 @@ api
 +
 Nightly
 "
-use
--
-pgo
-:
-true
 attributes
 :
 nightly
@@ -3879,10 +3874,6 @@ cfg
 api
 -
 16
--
-profile
--
-use
 tooltool
 -
 downloads
