@@ -10180,12 +10180,8 @@ GetPrimaryFrame
 )
 -
 >
-IsFrameOfType
+IsBlockFrameOrSubclass
 (
-nsIFrame
-:
-:
-eBlockFrame
 )
 )
 {

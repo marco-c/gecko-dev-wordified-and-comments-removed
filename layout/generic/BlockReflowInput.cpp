@@ -2739,12 +2739,8 @@ GetParent
 )
 -
 >
-IsFrameOfType
+IsBlockFrameOrSubclass
 (
-nsIFrame
-:
-:
-eBlockFrame
 )
 "
 float

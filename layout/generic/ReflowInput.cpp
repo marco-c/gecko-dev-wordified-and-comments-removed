@@ -565,12 +565,8 @@ if
 aFrame
 -
 >
-IsFrameOfType
+IsBlockFrameOrSubclass
 (
-nsIFrame
-:
-:
-eBlockFrame
 )
 )
 {
@@ -4034,12 +4030,8 @@ canBeDynamicReflowRoot
 mFrame
 -
 >
-IsFrameOfType
+IsBlockFrameOrSubclass
 (
-nsIFrame
-:
-:
-eBlockFrame
 )
 &
 &
