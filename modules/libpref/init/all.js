@@ -19405,7 +19405,7 @@ security
 .
 allow_eval_with_system_principal
 "
-true
+false
 )
 ;
 pref
@@ -19469,6 +19469,9 @@ updates
 js
 setup
 jsol
+.
+js
+parent_utils
 .
 js
 "
