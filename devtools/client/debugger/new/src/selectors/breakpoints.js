@@ -11,6 +11,7 @@ import
 type
 {
 BreakpointsState
+XHRBreakpointsList
 }
 from
 "
@@ -39,6 +40,8 @@ state
 :
 OuterState
 )
+:
+XHRBreakpointsList
 {
 return
 state

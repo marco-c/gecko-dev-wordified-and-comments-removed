@@ -684,10 +684,6 @@ asyncStore
 xhrBreakpoints
 =
 currentXHRBreakpoints
-.
-toJS
-(
-)
 ;
 }
 }
