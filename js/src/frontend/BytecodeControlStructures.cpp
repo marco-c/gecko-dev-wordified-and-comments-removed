@@ -530,6 +530,10 @@ head_
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -608,6 +612,10 @@ entry
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -655,6 +663,10 @@ SetLoopEntryDepthHintAndFlags
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 code
 (
 off

@@ -844,6 +844,10 @@ setContinueTarget
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )

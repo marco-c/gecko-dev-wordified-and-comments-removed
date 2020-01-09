@@ -2100,6 +2100,10 @@ index
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
@@ -5588,6 +5592,10 @@ UINT32_MAX
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 offset
 (
 )
