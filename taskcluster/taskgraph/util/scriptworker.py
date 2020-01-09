@@ -2713,18 +2713,6 @@ default_locales
 '
 ]
     
-elif
-isinstance
-(
-locale
-list
-)
-:
-        
-locales
-=
-locale
-    
 else
 :
         
@@ -3576,31 +3564,6 @@ locale
 )
 :
         
-if
-isinstance
-(
-kwargs
-[
-'
-locale
-'
-]
-list
-)
-:
-            
-locales
-=
-kwargs
-[
-'
-locale
-'
-]
-        
-else
-:
-            
 locales
 =
 [
@@ -5067,19 +5030,6 @@ buildid
 ]
                     
 '
-previous_version
-'
-:
-info
-.
-get
-(
-'
-previousVersion
-'
-)
-                    
-'
 buildid
 '
 :
@@ -5401,8 +5351,7 @@ any
 (
 [
 pj
-=
-=
+in
 project
 for
 pj
@@ -5418,26 +5367,6 @@ True
 platforms
 =
 [
-        
-'
-linux
-'
-        
-'
-linux64
-'
-        
-'
-win32
-'
-        
-'
-win64
-'
-        
-'
-macosx64
-'
         
 '
 linux
@@ -5496,18 +5425,6 @@ reporter
 -
 nightly
 '
-        
-'
-firefox
--
-source
-'
-        
-'
-firefox
--
-release
-'
     
 ]
     
@@ -5515,22 +5432,9 @@ projects
 =
 [
 '
-try
-'
-'
 mozilla
 -
 central
-'
-'
-mozilla
--
-beta
-'
-'
-mozilla
--
-release
 '
 ]
     
@@ -5539,8 +5443,7 @@ any
 (
 [
 pl
-=
-=
+in
 platform
 for
 pl
@@ -5553,8 +5456,7 @@ any
 (
 [
 pj
-=
-=
+in
 project
 for
 pj

@@ -64,17 +64,11 @@ util
 scriptworker
 import
 (
-generate_beetmover_artifact_map
-                                         
-generate_beetmover_upstream_artifacts
+get_beetmover_bucket_scope
                                          
 get_beetmover_action_scope
                                          
-get_beetmover_bucket_scope
-                                         
 get_worker_type_for_scope
-                                         
-should_use_artifact_map
 )
 from
 taskgraph
@@ -110,19 +104,6 @@ build
 )
 :
 basestring
-    
-Required
-(
-'
-attributes
-'
-)
-:
-{
-basestring
-:
-object
-}
     
 Optional
 (
@@ -516,22 +497,6 @@ attributes
 chunk_locales
 '
 ]
-        
-attributes
-.
-update
-(
-job
-.
-get
-(
-'
-attributes
-'
-{
-}
-)
-)
         
 bucket_scope
 =
@@ -972,63 +937,13 @@ craft_release_properties
 config
 job
 )
-        
-}
-        
-if
-should_use_artifact_map
-(
-platform
-config
-.
-params
-[
-'
-project
-'
-]
-)
-:
             
-upstream_artifacts
-=
-generate_beetmover_upstream_artifacts
-(
-                
-config
-job
-platform
-locales
-            
-)
-            
-worker
-[
 '
-artifact
+upstream
 -
-map
+artifacts
 '
-]
-=
-generate_beetmover_artifact_map
-(
-                
-config
-job
-platform
-=
-platform
-locale
-=
-locales
-)
-        
-else
 :
-            
-upstream_artifacts
-=
 generate_upstream_artifacts
 (
                 
@@ -1038,16 +953,7 @@ locales
             
 )
         
-worker
-[
-'
-upstream
--
-artifacts
-'
-]
-=
-upstream_artifacts
+}
         
 job
 [
