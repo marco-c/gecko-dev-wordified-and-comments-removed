@@ -1686,12 +1686,6 @@ defined
 (
 MOZ_WIDGET_COCOA
 )
-|
-|
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 extern
 const
 mozilla
@@ -2259,12 +2253,6 @@ XP_WIN
 defined
 (
 MOZ_WIDGET_COCOA
-)
-|
-|
-defined
-(
-MOZ_WIDGET_ANDROID
 )
 RegisterModule
 (
