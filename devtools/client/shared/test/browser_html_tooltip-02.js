@@ -1073,14 +1073,9 @@ true
 ;
 iframe
 .
-src
+srcdoc
 =
 "
-data
-:
-text
-/
-html
 <
 div
 id
