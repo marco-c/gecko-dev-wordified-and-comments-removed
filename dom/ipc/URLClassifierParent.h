@@ -11,6 +11,17 @@ mozilla
 /
 dom
 /
+PContent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PURLClassifierParent
 .
 h

@@ -191,6 +191,13 @@ h
 #
 include
 "
+nsFrameLoaderOwner
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
