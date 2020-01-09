@@ -4463,7 +4463,7 @@ u
 mSelector
 =
 =
-kAudioHardwarePropertyDataSource
+kAudioDevicePropertyDataSource
 for
 id
 =
@@ -7309,7 +7309,7 @@ noErr
 LOG
 (
 "
-AudioHardwareGetPropertyInfo
+AudioObjectGetPropertyDataSize
 /
 kAudioHardwarePropertyPlugInForBundleID
 rv
@@ -7401,7 +7401,7 @@ noErr
 LOG
 (
 "
-AudioHardwareGetProperty
+AudioObjectGetPropertyData
 /
 kAudioHardwarePropertyPlugInForBundleID
 rv
