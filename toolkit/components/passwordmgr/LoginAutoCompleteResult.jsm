@@ -1850,16 +1850,6 @@ null
 ;
 }
 let
-rect
-=
-BrowserUtils
-.
-getElementBoundingScreenRect
-(
-aElement
-)
-;
-let
 acLookupPromise
 =
 this
@@ -1873,7 +1863,6 @@ _autoCompleteSearchAsync
 aSearchString
 previousResult
 aElement
-rect
 )
 ;
 acLookupPromise
