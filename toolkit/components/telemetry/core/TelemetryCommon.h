@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsHashKeys
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -59,6 +66,13 @@ Telemetry
 namespace
 Common
 {
+typedef
+nsTHashtable
+<
+nsCStringHashKey
+>
+StringHashSet
+;
 enum
 class
 RecordedProcessType
