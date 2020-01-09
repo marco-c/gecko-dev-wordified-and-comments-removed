@@ -26,6 +26,9 @@ invalid
 inline
 block
 type
+|
+bad
+type
 /
 ;
 let
