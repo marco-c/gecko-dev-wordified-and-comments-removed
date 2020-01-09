@@ -378,7 +378,7 @@ PREF_NEW
 ;
 this
 .
-search
+showAll
 (
 )
 ;
@@ -508,10 +508,8 @@ PREF_NEW
 ;
 this
 .
-search
+showAll
 (
-"
-"
 )
 ;
 Assert
@@ -541,10 +539,8 @@ PREF_NEW
 ;
 this
 .
-search
+showAll
 (
-"
-"
 )
 ;
 }
@@ -628,7 +624,7 @@ deleted
 ;
 this
 .
-search
+showAll
 (
 )
 ;

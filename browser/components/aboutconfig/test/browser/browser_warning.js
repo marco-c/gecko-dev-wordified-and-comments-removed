@@ -177,13 +177,10 @@ this
 searchInput
 )
 ;
-EventUtils
+this
 .
-sendKey
+showAll
 (
-"
-escape
-"
 )
 ;
 Assert
