@@ -434,6 +434,17 @@ keyframe
 (
 )
 ;
+data
+-
+>
+mEOS
+=
+aData
+.
+eos
+(
+)
+;
 DeallocShmem
 (
 aData
