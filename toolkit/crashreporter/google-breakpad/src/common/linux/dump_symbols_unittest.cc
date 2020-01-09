@@ -315,7 +315,7 @@ ElfClass64
 >
 ElfClasses
 ;
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 DumpSymbols
 ElfClasses

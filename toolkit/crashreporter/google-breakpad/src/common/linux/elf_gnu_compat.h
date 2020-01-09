@@ -21,4 +21,13 @@ NT_GNU_BUILD_ID
 #
 endif
 #
+ifndef
+NT_SIGINFO
+#
+define
+NT_SIGINFO
+0x53494749
+#
+endif
+#
 endif

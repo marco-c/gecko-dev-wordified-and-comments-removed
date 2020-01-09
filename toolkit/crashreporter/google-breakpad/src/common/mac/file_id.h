@@ -42,7 +42,6 @@ FileID
 )
 {
 }
-;
 bool
 FileIdentifier
 (

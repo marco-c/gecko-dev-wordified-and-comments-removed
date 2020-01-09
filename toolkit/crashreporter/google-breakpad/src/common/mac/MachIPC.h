@@ -467,7 +467,6 @@ MachMessage
 )
 {
 }
-;
 }
 ;
 class

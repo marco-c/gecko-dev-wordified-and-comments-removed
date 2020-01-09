@@ -291,6 +291,12 @@ vmaddr
 uint64_t
 vmsize
 ;
+uint64_t
+fileoff
+;
+uint64_t
+filesize
+;
 uint32_t
 maxprot
 ;

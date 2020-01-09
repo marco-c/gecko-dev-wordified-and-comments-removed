@@ -196,7 +196,6 @@ unknown
 ;
 }
 }
-;
 virtual
 uint64_t
 ReturnAddress
