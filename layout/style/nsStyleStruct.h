@@ -1627,7 +1627,10 @@ aNewData
 )
 const
 ;
-nscolor
+mozilla
+:
+:
+StyleRGBA
 mColor
 ;
 }

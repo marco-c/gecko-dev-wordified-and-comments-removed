@@ -370,6 +370,10 @@ StyleColor
 -
 >
 mColor
+.
+ToColor
+(
+)
 ;
 return
 S_OK
