@@ -795,6 +795,12 @@ mDocumentHasLoaded
 bool
 mIsFromProcessingFrameAttributes
 ;
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
+mOpenerPolicy
+;
 }
 ;
 }
