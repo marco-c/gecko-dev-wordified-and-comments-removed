@@ -101,6 +101,15 @@ test
 /
 metrics
 /
+browser_metrics_debugger
+.
+ini
+'
+'
+test
+/
+metrics
+/
 browser_metrics_inspector
 .
 ini
