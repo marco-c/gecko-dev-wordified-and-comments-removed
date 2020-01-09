@@ -526,6 +526,17 @@ XPCOM_DEBUG_BREAK
 warn
 "
         
+env
+[
+"
+MOZ_FORCE_DISABLE_E10S
+"
+]
+=
+"
+1
+"
+        
 if
 not
 substs
