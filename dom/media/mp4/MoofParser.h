@@ -1016,8 +1016,10 @@ aIsAudio
 )
 ;
 bool
-ProcessCenc
+ProcessCencAuxInfo
 (
+AtomType
+aScheme
 )
 ;
 uint64_t
