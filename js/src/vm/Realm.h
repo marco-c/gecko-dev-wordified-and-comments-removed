@@ -1959,6 +1959,12 @@ globalIsAboutToBeFinalized
 )
 ;
 inline
+bool
+hasLiveGlobal
+(
+)
+;
+inline
 void
 initGlobal
 (

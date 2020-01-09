@@ -1711,13 +1711,11 @@ return
 }
 if
 (
+!
 js
 :
 :
-gc
-:
-:
-AllRealmsNeedSweep
+CompartmentHasLiveGlobal
 (
 mCompartment
 )

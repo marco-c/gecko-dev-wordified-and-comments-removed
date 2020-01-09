@@ -1838,7 +1838,7 @@ mozilla
 :
 Maybe
 <
-AutoRealmUnchecked
+AutoRealm
 >
 ar
 ;
@@ -1857,6 +1857,7 @@ ar
 emplace
 (
 cx
+&
 cx
 -
 >
@@ -1865,7 +1866,7 @@ compartment
 )
 -
 >
-realmForNewCCW
+globalForNewCCW
 (
 )
 )
