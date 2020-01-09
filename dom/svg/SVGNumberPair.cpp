@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -55,7 +55,7 @@ namespace
 mozilla
 {
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGNumberPair
 SVGNumberPair
@@ -66,7 +66,7 @@ DOMAnimatedNumber
 sSVGFirstAnimatedNumberTearoffTable
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGNumberPair
 SVGNumberPair

@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 DOMSVGPathSeg
 .
 h
@@ -29,14 +36,7 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -81,7 +81,7 @@ mozilla
 {
 static
 inline
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 void
 DOMSVGPathSegList
@@ -92,7 +92,7 @@ SVGPathSegListTearoffTable
 )
 {
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 void
 DOMSVGPathSegList

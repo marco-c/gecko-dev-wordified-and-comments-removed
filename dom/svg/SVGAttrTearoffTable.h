@@ -25,6 +25,9 @@ nsHashKeys
 .
 h
 "
+namespace
+mozilla
+{
 template
 <
 class
@@ -33,7 +36,7 @@ class
 TearoffType
 >
 class
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 {
 public
 :
@@ -41,7 +44,7 @@ public
 ifdef
 DEBUG
 ~
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 (
 )
 {
@@ -127,7 +130,7 @@ TearoffType
 >
 TearoffType
 *
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SimpleType
 TearoffType
@@ -205,7 +208,7 @@ class
 TearoffType
 >
 void
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SimpleType
 TearoffType
@@ -285,7 +288,7 @@ class
 TearoffType
 >
 void
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SimpleType
 TearoffType
@@ -336,6 +339,7 @@ mTable
 =
 nullptr
 ;
+}
 }
 }
 #

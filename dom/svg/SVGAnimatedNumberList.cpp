@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
-.
-h
-"
-#
-include
-"
 SVGNumberListSMILType
 .
 h

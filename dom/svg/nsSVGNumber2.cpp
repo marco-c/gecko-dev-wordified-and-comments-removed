@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -65,7 +65,7 @@ mozilla
 dom
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 nsSVGNumber2
 nsSVGNumber2

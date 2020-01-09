@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -58,7 +58,7 @@ mozilla
 {
 static
 inline
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGBoolean
 SVGAnimatedBoolean
@@ -69,7 +69,7 @@ SVGAnimatedBooleanTearoffTable
 )
 {
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGBoolean
 SVGAnimatedBoolean

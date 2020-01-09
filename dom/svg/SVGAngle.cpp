@@ -75,7 +75,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -150,7 +150,7 @@ grad
 }
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGAngle
 SVGAnimatedAngle
@@ -158,7 +158,7 @@ SVGAnimatedAngle
 sSVGAnimatedAngleTearoffTable
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGAngle
 DOMSVGAngle
@@ -166,7 +166,7 @@ DOMSVGAngle
 sBaseSVGAngleTearoffTable
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGAngle
 DOMSVGAngle

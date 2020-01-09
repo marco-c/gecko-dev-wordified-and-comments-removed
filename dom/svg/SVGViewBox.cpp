@@ -401,7 +401,7 @@ nsISupports
 )
 NS_INTERFACE_MAP_END
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGViewBox
 SVGViewBox
@@ -412,7 +412,7 @@ DOMBaseVal
 sBaseSVGViewBoxTearoffTable
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGViewBox
 SVGViewBox
@@ -422,7 +422,7 @@ DOMAnimVal
 >
 sAnimSVGViewBoxTearoffTable
 ;
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGViewBox
 dom

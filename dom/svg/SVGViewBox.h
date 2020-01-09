@@ -28,6 +28,13 @@ h
 #
 include
 "
+SVGAttrTearoffTable
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -38,13 +45,6 @@ h
 include
 "
 nsISMILAttr
-.
-h
-"
-#
-include
-"
-nsSVGAttrTearoffTable
 .
 h
 "
@@ -1047,7 +1047,7 @@ override
 }
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 SVGViewBox
 mozilla

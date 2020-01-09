@@ -62,7 +62,7 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 .
 h
 "
@@ -94,7 +94,7 @@ namespace
 SVGTransform_Binding
 ;
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 DOMSVGTransform
 SVGMatrix
@@ -105,7 +105,7 @@ SVGMatrixTearoffTable
 )
 {
 static
-nsSVGAttrTearoffTable
+SVGAttrTearoffTable
 <
 DOMSVGTransform
 SVGMatrix
