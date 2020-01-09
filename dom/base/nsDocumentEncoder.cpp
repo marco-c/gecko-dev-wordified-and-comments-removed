@@ -1969,6 +1969,11 @@ GetFixupNodeFallBackToOriginalNode
 (
 )
 ;
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 node
@@ -2008,7 +2013,7 @@ node
 )
 {
 return
-NS_OK
+rv
 ;
 }
 Element
@@ -2021,6 +2026,8 @@ AsElement
 (
 )
 ;
+rv
+=
 mSerializer
 -
 >
@@ -2037,7 +2044,7 @@ aStr
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 switch
@@ -2057,6 +2064,8 @@ nsINode
 TEXT_NODE
 :
 {
+rv
+=
 mSerializer
 -
 >
@@ -2085,6 +2094,8 @@ nsINode
 CDATA_SECTION_NODE
 :
 {
+rv
+=
 mSerializer
 -
 >
@@ -2113,6 +2124,8 @@ nsINode
 PROCESSING_INSTRUCTION_NODE
 :
 {
+rv
+=
 mSerializer
 -
 >
@@ -2141,6 +2154,8 @@ nsINode
 COMMENT_NODE
 :
 {
+rv
+=
 mSerializer
 -
 >
@@ -2169,6 +2184,8 @@ nsINode
 DOCUMENT_TYPE_NODE
 :
 {
+rv
+=
 mSerializer
 -
 >
@@ -2190,7 +2207,7 @@ break
 }
 }
 return
-NS_OK
+rv
 ;
 }
 nsresult
@@ -2298,6 +2315,11 @@ return
 NS_OK
 ;
 }
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 aNode
@@ -2307,6 +2329,8 @@ IsElement
 )
 )
 {
+rv
+=
 mSerializer
 -
 >
@@ -2322,7 +2346,7 @@ aStr
 ;
 }
 return
-NS_OK
+rv
 ;
 }
 nsresult
@@ -6110,6 +6134,8 @@ ElementAt
 i
 )
 ;
+rv
+=
 SerializeNodeStart
 (
 *
@@ -6118,6 +6144,12 @@ node
 -
 1
 aContextString
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
@@ -6139,11 +6171,19 @@ i
 +
 )
 ;
+rv
+=
 SerializeNodeEnd
 (
 *
 node
 aContextString
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
@@ -6180,7 +6220,7 @@ aInfoString
 infoString
 ;
 return
-NS_OK
+rv
 ;
 }
 bool
