@@ -186,6 +186,16 @@ CONFIG
 MOZ_DBUS_GLIB_CFLAGS
 '
 ]
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 FINAL_LIBRARY
 =
 '

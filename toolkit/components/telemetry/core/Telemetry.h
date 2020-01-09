@@ -109,6 +109,11 @@ Init
 )
 ;
 void
+ShutdownTelemetry
+(
+)
+;
+void
 Accumulate
 (
 HistogramID

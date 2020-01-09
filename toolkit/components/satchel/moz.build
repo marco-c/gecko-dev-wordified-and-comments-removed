@@ -236,6 +236,16 @@ nsFormAutoCompleteResult
 jsm
 '
 ]
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 FINAL_LIBRARY
 =
 '
