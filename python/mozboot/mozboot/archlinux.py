@@ -292,17 +292,6 @@ multilib
 /
 lib32
 -
-libstdc
-+
-+
-5
-'
-        
-'
-multilib
-/
-lib32
--
 ncurses
 '
         
