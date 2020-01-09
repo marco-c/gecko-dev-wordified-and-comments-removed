@@ -1420,6 +1420,13 @@ dest
 )
 ;
 void
+loadNumFormalArguments
+(
+Register
+dest
+)
+;
+void
 loadScript
 (
 Register
@@ -1722,6 +1729,11 @@ emitLoadReturnValue
 (
 ValueOperand
 val
+)
+;
+void
+emitPushNonArrowFunctionNewTarget
+(
 )
 ;
 MOZ_MUST_USE
