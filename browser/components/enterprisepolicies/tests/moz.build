@@ -151,3 +151,13 @@ browser
 ini
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+EnterprisePolicyTesting
+.
+jsm
+'
+]

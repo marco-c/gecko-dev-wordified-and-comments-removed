@@ -830,6 +830,8 @@ BrowserComponents
 manifest
 RESPATH
 /
+browser
+/
 components
 /
 EnterprisePolicies
@@ -837,12 +839,16 @@ EnterprisePolicies
 js
 RESPATH
 /
+browser
+/
 components
 /
 EnterprisePoliciesContent
 .
 js
 RESPATH
+/
+browser
 /
 components
 /
