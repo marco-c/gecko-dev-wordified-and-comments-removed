@@ -47,6 +47,9 @@ data
 do_get_file
 (
 "
+.
+.
+/
 data
 "
 )

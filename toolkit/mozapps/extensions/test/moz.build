@@ -124,6 +124,17 @@ XPCSHELL_TESTS_MANIFESTS
 '
 xpcshell
 /
+xml
+-
+blocklist
+/
+xpcshell
+.
+ini
+'
+'
+xpcshell
+/
 xpcshell
 -
 unpack

@@ -49,6 +49,9 @@ data
 do_get_file
 (
 "
+.
+.
+/
 data
 "
 )
@@ -402,6 +405,9 @@ copyBlocklistToProfile
 do_get_file
 (
 "
+.
+.
+/
 data
 /
 bug455906_start

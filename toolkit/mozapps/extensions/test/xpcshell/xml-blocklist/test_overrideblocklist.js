@@ -38,6 +38,9 @@ OLD
 do_get_file
 (
 "
+.
+.
+/
 data
 /
 test_overrideblocklist
@@ -54,6 +57,9 @@ NEW
 do_get_file
 (
 "
+.
+.
+/
 data
 /
 test_overrideblocklist
@@ -70,6 +76,9 @@ ANCIENT
 do_get_file
 (
 "
+.
+.
+/
 data
 /
 test_overrideblocklist

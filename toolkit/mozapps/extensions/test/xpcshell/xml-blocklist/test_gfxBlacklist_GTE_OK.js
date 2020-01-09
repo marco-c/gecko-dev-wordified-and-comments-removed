@@ -38,6 +38,9 @@ data
 do_get_file
 (
 "
+.
+.
+/
 data
 "
 )
@@ -223,7 +226,7 @@ spoofDriverVersion
 .
 322
 .
-2201
+2202
 "
 )
 ;
@@ -286,7 +289,7 @@ gfxInfo
 spoofDriverVersion
 (
 "
-6
+7
 "
 )
 ;
@@ -351,7 +354,7 @@ Ci
 .
 nsIGfxInfo
 .
-FEATURE_STATUS_OK
+FEATURE_BLOCKED_DRIVER_VERSION
 )
 ;
 status

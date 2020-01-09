@@ -38,6 +38,9 @@ data
 do_get_file
 (
 "
+.
+.
+/
 data
 "
 )
@@ -199,7 +202,7 @@ gfxInfo
 spoofVendorID
 (
 "
-0xabab
+0xdcdc
 "
 )
 ;
@@ -223,7 +226,7 @@ spoofDriverVersion
 .
 322
 .
-2202
+1111
 "
 )
 ;
@@ -268,7 +271,7 @@ gfxInfo
 spoofVendorID
 (
 "
-abab
+dcdc
 "
 )
 ;
@@ -277,7 +280,7 @@ gfxInfo
 spoofDeviceID
 (
 "
-ghjk
+uiop
 "
 )
 ;
@@ -286,7 +289,7 @@ gfxInfo
 spoofDriverVersion
 (
 "
-7
+5
 "
 )
 ;

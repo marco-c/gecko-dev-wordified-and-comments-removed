@@ -110,6 +110,9 @@ copyBlocklistToProfile
 do_get_file
 (
 "
+.
+.
+/
 data
 /
 test_bug514327_2
