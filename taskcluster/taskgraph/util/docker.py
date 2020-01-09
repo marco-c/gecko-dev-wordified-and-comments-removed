@@ -687,6 +687,15 @@ data
 stream
 '
 ]
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
         
 elif
