@@ -81,6 +81,10 @@ filename_platform
 :
 '
 '
+stage_platform
+:
+'
+'
 #
 A
 default
@@ -132,7 +136,7 @@ false
 description
 :
 "
-TODO
+TO_BE_OVERRIDDEN
 "
 locale_prefix
 :

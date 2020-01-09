@@ -42,6 +42,10 @@ filename_platform
 :
 '
 '
+stage_platform
+:
+'
+'
 #
 A
 default
@@ -111,6 +115,7 @@ build_date
 description
 :
 "
+TO_BE_OVERRIDDEN
 "
 destinations
 :

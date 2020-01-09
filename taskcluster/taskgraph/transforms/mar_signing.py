@@ -67,7 +67,7 @@ util
 partials
 import
 get_balrog_platform_name
-get_partials_artifacts
+get_partials_artifacts_from_params
 from
 taskgraph
 .
@@ -221,7 +221,7 @@ US
     
 artifacts
 =
-get_partials_artifacts
+get_partials_artifacts_from_params
 (
 release_history
 platform
