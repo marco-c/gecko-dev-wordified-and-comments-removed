@@ -13726,7 +13726,7 @@ Maybe
 wr
 :
 :
-WrImageMask
+ImageMask
 >
 WebRenderCommandBuilder
 :
@@ -14547,7 +14547,7 @@ mMask
 wr
 :
 :
-WrImageMask
+ImageMask
 imageMask
 ;
 imageMask

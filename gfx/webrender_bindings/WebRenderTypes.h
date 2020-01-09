@@ -228,7 +228,7 @@ mozilla
 wr
 :
 :
-WrImageMask
+ImageMask
 >
 MaybeImageMask
 ;
