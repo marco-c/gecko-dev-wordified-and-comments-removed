@@ -1858,7 +1858,7 @@ aCx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 aConstructor
 )
@@ -3346,9 +3346,10 @@ aCx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 constructor
+aCx
 )
 )
 ;

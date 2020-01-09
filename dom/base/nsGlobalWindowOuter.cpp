@@ -25636,9 +25636,10 @@ scopeProto
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 scopeProto
+aCx
 false
 )
 )

@@ -1433,9 +1433,10 @@ cx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 aObj
+cx
 )
 )
 ;
@@ -1655,9 +1656,10 @@ cx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 aTarget
+cx
 )
 )
 ;
