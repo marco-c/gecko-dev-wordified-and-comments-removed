@@ -683,6 +683,13 @@ character
 set
 *
 /
+[
+can_run_script
+]
+/
+/
+setter
+only
 attribute
 ACString
 documentCharacterSet
@@ -2410,6 +2417,9 @@ aAttribute
 to
 *
 /
+[
+can_run_script
+]
 void
 setAttribute
 (

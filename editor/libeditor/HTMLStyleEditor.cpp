@@ -2528,11 +2528,14 @@ NS_ERROR_FAILURE
 return
 SetAttributeWithTransaction
 (
+MOZ_KnownLive
+(
 *
 aNode
 .
 AsElement
 (
+)
 )
 *
 aAttribute

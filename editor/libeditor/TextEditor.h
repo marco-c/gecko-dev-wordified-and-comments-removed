@@ -126,6 +126,7 @@ aStripWrappers
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 SetDocumentCharacterSet
 (
@@ -974,6 +975,7 @@ aActionTaken
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 UpdateMetaCharset
 (

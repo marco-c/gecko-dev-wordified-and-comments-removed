@@ -7904,8 +7904,11 @@ forget
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 TextEditorRef
 (
+)
 )
 .
 SetAttributeWithTransaction

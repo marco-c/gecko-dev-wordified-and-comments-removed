@@ -20716,8 +20716,11 @@ IsEmpty
 {
 rv
 =
+MOZ_KnownLive
+(
 HTMLEditorRef
 (
+)
 )
 .
 SetAttributeWithTransaction
