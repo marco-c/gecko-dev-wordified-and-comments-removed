@@ -364,12 +364,6 @@ aRate
 )
 {
 return
-aTime
-.
-IsValid
-(
-)
-?
 UsecsToFrames
 (
 aTime
@@ -379,8 +373,6 @@ ToMicroseconds
 )
 aRate
 )
-:
-aTime
 ;
 }
 nsresult
