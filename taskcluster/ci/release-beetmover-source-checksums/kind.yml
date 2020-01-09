@@ -111,6 +111,9 @@ phase
 promote
 attributes
 :
+artifact_prefix
+:
+public
 artifact_map
 :
 taskcluster

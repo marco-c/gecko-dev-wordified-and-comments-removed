@@ -2518,6 +2518,7 @@ scopes
 def
 generate_beetmover_upstream_artifacts
 (
+config
 job
 platform
 locale
@@ -2633,19 +2634,34 @@ job
     
 resolve_keyed_by
 (
+        
 job
 '
 attributes
 .
 artifact_map
 '
+        
 '
 artifact
 map
 '
+        
+project
+=
+config
+.
+params
+[
+'
+project
+'
+]
+        
 platform
 =
 platform
+    
 )
     
 map_config
@@ -3349,19 +3365,34 @@ platform
     
 resolve_keyed_by
 (
+        
 job
 '
 attributes
 .
 artifact_map
 '
+        
 '
 artifact
 map
 '
+        
+project
+=
+config
+.
+params
+[
+'
+project
+'
+]
+        
 platform
 =
 platform
+    
 )
     
 map_config
@@ -3880,7 +3911,7 @@ config
 params
 [
 '
-app_version
+version
 '
 ]
             
@@ -4101,6 +4132,16 @@ projects
 mozilla
 -
 central
+'
+'
+mozilla
+-
+beta
+'
+'
+mozilla
+-
+release
 '
 ]
     
