@@ -1037,9 +1037,7 @@ self
 .
 style
 .
-flags
-.
-insert
+add_flags
 (
 ComputedValueFlags
 :
@@ -1061,9 +1059,7 @@ self
 .
 style
 .
-flags
-.
-insert
+add_flags
 (
 ComputedValueFlags
 :
@@ -1101,9 +1097,7 @@ self
 .
 style
 .
-flags
-.
-insert
+add_flags
 (
 ComputedValueFlags
 :
@@ -1252,9 +1246,7 @@ self
 .
 style
 .
-flags
-.
-insert
+add_flags
 (
 ComputedValueFlags
 :
@@ -1342,9 +1334,7 @@ self
 .
 style
 .
-flags
-.
-insert
+add_flags
 (
 ComputedValueFlags
 :
@@ -2702,9 +2692,7 @@ self
 .
 style
 .
-flags
-.
-insert
+add_flags
 (
 ComputedValueFlags
 :
@@ -2947,9 +2935,7 @@ self
 .
 style
 .
-flags
-.
-insert
+add_flags
 (
 ComputedValueFlags
 :
@@ -2964,9 +2950,7 @@ self
 .
 style
 .
-flags
-.
-remove
+remove_flags
 (
 ComputedValueFlags
 :
