@@ -13,13 +13,10 @@ use
 api
 :
 :
-{
-DeviceIntRect
-DeviceRect
-DevicePoint
-DeviceSize
-DeviceIntSize
-}
+units
+:
+:
+*
 ;
 use
 debug_font_data
@@ -1716,7 +1713,7 @@ viewport_size
 :
 Option
 <
-DeviceIntSize
+FramebufferIntSize
 >
 )
 {
