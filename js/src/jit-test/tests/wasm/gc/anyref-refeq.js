@@ -9,7 +9,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 func

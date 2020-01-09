@@ -29,7 +29,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -84,7 +84,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 func
@@ -121,7 +121,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -178,7 +178,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 func
@@ -217,7 +217,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -269,7 +269,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 import
@@ -303,7 +303,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -359,7 +359,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 import
@@ -397,7 +397,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -455,7 +455,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -507,7 +507,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 import
@@ -541,7 +541,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 import
@@ -575,7 +575,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -636,7 +636,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -691,7 +691,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 global
@@ -728,7 +728,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 global
@@ -765,7 +765,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -839,7 +839,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -912,7 +912,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -962,7 +962,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 table
@@ -1017,7 +1017,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -1094,7 +1094,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -1170,7 +1170,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 import
@@ -1223,7 +1223,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 import
@@ -1281,7 +1281,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -1365,7 +1365,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -1448,7 +1448,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -1508,7 +1508,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -1570,7 +1570,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -1657,7 +1657,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -1743,7 +1743,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -1806,7 +1806,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type
@@ -1869,7 +1869,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-2
+3
 )
 (
 type

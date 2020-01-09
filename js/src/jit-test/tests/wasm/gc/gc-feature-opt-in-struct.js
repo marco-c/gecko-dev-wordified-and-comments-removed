@@ -1,7 +1,7 @@
 let
 CURRENT_VERSION
 =
-2
+3
 ;
 new
 WebAssembly
