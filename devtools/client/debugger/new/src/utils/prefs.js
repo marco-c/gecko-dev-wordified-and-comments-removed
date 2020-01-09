@@ -12,6 +12,7 @@ modules
 import
 {
 isDevelopment
+isTesting
 }
 from
 "
@@ -1771,6 +1772,10 @@ breakpoints
 ;
 if
 (
+!
+isTesting
+&
+&
 prefs
 .
 debuggerPrefsSchemaVersion
