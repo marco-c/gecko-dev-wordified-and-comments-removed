@@ -270,7 +270,7 @@ moz
 .
 configure
 /
-bindgen
+rust
 .
 configure
 '
@@ -298,7 +298,7 @@ moz
 .
 configure
 /
-rust
+bindgen
 .
 configure
 '
