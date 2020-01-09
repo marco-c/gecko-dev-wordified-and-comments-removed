@@ -244,10 +244,10 @@ field
 ;
 }
 const
-[
+{
 domain
 command
-]
+}
 =
 Domains
 .
