@@ -2534,7 +2534,7 @@ int32_t
 Instance
 :
 :
-memDrop
+dataDrop
 (
 Instance
 *
@@ -3371,7 +3371,7 @@ int32_t
 Instance
 :
 :
-tableDrop
+elemDrop
 (
 Instance
 *

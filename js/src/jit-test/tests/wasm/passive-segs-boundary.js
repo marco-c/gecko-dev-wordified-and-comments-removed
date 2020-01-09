@@ -650,7 +650,7 @@ true
 mem_test
 (
 "
-memory
+data
 .
 drop
 3
@@ -720,7 +720,7 @@ false
 mem_test
 (
 "
-memory
+data
 .
 drop
 4
@@ -794,7 +794,7 @@ range
 mem_test
 (
 "
-memory
+data
 .
 drop
 2
@@ -916,13 +916,13 @@ const
 mem_test
 (
 "
-memory
+data
 .
 drop
 1
 "
 "
-memory
+data
 .
 drop
 1
@@ -943,7 +943,7 @@ segment
 mem_test
 (
 "
-memory
+data
 .
 drop
 1
@@ -1195,7 +1195,7 @@ bounds
 mem_test
 (
 "
-memory
+data
 .
 drop
 1
@@ -1430,7 +1430,7 @@ mismatch
 tab_test
 (
 "
-table
+elem
 .
 drop
 3
@@ -1444,7 +1444,7 @@ CompileError
 can
 '
 t
-table
+elem
 .
 drop
 without
@@ -1500,7 +1500,7 @@ false
 tab_test
 (
 "
-table
+elem
 .
 drop
 4
@@ -1518,7 +1518,7 @@ out
 of
 range
 for
-table
+elem
 .
 drop
 /
@@ -1572,7 +1572,7 @@ range
 tab_test
 (
 "
-table
+elem
 .
 drop
 2
@@ -1694,13 +1694,13 @@ const
 tab_test
 (
 "
-table
+elem
 .
 drop
 1
 "
 "
-table
+elem
 .
 drop
 1
@@ -1721,7 +1721,7 @@ segment
 tab_test
 (
 "
-table
+elem
 .
 drop
 1
@@ -1973,7 +1973,7 @@ bounds
 tab_test
 (
 "
-table
+elem
 .
 drop
 1

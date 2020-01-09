@@ -1351,7 +1351,7 @@ n
 "
 +
 "
-table
+elem
 .
 drop
 1
@@ -1389,7 +1389,7 @@ n
 "
 +
 "
-table
+elem
 .
 drop
 3
@@ -2520,7 +2520,7 @@ n
 "
 +
 "
-memory
+data
 .
 drop
 1
@@ -2558,7 +2558,7 @@ n
 "
 +
 "
-memory
+data
 .
 drop
 3

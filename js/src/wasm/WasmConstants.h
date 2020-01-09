@@ -841,7 +841,7 @@ I64TruncUSatF64
 MemInit
 =
 0x08
-MemDrop
+DataDrop
 =
 0x09
 MemCopy
@@ -853,7 +853,7 @@ MemFill
 TableInit
 =
 0x0c
-TableDrop
+ElemDrop
 =
 0x0d
 TableCopy

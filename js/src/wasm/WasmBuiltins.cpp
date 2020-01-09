@@ -3525,7 +3525,7 @@ case
 SymbolicAddress
 :
 :
-MemDrop
+DataDrop
 :
 *
 abiType
@@ -3538,7 +3538,7 @@ FuncCast
 Instance
 :
 :
-memDrop
+dataDrop
 *
 abiType
 )
@@ -3613,7 +3613,7 @@ case
 SymbolicAddress
 :
 :
-TableDrop
+ElemDrop
 :
 *
 abiType
@@ -3626,7 +3626,7 @@ FuncCast
 Instance
 :
 :
-tableDrop
+elemDrop
 *
 abiType
 )
@@ -4205,7 +4205,7 @@ case
 SymbolicAddress
 :
 :
-MemDrop
+DataDrop
 :
 case
 SymbolicAddress
@@ -4229,7 +4229,7 @@ case
 SymbolicAddress
 :
 :
-TableDrop
+ElemDrop
 :
 case
 SymbolicAddress

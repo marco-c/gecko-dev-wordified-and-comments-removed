@@ -9090,11 +9090,11 @@ WaitI32
 WaitI64
 Wake
 MemCopy
-MemDrop
+DataDrop
 MemFill
 MemInit
 TableCopy
-TableDrop
+ElemDrop
 TableGet
 TableGrow
 TableInit
