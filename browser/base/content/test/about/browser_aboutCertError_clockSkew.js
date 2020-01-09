@@ -268,7 +268,7 @@ undefined
 dateStyle
 :
 "
-short
+long
 "
 }
 )
