@@ -377,6 +377,9 @@ textbox
 "
 placeholder
 "
+"
+value
+"
 ]
 }
 }
