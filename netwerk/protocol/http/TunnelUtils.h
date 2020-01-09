@@ -805,6 +805,9 @@ uint32_t
 countWritten
 )
 ;
+bool
+mCreateShimErrorCalled
+;
 }
 ;
 }
