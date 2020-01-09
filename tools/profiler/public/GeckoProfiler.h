@@ -2877,6 +2877,15 @@ docShellId
 docShellHistoryId
 cause
 )
+void
+profiler_set_process_name
+(
+const
+nsACString
+&
+aProcessName
+)
+;
 mozilla
 :
 :

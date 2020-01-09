@@ -195,6 +195,10 @@ SpliceableJSONWriter
 &
 aWriter
 const
+nsACString
+&
+aProcessName
+const
 mozilla
 :
 :
@@ -374,6 +378,10 @@ aBuffer
 SpliceableJSONWriter
 &
 aWriter
+const
+nsACString
+&
+aProcessName
 const
 mozilla
 :
