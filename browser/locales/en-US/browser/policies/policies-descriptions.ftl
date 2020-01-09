@@ -1085,6 +1085,16 @@ ESR
 )
 version
 .
+policy
+-
+SearchSuggestEnabled
+=
+Enable
+or
+disable
+search
+suggestions
+.
 #
 For
 more
