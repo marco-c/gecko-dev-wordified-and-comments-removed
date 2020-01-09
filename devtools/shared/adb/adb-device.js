@@ -49,6 +49,9 @@ model
 await
 shell
 (
+this
+.
+id
 "
 getprop
 ro
@@ -110,6 +113,9 @@ rawSocketInfo
 await
 shell
 (
+this
+.
+id
 query
 )
 ;
