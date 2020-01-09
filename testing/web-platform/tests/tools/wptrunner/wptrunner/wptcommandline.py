@@ -26,8 +26,11 @@ import
 config
 import
 wpttest
-import
+from
 formatters
+import
+wptreport
+wptscreenshot
 def
 abs_path
 (
@@ -4103,7 +4106,7 @@ wptreport
 ]
 =
 (
-formatters
+wptreport
 .
 WptreportFormatter
 "
@@ -4122,7 +4125,7 @@ wptscreenshot
 ]
 =
 (
-formatters
+wptscreenshot
 .
 WptscreenshotFormatter
 "
