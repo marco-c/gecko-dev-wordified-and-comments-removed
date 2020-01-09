@@ -284,6 +284,13 @@ animationsPaused
 (
 )
 ;
+[
+BinaryName
+=
+"
+getCurrentTimeAsFloat
+"
+]
 float
 getCurrentTime
 (

@@ -253,9 +253,6 @@ nsDocument
 .
 h
 "
-#
-undef
-GetCurrentTime
 namespace
 mozilla
 {
@@ -3216,7 +3213,7 @@ aSVGContext
 mSVGDocumentWrapper
 -
 >
-GetCurrentTime
+GetCurrentTimeAsFloat
 (
 )
 aFlags
@@ -4039,7 +4036,7 @@ FRAME_FIRST
 mSVGDocumentWrapper
 -
 >
-GetCurrentTime
+GetCurrentTimeAsFloat
 (
 )
 ;
@@ -5640,7 +5637,7 @@ FRAME_FIRST
 mSVGDocumentWrapper
 -
 >
-GetCurrentTime
+GetCurrentTimeAsFloat
 (
 )
 ;

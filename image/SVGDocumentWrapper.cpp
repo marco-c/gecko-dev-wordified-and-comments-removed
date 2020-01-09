@@ -204,9 +204,6 @@ ImageTracker
 .
 h
 "
-#
-undef
-GetCurrentTime
 namespace
 mozilla
 {
@@ -764,7 +761,7 @@ float
 SVGDocumentWrapper
 :
 :
-GetCurrentTime
+GetCurrentTimeAsFloat
 (
 )
 {
@@ -782,7 +779,7 @@ svgElem
 svgElem
 -
 >
-GetCurrentTime
+GetCurrentTimeAsFloat
 (
 )
 :
@@ -817,7 +814,7 @@ svgElem
 svgElem
 -
 >
-GetCurrentTime
+GetCurrentTimeAsFloat
 (
 )
 !

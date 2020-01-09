@@ -325,7 +325,7 @@ nsSMILTime
 nsSMILTimeContainer
 :
 :
-GetCurrentTime
+GetCurrentTimeAsSMILTime
 (
 )
 const
@@ -443,7 +443,7 @@ return
 mParent
 -
 >
-GetCurrentTime
+GetCurrentTimeAsSMILTime
 (
 )
 ;

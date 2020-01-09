@@ -81,9 +81,6 @@ service
 ;
 1
 "
-#
-undef
-GetCurrentTime
 namespace
 mozilla
 {
@@ -217,7 +214,7 @@ ResetAnimation
 )
 ;
 float
-GetCurrentTime
+GetCurrentTimeAsFloat
 (
 )
 ;

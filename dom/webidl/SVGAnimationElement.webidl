@@ -158,6 +158,13 @@ getStartTime
 (
 )
 ;
+[
+BinaryName
+=
+"
+getCurrentTimeAsFloat
+"
+]
 float
 getCurrentTime
 (

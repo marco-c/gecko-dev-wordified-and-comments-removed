@@ -515,7 +515,7 @@ float
 SVGAnimationElement
 :
 :
-GetCurrentTime
+GetCurrentTimeAsFloat
 (
 )
 {
@@ -540,7 +540,7 @@ double
 root
 -
 >
-GetCurrentTime
+GetCurrentTimeAsSMILTime
 (
 )
 )
