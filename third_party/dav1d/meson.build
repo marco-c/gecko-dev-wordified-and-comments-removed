@@ -250,9 +250,9 @@ version
 '
 0
 .
-2
+3
 .
-2
+0
 '
 default_options
 :
@@ -297,9 +297,9 @@ dav1d_soname_version
 '
 1
 .
-0
-.
 1
+.
+0
 '
 dav1d_api_version_array
 =

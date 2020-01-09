@@ -261,12 +261,6 @@ S
 #
 include
 "
-src
-/
-arm
-/
-32
-/
 util
 .
 S

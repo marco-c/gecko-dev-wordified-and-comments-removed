@@ -261,12 +261,6 @@ S
 #
 include
 "
-src
-/
-arm
-/
-64
-/
 util
 .
 S
@@ -6662,11 +6656,7 @@ op
 \
 (
 )
-_8tap
-\
-(
-)
-_neon
+_8tap_neon
 endfunc
 .
 endm

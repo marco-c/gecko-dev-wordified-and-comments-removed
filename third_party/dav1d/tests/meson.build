@@ -644,6 +644,12 @@ fuzzer_ldflags
 [
 '
 -
+fsanitize
+=
+fuzzer
+'
+'
+-
 lFuzzingEngine
 '
 '

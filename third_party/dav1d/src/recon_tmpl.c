@@ -6264,7 +6264,7 @@ a_b_dim
 =
 dav1d_block_dimensions
 [
-sbtype_to_bs
+dav1d_sbtype_to_bs
 [
 a_r
 -
@@ -6549,7 +6549,7 @@ l_b_dim
 =
 dav1d_block_dimensions
 [
-sbtype_to_bs
+dav1d_sbtype_to_bs
 [
 l_r
 -

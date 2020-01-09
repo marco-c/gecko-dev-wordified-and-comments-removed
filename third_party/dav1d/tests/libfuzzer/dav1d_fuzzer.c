@@ -232,8 +232,10 @@ h
 DAV1D_FUZZ_MAX_SIZE
 )
 return
--
+DAV1D_ERR
+(
 EINVAL
+)
 ;
 return
 default_picture_allocator
@@ -664,8 +666,10 @@ if
 err
 !
 =
--
+DAV1D_ERR
+(
 EAGAIN
+)
 )
 break
 ;
@@ -711,8 +715,10 @@ if
 err
 !
 =
--
+DAV1D_ERR
+(
 EAGAIN
+)
 )
 {
 break
@@ -784,8 +790,10 @@ while
 err
 !
 =
--
+DAV1D_ERR
+(
 EAGAIN
+)
 )
 ;
 cleanup

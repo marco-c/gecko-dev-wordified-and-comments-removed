@@ -613,6 +613,15 @@ mc
 .
 S
 '
+'
+arm
+/
+64
+/
+msac
+.
+S
+'
 )
 elif
 host_machine

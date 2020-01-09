@@ -34469,8 +34469,10 @@ cdf
 ref
 )
 return
--
+DAV1D_ERR
+(
 ENOMEM
+)
 ;
 cdf
 -
