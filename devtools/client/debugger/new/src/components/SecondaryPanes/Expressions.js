@@ -847,6 +847,14 @@ onExpressionAdded
 (
 )
 ;
+this
+.
+props
+.
+clearExpressionError
+(
+)
+;
 }
 ;
 onFocus
