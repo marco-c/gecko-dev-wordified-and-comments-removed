@@ -264,11 +264,8 @@ IsOffscreenThrottlingEnabled
 ;
 static
 bool
-EffectSetContainsAnimatedScale
+FrameHasAnimatedScale
 (
-EffectSet
-&
-aEffects
 const
 nsIFrame
 *
