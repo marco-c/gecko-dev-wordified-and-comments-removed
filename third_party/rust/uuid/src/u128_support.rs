@@ -57,6 +57,10 @@ Self
 let
 mut
 bytes
+:
+:
+:
+Bytes
 =
 [
 0
@@ -91,9 +95,12 @@ f
 ;
 }
 Uuid
-{
+:
+:
+from_bytes
+(
 bytes
-}
+)
 }
 }
 #

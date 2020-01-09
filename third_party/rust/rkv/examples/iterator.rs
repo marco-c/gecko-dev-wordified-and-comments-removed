@@ -155,7 +155,6 @@ populate_store
 (
 &
 k
-&
 store
 )
 .
@@ -198,7 +197,6 @@ reader
 .
 iter_start
 (
-&
 store
 )
 .
@@ -278,7 +276,6 @@ reader
 .
 iter_from
 (
-&
 store
 "
 Japan
@@ -361,7 +358,6 @@ reader
 .
 iter_from
 (
-&
 store
 "
 Un
@@ -424,7 +420,6 @@ k
 Rkv
 store
 :
-&
 Store
 )
 -

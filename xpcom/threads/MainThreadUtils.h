@@ -44,11 +44,17 @@ NS_IsMainThreadTLSInitialized
 (
 )
 ;
+extern
+"
+C
+"
+{
 bool
 NS_IsMainThread
 (
 )
 ;
+}
 namespace
 mozilla
 {

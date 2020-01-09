@@ -59,6 +59,13 @@ path
 nserror
 "
 }
+threadbound
+=
+"
+0
+.
+1
+"
 xpcom_macros
 =
 {

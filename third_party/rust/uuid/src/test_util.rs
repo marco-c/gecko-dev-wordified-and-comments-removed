@@ -1,5 +1,8 @@
 use
-Uuid
+prelude
+:
+:
+*
 ;
 pub
 fn
@@ -11,9 +14,10 @@ new
 Uuid
 {
 Uuid
-{
-bytes
 :
+:
+from_bytes
+(
 [
 0xF9
 0x16
@@ -32,7 +36,7 @@ bytes
 0xA1
 0xE4
 ]
-}
+)
 }
 pub
 fn
@@ -44,9 +48,10 @@ new2
 Uuid
 {
 Uuid
-{
-bytes
 :
+:
+from_bytes
+(
 [
 0xF9
 0x16
@@ -65,5 +70,5 @@ bytes
 0xA1
 0xE4
 ]
-}
+)
 }

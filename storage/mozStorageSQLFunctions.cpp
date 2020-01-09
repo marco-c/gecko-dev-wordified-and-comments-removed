@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsUnicharUtils
 .
 h

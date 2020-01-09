@@ -26,6 +26,10 @@ extern
 crate
 nserror
 ;
+extern
+crate
+threadbound
+;
 #
 [
 macro_use
@@ -61,6 +65,16 @@ base
 pub
 use
 base
+:
+:
+*
+;
+mod
+method
+;
+pub
+use
+method
 :
 :
 *

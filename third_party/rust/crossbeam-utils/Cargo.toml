@@ -122,9 +122,9 @@ version
 "
 0
 .
-3
+6
 .
-2
+3
 "
 authors
 =
@@ -160,8 +160,6 @@ crossbeam
 rs
 /
 crossbeam
--
-utils
 "
 documentation
 =
@@ -243,8 +241,6 @@ crossbeam
 rs
 /
 crossbeam
--
-utils
 "
 [
 dependencies
@@ -267,14 +263,14 @@ default
 =
 [
 "
-use_std
+std
 "
 ]
 nightly
 =
 [
 ]
-use_std
+std
 =
 [
 ]

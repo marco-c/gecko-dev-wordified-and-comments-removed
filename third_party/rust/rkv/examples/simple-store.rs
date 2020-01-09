@@ -176,7 +176,6 @@ writer
 .
 put
 (
-&
 store
 "
 int
@@ -199,7 +198,6 @@ writer
 .
 put
 (
-&
 store
 "
 uint
@@ -222,7 +220,6 @@ writer
 .
 put
 (
-&
 store
 "
 float
@@ -251,7 +248,6 @@ writer
 .
 put
 (
-&
 store
 "
 instant
@@ -274,7 +270,6 @@ writer
 .
 put
 (
-&
 store
 "
 boolean
@@ -297,7 +292,6 @@ writer
 .
 put
 (
-&
 store
 "
 string
@@ -325,7 +319,6 @@ writer
 .
 put
 (
-&
 store
 "
 json
@@ -366,7 +359,6 @@ writer
 .
 put
 (
-&
 store
 "
 blob
@@ -441,7 +433,6 @@ reader
 .
 get
 (
-&
 store
 "
 int
@@ -468,7 +459,6 @@ reader
 .
 get
 (
-&
 store
 "
 uint
@@ -495,7 +485,6 @@ reader
 .
 get
 (
-&
 store
 "
 float
@@ -522,7 +511,6 @@ reader
 .
 get
 (
-&
 store
 "
 instant
@@ -549,7 +537,6 @@ reader
 .
 get
 (
-&
 store
 "
 boolean
@@ -576,7 +563,6 @@ reader
 .
 get
 (
-&
 store
 "
 string
@@ -603,7 +589,6 @@ reader
 .
 get
 (
-&
 store
 "
 json
@@ -630,7 +615,6 @@ reader
 .
 get
 (
-&
 store
 "
 blob
@@ -659,7 +643,6 @@ reader
 .
 get
 (
-&
 store
 "
 non
@@ -712,7 +695,6 @@ writer
 .
 put
 (
-&
 store
 "
 foo
@@ -737,7 +719,6 @@ writer
 .
 put
 (
-&
 store
 "
 bar
@@ -762,7 +743,6 @@ writer
 .
 delete
 (
-&
 store
 "
 foo
@@ -793,7 +773,6 @@ writer
 .
 get
 (
-&
 store
 "
 foo
@@ -822,7 +801,6 @@ writer
 .
 get
 (
-&
 store
 "
 bar
@@ -880,7 +858,6 @@ reader
 .
 get
 (
-&
 store
 "
 foo
@@ -907,7 +884,6 @@ reader
 .
 get
 (
-&
 store
 "
 bar
@@ -951,7 +927,6 @@ writer
 .
 put
 (
-&
 store
 "
 foo
@@ -1014,7 +989,6 @@ reader
 .
 get
 (
-&
 store
 "
 foo
@@ -1058,7 +1032,6 @@ writer
 .
 put
 (
-&
 store
 "
 foo
@@ -1083,7 +1056,6 @@ writer
 .
 delete
 (
-&
 store
 "
 foo
@@ -1114,7 +1086,6 @@ writer
 .
 get
 (
-&
 store
 "
 foo
@@ -1188,7 +1159,6 @@ writer
 .
 put
 (
-&
 store
 "
 foo
@@ -1213,7 +1183,6 @@ writer
 .
 put
 (
-&
 another_store
 "
 foo
@@ -1275,7 +1244,6 @@ reader
 .
 get
 (
-&
 store
 "
 foo
@@ -1306,7 +1274,6 @@ reader
 .
 get
 (
-&
 another_store
 "
 foo

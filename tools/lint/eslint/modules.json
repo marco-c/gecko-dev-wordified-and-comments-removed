@@ -2570,6 +2570,17 @@ FirefoxAdapter
 "
 ]
 "
+kvstore
+.
+jsm
+"
+:
+[
+"
+KeyValueService
+"
+]
+"
 L10nRegistry
 .
 jsm

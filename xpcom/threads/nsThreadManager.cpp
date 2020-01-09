@@ -198,6 +198,11 @@ initialized
 )
 ;
 }
+extern
+"
+C
+"
+{
 bool
 NS_IsMainThread
 (
@@ -210,6 +215,7 @@ get
 (
 )
 ;
+}
 }
 void
 NS_SetMainThread
