@@ -889,7 +889,6 @@ const
 {
 getSelectedSource
 hasSymbols
-hasSourceMetaData
 hasBreakpointPositions
 }
 =
@@ -977,19 +976,11 @@ false
 ;
 }
 return
+(
 hasSymbols
 (
 state
 source
-)
-&
-&
-hasSourceMetaData
-(
-state
-source
-.
-id
 )
 &
 &
@@ -999,6 +990,7 @@ state
 source
 .
 id
+)
 )
 ;
 }
