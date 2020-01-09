@@ -1108,6 +1108,7 @@ getBoolPref
 (
 DEVTOOLS_ENABLE_PERSISTENT_LOG_PREF
 )
+true
 )
 ;
 }
@@ -2363,6 +2364,7 @@ enablePersistentLogs
 :
 (
 enabled
+skipTelemetry
 )
 =
 >
@@ -2373,6 +2375,7 @@ Actions
 enablePersistentLogs
 (
 enabled
+skipTelemetry
 )
 )
 setRequestFilterText
