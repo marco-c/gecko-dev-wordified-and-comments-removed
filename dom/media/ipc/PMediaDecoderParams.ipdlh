@@ -74,9 +74,6 @@ timecode
 int64_t
 duration
 ;
-uint32_t
-frames
-;
 bool
 keyframe
 ;

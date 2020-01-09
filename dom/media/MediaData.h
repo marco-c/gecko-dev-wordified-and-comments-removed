@@ -1182,8 +1182,6 @@ media
 TimeUnit
 &
 aDuration
-uint32_t
-aFrames
 )
 :
 mType
@@ -1205,10 +1203,6 @@ aTimestamp
 mDuration
 (
 aDuration
-)
-mFrames
-(
-aFrames
 )
 mKeyframe
 (
@@ -1240,10 +1234,6 @@ media
 :
 TimeUnit
 mDuration
-;
-const
-uint32_t
-mFrames
 ;
 bool
 mKeyframe
@@ -1371,12 +1361,11 @@ this
 }
 protected
 :
+explicit
 MediaData
 (
 Type
 aType
-uint32_t
-aFrames
 )
 :
 mType
@@ -1386,10 +1375,6 @@ aType
 mOffset
 (
 0
-)
-mFrames
-(
-aFrames
 )
 mKeyframe
 (
@@ -1443,7 +1428,6 @@ NULL_DATA
 aOffset
 aTime
 aDuration
-0
 )
 {
 }
@@ -1513,7 +1497,6 @@ sType
 aOffset
 aTime
 aDuration
-aFrames
 )
 mChannels
 (
@@ -1526,6 +1509,10 @@ aChannelMap
 mRate
 (
 aRate
+)
+mFrames
+(
+aFrames
 )
 mAudioData
 (
@@ -1631,6 +1618,10 @@ mChannelMap
 const
 uint32_t
 mRate
+;
+const
+uint32_t
+mFrames
 ;
 RefPtr
 <

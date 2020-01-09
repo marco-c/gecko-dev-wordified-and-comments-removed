@@ -203,10 +203,6 @@ duration
 )
 aData
 .
-base
-(
-)
-.
 frames
 (
 )
@@ -744,10 +740,6 @@ ToMicroseconds
 data
 -
 >
-mFrames
-data
--
->
 mKeyframe
 )
 audio
@@ -758,6 +750,10 @@ audio
 -
 >
 mRate
+audio
+-
+>
+mFrames
 audio
 -
 >

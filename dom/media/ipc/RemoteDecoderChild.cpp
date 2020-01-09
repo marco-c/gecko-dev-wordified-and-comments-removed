@@ -583,10 +583,6 @@ ToMicroseconds
 aSample
 -
 >
-mFrames
-aSample
--
->
 mKeyframe
 )
 buffer
