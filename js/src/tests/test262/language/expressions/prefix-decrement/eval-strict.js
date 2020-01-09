@@ -1,3 +1,8 @@
+'
+use
+strict
+'
+;
 DONOTEVALUATE
 (
 )
@@ -5,10 +10,4 @@ DONOTEVALUATE
 -
 -
 eval
-;
-reportCompare
-(
-0
-0
-)
 ;

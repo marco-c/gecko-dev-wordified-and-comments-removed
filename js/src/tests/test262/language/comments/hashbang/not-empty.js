@@ -1,0 +1,16 @@
+#
+!
+these
+characters
+should
+be
+treated
+as
+a
+comment
+reportCompare
+(
+0
+0
+)
+;
