@@ -1837,9 +1837,7 @@ popup
 .
 if
 (
-Services
-.
-prefs
+SpecialPowers
 .
 getBoolPref
 (
