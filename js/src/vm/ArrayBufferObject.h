@@ -2184,6 +2184,7 @@ typename
 T
 >
 inline
+constexpr
 bool
 TypeIsFloatingPoint
 (
@@ -2197,6 +2198,7 @@ template
 <
 >
 inline
+constexpr
 bool
 TypeIsFloatingPoint
 <
@@ -2213,6 +2215,7 @@ template
 <
 >
 inline
+constexpr
 bool
 TypeIsFloatingPoint
 <
@@ -2231,6 +2234,7 @@ typename
 T
 >
 inline
+constexpr
 bool
 TypeIsUnsigned
 (
@@ -2244,6 +2248,7 @@ template
 <
 >
 inline
+constexpr
 bool
 TypeIsUnsigned
 <
@@ -2260,6 +2265,7 @@ template
 <
 >
 inline
+constexpr
 bool
 TypeIsUnsigned
 <
@@ -2276,6 +2282,7 @@ template
 <
 >
 inline
+constexpr
 bool
 TypeIsUnsigned
 <
