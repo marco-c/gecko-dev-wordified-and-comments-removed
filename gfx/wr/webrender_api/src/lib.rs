@@ -153,11 +153,6 @@ time
 ;
 extern
 crate
-wr_malloc_size_of
-;
-use
-wr_malloc_size_of
-as
 malloc_size_of
 ;
 mod
