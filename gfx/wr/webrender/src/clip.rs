@@ -5983,6 +5983,8 @@ node
 spatial_node_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -5996,6 +5998,8 @@ spatial_nodes
 spatial_node_index
 .
 0
+as
+usize
 ]
 ;
 let

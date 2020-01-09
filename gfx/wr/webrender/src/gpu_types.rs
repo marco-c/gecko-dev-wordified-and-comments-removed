@@ -2156,6 +2156,8 @@ ROOT_SPATIAL_NODE_INDEX
 from_index
 .
 0
+as
+usize
 }
 else
 if
@@ -2273,6 +2275,8 @@ transforms
 index
 .
 0
+as
+usize
 ]
 .
 transform
@@ -2307,6 +2311,8 @@ transforms
 index
 .
 0
+as
+usize
 ]
 .
 inv_transform

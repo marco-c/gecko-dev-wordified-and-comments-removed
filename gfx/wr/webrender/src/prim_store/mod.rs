@@ -897,6 +897,8 @@ spatial_nodes
 ref_spatial_node_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -908,6 +910,8 @@ spatial_nodes
 target_node_index
 .
 0
+as
+usize
 ]
 ;
 if
@@ -9674,6 +9678,8 @@ prim_instance
 spatial_node_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -14263,7 +14269,7 @@ PrimitiveInstance
 >
 (
 )
-120
+112
 "
 PrimitiveInstance
 size

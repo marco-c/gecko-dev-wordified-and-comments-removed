@@ -1397,6 +1397,9 @@ self
 .
 spatial_node_index
 SpatialNodeIndex
+:
+:
+new
 (
 i
 )
@@ -7871,6 +7874,8 @@ cluster
 spatial_node_index
 .
 0
+as
+usize
 ]
 ;
 if
