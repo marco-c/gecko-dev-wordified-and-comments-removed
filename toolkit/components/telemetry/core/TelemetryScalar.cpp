@@ -7893,6 +7893,14 @@ info
 .
 mDynamicName
 ;
+stubDefinition
+.
+builtin
+=
+info
+.
+builtin
+;
 aIPCDefs
 .
 AppendElement
@@ -15963,7 +15971,9 @@ name
 def
 .
 keyed
-false
+def
+.
+builtin
 {
 }
 }
