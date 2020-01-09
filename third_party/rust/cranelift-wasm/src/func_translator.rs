@@ -146,6 +146,9 @@ code
 [
 u8
 ]
+code_offset
+:
+usize
 func
 :
 &
@@ -175,9 +178,10 @@ translate_from_reader
 BinaryReader
 :
 :
-new
+new_with_offset
 (
 code
+code_offset
 )
 func
 environ
@@ -1077,7 +1081,7 @@ new
 (
 reader
 .
-current_position
+original_position
 (
 )
 as
@@ -1320,6 +1324,7 @@ translate
 (
 &
 BODY
+0
 &
 mut
 ctx
@@ -1542,6 +1547,7 @@ translate
 (
 &
 BODY
+0
 &
 mut
 ctx
@@ -1750,6 +1756,7 @@ translate
 (
 &
 BODY
+0
 &
 mut
 ctx

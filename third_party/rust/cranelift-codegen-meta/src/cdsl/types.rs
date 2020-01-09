@@ -8,12 +8,12 @@ use
 crate
 :
 :
-base
+shared
 :
 :
 types
 as
-base_types
+shared_types
 ;
 static
 LANE_BASE
@@ -715,21 +715,21 @@ LaneType
 {
 BoolType
 (
-base_types
+shared_types
 :
 :
 Bool
 )
 FloatType
 (
-base_types
+shared_types
 :
 :
 Float
 )
 IntType
 (
-base_types
+shared_types
 :
 :
 Int
@@ -784,7 +784,7 @@ LaneType
 :
 FloatType
 (
-base_types
+shared_types
 :
 :
 Float
@@ -843,7 +843,7 @@ LaneType
 :
 FloatType
 (
-base_types
+shared_types
 :
 :
 Float
@@ -1055,7 +1055,7 @@ LaneType
 :
 BoolType
 (
-base_types
+shared_types
 :
 :
 Bool
@@ -1071,7 +1071,7 @@ LaneType
 :
 BoolType
 (
-base_types
+shared_types
 :
 :
 Bool
@@ -1087,7 +1087,7 @@ LaneType
 :
 BoolType
 (
-base_types
+shared_types
 :
 :
 Bool
@@ -1103,7 +1103,7 @@ LaneType
 :
 BoolType
 (
-base_types
+shared_types
 :
 :
 Bool
@@ -1119,7 +1119,7 @@ LaneType
 :
 BoolType
 (
-base_types
+shared_types
 :
 :
 Bool
@@ -1135,7 +1135,7 @@ LaneType
 :
 IntType
 (
-base_types
+shared_types
 :
 :
 Int
@@ -1151,7 +1151,7 @@ LaneType
 :
 IntType
 (
-base_types
+shared_types
 :
 :
 Int
@@ -1167,7 +1167,7 @@ LaneType
 :
 IntType
 (
-base_types
+shared_types
 :
 :
 Int
@@ -1183,7 +1183,7 @@ LaneType
 :
 IntType
 (
-base_types
+shared_types
 :
 :
 Int
@@ -1199,7 +1199,7 @@ LaneType
 :
 FloatType
 (
-base_types
+shared_types
 :
 :
 Float
@@ -1215,7 +1215,7 @@ LaneType
 :
 FloatType
 (
-base_types
+shared_types
 :
 :
 Float
@@ -1467,7 +1467,7 @@ inner_msg
 impl
 From
 <
-base_types
+shared_types
 :
 :
 Bool
@@ -1480,7 +1480,7 @@ from
 (
 b
 :
-base_types
+shared_types
 :
 :
 Bool
@@ -1501,7 +1501,7 @@ b
 impl
 From
 <
-base_types
+shared_types
 :
 :
 Float
@@ -1514,7 +1514,7 @@ from
 (
 f
 :
-base_types
+shared_types
 :
 :
 Float
@@ -1535,7 +1535,7 @@ f
 impl
 From
 <
-base_types
+shared_types
 :
 :
 Int
@@ -1548,7 +1548,7 @@ from
 (
 i
 :
-base_types
+shared_types
 :
 :
 Int
@@ -1572,19 +1572,19 @@ LaneTypeIterator
 {
 bool_iter
 :
-base_types
+shared_types
 :
 :
 BoolIterator
 int_iter
 :
-base_types
+shared_types
 :
 :
 IntIterator
 float_iter
 :
-base_types
+shared_types
 :
 :
 FloatIterator
@@ -1604,7 +1604,7 @@ Self
 {
 bool_iter
 :
-base_types
+shared_types
 :
 :
 BoolIterator
@@ -1615,7 +1615,7 @@ new
 )
 int_iter
 :
-base_types
+shared_types
 :
 :
 IntIterator
@@ -1626,7 +1626,7 @@ new
 )
 float_iter
 :
-base_types
+shared_types
 :
 :
 FloatIterator
@@ -2210,7 +2210,7 @@ SpecialType
 {
 Flag
 (
-base_types
+shared_types
 :
 :
 Flag
@@ -2237,7 +2237,7 @@ SpecialType
 :
 Flag
 (
-base_types
+shared_types
 :
 :
 Flag
@@ -2284,7 +2284,7 @@ SpecialType
 :
 Flag
 (
-base_types
+shared_types
 :
 :
 Flag
@@ -2372,7 +2372,7 @@ SpecialType
 :
 Flag
 (
-base_types
+shared_types
 :
 :
 Flag
@@ -2388,7 +2388,7 @@ SpecialType
 :
 Flag
 (
-base_types
+shared_types
 :
 :
 Flag
@@ -2440,7 +2440,7 @@ SpecialType
 :
 Flag
 (
-base_types
+shared_types
 :
 :
 Flag
@@ -2463,7 +2463,7 @@ SpecialType
 :
 Flag
 (
-base_types
+shared_types
 :
 :
 Flag
@@ -2553,7 +2553,7 @@ self
 impl
 From
 <
-base_types
+shared_types
 :
 :
 Flag
@@ -2566,7 +2566,7 @@ from
 (
 f
 :
-base_types
+shared_types
 :
 :
 Flag
@@ -2590,7 +2590,7 @@ SpecialTypeIterator
 {
 flag_iter
 :
-base_types
+shared_types
 :
 :
 FlagIterator
@@ -2610,7 +2610,7 @@ Self
 {
 flag_iter
 :
-base_types
+shared_types
 :
 :
 FlagIterator

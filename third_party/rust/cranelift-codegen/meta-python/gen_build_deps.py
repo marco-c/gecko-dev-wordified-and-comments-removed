@@ -18,8 +18,8 @@ by
 cargo
 when
 building
-lib
-/
+cranelift
+-
 codegen
 to
 generate

@@ -996,7 +996,11 @@ test
 [
 cfg
 (
-build_arm32
+feature
+=
+"
+arm32
+"
 )
 ]
 mod

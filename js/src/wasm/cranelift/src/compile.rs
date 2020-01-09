@@ -510,6 +510,11 @@ func
 bytecode
 (
 )
+func
+.
+offset_in_module
+as
+usize
 &
 mut
 self

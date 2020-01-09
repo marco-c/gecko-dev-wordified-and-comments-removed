@@ -1586,6 +1586,15 @@ bytes_remaining
 (
 )
 ;
+let
+offset
+=
+reader
+.
+original_position
+(
+)
+;
 environ
 .
 define_function_body
@@ -1597,6 +1606,7 @@ read_bytes
 size
 )
 ?
+offset
 )
 ?
 ;
