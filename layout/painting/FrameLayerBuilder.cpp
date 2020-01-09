@@ -8098,9 +8098,11 @@ mRetainingManager
 |
 mInvalidateAllLayers
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -8483,9 +8485,11 @@ if
 !
 layer
 )
+{
 return
 nullptr
 ;
+}
 data
 -
 >
@@ -8598,9 +8602,11 @@ if
 !
 layer
 )
+{
 return
 nullptr
 ;
+}
 data
 -
 >
@@ -28221,9 +28227,11 @@ if
 !
 layer
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 layer

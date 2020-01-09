@@ -2857,8 +2857,10 @@ if
 !
 mHaveClipRect
 )
+{
 return
 ;
+}
 mClipRect
 +
 =

@@ -1075,12 +1075,14 @@ if
 (
 aRootElementFrame
 )
+{
 return
 FindBackgroundStyleFrame
 (
 aRootElementFrame
 )
 ;
+}
 return
 aForFrame
 ;
