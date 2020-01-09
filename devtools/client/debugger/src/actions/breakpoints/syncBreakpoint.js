@@ -250,12 +250,16 @@ source
 const
 func
 =
+symbols
+?
 findFunctionByName
 (
 symbols
 name
 index
 )
+:
+null
 ;
 let
 line
