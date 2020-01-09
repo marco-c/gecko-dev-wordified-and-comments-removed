@@ -123,6 +123,12 @@ aResult
 ;
 static
 bool
+IsA11yHandlingNativeCaret
+(
+)
+;
+static
+bool
 IsComposing
 (
 )
