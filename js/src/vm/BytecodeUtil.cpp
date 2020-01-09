@@ -10436,9 +10436,6 @@ JSOP_LAMBDA
 case
 JSOP_LAMBDA_ARROW
 :
-case
-JSOP_TOASYNC
-:
 return
 write
 (
