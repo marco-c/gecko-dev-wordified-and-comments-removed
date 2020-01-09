@@ -2223,7 +2223,7 @@ platform_name
 chromium_rev
 =
 "
-575640
+624137
 "
             
 chrome_archive_file
@@ -2286,7 +2286,7 @@ else
 chromium_rev
 =
 "
-575637
+624131
 "
             
 chrome_archive_file
@@ -2294,23 +2294,11 @@ chrome_archive_file
 "
 chrome
 -
-win32
+win
 .
 zip
 "
             
-if
-'
-64
-'
-in
-self
-.
-platform_name
-(
-)
-:
-                
 chrome_url
 =
 "
@@ -2318,30 +2306,6 @@ chrome_url
 s
 /
 Win_x64
-/
-%
-s
-/
-%
-s
-"
-%
-(
-base_url
-chromium_rev
-chrome_archive_file
-)
-            
-else
-:
-                
-chrome_url
-=
-"
-%
-s
-/
-Win_x32
 /
 %
 s
@@ -2372,7 +2336,7 @@ chrome_dest
 '
 chrome
 -
-win32
+win
 '
 '
 Chrome
