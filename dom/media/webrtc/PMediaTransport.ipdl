@@ -60,6 +60,9 @@ include
 protocol
 PSocketProcessBridge
 ;
+#
+ifdef
+MOZ_WEBRTC
 include
 PBrowserOrId
 ;
@@ -282,6 +285,11 @@ PStunAddrsParams
 h
 "
 ;
+#
+endif
+/
+/
+MOZ_WEBRTC
 namespace
 mozilla
 {
@@ -302,6 +310,9 @@ __delete__
 (
 )
 ;
+#
+ifdef
+MOZ_WEBRTC
 async
 GetIceLog
 (
@@ -533,6 +544,11 @@ int
 state
 )
 ;
+#
+endif
+/
+/
+MOZ_WEBRTC
 }
 ;
 }

@@ -34,6 +34,9 @@ PMediaTransportParent
 {
 public
 :
+#
+ifdef
+MOZ_WEBRTC
 MediaTransportParent
 (
 )
@@ -394,6 +397,8 @@ Impl
 >
 mImpl
 ;
+#
+endif
 }
 ;
 }
