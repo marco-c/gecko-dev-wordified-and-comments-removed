@@ -168,9 +168,31 @@ self
 )
 :
         
+return
+unicode
+(
+self
+)
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
+    
+def
+__unicode__
+(
+self
+)
+:
+        
 msg
 =
-str
+unicode
 (
 self
 .
@@ -201,6 +223,7 @@ tuple
 msg
 +
 =
+u
 "
 caused
 by
@@ -236,6 +259,7 @@ else
 msg
 +
 =
+u
 "
 caused
 by
@@ -258,6 +282,7 @@ stacktrace
             
 st
 =
+u
 "
 "
 .
@@ -277,7 +302,7 @@ format
 (
 x
 )
-                          
+                           
 for
 x
 in
@@ -294,6 +319,7 @@ splitlines
 msg
 +
 =
+u
 "
 \
 nstacktrace
@@ -316,10 +342,12 @@ tb
 msg
 +
 =
-'
+u
+"
 :
-'
+"
 +
+u
 "
 "
 .
