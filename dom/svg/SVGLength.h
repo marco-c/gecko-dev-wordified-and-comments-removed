@@ -150,7 +150,7 @@ SetValueFromString
 const
 nsAString
 &
-aValue
+aString
 )
 ;
 float

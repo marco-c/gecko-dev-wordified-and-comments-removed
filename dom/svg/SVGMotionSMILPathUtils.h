@@ -256,7 +256,7 @@ ParseCoordinatePair
 const
 nsAString
 &
-aStr
+aCoordPairStr
 float
 &
 aXVal

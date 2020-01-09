@@ -145,7 +145,7 @@ nsStyleSVG
 *
 aFillOrStroke
 float
-aOpacity
+aGraphicOpacity
 imgDrawingParams
 &
 aImgParams

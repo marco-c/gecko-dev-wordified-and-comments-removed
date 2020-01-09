@@ -479,7 +479,7 @@ aContext
 const
 gfxMatrix
 &
-aMatrix
+aTransform
 imgDrawingParams
 &
 aImgParams

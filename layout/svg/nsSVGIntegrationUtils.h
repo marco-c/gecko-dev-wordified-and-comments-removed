@@ -285,7 +285,7 @@ aFrame
 const
 nsRect
 &
-aDamageRect
+aDirtyRect
 )
 ;
 static

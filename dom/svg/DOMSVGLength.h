@@ -293,7 +293,7 @@ void
 SetValue
 (
 float
-aValue
+aUserUnitValue
 ErrorResult
 &
 aRv

@@ -374,7 +374,7 @@ nullptr
 const
 nsRect
 *
-aOverridePreFilterVisualOverflowRect
+aPreFilterVisualOverflowRectOverride
 =
 nullptr
 const
@@ -476,7 +476,7 @@ BuildSourcePaint
 (
 SourceInfo
 *
-aPrimitive
+aSource
 imgDrawingParams
 &
 aImgParams

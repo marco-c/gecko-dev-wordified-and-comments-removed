@@ -244,7 +244,7 @@ RebuildPathAndVertices
 const
 nsIContent
 *
-aContextElem
+aTargetElement
 )
 ;
 void

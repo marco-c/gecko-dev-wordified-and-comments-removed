@@ -129,7 +129,7 @@ SetAnimValue
 const
 SVGPointList
 &
-aValue
+aNewAnimValue
 dom
 :
 :

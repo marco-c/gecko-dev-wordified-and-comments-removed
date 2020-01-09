@@ -919,7 +919,7 @@ NewValueSpecifiedUnits
 uint16_t
 aUnitType
 float
-aValue
+aValueInSpecifiedUnits
 SVGElement
 *
 aSVGElement

@@ -171,7 +171,7 @@ SetBaseValue
 int32_t
 aValue
 PairIndex
-aIndex
+aPairIndex
 SVGElement
 *
 aSVGElement

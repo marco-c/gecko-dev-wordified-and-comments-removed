@@ -167,7 +167,7 @@ SetAnimValue
 const
 SVGTransformList
 &
-aNewAnimValue
+aValue
 dom
 :
 :
@@ -356,7 +356,7 @@ SetAnimValue
 const
 SMILValue
 &
-aValue
+aNewAnimValue
 )
 override
 ;

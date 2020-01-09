@@ -187,7 +187,7 @@ SetBaseValue
 float
 aValue
 PairIndex
-aIndex
+aPairIndex
 SVGElement
 *
 aSVGElement

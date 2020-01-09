@@ -3065,7 +3065,7 @@ aRenderComponents
 const
 gfxMatrix
 &
-aNewTransform
+aTransform
 imgDrawingParams
 &
 aImgParams
@@ -3074,7 +3074,7 @@ aImgParams
 MOZ_ASSERT
 (
 !
-aNewTransform
+aTransform
 .
 IsSingular
 (
@@ -3185,7 +3185,7 @@ aContext
 >
 SetMatrixDouble
 (
-aNewTransform
+aTransform
 )
 ;
 if

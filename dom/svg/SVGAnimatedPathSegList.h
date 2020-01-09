@@ -139,7 +139,7 @@ SetAnimValue
 const
 SVGPathData
 &
-aValue
+aNewAnimValue
 dom
 :
 :

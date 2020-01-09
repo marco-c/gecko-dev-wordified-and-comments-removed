@@ -137,7 +137,7 @@ SetAnimValue
 const
 SVGLengthList
 &
-aValue
+aNewAnimValue
 dom
 :
 :

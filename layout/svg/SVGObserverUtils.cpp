@@ -1978,7 +1978,7 @@ nsIContent
 aFilteredElement
 nsIFrame
 *
-aFiltedFrame
+aFilteredFrame
 =
 nullptr
 )

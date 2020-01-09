@@ -692,7 +692,7 @@ aFrame
 const
 nsRect
 &
-aUnfilteredRect
+aPreFilterRect
 )
 ;
 static
@@ -756,7 +756,7 @@ UserSpace
 (
 nsIFrame
 *
-aFrame
+aNonSVGContext
 const
 SVGAnimatedLength
 *
@@ -1643,6 +1643,10 @@ const
 nsIFrame
 *
 aFrame
+const
+nsIFrame
+*
+aAncestor
 )
 ;
 }

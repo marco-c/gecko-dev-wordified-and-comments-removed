@@ -154,7 +154,7 @@ nsStyleSVG
 *
 aFillOrStroke
 float
-aOpacity
+aGraphicOpacity
 imgDrawingParams
 &
 aImgParams
@@ -427,7 +427,7 @@ bbox
 const
 Matrix
 &
-callerCTM
+aTargetCTM
 nsIFrame
 *
 aTarget
