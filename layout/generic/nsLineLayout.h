@@ -51,9 +51,6 @@ nsLineBox
 h
 "
 class
-nsBulletFrame
-;
-class
 nsFloatManager
 ;
 struct
@@ -293,7 +290,7 @@ aPushedFrame
 )
 ;
 void
-AddBulletFrame
+AddMarkerFrame
 (
 nsIFrame
 *
@@ -305,7 +302,7 @@ aMetrics
 )
 ;
 void
-RemoveBulletFrame
+RemoveMarkerFrame
 (
 nsIFrame
 *
@@ -1061,7 +1058,7 @@ mRecomputeOverflow
 1
 ;
 bool
-mIsBullet
+mIsMarker
 :
 1
 ;
@@ -1442,7 +1439,7 @@ mInFirstLetter
 1
 ;
 bool
-mHasBullet
+mHasMarker
 :
 1
 ;

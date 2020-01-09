@@ -169,7 +169,7 @@ blockFrame
 blockFrame
 -
 >
-HasBullet
+HasMarker
 (
 )
 )
@@ -575,7 +575,7 @@ blockFrame
 blockFrame
 -
 >
-GetBullet
+GetMarker
 (
 )
 :
@@ -622,7 +622,7 @@ blockFrame
 blockFrame
 -
 >
-GetSpokenBulletText
+GetSpokenMarkerText
 (
 aName
 )
@@ -710,7 +710,7 @@ blockFrame
 blockFrame
 -
 >
-GetSpokenBulletText
+GetSpokenMarkerText
 (
 bulletText
 )
@@ -757,7 +757,7 @@ blockFrame
 blockFrame
 -
 >
-HasInsideBullet
+HasInsideMarker
 (
 )
 :
