@@ -659,7 +659,15 @@ mPool
 >
 SetIdleThreadLimit
 (
-1
+5
+)
+;
+mPool
+-
+>
+SetIdleThreadTimeoutRegressive
+(
+true
 )
 ;
 mPool
