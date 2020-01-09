@@ -3,7 +3,7 @@ crate
 target_lexicon
 ;
 use
-std
+core
 :
 :
 str

@@ -159,6 +159,9 @@ NoneWithoutBinaryFormat
 }
 }
 use
+self
+:
+:
 triple
 :
 :

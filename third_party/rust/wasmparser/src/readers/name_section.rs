@@ -70,9 +70,7 @@ Result
 &
 '
 b
-[
-u8
-]
+str
 >
 where
 '

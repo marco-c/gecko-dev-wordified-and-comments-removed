@@ -566,7 +566,7 @@ sig
 &
 self
 .
-shared_flags
+triple
 current
 )
 }

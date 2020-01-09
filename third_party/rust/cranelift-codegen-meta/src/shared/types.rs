@@ -438,6 +438,7 @@ Clone
 Copy
 Eq
 PartialEq
+Hash
 )
 ]
 pub

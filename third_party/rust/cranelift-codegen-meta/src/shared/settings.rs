@@ -15,7 +15,7 @@ SettingGroupBuilder
 ;
 pub
 fn
-generate
+define
 (
 )
 -
