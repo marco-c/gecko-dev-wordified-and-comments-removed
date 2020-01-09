@@ -271,6 +271,7 @@ void
 AssertOnTaskQueue
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -313,6 +314,7 @@ State
 GetState
 (
 )
+const
 {
 AssertOnTaskQueue
 (
