@@ -15,14 +15,4 @@ platforms
 android
 -
 26
-extras
-;
-android
-;
-m2repository
-extras
-;
-google
-;
-m2repository
 emulator
