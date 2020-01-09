@@ -6972,6 +6972,15 @@ nsAString
 aOutStr
 )
 ;
+static
+bool
+HighPriorityEventPendingForTopLevelDocumentBeforeContentfulPaint
+(
+Document
+*
+aDocument
+)
+;
 private
 :
 static
