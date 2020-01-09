@@ -1564,17 +1564,6 @@ SetIsFirstPaint
 {
 }
 virtual
-bool
-GetIsFirstPaint
-(
-)
-const
-{
-return
-false
-;
-}
-virtual
 void
 SetFocusTarget
 (
