@@ -244,7 +244,7 @@ onSelectThread
 >
 <
 div
-clasName
+className
 =
 "
 icon
