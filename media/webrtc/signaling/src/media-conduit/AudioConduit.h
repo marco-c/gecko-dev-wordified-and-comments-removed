@@ -675,9 +675,12 @@ bytesReceived
 uint32_t
 *
 cumulativeLost
-int32_t
+Maybe
+<
+double
+>
 *
-rttMs
+aOutRttSec
 )
 override
 ;
@@ -1039,6 +1042,12 @@ nsCOMPtr
 nsIEventTarget
 >
 mStsThread
+;
+Maybe
+<
+DOMHighResTimeStamp
+>
+mRttSec
 ;
 }
 ;
