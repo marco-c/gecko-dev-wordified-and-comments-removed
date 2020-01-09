@@ -367,7 +367,7 @@ andToStackPtr
 Imm32
 (
 ~
-0xff
+0xf
 )
 )
 ;
@@ -474,7 +474,7 @@ andToStackPtr
 Imm32
 (
 ~
-0xff
+0xf
 )
 )
 ;
