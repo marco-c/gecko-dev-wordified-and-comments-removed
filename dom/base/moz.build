@@ -1184,6 +1184,11 @@ Selection
 h
 '
 '
+SerializedStackHolder
+.
+h
+'
+'
 ShadowIncludingTreeIterator
 .
 h
@@ -2012,6 +2017,11 @@ cpp
 '
 '
 SelectionChangeEventDispatcher
+.
+cpp
+'
+'
+SerializedStackHolder
 .
 cpp
 '
