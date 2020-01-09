@@ -208,6 +208,9 @@ local_rect
 prim_transform
 clip_transform
 area
+cmi
+.
+sub_rect
 )
 ;
 vLocalPos

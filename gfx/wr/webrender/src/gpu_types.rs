@@ -741,10 +741,6 @@ prim_transform_id
 :
 TransformPaletteId
 pub
-segment
-:
-i32
-pub
 clip_data_address
 :
 GpuCacheAddress
@@ -760,6 +756,10 @@ pub
 tile_rect
 :
 LayoutRect
+pub
+sub_rect
+:
+DeviceRect
 }
 #
 [
