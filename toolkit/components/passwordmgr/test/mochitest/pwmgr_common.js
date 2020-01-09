@@ -2142,7 +2142,9 @@ val
 }
 )
 ;
-return
+let
+messageRV
+=
 PWMGR_COMMON_PARENT
 .
 sendSyncMessage
@@ -2163,9 +2165,16 @@ prop
 [
 0
 ]
+;
+return
+messageRV
+?
+messageRV
 [
 0
 ]
+:
+undefined
 ;
 }
 ;

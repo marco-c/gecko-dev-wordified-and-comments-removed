@@ -787,10 +787,12 @@ _searchAndDedupeLogins
 tc
 .
 formActionOrigin
+{
+formActionOrigin
+:
 tc
 .
 formActionOrigin
-{
 looseActionOriginMatch
 :
 true
