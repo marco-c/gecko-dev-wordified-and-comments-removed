@@ -894,7 +894,7 @@ addActiveCompilation
 (
 )
 ;
-tempPoolMark
+tempPoolMark_
 =
 alloc_
 .
@@ -945,7 +945,7 @@ alloc_
 .
 release
 (
-tempPoolMark
+tempPoolMark_
 )
 ;
 alloc_
