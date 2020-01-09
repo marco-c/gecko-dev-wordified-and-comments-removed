@@ -88,6 +88,16 @@ MPL
 DevToolsModules
 (
 '
+DebugTargetErrorPage
+.
+css
+'
+'
+DebugTargetErrorPage
+.
+js
+'
+'
 DebugTargetInfo
 .
 js
