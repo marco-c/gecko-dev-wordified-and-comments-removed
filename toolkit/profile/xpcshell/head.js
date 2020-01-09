@@ -147,6 +147,13 @@ NS_ERROR_START_PROFILE_MANAGER
 =
 0x805800c9
 ;
+const
+UPDATE_CHANNEL
+=
+AppConstants
+.
+MOZ_UPDATE_CHANNEL
+;
 let
 gProfD
 =
@@ -495,9 +502,7 @@ DEDICATED_NAME
 default
 -
 {
-AppConstants
-.
-MOZ_UPDATE_CHANNEL
+UPDATE_CHANNEL
 }
 ;
 if
@@ -612,6 +617,7 @@ xpcshell
 args
 ]
 isResetting
+UPDATE_CHANNEL
 rootDir
 localDir
 profile

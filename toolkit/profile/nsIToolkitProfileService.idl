@@ -590,6 +590,9 @@ aArgv
 in
 boolean
 aIsResetting
+in
+AUTF8String
+aUpdateChannel
 out
 nsIFile
 aRootDir

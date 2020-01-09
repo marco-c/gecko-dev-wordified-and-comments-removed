@@ -512,6 +512,9 @@ mStartupReason
 bool
 mMaybeLockProfile
 ;
+nsCString
+mUpdateChannel
+;
 static
 nsToolkitProfileService
 *
