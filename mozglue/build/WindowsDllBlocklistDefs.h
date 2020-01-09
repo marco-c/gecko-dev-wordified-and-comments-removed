@@ -56,6 +56,15 @@ MAKE_VERSION
 DLL_BLOCKLIST_ENTRY
 (
 "
+fraps64
+.
+dll
+"
+ALL_VERSIONS
+)
+DLL_BLOCKLIST_ENTRY
+(
+"
 hook
 .
 dll
