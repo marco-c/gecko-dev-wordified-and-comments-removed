@@ -940,6 +940,14 @@ ClearScriptSource
 )
 ;
 void
+SetScript
+(
+JSScript
+*
+aScript
+)
+;
+void
 MaybeCancelOffThreadScript
 (
 )
