@@ -87,6 +87,12 @@ h
 "
 #
 endif
+using
+mozilla
+:
+:
+IsAscii
+;
 const
 double
 growthRate
@@ -1413,9 +1419,6 @@ i
 isEmail
 |
 |
-nsCRT
-:
-:
 IsAscii
 (
 aInString
@@ -1889,9 +1892,6 @@ i
 |
 |
 !
-nsCRT
-:
-:
 IsAscii
 (
 aInString
@@ -7235,6 +7235,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 inStr
@@ -7257,6 +7260,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 )
 {
 return
@@ -7272,6 +7278,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsresult
 aStatus
 )
