@@ -284,6 +284,12 @@ StopControllingInput
 (
 )
 ;
+bool
+IsFocusedInputControlled
+(
+)
+const
+;
 nsresult
 HandleFocus
 (
