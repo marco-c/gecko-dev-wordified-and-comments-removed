@@ -3839,7 +3839,7 @@ return
 false
 ;
 }
-TryAttachIonStubOld
+TryAttachIonStub
 <
 CompareIRGenerator
 IonCompareIC

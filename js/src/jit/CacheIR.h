@@ -12868,7 +12868,7 @@ lhsVal_
 HandleValue
 rhsVal_
 ;
-bool
+AttachDecision
 tryAttachString
 (
 ValOperandId
@@ -12877,7 +12877,7 @@ ValOperandId
 rhsId
 )
 ;
-bool
+AttachDecision
 tryAttachObject
 (
 ValOperandId
@@ -12886,7 +12886,7 @@ ValOperandId
 rhsId
 )
 ;
-bool
+AttachDecision
 tryAttachSymbol
 (
 ValOperandId
@@ -12895,7 +12895,7 @@ ValOperandId
 rhsId
 )
 ;
-bool
+AttachDecision
 tryAttachStrictDifferentTypes
 (
 ValOperandId
@@ -12904,7 +12904,7 @@ ValOperandId
 rhsId
 )
 ;
-bool
+AttachDecision
 tryAttachInt32
 (
 ValOperandId
@@ -12913,7 +12913,7 @@ ValOperandId
 rhsId
 )
 ;
-bool
+AttachDecision
 tryAttachNumber
 (
 ValOperandId
@@ -12922,7 +12922,7 @@ ValOperandId
 rhsId
 )
 ;
-bool
+AttachDecision
 tryAttachNumberUndefined
 (
 ValOperandId
@@ -12931,7 +12931,7 @@ ValOperandId
 rhsId
 )
 ;
-bool
+AttachDecision
 tryAttachPrimitiveUndefined
 (
 ValOperandId
@@ -12940,7 +12940,7 @@ ValOperandId
 rhsId
 )
 ;
-bool
+AttachDecision
 tryAttachObjectUndefined
 (
 ValOperandId
@@ -12949,7 +12949,7 @@ ValOperandId
 rhsId
 )
 ;
-bool
+AttachDecision
 tryAttachNullUndefined
 (
 ValOperandId
@@ -12958,7 +12958,7 @@ ValOperandId
 rhsId
 )
 ;
-bool
+AttachDecision
 tryAttachStringNumber
 (
 ValOperandId
@@ -13000,7 +13000,7 @@ HandleValue
 rhsVal
 )
 ;
-bool
+AttachDecision
 tryAttachStub
 (
 )
