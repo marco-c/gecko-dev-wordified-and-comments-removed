@@ -787,6 +787,10 @@ pub
 surface_index
 :
 SurfaceIndex
+pub
+dirty_region_count
+:
+usize
 }
 pub
 struct
@@ -1540,9 +1544,6 @@ push
 frame_context
 .
 screen_world_rect
-frame_context
-.
-device_pixel_scale
 )
 ;
 frame_state
