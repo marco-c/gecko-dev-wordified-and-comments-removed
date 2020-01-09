@@ -4775,6 +4775,16 @@ visibility
 "
 visible
 "
+&
+&
+style
+.
+MozUserInput
+!
+=
+"
+none
+"
 ;
 ]
 ]
