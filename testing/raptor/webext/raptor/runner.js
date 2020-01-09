@@ -2106,6 +2106,7 @@ verifyResults
 ;
 }
 }
+async
 function
 timeoutAlarmListener
 (
@@ -2144,6 +2145,17 @@ testURL
 ]
 )
 ;
+if
+(
+screenCapture
+)
+{
+await
+getScreenCapture
+(
+)
+;
+}
 cleanUp
 (
 )
