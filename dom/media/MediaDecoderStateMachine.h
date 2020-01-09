@@ -379,11 +379,13 @@ EnsureOutputStreamManager
 MediaStreamGraph
 *
 aGraph
+)
+;
+void
+EnsureOutputStreamManagerHasTracks
+(
 const
-Maybe
-<
 MediaInfo
->
 &
 aLoadedInfo
 )
