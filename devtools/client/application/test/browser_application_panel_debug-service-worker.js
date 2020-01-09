@@ -422,7 +422,6 @@ workerScript
 .
 id
 8
-0
 )
 ;
 info
