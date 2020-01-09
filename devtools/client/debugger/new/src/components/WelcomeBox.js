@@ -534,6 +534,10 @@ p
 /
 div
 >
+<
+/
+div
+>
 {
 this
 .
@@ -541,10 +545,6 @@ renderToggleButton
 (
 )
 }
-<
-/
-div
->
 <
 /
 div
