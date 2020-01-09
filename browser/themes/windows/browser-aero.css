@@ -631,6 +631,9 @@ theme
 {
 :
 root
+[
+tabsintitlebar
+]
 {
 background
 -
@@ -651,6 +654,11 @@ win
 glass
 ;
 }
+:
+root
+[
+tabsintitlebar
+]
 #
 browser
 {
