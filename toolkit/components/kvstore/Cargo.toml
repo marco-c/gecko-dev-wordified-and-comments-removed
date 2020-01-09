@@ -141,13 +141,6 @@ rust
 nsstring
 "
 }
-ordered
--
-float
-=
-"
-1
-"
 rkv
 =
 "
@@ -155,7 +148,7 @@ rkv
 .
 9
 .
-2
+3
 "
 storage_variant
 =
