@@ -4104,8 +4104,12 @@ Debugger
 *
 dbg
 =
-*
 p
+-
+>
+unbarrieredGet
+(
+)
 ;
 if
 (
