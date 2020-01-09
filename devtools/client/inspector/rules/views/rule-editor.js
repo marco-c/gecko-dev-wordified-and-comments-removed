@@ -1226,8 +1226,7 @@ addEventListener
 "
 click
 "
-(
-)
+event
 =
 >
 {
@@ -1239,6 +1238,12 @@ toggleSelectorHighlighter
 (
 selectorHighlighter
 selector
+)
+;
+event
+.
+stopPropagation
+(
 )
 ;
 }
