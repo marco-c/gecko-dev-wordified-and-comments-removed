@@ -6900,7 +6900,7 @@ ex
 }
 catch
 (
-ex
+error
 )
 {
 }
@@ -7143,7 +7143,7 @@ available
 )
 ;
 let
-mozinfo
+decoded
 =
 JSON
 .
@@ -7169,7 +7169,7 @@ close
 )
 ;
 return
-mozinfo
+decoded
 ;
 }
 Object
