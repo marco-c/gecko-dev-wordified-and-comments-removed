@@ -5860,6 +5860,8 @@ ForwardingPromiseRejectionTrackerCallback
 JSContext
 *
 cx
+bool
+mutedErrors
 JS
 :
 :

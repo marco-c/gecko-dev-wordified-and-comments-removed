@@ -1589,6 +1589,8 @@ PromiseRejectionTrackerCallback
 JSContext
 *
 aCx
+bool
+aMutedErrors
 JS
 :
 :
@@ -1702,6 +1704,10 @@ StaticPrefs
 dom_promise_rejection_events_enabled
 (
 )
+&
+&
+!
+aMutedErrors
 )
 {
 RefPtr
@@ -1763,6 +1769,10 @@ StaticPrefs
 dom_promise_rejection_events_enabled
 (
 )
+&
+&
+!
+aMutedErrors
 )
 {
 for
