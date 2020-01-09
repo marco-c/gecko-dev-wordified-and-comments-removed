@@ -72,7 +72,7 @@ SystemAllocPolicy
 >
 ;
 using
-UniqueAnyFuncArray
+UniqueFuncRefArray
 =
 UniquePtr
 <
@@ -91,7 +91,7 @@ maybeObject_
 InstanceSet
 observers_
 ;
-UniqueAnyFuncArray
+UniqueFuncRefArray
 functions_
 ;
 TableAnyRefVector
@@ -133,7 +133,7 @@ TableDesc
 td
 HandleWasmTableObject
 maybeObject
-UniqueAnyFuncArray
+UniqueFuncRefArray
 functions
 )
 ;
@@ -236,7 +236,7 @@ kind_
 TableKind
 :
 :
-AnyFunction
+FuncRef
 |
 |
 kind_
@@ -281,7 +281,7 @@ const
 const
 FunctionTableElem
 &
-getAnyFunc
+getFuncRef
 (
 uint32_t
 index
@@ -289,7 +289,7 @@ index
 const
 ;
 void
-setAnyFunc
+setFuncRef
 (
 uint32_t
 index

@@ -10030,7 +10030,7 @@ uint8_t
 TypeCode
 :
 :
-AnyFunc
+FuncRef
 )
 )
 {
@@ -10039,7 +10039,7 @@ tableKind
 TableKind
 :
 :
-AnyFunction
+FuncRef
 ;
 #
 ifdef
@@ -14363,7 +14363,7 @@ kind
 TableKind
 :
 :
-AnyFunction
+FuncRef
 )
 {
 return
@@ -14492,7 +14492,7 @@ uint8_t
 TypeCode
 :
 :
-AnyFunc
+FuncRef
 )
 )
 {

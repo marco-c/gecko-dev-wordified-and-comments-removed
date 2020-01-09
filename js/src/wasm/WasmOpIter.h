@@ -8451,7 +8451,7 @@ kind
 TableKind
 :
 :
-AnyFunction
+FuncRef
 )
 {
 return
@@ -10523,7 +10523,7 @@ kind
 TableKind
 :
 :
-AnyFunction
+FuncRef
 )
 {
 return
