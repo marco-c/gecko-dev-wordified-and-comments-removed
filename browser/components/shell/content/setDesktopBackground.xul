@@ -656,6 +656,14 @@ hbox
 #
 endif
 <
+vbox
+align
+=
+"
+center
+"
+>
+<
 stack
 >
 <
@@ -718,6 +726,10 @@ monitor
 <
 /
 stack
+>
+<
+/
+vbox
 >
 #
 ifdef
