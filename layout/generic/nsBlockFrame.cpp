@@ -8887,6 +8887,12 @@ IsEmpty
 )
 )
 {
+iter
+.
+Next
+(
+)
+;
 continue
 ;
 }
