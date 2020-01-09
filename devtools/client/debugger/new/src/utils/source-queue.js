@@ -122,15 +122,6 @@ Source
 =
 >
 {
-if
-(
-sources
-.
-length
->
-0
-)
-{
 queuedSources
 =
 queuedSources
@@ -144,7 +135,6 @@ queue
 (
 )
 ;
-}
 }
 flush
 :
