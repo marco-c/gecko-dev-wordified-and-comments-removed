@@ -1529,6 +1529,12 @@ mozilla
 TimeStamp
 mNextRecomputeVisibilityTick
 ;
+mozilla
+:
+:
+TimeStamp
+mInitialTimerRunningLimit
+;
 ObserverArray
 mObservers
 [
