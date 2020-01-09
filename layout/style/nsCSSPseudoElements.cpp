@@ -77,9 +77,11 @@ undef
 CSS_PSEUDO_ELEMENT
 }
 ;
-static
 nsStaticAtom
 *
+nsCSSPseudoElements
+:
+:
 GetAtomBase
 (
 )

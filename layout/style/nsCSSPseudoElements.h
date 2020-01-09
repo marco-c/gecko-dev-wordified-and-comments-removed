@@ -522,6 +522,13 @@ aFlags
 ;
 }
 static
+nsStaticAtom
+*
+GetAtomBase
+(
+)
+;
+static
 const
 uint32_t
 kPseudoElementFlags

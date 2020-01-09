@@ -72,9 +72,11 @@ endif
 #
 ifdef
 DEBUG
-static
 nsStaticAtom
 *
+nsCSSAnonBoxes
+:
+:
 GetAtomBase
 (
 )
