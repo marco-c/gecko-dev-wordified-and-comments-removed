@@ -14912,11 +14912,6 @@ re
 new
 RegExp
 (
-"
-\
-n
-"
-+
 ERR_RENAME_FILE
 +
 "
@@ -14969,8 +14964,6 @@ replace
 (
 re
 "
-\
-n
 "
 )
 ;
