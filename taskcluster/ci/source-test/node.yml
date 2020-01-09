@@ -114,6 +114,10 @@ flow
 &
 yarn
 test
+&
+&
+yarn
+lint
 when
 :
 files
