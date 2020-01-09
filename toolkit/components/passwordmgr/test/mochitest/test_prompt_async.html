@@ -140,6 +140,19 @@ javascript
 src
 =
 "
+.
+.
+/
+.
+.
+/
+.
+.
+/
+prompts
+/
+test
+/
 prompt_common
 .
 js
@@ -333,6 +346,28 @@ isTabModal
 =
 false
 ;
+/
+/
+These
+are
+magically
+defined
+on
+the
+window
+due
+to
+the
+iframe
+IDs
+/
+*
+global
+iframe1
+iframe2a
+iframe2b
+*
+/
 let
 chromeScript
 =
@@ -1619,6 +1654,7 @@ iframe2bDoc
 await
 iframe2bDocPromise
 ;
+let
 authok1
 =
 iframe1Doc
@@ -1632,6 +1668,7 @@ ok
 .
 textContent
 ;
+let
 proxyok1
 =
 iframe1Doc
@@ -2637,6 +2674,7 @@ iframe1Doc
 await
 iframe1DocPromise
 ;
+let
 authok1
 =
 iframe1Doc
@@ -2650,6 +2688,7 @@ ok
 .
 textContent
 ;
+let
 proxyok1
 =
 iframe1Doc
@@ -3219,6 +3258,7 @@ iframe1Doc
 await
 iframe1DocPromise
 ;
+let
 authok1
 =
 iframe1Doc
@@ -3232,6 +3272,7 @@ ok
 .
 textContent
 ;
+let
 proxyok1
 =
 iframe1Doc
@@ -3245,6 +3286,7 @@ proxy
 .
 textContent
 ;
+let
 footnote
 =
 iframe1Doc
@@ -3490,6 +3532,7 @@ iframe1Doc
 await
 iframe1DocPromise
 ;
+let
 authok1
 =
 iframe1Doc
@@ -3503,6 +3546,7 @@ ok
 .
 textContent
 ;
+let
 proxyok1
 =
 iframe1Doc
@@ -3516,6 +3560,7 @@ proxy
 .
 textContent
 ;
+let
 footnote
 =
 iframe1Doc
@@ -3614,10 +3659,6 @@ promiseLoadedContentDoc
 (
 iframe1
 )
-;
-expectedDialogs
-=
-5
 ;
 iframe1
 .
@@ -3912,6 +3953,7 @@ iframe1Doc
 await
 iframe1DocPromise
 ;
+let
 authok1
 =
 iframe1Doc
@@ -3925,6 +3967,7 @@ ok
 .
 textContent
 ;
+let
 proxyok1
 =
 iframe1Doc
@@ -3938,6 +3981,7 @@ proxy
 .
 textContent
 ;
+let
 footnote
 =
 iframe1Doc

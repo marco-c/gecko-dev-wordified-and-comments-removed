@@ -50,8 +50,9 @@ if
 form
 )
 {
-logWarning
+ok
 (
+false
 "
 _
 couldn
@@ -87,8 +88,9 @@ if
 element
 )
 {
-logWarning
+ok
 (
+false
 "
 _
 couldn
@@ -121,8 +123,9 @@ name
 name
 )
 {
-logWarning
+ok
 (
+false
 "
 _
 got
