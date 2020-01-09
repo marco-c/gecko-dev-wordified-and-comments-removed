@@ -112,6 +112,10 @@ base
 ;
 char
 *
+mdns_addr
+;
+char
+*
 foundation
 ;
 UINT4

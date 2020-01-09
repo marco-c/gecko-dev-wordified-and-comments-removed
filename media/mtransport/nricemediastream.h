@@ -135,6 +135,12 @@ cand_addr
 NrIceAddr
 local_addr
 ;
+std
+:
+:
+string
+mdns_addr
+;
 Type
 type
 ;
@@ -422,6 +428,13 @@ std
 string
 &
 ufrag
+const
+std
+:
+:
+string
+&
+mdns_addr
 )
 ;
 nsresult

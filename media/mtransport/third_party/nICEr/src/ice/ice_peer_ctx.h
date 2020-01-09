@@ -181,6 +181,10 @@ stream
 char
 *
 cand
+const
+char
+*
+mdns_addr
 )
 ;
 int
