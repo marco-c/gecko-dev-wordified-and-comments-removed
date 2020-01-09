@@ -55,7 +55,7 @@ calls
 into
 the
 [
-Firefox
+Marionette
 remote
 protocol
 ]
@@ -92,7 +92,7 @@ webdriver
 #
 protocol
 [
-Firefox
+Marionette
 remote
 protocol
 ]
@@ -115,9 +115,6 @@ testing
 /
 marionette
 /
-Protocol
-.
-htm
 [
 WebDriver
 ]
