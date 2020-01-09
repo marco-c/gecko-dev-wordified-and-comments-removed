@@ -4121,11 +4121,11 @@ mMouseLocation
 NS_UNCONSTRAINEDSIZE
 NS_UNCONSTRAINEDSIZE
 )
-mActiveSuppressDisplayport
+mAPZFocusSequenceNumber
 (
 0
 )
-mAPZFocusSequenceNumber
+mActiveSuppressDisplayport
 (
 0
 )
@@ -14397,7 +14397,7 @@ nullptr
 ;
 }
 nsresult
-nsIPresShell
+PresShell
 :
 :
 GoToAnchor
@@ -15206,7 +15206,7 @@ rv
 ;
 }
 nsresult
-nsIPresShell
+PresShell
 :
 :
 ScrollToAnchor

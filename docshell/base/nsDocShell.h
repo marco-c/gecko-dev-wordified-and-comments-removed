@@ -1386,6 +1386,7 @@ return
 mBrowsingContext
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 InternalLoad
 (
@@ -1914,6 +1915,7 @@ uint32_t
 aOpenFlags
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ScrollToAnchor
 (
@@ -2675,6 +2677,7 @@ bool
 aDidHandleLoad
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MaybeHandleSameDocumentNavigation
 (
