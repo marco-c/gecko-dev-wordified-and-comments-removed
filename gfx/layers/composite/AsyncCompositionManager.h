@@ -500,7 +500,7 @@ ScreenMargin
 &
 aFixedLayerMargins
 ClipPartsCache
-*
+&
 aClipPartsCache
 )
 ;

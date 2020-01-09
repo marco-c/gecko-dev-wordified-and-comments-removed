@@ -2053,7 +2053,7 @@ ScreenMargin
 &
 aFixedLayerMargins
 ClipPartsCache
-*
+&
 aClipPartsCache
 )
 {
@@ -2461,6 +2461,7 @@ PixelCastJustification
 NoTransformOnLayer
 )
 true
+&
 aClipPartsCache
 )
 ;
@@ -4935,7 +4936,6 @@ GetScrollId
 oldTransform
 transformWithoutOverscrollOrOmta
 fixedLayerMargins
-&
 clipPartsCache
 )
 ;
