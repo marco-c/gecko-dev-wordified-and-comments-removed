@@ -203,6 +203,13 @@ PRIORITY_HIGH
 =
 2
 ;
+const
+unsigned
+short
+PRIORITY_MEDIUMHIGH
+=
+3
+;
 readonly
 attribute
 unsigned

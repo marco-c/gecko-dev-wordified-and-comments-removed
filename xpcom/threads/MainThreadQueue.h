@@ -126,6 +126,16 @@ InnerQueueT
 EventQueuePriority
 :
 :
+MediumHigh
+)
+MakeUnique
+<
+InnerQueueT
+>
+(
+EventQueuePriority
+:
+:
 Normal
 )
 MakeUnique
