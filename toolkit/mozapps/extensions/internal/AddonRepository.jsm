@@ -2386,11 +2386,6 @@ case
 persona
 "
 :
-case
-"
-statictheme
-"
-:
 addon
 .
 type
