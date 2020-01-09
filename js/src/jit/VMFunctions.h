@@ -4099,7 +4099,7 @@ genObj
 HandleValue
 arg
 uint32_t
-resumeKind
+resumeKindArg
 )
 ;
 MOZ_MUST_USE

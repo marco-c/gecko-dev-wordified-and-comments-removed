@@ -5409,7 +5409,7 @@ genObj
 HandleValue
 arg
 uint32_t
-resumeKind
+resumeKindArg
 )
 {
 JSScript
@@ -5490,6 +5490,14 @@ return
 false
 ;
 }
+GeneratorResumeKind
+resumeKind
+=
+GeneratorResumeKind
+(
+resumeKindArg
+)
+;
 if
 (
 mustReturn
@@ -5497,10 +5505,10 @@ mustReturn
 {
 resumeKind
 =
-AbstractGeneratorObject
+GeneratorResumeKind
 :
 :
-RETURN
+Return
 ;
 }
 MOZ_ALWAYS_FALSE

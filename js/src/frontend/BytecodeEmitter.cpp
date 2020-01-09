@@ -31173,6 +31173,8 @@ StringExpr
 uint8_t
 operand
 =
+uint8_t
+(
 AbstractGeneratorObject
 :
 :
@@ -31191,6 +31193,7 @@ NameNode
 .
 atom
 (
+)
 )
 )
 ;
