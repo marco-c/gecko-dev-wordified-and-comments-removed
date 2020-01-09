@@ -5487,6 +5487,14 @@ search
 .
 result
 "
+CodeMirrorLines
+:
+"
+.
+CodeMirror
+-
+lines
+"
 }
 ;
 function
