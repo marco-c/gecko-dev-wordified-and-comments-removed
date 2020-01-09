@@ -7761,6 +7761,11 @@ enable_picture_caching
 options
 .
 enable_picture_caching
+testing
+:
+options
+.
+testing
 }
 ;
 let
@@ -23639,6 +23644,10 @@ pub
 enable_picture_caching
 :
 bool
+pub
+testing
+:
+bool
 }
 impl
 Default
@@ -23787,6 +23796,9 @@ namespace_alloc_by_client
 :
 false
 enable_picture_caching
+:
+false
+testing
 :
 false
 }

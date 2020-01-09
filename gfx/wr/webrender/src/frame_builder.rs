@@ -377,6 +377,10 @@ pub
 enable_picture_caching
 :
 bool
+pub
+testing
+:
+bool
 }
 pub
 struct
@@ -463,6 +467,13 @@ scene_properties
 '
 a
 SceneProperties
+pub
+config
+:
+&
+'
+a
+FrameBuilderConfig
 }
 pub
 struct
@@ -1010,6 +1021,9 @@ Nothing
 enable_picture_caching
 :
 false
+testing
+:
+false
 }
 }
 }
@@ -1420,6 +1434,12 @@ pic_update_state
 surfaces
 debug_flags
 scene_properties
+config
+:
+&
+self
+.
+config
 }
 ;
 let
