@@ -1386,6 +1386,8 @@ robust
 .
 condition
 :
+and
+(
 eq
 (
 variables
@@ -1399,6 +1401,13 @@ Reason
 '
 Manual
 '
+)
+variables
+[
+'
+run_infrastructure_win10
+'
+]
 )
 pool
 :
@@ -1638,6 +1647,8 @@ robust
 .
 condition
 :
+and
+(
 eq
 (
 variables
@@ -1651,6 +1662,13 @@ Reason
 '
 Manual
 '
+)
+variables
+[
+'
+run_all_edge
+'
+]
 )
 #
 There
