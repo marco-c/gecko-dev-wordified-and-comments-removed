@@ -415,9 +415,6 @@ get
 -
 secrets
 build
-multi
--
-l10n
 ]
 config
 :
@@ -994,9 +991,6 @@ get
 -
 secrets
 build
-multi
--
-l10n
 ]
 config
 :
@@ -1500,9 +1494,6 @@ get
 -
 secrets
 build
-multi
--
-l10n
 ]
 config
 :
@@ -1912,9 +1903,6 @@ get
 -
 secrets
 build
-multi
--
-l10n
 ]
 config
 :
@@ -2919,9 +2907,6 @@ get
 -
 secrets
 build
-multi
--
-l10n
 ]
 config
 :
@@ -3376,9 +3361,6 @@ get
 -
 secrets
 build
-multi
--
-l10n
 ]
 config
 :
@@ -4408,9 +4390,6 @@ get
 -
 secrets
 build
-multi
--
-l10n
 ]
 config
 :
@@ -4893,9 +4872,6 @@ get
 -
 secrets
 build
-multi
--
-l10n
 ]
 config
 :
@@ -5891,9 +5867,6 @@ get
 -
 secrets
 build
-multi
--
-l10n
 ]
 config
 :
@@ -6891,9 +6864,6 @@ get
 -
 secrets
 build
-multi
--
-l10n
 ]
 config
 :
