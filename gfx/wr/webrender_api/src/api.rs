@@ -238,7 +238,6 @@ bool
 generate_frame
 :
 bool
-pub
 invalidate_rendered_frame
 :
 bool
