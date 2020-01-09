@@ -18581,15 +18581,9 @@ aFirstPartyStorageAccessGranted
 aCookieSettings
 -
 >
-GetCookieBehavior
+GetRejectThirdPartyTrackers
 (
 )
-=
-=
-nsICookieService
-:
-:
-BEHAVIOR_REJECT_TRACKER
 )
 {
 if
