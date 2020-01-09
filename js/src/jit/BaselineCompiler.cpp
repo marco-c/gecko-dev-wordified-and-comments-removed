@@ -1042,6 +1042,9 @@ Linker
 linker
 (
 masm
+"
+Baseline
+"
 )
 ;
 if
@@ -1062,14 +1065,6 @@ return
 Method_Error
 ;
 }
-AutoFlushICache
-afc
-(
-"
-Baseline
-"
-)
-;
 JitCode
 *
 code
