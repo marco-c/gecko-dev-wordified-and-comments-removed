@@ -17536,13 +17536,8 @@ error_buf
 NULL
 )
 {
-(
-void
-)
-png_safe_execute
-(
-image
 png_image_free_function
+(
 image
 )
 ;
