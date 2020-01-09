@@ -34,6 +34,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+GamepadMessageUtils
+.
+h
+"
+#
+include
+"
 VRManager
 .
 h

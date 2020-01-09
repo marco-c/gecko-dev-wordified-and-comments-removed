@@ -148,6 +148,13 @@ include
 protocol
 PVRGPU
 ;
+include
+"
+VRMessageUtils
+.
+h
+"
+;
 namespace
 mozilla
 {

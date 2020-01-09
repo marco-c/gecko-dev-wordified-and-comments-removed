@@ -42,6 +42,9 @@ class
 SessionStorageCache
 ;
 class
+SessionStorageObserver
+;
+class
 SessionStorageManager
 final
 :
@@ -119,6 +122,12 @@ nsCStringHashKey
 OriginKeyHashTable
 >
 mOATable
+;
+RefPtr
+<
+SessionStorageObserver
+>
+mObserver
 ;
 }
 ;

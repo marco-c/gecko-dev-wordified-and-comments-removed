@@ -2691,6 +2691,24 @@ parent
     
 (
 "
+PSessionStorageObserver
+"
+"
+child
+"
+)
+    
+(
+"
+PSessionStorageObserver
+"
+"
+parent
+"
+)
+    
+(
+"
 PWyciwygChannel
 "
 "
