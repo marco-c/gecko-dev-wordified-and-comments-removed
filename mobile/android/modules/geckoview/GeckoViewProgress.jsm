@@ -763,6 +763,17 @@ crashed
 "
 )
 ;
+this
+.
+unregisterListener
+(
+"
+GeckoView
+:
+FlushSessionState
+"
+)
+;
 }
 onEvent
 (
