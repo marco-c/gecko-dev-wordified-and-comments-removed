@@ -81,6 +81,9 @@ SEARCH_EDIT_CLOSE
 SEARCH_EDIT_DELETE
 "
 "
+SEARCH_HANDOFF
+"
+"
 SKIPPED_SIGNIN
 "
 "
@@ -158,6 +161,7 @@ bug_numbers
 [
 1429497
 1429489
+1514732
 ]
 notification_emails
 :
@@ -171,6 +175,13 @@ com
 -
 "
 msamuel
+mozilla
+.
+com
+"
+-
+"
+rrosario
 mozilla
 .
 com
