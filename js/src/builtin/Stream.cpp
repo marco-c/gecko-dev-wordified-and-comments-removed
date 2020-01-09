@@ -30,6 +30,15 @@ include
 "
 js
 /
+ArrayBuffer
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h
@@ -13926,7 +13935,10 @@ JSObject
 *
 bufferObj
 =
-JS_NewArrayBuffer
+JS
+:
+:
+NewArrayBuffer
 (
 cx
 autoAllocateChunkSize

@@ -29,6 +29,15 @@ h
 #
 include
 "
+js
+/
+ArrayBuffer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Base64
@@ -833,7 +842,10 @@ cx
 ;
 mResultArrayBuffer
 =
-JS_NewArrayBufferWithContents
+JS
+:
+:
+NewArrayBufferWithContents
 (
 cx
 mDataLen

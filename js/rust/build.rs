@@ -1537,7 +1537,7 @@ JS
 GCTraceKindToAscii
 "
 "
-js
+JS
 :
 :
 GetArrayBufferLengthAndData
@@ -1866,7 +1866,10 @@ JS_LinkConstructorAndPrototype
 JS_MayResolveStandardClass
 "
 "
-JS_NewArrayBuffer
+JS
+:
+:
+NewArrayBuffer
 "
 "
 JS_NewArrayObject
@@ -2217,7 +2220,7 @@ JS
 UnhideScriptedCaller
 "
 "
-js
+JS
 :
 :
 UnwrapArrayBuffer
