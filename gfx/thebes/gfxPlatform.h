@@ -1567,6 +1567,13 @@ GetCMSRGBATransform
 (
 )
 ;
+static
+qcms_transform
+*
+GetCMSBGRATransform
+(
+)
+;
 virtual
 void
 FontsPrefsChanged
