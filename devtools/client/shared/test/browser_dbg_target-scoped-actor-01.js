@@ -17,7 +17,7 @@ js
 const
 TAB_URL
 =
-EXAMPLE_URL
+TEST_URI_ROOT
 +
 "
 doc_empty
