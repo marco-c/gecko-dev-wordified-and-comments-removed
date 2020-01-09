@@ -72,7 +72,7 @@ mozconfig
 topobjdir
 compileSdkVersion
 =
-26
+28
 targetSdkVersion
 =
 tryInt
