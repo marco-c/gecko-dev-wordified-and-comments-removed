@@ -580,7 +580,7 @@ capabilities
 geckodriver
 accepts
 a
-Mozila
+Mozilla
 -
 specific
 configuration

@@ -292,7 +292,7 @@ then
 #
 Building
 with
-mozila
+mozilla
 -
 central
 as
