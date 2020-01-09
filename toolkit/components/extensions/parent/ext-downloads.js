@@ -1595,17 +1595,6 @@ totalBytesGreater
 query
 .
 totalBytesGreater
-!
-=
-=
-null
-?
-query
-.
-totalBytesGreater
-:
--
-1
 ;
 const
 totalBytesLess
@@ -1614,7 +1603,6 @@ query
 .
 totalBytesLess
 !
-=
 =
 null
 ?
@@ -1967,7 +1955,6 @@ query
 totalBytesGreater
 !
 =
-=
 null
 |
 |
@@ -1975,7 +1962,6 @@ query
 .
 totalBytesLess
 !
-=
 =
 null
 )
