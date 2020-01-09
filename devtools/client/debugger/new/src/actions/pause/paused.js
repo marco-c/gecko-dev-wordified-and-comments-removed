@@ -5,6 +5,7 @@ isEvaluatingExpression
 getSelectedFrame
 getSources
 getLastCommand
+wasStepping
 }
 from
 "
@@ -430,6 +431,17 @@ location
 )
 ;
 }
+if
+(
+!
+wasStepping
+(
+getState
+(
+)
+)
+)
+{
 dispatch
 (
 togglePaneCollapse
@@ -441,6 +453,7 @@ false
 )
 )
 ;
+}
 await
 dispatch
 (

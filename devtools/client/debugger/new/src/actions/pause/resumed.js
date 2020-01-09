@@ -140,6 +140,7 @@ thread
 packet
 .
 from
+wasStepping
 }
 )
 ;

@@ -93,6 +93,10 @@ string
 value
 :
 void
++
+wasStepping
+:
+boolean
 |
 }
 |
