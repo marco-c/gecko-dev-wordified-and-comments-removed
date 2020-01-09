@@ -968,6 +968,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_WeakSet
 &
 proto
 )

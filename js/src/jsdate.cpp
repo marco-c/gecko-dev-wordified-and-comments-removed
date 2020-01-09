@@ -16594,6 +16594,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_Date
 &
 proto
 )

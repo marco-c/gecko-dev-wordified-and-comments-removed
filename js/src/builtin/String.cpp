@@ -17823,6 +17823,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_String
 &
 proto
 )

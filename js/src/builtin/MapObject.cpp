@@ -3843,6 +3843,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_Map
 &
 proto
 )
@@ -7725,6 +7726,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_Set
 &
 proto
 )

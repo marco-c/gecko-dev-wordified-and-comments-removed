@@ -9904,6 +9904,11 @@ return
 false
 ;
 }
+JSProtoKey
+protoKey
+=
+JSProto_Null
+;
 if
 (
 isAsync
@@ -10001,6 +10006,10 @@ return
 false
 ;
 }
+protoKey
+=
+JSProto_Function
+;
 }
 }
 RootedObject
@@ -10016,6 +10025,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+protoKey
 &
 proto
 )

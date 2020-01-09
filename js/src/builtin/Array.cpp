@@ -18658,6 +18658,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_Array
 &
 proto
 )

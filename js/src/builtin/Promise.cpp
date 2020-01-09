@@ -8888,6 +8888,7 @@ GetPrototypeFromBuiltinConstructor
 (
 cx
 args
+JSProto_Promise
 &
 proto
 )
