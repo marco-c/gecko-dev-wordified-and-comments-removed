@@ -232,6 +232,11 @@ GuardObjectGroupNotPretenured
 \
 _
 (
+GuardFunctionHasJitEntry
+)
+\
+_
+(
 LoadObject
 )
 \
