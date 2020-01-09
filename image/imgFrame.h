@@ -615,6 +615,16 @@ bool
 val
 )
 ;
+bool
+ShouldRecycle
+(
+)
+const
+{
+return
+mShouldRecycle
+;
+}
 void
 SetOptimizable
 (
