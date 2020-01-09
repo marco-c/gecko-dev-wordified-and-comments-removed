@@ -364,6 +364,12 @@ callback
 )
 {
 }
+blockRequest
+(
+filter
+)
+{
+}
 setPreferences
 (
 )
