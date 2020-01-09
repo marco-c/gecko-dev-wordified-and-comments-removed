@@ -11418,6 +11418,11 @@ IsClosedOrClosing
 )
 |
 |
+IsClosedOrClosing
+(
+)
+|
+|
 aOpener
 -
 >
