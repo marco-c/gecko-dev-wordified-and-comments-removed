@@ -141,6 +141,17 @@ int32_t
 aY
 )
 ;
+void
+Announce
+(
+const
+nsString
+&
+aAnnouncement
+uint16_t
+aPriority
+)
+;
 int32_t
 CaretLineNumber
 (

@@ -4,6 +4,13 @@ strict
 "
 ;
 const
+EVENT_ANNOUNCEMENT
+=
+nsIAccessibleEvent
+.
+EVENT_ANNOUNCEMENT
+;
+const
 EVENT_DOCUMENT_LOAD_COMPLETE
 =
 nsIAccessibleEvent
