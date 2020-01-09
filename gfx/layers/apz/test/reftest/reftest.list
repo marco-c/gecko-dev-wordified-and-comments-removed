@@ -67,9 +67,6 @@ v
 ref
 .
 html
-#
-bug
-1392259
 fuzzy
 -
 if
@@ -218,9 +215,6 @@ rtl
 ref
 .
 html
-#
-bug
-1392259
 fuzzy
 -
 if
