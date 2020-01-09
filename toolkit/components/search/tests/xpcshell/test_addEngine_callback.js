@@ -273,7 +273,7 @@ equal
 errorCode
 Ci
 .
-nsISearchInstallCallback
+nsISearchService
 .
 ERROR_DUPLICATE_ENGINE
 )
@@ -361,7 +361,7 @@ equal
 errorCode
 Ci
 .
-nsISearchInstallCallback
+nsISearchService
 .
 ERROR_UNKNOWN_FAILURE
 )

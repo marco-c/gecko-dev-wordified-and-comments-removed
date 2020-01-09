@@ -5512,7 +5512,7 @@ errorCode
 =
 Ci
 .
-nsISearchInstallCallback
+nsISearchService
 .
 ERROR_DUPLICATE_ENGINE
 )
