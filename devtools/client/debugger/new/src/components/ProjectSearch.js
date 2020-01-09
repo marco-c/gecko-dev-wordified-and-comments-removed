@@ -244,6 +244,9 @@ number
 column
 :
 number
+matchIndex
+:
+number
 match
 :
 string
@@ -1429,15 +1432,6 @@ if
 results
 .
 length
-&
-&
-status
-=
-=
-=
-statusType
-.
-done
 )
 {
 return

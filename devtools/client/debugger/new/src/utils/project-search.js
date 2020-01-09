@@ -32,7 +32,7 @@ Match
 const
 {
 value
-column
+matchIndex
 match
 }
 =
@@ -78,7 +78,7 @@ value
 slice
 (
 0
-column
+matchIndex
 )
 }
 <
@@ -105,7 +105,7 @@ value
 .
 substr
 (
-column
+matchIndex
 len
 )
 }
@@ -133,7 +133,7 @@ value
 .
 slice
 (
-column
+matchIndex
 +
 len
 value
