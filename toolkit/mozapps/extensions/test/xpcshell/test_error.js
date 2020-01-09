@@ -210,6 +210,8 @@ let
 xpi
 =
 await
+AddonTestUtils
+.
 createTempXPIFile
 (
 {

@@ -433,17 +433,6 @@ BookmarkProblemData
 "
 ]
 "
-BootstrapMonitor
-.
-jsm
-"
-:
-[
-"
-monitor
-"
-]
-"
 browser
 -
 loader
