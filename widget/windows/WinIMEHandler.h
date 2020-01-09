@@ -333,6 +333,10 @@ sLastContextActionCause
 ;
 static
 bool
+sMaybeEditable
+;
+static
+bool
 sForceDisableCurrentIMM_IME
 ;
 static
@@ -346,6 +350,15 @@ sNativeCaretIsCreated
 static
 bool
 sHasNativeCaretBeenRequested
+;
+static
+bool
+MaybeCreateNativeCaret
+(
+nsWindow
+*
+aWindow
+)
 ;
 #
 ifdef
