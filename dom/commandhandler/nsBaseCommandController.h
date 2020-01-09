@@ -54,12 +54,6 @@ nsICommandController
 {
 public
 :
-nsBaseCommandController
-(
-)
-=
-delete
-;
 explicit
 nsBaseCommandController
 (
