@@ -4797,11 +4797,14 @@ application
 if
 rust_version
 <
+LooseVersion
+(
 '
 1
 .
 33
 '
+)
 :
                 
 arm_target
