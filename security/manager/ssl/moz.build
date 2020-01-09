@@ -333,6 +333,11 @@ DER
 jsm
 '
 '
+RemoteSecuritySettings
+.
+jsm
+'
+'
 X509
 .
 jsm
