@@ -158,7 +158,7 @@ getDir
 name
 )
 {
-let
+const
 uAppDataPath
 =
 Services
@@ -199,7 +199,7 @@ getPendingMinidump
 id
 )
 {
-let
+const
 pendingDir
 =
 getDir
@@ -324,7 +324,7 @@ disableReporting
 return
 ;
 }
-let
+const
 dumpID
 =
 aSubject

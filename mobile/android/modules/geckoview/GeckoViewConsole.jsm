@@ -259,7 +259,7 @@ aMessage
 .
 wrappedJSObject
 ;
-let
+const
 mappedArguments
 =
 Array
@@ -275,7 +275,7 @@ formatResult
 this
 )
 ;
-let
+const
 joinedArguments
 =
 Array
@@ -309,7 +309,7 @@ warn
 "
 )
 {
-let
+const
 flag
 =
 (
@@ -335,7 +335,7 @@ nsIScriptError
 warningFlag
 )
 ;
-let
+const
 consoleMsg
 =
 Cc
@@ -397,7 +397,7 @@ trace
 "
 )
 {
-let
+const
 bundle
 =
 Services
@@ -421,14 +421,14 @@ properties
 "
 )
 ;
-let
+const
 args
 =
 aMessage
 .
 arguments
 ;
-let
+const
 filename
 =
 this
@@ -443,7 +443,7 @@ args
 filename
 )
 ;
-let
+const
 functionName
 =
 args
@@ -465,7 +465,7 @@ anonymousFunction
 "
 )
 ;
-let
+const
 lineNumber
 =
 args
@@ -512,7 +512,7 @@ function
 aFrame
 )
 {
-let
+const
 functionName
 =
 aFrame
@@ -593,7 +593,7 @@ aMessage
 arguments
 )
 {
-let
+const
 bundle
 =
 Services
@@ -617,7 +617,7 @@ properties
 "
 )
 ;
-let
+const
 body
 =
 bundle
@@ -667,7 +667,7 @@ aMessage
 arguments
 )
 {
-let
+const
 bundle
 =
 Services
@@ -691,7 +691,7 @@ properties
 "
 )
 ;
-let
+const
 body
 =
 bundle
@@ -834,7 +834,7 @@ output
 "
 "
 ;
-let
+const
 type
 =
 this
@@ -927,7 +927,7 @@ abbreviateSourceURL
 aSourceURL
 )
 {
-let
+const
 hookIndex
 =
 aSourceURL
@@ -986,7 +986,7 @@ length
 1
 )
 ;
-let
+const
 slashIndex
 =
 aSourceURL

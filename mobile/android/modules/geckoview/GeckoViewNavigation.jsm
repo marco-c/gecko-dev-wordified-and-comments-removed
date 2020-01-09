@@ -1479,7 +1479,7 @@ onEnable
 debug
 onEnable
 ;
-let
+const
 flags
 =
 Ci
@@ -1618,7 +1618,7 @@ ex
 )
 {
 }
-let
+const
 message
 =
 {

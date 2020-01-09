@@ -96,7 +96,7 @@ maxWait
 {
 for
 (
-let
+const
 fn
 of
 fns
@@ -135,7 +135,7 @@ function
 (
 )
 {
-let
+const
 startTime
 =
 Cu
@@ -154,7 +154,7 @@ nextDue
 ;
 for
 (
-let
+const
 init
 of
 this
@@ -282,7 +282,7 @@ fn
 wait
 )
 {
-let
+const
 init
 =
 {
@@ -394,7 +394,7 @@ name
 wait
 )
 {
-let
+const
 init
 =
 this
@@ -479,7 +479,7 @@ maybeInit
 (
 )
 ;
-let
+const
 newProp
 =
 Object

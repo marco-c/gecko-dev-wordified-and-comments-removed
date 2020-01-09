@@ -80,7 +80,7 @@ onInit
 (
 )
 {
-let
+const
 tab
 =
 new

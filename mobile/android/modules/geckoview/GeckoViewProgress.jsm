@@ -328,7 +328,7 @@ aState
 aBrowser
 )
 {
-let
+const
 identityMode
 =
 this
@@ -338,7 +338,7 @@ getIdentityMode
 aState
 )
 ;
-let
+const
 mixedDisplay
 =
 this
@@ -348,7 +348,7 @@ getMixedDisplayMode
 aState
 )
 ;
-let
+const
 mixedActive
 =
 this
@@ -358,7 +358,7 @@ getMixedActiveMode
 aState
 )
 ;
-let
+const
 result
 =
 {
@@ -507,7 +507,7 @@ uri
 host
 ;
 }
-let
+const
 cert
 =
 aBrowser
@@ -609,7 +609,7 @@ onEnable
 debug
 onEnable
 ;
-let
+const
 flags
 =
 Ci
@@ -956,7 +956,7 @@ _inProgress
 =
 false
 ;
-let
+const
 message
 =
 {
@@ -1025,7 +1025,7 @@ _hostChanged
 =
 false
 ;
-let
+const
 identity
 =
 IdentityHandler
@@ -1038,7 +1038,7 @@ this
 browser
 )
 ;
-let
+const
 message
 =
 {
