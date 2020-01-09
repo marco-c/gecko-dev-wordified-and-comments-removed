@@ -824,6 +824,15 @@ windows
 *
 :
 1
+windows10
+-
+64
+-
+ccov
+/
+debug
+:
+6
 macosx
 .
 *
