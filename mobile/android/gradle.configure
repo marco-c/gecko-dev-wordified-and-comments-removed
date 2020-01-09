@@ -1975,7 +1975,7 @@ return
 '
 geckoview
 :
-javadocJar
+javadocCopyJar
 {
 geckoview
 .
