@@ -301,12 +301,6 @@ newValue
 {
 if
 (
-!
-this
-.
-isConnectedAndReady
-|
-|
 oldValue
 =
 =
