@@ -95,6 +95,9 @@ private
 void
 Destroy
 (
+Renderer
+*
+aRenderer
 )
 ;
 void
