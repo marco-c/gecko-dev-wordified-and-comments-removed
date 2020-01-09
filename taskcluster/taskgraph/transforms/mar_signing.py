@@ -99,6 +99,40 @@ SIGNING_FORMATS
 {
     
 '
+mar
+-
+signing
+-
+autograph
+-
+stage
+'
+:
+{
+        
+'
+target
+.
+complete
+.
+mar
+'
+:
+[
+'
+autograph_stage_mar384
+'
+]
+    
+}
+    
+'
+default
+'
+:
+{
+        
+'
 target
 .
 complete
@@ -111,7 +145,7 @@ mar
 autograph_hash_only_mar384
 '
 ]
-    
+        
 '
 target
 .
@@ -127,6 +161,8 @@ mar
 mar
 '
 ]
+    
+}
 }
 transforms
 =
@@ -380,6 +416,7 @@ def
 generate_complete_artifacts
 (
 job
+kind
 )
 :
     
@@ -387,6 +424,19 @@ upstream_artifacts
 =
 [
 ]
+    
+if
+kind
+not
+in
+SIGNING_FORMATS
+:
+        
+kind
+=
+'
+default
+'
     
 for
 artifact
@@ -411,6 +461,9 @@ if
 basename
 in
 SIGNING_FORMATS
+[
+kind
+]
 :
             
 upstream_artifacts
@@ -466,6 +519,9 @@ formats
 "
 :
 SIGNING_FORMATS
+[
+kind
+]
 [
 basename
 ]
@@ -530,15 +586,15 @@ treeherder
 )
         
 treeherder
-[
+.
+setdefault
+(
+            
 '
 symbol
 '
-]
-=
 join_symbol
 (
-            
 job
 .
 get
@@ -552,56 +608,13 @@ group
 ms
 '
 )
-            
 locale
 or
 '
 N
 '
-        
 )
         
-dep_th_platform
-=
-dep_job
-.
-task
-.
-get
-(
-'
-extra
-'
-{
-}
-)
-.
-get
-(
-            
-'
-treeherder
-'
-{
-}
-)
-.
-get
-(
-'
-machine
-'
-{
-}
-)
-.
-get
-(
-'
-platform
-'
-'
-'
 )
         
 label
@@ -857,6 +870,9 @@ upstream_artifacts
 generate_complete_artifacts
 (
 dep_job
+config
+.
+kind
 )
         
 build_platform
@@ -874,6 +890,13 @@ build_platform
         
 is_nightly
 =
+job
+.
+get
+(
+'
+nightly
+'
 dep_job
 .
 attributes
@@ -883,6 +906,7 @@ get
 '
 nightly
 '
+)
 )
         
 signing_cert_scope
@@ -1061,6 +1085,18 @@ on
 projects
 '
 :
+job
+.
+get
+(
+'
+run
+-
+on
+-
+projects
+'
+                                       
 dep_job
 .
 attributes
@@ -1070,6 +1106,7 @@ get
 '
 run_on_projects
 '
+)
 )
             
 '
