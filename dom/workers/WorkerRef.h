@@ -135,7 +135,6 @@ Create
 WorkerPrivate
 *
 aWorkerPrivate
-const
 std
 :
 :
@@ -145,6 +144,7 @@ void
 (
 )
 >
+&
 &
 aCallback
 =
@@ -211,7 +211,6 @@ const
 char
 *
 aName
-const
 std
 :
 :
@@ -221,6 +220,7 @@ void
 (
 )
 >
+&
 &
 aCallback
 =
