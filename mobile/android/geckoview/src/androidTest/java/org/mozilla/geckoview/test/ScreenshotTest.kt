@@ -188,11 +188,13 @@ rule
 GeckoSessionTestRule
 .
 WithDisplay
+private
 const
 val
 SCREEN_HEIGHT
 =
 100
+private
 const
 val
 SCREEN_WIDTH
