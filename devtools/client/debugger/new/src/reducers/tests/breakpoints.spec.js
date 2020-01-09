@@ -163,6 +163,12 @@ sourceId
 :
 sourceId
 }
+{
+options
+:
+{
+}
+}
 )
 }
 ;
@@ -187,6 +193,12 @@ this
 -
 source
 "
+}
+{
+options
+:
+{
+}
 }
 )
 }
@@ -328,6 +340,10 @@ sourceId
 :
 generatedSourceId
 }
+options
+:
+{
+}
 }
 )
 }
@@ -372,6 +388,10 @@ this
 -
 source
 "
+}
+options
+:
+{
 }
 }
 )
