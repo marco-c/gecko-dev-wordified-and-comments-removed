@@ -434,7 +434,14 @@ branch
 branch
 .
 slug
+preferences
+:
+{
+[
 preferenceName
+]
+:
+{
 preferenceValue
 :
 branch
@@ -442,6 +449,8 @@ branch
 value
 preferenceBranchType
 preferenceType
+}
+}
 experimentType
 }
 )
