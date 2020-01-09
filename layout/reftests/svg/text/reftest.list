@@ -245,7 +245,7 @@ webrender
 &
 !
 gtkWidget
-122
+119
 -
 137
 220
@@ -284,6 +284,18 @@ dwrite
 0
 -
 131
+)
+fuzzy
+-
+if
+(
+cocoaWidget
+0
+-
+143
+0
+-
+124
 )
 fuzzy
 -
@@ -4494,7 +4506,7 @@ webrender
 &
 !
 gtkWidget
-127
+125
 -
 148
 221
@@ -4680,7 +4692,7 @@ webrender
 &
 !
 gtkWidget
-127
+125
 -
 148
 221
