@@ -12429,7 +12429,7 @@ script
 zone
 -
 >
-cellIter
+cellIterUnsafe
 <
 JSScript
 >
@@ -12465,7 +12465,7 @@ group
 zone
 -
 >
-cellIter
+cellIterUnsafe
 <
 ObjectGroup
 >
@@ -20440,7 +20440,7 @@ i
 zone
 -
 >
-cellIter
+cellIterUnsafe
 <
 TenuredCell
 >
@@ -20594,7 +20594,7 @@ i
 zone
 -
 >
-cellIter
+cellIterUnsafe
 <
 JSObject
 >
@@ -21475,7 +21475,7 @@ baseShape
 zone
 -
 >
-cellIter
+cellIterUnsafe
 <
 BaseShape
 >
@@ -40535,7 +40535,7 @@ zone
 )
 -
 >
-cellIter
+cellIterUnsafe
 <
 JSScript
 >
@@ -40617,7 +40617,7 @@ zone
 )
 -
 >
-cellIter
+cellIterUnsafe
 <
 ObjectGroup
 >

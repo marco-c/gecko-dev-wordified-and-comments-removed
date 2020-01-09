@@ -766,7 +766,7 @@ for
 auto
 iter
 =
-cellIter
+cellIterUnsafe
 <
 JSScript
 >
@@ -1248,7 +1248,7 @@ for
 auto
 script
 =
-cellIter
+cellIterUnsafe
 <
 JSScript
 >
