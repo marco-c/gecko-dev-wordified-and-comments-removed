@@ -134,6 +134,13 @@ headers
 set
 (
 origin_policy_header
+"
+policy
+=
+%
+s
+"
+%
 response_policy
 )
     
