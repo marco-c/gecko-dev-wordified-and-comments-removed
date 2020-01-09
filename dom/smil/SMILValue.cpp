@@ -187,6 +187,7 @@ SMILValue
 &
 aVal
 )
+noexcept
 :
 mU
 (
@@ -226,6 +227,7 @@ SMILValue
 &
 aVal
 )
+noexcept
 {
 if
 (
