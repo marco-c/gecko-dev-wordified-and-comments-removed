@@ -129,6 +129,8 @@ actions
 closeTab
 (
 fooSource
+.
+source
 )
 )
 ;
@@ -276,6 +278,8 @@ actions
 closeTab
 (
 fooSource
+.
+source
 )
 )
 ;
@@ -392,6 +396,8 @@ actions
 closeTab
 (
 fooSource
+.
+source
 )
 )
 ;
@@ -540,6 +546,8 @@ actions
 closeTab
 (
 barSource
+.
+source
 )
 )
 ;

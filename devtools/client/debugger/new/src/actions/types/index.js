@@ -298,10 +298,6 @@ sourceId
 ?
 :
 string
-+
-thread
-:
-string
 |
 }
 ;
@@ -333,10 +329,6 @@ boolean
 +
 sourceId
 ?
-:
-string
-+
-thread
 :
 string
 |
@@ -728,6 +720,10 @@ SET_WORKERS
 workers
 :
 WorkerList
++
+mainThread
+:
+string
 |
 }
 |

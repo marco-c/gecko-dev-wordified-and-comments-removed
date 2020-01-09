@@ -477,7 +477,7 @@ selectedFrame
 id
 thread
 :
-source
+selectedFrame
 .
 thread
 }

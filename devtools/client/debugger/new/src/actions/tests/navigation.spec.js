@@ -143,6 +143,15 @@ resolve
 [
 ]
 )
+getMainThread
+:
+(
+)
+=
+>
+"
+FakeThread
+"
 }
 )
 ;

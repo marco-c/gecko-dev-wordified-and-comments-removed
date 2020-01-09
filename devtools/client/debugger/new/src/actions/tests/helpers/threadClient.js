@@ -224,7 +224,11 @@ resolve
 )
 sourceContents
 :
-sourceId
+(
+{
+source
+}
+)
 =
 >
 new
@@ -243,7 +247,7 @@ sources
 .
 includes
 (
-sourceId
+source
 )
 )
 {
@@ -251,7 +255,7 @@ resolve
 (
 createSource
 (
-sourceId
+source
 )
 )
 ;
@@ -262,7 +266,7 @@ unknown
 source
 :
 {
-sourceId
+source
 }
 )
 ;
@@ -333,7 +337,11 @@ condition
 }
 sourceContents
 :
-sourceId
+(
+{
+source
+}
+)
 =
 >
 Promise
@@ -342,7 +350,7 @@ resolve
 (
 createSource
 (
-sourceId
+source
 )
 )
 }
@@ -407,7 +415,9 @@ sourceContents
 :
 function
 (
-sourceId
+{
+source
+}
 )
 {
 return
@@ -427,7 +437,7 @@ sources
 .
 includes
 (
-sourceId
+source
 )
 )
 {
@@ -435,7 +445,7 @@ resolve
 (
 createSource
 (
-sourceId
+source
 )
 )
 ;
@@ -446,7 +456,7 @@ unknown
 source
 :
 {
-sourceId
+source
 }
 )
 ;

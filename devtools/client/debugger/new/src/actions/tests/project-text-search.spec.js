@@ -38,7 +38,9 @@ sourceContents
 :
 function
 (
-sourceId
+{
+source
+}
 )
 {
 return
@@ -54,7 +56,7 @@ reject
 {
 switch
 (
-sourceId
+source
 )
 {
 case
@@ -237,7 +239,7 @@ unknown
 source
 :
 {
-sourceId
+source
 }
 )
 ;
@@ -535,6 +537,8 @@ async
 >
 [
 source2
+.
+source
 .
 url
 ]
