@@ -1277,16 +1277,6 @@ mTime
 =
 aStartTime
 ;
-MOZ_ASSERT
-(
-!
-mTime
-.
-IsNegative
-(
-)
-)
-;
 return
 mTime
 .
