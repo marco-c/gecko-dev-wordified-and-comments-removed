@@ -94,6 +94,8 @@ document
 getAnonymousElementByAttribute
 (
 gURLBar
+.
+textbox
 "
 anonid
 "
