@@ -318,7 +318,9 @@ SEARCH_SERVICE_COUNTRY_FETCH_TIME_MS
 0
 )
 ;
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 geoip

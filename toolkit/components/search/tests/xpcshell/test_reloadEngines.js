@@ -103,7 +103,9 @@ search
 init
 (
 )
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 ensure
@@ -309,7 +311,9 @@ let
 otherPromises
 =
 [
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 ensure
@@ -324,7 +328,9 @@ done
 promiseAfterCache
 (
 )
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 engine
@@ -586,7 +592,9 @@ all
 asyncReInit
 (
 )
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 ensure

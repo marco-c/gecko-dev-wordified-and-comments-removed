@@ -232,7 +232,9 @@ timeout
 let
 promiseXHRStarted
 =
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 geoip
@@ -354,7 +356,9 @@ timeout
 =
 10
 ;
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 geoip

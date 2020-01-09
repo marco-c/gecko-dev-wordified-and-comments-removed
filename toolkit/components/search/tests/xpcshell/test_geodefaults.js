@@ -769,7 +769,9 @@ promiseAfterCache
 let
 unInitPromise
 =
-waitForSearchNotification
+SearchTestUtils
+.
+promiseSearchNotification
 (
 "
 uninit
