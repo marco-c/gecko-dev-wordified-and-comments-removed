@@ -165,9 +165,12 @@ text
 ;
 is
 (
+hud
+.
+jsterm
+.
 getInputValue
 (
-hud
 )
 jstermHistory
 [
@@ -569,9 +572,12 @@ onJsTermValueChanged
 ;
 is
 (
+hud
+.
+jsterm
+.
 getInputValue
 (
-hud
 )
 expectedJsTermInputValue
 "

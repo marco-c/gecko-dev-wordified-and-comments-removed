@@ -1408,9 +1408,7 @@ then
 >
 {
 const
-{
-hud
-}
+panel
 =
 this
 .
@@ -1422,6 +1420,15 @@ getPanel
 webconsole
 "
 )
+;
+const
+jsterm
+=
+panel
+.
+hud
+.
+jsterm
 ;
 const
 evalString
@@ -1490,8 +1497,6 @@ nodeFront
 actorID
 }
 ;
-hud
-.
 jsterm
 .
 requestEvaluation
@@ -1508,7 +1513,7 @@ res
 =
 >
 {
-hud
+jsterm
 .
 setInputValue
 (

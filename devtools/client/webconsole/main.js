@@ -38,8 +38,9 @@ WebConsoleWrapper
 function
 (
 parentNode
-webConsoleUI
+hud
 toolbox
+owner
 document
 )
 {
@@ -83,8 +84,9 @@ new
 WebConsoleWrapper
 (
 parentNode
-webConsoleUI
+hud
 toolbox
+owner
 document
 )
 ;

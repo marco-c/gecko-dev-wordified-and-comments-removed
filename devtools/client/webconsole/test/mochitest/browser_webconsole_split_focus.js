@@ -218,7 +218,7 @@ visible
 ;
 const
 {
-hud
+jsterm
 }
 =
 toolbox
@@ -229,12 +229,14 @@ getPanel
 webconsole
 "
 )
+.
+hud
 ;
 ok
 (
-isInputFocused
+isJstermFocused
 (
-hud
+jsterm
 )
 "
 Split

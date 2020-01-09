@@ -72,6 +72,8 @@ await
 setInputValueForAutocompletion
 (
 hud
+.
+jsterm
 "
 doc
 "

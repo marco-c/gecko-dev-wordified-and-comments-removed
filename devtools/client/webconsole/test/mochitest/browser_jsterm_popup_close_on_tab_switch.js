@@ -145,9 +145,12 @@ opened
 "
 )
 ;
+hud
+.
+jsterm
+.
 setInputValue
 (
-hud
 "
 sc
 "

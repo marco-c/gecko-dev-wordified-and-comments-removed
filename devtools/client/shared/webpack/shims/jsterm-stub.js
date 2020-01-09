@@ -237,7 +237,7 @@ execute
 }
 ;
 }
-_setValue
+setInputValue
 (
 newValue
 )
@@ -251,7 +251,7 @@ value
 newValue
 ;
 }
-_getValue
+getInputValue
 (
 )
 {
@@ -287,7 +287,7 @@ executeString
 |
 this
 .
-_getValue
+getInputValue
 (
 )
 ;
@@ -451,7 +451,7 @@ onResult
 ;
 this
 .
-_setValue
+setInputValue
 (
 "
 "

@@ -541,9 +541,11 @@ esc
 ;
 ok
 (
-isInputFocused
+isJstermFocused
 (
 hud
+.
+jsterm
 )
 "
 console

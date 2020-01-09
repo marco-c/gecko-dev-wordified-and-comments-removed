@@ -7443,6 +7443,12 @@ doc
 =
 hud
 .
+ui
+.
+wrapper
+.
+owner
+.
 chromeWindow
 .
 document
@@ -7470,6 +7476,12 @@ const
 doc
 =
 hud
+.
+ui
+.
+wrapper
+.
+owner
 .
 chromeWindow
 .

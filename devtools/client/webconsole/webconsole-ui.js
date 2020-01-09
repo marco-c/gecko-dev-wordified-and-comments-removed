@@ -210,14 +210,14 @@ WebConsoleUI
 {
 constructor
 (
-hud
+webConsoleOwner
 )
 {
 this
 .
-hud
+owner
 =
-hud
+webConsoleOwner
 ;
 this
 .
@@ -225,7 +225,7 @@ hudId
 =
 this
 .
-hud
+owner
 .
 hudId
 ;
@@ -235,7 +235,7 @@ isBrowserConsole
 =
 this
 .
-hud
+owner
 .
 _browserConsole
 ;
@@ -245,7 +245,7 @@ window
 =
 this
 .
-hud
+owner
 .
 iframeWindow
 ;
@@ -481,7 +481,7 @@ getToolbox
 (
 this
 .
-hud
+owner
 .
 target
 )
@@ -538,7 +538,7 @@ window
 =
 this
 .
-hud
+owner
 =
 this
 .
@@ -737,7 +737,7 @@ logWarningAboutReplacedAPI
 return
 this
 .
-hud
+owner
 .
 target
 .
@@ -843,7 +843,7 @@ WebConsoleConnectionProxy
 this
 this
 .
-hud
+owner
 .
 target
 )
@@ -949,7 +949,7 @@ getToolbox
 (
 this
 .
-hud
+owner
 .
 target
 )
@@ -970,6 +970,9 @@ this
 outputNode
 this
 toolbox
+this
+.
+owner
 this
 .
 document
@@ -1433,14 +1436,14 @@ if
 (
 this
 .
-hud
+owner
 .
 onLocationChange
 )
 {
 this
 .
-hud
+owner
 .
 onLocationChange
 (

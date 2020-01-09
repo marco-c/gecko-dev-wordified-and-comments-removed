@@ -618,7 +618,7 @@ focus
 ;
 webConsoleUI
 .
-hud
+jsterm
 .
 setInputValue
 (
