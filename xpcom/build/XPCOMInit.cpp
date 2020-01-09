@@ -2817,17 +2817,6 @@ if
 observerService
 )
 {
-mozilla
-:
-:
-KillClearOnShutdown
-(
-ShutdownPhase
-:
-:
-ShutdownLoaders
-)
-;
 observerService
 -
 >
