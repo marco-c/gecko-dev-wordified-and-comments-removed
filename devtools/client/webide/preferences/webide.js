@@ -128,15 +128,3 @@ busyTimeout
 10000
 )
 ;
-pref
-(
-"
-devtools
-.
-webide
-.
-showDeprecationMessage
-"
-true
-)
-;

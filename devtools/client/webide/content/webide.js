@@ -804,9 +804,11 @@ getBoolPref
 "
 devtools
 .
-webide
+aboutdebugging
 .
-showDeprecationMessage
+new
+-
+enabled
 "
 false
 )
