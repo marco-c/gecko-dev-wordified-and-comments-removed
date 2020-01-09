@@ -967,6 +967,11 @@ webconsole
 -
 output
 "
+role
+:
+"
+main
+"
 onContextMenu
 :
 this
