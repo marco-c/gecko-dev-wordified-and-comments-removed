@@ -121,13 +121,7 @@ depth_
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 stackDepth
-(
-)
 ;
 state_
 =
@@ -166,13 +160,7 @@ MOZ_ASSERT
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 stackDepth
-(
-)
 =
 =
 depth_

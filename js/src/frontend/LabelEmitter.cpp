@@ -116,10 +116,6 @@ name
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 offset
 (
 )
@@ -167,10 +163,6 @@ labelpc
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 code
 (
 top_
@@ -182,10 +174,6 @@ offset
 bce_
 -
 >
-bytecodeSection
-(
-)
-.
 lastNonJumpTargetOffset
 (
 )
