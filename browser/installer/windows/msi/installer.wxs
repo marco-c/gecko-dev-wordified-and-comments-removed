@@ -135,13 +135,11 @@ Codepage
 Version
 =
 "
-0
+(
+var
 .
-0
-.
-0
-.
-0
+EmbeddedVersionCode
+)
 "
 Id
 =
