@@ -1622,7 +1622,15 @@ webconsole
 "
 front
 :
-null
+"
+devtools
+/
+shared
+/
+fronts
+/
+webconsole
+"
 }
 {
 types
