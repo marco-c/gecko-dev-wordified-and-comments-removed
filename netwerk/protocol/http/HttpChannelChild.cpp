@@ -3086,6 +3086,10 @@ listener
 mListener
 )
 ;
+mOnStartRequestCalled
+=
+true
+;
 rv
 =
 listener
@@ -5609,6 +5613,10 @@ listener
 mListener
 )
 ;
+mOnStopRequestCalled
+=
+true
+;
 listener
 -
 >
@@ -7099,6 +7107,10 @@ listener
 =
 mListener
 ;
+mOnStartRequestCalled
+=
+true
+;
 listener
 -
 >
@@ -7178,6 +7190,10 @@ listener
 =
 mListener
 ;
+mOnStopRequestCalled
+=
+true
+;
 listener
 -
 >
@@ -7187,11 +7203,11 @@ this
 mStatus
 )
 ;
+}
 mOnStopRequestCalled
 =
 true
 ;
-}
 gHttpHandler
 -
 >

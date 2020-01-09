@@ -12709,6 +12709,10 @@ listener
 =
 mListener
 ;
+mOnStartRequestCalled
+=
+true
+;
 listener
 -
 >
@@ -12717,11 +12721,11 @@ OnStartRequest
 this
 )
 ;
+}
 mOnStartRequestCalled
 =
 true
 ;
-}
 mIsPending
 =
 false
@@ -12743,6 +12747,10 @@ listener
 =
 mListener
 ;
+mOnStopRequestCalled
+=
+true
+;
 listener
 -
 >
@@ -12752,11 +12760,11 @@ this
 mStatus
 )
 ;
+}
 mOnStopRequestCalled
 =
 true
 ;
-}
 gHttpHandler
 -
 >
