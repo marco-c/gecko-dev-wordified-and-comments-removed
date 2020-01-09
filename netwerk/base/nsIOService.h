@@ -574,6 +574,11 @@ void
 aFunc
 )
 ;
+int32_t
+SocketProcessPid
+(
+)
+;
 friend
 SocketProcessMemoryReporter
 ;
