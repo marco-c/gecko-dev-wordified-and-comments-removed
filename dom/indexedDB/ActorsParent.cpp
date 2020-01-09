@@ -70695,6 +70695,12 @@ rv
 )
 )
 {
+REPORT_TELEMETRY_INIT_ERR
+(
+kExternalError
+IDB_RemoveDBFiles
+)
+;
 return
 NS_ERROR_UNEXPECTED
 ;

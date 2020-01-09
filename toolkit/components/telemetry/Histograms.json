@@ -133685,6 +133685,9 @@ IDB_GetWalFileSize
 "
 IDB_GetUsage
 "
+"
+IDB_RemoveDBFiles
+"
 ]
 "
 keyed
