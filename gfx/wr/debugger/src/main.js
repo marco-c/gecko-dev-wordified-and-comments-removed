@@ -16,7 +16,7 @@ import
 '
 buefy
 /
-lib
+dist
 /
 buefy
 .
