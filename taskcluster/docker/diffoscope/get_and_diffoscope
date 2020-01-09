@@ -144,7 +144,7 @@ apk
 )
 curl
 -
-sL
+L
 "
 ORIG_URL
 "
@@ -154,7 +154,7 @@ a
 zip
 curl
 -
-sL
+L
 "
 NEW_URL
 "
@@ -188,7 +188,7 @@ bz2
 )
 curl
 -
-sL
+L
 "
 ORIG_URL
 "
@@ -202,7 +202,7 @@ jxf
 -
 curl
 -
-sL
+L
 "
 NEW_URL
 "
@@ -257,7 +257,7 @@ MOZ_TOOLCHAINS
 do
 curl
 -
-sL
+L
 queue_base
 /
 task
@@ -323,7 +323,7 @@ worker
 bin
 curl
 -
-sL
+L
 "
 ORIG_URL
 "
@@ -333,7 +333,7 @@ a
 dmg
 curl
 -
-sL
+L
 "
 NEW_URL
 "
