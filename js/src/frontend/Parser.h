@@ -4681,6 +4681,13 @@ newDirectives
 bool
 matchOrInsertSemicolon
 (
+Modifier
+modifier
+=
+TokenStream
+:
+:
+SlashIsRegExp
 )
 ;
 bool
