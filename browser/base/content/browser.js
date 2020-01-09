@@ -21209,6 +21209,17 @@ uri
 {
 if
 (
+!
+this
+.
+_searchInitComplete
+)
+{
+return
+;
+}
+if
+(
 browser
 .
 engines
