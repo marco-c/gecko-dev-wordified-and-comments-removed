@@ -2115,10 +2115,6 @@ incMajorGcNumber
 +
 majorGCNumber
 ;
-+
-+
-number
-;
 }
 int64_t
 defaultSliceBudget

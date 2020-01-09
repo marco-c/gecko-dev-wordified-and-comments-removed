@@ -35194,10 +35194,6 @@ GCReason
 DESTROY_RUNTIME
 )
 ;
-number
-+
-+
-;
 initialState
 =
 incrementalState
@@ -37378,6 +37374,13 @@ PhaseKind
 :
 EVICT_NURSERY_FOR_MAJOR_GC
 )
+;
+}
+else
+{
++
++
+number
 ;
 }
 AutoGCSession
