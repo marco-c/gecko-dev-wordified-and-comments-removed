@@ -11,6 +11,13 @@ setup
 (
 )
 {
+if
+(
+AppConstants
+.
+MOZ_ALLOW_LEGACY_EXTENSIONS
+)
+{
 await
 SpecialPowers
 .
@@ -34,6 +41,7 @@ true
 }
 )
 ;
+}
 }
 )
 ;
