@@ -927,7 +927,9 @@ if
 isinstance
 (
 dest
-basestring
+six
+.
+string_types
 )
 :
             
@@ -1739,7 +1741,9 @@ not
 isinstance
 (
 dest
-basestring
+six
+.
+string_types
 )
 :
             
@@ -1768,7 +1772,9 @@ assert
 isinstance
 (
 dest
-basestring
+six
+.
+string_types
 )
         
 if
@@ -1993,7 +1999,9 @@ assert
 isinstance
 (
 dest
-basestring
+six
+.
+string_types
 )
         
 if
@@ -2360,7 +2368,9 @@ assert
 isinstance
 (
 dest
-basestring
+six
+.
+string_types
 )
         
 if
@@ -2706,7 +2716,9 @@ if
 isinstance
 (
 dest
-basestring
+six
+.
+string_types
 )
 :
             
@@ -2998,7 +3010,9 @@ if
 isinstance
 (
 dest
-basestring
+six
+.
+string_types
 )
 :
             
