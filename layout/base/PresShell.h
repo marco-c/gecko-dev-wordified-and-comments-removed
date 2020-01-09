@@ -2429,6 +2429,14 @@ WidgetGUIEvent
 aGUIEvent
 )
 ;
+bool
+ComputeElementFromFrame
+(
+WidgetGUIEvent
+*
+aGUIEvent
+)
+;
 RefPtr
 <
 PresShell
