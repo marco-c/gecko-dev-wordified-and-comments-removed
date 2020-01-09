@@ -1289,8 +1289,6 @@ focusedElement
 gFindBar
 .
 _findField
-.
-inputField
 "
 testFindbarSelection
 :
@@ -1676,8 +1674,6 @@ is
 gFindBar
 .
 _findField
-.
-inputField
 .
 value
 "
@@ -2099,8 +2095,6 @@ gFindBar
 .
 _findField
 .
-inputField
-.
 dispatchEvent
 (
 event
@@ -2261,8 +2255,6 @@ focusedElement
 gFindBar
 .
 _findField
-.
-inputField
 "
 testNormalFind
 :
@@ -2574,8 +2566,6 @@ focusedElement
 gFindBar
 .
 _findField
-.
-inputField
 "
 testNormalFindWithComposition
 :
@@ -2634,8 +2624,6 @@ true
 gFindBar
 .
 _findField
-.
-inputField
 .
 focus
 (
@@ -3224,8 +3212,6 @@ focusedElement
 gFindBar
 .
 _findField
-.
-inputField
 "
 testQuickFindLink
 :
@@ -4179,8 +4165,6 @@ focusedElement
 gFindBar
 .
 _findField
-.
-inputField
 "
 testQuickFindText
 :
@@ -4388,8 +4372,6 @@ focusedElement
 gFindBar
 .
 _findField
-.
-inputField
 "
 testFindCountUI
 :

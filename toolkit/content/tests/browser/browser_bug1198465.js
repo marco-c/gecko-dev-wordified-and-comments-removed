@@ -146,8 +146,6 @@ is
 findBar
 .
 _findField
-.
-mInputField
 document
 .
 activeElement
@@ -240,8 +238,6 @@ is
 findBar
 .
 _findField
-.
-mInputField
 document
 .
 activeElement

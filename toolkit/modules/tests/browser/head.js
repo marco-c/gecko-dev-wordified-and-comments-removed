@@ -418,8 +418,6 @@ findbar
 .
 _findField
 .
-inputField
-.
 dispatchEvent
 (
 event
