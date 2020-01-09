@@ -1238,7 +1238,7 @@ if
 !
 aBrowser
 .
-parentNode
+mInitialized
 |
 |
 aBrowser
@@ -1571,7 +1571,7 @@ token
 &
 browser
 .
-parentNode
+mInitialized
 ;
 }
 }
