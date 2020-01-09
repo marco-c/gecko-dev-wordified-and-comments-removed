@@ -7,7 +7,7 @@ mozilla_dom_SVGFEMergeNodeElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "

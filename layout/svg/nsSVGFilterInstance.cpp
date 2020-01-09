@@ -1617,7 +1617,7 @@ aSourceIndices
 {
 AutoTArray
 <
-nsSVGStringInfo
+SVGStringInfo
 2
 >
 sources

@@ -7,7 +7,7 @@ mozilla_dom_SVGFEDropShadowElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "
@@ -215,7 +215,7 @@ GetSourceImageNames
 (
 nsTArray
 <
-nsSVGStringInfo
+SVGStringInfo
 >
 &
 aSources

@@ -705,11 +705,6 @@ nsSVGFeatures
 cpp
 '
 '
-nsSVGFilters
-.
-cpp
-'
-'
 nsSVGInteger
 .
 cpp
@@ -1011,6 +1006,11 @@ cpp
 '
 '
 SVGFilterElement
+.
+cpp
+'
+'
+SVGFilters
 .
 cpp
 '

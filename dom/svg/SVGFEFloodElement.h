@@ -7,7 +7,7 @@ mozilla_dom_SVGFEFloodElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "

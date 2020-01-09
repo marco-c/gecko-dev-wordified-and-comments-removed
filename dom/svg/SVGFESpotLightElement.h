@@ -7,7 +7,7 @@ mozilla_dom_SVGFESpotLightElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "

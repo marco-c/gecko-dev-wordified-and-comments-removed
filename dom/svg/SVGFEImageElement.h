@@ -7,7 +7,7 @@ mozilla_dom_SVGFEImageElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "

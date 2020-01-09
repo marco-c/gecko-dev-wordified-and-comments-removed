@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "
@@ -215,7 +215,7 @@ GetSourceImageNames
 (
 nsTArray
 <
-nsSVGStringInfo
+SVGStringInfo
 >
 &
 aSources

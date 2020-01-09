@@ -407,7 +407,7 @@ GetSourceImageNames
 (
 nsTArray
 <
-nsSVGStringInfo
+SVGStringInfo
 >
 &
 aSources
@@ -417,7 +417,7 @@ aSources
 .
 AppendElement
 (
-nsSVGStringInfo
+SVGStringInfo
 (
 &
 mStringAttributes

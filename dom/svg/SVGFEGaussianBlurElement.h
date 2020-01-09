@@ -7,7 +7,7 @@ mozilla_dom_SVGFEGaussianBlurElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "
@@ -208,7 +208,7 @@ GetSourceImageNames
 (
 nsTArray
 <
-nsSVGStringInfo
+SVGStringInfo
 >
 &
 aSources
