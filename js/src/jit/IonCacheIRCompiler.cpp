@@ -582,6 +582,9 @@ define
 DEFINE_OP
 (
 op
+.
+.
+.
 )
 MOZ_MUST_USE
 bool
@@ -3353,6 +3356,9 @@ define
 DEFINE_OP
 (
 op
+.
+.
+.
 )
 \
 case
