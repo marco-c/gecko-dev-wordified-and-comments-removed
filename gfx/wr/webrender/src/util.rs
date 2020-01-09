@@ -18,9 +18,6 @@ euclid
 :
 :
 {
-Point2D
-Rect
-Size2D
 TypedPoint2D
 TypedRect
 TypedSize2D
