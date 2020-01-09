@@ -81,6 +81,7 @@ isSelectedFrameVisible
 getSelectedSource
 getSelectedFrame
 getSymbols
+getCurrentThread
 }
 from
 "
@@ -404,6 +405,16 @@ return
 ;
 }
 const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
+const
 selectedFrame
 =
 getSelectedFrame
@@ -411,6 +422,7 @@ getSelectedFrame
 getState
 (
 )
+thread
 )
 ;
 if
@@ -475,10 +487,6 @@ frameId
 selectedFrame
 .
 id
-thread
-:
-selectedFrame
-.
 thread
 }
 )

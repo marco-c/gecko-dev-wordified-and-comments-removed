@@ -30,6 +30,7 @@ import
 getSelectedSource
 getSourcesForTabs
 getIsPaused
+getCurrentThread
 }
 from
 "
@@ -1133,6 +1134,10 @@ isPaused
 getIsPaused
 (
 state
+getCurrentThread
+(
+state
+)
 )
 }
 )
