@@ -2211,6 +2211,8 @@ bug
 #
 -
 reftest
+-
+xpcshell
 android
 -
 x86
