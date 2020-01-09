@@ -1463,7 +1463,7 @@ aFrame
 nsDisplayListBuilderMode
 :
 :
-PAINTING
+Painting
 false
 )
 {
@@ -6380,7 +6380,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 )
 ;
@@ -10827,7 +10827,7 @@ PAGES
 ScrollMode
 :
 :
-eSmooth
+Smooth
 nullptr
 nullptr
 nsIScrollableFrame
@@ -10912,7 +10912,7 @@ LINES
 ScrollMode
 :
 :
-eSmooth
+Smooth
 nullptr
 nullptr
 nsIScrollableFrame
@@ -10997,7 +10997,7 @@ LINES
 ScrollMode
 :
 :
-eSmooth
+Smooth
 nullptr
 nullptr
 nsIScrollableFrame
@@ -11064,7 +11064,7 @@ WHOLE
 ScrollMode
 :
 :
-eSmooth
+Smooth
 nullptr
 nullptr
 nsIScrollableFrame
@@ -15168,7 +15168,7 @@ nsPoint
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 }
@@ -16300,7 +16300,7 @@ scrollMode
 ScrollMode
 :
 :
-eInstant
+Instant
 ;
 bool
 autoBehaviorIsSmooth
@@ -16364,7 +16364,7 @@ scrollMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 ;
 }
 aFrameAsScrollable
@@ -21194,7 +21194,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_IGNORE_SUPPRESSION
+IgnoreSuppression
 ;
 if
 (
@@ -21216,7 +21216,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_IN_TRANSFORM
+InTransform
 ;
 }
 if
@@ -21238,7 +21238,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_SYNC_DECODE_IMAGES
+SyncDecodeImages
 ;
 }
 if
@@ -21330,7 +21330,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 ;
 }
 }
@@ -21358,7 +21358,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_HIDE_CARET
+HideCaret
 ;
 }
 if
@@ -21428,7 +21428,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_DOCUMENT_RELATIVE
+DocumentRelative
 ;
 }
 if
@@ -21439,7 +21439,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 )
 &
 &
@@ -21453,7 +21453,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 ;
 }
 nsLayoutUtils
@@ -21471,7 +21471,7 @@ aBackgroundColor
 nsDisplayListBuilderMode
 :
 :
-PAINTING
+Painting
 flags
 )
 ;
@@ -26879,7 +26879,7 @@ GetVisibility
 Visibility
 :
 :
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 )
 )
 {
@@ -27628,7 +27628,7 @@ Some
 OnNonvisible
 :
 :
-DISCARD_IMAGES
+DiscardImages
 )
 )
 ;
@@ -29242,12 +29242,12 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_WIDGET_LAYERS
+WidgetLayers
 |
 PaintFrameFlags
 :
 :
-PAINT_EXISTING_TRANSACTION
+ExistingTransaction
 ;
 if
 (
@@ -29268,7 +29268,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_NO_COMPOSITE
+NoComposite
 ;
 }
 if
@@ -29287,7 +29287,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_SYNC_DECODE_IMAGES
+SyncDecodeImages
 ;
 }
 if
@@ -29301,7 +29301,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_COMPRESSED
+Compressed
 ;
 mNextPaintCompressed
 =
@@ -29333,7 +29333,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_FOR_WEBRENDER
+ForWebRender
 ;
 }
 if
@@ -29353,7 +29353,7 @@ bgcolor
 nsDisplayListBuilderMode
 :
 :
-PAINTING
+Painting
 flags
 )
 ;
@@ -37633,7 +37633,7 @@ nsPresContext
 InteractionType
 :
 :
-eKeyInteraction
+KeyInteraction
 aEvent
 -
 >
@@ -37700,7 +37700,7 @@ nsPresContext
 InteractionType
 :
 :
-eClickInteraction
+ClickInteraction
 aEvent
 -
 >
@@ -37751,7 +37751,7 @@ nsPresContext
 InteractionType
 :
 :
-eMouseMoveInteraction
+MouseMoveInteraction
 aEvent
 -
 >
@@ -51361,7 +51361,7 @@ aMode
 ScrollMode
 :
 :
-eInstant
+Instant
 |
 |
 aMode
@@ -51370,7 +51370,7 @@ aMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 )
 ;
 if
@@ -51381,7 +51381,7 @@ aMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 )
 {
 if

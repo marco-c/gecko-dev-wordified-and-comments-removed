@@ -1496,7 +1496,7 @@ ShouldSyncDecodeImages
 PaintBorderFlags
 :
 :
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 :
 PaintBorderFlags
 (
@@ -3504,11 +3504,11 @@ aWM
 BaselineSharingGroup
 :
 :
-eFirst
+First
 AlignmentContext
 :
 :
-eInline
+Inline
 )
 ;
 default
@@ -3525,11 +3525,11 @@ aWM
 BaselineSharingGroup
 :
 :
-eLast
+Last
 AlignmentContext
 :
 :
-eInline
+Inline
 )
 ;
 }
@@ -3725,7 +3725,7 @@ aBaselineGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 {
 *

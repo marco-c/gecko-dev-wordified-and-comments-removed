@@ -1882,7 +1882,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SINGLE_CHAR_MI
+IsSingleCharMi
 )
 ;
 uint32_t

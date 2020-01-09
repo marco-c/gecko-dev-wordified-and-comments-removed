@@ -145,7 +145,7 @@ PaintBorderFlags
 :
 uint8_t
 {
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 =
 1
 <

@@ -100,16 +100,16 @@ nsFlowAreaRectFlags
 :
 uint32_t
 {
-NO_FLAGS
+NoFlags
 =
 0
-HAS_FLOATS
+HasFloats
 =
 1
 <
 <
 0
-MAY_WIDEN
+MayWiden
 =
 1
 <
@@ -182,7 +182,7 @@ mAreaFlags
 nsFlowAreaRectFlags
 :
 :
-HAS_FLOATS
+HasFloats
 )
 ;
 }
@@ -202,7 +202,7 @@ mAreaFlags
 nsFlowAreaRectFlags
 :
 :
-MAY_WIDEN
+MayWiden
 )
 ;
 }

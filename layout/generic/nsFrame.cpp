@@ -2835,7 +2835,7 @@ GetVisibility
 Visibility
 :
 :
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 "
 Visible
 nsFrame
@@ -10205,7 +10205,7 @@ return
 Visibility
 :
 :
-UNTRACKED
+Untracked
 ;
 }
 bool
@@ -10251,12 +10251,12 @@ visibleCount
 Visibility
 :
 :
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 :
 Visibility
 :
 :
-APPROXIMATELY_NONVISIBLE
+ApproximatelyNonVisible
 ;
 }
 void
@@ -10661,7 +10661,7 @@ OnVisibilityChange
 Visibility
 :
 :
-APPROXIMATELY_NONVISIBLE
+ApproximatelyNonVisible
 )
 ;
 }
@@ -10775,7 +10775,7 @@ OnVisibilityChange
 Visibility
 :
 :
-APPROXIMATELY_NONVISIBLE
+ApproximatelyNonVisible
 aNonvisibleAction
 )
 ;
@@ -10859,7 +10859,7 @@ OnVisibilityChange
 Visibility
 :
 :
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 )
 ;
 }
@@ -15292,19 +15292,19 @@ ContainerItemType
 :
 uint8_t
 {
-eNone
+None
 =
 0
-eOwnLayerIfNeeded
-eBlendMode
-eFixedPosition
-eOwnLayerForTransformWithRoundedClip
-ePerspective
-eTransform
-eSeparatorTransforms
-eOpacity
-eFilter
-eBlendContainer
+OwnLayerIfNeeded
+BlendMode
+FixedPosition
+OwnLayerForTransformWithRoundedClip
+Perspective
+Transform
+SeparatorTransforms
+Opacity
+Filter
+BlendContainer
 }
 ;
 nsDisplayListBuilder
@@ -15419,7 +15419,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-eNone
+None
 ;
 if
 (
@@ -15431,7 +15431,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-eFixedPosition
+FixedPosition
 ;
 }
 else
@@ -15485,7 +15485,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-eOwnLayerForTransformWithRoundedClip
+OwnLayerForTransformWithRoundedClip
 ;
 }
 else
@@ -15499,7 +15499,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-ePerspective
+Perspective
 ;
 }
 else
@@ -15509,7 +15509,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-eTransform
+Transform
 ;
 }
 }
@@ -15524,7 +15524,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-eFilter
+Filter
 ;
 }
 DisplayListClipState
@@ -15544,7 +15544,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-eNone
+None
 )
 {
 clipState
@@ -16194,7 +16194,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-eFilter
+Filter
 )
 {
 clipState
@@ -16538,7 +16538,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-eTransform
+Transform
 )
 {
 clipState
@@ -16656,7 +16656,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-ePerspective
+Perspective
 )
 {
 clipState
@@ -16700,7 +16700,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-eOwnLayerForTransformWithRoundedClip
+OwnLayerForTransformWithRoundedClip
 )
 {
 clipState
@@ -16729,7 +16729,7 @@ CurrentActiveScrolledRoot
 nsDisplayOwnLayerFlags
 :
 :
-eNone
+None
 ScrollbarData
 {
 }
@@ -16761,7 +16761,7 @@ clipCapturedBy
 ContainerItemType
 :
 :
-eFixedPosition
+FixedPosition
 )
 {
 clipState
@@ -28902,9 +28902,9 @@ enum
 class
 Stretch
 {
-eStretchPreservingRatio
-eStretch
-eNoStretch
+StretchPreservingRatio
+Stretch
+NoStretch
 }
 ;
 const
@@ -28914,7 +28914,7 @@ eStretchPreservingRatio
 Stretch
 :
 :
-eStretchPreservingRatio
+StretchPreservingRatio
 ;
 const
 auto
@@ -28923,7 +28923,7 @@ eStretch
 Stretch
 :
 :
-eStretch
+Stretch
 ;
 const
 auto
@@ -28932,7 +28932,7 @@ eNoStretch
 Stretch
 :
 :
-eNoStretch
+NoStretch
 ;
 Stretch
 stretchI
@@ -31775,7 +31775,7 @@ flags
 AbsPosReflowFlags
 :
 :
-eCBWidthAndHeightChanged
+CBWidthAndHeightChanged
 ;
 if
 (
@@ -31788,7 +31788,7 @@ flags
 AbsPosReflowFlags
 :
 :
-eConstrainHeight
+ConstrainHeight
 ;
 }
 absoluteContainer

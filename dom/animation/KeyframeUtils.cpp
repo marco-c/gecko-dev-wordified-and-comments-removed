@@ -2233,7 +2233,7 @@ propName
 CSSEnabledState
 :
 :
-eForAllContent
+ForAllContent
 )
 ;
 if
@@ -5315,7 +5315,7 @@ mProperty
 CSSEnabledState
 :
 :
-eForAllContent
+ForAllContent
 )
 {
 addToPropertySets

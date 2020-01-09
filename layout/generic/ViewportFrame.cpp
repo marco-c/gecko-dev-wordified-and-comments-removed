@@ -1812,7 +1812,7 @@ flags
 AbsPosReflowFlags
 :
 :
-eCBWidthAndHeightChanged
+CBWidthAndHeightChanged
 ;
 GetAbsoluteContainingBlock
 (

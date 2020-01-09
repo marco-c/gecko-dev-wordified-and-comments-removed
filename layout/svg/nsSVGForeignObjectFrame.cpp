@@ -1374,7 +1374,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_IN_TRANSFORM
+InTransform
 ;
 if
 (
@@ -1397,7 +1397,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_TO_WINDOW
+ToWindow
 ;
 }
 if
@@ -1418,7 +1418,7 @@ flags
 PaintFrameFlags
 :
 :
-PAINT_SYNC_DECODE_IMAGES
+SyncDecodeImages
 ;
 }
 Unused
@@ -1446,7 +1446,7 @@ NS_RGBA
 nsDisplayListBuilderMode
 :
 :
-PAINTING
+Painting
 flags
 )
 ;

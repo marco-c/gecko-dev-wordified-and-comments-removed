@@ -1499,7 +1499,7 @@ scrollPoint
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 }

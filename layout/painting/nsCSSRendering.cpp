@@ -4522,7 +4522,7 @@ aFlags
 PaintBorderFlags
 :
 :
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 )
 {
 irFlags

@@ -7280,7 +7280,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kDefaultTrimFlags
+Default
 :
 nsTextFrame
 :
@@ -7288,7 +7288,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kNotPostReflow
+NotPostReflow
 )
 )
 ;
@@ -13545,7 +13545,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kNotPostReflow
+NotPostReflow
 )
 ;
 TrimOffsets

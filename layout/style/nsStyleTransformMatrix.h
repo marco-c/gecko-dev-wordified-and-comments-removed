@@ -601,9 +601,9 @@ enum
 class
 ShearType
 {
-XYSHEAR
-XZSHEAR
-YZSHEAR
+XY
+XZ
+YZ
 Count
 }
 ;

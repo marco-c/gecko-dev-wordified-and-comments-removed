@@ -2618,11 +2618,11 @@ aWM
 BaselineSharingGroup
 :
 :
-eLast
+Last
 AlignmentContext
 :
 :
-eInline
+Inline
 )
 ;
 return
@@ -2661,7 +2661,7 @@ aBaselineGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 {
 return
@@ -7125,7 +7125,7 @@ baselineGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ;
 nscoord
 markerBaseline
@@ -7642,7 +7642,7 @@ flags
 AbsPosReflowFlags
 :
 :
-eConstrainHeight
+ConstrainHeight
 ;
 if
 (
@@ -7655,7 +7655,7 @@ flags
 AbsPosReflowFlags
 :
 :
-eCBWidthChanged
+CBWidthChanged
 ;
 }
 if
@@ -7669,7 +7669,7 @@ flags
 AbsPosReflowFlags
 :
 :
-eCBHeightChanged
+CBHeightChanged
 ;
 }
 AutoLineCursorSetup

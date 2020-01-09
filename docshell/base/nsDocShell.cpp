@@ -24666,7 +24666,7 @@ scrollMode
 ScrollMode
 :
 :
-eInstant
+Instant
 ;
 if
 (
@@ -24688,7 +24688,7 @@ scrollMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 ;
 }
 nsPoint

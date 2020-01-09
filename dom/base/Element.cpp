@@ -4091,7 +4091,7 @@ scrollMode
 ScrollMode
 :
 :
-eInstant
+Instant
 ;
 if
 (
@@ -4111,7 +4111,7 @@ scrollMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 ;
 }
 else
@@ -4153,7 +4153,7 @@ scrollMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 ;
 }
 }
@@ -4500,7 +4500,7 @@ scrollMode
 ScrollMode
 :
 :
-eInstant
+Instant
 ;
 if
 (
@@ -4520,7 +4520,7 @@ scrollMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 ;
 }
 else
@@ -4562,7 +4562,7 @@ scrollMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 ;
 }
 }
@@ -4661,7 +4661,7 @@ scrollMode
 ScrollMode
 :
 :
-eInstant
+Instant
 ;
 if
 (
@@ -4683,7 +4683,7 @@ scrollMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 ;
 }
 sf
@@ -4768,7 +4768,7 @@ scrollMode
 ScrollMode
 :
 :
-eInstant
+Instant
 ;
 if
 (
@@ -4790,7 +4790,7 @@ scrollMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 ;
 }
 sf

@@ -134,7 +134,7 @@ aFlags
 AlignJustifyFlags
 :
 :
-eOverflowSafe
+OverflowSafe
 )
 ;
 const
@@ -149,7 +149,7 @@ aFlags
 AlignJustifyFlags
 :
 :
-eSameSide
+SameSide
 )
 ;
 switch
@@ -364,7 +364,7 @@ aFlags
 AlignJustifyFlags
 :
 :
-eIgnoreAutoMargins
+IgnoreAutoMargins
 )
 {
 hasAutoMarginStart

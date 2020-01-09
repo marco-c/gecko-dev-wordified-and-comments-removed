@@ -1744,7 +1744,7 @@ eMainThread
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 }

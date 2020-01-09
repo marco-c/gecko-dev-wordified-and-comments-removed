@@ -19485,7 +19485,7 @@ aWM
 BaselineSharingGroup
 :
 :
-eFirst
+First
 &
 baseline
 )
@@ -19615,7 +19615,7 @@ aBaselineGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 {
 for
@@ -31898,7 +31898,7 @@ mMode
 Mode
 :
 :
-PAINT
+Paint
 )
 mPaintData
 (
@@ -31932,7 +31932,7 @@ mMode
 Mode
 :
 :
-CREATE_WEBRENDER_COMMANDS
+CreateWebRenderCommands
 )
 mCreateWebRenderCommandsData
 (
@@ -31955,7 +31955,7 @@ mMode
 Mode
 :
 :
-CREATE_WEBRENDER_COMMANDS
+CreateWebRenderCommands
 )
 {
 mCreateWebRenderCommandsData
@@ -31971,8 +31971,8 @@ enum
 class
 Mode
 {
-PAINT
-CREATE_WEBRENDER_COMMANDS
+Paint
+CreateWebRenderCommands
 }
 ;
 Mode
@@ -38154,7 +38154,7 @@ BCPaintBorderAction
 Mode
 :
 :
-PAINT
+Paint
 )
 {
 mInlineSeg
@@ -38186,7 +38186,7 @@ BCPaintBorderAction
 Mode
 :
 :
-CREATE_WEBRENDER_COMMANDS
+CreateWebRenderCommands
 )
 ;
 mInlineSeg
@@ -38431,7 +38431,7 @@ BCPaintBorderAction
 Mode
 :
 :
-PAINT
+Paint
 )
 {
 blockDirSeg
@@ -38464,7 +38464,7 @@ BCPaintBorderAction
 Mode
 :
 :
-CREATE_WEBRENDER_COMMANDS
+CreateWebRenderCommands
 )
 ;
 blockDirSeg

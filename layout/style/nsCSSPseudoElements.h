@@ -393,7 +393,7 @@ aEnabledState
 EnabledState
 :
 :
-eInUASheets
+InUASheets
 )
 &
 &
@@ -416,7 +416,7 @@ aEnabledState
 EnabledState
 :
 :
-eInChrome
+InChrome
 )
 &
 &

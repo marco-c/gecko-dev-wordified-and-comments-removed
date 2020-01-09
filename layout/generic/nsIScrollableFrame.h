@@ -446,7 +446,7 @@ aMode
 ScrollMode
 :
 :
-eInstant
+Instant
 nsIScrollbarMediator
 :
 :
@@ -555,7 +555,7 @@ aMode
 ScrollMode
 :
 :
-eInstant
+Instant
 nsAtom
 *
 aOrigin

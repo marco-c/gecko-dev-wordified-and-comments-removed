@@ -537,7 +537,7 @@ aType
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY
+PushOpacity
 |
 |
 aType
@@ -546,7 +546,7 @@ aType
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY_WITH_BG
+PushOpacityWithBg
 |
 |
 aType
@@ -555,7 +555,7 @@ aType
 DisplayItemEntryType
 :
 :
-PUSH_TRANSFORM
+PushTransform
 ;
 }
 static
@@ -573,7 +573,7 @@ aType
 DisplayItemEntryType
 :
 :
-POP_OPACITY
+PopOpacity
 |
 |
 aType
@@ -582,7 +582,7 @@ aType
 DisplayItemEntryType
 :
 :
-POP_TRANSFORM
+PopTransform
 ;
 }
 enum
@@ -790,11 +790,11 @@ GET_MARKER
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY
+PushOpacity
 DisplayItemEntryType
 :
 :
-POP_OPACITY
+PopOpacity
 )
 ;
 break
@@ -812,11 +812,11 @@ GET_MARKER
 DisplayItemEntryType
 :
 :
-PUSH_TRANSFORM
+PushTransform
 DisplayItemEntryType
 :
 :
-POP_TRANSFORM
+PopTransform
 )
 ;
 break
@@ -4860,7 +4860,7 @@ GetNextItem
 DisplayItemEntryType
 :
 :
-ITEM
+Item
 }
 ;
 }
@@ -4916,7 +4916,7 @@ aItem
 DisplayItemEntryType
 :
 :
-HIT_TEST_INFO
+HitTestInfo
 )
 ;
 }
@@ -14725,7 +14725,7 @@ case
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY
+PushOpacity
 :
 aOpacityIndices
 .
@@ -14744,7 +14744,7 @@ case
 DisplayItemEntryType
 :
 :
-POP_OPACITY
+PopOpacity
 :
 MOZ_ASSERT
 (
@@ -14771,7 +14771,7 @@ case
 DisplayItemEntryType
 :
 :
-POP_TRANSFORM
+PopTransform
 :
 MOZ_ASSERT
 (
@@ -14791,7 +14791,7 @@ case
 DisplayItemEntryType
 :
 :
-PUSH_TRANSFORM
+PushTransform
 :
 mTransformLevel
 +
@@ -15042,7 +15042,7 @@ aType
 DisplayItemEntryType
 :
 :
-HIT_TEST_INFO
+HitTestInfo
 "
 Should
 have
@@ -15322,7 +15322,7 @@ mType
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY
+PushOpacity
 |
 |
 item
@@ -15333,7 +15333,7 @@ mType
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY_WITH_BG
+PushOpacityWithBg
 )
 ;
 item
@@ -15343,7 +15343,7 @@ mType
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY_WITH_BG
+PushOpacityWithBg
 ;
 }
 }
@@ -15374,7 +15374,7 @@ aType
 DisplayItemEntryType
 :
 :
-ITEM
+Item
 )
 {
 return
@@ -18202,13 +18202,13 @@ case
 DisplayItemEntryType
 :
 :
-PUSH_TRANSFORM
+PushTransform
 :
 case
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY
+PushOpacity
 :
 SelectLayerIfNeeded
 (
@@ -18220,13 +18220,13 @@ case
 DisplayItemEntryType
 :
 :
-POP_TRANSFORM
+PopTransform
 :
 case
 DisplayItemEntryType
 :
 :
-POP_OPACITY
+PopOpacity
 :
 ClearLayerSelectionIfNeeded
 (
@@ -18463,7 +18463,7 @@ marker
 DisplayItemEntryType
 :
 :
-HIT_TEST_INFO
+HitTestInfo
 ;
 }
 const
@@ -18541,7 +18541,7 @@ marker
 DisplayItemEntryType
 :
 :
-ITEM
+Item
 )
 {
 layerState
@@ -18628,7 +18628,7 @@ marker
 DisplayItemEntryType
 :
 :
-HIT_TEST_INFO
+HitTestInfo
 )
 {
 const
@@ -18812,7 +18812,7 @@ marker
 DisplayItemEntryType
 :
 :
-HIT_TEST_INFO
+HitTestInfo
 )
 {
 itemClipChain
@@ -18897,7 +18897,7 @@ marker
 DisplayItemEntryType
 :
 :
-HIT_TEST_INFO
+HitTestInfo
 )
 {
 MOZ_ASSERT
@@ -18930,7 +18930,7 @@ marker
 DisplayItemEntryType
 :
 :
-ITEM
+Item
 )
 {
 MOZ_ASSERT
@@ -18975,7 +18975,7 @@ marker
 DisplayItemEntryType
 :
 :
-ITEM
+Item
 )
 )
 ;
@@ -19166,7 +19166,7 @@ marker
 DisplayItemEntryType
 :
 :
-POP_TRANSFORM
+PopTransform
 )
 {
 MOZ_ASSERT
@@ -19232,7 +19232,7 @@ marker
 DisplayItemEntryType
 :
 :
-HIT_TEST_INFO
+HitTestInfo
 |
 |
 inEffect
@@ -19442,7 +19442,7 @@ marker
 DisplayItemEntryType
 :
 :
-ITEM
+Item
 )
 ;
 NS_ASSERTION
@@ -21311,7 +21311,7 @@ marker
 DisplayItemEntryType
 :
 :
-HIT_TEST_INFO
+HitTestInfo
 )
 ;
 PaintedLayerData
@@ -21375,7 +21375,7 @@ marker
 DisplayItemEntryType
 :
 :
-HIT_TEST_INFO
+HitTestInfo
 )
 {
 MOZ_ASSERT
@@ -21608,7 +21608,7 @@ marker
 DisplayItemEntryType
 :
 :
-PUSH_TRANSFORM
+PushTransform
 )
 {
 nsDisplayTransform
@@ -30012,7 +30012,7 @@ mType
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY
+PushOpacity
 |
 |
 aItem
@@ -30023,7 +30023,7 @@ mType
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY_WITH_BG
+PushOpacityWithBg
 )
 ;
 MOZ_ASSERT
@@ -30080,7 +30080,7 @@ mType
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY_WITH_BG
+PushOpacityWithBg
 )
 {
 aContext
@@ -30144,7 +30144,7 @@ mType
 DisplayItemEntryType
 :
 :
-PUSH_TRANSFORM
+PushTransform
 )
 ;
 MOZ_ASSERT
@@ -30288,13 +30288,13 @@ case
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY
+PushOpacity
 :
 case
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY_WITH_BG
+PushOpacityWithBg
 :
 aOpacityLevel
 +
@@ -30306,7 +30306,7 @@ case
 DisplayItemEntryType
 :
 :
-POP_OPACITY
+PopOpacity
 :
 aOpacityLevel
 -
@@ -30318,7 +30318,7 @@ case
 DisplayItemEntryType
 :
 :
-PUSH_TRANSFORM
+PushTransform
 :
 aTransformLevel
 +
@@ -30330,7 +30330,7 @@ case
 DisplayItemEntryType
 :
 :
-POP_TRANSFORM
+PopTransform
 :
 aTransformLevel
 -
@@ -30605,7 +30605,7 @@ mType
 DisplayItemEntryType
 :
 :
-ITEM
+Item
 )
 ;
 continue
@@ -30821,7 +30821,7 @@ mType
 DisplayItemEntryType
 :
 :
-ITEM
+Item
 )
 {
 itemClipTracker
@@ -30841,7 +30841,7 @@ mType
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY
+PushOpacity
 |
 |
 cdi
@@ -30852,7 +30852,7 @@ mType
 DisplayItemEntryType
 :
 :
-PUSH_OPACITY_WITH_BG
+PushOpacityWithBg
 )
 {
 DisplayItemClip
@@ -30906,7 +30906,7 @@ mType
 DisplayItemEntryType
 :
 :
-POP_OPACITY
+PopOpacity
 )
 {
 MOZ_ASSERT
@@ -30934,7 +30934,7 @@ mType
 DisplayItemEntryType
 :
 :
-PUSH_TRANSFORM
+PushTransform
 )
 {
 effectClipStack
@@ -30976,7 +30976,7 @@ mType
 DisplayItemEntryType
 :
 :
-POP_TRANSFORM
+PopTransform
 )
 {
 MOZ_ASSERT
@@ -31039,7 +31039,7 @@ mType
 DisplayItemEntryType
 :
 :
-ITEM
+Item
 )
 {
 #

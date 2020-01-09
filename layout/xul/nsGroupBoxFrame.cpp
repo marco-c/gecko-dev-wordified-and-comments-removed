@@ -990,7 +990,7 @@ mComputedStyle
 PaintBorderFlags
 :
 :
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 skipSides
 )
 ;
@@ -1074,7 +1074,7 @@ mComputedStyle
 PaintBorderFlags
 :
 :
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 skipSides
 )
 ;
@@ -1149,7 +1149,7 @@ mComputedStyle
 PaintBorderFlags
 :
 :
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 skipSides
 )
 ;
@@ -1185,7 +1185,7 @@ mComputedStyle
 PaintBorderFlags
 :
 :
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 skipSides
 )
 ;

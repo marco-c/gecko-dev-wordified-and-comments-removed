@@ -7621,7 +7621,7 @@ PAGES
 ScrollMode
 :
 :
-eSmooth
+Smooth
 )
 ;
 }

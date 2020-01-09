@@ -3973,7 +3973,7 @@ GetVisibility
 Visibility
 :
 :
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 )
 {
 return
@@ -6624,7 +6624,7 @@ mComputedStyle
 PaintBorderFlags
 :
 :
-SYNC_DECODE_IMAGES
+SyncDecodeImages
 )
 ;
 }
@@ -11934,7 +11934,7 @@ aNewVisibility
 Visibility
 :
 :
-APPROXIMATELY_VISIBLE
+ApproximatelyVisible
 )
 {
 MaybeDecodeForPredictedSize

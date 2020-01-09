@@ -1933,7 +1933,7 @@ nullptr
 DrawStringFlags
 :
 :
-eForceHorizontal
+ForceHorizontal
 )
 ;
 aRenderingContext

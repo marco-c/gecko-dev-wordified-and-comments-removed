@@ -285,9 +285,9 @@ enum
 class
 SizingConstraint
 {
-eMinContent
-eMaxContent
-eNoConstraint
+MinContent
+MaxContent
+NoConstraint
 }
 ;
 static
@@ -633,7 +633,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 {
 return
@@ -658,7 +658,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eLast
+Last
 )
 ;
 return
@@ -687,8 +687,8 @@ enum
 class
 GridLineSide
 {
-eBeforeGridGap
-eAfterGridGap
+BeforeGridGap
+AfterGridGap
 }
 ;
 struct
@@ -1194,7 +1194,7 @@ mBaselineSubtreeSize
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ]
 =
 nscoord
@@ -1207,7 +1207,7 @@ mBaselineSubtreeSize
 BaselineSharingGroup
 :
 :
-eLast
+Last
 ]
 =
 nscoord
@@ -4824,7 +4824,7 @@ mBaselineSubtreeAlign
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ]
 =
 NS_STYLE_ALIGN_AUTO
@@ -4834,7 +4834,7 @@ mBaselineSubtreeAlign
 BaselineSharingGroup
 :
 :
-eLast
+Last
 ]
 =
 NS_STYLE_ALIGN_AUTO
@@ -4844,7 +4844,7 @@ mBaseline
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ]
 =
 NS_INTRINSIC_WIDTH_UNKNOWN
@@ -4854,7 +4854,7 @@ mBaseline
 BaselineSharingGroup
 :
 :
-eLast
+Last
 ]
 =
 NS_INTRINSIC_WIDTH_UNKNOWN
@@ -4973,11 +4973,11 @@ enum
 class
 TrackSizingPhase
 {
-eIntrinsicMinimums
-eContentBasedMinimums
-eMaxContentMinimums
-eIntrinsicMaximums
-eMaxContentMaximums
+IntrinsicMinimums
+ContentBasedMinimums
+MaxContentMinimums
+IntrinsicMaximums
+MaxContentMaximums
 }
 ;
 struct
@@ -5053,13 +5053,13 @@ case
 TrackSizingPhase
 :
 :
-eIntrinsicMinimums
+IntrinsicMinimums
 :
 case
 TrackSizingPhase
 :
 :
-eIntrinsicMaximums
+IntrinsicMaximums
 :
 return
 mMinSize
@@ -5068,7 +5068,7 @@ case
 TrackSizingPhase
 :
 :
-eContentBasedMinimums
+ContentBasedMinimums
 :
 return
 mMinContentContribution
@@ -5077,13 +5077,13 @@ case
 TrackSizingPhase
 :
 :
-eMaxContentMinimums
+MaxContentMinimums
 :
 case
 TrackSizingPhase
 :
 :
-eMaxContentMaximums
+MaxContentMaximums
 :
 return
 mMaxContentContribution
@@ -5256,19 +5256,19 @@ case
 TrackSizingPhase
 :
 :
-eIntrinsicMinimums
+IntrinsicMinimums
 :
 case
 TrackSizingPhase
 :
 :
-eContentBasedMinimums
+ContentBasedMinimums
 :
 case
 TrackSizingPhase
 :
 :
-eMaxContentMinimums
+MaxContentMinimums
 :
 return
 aSize
@@ -5279,13 +5279,13 @@ case
 TrackSizingPhase
 :
 :
-eIntrinsicMaximums
+IntrinsicMaximums
 :
 case
 TrackSizingPhase
 :
 :
-eMaxContentMaximums
+MaxContentMaximums
 :
 if
 (
@@ -5627,7 +5627,7 @@ phase
 TrackSizingPhase
 :
 :
-eMaxContentMaximums
+MaxContentMaximums
 |
 |
 !
@@ -5744,19 +5744,19 @@ case
 TrackSizingPhase
 :
 :
-eIntrinsicMinimums
+IntrinsicMinimums
 :
 case
 TrackSizingPhase
 :
 :
-eContentBasedMinimums
+ContentBasedMinimums
 :
 case
 TrackSizingPhase
 :
 :
-eMaxContentMinimums
+MaxContentMinimums
 :
 sz
 .
@@ -5772,7 +5772,7 @@ case
 TrackSizingPhase
 :
 :
-eIntrinsicMaximums
+IntrinsicMaximums
 :
 if
 (
@@ -5825,7 +5825,7 @@ case
 TrackSizingPhase
 :
 :
-eMaxContentMaximums
+MaxContentMaximums
 :
 if
 (
@@ -6340,7 +6340,7 @@ phase
 TrackSizingPhase
 :
 :
-eIntrinsicMaximums
+IntrinsicMaximums
 |
 |
 phase
@@ -6349,7 +6349,7 @@ phase
 TrackSizingPhase
 :
 :
-eMaxContentMaximums
+MaxContentMaximums
 )
 {
 return
@@ -7305,7 +7305,7 @@ aSide
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 )
 {
 if
@@ -10501,7 +10501,7 @@ aFlags
 AlignJustifyFlags
 :
 :
-eSameSide
+SameSide
 )
 ?
 offset
@@ -10553,7 +10553,7 @@ flags
 AlignJustifyFlags
 :
 :
-eNoFlags
+NoFlags
 ;
 if
 (
@@ -10568,7 +10568,7 @@ flags
 AlignJustifyFlags
 :
 :
-eOverflowSafe
+OverflowSafe
 ;
 }
 alignSelf
@@ -10603,7 +10603,7 @@ flags
 AlignJustifyFlags
 :
 :
-eSameSide
+SameSide
 ;
 }
 if
@@ -10747,7 +10747,7 @@ flags
 AlignJustifyFlags
 :
 :
-eNoFlags
+NoFlags
 ;
 if
 (
@@ -10762,7 +10762,7 @@ flags
 AlignJustifyFlags
 :
 :
-eOverflowSafe
+OverflowSafe
 ;
 }
 justifySelf
@@ -10797,7 +10797,7 @@ flags
 AlignJustifyFlags
 :
 :
-eSameSide
+SameSide
 ;
 }
 if
@@ -18047,7 +18047,7 @@ aConstraint
 SizingConstraint
 :
 :
-eMinContent
+MinContent
 )
 {
 nscoord
@@ -18321,7 +18321,7 @@ aConstraint
 SizingConstraint
 :
 :
-eMaxContent
+MaxContent
 )
 {
 s
@@ -18972,7 +18972,7 @@ aBaselineGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 {
 mBaseline
@@ -18997,7 +18997,7 @@ aBaselineGroup
 BaselineSharingGroup
 :
 :
-eLast
+Last
 )
 {
 mBaseline
@@ -19694,7 +19694,7 @@ GetBBaseline
 BaselineSharingGroup
 :
 :
-eFirst
+First
 &
 baseline
 )
@@ -19710,7 +19710,7 @@ GetIBaseline
 BaselineSharingGroup
 :
 :
-eFirst
+First
 &
 baseline
 )
@@ -19877,7 +19877,7 @@ GetBBaseline
 BaselineSharingGroup
 :
 :
-eLast
+Last
 &
 baseline
 )
@@ -19893,7 +19893,7 @@ GetIBaseline
 BaselineSharingGroup
 :
 :
-eLast
+Last
 &
 baseline
 )
@@ -20242,7 +20242,7 @@ mBaselineSubtreeAlign
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ]
 =
 NS_STYLE_ALIGN_START
@@ -20252,7 +20252,7 @@ mBaselineSubtreeAlign
 BaselineSharingGroup
 :
 :
-eLast
+Last
 ]
 =
 NS_STYLE_ALIGN_END
@@ -20263,7 +20263,7 @@ firstBaselineItems
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 ;
 CalculateItemBaselines
@@ -20272,7 +20272,7 @@ lastBaselineItems
 BaselineSharingGroup
 :
 :
-eLast
+Last
 )
 ;
 }
@@ -20410,12 +20410,12 @@ isFirstBaseline
 BaselineSharingGroup
 :
 :
-eFirst
+First
 :
 BaselineSharingGroup
 :
 :
-eLast
+Last
 ;
 nscoord
 delta
@@ -20601,7 +20601,7 @@ phase
 TrackSizingPhase
 :
 :
-eIntrinsicMaximums
+IntrinsicMaximums
 |
 |
 phase
@@ -20610,7 +20610,7 @@ phase
 TrackSizingPhase
 :
 :
-eMaxContentMaximums
+MaxContentMaximums
 ;
 bool
 needToUpdateSizes
@@ -20906,7 +20906,7 @@ aConstraint
 SizingConstraint
 :
 :
-eMinContent
+MinContent
 ?
 TrackSize
 :
@@ -20928,7 +20928,7 @@ aConstraint
 SizingConstraint
 :
 :
-eMaxContent
+MaxContent
 ?
 (
 TrackSize
@@ -21709,7 +21709,7 @@ GrowSizeForSpanningItems
 TrackSizingPhase
 :
 :
-eIntrinsicMinimums
+IntrinsicMinimums
 >
 (
 spanGroupStart
@@ -21740,7 +21740,7 @@ GrowSizeForSpanningItems
 TrackSizingPhase
 :
 :
-eContentBasedMinimums
+ContentBasedMinimums
 >
 (
 spanGroupStart
@@ -21771,7 +21771,7 @@ GrowSizeForSpanningItems
 TrackSizingPhase
 :
 :
-eMaxContentMinimums
+MaxContentMinimums
 >
 (
 spanGroupStart
@@ -21849,7 +21849,7 @@ GrowSizeForSpanningItems
 TrackSizingPhase
 :
 :
-eIntrinsicMaximums
+IntrinsicMaximums
 >
 (
 spanGroupStart
@@ -21879,7 +21879,7 @@ GrowSizeForSpanningItems
 TrackSizingPhase
 :
 :
-eMaxContentMaximums
+MaxContentMaximums
 >
 (
 spanGroupStart
@@ -24001,12 +24001,12 @@ Length
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 :
 GridLineSide
 :
 :
-eAfterGridGap
+AfterGridGap
 ;
 nscoord
 startPos
@@ -24064,12 +24064,12 @@ mEnd
 GridLineSide
 :
 :
-eAfterGridGap
+AfterGridGap
 :
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 ;
 nscoord
 endPos
@@ -24143,7 +24143,7 @@ mStart
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 )
 ;
 *
@@ -24811,7 +24811,7 @@ numRows
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 )
 ;
 data
@@ -26763,7 +26763,7 @@ endRow
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 )
 ;
 nscoord
@@ -27068,7 +27068,7 @@ endRow
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 )
 ;
 bSize
@@ -27634,7 +27634,7 @@ mEnd
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 )
 -
 aState
@@ -27654,7 +27654,7 @@ row
 GridLineSide
 :
 :
-eAfterGridGap
+AfterGridGap
 )
 ;
 ReflowInFlowChild
@@ -27845,7 +27845,7 @@ aEndRow
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 )
 ;
 aFragmentainer
@@ -27951,7 +27951,7 @@ aEndRow
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 )
 ;
 i
@@ -29447,7 +29447,7 @@ flags
 AbsPosReflowFlags
 :
 :
-eCBWidthAndHeightChanged
+CBWidthAndHeightChanged
 ;
 flags
 |
@@ -29455,7 +29455,7 @@ flags
 AbsPosReflowFlags
 :
 :
-eConstrainHeight
+ConstrainHeight
 ;
 flags
 |
@@ -29463,7 +29463,7 @@ flags
 AbsPosReflowFlags
 :
 :
-eIsGridContainerCB
+IsGridContainerCB
 ;
 GetAbsoluteContainingBlock
 (
@@ -30786,7 +30786,7 @@ computedSize
 SizingConstraint
 :
 :
-eNoConstraint
+NoConstraint
 )
 ;
 if
@@ -30893,7 +30893,7 @@ numRows
 GridLineSide
 :
 :
-eAfterGridGap
+AfterGridGap
 )
 ;
 }
@@ -33598,12 +33598,12 @@ MIN_ISIZE
 SizingConstraint
 :
 :
-eMinContent
+MinContent
 :
 SizingConstraint
 :
 :
-eMaxContent
+MaxContent
 ;
 state
 .
@@ -34469,7 +34469,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ?
 nsLayoutUtils
 :
@@ -34633,7 +34633,7 @@ aGroup
 AlignmentContext
 :
 :
-eGrid
+Grid
 )
 ;
 }
@@ -34742,7 +34742,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eLast
+Last
 )
 {
 baseline
@@ -34775,7 +34775,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ?
 start
 +
@@ -34848,7 +34848,7 @@ mBaseline
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ]
 ;
 if
@@ -34872,7 +34872,7 @@ axis
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ]
 =
 :
@@ -34882,7 +34882,7 @@ SynthesizeBaselineFromBorderBox
 BaselineSharingGroup
 :
 :
-eFirst
+First
 aWM
 aCBSize
 )
@@ -34949,7 +34949,7 @@ axis
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ]
 =
 SynthesizeBaseline
@@ -34959,7 +34959,7 @@ axis
 BaselineSharingGroup
 :
 :
-eFirst
+First
 aCBPhysicalSize
 aCBSize
 aWM
@@ -34995,7 +34995,7 @@ aFragmentStartTrack
 GridLineSide
 :
 :
-eAfterGridGap
+AfterGridGap
 )
 :
 nscoord
@@ -35011,7 +35011,7 @@ axis
 BaselineSharingGroup
 :
 :
-eFirst
+First
 ]
 =
 aCBBorderPaddingStart
@@ -35031,7 +35031,7 @@ mBaseline
 BaselineSharingGroup
 :
 :
-eLast
+Last
 ]
 ;
 if
@@ -35055,7 +35055,7 @@ axis
 BaselineSharingGroup
 :
 :
-eLast
+Last
 ]
 =
 :
@@ -35065,7 +35065,7 @@ SynthesizeBaselineFromBorderBox
 BaselineSharingGroup
 :
 :
-eLast
+Last
 aWM
 aCBSize
 )
@@ -35190,7 +35190,7 @@ axis
 BaselineSharingGroup
 :
 :
-eLast
+Last
 ]
 =
 SynthesizeBaseline
@@ -35200,7 +35200,7 @@ axis
 BaselineSharingGroup
 :
 :
-eLast
+Last
 aCBPhysicalSize
 aCBSize
 aWM
@@ -35233,7 +35233,7 @@ aFirstExcludedTrack
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 )
 -
 aTracks
@@ -35244,7 +35244,7 @@ aFragmentStartTrack
 GridLineSide
 :
 :
-eBeforeGridGap
+BeforeGridGap
 )
 ;
 mBaseline
@@ -35255,7 +35255,7 @@ axis
 BaselineSharingGroup
 :
 :
-eLast
+Last
 ]
 =
 (

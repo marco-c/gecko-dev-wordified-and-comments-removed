@@ -13,9 +13,9 @@ Visibility
 :
 uint8_t
 {
-UNTRACKED
-APPROXIMATELY_NONVISIBLE
-APPROXIMATELY_VISIBLE
+Untracked
+ApproximatelyNonVisible
+ApproximatelyVisible
 }
 ;
 enum
@@ -24,7 +24,7 @@ OnNonvisible
 :
 uint8_t
 {
-DISCARD_IMAGES
+DiscardImages
 }
 ;
 }

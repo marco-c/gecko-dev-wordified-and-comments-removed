@@ -540,7 +540,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 {
 if
@@ -621,7 +621,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eLast
+Last
 )
 ;
 if
@@ -750,7 +750,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eFirst
+First
 )
 {
 return
@@ -778,7 +778,7 @@ aGroup
 BaselineSharingGroup
 :
 :
-eLast
+Last
 )
 ;
 auto
@@ -868,7 +868,7 @@ aAlignmentContext
 AlignmentContext
 :
 :
-eInline
+Inline
 )
 {
 return

@@ -1798,7 +1798,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_RUN_SIZE_ACCOUNTED
+RunSizeAccounted
 )
 {
 return
@@ -1814,7 +1814,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_RUN_SIZE_ACCOUNTED
+RunSizeAccounted
 ;
 return
 SizeOfIncludingThis
@@ -1838,7 +1838,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_RUN_SIZE_ACCOUNTED
+RunSizeAccounted
 ;
 }
 enum

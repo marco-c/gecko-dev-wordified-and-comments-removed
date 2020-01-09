@@ -1704,7 +1704,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 )
 {
 if
@@ -1722,7 +1722,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_MIGHT_HAVE_GLYPH_CHANGES
+MightHaveGlyphChanges
 )
 {
 delete
@@ -1759,7 +1759,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_MIGHT_HAVE_GLYPH_CHANGES
+MightHaveGlyphChanges
 )
 {
 DestroyComplexUserData
@@ -1812,7 +1812,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_MIGHT_HAVE_GLYPH_CHANGES
+MightHaveGlyphChanges
 )
 ;
 aTextRun
@@ -1868,7 +1868,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 )
 "
 The
@@ -1903,7 +1903,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_MIGHT_HAVE_GLYPH_CHANGES
+MightHaveGlyphChanges
 )
 {
 flows
@@ -2024,7 +2024,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 "
 Not
 so
@@ -2049,7 +2049,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_MIGHT_HAVE_GLYPH_CHANGES
+MightHaveGlyphChanges
 )
 {
 return
@@ -2362,7 +2362,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 )
 {
 nsTextFrame
@@ -2814,7 +2814,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 )
 {
 InvalidateFrameDueToGlyphsChanged
@@ -4034,7 +4034,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_MIGHT_HAVE_GLYPH_CHANGES
+MightHaveGlyphChanges
 )
 )
 {
@@ -4056,7 +4056,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 )
 {
 static_cast
@@ -4253,7 +4253,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 )
 {
 if
@@ -4273,7 +4273,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_MIGHT_HAVE_GLYPH_CHANGES
+MightHaveGlyphChanges
 )
 )
 {
@@ -4352,7 +4352,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_MIGHT_HAVE_GLYPH_CHANGES
+MightHaveGlyphChanges
 )
 )
 {
@@ -4500,7 +4500,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_MIGHT_HAVE_GLYPH_CHANGES
+MightHaveGlyphChanges
 )
 ;
 for
@@ -5088,7 +5088,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_NO_BREAKS
+NoBreaks
 )
 ;
 }
@@ -5121,7 +5121,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_TRANSFORMED
+IsTransformed
 "
 Text
 run
@@ -5147,7 +5147,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_TRANSFORMED
+IsTransformed
 )
 {
 nsTransformedTextRun
@@ -5206,7 +5206,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_UNUSED_FLAGS
+UnusedFlags
 )
 "
 Flag
@@ -5241,7 +5241,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_TRANSFORMED
+IsTransformed
 )
 {
 nsTransformedTextRun
@@ -7660,7 +7660,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 )
 {
 return
@@ -7873,7 +7873,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_INCOMING_WHITESPACE
+IncomingWhitespace
 )
 =
 =
@@ -7965,7 +7965,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_TRAILING_WHITESPACE
+TrailingWhitespace
 )
 {
 mNextRunContextInfo
@@ -8144,7 +8144,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_HAS_TRAILING_BREAK
+HasTrailingBreak
 )
 ;
 }
@@ -10398,7 +10398,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_NO_BREAKS
+NoBreaks
 ;
 if
 (
@@ -10419,7 +10419,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_INCOMING_WHITESPACE
+IncomingWhitespace
 ;
 }
 if
@@ -10879,7 +10879,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SINGLE_CHAR_MI
+IsSingleCharMi
 ;
 anyMathMLStyling
 =
@@ -11643,7 +11643,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 ;
 userData
 =
@@ -11760,7 +11760,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_HAS_TAB
+HasTab
 )
 {
 flags
@@ -11785,7 +11785,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_HAS_SHY
+HasShy
 )
 {
 flags
@@ -11849,7 +11849,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_TRAILING_WHITESPACE
+TrailingWhitespace
 ;
 }
 if
@@ -12309,7 +12309,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_TRANSFORMED
+IsTransformed
 ;
 NS_ASSERTION
 (
@@ -13572,7 +13572,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_NO_BREAKS
+NoBreaks
 )
 {
 flags
@@ -14463,7 +14463,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 )
 {
 if
@@ -14628,7 +14628,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 )
 {
 firstFrame
@@ -15109,7 +15109,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_SIMPLE_FLOW
+IsSimpleFlow
 )
 {
 if
@@ -15440,7 +15440,7 @@ aFlags
 TrimmedOffsetFlags
 :
 :
-kNotPostReflow
+NotPostReflow
 )
 )
 {
@@ -15550,7 +15550,7 @@ aFlags
 TrimmedOffsetFlags
 :
 :
-kNoTrimBefore
+NoTrimBefore
 )
 &
 &
@@ -15561,7 +15561,7 @@ aFlags
 TrimmedOffsetFlags
 :
 :
-kNotPostReflow
+NotPostReflow
 )
 |
 |
@@ -15614,7 +15614,7 @@ aFlags
 TrimmedOffsetFlags
 :
 :
-kNoTrimAfter
+NoTrimAfter
 )
 &
 &
@@ -15625,7 +15625,7 @@ aFlags
 TrimmedOffsetFlags
 :
 :
-kNotPostReflow
+NotPostReflow
 )
 |
 |
@@ -17832,7 +17832,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_HAS_TAB
+HasTab
 )
 )
 ;
@@ -19563,7 +19563,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kDefaultTrimFlags
+Default
 :
 nsTextFrame
 :
@@ -19571,7 +19571,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kNoTrimAfter
+NoTrimAfter
 )
 )
 ;
@@ -19622,7 +19622,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kNotPostReflow
+NotPostReflow
 )
 ;
 mStart
@@ -19723,7 +19723,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kDefaultTrimFlags
+Default
 :
 nsTextFrame
 :
@@ -19731,7 +19731,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kNotPostReflow
+NotPostReflow
 )
 )
 ;
@@ -22577,11 +22577,11 @@ UINT32_MAX
 TextOffsetType
 :
 :
-OFFSETS_IN_CONTENT_TEXT
+OffsetsInContentText
 TrailingWhitespace
 :
 :
-DONT_TRIM_TRAILING_WHITESPACE
+DontTrim
 )
 ;
 if
@@ -40375,7 +40375,7 @@ GetText
 TrimmedOffsetFlags
 :
 :
-kNoTrimAfter
+NoTrimAfter
 )
 ;
 int32_t
@@ -41183,7 +41183,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kDefaultTrimFlags
+Default
 :
 nsTextFrame
 :
@@ -41191,7 +41191,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kNoTrimAfter
+NoTrimAfter
 |
 nsTextFrame
 :
@@ -41199,7 +41199,7 @@ nsTextFrame
 TrimmedOffsetFlags
 :
 :
-kNoTrimBefore
+NoTrimBefore
 )
 ;
 int32_t
@@ -43364,7 +43364,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_HAS_TRAILING_BREAK
+HasTrailingBreak
 )
 )
 )
@@ -45055,7 +45055,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_HAS_SHY
+HasShy
 )
 )
 return
@@ -47032,7 +47032,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_HAS_TAB
+HasTab
 )
 ?
 (
@@ -48693,7 +48693,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_HAS_TRAILING_BREAK
+HasTrailingBreak
 )
 )
 {
@@ -49904,7 +49904,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_TRANSFORMED
+IsTransformed
 )
 ;
 if
@@ -49922,7 +49922,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_IS_TRANSFORMED
+IsTransformed
 )
 {
 auto
@@ -50094,7 +50094,7 @@ aOffsetType
 TextOffsetType
 :
 :
-OFFSETS_IN_CONTENT_TEXT
+OffsetsInContentText
 &
 &
 aStartOffset
@@ -50273,7 +50273,7 @@ aTrimTrailingWhitespace
 TrailingWhitespace
 :
 :
-TRIM_TRAILING_WHITESPACE
+Trim
 )
 {
 trimAfter
@@ -50354,12 +50354,12 @@ trimAfter
 TrimmedOffsetFlags
 :
 :
-kDefaultTrimFlags
+Default
 :
 TrimmedOffsetFlags
 :
 :
-kNoTrimAfter
+NoTrimAfter
 )
 )
 ;
@@ -50427,7 +50427,7 @@ aOffsetType
 TextOffsetType
 :
 :
-OFFSETS_IN_RENDERED_TEXT
+OffsetsInRenderedText
 )
 {
 if
@@ -50616,7 +50616,7 @@ aOffsetType
 TextOffsetType
 :
 :
-OFFSETS_IN_RENDERED_TEXT
+OffsetsInRenderedText
 )
 {
 startOffset
@@ -52257,7 +52257,7 @@ GetText
 TrimmedOffsetFlags
 :
 :
-kNoTrimAfter
+NoTrimAfter
 )
 ;
 return

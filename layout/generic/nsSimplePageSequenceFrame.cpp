@@ -3174,14 +3174,14 @@ NS_RGBA
 nsDisplayListBuilderMode
 :
 :
-PAINTING
+Painting
 nsLayoutUtils
 :
 :
 PaintFrameFlags
 :
 :
-PAINT_SYNC_DECODE_IMAGES
+SyncDecodeImages
 )
 ;
 }

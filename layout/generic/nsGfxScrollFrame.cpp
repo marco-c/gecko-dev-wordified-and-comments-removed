@@ -6686,7 +6686,7 @@ aScrollbar
 ScrollMode
 :
 :
-eSmooth
+Smooth
 aDirection
 nsIScrollableFrame
 :
@@ -6720,7 +6720,7 @@ aScrollbar
 ScrollMode
 :
 :
-eInstant
+Instant
 aDirection
 nsIScrollableFrame
 :
@@ -6893,7 +6893,7 @@ LINES
 ScrollMode
 :
 :
-eSmooth
+Smooth
 &
 overflow
 nsGkAtoms
@@ -7036,7 +7036,7 @@ dest
 ScrollMode
 :
 :
-eInstant
+Instant
 nsGkAtoms
 :
 :
@@ -7069,7 +7069,7 @@ mDestination
 ScrollMode
 :
 :
-eSmooth
+Smooth
 )
 ;
 }
@@ -10719,7 +10719,7 @@ pt
 ScrollMode
 :
 :
-eInstant
+Instant
 aOrigin
 &
 range
@@ -10893,7 +10893,7 @@ aMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 )
 {
 mApzSmoothScrollDestination
@@ -10911,7 +10911,7 @@ aMode
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 {
 CompleteAsyncScroll
@@ -10978,7 +10978,7 @@ aMode
 ScrollMode
 :
 :
-eSmooth
+Smooth
 )
 &
 &
@@ -11011,7 +11011,7 @@ aMode
 ScrollMode
 :
 :
-eSmoothMsd
+SmoothMsd
 )
 {
 mIgnoreMomentumScroll
@@ -13565,7 +13565,7 @@ nsPresContext
 InteractionType
 :
 :
-eScrollInteraction
+ScrollInteraction
 TimeStamp
 :
 :
@@ -14031,7 +14031,7 @@ asr
 nsDisplayOwnLayerFlags
 :
 :
-eNone
+None
 scrollbarData
 )
 ;
@@ -21403,7 +21403,7 @@ layoutScrollToPos
 ScrollMode
 :
 :
-eInstant
+Instant
 nsGkAtoms
 :
 :
@@ -21460,7 +21460,7 @@ eRestore
 ScrollMode
 :
 :
-eInstant
+Instant
 )
 ;
 }
@@ -23945,12 +23945,12 @@ isSmooth
 ScrollMode
 :
 :
-eSmooth
+Smooth
 :
 ScrollMode
 :
 :
-eInstant
+Instant
 nsGkAtoms
 :
 :
@@ -33493,7 +33493,7 @@ offset
 ScrollMode
 :
 :
-eNormal
+Normal
 nsGkAtoms
 :
 :
