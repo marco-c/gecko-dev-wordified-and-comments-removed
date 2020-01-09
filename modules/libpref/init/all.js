@@ -19363,7 +19363,7 @@ security
 .
 allow_eval_with_system_principal
 "
-false
+true
 )
 ;
 pref
