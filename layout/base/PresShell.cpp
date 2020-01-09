@@ -3983,6 +3983,10 @@ mIsNeverPainting
 (
 false
 )
+mResolutionUpdated
+(
+false
+)
 mPresShellId
 (
 0
@@ -4126,10 +4130,6 @@ mIsLastKeyDownCanceled
 false
 )
 mHasHandledUserInput
-(
-false
-)
-mResolutionUpdated
 (
 false
 )
