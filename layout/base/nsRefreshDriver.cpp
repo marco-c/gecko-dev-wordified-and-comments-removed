@@ -353,13 +353,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 BackgroundChild
 .
 h
@@ -4244,13 +4237,6 @@ NS_IsMainThread
 PodArrayZero
 (
 sJankLevels
-)
-;
-gfxPrefs
-:
-:
-GetSingleton
-(
 )
 ;
 if

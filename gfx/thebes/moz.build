@@ -289,11 +289,6 @@ gfxPoint
 h
 '
 '
-gfxPrefs
-.
-h
-'
-'
 gfxQuad
 .
 h
@@ -997,11 +992,6 @@ cpp
 '
 '
 gfxPlatform
-.
-cpp
-'
-'
-gfxPrefs
 .
 cpp
 '

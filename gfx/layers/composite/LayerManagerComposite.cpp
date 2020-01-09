@@ -154,13 +154,6 @@ gfxEnv
 h
 "
 #
-include
-"
-gfxPrefs
-.
-h
-"
-#
 ifdef
 XP_MACOSX
 #
