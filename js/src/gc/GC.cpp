@@ -6898,6 +6898,7 @@ JSGC_MIN_NURSERY_BYTES
 :
 if
 (
+(
 value
 >
 gcMaxNurseryBytes_
@@ -6907,6 +6908,12 @@ gcMaxNurseryBytes_
 !
 =
 0
+)
+|
+|
+value
+<
+ArenaSize
 )
 {
 return
