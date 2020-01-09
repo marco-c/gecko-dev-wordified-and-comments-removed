@@ -1992,10 +1992,6 @@ mResizedObject
 aResizedElement
 )
 ;
-mHasShownResizers
-=
-true
-;
 aResizedElement
 .
 SetAttr
@@ -3098,10 +3094,6 @@ PreventDefault
 (
 )
 ;
-mResizerUsedCount
-+
-+
-;
 mOriginalX
 =
 aClientX
@@ -3157,10 +3149,6 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-mGrabberUsedCount
-+
-+
-;
 mOriginalX
 =
 aClientX

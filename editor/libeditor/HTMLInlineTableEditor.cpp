@@ -657,10 +657,6 @@ AddMouseClickListener
 mAddRowAfterButton
 )
 ;
-mHasShownInlineTableEditor
-=
-true
-;
 nsresult
 rv
 =
@@ -1486,10 +1482,6 @@ return
 NS_OK
 ;
 }
-+
-+
-mInlineTableEditorUsedCount
-;
 if
 (
 Destroyed

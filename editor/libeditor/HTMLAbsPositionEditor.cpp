@@ -1637,10 +1637,6 @@ MOZ_ASSERT
 mAbsolutelyPositionedObject
 )
 ;
-mHasShownGrabber
-=
-true
-;
 rv
 =
 RefreshGrabberInternal
