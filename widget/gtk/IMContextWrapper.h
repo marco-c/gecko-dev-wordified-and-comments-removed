@@ -397,6 +397,16 @@ GetIMName
 )
 const
 ;
+static
+guint16
+GetWaitingSynthesizedKeyPressHardwareKeyCode
+(
+)
+{
+return
+sWaitingSynthesizedKeyPressHardwareKeyCode
+;
+}
 protected
 :
 ~
@@ -899,6 +909,10 @@ aCount
 ;
 GdkEventKeyQueue
 mPostingKeyEvents
+;
+static
+guint16
+sWaitingSynthesizedKeyPressHardwareKeyCode
 ;
 struct
 Range
