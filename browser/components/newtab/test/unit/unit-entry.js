@@ -528,6 +528,9 @@ LOCATION_CHANGE_SAME_DOCUMENT
 :
 1
 }
+nsIDOMWindow
+:
+Object
 }
 Cu
 :

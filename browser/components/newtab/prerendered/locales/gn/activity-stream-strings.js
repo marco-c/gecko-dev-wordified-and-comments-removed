@@ -487,8 +487,9 @@ prefs_content_discovery_button
 "
 :
 "
-Turn
-Off
+Eipe
+'
+a
 Content
 Discovery
 "

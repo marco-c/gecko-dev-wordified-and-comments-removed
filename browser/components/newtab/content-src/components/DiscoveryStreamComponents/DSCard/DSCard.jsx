@@ -130,7 +130,7 @@ this
 .
 props
 .
-index
+pos
 }
 )
 )
@@ -177,7 +177,7 @@ this
 .
 props
 .
-index
+pos
 }
 ]
 }
@@ -421,6 +421,13 @@ this
 props
 .
 id
+pos
+:
+this
+.
+props
+.
+pos
 }
 ]
 }

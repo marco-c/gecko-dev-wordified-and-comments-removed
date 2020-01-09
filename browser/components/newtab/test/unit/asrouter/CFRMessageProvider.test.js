@@ -53,7 +53,7 @@ have
 a
 total
 of
-3
+4
 messages
 "
 (
@@ -204,6 +204,19 @@ of
 messages
 )
 {
+if
+(
+message
+.
+id
+!
+=
+=
+"
+PIN_TAB
+"
+)
+{
 assert
 .
 include
@@ -219,6 +232,7 @@ true
 )
 )
 ;
+}
 }
 }
 )

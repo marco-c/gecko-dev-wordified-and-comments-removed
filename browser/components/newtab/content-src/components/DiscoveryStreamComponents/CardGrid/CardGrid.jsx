@@ -107,6 +107,13 @@ dscard
 index
 }
 }
+pos
+=
+{
+rec
+.
+pos
+}
 campaignId
 =
 {
@@ -148,11 +155,6 @@ id
 rec
 .
 id
-}
-index
-=
-{
-index
 }
 type
 =

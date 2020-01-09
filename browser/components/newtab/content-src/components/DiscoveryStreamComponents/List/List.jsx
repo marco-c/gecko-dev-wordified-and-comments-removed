@@ -176,7 +176,7 @@ this
 .
 props
 .
-index
+pos
 }
 )
 )
@@ -223,7 +223,7 @@ this
 .
 props
 .
-index
+pos
 }
 ]
 }
@@ -497,6 +497,13 @@ this
 props
 .
 id
+pos
+:
+this
+.
+props
+.
+pos
 }
 ]
 }
@@ -665,10 +672,12 @@ rec
 .
 image_src
 }
-index
+pos
 =
 {
-index
+rec
+.
+pos
 }
 title
 =

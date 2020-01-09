@@ -656,6 +656,9 @@ filters
 {
 domain
 }
+syncIfEmpty
+:
+false
 }
 )
 ;
