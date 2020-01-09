@@ -1355,6 +1355,10 @@ Unregister
 this
 )
 ;
+mDocShell
+=
+nullptr
+;
 if
 (
 !

@@ -3985,13 +3985,6 @@ ResetPrefersReducedMotionOverrideForTest
 (
 )
 ;
-async
-RootBrowsingContext
-(
-BrowsingContext
-aContext
-)
-;
 child
 :
 /
