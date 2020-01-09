@@ -8464,6 +8464,9 @@ static
 clearPrimedListeners
 (
 extension
+clearPersistent
+=
+true
 )
 {
 for
@@ -8545,6 +8548,11 @@ registered
 )
 ;
 }
+if
+(
+clearPersistent
+)
+{
 EventManager
 .
 clearPersistentListener
@@ -8555,6 +8563,7 @@ event
 key
 )
 ;
+}
 primed
 .
 unregister
