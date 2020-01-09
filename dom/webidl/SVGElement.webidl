@@ -199,14 +199,6 @@ tabIndex
 Throws
 ]
 void
-focus
-(
-)
-;
-[
-Throws
-]
-void
 blur
 (
 )
@@ -216,6 +208,10 @@ blur
 SVGElement
 implements
 GlobalEventHandlers
+;
+SVGElement
+implements
+HTMLOrSVGOrXULElementMixin
 ;
 SVGElement
 implements

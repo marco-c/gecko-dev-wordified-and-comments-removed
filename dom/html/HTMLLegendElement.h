@@ -91,6 +91,10 @@ virtual
 void
 Focus
 (
+const
+FocusOptions
+&
+aOptions
 ErrorResult
 &
 aError

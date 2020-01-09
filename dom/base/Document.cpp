@@ -42660,9 +42660,9 @@ return
 NS_OK
 ;
 }
-mozilla
-:
-:
+FocusOptions
+options
+;
 ErrorResult
 rv
 ;
@@ -42671,6 +42671,7 @@ mElement
 >
 Focus
 (
+options
 rv
 )
 ;

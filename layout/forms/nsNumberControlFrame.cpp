@@ -1451,6 +1451,9 @@ NS_EVENT_STATE_FOCUS
 )
 )
 {
+FocusOptions
+options
+;
 HTMLInputElement
 :
 :
@@ -1462,6 +1465,7 @@ mTextField
 >
 Focus
 (
+options
 IgnoreErrors
 (
 )
@@ -2640,11 +2644,15 @@ FromNode
 mTextField
 )
 ;
+FocusOptions
+options
+;
 textField
 -
 >
 Focus
 (
+options
 IgnoreErrors
 (
 )

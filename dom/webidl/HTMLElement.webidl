@@ -271,14 +271,6 @@ tabIndex
 Throws
 ]
 void
-focus
-(
-)
-;
-[
-Throws
-]
-void
 blur
 (
 )
@@ -576,6 +568,10 @@ ontouchcancel
 HTMLElement
 implements
 GlobalEventHandlers
+;
+HTMLElement
+implements
+HTMLOrSVGOrXULElementMixin
 ;
 HTMLElement
 implements

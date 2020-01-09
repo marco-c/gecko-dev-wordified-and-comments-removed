@@ -204,6 +204,10 @@ HTMLLabelElement
 :
 Focus
 (
+const
+FocusOptions
+&
+aOptions
 ErrorResult
 &
 aError
@@ -250,6 +254,14 @@ nsIFocusManager
 :
 :
 FLAG_BYELEMENTFOCUS
+|
+nsFocusManager
+:
+:
+FocusOptionsToFocusManagerFlags
+(
+aOptions
+)
 )
 ;
 }

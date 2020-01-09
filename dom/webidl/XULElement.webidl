@@ -378,14 +378,6 @@ tabIndex
 Throws
 ]
 void
-focus
-(
-)
-;
-[
-Throws
-]
-void
 blur
 (
 )
@@ -474,6 +466,10 @@ open
 XULElement
 implements
 GlobalEventHandlers
+;
+XULElement
+implements
+HTMLOrSVGOrXULElementMixin
 ;
 XULElement
 implements
