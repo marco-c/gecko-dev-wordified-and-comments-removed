@@ -6126,6 +6126,10 @@ marionette
 .
 window_handles
                 
+if
+handles
+:
+                    
 self
 .
 executor
