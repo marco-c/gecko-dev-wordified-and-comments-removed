@@ -1394,10 +1394,6 @@ i
 )
 ;
 }
-nsLayoutModuleInitialize
-(
-)
-;
 bool
 loadChromeManifests
 ;
@@ -1443,6 +1439,10 @@ if
 loadChromeManifests
 )
 {
+nsLayoutModuleInitialize
+(
+)
+;
 InitializeModuleLocations
 (
 )
