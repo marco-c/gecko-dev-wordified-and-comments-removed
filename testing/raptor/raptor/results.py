@@ -476,6 +476,16 @@ supporting_data
 is
 not
 None
+and
+len
+(
+self
+.
+results
+)
+!
+=
+0
 :
             
 output
