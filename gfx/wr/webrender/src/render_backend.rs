@@ -27,7 +27,7 @@ api
 :
 {
 BuiltDisplayListIter
-SpecificDisplayItem
+DisplayItem
 }
 ;
 use
@@ -7408,7 +7408,7 @@ item
 )
 {
 display_item
-SpecificDisplayItem
+DisplayItem
 :
 :
 PushStackingContext
@@ -7477,7 +7477,7 @@ Some
 subtraversal
 )
 }
-SpecificDisplayItem
+DisplayItem
 :
 :
 PopStackingContext
@@ -9191,7 +9191,6 @@ data_stores_name
 )
 ;
 let
-mut
 doc
 =
 Document

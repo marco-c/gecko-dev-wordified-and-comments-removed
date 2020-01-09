@@ -43,10 +43,7 @@ use
 api
 :
 :
-{
-LayoutPrimitiveInfo
 PrimitiveKeyKind
-}
 ;
 use
 api
@@ -455,6 +452,12 @@ util
 scale_factors
 clamp_to_scale_factor
 }
+;
+use
+internal_types
+:
+:
+LayoutPrimitiveInfo
 ;
 use
 smallvec

@@ -15,7 +15,6 @@ api
 :
 :
 {
-LayoutPrimitiveInfo
 NormalBorder
 as
 ApiNormalBorder
@@ -98,6 +97,12 @@ util
 lerp
 RectHelpers
 }
+;
+use
+internal_types
+:
+:
+LayoutPrimitiveInfo
 ;
 pub
 const
