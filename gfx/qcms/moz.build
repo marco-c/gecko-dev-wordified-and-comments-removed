@@ -122,7 +122,7 @@ c
 '
 transform
 .
-c
+cpp
 '
 '
 transform_util
@@ -258,7 +258,7 @@ transform
 -
 sse1
 .
-c
+cpp
 '
 ]
 SOURCES
@@ -268,7 +268,7 @@ transform
 -
 sse1
 .
-c
+cpp
 '
 ]
 .
@@ -328,7 +328,7 @@ transform
 -
 altivec
 .
-c
+cpp
 '
 ]
 SOURCES
@@ -338,7 +338,7 @@ transform
 -
 altivec
 .
-c
+cpp
 '
 ]
 .
