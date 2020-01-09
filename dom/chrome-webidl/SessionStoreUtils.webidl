@@ -751,6 +751,16 @@ Document
 document
 )
 ;
+boolean
+restoreFormData
+(
+Document
+document
+optional
+CollectedFormData
+data
+)
+;
 }
 ;
 dictionary
