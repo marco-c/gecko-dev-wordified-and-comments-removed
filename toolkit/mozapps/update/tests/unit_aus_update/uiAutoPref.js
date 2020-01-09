@@ -262,7 +262,7 @@ MSG_SHOULD_EQUAL
 ;
 gAUS
 .
-pauseDownload
+stopDownload
 (
 )
 ;

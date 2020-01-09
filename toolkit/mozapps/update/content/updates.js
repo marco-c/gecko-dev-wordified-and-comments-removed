@@ -3425,13 +3425,7 @@ true
 "
 )
 ;
-gAUS
-.
-pauseDownload
-(
-)
-;
-var
+let
 state
 =
 gAUS
@@ -4010,7 +4004,7 @@ _pausedStatus
 ;
 gAUS
 .
-pauseDownload
+stopDownload
 (
 )
 ;

@@ -1443,14 +1443,6 @@ true
 "
 )
 ;
-this
-.
-aus
-.
-pauseDownload
-(
-)
-;
 let
 state
 =
