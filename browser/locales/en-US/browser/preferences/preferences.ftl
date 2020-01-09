@@ -2062,7 +2062,7 @@ colors
 header
 =
 Fonts
-&
+and
 Colors
 default
 -
@@ -4840,7 +4840,7 @@ logins
 header
 =
 Logins
-&
+and
 Passwords
 forms
 -
