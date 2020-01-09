@@ -17018,6 +17018,12 @@ name
 )
 :
         
+self
+.
+innerType
+=
+innerType
+        
 identifier
 =
 IDLUnresolvedIdentifier
@@ -17035,12 +17041,6 @@ location
 parentScope
 identifier
 )
-        
-self
-.
-innerType
-=
-innerType
     
 def
 __str__
