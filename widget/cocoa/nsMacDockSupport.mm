@@ -714,7 +714,7 @@ lockFocus
 [
 [
 NSColor
-whiteColor
+clearColor
 ]
 set
 ]
