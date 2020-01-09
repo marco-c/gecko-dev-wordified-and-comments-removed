@@ -21,10 +21,6 @@ extern
 crate
 cssparser
 ;
-#
-[
-macro_use
-]
 extern
 crate
 cstr
@@ -33,10 +29,6 @@ extern
 crate
 geckoservo
 ;
-#
-[
-macro_use
-]
 extern
 crate
 log
