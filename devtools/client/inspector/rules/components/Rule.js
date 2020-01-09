@@ -180,6 +180,13 @@ rule
 )
 .
 isRequired
+showSelectorEditor
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -192,6 +199,7 @@ const
 onToggleDeclaration
 onToggleSelectorHighlighter
 rule
+showSelectorEditor
 }
 =
 this
@@ -201,6 +209,7 @@ props
 const
 {
 declarations
+id
 isUnmatched
 isUserAgentStyle
 selector
@@ -278,7 +287,10 @@ div
 Selector
 (
 {
+id
+isUserAgentStyle
 selector
+showSelectorEditor
 type
 }
 )

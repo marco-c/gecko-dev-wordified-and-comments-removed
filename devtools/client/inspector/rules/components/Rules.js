@@ -118,6 +118,13 @@ rule
 )
 .
 isRequired
+showSelectorEditor
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -130,6 +137,7 @@ const
 onToggleDeclaration
 onToggleSelectorHighlighter
 rules
+showSelectorEditor
 }
 =
 this
@@ -157,6 +165,7 @@ id
 onToggleDeclaration
 onToggleSelectorHighlighter
 rule
+showSelectorEditor
 }
 )
 ;
