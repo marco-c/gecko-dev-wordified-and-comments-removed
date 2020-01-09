@@ -312,6 +312,17 @@ handleEvent
 event
 )
 {
+if
+(
+!
+event
+.
+isTrusted
+)
+{
+return
+;
+}
 switch
 (
 event
