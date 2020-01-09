@@ -22,12 +22,6 @@ import
 ABCMeta
 abstractmethod
 from
-PIL
-import
-Image
-ImageChops
-ImageStat
-from
 .
 .
 testrunner
@@ -2006,6 +2000,13 @@ self
 screenshots
 )
 :
+        
+from
+PIL
+import
+Image
+ImageChops
+ImageStat
         
 lhs
 =
