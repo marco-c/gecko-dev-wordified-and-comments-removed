@@ -238,6 +238,16 @@ XPIDL_MODULE
 '
 xpcom_ds
 '
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 EXPORTS
 +
 =

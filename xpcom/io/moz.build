@@ -350,6 +350,16 @@ XPIDL_MODULE
 '
 xpcom_io
 '
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 EXPORTS
 +
 =
