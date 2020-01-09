@@ -1154,14 +1154,9 @@ Exited
 ;
 mSettings
 .
-runtime
-=
-this
-;
-mSettings
-.
-flush
+attachTo
 (
+this
 )
 ;
 GeckoAppShell

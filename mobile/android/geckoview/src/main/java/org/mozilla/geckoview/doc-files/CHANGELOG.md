@@ -33,6 +33,16 @@ h1
 v66
 -
 Added
+RuntimeSettings
+base
+class
+to
+support
+nested
+settings
+.
+-
+Added
 baseUri
 to
 [
@@ -1131,4 +1141,4 @@ api
 version
 ]
 :
-8b68d674a0ddb2498df59e0cf8b2edad6f0b3a8e
+53ffb6141c90d561251dd831e9af1bd7197c3c75
