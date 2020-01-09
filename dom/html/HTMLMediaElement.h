@@ -1762,6 +1762,12 @@ HasSuspendTaint
 )
 const
 ;
+bool
+IsVideoDecodingSuspended
+(
+)
+const
+;
 already_AddRefed
 <
 layers
