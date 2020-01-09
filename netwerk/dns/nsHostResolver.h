@@ -717,6 +717,8 @@ override
 bool
 RemoveOrRefresh
 (
+bool
+aTrrToo
 )
 ;
 void
@@ -1435,6 +1437,8 @@ const
 void
 FlushCache
 (
+bool
+aTrrToo
 )
 ;
 LookupStatus

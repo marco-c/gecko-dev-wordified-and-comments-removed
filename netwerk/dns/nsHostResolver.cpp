@@ -1916,6 +1916,8 @@ AddrHostRecord
 :
 RemoveOrRefresh
 (
+bool
+aTrrToo
 )
 {
 MutexAutoLock
@@ -1927,6 +1929,10 @@ addr_info_lock
 if
 (
 addr_info
+&
+&
+!
+aTrrToo
 &
 &
 addr_info
@@ -3634,6 +3640,8 @@ nsHostResolver
 :
 FlushCache
 (
+bool
+aTrrToo
 )
 {
 MutexAutoLock
@@ -3765,6 +3773,7 @@ addrRec
 >
 RemoveOrRefresh
 (
+aTrrToo
 )
 )
 {
