@@ -98,14 +98,6 @@ FileUtils
 cpp
 '
 '
-.
-.
-/
-MemUtils
-.
-cpp
-'
-'
 nsXPCOMGlue
 .
 cpp
