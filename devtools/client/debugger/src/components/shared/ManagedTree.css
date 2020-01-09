@@ -138,7 +138,16 @@ focused
 {
 color
 :
-white
+var
+(
+-
+-
+theme
+-
+selection
+-
+color
+)
 ;
 background
 -
