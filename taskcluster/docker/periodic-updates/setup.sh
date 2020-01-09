@@ -148,6 +148,10 @@ libgtk
 -
 0
 \
+libx11
+-
+xcb1
+\
 libxml2
 -
 utils
