@@ -157,13 +157,6 @@ namespace
 mozilla
 :
 :
-gl
-;
-using
-namespace
-mozilla
-:
-:
 java
 :
 :

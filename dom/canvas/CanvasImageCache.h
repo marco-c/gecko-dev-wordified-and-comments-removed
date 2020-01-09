@@ -88,8 +88,6 @@ gfx
 IntSize
 &
 aSize
-bool
-aIsAccelerated
 )
 ;
 static
@@ -103,8 +101,6 @@ dom
 Element
 *
 aImage
-bool
-aIsAccelerated
 )
 ;
 static
@@ -130,8 +126,6 @@ gfx
 IntSize
 *
 aSizeOut
-bool
-aIsAccelerated
 )
 ;
 }
