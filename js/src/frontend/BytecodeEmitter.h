@@ -772,9 +772,6 @@ scopeNoteList
 CGResumeOffsetList
 resumeOffsetList
 ;
-size_t
-numICEntries
-;
 uint32_t
 numYields
 ;
@@ -2134,17 +2131,6 @@ MOZ_MUST_USE
 bool
 emitCheckDerivedClassConstructorReturn
 (
-)
-;
-MOZ_MUST_USE
-bool
-emitJumpTargetOp
-(
-JSOp
-op
-ptrdiff_t
-*
-off
 )
 ;
 MOZ_MUST_USE
