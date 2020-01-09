@@ -103,6 +103,17 @@ ImageTooltipHelper
 js
 '
 '
+inactive
+-
+css
+-
+tooltip
+-
+helper
+.
+js
+'
+'
 InlineTooltip
 .
 js
