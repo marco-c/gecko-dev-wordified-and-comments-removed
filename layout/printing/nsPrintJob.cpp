@@ -2347,7 +2347,7 @@ nsIDocShell
 aDocShell
 Document
 *
-aDocument
+aOriginalDoc
 float
 aScreenDPI
 )
@@ -2364,7 +2364,7 @@ aDocShell
 ;
 NS_ENSURE_ARG_POINTER
 (
-aDocument
+aOriginalDoc
 )
 ;
 mDocViewerPrint
@@ -2378,13 +2378,13 @@ do_GetWeakReference
 aDocShell
 )
 ;
-mDocument
-=
-aDocument
-;
 mScreenDPI
 =
 aScreenDPI
+;
+mOriginalDoc
+=
+aOriginalDoc
 ;
 return
 NS_OK
@@ -2718,7 +2718,7 @@ nsIWebProgressListener
 aWebProgressListener
 Document
 *
-aDoc
+aSourceDoc
 )
 {
 nsresult
@@ -2729,7 +2729,7 @@ DoCommonPrint
 aIsPrintPreview
 aPrintSettings
 aWebProgressListener
-aDoc
+aSourceDoc
 )
 ;
 if
@@ -2817,7 +2817,7 @@ nsIWebProgressListener
 aWebProgressListener
 Document
 *
-aDoc
+aSourceDoc
 )
 {
 nsresult
@@ -3299,7 +3299,7 @@ mPrintObject
 Init
 (
 docShell
-aDoc
+aSourceDoc
 aIsPrintPreview
 )
 ;
@@ -3712,7 +3712,7 @@ aIsPrintPreview
 {
 domWin
 =
-mDocument
+mOriginalDoc
 -
 >
 GetWindow
@@ -4466,7 +4466,7 @@ mPrintObject
 >
 mDocument
 :
-mDocument
+mOriginalDoc
 ;
 return
 CommonPrint
@@ -5140,7 +5140,7 @@ nsPIDOMWindowOuter
 *
 domWin
 =
-mDocument
+mOriginalDoc
 -
 >
 GetWindow
@@ -12511,7 +12511,7 @@ HasPrintCallbackCanvas
 if
 (
 !
-mDocument
+mOriginalDoc
 )
 {
 return
@@ -12525,7 +12525,7 @@ false
 ;
 DocHasPrintCallbackCanvas
 (
-mDocument
+mOriginalDoc
 static_cast
 <
 void
@@ -12543,7 +12543,7 @@ result
 |
 DocHasPrintCallbackCanvas
 (
-mDocument
+mOriginalDoc
 )
 ;
 }
@@ -13441,7 +13441,7 @@ nsPIDOMWindowOuter
 *
 window
 =
-mDocument
+mOriginalDoc
 -
 >
 GetWindow
@@ -15176,19 +15176,6 @@ printData
 return
 ;
 }
-NS_ASSERTION
-(
-mDocument
-"
-We
-MUST
-have
-a
-document
-.
-"
-)
-;
 for
 (
 uint32_t
