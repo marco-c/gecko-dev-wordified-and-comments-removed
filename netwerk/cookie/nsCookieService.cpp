@@ -9539,9 +9539,6 @@ GetIsTrackingResource
 ;
 if
 (
-isForeign
-&
-&
 AntiTrackingCommon
 :
 :
@@ -9961,9 +9958,6 @@ GetIsTrackingResource
 ;
 if
 (
-isForeign
-&
-&
 AntiTrackingCommon
 :
 :
