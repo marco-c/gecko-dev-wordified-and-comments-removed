@@ -730,10 +730,7 @@ BasePrincipal
 :
 EnsureCSP
 (
-dom
-:
-:
-Document
+nsIDocument
 *
 aDocument
 nsIContentSecurityPolicy
@@ -857,10 +854,7 @@ BasePrincipal
 :
 EnsurePreloadCSP
 (
-dom
-:
-:
-Document
+nsIDocument
 *
 aDocument
 nsIContentSecurityPolicy
@@ -1093,12 +1087,9 @@ aResult
 *
 aResult
 =
-Kind
+IsSystemPrincipal
 (
 )
-=
-=
-eSystemPrincipal
 ;
 return
 NS_OK
