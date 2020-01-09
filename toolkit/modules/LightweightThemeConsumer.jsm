@@ -1113,9 +1113,6 @@ this
 _update
 (
 data
-data
-.
-experiment
 )
 ;
 }
@@ -1290,7 +1287,6 @@ matches
 _update
 (
 themeData
-experiment
 )
 {
 this
@@ -1505,6 +1501,8 @@ this
 _setExperiment
 (
 active
+themeData
+.
 experiment
 theme
 .
