@@ -388,9 +388,14 @@ invokeGetter
 node
 :
 Node
-grip
+targetGrip
 :
 object
+receiverId
+:
+string
+|
+null
 getterName
 :
 string
@@ -419,7 +424,7 @@ client
 .
 createObjectClient
 (
-grip
+targetGrip
 )
 ;
 const
@@ -431,6 +436,7 @@ objectClient
 getPropertyValue
 (
 getterName
+receiverId
 )
 ;
 dispatch

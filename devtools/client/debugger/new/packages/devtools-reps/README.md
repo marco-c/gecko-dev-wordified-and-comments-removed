@@ -319,8 +319,6 @@ launchpad
 (
 .
 /
-assets
-/
 images
 /
 empty
@@ -387,8 +385,6 @@ launchpad
 (
 .
 /
-assets
-/
 images
 /
 launchpad
@@ -420,8 +416,6 @@ app
 ]
 (
 .
-/
-assets
 /
 images
 /

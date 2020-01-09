@@ -339,10 +339,6 @@ content
 .
 push
 (
-"
-\
-n
-"
 stacktrace
 )
 ;
