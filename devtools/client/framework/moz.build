@@ -110,6 +110,15 @@ test
 /
 metrics
 /
+browser_metrics_netmonitor
+.
+ini
+'
+'
+test
+/
+metrics
+/
 browser_metrics_webconsole
 .
 ini
