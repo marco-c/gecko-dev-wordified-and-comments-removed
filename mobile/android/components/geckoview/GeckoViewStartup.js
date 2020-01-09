@@ -380,6 +380,11 @@ GeckoView
 :
 RegisterWebExtension
 "
+"
+GeckoView
+:
+UnregisterWebExtension
+"
 ]
 }
 )
