@@ -55,12 +55,6 @@ GenericArray
 ArrayLength
 }
 ;
-use
-core
-:
-:
-slice
-;
 #
 [
 derive

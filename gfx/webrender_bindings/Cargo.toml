@@ -185,9 +185,6 @@ capture
 "
 serialize_program
 "
-"
-debugger
-"
 ]
 [
 target
