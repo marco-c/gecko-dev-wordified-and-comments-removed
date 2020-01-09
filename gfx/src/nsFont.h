@@ -186,12 +186,6 @@ gfxAlternateValue
 >
 alternateValues
 ;
-RefPtr
-<
-gfxFontFeatureValueSet
->
-featureValueLookup
-;
 nscoord
 size
 =
