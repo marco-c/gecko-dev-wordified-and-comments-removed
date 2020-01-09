@@ -180,11 +180,6 @@ GeckoViewUtils
 jsm
 '
 '
-GeckoViewWebExtension
-.
-jsm
-'
-'
 LoadURIDelegate
 .
 jsm
