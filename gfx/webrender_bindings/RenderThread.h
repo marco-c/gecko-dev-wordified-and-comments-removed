@@ -128,6 +128,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 VsyncDispatcher
@@ -152,13 +159,6 @@ unordered_map
 namespace
 mozilla
 {
-namespace
-gl
-{
-class
-GLContext
-;
-}
 namespace
 wr
 {
