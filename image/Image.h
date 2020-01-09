@@ -1336,7 +1336,7 @@ ImageContainer
 aContainer
 )
 ;
-void
+bool
 UpdateImageContainer
 (
 const

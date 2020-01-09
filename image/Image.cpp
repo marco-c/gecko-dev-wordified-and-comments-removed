@@ -1161,7 +1161,7 @@ return
 drawResult
 ;
 }
-void
+bool
 ImageResource
 :
 :
@@ -1315,6 +1315,14 @@ i
 ;
 }
 }
+return
+!
+mImageContainers
+.
+IsEmpty
+(
+)
+;
 }
 void
 ImageResource
