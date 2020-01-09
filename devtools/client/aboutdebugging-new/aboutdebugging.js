@@ -429,6 +429,14 @@ init
 (
 )
 ;
+this
+.
+actions
+.
+createThisFirefoxRuntime
+(
+)
+;
 render
 (
 Provider
