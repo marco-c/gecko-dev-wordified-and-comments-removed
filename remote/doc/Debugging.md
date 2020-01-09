@@ -82,6 +82,16 @@ setpref
 "
 remote
 .
+enabled
+=
+true
+"
+-
+-
+setpref
+"
+remote
+.
 log
 .
 level
