@@ -601,6 +601,11 @@ CacheControlParser
 cacheControlRequest
 bool
 fromPreviousSession
+bool
+*
+performBackgroundRevalidation
+=
+nullptr
 )
 ;
 nsresult
