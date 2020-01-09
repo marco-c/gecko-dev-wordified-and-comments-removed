@@ -6706,16 +6706,6 @@ aValue
 ;
 static
 bool
-IsUAWidgetEnabled
-(
-)
-{
-return
-sIsUAWidgetEnabled
-;
-}
-static
-bool
 ShouldBlockReservedKeys
 (
 mozilla
@@ -7512,10 +7502,6 @@ sIsFrameTimingPrefEnabled
 static
 bool
 sIsFormAutofillAutocompleteEnabled
-;
-static
-bool
-sIsUAWidgetEnabled
 ;
 static
 bool
