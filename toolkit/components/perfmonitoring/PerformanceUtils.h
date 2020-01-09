@@ -13,6 +13,9 @@ PerformanceTypes
 .
 h
 "
+class
+nsPIDOMWindowOuter
+;
 namespace
 mozilla
 {

@@ -94,13 +94,6 @@ h
 #
 include
 "
-nsPIDOMWindow
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -175,6 +168,9 @@ h
 "
 class
 nsGlobalWindowInner
+;
+class
+nsIGlobalObject
 ;
 class
 nsIPrincipal
