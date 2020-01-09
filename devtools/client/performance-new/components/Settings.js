@@ -2211,8 +2211,7 @@ Range
 label
 :
 "
-Max
-buffer
+Buffer
 size
 :
 "
