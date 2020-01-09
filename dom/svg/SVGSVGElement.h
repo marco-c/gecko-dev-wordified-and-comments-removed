@@ -60,13 +60,13 @@ namespace
 dom
 {
 class
+DOMSVGAngle
+;
+class
 DOMSVGLength
 ;
 class
 DOMSVGNumber
-;
-class
-SVGAngle
 ;
 class
 SVGMatrix
@@ -588,7 +588,7 @@ CreateSVGLength
 ;
 already_AddRefed
 <
-SVGAngle
+DOMSVGAngle
 >
 CreateSVGAngle
 (

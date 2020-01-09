@@ -84,7 +84,7 @@ aGivenProto
 }
 already_AddRefed
 <
-SVGAngle
+DOMSVGAngle
 >
 SVGAnimatedAngle
 :
@@ -105,7 +105,7 @@ mSVGElement
 }
 already_AddRefed
 <
-SVGAngle
+DOMSVGAngle
 >
 SVGAnimatedAngle
 :

@@ -83,6 +83,13 @@ h
 #
 include
 "
+DOMSVGAngle
+.
+h
+"
+#
+include
+"
 DOMSVGLength
 .
 h
@@ -133,13 +140,6 @@ h
 include
 "
 nsSMILTimeContainer
-.
-h
-"
-#
-include
-"
-SVGAngle
 .
 h
 "
@@ -1241,7 +1241,7 @@ forget
 }
 already_AddRefed
 <
-SVGAngle
+DOMSVGAngle
 >
 SVGSVGElement
 :
@@ -1254,7 +1254,7 @@ return
 do_AddRef
 (
 new
-SVGAngle
+DOMSVGAngle
 (
 this
 )

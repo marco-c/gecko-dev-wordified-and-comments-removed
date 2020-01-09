@@ -37,7 +37,7 @@ namespace
 dom
 {
 class
-SVGAngle
+DOMSVGAngle
 final
 :
 public
@@ -56,13 +56,13 @@ AngleType
 ;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
-SVGAngle
+DOMSVGAngle
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
-SVGAngle
+DOMSVGAngle
 )
-SVGAngle
+DOMSVGAngle
 (
 nsSVGAngle
 *
@@ -89,7 +89,7 @@ aType
 {
 }
 explicit
-SVGAngle
+DOMSVGAngle
 (
 SVGElement
 *
@@ -209,7 +209,7 @@ rv
 protected
 :
 ~
-SVGAngle
+DOMSVGAngle
 (
 )
 ;

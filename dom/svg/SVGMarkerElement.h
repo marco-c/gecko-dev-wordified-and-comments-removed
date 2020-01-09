@@ -631,7 +631,7 @@ SetOrientToAuto
 void
 SetOrientToAngle
 (
-SVGAngle
+DOMSVGAngle
 &
 angle
 ErrorResult

@@ -1,7 +1,7 @@
 #
 include
 "
-SVGAngle
+DOMSVGAngle
 .
 h
 "
@@ -36,23 +36,23 @@ dom
 ;
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
 (
-SVGAngle
+DOMSVGAngle
 mSVGElement
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
-SVGAngle
+DOMSVGAngle
 AddRef
 )
 NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 (
-SVGAngle
+DOMSVGAngle
 Release
 )
-SVGAngle
+DOMSVGAngle
 :
 :
-SVGAngle
+DOMSVGAngle
 (
 SVGElement
 *
@@ -65,7 +65,7 @@ aSVGElement
 )
 mType
 (
-SVGAngle
+DOMSVGAngle
 :
 :
 CreatedValue
@@ -88,7 +88,7 @@ Init
 }
 JSObject
 *
-SVGAngle
+DOMSVGAngle
 :
 :
 WrapObject
@@ -120,7 +120,7 @@ aGivenProto
 ;
 }
 uint16_t
-SVGAngle
+DOMSVGAngle
 :
 :
 UnitType
@@ -151,7 +151,7 @@ mBaseValUnit
 ;
 }
 float
-SVGAngle
+DOMSVGAngle
 :
 :
 Value
@@ -186,7 +186,7 @@ GetBaseValue
 ;
 }
 void
-SVGAngle
+DOMSVGAngle
 :
 :
 SetValue
@@ -248,7 +248,7 @@ isBaseVal
 ;
 }
 float
-SVGAngle
+DOMSVGAngle
 :
 :
 ValueInSpecifiedUnits
@@ -279,7 +279,7 @@ mBaseVal
 ;
 }
 void
-SVGAngle
+DOMSVGAngle
 :
 :
 SetValueInSpecifiedUnits
@@ -340,7 +340,7 @@ aValue
 }
 }
 void
-SVGAngle
+DOMSVGAngle
 :
 :
 NewValueSpecifiedUnits
@@ -397,7 +397,7 @@ nullptr
 ;
 }
 void
-SVGAngle
+DOMSVGAngle
 :
 :
 ConvertToSpecifiedUnits
@@ -451,7 +451,7 @@ nullptr
 ;
 }
 void
-SVGAngle
+DOMSVGAngle
 :
 :
 SetValueAsString
@@ -513,7 +513,7 @@ isBaseVal
 ;
 }
 void
-SVGAngle
+DOMSVGAngle
 :
 :
 GetValueAsString
