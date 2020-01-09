@@ -186,17 +186,17 @@ call
 clang_format_cmd
 )
         
+for
+f
+in
+changedFiles
+:
+            
 vcs
 .
 add_remove_files
 (
-"
-"
-.
-join
-(
-changedFiles
-)
+f
 )
         
 return
