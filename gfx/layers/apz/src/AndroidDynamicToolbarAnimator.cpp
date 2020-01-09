@@ -4255,6 +4255,10 @@ mControllerToolbarHeight
 =
 aHeight
 ;
+RequestComposite
+(
+)
+;
 }
 void
 AndroidDynamicToolbarAnimator
