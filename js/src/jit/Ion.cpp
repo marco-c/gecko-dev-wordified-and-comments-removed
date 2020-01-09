@@ -12549,6 +12549,12 @@ MethodStatus
 status
 =
 CanEnterBaselineMethod
+<
+BaselineTier
+:
+:
+Compiler
+>
 (
 cx
 state

@@ -516,6 +516,12 @@ false
 ;
 SET_DEFAULT
 (
+baselineInterpreter
+false
+)
+;
+SET_DEFAULT
+(
 forceInlineCaches
 false
 )
@@ -536,6 +542,12 @@ SET_DEFAULT
 (
 runExtraChecks
 false
+)
+;
+SET_DEFAULT
+(
+baselineInterpreterWarmUpThreshold
+10
 )
 ;
 SET_DEFAULT
