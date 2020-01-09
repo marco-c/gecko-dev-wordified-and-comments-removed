@@ -2421,6 +2421,13 @@ SingleSpecifiedValue
 if
 not
 simple_vector_bindings
+and
+product
+=
+=
+"
+gecko
+"
 :
 impl
 SpecifiedValue
@@ -3348,6 +3355,13 @@ not
 property
 .
 simple_vector_bindings
+and
+product
+=
+=
+"
+gecko
+"
 :
 /
 /

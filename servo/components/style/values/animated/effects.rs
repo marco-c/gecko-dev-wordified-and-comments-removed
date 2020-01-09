@@ -126,6 +126,7 @@ values
 :
 Impossible
 ;
+pub
 type
 AnimatedSimpleShadow
 =
