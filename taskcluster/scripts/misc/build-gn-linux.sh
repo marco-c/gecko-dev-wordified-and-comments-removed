@@ -62,11 +62,6 @@ bin
 g
 +
 +
-export
-LDFLAGS
-=
--
-lrt
 #
 Gn
 build
