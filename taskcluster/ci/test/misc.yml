@@ -94,7 +94,7 @@ ccov
 /
 debug
 :
-6
+8
 android
 -
 em
@@ -111,7 +111,7 @@ api
 /
 debug
 :
-6
+8
 android
 -
 em
@@ -128,7 +128,7 @@ api
 /
 opt
 :
-2
+3
 default
 :
 1
