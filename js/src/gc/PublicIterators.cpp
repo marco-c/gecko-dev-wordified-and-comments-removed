@@ -242,7 +242,7 @@ thingSize
 ;
 for
 (
-ArenaCellIterUnbarriered
+ArenaCellIter
 iter
 (
 arena
