@@ -51,6 +51,15 @@ jsapi
 .
 h
 "
+#
+include
+"
+js
+/
+Warnings
+.
+h
+"
 namespace
 mozilla
 {
@@ -249,7 +258,10 @@ GetScopeObject
 )
 )
 {
-JS_ReportWarningASCII
+JS
+:
+:
+WarnASCII
 (
 api
 .

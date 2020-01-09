@@ -830,7 +830,11 @@ JSREPORT_WARNING
 *
 reported
 via
-JS_ReportWarning
+JS
+:
+:
+Warn
+*
 *
 /
 #

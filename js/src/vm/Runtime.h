@@ -278,6 +278,15 @@ h
 #
 include
 "
+js
+/
+Warnings
+.
+h
+"
+#
+include
+"
 threading
 /
 Thread

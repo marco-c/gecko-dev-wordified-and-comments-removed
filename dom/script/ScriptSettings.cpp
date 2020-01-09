@@ -66,6 +66,15 @@ h
 #
 include
 "
+js
+/
+Warnings
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h

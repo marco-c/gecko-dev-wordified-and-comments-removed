@@ -57,6 +57,15 @@ Debug
 .
 h
 "
+#
+include
+"
+js
+/
+Warnings
+.
+h
+"
 class
 nsPIDOMWindowInner
 ;

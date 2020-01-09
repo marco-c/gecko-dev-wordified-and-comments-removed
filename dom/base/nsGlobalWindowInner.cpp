@@ -542,6 +542,15 @@ include
 "
 js
 /
+Warnings
+.
+h
+"
+#
+include
+"
+js
+/
 Wrapper
 .
 h
@@ -20962,7 +20971,10 @@ IsSafeToRunScript
 )
 )
 {
-JS_ReportWarningASCII
+JS
+:
+:
+WarnASCII
 (
 aCx
 "

@@ -51,6 +51,15 @@ Initialization
 .
 h
 "
+#
+include
+"
+js
+/
+Warnings
+.
+h
+"
 using
 namespace
 JS

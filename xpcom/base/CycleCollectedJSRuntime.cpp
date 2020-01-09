@@ -198,6 +198,15 @@ h
 #
 include
 "
+js
+/
+Warnings
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
