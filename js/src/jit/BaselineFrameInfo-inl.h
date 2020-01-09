@@ -11,7 +11,7 @@ namespace
 jit
 {
 void
-FrameInfo
+CompilerFrameInfo
 :
 :
 pop
@@ -79,7 +79,7 @@ reset
 ;
 }
 void
-FrameInfo
+CompilerFrameInfo
 :
 :
 popn

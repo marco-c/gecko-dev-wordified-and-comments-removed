@@ -4648,8 +4648,6 @@ frame
 jsbytecode
 *
 pc
-uint32_t
-stackDepth
 )
 ;
 MOZ_MUST_USE
