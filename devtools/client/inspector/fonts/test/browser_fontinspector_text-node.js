@@ -96,6 +96,16 @@ updated
 "
 )
 ;
+info
+(
+"
+Select
+the
+text
+node
+"
+)
+;
 await
 selectNode
 (
