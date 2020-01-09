@@ -2207,7 +2207,7 @@ finalize
 fop
 )
 ;
-JS_POISON
+Poison
 (
 t
 JS_SWEPT_TENURED_PATTERN
@@ -2244,7 +2244,7 @@ newListTail
 newListHead
 )
 ;
-JS_EXTRA_POISON
+DebugOnlyPoison
 (
 data
 JS_SWEPT_TENURED_PATTERN
@@ -14655,7 +14655,7 @@ defined
 (
 JS_GC_ZEAL
 )
-JS_POISON
+Poison
 (
 reinterpret_cast
 <

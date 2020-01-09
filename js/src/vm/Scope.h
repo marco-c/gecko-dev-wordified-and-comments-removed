@@ -590,7 +590,7 @@ if
 nameCount
 )
 {
-JS_POISON
+Poison
 (
 &
 data_

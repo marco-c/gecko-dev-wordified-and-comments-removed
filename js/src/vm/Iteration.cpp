@@ -3310,7 +3310,7 @@ NativeIterator
 (
 )
 {
-JS_POISON
+Poison
 (
 static_cast
 <
