@@ -500,15 +500,10 @@ SendReport
 (
 )
 {
-#
-ifdef
-MOZ_ENABLE_GCONF
 LoadProxyinfo
 (
 )
 ;
-#
-endif
 gSendThreadID
 =
 g_thread_create

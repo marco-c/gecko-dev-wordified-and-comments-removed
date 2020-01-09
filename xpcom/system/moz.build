@@ -105,11 +105,6 @@ nsIDeviceSensors
 idl
 '
 '
-nsIGConfService
-.
-idl
-'
-'
 nsIGeolocationProvider
 .
 idl

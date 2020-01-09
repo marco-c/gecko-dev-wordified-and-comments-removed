@@ -406,13 +406,6 @@ h
 #
 include
 "
-nsIGConfService
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

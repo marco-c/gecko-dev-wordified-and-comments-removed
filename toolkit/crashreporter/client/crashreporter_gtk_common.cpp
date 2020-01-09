@@ -516,9 +516,6 @@ FALSE
 ;
 }
 #
-ifdef
-MOZ_ENABLE_GCONF
-#
 define
 HTTP_PROXY_DIR
 "
@@ -930,8 +927,6 @@ conf
 )
 ;
 }
-#
-endif
 gpointer
 SendThread
 (
