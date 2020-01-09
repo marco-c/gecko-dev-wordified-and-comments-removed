@@ -367,7 +367,7 @@ path
 ]
 }
 ;
-is
+equal
 (
 JSON
 .

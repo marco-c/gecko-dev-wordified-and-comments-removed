@@ -73,8 +73,6 @@ com
 "
 )
 ;
-Assert
-.
 deepEqual
 (
 extensionPolicy

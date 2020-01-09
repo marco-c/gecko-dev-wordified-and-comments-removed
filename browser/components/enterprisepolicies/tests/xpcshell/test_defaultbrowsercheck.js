@@ -46,7 +46,7 @@ shouldCheckDefaultBrowser
 =
 true
 ;
-is
+equal
 (
 ShellService
 .
@@ -76,7 +76,7 @@ true
 }
 )
 ;
-is
+equal
 (
 ShellService
 .
@@ -98,7 +98,7 @@ shouldCheckDefaultBrowser
 =
 true
 ;
-is
+equal
 (
 ShellService
 .
@@ -140,7 +140,7 @@ false
 }
 )
 ;
-is
+equal
 (
 ShellService
 .
@@ -161,7 +161,7 @@ shouldCheckDefaultBrowser
 =
 false
 ;
-is
+equal
 (
 ShellService
 .

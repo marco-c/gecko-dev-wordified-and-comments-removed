@@ -287,7 +287,7 @@ json
 "
 )
 ;
-is
+equal
 (
 Services
 .
@@ -350,7 +350,7 @@ url
 }
 )
 ;
-is
+equal
 (
 Services
 .
@@ -413,7 +413,7 @@ exists
 "
 )
 ;
-is
+equal
 (
 permission
 .

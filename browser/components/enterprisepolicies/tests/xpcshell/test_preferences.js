@@ -56,7 +56,7 @@ IDN_show_punycode
 true
 )
 ;
-is
+equal
 (
 Services
 .

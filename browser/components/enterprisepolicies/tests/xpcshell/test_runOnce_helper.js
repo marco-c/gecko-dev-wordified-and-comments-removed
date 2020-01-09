@@ -60,7 +60,7 @@ test_action
 callback
 )
 ;
-is
+equal
 (
 runCount
 1
@@ -83,7 +83,7 @@ test_action
 callback
 )
 ;
-is
+equal
 (
 runCount
 1
