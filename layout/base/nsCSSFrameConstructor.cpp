@@ -46800,6 +46800,10 @@ aNewFrame
 MOZ_ASSERT
 (
 blockFrame
+&
+&
+(
+blockFrame
 -
 >
 IsBlockFrame
@@ -46812,6 +46816,7 @@ blockFrame
 >
 IsDetailsFrame
 (
+)
 )
 "
 not
