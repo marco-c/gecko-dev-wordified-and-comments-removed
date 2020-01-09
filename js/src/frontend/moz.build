@@ -443,6 +443,14 @@ BinTokenReaderMultipart
 cpp
 '
 ]
+DIRS
++
+=
+[
+'
+binsource
+'
+]
 #
 Instrument
 BinAST
