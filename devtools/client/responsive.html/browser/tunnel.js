@@ -1182,11 +1182,6 @@ Content
 StateChange
 "
 "
-Content
-:
-StatusChange
-"
-"
 DOMTitleChanged
 "
 "
