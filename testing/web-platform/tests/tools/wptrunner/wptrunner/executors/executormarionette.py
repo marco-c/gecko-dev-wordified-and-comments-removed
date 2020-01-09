@@ -4724,7 +4724,11 @@ window
 .
 open
 (
-undefined
+'
+about
+:
+blank
+'
 '
 %
 s
