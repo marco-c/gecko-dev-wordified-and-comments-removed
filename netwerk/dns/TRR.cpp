@@ -1217,6 +1217,11 @@ INHIBIT_CACHING
 :
 0
 )
+|
+nsIChannel
+:
+:
+LOAD_BYPASS_URL_CLASSIFIER
 ios
 )
 ;
