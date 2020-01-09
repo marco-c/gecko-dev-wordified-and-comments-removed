@@ -2838,6 +2838,15 @@ nsIContent
 aOverrideClickTarget
 )
 ;
+void
+RecordEventHandlingResponsePerformance
+(
+const
+WidgetEvent
+*
+aEvent
+)
+;
 bool
 AdjustContextMenuKeyEvent
 (
