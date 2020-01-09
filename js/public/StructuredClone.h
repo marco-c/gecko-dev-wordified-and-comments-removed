@@ -786,6 +786,7 @@ ownTransferables_
 policy
 ;
 }
+MOZ_MUST_USE
 bool
 Init
 (
@@ -913,6 +914,7 @@ Iter
 )
 ;
 }
+MOZ_MUST_USE
 bool
 Advance
 (
@@ -934,6 +936,7 @@ distance
 )
 ;
 }
+MOZ_MUST_USE
 bool
 ReadBytes
 (
@@ -959,6 +962,7 @@ size
 )
 ;
 }
+MOZ_MUST_USE
 bool
 AppendBytes
 (
@@ -994,6 +998,7 @@ size
 )
 ;
 }
+MOZ_MUST_USE
 bool
 UpdateBytes
 (
@@ -1244,6 +1249,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 Append
 (
