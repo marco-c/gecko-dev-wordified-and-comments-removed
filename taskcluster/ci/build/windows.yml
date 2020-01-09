@@ -1416,6 +1416,8 @@ beta
 :
 true
 release
+.
+*
 :
 true
 esr
@@ -4518,6 +4520,8 @@ beta
 :
 true
 release
+.
+*
 :
 true
 default
