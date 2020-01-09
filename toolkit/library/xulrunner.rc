@@ -81,7 +81,7 @@ IGeckoCustom
 .
 tlb
 64
-RT_MANIFEST
+24
 IAccessible64
 .
 manifest
@@ -89,7 +89,7 @@ manifest
 ifndef
 HAVE_64BIT_BUILD
 32
-RT_MANIFEST
+24
 IAccessible32
 .
 manifest
