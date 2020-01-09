@@ -226,17 +226,6 @@ slice
 start_timestamp
 )
 ;
-slice
-.
-end_timestamp
-=
-fixup
-(
-slice
-.
-end_timestamp
-)
-;
 }
 }
 record
