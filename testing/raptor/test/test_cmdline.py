@@ -69,10 +69,6 @@ power_test
 =
 False
                      
-cpu_test
-=
-False
-                     
 memory_test
 =
 False
@@ -181,10 +177,6 @@ power_test
 =
 False
                      
-cpu_test
-=
-False
-                     
 memory_test
 =
 False
@@ -253,10 +245,6 @@ sophie
 '
                      
 power_test
-=
-False
-                     
-cpu_test
 =
 False
                      
@@ -331,83 +319,6 @@ power_test
 =
 False
                      
-cpu_test
-=
-False
-                     
-memory_test
-=
-False
-)
-    
-verify_options
-(
-parser
-args
-)
-    
-args
-=
-Namespace
-(
-app
-=
-'
-geckoview
-'
-                     
-binary
-=
-'
-org
-.
-mozilla
-.
-geckoview_example
-'
-                     
-activity
-=
-'
-GeckoViewActivity
-'
-                     
-intent
-=
-'
-android
-.
-intent
-.
-action
-.
-MAIN
-'
-                     
-gecko_profile
-=
-'
-False
-'
-                     
-is_release_build
-=
-False
-                     
-host
-=
-'
-sophie
-'
-                     
-power_test
-=
-False
-                     
-cpu_test
-=
-True
-                     
 memory_test
 =
 False
@@ -474,10 +385,6 @@ sophie
 '
                      
 power_test
-=
-False
-                     
-cpu_test
 =
 False
                      
