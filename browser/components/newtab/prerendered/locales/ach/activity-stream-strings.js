@@ -1027,9 +1027,9 @@ section_menu_action_add_search_engine
 :
 "
 Med
-ingin
+Ingin
 me
-yeny
+Yeny
 "
 "
 section_menu_action_move_up

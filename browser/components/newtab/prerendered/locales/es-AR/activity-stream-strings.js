@@ -1204,7 +1204,7 @@ firstrun_privacy_notice
 "
 :
 "
-Anuncio
+Nota
 de
 privacidad
 "

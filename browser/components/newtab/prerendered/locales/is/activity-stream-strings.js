@@ -418,8 +418,9 @@ prefs_content_discovery_header
 "
 :
 "
+Upphafss
+a
 Firefox
-Home
 "
 "
 prefs_content_discovery_description
@@ -451,10 +452,9 @@ prefs_content_discovery_button
 "
 :
 "
-Turn
-Off
-Content
-Discovery
+Sl
+kkva
+efnisveitu
 "
 "
 prefs_section_rows_option

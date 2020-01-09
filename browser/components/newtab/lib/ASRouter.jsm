@@ -1378,7 +1378,7 @@ telemetryInfo
 source
 :
 "
-activitystream
+amo
 "
 }
 ;

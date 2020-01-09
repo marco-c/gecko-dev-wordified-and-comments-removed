@@ -1117,7 +1117,9 @@ section_menu_action_add_search_engine
 :
 "
 Embojuaju
-hekaha
+jehekaha
+mongu
+eha
 "
 "
 section_menu_action_move_up

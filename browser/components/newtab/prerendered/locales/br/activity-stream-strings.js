@@ -461,8 +461,8 @@ prefs_content_discovery_header
 "
 :
 "
+Degemer
 Firefox
-Home
 "
 "
 prefs_content_discovery_description
@@ -1137,7 +1137,7 @@ section_menu_action_add_search_engine
 Ouzhpenna
 ul
 lusker
-klask
+enklask
 "
 "
 section_menu_action_move_up
@@ -1346,16 +1346,6 @@ Digeri
 al
 la
 ser
-"
-"
-pocket_learn_more
-"
-:
-"
-Gouzout
-hiroc
-'
-h
 "
 }
 ;

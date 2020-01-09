@@ -1026,7 +1026,8 @@ section_menu_action_add_search_engine
 :
 "
 eydu
-yiylorde
+Masi
+Njiilaw
 "
 "
 section_menu_action_move_up

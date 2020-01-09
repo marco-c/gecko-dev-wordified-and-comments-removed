@@ -464,10 +464,10 @@ prefs_content_discovery_button
 "
 :
 "
-Turn
-Off
-Content
-Discovery
+Sens
+asnirem
+n
+ubur
 "
 "
 prefs_section_rows_option
