@@ -3407,7 +3407,7 @@ do_QueryInterface
 aEvent
 -
 >
-GetTarget
+GetComposedTarget
 (
 )
 )
@@ -4100,7 +4100,7 @@ do_QueryInterface
 aEvent
 -
 >
-GetTarget
+GetComposedTarget
 (
 )
 )
@@ -4821,7 +4821,7 @@ do_QueryInterface
 aEvent
 -
 >
-GetTarget
+GetComposedTarget
 (
 )
 )
