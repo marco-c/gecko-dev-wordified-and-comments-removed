@@ -3519,6 +3519,13 @@ URL
 }
 if
 (
+!
+data
+.
+customGetter
+&
+&
+(
 defaultVal
 !
 =
@@ -3529,6 +3536,7 @@ null
 data
 .
 isNullable
+)
 )
 {
 ReflectionHarness
