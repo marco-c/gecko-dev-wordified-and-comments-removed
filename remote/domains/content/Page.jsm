@@ -14,7 +14,7 @@ Page
 ;
 const
 {
-Domain
+ContentProcessDomain
 }
 =
 ChromeUtils
@@ -32,7 +32,7 @@ content
 /
 domains
 /
-Domain
+ContentProcessDomain
 .
 jsm
 "
@@ -89,7 +89,7 @@ jsm
 class
 Page
 extends
-Domain
+ContentProcessDomain
 {
 constructor
 (

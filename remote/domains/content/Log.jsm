@@ -14,7 +14,7 @@ Log
 ;
 const
 {
-Domain
+ContentProcessDomain
 }
 =
 ChromeUtils
@@ -32,7 +32,7 @@ content
 /
 domains
 /
-Domain
+ContentProcessDomain
 .
 jsm
 "
@@ -65,7 +65,7 @@ jsm
 class
 Log
 extends
-Domain
+ContentProcessDomain
 {
 constructor
 (
