@@ -174,7 +174,7 @@ dom
 NS_IMPL_ISUPPORTS
 (
 nsXPCWrappedJSClass
-nsIXPCWrappedJSClass
+nsISupports
 )
 bool
 AutoScriptEvaluate
@@ -5127,7 +5127,7 @@ XPCOutParamClass
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXPCWrappedJSClass
 :
 :
