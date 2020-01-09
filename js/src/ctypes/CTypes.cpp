@@ -15811,6 +15811,8 @@ type
 \
 type
 result
+=
+0
 ;
 \
 if
