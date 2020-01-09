@@ -184,7 +184,7 @@ cx
 JS
 :
 :
-Compile
+CompileDontInflate
 (
 cx
 opts
