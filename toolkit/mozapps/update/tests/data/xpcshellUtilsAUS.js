@@ -673,6 +673,12 @@ xml
 "
 ;
 var
+gIsServiceTest
+;
+var
+gTestID
+;
+var
 gURLData
 =
 URL_HOST
@@ -680,9 +686,6 @@ URL_HOST
 "
 /
 "
-;
-var
-gTestID
 ;
 var
 gTestserver
@@ -3892,7 +3895,7 @@ gDebugTestLog
 &
 &
 !
-IS_SERVICE_TEST
+gIsServiceTest
 )
 {
 if
@@ -4025,7 +4028,7 @@ APP_INFO_NAME
 ;
 if
 (
-IS_SERVICE_TEST
+gIsServiceTest
 &
 &
 !
@@ -4211,7 +4214,7 @@ setBoolPref
 PREF_APP_UPDATE_SERVICE_ENABLED
 !
 !
-IS_SERVICE_TEST
+gIsServiceTest
 )
 ;
 }
@@ -8081,7 +8084,7 @@ path
 }
 if
 (
-IS_SERVICE_TEST
+gIsServiceTest
 )
 {
 let
@@ -8301,7 +8304,7 @@ svcOriginalLog
 ;
 if
 (
-IS_SERVICE_TEST
+gIsServiceTest
 )
 {
 copyFileToTestAppDir
@@ -8527,7 +8530,7 @@ pid
 let
 launchBin
 =
-IS_SERVICE_TEST
+gIsServiceTest
 &
 &
 isInvalidArgTest
@@ -8573,7 +8576,7 @@ gCallbackArgs
 else
 if
 (
-IS_SERVICE_TEST
+gIsServiceTest
 )
 {
 args
@@ -8736,7 +8739,7 @@ if
 (
 (
 !
-IS_SERVICE_TEST
+gIsServiceTest
 &
 &
 process
@@ -8833,7 +8836,7 @@ FILE_LAST_UPDATE_LOG
 if
 (
 !
-IS_SERVICE_TEST
+gIsServiceTest
 )
 {
 Assert
@@ -8892,7 +8895,7 @@ now
 ;
 if
 (
-IS_SERVICE_TEST
+gIsServiceTest
 &
 &
 aCheckSvcLog
@@ -9438,7 +9441,7 @@ setupActiveUpdate
 let
 pendingState
 =
-IS_SERVICE_TEST
+gIsServiceTest
 ?
 STATE_PENDING_SVC
 :
@@ -9542,7 +9545,7 @@ svcLogOriginalContents
 ;
 if
 (
-IS_SERVICE_TEST
+gIsServiceTest
 &
 &
 aCheckSvcLog
@@ -9647,7 +9650,7 @@ win
 {
 if
 (
-IS_SERVICE_TEST
+gIsServiceTest
 )
 {
 waitForServiceStop
@@ -9894,7 +9897,7 @@ path
 }
 if
 (
-IS_SERVICE_TEST
+gIsServiceTest
 &
 &
 aCheckSvcLog
@@ -20797,7 +20800,7 @@ warn
 ;
 if
 (
-IS_SERVICE_TEST
+gIsServiceTest
 )
 {
 debugDump
@@ -21111,7 +21114,7 @@ XRE_NO_WINDOWS_CRASH_DIALOG
 }
 if
 (
-IS_SERVICE_TEST
+gIsServiceTest
 )
 {
 debugDump

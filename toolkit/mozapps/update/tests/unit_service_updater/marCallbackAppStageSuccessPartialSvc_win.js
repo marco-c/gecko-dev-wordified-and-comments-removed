@@ -18,7 +18,7 @@ return
 const
 STATE_AFTER_STAGE
 =
-IS_SERVICE_TEST
+gIsServiceTest
 ?
 STATE_APPLIED_SVC
 :

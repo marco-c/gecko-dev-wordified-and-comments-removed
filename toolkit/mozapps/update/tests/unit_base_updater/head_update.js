@@ -1,8 +1,3 @@
-const
-IS_SERVICE_TEST
-=
-false
-;
 load
 (
 "
@@ -11,4 +6,8 @@ xpcshellUtilsAUS
 js
 "
 )
+;
+gIsServiceTest
+=
+false
 ;
