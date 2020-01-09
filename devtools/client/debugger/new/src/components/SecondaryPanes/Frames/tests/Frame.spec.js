@@ -404,7 +404,7 @@ toMatchSnapshot
 }
 )
 ;
-it
+fit
 (
 "
 filename
@@ -501,7 +501,8 @@ text
 toBe
 (
 "
-renderFoo
+\
+trenderFoo
 foo
 -
 view
@@ -509,6 +510,8 @@ view
 js
 :
 10
+\
+n
 "
 )
 ;

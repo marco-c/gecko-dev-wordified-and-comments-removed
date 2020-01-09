@@ -7,7 +7,6 @@ role
 list
 "
 ]
-l
 {
 list
 -
@@ -16,10 +15,8 @@ style
 none
 ;
 margin
--
-top
 :
-4px
+0
 ;
 padding
 :
@@ -643,6 +640,14 @@ block
 width
 :
 12px
+;
+margin
+-
+inline
+-
+start
+:
+4px
 ;
 }
 :

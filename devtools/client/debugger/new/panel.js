@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 const
 {
 Task
@@ -594,7 +589,7 @@ function
 (
 )
 {
-let
+const
 frames
 =
 this

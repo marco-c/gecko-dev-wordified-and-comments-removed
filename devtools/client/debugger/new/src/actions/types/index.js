@@ -240,6 +240,16 @@ Object
 =
 >
 void
+openConsoleAndEvaluate
+:
+(
+input
+:
+string
+)
+=
+>
+void
 onReload
 :
 (
