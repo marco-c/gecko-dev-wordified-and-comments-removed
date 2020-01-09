@@ -280,11 +280,6 @@ IMPL_EVENT_HANDLER
 (
 removetrack
 )
-bool
-mPendingTextTrackChange
-=
-false
-;
 private
 :
 ~
