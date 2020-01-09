@@ -19851,10 +19851,6 @@ isSpread
 &
 !
 isSuper
-&
-&
-!
-isCrossRealm
 )
 )
 {
@@ -19865,6 +19861,13 @@ CallArgsFromVp
 (
 argc
 vp
+)
+;
+AutoRealm
+ar
+(
+cx
+fun
 )
 ;
 if

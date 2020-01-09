@@ -893,6 +893,11 @@ CantInlineBigCalleeInlinedBytecodeLength
 \
 _
 (
+CantInlineCrossRealm
+)
+\
+_
+(
 CantInlineNotHot
 )
 \
