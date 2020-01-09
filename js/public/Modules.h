@@ -240,7 +240,8 @@ promise
 ;
 extern
 JS_PUBLIC_API
-bool
+JSObject
+*
 CompileModule
 (
 JSContext
@@ -256,12 +257,6 @@ char16_t
 >
 &
 srcBuf
-MutableHandle
-<
-JSObject
-*
->
-moduleRecord
 )
 ;
 extern

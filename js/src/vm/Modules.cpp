@@ -346,7 +346,8 @@ promise
 ;
 }
 JS_PUBLIC_API
-bool
+JSObject
+*
 JS
 :
 :
@@ -365,12 +366,6 @@ char16_t
 >
 &
 srcBuf
-MutableHandle
-<
-JSObject
-*
->
-module
 )
 {
 MOZ_ASSERT
@@ -398,10 +393,7 @@ CHECK_THREAD
 cx
 )
 ;
-module
-.
-set
-(
+return
 js
 :
 :
@@ -414,12 +406,6 @@ cx
 options
 srcBuf
 )
-)
-;
-return
-!
-!
-module
 ;
 }
 JS_PUBLIC_API
