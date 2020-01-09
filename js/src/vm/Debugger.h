@@ -4277,8 +4277,6 @@ ResumeMode
 resumeMode
 MutableHandleValue
 value
-MutableHandleSavedFrame
-exnStack
 )
 ;
 MOZ_MUST_USE
@@ -4294,9 +4292,6 @@ const
 Value
 &
 value
-SavedFrame
-*
-exnStack
 MutableHandleValue
 result
 )
@@ -5076,8 +5071,6 @@ ResumeMode
 resumeMode
 MutableHandleValue
 vp
-HandleSavedFrame
-exnStack
 )
 =
 0
@@ -5141,8 +5134,6 @@ ResumeMode
 resumeMode
 MutableHandleValue
 vp
-HandleSavedFrame
-exnStack
 )
 override
 ;
@@ -5181,6 +5172,17 @@ static
 const
 Class
 class_
+;
+enum
+{
+OWNER_SLOT
+=
+0
+ARGUMENTS_SLOT
+ONSTEP_HANDLER_SLOT
+ONPOP_HANDLER_SLOT
+RESERVED_SLOTS
+}
 ;
 static
 NativeObject
@@ -5395,8 +5397,6 @@ ResumeMode
 resumeMode
 MutableHandleValue
 value
-MutableHandleSavedFrame
-exnStack
 )
 ;
 bool
@@ -6356,8 +6356,6 @@ ResumeMode
 resumeMode
 MutableHandleValue
 value
-MutableHandleSavedFrame
-exnStack
 )
 ;
 static
