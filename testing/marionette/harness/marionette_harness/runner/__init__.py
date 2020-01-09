@@ -32,11 +32,5 @@ mixins
 import
 (
     
-BrowserMobProxyTestCaseMixin
-    
-BrowserMobProxyArguments
-    
-BrowserMobTestCase
-    
 WindowManagerMixin
 )
