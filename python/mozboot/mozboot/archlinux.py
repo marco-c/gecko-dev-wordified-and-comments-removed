@@ -454,6 +454,17 @@ BROWSER_PACKAGES
 )
     
 def
+ensure_nasm_packages
+(
+self
+state_dir
+checkout_root
+)
+:
+        
+pass
+    
+def
 ensure_mobile_android_packages
 (
 self

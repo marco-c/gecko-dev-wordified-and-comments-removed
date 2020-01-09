@@ -14,6 +14,7 @@ mozboot
 .
 linux_common
 import
+NasmInstall
 NodeInstall
 StyloInstall
 ClangStaticAnalysisInstall
@@ -157,6 +158,7 @@ strip
 class
 DebianBootstrapper
 (
+NasmInstall
 NodeInstall
 StyloInstall
 ClangStaticAnalysisInstall
