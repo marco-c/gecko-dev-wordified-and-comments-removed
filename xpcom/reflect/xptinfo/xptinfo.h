@@ -709,10 +709,11 @@ Data16
 const
 {
 return
-(
-(
+static_cast
+<
 uint16_t
-)
+>
+(
 mData1
 <
 <
