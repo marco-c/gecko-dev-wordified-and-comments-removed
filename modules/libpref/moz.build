@@ -221,6 +221,16 @@ SharedPrefMap
 cpp
 '
 ]
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 include
 (
 '

@@ -114,10 +114,15 @@ MulticastDNSDeviceProvider
 .
 cpp
 '
+]
+XPCOM_MANIFESTS
++
+=
+[
 '
-PresentationDeviceProviderModule
+components
 .
-cpp
+conf
 '
 ]
 EXTRA_JS_MODULES
