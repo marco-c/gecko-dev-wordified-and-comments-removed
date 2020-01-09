@@ -280,6 +280,17 @@ promptState
 expectedState
 )
 {
+info
+(
+checkPromptState
+:
+{
+expectedState
+.
+msg
+}
+)
+;
 is
 (
 promptState
