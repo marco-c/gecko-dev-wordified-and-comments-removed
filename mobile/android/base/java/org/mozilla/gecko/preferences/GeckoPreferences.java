@@ -17,6 +17,13 @@ android
 .
 annotation
 .
+SuppressLint
+;
+import
+android
+.
+annotation
+.
 TargetApi
 ;
 import
@@ -1873,6 +1880,12 @@ newTitle
 ;
 }
 }
+SuppressLint
+(
+"
+PrivateResource
+"
+)
 private
 void
 updateHomeAsUpIndicator
