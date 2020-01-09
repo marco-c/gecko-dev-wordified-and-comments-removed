@@ -3841,7 +3841,7 @@ public
 static
 const
 uint32_t
-MAX_ARGS_SPREAD_LENGTH
+MAX_ARGS_ARRAY_LENGTH
 =
 16
 ;
