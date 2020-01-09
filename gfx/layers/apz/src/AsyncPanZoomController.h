@@ -1935,6 +1935,14 @@ ScrollAndZoom
 const
 ;
 AsyncTransform
+GetCurrentAsyncViewportRelativeTransform
+(
+AsyncTransformConsumer
+aMode
+)
+const
+;
+AsyncTransform
 GetCurrentAsyncTransformForFixedAdjustment
 (
 AsyncTransformConsumer
