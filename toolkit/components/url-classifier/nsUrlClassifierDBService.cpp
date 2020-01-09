@@ -8110,7 +8110,7 @@ net
 UrlClassifierFeatureFactory
 :
 :
-GetFeaturesNoChannel
+GetFeaturesPhishingProtection
 (
 features
 )
