@@ -1487,6 +1487,13 @@ GetFrameForDir
 )
 const
 ;
+nsIFrame
+*
+GetFrameForScrollSnap
+(
+)
+const
+;
 ScrollSnapInfo
 ComputeScrollSnapInfo
 (
