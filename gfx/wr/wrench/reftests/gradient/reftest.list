@@ -251,6 +251,11 @@ linear
 ref
 .
 yaml
+fuzzy
+(
+1
+15200
+)
 =
 =
 linear
@@ -603,7 +608,7 @@ off
 fuzzy
 (
 1
-50
+83164
 )
 =
 =
@@ -626,7 +631,7 @@ yaml
 fuzzy
 (
 1
-38
+46279
 )
 =
 =
@@ -646,6 +651,11 @@ linear
 ref
 .
 yaml
+fuzzy
+(
+1
+62154
+)
 =
 =
 tiling

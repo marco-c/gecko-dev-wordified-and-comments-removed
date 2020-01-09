@@ -171,6 +171,7 @@ rc
 :
 Rc
 ;
+pub
 const
 TEXTURE_REGION_DIMENSIONS
 :
