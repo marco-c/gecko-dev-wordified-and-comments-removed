@@ -40,6 +40,7 @@ from
 __future__
 import
 absolute_import
+print_function
 import
 sys
 import
@@ -242,13 +243,9 @@ found
 :
             
 print
->
->
-sys
-.
-stderr
 (
-"
+(
+'
 TEST
 -
 UNEXPECTED
@@ -258,9 +255,9 @@ FAIL
 xpccheck
 |
 test
-"
-                                 
-"
+'
+                   
+'
 %
 s
 is
@@ -271,13 +268,13 @@ manifest
 %
 s
 !
-"
+'
 )
 %
 (
-                
+                    
 name
-                
+                    
 os
 .
 path
@@ -291,7 +288,15 @@ xpcshell
 ini
 '
 )
-            
+                    
+)
+                  
+file
+=
+sys
+.
+stderr
+                  
 )
             
 sys
@@ -460,11 +465,7 @@ found
 :
             
 print
->
->
-sys
-.
-stderr
+(
 (
 "
 TEST
@@ -477,7 +478,7 @@ xpccheck
 |
 found
 "
-                                 
+                   
 "
 %
 s
@@ -494,12 +495,22 @@ directory
 s
 '
 "
-                                 
 )
 %
 (
+                    
 name
+                    
 directory
+                    
+)
+                  
+file
+=
+sys
+.
+stderr
+                  
 )
             
 sys
@@ -525,11 +536,7 @@ argv
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 Usage
 :
@@ -551,6 +558,13 @@ directory
 .
 ]
 "
+              
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .

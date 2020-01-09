@@ -2,6 +2,7 @@ from
 __future__
 import
 absolute_import
+print_function
 import
 sys
 import
@@ -122,11 +123,7 @@ default
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 Error
 :
@@ -142,6 +139,12 @@ json
 %
 (
 key
+)
+file
+=
+sys
+.
+stderr
 )
         
 sys
