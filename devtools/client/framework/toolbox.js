@@ -14225,6 +14225,7 @@ function
 (
 sourceURL
 sourceLine
+sourceColumn
 )
 {
 return
@@ -14235,6 +14236,7 @@ viewSourceInStyleEditor
 this
 sourceURL
 sourceLine
+sourceColumn
 )
 ;
 }
