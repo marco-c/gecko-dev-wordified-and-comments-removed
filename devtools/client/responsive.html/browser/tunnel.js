@@ -118,12 +118,6 @@ _contentPrincipal
 _imageDocument
 "
 "
-_fullZoom
-"
-"
-_textZoom
-"
-"
 _isSyntheticDocument
 "
 "
