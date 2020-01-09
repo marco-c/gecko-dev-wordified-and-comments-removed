@@ -6,6 +6,8 @@ import
 sys
 import
 traceback
+import
+uuid
 sys
 .
 path
@@ -188,16 +190,6 @@ self
 chromePushed
 =
 False
-        
-self
-.
-mozLogName
-=
-"
-moz
-.
-log
-"
         
 self
 .
@@ -2324,12 +2316,12 @@ XPCOM_MEM_BLOAT_LOG
 "
 ]
         
+if
 self
 .
 mozLogs
-=
-None
-        
+:
+            
 browserEnv
 [
 "
@@ -2343,14 +2335,38 @@ path
 .
 join
 (
-            
+                
 self
 .
 remoteMozLog
-            
-self
+                
+"
+moz
+-
+pid
+=
+%
+PID
+-
+uid
+=
+{
+}
 .
-mozLogName
+log
+"
+.
+format
+(
+str
+(
+uuid
+.
+uuid4
+(
+)
+)
+)
 )
         
 if
@@ -2767,6 +2783,12 @@ printDeviceInfo
 printLogcat
 =
 True
+)
+    
+mochitest
+.
+archiveMozLogs
+(
 )
     
 mochitest
