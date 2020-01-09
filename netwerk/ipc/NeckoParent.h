@@ -1122,7 +1122,10 @@ nsresult
 &
 aTopWindowURIResult
 const
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 &
 aLoadInfo
 )
@@ -1159,7 +1162,10 @@ nsresult
 &
 aTopWindowURIResult
 const
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 &
 aLoadInfo
 )

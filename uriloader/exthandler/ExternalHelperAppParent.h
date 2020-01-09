@@ -309,13 +309,16 @@ void
 Init
 (
 const
+Maybe
+<
 mozilla
 :
 :
 net
 :
 :
-OptionalLoadInfoArgs
+LoadInfoArgs
+>
 &
 aLoadInfoArgs
 const

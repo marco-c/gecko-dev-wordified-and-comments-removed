@@ -4164,7 +4164,8 @@ nsIURI
 aURI
 uint32_t
 aNewLoadFlags
-OptionalLoadInfoArgs
+LoadInfoArgs
+?
 aLoadInfo
 uint64_t
 aChannelId
@@ -4871,7 +4872,8 @@ PExternalHelperApp
 (
 OptionalURIParams
 uri
-OptionalLoadInfoArgs
+LoadInfoArgs
+?
 loadInfoArgs
 nsCString
 aMimeContentType

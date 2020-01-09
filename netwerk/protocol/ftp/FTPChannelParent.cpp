@@ -542,7 +542,10 @@ IPCStream
 &
 aUploadStream
 const
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 &
 aLoadInfoArgs
 const

@@ -870,7 +870,10 @@ mRedirectChannelId
 )
 )
 ;
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 loadInfoArgs
 ;
 MOZ_ALWAYS_SUCCEEDS

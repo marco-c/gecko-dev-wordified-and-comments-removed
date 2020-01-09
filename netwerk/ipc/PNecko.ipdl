@@ -694,7 +694,8 @@ nsIURI
 aTopWindowURI
 nsresult
 aTopWindowURIResult
-OptionalLoadInfoArgs
+LoadInfoArgs
+?
 loadInfo
 )
 ;

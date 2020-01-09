@@ -447,7 +447,10 @@ nullptr
 0
 )
 ;
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 loadInfoArgs
 ;
 MOZ_ALWAYS_SUCCEEDS

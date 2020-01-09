@@ -2287,7 +2287,10 @@ AddIPDLReference
 OptionalURIParams
 uri
 ;
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 loadInfoArgs
 ;
 OptionalTransportProvider
@@ -2348,7 +2351,7 @@ void_t
 ;
 loadInfoArgs
 =
-void_t
+Nothing
 (
 )
 ;

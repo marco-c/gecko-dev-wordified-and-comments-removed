@@ -3029,13 +3029,16 @@ referrer
 referrerParams
 )
 ;
+Maybe
+<
 mozilla
 :
 :
 net
 :
 :
-OptionalLoadInfoArgs
+LoadInfoArgs
+>
 loadInfoArgs
 ;
 MOZ_ALWAYS_SUCCEEDS

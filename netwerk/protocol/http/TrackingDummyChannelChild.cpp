@@ -145,7 +145,10 @@ LoadInfo
 (
 )
 ;
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 loadInfoArgs
 ;
 mozilla

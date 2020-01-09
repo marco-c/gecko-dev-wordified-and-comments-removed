@@ -512,7 +512,10 @@ uint32_t
 &
 tlsFlags
 const
-OptionalLoadInfoArgs
+Maybe
+<
+LoadInfoArgs
+>
 &
 aLoadInfoArgs
 const
