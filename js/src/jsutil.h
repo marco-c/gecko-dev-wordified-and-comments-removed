@@ -1328,6 +1328,12 @@ JS_FREED_CHUNK_PATTERN
 ;
 const
 uint8_t
+JS_FREED_ARENA_PATTERN
+=
+0x9B
+;
+const
+uint8_t
 JS_SWEPT_TI_PATTERN
 =
 0x6F
