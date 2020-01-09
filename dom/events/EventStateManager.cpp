@@ -18051,6 +18051,12 @@ CanTreatAsUserInput
 )
 ;
 case
+eFormChange
+:
+case
+eMouseClick
+:
+case
 eMouseDown
 :
 case
