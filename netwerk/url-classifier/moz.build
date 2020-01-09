@@ -178,11 +178,6 @@ UrlClassifierFeatureFactory
 cpp
 '
 '
-UrlClassifierFeatureFingerprinting
-.
-cpp
-'
-'
 UrlClassifierFeatureFlash
 .
 cpp

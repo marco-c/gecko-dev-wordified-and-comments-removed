@@ -271,7 +271,6 @@ ContentBlockingAllowListPurpose
 eStorageChecks
 eTrackingProtection
 eTrackingAnnotations
-eFingerprinting
 }
 ;
 static
