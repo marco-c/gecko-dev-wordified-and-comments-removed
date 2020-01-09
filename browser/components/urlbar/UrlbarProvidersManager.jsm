@@ -12,11 +12,6 @@ UrlbarProvidersManager
 "
 ]
 ;
-const
-{
-XPCOMUtils
-}
-=
 ChromeUtils
 .
 import
@@ -1999,7 +1994,7 @@ values
 (
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 )
 )
 {
@@ -2032,7 +2027,7 @@ source
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 BOOKMARKS
 :
@@ -2091,7 +2086,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 HISTORY
 :
@@ -2139,7 +2134,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 SEARCH
 :
@@ -2187,7 +2182,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 TABS
 :
@@ -2235,7 +2230,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 OTHER_NETWORK
 :
@@ -2264,7 +2259,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 OTHER_LOCAL
 :

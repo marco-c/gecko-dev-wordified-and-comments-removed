@@ -21,11 +21,6 @@ UrlbarUtils
 "
 ]
 ;
-const
-{
-XPCOMUtils
-}
-=
 ChromeUtils
 .
 import
@@ -239,7 +234,7 @@ REMOTE_TAB
 :
 6
 }
-MATCH_SOURCE
+RESULT_SOURCE
 :
 {
 BOOKMARKS

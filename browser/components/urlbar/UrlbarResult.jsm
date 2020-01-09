@@ -12,11 +12,6 @@ UrlbarResult
 "
 ]
 ;
-const
-{
-XPCOMUtils
-}
-=
 ChromeUtils
 .
 import
@@ -65,7 +60,7 @@ UrlbarResult
 constructor
 (
 resultType
-matchSource
+resultSource
 payload
 payloadHighlights
 =
@@ -118,12 +113,12 @@ values
 (
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 )
 .
 includes
 (
-matchSource
+resultSource
 )
 )
 {
@@ -133,7 +128,7 @@ Error
 (
 "
 Invalid
-match
+result
 source
 "
 )
@@ -143,7 +138,7 @@ this
 .
 source
 =
-matchSource
+resultSource
 ;
 this
 .

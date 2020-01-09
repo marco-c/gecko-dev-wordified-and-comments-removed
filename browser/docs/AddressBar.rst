@@ -645,7 +645,7 @@ defined
 by
 /
 /
-MATCH_SOURCE
+RESULT_SOURCE
 .
 *
 that
@@ -1358,7 +1358,7 @@ List
 of
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 representing
 the
 data
@@ -2618,7 +2618,7 @@ One
 of
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 title
 :
