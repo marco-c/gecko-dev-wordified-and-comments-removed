@@ -290,6 +290,13 @@ PropTypes
 func
 .
 isRequired
+showDeclarationValueEditor
+:
+PropTypes
+.
+func
+.
+isRequired
 showSelectorEditor
 :
 PropTypes
@@ -327,6 +334,13 @@ this
 props
 .
 showDeclarationNameEditor
+showDeclarationValueEditor
+:
+this
+.
+props
+.
+showDeclarationValueEditor
 showSelectorEditor
 :
 this
