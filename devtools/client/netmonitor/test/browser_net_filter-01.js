@@ -358,6 +358,8 @@ concat
 {
 url
 :
+WS_URL
++
 "
 sjs_content
 -
@@ -373,6 +375,9 @@ fmt
 =
 ws
 "
+ws
+:
+true
 }
 ]
 )
@@ -1031,7 +1036,7 @@ GET
 "
 url
 :
-CONTENT_TYPE_SJS
+WS_CONTENT_TYPE_SJS
 +
 "
 ?
