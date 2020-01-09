@@ -13207,6 +13207,16 @@ true
 pref
 (
 "
+view_source
+.
+tab
+"
+true
+)
+;
+pref
+(
+"
 dom
 .
 serviceWorkers
