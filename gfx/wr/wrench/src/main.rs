@@ -1773,8 +1773,8 @@ angle
 {
 let
 (
-window
-context
+_window
+_context
 )
 =
 angle
@@ -1800,7 +1800,7 @@ gl
 init
 (
 &
-context
+_context
 )
 ;
 WindowWrapper
@@ -1808,8 +1808,8 @@ WindowWrapper
 :
 Angle
 (
-window
-context
+_window
+_context
 gl
 )
 }
