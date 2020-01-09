@@ -679,9 +679,8 @@ detail
 private
 -
 browsing
-=
-.
-value
+-
+label
 =
 Run
 in
