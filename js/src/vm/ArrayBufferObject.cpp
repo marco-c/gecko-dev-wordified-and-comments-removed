@@ -4976,11 +4976,6 @@ data
 )
 )
 ;
-setOwnsData
-(
-OwnsData
-)
-;
 setFlags
 (
 (
