@@ -915,7 +915,7 @@ scale_offset
 =
 prim_spatial_node
 .
-coordinate_system_relative_scale_offset
+content_transform
 .
 inverse
 (
@@ -926,7 +926,7 @@ accumulate
 &
 clip_spatial_node
 .
-coordinate_system_relative_scale_offset
+content_transform
 )
 ;
 ClipSpaceConversion
