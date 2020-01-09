@@ -438,7 +438,7 @@ nsDisplayList
 aDisplayList
 nsDisplayItem
 *
-aWrappingItem
+aOuterItem
 nsDisplayListBuilder
 *
 aDisplayListBuilder
@@ -458,11 +458,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-nsDisplayItem
-*
-aOuterItem
-=
-nullptr
 )
 ;
 void
@@ -899,12 +894,6 @@ public
 :
 bool
 mDoGrouping
-;
-Maybe
-<
-nsRect
->
-mClippedGroupBounds
 ;
 bool
 mForEventsAndPluginsOnly
