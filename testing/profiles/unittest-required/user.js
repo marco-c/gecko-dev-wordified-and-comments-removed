@@ -1857,17 +1857,6 @@ server
 user_pref
 (
 "
-idle
-.
-lastDailyNotification
-"
--
-1
-)
-;
-user_pref
-(
-"
 javascript
 .
 options
