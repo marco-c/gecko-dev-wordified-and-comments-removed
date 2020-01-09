@@ -2677,16 +2677,6 @@ id
 "
 minSize
 "
-oncommand
-=
-"
-gFontsDialog
-.
-confirmMinSizeChange
-(
-)
-;
-"
 >
 <
 menupopup
