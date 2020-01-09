@@ -56,6 +56,10 @@ Deck
 )
 FRAME_TYPE
 (
+DocElementBox
+)
+FRAME_TYPE
+(
 DateTimeControl
 )
 FRAME_TYPE
