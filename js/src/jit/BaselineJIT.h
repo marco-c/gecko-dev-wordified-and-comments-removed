@@ -1630,11 +1630,6 @@ fop
 )
 ;
 void
-clearDependentWasmImports
-(
-)
-;
-void
 toggleDebugTraps
 (
 JSScript
@@ -1963,10 +1958,6 @@ ION_PENDING_SCRIPT
 pendingBuilder_
 =
 builder
-;
-clearDependentWasmImports
-(
-)
 ;
 script
 -
