@@ -326,12 +326,6 @@ ImageBridgeParent
 >
 sImageBridgeParentSingleton
 ;
-CompositorThreadHolder
-*
-GetCompositorThreadHolder
-(
-)
-;
 void
 ImageBridgeParent
 :

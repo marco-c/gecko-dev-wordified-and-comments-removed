@@ -87,16 +87,6 @@ sFinishedCompositorShutDown
 =
 false
 ;
-CompositorThreadHolder
-*
-GetCompositorThreadHolder
-(
-)
-{
-return
-sCompositorThreadHolder
-;
-}
 base
 :
 :
