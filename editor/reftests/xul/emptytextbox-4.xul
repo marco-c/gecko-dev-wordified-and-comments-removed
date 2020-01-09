@@ -108,10 +108,12 @@ js
 >
 <
 textbox
-type
+is
 =
 "
 search
+-
+textbox
 "
 /
 >

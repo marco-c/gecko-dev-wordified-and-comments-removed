@@ -1065,10 +1065,12 @@ flex
 "
 1
 "
-type
+is
 =
 "
 search
+-
+textbox
 "
 aria
 -

@@ -74,10 +74,12 @@ hbox
 >
 <
 textbox
-type
+is
 =
 "
 search
+-
+textbox
 "
 width
 =
