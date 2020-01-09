@@ -142,6 +142,10 @@ metadata
 .
 yml
 -
+infer
+.
+yml
+-
 jsshell
 .
 yml
