@@ -45,6 +45,7 @@ true
 )
 ;
 }
+async
 function
 stageUpdateFinished
 (
@@ -77,18 +78,12 @@ getGREBinDir
 path
 )
 ;
+await
 runUpdateUsingApp
 (
 STATE_SUCCEEDED
 )
 ;
-}
-async
-function
-runUpdateFinished
-(
-)
-{
 await
 checkPostUpdateAppLog
 (

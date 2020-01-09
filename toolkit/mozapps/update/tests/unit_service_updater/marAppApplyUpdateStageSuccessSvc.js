@@ -45,6 +45,7 @@ true
 )
 ;
 }
+async
 function
 stageUpdateFinished
 (
@@ -67,18 +68,12 @@ LOG_COMPLETE_SUCCESS
 true
 )
 ;
+await
 runUpdateUsingApp
 (
 STATE_SUCCEEDED
 )
 ;
-}
-async
-function
-runUpdateFinished
-(
-)
-{
 await
 checkPostUpdateAppLog
 (
