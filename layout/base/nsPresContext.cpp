@@ -1714,7 +1714,7 @@ Document
 )
 -
 >
-ResetLangPrefs
+SetMayNeedFontPrefsUpdate
 (
 )
 ;
@@ -2437,6 +2437,18 @@ IsInChromeDocShell
 return
 ;
 }
+StaticPresData
+:
+:
+Get
+(
+)
+-
+>
+InvalidateFontPrefs
+(
+)
+;
 GetUserPreferences
 (
 )
