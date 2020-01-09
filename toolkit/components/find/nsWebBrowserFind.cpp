@@ -3104,10 +3104,6 @@ find
 Find
 (
 mSearchString
-.
-get
-(
-)
 searchRange
 startPt
 endPt

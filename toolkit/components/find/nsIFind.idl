@@ -265,7 +265,7 @@ Range
 Find
 (
 in
-wstring
+AString
 aPatText
 in
 Range

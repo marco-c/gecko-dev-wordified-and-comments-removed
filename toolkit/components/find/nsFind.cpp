@@ -2142,8 +2142,8 @@ nsFind
 Find
 (
 const
-char16_t
-*
+nsAString
+&
 aPatText
 nsRange
 *
@@ -2307,16 +2307,6 @@ aRangeRet
 =
 0
 ;
-if
-(
-!
-aPatText
-)
-{
-return
-NS_ERROR_NULL_POINTER
-;
-}
 nsAutoString
 patAutoStr
 (
