@@ -2695,6 +2695,9 @@ ignore_missing_leaks
 =
 [
 "
+tab
+"
+"
 gmplugin
 "
 ]
