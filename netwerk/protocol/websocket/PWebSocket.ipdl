@@ -232,7 +232,8 @@ nsIWebSocketChannel
 async
 AsyncOpen
 (
-OptionalURIParams
+URIParams
+?
 aURI
 nsCString
 aOrigin

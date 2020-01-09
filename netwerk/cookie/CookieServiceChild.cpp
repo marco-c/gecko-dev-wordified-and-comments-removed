@@ -3236,7 +3236,10 @@ aHostURI
 hostURIParams
 )
 ;
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 channelURIParams
 ;
 mozilla

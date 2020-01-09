@@ -132,7 +132,10 @@ URIParams
 &
 aHost
 const
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 &
 aChannelURI
 const

@@ -63,7 +63,10 @@ SerializeURI
 nsIURI
 *
 aURI
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 &
 aParams
 )
@@ -87,7 +90,10 @@ nsIURI
 DeserializeURI
 (
 const
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 &
 aParams
 )
@@ -119,7 +125,10 @@ nsIURI
 aParam
 )
 {
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 params
 ;
 SerializeURI
@@ -161,7 +170,10 @@ nsIURI
 aResult
 )
 {
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 params
 ;
 if

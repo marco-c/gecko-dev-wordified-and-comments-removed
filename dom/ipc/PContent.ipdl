@@ -1433,7 +1433,8 @@ clipboardCaps
 DomainPolicyClone
 domainPolicy
 ;
-OptionalURIParams
+URIParams
+?
 userContentSheetURL
 ;
 GfxVarUpdate
@@ -3018,7 +3019,8 @@ uint32_t
 aSetType
 uint32_t
 aChangeType
-OptionalURIParams
+URIParams
+?
 aDomain
 )
 ;
@@ -4873,7 +4875,8 @@ aCertType
 async
 PExternalHelperApp
 (
-OptionalURIParams
+URIParams
+?
 uri
 LoadInfoArgs
 ?
@@ -4892,7 +4895,8 @@ int64_t
 aContentLength
 bool
 aWasFileChannel
-OptionalURIParams
+URIParams
+?
 aReferrer
 nullable
 PBrowser
@@ -5243,7 +5247,8 @@ nsString
 providerName
 nsIInputStream
 postData
-OptionalURIParams
+URIParams
+?
 uri
 )
 ;
@@ -6145,7 +6150,8 @@ bool
 aPositionSpecified
 bool
 aSizeSpecified
-OptionalURIParams
+URIParams
+?
 aURIToLoad
 nsCString
 aFeatures
@@ -6179,7 +6185,8 @@ bool
 aPositionSpecified
 bool
 aSizeSpecified
-OptionalURIParams
+URIParams
+?
 aURIToLoad
 nsCString
 aFeatures

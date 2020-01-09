@@ -1672,7 +1672,10 @@ aURI
 uri
 )
 ;
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 lastVisitedURI
 ;
 SerializeURI

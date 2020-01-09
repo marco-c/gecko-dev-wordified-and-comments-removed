@@ -5747,7 +5747,8 @@ VisitURI
 (
 URIParams
 aURI
-OptionalURIParams
+URIParams
+?
 aLastVisitedURI
 uint32_t
 aFlags

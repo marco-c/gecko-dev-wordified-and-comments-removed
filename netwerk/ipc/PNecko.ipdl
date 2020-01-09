@@ -554,9 +554,11 @@ Methods
 async
 PredPredict
 (
-OptionalURIParams
+URIParams
+?
 targetURI
-OptionalURIParams
+URIParams
+?
 sourceURI
 uint32_t
 reason
@@ -571,7 +573,8 @@ PredLearn
 (
 URIParams
 targetURI
-OptionalURIParams
+URIParams
+?
 sourceURI
 uint32_t
 reason

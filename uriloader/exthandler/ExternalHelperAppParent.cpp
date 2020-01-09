@@ -162,7 +162,10 @@ ExternalHelperAppParent
 ExternalHelperAppParent
 (
 const
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 &
 uri
 const
@@ -421,7 +424,10 @@ bool
 &
 aForceSave
 const
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 &
 aReferrer
 PBrowserParent

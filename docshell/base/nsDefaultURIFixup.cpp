@@ -2073,10 +2073,13 @@ nsIInputStream
 >
 postData
 ;
+Maybe
+<
 ipc
 :
 :
-OptionalURIParams
+URIParams
+>
 uri
 ;
 nsAutoString

@@ -524,7 +524,8 @@ SetCookieString
 (
 URIParams
 host
-OptionalURIParams
+URIParams
+?
 channelURI
 bool
 isForeign

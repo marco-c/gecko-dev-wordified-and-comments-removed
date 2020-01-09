@@ -361,9 +361,11 @@ uint32_t
 loadFlags
 uint32_t
 referrerPolicy
-OptionalURIParams
+URIParams
+?
 referrerUri
-OptionalURIParams
+URIParams
+?
 apiRedirectTo
 OptionalCorsPreflightArgs
 corsPreflightArgs

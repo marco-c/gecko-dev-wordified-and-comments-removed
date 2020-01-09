@@ -2950,7 +2950,10 @@ URIParams
 &
 aURI
 const
-OptionalURIParams
+Maybe
+<
+URIParams
+>
 &
 aLastVisitedURI
 const
