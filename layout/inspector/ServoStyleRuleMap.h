@@ -34,6 +34,9 @@ h
 struct
 RawServoStyleRule
 ;
+class
+nsXBLPrototypeResources
+;
 namespace
 mozilla
 {
@@ -72,6 +75,13 @@ void
 EnsureTable
 (
 ServoStyleSet
+&
+)
+;
+void
+EnsureTable
+(
+nsXBLPrototypeResources
 &
 )
 ;
