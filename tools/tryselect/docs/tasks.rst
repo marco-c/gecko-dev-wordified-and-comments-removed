@@ -474,11 +474,14 @@ util
 import
 get_state_dir
 ;
+print
+(
 get_state_dir
 (
 srcdir
 =
 True
+)
 )
 "
 rm
