@@ -6617,6 +6617,12 @@ turn_on_android_app_proxy
         
 self
 .
+clear_app_data
+(
+)
+        
+self
+.
 copy_profile_onto_device
 (
 )
