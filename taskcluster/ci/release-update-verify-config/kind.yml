@@ -411,7 +411,9 @@ rc
 ?
 :
 nonbeta
-esr60
+esr
+.
+*
 :
 esr
 default
@@ -624,7 +626,9 @@ release
 -
 localtest
 "
-esr60
+esr
+.
+*
 :
 "
 esr
@@ -734,7 +738,9 @@ release
 -
 localtest
 "
-esr60
+esr
+.
+*
 :
 "
 esr
@@ -842,7 +848,9 @@ release
 -
 localtest
 "
-esr60
+esr
+.
+*
 :
 "
 esr
@@ -952,7 +960,9 @@ release
 -
 localtest
 "
-esr60
+esr
+.
+*
 :
 "
 esr
@@ -1062,7 +1072,9 @@ release
 -
 localtest
 "
-esr60
+esr
+.
+*
 :
 "
 esr
@@ -1178,7 +1190,9 @@ release
 -
 localtest
 "
-esr60
+esr
+.
+*
 :
 "
 esr
