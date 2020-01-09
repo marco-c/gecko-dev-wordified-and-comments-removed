@@ -992,7 +992,7 @@ dispatch
 (
 actions
 .
-setBreakpointCondition
+setBreakpointOptions
 (
 bp
 .
@@ -1030,6 +1030,8 @@ id
 expect
 (
 breakpoint
+.
+options
 .
 condition
 )
@@ -1297,7 +1299,7 @@ dispatch
 (
 actions
 .
-setBreakpointCondition
+setBreakpointOptions
 (
 bp
 .
@@ -1335,6 +1337,8 @@ id
 expect
 (
 breakpoint
+.
+options
 .
 condition
 )

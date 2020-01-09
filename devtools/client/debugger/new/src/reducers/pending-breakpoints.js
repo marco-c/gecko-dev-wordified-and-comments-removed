@@ -199,7 +199,7 @@ action
 }
 case
 "
-SET_BREAKPOINT_CONDITION
+SET_BREAKPOINT_OPTIONS
 "
 :
 {
@@ -222,6 +222,8 @@ if
 action
 .
 breakpoint
+.
+options
 .
 hidden
 )
@@ -255,6 +257,8 @@ if
 action
 .
 breakpoint
+.
+options
 .
 hidden
 |

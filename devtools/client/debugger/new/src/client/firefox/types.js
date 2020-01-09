@@ -1,6 +1,7 @@
 import
 type
 {
+BreakpointOptions
 FrameId
 ActorId
 Script
@@ -1092,16 +1093,13 @@ column
 :
 ?
 number
-condition
-:
-string
 }
 setCondition
 :
 (
 ThreadClient
-boolean
-boolean
+?
+string
 )
 =
 >
@@ -1112,6 +1110,9 @@ BreakpointClient
 source
 :
 SourceClient
+options
+:
+BreakpointOptions
 }
 ;
 export

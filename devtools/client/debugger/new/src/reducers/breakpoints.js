@@ -239,7 +239,7 @@ action
 }
 case
 "
-SET_BREAKPOINT_CONDITION
+SET_BREAKPOINT_OPTIONS
 "
 :
 {
@@ -1511,6 +1511,8 @@ bp
 =
 >
 bp
+.
+options
 .
 hidden
 )

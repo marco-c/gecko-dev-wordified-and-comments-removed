@@ -527,13 +527,13 @@ client
 setBreakpoint
 (
 scopedGeneratedLocation
-pendingBreakpoint
-.
-condition
 isOriginalId
 (
 sourceId
 )
+pendingBreakpoint
+.
+options
 )
 ;
 const

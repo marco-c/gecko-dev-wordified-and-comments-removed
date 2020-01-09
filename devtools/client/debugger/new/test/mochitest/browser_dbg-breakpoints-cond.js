@@ -394,6 +394,8 @@ is
 (
 bp
 .
+options
+.
 condition
 "
 1
@@ -430,7 +432,7 @@ waitForDispatch
 (
 dbg
 "
-SET_BREAKPOINT_CONDITION
+SET_BREAKPOINT_OPTIONS
 "
 )
 ;
@@ -448,6 +450,8 @@ simple2
 is
 (
 bp
+.
+options
 .
 condition
 "
@@ -550,7 +554,7 @@ waitForDispatch
 (
 dbg
 "
-SET_BREAKPOINT_CONDITION
+SET_BREAKPOINT_OPTIONS
 "
 )
 ;
@@ -568,6 +572,8 @@ simple2
 is
 (
 bp
+.
+options
 .
 condition
 "
@@ -597,7 +603,7 @@ waitForDispatch
 (
 dbg
 "
-SET_BREAKPOINT_CONDITION
+SET_BREAKPOINT_OPTIONS
 "
 )
 ;
@@ -636,6 +642,8 @@ simple2
 is
 (
 bp
+.
+options
 .
 condition
 undefined

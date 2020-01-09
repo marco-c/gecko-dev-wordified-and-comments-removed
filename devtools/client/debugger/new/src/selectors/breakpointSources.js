@@ -158,6 +158,8 @@ bp
 !
 bp
 .
+options
+.
 hidden
 &
 &
@@ -179,6 +181,8 @@ originalText
 |
 |
 bp
+.
+options
 .
 condition
 |
