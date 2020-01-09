@@ -60,6 +60,8 @@ ignore
 E128
 E261
 E302
+W605
+W504
 #
 PSM
 style

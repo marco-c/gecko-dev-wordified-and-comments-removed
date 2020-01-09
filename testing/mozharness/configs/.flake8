@@ -17,6 +17,8 @@ E242
 E704
 W503
 E402
+W605
+W504
 #
 The
 following
