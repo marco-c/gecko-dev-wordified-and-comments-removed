@@ -142,7 +142,6 @@ derive
 Clone
 Debug
 Hash
-MallocSizeOf
 PartialEq
 Eq
 )
@@ -333,7 +332,6 @@ derive
 Clone
 Debug
 Hash
-MallocSizeOf
 PartialEq
 Eq
 )
@@ -495,7 +493,6 @@ Debug
 Clone
 Hash
 Eq
-MallocSizeOf
 PartialEq
 )
 ]
@@ -745,7 +742,6 @@ derive
 Clone
 Debug
 Hash
-MallocSizeOf
 PartialEq
 Eq
 )

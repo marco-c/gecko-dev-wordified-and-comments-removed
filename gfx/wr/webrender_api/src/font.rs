@@ -475,7 +475,6 @@ Debug
 Deserialize
 Eq
 Hash
-MallocSizeOf
 PartialEq
 Serialize
 Ord
@@ -560,7 +559,6 @@ Copy
 Clone
 Hash
 Eq
-MallocSizeOf
 PartialEq
 Serialize
 Deserialize
@@ -639,7 +637,6 @@ derive
 Clone
 Copy
 Debug
-MallocSizeOf
 PartialOrd
 Deserialize
 Serialize
@@ -895,7 +892,6 @@ C
 derive
 (
 Deserialize
-MallocSizeOf
 Serialize
 )
 ]
@@ -1138,7 +1134,6 @@ Debug
 Deserialize
 Hash
 Eq
-MallocSizeOf
 PartialEq
 PartialOrd
 Ord
@@ -1469,7 +1464,6 @@ Debug
 Deserialize
 Hash
 Eq
-MallocSizeOf
 PartialEq
 PartialOrd
 Ord
@@ -1552,7 +1546,6 @@ Debug
 Deserialize
 Hash
 Eq
-MallocSizeOf
 PartialEq
 PartialOrd
 Ord
@@ -1639,7 +1632,6 @@ Debug
 Deserialize
 Eq
 Hash
-MallocSizeOf
 PartialEq
 PartialOrd
 Ord
@@ -1694,7 +1686,6 @@ Debug
 Deserialize
 Eq
 Hash
-MallocSizeOf
 PartialEq
 PartialOrd
 Ord
@@ -1750,7 +1741,6 @@ Debug
 Deserialize
 Hash
 Eq
-MallocSizeOf
 PartialEq
 PartialOrd
 Ord
@@ -1942,7 +1932,6 @@ Clone
 Copy
 Debug
 Deserialize
-MallocSizeOf
 PartialEq
 Serialize
 )

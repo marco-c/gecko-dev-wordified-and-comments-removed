@@ -220,7 +220,6 @@ derive
 Clone
 Copy
 Debug
-MallocSizeOf
 PartialEq
 PartialOrd
 )
@@ -1133,7 +1132,6 @@ Eq
 Debug
 Ord
 PartialOrd
-MallocSizeOf
 )
 ]
 #
