@@ -875,6 +875,13 @@ HasSuspendTaint
 const
 ;
 void
+SetCloningVisually
+(
+bool
+aIsCloningVisually
+)
+;
+void
 UpdateVideoDecodeMode
 (
 )
@@ -1513,6 +1520,9 @@ mForcedHidden
 ;
 bool
 mHasSuspendTaint
+;
+bool
+mIsCloningVisually
 ;
 MediaDecoderOwner
 :
