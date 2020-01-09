@@ -193,12 +193,6 @@ firstformsubmit
 "
 #
 define
-NS_PASSWORDMANAGER_CATEGORY
-"
-passwordmanager
-"
-#
-define
 NS_INVALIDFORMSUBMIT_SUBJECT
 "
 invalidformsubmit
