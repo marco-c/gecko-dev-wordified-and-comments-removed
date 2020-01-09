@@ -250,7 +250,7 @@ nsAString
 &
 aChallenge
 const
-nsString
+nsAString
 &
 akeyType
 nsAString

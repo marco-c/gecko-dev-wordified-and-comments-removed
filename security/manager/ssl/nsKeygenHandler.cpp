@@ -1777,7 +1777,7 @@ nsAString
 &
 aChallenge
 const
-nsString
+nsAString
 &
 aKeyType
 nsAString
@@ -2936,10 +2936,7 @@ GetPublicKey
 (
 aOldValue
 aChallenge
-PromiseFlatString
-(
 aKeyType
-)
 newValue
 aKeyParams
 )
