@@ -1940,10 +1940,8 @@ Developers
 /
 l10n
 /
-docs
-/
 l10n
 /
-index
+fluent_tutorial
 .
 html
