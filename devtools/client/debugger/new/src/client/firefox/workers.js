@@ -51,6 +51,7 @@ tabTarget
 debuggerClient
 threadClient
 workerClients
+options
 }
 :
 Object
@@ -113,6 +114,7 @@ workerTargetFront
 .
 attachThread
 (
+options
 )
 ;
 if
@@ -190,7 +192,7 @@ const
 consoleFront
 =
 await
-workerTargetFront
+tabTarget
 .
 getFront
 (
