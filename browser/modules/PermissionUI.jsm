@@ -2798,11 +2798,6 @@ topLevelPrincipal
 .
 URI
 )
-escAction
-:
-"
-buttoncommand
-"
 }
 ;
 }
