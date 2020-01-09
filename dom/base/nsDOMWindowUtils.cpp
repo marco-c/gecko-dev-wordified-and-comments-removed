@@ -12594,9 +12594,11 @@ return
 NS_OK
 ;
 }
-nsIPresShell
-*
-shell
+RefPtr
+<
+PresShell
+>
+presShell
 =
 APZCCallbackHelper
 :
@@ -12609,7 +12611,7 @@ content
 if
 (
 !
-shell
+presShell
 )
 {
 return
@@ -12620,7 +12622,7 @@ nsIScrollableFrame
 *
 rootScrollFrame
 =
-shell
+presShell
 -
 >
 GetRootScrollFrameAsScrollable
@@ -12652,7 +12654,7 @@ nsIFrame
 *
 rootFrame
 =
-shell
+presShell
 -
 >
 GetRootFrame
@@ -12730,7 +12732,7 @@ Document
 *
 document
 =
-shell
+presShell
 -
 >
 GetDocument
@@ -12820,7 +12822,7 @@ layers
 ONLY_ZOOM_TO_DEFAULT_SCALE
 ;
 }
-shell
+presShell
 -
 >
 ScrollContentIntoView

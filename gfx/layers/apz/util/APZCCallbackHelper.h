@@ -292,7 +292,7 @@ aContent
 )
 ;
 static
-nsIPresShell
+PresShell
 *
 GetRootContentDocumentPresShellForContent
 (

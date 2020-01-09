@@ -660,7 +660,9 @@ return
 nullptr
 ;
 }
-nsIPresShell
+if
+(
+PresShell
 *
 presShell
 =
@@ -671,10 +673,6 @@ GetRootContentDocumentPresShellForContent
 (
 content
 )
-;
-if
-(
-presShell
 )
 {
 return

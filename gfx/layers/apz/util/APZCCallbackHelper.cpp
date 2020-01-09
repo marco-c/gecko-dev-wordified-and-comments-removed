@@ -2000,7 +2000,7 @@ GetPresContext
 )
 ;
 }
-nsIPresShell
+PresShell
 *
 APZCCallbackHelper
 :
@@ -2260,9 +2260,9 @@ nonRootResolution
 ;
 if
 (
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 GetRootContentDocumentPresShellForContent
 (
@@ -2272,7 +2272,7 @@ content
 {
 nonRootResolution
 =
-shell
+presShell
 -
 >
 GetCumulativeNonRootScaleResolution
