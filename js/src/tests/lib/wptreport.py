@@ -380,7 +380,7 @@ start_time
 )
         
 for
-result
+subtest
 in
 result
 [
@@ -396,7 +396,7 @@ formatter
 .
 test_status
 (
-result
+subtest
 )
         
 self
