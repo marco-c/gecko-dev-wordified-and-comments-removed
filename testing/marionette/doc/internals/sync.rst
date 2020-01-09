@@ -86,3 +86,11 @@ autofunction
 :
 :
 waitForMessage
+.
+.
+js
+:
+autofunction
+:
+:
+waitForObserverTopic
