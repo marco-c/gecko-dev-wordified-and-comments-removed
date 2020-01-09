@@ -161,6 +161,14 @@ AUDITING
 ;
 exports
 .
+AUDIT_PROGRESS
+=
+"
+AUDIT_PROGRESS
+"
+;
+exports
+.
 FILTERS
 =
 {
