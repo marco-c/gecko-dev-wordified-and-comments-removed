@@ -313,8 +313,8 @@ aliases
 .
 split
 (
-"
-"
+'
+'
 )
 {
 values
@@ -348,8 +348,8 @@ other_values
 .
 split
 (
-"
-"
+'
+'
 )
 {
 values
@@ -458,7 +458,6 @@ variant_name
 ;
 }
 else
-{
 if
 !
 derive_struct_fields
@@ -484,7 +483,6 @@ variant_name
 )
 )
 ;
-}
 }
 }
 }
@@ -582,8 +580,8 @@ other_values
 .
 split
 (
-"
-"
+'
+'
 )
 {
 values
@@ -992,8 +990,8 @@ other_values
 .
 split
 (
-"
-"
+'
+'
 )
 {
 values
