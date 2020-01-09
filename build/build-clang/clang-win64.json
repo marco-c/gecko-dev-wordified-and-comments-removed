@@ -4,7 +4,7 @@ llvm_revision
 "
 :
 "
-355016
+356365
 "
 "
 stages
@@ -55,7 +55,7 @@ tags
 /
 RELEASE_800
 /
-rc3
+final
 "
 "
 clang_repo
@@ -82,7 +82,7 @@ tags
 /
 RELEASE_800
 /
-rc3
+final
 "
 "
 lld_repo
@@ -109,7 +109,7 @@ tags
 /
 RELEASE_800
 /
-rc3
+final
 "
 "
 compiler_repo
@@ -138,7 +138,7 @@ tags
 /
 RELEASE_800
 /
-rc3
+final
 "
 "
 libcxx_repo
@@ -165,7 +165,7 @@ tags
 /
 RELEASE_800
 /
-rc3
+final
 "
 "
 python_path
