@@ -9300,10 +9300,6 @@ nsGkAtoms
 :
 other
 )
-mAllowScrollOriginDowngrade
-(
-false
-)
 mLastSmoothScrollOrigin
 (
 nullptr
@@ -9352,10 +9348,6 @@ mLastUpdateFramesPos
 -
 1
 )
-mHadDisplayPortAtLastFrameUpdate
-(
-false
-)
 mDisplayPortAtLastFrameUpdate
 (
 )
@@ -9371,6 +9363,14 @@ ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
+)
+mAllowScrollOriginDowngrade
+(
+false
+)
+mHadDisplayPortAtLastFrameUpdate
+(
+false
 )
 mNeverHasVerticalScrollbar
 (
