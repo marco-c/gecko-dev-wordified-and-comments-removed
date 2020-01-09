@@ -1932,6 +1932,11 @@ buildSummaryMsg
 (
 )
 }
+isLoading
+=
+{
+false
+}
 onChange
 =
 {
