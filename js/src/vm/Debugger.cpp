@@ -13675,7 +13675,7 @@ true
 static
 inline
 void
-MarkBaselineScriptActiveIfObservable
+MarkTypeScriptActiveIfObservable
 (
 JSScript
 *
@@ -13702,7 +13702,7 @@ script
 script
 -
 >
-baselineScript
+typesDontCheckGeneration
 (
 )
 -
@@ -14052,7 +14052,7 @@ FrameType
 :
 BaselineJS
 :
-MarkBaselineScriptActiveIfObservable
+MarkTypeScriptActiveIfObservable
 (
 frame
 .
@@ -14070,7 +14070,7 @@ FrameType
 :
 IonJS
 :
-MarkBaselineScriptActiveIfObservable
+MarkTypeScriptActiveIfObservable
 (
 frame
 .
@@ -14101,7 +14101,7 @@ more
 inlineIter
 )
 {
-MarkBaselineScriptActiveIfObservable
+MarkTypeScriptActiveIfObservable
 (
 inlineIter
 .
@@ -14161,6 +14161,21 @@ scripts
 [
 i
 ]
+)
+;
+scripts
+[
+i
+]
+-
+>
+typesDontCheckGeneration
+(
+)
+-
+>
+resetActive
+(
 )
 ;
 }

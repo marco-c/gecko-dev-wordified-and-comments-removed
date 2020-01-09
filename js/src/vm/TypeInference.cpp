@@ -19034,6 +19034,10 @@ bytecodeTypeMapHint_
 (
 0
 )
+active_
+(
+false
+)
 {
 StackTypeSet
 *
@@ -24965,6 +24969,14 @@ keepTypeScripts
 |
 |
 hasBaselineScript
+(
+)
+|
+|
+types_
+-
+>
+active
 (
 )
 )

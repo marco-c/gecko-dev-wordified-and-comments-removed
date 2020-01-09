@@ -6240,7 +6240,7 @@ if
 script
 -
 >
-baselineScript
+typesDontCheckGeneration
 (
 )
 -
@@ -6250,18 +6250,6 @@ active
 )
 )
 {
-script
--
->
-baselineScript
-(
-)
--
->
-resetActive
-(
-)
-;
 script
 -
 >
@@ -6715,7 +6703,7 @@ enable
 endif
 static
 void
-MarkActiveBaselineScripts
+MarkActiveTypeScripts
 (
 JSContext
 *
@@ -6779,7 +6767,7 @@ script
 )
 -
 >
-baselineScript
+typesDontCheckGeneration
 (
 )
 -
@@ -6831,6 +6819,10 @@ LazyLinkExitFrameLayout
 (
 )
 ;
+JSScript
+*
+script
+=
 ScriptFromCalleeToken
 (
 ll
@@ -6845,9 +6837,11 @@ calleeToken
 (
 )
 )
+;
+script
 -
 >
-baselineScript
+typesDontCheckGeneration
 (
 )
 -
@@ -6879,7 +6873,7 @@ script
 )
 -
 >
-baselineScript
+typesDontCheckGeneration
 (
 )
 -
@@ -6916,7 +6910,7 @@ script
 )
 -
 >
-baselineScript
+typesDontCheckGeneration
 (
 )
 -
@@ -6939,7 +6933,7 @@ void
 jit
 :
 :
-MarkActiveBaselineScripts
+MarkActiveTypeScripts
 (
 Zone
 *
@@ -7007,7 +7001,7 @@ zone
 zone
 )
 {
-MarkActiveBaselineScripts
+MarkActiveTypeScripts
 (
 cx
 iter
