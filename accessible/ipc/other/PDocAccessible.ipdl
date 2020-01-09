@@ -251,6 +251,9 @@ TextValue
 nsString
 DOMNodeID
 ;
+nsString
+Description
+;
 double
 CurValue
 ;
