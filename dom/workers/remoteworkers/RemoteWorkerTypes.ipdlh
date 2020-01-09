@@ -281,6 +281,9 @@ OptionalIPCClientInfo
 clientInfo
 ;
 bool
+isStorageAccessAllowed
+;
+bool
 isSharedWorker
 ;
 }
