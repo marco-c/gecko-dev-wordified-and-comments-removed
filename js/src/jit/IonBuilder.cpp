@@ -13160,7 +13160,7 @@ cfgHeader
 AutoTraceLog
 logCompile
 (
-traceLogger
+TraceLoggerForCurrentThread
 (
 )
 TraceLogger_IonBuilderRestartLoop
