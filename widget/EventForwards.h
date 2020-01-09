@@ -602,6 +602,15 @@ aCommandStr
 aName
 #
 define
+NS_DEFINE_COMMAND_WITH_PARAM
+(
+aName
+aCommandStr
+aParam
+)
+aName
+#
+define
 NS_DEFINE_COMMAND_NO_EXEC_COMMAND
 (
 aName
@@ -632,6 +641,9 @@ h
 #
 undef
 NS_DEFINE_COMMAND
+#
+undef
+NS_DEFINE_COMMAND_WITH_PARAM
 #
 undef
 NS_DEFINE_COMMAND_NO_EXEC_COMMAND
