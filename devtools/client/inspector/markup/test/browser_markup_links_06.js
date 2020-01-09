@@ -146,7 +146,11 @@ ready
 ;
 inspector
 .
-onFollowLink
+markup
+.
+contextMenu
+.
+_onFollowLink
 (
 )
 ;
@@ -299,7 +303,11 @@ ready
 ;
 inspector
 .
-onFollowLink
+markup
+.
+contextMenu
+.
+_onFollowLink
 (
 )
 ;

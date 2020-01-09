@@ -244,6 +244,10 @@ value
 ;
 inspector
 .
+markup
+.
+contextMenu
+.
 nodeMenuTriggerInfo
 =
 {
@@ -345,6 +349,10 @@ longAttribute
 ;
 inspector
 .
+markup
+.
+contextMenu
+.
 nodeMenuTriggerInfo
 =
 {
@@ -434,6 +442,10 @@ occur
 )
 ;
 inspector
+.
+markup
+.
+contextMenu
 .
 nodeMenuTriggerInfo
 =
@@ -585,6 +597,10 @@ occur
 )
 ;
 inspector
+.
+markup
+.
+contextMenu
 .
 nodeMenuTriggerInfo
 =

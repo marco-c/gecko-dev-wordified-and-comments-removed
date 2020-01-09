@@ -143,7 +143,11 @@ TabOpen
 ;
 inspector
 .
-onFollowLink
+markup
+.
+contextMenu
+.
+_onFollowLink
 (
 )
 ;
@@ -331,7 +335,11 @@ front
 ;
 inspector
 .
-onFollowLink
+markup
+.
+contextMenu
+.
+_onFollowLink
 (
 )
 ;
@@ -479,6 +487,8 @@ onFailed
 =
 inspector
 .
+markup
+.
 once
 (
 "
@@ -494,7 +504,11 @@ failed
 ;
 inspector
 .
-onFollowLink
+markup
+.
+contextMenu
+.
+_onFollowLink
 (
 )
 ;
