@@ -110,6 +110,15 @@ transforms
 task
 :
 transforms
+job
+-
+defaults
+:
+attributes
+:
+retrigger
+:
+true
 jobs
 :
 linux64

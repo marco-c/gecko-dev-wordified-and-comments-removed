@@ -114,6 +114,11 @@ job
 -
 defaults
 :
+attributes
+:
+retrigger
+:
+true
 treeherder
 :
 kind

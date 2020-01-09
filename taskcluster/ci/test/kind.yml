@@ -216,6 +216,11 @@ job
 -
 defaults
 :
+attributes
+:
+retrigger
+:
+true
 require
 -
 signed

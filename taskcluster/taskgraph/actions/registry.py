@@ -1731,6 +1731,9 @@ cb_name
 ]
 =
 cb
+        
+return
+cb
     
 return
 register_callback

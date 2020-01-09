@@ -158,3 +158,8 @@ projects
 nightly
 :
 false
+attributes
+:
+retrigger
+:
+true

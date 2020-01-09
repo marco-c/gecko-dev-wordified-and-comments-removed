@@ -177,6 +177,15 @@ wpt
 manifest
 .
 yml
+job
+-
+defaults
+:
+attributes
+:
+retrigger
+:
+true
 #
 This
 is
