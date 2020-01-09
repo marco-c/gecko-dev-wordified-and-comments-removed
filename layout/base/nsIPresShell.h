@@ -3622,11 +3622,6 @@ nscoord
 aHeight
 )
 ;
-void
-ResetVisualViewportSize
-(
-)
-;
 bool
 IsVisualViewportSizeSet
 (
@@ -3662,11 +3657,6 @@ return
 mVisualViewportSize
 ;
 }
-void
-CompleteChangeToVisualViewportSize
-(
-)
-;
 bool
 SetVisualViewportOffset
 (

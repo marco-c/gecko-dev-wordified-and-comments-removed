@@ -2475,7 +2475,7 @@ resize
 :
 this
 .
-onResizeViewport
+onViewportResize
 (
 event
 )
@@ -2918,7 +2918,7 @@ removed
 )
 ;
 }
-onResizeViewport
+onViewportResize
 (
 event
 )
