@@ -431,10 +431,5 @@ async
 {
 }
 )
-onPauseChange
-(
-)
-{
-}
 }
 ;

@@ -153,11 +153,6 @@ async
 {
 }
 )
-onPauseChange
-(
-)
-{
-}
 }
 ;
 const

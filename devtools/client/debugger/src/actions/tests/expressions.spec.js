@@ -241,11 +241,6 @@ to
 )
 ;
 }
-onPauseChange
-(
-)
-{
-}
 }
 ;
 describe
