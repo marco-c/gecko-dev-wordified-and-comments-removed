@@ -50103,6 +50103,14 @@ append
 (
 CGGeneric
 (
+"
+MOZ_KnownLive
+(
+%
+s
+)
+"
+%
 subjectPrincipalArg
 )
 )
