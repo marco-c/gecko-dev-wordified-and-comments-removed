@@ -134,6 +134,14 @@ Name
 =
 =
 "
+__pair_base
+"
+|
+|
+Name
+=
+=
+"
 _Atomic_impl
 "
 |
