@@ -103,6 +103,14 @@ Length
 )
 const
 ;
+already_AddRefed
+<
+nsIRunnable
+>
+GetEvent
+(
+)
+;
 void
 AwaitIdle
 (

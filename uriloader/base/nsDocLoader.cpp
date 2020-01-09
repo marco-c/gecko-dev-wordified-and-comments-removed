@@ -178,6 +178,13 @@ h
 #
 include
 "
+nsGlobalWindow
+.
+h
+"
+#
+include
+"
 nsIStringBundle
 .
 h
