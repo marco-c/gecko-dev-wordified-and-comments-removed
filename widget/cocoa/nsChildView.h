@@ -2099,15 +2099,6 @@ ReportSizeEvent
 (
 )
 ;
-virtual
-NSView
-*
-CreateCocoaView
-(
-NSRect
-inFrame
-)
-;
 void
 TearDownView
 (
@@ -2291,10 +2282,7 @@ aAllowedDirections
 ;
 protected
 :
-NSView
-<
-mozView
->
+ChildView
 *
 mView
 ;
