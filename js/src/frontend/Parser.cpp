@@ -13745,6 +13745,7 @@ funbox
 >
 initFromLazyFunction
 (
+fun
 )
 ;
 Directives

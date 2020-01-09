@@ -1402,6 +1402,7 @@ funbox
 >
 initFromLazyFunction
 (
+fun
 )
 ;
 }
