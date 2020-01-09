@@ -129,9 +129,11 @@ RTCIceCandidate
 dictionary
 RTCIceCandidateInit
 {
-required
 DOMString
 candidate
+=
+"
+"
 ;
 DOMString
 ?
@@ -179,6 +181,7 @@ rtcicecandidate
 "
 Constructor
 (
+optional
 RTCIceCandidateInit
 candidateInitDict
 )
