@@ -129,6 +129,11 @@ tab
 await
 openAboutDebugging
 (
+{
+enableWorkerUpdates
+:
+true
+}
 )
 ;
 const
