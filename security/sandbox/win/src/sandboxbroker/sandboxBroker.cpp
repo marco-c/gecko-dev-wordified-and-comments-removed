@@ -3270,13 +3270,6 @@ INTEGRITY_LEVEL_LOW
 ;
 }
 else
-if
-(
-aSandboxLevel
-=
-=
-1
-)
 {
 jobLevel
 =
