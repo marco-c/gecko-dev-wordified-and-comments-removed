@@ -105,6 +105,14 @@ DrawTargetD2D1
 )
 ;
 virtual
+bool
+IsValid
+(
+)
+const
+override
+;
+virtual
 DrawTargetType
 GetType
 (

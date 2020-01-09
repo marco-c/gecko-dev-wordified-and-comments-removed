@@ -1056,6 +1056,16 @@ aTask
 >
 mTarget
 ;
+if
+(
+target
+-
+>
+IsValid
+(
+)
+)
+{
 target
 -
 >
@@ -1074,6 +1084,7 @@ Flush
 (
 )
 ;
+}
 if
 (
 gfxPrefs
