@@ -1367,6 +1367,9 @@ GetOpener
 (
 )
 ;
+bool
+mCached
+;
 #
 define
 MOZ_BC_FIELD
@@ -1423,6 +1426,14 @@ Id
 )
 :
 0
+;
+init
+.
+mCached
+=
+IsCached
+(
+)
 ;
 #
 define
