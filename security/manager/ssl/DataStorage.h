@@ -174,17 +174,6 @@ DataStorageClass
 aFilename
 )
 ;
-static
-already_AddRefed
-<
-DataStorage
->
-GetIfExists
-(
-DataStorageClass
-aFilename
-)
-;
 nsresult
 Init
 (
