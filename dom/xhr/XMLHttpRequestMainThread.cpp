@@ -9219,6 +9219,15 @@ NS_OK
 rv
 )
 ;
+ChangeState
+(
+XMLHttpRequest_Binding
+:
+:
+UNSENT
+false
+)
+;
 return
 NS_OK
 ;
