@@ -108,11 +108,6 @@ utils
 DevToolsModules
 (
 '
-ChangesContextMenu
-.
-js
-'
-'
 ChangesView
 .
 js
