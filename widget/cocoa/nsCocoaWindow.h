@@ -1075,6 +1075,11 @@ aRepaint
 )
 override
 ;
+NSRect
+GetClientCocoaRect
+(
+)
+;
 virtual
 LayoutDeviceIntRect
 GetClientBounds
