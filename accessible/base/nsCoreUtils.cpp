@@ -717,7 +717,7 @@ mClickCount
 ;
 event
 .
-button
+mButton
 =
 WidgetMouseEvent
 :

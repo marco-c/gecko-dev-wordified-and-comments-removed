@@ -11369,7 +11369,7 @@ eSynthesized
 ;
 synthEvent
 .
-button
+mButton
 =
 buttonType
 ;
@@ -11896,7 +11896,7 @@ eReal
 ;
 event
 .
-button
+mButton
 =
 domButton
 ;
@@ -12115,7 +12115,7 @@ eReal
 ;
 event
 .
-button
+mButton
 =
 domButton
 ;
@@ -12189,7 +12189,7 @@ mDrawInTitlebar
 &
 event
 .
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -27355,7 +27355,7 @@ if
 aMouseEvent
 -
 >
-button
+mButton
 !
 =
 WidgetMouseEvent

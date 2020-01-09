@@ -3774,7 +3774,7 @@ mMessage
 =
 %
 s
-button
+mButton
 =
 %
 d
@@ -3793,7 +3793,7 @@ mMessage
 aMouseEvent
 -
 >
-button
+mButton
 consumed
 ?
 "
@@ -4073,7 +4073,7 @@ if
 aMouseEvent
 -
 >
-button
+mButton
 )
 {
 MOZ_LOG

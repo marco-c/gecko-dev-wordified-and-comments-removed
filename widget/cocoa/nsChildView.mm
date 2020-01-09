@@ -26057,7 +26057,7 @@ NSControlKeyMask
 )
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -26067,7 +26067,7 @@ eRightButton
 else
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -26179,7 +26179,7 @@ NSControlKeyMask
 )
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -26189,7 +26189,7 @@ eRightButton
 else
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -26780,7 +26780,7 @@ geckoEvent
 ;
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -26905,7 +26905,7 @@ geckoEvent
 ;
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -27090,7 +27090,7 @@ geckoEvent
 ;
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -27215,7 +27215,7 @@ geckoEvent
 ;
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -27301,7 +27301,7 @@ geckoEvent
 ;
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -27382,7 +27382,7 @@ geckoEvent
 ;
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :
@@ -29116,7 +29116,7 @@ geckoEvent
 ;
 geckoEvent
 .
-button
+mButton
 =
 WidgetMouseEvent
 :

@@ -2596,7 +2596,7 @@ aTime
 ;
 event
 .
-button
+mButton
 =
 WidgetMouseEvent
 :

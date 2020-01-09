@@ -18550,7 +18550,7 @@ if
 mouseEvent
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -18562,7 +18562,7 @@ eMiddleButton
 mouseEvent
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -18640,7 +18640,7 @@ if
 mouseEvent
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent

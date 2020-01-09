@@ -1917,7 +1917,7 @@ if
 aEvent
 -
 >
-button
+mButton
 !
 =
 WidgetMouseEvent

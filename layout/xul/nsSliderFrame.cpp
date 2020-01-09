@@ -3076,7 +3076,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -5648,7 +5648,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 ;
 #
 ifdef
@@ -5844,7 +5844,7 @@ if
 mouseEvent
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -5897,7 +5897,7 @@ if
 mouseEvent
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent

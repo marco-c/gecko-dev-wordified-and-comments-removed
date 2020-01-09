@@ -1179,7 +1179,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -1412,7 +1412,7 @@ AsPointerEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent

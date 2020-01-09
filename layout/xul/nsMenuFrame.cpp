@@ -2024,7 +2024,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -2115,7 +2115,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -2195,7 +2195,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent

@@ -338,7 +338,7 @@ WidgetMouseEventBase
 (
 )
 :
-button
+mButton
 (
 0
 )
@@ -380,7 +380,7 @@ aMessage
 aWidget
 aEventClassID
 )
-button
+mButton
 (
 0
 )
@@ -458,7 +458,7 @@ eRightButton
 }
 ;
 int16_t
-button
+mButton
 ;
 enum
 buttonsFlag
@@ -595,11 +595,11 @@ aEvent
 aCopyTargets
 )
 ;
-button
+mButton
 =
 aEvent
 .
-button
+mButton
 ;
 mButtons
 =
@@ -639,7 +639,7 @@ mMessage
 eMouseClick
 &
 &
-button
+mButton
 =
 =
 eLeftButton
@@ -863,7 +863,7 @@ aMessage
 eContextMenu
 )
 {
-button
+mButton
 =
 (
 mContextMenuTrigger
@@ -895,7 +895,7 @@ mMessage
 eContextMenu
 |
 |
-button
+mButton
 =
 =
 (

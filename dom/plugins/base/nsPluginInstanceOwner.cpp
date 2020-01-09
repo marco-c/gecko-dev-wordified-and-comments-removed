@@ -6694,7 +6694,7 @@ mLastMouseDownButtonType
 mouseEvent
 -
 >
-button
+mButton
 ;
 nsEventStatus
 rv
@@ -8584,7 +8584,7 @@ switch
 mouseEvent
 -
 >
-button
+mButton
 )
 {
 case
@@ -8647,7 +8647,7 @@ NS_WARNING
 (
 "
 Mouse
-button
+mButton
 we
 don
 '
@@ -9552,7 +9552,7 @@ AsMouseEvent
 )
 -
 >
-button
+mButton
 =
 =
 WidgetMouseEvent
@@ -9722,7 +9722,7 @@ dblClickMsgs
 mouseEvent
 -
 >
-button
+mButton
 ]
 ;
 }
@@ -9737,7 +9737,7 @@ downMsgs
 mouseEvent
 -
 >
-button
+mButton
 ]
 ;
 }
@@ -9781,7 +9781,7 @@ upMsgs
 mouseEvent
 -
 >
-button
+mButton
 ]
 ;
 break
@@ -11114,7 +11114,7 @@ switch
 (
 mouseEvent
 .
-button
+mButton
 )
 {
 case
