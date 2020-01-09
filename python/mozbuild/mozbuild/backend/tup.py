@@ -2891,25 +2891,13 @@ symbols_file
 ]
         
 if
-(
 shlib
 .
 symbols_file
 and
-            
-backend_file
+shlib
 .
-environment
-.
-substs
-.
-get
-(
-'
-GCC_USE_GNU_LD
-'
-)
-)
+symbols_link_arg
 :
             
 inputs
@@ -2924,21 +2912,9 @@ symbols_file
 symbols_file
 =
 [
-'
--
-Wl
--
--
-version
--
-script
-%
-s
-'
-%
 shlib
 .
-symbols_file
+symbols_link_arg
 ]
         
 cmd
