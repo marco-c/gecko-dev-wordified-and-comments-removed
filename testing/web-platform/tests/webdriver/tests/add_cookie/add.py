@@ -722,7 +722,7 @@ url
 )
 :
     
-a_year_from_now
+a_day_from_now
 =
 int
 (
@@ -738,7 +738,7 @@ timedelta
 (
 days
 =
-365
+1
 )
 -
 datetime
@@ -778,7 +778,7 @@ world
 expiry
 "
 :
-a_year_from_now
+a_day_from_now
     
 }
     
@@ -919,7 +919,7 @@ expiry
 ]
 =
 =
-a_year_from_now
+a_day_from_now
 def
 test_add_session_cookie
 (

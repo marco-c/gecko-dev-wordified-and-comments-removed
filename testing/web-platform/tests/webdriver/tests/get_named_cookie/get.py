@@ -381,7 +381,7 @@ M
 S
 "
     
-a_year_from_now
+a_day_from_now
 =
 (
 datetime
@@ -394,7 +394,7 @@ timedelta
 (
 days
 =
-365
+1
 )
 )
 .
@@ -424,7 +424,7 @@ s
 '
 "
 %
-a_year_from_now
+a_day_from_now
 )
     
 result
@@ -557,7 +557,7 @@ utc_string_format
 )
 =
 =
-a_year_from_now
+a_day_from_now
 def
 test_duplicated_cookie
 (
