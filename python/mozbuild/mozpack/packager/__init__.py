@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 from
 mozbuild
 .
@@ -14,8 +13,6 @@ import
 re
 import
 os
-import
-six
 from
 mozpack
 .
@@ -2513,18 +2510,16 @@ sorted
 (
             
 m
-            
 for
 m
 includer
 in
-six
-.
-iteritems
-(
 self
 .
 _included_manifests
+.
+iteritems
+(
 )
             
 if

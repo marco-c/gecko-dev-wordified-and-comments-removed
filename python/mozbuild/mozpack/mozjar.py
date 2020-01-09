@@ -3,16 +3,10 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 from
 io
 import
-(
-    
 BytesIO
-    
-UnsupportedOperation
-)
 import
 struct
 import
@@ -21,8 +15,6 @@ import
 zlib
 import
 os
-import
-six
 from
 zipfile
 import
@@ -47,12 +39,7 @@ mozbuild
 .
 util
 import
-(
-    
 memoize
-    
-ensure_bytes
-)
 JAR_STORED
 =
 ZIP_STORED
@@ -398,7 +385,6 @@ uint32
 '
 :
 (
-b
 '
 I
 '
@@ -409,7 +395,6 @@ uint16
 '
 :
 (
-b
 '
 H
 '
@@ -480,13 +465,12 @@ t
 for
 t
 in
-six
-.
-itervalues
-(
 self
 .
 STRUCT
+.
+itervalues
+(
 )
                                
 if
@@ -638,13 +622,12 @@ for
 name
 t
 in
-six
-.
-iteritems
-(
 self
 .
 STRUCT
+.
+iteritems
+(
 )
 :
             
@@ -774,13 +757,12 @@ for
 name
 t
 in
-six
-.
-iteritems
-(
 self
 .
 STRUCT
+.
+iteritems
+(
 )
 :
             
@@ -909,7 +891,6 @@ struct
 .
 unpack
 (
-b
 '
 <
 '
@@ -960,7 +941,6 @@ struct
 .
 pack
 (
-b
 '
 <
 I
@@ -978,18 +958,16 @@ dict
 t
 name
 )
-                     
 for
 name
 t
 in
-six
-.
-iteritems
-(
 self
 .
 STRUCT
+.
+iteritems
+(
 )
                      
 if
@@ -1005,13 +983,12 @@ for
 name
 t
 in
-six
-.
-iteritems
-(
 self
 .
 STRUCT
+.
+iteritems
+(
 )
 :
             
@@ -1069,7 +1046,6 @@ struct
 .
 pack
 (
-b
 '
 <
 '
@@ -1084,13 +1060,10 @@ else
 serialized
 +
 =
-ensure_bytes
-(
 self
 [
 name
 ]
-)
         
 return
 serialized
@@ -1149,13 +1122,12 @@ for
 name
 type
 in
-six
-.
-iteritems
-(
 self
 .
 STRUCT
+.
+iteritems
+(
 )
 :
             
@@ -1289,13 +1261,12 @@ self
 :
         
 return
-six
-.
-iteritems
-(
 self
 .
 _values
+.
+iteritems
+(
 )
     
 def
@@ -2633,11 +2604,10 @@ compression
 for
 f
 in
-six
+entries
 .
 itervalues
 (
-entries
 )
 )
     
@@ -2751,10 +2721,6 @@ cdir_offset
 for
 e
 in
-six
-.
-moves
-.
 xrange
 (
 self
@@ -3165,13 +3131,12 @@ jarReader
 for
 entry
 in
-six
-.
-itervalues
-(
 self
 .
 entries
+.
+itervalues
+(
 )
 :
             
@@ -3829,13 +3794,12 @@ for
 entry
 content
 in
-six
-.
-itervalues
-(
 self
 .
 _contents
+.
+itervalues
+(
 )
 :
             
@@ -3956,10 +3920,6 @@ cdir_size
 '
 ]
 =
-six
-.
-moves
-.
 reduce
 (
 lambda
@@ -3974,7 +3934,7 @@ y
 ]
 .
 size
-                                            
+                                  
 self
 .
 _contents
@@ -4045,13 +4005,12 @@ for
 entry
 _
 in
-six
-.
-itervalues
-(
 self
 .
 _contents
+.
+itervalues
+(
 )
 :
                 
@@ -4095,13 +4054,12 @@ for
 entry
 content
 in
-six
-.
-itervalues
-(
 self
 .
 _contents
+.
+itervalues
+(
 )
 :
             
@@ -4148,13 +4106,12 @@ for
 entry
 _
 in
-six
-.
-itervalues
-(
 self
 .
 _contents
+.
+itervalues
+(
 )
 :
                 
@@ -4498,14 +4455,7 @@ if
 isinstance
 (
 data
-(
-six
-.
-binary_type
-six
-.
-string_types
-)
+basestring
 )
 :
                 
@@ -4526,7 +4476,14 @@ read
 )
 :
                 
-try
+if
+hasattr
+(
+data
+'
+seek
+'
+)
 :
                     
 data
@@ -4535,15 +4492,6 @@ seek
 (
 0
 )
-                
-except
-(
-UnsupportedOperation
-AttributeError
-)
-:
-                    
-pass
                 
 deflater
 .

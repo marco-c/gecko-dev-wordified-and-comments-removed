@@ -3,11 +3,8 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 re
-import
-six
 from
 distutils
 .
@@ -2067,11 +2064,10 @@ for
 name
 value
 in
-six
+filter
 .
 iteritems
 (
-filter
 )
 :
             

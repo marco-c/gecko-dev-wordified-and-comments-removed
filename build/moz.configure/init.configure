@@ -2735,12 +2735,6 @@ imports
 os
 '
 )
-imports
-(
-'
-six
-'
-)
 def
 mozconfig_options
 (
@@ -3000,10 +2994,6 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 mozconfig
 [
 '
@@ -3015,6 +3005,9 @@ env
 added
 '
 ]
+.
+iteritems
+(
 )
 :
 add
@@ -3037,10 +3030,6 @@ _
 value
 )
 in
-six
-.
-iteritems
-(
 mozconfig
 [
 '
@@ -3052,6 +3041,9 @@ env
 modified
 '
 ]
+.
+iteritems
+(
 )
 :
 add
@@ -3071,10 +3063,6 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 mozconfig
 [
 '
@@ -3086,6 +3074,9 @@ vars
 added
 '
 ]
+.
+iteritems
+(
 )
 :
 add
@@ -3100,10 +3091,6 @@ _
 value
 )
 in
-six
-.
-iteritems
-(
 mozconfig
 [
 '
@@ -3115,6 +3102,9 @@ vars
 modified
 '
 ]
+.
+iteritems
+(
 )
 :
 add

@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 mozunit
 import
@@ -91,8 +90,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 itertools
 import
@@ -341,7 +338,6 @@ baz
 :
 GeneratedFile
 (
-b
 '
 foobarbaz
 '
@@ -359,7 +355,6 @@ baz
 :
 GeneratedFile
 (
-b
 '
 foobaz
 '
@@ -377,7 +372,6 @@ qux
 :
 GeneratedFile
 (
-b
 '
 fooqux
 '
@@ -393,7 +387,6 @@ so
 :
 GeneratedFile
 (
-b
 '
 foo
 .
@@ -427,7 +420,6 @@ foo
 :
 GeneratedFile
 (
-b
 '
 foo
 '
@@ -445,7 +437,6 @@ foo
 :
 GeneratedFile
 (
-b
 '
 appfoo
 '
@@ -463,7 +454,6 @@ js
 :
 GeneratedFile
 (
-b
 '
 foo
 .
@@ -485,7 +475,6 @@ baz
 :
 GeneratedFile
 (
-b
 '
 foobarbaz
 '
@@ -529,7 +518,6 @@ baz
 :
 GeneratedFile
 (
-b
 '
 foobarbaz
 '
@@ -579,7 +567,6 @@ baz
 :
 GeneratedFile
 (
-b
 '
 foobarbaz
 '
@@ -1048,10 +1035,6 @@ for
 p
 f
 in
-six
-.
-iteritems
-(
 {
             
 '
@@ -1187,6 +1170,9 @@ xpt
 foo2_xpt
         
 }
+.
+iteritems
+(
 )
     
 }
@@ -1595,11 +1581,10 @@ for
 p
 f
 in
-six
+RESULT_FLAT
 .
 iteritems
 (
-RESULT_FLAT
 )
         
 if
@@ -1651,11 +1636,10 @@ for
 p
 f
 in
-six
+RESULT_FLAT
 .
 iteritems
 (
-RESULT_FLAT
 )
         
 if
@@ -1902,11 +1886,10 @@ app
 for
 p
 in
-six
+RESULT_FLAT
 .
 iterkeys
 (
-RESULT_FLAT
 )
             
 if
@@ -2113,16 +2096,15 @@ for
 b
 a
 in
-six
-.
-iteritems
-(
 CONTENTS
 [
 '
 bases
 '
 ]
+.
+iteritems
+(
 )
     
 }
@@ -2188,16 +2170,15 @@ for
 p
 f
 in
-six
-.
-iteritems
-(
 CONTENTS
 [
 '
 files
 '
 ]
+.
+iteritems
+(
 )
     
 }
@@ -2214,7 +2195,6 @@ file
 :
 GeneratedFile
 (
-b
 '
 extra
 file
@@ -2261,11 +2241,10 @@ for
 p
 v
 in
-six
+results
 .
 iteritems
 (
-results
 )
     
 }
@@ -2356,16 +2335,15 @@ v
 in
 sorted
 (
-six
-.
-iteritems
-(
 contents
 [
 '
 files
 '
 ]
+.
+iteritems
+(
 )
 )
 :
@@ -3093,7 +3071,6 @@ path
 )
 GeneratedFile
 (
-b
 '
 '
 )

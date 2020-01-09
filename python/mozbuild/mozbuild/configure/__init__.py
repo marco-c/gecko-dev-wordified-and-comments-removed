@@ -5,6 +5,8 @@ absolute_import
 print_function
 unicode_literals
 import
+__builtin__
+import
 inspect
 import
 logging
@@ -12,16 +14,6 @@ import
 os
 import
 re
-import
-six
-from
-six
-.
-moves
-import
-builtins
-as
-__builtin__
 import
 sys
 import
@@ -336,21 +328,6 @@ depends
 functions
 .
 '
-)
-    
-def
-__hash__
-(
-self
-)
-:
-        
-return
-object
-.
-__hash__
-(
-self
 )
     
 def
@@ -1293,21 +1270,6 @@ dependencies
 )
     
 def
-__hash__
-(
-self
-)
-:
-        
-return
-object
-.
-__hash__
-(
-self
-)
-    
-def
 __ne__
 (
 self
@@ -1577,7 +1539,6 @@ getattr
 (
 __builtin__
 b
-None
 )
         
 for
@@ -1643,11 +1604,6 @@ zip
 '
 AssertionError
 '
-                  
-'
-__build_class__
-'
-                  
 )
     
 }
@@ -1656,9 +1612,7 @@ __import__
 forbidden_import
 str
 =
-six
-.
-text_type
+unicode
 )
     
 OS
@@ -2077,9 +2031,7 @@ if
 isinstance
 (
 arg
-six
-.
-binary_type
+str
 )
 else
 arg
@@ -2625,13 +2577,12 @@ path
 for
 option
 in
-six
-.
-itervalues
-(
 self
 .
 _options
+.
+itervalues
+(
 )
 :
             
@@ -3820,9 +3771,9 @@ if
 isinstance
 (
 arg
-six
+types
 .
-string_types
+StringTypes
 )
 :
             
@@ -4334,11 +4285,10 @@ for
 k
 v
 in
-six
+kwargs
 .
 iteritems
 (
-kwargs
 )
                   
 if
@@ -5005,9 +4955,9 @@ not
 isinstance
 (
 what
-six
+types
 .
-string_types
+StringTypes
 )
 :
                     
@@ -5185,11 +5135,10 @@ for
 k
 v
 in
-six
+self
 .
 iteritems
 (
-self
 )
 if
 k
@@ -5293,7 +5242,7 @@ v
 in
 kwargs
 .
-items
+iteritems
 (
 )
 }
@@ -5531,9 +5480,9 @@ not
 isinstance
 (
 value
-six
+types
 .
-string_types
+StringTypes
 )
 and
 (
@@ -6149,43 +6098,6 @@ rsplit
 1
 )
             
-if
-_from
-=
-=
-'
-__builtin__
-'
-or
-_from
-.
-startswith
-(
-'
-__builtin__
-.
-'
-)
-:
-                
-_from
-=
-_from
-.
-replace
-(
-'
-__builtin__
-'
-'
-six
-.
-moves
-.
-builtins
-'
-)
-            
 import_line
 +
 =
@@ -6288,9 +6200,9 @@ not
 isinstance
 (
 name
-six
+types
 .
-string_types
+StringTypes
 )
 :
             
@@ -7307,9 +7219,9 @@ or
 isinstance
 (
 value
-six
+types
 .
-string_types
+StringTypes
 )
 )
 :
@@ -7552,18 +7464,16 @@ SandboxedGlobal
 k
 v
 )
-            
 for
 k
 v
 in
-six
+func
+.
+func_globals
 .
 iteritems
 (
-func
-.
-__globals__
 )
             
 if
@@ -7676,7 +7586,7 @@ None
 if
 func
 .
-__closure__
+func_closure
 :
             
 def
@@ -7697,7 +7607,7 @@ content
 return
 f
 .
-__closure__
+func_closure
 [
 0
 ]
@@ -7718,7 +7628,7 @@ cell
 in
 func
 .
-__closure__
+func_closure
 )
         
 new_func
@@ -7737,7 +7647,7 @@ FunctionType
             
 func
 .
-__code__
+func_code
             
 glob
             
@@ -7747,7 +7657,7 @@ __name__
             
 func
 .
-__defaults__
+func_defaults
             
 closure
         

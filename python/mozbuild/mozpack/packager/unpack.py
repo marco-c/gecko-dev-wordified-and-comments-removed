@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 mozpack
 .
@@ -74,13 +73,7 @@ formats
 import
 FlatFormatter
 from
-six
-.
-moves
-.
-urllib
-.
-parse
+urlparse
 import
 urlparse
 class

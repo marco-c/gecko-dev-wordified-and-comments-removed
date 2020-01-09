@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 from
 mozpack
 .
@@ -32,13 +31,7 @@ errors
 import
 errors
 from
-six
-.
-moves
-.
-urllib
-.
-parse
+urlparse
 import
 urlparse
 import

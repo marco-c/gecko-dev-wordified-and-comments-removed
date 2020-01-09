@@ -53,8 +53,6 @@ errno
 import
 re
 import
-six
-import
 logging
 from
 time
@@ -82,12 +80,6 @@ action
 buildlist
 import
 addEntriesToListFile
-from
-mozbuild
-.
-util
-import
-ensure_bytes
 from
 mozpack
 .
@@ -2202,11 +2194,10 @@ register
 addEntriesToListFile
 (
 manifestPath
-six
+myregister
 .
 iterkeys
 (
-myregister
 )
 )
     
@@ -3823,14 +3814,8 @@ rv
 =
 CreateHardLink
 (
-ensure_bytes
-(
 out
-)
-ensure_bytes
-(
 src
-)
 None
 )
                 

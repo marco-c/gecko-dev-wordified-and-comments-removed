@@ -13,11 +13,7 @@ locale
 import
 logging
 import
-io
-import
 os
-import
-six
 import
 sys
 from
@@ -255,9 +251,7 @@ if
 isinstance
 (
 other
-six
-.
-text_type
+unicode
 )
 :
             
@@ -560,12 +554,7 @@ fd2
 )
         
 except
-(
 AttributeError
-io
-.
-UnsupportedOperation
-)
 :
             
 self
