@@ -4582,6 +4582,23 @@ label
 return
 False
         
+if
+attr
+(
+'
+unittest_variant
+'
+)
+=
+=
+'
+fission
+'
+:
+            
+return
+False
+        
 def
 match_test
 (
