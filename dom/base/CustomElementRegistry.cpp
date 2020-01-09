@@ -143,6 +143,15 @@ h
 #
 include
 "
+js
+/
+ForOfIterator
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h

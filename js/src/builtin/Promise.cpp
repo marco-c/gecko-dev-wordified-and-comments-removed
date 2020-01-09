@@ -87,6 +87,15 @@ include
 "
 js
 /
+ForOfIterator
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h

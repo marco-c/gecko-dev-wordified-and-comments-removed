@@ -173,6 +173,15 @@ h
 #
 include
 "
+js
+/
+ForOfIterator
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
