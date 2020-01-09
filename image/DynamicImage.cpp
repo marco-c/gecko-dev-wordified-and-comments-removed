@@ -1097,6 +1097,8 @@ StartDecoding
 (
 uint32_t
 aFlags
+uint32_t
+aWhichFrame
 )
 {
 return
@@ -1111,6 +1113,8 @@ StartDecodingWithResult
 (
 uint32_t
 aFlags
+uint32_t
+aWhichFrame
 )
 {
 return
@@ -1125,6 +1129,8 @@ RequestDecodeWithResult
 (
 uint32_t
 aFlags
+uint32_t
+aWhichFrame
 )
 {
 return
@@ -1143,6 +1149,8 @@ nsIntSize
 aSize
 uint32_t
 aFlags
+uint32_t
+aWhichFrame
 )
 {
 return
