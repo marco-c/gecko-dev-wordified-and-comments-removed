@@ -1756,8 +1756,6 @@ pulseStart
 (
 now
 -
-mDisplayInfo
-.
 mLastFrameStart
 [
 bufferIndex

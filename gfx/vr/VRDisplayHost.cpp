@@ -952,8 +952,6 @@ const
 TimeStamp
 lastFrameStart
 =
-mDisplayInfo
-.
 mLastFrameStart
 [
 mDisplayInfo
@@ -1057,8 +1055,6 @@ GetSensorState
 (
 )
 ;
-mDisplayInfo
-.
 mLastFrameStart
 [
 bufferIndex
@@ -1147,8 +1143,6 @@ false
 TimeStamp
 lastFrameStart
 =
-mDisplayInfo
-.
 mLastFrameStart
 [
 mDisplayInfo

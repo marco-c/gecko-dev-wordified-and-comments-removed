@@ -199,12 +199,6 @@ mLastSensorState
 kVRMaxLatencyFrames
 ]
 ;
-TimeStamp
-mLastFrameStart
-[
-kVRMaxLatencyFrames
-]
-;
 const
 VRHMDSensorState
 &
