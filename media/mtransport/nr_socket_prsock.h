@@ -971,11 +971,12 @@ host
 uint16_t
 port
 const
+nsTArray
+<
 uint8_t
-*
+>
+&
 data
-uint32_t
-data_length
 )
 ;
 NS_IMETHODIMP
