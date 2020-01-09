@@ -225,6 +225,8 @@ gBroken
 true
 ;
 l10nUpdatedElements
+=
+l10nUpdatedElements
 .
 concat
 (
@@ -262,6 +264,8 @@ gChecking
 =
 true
 ;
+l10nUpdatedElements
+=
 l10nUpdatedElements
 .
 concat
@@ -559,6 +563,7 @@ gChecking
 =
 false
 ;
+await
 document
 .
 l10n
@@ -569,18 +574,11 @@ updateCertStatus
 (
 )
 )
-.
-then
-(
-(
-)
-=
->
+;
 window
 .
 sizeToContent
 (
-)
 )
 ;
 }
