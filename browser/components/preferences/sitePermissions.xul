@@ -476,12 +476,10 @@ permissions
 -
 searchbox
 "
-is
+type
 =
 "
 search
--
-textbox
 "
 oncommand
 =

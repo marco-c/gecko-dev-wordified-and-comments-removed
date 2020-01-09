@@ -22,15 +22,7 @@ aWindow
 await
 open_manager
 (
-"
-addons
-:
-/
-/
-list
-/
-extension
-"
+null
 )
 ;
 gManagerWindow
@@ -71,8 +63,6 @@ focusCount
 }
 searchBox
 .
-inputField
-.
 addEventListener
 (
 "
@@ -90,8 +80,6 @@ slash_key_test
 )
 ;
 searchBox
-.
-inputField
 .
 removeEventListener
 (

@@ -445,12 +445,10 @@ id
 "
 searchBox
 "
-is
+type
 =
 "
 search
--
-textbox
 "
 flex
 =

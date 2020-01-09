@@ -2992,12 +2992,10 @@ flex
 "
 1
 "
-is
+type
 =
 "
 search
--
-textbox
 "
 aria
 -
