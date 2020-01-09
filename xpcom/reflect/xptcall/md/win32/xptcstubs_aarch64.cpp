@@ -876,6 +876,9 @@ b
 (
 bool
 )
+(
+uint8_t
+)
 gprData
 [
 next_gpr
@@ -895,6 +898,9 @@ b
 =
 (
 bool
+)
+(
+uint8_t
 )
 *
 ap
