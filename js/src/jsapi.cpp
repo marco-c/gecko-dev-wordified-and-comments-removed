@@ -4425,6 +4425,7 @@ if
 clasp
 |
 |
+(
 !
 (
 clasp
@@ -4433,6 +4434,15 @@ clasp
 flags
 &
 JSCLASS_IS_ANONYMOUS
+)
+&
+&
+clasp
+-
+>
+specShouldDefineConstructor
+(
+)
 )
 )
 {
