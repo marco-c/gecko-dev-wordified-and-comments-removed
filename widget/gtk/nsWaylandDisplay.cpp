@@ -41,7 +41,7 @@ widget
 #
 define
 MAX_DISPLAY_CONNECTIONS
-2
+3
 static
 nsWaylandDisplay
 *
