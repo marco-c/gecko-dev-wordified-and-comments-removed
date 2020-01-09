@@ -2183,6 +2183,13 @@ isTrusted
 return
 ;
 }
+this
+.
+setupProgressListener
+(
+topWindow
+)
+;
 let
 pwField
 =
@@ -2266,13 +2273,6 @@ pwField
 event
 .
 originalTarget
-;
-this
-.
-setupProgressListener
-(
-topWindow
-)
 ;
 let
 formLike
