@@ -2472,7 +2472,7 @@ front
 (
 )
 .
-asPtrUnbarriered
+unbarrieredGet
 (
 )
 ;
@@ -2495,7 +2495,7 @@ front
 (
 )
 .
-asPtrUnbarriered
+unbarrieredGet
 (
 )
 =
