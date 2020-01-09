@@ -1637,6 +1637,17 @@ aConnection
 )
 ;
 nsresult
+UpgradeLocalStorageArchiveFrom1To2
+(
+nsCOMPtr
+<
+mozIStorageConnection
+>
+&
+aConnection
+)
+;
+nsresult
 InitializeRepository
 (
 PersistenceType
