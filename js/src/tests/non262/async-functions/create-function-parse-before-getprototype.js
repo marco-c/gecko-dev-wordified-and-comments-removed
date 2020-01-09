@@ -64,6 +64,7 @@ construct
 AsyncFunction
 [
 "
+#
 error
 "
 ]

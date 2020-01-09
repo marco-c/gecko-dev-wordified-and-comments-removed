@@ -65,6 +65,7 @@ construct
 AsyncGenerator
 [
 "
+#
 error
 "
 ]
