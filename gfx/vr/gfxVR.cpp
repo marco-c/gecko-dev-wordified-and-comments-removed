@@ -537,6 +537,8 @@ controllerInfo
 GetNumHaptics
 (
 )
+0
+0
 )
 ;
 VRManager
