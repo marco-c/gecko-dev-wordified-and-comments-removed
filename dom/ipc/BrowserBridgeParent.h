@@ -211,6 +211,17 @@ RecvActivate
 (
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvDeactivate
+(
+)
+;
 void
 ActorDestroy
 (

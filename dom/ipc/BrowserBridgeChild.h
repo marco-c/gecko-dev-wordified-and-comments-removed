@@ -137,6 +137,11 @@ Activate
 (
 )
 ;
+void
+Deactivate
+(
+)
+;
 static
 BrowserBridgeChild
 *
