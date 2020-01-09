@@ -249,6 +249,9 @@ null
 connected
 :
 false
+isAttached
+:
+null
 _connectTimer
 :
 null
@@ -485,6 +488,10 @@ title
 }
 this
 .
+isAttached
+=
+this
+.
 _attachConsole
 (
 )
@@ -578,6 +585,7 @@ ContentProcessMessages
 )
 ;
 }
+return
 this
 .
 webConsoleClient
@@ -822,6 +830,7 @@ data
 }
 _onCachedMessages
 :
+async
 function
 (
 response
@@ -952,6 +961,7 @@ webConsoleClient
 hasNativeConsoleAPI
 )
 {
+await
 this
 .
 webConsoleFrame
@@ -1269,6 +1279,7 @@ actor
 }
 disconnect
 :
+async
 function
 (
 )
@@ -1296,6 +1307,19 @@ defer
 (
 )
 ;
+if
+(
+this
+.
+isAttached
+)
+{
+await
+this
+.
+isAttached
+;
+}
 if
 (
 !

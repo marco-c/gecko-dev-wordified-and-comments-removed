@@ -2926,6 +2926,7 @@ errorFlag
 =
 0
 ;
+return
 this
 .
 activeTab
@@ -2942,6 +2943,13 @@ errorFlag
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 logWarningInPage
 (
@@ -2970,6 +2978,7 @@ warningFlag
 =
 1
 ;
+return
 this
 .
 activeTab
@@ -2986,6 +2995,13 @@ warningFlag
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 }
 exports
