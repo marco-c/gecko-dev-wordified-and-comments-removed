@@ -6023,6 +6023,12 @@ MutableHandleObject
 res
 )
 {
+MOZ_ASSERT
+(
+!
+res
+)
+;
 #
 define
 CHECK_TYPED_ARRAY_CONSTRUCTOR
