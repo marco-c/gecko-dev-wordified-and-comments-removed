@@ -3071,9 +3071,6 @@ return
 <
 %
 s
-.
-%
-s
 [
 %
 s
@@ -3082,12 +3079,6 @@ s
 '
 %
 (
-self
-.
-__class__
-.
-__module__
-                                 
 self
 .
 __class__
