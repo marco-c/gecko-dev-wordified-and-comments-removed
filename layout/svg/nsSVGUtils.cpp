@@ -6342,7 +6342,7 @@ const
 gfxMatrix
 &
 aMatrix
-nsSVGEnum
+SVGEnum
 *
 aUnits
 nsIFrame

@@ -28,7 +28,9 @@ h
 #
 include
 "
-SVGElement
+mozilla
+/
+Attributes
 .
 h
 "
@@ -37,7 +39,7 @@ include
 "
 mozilla
 /
-Attributes
+UniquePtr
 .
 h
 "
@@ -57,7 +59,9 @@ include
 "
 mozilla
 /
-UniquePtr
+dom
+/
+SVGElement
 .
 h
 "
@@ -77,13 +81,12 @@ class
 SVGAnimationElement
 ;
 }
-}
 typedef
 uint8_t
-nsSVGEnumValue
+SVGEnumValue
 ;
 struct
-nsSVGEnumMapping
+SVGEnumMapping
 {
 nsStaticAtom
 *
@@ -91,13 +94,13 @@ const
 mKey
 ;
 const
-nsSVGEnumValue
+SVGEnumValue
 mVal
 ;
 }
 ;
 class
-nsSVGEnum
+SVGEnum
 {
 public
 :
@@ -249,10 +252,10 @@ aSVGElement
 ;
 private
 :
-nsSVGEnumValue
+SVGEnumValue
 mAnimVal
 ;
-nsSVGEnumValue
+SVGEnumValue
 mBaseVal
 ;
 uint8_t
@@ -265,7 +268,7 @@ bool
 mIsBaseSet
 ;
 const
-nsSVGEnumMapping
+SVGEnumMapping
 *
 GetMapping
 (
@@ -291,7 +294,7 @@ SVGAnimatedEnumeration
 {
 DOMAnimatedEnum
 (
-nsSVGEnum
+SVGEnum
 *
 aVal
 SVGElement
@@ -321,7 +324,7 @@ DOMAnimatedEnum
 (
 )
 ;
-nsSVGEnum
+SVGEnum
 *
 mVal
 ;
@@ -415,7 +418,7 @@ public
 :
 SMILEnum
 (
-nsSVGEnum
+SVGEnum
 *
 aVal
 SVGElement
@@ -433,7 +436,7 @@ aSVGElement
 )
 {
 }
-nsSVGEnum
+SVGEnum
 *
 mVal
 ;
@@ -499,5 +502,6 @@ override
 ;
 }
 ;
+}
 #
 endif
