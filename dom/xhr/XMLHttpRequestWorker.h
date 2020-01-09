@@ -198,6 +198,9 @@ mMozAnon
 bool
 mMozSystem
 ;
+nsString
+mMimeTypeOverride
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
