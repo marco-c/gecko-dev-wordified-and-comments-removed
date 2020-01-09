@@ -4660,6 +4660,11 @@ processOutputLine
 =
 outputHandler
             
+stdin
+=
+subprocess
+.
+PIPE
 env
 =
 env
