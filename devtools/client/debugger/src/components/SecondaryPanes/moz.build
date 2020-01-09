@@ -105,6 +105,11 @@ UtilsBar
 js
 '
 '
+WhyPaused
+.
+js
+'
+'
 Worker
 .
 js
@@ -144,6 +149,11 @@ css
 '
 '
 SecondaryPanes
+.
+css
+'
+'
+WhyPaused
 .
 css
 '

@@ -93,11 +93,6 @@ index
 .
 js
 '
-'
-WhyPaused
-.
-js
-'
 )
 DevToolsModules
 (
@@ -108,11 +103,6 @@ css
 '
 '
 Group
-.
-css
-'
-'
-WhyPaused
 .
 css
 '
