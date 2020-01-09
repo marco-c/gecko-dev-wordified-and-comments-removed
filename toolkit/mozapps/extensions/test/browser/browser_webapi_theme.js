@@ -391,8 +391,6 @@ is
 (
 parsed
 .
-theme
-.
 id
 "
 theme
@@ -415,8 +413,6 @@ ID
 is
 (
 parsed
-.
-theme
 .
 version
 "
@@ -445,8 +441,6 @@ AddonManager
 getAddonByID
 (
 parsed
-.
-theme
 .
 id
 )
