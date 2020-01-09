@@ -1314,16 +1314,8 @@ textbox
 .
 value
 .
-replace
+trim
 (
-/
-^
-\
-s
-*
-/
-"
-"
 )
 ;
 let
