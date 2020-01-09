@@ -284,7 +284,7 @@ toolbox
 }
 async
 function
-attatchRecordingDebugger
+attachRecordingDebugger
 (
 url
 {
