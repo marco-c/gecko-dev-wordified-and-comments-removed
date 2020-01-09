@@ -1228,7 +1228,7 @@ ComputedStyle
 &
 aStyle
 const
-StyleComplexColor
+StyleColor
 &
 aColor
 )

@@ -679,7 +679,7 @@ StyleAnimationValue
 h
 '
 '
-StyleComplexColor
+StyleColorInlines
 .
 h
 '
@@ -1232,7 +1232,7 @@ StyleAnimationValue
 cpp
 '
 '
-StyleComplexColor
+StyleColor
 .
 cpp
 '

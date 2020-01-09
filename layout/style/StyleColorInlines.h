@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_StyleComplexColor_h_
+mozilla_StyleColorInlines_h_
 #
 define
-mozilla_StyleComplexColor_h_
+mozilla_StyleColorInlines_h_
 #
 include
 "
@@ -23,11 +23,6 @@ h
 namespace
 mozilla
 {
-using
-StyleComplexColor
-=
-StyleColor
-;
 template
 <
 >
@@ -146,7 +141,7 @@ template
 <
 >
 nscolor
-StyleComplexColor
+StyleColor
 :
 :
 CalcColor
@@ -160,7 +155,7 @@ template
 <
 >
 nscolor
-StyleComplexColor
+StyleColor
 :
 :
 CalcColor
@@ -175,7 +170,7 @@ template
 <
 >
 nscolor
-StyleComplexColor
+StyleColor
 :
 :
 CalcColor

@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-StyleComplexColor
+StyleColorInlines
 .
 h
 "
@@ -279,7 +279,7 @@ template
 <
 >
 bool
-StyleComplexColor
+StyleColor
 :
 :
 MaybeTransparent
@@ -336,7 +336,7 @@ template
 <
 >
 nscolor
-StyleComplexColor
+StyleColor
 :
 :
 CalcColor
@@ -416,7 +416,7 @@ template
 <
 >
 nscolor
-StyleComplexColor
+StyleColor
 :
 :
 CalcColor
@@ -467,7 +467,7 @@ template
 <
 >
 nscolor
-StyleComplexColor
+StyleColor
 :
 :
 CalcColor
