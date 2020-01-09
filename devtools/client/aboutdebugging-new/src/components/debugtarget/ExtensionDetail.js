@@ -556,7 +556,7 @@ extension
 -
 manifest
 -
-link
+url
 "
 attrs
 :
