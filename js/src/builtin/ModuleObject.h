@@ -979,6 +979,12 @@ family
 ;
 }
 ;
+bool
+hasBindings
+(
+)
+const
+;
 public
 :
 static
