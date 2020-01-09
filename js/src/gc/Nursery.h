@@ -2174,6 +2174,8 @@ reason
 void
 growAllocableSpace
 (
+unsigned
+newCount
 )
 ;
 void
