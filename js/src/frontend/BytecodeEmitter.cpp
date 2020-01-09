@@ -841,11 +841,15 @@ bodyPosition
 setScriptStartOffsetIfUnset
 (
 bodyPosition
+.
+begin
 )
 ;
 setFunctionBodyEndPos
 (
 bodyPosition
+.
+end
 )
 ;
 }
@@ -11604,6 +11608,8 @@ body
 -
 >
 pn_pos
+.
+begin
 )
 ;
 MOZ_ASSERT
@@ -11730,6 +11736,8 @@ body
 -
 >
 pn_pos
+.
+end
 )
 ;
 bool
@@ -12303,6 +12311,8 @@ body
 -
 >
 pn_pos
+.
+begin
 )
 ;
 Maybe
@@ -12378,6 +12388,8 @@ body
 -
 >
 pn_pos
+.
+end
 )
 ;
 if
