@@ -480,6 +480,11 @@ cmd_decreaseZIndex
 )
 NS_DEFINE_COMMAND
 (
+FormatDocumentBackgroundColor
+cmd_backgroundColor
+)
+NS_DEFINE_COMMAND
+(
 FormatEmphasis
 cmd_em
 )
