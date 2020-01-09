@@ -1377,7 +1377,11 @@ filename
 char16_t
 *
 *
-src
+twoByteSource
+char
+*
+*
+utf8Source
 size_t
 *
 length
