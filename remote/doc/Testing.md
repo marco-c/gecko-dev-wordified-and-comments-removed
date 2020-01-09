@@ -190,9 +190,6 @@ browser_
 /
 mach
 mochitest
--
-f
-browser
 remote
 /
 test
