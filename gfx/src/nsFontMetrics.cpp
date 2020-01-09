@@ -763,14 +763,6 @@ gfxFont
 eVertical
 )
 ;
-style
-.
-featureValueLookup
-=
-aParams
-.
-featureValueLookup
-;
 aFont
 .
 AddFontVariationsToStyle

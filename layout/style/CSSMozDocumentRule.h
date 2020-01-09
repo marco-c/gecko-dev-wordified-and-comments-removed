@@ -80,9 +80,9 @@ static
 bool
 Match
 (
-const
 Document
 *
+aDoc
 nsIURI
 *
 aDocURI

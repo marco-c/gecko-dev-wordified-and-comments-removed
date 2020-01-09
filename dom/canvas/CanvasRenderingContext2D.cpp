@@ -12607,17 +12607,6 @@ GetTextPerfMetrics
 (
 )
 ;
-params
-.
-featureValueLookup
-=
-mPresContext
--
->
-GetFontFeatureValuesLookup
-(
-)
-;
 RefPtr
 <
 nsFontMetrics
