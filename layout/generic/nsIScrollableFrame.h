@@ -274,6 +274,15 @@ aWM
 0
 ;
 virtual
+nsSize
+GetLayoutSize
+(
+)
+const
+=
+0
+;
+virtual
 nsRect
 GetScrolledRect
 (
