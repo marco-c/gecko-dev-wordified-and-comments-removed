@@ -417,7 +417,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 debug
 -
@@ -532,7 +532,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 debug
 -

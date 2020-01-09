@@ -162,7 +162,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 connect
 -
@@ -192,7 +192,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 sidebar
 -
@@ -309,7 +309,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 connect
 -

@@ -245,7 +245,7 @@ TOO_OLD
 statusClassName
 =
 "
-js
+qa
 -
 compatibility
 -
@@ -282,7 +282,7 @@ TOO_RECENT
 statusClassName
 =
 "
-js
+qa
 -
 compatibility
 -
@@ -319,7 +319,7 @@ TOO_OLD_67_DEBUGGER
 statusClassName
 =
 "
-js
+qa
 -
 compatibility
 -
@@ -416,7 +416,7 @@ p
 {
 className
 :
-js
+qa
 -
 compatibility
 -

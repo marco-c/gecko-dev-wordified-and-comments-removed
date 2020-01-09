@@ -297,7 +297,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 connect
 -
@@ -339,7 +339,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 runtime
 -

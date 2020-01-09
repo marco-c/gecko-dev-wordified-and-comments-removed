@@ -97,7 +97,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 connection
 -
@@ -130,7 +130,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 profile
 -
@@ -221,7 +221,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 connection
 -
@@ -252,7 +252,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 profile
 -

@@ -150,7 +150,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 worker
 -

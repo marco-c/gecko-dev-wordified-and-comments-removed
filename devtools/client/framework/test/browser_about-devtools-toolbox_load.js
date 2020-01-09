@@ -127,7 +127,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 error
 -
@@ -144,7 +144,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 error
 -

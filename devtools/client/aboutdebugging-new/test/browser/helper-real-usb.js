@@ -230,7 +230,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 sidebar
 -

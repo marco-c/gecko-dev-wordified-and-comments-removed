@@ -217,7 +217,7 @@ className
 sidebar
 -
 item__link
-js
+qa
 -
 sidebar
 -
@@ -260,7 +260,7 @@ className
 sidebar
 -
 item
-js
+qa
 -
 sidebar
 -
@@ -288,7 +288,7 @@ item
 -
 -
 selected
-js
+qa
 -
 sidebar
 -

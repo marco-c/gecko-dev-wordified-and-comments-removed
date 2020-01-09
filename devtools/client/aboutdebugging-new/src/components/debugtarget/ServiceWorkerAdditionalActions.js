@@ -390,7 +390,7 @@ button
 -
 -
 micro
-js
+qa
 -
 push
 -
@@ -465,7 +465,7 @@ button
 -
 -
 micro
-js
+qa
 -
 start
 -
@@ -540,7 +540,7 @@ button
 -
 -
 micro
-js
+qa
 -
 unregister
 -

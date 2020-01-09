@@ -267,7 +267,7 @@ debug
 target
 -
 item__icon
-js
+qa
 -
 debug
 -
@@ -351,7 +351,7 @@ debug
 target
 -
 item
-js
+qa
 -
 debug
 -

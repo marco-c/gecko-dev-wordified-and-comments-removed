@@ -234,7 +234,7 @@ a
 className
 :
 "
-js
+qa
 -
 temporary
 -
@@ -261,7 +261,7 @@ div
 className
 :
 "
-js
+qa
 -
 temporary
 -

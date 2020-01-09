@@ -375,7 +375,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 temporary
 -
@@ -732,7 +732,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 temporary
 -

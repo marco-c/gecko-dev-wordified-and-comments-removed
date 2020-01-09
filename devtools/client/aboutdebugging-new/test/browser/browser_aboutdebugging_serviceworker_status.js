@@ -345,7 +345,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 debug
 -
@@ -366,7 +366,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 push
 -
@@ -383,7 +383,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 start
 -
@@ -400,7 +400,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 unregister
 -

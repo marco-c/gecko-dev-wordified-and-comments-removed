@@ -419,7 +419,7 @@ component
 .
 root
 "
-js
+qa
 -
 connection
 -
@@ -522,7 +522,7 @@ component
 .
 root
 "
-js
+qa
 -
 connection
 -
@@ -598,7 +598,7 @@ component
 .
 root
 "
-js
+qa
 -
 target
 -
@@ -709,7 +709,7 @@ component
 .
 root
 "
-js
+qa
 -
 target
 -

@@ -202,7 +202,7 @@ className
 network
 -
 location
-js
+qa
 -
 network
 -
@@ -223,7 +223,7 @@ className
 ellipsis
 -
 text
-js
+qa
 -
 network
 -
@@ -264,7 +264,7 @@ className
 default
 -
 button
-js
+qa
 -
 network
 -

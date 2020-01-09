@@ -248,7 +248,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 sidebar
 -
@@ -329,7 +329,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 runtime
 -

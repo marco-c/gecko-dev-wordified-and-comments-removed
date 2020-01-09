@@ -151,7 +151,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 connection
 -
@@ -214,7 +214,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 connection
 -

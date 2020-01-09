@@ -195,7 +195,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 runtime
 -

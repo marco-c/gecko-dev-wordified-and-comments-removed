@@ -365,7 +365,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 connect
 -
@@ -568,7 +568,7 @@ querySelector
 (
 "
 .
-js
+qa
 -
 connect
 -
