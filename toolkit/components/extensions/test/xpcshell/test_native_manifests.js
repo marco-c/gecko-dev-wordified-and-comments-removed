@@ -694,6 +694,11 @@ mozilla
 org
 "
 }
+envType
+:
+"
+addon_parent
+"
 url
 :
 null
@@ -771,7 +776,7 @@ extensionId
 super
 (
 "
-testEnv
+addon_parent
 "
 fakeExtension
 )
