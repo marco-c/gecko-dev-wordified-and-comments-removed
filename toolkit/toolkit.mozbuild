@@ -912,6 +912,14 @@ CONFIG
 MOZ_TSAN
 '
 ]
+and
+not
+CONFIG
+[
+'
+FUZZING_INTERFACES
+'
+]
 :
 DIRS
 +
