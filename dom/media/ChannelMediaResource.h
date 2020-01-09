@@ -509,9 +509,15 @@ aMallocSizeOf
 )
 ;
 }
-nsCString
+void
 GetDebugInfo
 (
+dom
+:
+:
+MediaResourceDebugInfo
+&
+aInfo
 )
 override
 ;

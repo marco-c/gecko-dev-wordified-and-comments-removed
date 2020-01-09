@@ -231,9 +231,15 @@ return
 mAudibleEvent
 ;
 }
-nsCString
+void
 GetDebugInfo
 (
+dom
+:
+:
+MediaSinkDebugInfo
+&
+aInfo
 )
 ;
 private
