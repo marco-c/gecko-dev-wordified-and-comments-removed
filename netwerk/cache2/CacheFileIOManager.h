@@ -1381,10 +1381,6 @@ uint32_t
 *
 aFrecency
 const
-uint32_t
-*
-aExpirationTime
-const
 bool
 *
 aHasAltData
