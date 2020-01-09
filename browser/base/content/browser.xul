@@ -641,9 +641,9 @@ be
 shared
 by
 #
-hiddenWindowMac
+hiddenWindow
 .
-xhtml
+xul
 .
 <
 !
@@ -12325,11 +12325,6 @@ dynamic
 shortcut
 -
 tooltip
-"
-anchor
-=
-"
-dropmarker
 "
 ondragenter
 =

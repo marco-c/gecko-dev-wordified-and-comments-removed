@@ -2311,9 +2311,6 @@ aState
 nsIFrame
 *
 aParentMenu
-nsIFrame
-*
-aAnchor
 bool
 aSizedToPopup
 )
@@ -2553,7 +2550,7 @@ shouldPosition
 {
 SetPopupPosition
 (
-aAnchor
+aParentMenu
 false
 aSizedToPopup
 mPopupState
@@ -2653,7 +2650,7 @@ rePosition
 {
 SetPopupPosition
 (
-aAnchor
+aParentMenu
 false
 aSizedToPopup
 false
@@ -2967,7 +2964,7 @@ mReflowCallbackData
 .
 MarkPosted
 (
-aAnchor
+aParentMenu
 aSizedToPopup
 openChanged
 )
