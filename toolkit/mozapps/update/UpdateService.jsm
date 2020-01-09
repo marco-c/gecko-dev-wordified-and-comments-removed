@@ -19278,6 +19278,7 @@ error
 {
 if
 (
+(
 error
 .
 type
@@ -19288,6 +19289,19 @@ Ci
 nsIBits
 .
 ERROR_TYPE_FAILED_TO_GET_BITS_JOB
+|
+|
+error
+.
+type
+=
+=
+Ci
+.
+nsIBits
+.
+ERROR_TYPE_FAILED_TO_CONNECT_TO_BCM
+)
 &
 &
 error
