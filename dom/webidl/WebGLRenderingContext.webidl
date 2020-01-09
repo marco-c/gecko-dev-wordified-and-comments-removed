@@ -6264,7 +6264,11 @@ EXT_float_blend
 {
 }
 ;
-/
-/
+[
+NoInterfaceObject
+]
 interface
-EXT_float_blend
+OES_fbo_render_mipmap
+{
+}
+;

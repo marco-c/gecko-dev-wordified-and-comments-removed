@@ -1057,6 +1057,7 @@ OES_depth24
 OES_depth32
 OES_depth_texture
 OES_element_index_uint
+OES_fbo_render_mipmap
 OES_framebuffer_object
 OES_packed_depth_stencil
 OES_rgb8_rgba8

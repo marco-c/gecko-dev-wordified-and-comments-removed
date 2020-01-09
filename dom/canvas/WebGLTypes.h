@@ -124,6 +124,7 @@ EXT_texture_compression_rgtc
 EXT_texture_filter_anisotropic
 MOZ_debug
 OES_element_index_uint
+OES_fbo_render_mipmap
 OES_standard_derivatives
 OES_texture_float
 OES_texture_float_linear
