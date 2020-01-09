@@ -178,10 +178,6 @@ chrome
 -
 mochitest
 -
-clipboard
--
-mochitest
--
 devtools
 -
 chrome
@@ -1360,10 +1356,6 @@ chrome
 -
 mochitest
 -
-clipboard
--
-mochitest
--
 devtools
 -
 chrome
@@ -1459,10 +1451,6 @@ chrome
 mochitest
 -
 chrome
--
-mochitest
--
-clipboard
 -
 mochitest
 -
@@ -1675,10 +1663,6 @@ chrome
 mochitest
 -
 chrome
--
-mochitest
--
-clipboard
 -
 mochitest
 -
@@ -1927,10 +1911,6 @@ chrome
 -
 mochitest
 -
-clipboard
--
-mochitest
--
 gpu
 -
 mochitest
@@ -2038,10 +2018,6 @@ chrome
 -
 mochitest
 -
-clipboard
--
-mochitest
--
 gpu
 -
 mochitest
@@ -2138,10 +2114,6 @@ cppunit
 jsreftest
 -
 marionette
--
-mochitest
--
-clipboard
 -
 mochitest
 -

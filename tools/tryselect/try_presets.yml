@@ -138,11 +138,6 @@ shippable
 mochitest
 -
 chrome
-|
-'
-mochitest
--
-clipboard
 "
 -
 "
@@ -214,13 +209,6 @@ devtools
 mochitest
 -
 chrome
-|
-'
-mochitest
--
-clipboard
-'
-linux64
 |
 '
 mac
