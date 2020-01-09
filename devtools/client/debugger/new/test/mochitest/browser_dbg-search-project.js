@@ -403,7 +403,7 @@ getExpandedResultsCount
 (
 dbg
 )
-15
+18
 )
 ;
 const
@@ -440,7 +440,7 @@ getExpandedResultsCount
 (
 dbg
 )
-155
+226
 )
 ;
 }
