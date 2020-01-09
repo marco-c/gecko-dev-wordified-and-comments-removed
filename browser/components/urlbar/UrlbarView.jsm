@@ -3065,6 +3065,12 @@ if
 !
 this
 .
+isOpen
+|
+|
+!
+this
+.
 _queryContext
 )
 {
