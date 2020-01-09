@@ -2,13 +2,6 @@ job
 -
 defaults
 :
-tags
-:
-android
--
-stuff
-:
-true
 run
 :
 mozconfig

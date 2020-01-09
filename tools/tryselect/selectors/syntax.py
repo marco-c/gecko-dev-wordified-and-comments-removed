@@ -1160,7 +1160,7 @@ symbols
 [
 (
 "
-separator
+seperator
 "
 "
 "
@@ -1695,7 +1695,7 @@ token
 =
 =
 "
-separator
+seperator
 "
 :
             
@@ -1814,7 +1814,7 @@ token
 =
 =
 "
-separator
+seperator
 "
 :
             
@@ -1870,7 +1870,7 @@ self
 expect
 (
 "
-separator
+seperator
 "
 )
         
