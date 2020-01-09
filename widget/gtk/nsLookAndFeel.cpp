@@ -2996,8 +2996,6 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
-float
-aDevPixPerCSSPixel
 )
 {
 switch
@@ -3124,9 +3122,6 @@ aFontStyle
 size
 *
 =
-mozilla
-:
-:
 widget
 :
 :
@@ -3136,6 +3131,8 @@ ScreenHelperGTK
 GetGTKMonitorScaleFactor
 (
 )
+/
+scaleFactor
 ;
 }
 else
@@ -3143,10 +3140,8 @@ else
 aFontStyle
 .
 size
-*
-=
-aDevPixPerCSSPixel
 /
+=
 gfxPlatformGtk
 :
 :

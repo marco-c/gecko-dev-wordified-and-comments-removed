@@ -1605,8 +1605,6 @@ aSystemFontName
 gfxFontStyle
 &
 aFontStyle
-float
-aDevPixPerCSSPixel
 )
 {
 gfxMacPlatformFontList
@@ -1629,7 +1627,6 @@ LookupSystemFont
 aSystemFontID
 aSystemFontName
 aFontStyle
-aDevPixPerCSSPixel
 )
 ;
 }

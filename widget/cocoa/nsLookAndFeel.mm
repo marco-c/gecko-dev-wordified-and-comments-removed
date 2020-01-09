@@ -3202,8 +3202,6 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
-float
-aDevPixPerCSSPixel
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
@@ -3274,8 +3272,6 @@ aFontStyle
 size
 =
 14
-*
-aDevPixPerCSSPixel
 ;
 aFontStyle
 .
@@ -3309,7 +3305,6 @@ LookupSystemFont
 aID
 name
 aFontStyle
-aDevPixPerCSSPixel
 )
 ;
 aFontName

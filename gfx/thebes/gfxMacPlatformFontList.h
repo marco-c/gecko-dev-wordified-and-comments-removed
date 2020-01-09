@@ -571,8 +571,6 @@ aSystemFontName
 gfxFontStyle
 &
 aFontStyle
-float
-aDevPixPerCSSPixel
 )
 ;
 enum

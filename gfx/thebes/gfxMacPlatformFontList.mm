@@ -9908,8 +9908,6 @@ aSystemFontName
 gfxFontStyle
 &
 aFontStyle
-float
-aDevPixPerCSSPixel
 )
 {
 /
@@ -10312,16 +10310,6 @@ Normal
 (
 )
 ;
-/
-/
-convert
-size
-from
-css
-pixels
-to
-device
-pixels
 aFontStyle
 .
 size
@@ -10330,8 +10318,6 @@ size
 font
 pointSize
 ]
-*
-aDevPixPerCSSPixel
 ;
 aFontStyle
 .

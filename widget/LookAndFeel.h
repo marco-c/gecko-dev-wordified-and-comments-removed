@@ -604,8 +604,6 @@ aName
 gfxFontStyle
 &
 aStyle
-float
-aDevPixPerCSSPixel
 )
 ;
 static

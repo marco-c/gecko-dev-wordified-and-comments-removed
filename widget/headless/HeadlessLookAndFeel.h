@@ -104,8 +104,6 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
-float
-aDevPixPerCSSPixel
 )
 override
 ;

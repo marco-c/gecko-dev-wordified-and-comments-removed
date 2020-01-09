@@ -2757,8 +2757,6 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
-float
-aDevPixPerCSSPixel
 )
 {
 CachedSystemFont
@@ -2862,13 +2860,6 @@ aFontStyle
 ;
 }
 }
-aFontStyle
-.
-size
-*
-=
-aDevPixPerCSSPixel
-;
 return
 status
 ;

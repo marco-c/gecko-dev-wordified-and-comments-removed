@@ -1751,8 +1751,6 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
-float
-aDevPixPerCSSPixel
 )
 {
 /
@@ -1812,8 +1810,6 @@ aFontStyle
 size
 =
 14
-*
-aDevPixPerCSSPixel
 ;
 aFontStyle
 .
