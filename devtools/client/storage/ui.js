@@ -2582,6 +2582,12 @@ hideSidebar
 ;
 this
 .
+itemOffset
+=
+0
+;
+this
+.
 emit
 (
 "
