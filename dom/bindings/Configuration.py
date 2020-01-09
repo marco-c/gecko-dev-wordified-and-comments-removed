@@ -2796,6 +2796,12 @@ proxy
 =
 False
             
+self
+.
+hasCrossOriginMembers
+=
+False
+            
 iface
 =
 self
@@ -2921,6 +2927,44 @@ members
 :
                     
 if
+(
+m
+.
+isAttr
+(
+)
+and
+                        
+(
+m
+.
+getExtendedAttribute
+(
+"
+CrossOriginReadable
+"
+)
+or
+                         
+m
+.
+getExtendedAttribute
+(
+"
+CrossOriginWritable
+"
+)
+)
+)
+:
+                        
+self
+.
+hasCrossOriginMembers
+=
+True
+                    
+if
 not
 m
 .
@@ -2930,6 +2974,23 @@ isMethod
 :
                         
 continue
+                    
+if
+m
+.
+getExtendedAttribute
+(
+"
+CrossOriginCallable
+"
+)
+:
+                        
+self
+.
+hasCrossOriginMembers
+=
+True
                     
 def
 addIndexedOrNamedOperation
@@ -3123,7 +3184,7 @@ or
                           
 self
 .
-hasNonOrdinaryGetPrototypeOf
+isMaybeCrossOriginObject
 (
 )
 )
@@ -4810,7 +4871,7 @@ NeedsCallerType
 )
     
 def
-hasNonOrdinaryGetPrototypeOf
+isMaybeCrossOriginObject
 (
 self
 )
@@ -4819,13 +4880,13 @@ self
 return
 self
 .
-interface
+hasCrossOriginMembers
+and
+not
+self
 .
-getExtendedAttribute
+isGlobal
 (
-"
-NonOrdinaryGetPrototypeOf
-"
 )
     
 def

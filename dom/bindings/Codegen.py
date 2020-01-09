@@ -25094,7 +25094,7 @@ if
 not
 descriptor
 .
-hasNonOrdinaryGetPrototypeOf
+isMaybeCrossOriginObject
 (
 )
 :
@@ -85753,7 +85753,7 @@ or
                 
 descriptor
 .
-hasNonOrdinaryGetPrototypeOf
+isMaybeCrossOriginObject
 (
 )
 )
@@ -85929,7 +85929,7 @@ descriptor
 if
 descriptor
 .
-hasNonOrdinaryGetPrototypeOf
+isMaybeCrossOriginObject
 (
 )
 :

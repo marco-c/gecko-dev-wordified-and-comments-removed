@@ -11023,14 +11023,6 @@ identifier
 "
 WantsEventListenerHooks
 "
-or
-                  
-identifier
-=
-=
-"
-NonOrdinaryGetPrototypeOf
-"
 )
 :
                 
