@@ -15766,7 +15766,15 @@ CodeBinASTData
 =
 [
 xdr
+#
+if
+defined
+(
+JS_BUILD_BINAST
+)
 ss
+#
+endif
 ]
 (
 )
