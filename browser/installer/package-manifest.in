@@ -1554,6 +1554,11 @@ browser
 defaults
 /
 permissions
+;
+Remote
+Settings
+JSON
+dumps
 RESPATH
 /
 browser
