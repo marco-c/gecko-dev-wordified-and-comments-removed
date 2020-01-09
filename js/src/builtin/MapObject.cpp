@@ -39,6 +39,15 @@ include
 "
 vm
 /
+EqualityOperations
+.
+h
+"
+#
+include
+"
+vm
+/
 GlobalObject
 .
 h
