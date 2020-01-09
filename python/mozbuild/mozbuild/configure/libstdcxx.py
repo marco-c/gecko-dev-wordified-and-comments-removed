@@ -465,9 +465,32 @@ not
 candidates
 :
         
-return
+raise
+Exception
+(
 '
 '
+'
+Couldn
+'
+t
+find
+libstdc
++
++
+candidates
+!
+command
+line
+:
+%
+s
+'
+'
+'
+%
+args
+)
     
 if
 len
@@ -596,9 +619,12 @@ cmp_ver
 ]
     
 return
+(
+last_version
 encode_ver
 (
 last_version
+)
 )
 if
 __name__
@@ -666,6 +692,9 @@ split
 (
 )
 )
+[
+1
+]
 )
     
 host_cxx_env
@@ -699,4 +728,7 @@ split
 (
 )
 )
+[
+1
+]
 )
