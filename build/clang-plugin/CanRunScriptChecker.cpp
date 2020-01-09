@@ -180,6 +180,15 @@ parmVarDecl
 )
 unless
 (
+cxxDefaultArgExpr
+(
+isNullDefaultArg
+(
+)
+)
+)
+unless
+(
 anyOf
 (
 MozKnownLiveCall
