@@ -3,7 +3,7 @@
 -
 layout
 :
-geckoview
+default
 title
 :
 API
@@ -14,6 +14,12 @@ GeckoView
 API
 Changelog
 .
+nav_exclude
+:
+true
+exclude
+:
+true
 -
 -
 -
