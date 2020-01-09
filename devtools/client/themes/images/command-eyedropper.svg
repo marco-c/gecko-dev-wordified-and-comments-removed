@@ -78,6 +78,16 @@ org
 /
 svg
 "
+width
+=
+"
+16
+"
+height
+=
+"
+16
+"
 viewBox
 =
 "
@@ -93,7 +103,7 @@ context
 -
 fill
 #
-0b0b0b
+0c0c0d
 "
 >
 <

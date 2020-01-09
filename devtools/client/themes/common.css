@@ -1633,6 +1633,8 @@ theme
 -
 toolbar
 -
+icon
+-
 color
 )
 ;
@@ -2743,9 +2745,7 @@ skin
 /
 images
 /
-tool
--
-options
+settings
 .
 svg
 "
@@ -5016,8 +5016,6 @@ var
 theme
 -
 toolbar
--
-photon
 -
 icon
 -

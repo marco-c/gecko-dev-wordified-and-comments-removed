@@ -724,9 +724,7 @@ skin
 /
 images
 /
-tool
--
-options
+settings
 .
 svg
 "

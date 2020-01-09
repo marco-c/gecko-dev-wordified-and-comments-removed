@@ -96,13 +96,6 @@ viewBox
 16
 16
 "
-stroke
-=
-"
-context
--
-fill
-"
 >
 <
 path
@@ -110,6 +103,13 @@ fill
 =
 "
 none
+"
+stroke
+=
+"
+context
+-
+fill
 "
 stroke
 -
