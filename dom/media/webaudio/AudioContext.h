@@ -1206,11 +1206,6 @@ GetAllStreams
 const
 ;
 void
-EnsureAutoplayRequested
-(
-)
-;
-void
 ResumeInternal
 (
 )
