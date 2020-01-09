@@ -670,6 +670,17 @@ uint32_t
 aLog2CapacityOut
 )
 {
+MOZ_ASSERT
+(
+aLength
+<
+=
+PLDHashTable
+:
+:
+kMaxInitialLength
+)
+;
 uint32_t
 capacity
 =
