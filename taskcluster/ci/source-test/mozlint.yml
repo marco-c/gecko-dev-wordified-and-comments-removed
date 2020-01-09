@@ -7,13 +7,6 @@ always
 target
 :
 true
-attributes
-:
-code
--
-review
-:
-true
 treeherder
 :
 kind
