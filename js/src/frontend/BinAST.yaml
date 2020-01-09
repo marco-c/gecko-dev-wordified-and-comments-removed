@@ -2113,7 +2113,7 @@ describeBinASTField
 const
 BinASTField
 &
-kind
+field
 )
 ;
 /
@@ -2137,7 +2137,7 @@ describeBinASTVariant
 const
 BinASTVariant
 &
-kind
+variant
 )
 ;
 }
