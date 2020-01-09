@@ -621,14 +621,9 @@ return
 False
         
 except
-(
 errors
 .
 StaleElementException
-errors
-.
-NoSuchElementException
-)
 :
             
 return

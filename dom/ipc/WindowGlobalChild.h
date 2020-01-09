@@ -53,9 +53,6 @@ class
 JSWindowActorChild
 ;
 class
-TabChild
-;
-class
 WindowGlobalChild
 :
 public
