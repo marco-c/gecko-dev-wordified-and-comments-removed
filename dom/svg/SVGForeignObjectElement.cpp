@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-ArrayUtils
+dom
+/
+SVGForeignObjectElement
 .
 h
 "
@@ -19,9 +21,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGDocument
+ArrayUtils
 .
 h
 "
@@ -32,7 +32,7 @@ mozilla
 /
 dom
 /
-SVGForeignObjectElement
+SVGDocument
 .
 h
 "

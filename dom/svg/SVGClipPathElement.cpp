@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-ArrayUtils
+dom
+/
+SVGClipPathElement
 .
 h
 "
@@ -12,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGClipPathElement
+ArrayUtils
 .
 h
 "

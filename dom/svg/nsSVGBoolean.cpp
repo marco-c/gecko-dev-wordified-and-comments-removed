@@ -1,6 +1,13 @@
 #
 include
 "
+nsSVGBoolean
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -9,13 +16,6 @@ h
 include
 "
 nsSVGAttrTearoffTable
-.
-h
-"
-#
-include
-"
-nsSVGBoolean
 .
 h
 "

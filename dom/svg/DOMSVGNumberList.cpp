@@ -1,14 +1,14 @@
 #
 include
 "
-SVGElement
+DOMSVGNumberList
 .
 h
 "
 #
 include
 "
-DOMSVGNumberList
+SVGElement
 .
 h
 "

@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-ArrayUtils
+dom
+/
+SVGFilterElement
 .
 h
 "
@@ -26,9 +28,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGFilterElement
+ArrayUtils
 .
 h
 "

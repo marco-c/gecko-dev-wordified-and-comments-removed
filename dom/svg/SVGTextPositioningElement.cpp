@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-ArrayUtils
+dom
+/
+SVGTextPositioningElement
 .
 h
 "
@@ -12,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGTextPositioningElement
+ArrayUtils
 .
 h
 "
