@@ -24811,16 +24811,6 @@ aStream
 override
 ;
 void
-SetNoExtendContext
-(
-)
-{
-mNoExtendContext
-=
-true
-;
-}
-void
 DoUpdateBoundsPreserves3D
 (
 nsDisplayListBuilder
@@ -25118,9 +25108,6 @@ mBounds
 mutable
 bool
 mHasBounds
-;
-bool
-mNoExtendContext
 ;
 bool
 mIsTransformSeparator

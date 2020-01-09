@@ -13419,13 +13419,6 @@ Matrix4x4
 aIndex
 )
 ;
-item
--
->
-SetNoExtendContext
-(
-)
-;
 if
 (
 *
