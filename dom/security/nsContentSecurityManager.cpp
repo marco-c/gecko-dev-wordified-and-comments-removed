@@ -569,7 +569,7 @@ get
 )
 -
 >
-GetDocument
+GetTopLevelDocument
 (
 )
 ;

@@ -16234,7 +16234,7 @@ aBrowser
 )
 -
 >
-GetDocument
+GetTopLevelDocument
 (
 )
 ;
