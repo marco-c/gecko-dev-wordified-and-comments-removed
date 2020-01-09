@@ -1641,12 +1641,6 @@ MarkScrollbarsDirtyForReflow
 const
 ;
 bool
-ShouldClampScrollPosition
-(
-)
-const
-;
-bool
 IsAlwaysActive
 (
 )
