@@ -22611,9 +22611,8 @@ new
 DataTransfer
 (
 scopeObject
-ePaste
-true
-1
+eEditorInput
+aTransferable
 )
 ;
 }
@@ -22663,9 +22662,8 @@ new
 DataTransfer
 (
 scopeObject
-ePaste
-true
-1
+eEditorInput
+aString
 )
 ;
 }

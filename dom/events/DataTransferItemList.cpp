@@ -198,7 +198,6 @@ new
 DataTransferItemList
 (
 aDataTransfer
-mIsExternal
 )
 ;
 list
