@@ -3793,13 +3793,11 @@ window
 return
 NS_OK
 ;
-nsIPresShell
+PresShell
 :
 :
-SetCapturingContent
+ReleaseCapturingContent
 (
-nullptr
-0
 )
 ;
 if

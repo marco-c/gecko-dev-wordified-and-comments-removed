@@ -356,7 +356,7 @@ mTrackingMouseMove
 =
 true
 ;
-nsIPresShell
+PresShell
 :
 :
 SetCapturingContent
@@ -364,7 +364,10 @@ SetCapturingContent
 GetContent
 (
 )
-CAPTURE_IGNOREALLOWED
+CaptureFlags
+:
+:
+IgnoreAllowedState
 )
 ;
 mLastPoint
@@ -419,13 +422,11 @@ mTrackingMouseMove
 =
 false
 ;
-nsIPresShell
+PresShell
 :
 :
-SetCapturingContent
+ReleaseCapturingContent
 (
-nullptr
-0
 )
 ;
 *

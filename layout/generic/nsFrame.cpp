@@ -20508,7 +20508,7 @@ do_QueryFrame
 scrollFrame
 )
 ;
-nsIPresShell
+PresShell
 :
 :
 SetCapturingContent
@@ -20519,7 +20519,10 @@ capturingFrame
 GetContent
 (
 )
-CAPTURE_IGNOREALLOWED
+CaptureFlags
+:
+:
+IgnoreAllowedState
 )
 ;
 }
@@ -22216,13 +22219,11 @@ GetCapturingContent
 (
 )
 ;
-nsIPresShell
+PresShell
 :
 :
-SetCapturingContent
+ReleaseCapturingContent
 (
-nullptr
-0
 )
 ;
 bool

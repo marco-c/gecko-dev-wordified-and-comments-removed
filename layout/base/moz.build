@@ -469,6 +469,11 @@ PresShell
 h
 '
 '
+PresShellForwards
+.
+h
+'
+'
 RestyleManager
 .
 h

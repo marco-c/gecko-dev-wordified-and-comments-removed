@@ -853,7 +853,7 @@ reflowOptions
 ResizeReflowOptions
 :
 :
-eNoOption
+NoOption
 ;
 if
 (
@@ -872,7 +872,7 @@ reflowOptions
 ResizeReflowOptions
 :
 :
-eSuppressResizeEvent
+SuppressResizeEvent
 ;
 }
 RefPtr
