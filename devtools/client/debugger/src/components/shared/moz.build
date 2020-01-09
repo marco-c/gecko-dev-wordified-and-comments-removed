@@ -131,11 +131,6 @@ SourceIcon
 .
 js
 '
-'
-Svg
-.
-js
-'
 )
 DevToolsModules
 (

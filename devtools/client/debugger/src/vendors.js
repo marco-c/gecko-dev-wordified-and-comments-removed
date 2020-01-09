@@ -141,19 +141,6 @@ lodash
 move
 "
 ;
-import
-Svg
-from
-"
-.
-/
-components
-/
-shared
-/
-Svg
-"
-;
 export
 const
 vendored
@@ -248,6 +235,5 @@ Transition
 :
 transition
 reselect
-Svg
 }
 ;
