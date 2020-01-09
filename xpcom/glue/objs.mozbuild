@@ -94,6 +94,11 @@ FileUtils
 cpp
 '
 '
+MemUtils
+.
+cpp
+'
+'
 XREAppData
 .
 cpp
