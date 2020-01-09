@@ -829,7 +829,7 @@ traceListHead_
 (
 nullptr
 )
-pc
+pc_
 (
 nullptr
 )
@@ -1829,7 +1829,7 @@ varScope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -1926,7 +1926,7 @@ stmtList
 if
 (
 !
-pc
+pc_
 -
 >
 useAsmOrInsideUseAsm
@@ -2070,7 +2070,7 @@ hasValidSimpleStrictParameterNames
 {
 MOZ_ASSERT
 (
-pc
+pc_
 -
 >
 isFunctionBox
@@ -2078,7 +2078,7 @@ isFunctionBox
 )
 &
 &
-pc
+pc_
 -
 >
 functionBox
@@ -2093,7 +2093,7 @@ hasSimpleParameterList
 ;
 if
 (
-pc
+pc_
 -
 >
 functionBox
@@ -2114,7 +2114,7 @@ auto
 *
 name
 :
-pc
+pc_
 -
 >
 positionalFormalParameterNames
@@ -2193,7 +2193,7 @@ notes
 {
 ReportOutOfMemory
 (
-pc
+pc_
 -
 >
 sc
@@ -2273,7 +2273,7 @@ notes
 >
 addNoteASCII
 (
-pc
+pc_
 -
 >
 sc
@@ -2405,7 +2405,7 @@ notes
 {
 ReportOutOfMemory
 (
-pc
+pc_
 -
 >
 sc
@@ -2485,7 +2485,7 @@ notes
 >
 addNoteASCII
 (
-pc
+pc_
 -
 >
 sc
@@ -2570,7 +2570,7 @@ if
 AddDeclaredNamePtr
 p
 =
-pc
+pc_
 -
 >
 functionScope
@@ -2599,7 +2599,7 @@ false
 }
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -2669,7 +2669,7 @@ PositionalFormalParameter
 if
 (
 !
-pc
+pc_
 -
 >
 functionScope
@@ -2678,7 +2678,7 @@ functionScope
 .
 addDeclaredName
 (
-pc
+pc_
 p
 name
 kind
@@ -2694,7 +2694,7 @@ false
 if
 (
 !
-pc
+pc_
 -
 >
 positionalFormalParameterNames
@@ -2769,7 +2769,7 @@ destruct
 if
 (
 !
-pc
+pc_
 -
 >
 positionalFormalParameterNames
@@ -2927,7 +2927,7 @@ pos
 {
 if
 (
-pc
+pc_
 -
 >
 useAsmOrInsideUseAsm
@@ -2969,7 +2969,7 @@ prevPos
 if
 (
 !
-pc
+pc_
 -
 >
 tryDeclareVar
@@ -3020,7 +3020,7 @@ ModuleBodyLevelFunction
 {
 MOZ_ASSERT
 (
-pc
+pc_
 -
 >
 atModuleLevel
@@ -3031,7 +3031,7 @@ atModuleLevel
 AddDeclaredNamePtr
 p
 =
-pc
+pc_
 -
 >
 varScope
@@ -3083,7 +3083,7 @@ false
 if
 (
 !
-pc
+pc_
 -
 >
 varScope
@@ -3092,7 +3092,7 @@ varScope
 .
 addDeclaredName
 (
-pc
+pc_
 p
 name
 kind
@@ -3106,7 +3106,7 @@ return
 false
 ;
 }
-pc
+pc_
 -
 >
 varScope
@@ -3141,7 +3141,7 @@ FormalParameter
 AddDeclaredNamePtr
 p
 =
-pc
+pc_
 -
 >
 functionScope
@@ -3170,7 +3170,7 @@ false
 if
 (
 !
-pc
+pc_
 -
 >
 functionScope
@@ -3179,7 +3179,7 @@ functionScope
 .
 addDeclaredName
 (
-pc
+pc_
 p
 name
 kind
@@ -3210,7 +3210,7 @@ Scope
 *
 scope
 =
-pc
+pc_
 -
 >
 innermostScope
@@ -3273,7 +3273,7 @@ scope
 >
 addDeclaredName
 (
-pc
+pc_
 p
 name
 kind
@@ -3304,7 +3304,7 @@ Scope
 *
 scope
 =
-pc
+pc_
 -
 >
 innermostScope
@@ -3389,7 +3389,7 @@ scope
 >
 addDeclaredName
 (
-pc
+pc_
 p
 name
 kind
@@ -3499,7 +3499,7 @@ Statement
 *
 stmt
 =
-pc
+pc_
 -
 >
 innermostStatement
@@ -3531,7 +3531,7 @@ Scope
 *
 scope
 =
-pc
+pc_
 -
 >
 innermostScope
@@ -3540,7 +3540,7 @@ innermostScope
 ;
 if
 (
-pc
+pc_
 -
 >
 isFunctionExtraBodyVarScopeInnermost
@@ -3551,7 +3551,7 @@ isFunctionExtraBodyVarScopeInnermost
 DeclaredNamePtr
 p
 =
-pc
+pc_
 -
 >
 functionScope
@@ -3673,7 +3673,7 @@ scope
 >
 addDeclaredName
 (
-pc
+pc_
 p
 name
 kind
@@ -3762,7 +3762,7 @@ name
 {
 if
 (
-pc
+pc_
 -
 >
 useAsmOrInsideUseAsm
@@ -3781,7 +3781,7 @@ Scope
 *
 scope
 =
-pc
+pc_
 -
 >
 innermostScope
@@ -3790,7 +3790,7 @@ innermostScope
 ;
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -3807,7 +3807,7 @@ scope
 =
 =
 &
-pc
+pc_
 -
 >
 varScope
@@ -3826,7 +3826,7 @@ noteUse
 (
 cx_
 name
-pc
+pc_
 -
 >
 scriptId
@@ -3874,7 +3874,7 @@ value
 .
 isUsedInScript
 (
-pc
+pc_
 -
 >
 scriptId
@@ -3916,7 +3916,7 @@ scope
 .
 propagateAndMarkAnnexBFunctionBoxes
 (
-pc
+pc_
 )
 )
 {
@@ -3986,7 +3986,7 @@ value
 uint32_t
 scriptId
 =
-pc
+pc_
 -
 >
 scriptId
@@ -4011,7 +4011,7 @@ scope
 .
 bindings
 (
-pc
+pc_
 )
 ;
 bi
@@ -4073,7 +4073,7 @@ isSyntaxParser
 &
 &
 !
-pc
+pc_
 -
 >
 closedOverBindingsForLazy
@@ -4108,7 +4108,7 @@ isSyntaxParser
 &
 &
 !
-pc
+pc_
 -
 >
 closedOverBindingsForLazy
@@ -4926,7 +4926,7 @@ NewGlobalScopeData
 cx_
 scope
 alloc_
-pc
+pc_
 )
 ;
 }
@@ -5307,7 +5307,7 @@ NewModuleScopeData
 cx_
 scope
 alloc_
-pc
+pc_
 )
 ;
 }
@@ -5514,7 +5514,7 @@ NewEvalScopeData
 cx_
 scope
 alloc_
-pc
+pc_
 )
 ;
 }
@@ -6016,7 +6016,7 @@ cx_
 scope
 hasParameterExprs
 alloc_
-pc
+pc_
 )
 ;
 }
@@ -6230,7 +6230,7 @@ NewVarScopeData
 cx_
 scope
 alloc_
-pc
+pc_
 )
 ;
 }
@@ -6478,7 +6478,7 @@ NewLexicalScopeData
 cx_
 scope
 alloc_
-pc
+pc_
 )
 ;
 }
@@ -6663,7 +6663,7 @@ varScope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -6692,7 +6692,7 @@ lexicalScope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -6910,7 +6910,7 @@ body
 if
 (
 !
-pc
+pc_
 -
 >
 useAsmOrInsideUseAsm
@@ -6969,7 +6969,7 @@ varScope
 .
 propagateAndMarkAnnexBFunctionBoxes
 (
-pc
+pc_
 )
 )
 {
@@ -6989,7 +6989,7 @@ bindings
 =
 newEvalScopeData
 (
-pc
+pc_
 -
 >
 varScope
@@ -7078,7 +7078,7 @@ varScope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -7126,7 +7126,7 @@ body
 if
 (
 !
-pc
+pc_
 -
 >
 useAsmOrInsideUseAsm
@@ -7189,7 +7189,7 @@ varScope
 .
 propagateAndMarkAnnexBFunctionBoxes
 (
-pc
+pc_
 )
 )
 {
@@ -7209,7 +7209,7 @@ bindings
 =
 newGlobalScopeData
 (
-pc
+pc_
 -
 >
 varScope
@@ -7305,7 +7305,7 @@ varScope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -7583,7 +7583,7 @@ stmtList
 if
 (
 !
-pc
+pc_
 -
 >
 useAsmOrInsideUseAsm
@@ -7783,7 +7783,7 @@ name
 )
 |
 |
-pc
+pc_
 -
 >
 functionBox
@@ -7814,7 +7814,7 @@ declareFunctionThis
 {
 if
 (
-pc
+pc_
 -
 >
 useAsmOrInsideUseAsm
@@ -7830,7 +7830,7 @@ FunctionBox
 *
 funbox
 =
-pc
+pc_
 -
 >
 functionBox
@@ -7911,7 +7911,7 @@ Scope
 &
 funScope
 =
-pc
+pc_
 -
 >
 functionScope
@@ -7941,7 +7941,7 @@ funScope
 .
 addDeclaredName
 (
-pc
+pc_
 p
 dotThis
 DeclarationKind
@@ -8115,7 +8115,7 @@ Scope
 &
 funScope
 =
-pc
+pc_
 -
 >
 functionScope
@@ -8155,7 +8155,7 @@ funScope
 .
 addDeclaredName
 (
-pc
+pc_
 p
 dotGenerator
 DeclarationKind
@@ -8199,7 +8199,7 @@ FunctionBox
 *
 funbox
 =
-pc
+pc_
 -
 >
 functionBox
@@ -8219,7 +8219,7 @@ if
 !
 propagateFreeNamesAndMarkClosedOverBindings
 (
-pc
+pc_
 -
 >
 functionScope
@@ -8257,7 +8257,7 @@ if
 !
 propagateFreeNamesAndMarkClosedOverBindings
 (
-pc
+pc_
 -
 >
 namedLambdaScope
@@ -8308,7 +8308,7 @@ FunctionBox
 *
 funbox
 =
-pc
+pc_
 -
 >
 functionBox
@@ -8340,7 +8340,7 @@ bindings
 =
 newVarScopeData
 (
-pc
+pc_
 -
 >
 varScope
@@ -8385,7 +8385,7 @@ bindings
 =
 newFunctionScopeData
 (
-pc
+pc_
 -
 >
 functionScope
@@ -8449,7 +8449,7 @@ bindings
 =
 newLexicalScopeData
 (
-pc
+pc_
 -
 >
 namedLambdaScope
@@ -8516,7 +8516,7 @@ false
 }
 if
 (
-pc
+pc_
 -
 >
 closedOverBindingsForLazy
@@ -8534,7 +8534,7 @@ LazyScript
 NumClosedOverBindingsLimit
 |
 |
-pc
+pc_
 -
 >
 innerFunctionsForLazy
@@ -8565,7 +8565,7 @@ FunctionBox
 *
 funbox
 =
-pc
+pc_
 -
 >
 functionBox
@@ -8596,13 +8596,13 @@ Create
 cx_
 fun
 sourceObject
-pc
+pc_
 -
 >
 closedOverBindingsForLazy
 (
 )
-pc
+pc_
 -
 >
 innerFunctionsForLazy
@@ -8643,7 +8643,7 @@ false
 }
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -9341,7 +9341,7 @@ funNode
 if
 (
 !
-pc
+pc_
 -
 >
 useAsmOrInsideUseAsm
@@ -9423,7 +9423,7 @@ FunctionBox
 *
 funbox
 =
-pc
+pc_
 -
 >
 functionBox
@@ -9437,7 +9437,7 @@ Scope
 &
 funScope
 =
-pc
+pc_
 -
 >
 functionScope
@@ -9451,7 +9451,7 @@ Scope
 &
 varScope
 =
-pc
+pc_
 -
 >
 varScope
@@ -9605,7 +9605,7 @@ funScope
 .
 addDeclaredName
 (
-pc
+pc_
 p
 argumentsName
 DeclarationKind
@@ -9666,7 +9666,7 @@ setArgumentsHasLocalBinding
 ;
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -9689,7 +9689,7 @@ setDefinitelyNeedsArgsObj
 }
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -9748,7 +9748,7 @@ type
 {
 MOZ_ASSERT
 (
-pc
+pc_
 -
 >
 isFunctionBox
@@ -9762,7 +9762,7 @@ DEBUG
 uint32_t
 startYieldOffset
 =
-pc
+pc_
 -
 >
 lastYieldOffset
@@ -9783,7 +9783,7 @@ StatementListBody
 bool
 inheritedStrict
 =
-pc
+pc_
 -
 >
 sc
@@ -9820,7 +9820,7 @@ if
 inheritedStrict
 &
 &
-pc
+pc_
 -
 >
 sc
@@ -9835,7 +9835,7 @@ strict
 {
 MOZ_ASSERT
 (
-pc
+pc_
 -
 >
 sc
@@ -9874,7 +9874,7 @@ hasValidSimpleStrictParameterNames
 )
 )
 {
-pc
+pc_
 -
 >
 newDirectives
@@ -9911,7 +9911,7 @@ null
 ;
 if
 (
-pc
+pc_
 -
 >
 isAsync
@@ -9988,7 +9988,7 @@ null
 }
 if
 (
-pc
+pc_
 -
 >
 isAsync
@@ -10013,7 +10013,7 @@ stmtList
 MOZ_ASSERT_IF
 (
 !
-pc
+pc_
 -
 >
 isGenerator
@@ -10022,13 +10022,13 @@ isGenerator
 &
 &
 !
-pc
+pc_
 -
 >
 isAsync
 (
 )
-pc
+pc_
 -
 >
 lastYieldOffset
@@ -10039,7 +10039,7 @@ startYieldOffset
 ;
 MOZ_ASSERT_IF
 (
-pc
+pc_
 -
 >
 isGenerator
@@ -10056,7 +10056,7 @@ Arrow
 ;
 MOZ_ASSERT_IF
 (
-pc
+pc_
 -
 >
 isGenerator
@@ -10070,7 +10070,7 @@ StatementListBody
 ;
 if
 (
-pc
+pc_
 -
 >
 needsDotGeneratorName
@@ -10081,7 +10081,7 @@ needsDotGeneratorName
 MOZ_ASSERT_IF
 (
 !
-pc
+pc_
 -
 >
 isAsync
@@ -10193,7 +10193,7 @@ null
 return
 finishLexicalScope
 (
-pc
+pc_
 -
 >
 varScope
@@ -10670,7 +10670,7 @@ options
 )
 .
 selfHostingMode
-pc
+pc_
 -
 >
 isFunctionBox
@@ -10767,7 +10767,7 @@ RightCurly
 if
 (
 !
-pc
+pc_
 -
 >
 isAsync
@@ -10889,7 +10889,7 @@ outerpc
 {
 MOZ_ASSERT
 (
-pc
+pc_
 !
 =
 outerpc
@@ -10897,7 +10897,7 @@ outerpc
 ;
 if
 (
-pc
+pc_
 -
 >
 superScopeNeedsHomeObject
@@ -10908,7 +10908,7 @@ superScopeNeedsHomeObject
 if
 (
 !
-pc
+pc_
 -
 >
 isArrowFunction
@@ -10918,7 +10918,7 @@ isArrowFunction
 {
 MOZ_ASSERT
 (
-pc
+pc_
 -
 >
 functionBox
@@ -10953,7 +10953,7 @@ innerFunctionsForLazy
 .
 append
 (
-pc
+pc_
 -
 >
 functionBox
@@ -10973,7 +10973,7 @@ false
 }
 PropagateTransitiveParseFlags
 (
-pc
+pc_
 -
 >
 functionBox
@@ -11120,7 +11120,7 @@ FunctionBox
 *
 funbox
 =
-pc
+pc_
 -
 >
 functionBox
@@ -11450,7 +11450,7 @@ AtomVector
 &
 positionalFormals
 =
-pc
+pc_
 -
 >
 positionalFormalParameterNames
@@ -12371,7 +12371,7 @@ setNeedsHomeObject
 PropagateTransitiveParseFlags
 (
 lazy
-pc
+pc_
 -
 >
 sc
@@ -12410,7 +12410,7 @@ tryAnnexB
 &
 &
 !
-pc
+pc_
 -
 >
 innermostScope
@@ -12420,7 +12420,7 @@ innermostScope
 >
 addPossibleAnnexBFunctionBox
 (
-pc
+pc_
 funbox
 )
 )
@@ -13046,7 +13046,7 @@ null
 Directives
 directives
 (
-pc
+pc_
 )
 ;
 Directives
@@ -13327,7 +13327,7 @@ funbox
 >
 initWithEnclosingParseContext
 (
-pc
+pc_
 kind
 )
 ;
@@ -13346,7 +13346,7 @@ SyntaxParseHandler
 :
 :
 NodeGeneric
-pc
+pc_
 funbox
 inHandling
 yieldHandling
@@ -13472,7 +13472,7 @@ tryAnnexB
 if
 (
 !
-pc
+pc_
 -
 >
 innermostScope
@@ -13482,7 +13482,7 @@ innermostScope
 >
 addPossibleAnnexBFunctionBox
 (
-pc
+pc_
 funbox
 )
 )
@@ -13508,7 +13508,7 @@ innerFunction
 (
 *
 funNode
-pc
+pc_
 fun
 toStringStart
 inHandling
@@ -13588,7 +13588,7 @@ innerFunction
 (
 *
 funNode
-pc
+pc_
 fun
 toStringStart
 inHandling
@@ -13906,7 +13906,7 @@ tryAnnexB
 if
 (
 !
-pc
+pc_
 -
 >
 innermostScope
@@ -13916,7 +13916,7 @@ innermostScope
 >
 addPossibleAnnexBFunctionBox
 (
-pc
+pc_
 funbox
 )
 )
@@ -14352,7 +14352,7 @@ funNode
 if
 (
 !
-pc
+pc_
 -
 >
 useAsmOrInsideUseAsm
@@ -14438,7 +14438,7 @@ FunctionBox
 *
 funbox
 =
-pc
+pc_
 -
 >
 functionBox
@@ -14566,7 +14566,7 @@ varScope
 >
 init
 (
-pc
+pc_
 )
 )
 {
@@ -14577,7 +14577,7 @@ false
 }
 else
 {
-pc
+pc_
 -
 >
 functionScope
@@ -14586,7 +14586,7 @@ functionScope
 .
 useAsVarScope
 (
-pc
+pc_
 )
 ;
 }
@@ -14770,7 +14770,7 @@ bodyYieldHandling
 =
 GetYieldHandling
 (
-pc
+pc_
 -
 >
 generatorKind
@@ -14783,7 +14783,7 @@ bodyAwaitHandling
 =
 GetAwaitHandling
 (
-pc
+pc_
 -
 >
 asyncKind
@@ -14794,7 +14794,7 @@ asyncKind
 bool
 inheritedStrict
 =
-pc
+pc_
 -
 >
 sc
@@ -14887,7 +14887,7 @@ explicitName
 inheritedStrict
 &
 &
-pc
+pc_
 -
 >
 sc
@@ -14902,7 +14902,7 @@ strict
 {
 MOZ_ASSERT
 (
-pc
+pc_
 -
 >
 sc
@@ -15132,7 +15132,7 @@ kind
 )
 &
 &
-pc
+pc_
 -
 >
 superScopeNeedsHomeObject
@@ -15250,7 +15250,7 @@ Statement
 *
 declaredInStmt
 =
-pc
+pc_
 -
 >
 innermostStatement
@@ -15279,7 +15279,7 @@ Label
 MOZ_ASSERT
 (
 !
-pc
+pc_
 -
 >
 sc
@@ -15543,7 +15543,7 @@ kind
 =
 (
 !
-pc
+pc_
 -
 >
 sc
@@ -15589,7 +15589,7 @@ else
 {
 kind
 =
-pc
+pc_
 -
 >
 atModuleLevel
@@ -16031,13 +16031,13 @@ disableSyntaxParser
 if
 (
 !
-pc
+pc_
 -
 >
 newDirectives
 |
 |
-pc
+pc_
 -
 >
 newDirectives
@@ -16071,7 +16071,7 @@ setContainsAsmJS
 (
 )
 ;
-pc
+pc_
 -
 >
 functionBox
@@ -16110,7 +16110,7 @@ if
 validated
 )
 {
-pc
+pc_
 -
 >
 newDirectives
@@ -16260,7 +16260,7 @@ useStrict
 {
 if
 (
-pc
+pc_
 -
 >
 isFunctionBox
@@ -16272,7 +16272,7 @@ FunctionBox
 *
 funbox
 =
-pc
+pc_
 -
 >
 functionBox
@@ -16331,7 +16331,7 @@ false
 ;
 }
 }
-pc
+pc_
 -
 >
 sc
@@ -16346,7 +16346,7 @@ setExplicitUseStrict
 if
 (
 !
-pc
+pc_
 -
 >
 sc
@@ -16377,7 +16377,7 @@ return
 false
 ;
 }
-pc
+pc_
 -
 >
 sc
@@ -16409,7 +16409,7 @@ useAsm
 {
 if
 (
-pc
+pc_
 -
 >
 isFunctionBox
@@ -16506,7 +16506,7 @@ null
 bool
 canHaveDirectives
 =
-pc
+pc_
 -
 >
 atBodyLevel
@@ -17903,7 +17903,7 @@ DeclarationKind
 FormalParameter
 )
 {
-pc
+pc_
 -
 >
 functionBox
@@ -19503,7 +19503,7 @@ tt
 uint32_t
 startYieldOffset
 =
-pc
+pc_
 -
 >
 lastYieldOffset
@@ -19511,7 +19511,7 @@ lastYieldOffset
 uint32_t
 startAwaitOffset
 =
-pc
+pc_
 -
 >
 lastAwaitOffset
@@ -19533,7 +19533,7 @@ res
 {
 if
 (
-pc
+pc_
 -
 >
 lastYieldOffset
@@ -19544,7 +19544,7 @@ startYieldOffset
 {
 errorAt
 (
-pc
+pc_
 -
 >
 lastYieldOffset
@@ -19559,7 +19559,7 @@ null
 }
 if
 (
-pc
+pc_
 -
 >
 lastAwaitOffset
@@ -19570,7 +19570,7 @@ startAwaitOffset
 {
 errorAt
 (
-pc
+pc_
 -
 >
 lastAwaitOffset
@@ -19643,7 +19643,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -19666,7 +19666,7 @@ scope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -21526,7 +21526,7 @@ return
 false
 ;
 }
-pc
+pc_
 -
 >
 varScope
@@ -21616,7 +21616,7 @@ Import
 if
 (
 !
-pc
+pc_
 -
 >
 atModuleLevel
@@ -22104,7 +22104,7 @@ node
 |
 |
 !
-pc
+pc_
 -
 >
 sc
@@ -22321,7 +22321,7 @@ exportName
 if
 (
 !
-pc
+pc_
 -
 >
 sc
@@ -23680,7 +23680,7 @@ node
 )
 {
 return
-pc
+pc_
 -
 >
 sc
@@ -23747,7 +23747,7 @@ node
 )
 {
 return
-pc
+pc_
 -
 >
 sc
@@ -26095,7 +26095,7 @@ Export
 if
 (
 !
-pc
+pc_
 -
 >
 atModuleLevel
@@ -26517,7 +26517,7 @@ Operand
 ;
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -26598,7 +26598,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -26621,7 +26621,7 @@ scope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -26767,7 +26767,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -27124,7 +27124,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -27283,7 +27283,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -27729,7 +27729,7 @@ forLoopLexicalScope
 >
 init
 (
-pc
+pc_
 )
 )
 {
@@ -27743,7 +27743,7 @@ ParseContext
 Statement
 forHeadStmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -28153,7 +28153,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -28175,7 +28175,7 @@ iflags
 ;
 if
 (
-pc
+pc_
 -
 >
 isAsync
@@ -28263,7 +28263,7 @@ Await
 this
 -
 >
-pc
+pc_
 -
 >
 isAsync
@@ -28968,7 +28968,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -28991,7 +28991,7 @@ scope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -29557,7 +29557,7 @@ null
 auto
 validity
 =
-pc
+pc_
 -
 >
 checkContinueStatement
@@ -29762,7 +29762,7 @@ label
 if
 (
 !
-pc
+pc_
 -
 >
 template
@@ -29822,7 +29822,7 @@ kind
 if
 (
 !
-pc
+pc_
 -
 >
 findInnermostStatement
@@ -29925,7 +29925,7 @@ begin
 ;
 MOZ_ASSERT
 (
-pc
+pc_
 -
 >
 isFunctionBox
@@ -29933,7 +29933,7 @@ isFunctionBox
 )
 )
 ;
-pc
+pc_
 -
 >
 functionBox
@@ -30122,7 +30122,7 @@ begin
 ;
 MOZ_ASSERT
 (
-pc
+pc_
 -
 >
 isGenerator
@@ -30132,7 +30132,7 @@ isGenerator
 ;
 MOZ_ASSERT
 (
-pc
+pc_
 -
 >
 isFunctionBox
@@ -30140,7 +30140,7 @@ isFunctionBox
 )
 )
 ;
-pc
+pc_
 -
 >
 lastYieldOffset
@@ -30398,7 +30398,7 @@ begin
 ;
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -30501,7 +30501,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -30528,7 +30528,7 @@ null
 ;
 }
 }
-pc
+pc_
 -
 >
 sc
@@ -30657,7 +30657,7 @@ null
 }
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -30794,7 +30794,7 @@ begin
 ;
 if
 (
-pc
+pc_
 -
 >
 template
@@ -30838,7 +30838,7 @@ ParseContext
 LabelStatement
 stmt
 (
-pc
+pc_
 label
 )
 ;
@@ -31151,7 +31151,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -31174,7 +31174,7 @@ scope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -31311,7 +31311,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -31334,7 +31334,7 @@ scope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -31706,7 +31706,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -31729,7 +31729,7 @@ scope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -31909,7 +31909,7 @@ ParseContext
 Statement
 stmt
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -31932,7 +31932,7 @@ scope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -31949,7 +31949,7 @@ scope
 .
 addCatchParameters
 (
-pc
+pc_
 catchParamScope
 )
 )
@@ -32026,7 +32026,7 @@ scope
 .
 removeCatchParameters
 (
-pc
+pc_
 catchParamScope
 )
 ;
@@ -32098,7 +32098,7 @@ pos
 .
 end
 ;
-pc
+pc_
 -
 >
 sc
@@ -32110,7 +32110,7 @@ setBindingsAccessedDynamically
 (
 )
 ;
-pc
+pc_
 -
 >
 sc
@@ -32407,7 +32407,7 @@ ParseContext
 ClassStatement
 classStmt
 (
-pc
+pc_
 )
 ;
 RootedAtom
@@ -32443,7 +32443,7 @@ innerScopeStmt
 .
 emplace
 (
-pc
+pc_
 StatementKind
 :
 :
@@ -32465,7 +32465,7 @@ innerScope
 >
 init
 (
-pc
+pc_
 )
 )
 {
@@ -33894,7 +33894,7 @@ funbox
 >
 initWithEnclosingParseContext
 (
-pc
+pc_
 functionSyntaxKind
 )
 ;
@@ -34019,7 +34019,7 @@ lexicalScope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -34289,7 +34289,7 @@ funbox
 >
 initWithEnclosingParseContext
 (
-pc
+pc_
 FunctionSyntaxKind
 :
 :
@@ -34344,7 +34344,7 @@ varScope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -34370,7 +34370,7 @@ lexicalScope
 .
 init
 (
-pc
+pc_
 )
 )
 {
@@ -35062,7 +35062,7 @@ TokenKind
 Await
 &
 &
-pc
+pc_
 -
 >
 isAsync
@@ -35435,7 +35435,7 @@ Return
 if
 (
 !
-pc
+pc_
 -
 >
 isFunctionBox
@@ -35886,7 +35886,7 @@ TokenKind
 Await
 &
 &
-pc
+pc_
 -
 >
 isAsync
@@ -36178,7 +36178,7 @@ Return
 if
 (
 !
-pc
+pc_
 -
 >
 isFunctionBox
@@ -37113,7 +37113,7 @@ nodeStack
 depth
 ]
 pn
-pc
+pc_
 )
 ;
 if
@@ -38634,7 +38634,7 @@ node
 if
 (
 !
-pc
+pc_
 -
 >
 sc
@@ -39368,7 +39368,7 @@ null
 )
 ;
 }
-pc
+pc_
 -
 >
 sc
@@ -39400,7 +39400,7 @@ Await
 {
 if
 (
-pc
+pc_
 -
 >
 isAsync
@@ -39449,7 +39449,7 @@ null
 )
 ;
 }
-pc
+pc_
 -
 >
 lastAwaitOffset
@@ -39626,7 +39626,7 @@ yieldHandling
 uint32_t
 startYieldOffset
 =
-pc
+pc_
 -
 >
 lastYieldOffset
@@ -39634,7 +39634,7 @@ lastYieldOffset
 uint32_t
 startAwaitOffset
 =
-pc
+pc_
 -
 >
 lastAwaitOffset
@@ -39656,7 +39656,7 @@ res
 {
 if
 (
-pc
+pc_
 -
 >
 lastYieldOffset
@@ -39667,7 +39667,7 @@ startYieldOffset
 {
 errorAt
 (
-pc
+pc_
 -
 >
 lastYieldOffset
@@ -39682,7 +39682,7 @@ null
 }
 if
 (
-pc
+pc_
 -
 >
 lastAwaitOffset
@@ -39693,7 +39693,7 @@ startAwaitOffset
 {
 errorAt
 (
-pc
+pc_
 -
 >
 lastAwaitOffset
@@ -40067,7 +40067,7 @@ checkAndMarkSuperScope
 if
 (
 !
-pc
+pc_
 -
 >
 sc
@@ -40084,7 +40084,7 @@ return
 false
 ;
 }
-pc
+pc_
 -
 >
 setSuperScopeNeedsHomeObject
@@ -40905,7 +40905,7 @@ lhs
 if
 (
 !
-pc
+pc_
 -
 >
 sc
@@ -41131,7 +41131,7 @@ JSOP_FUNAPPLY
 ;
 if
 (
-pc
+pc_
 -
 >
 isFunctionBox
@@ -41139,7 +41139,7 @@ isFunctionBox
 )
 )
 {
-pc
+pc_
 -
 >
 functionBox
@@ -41217,7 +41217,7 @@ cx_
 {
 op
 =
-pc
+pc_
 -
 >
 sc
@@ -41233,7 +41233,7 @@ JSOP_STRICTEVAL
 :
 JSOP_EVAL
 ;
-pc
+pc_
 -
 >
 sc
@@ -41245,7 +41245,7 @@ setBindingsAccessedDynamically
 (
 )
 ;
-pc
+pc_
 -
 >
 sc
@@ -41259,7 +41259,7 @@ setHasDirectEval
 ;
 if
 (
-pc
+pc_
 -
 >
 isFunctionBox
@@ -41268,7 +41268,7 @@ isFunctionBox
 &
 &
 !
-pc
+pc_
 -
 >
 sc
@@ -41281,7 +41281,7 @@ strict
 )
 )
 {
-pc
+pc_
 -
 >
 functionBox
@@ -41758,7 +41758,7 @@ false
 }
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -41830,7 +41830,7 @@ true
 }
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -41922,7 +41922,7 @@ tt
 {
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -42053,7 +42053,7 @@ hint
 {
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -43211,7 +43211,7 @@ return
 }
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -43237,7 +43237,7 @@ cx_
 {
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -43288,7 +43288,7 @@ cx_
 {
 if
 (
-pc
+pc_
 -
 >
 sc
@@ -45206,7 +45206,7 @@ DeclarationKind
 FormalParameter
 )
 {
-pc
+pc_
 -
 >
 functionBox
@@ -46797,7 +46797,7 @@ false
 if
 (
 !
-pc
+pc_
 -
 >
 sc
@@ -47735,7 +47735,7 @@ This
 {
 if
 (
-pc
+pc_
 -
 >
 isFunctionBox
@@ -47743,7 +47743,7 @@ isFunctionBox
 )
 )
 {
-pc
+pc_
 -
 >
 functionBox
@@ -47765,7 +47765,7 @@ null
 ;
 if
 (
-pc
+pc_
 -
 >
 sc

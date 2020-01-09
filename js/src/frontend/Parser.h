@@ -200,7 +200,7 @@ cx_
 prs
 -
 >
-pc
+pc_
 sc
 prs
 -
@@ -366,7 +366,7 @@ traceListHead_
 ;
 ParseContext
 *
-pc
+pc_
 ;
 UsedNameTracker
 &
@@ -560,7 +560,7 @@ yieldExpressionsSupported
 const
 {
 return
-pc
+pc_
 -
 >
 isGenerator
@@ -585,7 +585,7 @@ debugHasNoLookahead
 )
 ;
 return
-pc
+pc_
 -
 >
 sc
@@ -621,7 +621,7 @@ const
 override
 {
 return
-pc
+pc_
 -
 >
 sc
@@ -2541,7 +2541,7 @@ using
 Base
 :
 :
-pc
+pc_
 ;
 using
 Base
@@ -5058,7 +5058,7 @@ using
 Base
 :
 :
-pc
+pc_
 ;
 using
 Base
@@ -5450,7 +5450,7 @@ using
 Base
 :
 :
-pc
+pc_
 ;
 using
 Base

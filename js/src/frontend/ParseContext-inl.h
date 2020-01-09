@@ -214,7 +214,7 @@ Scope
 parser
 -
 >
-pc
+pc_
 -
 >
 innermostScope_
@@ -339,7 +339,7 @@ useAsVarScope
 parser
 -
 >
-pc
+pc_
 )
 ;
 }
