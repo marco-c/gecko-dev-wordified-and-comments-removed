@@ -1,7 +1,7 @@
 #
 NormalizationCorrections
 -
-11
+12
 .
 0
 .
@@ -11,12 +11,12 @@ txt
 #
 Date
 :
-2017
+2018
 -
-12
+08
 -
-06
-01
+03
+00
 :
 00
 :
@@ -27,7 +27,7 @@ KW
 LI
 ]
 #
-2017
+2018
 Unicode
 Inc
 .

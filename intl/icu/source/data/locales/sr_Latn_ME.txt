@@ -42,9 +42,9 @@ Version
 .
 1
 .
-44
+47
 .
-88
+82
 "
 }
 calendar
@@ -123,7 +123,7 @@ sjedmica
 '
 u
 '
-MMM
+MMMM
 "
 }
 one
@@ -137,7 +137,7 @@ sjedmica
 '
 u
 '
-MMM
+MMMM
 "
 }
 other
@@ -151,7 +151,7 @@ sjedmica
 '
 u
 '
-MMM
+MMMM
 "
 }
 }

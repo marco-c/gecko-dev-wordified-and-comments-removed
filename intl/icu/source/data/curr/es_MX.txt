@@ -504,6 +504,13 @@ tailand
 s
 "
 }
+other
+{
+"
+bahts
+tailandeses
+"
+}
 }
 TMT
 {
@@ -629,9 +636,9 @@ Version
 .
 1
 .
-44
+47
 .
-5
+96
 "
 }
 }

@@ -1912,9 +1912,6 @@ UBiDi
 pBiDi
 int32_t
 logicalIndex
-UErrorCode
-*
-pErrorCode
 )
 {
 Run
@@ -2009,18 +2006,7 @@ visualStart
 length
 ;
 }
-U_ASSERT
-(
-FALSE
-)
-;
-*
-pErrorCode
-=
-U_INVALID_STATE_ERROR
-;
-return
-0
+UPRV_UNREACHABLE
 ;
 }
 U_CFUNC
@@ -2032,7 +2018,6 @@ UBiDi
 pBiDi
 UErrorCode
 *
-pErrorCode
 )
 {
 if
@@ -2567,7 +2552,6 @@ point
 -
 >
 pos
-pErrorCode
 )
 ;
 pBiDi
@@ -2659,7 +2643,6 @@ pu
 -
 start
 )
-pErrorCode
 )
 ;
 pBiDi

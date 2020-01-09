@@ -42,9 +42,9 @@ Version
 .
 1
 .
-19
+48
 .
-14
+38
 "
 }
 collations
@@ -3747,7 +3747,7 @@ z
 Version
 {
 "
-34
+35
 "
 }
 }
@@ -3755,6 +3755,11 @@ standard
 {
 Sequence
 {
+"
+&
+<
+*
+"
 "
 [
 import
@@ -3782,7 +3787,7 @@ regular
 Version
 {
 "
-34
+35
 "
 }
 }
@@ -3822,7 +3827,7 @@ kana
 Version
 {
 "
-34
+35
 "
 }
 }

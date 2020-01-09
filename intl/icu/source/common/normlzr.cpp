@@ -99,12 +99,6 @@ h
 if
 defined
 (
-_ARM64_
-)
-&
-&
-defined
-(
 move32
 )
 #

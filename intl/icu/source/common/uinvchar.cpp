@@ -1115,14 +1115,7 @@ u
 )
 )
 {
-U_ASSERT
-(
-FALSE
-)
-;
-u
-=
-0
+UPRV_UNREACHABLE
 ;
 }
 *

@@ -3146,7 +3146,7 @@ return
 0
 ;
 }
-int32_t
+int64_t
 result
 =
 regexp
@@ -3155,7 +3155,7 @@ regexp
 fMatcher
 -
 >
-start
+start64
 (
 groupNum
 *
@@ -3235,7 +3235,7 @@ return
 0
 ;
 }
-int32_t
+int64_t
 result
 =
 regexp
@@ -3244,7 +3244,7 @@ regexp
 fMatcher
 -
 >
-end
+end64
 (
 groupNum
 *

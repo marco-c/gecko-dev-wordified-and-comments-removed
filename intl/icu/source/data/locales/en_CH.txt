@@ -90,6 +90,11 @@ currencyFormat
 }
 symbols
 {
+group
+{
+"
+"
+}
 superscriptingExponent
 {
 "
@@ -105,9 +110,9 @@ Version
 .
 1
 .
-38
+48
 .
-69
+50
 "
 }
 }

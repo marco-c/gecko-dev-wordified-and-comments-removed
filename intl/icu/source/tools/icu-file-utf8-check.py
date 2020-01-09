@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 sys
 import
@@ -50,11 +54,7 @@ exit_status
 :
         
 print
->
->
-sys
-.
-stderr
+(
 '
 "
 '
@@ -66,6 +66,12 @@ failed
 Exiting
 .
 '
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -83,6 +89,7 @@ usage
 :
     
 print
+(
 "
 usage
 :
@@ -105,6 +112,7 @@ h
 help
 ]
 "
+)
 def
 check_file
 (
@@ -119,7 +127,7 @@ open
 (
 file_name
 '
-r
+rb
 '
 )
     
@@ -160,6 +168,7 @@ UnicodeDecodeError
 :
             
 print
+(
 "
 Error
 :
@@ -182,15 +191,13 @@ bytes
 "
 %
 file_name
+)
     
 if
-ord
-(
 bytes
 [
 0
 ]
-)
 =
 =
 0xef
@@ -241,6 +248,7 @@ file_name
 :
             
 print
+(
 "
 Warning
 :
@@ -257,6 +265,7 @@ BOM
 "
 %
 file_name
+)
     
 return
 def
@@ -294,6 +303,7 @@ GetoptError
 :
         
 print
+(
 "
 unrecognized
 option
@@ -304,6 +314,7 @@ argv
 [
 0
 ]
+)
         
 usage
 (
@@ -354,12 +365,14 @@ args
 :
         
 print
+(
 "
 unexpected
 command
 line
 argument
 "
+)
         
 usage
 (
@@ -459,12 +472,14 @@ f
 :
             
 print
+(
 "
 Skipping
 dir
 "
 +
 f
+)
             
 continue
         
@@ -481,6 +496,7 @@ f
 :
             
 print
+(
 "
 Repository
 file
@@ -492,6 +508,7 @@ copy
 "
 +
 f
+)
             
 continue
 ;

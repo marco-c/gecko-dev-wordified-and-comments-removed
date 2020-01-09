@@ -132,12 +132,6 @@ TRUE
 }
 U_CDECL_END
 static
-UMutex
-gLock
-=
-U_MUTEX_INITIALIZER
-;
-static
 inline
 UNumberFormat
 *
@@ -151,6 +145,12 @@ style
 )
 {
 U_NAMESPACE_USE
+static
+UMutex
+gLock
+=
+U_MUTEX_INITIALIZER
+;
 Mutex
 lock
 (

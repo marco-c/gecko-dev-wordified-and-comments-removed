@@ -285,6 +285,8 @@ const
 SymbolProvider
 &
 provider
+Field
+field
 UErrorCode
 &
 status

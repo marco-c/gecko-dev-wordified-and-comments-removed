@@ -77,12 +77,6 @@ UOBJECT_DEFINE_RTTI_IMPLEMENTATION
 RuleBasedTransliterator
 )
 static
-UMutex
-transliteratorDataMutex
-=
-U_MUTEX_INITIALIZER
-;
-static
 Replaceable
 *
 gLockedText
@@ -500,6 +494,12 @@ UBool
 lockedMutexAtThisLevel
 =
 FALSE
+;
+static
+UMutex
+transliteratorDataMutex
+=
+U_MUTEX_INITIALIZER
 ;
 UBool
 needToLock

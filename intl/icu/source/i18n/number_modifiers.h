@@ -325,8 +325,6 @@ int32_t
 startIndex
 int32_t
 endIndex
-Field
-field
 UErrorCode
 &
 status

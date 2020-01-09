@@ -421,13 +421,7 @@ void
 )
 field
 ;
-U_ASSERT
-(
-false
-)
-;
-return
-false
+UPRV_UNREACHABLE
 ;
 }
 void
@@ -447,10 +441,7 @@ void
 )
 output
 ;
-U_ASSERT
-(
-false
-)
+UPRV_UNREACHABLE
 ;
 }
 bool
@@ -794,7 +785,6 @@ formatAsPrefixSuffix
 output
 leftIndex
 rightIndex
-fField
 status
 )
 ;
@@ -899,13 +889,7 @@ void
 )
 field
 ;
-U_ASSERT
-(
-false
-)
-;
-return
-false
+UPRV_UNREACHABLE
 ;
 }
 void
@@ -1030,8 +1014,6 @@ int32_t
 startIndex
 int32_t
 endIndex
-Field
-field
 UErrorCode
 &
 status
@@ -1066,7 +1048,7 @@ fCompiledPattern
 2
 +
 fPrefixLength
-field
+fField
 status
 )
 ;
@@ -1090,7 +1072,7 @@ fCompiledPattern
 2
 +
 fPrefixLength
-field
+fField
 status
 )
 ;
@@ -1118,7 +1100,7 @@ fSuffixOffset
 fSuffixOffset
 +
 fSuffixLength
-field
+fField
 status
 )
 ;

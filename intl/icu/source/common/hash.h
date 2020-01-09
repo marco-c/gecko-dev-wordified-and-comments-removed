@@ -91,6 +91,7 @@ status
 ;
 public
 :
+inline
 Hashtable
 (
 UBool
@@ -100,6 +101,7 @@ UErrorCode
 status
 )
 ;
+inline
 Hashtable
 (
 UBool
@@ -111,6 +113,7 @@ UErrorCode
 status
 )
 ;
+inline
 Hashtable
 (
 UKeyComparator
@@ -124,6 +127,7 @@ UErrorCode
 status
 )
 ;
+inline
 Hashtable
 (
 UErrorCode
@@ -131,15 +135,18 @@ UErrorCode
 status
 )
 ;
+inline
 Hashtable
 (
 )
 ;
+inline
 ~
 Hashtable
 (
 )
 ;
+inline
 UObjectDeleter
 *
 setValueDeleter
@@ -149,12 +156,14 @@ UObjectDeleter
 fn
 )
 ;
+inline
 int32_t
 count
 (
 )
 const
 ;
+inline
 void
 *
 put
@@ -171,6 +180,7 @@ UErrorCode
 status
 )
 ;
+inline
 int32_t
 puti
 (
@@ -185,6 +195,7 @@ UErrorCode
 status
 )
 ;
+inline
 void
 *
 get
@@ -196,6 +207,7 @@ key
 )
 const
 ;
+inline
 int32_t
 geti
 (
@@ -206,6 +218,7 @@ key
 )
 const
 ;
+inline
 void
 *
 remove
@@ -216,6 +229,7 @@ UnicodeString
 key
 )
 ;
+inline
 int32_t
 removei
 (
@@ -225,12 +239,14 @@ UnicodeString
 key
 )
 ;
+inline
 void
 removeAll
 (
 void
 )
 ;
+inline
 const
 UHashElement
 *
@@ -243,6 +259,7 @@ key
 )
 const
 ;
+inline
 const
 UHashElement
 *
@@ -254,6 +271,7 @@ pos
 )
 const
 ;
+inline
 UKeyComparator
 *
 setKeyComparator
@@ -263,6 +281,7 @@ UKeyComparator
 keyComp
 )
 ;
+inline
 UValueComparator
 *
 setValueComparator
@@ -272,6 +291,7 @@ UValueComparator
 valueComp
 )
 ;
+inline
 UBool
 equals
 (

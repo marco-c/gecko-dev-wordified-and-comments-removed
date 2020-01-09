@@ -611,6 +611,9 @@ o
 loctest
 .
 o
+localebuildertest
+.
+o
 miscdtfm
 .
 o
@@ -997,6 +1000,10 @@ numbertest_range
 .
 o
 erarulestest
+.
+o
+\
+formattedvaluetest
 .
 o
 DEPS

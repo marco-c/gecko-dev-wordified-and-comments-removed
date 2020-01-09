@@ -4305,6 +4305,9 @@ name
 UCNV_SWAP_LFNL_OPTION_STRING
 )
 ;
+icu
+:
+:
 umtx_lock
 (
 NULL
@@ -4351,6 +4354,9 @@ newStateTable
 NULL
 ;
 }
+icu
+:
+:
 umtx_unlock
 (
 NULL
@@ -6896,6 +6902,9 @@ UCNV_OPTION_SWAP_LFNL
 UBool
 isCached
 ;
+icu
+:
+:
 umtx_lock
 (
 NULL
@@ -6911,6 +6920,9 @@ swapLFNLStateTable
 =
 NULL
 ;
+icu
+:
+:
 umtx_unlock
 (
 NULL

@@ -1071,12 +1071,6 @@ versionInfo
 )
 ;
 }
-static
-UMutex
-gLocaleLock
-=
-U_MUTEX_INITIALIZER
-;
 const
 Locale
 &
@@ -1089,6 +1083,12 @@ void
 )
 const
 {
+static
+UMutex
+gLocaleLock
+=
+U_MUTEX_INITIALIZER
+;
 Mutex
 lock
 (

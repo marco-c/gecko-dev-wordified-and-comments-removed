@@ -152,7 +152,7 @@ Grouper
 :
 forStrategy
 (
-UGroupingStrategy
+UNumberGroupingStrategy
 grouping
 )
 {
@@ -229,14 +229,7 @@ grouping
 ;
 default
 :
-U_ASSERT
-(
-FALSE
-)
-;
-return
-{
-}
+UPRV_UNREACHABLE
 ;
 }
 }

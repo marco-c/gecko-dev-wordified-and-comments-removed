@@ -1080,6 +1080,7 @@ isNotEOF
 while
 (
 (
+(
 isNotEOF
 =
 ufile_getch
@@ -1088,6 +1089,10 @@ input
 &
 c
 )
+)
+=
+=
+TRUE
 )
 &
 &
@@ -1199,6 +1204,7 @@ localStatus
 while
 (
 (
+(
 isNotEOF
 =
 ufile_getch
@@ -1207,6 +1213,10 @@ input
 &
 c
 )
+)
+=
+=
+TRUE
 )
 &
 &
@@ -3170,6 +3180,7 @@ fWidth
 &
 &
 (
+(
 isNotEOF
 =
 ufile_getch
@@ -3178,6 +3189,10 @@ input
 &
 c
 )
+)
+=
+=
+TRUE
 )
 &
 &
@@ -3554,6 +3569,7 @@ fWidth
 &
 &
 (
+(
 isNotEOF
 =
 ufile_getch
@@ -3562,6 +3578,10 @@ input
 &
 c
 )
+)
+=
+=
+TRUE
 )
 &
 &
@@ -4827,6 +4847,7 @@ chLeft
 if
 (
 (
+(
 isNotEOF
 =
 ufile_getch32
@@ -4835,6 +4856,10 @@ input
 &
 c
 )
+)
+=
+=
+TRUE
 )
 &
 &

@@ -118,6 +118,7 @@ UVector64
 other
 )
 ;
+inline
 void
 addElement
 (
@@ -149,6 +150,7 @@ UErrorCode
 status
 )
 ;
+inline
 int64_t
 elementAti
 (
@@ -157,6 +159,7 @@ index
 )
 const
 ;
+inline
 int64_t
 lastElementi
 (
@@ -169,6 +172,7 @@ removeAllElements
 (
 )
 ;
+inline
 int32_t
 size
 (
@@ -219,6 +223,7 @@ int32_t
 newSize
 )
 ;
+inline
 int64_t
 *
 getBuffer
@@ -278,12 +283,14 @@ UVector64
 ;
 public
 :
+inline
 int64_t
 popi
 (
 void
 )
 ;
+inline
 int64_t
 push
 (
@@ -294,6 +301,7 @@ UErrorCode
 status
 )
 ;
+inline
 int64_t
 *
 reserveBlock
@@ -305,6 +313,7 @@ UErrorCode
 status
 )
 ;
+inline
 int64_t
 *
 popFrame

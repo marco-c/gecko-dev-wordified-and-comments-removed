@@ -139,6 +139,12 @@ percentSign
 "
 "
 }
+timeSeparator
+{
+"
+:
+"
+}
 }
 }
 default
@@ -189,9 +195,9 @@ Version
 .
 1
 .
-38
+47
 .
-69
+82
 "
 }
 calendar

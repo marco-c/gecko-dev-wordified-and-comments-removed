@@ -42,7 +42,7 @@ ALIAS
 "
 {
 "
-ro_MD
+ro
 "
 }
 }

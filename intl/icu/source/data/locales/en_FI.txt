@@ -84,6 +84,11 @@ percentFormat
 }
 symbols
 {
+decimal
+{
+"
+"
+}
 group
 {
 "
@@ -105,7 +110,7 @@ Version
 .
 1
 .
-38
+47
 .
 69
 "

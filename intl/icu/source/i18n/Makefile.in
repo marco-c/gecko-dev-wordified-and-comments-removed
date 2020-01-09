@@ -1132,6 +1132,9 @@ o
 number_notation
 .
 o
+number_output
+.
+o
 \
 number_padding
 .
@@ -1274,6 +1277,15 @@ numrange_impl
 o
 \
 erarules
+.
+o
+formattedvalue
+.
+o
+formattedval_iterimpl
+.
+o
+formattedval_sbimpl
 .
 o
 #

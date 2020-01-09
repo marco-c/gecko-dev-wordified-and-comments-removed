@@ -14,9 +14,7 @@ UCONFIG_NO_FORMATTING
 #
 include
 <
-math
-.
-h
+cmath
 >
 #
 include

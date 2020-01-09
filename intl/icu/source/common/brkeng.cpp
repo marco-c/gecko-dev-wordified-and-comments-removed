@@ -467,12 +467,6 @@ obj
 }
 U_CDECL_END
 U_NAMESPACE_BEGIN
-static
-UMutex
-gBreakEngineMutex
-=
-U_MUTEX_INITIALIZER
-;
 const
 LanguageBreakEngine
 *
@@ -496,6 +490,12 @@ UErrorCode
 status
 =
 U_ZERO_ERROR
+;
+static
+UMutex
+gBreakEngineMutex
+=
+U_MUTEX_INITIALIZER
 ;
 Mutex
 m

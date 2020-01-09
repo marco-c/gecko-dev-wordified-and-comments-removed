@@ -410,6 +410,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DEPRECATED_API
 static
 BreakIterator
 *
@@ -425,6 +428,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 static
 const
 Locale

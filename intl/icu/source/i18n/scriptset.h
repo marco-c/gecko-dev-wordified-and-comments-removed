@@ -100,7 +100,6 @@ other
 )
 ;
 }
-;
 ScriptSet
 &
 operator

@@ -230,7 +230,6 @@ fBufIdx
 ;
 }
 }
-;
 void
 nextOL
 (
@@ -358,7 +357,6 @@ CACHE_SIZE
 )
 ;
 }
-;
 static
 constexpr
 int32_t

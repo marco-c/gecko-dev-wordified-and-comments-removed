@@ -852,6 +852,7 @@ minusSign
 nan
 {
 "
+NaN
 "
 }
 perMille
@@ -887,9 +888,9 @@ Version
 .
 1
 .
-41
+47
 .
-34
+82
 "
 }
 calendar

@@ -75,6 +75,9 @@ SharedNumberFormat
 class
 SimpleDateFormatMutableNFs
 ;
+class
+DateIntervalFormat
+;
 namespace
 number
 {
@@ -532,6 +535,10 @@ private
 friend
 class
 DateFormat
+;
+friend
+class
+DateIntervalFormat
 ;
 void
 initializeDefaultCentury
@@ -1136,6 +1143,9 @@ fHasMinute
 ;
 UBool
 fHasSecond
+;
+UBool
+fHasHanYearChar
 ;
 void
 parsePattern

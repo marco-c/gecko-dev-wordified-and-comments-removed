@@ -286,9 +286,6 @@ field
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UnicodeString
 getFieldDisplayName
 (
@@ -299,8 +296,6 @@ width
 )
 const
 ;
-#
-endif
 void
 setDateTimeFormat
 (

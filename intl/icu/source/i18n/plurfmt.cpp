@@ -1318,7 +1318,9 @@ numberString
 =
 data
 .
-string
+getStringRef
+(
+)
 .
 toUnicodeString
 (

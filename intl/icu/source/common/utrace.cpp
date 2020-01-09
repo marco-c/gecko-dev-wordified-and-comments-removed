@@ -265,14 +265,7 @@ break
 ;
 default
 :
-U_ASSERT
-(
-FALSE
-)
-;
-fmt
-=
-gExitFmt
+UPRV_UNREACHABLE
 ;
 }
 va_start

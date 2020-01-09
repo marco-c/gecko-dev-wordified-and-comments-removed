@@ -51,6 +51,9 @@ const
 char
 *
 localeID
+UErrorCode
+*
+status
 )
 ;
 U_CAPI

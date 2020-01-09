@@ -455,6 +455,17 @@ U_HAVE_CLANG_ATOMICS
 endif
 #
 ifdef
+U_HAVE_STD_MUTEX
+#
+else
+#
+define
+U_HAVE_STD_MUTEX
+1
+#
+endif
+#
+ifdef
 U_MAKE_IS_NMAKE
 #
 elif

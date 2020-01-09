@@ -78,6 +78,7 @@ LocaleDisplayNames
 (
 )
 ;
+inline
 static
 LocaleDisplayNames
 *

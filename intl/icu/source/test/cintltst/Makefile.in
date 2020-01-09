@@ -788,6 +788,9 @@ o
 unumberformattertst
 .
 o
+uformattedvaluetst
+.
+o
 DEPS
 =
 (

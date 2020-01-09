@@ -288,6 +288,9 @@ doubleFractionLength
 (
 double
 input
+int8_t
+*
+singleDigit
 )
 ;
 }

@@ -30,7 +30,7 @@ new
 size_t
 size
 )
-U_NO_THROW
+U_NOEXCEPT
 {
 return
 uprv_malloc
@@ -51,7 +51,7 @@ void
 *
 p
 )
-U_NO_THROW
+U_NOEXCEPT
 {
 if
 (
@@ -82,7 +82,7 @@ new
 size_t
 size
 )
-U_NO_THROW
+U_NOEXCEPT
 {
 return
 uprv_malloc
@@ -105,7 +105,7 @@ void
 *
 p
 )
-U_NO_THROW
+U_NOEXCEPT
 {
 if
 (
@@ -141,7 +141,7 @@ char
 *
 int
 )
-U_NO_THROW
+U_NOEXCEPT
 {
 return
 UMemory
@@ -170,7 +170,7 @@ char
 *
 int
 )
-U_NO_THROW
+U_NOEXCEPT
 {
 UMemory
 :

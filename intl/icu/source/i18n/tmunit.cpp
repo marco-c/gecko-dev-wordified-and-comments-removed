@@ -189,12 +189,7 @@ break
 ;
 default
 :
-U_ASSERT
-(
-false
-)
-;
-break
+UPRV_UNREACHABLE
 ;
 }
 }

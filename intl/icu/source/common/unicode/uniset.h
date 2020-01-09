@@ -312,6 +312,7 @@ o
 )
 const
 ;
+inline
 UBool
 operator
 !

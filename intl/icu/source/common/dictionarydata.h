@@ -145,7 +145,6 @@ DictionaryMatcher
 )
 {
 }
-;
 virtual
 ~
 DictionaryMatcher

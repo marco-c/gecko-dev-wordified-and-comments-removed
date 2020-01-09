@@ -227,6 +227,9 @@ negPrefix
 UnicodeString
 negSuffix
 ;
+bool
+isCurrencyPattern
+;
 const
 UnicodeString
 &
@@ -419,7 +422,6 @@ symbols
 ;
 LocalPointer
 <
-const
 LocalizedNumberFormatter
 >
 formatter

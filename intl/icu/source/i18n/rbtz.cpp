@@ -754,12 +754,6 @@ fUpToDate
 FALSE
 ;
 }
-static
-UMutex
-gLock
-=
-U_MUTEX_INITIALIZER
-;
 void
 RuleBasedTimeZone
 :
@@ -772,6 +766,12 @@ status
 )
 const
 {
+static
+UMutex
+gLock
+=
+U_MUTEX_INITIALIZER
+;
 if
 (
 U_FAILURE

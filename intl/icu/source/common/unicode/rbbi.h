@@ -234,6 +234,7 @@ that
 )
 const
 ;
+inline
 UBool
 operator
 !

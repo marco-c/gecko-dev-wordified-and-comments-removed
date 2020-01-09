@@ -378,13 +378,7 @@ cpStart
 ;
 default
 :
-U_ASSERT
-(
-FALSE
-)
-;
-return
-U_SENTINEL
+UPRV_UNREACHABLE
 ;
 }
 }

@@ -359,7 +359,7 @@ parseFlags
 )
 ;
 void
-parseGreedyRecursive
+parseGreedy
 (
 StringSegment
 &
@@ -382,6 +382,8 @@ segment
 ParsedNumber
 &
 result
+int32_t
+recursionLevels
 UErrorCode
 &
 status

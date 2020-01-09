@@ -4812,12 +4812,7 @@ break
 ;
 default
 :
-U_ASSERT
-(
-FALSE
-)
-;
-break
+UPRV_UNREACHABLE
 ;
 }
 return

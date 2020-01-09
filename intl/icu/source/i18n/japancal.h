@@ -46,6 +46,15 @@ public
 :
 U_I18N_API
 static
+UBool
+U_EXPORT2
+enableTentativeEra
+(
+void
+)
+;
+U_I18N_API
+static
 uint32_t
 U_EXPORT2
 getCurrentEra

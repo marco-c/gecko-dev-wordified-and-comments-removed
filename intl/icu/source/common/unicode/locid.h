@@ -416,6 +416,7 @@ other
 )
 const
 ;
+inline
 UBool
 operator
 !
@@ -958,6 +959,7 @@ setToBogus
 (
 )
 ;
+inline
 UBool
 isBogus
 (

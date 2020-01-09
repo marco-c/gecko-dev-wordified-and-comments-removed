@@ -1170,9 +1170,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_INTERNAL_API
 enum
 {
 UTEXT_MAGIC
@@ -1180,8 +1177,6 @@ UTEXT_MAGIC
 0x345ad82c
 }
 ;
-#
-endif
 #
 define
 UTEXT_INITIALIZER

@@ -1246,7 +1246,13 @@ U_IS_LEAD
 c
 )
 ?
+static_cast
+<
+uint16_t
+>
+(
 INERT
+)
 :
 UCPTRIE_FAST_GET
 (

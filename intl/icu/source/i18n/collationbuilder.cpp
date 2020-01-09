@@ -3126,13 +3126,7 @@ return
 ;
 default
 :
-U_ASSERT
-(
-FALSE
-)
-;
-return
-0
+UPRV_UNREACHABLE
 ;
 }
 int32_t

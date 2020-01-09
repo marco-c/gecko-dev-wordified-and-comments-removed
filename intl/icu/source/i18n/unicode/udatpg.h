@@ -60,9 +60,6 @@ UDATPG_FIELD_COUNT
 }
 UDateTimePatternField
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 UDateTimePGDisplayWidth
@@ -73,8 +70,6 @@ UDATPG_NARROW
 }
 UDateTimePGDisplayWidth
 ;
-#
-endif
 typedef
 enum
 UDateTimePatternMatchOptions
@@ -398,10 +393,7 @@ int32_t
 pLength
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 udatpg_getFieldDisplayName
@@ -424,8 +416,6 @@ UErrorCode
 pErrorCode
 )
 ;
-#
-endif
 U_STABLE
 void
 U_EXPORT2

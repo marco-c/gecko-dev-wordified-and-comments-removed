@@ -131,7 +131,6 @@ FALSE
 )
 {
 }
-;
 }
 ;
 RBBIRuleScanner

@@ -18,6 +18,9 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
+ifndef
+U_HIDE_DRAFT_API
+#
 include
 "
 unicode
@@ -27,9 +30,6 @@ measunit
 h
 "
 U_NAMESPACE_BEGIN
-#
-ifndef
-U_HIDE_DRAFT_API
 class
 U_I18N_API
 NoUnit
@@ -108,9 +108,9 @@ subtype
 ;
 }
 ;
+U_NAMESPACE_END
 #
 endif
-U_NAMESPACE_END
 #
 endif
 #

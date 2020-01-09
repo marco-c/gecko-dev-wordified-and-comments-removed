@@ -1610,23 +1610,6 @@ UnicodeString
 src
 )
 U_NOEXCEPT
-{
-return
-moveFrom
-(
-src
-)
-;
-}
-UnicodeString
-&
-moveFrom
-(
-UnicodeString
-&
-src
-)
-U_NOEXCEPT
 ;
 void
 swap
@@ -1638,7 +1621,6 @@ other
 U_NOEXCEPT
 ;
 friend
-U_COMMON_API
 inline
 void
 U_EXPORT2
@@ -1733,6 +1715,7 @@ int32_t
 srcLength
 )
 ;
+inline
 UnicodeString
 &
 setTo
@@ -1741,6 +1724,7 @@ char16_t
 srcChar
 )
 ;
+inline
 UnicodeString
 &
 setTo
@@ -1975,6 +1959,7 @@ UChar32
 srcChar
 )
 ;
+inline
 UnicodeString
 &
 replace
@@ -1993,6 +1978,7 @@ int32_t
 srcLength
 )
 ;
+inline
 UnicodeString
 &
 replace
@@ -2007,6 +1993,7 @@ UnicodeString
 srcText
 )
 ;
+inline
 UnicodeString
 &
 replace

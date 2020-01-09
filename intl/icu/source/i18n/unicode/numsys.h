@@ -14,10 +14,6 @@ utypes
 h
 "
 #
-define
-NUMSYS_NAME_CAPACITY
-8
-#
 if
 !
 UCONFIG_NO_FORMATTING
@@ -40,6 +36,13 @@ uobject
 h
 "
 U_NAMESPACE_BEGIN
+constexpr
+const
+size_t
+kInternalNumSysNameCapacity
+=
+8
+;
 class
 U_I18N_API
 NumberingSystem
@@ -194,7 +197,7 @@ algorithmic
 char
 name
 [
-NUMSYS_NAME_CAPACITY
+kInternalNumSysNameCapacity
 +
 1
 ]

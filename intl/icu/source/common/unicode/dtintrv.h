@@ -46,12 +46,14 @@ DateInterval
 (
 )
 ;
+inline
 UDate
 getFromDate
 (
 )
 const
 ;
+inline
 UDate
 getToDate
 (
@@ -105,6 +107,7 @@ other
 )
 const
 ;
+inline
 UBool
 operator
 !

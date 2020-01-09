@@ -50,14 +50,6 @@ currencyFormat
 0
 .
 00
-;
--
-#
-#
-#
-0
-.
-00
 "
 }
 percentFormat
@@ -89,9 +81,9 @@ Version
 .
 1
 .
-43
+48
 .
-65
+88
 "
 }
 calendar

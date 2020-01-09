@@ -123,6 +123,12 @@ decimal
 bool
 useCurrency
 ;
+char
+nsName
+[
+9
+]
+;
 const
 DecimalFormatSymbols
 *

@@ -386,7 +386,6 @@ _pattern
 )
 {
 }
-;
 ParserState
 &
 operator
@@ -672,6 +671,16 @@ PatternStringUtils
 {
 public
 :
+static
+bool
+ignoreRoundingIncrement
+(
+double
+roundIncr
+int32_t
+maxFrac
+)
+;
 static
 UnicodeString
 propertiesToPatternString

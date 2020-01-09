@@ -218,7 +218,7 @@ icu
 dependency
 =
 "
-line
+line_cj
 .
 brk
 "
@@ -278,7 +278,7 @@ icu
 dependency
 =
 "
-line
+line_cj
 .
 brk
 "

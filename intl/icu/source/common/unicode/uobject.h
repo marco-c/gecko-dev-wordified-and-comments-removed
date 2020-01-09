@@ -14,6 +14,15 @@ utypes
 h
 "
 #
+include
+"
+unicode
+/
+platform
+.
+h
+"
+#
 ifndef
 U_NO_THROW
 #
@@ -86,7 +95,7 @@ new
 size_t
 size
 )
-U_NO_THROW
+U_NOEXCEPT
 ;
 static
 void
@@ -100,7 +109,7 @@ new
 size_t
 size
 )
-U_NO_THROW
+U_NOEXCEPT
 ;
 static
 void
@@ -112,7 +121,7 @@ void
 *
 p
 )
-U_NO_THROW
+U_NOEXCEPT
 ;
 static
 void
@@ -126,7 +135,7 @@ void
 *
 p
 )
-U_NO_THROW
+U_NOEXCEPT
 ;
 #
 if
@@ -144,7 +153,7 @@ void
 *
 ptr
 )
-U_NO_THROW
+U_NOEXCEPT
 {
 return
 ptr
@@ -162,7 +171,7 @@ void
 void
 *
 )
-U_NO_THROW
+U_NOEXCEPT
 {
 }
 #
@@ -186,7 +195,7 @@ file
 int
 line
 )
-U_NO_THROW
+U_NOEXCEPT
 ;
 static
 void
@@ -204,7 +213,7 @@ file
 int
 line
 )
-U_NO_THROW
+U_NOEXCEPT
 ;
 #
 endif

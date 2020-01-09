@@ -44,6 +44,9 @@ Bignum
 (
 )
 :
+bigits_buffer_
+(
+)
 bigits_
 (
 bigits_buffer_
@@ -2277,7 +2280,7 @@ this_value
 base
 ;
 bool
-delayed_multipliciation
+delayed_multiplication
 =
 false
 ;
@@ -2319,6 +2322,13 @@ mask
 0
 )
 {
+ASSERT
+(
+bit_size
+>
+0
+)
+;
 uint64_t
 base_bits_mask
 =
@@ -2369,7 +2379,7 @@ base
 }
 else
 {
-delayed_multipliciation
+delayed_multiplication
 =
 true
 ;
@@ -2389,7 +2399,7 @@ this_value
 ;
 if
 (
-delayed_multipliciation
+delayed_multiplication
 )
 {
 MultiplyByUInt32

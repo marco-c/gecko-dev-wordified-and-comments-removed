@@ -1509,7 +1509,7 @@ pStatus
 =
 U_ZERO_ERROR
 ;
-getNumberFormat
+getNumberFormatInternal
 (
 )
 .

@@ -1230,13 +1230,7 @@ tableHash
 HASH_EMPTY
 )
 {
-U_ASSERT
-(
-FALSE
-)
-;
-return
-NULL
+UPRV_UNREACHABLE
 ;
 }
 return

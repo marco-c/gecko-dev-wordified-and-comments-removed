@@ -76,6 +76,14 @@ ucptrie_impl
 .
 h
 "
+#
+ifdef
+OVERFLOW
+#
+undef
+OVERFLOW
+#
+endif
 U_NAMESPACE_BEGIN
 namespace
 {

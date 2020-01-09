@@ -84,6 +84,11 @@ percentFormat
 }
 symbols
 {
+decimal
+{
+"
+"
+}
 exponential
 {
 "
@@ -106,9 +111,9 @@ Version
 .
 1
 .
-38
+47
 .
-69
+70
 "
 }
 calendar

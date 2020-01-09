@@ -104,11 +104,17 @@ UTRACE_ENTRY_OC
 UTRACE_U_CLEANUP
 )
 ;
+icu
+:
+:
 umtx_lock
 (
 NULL
 )
 ;
+icu
+:
+:
 umtx_unlock
 (
 NULL

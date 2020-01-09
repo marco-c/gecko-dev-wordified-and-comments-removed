@@ -554,6 +554,11 @@ err
 }
 #
 else
+(
+void
+)
+gNoFormatting
+;
 va_start
 (
 ap

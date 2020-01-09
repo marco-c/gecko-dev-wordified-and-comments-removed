@@ -511,7 +511,7 @@ UnicodeString
 getDisplayName
 (
 UBool
-daylight
+inDaylight
 EDisplayType
 style
 UnicodeString
@@ -525,7 +525,7 @@ UnicodeString
 getDisplayName
 (
 UBool
-daylight
+inDaylight
 EDisplayType
 style
 const

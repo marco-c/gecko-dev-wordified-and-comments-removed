@@ -782,10 +782,7 @@ errorCode
 }
 else
 {
-U_ASSERT
-(
-FALSE
-)
+UPRV_UNREACHABLE
 ;
 }
 ucln_common_registerCleanup

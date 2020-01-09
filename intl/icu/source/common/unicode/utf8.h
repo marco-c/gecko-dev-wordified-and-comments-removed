@@ -2412,9 +2412,6 @@ i
 \
 }
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 define
 U8_TRUNCATE_IF_INCOMPLETE
 (
@@ -2642,8 +2639,6 @@ length
 }
 \
 }
-#
-endif
 #
 define
 U8_PREV_UNSAFE

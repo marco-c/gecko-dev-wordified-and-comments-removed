@@ -1216,6 +1216,11 @@ trie
 NULL
 )
 {
+*
+pErrorCode
+=
+U_MEMORY_ALLOCATION_ERROR
+;
 return
 NULL
 ;
@@ -1440,6 +1445,11 @@ newTrie
 NULL
 )
 {
+*
+pErrorCode
+=
+U_MEMORY_ALLOCATION_ERROR
+;
 uprv_free
 (
 trie

@@ -587,7 +587,6 @@ return
 this
 ;
 }
-;
 virtual
 UBool
 operator

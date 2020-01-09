@@ -84,6 +84,17 @@ percentFormat
 }
 symbols
 {
+decimal
+{
+"
+"
+}
+group
+{
+"
+.
+"
+}
 superscriptingExponent
 {
 "
@@ -99,7 +110,7 @@ Version
 .
 1
 .
-38
+47
 .
 69
 "

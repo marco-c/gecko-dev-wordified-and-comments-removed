@@ -102,6 +102,7 @@ ParsePosition
 (
 )
 ;
+inline
 ParsePosition
 &
 operator
@@ -113,6 +114,7 @@ ParsePosition
 copy
 )
 ;
+inline
 UBool
 operator
 =
@@ -125,6 +127,7 @@ that
 )
 const
 ;
+inline
 UBool
 operator
 !
@@ -144,6 +147,7 @@ clone
 )
 const
 ;
+inline
 int32_t
 getIndex
 (
@@ -151,6 +155,7 @@ void
 )
 const
 ;
+inline
 void
 setIndex
 (
@@ -158,6 +163,7 @@ int32_t
 index
 )
 ;
+inline
 void
 setErrorIndex
 (
@@ -165,6 +171,7 @@ int32_t
 ei
 )
 ;
+inline
 int32_t
 getErrorIndex
 (

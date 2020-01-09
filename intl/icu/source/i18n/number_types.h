@@ -107,7 +107,7 @@ namespace
 impl
 {
 typedef
-UNumberFormatFields
+uint8_t
 Field
 ;
 typedef
