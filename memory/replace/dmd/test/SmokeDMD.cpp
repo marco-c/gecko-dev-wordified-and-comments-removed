@@ -1286,7 +1286,6 @@ malloc
 sizeof
 (
 uintptr_t
-*
 )
 )
 ;
