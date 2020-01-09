@@ -214,7 +214,7 @@ nproc
 "
 mingw_version
 =
-a3b01285793fe405ce6eae883cd5ebacdfd819ae
+6c8dfd0765df2d9afd845f74285d803dde4d35c3
 libunwind_version
 =
 1f89d78bb488bc71cfdee8281fc0834e9fbe5dce
@@ -736,14 +736,6 @@ enable
 sdk
 =
 all
-\
--
--
-enable
--
-secure
--
-api
 \
 -
 -
