@@ -241,8 +241,6 @@ id
 event
 :
 {
-method
-:
 eventName
 params
 }

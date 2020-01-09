@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-Target
+TabTarget
 "
 ]
 ;
@@ -62,7 +62,7 @@ jsm
 ;
 const
 {
-Session
+TabSession
 }
 =
 ChromeUtils
@@ -80,7 +80,7 @@ content
 /
 sessions
 /
-Session
+TabSession
 .
 jsm
 "
@@ -189,13 +189,20 @@ nsIFaviconService
 )
 ;
 class
-Target
+TabTarget
 {
 constructor
 (
+targets
 browser
 )
 {
+this
+.
+targets
+=
+targets
+;
 this
 .
 browser
@@ -599,7 +606,7 @@ set
 (
 conn
 new
-Session
+TabSession
 (
 conn
 this
