@@ -4868,7 +4868,7 @@ this
 .
 controller
 .
-tabContextChanged
+viewContextChanged
 (
 )
 ;
