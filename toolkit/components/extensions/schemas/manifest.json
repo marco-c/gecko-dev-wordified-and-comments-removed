@@ -431,11 +431,11 @@ d
 :
 {
 "
-type
+ref
 "
 :
 "
-string
+ExtensionFileUrl
 "
 }
 }
