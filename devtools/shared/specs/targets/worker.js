@@ -125,6 +125,15 @@ type
 close
 "
 }
+newSource
+:
+{
+type
+:
+"
+newSource
+"
+}
 }
 }
 )

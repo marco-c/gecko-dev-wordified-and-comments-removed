@@ -642,6 +642,15 @@ type
 workerListChanged
 "
 }
+newSource
+:
+{
+type
+:
+"
+newSource
+"
+}
 }
 }
 ;
