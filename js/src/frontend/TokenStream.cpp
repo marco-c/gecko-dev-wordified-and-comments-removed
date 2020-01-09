@@ -274,6 +274,12 @@ using
 mozilla
 :
 :
+AsciiAlphanumericToNumber
+;
+using
+mozilla
+:
+:
 AssertedCast
 ;
 using
@@ -7942,7 +7948,7 @@ v
 codePoint
 =
 (
-JS7_UNHEX
+AsciiAlphanumericToNumber
 (
 unit
 )
@@ -8118,7 +8124,7 @@ code
 4
 )
 |
-JS7_UNHEX
+AsciiAlphanumericToNumber
 (
 unit
 )
@@ -15719,7 +15725,7 @@ code
 4
 )
 |
-JS7_UNHEX
+AsciiAlphanumericToNumber
 (
 u3
 )
@@ -15855,7 +15861,7 @@ v
 unit
 =
 (
-JS7_UNHEX
+AsciiAlphanumericToNumber
 (
 c2
 )

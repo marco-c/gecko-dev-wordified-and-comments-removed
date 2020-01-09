@@ -103,6 +103,12 @@ using
 mozilla
 :
 :
+AsciiAlphanumericToNumber
+;
+using
+mozilla
+:
+:
 IsAsciiDigit
 ;
 using
@@ -1231,7 +1237,7 @@ Error
 c
 =
 (
-JS7_UNHEX
+AsciiAlphanumericToNumber
 (
 current
 [
@@ -1244,7 +1250,7 @@ current
 )
 |
 (
-JS7_UNHEX
+AsciiAlphanumericToNumber
 (
 current
 [
@@ -1257,7 +1263,7 @@ current
 )
 |
 (
-JS7_UNHEX
+AsciiAlphanumericToNumber
 (
 current
 [
@@ -1270,7 +1276,7 @@ current
 )
 |
 (
-JS7_UNHEX
+AsciiAlphanumericToNumber
 (
 current
 [
