@@ -422,16 +422,6 @@ url
 schemeIs
 (
 "
-wyciwyg
-"
-)
-|
-|
-url
-.
-schemeIs
-(
-"
 file
 "
 )

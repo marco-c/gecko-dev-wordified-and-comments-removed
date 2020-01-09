@@ -4518,16 +4518,6 @@ view
 source
 "
 )
-|
-|
-scheme
-.
-EqualsLiteral
-(
-"
-wyciwyg
-"
-)
 )
 {
 return

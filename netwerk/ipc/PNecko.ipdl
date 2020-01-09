@@ -132,10 +132,6 @@ PBrowser
 ;
 include
 protocol
-PWyciwygChannel
-;
-include
-protocol
 PFTPChannel
 ;
 include
@@ -415,9 +411,6 @@ manages
 PCookieService
 ;
 manages
-PWyciwygChannel
-;
-manages
 PFTPChannel
 ;
 manages
@@ -490,11 +483,6 @@ SerializedLoadContext
 loadContext
 HttpChannelCreationArgs
 args
-)
-;
-async
-PWyciwygChannel
-(
 )
 ;
 async

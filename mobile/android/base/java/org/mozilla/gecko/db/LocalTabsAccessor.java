@@ -405,8 +405,6 @@ about
 |
 chrome
 |
-wyciwyg
-|
 file
 )
 :

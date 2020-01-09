@@ -2537,7 +2537,7 @@ aEpoch
 )
 ;
 nsresult
-AboutToLoadHttpFtpWyciwygDocumentForChild
+AboutToLoadHttpFtpDocumentForChild
 (
 nsIChannel
 *

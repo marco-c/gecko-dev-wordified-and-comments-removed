@@ -20,7 +20,7 @@ html
 /
 test
 /
-file_refresh_wyciwyg_url
+file_refresh_after_document_write
 .
 html
 "

@@ -2123,7 +2123,6 @@ nullptr
 =
 0
 ;
-virtual
 void
 StopDocumentLoad
 (
@@ -2645,7 +2644,6 @@ return
 mCharacterSet
 ;
 }
-virtual
 void
 SetDocumentCharacterSet
 (

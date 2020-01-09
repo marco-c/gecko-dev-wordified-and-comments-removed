@@ -2526,14 +2526,6 @@ aLoadType
 )
 ;
 nsresult
-SetBaseUrlForWyciwyg
-(
-nsIContentViewer
-*
-aContentViewer
-)
-;
-nsresult
 GetHttpChannel
 (
 nsIChannel

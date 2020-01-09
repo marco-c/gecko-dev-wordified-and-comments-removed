@@ -28095,7 +28095,7 @@ nsresult
 ContentParent
 :
 :
-AboutToLoadHttpFtpWyciwygDocumentForChild
+AboutToLoadHttpFtpDocumentForChild
 (
 nsIChannel
 *
