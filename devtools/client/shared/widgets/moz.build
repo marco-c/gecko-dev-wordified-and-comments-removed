@@ -156,11 +156,6 @@ ShapesInContextEditor
 js
 '
 '
-SideMenuWidget
-.
-jsm
-'
-'
 Spectrum
 .
 js
