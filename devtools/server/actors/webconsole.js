@@ -4940,10 +4940,6 @@ reset
 )
 ;
 }
-return
-{
-}
-;
 }
 getPreferences
 :
