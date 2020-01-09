@@ -184,7 +184,10 @@ use
 crate
 :
 :
+{
 Atom
+Zero
+}
 ;
 use
 cssparser
@@ -194,12 +197,6 @@ cssparser
 Parser
 Token
 }
-;
-use
-num_traits
-:
-:
-Zero
 ;
 use
 std

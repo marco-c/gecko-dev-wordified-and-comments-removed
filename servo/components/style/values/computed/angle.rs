@@ -23,7 +23,7 @@ values
 CSSFloat
 ;
 use
-num_traits
+crate
 :
 :
 Zero
