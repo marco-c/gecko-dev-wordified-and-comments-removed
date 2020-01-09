@@ -3708,7 +3708,7 @@ return
 mVisualViewportSize
 ;
 }
-void
+bool
 SetVisualViewportOffset
 (
 const
