@@ -1741,12 +1741,16 @@ availWidth
 =
 this
 .
+element
+.
 clientWidth
 ;
 let
 availHeight
 =
 this
+.
+element
 .
 clientHeight
 ;
