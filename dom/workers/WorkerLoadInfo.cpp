@@ -388,6 +388,10 @@ mPrincipalIsSystem
 (
 false
 )
+mWatchedByDevtools
+(
+false
+)
 mStorageAccess
 (
 nsContentUtils

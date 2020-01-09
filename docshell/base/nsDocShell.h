@@ -3584,6 +3584,11 @@ mSkipBrowsingContextDetachOnDestroy
 :
 1
 ;
+bool
+mWatchedByDevtools
+:
+1
+;
 }
 ;
 #
