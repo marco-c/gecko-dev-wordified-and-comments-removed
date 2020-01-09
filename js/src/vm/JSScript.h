@@ -12818,6 +12818,12 @@ uint32_t
 numInnerFunctions
 )
 ;
+size_t
+allocationSize
+(
+)
+const
+;
 template
 <
 typename

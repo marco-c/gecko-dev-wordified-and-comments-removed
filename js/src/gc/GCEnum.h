@@ -395,6 +395,16 @@ _
 (
 ObjectSlots
 )
+\
+_
+(
+ScriptPrivateData
+)
+\
+_
+(
+LazyScriptData
+)
 #
 define
 JS_FOR_EACH_MEMORY_USE
