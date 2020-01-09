@@ -14,11 +14,11 @@ import
 absolute_import
 print_function
 import
+mozinfo
+import
 os
 import
 sys
-import
-mozinfo
 __all__
 =
 [

@@ -17,7 +17,7 @@ PACKAGE_VERSION
 '
 7
 .
-4
+3
 .
 0
 '
@@ -241,24 +241,6 @@ Language
 :
 :
 Python
-:
-:
-2
-.
-7
-'
-                   
-'
-Programming
-Language
-:
-:
-Python
-:
-:
-3
-.
-5
 '
                    
 '
