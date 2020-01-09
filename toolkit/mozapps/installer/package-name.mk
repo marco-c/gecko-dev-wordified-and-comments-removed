@@ -471,6 +471,17 @@ PKG_BASENAME
 mozsearch
 -
 rust
+MOZSEARCH_RUST_STDLIB_BASENAME
+=
+(
+PKG_BASENAME
+)
+.
+mozsearch
+-
+rust
+-
+stdlib
 MOZSEARCH_INCLUDEMAP_BASENAME
 =
 (
