@@ -2113,6 +2113,18 @@ return
 }
 try
 {
+if
+(
+ping
+.
+clientId
+!
+=
+Utils
+.
+knownClientID
+)
+{
 await
 TelemetryStorage
 .
@@ -2129,6 +2141,7 @@ promiseArchivePing
 ping
 )
 ;
+}
 }
 catch
 (
