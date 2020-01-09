@@ -225,6 +225,17 @@ XMLDocument
 {
 [
 UseCounter
+Pref
+=
+"
+dom
+.
+xmldocument
+.
+async
+.
+enabled
+"
 ]
 attribute
 boolean
