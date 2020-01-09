@@ -1301,6 +1301,10 @@ False
 mach_context
 =
 None
+                 
+vcs
+=
+None
 )
 :
         
@@ -1339,6 +1343,12 @@ self
 mach_context
 =
 mach_context
+        
+self
+.
+vcs
+=
+vcs
         
 cls
 =
@@ -2684,12 +2694,23 @@ hg_installed
 and
 state_dir_available
 and
+(
 checkout_type
-!
+=
 =
 '
-git
+hg
 '
+or
+self
+.
+vcs
+=
+=
+'
+hg
+'
+)
 :
             
 configure_hg
@@ -2776,12 +2797,23 @@ git
 '
 )
 and
+(
 checkout_type
 =
 =
 '
 git
 '
+or
+self
+.
+vcs
+=
+=
+'
+git
+'
+)
 :
             
 should_configure_git
@@ -2879,6 +2911,15 @@ self
 instance
 .
 no_interactive
+and
+self
+.
+vcs
+=
+=
+'
+hg
+'
 :
             
 dest
@@ -2926,7 +2967,9 @@ git
 '
 )
 and
-checkout_type
+self
+.
+vcs
 =
 =
 '
@@ -4145,6 +4188,10 @@ extensions
 "
 "
     
+if
+top_src_dir
+:
+        
 mozreview_commit_hook
 =
 os
@@ -4165,7 +4212,7 @@ commit
 msg
 '
 )
-    
+        
 if
 os
 .
@@ -4176,7 +4223,7 @@ exists
 mozreview_commit_hook
 )
 :
-        
+            
 with
 open
 (
@@ -4188,7 +4235,7 @@ rb
 as
 f
 :
-            
+                
 contents
 =
 f
@@ -4196,7 +4243,7 @@ f
 read
 (
 )
-        
+            
 if
 b
 '
@@ -4205,7 +4252,7 @@ MozReview
 in
 contents
 :
-            
+                
 print
 (
 '
@@ -4221,14 +4268,14 @@ hook
 .
 '
 )
-            
+                
 os
 .
 remove
 (
 mozreview_commit_hook
 )
-            
+                
 print
 (
 '
