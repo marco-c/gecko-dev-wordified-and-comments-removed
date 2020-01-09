@@ -106,12 +106,12 @@ mozilla
 class
 AutoPreserveAspectRatioOverride
 ;
-class
-DOMSVGAnimatedPreserveAspectRatio
-;
 namespace
 dom
 {
+class
+DOMSVGAnimatedPreserveAspectRatio
+;
 class
 SVGAnimatedRect
 ;
