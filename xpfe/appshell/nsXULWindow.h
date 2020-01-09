@@ -151,6 +151,13 @@ nsITabParent
 .
 h
 "
+#
+include
+"
+nsIXULStore
+.
+h
+"
 namespace
 mozilla
 {
@@ -837,6 +844,12 @@ aWidth
 int32_t
 aHeight
 )
+;
+nsCOMPtr
+<
+nsIXULStore
+>
+mLocalStore
 ;
 }
 ;
