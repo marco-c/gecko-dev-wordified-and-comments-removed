@@ -476,10 +476,6 @@ packages
 -
 deb7
 -
-nasm
--
-deb7
--
 valgrind
 args
 :
@@ -536,10 +532,6 @@ harfbuzz
 deb7
 -
 libxkbcommon
--
-deb7
--
-nasm
 -
 deb7
 -
@@ -667,10 +659,6 @@ gtk3
 deb7
 -
 harfbuzz
--
-deb7
--
-nasm
 -
 deb7
 -
@@ -926,12 +914,6 @@ parent
 android
 -
 build
-packages
-:
--
-deb9
--
-nasm
 mingw32
 -
 build
