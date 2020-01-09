@@ -1849,14 +1849,6 @@ shape
 )
 ;
 void
-setLastPropertyMakeNonNative
-(
-Shape
-*
-shape
-)
-;
-void
 setIsSharedMemory
 (
 )
@@ -3559,6 +3551,9 @@ JSContext
 cx
 HandleNativeObject
 obj
+NativeObject
+*
+old
 HandleValueVector
 values
 void
