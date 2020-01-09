@@ -33286,6 +33286,16 @@ rv
 )
 ;
 }
+if
+(
+!
+contexts
+.
+IsEmpty
+(
+)
+)
+{
 GetBrowsingContext
 (
 )
@@ -33302,6 +33312,7 @@ contexts
 )
 )
 ;
+}
 rv
 =
 privWin

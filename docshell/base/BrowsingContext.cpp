@@ -1912,7 +1912,7 @@ BrowsingContext
 *
 child
 :
-mChildren
+aChildren
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
