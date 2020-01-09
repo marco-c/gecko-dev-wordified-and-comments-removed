@@ -664,6 +664,12 @@ uri
 =
 newURI
 ;
+eventEditor
+.
+sourceActor
+=
+null
+;
 this
 .
 _tooltip
