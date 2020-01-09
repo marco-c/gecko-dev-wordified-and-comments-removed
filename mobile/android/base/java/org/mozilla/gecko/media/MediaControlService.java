@@ -226,10 +226,9 @@ isAttachedToContext
 )
 |
 |
-!
 AppConstants
 .
-RELEASE_OR_BETA
+FENNEC_NIGHTLY
 )
 {
 currentNotification
