@@ -571,7 +571,7 @@ shared
 -
 js
 '
-default
+when
 =
 building_js
 help
@@ -600,7 +600,7 @@ export
 -
 js
 '
-default
+when
 =
 building_js
 help
@@ -642,6 +642,9 @@ export
 -
 js
 '
+when
+=
+building_js
 )
 def
 shared_js
@@ -708,6 +711,9 @@ export
 -
 js
 '
+when
+=
+building_js
 )
 def
 exportable_js_api
@@ -751,6 +757,9 @@ export
 -
 js
 '
+when
+=
+building_js
 )
 def
 static_js_api
@@ -786,6 +795,9 @@ shared
 -
 js
 '
+when
+=
+building_js
 )
 def
 static_js
