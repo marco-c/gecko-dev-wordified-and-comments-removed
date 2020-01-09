@@ -399,6 +399,17 @@ MOZ_TEST_SLOW_SKIP_UPDATE_STAGE
 "
 )
 ;
+gEnv
+.
+set
+(
+"
+MOZ_TEST_STAGING_ERROR
+"
+"
+"
+)
+;
 UpdateListener
 .
 reset
