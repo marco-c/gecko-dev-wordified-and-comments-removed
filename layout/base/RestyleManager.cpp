@@ -8226,7 +8226,7 @@ GetAnimationGenerationForFrame
 (
 nsIFrame
 *
-aFrame
+aStyleFrame
 )
 {
 EffectSet
@@ -8236,9 +8236,9 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+GetEffectSetForStyleFrame
 (
-aFrame
+aStyleFrame
 )
 ;
 return

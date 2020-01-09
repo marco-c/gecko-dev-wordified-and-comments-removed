@@ -3469,7 +3469,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+GetEffectSetForStyleFrame
 (
 this
 )
@@ -4112,7 +4112,7 @@ HasCSSTransitions
 EffectSet
 :
 :
-GetEffectSet
+GetEffectSetForStyleFrame
 (
 this
 )

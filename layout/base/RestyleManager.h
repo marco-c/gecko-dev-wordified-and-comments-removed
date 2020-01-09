@@ -1062,7 +1062,7 @@ GetAnimationGenerationForFrame
 (
 nsIFrame
 *
-aFrame
+aStyleFrame
 )
 ;
 void

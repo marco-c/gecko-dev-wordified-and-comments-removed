@@ -5248,7 +5248,7 @@ GetAnimationPropertiesForCompositor
 const
 nsIFrame
 *
-aFrame
+aStyleFrame
 )
 ;
 static

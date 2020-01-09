@@ -1834,7 +1834,7 @@ GetAnimationPropertiesForCompositor
 const
 nsIFrame
 *
-aFrame
+aStyleFrame
 )
 {
 nsCSSPropertyIDSet
@@ -1847,9 +1847,9 @@ effects
 EffectSet
 :
 :
-GetEffectSet
+GetEffectSetForStyleFrame
 (
-aFrame
+aStyleFrame
 )
 ;
 if
@@ -1876,7 +1876,7 @@ EffectCompositor
 :
 AllowCompositorAnimationsOnFrame
 (
-aFrame
+aStyleFrame
 warning
 )
 )
@@ -1906,7 +1906,7 @@ GetPropertiesForCompositor
 (
 *
 effects
-aFrame
+aStyleFrame
 )
 ;
 }
