@@ -126,11 +126,6 @@ CubicBezierWidget
 js
 '
 '
-FastListWidget
-.
-js
-'
-'
 FilterWidget
 .
 js
