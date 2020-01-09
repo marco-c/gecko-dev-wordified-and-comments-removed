@@ -118,8 +118,6 @@ InstallationTarget
     
 JARManifest
     
-Library
-    
 Linkable
     
 LocalInclude
@@ -133,8 +131,6 @@ ObjdirFiles
 ObjdirPreprocessedFiles
     
 PerSourceFlag
-    
-PgoGenerateOnlySources
     
 Program
     
@@ -1713,8 +1709,8 @@ start_node
 )
             
 if
-not
 start_node
+not
 in
 self
 .
@@ -1866,8 +1862,8 @@ yield
 start
         
 if
-not
 start
+not
 in
 self
 .
@@ -3767,6 +3763,8 @@ backend_file
 .
 write
 (
+(
+                    
 "
 "
 "
@@ -3803,6 +3801,13 @@ locale
 {
 script
 }
+"
+"
+"
+                    
+"
+"
+"
 {
 method
 }
@@ -3834,9 +3839,11 @@ TOUCH
 "
 "
 "
+)
 .
 format
 (
+                    
 stub
 =
 stub_file
@@ -3945,7 +3952,9 @@ method
 obj
 .
 method
+                    
 )
+                
 )
         
 elif
@@ -5187,6 +5196,7 @@ rule
 .
 add_dependencies
 (
+                
 chain
 (
 (
@@ -5207,7 +5217,7 @@ self
 .
 _rust_dirs
 )
-                                        
+                      
 (
 r
 for
@@ -5228,6 +5238,7 @@ self
 _rust_dirs
 )
 )
+                
 )
             
 for
@@ -5892,11 +5903,12 @@ makefile
 .
 add_statement
 (
+                
 '
 \
 n
 '
-                                   
+                
 '
 #
 Make
@@ -5919,7 +5931,7 @@ foo
 \
 n
 '
-                                   
+                
 '
 #
 Help
@@ -7125,7 +7137,6 @@ n
 .
 join
 (
-                
 relativize
 (
 backend_file
@@ -7144,10 +7155,10 @@ _traversal
 .
 add
 (
+                
 backend_file
 .
 relobjdir
-                                
 dirs
 =
 relativize
@@ -7161,6 +7172,7 @@ obj
 .
 dirs
 )
+            
 )
         
 self
@@ -7383,6 +7395,9 @@ stage
 (
 XPI_NAME
 )
+'
+                
+'
 (
 DIST
 )
@@ -7400,6 +7415,7 @@ DIST_SUBDIR
 \
 n
 '
+                
 )
         
 if
@@ -7524,7 +7540,6 @@ join
 .
 deps
 '
-                                                         
 '
 %
 s
@@ -8851,6 +8866,7 @@ backend_file
 .
 write
 (
+                
 '
 COMPUTED_
 %
@@ -8865,7 +8881,7 @@ n
 %
 (
 var
-                                                        
+                                         
 '
 '
 .
@@ -9512,17 +9528,6 @@ objdir
                                                  
 name
 )
-)
-        
-topobjdir
-=
-mozpath
-.
-normsep
-(
-obj
-.
-topobjdir
 )
         
 build_target
@@ -10741,10 +10746,10 @@ in
 the
 filename
 part
-of
 "
                                                 
 "
+of
 srcdir
 -
 relative
@@ -12670,6 +12675,7 @@ mk
 .
 add_statement
 (
+            
 '
 IPDLDIRS
 :
@@ -12697,7 +12703,7 @@ dirname
 (
 p
 )
-                                                                              
+                                                      
 for
 p
 in

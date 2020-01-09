@@ -2324,8 +2324,6 @@ assertRaises
 (
 MozbuildDeletionError
 )
-as
-mde
 :
             
 self
@@ -2364,8 +2362,6 @@ assertRaises
 (
 UnsortedError
 )
-as
-ee
 :
             
 self
@@ -2393,8 +2389,6 @@ assertRaises
 (
 UnsortedError
 )
-as
-ee
 :
             
 self
@@ -2423,8 +2417,6 @@ assertRaises
 (
 UnsortedError
 )
-as
-ee
 :
             
 self
@@ -2475,8 +2467,6 @@ assertRaises
 (
 KeyError
 )
-as
-ee
 :
             
 self
@@ -4170,8 +4160,6 @@ Exception
 )
 :
             
-c
-=
 l
 [
 '

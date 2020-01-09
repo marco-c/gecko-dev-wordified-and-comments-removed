@@ -9,10 +9,6 @@ os
 import
 unittest
 from
-StringIO
-import
-StringIO
-from
 mozunit
 import
 main

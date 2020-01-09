@@ -6338,6 +6338,7 @@ is_taskcluster_auth
 True
         
 except
+Exception
 :
             
 pass

@@ -2539,6 +2539,9 @@ ELF
 debug
 symbol
 file
+'
+                         
+'
 {
 destpath
 }
@@ -4809,6 +4812,7 @@ cache_size
 cache_callback
 =
 None
+                 
 log
 =
 None
@@ -7184,6 +7188,7 @@ Source_Code
 Mercurial
 /
 Bundles
+\
 "
 "
 "
@@ -7473,6 +7478,7 @@ count
 raise
 Exception
 (
+                
 '
 Could
 not
@@ -7491,7 +7497,7 @@ revisions
 \
 n
 '
-                            
+                
 '
 Search
 started
@@ -7512,7 +7518,7 @@ n
 \
 n
 '
-                            
+                
 '
 see
 https
@@ -7536,7 +7542,7 @@ Artifact_builds
 .
 format
 (
-                                
+                    
 rev
 =
 last_revs
@@ -8011,6 +8017,7 @@ else
 Not
 updating
 '
+                          
 '
 filename
 '

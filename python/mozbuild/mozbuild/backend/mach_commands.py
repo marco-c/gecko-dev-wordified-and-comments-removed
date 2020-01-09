@@ -9,8 +9,6 @@ argparse
 import
 os
 import
-sys
-import
 subprocess
 import
 which
@@ -325,8 +323,6 @@ get_eclipse_workspace_path
 (
 )
             
-process
-=
 subprocess
 .
 check_call
@@ -360,12 +356,11 @@ get_visualstudio_workspace_path
 (
 )
             
-process
-=
 subprocess
 .
 check_call
 (
+                
 [
 '
 explorer
@@ -374,6 +369,7 @@ exe
 '
 visual_studio_workspace_dir
 ]
+            
 )
     
 def

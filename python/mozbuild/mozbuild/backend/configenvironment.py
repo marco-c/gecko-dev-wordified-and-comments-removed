@@ -188,8 +188,8 @@ path
 )
         
 if
-not
 path
+not
 in
 code_cache
 or
@@ -1069,8 +1069,8 @@ self
 defines
                           
 if
-not
 name
+not
 in
 self
 .
@@ -1081,9 +1081,9 @@ self
 .
 substs
 [
-'
+"
 ACDEFINES
-'
+"
 ]
 =
 '
@@ -1091,7 +1091,9 @@ ACDEFINES
 .
 join
 (
+            
 [
+                
 '
 -
 D
@@ -1104,7 +1106,6 @@ s
 %
 (
 name
-                                                          
 shell_quote
 (
 self
@@ -1123,7 +1124,7 @@ replace
 '
 )
 )
-                                             
+                
 for
 name
 in
@@ -1131,7 +1132,9 @@ sorted
 (
 global_defines
 )
+            
 ]
+        
 )
         
 def
@@ -1208,9 +1211,11 @@ n
 .
 join
 (
+            
 sorted
 (
 [
+                
 '
 %
 s
@@ -1220,8 +1225,9 @@ s
 '
 %
 (
+                    
 name
-                                                                  
+                    
 serialize
 (
 name
@@ -1232,7 +1238,9 @@ substs
 name
 ]
 )
+                    
 )
+                
 for
 name
 in
@@ -1246,8 +1254,10 @@ substs
 [
 name
 ]
+                
 ]
 )
+            
 )
         
 self
@@ -1266,9 +1276,11 @@ n
 .
 join
 (
+            
 sorted
 (
 [
+                
 '
 %
 s
@@ -1276,7 +1288,7 @@ s
 '
 %
 name
-                                                          
+                
 for
 name
 in
@@ -1291,8 +1303,10 @@ substs
 [
 name
 ]
+                
 ]
 )
+            
 )
         
 self

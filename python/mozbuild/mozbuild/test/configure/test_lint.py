@@ -4,10 +4,6 @@ import
 absolute_import
 print_function
 unicode_literals
-from
-StringIO
-import
-StringIO
 import
 contextlib
 import

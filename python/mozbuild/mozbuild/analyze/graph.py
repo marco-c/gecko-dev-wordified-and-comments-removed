@@ -672,8 +672,7 @@ fetchone
             
 if
 ret
-=
-=
+is
 None
 :
                 

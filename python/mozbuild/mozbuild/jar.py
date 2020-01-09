@@ -66,10 +66,6 @@ cStringIO
 import
 StringIO
 from
-collections
-import
-defaultdict
-from
 mozbuild
 .
 preprocessor
@@ -734,9 +730,10 @@ re
 .
 compile
 (
+        
 entryre
-                           
 +
+(
 '
 (
 ?
@@ -767,6 +764,9 @@ _
 \
 s
 *
+'
+                   
+'
 (
 \
 (
@@ -814,7 +814,8 @@ _
 s
 *
 '
-                           
+)
+        
 )
     
 def
@@ -1697,6 +1698,9 @@ for
 l10n
 -
 merge
+'
+                     
+'
 (
 requires
 l10n
@@ -3471,6 +3475,7 @@ info
 date_time
             
 except
+Exception
 :
                 
 return

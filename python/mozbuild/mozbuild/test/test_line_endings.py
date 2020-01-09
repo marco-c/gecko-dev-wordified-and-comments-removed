@@ -7,8 +7,6 @@ StringIO
 import
 os
 import
-sys
-import
 os
 .
 path

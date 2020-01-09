@@ -12,10 +12,6 @@ import
 os
 .
 path
-import
-time
-import
-inspect
 from
 filecmp
 import

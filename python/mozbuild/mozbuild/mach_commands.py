@@ -2349,8 +2349,7 @@ keys
         
 elif
 crates
-=
-=
+is
 None
 or
 crates
@@ -4373,6 +4372,7 @@ s
 '
 %
 (
+                    
 filename
 warning
 [
@@ -4380,13 +4380,13 @@ warning
 line
 '
 ]
-                                            
 warning
 [
 '
 column
 '
 ]
+                    
 warning
 [
 '
@@ -4582,15 +4582,15 @@ list
 of
 wildcard
 patterns
+"
+                     
+"
 (
 called
 the
 positive
 patterns
 )
-"
-                     
-"
 optionally
 followed
 by
@@ -4598,6 +4598,9 @@ a
 '
 -
 '
+"
+                     
+"
 and
 another
 '
@@ -4979,6 +4982,9 @@ option
 will
 result
 in
+'
+                     
+'
 the
 default
 debugger
@@ -5060,6 +5066,9 @@ the
 debugger
 itself
 ;
+'
+                     
+'
 split
 as
 the
@@ -5375,6 +5384,7 @@ gtest_filter
 package
 adb_path
 device_serial
+                                      
 remote_test_root
 libxul_path
 )
@@ -5924,8 +5934,6 @@ format
 '
 ]
         
-log
-=
 setup_logging
 (
 '
@@ -7152,13 +7160,13 @@ post
 -
 build
 '
-        
+             
 conditional_name
 =
 '
 run
 '
-        
+             
 conditions
 =
 [
@@ -7216,6 +7224,9 @@ the
 program
 .
 Not
+'
+                     
+'
 specifying
 a
 -
@@ -7231,6 +7242,9 @@ in
 a
 temporary
 profile
+'
+                     
+'
 being
 used
 .
@@ -7458,6 +7472,9 @@ program
 Can
 be
 set
+'
+                     
+'
 multiple
 times
 .
@@ -7475,6 +7492,9 @@ mozbuild
 machrc
 in
 the
+'
+                     
+'
 [
 runprefs
 ]
@@ -7523,6 +7543,9 @@ temporary
 profile
 created
 inside
+'
+                     
+'
 the
 objdir
 .
@@ -7568,6 +7591,9 @@ open
 (
 1
 )
+"
+                     
+"
 the
 browser
 is
@@ -7586,6 +7612,9 @@ the
 file
 '
 s
+"
+                     
+"
 icon
 \
 "
@@ -7647,6 +7676,9 @@ debugger
 option
 will
 result
+'
+                     
+'
 in
 the
 default
@@ -7729,6 +7761,9 @@ the
 debugger
 itself
 ;
+'
+                     
+'
 split
 as
 the
@@ -13674,6 +13709,7 @@ line
 )
         
 except
+Exception
 :
             
 pass
@@ -14533,13 +14569,13 @@ strip
 verbose
 =
 False
-              
 checks
 =
 '
 -
 *
 '
+              
 fix
 =
 False
@@ -14636,6 +14672,7 @@ analysis
 '
 {
 }
+                     
 "
 You
 '
@@ -15304,10 +15341,10 @@ from
 the
 coverity
 working
-directory
 '
                      
 '
+directory
 ~
 .
 /
@@ -15366,6 +15403,7 @@ None
 coverity_output_path
 =
 None
+                       
 outgoing
 =
 False
@@ -16190,6 +16228,7 @@ checker
 .
 format
 (
+                        
 checker_name
 )
 )
@@ -16267,6 +16306,7 @@ medium
 .
 format
 (
+                        
 checker_name
 )
 )
@@ -16356,6 +16396,7 @@ medium
 .
 format
 (
+                        
 checker_name
 )
 )
@@ -16505,12 +16546,14 @@ self
 .
 get_reliability_index_for_cov_checker
 (
+                        
 issue
 [
 '
 checkerName
 '
 ]
+                        
 )
                     
 '
@@ -16582,6 +16625,7 @@ stack
 .
 append
 (
+                        
 {
 '
 file_path
@@ -16593,7 +16637,7 @@ event
 strippedFilePathname
 '
 ]
-                                                         
+                         
 '
 line_number
 '
@@ -16604,7 +16648,7 @@ event
 lineNumber
 '
 ]
-                                                         
+                         
 '
 path_type
 '
@@ -16615,7 +16659,7 @@ event
 eventTag
 '
 ]
-                                                         
+                         
 '
 description
 '
@@ -16678,6 +16722,7 @@ analysis
 '
 {
 }
+                             
 '
 Skipping
 CID
@@ -16698,6 +16743,9 @@ it
 s
 not
 related
+'
+                             
+'
 with
 the
 current
@@ -16707,7 +16755,7 @@ patch
 .
 format
 (
-                        
+                                
 issue
 [
 '
@@ -16719,6 +16767,7 @@ stateOnServer
 cid
 '
 ]
+                                
 issue
 [
 '
@@ -16726,6 +16775,7 @@ strippedMainEventFilePathname
 '
 ]
 )
+                             
 )
                     
 continue
@@ -19079,8 +19129,6 @@ third_party
             
 except
 Exception
-as
-e
 :
                 
 print
@@ -19636,6 +19684,9 @@ binary
 please
 see
 the
+"
+                     
+"
 attached
 exception
 :
@@ -20810,6 +20861,7 @@ self
 .
 log
 (
+                
 logging
 .
 ERROR
@@ -20820,7 +20872,7 @@ analysis
 '
 {
 }
-                     
+                
 "
 RUNNING
 :
@@ -20839,8 +20891,10 @@ supported
 .
 format
 (
+                    
 platform
 )
+                
 )
             
 return
@@ -21059,6 +21113,7 @@ True
                 
 ignored_platform
 =
+(
 '
 restricted
 -
@@ -21067,6 +21122,7 @@ platforms
 in
 item
 and
+                                    
 platform
 not
 in
@@ -21078,6 +21134,7 @@ restricted
 platforms
 '
 ]
+)
                 
 ignored_checker
 =
@@ -21317,6 +21374,8 @@ TOOLS_CHECKER_NOT_FOUND
                         
 message_to_log
 =
+\
+                            
 "
 \
 tChecker
@@ -21335,7 +21394,7 @@ version
 .
 format
 (
-                            
+                                
 checker_name
 )
                     
@@ -21350,6 +21409,8 @@ TOOLS_CHECKER_NO_TEST_FILE
                         
 message_to_log
 =
+\
+                            
 "
 \
 tChecker
@@ -21372,7 +21433,7 @@ cpp
 .
 format
 (
-                            
+                                
 checker_name
 )
                     
@@ -21387,6 +21448,8 @@ TOOLS_CHECKER_RETURNED_NO_ISSUES
                         
 message_to_log
 =
+(
+                            
 "
 \
 tChecker
@@ -21402,6 +21465,9 @@ in
 its
 test
 file
+"
+                            
+"
 clang
 -
 tidy
@@ -21417,10 +21483,11 @@ n
 1
 }
 "
+                            
+)
 .
 format
 (
-                            
 checker_name
 info1
 )
@@ -21436,6 +21503,8 @@ TOOLS_CHECKER_RESULT_FILE_NOT_FOUND
                         
 message_to_log
 =
+\
+                            
 "
 \
 tChecker
@@ -21458,7 +21527,7 @@ json
 .
 format
 (
-                            
+                                
 checker_name
 )
                     
@@ -21473,6 +21542,8 @@ TOOLS_CHECKER_DIFF_FAILED
                         
 message_to_log
 =
+(
+                            
 "
 \
 tChecker
@@ -21486,13 +21557,21 @@ nExpected
 1
 }
 \
-nGot
+n
+"
+                            
+"
+Got
 :
 {
 2
 }
 \
-nclang
+n
+"
+                            
+"
+clang
 -
 tidy
 output
@@ -21503,14 +21582,18 @@ is
 :
 \
 n
+"
+                            
+"
 {
 3
 }
 "
+                            
+)
 .
 format
 (
-                            
 checker_name
 info1
 info2
@@ -21820,6 +21903,7 @@ join
 (
 items
 )
+            
 header_filter
 =
 '
@@ -21845,11 +21929,13 @@ checker
 .
 cpp
 '
+                     
 for
 checker
 in
 items
 ]
+            
 print_out
 =
 True
@@ -22080,6 +22166,7 @@ n
 .
 format
 (
+                
 clang_output
 )
 )
@@ -23701,6 +23788,7 @@ action
 '
 store_true
 '
+                     
 help
 =
 '
@@ -23733,6 +23821,7 @@ False
 minimal_install
 =
 False
+                
 verbose
 =
 False
@@ -24458,6 +24547,7 @@ default
 '
 diff
 '
+                     
 dest
 =
 '
@@ -24546,6 +24636,7 @@ output_format
 '
 diff
 '
+                     
 verbose
 =
 False
@@ -24773,6 +24864,7 @@ analysis
 '
 {
 }
+                     
 "
 You
 '
@@ -24846,6 +24938,7 @@ _run_clang_format_in_console
 self
 .
 _clang_format_path
+                                                     
 path
 assume_filename
 )
@@ -24992,8 +25085,8 @@ info3
 }
         
 if
-not
 check
+not
 in
 self
 .
@@ -25972,8 +26065,6 @@ config_environment
             
 except
 Exception
-as
-e
 :
                 
 pass
@@ -26448,13 +26539,13 @@ clang
 -
 tidy
 "
+                                                 
 "
 share
 "
 "
 clang
 "
-                                                 
 "
 run
 -
@@ -26482,13 +26573,13 @@ clang
 -
 tidy
 "
+                                               
 "
 share
 "
 "
 clang
 "
-                                               
 "
 clang
 -
@@ -29331,6 +29422,9 @@ reference
 implementation
 into
 the
+'
+                
+'
 source
 repository
 .
@@ -29382,6 +29476,9 @@ a
 snapshot
 from
 .
+'
+                     
+'
 Supports
 github
 and
@@ -29674,6 +29771,7 @@ nargs
 '
 *
 '
+                     
 help
 =
 '
@@ -29687,6 +29785,9 @@ packages
 and
 their
 dependencies
+'
+                     
+'
 defined
 in
 Pipfile
@@ -29701,6 +29802,9 @@ Pipfile
 has
 been
 modified
+'
+                     
+'
 then
 Pipfile
 .
@@ -29713,6 +29817,9 @@ Note
 that
 transient
 dependencies
+'
+                     
+'
 may
 be
 updated
@@ -29939,15 +30046,15 @@ list
 of
 wildcard
 patterns
+"
+                     
+"
 (
 called
 the
 positive
 patterns
 )
-"
-                     
-"
 optionally
 followed
 by
@@ -29956,6 +30063,9 @@ a
 -
 '
 and
+"
+                     
+"
 another
 '
 :
@@ -30014,6 +30124,9 @@ a
 debugger
 option
 will
+'
+                     
+'
 result
 in
 the
@@ -30097,6 +30210,9 @@ the
 debugger
 itself
 ;
+'
+                     
+'
 split
 as
 the
@@ -31627,6 +31743,9 @@ last
 n
 days
 and
+'
+                
+'
 their
 corresponding
 build

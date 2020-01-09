@@ -3,15 +3,7 @@ __future__
 import
 unicode_literals
 import
-cPickle
-as
-pickle
-import
-json
-import
 os
-import
-unittest
 from
 mozpack
 .

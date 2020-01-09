@@ -1798,8 +1798,6 @@ error_is_fatal
 False
 )
         
-contexts
-=
 list
 (
 reader

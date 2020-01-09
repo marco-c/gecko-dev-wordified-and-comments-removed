@@ -2280,6 +2280,7 @@ return
 True
                 
 except
+Exception
 :
                     
 print
@@ -4387,6 +4388,7 @@ argv
         
 print
 (
+            
 '
 Usage
 :
@@ -4399,6 +4401,9 @@ path
 to
 /
 topsrcdir
+'
+            
+'
 /
 path
 /

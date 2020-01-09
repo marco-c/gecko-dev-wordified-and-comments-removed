@@ -3422,6 +3422,7 @@ import
 Makefile
             
 except
+Exception
 :
                 
 raise
@@ -4334,6 +4335,7 @@ val
 )
             
 except
+Exception
 :
                 
 pass
@@ -5151,10 +5153,6 @@ re
 U
 )
         
-do_replace
-=
-False
-        
 def
 vsubst
 (
@@ -5818,6 +5816,7 @@ Error
 raise
             
 except
+Exception
 :
                 
 raise

@@ -349,6 +349,7 @@ one
 asks
 for
 v1
+        
 codes
 that
 are
@@ -529,6 +530,7 @@ self
 .
 assertGreater
 (
+            
 android_version_code_v1
 (
 buildid
@@ -544,7 +546,7 @@ max_sdk
 =
 None
 )
-                           
+            
 android_version_code_v0
 (
 buildid

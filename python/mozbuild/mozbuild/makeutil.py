@@ -807,8 +807,8 @@ self
 .
 _dependencies
 if
-not
 d
+not
 in
 self
 .
