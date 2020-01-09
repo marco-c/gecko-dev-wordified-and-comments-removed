@@ -1891,6 +1891,10 @@ username
 socks
 .
 password
+"
+"
+"
+"
 pi_flags
 -
 1

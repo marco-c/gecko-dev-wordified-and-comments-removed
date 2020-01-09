@@ -1071,6 +1071,12 @@ in
 long
 aPort
 in
+ACString
+aProxyAuthorizationHeader
+in
+ACString
+aConnectionIsolationKey
+in
 unsigned
 long
 aFlags
@@ -1331,6 +1337,12 @@ aUsername
 in
 ACString
 aPassword
+in
+ACString
+aProxyAuthorizationHeader
+in
+ACString
+aConnectionIsolationKey
 in
 unsigned
 long
