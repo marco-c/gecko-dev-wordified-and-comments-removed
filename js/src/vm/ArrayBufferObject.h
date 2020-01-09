@@ -1096,8 +1096,6 @@ FreeOp
 fop
 BufferContents
 newContents
-OwnsState
-ownsState
 )
 ;
 void

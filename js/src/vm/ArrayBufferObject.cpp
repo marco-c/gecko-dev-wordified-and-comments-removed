@@ -2466,7 +2466,6 @@ defaultFreeOp
 (
 )
 newContents
-OwnsData
 )
 ;
 }
@@ -2497,8 +2496,6 @@ FreeOp
 fop
 BufferContents
 newContents
-OwnsState
-ownsState
 )
 {
 if
@@ -2531,7 +2528,7 @@ fop
 setDataPointer
 (
 newContents
-ownsState
+OwnsData
 )
 ;
 }
@@ -2676,7 +2673,6 @@ defaultFreeOp
 (
 )
 newContents
-OwnsData
 )
 ;
 auto
