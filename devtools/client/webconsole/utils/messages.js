@@ -1161,6 +1161,11 @@ new
 ConsoleMessage
 (
 {
+innerWindowID
+:
+pageError
+.
+innerWindowID
 source
 :
 messageSource
@@ -1170,6 +1175,11 @@ MESSAGE_TYPE
 .
 LOG
 level
+category
+:
+pageError
+.
+category
 messageText
 :
 pageError
