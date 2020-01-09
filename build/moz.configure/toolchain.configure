@@ -17088,6 +17088,8 @@ crs
 '
 )
 )
+ar
+=
 check_prog
 (
 '
@@ -17099,6 +17101,13 @@ names
 paths
 =
 toolchain_search_path
+)
+add_old_configure_assignment
+(
+'
+AR
+'
+ar
 )
 set_config
 (

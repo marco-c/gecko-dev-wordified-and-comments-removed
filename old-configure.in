@@ -34111,6 +34111,8 @@ ZLIB_IN_MOZGLUE
 export
 RANLIB
 export
+AR
+export
 CPP
 export
 CC
