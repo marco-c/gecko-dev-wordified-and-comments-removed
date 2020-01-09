@@ -72,12 +72,8 @@ const
 LOGGED_TARGETS
 :
 &
-'
-static
 [
 &
-'
-static
 str
 ]
 =
