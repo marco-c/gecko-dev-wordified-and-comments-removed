@@ -859,7 +859,6 @@ device
 :
 {
 build_shader_strings
-ReadPixelsFormat
 UploadMethod
 VertexUsageHint
 }
