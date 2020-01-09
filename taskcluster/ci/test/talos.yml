@@ -2501,6 +2501,17 @@ central
 try
 '
 ]
+windows10
+-
+aarch64
+/
+opt
+:
+[
+'
+try
+'
+]
 macosx64
 (
 ?
