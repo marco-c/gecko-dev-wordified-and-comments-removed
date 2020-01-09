@@ -247,17 +247,6 @@ requires
 Required
 (
 '
-deadline
--
-after
-'
-)
-:
-basestring
-    
-Required
-(
-'
 shipping
 -
 phase
