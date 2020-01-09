@@ -209,8 +209,12 @@ aRejectedReason
 )
 ;
 IPCResult
-RecvNotifyTrackingResource
+RecvNotifyClassificationFlags
 (
+const
+uint32_t
+&
+aClassificationFlags
 const
 bool
 &
