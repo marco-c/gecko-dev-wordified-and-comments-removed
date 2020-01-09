@@ -66,6 +66,10 @@ cppunittest
 '
             
 '
+gtest
+'
+            
+'
 geckoview
 -
 junit

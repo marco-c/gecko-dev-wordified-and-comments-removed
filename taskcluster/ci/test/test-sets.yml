@@ -2153,6 +2153,8 @@ x86_64
 tests
 :
 -
+gtest
+-
 jsreftest
 -
 marionette

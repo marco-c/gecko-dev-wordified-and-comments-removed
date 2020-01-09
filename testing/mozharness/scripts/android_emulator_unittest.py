@@ -1987,6 +1987,34 @@ marionette_test_manifest
 )
             
 )
+            
+'
+gtest_dir
+'
+:
+os
+.
+path
+.
+join
+(
+dirs
+[
+'
+abs_test_install_dir
+'
+]
+'
+gtest
+'
+                                      
+'
+gtest_bin
+'
+'
+gtest
+'
+)
         
 }
         
