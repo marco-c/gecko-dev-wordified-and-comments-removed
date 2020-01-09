@@ -5528,7 +5528,7 @@ item
 '
 s
 reflow
-state
+input
 should
 have
 ptr
@@ -5751,7 +5751,7 @@ the
 "
 "
 reflow
-state
+input
 for
 horizontal
 flexbox

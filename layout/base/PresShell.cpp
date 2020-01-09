@@ -42584,7 +42584,7 @@ nsMargin
 )
 "
 reflow
-state
+input
 should
 not
 set
@@ -42676,7 +42676,7 @@ wm
 )
 "
 reflow
-state
+input
 computed
 incorrect
 inline
