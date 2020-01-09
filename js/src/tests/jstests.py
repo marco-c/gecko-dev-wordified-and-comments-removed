@@ -3479,6 +3479,26 @@ extras
 run_info_extras
 )
     
+run_info
+[
+"
+release_or_beta
+"
+]
+=
+xul_tester
+.
+test
+(
+"
+getBuildConfiguration
+(
+)
+.
+release_or_beta
+"
+)
+    
 path_filter
 =
 testloader
