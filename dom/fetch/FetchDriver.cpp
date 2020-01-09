@@ -4633,7 +4633,7 @@ NS_ERROR_UNEXPECTED
 )
 ;
 return
-rv
+NS_ERROR_UNEXPECTED
 ;
 }
 if
