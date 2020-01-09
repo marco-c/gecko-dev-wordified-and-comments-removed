@@ -2754,6 +2754,14 @@ installed
 return
 ;
 }
+Cm
+.
+unregisterFactory
+(
+oldCID
+oldFactory
+)
+;
 var
 oldInstance
 =

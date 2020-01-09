@@ -143,15 +143,10 @@ StreamFunctions
 .
 cpp
 '
-]
-XPCOM_MANIFESTS
-+
-=
-[
 '
-components
+ZipWriterModule
 .
-conf
+cpp
 '
 ]
 FINAL_LIBRARY

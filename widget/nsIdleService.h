@@ -292,11 +292,6 @@ mIdleObserverCount
 uint32_t
 mDeltaToNextIdleSwitchInS
 ;
-bool
-mDisabled
-=
-false
-;
 mozilla
 :
 :

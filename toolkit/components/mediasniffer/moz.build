@@ -123,15 +123,10 @@ nsMediaSniffer
 .
 cpp
 '
-]
-XPCOM_MANIFESTS
-+
-=
-[
 '
-components
+nsMediaSnifferModule
 .
-conf
+cpp
 '
 ]
 FINAL_LIBRARY

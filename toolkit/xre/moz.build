@@ -875,16 +875,6 @@ components
 printingui
 '
 ]
-XPCOM_MANIFESTS
-+
-=
-[
-'
-components
-.
-conf
-'
-]
 include
 (
 '

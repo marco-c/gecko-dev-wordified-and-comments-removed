@@ -147,15 +147,10 @@ nsTextToSubURI
 .
 cpp
 '
-]
-XPCOM_MANIFESTS
-+
-=
-[
 '
-components
+nsUConvModule
 .
-conf
+cpp
 '
 ]
 FINAL_LIBRARY

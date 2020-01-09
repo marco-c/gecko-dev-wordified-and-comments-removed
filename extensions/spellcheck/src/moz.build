@@ -129,15 +129,10 @@ mozSpellChecker
 .
 cpp
 '
-]
-XPCOM_MANIFESTS
-+
-=
-[
 '
-components
+mozSpellCheckerFactory
 .
-conf
+cpp
 '
 ]
 FINAL_LIBRARY

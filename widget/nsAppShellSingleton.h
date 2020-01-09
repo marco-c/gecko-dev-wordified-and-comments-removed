@@ -104,6 +104,7 @@ sAppShell
 )
 ;
 }
+static
 nsresult
 nsAppShellConstructor
 (

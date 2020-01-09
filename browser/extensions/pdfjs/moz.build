@@ -127,7 +127,7 @@ jar
 mn
 '
 ]
-EXTRA_JS_MODULES
+EXTRA_COMPONENTS
 +
 =
 [
@@ -136,14 +136,9 @@ pdfjs
 .
 js
 '
-]
-XPCOM_MANIFESTS
-+
-=
-[
 '
-components
+pdfjs
 .
-conf
+manifest
 '
 ]

@@ -85,14 +85,14 @@ MPL
 0
 /
 .
-XPCOM_MANIFESTS
+SOURCES
 +
 =
 [
 '
-components
+nsI18nModule
 .
-conf
+cpp
 '
 ]
 FINAL_LIBRARY

@@ -7851,15 +7851,6 @@ nsIScreenManager
 "
 )
 ;
-if
-(
-!
-manager
-)
-{
-return
-;
-}
 nsCOMPtr
 <
 nsIScreen
