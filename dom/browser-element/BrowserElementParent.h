@@ -67,7 +67,7 @@ class
 BrowsingContext
 ;
 class
-BrowserParent
+TabParent
 ;
 }
 class
@@ -90,15 +90,15 @@ OpenWindowOOP
 dom
 :
 :
-BrowserParent
+TabParent
 *
-aOpenerBrowserParent
+aOpenerTabParent
 dom
 :
 :
-BrowserParent
+TabParent
 *
-aPopupBrowserParent
+aPopupTabParent
 const
 nsAString
 &
@@ -107,6 +107,8 @@ const
 nsAString
 &
 aName
+bool
+aForceNoReferrer
 const
 nsAString
 &
@@ -171,6 +173,8 @@ const
 nsAString
 &
 aName
+bool
+aForceNoReferrer
 const
 nsAString
 &

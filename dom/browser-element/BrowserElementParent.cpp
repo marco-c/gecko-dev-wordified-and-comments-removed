@@ -1,7 +1,7 @@
 #
 include
 "
-BrowserParent
+TabParent
 .
 h
 "
@@ -454,6 +454,8 @@ const
 nsAString
 &
 aName
+bool
+aForceNoReferrer
 const
 nsAString
 &
@@ -512,6 +514,12 @@ detail
 mFrameElement
 =
 aPopupFrameElement
+;
+detail
+.
+mForceNoReferrer
+=
+aForceNoReferrer
 ;
 nsIGlobalObject
 *
@@ -729,12 +737,12 @@ BrowserElementParent
 :
 OpenWindowOOP
 (
-BrowserParent
+TabParent
 *
-aOpenerBrowserParent
-BrowserParent
+aOpenerTabParent
+TabParent
 *
-aPopupBrowserParent
+aPopupTabParent
 const
 nsAString
 &
@@ -743,6 +751,8 @@ const
 nsAString
 &
 aName
+bool
+aForceNoReferrer
 const
 nsAString
 &
@@ -755,7 +765,7 @@ Element
 >
 openerFrameElement
 =
-aOpenerBrowserParent
+aOpenerTabParent
 -
 >
 GetOwnerElement
@@ -800,6 +810,7 @@ openerFrameElement
 popupFrameElement
 aURL
 aName
+aForceNoReferrer
 aFeatures
 )
 ;
@@ -818,7 +829,7 @@ return
 opened
 ;
 }
-aPopupBrowserParent
+aPopupTabParent
 -
 >
 SetOwnerElement
@@ -838,7 +849,7 @@ popupFrameElement
 >
 CreateRemoteFrameLoader
 (
-aPopupBrowserParent
+aPopupTabParent
 )
 ;
 return
@@ -1004,6 +1015,7 @@ NS_ConvertUTF8toUTF16
 spec
 )
 aName
+false
 NS_ConvertUTF8toUTF16
 (
 aFeatures

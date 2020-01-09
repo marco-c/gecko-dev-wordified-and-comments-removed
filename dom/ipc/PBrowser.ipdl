@@ -3166,6 +3166,8 @@ nsString
 aURL
 nsString
 aName
+bool
+aForceNoReferrer
 nsString
 aFeatures
 )
@@ -3718,7 +3720,7 @@ is
 sent
 when
 the
-BrowserChild
+TabChild
 is
 created
 .
@@ -3907,7 +3909,7 @@ compositor
 arrive
 before
 the
-BrowserChild
+TabChild
 attempts
 to
 use
@@ -5565,7 +5567,7 @@ aNewHandle
 *
 Tell
 the
-BrowserChild
+TabChild
 that
 it
 should
@@ -5606,7 +5608,7 @@ AwaitLargeAlloc
 *
 Tell
 the
-BrowserChild
+TabChild
 to
 set
 the
@@ -5635,7 +5637,7 @@ aName
 *
 Tell
 the
-BrowserChild
+TabChild
 to
 allow
 scripts
@@ -5660,7 +5662,7 @@ AllowScriptsToClose
 *
 Tell
 the
-BrowserChild
+TabChild
 what
 OriginAttributes
 it
@@ -5684,7 +5686,7 @@ is
 loaded
 in
 the
-BrowserChild
+TabChild
 .
 *
 /
