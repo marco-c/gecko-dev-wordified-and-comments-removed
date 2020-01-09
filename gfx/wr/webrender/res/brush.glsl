@@ -108,6 +108,10 @@ BRUSH_FLAG_TEXEL_RECT
 16
 #
 define
+BRUSH_FLAG_SNAP_TO_PRIMITIVE
+32
+#
+define
 INVALID_SEGMENT_INDEX
 0xffff
 void
@@ -357,6 +361,18 @@ transform
 is_axis_aligned
 )
 {
+bool
+snap_to_primitive
+=
+(
+brush_flags
+&
+BRUSH_FLAG_SNAP_TO_PRIMITIVE
+)
+!
+=
+0
+;
 vi
 =
 write_vertex
@@ -373,6 +389,7 @@ pic_task
 ph
 .
 local_rect
+snap_to_primitive
 )
 ;
 /
