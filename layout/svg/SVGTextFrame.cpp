@@ -21534,14 +21534,6 @@ GetTransformFromRunUserSpaceToUserSpace
 presContext
 )
 ;
-m
-.
-PreScale
-(
-mFontSizeScaleFactor
-mFontSizeScaleFactor
-)
-;
 gfxRect
 rectInUserSpace
 =
