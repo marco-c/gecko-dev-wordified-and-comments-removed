@@ -4630,14 +4630,6 @@ false
 )
 ;
 bool
-NodeIsProperty
-(
-nsINode
-&
-aNode
-)
-;
-bool
 IsAtFrontOfNode
 (
 nsINode
