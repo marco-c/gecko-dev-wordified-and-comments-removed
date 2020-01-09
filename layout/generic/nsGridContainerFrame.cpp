@@ -16933,7 +16933,7 @@ cbSize
 (
 childWM
 0
-NS_UNCONSTRAINEDSIZE
+0
 )
 ;
 if
