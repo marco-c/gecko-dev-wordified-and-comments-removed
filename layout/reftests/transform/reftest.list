@@ -57,6 +57,13 @@ webrender
 -
 27
 )
+pref
+(
+apz
+.
+allow_zooming
+true
+)
 =
 =
 compound
