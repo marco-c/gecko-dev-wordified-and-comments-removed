@@ -1641,13 +1641,6 @@ const
 ;
 public
 :
-static
-const
-uint32_t
-ITER_CLASS_NFIXED_SLOTS
-=
-1
-;
 MOZ_ALWAYS_INLINE
 bool
 isCallable

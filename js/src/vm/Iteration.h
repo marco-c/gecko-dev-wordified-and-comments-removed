@@ -1092,6 +1092,13 @@ const
 Class
 class_
 ;
+static
+const
+uint32_t
+NUM_FIXED_SLOTS
+=
+1
+;
 NativeIterator
 *
 getNativeIterator
