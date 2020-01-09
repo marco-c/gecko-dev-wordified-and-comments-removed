@@ -74,7 +74,13 @@ formats
 import
 FlatFormatter
 from
-urlparse
+six
+.
+moves
+.
+urllib
+.
+parse
 import
 urlparse
 class
