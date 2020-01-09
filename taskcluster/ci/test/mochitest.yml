@@ -578,6 +578,9 @@ aarch64
 default
 :
 default
+e10s
+:
+false
 run
 -
 on
@@ -1221,6 +1224,9 @@ em
 default
 :
 3600
+e10s
+:
+false
 mozharness
 :
 mochitest
