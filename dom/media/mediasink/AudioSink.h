@@ -431,7 +431,7 @@ mProcessedQueue
 ;
 Atomic
 <
-int32_t
+uint64_t
 >
 mProcessedQueueLength
 ;
