@@ -193,6 +193,10 @@ enum
 class
 AudioContextOperation
 ;
+enum
+class
+AudioContextOperationFlags
+;
 }
 class
 AudioNodeEngine
@@ -3080,6 +3084,11 @@ aState
 void
 *
 aPromise
+dom
+:
+:
+AudioContextOperationFlags
+aFlags
 )
 ;
 bool
