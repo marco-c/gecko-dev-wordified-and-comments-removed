@@ -323,5 +323,14 @@ r350774
 .
 patch
 "
+"
+android
+-
+mangling
+-
+error
+.
+patch
+"
 ]
 }
