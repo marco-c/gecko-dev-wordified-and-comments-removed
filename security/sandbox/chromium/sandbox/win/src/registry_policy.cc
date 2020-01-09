@@ -296,6 +296,11 @@ HANDLE
 target_process
 )
 {
+*
+target_key_handle
+=
+nullptr
+;
 NtCreateKeyFunction
 NtCreateKey
 =
@@ -416,6 +421,11 @@ HANDLE
 target_process
 )
 {
+*
+target_key_handle
+=
+nullptr
+;
 NtOpenKeyFunction
 NtOpenKey
 =
@@ -910,7 +920,7 @@ nt_status
 STATUS_ACCESS_DENIED
 ;
 return
-true
+false
 ;
 }
 UNICODE_STRING

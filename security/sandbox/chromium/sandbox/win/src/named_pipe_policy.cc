@@ -279,6 +279,11 @@ HANDLE
 pipe
 )
 {
+*
+pipe
+=
+INVALID_HANDLE_VALUE
+;
 if
 (
 ASK_BROKER

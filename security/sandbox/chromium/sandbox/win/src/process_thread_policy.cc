@@ -1171,6 +1171,11 @@ HANDLE
 handle
 )
 {
+*
+handle
+=
+NULL
+;
 HANDLE
 local_handle
 =
