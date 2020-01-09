@@ -51,6 +51,15 @@ h
 #
 include
 "
+js
+/
+RegExp
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h
@@ -4320,7 +4329,10 @@ cx
 ;
 regexp
 =
-JS_NewUCRegExpObject
+JS
+:
+:
+NewUCRegExpObject
 (
 cx
 source

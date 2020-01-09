@@ -670,6 +670,15 @@ include
 "
 js
 /
+RegExp
+.
+h
+"
+#
+include
+"
+js
+/
 SourceText
 .
 h
@@ -54459,7 +54468,10 @@ isRegexp
 if
 (
 !
-JS_ObjectIsRegExp
+JS
+:
+:
+ObjectIsRegExp
 (
 cx
 obj
