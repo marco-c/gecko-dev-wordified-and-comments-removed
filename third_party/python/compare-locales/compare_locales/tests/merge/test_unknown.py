@@ -62,6 +62,7 @@ Foo
         
 pattern
 =
+r
 "
 Unsupported
 file

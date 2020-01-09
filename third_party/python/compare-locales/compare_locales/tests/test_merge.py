@@ -7282,6 +7282,7 @@ foottr
 =
 something
 bar
+=
   
 .
 tender
@@ -7302,6 +7303,7 @@ localized
 "
 \
 foo
+=
   
 .
 foottr
@@ -8633,7 +8635,7 @@ None
 warnings
 '
 :
-1
+3
                     
 '
 changed
@@ -8676,9 +8678,66 @@ Attribute
 "
 attr
 "
-occurs
+is
+duplicated
+'
+                      
+u
+'
+at
+line
+2
+column
+5
+for
+foo
+'
+                      
+}
+                     
+{
+'
+warning
+'
+:
+                      
+u
+'
+Attribute
+"
+attr
+"
+is
+duplicated
+'
+                      
+u
+'
+at
+line
 3
-times
+column
+5
+for
+foo
+'
+                      
+}
+                     
+{
+'
+warning
+'
+:
+                      
+u
+'
+Attribute
+"
+attr
+"
+is
+duplicated
 '
                       
 u
@@ -8693,6 +8752,7 @@ foo
 '
                       
 }
+                  
 ]
                 
 }

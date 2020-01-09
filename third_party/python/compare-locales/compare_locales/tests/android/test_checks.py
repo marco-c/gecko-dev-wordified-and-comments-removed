@@ -10,8 +10,6 @@ from
 compare_locales
 .
 tests
-.
-test_checks
 import
 BaseHelper
 from
