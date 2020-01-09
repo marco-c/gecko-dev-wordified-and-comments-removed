@@ -10794,7 +10794,7 @@ MaxResumeIndex
 <
 uint32_t
 (
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 RESUME_INDEX_CLOSING
@@ -10805,10 +10805,10 @@ should
 not
 include
 magic
-GeneratorObject
+AbstractGeneratorObject
+"
+"
 resumeIndex
-"
-"
 values
 "
 )
@@ -31390,7 +31390,7 @@ StringExpr
 uint16_t
 operand
 =
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 getResumeKind

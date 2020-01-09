@@ -171,15 +171,6 @@ include
 "
 vm
 /
-GeneratorObject
-.
-h
-"
-#
-include
-"
-vm
-/
 GlobalObject
 .
 h

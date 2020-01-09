@@ -3626,7 +3626,7 @@ cx
 ;
 Rooted
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 genObj
@@ -3920,7 +3920,7 @@ JSContext
 cx
 Handle
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 genObj
@@ -4642,7 +4642,7 @@ isDebuggee
 ;
 Rooted
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 genObj
@@ -4845,7 +4845,7 @@ resumeIndex_
 ;
 Rooted
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 genObj_
@@ -4859,7 +4859,7 @@ JSContext
 cx
 Handle
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 genObj
@@ -4904,15 +4904,7 @@ resumeIndex_
 genObj
 -
 >
-getFixedSlot
-(
-GeneratorObject
-:
-:
-RESUME_INDEX_SLOT
-)
-.
-toInt32
+resumeIndex
 (
 )
 ;
@@ -4956,16 +4948,9 @@ isRunning
 genObj_
 -
 >
-setFixedSlot
-(
-GeneratorObject
-:
-:
-RESUME_INDEX_SLOT
-Int32Value
+setResumeIndex
 (
 resumeIndex_
-)
 )
 ;
 }
@@ -5017,7 +5002,7 @@ false
 ;
 Rooted
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 genObj
@@ -5553,7 +5538,7 @@ AbstractFramePtr
 frame
 Handle
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 genObj
@@ -7946,7 +7931,7 @@ isGenerator
 {
 Rooted
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 genObj
@@ -9786,7 +9771,7 @@ pc
 JSOP_DEBUGAFTERYIELD
 )
 {
-GeneratorObject
+auto
 *
 genObj
 =
@@ -22762,7 +22747,7 @@ JSObject
 key
 )
 {
-GeneratorObject
+auto
 &
 genObj
 =
@@ -22771,7 +22756,7 @@ key
 >
 as
 <
-GeneratorObject
+AbstractGeneratorObject
 >
 (
 )
@@ -39581,7 +39566,7 @@ isGeneratorFrame
 )
 )
 {
-GeneratorObject
+auto
 *
 genObj
 =

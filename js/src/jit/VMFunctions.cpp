@@ -4120,7 +4120,7 @@ frame
 )
 {
 return
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 create
@@ -4299,7 +4299,7 @@ stackDepth
 )
 ;
 return
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 normalSuspend
@@ -4341,7 +4341,7 @@ pc
 JSOP_FINALYIELDRVAL
 )
 ;
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 finalSuspend
@@ -4376,7 +4376,7 @@ obj
 >
 is
 <
-GeneratorObject
+AbstractGeneratorObject
 >
 (
 )
@@ -4531,7 +4531,7 @@ BaselineFrame
 frame
 Handle
 <
-GeneratorObject
+AbstractGeneratorObject
 *
 >
 genObj
@@ -4626,7 +4626,7 @@ mustReturn
 {
 resumeKind
 =
-GeneratorObject
+AbstractGeneratorObject
 :
 :
 RETURN

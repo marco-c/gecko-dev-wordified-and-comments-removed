@@ -72,15 +72,6 @@ include
 "
 vm
 /
-GeneratorObject
-.
-h
-"
-#
-include
-"
-vm
-/
 JSContext
 .
 h
