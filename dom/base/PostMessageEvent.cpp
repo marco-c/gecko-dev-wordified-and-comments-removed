@@ -793,11 +793,9 @@ StructuredCloneHolder
 .
 Read
 (
-targetWindow
--
->
-AsInner
+ToSupports
 (
+targetWindow
 )
 cx
 &
@@ -1162,11 +1160,9 @@ EventDispatcher
 :
 Dispatch
 (
-aTargetWindow
--
->
-AsInner
+ToSupports
 (
+aTargetWindow
 )
 presContext
 internalEvent

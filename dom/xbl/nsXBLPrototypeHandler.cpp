@@ -1945,11 +1945,6 @@ WindowOrNull
 (
 globalObject
 )
--
->
-AsInner
-(
-)
 ;
 if
 (

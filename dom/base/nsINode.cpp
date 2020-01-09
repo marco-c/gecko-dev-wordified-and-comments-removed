@@ -5611,11 +5611,6 @@ nsPIDOMWindowOuter
 GetFromCurrentInner
 (
 window
--
->
-AsInner
-(
-)
 )
 :
 nullptr

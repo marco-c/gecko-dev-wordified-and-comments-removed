@@ -192,9 +192,7 @@ GetCurrentInnerWindow
 )
 =
 =
-AsInner
-(
-)
+this
 ;
 }
 bool

@@ -814,11 +814,6 @@ if
 win
 -
 >
-AsInner
-(
-)
--
->
 HasActiveDocument
 (
 )

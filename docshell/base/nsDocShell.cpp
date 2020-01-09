@@ -37967,11 +37967,6 @@ needsScrollPosUpdate
 win
 -
 >
-AsInner
-(
-)
--
->
 HasActiveDocument
 (
 )

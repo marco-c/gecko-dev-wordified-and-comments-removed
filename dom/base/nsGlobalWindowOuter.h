@@ -5126,11 +5126,6 @@ mInnerWindow
 =
 =
 aExpectedInner
--
->
-AsInner
-(
-)
 )
 {
 mInnerWindow
