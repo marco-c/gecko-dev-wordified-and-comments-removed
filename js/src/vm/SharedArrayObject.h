@@ -39,6 +39,15 @@ h
 #
 include
 "
+gc
+/
+Memory
+.
+h
+"
+#
+include
+"
 vm
 /
 ArrayBufferObject
