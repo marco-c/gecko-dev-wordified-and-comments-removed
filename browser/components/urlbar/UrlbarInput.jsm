@@ -365,6 +365,11 @@ role
 "
 group
 "
+tooltip
+=
+"
+aHTMLTooltip
+"
 noautofocus
 =
 "
