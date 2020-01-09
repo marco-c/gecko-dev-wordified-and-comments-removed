@@ -863,6 +863,16 @@ data
 .
 service
 ;
+const
+isPairing
+=
+data
+&
+&
+data
+.
+isPairing
+;
 this
 .
 _helpers
@@ -871,6 +881,7 @@ getFxaStatus
 (
 service
 sendingContext
+isPairing
 )
 .
 then
@@ -1659,6 +1670,7 @@ shouldAllowFxaStatus
 (
 service
 sendingContext
+isPairing
 )
 {
 log
@@ -1688,6 +1700,9 @@ service
 "
 sync
 "
+|
+|
+isPairing
 ;
 }
 async
@@ -1695,6 +1710,7 @@ getFxaStatus
 (
 service
 sendingContext
+isPairing
 )
 {
 let
@@ -1710,6 +1726,7 @@ shouldAllowFxaStatus
 (
 service
 sendingContext
+isPairing
 )
 )
 {
