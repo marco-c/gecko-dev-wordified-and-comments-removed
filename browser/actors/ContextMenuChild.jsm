@@ -4180,8 +4180,6 @@ target
 .
 ownerDocument
 .
-nodePrincipal
-.
 csp
 )
 ;

@@ -2566,7 +2566,7 @@ e
 .
 target
 .
-nodePrincipal
+ownerDocument
 .
 csp
 ;

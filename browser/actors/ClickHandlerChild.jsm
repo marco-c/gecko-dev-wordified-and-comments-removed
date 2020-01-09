@@ -385,8 +385,6 @@ csp
 =
 ownerDoc
 .
-nodePrincipal
-.
 csp
 ;
 if

@@ -800,8 +800,6 @@ content
 .
 document
 .
-nodePrincipal
-.
 csp
 ;
 json

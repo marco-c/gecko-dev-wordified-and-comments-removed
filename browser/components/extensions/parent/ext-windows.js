@@ -1456,9 +1456,7 @@ args
 .
 appendElement
 (
-principal
-.
-csp
+null
 )
 ;
 let

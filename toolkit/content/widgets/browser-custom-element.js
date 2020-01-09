@@ -2615,8 +2615,6 @@ this
 .
 contentDocument
 .
-nodePrincipal
-.
 csp
 ;
 }
