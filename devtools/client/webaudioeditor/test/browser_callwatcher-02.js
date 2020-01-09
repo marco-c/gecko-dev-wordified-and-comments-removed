@@ -98,7 +98,7 @@ is
 error
 .
 columnNumber
-18
+11
 "
 error
 has
