@@ -90,6 +90,9 @@ class
 nsIContentSecurityPolicy
 ;
 class
+nsICookieSettings
+;
+class
 nsILoadGroup
 ;
 class
@@ -152,6 +155,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+nsCOMPtr
+<
+nsICookieSettings
+>
+mCookieSettings
 ;
 nsCOMPtr
 <

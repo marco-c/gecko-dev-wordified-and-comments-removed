@@ -1200,6 +1200,7 @@ nsIContentPolicy
 TYPE_OTHER
 nullptr
 nullptr
+nullptr
 this
 nsIRequest
 :
