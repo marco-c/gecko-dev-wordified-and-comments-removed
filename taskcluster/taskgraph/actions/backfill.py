@@ -1061,7 +1061,7 @@ MOZHARNESS_TEST_PATHS
 =
 json
 .
-dums
+dumps
 (
 {
                             
