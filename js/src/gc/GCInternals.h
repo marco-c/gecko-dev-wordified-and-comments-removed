@@ -705,6 +705,16 @@ sharedp
 override
 ;
 void
+onBigIntEdge
+(
+BigInt
+*
+*
+bip
+)
+override
+;
+void
 onChild
 (
 const
