@@ -62,8 +62,12 @@ NS_INLINE_DECL_REFCOUNTING
 nsDocShellLoadState
 )
 ;
+explicit
 nsDocShellLoadState
 (
+nsIURI
+*
+aURI
 )
 ;
 nsIURI

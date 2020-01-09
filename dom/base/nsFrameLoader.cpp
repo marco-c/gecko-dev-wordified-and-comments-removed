@@ -1758,6 +1758,7 @@ loadState
 new
 nsDocShellLoadState
 (
+mURIToLoad
 )
 ;
 loadState
@@ -2086,14 +2087,6 @@ mNeedsAsyncDestroy
 mNeedsAsyncDestroy
 =
 true
-;
-loadState
--
->
-SetURI
-(
-mURIToLoad
-)
 ;
 loadState
 -
