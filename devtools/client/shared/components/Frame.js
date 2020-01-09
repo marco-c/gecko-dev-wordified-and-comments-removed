@@ -682,6 +682,9 @@ source
 |
 |
 isSourceMapped
+|
+|
+sourceId
 ;
 const
 elements
