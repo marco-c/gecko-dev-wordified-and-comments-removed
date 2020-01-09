@@ -322,7 +322,9 @@ treeherder
 :
 platform
 :
-linux64
+firefox
+-
+release
 /
 opt
 symbol
