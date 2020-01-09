@@ -198,7 +198,6 @@ unblocked
 *
 /
 [
-scriptable
 uuid
 (
 7EB361D4
@@ -349,7 +348,6 @@ nsISchedulingContext
 *
 /
 [
-scriptable
 uuid
 (
 658e3e6e
