@@ -24411,7 +24411,7 @@ char
 aReason
 )
 {
-MOZ_CrashOOL
+MOZ_Crash
 (
 aFilename
 aLine

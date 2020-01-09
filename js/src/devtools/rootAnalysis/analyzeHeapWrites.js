@@ -2252,10 +2252,10 @@ MOZ_ReportAssertionFailure
 MOZ_ReportCrash
 /
 /
+MOZ_Crash
+/
+/
 MOZ_CrashPrintf
-/
-/
-MOZ_CrashOOL
 /
 /
 AnnotateMozCrashReason

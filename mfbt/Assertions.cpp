@@ -200,7 +200,7 @@ buffer
 #
 ifdef
 DEBUG
-MOZ_CrashOOL
+MOZ_Crash
 (
 aFilename
 aLine
@@ -209,7 +209,7 @@ sPrintfCrashReason
 ;
 #
 else
-MOZ_CrashOOL
+MOZ_Crash
 (
 nullptr
 aLine
