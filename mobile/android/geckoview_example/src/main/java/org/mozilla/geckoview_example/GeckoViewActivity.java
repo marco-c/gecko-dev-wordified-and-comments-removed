@@ -880,11 +880,7 @@ categories
 (
 ContentBlocking
 .
-AT_ALL
-|
-ContentBlocking
-.
-SB_ALL
+AT_DEFAULT
 )
 .
 build
