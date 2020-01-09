@@ -1188,7 +1188,16 @@ message
 =
 get_hg_commit_message
 (
+os
+.
+path
+.
+join
+(
 GECKO
+                                                               
+product_dir
+)
 )
     
 parameters
