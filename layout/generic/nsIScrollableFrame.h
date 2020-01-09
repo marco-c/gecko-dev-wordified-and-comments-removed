@@ -388,6 +388,15 @@ const
 =
 0
 ;
+virtual
+nsMargin
+GetScrollPadding
+(
+)
+const
+=
+0
+;
 enum
 ScrollMomentum
 {
