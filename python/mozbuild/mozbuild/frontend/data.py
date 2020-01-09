@@ -2376,10 +2376,6 @@ no_pgo_sources
 '
         
 '
-pgo_gen_only_sources
-'
-        
-'
 no_pgo
 '
         
@@ -2451,14 +2447,6 @@ no_pgo_sources
 =
 [
 ]
-        
-self
-.
-pgo_gen_only_sources
-=
-set
-(
-)
         
 self
 .
@@ -2907,25 +2895,6 @@ self
 source_files
 (
 )
-)
-    
-property
-    
-def
-pgo_gen_only_objs
-(
-self
-)
-:
-        
-return
-self
-.
-_get_objs
-(
-self
-.
-pgo_gen_only_sources
 )
 class
 BaseProgram

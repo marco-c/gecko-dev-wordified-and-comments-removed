@@ -641,17 +641,6 @@ PATH
                     
 break
         
-env
-[
-"
-MOZ_OBJDIR
-"
-]
-=
-build
-.
-topobjdir
-        
 process_args
 =
 {

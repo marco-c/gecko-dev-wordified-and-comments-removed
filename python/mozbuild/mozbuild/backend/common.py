@@ -1340,12 +1340,6 @@ set
 (
 )
         
-seen_pgo_gen_only_objs
-=
-set
-(
-)
-        
 seen_libs
 =
 set
@@ -1358,15 +1352,6 @@ add_objs
 lib
 )
 :
-            
-seen_pgo_gen_only_objs
-.
-update
-(
-lib
-.
-pgo_gen_only_objs
-)
             
 for
 o
@@ -1383,12 +1368,6 @@ seen_objs
 :
                     
 continue
-                
-assert
-o
-not
-in
-seen_pgo_gen_only_objs
                 
 seen_objs
 .
@@ -1665,13 +1644,7 @@ lib
 return
 (
 objs
-sorted
-(
-seen_pgo_gen_only_objs
-)
 no_pgo_objs
-\
-                
 shared_libs
 os_libs
 static_libs
