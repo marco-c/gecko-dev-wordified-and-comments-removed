@@ -2003,7 +2003,7 @@ imageSize
 currentFrame
 -
 >
-GetImageSize
+GetSize
 (
 )
 ;

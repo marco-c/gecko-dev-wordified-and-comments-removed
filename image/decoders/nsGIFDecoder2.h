@@ -486,6 +486,13 @@ mCurrentFrameIndex
 size_t
 mColorTablePos
 ;
+uint32_t
+*
+mColormap
+;
+uint32_t
+mColormapSize
+;
 uint8_t
 mColorMask
 ;

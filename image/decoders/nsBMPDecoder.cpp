@@ -2781,9 +2781,6 @@ AllocateFrame
 OutputSize
 (
 )
-FullOutputFrame
-(
-)
 mMayHaveTransparency
 ?
 SurfaceFormat

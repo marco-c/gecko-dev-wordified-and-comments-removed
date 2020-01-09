@@ -1804,9 +1804,6 @@ AllocateFrame
 OutputSize
 (
 )
-FullOutputFrame
-(
-)
 SurfaceFormat
 :
 :

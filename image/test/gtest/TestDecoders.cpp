@@ -1906,10 +1906,9 @@ Run
 DecoderFlags
 decoderFlags
 =
-DecoderFlags
-:
-:
-BLEND_ANIMATION
+DefaultDecoderFlags
+(
+)
 ;
 SurfaceFlags
 surfaceFlags
