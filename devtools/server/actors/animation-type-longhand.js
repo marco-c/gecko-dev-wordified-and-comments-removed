@@ -1272,7 +1272,7 @@ size
 "
 offset
 -
-path
+rotate
 "
 "
 padding
@@ -1621,6 +1621,11 @@ size
 object
 -
 position
+"
+"
+offset
+-
+path
 "
 "
 order
