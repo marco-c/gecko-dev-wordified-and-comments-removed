@@ -735,14 +735,10 @@ res2
 =
 poly
 .
-split_with_normal
+split
 (
 &
 line
-&
-clip
-.
-normal
 )
 ;
 self
