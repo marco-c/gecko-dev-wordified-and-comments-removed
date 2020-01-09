@@ -94,17 +94,6 @@ MPL
 *
 /
 include
-"
-mozilla
-/
-dom
-/
-MediaIPCUtils
-.
-h
-"
-;
-include
 protocol
 PVideoDecoderManager
 ;
@@ -277,7 +266,7 @@ INT64_MIN
 async
 SetSeekThreshold
 (
-int64_t
+TimeUnit
 time
 )
 ;
