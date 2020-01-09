@@ -8695,7 +8695,7 @@ frame_state
 .
 resources
 .
-clip_data_store
+clip
 )
 ;
 if
@@ -10828,7 +10828,7 @@ prim_data
 mut
 resources
 .
-line_decoration_data_store
+line_decoration
 [
 *
 data_handle
@@ -11047,7 +11047,7 @@ prim_data
 mut
 resources
 .
-text_run_data_store
+text_run
 [
 *
 data_handle
@@ -11152,7 +11152,7 @@ prim_data
 mut
 resources
 .
-prim_data_store
+prim
 [
 *
 data_handle
@@ -11188,7 +11188,7 @@ prim_data
 mut
 resources
 .
-normal_border_data_store
+normal_border
 [
 *
 data_handle
@@ -11430,7 +11430,7 @@ prim_data
 mut
 resources
 .
-image_border_data_store
+image_border
 [
 *
 data_handle
@@ -11472,7 +11472,7 @@ prim_data
 mut
 resources
 .
-prim_data_store
+prim
 [
 *
 data_handle
@@ -11542,7 +11542,7 @@ yuv_image_data
 mut
 resources
 .
-yuv_image_data_store
+yuv_image
 [
 *
 data_handle
@@ -11605,7 +11605,7 @@ prim_data
 mut
 resources
 .
-image_data_store
+image
 [
 *
 data_handle
@@ -12091,7 +12091,7 @@ prim_data
 mut
 resources
 .
-linear_grad_data_store
+linear_grad
 [
 *
 data_handle
@@ -12291,7 +12291,7 @@ prim_data
 mut
 resources
 .
-radial_grad_data_store
+radial_grad
 [
 *
 data_handle
@@ -13111,7 +13111,7 @@ clip_node
 &
 resources
 .
-clip_data_store
+clip
 [
 clip_instance
 .
@@ -13705,7 +13705,7 @@ image_data
 &
 resources
 .
-image_data_store
+image
 [
 data_handle
 ]
@@ -14278,7 +14278,7 @@ border_data
 &
 resources
 .
-image_border_data_store
+image_border
 [
 data_handle
 ]
@@ -14311,7 +14311,7 @@ border_data
 &
 resources
 .
-normal_border_data_store
+normal_border
 [
 data_handle
 ]
@@ -14344,7 +14344,7 @@ prim_data
 &
 resources
 .
-linear_grad_data_store
+linear_grad
 [
 data_handle
 ]
@@ -14388,7 +14388,7 @@ prim_data
 &
 resources
 .
-radial_grad_data_store
+radial_grad
 [
 data_handle
 ]
@@ -14483,7 +14483,7 @@ frame_state
 mut
 resources
 .
-clip_data_store
+clip
 )
 ;
 clip_mask_instances
@@ -14571,7 +14571,7 @@ None
 mut
 resources
 .
-clip_data_store
+clip
 )
 ;
 let
@@ -14600,7 +14600,7 @@ frame_state
 mut
 resources
 .
-clip_data_store
+clip
 )
 ;
 clip_mask_instances
@@ -14862,7 +14862,7 @@ render_tasks
 mut
 resources
 .
-clip_data_store
+clip
 )
 ;
 let
