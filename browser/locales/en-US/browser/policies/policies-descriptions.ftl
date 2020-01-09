@@ -228,6 +228,17 @@ them
 .
 policy
 -
+CaptivePortal
+=
+Enable
+or
+disable
+captive
+portal
+support
+.
+policy
+-
 CertificatesDescription
 =
 Add
