@@ -121,6 +121,11 @@ Manager
 )
 ;
 }
+void
+Destroy
+(
+)
+;
 protected
 :
 friend
