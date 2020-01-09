@@ -9337,7 +9337,16 @@ hasStealableContents
 arrayBuffer
 -
 >
-hasStealableContents
+ownsData
+(
+)
+&
+&
+!
+arrayBuffer
+-
+>
+isNoData
 (
 )
 ;

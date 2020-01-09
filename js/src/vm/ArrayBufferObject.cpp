@@ -8532,7 +8532,7 @@ newContents
 buffer
 -
 >
-hasStealableContents
+ownsData
 (
 )
 ?
@@ -9123,7 +9123,7 @@ hasStealableContents
 buffer
 -
 >
-hasStealableContents
+ownsData
 (
 )
 &
