@@ -14682,7 +14682,7 @@ pc
 )
 )
 ;
-TryAttachStubOld
+TryAttachStub
 <
 BindNameIRGenerator
 >
