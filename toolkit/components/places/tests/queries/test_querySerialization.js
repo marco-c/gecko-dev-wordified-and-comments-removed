@@ -1201,7 +1201,6 @@ setTransitions
 (
 [
 ]
-0
 )
 ;
 }
@@ -1222,7 +1221,6 @@ nsINavHistoryService
 .
 TRANSITION_DOWNLOAD
 ]
-1
 )
 ;
 }
@@ -1248,7 +1246,6 @@ nsINavHistoryService
 .
 TRANSITION_BOOKMARK
 ]
-2
 )
 ;
 }
