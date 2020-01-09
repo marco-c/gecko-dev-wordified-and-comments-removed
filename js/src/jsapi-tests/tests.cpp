@@ -279,7 +279,7 @@ Borrowed
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 (
 cx
 opts
@@ -381,7 +381,7 @@ Borrowed
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 (
 cx
 opts
@@ -468,7 +468,7 @@ Borrowed
 JS
 :
 :
-Evaluate
+EvaluateDontInflate
 (
 cx
 opts
