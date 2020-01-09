@@ -1668,7 +1668,10 @@ False
                  
 ref
 =
-0
+False
+rvalref
+=
+False
                  
 hasimplicitcopyctor
 =
@@ -1756,6 +1759,19 @@ T
 *
 const
 *
+  
+ref
+=
+>
+T
+&
+  
+rvalref
+=
+>
+T
+&
+&
 Any
 type
 naked
@@ -1774,29 +1790,6 @@ ref
 T
 &
 )
-.
-ref
-is
-an
-integer
-indicating
-how
-many
-"
-levels
-"
-of
-references
-exist
-.
-So
-ref
-=
-2
-indicates
-T
-&
-&
 .
 "
 "
@@ -1841,6 +1834,20 @@ assert
 isinstance
 (
 ptrconstptr
+bool
+)
+        
+assert
+isinstance
+(
+ref
+bool
+)
+        
+assert
+isinstance
+(
+rvalref
 bool
 )
         
@@ -1900,6 +1907,12 @@ self
 ref
 =
 ref
+        
+self
+.
+rvalref
+=
+rvalref
         
 self
 .
@@ -1967,6 +1980,11 @@ ref
 self
 .
 ref
+rvalref
+=
+self
+.
+rvalref
                     
 T
 =
@@ -4399,6 +4417,10 @@ or
 ctype
 .
 ref
+or
+ctype
+.
+rvalref
 )
         
 Node

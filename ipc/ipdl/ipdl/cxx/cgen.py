@@ -409,16 +409,32 @@ const
 *
 '
         
+if
+t
+.
+ref
+:
+            
 ts
 +
 =
 '
 &
 '
-*
+        
+elif
 t
 .
-ref
+rvalref
+:
+            
+ts
++
+=
+'
+&
+&
+'
         
 self
 .
