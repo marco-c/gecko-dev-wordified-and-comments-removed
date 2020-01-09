@@ -1356,7 +1356,6 @@ children
 arrowScrollbox
 .
 _canScrollToElement
-arrowScrollbox
 )
 ;
 }
