@@ -1396,7 +1396,6 @@ true
 )
 ;
 }
-private
 void
 launchVoiceRecognizer
 (
