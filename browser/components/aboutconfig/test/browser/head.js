@@ -488,6 +488,10 @@ document
 getElementById
 (
 "
+about
+-
+config
+-
 search
 "
 )
