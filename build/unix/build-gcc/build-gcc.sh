@@ -19,14 +19,6 @@ j
 nproc
 )
 "
-.
-data_dir
-/
-download
--
-tools
-.
-sh
 prepare_mingw
 (
 )
