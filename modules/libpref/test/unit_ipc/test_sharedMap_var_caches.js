@@ -96,9 +96,6 @@ init
 this
 )
 ;
-let
-contentPage
-;
 const
 {
 prefs

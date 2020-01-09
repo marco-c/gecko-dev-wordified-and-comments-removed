@@ -3,13 +3,8 @@ run_test
 (
 )
 {
-var
-test
-;
 try
 {
-test
-=
 zipW
 .
 file
@@ -47,8 +42,6 @@ NS_ERROR_NOT_INITIALIZED
 }
 try
 {
-test
-=
 zipW
 .
 comment

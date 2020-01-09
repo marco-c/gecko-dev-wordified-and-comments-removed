@@ -33,7 +33,7 @@ PR_TRUNCATE
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -49,7 +49,7 @@ i
 +
 )
 {
-var
+let
 source
 =
 do_get_file
@@ -82,7 +82,7 @@ false
 }
 try
 {
-var
+let
 source
 =
 do_get_file
@@ -149,7 +149,7 @@ NS_ERROR_FILE_ALREADY_EXISTS
 }
 for
 (
-var
+let
 i
 =
 0

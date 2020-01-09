@@ -91,9 +91,6 @@ isDirectory
 {
 try
 {
-let
-inputStream
-=
 zipreader
 .
 getInputStream

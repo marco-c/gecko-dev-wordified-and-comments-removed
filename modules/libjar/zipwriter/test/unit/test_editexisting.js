@@ -119,7 +119,7 @@ PR_RDWR
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -276,7 +276,7 @@ NS_ERROR_FILE_NOT_FOUND
 }
 for
 (
-var
+let
 i
 =
 0

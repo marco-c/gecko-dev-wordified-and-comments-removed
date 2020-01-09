@@ -1091,15 +1091,6 @@ type
 }
 Pref
 ;
-let
-get
-=
-get
-{
-type
-}
-Pref
-;
 function
 prefTest
 (

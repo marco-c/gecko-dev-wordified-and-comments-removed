@@ -78,80 +78,12 @@ run_test
 (
 )
 {
-var
+const
 ps
 =
-Cc
-[
-"
-mozilla
+Services
 .
-org
-/
-preferences
--
-service
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIPrefService
-)
-;
-var
-pb2
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-preferences
--
-service
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIPrefBranch
-)
-;
-var
-pb
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-preferences
--
-service
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIPrefBranch
-)
+prefs
 ;
 do_check_throws
 (
@@ -159,7 +91,7 @@ function
 (
 )
 {
-pb
+ps
 .
 getPrefType
 (
@@ -178,7 +110,7 @@ function
 (
 )
 {
-pb
+ps
 .
 getBoolPref
 (
@@ -197,7 +129,7 @@ function
 (
 )
 {
-pb
+ps
 .
 setBoolPref
 (
@@ -217,7 +149,7 @@ function
 (
 )
 {
-pb
+ps
 .
 getIntPref
 (
@@ -236,7 +168,7 @@ function
 (
 )
 {
-pb
+ps
 .
 setIntPref
 (
@@ -256,7 +188,7 @@ function
 (
 )
 {
-pb
+ps
 .
 getCharPref
 (
@@ -275,7 +207,7 @@ function
 (
 )
 {
-pb
+ps
 .
 setCharPref
 (
@@ -295,7 +227,7 @@ function
 (
 )
 {
-pb
+ps
 .
 getStringPref
 (
@@ -314,7 +246,7 @@ function
 (
 )
 {
-pb
+ps
 .
 setStringPref
 (
@@ -334,7 +266,7 @@ function
 (
 )
 {
-pb
+ps
 .
 clearUserPref
 (
@@ -353,7 +285,7 @@ function
 (
 )
 {
-pb
+ps
 .
 prefHasUserValue
 (
@@ -372,7 +304,7 @@ function
 (
 )
 {
-pb
+ps
 .
 lockPref
 (
@@ -391,7 +323,7 @@ function
 (
 )
 {
-pb
+ps
 .
 prefIsLocked
 (
@@ -410,7 +342,7 @@ function
 (
 )
 {
-pb
+ps
 .
 unlockPref
 (
@@ -429,7 +361,7 @@ function
 (
 )
 {
-pb
+ps
 .
 deleteBranch
 (
@@ -448,7 +380,7 @@ function
 (
 )
 {
-pb
+ps
 .
 getChildList
 (
@@ -465,7 +397,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 prefHasUserValue
 (
@@ -480,7 +412,7 @@ hasUserValue
 false
 )
 ;
-pb
+ps
 .
 clearUserPref
 (
@@ -497,7 +429,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getPrefType
 (
@@ -516,7 +448,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 root
 "
@@ -529,7 +461,7 @@ function
 (
 )
 {
-pb
+ps
 .
 getBoolPref
 (
@@ -548,7 +480,7 @@ Cr
 NS_ERROR_UNEXPECTED
 )
 ;
-pb
+ps
 .
 setBoolPref
 (
@@ -566,7 +498,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getBoolPref
 (
@@ -587,7 +519,7 @@ function
 (
 )
 {
-pb
+ps
 .
 getIntPref
 (
@@ -606,7 +538,7 @@ Cr
 NS_ERROR_UNEXPECTED
 )
 ;
-pb
+ps
 .
 setIntPref
 (
@@ -624,7 +556,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getIntPref
 (
@@ -645,7 +577,7 @@ function
 (
 )
 {
-pb
+ps
 .
 getCharPref
 (
@@ -664,7 +596,7 @@ Cr
 NS_ERROR_UNEXPECTED
 )
 ;
-pb
+ps
 .
 setCharPref
 (
@@ -684,7 +616,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getCharPref
 (
@@ -701,7 +633,7 @@ _test
 "
 )
 ;
-pb
+ps
 .
 setBoolPref
 (
@@ -715,7 +647,7 @@ bool
 true
 )
 ;
-pb
+ps
 .
 setIntPref
 (
@@ -729,7 +661,7 @@ int
 23
 )
 ;
-pb
+ps
 .
 setCharPref
 (
@@ -749,7 +681,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getBoolPref
 (
@@ -768,7 +700,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getIntPref
 (
@@ -787,7 +719,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getCharPref
 (
@@ -804,7 +736,7 @@ hey
 "
 )
 ;
-pb
+ps
 .
 setBoolPref
 (
@@ -822,7 +754,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getBoolPref
 (
@@ -837,7 +769,7 @@ bool
 false
 )
 ;
-pb
+ps
 .
 setIntPref
 (
@@ -855,7 +787,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getIntPref
 (
@@ -870,7 +802,7 @@ int
 24
 )
 ;
-pb
+ps
 .
 setCharPref
 (
@@ -892,7 +824,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getCharPref
 (
@@ -915,7 +847,7 @@ Assert
 .
 ok
 (
-pb
+ps
 .
 prefHasUserValue
 (
@@ -933,7 +865,7 @@ Assert
 .
 ok
 (
-pb
+ps
 .
 prefHasUserValue
 (
@@ -951,7 +883,7 @@ Assert
 .
 ok
 (
-pb
+ps
 .
 prefHasUserValue
 (
@@ -965,7 +897,7 @@ char
 )
 )
 ;
-pb
+ps
 .
 clearUserPref
 (
@@ -983,7 +915,7 @@ Assert
 ok
 (
 !
-pb
+ps
 .
 prefHasUserValue
 (
@@ -997,7 +929,7 @@ bool
 )
 )
 ;
-pb
+ps
 .
 clearUserPref
 (
@@ -1015,7 +947,7 @@ Assert
 ok
 (
 !
-pb
+ps
 .
 prefHasUserValue
 (
@@ -1029,7 +961,7 @@ int
 )
 )
 ;
-pb
+ps
 .
 clearUserPref
 (
@@ -1047,7 +979,7 @@ Assert
 ok
 (
 !
-pb
+ps
 .
 prefHasUserValue
 (
@@ -1079,7 +1011,7 @@ x
 "
 )
 ;
-pb
+ps
 .
 setCharPref
 (
@@ -1106,7 +1038,7 @@ function
 (
 )
 {
-pb
+ps
 .
 setCharPref
 (
@@ -1126,7 +1058,7 @@ Cr
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-pb
+ps
 .
 setBoolPref
 (
@@ -1144,7 +1076,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getPrefType
 (
@@ -1159,7 +1091,7 @@ bool
 PREF_BOOL
 )
 ;
-pb
+ps
 .
 setIntPref
 (
@@ -1178,7 +1110,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getPrefType
 (
@@ -1193,7 +1125,7 @@ int
 PREF_INT
 )
 ;
-pb
+ps
 .
 setCharPref
 (
@@ -1216,7 +1148,7 @@ Assert
 .
 equal
 (
-pb
+ps
 .
 getPrefType
 (
@@ -1242,7 +1174,7 @@ root
 "
 )
 ;
-pb
+ps
 .
 setBoolPref
 (
@@ -1360,7 +1292,7 @@ anotherPref
 false
 )
 ;
-pb
+ps
 .
 setIntPref
 (
@@ -1475,7 +1407,7 @@ anotherPref
 69
 )
 ;
-pb
+ps
 .
 setCharPref
 (
@@ -1600,6 +1532,7 @@ _another
 "
 )
 ;
+let
 pb1
 =
 ps
@@ -2265,6 +2198,7 @@ DefaultPref
 "
 )
 ;
+let
 pb
 =
 ps
@@ -2995,7 +2929,7 @@ observer
 new
 PrefObserver
 (
-pb2
+ps
 "
 ReadPref
 .
@@ -3016,7 +2950,7 @@ int
 76
 )
 ;
-pb2
+ps
 .
 removeObserver
 (
@@ -3042,7 +2976,7 @@ int
 ;
 pb
 =
-pb2
+ps
 .
 getBranch
 (

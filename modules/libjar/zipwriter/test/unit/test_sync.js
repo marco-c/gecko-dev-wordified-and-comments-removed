@@ -58,7 +58,7 @@ size
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -74,7 +74,7 @@ i
 +
 )
 {
-var
+let
 source
 =
 do_get_file
@@ -174,7 +174,7 @@ tmpFile
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -190,7 +190,7 @@ i
 +
 )
 {
-var
+let
 source
 =
 do_get_file
