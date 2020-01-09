@@ -1453,6 +1453,7 @@ CreateReferenceRenderingContext
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 ScrollFrameRectIntoView
 (

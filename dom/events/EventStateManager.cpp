@@ -17968,9 +17968,12 @@ frame
 >
 HandleEvent
 (
+MOZ_KnownLive
+(
 aVisitor
 .
 mPresContext
+)
 aVisitor
 .
 mEvent
@@ -20837,6 +20840,7 @@ if
 (
 aTargetFrame
 )
+{
 aTargetFrame
 -
 >
@@ -20849,6 +20853,7 @@ event
 status
 )
 ;
+}
 }
 void
 EventStateManager

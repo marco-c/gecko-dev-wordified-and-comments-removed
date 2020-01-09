@@ -654,6 +654,7 @@ aLists
 const
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 HandleEvent
 (
@@ -1421,6 +1422,7 @@ bool
 aControlHeld
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 HandleDrag
 (

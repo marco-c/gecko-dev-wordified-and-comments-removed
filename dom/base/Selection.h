@@ -463,6 +463,7 @@ SCROLL_FOR_CARET_MOVE
 6
 }
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ScrollIntoView
 (
@@ -728,6 +729,7 @@ nsPresContext
 aPresContext
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 StartAutoScrollTimer
 (
@@ -1429,6 +1431,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 ScrollIntoView
 (
@@ -1951,6 +1954,7 @@ class
 :
 nsAutoScrollTimer
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoAutoScroll
 (

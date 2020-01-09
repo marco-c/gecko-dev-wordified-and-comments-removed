@@ -222,6 +222,7 @@ aPrevInFlow
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 DidReflow
@@ -334,6 +335,7 @@ aValue
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 SetFocus
@@ -432,6 +434,7 @@ GetNumberOfOptions
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 AboutToDropDown
 (
@@ -448,6 +451,7 @@ FireOnInputAndOnChange
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 ComboboxFinish
 (
@@ -455,6 +459,7 @@ int32_t
 aIndex
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 OnContentReset
 (
@@ -476,6 +481,7 @@ index
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 DoneAddingChildren
 (
@@ -484,6 +490,7 @@ aIsDone
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 OnOptionSelected
 (
@@ -494,6 +501,7 @@ aSelected
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD_
 (
 void
@@ -507,6 +515,7 @@ aNewIndex
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MouseDown
 (
@@ -536,6 +545,7 @@ Event
 aMouseEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MouseMove
 (
@@ -550,6 +560,7 @@ Event
 aMouseEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DragMove
 (
@@ -821,6 +832,7 @@ HTMLOptionElement
 aOption
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollToFrame
 (
@@ -829,6 +841,7 @@ HTMLOptionElement
 aOptElement
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollToIndex
 (
@@ -880,7 +893,7 @@ int32_t
 aDoAdjustIncNext
 )
 ;
-virtual
+MOZ_CAN_RUN_SCRIPT
 void
 ResetList
 (
@@ -1002,6 +1015,7 @@ int32_t
 aIndex
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 SingleSelection
 (
@@ -1022,6 +1036,7 @@ bool
 aClearAll
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 PerformSelection
 (
@@ -1033,6 +1048,7 @@ bool
 aIsControl
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 HandleListSelection
 (
