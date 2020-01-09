@@ -193,6 +193,11 @@ UrlClassifierFeatureBase
 cpp
 '
 '
+UrlClassifierFeatureCryptominingAnnotation
+.
+cpp
+'
+'
 UrlClassifierFeatureCryptominingProtection
 .
 cpp
