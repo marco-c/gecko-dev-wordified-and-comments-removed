@@ -52708,11 +52708,15 @@ GetEmbedderElement
 (
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 embedderElement
 )
+{
+continue
 ;
+}
 bool
 embedderFrameIsHidden
 =
