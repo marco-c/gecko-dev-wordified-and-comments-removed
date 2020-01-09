@@ -1364,7 +1364,7 @@ tenured
 allocsSinceMinorGC
 ;
 size_t
-preBytes
+preHeapSize
 ;
 bool
 thresholdTriggered
