@@ -3,7 +3,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 ;
 import
 org
@@ -83,7 +83,6 @@ util
 .
 Log
 ;
-public
 final
 class
 GeckoFontScaleListener
@@ -521,14 +520,14 @@ mPrevFontInflationState
 }
 mSettings
 .
-setFontInflationEnabled
+setFontInflationEnabledInternal
 (
 fontInflationEnabled
 )
 ;
 mSettings
 .
-setFontSizeFactor
+setFontSizeFactorInternal
 (
 fontScale
 )
