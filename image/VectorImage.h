@@ -343,16 +343,6 @@ SVGDrawingParameters
 aParams
 )
 ;
-bool
-UseSurfaceCacheForSize
-(
-const
-IntSize
-&
-aSize
-)
-const
-;
 already_AddRefed
 <
 SourceSurface
