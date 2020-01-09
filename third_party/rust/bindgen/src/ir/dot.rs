@@ -204,6 +204,7 @@ whitelisted_items
 .
 contains
 (
+&
 id
 )
 ;
