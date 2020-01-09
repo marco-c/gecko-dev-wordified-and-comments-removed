@@ -126,7 +126,11 @@ skin
 /
 images
 /
-settings
+aboutdebugging
+-
+process
+-
+icon
 .
 svg
 "
