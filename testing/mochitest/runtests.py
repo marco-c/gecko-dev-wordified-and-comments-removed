@@ -3922,6 +3922,9 @@ buildConfig
 (
 self
 locations
+public
+=
+None
 )
 :
         
@@ -4059,6 +4062,24 @@ webSocketPort
 )
 )
             
+listen_address
+=
+"
+*
+"
+if
+public
+else
+"
+127
+.
+0
+.
+0
+.
+1
+"
+            
 config
 .
 write
@@ -4066,7 +4087,8 @@ write
 "
 listen
 :
-*
+%
+s
 :
 %
 s
@@ -4076,9 +4098,12 @@ pgoserver
 n
 "
 %
+(
+listen_address
 self
 .
 sslPort
+)
 )
             
 for
@@ -7865,6 +7890,9 @@ startServers
 self
 options
 debuggerInfo
+public
+=
+None
 )
 :
         
@@ -7984,6 +8012,9 @@ buildConfig
 self
 .
 locations
+public
+=
+public
 )
         
 self

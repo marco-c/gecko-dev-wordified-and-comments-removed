@@ -879,6 +879,10 @@ options
 debuggerInfo
 =
 None
+            
+public
+=
+True
 )
         
 self
