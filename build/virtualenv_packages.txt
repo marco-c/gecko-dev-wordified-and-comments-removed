@@ -82,15 +82,6 @@ third_party
 /
 python
 /
-biplist
-mozilla
-.
-pth
-:
-third_party
-/
-python
-/
 blessings
 mozilla
 .
