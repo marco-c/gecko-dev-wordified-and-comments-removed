@@ -72,9 +72,9 @@ SPOOFED_UA_OS
 "
 Windows
 NT
-6
+10
 .
-1
+0
 ;
 Win64
 ;
@@ -97,9 +97,9 @@ SPOOFED_OSCPU
 "
 Windows
 NT
-6
+10
 .
-1
+0
 ;
 Win64
 ;
@@ -293,9 +293,9 @@ SPOOFED_HTTP_UA_OS
 "
 Windows
 NT
-6
+10
 .
-1
+0
 "
 #
 endif
