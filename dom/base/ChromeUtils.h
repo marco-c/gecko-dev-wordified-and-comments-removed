@@ -917,6 +917,15 @@ aGlobal
 )
 ;
 static
+double
+LastExternalProtocolIframeAllowed
+(
+GlobalObject
+&
+aGlobal
+)
+;
+static
 void
 RegisterWindowActor
 (
