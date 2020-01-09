@@ -1069,6 +1069,7 @@ false
 }
 private
 :
+const
 RefPtr
 <
 CustomElementReactionsStack
@@ -1836,6 +1837,7 @@ mIsElementQueuePushedForPreviousRecursionDepth
 }
 private
 :
+const
 RefPtr
 <
 CustomElementReactionsStack
