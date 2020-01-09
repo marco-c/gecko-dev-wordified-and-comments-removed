@@ -341,11 +341,6 @@ FlushComplete
 )
 ;
 async
-ShutdownComplete
-(
-)
-;
-async
 Output
 (
 DecodedOutputIPDL

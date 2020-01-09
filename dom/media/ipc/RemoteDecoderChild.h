@@ -125,11 +125,6 @@ RecvFlushComplete
 (
 )
 ;
-IPCResult
-RecvShutdownComplete
-(
-)
-;
 void
 ActorDestroy
 (
@@ -189,10 +184,7 @@ Flush
 )
 override
 ;
-RefPtr
-<
-ShutdownPromise
->
+void
 Shutdown
 (
 )
@@ -329,12 +321,6 @@ MediaDataDecoder
 FlushPromise
 >
 mFlushPromise
-;
-MozPromiseHolder
-<
-ShutdownPromise
->
-mShutdownPromise
 ;
 nsCString
 mHardwareAcceleratedReason
