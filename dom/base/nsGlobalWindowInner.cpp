@@ -1067,13 +1067,6 @@ h
 #
 include
 "
-nsIControllerContext
-.
-h
-"
-#
-include
-"
 nsGlobalWindowCommands
 .
 h
