@@ -1087,9 +1087,9 @@ mParentSHistory
 ;
 }
 void
-SetRemoteBrowser
+InitializeFromBrowserParent
 (
-nsIRemoteTab
+BrowserParent
 *
 aBrowserParent
 )
