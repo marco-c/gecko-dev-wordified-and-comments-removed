@@ -830,6 +830,10 @@ extern
 crate
 webrender_api
 ;
+extern
+crate
+webrender_build
+;
 #
 [
 doc
