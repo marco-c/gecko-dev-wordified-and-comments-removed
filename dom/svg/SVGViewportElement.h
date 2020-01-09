@@ -116,9 +116,6 @@ class
 SVGAnimatedRect
 ;
 class
-SVGTransform
-;
-class
 SVGViewElement
 ;
 class

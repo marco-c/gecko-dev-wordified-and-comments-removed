@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsSVGTransform
+SVGTransform
 .
 h
 "
@@ -1781,7 +1781,7 @@ nsSMILValue
 aValue
 FallibleTArray
 <
-nsSVGTransform
+SVGTransform
 >
 &
 aTransforms

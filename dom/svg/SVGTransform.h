@@ -44,11 +44,11 @@ namespace
 mozilla
 {
 class
-nsSVGTransform
+SVGTransform
 {
 public
 :
-nsSVGTransform
+SVGTransform
 (
 )
 :
@@ -86,7 +86,7 @@ SVG_TRANSFORM_MATRIX
 {
 }
 explicit
-nsSVGTransform
+SVGTransform
 (
 const
 gfxMatrix
@@ -134,7 +134,7 @@ operator
 =
 (
 const
-nsSVGTransform
+SVGTransform
 &
 rhs
 )
@@ -586,12 +586,12 @@ explicit
 SVGTransformSMILData
 (
 const
-nsSVGTransform
+SVGTransform
 &
 aTransform
 )
 ;
-nsSVGTransform
+SVGTransform
 ToSVGTransform
 (
 )

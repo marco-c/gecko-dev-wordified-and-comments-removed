@@ -725,11 +725,6 @@ nsSVGString
 cpp
 '
 '
-nsSVGTransform
-.
-cpp
-'
-'
 nsSVGViewBox
 .
 cpp
@@ -1266,6 +1261,11 @@ cpp
 '
 '
 SVGTitleElement
+.
+cpp
+'
+'
+SVGTransform
 .
 cpp
 '

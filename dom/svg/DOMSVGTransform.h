@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsSVGTransform
+SVGTransform
 .
 h
 "
@@ -143,7 +143,7 @@ explicit
 DOMSVGTransform
 (
 const
-nsSVGTransform
+SVGTransform
 &
 aMatrix
 )
@@ -243,7 +243,7 @@ RemovingFromList
 (
 )
 ;
-nsSVGTransform
+SVGTransform
 ToSVGTransform
 (
 )
@@ -447,14 +447,14 @@ Element
 )
 ;
 }
-nsSVGTransform
+SVGTransform
 &
 InternalItem
 (
 )
 ;
 const
-nsSVGTransform
+SVGTransform
 &
 InternalItem
 (
@@ -472,7 +472,7 @@ IndexIsValid
 #
 endif
 const
-nsSVGTransform
+SVGTransform
 &
 Transform
 (
@@ -492,7 +492,7 @@ InternalItem
 mTransform
 ;
 }
-nsSVGTransform
+SVGTransform
 &
 Transform
 (
@@ -529,7 +529,7 @@ mIsAnimValItem
 ;
 nsAutoPtr
 <
-nsSVGTransform
+SVGTransform
 >
 mTransform
 ;

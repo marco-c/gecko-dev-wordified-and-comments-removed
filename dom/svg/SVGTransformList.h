@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsSVGTransform
+SVGTransform
 .
 h
 "
@@ -104,7 +104,7 @@ Length
 ;
 }
 const
-nsSVGTransform
+SVGTransform
 &
 operator
 [
@@ -195,13 +195,13 @@ CopyFrom
 const
 nsTArray
 <
-nsSVGTransform
+SVGTransform
 >
 &
 aTransformArray
 )
 ;
-nsSVGTransform
+SVGTransform
 &
 operator
 [
@@ -264,7 +264,7 @@ InsertItem
 uint32_t
 aIndex
 const
-nsSVGTransform
+SVGTransform
 &
 aTransform
 )
@@ -309,7 +309,7 @@ ReplaceItem
 uint32_t
 aIndex
 const
-nsSVGTransform
+SVGTransform
 &
 aTransform
 )
@@ -381,7 +381,7 @@ bool
 AppendItem
 (
 const
-nsSVGTransform
+SVGTransform
 &
 aTransform
 )
@@ -402,7 +402,7 @@ protected
 :
 FallibleTArray
 <
-nsSVGTransform
+SVGTransform
 >
 mItems
 ;
