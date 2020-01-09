@@ -1289,6 +1289,9 @@ CodeOffset
 bailoutPrologueOffset_
 ;
 CodeOffset
+warmUpCheckPrologueOffset_
+;
+CodeOffset
 debugOsrPrologueOffset_
 ;
 CodeOffset

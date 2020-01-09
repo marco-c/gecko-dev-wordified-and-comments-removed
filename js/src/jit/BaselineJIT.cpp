@@ -1713,6 +1713,8 @@ jsscript
 uint32_t
 bailoutPrologueOffset
 uint32_t
+warmUpCheckPrologueOffset
+uint32_t
 debugOsrPrologueOffset
 uint32_t
 debugOsrEpilogueOffset
@@ -1878,6 +1880,7 @@ script
 BaselineScript
 (
 bailoutPrologueOffset
+warmUpCheckPrologueOffset
 debugOsrPrologueOffset
 debugOsrEpilogueOffset
 profilerEnterToggleOffset
