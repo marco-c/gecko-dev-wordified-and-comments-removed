@@ -765,6 +765,11 @@ mPersistent
 1
 ;
 bool
+mSessionOnlyDataSetActive
+:
+1
+;
+bool
 mPreloadTelemetryRecorded
 :
 1

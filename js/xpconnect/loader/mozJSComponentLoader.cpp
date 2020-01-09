@@ -1288,7 +1288,6 @@ TYPE_SCRIPT
 nullptr
 nullptr
 nullptr
-nullptr
 nsIRequest
 :
 :

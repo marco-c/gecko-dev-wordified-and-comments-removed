@@ -139,13 +139,6 @@ URIParams
 &
 aChannelURI
 const
-Maybe
-<
-LoadInfoArgs
->
-&
-aLoadInfoArgs
-const
 bool
 &
 aIsForeign
@@ -165,6 +158,10 @@ const
 nsCString
 &
 aServerTime
+const
+OriginAttributes
+&
+aAttrs
 const
 bool
 &
