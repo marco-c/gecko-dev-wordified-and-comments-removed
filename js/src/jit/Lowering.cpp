@@ -22414,6 +22414,12 @@ MIRType
 :
 Symbol
 :
+case
+MIRType
+:
+:
+BigInt
+:
 lir
 -
 >
