@@ -484,6 +484,7 @@ TWrapped
 class
 TUnwrapped
 >
+MOZ_CAN_RUN_SCRIPT
 void
 CallListeners
 (
@@ -1788,6 +1789,7 @@ auto
 &
 events
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 cb
 -
@@ -1922,11 +1924,21 @@ auto
 &
 events
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
+RefPtr
+<
+PlacesEventCallback
+>
+callback
+(
 cb
 -
 >
 mCallback
+)
+;
+callback
 -
 >
 Call

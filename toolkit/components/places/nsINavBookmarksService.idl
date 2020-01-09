@@ -2704,6 +2704,9 @@ malformed
 .
 *
 /
+[
+can_run_script
+]
 long
 long
 insertBookmark
@@ -2940,6 +2943,9 @@ malformed
 .
 *
 /
+[
+can_run_script
+]
 long
 long
 createFolder

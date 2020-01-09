@@ -219,6 +219,7 @@ INativePlacesEventCallback
 aCallback
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 NotifyListeners
@@ -241,6 +242,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 NotifyListeners
