@@ -259,7 +259,6 @@ usb
 enabled
 =
 USB
-devices
 enabled
 #
 Text
@@ -301,7 +300,6 @@ usb
 disabled
 =
 USB
-devices
 disabled
 #
 Connection

@@ -255,7 +255,6 @@ includes
 (
 "
 USB
-devices
 enabled
 "
 )
