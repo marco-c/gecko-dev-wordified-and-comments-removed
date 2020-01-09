@@ -61,6 +61,7 @@ class
 DXGIYCbCrTextureData
 ;
 class
+MOZ_RAII
 DXGIYCbCrTextureAllocationHelper
 :
 public
