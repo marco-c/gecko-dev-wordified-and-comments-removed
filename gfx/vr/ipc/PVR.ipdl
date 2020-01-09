@@ -155,6 +155,9 @@ include
 MemoryReportTypes
 ;
 include
+PrefsTypes
+;
+include
 protocol
 PVRGPU
 ;
@@ -221,6 +224,13 @@ UpdateVar
 (
 GfxVarUpdate
 var
+)
+;
+async
+PreferenceUpdate
+(
+Pref
+pref
 )
 ;
 async
