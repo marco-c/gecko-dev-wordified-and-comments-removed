@@ -13,7 +13,7 @@ wptmanifest
 .
 backends
 .
-base
+static
 import
 ManifestItem
 import
@@ -534,7 +534,7 @@ def
 __init__
 (
 self
-node
+name
 test_path
 url_base
 )
@@ -621,12 +621,6 @@ manifest
 "
 "
         
-name
-=
-node
-.
-data
-        
 if
 name
 is
@@ -688,7 +682,7 @@ ManifestItem
 __init__
 (
 self
-node
+name
 )
         
 self
@@ -1302,10 +1296,7 @@ def
 __init__
 (
 self
-node
-*
-*
-kwargs
+name
 )
 :
         
@@ -1336,9 +1327,7 @@ test
 "
         
 assert
-node
-.
-data
+name
 is
 not
 None
@@ -1348,10 +1337,7 @@ ManifestItem
 __init__
 (
 self
-node
-*
-*
-kwargs
+name
 )
         
 self
@@ -1802,6 +1788,48 @@ SubtestNode
 TestNode
 )
 :
+    
+def
+__init__
+(
+self
+name
+)
+:
+        
+"
+"
+"
+Tree
+node
+associated
+with
+a
+particular
+subtest
+in
+a
+manifest
+        
+:
+param
+name
+:
+name
+of
+the
+subtest
+"
+"
+"
+        
+TestNode
+.
+__init__
+(
+self
+name
+)
     
 property
     
