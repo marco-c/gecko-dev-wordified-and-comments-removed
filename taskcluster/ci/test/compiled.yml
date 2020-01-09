@@ -361,6 +361,13 @@ asan
 *
 :
 3
+windows10
+-
+aarch64
+.
+*
+:
+2
 default
 :
 default
@@ -810,6 +817,13 @@ platform
 android
 -
 hw
+.
+*
+:
+2
+windows10
+-
+aarch64
 .
 *
 :

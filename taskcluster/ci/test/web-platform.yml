@@ -356,6 +356,13 @@ asan
 opt
 :
 2
+windows10
+-
+aarch64
+.
+*
+:
+2
 .
 *
 -
@@ -681,6 +688,13 @@ linux64
 asan
 /
 opt
+:
+2
+windows10
+-
+aarch64
+.
+*
 :
 2
 default

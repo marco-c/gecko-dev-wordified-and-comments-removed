@@ -205,6 +205,14 @@ platform
 :
 windows10
 -
+aarch64
+/
+.
+*
+:
+2
+windows10
+-
 64
 -
 ccov
