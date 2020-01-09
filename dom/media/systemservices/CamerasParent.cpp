@@ -3803,13 +3803,15 @@ false
 }
 static
 const
-char
-*
+nsLiteralCString
 cameraPermission
 =
+NS_LITERAL_CSTRING
+(
 "
 MediaManagerVideo
 "
+)
 ;
 nsCOMPtr
 <

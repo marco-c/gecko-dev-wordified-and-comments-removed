@@ -124,7 +124,7 @@ nsCString
 &
 aOrigin
 const
-nsCString
+nsACString
 &
 aType
 const

@@ -1084,9 +1084,12 @@ permMgr
 TestPermissionFromPrincipal
 (
 aPrincipal
+NS_LITERAL_CSTRING
+(
 "
 browser
 "
+)
 &
 permission
 )

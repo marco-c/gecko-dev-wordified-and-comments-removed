@@ -6145,10 +6145,6 @@ RemovePermission
 (
 aPrincipal
 aPermissionType
-.
-get
-(
-)
 )
 ;
 return

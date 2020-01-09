@@ -10409,9 +10409,12 @@ TestPermissionFromPrincipal
 loadInfo
 .
 mLoadingPrincipal
+NS_LITERAL_CSTRING
+(
 "
 systemXHR
 "
+)
 &
 perm
 )

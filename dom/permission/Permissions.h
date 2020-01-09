@@ -122,8 +122,8 @@ nsIPrincipal
 *
 aPrincipal
 const
-char
-*
+nsACString
+&
 aPermissionType
 )
 ;

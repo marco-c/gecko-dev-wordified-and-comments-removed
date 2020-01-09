@@ -2011,8 +2011,8 @@ nsIPrincipal
 *
 aPrincipal
 const
-char
-*
+nsACString
+&
 aType
 )
 ;
@@ -2024,8 +2024,8 @@ nsIPrincipal
 *
 aPrincipal
 const
-char
-*
+nsACString
+&
 aType
 )
 ;
@@ -2037,8 +2037,8 @@ nsIPrincipal
 *
 aPrincipal
 const
-char
-*
+nsACString
+&
 aType
 )
 ;
@@ -2050,8 +2050,8 @@ nsIPrincipal
 *
 aPrincipal
 const
-char
-*
+nsACString
+&
 aType
 )
 ;

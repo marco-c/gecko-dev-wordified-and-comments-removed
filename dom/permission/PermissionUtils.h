@@ -42,8 +42,8 @@ namespace
 dom
 {
 const
-char
-*
+nsLiteralCString
+&
 PermissionNameToType
 (
 PermissionName
@@ -57,8 +57,8 @@ PermissionName
 TypeToPermissionName
 (
 const
-char
-*
+nsACString
+&
 aType
 )
 ;

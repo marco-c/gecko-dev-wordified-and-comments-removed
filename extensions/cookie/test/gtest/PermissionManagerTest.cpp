@@ -244,10 +244,6 @@ TestPermissionFromPrincipal
 (
 mPrincipal
 mNonExistentType
-.
-get
-(
-)
 &
 result
 )

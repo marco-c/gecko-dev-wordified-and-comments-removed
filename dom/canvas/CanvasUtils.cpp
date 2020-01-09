@@ -226,9 +226,12 @@ doorhanger
 #
 define
 PERMISSION_CANVAS_EXTRACT_DATA
+NS_LITERAL_CSTRING
+(
 "
 canvas
 "
+)
 using
 namespace
 mozilla

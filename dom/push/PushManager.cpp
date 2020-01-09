@@ -248,11 +248,14 @@ permManager
 TestExactPermissionFromPrincipal
 (
 aPrincipal
+NS_LITERAL_CSTRING
+(
 "
 desktop
 -
 notification
 "
+)
 &
 permission
 )
