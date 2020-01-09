@@ -743,9 +743,6 @@ actorChild
 sendAsyncMessage
 (
 "
-Test
-"
-"
 init
 "
 {
