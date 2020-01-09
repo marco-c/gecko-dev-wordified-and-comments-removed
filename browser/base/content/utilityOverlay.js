@@ -4610,6 +4610,16 @@ where
 )
 ;
 }
+window
+.
+addEventListener
+(
+"
+dialoghelp
+"
+openPrefsHelp
+)
+;
 function
 openPrefsHelp
 (

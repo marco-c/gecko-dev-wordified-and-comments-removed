@@ -232,13 +232,6 @@ role
 "
 dialog
 "
-ondialoghelp
-=
-"
-openPrefsHelp
-(
-)
-"
 data
 -
 l10n
