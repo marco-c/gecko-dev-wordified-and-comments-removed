@@ -7471,6 +7471,13 @@ Map
 ;
 if
 (
+"
+placeholders
+"
+in
+msg
+&
+&
 isPlainObject
 (
 msg
