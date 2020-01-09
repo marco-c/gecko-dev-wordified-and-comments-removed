@@ -1252,6 +1252,19 @@ html
 Bug
 1528391
 load
+encrypted
+-
+track
+-
+without
+-
+tenc
+.
+mp4
+#
+Bug
+1533215
+load
 1533909
 .
 html
@@ -1295,3 +1308,6 @@ zero
 dimensions
 .
 mp4
+#
+Bug
+1542539
