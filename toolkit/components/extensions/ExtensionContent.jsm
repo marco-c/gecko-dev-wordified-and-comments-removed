@@ -1487,7 +1487,7 @@ return
 !
 this
 .
-removeCss
+removeCSS
 &
 &
 (
