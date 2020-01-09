@@ -1319,17 +1319,6 @@ nsIFrame
 aFrame
 )
 ;
-static
-nsIFrame
-*
-GetRealPrimaryFrameFor
-(
-const
-nsIContent
-*
-aContent
-)
-;
 #
 ifdef
 DEBUG

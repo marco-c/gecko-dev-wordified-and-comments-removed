@@ -9042,12 +9042,11 @@ nsIFrame
 *
 subdocFrame
 =
-nsLayoutUtils
-:
-:
-GetRealPrimaryFrameFor
-(
 containerElement
+-
+>
+GetPrimaryFrame
+(
 )
 ;
 if
