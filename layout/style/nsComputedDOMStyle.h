@@ -1376,10 +1376,7 @@ const
 mozilla
 :
 :
-css
-:
-:
-URLValue
+StyleComputedUrl
 *
 aURL
 nsROCSSPrimitiveValue
