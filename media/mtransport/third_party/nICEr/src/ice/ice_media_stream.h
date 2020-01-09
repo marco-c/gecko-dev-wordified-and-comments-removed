@@ -380,6 +380,14 @@ str
 )
 ;
 int
+nr_ice_media_stream_is_done_gathering
+(
+nr_ice_media_stream
+*
+str
+)
+;
+int
 nr_ice_media_stream_get_best_candidate
 (
 nr_ice_media_stream

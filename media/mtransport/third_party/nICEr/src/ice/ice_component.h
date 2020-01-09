@@ -204,6 +204,14 @@ component
 )
 ;
 int
+nr_ice_component_is_done_gathering
+(
+nr_ice_component
+*
+comp
+)
+;
+int
 nr_ice_component_maybe_prune_candidate
 (
 nr_ice_ctx
