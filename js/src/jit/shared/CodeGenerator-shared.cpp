@@ -602,11 +602,6 @@ info
 (
 )
 .
-script
-(
-)
--
->
 trackRecordReplayProgress
 (
 )
