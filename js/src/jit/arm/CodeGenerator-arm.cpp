@@ -16661,7 +16661,7 @@ mir
 ;
 }
 ScratchDoubleScope
-scratchScope
+fpscratch
 (
 masm
 )
@@ -16679,7 +16679,7 @@ Float32
 {
 inputDouble
 =
-ScratchDoubleReg
+fpscratch
 ;
 masm
 .

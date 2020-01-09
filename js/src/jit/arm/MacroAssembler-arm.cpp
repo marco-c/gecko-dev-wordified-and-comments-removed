@@ -24294,7 +24294,7 @@ payloadReg
 return
 ;
 }
-ScratchDoubleScope
+ScratchFloat32Scope
 scratch
 (
 *
@@ -24324,12 +24324,12 @@ Float32
 convertFloat32ToDouble
 (
 freg
-ScratchFloat32Reg
+scratch
 )
 ;
 freg
 =
-ScratchFloat32Reg
+scratch
 ;
 }
 ma_vxfer
