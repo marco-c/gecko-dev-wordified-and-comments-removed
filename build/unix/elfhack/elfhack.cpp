@@ -1091,6 +1091,11 @@ getAddrAlign
 (
 )
 ;
+last
+=
+*
+c
+;
 }
 shdr
 .
