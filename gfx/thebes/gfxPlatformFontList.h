@@ -948,8 +948,8 @@ static
 eFontPrefLang
 GetFontPrefLangFor
 (
-uint8_t
-aUnicodeRange
+uint32_t
+aCh
 )
 ;
 static

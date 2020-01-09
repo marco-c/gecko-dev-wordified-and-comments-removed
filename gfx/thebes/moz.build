@@ -1146,11 +1146,6 @@ gfxUtils
 cpp
 '
 '
-nsUnicodeRange
-.
-cpp
-'
-'
 SoftwareVsyncSource
 .
 cpp

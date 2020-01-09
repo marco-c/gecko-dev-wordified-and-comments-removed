@@ -102,13 +102,6 @@ h
 #
 include
 "
-nsUnicodeRange
-.
-h
-"
-#
-include
-"
 nsStyleConsts
 .
 h
@@ -17703,14 +17696,6 @@ eFontPrefLang_Emoji
 }
 else
 {
-uint32_t
-unicodeRange
-=
-FindCharUnicodeRange
-(
-aCh
-)
-;
 charLang
 =
 pfl
@@ -17718,7 +17703,7 @@ pfl
 >
 GetFontPrefLangFor
 (
-unicodeRange
+aCh
 )
 ;
 }
