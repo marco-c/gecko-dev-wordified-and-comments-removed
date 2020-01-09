@@ -12396,6 +12396,12 @@ StyleBorder
 HasBorder
 (
 )
+&
+&
+!
+IsTableFrame
+(
+)
 )
 {
 aLists
