@@ -26273,7 +26273,7 @@ nsSimpleContentList
 Document
 :
 :
-BlockedTrackingNodes
+BlockedNodesByClassifier
 (
 )
 const
@@ -26294,11 +26294,11 @@ nsTArray
 <
 nsWeakPtr
 >
-blockedTrackingNodes
+blockedNodes
 ;
-blockedTrackingNodes
+blockedNodes
 =
-mBlockedTrackingNodes
+mBlockedNodesByClassifier
 ;
 for
 (
@@ -26310,7 +26310,7 @@ i
 ;
 i
 <
-blockedTrackingNodes
+blockedNodes
 .
 Length
 (
@@ -26324,7 +26324,7 @@ i
 nsWeakPtr
 weakNode
 =
-blockedTrackingNodes
+blockedNodes
 [
 i
 ]

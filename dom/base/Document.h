@@ -3923,13 +3923,13 @@ GetController
 const
 ;
 long
-BlockedTrackingNodeCount
+BlockedNodeByClassifierCount
 (
 )
 const
 {
 return
-mBlockedTrackingNodes
+mBlockedNodesByClassifier
 .
 Length
 (
@@ -3940,7 +3940,7 @@ already_AddRefed
 <
 nsSimpleContentList
 >
-BlockedTrackingNodes
+BlockedNodesByClassifier
 (
 )
 const
@@ -9568,7 +9568,7 @@ AsXULDocument
 )
 ;
 void
-AddBlockedTrackingNode
+AddBlockedNodeByClassifier
 (
 nsINode
 *
@@ -9597,7 +9597,7 @@ if
 weakNode
 )
 {
-mBlockedTrackingNodes
+mBlockedNodesByClassifier
 .
 AppendElement
 (
@@ -11989,7 +11989,7 @@ nsTArray
 <
 nsWeakPtr
 >
-mBlockedTrackingNodes
+mBlockedNodesByClassifier
 ;
 nsPIDOMWindowInner
 *
