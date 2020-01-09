@@ -610,6 +610,16 @@ Attribute
 aAttributes
 )
 ;
+static
+bool
+IsARIALive
+(
+const
+Accessible
+*
+aAccessible
+)
+;
 }
 ;
 }
