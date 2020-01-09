@@ -27091,10 +27091,7 @@ NS_FORM_INPUT_HIDDEN
 )
 |
 |
-mType
-=
-=
-NS_FORM_INPUT_PASSWORD
+mHasBeenTypePassword
 |
 |
 !
