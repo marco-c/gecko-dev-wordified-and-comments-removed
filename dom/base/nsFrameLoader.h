@@ -1491,7 +1491,7 @@ RefPtr
 <
 TabParent
 >
-mRemoteBrowser
+mBrowserParent
 ;
 uint64_t
 mChildID
