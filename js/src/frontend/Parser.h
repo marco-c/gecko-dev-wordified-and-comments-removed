@@ -378,6 +378,12 @@ AutoGCRooter
 parser
 )
 ;
+#
+if
+defined
+(
+JS_BUILD_BINAST
+)
 friend
 void
 js
@@ -399,6 +405,8 @@ AutoGCRooter
 parser
 )
 ;
+#
+endif
 private
 :
 template
