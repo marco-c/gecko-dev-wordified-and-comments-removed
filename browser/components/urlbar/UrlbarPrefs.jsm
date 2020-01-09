@@ -240,6 +240,12 @@ maxRichResults
 ]
 [
 "
+oneOffSearches
+"
+false
+]
+[
+"
 openintab
 "
 false
