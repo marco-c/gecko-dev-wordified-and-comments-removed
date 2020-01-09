@@ -620,7 +620,7 @@ CreateSVGRect
 ;
 already_AddRefed
 <
-SVGTransform
+DOMSVGTransform
 >
 CreateSVGTransform
 (
@@ -628,7 +628,7 @@ CreateSVGTransform
 ;
 already_AddRefed
 <
-SVGTransform
+DOMSVGTransform
 >
 CreateSVGTransformFromMatrix
 (

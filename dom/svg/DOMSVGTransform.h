@@ -94,7 +94,7 @@ class
 SVGMatrix
 ;
 class
-SVGTransform
+DOMSVGTransform
 final
 :
 public
@@ -108,13 +108,13 @@ public
 :
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
-SVGTransform
+DOMSVGTransform
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
-SVGTransform
+DOMSVGTransform
 )
-SVGTransform
+DOMSVGTransform
 (
 DOMSVGTransformList
 *
@@ -126,12 +126,12 @@ aIsAnimValItem
 )
 ;
 explicit
-SVGTransform
+DOMSVGTransform
 (
 )
 ;
 explicit
-SVGTransform
+DOMSVGTransform
 (
 const
 gfxMatrix
@@ -140,7 +140,7 @@ aMatrix
 )
 ;
 explicit
-SVGTransform
+DOMSVGTransform
 (
 const
 nsSVGTransform
@@ -148,7 +148,7 @@ nsSVGTransform
 aMatrix
 )
 ;
-SVGTransform
+DOMSVGTransform
 *
 Clone
 (
@@ -165,7 +165,7 @@ caller
 ;
 return
 new
-SVGTransform
+DOMSVGTransform
 (
 InternalItem
 (
@@ -382,7 +382,7 @@ rv
 protected
 :
 ~
-SVGTransform
+DOMSVGTransform
 (
 )
 ;

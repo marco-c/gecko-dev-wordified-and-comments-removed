@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-SVGTransform
+DOMSVGTransform
 .
 h
 "
@@ -71,7 +71,7 @@ SVGMatrix
 explicit
 SVGMatrix
 (
-SVGTransform
+DOMSVGTransform
 &
 aTransform
 )
@@ -124,7 +124,7 @@ Matrixgfx
 mMatrix
 ;
 }
-SVGTransform
+DOMSVGTransform
 *
 GetParentObject
 (
@@ -514,7 +514,7 @@ false
 }
 RefPtr
 <
-SVGTransform
+DOMSVGTransform
 >
 mTransform
 ;

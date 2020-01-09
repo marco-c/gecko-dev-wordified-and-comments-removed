@@ -1380,7 +1380,7 @@ this
 }
 already_AddRefed
 <
-SVGTransform
+DOMSVGTransform
 >
 SVGSVGElement
 :
@@ -1391,12 +1391,12 @@ CreateSVGTransform
 {
 RefPtr
 <
-SVGTransform
+DOMSVGTransform
 >
 transform
 =
 new
-SVGTransform
+DOMSVGTransform
 (
 )
 ;
@@ -1410,7 +1410,7 @@ forget
 }
 already_AddRefed
 <
-SVGTransform
+DOMSVGTransform
 >
 SVGSVGElement
 :
@@ -1424,12 +1424,12 @@ matrix
 {
 RefPtr
 <
-SVGTransform
+DOMSVGTransform
 >
 transform
 =
 new
-SVGTransform
+DOMSVGTransform
 (
 matrix
 .
