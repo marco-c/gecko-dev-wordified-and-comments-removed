@@ -3987,6 +3987,10 @@ mCacheNeedToReportBytesReadInitialized
 {
 return
 mNeedToReportBytesRead
+&
+&
+!
+mDivertingToParent
 ;
 }
 int64_t
