@@ -292,13 +292,6 @@ beta
 cdntest
 "
 ]
-publish
--
-rules
-:
-[
-32
-]
 rules
 -
 to
