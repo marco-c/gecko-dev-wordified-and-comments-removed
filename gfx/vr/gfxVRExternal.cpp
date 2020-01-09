@@ -3785,7 +3785,7 @@ double
 aDisplayState
 -
 >
-minRestartInterval
+mMinRestartInterval
 )
 ;
 }
