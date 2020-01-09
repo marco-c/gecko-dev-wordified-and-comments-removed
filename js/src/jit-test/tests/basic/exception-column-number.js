@@ -17,7 +17,7 @@ assertEq
 e
 .
 columnNumber
-5
+11
 )
 ;
 var
@@ -65,7 +65,7 @@ afterPath
 :
 2
 :
-5
+11
 \
 n
 "
