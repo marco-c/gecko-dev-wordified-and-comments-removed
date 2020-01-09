@@ -2245,11 +2245,6 @@ aSizeMode
 )
 ;
 void
-UIResolutionChanged
-(
-)
-;
-void
 ThemeChanged
 (
 )
