@@ -3,7 +3,16 @@ fieldpair
 {
 display
 :
-flex
+grid
+;
+grid
+-
+template
+-
+columns
+:
+auto
+auto
 ;
 border
 -
