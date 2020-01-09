@@ -2995,9 +2995,6 @@ aMoz2DBackend
 shm
 )
 ;
-return
-nullptr
-;
 }
 TextureData
 *
