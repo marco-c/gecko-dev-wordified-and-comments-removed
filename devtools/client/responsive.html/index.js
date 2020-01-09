@@ -278,6 +278,13 @@ store
 =
 Store
 (
+{
+telemetry
+:
+this
+.
+telemetry
+}
 )
 ;
 const

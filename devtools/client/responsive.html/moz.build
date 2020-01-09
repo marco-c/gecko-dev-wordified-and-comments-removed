@@ -102,6 +102,9 @@ components
 images
 '
 '
+middleware
+'
+'
 reducers
 '
 '
