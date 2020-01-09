@@ -12,7 +12,7 @@ h
 #
 include
 "
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 .
 h
 "
@@ -97,7 +97,7 @@ XRE_IsParentProcess
 return
 ;
 }
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 :
 :
 MaybeShutdown
@@ -187,7 +187,7 @@ feature
 ;
 feature
 =
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 :
 :
 MaybeCreate
@@ -382,7 +382,7 @@ feature
 ;
 feature
 =
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 :
 :
 GetIfNameMatches
@@ -577,7 +577,7 @@ name
 .
 Assign
 (
-UrlClassifierFeatureCryptomining
+UrlClassifierFeatureCryptominingProtection
 :
 :
 Name
