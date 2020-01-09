@@ -635,6 +635,14 @@ disable_libpkix
 ]
 =
 1
+gyp_vars
+[
+'
+enable_sslkeylogfile
+'
+]
+=
+1
 #
 pkg
 -
