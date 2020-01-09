@@ -202,6 +202,8 @@ aChannel
 nsIURI
 *
 aURI
+int64_t
+aStreamLength
 bool
 aIsPrivateBrowsing
 =
@@ -795,6 +797,10 @@ mCacheStream
 ;
 ChannelSuspendAgent
 mSuspendAgent
+;
+const
+int64_t
+mKnownStreamLength
 ;
 }
 ;

@@ -266,6 +266,12 @@ forget
 )
 ;
 }
+int64_t
+streamLength
+=
+-
+1
+;
 RefPtr
 <
 mozilla
@@ -454,6 +460,10 @@ forget
 )
 ;
 }
+streamLength
+=
+size
+;
 }
 RefPtr
 <
@@ -467,6 +477,7 @@ ChannelMediaResource
 aCallback
 aChannel
 uri
+streamLength
 aIsPrivateBrowsing
 )
 ;

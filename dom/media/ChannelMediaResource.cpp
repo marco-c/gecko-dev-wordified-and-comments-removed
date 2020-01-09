@@ -139,6 +139,8 @@ aChannel
 nsIURI
 *
 aURI
+int64_t
+aStreamLength
 bool
 aIsPrivateBrowsing
 )
@@ -157,6 +159,10 @@ aIsPrivateBrowsing
 mSuspendAgent
 (
 mCacheStream
+)
+mKnownStreamLength
+(
+aStreamLength
 )
 {
 }
@@ -2286,9 +2292,15 @@ mChannel
 int64_t
 streamLength
 =
+mKnownStreamLength
+<
+0
+?
 CalculateStreamLength
 (
 )
+:
+mKnownStreamLength
 ;
 nsresult
 rv
@@ -2817,6 +2829,7 @@ ChannelMediaResource
 aCallback
 nullptr
 mURI
+mKnownStreamLength
 )
 ;
 resource
