@@ -21471,17 +21471,6 @@ true
 ;
 if
 (
-selectionStatus
-=
-=
-nsISelectionController
-:
-:
-SELECTION_ON
-)
-{
-if
-(
 RefPtr
 <
 ComputedStyle
@@ -21493,6 +21482,7 @@ mFrame
 >
 ComputeSelectionStyle
 (
+selectionStatus
 )
 )
 {
@@ -21543,7 +21533,6 @@ mTextShadow
 return
 true
 ;
-}
 }
 nscolor
 selectionBGColor
