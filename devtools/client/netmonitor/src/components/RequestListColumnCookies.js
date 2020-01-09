@@ -86,13 +86,6 @@ utils
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 class
 RequestListColumnCookies
 extends
@@ -296,7 +289,9 @@ length
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className

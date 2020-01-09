@@ -67,13 +67,6 @@ types
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 class
 RequestListColumnMethod
 extends
@@ -136,7 +129,9 @@ props
 item
 ;
 return
-div
+dom
+.
+td
 (
 {
 className

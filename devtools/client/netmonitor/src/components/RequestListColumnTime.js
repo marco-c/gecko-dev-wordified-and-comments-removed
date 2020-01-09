@@ -108,13 +108,6 @@ utils
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 class
 RequestListColumnTime
 extends
@@ -378,7 +371,9 @@ props
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className

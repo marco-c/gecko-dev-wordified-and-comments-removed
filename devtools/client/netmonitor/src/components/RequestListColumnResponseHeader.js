@@ -87,13 +87,6 @@ utils
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 class
 RequestListColumnResponseHeader
 extends
@@ -252,7 +245,9 @@ header
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className

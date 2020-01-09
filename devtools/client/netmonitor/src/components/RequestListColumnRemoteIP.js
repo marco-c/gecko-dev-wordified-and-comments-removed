@@ -86,13 +86,6 @@ utils
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 class
 RequestListColumnRemoteIP
 extends
@@ -172,7 +165,9 @@ unknown
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className

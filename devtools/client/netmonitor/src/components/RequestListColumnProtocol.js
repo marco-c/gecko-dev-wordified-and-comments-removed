@@ -86,13 +86,6 @@ utils
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 class
 RequestListColumnProtocol
 extends
@@ -159,7 +152,9 @@ item
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className

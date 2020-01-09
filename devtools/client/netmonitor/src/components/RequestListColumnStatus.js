@@ -83,13 +83,6 @@ StatusCode
 )
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 class
 RequestListColumnStatus
 extends
@@ -128,7 +121,9 @@ props
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className
