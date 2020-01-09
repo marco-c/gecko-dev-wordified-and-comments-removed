@@ -18410,6 +18410,12 @@ aSource
 .
 mResets
 )
+mSets
+(
+aSource
+.
+mSets
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -18454,6 +18460,14 @@ mResets
 aNewData
 .
 mResets
+|
+|
+mSets
+!
+=
+aNewData
+.
+mSets
 )
 {
 return
