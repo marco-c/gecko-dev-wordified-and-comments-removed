@@ -1184,7 +1184,7 @@ setAlpha
 getColor
 (
 "
-body
+text
 -
 color
 -
