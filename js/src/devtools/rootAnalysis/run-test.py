@@ -883,7 +883,7 @@ name
 )
     
 except
-StandardError
+AssertionError
 :
         
 print
