@@ -828,6 +828,8 @@ TYPE
 )
 \
 thread_local
+:
+:
 mozilla
 :
 :
@@ -838,6 +840,8 @@ ThreadLocal
 <
 \
 TYPE
+:
+:
 mozilla
 :
 :
@@ -860,6 +864,8 @@ TYPE
 )
 \
 __thread
+:
+:
 mozilla
 :
 :
@@ -870,6 +876,8 @@ ThreadLocal
 <
 \
 TYPE
+:
+:
 mozilla
 :
 :
@@ -887,6 +895,8 @@ MOZ_THREAD_LOCAL
 TYPE
 )
 \
+:
+:
 mozilla
 :
 :
@@ -896,6 +906,8 @@ detail
 ThreadLocal
 <
 TYPE
+:
+:
 mozilla
 :
 :
