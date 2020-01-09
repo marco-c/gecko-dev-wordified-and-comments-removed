@@ -1243,6 +1243,9 @@ testOpenInDebugger
 hud
 toolbox
 text
+expectUrl
+=
+true
 )
 {
 info
@@ -1322,6 +1325,7 @@ checkClickOnNode
 hud
 toolbox
 frameLinkNode
+expectUrl
 )
 ;
 }
@@ -1332,6 +1336,7 @@ checkClickOnNode
 hud
 toolbox
 frameLinkNode
+expectUrl
 )
 {
 info
@@ -1506,7 +1511,11 @@ _getState
 )
 .
 url
+expectUrl
+?
 url
+:
+null
 "
 expected
 source
