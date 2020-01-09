@@ -10678,12 +10678,6 @@ universalXPConnectEnabled
 bool
 wasShutdown
 ;
-bool
-wrapperDenialWarnings
-[
-WrapperDenialTypeCount
-]
-;
 JSObject2WrappedJSMap
 *
 GetWrappedJSMap
@@ -10994,6 +10988,12 @@ bool
 forcePermissiveCOWs
 =
 false
+;
+bool
+wrapperDenialWarnings
+[
+WrapperDenialTypeCount
+]
 ;
 const
 nsACString
