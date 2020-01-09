@@ -2456,9 +2456,11 @@ out
 }
 #
 endif
-static
 void
 *
+wasm
+:
+:
 AddressOf
 (
 SymbolicAddress
