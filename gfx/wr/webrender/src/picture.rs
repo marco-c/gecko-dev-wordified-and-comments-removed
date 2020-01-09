@@ -315,7 +315,6 @@ atomic
 :
 {
 AtomicUsize
-ATOMIC_USIZE_INIT
 Ordering
 }
 ;
@@ -567,7 +566,13 @@ NEXT_TILE_ID
 :
 AtomicUsize
 =
-ATOMIC_USIZE_INIT
+AtomicUsize
+:
+:
+new
+(
+0
+)
 ;
 fn
 clamp
