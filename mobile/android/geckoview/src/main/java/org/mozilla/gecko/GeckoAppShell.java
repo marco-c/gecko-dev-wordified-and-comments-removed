@@ -2052,7 +2052,7 @@ void
 onSensorChanged
 (
 int
-hal_type
+halType
 float
 x
 float
