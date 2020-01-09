@@ -1616,6 +1616,11 @@ this
 ;
 if
 (
+Group
+(
+)
+&
+&
 !
 Group
 (
