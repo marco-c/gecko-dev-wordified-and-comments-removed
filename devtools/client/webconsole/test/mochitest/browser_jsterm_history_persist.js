@@ -540,12 +540,9 @@ history
 "
 )
 ;
-hud3
-.
-jsterm
-.
 setInputValue
 (
+hud3
 '
 "
 hello
@@ -1094,10 +1091,9 @@ i
 +
 )
 {
-jsterm
-.
 setInputValue
 (
+hud
 i
 .
 toString
@@ -1163,10 +1159,9 @@ KEY_ArrowUp
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 i
 "

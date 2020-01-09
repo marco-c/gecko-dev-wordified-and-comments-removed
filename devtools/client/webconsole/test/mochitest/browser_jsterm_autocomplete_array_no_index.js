@@ -113,9 +113,7 @@ performTests
 )
 {
 const
-{
-jsterm
-}
+hud
 =
 await
 openNewTabAndConsole
@@ -130,6 +128,8 @@ autocompletePopup
 popup
 }
 =
+hud
+.
 jsterm
 ;
 const
@@ -157,10 +157,9 @@ show
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 foo
 "

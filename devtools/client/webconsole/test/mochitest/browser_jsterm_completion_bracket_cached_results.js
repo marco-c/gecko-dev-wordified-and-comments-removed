@@ -691,10 +691,9 @@ hud
 .
 repeat
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 .
 length
@@ -708,10 +707,9 @@ value
 )
 ;
 }
-jsterm
-.
 setInputValue
 (
+hud
 "
 "
 )

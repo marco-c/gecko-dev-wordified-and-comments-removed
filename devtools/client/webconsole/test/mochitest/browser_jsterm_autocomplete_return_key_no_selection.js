@@ -197,10 +197,9 @@ show
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 window
 .
@@ -321,10 +320,9 @@ KEY_Enter
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 window
@@ -370,10 +368,9 @@ KEY_Enter
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 "

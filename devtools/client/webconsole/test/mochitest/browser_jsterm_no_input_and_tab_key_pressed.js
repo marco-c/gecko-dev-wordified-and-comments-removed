@@ -123,10 +123,9 @@ focus
 (
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 "
 )
@@ -142,10 +141,9 @@ KEY_Tab
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 "
@@ -217,10 +215,9 @@ true
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 "

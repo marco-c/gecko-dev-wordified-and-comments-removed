@@ -576,10 +576,9 @@ empty
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 "
 )
@@ -715,10 +714,9 @@ empty
 "
 )
 ;
-jsterm
-.
 setInputValue
 (
+hud
 "
 "
 )

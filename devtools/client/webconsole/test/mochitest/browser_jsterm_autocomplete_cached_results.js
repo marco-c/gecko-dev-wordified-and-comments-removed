@@ -132,10 +132,9 @@ doc
 ;
 is
 (
-jsterm
-.
 getInputValue
 (
+hud
 )
 "
 doc
