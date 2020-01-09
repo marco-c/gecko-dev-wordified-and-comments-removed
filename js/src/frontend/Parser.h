@@ -3485,7 +3485,7 @@ debuggerStatement
 (
 )
 ;
-Node
+ListNodeType
 variableStatement
 (
 YieldHandling
@@ -3722,7 +3722,7 @@ Node
 forInOrOfExpression
 )
 ;
-Node
+AssignmentNodeType
 initializerInNameDeclaration
 (
 NameNodeType
