@@ -5511,7 +5511,7 @@ use
 -
 dav1d
 "
-false
+true
 )
 ;
 #
