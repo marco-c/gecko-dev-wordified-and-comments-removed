@@ -1154,19 +1154,6 @@ flask
 '
 )
         
-self
-.
-virtualenv_manager
-.
-install_pip_package
-(
-'
-flask
--
-wtf
-'
-)
-        
 from
 tryselect
 .
