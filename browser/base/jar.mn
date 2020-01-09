@@ -958,7 +958,9 @@ browser
 /
 browser
 -
-webrender
+graphics
+-
+utils
 .
 js
 (
@@ -966,7 +968,9 @@ content
 /
 browser
 -
-webrender
+graphics
+-
+utils
 .
 js
 )
