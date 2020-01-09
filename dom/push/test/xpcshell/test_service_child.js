@@ -394,9 +394,6 @@ getSystemPrincipal
 (
 )
 invalidKey
-.
-length
-invalidKey
 (
 result
 subscription
@@ -511,9 +508,6 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
-key
-.
-length
 key
 (
 result
@@ -630,9 +624,6 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
-differentKey
-.
-length
 differentKey
 (
 result

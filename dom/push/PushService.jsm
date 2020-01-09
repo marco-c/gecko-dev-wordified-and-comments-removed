@@ -4712,6 +4712,16 @@ if
 aPageRecord
 .
 appServerKey
+&
+&
+aPageRecord
+.
+appServerKey
+.
+length
+!
+=
+0
 )
 {
 let

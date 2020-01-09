@@ -552,9 +552,6 @@ this
 .
 _principal
 keyView
-.
-byteLength
-keyView
 callback
 )
 ;
@@ -1272,12 +1269,6 @@ name
 )
 {
 let
-outKeyLen
-=
-{
-}
-;
-let
 rawKey
 =
 Cu
@@ -1289,7 +1280,6 @@ subscription
 getKey
 (
 name
-outKeyLen
 )
 this
 .
@@ -1301,9 +1291,9 @@ _window
 if
 (
 !
-outKeyLen
+rawKey
 .
-value
+length
 )
 {
 return
@@ -1322,9 +1312,9 @@ _window
 .
 ArrayBuffer
 (
-outKeyLen
+rawKey
 .
-value
+length
 )
 ;
 let
