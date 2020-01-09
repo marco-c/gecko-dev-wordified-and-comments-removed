@@ -26139,11 +26139,7 @@ post_scene_swap
 self
 document_id
 :
-&
-Vec
-<
 DocumentId
->
 info
 :
 PipelineInfo
@@ -26157,13 +26153,9 @@ post_resource_update
 (
 &
 self
-document_ids
+document_id
 :
-&
-Vec
-<
 DocumentId
->
 )
 ;
 fn
