@@ -13455,8 +13455,6 @@ ForceTitlebarRedraw
 (
 )
 ;
-return
-;
 }
 if
 (
