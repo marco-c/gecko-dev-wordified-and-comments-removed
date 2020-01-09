@@ -3014,14 +3014,6 @@ focus
 :
 ignore
 ;
-}
-.
-autocomplete
--
-richlistbox
->
-scrollbox
-{
 overflow
 -
 x

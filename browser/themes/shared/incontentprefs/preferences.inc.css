@@ -536,8 +536,6 @@ rgba
 }
 #
 categories
->
-scrollbox
 {
 overflow
 :
@@ -545,14 +543,6 @@ visible
 !
 important
 ;
-}
-#
-categories
->
-scrollbox
->
-box
-{
 padding
 :
 1px
