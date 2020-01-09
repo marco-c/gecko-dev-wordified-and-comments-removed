@@ -33,14 +33,16 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 gfx
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 SVGPolyElement
 :
 :
@@ -700,4 +702,6 @@ i
 return
 true
 ;
+}
+}
 }
