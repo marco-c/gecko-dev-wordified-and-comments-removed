@@ -117,7 +117,7 @@ aWidth
 return
 GetAlignedStride
 <
-32
+4
 >
 (
 aWidth
