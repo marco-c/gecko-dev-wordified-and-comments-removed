@@ -107,7 +107,7 @@ IN_SCOPE_LINES
 +
 lines
 :
-AstLocation
+number
 [
 ]
 |
