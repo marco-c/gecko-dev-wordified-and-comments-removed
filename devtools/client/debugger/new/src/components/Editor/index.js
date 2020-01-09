@@ -694,6 +694,10 @@ nextProps
 editor
 )
 ;
+endOperation
+(
+)
+;
 if
 (
 this
@@ -731,10 +735,6 @@ codeMirror
 )
 ;
 }
-endOperation
-(
-)
-;
 }
 setupEditor
 (
