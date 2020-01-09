@@ -57,7 +57,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
