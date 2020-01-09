@@ -386,6 +386,9 @@ setup
 "
 )
         
+try
+:
+            
 self
 .
 executor
@@ -393,6 +396,31 @@ executor
 setup
 (
 self
+)
+        
+except
+Exception
+:
+            
+self
+.
+send_message
+(
+"
+init_failed
+"
+)
+        
+else
+:
+            
+self
+.
+send_message
+(
+"
+init_succeeded
+"
 )
         
 self
