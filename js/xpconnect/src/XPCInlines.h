@@ -904,6 +904,10 @@ XPCNativeInterface
 addition
 )
 :
+mCx
+(
+nullptr
+)
 mBaseSet
 (
 baseSet

@@ -179,6 +179,7 @@ wrapper
 ToString
 (
 ccx
+ccx
 .
 GetTearOff
 (
@@ -1445,6 +1446,7 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
+ccx
 name
 .
 get

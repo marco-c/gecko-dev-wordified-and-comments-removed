@@ -5144,6 +5144,7 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
+cx
 iid
 )
 ;

@@ -506,6 +506,9 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
+JSContext
+*
+cx
 const
 nsIID
 *
@@ -602,6 +605,7 @@ iface
 =
 NewInstance
 (
+cx
 info
 )
 ;
@@ -681,6 +685,9 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
+JSContext
+*
+cx
 const
 nsXPTInterfaceInfo
 *
@@ -757,6 +764,7 @@ iface
 =
 NewInstance
 (
+cx
 info
 )
 ;
@@ -838,6 +846,9 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
+JSContext
+*
+cx
 const
 char
 *
@@ -862,6 +873,7 @@ info
 ?
 GetNewOrUsed
 (
+cx
 info
 )
 :
@@ -877,11 +889,15 @@ XPCNativeInterface
 :
 GetISupports
 (
+JSContext
+*
+cx
 )
 {
 return
 GetNewOrUsed
 (
+cx
 &
 NS_GET_IID
 (
@@ -899,15 +915,15 @@ XPCNativeInterface
 :
 NewInstance
 (
+JSContext
+*
+cx
 const
 nsXPTInterfaceInfo
 *
 aInfo
 )
 {
-AutoJSContext
-cx
-;
 static
 const
 uint16_t
@@ -2067,6 +2083,7 @@ XPCNativeInterface
 :
 GetISupports
 (
+mCx
 )
 ;
 h
@@ -2169,6 +2186,9 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
+JSContext
+*
+cx
 const
 nsIID
 *
@@ -2186,6 +2206,7 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
+cx
 iid
 )
 ;
@@ -2202,6 +2223,7 @@ nullptr
 XPCNativeSetKey
 key
 (
+cx
 iface
 )
 ;
@@ -2269,6 +2291,7 @@ set
 =
 NewInstance
 (
+cx
 {
 iface
 .
@@ -2336,6 +2359,9 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
+JSContext
+*
+cx
 nsIClassInfo
 *
 classInfo
@@ -2464,6 +2490,7 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
+cx
 &
 iid
 )
@@ -2501,6 +2528,7 @@ set
 =
 NewInstance
 (
+cx
 std
 :
 :
@@ -2602,6 +2630,7 @@ set
 =
 GetNewOrUsed
 (
+cx
 &
 NS_GET_IID
 (
@@ -2725,6 +2754,9 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
+JSContext
+*
+cx
 XPCNativeSetKey
 *
 key
@@ -2807,6 +2839,7 @@ set
 =
 NewInstance
 (
+cx
 {
 key
 -
@@ -2875,6 +2908,9 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
+JSContext
+*
+cx
 XPCNativeSet
 *
 firstSet
@@ -3055,6 +3091,7 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
+cx
 &
 key
 )
@@ -3099,6 +3136,9 @@ XPCNativeSet
 :
 NewInstance
 (
+JSContext
+*
+cx
 nsTArray
 <
 RefPtr
@@ -3138,6 +3178,7 @@ XPCNativeInterface
 :
 GetISupports
 (
+cx
 )
 ;
 uint16_t
