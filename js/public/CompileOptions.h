@@ -175,6 +175,16 @@ hideScriptFromDebugger
 =
 false
 ;
+#
+ifdef
+ENABLE_BIGINT
+bool
+bigIntEnabledOption
+=
+false
+;
+#
+endif
 const
 char
 *
