@@ -582,6 +582,10 @@ IsInline
 :
 :
 No
+IsExplicitlyEnabled
+:
+:
+No
 }
 )
 ;
