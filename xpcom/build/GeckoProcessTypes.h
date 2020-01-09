@@ -70,3 +70,11 @@ socket
 "
 Socket
 )
+GECKO_PROCESS_TYPE
+(
+RemoteSandboxBroker
+"
+sandbox
+"
+RemoteSandboxBroker
+)

@@ -2974,9 +2974,14 @@ SYNC_ENUMS
 SOCKET
 Socket
 )
+SYNC_ENUMS
+(
+SANDBOX_BROKER
+RemoteSandboxBroker
+)
 static_assert
 (
-GeckoProcessType_Socket
+GeckoProcessType_RemoteSandboxBroker
 +
 1
 =

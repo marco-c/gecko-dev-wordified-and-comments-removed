@@ -2285,6 +2285,9 @@ XRE_GetProcessType
 )
 )
 {
+case
+GeckoProcessType_RemoteSandboxBroker
+:
 default
 :
 loadChromeManifests

@@ -512,6 +512,13 @@ PROCESS_TYPE_SOCKET
 =
 8
 ;
+const
+unsigned
+long
+PROCESS_TYPE_SANDBOX_BROKER
+=
+9
+;
 /
 *
 *
