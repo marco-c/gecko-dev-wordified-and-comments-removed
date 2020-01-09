@@ -4004,11 +4004,13 @@ aUpdateType
 #
 ifdef
 DEBUG
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 VerifyIncrementalReflow
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DoVerifyReflow
 (
