@@ -131,7 +131,9 @@ tabToDetach
 )
 ;
 await
-promiseWaitForEvent
+BrowserTestUtils
+.
+waitForEvent
 (
 tabToDetach
 .
