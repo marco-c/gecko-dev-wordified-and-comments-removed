@@ -3921,6 +3921,13 @@ FromMicroseconds
 tstamp
 )
 ;
+if
+(
+next_tstamp
+>
+tstamp
+)
+{
 sample
 -
 >
@@ -3936,6 +3943,7 @@ next_tstamp
 tstamp
 )
 ;
+}
 sample
 -
 >
