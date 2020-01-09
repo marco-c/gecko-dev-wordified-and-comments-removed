@@ -8871,7 +8871,6 @@ haveRadius
 =
 true
 ;
-}
 if
 (
 length
@@ -8895,6 +8894,7 @@ length
 sum
 )
 ;
+}
 }
 }
 if
