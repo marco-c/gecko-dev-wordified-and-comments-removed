@@ -446,7 +446,7 @@ char
 aOutBadConstraint
 )
 ;
-nsresult
+void
 SetTrack
 (
 const
