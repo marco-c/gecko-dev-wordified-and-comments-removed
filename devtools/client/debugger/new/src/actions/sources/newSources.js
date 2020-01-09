@@ -206,6 +206,10 @@ generatedSource
 id
 originalUrl
 )
+thread
+:
+"
+"
 isPrettyPrinted
 :
 false

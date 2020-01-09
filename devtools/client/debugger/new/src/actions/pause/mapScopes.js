@@ -1,5 +1,6 @@
 import
 {
+getCurrentThread
 getSource
 }
 from
@@ -211,6 +212,14 @@ type
 "
 MAP_SCOPES
 "
+thread
+:
+getCurrentThread
+(
+getState
+(
+)
+)
 frame
 [
 PROMISE

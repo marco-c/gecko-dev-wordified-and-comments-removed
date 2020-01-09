@@ -1,5 +1,6 @@
 import
 {
+getCurrentThread
 getSelectedFrame
 getGeneratedFrameScope
 }
@@ -126,6 +127,14 @@ type
 "
 ADD_SCOPES
 "
+thread
+:
+getCurrentThread
+(
+getState
+(
+)
+)
 frame
 [
 PROMISE

@@ -256,6 +256,9 @@ connect
 tabTarget
 .
 url
+threadClient
+.
+actor
 traits
 &
 &
@@ -290,6 +293,7 @@ clientEvents
 .
 paused
 (
+threadClient
 "
 paused
 "

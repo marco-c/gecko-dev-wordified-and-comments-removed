@@ -14,6 +14,7 @@ types
 import
 {
 getSkipPausing
+getCurrentThread
 }
 from
 "
@@ -48,6 +49,16 @@ ThunkArgs
 >
 {
 const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
+const
 skipPausing
 =
 !
@@ -63,6 +74,7 @@ client
 .
 setSkipPausing
 (
+thread
 skipPausing
 )
 ;
@@ -74,6 +86,7 @@ type
 "
 TOGGLE_SKIP_PAUSING
 "
+thread
 skipPausing
 }
 )

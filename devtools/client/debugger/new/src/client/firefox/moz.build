@@ -83,4 +83,9 @@ events
 .
 js
 '
+'
+workers
+.
+js
+'
 )

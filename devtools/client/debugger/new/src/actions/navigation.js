@@ -222,6 +222,9 @@ connect
 url
 :
 string
+thread
+:
+string
 canRewind
 :
 boolean
@@ -256,6 +259,7 @@ type
 CONNECT
 "
 url
+thread
 canRewind
 }
 :
