@@ -139,12 +139,12 @@ EditorSpellCheck
 cpp
 '
 '
-nsComposeTxtSrvFilter
+FilteredContentIterator
 .
 cpp
 '
 '
-nsFilteredContentIterator
+nsComposeTxtSrvFilter
 .
 cpp
 '
