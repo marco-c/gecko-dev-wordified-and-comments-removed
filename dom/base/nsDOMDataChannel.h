@@ -553,12 +553,6 @@ aContext
 )
 override
 ;
-virtual
-void
-AppReady
-(
-)
-;
 void
 UpdateMustKeepAlive
 (
