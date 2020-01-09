@@ -5157,7 +5157,10 @@ layer
 nullptr
 nullptr
 aFrame
-eCSSProperty_transform
+DisplayItemType
+:
+:
+TYPE_TRANSFORM
 )
 ;
 }
