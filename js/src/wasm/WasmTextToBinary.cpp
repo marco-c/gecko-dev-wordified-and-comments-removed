@@ -248,7 +248,7 @@ Func
 FuncRef
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 GcFeatureOptIn
 #
 endif
@@ -1570,7 +1570,7 @@ FuncRef
 :
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 case
 GcFeatureOptIn
 :
@@ -7097,7 +7097,7 @@ g
 :
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 if
 (
 consume
@@ -26143,7 +26143,7 @@ memory
 }
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 static
 bool
 ParseGcFeatureOptIn
@@ -26560,7 +26560,7 @@ generateError
 token
 "
 '
-anyfunc
+funcref
 '
 or
 '
@@ -26584,7 +26584,7 @@ generateError
 token
 "
 '
-anyfunc
+funcref
 '
 required
 "
@@ -29427,7 +29427,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 case
 WasmToken
 :
@@ -39442,7 +39442,7 @@ kind
 }
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 static
 bool
 EncodeGcFeatureOptInSection
@@ -42788,7 +42788,7 @@ false
 }
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 if
 (
 !

@@ -3534,7 +3534,7 @@ wasm_cranelift
 endif
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 bool
 useWasmGc
 =
@@ -4110,7 +4110,7 @@ useWasmCranelift
 endif
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 .
 setWasmGc
 (
