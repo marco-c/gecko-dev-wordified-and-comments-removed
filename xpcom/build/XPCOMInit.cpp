@@ -3147,6 +3147,17 @@ nsCycleCollector_shutdown
 shutdownCollect
 )
 ;
+mozilla
+:
+:
+KillClearOnShutdown
+(
+ShutdownPhase
+:
+:
+ShutdownPostLastCycleCollection
+)
+;
 PROFILER_ADD_MARKER
 (
 "

@@ -1114,6 +1114,10 @@ ClearOnShutdown
 (
 &
 gHttpHandler
+ShutdownPhase
+:
+:
+ShutdownPostLastCycleCollection
 )
 ;
 }
