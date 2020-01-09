@@ -729,7 +729,7 @@ plugin
 type
 :
 string
-Bug_1537883
+Bug_1541161
 :
 description
 :
@@ -739,11 +739,11 @@ JS
 Stack
 in
 case
-aPrincipal
+loadinfo
 is
 null
 within
-SpeculativeConnect
+NewChannelFromURIWithProxyFlagsInternal
 (
 )
 .
