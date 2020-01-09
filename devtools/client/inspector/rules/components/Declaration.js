@@ -372,7 +372,7 @@ theme
 -
 fg
 -
-color5
+color3
 "
 }
 name
@@ -572,7 +572,7 @@ theme
 -
 fg
 -
-color5
+color3
 "
 }
 name
@@ -763,7 +763,7 @@ theme
 -
 fg
 -
-color5
+color3
 "
 }
 name

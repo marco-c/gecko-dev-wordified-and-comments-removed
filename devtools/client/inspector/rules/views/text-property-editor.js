@@ -779,7 +779,7 @@ theme
 -
 fg
 -
-color5
+color3
 "
 tabindex
 :
@@ -3838,7 +3838,7 @@ theme
 -
 fg
 -
-color5
+color3
 "
 textContent
 :
