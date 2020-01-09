@@ -519,6 +519,11 @@ PROCESS_TYPE_GPU
 "
 gpu
 "
+PROCESS_TYPE_VR
+:
+"
+vr
+"
 PROCESS_TYPE_RDD
 :
 "
@@ -1530,6 +1535,15 @@ processType
 this
 .
 PROCESS_TYPE_GPU
+|
+|
+processType
+=
+=
+=
+this
+.
+PROCESS_TYPE_VR
 |
 |
 processType

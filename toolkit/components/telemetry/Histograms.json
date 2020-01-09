@@ -105682,6 +105682,16 @@ gpu
 hang
 "
 "
+vr
+-
+crash
+"
+"
+vr
+-
+hang
+"
+"
 rdd
 -
 crash
