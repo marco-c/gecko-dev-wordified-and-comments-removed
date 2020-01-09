@@ -236,8 +236,6 @@ equal
 (
 where
 .
-source
-.
 actor
 source
 .

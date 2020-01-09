@@ -220,8 +220,6 @@ equal
 (
 where
 .
-source
-.
 actor
 source
 .
@@ -272,16 +270,14 @@ packet
 await
 executeOnNextTickAndWaitForPause
 (
-function
 (
 )
-{
+=
+>
 resume
 (
 threadClient
 )
-;
-}
 client
 )
 ;
@@ -359,8 +355,6 @@ Assert
 equal
 (
 where
-.
-source
 .
 actor
 source
