@@ -3738,6 +3738,9 @@ i32
 height
 :
 i32
+format
+:
+ImageFormat
 dst_buffer
 :
 *
@@ -3782,10 +3785,7 @@ height
 into
 (
 )
-ImageFormat
-:
-:
-BGRA8
+format
 &
 mut
 slice

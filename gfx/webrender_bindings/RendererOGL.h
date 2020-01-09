@@ -186,6 +186,16 @@ aReadbackSize
 const
 Maybe
 <
+wr
+:
+:
+ImageFormat
+>
+&
+aReadbackFormat
+const
+Maybe
+<
 Range
 <
 uint8_t

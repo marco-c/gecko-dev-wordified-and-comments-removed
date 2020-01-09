@@ -1376,6 +1376,9 @@ Nothing
 Nothing
 (
 )
+Nothing
+(
+)
 hadSlowFrame
 )
 ;
@@ -1820,6 +1823,16 @@ aReadbackSize
 const
 Maybe
 <
+wr
+:
+:
+ImageFormat
+>
+&
+aReadbackFormat
+const
+Maybe
+<
 Range
 <
 uint8_t
@@ -1971,6 +1984,7 @@ renderer
 UpdateAndRender
 (
 aReadbackSize
+aReadbackFormat
 aReadbackBuffer
 aHadSlowFrame
 &

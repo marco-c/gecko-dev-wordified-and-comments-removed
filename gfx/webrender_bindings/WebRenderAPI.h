@@ -1053,6 +1053,13 @@ gfx
 IntSize
 aSize
 const
+gfx
+:
+:
+SurfaceFormat
+&
+aFormat
+const
 Range
 <
 uint8_t
