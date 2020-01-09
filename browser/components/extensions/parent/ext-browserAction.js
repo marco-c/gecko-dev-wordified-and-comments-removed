@@ -1372,6 +1372,8 @@ if
 (
 !
 widget
+.
+node
 |
 |
 !
@@ -2710,7 +2712,7 @@ window
 )
 {
 let
-widget
+node
 =
 this
 .
@@ -2720,10 +2722,12 @@ forWindow
 (
 window
 )
+.
+node
 ;
 if
 (
-widget
+node
 )
 {
 let
@@ -2739,8 +2743,6 @@ this
 .
 updateButton
 (
-widget
-.
 node
 this
 .
