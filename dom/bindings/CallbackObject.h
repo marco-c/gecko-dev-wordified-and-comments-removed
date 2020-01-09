@@ -2052,6 +2052,7 @@ T
 >
 class
 MOZ_RAII
+MOZ_IS_SMARTPTR_TO_REFCOUNTED
 RootedCallback
 :
 public
