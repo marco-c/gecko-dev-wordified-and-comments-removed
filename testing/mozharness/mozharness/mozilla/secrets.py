@@ -389,12 +389,19 @@ secret_files
             
 filename
 =
+os
+.
+path
+.
+abspath
+(
 sf
 [
 '
 filename
 '
 ]
+)
             
 secret_name
 =
