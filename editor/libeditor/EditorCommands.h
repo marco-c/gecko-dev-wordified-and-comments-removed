@@ -193,10 +193,6 @@ RedoCommand
 )
 NS_DECL_EDITOR_COMMAND
 (
-ClearUndoCommand
-)
-NS_DECL_EDITOR_COMMAND
-(
 CutCommand
 )
 NS_DECL_EDITOR_COMMAND

@@ -221,14 +221,6 @@ cmd_redo
 ;
 NS_REGISTER_ONE_COMMAND
 (
-ClearUndoCommand
-"
-cmd_clearUndo
-"
-)
-;
-NS_REGISTER_ONE_COMMAND
-(
 CutCommand
 "
 cmd_cut
