@@ -324,11 +324,6 @@ deviceName
 PropTypes
 .
 string
-adbPackageVersion
-:
-PropTypes
-.
-string
 }
 ;
 const
@@ -372,13 +367,6 @@ bool
 .
 isRequired
 isConnectionTimeout
-:
-PropTypes
-.
-bool
-.
-isRequired
-isFenix
 :
 PropTypes
 .

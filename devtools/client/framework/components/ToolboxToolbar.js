@@ -460,7 +460,7 @@ PropTypes
 shape
 (
 {
-runtimeInfo
+deviceDescription
 :
 PropTypes
 .
