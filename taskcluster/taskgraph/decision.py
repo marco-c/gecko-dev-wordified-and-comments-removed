@@ -25,6 +25,12 @@ logging
 import
 time
 import
+sys
+from
+redo
+import
+retry
+import
 yaml
 from
 .
@@ -1942,28 +1948,28 @@ try
         
 decision_task
 =
+retry
+(
+            
 find_decision_task
+            
+args
+=
 (
 parameters
 graph_config
 )
-        
-task_graph
+            
+attempts
 =
-get_artifact
-(
-decision_task
-"
-public
-/
-full
--
-task
--
-graph
-.
-json
-"
+4
+            
+sleeptime
+=
+5
+*
+60
+        
 )
     
 except
@@ -1986,7 +1992,12 @@ task
 "
 )
         
-return
+sys
+.
+exit
+(
+1
+)
     
 _
 task_graph
@@ -1995,7 +2006,21 @@ TaskGraph
 .
 from_json
 (
-task_graph
+get_artifact
+(
+decision_task
+"
+public
+/
+full
+-
+task
+-
+graph
+.
+json
+"
+)
 )
     
 parameters
