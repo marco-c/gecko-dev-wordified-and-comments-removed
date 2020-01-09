@@ -5099,6 +5099,9 @@ WrThreadPool
 size_of_op
 :
 VoidPtrToSizeFn
+enclosing_size_of_op
+:
+VoidPtrToSizeFn
 out_handle
 :
 &
@@ -5490,6 +5493,12 @@ size_of_op
 Some
 (
 size_of_op
+)
+enclosing_size_of_op
+:
+Some
+(
+enclosing_size_of_op
 )
 cached_programs
 resource_override_path

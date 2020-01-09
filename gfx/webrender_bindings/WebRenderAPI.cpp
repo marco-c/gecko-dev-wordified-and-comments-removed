@@ -116,6 +116,10 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 (
 WebRenderMallocSizeOf
 )
+MOZ_DEFINE_MALLOC_ENCLOSING_SIZE_OF
+(
+WebRenderMallocEnclosingSizeOf
+)
 class
 NewRenderer
 :
@@ -407,6 +411,8 @@ Raw
 )
 &
 WebRenderMallocSizeOf
+&
+WebRenderMallocEnclosingSizeOf
 mDocHandle
 &
 wrRenderer
