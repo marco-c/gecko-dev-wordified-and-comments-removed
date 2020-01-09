@@ -835,12 +835,14 @@ ModuleObject
 module
 (
 )
+const
 ;
 IndirectBindingMap
 &
 importBindings
 (
 )
+const
 ;
 bool
 createImportBinding
