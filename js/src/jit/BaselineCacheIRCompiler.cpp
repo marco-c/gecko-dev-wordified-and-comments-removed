@@ -5301,7 +5301,7 @@ loadPtr
 Address
 (
 ICStubReg
-ICUpdatedStub
+ICCacheIR_Updated
 :
 :
 offsetOfFirstUpdateStub
@@ -5456,7 +5456,7 @@ JSContext
 *
 BaselineFrame
 *
-ICUpdatedStub
+ICCacheIR_Updated
 *
 HandleValue
 HandleValue
