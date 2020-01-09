@@ -1625,7 +1625,6 @@ ok_or
 ?
 ;
 let
-mut
 handle
 =
 unsafe
@@ -2856,7 +2855,6 @@ ok_or
 ?
 ;
 let
-mut
 handle
 =
 unsafe
