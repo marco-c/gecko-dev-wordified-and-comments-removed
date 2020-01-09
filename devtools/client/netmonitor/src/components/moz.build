@@ -191,6 +191,11 @@ RequestListColumnType
 js
 '
 '
+RequestListColumnUrl
+.
+js
+'
+'
 RequestListColumnWaterfall
 .
 js
@@ -222,6 +227,11 @@ js
 '
 '
 SecurityPanel
+.
+js
+'
+'
+SecurityState
 .
 js
 '

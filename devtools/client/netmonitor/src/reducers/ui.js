@@ -60,6 +60,9 @@ true
 file
 :
 true
+url
+:
+false
 protocol
 :
 false

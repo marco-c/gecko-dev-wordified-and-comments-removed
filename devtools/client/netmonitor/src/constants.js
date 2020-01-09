@@ -689,6 +689,16 @@ false
 name
 :
 "
+url
+"
+canFilter
+:
+true
+}
+{
+name
+:
+"
 protocol
 "
 canFilter
