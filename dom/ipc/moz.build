@@ -237,6 +237,11 @@ CPOWManagerGetter
 h
 '
 '
+DocShellMessageUtils
+.
+h
+'
+'
 FilePickerParent
 .
 h
@@ -370,6 +375,11 @@ cpp
 '
 '
 ContentProcessManager
+.
+cpp
+'
+'
+DocShellMessageUtils
 .
 cpp
 '
