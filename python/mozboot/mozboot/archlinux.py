@@ -24,14 +24,22 @@ mozboot
 .
 linux_common
 import
-NodeInstall
-StyloInstall
+(
+    
 ClangStaticAnalysisInstall
+    
+NodeInstall
+    
+SccacheInstall
+    
+StyloInstall
+)
 class
 ArchlinuxBootstrapper
 (
 NodeInstall
 StyloInstall
+SccacheInstall
                             
 ClangStaticAnalysisInstall
 BaseBootstrapper
