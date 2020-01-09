@@ -198,11 +198,6 @@ PropTypes
 func
 .
 isRequired
-useTopLevelWindow
-:
-PropTypes
-.
-bool
 }
 ;
 }
@@ -239,7 +234,6 @@ const
 {
 networkThrottling
 onChangeNetworkThrottling
-useTopLevelWindow
 }
 =
 this
