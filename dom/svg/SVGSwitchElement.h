@@ -15,6 +15,13 @@ SVGGraphicsElement
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 class
 nsSVGSwitchFrame
 ;

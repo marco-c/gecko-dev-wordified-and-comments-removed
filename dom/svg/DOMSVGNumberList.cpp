@@ -36,7 +36,11 @@ h
 #
 include
 "
-nsCOMPtr
+mozilla
+/
+dom
+/
+SVGNumberListBinding
 .
 h
 "
@@ -45,9 +49,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGNumberListBinding
+RefPtr
 .
 h
 "
