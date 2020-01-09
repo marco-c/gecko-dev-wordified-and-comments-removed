@@ -5855,10 +5855,6 @@ BufferContents
 contents
 OwnsState
 ownsState
-HandleObject
-proto
-NewObjectKind
-newKind
 )
 {
 MOZ_ASSERT_IF
@@ -6164,9 +6160,9 @@ ArrayBufferObject
 >
 (
 cx
-proto
+nullptr
 allocKind
-newKind
+TenuredObject
 )
 )
 ;
@@ -8749,8 +8745,6 @@ ArrayBufferObject
 :
 :
 OwnsData
-nullptr
-TenuredObject
 )
 ;
 }
@@ -8830,8 +8824,6 @@ ArrayBufferObject
 :
 :
 OwnsData
-nullptr
-TenuredObject
 )
 ;
 }
@@ -8901,8 +8893,6 @@ ArrayBufferObject
 :
 :
 DoesntOwnData
-nullptr
-TenuredObject
 )
 ;
 }
@@ -9260,8 +9250,6 @@ ArrayBufferObject
 :
 :
 OwnsData
-nullptr
-TenuredObject
 )
 ;
 }
