@@ -121,6 +121,8 @@ CompositorWidget
 *
 aCompositorWidget
 bool
+aWebRender
+bool
 aForceAccelerated
 )
 {
@@ -140,6 +142,7 @@ sGLContextProviderGLX
 CreateForCompositorWidget
 (
 aCompositorWidget
+aWebRender
 aForceAccelerated
 )
 ;
@@ -152,6 +155,7 @@ sGLContextProviderEGL
 CreateForCompositorWidget
 (
 aCompositorWidget
+aWebRender
 aForceAccelerated
 )
 ;

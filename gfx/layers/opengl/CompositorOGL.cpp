@@ -1318,6 +1318,7 @@ CreateForCompositorWidget
 (
 mWidget
 false
+false
 )
 ;
 }
@@ -1408,6 +1409,7 @@ GLContextProvider
 CreateForCompositorWidget
 (
 mWidget
+false
 gfxVars
 :
 :

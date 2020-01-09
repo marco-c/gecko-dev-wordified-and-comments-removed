@@ -78,6 +78,7 @@ CreateForCompositorWidget
 (
 aWidget
 true
+true
 )
 ;
 if

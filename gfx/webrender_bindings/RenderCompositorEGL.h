@@ -159,14 +159,6 @@ GLContext
 >
 CreateGLContext
 (
-RefPtr
-<
-widget
-:
-:
-CompositorWidget
->
-aWidget
 )
 ;
 EGLSurface
