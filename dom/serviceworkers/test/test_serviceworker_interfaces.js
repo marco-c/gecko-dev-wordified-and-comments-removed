@@ -499,7 +499,6 @@ function
 createInterfaceMap
 (
 {
-version
 isNightly
 isRelease
 isDesktop
