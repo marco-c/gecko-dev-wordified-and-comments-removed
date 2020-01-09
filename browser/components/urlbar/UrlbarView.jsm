@@ -1929,6 +1929,13 @@ favicon
 .
 src
 =
+result
+.
+payload
+.
+icon
+|
+|
 UrlbarUtils
 .
 ICON
