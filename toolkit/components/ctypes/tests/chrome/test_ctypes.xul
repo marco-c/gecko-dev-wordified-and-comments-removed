@@ -678,8 +678,7 @@ message
 =
 =
 "
-uncaught
-exception
+Error
 :
 7
 .
@@ -698,8 +697,7 @@ message
 =
 =
 "
-uncaught
-exception
+Error
 :
 Just
 following

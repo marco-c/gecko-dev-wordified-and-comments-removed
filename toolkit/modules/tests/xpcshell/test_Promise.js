@@ -3513,7 +3513,11 @@ iterable
 )
 {
 throw
+new
+Error
+(
 1
+)
 ;
 }
 return
@@ -3556,6 +3560,8 @@ Assert
 equal
 (
 reason
+.
+message
 1
 "
 all
@@ -3926,7 +3932,11 @@ iterable
 )
 {
 throw
+new
+Error
+(
 1
+)
 ;
 }
 return
@@ -3969,6 +3979,8 @@ Assert
 equal
 (
 reason
+.
+message
 1
 "
 race

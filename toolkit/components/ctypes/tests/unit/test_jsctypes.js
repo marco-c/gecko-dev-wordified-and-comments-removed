@@ -25040,6 +25040,9 @@ i
 42
 )
 throw
+new
+Error
+(
 "
 7
 .
@@ -25050,6 +25053,7 @@ for
 that
 ?
 "
+)
 ;
 return
 "
@@ -25328,6 +25332,9 @@ if
 fail
 )
 throw
+new
+Error
+(
 "
 Just
 following
@@ -25335,6 +25342,7 @@ orders
 sir
 !
 "
+)
 ;
 return
 bignum1

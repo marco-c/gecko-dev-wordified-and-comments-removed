@@ -1072,7 +1072,11 @@ _promiseCanceled
 )
 {
 throw
+new
+Error
+(
 undefined
+)
 ;
 }
 this

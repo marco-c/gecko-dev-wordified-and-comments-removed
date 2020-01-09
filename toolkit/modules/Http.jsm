@@ -303,6 +303,9 @@ target
 statusText
 ;
 throw
+new
+Error
+(
 target
 .
 status
@@ -312,6 +315,7 @@ status
 "
 +
 errorText
+)
 ;
 }
 if
