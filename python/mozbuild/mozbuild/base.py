@@ -4231,6 +4231,20 @@ s
 '
 )
         
+else
+:
+            
+args
+.
+append
+(
+'
+BUILD_VERBOSE_LOG
+=
+1
+'
+)
+        
 if
 print_directory
 :
