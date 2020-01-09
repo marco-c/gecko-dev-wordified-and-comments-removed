@@ -2375,6 +2375,8 @@ ComputedStyle
 >
 ComputeSelectionStyle
 (
+int16_t
+aSelectionStatus
 )
 const
 ;
