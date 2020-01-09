@@ -189,13 +189,6 @@ mixed
 content
 "
 "
-require
--
-sri
--
-for
-"
-"
 sandbox
 "
 "

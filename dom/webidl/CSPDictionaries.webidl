@@ -247,16 +247,6 @@ sequence
 <
 DOMString
 >
-require
--
-sri
--
-for
-;
-sequence
-<
-DOMString
->
 sandbox
 ;
 sequence
