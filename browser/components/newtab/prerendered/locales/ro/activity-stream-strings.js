@@ -1170,7 +1170,11 @@ firstrun_extra_legal_links
 "
 Prin
 continuare
-agreezi
+e
+ti
+de
+acord
+cu
 {
 terms
 }

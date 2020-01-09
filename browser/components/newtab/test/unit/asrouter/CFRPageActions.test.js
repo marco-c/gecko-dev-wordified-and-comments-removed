@@ -412,6 +412,14 @@ fakeBrowser
 }
 )
 ;
+document
+.
+createXULElement
+=
+document
+.
+createElement
+;
 elements
 =
 {
