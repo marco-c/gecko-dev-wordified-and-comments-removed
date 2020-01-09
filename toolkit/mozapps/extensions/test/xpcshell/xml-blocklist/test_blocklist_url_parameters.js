@@ -84,6 +84,8 @@ TestUtils
 topicObserved
 (
 "
+addon
+-
 blocklist
 -
 updated

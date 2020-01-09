@@ -70,6 +70,8 @@ removeObserver
 (
 observer
 "
+plugin
+-
 blocklist
 -
 updated
@@ -93,6 +95,8 @@ addObserver
 (
 observer
 "
+plugin
+-
 blocklist
 -
 updated
