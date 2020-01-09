@@ -96,6 +96,8 @@ script
 :
 curl
 -
+f
+-
 s
 -
 S
@@ -147,6 +149,8 @@ hook
 script
 :
 curl
+-
+f
 -
 s
 -
