@@ -158,6 +158,9 @@ SyncGamepadState
 (
 uint32_t
 aIndex
+nsGlobalWindowInner
+*
+aWindow
 Gamepad
 *
 aGamepad
