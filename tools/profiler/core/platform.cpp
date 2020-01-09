@@ -1701,6 +1701,13 @@ NS_IsMainThread
 IOInterposer
 :
 :
+Init
+(
+)
+;
+IOInterposer
+:
+:
 Register
 (
 IOInterposeObserver
@@ -1737,6 +1744,13 @@ ActivePS
 (
 )
 {
+IOInterposer
+:
+:
+Init
+(
+)
+;
 IOInterposer
 :
 :
