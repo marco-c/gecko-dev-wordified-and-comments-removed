@@ -242,7 +242,7 @@ Get
 vm
 -
 >
-Destroy
+Shutdown
 (
 )
 ;

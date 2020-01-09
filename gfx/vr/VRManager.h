@@ -329,7 +329,7 @@ aTimeout
 )
 ;
 void
-Destroy
+Shutdown
 (
 )
 ;
@@ -347,12 +347,12 @@ VRManager
 private
 :
 void
-Init
+Destroy
 (
 )
 ;
 void
-Shutdown
+Init
 (
 )
 ;
