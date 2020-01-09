@@ -1870,6 +1870,11 @@ dest
 )
 ;
 }
+void
+bumpInterpreterICEntry
+(
+)
+;
 Address
 addressOfInterpreterScript
 (
