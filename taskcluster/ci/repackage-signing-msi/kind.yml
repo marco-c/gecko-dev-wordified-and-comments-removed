@@ -107,6 +107,12 @@ platforms
 -
 win32
 -
+shippable
+/
+opt
+-
+win32
+-
 nightly
 /
 opt
@@ -120,6 +126,12 @@ nightly
 opt
 -
 win32
+/
+opt
+-
+win64
+-
+shippable
 /
 opt
 -

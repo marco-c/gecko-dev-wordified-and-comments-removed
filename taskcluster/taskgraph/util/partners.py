@@ -321,7 +321,7 @@ i686
 '
 linux
 -
-nightly
+shippable
 '
     
 '
@@ -333,7 +333,7 @@ x86_64
 '
 linux64
 -
-nightly
+shippable
 '
     
 '
@@ -343,7 +343,7 @@ mac
 '
 macosx64
 -
-nightly
+shippable
 '
     
 '
@@ -353,7 +353,7 @@ win32
 '
 win32
 -
-nightly
+shippable
 '
     
 '
@@ -363,7 +363,7 @@ win64
 '
 win64
 -
-nightly
+shippable
 '
     
 '
@@ -377,7 +377,7 @@ win64
 -
 aarch64
 -
-nightly
+shippable
 '
 }
 TASKCLUSTER_PROXY_SECRET_ROOT

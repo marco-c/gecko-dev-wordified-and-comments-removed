@@ -146,6 +146,8 @@ treeherder
 platform
 :
 linux64
+-
+shippable
 /
 opt
 kind
@@ -471,7 +473,7 @@ linux64
 -
 snap
 -
-nightly
+shippable
 build_type
 :
 opt

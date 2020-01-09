@@ -320,7 +320,10 @@ type
 '
 )
 :
+_by_platform
+(
 basestring
+)
     
 }
     
@@ -1303,6 +1306,12 @@ tier
 treeherder
 .
 platform
+"
+        
+"
+index
+.
+type
 "
         
 "
