@@ -1342,12 +1342,6 @@ use
 std
 :
 :
-mem
-;
-use
-std
-:
-:
 u64
 ;
 let
@@ -3980,12 +3974,6 @@ Option
 Layout
 >
 {
-use
-std
-:
-:
-cmp
-;
 if
 self
 .

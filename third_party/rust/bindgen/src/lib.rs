@@ -72,7 +72,7 @@ clang_sys
 ;
 extern
 crate
-hashbrown
+fxhash
 ;
 #
 [
@@ -419,10 +419,10 @@ V
 =
 :
 :
-hashbrown
+fxhash
 :
 :
-HashMap
+FxHashMap
 <
 K
 V
@@ -436,10 +436,10 @@ K
 =
 :
 :
-hashbrown
+fxhash
 :
 :
-HashSet
+FxHashSet
 <
 K
 >
@@ -451,7 +451,10 @@ crate
 use
 :
 :
-hashbrown
+std
+:
+:
+collections
 :
 :
 hash_map

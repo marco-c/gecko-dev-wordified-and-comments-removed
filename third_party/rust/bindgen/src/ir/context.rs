@@ -2372,9 +2372,6 @@ BindgenOptions
 >
 Self
 {
-use
-clang_sys
-;
 let
 (
 effective_target
@@ -7563,9 +7560,6 @@ Option
 TypeId
 >
 {
-use
-clang_sys
-;
 let
 num_expected_args
 =
