@@ -198,16 +198,6 @@ offset
 INT32_MAX
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-!
-buf
-.
-forInlineTypedObject
-(
-)
-)
-;
 MOZ_ASSERT_IF
 (
 buf
