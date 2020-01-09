@@ -1955,6 +1955,10 @@ GetCurrentAsyncTransformWithOverscroll
 (
 AsyncTransformConsumer
 aMode
+AsyncTransformComponents
+aComponents
+=
+ScrollAndZoom
 )
 const
 ;
