@@ -1230,6 +1230,13 @@ true
 ImageFormat
 :
 :
+RG16
+=
+>
+true
+ImageFormat
+:
+:
 R8
 =
 >
