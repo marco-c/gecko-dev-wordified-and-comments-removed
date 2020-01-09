@@ -30,6 +30,14 @@ UrlClassifierFeatureBase
 public
 :
 static
+const
+char
+*
+Name
+(
+)
+;
+static
 void
 MaybeShutdown
 (
