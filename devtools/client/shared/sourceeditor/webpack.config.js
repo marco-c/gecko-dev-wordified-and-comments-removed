@@ -108,6 +108,17 @@ js
 /
 codemirror
 /
+addon
+/
+accessibleTextarea
+.
+js
+"
+"
+.
+/
+codemirror
+/
 mode
 /
 javascript
