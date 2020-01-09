@@ -5562,12 +5562,6 @@ aPresContext
 )
 ;
 static
-bool
-DoNotTrackEnabled
-(
-)
-;
-static
 mozilla
 :
 :
@@ -7715,10 +7709,6 @@ static
 nsCString
 *
 sJSBytecodeMimeType
-;
-static
-bool
-sDoNotTrackEnabled
 ;
 static
 mozilla

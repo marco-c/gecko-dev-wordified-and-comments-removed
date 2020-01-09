@@ -1992,9 +1992,6 @@ bool
 mEnablePersistentHttpsCaching
 ;
 bool
-mDoNotTrackEnabled
-;
-bool
 mSafeHintEnabled
 ;
 bool

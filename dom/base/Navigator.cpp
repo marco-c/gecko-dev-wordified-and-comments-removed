@@ -2800,10 +2800,10 @@ aResult
 bool
 doNotTrack
 =
-nsContentUtils
+StaticPrefs
 :
 :
-DoNotTrackEnabled
+privacy_donottrackheader_enabled
 (
 )
 ;
