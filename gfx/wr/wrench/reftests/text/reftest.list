@@ -472,6 +472,11 @@ platform
 (
 mac
 )
+fuzzy
+(
+3
+67
+)
 =
 =
 white
@@ -837,6 +842,11 @@ png
 platform
 (
 mac
+)
+fuzzy
+(
+195
+30
 )
 =
 =
