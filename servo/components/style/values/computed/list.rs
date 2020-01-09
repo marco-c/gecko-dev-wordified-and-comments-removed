@@ -81,7 +81,7 @@ crate
 ArcSlice
 :
 :
-from_iter
+from_iter_leaked
 (
 vec
 !

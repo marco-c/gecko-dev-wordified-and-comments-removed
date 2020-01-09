@@ -109,6 +109,11 @@ gecko
 nsstring
 "
 "
+servo_arc
+/
+gecko
+"
+"
 style_traits
 /
 gecko

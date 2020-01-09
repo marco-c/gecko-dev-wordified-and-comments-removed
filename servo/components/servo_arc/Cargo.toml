@@ -98,6 +98,10 @@ servo
 serde
 "
 ]
+gecko
+=
+[
+]
 [
 dependencies
 ]
