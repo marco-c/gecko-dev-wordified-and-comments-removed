@@ -310,6 +310,11 @@ AudioParam
 h
 '
 '
+AudioParamDescriptorMap
+.
+h
+'
+'
 AudioParamMap
 .
 h

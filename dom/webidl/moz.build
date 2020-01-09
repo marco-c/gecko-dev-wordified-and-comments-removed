@@ -2674,6 +2674,11 @@ AudioParam
 webidl
 '
 '
+AudioParamDescriptor
+.
+webidl
+'
+'
 AudioParamMap
 .
 webidl
@@ -3940,11 +3945,6 @@ webidl
 '
 '
 LinkStyle
-.
-webidl
-'
-'
-LoadURIOptions
 .
 webidl
 '
