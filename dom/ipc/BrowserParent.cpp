@@ -2920,6 +2920,9 @@ GetBrowserBridgeParent
 &
 &
 mBrowsingContext
+&
+&
+mFrameElement
 )
 {
 mBrowsingContext
