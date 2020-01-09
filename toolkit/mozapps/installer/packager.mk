@@ -292,11 +292,6 @@ JS_BINARY
 )
 \
 (
-if
-(
-JARLOG_DIR
-)
-(
 addprefix
 -
 -
@@ -305,7 +300,6 @@ jarlog
 wildcard
 (
 JARLOG_FILE_AB_CD
-)
 )
 )
 )
