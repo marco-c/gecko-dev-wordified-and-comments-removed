@@ -275,6 +275,12 @@ offset
 size
 )
 ;
+mSharedMem
+.
+flush
+(
+)
+;
 }
 catch
 (
