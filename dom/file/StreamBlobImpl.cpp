@@ -712,7 +712,7 @@ UNITS_BYTES
 stringInputStream
 -
 >
-SizeOfIncludingThis
+SizeOfIncludingThisIfUnshared
 (
 MallocSizeOf
 )
@@ -772,7 +772,7 @@ return
 stringInputStream
 -
 >
-SizeOfIncludingThis
+SizeOfIncludingThisEvenIfShared
 (
 MallocSizeOf
 )
