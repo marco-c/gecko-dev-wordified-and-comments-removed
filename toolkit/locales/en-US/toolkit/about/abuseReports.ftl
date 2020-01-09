@@ -930,7 +930,7 @@ example
 =
 Example
 :
-Feature
+Features
 are
 slow
 hard
