@@ -1320,7 +1320,7 @@ aGlobal
 JS
 :
 :
-ExposeObjectToActiveJS
+AssertObjectIsNotGray
 (
 aGlobal
 )

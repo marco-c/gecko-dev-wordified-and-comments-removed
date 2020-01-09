@@ -8266,7 +8266,7 @@ global
 JS
 :
 :
-ExposeObjectToActiveJS
+AssertObjectIsNotGray
 (
 global
 )

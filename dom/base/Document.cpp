@@ -32541,14 +32541,6 @@ GetGlobalJSObject
 (
 )
 ;
-JS
-:
-:
-ExposeObjectToActiveJS
-(
-globalObject
-)
-;
 JSAutoRealm
 ar
 (

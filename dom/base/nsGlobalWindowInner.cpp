@@ -7523,7 +7523,7 @@ GetGlobalJSObject
 )
 {
 return
-FastGetGlobalJSObject
+GetWrapper
 (
 )
 ;
