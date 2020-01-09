@@ -353,6 +353,15 @@ Function
 =
 >
 void
+emit
+:
+(
+string
+any
+)
+=
+>
+void
 activeConsole
 :
 {

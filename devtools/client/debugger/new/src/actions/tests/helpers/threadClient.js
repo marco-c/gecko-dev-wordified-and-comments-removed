@@ -431,5 +431,10 @@ async
 {
 }
 )
+onPauseChange
+(
+)
+{
+}
 }
 ;

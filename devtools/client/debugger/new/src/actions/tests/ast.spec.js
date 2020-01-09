@@ -153,6 +153,11 @@ async
 {
 }
 )
+onPauseChange
+(
+)
+{
+}
 }
 ;
 const

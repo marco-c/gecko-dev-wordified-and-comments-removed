@@ -241,6 +241,11 @@ to
 )
 ;
 }
+onPauseChange
+(
+)
+{
+}
 }
 ;
 describe
