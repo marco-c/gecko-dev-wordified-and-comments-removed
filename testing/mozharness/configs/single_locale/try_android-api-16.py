@@ -114,12 +114,6 @@ MOZILLA_DIR
 }
     
 "
-nightly_build
-"
-:
-True
-    
-"
 hg_l10n_base
 "
 :

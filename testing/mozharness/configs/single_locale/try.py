@@ -5,12 +5,6 @@ config
 {
     
 "
-nightly_build
-"
-:
-False
-    
-"
 branch
 "
 :

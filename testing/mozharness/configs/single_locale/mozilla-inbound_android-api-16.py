@@ -87,12 +87,6 @@ US
 ]
     
 "
-nightly_build
-"
-:
-True
-    
-"
 tooltool_config
 "
 :

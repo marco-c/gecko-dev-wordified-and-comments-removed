@@ -3,12 +3,6 @@ config
 {
     
 "
-nightly_build
-"
-:
-True
-    
-"
 branch
 "
 :
