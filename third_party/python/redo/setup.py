@@ -31,7 +31,7 @@ version
 .
 0
 .
-2
+3
 "
     
 description
@@ -72,7 +72,6 @@ redo
 entry_points
 =
 {
-        
 "
 console_scripts
 "
@@ -88,7 +87,6 @@ cmd
 main
 "
 ]
-    
 }
     
 url

@@ -401,7 +401,8 @@ sleeptime
 raise
 Exception
 (
-'
+            
+"
 jitter
 (
 {
@@ -417,13 +418,14 @@ time
 {
 }
 )
-'
+"
 .
 format
 (
 jitter
 sleeptime
 )
+        
 )
     
 sleeptime_real
@@ -517,6 +519,7 @@ log
 .
 debug
 (
+                
 "
 sleeping
 for
@@ -537,6 +540,7 @@ _
 +
 1
 attempts
+            
 )
             
 time
@@ -548,44 +552,53 @@ sleeptime_real
 def
 retry
 (
+    
 action
+    
 attempts
 =
 5
+    
 sleeptime
 =
 60
+    
 max_sleeptime
 =
 5
 *
 60
-          
+    
 sleepscale
 =
 1
 .
 5
+    
 jitter
 =
 1
+    
 retry_exceptions
 =
 (
 Exception
 )
-          
+    
 cleanup
 =
 None
+    
 args
 =
 (
 )
+    
 kwargs
 =
 {
 }
+    
 log_args
 =
 True
@@ -1036,9 +1049,9 @@ action_name
 getattr
 (
 action
-'
+"
 __name__
-'
+"
 action
 )
     
@@ -1055,6 +1068,7 @@ kwargs
 log_attempt_args
 =
 (
+            
 "
 retry
 :
@@ -1067,7 +1081,6 @@ args
 %
 s
 "
-                            
 "
 kwargs
 :
@@ -1078,10 +1091,13 @@ attempt
 %
 d
 "
-                            
+            
 action_name
+            
 args
+            
 kwargs
+        
 )
     
 else
@@ -1101,7 +1117,6 @@ attempt
 %
 d
 "
-                            
 action_name
 )
     
@@ -1125,7 +1140,6 @@ sleeptime
 %
 d
 "
-                  
 max_sleeptime
 sleeptime
 )
@@ -1139,23 +1153,27 @@ _
 in
 retrier
 (
+        
 attempts
 =
 attempts
+        
 sleeptime
 =
 sleeptime
-                     
+        
 max_sleeptime
 =
 max_sleeptime
+        
 sleepscale
 =
 sleepscale
-                     
+        
 jitter
 =
 jitter
+    
 )
 :
         
@@ -1177,9 +1195,10 @@ log
 .
 debug
             
+logfn_args
+=
 log_attempt_args
 +
-=
 (
 n
 )
@@ -1187,7 +1206,7 @@ n
 logfn
 (
 *
-log_attempt_args
+logfn_args
 )
             
 return
@@ -1478,7 +1497,6 @@ kwargs
 kwargs
 *
 retry_args
-                         
 *
 *
 retry_kwargs

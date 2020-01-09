@@ -58,7 +58,6 @@ int
 default
 =
 5
-        
 help
 =
 "
@@ -69,6 +68,7 @@ to
 retry
 .
 "
+    
 )
     
 parser
@@ -80,14 +80,17 @@ add_argument
 -
 s
 "
+        
 "
 -
 -
 sleeptime
 "
+        
 type
 =
 int
+        
 default
 =
 60
@@ -109,6 +112,7 @@ each
 attempt
 .
 "
+    
 )
     
 parser
@@ -120,6 +124,7 @@ add_argument
 -
 m
 "
+        
 "
 -
 -
@@ -127,9 +132,11 @@ max
 -
 sleeptime
 "
+        
 type
 =
 int
+        
 default
 =
 5
@@ -154,6 +161,7 @@ length
 )
 .
 "
+    
 )
     
 parser
@@ -183,6 +191,7 @@ parser
 .
 add_argument
 (
+        
 "
 cmd
 "
@@ -205,6 +214,7 @@ http
 /
 blah
 "
+    
 )
     
 args
@@ -289,29 +299,33 @@ try
 with
 retrying
 (
+            
 check_call
+            
 attempts
 =
 args
 .
 attempts
+            
 sleeptime
 =
 args
 .
 sleeptime
-                      
+            
 max_sleeptime
 =
 args
 .
 max_sleeptime
-                      
+            
 retry_exceptions
 =
 (
 CalledProcessError
 )
+        
 )
 as
 r_check_call
@@ -346,6 +360,7 @@ log
 .
 error
 (
+            
 "
 Unable
 to
@@ -363,6 +378,7 @@ attempts
 exc_info
 =
 True
+        
 )
         
 rc
