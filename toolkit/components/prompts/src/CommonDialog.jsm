@@ -989,6 +989,18 @@ true
 if
 (
 !
+this
+.
+ui
+.
+promptContainer
+.
+hidden
+)
+{
+if
+(
+!
 xulDialog
 )
 {
@@ -1010,6 +1022,7 @@ setDefaultFocus
 true
 )
 ;
+}
 if
 (
 this
