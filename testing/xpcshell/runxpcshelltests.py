@@ -7902,26 +7902,6 @@ None
 if
 not
 nodeBin
-and
-build
-:
-            
-nodeBin
-=
-build
-.
-substs
-.
-get
-(
-'
-NODEJS
-'
-)
-        
-if
-not
-nodeBin
 :
             
 self
