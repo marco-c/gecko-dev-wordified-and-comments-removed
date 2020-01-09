@@ -9394,6 +9394,11 @@ isForeign
 =
 true
 ;
+if
+(
+aChannel
+)
+{
 mThirdPartyUtil
 -
 >
@@ -9405,6 +9410,7 @@ aHostURI
 isForeign
 )
 ;
+}
 bool
 isTrackingResource
 =
@@ -9921,6 +9927,11 @@ isForeign
 =
 true
 ;
+if
+(
+aChannel
+)
+{
 mThirdPartyUtil
 -
 >
@@ -9932,6 +9943,7 @@ aHostURI
 isForeign
 )
 ;
+}
 bool
 isTrackingResource
 =
@@ -15338,6 +15350,11 @@ isThirdParty
 =
 true
 ;
+if
+(
+aChannel
+)
+{
 aThirdPartyUtil
 -
 >
@@ -15349,6 +15366,7 @@ aHostURI
 isThirdParty
 )
 ;
+}
 Telemetry
 :
 :
