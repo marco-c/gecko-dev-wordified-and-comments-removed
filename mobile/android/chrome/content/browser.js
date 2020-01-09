@@ -9194,7 +9194,7 @@ bubbles
 :
 true
 "
-cancellable
+cancelable
 "
 :
 false
