@@ -3185,9 +3185,13 @@ new
 MoofParser
 (
 mStream
-0
+AsVariant
+(
+ParseAllTracks
+{
+}
+)
 false
-true
 )
 ;
 DDLINKCHILD
