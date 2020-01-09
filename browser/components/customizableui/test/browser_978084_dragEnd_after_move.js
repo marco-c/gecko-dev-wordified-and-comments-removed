@@ -284,7 +284,7 @@ endCustomizing
 }
 )
 ;
-add_task
+registerCleanupFunction
 (
 async
 function
@@ -297,8 +297,7 @@ endCustomizing
 (
 )
 ;
-await
-resetCustomization
+removeCustomToolbars
 (
 )
 ;
