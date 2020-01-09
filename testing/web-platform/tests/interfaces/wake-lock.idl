@@ -58,6 +58,16 @@ wake
 lock
 /
 )
+dictionary
+WakeLockPermissionDescriptor
+:
+PermissionDescriptor
+{
+WakeLockType
+type
+;
+}
+;
 enum
 WakeLockType
 {
