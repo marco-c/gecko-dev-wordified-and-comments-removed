@@ -7,12 +7,6 @@ import
 hashlib
 import
 os
-from
-mozbuild
-.
-base
-import
-MozbuildObject
 here
 =
 os
@@ -134,6 +128,13 @@ srcdir
         
 return
 state_dir
+    
+from
+mozbuild
+.
+base
+import
+MozbuildObject
     
 srcdir
 =
