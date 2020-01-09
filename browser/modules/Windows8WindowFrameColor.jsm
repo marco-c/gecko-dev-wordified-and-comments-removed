@@ -13,7 +13,11 @@ Windows8WindowFrameColor
 ]
 ;
 var
+{
+WindowsRegistry
+:
 Registry
+}
 =
 ChromeUtils
 .
@@ -32,9 +36,8 @@ WindowsRegistry
 .
 jsm
 "
+null
 )
-.
-WindowsRegistry
 ;
 var
 Windows8WindowFrameColor
