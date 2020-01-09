@@ -18,6 +18,17 @@ mozilla
 /
 layers
 /
+APZTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 LayersTypes
 .
 h
