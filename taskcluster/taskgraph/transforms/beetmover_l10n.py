@@ -90,8 +90,6 @@ group
 =
 '
 BM
--
-L10n
 '
             
 symbol

@@ -96,8 +96,6 @@ group
 =
 '
 BMR
--
-L10n
 '
         
 symbol
