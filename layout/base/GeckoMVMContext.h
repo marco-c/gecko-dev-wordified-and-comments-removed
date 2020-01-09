@@ -250,6 +250,8 @@ const
 CSSSize
 &
 aOldSize
+ResizeEventFlag
+aResizeEventFlag
 )
 override
 ;

@@ -12228,7 +12228,7 @@ prefWidth
 aMaxHeight
 0
 0
-nsIPresShell
+mozilla
 :
 :
 ResizeReflowOptions
