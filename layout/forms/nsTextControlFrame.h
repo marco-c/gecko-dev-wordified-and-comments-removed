@@ -306,6 +306,16 @@ override
 {
 if
 (
+StyleDisplay
+(
+)
+-
+>
+IsContainLayout
+(
+)
+|
+|
 !
 IsSingleLineTextControl
 (

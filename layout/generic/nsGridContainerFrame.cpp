@@ -38298,6 +38298,16 @@ mIter
 AtEnd
 (
 )
+|
+|
+aReflowInput
+.
+mStyleDisplay
+-
+>
+IsContainLayout
+(
+)
 )
 {
 AddStateBits

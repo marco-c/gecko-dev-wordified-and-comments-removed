@@ -802,6 +802,19 @@ borderBoxSize
 0
 )
 ;
+if
+(
+!
+aReflowInput
+.
+mStyleDisplay
+-
+>
+IsContainLayout
+(
+)
+)
+{
 nsSize
 contentBoxSize
 =
@@ -841,6 +854,7 @@ contentBoxSize
 )
 )
 ;
+}
 }
 LogicalSize
 logicalDesiredSize
