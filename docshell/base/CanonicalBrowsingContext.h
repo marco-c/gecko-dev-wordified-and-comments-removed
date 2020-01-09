@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_ChromeBrowsingContext_h
+mozilla_dom_CanonicalBrowsingContext_h
 #
 define
-mozilla_dom_ChromeBrowsingContext_h
+mozilla_dom_CanonicalBrowsingContext_h
 #
 include
 "
@@ -65,7 +65,7 @@ class
 WindowGlobalParent
 ;
 class
-ChromeBrowsingContext
+CanonicalBrowsingContext
 final
 :
 public
@@ -84,7 +84,7 @@ aProcessId
 static
 already_AddRefed
 <
-ChromeBrowsingContext
+CanonicalBrowsingContext
 >
 Get
 (
@@ -93,7 +93,7 @@ aId
 )
 ;
 static
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
 Cast
 (
@@ -104,7 +104,7 @@ aContext
 ;
 static
 const
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
 Cast
 (
@@ -237,7 +237,7 @@ BrowsingContext
 :
 Type
 ;
-ChromeBrowsingContext
+CanonicalBrowsingContext
 (
 BrowsingContext
 *

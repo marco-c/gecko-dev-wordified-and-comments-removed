@@ -145,7 +145,7 @@ Window
 ChromeOnly
 ]
 interface
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 BrowsingContext
 {

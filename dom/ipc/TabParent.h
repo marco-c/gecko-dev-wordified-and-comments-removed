@@ -300,7 +300,7 @@ namespace
 dom
 {
 class
-ChromeBrowsingContext
+CanonicalBrowsingContext
 ;
 class
 ClonedMessageData
@@ -489,7 +489,7 @@ GetXULBrowserWindow
 (
 )
 ;
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
 GetBrowsingContext
 (
@@ -3174,7 +3174,7 @@ mFrameLoader
 ;
 RefPtr
 <
-ChromeBrowsingContext
+CanonicalBrowsingContext
 >
 mBrowsingContext
 ;

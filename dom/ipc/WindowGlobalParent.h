@@ -54,7 +54,7 @@ namespace
 dom
 {
 class
-ChromeBrowsingContext
+CanonicalBrowsingContext
 ;
 class
 WindowGlobalChild
@@ -172,7 +172,7 @@ return
 mDocumentPrincipal
 ;
 }
-ChromeBrowsingContext
+CanonicalBrowsingContext
 *
 BrowsingContext
 (
@@ -345,7 +345,7 @@ mFrameLoader
 ;
 RefPtr
 <
-ChromeBrowsingContext
+CanonicalBrowsingContext
 >
 mBrowsingContext
 ;

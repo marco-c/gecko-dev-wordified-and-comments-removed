@@ -121,7 +121,7 @@ isInProcess
 ;
 readonly
 attribute
-ChromeBrowsingContext
+CanonicalBrowsingContext
 browsingContext
 ;
 readonly

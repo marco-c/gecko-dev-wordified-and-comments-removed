@@ -27,7 +27,7 @@ mozilla
 /
 dom
 /
-ChromeBrowsingContext
+CanonicalBrowsingContext
 .
 h
 "
@@ -382,7 +382,7 @@ ChildID
 }
 mBrowsingContext
 =
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 Get

@@ -769,7 +769,7 @@ mozilla
 /
 dom
 /
-ChromeBrowsingContext
+CanonicalBrowsingContext
 .
 h
 "
@@ -18297,7 +18297,7 @@ once
 ;
 mBrowsingContext
 =
-ChromeBrowsingContext
+CanonicalBrowsingContext
 :
 :
 Get
