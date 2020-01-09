@@ -3503,6 +3503,12 @@ defined
 (
 MOZ_TELEMETRY_REPORTING
 )
+#
+if
+defined
+(
+MOZ_LAUNCHER_PROCESS
+)
 mozilla
 :
 :
@@ -3562,6 +3568,8 @@ return
 false
 ;
 }
+#
+endif
 auto
 thdParam
 =
