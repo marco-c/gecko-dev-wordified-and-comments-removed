@@ -50866,16 +50866,6 @@ ShallowSizeOfExcludingThis
 mallocSizeOf
 )
 ;
-StyleSet
-(
-)
--
->
-AddSizeOfIncludingThis
-(
-aSizes
-)
-;
 aSizes
 .
 mLayoutTextRunsSize
