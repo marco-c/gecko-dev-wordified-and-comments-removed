@@ -504,6 +504,13 @@ libcubeb
 /
 media
 /
+libdav1d
+/
+version
+.
+h
+media
+/
 libjpeg
 /
 media
