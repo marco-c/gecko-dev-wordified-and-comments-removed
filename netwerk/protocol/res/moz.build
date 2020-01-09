@@ -139,6 +139,16 @@ SubstitutingURL
 h
 '
 ]
+EXPORTS
++
+=
+[
+'
+nsResProtocolHandler
+.
+h
+'
+]
 UNIFIED_SOURCES
 +
 =
