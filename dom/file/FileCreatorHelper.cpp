@@ -34,8 +34,6 @@ mozilla
 /
 dom
 /
-ipc
-/
 FileCreatorChild
 .
 h
@@ -302,12 +300,6 @@ Value
 )
 ;
 }
-mozilla
-:
-:
-ipc
-:
-:
 PFileCreatorChild
 *
 actor
