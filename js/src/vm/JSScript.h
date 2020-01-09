@@ -11007,7 +11007,7 @@ warmUpCount
 ;
 }
 void
-resetWarmUpCounter
+resetWarmUpCounterForGC
 (
 )
 {
@@ -11020,6 +11020,11 @@ warmUpCount
 0
 ;
 }
+void
+resetWarmUpCounterToDelayIonCompilation
+(
+)
+;
 unsigned
 getWarmUpResetCount
 (

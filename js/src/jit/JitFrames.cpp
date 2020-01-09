@@ -1227,7 +1227,7 @@ isExceptionPending
 script
 -
 >
-resetWarmUpCounter
+resetWarmUpCounterToDelayIonCompilation
 (
 )
 ;
@@ -2108,7 +2108,7 @@ pc
 script
 -
 >
-resetWarmUpCounter
+resetWarmUpCounterToDelayIonCompilation
 (
 )
 ;

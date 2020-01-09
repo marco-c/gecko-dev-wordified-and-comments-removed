@@ -1335,7 +1335,7 @@ script
 script
 -
 >
-resetWarmUpCounter
+resetWarmUpCounterForGC
 (
 )
 ;
