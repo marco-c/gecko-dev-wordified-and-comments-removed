@@ -205,6 +205,9 @@ enterprisepolicies
 extensions
 '
 '
+featuregates
+'
+'
 filewatcher
 '
 '
