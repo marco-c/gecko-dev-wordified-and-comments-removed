@@ -352,6 +352,10 @@ nsSVGLength2
 {
 friend
 class
+AutoChangeLengthNotifier
+;
+friend
+class
 mozilla
 :
 :

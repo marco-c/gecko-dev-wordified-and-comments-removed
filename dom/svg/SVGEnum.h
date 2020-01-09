@@ -106,6 +106,10 @@ SVGEnum
 {
 public
 :
+friend
+class
+AutoChangeEnumNotifier
+;
 typedef
 mozilla
 :

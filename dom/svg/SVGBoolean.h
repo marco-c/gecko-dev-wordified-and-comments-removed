@@ -74,6 +74,10 @@ SVGBoolean
 {
 public
 :
+friend
+class
+AutoChangeBooleanNotifier
+;
 typedef
 mozilla
 :
