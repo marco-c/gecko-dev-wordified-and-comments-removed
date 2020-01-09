@@ -10368,6 +10368,15 @@ responseHead
 cleanedUpResponseHead
 ;
 }
+ResourceTimingStruct
+timing
+;
+GetTimingAttributes
+(
+mChannel
+timing
+)
+;
 bool
 result
 =
@@ -10398,6 +10407,7 @@ mChannel
 GetPeerAddr
 (
 )
+timing
 )
 ;
 }

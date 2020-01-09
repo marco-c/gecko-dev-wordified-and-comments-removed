@@ -7453,6 +7453,10 @@ const
 uint64_t
 &
 channelId
+const
+ResourceTimingStruct
+&
+timing
 )
 :
 NeckoTargetChannelEvent
@@ -7494,6 +7498,10 @@ mLoadInfoForwarder
 (
 loadInfoForwarder
 )
+mTiming
+(
+timing
+)
 {
 }
 void
@@ -7515,6 +7523,7 @@ mLoadInfoForwarder
 mResponseHead
 mSecurityInfoSerialization
 mChannelId
+mTiming
 )
 ;
 }
@@ -7543,6 +7552,9 @@ mChannelId
 ;
 ParentLoadInfoForwarderArgs
 mLoadInfoForwarder
+;
+ResourceTimingStruct
+mTiming
 ;
 }
 ;
@@ -7594,6 +7606,10 @@ const
 NetAddr
 &
 oldPeerAddr
+const
+ResourceTimingStruct
+&
+timing
 )
 {
 LOG
@@ -7655,6 +7671,7 @@ loadInfoForwarder
 responseHead
 securityInfoSerialization
 channelId
+timing
 )
 )
 ;
@@ -8002,6 +8019,10 @@ const
 uint64_t
 &
 channelId
+const
+ResourceTimingStruct
+&
+timing
 )
 {
 nsresult
@@ -8047,6 +8068,10 @@ DeserializeURI
 (
 newOriginalURI
 )
+;
+mTransactionTimings
+=
+timing
 ;
 PROFILER_ADD_NETWORK_MARKER
 (
