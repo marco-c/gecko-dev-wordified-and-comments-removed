@@ -105,6 +105,11 @@ Reports
 InstallTime20
 *
 "
+condition
+:
+AppConstants
+.
+MOZ_CRASHREPORTER
 stat
 :
 1
@@ -132,6 +137,11 @@ LastCrash
 condition
 :
 WIN
+&
+&
+AppConstants
+.
+MOZ_CRASHREPORTER
 stat
 :
 1
@@ -154,6 +164,11 @@ condition
 :
 !
 WIN
+&
+&
+AppConstants
+.
+MOZ_CRASHREPORTER
 ignoreIfUnused
 :
 true
@@ -632,6 +647,9 @@ conf
 condition
 :
 LINUX
+ignoreIfUnused
+:
+true
 read
 :
 22
@@ -881,6 +899,9 @@ conf
 condition
 :
 LINUX
+ignoreIfUnused
+:
+true
 read
 :
 22
