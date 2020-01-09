@@ -701,15 +701,6 @@ callback
 >
 {
 const
-root
-=
-this
-.
-_client
-.
-mainRoot
-;
-const
 location
 =
 {

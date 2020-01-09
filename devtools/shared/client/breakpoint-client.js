@@ -191,15 +191,6 @@ condition
 )
 {
 const
-root
-=
-this
-.
-_client
-.
-mainRoot
-;
-const
 deferred
 =
 promise
