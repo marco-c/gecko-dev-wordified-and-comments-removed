@@ -2802,7 +2802,7 @@ gecko
 animation_value_type
 =
 "
-none
+ComputedValue
 "
 gecko_pref
 =
