@@ -18,7 +18,7 @@ root
 route
 redirects
 to
-setup
+connect
 page
 "
 )
@@ -44,7 +44,7 @@ hash
 "
 #
 /
-setup
+connect
 "
 )
 ;
@@ -223,7 +223,7 @@ info
 "
 Check
 '
-Setup
+Connect
 '
 page
 "
@@ -238,7 +238,7 @@ hash
 "
 #
 /
-setup
+connect
 "
 ;
 await
@@ -267,7 +267,7 @@ ok
 (
 true
 "
-Setup
+Connect
 page
 has
 been
@@ -283,14 +283,14 @@ title
 "
 Debugging
 -
-Setup
+Connect
 "
 "
 Checking
 title
 for
 '
-setup
+connect
 '
 page
 "
@@ -498,7 +498,7 @@ Waiting
 for
 a
 non
-setup
+connect
 page
 to
 load
@@ -606,14 +606,14 @@ title
 "
 Debugging
 -
-Setup
+Connect
 "
 "
 Checking
 title
 for
 '
-setup
+connect
 '
 page
 "
@@ -629,7 +629,7 @@ hash
 "
 #
 /
-setup
+connect
 "
 "
 Redirected

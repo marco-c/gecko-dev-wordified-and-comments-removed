@@ -1041,7 +1041,7 @@ textContent
 =
 =
 "
-Setup
+Connect
 "
 ;
 }

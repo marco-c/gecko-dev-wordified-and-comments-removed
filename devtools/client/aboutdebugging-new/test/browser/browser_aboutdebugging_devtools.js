@@ -75,7 +75,7 @@ connectSidebarItem
 findSidebarItemByText
 (
 "
-Setup
+Connect
 "
 document
 )
