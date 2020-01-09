@@ -9869,11 +9869,6 @@ NonNegativeLengthPercentageOrNormal
 :
 impl_style_coord
 "
-Length
-"
-:
-impl_absolute_length
-"
 MozScriptMinSize
 "
 :

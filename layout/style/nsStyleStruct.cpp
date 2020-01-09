@@ -2088,7 +2088,11 @@ kMediumBorderWidth
 )
 mOutlineOffset
 (
+{
 0
+.
+0f
+}
 )
 mOutlineColor
 (
