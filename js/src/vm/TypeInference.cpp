@@ -18089,10 +18089,10 @@ type
 ;
 }
 void
-js
+TypeScript
 :
 :
-TypeMonitorResult
+MonitorBytecodeTypeSlow
 (
 JSContext
 *
