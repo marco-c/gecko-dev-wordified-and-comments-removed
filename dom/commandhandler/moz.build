@@ -160,11 +160,6 @@ nsIControllerContext
 .
 idl
 '
-'
-nsPICommandUpdater
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

@@ -61,6 +61,9 @@ nscore
 h
 "
 class
+nsCommandManager
+;
+class
 nsIDocShell
 ;
 class
@@ -71,9 +74,6 @@ nsITransactionManager
 ;
 class
 nsPIDOMWindowOuter
-;
-class
-nsPICommandUpdater
 ;
 namespace
 mozilla
@@ -177,11 +177,9 @@ nsAString
 aCommandGroup
 )
 ;
-already_AddRefed
-<
-nsPICommandUpdater
->
-GetCommandUpdater
+nsCommandManager
+*
+GetCommandManager
 (
 )
 ;
