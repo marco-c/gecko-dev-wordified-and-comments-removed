@@ -2846,13 +2846,17 @@ aValue
 <
 =
 INT32_MAX
+/
+2
 )
+{
 return
 int32_t
 (
 aValue
 )
 ;
+}
 return
 0
 ;
