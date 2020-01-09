@@ -129,6 +129,11 @@ platform
 wptrunner
 .
 ini
+-
+-
+no
+-
+download
 &
 &
 tar
