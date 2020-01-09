@@ -7401,6 +7401,11 @@ GetMainThreadSerialEventTarget
 (
 )
 ;
+size_t
+GetNumberOfProcessors
+(
+)
+;
 }
 #
 endif

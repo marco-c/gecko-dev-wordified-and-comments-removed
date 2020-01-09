@@ -1752,6 +1752,13 @@ SandboxEarlyInit
 (
 )
 ;
+mozilla
+:
+:
+GetNumberOfProcessors
+(
+)
+;
 #
 endif
 #
