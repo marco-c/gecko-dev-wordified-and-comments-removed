@@ -518,7 +518,10 @@ aMaxAscent
 )
 ;
 virtual
-uint8_t
+mozilla
+:
+:
+StyleVerticalAlignKeyword
 GetVerticalAlign
 (
 )
@@ -536,7 +539,13 @@ GetVerticalAlign
 )
 =
 =
-NS_STYLE_VERTICAL_ALIGN_BASELINE
+mozilla
+:
+:
+StyleVerticalAlignKeyword
+:
+:
+Baseline
 ;
 }
 bool

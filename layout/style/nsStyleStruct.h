@@ -8292,7 +8292,10 @@ mozilla
 Position
 mPerspectiveOrigin
 ;
-nsStyleCoord
+mozilla
+:
+:
+StyleVerticalAlign
 mVerticalAlign
 ;
 nsStyleAutoArray

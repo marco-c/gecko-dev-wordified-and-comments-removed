@@ -819,10 +819,14 @@ captionSide
 NS_STYLE_CAPTION_SIDE_RIGHT
 ;
 }
-uint8_t
+mozilla
+:
+:
+StyleVerticalAlignKeyword
 GetCaptionVerticalAlign
 (
 )
+const
 ;
 void
 SetDesiredSize

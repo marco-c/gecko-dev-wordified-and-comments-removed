@@ -537,6 +537,9 @@ ColorOrAuto
 "
 GradientItem
 "
+"
+VerticalAlign
+"
 ]
 item_types
 =
