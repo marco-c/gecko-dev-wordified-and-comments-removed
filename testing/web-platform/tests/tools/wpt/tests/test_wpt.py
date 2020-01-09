@@ -3415,6 +3415,16 @@ readouterr
 assert
 "
 webrtc
+-
+stats
+/
+idlharness
+.
+window
+.
+js
+\
+nwebrtc
 /
 idlharness
 .
