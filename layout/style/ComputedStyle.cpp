@@ -760,6 +760,7 @@ STYLE_STRUCT
 name_
 fields_
 )
+\
 {
 \
 const
