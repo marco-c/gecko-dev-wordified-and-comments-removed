@@ -132,6 +132,16 @@ ProductAddonChecker
 jsm
 '
 '
+RDFDataSource
+.
+jsm
+'
+'
+RDFManifestConverter
+.
+jsm
+'
+'
 XPIDatabase
 .
 jsm
