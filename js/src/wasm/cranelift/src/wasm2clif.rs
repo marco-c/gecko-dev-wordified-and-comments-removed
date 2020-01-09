@@ -2324,7 +2324,7 @@ native_pointer_type
 )
 readonly
 :
-false
+true
 }
 )
 ;
