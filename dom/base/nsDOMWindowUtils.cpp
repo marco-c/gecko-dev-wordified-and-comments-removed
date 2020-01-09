@@ -2972,10 +2972,13 @@ presShell
 SetResolutionAndScaleTo
 (
 aResolution
-nsGkAtoms
+nsIPresShell
 :
 :
-other
+ChangeOrigin
+:
+:
+eOther
 )
 ;
 return

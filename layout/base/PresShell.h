@@ -872,8 +872,7 @@ SetResolutionAndScaleTo
 (
 float
 aResolution
-nsAtom
-*
+ChangeOrigin
 aOrigin
 )
 override
