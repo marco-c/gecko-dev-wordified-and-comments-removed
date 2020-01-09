@@ -126,6 +126,9 @@ class
 StringOrBlobOrArrayBufferOrArrayBufferView
 ;
 class
+UDPSocketChild
+;
+class
 UDPSocket
 final
 :
@@ -632,9 +635,9 @@ nsIUDPSocket
 >
 mSocket
 ;
-nsCOMPtr
+RefPtr
 <
-nsIUDPSocketChild
+UDPSocketChild
 >
 mSocketChild
 ;

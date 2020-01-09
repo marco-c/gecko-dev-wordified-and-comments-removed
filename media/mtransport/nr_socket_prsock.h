@@ -210,6 +210,13 @@ union
 NetAddr
 ;
 }
+namespace
+dom
+{
+class
+UDPSocketChild
+;
+}
 class
 NrSocketBase
 {
@@ -1200,7 +1207,10 @@ static
 void
 destroy_i
 (
-nsIUDPSocketChild
+dom
+:
+:
+UDPSocketChild
 *
 aChild
 nsCOMPtr
@@ -1246,7 +1256,10 @@ received_msgs_
 ;
 RefPtr
 <
-nsIUDPSocketChild
+dom
+:
+:
+UDPSocketChild
 >
 socket_child_
 ;
