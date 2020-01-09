@@ -1,8 +1,5 @@
 use
-std
-:
-:
-collections
+super
 :
 :
 {
@@ -11,7 +8,7 @@ HashSet
 }
 ;
 use
-std
+core
 :
 :
 default
@@ -20,7 +17,7 @@ default
 Default
 ;
 use
-std
+core
 :
 :
 hash
@@ -33,7 +30,7 @@ Hasher
 }
 ;
 use
-std
+core
 :
 :
 ops

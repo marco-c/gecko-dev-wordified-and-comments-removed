@@ -1110,7 +1110,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -1532,7 +1532,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -1834,7 +1834,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -2309,7 +2309,7 @@ cranelift
 codegen
 0
 .
-26
+28
 .
 0
 (
@@ -2340,7 +2340,7 @@ cranelift
 wasm
 0
 .
-26
+28
 .
 0
 (
@@ -2400,7 +2400,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -2805,7 +2805,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -3473,7 +3473,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -6336,7 +6336,7 @@ version
 "
 0
 .
-26
+28
 .
 0
 "
@@ -6372,7 +6372,7 @@ cranelift
 entity
 0
 .
-26
+28
 .
 0
 (
@@ -6415,7 +6415,7 @@ version
 "
 0
 .
-26
+28
 .
 0
 "
@@ -6451,7 +6451,7 @@ cranelift
 bforest
 0
 .
-26
+28
 .
 0
 (
@@ -6484,7 +6484,7 @@ codegen
 meta
 0
 .
-26
+28
 .
 0
 (
@@ -6515,7 +6515,7 @@ cranelift
 entity
 0
 .
-26
+28
 .
 0
 (
@@ -6604,7 +6604,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -6678,7 +6678,7 @@ version
 "
 0
 .
-26
+28
 .
 0
 "
@@ -6714,7 +6714,7 @@ cranelift
 entity
 0
 .
-26
+28
 .
 0
 (
@@ -6757,7 +6757,7 @@ version
 "
 0
 .
-26
+28
 .
 0
 "
@@ -6801,7 +6801,7 @@ version
 "
 0
 .
-26
+28
 .
 0
 "
@@ -6837,7 +6837,7 @@ cranelift
 codegen
 0
 .
-26
+28
 .
 0
 (
@@ -6868,7 +6868,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -6940,7 +6940,7 @@ version
 "
 0
 .
-26
+28
 .
 0
 "
@@ -7005,7 +7005,7 @@ cranelift
 codegen
 0
 .
-26
+28
 .
 0
 (
@@ -7036,7 +7036,7 @@ cranelift
 entity
 0
 .
-26
+28
 .
 0
 (
@@ -7067,7 +7067,7 @@ cranelift
 frontend
 0
 .
-26
+28
 .
 0
 (
@@ -7156,7 +7156,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -7183,7 +7183,7 @@ index
 wasmparser
 0
 .
-22
+23
 .
 0
 (
@@ -11077,7 +11077,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -11459,7 +11459,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -13232,7 +13232,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -13604,7 +13604,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -14284,7 +14284,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -14534,7 +14534,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -14757,7 +14757,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -15064,7 +15064,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -15766,7 +15766,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -16705,7 +16705,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -19190,7 +19190,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -19231,7 +19231,7 @@ version
 .
 4
 .
-5
+6
 "
 source
 =
@@ -20679,7 +20679,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -21167,7 +21167,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -21644,7 +21644,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -21979,7 +21979,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -22141,7 +22141,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -24769,7 +24769,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -27367,7 +27367,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -27504,7 +27504,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -28379,7 +28379,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -31028,7 +31028,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -32326,7 +32326,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -34850,7 +34850,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -35414,7 +35414,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -35520,7 +35520,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -36003,7 +36003,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -36335,7 +36335,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -37163,7 +37163,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -38318,7 +38318,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -38388,7 +38388,7 @@ version
 "
 0
 .
-22
+23
 .
 0
 "
@@ -38617,7 +38617,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -39421,7 +39421,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -40468,7 +40468,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -43707,7 +43707,7 @@ cranelift
 bforest
 0
 .
-26
+28
 .
 0
 (
@@ -43734,7 +43734,7 @@ index
 "
 =
 "
-40f8ff24e9a6c89b8a846b14df9a34d2cac17cea7bdb5c81ed6b4744ee0e38bf
+c88db0c2fc38b2cedee1b94ee2dc7bf80e4ce31467c8005743f485af66e240d8
 "
 "
 checksum
@@ -43743,7 +43743,7 @@ cranelift
 codegen
 0
 .
-26
+28
 .
 0
 (
@@ -43770,7 +43770,7 @@ index
 "
 =
 "
-42f5b809bd885c368e01aeec8fe04f21dcb07569834b907d75b4a7bed8d067eb
+4ce2e412970cfda0fa11806758d79a46c02b8fa1b91c35a8d3e2b4c947ce0c35
 "
 "
 checksum
@@ -43781,7 +43781,7 @@ codegen
 meta
 0
 .
-26
+28
 .
 0
 (
@@ -43808,7 +43808,7 @@ index
 "
 =
 "
-014c23ed3ebdc8377d41540af638245207dd169f421df042dfccc867465734ed
+43131e662da7e0243cff28edfbc094a62968a4b57849f77a6c1e3685e9e6e1e6
 "
 "
 checksum
@@ -43817,7 +43817,7 @@ cranelift
 entity
 0
 .
-26
+28
 .
 0
 (
@@ -43844,7 +43844,7 @@ index
 "
 =
 "
-d4df40e26c0cf7b4d86919cb995bb412ee3001cc18e4f3c83a903f30b7007d8b
+c4ccc3743848cbb53e58b62685703dc12ea553c3bc8f21db76f23c68054eb69a
 "
 "
 checksum
@@ -43853,7 +43853,7 @@ cranelift
 frontend
 0
 .
-26
+28
 .
 0
 (
@@ -43880,7 +43880,7 @@ index
 "
 =
 "
-789907218eeebebcea8122c2053d71affac91c96ce72cea35ebfdbbf547e82af
+89ecc8b49d4ab98f2c121832fee365da88b7b0ffad77d4e328015b1fd1f7f4b1
 "
 "
 checksum
@@ -43889,7 +43889,7 @@ cranelift
 wasm
 0
 .
-26
+28
 .
 0
 (
@@ -43916,7 +43916,7 @@ index
 "
 =
 "
-49723365dab9a48b354bdc24cb6d9d5719bc1d3b858ffd2ea179d0d7d885804a
+c7eccd196ecd01a2394ce05e2259afe5704874816b058541c7cce7794f0e835e
 "
 "
 checksum
@@ -46875,7 +46875,7 @@ log
 .
 4
 .
-5
+6
 (
 registry
 +
@@ -46900,7 +46900,7 @@ index
 "
 =
 "
-d4fcce5fa49cc693c312001daf1d13411c4a5283796bac1084299ea3e567113f
+c84ec4b527950aa83a329754b01dbe3f58361d1c5efacd1f6d68c494d08a17c6
 "
 "
 checksum
@@ -51859,7 +51859,7 @@ checksum
 wasmparser
 0
 .
-22
+23
 .
 0
 (
@@ -51886,7 +51886,7 @@ index
 "
 =
 "
-1b4e0f66e314a8e63ff5c3cc5103f7d0a3de9ee98bb61a960adcf7f1d9debd2f
+b5e01c420bc7d36e778bd242e1167b079562ba8b34087122cc9057187026d060
 "
 "
 checksum

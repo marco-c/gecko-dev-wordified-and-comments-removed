@@ -1,8 +1,17 @@
 use
+crate
+:
+:
 verifier
 :
 :
 VerifierErrors
+;
+use
+failure_derive
+:
+:
+Fail
 ;
 #
 [

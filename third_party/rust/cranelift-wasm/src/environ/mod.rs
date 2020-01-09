@@ -6,6 +6,9 @@ spec
 ;
 pub
 use
+crate
+:
+:
 environ
 :
 :
@@ -16,6 +19,9 @@ DummyEnvironment
 ;
 pub
 use
+crate
+:
+:
 environ
 :
 :

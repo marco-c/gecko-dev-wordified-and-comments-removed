@@ -1,5 +1,5 @@
 use
-std
+core
 :
 :
 fmt
@@ -13,6 +13,9 @@ Write
 }
 ;
 use
+crate
+:
+:
 flowgraph
 :
 :
@@ -22,6 +25,9 @@ ControlFlowGraph
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -31,6 +37,9 @@ instructions
 BranchInfo
 ;
 use
+crate
+:
+:
 ir
 :
 :

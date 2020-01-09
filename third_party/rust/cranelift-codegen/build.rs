@@ -1,10 +1,12 @@
-extern
-crate
+use
 cranelift_codegen_meta
 as
 meta
 ;
 use
+crate
+:
+:
 meta
 :
 :

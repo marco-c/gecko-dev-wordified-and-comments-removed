@@ -2,6 +2,12 @@ use
 cranelift_entity
 :
 :
+entity_impl
+;
+use
+cranelift_entity
+:
+:
 EntityRef
 ;
 #

@@ -1,5 +1,11 @@
 use
-std
+crate
+:
+:
+EntityRef
+;
+use
+core
 :
 :
 iter
@@ -8,7 +14,7 @@ iter
 Enumerate
 ;
 use
-std
+core
 :
 :
 marker
@@ -17,13 +23,10 @@ marker
 PhantomData
 ;
 use
-std
+core
 :
 :
 slice
-;
-use
-EntityRef
 ;
 pub
 struct

@@ -1,5 +1,5 @@
 use
-std
+core
 :
 :
 convert
@@ -11,7 +11,7 @@ Into
 }
 ;
 use
-std
+core
 :
 :
 mem
@@ -20,7 +20,7 @@ mem
 size_of
 ;
 use
-std
+core
 :
 :
 ops
