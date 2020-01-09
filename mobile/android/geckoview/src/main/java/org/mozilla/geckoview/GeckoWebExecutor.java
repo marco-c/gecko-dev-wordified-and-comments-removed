@@ -203,7 +203,6 @@ IntDef
 {
 FETCH_FLAGS_NONE
 FETCH_FLAGS_ANONYMOUS
-FETCH_FLAGS_NO_REDIRECTS
 }
 )
 public
@@ -227,18 +226,6 @@ final
 int
 FETCH_FLAGS_ANONYMOUS
 =
-1
-;
-WrapForJNI
-public
-static
-final
-int
-FETCH_FLAGS_NO_REDIRECTS
-=
-1
-<
-<
 1
 ;
 public
