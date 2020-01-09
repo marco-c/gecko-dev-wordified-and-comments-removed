@@ -76,7 +76,6 @@ platforms
 import
 archive_format
 executable_extension
-architecture
 from
 taskgraph
 .
@@ -96,7 +95,6 @@ job_description_schema
 from
 voluptuous
 import
-Any
 Required
 Optional
 job_description_schema
@@ -120,26 +118,6 @@ iteritems
 (
 )
 }
-taskref_or_string
-=
-Any
-(
-    
-basestring
-    
-{
-Required
-(
-'
-task
--
-reference
-'
-)
-:
-basestring
-}
-)
 packaging_description_schema
 =
 schema
@@ -369,17 +347,6 @@ args
 '
 mar
 '
-                 
-'
--
--
-arch
-'
-'
-{
-architecture
-}
-'
 ]
         
 '
@@ -554,7 +521,7 @@ arch
 '
 '
 {
-architecture
+_arch
 }
 '
                  
@@ -1656,6 +1623,22 @@ stub
 '
 ]
         
+_fetch_subst_arch
+=
+'
+x86
+'
+if
+'
+win32
+'
+in
+build_platform
+else
+'
+x64
+'
+        
 for
 format
 in
@@ -1703,13 +1686,10 @@ _locale
 _fetch_subst_locale
                 
 '
-architecture
+_arch
 '
 :
-architecture
-(
-build_platform
-)
+_fetch_subst_arch
                 
 '
 version_display
