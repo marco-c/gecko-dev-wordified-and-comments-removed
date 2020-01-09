@@ -277,15 +277,11 @@ F10
 stepIn
 :
 "
-Ctrl
-+
 F11
 "
 stepOut
 :
 "
-Ctrl
-+
 Shift
 +
 F11
