@@ -3240,6 +3240,11 @@ aEventTarget
 mozilla
 :
 :
+EditorInputType
+aEditorInputType
+mozilla
+:
+:
 TextEditor
 *
 aTextEditor

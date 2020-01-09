@@ -123,6 +123,14 @@ aGivenProto
 )
 ;
 }
+void
+GetInputType
+(
+nsAString
+&
+aInputType
+)
+;
 bool
 IsComposing
 (
@@ -136,6 +144,9 @@ InputEvent
 )
 {
 }
+nsString
+mInputTypeValue
+;
 }
 ;
 }

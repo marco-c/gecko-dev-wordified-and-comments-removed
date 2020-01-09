@@ -1618,6 +1618,10 @@ input
 bubbles
 :
 true
+inputType
+:
+"
+"
 }
 )
 :

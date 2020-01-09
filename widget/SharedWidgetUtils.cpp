@@ -70,6 +70,13 @@ Shutdown
 (
 )
 ;
+InternalEditorInputEvent
+:
+:
+Shutdown
+(
+)
+;
 }
 already_AddRefed
 <

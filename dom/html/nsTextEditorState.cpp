@@ -10307,6 +10307,10 @@ nsContentUtils
 DispatchInputEvent
 (
 element
+EditorInputType
+:
+:
+eInsertReplacementText
 textEditor
 )
 ;

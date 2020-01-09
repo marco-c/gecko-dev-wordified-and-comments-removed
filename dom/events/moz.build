@@ -229,6 +229,11 @@ IMEStateManager
 h
 '
 '
+InputTypeList
+.
+h
+'
+'
 InternalMutationEvent
 .
 h
