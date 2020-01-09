@@ -27,12 +27,12 @@ Attributes
 .
 h
 "
-class
-SVGAngle
-;
 namespace
 mozilla
 {
+class
+SVGOrient
+;
 namespace
 dom
 {
@@ -58,7 +58,7 @@ SVGAnimatedAngle
 )
 SVGAnimatedAngle
 (
-SVGAngle
+SVGOrient
 *
 aVal
 SVGElement
@@ -129,7 +129,7 @@ SVGAnimatedAngle
 (
 )
 ;
-SVGAngle
+SVGOrient
 *
 mVal
 ;

@@ -687,11 +687,6 @@ SVGAElement
 cpp
 '
 '
-SVGAngle
-.
-cpp
-'
-'
 SVGAnimatedAngle
 .
 cpp
@@ -1098,6 +1093,11 @@ cpp
 '
 '
 SVGNumberPairSMILType
+.
+cpp
+'
+'
+SVGOrient
 .
 cpp
 '

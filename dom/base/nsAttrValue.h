@@ -359,11 +359,11 @@ eImage
 eAtomArray
 eDoubleValue
 eIntMarginValue
-eSVGAngle
+eSVGIntegerPair
 eSVGTypesBegin
 =
-eSVGAngle
 eSVGIntegerPair
+eSVGOrient
 eSVGLength
 eSVGLengthList
 eSVGNumberList
@@ -582,7 +582,7 @@ const
 mozilla
 :
 :
-SVGAngle
+SVGOrient
 &
 aValue
 const

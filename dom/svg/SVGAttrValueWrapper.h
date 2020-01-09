@@ -18,9 +18,6 @@ namespace
 mozilla
 {
 class
-SVGAngle
-;
-class
 SVGIntegerPair
 ;
 class
@@ -31,6 +28,9 @@ SVGNumberList
 ;
 class
 SVGNumberPair
+;
+class
+SVGOrient
 ;
 class
 SVGPathData
@@ -60,7 +60,7 @@ void
 ToString
 (
 const
-SVGAngle
+SVGOrient
 *
 aAngle
 nsAString
