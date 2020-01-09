@@ -990,30 +990,15 @@ version
 }
             
 for
-path
+bouncer_platform
 in
 product
 [
 "
-paths
+platforms
 "
 ]
-.
-values
-(
-)
 :
-                
-bouncer_platform
-=
-path
-[
-"
-bouncer
--
-platform
-"
-]
                 
 for
 locale
@@ -1146,30 +1131,15 @@ prev_version
 }
                 
 for
-path
+bouner_platform
 in
 product
 [
 "
-paths
+platforms
 "
 ]
-.
-values
-(
-)
 :
-                    
-bouncer_platform
-=
-path
-[
-"
-bouncer
--
-platform
-"
-]
                     
 for
 locale
