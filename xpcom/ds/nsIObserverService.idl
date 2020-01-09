@@ -158,6 +158,7 @@ listeners
 /
 [
 scriptable
+builtinclass
 uuid
 (
 D07F5192
