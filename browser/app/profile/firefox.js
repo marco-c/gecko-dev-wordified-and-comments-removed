@@ -11966,7 +11966,7 @@ true
 ;
 #
 ifdef
-NIGHTLY_OR_EARLY_BETA
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
