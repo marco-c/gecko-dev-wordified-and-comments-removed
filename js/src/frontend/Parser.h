@@ -4374,6 +4374,8 @@ DeclarationKind
 >
 &
 maybeDecl
+PropertyNameContext
+propertyNameContext
 ListNodeType
 literal
 )
