@@ -856,12 +856,6 @@ aHost
 ;
 static
 bool
-IsSameSiteEnabled
-(
-)
-;
-static
-bool
 PathMatches
 (
 nsCookie
