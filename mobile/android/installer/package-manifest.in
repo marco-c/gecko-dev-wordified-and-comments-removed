@@ -1336,6 +1336,13 @@ BINPATH
 /
 components
 /
+FxAccountsPush
+.
+js
+BINPATH
+/
+components
+/
 HelperAppDialog
 .
 js
