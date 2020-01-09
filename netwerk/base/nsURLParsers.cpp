@@ -2944,6 +2944,8 @@ hostnameLen
 !
 net_IsValidIPv6Addr
 (
+Substring
+(
 serverinfo
 +
 *
@@ -2954,6 +2956,7 @@ hostnamePos
 hostnameLen
 -
 2
+)
 )
 )
 return

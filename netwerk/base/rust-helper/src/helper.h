@@ -44,6 +44,15 @@ nsACString
 aAddr
 )
 ;
+bool
+rust_net_is_valid_ipv6_addr
+(
+const
+nsACString
+&
+aAddr
+)
+;
 }
 #
 endif

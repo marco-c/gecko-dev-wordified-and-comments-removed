@@ -314,15 +314,6 @@ if
 net_IsValidIPv6Addr
 (
 ipAddr
-.
-BeginReading
-(
-)
-ipAddr
-.
-Length
-(
-)
 )
 )
 {
