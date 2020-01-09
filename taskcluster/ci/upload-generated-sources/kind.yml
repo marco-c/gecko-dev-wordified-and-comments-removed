@@ -191,17 +191,6 @@ upload
 generated
 -
 sources
-optimization
-:
-only
--
-if
--
-dependencies
--
-run
-:
-null
 scopes
 :
 -

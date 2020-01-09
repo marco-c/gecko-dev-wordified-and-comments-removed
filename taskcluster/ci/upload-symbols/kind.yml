@@ -290,17 +290,6 @@ profile
 upload
 -
 symbols
-optimization
-:
-only
--
-if
--
-dependencies
--
-run
-:
-null
 scopes
 :
 -
