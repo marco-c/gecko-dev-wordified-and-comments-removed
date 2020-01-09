@@ -745,6 +745,9 @@ icScript_
 uint32_t
 numTypeSets_
 ;
+uint32_t
+bytecodeTypeMapHint_
+;
 StackTypeSet
 typeArray_
 [
@@ -825,6 +828,17 @@ const
 {
 return
 numTypeSets_
+;
+}
+uint32_t
+*
+bytecodeTypeMapHint
+(
+)
+{
+return
+&
+bytecodeTypeMapHint_
 ;
 }
 jit
