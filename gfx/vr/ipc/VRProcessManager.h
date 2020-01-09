@@ -14,6 +14,9 @@ h
 namespace
 mozilla
 {
+class
+MemoryReportingProcess
+;
 namespace
 gfx
 {
@@ -97,6 +100,14 @@ aOutVRBridge
 VRChild
 *
 GetVRChild
+(
+)
+;
+RefPtr
+<
+MemoryReportingProcess
+>
+GetProcessMemoryReporter
 (
 )
 ;
