@@ -1962,7 +1962,6 @@ aSample
 >
 mOffset
 time
-duration
 std
 :
 :

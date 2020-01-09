@@ -857,17 +857,6 @@ unwrap
 }
 }
 }
-auto
-duration
-=
-FramesToTimeUnit
-(
-frames
-mInfo
-.
-mRate
-)
-;
 return
 DecodePromise
 :
@@ -884,7 +873,6 @@ aSample
 -
 >
 mTime
-duration
 std
 :
 :
