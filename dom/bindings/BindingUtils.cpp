@@ -18303,7 +18303,13 @@ aArgc
 JS
 :
 :
-AutoValueVector
+RootedVector
+<
+JS
+:
+:
+Value
+>
 newArgs
 (
 aCx

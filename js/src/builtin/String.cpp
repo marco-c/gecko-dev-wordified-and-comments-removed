@@ -15922,7 +15922,7 @@ str
 )
 ;
 }
-AutoValueVector
+RootedValueVector
 splits
 (
 cx

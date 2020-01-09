@@ -3603,7 +3603,13 @@ jsobj
 JS
 :
 :
-AutoValueVector
+RootedVector
+<
+JS
+:
+:
+Value
+>
 jsargs
 (
 cx

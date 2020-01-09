@@ -31811,7 +31811,7 @@ count
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 fieldsVec
 (
 cx
@@ -34736,7 +34736,10 @@ s
 )
 ;
 }
-AutoValueVector
+JS
+:
+:
+RootedValueVector
 argTypes
 (
 cx
@@ -36704,7 +36707,7 @@ cx
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 vec
 (
 cx
@@ -37937,7 +37940,7 @@ rvSize
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 argv
 (
 cx

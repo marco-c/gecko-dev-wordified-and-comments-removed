@@ -1454,7 +1454,13 @@ cx
 JS
 :
 :
-AutoValueVector
+RootedVector
+<
+JS
+:
+:
+Value
+>
 values
 (
 cx

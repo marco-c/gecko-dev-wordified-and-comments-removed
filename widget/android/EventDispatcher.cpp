@@ -2793,7 +2793,13 @@ nullptr
 JS
 :
 :
-AutoValueVector
+RootedVector
+<
+JS
+:
+:
+Value
+>
 elements
 (
 aCx

@@ -19570,7 +19570,7 @@ head
 )
 ;
 }
-AutoValueVector
+RootedValueVector
 values
 (
 cx

@@ -3998,7 +3998,7 @@ pushedSlots
 =
 0
 ;
-AutoValueVector
+RootedValueVector
 savedCallerArgs
 (
 cx

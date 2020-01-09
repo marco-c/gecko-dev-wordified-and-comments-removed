@@ -595,7 +595,7 @@ NotDelegating
 }
 ;
 typedef
-AutoValueVector
+RootedValueVector
 NodeVector
 ;
 #

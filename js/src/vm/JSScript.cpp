@@ -23055,7 +23055,7 @@ false
 }
 }
 }
-AutoValueVector
+RootedValueVector
 consts
 (
 cx

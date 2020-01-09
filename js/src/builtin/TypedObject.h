@@ -1461,8 +1461,7 @@ allowConstruct
 AutoIdVector
 &
 ids
-AutoValueVector
-&
+HandleValueVector
 fieldTypeObjs
 Vector
 <

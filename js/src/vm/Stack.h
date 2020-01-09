@@ -3379,7 +3379,7 @@ Type
 {
 protected
 :
-AutoValueVector
+RootedValueVector
 v_
 ;
 explicit

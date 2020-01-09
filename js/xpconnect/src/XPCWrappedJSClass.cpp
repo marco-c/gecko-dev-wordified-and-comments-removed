@@ -3965,7 +3965,7 @@ cx
 obj
 )
 ;
-AutoValueVector
+RootedValueVector
 args
 (
 cx

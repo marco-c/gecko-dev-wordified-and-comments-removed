@@ -861,7 +861,7 @@ obj1
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 argv
 (
 cx

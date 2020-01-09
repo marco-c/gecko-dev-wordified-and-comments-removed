@@ -271,9 +271,7 @@ initExternalValueArrayAfterSwap
 JSContext
 *
 cx
-const
-AutoValueVector
-&
+HandleValueVector
 values
 )
 ;

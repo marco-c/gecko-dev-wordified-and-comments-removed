@@ -3338,7 +3338,7 @@ identifier
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 paths
 (
 cx
@@ -3374,7 +3374,7 @@ path
 JS
 :
 :
-AutoValueVector
+RootedValueVector
 pathValues
 (
 cx

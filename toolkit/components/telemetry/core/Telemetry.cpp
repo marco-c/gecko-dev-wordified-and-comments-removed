@@ -8862,7 +8862,13 @@ rv
 JS
 :
 :
-AutoValueVector
+RootedVector
+<
+JS
+:
+:
+Value
+>
 allStores
 (
 aCx

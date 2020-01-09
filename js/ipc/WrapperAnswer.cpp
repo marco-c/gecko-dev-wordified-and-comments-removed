@@ -2307,13 +2307,13 @@ UndefinedVariant
 )
 )
 ;
-AutoValueVector
+RootedValueVector
 vals
 (
 cx
 )
 ;
-AutoValueVector
+RootedValueVector
 outobjects
 (
 cx

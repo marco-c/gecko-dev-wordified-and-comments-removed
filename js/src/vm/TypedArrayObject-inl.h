@@ -2837,7 +2837,7 @@ return
 true
 ;
 }
-AutoValueVector
+RootedValueVector
 values
 (
 cx

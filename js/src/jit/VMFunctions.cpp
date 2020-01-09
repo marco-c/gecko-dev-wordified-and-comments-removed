@@ -5085,7 +5085,7 @@ stackDepth
 1
 )
 ;
-AutoValueVector
+RootedValueVector
 exprStack
 (
 cx

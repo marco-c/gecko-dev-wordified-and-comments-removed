@@ -9999,7 +9999,13 @@ false
 JS
 :
 :
-AutoValueVector
+RootedVector
+<
+JS
+:
+:
+Value
+>
 autoKeys
 (
 cx

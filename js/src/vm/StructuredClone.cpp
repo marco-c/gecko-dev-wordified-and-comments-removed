@@ -260,6 +260,12 @@ JS
 CanonicalizeNaN
 ;
 using
+JS
+:
+:
+RootedValueVector
+;
+using
 mozilla
 :
 :
@@ -1901,10 +1907,10 @@ JS
 StructuredCloneScope
 allowedScope
 ;
-AutoValueVector
+RootedValueVector
 objs
 ;
-AutoValueVector
+RootedValueVector
 allObjs
 ;
 const
@@ -2275,7 +2281,7 @@ checkStack
 SCOutput
 out
 ;
-AutoValueVector
+RootedValueVector
 objs
 ;
 Vector
@@ -2287,7 +2293,7 @@ counts
 AutoIdVector
 objectEntries
 ;
-AutoValueVector
+RootedValueVector
 otherEntries
 ;
 using

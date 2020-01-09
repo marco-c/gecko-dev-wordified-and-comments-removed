@@ -3092,7 +3092,7 @@ JSParam
 >
 vals
 ;
-AutoValueVector
+RootedValueVector
 outobjects
 (
 cx
