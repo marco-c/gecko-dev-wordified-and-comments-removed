@@ -6395,6 +6395,17 @@ GetPixelGeometry
 )
 ;
 }
+Factory
+:
+:
+SetBGRSubpixelOrder
+(
+dwriteGeometry
+=
+=
+DWRITE_PIXEL_GEOMETRY_BGR
+)
+;
 if
 (
 renderMode
