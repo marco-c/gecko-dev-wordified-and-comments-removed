@@ -1673,6 +1673,8 @@ mLoadTimer
 nullptr
 ;
 }
+if
+(
 nsCOMPtr
 <
 nsIChannel
@@ -1684,7 +1686,8 @@ mChannel
 forget
 (
 )
-;
+)
+{
 channel
 -
 >
@@ -1693,6 +1696,7 @@ Cancel
 NS_BINDING_ABORTED
 )
 ;
+}
 }
 StyleFontDisplay
 nsFontFaceLoader
