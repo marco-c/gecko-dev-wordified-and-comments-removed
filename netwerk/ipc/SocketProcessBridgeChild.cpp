@@ -122,7 +122,7 @@ SocketProcessBridgeChild
 SocketProcessBridgeChild
 :
 :
-GetSinglton
+GetSingleton
 (
 )
 {
@@ -363,6 +363,11 @@ PSocketProcessBridgeChild
 &
 aEndpoint
 )
+:
+mShuttingDown
+(
+false
+)
 {
 LOG
 (
@@ -445,6 +450,14 @@ false
 )
 ;
 }
+mSocketProcessPid
+=
+aEndpoint
+.
+OtherPid
+(
+)
+;
 }
 SocketProcessBridgeChild
 :
@@ -594,6 +607,10 @@ SocketProcessBridgeChild
 DeferredDestroy
 )
 )
+;
+mShuttingDown
+=
+true
 ;
 }
 NS_IMETHODIMP
