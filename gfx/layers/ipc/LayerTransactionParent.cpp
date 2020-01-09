@@ -4145,7 +4145,10 @@ const
 LayerHandle
 &
 aLayerHandle
-MaybeTransform
+Maybe
+<
+Matrix4x4
+>
 *
 aTransform
 )
@@ -4493,7 +4496,10 @@ GetShadowBaseTransform
 *
 aTransform
 =
+Some
+(
 transform
+)
 ;
 return
 IPC_OK

@@ -592,7 +592,10 @@ const
 LayerHandle
 &
 aHandle
-MaybeTransform
+Maybe
+<
+Matrix4x4
+>
 *
 aTransform
 )
