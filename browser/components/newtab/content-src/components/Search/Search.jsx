@@ -1246,7 +1246,12 @@ search_web_placeholder
 div
 >
 <
-div
+input
+type
+=
+"
+search
+"
 className
 =
 "
@@ -1266,10 +1271,6 @@ hidden
 =
 "
 true
-"
-contentEditable
-=
-"
 "
 onDrop
 =

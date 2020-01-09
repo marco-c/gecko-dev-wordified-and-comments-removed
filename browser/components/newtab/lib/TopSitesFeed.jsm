@@ -1108,6 +1108,17 @@ s
 =
 >
 s
+&
+&
+s
+.
+shortURL
+!
+=
+=
+this
+.
+_currentSearchHostname
 )
 ;
 if

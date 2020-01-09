@@ -254,6 +254,14 @@ title
 /
 header
 >
+{
+this
+.
+props
+.
+excerpt
+&
+&
 <
 p
 className
@@ -273,6 +281,7 @@ excerpt
 /
 p
 >
+}
 {
 this
 .

@@ -1213,7 +1213,7 @@ searchTopSites
 length
 >
 =
-2
+1
 "
 There
 should
