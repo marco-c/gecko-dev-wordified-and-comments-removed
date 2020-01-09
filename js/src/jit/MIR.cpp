@@ -32828,8 +32828,6 @@ Args
 args
 MIRType
 resultType
-uint32_t
-spIncrement
 MDefinition
 *
 tableIndex
@@ -32847,7 +32845,6 @@ MWasmCall
 (
 desc
 callee
-spIncrement
 )
 ;
 call
@@ -33057,8 +33054,6 @@ Args
 args
 MIRType
 resultType
-uint32_t
-spIncrement
 )
 {
 auto
@@ -33089,7 +33084,6 @@ desc
 callee
 args
 resultType
-spIncrement
 nullptr
 )
 ;
