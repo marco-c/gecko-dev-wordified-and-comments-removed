@@ -9,9 +9,7 @@ from
 "
 std
 :
-async
--
-local
+kv
 -
 storage
 "
