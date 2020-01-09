@@ -8188,7 +8188,7 @@ entry
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 ;
@@ -8655,7 +8655,7 @@ j
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 ;
@@ -8862,7 +8862,7 @@ j
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 ;
@@ -18537,7 +18537,7 @@ added
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 )
@@ -18555,7 +18555,7 @@ added
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 )
@@ -18565,7 +18565,7 @@ bytecodeMap
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 ]
@@ -18895,7 +18895,7 @@ num
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 +
@@ -18931,7 +18931,7 @@ static_assert
 JSScript
 :
 :
-NumTypeSetsBits
+NumBytecodeTypeSetsBits
 =
 =
 16
@@ -19153,7 +19153,7 @@ this
 size_t
 bytecodeTypeMapEntries
 =
-nTypeSets
+numBytecodeTypeSets
 (
 )
 +
@@ -19307,7 +19307,7 @@ i
 ;
 i
 <
-nTypeSets
+numBytecodeTypeSets
 (
 )
 ;

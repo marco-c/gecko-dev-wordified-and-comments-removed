@@ -11720,7 +11720,7 @@ if
 script
 -
 >
-nTypeSets
+numBytecodeTypeSets
 (
 )
 >
