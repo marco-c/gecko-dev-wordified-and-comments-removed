@@ -12642,10 +12642,10 @@ false
 int32_t
 strategy
 =
-nsContentUtils
+StaticPrefs
 :
 :
-BytecodeCacheStrategy
+dom_script_loader_bytecode_cache_strategy
 (
 )
 ;

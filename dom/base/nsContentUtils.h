@@ -6863,16 +6863,6 @@ GetUserIsInteracting
 )
 ;
 static
-int32_t
-BytecodeCacheStrategy
-(
-)
-{
-return
-sBytecodeCacheStrategy
-;
-}
-static
 nsCString
 &
 JSBytecodeMimeType
@@ -7514,10 +7504,6 @@ sBypassCSSOMOriginCheck
 ;
 #
 endif
-static
-int32_t
-sBytecodeCacheStrategy
-;
 class
 UserInteractionObserver
 ;
