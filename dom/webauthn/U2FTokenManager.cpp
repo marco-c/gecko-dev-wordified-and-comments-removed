@@ -1377,6 +1377,9 @@ directAttestationRequested
 =
 false
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 if
 (
 aTransactionInfo
@@ -1425,6 +1428,8 @@ AttestationConveyancePreference
 Direct
 ;
 }
+#
+endif
 if
 (
 !
