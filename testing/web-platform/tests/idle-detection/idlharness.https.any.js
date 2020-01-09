@@ -143,6 +143,15 @@ IdleStatus
 idle
 '
 ]
+IdleState
+:
+[
+'
+idle
+.
+state
+'
+]
 }
 )
 ;
