@@ -962,6 +962,11 @@ AutoCopyListener
 h
 '
 '
+ColumnUtils
+.
+h
+'
+'
 CSSAlignUtils
 .
 h
@@ -1032,6 +1037,11 @@ cpp
 '
 '
 ColumnSetWrapperFrame
+.
+cpp
+'
+'
+ColumnUtils
 .
 cpp
 '
