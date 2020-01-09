@@ -32534,11 +32534,6 @@ wasm
 :
 SymbolicAddress
 builtin
-wasm
-:
-:
-FailureMode
-failureMode
 const
 ABIArg
 &
@@ -32611,13 +32606,6 @@ call
 instanceArg_
 =
 instanceArg
-;
-call
--
->
-builtinMethodFailureMode_
-=
-failureMode
 ;
 return
 call

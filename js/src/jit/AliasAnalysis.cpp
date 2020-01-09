@@ -1254,6 +1254,15 @@ MDefinition
 Opcode
 :
 :
+WasmLoadRef
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 WasmStoreRef
 :
 case
