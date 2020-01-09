@@ -2924,15 +2924,10 @@ undefined
 let
 sessionStartDate
 =
-Services
-.
-startup
-.
-getStartupInfo
+new
+Date
 (
 )
-.
-main
 ;
 this
 .
