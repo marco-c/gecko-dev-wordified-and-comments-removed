@@ -10506,7 +10506,7 @@ false
 endif
 #
 ifdef
-ENABLE_WASM_REFTYPES
+ENABLE_WASM_GC
 pref
 (
 "
@@ -13155,6 +13155,18 @@ sts
 pollable_event_timeout
 "
 6
+)
+;
+pref
+(
+"
+network
+.
+process
+.
+enabled
+"
+false
 )
 ;
 pref
