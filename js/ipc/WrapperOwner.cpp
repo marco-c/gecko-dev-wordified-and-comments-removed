@@ -443,8 +443,7 @@ const
 override
 ;
 virtual
-JSObject
-*
+bool
 enumerate
 (
 JSContext
@@ -452,6 +451,9 @@ JSContext
 cx
 HandleObject
 proxy
+AutoIdVector
+&
+props
 )
 const
 override
@@ -1360,8 +1362,7 @@ result
 )
 ;
 }
-JSObject
-*
+bool
 CPOWProxyHandler
 :
 :
@@ -1372,6 +1373,9 @@ JSContext
 cx
 HandleObject
 proxy
+AutoIdVector
+&
+props
 )
 const
 {
@@ -1383,6 +1387,7 @@ enumerate
 (
 cx
 proxy
+props
 )
 ;
 }

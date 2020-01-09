@@ -203,8 +203,7 @@ const
 override
 ;
 virtual
-JSObject
-*
+bool
 enumerate
 (
 JSContext
@@ -219,6 +218,12 @@ JSObject
 *
 >
 wrapper
+JS
+:
+:
+AutoIdVector
+&
+props
 )
 const
 override

@@ -907,8 +907,7 @@ Base
 typename
 Policy
 >
-JSObject
-*
+bool
 FilteringWrapper
 <
 Base
@@ -923,6 +922,12 @@ JSContext
 cx
 HandleObject
 wrapper
+JS
+:
+:
+AutoIdVector
+&
+props
 )
 const
 {
@@ -948,6 +953,7 @@ enumerate
 (
 cx
 wrapper
+props
 )
 ;
 }
