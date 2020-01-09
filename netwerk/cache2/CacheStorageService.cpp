@@ -211,7 +211,7 @@ net
 namespace
 {
 void
-AppendMemoryStorageID
+AppendMemoryStorageTag
 (
 nsAutoCString
 &
@@ -223,7 +223,8 @@ key
 Append
 (
 '
-/
+\
+x7f
 '
 )
 ;
@@ -232,7 +233,6 @@ key
 Append
 (
 '
-M
 '
 )
 ;
@@ -4826,7 +4826,7 @@ GetStorageID
 )
 )
 ;
-AppendMemoryStorageID
+AppendMemoryStorageTag
 (
 memoryStorageID
 )
@@ -4983,7 +4983,7 @@ GetStorageID
 )
 )
 ;
-AppendMemoryStorageID
+AppendMemoryStorageTag
 (
 memoryStorageID
 )
@@ -7156,7 +7156,7 @@ WriteToDisk
 )
 )
 {
-AppendMemoryStorageID
+AppendMemoryStorageTag
 (
 contextKey
 )
@@ -8587,7 +8587,7 @@ memoryStorageID
 aContextKey
 )
 ;
-AppendMemoryStorageID
+AppendMemoryStorageTag
 (
 memoryStorageID
 )
