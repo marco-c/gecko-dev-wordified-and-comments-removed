@@ -407,6 +407,9 @@ aEventTargetNode
 nsPresContext
 *
 aPresContext
+TabParent
+*
+aTabParent
 WidgetCompositionEvent
 *
 aCompositionEvent

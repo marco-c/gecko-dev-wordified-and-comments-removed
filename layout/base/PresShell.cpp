@@ -38221,6 +38221,12 @@ eventTarget
 GetPresContext
 (
 )
+TabParent
+:
+:
+GetFocused
+(
+)
 aEvent
 -
 >

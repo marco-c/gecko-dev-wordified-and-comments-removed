@@ -3106,6 +3106,10 @@ DispatchCompositionEvent
 (
 mEventTarget
 presContext
+mTextComposition
+-
+>
+mTabParent
 &
 compStart
 &
@@ -3179,6 +3183,10 @@ DispatchCompositionEvent
 (
 mEventTarget
 presContext
+mTextComposition
+-
+>
+mTabParent
 &
 compEvent
 &
