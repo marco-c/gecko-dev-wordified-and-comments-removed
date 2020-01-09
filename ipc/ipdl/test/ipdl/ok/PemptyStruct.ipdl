@@ -1,0 +1,17 @@
+struct
+empty
+{
+}
+;
+protocol
+PemptyStruct
+{
+child
+:
+async
+__delete__
+(
+)
+;
+}
+;

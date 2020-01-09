@@ -1,0 +1,14 @@
+intr
+protocol
+PmessageCompress
+{
+child
+:
+async
+foo
+(
+)
+compress
+;
+}
+;
