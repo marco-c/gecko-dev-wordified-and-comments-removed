@@ -1328,13 +1328,6 @@ BINPATH
 /
 components
 /
-ContentDispatchChooser
-.
-js
-BINPATH
-/
-components
-/
 ContentPermissionPrompt
 .
 js
