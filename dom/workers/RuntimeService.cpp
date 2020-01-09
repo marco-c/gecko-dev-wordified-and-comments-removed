@@ -8156,7 +8156,7 @@ index
 ]
 -
 >
-Kill
+Cancel
 (
 )
 )
