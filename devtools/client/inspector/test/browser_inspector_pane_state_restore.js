@@ -204,7 +204,9 @@ EXPECTED_NEW_HEIGHT
 ;
 inspector
 .
-sidebarSplitBox
+sidebarSplitBoxRef
+.
+current
 .
 setState
 (

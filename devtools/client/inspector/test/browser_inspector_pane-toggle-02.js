@@ -90,7 +90,9 @@ ruleViewSidebar
 =
 inspector
 .
-sidebarSplitBox
+sidebarSplitBoxRef
+.
+current
 .
 startPanelContainer
 ;
@@ -214,7 +216,9 @@ sidebarSplitBoxWidth
 =
 inspector
 .
-sidebarSplitBox
+sidebarSplitBoxRef
+.
+current
 .
 state
 .
