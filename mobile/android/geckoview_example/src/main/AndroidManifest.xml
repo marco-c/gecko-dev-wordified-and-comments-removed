@@ -177,6 +177,13 @@ supportsRtl
 "
 true
 "
+android
+:
+usesCleartextTraffic
+=
+"
+true
+"
 >
 <
 uses
