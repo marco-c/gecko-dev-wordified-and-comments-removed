@@ -1296,6 +1296,16 @@ calcSnapPoints
 aSnapInfo
 )
 ;
+nsPoint
+clampedDestination
+=
+aScrollRange
+.
+ClampPoint
+(
+aDestination
+)
+;
 for
 (
 auto
@@ -1312,7 +1322,7 @@ range
 .
 IsValid
 (
-aDestination
+clampedDestination
 .
 x
 aSnapInfo
@@ -1340,7 +1350,7 @@ calcSnapPoints
 .
 AddVerticalEdge
 (
-aDestination
+clampedDestination
 .
 x
 )
@@ -1365,7 +1375,7 @@ range
 .
 IsValid
 (
-aDestination
+clampedDestination
 .
 y
 aSnapInfo
@@ -1393,7 +1403,7 @@ calcSnapPoints
 .
 AddHorizontalEdge
 (
-aDestination
+clampedDestination
 .
 y
 )
