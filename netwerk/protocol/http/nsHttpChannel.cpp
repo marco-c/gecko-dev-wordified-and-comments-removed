@@ -2845,6 +2845,13 @@ nsresult
 aStatus
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 nsresult
 rv
 =

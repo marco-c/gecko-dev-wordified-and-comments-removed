@@ -13426,6 +13426,7 @@ aResultCallback
 ]
 (
 )
+mutable
 {
 uint32_t
 hstsSource
