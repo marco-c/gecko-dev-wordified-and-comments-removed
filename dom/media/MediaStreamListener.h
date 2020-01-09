@@ -266,12 +266,6 @@ int32_t
 >
 mDisabledBlackCount
 ;
-nsAutoPtr
-<
-MediaSegment
->
-mMedia
-;
 }
 ;
 }
