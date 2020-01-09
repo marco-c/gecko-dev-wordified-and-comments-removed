@@ -38,7 +38,6 @@ atomic
 {
 AtomicUsize
 Ordering
-ATOMIC_USIZE_INIT
 }
 ;
 use
@@ -61,7 +60,13 @@ MAX_LOG_LEVEL
 :
 AtomicUsize
 =
-ATOMIC_USIZE_INIT
+AtomicUsize
+:
+:
+new
+(
+0
+)
 ;
 const
 LOGGED_TARGETS
