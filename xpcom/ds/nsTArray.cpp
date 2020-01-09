@@ -44,6 +44,10 @@ IntegerPrintfMacros
 .
 h
 "
+alignas
+(
+8
+)
 nsTArrayHeader
 sEmptyTArrayHeader
 =
