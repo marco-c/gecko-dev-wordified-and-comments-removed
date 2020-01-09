@@ -36,14 +36,6 @@ util
 schema
 import
 resolve_keyed_by
-from
-taskgraph
-.
-util
-.
-taskcluster
-import
-get_taskcluster_artifact_prefix
 transforms
 =
 TransformSequence
@@ -140,34 +132,25 @@ append
 (
                     
 "
+<
 {
 }
+/
+public
+/
+build
+/
 update
 -
 verify
 .
 cfg
-"
-.
-format
-(
-                        
-get_taskcluster_artifact_prefix
-(
-task
-"
-<
-{
-}
 >
 "
 .
 format
 (
 upstream
-)
-)
-                    
 )
                 
 )
@@ -198,7 +181,7 @@ command
 {
                 
 '
-task
+artifact
 -
 reference
 '
@@ -216,7 +199,7 @@ gecko
 &
 &
 '
-                                  
+                                      
 '
 tools
 /
@@ -232,7 +215,7 @@ verification
 .
 sh
 '
-                                  
+                                      
 +
 '
 '
