@@ -1708,6 +1708,9 @@ mPendingMaybeEditingStateChanged
 bool
 mHasBeenEditable
 ;
+bool
+mIsPlainText
+;
 }
 ;
 namespace
