@@ -124,10 +124,6 @@ clang
 .
 yml
 -
-coverity
-.
-yml
--
 cram
 .
 yml
