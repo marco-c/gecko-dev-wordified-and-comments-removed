@@ -9514,6 +9514,8 @@ tabId
 ;
 return
 remoteTab
+.
+contentProcessId
 ;
 }
 async
