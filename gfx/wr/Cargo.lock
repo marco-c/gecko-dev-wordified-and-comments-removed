@@ -4192,7 +4192,7 @@ syn
 .
 15
 .
-26
+17
 (
 registry
 +
@@ -4460,7 +4460,7 @@ syn
 .
 15
 .
-26
+17
 (
 registry
 +
@@ -5038,7 +5038,7 @@ serde_derive
 .
 0
 .
-88
+80
 (
 git
 +
@@ -5056,7 +5056,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums10
+deserialize_from_enums9
 )
 "
 "
@@ -9989,7 +9989,7 @@ syn
 .
 15
 .
-26
+17
 (
 registry
 +
@@ -11491,7 +11491,7 @@ syn
 .
 15
 .
-26
+17
 (
 registry
 +
@@ -12828,7 +12828,7 @@ serde_derive
 .
 0
 .
-88
+80
 (
 git
 +
@@ -12846,7 +12846,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums10
+deserialize_from_enums9
 )
 "
 "
@@ -13353,7 +13353,7 @@ serde_derive
 .
 0
 .
-88
+80
 (
 git
 +
@@ -13371,7 +13371,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums10
+deserialize_from_enums9
 )
 "
 ]
@@ -13513,7 +13513,7 @@ serde_derive
 .
 0
 .
-88
+80
 (
 git
 +
@@ -13531,7 +13531,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums10
+deserialize_from_enums9
 )
 "
 ]
@@ -15925,7 +15925,7 @@ serde_derive
 .
 0
 .
-88
+80
 (
 git
 +
@@ -15943,7 +15943,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums10
+deserialize_from_enums9
 )
 "
 ]
@@ -16039,7 +16039,7 @@ version
 .
 0
 .
-88
+80
 "
 source
 =
@@ -16060,9 +16060,9 @@ serde
 ?
 branch
 =
-deserialize_from_enums10
+deserialize_from_enums9
 #
-84b2795d2a7b5312125a99b1ef11c67fd8d17c35
+e0cc925c259cb74ce41377e4fe02713adfa6d836
 "
 dependencies
 =
@@ -16133,7 +16133,7 @@ syn
 .
 15
 .
-26
+17
 (
 registry
 +
@@ -17562,7 +17562,7 @@ version
 .
 15
 .
-26
+17
 "
 source
 =
@@ -17793,7 +17793,7 @@ syn
 .
 15
 .
-26
+17
 (
 registry
 +
@@ -22144,7 +22144,7 @@ serde_derive
 .
 0
 .
-88
+80
 (
 git
 +
@@ -22162,7 +22162,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums10
+deserialize_from_enums9
 )
 "
 "
@@ -30033,7 +30033,7 @@ serde_derive
 .
 0
 .
-88
+80
 (
 git
 +
@@ -30051,7 +30051,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums10
+deserialize_from_enums9
 )
 "
 =
@@ -30489,7 +30489,7 @@ syn
 .
 15
 .
-26
+17
 (
 registry
 +
@@ -30514,7 +30514,7 @@ index
 "
 =
 "
-f92e629aa1d9c827b2bb8297046c1ccffc57c99b947a680d3ccff1f136a3bee9
+3391038ebc3e4ab24eb028cb0ef2f2dc4ba0cbf72ee895ed6a6fad730640b5bc
 "
 "
 checksum

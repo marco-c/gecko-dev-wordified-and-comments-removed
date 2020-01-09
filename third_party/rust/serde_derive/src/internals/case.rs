@@ -37,8 +37,6 @@ RenameRule
 [
 derive
 (
-Copy
-Clone
 PartialEq
 )
 ]
