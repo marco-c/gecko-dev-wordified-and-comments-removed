@@ -844,6 +844,13 @@ Stream
 (
 )
 ;
+MediaStream
+*
+GetStream
+(
+)
+const
+;
 size_t
 SizeOfExcludingThis
 (
