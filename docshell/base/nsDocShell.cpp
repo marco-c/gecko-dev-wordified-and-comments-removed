@@ -2470,9 +2470,8 @@ LegacySHistory
 )
 -
 >
-SetRootDocShell
+ClearRootDocShell
 (
-nullptr
 )
 ;
 }
