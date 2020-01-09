@@ -5226,18 +5226,18 @@ slog
 from
 mozdevice
 import
-ADBAndroid
+ADBDevice
     
 device
 =
-ADBAndroid
+ADBDevice
 (
 device
 =
 options
 .
 device_serial
-                        
+                       
 test_root
 =
 options

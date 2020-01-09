@@ -30,7 +30,6 @@ ZipFile
 from
 mozdevice
 import
-ADBAndroid
 ADBDevice
 ADBTimeoutError
 import
@@ -1563,7 +1562,7 @@ self
 .
 device
 =
-ADBAndroid
+ADBDevice
 (
 adb
 =
@@ -1577,7 +1576,7 @@ or
 '
 adb
 '
-                                 
+                                
 device
 =
 options
@@ -1586,7 +1585,7 @@ options
 deviceSerial
 '
 ]
-                                 
+                                
 test_root
 =
 options
@@ -1595,7 +1594,7 @@ options
 remoteTestRoot
 '
 ]
-                                 
+                                
 verbose
 =
 verbose

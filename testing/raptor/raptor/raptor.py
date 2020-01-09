@@ -17,7 +17,7 @@ mozinfo
 from
 mozdevice
 import
-ADBAndroid
+ADBDevice
 from
 mozlog
 import
@@ -725,7 +725,7 @@ self
 .
 device
 =
-ADBAndroid
+ADBDevice
 (
 verbose
 =

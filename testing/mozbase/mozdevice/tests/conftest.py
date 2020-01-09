@@ -1013,38 +1013,19 @@ method
 call
 when
 instantiating
-ADBAndroid
-.
-    
-This
-is
-the
-key
-to
-test
-abstract
-methods
-implemented
-in
 ADBDevice
 .
     
-ADBAndroid
+ADBDevice
 normally
 requires
 instantiated
 objects
-including
-but
-not
-    
-limited
-to
-ADBDevice
 in
 order
 to
 execute
+    
 its
 commands
 .
@@ -1065,7 +1046,7 @@ initialization
 of
     
 the
-ADBAndroid
+ADBDevice
 object
 .
 By
@@ -1094,12 +1075,12 @@ object
 :
 yields
 :
-ADBAndroid
+ADBDevice
 -
 mock
 instance
 of
-ADBAndroid
+ADBDevice
 object
     
 "
@@ -1113,7 +1094,7 @@ object
 (
 mozdevice
 .
-ADBAndroid
+ADBDevice
 '
 __init__
 '
@@ -1127,7 +1108,7 @@ None
 yield
 mozdevice
 .
-ADBAndroid
+ADBDevice
 (
 )
 pytest
@@ -1170,7 +1151,7 @@ value
 such
 as
 most
-ADBAndroid
+ADBDevice
 methods
 .
     

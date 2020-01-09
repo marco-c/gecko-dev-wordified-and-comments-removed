@@ -39,7 +39,7 @@ from
 mozdevice
 import
 ADBHost
-ADBAndroid
+ADBDevice
 from
 mozprocess
 import
@@ -681,7 +681,7 @@ adb
         
 device
 =
-ADBAndroid
+ADBDevice
 (
 adb
 =
