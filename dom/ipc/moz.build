@@ -262,16 +262,6 @@ MemoryReportRequest
 h
 '
 '
-nsIContentChild
-.
-h
-'
-'
-nsIContentParent
-.
-h
-'
-'
 PermissionMessageUtils
 .
 h
