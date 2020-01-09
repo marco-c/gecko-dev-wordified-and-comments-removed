@@ -1782,9 +1782,16 @@ browser
 cycle
 %
 d
-"
+for
 %
+s
+"
+                     
+%
+(
 browser_cycle
+suite_name
+)
 )
             
 if
