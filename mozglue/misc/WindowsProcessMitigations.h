@@ -22,6 +22,12 @@ IsWin32kLockedDown
 (
 )
 ;
+MFBT_API
+bool
+IsDynamicCodeDisabled
+(
+)
+;
 }
 #
 endif
