@@ -54,3 +54,9 @@ mozdownload
 1
 .
 25
+mozversion
+=
+=
+1
+.
+5
