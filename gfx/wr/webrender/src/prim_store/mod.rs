@@ -10155,9 +10155,6 @@ gpu_cache
 frame_state
 .
 render_tasks
-frame_state
-.
-special_render_passes
 scratch
 )
 ;

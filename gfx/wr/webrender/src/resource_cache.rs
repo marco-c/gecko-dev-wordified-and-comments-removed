@@ -439,12 +439,6 @@ Eviction
 }
 ;
 use
-tiling
-:
-:
-SpecialRenderPasses
-;
-use
 util
 :
 :
@@ -6647,11 +6641,6 @@ render_task_tree
 &
 mut
 RenderTaskTree
-render_passes
-:
-&
-mut
-SpecialRenderPasses
 )
 {
 debug_assert_eq
@@ -6702,7 +6691,6 @@ self
 .
 cached_render_tasks
 render_task_tree
-render_passes
 )
 ;
 }
