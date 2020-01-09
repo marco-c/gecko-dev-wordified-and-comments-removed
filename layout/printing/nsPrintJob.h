@@ -194,6 +194,15 @@ aScreenDPI
 nsresult
 Print
 (
+mozilla
+:
+:
+dom
+:
+:
+Document
+*
+aSourceDoc
 nsIPrintSettings
 *
 aPrintSettings
