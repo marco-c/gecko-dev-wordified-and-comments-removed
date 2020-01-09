@@ -4380,6 +4380,10 @@ mFocusByKeyOccurred
 (
 false
 )
+mDidFireDocElemInserted
+(
+false
+)
 mHasGamepad
 (
 false
