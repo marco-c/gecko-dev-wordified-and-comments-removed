@@ -785,19 +785,6 @@ s
 cache_file
 ]
         
-command
-+
-=
-[
-'
--
--
-no
--
-create
-'
-]
-        
 print
 (
 prefix_lines

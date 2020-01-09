@@ -1796,13 +1796,6 @@ libdir
 '
 -
 -
-no
--
-create
-'
-'
--
--
 prefix
 '
 '
