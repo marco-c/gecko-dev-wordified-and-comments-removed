@@ -523,8 +523,6 @@ treeBodyNode
 =
 treeNode
 .
-boxObject
-.
 treeBody
 ;
 var

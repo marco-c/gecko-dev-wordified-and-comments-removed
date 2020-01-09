@@ -467,13 +467,6 @@ accTreeForColumns
 }
 ;
 var
-treeBoxObject
-=
-aTree
-.
-treeBoxObject
-;
-var
 view
 =
 aTree
@@ -483,7 +476,7 @@ view
 var
 columnCount
 =
-treeBoxObject
+aTree
 .
 columns
 .

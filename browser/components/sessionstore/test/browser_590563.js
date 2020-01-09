@@ -322,8 +322,6 @@ rect
 =
 tree
 .
-treeBoxObject
-.
 getCoordsForCellItem
 (
 1
@@ -364,8 +362,6 @@ contentWindow
 rect
 =
 tree
-.
-treeBoxObject
 .
 getCoordsForCellItem
 (

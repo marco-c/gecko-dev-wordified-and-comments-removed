@@ -81,7 +81,7 @@ columns
 /
 readonly
 attribute
-TreeBoxObject
+XULTreeElement
 ?
 tree
 ;

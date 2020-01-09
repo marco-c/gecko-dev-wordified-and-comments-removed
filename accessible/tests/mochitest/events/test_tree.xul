@@ -1040,7 +1040,7 @@ setTreeView_invoke
 (
 )
 {
-gTreeBox
+gTree
 .
 view
 =
@@ -1121,7 +1121,7 @@ last
 "
 )
 ;
-gTreeBox
+gTree
 .
 rowCountChanged
 (
@@ -1382,7 +1382,7 @@ x0
 "
 )
 ;
-gTreeBox
+gTree
 .
 invalidateColumn
 (
@@ -1607,7 +1607,7 @@ getNext
 )
 ;
 }
-gTreeBox
+gTree
 .
 invalidateRow
 (
@@ -1764,11 +1764,6 @@ gTree
 null
 ;
 var
-gTreeBox
-=
-null
-;
-var
 gTreeView
 =
 null
@@ -1813,12 +1808,6 @@ getElementById
 tree
 "
 )
-;
-gTreeBox
-=
-gTree
-.
-treeBoxObject
 ;
 gView
 =

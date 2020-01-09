@@ -296,16 +296,9 @@ aTree
 aOptions
 )
 {
-let
-tbo
-=
-aTree
-.
-treeBoxObject
-;
 if
 (
-tbo
+aTree
 .
 view
 .
@@ -340,7 +333,7 @@ max
 {
 }
 ;
-tbo
+aTree
 .
 view
 .
@@ -360,7 +353,7 @@ min
 .
 value
 ;
-tbo
+aTree
 .
 ensureRowIsVisible
 (
@@ -370,7 +363,7 @@ rowID
 var
 rect
 =
-tbo
+aTree
 .
 getCoordsForCellItem
 (
