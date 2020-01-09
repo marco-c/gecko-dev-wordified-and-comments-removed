@@ -53,7 +53,7 @@ h
 endif
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 #
 include
 "
@@ -543,7 +543,7 @@ aDstFormat
 endif
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 template
 <
 bool
@@ -1449,7 +1449,7 @@ break
 endif
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla
@@ -2251,7 +2251,7 @@ break
 endif
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla
@@ -4056,7 +4056,7 @@ break
 endif
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla
