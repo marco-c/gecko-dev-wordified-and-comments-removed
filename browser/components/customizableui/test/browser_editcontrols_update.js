@@ -372,6 +372,14 @@ test_panelui_opened
 (
 )
 {
+document
+.
+commandDispatcher
+.
+unlock
+(
+)
+;
 gURLBar
 .
 focus
