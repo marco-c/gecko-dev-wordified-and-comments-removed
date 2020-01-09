@@ -151,6 +151,9 @@ OS_LIBS
 =
 [
 '
+ntdll
+'
+'
 ole32
 '
 ]
