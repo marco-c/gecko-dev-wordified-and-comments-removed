@@ -456,7 +456,7 @@ mm
 '
 nsCommandLineServiceMac
 .
-cpp
+mm
 '
 '
 nsNativeAppSupportCocoa
