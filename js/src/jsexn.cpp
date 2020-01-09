@@ -4749,7 +4749,7 @@ sourceId
 =
 iter
 .
-script
+hasScript
 (
 )
 ?
