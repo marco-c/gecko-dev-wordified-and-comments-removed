@@ -58,7 +58,7 @@ registrations
 "
 array
 :
-json
+serviceWorkerRegistration
 "
 }
 )

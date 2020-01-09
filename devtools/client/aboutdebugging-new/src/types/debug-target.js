@@ -89,11 +89,11 @@ isRunning
 PropTypes
 .
 bool
-registrationActor
+registrationFront
 :
 PropTypes
 .
-string
+object
 scope
 :
 PropTypes

@@ -85,6 +85,10 @@ contentProcessFronts
 :
 [
 ]
+serviceWorkerRegistrationFronts
+:
+[
+]
 addOneTimeListener
 :
 (

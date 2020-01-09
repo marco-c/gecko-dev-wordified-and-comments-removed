@@ -98,6 +98,9 @@ inspector
 '
 targets
 '
+'
+worker
+'
 ]
 DevToolsModules
 (

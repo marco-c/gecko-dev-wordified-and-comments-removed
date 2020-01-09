@@ -280,7 +280,7 @@ target
 .
 details
 .
-registrationActor
+registrationFront
 )
 )
 ;
