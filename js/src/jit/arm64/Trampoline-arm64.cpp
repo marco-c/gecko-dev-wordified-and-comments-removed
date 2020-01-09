@@ -4660,7 +4660,7 @@ scratch3
 ;
 masm
 .
-add32
+addPtr
 (
 Imm32
 (
