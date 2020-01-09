@@ -296,16 +296,6 @@ XPIDL_MODULE
 '
 pipnss
 '
-XPCOM_MANIFESTS
-+
-=
-[
-'
-components
-.
-conf
-'
-]
 #
 These
 aren

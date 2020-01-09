@@ -783,11 +783,6 @@ nsSimpleURI
 h
 '
 '
-nsStandardURL
-.
-h
-'
-'
 nsStreamListenerWrapper
 .
 h

@@ -32,6 +32,13 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+nsStandardURL
+.
+h
+"
 class
 nsISubstitutionObserver
 ;

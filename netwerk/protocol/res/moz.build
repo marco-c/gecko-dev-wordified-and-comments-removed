@@ -128,11 +128,6 @@ SubstitutingProtocolHandler
 .
 h
 '
-'
-SubstitutingURL
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +

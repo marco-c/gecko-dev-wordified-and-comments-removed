@@ -676,6 +676,13 @@ h
 #
 include
 "
+nsCDefaultURIFixup
+.
+h
+"
+#
+include
+"
 nsIWebBrowser
 .
 h

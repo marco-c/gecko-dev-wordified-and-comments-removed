@@ -288,16 +288,6 @@ h
 ]
 ]
 EXPORTS
-+
-=
-[
-'
-nsLocalHandlerApp
-.
-h
-'
-]
-EXPORTS
 .
 mozilla
 .

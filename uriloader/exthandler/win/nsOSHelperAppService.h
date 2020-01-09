@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsMIMEInfoImpl
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -53,9 +60,6 @@ h
 >
 class
 nsMIMEInfoWin
-;
-class
-nsIMIMEInfo
 ;
 class
 nsOSHelperAppService
