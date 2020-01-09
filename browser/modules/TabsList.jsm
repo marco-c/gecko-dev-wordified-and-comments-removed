@@ -1357,6 +1357,11 @@ soundplaying
 tab
 .
 soundPlaying
+pictureinpicture
+:
+tab
+.
+pictureinpicture
 hidden
 :
 !
