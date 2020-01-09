@@ -1,4 +1,4 @@
-StoragePrincipalHelper
+PartitionedStorageHelper
 .
 runTest
 (
@@ -91,7 +91,7 @@ true
 "
 DOM
 Cache
-shoulw
+should
 be
 available
 "
@@ -108,7 +108,7 @@ false
 "
 DOM
 Cache
-shoulw
+should
 be
 available
 "
@@ -154,5 +154,19 @@ resolve
 )
 ;
 }
+[
+[
+"
+dom
+.
+caches
+.
+testing
+.
+enabled
+"
+true
+]
+]
 )
 ;

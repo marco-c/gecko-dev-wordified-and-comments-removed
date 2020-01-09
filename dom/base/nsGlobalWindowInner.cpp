@@ -21099,7 +21099,7 @@ cache
 :
 DEFAULT_NAMESPACE
 this
-GetPrincipal
+GetEffectiveStoragePrincipal
 (
 )
 forceTrustedOrigin
@@ -32271,6 +32271,10 @@ EnsureObserver
 }
 }
 mIndexedDB
+=
+nullptr
+;
+mCacheStorage
 =
 nullptr
 ;

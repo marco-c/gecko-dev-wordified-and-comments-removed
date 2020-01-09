@@ -2734,6 +2734,10 @@ mIndexedDB
 =
 nullptr
 ;
+mCacheStorage
+=
+nullptr
+;
 }
 DedicatedWorkerGlobalScope
 :
