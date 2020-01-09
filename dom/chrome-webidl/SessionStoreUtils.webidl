@@ -751,6 +751,16 @@ Document
 document
 )
 ;
+boolean
+restoreFormData
+(
+Document
+document
+optional
+CollectedFormData
+data
+)
+;
 /
 *
 *
@@ -1029,8 +1039,6 @@ typedef
 DOMString
 or
 boolean
-or
-long
 or
 object
 )
