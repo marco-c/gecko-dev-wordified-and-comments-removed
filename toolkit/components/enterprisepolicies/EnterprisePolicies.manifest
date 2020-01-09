@@ -21,8 +21,6 @@ mozilla
 .
 org
 /
-browser
-/
 enterprisepolicies
 ;
 1
@@ -62,8 +60,6 @@ contract
 mozilla
 .
 org
-/
-browser
 /
 enterprisepolicies
 ;

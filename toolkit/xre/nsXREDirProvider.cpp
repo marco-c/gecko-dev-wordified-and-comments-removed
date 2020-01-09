@@ -5107,8 +5107,6 @@ mozilla
 .
 org
 /
-browser
-/
 enterprisepolicies
 ;
 1
