@@ -2967,6 +2967,8 @@ endOffset
 }
 if
 (
+startOffset
+<
 endOffset
 )
 {
