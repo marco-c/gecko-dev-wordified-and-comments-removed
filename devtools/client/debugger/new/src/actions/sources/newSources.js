@@ -225,6 +225,9 @@ loadedState
 "
 unloaded
 "
+introductionUrl
+:
+null
 }
 ;
 }

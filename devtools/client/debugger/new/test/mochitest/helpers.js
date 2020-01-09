@@ -863,8 +863,10 @@ url
 )
 ;
 }
+"
 source
 exists
+"
 )
 ;
 }
@@ -1859,6 +1861,7 @@ scopes
 .
 querySelector
 (
+'
 .
 tree
 -
@@ -1872,6 +1875,7 @@ level
 2
 "
 ]
+'
 )
 )
 ;
@@ -2063,6 +2067,7 @@ asyncStorage
 clear
 (
 )
+;
 Services
 .
 prefs
@@ -2303,6 +2308,7 @@ dbg
 .
 sources
 )
+;
 return
 dbg
 ;
@@ -3409,7 +3415,7 @@ invokeInTab
 fnName
 )
 ;
-let
+const
 invokeFailed
 =
 await
@@ -3531,6 +3537,7 @@ scopes
 .
 querySelectorAll
 (
+'
 .
 tree
 -
@@ -3566,6 +3573,7 @@ true
 "
 ]
 )
+'
 )
 ;
 const
@@ -4723,12 +4731,14 @@ i
 )
 breakpointItems
 :
+"
 .
 breakpoints
 -
 list
 .
 breakpoint
+"
 breakpointContextMenu
 :
 {
@@ -5540,6 +5550,7 @@ findAllElementsWithSelector
 dbg
 selector
 )
+;
 }
 function
 findAllElementsWithSelector
@@ -7090,6 +7101,7 @@ result
 ;
 }
 )
+;
 return
 result
 ;
@@ -7434,7 +7446,6 @@ return
 )
 ;
 return
-(
 rval
 .
 type
@@ -7443,7 +7454,6 @@ type
 "
 undefined
 "
-)
 ?
 undefined
 :
@@ -7475,12 +7485,11 @@ rval
 =
 =
 expected
-"
 Eval
 returned
-"
-+
+{
 expected
+}
 )
 ;
 }
