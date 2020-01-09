@@ -116,9 +116,9 @@ short
 name
 }
 to
-finish
-applying
-it
+complete
+the
+update
 .
 restart
 -
