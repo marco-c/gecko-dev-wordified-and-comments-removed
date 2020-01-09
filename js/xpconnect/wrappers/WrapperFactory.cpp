@@ -2915,10 +2915,10 @@ oldWaiver
 )
 ;
 }
-JSObject
-*
+RootedObject
 newWaiver
-=
+(
+cx
 WrapperFactory
 :
 :
@@ -2928,6 +2928,7 @@ cx
 newobj
 !
 crossCompartmentTransplant
+)
 )
 ;
 if
