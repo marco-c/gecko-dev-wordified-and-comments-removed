@@ -26,6 +26,13 @@ h
 #
 include
 "
+Point
+.
+h
+"
+#
+include
+"
 Rect
 .
 h
@@ -56,6 +63,8 @@ class
 T
 class
 Sub
+class
+Point
 class
 Rect
 >
@@ -1548,6 +1557,10 @@ IntRectAbsoluteTyped
 <
 Units
 >
+IntPointTyped
+<
+Units
+>
 IntRectTyped
 <
 Units
@@ -1583,6 +1596,10 @@ BaseRectAbsolute
 <
 int32_t
 IntRectAbsoluteTyped
+<
+Units
+>
+IntPointTyped
 <
 Units
 >
@@ -1656,6 +1673,10 @@ RectAbsoluteTyped
 <
 Units
 >
+PointTyped
+<
+Units
+>
 RectTyped
 <
 Units
@@ -1691,6 +1712,10 @@ BaseRectAbsolute
 <
 Float
 RectAbsoluteTyped
+<
+Units
+>
+PointTyped
 <
 Units
 >
