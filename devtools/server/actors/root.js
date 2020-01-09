@@ -297,9 +297,6 @@ true
 storageInspectorReadOnly
 :
 true
-debuggerSourceActors
-:
-true
 wasmBinarySource
 :
 true
