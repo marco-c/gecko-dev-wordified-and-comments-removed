@@ -523,12 +523,11 @@ nsGlobalWindowInner
 >
 win
 ;
-UNWRAP_MAYBE_CROSS_ORIGIN_OBJECT
+UNWRAP_OBJECT
 (
 Window
 aObj
 win
-aCx
 )
 ;
 if

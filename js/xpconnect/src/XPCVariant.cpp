@@ -148,10 +148,9 @@ unwrapped
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 obj
-cx
 false
 )
 ;
@@ -170,12 +169,10 @@ unwrapped
 ;
 }
 else
-{
 mReturnRawObject
 =
 false
 ;
-}
 }
 XPCTraceableVariant
 :

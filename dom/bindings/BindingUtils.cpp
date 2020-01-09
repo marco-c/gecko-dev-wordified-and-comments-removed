@@ -6899,10 +6899,9 @@ cx
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 origObj
-cx
 false
 )
 )
@@ -12537,10 +12536,9 @@ obj
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 obj
-aCx
 false
 )
 ;
@@ -12659,7 +12657,7 @@ supp
 xpc
 :
 :
-ReflectorToISupportsStatic
+UnwrapReflectorToISupports
 (
 mGlobalJSObject
 )
@@ -12994,7 +12992,7 @@ cx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 &
 args
@@ -13458,7 +13456,7 @@ cx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 &
 args
@@ -15360,9 +15358,6 @@ JSObject
 *
 >
 aObj
-JSContext
-*
-aCx
 void
 *
 &
@@ -15399,7 +15394,6 @@ wrapper
 aSelf
 aProtoID
 aProtoDepth
-aCx
 )
 ;
 }
@@ -15671,9 +15665,6 @@ JSObject
 *
 >
 aObj
-JSContext
-*
-aCx
 void
 *
 &
@@ -15712,7 +15703,6 @@ wrapper
 aSelf
 aProtoID
 aProtoDepth
-nullptr
 )
 ;
 if
@@ -15745,10 +15735,9 @@ unwrappedObj
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 wrapper
-aCx
 false
 )
 ;
@@ -15780,7 +15769,6 @@ wrapper
 aSelf
 aProtoID
 aProtoDepth
-nullptr
 )
 ;
 }
@@ -16072,7 +16060,6 @@ UnwrapThisObject
 (
 &
 rootSelf
-cx
 self
 protoID
 info
@@ -16468,7 +16455,6 @@ UnwrapThisObject
 (
 &
 rootSelf
-cx
 self
 protoID
 info
@@ -16841,7 +16827,6 @@ UnwrapThisObject
 (
 &
 rootSelf
-cx
 self
 protoID
 info
@@ -17621,10 +17606,9 @@ iface
 xpc
 :
 :
-ReflectorToISupportsDynamic
+UnwrapReflectorToISupports
 (
 src
-cx
 )
 ;
 if
@@ -18582,7 +18566,7 @@ newTarget
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 newTarget
 )
@@ -19117,7 +19101,7 @@ aCx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 &
 args
@@ -19522,7 +19506,7 @@ constructor
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 callee
 )
@@ -19659,7 +19643,7 @@ constructor
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 callee
 )

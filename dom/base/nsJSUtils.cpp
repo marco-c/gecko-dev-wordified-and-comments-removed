@@ -1971,7 +1971,7 @@ aCx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 &
 aValue

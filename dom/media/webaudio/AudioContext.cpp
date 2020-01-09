@@ -2799,7 +2799,7 @@ cx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 aBuffer
 .

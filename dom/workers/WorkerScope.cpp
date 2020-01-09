@@ -4492,7 +4492,7 @@ aCx
 js
 :
 :
-CheckedUnwrapStatic
+CheckedUnwrap
 (
 aSandbox
 .
@@ -4504,10 +4504,6 @@ Value
 ;
 if
 (
-!
-sandbox
-|
-|
 !
 IsWorkerDebuggerSandbox
 (

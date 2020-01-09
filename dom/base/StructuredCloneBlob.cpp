@@ -213,10 +213,9 @@ cx
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 aTargetGlobal
-cx
 )
 )
 ;
@@ -296,7 +295,7 @@ cx
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 &
 value
@@ -304,7 +303,6 @@ value
 toObject
 (
 )
-cx
 )
 )
 ;
@@ -423,10 +421,9 @@ aCx
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 aTargetScope
-aCx
 )
 )
 ;

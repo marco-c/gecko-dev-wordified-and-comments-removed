@@ -2867,10 +2867,9 @@ proto
 js
 :
 :
-CheckedUnwrapDynamic
+CheckedUnwrap
 (
 proto
-cx
 false
 )
 )
