@@ -1427,9 +1427,11 @@ NSPR_CONFIGURE_ENV
 =
 CC
 =
+"
 (
 CC
 )
+"
 endif
 ifdef
 CCC
@@ -1438,9 +1440,11 @@ NSPR_CONFIGURE_ENV
 =
 CXX
 =
+"
 (
 CCC
 )
+"
 endif
 #
 Remove

@@ -171,7 +171,7 @@ conditions
 [
 [
 '
-test_build
+static_libs
 =
 =
 1

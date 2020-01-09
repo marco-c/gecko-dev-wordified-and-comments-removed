@@ -541,6 +541,16 @@ we
 have
 -
 -
+static
+create
+static
+libraries
+and
+use
+static
+linking
+-
+-
 ct
 -
 verif

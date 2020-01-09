@@ -99,7 +99,7 @@ defines
 :
 [
 '
-NSS_TEST_BUILD
+NSS_STATIC_SOFTOKEN
 '
 ]
 '

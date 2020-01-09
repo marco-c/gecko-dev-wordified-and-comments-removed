@@ -97,6 +97,10 @@ Dtest_build
 =
 1
 -
+Dstatic_libs
+=
+1
+-
 Dfuzz
 =
 1
