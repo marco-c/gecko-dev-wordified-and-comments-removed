@@ -151,6 +151,11 @@ VRService
 cpp
 '
 '
+VRServiceManager
+.
+cpp
+'
+'
 VRSession
 .
 cpp
