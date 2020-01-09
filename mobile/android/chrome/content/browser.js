@@ -20323,9 +20323,7 @@ tabs
 .
 remote
 .
-force
--
-enable
+autostart
 "
 false
 )
