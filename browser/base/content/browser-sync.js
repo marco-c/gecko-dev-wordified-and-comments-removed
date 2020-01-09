@@ -1646,6 +1646,7 @@ showSubView
 (
 viewId
 anchor
+aEvent
 )
 ;
 }
