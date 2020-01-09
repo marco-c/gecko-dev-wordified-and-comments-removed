@@ -3358,7 +3358,9 @@ super
 (
 name
 null
-null
+AddonManager
+.
+SCOPE_TEMPORARY
 )
 ;
 this
@@ -3441,7 +3443,9 @@ super
 (
 KEY_APP_BUILTINS
 null
-null
+AddonManager
+.
+SCOPE_APPLICATION
 )
 ;
 this
