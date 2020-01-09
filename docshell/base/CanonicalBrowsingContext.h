@@ -261,6 +261,13 @@ NotifyStartDelayedAutoplayMedia
 (
 )
 ;
+void
+NotifyMediaMutedChanged
+(
+bool
+aMuted
+)
+;
 bool
 ValidateTransaction
 (

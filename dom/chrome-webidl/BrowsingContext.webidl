@@ -271,6 +271,13 @@ notifyStartDelayedAutoplayMedia
 (
 )
 ;
+void
+notifyMediaMutedChanged
+(
+boolean
+muted
+)
+;
 }
 ;
 [
