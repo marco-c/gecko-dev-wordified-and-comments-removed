@@ -3682,8 +3682,8 @@ extract
 version
 from
 :
-s
 %
+s
 "
 version_string
 )
@@ -5019,8 +5019,8 @@ extract
 version
 from
 :
-s
 %
+s
 "
 version_string
 )
