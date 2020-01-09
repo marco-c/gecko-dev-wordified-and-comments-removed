@@ -111,6 +111,17 @@ mozilla
 /
 dom
 /
+PromiseBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ScriptSettings
 .
 h
