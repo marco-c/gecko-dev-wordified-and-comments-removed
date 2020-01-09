@@ -33976,6 +33976,9 @@ maxLine
 "
 )
 ;
+return
+false
+;
 }
 size_t
 line
