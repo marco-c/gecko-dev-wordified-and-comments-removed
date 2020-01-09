@@ -10,18 +10,31 @@ response
 )
 :
     
-cookie
+token
 =
 request
 .
-cookies
+GET
 .
 first
 (
 "
-Count
+token
 "
 None
+)
+    
+value
+=
+request
+.
+server
+.
+stash
+.
+take
+(
+token
 )
     
 count
@@ -29,7 +42,7 @@ count
 0
     
 if
-cookie
+value
 !
 =
 None
@@ -39,8 +52,6 @@ count
 =
 int
 (
-cookie
-.
 value
 )
     
@@ -102,7 +113,7 @@ png
 "
       
 if
-cookie
+count
 >
 1
 :
@@ -157,6 +168,18 @@ rb
 .
 read
 (
+)
+      
+request
+.
+server
+.
+stash
+.
+put
+(
+token
+count
 )
       
 response
@@ -215,7 +238,7 @@ while
 -
 revalidate
 =
-10
+60
 "
 )
       
@@ -235,30 +258,6 @@ image
 /
 png
 "
-)
-      
-response
-.
-writer
-.
-write_header
-(
-"
-Set
--
-Cookie
-"
-"
-Count
-=
-{
-}
-"
-.
-format
-(
-count
-)
 )
       
 response
