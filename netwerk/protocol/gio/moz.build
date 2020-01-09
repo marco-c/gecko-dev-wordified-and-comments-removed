@@ -105,6 +105,16 @@ components
 conf
 '
 ]
+EXPORTS
++
+=
+[
+'
+nsGIOProtocolHandler
+.
+h
+'
+]
 FINAL_LIBRARY
 =
 '
