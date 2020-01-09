@@ -412,7 +412,9 @@ dispatch
 (
 loadSourceText
 (
+{
 source
+}
 )
 )
 ;
@@ -429,7 +431,11 @@ dispatch
 (
 loadSourceText
 (
+{
+source
+:
 generatedSource
+}
 )
 )
 ;

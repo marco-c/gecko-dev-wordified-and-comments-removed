@@ -187,6 +187,11 @@ memoize
 js
 '
 '
+memoizableAction
+.
+js
+'
+'
 path
 .
 js
