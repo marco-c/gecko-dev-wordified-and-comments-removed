@@ -5756,9 +5756,11 @@ Find
 1
 )
 {
-mMimeType
-=
+CopyLatin1toUTF8
+(
 contentTypeValues
+mMimeType
+)
 ;
 ToLowerCase
 (
