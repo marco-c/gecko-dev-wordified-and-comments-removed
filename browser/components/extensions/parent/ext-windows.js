@@ -1344,13 +1344,6 @@ appendElement
 null
 )
 ;
-args
-.
-appendElement
-(
-null
-)
-;
 if
 (
 createData
