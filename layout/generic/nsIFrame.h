@@ -9870,6 +9870,13 @@ aItem
 )
 ;
 bool
+HasDisplayItem
+(
+uint32_t
+aKey
+)
+;
+bool
 ForceDescendIntoIfVisible
 (
 )
