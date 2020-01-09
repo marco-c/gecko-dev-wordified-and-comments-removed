@@ -2157,6 +2157,14 @@ addon
 button
 =
 Enable
+expand
+-
+addon
+-
+button
+=
+More
+Options
 addons
 -
 enabled
