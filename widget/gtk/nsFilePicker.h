@@ -373,6 +373,9 @@ mFileChooserDelegate
 ;
 #
 endif
+bool
+mUseNativeFileChooser
+;
 }
 ;
 #
