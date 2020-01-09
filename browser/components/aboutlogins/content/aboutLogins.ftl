@@ -198,6 +198,12 @@ button
 =
 Delete
 .
+edit
+-
+button
+=
+Edit
+.
 hostname
 -
 label
