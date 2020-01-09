@@ -1151,14 +1151,6 @@ GetBasicWaveFormCache
 (
 )
 ;
-bool
-CheckClosed
-(
-ErrorResult
-&
-aRv
-)
-;
 void
 SetParamMapForWorkletName
 (
