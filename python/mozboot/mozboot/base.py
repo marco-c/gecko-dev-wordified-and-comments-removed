@@ -1924,10 +1924,8 @@ tools
 '
 )
         
-import
-shutil
-        
 if
+not
 os
 .
 path
@@ -1938,13 +1936,6 @@ clang_tools_path
 )
 :
             
-shutil
-.
-rmtree
-(
-clang_tools_path
-)
-        
 os
 .
 mkdir
