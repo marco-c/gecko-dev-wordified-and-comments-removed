@@ -197,6 +197,7 @@ InitializeSecurity
 HRESULT
 mInitResult
 ;
+const
 bool
 mIsParentProcess
 ;
