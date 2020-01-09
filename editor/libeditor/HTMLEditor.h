@@ -698,6 +698,17 @@ return
 mIsObjectResizingEnabled
 ;
 }
+Element
+*
+GetResizerTarget
+(
+)
+const
+{
+return
+mResizedObject
+;
+}
 MOZ_CAN_RUN_SCRIPT
 void
 EnableInlineTableEditor
