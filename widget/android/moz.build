@@ -106,6 +106,15 @@ Widget
 Android
 "
 )
+SCHEDULES
+.
+exclusive
+=
+[
+'
+android
+'
+]
 with
 Files
 (
