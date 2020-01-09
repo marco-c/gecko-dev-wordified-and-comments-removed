@@ -241,13 +241,6 @@ lib
 '
 lib
 /
-black_theme
-.
-png
-'
-'
-lib
-/
 borderify
 .
 xpi
@@ -323,13 +316,6 @@ png
 lib
 /
 robot_upperleft
-.
-png
-'
-'
-lib
-/
-white_theme
 .
 png
 '
