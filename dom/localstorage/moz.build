@@ -231,6 +231,11 @@ LSValue
 .
 h
 '
+'
+SnappyUtils
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -283,6 +288,11 @@ cpp
 '
 '
 ReportInternalError
+.
+cpp
+'
+'
+SnappyUtils
 .
 cpp
 '
