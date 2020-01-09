@@ -1306,6 +1306,9 @@ rangeStart
 uint32_t
 rangeEnd
 ;
+uint32_t
+numTags
+;
 hb_tag_t
 tags
 [
@@ -1321,6 +1324,8 @@ const
 hb_tag_t
 *
 aScriptTags
+uint32_t
+aNumTags
 )
 ;
 virtual

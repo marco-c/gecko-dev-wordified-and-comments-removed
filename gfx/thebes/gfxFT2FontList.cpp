@@ -2606,6 +2606,10 @@ sr
 -
 >
 tags
+sr
+-
+>
+numTags
 )
 )
 {

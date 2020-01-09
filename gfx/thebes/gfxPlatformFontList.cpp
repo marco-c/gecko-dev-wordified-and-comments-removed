@@ -342,6 +342,7 @@ sComplexScriptRanges
 {
 0x0600
 0x06FF
+1
 {
 TRUETYPE_TAG
 (
@@ -365,6 +366,7 @@ b
 {
 0x0700
 0x074F
+1
 {
 TRUETYPE_TAG
 (
@@ -388,6 +390,7 @@ c
 {
 0x0750
 0x077F
+1
 {
 TRUETYPE_TAG
 (
@@ -411,6 +414,7 @@ b
 {
 0x08A0
 0x08FF
+1
 {
 TRUETYPE_TAG
 (
@@ -434,6 +438,7 @@ b
 {
 0x0900
 0x097F
+2
 {
 TRUETYPE_TAG
 (
@@ -471,6 +476,7 @@ a
 {
 0x0980
 0x09FF
+2
 {
 TRUETYPE_TAG
 (
@@ -508,6 +514,7 @@ g
 {
 0x0A00
 0x0A7F
+2
 {
 TRUETYPE_TAG
 (
@@ -545,6 +552,7 @@ u
 {
 0x0A80
 0x0AFF
+2
 {
 TRUETYPE_TAG
 (
@@ -582,6 +590,7 @@ r
 {
 0x0B00
 0x0B7F
+2
 {
 TRUETYPE_TAG
 (
@@ -619,6 +628,7 @@ a
 {
 0x0B80
 0x0BFF
+2
 {
 TRUETYPE_TAG
 (
@@ -656,6 +666,7 @@ l
 {
 0x0C00
 0x0C7F
+2
 {
 TRUETYPE_TAG
 (
@@ -693,6 +704,7 @@ u
 {
 0x0C80
 0x0CFF
+2
 {
 TRUETYPE_TAG
 (
@@ -730,6 +742,7 @@ a
 {
 0x0D00
 0x0D7F
+2
 {
 TRUETYPE_TAG
 (
@@ -767,6 +780,7 @@ m
 {
 0x0D80
 0x0DFF
+1
 {
 TRUETYPE_TAG
 (
@@ -790,6 +804,7 @@ h
 {
 0x0E80
 0x0EFF
+1
 {
 TRUETYPE_TAG
 (
@@ -812,6 +827,7 @@ o
 {
 0x0F00
 0x0FFF
+1
 {
 TRUETYPE_TAG
 (
@@ -835,6 +851,7 @@ t
 {
 0x1000
 0x109f
+2
 {
 TRUETYPE_TAG
 (
@@ -872,6 +889,7 @@ m
 {
 0x1780
 0x17ff
+1
 {
 TRUETYPE_TAG
 (
@@ -895,6 +913,7 @@ r
 {
 0xaa60
 0xaa7f
+2
 {
 TRUETYPE_TAG
 (
@@ -930,6 +949,7 @@ m
 }
 }
 {
+0
 0
 0
 {
