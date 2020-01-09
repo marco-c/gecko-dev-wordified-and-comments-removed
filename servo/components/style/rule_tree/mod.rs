@@ -72,8 +72,8 @@ stylesheets
 :
 :
 {
-StyleRule
 Origin
+StyleRule
 }
 ;
 use

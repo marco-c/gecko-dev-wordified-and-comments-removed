@@ -63,8 +63,8 @@ distance
 :
 :
 {
-SquaredDistance
 ComputeSquaredDistance
+SquaredDistance
 }
 ;
 use
