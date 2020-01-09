@@ -1448,6 +1448,17 @@ GetTop
 )
 override
 ;
+already_AddRefed
+<
+nsPIDOMWindowOuter
+>
+GetTopExcludingExtensionAccessibleContentFrames
+(
+nsIURI
+*
+aURIBeingLoaded
+)
+;
 nsPIDOMWindowOuter
 *
 GetScriptableTop

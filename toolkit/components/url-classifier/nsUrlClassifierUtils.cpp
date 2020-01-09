@@ -3061,6 +3061,7 @@ thirdPartyUtil
 GetTopWindowForChannel
 (
 aChannel
+nullptr
 getter_AddRefs
 (
 win
