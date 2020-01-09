@@ -183,7 +183,7 @@ to
 work
 properly
 .
-min_clang_tidy
+package_version
 :
 "
 8
