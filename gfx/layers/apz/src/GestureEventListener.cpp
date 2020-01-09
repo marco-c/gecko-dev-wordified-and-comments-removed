@@ -1336,6 +1336,9 @@ mTime
 mLastTouchInput
 .
 mTimeStamp
+mLastTouchInput
+.
+mScreenOffset
 currentFocus
 currentSpan
 currentSpan
@@ -1474,6 +1477,9 @@ mTime
 mLastTouchInput
 .
 mTimeStamp
+mLastTouchInput
+.
+mScreenOffset
 currentFocus
 currentSpan
 currentSpan
@@ -1573,6 +1579,9 @@ mTime
 mLastTouchInput
 .
 mTimeStamp
+mLastTouchInput
+.
+mScreenOffset
 GetCurrentFocus
 (
 mLastTouchInput
@@ -1666,6 +1675,9 @@ mTime
 mLastTouchInput
 .
 mTimeStamp
+mLastTouchInput
+.
+mScreenOffset
 currentFocus
 effectiveSpan
 mPreviousSpan
@@ -1982,6 +1994,9 @@ mTime
 mLastTouchInput
 .
 mTimeStamp
+mLastTouchInput
+.
+mScreenOffset
 point
 1
 .
@@ -2044,6 +2059,9 @@ mTime
 mLastTouchInput
 .
 mTimeStamp
+mLastTouchInput
+.
+mScreenOffset
 point
 1
 .

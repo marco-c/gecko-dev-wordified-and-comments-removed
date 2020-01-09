@@ -463,15 +463,6 @@ WidgetTouchEvent
 aTouchEvent
 )
 ;
-explicit
-MultiTouchInput
-(
-const
-WidgetMouseEvent
-&
-aMouseEvent
-)
-;
 void
 Translate
 (
@@ -523,6 +514,9 @@ nsTArray
 SingleTouchData
 >
 mTouches
+;
+ExternalPoint
+mScreenOffset
 ;
 bool
 mHandledByAPZ
@@ -861,6 +855,10 @@ aTime
 TimeStamp
 aTimeStamp
 const
+ExternalPoint
+&
+aScreenOffset
+const
 ScreenPoint
 &
 aFocusPoint
@@ -886,6 +884,9 @@ mType
 ;
 ScreenPoint
 mFocusPoint
+;
+ExternalPoint
+mScreenOffset
 ;
 ParentLayerPoint
 mLocalFocusPoint
