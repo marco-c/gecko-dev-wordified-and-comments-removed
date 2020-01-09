@@ -246,10 +246,6 @@ platform
 -
 tests
 -
-mochitest
--
-headless
--
 marionette
 -
 media
@@ -1028,10 +1024,6 @@ platform
 -
 tests
 -
-mochitest
--
-headless
--
 marionette
 -
 media
@@ -1082,10 +1074,6 @@ web
 platform
 -
 tests
--
-mochitest
--
-headless
 -
 raptor
 -
@@ -1219,10 +1207,6 @@ web
 platform
 -
 tests
--
-mochitest
--
-headless
 -
 raptor
 -
