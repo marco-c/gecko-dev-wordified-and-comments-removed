@@ -147,16 +147,5 @@ data
 )
 ;
 }
-cleanup
-(
-)
-{
-this
-.
-_dispatcher
-=
-null
-;
-}
 }
 ;
