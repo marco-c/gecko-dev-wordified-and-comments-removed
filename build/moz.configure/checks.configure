@@ -1132,11 +1132,18 @@ dependable
 (
 paths
 )
+allow_missing
+=
+dependable
+(
+allow_missing
+)
 depends_if
 (
 input
 progs
 paths
+allow_missing
 when
 =
 when
@@ -1171,6 +1178,7 @@ check
 value
 progs
 paths
+allow_missing
 )
 :
 if
