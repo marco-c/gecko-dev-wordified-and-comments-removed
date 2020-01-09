@@ -2423,8 +2423,10 @@ protocol
 .
 webdriver
 .
-set_window_size
+set_window_rect
 (
+0
+0
 600
 +
 width_offset
