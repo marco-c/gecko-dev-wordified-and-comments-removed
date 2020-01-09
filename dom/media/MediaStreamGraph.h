@@ -1678,6 +1678,8 @@ ExtractPendingInput
 (
 GraphTime
 aCurrentTime
+GraphTime
+aDesiredUpToTime
 )
 ;
 enum
