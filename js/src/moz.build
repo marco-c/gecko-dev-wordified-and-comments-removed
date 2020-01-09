@@ -1237,6 +1237,16 @@ h
 /
 public
 /
+RealmOptions
+.
+h
+'
+'
+.
+.
+/
+public
+/
 RefCounted
 .
 h
