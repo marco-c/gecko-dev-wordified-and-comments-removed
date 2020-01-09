@@ -232,6 +232,11 @@ nsDNSServiceInfo
 .
 cpp
 '
+'
+nsMulticastDNSModule
+.
+cpp
+'
 ]
 XPCOM_MANIFESTS
 +

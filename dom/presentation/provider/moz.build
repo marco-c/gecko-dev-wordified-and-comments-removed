@@ -109,6 +109,11 @@ MulticastDNSDeviceProvider
 .
 cpp
 '
+'
+PresentationDeviceProviderModule
+.
+cpp
+'
 ]
 XPCOM_MANIFESTS
 +

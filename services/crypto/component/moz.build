@@ -114,16 +114,6 @@ IdentityCryptoService
 cpp
 '
 ]
-XPCOM_MANIFESTS
-+
-=
-[
-'
-components
-.
-conf
-'
-]
 FINAL_LIBRARY
 =
 '
