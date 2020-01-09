@@ -14,7 +14,7 @@ ContentProcessSession
 ;
 const
 {
-Domains
+ContentProcessDomains
 }
 =
 ChromeUtils
@@ -32,7 +32,7 @@ content
 /
 domains
 /
-Domains
+ContentProcessDomains
 .
 jsm
 "
@@ -40,7 +40,7 @@ jsm
 ;
 const
 {
-ContentProcessDomains
+Domains
 }
 =
 ChromeUtils
@@ -58,7 +58,7 @@ content
 /
 domains
 /
-ContentProcessDomains
+Domains
 .
 jsm
 "
