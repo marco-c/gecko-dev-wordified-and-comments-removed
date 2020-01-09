@@ -3926,6 +3926,10 @@ pub
 supports_multisampling
 :
 bool
+pub
+supports_copy_image_sub_data
+:
+bool
 }
 #
 [
@@ -4127,9 +4131,6 @@ GpuFrameId
 texture_storage_usage
 :
 TexStorageUsage
-supports_copy_image_sub_data
-:
-bool
 optimal_pbo_stride
 :
 NonZeroUsize
@@ -5188,6 +5189,7 @@ Capabilities
 supports_multisampling
 :
 false
+supports_copy_image_sub_data
 }
 bgra_format_internal
 bgra_format_external
@@ -5257,7 +5259,6 @@ GpuFrameId
 )
 extensions
 texture_storage_usage
-supports_copy_image_sub_data
 optimal_pbo_stride
 }
 }
@@ -8564,6 +8565,8 @@ layer_count
 ;
 if
 self
+.
+capabilities
 .
 supports_copy_image_sub_data
 {
