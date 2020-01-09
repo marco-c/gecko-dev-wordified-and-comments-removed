@@ -100,6 +100,9 @@ mod
 ast
 ;
 pub
+(
+crate
+)
 mod
 codegen
 ;
@@ -133,6 +136,9 @@ mod
 from_variant
 ;
 pub
+(
+crate
+)
 mod
 options
 ;

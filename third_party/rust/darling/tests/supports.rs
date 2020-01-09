@@ -162,10 +162,7 @@ use
 syn
 :
 :
-{
-self
 DeriveInput
-}
 ;
 pub
 fn

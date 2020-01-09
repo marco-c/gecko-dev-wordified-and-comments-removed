@@ -120,9 +120,9 @@ version
 "
 0
 .
-8
+9
 .
-6
+0
 "
 authors
 =
@@ -266,7 +266,7 @@ version
 "
 0
 .
-8
+7
 .
 0
 "
@@ -291,6 +291,9 @@ features
 =
 [
 "
+full
+"
+"
 extra
 -
 traits
@@ -298,15 +301,6 @@ traits
 ]
 [
 features
-]
-default
-=
-[
-"
-syn
-/
-full
-"
 ]
 diagnostics
 =
