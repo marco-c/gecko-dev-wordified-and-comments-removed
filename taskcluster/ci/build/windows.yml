@@ -6262,8 +6262,6 @@ aarch64
 -
 rust
 -
-nightly
--
 win64
 -
 cbindgen
@@ -6472,8 +6470,6 @@ win64
 aarch64
 -
 rust
--
-nightly
 -
 win64
 -
@@ -6700,8 +6696,6 @@ win64
 aarch64
 -
 rust
--
-nightly
 -
 win64
 -
