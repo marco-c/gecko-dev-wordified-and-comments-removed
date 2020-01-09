@@ -711,6 +711,9 @@ InlinedSubroutineHandler
 class
 NamedScopeHandler
 ;
+class
+LexicalBlockHandler
+;
 typedef
 map
 <
