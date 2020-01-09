@@ -992,6 +992,7 @@ actorSvc
 >
 ReceiveMessage
 (
+actor
 obj
 aMessageName
 aData

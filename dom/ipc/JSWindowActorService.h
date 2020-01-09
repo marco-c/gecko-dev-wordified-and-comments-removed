@@ -127,6 +127,9 @@ aRv
 void
 ReceiveMessage
 (
+nsISupports
+*
+aActor
 JS
 :
 :

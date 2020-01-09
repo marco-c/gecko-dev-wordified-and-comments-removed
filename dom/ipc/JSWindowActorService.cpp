@@ -2865,6 +2865,9 @@ JSWindowActorService
 :
 ReceiveMessage
 (
+nsISupports
+*
+aTarget
 JS
 :
 :
@@ -2983,6 +2986,12 @@ cx
 ;
 argument
 .
+mTarget
+=
+aTarget
+;
+argument
+.
 mName
 =
 aMessageName
@@ -2998,6 +3007,12 @@ argument
 mJson
 =
 json
+;
+argument
+.
+mSync
+=
+false
 ;
 JS
 :
