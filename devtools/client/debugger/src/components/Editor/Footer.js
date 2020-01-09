@@ -801,6 +801,11 @@ togglePaneCollapse
 any
 )
 }
+position
+=
+"
+end
+"
 /
 >
 )
