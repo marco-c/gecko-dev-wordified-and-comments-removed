@@ -1373,6 +1373,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_SESSION_HISTORY
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_STORAGE_ACCESS
 )
 ;
 TelemetryStopwatch
