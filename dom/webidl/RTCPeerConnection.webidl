@@ -953,6 +953,10 @@ onaddstream
 .
 attribute
 EventHandler
+onremovestream
+;
+attribute
+EventHandler
 oniceconnectionstatechange
 ;
 attribute
