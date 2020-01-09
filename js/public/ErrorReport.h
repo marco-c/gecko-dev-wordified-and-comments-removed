@@ -172,6 +172,9 @@ char
 filename
 ;
 unsigned
+sourceId
+;
+unsigned
 lineno
 ;
 unsigned
@@ -196,6 +199,10 @@ JSErrorBase
 filename
 (
 nullptr
+)
+sourceId
+(
+0
 )
 lineno
 (
@@ -366,6 +373,8 @@ char
 *
 filename
 unsigned
+sourceId
+unsigned
 lineno
 unsigned
 column
@@ -393,6 +402,8 @@ char
 *
 filename
 unsigned
+sourceId
+unsigned
 lineno
 unsigned
 column
@@ -419,6 +430,8 @@ const
 char
 *
 filename
+unsigned
+sourceId
 unsigned
 lineno
 unsigned
