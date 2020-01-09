@@ -94,13 +94,11 @@ Domain
 constructor
 (
 session
-target
 )
 {
 super
 (
 session
-target
 )
 ;
 this
