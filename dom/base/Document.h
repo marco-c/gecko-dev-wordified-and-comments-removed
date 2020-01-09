@@ -3624,6 +3624,13 @@ nscoord
 aScrollportWidth
 )
 ;
+void
+UpdateForScrollAnchorAdjustment
+(
+nscoord
+aLength
+)
+;
 virtual
 bool
 WillIgnoreCharsetOverride
@@ -12126,6 +12133,12 @@ mAutoFocusElement
 ;
 nsCString
 mScrollToRef
+;
+nscoord
+mScrollAnchorAdjustmentLength
+;
+int32_t
+mScrollAnchorAdjustmentCount
 ;
 nsWeakPtr
 mScopeObject
