@@ -146,6 +146,16 @@ FlushImageData
 (
 )
 ;
+void
+ConvertColormap
+(
+uint32_t
+*
+aColormap
+uint32_t
+aColors
+)
+;
 template
 <
 typename
