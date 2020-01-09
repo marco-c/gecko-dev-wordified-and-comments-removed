@@ -2745,11 +2745,6 @@ mAsyncResumePending
 1
 ;
 uint32_t
-mResolvedByTRR
-:
-1
-;
-uint32_t
 mHasBeenIsolatedChecked
 :
 1

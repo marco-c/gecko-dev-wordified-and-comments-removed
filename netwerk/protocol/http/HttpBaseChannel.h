@@ -1584,6 +1584,15 @@ aTRR
 override
 ;
 NS_IMETHOD
+GetIsResolvedByTRR
+(
+bool
+*
+aResolvedByTRR
+)
+override
+;
+NS_IMETHOD
 GetTlsFlags
 (
 uint32_t
@@ -3215,6 +3224,11 @@ mBeConservative
 ;
 uint32_t
 mIsTRRServiceChannel
+:
+1
+;
+uint32_t
+mResolvedByTRR
 :
 1
 ;
