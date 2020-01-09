@@ -5168,12 +5168,7 @@ void
 SetWriteOnly
 (
 )
-{
-mWriteOnly
-=
-true
 ;
-}
 bool
 IsWriteOnly
 (
