@@ -166,6 +166,11 @@ ron
 "
 serde
 "
+"
+smallvec
+/
+serde
+"
 ]
 display_list_stats
 =
