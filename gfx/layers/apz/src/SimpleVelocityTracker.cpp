@@ -119,8 +119,6 @@ ParentLayerCoord
 aPos
 uint32_t
 aTimestampMs
-bool
-aIsAxisLocked
 )
 {
 if
@@ -179,12 +177,6 @@ Nothing
 float
 newVelocity
 =
-aIsAxisLocked
-?
-0
-.
-0f
-:
 (
 float
 )

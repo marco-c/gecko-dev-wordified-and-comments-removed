@@ -79,8 +79,6 @@ ParentLayerCoord
 aPos
 uint32_t
 aTimestampMs
-bool
-aIsAxisLocked
 )
 override
 ;
