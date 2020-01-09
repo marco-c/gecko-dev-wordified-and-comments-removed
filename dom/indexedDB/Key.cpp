@@ -3235,10 +3235,7 @@ if
 aIsViewObject
 )
 {
-js
-:
-:
-GetArrayBufferViewLengthAndData
+JS_GetObjectAsArrayBufferView
 (
 aObject
 &
