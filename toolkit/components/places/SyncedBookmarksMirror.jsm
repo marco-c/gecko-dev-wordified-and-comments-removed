@@ -483,7 +483,7 @@ SQLITE_MAX_VARIABLE_NUMBER
 const
 MIRROR_SCHEMA_VERSION
 =
-4
+5
 ;
 const
 DEFAULT_MAX_FRECENCIES_TO_RECALCULATE
@@ -6347,7 +6347,7 @@ if
 (
 currentSchemaVersion
 <
-4
+5
 )
 {
 throw
