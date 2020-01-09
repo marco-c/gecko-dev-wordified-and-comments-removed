@@ -134,7 +134,7 @@ font
 .
 size
 .
-fixed
+monospace
 .
 %
 LANG
