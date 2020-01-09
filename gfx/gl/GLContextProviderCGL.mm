@@ -144,6 +144,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs
+.
+h
+"
+#
+include
+"
 prenv
 .
 h
@@ -1148,7 +1157,7 @@ nullptr
 GLint
 opaque
 =
-gfxPrefs
+StaticPrefs
 :
 :
 CompositorGLContextOpaque
@@ -1264,7 +1273,7 @@ attribs
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 GLAllowHighPower
@@ -1347,7 +1356,7 @@ NSOpenGLPFAAllowOfflineRenderers
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 RequireHardwareGL
@@ -1482,7 +1491,7 @@ true
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 GLMultithreaded

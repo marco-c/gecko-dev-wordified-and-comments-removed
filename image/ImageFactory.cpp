@@ -106,7 +106,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -146,7 +148,7 @@ rv
 bool
 isDiscardable
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemDiscardable
@@ -156,7 +158,7 @@ ImageMemDiscardable
 bool
 doDecodeImmediately
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageDecodeImmediatelyEnabled

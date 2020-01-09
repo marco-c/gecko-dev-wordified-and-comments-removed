@@ -34469,7 +34469,7 @@ IsAboutPage
 CSSCoord
 viewportWidth
 =
-gfxPrefs
+StaticPrefs
 :
 :
 DesktopViewportWidth
@@ -34931,7 +34931,7 @@ DisallowZoom
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ForceUserScalable
@@ -35416,7 +35416,7 @@ Empty
 {
 width
 =
-gfxPrefs
+StaticPrefs
 :
 :
 DesktopViewportWidth

@@ -8046,7 +8046,7 @@ SchedulePaintIfDeviceReset
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZPeekMessages
@@ -9351,7 +9351,7 @@ XRE_IsContentProcess
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 AlwaysPaint

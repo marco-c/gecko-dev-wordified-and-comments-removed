@@ -1852,7 +1852,7 @@ SupportsLayerGeometry
 const
 {
 return
-gfxPrefs
+StaticPrefs
 :
 :
 BasicLayerGeometry
@@ -5682,7 +5682,7 @@ PopClip
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WidgetUpdateFlashing

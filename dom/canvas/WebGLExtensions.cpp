@@ -8,13 +8,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 GLContext
 .
 h
@@ -27,6 +20,15 @@ mozilla
 dom
 /
 WebGLRenderingContextBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -303,7 +305,7 @@ false
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDraftExtensionsEnabled
@@ -446,7 +448,7 @@ false
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLDraftExtensionsEnabled

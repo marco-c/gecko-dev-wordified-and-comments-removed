@@ -399,7 +399,7 @@ IMAGE_WEBP
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 ImageWebPEnabled

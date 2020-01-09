@@ -252,13 +252,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxUserFontSet
 .
 h
@@ -16426,7 +16419,7 @@ autoBehaviorIsSmooth
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ScrollBehaviorEnabled
@@ -24648,7 +24641,7 @@ AddForSubDocument
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutUseContainersForRootFrames

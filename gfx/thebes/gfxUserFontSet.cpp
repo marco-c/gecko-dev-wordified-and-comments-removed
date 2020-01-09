@@ -24,13 +24,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 nsIProtocolHandler
 .
 h
@@ -66,6 +59,15 @@ include
 mozilla
 /
 Services
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -934,7 +936,7 @@ aUserFontEntry
 {
 mCheckOTLTables
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ValidateOTLTables
@@ -943,7 +945,7 @@ ValidateOTLTables
 ;
 mCheckVariationTables
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ValidateVariationTables
@@ -952,7 +954,7 @@ ValidateVariationTables
 ;
 mKeepColorBitmaps
 =
-gfxPrefs
+StaticPrefs
 :
 :
 KeepColorBitmaps

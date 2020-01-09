@@ -410,7 +410,7 @@ if
 aIsAnimated
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemAnimatedUseHeap
@@ -439,7 +439,7 @@ if
 (
 bufferSize
 <
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemVolatileMinThresholdKB
@@ -493,7 +493,7 @@ GetUseWebRenderOrDefault
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemShared

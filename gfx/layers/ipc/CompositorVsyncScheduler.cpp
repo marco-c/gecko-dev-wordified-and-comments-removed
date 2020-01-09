@@ -449,7 +449,7 @@ this
 ;
 mAsapScheduling
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayersCompositionFrameRate

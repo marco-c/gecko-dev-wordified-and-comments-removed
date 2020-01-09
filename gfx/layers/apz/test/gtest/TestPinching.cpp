@@ -841,7 +841,7 @@ twoFingerPan
 ScreenCoord
 panDistance
 =
-gfxPrefs
+StaticPrefs
 :
 :
 APZPinchLockScrollLockThreshold
@@ -930,7 +930,7 @@ twoFingerZoom
 float
 pinchDistance
 =
-gfxPrefs
+StaticPrefs
 :
 :
 APZPinchLockSpanBreakoutThreshold
@@ -1016,7 +1016,7 @@ GetFrameMetrics
 float
 pinchDistance
 =
-gfxPrefs
+StaticPrefs
 :
 :
 APZPinchLockSpanBreakoutThreshold

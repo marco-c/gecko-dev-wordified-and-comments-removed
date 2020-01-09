@@ -4416,7 +4416,7 @@ aPaintChild
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 DrawMaskLayer

@@ -3461,7 +3461,7 @@ aContext
 {
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WidgetUpdateFlashing

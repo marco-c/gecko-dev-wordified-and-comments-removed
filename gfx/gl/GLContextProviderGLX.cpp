@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 widget
 /
 CompositorWidget
@@ -879,7 +888,7 @@ symbols_texturefrompixmap
 {
 mUseTextureFromPixmap
 =
-gfxPrefs
+StaticPrefs
 :
 :
 UseGLXTextureFromPixmap

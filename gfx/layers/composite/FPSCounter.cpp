@@ -22,13 +22,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -89,6 +82,15 @@ mozilla
 layers
 /
 Effects
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1264,7 +1266,7 @@ PrintFPS
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 FPSPrintHistogram
@@ -1539,7 +1541,7 @@ WriteFrameTimeStamps
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WriteFPSToFile

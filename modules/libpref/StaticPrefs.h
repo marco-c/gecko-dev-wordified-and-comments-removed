@@ -7,6 +7,13 @@ mozilla_StaticPrefs_h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions

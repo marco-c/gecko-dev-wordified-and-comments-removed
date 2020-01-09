@@ -1234,13 +1234,13 @@ Inflate
 (
 LayerSize
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZDangerZoneX
 (
 )
-gfxPrefs
+StaticPrefs
 :
 :
 APZDangerZoneY
@@ -3161,7 +3161,7 @@ IsReadLocked
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 LayersTileRetainBackBuffer

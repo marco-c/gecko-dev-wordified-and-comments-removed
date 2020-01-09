@@ -803,7 +803,7 @@ mPaintSequenceNumber
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZTestLoggingEnabled
@@ -3393,7 +3393,7 @@ SynchronouslyRepaintOnResize
 )
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 LayersForceSynchronousResize
@@ -3535,7 +3535,7 @@ EnsureDevicesInitialized
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PersistentBufferProviderSharedEnabled
