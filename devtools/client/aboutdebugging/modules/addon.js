@@ -28,8 +28,7 @@ jsm
 ;
 const
 {
-debugLocalAddon
-debugRemoteAddon
+debugAddon
 getExtensionUuid
 openTemporaryExtension
 parseFileUri
@@ -78,15 +77,9 @@ addonID
 ;
 exports
 .
-debugLocalAddon
+debugAddon
 =
-debugLocalAddon
-;
-exports
-.
-debugRemoteAddon
-=
-debugRemoteAddon
+debugAddon
 ;
 exports
 .
