@@ -2255,11 +2255,6 @@ aSrc
 ;
 }
 }
-bool
-OnCellularConnection
-(
-)
-;
 }
 #
 endif
