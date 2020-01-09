@@ -241,6 +241,12 @@ AppRegName
 Firefox
 "
 !
+define
+BrandProductName
+"
+Firefox
+"
+!
 ifndef
 DEV_EDITION
 !
