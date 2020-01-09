@@ -125,9 +125,10 @@ nsComposeTxtSrvFilter
 aFilter
 )
 :
-mIterator
+mPostIterator
 (
-NS_NewContentIterator
+new
+PostContentIterator
 (
 )
 )
@@ -201,7 +202,7 @@ NS_IMPL_CYCLE_COLLECTION
 (
 nsFilteredContentIterator
 mCurrentIterator
-mIterator
+mPostIterator
 mPreIterator
 mRange
 )
@@ -229,7 +230,7 @@ NS_ERROR_FAILURE
 ;
 NS_ENSURE_TRUE
 (
-mIterator
+mPostIterator
 NS_ERROR_FAILURE
 )
 ;
@@ -283,7 +284,7 @@ rv
 )
 ;
 return
-mIterator
+mPostIterator
 -
 >
 Init
@@ -532,7 +533,7 @@ mPreIterator
 NS_WARN_IF
 (
 !
-mIterator
+mPostIterator
 )
 )
 {
@@ -579,7 +580,7 @@ rv
 ;
 }
 return
-mIterator
+mPostIterator
 -
 >
 Init
@@ -627,7 +628,7 @@ else
 {
 mCurrentIterator
 =
-mIterator
+mPostIterator
 ;
 mDirection
 =
@@ -796,7 +797,7 @@ eBackward
 {
 mCurrentIterator
 =
-mIterator
+mPostIterator
 ;
 mDirection
 =
