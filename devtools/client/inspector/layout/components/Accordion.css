@@ -200,9 +200,11 @@ var
 -
 theme
 -
-comment
+text
 -
-alt
+color
+-
+inactive
 )
 ;
 }
