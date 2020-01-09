@@ -249,6 +249,16 @@ Shutdown
 (
 )
 ;
+/
+/
+To
+clear
+the
+threshold
+call
+with
+INT64_MIN
+.
 async
 SetSeekThreshold
 (
