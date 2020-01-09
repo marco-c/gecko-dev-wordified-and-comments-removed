@@ -448,6 +448,9 @@ mocks
 document
 )
 ;
+await
+undefined
+;
 checkTelemetryEvents
 (
 [
