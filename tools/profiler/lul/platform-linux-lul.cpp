@@ -338,7 +338,7 @@ d
 %
 s
 "
-getpid
+profiler_current_process_id
 (
 )
 str

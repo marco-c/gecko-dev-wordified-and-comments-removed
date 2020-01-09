@@ -148,11 +148,7 @@ h
 #
 include
 "
-platform
--
-linux
--
-lul
+GeckoProfiler
 .
 h
 "
@@ -3554,11 +3550,12 @@ p
 %
 s
 "
-getpid
+\
+profiler_current_process_id
 (
 )
 \
-gettid
+profiler_current_thread_id
 (
 )
 this
@@ -3619,7 +3616,7 @@ true
 )
 mAdminThreadId
 (
-gettid
+profiler_current_thread_id
 (
 )
 )
@@ -3864,7 +3861,7 @@ EnableUnwinding
 ;
 MOZ_RELEASE_ASSERT
 (
-gettid
+profiler_current_thread_id
 (
 )
 =
@@ -3904,7 +3901,7 @@ mAdminMode
 ;
 MOZ_RELEASE_ASSERT
 (
-gettid
+profiler_current_thread_id
 (
 )
 =
@@ -4203,7 +4200,7 @@ mAdminMode
 ;
 MOZ_RELEASE_ASSERT
 (
-gettid
+profiler_current_thread_id
 (
 )
 =
@@ -4313,7 +4310,7 @@ mAdminMode
 ;
 MOZ_RELEASE_ASSERT
 (
-gettid
+profiler_current_thread_id
 (
 )
 =
@@ -4467,7 +4464,7 @@ mAdminMode
 ;
 MOZ_RELEASE_ASSERT
 (
-gettid
+profiler_current_thread_id
 (
 )
 =

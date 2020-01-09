@@ -1477,6 +1477,11 @@ profiler_time
 )
 ;
 int
+profiler_current_process_id
+(
+)
+;
+int
 profiler_current_thread_id
 (
 )
