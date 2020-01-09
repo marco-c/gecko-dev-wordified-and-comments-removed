@@ -125,8 +125,8 @@ const
 webrtc
 :
 :
-WebRtcRTPHeader
-*
+RTPHeader
+&
 aHeader
 const
 int64_t
@@ -136,15 +136,6 @@ uint32_t
 aJitter
 )
 {
-auto
-&
-header
-=
-aHeader
--
->
-header
-;
 MutexAutoLock
 lock
 (
@@ -187,7 +178,7 @@ mRtpSources
 [
 GetKey
 (
-header
+aHeader
 .
 ssrc
 EntryType
@@ -210,12 +201,12 @@ Insert
 (
 aTimestamp
 jitterAdjusted
-header
+aHeader
 .
 extension
 .
 hasAudioLevel
-header
+aHeader
 .
 extension
 .
@@ -227,7 +218,7 @@ auto
 &
 list
 =
-header
+aHeader
 .
 extension
 .
@@ -242,7 +233,7 @@ i
 ;
 i
 <
-header
+aHeader
 .
 numCSRCs
 ;
@@ -256,7 +247,7 @@ uint32_t
 &
 csrc
 =
-header
+aHeader
 .
 arrOfCSRCs
 [

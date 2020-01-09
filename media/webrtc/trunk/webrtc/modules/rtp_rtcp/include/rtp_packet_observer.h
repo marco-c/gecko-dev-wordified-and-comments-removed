@@ -8,7 +8,7 @@ namespace
 webrtc
 {
 struct
-WebRtcRTPHeader
+RTPHeader
 ;
 class
 RtpPacketObserver
@@ -20,8 +20,8 @@ void
 OnRtpPacket
 (
 const
-WebRtcRTPHeader
-*
+RTPHeader
+&
 aRtpHeader
 const
 int64_t
