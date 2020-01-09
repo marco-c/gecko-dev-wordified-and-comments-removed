@@ -1204,14 +1204,6 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-JS_updateMallocCounter
-(
-cx
-contents
-.
-nbytes
-)
-;
 mContents
 .
 forget
