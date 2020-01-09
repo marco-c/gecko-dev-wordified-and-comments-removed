@@ -46,9 +46,6 @@ obscure_value
 13
 )
 ;
-#
-ifndef
-MOZ_BUILD_APP_IS_BROWSER
 pref
 (
 "
@@ -59,8 +56,6 @@ warnOnAboutConfig
 true
 )
 ;
-#
-endif
 pref
 (
 "

@@ -17,7 +17,7 @@ url
 "
 about
 :
-config
+preferences
 "
 }
 async
@@ -110,9 +110,9 @@ me
 ;
 doc
 .
-body
+documentElement
 .
-prepend
+append
 (
 label
 )
