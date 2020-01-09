@@ -1575,6 +1575,11 @@ nsAtom
 aEvent
 )
 ;
+void
+RemoveAllListeners
+(
+)
+;
 protected
 :
 void
@@ -2007,7 +2012,7 @@ false
 )
 ;
 void
-RemoveAllListeners
+RemoveAllListenersSilently
 (
 )
 ;
