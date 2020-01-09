@@ -95,7 +95,6 @@ GetDoc
 NodePrincipal
 (
 )
-true
 aWindow
 NS_LITERAL_CSTRING
 (

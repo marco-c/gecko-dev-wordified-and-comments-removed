@@ -488,8 +488,6 @@ ContentPermissionRequestBase
 nsIPrincipal
 *
 aPrincipal
-bool
-aIsHandlingUserInput
 nsPIDOMWindowInner
 *
 aWindow

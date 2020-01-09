@@ -368,10 +368,6 @@ bool
 aWatchPositionRequest
 =
 false
-bool
-aIsHandlingUserInput
-=
-false
 int32_t
 aWatchId
 =
@@ -805,8 +801,6 @@ nsIEventTarget
 aMainThreadTarget
 bool
 aWatchPositionRequest
-bool
-aIsHandlingUserInput
 int32_t
 aWatchId
 )
@@ -819,7 +813,6 @@ aLocator
 GetPrincipal
 (
 )
-aIsHandlingUserInput
 ConvertWeakReferenceToWindow
 (
 aLocator
@@ -4702,13 +4695,6 @@ uint8_t
 mProtocolType
 )
 target
-false
-EventStateManager
-:
-:
-IsHandlingUserInput
-(
-)
 )
 ;
 if
@@ -5041,12 +5027,6 @@ mProtocolType
 )
 target
 true
-EventStateManager
-:
-:
-IsHandlingUserInput
-(
-)
 watchId
 )
 ;
