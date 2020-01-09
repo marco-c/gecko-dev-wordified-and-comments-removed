@@ -289,7 +289,9 @@ PowExpr
 left
 -
 >
-pn_parens
+isInParens
+(
+)
 :
 left
 -

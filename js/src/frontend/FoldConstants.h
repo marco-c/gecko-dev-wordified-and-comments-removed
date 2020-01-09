@@ -42,10 +42,7 @@ ParseNode
 *
 *
 pnp
-PerHandlerParser
-<
 FullParseHandler
->
 *
 parser
 )
@@ -65,10 +62,7 @@ SyntaxParseHandler
 Node
 *
 pnp
-PerHandlerParser
-<
 SyntaxParseHandler
->
 *
 parser
 )

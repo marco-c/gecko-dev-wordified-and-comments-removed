@@ -3749,6 +3749,8 @@ ListNode
 >
 parseListOfVariableDeclarator
 (
+ParseNodeKind
+declarationListKind
 )
 ;
 JS
