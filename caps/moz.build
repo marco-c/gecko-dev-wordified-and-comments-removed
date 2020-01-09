@@ -231,6 +231,11 @@ ContentPrincipal
 h
 '
 '
+ExpandedPrincipal
+.
+h
+'
+'
 NullPrincipal
 .
 h
