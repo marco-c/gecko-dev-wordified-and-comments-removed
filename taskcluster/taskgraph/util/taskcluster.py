@@ -51,12 +51,6 @@ retry
 import
 Retry
 from
-requests
-.
-adapters
-import
-HTTPAdapter
-from
 taskgraph
 .
 task
