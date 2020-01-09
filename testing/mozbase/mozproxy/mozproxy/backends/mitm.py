@@ -975,10 +975,6 @@ command
 =
 [
 mitmdump_path
-"
--
-k
-"
 ]
         
 if
