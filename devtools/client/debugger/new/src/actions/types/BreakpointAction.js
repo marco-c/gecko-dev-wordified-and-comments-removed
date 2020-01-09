@@ -360,9 +360,9 @@ ADD_BREAKPOINT_POSITIONS
 positions
 :
 BreakpointPositions
-location
+sourceId
 :
-SourceLocation
+string
 |
 }
 ;
