@@ -1952,8 +1952,8 @@ derive
 Clone
 Debug
 MallocSizeOf
-PartialEq
 Parse
+PartialEq
 SpecifiedValueInfo
 ToCss
 )
