@@ -1432,6 +1432,8 @@ NonNull
 final
 GeckoSession
 session
+GeckoSession
+.
 AutoFillNotification
 final
 int
