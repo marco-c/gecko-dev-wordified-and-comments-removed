@@ -2703,6 +2703,11 @@ MatchPatternSet
 oldPermissions
 .
 origins
+{
+restrictSchemes
+:
+false
+}
 )
 ;
 return
@@ -2727,6 +2732,11 @@ new
 MatchPattern
 (
 perm
+{
+restrictSchemes
+:
+false
+}
 )
 )
 )
@@ -5537,6 +5547,10 @@ z
 )
 \
 /
+|
+^
+about
+:
 /
 .
 exec
