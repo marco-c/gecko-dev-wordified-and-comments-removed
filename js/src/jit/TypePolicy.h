@@ -201,7 +201,7 @@ BoxInputsPolicy
 )
 {
 }
-SPECIALIZATION_DATA_
+EMPTY_DATA_
 ;
 static
 MOZ_MUST_USE
