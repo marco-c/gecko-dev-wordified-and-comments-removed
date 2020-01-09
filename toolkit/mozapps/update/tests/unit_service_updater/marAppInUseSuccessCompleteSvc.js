@@ -29,11 +29,13 @@ false
 )
 ;
 }
+async
 function
 setupUpdaterTestFinished
 (
 )
 {
+await
 runHelperFileInUse
 (
 DIR_RESOURCES
@@ -42,12 +44,6 @@ gCallbackBinFile
 false
 )
 ;
-}
-function
-waitForHelperSleepFinished
-(
-)
-{
 runUpdate
 (
 STATE_SUCCEEDED

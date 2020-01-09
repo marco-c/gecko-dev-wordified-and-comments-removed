@@ -47,11 +47,13 @@ false
 )
 ;
 }
+async
 function
 setupUpdaterTestFinished
 (
 )
 {
+await
 runHelperFileInUse
 (
 gTestDirs
@@ -73,12 +75,6 @@ files
 true
 )
 ;
-}
-function
-waitForHelperSleepFinished
-(
-)
-{
 stageUpdate
 (
 true

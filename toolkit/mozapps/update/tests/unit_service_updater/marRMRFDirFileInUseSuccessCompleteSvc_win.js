@@ -29,11 +29,13 @@ false
 )
 ;
 }
+async
 function
 setupUpdaterTestFinished
 (
 )
 {
+await
 runHelperFileInUse
 (
 gTestDirs
@@ -65,12 +67,6 @@ subDirFiles
 true
 )
 ;
-}
-function
-waitForHelperSleepFinished
-(
-)
-{
 runUpdate
 (
 STATE_SUCCEEDED

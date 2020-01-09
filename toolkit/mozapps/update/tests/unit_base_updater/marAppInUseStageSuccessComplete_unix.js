@@ -82,6 +82,7 @@ true
 )
 ;
 }
+async
 function
 setupUpdaterTestFinished
 (
@@ -91,6 +92,7 @@ setupSymLinks
 (
 )
 ;
+await
 runHelperFileInUse
 (
 DIR_RESOURCES
@@ -99,12 +101,6 @@ gCallbackBinFile
 false
 )
 ;
-}
-function
-waitForHelperSleepFinished
-(
-)
-{
 stageUpdate
 (
 true

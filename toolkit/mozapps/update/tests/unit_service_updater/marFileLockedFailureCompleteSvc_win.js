@@ -33,11 +33,13 @@ false
 )
 ;
 }
+async
 function
 setupUpdaterTestFinished
 (
 )
 {
+await
 runHelperLockFile
 (
 gTestFiles
@@ -46,12 +48,6 @@ gTestFiles
 ]
 )
 ;
-}
-function
-waitForHelperSleepFinished
-(
-)
-{
 runUpdate
 (
 STATE_FAILED_WRITE_ERROR
