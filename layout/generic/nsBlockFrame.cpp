@@ -33787,6 +33787,12 @@ eMathML
 )
 &
 &
+!
+IsColumnSetWrapperFrame
+(
+)
+&
+&
 RefPtr
 <
 ComputedStyle
