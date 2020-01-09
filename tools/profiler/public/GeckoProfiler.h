@@ -1779,6 +1779,9 @@ mozilla
 :
 Maybe
 <
+mozilla
+:
+:
 AutoProfilerLabel
 >
 raiiObjectNsCString
@@ -1848,6 +1851,9 @@ mozilla
 :
 Maybe
 <
+mozilla
+:
+:
 AutoProfilerLabel
 >
 raiiObjectLossyNsString
@@ -2173,6 +2179,9 @@ docShell
 \
 docShellId
 =
+mozilla
+:
+:
 Some
 (
 docShell
@@ -2212,6 +2221,9 @@ rv
 \
 docShellHistoryId
 =
+mozilla
+:
+:
 Some
 (
 id
@@ -2224,6 +2236,9 @@ else
 \
 docShellHistoryId
 =
+mozilla
+:
+:
 Nothing
 (
 )
@@ -2237,6 +2252,9 @@ else
 \
 docShellId
 =
+mozilla
+:
+:
 Nothing
 (
 )
@@ -2244,6 +2262,9 @@ Nothing
 \
 docShellHistoryId
 =
+mozilla
+:
+:
 Nothing
 (
 )
@@ -2766,10 +2787,16 @@ ProfilingCategoryPair
 :
 :
 categoryPair
+\
+mozilla
+:
+:
 Nothing
 (
 )
-\
+mozilla
+:
+:
 Nothing
 (
 )
