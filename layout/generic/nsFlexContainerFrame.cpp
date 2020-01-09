@@ -8544,12 +8544,9 @@ pos
 >
 mZIndex
 .
-GetUnit
+IsInteger
 (
 )
-=
-=
-eStyleUnit_Integer
 )
 {
 return

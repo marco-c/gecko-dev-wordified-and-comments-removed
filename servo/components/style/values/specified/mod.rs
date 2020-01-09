@@ -3539,11 +3539,6 @@ input
 map
 (
 GreaterThanOrEqualToOne
-:
-:
-<
-Integer
->
 )
 }
 }

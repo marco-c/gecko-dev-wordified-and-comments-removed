@@ -439,6 +439,12 @@ BorderImageSlice
 "
 NonNegativeLengthOrNumberRect
 "
+"
+Perspective
+"
+"
+ZIndex
+"
 ]
 item_types
 =
