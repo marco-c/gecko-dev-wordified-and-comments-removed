@@ -654,6 +654,14 @@ ClearDidHistoryRestore
 0
 ;
 virtual
+void
+MarkEverScrolled
+(
+)
+=
+0
+;
+virtual
 bool
 IsRectNearlyVisible
 (
