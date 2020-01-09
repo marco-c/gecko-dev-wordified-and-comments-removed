@@ -19,7 +19,6 @@ example
 com
 "
 )
-;
 const
 dataFile
 =
