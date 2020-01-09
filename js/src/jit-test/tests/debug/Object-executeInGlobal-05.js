@@ -79,6 +79,11 @@ unwrap
 (
 )
 dg2
+.
+makeDebuggeeValue
+(
+g2
+)
 )
 ;
 assertThrowsInstanceOf
@@ -126,11 +131,7 @@ TypeError
 ;
 assertEq
 (
-dg1wg2
-.
-unwrap
-(
-)
+dg1
 .
 executeInGlobal
 (
@@ -145,11 +146,7 @@ return
 ;
 assertEq
 (
-dg1wg2
-.
-unwrap
-(
-)
+dg1
 .
 executeInGlobalWithBindings
 (

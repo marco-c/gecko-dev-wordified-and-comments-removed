@@ -85,6 +85,11 @@ undefined
 assertEq
 (
 g1w
+.
+makeDebuggeeValue
+(
+g1
+)
 g3w
 .
 makeDebuggeeValue
@@ -100,6 +105,11 @@ unwrap
 assertEq
 (
 g3w
+.
+makeDebuggeeValue
+(
+g3
+)
 g1w
 .
 makeDebuggeeValue

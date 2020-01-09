@@ -45,6 +45,16 @@ addDebuggee
 global
 )
 ;
+var
+windowProxyDO
+=
+globalDO
+.
+makeDebuggeeValue
+(
+global
+)
+;
 dbg
 .
 onDebuggerStatement
@@ -347,7 +357,7 @@ assertEq
 receiver
 (
 )
-globalDO
+windowProxyDO
 )
 ;
 assertEq
@@ -372,7 +382,7 @@ assertEq
 receiver
 (
 )
-globalDO
+windowProxyDO
 )
 ;
 assertErrorMessage
