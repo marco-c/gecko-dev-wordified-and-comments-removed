@@ -2147,10 +2147,6 @@ self
 _tabs
 )
         
-is_new_tab
-=
-False
-        
 open_tab_script
 =
 r
@@ -2286,10 +2282,6 @@ tabs_loaded
 +
 =
 1
-            
-is_new_tab
-=
-True
         
 tab_idx
 =
@@ -2400,10 +2392,6 @@ loaded
 "
 )
         
-if
-is_new_tab
-:
-            
 old_tabs
 =
 set
@@ -2412,17 +2400,15 @@ self
 .
 _tabs
 )
-            
+        
 old_tabs
 .
 remove
 (
 tab
 )
-            
-[
-new_tab
-]
+        
+new_tabs
 =
 set
 (
@@ -2434,6 +2420,10 @@ window_handles
 )
 -
 old_tabs
+        
+if
+new_tabs
+:
             
 self
 .
@@ -2442,7 +2432,13 @@ _tabs
 tab_idx
 ]
 =
-new_tab
+list
+(
+new_tabs
+)
+[
+0
+]
         
 time
 .
