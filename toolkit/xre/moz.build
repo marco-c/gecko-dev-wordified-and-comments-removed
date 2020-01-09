@@ -1181,6 +1181,16 @@ windowwatcher
 .
 .
 /
+mozapps
+/
+update
+/
+common
+'
+'
+.
+.
+/
 profile
 '
 '
