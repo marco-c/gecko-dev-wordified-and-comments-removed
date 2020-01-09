@@ -242,6 +242,15 @@ ClassifierInfo
 info
 )
 ;
+IPCResult
+RecvSetClassifierMatchedTrackingInfo
+(
+const
+ClassifierInfo
+&
+info
+)
+;
 void
 ActorDestroy
 (
