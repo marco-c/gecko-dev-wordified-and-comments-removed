@@ -1227,17 +1227,6 @@ useExternalImage
 bool
 useWrTextureWrapper
 =
-aPipeline
--
->
-mImageHost
--
->
-GetAsyncRef
-(
-)
-&
-&
 useExternalImage
 &
 &
@@ -1476,6 +1465,7 @@ mWrTextureWrapper
 >
 UpdateWebRenderTextureHost
 (
+aMaybeFastTxn
 wrTexture
 )
 ;
@@ -1510,6 +1500,7 @@ mWrTextureWrapper
 >
 UpdateWebRenderTextureHost
 (
+aMaybeFastTxn
 wrTexture
 )
 ;

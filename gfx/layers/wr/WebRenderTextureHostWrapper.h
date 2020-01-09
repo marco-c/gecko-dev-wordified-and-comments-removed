@@ -47,6 +47,12 @@ aManager
 void
 UpdateWebRenderTextureHost
 (
+wr
+:
+:
+TransactionBuilder
+&
+aTxn
 WebRenderTextureHost
 *
 aTextureHost
