@@ -551,7 +551,6 @@ context
 ref
 .
 html
-fails
 =
 =
 contain
@@ -574,9 +573,6 @@ button
 ref
 .
 html
-#
-bug
-1508441
 =
 =
 contain
