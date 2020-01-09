@@ -7,12 +7,6 @@ unsafe_code
 )
 ]
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -294,6 +288,12 @@ rect
 :
 :
 Rect
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 std

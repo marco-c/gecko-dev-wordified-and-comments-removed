@@ -1,10 +1,4 @@
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -100,6 +94,12 @@ values
 computed
 CSSFloat
 }
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 euclid

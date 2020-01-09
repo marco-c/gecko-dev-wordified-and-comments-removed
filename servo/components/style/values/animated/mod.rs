@@ -1,10 +1,4 @@
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -89,6 +83,12 @@ specified
 :
 :
 SVGPathData
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 euclid

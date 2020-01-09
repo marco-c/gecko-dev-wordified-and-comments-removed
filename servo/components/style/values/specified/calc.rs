@@ -836,6 +836,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 (
 &
@@ -1000,6 +1001,7 @@ Percentage
 unit_value
 )
 )
+;
 }
 (
 &

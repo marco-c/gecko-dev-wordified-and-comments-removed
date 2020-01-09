@@ -903,14 +903,12 @@ this_box
 other_box
 =
 >
-{
 this
 .
 compute_squared_distance
 (
 other
 )
-}
 (
 &
 ShapeSource

@@ -1863,6 +1863,7 @@ any
 |
 hint
 |
+{
 hint
 =
 =
@@ -1885,6 +1886,7 @@ hint
 "
 woff
 "
+}
 )
 }
 else

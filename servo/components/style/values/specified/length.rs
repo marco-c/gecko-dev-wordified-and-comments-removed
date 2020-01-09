@@ -10,12 +10,6 @@ ToComputedValue
 }
 ;
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -143,6 +137,12 @@ Either
 IsAuto
 Normal
 }
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 cssparser
@@ -3430,6 +3430,7 @@ clone
 )
 )
 )
+;
 }
 Token
 :
@@ -4559,6 +4560,7 @@ clone
 )
 )
 )
+;
 }
 Token
 :
@@ -4599,6 +4601,7 @@ unit_value
 )
 )
 )
+;
 }
 Token
 :
@@ -5317,6 +5320,7 @@ clone
 )
 )
 )
+;
 }
 Token
 :
@@ -5357,6 +5361,7 @@ unit_value
 )
 )
 )
+;
 }
 Token
 :
@@ -5476,6 +5481,7 @@ LengthOrPercentageOrAuto
 :
 Auto
 )
+;
 }
 Token
 :
@@ -6204,6 +6210,7 @@ clone
 )
 )
 )
+;
 }
 Token
 :
@@ -6244,6 +6251,7 @@ unit_value
 )
 )
 )
+;
 }
 Token
 :
@@ -6384,6 +6392,7 @@ LengthOrPercentageOrNone
 :
 None
 )
+;
 }
 _
 =

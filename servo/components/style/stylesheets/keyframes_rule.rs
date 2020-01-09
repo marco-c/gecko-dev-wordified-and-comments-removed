@@ -908,7 +908,6 @@ percentage
 .
 =
 >
-{
 Ok
 (
 KeyframePercentage
@@ -919,7 +918,6 @@ new
 percentage
 )
 )
-}
 _
 =
 >
@@ -3011,6 +3009,7 @@ name
 )
 )
 )
+;
 }
 }
 ;

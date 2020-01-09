@@ -7,12 +7,6 @@ missing_docs
 )
 ]
 use
-arrayvec
-:
-:
-ArrayVec
-;
-use
 crate
 :
 :
@@ -57,6 +51,12 @@ traversal
 DomTraversal
 PerLevelTraversalData
 }
+;
+use
+arrayvec
+:
+:
+ArrayVec
 ;
 use
 itertools

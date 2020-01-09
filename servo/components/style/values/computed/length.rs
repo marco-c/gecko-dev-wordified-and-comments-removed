@@ -10,12 +10,6 @@ ToComputedValue
 }
 ;
 use
-app_units
-:
-:
-Au
-;
-use
 crate
 :
 :
@@ -157,6 +151,12 @@ Either
 IsAuto
 Normal
 }
+;
+use
+app_units
+:
+:
+Au
 ;
 use
 ordered_float
