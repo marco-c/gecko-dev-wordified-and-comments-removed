@@ -65,6 +65,7 @@ GetTargetAPZC
 (
 aPoint
 nullptr
+nullptr
 )
 ;
 if

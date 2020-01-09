@@ -109,6 +109,9 @@ aOutTargetGuid
 uint64_t
 *
 aOutFocusSequenceNumber
+LayersId
+*
+aOutLayersId
 )
 =
 0

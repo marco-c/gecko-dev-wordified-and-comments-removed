@@ -444,6 +444,9 @@ aOutTargetGuid
 uint64_t
 *
 aOutFocusSequenceNumber
+LayersId
+*
+aOutLayersId
 )
 {
 SendProcessUnhandledEvent
@@ -453,6 +456,7 @@ aRefPoint
 aRefPoint
 aOutTargetGuid
 aOutFocusSequenceNumber
+aOutLayersId
 )
 ;
 }

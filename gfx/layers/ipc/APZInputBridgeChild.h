@@ -84,6 +84,9 @@ aOutTargetGuid
 uint64_t
 *
 aOutFocusSequenceNumber
+LayersId
+*
+aOutLayersId
 )
 override
 ;
