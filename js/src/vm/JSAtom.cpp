@@ -5121,11 +5121,15 @@ FreePolicy
 >
 newStr
 (
-js_pod_malloc
+js_pod_arena_malloc
 <
 CharT
 >
 (
+js
+:
+:
+StringBufferArena
 length
 +
 1

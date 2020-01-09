@@ -1392,6 +1392,11 @@ length
 INIT_FLAT_FLAGS
 )
 ;
+checkStringCharsArena
+(
+chars
+)
+;
 d
 .
 s
@@ -1427,6 +1432,11 @@ length
 INIT_FLAT_FLAGS
 |
 LATIN1_CHARS_BIT
+)
+;
+checkStringCharsArena
+(
+chars
 )
 ;
 d

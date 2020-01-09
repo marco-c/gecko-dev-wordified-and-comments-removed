@@ -242,7 +242,11 @@ isLatin1
 TwoByteCharBuffer
 twoByte
 (
-cx
+TempAllocPolicy
+{
+cx_
+arenaId_
+}
 )
 ;
 size_t
@@ -513,7 +517,7 @@ len
 )
 {
 return
-cx
+cx_
 -
 >
 names
@@ -531,7 +535,7 @@ JSString
 :
 validateLength
 (
-cx
+cx_
 len
 )
 )
@@ -576,7 +580,7 @@ finishStringInternal
 Latin1Char
 >
 (
-cx
+cx_
 )
 :
 finishStringInternal
@@ -584,7 +588,7 @@ finishStringInternal
 char16_t
 >
 (
-cx
+cx_
 )
 ;
 }
@@ -613,7 +617,7 @@ len
 )
 {
 return
-cx
+cx_
 -
 >
 names
@@ -636,7 +640,7 @@ atom
 =
 AtomizeChars
 (
-cx
+cx_
 latin1Chars
 (
 )
@@ -665,7 +669,7 @@ atom
 =
 AtomizeChars
 (
-cx
+cx_
 twoByteChars
 (
 )

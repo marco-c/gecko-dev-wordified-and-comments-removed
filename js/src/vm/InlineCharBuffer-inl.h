@@ -239,6 +239,10 @@ CharT
 length
 +
 1
+js
+:
+:
+StringBufferArena
 )
 ;
 return
@@ -296,6 +300,10 @@ CharT
 newLength
 +
 1
+js
+:
+:
+StringBufferArena
 )
 ;
 if
@@ -360,6 +368,10 @@ oldLength
 newLength
 +
 1
+js
+:
+:
+StringBufferArena
 )
 ;
 if
