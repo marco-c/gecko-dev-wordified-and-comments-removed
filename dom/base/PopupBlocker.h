@@ -128,6 +128,12 @@ WhenLastExternalProtocolIframeAllowed
 ;
 static
 void
+ResetLastExternalProtocolIframeAllowed
+(
+)
+;
+static
+void
 Initialize
 (
 )
