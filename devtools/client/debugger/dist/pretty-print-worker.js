@@ -5931,8 +5931,6 @@ default
 sourceText
 {
 url
-:
-url
 indent
 :
 "
