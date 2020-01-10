@@ -7,6 +7,10 @@ SkPaintPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPaint
 .
 h

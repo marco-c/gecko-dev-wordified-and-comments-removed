@@ -7,6 +7,10 @@ GrStrokeRectOp_DEFINED
 #
 include
 "
+include
+/
+private
+/
 GrTypesPriv
 .
 h

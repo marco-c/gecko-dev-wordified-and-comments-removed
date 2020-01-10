@@ -7,6 +7,10 @@ SkPathMeasurePriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPath
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPoint
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkGeometry
 .
 h

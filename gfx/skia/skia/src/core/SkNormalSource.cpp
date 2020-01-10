@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+core
+/
 SkNormalFlatSource
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkNormalMapSource
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkNormalSource
 .
 h

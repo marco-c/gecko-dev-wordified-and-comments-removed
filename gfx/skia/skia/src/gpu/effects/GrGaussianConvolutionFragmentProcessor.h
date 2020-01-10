@@ -7,6 +7,10 @@ GrGaussianConvolutionFragmentProcessor_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrCoordTransform
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrFragmentProcessor
 .
 h
@@ -21,6 +29,12 @@ h
 #
 include
 "
+src
+/
+gpu
+/
+effects
+/
 GrTextureDomain
 .
 h
@@ -56,6 +70,8 @@ sk_sp
 GrTextureProxy
 >
 proxy
+GrColorType
+srcColorType
 Direction
 dir
 int
@@ -91,6 +107,7 @@ move
 (
 proxy
 )
+srcColorType
 dir
 halfWidth
 gaussianSigma
@@ -326,6 +343,8 @@ sk_sp
 <
 GrTextureProxy
 >
+GrColorType
+srcColorType
 Direction
 int
 halfWidth

@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+private
+/
 SkMalloc
 .
 h

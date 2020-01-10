@@ -7,6 +7,10 @@ SkTraceEvent_DEFINED
 #
 include
 "
+include
+/
+utils
+/
 SkEventTracer
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkTraceEventCommon
 .
 h

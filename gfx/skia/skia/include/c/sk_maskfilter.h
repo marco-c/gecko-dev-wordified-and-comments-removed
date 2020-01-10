@@ -7,6 +7,10 @@ sk_maskfilter_DEFINED
 #
 include
 "
+include
+/
+c
+/
 sk_types
 .
 h
@@ -22,6 +26,7 @@ INNER_SK_BLUR_STYLE
 sk_blurstyle_t
 ;
 SK_C_PLUS_PLUS_BEGIN_GUARD
+SK_API
 void
 sk_maskfilter_ref
 (
@@ -29,6 +34,7 @@ sk_maskfilter_t
 *
 )
 ;
+SK_API
 void
 sk_maskfilter_unref
 (
@@ -36,6 +42,7 @@ sk_maskfilter_t
 *
 )
 ;
+SK_API
 sk_maskfilter_t
 *
 sk_maskfilter_new_blur

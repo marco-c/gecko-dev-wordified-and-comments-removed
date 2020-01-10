@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+utils
+/
 SkCanvasStack
 .
 h

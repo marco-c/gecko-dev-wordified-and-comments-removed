@@ -14,13 +14,6 @@ include
 <
 utility
 >
-#
-include
-"
-SkTypes
-.
-h
-"
 class
 SkOnce
 {

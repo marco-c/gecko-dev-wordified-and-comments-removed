@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+pdf
+/
 SkJpegInfo
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTo
 .
 h

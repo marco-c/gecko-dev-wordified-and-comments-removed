@@ -7,6 +7,10 @@ SkFloatUtils_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h

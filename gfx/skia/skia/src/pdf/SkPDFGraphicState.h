@@ -7,6 +7,10 @@ SkPDFGraphicState_DEFINED
 #
 include
 "
+include
+/
+private
+/
 SkMacros
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkOpts
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+src
+/
+pdf
+/
 SkPDFTypes
 .
 h

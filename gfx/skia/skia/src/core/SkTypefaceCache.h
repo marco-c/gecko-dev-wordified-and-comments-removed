@@ -7,6 +7,10 @@ SkTypefaceCache_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypeface
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTArray
 .
 h

@@ -85,7 +85,7 @@ x
 ;
 sk_OutColor
 =
-texture
+sample
 (
 gradient
 coord

@@ -7,6 +7,10 @@ SkAndroidCodec_DEFINED
 #
 include
 "
+include
+/
+codec
+/
 SkCodec
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkEncodedImageFormat
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkStream
 .
 h
@@ -28,6 +40,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h

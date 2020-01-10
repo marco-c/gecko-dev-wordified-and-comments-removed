@@ -7,6 +7,10 @@ SKIASL_MEMORYLAYOUT
 #
 include
 "
+src
+/
+sksl
+/
 ir
 /
 SkSLType

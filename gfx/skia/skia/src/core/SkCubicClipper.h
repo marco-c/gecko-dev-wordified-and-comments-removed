@@ -7,6 +7,10 @@ SkCubicClipper_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPoint
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRect
 .
 h

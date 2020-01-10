@@ -1,6 +1,12 @@
 #
 include
 "
+src
+/
+sksl
+/
+lex
+/
 RegexParser
 .
 h
@@ -8,6 +14,12 @@ h
 #
 include
 "
+src
+/
+sksl
+/
+lex
+/
 LexUtil
 .
 h

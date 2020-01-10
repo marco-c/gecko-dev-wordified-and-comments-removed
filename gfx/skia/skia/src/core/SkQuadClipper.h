@@ -7,6 +7,10 @@ SkQuadClipper_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPath
 .
 h

@@ -7,6 +7,10 @@ SkBitSet_DEFINED
 #
 include
 "
+include
+/
+private
+/
 SkTemplates
 .
 h
@@ -267,7 +271,10 @@ uint32_t
 SkFunctionWrapper
 <
 void
+(
 void
+*
+)
 sk_free
 >
 >

@@ -7,6 +7,10 @@ GrAAHairLinePathRenderer_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrPathRenderer
 .
 h

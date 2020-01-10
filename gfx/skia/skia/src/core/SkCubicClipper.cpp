@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+core
+/
 SkCubicClipper
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkGeometry
 .
 h

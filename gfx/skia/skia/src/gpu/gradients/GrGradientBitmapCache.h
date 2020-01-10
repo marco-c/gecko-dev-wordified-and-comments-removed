@@ -7,6 +7,10 @@ GrGradientBitmapCache_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkBitmap
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkColorData
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkMutex
 .
 h
@@ -28,6 +40,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkNoncopyable
 .
 h

@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+core
+/
 SkBitmapScaler
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkBitmapFilter
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkConvolver
 .
 h
@@ -22,6 +34,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkImageInfo
 .
 h
@@ -29,6 +45,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPixmap
 .
 h
@@ -36,6 +56,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRect
 .
 h
@@ -43,6 +67,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTArray
 .
 h

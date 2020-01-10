@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+pdf
+/
 SkPDFDocumentPriv
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+pdf
+/
 SkPDFTag
 .
 h
@@ -307,10 +315,6 @@ bad
 tag
 "
 )
-;
-return
-"
-"
 ;
 }
 struct

@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsConic
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCubic
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsLine
 .
 h
@@ -22,6 +34,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsQuad
 .
 h
@@ -29,6 +45,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsRect
 .
 h

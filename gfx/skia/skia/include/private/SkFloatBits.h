@@ -7,6 +7,10 @@ SkFloatBits_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkSafe_math
 .
 h

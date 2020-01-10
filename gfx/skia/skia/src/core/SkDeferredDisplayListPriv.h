@@ -7,6 +7,10 @@ SkDeferredDisplayListPriv_DEFINED
 #
 include
 "
+include
+/
+private
+/
 SkDeferredDisplayList
 .
 h
@@ -17,7 +21,7 @@ SkDeferredDisplayListPriv
 public
 :
 int
-numOpLists
+numRenderTasks
 (
 )
 const
@@ -29,7 +33,7 @@ return
 fDDL
 -
 >
-fOpLists
+fRenderTasks
 .
 count
 (

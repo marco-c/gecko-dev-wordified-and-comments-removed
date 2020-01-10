@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+gpu
+/
 GrDriverBugWorkarounds
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h

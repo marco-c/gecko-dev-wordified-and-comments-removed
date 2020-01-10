@@ -1,6 +1,12 @@
 #
 include
 "
+src
+/
+gpu
+/
+vk
+/
 GrVkVaryingHandler
 .
 h
@@ -151,6 +157,12 @@ return
 case
 kTexture2DSampler_GrSLType
 :
+case
+kSampler_GrSLType
+:
+case
+kTexture2D_GrSLType
+:
 return
 0
 ;
@@ -204,10 +216,6 @@ Unexpected
 type
 "
 )
-;
-return
--
-1
 ;
 }
 static

@@ -7,6 +7,10 @@ SkSize_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h
@@ -21,6 +25,7 @@ int32_t
 fHeight
 ;
 static
+constexpr
 SkISize
 Make
 (
@@ -38,6 +43,7 @@ h
 ;
 }
 static
+constexpr
 SkISize
 MakeEmpty
 (

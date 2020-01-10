@@ -7,6 +7,10 @@ SkLineParameters_DEFINED
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCubic
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsLine
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsQuad
 .
 h

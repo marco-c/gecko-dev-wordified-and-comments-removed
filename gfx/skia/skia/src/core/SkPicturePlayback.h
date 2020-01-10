@@ -7,6 +7,10 @@ SkPicturePlayback_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkPictureFlat
 .
 h

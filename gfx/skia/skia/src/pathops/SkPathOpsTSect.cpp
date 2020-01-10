@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsTSect
 .
 h

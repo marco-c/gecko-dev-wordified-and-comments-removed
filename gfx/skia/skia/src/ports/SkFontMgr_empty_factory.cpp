@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+core
+/
 SkFontMgr
 .
 h

@@ -7,6 +7,10 @@ GrWindowRectsState_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrWindowRectangles
 .
 h

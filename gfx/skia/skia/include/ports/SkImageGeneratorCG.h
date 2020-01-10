@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -20,6 +24,10 @@ SK_BUILD_FOR_IOS
 #
 include
 "
+include
+/
+core
+/
 SkData
 .
 h
@@ -27,6 +35,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkImageGenerator
 .
 h

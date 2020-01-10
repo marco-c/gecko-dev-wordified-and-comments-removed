@@ -7,6 +7,10 @@ GrResourceProviderPriv_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrResourceProvider
 .
 h

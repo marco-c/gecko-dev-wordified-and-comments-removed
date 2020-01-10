@@ -17,6 +17,10 @@ memory
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h

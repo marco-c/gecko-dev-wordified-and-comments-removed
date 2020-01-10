@@ -7,6 +7,10 @@ SkOpSegment_DEFINE
 #
 include
 "
+src
+/
+core
+/
 SkArenaAlloc
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkOpAngle
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkOpSpan
 .
 h
@@ -28,6 +40,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsBounds
 .
 h
@@ -35,6 +51,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCubic
 .
 h
@@ -42,6 +62,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCurve
 .
 h
@@ -454,7 +478,7 @@ kLine_Verb
 ;
 fBounds
 .
-set
+setBounds
 (
 pts
 2

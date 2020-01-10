@@ -7,13 +7,10 @@ SkXfermodeImageFilter_DEFINED
 #
 include
 "
-SkArithmeticImageFilter
-.
-h
-"
-#
 include
-"
+/
+core
+/
 SkBlendMode
 .
 h
@@ -21,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkImageFilter
 .
 h

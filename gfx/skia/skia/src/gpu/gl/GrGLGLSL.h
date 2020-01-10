@@ -7,6 +7,10 @@ GrGLGLSL_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSL

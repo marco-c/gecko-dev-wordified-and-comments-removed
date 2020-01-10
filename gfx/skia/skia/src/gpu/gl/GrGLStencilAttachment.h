@@ -7,6 +7,10 @@ GrGLStencilAttachment_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 gl
 /
 GrGLInterface
@@ -16,6 +20,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrStencilAttachment
 .
 h

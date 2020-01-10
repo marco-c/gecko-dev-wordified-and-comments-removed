@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+pathops
+/
 SkOpEdgeBuilder
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCommon
 .
 h

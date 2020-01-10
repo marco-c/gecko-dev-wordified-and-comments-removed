@@ -7,6 +7,10 @@ SkNormalSource_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkFlattenable
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+shaders
+/
 SkShaderBase
 .
 h

@@ -7,6 +7,10 @@ GrTextureMaker_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrTextureProducer
 .
 h
@@ -71,8 +75,10 @@ int
 width
 int
 height
-bool
-isAlphaOnly
+const
+GrColorInfo
+&
+info
 bool
 domainNeedsLocal
 )
@@ -82,7 +88,7 @@ INHERITED
 context
 width
 height
-isAlphaOnly
+info
 domainNeedsLocal
 )
 {

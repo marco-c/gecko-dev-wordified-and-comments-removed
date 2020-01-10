@@ -7,6 +7,10 @@ SkBlendModePriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkBlendMode
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkColorData
 .
 h
@@ -120,6 +132,10 @@ SK_SUPPORT_GPU
 #
 include
 "
+src
+/
+gpu
+/
 GrXferProcessor
 .
 h

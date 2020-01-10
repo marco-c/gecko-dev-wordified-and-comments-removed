@@ -7,6 +7,12 @@ SKSL_SYMBOL
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLIRNode
 .
 h
@@ -28,6 +34,7 @@ kUnresolvedFunction_Kind
 kType_Kind
 kVariable_Kind
 kField_Kind
+kExternal_Kind
 }
 ;
 Symbol

@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+pathops
+/
 SkIntersections
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkLineParameters
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCubic
 .
 h
@@ -22,6 +34,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCurve
 .
 h
@@ -29,6 +45,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsQuad
 .
 h
@@ -36,6 +56,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsRect
 .
 h

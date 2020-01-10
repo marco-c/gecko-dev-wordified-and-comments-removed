@@ -7,6 +7,10 @@ SkOTTableTypes_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkEndian
 .
 h

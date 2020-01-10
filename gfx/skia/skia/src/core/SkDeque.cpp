@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+core
+/
 SkDeque
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkMalloc
 .
 h

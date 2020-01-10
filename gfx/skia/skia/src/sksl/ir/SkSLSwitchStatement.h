@@ -7,6 +7,12 @@ SKSL_SWITCHSTATEMENT
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLStatement
 .
 h
@@ -14,6 +20,12 @@ h
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLSwitchCase
 .
 h
@@ -21,6 +33,9 @@ h
 namespace
 SkSL
 {
+class
+SymbolTable
+;
 struct
 SwitchStatement
 :

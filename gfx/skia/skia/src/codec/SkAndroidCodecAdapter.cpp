@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+codec
+/
 SkAndroidCodecAdapter
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+codec
+/
 SkCodecPriv
 .
 h

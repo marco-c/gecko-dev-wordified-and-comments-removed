@@ -1,6 +1,12 @@
 #
 include
 "
+src
+/
+gpu
+/
+effects
+/
 GrShadowGeoProc
 .
 h
@@ -8,6 +14,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLFragmentShaderBuilder
@@ -17,6 +27,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLGeometryProcessor
@@ -26,6 +40,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLUniformHandler
@@ -35,6 +53,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLVarying
@@ -44,6 +66,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLVertexGeoBuilder

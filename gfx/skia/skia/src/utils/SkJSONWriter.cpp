@@ -23,6 +23,10 @@ h
 #
 include
 "
+src
+/
+utils
+/
 SkJSONWriter
 .
 h

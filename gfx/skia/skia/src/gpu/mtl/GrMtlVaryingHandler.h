@@ -7,6 +7,10 @@ GrMtlVaryingHandler_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLVarying

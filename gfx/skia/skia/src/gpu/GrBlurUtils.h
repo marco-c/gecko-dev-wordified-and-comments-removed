@@ -7,6 +7,10 @@ GrBlurUtils_DEFINED
 #
 include
 "
+include
+/
+private
+/
 GrTypesPriv
 .
 h

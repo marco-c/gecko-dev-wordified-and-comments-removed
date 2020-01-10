@@ -7,6 +7,10 @@ SkDiscretePathEffect_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkFlattenable
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPathEffect
 .
 h

@@ -7,6 +7,10 @@ SkDrawable_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkFlattenable
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkImageInfo
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h

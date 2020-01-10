@@ -7,6 +7,10 @@ SkSampledCodec_DEFINED
 #
 include
 "
+include
+/
+codec
+/
 SkAndroidCodec
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+codec
+/
 SkCodec
 .
 h

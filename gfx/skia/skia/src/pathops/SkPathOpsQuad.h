@@ -7,6 +7,10 @@ SkPathOpsQuad_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkArenaAlloc
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsTCurve
 .
 h

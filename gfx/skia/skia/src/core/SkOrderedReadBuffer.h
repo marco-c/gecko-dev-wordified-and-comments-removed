@@ -7,6 +7,10 @@ SkOrderedReadBuffer_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkReadBuffer
 .
 h

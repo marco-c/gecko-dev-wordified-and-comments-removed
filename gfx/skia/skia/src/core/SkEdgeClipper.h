@@ -7,6 +7,10 @@ SkEdgeClipper_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPath
 .
 h

@@ -7,6 +7,10 @@ GrGLConfig_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h

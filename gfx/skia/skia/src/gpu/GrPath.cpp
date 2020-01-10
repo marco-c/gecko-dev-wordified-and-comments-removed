@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+gpu
+/
 GrPath
 .
 h
@@ -8,6 +12,12 @@ h
 #
 include
 "
+src
+/
+gpu
+/
+geometry
+/
 GrShape
 .
 h

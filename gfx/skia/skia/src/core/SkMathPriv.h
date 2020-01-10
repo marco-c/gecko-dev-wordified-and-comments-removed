@@ -7,6 +7,10 @@ SkMathPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkMath
 .
 h

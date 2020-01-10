@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+gpu
+/
 GrFixedClip
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrAppliedClip
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrRenderTargetContext
 .
 h

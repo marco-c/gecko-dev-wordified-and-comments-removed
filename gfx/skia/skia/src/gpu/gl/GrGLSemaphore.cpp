@@ -1,6 +1,12 @@
 #
 include
 "
+src
+/
+gpu
+/
+gl
+/
 GrGLSemaphore
 .
 h
@@ -8,6 +14,12 @@ h
 #
 include
 "
+src
+/
+gpu
+/
+gl
+/
 GrGLGpu
 .
 h

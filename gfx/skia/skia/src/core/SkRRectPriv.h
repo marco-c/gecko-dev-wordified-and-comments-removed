@@ -7,6 +7,10 @@ SkRRectPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRRect
 .
 h

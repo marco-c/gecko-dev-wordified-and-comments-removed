@@ -7,6 +7,10 @@ SkNullCanvas_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkCanvas
 .
 h

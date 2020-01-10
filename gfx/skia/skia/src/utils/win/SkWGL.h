@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -14,6 +18,10 @@ SkWGL_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkLeanWindows
 .
 h

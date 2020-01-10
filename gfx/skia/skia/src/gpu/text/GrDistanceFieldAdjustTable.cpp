@@ -1,6 +1,12 @@
 #
 include
 "
+src
+/
+gpu
+/
+text
+/
 GrDistanceFieldAdjustTable
 .
 h
@@ -8,6 +14,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkScalerContext
 .
 h

@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+core
+/
 SkATrace
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkTraceEvent
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkTraceEventCommon
 .
 h

@@ -7,6 +7,10 @@ SKSL_CPPCODEGENERATOR
 #
 include
 "
+src
+/
+sksl
+/
 SkSLGLSLCodeGenerator
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+sksl
+/
 SkSLSectionAndParameterHelper
 .
 h

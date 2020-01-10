@@ -7,6 +7,10 @@ SkTTopoSort_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTArray
 .
 h

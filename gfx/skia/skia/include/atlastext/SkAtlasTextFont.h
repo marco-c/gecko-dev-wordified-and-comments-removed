@@ -7,6 +7,10 @@ SkAtlasTextFont_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkFont
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypeface
 .
 h

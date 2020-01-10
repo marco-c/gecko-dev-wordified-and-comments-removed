@@ -7,6 +7,10 @@ SkFontParameters_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h

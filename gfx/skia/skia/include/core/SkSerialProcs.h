@@ -7,6 +7,10 @@ SkSerialProcs_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkImage
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPicture
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypeface
 .
 h

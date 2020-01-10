@@ -7,6 +7,10 @@ SkAddIntersections_DEFINED
 #
 include
 "
+src
+/
+pathops
+/
 SkIntersectionHelper
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkIntersections
 .
 h

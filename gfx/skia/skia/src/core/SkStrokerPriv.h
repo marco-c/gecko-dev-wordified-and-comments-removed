@@ -7,6 +7,10 @@ SkStrokerPriv_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkStroke
 .
 h

@@ -7,6 +7,10 @@ SkPanose_DEFINED
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTableTypes
 .
 h

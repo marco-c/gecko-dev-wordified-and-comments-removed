@@ -7,6 +7,10 @@ SkBitmapRegionDecoderPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRect
 .
 h

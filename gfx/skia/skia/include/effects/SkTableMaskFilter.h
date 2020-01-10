@@ -7,6 +7,10 @@ SkTableMaskFilter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkMaskFilter
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h

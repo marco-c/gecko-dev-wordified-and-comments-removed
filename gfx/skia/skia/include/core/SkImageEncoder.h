@@ -7,6 +7,10 @@ SkImageEncoder_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkBitmap
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkData
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkEncodedImageFormat
 .
 h
@@ -28,6 +40,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkStream
 .
 h

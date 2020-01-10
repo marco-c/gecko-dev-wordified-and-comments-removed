@@ -7,6 +7,10 @@ SkPoint3_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPoint
 .
 h

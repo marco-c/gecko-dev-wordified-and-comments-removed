@@ -7,6 +7,10 @@ SkTTCFHeader_DEFINED
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTableTypes
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkSFNTHeader
 .
 h

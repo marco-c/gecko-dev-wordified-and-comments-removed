@@ -7,6 +7,10 @@ SkXMLParser_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkString
 .
 h

@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+codec
+/
 SkStreamBuffer
 .
 h

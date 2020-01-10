@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+images
+/
 SkJPEGWriteUtility
 .
 h

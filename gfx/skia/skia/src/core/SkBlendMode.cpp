@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+core
+/
 SkBlendModePriv
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkCoverageModePriv
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkRasterPipeline
 .
 h

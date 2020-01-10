@@ -210,7 +210,7 @@ override
 {
 switch
 (
-fMode
+mode
 )
 {
 case
@@ -220,7 +220,7 @@ InputMode
 kIgnore
 :
 return
-fColor
+color
 ;
 case
 InputMode
@@ -229,7 +229,7 @@ InputMode
 kModulateA
 :
 return
-fColor
+color
 *
 input
 .
@@ -242,7 +242,7 @@ InputMode
 kModulateRGBA
 :
 return
-fColor
+color
 *
 input
 ;
@@ -254,9 +254,6 @@ Unexpected
 mode
 "
 )
-;
-return
-SK_PMColor4fTRANSPARENT
 ;
 }
 }

@@ -7,6 +7,10 @@ SkCodec_wbmp_DEFINED
 #
 include
 "
+include
+/
+codec
+/
 SkCodec
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkColorSpace
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+src
+/
+codec
+/
 SkSwizzler
 .
 h

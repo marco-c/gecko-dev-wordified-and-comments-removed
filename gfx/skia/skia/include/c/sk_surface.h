@@ -7,6 +7,10 @@ sk_surface_DEFINED
 #
 include
 "
+include
+/
+c
+/
 sk_types
 .
 h

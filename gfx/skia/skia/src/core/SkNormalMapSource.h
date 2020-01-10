@@ -7,6 +7,10 @@ SkNormalMapSource_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkNormalSource
 .
 h

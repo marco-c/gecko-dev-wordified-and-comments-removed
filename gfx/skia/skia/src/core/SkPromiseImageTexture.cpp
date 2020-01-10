@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+core
+/
 SkPromiseImageTexture
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkMessageBus
 .
 h

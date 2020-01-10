@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+utils
+/
 SkParse
 .
 h

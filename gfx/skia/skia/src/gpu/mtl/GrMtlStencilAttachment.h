@@ -7,6 +7,10 @@ GrMtlStencil_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrStencilAttachment
 .
 h

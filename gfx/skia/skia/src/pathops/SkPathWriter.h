@@ -7,6 +7,10 @@ SkPathWriter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPath
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTArray
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTDArray
 .
 h

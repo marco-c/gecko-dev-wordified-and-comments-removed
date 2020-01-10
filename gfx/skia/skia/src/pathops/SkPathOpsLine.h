@@ -7,6 +7,10 @@ SkPathOpsLine_DEFINED
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsPoint
 .
 h

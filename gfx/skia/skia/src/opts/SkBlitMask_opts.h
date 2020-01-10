@@ -7,6 +7,10 @@ SkBlitMask_opts_DEFINED
 #
 include
 "
+src
+/
+core
+/
 Sk4px
 .
 h
@@ -626,7 +630,6 @@ device
 1
 ;
 }
-;
 device
 =
 (
@@ -932,7 +935,6 @@ device
 1
 ;
 }
-;
 device
 =
 (

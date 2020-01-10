@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+core
+/
 SkGeometry
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkOpEdgeBuilder
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkReduceOrder
 .
 h

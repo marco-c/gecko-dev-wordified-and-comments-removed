@@ -7,6 +7,10 @@ SkATrace_DEFINED
 #
 include
 "
+include
+/
+utils
+/
 SkEventTracer
 .
 h

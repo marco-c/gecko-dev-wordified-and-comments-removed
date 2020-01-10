@@ -7,6 +7,10 @@ SkPathOpsCurve_DEFINE
 #
 include
 "
+src
+/
+pathops
+/
 SkIntersections
 .
 h
@@ -17,6 +21,10 @@ SK_RELEASE
 #
 include
 "
+include
+/
+core
+/
 SkPath
 .
 h

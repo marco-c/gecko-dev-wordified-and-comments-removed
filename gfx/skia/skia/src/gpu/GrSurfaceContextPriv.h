@@ -7,6 +7,10 @@ GrSurfaceContextPriv_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrSurfaceContext
 .
 h

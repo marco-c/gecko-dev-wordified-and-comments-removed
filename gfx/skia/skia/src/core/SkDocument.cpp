@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+core
+/
 SkCanvas
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkDocument
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkStream
 .
 h

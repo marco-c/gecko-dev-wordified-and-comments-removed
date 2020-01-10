@@ -1,6 +1,12 @@
 #
 include
 "
+src
+/
+gpu
+/
+effects
+/
 GrSRGBEffect
 .
 h
@@ -8,6 +14,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrFragmentProcessor
 .
 h
@@ -15,6 +25,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrProcessor
 .
 h
@@ -22,6 +36,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLFragmentProcessor
@@ -31,6 +49,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLFragmentShaderBuilder
@@ -297,7 +319,7 @@ color
 a
 0
 .
-00001
+0001
 )
 ;
 "

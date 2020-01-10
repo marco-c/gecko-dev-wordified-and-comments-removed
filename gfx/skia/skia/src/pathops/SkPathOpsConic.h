@@ -7,6 +7,10 @@ SkPathOpsConic_DEFINED
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsQuad
 .
 h

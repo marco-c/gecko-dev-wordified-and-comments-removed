@@ -7,6 +7,10 @@ GrPathStencilSettings_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrUserStencilSettings
 .
 h

@@ -7,6 +7,10 @@ SkFlattenable_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h

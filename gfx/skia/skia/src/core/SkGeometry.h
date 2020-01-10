@@ -7,6 +7,10 @@ SkGeometry_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkMatrix
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkNx
 .
 h
@@ -592,9 +600,6 @@ SkCubicType
 "
 )
 ;
-return
-true
-;
 }
 static
 inline
@@ -686,10 +691,6 @@ Invalid
 SkCubicType
 "
 )
-;
-return
-"
-"
 ;
 }
 SkCubicType
@@ -1619,6 +1620,10 @@ fD
 #
 include
 "
+include
+/
+private
+/
 SkTemplates
 .
 h

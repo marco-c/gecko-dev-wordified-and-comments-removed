@@ -7,6 +7,10 @@ SKSL_BOOLLITERAL
 #
 include
 "
+src
+/
+sksl
+/
 SkSLContext
 .
 h
@@ -14,6 +18,12 @@ h
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLExpression
 .
 h

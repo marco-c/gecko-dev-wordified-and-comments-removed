@@ -7,6 +7,10 @@ SkOpPE_DEFINED
 #
 include
 "
+include
+/
+effects
+/
 SkOpPathEffect
 .
 h

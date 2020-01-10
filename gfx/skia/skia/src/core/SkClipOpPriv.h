@@ -7,6 +7,10 @@ SkClipOpPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkClipOp
 .
 h

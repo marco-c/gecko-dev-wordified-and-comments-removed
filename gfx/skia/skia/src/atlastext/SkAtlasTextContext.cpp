@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+atlastext
+/
 SkAtlasTextContext
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+include
+/
+atlastext
+/
 SkAtlasTextRenderer
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+atlastext
+/
 SkInternalAtlasTextContext
 .
 h

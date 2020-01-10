@@ -12,6 +12,10 @@ functional
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h
@@ -19,6 +23,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 GrTypesPriv
 .
 h
@@ -407,7 +415,7 @@ width
 int
 height
 GrColorType
-colorType
+srcColorType
 const
 void
 *

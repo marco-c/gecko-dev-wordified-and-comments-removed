@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+gpu
+/
 GrRectanizer_pow2
 .
 h

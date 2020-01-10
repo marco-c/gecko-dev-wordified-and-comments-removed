@@ -7,6 +7,10 @@ SkDrawShadowInfo_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPoint
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPoint3
 .
 h

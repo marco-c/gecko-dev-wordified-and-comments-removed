@@ -7,6 +7,10 @@ GrAHardwareBufferImageGenerator_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkImageGenerator
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 GrTypesPriv
 .
 h

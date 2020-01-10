@@ -7,6 +7,10 @@ SkBitmapKey_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRect
 .
 h

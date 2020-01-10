@@ -7,12 +7,15 @@ GrSDFMaskFilter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkMaskFilter
 .
 h
 "
 class
-SK_API
 GrSDFMaskFilter
 :
 public

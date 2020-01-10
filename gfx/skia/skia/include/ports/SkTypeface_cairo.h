@@ -7,6 +7,10 @@ SkTypeface_cairo_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkTypeface
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkSurfaceProps
 .
 h

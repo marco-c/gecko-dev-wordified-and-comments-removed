@@ -10,6 +10,10 @@ SkStream
 #
 include
 "
+include
+/
+core
+/
 SkTypeface
 .
 h

@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+core
+/
 SkData
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkDataTable
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkOnce
 .
 h

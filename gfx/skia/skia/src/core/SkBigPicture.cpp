@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+core
+/
 SkBBoxHierarchy
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkBigPicture
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkPictureCommon
 .
 h
@@ -22,6 +34,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkRecord
 .
 h
@@ -29,6 +45,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkRecordDraw
 .
 h
@@ -36,6 +56,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkTraceEvent
 .
 h

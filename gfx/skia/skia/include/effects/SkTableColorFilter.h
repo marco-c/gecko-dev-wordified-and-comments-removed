@@ -7,6 +7,10 @@ SkTableColorFilter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColorFilter
 .
 h

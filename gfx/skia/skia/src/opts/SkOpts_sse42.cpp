@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+core
+/
 SkOpts
 .
 h
@@ -12,6 +16,10 @@ sse42
 #
 include
 "
+src
+/
+opts
+/
 SkChecksum_opts
 .
 h

@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+utils
+/
 SkNullCanvas
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkCanvas
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+include
+/
+utils
+/
 SkNWayCanvas
 .
 h
@@ -22,6 +34,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkMakeUnique
 .
 h

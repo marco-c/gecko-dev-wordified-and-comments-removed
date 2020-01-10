@@ -7,6 +7,10 @@ SkJpegPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkStream
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTArray
 .
 h

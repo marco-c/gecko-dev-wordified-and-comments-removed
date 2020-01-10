@@ -7,6 +7,10 @@ SkWuffsCodec_DEFINED
 #
 include
 "
+include
+/
+codec
+/
 SkCodec
 .
 h

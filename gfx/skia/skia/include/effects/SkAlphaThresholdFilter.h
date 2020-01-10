@@ -7,6 +7,10 @@ SkAlphaThresholdFilter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkImageFilter
 .
 h
@@ -56,6 +60,14 @@ void
 RegisterFlattenables
 (
 )
+;
+private
+:
+SkAlphaThresholdFilter
+(
+)
+=
+delete
 ;
 }
 ;

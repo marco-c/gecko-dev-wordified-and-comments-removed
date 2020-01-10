@@ -7,6 +7,12 @@ GrGLSLGeometryProcessor_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
+glsl
+/
 GrGLSLPrimitiveProcessor
 .
 h

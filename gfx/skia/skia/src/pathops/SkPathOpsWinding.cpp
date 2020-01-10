@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+pathops
+/
 SkOpContour
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkOpSegment
 .
 h
@@ -15,6 +23,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCurve
 .
 h

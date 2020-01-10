@@ -7,6 +7,10 @@ SkOpAngle_DEFINED
 #
 include
 "
+src
+/
+pathops
+/
 SkLineParameters
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCurve
 .
 h
@@ -24,6 +32,10 @@ DEBUG_ANGLE
 #
 include
 "
+include
+/
+core
+/
 SkString
 .
 h

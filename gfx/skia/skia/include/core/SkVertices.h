@@ -7,6 +7,10 @@ SkVertices_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkData
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPoint
 .
 h
@@ -28,6 +40,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRect
 .
 h
@@ -35,6 +51,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h

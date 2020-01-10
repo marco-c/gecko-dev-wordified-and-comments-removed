@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+core
+/
 SkFlattenable
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkOnce
 .
 h

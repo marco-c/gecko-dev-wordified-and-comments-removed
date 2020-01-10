@@ -7,6 +7,10 @@ GrClearOp_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrFixedClip
 .
 h
@@ -14,6 +18,12 @@ h
 #
 include
 "
+src
+/
+gpu
+/
+ops
+/
 GrOp
 .
 h
@@ -338,7 +348,7 @@ HasAABloat
 :
 :
 kNo
-IsZeroArea
+IsHairline
 :
 :
 kNo

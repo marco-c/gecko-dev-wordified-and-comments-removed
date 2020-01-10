@@ -7,6 +7,12 @@ SKSL_UNRESOLVEDFUNCTION
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLFunctionDeclaration
 .
 h

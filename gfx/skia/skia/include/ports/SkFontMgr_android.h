@@ -7,6 +7,10 @@ SkFontMgr_android_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h

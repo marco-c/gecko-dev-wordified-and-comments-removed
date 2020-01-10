@@ -7,6 +7,10 @@ GrDefaultGeoProcFactory_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrColorSpaceXform
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrGeometryProcessor
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrShaderCaps
 .
 h

@@ -7,6 +7,10 @@ SkLua_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPathEffect
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h
@@ -28,6 +40,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkString
 .
 h

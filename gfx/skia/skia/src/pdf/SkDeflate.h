@@ -7,6 +7,10 @@ SkFlate_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkStream
 .
 h

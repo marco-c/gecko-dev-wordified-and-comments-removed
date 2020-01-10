@@ -7,6 +7,10 @@ SkOpEdgeBuilder_DEFINED
 #
 include
 "
+src
+/
+pathops
+/
 SkOpContour
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathWriter
 .
 h

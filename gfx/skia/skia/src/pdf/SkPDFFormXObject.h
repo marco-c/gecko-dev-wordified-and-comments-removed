@@ -7,6 +7,10 @@ SkPDFFormXObject_DEFINED
 #
 include
 "
+src
+/
+pdf
+/
 SkPDFDevice
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+pdf
+/
 SkPDFTypes
 .
 h

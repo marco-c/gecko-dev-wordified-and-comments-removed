@@ -7,6 +7,10 @@ GrVkMemoryAllocator_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h
@@ -21,6 +29,12 @@ h
 #
 include
 "
+include
+/
+gpu
+/
+vk
+/
 GrVkTypes
 .
 h
@@ -49,6 +63,9 @@ kLazyAllocation
 kPersistentlyMapped
 =
 0x4
+kProtected
+=
+0x8
 }
 ;
 GR_DECL_BITFIELD_CLASS_OPS_FRIENDS

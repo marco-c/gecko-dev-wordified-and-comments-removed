@@ -7,6 +7,10 @@ GrProcessorAnalysis_DEFINED
 #
 include
 "
+include
+/
+private
+/
 SkColorData
 .
 h

@@ -12,6 +12,10 @@ memory
 #
 include
 "
+src
+/
+gpu
+/
 GrColor
 .
 h

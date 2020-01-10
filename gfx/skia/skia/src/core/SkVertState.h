@@ -7,6 +7,10 @@ SkVertState_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkVertices
 .
 h

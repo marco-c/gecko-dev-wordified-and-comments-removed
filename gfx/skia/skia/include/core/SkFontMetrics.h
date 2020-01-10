@@ -7,6 +7,10 @@ SkFontMetrics_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h

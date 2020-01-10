@@ -165,6 +165,10 @@ cpp
 #
 include
 "
+src
+/
+gpu
+/
 GrProxyProvider
 .
 h
@@ -1948,6 +1952,10 @@ proxyProvider
 findOrCreateProxyByUniqueKey
 (
 key
+GrColorType
+:
+:
+kAlpha_8
 kTopLeft_GrSurfaceOrigin
 )
 ;
@@ -2085,7 +2093,6 @@ move
 (
 image
 )
-kNone_GrSurfaceFlags
 1
 SkBudgeted
 :
@@ -2328,7 +2335,7 @@ sk_OutColor
 =
 sk_InColor
 *
-texture
+sample
 (
 blurProfileSampler
 half2

@@ -7,6 +7,10 @@ GrUserStencilSettings_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h

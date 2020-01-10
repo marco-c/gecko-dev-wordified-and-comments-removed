@@ -7,6 +7,10 @@ SkMatrix22_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPoint
 .
 h

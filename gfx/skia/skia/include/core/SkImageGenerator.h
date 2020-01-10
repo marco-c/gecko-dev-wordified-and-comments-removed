@@ -7,6 +7,10 @@ SkImageGenerator_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkBitmap
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkImage
 .
 h
@@ -28,6 +40,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkImageInfo
 .
 h
@@ -35,6 +51,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkYUVAIndex
 .
 h
@@ -42,6 +62,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkYUVASizeInfo
 .
 h

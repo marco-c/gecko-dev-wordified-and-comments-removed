@@ -7,6 +7,10 @@ SkPoint_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkMath
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h
@@ -21,8 +29,7 @@ h
 #
 include
 "
-.
-.
+include
 /
 private
 /
@@ -64,6 +71,7 @@ y
 }
 ;
 }
+constexpr
 int32_t
 x
 (
@@ -74,6 +82,7 @@ return
 fX
 ;
 }
+constexpr
 int32_t
 y
 (

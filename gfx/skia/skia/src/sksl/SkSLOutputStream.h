@@ -7,6 +7,10 @@ SKSL_OUTPUTSTREAM
 #
 include
 "
+src
+/
+sksl
+/
 SkSLDefines
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+sksl
+/
 SkSLString
 .
 h

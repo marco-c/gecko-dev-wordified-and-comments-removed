@@ -7,6 +7,10 @@ SkArithmeticImageFilter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkImageFilter
 .
 h

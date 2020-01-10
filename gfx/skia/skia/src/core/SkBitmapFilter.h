@@ -7,6 +7,10 @@ SkBitmapFilter_DEFINED
 #
 include
 "
+include
+/
+private
+/
 SkFixed
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkMath
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h
@@ -28,6 +40,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkNx
 .
 h

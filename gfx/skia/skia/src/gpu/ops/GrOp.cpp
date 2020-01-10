@@ -1,6 +1,12 @@
 #
 include
 "
+src
+/
+gpu
+/
+ops
+/
 GrOp
 .
 h

@@ -7,6 +7,10 @@ SkMD5_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkStream
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTo
 .
 h
@@ -122,12 +130,9 @@ other
 }
 }
 ;
-void
+Digest
 finish
 (
-Digest
-&
-digest
 )
 ;
 private

@@ -7,11 +7,16 @@ sk_shader_DEFINED
 #
 include
 "
+include
+/
+c
+/
 sk_types
 .
 h
 "
 SK_C_PLUS_PLUS_BEGIN_GUARD
+SK_API
 void
 sk_shader_ref
 (
@@ -19,6 +24,7 @@ sk_shader_t
 *
 )
 ;
+SK_API
 void
 sk_shader_unref
 (
@@ -35,6 +41,7 @@ MIRROR_SK_SHADER_TILEMODE
 }
 sk_shader_tilemode_t
 ;
+SK_API
 sk_shader_t
 *
 sk_shader_new_linear_gradient
@@ -65,6 +72,7 @@ sk_matrix_t
 localMatrix
 )
 ;
+SK_API
 sk_shader_t
 *
 sk_shader_new_radial_gradient
@@ -95,6 +103,7 @@ sk_matrix_t
 localMatrix
 )
 ;
+SK_API
 sk_shader_t
 *
 sk_shader_new_sweep_gradient
@@ -121,6 +130,7 @@ sk_matrix_t
 localMatrix
 )
 ;
+SK_API
 sk_shader_t
 *
 sk_shader_new_two_point_conical_gradient

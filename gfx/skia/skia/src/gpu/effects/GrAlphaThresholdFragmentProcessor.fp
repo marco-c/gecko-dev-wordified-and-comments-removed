@@ -197,7 +197,7 @@ sk_InColor
 half4
 mask_color
 =
-texture
+sample
 (
 mask
 sk_TransformedCoords2D

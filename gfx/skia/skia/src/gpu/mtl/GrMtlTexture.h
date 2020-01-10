@@ -7,6 +7,10 @@ GrMtlTexture_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 GrTexture
 .
 h
@@ -36,7 +40,7 @@ sk_sp
 <
 GrMtlTexture
 >
-CreateNewTexture
+MakeNewTexture
 (
 GrMtlGpu
 *

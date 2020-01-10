@@ -94,7 +94,7 @@ main
 half4
 t
 =
-process
+sample
 (
 gradLayout
 )
@@ -303,7 +303,7 @@ unmodified
 .
 sk_OutColor
 =
-process
+sample
 (
 colorizer
 t

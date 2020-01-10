@@ -7,6 +7,10 @@ SkFontMgrPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkFontMgr
 .
 h

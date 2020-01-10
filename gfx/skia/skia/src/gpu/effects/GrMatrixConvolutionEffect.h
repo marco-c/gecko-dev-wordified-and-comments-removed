@@ -7,6 +7,12 @@ GrMatrixConvolutionEffect_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
+effects
+/
 GrTextureDomain
 .
 h

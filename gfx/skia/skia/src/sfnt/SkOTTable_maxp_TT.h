@@ -7,6 +7,10 @@ SkOTTable_maxp_TT_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkEndian
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTableTypes
 .
 h

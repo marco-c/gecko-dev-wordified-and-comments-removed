@@ -1,6 +1,10 @@
 #
 include
 "
+src
+/
+utils
+/
 SkFloatToDecimal
 .
 h
@@ -23,6 +27,10 @@ cmath
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -285,7 +293,7 @@ SkFloatToDecimal
 float
 value
 char
-result
+output
 [
 kMaximumSkFloatToDecimalLength
 ]
@@ -317,10 +325,10 @@ FLT_MIN_10_EXP
 ;
 char
 *
-output
+output_ptr
 =
 &
-result
+output
 [
 0
 ]
@@ -332,7 +340,7 @@ const
 end
 =
 &
-result
+output
 [
 kMaximumSkFloatToDecimalLength
 -
@@ -388,7 +396,7 @@ value
 )
 {
 *
-output
+output_ptr
 +
 +
 =
@@ -397,7 +405,7 @@ output
 '
 ;
 *
-output
+output_ptr
 =
 '
 \
@@ -410,9 +418,9 @@ static_cast
 unsigned
 >
 (
-output
+output_ptr
 -
-result
+output
 )
 ;
 }
@@ -426,7 +434,7 @@ value
 )
 {
 *
-output
+output_ptr
 +
 +
 =
@@ -692,7 +700,7 @@ do
 bufferIndex
 ;
 *
-output
+output_ptr
 +
 +
 =
@@ -728,7 +736,7 @@ i
 )
 {
 *
-output
+output_ptr
 +
 +
 =
@@ -768,7 +776,7 @@ placesBeforeDecimal
 bufferIndex
 ;
 *
-output
+output_ptr
 +
 +
 =
@@ -783,7 +791,7 @@ bufferIndex
 ;
 }
 *
-output
+output_ptr
 +
 +
 =
@@ -795,7 +803,7 @@ output
 else
 {
 *
-output
+output_ptr
 +
 +
 =
@@ -819,7 +827,7 @@ placesAfterDecimal
 )
 {
 *
-output
+output_ptr
 +
 +
 =
@@ -841,7 +849,7 @@ bufferIndex
 bufferIndex
 ;
 *
-output
+output_ptr
 +
 +
 =
@@ -856,7 +864,7 @@ bufferIndex
 ;
 if
 (
-output
+output_ptr
 =
 =
 end
@@ -869,14 +877,14 @@ break
 }
 SkASSERT
 (
-output
+output_ptr
 <
 =
 end
 )
 ;
 *
-output
+output_ptr
 =
 '
 \
@@ -889,9 +897,9 @@ static_cast
 unsigned
 >
 (
-output
+output_ptr
 -
-result
+output
 )
 ;
 }

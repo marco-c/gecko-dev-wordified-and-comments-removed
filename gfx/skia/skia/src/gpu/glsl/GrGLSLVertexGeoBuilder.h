@@ -7,6 +7,12 @@ GrGLSLVertexGeoBuilder_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
+glsl
+/
 GrGLSLShaderBuilder
 .
 h
@@ -169,9 +175,7 @@ InputType
 {
 kPoints
 kLines
-kLinesAdjacency
 kTriangles
-kTrianglesAdjacency
 }
 ;
 enum

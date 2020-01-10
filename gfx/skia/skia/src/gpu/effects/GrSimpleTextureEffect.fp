@@ -44,6 +44,8 @@ matrix
 ;
 constructorParams
 {
+GrColorType
+srcColorType
 GrSamplerState
 samplerParams
 }
@@ -78,6 +80,8 @@ sk_sp
 GrTextureProxy
 >
 proxy
+GrColorType
+srcColorType
 const
 SkMatrix
 &
@@ -104,6 +108,7 @@ move
 proxy
 )
 matrix
+srcColorType
 GrSamplerState
 (
 GrSamplerState
@@ -146,6 +151,8 @@ sk_sp
 GrTextureProxy
 >
 proxy
+GrColorType
+srcColorType
 const
 SkMatrix
 &
@@ -177,6 +184,7 @@ move
 proxy
 )
 matrix
+srcColorType
 GrSamplerState
 (
 GrSamplerState
@@ -207,6 +215,8 @@ sk_sp
 GrTextureProxy
 >
 proxy
+GrColorType
+srcColorType
 const
 SkMatrix
 &
@@ -237,6 +247,7 @@ move
 proxy
 )
 matrix
+srcColorType
 p
 )
 )
@@ -247,12 +258,7 @@ optimizationFlags
 {
 ModulateForSamplerOptFlags
 (
-image
--
->
-config
-(
-)
+srcColorType
 samplerParams
 .
 wrapModeX
@@ -294,7 +300,7 @@ sk_OutColor
 =
 sk_InColor
 *
-texture
+sample
 (
 image
 sk_TransformedCoords2D
@@ -472,6 +478,13 @@ testData
 -
 >
 textureProxy
+(
+texIdx
+)
+testData
+-
+>
+textureProxyColorType
 (
 texIdx
 )

@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+core
+/
 SkCanvas
 .
 h
@@ -8,6 +12,10 @@ h
 #
 include
 "
+include
+/
+docs
+/
 SkPDFDocument
 .
 h

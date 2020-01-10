@@ -7,6 +7,10 @@ SkDrawProcs_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkDraw
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkGlyph
 .
 h

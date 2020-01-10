@@ -7,6 +7,10 @@ SkAtlasTextContext_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h

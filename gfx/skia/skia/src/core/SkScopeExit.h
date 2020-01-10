@@ -7,6 +7,10 @@ SkScopeExit_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkMacros
 .
 h
@@ -28,6 +36,12 @@ SkScopeExit
 {
 public
 :
+SkScopeExit
+(
+)
+=
+default
+;
 SkScopeExit
 (
 std

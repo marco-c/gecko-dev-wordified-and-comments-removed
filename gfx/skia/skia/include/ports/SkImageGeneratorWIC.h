@@ -1,6 +1,10 @@
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -14,6 +18,10 @@ SK_BUILD_FOR_WIN
 #
 include
 "
+include
+/
+core
+/
 SkData
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkImageGenerator
 .
 h

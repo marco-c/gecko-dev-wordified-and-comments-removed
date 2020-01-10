@@ -7,6 +7,10 @@ SkWeakRefCnt_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h

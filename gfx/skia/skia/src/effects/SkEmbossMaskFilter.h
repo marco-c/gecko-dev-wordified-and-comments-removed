@@ -7,6 +7,10 @@ SkEmbossMaskFilter_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkMaskFilterBase
 .
 h

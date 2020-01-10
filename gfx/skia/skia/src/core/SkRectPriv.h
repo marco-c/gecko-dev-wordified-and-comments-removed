@@ -7,6 +7,10 @@ SkRectPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRect
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkMathPriv
 .
 h

@@ -7,6 +7,10 @@ SkColorData_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkColorPriv
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkNx
 .
 h
@@ -28,6 +40,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTo
 .
 h

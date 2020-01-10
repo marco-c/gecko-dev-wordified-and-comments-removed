@@ -7,6 +7,10 @@ SkMaskFilter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkBlurTypes
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkCoverageMode
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkFlattenable
 .
 h
@@ -28,6 +40,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h

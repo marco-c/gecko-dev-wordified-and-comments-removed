@@ -7,6 +7,10 @@ GrGeometryProcessor_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrPrimitiveProcessor
 .
 h

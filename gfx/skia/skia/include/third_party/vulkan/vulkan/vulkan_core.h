@@ -22,6 +22,14 @@ VK_VERSION_1_0
 #
 include
 "
+include
+/
+third_party
+/
+vulkan
+/
+vulkan
+/
 vk_platform
 .
 h

@@ -7,6 +7,10 @@ SkShadowUtils_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h
@@ -14,6 +18,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPoint3
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h
@@ -28,8 +40,7 @@ h
 #
 include
 "
-.
-.
+include
 /
 private
 /
