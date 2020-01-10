@@ -304,6 +304,11 @@ aOffset
 uint32_t
 *
 aFboId
+wr
+:
+:
+DeviceIntRect
+aDirtyRect
 )
 {
 }

@@ -714,6 +714,9 @@ self
 id
 :
 NativeSurfaceId
+dirty_rect
+:
+DeviceIntRect
 )
 -
 >

@@ -5839,6 +5839,9 @@ fbo_id
 &
 mut
 u32
+dirty_rect
+:
+DeviceIntRect
 )
 ;
 fn
@@ -5964,6 +5967,9 @@ self
 id
 :
 NativeSurfaceId
+dirty_rect
+:
+DeviceIntRect
 )
 -
 >
@@ -6006,6 +6012,7 @@ mut
 surface_info
 .
 fbo_id
+dirty_rect
 )
 ;
 }

@@ -199,6 +199,11 @@ aOffset
 uint32_t
 *
 aFboId
+wr
+:
+:
+DeviceIntRect
+aDirtyRect
 )
 {
 RenderCompositor
@@ -222,6 +227,7 @@ Bind
 aId
 aOffset
 aFboId
+aDirtyRect
 )
 ;
 }
