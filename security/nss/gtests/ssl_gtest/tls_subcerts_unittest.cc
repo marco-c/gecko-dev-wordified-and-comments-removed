@@ -1127,6 +1127,16 @@ now
 dc
 )
 ;
+ASSERT_TRUE
+(
+dc
+.
+data
+!
+=
+nullptr
+)
+;
 dc
 .
 data

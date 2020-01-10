@@ -382,6 +382,7 @@ char
 *
 bp
 ;
+unsigned
 int
 padLen
 ;
@@ -790,14 +791,13 @@ RSA_BlockPrivate
 case
 RSA_BlockPublic
 :
-PORT_Assert
+if
 (
 data
 -
 >
 len
-<
-=
+>
 (
 modulusLen
 -
@@ -808,7 +808,11 @@ RSA_BLOCK_MIN_PAD_LEN
 )
 )
 )
+{
+return
+SECFailure
 ;
+}
 result
 -
 >

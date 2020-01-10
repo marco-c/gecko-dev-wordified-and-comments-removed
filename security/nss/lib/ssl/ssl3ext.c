@@ -3016,6 +3016,15 @@ len
 0
 )
 ;
+ss
+-
+>
+xtnData
+.
+numAdvertised
+=
+0
+;
 switch
 (
 message

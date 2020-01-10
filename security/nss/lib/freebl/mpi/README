@@ -1522,6 +1522,16 @@ long
 z
 )
 ;
+mp_set_ulong
+(
+mp_int
+*
+mp
+unsigned
+long
+z
+)
+;
 The
 mp_set
 (
