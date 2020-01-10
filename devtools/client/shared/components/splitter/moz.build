@@ -93,16 +93,6 @@ Draggable
 js
 '
 '
-GridElementResizer
-.
-css
-'
-'
-GridElementWidthResizer
-.
-js
-'
-'
 SplitBox
 .
 css
