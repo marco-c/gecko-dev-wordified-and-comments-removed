@@ -2125,7 +2125,7 @@ return
 roles
 :
 :
-TEXT_CONTAINER
+GROUPING
 ;
 }
 nsresult
