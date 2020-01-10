@@ -292,7 +292,9 @@ performance
 getEntriesByType
 (
 '
-firstInput
+first
+-
+input
 '
 )
 ;
@@ -308,7 +310,9 @@ should
 be
 a
 single
-firstInput
+first
+-
+input
 entry
 '
 )
@@ -337,7 +341,9 @@ firstInput
 .
 entryType
 '
-firstInput
+first
+-
+input
 '
 )
 ;

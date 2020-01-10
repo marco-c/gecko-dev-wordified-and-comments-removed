@@ -43,7 +43,9 @@ types
 includes
 (
 "
-firstInput
+first
+-
+input
 "
 )
 "
@@ -51,7 +53,9 @@ There
 should
 be
 '
-firstInput
+first
+-
+input
 '
 in
 PerformanceObserver
@@ -91,7 +95,9 @@ types
 indexOf
 (
 "
-firstInput
+first
+-
+input
 "
 )
 types
@@ -105,7 +111,9 @@ event
 "
 The
 '
-firstInput
+first
+-
+input
 '
 entry
 should
@@ -128,7 +136,9 @@ event
 '
 and
 '
-firstInput
+first
+-
+input
 '
 .
 "
