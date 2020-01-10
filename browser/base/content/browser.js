@@ -10496,7 +10496,7 @@ window
 .
 arguments
 [
-7
+8
 ]
 |
 |
@@ -10513,7 +10513,7 @@ window
 .
 arguments
 [
-8
+9
 ]
 csp
 :
@@ -10521,7 +10521,7 @@ window
 .
 arguments
 [
-9
+10
 ]
 fromExternal
 :
@@ -10615,6 +10615,12 @@ arguments
 [
 6
 ]
+window
+.
+arguments
+[
+7
+]
 !
 !
 window
@@ -10627,13 +10633,13 @@ window
 .
 arguments
 [
-7
+8
 ]
 window
 .
 arguments
 [
-8
+9
 ]
 !
 =
@@ -10643,7 +10649,7 @@ window
 .
 arguments
 [
-9
+10
 ]
 )
 ;
@@ -13589,6 +13595,7 @@ postData
 allowThirdPartyFixup
 userContextId
 originPrincipal
+originStoragePrincipal
 forceAboutBlankViewerInCurrent
 triggeringPrincipal
 allowInheritPrincipal
@@ -13634,6 +13641,7 @@ postData
 allowThirdPartyFixup
 userContextId
 originPrincipal
+originStoragePrincipal
 triggeringPrincipal
 csp
 forceAboutBlankViewerInCurrent
@@ -29112,6 +29120,7 @@ null
 null
 null
 null
+null
 aTriggeringPrincipal
 null
 aCsp
@@ -32904,6 +32913,11 @@ originPrincipal
 doc
 .
 nodePrincipal
+originStoragePrincipal
+:
+doc
+.
+effectiveStoragePrincipal
 triggeringPrincipal
 :
 doc

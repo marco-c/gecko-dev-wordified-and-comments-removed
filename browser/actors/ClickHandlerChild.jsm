@@ -631,6 +631,14 @@ nodePrincipal
 ;
 json
 .
+originStoragePrincipal
+=
+ownerDoc
+.
+effectiveStoragePrincipal
+;
+json
+.
 triggeringPrincipal
 =
 ownerDoc

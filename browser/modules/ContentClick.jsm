@@ -303,6 +303,11 @@ originPrincipal
 json
 .
 originPrincipal
+originStoragePrincipal
+:
+json
+.
+originStoragePrincipal
 triggeringPrincipal
 :
 json
