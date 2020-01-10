@@ -2532,6 +2532,24 @@ runUntilFailure
 ]
 =
 True
+            
+if
+not
+options
+.
+repeat
+:
+                
+prefs
+[
+'
+reftest
+.
+repeat
+'
+]
+=
+30
         
 if
 options
