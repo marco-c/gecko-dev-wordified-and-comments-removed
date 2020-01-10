@@ -1868,7 +1868,7 @@ aArguments
 if
 (
 !
-HasSavedAnyCheckpoint
+NumSnapshots
 (
 )
 )
@@ -2065,7 +2065,7 @@ MAP_FIXED
 if
 (
 !
-HasSavedAnyCheckpoint
+NumSnapshots
 (
 )
 )
@@ -2122,7 +2122,7 @@ else
 int
 newProt
 =
-HasSavedAnyCheckpoint
+NumSnapshots
 (
 )
 ?
@@ -2990,7 +2990,7 @@ if
 thread
 -
 >
-MaybeWaitForCheckpointSave
+MaybeWaitForSnapshot
 (
 [
 =
@@ -4807,7 +4807,7 @@ AreThreadEventsPassedThrough
 MOZ_RELEASE_ASSERT
 (
 !
-HasSavedAnyCheckpoint
+NumSnapshots
 (
 )
 )
@@ -4892,7 +4892,7 @@ aArguments
 if
 (
 !
-HasSavedAnyCheckpoint
+NumSnapshots
 (
 )
 )

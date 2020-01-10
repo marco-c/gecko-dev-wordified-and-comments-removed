@@ -1083,7 +1083,7 @@ mShouldRestore
 bool
 SaveAllThreads
 (
-SavedCheckpoint
+AllSavedThreadStacks
 &
 aSaved
 )
@@ -1163,7 +1163,7 @@ void
 RestoreAllThreads
 (
 const
-SavedCheckpoint
+AllSavedThreadStacks
 &
 aSaved
 )

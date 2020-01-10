@@ -636,7 +636,7 @@ aNotifyCallback
 )
 ;
 bool
-MaybeWaitForCheckpointSave
+MaybeWaitForSnapshot
 (
 const
 std
