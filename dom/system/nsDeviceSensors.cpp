@@ -1773,7 +1773,7 @@ sensor
 )
 ;
 const
-InfallibleTArray
+nsTArray
 <
 float
 >
