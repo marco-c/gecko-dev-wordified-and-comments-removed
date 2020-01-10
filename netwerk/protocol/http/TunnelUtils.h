@@ -500,6 +500,9 @@ mForce
 nsresult
 mReadSegmentReturnValue
 ;
+nsresult
+mCloseReason
+;
 uint32_t
 mNudgeCounter
 ;
@@ -646,6 +649,10 @@ SetConnRefTaken
 ;
 private
 :
+friend
+class
+SocketTransportShim
+;
 friend
 class
 InputStreamShim
