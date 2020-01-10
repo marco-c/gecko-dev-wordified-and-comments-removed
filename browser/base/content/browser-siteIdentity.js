@@ -2956,6 +2956,11 @@ extensionName
 ]
 )
 ;
+icon_labels_dir
+=
+"
+"
+;
 }
 else
 if
