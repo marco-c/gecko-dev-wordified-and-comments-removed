@@ -367,9 +367,6 @@ nsCString
 mSignatureSchemeName
 ;
 bool
-mIsDelegatedCredential
-;
-bool
 mIsDomainMismatch
 ;
 bool

@@ -2874,10 +2874,6 @@ BadCertAndPinningServer
 "
                     
 "
-DelegatedCredentialsServer
-"
-                    
-"
 OCSPStaplingServer
 "
                     

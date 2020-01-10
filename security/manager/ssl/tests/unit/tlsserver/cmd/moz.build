@@ -92,9 +92,6 @@ GeckoSimplePrograms
 BadCertAndPinningServer
 '
 '
-DelegatedCredentialsServer
-'
-'
 GenerateOCSPResponse
 '
 '

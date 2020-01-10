@@ -1845,9 +1845,6 @@ pk12util
 BadCertAndPinningServer
 *
 \
-DelegatedCredentialsServer
-*
-\
 OCSPStaplingServer
 *
 \
