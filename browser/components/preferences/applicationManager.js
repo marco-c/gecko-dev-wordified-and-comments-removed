@@ -134,6 +134,8 @@ this
 handlerInfo
 .
 typeDescription
+.
+raw
 }
 )
 ;
@@ -164,6 +166,8 @@ this
 handlerInfo
 .
 typeDescription
+.
+raw
 }
 )
 ;
