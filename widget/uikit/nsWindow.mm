@@ -2484,11 +2484,6 @@ dt
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 targetSurface

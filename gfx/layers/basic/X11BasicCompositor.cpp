@@ -234,11 +234,6 @@ mBufferDrawTarget
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForSurface
 (
 surf
