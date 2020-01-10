@@ -59,8 +59,6 @@ import
 docker_worker_add_artifacts
     
 generic_worker_add_artifacts
-    
-add_tooltool
 )
 sm_run_schema
 =
@@ -132,6 +130,30 @@ workdir
 )
 :
 basestring
+    
+Required
+(
+'
+tooltool
+-
+downloads
+'
+)
+:
+Any
+(
+        
+False
+        
+'
+public
+'
+        
+'
+internal
+'
+    
+)
 }
 )
 run_job_using
@@ -329,13 +351,6 @@ True
 )
     
 docker_worker_add_artifacts
-(
-config
-job
-taskdesc
-)
-    
-add_tooltool
 (
 config
 job

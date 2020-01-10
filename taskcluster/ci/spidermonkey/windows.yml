@@ -95,6 +95,13 @@ releng
 .
 manifest
 "
+run
+:
+tooltool
+-
+downloads
+:
+internal
 sm
 -
 plain

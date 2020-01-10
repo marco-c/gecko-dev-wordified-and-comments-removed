@@ -103,6 +103,13 @@ jsshell
 .
 manifest
 "
+run
+:
+tooltool
+-
+downloads
+:
+public
 sm
 -
 package
