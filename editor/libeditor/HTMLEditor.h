@@ -2690,6 +2690,16 @@ AbstractRange
 aAbstractRange
 )
 ;
+Element
+*
+GetMostAncestorMailCiteElement
+(
+nsINode
+&
+aNode
+)
+const
+;
 protected
 :
 virtual

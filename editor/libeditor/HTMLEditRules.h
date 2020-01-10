@@ -1614,15 +1614,6 @@ EditorDOMPoint
 aNewFirstChildOfRightNode
 )
 ;
-Element
-*
-GetTopEnclosingMailCite
-(
-nsINode
-&
-aNode
-)
-;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
