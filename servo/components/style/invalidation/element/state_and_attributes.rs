@@ -844,7 +844,7 @@ false
 if
 state_changes
 .
-intersects
+contains
 (
 ElementState
 :
