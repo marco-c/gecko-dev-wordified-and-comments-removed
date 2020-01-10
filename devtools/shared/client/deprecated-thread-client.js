@@ -134,6 +134,12 @@ _threadGrips
 ;
 this
 .
+targetFront
+=
+null
+;
+this
+.
 request
 =
 this
@@ -691,6 +697,12 @@ function
 (
 )
 {
+this
+.
+targetFront
+=
+null
+;
 return
 this
 .
