@@ -106,6 +106,7 @@ batch
 {
 AlphaBatchContainer
 BatchKind
+BatchFeatures
 BatchTextures
 BrushBatchKind
 ClipBatchList
@@ -17991,6 +17992,9 @@ get
 batch
 .
 key
+batch
+.
+features
 self
 .
 debug_flags
@@ -18320,6 +18324,14 @@ get
 batch
 .
 key
+batch
+.
+features
+|
+BatchFeatures
+:
+:
+ALPHA_PASS
 self
 .
 debug_flags
