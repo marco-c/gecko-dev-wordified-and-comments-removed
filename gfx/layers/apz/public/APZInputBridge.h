@@ -58,6 +58,9 @@ mTargetGuid
 uint64_t
 mInputBlockId
 ;
+bool
+mHitRegionWithApzAwareListeners
+;
 }
 ;
 class
