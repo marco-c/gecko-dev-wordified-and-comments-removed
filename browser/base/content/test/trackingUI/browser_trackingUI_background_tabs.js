@@ -254,7 +254,7 @@ event
 ok
 (
 !
-gProtectionsHandler
+ContentBlocking
 .
 iconBox
 .
@@ -333,7 +333,7 @@ event
 ;
 ok
 (
-gProtectionsHandler
+ContentBlocking
 .
 iconBox
 .

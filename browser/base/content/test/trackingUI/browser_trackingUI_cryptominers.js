@@ -265,7 +265,7 @@ false
 TRACKING_PAGE
 )
 ;
-gProtectionsHandler
+ContentBlocking
 .
 disableForCurrentPage
 (
@@ -278,9 +278,9 @@ loaded
 ok
 (
 !
-gProtectionsHandler
+ContentBlocking
 .
-_protectionsPopup
+content
 .
 hasAttribute
 (
@@ -303,11 +303,12 @@ hasException
 {
 ok
 (
+!
 BrowserTestUtils
 .
-is_visible
+is_hidden
 (
-gProtectionsHandler
+ContentBlocking
 .
 iconBox
 )
@@ -332,7 +333,7 @@ BrowserTestUtils
 .
 is_hidden
 (
-gProtectionsHandler
+ContentBlocking
 .
 iconBox
 )
@@ -386,9 +387,9 @@ promise
 ;
 ok
 (
-gProtectionsHandler
+ContentBlocking
 .
-_protectionsPopup
+content
 .
 hasAttribute
 (
@@ -409,7 +410,7 @@ BrowserTestUtils
 .
 is_visible
 (
-gProtectionsHandler
+ContentBlocking
 .
 iconBox
 )
@@ -423,7 +424,7 @@ visible
 ;
 is
 (
-gProtectionsHandler
+ContentBlocking
 .
 iconBox
 .
@@ -462,7 +463,7 @@ false
 TRACKING_PAGE
 )
 ;
-gProtectionsHandler
+ContentBlocking
 .
 enableForCurrentPage
 (
@@ -561,7 +562,7 @@ false
 TRACKING_PAGE
 )
 ;
-gProtectionsHandler
+ContentBlocking
 .
 disableForCurrentPage
 (
@@ -610,7 +611,7 @@ await
 promise
 ;
 await
-openProtectionsPopup
+openIdentityPopup
 (
 )
 ;
@@ -814,7 +815,7 @@ document
 getElementById
 (
 "
-protections
+identity
 -
 popup
 -
@@ -888,7 +889,7 @@ false
 TRACKING_PAGE
 )
 ;
-gProtectionsHandler
+ContentBlocking
 .
 enableForCurrentPage
 (

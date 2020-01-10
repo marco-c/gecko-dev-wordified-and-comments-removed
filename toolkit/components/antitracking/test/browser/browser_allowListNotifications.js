@@ -160,7 +160,7 @@ browserLoaded
 browser
 )
 ;
-gProtectionsHandler
+ContentBlocking
 .
 disableForCurrentPage
 (
@@ -708,7 +708,7 @@ originLog
 )
 ;
 }
-gProtectionsHandler
+ContentBlocking
 .
 enableForCurrentPage
 (
