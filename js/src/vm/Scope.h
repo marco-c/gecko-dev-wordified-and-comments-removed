@@ -604,7 +604,7 @@ AlwaysPoison
 (
 &
 data_
-0xCC
+JS_SCOPE_DATA_TRAILING_NAMES_PATTERN
 sizeof
 (
 BindingName

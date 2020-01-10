@@ -22179,7 +22179,7 @@ reset
 AlwaysPoison
 (
 this
-0xBB
+JS_RESET_VALUE_PATTERN
 sizeof
 (
 *

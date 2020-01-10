@@ -23158,7 +23158,7 @@ computedSizeOfData
 AlwaysPoison
 (
 data_
-0xdb
+JS_POISONED_JSSCRIPT_DATA_PATTERN
 size
 MemCheckKind
 :

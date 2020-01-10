@@ -3112,7 +3112,7 @@ void
 (
 this
 )
-0xCC
+JS_NEW_NATIVE_ITERATOR_PATTERN
 sizeof
 (
 *
