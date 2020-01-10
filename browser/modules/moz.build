@@ -1142,11 +1142,6 @@ ReaderParent
 jsm
 '
 '
-RemotePrompt
-.
-jsm
-'
-'
 Sanitizer
 .
 jsm

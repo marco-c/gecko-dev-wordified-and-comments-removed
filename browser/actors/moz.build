@@ -311,6 +311,11 @@ PluginParent
 jsm
 '
 '
+PromptParent
+.
+jsm
+'
+'
 RFPHelperChild
 .
 jsm
