@@ -1154,6 +1154,11 @@ RebuildLocalRules
 (
 )
 ;
+void
+ForgetLocalFaces
+(
+)
+;
 class
 UserFontCache
 {
