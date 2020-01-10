@@ -2835,7 +2835,7 @@ scale
 StyleScale
 :
 :
-Scale3D
+Scale
 (
 s
 .
@@ -2896,7 +2896,7 @@ translate
 StyleTranslate
 :
 :
-Translate3D
+Translate
 (
 LengthPercentage
 :
