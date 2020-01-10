@@ -154,12 +154,6 @@ config
 version
 '
 )
-imports
-(
-'
-subprocess
-'
-)
 def
 pkg_config_version
 (

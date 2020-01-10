@@ -473,12 +473,6 @@ name
 )
 imports
 (
-'
-subprocess
-'
-)
-imports
-(
 _from
 =
 '
@@ -1927,12 +1921,6 @@ imports
 (
 '
 os
-'
-)
-imports
-(
-'
-subprocess
 '
 )
 imports

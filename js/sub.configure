@@ -101,12 +101,6 @@ pickle
 imports
 (
 '
-subprocess
-'
-)
-imports
-(
-'
 sys
 '
 )
