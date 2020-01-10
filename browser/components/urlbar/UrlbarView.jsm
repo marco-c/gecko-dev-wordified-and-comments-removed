@@ -102,6 +102,11 @@ jsm
 }
 )
 ;
+const
+DEFAULT_REMOVE_STALE_ROWS_TIMEOUT
+=
+400
+;
 class
 UrlbarView
 {
@@ -3559,7 +3564,9 @@ _removeStaleRows
 )
 ;
 }
-400
+UrlbarView
+.
+removeStaleRowsTimeout
 )
 ;
 }
@@ -4761,3 +4768,9 @@ close
 ;
 }
 }
+UrlbarView
+.
+removeStaleRowsTimeout
+=
+DEFAULT_REMOVE_STALE_ROWS_TIMEOUT
+;
