@@ -707,9 +707,13 @@ conversion
 mfbt
 /
 lz4
-/
 .
-*
+c
+mfbt
+/
+lz4
+.
+h
 mobile
 /
 android

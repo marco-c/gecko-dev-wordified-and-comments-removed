@@ -1075,8 +1075,8 @@ src
 mfbt
 /
 lz4
-/
-*
+.
+c
 #
 Apparently
 this
