@@ -39,7 +39,7 @@ default_value
 \
 extern
 cpp_type
-sVarCache_
+sMirror_
 #
 #
 full_id
@@ -94,7 +94,7 @@ getter
 ;
 \
 return
-sVarCache_
+sMirror_
 #
 #
 full_id
@@ -149,7 +149,7 @@ default_value
 \
 extern
 cpp_type
-sVarCache_
+sMirror_
 #
 #
 full_id
@@ -168,7 +168,7 @@ MaybeInitOncePrefs
 ;
 \
 return
-sVarCache_
+sMirror_
 #
 #
 full_id

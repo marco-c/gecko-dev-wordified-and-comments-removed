@@ -25349,7 +25349,7 @@ default_value
 )
 \
 cpp_type
-sVarCache_
+sMirror_
 #
 #
 full_id
@@ -25369,7 +25369,7 @@ default_value
 )
 \
 cpp_type
-sVarCache_
+sMirror_
 #
 #
 full_id
@@ -25514,7 +25514,7 @@ NS_LITERAL_CSTRING
 name
 )
 &
-sVarCache_
+sMirror_
 #
 #
 full_id
@@ -25599,7 +25599,7 @@ gOnceStaticPrefsAntiFootgun
 )
 ;
 \
-sVarCache_
+sMirror_
 #
 #
 full_id
@@ -25758,7 +25758,7 @@ cpp_type
 value
 )
 \
-sVarCache_
+sMirror_
 #
 #
 full_id
@@ -26185,7 +26185,7 @@ name
 \
 cpp_type
 (
-sVarCache_
+sMirror_
 #
 #
 full_id
@@ -26294,7 +26294,7 @@ rv
 StaticPrefs
 :
 :
-sVarCache_
+sMirror_
 #
 #
 full_id
@@ -26349,7 +26349,7 @@ rv
 StaticPrefs
 :
 :
-sVarCache_
+sMirror_
 #
 #
 full_id
