@@ -17478,8 +17478,8 @@ allocator
 masm
 )
 ;
-AutoScratchRegister
-scratch2
+AutoSpectreBoundsScratchRegister
+spectreScratch
 (
 allocator
 masm
@@ -17541,7 +17541,7 @@ spectreBoundsCheck32
 (
 index
 capacity
-scratch2
+spectreScratch
 &
 outOfBounds
 )
@@ -17621,8 +17621,8 @@ allocator
 masm
 )
 ;
-AutoScratchRegister
-scratch2
+AutoSpectreBoundsScratchRegister
+spectreScratch
 (
 allocator
 masm
@@ -17684,7 +17684,7 @@ spectreBoundsCheck32
 (
 index
 capacity
-scratch2
+spectreScratch
 &
 outOfBounds
 )
@@ -17764,8 +17764,8 @@ allocator
 masm
 )
 ;
-AutoScratchRegister
-scratch2
+AutoSpectreBoundsScratchRegister
+spectreScratch
 (
 allocator
 masm
@@ -17827,7 +17827,7 @@ spectreBoundsCheck32
 (
 index
 length
-scratch2
+spectreScratch
 &
 outOfBounds
 )
@@ -17907,8 +17907,8 @@ allocator
 masm
 )
 ;
-AutoScratchRegister
-scratch2
+AutoSpectreBoundsScratchRegister
+spectreScratch
 (
 allocator
 masm
@@ -18005,7 +18005,7 @@ spectreBoundsCheck32
 (
 index
 length
-scratch2
+spectreScratch
 failure
 -
 >
@@ -20237,8 +20237,8 @@ allocator
 masm
 )
 ;
-AutoScratchRegister
-scratch2
+AutoSpectreBoundsScratchRegister
+spectreScratch
 (
 allocator
 masm
@@ -20279,7 +20279,7 @@ spectreBoundsCheck32
 (
 index
 scratch1
-scratch2
+spectreScratch
 handleOOB
 ?
 &
