@@ -58,7 +58,7 @@ final
 long
 DEFAULT_TIMEOUT_MILLIS
 =
-10000
+30000
 ;
 public
 static
@@ -90,7 +90,7 @@ final
 long
 DEFAULT_X86_EMULATOR_TIMEOUT_MILLIS
 =
-5000
+30000
 ;
 public
 static
