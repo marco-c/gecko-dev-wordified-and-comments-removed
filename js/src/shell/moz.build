@@ -113,6 +113,17 @@ JS_BUNDLED_EDITLINE
 '
 ]
 :
+DIRS
++
+=
+[
+'
+.
+.
+/
+editline
+'
+]
 USE_LIBS
 +
 =
