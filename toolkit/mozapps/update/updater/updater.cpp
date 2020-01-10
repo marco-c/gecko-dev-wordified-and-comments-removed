@@ -1480,6 +1480,8 @@ false
 outBuf
 [
 UUID_LEN
+-
+1
 ]
 =
 '
