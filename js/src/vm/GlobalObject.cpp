@@ -894,6 +894,17 @@ getWeakRefsEnabled
 (
 )
 ;
+#
+ifndef
+NIGHTLY_BUILD
+case
+JSProto_AggregateError
+:
+return
+true
+;
+#
+endif
 default
 :
 return
