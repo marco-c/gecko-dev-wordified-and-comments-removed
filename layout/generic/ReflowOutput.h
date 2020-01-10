@@ -1073,6 +1073,7 @@ nsSize
 PhysicalSize
 (
 )
+const
 {
 return
 Size
