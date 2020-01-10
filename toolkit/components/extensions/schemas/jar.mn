@@ -275,6 +275,15 @@ extensions
 /
 schemas
 /
+normandyAddonStudy
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 notifications
 .
 json
