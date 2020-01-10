@@ -6450,7 +6450,7 @@ asCell
 )
 ;
 }
-void
+bool
 onChild
 (
 const
@@ -6957,7 +6957,7 @@ traceKind
 )
 ;
 }
-void
+bool
 DumpHeapTracer
 :
 :
@@ -6988,6 +6988,7 @@ asCell
 )
 {
 return
+true
 ;
 }
 char
@@ -7036,6 +7037,9 @@ asCell
 )
 buffer
 )
+;
+return
+true
 ;
 }
 void

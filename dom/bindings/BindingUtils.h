@@ -3337,7 +3337,7 @@ false
 )
 {
 }
-void
+bool
 onChild
 (
 const
@@ -3349,6 +3349,9 @@ GCCellPtr
 )
 override
 {
+return
+true
+;
 }
 TracerKind
 getTracerKind

@@ -19855,7 +19855,7 @@ rt
 )
 {
 }
-void
+bool
 onChild
 (
 const
@@ -19882,6 +19882,9 @@ isMarkedGray
 (
 )
 )
+;
+return
+true
 ;
 }
 TracerKind
@@ -19979,7 +19982,7 @@ SystemAllocPolicy
 &
 stack
 ;
-void
+bool
 onChild
 (
 const
@@ -20013,7 +20016,7 @@ UnmarkGray
 endif
 }
 ;
-void
+bool
 UnmarkGrayTracer
 :
 :
@@ -20102,6 +20105,7 @@ kind
 #
 endif
 return
+true
 ;
 }
 TenuredCell
@@ -20182,6 +20186,7 @@ true
 ;
 }
 return
+true
 ;
 }
 if
@@ -20195,6 +20200,7 @@ isMarkedGray
 )
 {
 return
+true
 ;
 }
 tenured
@@ -20223,6 +20229,9 @@ oom
 true
 ;
 }
+return
+true
+;
 }
 void
 UnmarkGrayTracer

@@ -367,7 +367,7 @@ JS
 :
 CallbackTracer
 {
-void
+bool
 onChild
 (
 const
@@ -487,6 +487,9 @@ okay
 false
 ;
 }
+return
+true
+;
 }
 public
 :

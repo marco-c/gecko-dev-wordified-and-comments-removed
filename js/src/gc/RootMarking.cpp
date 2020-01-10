@@ -2410,7 +2410,7 @@ JS
 :
 CallbackTracer
 {
-void
+bool
 onChild
 (
 const
@@ -2436,6 +2436,9 @@ after
 finishRoots
 "
 )
+;
+return
+true
 ;
 }
 public
@@ -2623,7 +2626,7 @@ CallbackTracer
 bool
 bufferingGrayRootsFailed
 ;
-void
+bool
 onObjectEdge
 (
 JSObject
@@ -2633,6 +2636,7 @@ objp
 )
 override
 {
+return
 bufferRoot
 (
 *
@@ -2640,7 +2644,7 @@ objp
 )
 ;
 }
-void
+bool
 onStringEdge
 (
 JSString
@@ -2650,6 +2654,7 @@ stringp
 )
 override
 {
+return
 bufferRoot
 (
 *
@@ -2657,7 +2662,7 @@ stringp
 )
 ;
 }
-void
+bool
 onScriptEdge
 (
 JSScript
@@ -2667,6 +2672,7 @@ scriptp
 )
 override
 {
+return
 bufferRoot
 (
 *
@@ -2674,7 +2680,7 @@ scriptp
 )
 ;
 }
-void
+bool
 onSymbolEdge
 (
 JS
@@ -2687,6 +2693,7 @@ symbolp
 )
 override
 {
+return
 bufferRoot
 (
 *
@@ -2694,7 +2701,7 @@ symbolp
 )
 ;
 }
-void
+bool
 onBigIntEdge
 (
 JS
@@ -2707,6 +2714,7 @@ bip
 )
 override
 {
+return
 bufferRoot
 (
 *
@@ -2714,7 +2722,7 @@ bip
 )
 ;
 }
-void
+bool
 onChild
 (
 const
@@ -2737,6 +2745,9 @@ kind
 "
 )
 ;
+return
+true
+;
 }
 template
 <
@@ -2744,7 +2755,7 @@ typename
 T
 >
 inline
-void
+bool
 bufferRoot
 (
 T
@@ -2945,7 +2956,7 @@ typename
 T
 >
 inline
-void
+bool
 BufferGrayRootsTracer
 :
 :
@@ -3050,6 +3061,9 @@ true
 ;
 }
 }
+return
+true
+;
 }
 void
 GCRuntime
