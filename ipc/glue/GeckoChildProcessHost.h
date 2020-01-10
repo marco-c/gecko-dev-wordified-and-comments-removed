@@ -512,7 +512,7 @@ defined
 MOZ_SANDBOX
 )
 static
-void
+bool
 StaticFillMacSandboxInfo
 (
 MacSandboxInfo
@@ -698,7 +698,7 @@ false
 ;
 }
 virtual
-void
+bool
 FillMacSandboxInfo
 (
 MacSandboxInfo
@@ -707,7 +707,7 @@ aInfo
 )
 ;
 virtual
-void
+bool
 AppendMacSandboxParams
 (
 StringVector
