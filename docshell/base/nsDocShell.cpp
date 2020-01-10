@@ -3019,6 +3019,13 @@ DestroyChildren
 (
 )
 ;
+mBrowsingContext
+-
+>
+DetachChildren
+(
+)
+;
 }
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
