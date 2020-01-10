@@ -119,6 +119,9 @@ enum
 ServiceWorkerState
 {
 "
+parsed
+"
+"
 installing
 "
 "
@@ -482,6 +485,14 @@ readonly
 attribute
 ServiceWorkerRegistration
 registration
+;
+[
+SameObject
+]
+readonly
+attribute
+ServiceWorker
+serviceWorker
 ;
 [
 NewObject
