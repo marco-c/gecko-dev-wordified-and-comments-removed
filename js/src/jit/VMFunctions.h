@@ -5064,6 +5064,15 @@ MutableHandleValue
 ret
 )
 ;
+void
+*
+AllocateBigIntNoGC
+(
+JSContext
+*
+cx
+)
+;
 enum
 class
 TailCallVMFunctionId
