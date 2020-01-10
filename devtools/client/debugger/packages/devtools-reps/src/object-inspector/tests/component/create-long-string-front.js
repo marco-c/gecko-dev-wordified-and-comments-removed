@@ -33,7 +33,9 @@ front
 )
 ;
 const
-LongStringClient
+{
+LongStringFront
+}
 =
 require
 (
@@ -43,11 +45,9 @@ require
 /
 __mocks__
 /
-long
--
 string
 -
-client
+front
 "
 )
 ;
@@ -104,12 +104,8 @@ Promise
 .
 resolve
 (
-{
-fullText
-:
 "
 "
-}
 )
 )
 ;
@@ -126,7 +122,7 @@ ObjectFront
 (
 grip
 )
-createLongStringClient
+createLongStringFront
 :
 jest
 .
@@ -135,7 +131,7 @@ fn
 grip
 =
 >
-LongStringClient
+LongStringFront
 (
 grip
 {
@@ -169,7 +165,7 @@ substring
 describe
 (
 "
-createLongStringClient
+createLongStringFront
 "
 (
 )
@@ -202,7 +198,7 @@ longStringStubs
 get
 (
 "
-testUnloadedFullText
+testMultiline
 "
 )
 ;
@@ -242,7 +238,7 @@ expect
 (
 client
 .
-createLongStringClient
+createLongStringFront
 .
 mock
 .
@@ -348,7 +344,7 @@ calls
 .
 toHaveLength
 (
-3
+2
 )
 ;
 const

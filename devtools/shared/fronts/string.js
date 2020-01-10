@@ -22,16 +22,6 @@ server
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 longStringSpec
 SimpleStringFront
@@ -167,7 +157,7 @@ length
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

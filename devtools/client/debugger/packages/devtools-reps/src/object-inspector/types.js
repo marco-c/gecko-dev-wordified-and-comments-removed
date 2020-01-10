@@ -297,7 +297,7 @@ Object
 ;
 export
 type
-LongStringClient
+LongStringFront
 =
 {
 substring
@@ -342,12 +342,12 @@ ObjectFront
 ;
 export
 type
-CreateLongStringClient
+CreateLongStringFront
 =
 RdpGrip
 =
 >
-LongStringClient
+LongStringFront
 ;
 export
 type
@@ -466,9 +466,9 @@ void
 createObjectFront
 :
 CreateObjectFront
-createLongStringClient
+createLongStringFront
 :
-CreateLongStringClient
+CreateLongStringFront
 onFocus
 :
 ?

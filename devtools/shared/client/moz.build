@@ -115,13 +115,4 @@ client
 .
 js
 '
-'
-long
--
-string
--
-client
-.
-js
-'
 )

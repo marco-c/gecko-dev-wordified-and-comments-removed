@@ -195,10 +195,6 @@ end
 )
 {
 return
-Promise
-.
-resolve
-(
 this
 .
 str
@@ -207,7 +203,6 @@ substring
 (
 start
 end
-)
 )
 ;
 }

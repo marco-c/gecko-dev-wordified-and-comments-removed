@@ -48,7 +48,7 @@ node
 import
 type
 {
-CreateLongStringClient
+CreateLongStringFront
 CreateObjectFront
 GripProperties
 LoadedProperties
@@ -69,9 +69,9 @@ Client
 createObjectFront
 :
 CreateObjectFront
-createLongStringClient
+createLongStringFront
 :
-CreateLongStringClient
+CreateLongStringFront
 }
 ;
 function
@@ -332,7 +332,7 @@ getFullText
 (
 client
 .
-createLongStringClient
+createLongStringFront
 (
 value
 )
