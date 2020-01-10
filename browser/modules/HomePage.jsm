@@ -663,6 +663,10 @@ lowerURL
 includes
 (
 code
+.
+toLowerCase
+(
+)
 )
 )
 ;
