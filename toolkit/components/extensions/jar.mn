@@ -651,6 +651,9 @@ toolkit
 .
 js
 )
+#
+ifndef
+ANDROID
 content
 /
 extensions
@@ -671,6 +674,8 @@ topSites
 .
 js
 )
+#
+endif
 content
 /
 extensions
