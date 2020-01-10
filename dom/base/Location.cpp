@@ -3591,6 +3591,14 @@ nullptr
 ;
 if
 (
+StaticPrefs
+:
+:
+dom_block_reload_from_resize_event_handler
+(
+)
+&
+&
 window
 &
 &
