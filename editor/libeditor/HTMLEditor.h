@@ -2573,7 +2573,8 @@ aElement
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-void
+MOZ_MUST_USE
+nsresult
 OnModifyDocument
 (
 )
@@ -5562,6 +5563,13 @@ aWindow
 BlobReader
 *
 aBlobReader
+)
+;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+OnModifyDocumentInternal
+(
 )
 ;
 protected
