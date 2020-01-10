@@ -403,6 +403,11 @@ qcms_enable_iccv4
 (
 )
 ;
+void
+qcms_enable_neon
+(
+)
+;
 #
 ifdef
 __cplusplus
