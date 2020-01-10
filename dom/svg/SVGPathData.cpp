@@ -942,6 +942,9 @@ state
 if
 (
 !
+std
+:
+:
 isfinite
 (
 state
