@@ -1167,6 +1167,11 @@ blockMessageById
 Router
 .
 blockMessageById
+dispatch
+:
+Router
+.
+dispatch
 }
 )
 ;
@@ -1177,6 +1182,9 @@ calledWithExactly
 FakeToolbarPanelHub
 .
 init
+Router
+.
+waitForInitialized
 {
 getMessages
 :

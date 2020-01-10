@@ -3389,6 +3389,11 @@ blockMessageById
 this
 .
 blockMessageById
+dispatch
+:
+this
+.
+dispatch
 }
 )
 ;
@@ -3396,6 +3401,9 @@ ToolbarPanelHub
 .
 init
 (
+this
+.
+waitForInitialized
 {
 getMessages
 :
@@ -8824,6 +8832,11 @@ break
 case
 "
 DOORHANGER_TELEMETRY
+"
+:
+case
+"
+TOOLBAR_BADGE_TELEMETRY
 "
 :
 if

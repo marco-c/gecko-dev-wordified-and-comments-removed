@@ -442,6 +442,15 @@ getOptions
 (
 )
 }
+keyboardAccess
+=
+{
+this
+.
+props
+.
+keyboardAccess
+}
 /
 >
 )
