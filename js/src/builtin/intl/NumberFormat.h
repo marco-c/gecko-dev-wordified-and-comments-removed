@@ -682,7 +682,7 @@ const
 UFormattedValue
 *
 formattedValue
-double
+HandleValue
 number
 FieldType
 unitType

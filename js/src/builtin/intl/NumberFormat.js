@@ -1452,7 +1452,7 @@ NumberFormat
 var
 x
 =
-ToNumber
+ToNumeric
 (
 value
 )
@@ -1623,7 +1623,7 @@ nf
 var
 x
 =
-ToNumber
+ToNumeric
 (
 value
 )
