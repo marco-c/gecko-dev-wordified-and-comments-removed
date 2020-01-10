@@ -291,11 +291,6 @@ DOMLocalization
 webidl
 '
 '
-DOMOverlays
-.
-webidl
-'
-'
 Flex
 .
 webidl
@@ -317,6 +312,11 @@ webidl
 '
 '
 JSWindowActor
+.
+webidl
+'
+'
+L10nOverlays
 .
 webidl
 '

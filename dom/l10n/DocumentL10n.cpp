@@ -65,9 +65,6 @@ mozilla
 :
 :
 dom
-:
-:
-l10n
 ;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (

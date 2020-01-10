@@ -201,7 +201,7 @@ CDATA
 /
 *
 global
-DOMOverlays
+L10nOverlays
 *
 /
 function
@@ -257,7 +257,7 @@ const
 translateElement
 }
 =
-DOMOverlays
+L10nOverlays
 ;
 SimpleTest
 .
@@ -513,7 +513,7 @@ translation
 Current
 iteration
 of
-DOMOverlays
+L10nOverlays
 will
 replace
 /

@@ -85,7 +85,7 @@ mozilla
 /
 dom
 /
-DOMOverlaysBinding
+L10nOverlaysBinding
 .
 h
 "
@@ -96,9 +96,7 @@ mozilla
 /
 dom
 /
-l10n
-/
-Mutations
+L10nMutations
 .
 h
 "
@@ -110,9 +108,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-l10n
 {
 class
 DOMLocalization
@@ -569,17 +564,11 @@ aPromise
 )
 ;
 void
-ReportDOMOverlaysErrors
+ReportL10nOverlaysErrors
 (
 nsTArray
 <
-mozilla
-:
-:
-dom
-:
-:
-DOMOverlaysError
+L10nOverlaysError
 >
 &
 aErrors
@@ -593,7 +582,7 @@ mGlobal
 ;
 RefPtr
 <
-Mutations
+L10nMutations
 >
 mMutations
 ;
@@ -614,7 +603,6 @@ mRoots
 ;
 }
 ;
-}
 }
 }
 #

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_l10n_Mutations_h__
+mozilla_dom_l10n_L10nMutations_h__
 #
 define
-mozilla_dom_l10n_Mutations_h__
+mozilla_dom_l10n_L10nMutations_h__
 #
 include
 "
@@ -32,8 +32,6 @@ mozilla
 /
 dom
 /
-l10n
-/
 DOMLocalization
 .
 h
@@ -44,11 +42,8 @@ mozilla
 namespace
 dom
 {
-namespace
-l10n
-{
 class
-Mutations
+L10nMutations
 final
 :
 public
@@ -61,14 +56,14 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
-Mutations
+L10nMutations
 nsIMutationObserver
 )
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 explicit
-Mutations
+L10nMutations
 (
 DOMLocalization
 *
@@ -173,7 +168,7 @@ FlushPendingTranslations
 private
 :
 ~
-Mutations
+L10nMutations
 (
 )
 {
@@ -191,7 +186,7 @@ DOMLocalization
 -
 -
 >
-Mutations
+L10nMutations
 cycle
 should
 be
@@ -203,7 +198,6 @@ broken
 }
 }
 ;
-}
 }
 }
 #

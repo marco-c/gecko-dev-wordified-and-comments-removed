@@ -1,7 +1,7 @@
 #
 include
 "
-DOMOverlays
+L10nOverlays
 .
 h
 "
@@ -54,23 +54,13 @@ mozilla
 :
 :
 dom
-:
-:
-l10n
-;
-using
-namespace
-mozilla
-:
-:
-dom
 ;
 using
 namespace
 mozilla
 ;
 bool
-DOMOverlays
+L10nOverlays
 :
 :
 IsAttrNameLocalizable
@@ -682,7 +672,7 @@ already_AddRefed
 <
 nsINode
 >
-DOMOverlays
+L10nOverlays
 :
 :
 CreateTextNodeFromTextContent
@@ -772,7 +762,7 @@ mName
 }
 ;
 void
-DOMOverlays
+L10nOverlays
 :
 :
 OverlayAttributes
@@ -1098,7 +1088,7 @@ return
 }
 }
 void
-DOMOverlays
+L10nOverlays
 :
 :
 OverlayAttributes
@@ -1258,7 +1248,7 @@ aRv
 ;
 }
 void
-DOMOverlays
+L10nOverlays
 :
 :
 ShallowPopulateUsing
@@ -1352,7 +1342,7 @@ already_AddRefed
 <
 nsINode
 >
-DOMOverlays
+L10nOverlays
 :
 :
 GetNodeForNamedElement
@@ -1365,7 +1355,7 @@ Element
 aTranslatedChild
 nsTArray
 <
-DOMOverlaysError
+L10nOverlaysError
 >
 &
 aErrors
@@ -1498,7 +1488,7 @@ if
 sourceChild
 )
 {
-DOMOverlaysError
+L10nOverlaysError
 error
 ;
 error
@@ -1507,7 +1497,7 @@ mCode
 .
 Construct
 (
-DOMOverlays_Binding
+L10nOverlays_Binding
 :
 :
 ERROR_NAMED_ELEMENT_MISSING
@@ -1598,7 +1588,7 @@ image
 )
 )
 {
-DOMOverlaysError
+L10nOverlaysError
 error
 ;
 error
@@ -1607,7 +1597,7 @@ mCode
 .
 Construct
 (
-DOMOverlays_Binding
+L10nOverlays_Binding
 :
 :
 ERROR_NAMED_ELEMENT_TYPE_MISMATCH
@@ -1769,7 +1759,7 @@ forget
 ;
 }
 bool
-DOMOverlays
+L10nOverlays
 :
 :
 IsElementAllowed
@@ -2052,7 +2042,7 @@ already_AddRefed
 <
 Element
 >
-DOMOverlays
+L10nOverlays
 :
 :
 CreateSanitizedElement
@@ -2164,7 +2154,7 @@ forget
 ;
 }
 void
-DOMOverlays
+L10nOverlays
 :
 :
 OverlayChildNodes
@@ -2177,7 +2167,7 @@ Element
 aToElement
 nsTArray
 <
-DOMOverlaysError
+L10nOverlaysError
 >
 &
 aErrors
@@ -2396,7 +2386,7 @@ return
 continue
 ;
 }
-DOMOverlaysError
+L10nOverlaysError
 error
 ;
 error
@@ -2405,7 +2395,7 @@ mCode
 .
 Construct
 (
-DOMOverlays_Binding
+L10nOverlays_Binding
 :
 :
 ERROR_FORBIDDEN_TYPE
@@ -2544,7 +2534,7 @@ return
 }
 }
 void
-DOMOverlays
+L10nOverlays
 :
 :
 TranslateElement
@@ -2564,7 +2554,7 @@ Nullable
 <
 nsTArray
 <
-DOMOverlaysError
+L10nOverlaysError
 >
 >
 &
@@ -2573,7 +2563,7 @@ aErrors
 {
 nsTArray
 <
-DOMOverlaysError
+L10nOverlaysError
 >
 errors
 ;
@@ -2600,7 +2590,7 @@ Failed
 )
 )
 {
-DOMOverlaysError
+L10nOverlaysError
 error
 ;
 error
@@ -2609,7 +2599,7 @@ mCode
 .
 Construct
 (
-DOMOverlays_Binding
+L10nOverlays_Binding
 :
 :
 ERROR_UNKNOWN
@@ -2643,7 +2633,7 @@ errors
 }
 }
 bool
-DOMOverlays
+L10nOverlays
 :
 :
 ContainsMarkup
@@ -2835,7 +2825,7 @@ false
 ;
 }
 void
-DOMOverlays
+L10nOverlays
 :
 :
 TranslateElement
@@ -2849,7 +2839,7 @@ L10nValue
 aTranslation
 nsTArray
 <
-DOMOverlaysError
+L10nOverlaysError
 >
 &
 aErrors

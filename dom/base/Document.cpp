@@ -1966,8 +1966,6 @@ mozilla
 /
 dom
 /
-l10n
-/
 DocumentL10n
 .
 h
@@ -17348,17 +17346,11 @@ yet
 ;
 RefPtr
 <
-l10n
-:
-:
 DocumentL10n
 >
 l10n
 =
 new
-l10n
-:
-:
 DocumentL10n
 (
 this
@@ -17396,9 +17388,6 @@ mDocumentL10n
 l10n
 ;
 }
-l10n
-:
-:
 DocumentL10n
 *
 Document

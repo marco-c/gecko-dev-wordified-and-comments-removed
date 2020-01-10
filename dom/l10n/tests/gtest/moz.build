@@ -90,7 +90,7 @@ UNIFIED_SOURCES
 =
 [
 '
-TestDOMOverlays
+TestL10nOverlays
 .
 cpp
 '

@@ -127,7 +127,7 @@ null
 }
 ;
 dictionary
-DOMOverlaysError
+L10nOverlaysError
 {
 short
 code
@@ -147,7 +147,7 @@ l10nName
 ChromeOnly
 ]
 namespace
-DOMOverlays
+L10nOverlays
 {
 const
 unsigned
@@ -179,7 +179,7 @@ ERROR_UNKNOWN
 ;
 sequence
 <
-DOMOverlaysError
+L10nOverlaysError
 >
 ?
 translateElement
