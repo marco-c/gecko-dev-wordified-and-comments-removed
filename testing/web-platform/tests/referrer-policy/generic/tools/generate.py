@@ -104,7 +104,7 @@ s
 '
 %
 (
-source_protocol
+source_scheme
 )
 s
 /
@@ -160,7 +160,7 @@ s
 .
 %
 (
-source_protocol
+source_scheme
 )
 s
 .
@@ -190,7 +190,7 @@ served
 over
 %
 (
-source_protocol
+source_scheme
 )
 s
 requires

@@ -804,7 +804,7 @@ test_expansion_schema
 expansion
 '
 '
-source_protocol
+source_scheme
 '
 '
 delivery_type
