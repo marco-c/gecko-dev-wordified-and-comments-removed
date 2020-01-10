@@ -226,6 +226,14 @@ GlSpew
 DECL_GFX_ENV
 (
 "
+MOZ_GPU_SWITCHING_SPEW
+"
+GpuSwitchingSpew
+)
+;
+DECL_GFX_ENV
+(
+"
 MOZ_GLX_DEBUG
 "
 GlxDebug
