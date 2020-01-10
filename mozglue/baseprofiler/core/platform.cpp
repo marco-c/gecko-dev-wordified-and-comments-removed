@@ -6627,7 +6627,7 @@ delta
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 -
@@ -8481,7 +8481,7 @@ sampleStart
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -8500,7 +8500,7 @@ lockAcquired
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -8562,7 +8562,7 @@ expiredMarkersCleaned
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -8641,7 +8641,7 @@ now
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -8751,7 +8751,7 @@ countersSampled
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -8858,7 +8858,7 @@ now
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -8919,7 +8919,7 @@ threadsSampled
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -9058,7 +9058,7 @@ DiscardSamplesBeforeTime
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 -
@@ -9105,7 +9105,7 @@ beforeSleep
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -9154,7 +9154,7 @@ sampleStart
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -13593,7 +13593,7 @@ delta
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 -
@@ -13695,7 +13695,7 @@ now
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -13874,7 +13874,7 @@ GetStartTime
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;
@@ -14081,7 +14081,7 @@ GetStartTime
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 ;

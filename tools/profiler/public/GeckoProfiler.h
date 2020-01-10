@@ -2672,7 +2672,7 @@ mozilla
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 )
@@ -2715,7 +2715,7 @@ mozilla
 TimeStamp
 :
 :
-Now
+NowUnfuzzed
 (
 )
 mDocShellId
