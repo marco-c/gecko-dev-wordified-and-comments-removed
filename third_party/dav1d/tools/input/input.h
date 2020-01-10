@@ -48,6 +48,11 @@ fps
 unsigned
 *
 num_frames
+unsigned
+timebase
+[
+2
+]
 )
 ;
 int

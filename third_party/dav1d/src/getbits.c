@@ -7,13 +7,6 @@ h
 "
 #
 include
-<
-assert
-.
-h
->
-#
-include
 "
 common
 /

@@ -11,13 +11,6 @@ h
 "
 #
 include
-<
-assert
-.
-h
->
-#
-include
 "
 src
 /

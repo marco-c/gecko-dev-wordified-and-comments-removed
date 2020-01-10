@@ -200,6 +200,15 @@ c
 bitfn_decls
 (
 void
+dav1d_cdef_dsp_init_ppc
+Dav1dCdefDSPContext
+*
+c
+)
+;
+bitfn_decls
+(
+void
 dav1d_cdef_dsp_init_x86
 Dav1dCdefDSPContext
 *

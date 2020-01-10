@@ -700,7 +700,7 @@ subsh
 )
 {
 const
-int16_t
+uint16_t
 *
 const
 scan
