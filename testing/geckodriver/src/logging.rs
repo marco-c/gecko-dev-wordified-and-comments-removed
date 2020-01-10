@@ -83,6 +83,9 @@ str
 geckodriver
 "
 "
+mozdevice
+"
+"
 mozprofile
 "
 "

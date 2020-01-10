@@ -42,6 +42,10 @@ marionette_rs
 ;
 extern
 crate
+mozdevice
+;
+extern
+crate
 mozprofile
 ;
 extern
@@ -204,6 +208,9 @@ err_msg
 }
 ;
 }
+mod
+android
+;
 mod
 build
 ;

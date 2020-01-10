@@ -1260,6 +1260,7 @@ derive
 (
 Default
 Debug
+PartialEq
 )
 ]
 pub
