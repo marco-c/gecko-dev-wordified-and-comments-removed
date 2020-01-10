@@ -2006,7 +2006,7 @@ closedOverBindingsForLazy
 pc_
 -
 >
-innerFunctionsForLazy
+innerFunctionBoxesForLazy
 start
 end
 start
