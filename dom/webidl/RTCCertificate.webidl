@@ -134,6 +134,7 @@ peerconnection
 .
 enabled
 "
+Serializable
 ]
 interface
 RTCCertificate
