@@ -7,3 +7,12 @@ Allow
 Origin
 :
 *
+Cache
+-
+Control
+:
+max
+-
+age
+=
+3600
