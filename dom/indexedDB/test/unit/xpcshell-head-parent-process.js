@@ -3272,7 +3272,7 @@ if
 +
 count
 <
-2
+3
 )
 {
 doPreciseGCandCC
