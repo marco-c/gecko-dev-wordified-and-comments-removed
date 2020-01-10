@@ -5497,7 +5497,10 @@ comp
 compilationArray
 )
 {
-js_free
+fop
+-
+>
+free_
 (
 comp
 .
