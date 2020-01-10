@@ -226,6 +226,11 @@ download
 .
 sh
 '
+tooltool
+-
+downloads
+:
+internal
 fetches
 :
 toolchain

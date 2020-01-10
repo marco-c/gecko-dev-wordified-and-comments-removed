@@ -133,6 +133,11 @@ cctools
 tar
 .
 xz
+tooltool
+-
+downloads
+:
+internal
 fetches
 :
 toolchain

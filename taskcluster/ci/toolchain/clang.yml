@@ -1589,6 +1589,11 @@ clang
 tar
 .
 bz2
+tooltool
+-
+downloads
+:
+internal
 fetches
 :
 fetch

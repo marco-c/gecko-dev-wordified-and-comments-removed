@@ -67,7 +67,7 @@ common
 import
 (
         
-docker_worker_add_tooltool
+add_tooltool
         
 support_vcs_checkout
 )
@@ -604,7 +604,7 @@ downloads
 internal
 '
         
-docker_worker_add_tooltool
+add_tooltool
 (
 config
 job
@@ -1105,6 +1105,43 @@ linux
 -
 bitbar
 '
+    
+if
+run
+[
+'
+tooltool
+-
+downloads
+'
+]
+:
+        
+internal
+=
+run
+[
+'
+tooltool
+-
+downloads
+'
+]
+=
+=
+'
+internal
+'
+        
+add_tooltool
+(
+config
+job
+taskdesc
+internal
+=
+internal
+)
     
 if
 is_win

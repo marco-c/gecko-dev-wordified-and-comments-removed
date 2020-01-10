@@ -1539,6 +1539,11 @@ tests
 .
 sh
 '
+tooltool
+-
+downloads
+:
+internal
 treeherder
 :
 platform

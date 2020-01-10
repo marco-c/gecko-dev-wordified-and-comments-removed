@@ -62,7 +62,7 @@ setup_secrets
     
 docker_worker_add_artifacts
     
-docker_worker_add_tooltool
+add_tooltool
 )
 haz_run_schema
 =
@@ -199,7 +199,7 @@ job
 taskdesc
 )
     
-docker_worker_add_tooltool
+add_tooltool
 (
 config
 job

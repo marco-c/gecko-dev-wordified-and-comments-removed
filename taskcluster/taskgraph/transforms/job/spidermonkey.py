@@ -60,7 +60,7 @@ docker_worker_add_artifacts
     
 generic_worker_add_artifacts
     
-docker_worker_add_tooltool
+add_tooltool
 )
 sm_run_schema
 =
@@ -335,7 +335,7 @@ job
 taskdesc
 )
     
-docker_worker_add_tooltool
+add_tooltool
 (
 config
 job

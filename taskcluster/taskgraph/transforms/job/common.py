@@ -1678,7 +1678,7 @@ sec
 )
 )
 def
-docker_worker_add_tooltool
+add_tooltool
 (
 config
 job
@@ -1766,7 +1766,7 @@ task
 "
 "
     
-assert
+if
 job
 [
 '
@@ -1786,7 +1786,8 @@ docker
 worker
 '
 )
-    
+:
+        
 level
 =
 config
@@ -1797,7 +1798,7 @@ params
 level
 '
 ]
-    
+        
 add_cache
 (
 job
@@ -1812,7 +1813,7 @@ format
 (
 level
 )
-              
+                  
 '
 {
 workdir
@@ -1835,7 +1836,7 @@ run
 ]
 )
 )
-    
+        
 taskdesc
 [
 '
@@ -1855,7 +1856,7 @@ env
 update
 (
 {
-        
+            
 '
 TOOLTOOL_CACHE
 '
@@ -1881,7 +1882,7 @@ run
 '
 ]
 )
-    
+        
 }
 )
     
