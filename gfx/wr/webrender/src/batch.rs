@@ -4944,7 +4944,7 @@ local_rect
 :
 picture
 .
-local_rect
+precise_local_rect
 local_clip_rect
 :
 prim_info
@@ -5101,7 +5101,7 @@ local_rect
 :
 pic
 .
-local_rect
+precise_local_rect
 local_clip_rect
 :
 child_prim_info
@@ -7836,7 +7836,7 @@ local_rect
 :
 picture
 .
-local_rect
+precise_local_rect
 local_clip_rect
 :
 prim_info
@@ -10886,7 +10886,7 @@ local_rect
 :
 backdrop_picture
 .
-local_rect
+precise_local_rect
 local_clip_rect
 :
 prim_info
