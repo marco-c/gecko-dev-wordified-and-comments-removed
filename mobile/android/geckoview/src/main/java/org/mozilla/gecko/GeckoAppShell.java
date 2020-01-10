@@ -4401,7 +4401,7 @@ gecko
 private
 static
 boolean
-getHWEncoderCapability
+hasHWVP8Encoder
 (
 )
 {
@@ -4425,7 +4425,7 @@ gecko
 private
 static
 boolean
-getHWDecoderCapability
+hasHWVP8Decoder
 (
 )
 {
