@@ -8267,9 +8267,6 @@ bytes
 &
 mut
 WrVecU8
-visible_rect
-:
-DeviceIntRect
 )
 {
 txn
@@ -8293,7 +8290,6 @@ flush_into_vec
 (
 )
 )
-visible_rect
 if
 descriptor
 .
@@ -8671,9 +8667,6 @@ bytes
 &
 mut
 WrVecU8
-visible_rect
-:
-DeviceIntRect
 dirty_rect
 :
 LayoutIntRect
@@ -8700,7 +8693,6 @@ flush_into_vec
 (
 )
 )
-visible_rect
 &
 DirtyRect
 :
@@ -15447,10 +15439,6 @@ i32
 format
 :
 ImageFormat
-visible_rect
-:
-&
-DeviceIntRect
 tile_size
 :
 Option
