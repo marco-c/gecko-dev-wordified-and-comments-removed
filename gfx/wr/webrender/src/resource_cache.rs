@@ -2410,6 +2410,7 @@ Option
 <
 Box
 <
+dyn
 BlobImageHandler
 >
 >
@@ -2439,6 +2440,7 @@ Option
 <
 Box
 <
+dyn
 AsyncBlobImageRasterizer
 >
 >
@@ -2477,6 +2479,7 @@ Option
 <
 Box
 <
+dyn
 BlobImageHandler
 >
 >
@@ -3482,6 +3485,7 @@ rasterizer
 :
 Box
 <
+dyn
 AsyncBlobImageRasterizer
 >
 supp
@@ -6056,6 +6060,7 @@ Option
 (
 Box
 <
+dyn
 AsyncBlobImageRasterizer
 >
 AsyncBlobImageInfo

@@ -955,6 +955,7 @@ glutin
 GlWindow
 Rc
 <
+dyn
 gl
 :
 :
@@ -973,6 +974,7 @@ angle
 Context
 Rc
 <
+dyn
 gl
 :
 :
@@ -984,6 +986,7 @@ Headless
 HeadlessContext
 Rc
 <
+dyn
 gl
 :
 :
@@ -1435,6 +1438,7 @@ self
 -
 >
 &
+dyn
 gl
 :
 :
@@ -1493,6 +1497,7 @@ self
 >
 Rc
 <
+dyn
 gl
 :
 :
@@ -1685,6 +1690,7 @@ init
 context
 :
 &
+dyn
 glutin
 :
 :
@@ -2158,6 +2164,7 @@ self
 >
 Box
 <
+dyn
 RenderNotifier
 >
 {
@@ -2271,6 +2278,7 @@ create_notifier
 (
 Box
 <
+dyn
 RenderNotifier
 >
 Receiver
@@ -4146,6 +4154,7 @@ captured
 as
 Box
 <
+dyn
 WrenchThing
 >
 }
@@ -4218,6 +4227,7 @@ subargs
 as
 Box
 <
+dyn
 WrenchThing
 >
 "
@@ -4241,6 +4251,7 @@ subargs
 as
 Box
 <
+dyn
 WrenchThing
 >
 _

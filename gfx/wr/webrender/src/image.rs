@@ -2420,6 +2420,7 @@ callback
 :
 &
 mut
+dyn
 FnMut
 (
 &

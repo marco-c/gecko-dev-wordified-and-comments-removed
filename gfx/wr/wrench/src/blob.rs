@@ -737,6 +737,7 @@ request
 :
 Box
 <
+dyn
 Fn
 (
 &
@@ -1016,6 +1017,7 @@ self
 _services
 :
 &
+dyn
 BlobImageResources
 requests
 :
@@ -1066,6 +1068,7 @@ self
 >
 Box
 <
+dyn
 AsyncBlobImageRasterizer
 >
 {
