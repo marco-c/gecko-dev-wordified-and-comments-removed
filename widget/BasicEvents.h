@@ -296,6 +296,11 @@ mPostedToRemoteProcess
 :
 1
 ;
+bool
+mHadNonPrivilegedClickListeners
+:
+1
+;
 inline
 bool
 InTargetPhase
@@ -776,7 +781,7 @@ rawFlags
 private
 :
 typedef
-uint32_t
+uint64_t
 RawFlags
 ;
 inline
