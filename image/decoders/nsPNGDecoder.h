@@ -32,6 +32,17 @@ SurfacePipe
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+Swizzle
+.
+h
+"
 namespace
 mozilla
 {
@@ -326,6 +337,9 @@ mDisablePremultipliedAlpha
 ;
 bool
 mGotInfoCallback
+;
+bool
+mUsePipeTransform
 ;
 struct
 AnimFrameInfo
