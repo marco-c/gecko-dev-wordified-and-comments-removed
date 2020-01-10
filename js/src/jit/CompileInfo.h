@@ -1274,10 +1274,9 @@ pc
 )
 const
 ;
-const
-Value
-&
-getConst
+BigInt
+*
+getBigInt
 (
 jsbytecode
 *
@@ -1289,12 +1288,9 @@ return
 script_
 -
 >
-getConst
-(
-GET_UINT32_INDEX
+getBigInt
 (
 pc
-)
 )
 ;
 }

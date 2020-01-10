@@ -10825,13 +10825,16 @@ JSOP_BIGINT
 :
 pushConstant
 (
+BigIntValue
+(
 info
 (
 )
 .
-getConst
+getBigInt
 (
 pc
+)
 )
 )
 ;

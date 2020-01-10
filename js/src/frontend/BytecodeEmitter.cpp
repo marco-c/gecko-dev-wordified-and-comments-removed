@@ -22713,16 +22713,13 @@ perScriptData
 (
 )
 .
-numberList
+bigIntList
 (
 )
 .
 append
 (
-BigIntValue
-(
 bigint
-)
 )
 )
 {
@@ -22738,7 +22735,7 @@ perScriptData
 (
 )
 .
-numberList
+bigIntList
 (
 )
 .

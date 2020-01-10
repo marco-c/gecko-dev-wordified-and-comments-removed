@@ -3623,6 +3623,15 @@ JSAtom
 >
 ;
 using
+GCPtrBigInt
+=
+GCPtr
+<
+BigInt
+*
+>
+;
+using
 GCPtrFlatString
 =
 GCPtr
