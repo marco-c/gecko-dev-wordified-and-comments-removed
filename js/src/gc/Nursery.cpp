@@ -606,7 +606,7 @@ void
 js
 :
 :
-NurseryDecommitChunksTask
+NurseryDecommitTask
 :
 :
 queueChunk
@@ -662,7 +662,7 @@ Chunk
 js
 :
 :
-NurseryDecommitChunksTask
+NurseryDecommitTask
 :
 :
 popChunk
@@ -732,7 +732,7 @@ void
 js
 :
 :
-NurseryDecommitChunksTask
+NurseryDecommitTask
 :
 :
 run
@@ -765,7 +765,7 @@ void
 js
 :
 :
-NurseryDecommitChunksTask
+NurseryDecommitTask
 :
 :
 decommitChunk
@@ -885,7 +885,7 @@ GCReason
 :
 NO_REASON
 )
-decommitChunksTask
+decommitTask
 (
 rt
 )
@@ -1460,7 +1460,7 @@ disable
 (
 )
 ;
-decommitChunksTask
+decommitTask
 .
 join
 (
@@ -7492,7 +7492,7 @@ i
 +
 )
 {
-decommitChunksTask
+decommitTask
 .
 queueChunk
 (
@@ -7504,7 +7504,7 @@ lock
 )
 ;
 }
-decommitChunksTask
+decommitTask
 .
 startOrRunIfIdle
 (
@@ -7534,7 +7534,7 @@ i
 +
 )
 {
-decommitChunksTask
+decommitTask
 .
 decommitChunk
 (

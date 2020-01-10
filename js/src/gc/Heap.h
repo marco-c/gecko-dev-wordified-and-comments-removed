@@ -78,7 +78,7 @@ class
 FreeOp
 ;
 class
-NurseryDecommitChunksTask
+NurseryDecommitTask
 ;
 namespace
 gc
@@ -2165,7 +2165,7 @@ class
 js
 :
 :
-NurseryDecommitChunksTask
+NurseryDecommitTask
 ;
 Chunk
 *
