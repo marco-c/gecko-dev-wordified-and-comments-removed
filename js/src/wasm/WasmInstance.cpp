@@ -6795,7 +6795,11 @@ memory
 memory
 -
 >
-boundsCheckLimit
+buffer
+(
+)
+.
+wasmBoundsCheckLimit
 (
 )
 :
@@ -10862,10 +10866,9 @@ tlsData
 >
 boundsCheckLimit
 =
-memory_
--
->
-boundsCheckLimit
+buffer
+.
+wasmBoundsCheckLimit
 (
 )
 ;

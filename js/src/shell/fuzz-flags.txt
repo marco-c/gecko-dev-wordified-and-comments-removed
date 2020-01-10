@@ -531,15 +531,6 @@ wasm
 await
 -
 tier2
--
--
-wasm
--
-disable
--
-huge
--
-memory
 #
 CPU
 instruction
