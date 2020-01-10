@@ -150,8 +150,8 @@ sts
 .
 createTransport
 (
-null
-0
+[
+]
 dest_host
 dest_port
 pi

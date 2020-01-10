@@ -934,7 +934,6 @@ createTransport
 ssl
 "
 ]
-1
 host
 port
 null
@@ -949,8 +948,8 @@ socketTransportService
 .
 createTransport
 (
-null
-0
+[
+]
 host
 port
 null

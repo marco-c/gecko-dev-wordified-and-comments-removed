@@ -781,8 +781,8 @@ nsISocketTransportService
 .
 createTransport
 (
-null
-0
+[
+]
 serverURI
 .
 host
