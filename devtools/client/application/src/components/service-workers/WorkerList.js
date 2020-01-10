@@ -220,10 +220,9 @@ h1
 className
 :
 "
-application
+app
 -
--
-title
+page__title
 "
 }
 )
