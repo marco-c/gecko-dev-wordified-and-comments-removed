@@ -1648,17 +1648,6 @@ aObj
 ;
 static
 bool
-OfflineCacheAllowedForContext
-(
-JSContext
-*
-JSObject
-*
-aObj
-)
-;
-static
-bool
 IsRequestIdleCallbackEnabled
 (
 JSContext

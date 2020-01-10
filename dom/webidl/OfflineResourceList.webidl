@@ -57,6 +57,7 @@ MPL
 *
 /
 [
+SecureContext
 Pref
 =
 "
@@ -67,14 +68,6 @@ cache
 offline
 .
 enable
-"
-Func
-=
-"
-nsGlobalWindowInner
-:
-:
-OfflineCacheAllowedForContext
 "
 Exposed
 =
