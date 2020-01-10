@@ -1079,7 +1079,7 @@ mExecutionReady
 }
 RefPtr
 <
-GenericNonExclusivePromise
+GenericPromise
 >
 ClientSourceParent
 :
