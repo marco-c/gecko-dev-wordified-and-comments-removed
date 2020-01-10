@@ -271,9 +271,16 @@ GPUVideoTextureHost
 (
 TextureFlags
 aFlags
+const
+SurfaceDescriptorGPUVideo
+&
+aDescriptor
+)
+;
 TextureHost
 *
-aWrappedTextureHost
+EnsureWrappedTextureHost
+(
 )
 ;
 RefPtr
@@ -281,6 +288,9 @@ RefPtr
 TextureHost
 >
 mWrappedTextureHost
+;
+SurfaceDescriptorGPUVideo
+mDescriptor
 ;
 }
 ;
