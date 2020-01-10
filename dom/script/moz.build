@@ -147,6 +147,11 @@ LoadedScript
 h
 '
 '
+ScriptDecoding
+.
+h
+'
+'
 ScriptElement
 .
 h
