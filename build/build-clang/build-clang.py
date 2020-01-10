@@ -1519,6 +1519,7 @@ assertions
 python_path
 gcc_dir
 libcxx_include_dir
+build_wasm
                     
 compiler_rt_source_dir
 =
@@ -1926,6 +1927,22 @@ DLLVM_ENABLE_BINDINGS
 OFF
 "
         
+]
+        
+if
+build_wasm
+:
+            
+cmake_args
++
+=
+[
+"
+-
+DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD
+=
+WebAssembly
+"
 ]
         
 if
@@ -4418,6 +4435,52 @@ build_libcxx
 "
 )
     
+build_wasm
+=
+False
+    
+if
+"
+build_wasm
+"
+in
+config
+:
+        
+build_wasm
+=
+config
+[
+"
+build_wasm
+"
+]
+        
+if
+build_wasm
+not
+in
+(
+True
+False
+)
+:
+            
+raise
+ValueError
+(
+"
+Only
+boolean
+values
+are
+accepted
+for
+build_wasm
+.
+"
+)
+    
 build_clang_tidy
 =
 False
@@ -5739,6 +5802,7 @@ assertions
 python_path
 gcc_dir
 libcxx_include_dir
+build_wasm
 )
     
 runtimes_source_link
@@ -5873,6 +5937,7 @@ assertions
 python_path
 gcc_dir
 libcxx_include_dir
+build_wasm
             
 compiler_rt_source_dir
 runtimes_source_link
@@ -6004,6 +6069,7 @@ assertions
 python_path
 gcc_dir
 libcxx_include_dir
+build_wasm
             
 compiler_rt_source_dir
 runtimes_source_link

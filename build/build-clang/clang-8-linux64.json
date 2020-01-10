@@ -12,6 +12,11 @@ build_libcxx
 :
 true
 "
+build_wasm
+"
+:
+true
+"
 build_type
 "
 :
