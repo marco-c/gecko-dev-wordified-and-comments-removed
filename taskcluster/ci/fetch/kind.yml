@@ -108,6 +108,10 @@ benchmarks
 .
 yml
 -
+browsertime
+.
+yml
+-
 toolchains
 .
 yml
