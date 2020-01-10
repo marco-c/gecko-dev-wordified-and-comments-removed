@@ -221,7 +221,7 @@ if
 (
 event
 .
-target
+currentTarget
 =
 =
 this
