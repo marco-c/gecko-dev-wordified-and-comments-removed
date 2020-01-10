@@ -550,6 +550,12 @@ moz
 .
 configure
 -
+config
+/
+milestone
+.
+txt
+-
 mfbt
 -
 modules
