@@ -2636,12 +2636,6 @@ jsm
 DevToolsLoader
 "
 "
-devtools
-"
-"
-BuiltinProvider
-"
-"
 require
 "
 "
