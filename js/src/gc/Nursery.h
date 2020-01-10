@@ -2209,10 +2209,6 @@ chunkno
 void
 poisonAndInitCurrentChunk
 (
-bool
-fullPoison
-=
-false
 )
 ;
 void
