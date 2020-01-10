@@ -2960,7 +2960,13 @@ GenericGridTemplateComponent
 :
 TrackList
 (
+Box
+:
+:
+new
+(
 template_rows
+)
 )
 template_cols
 GridTemplateAreas
