@@ -444,9 +444,6 @@ func
 __VA_ARGS__
 rv
 )
-struct
-MediaStreamTable
-;
 namespace
 mozilla
 {
