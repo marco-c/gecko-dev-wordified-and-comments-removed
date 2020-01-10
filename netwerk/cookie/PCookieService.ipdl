@@ -523,8 +523,6 @@ isForeign
 bool
 isTrackingResource
 bool
-isSocialTrackingResource
-bool
 firstPartyStorageAccessGranted
 uint32_t
 rejectedReason
@@ -547,8 +545,6 @@ bool
 isForeign
 bool
 isTrackingResource
-bool
-isSocialTrackingResource
 bool
 firstPartyStorageAccessGranted
 uint32_t

@@ -156,10 +156,6 @@ aIsTrackingResource
 const
 bool
 &
-aIsSocialTrackingResource
-const
-bool
-&
 aFirstPartyStorageAccessGranted
 const
 uint32_t
@@ -204,10 +200,6 @@ const
 bool
 &
 aIsTrackingResource
-const
-bool
-&
-aIsSocialTrackingResource
 const
 bool
 &
