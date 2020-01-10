@@ -395,6 +395,7 @@ isType
 )
             
 if
+(
 not
 thing
 .
@@ -408,17 +409,22 @@ thing
 isNamespace
 (
 )
+and
+                
+not
+thing
+.
+isInterfaceMixin
+(
+)
+)
 :
                 
 continue
             
-iface
-=
-thing
-            
 if
 not
-iface
+thing
 .
 isExternal
 (
@@ -426,9 +432,9 @@ isExternal
 :
                 
 for
-partialIface
+partial
 in
-iface
+thing
 .
 getPartials
 (
@@ -436,14 +442,14 @@ getPartials
 :
                     
 if
-partialIface
+partial
 .
 filename
 (
 )
 !
 =
-iface
+thing
 .
 filename
 (
@@ -469,21 +475,32 @@ support
 "
 partial
 interfaces
+/
+namespaces
+/
+mixins
 which
 don
 '
 t
-appear
-in
-the
 "
                             
 "
+appear
+in
+the
 file
 in
 which
 the
+"
+                            
+"
 interface
+/
+namespace
+/
+mixin
 they
 are
 extending
@@ -517,14 +534,37 @@ s
 %
                             
 (
-partialIface
+partial
 .
 location
+thing
+.
+location
+)
+)
+            
+if
+thing
+.
+isInterfaceMixin
+(
+)
+:
+                
+continue
+            
+iface
+=
+thing
+            
+if
+not
 iface
 .
-location
+isExternal
+(
 )
-)
+:
                 
 if
 not
