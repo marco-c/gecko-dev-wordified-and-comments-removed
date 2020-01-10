@@ -312,9 +312,9 @@ static
 nsresult
 IsOnContentBlockingAllowList
 (
-nsIURI
+nsIPrincipal
 *
-aTopWinURI
+aTopWinPrincipal
 bool
 aIsPrivateBrowsing
 bool
