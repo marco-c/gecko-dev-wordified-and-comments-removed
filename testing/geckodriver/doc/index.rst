@@ -187,17 +187,6 @@ mozilla
 geckodriver
 /
 releases
-For
-users
-=
-=
-=
-=
-=
-=
-=
-=
-=
 .
 .
 toctree
