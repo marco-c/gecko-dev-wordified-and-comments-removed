@@ -5716,7 +5716,7 @@ env
 ;
 DependentAddPtr
 <
-ObjectWeakMap
+EnvironmentWeakMap
 >
 p
 (
@@ -19857,6 +19857,8 @@ template
 <
 class
 UnbarrieredKey
+class
+Wrapper
 bool
 InvisibleKeysOk
 >
@@ -19864,6 +19866,7 @@ bool
 DebuggerWeakMap
 <
 UnbarrieredKey
+Wrapper
 InvisibleKeysOk
 >
 :
@@ -32317,7 +32320,7 @@ DebuggerScript
 DebuggerScriptReferent
 WasmInstanceObject
 *
-WasmInstanceWeakMap
+WasmInstanceScriptWeakMap
 >
 (
 cx
@@ -32593,7 +32596,7 @@ DebuggerSource
 DebuggerSourceReferent
 WasmInstanceObject
 *
-WasmInstanceWeakMap
+WasmInstanceSourceWeakMap
 >
 (
 cx
