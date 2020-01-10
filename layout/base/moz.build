@@ -327,11 +327,6 @@ nsIFrameTraversal
 h
 '
 '
-nsILayoutDebugger
-.
-h
-'
-'
 nsIPercentBSizeObserver
 .
 h
