@@ -405,10 +405,6 @@ rv
 def
 get_free_port
 (
-start_port
-exclude
-=
-None
 )
 :
     
@@ -416,73 +412,17 @@ None
 "
 "
 Get
-the
-first
+a
+random
+unbound
 port
-number
-after
-start_port
-(
-inclusive
-)
-that
-is
-    
-not
-currently
-bound
-.
-    
-:
-param
-start_port
-:
-Integer
-port
-number
-at
-which
-to
-start
-testing
-.
-    
-:
-param
-exclude
-:
-Set
-of
-port
-numbers
-to
-skip
 "
 "
 "
-    
-port
-=
-start_port
     
 while
 True
 :
-        
-if
-exclude
-and
-port
-in
-exclude
-:
-            
-port
-+
-=
-1
-            
-continue
         
 s
 =
@@ -509,7 +449,7 @@ bind
 .
 1
 "
-port
+0
 )
 )
         
@@ -519,16 +459,20 @@ socket
 error
 :
             
-port
-+
-=
-1
+continue
         
 else
 :
             
 return
-port
+s
+.
+getsockname
+(
+)
+[
+1
+]
         
 finally
 :

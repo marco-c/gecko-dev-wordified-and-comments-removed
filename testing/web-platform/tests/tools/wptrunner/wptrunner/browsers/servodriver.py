@@ -1,6 +1,4 @@
 import
-multiprocessing
-import
 os
 import
 subprocess
@@ -433,20 +431,6 @@ Browser
 )
 :
     
-used_ports
-=
-set
-(
-)
-    
-used_ports_lock
-=
-multiprocessing
-.
-Lock
-(
-)
-    
 init_timeout
 =
 300
@@ -606,35 +590,12 @@ kwargs
 )
 :
         
-with
-ServoWebDriverBrowser
-.
-used_ports_lock
-:
-            
 self
 .
 webdriver_port
 =
 get_free_port
 (
-4444
-exclude
-=
-self
-.
-used_ports
-)
-            
-self
-.
-used_ports
-.
-add
-(
-self
-.
-webdriver_port
 )
         
 env

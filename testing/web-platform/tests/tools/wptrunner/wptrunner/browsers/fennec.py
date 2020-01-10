@@ -1,6 +1,4 @@
 import
-multiprocessing
-import
 os
 import
 tempfile
@@ -620,20 +618,6 @@ FirefoxBrowser
 )
 :
     
-used_ports
-=
-set
-(
-)
-    
-used_ports_lock
-=
-multiprocessing
-.
-Lock
-(
-)
-    
 init_timeout
 =
 300
@@ -820,35 +804,12 @@ is
 None
 :
             
-with
-FennecBrowser
-.
-used_ports_lock
-:
-                
 self
 .
 marionette_port
 =
 get_free_port
 (
-2828
-exclude
-=
-self
-.
-used_ports
-)
-                
-self
-.
-used_ports
-.
-add
-(
-self
-.
-marionette_port
 )
         
 env
