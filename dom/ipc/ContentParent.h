@@ -5990,6 +5990,15 @@ nsAString
 aContentProcessType
 )
 ;
+bool
+IsWebRemoteType
+(
+const
+nsAString
+&
+aContentProcessType
+)
+;
 }
 }
 class
