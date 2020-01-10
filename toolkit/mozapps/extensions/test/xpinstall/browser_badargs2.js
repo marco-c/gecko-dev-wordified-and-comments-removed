@@ -40,6 +40,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+TESTROOT
 )
 ;
 ContentTask
