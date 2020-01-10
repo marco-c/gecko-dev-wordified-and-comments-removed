@@ -281,6 +281,8 @@ toolkit
 /
 library
 /
+build
+/
 dependentlibs
 .
 py
