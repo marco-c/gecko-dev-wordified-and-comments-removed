@@ -2132,8 +2132,11 @@ name
 )
 ;
 void
-sweepVarNames
+tracekWeakVarNames
 (
+JSTracer
+*
+trc
 )
 ;
 void
