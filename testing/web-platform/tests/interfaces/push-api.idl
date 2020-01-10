@@ -104,6 +104,9 @@ subscribe
 optional
 PushSubscriptionOptionsInit
 options
+=
+{
+}
 )
 ;
 Promise
@@ -124,6 +127,9 @@ permissionState
 optional
 PushSubscriptionOptionsInit
 options
+=
+{
+}
 )
 ;
 }
@@ -319,6 +325,9 @@ type
 optional
 PushEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =
@@ -362,8 +371,11 @@ Constructor
 DOMString
 type
 optional
-PushSubscriptionChangeInit
+PushSubscriptionChangeEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =
@@ -390,7 +402,7 @@ oldSubscription
 }
 ;
 dictionary
-PushSubscriptionChangeInit
+PushSubscriptionChangeEventInit
 :
 ExtendableEventInit
 {
