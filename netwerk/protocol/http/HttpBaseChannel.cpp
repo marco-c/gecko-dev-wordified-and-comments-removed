@@ -18392,7 +18392,6 @@ samenessString
 nsAutoCString
 outgoingString
 ;
-bool
 unsafeAllowOutgoing
 =
 t
