@@ -661,8 +661,9 @@ download
 dir
 "
 tmpDir
+Ci
 .
-path
+nsIFile
 ]
 ]
 }

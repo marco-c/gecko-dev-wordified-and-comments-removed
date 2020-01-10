@@ -3,16 +3,6 @@ use
 strict
 "
 ;
-PromiseTestUtils
-.
-whitelistRejectionsGlobally
-(
-/
-packaging
-errors
-/
-)
-;
 async
 function
 testThemeWithInvalidProperties
