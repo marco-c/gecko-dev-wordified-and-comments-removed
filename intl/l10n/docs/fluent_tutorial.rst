@@ -5331,7 +5331,7 @@ Document
 to
 communicate
 with
-mozDOMLocalization
+DOMLocalization
 .
 L10nRegistry
 -
