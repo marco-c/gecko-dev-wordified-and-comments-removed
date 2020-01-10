@@ -11719,11 +11719,12 @@ GetPreviousSibling
 }
 if
 (
-TextEditUtils
+EditorBase
 :
 :
-IsMozBR
+IsPaddingBRElementForEmptyLastLine
 (
+*
 aPoint
 .
 GetContainer

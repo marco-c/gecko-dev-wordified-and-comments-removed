@@ -748,7 +748,7 @@ false
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
-InsertMozBRIfNeeded
+InsertPaddingBRElementForEmptyLastLineIfNeeded
 (
 nsINode
 &
@@ -772,7 +772,7 @@ nsINode
 &
 aNode
 bool
-aInsertMozBR
+aForPadding
 )
 ;
 EditorDOMPoint

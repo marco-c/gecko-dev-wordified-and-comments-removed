@@ -63,16 +63,6 @@ _1
 Atom
 (
 "
-moz
-"
-"
-_moz
-"
-)
-    
-Atom
-(
-"
 mozframetype
 "
 "

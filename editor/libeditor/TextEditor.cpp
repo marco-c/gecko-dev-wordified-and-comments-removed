@@ -10453,11 +10453,12 @@ if
 childNode
 &
 &
-TextEditUtils
+EditorBase
 :
 :
-IsMozBR
+IsPaddingBRElementForEmptyLastLine
 (
+*
 childNode
 )
 )
@@ -10510,8 +10511,7 @@ root
 element
 except
 the
-moz
--
+padding
 <
 br
 >

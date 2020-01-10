@@ -609,7 +609,7 @@ ret
 }
 MOZ_CAN_RUN_SCRIPT
 CreateElementResult
-CreateMozBR
+CreatePaddingBRElementForEmptyLastLine
 (
 const
 EditorDOMPoint
@@ -742,7 +742,7 @@ EditorDOMPoint
 &
 aPointToInsert
 bool
-aCreateMozBR
+aForPadding
 )
 ;
 protected
