@@ -605,15 +605,6 @@ string_id
 secondary_button_id_2
 "
 }
-action
-:
-{
-id
-:
-"
-secondary_action
-"
-}
 }
 {
 label
