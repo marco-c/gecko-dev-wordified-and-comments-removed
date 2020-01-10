@@ -22,6 +22,13 @@ h
 #
 include
 "
+WebrtcGmpVideoCodec
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_media
@@ -64,8 +71,12 @@ kVideoCodecH264
 {
 return
 new
+WebrtcVideoEncoderProxy
+(
+new
 WebrtcMediaDataEncoder
 (
+)
 )
 ;
 }

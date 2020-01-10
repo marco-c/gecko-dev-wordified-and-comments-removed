@@ -66,7 +66,7 @@ class
 WebrtcMediaDataEncoder
 :
 public
-WebrtcVideoEncoder
+RefCountedWebrtcVideoEncoder
 {
 public
 :
@@ -115,7 +115,7 @@ aCallback
 override
 ;
 int32_t
-Release
+Shutdown
 (
 )
 override
@@ -165,6 +165,7 @@ override
 ;
 private
 :
+virtual
 ~
 WebrtcMediaDataEncoder
 (
