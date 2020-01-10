@@ -35817,7 +35817,6 @@ Ci
 nsIDOMWindow
 )
 {
-let
 browser
 =
 aSubject
