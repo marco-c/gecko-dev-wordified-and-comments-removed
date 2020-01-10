@@ -379,9 +379,9 @@ aPrincipal
 void
 EnsureOutputStreamManager
 (
-MediaStreamGraph
+SharedDummyStream
 *
-aGraph
+aDummyStream
 )
 ;
 void
