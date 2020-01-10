@@ -3239,13 +3239,19 @@ return
 task
 .
 kind
-=
-=
+in
+(
 '
 beetmover
 -
 geckoview
 '
+'
+upload
+-
+symbols
+'
+)
     
 return
 [
