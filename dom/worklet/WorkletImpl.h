@@ -199,7 +199,15 @@ OriginAttributesRef
 const
 {
 return
-mOriginAttributes
+mPrincipalInfo
+.
+get_NullPrincipalInfo
+(
+)
+.
+attrs
+(
+)
 ;
 }
 const
@@ -248,10 +256,6 @@ ConstructGlobalScope
 )
 =
 0
-;
-const
-OriginAttributes
-mOriginAttributes
 ;
 ipc
 :
