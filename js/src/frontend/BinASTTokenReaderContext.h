@@ -3347,10 +3347,6 @@ friend
 class
 HuffmanPreludeReader
 ;
-friend
-struct
-TagReader
-;
 public
 :
 class
