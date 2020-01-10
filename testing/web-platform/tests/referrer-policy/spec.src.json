@@ -1590,8 +1590,6 @@ redirection
 swap
 -
 origin
--
-redirect
 "
 "
 origin
@@ -2259,8 +2257,6 @@ redirection
 swap
 -
 origin
--
-redirect
 "
 "
 origin
@@ -3134,8 +3130,6 @@ redirection
 swap
 -
 origin
--
-redirect
 "
 "
 origin
@@ -3609,8 +3603,6 @@ redirection
 swap
 -
 origin
--
-redirect
 "
 "
 origin
@@ -4515,8 +4507,6 @@ redirection
 swap
 -
 origin
--
-redirect
 "
 "
 origin
@@ -4603,15 +4593,11 @@ redirection
 keep
 -
 origin
--
-redirect
 "
 "
 swap
 -
 origin
--
-redirect
 "
 ]
 "
@@ -4879,15 +4865,11 @@ redirect
 keep
 -
 origin
--
-redirect
 "
 "
 swap
 -
 origin
--
-redirect
 "
 ]
 "
