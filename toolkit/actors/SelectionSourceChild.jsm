@@ -147,9 +147,11 @@ ancestor
 !
 p
 )
+{
 return
 null
 ;
+}
 var
 path
 =
@@ -161,9 +163,11 @@ if
 !
 path
 )
+{
 return
 null
 ;
+}
 do
 {
 for
@@ -369,12 +373,14 @@ Node
 .
 CDATA_SECTION_NODE
 )
+{
 ancestorContainer
 =
 ancestorContainer
 .
 parentNode
 ;
+}
 try
 {
 if
@@ -386,12 +392,14 @@ doc
 .
 body
 )
+{
 ancestorContainer
 =
 doc
 .
 documentElement
 ;
+}
 }
 catch
 (
@@ -424,7 +432,6 @@ endContainer
 var
 isHTML
 =
-(
 doc
 .
 createElement
@@ -440,7 +447,6 @@ tagName
 "
 DIV
 "
-)
 ;
 var
 dataDoc
@@ -680,6 +686,7 @@ endOffset
 =
 0
 )
+{
 endContainer
 .
 parentNode
@@ -690,7 +697,9 @@ tmpNode
 endContainer
 )
 ;
+}
 else
+{
 endContainer
 .
 parentNode
@@ -703,6 +712,7 @@ endContainer
 nextSibling
 )
 ;
+}
 }
 }
 else
@@ -830,6 +840,7 @@ startOffset
 =
 0
 )
+{
 startContainer
 .
 parentNode
@@ -840,7 +851,9 @@ tmpNode
 startContainer
 )
 ;
+}
 else
+{
 startContainer
 .
 parentNode
@@ -853,6 +866,7 @@ startContainer
 nextSibling
 )
 ;
+}
 }
 }
 else

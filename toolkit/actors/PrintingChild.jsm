@@ -94,6 +94,7 @@ shouldSavePrintSettings
 )
 {
 return
+(
 Services
 .
 prefs
@@ -119,6 +120,7 @@ print
 .
 save_print_settings
 "
+)
 )
 ;
 }
@@ -582,9 +584,7 @@ articlePromise
 .
 then
 (
-(
 article
-)
 =
 >
 {
@@ -1495,6 +1495,7 @@ printSettings
 &
 simplifiedMode
 )
+{
 printSettings
 .
 docURL
@@ -1505,6 +1506,7 @@ document
 .
 baseURI
 ;
+}
 let
 printPreviewInitialize
 =
