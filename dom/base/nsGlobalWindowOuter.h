@@ -4504,6 +4504,12 @@ nsIURI
 *
 *
 aCallerDocumentURI
+Maybe
+<
+nsID
+>
+*
+aCallerAgentClusterId
 mozilla
 :
 :
