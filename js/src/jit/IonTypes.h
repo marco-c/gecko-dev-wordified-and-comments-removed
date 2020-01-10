@@ -1410,6 +1410,7 @@ MagicHole
 MagicIsConstructing
 MagicUninitializedLexical
 Value
+SinCosDouble
 ObjectOrNull
 None
 Slots
@@ -2093,6 +2094,17 @@ Value
 return
 "
 Value
+"
+;
+case
+MIRType
+:
+:
+SinCosDouble
+:
+return
+"
+SinCosDouble
 "
 ;
 case
