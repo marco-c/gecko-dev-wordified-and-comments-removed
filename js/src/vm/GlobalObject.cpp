@@ -143,6 +143,17 @@ include
 "
 builtin
 /
+streams
+/
+ReadableStreamReader
+.
+h
+"
+#
+include
+"
+builtin
+/
 Symbol
 .
 h

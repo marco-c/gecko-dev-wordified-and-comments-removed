@@ -1784,6 +1784,15 @@ cpp
 '
 builtin
 /
+streams
+/
+ReadableStreamDefaultReader
+.
+cpp
+'
+'
+builtin
+/
 String
 .
 cpp
