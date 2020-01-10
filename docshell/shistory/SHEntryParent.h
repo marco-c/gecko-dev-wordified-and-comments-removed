@@ -1070,6 +1070,17 @@ aResult
 )
 ;
 }
+bool
+RecvCreateLoadInfo
+(
+RefPtr
+<
+nsDocShellLoadState
+>
+*
+aLoadState
+)
+;
 RefPtr
 <
 LegacySHEntry
