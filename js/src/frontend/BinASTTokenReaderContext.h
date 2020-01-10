@@ -1380,7 +1380,7 @@ impl
 }
 ;
 struct
-HuffmanTableIndexedSymbolsTag
+HuffmanTableIndexedSymbolsSum
 {
 HuffmanTableImpl
 <
@@ -1388,6 +1388,19 @@ BinASTKind
 >
 impl
 ;
+HuffmanTableIndexedSymbolsSum
+(
+JSContext
+*
+cx
+)
+:
+impl
+(
+cx
+)
+{
+}
 }
 ;
 struct
@@ -1534,7 +1547,7 @@ Variant
 HuffmanTableUnreachable
 HuffmanTableExplicitSymbolsF64
 HuffmanTableExplicitSymbolsU32
-HuffmanTableIndexedSymbolsTag
+HuffmanTableIndexedSymbolsSum
 HuffmanTableIndexedSymbolsMaybeInterface
 HuffmanTableIndexedSymbolsBool
 HuffmanTableIndexedSymbolsStringEnum
@@ -1543,7 +1556,7 @@ HuffmanTableIndexedSymbolsOptionalLiteralString
 >
 ;
 using
-HuffmanTable
+HuffmanTableListLength
 =
 mozilla
 :
