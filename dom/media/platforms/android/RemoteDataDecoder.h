@@ -415,9 +415,6 @@ BufferInfo
 GlobalRef
 mInputBufferInfo
 ;
-int64_t
-mSession
-;
 private
 :
 enum

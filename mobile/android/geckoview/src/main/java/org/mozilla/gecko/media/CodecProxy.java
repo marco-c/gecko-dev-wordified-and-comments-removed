@@ -1038,9 +1038,6 @@ info
 final
 CryptoInfo
 cryptoInfo
-final
-long
-session
 )
 {
 if
@@ -1134,7 +1131,6 @@ set
 (
 info
 cryptoInfo
-session
 )
 )
 ;
