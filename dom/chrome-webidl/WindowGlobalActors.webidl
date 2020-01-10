@@ -153,6 +153,11 @@ long
 long
 contentParentId
 ;
+readonly
+attribute
+long
+osPid
+;
 /
 /
 A
