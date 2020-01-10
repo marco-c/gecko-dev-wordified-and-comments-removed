@@ -3134,7 +3134,7 @@ LaunchPromise
 aRetval
 )
 ;
-void
+bool
 InitInternal
 (
 ProcessPriority
