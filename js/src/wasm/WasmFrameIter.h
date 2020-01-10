@@ -736,15 +736,9 @@ JitActivation
 activation
 )
 ;
+explicit
 ProfilingFrameIterator
 (
-const
-jit
-:
-:
-JitActivation
-&
-activation
 const
 Frame
 *

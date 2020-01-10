@@ -10005,13 +10005,6 @@ wasm
 :
 ProfilingFrameIterator
 (
-*
-activation_
--
->
-asJit
-(
-)
 fp
 )
 ;
