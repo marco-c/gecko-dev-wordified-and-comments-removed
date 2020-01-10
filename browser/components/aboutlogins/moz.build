@@ -108,11 +108,12 @@ BUG_COMPONENT
 =
 (
 '
-Toolkit
+Firefox
 '
 '
-Password
-Manager
+about
+:
+logins
 '
 )
 EXTRA_JS_MODULES
