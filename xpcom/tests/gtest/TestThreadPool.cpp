@@ -688,7 +688,7 @@ pool
 >
 ShutdownWithTimeout
 (
-300
+350
 )
 ;
 EXPECT_EQ
@@ -1042,7 +1042,7 @@ pool
 >
 ShutdownWithTimeout
 (
-300
+350
 )
 ;
 EXPECT_GE
