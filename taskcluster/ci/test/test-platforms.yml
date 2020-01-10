@@ -1155,7 +1155,11 @@ windows10
 -
 64
 -
-ux
+ref
+-
+hw
+-
+2017
 /
 opt
 :
@@ -1179,7 +1183,9 @@ firefox
 -
 talos
 -
-ux
+ref
+-
+hw
 windows10
 -
 64
