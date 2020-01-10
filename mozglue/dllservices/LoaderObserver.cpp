@@ -265,14 +265,6 @@ DesuppressStackWalking
 ;
 #
 endif
-MOZ_ASSERT_IF
-(
-IsProfilerPresent
-(
-)
-aContext
-)
-;
 UniquePtr
 <
 LoadContext
