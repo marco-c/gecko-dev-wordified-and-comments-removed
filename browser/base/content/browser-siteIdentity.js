@@ -5516,6 +5516,13 @@ canvas
 16
 )
 ;
+gURLBar
+.
+endLayoutExtend
+(
+true
+)
+;
 }
 onLocationChange
 (
