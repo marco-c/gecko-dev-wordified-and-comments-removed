@@ -633,13 +633,6 @@ value
 )
 ;
 }
-setInputValue
-(
-hud
-"
-"
-)
-;
 const
 onPopupClose
 =
@@ -665,6 +658,13 @@ KEY_Escape
 ;
 await
 onPopupClose
+;
+setInputValue
+(
+hud
+"
+"
+)
 ;
 }
 }
