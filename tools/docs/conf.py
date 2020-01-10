@@ -209,6 +209,12 @@ sphinx
 '
 sphinx_js
 '
+    
+'
+sphinxcontrib
+.
+mermaid
+'
 ]
 js_source_path
 =
