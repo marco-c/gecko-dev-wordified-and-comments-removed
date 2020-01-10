@@ -5572,6 +5572,7 @@ which
 '
 java
 '
+*
 extra_search_dirs
 )
         
