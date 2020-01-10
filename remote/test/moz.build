@@ -76,6 +76,15 @@ browser
 .
 ini
 "
+"
+browser
+/
+input
+/
+browser
+.
+ini
+"
 ]
 with
 Files
