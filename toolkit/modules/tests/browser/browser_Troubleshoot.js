@@ -1072,6 +1072,10 @@ type
 "
 object
 "
+properties
+:
+{
+}
 }
 graphics
 :
