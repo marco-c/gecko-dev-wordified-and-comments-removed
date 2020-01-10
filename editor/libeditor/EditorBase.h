@@ -413,6 +413,9 @@ class
 ListItemElementSelectionState
 ;
 class
+ParagraphStateAtSelection
+;
+class
 PlaceholderTransaction
 ;
 class
@@ -6697,6 +6700,10 @@ ListElementSelectionState
 friend
 class
 ListItemElementSelectionState
+;
+friend
+class
+ParagraphStateAtSelection
 ;
 friend
 class

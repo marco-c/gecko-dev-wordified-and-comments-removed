@@ -1478,9 +1478,6 @@ none
 .
 *
 /
-[
-can_run_script
-]
 AString
 getParagraphState
 (
