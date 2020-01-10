@@ -1003,9 +1003,7 @@ docIdentifier
 =
 shEntry
 .
-BFCacheEntry
-.
-ID
+bfcacheID
 ;
 if
 (

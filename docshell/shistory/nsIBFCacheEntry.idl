@@ -151,15 +151,5 @@ RemoveFromBFCacheAsync
 (
 )
 ;
-[
-infallible
-]
-readonly
-attribute
-unsigned
-long
-long
-ID
-;
 }
 ;
