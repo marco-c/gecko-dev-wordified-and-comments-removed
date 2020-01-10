@@ -268,6 +268,7 @@ CERT_FreeNicknames
 CERT_GenTime2FormattedAscii_Util
 CERT_GetCertChainFromCert
 CERT_GetCertEmailAddress
+CERT_GetCertificateDer
 CERT_GetCertificateRequestExtensions
 CERT_GetCertKeyType
 CERT_GetCertTimes
@@ -585,6 +586,7 @@ PK11_PubWrapSymKey
 PK11_RandomUpdate
 PK11_ReadRawAttribute
 PK11_ReferenceSlot
+PK11_ReferenceSymKey
 PK11_ResetToken
 PK11SDR_Decrypt
 PK11SDR_Encrypt
@@ -829,6 +831,7 @@ SGN_DestroyDigestInfo_Util
 SGN_End
 SGN_NewContext
 SGN_Update
+SSL_AlertSentCallback
 SSL_AuthCertificateComplete
 SSL_AuthCertificateHook
 SSL_CipherPrefGet
