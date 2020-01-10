@@ -2301,11 +2301,6 @@ return
 allocationMetadataBuilder_
 ;
 }
-bool
-isRecordingAllocations
-(
-)
-;
 void
 setAllocationMetadataBuilder
 (

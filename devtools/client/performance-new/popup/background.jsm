@@ -1153,9 +1153,6 @@ false
 jstracer
 :
 false
-jsallocations
-:
-false
 }
 ;
 if
