@@ -93,6 +93,9 @@ DIRS
 addon
 '
 '
+descriptors
+'
+'
 targets
 '
 '
