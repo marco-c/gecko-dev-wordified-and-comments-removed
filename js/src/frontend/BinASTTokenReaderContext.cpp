@@ -7549,7 +7549,7 @@ template
 typename
 T
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -7561,7 +7561,7 @@ Iterator
 Iterator
 (
 typename
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -7590,7 +7590,7 @@ template
 typename
 T
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -7602,7 +7602,7 @@ Iterator
 Iterator
 (
 typename
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -7632,7 +7632,7 @@ typename
 T
 >
 void
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -7655,7 +7655,7 @@ match
 ]
 (
 typename
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -7679,7 +7679,7 @@ operator
 ]
 (
 typename
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -7708,7 +7708,7 @@ typename
 T
 >
 bool
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -7722,7 +7722,7 @@ operator
 =
 (
 const
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -7745,7 +7745,7 @@ other
 (
 const
 typename
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -7768,7 +7768,7 @@ template
 as
 <
 typename
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -7786,7 +7786,7 @@ other
 (
 const
 typename
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -7809,7 +7809,7 @@ template
 as
 <
 typename
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -7830,7 +7830,7 @@ typename
 T
 >
 bool
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -7844,7 +7844,7 @@ operator
 =
 (
 const
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -7867,7 +7867,7 @@ other
 (
 const
 typename
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -7890,7 +7890,7 @@ template
 as
 <
 typename
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -7908,7 +7908,7 @@ other
 (
 const
 typename
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -7931,7 +7931,7 @@ template
 as
 <
 typename
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -7954,7 +7954,7 @@ T
 const
 T
 *
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -7979,7 +7979,7 @@ match
 (
 const
 typename
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -8004,7 +8004,7 @@ operator
 (
 const
 typename
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -8032,13 +8032,13 @@ template
 typename
 T
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
 :
 :
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 (
 JSContext
 *
@@ -8064,7 +8064,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8085,22 +8085,13 @@ match
 [
 ]
 (
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
 &
 implementation
 )
--
->
-JS
-:
-:
-Result
-<
-Ok
->
 {
 return
 implementation
@@ -8113,22 +8104,13 @@ initComplete
 [
 ]
 (
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
 &
 implementation
 )
--
->
-JS
-:
-:
-Result
-<
-Ok
->
 {
 return
 implementation
@@ -8144,29 +8126,15 @@ initComplete
 HuffmanTableUnreachable
 &
 )
--
->
-JS
-:
-:
-Result
-<
-Ok
->
 {
 MOZ_CRASH
 (
 "
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 is
 unitialized
 !
 "
-)
-;
-return
-Ok
-(
 )
 ;
 }
@@ -8179,14 +8147,14 @@ typename
 T
 >
 typename
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
 :
 :
 Iterator
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8209,7 +8177,7 @@ match
 ]
 (
 const
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -8218,7 +8186,7 @@ implementation
 )
 -
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8241,7 +8209,7 @@ begin
 ]
 (
 const
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -8250,7 +8218,7 @@ implementation
 )
 -
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8278,7 +8246,7 @@ HuffmanTableUnreachable
 )
 -
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8289,7 +8257,7 @@ Iterator
 MOZ_CRASH
 (
 "
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 is
 unitialized
 !
@@ -8306,14 +8274,14 @@ typename
 T
 >
 typename
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
 :
 :
 Iterator
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8336,7 +8304,7 @@ match
 ]
 (
 const
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -8345,7 +8313,7 @@ implementation
 )
 -
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8368,7 +8336,7 @@ end
 ]
 (
 const
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -8377,7 +8345,7 @@ implementation
 )
 -
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8405,7 +8373,7 @@ HuffmanTableUnreachable
 )
 -
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8416,7 +8384,7 @@ Iterator
 MOZ_CRASH
 (
 "
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 is
 unitialized
 !
@@ -8439,7 +8407,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8483,7 +8451,7 @@ mozilla
 :
 VariantType
 <
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -8503,7 +8471,7 @@ implementation
 template
 as
 <
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -8542,7 +8510,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8590,7 +8558,7 @@ mozilla
 MaxValue
 <
 typename
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -8614,7 +8582,7 @@ mozilla
 :
 VariantType
 <
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -8634,7 +8602,7 @@ implementation
 template
 as
 <
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -8664,7 +8632,7 @@ mozilla
 :
 VariantType
 <
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -8684,7 +8652,7 @@ implementation
 template
 as
 <
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -8719,7 +8687,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8759,7 +8727,7 @@ value
 )
 ]
 (
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -8808,7 +8776,7 @@ value
 )
 ]
 (
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -8862,7 +8830,7 @@ Ok
 MOZ_CRASH
 (
 "
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 is
 unitialized
 !
@@ -8889,7 +8857,7 @@ const
 T
 *
 >
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 <
 T
 >
@@ -8915,7 +8883,7 @@ lookup
 ]
 (
 const
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -8945,7 +8913,7 @@ lookup
 ]
 (
 const
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -8989,7 +8957,7 @@ T
 MOZ_CRASH
 (
 "
-HuffmanTableImplementationGeneric
+GenericHuffmanTable
 is
 unitialized
 !
@@ -9014,7 +8982,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationNaive
+NaiveHuffmanTable
 <
 T
 N
@@ -9095,7 +9063,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationNaive
+NaiveHuffmanTable
 <
 T
 N
@@ -9161,7 +9129,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationNaive
+NaiveHuffmanTable
 <
 T
 N
@@ -9204,7 +9172,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationNaive
+NaiveHuffmanTable
 <
 T
 N
@@ -9338,7 +9306,7 @@ const
 T
 *
 >
-HuffmanTableImplementationNaive
+NaiveHuffmanTable
 <
 T
 N
@@ -9457,7 +9425,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -9553,7 +9521,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -9630,7 +9598,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -9709,7 +9677,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -9825,7 +9793,7 @@ const
 T
 *
 >
-HuffmanTableImplementationMap
+MapBasedHuffmanTable
 <
 T
 >
@@ -9933,7 +9901,7 @@ template
 typename
 T
 >
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -9965,7 +9933,7 @@ typename
 T
 >
 void
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -9993,7 +9961,7 @@ T
 const
 T
 *
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -10022,7 +9990,7 @@ typename
 T
 >
 bool
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -10057,7 +10025,7 @@ typename
 T
 >
 bool
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -10098,7 +10066,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -10197,7 +10165,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -10333,7 +10301,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -10448,7 +10416,7 @@ Result
 <
 Ok
 >
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
@@ -10675,7 +10643,7 @@ const
 T
 *
 >
-HuffmanTableImplementationSaturated
+SingleLookupHuffmanTable
 <
 T
 >
