@@ -184,7 +184,7 @@ code
 top_
 )
 ;
-int32_t
+BytecodeOffsetDiff
 offset
 =
 bce_
@@ -213,6 +213,10 @@ SET_CODE_OFFSET
 (
 labelpc
 offset
+.
+value
+(
+)
 )
 ;
 if

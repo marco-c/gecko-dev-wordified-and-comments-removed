@@ -7,6 +7,13 @@ frontend_SourceNotes_h
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 stdint
 .
 h

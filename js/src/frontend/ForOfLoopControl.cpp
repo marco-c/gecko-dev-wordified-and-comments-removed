@@ -559,7 +559,7 @@ CompletionKind
 completionKind
 )
 {
-ptrdiff_t
+BytecodeOffset
 start
 =
 bce
@@ -594,7 +594,7 @@ return
 false
 ;
 }
-ptrdiff_t
+BytecodeOffset
 end
 =
 bce
@@ -664,7 +664,7 @@ EmitterScope
 currentScope
 bool
 isTarget
-ptrdiff_t
+BytecodeOffset
 *
 tryNoteStart
 )

@@ -161,12 +161,6 @@ Try
 )
 ;
 }
-finallyStart_
-.
-offset
-=
-0
-;
 }
 bool
 TryEmitter
@@ -389,7 +383,10 @@ offset
 -
 tryStart_
 +
+BytecodeOffsetDiff
+(
 JSOP_TRY_LENGTH
+)
 )
 )
 {

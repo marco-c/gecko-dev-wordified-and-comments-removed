@@ -41,6 +41,15 @@ include
 "
 frontend
 /
+BytecodeOffset
+.
+h
+"
+#
+include
+"
+frontend
+/
 EmitterScope
 .
 h
@@ -474,10 +483,8 @@ PropertyEmitter
 {
 private
 :
-ptrdiff_t
+BytecodeOffset
 top_
-=
-0
 ;
 #
 ifdef

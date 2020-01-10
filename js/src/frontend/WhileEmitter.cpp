@@ -171,8 +171,12 @@ JumpTarget
 top
 =
 {
--
-1
+BytecodeOffset
+:
+:
+invalidOffset
+(
+)
 }
 ;
 if
