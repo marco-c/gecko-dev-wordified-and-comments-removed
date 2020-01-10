@@ -76,9 +76,7 @@ Button
 "
 ;
 import
-{
 ConditionalWrapper
-}
 from
 "
 .

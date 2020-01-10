@@ -73,7 +73,6 @@ com
 kitze
 /
 23d82bb9eb0baabfd03a6a720b1d637f
-export
 const
 ConditionalWrapper
 =
@@ -94,4 +93,8 @@ children
 )
 :
 children
+;
+export
+default
+ConditionalWrapper
 ;

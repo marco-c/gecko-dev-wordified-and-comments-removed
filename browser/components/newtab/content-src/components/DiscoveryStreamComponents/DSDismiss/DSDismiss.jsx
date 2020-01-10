@@ -400,6 +400,13 @@ this
 .
 offHover
 }
+aria
+-
+label
+=
+"
+dismiss
+"
 >
 <
 span
