@@ -48,7 +48,7 @@ Grid
 *
 aParent
 const
-nsString
+nsDependentCSubstring
 &
 aName
 GridDeclaration
@@ -111,6 +111,15 @@ mParent
 void
 GetName
 (
+nsCString
+&
+aName
+)
+const
+;
+void
+GetName
+(
 nsString
 &
 aName
@@ -156,7 +165,7 @@ Grid
 mParent
 ;
 const
-nsString
+nsCString
 mName
 ;
 const

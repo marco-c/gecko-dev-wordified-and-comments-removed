@@ -5646,7 +5646,7 @@ aResult
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aLineNames
@@ -5687,10 +5687,13 @@ nsStyleUtil
 :
 AppendEscapedCSSIdent
 (
+NS_ConvertUTF8toUTF16
+(
 aLineNames
 [
 i
 ]
+)
 aResult
 )
 ;
@@ -5729,7 +5732,7 @@ aValueList
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aLineNames
@@ -5821,14 +5824,14 @@ aValueList
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aLineNames1
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aLineNames2
@@ -7122,7 +7125,7 @@ mRepeatAutoIndex
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 lineNames
@@ -7208,7 +7211,7 @@ LinesPrecede
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 lineNames
@@ -7284,7 +7287,7 @@ i
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 lineNames
@@ -7309,7 +7312,7 @@ else
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 lineNames
@@ -7448,7 +7451,7 @@ i
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 lineNames
@@ -8034,9 +8037,12 @@ nsStyleUtil
 :
 AppendEscapedCSSIdent
 (
+NS_ConvertUTF8toUTF16
+(
 aGridLine
 .
 mLineName
+)
 escapedLineName
 )
 ;

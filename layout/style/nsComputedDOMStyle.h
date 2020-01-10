@@ -908,7 +908,7 @@ aResult
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aLineNames
@@ -923,7 +923,7 @@ aValueList
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aLineNames
@@ -942,14 +942,14 @@ aValueList
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aLineNames1
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aLineNames2

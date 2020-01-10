@@ -6567,6 +6567,15 @@ Auto
 (
 )
 )
+mGridTemplateAreas
+(
+StyleGridTemplateAreas
+:
+:
+None
+(
+)
+)
 mColumnGap
 (
 NonNegativeLengthPercentageOrNormal
