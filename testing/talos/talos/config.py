@@ -137,10 +137,6 @@ tphero
 =
 False
         
-pdfpaint
-=
-True
-        
 fnbpaint
 =
 False
@@ -264,10 +260,6 @@ tphero
     
 '
 fnbpaint
-'
-    
-'
-pdfpaint
 '
     
 '
@@ -1131,17 +1123,6 @@ fnbpaint
 None
 )
     
-pdfPaint
-=
-getattr
-(
-test_instance
-'
-pdfpaint
-'
-None
-)
-    
 test_instance
 .
 update
@@ -1215,19 +1196,6 @@ test_instance
 tphero
 =
 hero
-    
-if
-pdfPaint
-is
-not
-None
-:
-        
-test_instance
-.
-pdfpaint
-=
-pdfPaint
     
 url
 =
