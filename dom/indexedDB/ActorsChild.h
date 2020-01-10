@@ -2488,16 +2488,6 @@ IndexCursorResponse
 aResponses
 )
 ;
-StructuredCloneReadInfo
-PrepareCloneReadInfo
-(
-SerializedStructuredCloneReadInfo
-&
-&
-aCloneInfo
-)
-const
-;
 template
 <
 typename
