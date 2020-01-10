@@ -844,6 +844,16 @@ targetFront
 )
 )
 {
+if
+(
+targetFront
+!
+=
+this
+.
+targetFront
+)
+{
 console
 .
 error
@@ -860,6 +870,7 @@ TargetList
 targetFront
 )
 ;
+}
 return
 ;
 }
