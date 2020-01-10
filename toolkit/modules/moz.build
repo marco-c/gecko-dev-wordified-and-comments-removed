@@ -1603,11 +1603,6 @@ WebChannel
 .
 jsm
 '
-'
-ZipUtils
-.
-jsm
-'
 ]
 if
 CONFIG
