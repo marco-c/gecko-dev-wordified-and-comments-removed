@@ -262,11 +262,6 @@ customGetter
 :
 true
 }
-autofocus
-:
-"
-boolean
-"
 defaultChecked
 :
 {
@@ -595,11 +590,6 @@ string
 button
 :
 {
-autofocus
-:
-"
-boolean
-"
 disabled
 :
 "
@@ -749,11 +739,6 @@ customGetter
 :
 true
 }
-autofocus
-:
-"
-boolean
-"
 disabled
 :
 "
@@ -868,11 +853,6 @@ customGetter
 :
 true
 }
-autofocus
-:
-"
-boolean
-"
 cols
 :
 {
