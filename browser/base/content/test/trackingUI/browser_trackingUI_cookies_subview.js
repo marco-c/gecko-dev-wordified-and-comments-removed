@@ -249,7 +249,7 @@ tab
 linkedBrowser
 ;
 await
-openIdentityPopup
+openProtectionsPopup
 (
 )
 ;
@@ -711,7 +711,7 @@ document
 getElementById
 (
 "
-identity
+protections
 -
 popup
 -
@@ -1795,7 +1795,7 @@ waitForContentBlockingEvent
 )
 ;
 await
-openIdentityPopup
+openProtectionsPopup
 (
 )
 ;
@@ -2546,7 +2546,7 @@ window
 )
 ;
 await
-openIdentityPopup
+openProtectionsPopup
 (
 )
 ;
@@ -3089,7 +3089,7 @@ waitForContentBlockingEvent
 )
 ;
 await
-openIdentityPopup
+openProtectionsPopup
 (
 )
 ;
