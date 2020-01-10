@@ -85,7 +85,7 @@ css
 color
 /
 #
-opacity
+transparency
 "
 servo_restyle_damage
 =

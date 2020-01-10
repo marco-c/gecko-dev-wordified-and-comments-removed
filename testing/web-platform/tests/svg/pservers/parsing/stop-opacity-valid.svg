@@ -274,6 +274,10 @@ opacity
 100
 %
 "
+"
+-
+1
+"
 )
 ;
 test_valid_value
@@ -287,6 +291,11 @@ opacity
 50
 %
 "
+"
+0
+.
+5
+"
 )
 ;
 test_valid_value
@@ -299,6 +308,9 @@ opacity
 "
 300
 %
+"
+"
+3
 "
 )
 ;
