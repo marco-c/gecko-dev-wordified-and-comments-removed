@@ -94,6 +94,9 @@ MPL
 *
 /
 include
+GraphicsMessages
+;
+include
 MemoryReportTypes
 ;
 include
@@ -197,6 +200,10 @@ parent
 async
 Init
 (
+GfxVarUpdate
+[
+]
+vars
 FileDescriptor
 ?
 sandboxBroker
@@ -243,6 +250,13 @@ PreferenceUpdate
 (
 Pref
 pref
+)
+;
+async
+UpdateVar
+(
+GfxVarUpdate
+var
 )
 ;
 async
