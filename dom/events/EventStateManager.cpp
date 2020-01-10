@@ -1495,7 +1495,12 @@ gUserInteractionTimer
 InitWithCallback
 (
 gUserInteractionTimerCallback
-NS_USER_INTERACTION_INTERVAL
+StaticPrefs
+:
+:
+dom_events_user_interaction_interval
+(
+)
 nsITimer
 :
 :

@@ -114,13 +114,6 @@ CycleCollectorResults
 }
 #
 define
-NS_GC_DELAY
-4000
-/
-/
-ms
-#
-define
 NS_MAJOR_FORGET_SKIPPABLE_CALLS
 5
 class
@@ -404,7 +397,7 @@ aReason
 JSObject
 *
 aObj
-int
+uint32_t
 aDelay
 =
 0
