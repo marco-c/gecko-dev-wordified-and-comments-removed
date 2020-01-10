@@ -758,6 +758,9 @@ TARGET_PAGE
 "
 _blank
 "
+"
+noopener
+"
 )
 ;
 let
@@ -801,6 +804,7 @@ no
 status
 =
 no
+noopener
 "
 ;
 let

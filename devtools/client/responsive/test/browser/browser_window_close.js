@@ -39,6 +39,10 @@ utf
 "
 _blank
 "
+"
+noopener
+all
+"
 )
 ;
 const
