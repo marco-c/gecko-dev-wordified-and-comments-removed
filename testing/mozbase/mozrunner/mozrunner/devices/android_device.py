@@ -3317,6 +3317,9 @@ process_iter
 )
 :
             
+try
+:
+                
 name
 =
 proc
@@ -3324,7 +3327,7 @@ proc
 name
 (
 )
-            
+                
 if
 name
 and
@@ -3337,9 +3340,34 @@ emulator
 '
 )
 :
-                
+                    
 return
 True
+            
+except
+Exception
+as
+e
+:
+                
+_log_debug
+(
+"
+failed
+to
+get
+process
+name
+:
+%
+s
+"
+%
+str
+(
+e
+)
+)
         
 return
 False
