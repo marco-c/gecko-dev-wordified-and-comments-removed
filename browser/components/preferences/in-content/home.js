@@ -1485,6 +1485,12 @@ id
 )
 ;
 }
+HomePage
+.
+clear
+(
+)
+;
 this
 .
 _renderCustomSettings
