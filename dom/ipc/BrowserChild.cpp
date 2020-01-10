@@ -12182,7 +12182,6 @@ false
 RecvRenderLayers
 (
 mPendingRenderLayers
-false
 mPendingLayersObserverEpoch
 )
 ;
@@ -12290,10 +12289,6 @@ const
 bool
 &
 aEnabled
-const
-bool
-&
-aForceRepaint
 const
 layers
 :
@@ -12438,12 +12433,6 @@ IsVisible
 {
 if
 (
-!
-aForceRepaint
-)
-{
-if
-(
 IPCOpen
 (
 )
@@ -12457,7 +12446,6 @@ SendPaintWhileInterruptingJSNoOp
 mLayersObserverEpoch
 )
 ;
-}
 }
 return
 IPC_OK
@@ -16636,8 +16624,6 @@ layers
 LayersObserverEpoch
 &
 aEpoch
-bool
-aForceRepaint
 )
 {
 if
@@ -16680,7 +16666,6 @@ scriptBlocker
 RecvRenderLayers
 (
 true
-aForceRepaint
 aEpoch
 )
 ;

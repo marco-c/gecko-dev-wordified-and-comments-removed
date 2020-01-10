@@ -167,8 +167,6 @@ dom
 BrowserParent
 *
 aTab
-bool
-aForceRepaint
 const
 layers
 :

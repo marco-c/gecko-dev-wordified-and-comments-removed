@@ -2907,8 +2907,6 @@ layers
 LayersObserverEpoch
 &
 aEpoch
-bool
-aForceRepaint
 )
 ;
 nsresult
@@ -3221,10 +3219,6 @@ const
 bool
 &
 aEnabled
-const
-bool
-&
-aForce
 const
 layers
 :

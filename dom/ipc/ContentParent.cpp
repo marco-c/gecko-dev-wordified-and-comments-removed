@@ -28434,8 +28434,6 @@ PaintTabWhileInterruptingJS
 BrowserParent
 *
 aBrowserParent
-bool
-aForceRepaint
 const
 layers
 :
@@ -28461,7 +28459,6 @@ PaintWhileInterruptingJS
 (
 mHangMonitorActor
 aBrowserParent
-aForceRepaint
 aEpoch
 )
 ;

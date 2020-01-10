@@ -268,8 +268,6 @@ PaintWhileInterruptingJS
 (
 TabId
 tabId
-bool
-forceRepaint
 LayersObserverEpoch
 aEpoch
 )

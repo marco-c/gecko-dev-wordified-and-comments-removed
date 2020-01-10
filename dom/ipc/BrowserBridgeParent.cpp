@@ -865,10 +865,6 @@ bool
 &
 aEnabled
 const
-bool
-&
-aForceRepaint
-const
 layers
 :
 :
@@ -886,7 +882,6 @@ mBrowserParent
 SendRenderLayers
 (
 aEnabled
-aForceRepaint
 aEpoch
 )
 ;

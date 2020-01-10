@@ -596,8 +596,6 @@ RenderLayers
 (
 bool
 aEnabled
-bool
-aForceRepaint
 LayersObserverEpoch
 aEpoch
 )
