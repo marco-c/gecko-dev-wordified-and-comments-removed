@@ -586,7 +586,6 @@ serviceWorker
 ;
 if
 (
-!
 ServiceWorkerParentInterceptEnabled
 (
 )
