@@ -283,6 +283,17 @@ debug
 extras
 =
 run_info_extras
+                                    
+enable_webrender
+=
+kwargs
+.
+get
+(
+"
+enable_webrender
+"
+)
 )
     
 test_manifests

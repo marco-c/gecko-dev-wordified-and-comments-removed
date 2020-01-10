@@ -17673,6 +17673,14 @@ enabled
 '
 False
 )
+            
+"
+webrender
+"
+:
+options
+.
+enable_webrender
         
 }
 )

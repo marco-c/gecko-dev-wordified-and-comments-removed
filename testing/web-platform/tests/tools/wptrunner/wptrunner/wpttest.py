@@ -501,6 +501,10 @@ None
 extras
 =
 None
+                 
+enable_webrender
+=
+False
 )
 :
         
@@ -679,6 +683,15 @@ update
 (
 extras
 )
+        
+self
+[
+"
+webrender
+"
+]
+=
+enable_webrender
     
 def
 _update_mozinfo
