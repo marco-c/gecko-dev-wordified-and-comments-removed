@@ -1903,6 +1903,11 @@ true
 let
 tile_cache
 =
+Box
+:
+:
+new
+(
 TileCache
 :
 :
@@ -1931,6 +1936,7 @@ self
 prim_store
 .
 pictures
+)
 )
 ;
 let

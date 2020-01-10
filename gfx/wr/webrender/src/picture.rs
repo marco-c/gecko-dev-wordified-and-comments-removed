@@ -8873,7 +8873,10 @@ tile_cache
 :
 Option
 <
+Box
+<
 TileCache
+>
 >
 options
 :
@@ -9449,7 +9452,10 @@ tile_cache
 :
 Option
 <
+Box
+<
 TileCache
+>
 >
 options
 :
