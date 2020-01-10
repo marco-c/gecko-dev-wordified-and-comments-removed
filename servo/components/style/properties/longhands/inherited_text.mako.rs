@@ -553,6 +553,11 @@ overflow
 -
 wrap
 "
+flags
+=
+"
+APPLIES_TO_CUE
+"
 alias
 =
 "
