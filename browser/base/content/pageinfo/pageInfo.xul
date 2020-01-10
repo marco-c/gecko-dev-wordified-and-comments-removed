@@ -3443,6 +3443,11 @@ security
 -
 view
 "
+collapsed
+=
+"
+true
+"
 oncommand
 =
 "
