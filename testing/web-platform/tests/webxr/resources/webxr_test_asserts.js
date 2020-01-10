@@ -6,6 +6,8 @@ function
 p1
 p2
 epsilon
+=
+FLOAT_EPSILON
 prefix
 =
 "
@@ -94,6 +96,8 @@ function
 m1
 m2
 epsilon
+=
+FLOAT_EPSILON
 prefix
 =
 "
@@ -172,6 +176,8 @@ function
 r1
 r2
 epsilon
+=
+FLOAT_EPSILON
 prefix
 =
 "
