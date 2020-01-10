@@ -358,6 +358,9 @@ pref_groups
 =
 [
 '
+android
+'
+'
 consoleservice
 '
 ]
