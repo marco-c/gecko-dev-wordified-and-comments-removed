@@ -771,7 +771,7 @@ module
 continue
 ;
 }
-WindowsErrorResult
+LauncherResult
 <
 ModuleVersion
 >

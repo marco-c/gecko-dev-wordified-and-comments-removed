@@ -1475,7 +1475,7 @@ NS_IsMainThread
 )
 )
 ;
-WindowsErrorResult
+LauncherResult
 <
 ModuleVersion
 >

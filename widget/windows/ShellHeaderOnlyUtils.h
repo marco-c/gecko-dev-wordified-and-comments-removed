@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-LauncherResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WinHeaderOnlyUtils
 .
 h
