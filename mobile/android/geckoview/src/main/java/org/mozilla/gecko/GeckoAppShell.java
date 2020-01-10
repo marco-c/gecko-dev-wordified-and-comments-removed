@@ -7624,6 +7624,7 @@ getHeight
 =
 resolvedIconSize
 )
+{
 bitmap
 =
 Bitmap
@@ -7636,6 +7637,7 @@ resolvedIconSize
 true
 )
 ;
+}
 ByteBuffer
 buf
 =
