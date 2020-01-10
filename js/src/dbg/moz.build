@@ -232,6 +232,11 @@ DebuggerMemory
 cpp
 '
 '
+Frame
+.
+cpp
+'
+'
 NoExecute
 .
 cpp
