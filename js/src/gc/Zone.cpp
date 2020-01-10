@@ -767,6 +767,10 @@ keepShapeCaches_
 this
 false
 )
+wasCollected_
+(
+false
+)
 listNext_
 (
 NotOnList
