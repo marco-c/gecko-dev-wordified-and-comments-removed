@@ -893,6 +893,14 @@ aStream
 )
 ;
 void
+RemoveStream
+(
+MediaStream
+*
+aStream
+)
+;
+void
 DestroyPort
 (
 MediaInputPort
@@ -1750,6 +1758,11 @@ UniquePtr
 GraphRunner
 >
 mGraphRunner
+;
+size_t
+mMainThreadStreamCount
+=
+0
 ;
 RefPtr
 <
