@@ -68,9 +68,6 @@ all_urls
 "
 ]
 }
-isPrivileged
-:
-true
 async
 background
 (
