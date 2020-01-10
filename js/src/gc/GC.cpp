@@ -4419,7 +4419,7 @@ chunkAllocationSinceLastGC
 (
 false
 )
-lastGCTime
+lastGCTime_
 (
 ReallyNow
 (
@@ -34879,7 +34879,7 @@ schedulingState
 .
 updateHighFrequencyMode
 (
-lastGCTime
+lastGCTime_
 currentTime
 tunables
 )
@@ -35007,7 +35007,7 @@ empty
 )
 )
 ;
-lastGCTime
+lastGCTime_
 =
 currentTime
 ;
