@@ -65,4 +65,16 @@ manifest
 .
 js
 '
+'
+routing
+.
+js
+'
+'
+service
+-
+workers
+.
+js
+'
 )
