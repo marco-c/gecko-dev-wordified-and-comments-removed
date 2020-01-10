@@ -334,9 +334,7 @@ title
 JSONView
 .
 Locale
-.
-STR
-(
+[
 "
 jsonViewer
 .
@@ -344,7 +342,7 @@ tab
 .
 JSON
 "
-)
+]
 }
 JsonPanel
 (
@@ -407,9 +405,7 @@ title
 JSONView
 .
 Locale
-.
-STR
-(
+[
 "
 jsonViewer
 .
@@ -417,7 +413,7 @@ tab
 .
 RawData
 "
-)
+]
 }
 TextPanel
 (
@@ -479,9 +475,7 @@ title
 JSONView
 .
 Locale
-.
-STR
-(
+[
 "
 jsonViewer
 .
@@ -489,7 +483,7 @@ tab
 .
 Headers
 "
-)
+]
 }
 HeadersPanel
 (
