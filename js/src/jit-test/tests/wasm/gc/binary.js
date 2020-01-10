@@ -107,7 +107,10 @@ checkInvalid
 (
 invalidRefBlockType
 /
-ref
+invalid
+inline
+block
+type
 /
 )
 ;
@@ -139,7 +142,10 @@ checkInvalid
 (
 invalidTooBigRefType
 /
-ref
+invalid
+inline
+block
+type
 /
 )
 ;
