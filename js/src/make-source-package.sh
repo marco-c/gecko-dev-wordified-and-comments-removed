@@ -938,6 +938,15 @@ TOPSRCDIR
 cargo
 /
 config
+\
+{
+TOPSRCDIR
+}
+/
+.
+cargo
+/
+config
 .
 in
 \
