@@ -1339,7 +1339,8 @@ topic
 if
 (
 mExitValue
-<
+!
+=
 0
 )
 {
