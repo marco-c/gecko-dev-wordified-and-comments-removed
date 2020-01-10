@@ -123,8 +123,6 @@ version
 51
 .
 1
--
-oldsyn
 "
 authors
 =
@@ -526,9 +524,7 @@ macro2
 version
 =
 "
-0
-.
-4
+1
 "
 default
 -
@@ -543,9 +539,7 @@ quote
 version
 =
 "
-0
-.
-6
+1
 "
 default
 -

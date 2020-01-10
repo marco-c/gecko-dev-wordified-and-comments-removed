@@ -2849,8 +2849,6 @@ bindgen
 51
 .
 1
--
-oldsyn
 (
 registry
 +
@@ -3575,8 +3573,6 @@ version
 51
 .
 1
--
-oldsyn
 "
 source
 =
@@ -3786,11 +3782,11 @@ index
 proc
 -
 macro2
+1
+.
 0
 .
-4
-.
-27
+5
 (
 registry
 +
@@ -3815,11 +3811,11 @@ index
 "
 "
 quote
+1
+.
 0
 .
-6
-.
-11
+2
 (
 registry
 +
@@ -7850,8 +7846,6 @@ bindgen
 51
 .
 1
--
-oldsyn
 (
 registry
 +
@@ -19746,8 +19740,6 @@ bindgen
 51
 .
 1
--
-oldsyn
 (
 registry
 +
@@ -21617,8 +21609,6 @@ bindgen
 51
 .
 1
--
-oldsyn
 (
 registry
 +
@@ -36991,8 +36981,6 @@ bindgen
 51
 .
 1
--
-oldsyn
 (
 registry
 +
@@ -51142,8 +51130,6 @@ bindgen
 51
 .
 1
--
-oldsyn
 (
 registry
 +
@@ -51168,7 +51154,7 @@ index
 "
 =
 "
-ae8266cdd336dfd53d71a95c33251232f64553b8770ebd85158039b3a734244b
+ebd71393f1ec0509b553aa012b9b58e81dadbdff7130bd3b8cba576e69b32f75
 "
 "
 checksum

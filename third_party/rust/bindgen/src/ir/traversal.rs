@@ -1521,6 +1521,7 @@ takes_by_trait_object
 _
 :
 &
+dyn
 TraversalPredicate
 )
 {
