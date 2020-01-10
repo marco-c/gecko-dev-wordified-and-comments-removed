@@ -3948,13 +3948,8 @@ readHuffmanPrelude
 )
 ;
 return
-raiseError
+Ok
 (
-"
-Not
-Yet
-Implemented
-"
 )
 ;
 }
