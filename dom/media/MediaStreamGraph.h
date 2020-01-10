@@ -136,6 +136,9 @@ mozilla
 class
 AsyncLogger
 ;
+class
+AudioCaptureStream
+;
 }
 ;
 extern
@@ -684,16 +687,6 @@ aRunnable
 virtual
 void
 Destroy
-(
-)
-;
-void
-RegisterUser
-(
-)
-;
-void
-UnregisterUser
 (
 )
 ;
@@ -1597,9 +1590,6 @@ mFinishedNotificationSent
 ;
 bool
 mMainThreadDestroyed
-;
-int
-mNrOfMainThreadUsers
 ;
 MediaStreamGraphImpl
 *
@@ -3047,7 +3037,7 @@ CreateTrackUnionStream
 (
 )
 ;
-ProcessedMediaStream
+AudioCaptureStream
 *
 CreateAudioCaptureStream
 (

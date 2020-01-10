@@ -85,7 +85,7 @@ nsAString
 aLanguage
 VideoStreamTrack
 *
-aStreamTarck
+aStreamTrack
 )
 :
 MediaTrack
@@ -102,7 +102,7 @@ false
 )
 mVideoStreamTrack
 (
-aStreamTarck
+aStreamTrack
 )
 {
 }
@@ -113,8 +113,9 @@ VideoTrack
 VideoTrack
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 VideoTrack

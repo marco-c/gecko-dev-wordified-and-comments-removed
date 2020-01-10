@@ -192,12 +192,6 @@ DOMMediaStream
 >
 mDOMStream
 ;
-RefPtr
-<
-MediaInputPort
->
-mPort
-;
 }
 ;
 }

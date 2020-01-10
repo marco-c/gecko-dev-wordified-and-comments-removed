@@ -843,6 +843,11 @@ MediaStreamTypes
 h
 '
 '
+MediaStreamWindowCapturer
+.
+h
+'
+'
 MediaTimer
 .
 h
@@ -1402,6 +1407,11 @@ cpp
 '
 '
 MediaStreamTrack
+.
+cpp
+'
+'
+MediaStreamWindowCapturer
 .
 cpp
 '
