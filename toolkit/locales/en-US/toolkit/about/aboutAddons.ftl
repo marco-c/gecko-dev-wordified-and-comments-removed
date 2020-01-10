@@ -2753,14 +2753,6 @@ addon
 button
 =
 Enable
-expand
--
-addon
--
-button
-=
-More
-Options
 preferences
 -
 addon
