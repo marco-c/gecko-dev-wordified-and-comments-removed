@@ -199,7 +199,7 @@ CSMLog
 ;
 static
 nsLiteralCString
-evalWhitelist
+evalAllowlist
 [
 ]
 =
@@ -1053,9 +1053,9 @@ for
 const
 nsLiteralCString
 &
-whitelistEntry
+allowlistEntry
 :
-evalWhitelist
+evalAllowlist
 )
 {
 if
@@ -1064,7 +1064,7 @@ fileName_
 .
 Equals
 (
-whitelistEntry
+allowlistEntry
 )
 )
 {
