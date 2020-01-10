@@ -297,6 +297,14 @@ average
 window
 )
 ;
+if
+(
+aResult
+!
+=
+newValue
+)
+{
 storage
 -
 >
@@ -307,6 +315,7 @@ aKey
 newValue
 )
 ;
+}
 }
 [
 ]
