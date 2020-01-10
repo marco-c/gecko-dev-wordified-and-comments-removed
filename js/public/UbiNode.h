@@ -1696,6 +1696,16 @@ LAST
 DOMNode
 }
 ;
+JS_PUBLIC_API
+const
+char
+*
+CoarseTypeToString
+(
+CoarseType
+type
+)
+;
 inline
 uint32_t
 CoarseTypeToUint32
