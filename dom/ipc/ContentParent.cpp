@@ -14024,6 +14024,7 @@ pluginHost
 >
 SendPluginsToContent
 (
+this
 )
 ;
 MaybeEnableRemoteInputEventQueue
