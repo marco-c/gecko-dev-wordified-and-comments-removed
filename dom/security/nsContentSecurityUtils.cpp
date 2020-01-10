@@ -2666,6 +2666,14 @@ about
 printpreview
 "
 )
+NS_LITERAL_CSTRING
+(
+"
+about
+:
+logo
+"
+)
 #
 if
 defined
