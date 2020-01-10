@@ -133,16 +133,6 @@ MOZ_ANDROID_HISTORY
 '
 ]
 :
-SOURCES
-+
-=
-[
-'
-nsAndroidHistory
-.
-cpp
-'
-]
 LOCAL_INCLUDES
 +
 =
