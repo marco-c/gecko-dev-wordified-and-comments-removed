@@ -248,6 +248,15 @@ GetEGLNativeWindow
 )
 ;
 void
+SetEGLNativeWindowSize
+(
+const
+LayoutDeviceIntSize
+&
+aEGLWindowSize
+)
+;
+void
 NotifyClientSizeChanged
 (
 const
