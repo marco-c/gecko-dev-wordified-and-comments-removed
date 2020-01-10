@@ -28046,9 +28046,18 @@ mIsClosed
 =
 true
 ;
-GetBrowsingContext
+if
+(
+!
+mBrowsingContext
+-
+>
+IsDiscarded
 (
 )
+)
+{
+mBrowsingContext
 -
 >
 SetClosed
@@ -28056,6 +28065,7 @@ SetClosed
 true
 )
 ;
+}
 if
 (
 XRE_GetProcessType
