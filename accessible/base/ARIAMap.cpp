@@ -176,8 +176,8 @@ banner
 roles
 :
 :
-NOTHING
-kUseNativeRole
+LANDMARK
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -317,8 +317,8 @@ complementary
 roles
 :
 :
-NOTHING
-kUseNativeRole
+LANDMARK
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -333,8 +333,8 @@ contentinfo
 roles
 :
 :
-NOTHING
-kUseNativeRole
+LANDMARK
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1342,8 +1342,8 @@ main
 roles
 :
 :
-NOTHING
-kUseNativeRole
+LANDMARK
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1482,8 +1482,8 @@ navigation
 roles
 :
 :
-NOTHING
-kUseNativeRole
+LANDMARK
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
@@ -1722,8 +1722,8 @@ search
 roles
 :
 :
-NOTHING
-kUseNativeRole
+LANDMARK
+kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
