@@ -149,9 +149,6 @@ mState
 uint32_t
 mEvent
 ;
-bool
-mIsSecureContext
-;
 nsWeakPtr
 mDocShell
 ;

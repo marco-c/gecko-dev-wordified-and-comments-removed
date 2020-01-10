@@ -146,11 +146,6 @@ contentBlockingEvent
 ;
 readonly
 attribute
-bool
-isSecureContext
-;
-readonly
-attribute
 nsITransportSecurityInfo
 secInfo
 ;
