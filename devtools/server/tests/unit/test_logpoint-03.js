@@ -191,7 +191,7 @@ line
 logValue
 :
 "
-a
+c
 "
 }
 )
@@ -259,7 +259,7 @@ lastMessage
 .
 level
 "
-logPoint
+logPointError
 "
 )
 ;
@@ -274,7 +274,15 @@ arguments
 0
 ]
 "
-three
+[
+Logpoint
+threw
+]
+:
+c
+is
+not
+defined
 "
 )
 ;
