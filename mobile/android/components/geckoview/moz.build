@@ -170,6 +170,11 @@ GeckoViewPrompt
 js
 '
 '
+GeckoViewPush
+.
+js
+'
+'
 GeckoViewStartup
 .
 js
