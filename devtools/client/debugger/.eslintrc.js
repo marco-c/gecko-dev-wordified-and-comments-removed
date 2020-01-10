@@ -1377,13 +1377,6 @@ whitespace
 "
 no
 -
-iterator
-"
-:
-0
-"
-no
--
 label
 -
 var

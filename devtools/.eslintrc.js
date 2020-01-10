@@ -1875,15 +1875,6 @@ off
 "
 no
 -
-iterator
-"
-:
-"
-off
-"
-"
-no
--
 label
 -
 var
