@@ -506,6 +506,11 @@ onTableDestroyed
 (
 )
 ;
+if
+(
+hashTable
+)
+{
 alloc
 .
 free_
@@ -516,6 +521,7 @@ hashBuckets
 )
 )
 ;
+}
 freeData
 (
 data
