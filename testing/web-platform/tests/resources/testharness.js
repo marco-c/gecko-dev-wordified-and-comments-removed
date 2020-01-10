@@ -2317,7 +2317,7 @@ var
 msg
 =
 "
-test
+Test
 named
 \
 "
