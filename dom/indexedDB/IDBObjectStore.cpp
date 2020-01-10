@@ -11775,6 +11775,10 @@ openParams
 ;
 openParams
 .
+commonParams
+(
+)
+.
 objectStoreId
 (
 )
@@ -11782,6 +11786,10 @@ objectStoreId
 objectStoreId
 ;
 openParams
+.
+commonParams
+(
+)
 .
 optionalKeyRange
 (
@@ -11796,6 +11804,10 @@ optionalKeyRange
 )
 ;
 openParams
+.
+commonParams
+(
+)
 .
 direction
 (
@@ -11821,6 +11833,10 @@ openParams
 ;
 openParams
 .
+commonParams
+(
+)
+.
 objectStoreId
 (
 )
@@ -11828,6 +11844,10 @@ objectStoreId
 objectStoreId
 ;
 openParams
+.
+commonParams
+(
+)
 .
 optionalKeyRange
 (
@@ -11842,6 +11862,10 @@ optionalKeyRange
 )
 ;
 openParams
+.
+commonParams
+(
+)
 .
 direction
 (
