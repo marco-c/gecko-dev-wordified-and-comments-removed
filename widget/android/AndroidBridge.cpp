@@ -3933,17 +3933,6 @@ GetScreenOrientation
 (
 )
 ;
-if
-(
-!
-orientation
-)
-return
-hal
-:
-:
-eScreenOrientation_None
-;
 return
 static_cast
 <
