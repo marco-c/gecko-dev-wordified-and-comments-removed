@@ -57,11 +57,11 @@ filename
 "
 android
 -
-sdk_r29
+sdk_r28
 .
 0
 .
-11
+25
 .
 0
 -
@@ -85,14 +85,14 @@ digest
 "
 :
 "
-954d6c7ecf3e10468ae0ca8d97f930eb1e1665ddf5d9317dd4bb8fbc13271cf12c4e343170aee782c33f1b6e15e5915f62c9e4a2a66eb32cc0b919cd6fb9659b
+e62acc91f41ccef65a4937a2672fcb56362e9946b806bacc25854035b57d5bd2d525a9c7d660a643ab6381ae2e3b660be7fea70e302ed314c4b07880b2328e18
 "
             
 "
 size
 "
 :
-330652164
+241459387
         
 }
         
@@ -116,11 +116,9 @@ emulator_process_name
 "
 :
 "
-qemu
+emulator64
 -
-system
--
-x86_64
+x86
 "
     
 "
@@ -130,7 +128,7 @@ emulator_extra_args
 "
 -
 gpu
-on
+swiftshader_indirect
 -
 skip
 -
@@ -143,6 +141,12 @@ verbose
 show
 -
 kernel
+-
+use
+-
+system
+-
+libs
 -
 ranchu
 -
