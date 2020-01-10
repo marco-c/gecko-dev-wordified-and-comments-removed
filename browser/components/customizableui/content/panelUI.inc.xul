@@ -7924,11 +7924,12 @@ oncommand
 "
 gSync
 .
-openDevicesManagementPage
+openPrefsFromFxaMenu
 (
 '
-fxamenu
+sync_settings
 '
+this
 )
 ;
 "
