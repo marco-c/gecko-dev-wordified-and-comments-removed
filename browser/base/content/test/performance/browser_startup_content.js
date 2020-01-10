@@ -38,7 +38,7 @@ resource
 /
 specialpowers
 /
-SpecialPowers
+SpecialPowersChild
 .
 jsm
 "
@@ -408,17 +408,6 @@ new
 Set
 (
 [
-"
-resource
-:
-/
-/
-specialpowers
-/
-specialpowersFrameScript
-.
-js
-"
 "
 chrome
 :
