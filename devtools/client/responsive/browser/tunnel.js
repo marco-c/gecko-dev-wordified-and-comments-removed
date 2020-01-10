@@ -1400,10 +1400,6 @@ MessageChannel
 :
 "
 "
-PageInfo
-:
-"
-"
 Printing
 :
 "
@@ -1425,10 +1421,6 @@ Finder
 "
 "
 MessageChannel
-:
-"
-"
-PageInfo
 :
 "
 "

@@ -6838,7 +6838,9 @@ null
 null
 this
 .
-frameOuterWindowID
+actor
+.
+browsingContext
 this
 .
 browser

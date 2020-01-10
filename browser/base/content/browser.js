@@ -14701,7 +14701,7 @@ BrowserPageInfo
 documentURL
 initialTab
 imageElement
-frameOuterWindowID
+browsingContext
 browser
 )
 {
@@ -14773,7 +14773,7 @@ args
 {
 initialTab
 imageElement
-frameOuterWindowID
+browsingContext
 browser
 }
 ;
