@@ -152,6 +152,7 @@ window
 .
 onload
 =
+async
 function
 (
 )
@@ -182,13 +183,12 @@ window3
 "
 )
 ;
-xpcWaitForFinishedFrames
+await
+waitForFinishedFrames
 (
-async
-function
-(
+4
 )
-{
+;
 await
 isNavigated
 (
@@ -287,7 +287,8 @@ close
 (
 )
 ;
-xpcCleanupWindows
+await
+cleanupWindows
 (
 )
 ;
@@ -295,10 +296,6 @@ SimpleTest
 .
 finish
 (
-)
-;
-}
-4
 )
 ;
 }

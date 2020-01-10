@@ -153,6 +153,7 @@ window
 .
 onload
 =
+async
 function
 (
 )
@@ -191,13 +192,12 @@ child3_child0
 "
 )
 ;
-xpcWaitForFinishedFrames
+await
+waitForFinishedFrames
 (
-async
-function
-(
+4
 )
-{
+;
 await
 isNavigated
 (
@@ -316,7 +316,8 @@ hyperlink
 "
 )
 ;
-xpcCleanupWindows
+await
+cleanupWindows
 (
 )
 ;
@@ -324,10 +325,6 @@ SimpleTest
 .
 finish
 (
-)
-;
-}
-4
 )
 ;
 }

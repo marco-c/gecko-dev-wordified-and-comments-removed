@@ -125,6 +125,7 @@ style
 <
 script
 >
+async
 function
 runTest
 (
@@ -161,12 +162,12 @@ window3_child0
 "
 )
 ;
-xpcWaitForFinishedFrames
+await
+waitForFinishedFrames
 (
-function
-(
+4
 )
-{
+;
 isInaccessible
 (
 window0
@@ -297,7 +298,8 @@ close
 (
 )
 ;
-xpcCleanupWindows
+await
+cleanupWindows
 (
 )
 ;
@@ -305,10 +307,6 @@ SimpleTest
 .
 finish
 (
-)
-;
-}
-4
 )
 ;
 }
