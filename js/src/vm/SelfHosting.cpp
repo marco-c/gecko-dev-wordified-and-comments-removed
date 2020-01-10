@@ -16641,7 +16641,7 @@ nullptr
 }
 static
 const
-ClassOps
+JSClassOps
 shgClassOps
 =
 {

@@ -1886,7 +1886,7 @@ proto
 }
 static
 const
-ClassOps
+JSClassOps
 SavedFrameClassOps
 =
 {

@@ -1487,7 +1487,7 @@ trc
 }
 static
 const
-ClassOps
+JSClassOps
 ForOfPICClassOps
 =
 {

@@ -2293,10 +2293,7 @@ toPrivate
 ;
 static
 const
-js
-:
-:
-ClassOps
+JSClassOps
 FileObjectClassOps
 =
 {

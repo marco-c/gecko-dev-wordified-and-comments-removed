@@ -13529,7 +13529,7 @@ finalize
 }
 static
 const
-ClassOps
+JSClassOps
 ReadableByteStreamControllerClassOps
 =
 {

@@ -395,7 +395,7 @@ mozilla
 Some
 ;
 const
-ClassOps
+JSClassOps
 DebuggerScript
 :
 :

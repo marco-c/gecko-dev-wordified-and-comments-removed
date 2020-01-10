@@ -7894,10 +7894,7 @@ Address
 scratch
 offsetof
 (
-js
-:
-:
-ClassOps
+JSClassOps
 call
 )
 )

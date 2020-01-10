@@ -5932,7 +5932,7 @@ JS_FS_END
 ;
 static
 const
-ClassOps
+JSClassOps
 JSFunctionClassOps
 =
 {

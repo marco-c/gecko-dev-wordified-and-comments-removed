@@ -699,7 +699,7 @@ namespace
 }
 static
 const
-ClassOps
+JSClassOps
 MapIteratorObjectClassOps
 =
 {
@@ -2149,7 +2149,7 @@ resultPairObj
 ;
 }
 const
-ClassOps
+JSClassOps
 MapObject
 :
 :
@@ -5526,7 +5526,7 @@ true
 }
 static
 const
-ClassOps
+JSClassOps
 SetIteratorObjectClassOps
 =
 {
@@ -6764,7 +6764,7 @@ resultObj
 ;
 }
 const
-ClassOps
+JSClassOps
 SetObject
 :
 :

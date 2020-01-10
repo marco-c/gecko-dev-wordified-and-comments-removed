@@ -2978,11 +2978,6 @@ JSCLASS_NO_INTERNAL_MEMBERS
 namespace
 js
 {
-using
-ClassOps
-=
-JSClassOps
-;
 struct
 MOZ_STATIC_CLASS
 Class

@@ -891,7 +891,7 @@ JS_TYPROTO_SLOTS
 ;
 static
 const
-ClassOps
+JSClassOps
 ScalarTypeDescrClassOps
 =
 {
@@ -1714,7 +1714,7 @@ TypeDescr
 }
 static
 const
-ClassOps
+JSClassOps
 ReferenceTypeDescrClassOps
 =
 {
@@ -2247,7 +2247,7 @@ SingletonObject
 }
 static
 const
-ClassOps
+JSClassOps
 ArrayTypeDescrClassOps
 =
 {
@@ -3570,7 +3570,7 @@ ArrayTypeDescr
 }
 static
 const
-ClassOps
+JSClassOps
 StructTypeDescrClassOps
 =
 {
@@ -11389,7 +11389,7 @@ Moved
 \
 static
 const
-ClassOps
+JSClassOps
 Name
 #
 #

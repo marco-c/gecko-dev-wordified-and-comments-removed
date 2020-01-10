@@ -228,7 +228,7 @@ trc
 }
 static
 const
-ClassOps
+JSClassOps
 InstrumentationHolderClassOps
 =
 {

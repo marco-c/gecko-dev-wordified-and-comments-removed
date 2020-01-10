@@ -168,7 +168,7 @@ intl
 IcuLocale
 ;
 const
-ClassOps
+JSClassOps
 RelativeTimeFormatObject
 :
 :

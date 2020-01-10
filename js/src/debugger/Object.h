@@ -896,7 +896,7 @@ RESERVED_SLOTS
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static

@@ -801,7 +801,7 @@ objectOps_
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 public

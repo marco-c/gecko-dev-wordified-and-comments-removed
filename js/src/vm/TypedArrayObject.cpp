@@ -10078,7 +10078,7 @@ type
 }
 static
 const
-ClassOps
+JSClassOps
 TypedArrayClassOps
 =
 {

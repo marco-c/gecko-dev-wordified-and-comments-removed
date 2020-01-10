@@ -2480,7 +2480,7 @@ true
 }
 static
 const
-ClassOps
+JSClassOps
 StringObjectClassOps
 =
 {

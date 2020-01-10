@@ -743,7 +743,7 @@ classSpec_
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static
@@ -1596,7 +1596,7 @@ classSpec_
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static

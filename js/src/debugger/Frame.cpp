@@ -1165,7 +1165,7 @@ dbgobj
 ;
 }
 const
-ClassOps
+JSClassOps
 DebuggerFrame
 :
 :

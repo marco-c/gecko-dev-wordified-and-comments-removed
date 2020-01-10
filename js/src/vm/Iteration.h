@@ -1226,7 +1226,7 @@ NativeObject
 {
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 public

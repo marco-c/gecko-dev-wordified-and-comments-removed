@@ -349,7 +349,7 @@ JS
 AutoStableStringChars
 ;
 const
-ClassOps
+JSClassOps
 NumberFormatObject
 :
 :

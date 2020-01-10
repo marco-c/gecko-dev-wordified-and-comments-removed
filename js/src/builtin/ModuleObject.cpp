@@ -4092,7 +4092,7 @@ fun
 ;
 }
 const
-ClassOps
+JSClassOps
 ModuleObject
 :
 :

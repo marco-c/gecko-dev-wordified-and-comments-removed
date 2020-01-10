@@ -4436,7 +4436,7 @@ old
 ;
 }
 const
-ClassOps
+JSClassOps
 js
 :
 :

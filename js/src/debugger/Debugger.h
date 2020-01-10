@@ -2997,7 +2997,7 @@ tracer
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 public

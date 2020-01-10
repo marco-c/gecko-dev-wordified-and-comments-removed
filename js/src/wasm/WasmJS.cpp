@@ -3532,7 +3532,7 @@ true
 ;
 }
 const
-ClassOps
+JSClassOps
 WasmModuleObject
 :
 :
@@ -6426,7 +6426,7 @@ toPrivate
 ;
 }
 const
-ClassOps
+JSClassOps
 WasmInstanceObject
 :
 :
@@ -8882,7 +8882,7 @@ fun
 ;
 }
 const
-ClassOps
+JSClassOps
 WasmMemoryObject
 :
 :
@@ -10691,7 +10691,7 @@ isShared
 ;
 }
 const
-ClassOps
+JSClassOps
 WasmTableObject
 :
 :
@@ -12766,7 +12766,7 @@ toPrivate
 ;
 }
 const
-ClassOps
+JSClassOps
 WasmGlobalObject
 :
 :
@@ -18512,7 +18512,7 @@ IMPORT_OBJ_SLOT
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static
@@ -18781,7 +18781,7 @@ toObjectOrNull
 }
 ;
 const
-ClassOps
+JSClassOps
 ResolveResponseClosure
 :
 :

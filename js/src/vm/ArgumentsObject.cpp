@@ -5691,7 +5691,7 @@ nbytesTotal
 ;
 }
 const
-ClassOps
+JSClassOps
 MappedArgumentsObject
 :
 :
@@ -5809,7 +5809,7 @@ objectOps_
 }
 ;
 const
-ClassOps
+JSClassOps
 UnmappedArgumentsObject
 :
 :

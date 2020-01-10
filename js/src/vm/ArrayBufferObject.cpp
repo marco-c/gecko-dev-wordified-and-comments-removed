@@ -1256,7 +1256,7 @@ liveBufferCount
 }
 static
 const
-ClassOps
+JSClassOps
 ArrayBufferObjectClassOps
 =
 {

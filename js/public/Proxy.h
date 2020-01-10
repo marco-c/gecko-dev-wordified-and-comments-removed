@@ -2289,10 +2289,7 @@ endif
 extern
 JS_FRIEND_DATA
 const
-js
-:
-:
-ClassOps
+JSClassOps
 ProxyClassOps
 ;
 extern

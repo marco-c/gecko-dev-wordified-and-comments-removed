@@ -5549,7 +5549,7 @@ protoClass_
 }
 static
 const
-ClassOps
+JSClassOps
 DataViewObjectClassOps
 =
 {

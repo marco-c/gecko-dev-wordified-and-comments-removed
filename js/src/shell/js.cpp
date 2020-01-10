@@ -38989,7 +38989,7 @@ CACHE_ENTRY_SLOT
 ;
 static
 const
-ClassOps
+JSClassOps
 classOps_
 ;
 static
@@ -39610,7 +39610,7 @@ toPrivate
 }
 ;
 const
-ClassOps
+JSClassOps
 StreamCacheEntryObject
 :
 :

@@ -287,7 +287,7 @@ intl
 StringsAreEqual
 ;
 const
-ClassOps
+JSClassOps
 DateTimeFormatObject
 :
 :

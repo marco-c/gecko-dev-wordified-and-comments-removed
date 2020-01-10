@@ -309,7 +309,7 @@ mozilla
 Some
 ;
 const
-ClassOps
+JSClassOps
 DebuggerEnvironment
 :
 :

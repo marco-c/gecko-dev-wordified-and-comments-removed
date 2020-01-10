@@ -1633,7 +1633,7 @@ true
 ;
 }
 const
-ClassOps
+JSClassOps
 WeakCollectionObject
 :
 :
