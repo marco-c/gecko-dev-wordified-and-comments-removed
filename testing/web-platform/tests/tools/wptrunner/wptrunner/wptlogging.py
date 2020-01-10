@@ -18,6 +18,9 @@ setup
 (
 args
 defaults
+formatter_defaults
+=
+None
 )
 :
     
@@ -77,6 +80,10 @@ tests
 "
 args
 defaults
+                                           
+formatter_defaults
+=
+formatter_defaults
 )
     
 setup_stdlib_logger

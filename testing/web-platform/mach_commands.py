@@ -2319,26 +2319,6 @@ WebPlatformTestsRunner
 wpt_setup
 )
         
-if
-params
-[
-"
-log_mach_screenshot
-"
-]
-is
-None
-:
-            
-params
-[
-"
-log_mach_screenshot
-"
-]
-=
-True
-        
 logger
 =
 wpt_runner
