@@ -66,7 +66,6 @@ objectBeingIterated_
 {
 }
 ;
-const
 GCPtrObject
 iterObj_
 =

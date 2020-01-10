@@ -296,7 +296,6 @@ TraceEdge
 JSTracer
 *
 trc
-const
 WriteBarriered
 <
 T
@@ -389,7 +388,6 @@ TraceNullableEdge
 JSTracer
 *
 trc
-const
 WriteBarriered
 <
 T
@@ -900,7 +898,6 @@ trc
 JSObject
 *
 src
-const
 WriteBarriered
 <
 T

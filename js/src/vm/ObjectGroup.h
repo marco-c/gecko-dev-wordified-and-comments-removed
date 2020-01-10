@@ -851,7 +851,6 @@ Property
 {
 public
 :
-const
 GCPtrId
 id
 ;

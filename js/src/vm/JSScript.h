@@ -5583,7 +5583,6 @@ jitCodeRaw_
 =
 nullptr
 ;
-const
 GCPtrObject
 functionOrGlobal_
 ;

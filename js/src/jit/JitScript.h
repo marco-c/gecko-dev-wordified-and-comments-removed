@@ -230,7 +230,6 @@ CachedIonData
 RecompileInfoVector
 inlinedCompilations_
 ;
-const
 HeapPtr
 <
 EnvironmentObject

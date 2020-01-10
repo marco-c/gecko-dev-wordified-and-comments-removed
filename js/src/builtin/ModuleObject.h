@@ -1030,7 +1030,6 @@ JSTracer
 trc
 )
 ;
-const
 HeapPtr
 <
 JSAtom
@@ -1038,7 +1037,6 @@ JSAtom
 >
 name
 ;
-const
 HeapPtr
 <
 JSFunction

@@ -326,8 +326,11 @@ compilationArray
 4
 ]
 ;
-const
-GCPtrAtom
+GCPtr
+<
+JSAtom
+*
+>
 source
 ;
 uint32_t
