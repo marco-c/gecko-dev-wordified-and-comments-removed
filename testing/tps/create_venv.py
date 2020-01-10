@@ -525,14 +525,19 @@ py
 )
     
 print
+(
 '
 Downloading
 virtualenv
-%
-s
+{
+}
 '
-%
+.
+format
+(
 VERSION_VIRTUALENV
+)
+)
     
 zip_path
 =
@@ -582,12 +587,14 @@ here
 )
         
 print
+(
 '
 Creating
 new
 virtual
 environment
 '
+)
         
 cmd_args
 =
@@ -1445,6 +1452,7 @@ password
 :
             
 print
+(
 '
 \
 nFirefox
@@ -1454,6 +1462,7 @@ not
 specified
 .
 '
+)
         
 if
 not
@@ -1473,6 +1482,7 @@ passphrase
 :
             
 print
+(
 '
 \
 nFirefox
@@ -1483,8 +1493,10 @@ not
 specified
 .
 '
+)
     
 print
+(
 usage_message
 .
 format
@@ -1496,6 +1508,7 @@ target
 BIN_NAME
 =
 bin_name
+)
 )
 if
 __name__

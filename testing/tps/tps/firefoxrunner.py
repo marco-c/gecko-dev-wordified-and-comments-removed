@@ -281,10 +281,12 @@ pathToBuild
 )
         
 print
+(
 '
 downloading
 build
 '
+)
         
 self
 .
@@ -297,13 +299,18 @@ pathToBuild
 )
         
 print
+(
 '
 installing
-%
-s
+{
+}
 '
-%
+.
+format
+(
 pathToBuild
+)
+)
         
 mozfile
 .

@@ -101,10 +101,6 @@ iceserver
 -
 testing
 /
-tps
--
-testing
-/
 web
 -
 platform
