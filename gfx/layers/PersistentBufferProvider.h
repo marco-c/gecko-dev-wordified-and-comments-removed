@@ -699,6 +699,15 @@ SourceSurface
 >
 mSnapshot
 ;
+RefPtr
+<
+gfx
+:
+:
+SourceSurface
+>
+mPreviousSnapshot
+;
 }
 ;
 struct
