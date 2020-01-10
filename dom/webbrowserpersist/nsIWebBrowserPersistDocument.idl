@@ -337,6 +337,7 @@ types
 /
 [
 scriptable
+builtinclass
 uuid
 (
 74aa4918
