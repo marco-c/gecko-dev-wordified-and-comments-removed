@@ -103,3 +103,16 @@ MacTouchBar
 manifest
 '
 ]
+SPHINX_TREES
+[
+'
+/
+browser
+/
+touchbar
+'
+]
+=
+'
+docs
+'

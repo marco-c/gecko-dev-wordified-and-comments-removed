@@ -77,6 +77,9 @@ base
 tabbrowser
 /
 index
+touchbar
+/
+index
 components
 /
 payments
