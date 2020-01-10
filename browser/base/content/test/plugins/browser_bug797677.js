@@ -161,10 +161,12 @@ NS_ERROR_FAILURE
 "
 )
 )
+{
 gConsoleErrors
 +
 +
 ;
+}
 }
 }
 ;

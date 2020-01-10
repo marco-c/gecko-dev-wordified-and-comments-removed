@@ -1187,6 +1187,7 @@ test
 try
 {
 return
+(
 content
 .
 document
@@ -1213,6 +1214,7 @@ innerHTML
 "
 hello
 "
+)
 ;
 }
 catch

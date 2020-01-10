@@ -1320,7 +1320,6 @@ contains
 allowed
 "
 )
-(
 !
 trackersBlocked
 &
@@ -1331,7 +1330,6 @@ thirdPartyBlocked
 &
 !
 firstPartyBlocked
-)
 "
 Indicates
 whether
@@ -2562,6 +2560,7 @@ data
 >
 {
 return
+(
 subject
 &
 &
@@ -2608,6 +2607,7 @@ data
 "
 added
 "
+)
 ;
 }
 )

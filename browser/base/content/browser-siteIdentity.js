@@ -87,6 +87,7 @@ _isSecure
 )
 {
 return
+(
 !
 this
 .
@@ -102,6 +103,7 @@ Ci
 nsIWebProgressListener
 .
 STATE_IS_SECURE
+)
 ;
 }
 get
@@ -110,6 +112,7 @@ _isEV
 )
 {
 return
+(
 !
 this
 .
@@ -125,6 +128,7 @@ Ci
 nsIWebProgressListener
 .
 STATE_IDENTITY_EV_TOPLEVEL
+)
 ;
 }
 get
@@ -133,6 +137,7 @@ _isMixedActiveContentLoaded
 )
 {
 return
+(
 this
 .
 _state
@@ -142,6 +147,7 @@ Ci
 nsIWebProgressListener
 .
 STATE_LOADED_MIXED_ACTIVE_CONTENT
+)
 ;
 }
 get
@@ -150,6 +156,7 @@ _isMixedActiveContentBlocked
 )
 {
 return
+(
 this
 .
 _state
@@ -159,6 +166,7 @@ Ci
 nsIWebProgressListener
 .
 STATE_BLOCKED_MIXED_ACTIVE_CONTENT
+)
 ;
 }
 get
@@ -167,6 +175,7 @@ _isMixedPassiveContentLoaded
 )
 {
 return
+(
 this
 .
 _state
@@ -176,6 +185,7 @@ Ci
 nsIWebProgressListener
 .
 STATE_LOADED_MIXED_DISPLAY_CONTENT
+)
 ;
 }
 get
@@ -218,6 +228,7 @@ _hasInsecureLoginForms
 )
 {
 return
+(
 LoginManagerParent
 .
 hasInsecureLoginForms
@@ -244,6 +255,7 @@ ui
 enabled
 "
 )
+)
 ;
 }
 get
@@ -257,6 +269,7 @@ this
 _identityPopup
 ;
 return
+(
 this
 .
 _identityPopup
@@ -271,6 +284,7 @@ identity
 popup
 "
 )
+)
 ;
 }
 get
@@ -284,6 +298,7 @@ this
 _identityBox
 ;
 return
+(
 this
 .
 _identityBox
@@ -298,6 +313,7 @@ identity
 box
 "
 )
+)
 ;
 }
 get
@@ -311,6 +327,7 @@ this
 _identityPopupMultiView
 ;
 return
+(
 this
 .
 _identityPopupMultiView
@@ -327,6 +344,7 @@ popup
 multiView
 "
 )
+)
 ;
 }
 get
@@ -340,6 +358,7 @@ this
 _identityPopupMainView
 ;
 return
+(
 this
 .
 _identityPopupMainView
@@ -356,6 +375,7 @@ popup
 mainView
 "
 )
+)
 ;
 }
 get
@@ -369,6 +389,7 @@ this
 _identityPopupMainViewHeaderLabel
 ;
 return
+(
 this
 .
 _identityPopupMainViewHeaderLabel
@@ -391,6 +412,7 @@ header
 span
 "
 )
+)
 ;
 }
 get
@@ -404,6 +426,7 @@ this
 _identityPopupContentHost
 ;
 return
+(
 this
 .
 _identityPopupContentHost
@@ -420,6 +443,7 @@ popup
 host
 "
 )
+)
 ;
 }
 get
@@ -433,6 +457,7 @@ this
 _identityPopupContentOwner
 ;
 return
+(
 this
 .
 _identityPopupContentOwner
@@ -451,6 +476,7 @@ content
 owner
 "
 )
+)
 ;
 }
 get
@@ -464,6 +490,7 @@ this
 _identityPopupContentSupp
 ;
 return
+(
 this
 .
 _identityPopupContentSupp
@@ -482,6 +509,7 @@ content
 supplemental
 "
 )
+)
 ;
 }
 get
@@ -495,6 +523,7 @@ this
 _identityPopupContentVerif
 ;
 return
+(
 this
 .
 _identityPopupContentVerif
@@ -513,6 +542,7 @@ content
 verifier
 "
 )
+)
 ;
 }
 get
@@ -526,6 +556,7 @@ this
 _identityPopupCustomRootLearnMore
 ;
 return
+(
 this
 .
 _identityPopupCustomRootLearnMore
@@ -548,6 +579,7 @@ learn
 more
 "
 )
+)
 ;
 }
 get
@@ -561,6 +593,7 @@ this
 _identityPopupMixedContentLearnMore
 ;
 return
+(
 this
 .
 _identityPopupMixedContentLearnMore
@@ -587,6 +620,7 @@ more
 "
 )
 ]
+)
 ;
 }
 get
@@ -600,6 +634,7 @@ this
 _identityPopupInsecureLoginFormsLearnMore
 ;
 return
+(
 this
 .
 _identityPopupInsecureLoginFormsLearnMore
@@ -624,6 +659,7 @@ learn
 more
 "
 )
+)
 ;
 }
 get
@@ -637,6 +673,7 @@ this
 _identityIconLabels
 ;
 return
+(
 this
 .
 _identityIconLabels
@@ -653,6 +690,7 @@ icon
 labels
 "
 )
+)
 ;
 }
 get
@@ -666,6 +704,7 @@ this
 _identityIconLabel
 ;
 return
+(
 this
 .
 _identityIconLabel
@@ -682,6 +721,7 @@ icon
 label
 "
 )
+)
 ;
 }
 get
@@ -695,6 +735,7 @@ this
 _connectionIcon
 ;
 return
+(
 this
 .
 _connectionIcon
@@ -709,6 +750,7 @@ connection
 icon
 "
 )
+)
 ;
 }
 get
@@ -722,6 +764,7 @@ this
 _extensionIcon
 ;
 return
+(
 this
 .
 _extensionIcon
@@ -736,6 +779,7 @@ extension
 icon
 "
 )
+)
 ;
 }
 get
@@ -749,6 +793,7 @@ this
 _overrideService
 ;
 return
+(
 this
 .
 _overrideService
@@ -774,6 +819,7 @@ Ci
 .
 nsICertOverrideService
 )
+)
 ;
 }
 get
@@ -787,6 +833,7 @@ this
 _identityIconCountryLabel
 ;
 return
+(
 this
 .
 _identityIconCountryLabel
@@ -805,6 +852,7 @@ country
 label
 "
 )
+)
 ;
 }
 get
@@ -818,6 +866,7 @@ this
 _identityIcon
 ;
 return
+(
 this
 .
 _identityIcon
@@ -832,6 +881,7 @@ identity
 icon
 "
 )
+)
 ;
 }
 get
@@ -845,6 +895,7 @@ this
 _permissionList
 ;
 return
+(
 this
 .
 _permissionList
@@ -863,6 +914,7 @@ permission
 list
 "
 )
+)
 ;
 }
 get
@@ -876,6 +928,7 @@ this
 _permissionEmptyHint
 ;
 return
+(
 this
 .
 _permissionEmptyHint
@@ -896,6 +949,7 @@ empty
 hint
 "
 )
+)
 ;
 }
 get
@@ -909,6 +963,7 @@ this
 _permissionReloadHint
 ;
 return
+(
 this
 .
 _permissionReloadHint
@@ -929,6 +984,7 @@ reload
 hint
 "
 )
+)
 ;
 }
 get
@@ -942,6 +998,7 @@ this
 _popupExpander
 ;
 return
+(
 this
 .
 _popupExpander
@@ -960,6 +1017,7 @@ security
 expander
 "
 )
+)
 ;
 }
 get
@@ -973,6 +1031,7 @@ this
 _clearSiteDataFooter
 ;
 return
+(
 this
 .
 _clearSiteDataFooter
@@ -992,6 +1051,7 @@ sitedata
 -
 footer
 "
+)
 )
 ;
 }
@@ -1052,11 +1112,13 @@ anchor
 ;
 }
 return
+(
 this
 .
 _permissionAnchors
 =
 permissionAnchors
+)
 ;
 }
 get
@@ -1816,7 +1878,6 @@ this
 _uri
 &
 &
-(
 this
 .
 _uri
@@ -1827,7 +1888,6 @@ spec
 uri
 .
 spec
-)
 ;
 this
 .
@@ -2123,6 +2183,7 @@ this
 .
 _IDNService
 )
+{
 this
 .
 _IDNService
@@ -2151,6 +2212,7 @@ Ci
 nsIIDNService
 )
 ;
+}
 try
 {
 return
@@ -2342,7 +2404,8 @@ getEnumerator
 (
 )
 )
-;
+{
+}
 return
 !
 issuerCert
@@ -2524,6 +2587,7 @@ iData
 .
 country
 )
+{
 icon_country_label
 =
 "
@@ -2538,6 +2602,7 @@ country
 )
 "
 ;
+}
 icon_labels_dir
 =
 /
@@ -4023,6 +4088,7 @@ iData
 .
 city
 )
+{
 supplemental
 +
 =
@@ -4035,6 +4101,7 @@ city
 n
 "
 ;
+}
 if
 (
 iData
@@ -4046,6 +4113,7 @@ iData
 .
 country
 )
+{
 supplemental
 +
 =
@@ -4070,6 +4138,7 @@ country
 ]
 )
 ;
+}
 else
 if
 (
@@ -4077,6 +4146,7 @@ iData
 .
 state
 )
+{
 supplemental
 +
 =
@@ -4084,6 +4154,7 @@ iData
 .
 state
 ;
+}
 else
 if
 (
@@ -4091,6 +4162,7 @@ iData
 .
 country
 )
+{
 supplemental
 +
 =
@@ -4098,6 +4170,7 @@ iData
 .
 country
 ;
+}
 }
 this
 .
@@ -4919,8 +4992,10 @@ pageproxystate
 valid
 "
 )
+{
 return
 ;
+}
 let
 value
 =
@@ -4947,22 +5022,20 @@ contentTitle
 let
 htmlString
 =
-"
+'
 <
 a
 href
 =
-\
 "
-"
+'
 +
 value
 +
-"
-\
+'
 "
 >
-"
+'
 +
 value
 +
@@ -5235,6 +5308,7 @@ hasChildNodes
 (
 )
 )
+{
 this
 .
 _permissionList
@@ -5248,6 +5322,7 @@ _permissionList
 lastChild
 )
 ;
+}
 let
 permissions
 =
@@ -5317,8 +5392,10 @@ id
 =
 id
 )
+{
 continue
 ;
+}
 found
 =
 true
@@ -5707,6 +5784,7 @@ SitePermissions
 .
 BLOCK
 )
+{
 img
 .
 classList
@@ -5722,6 +5800,7 @@ icon
 "
 )
 ;
+}
 if
 (
 aPermission

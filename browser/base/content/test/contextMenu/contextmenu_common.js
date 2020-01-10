@@ -44,12 +44,14 @@ if
 (
 lastElement
 )
+{
 lastElement
 .
 blur
 (
 )
 ;
+}
 element
 .
 focus
@@ -209,8 +211,10 @@ item
 .
 hidden
 )
+{
 continue
 ;
+}
 var
 key
 =
@@ -222,6 +226,7 @@ if
 (
 key
 )
+{
 key
 =
 key
@@ -230,6 +235,7 @@ toLowerCase
 (
 )
 ;
+}
 var
 isPageMenuItem
 =
@@ -601,6 +607,7 @@ accessKeys
 key
 ]
 )
+{
 ok
 (
 false
@@ -625,7 +632,9 @@ key
 ]
 )
 ;
+}
 else
+{
 accessKeys
 [
 key
@@ -635,6 +644,7 @@ item
 .
 id
 ;
+}
 }
 if
 (
@@ -871,6 +881,7 @@ accessKeys
 key
 ]
 )
+{
 ok
 (
 false
@@ -895,7 +906,9 @@ key
 ]
 )
 ;
+}
 else
+{
 accessKeys
 [
 key
@@ -905,6 +918,7 @@ item
 .
 id
 ;
+}
 }
 items
 .
@@ -1015,8 +1029,10 @@ child
 .
 hidden
 )
+{
 continue
 ;
+}
 menugroupChildren
 .
 push
@@ -1171,6 +1187,7 @@ name
 ;
 if
 (
+(
 typeof
 expectedEnabled
 =
@@ -1184,8 +1201,10 @@ expectedEnabled
 !
 =
 null
+)
 |
 |
+(
 typeof
 actualEnabled
 =
@@ -1199,6 +1218,7 @@ actualEnabled
 !
 =
 null
+)
 )
 {
 ok
@@ -1268,8 +1288,10 @@ expectedEnabled
 =
 null
 )
+{
 return
 ;
+}
 is
 (
 actualEnabled

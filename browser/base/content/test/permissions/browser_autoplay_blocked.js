@@ -664,6 +664,7 @@ waitForCondition
 >
 {
 return
+(
 menulist
 .
 getElementsByTagName
@@ -686,6 +687,7 @@ Audio
 and
 Video
 "
+)
 ;
 }
 )
@@ -1399,6 +1401,7 @@ waitForCondition
 >
 {
 return
+(
 menulist
 .
 getElementsByTagName
@@ -1419,6 +1422,7 @@ label
 Block
 Audio
 "
+)
 ;
 }
 )

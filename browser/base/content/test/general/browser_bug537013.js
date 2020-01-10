@@ -418,6 +418,7 @@ if
 !
 HasFindClipboard
 )
+{
 is
 (
 gFindBar
@@ -439,6 +440,7 @@ value
 "
 )
 ;
+}
 ok
 (
 gFindBar

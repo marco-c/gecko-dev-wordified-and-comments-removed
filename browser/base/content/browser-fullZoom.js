@@ -518,8 +518,10 @@ browser
 .
 currentURI
 )
+{
 return
 ;
+}
 let
 ctxt
 =
@@ -566,6 +568,7 @@ usePrivateBrowsing
 =
 aIsPrivate
 )
+{
 this
 .
 _applyPrefToZoom
@@ -574,6 +577,7 @@ aValue
 browser
 )
 ;
+}
 return
 ;
 }
@@ -653,6 +657,7 @@ token
 .
 isCurrent
 )
+{
 this
 .
 _applyPrefToZoom
@@ -661,6 +666,7 @@ undefined
 browser
 )
 ;
+}
 }
 }
 )
@@ -1488,9 +1494,11 @@ browser
 .
 isSyntheticDocument
 )
+{
 return
 null
 ;
+}
 return
 new
 Promise
@@ -1565,8 +1573,10 @@ browser
 .
 isSyntheticDocument
 )
+{
 return
 ;
+}
 let
 ctxt
 =
@@ -1636,6 +1646,7 @@ has
 browser
 )
 )
+{
 map
 .
 set
@@ -1644,6 +1655,7 @@ browser
 0
 )
 ;
+}
 return
 {
 token
@@ -1750,9 +1762,11 @@ namespaceURI
 =
 XUL_NS
 )
+{
 return
 target
 ;
+}
 if
 (
 target
@@ -1839,9 +1853,11 @@ isNaN
 aValue
 )
 )
+{
 return
 1
 ;
+}
 if
 (
 aValue
@@ -1850,11 +1866,13 @@ ZoomManager
 .
 MIN
 )
+{
 return
 ZoomManager
 .
 MIN
 ;
+}
 if
 (
 aValue
@@ -1863,11 +1881,13 @@ ZoomManager
 .
 MAX
 )
+{
 return
 ZoomManager
 .
 MAX
 ;
+}
 return
 aValue
 ;
@@ -1942,9 +1962,7 @@ value
 }
 handleCompletion
 :
-(
 reason
-)
 =
 >
 {
@@ -2039,8 +2057,10 @@ if
 !
 callback
 )
+{
 return
 ;
+}
 Services
 .
 tm

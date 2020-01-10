@@ -1221,12 +1221,14 @@ window
 .
 fullScreen
 )
+{
 this
 .
 toggle
 (
 )
 ;
+}
 }
 uninit
 (
@@ -1501,6 +1503,7 @@ this
 .
 useLionFullScreen
 )
+{
 document
 .
 documentElement
@@ -1513,6 +1516,7 @@ OSXLionFullscreen
 true
 )
 ;
+}
 }
 else
 {
@@ -1555,6 +1559,7 @@ document
 .
 fullscreenElement
 )
+{
 this
 .
 _updateToolbars
@@ -1562,6 +1567,7 @@ _updateToolbars
 enterFS
 )
 ;
+}
 if
 (
 enterFS
@@ -1610,6 +1616,7 @@ document
 .
 fullscreenElement
 )
+{
 this
 .
 hideNavToolbox
@@ -1617,6 +1624,7 @@ hideNavToolbox
 true
 )
 ;
+}
 }
 else
 {
@@ -2892,6 +2900,7 @@ this
 .
 _isChromeCollapsed
 )
+{
 this
 .
 _fullScrToggler
@@ -2900,6 +2909,7 @@ hidden
 =
 false
 ;
+}
 }
 ;
 gNavToolbox
@@ -3046,6 +3056,7 @@ id
 TabsToolbar
 "
 )
+{
 el
 .
 setAttribute
@@ -3060,7 +3071,9 @@ context
 "
 )
 ;
+}
 else
+{
 el
 .
 removeAttribute
@@ -3070,6 +3083,7 @@ context
 "
 )
 ;
+}
 el
 .
 setAttribute
@@ -3295,6 +3309,7 @@ function
 )
 {
 return
+(
 AppConstants
 .
 isPlatformAndVersionAtLeast
@@ -3321,6 +3336,7 @@ fullscreenbutton
 "
 true
 "
+)
 ;
 }
 )

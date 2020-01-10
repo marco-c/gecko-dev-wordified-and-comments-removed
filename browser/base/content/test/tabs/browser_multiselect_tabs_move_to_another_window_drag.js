@@ -338,6 +338,7 @@ selectedTab
 =
 tab3
 )
+{
 await
 BrowserTestUtils
 .
@@ -347,6 +348,7 @@ gBrowser
 tab3
 )
 ;
+}
 await
 triggerClickOn
 (

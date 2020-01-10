@@ -97,9 +97,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -188,6 +186,7 @@ browser
 >
 {
 return
+(
 content
 .
 document
@@ -205,6 +204,7 @@ code
 "
 MOZILLA_PKIX_ERROR_MITM_DETECTED
 "
+)
 ;
 }
 )
@@ -425,9 +425,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -545,6 +543,7 @@ browser
 >
 {
 return
+(
 content
 .
 document
@@ -562,6 +561,7 @@ code
 "
 MOZILLA_PKIX_ERROR_MITM_DETECTED
 "
+)
 ;
 }
 )

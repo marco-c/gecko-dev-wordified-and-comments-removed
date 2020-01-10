@@ -81,6 +81,7 @@ tabMinWidth
 let
 newTab1
 =
+(
 gBrowser
 .
 selectedTab
@@ -101,10 +102,12 @@ skipAnimation
 true
 }
 )
+)
 ;
 let
 newTab2
 =
+(
 gBrowser
 .
 selectedTab
@@ -125,10 +128,12 @@ skipAnimation
 true
 }
 )
+)
 ;
 let
 newTab3
 =
+(
 gBrowser
 .
 selectedTab
@@ -148,6 +153,7 @@ skipAnimation
 :
 true
 }
+)
 )
 ;
 while

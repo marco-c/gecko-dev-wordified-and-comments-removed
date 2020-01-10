@@ -87,6 +87,7 @@ waitForExplicitFinish
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -96,6 +97,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 CustomizableUI

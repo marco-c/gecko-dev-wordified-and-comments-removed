@@ -545,7 +545,6 @@ ok
 (
 lastInteraction
 >
-(
 Date
 .
 now
@@ -553,7 +552,6 @@ now
 )
 -
 FIVE_MINUTES
-)
 &
 &
 lastInteraction

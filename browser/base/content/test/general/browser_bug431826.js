@@ -317,6 +317,7 @@ expert_bad_cert
 "
 )
 )
+{
 Services
 .
 prefs
@@ -334,6 +335,7 @@ expert_bad_cert
 "
 )
 ;
+}
 }
 )
 ;

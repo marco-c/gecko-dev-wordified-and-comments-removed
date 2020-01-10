@@ -21,12 +21,14 @@ if
 !
 tab
 )
+{
 tab
 =
 gBrowser
 .
 selectedTab
 ;
+}
 var
 evt
 =
@@ -266,9 +268,7 @@ tab
 TabAttrModified
 "
 false
-(
 event
-)
 =
 >
 {
@@ -422,9 +422,7 @@ tab
 TabAttrModified
 "
 false
-(
 event
-)
 =
 >
 {

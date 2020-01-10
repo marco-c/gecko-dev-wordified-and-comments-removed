@@ -65,9 +65,7 @@ blank
 "
 }
 async
-(
 browser
-)
 =
 >
 {

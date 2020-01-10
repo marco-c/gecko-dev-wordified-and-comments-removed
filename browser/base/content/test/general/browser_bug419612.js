@@ -222,6 +222,7 @@ updateBackgroundTabs
 "
 )
 )
+{
 Services
 .
 prefs
@@ -237,6 +238,7 @@ updateBackgroundTabs
 "
 )
 ;
+}
 await
 FullZoomHelper
 .

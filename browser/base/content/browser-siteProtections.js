@@ -13,6 +13,7 @@ this
 _protectionsPopup
 ;
 return
+(
 this
 .
 _protectionsPopup
@@ -27,6 +28,7 @@ protections
 popup
 "
 )
+)
 ;
 }
 get
@@ -40,6 +42,7 @@ this
 _protectionsIconBox
 ;
 return
+(
 this
 .
 _protectionsIconBox
@@ -60,6 +63,7 @@ animatable
 box
 "
 )
+)
 ;
 }
 get
@@ -73,6 +77,7 @@ this
 _protectionsPopupMultiView
 ;
 return
+(
 this
 .
 _protectionsPopupMultiView
@@ -89,6 +94,7 @@ popup
 multiView
 "
 )
+)
 ;
 }
 get
@@ -102,6 +108,7 @@ this
 _protectionsPopupMainView
 ;
 return
+(
 this
 .
 _protectionsPopupMainView
@@ -118,6 +125,7 @@ popup
 mainView
 "
 )
+)
 ;
 }
 get
@@ -131,6 +139,7 @@ this
 _protectionsPopupMainViewHeaderLabel
 ;
 return
+(
 this
 .
 _protectionsPopupMainViewHeaderLabel
@@ -153,6 +162,7 @@ header
 span
 "
 )
+)
 ;
 }
 get
@@ -166,6 +176,7 @@ this
 _protectionsPopupTPSwitchBreakageLink
 ;
 return
+(
 this
 .
 _protectionsPopupTPSwitchBreakageLink
@@ -188,6 +199,7 @@ breakage
 link
 "
 )
+)
 ;
 }
 get
@@ -201,6 +213,7 @@ this
 _protectionsPopupTPSwitch
 ;
 return
+(
 this
 .
 _protectionsPopupTPSwitch
@@ -219,6 +232,7 @@ tp
 switch
 "
 )
+)
 ;
 }
 get
@@ -232,6 +246,7 @@ this
 _protectionPopupSettingsButton
 ;
 return
+(
 this
 .
 _protectionPopupSettingsButton
@@ -250,6 +265,7 @@ settings
 button
 "
 )
+)
 ;
 }
 get
@@ -263,6 +279,7 @@ this
 _protectionPopupFooter
 ;
 return
+(
 this
 .
 _protectionPopupFooter
@@ -279,6 +296,7 @@ popup
 footer
 "
 )
+)
 ;
 }
 get
@@ -292,6 +310,7 @@ this
 _protectionPopupTrackersCounterDescription
 ;
 return
+(
 this
 .
 _protectionPopupTrackersCounterDescription
@@ -314,6 +333,7 @@ counter
 description
 "
 )
+)
 ;
 }
 get
@@ -327,6 +347,7 @@ this
 _protectionsPopupSiteNotWorkingTPSwitch
 ;
 return
+(
 this
 .
 _protectionsPopupSiteNotWorkingTPSwitch
@@ -347,6 +368,7 @@ tp
 switch
 "
 )
+)
 ;
 }
 get
@@ -360,6 +382,7 @@ this
 _protectionsPopupSendReportLearnMore
 ;
 return
+(
 this
 .
 _protectionsPopupSendReportLearnMore
@@ -380,6 +403,7 @@ learn
 more
 "
 )
+)
 ;
 }
 get
@@ -393,6 +417,7 @@ this
 _protectionsPopupSendReportURL
 ;
 return
+(
 this
 .
 _protectionsPopupSendReportURL
@@ -412,6 +437,7 @@ collection
 -
 url
 "
+)
 )
 ;
 }
@@ -944,9 +970,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 setTimeout

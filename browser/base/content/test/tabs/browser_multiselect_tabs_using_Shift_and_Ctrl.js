@@ -379,6 +379,7 @@ tab4
 tab5
 ]
 )
+{
 BrowserTestUtils
 .
 removeTab
@@ -386,6 +387,7 @@ removeTab
 tab
 )
 ;
+}
 }
 )
 ;
@@ -736,6 +738,7 @@ tab4
 tab5
 ]
 )
+{
 BrowserTestUtils
 .
 removeTab
@@ -743,6 +746,7 @@ removeTab
 tab
 )
 ;
+}
 }
 )
 ;

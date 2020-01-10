@@ -555,7 +555,7 @@ value
 ;
 info
 (
-"
+'
 received
 dynamic
 style
@@ -567,12 +567,10 @@ event
 after
 media
 =
-\
 "
-\
 "
 changed
-"
+'
 )
 ;
 is

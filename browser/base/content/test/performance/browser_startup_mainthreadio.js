@@ -2417,6 +2417,7 @@ toLowerCase
 )
 ;
 return
+(
 path
 =
 =
@@ -2507,6 +2508,7 @@ path
 slice
 (
 1
+)
 )
 )
 )
@@ -2919,8 +2921,10 @@ markerName
 FileIO
 "
 )
+{
 continue
 ;
+}
 let
 markerData
 =

@@ -258,9 +258,7 @@ files
 let
 pathEntryIterator
 =
-(
 entry
-)
 =
 >
 {
@@ -288,9 +286,7 @@ extensions
 .
 some
 (
-(
 extension
-)
 =
 >
 entry

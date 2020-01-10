@@ -10,6 +10,7 @@ waitForExplicitFinish
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -46,6 +47,7 @@ browser_bug479408_sample
 .
 html
 "
+)
 )
 ;
 BrowserTestUtils

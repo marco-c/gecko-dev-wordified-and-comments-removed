@@ -154,6 +154,7 @@ closeWindowWithLastTab
 "
 )
 )
+{
 Services
 .
 prefs
@@ -169,6 +170,7 @@ closeWindowWithLastTab
 "
 )
 ;
+}
 }
 )
 ;

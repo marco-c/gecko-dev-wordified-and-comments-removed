@@ -400,11 +400,13 @@ callback
 )
 =
 >
+(
 this
 .
 extraSecondaryActionClicked
 =
 true
+)
 }
 )
 ;
@@ -570,11 +572,13 @@ callback
 )
 =
 >
+(
 this
 .
 extraSecondaryActionClicked
 =
 true
+)
 }
 )
 ;

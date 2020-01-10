@@ -364,9 +364,7 @@ xhr
 .
 onerror
 =
-(
 error
-)
 =
 >
 {

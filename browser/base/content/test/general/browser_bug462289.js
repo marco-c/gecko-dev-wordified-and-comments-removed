@@ -32,12 +32,14 @@ nav
 bar
 "
 )
+{
 parent
 =
 parent
 .
 parentNode
 ;
+}
 return
 parent
 !

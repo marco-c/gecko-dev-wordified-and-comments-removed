@@ -820,6 +820,7 @@ if
 (
 notification
 )
+{
 box
 .
 removeNotification
@@ -827,6 +828,7 @@ removeNotification
 notification
 )
 ;
+}
 }
 )
 ;
@@ -1605,15 +1607,13 @@ toLowerCase
 if
 (
 !
-(
 /
 ^
 \
 w
 +
 /
-mi
-)
+im
 .
 test
 (
@@ -2123,6 +2123,8 @@ params
 =
 new
 URLSearchParams
+(
+)
 ;
 params
 .

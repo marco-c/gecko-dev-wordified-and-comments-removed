@@ -170,6 +170,7 @@ updateBackgroundTabs
 "
 )
 )
+{
 Services
 .
 prefs
@@ -185,6 +186,7 @@ updateBackgroundTabs
 "
 )
 ;
+}
 if
 (
 Services
@@ -202,6 +204,7 @@ siteSpecific
 "
 )
 )
+{
 Services
 .
 prefs
@@ -217,6 +220,7 @@ siteSpecific
 "
 )
 ;
+}
 finish
 (
 )

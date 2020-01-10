@@ -503,6 +503,7 @@ createNullPrincipal
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -513,6 +514,7 @@ tabs
 [
 1
 ]
+)
 ;
 BrowserTestUtils
 .
@@ -579,6 +581,7 @@ test_openUILink
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -593,6 +596,7 @@ about
 :
 blank
 "
+)
 )
 ;
 BrowserTestUtils

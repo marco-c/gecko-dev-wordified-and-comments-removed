@@ -3385,6 +3385,7 @@ data
 )
 ;
 return
+(
 expectedData
 =
 =
@@ -3399,6 +3400,7 @@ engine
 wrappedJSObject
 .
 name
+)
 ;
 }
 )

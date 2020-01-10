@@ -103,6 +103,7 @@ exists
 (
 )
 )
+{
 saveDir
 .
 create
@@ -115,6 +116,7 @@ DIRECTORY_TYPE
 0o755
 )
 ;
+}
 return
 saveDir
 ;
@@ -128,9 +130,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -216,13 +216,11 @@ rect
 .
 left
 +
-(
 rect
 .
 width
 /
 2
-)
 ;
 let
 top
@@ -231,13 +229,11 @@ rect
 .
 top
 +
-(
 rect
 .
 height
 /
 2
-)
 ;
 utils
 .

@@ -152,6 +152,7 @@ gTests
 .
 length
 )
+{
 test_paste
 (
 gTests
@@ -161,11 +162,14 @@ shift
 )
 )
 ;
+}
 else
+{
 finish
 (
 )
 ;
+}
 }
 function
 test_paste

@@ -100,9 +100,7 @@ resolve
 let
 listener
 =
-(
 win
-)
 =
 >
 {
@@ -174,6 +172,7 @@ function
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -184,6 +183,7 @@ addTab
 (
 gBrowser
 url
+)
 )
 ;
 let

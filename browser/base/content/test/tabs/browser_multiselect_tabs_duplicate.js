@@ -584,6 +584,7 @@ waitForCondition
 >
 {
 return
+(
 getUrl
 (
 gBrowser
@@ -630,6 +631,7 @@ com
 /
 3
 "
+)
 ;
 }
 )

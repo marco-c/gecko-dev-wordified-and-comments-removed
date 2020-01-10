@@ -215,9 +215,11 @@ documentURI
 =
 kBrowserURL
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -253,6 +255,7 @@ in
 gObservedTopics
 )
 )
+{
 gObservedTopics
 [
 aTopic
@@ -260,7 +263,9 @@ aTopic
 =
 1
 ;
+}
 else
+{
 +
 +
 gObservedTopics
@@ -268,6 +273,7 @@ gObservedTopics
 aTopic
 ]
 ;
+}
 }
 kObservedTopics
 .
@@ -443,12 +449,14 @@ MediaManagerService
 .
 STATE_NOCAPTURE
 )
+{
 result
 .
 video
 =
 true
 ;
+}
 if
 (
 hasMicrophone
@@ -460,12 +468,14 @@ MediaManagerService
 .
 STATE_NOCAPTURE
 )
+{
 result
 .
 audio
 =
 true
 ;
+}
 if
 (
 hasScreenShare
@@ -477,6 +487,7 @@ MediaManagerService
 .
 STATE_NOCAPTURE
 )
+{
 result
 .
 screen
@@ -485,6 +496,7 @@ screen
 Screen
 "
 ;
+}
 else
 if
 (
@@ -497,6 +509,7 @@ MediaManagerService
 .
 STATE_NOCAPTURE
 )
+{
 result
 .
 screen
@@ -505,6 +518,7 @@ screen
 Window
 "
 ;
+}
 else
 if
 (
@@ -517,6 +531,7 @@ MediaManagerService
 .
 STATE_NOCAPTURE
 )
+{
 result
 .
 screen
@@ -525,6 +540,7 @@ screen
 Browser
 "
 ;
+}
 return
 result
 ;
@@ -663,6 +679,7 @@ in
 gObservedTopics
 )
 )
+{
 gObservedTopics
 [
 topic
@@ -671,7 +688,9 @@ topic
 -
 1
 ;
+}
 else
+{
 -
 -
 gObservedTopics
@@ -679,6 +698,7 @@ gObservedTopics
 topic
 ]
 ;
+}
 }
 }
 topic

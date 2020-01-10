@@ -228,9 +228,7 @@ innerHTML
 const
 checkCorrectMessages
 =
-(
 message
-)
 =
 >
 {

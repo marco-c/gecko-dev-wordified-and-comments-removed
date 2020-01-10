@@ -590,8 +590,10 @@ getElementById
 rowId
 )
 )
+{
 return
 ;
+}
 let
 commandId
 =

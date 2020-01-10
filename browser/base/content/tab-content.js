@@ -383,8 +383,10 @@ content
 .
 opener
 )
+{
 return
 ;
+}
 removeEventListener
 (
 "

@@ -105,9 +105,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -230,6 +228,7 @@ if
 (
 url
 )
+{
 BrowserTestUtils
 .
 loadURI
@@ -240,6 +239,7 @@ linkedBrowser
 url
 )
 ;
+}
 return
 loaded
 ;
@@ -390,9 +390,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -400,7 +398,6 @@ waitForCondition
 (
 aConditionFn
 resolve
-(
 aMessage
 |
 |
@@ -412,7 +409,6 @@ t
 pass
 .
 "
-)
 aTries
 aWait
 )
@@ -504,12 +500,14 @@ name
 =
 pluginName
 )
+{
 return
 tags
 [
 i
 ]
 ;
+}
 }
 ok
 (
@@ -645,6 +643,7 @@ Ci
 nsIObjectLoadingContent
 )
 )
+{
 throw
 new
 Error
@@ -656,6 +655,7 @@ found
 "
 )
 ;
+}
 return
 {
 pluginFallbackType
@@ -1102,16 +1102,12 @@ const
 blocklistMapping
 =
 {
-"
 extensions
-"
 :
 bsPass
 .
 ExtensionBlocklistRS
-"
 plugins
-"
 :
 bsPass
 .
@@ -1569,9 +1565,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1642,9 +1636,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1768,9 +1760,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1857,9 +1847,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

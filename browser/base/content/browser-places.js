@@ -250,11 +250,13 @@ this
 )
 ;
 return
+(
 this
 .
 panel
 =
 element
+)
 ;
 }
 handleEvent
@@ -1496,8 +1498,10 @@ this
 .
 _batching
 )
+{
 return
 ;
+}
 this
 .
 _batchBlockingDeferred
@@ -1556,8 +1560,10 @@ this
 .
 _batching
 )
+{
 return
 ;
+}
 this
 .
 _batchBlockingDeferred
@@ -2914,6 +2920,7 @@ _getClosedTabCount
 =
 0
 )
+{
 this
 .
 undoTabMenu
@@ -2926,7 +2933,9 @@ disabled
 true
 )
 ;
+}
 else
+{
 this
 .
 undoTabMenu
@@ -2938,6 +2947,7 @@ disabled
 "
 )
 ;
+}
 }
 populateUndoSubmenu
 :
@@ -2963,6 +2973,7 @@ hasChildNodes
 (
 )
 )
+{
 undoPopup
 .
 firstChild
@@ -2971,6 +2982,7 @@ remove
 (
 )
 ;
+}
 if
 (
 this
@@ -3048,6 +3060,7 @@ getClosedWindowCount
 =
 0
 )
+{
 this
 .
 undoWindowMenu
@@ -3060,7 +3073,9 @@ disabled
 true
 )
 ;
+}
 else
+{
 this
 .
 undoWindowMenu
@@ -3072,6 +3087,7 @@ disabled
 "
 )
 ;
+}
 }
 populateUndoWindowSubmenu
 :
@@ -3097,6 +3113,7 @@ hasChildNodes
 (
 )
 )
+{
 undoPopup
 .
 firstChild
@@ -3105,6 +3122,7 @@ remove
 (
 )
 ;
+}
 if
 (
 SessionStore
@@ -3178,8 +3196,10 @@ this
 .
 syncTabsMenuitem
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -3249,8 +3269,10 @@ aEvent
 .
 currentTarget
 )
+{
 return
 ;
+}
 this
 .
 toggleHiddenTabs
@@ -3315,6 +3337,7 @@ isWindowPrivate
 window
 )
 )
+{
 PlacesUIUtils
 .
 markPageAsTyped
@@ -3324,6 +3347,7 @@ placesNode
 uri
 )
 ;
+}
 openUILink
 (
 placesNode
@@ -3373,8 +3397,10 @@ PlacesUIUtils
 .
 openInTabClosesMenu
 )
+{
 return
 ;
+}
 let
 target
 =
@@ -3393,8 +3419,10 @@ tagName
 menuitem
 "
 )
+{
 return
 ;
+}
 let
 modifKey
 =
@@ -3556,8 +3584,10 @@ button
 modifKey
 )
 )
+{
 return
 ;
+}
 var
 target
 =
@@ -3643,6 +3673,7 @@ localName
 toolbarbutton
 "
 )
+{
 PlacesUIUtils
 .
 openMultipleLinksInTabs
@@ -3654,6 +3685,7 @@ aEvent
 aView
 )
 ;
+}
 }
 else
 if
@@ -3696,6 +3728,7 @@ target
 .
 _placesNode
 )
+{
 PlacesUIUtils
 .
 openNodeWithEvent
@@ -3706,6 +3739,7 @@ _placesNode
 aEvent
 )
 ;
+}
 }
 fillInBHTooltip
 :
@@ -3775,9 +3809,11 @@ row
 -
 1
 )
+{
 return
 false
 ;
+}
 node
 =
 tree
@@ -3853,9 +3889,11 @@ node
 !
 targetURI
 )
+{
 return
 false
 ;
+}
 var
 title
 =
@@ -3884,6 +3922,7 @@ nodeIsURI
 node
 )
 )
+{
 url
 =
 targetURI
@@ -3893,6 +3932,7 @@ node
 .
 uri
 ;
+}
 if
 (
 !
@@ -3902,9 +3942,11 @@ cropped
 !
 url
 )
+{
 return
 false
 ;
+}
 var
 tooltipTitle
 =
@@ -3921,18 +3963,14 @@ tooltipTitle
 .
 hidden
 =
-(
 !
 title
 |
 |
-(
 title
 =
 =
 url
-)
-)
 ;
 if
 (
@@ -3941,12 +3979,14 @@ tooltipTitle
 .
 hidden
 )
+{
 tooltipTitle
 .
 textContent
 =
 title
 ;
+}
 var
 tooltipUrl
 =
@@ -3973,12 +4013,14 @@ tooltipUrl
 .
 hidden
 )
+{
 tooltipUrl
 .
 value
 =
 url
 ;
+}
 return
 true
 ;
@@ -4024,8 +4066,10 @@ event
 target
 )
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -4110,8 +4154,10 @@ state
 open
 "
 )
+{
 return
 ;
+}
 this
 .
 _loadTimer
@@ -4235,8 +4281,10 @@ event
 currentTarget
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -4249,8 +4297,10 @@ event
 target
 )
 )
+{
 return
 ;
+}
 PlacesControllerDragHelper
 .
 currentDropTarget
@@ -4567,12 +4617,14 @@ event
 dataTransfer
 )
 )
+{
 event
 .
 preventDefault
 (
 )
 ;
+}
 event
 .
 stopPropagation
@@ -4679,8 +4731,10 @@ viewElt
 .
 _placesView
 )
+{
 return
 ;
+}
 CustomizableUI
 .
 addListener
@@ -4807,12 +4861,14 @@ this
 _viewElt
 )
 )
+{
 this
 .
 _resetView
 (
 )
 ;
+}
 break
 ;
 }
@@ -4880,6 +4936,7 @@ viewElt
 .
 _placesView
 )
+{
 viewElt
 .
 _placesView
@@ -4888,6 +4945,7 @@ uninit
 (
 )
 ;
+}
 }
 finally
 {
@@ -5857,6 +5915,7 @@ BOOKMARK_BUTTON_ID
 )
 ;
 return
+(
 this
 .
 button
@@ -5869,6 +5928,7 @@ window
 )
 .
 node
+)
 ;
 }
 get
@@ -5882,6 +5942,7 @@ this
 star
 ;
 return
+(
 this
 .
 star
@@ -5894,6 +5955,7 @@ this
 .
 STAR_ID
 )
+)
 ;
 }
 get
@@ -5907,6 +5969,7 @@ this
 starBox
 ;
 return
+(
 this
 .
 starBox
@@ -5918,6 +5981,7 @@ getElementById
 this
 .
 STAR_BOX_ID
+)
 )
 ;
 }
@@ -5958,6 +6022,7 @@ this
 stringbundleset
 ;
 return
+(
 this
 .
 stringbundleset
@@ -5969,6 +6034,7 @@ getElementById
 "
 stringbundleset
 "
+)
 )
 ;
 }
@@ -5993,11 +6059,13 @@ this
 .
 _pendingUpdate
 )
+{
 return
 this
 .
 STATUS_UPDATING
 ;
+}
 return
 this
 .
@@ -6030,6 +6098,7 @@ this
 _starredTooltip
 ;
 return
+(
 this
 .
 _starredTooltip
@@ -6044,6 +6113,7 @@ starButtonOn
 tooltip2
 "
 )
+)
 ;
 }
 get
@@ -6057,6 +6127,7 @@ this
 _unstarredTooltip
 ;
 return
+(
 this
 .
 _unstarredTooltip
@@ -6070,6 +6141,7 @@ starButtonOff
 .
 tooltip2
 "
+)
 )
 ;
 }
@@ -6100,6 +6172,7 @@ if
 (
 shortcut
 )
+{
 args
 .
 push
@@ -6112,6 +6185,7 @@ shortcut
 )
 )
 ;
+}
 return
 gNavigatorBundle
 .
@@ -6141,8 +6215,10 @@ event
 .
 currentTarget
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -6384,8 +6460,10 @@ parentNode
 .
 _placesView
 )
+{
 return
 ;
+}
 new
 PlacesMenu
 (
@@ -6493,6 +6571,7 @@ button
 .
 _placesView
 )
+{
 this
 .
 button
@@ -6503,6 +6582,7 @@ uninit
 (
 )
 ;
+}
 let
 menubar
 =
@@ -6524,6 +6604,7 @@ menubar
 .
 _placesView
 )
+{
 menubar
 .
 _placesView
@@ -6532,6 +6613,7 @@ uninit
 (
 )
 ;
+}
 const
 kSpecialViewNodeIDs
 =
@@ -7009,12 +7091,14 @@ Set
 let
 pendingUpdate
 =
+(
 this
 .
 _pendingUpdate
 =
 {
 }
+)
 ;
 PlacesUtils
 .
@@ -7584,8 +7668,10 @@ event
 .
 currentTarget
 )
+{
 return
 ;
+}
 this
 .
 updateBookmarkPageMenuItem
@@ -8054,6 +8140,7 @@ l
 +
 i
 )
+{
 CustomizableUI
 .
 addShortcut
@@ -8064,6 +8151,7 @@ i
 ]
 )
 ;
+}
 let
 query
 =
@@ -8788,8 +8876,10 @@ win
 =
 window
 )
+{
 return
 ;
+}
 this
 .
 _uninitView
@@ -8883,8 +8973,10 @@ toolbar
 .
 collapsed
 )
+{
 return
 ;
+}
 let
 placement
 =
@@ -8918,8 +9010,10 @@ CustomizableUI
 .
 AREA_BOOKMARKS
 )
+{
 return
 ;
+}
 setToolbarVisibility
 (
 toolbar

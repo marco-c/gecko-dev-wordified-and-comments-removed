@@ -130,11 +130,9 @@ Assert
 .
 deepEqual
 (
-(
 await
 getMediaCaptureState
 (
-)
 )
 {
 video

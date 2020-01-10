@@ -25,9 +25,7 @@ addEventListener
 pointerdown
 "
 async
-(
 e
-)
 =
 >
 {
@@ -61,9 +59,7 @@ addEventListener
 "
 mousedown
 "
-(
 e
-)
 =
 >
 {
@@ -91,9 +87,7 @@ addEventListener
 "
 mouseup
 "
-(
 e
-)
 =
 >
 {
@@ -121,9 +115,7 @@ addEventListener
 "
 pointerup
 "
-(
 e
-)
 =
 >
 {
@@ -271,9 +263,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

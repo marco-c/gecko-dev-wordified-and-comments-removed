@@ -67,6 +67,7 @@ this
 _browserBundle
 ;
 return
+(
 this
 .
 _browserBundle
@@ -90,6 +91,7 @@ browser
 .
 properties
 "
+)
 )
 ;
 }
@@ -1041,9 +1043,7 @@ infoMessage3
 let
 closeHandler
 =
-(
 aEventName
-)
 =
 >
 {

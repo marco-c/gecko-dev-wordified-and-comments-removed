@@ -167,9 +167,7 @@ PlacesUtils
 favicons
 .
 FAVICON_LOAD_NON_PRIVATE
-(
 uriResult
-)
 =
 >
 resolve

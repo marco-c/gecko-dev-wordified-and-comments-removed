@@ -222,8 +222,10 @@ browser
 .
 isRemoteBrowser
 )
+{
 return
 ;
+}
 await
 TabStateFlusher
 .

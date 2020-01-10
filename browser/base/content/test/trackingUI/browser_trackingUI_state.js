@@ -2136,6 +2136,7 @@ gBrowser
 let
 tab
 =
+(
 tabbrowser
 .
 selectedTab
@@ -2145,6 +2146,7 @@ BrowserTestUtils
 addTab
 (
 tabbrowser
+)
 )
 ;
 ContentBlocking
@@ -2320,6 +2322,7 @@ gBrowser
 let
 tab
 =
+(
 tabbrowser
 .
 selectedTab
@@ -2329,6 +2332,7 @@ BrowserTestUtils
 addTab
 (
 tabbrowser
+)
 )
 ;
 Services
@@ -2508,6 +2512,7 @@ gBrowser
 let
 tab
 =
+(
 tabbrowser
 .
 selectedTab
@@ -2517,6 +2522,7 @@ BrowserTestUtils
 addTab
 (
 tabbrowser
+)
 )
 ;
 ContentBlocking

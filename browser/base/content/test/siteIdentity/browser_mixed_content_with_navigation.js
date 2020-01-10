@@ -149,9 +149,7 @@ about
 blank
 "
 async
-(
 browser
-)
 =
 >
 {
@@ -376,9 +374,7 @@ withNewTab
 (
 kSecureURI
 async
-(
 browser
-)
 =
 >
 {

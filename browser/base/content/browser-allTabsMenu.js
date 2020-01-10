@@ -86,8 +86,10 @@ this
 .
 _initializedElements
 )
+{
 return
 ;
+}
 for
 (
 let
@@ -136,8 +138,10 @@ this
 .
 _initialized
 )
+{
 return
 ;
+}
 this
 .
 initElements
@@ -171,9 +175,7 @@ tabsSeparator
 )
 filterFn
 :
-(
 tab
-)
 =
 >
 tab
@@ -207,9 +209,7 @@ this
 allTabsViewTabs
 filterFn
 :
-(
 tab
-)
 =
 >
 !
@@ -234,9 +234,7 @@ addEventListener
 "
 ViewShowing
 "
-(
 e
-)
 =
 >
 {
@@ -374,9 +372,7 @@ addEventListener
 "
 ViewShown
 "
-(
 e
-)
 =
 >
 {
@@ -441,9 +437,7 @@ addEventListener
 "
 ViewShowing
 "
-(
 e
-)
 =
 >
 {
@@ -676,9 +670,7 @@ this
 hiddenTabsView
 filterFn
 :
-(
 tab
-)
 =
 >
 tab
@@ -804,9 +796,7 @@ addEventListener
 "
 ViewShown
 "
-(
 e
-)
 =
 >
 {

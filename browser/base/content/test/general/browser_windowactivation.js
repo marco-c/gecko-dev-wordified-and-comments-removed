@@ -165,11 +165,13 @@ Promise
 resolve
 =
 >
+(
 testFinished
 .
 resolve
 =
 resolve
+)
 )
 ;
 window

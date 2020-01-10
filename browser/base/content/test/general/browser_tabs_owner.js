@@ -208,10 +208,12 @@ length
 >
 1
 )
+{
 gBrowser
 .
 removeCurrentTab
 (
 )
 ;
+}
 }

@@ -143,6 +143,7 @@ removeCurrentTab
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -152,6 +153,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 await
@@ -329,10 +331,12 @@ if
 !
 aFinalURL
 )
+{
 aFinalURL
 =
 aURL
 ;
+}
 info
 (
 "

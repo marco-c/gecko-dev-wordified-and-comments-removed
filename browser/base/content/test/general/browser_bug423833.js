@@ -157,8 +157,10 @@ location
 =
 invalidPage
 )
+{
 return
 ;
+}
 gBrowser
 .
 selectedBrowser
@@ -244,8 +246,10 @@ href
 =
 testPage
 )
+{
 return
 ;
+}
 clearInterval
 (
 intervalID
@@ -318,8 +322,10 @@ location
 =
 invalidPage
 )
+{
 return
 ;
+}
 gBrowser
 .
 removeEventListener
@@ -464,8 +470,10 @@ about
 blank
 "
 )
+{
 return
 ;
+}
 clearInterval
 (
 intervalID
@@ -575,10 +583,12 @@ aTopic
 domwindowopened
 "
 )
+{
 test3window
 =
 aSubject
 ;
+}
 Services
 .
 ww

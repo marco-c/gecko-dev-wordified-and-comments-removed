@@ -67,11 +67,9 @@ updates
 .
 push
 (
-(
 new
 Error
 (
-)
 )
 .
 stack

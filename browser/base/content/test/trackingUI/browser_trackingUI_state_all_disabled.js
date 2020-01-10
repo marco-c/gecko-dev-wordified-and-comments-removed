@@ -162,6 +162,7 @@ addTestTrackers
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -171,6 +172,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 Services

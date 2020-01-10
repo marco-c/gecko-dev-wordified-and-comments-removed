@@ -350,13 +350,11 @@ Assert
 .
 ok
 (
-(
 "
 opacity
 "
 in
 style
-)
 &
 &
 style

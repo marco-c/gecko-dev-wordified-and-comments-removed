@@ -188,12 +188,14 @@ level1
 >
 1
 )
+{
 FullZoom
 .
 reduce
 (
 )
 ;
+}
 FullZoomHelper
 .
 zoomTest

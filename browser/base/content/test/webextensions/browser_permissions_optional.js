@@ -221,9 +221,7 @@ pageScript
 manifest
 :
 {
-"
 optional_permissions
-"
 :
 [
 "

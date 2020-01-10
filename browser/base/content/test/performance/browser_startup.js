@@ -830,6 +830,7 @@ from
 scriptType
 ]
 )
+{
 to
 [
 scriptType
@@ -840,6 +841,7 @@ add
 item
 )
 ;
+}
 }
 }
 startupPhases
@@ -1084,6 +1086,7 @@ scriptType
 modules
 "
 )
+{
 info
 (
 Cu
@@ -1094,6 +1097,7 @@ name
 )
 )
 ;
+}
 else
 if
 (
@@ -1104,6 +1108,7 @@ scriptType
 components
 "
 )
+{
 info
 (
 componentStacks
@@ -1114,6 +1119,7 @@ name
 )
 )
 ;
+}
 }
 SimpleTest
 .
@@ -1197,12 +1203,14 @@ if
 (
 kDumpAllStacks
 )
+{
 printStack
 (
 scriptType
 f
 )
 ;
+}
 }
 }
 }
@@ -1282,9 +1290,11 @@ has
 c
 )
 )
+{
 return
 true
 ;
+}
 whitelist
 [
 scriptType
@@ -1473,12 +1483,14 @@ if
 (
 loaded
 )
+{
 printStack
 (
 scriptType
 file
 )
 ;
+}
 }
 }
 }

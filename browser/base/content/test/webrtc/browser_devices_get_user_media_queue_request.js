@@ -183,11 +183,9 @@ Assert
 .
 deepEqual
 (
-(
 await
 getMediaCaptureState
 (
-)
 )
 {
 video
@@ -472,11 +470,9 @@ Assert
 .
 deepEqual
 (
-(
 await
 getMediaCaptureState
 (
-)
 )
 {
 video
@@ -728,11 +724,9 @@ Assert
 .
 deepEqual
 (
-(
 await
 getMediaCaptureState
 (
-)
 )
 {
 audio

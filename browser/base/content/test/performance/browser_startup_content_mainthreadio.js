@@ -228,9 +228,7 @@ stat
 1
 }
 ]
-"
 WebExtensions
-"
 :
 [
 {
@@ -733,8 +731,10 @@ markerName
 FileIO
 "
 )
+{
 continue
 ;
+}
 let
 markerData
 =
@@ -833,6 +833,7 @@ toLowerCase
 )
 ;
 return
+(
 path
 =
 =
@@ -923,6 +924,7 @@ path
 slice
 (
 1
+)
 )
 )
 )

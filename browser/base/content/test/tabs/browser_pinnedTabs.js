@@ -53,6 +53,7 @@ if
 (
 msg
 )
+{
 msg
 =
 msg
@@ -67,11 +68,14 @@ diag
 )
 "
 ;
+}
 else
+{
 msg
 =
 diag
 ;
+}
 is
 (
 index

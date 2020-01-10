@@ -96,6 +96,7 @@ div
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -105,6 +106,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 await

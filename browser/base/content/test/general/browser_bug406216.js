@@ -81,6 +81,7 @@ aIndex
 =
 0
 )
+{
 gBrowser
 .
 removeTab
@@ -98,6 +99,7 @@ true
 }
 )
 ;
+}
 BrowserTestUtils
 .
 browserLoaded
@@ -125,11 +127,13 @@ URIS
 .
 length
 )
+{
 executeSoon
 (
 doTabsTest
 )
 ;
+}
 }
 )
 ;
@@ -225,6 +229,7 @@ scheme
 =
 scheme
 )
+{
 gBrowser
 .
 removeTab
@@ -237,6 +242,7 @@ true
 }
 )
 ;
+}
 }
 )
 ;

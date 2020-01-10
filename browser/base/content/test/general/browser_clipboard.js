@@ -157,7 +157,6 @@ browser
 const
 modifier
 =
-(
 navigator
 .
 platform
@@ -167,7 +166,6 @@ includes
 "
 Mac
 "
-)
 )
 ?
 Ci
@@ -230,7 +228,6 @@ sendKey
 const
 htmlPrefix
 =
-(
 navigator
 .
 platform
@@ -240,7 +237,6 @@ includes
 "
 Win
 "
-)
 )
 ?
 "
@@ -268,7 +264,6 @@ StartFragment
 const
 htmlPostfix
 =
-(
 navigator
 .
 platform
@@ -278,7 +273,6 @@ includes
 "
 Win
 "
-)
 )
 ?
 "

@@ -230,6 +230,7 @@ n
 )
 ;
 return
+(
 "
 -
 -
@@ -273,6 +274,7 @@ r
 \
 n
 "
+)
 ;
 }
 function
@@ -807,6 +809,7 @@ if
 (
 url
 )
+{
 BrowserTestUtils
 .
 loadURI
@@ -817,6 +820,7 @@ linkedBrowser
 url
 )
 ;
+}
 return
 loaded
 ;

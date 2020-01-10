@@ -1562,13 +1562,11 @@ function
 (
 )
 {
-(
 new
 content
 .
 RTCPeerConnection
 (
-)
 )
 .
 createOffer

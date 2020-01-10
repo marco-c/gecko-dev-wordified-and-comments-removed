@@ -424,6 +424,7 @@ tab3
 tab4
 ]
 )
+{
 BrowserTestUtils
 .
 removeTab
@@ -431,6 +432,7 @@ removeTab
 tab
 )
 ;
+}
 }
 )
 ;

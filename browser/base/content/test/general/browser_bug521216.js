@@ -145,6 +145,7 @@ includes
 aName
 )
 )
+{
 actual
 .
 push
@@ -152,6 +153,7 @@ push
 aName
 )
 ;
+}
 if
 (
 actual
@@ -251,6 +253,7 @@ target
 =
 tab
 )
+{
 recordEvent
 (
 "
@@ -258,6 +261,7 @@ TabOpen
 "
 )
 ;
+}
 }
 var
 progressListener
@@ -280,6 +284,7 @@ tab
 .
 linkedBrowser
 )
+{
 recordEvent
 (
 "
@@ -288,6 +293,7 @@ onLocationChange
 )
 ;
 }
+}
 onStateChange
 :
 function
@@ -305,6 +311,7 @@ tab
 .
 linkedBrowser
 )
+{
 recordEvent
 (
 "
@@ -312,6 +319,7 @@ onStateChange
 "
 )
 ;
+}
 }
 onLinkIconAvailable
 :
@@ -330,6 +338,7 @@ tab
 .
 linkedBrowser
 )
+{
 recordEvent
 (
 "
@@ -337,6 +346,7 @@ onLinkIconAvailable
 "
 )
 ;
+}
 }
 }
 ;

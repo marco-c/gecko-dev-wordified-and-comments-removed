@@ -182,6 +182,7 @@ if
 (
 element
 )
+{
 element
 .
 setAttribute
@@ -194,6 +195,7 @@ true
 "
 )
 ;
+}
 }
 let
 shownItems
@@ -225,6 +227,7 @@ if
 (
 element
 )
+{
 element
 .
 removeAttribute
@@ -234,6 +237,7 @@ hidden
 "
 )
 ;
+}
 }
 if
 (
@@ -295,6 +299,7 @@ if
 (
 element
 )
+{
 element
 .
 setAttribute
@@ -307,6 +312,7 @@ true
 "
 )
 ;
+}
 }
 element
 =

@@ -120,12 +120,10 @@ linkedBrowser
 ;
 is
 (
-(
 await
 getFocusedLocalName
 (
 browser
-)
 )
 "
 button
@@ -164,12 +162,10 @@ testTab
 ;
 is
 (
-(
 await
 getFocusedLocalName
 (
 browser
-)
 )
 "
 body

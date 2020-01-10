@@ -84,9 +84,7 @@ withNewTab
 (
 uri
 async
-(
 browser
-)
 =
 >
 {
@@ -243,9 +241,7 @@ withNewTab
 (
 uri
 async
-(
 browser
-)
 =
 >
 {
@@ -448,9 +444,7 @@ withNewTab
 (
 uri
 async
-(
 browser
-)
 =
 >
 {
@@ -611,9 +605,7 @@ withNewTab
 (
 uri
 async
-(
 browser
-)
 =
 >
 {

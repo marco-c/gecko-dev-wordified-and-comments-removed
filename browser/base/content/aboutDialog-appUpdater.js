@@ -114,6 +114,7 @@ gAppUpdater
 .
 isChecking
 )
+{
 gAppUpdater
 .
 checker
@@ -122,6 +123,7 @@ stopCurrentCheck
 (
 )
 ;
+}
 gAppUpdater
 .
 removeDownloadListener
@@ -457,6 +459,7 @@ update
 )
 {
 return
+(
 this
 .
 update
@@ -495,9 +498,11 @@ pending
 -
 elevate
 "
+)
 ;
 }
 return
+(
 this
 .
 um
@@ -550,6 +555,7 @@ pending
 -
 elevate
 "
+)
 )
 ;
 }
@@ -564,7 +570,9 @@ this
 .
 update
 )
+{
 return
+(
 this
 .
 update
@@ -589,8 +597,11 @@ applied
 -
 service
 "
+)
 ;
+}
 return
+(
 this
 .
 um
@@ -627,6 +638,7 @@ applied
 -
 service
 "
+)
 )
 ;
 }
@@ -787,6 +799,7 @@ this
 .
 update
 )
+{
 return
 this
 .
@@ -799,6 +812,7 @@ state
 downloading
 "
 ;
+}
 return
 this
 .
@@ -1527,6 +1541,7 @@ this
 .
 update
 )
+{
 this
 .
 update
@@ -1537,6 +1552,7 @@ um
 .
 activeUpdate
 ;
+}
 this
 .
 update
@@ -1589,6 +1605,7 @@ this
 .
 update
 )
+{
 this
 .
 update
@@ -1599,6 +1616,7 @@ um
 .
 activeUpdate
 ;
+}
 this
 .
 update

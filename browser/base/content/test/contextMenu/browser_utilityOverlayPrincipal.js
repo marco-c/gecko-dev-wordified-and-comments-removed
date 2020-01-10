@@ -73,6 +73,7 @@ test_openUILink_checkPrincipal
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -92,6 +93,7 @@ example
 com
 /
 "
+)
 )
 ;
 BrowserTestUtils

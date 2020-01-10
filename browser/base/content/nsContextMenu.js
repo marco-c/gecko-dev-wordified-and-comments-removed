@@ -676,8 +676,10 @@ this
 .
 shouldDisplay
 )
+{
 return
 ;
+}
 this
 .
 hasPageMenu
@@ -998,12 +1000,14 @@ if
 (
 bookmarkPage
 )
+{
 BookmarkingUI
 .
 onCurrentPageContextPopupShowing
 (
 )
 ;
+}
 this
 .
 initItems
@@ -1977,7 +1981,6 @@ mailto
 ;
 isMailtoInternal
 =
-(
 !
 mailtoHandler
 .
@@ -1996,7 +1999,6 @@ nsIHandlerInfo
 useHelperApp
 &
 &
-(
 mailtoHandler
 .
 preferredApplicationHandler
@@ -2004,8 +2006,6 @@ instanceof
 Ci
 .
 nsIWebHandlerApp
-)
-)
 ;
 }
 if
@@ -2432,7 +2432,6 @@ inTabBrowser
 {
 stopReloadItem
 =
-(
 stopped
 |
 |
@@ -2440,7 +2439,6 @@ stopped
 this
 .
 inTabBrowser
-)
 ?
 "
 reload
@@ -2524,6 +2522,7 @@ if
 (
 shouldShow
 )
+{
 this
 .
 showItem
@@ -2540,6 +2539,7 @@ commands
 true
 )
 ;
+}
 }
 initSaveItems
 :
@@ -3136,12 +3136,14 @@ if
 (
 shell
 )
+{
 haveSetDesktopBackground
 =
 shell
 .
 canSetDesktopBackground
 ;
+}
 }
 this
 .
@@ -3197,7 +3199,6 @@ context
 -
 reloadimage
 "
-(
 this
 .
 onImage
@@ -3207,7 +3208,6 @@ onImage
 this
 .
 onCompletedImage
-)
 )
 ;
 this
@@ -3763,6 +3763,7 @@ ownerDocument
 contentType
 )
 )
+{
 this
 .
 viewFrameSourceElement
@@ -3774,7 +3775,9 @@ hidden
 "
 )
 ;
+}
 else
+{
 this
 .
 viewFrameSourceElement
@@ -3789,6 +3792,7 @@ true
 "
 )
 ;
+}
 }
 this
 .
@@ -4616,7 +4620,6 @@ initMediaPlayerItems
 var
 onMedia
 =
-(
 this
 .
 onVideo
@@ -4625,7 +4628,6 @@ onVideo
 this
 .
 onAudio
-)
 ;
 this
 .
@@ -6960,6 +6962,7 @@ url
 .
 fileBaseName
 )
+{
 name
 =
 decodeURI
@@ -6975,6 +6978,7 @@ jpg
 "
 ;
 }
+}
 catch
 (
 e
@@ -6987,6 +6991,7 @@ if
 !
 name
 )
+{
 name
 =
 "
@@ -6995,6 +7000,7 @@ snapshot
 jpg
 "
 ;
+}
 let
 {
 documentURIObject
@@ -7371,8 +7377,10 @@ status
 =
 NS_ERROR_SAVE_LINK_AS_TIMEOUT
 )
+{
 return
 ;
+}
 timer
 .
 cancel
@@ -7586,6 +7594,7 @@ this
 .
 extListener
 )
+{
 this
 .
 extListener
@@ -7596,6 +7605,7 @@ aRequest
 aStatusCode
 )
 ;
+}
 }
 onDataAvailable
 :
@@ -7755,12 +7765,14 @@ if
 (
 linkDownload
 )
+{
 channel
 .
 contentDispositionFilename
 =
 linkDownload
 ;
+}
 if
 (
 channel
@@ -7812,6 +7824,7 @@ if
 (
 bypassCache
 )
+{
 flags
 |
 =
@@ -7821,6 +7834,7 @@ nsIRequest
 .
 LOAD_BYPASS_CACHE
 ;
+}
 if
 (
 channel
@@ -7829,6 +7843,7 @@ Ci
 .
 nsICachingChannel
 )
+{
 flags
 |
 =
@@ -7838,6 +7853,7 @@ nsICachingChannel
 .
 LOAD_BYPASS_LOCAL_CACHE_IF_BUSY
 ;
+}
 channel
 .
 loadFlags
@@ -7883,12 +7899,14 @@ Ci
 .
 nsIHttpChannelInternal
 )
+{
 channel
 .
 forceAllowThirdPartyCookie
 =
 true
 ;
+}
 }
 var
 timeToWait
@@ -8015,12 +8033,14 @@ this
 .
 onImage
 )
+{
 this
 .
 saveMedia
 (
 )
 ;
+}
 }
 saveMedia
 (
@@ -8223,12 +8243,14 @@ this
 .
 onImage
 )
+{
 this
 .
 sendMedia
 (
 )
 ;
+}
 }
 sendMedia
 (
@@ -8569,6 +8591,7 @@ if
 (
 item
 )
+{
 item
 .
 hidden
@@ -8576,6 +8599,7 @@ hidden
 !
 aShow
 ;
+}
 }
 setItemAttr
 (
@@ -8781,9 +8805,11 @@ sibling
 .
 hidden
 )
+{
 return
 true
 ;
+}
 sibling
 =
 sibling
@@ -9251,11 +9277,13 @@ this
 .
 onImage
 )
+{
 return
 this
 .
 mediaURL
 ;
+}
 return
 "
 "
@@ -9348,18 +9376,20 @@ if
 truncChar
 >
 =
-0xDC00
+0xdc00
 &
 &
 truncChar
 <
 =
-0xDFFF
+0xdfff
 )
+{
 truncLength
 +
 +
 ;
+}
 selectedText
 =
 selectedText

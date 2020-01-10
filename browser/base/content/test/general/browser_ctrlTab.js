@@ -11,9 +11,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -909,6 +907,7 @@ canOpen
 )
 {
 return
+(
 Services
 .
 prefs
@@ -932,6 +931,7 @@ tabs
 length
 >
 2
+)
 ;
 }
 function
@@ -1088,6 +1088,7 @@ tabCount
 >
 2
 )
+{
 is
 (
 gBrowser
@@ -1108,6 +1109,7 @@ tabbing
 "
 )
 ;
+}
 }
 if
 (

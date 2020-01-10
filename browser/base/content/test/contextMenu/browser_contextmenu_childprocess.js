@@ -356,6 +356,7 @@ details
 .
 checked
 )
+{
 is
 (
 menuitem
@@ -376,7 +377,9 @@ checked
 "
 )
 ;
+}
 else
+{
 ok
 (
 !
@@ -395,12 +398,14 @@ checked
 "
 )
 ;
+}
 if
 (
 details
 .
 disabled
 )
+{
 is
 (
 menuitem
@@ -421,7 +426,9 @@ disabled
 "
 )
 ;
+}
 else
+{
 ok
 (
 !
@@ -440,6 +447,7 @@ disabled
 "
 )
 ;
+}
 }
 menuitem
 =

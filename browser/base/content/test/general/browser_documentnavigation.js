@@ -184,9 +184,11 @@ Promise
 resolve
 =
 >
+(
 focusChangedInChildResolver
 =
 resolve
+)
 )
 :
 BrowserTestUtils

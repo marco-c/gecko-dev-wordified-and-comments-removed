@@ -55,9 +55,7 @@ selectedBrowser
 pageshow
 "
 true
-(
 event
-)
 =
 >
 {
@@ -275,6 +273,7 @@ if
 !
 HasFindClipboard
 )
+{
 is
 (
 findBar
@@ -295,6 +294,7 @@ selection
 "
 )
 ;
+}
 findBar
 .
 close

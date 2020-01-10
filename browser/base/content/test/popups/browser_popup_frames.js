@@ -149,6 +149,7 @@ waitForCondition
 )
 =
 >
+(
 notification
 =
 gBrowser
@@ -164,6 +165,7 @@ popup
 -
 blocked
 "
+)
 )
 )
 ;
@@ -466,6 +468,7 @@ waitForCondition
 )
 =
 >
+(
 notification
 =
 gBrowser
@@ -481,6 +484,7 @@ popup
 -
 blocked
 "
+)
 )
 )
 ;

@@ -481,6 +481,7 @@ t
 tab0
 )
 )
+{
 BrowserTestUtils
 .
 removeTab
@@ -488,6 +489,7 @@ removeTab
 tab
 )
 ;
+}
 }
 )
 ;

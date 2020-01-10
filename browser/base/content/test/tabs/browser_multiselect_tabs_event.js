@@ -87,9 +87,7 @@ event
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

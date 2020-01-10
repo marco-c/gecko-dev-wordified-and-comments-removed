@@ -16,9 +16,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -335,12 +333,14 @@ Math
 .
 ceil
 (
+(
 width
 (
 arrowScrollbox
 )
 /
 tabMinWidth
+)
 *
 1
 .

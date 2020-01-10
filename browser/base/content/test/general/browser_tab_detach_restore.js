@@ -74,6 +74,7 @@ getClosedWindowCount
 >
 0
 )
+{
 SessionStore
 .
 forgetClosedWindow
@@ -81,6 +82,7 @@ forgetClosedWindow
 0
 )
 ;
+}
 let
 tab
 =

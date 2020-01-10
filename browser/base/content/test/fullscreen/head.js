@@ -104,9 +104,7 @@ spawn
 (
 browser
 fullScreenState
-(
 state
-)
 =
 >
 {

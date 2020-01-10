@@ -53,9 +53,7 @@ browser
 expectedPid
 message
 }
-(
 arg
-)
 =
 >
 {
@@ -96,9 +94,7 @@ browser
 unExpectedPid
 message
 }
-(
 arg
-)
 =
 >
 {

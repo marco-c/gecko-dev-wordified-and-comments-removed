@@ -86,12 +86,14 @@ Math
 .
 ceil
 (
+(
 width
 (
 arrowScrollbox
 )
 /
 tabMinWidth
+)
 *
 3
 )

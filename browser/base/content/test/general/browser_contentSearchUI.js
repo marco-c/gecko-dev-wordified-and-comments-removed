@@ -3586,12 +3586,14 @@ forEach
 k
 =
 >
+(
 modifiers
 [
 k
 ]
 =
 true
+)
 )
 ;
 let
@@ -5380,9 +5382,7 @@ sugg
 {
 return
 typeof
-(
 sugg
-)
 =
 =
 "

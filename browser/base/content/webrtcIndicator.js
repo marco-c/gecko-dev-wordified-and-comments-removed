@@ -267,8 +267,10 @@ if
 !
 gStringBundle
 )
+{
 return
 ;
+}
 updateWindowAttr
 (
 "
@@ -311,6 +313,7 @@ webrtcUI
 .
 showCameraIndicator
 )
+{
 shareTypes
 .
 push
@@ -320,12 +323,14 @@ Camera
 "
 )
 ;
+}
 if
 (
 webrtcUI
 .
 showMicrophoneIndicator
 )
+{
 shareTypes
 .
 push
@@ -335,6 +340,7 @@ Microphone
 "
 )
 ;
+}
 let
 audioVideoButton
 =
@@ -501,6 +507,7 @@ if
 (
 value
 )
+{
 docEl
 .
 setAttribute
@@ -511,7 +518,9 @@ true
 "
 )
 ;
+}
 else
+{
 docEl
 .
 removeAttribute
@@ -519,6 +528,7 @@ removeAttribute
 attr
 )
 ;
+}
 }
 function
 onPopupMenuShowing
@@ -552,6 +562,7 @@ type
 Devices
 "
 )
+{
 activeStreams
 =
 webrtcUI
@@ -563,7 +574,9 @@ true
 false
 )
 ;
+}
 else
+{
 activeStreams
 =
 webrtcUI
@@ -575,6 +588,7 @@ false
 true
 )
 ;
+}
 if
 (
 activeStreams
@@ -689,6 +703,7 @@ popup
 .
 firstChild
 )
+{
 popup
 .
 firstChild
@@ -697,6 +712,7 @@ remove
 (
 )
 ;
+}
 }
 function
 onPopupMenuCommand
@@ -977,8 +993,10 @@ aEvent
 .
 defaultPrevented
 )
+{
 return
 ;
+}
 this
 .
 _startMouseX

@@ -32,6 +32,7 @@ dummy_page
 html
 "
 ;
+(
 "
 data
 :
@@ -54,6 +55,7 @@ me
 a
 >
 "
+)
 ;
 add_task
 (

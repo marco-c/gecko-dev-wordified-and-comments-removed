@@ -95,9 +95,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -611,9 +609,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -973,6 +969,7 @@ host
 ok
 (
 !
+(
 await
 checkCookie
 (
@@ -981,6 +978,7 @@ uriB
 host
 {
 }
+)
 )
 "
 We
@@ -1001,6 +999,7 @@ host
 ok
 (
 !
+(
 await
 checkIndexedDB
 (
@@ -1009,6 +1008,7 @@ uriB
 host
 {
 }
+)
 )
 "
 We
