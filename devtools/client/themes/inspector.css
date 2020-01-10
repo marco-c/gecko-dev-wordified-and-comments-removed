@@ -506,6 +506,10 @@ border
 -
 box
 ;
+direction
+:
+ltr
+;
 }
 #
 inspector
@@ -591,10 +595,6 @@ flex
 overflow
 :
 hidden
-;
-direction
-:
-ltr
 ;
 }
 #
