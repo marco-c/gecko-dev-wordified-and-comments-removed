@@ -189,6 +189,17 @@ binary
 ]
             
 "
+device_serial
+"
+:
+kwargs
+[
+"
+device_serial
+"
+]
+            
+"
 webdriver_binary
 "
 :
@@ -498,6 +509,10 @@ webdriver_binary
 chromedriver
 "
                  
+device_serial
+=
+None
+                 
 webdriver_args
 =
 None
@@ -547,6 +562,12 @@ binary
         
 self
 .
+device_serial
+=
+device_serial
+        
+self
+.
 server
 =
 ChromeDriverServer
@@ -578,6 +599,42 @@ args
 )
 :
         
+cmd
+=
+[
+'
+adb
+'
+]
+        
+if
+self
+.
+device_serial
+:
+            
+cmd
+.
+extend
+(
+[
+'
+-
+s
+'
+self
+.
+device_serial
+]
+)
+        
+cmd
+.
+extend
+(
+args
+)
+        
 self
 .
 logger
@@ -585,15 +642,11 @@ logger
 info
 (
 '
-adb
-'
-+
-'
 '
 .
 join
 (
-args
+cmd
 )
 )
         
@@ -601,13 +654,7 @@ subprocess
 .
 check_call
 (
-[
-'
-adb
-'
-]
-+
-args
+cmd
 )
     
 def
