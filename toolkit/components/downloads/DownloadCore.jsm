@@ -5095,6 +5095,13 @@ url
 loadUsingSystemPrincipal
 :
 true
+contentPolicyType
+:
+Ci
+.
+nsIContentPolicy
+.
+TYPE_SAVEAS_DOWNLOAD
 }
 )
 ;
