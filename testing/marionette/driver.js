@@ -12492,12 +12492,6 @@ flags
 )
 ;
 }
-assert
-.
-firefox
-(
-)
-;
 let
 quitSeen
 ;
