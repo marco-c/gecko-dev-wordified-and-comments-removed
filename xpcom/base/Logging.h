@@ -347,6 +347,7 @@ nullptr
 )
 {
 }
+MOZ_NEVER_INLINE_DEBUG
 operator
 LogModule
 *
