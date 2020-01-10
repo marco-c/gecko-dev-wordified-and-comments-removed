@@ -21,11 +21,7 @@ use
 libc
 :
 :
-{
 c_double
-int64_t
-uint16_t
-}
 ;
 use
 nserror
@@ -86,7 +82,7 @@ nsIVariant
 )
 -
 >
-uint16_t
+u16
 ;
 fn
 NS_NewStorageNullVariant
@@ -120,7 +116,7 @@ NS_NewStorageIntegerVariant
 (
 value
 :
-int64_t
+i64
 result
 :
 *
@@ -214,7 +210,7 @@ pub
 const
 DATA_TYPE_INT32
 :
-uint16_t
+u16
 =
 DataType
 :
@@ -227,7 +223,7 @@ pub
 const
 DATA_TYPE_DOUBLE
 :
-uint16_t
+u16
 =
 DataType
 :
@@ -240,7 +236,7 @@ pub
 const
 DATA_TYPE_BOOL
 :
-uint16_t
+u16
 =
 DataType
 :
@@ -253,7 +249,7 @@ pub
 const
 DATA_TYPE_VOID
 :
-uint16_t
+u16
 =
 DataType
 :
@@ -266,7 +262,7 @@ pub
 const
 DATA_TYPE_WSTRING
 :
-uint16_t
+u16
 =
 DataType
 :
@@ -279,7 +275,7 @@ pub
 const
 DATA_TYPE_EMPTY
 :
-uint16_t
+u16
 =
 DataType
 :
@@ -300,7 +296,7 @@ self
 )
 -
 >
-uint16_t
+u16
 ;
 }
 impl
@@ -316,7 +312,7 @@ self
 )
 -
 >
-uint16_t
+u16
 {
 unsafe
 {
