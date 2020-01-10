@@ -2854,7 +2854,7 @@ Dump
 }
 #
 endif
-CollectTransformsForChromeMainThread
+SendSubtreeTransformsToChromeMainThread
 (
 nullptr
 )
@@ -14493,7 +14493,7 @@ void
 APZCTreeManager
 :
 :
-CollectTransformsForChromeMainThread
+SendSubtreeTransformsToChromeMainThread
 (
 const
 AsyncPanZoomController
@@ -14653,7 +14653,7 @@ MatrixMessage
 aNode
 -
 >
-GetCSSTransformToRoot
+GetTransformToGecko
 (
 )
 layersId
