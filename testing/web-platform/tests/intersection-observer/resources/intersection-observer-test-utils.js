@@ -632,6 +632,16 @@ assert_equals
 (
 actual
 .
+isIntersecting
+expected
+.
+isIntersecting
+)
+;
+assert_equals
+(
+actual
+.
 target
 expected
 .
