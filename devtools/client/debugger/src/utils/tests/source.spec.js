@@ -3468,7 +3468,7 @@ it
 should
 detect
 mozilla
-extenstion
+extension
 "
 (
 )
@@ -3511,7 +3511,7 @@ it
 should
 detect
 chrome
-extenstion
+extension
 "
 (
 )
@@ -3612,7 +3612,7 @@ it
 should
 detect
 mozilla
-extenstion
+extension
 directory
 "
 (
@@ -3650,7 +3650,7 @@ it
 should
 detect
 chrome
-extenstion
+extension
 directory
 "
 (
@@ -3693,7 +3693,7 @@ child
 file
 within
 the
-extenstion
+extension
 directory
 "
 (

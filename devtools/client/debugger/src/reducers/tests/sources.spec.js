@@ -469,7 +469,7 @@ enabled
 {
 prefs
 .
-chromeAndExtenstionsEnabled
+chromeAndExtensionsEnabled
 =
 true
 ;
@@ -596,7 +596,7 @@ enabled
 {
 prefs
 .
-chromeAndExtenstionsEnabled
+chromeAndExtensionsEnabled
 =
 false
 ;

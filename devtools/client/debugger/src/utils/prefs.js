@@ -1083,7 +1083,7 @@ service
 enabled
 "
 ]
-chromeAndExtenstionsEnabled
+chromeAndExtensionsEnabled
 :
 [
 "
