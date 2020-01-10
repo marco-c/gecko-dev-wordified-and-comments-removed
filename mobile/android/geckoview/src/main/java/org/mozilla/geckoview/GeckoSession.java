@@ -7040,7 +7040,7 @@ return
 ;
 }
 Override
-AnyThread
+UiThread
 public
 void
 writeToParcel
@@ -7076,7 +7076,7 @@ mId
 )
 ;
 }
-AnyThread
+UiThread
 public
 void
 readFromParcel
@@ -7193,7 +7193,7 @@ GeckoSession
 )
 {
 Override
-AnyThread
+UiThread
 public
 GeckoSession
 createFromParcel
@@ -7224,7 +7224,7 @@ session
 ;
 }
 Override
-AnyThread
+UiThread
 public
 GeckoSession
 [
