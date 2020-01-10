@@ -327,7 +327,7 @@ return
 ;
 default
 :
-LOG
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Error
