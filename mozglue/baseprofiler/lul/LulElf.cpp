@@ -1,5 +1,15 @@
 #
 include
+"
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
 <
 errno
 .
@@ -4558,3 +4568,5 @@ buffer_idx
 ;
 }
 }
+#
+endif

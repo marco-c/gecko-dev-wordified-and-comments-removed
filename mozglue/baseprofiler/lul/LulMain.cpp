@@ -1,6 +1,16 @@
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 LulMain
 .
 h
@@ -142,13 +152,6 @@ h
 include
 "
 LulMainInt
-.
-h
-"
-#
-include
-"
-BaseProfiler
 .
 h
 "
@@ -9567,6 +9570,7 @@ write
 (
 1
 space
+\
 0
 )
 ;
@@ -10430,3 +10434,5 @@ n
 ;
 }
 }
+#
+endif

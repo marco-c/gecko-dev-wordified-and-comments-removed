@@ -1,6 +1,16 @@
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 PageInformation
 .
 h
@@ -206,3 +216,5 @@ this
 )
 ;
 }
+#
+endif
