@@ -1397,6 +1397,7 @@ Nowrap
 PreWrap
 PreLine
 PreSpace
+BreakSpaces
 }
 ;
 #
