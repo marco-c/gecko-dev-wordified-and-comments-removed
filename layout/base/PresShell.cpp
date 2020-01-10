@@ -238,13 +238,6 @@ h
 "
 #
 include
-"
-MobileViewportManager
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -5210,7 +5203,7 @@ if
 mPresContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 )
@@ -51275,7 +51268,7 @@ if
 mPresContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 )
