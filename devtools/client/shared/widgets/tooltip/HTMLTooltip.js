@@ -288,7 +288,10 @@ normal
 arrow
 "
 :
-3
+-
+0
+.
+5
 "
 doorhanger
 "
