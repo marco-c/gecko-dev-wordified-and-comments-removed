@@ -3959,9 +3959,9 @@ const
 isInTree
 =
 await
-this
+node
 .
-walker
+walkerFront
 .
 isInDOMTree
 (
