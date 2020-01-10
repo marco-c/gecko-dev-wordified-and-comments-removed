@@ -438,7 +438,7 @@ event
 )
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 browser
 true

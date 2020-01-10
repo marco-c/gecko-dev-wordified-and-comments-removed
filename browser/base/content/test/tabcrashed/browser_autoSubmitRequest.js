@@ -126,7 +126,7 @@ browser
 await
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 browser
 )
@@ -315,7 +315,7 @@ browser
 await
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 browser
 )
@@ -487,7 +487,7 @@ prepareNoDump
 await
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 browser
 )

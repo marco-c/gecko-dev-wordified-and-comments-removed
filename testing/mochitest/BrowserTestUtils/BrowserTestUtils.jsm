@@ -5093,7 +5093,7 @@ TabClose
 ;
 }
 async
-crashBrowser
+crashFrame
 (
 browser
 shouldShowTabCrashPage
@@ -5102,6 +5102,7 @@ true
 shouldClearMinidumps
 =
 true
+browsingContext
 )
 {
 let
@@ -5738,6 +5739,9 @@ this
 .
 sendAsyncMessage
 (
+browsingContext
+|
+|
 browser
 .
 browsingContext
