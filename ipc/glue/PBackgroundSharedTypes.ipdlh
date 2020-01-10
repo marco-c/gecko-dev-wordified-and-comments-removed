@@ -282,6 +282,15 @@ ExpandedPrincipalInfo
 ;
 }
 ;
+union
+OptionalPrincipalInfo
+{
+PrincipalInfo
+;
+void_t
+;
+}
+;
 struct
 PolicyInfo
 {
