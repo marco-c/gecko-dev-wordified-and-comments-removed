@@ -282,12 +282,6 @@ Skip
 below
 tests
 on
-Windows
-(
-bug
-1516322
-)
-on
 Webrender
 (
 bug
@@ -297,9 +291,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
@@ -320,9 +311,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
@@ -345,9 +333,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
@@ -380,9 +365,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 fails
@@ -415,9 +397,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
@@ -438,9 +417,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
@@ -469,9 +445,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
@@ -500,9 +473,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
@@ -531,9 +501,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
@@ -562,9 +529,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 fails
@@ -595,9 +559,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
@@ -624,9 +585,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
@@ -647,9 +605,6 @@ skip
 -
 if
 (
-winWidget
-|
-|
 webrender
 )
 =
