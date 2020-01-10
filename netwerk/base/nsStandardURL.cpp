@@ -17783,6 +17783,14 @@ supportsFileURL
 !
 mSupportsFileURL
 ;
+params
+.
+isSubstituting
+(
+)
+=
+false
+;
 aParams
 =
 params
