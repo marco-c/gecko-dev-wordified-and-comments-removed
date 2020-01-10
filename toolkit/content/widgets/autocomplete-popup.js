@@ -424,10 +424,7 @@ flex
 "
 1
 "
->
-<
 /
-richlistbox
 >
 ;
 }
