@@ -111,15 +111,6 @@ aRecordingStart
 )
 {
 }
-CompositionRecorder
-:
-:
-~
-CompositionRecorder
-(
-)
-{
-}
 void
 CompositionRecorder
 :
