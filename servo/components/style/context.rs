@@ -930,6 +930,7 @@ registered_speculative_painters
 &
 '
 a
+dyn
 RegisteredSpeculativePainters
 #
 [
@@ -3717,6 +3718,7 @@ Atom
 Option
 <
 &
+dyn
 RegisteredSpeculativePainter
 >
 ;

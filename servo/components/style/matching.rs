@@ -2285,6 +2285,7 @@ PropertyAnimation
 font_metrics
 :
 &
+dyn
 crate
 :
 :
