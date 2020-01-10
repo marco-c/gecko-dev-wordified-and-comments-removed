@@ -1,13 +1,3 @@
-PromiseTestUtils
-.
-whitelistRejectionsGlobally
-(
-/
-Connection
-closed
-/
-)
-;
 add_task
 (
 async
