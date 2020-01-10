@@ -1339,7 +1339,7 @@ extensions
 .
 getAddons
 .
-getWithPerformance
+compatOverides
 .
 url
 "
@@ -1356,7 +1356,7 @@ extensions
 -
 dummy
 /
-repositoryGetWithPerformanceURL
+repositoryCompatOverridesURL
 "
 )
 ;
