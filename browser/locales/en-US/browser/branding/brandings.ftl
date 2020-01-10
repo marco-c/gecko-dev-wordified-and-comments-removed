@@ -126,6 +126,16 @@ name
 Firefox
 Monitor
 -
+monitor
+-
+brand
+-
+short
+-
+name
+=
+Monitor
+-
 pocket
 -
 brand
