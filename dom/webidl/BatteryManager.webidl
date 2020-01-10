@@ -141,6 +141,9 @@ apply
 .
 *
 /
+[
+ChromeOnly
+]
 interface
 BatteryManager
 :
