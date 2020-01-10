@@ -102,6 +102,15 @@ process
 jsm
 '
 '
+debug
+-
+new
+-
+process
+.
+js
+'
+'
 frame
 .
 js
