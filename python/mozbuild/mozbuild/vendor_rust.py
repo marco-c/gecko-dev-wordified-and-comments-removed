@@ -448,6 +448,15 @@ splitlines
 [
 0
 ]
+.
+decode
+(
+'
+UTF
+-
+8
+'
+)
         
 if
 not
@@ -478,7 +487,6 @@ split
 )
 >
 =
-b
 '
 1
 .
@@ -1893,7 +1901,6 @@ strip
 .
 startswith
 (
-b
 '
 license
 '
@@ -2228,6 +2235,15 @@ hashlib
 sha256
 (
 license_contents
+.
+encode
+(
+'
+UTF
+-
+8
+'
+)
 )
 .
 hexdigest
@@ -2476,6 +2492,15 @@ cwd
 self
 .
 topsrcdir
+)
+.
+decode
+(
+'
+UTF
+-
+8
+'
 )
         
 config
