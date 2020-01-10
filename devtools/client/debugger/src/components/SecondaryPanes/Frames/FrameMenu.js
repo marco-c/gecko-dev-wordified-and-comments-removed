@@ -62,7 +62,7 @@ const
 blackboxString
 =
 "
-sourceFooter
+blackboxContextItem
 .
 blackbox
 "
@@ -71,7 +71,7 @@ const
 unblackboxString
 =
 "
-sourceFooter
+blackboxContextItem
 .
 unblackbox
 "

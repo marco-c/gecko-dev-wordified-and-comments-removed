@@ -709,7 +709,7 @@ L10N
 getStr
 (
 "
-sourceFooter
+blackboxContextItem
 .
 unblackbox
 "
@@ -720,7 +720,7 @@ L10N
 getStr
 (
 "
-sourceFooter
+blackboxContextItem
 .
 blackbox
 "

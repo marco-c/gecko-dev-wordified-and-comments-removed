@@ -546,7 +546,7 @@ L10N
 getStr
 (
 "
-sourceFooter
+blackboxContextItem
 .
 blackbox
 "
@@ -558,7 +558,7 @@ L10N
 getStr
 (
 "
-sourceFooter
+blackboxContextItem
 .
 blackbox
 .
