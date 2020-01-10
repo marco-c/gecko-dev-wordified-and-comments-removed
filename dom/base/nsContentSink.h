@@ -928,10 +928,6 @@ mProcessLinkHeaderEvent
 ;
 static
 int32_t
-sInitialPerfTime
-;
-static
-int32_t
 sEnablePerfMode
 ;
 }
