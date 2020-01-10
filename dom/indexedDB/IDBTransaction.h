@@ -877,7 +877,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 IDBTransaction
 DOMEventTargetHelper
 )
-virtual
 JSObject
 *
 WrapObject
