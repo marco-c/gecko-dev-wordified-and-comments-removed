@@ -365,7 +365,6 @@ toolbox
 .
 getHighlighter
 (
-true
 )
 ;
 Object
