@@ -3714,9 +3714,12 @@ ipc
 IPCResult
 RecvDetachBrowsingContext
 (
-BrowsingContext
-*
-aContext
+uint64_t
+aContextId
+DetachBrowsingContextResolver
+&
+&
+aResolve
 )
 ;
 mozilla
