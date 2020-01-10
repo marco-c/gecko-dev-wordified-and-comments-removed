@@ -430,11 +430,15 @@ do_CreateInstance
 NS_SCRIPTERROR_CONTRACTID
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 scriptError
 )
+{
+return
 ;
+}
 if
 (
 aInnerWindowID
