@@ -12,6 +12,17 @@ mozilla
 /
 dom
 /
+BindContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLBodyElementBinding
 .
 h
@@ -1552,6 +1563,9 @@ mAttrs
 ForceMapped
 (
 this
+&
+aContext
+.
 OwnerDoc
 (
 )

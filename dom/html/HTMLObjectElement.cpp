@@ -891,6 +891,13 @@ rv
 rv
 )
 ;
+if
+(
+IsInComposedDoc
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIPluginDocument
@@ -899,7 +906,10 @@ pluginDoc
 =
 do_QueryInterface
 (
-GetUncomposedDoc
+&
+aContext
+.
+OwnerDoc
 (
 )
 )
@@ -951,6 +961,7 @@ start
 )
 )
 ;
+}
 }
 return
 NS_OK

@@ -280,7 +280,7 @@ rv
 ;
 if
 (
-GetComposedDoc
+IsInComposedDoc
 (
 )
 )

@@ -16,6 +16,17 @@ mozilla
 /
 dom
 /
+BindContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLBaseElementBinding
 .
 h
@@ -1233,6 +1244,9 @@ href
 {
 SetBaseURIUsingFirstBaseWithHref
 (
+&
+aContext
+.
 OwnerDoc
 (
 )
@@ -1254,6 +1268,9 @@ target
 {
 SetBaseTargetUsingFirstBaseWithTarget
 (
+&
+aContext
+.
 OwnerDoc
 (
 )

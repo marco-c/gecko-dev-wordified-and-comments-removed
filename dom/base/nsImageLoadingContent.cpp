@@ -6787,7 +6787,9 @@ aParent
 {
 if
 (
-GetOurCurrentDoc
+aParent
+.
+IsInComposedDoc
 (
 )
 )

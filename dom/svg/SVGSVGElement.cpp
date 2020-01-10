@@ -1696,11 +1696,12 @@ if
 (
 smilController
 =
+aContext
+.
 OwnerDoc
 (
 )
--
->
+.
 GetAnimationController
 (
 )
