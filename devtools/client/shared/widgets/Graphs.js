@@ -71,8 +71,6 @@ resource
 /
 devtools
 /
-client
-/
 shared
 /
 DOMHelpers

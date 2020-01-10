@@ -336,6 +336,11 @@ constants
 js
 '
 '
+DOMHelpers
+.
+jsm
+'
+'
 event
 -
 emitter

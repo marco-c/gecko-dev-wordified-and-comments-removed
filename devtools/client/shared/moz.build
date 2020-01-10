@@ -229,11 +229,6 @@ devices
 js
 '
 '
-DOMHelpers
-.
-jsm
-'
-'
 enum
 .
 js
