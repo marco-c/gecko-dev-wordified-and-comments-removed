@@ -781,6 +781,15 @@ _extensionListeners
 null
 ;
 }
+toJSON
+(
+)
+{
+return
+{
+}
+;
+}
 receiveMessage
 (
 message
