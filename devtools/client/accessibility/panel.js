@@ -401,15 +401,6 @@ _toolbox
 await
 this
 .
-_toolbox
-.
-initInspector
-(
-)
-;
-await
-this
-.
 startup
 .
 initAccessibility
