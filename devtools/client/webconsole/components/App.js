@@ -598,13 +598,6 @@ FILTERBAR_DISPLAY_MODES
 )
 .
 isRequired
-editorFeatureEnabled
-:
-PropTypes
-.
-bool
-.
-isRequired
 }
 ;
 }
@@ -715,7 +708,6 @@ const
 {
 dispatch
 webConsoleUI
-editorFeatureEnabled
 }
 =
 this
@@ -803,9 +795,6 @@ stopPropagation
 }
 if
 (
-editorFeatureEnabled
-&
-&
 event
 .
 key
@@ -1335,7 +1324,6 @@ renderEditorToolbar
 const
 {
 editorMode
-editorFeatureEnabled
 dispatch
 reverseSearchInputVisible
 serviceContainer
@@ -1347,9 +1335,6 @@ this
 props
 ;
 return
-editorFeatureEnabled
-&
-&
 editorMode
 ?
 EditorToolbar
@@ -1415,7 +1400,6 @@ serviceContainer
 autocomplete
 editorMode
 editorWidth
-editorFeatureEnabled
 }
 =
 this
@@ -1440,13 +1424,7 @@ this
 onPaste
 autocomplete
 editorMode
-:
-editorMode
-&
-&
-editorFeatureEnabled
 editorWidth
-editorFeatureEnabled
 }
 )
 ;
@@ -1534,7 +1512,6 @@ const
 {
 notifications
 editorMode
-editorFeatureEnabled
 }
 =
 this
@@ -1562,18 +1539,10 @@ box
 displayBorderTop
 :
 !
-(
 editorMode
-&
-&
-editorFeatureEnabled
-)
 displayBorderBottom
 :
 editorMode
-&
-&
-editorFeatureEnabled
 wrapping
 :
 true
@@ -1621,7 +1590,6 @@ children
 const
 {
 editorMode
-editorFeatureEnabled
 serviceContainer
 }
 =
@@ -1643,9 +1611,6 @@ app
 if
 (
 editorMode
-&
-&
-editorFeatureEnabled
 )
 {
 classNames
@@ -1730,7 +1695,6 @@ const
 {
 webConsoleUI
 editorMode
-editorFeatureEnabled
 dispatch
 }
 =
@@ -1858,9 +1822,6 @@ resizer
 "
 enabled
 :
-editorFeatureEnabled
-&
-&
 editorMode
 position
 :

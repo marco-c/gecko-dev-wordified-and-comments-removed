@@ -657,13 +657,6 @@ prefs
 autocomplete
 ;
 const
-editorFeatureEnabled
-=
-prefs
-.
-editor
-;
-const
 app
 =
 App
@@ -685,7 +678,6 @@ bind
 this
 )
 autocomplete
-editorFeatureEnabled
 hidePersistLogsCheckbox
 :
 webConsoleUI
