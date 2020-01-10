@@ -297,7 +297,6 @@ try
 valgrind
 -
 test
-vendor
 visualmetrics
 warnings
 -
