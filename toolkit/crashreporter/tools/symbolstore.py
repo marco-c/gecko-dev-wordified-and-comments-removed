@@ -1376,7 +1376,7 @@ Windows
 :
     
 def
-normpath
+realpath
 (
 path
 )
@@ -1602,13 +1602,13 @@ result
 else
 :
     
-normpath
+realpath
 =
 os
 .
 path
 .
-normpath
+realpath
 def
 IsInDir
 (
@@ -2189,7 +2189,7 @@ path
                 
 abs_dest
 =
-normpath
+realpath
 (
 os
 .
@@ -2207,7 +2207,7 @@ file_mapping
 abs_dest
 ]
 =
-normpath
+realpath
 (
 src
 .
@@ -3020,7 +3020,7 @@ self
 srcdirs
 =
 [
-normpath
+realpath
 (
 s
 )
@@ -3754,7 +3754,7 @@ filename
                         
 filename
 =
-normpath
+realpath
 (
 filename
 )
@@ -7106,7 +7106,7 @@ manifests
 generated_files
 =
 {
-normpath
+realpath
 (
 os
 .
