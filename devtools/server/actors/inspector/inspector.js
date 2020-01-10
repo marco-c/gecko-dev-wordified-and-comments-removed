@@ -729,6 +729,7 @@ getHighlighter
 function
 (
 autohide
+useNewBoxModelHighlighter
 )
 {
 if
@@ -767,6 +768,7 @@ HighlighterActor
 (
 this
 autohide
+useNewBoxModelHighlighter
 )
 ;
 this
