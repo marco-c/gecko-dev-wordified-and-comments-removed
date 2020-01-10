@@ -1354,7 +1354,7 @@ nsresult
 private
 :
 void
-AssertNotDocumentChennel
+AssertNotDocumentChannel
 (
 )
 ;

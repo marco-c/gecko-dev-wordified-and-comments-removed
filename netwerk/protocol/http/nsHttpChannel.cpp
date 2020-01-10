@@ -12350,7 +12350,7 @@ return
 NS_OK
 ;
 }
-AssertNotDocumentChennel
+AssertNotDocumentChannel
 (
 )
 ;
@@ -12366,7 +12366,7 @@ void
 nsHttpChannel
 :
 :
-AssertNotDocumentChennel
+AssertNotDocumentChannel
 (
 )
 {
@@ -35414,7 +35414,7 @@ return
 NS_OK
 ;
 }
-AssertNotDocumentChennel
+AssertNotDocumentChannel
 (
 )
 ;
