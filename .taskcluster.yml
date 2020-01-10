@@ -877,15 +877,6 @@ task_id
 provisionerId
 :
 "
-aws
--
-provisioner
--
-v1
-"
-workerType
-:
-"
 gecko
 -
 {
@@ -893,7 +884,10 @@ repository
 .
 level
 }
--
+"
+workerType
+:
+"
 decision
 "
 tags
