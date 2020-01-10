@@ -2364,6 +2364,9 @@ await
 scripts
 ;
 }
+await
+cssPromise
+;
 let
 result
 ;
@@ -2455,9 +2458,6 @@ context
 )
 ;
 }
-await
-cssPromise
-;
 return
 result
 ;
