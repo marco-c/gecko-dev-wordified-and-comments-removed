@@ -498,6 +498,9 @@ gc
 Cell
 *
 key
+Compartment
+*
+comp
 )
 =
 0
@@ -1431,6 +1434,9 @@ gc
 Cell
 *
 key
+Compartment
+*
+comp
 )
 override
 ;
