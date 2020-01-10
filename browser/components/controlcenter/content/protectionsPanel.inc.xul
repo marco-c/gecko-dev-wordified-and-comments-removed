@@ -193,11 +193,6 @@ panel
 -
 header
 "
-flex
-=
-"
-1
-"
 onclick
 =
 "
