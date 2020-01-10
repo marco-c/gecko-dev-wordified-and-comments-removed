@@ -99,6 +99,15 @@ Code
 generator
 .
 "
+security
+/
+manager
+/
+ssl
+/
+osclientcerts
+"
+"
 testing
 /
 geckodriver
