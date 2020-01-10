@@ -63,6 +63,9 @@ Constructor
 optional
 GeolocationSensorOptions
 options
+=
+{
+}
 )
 SecureContext
 Exposed
@@ -87,6 +90,9 @@ read
 optional
 ReadOptions
 readOptions
+=
+{
+}
 )
 ;
 readonly
