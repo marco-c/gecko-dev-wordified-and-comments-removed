@@ -5222,7 +5222,6 @@ blob_size
 max_texture_size
 )
 ;
-;
 image
 .
 valid_tiles_after_bounds_change
