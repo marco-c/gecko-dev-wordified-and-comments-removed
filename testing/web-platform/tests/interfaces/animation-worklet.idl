@@ -125,13 +125,13 @@ state
 }
 ;
 [
-Exposed
+Global
 =
 (
-AnimationWorklet
 Worklet
+AnimationWorklet
 )
-Global
+Exposed
 =
 AnimationWorklet
 ]
