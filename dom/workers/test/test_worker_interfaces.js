@@ -1695,12 +1695,9 @@ isInsecureContext
 &
 &
 !
-Boolean
-(
 entry
 .
 insecureContext
-)
 )
 |
 |

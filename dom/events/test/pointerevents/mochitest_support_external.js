@@ -779,8 +779,6 @@ elemId
 ;
 if
 (
-!
-!
 elem
 )
 {

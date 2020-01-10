@@ -27,16 +27,6 @@ manifest
 )
 ;
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 talk_with_worker
 (
 worker
