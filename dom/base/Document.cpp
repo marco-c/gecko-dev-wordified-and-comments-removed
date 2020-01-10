@@ -44230,9 +44230,10 @@ widthErrorCode
 {
 mMaxWidth
 =
-1
-.
-0f
+nsViewportInfo
+:
+:
+Auto
 ;
 }
 else
@@ -44417,9 +44418,10 @@ heightErrorCode
 {
 mMaxHeight
 =
-1
-.
-0f
+nsViewportInfo
+:
+:
+Auto
 ;
 }
 else
