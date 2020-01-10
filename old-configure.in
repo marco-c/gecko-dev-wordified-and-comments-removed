@@ -17666,6 +17666,16 @@ OS_ARCH
 "
 Darwin
 "
+-
+a
+"
+MOZ_WIDGET_TOOLKIT
+"
+!
+=
+"
+android
+"
 ;
 then
 if
