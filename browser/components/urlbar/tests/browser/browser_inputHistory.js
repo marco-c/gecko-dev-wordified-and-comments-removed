@@ -2718,6 +2718,7 @@ await
 promiseAutocompleteResultPopup
 (
 "
+si
 "
 )
 ;
@@ -2730,7 +2731,7 @@ UrlbarTestUtils
 getDetailsOfResultAt
 (
 window
-0
+1
 )
 ;
 Assert
@@ -2756,7 +2757,7 @@ UrlbarTestUtils
 getDetailsOfResultAt
 (
 window
-1
+2
 )
 ;
 Assert
@@ -2835,6 +2836,7 @@ await
 promiseAutocompleteResultPopup
 (
 "
+si
 "
 )
 ;
@@ -2846,7 +2848,7 @@ UrlbarTestUtils
 getDetailsOfResultAt
 (
 window
-0
+1
 )
 ;
 Assert
@@ -2872,7 +2874,7 @@ UrlbarTestUtils
 getDetailsOfResultAt
 (
 window
-1
+2
 )
 ;
 Assert
