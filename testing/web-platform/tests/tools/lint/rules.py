@@ -2068,14 +2068,15 @@ pattern
 =
 br
 "
+(
 eventSender
 |
 testRunner
 |
-window
+internals
+)
 \
 .
-internals
 "
     
 name
@@ -2121,8 +2122,6 @@ eventSender
 /
 testRunner
 /
-window
-.
 internals
 used
 ;

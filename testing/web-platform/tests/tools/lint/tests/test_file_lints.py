@@ -1370,8 +1370,6 @@ eventSender
 /
 testRunner
 /
-window
-.
 internals
 used
 ;
@@ -1500,8 +1498,6 @@ eventSender
 /
 testRunner
 /
-window
-.
 internals
 used
 ;
@@ -1524,7 +1520,7 @@ filename
 )
 ]
 def
-test_windowDotInternals
+test_internals
 (
 )
 :
@@ -1630,8 +1626,6 @@ eventSender
 /
 testRunner
 /
-window
-.
 internals
 used
 ;

@@ -582,8 +582,6 @@ uses
 eventSender
 testRunner
 or
-window
-.
 internals
 which
 are
