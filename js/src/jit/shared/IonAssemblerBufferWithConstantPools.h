@@ -3398,9 +3398,17 @@ assertNoPoolAndNoNops
 MOZ_ASSERT
 (
 inhibitNops_
-&
-&
+)
+;
+MOZ_ASSERT_IF
 (
+!
+this
+-
+>
+oom
+(
+)
 isPoolEmptyFor
 (
 InstSize
@@ -3408,7 +3416,6 @@ InstSize
 |
 |
 canNotPlacePool_
-)
 )
 ;
 }
