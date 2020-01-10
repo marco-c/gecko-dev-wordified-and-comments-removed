@@ -1999,9 +1999,6 @@ FormDataEvent
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
