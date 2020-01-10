@@ -2461,6 +2461,10 @@ pub
 root_spatial_node_index
 :
 SpatialNodeIndex
+pub
+surface_spatial_node_index
+:
+SpatialNodeIndex
 uv_rect_kind
 :
 UvRectKind
@@ -3772,6 +3776,9 @@ UvRectKind
 root_spatial_node_index
 :
 SpatialNodeIndex
+surface_spatial_node_index
+:
+SpatialNodeIndex
 device_pixel_scale
 :
 DevicePixelScale
@@ -3890,6 +3897,7 @@ new
 )
 uv_rect_kind
 root_spatial_node_index
+surface_spatial_node_index
 device_pixel_scale
 }
 )

@@ -62,6 +62,7 @@ clip_scroll_tree
 :
 :
 {
+ROOT_SPATIAL_NODE_INDEX
 CoordinateSystemId
 ClipScrollTree
 SpatialNodeIndex
@@ -2052,6 +2053,10 @@ pub
 pic_clip_rect
 :
 PictureRect
+pub
+pic_spatial_node_index
+:
+SpatialNodeIndex
 }
 impl
 ClipChainInstance
@@ -2100,6 +2105,9 @@ PictureRect
 zero
 (
 )
+pic_spatial_node_index
+:
+ROOT_SPATIAL_NODE_INDEX
 }
 }
 }
@@ -3119,6 +3127,11 @@ clips_range
 has_non_local_clips
 local_clip_rect
 pic_clip_rect
+pic_spatial_node_index
+:
+prim_to_pic_mapper
+.
+ref_spatial_node_index
 needs_mask
 }
 )
