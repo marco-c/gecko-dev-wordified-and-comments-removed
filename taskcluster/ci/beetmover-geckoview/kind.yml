@@ -283,6 +283,13 @@ manifests
 fennec_geckoview
 .
 yml
+artifact_prefix
+:
+public
+/
+build
+/
+maven
 run
 -
 on
