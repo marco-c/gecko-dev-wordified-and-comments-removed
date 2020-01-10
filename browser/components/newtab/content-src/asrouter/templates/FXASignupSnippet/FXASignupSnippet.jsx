@@ -217,11 +217,6 @@ entrypoint
 "
 snippets
 "
-service
-:
-"
-sync
-"
 utm_source
 :
 "
