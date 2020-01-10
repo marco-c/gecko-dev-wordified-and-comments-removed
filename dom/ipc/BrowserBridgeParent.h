@@ -404,12 +404,11 @@ mEmbedderAccessibleDoc
 ;
 uint64_t
 mEmbedderAccessibleID
+=
+0
 ;
 #
 endif
-bool
-mIPCOpen
-;
 }
 ;
 }
