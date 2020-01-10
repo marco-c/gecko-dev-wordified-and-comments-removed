@@ -375,7 +375,7 @@ target
 .
 activeConsole
 .
-evaluateJS
+evaluateJSAsync
 (
 code
 )
