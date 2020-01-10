@@ -2290,6 +2290,8 @@ Clto
 #
 Enabling
 sancov
+or
+TSan
 also
 causes
 this
@@ -2298,6 +2300,8 @@ fail
 .
 ifndef
 MOZ_PROFILE_GENERATE
+ifndef
+MOZ_TSAN
 ifeq
 (
 (
@@ -2333,6 +2337,7 @@ target
 -
 networking
 )
+endif
 endif
 endif
 endif
