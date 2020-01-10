@@ -7454,6 +7454,8 @@ bug_numbers
 1447302
 -
 1503568
+-
+1587985
 description
 :
 >
@@ -7525,9 +7527,7 @@ definitions
 js
 expires
 :
-"
-70
-"
+never
 kind
 :
 boolean
@@ -7589,6 +7589,8 @@ bug_numbers
 1447302
 -
 1503568
+-
+1587985
 description
 :
 >
@@ -7608,9 +7610,7 @@ tool
 .
 expires
 :
-"
-70
-"
+never
 kind
 :
 uint
@@ -7665,6 +7665,8 @@ bug_numbers
 1447302
 -
 1503568
+-
+1587985
 description
 :
 >
@@ -7681,9 +7683,7 @@ opened
 .
 expires
 :
-"
-70
-"
+never
 kind
 :
 uint
@@ -7738,6 +7738,8 @@ bug_numbers
 1447302
 -
 1503568
+-
+1587985
 description
 :
 >
@@ -7757,9 +7759,7 @@ panel
 .
 expires
 :
-"
-70
-"
+never
 kind
 :
 uint
@@ -7814,6 +7814,8 @@ bug_numbers
 1447302
 -
 1503568
+-
+1587985
 description
 :
 >
@@ -7856,9 +7858,7 @@ etc
 .
 expires
 :
-"
-70
-"
+never
 kind
 :
 uint
@@ -7916,6 +7916,8 @@ bug_numbers
 1447302
 -
 1503568
+-
+1587985
 description
 :
 >
@@ -7934,9 +7936,7 @@ panel
 .
 expires
 :
-"
-70
-"
+never
 kind
 :
 uint
@@ -7989,6 +7989,8 @@ bug_numbers
 :
 -
 1507870
+-
+1587985
 description
 :
 >
@@ -8011,9 +8013,7 @@ tree
 .
 expires
 :
-"
-70
-"
+never
 kind
 :
 uint
@@ -8066,6 +8066,8 @@ bug_numbers
 :
 -
 1507870
+-
+1587985
 description
 :
 >
@@ -8110,9 +8112,7 @@ item
 .
 expires
 :
-"
-70
-"
+never
 kind
 :
 uint
@@ -8168,6 +8168,8 @@ bug_numbers
 :
 -
 1548241
+-
+1587985
 description
 :
 >
@@ -8210,9 +8212,7 @@ CONTRAST
 .
 expires
 :
-"
-73
-"
+never
 kind
 :
 uint
@@ -8268,6 +8268,8 @@ bug_numbers
 :
 -
 1567200
+-
+1587985
 description
 :
 >
@@ -8309,9 +8311,7 @@ DEUTERANOMALY
 .
 expires
 :
-"
-74
-"
+never
 kind
 :
 uint
