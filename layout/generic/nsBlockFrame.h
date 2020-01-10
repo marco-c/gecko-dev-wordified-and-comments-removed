@@ -1429,7 +1429,7 @@ ReflowOutput
 aMetrics
 nscoord
 *
-aBottomEdgeOfChildren
+aBEndEdgeOfChildren
 )
 ;
 void
@@ -1444,7 +1444,7 @@ nsStyleDisplay
 *
 aDisplay
 nscoord
-aBottomEdgeOfChildren
+aBEndEdgeOfChildren
 nsOverflowAreas
 &
 aOverflowAreas
