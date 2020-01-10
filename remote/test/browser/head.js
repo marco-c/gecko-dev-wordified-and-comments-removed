@@ -482,6 +482,7 @@ gBrowser
 uri
 )
 ;
+await
 RemoteAgent
 .
 listen

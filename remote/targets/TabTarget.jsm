@@ -200,11 +200,6 @@ this
 id
 }
 ;
-}
-connect
-(
-)
-{
 Services
 .
 obs
