@@ -304,17 +304,6 @@ void
 inital_draw_cb
 )
 ;
-void
-moz_container_set_opaque_region
-(
-MozContainer
-*
-container
-cairo_region_t
-*
-region
-)
-;
 #
 endif
 #
