@@ -2086,15 +2086,7 @@ if
 validClassificationFlags
 &
 &
-(
 isThirdPartyWithTopLevelWinURI
-|
-|
-IsAllowListed
-(
-aChannel
-)
-)
 )
 {
 UrlClassifierCommon
