@@ -1856,12 +1856,6 @@ android
 common
 -
 tests
--
-android
--
-debug
--
-tests
 #
 Disable
 ccov
@@ -2042,14 +2036,6 @@ sets
 android
 -
 x86_64
--
-tests
--
-android
--
-x86_64
--
-opt
 -
 tests
 android
