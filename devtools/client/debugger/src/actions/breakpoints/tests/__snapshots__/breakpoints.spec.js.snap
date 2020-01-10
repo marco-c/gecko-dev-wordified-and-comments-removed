@@ -274,11 +274,6 @@ examples
 a
 "
 "
-sourceMapURL
-"
-:
-null
-"
 url
 "
 :
@@ -780,11 +775,6 @@ examples
 /
 a
 "
-"
-sourceMapURL
-"
-:
-null
 "
 url
 "

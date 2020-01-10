@@ -1011,11 +1011,6 @@ url
 :
 string
 +
-sourceMapURL
-?
-:
-string
-+
 isBlackBoxed
 :
 boolean
