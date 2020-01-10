@@ -202,6 +202,17 @@ already_AddRefed
 <
 nsIReferrerInfo
 >
+CloneWithNewSendReferrer
+(
+bool
+aSendReferrer
+)
+const
+;
+already_AddRefed
+<
+nsIReferrerInfo
+>
 CloneWithNewOriginalReferrer
 (
 nsIURI
