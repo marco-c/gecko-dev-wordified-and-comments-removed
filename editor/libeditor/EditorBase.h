@@ -5394,6 +5394,14 @@ aHide
 ;
 protected
 :
+void
+UndefineCaretBidiLevel
+(
+)
+const
+;
+protected
+:
 virtual
 void
 OnStartToHandleTopLevelEditSubAction

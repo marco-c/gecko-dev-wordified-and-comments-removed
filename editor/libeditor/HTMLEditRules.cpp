@@ -3599,6 +3599,10 @@ EditSubAction
 :
 eInsertTextComingFromIME
 :
+TextEditorRef
+(
+)
+.
 UndefineCaretBidiLevel
 (
 )
@@ -3636,6 +3640,10 @@ EditSubAction
 eInsertParagraphSeparator
 :
 {
+TextEditorRef
+(
+)
+.
 UndefineCaretBidiLevel
 (
 )

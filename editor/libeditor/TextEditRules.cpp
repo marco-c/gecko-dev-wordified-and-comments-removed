@@ -908,6 +908,10 @@ EditSubAction
 eInsertLineBreak
 :
 {
+TextEditorRef
+(
+)
+.
 UndefineCaretBidiLevel
 (
 )
@@ -986,6 +990,10 @@ EditSubAction
 :
 eInsertTextComingFromIME
 :
+TextEditorRef
+(
+)
+.
 UndefineCaretBidiLevel
 (
 )
@@ -1015,6 +1023,10 @@ EditSubAction
 :
 eSetText
 :
+TextEditorRef
+(
+)
+.
 UndefineCaretBidiLevel
 (
 )

@@ -471,11 +471,6 @@ bool
 aTruncated
 )
 ;
-void
-UndefineCaretBidiLevel
-(
-)
-;
 nsresult
 CheckBidiLevelForDeletion
 (
