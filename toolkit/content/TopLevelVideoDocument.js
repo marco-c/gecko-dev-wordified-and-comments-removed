@@ -180,12 +180,12 @@ if
 !
 document
 .
-mozFullScreenElement
+fullscreenElement
 )
 {
 videoElement
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -194,7 +194,7 @@ else
 {
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
