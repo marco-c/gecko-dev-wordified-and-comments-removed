@@ -250,11 +250,6 @@ SelectionSourceChild
 jsm
 '
 '
-SelectParent
-.
-jsm
-'
-'
 ThumbnailsChild
 .
 jsm
