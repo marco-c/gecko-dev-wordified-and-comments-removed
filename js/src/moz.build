@@ -1917,6 +1917,15 @@ cpp
 '
 builtin
 /
+streams
+/
+WritableStreamWriterOperations
+.
+cpp
+'
+'
+builtin
+/
 String
 .
 cpp
