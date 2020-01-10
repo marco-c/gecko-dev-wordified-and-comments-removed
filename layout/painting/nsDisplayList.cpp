@@ -6790,6 +6790,12 @@ Clear
 (
 )
 ;
+mEffectsUpdates
+.
+Clear
+(
+)
+;
 FreeClipChains
 (
 )
