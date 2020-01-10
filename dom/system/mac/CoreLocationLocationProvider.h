@@ -27,6 +27,11 @@ CoreLocationObjects
 class
 MLSFallback
 ;
+bool
+isMacGeoSystemPermissionEnabled
+(
+)
+;
 class
 CoreLocationLocationProvider
 :
