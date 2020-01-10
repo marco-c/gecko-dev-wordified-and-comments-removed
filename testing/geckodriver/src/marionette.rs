@@ -1324,7 +1324,7 @@ insert
 name
 )
 .
-clone
+to_string
 (
 )
 (
@@ -7598,8 +7598,6 @@ loop
 {
 if
 let
-&
-mut
 Some
 (
 ref
@@ -7607,6 +7605,7 @@ mut
 runner
 )
 =
+*
 browser
 {
 let

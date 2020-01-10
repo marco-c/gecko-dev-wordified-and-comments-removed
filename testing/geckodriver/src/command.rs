@@ -122,8 +122,6 @@ const
 CHROME_ELEMENT_KEY
 :
 &
-'
-static
 str
 =
 "
