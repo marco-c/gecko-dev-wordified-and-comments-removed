@@ -155,7 +155,9 @@ isRemoteBrowser
 let
 findBarOpenPromise
 =
-promiseWaitForEvent
+BrowserTestUtils
+.
+waitForEvent
 (
 gBrowser
 "
