@@ -250,6 +250,8 @@ assert_greater_than_equal
 entry
 .
 duration
++
+4
 entry
 .
 processingEnd
