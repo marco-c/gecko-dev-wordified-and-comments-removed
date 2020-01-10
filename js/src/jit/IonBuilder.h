@@ -5005,7 +5005,7 @@ callInfo
 )
 ;
 InliningResult
-inlineToInteger
+inlineToIntegerPositiveZero
 (
 CallInfo
 &
