@@ -59,16 +59,6 @@ equal
 (
 step1
 .
-type
-"
-paused
-"
-)
-;
-equal
-(
-step1
-.
 frame
 .
 where

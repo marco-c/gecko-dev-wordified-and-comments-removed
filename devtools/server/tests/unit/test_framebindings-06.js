@@ -144,16 +144,6 @@ function
 packet
 )
 {
-equal
-(
-packet
-.
-type
-"
-paused
-"
-)
-;
 const
 env
 =

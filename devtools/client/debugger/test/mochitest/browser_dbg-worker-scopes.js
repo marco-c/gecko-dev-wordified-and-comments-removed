@@ -766,6 +766,12 @@ var_weakset
 "
 )
 ;
+await
+waitForRequestsToSettle
+(
+dbg
+)
+;
 }
 )
 ;

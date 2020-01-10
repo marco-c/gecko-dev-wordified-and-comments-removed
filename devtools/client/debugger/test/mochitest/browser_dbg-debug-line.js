@@ -96,6 +96,12 @@ frame
 )
 ;
 await
+waitForRequestsToSettle
+(
+dbg
+)
+;
+await
 waitForSelectedSource
 (
 dbg
@@ -106,6 +112,7 @@ js
 "
 )
 ;
+await
 resume
 (
 dbg

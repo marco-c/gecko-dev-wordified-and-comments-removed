@@ -416,6 +416,7 @@ once
 "
 paused
 "
+async
 function
 (
 packet
@@ -443,6 +444,13 @@ debugger
 statement
 again
 "
+)
+;
+await
+gThreadClient
+.
+resume
+(
 )
 ;
 finishClient
