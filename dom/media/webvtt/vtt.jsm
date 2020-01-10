@@ -5949,7 +5949,9 @@ getPercentagePosition
 box
 .
 top
-fullDimension
+containerBox
+.
+height
 )
 left
 :
@@ -5958,7 +5960,9 @@ getPercentagePosition
 box
 .
 left
-fullDimension
+containerBox
+.
+width
 )
 }
 )
