@@ -99,7 +99,7 @@ notifications
 =
 job
 .
-get
+pop
 (
 '
 notifications
@@ -206,14 +206,6 @@ for
 email
 in
 emails
-]
-            
-del
-job
-[
-'
-notifications
-'
 ]
             
 job
