@@ -251,11 +251,6 @@ preference
 js
 '
 '
-promises
-.
-js
-'
-'
 property
 -
 iterator
