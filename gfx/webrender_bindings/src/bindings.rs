@@ -5779,6 +5779,7 @@ false
 true
 true
 None
+false
 )
 }
 extern
@@ -6115,6 +6116,9 @@ gl_context
 *
 mut
 c_void
+surface_is_y_flipped
+:
+bool
 program_cache
 :
 Option
@@ -6766,6 +6770,7 @@ allow_pixel_local_storage_support
 false
 start_debug_server
 native_compositor
+surface_is_y_flipped
 .
 .
 Default

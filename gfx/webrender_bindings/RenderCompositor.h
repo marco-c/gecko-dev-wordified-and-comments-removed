@@ -368,6 +368,16 @@ aCompositor
 )
 {
 }
+virtual
+bool
+SurfaceIsYFlipped
+(
+)
+{
+return
+false
+;
+}
 protected
 :
 RefPtr
