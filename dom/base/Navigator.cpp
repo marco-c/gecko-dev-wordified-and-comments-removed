@@ -6330,7 +6330,7 @@ IsSecureContext
 doc
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 eUseCounter_custom_MozGetUserMediaInsec
 )
@@ -6375,7 +6375,7 @@ node
 doc
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 eUseCounter_custom_MozGetUserMediaXOrigin
 )

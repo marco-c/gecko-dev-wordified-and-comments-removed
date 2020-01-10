@@ -54241,7 +54241,7 @@ useCounterName
 code
 =
 "
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 obj
 eUseCounter_

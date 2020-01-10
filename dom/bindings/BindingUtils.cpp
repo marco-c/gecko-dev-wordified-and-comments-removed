@@ -20429,7 +20429,7 @@ now
 #
 endif
 void
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 JSObject
 *
@@ -20477,7 +20477,7 @@ GetDocument
 )
 -
 >
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 aUseCounter
 )

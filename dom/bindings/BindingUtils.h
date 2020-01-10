@@ -15003,7 +15003,7 @@ aRv
 )
 ;
 void
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 JSObject
 *

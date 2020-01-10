@@ -15710,7 +15710,7 @@ JSUseCounter
 :
 ASMJS
 :
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 obj
 eUseCounter_custom_JS_asmjs
@@ -15724,7 +15724,7 @@ JSUseCounter
 :
 WASM
 :
-SetDocumentAndPageUseCounter
+SetUseCounter
 (
 obj
 eUseCounter_custom_JS_wasm
