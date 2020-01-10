@@ -1602,8 +1602,6 @@ manager
 ReceiveInputEvent
 (
 secondFingerDown
-nullptr
-nullptr
 )
 ;
 MultiTouchInput
@@ -1626,8 +1624,6 @@ manager
 ReceiveInputEvent
 (
 fingersUp
-nullptr
-nullptr
 )
 ;
 child
@@ -1817,8 +1813,6 @@ manager
 ReceiveInputEvent
 (
 secondFingerDown
-nullptr
-nullptr
 )
 ;
 MultiTouchInput
@@ -1841,8 +1835,6 @@ manager
 ReceiveInputEvent
 (
 fingersUp
-nullptr
-nullptr
 )
 ;
 child
@@ -2200,8 +2192,6 @@ manager
 ReceiveInputEvent
 (
 secondFingerDown
-nullptr
-nullptr
 )
 ;
 MultiTouchInput
@@ -2224,8 +2214,6 @@ manager
 ReceiveInputEvent
 (
 fingersUp
-nullptr
-nullptr
 )
 ;
 child

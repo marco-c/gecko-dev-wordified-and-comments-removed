@@ -147,7 +147,7 @@ template
 class
 InputReceiver
 >
-nsEventStatus
+APZEventResult
 TouchDown
 (
 const
@@ -163,11 +163,6 @@ ScreenIntPoint
 aPoint
 TimeStamp
 aTime
-uint64_t
-*
-aOutInputBlockId
-=
-nullptr
 )
 {
 MultiTouchInput
@@ -202,8 +197,6 @@ aTarget
 ReceiveInputEvent
 (
 mti
-nullptr
-aOutInputBlockId
 )
 ;
 }
@@ -262,9 +255,9 @@ aTarget
 ReceiveInputEvent
 (
 mti
-nullptr
-nullptr
 )
+.
+mStatus
 ;
 }
 template
@@ -322,9 +315,9 @@ aTarget
 ReceiveInputEvent
 (
 mti
-nullptr
-nullptr
 )
+.
+mStatus
 ;
 }
 template
@@ -332,7 +325,7 @@ template
 class
 InputReceiver
 >
-nsEventStatus
+APZEventResult
 Wheel
 (
 const
@@ -352,11 +345,6 @@ ScreenPoint
 aDelta
 TimeStamp
 aTime
-uint64_t
-*
-aOutInputBlockId
-=
-nullptr
 )
 {
 ScrollWheelInput
@@ -397,8 +385,6 @@ aTarget
 ReceiveInputEvent
 (
 input
-nullptr
-aOutInputBlockId
 )
 ;
 }
@@ -407,7 +393,7 @@ template
 class
 InputReceiver
 >
-nsEventStatus
+APZEventResult
 SmoothWheel
 (
 const
@@ -427,11 +413,6 @@ ScreenPoint
 aDelta
 TimeStamp
 aTime
-uint64_t
-*
-aOutInputBlockId
-=
-nullptr
 )
 {
 ScrollWheelInput
@@ -472,8 +453,6 @@ aTarget
 ReceiveInputEvent
 (
 input
-nullptr
-aOutInputBlockId
 )
 ;
 }
@@ -482,7 +461,7 @@ template
 class
 InputReceiver
 >
-nsEventStatus
+APZEventResult
 MouseDown
 (
 const
@@ -498,11 +477,6 @@ ScreenIntPoint
 aPoint
 TimeStamp
 aTime
-uint64_t
-*
-aOutInputBlockId
-=
-nullptr
 )
 {
 MouseInput
@@ -537,8 +511,6 @@ aTarget
 ReceiveInputEvent
 (
 input
-nullptr
-aOutInputBlockId
 )
 ;
 }
@@ -547,7 +519,7 @@ template
 class
 InputReceiver
 >
-nsEventStatus
+APZEventResult
 MouseMove
 (
 const
@@ -563,11 +535,6 @@ ScreenIntPoint
 aPoint
 TimeStamp
 aTime
-uint64_t
-*
-aOutInputBlockId
-=
-nullptr
 )
 {
 MouseInput
@@ -602,8 +569,6 @@ aTarget
 ReceiveInputEvent
 (
 input
-nullptr
-aOutInputBlockId
 )
 ;
 }
@@ -612,7 +577,7 @@ template
 class
 InputReceiver
 >
-nsEventStatus
+APZEventResult
 MouseUp
 (
 const
@@ -628,11 +593,6 @@ ScreenIntPoint
 aPoint
 TimeStamp
 aTime
-uint64_t
-*
-aOutInputBlockId
-=
-nullptr
 )
 {
 MouseInput
@@ -667,8 +627,6 @@ aTarget
 ReceiveInputEvent
 (
 input
-nullptr
-aOutInputBlockId
 )
 ;
 }
@@ -677,7 +635,7 @@ template
 class
 InputReceiver
 >
-nsEventStatus
+APZEventResult
 PanGesture
 (
 PanGestureInput
@@ -702,11 +660,6 @@ ScreenPoint
 aDelta
 TimeStamp
 aTime
-uint64_t
-*
-aOutInputBlockId
-=
-nullptr
 )
 {
 PanGestureInput
@@ -748,8 +701,6 @@ aTarget
 ReceiveInputEvent
 (
 input
-nullptr
-aOutInputBlockId
 )
 ;
 }

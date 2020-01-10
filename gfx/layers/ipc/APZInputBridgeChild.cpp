@@ -113,7 +113,7 @@ mDestroyed
 true
 ;
 }
-nsEventStatus
+APZEventResult
 APZInputBridgeChild
 :
 :
@@ -122,14 +122,11 @@ ReceiveInputEvent
 InputData
 &
 aEvent
-ScrollableLayerGuid
-*
-aOutTargetGuid
-uint64_t
-*
-aOutInputBlockId
 )
 {
+APZEventResult
+res
+;
 switch
 (
 aEvent
@@ -154,9 +151,6 @@ AsMultiTouchInput
 MultiTouchInput
 processedEvent
 ;
-nsEventStatus
-res
-;
 SendReceiveMultiTouchInputEvent
 (
 event
@@ -164,8 +158,6 @@ event
 res
 &
 processedEvent
-aOutTargetGuid
-aOutInputBlockId
 )
 ;
 event
@@ -193,9 +185,6 @@ AsMouseInput
 MouseInput
 processedEvent
 ;
-nsEventStatus
-res
-;
 SendReceiveMouseInputEvent
 (
 event
@@ -203,8 +192,6 @@ event
 res
 &
 processedEvent
-aOutTargetGuid
-aOutInputBlockId
 )
 ;
 event
@@ -232,9 +219,6 @@ AsPanGestureInput
 PanGestureInput
 processedEvent
 ;
-nsEventStatus
-res
-;
 SendReceivePanGestureInputEvent
 (
 event
@@ -242,8 +226,6 @@ event
 res
 &
 processedEvent
-aOutTargetGuid
-aOutInputBlockId
 )
 ;
 event
@@ -271,9 +253,6 @@ AsPinchGestureInput
 PinchGestureInput
 processedEvent
 ;
-nsEventStatus
-res
-;
 SendReceivePinchGestureInputEvent
 (
 event
@@ -281,8 +260,6 @@ event
 res
 &
 processedEvent
-aOutTargetGuid
-aOutInputBlockId
 )
 ;
 event
@@ -310,9 +287,6 @@ AsTapGestureInput
 TapGestureInput
 processedEvent
 ;
-nsEventStatus
-res
-;
 SendReceiveTapGestureInputEvent
 (
 event
@@ -320,8 +294,6 @@ event
 res
 &
 processedEvent
-aOutTargetGuid
-aOutInputBlockId
 )
 ;
 event
@@ -349,9 +321,6 @@ AsScrollWheelInput
 ScrollWheelInput
 processedEvent
 ;
-nsEventStatus
-res
-;
 SendReceiveScrollWheelInputEvent
 (
 event
@@ -359,8 +328,6 @@ event
 res
 &
 processedEvent
-aOutTargetGuid
-aOutInputBlockId
 )
 ;
 event
@@ -388,9 +355,6 @@ AsKeyboardInput
 KeyboardInput
 processedEvent
 ;
-nsEventStatus
-res
-;
 SendReceiveKeyboardInputEvent
 (
 event
@@ -398,8 +362,6 @@ event
 res
 &
 processedEvent
-aOutTargetGuid
-aOutInputBlockId
 )
 ;
 event
@@ -423,8 +385,14 @@ type
 "
 )
 ;
-return
+res
+.
+mStatus
+=
 nsEventStatus_eConsumeNoDefault
+;
+return
+res
 ;
 }
 }
