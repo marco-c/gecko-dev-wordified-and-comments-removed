@@ -7412,16 +7412,6 @@ aDispatchFlags
 NS_DISPATCH_NORMAL
 )
 ;
-extern
-nsresult
-NS_GetBackgroundEventTarget
-(
-nsIEventTarget
-*
-*
-aEventTarget
-)
-;
 namespace
 mozilla
 {
