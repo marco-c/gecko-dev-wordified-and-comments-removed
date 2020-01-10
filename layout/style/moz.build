@@ -674,6 +674,11 @@ ServoUtils
 h
 '
 '
+ShadowParts
+.
+h
+'
+'
 StyleAnimationValue
 .
 h
@@ -1218,6 +1223,11 @@ cpp
 '
 '
 ServoStyleSet
+.
+cpp
+'
+'
+ShadowParts
 .
 cpp
 '

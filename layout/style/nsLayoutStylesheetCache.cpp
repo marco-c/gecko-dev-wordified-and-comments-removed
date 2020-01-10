@@ -1639,6 +1639,9 @@ parentRemapped
 size_t
 pageSize
 =
+mozilla
+:
+:
 ipc
 :
 :

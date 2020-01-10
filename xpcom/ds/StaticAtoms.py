@@ -4207,6 +4207,16 @@ prefixes
 Atom
 (
 "
+exportparts
+"
+"
+exportparts
+"
+)
+    
+Atom
+(
+"
 extends
 "
 "

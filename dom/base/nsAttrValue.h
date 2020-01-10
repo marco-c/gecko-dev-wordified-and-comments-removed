@@ -359,6 +359,7 @@ eImage
 eAtomArray
 eDoubleValue
 eIntMarginValue
+eShadowParts
 eSVGIntegerPair
 eSVGTypesBegin
 =
@@ -1038,6 +1039,14 @@ const
 nsAString
 &
 aValue
+)
+;
+void
+ParsePartMapping
+(
+const
+nsAString
+&
 )
 ;
 struct
