@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsContentPolicyUtils
-.
-h
-"
-#
-include
-"
 nsDataDocumentContentPolicy
 .
 h
@@ -145,9 +138,6 @@ aDecision
 auto
 setBlockingReason
 =
-mozilla
-:
-:
 MakeScopeExit
 (
 [

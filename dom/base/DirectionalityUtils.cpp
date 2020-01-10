@@ -146,15 +146,6 @@ mozilla
 dom
 :
 :
-HTMLSlotElement
-;
-using
-mozilla
-:
-:
-dom
-:
-:
 ShadowRoot
 ;
 static
