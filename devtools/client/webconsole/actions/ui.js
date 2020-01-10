@@ -55,6 +55,7 @@ SHOW_OBJECT_IN_SIDEBAR
 SIDEBAR_CLOSE
 SPLIT_CONSOLE_CLOSE_BUTTON_TOGGLE
 TIMESTAMPS_TOGGLE
+WARNING_GROUPS_TOGGLE
 }
 =
 require
@@ -186,6 +187,21 @@ type
 :
 TIMESTAMPS_TOGGLE
 visible
+}
+;
+}
+function
+warningGroupsToggle
+(
+value
+)
+{
+return
+{
+type
+:
+WARNING_GROUPS_TOGGLE
+value
 }
 ;
 }
@@ -371,5 +387,6 @@ showObjectInSidebar
 sidebarClose
 splitConsoleCloseButtonToggle
 timestampsToggle
+warningGroupsToggle
 }
 ;
