@@ -378,6 +378,12 @@ result
 ;
 private
 :
+#
+if
+DEBUG
+|
+|
+MOZ_SYSTEM_ICU
 using
 Locale
 =
@@ -461,6 +467,8 @@ JSContext
 cx
 )
 ;
+#
+endif
 public
 :
 bool
