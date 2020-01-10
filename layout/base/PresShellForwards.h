@@ -61,17 +61,6 @@ CaptureFlags
 )
 enum
 class
-RectVisibility
-{
-Visible
-AboveViewport
-BelowViewport
-LeftOfViewport
-RightOfViewport
-}
-;
-enum
-class
 ResizeReflowOptions
 :
 uint32_t
