@@ -216,6 +216,7 @@ THROTTLING_READ_LIMIT
 THROTTLING_READ_INTERVAL
 THROTTLING_HOLD_TIME
 THROTTLING_MAX_TIME
+PROXY_BE_CONSERVATIVE
 }
 ;
 nsHttpConnectionMgr
@@ -1453,6 +1454,9 @@ mThrottleHoldTime
 TimeDuration
 mThrottleMaxTime
 ;
+bool
+mBeConservativeForProxy
+;
 Atomic
 <
 bool
@@ -2243,6 +2247,14 @@ NotifyConnectionOfWindowIdChange
 (
 uint64_t
 previousWindowId
+)
+;
+bool
+BeConservativeIfProxied
+(
+nsIProxyInfo
+*
+proxy
 )
 ;
 }
