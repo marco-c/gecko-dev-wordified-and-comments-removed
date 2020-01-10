@@ -253,7 +253,12 @@ actors
 =
 [
 '
-FormSubmitChild
+FormHistoryChild
+.
+jsm
+'
+'
+FormHistoryParent
 .
 jsm
 '
