@@ -414,15 +414,6 @@ OriginAttributes
 aAttrs
 )
 ;
-virtual
-void
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
-)
-override
-;
 CookiesMap
 mCookiesMap
 ;
@@ -443,9 +434,6 @@ nsCOMPtr
 nsIEffectiveTLDService
 >
 mTLDService
-;
-bool
-mIPCOpen
 ;
 }
 ;
