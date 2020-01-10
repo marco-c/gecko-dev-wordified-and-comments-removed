@@ -123,10 +123,6 @@ portrait
 )
 ;
 return
-(
-newOrientation
-=
-{
 isPortrait
 ?
 "
@@ -136,7 +132,5 @@ landscape
 "
 portrait
 "
-}
-)
 ;
 }

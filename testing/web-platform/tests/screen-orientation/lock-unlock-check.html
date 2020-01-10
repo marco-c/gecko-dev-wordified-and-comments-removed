@@ -75,6 +75,11 @@ script
 >
 <
 script
+type
+=
+"
+module
+"
 >
 import
 {
@@ -199,6 +204,8 @@ onchange
 {
 r
 (
+screen
+.
 orientation
 .
 lock
@@ -218,10 +225,9 @@ await
 promise_rejects
 (
 t
-new
-TypeError
-(
-)
+"
+AbortError
+"
 pMustReject
 )
 ;
