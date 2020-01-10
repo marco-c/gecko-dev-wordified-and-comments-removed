@@ -755,10 +755,6 @@ kPointerLibraryName
 ]
 ;
 static
-bool
-sFirePointerEventsByWinPointerMessages
-;
-static
 GetPointerTypePtr
 getPointerType
 ;
