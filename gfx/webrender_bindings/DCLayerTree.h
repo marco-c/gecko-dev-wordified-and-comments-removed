@@ -415,6 +415,8 @@ wr
 :
 DeviceIntSize
 aSize
+bool
+aIsOpaque
 )
 ;
 bool
@@ -484,7 +486,7 @@ wr
 DeviceIntSize
 aSize
 bool
-aUseAlpha
+aIsOpaque
 )
 ;
 void

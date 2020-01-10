@@ -1098,6 +1098,7 @@ layer
 Initialize
 (
 aSize
+aIsOpaque
 )
 )
 {
@@ -1433,6 +1434,8 @@ wr
 :
 DeviceIntSize
 aSize
+bool
+aIsOpaque
 )
 {
 if
@@ -1533,7 +1536,7 @@ mCompositionSurface
 CreateCompositionSurface
 (
 aSize
-true
+aIsOpaque
 )
 ;
 if
@@ -1605,7 +1608,7 @@ wr
 DeviceIntSize
 aSize
 bool
-aUseAlpha
+aIsOpaque
 )
 {
 HRESULT
@@ -1626,11 +1629,11 @@ const
 auto
 alphaMode
 =
-aUseAlpha
+aIsOpaque
 ?
-DXGI_ALPHA_MODE_PREMULTIPLIED
-:
 DXGI_ALPHA_MODE_IGNORE
+:
+DXGI_ALPHA_MODE_PREMULTIPLIED
 ;
 RefPtr
 <
