@@ -932,6 +932,15 @@ protobuf
 /
 toolkit
 /
+components
+/
+utils
+/
+mozjexl
+.
+js
+toolkit
+/
 crashreporter
 /
 breakpad
