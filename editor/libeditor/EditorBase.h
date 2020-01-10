@@ -5775,11 +5775,11 @@ SelectEntireDocument
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
-ScrollSelectionIntoView
+ScrollSelectionFocusIntoView
 (
-bool
-aScrollToAnchor
 )
 ;
 nsIContent
