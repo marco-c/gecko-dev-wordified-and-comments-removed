@@ -1724,9 +1724,7 @@ testName
 "
 toolbaritem_child
 "
-"
-ooospspss
-"
+null
 )
 ;
 /
@@ -1743,7 +1741,7 @@ testName
 toolbaritem_hboxbutton
 "
 "
-ooospspss
+button
 "
 )
 ;
