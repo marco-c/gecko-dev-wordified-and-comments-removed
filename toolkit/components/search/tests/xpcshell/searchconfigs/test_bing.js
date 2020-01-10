@@ -307,6 +307,11 @@ bing
 .
 com
 "
+telemetryId
+:
+"
+bing
+"
 codes
 :
 {

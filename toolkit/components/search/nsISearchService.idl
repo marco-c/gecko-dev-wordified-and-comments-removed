@@ -1434,6 +1434,14 @@ reset
 )
 ;
 Promise
+makeEnginesFromConfig
+(
+in
+jsval
+config
+)
+;
+Promise
 ensureBuiltinExtension
 (
 in
