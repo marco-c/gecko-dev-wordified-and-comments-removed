@@ -636,13 +636,13 @@ resolveBy
 =
 [
 "
+subdomain
+"
+"
 actionOrigin
 "
 "
 scheme
-"
-"
-subdomain
 "
 "
 timePasswordChanged
