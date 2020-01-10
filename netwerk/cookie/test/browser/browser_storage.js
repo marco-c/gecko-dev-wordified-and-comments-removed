@@ -224,7 +224,7 @@ e
 .
 name
 "
-TypeError
+SecurityError
 "
 "
 We
