@@ -33824,12 +33824,6 @@ if
 (
 !
 mParserAborted
-&
-&
-!
-IsXULDocument
-(
-)
 )
 {
 AssertAboutPageHasCSP
