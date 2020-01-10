@@ -728,6 +728,12 @@ isLive
 )
 const
 ;
+bool
+isLiveMaybeForwarded
+(
+)
+const
+;
 OnStepHandler
 *
 onStepHandler
