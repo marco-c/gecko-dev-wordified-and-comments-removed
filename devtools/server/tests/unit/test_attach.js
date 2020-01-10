@@ -100,7 +100,7 @@ attached
 Thread
 client
 is
-paused
+resumed
 "
 )
 ;
