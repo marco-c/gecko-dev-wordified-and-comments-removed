@@ -95,7 +95,10 @@ is
 =
 window
 .
-opener
+arguments
+[
+0
+]
 .
 SimpleTest
 .
@@ -107,7 +110,10 @@ onerror
 =
 window
 .
-opener
+arguments
+[
+0
+]
 .
 onerror
 ;
@@ -1151,7 +1157,10 @@ close
 ;
 window
 .
-opener
+arguments
+[
+0
+]
 .
 SimpleTest
 .
@@ -1564,7 +1573,10 @@ hidePopup
 }
 window
 .
-opener
+arguments
+[
+0
+]
 .
 SimpleTest
 .

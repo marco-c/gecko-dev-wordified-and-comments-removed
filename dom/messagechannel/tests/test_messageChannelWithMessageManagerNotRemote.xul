@@ -235,7 +235,7 @@ function
 {
 window
 .
-open
+openDialog
 (
 "
 mm_messageChannelParentNotRemote
@@ -246,7 +246,9 @@ xul
 "
 "
 chrome
+noopener
 "
+window
 )
 ;
 }

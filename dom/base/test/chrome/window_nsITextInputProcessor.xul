@@ -355,9 +355,10 @@ SimpleTest
 =
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 .
 SimpleTest
 ;
@@ -674,7 +675,10 @@ otherWindow
 =
 window
 .
-opener
+arguments
+[
+0
+]
 ;
 var
 otherDocument

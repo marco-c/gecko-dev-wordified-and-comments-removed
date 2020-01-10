@@ -194,6 +194,12 @@ features
 return
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 openDialog
 (
 "

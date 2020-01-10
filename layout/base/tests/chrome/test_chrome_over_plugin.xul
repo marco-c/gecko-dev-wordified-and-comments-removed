@@ -239,7 +239,7 @@ w
 =
 window
 .
-open
+openDialog
 (
 "
 chrome_over_plugin_window
@@ -257,7 +257,9 @@ width
 height
 =
 300
+noopener
 "
+window
 )
 ;
 ]

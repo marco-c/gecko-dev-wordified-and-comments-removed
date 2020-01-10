@@ -212,6 +212,12 @@ win
 =
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 openDialog
 (
 "
@@ -219,7 +225,9 @@ window_screenPosSize
 .
 xul
 "
-null
+"
+_blank
+"
 "
 chrome
 dialog
@@ -369,6 +377,12 @@ win
 =
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 openDialog
 (
 "
@@ -376,7 +390,9 @@ window_screenPosSize
 .
 xul
 "
-null
+"
+_blank
+"
 "
 chrome
 dialog

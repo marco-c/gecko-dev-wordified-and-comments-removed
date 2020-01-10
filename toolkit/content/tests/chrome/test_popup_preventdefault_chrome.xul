@@ -152,7 +152,7 @@ runTest
 {
 window
 .
-open
+openDialog
 (
 "
 window_popup_preventdefault_chrome
@@ -170,7 +170,9 @@ width
 height
 =
 600
+noopener
 "
+window
 )
 ;
 }

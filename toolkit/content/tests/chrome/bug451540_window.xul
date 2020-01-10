@@ -240,9 +240,10 @@ setTestScope
 (
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 )
 ;
 const
@@ -351,9 +352,10 @@ name
 =
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 [
 name
 ]

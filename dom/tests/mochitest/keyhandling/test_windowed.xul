@@ -112,6 +112,12 @@ win
 =
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 openDialog
 (
 path
@@ -126,6 +132,7 @@ height
 =
 500
 "
+window
 )
 ;
 await

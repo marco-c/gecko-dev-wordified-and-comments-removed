@@ -425,7 +425,7 @@ true
 {
 window
 .
-open
+openDialog
 (
 "
 findbar_window
@@ -443,7 +443,9 @@ width
 height
 =
 600
+noopener
 "
+window
 )
 ;
 }

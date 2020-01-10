@@ -868,7 +868,11 @@ jsm
 var
 win
 =
-window
+docShell
+.
+rootTreeItem
+.
+domWindow
 .
 open
 (

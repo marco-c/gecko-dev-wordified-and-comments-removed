@@ -224,7 +224,7 @@ waitForExplicitFinish
 ;
 window
 .
-open
+openDialog
 (
 "
 window_nsITextInputProcessor
@@ -242,7 +242,9 @@ width
 height
 =
 600
+noopener
 "
+window
 )
 ;
 ]

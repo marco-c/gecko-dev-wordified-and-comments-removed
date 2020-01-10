@@ -216,7 +216,7 @@ chrome
 window
 window
 .
-open
+openDialog
 (
 "
 default_background_window
@@ -234,7 +234,9 @@ width
 height
 =
 300
+noopener
 "
+window
 )
 ;
 ]

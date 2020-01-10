@@ -174,7 +174,7 @@ runTest
 {
 window
 .
-open
+openDialog
 (
 "
 window_focus
@@ -192,7 +192,9 @@ width
 height
 =
 550
+noopener
 "
+window
 )
 ;
 }

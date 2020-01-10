@@ -151,7 +151,7 @@ runTest
 {
 window
 .
-open
+openDialog
 (
 "
 window_keys
@@ -169,7 +169,9 @@ width
 height
 =
 200
+noopener
 "
+window
 )
 ;
 }

@@ -287,7 +287,9 @@ xul
 '
 '
 modal
+noopener
 '
+window
 )
 ;
 }

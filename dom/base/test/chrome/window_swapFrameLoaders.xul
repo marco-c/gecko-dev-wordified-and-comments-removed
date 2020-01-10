@@ -184,7 +184,10 @@ key
 =
 window
 .
-opener
+arguments
+[
+0
+]
 [
 key
 ]

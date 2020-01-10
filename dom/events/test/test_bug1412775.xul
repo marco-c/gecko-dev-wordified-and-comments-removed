@@ -226,7 +226,11 @@ waitForExplicitFinish
 ;
 win
 =
-window
+docShell
+.
+rootTreeItem
+.
+domWindow
 .
 open
 (

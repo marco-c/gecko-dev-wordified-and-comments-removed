@@ -165,9 +165,13 @@ function
 let
 win
 =
-window
+docShell
 .
-open
+rootTreeItem
+.
+domWindow
+.
+openDialog
 (
 "
 window_browser_drop
@@ -186,6 +190,7 @@ height
 =
 200
 "
+window
 )
 ;
 await

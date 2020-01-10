@@ -318,7 +318,7 @@ restore
 ;
 window
 .
-open
+openDialog
 (
 "
 window_bug429954
@@ -330,6 +330,7 @@ _blank
 "
 "
 chrome
+noopener
 resizable
 width
 =
@@ -357,6 +358,7 @@ screenY
 "
 +
 maxY
+window
 )
 ;
 }

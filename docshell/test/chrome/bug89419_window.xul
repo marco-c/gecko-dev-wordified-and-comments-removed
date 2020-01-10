@@ -239,7 +239,12 @@ var
 SpecialPowers
 }
 =
-opener
+window
+.
+arguments
+[
+0
+]
 ;
 await
 SpecialPowers

@@ -209,9 +209,10 @@ message
 {
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 .
 SimpleTest
 .
@@ -235,9 +236,10 @@ close
 ;
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 .
 SimpleTest
 .

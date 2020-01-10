@@ -442,6 +442,14 @@ openWindow
 {
 gWindow
 =
+window
+.
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 open
 (
 '

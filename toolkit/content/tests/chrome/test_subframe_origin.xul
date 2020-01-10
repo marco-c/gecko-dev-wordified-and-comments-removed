@@ -255,7 +255,7 @@ runTest
 {
 window
 .
-open
+openDialog
 (
 "
 window_subframe_origin
@@ -273,7 +273,9 @@ width
 height
 =
 600
+noopener
 "
+window
 )
 ;
 }

@@ -733,6 +733,12 @@ otherWindow
 =
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 open
 (
 "

@@ -215,7 +215,11 @@ element
 let
 win1
 =
-window
+docShell
+.
+rootTreeItem
+.
+domWindow
 .
 openDialog
 (
@@ -241,7 +245,11 @@ height
 let
 win2
 =
-window
+docShell
+.
+rootTreeItem
+.
+domWindow
 .
 openDialog
 (

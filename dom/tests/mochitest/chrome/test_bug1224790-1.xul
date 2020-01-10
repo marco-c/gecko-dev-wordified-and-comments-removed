@@ -275,7 +275,9 @@ xul
 '
 '
 modal
+noopener
 '
+window
 )
 ;
 }
