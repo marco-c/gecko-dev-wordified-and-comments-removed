@@ -5806,6 +5806,14 @@ TopLeft
 )
 )
 ;
+aNativeLayer
+-
+>
+InvalidateRegionThroughoutSwapchain
+(
+invalidRelativeToLayer
+)
+;
 RefPtr
 <
 DrawTarget
@@ -5817,7 +5825,6 @@ aNativeLayer
 >
 NextSurfaceAsDrawTarget
 (
-invalidRelativeToLayer
 BackendType
 :
 :
