@@ -1130,4 +1130,10 @@ android
 /
 nightly
 '
+    
+'
+disable_package_metrics
+'
+:
+True
 }
