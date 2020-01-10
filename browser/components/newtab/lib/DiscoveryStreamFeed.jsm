@@ -1966,6 +1966,8 @@ data
 layout
 .
 spocs
+.
+url
 }
 )
 ;
@@ -6329,6 +6331,9 @@ type
 "
 CardGrid
 "
+cta_variant
+:
+false
 properties
 :
 {

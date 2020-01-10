@@ -157,16 +157,6 @@ mozilla
 central
 &
 &
-rm
--
-rf
-.
-/
-objdir
--
-frontend
-&
-&
 .
 /
 mach
