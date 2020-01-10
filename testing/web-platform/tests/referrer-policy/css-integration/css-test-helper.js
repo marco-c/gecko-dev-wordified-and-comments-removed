@@ -43,11 +43,11 @@ port
 +
 "
 /
-referrer
--
-policy
+common
 /
-generic
+security
+-
+features
 /
 subresource
 /

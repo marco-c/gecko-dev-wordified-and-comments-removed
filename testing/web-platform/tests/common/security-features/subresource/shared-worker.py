@@ -1,7 +1,6 @@
 import
 os
 sys
-json
 sys
 .
 path
@@ -40,7 +39,9 @@ subresource
 get_template
 (
 "
-script
+shared
+-
+worker
 .
 js
 .
