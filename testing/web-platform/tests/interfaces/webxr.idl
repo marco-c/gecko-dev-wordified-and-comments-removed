@@ -563,9 +563,6 @@ attribute
 DOMPointReadOnly
 orientation
 ;
-[
-SameObject
-]
 readonly
 attribute
 Float32Array
@@ -620,9 +617,6 @@ attribute
 DOMPointReadOnly
 direction
 ;
-[
-SameObject
-]
 readonly
 attribute
 Float32Array
