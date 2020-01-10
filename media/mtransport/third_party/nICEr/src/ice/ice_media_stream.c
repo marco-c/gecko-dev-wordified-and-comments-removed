@@ -2474,6 +2474,16 @@ str
 !
 =
 stream
+&
+&
+!
+str
+-
+>
+local_stream
+-
+>
+obsolete
 )
 {
 switch
