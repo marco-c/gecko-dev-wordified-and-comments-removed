@@ -4483,7 +4483,7 @@ e
 >
 e
 .
-isBuiltin
+_isBuiltin
 )
 .
 length
@@ -4492,6 +4492,8 @@ length
 cache
 .
 visibleDefaultEngines
+.
+length
 )
 {
 rebuildCache
