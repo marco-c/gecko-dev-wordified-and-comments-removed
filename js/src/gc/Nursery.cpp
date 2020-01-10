@@ -6506,18 +6506,6 @@ clear
 (
 )
 {
-#
-if
-defined
-(
-JS_GC_ZEAL
-)
-|
-|
-defined
-(
-JS_CRASH_DIAGNOSTICS
-)
 unsigned
 firstClearChunk
 ;
@@ -6622,8 +6610,6 @@ maxChunkCount
 0
 )
 ;
-#
-endif
 if
 (
 !
