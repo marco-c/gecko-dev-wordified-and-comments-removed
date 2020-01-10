@@ -1589,6 +1589,9 @@ matrix
 optional
 CSSMatrixComponentOptions
 options
+=
+{
+}
 )
 ]
 interface
