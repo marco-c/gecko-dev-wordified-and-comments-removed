@@ -1059,12 +1059,6 @@ linux64
 /
 opt
 -
-macosx1014
--
-64
-/
-opt
--
 windows10
 -
 64
@@ -1076,7 +1070,6 @@ version
 :
 [
 2
-3
 ]
 treeherder
 :

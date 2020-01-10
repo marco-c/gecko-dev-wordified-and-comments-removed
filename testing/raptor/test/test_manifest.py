@@ -14,13 +14,7 @@ pytest
 import
 sys
 from
-six
-.
-moves
-.
-urllib
-.
-parse
+urlparse
 import
 parse_qs
 urlsplit
