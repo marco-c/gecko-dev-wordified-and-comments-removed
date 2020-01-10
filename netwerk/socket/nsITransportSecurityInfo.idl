@@ -395,6 +395,14 @@ must_use
 readonly
 attribute
 boolean
+isDelegatedCredential
+;
+[
+must_use
+]
+readonly
+attribute
+boolean
 isDomainMismatch
 ;
 [
