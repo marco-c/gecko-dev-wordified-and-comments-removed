@@ -271,6 +271,9 @@ gain
 /
 in
 Decibels
+[
+Throws
+]
 void
 getFrequencyResponse
 (
