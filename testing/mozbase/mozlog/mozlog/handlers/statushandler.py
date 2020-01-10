@@ -29,6 +29,10 @@ expected_statuses
 "
                          
 "
+known_intermittent_statuses
+"
+                         
+"
 log_level_counts
 "
                          
@@ -99,6 +103,15 @@ int
         
 self
 .
+known_intermittent_statuses
+=
+defaultdict
+(
+int
+)
+        
+self
+.
 action_counts
 =
 defaultdict
@@ -137,6 +150,19 @@ data
 action
 '
 ]
+        
+known_intermittent
+=
+data
+.
+get
+(
+"
+known_intermittent
+"
+[
+]
+)
         
 self
 .
@@ -235,6 +261,11 @@ expected
 '
 in
 data
+and
+status
+not
+in
+known_intermittent
 :
                 
 self
@@ -253,6 +284,22 @@ else
 self
 .
 expected_statuses
+[
+status
+]
++
+=
+1
+                
+if
+status
+in
+known_intermittent
+:
+                    
+self
+.
+known_intermittent_statuses
 [
 status
 ]
@@ -494,6 +541,13 @@ dict
 self
 .
 expected_statuses
+)
+            
+dict
+(
+self
+.
+known_intermittent_statuses
 )
             
 dict

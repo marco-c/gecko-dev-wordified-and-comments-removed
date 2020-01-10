@@ -936,6 +936,10 @@ expected_statuses
 "
                                  
 "
+known_intermittent_statuses
+"
+                                 
+"
 log_level_counts
 "
                                  
@@ -957,6 +961,11 @@ previous_summary
 =
 RunSummary
 (
+defaultdict
+(
+int
+)
+                                          
 defaultdict
 (
 int
@@ -1055,6 +1064,20 @@ expected_statuses
 summary
 .
 expected_statuses
+)
+                                 
+self
+.
+_subtract_tuples
+(
+                                    
+previous_summary
+.
+known_intermittent_statuses
+                                    
+summary
+.
+known_intermittent_statuses
 )
                                  
 self
