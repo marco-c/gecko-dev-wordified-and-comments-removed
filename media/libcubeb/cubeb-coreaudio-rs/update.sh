@@ -335,13 +335,11 @@ README_MOZILLA
 .
 bak
 [
-[
 -
 n
 "
 commits
 "
-]
 ]
 &
 &
