@@ -1025,17 +1025,6 @@ reftest
 .
 list
 #
-high
-contrast
-include
-high
--
-contrast
-/
-reftest
-.
-list
-#
 block
 -
 inside
