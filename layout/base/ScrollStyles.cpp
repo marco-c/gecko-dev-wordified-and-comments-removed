@@ -248,13 +248,6 @@ mVertical
 (
 aV
 )
-mScrollBehavior
-(
-aDisplay
--
->
-mScrollBehavior
-)
 mOverscrollBehaviorX
 (
 aDisplay
@@ -303,13 +296,6 @@ aDisplay
 -
 >
 mOverflowY
-)
-mScrollBehavior
-(
-aDisplay
--
->
-mScrollBehavior
 )
 mOverscrollBehaviorX
 (
