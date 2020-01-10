@@ -35,6 +35,19 @@ SccacheInstall
     
 StyloInstall
 )
+if
+sys
+.
+version_info
+<
+(
+3
+)
+:
+    
+input
+=
+raw_input
 class
 ArchlinuxBootstrapper
 (
@@ -1109,7 +1122,7 @@ path
             
 choice
 =
-raw_input
+input
 (
 '
 Do
