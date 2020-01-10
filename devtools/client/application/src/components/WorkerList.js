@@ -150,6 +150,13 @@ propTypes
 {
 return
 {
+canDebugWorkers
+:
+PropTypes
+.
+bool
+.
+isRequired
 client
 :
 PropTypes
@@ -161,7 +168,7 @@ workers
 :
 PropTypes
 .
-object
+array
 .
 isRequired
 }
@@ -173,8 +180,9 @@ render
 {
 const
 {
-workers
+canDebugWorkers
 client
+workers
 }
 =
 this
@@ -228,9 +236,9 @@ Worker
 (
 {
 client
-debugDisabled
+isDebugEnabled
 :
-false
+canDebugWorkers
 worker
 }
 )
@@ -247,7 +255,7 @@ serviceworker
 -
 list
 -
-aboutdebugging
+aboutdebugging2
 "
 a
 :
