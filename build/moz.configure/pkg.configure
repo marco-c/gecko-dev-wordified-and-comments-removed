@@ -647,9 +647,6 @@ log_writer
 (
 l
 )
-'
-replace
-'
 )
 as
 o
