@@ -638,6 +638,8 @@ float
 aScale
 nscolor
 aBackgroundColor
+uint32_t
+aFlags
 )
 ;
 private
