@@ -1430,7 +1430,7 @@ document
 getElementById
 (
 "
-downloads
+sidebar
 -
 button
 "
@@ -1440,7 +1440,7 @@ ok
 (
 dragSrcElement
 "
-Downloads
+Sidebar
 button
 exists
 "
