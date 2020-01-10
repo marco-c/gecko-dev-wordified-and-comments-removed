@@ -264,3 +264,6 @@ org
 :
 None
 }
+html_show_copyright
+=
+False

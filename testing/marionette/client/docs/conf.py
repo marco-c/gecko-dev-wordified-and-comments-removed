@@ -171,6 +171,9 @@ ImportError
 :
         
 pass
+html_show_copyright
+=
+False
 htmlhelp_basename
 =
 '

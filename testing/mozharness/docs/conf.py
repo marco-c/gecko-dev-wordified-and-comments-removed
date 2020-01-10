@@ -160,6 +160,9 @@ html_static_path
 _static
 '
 ]
+html_show_copyright
+=
+False
 htmlhelp_basename
 =
 '
