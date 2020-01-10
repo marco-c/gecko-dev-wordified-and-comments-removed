@@ -181,11 +181,6 @@ Option
 string
 "
 )
-type
-:
-"
-evaluationResult
-"
 awaitResult
 :
 Option
