@@ -734,11 +734,6 @@ GLContextProviderEGL
 cpp
 '
 '
-GLContextTypes
-.
-cpp
-'
-'
 GLDebugUtils
 .
 cpp
@@ -795,11 +790,6 @@ cpp
 '
 '
 SharedSurfaceGL
-.
-cpp
-'
-'
-SurfaceTypes
 .
 cpp
 '
