@@ -1558,6 +1558,13 @@ SerializedStackHolder
 aOriginStack
 )
 ;
+void
+SetSource
+(
+UniqueProfilerBacktrace
+aSource
+)
+;
 virtual
 uint16_t
 ErrorCode

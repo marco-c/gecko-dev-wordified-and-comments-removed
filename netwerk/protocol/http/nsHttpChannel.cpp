@@ -27194,6 +27194,13 @@ mCacheDisposition
 &
 timings
 mRedirectURI
+std
+:
+:
+move
+(
+mSource
+)
 )
 ;
 }
@@ -29030,6 +29037,8 @@ mChannelCreationTimestamp
 mLastStatusReported
 0
 mCacheDisposition
+nullptr
+nullptr
 )
 ;
 }
@@ -37738,6 +37747,13 @@ mCacheDisposition
 &
 mTransactionTimings
 nullptr
+std
+:
+:
+move
+(
+mSource
+)
 )
 ;
 }
