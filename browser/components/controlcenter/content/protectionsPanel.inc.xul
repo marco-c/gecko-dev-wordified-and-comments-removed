@@ -267,6 +267,11 @@ on
 -
 header
 "
+hidden
+=
+"
+true
+"
 >
 Tracking
 protection
@@ -295,6 +300,11 @@ switch
 off
 -
 header
+"
+hidden
+=
+"
+true
 "
 >
 Tracking
@@ -331,6 +341,11 @@ class
 text
 -
 link
+"
+hidden
+=
+"
+true
 "
 >
 Site
