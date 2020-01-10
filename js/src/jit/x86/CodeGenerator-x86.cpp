@@ -1789,7 +1789,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 const
@@ -2041,7 +2041,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 const
@@ -2949,7 +2949,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 const
@@ -3115,7 +3115,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 const
@@ -3323,7 +3323,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 const
@@ -3640,7 +3640,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 const

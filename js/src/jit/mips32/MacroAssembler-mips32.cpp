@@ -14285,7 +14285,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 MOZ_ASSERT_IF

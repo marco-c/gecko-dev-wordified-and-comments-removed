@@ -1564,7 +1564,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 MOZ_ASSERT
@@ -1937,7 +1937,7 @@ offset
 wasm
 :
 :
-OffsetGuardLimit
+MaxOffsetGuardLimit
 )
 ;
 MOZ_ASSERT
