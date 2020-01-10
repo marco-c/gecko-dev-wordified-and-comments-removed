@@ -449,7 +449,13 @@ offset
 (
 )
 const
+{
+return
+current_
+-
+start_
 ;
+}
 void
 seek
 (
