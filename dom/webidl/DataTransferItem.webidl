@@ -166,7 +166,7 @@ getAsString
 (
 FunctionStringCallback
 ?
-_callback
+callback
 )
 ;
 [

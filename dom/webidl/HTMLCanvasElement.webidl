@@ -237,7 +237,7 @@ void
 toBlob
 (
 BlobCallback
-_callback
+callback
 optional
 DOMString
 type
