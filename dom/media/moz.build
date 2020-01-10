@@ -765,6 +765,11 @@ MediaShutdownManager
 h
 '
 '
+MediaSpan
+.
+h
+'
+'
 MediaStatistics
 .
 h
