@@ -6110,9 +6110,8 @@ void
 SetReadyStateInternal
 (
 ReadyState
-rs
 bool
-updateTimingInformation
+aUpdateTimingInformation
 =
 true
 )
