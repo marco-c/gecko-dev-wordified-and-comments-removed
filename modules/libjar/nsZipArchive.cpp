@@ -1640,8 +1640,13 @@ nsDirectoryService
 gService
 -
 >
-GetCurrentProcessDirectory
+Get
 (
+NS_GRE_DIR
+NS_GET_IID
+(
+nsIFile
+)
 getter_AddRefs
 (
 gre_dir
