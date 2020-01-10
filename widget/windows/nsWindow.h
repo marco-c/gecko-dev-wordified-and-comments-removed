@@ -1742,6 +1742,11 @@ aCallback
 override
 ;
 void
+DispatchPluginSettingEvents
+(
+)
+;
+void
 GetCompositorWidgetInitData
 (
 mozilla
@@ -2194,9 +2199,7 @@ aResult
 bool
 ProcessMessageForPlugin
 (
-const
 MSG
-&
 aMsg
 MSGResult
 &
