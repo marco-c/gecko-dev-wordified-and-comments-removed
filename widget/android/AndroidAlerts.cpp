@@ -501,6 +501,16 @@ Get
 aAlertName
 )
 ;
+if
+(
+!
+notification
+)
+{
+return
+NS_OK
+;
+}
 java
 :
 :
