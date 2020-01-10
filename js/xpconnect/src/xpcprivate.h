@@ -807,6 +807,12 @@ ReleaseXPConnectSingleton
 (
 )
 ;
+static
+void
+InitJSContext
+(
+)
+;
 void
 RecordTraversal
 (
@@ -844,6 +850,8 @@ gOnceAliveNowDead
 XPCJSRuntime
 *
 mRuntime
+=
+nullptr
 ;
 bool
 mShuttingDown
