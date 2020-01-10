@@ -418,6 +418,14 @@ output_stream_params
 channels
 <
 1
+|
+|
+output_stream_params
+-
+>
+channels
+>
+UINT8_MAX
 )
 {
 return
