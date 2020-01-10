@@ -120,6 +120,11 @@ Accessors
 h
 '
 '
+Conversions
+.
+h
+'
+'
 GeckoBundleUtils
 .
 h
@@ -149,6 +154,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+Conversions
+.
+cpp
+'
 '
 Utils
 .
