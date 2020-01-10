@@ -597,15 +597,14 @@ aContent
 bool
 isGeneratedContent
 =
-!
 aContent
-?
-false
-:
+&
+&
+(
 aContent
 -
 >
-GetBindingParent
+IsInNativeAnonymousSubtree
 (
 )
 |
@@ -615,6 +614,7 @@ aContent
 >
 IsInShadowTree
 (
+)
 )
 ;
 if
