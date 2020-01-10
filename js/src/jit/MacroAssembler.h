@@ -1636,6 +1636,12 @@ PER_SHARED_ARCH
 CodeOffset
 nopPatchableToCall
 (
+)
+PER_SHARED_ARCH
+;
+void
+nopPatchableToCall
+(
 const
 wasm
 :
@@ -1644,7 +1650,6 @@ CallSiteDesc
 &
 desc
 )
-PER_SHARED_ARCH
 ;
 static
 void
