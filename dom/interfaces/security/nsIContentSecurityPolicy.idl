@@ -2222,9 +2222,6 @@ in
 nsIURI
 aContentLocation
 in
-nsIURI
-aRequestOrigin
-in
 nsISupports
 aContext
 in
