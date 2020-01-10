@@ -395,16 +395,6 @@ line
 {
 TPersistStringStream
 stream
-=
-sh
-:
-:
-InitializeStream
-<
-TPersistStringStream
->
-(
-)
 ;
 if
 (

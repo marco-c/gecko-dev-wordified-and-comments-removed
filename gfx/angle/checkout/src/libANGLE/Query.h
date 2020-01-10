@@ -259,6 +259,16 @@ QueryImpl
 getImplementation
 (
 )
+;
+const
+rx
+:
+:
+QueryImpl
+*
+getImplementation
+(
+)
 const
 ;
 private

@@ -5059,7 +5059,7 @@ srcAttachment
 source
 -
 >
-getReadColorAttachment
+getReadColorbuffer
 (
 )
 ;

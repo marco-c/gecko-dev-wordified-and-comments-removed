@@ -130,7 +130,7 @@ include
 "
 Version
 .
-inc
+inl
 "
 #
 endif

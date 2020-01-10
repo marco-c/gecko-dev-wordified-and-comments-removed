@@ -122,7 +122,7 @@ include
 "
 copyimage
 .
-inc
+inl
 "
 #
 endif

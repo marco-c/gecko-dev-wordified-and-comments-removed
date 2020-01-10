@@ -36,7 +36,7 @@ include
 "
 platform
 /
-FeaturesD3D
+WorkaroundsD3D
 .
 h
 "
@@ -327,15 +327,12 @@ false
 ;
 }
 }
-void
-InitializeFeatures
-(
 angle
 :
 :
-FeaturesD3D
-*
-features
+WorkaroundsD3D
+GenerateWorkarounds
+(
 )
 ;
 }

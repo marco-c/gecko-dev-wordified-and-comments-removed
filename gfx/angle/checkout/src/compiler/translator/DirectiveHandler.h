@@ -229,8 +229,6 @@ SourceLocation
 loc
 int
 version
-ShShaderSpec
-spec
 )
 override
 ;

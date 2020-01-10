@@ -122,9 +122,11 @@ h
 #
 include
 "
-libANGLE
+third_party
 /
-trace
+trace_event
+/
+trace_event
 .
 h
 "
@@ -785,7 +787,7 @@ ASSERT
 mNeedsOffscreenTexture
 )
 ;
-ANGLE_TRACE_EVENT0
+TRACE_EVENT0
 (
 "
 gpu
@@ -2243,7 +2245,7 @@ EGLint
 backbufferHeight
 )
 {
-ANGLE_TRACE_EVENT0
+TRACE_EVENT0
 (
 "
 gpu
@@ -2794,7 +2796,7 @@ backbufferHeight
 )
 ;
 }
-ANGLE_TRACE_EVENT0
+TRACE_EVENT0
 (
 "
 gpu
@@ -3213,7 +3215,7 @@ Result
 Continue
 ;
 }
-ANGLE_TRACE_EVENT0
+TRACE_EVENT0
 (
 "
 gpu

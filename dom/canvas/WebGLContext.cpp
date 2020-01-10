@@ -2453,18 +2453,6 @@ PREFER_ES3
 ;
 }
 else
-{
-flags
-|
-=
-gl
-:
-:
-CreateContextFlags
-:
-:
-PREFER_EXACT_VERSION
-;
 if
 (
 !
@@ -2487,7 +2475,6 @@ CreateContextFlags
 :
 REQUIRE_COMPAT_PROFILE
 ;
-}
 }
 {
 auto

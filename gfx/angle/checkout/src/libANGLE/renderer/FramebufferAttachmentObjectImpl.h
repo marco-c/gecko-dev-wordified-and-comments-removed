@@ -23,13 +23,6 @@ Observer
 h
 "
 namespace
-gl
-{
-class
-Context
-;
-}
-namespace
 rx
 {
 class

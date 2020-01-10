@@ -26,15 +26,6 @@ h
 >
 #
 ifndef
-EGL_EGL_PROTOTYPES
-#
-define
-EGL_EGL_PROTOTYPES
-1
-#
-endif
-#
-ifndef
 EGL_VERSION_1_0
 #
 define

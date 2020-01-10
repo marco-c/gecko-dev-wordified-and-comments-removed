@@ -95,7 +95,7 @@ enum
 class
 CreateContextFlags
 :
-uint16_t
+uint8_t
 {
 NONE
 =
@@ -148,12 +148,6 @@ PROVOKING_VERTEX_DONT_CARE
 <
 <
 7
-PREFER_EXACT_VERSION
-=
-1
-<
-<
-8
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS

@@ -1199,17 +1199,6 @@ TCompiler
 )
 ;
 void
-EmitWorkGroupSizeGLSL
-(
-const
-TCompiler
-&
-TInfoSinkBase
-&
-sink
-)
-;
-void
 EmitMultiviewGLSL
 (
 const

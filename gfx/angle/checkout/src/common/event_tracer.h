@@ -31,9 +31,6 @@ char
 *
 GetTraceCategoryEnabledFlag
 (
-PlatformMethods
-*
-platform
 const
 char
 *
@@ -46,9 +43,6 @@ angle
 TraceEventHandle
 AddTraceEvent
 (
-PlatformMethods
-*
-platform
 char
 phase
 const
