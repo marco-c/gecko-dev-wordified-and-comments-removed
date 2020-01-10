@@ -1769,7 +1769,6 @@ tests
 :
 -
 cppunit
-#
 -
 crashtest
 -
@@ -1926,7 +1925,6 @@ qr
 -
 tests
 :
-#
 -
 crashtest
 -
@@ -1935,8 +1933,6 @@ macosx64
 -
 tests
 :
--
-crashtest
 -
 gtest
 -
@@ -2076,14 +2072,6 @@ profile
 -
 Bug
 1442893
-macosx64
--
-qr
--
-tests
-:
--
-crashtest
 linux32
 -
 tests

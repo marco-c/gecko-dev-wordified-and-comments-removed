@@ -197,6 +197,15 @@ http
 oscpu
 )
 )
+skip
+-
+if
+(
+OSX
+&
+&
+webrender
+)
 load
 844280
 .
