@@ -241,6 +241,11 @@ touchType
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 TouchList
 {
@@ -304,6 +309,9 @@ type
 optional
 TouchEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =
