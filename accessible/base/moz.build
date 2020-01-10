@@ -281,6 +281,11 @@ nsTextEquivUtils
 cpp
 '
 '
+Pivot
+.
+cpp
+'
+'
 SelectionManager
 .
 cpp
