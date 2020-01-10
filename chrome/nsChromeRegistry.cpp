@@ -75,13 +75,6 @@ h
 #
 include
 "
-nsDOMWindowList
-.
-h
-"
-#
-include
-"
 nsIConsoleService
 .
 h
