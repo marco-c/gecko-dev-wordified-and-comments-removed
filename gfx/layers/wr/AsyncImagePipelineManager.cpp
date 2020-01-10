@@ -1339,6 +1339,10 @@ SupportsWrNativeTexture
 (
 )
 ;
+useWrTextureWrapper
+=
+false
+;
 auto
 numKeys
 =
