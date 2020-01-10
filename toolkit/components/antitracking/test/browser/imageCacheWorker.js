@@ -185,6 +185,7 @@ runExtraTests
 false
 cookieBehavior
 blockingByAllowList
+expectedBlockingNotifications
 callback
 :
 async
