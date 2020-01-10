@@ -133,6 +133,12 @@ mozilla
 :
 Maybe
 ;
+namespace
+js
+{
+namespace
+jit
+{
 class
 AutoStubFrame
 ;
@@ -922,6 +928,8 @@ inStubFrame_
 endif
 }
 ;
+}
+}
 void
 BaselineCacheIRCompiler
 :
