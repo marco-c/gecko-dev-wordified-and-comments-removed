@@ -9018,11 +9018,6 @@ this
 handleMessageRequest
 (
 {
-provider
-:
-"
-onboarding
-"
 template
 :
 "
