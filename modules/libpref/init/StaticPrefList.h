@@ -614,7 +614,7 @@ enabled
 "
 apz_gtk_kinetic_scroll_enabled
 RelaxedAtomicBool
-false
+true
 )
 #
 endif
