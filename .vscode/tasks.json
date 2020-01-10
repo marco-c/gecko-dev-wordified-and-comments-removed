@@ -53,7 +53,7 @@ command
 :
 "
 {
-workspaceRoot
+workspaceFolder
 }
 /
 mach
@@ -811,7 +811,7 @@ relative
 "
 "
 {
-workspaceRoot
+workspaceFolder
 }
 "
 ]
@@ -1128,7 +1128,7 @@ relative
 "
 "
 {
-workspaceRoot
+workspaceFolder
 }
 "
 ]
