@@ -1,4 +1,0 @@
-crossorigin_ineligible_script
-=
-true
-;
