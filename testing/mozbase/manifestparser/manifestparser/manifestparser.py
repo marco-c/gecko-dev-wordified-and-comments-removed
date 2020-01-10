@@ -4,9 +4,9 @@ import
 absolute_import
 print_function
 from
-StringIO
+io
 import
-StringIO
+BytesIO
 import
 json
 import
@@ -19,6 +19,10 @@ import
 sys
 import
 types
+from
+six
+import
+string_types
 from
 .
 ini
@@ -60,11 +64,6 @@ os
 path
 .
 relpath
-string
-=
-(
-basestring
-)
 def
 normalize_path
 (
@@ -807,7 +806,7 @@ if
 isinstance
 (
 filename
-string
+string_types
 )
 :
             
@@ -1423,7 +1422,7 @@ if
 isinstance
 (
 filename
-string
+string_types
 )
 and
 not
@@ -1507,7 +1506,7 @@ if
 isinstance
 (
 filename
-string
+string_types
 )
 :
                 
@@ -2278,7 +2277,7 @@ if
 isinstance
 (
 directories
-basestring
+string_types
 )
 :
             
@@ -2496,7 +2495,7 @@ if
 isinstance
 (
 fp
-string
+string_types
 )
 :
             
@@ -2889,7 +2888,7 @@ self
         
 fp
 =
-StringIO
+BytesIO
 (
 )
         
@@ -3501,7 +3500,7 @@ if
 isinstance
 (
 pattern
-basestring
+string_types
 )
 :
             
@@ -4182,7 +4181,7 @@ if
 None
 then
 a
-StringIO
+BytesIO
 instance
 will
 be
@@ -4224,7 +4223,7 @@ if
 isinstance
 (
 write
-string
+string_types
 )
 :
             
@@ -4250,7 +4249,7 @@ None
             
 write
 =
-StringIO
+BytesIO
 (
 )
         

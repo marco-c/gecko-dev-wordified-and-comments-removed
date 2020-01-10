@@ -5,8 +5,6 @@ absolute_import
 print_function
 unicode_literals
 import
-cPickle
-as
 pickle
 import
 os
