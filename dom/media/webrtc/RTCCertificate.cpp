@@ -57,6 +57,17 @@ mozilla
 /
 dom
 /
+StructuredCloneHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WebCryptoCommon
 .
 h
@@ -1640,6 +1651,9 @@ false
 ;
 }
 return
+StructuredCloneHolder
+:
+:
 WriteString
 (
 aWriter
@@ -1820,6 +1834,9 @@ json
 if
 (
 !
+StructuredCloneHolder
+:
+:
 ReadString
 (
 aReader
