@@ -2683,6 +2683,14 @@ elt
 this
 .
 textEditor
+.
+destroy
+(
+)
+;
+this
+.
+textEditor
 =
 null
 ;

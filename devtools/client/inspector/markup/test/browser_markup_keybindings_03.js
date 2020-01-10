@@ -149,7 +149,11 @@ inspector
 .
 editor
 .
-value
+textNode
+.
+valuePreRef
+.
+current
 "
 The
 currently
