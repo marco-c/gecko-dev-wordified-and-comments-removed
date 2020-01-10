@@ -218,10 +218,10 @@ waitForTick
 (
 )
 ;
-popup
-.
+await
 closePopup
 (
+popup
 )
 ;
 await
@@ -355,6 +355,9 @@ mode
 "
 )
 ;
+await
+closePopup
+(
 document
 .
 getElementById
@@ -363,9 +366,6 @@ getElementById
 contentAreaContextMenu
 "
 )
-.
-hidePopup
-(
 )
 ;
 }
