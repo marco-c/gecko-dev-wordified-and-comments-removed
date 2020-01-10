@@ -25422,13 +25422,10 @@ MaybeInitOncePrefs
 {
 if
 (
-!
-XRE_IsParentProcess
+MOZ_LIKELY
 (
-)
-|
-|
 sOncePrefRead
+)
 )
 {
 return
@@ -26678,6 +26675,10 @@ PREF
 #
 undef
 VARCACHE_PREF
+sOncePrefRead
+=
+true
+;
 }
 }
 #
