@@ -3394,7 +3394,7 @@ ScriptDataLockData
 js
 :
 :
-ScriptDataTable
+RuntimeScriptDataTable
 >
 scriptDataTable_
 ;
@@ -3403,7 +3403,7 @@ public
 js
 :
 :
-ScriptDataTable
+RuntimeScriptDataTable
 &
 scriptDataTable
 (

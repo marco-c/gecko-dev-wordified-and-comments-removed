@@ -6920,7 +6920,7 @@ delete
 }
 ;
 struct
-SharedScriptDataHasher
+RuntimeScriptDataHasher
 ;
 class
 RuntimeScriptData
@@ -6986,7 +6986,7 @@ struct
 js
 :
 :
-SharedScriptDataHasher
+RuntimeScriptDataHasher
 ;
 private
 :
@@ -7346,7 +7346,7 @@ delete
 }
 ;
 struct
-SharedScriptDataHasher
+RuntimeScriptDataHasher
 {
 using
 Lookup
@@ -7501,13 +7501,13 @@ class
 AutoLockScriptData
 ;
 using
-ScriptDataTable
+RuntimeScriptDataTable
 =
 HashSet
 <
 RuntimeScriptData
 *
-SharedScriptDataHasher
+RuntimeScriptDataHasher
 SystemAllocPolicy
 >
 ;

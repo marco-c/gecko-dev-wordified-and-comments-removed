@@ -20170,7 +20170,7 @@ refCount
 1
 )
 ;
-SharedScriptDataHasher
+RuntimeScriptDataHasher
 :
 :
 Lookup
@@ -20190,7 +20190,7 @@ runtime
 )
 )
 ;
-ScriptDataTable
+RuntimeScriptDataTable
 :
 :
 AddPtr
@@ -20302,7 +20302,7 @@ lock
 rt
 )
 ;
-ScriptDataTable
+RuntimeScriptDataTable
 &
 table
 =
@@ -20316,7 +20316,7 @@ lock
 ;
 for
 (
-ScriptDataTable
+RuntimeScriptDataTable
 :
 :
 Enum
@@ -20395,7 +20395,7 @@ lock
 rt
 )
 ;
-ScriptDataTable
+RuntimeScriptDataTable
 &
 table
 =
@@ -20469,7 +20469,7 @@ env
 endif
 for
 (
-ScriptDataTable
+RuntimeScriptDataTable
 :
 :
 Enum

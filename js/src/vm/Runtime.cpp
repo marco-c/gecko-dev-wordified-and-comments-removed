@@ -1804,7 +1804,7 @@ mallocSizeOf
 ;
 for
 (
-ScriptDataTable
+RuntimeScriptDataTable
 :
 :
 Range

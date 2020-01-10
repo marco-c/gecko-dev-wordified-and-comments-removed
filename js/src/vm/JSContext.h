@@ -1661,7 +1661,7 @@ symbolRegistry
 js
 :
 :
-ScriptDataTable
+RuntimeScriptDataTable
 &
 scriptDataTable
 (
