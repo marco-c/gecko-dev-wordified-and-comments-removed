@@ -1176,15 +1176,6 @@ nullptr
 )
 ;
 bool
-ParseSpecialIntValue
-(
-const
-nsAString
-&
-aString
-)
-;
-bool
 ParseHTMLDimension
 (
 const
