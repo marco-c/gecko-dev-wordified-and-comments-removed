@@ -7718,6 +7718,15 @@ schema
 Required
 (
 '
+channel
+'
+)
+:
+basestring
+    
+Required
+(
+'
 upstream
 -
 artifacts
@@ -7786,6 +7795,17 @@ payload
 ]
 =
 {
+        
+'
+channel
+'
+:
+worker
+[
+'
+channel
+'
+]
         
 '
 upstreamArtifacts
