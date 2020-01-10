@@ -943,7 +943,7 @@ aXMost
 )
 override
 ;
-void
+nscoord
 ComputeFinalBSize
 (
 const
@@ -962,12 +962,6 @@ mozilla
 LogicalMargin
 &
 aBorderPadding
-mozilla
-:
-:
-LogicalSize
-&
-aFinalSize
 nscoord
 aConsumed
 )
