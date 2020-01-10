@@ -928,7 +928,7 @@ duration
 0
 interval
 :
-1
+1000
 features
 :
 [
