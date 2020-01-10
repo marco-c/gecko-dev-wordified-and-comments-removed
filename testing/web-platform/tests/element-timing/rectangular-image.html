@@ -102,6 +102,9 @@ script
 let
 beforeRender
 ;
+let
+img
+;
 async_test
 (
 function
@@ -214,6 +217,7 @@ my_image
 rectangle
 '
 beforeRender
+img
 )
 ;
 /
@@ -321,7 +325,6 @@ equal
 to
 50
 .
-const
 img
 =
 document

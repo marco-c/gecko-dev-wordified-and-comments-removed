@@ -103,6 +103,9 @@ script
 let
 beforeRender
 ;
+let
+img
+;
 async_test
 (
 function
@@ -199,6 +202,7 @@ not_fully_visible
 '
 '
 beforeRender
+img
 )
 ;
 /
@@ -325,7 +329,6 @@ equal
 to
 viewport
 .
-const
 img
 =
 document
