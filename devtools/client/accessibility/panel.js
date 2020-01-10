@@ -770,6 +770,13 @@ simulator
 this
 .
 simulator
+toolboxDoc
+:
+this
+.
+_toolbox
+.
+doc
 }
 )
 ;

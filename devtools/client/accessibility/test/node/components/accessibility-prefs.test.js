@@ -421,6 +421,11 @@ store
 }
 AccessibilityPrefs
 (
+{
+toolboxDoc
+:
+document
+}
 )
 )
 )
@@ -570,6 +575,11 @@ store
 }
 AccessibilityPrefs
 (
+{
+toolboxDoc
+:
+document
+}
 )
 )
 )
@@ -651,6 +661,11 @@ store
 }
 AccessibilityPrefs
 (
+{
+toolboxDoc
+:
+document
+}
 )
 )
 )

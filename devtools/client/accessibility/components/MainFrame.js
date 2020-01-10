@@ -321,6 +321,13 @@ simulator
 PropTypes
 .
 object
+toolboxDoc
+:
+PropTypes
+.
+object
+.
+isRequired
 }
 ;
 }
@@ -619,6 +626,7 @@ fluentBundles
 enabled
 auditing
 simulator
+toolboxDoc
 }
 =
 this
@@ -677,6 +685,7 @@ Toolbar
 accessibility
 accessibilityWalker
 simulator
+toolboxDoc
 }
 )
 isAuditing

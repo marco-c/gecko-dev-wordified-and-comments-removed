@@ -150,6 +150,7 @@ async
 (
 {
 doc
+toolbox
 }
 )
 =
@@ -159,7 +160,10 @@ await
 toggleMenuItem
 (
 doc
-1
+toolbox
+.
+doc
+PREFS_MENU_ID
 0
 )
 ;
@@ -214,6 +218,7 @@ async
 (
 {
 doc
+toolbox
 }
 )
 =
@@ -223,7 +228,10 @@ await
 toggleMenuItem
 (
 doc
-1
+toolbox
+.
+doc
+PREFS_MENU_ID
 0
 )
 ;
