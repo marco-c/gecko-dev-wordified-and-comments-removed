@@ -2838,6 +2838,11 @@ mh_command
 [
             
 '
+/
+usr
+/
+bin
+/
 python2
 .
 7
