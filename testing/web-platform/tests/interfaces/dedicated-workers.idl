@@ -594,7 +594,6 @@ Function
 TimerHandler
 ;
 [
-NoInterfaceObject
 Exposed
 =
 (
@@ -603,6 +602,7 @@ Worker
 )
 ]
 interface
+mixin
 WindowOrWorkerGlobalScope
 {
 [
@@ -729,7 +729,7 @@ options
 }
 ;
 WorkerGlobalScope
-implements
+includes
 WindowOrWorkerGlobalScope
 ;
 [
@@ -743,23 +743,22 @@ WorkerNavigator
 }
 ;
 WorkerNavigator
-implements
+includes
 NavigatorID
 ;
 WorkerNavigator
-implements
+includes
 NavigatorLanguage
 ;
 WorkerNavigator
-implements
+includes
 NavigatorOnLine
 ;
 WorkerNavigator
-implements
+includes
 NavigatorConcurrentHardware
 ;
 [
-NoInterfaceObject
 Exposed
 =
 (
@@ -768,6 +767,7 @@ Worker
 )
 ]
 interface
+mixin
 NavigatorID
 {
 readonly
@@ -866,7 +866,6 @@ interface
 }
 ;
 [
-NoInterfaceObject
 Exposed
 =
 (
@@ -875,6 +874,7 @@ Worker
 )
 ]
 interface
+mixin
 NavigatorLanguage
 {
 readonly
@@ -893,7 +893,6 @@ languages
 }
 ;
 [
-NoInterfaceObject
 Exposed
 =
 (
@@ -902,6 +901,7 @@ Worker
 )
 ]
 interface
+mixin
 NavigatorOnLine
 {
 readonly
@@ -912,7 +912,6 @@ onLine
 }
 ;
 [
-NoInterfaceObject
 Exposed
 =
 (
@@ -921,6 +920,7 @@ Worker
 )
 ]
 interface
+mixin
 NavigatorConcurrentHardware
 {
 readonly
