@@ -123,6 +123,14 @@ JSContext
 cx
 )
 ;
+bool
+HasMultiValueSupport
+(
+JSContext
+*
+cx
+)
+;
 MOZ_MUST_USE
 bool
 Eval
