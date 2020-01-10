@@ -62,7 +62,7 @@ fast_json
 json
 CURRENT_VERSION
 =
-5
+6
 class
 ManifestError
 (
@@ -362,7 +362,7 @@ key
 ]
     
 def
-__bool__
+__nonzero__
 (
 self
 )
@@ -374,6 +374,13 @@ bool
 self
 .
 data
+)
+or
+bool
+(
+self
+.
+json_data
 )
     
 def
@@ -472,6 +479,38 @@ key
 value
 )
 :
+        
+if
+self
+.
+json_data
+is
+not
+None
+:
+            
+path
+=
+from_os_path
+(
+key
+)
+            
+if
+path
+in
+self
+.
+json_data
+:
+                
+del
+self
+.
+json_data
+[
+path
+]
         
 self
 .

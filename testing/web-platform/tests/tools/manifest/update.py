@@ -162,6 +162,14 @@ not
 None
     
 if
+not
+kwargs
+[
+"
+rebuild
+"
+]
+and
 kwargs
 [
 "

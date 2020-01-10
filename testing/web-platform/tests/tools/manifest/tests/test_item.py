@@ -111,9 +111,10 @@ URLManifestItem
 (
 "
 /
-foobar
+foo
 "
 "
+bar
 /
 "
 +
@@ -122,9 +123,6 @@ path
 /
 "
 "
-/
-foo
-.
 bar
 /
 "
@@ -259,9 +257,10 @@ URLManifestItem
 (
 "
 /
-foobar
+foo
 "
 "
+bar
 /
 "
 +
@@ -270,9 +269,6 @@ path
 /
 "
 "
-/
-foo
-.
 bar
 /
 "
