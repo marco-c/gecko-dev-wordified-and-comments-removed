@@ -546,12 +546,7 @@ buttons
 =
 AppConstants
 .
-platform
-=
-=
-"
-linux
-"
+XP_UNIX
 ?
 <
 hbox
