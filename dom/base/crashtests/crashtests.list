@@ -1301,6 +1301,12 @@ geckoview
 &
 isDebugBuild
 )
+skip
+-
+if
+(
+AddressSanitizer
+)
 pref
 (
 dom
@@ -1334,6 +1340,9 @@ GV
 +
 debug
 .
+Bug
+1573281
+asan
 load
 1422883
 .
