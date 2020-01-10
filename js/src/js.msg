@@ -7868,7 +7868,7 @@ Intl
 MSG_DEF
 (
 JSMSG_DATE_NOT_FINITE
-1
+2
 JSEXN_RANGEERR
 "
 date
@@ -7881,7 +7881,9 @@ in
 0
 }
 .
-format
+{
+1
+}
 (
 )
 "
