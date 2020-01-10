@@ -436,6 +436,8 @@ StartIceGathering
 (
 bool
 defaultRouteOnly
+bool
+obfuscateHostAddresses
 NrIceStunAddrArray
 stunAddrs
 )
