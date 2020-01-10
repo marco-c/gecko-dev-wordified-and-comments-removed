@@ -1567,6 +1567,11 @@ base
 toolchains
 -
 clang
+DISABLE_CLANG_PLUGIN
+:
+'
+1
+'
 run
 :
 using
@@ -1749,6 +1754,11 @@ base
 toolchains
 -
 clang
+DISABLE_CLANG_PLUGIN
+:
+'
+1
+'
 run
 :
 using
