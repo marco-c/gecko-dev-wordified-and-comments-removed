@@ -1971,7 +1971,6 @@ RenderText
 (
 mTextureSourceProvider
 text
-30
 600
 TextRenderer
 :

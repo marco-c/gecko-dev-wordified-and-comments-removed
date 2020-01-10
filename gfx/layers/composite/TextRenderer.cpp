@@ -365,7 +365,6 @@ RenderText
 (
 aCompositor
 aText
-aTextSize
 aTargetPixelWidth
 aFontType
 )
@@ -478,8 +477,6 @@ const
 string
 &
 aText
-uint32_t
-aTextSize
 uint32_t
 aTargetPixelWidth
 FontType
