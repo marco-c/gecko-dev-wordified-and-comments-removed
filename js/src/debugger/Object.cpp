@@ -6388,14 +6388,14 @@ T
 chars
 )
 {
-JSFlatString
+JSLinearString
 *
-flat
+linear
 =
 str
 -
 >
-ensureFlat
+ensureLinear
 (
 cx
 )
@@ -6403,7 +6403,7 @@ cx
 if
 (
 !
-flat
+linear
 )
 {
 return
@@ -6418,7 +6418,7 @@ chars
 appendN
 (
 0
-flat
+linear
 -
 >
 length
@@ -6441,7 +6441,7 @@ begin
 (
 )
 *
-flat
+linear
 )
 ;
 return
