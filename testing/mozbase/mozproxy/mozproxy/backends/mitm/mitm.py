@@ -2806,6 +2806,7 @@ __init__
 (
 self
 config
+android_device
 )
 :
         
@@ -2816,6 +2817,12 @@ __init__
 self
 config
 )
+        
+self
+.
+android_device
+=
+android_device
     
 property
     

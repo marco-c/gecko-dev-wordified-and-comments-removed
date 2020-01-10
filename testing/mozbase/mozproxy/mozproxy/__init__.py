@@ -119,6 +119,9 @@ def
 get_playback
 (
 config
+android_device
+=
+None
 )
 :
     
@@ -218,11 +221,28 @@ None
 try
 :
         
+if
+android_device
+is
+None
+:
+            
 return
 get_backend
 (
 tool_name
 config
+)
+        
+else
+:
+            
+return
+get_backend
+(
+tool_name
+config
+android_device
 )
     
 except
