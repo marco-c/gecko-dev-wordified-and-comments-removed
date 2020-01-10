@@ -558,6 +558,15 @@ nsIFrame
 aFrame
 )
 ;
+static
+bool
+UsesSVGEffectsNotSupportedInCompositor
+(
+nsIFrame
+*
+aFrame
+)
+;
 enum
 {
 FLAG_SYNC_DECODE_IMAGES
