@@ -19235,6 +19235,7 @@ nsINode
 *
 aNode
 )
+const
 {
 MOZ_ASSERT
 (
@@ -19290,6 +19291,7 @@ nsINode
 *
 aNode
 )
+const
 {
 MOZ_ASSERT
 (
@@ -19346,6 +19348,7 @@ nsINode
 &
 aNode
 )
+const
 {
 nsCOMPtr
 <
@@ -19396,6 +19399,7 @@ nsINode
 &
 aNode
 )
+const
 {
 nsCOMPtr
 <
