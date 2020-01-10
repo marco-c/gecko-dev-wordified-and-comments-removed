@@ -112,6 +112,17 @@ NumberFormat
 h
 "
 #
+include
+"
+builtin
+/
+intl
+/
+PluralRules
+.
+h
+"
+#
 endif
 #
 include
