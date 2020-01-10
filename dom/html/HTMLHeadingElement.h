@@ -179,12 +179,6 @@ AccessibilityLevel
 (
 )
 const
-;
-int32_t
-BaseAccessibilityLevel
-(
-)
-const
 {
 nsAtom
 *
