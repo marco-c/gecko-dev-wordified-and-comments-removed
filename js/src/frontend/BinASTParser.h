@@ -314,12 +314,9 @@ BinASTParser
 JSContext
 *
 cx
-LifoAlloc
+ParseInfo
 &
-alloc
-UsedNameTracker
-&
-usedNames
+parseInfo
 const
 JS
 :
@@ -345,8 +342,7 @@ Tok
 >
 (
 cx
-alloc
-usedNames
+parseInfo
 options
 sourceObject
 lazyScript

@@ -19650,12 +19650,6 @@ frontend
 CompileGlobalBinASTScript
 (
 cx
-cx
--
->
-tempLifoAlloc
-(
-)
 options
 buf
 length

@@ -3777,12 +3777,6 @@ frontend
 CompileGlobalBinASTScript
 (
 cx
-cx
--
->
-tempLifoAlloc
-(
-)
 options
 data
 .

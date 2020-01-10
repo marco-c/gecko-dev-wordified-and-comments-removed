@@ -4225,6 +4225,13 @@ release
 mark
 )
 ;
+lifoAlloc
+-
+>
+freeAllIfHugeAndUnused
+(
+)
+;
 }
 }
 LifoAlloc
