@@ -62,7 +62,7 @@ generics
 counters
 :
 :
-GenericCounterIncrement
+CounterPair
 ;
 use
 crate
@@ -77,7 +77,7 @@ generics
 counters
 :
 :
-CounterPair
+GenericCounterIncrement
 ;
 use
 crate
