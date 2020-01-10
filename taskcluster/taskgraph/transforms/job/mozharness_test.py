@@ -1802,19 +1802,6 @@ linux
 sh
 '
     
-bitbar_wrapper
-=
-'
-/
-builds
-/
-taskcluster
-/
-script
-.
-py
-'
-    
 is_macosx
 =
 worker
@@ -2785,8 +2772,6 @@ is_bitbar
 mh_command
 =
 [
-            
-bitbar_wrapper
             
 '
 bash
