@@ -83,6 +83,9 @@ audio_unit
 "
 core_audio
 "
+"
+nobindgen
+"
 ]
 git
 =
