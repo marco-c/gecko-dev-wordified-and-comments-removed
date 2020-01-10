@@ -116,6 +116,10 @@ bool
 endToEndSSL
 =
 false
+bool
+aIsHttp3
+=
+false
 )
 ;
 nsHttpConnectionInfo
@@ -151,6 +155,8 @@ nsACString
 routedHost
 int32_t
 routedPort
+bool
+aIsHttp3
 )
 ;
 private
@@ -1005,6 +1011,16 @@ mLessThanTls13
 aLessThanTls13
 ;
 }
+bool
+IsHttp3
+(
+)
+const
+{
+return
+mIsHttp3
+;
+}
 private
 :
 nsHttpConnectionInfo
@@ -1038,6 +1054,8 @@ bool
 endToEndSSL
 bool
 isolated
+bool
+aIsHttp3
 )
 ;
 nsHttpConnectionInfo
@@ -1075,6 +1093,8 @@ int32_t
 routedPort
 bool
 isolated
+bool
+aIsHttp3
 )
 ;
 void
@@ -1107,6 +1127,8 @@ OriginAttributes
 originAttributes
 bool
 EndToEndSSL
+bool
+aIsHttp3
 )
 ;
 void
@@ -1195,6 +1217,9 @@ mIPv6Disabled
 ;
 bool
 mLessThanTls13
+;
+bool
+mIsHttp3
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
