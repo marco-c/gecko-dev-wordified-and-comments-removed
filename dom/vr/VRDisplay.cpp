@@ -3888,7 +3888,10 @@ rand
 )
 )
 /
+float
+(
 RAND_MAX
+)
 *
 10000
 .
