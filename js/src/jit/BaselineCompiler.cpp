@@ -35959,6 +35959,10 @@ pushReturnAddress
 ;
 #
 endif
+saveInterpreterPCReg
+(
+)
+;
 masm
 .
 Push
@@ -36020,6 +36024,10 @@ masm
 Pop
 (
 BaselineFrameReg
+)
+;
+restoreInterpreterPCReg
+(
 )
 ;
 masm
