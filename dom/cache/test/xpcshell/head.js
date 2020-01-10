@@ -110,9 +110,6 @@ importGlobalProperties
 caches
 "
 "
-File
-"
-"
 fetch
 "
 ]

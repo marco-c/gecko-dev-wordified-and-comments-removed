@@ -7,17 +7,6 @@ checkFromJSM
 "
 ]
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URL
-"
-]
-)
-;
 function
 checkFromJSM
 (

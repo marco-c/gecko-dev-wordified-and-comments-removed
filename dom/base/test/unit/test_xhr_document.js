@@ -1,14 +1,3 @@
-Cu
-.
-importGlobalProperties
-(
-[
-"
-DOMParser
-"
-]
-)
-;
 var
 {
 HttpServer

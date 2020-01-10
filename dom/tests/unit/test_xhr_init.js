@@ -3,17 +3,6 @@ run_test
 (
 )
 {
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
-)
-;
 var
 x
 =
