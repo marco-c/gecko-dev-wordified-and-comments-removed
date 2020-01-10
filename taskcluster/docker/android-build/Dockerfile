@@ -123,6 +123,10 @@ cryptography
 \
 python
 -
+dev
+\
+python
+-
 pip
 \
 python
