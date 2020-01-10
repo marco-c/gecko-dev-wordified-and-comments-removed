@@ -3425,7 +3425,12 @@ SetUsesContainerScrolling
 bool
 aValue
 )
+{
+mUsesContainerScrolling
+=
+aValue
 ;
+}
 bool
 UsesContainerScrolling
 (
