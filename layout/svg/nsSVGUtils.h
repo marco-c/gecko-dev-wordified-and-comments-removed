@@ -668,12 +668,6 @@ image
 imgDrawingParams
 imgDrawingParams
 ;
-static
-void
-Init
-(
-)
-;
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 ObjectBoundingBoxProperty
