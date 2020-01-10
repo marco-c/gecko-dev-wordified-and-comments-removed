@@ -465,13 +465,6 @@ flows
 "
 "
         
-self
-.
-flowmap
-=
-{
-}
-        
 for
 i
 in
@@ -603,6 +596,29 @@ self
 paths
 )
 :
+        
+if
+"
+"
+in
+paths
+[
+0
+]
+:
+            
+paths
+=
+paths
+[
+0
+]
+.
+split
+(
+"
+"
+)
         
 for
 path
