@@ -3554,6 +3554,10 @@ return
 mStatus
 ;
 }
+mDivertingToParent
+=
+true
+;
 nsresult
 rv
 =
@@ -3576,10 +3580,6 @@ return
 rv
 ;
 }
-mDivertingToParent
-=
-true
-;
 PChannelDiverterChild
 *
 diverter
