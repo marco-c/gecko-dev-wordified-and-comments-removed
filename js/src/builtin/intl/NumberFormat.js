@@ -1556,6 +1556,9 @@ code
 symbol
 "
 "
+narrowSymbol
+"
+"
 name
 "
 ]
