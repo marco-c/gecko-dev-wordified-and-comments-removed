@@ -15223,6 +15223,15 @@ AsyncPanZoomController
 aAncestor
 )
 {
+if
+(
+!
+mRootNode
+)
+{
+return
+;
+}
 RefPtr
 <
 GeckoContentController
