@@ -6315,6 +6315,14 @@ popupshowing
 =
 >
 {
+this
+.
+view
+.
+close
+(
+)
+;
 let
 controller
 =
