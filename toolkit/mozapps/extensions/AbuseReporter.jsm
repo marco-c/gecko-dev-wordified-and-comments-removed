@@ -1712,7 +1712,6 @@ DIALOG_WINDOW_NAME
 "
 dialog
 centerscreen
-alwaysOnTop
 height
 =
 700
