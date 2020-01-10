@@ -10987,6 +10987,11 @@ HasBeenUserGestureActivated
 (
 )
 ;
+bool
+HasValidTransientUserGestureActivation
+(
+)
+;
 BrowsingContext
 *
 GetBrowsingContext

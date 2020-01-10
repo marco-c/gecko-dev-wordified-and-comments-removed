@@ -4012,7 +4012,7 @@ to
 simulate
 activate
 the
-docuement
+document
 /
 /
 by
@@ -4052,6 +4052,14 @@ readonly
 attribute
 boolean
 hasBeenUserGestureActivated
+;
+[
+ChromeOnly
+]
+readonly
+attribute
+boolean
+hasValidTransientUserGestureActivation
 ;
 }
 ;
