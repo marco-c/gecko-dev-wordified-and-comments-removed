@@ -92,6 +92,7 @@ import
 Transform
 CONCAT
 COPY
+COPY_PATTERN
 from
 .
 errors
@@ -461,11 +462,15 @@ name
         
 if
 name
-=
-=
+in
+(
 '
 COPY
 '
+'
+COPY_PATTERN
+'
+)
 :
             
 args
@@ -518,8 +523,27 @@ arguments
 named
 }
             
+if
+name
+=
+=
+'
+COPY
+'
+:
+                
 return
 COPY
+(
+*
+args
+*
+*
+kwargs
+)
+            
+return
+COPY_PATTERN
 (
 *
 args

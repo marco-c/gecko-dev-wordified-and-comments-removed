@@ -530,9 +530,12 @@ comment
 .
 content
 .
-splitlines
+split
 (
-False
+"
+\
+n
+"
 )
     
 ]
