@@ -132,6 +132,15 @@ include
 "
 mozilla
 /
+HashTable
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -868,7 +877,6 @@ const
 void
 ApplyUpdates
 (
-const
 ScrollUpdatesMap
 &
 aUpdates
@@ -906,10 +914,7 @@ WebRenderLayerManager
 MOZ_NON_OWNING_REF
 mManager
 ;
-std
-:
-:
-map
+HashMap
 <
 ScrollableLayerGuid
 :

@@ -62,6 +62,10 @@ typedef
 uint64_t
 ViewID
 ;
+typedef
+nsUint64HashKey
+ViewIDHashKey
+;
 static
 const
 ViewID
