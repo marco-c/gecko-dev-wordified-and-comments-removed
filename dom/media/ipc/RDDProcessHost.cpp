@@ -1011,7 +1011,7 @@ defined
 (
 MOZ_SANDBOX
 )
-void
+bool
 RDDProcessHost
 :
 :
@@ -1053,8 +1053,11 @@ shouldLog
 true
 ;
 }
+return
+true
+;
 }
-void
+bool
 RDDProcessHost
 :
 :
@@ -1065,6 +1068,7 @@ MacSandboxInfo
 aInfo
 )
 {
+return
 RDDProcessHost
 :
 :
