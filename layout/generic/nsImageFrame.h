@@ -1294,6 +1294,17 @@ aRequest
 )
 const
 ;
+void
+UpdateImage
+(
+imgIRequest
+*
+aRequest
+imgIContainer
+*
+aImage
+)
+;
 nsRect
 SourceRectToDest
 (
