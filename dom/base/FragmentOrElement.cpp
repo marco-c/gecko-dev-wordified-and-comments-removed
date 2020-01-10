@@ -5388,7 +5388,7 @@ AssertAnonymousSubtreeRelatedInvariants
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsRootOfNativeAnonymousSubtree
@@ -5429,7 +5429,7 @@ parent
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 GetParent
