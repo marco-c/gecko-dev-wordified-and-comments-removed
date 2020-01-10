@@ -101,16 +101,7 @@ records
 }
 ;
 typedef
-(
-DOMString
-or
-unrestricted
-double
-or
-ArrayBuffer
-or
-object
-)
+any
 NDEFRecordData
 ;
 [
