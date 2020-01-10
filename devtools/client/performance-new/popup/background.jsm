@@ -1150,6 +1150,9 @@ false
 jstracer
 :
 false
+preferencereads
+:
+false
 jsallocations
 :
 false
