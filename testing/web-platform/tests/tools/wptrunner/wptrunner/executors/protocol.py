@@ -653,7 +653,7 @@ execute_script
 (
 self
 script
-async
+asynchronous
 =
 False
 )
@@ -693,7 +693,7 @@ function
 :
 param
 bool
-async
+asynchronous
 :
 Whether
 the

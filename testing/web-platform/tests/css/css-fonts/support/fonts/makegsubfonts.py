@@ -722,9 +722,10 @@ glyphName
     		
 else
 :
-    			
+                
 raise
 NotImplementedError
+(
 "
 Unsupported
 cmap
@@ -738,6 +739,7 @@ d
 table
 .
 format
+)
     	
 cp
 +
@@ -830,9 +832,10 @@ glyphName
     		
 else
 :
-    			
+                
 raise
 NotImplementedError
+(
 "
 Unsupported
 cmap
@@ -846,6 +849,7 @@ d
 table
 .
 format
+)
     	
 cp
 +
@@ -1804,6 +1808,7 @@ else
     			
 raise
 NotImplementedError
+(
 "
 Unsupported
 cmap
@@ -1817,6 +1822,7 @@ d
 table
 .
 format
+)
     	
 cp
 +
@@ -1927,6 +1933,7 @@ else
     				
 raise
 NotImplementedError
+(
 "
 Unsupported
 cmap
@@ -1940,6 +1947,7 @@ d
 table
 .
 format
+)
     		
 cp
 +

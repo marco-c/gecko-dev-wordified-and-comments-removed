@@ -107,8 +107,8 @@ GET
 second_level_iframe_csp
 "
 ]
-<
->
+!
+=
 "
 "
 :

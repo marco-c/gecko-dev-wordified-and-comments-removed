@@ -187,7 +187,7 @@ execute_script
 (
 self
 script
-async
+asynchronous
 =
 False
 )
@@ -201,7 +201,7 @@ marionette
 .
 execute_async_script
 if
-async
+asynchronous
 else
 self
 .
@@ -4976,7 +4976,7 @@ self
 script_resume
 %
 format_map
-async
+asynchronous
 =
 True
 )
@@ -5789,7 +5789,7 @@ execute_script
 self
 .
 wait_script
-async
+asynchronous
 =
 True
 )
