@@ -183,6 +183,17 @@ browser
 .
 ini
 '
+'
+tests
+/
+ext
+/
+browser
+/
+browser
+.
+ini
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
