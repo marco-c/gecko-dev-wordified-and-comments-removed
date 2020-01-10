@@ -2796,7 +2796,7 @@ UserData
 regInfo
 -
 >
-Clear
+ShutdownWorkers
 (
 )
 ;
