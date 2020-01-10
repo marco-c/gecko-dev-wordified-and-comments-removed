@@ -70,6 +70,8 @@ kind
 dependencies
 :
 -
+toolchain
+-
 instrumented
 -
 build
@@ -97,6 +99,14 @@ taskgraph
 transforms
 .
 run_pgo_profile
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
+use_toolchains
 :
 transforms
 -
@@ -870,6 +880,12 @@ android
 android_pgo
 .
 py
+toolchains
+:
+-
+linux64
+-
+clang
 win32
 -
 shippable
