@@ -6628,7 +6628,7 @@ Scalar
 :
 Type
 type
-ValOperandId
+OperandId
 rhs
 )
 {
