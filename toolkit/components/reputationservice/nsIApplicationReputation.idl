@@ -130,6 +130,9 @@ nsIArray
 interface
 nsIURI
 ;
+interface
+nsIReferrerInfo
+;
 /
 *
 *
@@ -463,8 +466,8 @@ any
 /
 readonly
 attribute
-nsIURI
-referrerURI
+nsIReferrerInfo
+referrerInfo
 ;
 /
 *

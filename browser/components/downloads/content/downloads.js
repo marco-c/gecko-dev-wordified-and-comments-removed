@@ -3849,7 +3849,9 @@ download
 .
 source
 .
-referrer
+referrerInfo
+.
+originalReferrer
 )
 ;
 }
