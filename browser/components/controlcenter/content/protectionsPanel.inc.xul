@@ -2450,10 +2450,6 @@ breakageReportView3
 description
 ;
 <
-/
-description
->
-<
 label
 id
 =
@@ -2486,6 +2482,10 @@ learnMore
 <
 /
 label
+>
+<
+/
+description
 >
 <
 /
