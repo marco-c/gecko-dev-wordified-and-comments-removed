@@ -107,9 +107,6 @@ Vector
 class
 nsILoadGroup
 ;
-class
-nsIX509CertList
-;
 char
 *
 PK11PasswordPrompt

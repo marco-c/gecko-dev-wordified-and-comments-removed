@@ -84,9 +84,12 @@ nsresult
 ChainHasValidPins
 (
 const
+nsTArray
+<
 RefPtr
 <
-nsNSSCertList
+nsIX509Cert
+>
 >
 &
 certList
@@ -121,9 +124,12 @@ nsresult
 ChainMatchesPinset
 (
 const
+nsTArray
+<
 RefPtr
 <
-nsNSSCertList
+nsIX509Cert
+>
 >
 &
 certList
