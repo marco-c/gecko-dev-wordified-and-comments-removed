@@ -809,6 +809,10 @@ aInsertion
 FrameConstructionItemList
 &
 aItems
+uint32_t
+aFlags
+=
+0
 )
 ;
 bool
@@ -845,6 +849,10 @@ aParentFrame
 FrameConstructionItemList
 &
 aItems
+uint32_t
+aFlags
+=
+0
 )
 ;
 nsIFrame
