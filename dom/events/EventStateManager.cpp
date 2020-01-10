@@ -8343,6 +8343,11 @@ nsIContentSecurityPolicy
 >
 csp
 ;
+bool
+allowEmptyDataTransfer
+=
+false
+;
 mCurrentTarget
 -
 >
@@ -8420,6 +8425,8 @@ DetermineDragTargetAndDefaultData
 window
 eventContent
 dataTransfer
+&
+allowEmptyDataTransfer
 getter_AddRefs
 (
 selection
@@ -8664,6 +8671,7 @@ DoDefaultDragStart
 aPresContext
 event
 dataTransfer
+allowEmptyDataTransfer
 targetContent
 selection
 remoteDragStartData
@@ -8719,6 +8727,9 @@ aSelectionTarget
 DataTransfer
 *
 aDataTransfer
+bool
+*
+aAllowEmptyDataTransfer
 Selection
 *
 *
@@ -8745,6 +8756,11 @@ aCsp
 aTargetNode
 =
 nullptr
+;
+*
+aAllowEmptyDataTransfer
+=
+false
 ;
 nsCOMPtr
 <
@@ -8818,6 +8834,11 @@ forget
 (
 aRemoteDragStartData
 )
+;
+*
+aAllowEmptyDataTransfer
+=
+true
 ;
 }
 }
@@ -8948,6 +8969,11 @@ Draggable
 )
 )
 {
+*
+aAllowEmptyDataTransfer
+=
+true
+;
 break
 ;
 }
@@ -9042,6 +9068,8 @@ aDragEvent
 DataTransfer
 *
 aDataTransfer
+bool
+aAllowEmptyDataTransfer
 nsIContent
 *
 aDragTarget
@@ -9134,6 +9162,10 @@ MozItemCount
 }
 if
 (
+!
+aAllowEmptyDataTransfer
+&
+&
 !
 count
 )
