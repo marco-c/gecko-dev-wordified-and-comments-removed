@@ -788,17 +788,6 @@ login
 -
 item
 -
-open
--
-site
--
-button
-=
-Launch
-login
--
-item
--
 username
 -
 label

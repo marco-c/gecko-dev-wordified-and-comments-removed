@@ -135,7 +135,7 @@ login
 )
 ;
 let
-openSiteButton
+originInput
 =
 loginItem
 .
@@ -145,15 +145,13 @@ querySelector
 (
 "
 .
-open
+origin
 -
-site
--
-button
+input
 "
 )
 ;
-openSiteButton
+originInput
 .
 click
 (
