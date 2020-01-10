@@ -1504,10 +1504,16 @@ self
 stackwalk_binary
         
 return
+bool
+(
 self
 .
 runner
 .
 check_for_crashes
 (
+test_name
+=
+test
+)
 )
