@@ -69,13 +69,6 @@ h
 #
 include
 "
-nsICrossProcessSwitchChannel
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -98,6 +91,13 @@ h
 include
 "
 nsIParentRedirectingChannel
+.
+h
+"
+#
+include
+"
+nsIProcessSwitchRequestor
 .
 h
 "
@@ -151,8 +151,6 @@ nsIParentChannel
 public
 nsIChannelEventSink
 public
-nsICrossProcessSwitchChannel
-public
 HttpChannelSecurityWarningReporter
 public
 nsIProcessSwitchRequestor
@@ -192,7 +190,6 @@ NS_DECL_NSIPARENTCHANNEL
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIASYNCVERIFYREDIRECTREADYCALLBACK
 NS_DECL_NSICHANNELEVENTSINK
-NS_DECL_NSICROSSPROCESSSWITCHCHANNEL
 NS_DECL_NSIPROCESSSWITCHREQUESTOR
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
