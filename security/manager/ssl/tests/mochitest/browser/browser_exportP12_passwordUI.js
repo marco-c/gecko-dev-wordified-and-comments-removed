@@ -411,8 +411,6 @@ getElementById
 pw1
 "
 )
-.
-inputField
 "
 First
 password
