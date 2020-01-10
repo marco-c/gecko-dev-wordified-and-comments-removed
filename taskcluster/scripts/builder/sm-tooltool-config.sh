@@ -345,6 +345,8 @@ scope
 Add
 all
 the
+fetches
+and
 tooltool
 binaries
 to
@@ -354,7 +356,7 @@ PATH
 for
 bin
 in
-TOOLTOOL_CHECKOUT
+MOZ_FETCHES_DIR
 /
 *
 /

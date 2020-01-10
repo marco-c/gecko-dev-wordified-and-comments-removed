@@ -143,7 +143,7 @@ output
 gzip
 -
 c
-TOOLTOOL_CHECKOUT
+MOZ_FETCHES_DIR
 /
 clang
 /

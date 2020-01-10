@@ -826,7 +826,9 @@ spidermonkey
 variant
 :
 tsan
-toolchains
+fetches
+:
+toolchain
 :
 -
 linux64

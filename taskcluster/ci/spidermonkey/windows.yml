@@ -151,7 +151,9 @@ spidermonkey
 platform
 :
 win64
-toolchains
+fetches
+:
+toolchain
 :
 -
 win64
@@ -219,7 +221,9 @@ spidermonkey
 platform
 :
 win32
-toolchains
+fetches
+:
+toolchain
 :
 -
 win64
@@ -308,7 +312,9 @@ spidermonkey
 platform
 :
 win64
-toolchains
+fetches
+:
+toolchain
 :
 -
 win64
@@ -376,7 +382,9 @@ spidermonkey
 platform
 :
 win32
-toolchains
+fetches
+:
+toolchain
 :
 -
 win64
@@ -465,7 +473,9 @@ spidermonkey
 platform
 :
 win64
-toolchains
+fetches
+:
+toolchain
 :
 -
 win64
@@ -541,7 +551,9 @@ projects
 :
 [
 ]
-toolchains
+fetches
+:
+toolchain
 :
 -
 win64
@@ -639,7 +651,9 @@ spidermonkey
 platform
 :
 win64
-toolchains
+fetches
+:
+toolchain
 :
 -
 win64

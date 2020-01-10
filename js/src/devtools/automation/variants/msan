@@ -128,7 +128,7 @@ MSAN_OPTIONS
 external_symbolizer_path
 =
 {
-TOOLTOOL_CHECKOUT
+MOZ_FETCHES_DIR
 }
 /
 clang
