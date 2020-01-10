@@ -76,7 +76,7 @@ framework
 /
 test
 /
-jest
+node
 yarn
 &
 &

@@ -156,7 +156,7 @@ framework
 /
 test
 /
-jest
+node
 "
 type
 :
