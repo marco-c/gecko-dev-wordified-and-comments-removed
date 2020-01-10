@@ -434,7 +434,7 @@ DevToolsLoader
 ;
 loader
 .
-invisibleToDebugger
+freshCompartment
 =
 true
 ;
