@@ -36,13 +36,9 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-await
-hud
-.
-jsterm
-.
 execute
 (
+hud
 "
 console
 .

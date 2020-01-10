@@ -89,13 +89,6 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-const
-jsterm
-=
-hud
-.
-jsterm
-;
 ok
 (
 hud
@@ -134,10 +127,9 @@ str
 ;
 )
 ;
-jsterm
-.
 execute
 (
+hud
 "
 var
 a

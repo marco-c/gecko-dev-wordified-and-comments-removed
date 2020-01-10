@@ -426,12 +426,9 @@ window
 }
 )
 ;
-hud
-.
-jsterm
-.
 execute
 (
+hud
 "
 document
 .
@@ -441,12 +438,9 @@ href
 "
 )
 ;
-hud
-.
-jsterm
-.
 execute
 (
+hud
 gBrowser
 .
 selectedBrowser
