@@ -94,9 +94,6 @@ App
 initialized
 :
 false
-permanentPrivateBrowsing
-:
-false
 }
 ASRouter
 :

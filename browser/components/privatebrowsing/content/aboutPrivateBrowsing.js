@@ -711,7 +711,6 @@ aboutprivatebrowsing
 "
 aboutprivatebrowsing
 "
-true
 )
 ;
 }
