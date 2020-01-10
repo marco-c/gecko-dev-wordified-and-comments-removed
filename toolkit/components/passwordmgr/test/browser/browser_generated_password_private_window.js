@@ -211,6 +211,13 @@ closed
 "
 )
 ;
+await
+TestUtils
+.
+waitForTick
+(
+)
+;
 popup
 .
 closePopup
