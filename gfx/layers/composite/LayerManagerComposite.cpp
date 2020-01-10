@@ -2891,10 +2891,6 @@ overflowed
 {
 changed
 =
-mTarget
-?
-mTargetBounds
-:
 mRenderBounds
 ;
 }
