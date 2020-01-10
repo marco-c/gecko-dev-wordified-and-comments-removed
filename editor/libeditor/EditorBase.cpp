@@ -630,13 +630,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIInlineSpellChecker
 .
 h

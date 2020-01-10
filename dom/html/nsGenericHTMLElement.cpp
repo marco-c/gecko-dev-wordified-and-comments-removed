@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

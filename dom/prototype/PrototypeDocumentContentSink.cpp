@@ -304,13 +304,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 mozAutoDocUpdate
 .
 h

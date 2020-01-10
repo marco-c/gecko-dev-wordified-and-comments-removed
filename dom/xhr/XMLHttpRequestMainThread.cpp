@@ -499,13 +499,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIStorageStream
 .
 h

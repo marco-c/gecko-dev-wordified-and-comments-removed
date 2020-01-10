@@ -245,11 +245,6 @@ nsIHTMLCollection
 h
 '
 '
-nsIHTMLDocument
-.
-h
-'
-'
 nsIRadioGroupContainer
 .
 h
