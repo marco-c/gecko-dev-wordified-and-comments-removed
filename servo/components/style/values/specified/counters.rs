@@ -119,7 +119,7 @@ values
 generics
 :
 :
-CounterStyleOrNone
+CounterStyle
 ;
 use
 crate
@@ -699,7 +699,7 @@ Parser
 )
 -
 >
-CounterStyleOrNone
+CounterStyle
 {
 input
 .
@@ -716,7 +716,7 @@ expect_comma
 )
 ?
 ;
-CounterStyleOrNone
+CounterStyle
 :
 :
 parse
@@ -729,7 +729,7 @@ input
 .
 unwrap_or
 (
-CounterStyleOrNone
+CounterStyle
 :
 :
 decimal

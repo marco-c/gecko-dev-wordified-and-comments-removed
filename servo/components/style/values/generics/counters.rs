@@ -44,7 +44,7 @@ values
 generics
 :
 :
-CounterStyleOrNone
+CounterStyle
 ;
 #
 [
@@ -478,7 +478,7 @@ gecko
 type
 CounterStyleType
 =
-CounterStyleOrNone
+CounterStyle
 ;
 #
 [
@@ -547,7 +547,7 @@ bool
 counter_type
 =
 =
-CounterStyleOrNone
+CounterStyle
 :
 :
 decimal
