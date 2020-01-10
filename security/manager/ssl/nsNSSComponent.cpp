@@ -5081,7 +5081,7 @@ const
 bool
 HELLO_DOWNGRADE_CHECK_DEFAULT
 =
-false
+true
 ;
 static
 const
