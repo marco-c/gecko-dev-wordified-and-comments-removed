@@ -52,12 +52,14 @@ aBrowser
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 aBrowser
+[
 key
+]
 function
 (
 contentKey
