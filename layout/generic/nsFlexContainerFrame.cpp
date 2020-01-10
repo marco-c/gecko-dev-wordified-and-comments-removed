@@ -17203,7 +17203,7 @@ GetFrame
 )
 )
 ;
-MOZ_ASSERT
+NS_WARNING_ASSERTION
 (
 !
 flexFrame
