@@ -1595,7 +1595,7 @@ label
 command
 =
 "
-reload
+cmd_reload
 "
 /
 >
