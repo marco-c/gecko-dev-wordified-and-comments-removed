@@ -6364,11 +6364,8 @@ tt_cmap_t
 *
 cmap
 ;
-char
+tt_cmap_t
 buf
-[
-4
-]
 ;
 int
 num_tables
@@ -6433,10 +6430,7 @@ status
 ;
 cmap
 =
-(
-tt_cmap_t
-*
-)
+&
 buf
 ;
 num_tables
