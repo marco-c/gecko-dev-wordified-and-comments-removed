@@ -1449,17 +1449,6 @@ const
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
-BustUpInlinesAtRangeEndpoints
-(
-RangeItem
-&
-aRangeItem
-)
-const
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
 BustUpInlinesAtBRs
 (
 nsIContent
