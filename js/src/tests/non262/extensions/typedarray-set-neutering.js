@@ -149,13 +149,6 @@ src
 TypeError
 )
 ;
-Array
-.
-reverse
-(
-a_2
-)
-;
 if
 (
 typeof
