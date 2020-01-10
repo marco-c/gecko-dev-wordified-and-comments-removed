@@ -322,6 +322,13 @@ resolve
 )
 ;
 }
+setup
+(
+(
+)
+=
+>
+{
 window
 .
 reporting_observer_instance
@@ -382,6 +389,9 @@ window
 reporting_observer_callback
 =
 null
+;
+}
+)
 ;
 function
 wait_for_violation_in_file
