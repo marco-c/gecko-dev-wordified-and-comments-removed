@@ -217,6 +217,7 @@ open
 ;
 export
 {
+getClosestBreakpoint
 getBreakpointAtLocation
 getBreakpointsAtLine
 }
