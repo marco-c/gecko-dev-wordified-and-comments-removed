@@ -1240,6 +1240,17 @@ sessionRule
 createOpenSession
 (
 )
+session
+.
+loadTestPath
+(
+HELLO_HTML_PATH
+)
+session
+.
+waitForPageStop
+(
+)
 /
 /
 Disable

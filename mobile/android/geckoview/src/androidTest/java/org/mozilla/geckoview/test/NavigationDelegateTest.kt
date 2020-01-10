@@ -6905,13 +6905,11 @@ loadTestPath
 (
 HELLO_HTML_PATH
 )
-;
 mainSession
 .
 waitForPageStop
 (
 )
-;
 val
 newSession
 =
