@@ -886,9 +886,6 @@ mTable
 )
 ;
 }
-#
-ifdef
-DEBUG
 void
 MarkImmutable
 (
@@ -901,8 +898,6 @@ MarkImmutable
 )
 ;
 }
-#
-endif
 protected
 :
 PLDHashTable
@@ -1760,17 +1755,12 @@ Base
 :
 ShallowSizeOfIncludingThis
 ;
-#
-ifdef
-DEBUG
 using
 Base
 :
 :
 MarkImmutable
 ;
-#
-endif
 EntryType
 *
 GetEntry

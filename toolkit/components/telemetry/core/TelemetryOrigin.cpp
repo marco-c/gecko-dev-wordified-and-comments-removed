@@ -1437,9 +1437,6 @@ IdToOriginBag
 (
 )
 ;
-#
-ifdef
-DEBUG
 gOriginToIndexMap
 -
 >
@@ -1454,8 +1451,6 @@ MarkImmutable
 (
 )
 ;
-#
-endif
 gInitDone
 =
 true
