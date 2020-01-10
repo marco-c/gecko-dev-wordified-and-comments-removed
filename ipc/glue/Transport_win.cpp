@@ -30,10 +30,6 @@ ProtocolUtils
 h
 "
 using
-namespace
-std
-;
-using
 base
 :
 :
@@ -61,6 +57,9 @@ TransportDescriptor
 aTwo
 )
 {
+std
+:
+:
 wstring
 id
 =
