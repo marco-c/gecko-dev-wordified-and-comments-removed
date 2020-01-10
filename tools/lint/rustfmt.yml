@@ -18,6 +18,16 @@ wasm
 /
 cranelift
 /
+-
+testing
+/
+geckodriver
+/
+-
+testing
+/
+webdriver
+/
 extensions
 :
 -
