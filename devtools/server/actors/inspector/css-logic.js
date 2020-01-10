@@ -2040,12 +2040,12 @@ if
 domRule
 .
 type
-=
+!
 =
 =
 CSSRule
 .
-MEDIA_RULE
+STYLE_RULE
 )
 {
 return
