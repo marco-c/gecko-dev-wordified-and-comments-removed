@@ -18642,12 +18642,6 @@ phases
 .
 HAS_RESULT
 ;
-test
-.
-done
-(
-)
-;
 }
 else
 if
