@@ -492,6 +492,7 @@ bool
 good
 (
 )
+final
 {
 return
 mGood

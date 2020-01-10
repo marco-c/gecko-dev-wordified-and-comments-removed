@@ -345,6 +345,9 @@ RecordedEvent
 *
 recordedEvent
 )
+-
+>
+bool
 {
 if
 (
