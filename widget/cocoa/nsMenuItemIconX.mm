@@ -1301,7 +1301,6 @@ displayed
 .
 const
 nsRect
-&
 r
 =
 sc
@@ -1312,7 +1311,9 @@ StyleList
 )
 -
 >
-mImageRegion
+GetImageRegion
+(
+)
 ;
 /
 /
