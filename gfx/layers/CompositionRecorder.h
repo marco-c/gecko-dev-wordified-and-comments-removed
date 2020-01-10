@@ -116,6 +116,10 @@ class
 CompositionRecorder
 final
 {
+NS_INLINE_DECL_REFCOUNTING
+(
+CompositionRecorder
+)
 public
 :
 explicit
@@ -123,11 +127,6 @@ CompositionRecorder
 (
 TimeStamp
 aRecordingStart
-)
-;
-~
-CompositionRecorder
-(
 )
 ;
 void
@@ -140,6 +139,13 @@ aFrame
 ;
 void
 WriteCollectedFrames
+(
+)
+;
+protected
+:
+~
+CompositionRecorder
 (
 )
 ;
