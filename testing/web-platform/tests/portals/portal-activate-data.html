@@ -210,7 +210,7 @@ assert_equals
 await
 nextMessage
 (
-bc
+portal
 )
 )
 .
@@ -218,14 +218,6 @@ data
 '
 ready
 '
-)
-;
-let
-replyPromise
-=
-nextMessage
-(
-bc
 )
 ;
 await
@@ -239,7 +231,12 @@ activateOptions
 return
 (
 await
-replyPromise
+nextMessage
+(
+w
+.
+portalHost
+)
 )
 .
 data
