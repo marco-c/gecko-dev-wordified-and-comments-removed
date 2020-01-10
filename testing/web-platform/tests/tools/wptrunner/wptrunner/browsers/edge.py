@@ -595,6 +595,7 @@ kwargs
     
 osReleaseCommand
 =
+r
 "
 (
 Get
@@ -620,6 +621,7 @@ ReleaseId
     
 osBuildCommand
 =
+r
 "
 (
 Get
