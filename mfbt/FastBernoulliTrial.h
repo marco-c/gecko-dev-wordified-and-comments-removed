@@ -310,7 +310,10 @@ if
 (
 skipCount
 <
+double
+(
 SIZE_MAX
+)
 )
 mSkipCount
 =
