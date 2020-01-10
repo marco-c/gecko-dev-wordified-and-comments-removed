@@ -112,11 +112,6 @@ projects
 '
 try
 '
-'
-mozilla
--
-central
-'
 ]
 tier
 :
