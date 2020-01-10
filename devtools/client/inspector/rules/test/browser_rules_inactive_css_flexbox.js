@@ -600,7 +600,6 @@ BEFORE
 await
 toggleDeclaration
 (
-inspector
 view
 0
 {
