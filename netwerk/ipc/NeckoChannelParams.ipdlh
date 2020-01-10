@@ -2317,6 +2317,9 @@ PrincipalInfo
 ?
 contentBlockingAllowListPrincipal
 ;
+TimeStamp
+asyncOpenTime
+;
 nsString
 ?
 initiatorType
