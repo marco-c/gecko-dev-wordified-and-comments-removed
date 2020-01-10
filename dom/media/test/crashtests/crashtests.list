@@ -1313,6 +1313,15 @@ mp4
 #
 Bug
 1533215
+asserts
+-
+if
+(
+Android
+0
+-
+1
+)
 load
 encrypted
 -
@@ -1332,6 +1341,8 @@ mp4
 #
 Bug
 1533625
+bug
+1588967
 load
 1533909
 .
