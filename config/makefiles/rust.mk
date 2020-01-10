@@ -1054,12 +1054,8 @@ profile
 use
 =
 (
-topobjdir
+PGO_PROFILE_PATH
 )
-/
-merged
-.
-profdata
 )
 endif
 (

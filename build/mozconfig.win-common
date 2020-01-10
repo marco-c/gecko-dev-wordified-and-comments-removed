@@ -140,6 +140,10 @@ WORKSPACE
 }
 /
 fetches
+/
+merged
+.
+profdata
 "
 fi
 fi

@@ -1214,6 +1214,10 @@ builds
 worker
 /
 fetches
+/
+merged
+.
+profdata
 fi
 #
 Package

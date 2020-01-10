@@ -277,6 +277,10 @@ builds
 worker
 /
 fetches
+/
+merged
+.
+profdata
 fi
 fi
 export
