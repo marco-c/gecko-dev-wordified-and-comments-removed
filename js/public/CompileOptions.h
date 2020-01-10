@@ -375,6 +375,11 @@ allowSyntaxParser
 =
 true
 ;
+bool
+discardSource
+=
+false
+;
 private
 :
 friend
