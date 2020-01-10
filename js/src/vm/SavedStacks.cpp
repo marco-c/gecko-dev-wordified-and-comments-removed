@@ -3587,7 +3587,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_NOT_NONNULL_OBJECT
+JSMSG_OBJECT_REQUIRED
 InformalValueTypeName
 (
 thisValue

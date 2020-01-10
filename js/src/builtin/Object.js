@@ -570,7 +570,7 @@ obj
 )
 ThrowTypeError
 (
-JSMSG_NOT_NONNULL_OBJECT
+JSMSG_OBJECT_REQUIRED
 DecompileArg
 (
 0
