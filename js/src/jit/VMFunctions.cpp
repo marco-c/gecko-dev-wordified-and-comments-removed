@@ -5459,12 +5459,9 @@ hasBaselineScript
 {
 MOZ_ASSERT
 (
-jit
-:
-:
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 )
 ;
 MOZ_ASSERT

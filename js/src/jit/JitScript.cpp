@@ -334,9 +334,9 @@ this
 ;
 MOZ_ASSERT_IF
 (
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 CanBaselineInterpretScript
 (
 this

@@ -762,9 +762,9 @@ do
 {
 if
 (
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 )
 {
 if
@@ -948,9 +948,9 @@ break
 }
 if
 (
-JitOptions
-.
-baselineInterpreter
+IsBaselineInterpreterEnabled
+(
+)
 )
 {
 jit
