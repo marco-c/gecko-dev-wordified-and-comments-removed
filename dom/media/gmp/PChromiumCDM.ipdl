@@ -135,7 +135,7 @@ aAllowPersistentState
 returns
 (
 bool
-unused
+aSuccess
 )
 ;
 async
