@@ -3509,15 +3509,6 @@ nullptr
 )
 ;
 static
-nsresult
-DispatchFocusChromeEvent
-(
-nsPIDOMWindowOuter
-*
-aWindow
-)
-;
-static
 void
 RequestFrameFocus
 (

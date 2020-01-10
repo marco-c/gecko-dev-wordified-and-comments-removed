@@ -182,6 +182,15 @@ Shutdown
 (
 )
 ;
+static
+void
+FocusWindow
+(
+nsPIDOMWindowOuter
+*
+aWindow
+)
+;
 void
 PrefChanged
 (
