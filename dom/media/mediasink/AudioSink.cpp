@@ -1554,7 +1554,7 @@ true
 ;
 mEndedPromise
 .
-Reject
+RejectIfExists
 (
 NS_ERROR_FAILURE
 __func__
