@@ -19288,6 +19288,15 @@ aDatabaseFile
 ;
 MOZ_ASSERT
 (
+aDirectoryLockId
+>
+=
+-
+1
+)
+;
+MOZ_ASSERT
+(
 aResult
 )
 ;
@@ -35292,7 +35301,7 @@ MOZ_ASSERT
 mDirectoryLock
 -
 >
-GetId
+Id
 (
 )
 >
@@ -35305,7 +35314,7 @@ mDirectoryLockId
 mDirectoryLock
 -
 >
-GetId
+Id
 (
 )
 ;
@@ -54500,7 +54509,7 @@ MOZ_ASSERT
 mDirectoryLock
 -
 >
-GetId
+Id
 (
 )
 >
@@ -54513,7 +54522,7 @@ mDirectoryLockId
 mDirectoryLock
 -
 >
-GetId
+Id
 (
 )
 ;
@@ -89168,7 +89177,7 @@ MOZ_ASSERT
 mDirectoryLock
 -
 >
-GetId
+Id
 (
 )
 >
@@ -89181,7 +89190,7 @@ mDirectoryLockId
 mDirectoryLock
 -
 >
-GetId
+Id
 (
 )
 ;
