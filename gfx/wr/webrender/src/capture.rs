@@ -709,7 +709,6 @@ png
 BitDepth
 ColorType
 Encoder
-HasParameters
 }
 ;
 use
@@ -854,12 +853,14 @@ u32
 ;
 enc
 .
-set
+set_color
 (
 color_type
 )
+;
+enc
 .
-set
+set_depth
 (
 BitDepth
 :
