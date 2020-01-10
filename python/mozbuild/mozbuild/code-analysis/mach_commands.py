@@ -4170,6 +4170,14 @@ secrets_url
 import
 requests
         
+self
+.
+log_manager
+.
+enable_unstructured
+(
+)
+        
 res
 =
 requests
@@ -4177,6 +4185,14 @@ requests
 get
 (
 secrets_url
+)
+        
+self
+.
+log_manager
+.
+disable_unstructured
+(
 )
         
 res
@@ -4636,6 +4652,14 @@ target
 import
 requests
             
+self
+.
+log_manager
+.
+enable_unstructured
+(
+)
+            
 resp
 =
 requests
@@ -4649,6 +4673,14 @@ False
 stream
 =
 True
+)
+            
+self
+.
+log_manager
+.
+disable_unstructured
+(
 )
             
 resp
