@@ -274,6 +274,11 @@ WebrtcMediaDataDecoderCodec
 .
 cpp
 '
+'
+WebrtcMediaDataEncoderCodec
+.
+cpp
+'
 ]
 if
 CONFIG
