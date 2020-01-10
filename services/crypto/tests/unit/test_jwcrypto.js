@@ -1009,9 +1009,7 @@ signedObject
 if
 (
 typeof
-(
 signedObject
-)
 !
 =
 "
@@ -1029,9 +1027,7 @@ signature
 "
 +
 typeof
-(
 signedObject
-)
 )
 ;
 }

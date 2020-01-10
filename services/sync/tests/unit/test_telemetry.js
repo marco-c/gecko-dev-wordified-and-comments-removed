@@ -2315,9 +2315,11 @@ true
 errPing
 =
 >
+(
 ping
 =
 errPing
+)
 )
 ;
 }
@@ -3851,9 +3853,7 @@ await
 serverForEnginesWithKeys
 (
 {
-"
 foo
-"
 :
 "
 password
@@ -5229,7 +5229,6 @@ events
 ;
 ok
 (
-(
 typeof
 timestamp
 =
@@ -5237,7 +5236,6 @@ timestamp
 "
 number
 "
-)
 &
 &
 timestamp
@@ -6042,9 +6040,7 @@ badextra
 badextra
 =
 {
-"
 x
-"
 :
 long86
 }

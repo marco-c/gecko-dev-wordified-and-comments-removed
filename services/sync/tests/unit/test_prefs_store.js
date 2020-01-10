@@ -319,7 +319,6 @@ Assert
 .
 ok
 (
-(
 await
 store
 .
@@ -328,14 +327,12 @@ itemExists
 PREFS_GUID
 )
 )
-)
 ;
 Assert
 .
 equal
 (
 false
-(
 await
 store
 .
@@ -346,7 +343,6 @@ random
 -
 gibberish
 "
-)
 )
 )
 ;

@@ -32,7 +32,6 @@ thing
 indexOf
 &
 &
-(
 thing
 .
 indexOf
@@ -42,7 +41,6 @@ startsWith
 =
 =
 0
-)
 )
 )
 {

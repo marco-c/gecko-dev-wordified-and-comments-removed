@@ -619,6 +619,7 @@ toString
 )
 {
 return
+(
 "
 {
 "
@@ -688,6 +689,7 @@ payload
 "
 }
 "
+)
 ;
 }
 }
@@ -1034,11 +1036,9 @@ if
 json_result
 &
 &
-(
 json_result
 instanceof
 Object
-)
 )
 {
 this
@@ -1162,6 +1162,7 @@ cleartextToString
 )
 ;
 return
+(
 "
 {
 "
@@ -1243,6 +1244,7 @@ undefined
 "
 }
 "
+)
 ;
 }
 get
@@ -1292,6 +1294,7 @@ val
 )
 ;
 return
+(
 this
 .
 cleartext
@@ -1299,6 +1302,7 @@ cleartext
 id
 =
 val
+)
 ;
 }
 }
@@ -1603,6 +1607,7 @@ spec
 url
 ;
 return
+(
 this
 .
 _records
@@ -1611,6 +1616,7 @@ spec
 ]
 =
 record
+)
 ;
 }
 contains
@@ -1890,12 +1896,10 @@ filter
 x
 =
 >
-(
 x
 !
 =
 last
-)
 &
 &
 (
@@ -2055,9 +2059,7 @@ wbo
 cleartext
 =
 {
-"
 default
-"
 :
 defaultBundle
 ?
@@ -2066,19 +2068,13 @@ defaultBundle
 keyPairB64
 :
 null
-"
 collections
-"
 :
 c
-"
 collection
-"
 :
 CRYPTO_COLLECTION
-"
 id
-"
 :
 KEYS_WBO
 }
@@ -2412,7 +2408,6 @@ true
 ;
 }
 return
-(
 info_collections
 [
 CRYPTO_COLLECTION
@@ -2421,7 +2416,6 @@ CRYPTO_COLLECTION
 this
 .
 lastModified
-)
 ;
 }
 setContents
@@ -2672,7 +2666,6 @@ keyObj
 let
 sameDefault
 =
-(
 this
 .
 _default
@@ -2685,7 +2678,6 @@ _default
 equals
 (
 newDefault
-)
 )
 ;
 let
@@ -3341,13 +3333,11 @@ mutate
 .
 setQuery
 (
-(
 args
 .
 length
 >
 0
-)
 ?
 "
 ?
@@ -4296,6 +4286,7 @@ payloadSize
 )
 {
 return
+(
 this
 .
 curRecords
@@ -4317,6 +4308,7 @@ payloadSize
 this
 .
 maxBytes
+)
 ;
 }
 canNeverAdd

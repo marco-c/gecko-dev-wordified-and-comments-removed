@@ -206,6 +206,7 @@ _sync
 let
 syncMock
 =
+(
 ExtensionStorageEngine
 .
 prototype
@@ -219,6 +220,7 @@ returns
 :
 true
 }
+)
 )
 ;
 try
@@ -273,6 +275,7 @@ clearAll
 let
 clearMock
 =
+(
 extensionStorageSync
 .
 clearAll
@@ -288,6 +291,7 @@ resolve
 (
 )
 }
+)
 )
 ;
 try
@@ -353,6 +357,7 @@ syncAll
 let
 syncMock
 =
+(
 extensionStorageSync
 .
 syncAll
@@ -368,6 +373,7 @@ resolve
 (
 )
 }
+)
 )
 ;
 try
@@ -388,9 +394,7 @@ set
 (
 extension
 {
-"
 a
-"
 :
 "
 b

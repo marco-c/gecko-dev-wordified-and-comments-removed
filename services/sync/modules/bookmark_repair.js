@@ -1761,7 +1761,6 @@ break
 }
 if
 (
-(
 await
 this
 .
@@ -1769,7 +1768,6 @@ _isCommandPending
 (
 clientID
 flowID
-)
 )
 )
 {
@@ -2659,6 +2657,7 @@ clientCommands
 .
 .
 .
+(
 this
 .
 service
@@ -2675,6 +2674,7 @@ commands
 |
 [
 ]
+)
 ]
 ;
 for

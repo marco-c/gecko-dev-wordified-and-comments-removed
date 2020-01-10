@@ -127,7 +127,6 @@ Assert
 notEqual
 (
 null
-(
 await
 PlacesUtils
 .
@@ -138,7 +137,6 @@ PlacesUtils
 bookmarks
 .
 toolbarGuid
-)
 )
 )
 ;
@@ -162,7 +160,6 @@ Assert
 notEqual
 (
 null
-(
 await
 PlacesUtils
 .
@@ -173,7 +170,6 @@ PlacesUtils
 bookmarks
 .
 toolbarGuid
-)
 )
 )
 ;
@@ -204,7 +200,6 @@ Assert
 notEqual
 (
 null
-(
 await
 PlacesUtils
 .
@@ -215,7 +210,6 @@ PlacesUtils
 bookmarks
 .
 toolbarGuid
-)
 )
 )
 ;

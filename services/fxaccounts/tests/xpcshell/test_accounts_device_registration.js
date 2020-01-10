@@ -402,12 +402,10 @@ resolve
 uid
 &
 &
-(
 !
 this
 .
 _deletedOnServer
-)
 )
 ;
 }
@@ -492,9 +490,7 @@ this
 .
 getDeviceList
 =
-(
 st
-)
 =
 >
 Promise
@@ -630,9 +626,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

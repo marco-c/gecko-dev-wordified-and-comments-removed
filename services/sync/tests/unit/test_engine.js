@@ -971,7 +971,6 @@ Assert
 .
 ok
 (
-(
 await
 engine
 .
@@ -986,7 +985,6 @@ changed
 -
 id
 "
-)
 )
 )
 ;

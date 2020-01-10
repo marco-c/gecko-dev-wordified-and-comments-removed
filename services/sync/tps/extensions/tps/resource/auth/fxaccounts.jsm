@@ -1027,13 +1027,11 @@ getSignedInUser
 try
 {
 return
-(
 await
 fxAccounts
 .
 getSignedInUser
 (
-)
 )
 ;
 }

@@ -1325,7 +1325,6 @@ Assert
 .
 ok
 (
-(
 getTimestampDelta
 (
 authHeader
@@ -1335,7 +1334,6 @@ now
 12
 *
 HOUR_MS
-)
 <
 2
 *
@@ -1621,7 +1619,6 @@ Assert
 .
 ok
 (
-(
 getTimestampDelta
 (
 authHeader
@@ -1631,7 +1628,6 @@ now
 12
 *
 HOUR_MS
-)
 <
 2
 *
@@ -2127,7 +2123,6 @@ customNow
 )
 {
 return
-(
 Date
 .
 now
@@ -2135,7 +2130,6 @@ now
 )
 +
 3000001
-)
 ;
 }
 writable

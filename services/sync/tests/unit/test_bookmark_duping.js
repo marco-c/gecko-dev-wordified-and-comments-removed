@@ -331,9 +331,7 @@ recordIds
 .
 map
 (
-(
 recordId
-)
 =
 >
 recordIdToId
@@ -3433,14 +3431,12 @@ annotations
 .
 getItemAnnotation
 (
-(
 await
 store
 .
 idForGUID
 (
 newGUID
-)
 )
 PlacesSyncUtils
 .

@@ -1268,13 +1268,11 @@ id
 )
 {
 return
-(
 id
 =
 =
 =
 PREFS_GUID
-)
 ;
 }
 async

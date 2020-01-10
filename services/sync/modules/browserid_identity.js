@@ -1830,7 +1830,6 @@ data
 ;
 if
 (
-(
 await
 this
 .
@@ -1838,7 +1837,6 @@ _fxaService
 .
 canGetKeys
 (
-)
 )
 )
 {
@@ -1925,7 +1923,6 @@ result
 ;
 if
 (
-(
 await
 this
 .
@@ -1933,7 +1930,6 @@ _fxaService
 .
 canGetKeys
 (
-)
 )
 )
 {
@@ -2442,17 +2438,15 @@ _now
 (
 )
 +
-(
 token
 .
 duration
 *
 1000
-)
 *
 0
 .
-80
+8
 ;
 if
 (

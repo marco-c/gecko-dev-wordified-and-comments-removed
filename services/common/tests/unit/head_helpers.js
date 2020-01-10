@@ -869,6 +869,7 @@ parent
 ]
 ;
 return
+(
 parentEvents
 .
 map
@@ -900,9 +901,7 @@ extras
 .
 filter
 (
-(
 e
-)
 =
 >
 e
@@ -967,6 +966,7 @@ acc
 }
 {
 }
+)
 )
 ;
 }

@@ -3874,7 +3874,6 @@ flowID
 ;
 if
 (
-(
 await
 this
 .
@@ -3882,7 +3881,6 @@ _addClientCommand
 (
 clientId
 action
-)
 )
 )
 {
@@ -4386,7 +4384,6 @@ try
 {
 if
 (
-(
 await
 responder
 .
@@ -4394,7 +4391,6 @@ repair
 (
 request
 rawCommand
-)
 )
 )
 {

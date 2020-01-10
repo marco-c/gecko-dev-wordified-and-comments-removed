@@ -301,7 +301,6 @@ oauthOptions
 try
 {
 return
-(
 await
 this
 .
@@ -311,7 +310,6 @@ path
 method
 token
 etag
-)
 )
 ;
 }
@@ -402,7 +400,6 @@ oauthOptions
 try
 {
 return
-(
 await
 this
 .
@@ -412,7 +409,6 @@ path
 method
 token
 etag
-)
 )
 ;
 }

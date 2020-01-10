@@ -1788,6 +1788,7 @@ statusCode
 let
 uri
 =
+(
 channel
 &
 &
@@ -1801,6 +1802,7 @@ channel
 URI
 .
 spec
+)
 |
 |
 "
@@ -2238,14 +2240,12 @@ callback
 let
 oldSpec
 =
-(
 oldChannel
 &
 &
 oldChannel
 .
 URI
-)
 ?
 oldChannel
 .
@@ -2262,14 +2262,12 @@ undefined
 let
 newSpec
 =
-(
 newChannel
 &
 &
 newChannel
 .
 URI
-)
 ?
 newChannel
 .

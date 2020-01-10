@@ -484,11 +484,9 @@ JSON
 .
 parse
 (
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode
@@ -1073,8 +1071,6 @@ return
 {
 url
 :
-(
-(
 typeof
 urlToConvert
 =
@@ -1082,14 +1078,12 @@ urlToConvert
 "
 function
 "
-)
 ?
 urlToConvert
 (
 )
 :
 urlToConvert
-)
 title
 :
 "
@@ -2942,9 +2936,7 @@ return
 serverForEnginesWithKeys
 (
 {
-"
 foo
-"
 :
 "
 password

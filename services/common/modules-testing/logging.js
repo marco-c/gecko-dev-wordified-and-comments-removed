@@ -93,6 +93,7 @@ errorsLogged
 ;
 }
 return
+(
 message
 .
 time
@@ -131,6 +132,7 @@ message
 \
 n
 "
+)
 ;
 }
 }
@@ -179,9 +181,7 @@ logStats
 if
 (
 typeof
-(
 level
-)
 =
 =
 "

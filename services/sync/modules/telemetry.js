@@ -3796,7 +3796,6 @@ null
 ;
 if
 (
-(
 Telemetry
 .
 msSinceProcessStart
@@ -3806,7 +3805,6 @@ msSinceProcessStart
 this
 .
 lastSubmissionTime
-)
 >
 this
 .

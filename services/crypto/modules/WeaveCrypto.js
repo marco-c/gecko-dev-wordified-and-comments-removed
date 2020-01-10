@@ -907,12 +907,14 @@ encodedKeyString
 in
 memo
 )
+{
 return
 memo
 [
 encodedKeyString
 ]
 ;
+}
 let
 symmetricKeyBuffer
 =
@@ -1030,7 +1032,7 @@ charCodeAt
 i
 )
 &
-0xFF
+0xff
 ;
 }
 return

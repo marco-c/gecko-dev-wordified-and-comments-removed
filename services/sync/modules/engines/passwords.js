@@ -960,12 +960,10 @@ x
 )
 {
 return
-(
 x
 =
 =
 undefined
-)
 ?
 null
 :
@@ -1373,14 +1371,12 @@ return
 }
 if
 (
-(
 await
 this
 .
 _getLoginFromGUID
 (
 newID
-)
 )
 )
 {

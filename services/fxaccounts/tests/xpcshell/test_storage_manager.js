@@ -418,13 +418,11 @@ Assert
 .
 strictEqual
 (
-(
 await
 sm
 .
 getAccountData
 (
-)
 )
 null
 )
@@ -1743,13 +1741,11 @@ Assert
 .
 equal
 (
-(
 await
 sm
 .
 getAccountData
 (
-)
 )
 null
 )

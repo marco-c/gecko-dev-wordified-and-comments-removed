@@ -436,9 +436,7 @@ self
 .
 onmessage
 =
-(
 event
-)
 =
 >
 {
@@ -469,9 +467,7 @@ args
 .
 then
 (
-(
 result
-)
 =
 >
 {

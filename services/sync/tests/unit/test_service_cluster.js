@@ -340,7 +340,6 @@ Assert
 .
 ok
 (
-(
 await
 Service
 .
@@ -348,7 +347,6 @@ identity
 .
 setCluster
 (
-)
 )
 )
 ;

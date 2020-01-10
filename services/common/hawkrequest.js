@@ -272,11 +272,9 @@ now
 "
 "
 +
-(
 this
 .
 localtimeOffsetMsec
-)
 )
 ;
 this
@@ -390,6 +388,7 @@ this
 credentials
 payload
 :
+(
 data
 &
 &
@@ -398,6 +397,7 @@ JSON
 stringify
 (
 data
+)
 )
 |
 |

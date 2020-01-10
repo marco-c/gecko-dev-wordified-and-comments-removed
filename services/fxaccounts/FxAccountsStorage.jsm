@@ -125,6 +125,7 @@ fieldName
 )
 {
 return
+(
 FXA_PWDMGR_MEMORY_FIELDS
 .
 has
@@ -146,6 +147,7 @@ FXA_PWDMGR_SECURE_FIELDS
 has
 (
 fieldName
+)
 )
 ;
 }

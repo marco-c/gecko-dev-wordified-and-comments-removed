@@ -4423,7 +4423,6 @@ getAllIDs
 ;
 ok
 (
-(
 await
 engine
 .
@@ -4432,7 +4431,6 @@ _store
 itemExists
 (
 dupeID
-)
 )
 "
 Dupe
@@ -6721,13 +6719,11 @@ handler
 ;
 ok
 (
-(
 await
 engine
 .
 processIncomingCommands
 (
-)
 )
 )
 ;
@@ -8718,9 +8714,7 @@ engine
 .
 _handleDisplayURIs
 =
-(
 uris
-)
 =
 >
 {
@@ -9020,9 +9014,7 @@ engine
 .
 _handleDisplayURIs
 =
-(
 uris
-)
 =
 >
 {
@@ -9728,13 +9720,11 @@ URI
 ;
 ok
 (
-(
 await
 engine
 .
 processIncomingCommands
 (
-)
 )
 "
 Should
@@ -10177,9 +10167,7 @@ getClientFxaDeviceId
 .
 callsFake
 (
-(
 id
-)
 =
 >
 "
@@ -11598,9 +11586,7 @@ update_known_stale_clients
 const
 makeFakeClient
 =
-(
 id
-)
 =
 >
 (

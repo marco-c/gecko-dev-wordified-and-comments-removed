@@ -1476,9 +1476,7 @@ changes
 map
 (
 async
-(
 change
-)
 =
 >
 {
@@ -1657,13 +1655,11 @@ gPrefs
 getStringPref
 (
 PREF_SETTINGS_LAST_ETAG
-"
-\
+'
 "
 0
-\
 "
-"
+'
 )
 ;
 const

@@ -325,9 +325,7 @@ password
 .
 then
 (
-(
 creds
-)
 =
 >
 {
@@ -1241,9 +1239,7 @@ email
 .
 then
 (
-(
 cantHappen
-)
 =
 >
 {
@@ -1266,9 +1262,7 @@ password
 )
 ;
 }
-(
 expectedError
-)
 =
 >
 {
@@ -1329,9 +1323,7 @@ GET
 .
 then
 (
-(
 result
-)
 =
 >
 {
@@ -1341,9 +1333,7 @@ result
 exists
 ;
 }
-(
 error
-)
 =
 >
 {

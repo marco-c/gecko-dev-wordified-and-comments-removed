@@ -437,13 +437,11 @@ registration
 const
 lastCommandIndex
 =
-(
 device
 .
 lastCommandIndex
 +
 1
-)
 |
 |
 receivedIndex
@@ -1095,6 +1093,7 @@ device
 )
 {
 return
+(
 Services
 .
 prefs
@@ -1125,6 +1124,7 @@ availableCommands
 [
 COMMAND_SENDTAB
 ]
+)
 ;
 }
 async

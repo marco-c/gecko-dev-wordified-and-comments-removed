@@ -522,6 +522,7 @@ node
 )
 {
 return
+(
 node
 .
 root
@@ -560,6 +561,7 @@ root
 "
 mobileFolder
 "
+)
 ;
 }
 function
@@ -2367,6 +2369,7 @@ incomingItem
 )
 {
 return
+(
 FORBIDDEN_INCOMING_IDS
 .
 includes
@@ -2384,6 +2387,7 @@ includes
 incomingItem
 .
 parentid
+)
 )
 ;
 }
@@ -3067,6 +3071,7 @@ _guidMap
 try
 {
 return
+(
 this
 .
 _guidMap
@@ -3076,6 +3081,7 @@ this
 .
 _buildGUIDMap
 (
+)
 )
 ;
 }
@@ -6589,14 +6595,12 @@ if
 isAnno
 &
 &
-(
 !
 ANNOS_TO_TRACK
 .
 includes
 (
 property
-)
 )
 )
 {
@@ -6652,20 +6656,16 @@ anno
 (
 value
 ?
-(
-"
+'
 =
-\
 "
-"
+'
 +
 value
 +
+'
 "
-\
-"
-"
-)
+'
 :
 "
 "

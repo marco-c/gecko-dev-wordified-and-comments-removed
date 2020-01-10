@@ -392,13 +392,11 @@ Object
 .
 keys
 (
-(
 await
 tracker
 .
 getChangedIDs
 (
-)
 )
 )
 .
@@ -480,13 +478,11 @@ Object
 .
 keys
 (
-(
 await
 tracker
 .
 getChangedIDs
 (
-)
 )
 )
 .

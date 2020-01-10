@@ -307,11 +307,9 @@ equal
 object
 "
 typeof
-(
 reconciler
 .
 addons
-)
 )
 ;
 Assert
@@ -424,11 +422,9 @@ equal
 object
 "
 typeof
-(
 reconciler
 .
 addons
-)
 )
 ;
 Assert
@@ -1095,11 +1091,9 @@ equal
 object
 "
 typeof
-(
 reconciler
 .
 addons
-)
 )
 ;
 Assert

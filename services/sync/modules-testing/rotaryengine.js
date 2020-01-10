@@ -238,13 +238,11 @@ id
 )
 {
 return
-(
 id
 in
 this
 .
 items
-)
 ;
 }
 async

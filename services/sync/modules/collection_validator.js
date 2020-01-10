@@ -345,9 +345,7 @@ result
 .
 records
 async
-(
 record
-)
 =
 >
 {
@@ -578,9 +576,7 @@ yieldingForEach
 (
 serverItems
 async
-(
 item
-)
 =
 >
 {
@@ -588,14 +584,12 @@ serverRecords
 .
 push
 (
-(
 await
 this
 .
 normalizeServerItem
 (
 item
-)
 )
 )
 ;

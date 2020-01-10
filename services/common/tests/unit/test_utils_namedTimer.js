@@ -217,7 +217,6 @@ Assert
 .
 ok
 (
-(
 Date
 .
 now
@@ -225,7 +224,6 @@ now
 )
 -
 t0
-)
 >
 delay
 )

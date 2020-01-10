@@ -709,9 +709,7 @@ equal
 object
 "
 typeof
-(
 changes
-)
 )
 ;
 Assert
@@ -795,9 +793,7 @@ equal
 object
 "
 typeof
-(
 changes
-)
 )
 ;
 Assert
@@ -888,9 +884,7 @@ equal
 object
 "
 typeof
-(
 changes
-)
 )
 ;
 Assert

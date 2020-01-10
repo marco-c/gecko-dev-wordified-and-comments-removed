@@ -1123,11 +1123,13 @@ continue
 if
 (
 !
+(
 await
 validator
 .
 canValidate
 (
+)
 )
 )
 {

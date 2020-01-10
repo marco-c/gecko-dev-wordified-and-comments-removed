@@ -448,13 +448,11 @@ Logger
 .
 AssertTrue
 (
-(
 await
 this
 .
 find
 (
-)
 )
 "
 Add

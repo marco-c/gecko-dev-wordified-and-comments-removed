@@ -1168,9 +1168,7 @@ const
 header
 =
 {
-"
 alg
-"
 :
 "
 DS128
@@ -1531,9 +1529,7 @@ map
 call
 (
 pkcs
-(
 c
-)
 =
 >
 c

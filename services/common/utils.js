@@ -416,9 +416,11 @@ if
 !
 URIString
 )
+{
 return
 null
 ;
+}
 try
 {
 return
@@ -668,12 +670,14 @@ TYPE_ONE_SHOT
 )
 ;
 return
+(
 thisObj
 [
 name
 ]
 =
 timer
+)
 ;
 }
 encodeUTF8
@@ -930,9 +934,7 @@ map
 call
 (
 buffer
-(
 x
-)
 =
 >
 (
@@ -1247,6 +1249,7 @@ i
 +
 +
 )
+{
 bytes
 +
 =
@@ -1255,6 +1258,7 @@ bytes
 0
 "
 ;
+}
 }
 let
 ret
@@ -1599,13 +1603,11 @@ indexOf
 let
 chars
 =
-(
 padChar
 =
 =
 -
 1
-)
 ?
 str
 .
@@ -1620,9 +1622,11 @@ Math
 .
 floor
 (
+(
 chars
 *
 5
+)
 /
 8
 )
@@ -1700,6 +1704,7 @@ c
 =
 "
 )
+{
 throw
 new
 Error
@@ -1709,6 +1714,7 @@ Done
 "
 )
 ;
+}
 val
 =
 key
@@ -1726,6 +1732,7 @@ val
 -
 1
 )
+{
 throw
 new
 Error
@@ -1740,6 +1747,7 @@ c
 }
 )
 ;
+}
 }
 function
 left
@@ -1974,8 +1982,10 @@ message
 Done
 "
 )
+{
 break
 ;
+}
 throw
 ex
 ;
@@ -2076,9 +2086,7 @@ utf
 .
 then
 (
-(
 data
-)
 =
 >
 {

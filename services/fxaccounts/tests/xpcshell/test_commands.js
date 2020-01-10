@@ -556,9 +556,7 @@ data
 const
 set
 =
-(
 val
-)
 =
 >
 {
@@ -732,9 +730,7 @@ data
 const
 set
 =
-(
 val
-)
 =
 >
 {
@@ -912,9 +908,7 @@ data
 const
 set
 =
-(
 val
-)
 =
 >
 {
@@ -1112,9 +1106,7 @@ data
 const
 set
 =
-(
 val
-)
 =
 >
 {
@@ -1308,9 +1300,7 @@ data
 const
 set
 =
-(
 val
-)
 =
 >
 {

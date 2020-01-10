@@ -771,7 +771,6 @@ Date
 (
 msSinceEpoch
 +
-(
 item
 .
 begin
@@ -782,7 +781,6 @@ begin
 *
 1000
 )
-)
 endDate
 :
 new
@@ -790,7 +788,6 @@ Date
 (
 msSinceEpoch
 +
-(
 item
 .
 end
@@ -800,7 +797,6 @@ end
 60
 *
 1000
-)
 )
 }
 ;

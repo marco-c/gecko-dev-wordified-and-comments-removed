@@ -152,9 +152,7 @@ clientName1
 cleartext
 :
 {
-"
 foo
-"
 :
 "
 bar
@@ -218,9 +216,7 @@ clientName2
 cleartext
 :
 {
-"
 foo2
-"
 :
 "
 bar2
@@ -284,9 +280,7 @@ clientName3
 cleartext
 :
 {
-"
 foo3
-"
 :
 "
 bar3
@@ -769,9 +763,7 @@ store
 .
 getAllTabs
 (
-(
 url
-)
 =
 >
 url

@@ -523,6 +523,7 @@ whenVerified
 var
 AccountState
 =
+(
 this
 .
 AccountState
@@ -602,6 +603,7 @@ err
 )
 ;
 }
+)
 ;
 AccountState
 .
@@ -1336,6 +1338,7 @@ prop
 )
 {
 return
+(
 Object
 .
 getOwnPropertyDescriptor
@@ -1354,6 +1357,7 @@ getPrototypeOf
 obj
 )
 prop
+)
 )
 ;
 }
@@ -1386,11 +1390,9 @@ prop
 if
 (
 typeof
-(
 desc
 .
 value
-)
 =
 =
 "
@@ -1974,9 +1976,7 @@ currentAccountState
 const
 getUserData
 =
-(
 fields
-)
 =
 >
 state
@@ -1989,9 +1989,7 @@ fields
 const
 updateUserData
 =
-(
 data
-)
 =
 >
 state
@@ -2478,6 +2476,7 @@ abortExistingFlow
 let
 currentAccountState
 =
+(
 this
 .
 currentAccountState
@@ -2493,6 +2492,7 @@ cloneInto
 credentials
 {
 }
+)
 )
 )
 ;
@@ -2989,14 +2989,12 @@ data
 ;
 if
 (
-(
 await
 this
 .
 checkDeviceUpdateNeeded
 (
 device
-)
 )
 )
 {
@@ -3028,13 +3026,11 @@ Object
 .
 keys
 (
-(
 await
 this
 .
 availableCommands
 (
-)
 )
 )
 .
@@ -3043,6 +3039,7 @@ sort
 )
 ;
 return
+(
 !
 device
 |
@@ -3077,6 +3074,7 @@ device
 .
 registeredCommandsKeys
 availableCommandsKeys
+)
 )
 ;
 }
@@ -4066,6 +4064,7 @@ in
 ;
 }
 return
+(
 userData
 &
 &
@@ -4092,6 +4091,7 @@ k
 userData
 .
 kB
+)
 )
 ;
 }
@@ -4279,9 +4279,7 @@ keyFetchToken
 .
 then
 (
-(
 dataWithKeys
-)
 =
 >
 {
@@ -4357,9 +4355,7 @@ dataWithKeys
 )
 ;
 }
-(
 err
-)
 =
 >
 {
@@ -4747,14 +4743,12 @@ CommonUtils
 .
 bytesAsHex
 (
-(
 await
 this
 .
 _deriveSyncKey
 (
 kBbytes
-)
 )
 )
 kXCS
@@ -4776,14 +4770,12 @@ CommonUtils
 .
 bytesAsHex
 (
-(
 await
 this
 .
 _deriveWebExtSyncStoreKey
 (
 kBbytes
-)
 )
 )
 kExtKbHash
@@ -5252,7 +5244,6 @@ accountData
 keyPair
 &
 &
-(
 accountData
 .
 keyPair
@@ -5260,7 +5251,6 @@ keyPair
 validUntil
 >
 mustBeValidUntil
-)
 ;
 let
 certValid
@@ -5274,7 +5264,6 @@ accountData
 cert
 &
 &
-(
 accountData
 .
 cert
@@ -5282,7 +5271,6 @@ cert
 validUntil
 >
 mustBeValidUntil
-)
 ;
 if
 (
@@ -6512,7 +6500,6 @@ pollDuration
 ;
 nextPollMs
 =
-(
 why
 =
 =
@@ -6526,7 +6513,6 @@ currentMinute
 this
 .
 VERIFICATION_POLL_START_SLOWDOWN_THRESHOLD
-)
 ?
 this
 .
@@ -7668,12 +7654,10 @@ id
 const
 isLocalDevice
 =
-(
 deviceId
 =
 =
 localDeviceId
-)
 ;
 if
 (
@@ -7977,6 +7961,7 @@ then
 data
 =
 >
+(
 data
 ?
 data
@@ -7984,6 +7969,7 @@ data
 profileCache
 :
 null
+)
 )
 ;
 }

@@ -866,7 +866,6 @@ since
 new
 Date
 (
-(
 Date
 .
 now
@@ -874,7 +873,6 @@ now
 )
 -
 THIRTY_DAYS_IN_MS
-)
 )
 limit
 :
@@ -967,9 +965,7 @@ yieldingForEach
 (
 records
 async
-(
 record
-)
 =
 >
 {
@@ -1108,9 +1104,7 @@ getObservers
 const
 notifyHistoryObservers
 =
-(
 notification
-)
 =
 >
 {
@@ -1178,9 +1172,7 @@ yieldingForEach
 (
 toRemove
 async
-(
 record
-)
 =
 >
 {
@@ -1883,6 +1875,7 @@ i
 let
 visit
 =
+(
 record
 .
 visits
@@ -1896,6 +1889,7 @@ visits
 [
 i
 ]
+)
 ;
 if
 (
@@ -2864,6 +2858,7 @@ url
 )
 &
 &
+(
 await
 this
 .
@@ -2872,6 +2867,7 @@ addChangedID
 event
 .
 pageGuid
+)
 )
 )
 {
