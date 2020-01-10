@@ -1064,6 +1064,13 @@ uint32_t
 aMaxLength
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+EditActionResult
+InsertLineFeedCharacterAtSelection
+(
+)
+;
 protected
 :
 virtual
@@ -1199,6 +1206,8 @@ nsAString
 aStringToInsert
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 InsertLineBreakAsSubAction
 (

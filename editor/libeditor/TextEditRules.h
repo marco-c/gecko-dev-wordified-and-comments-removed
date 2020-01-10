@@ -329,15 +329,6 @@ aMaxLength
 ;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
-EditActionResult
-WillInsertLineBreak
-(
-int32_t
-aMaxLength
-)
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
 nsresult
 WillSetText
 (

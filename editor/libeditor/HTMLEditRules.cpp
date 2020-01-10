@@ -3941,12 +3941,6 @@ case
 EditSubAction
 :
 :
-eInsertLineBreak
-:
-case
-EditSubAction
-:
-:
 eInsertTextComingFromIME
 :
 return
@@ -4014,6 +4008,12 @@ EditSubAction
 :
 :
 eInsertHTMLSource
+:
+case
+EditSubAction
+:
+:
+eInsertLineBreak
 :
 case
 EditSubAction
