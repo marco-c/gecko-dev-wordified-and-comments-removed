@@ -14775,8 +14775,11 @@ value
 in
 keyword
 .
-gecko_values
+values_for
 (
+"
+gecko
+"
 )
 :
 Keyword
@@ -14918,8 +14921,11 @@ value
 in
 keyword
 .
-gecko_values
+values_for
 (
+"
+gecko
+"
 )
 :
 structs
