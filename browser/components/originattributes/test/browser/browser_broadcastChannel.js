@@ -54,12 +54,13 @@ let
 response
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 aBrowser
-null
+[
+]
 async
 function
 (
@@ -174,7 +175,9 @@ data
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 receivedData
 data
