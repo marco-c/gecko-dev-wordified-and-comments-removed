@@ -1008,6 +1008,9 @@ MaybeInitWindowEmulation
 void
 SendParentCOMProxy
 (
+Accessible
+*
+aOuterDoc
 )
 ;
 virtual
