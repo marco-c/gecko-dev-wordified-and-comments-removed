@@ -27,6 +27,13 @@ nsIXULStore
 h
 "
 #
+include
+"
+nsIStringEnumerator
+.
+h
+"
+#
 endif
 #
 include
