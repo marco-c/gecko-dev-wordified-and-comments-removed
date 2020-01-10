@@ -5164,16 +5164,6 @@ tables
 tableIndex
 ]
 ;
-JSContext
-*
-cx
-=
-TlsContext
-.
-get
-(
-)
-;
 uint32_t
 oldSize
 =
@@ -5182,7 +5172,6 @@ table
 grow
 (
 delta
-cx
 )
 ;
 if
@@ -5242,7 +5231,11 @@ fillFuncRef
 oldSize
 delta
 ref
-cx
+TlsContext
+.
+get
+(
+)
 )
 ;
 break

@@ -357,9 +357,6 @@ grow
 (
 uint32_t
 delta
-JSContext
-*
-cx
 )
 ;
 bool
