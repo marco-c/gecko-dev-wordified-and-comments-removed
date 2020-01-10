@@ -93,6 +93,18 @@ tools
 docs
 '
 )
+logger
+=
+sphinx
+.
+util
+.
+logging
+.
+getLogger
+(
+__name__
+)
 memoize
 def
 read_build_config
@@ -500,7 +512,7 @@ _staging
 '
 )
         
-app
+logger
 .
 info
 (
@@ -528,7 +540,7 @@ app
 srcdir
 )
         
-app
+logger
 .
 info
 (
@@ -545,7 +557,7 @@ _synchronize_docs
 (
 )
         
-app
+logger
 .
 info
 (
