@@ -266,6 +266,8 @@ ImportError
 :
     
 pass
+import
+six
 here
 =
 os
@@ -1040,6 +1042,16 @@ messages
 "
 "
         
+if
+isinstance
+(
+line
+six
+.
+binary_type
+)
+:
+            
 line
 =
 line
@@ -1058,6 +1070,17 @@ UTF
 "
 replace
 "
+)
+        
+else
+:
+            
+line
+=
+line
+.
+rstrip
+(
 )
         
 messages

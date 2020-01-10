@@ -4,6 +4,8 @@ import
 absolute_import
 print_function
 import
+io
+import
 os
 import
 posixpath
@@ -25,6 +27,14 @@ from
 distutils
 import
 dir_util
+import
+six
+from
+six
+.
+moves
+import
+range
 from
 .
 import
@@ -1119,6 +1129,53 @@ version
 '
 )
             
+if
+isinstance
+(
+output
+[
+0
+]
+six
+.
+binary_type
+)
+:
+                
+self
+.
+_adb_version
+=
+re_version
+.
+match
+(
+output
+[
+0
+]
+.
+decode
+(
+'
+utf
+-
+8
+'
+'
+replace
+'
+)
+)
+.
+group
+(
+1
+)
+            
+else
+:
+                
 self
 .
 _adb_version
@@ -2046,7 +2103,9 @@ isinstance
 adb_process
 .
 stdout_file
-file
+io
+.
+IOBase
 )
 :
                 
@@ -5607,10 +5666,9 @@ if
 isinstance
 (
 device
-(
-str
-unicode
-)
+six
+.
+string_types
 )
 :
             
@@ -9661,11 +9719,7 @@ envstr
 .
 join
 (
-map
-(
-lambda
-x
-:
+[
 '
 export
 %
@@ -9675,7 +9729,7 @@ s
 s
 '
 %
-                                    
+                                 
 (
 x
 [
@@ -9686,12 +9740,15 @@ x
 1
 ]
 )
+for
+x
+in
 env
 .
-iteritems
+items
 (
 )
-)
+]
 )
             
 cmd
@@ -9899,6 +9956,8 @@ else
             
 stdout2
 =
+io
+.
 open
 (
 adb_process
@@ -10739,7 +10798,9 @@ isinstance
 adb_process
 .
 stdout_file
-file
+io
+.
+IOBase
 )
 :
                 
@@ -15348,10 +15409,13 @@ entry
         
 entry_list
 =
+list
+(
 entries
 .
 keys
 (
+)
 )
         
 entry_list
@@ -16567,11 +16631,18 @@ timeout
 )
             
 with
+io
+.
 open
 (
 tf
 .
 name
+mode
+=
+'
+rb
+'
 )
 as
 tf2
@@ -16603,6 +16674,18 @@ read
 (
 length
 )
+.
+decode
+(
+"
+UTF
+-
+8
+"
+"
+replace
+"
+)
                 
 elif
 offset
@@ -16624,6 +16707,18 @@ tf2
 read
 (
 )
+.
+decode
+(
+"
+UTF
+-
+8
+"
+"
+replace
+"
+)
                 
 else
 :
@@ -16633,6 +16728,18 @@ tf2
 .
 read
 (
+)
+.
+decode
+(
+"
+UTF
+-
+8
+"
+"
+replace
+"
 )
     
 def
@@ -18498,7 +18605,9 @@ not
 isinstance
 (
 process_name
-basestring
+six
+.
+string_types
 )
 :
             
@@ -22537,7 +22646,7 @@ val
 in
 extras
 .
-iteritems
+items
 (
 )
 :
@@ -22990,7 +23099,7 @@ enumerate
 (
 moz_env
 .
-iteritems
+items
 (
 )
 )
@@ -23388,7 +23497,7 @@ enumerate
 (
 moz_env
 .
-iteritems
+items
 (
 )
 )
