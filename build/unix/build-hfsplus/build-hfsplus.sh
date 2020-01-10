@@ -69,8 +69,7 @@ make_flags
 -
 j
 (
-getconf
-_NPROCESSORS_ONLN
+nproc
 )
 "
 root_dir

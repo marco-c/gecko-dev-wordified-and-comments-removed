@@ -71,8 +71,7 @@ make
 -
 j
 (
-getconf
-_NPROCESSORS_ONLN
+nproc
 )
 #
 We
