@@ -609,14 +609,10 @@ font
 .
 or_insert_with
 (
-|
-|
 GlyphKeyCache
 :
 :
 new
-(
-)
 )
 }
 pub
