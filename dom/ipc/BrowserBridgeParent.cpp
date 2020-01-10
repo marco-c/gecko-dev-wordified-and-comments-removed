@@ -580,6 +580,14 @@ Destroy
 )
 ;
 mBrowserParent
+-
+>
+SetBrowserBridgeParent
+(
+nullptr
+)
+;
+mBrowserParent
 =
 nullptr
 ;

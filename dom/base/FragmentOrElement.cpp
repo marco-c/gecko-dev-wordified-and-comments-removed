@@ -3666,7 +3666,7 @@ aNode
 aNode
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 :
@@ -4820,12 +4820,8 @@ if
 targetInKnownToBeHandledScope
 &
 &
-nsContentUtils
-:
-:
-ContentIsShadowIncludingDescendantOf
+IsShadowIncludingInclusiveDescendantOf
 (
-this
 targetInKnownToBeHandledScope
 -
 >
