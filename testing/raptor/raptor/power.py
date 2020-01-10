@@ -80,6 +80,21 @@ return
     
 raptor
 .
+device
+.
+shell_output
+(
+"
+settings
+put
+system
+screen_brightness_mode
+0
+"
+)
+    
+raptor
+.
 screen_off_timeout
 =
 raptor
