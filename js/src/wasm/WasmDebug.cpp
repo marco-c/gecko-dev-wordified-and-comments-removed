@@ -1128,6 +1128,11 @@ WasmBreakpointSite
 >
 (
 instance
+-
+>
+object
+(
+)
 offset
 )
 ;
