@@ -7249,7 +7249,7 @@ directions
 scrollableFrame
 -
 >
-GetPerceivedScrollingDirections
+GetAvailableScrollingDirections
 (
 )
 ;
