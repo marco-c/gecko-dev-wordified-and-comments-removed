@@ -1,9 +1,9 @@
 #
 ifndef
-nsGeoLocation_h
+mozilla_dom_Geolocation_h
 #
 define
-nsGeoLocation_h
+mozilla_dom_Geolocation_h
 #
 undef
 CreateEvent
@@ -68,7 +68,14 @@ h
 #
 include
 "
-nsGeoPosition
+GeolocationPosition
+.
+h
+"
+#
+include
+"
+GeolocationCoordinates
 .
 h
 "

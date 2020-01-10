@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_PositionError_h
+mozilla_dom_GeolocationPositionError_h
 #
 define
-mozilla_dom_PositionError_h
+mozilla_dom_GeolocationPositionError_h
 #
 include
 "
