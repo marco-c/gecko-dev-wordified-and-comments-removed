@@ -19,6 +19,11 @@ debuggee
 >
 {
 let
+onResume
+=
+null
+;
+let
 packet
 =
 null
@@ -39,6 +44,8 @@ packet
 =
 pkt
 ;
+onResume
+=
 threadClient
 .
 resume
@@ -114,6 +121,9 @@ e
 )
 {
 }
+await
+onResume
+;
 Assert
 .
 equal
@@ -172,6 +182,8 @@ packet
 =
 pkt
 ;
+onResume
+=
 threadClient
 .
 resume
@@ -323,6 +335,9 @@ e
 )
 {
 }
+await
+onResume
+;
 Assert
 .
 equal
