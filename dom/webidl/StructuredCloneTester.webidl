@@ -116,6 +116,7 @@ structuredclonetester
 .
 enabled
 "
+Serializable
 ]
 interface
 StructuredCloneTester
