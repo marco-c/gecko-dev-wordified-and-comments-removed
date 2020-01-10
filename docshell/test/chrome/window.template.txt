@@ -223,7 +223,7 @@ here
 See
 bug303267_window
 .
-xul
+xhtml
 for
 an
 example

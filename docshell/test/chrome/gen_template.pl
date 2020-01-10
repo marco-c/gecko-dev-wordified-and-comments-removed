@@ -52,11 +52,11 @@ template
 files
 test_bug303267
 .
-xul
+xhtml
 and
 bug303267_window
 .
-xul
+xhtml
 #
 to
 the
@@ -133,7 +133,7 @@ bug_number
 .
 "
 .
-xul
+xhtml
 "
 )
 or
@@ -247,7 +247,7 @@ bug_number
 "
 _window
 .
-xul
+xhtml
 "
 )
 or
