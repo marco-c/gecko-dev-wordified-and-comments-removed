@@ -41056,7 +41056,7 @@ MOZ_ASSERT
 script
 -
 >
-jitScript
+hasJitScript
 (
 )
 )

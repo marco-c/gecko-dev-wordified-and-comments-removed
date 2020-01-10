@@ -1965,7 +1965,7 @@ nonLazyScript
 )
 -
 >
-jitScript
+hasJitScript
 (
 )
 )
@@ -2956,7 +2956,7 @@ jitScript
 script
 -
 >
-jitScript
+maybeJitScript
 (
 )
 ;
@@ -3130,7 +3130,7 @@ jitScript
 script
 -
 >
-jitScript
+maybeJitScript
 (
 )
 ;
@@ -6647,7 +6647,7 @@ jitScript_
 script
 -
 >
-jitScript
+maybeJitScript
 (
 )
 )
@@ -6666,7 +6666,7 @@ jitScript
 script
 -
 >
-jitScript
+maybeJitScript
 (
 )
 )

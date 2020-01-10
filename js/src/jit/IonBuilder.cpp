@@ -28405,7 +28405,7 @@ jitScript
 targetScript
 -
 >
-jitScript
+maybeJitScript
 (
 )
 ;
@@ -28817,7 +28817,7 @@ jitScript
 targetScript
 -
 >
-jitScript
+maybeJitScript
 (
 )
 ;
@@ -32567,7 +32567,7 @@ jitScript
 targetScript
 -
 >
-jitScript
+maybeJitScript
 (
 )
 ;

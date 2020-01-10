@@ -1595,7 +1595,7 @@ if
 script
 -
 >
-jitScript
+hasJitScript
 (
 )
 )
@@ -5067,7 +5067,7 @@ jitScript
 script
 -
 >
-jitScript
+maybeJitScript
 (
 )
 )
