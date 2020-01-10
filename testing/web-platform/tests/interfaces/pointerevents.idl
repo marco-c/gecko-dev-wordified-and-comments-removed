@@ -121,9 +121,6 @@ type
 optional
 PointerEventInit
 eventInitDict
-=
-{
-}
 )
 Exposed
 =

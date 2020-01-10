@@ -58,11 +58,6 @@ layout
 instability
 /
 )
-[
-Exposed
-=
-Window
-]
 interface
 LayoutShift
 :

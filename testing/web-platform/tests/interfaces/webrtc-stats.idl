@@ -925,10 +925,6 @@ srtpCipher
 DOMString
 tlsGroup
 ;
-unsigned
-long
-selectedCandidatePairChanges
-;
 }
 ;
 dictionary

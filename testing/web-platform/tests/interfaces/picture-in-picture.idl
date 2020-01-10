@@ -136,11 +136,6 @@ pictureInPictureElement
 ;
 }
 ;
-[
-Exposed
-=
-Window
-]
 interface
 PictureInPictureWindow
 :

@@ -71,11 +71,6 @@ getVideoPlaybackQuality
 ;
 }
 ;
-[
-Exposed
-=
-Window
-]
 interface
 VideoPlaybackQuality
 {
