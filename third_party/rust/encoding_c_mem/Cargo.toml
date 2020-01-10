@@ -127,7 +127,7 @@ version
 .
 2
 .
-4
+5
 "
 authors
 =
@@ -143,6 +143,11 @@ fi
 >
 "
 ]
+links
+=
+"
+encoding_c_mem
+"
 description
 =
 "

@@ -122,7 +122,7 @@ version
 .
 9
 .
-5
+7
 "
 authors
 =
@@ -138,6 +138,18 @@ fi
 >
 "
 ]
+build
+=
+"
+build
+.
+rs
+"
+links
+=
+"
+encoding_c
+"
 description
 =
 "

@@ -2630,6 +2630,12 @@ return
 string
 ;
 }
+return
+std
+:
+:
+nullopt
+;
 }
 inline
 std
@@ -3371,6 +3377,12 @@ return
 string
 ;
 }
+return
+std
+:
+:
+nullopt
+;
 }
 inline
 std
