@@ -67,7 +67,12 @@ transforms
 .
 job
 import
+(
+    
+configure_taskdesc_for_run
+    
 run_job_using
+)
 from
 taskgraph
 .
@@ -84,8 +89,6 @@ docker_worker_add_workspace_cache
 setup_secrets
     
 docker_worker_add_artifacts
-    
-docker_worker_add_tooltool
     
 generic_worker_add_artifacts
     
@@ -566,13 +569,6 @@ taskdesc
 worker
 '
 ]
-    
-worker
-[
-'
-implementation
-'
-]
 =
 job
 [
@@ -580,16 +576,13 @@ job
 worker
 '
 ]
-[
-'
-implementation
-'
-]
     
 if
 not
 run
-[
+.
+pop
+(
 '
 use
 -
@@ -597,7 +590,8 @@ simple
 -
 package
 '
-]
+None
+)
 :
         
 raise
@@ -630,7 +624,9 @@ workers
 if
 not
 run
-[
+.
+pop
+(
 '
 use
 -
@@ -640,7 +636,8 @@ mh
 -
 args
 '
-]
+None
+)
 :
         
 raise
@@ -673,12 +670,7 @@ workers
 "
 )
     
-taskdesc
-[
-'
 worker
-'
-]
 .
 setdefault
 (
@@ -704,12 +696,7 @@ build
 }
 )
     
-taskdesc
-[
-'
 worker
-'
-]
 .
 setdefault
 (
@@ -776,13 +763,14 @@ proxy
 =
 run
 .
-get
+pop
 (
 '
 taskcluster
 -
 proxy
 '
+None
 )
     
 docker_worker_add_artifacts
@@ -802,7 +790,7 @@ extra
 =
 run
 .
-get
+pop
 (
 '
 extra
@@ -813,14 +801,8 @@ cache
 -
 key
 '
+None
 )
-)
-    
-support_vcs_checkout
-(
-config
-job
-taskdesc
 )
     
 env
@@ -875,11 +857,13 @@ MOZHARNESS_CONFIG
 join
 (
 run
-[
+.
+pop
+(
 '
 config
 '
-]
+)
 )
         
 '
@@ -887,11 +871,13 @@ MOZHARNESS_SCRIPT
 '
 :
 run
-[
+.
+pop
+(
 '
 script
 '
-]
+)
         
 '
 MH_BRANCH
@@ -998,11 +984,13 @@ MOZHARNESS_ACTIONS
 join
 (
 run
-[
+.
+pop
+(
 '
 actions
 '
-]
+)
 )
     
 if
@@ -1026,11 +1014,13 @@ MOZHARNESS_OPTIONS
 join
 (
 run
-[
+.
+pop
+(
 '
 options
 '
-]
+)
 )
     
 if
@@ -1056,13 +1046,15 @@ MOZHARNESS_CONFIG_PATHS
 join
 (
 run
-[
+.
+pop
+(
 '
 config
 -
 paths
 '
-]
+)
 )
     
 if
@@ -1087,7 +1079,9 @@ MH_CUSTOM_BUILD_VARIANT_CFG
 ]
 =
 run
-[
+.
+pop
+(
 '
 custom
 -
@@ -1097,7 +1091,7 @@ variant
 -
 cfg
 '
-]
+)
     
 if
 '
@@ -1121,13 +1115,15 @@ json
 dumps
 (
 run
-[
+.
+pop
+(
 '
 extra
 -
 config
 '
-]
+)
 )
     
 if
@@ -1185,13 +1181,15 @@ message
 if
 not
 run
-[
+.
+pop
+(
 '
 keep
 -
 artifacts
 '
-]
+)
 :
         
 env
@@ -1216,13 +1214,15 @@ DIST_UPLOADS
     
 if
 run
-[
+.
+pop
+(
 '
 need
 -
 xvfb
 '
-]
+)
 :
         
 env
@@ -1250,43 +1250,6 @@ NEED_XVFB
 false
 '
     
-if
-run
-[
-'
-tooltool
--
-downloads
-'
-]
-:
-        
-internal
-=
-run
-[
-'
-tooltool
--
-downloads
-'
-]
-=
-=
-'
-internal
-'
-        
-docker_worker_add_tooltool
-(
-config
-job
-taskdesc
-internal
-=
-internal
-)
-    
 worker
 [
 '
@@ -1309,97 +1272,27 @@ job
 taskdesc
 )
     
-command
-=
+run
 [
-        
 '
-{
-workdir
-}
-/
-bin
-/
+using
+'
+]
+=
+'
 run
 -
 task
 '
-.
-format
-(
-*
-*
-run
-)
-        
-'
--
--
-gecko
--
-checkout
-'
-env
-[
-'
-GECKO_PATH
-'
-]
     
-]
-    
-if
 run
 [
 '
-comm
--
-checkout
+command
 '
 ]
-:
-        
-command
-.
-append
-(
-'
--
--
-comm
--
-checkout
-=
-{
-workdir
-}
-/
-workspace
-/
-build
-/
-src
-/
-comm
-'
-.
-format
-(
-*
-*
-run
-)
-)
-    
-command
-+
 =
 [
-        
-'
--
--
-'
         
 '
 {
@@ -1433,7 +1326,7 @@ script
 =
 run
 .
-get
+pop
 (
 '
 job
@@ -1459,14 +1352,40 @@ sh
     
 ]
     
+run
+.
+pop
+(
+'
+secrets
+'
+)
+    
+run
+.
+pop
+(
+'
+requires
+-
+signed
+-
+builds
+'
+)
+    
+configure_taskdesc_for_run
+(
+config
+job
+taskdesc
 worker
 [
 '
-command
+implementation
 '
 ]
-=
-command
+)
 run_job_using
 (
 "
