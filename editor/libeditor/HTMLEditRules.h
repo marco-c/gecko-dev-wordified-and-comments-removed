@@ -1163,13 +1163,6 @@ ExpandSelectionForDeletion
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
-NormalizeSelection
-(
-)
-;
 void
 GetDefinitionListItemTypes
 (
