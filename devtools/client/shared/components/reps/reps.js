@@ -10537,7 +10537,7 @@ result
 .
 value
 .
-return
+throw
 |
 |
 data
@@ -10546,7 +10546,7 @@ result
 .
 value
 .
-throw
+return
 )
 }
 )
