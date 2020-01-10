@@ -2175,11 +2175,6 @@ aFilterCount
 )
 mProfileBuffer
 (
-MakeUnique
-<
-ProfileBuffer
->
-(
 CorePS
 :
 :
@@ -2195,7 +2190,6 @@ Value
 )
 *
 8
-)
 )
 )
 mSamplerThread
@@ -2924,8 +2918,7 @@ sInstance
 -
 >
 mProfileBuffer
--
->
+.
 SizeOfIncludingThis
 (
 aMallocSizeOf
@@ -3179,7 +3172,6 @@ sInstance
 )
 ;
 return
-*
 sInstance
 -
 >
@@ -3694,8 +3686,7 @@ sInstance
 -
 >
 mProfileBuffer
--
->
+.
 BufferRangeEnd
 (
 )
@@ -3781,8 +3772,7 @@ sInstance
 -
 >
 mProfileBuffer
--
->
+.
 BufferRangeStart
 (
 )
@@ -3923,8 +3913,7 @@ sInstance
 -
 >
 mProfileBuffer
--
->
+.
 BufferRangeEnd
 (
 )
@@ -3984,8 +3973,7 @@ sInstance
 -
 >
 mProfileBuffer
--
->
+.
 BufferRangeStart
 (
 )
@@ -4222,8 +4210,7 @@ sInstance
 -
 >
 mProfileBuffer
--
->
+.
 BufferRangeStart
 (
 )
@@ -4398,8 +4385,7 @@ sInstance
 -
 >
 mProfileBuffer
--
->
+.
 BufferRangeEnd
 (
 )
@@ -4539,11 +4525,7 @@ string
 >
 mFilters
 ;
-const
-UniquePtr
-<
 ProfileBuffer
->
 mProfileBuffer
 ;
 Vector
