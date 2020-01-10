@@ -104,6 +104,12 @@ resource
 data
 :
 ;
+object
+-
+src
+'
+none
+'
 This
 means
 :
