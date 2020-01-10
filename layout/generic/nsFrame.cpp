@@ -15729,6 +15729,7 @@ aBuilder
 >
 EnterSVGEffectsContents
 (
+this
 &
 hoistedScrollInfoItemsStorage
 )
