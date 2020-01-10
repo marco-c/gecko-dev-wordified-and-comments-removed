@@ -212,6 +212,7 @@ code
 block
 :
 :
+yaml
 EvalLinter
 :
 description
@@ -1239,7 +1240,7 @@ code
 block
 :
 :
-yml
+yaml
 flake8
 :
 description
@@ -1529,7 +1530,7 @@ code
 block
 :
 :
-yml
+yaml
 flake8
 :
 description

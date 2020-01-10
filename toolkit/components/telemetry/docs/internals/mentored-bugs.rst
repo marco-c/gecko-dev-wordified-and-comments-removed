@@ -106,7 +106,7 @@ code
 block
 :
 :
-markdown
+md
 To
 help
 Mozilla
