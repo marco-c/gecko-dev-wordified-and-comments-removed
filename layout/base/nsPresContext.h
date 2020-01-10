@@ -283,9 +283,6 @@ class
 nsFrameManager
 ;
 class
-nsILinkHandler
-;
-class
 nsAtom
 ;
 class

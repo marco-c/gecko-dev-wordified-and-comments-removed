@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsILinkHandler
-.
-h
-"
-#
-include
-"
 nsISelectionListener
 .
 h
