@@ -1679,6 +1679,15 @@ bool
 aUseSystemTransition
 )
 ;
+void
+UpdateFullscreenState
+(
+bool
+aFullScreen
+bool
+aNativeMode
+)
+;
 nsresult
 DoMakeFullScreen
 (
