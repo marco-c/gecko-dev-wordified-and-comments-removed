@@ -1790,9 +1790,7 @@ browserWin
 =
 toolbox
 .
-win
-.
-top
+topWindow
 ;
 this
 .
