@@ -158,11 +158,15 @@ fflags_t
 pub
 st_gen
 :
-u32
+:
+:
+uint32_t
 pub
 st_lspare
 :
-i32
+:
+:
+int32_t
 pub
 st_birthtime
 :

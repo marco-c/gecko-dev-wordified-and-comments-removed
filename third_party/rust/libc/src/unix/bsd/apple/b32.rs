@@ -173,11 +173,15 @@ timeval
 pub
 bh_caplen
 :
-u32
+:
+:
+uint32_t
 pub
 bh_datalen
 :
-u32
+:
+:
+uint32_t
 pub
 bh_hdrlen
 :
