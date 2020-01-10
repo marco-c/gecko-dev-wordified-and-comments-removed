@@ -8,6 +8,8 @@ path
 append
 (
 '
+third_party
+/
 python
 /
 gdbpp
