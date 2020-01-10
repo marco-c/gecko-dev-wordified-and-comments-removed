@@ -54,6 +54,7 @@ critical
             
 "
 %
+s
 power
 test
 ignored
@@ -268,6 +269,7 @@ critical
             
 "
 %
+s
 power
 test
 ignored
