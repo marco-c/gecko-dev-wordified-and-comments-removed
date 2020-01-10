@@ -689,7 +689,7 @@ waitForCondition
 >
 owner
 .
-textContent
+value
 =
 =
 =
@@ -726,7 +726,7 @@ got
 {
 owner
 .
-textContent
+value
 }
 "
 .
