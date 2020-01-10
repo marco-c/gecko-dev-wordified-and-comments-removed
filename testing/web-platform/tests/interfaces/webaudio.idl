@@ -2428,6 +2428,15 @@ Worklet
 {
 }
 ;
+callback
+AudioWorkletProcessorConstructor
+=
+AudioWorkletProcessor
+(
+object
+options
+)
+;
 [
 Global
 =
@@ -2449,7 +2458,7 @@ registerProcessor
 (
 DOMString
 name
-VoidFunction
+AudioWorkletProcessorConstructor
 processorCtor
 )
 ;
