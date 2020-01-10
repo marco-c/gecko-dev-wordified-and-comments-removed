@@ -53,6 +53,10 @@ jsm
 "
 )
 ;
+do_get_profile
+(
+)
+;
 const
 gBrowserGlue
 =
