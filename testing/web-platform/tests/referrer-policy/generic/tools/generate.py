@@ -186,7 +186,7 @@ URL
 is
 %
 (
-referrer_url
+expectation
 )
 s
 when

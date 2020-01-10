@@ -165,7 +165,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -248,7 +248,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -331,7 +331,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -412,7 +412,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -582,7 +582,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -779,7 +779,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -862,7 +862,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -945,7 +945,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -1026,7 +1026,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -1194,7 +1194,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -1377,7 +1377,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -1466,7 +1466,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -1557,7 +1557,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -1640,7 +1640,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -1843,7 +1843,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -1932,7 +1932,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -2019,7 +2019,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -2104,7 +2104,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -2193,7 +2193,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -2276,7 +2276,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -2461,7 +2461,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -2542,7 +2542,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -2623,7 +2623,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -2704,7 +2704,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -2923,7 +2923,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3012,7 +3012,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3095,7 +3095,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3176,7 +3176,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3257,7 +3257,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3340,7 +3340,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3429,7 +3429,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3512,7 +3512,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3681,7 +3681,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3783,7 +3783,7 @@ worker
 "
 ]
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3866,7 +3866,7 @@ worker
 "
 ]
 "
-referrer_url
+expectation
 "
 :
 "
@@ -3937,7 +3937,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -4038,7 +4038,7 @@ request
 "
 ]
 "
-referrer_url
+expectation
 "
 :
 "
@@ -4159,7 +4159,7 @@ tag
 "
 ]
 "
-referrer_url
+expectation
 "
 :
 "
@@ -4228,7 +4228,7 @@ area
 tag
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -4321,7 +4321,7 @@ worker
 "
 ]
 "
-referrer_url
+expectation
 "
 :
 "
@@ -4412,7 +4412,7 @@ tag
 "
 ]
 "
-referrer_url
+expectation
 "
 :
 "
@@ -4491,7 +4491,7 @@ subresource
 *
 "
 "
-referrer_url
+expectation
 "
 :
 "
@@ -4723,7 +4723,7 @@ request
 "
 ]
 "
-referrer_url
+expectation
 "
 :
 [
