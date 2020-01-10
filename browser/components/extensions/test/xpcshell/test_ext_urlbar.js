@@ -1324,7 +1324,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH_LOCAL
+SEARCH
 title
 :
 "
@@ -1376,7 +1376,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH_NETWORK
+SEARCH
 title
 :
 "
@@ -2303,7 +2303,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH_NETWORK
+SEARCH
 engine
 :
 "
@@ -2334,7 +2334,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH_NETWORK
+SEARCH
 engine
 :
 "
@@ -2365,7 +2365,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH_NETWORK
+SEARCH
 engine
 :
 "
@@ -2396,7 +2396,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH_NETWORK
+SEARCH
 engine
 :
 "
@@ -2430,7 +2430,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH_NETWORK
+SEARCH
 engine
 :
 "

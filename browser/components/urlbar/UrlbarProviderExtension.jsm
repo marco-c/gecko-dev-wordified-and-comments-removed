@@ -925,7 +925,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH_NETWORK
+SEARCH
 tabs
 :
 UrlbarUtils

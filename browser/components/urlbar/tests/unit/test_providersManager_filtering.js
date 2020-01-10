@@ -1891,7 +1891,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH_NETWORK
+SEARCH
 {
 engine
 :
@@ -1938,16 +1938,14 @@ context
 {
 Assert
 .
-ok
+equal
 (
 context
 .
 acceptableSources
 .
 length
-<
-=
-2
+1
 "
 Check
 acceptableSources
@@ -2098,7 +2096,7 @@ SEARCH
 source
 :
 "
-SEARCH_NETWORK
+SEARCH
 "
 pref
 :
