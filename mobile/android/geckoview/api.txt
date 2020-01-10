@@ -4559,6 +4559,14 @@ method
 AnyThread
 public
 void
+purgeHistory
+(
+)
+;
+method
+AnyThread
+public
+void
 readFromParcel
 (
 NonNull
