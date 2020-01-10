@@ -2950,16 +2950,6 @@ tabIndex
 :
 -
 1
-onMouseDown
-:
-event
-=
->
-event
-.
-preventDefault
-(
-)
 }
 rows
 )
