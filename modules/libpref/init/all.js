@@ -37604,9 +37604,6 @@ endif
 #
 ifdef
 MOZ_WAYLAND
-#
-ifdef
-HAVE_LIBDRM
 pref
 (
 "
@@ -37619,8 +37616,6 @@ enabled
 false
 )
 ;
-#
-endif
 #
 endif
 pref
