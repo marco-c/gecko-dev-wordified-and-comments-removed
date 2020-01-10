@@ -10,8 +10,7 @@ Linter
 =
 =
 =
-Restructuredtext
-lint
+rstcheck
 _
 is
 a
@@ -108,8 +107,7 @@ directive
 .
 .
 .
-_Restructuredtext
-lint
+_rstcheck
 :
 https
 :
@@ -119,8 +117,6 @@ github
 .
 com
 /
-twolfson
+myint
 /
-restructuredtext
--
-lint
+rstcheck
