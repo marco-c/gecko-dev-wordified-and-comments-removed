@@ -57,6 +57,17 @@ h
 #
 include
 "
+builtin
+/
+streams
+/
+ReadableStream
+.
+h
+"
+#
+include
+"
 js
 /
 RootingAPI

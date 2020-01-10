@@ -60,6 +60,17 @@ builtin
 /
 streams
 /
+ReadableStream
+.
+h
+"
+#
+include
+"
+builtin
+/
+streams
+/
 ReadableStreamOperations
 .
 h

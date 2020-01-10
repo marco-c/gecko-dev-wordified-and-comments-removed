@@ -145,6 +145,17 @@ builtin
 /
 streams
 /
+ReadableStream
+.
+h
+"
+#
+include
+"
+builtin
+/
+streams
+/
 ReadableStreamReader
 .
 h
