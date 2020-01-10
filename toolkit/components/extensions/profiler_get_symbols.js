@@ -1877,7 +1877,7 @@ imports
 .
 wbg
 .
-__wbg_buffer_e04d67bf3bf41917
+__wbg_buffer_aa8ebea80955a01a
 =
 function
 (
@@ -1906,7 +1906,7 @@ imports
 .
 wbg
 .
-__wbg_newwithbyteoffsetandlength_9cfc37146f8a28ba
+__wbg_newwithbyteoffsetandlength_3e607c21646a8aef
 =
 function
 (
@@ -1967,7 +1967,7 @@ imports
 .
 wbg
 .
-__wbg_call_3d24f4e03e010931
+__wbg_call_9c879b23724d007e
 =
 function
 (
