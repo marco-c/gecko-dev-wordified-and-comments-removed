@@ -149,6 +149,15 @@ third_party
 /
 python
 /
+distro
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
 dlmanager
 mozilla
 .

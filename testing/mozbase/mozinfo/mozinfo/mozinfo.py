@@ -544,7 +544,41 @@ Linux
 "
 :
     
+try
+:
+        
+import
+distro
+    
+except
+ImportError
+:
+        
+pass
+    
 if
+hasattr
+(
+distro
+"
+linux_distribution
+"
+)
+:
+        
+(
+distribution
+os_version
+codename
+)
+=
+distro
+.
+linux_distribution
+(
+)
+    
+elif
 hasattr
 (
 platform
@@ -555,7 +589,7 @@ linux_distribution
 :
         
 (
-distro
+distribution
 os_version
 codename
 )
@@ -570,7 +604,7 @@ else
 :
         
 (
-distro
+distribution
 os_version
 codename
 )
@@ -600,13 +634,13 @@ s
 "
 %
 (
-distro
+distribution
 os_version
 )
     
 if
 not
-distro
+distribution
 and
 not
 os_version
@@ -615,7 +649,7 @@ not
 codename
 :
         
-distro
+distribution
 =
 '
 lfs
@@ -647,7 +681,7 @@ linux_distro
 '
 ]
 =
-distro
+distribution
 elif
 system
 in
