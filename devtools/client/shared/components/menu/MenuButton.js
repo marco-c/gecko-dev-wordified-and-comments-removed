@@ -238,6 +238,11 @@ PropTypes
 object
 .
 isRequired
+label
+:
+PropTypes
+.
+string
 menuId
 :
 PropTypes
@@ -1768,6 +1773,11 @@ return
 button
 (
 buttonProps
+this
+.
+props
+.
+label
 menu
 )
 ;
@@ -1776,6 +1786,11 @@ return
 button
 (
 buttonProps
+this
+.
+props
+.
+label
 )
 ;
 }
