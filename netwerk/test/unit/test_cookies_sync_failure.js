@@ -1,7 +1,7 @@
 var
 COOKIE_DATABASE_SCHEMA_CURRENT
 =
-10
+9
 ;
 var
 test_generator

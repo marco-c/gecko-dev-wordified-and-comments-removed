@@ -103,8 +103,6 @@ OriginAttributes
 aOriginAttributes
 int32_t
 aSameSite
-int32_t
-aRawSameSite
 )
 :
 mName
@@ -159,10 +157,6 @@ mSameSite
 (
 aSameSite
 )
-mRawSameSite
-(
-aRawSameSite
-)
 {
 }
 public
@@ -216,8 +210,6 @@ OriginAttributes
 aOriginAttributes
 int32_t
 aSameSite
-int32_t
-aRawSameSite
 )
 ;
 size_t
@@ -435,17 +427,6 @@ mSameSite
 ;
 }
 inline
-int32_t
-RawSameSite
-(
-)
-const
-{
-return
-mRawSameSite
-;
-}
-inline
 void
 SetExpiry
 (
@@ -566,9 +547,6 @@ mOriginAttributes
 ;
 int32_t
 mSameSite
-;
-int32_t
-mRawSameSite
 ;
 }
 ;
