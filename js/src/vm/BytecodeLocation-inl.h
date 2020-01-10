@@ -95,10 +95,12 @@ BytecodeLocation
 :
 bytecodeToOffset
 (
+const
 JSScript
 *
 script
 )
+const
 {
 return
 script
