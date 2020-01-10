@@ -60,7 +60,7 @@ types
 import
 type
 {
-ActorId
+ResumedPacket
 }
 from
 "
@@ -70,6 +70,10 @@ from
 .
 .
 /
+client
+/
+firefox
+/
 types
 "
 ;
@@ -77,9 +81,9 @@ export
 function
 resumed
 (
-thread
+packet
 :
-ActorId
+ResumedPacket
 )
 {
 return
@@ -96,6 +100,13 @@ ThunkArgs
 =
 >
 {
+const
+thread
+=
+packet
+.
+from
+;
 const
 why
 =

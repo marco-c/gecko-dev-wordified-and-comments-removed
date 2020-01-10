@@ -68,7 +68,7 @@ threadClient
 {
 gThreadActor
 =
-gClient
+threadClient
 .
 _transport
 .
@@ -78,7 +78,7 @@ getActor
 (
 threadClient
 .
-actorID
+_actor
 )
 ;
 test_nesting

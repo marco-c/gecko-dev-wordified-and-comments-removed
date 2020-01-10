@@ -107,15 +107,6 @@ client
 js
 '
 '
-deprecated
--
-thread
--
-client
-.
-js
-'
-'
 environment
 -
 client

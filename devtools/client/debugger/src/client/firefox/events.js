@@ -2,6 +2,7 @@ import
 type
 {
 SourcePacket
+ResumedPacket
 PausedPacket
 ThreadClient
 Actions
@@ -307,6 +308,9 @@ resumed
 threadClient
 :
 ThreadClient
+packet
+:
+ResumedPacket
 )
 {
 if
@@ -325,9 +329,7 @@ actions
 .
 resumed
 (
-threadClient
-.
-actorID
+packet
 )
 ;
 }

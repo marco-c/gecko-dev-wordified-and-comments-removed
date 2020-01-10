@@ -4,9 +4,7 @@ strict
 "
 ;
 const
-{
 ThreadClient
-}
 =
 require
 (
@@ -100,7 +98,7 @@ attached
 Thread
 client
 is
-resumed
+paused
 "
 )
 ;

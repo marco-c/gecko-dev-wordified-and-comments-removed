@@ -304,12 +304,6 @@ js
 "
 )
 ;
-await
-waitForRequestsToSettle
-(
-dbg
-)
-;
 ok
 (
 getSelectedSource
