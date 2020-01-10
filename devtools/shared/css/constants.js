@@ -73,5 +73,9 @@ focus
 -
 within
 "
+"
+:
+visited
+"
 ]
 ;
