@@ -1072,6 +1072,11 @@ this
 _selectItem
 (
 null
+{
+updateInput
+:
+false
+}
 )
 ;
 }
