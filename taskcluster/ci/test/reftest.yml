@@ -478,7 +478,8 @@ windows10
 -
 ccov
 /
-debug
+.
+*
 :
 5
 linux64
@@ -516,7 +517,8 @@ macosx
 -
 ccov
 /
-debug
+.
+*
 :
 5
 macosx
@@ -554,7 +556,8 @@ windows10
 -
 ccov
 /
-debug
+.
+*
 :
 7200
 macosx
@@ -564,7 +567,8 @@ macosx
 -
 ccov
 /
-debug
+.
+*
 :
 7200
 linux
@@ -574,7 +578,8 @@ linux
 -
 ccov
 /
-debug
+.
+*
 :
 7200
 default
@@ -778,6 +783,15 @@ ccov
 debug
 :
 9
+windows10
+-
+64
+-
+ccov
+/
+opt
+:
+9
 default
 :
 8
@@ -811,7 +825,8 @@ windows10
 -
 ccov
 /
-debug
+.
+*
 :
 5400
 windows10
@@ -830,7 +845,8 @@ macosx
 -
 ccov
 /
-debug
+.
+*
 :
 5400
 default

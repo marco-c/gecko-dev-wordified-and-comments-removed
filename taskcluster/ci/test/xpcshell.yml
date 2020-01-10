@@ -345,7 +345,8 @@ platform
 -
 ccov
 /
-debug
+.
+*
 :
 6
 android
@@ -483,7 +484,8 @@ opt
 -
 ccov
 /
-debug
+.
+*
 :
 5400
 default

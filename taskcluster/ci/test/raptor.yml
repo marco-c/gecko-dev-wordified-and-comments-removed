@@ -325,7 +325,8 @@ windows10
 -
 ccov
 /
-debug
+.
+*
 :
 -
 raptor
@@ -337,7 +338,8 @@ linux64
 -
 ccov
 /
-opt
+.
+*
 :
 -
 raptor

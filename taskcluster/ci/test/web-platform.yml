@@ -295,6 +295,13 @@ ccov
 debug
 :
 24
+linux64
+-
+ccov
+/
+opt
+:
+24
 linux
 .
 *
@@ -349,7 +356,8 @@ platform
 -
 ccov
 /
-debug
+.
+*
 :
 10800
 linux64
@@ -580,7 +588,8 @@ platform
 -
 ccov
 /
-debug
+.
+*
 :
 8
 linux64
@@ -775,7 +784,8 @@ platform
 -
 ccov
 /
-debug
+.
+*
 :
 4
 default
