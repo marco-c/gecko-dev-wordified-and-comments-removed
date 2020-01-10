@@ -387,6 +387,13 @@ MOZ_BUILD_APP
 '
 browser
 '
+or
+CONFIG
+[
+'
+MOZ_SUITE
+'
+]
 :
 EXTRA_JS_MODULES
 +
