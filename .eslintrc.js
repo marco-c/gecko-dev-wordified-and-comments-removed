@@ -245,12 +245,6 @@ devtools
 *
 *
 "
-"
-xpfe
-/
-*
-*
-"
 ]
 "
 rules
