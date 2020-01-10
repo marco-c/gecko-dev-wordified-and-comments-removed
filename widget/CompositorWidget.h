@@ -317,13 +317,6 @@ aContext
 {
 }
 virtual
-void
-DoCompositorCleanup
-(
-)
-{
-}
-virtual
 RefPtr
 <
 layers

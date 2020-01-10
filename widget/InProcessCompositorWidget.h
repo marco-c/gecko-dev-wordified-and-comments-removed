@@ -61,13 +61,6 @@ aManager
 override
 ;
 virtual
-void
-DoCompositorCleanup
-(
-)
-override
-;
-virtual
 RefPtr
 <
 layers
