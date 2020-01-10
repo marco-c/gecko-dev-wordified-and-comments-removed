@@ -59,6 +59,13 @@ CPP
 EP
 '
 ]
++
+[
+'
+-
+TC
+'
+]
     
 input_asm
 =
