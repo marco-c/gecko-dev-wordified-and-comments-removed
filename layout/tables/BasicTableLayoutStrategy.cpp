@@ -70,14 +70,6 @@ mozilla
 :
 layout
 ;
-namespace
-css
-=
-mozilla
-:
-:
-css
-;
 #
 undef
 DEBUG_TABLE_STRATEGY
