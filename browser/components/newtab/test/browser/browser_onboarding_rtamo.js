@@ -486,14 +486,6 @@ ReturnToAMOAddonContents
 .
 ReturnToAMOIcon
 "
-"
-.
-onboardingMessageContainer
-"
-"
-.
-onboardingMessage
-"
 ]
 )
 {
