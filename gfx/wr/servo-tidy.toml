@@ -37,11 +37,6 @@ packages
 "
 crossbeam
 -
-epoch
-"
-"
-crossbeam
--
 utils
 "
 "
@@ -55,12 +50,6 @@ lazy_static
 "
 "
 nix
-"
-"
-parking_lot
-"
-"
-parking_lot_core
 "
 "
 percent
