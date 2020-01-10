@@ -272,11 +272,6 @@ addressOfNurseryAllocCount
 )
 ;
 bool
-nurseryExists
-(
-)
-;
-bool
 canNurseryAllocateStrings
 (
 )
