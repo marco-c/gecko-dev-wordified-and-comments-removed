@@ -2602,6 +2602,9 @@ NativeLayerCA
 >
 mContentLayer
 ;
+LayoutDeviceIntRegion
+mContentLayerInvalidRegion
+;
 mozilla
 :
 :
