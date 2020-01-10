@@ -6566,6 +6566,7 @@ zone
 >
 sweepAfterMinorGC
 (
+trc
 )
 ;
 }
