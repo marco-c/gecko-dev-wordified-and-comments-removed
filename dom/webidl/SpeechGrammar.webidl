@@ -162,6 +162,9 @@ recognition
 .
 enable
 "
+NamedConstructor
+=
+webkitSpeechGrammar
 Func
 =
 "
