@@ -825,6 +825,9 @@ WebRenderLayerManager
 aManager
 )
 ;
+mozilla
+:
+:
 ipc
 :
 :
