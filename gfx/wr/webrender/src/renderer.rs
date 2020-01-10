@@ -28676,7 +28676,6 @@ buffers
 /
 When
 the
-the
 application
 passes
 an
@@ -28686,7 +28685,7 @@ to
 WR
 it
 should
-kepp
+keep
 that
 /
 /

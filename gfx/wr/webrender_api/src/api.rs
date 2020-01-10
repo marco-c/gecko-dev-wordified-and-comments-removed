@@ -4245,7 +4245,7 @@ panic
 !
 (
 "
-Webrender
+WebRender
 was
 shut
 down
@@ -4272,7 +4272,7 @@ response
 was
 dropped
 while
-Webrender
+WebRender
 was
 still
 alive
