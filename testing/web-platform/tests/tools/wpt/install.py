@@ -25,6 +25,14 @@ dev
 '
     
 '
+edgechromium
+'
+:
+'
+dev
+'
+    
+'
 safari
 '
 :
@@ -91,6 +99,14 @@ experimental
 '
 :
 latest_channels
+    
+'
+canary
+'
+:
+'
+canary
+'
 }
 def
 get_parser
