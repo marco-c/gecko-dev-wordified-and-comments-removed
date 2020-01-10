@@ -1,0 +1,11 @@
+export
+default
+await
+this
+;
+reportCompare
+(
+0
+0
+)
+;

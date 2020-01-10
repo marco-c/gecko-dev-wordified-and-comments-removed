@@ -1,0 +1,15 @@
+while
+(
+await
+null
+)
+{
+break
+;
+}
+reportCompare
+(
+0
+0
+)
+;

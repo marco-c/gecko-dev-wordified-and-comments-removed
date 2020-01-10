@@ -1,0 +1,17 @@
+while
+(
+await
+/
+1
+/
+)
+{
+break
+;
+}
+reportCompare
+(
+0
+0
+)
+;

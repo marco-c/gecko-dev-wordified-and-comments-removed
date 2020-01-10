@@ -50,7 +50,7 @@ keys
 =
 Object
 .
-keys
+getOwnPropertyNames
 (
 p
 )

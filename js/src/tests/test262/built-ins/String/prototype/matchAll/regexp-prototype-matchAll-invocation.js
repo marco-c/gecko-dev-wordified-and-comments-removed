@@ -55,6 +55,7 @@ regexp
 /
 .
 /
+g
 ;
 var
 str

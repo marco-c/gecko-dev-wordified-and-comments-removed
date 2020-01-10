@@ -43,11 +43,8 @@ assert
 sameValue
 (
 result
-[
-'
+.
 z
-'
-]
 1
 )
 ;
@@ -56,11 +53,8 @@ assert
 sameValue
 (
 result
-[
-'
+.
 y
-'
-]
 4
 )
 ;
@@ -69,11 +63,8 @@ assert
 sameValue
 (
 result
-[
-'
+.
 x
-'
-]
 3
 )
 ;
@@ -83,7 +74,7 @@ compareArray
 (
 Object
 .
-keys
+getOwnPropertyNames
 (
 result
 )

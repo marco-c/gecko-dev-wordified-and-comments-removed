@@ -38,9 +38,7 @@ function
 (
 )
 {
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 ta
 .

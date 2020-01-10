@@ -12,6 +12,9 @@ options
 localeMatcher
 "
 "
+numberingSystem
+"
+"
 style
 "
 "

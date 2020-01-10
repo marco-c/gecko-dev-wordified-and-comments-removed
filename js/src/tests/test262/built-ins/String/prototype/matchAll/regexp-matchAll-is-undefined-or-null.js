@@ -4,6 +4,7 @@ regexp
 /
 .
 /
+g
 ;
 var
 callCount

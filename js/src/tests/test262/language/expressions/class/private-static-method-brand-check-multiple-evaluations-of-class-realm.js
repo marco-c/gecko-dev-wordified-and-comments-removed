@@ -52,6 +52,7 @@ test262
 '
 ;
 }
+static
 access
 (
 )

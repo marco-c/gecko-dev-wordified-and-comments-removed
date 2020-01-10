@@ -1,0 +1,16 @@
+var
+foo
+=
+1
+;
+export
+default
+await
+foo
+;
+reportCompare
+(
+0
+0
+)
+;

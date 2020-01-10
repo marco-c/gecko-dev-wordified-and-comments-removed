@@ -36,7 +36,7 @@ t
 return
 Object
 .
-keys
+getOwnPropertyNames
 (
 t
 )
@@ -59,7 +59,7 @@ keys
 =
 Object
 .
-keys
+getOwnPropertyNames
 (
 p
 )

@@ -1,0 +1,15 @@
+if
+(
+true
+)
+{
+await
+this
+;
+}
+reportCompare
+(
+0
+0
+)
+;

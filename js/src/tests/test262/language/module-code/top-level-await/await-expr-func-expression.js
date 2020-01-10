@@ -4,16 +4,7 @@ fn
 )
 {
 return
-1
-;
-}
-function
-fn
-(
-)
-{
-return
-2
+42
 ;
 }
 await
@@ -23,7 +14,7 @@ fn
 )
 {
 return
-3
+111
 ;
 }
 ;
@@ -34,7 +25,7 @@ sameValue
 fn
 (
 )
-2
+42
 )
 ;
 DONE

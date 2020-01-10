@@ -28,7 +28,7 @@ sameValue
 (
 Object
 .
-keys
+getOwnPropertyNames
 (
 result
 )

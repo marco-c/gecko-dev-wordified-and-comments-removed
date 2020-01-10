@@ -90,7 +90,7 @@ keys
 =
 Object
 .
-keys
+getOwnPropertyNames
 (
 z
 )

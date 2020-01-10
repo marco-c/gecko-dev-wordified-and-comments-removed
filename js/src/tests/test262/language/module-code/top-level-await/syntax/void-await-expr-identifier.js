@@ -1,0 +1,15 @@
+var
+foo
+=
+1
+;
+void
+await
+foo
+;
+reportCompare
+(
+0
+0
+)
+;

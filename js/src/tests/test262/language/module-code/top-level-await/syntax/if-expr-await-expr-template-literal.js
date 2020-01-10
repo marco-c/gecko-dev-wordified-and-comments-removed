@@ -1,0 +1,12 @@
+if
+(
+await
+)
+{
+}
+reportCompare
+(
+0
+0
+)
+;

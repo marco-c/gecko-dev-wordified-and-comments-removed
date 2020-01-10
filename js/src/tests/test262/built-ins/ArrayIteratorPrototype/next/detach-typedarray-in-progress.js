@@ -40,9 +40,7 @@ keys
 )
 )
 {
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 typedArray
 .

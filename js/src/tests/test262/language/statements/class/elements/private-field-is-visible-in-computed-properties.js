@@ -7,7 +7,7 @@ assert
 .
 throws
 (
-ReferenceError
+TypeError
 function
 (
 )
@@ -48,7 +48,7 @@ object
 should
 throw
 a
-ReferenceError
+TypeError
 '
 )
 ;

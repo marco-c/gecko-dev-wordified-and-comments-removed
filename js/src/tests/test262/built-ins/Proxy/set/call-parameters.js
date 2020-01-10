@@ -46,12 +46,7 @@ _receiver
 receiver
 ;
 return
-t
-[
-prop
-]
-=
-value
+true
 ;
 }
 }
