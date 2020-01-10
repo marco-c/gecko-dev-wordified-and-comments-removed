@@ -2714,6 +2714,15 @@ EditorDOMPoint
 aPointToSplit
 )
 ;
+bool
+CanContainParagraph
+(
+Element
+&
+aElement
+)
+const
+;
 protected
 :
 virtual
