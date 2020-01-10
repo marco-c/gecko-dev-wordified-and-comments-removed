@@ -2607,15 +2607,13 @@ msg
         
 new_default
 =
-conditions
-[
--
-1
-]
-[
-1
-]
+self
+.
+default_value
+        
 if
+conditions
+and
 conditions
 [
 -
@@ -2626,10 +2624,18 @@ conditions
 ]
 is
 None
-else
-self
-.
-default_value
+:
+            
+new_default
+=
+conditions
+[
+-
+1
+]
+[
+1
+]
         
 if
 all
