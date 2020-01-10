@@ -5929,8 +5929,6 @@ finalURI
 loadInfo
 .
 mFullURL
-nullptr
-nullptr
 )
 ;
 if

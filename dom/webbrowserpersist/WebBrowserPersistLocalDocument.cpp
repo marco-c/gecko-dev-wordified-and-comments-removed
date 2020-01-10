@@ -6615,8 +6615,6 @@ getter_AddRefs
 targetURI
 )
 targetURISpec
-nullptr
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS

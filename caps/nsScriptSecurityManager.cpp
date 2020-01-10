@@ -4547,9 +4547,6 @@ getter_AddRefs
 target
 )
 aTargetURIStr
-nullptr
-nullptr
-sIOService
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6624,9 +6621,6 @@ getter_AddRefs
 uri
 )
 site
-nullptr
-nullptr
-sIOService
 )
 ;
 if

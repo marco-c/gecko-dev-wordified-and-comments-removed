@@ -5918,12 +5918,6 @@ aURI
 aSpec
 encoding
 baseURL
-nsContentUtils
-:
-:
-GetIOService
-(
-)
 )
 ;
 }

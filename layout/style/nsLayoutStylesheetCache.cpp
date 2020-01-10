@@ -2219,7 +2219,6 @@ about
 :
 PreferenceStyleSheet
 "
-nullptr
 )
 ;
 MOZ_ASSERT

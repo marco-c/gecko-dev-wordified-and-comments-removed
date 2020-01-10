@@ -1819,12 +1819,6 @@ getter_AddRefs
 uri
 )
 asciiUrl
-.
-get
-(
-)
-nullptr
-serv
 )
 ;
 if

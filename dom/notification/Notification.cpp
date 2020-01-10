@@ -1504,8 +1504,6 @@ getter_AddRefs
 scopeURI
 )
 aScope
-nullptr
-nullptr
 )
 ;
 if

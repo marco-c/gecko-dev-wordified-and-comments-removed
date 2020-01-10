@@ -1064,12 +1064,6 @@ getter_AddRefs
 url
 )
 mConfigURL
-.
-get
-(
-)
-nullptr
-nullptr
 )
 ;
 if

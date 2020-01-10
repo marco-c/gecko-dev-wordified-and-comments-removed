@@ -3751,8 +3751,6 @@ getter_AddRefs
 scopeURI
 )
 aScopeURL
-nullptr
-nullptr
 )
 ;
 if
@@ -3792,8 +3790,6 @@ getter_AddRefs
 scriptURI
 )
 aScriptURL
-nullptr
-nullptr
 )
 ;
 if
@@ -4318,8 +4314,6 @@ getter_AddRefs
 scopeURI
 )
 scope
-nullptr
-nullptr
 )
 ;
 if
@@ -4610,8 +4604,6 @@ getter_AddRefs
 uri
 )
 mURL
-nullptr
-nullptr
 )
 ;
 if
@@ -5863,8 +5855,6 @@ aController
 Scope
 (
 )
-nullptr
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS_VOID
@@ -5947,8 +5937,6 @@ getter_AddRefs
 scopeURI
 )
 aScope
-nullptr
-nullptr
 )
 ;
 if
@@ -6216,8 +6204,6 @@ getter_AddRefs
 scopeURI
 )
 aScope
-nullptr
-nullptr
 )
 ;
 if
@@ -6381,8 +6367,6 @@ getter_AddRefs
 scopeURI
 )
 aScope
-nullptr
-nullptr
 )
 ;
 if
@@ -7584,8 +7568,6 @@ aClientInfo
 URL
 (
 )
-nullptr
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8908,8 +8890,6 @@ aServiceWorker
 Scope
 (
 )
-nullptr
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9119,8 +9099,6 @@ getter_AddRefs
 uri
 )
 aUrl
-nullptr
-nullptr
 )
 ;
 if
@@ -12123,8 +12101,6 @@ getter_AddRefs
 scopeURI
 )
 aScope
-nullptr
-nullptr
 )
 ;
 if
@@ -12291,8 +12267,6 @@ getter_AddRefs
 scopeURI
 )
 aScope
-nullptr
-nullptr
 )
 ;
 MOZ_ASSERT
@@ -12892,8 +12866,6 @@ it2
 Key
 (
 )
-nullptr
-nullptr
 )
 ;
 if

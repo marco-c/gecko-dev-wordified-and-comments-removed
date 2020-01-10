@@ -7570,9 +7570,6 @@ encoding
 nsIURI
 *
 baseURI
-nsIIOService
-*
-ioService
 )
 {
 nsAutoCString
@@ -7597,7 +7594,6 @@ get
 (
 )
 baseURI
-ioService
 )
 ;
 }
@@ -7619,9 +7615,6 @@ charset
 nsIURI
 *
 baseURI
-nsIIOService
-*
-ioService
 )
 {
 nsAutoCString
@@ -7652,7 +7645,6 @@ result
 spec
 charset
 baseURI
-ioService
 )
 ;
 }
@@ -7677,9 +7669,6 @@ encoding
 nsIURI
 *
 baseURI
-nsIIOService
-*
-ioService
 )
 {
 nsAutoCString
@@ -7710,7 +7699,6 @@ result
 spec
 encoding
 baseURI
-ioService
 )
 ;
 }
@@ -7728,9 +7716,6 @@ spec
 nsIURI
 *
 baseURI
-nsIIOService
-*
-ioService
 )
 {
 return
@@ -7743,7 +7728,6 @@ spec
 )
 nullptr
 baseURI
-ioService
 )
 ;
 }
@@ -7953,9 +7937,6 @@ aCharset
 nsIURI
 *
 aBaseURI
-nsIIOService
-*
-aIOService
 )
 {
 TlsAutoIncrement
@@ -8996,7 +8977,6 @@ aURI
 aSpec
 aCharset
 aBaseURI
-aIOService
 )
 ;
 if

@@ -697,8 +697,6 @@ getter_AddRefs
 uri
 )
 aInput
-nullptr
-nullptr
 )
 ;
 if

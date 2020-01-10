@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIIOService
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -617,11 +610,6 @@ gIconLoad
 nullptr
 ;
 }
-NS_IF_RELEASE
-(
-sIOService
-)
-;
 }
 virtual
 nsresult
@@ -1219,9 +1207,6 @@ const
 nsAString
 &
 aSpec
-nsIIOService
-*
-aIOService
 nsIURI
 *
 *
@@ -1390,11 +1375,6 @@ mReflowCallbackPosted
 ;
 bool
 mForceSyncDecoding
-;
-static
-nsIIOService
-*
-sIOService
 ;
 nsresult
 LoadIcons
