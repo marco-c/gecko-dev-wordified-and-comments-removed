@@ -88,6 +88,11 @@ Disconnect
 (
 )
 ;
+void
+OnCreatePresShell
+(
+)
+;
 protected
 :
 bool
