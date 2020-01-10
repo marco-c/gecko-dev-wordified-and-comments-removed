@@ -292,13 +292,6 @@ ProfilerParent
 .
 cpp
 '
-'
-gecko
-/
-ThreadResponsiveness
-.
-cpp
-'
 ]
 if
 CONFIG
