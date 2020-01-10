@@ -458,6 +458,10 @@ false
 }
 )
 ;
+{
+nsAutoScriptBlocker
+sb
+;
 if
 (
 mFrameLoader
@@ -556,6 +560,7 @@ Failed
 {
 return
 ;
+}
 }
 if
 (
