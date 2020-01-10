@@ -36284,6 +36284,15 @@ value
 :
 true
 #
+elif
+defined
+(
+XP_MACOSX
+)
+value
+:
+true
+#
 else
 value
 :
