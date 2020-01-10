@@ -153,6 +153,10 @@ wl_subsurface
 *
 subsurface
 ;
+int
+subsurface_dx
+subsurface_dy
+;
 struct
 wl_egl_window
 *
@@ -165,6 +169,9 @@ frame_callback_handler
 ;
 int
 frame_callback_handler_surface_id
+;
+gboolean
+surface_position_update
 ;
 gboolean
 surface_needs_clear
