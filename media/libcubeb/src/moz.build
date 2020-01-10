@@ -284,6 +284,14 @@ USE_SNDIO
 ]
 =
 True
+DEFINES
+[
+'
+DISABLE_LIBSNDIO_DLOPEN
+'
+]
+=
+True
 if
 CONFIG
 [
