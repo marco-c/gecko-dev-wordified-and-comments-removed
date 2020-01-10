@@ -3627,6 +3627,13 @@ EnsureNoPaddingBRElementForEmptyEditor
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+MaybeCreatePaddingBRElementForEmptyEditor
+(
+)
+;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoTransactionInternal
 (
