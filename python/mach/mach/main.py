@@ -2595,26 +2595,6 @@ mach_handler
 if
 args
 .
-print_command
-:
-            
-print
-(
-handler
-.
-name
-)
-            
-sys
-.
-exit
-(
-0
-)
-        
-if
-args
-.
 logfile
 :
             
