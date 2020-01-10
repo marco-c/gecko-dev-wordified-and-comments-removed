@@ -2646,10 +2646,9 @@ rv
 )
 |
 |
-!
 byteRanges
 .
-Length
+IsEmpty
 (
 )
 )
@@ -6660,9 +6659,10 @@ true
 ;
 if
 (
+!
 buffered
 .
-Length
+IsEmpty
 (
 )
 )

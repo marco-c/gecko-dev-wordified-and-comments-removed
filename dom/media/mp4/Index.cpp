@@ -125,10 +125,9 @@ aByteRange
 {
 if
 (
-!
 mRanges
 .
-Length
+IsEmpty
 (
 )
 )

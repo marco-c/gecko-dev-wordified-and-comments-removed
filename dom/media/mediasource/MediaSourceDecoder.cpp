@@ -592,9 +592,10 @@ seekable
 }
 if
 (
+!
 buffered
 .
-Length
+IsEmpty
 (
 )
 )
@@ -881,9 +882,10 @@ if
 mEnded
 &
 &
+!
 range
 .
-Length
+IsEmpty
 (
 )
 )
