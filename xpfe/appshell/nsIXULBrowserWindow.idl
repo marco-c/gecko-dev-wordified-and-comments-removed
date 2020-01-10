@@ -646,6 +646,9 @@ aFlushId
 in
 boolean
 aIsFinal
+in
+uint32_t
+aEpoch
 )
 ;
 }

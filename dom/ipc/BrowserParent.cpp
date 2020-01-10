@@ -13765,6 +13765,10 @@ const
 bool
 &
 aIsFinal
+const
+uint32_t
+&
+aEpoch
 )
 {
 nsCOMPtr
@@ -13863,6 +13867,7 @@ UpdateSessionStore
 mFrameElement
 aFlushId
 aIsFinal
+aEpoch
 )
 ;
 return

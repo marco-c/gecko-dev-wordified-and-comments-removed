@@ -586,6 +586,10 @@ mUpdateInterval
 (
 15000
 )
+mEpoch
+(
+0
+)
 {
 MOZ_ASSERT
 (
@@ -2205,6 +2209,7 @@ UpdateSessionStore
 mOwnerContent
 aFlushId
 aIsFinal
+mEpoch
 )
 ;
 StopTimerForUpdate

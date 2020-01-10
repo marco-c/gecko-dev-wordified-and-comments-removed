@@ -3886,6 +3886,8 @@ uint32_t
 aFlushId
 bool
 aIsFinal
+uint32_t
+aEpoch
 )
 ;
 child
@@ -3906,6 +3908,13 @@ uint32_t
 aFlushId
 bool
 aIsFinal
+)
+;
+async
+UpdateEpoch
+(
+uint32_t
+aEpoch
 )
 ;
 parent

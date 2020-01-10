@@ -25492,6 +25492,7 @@ XWB_updateSessionStore
 aBrowser
 aFlushId
 aIsFinal
+aEpoch
 )
 {
 SessionStore
@@ -25511,6 +25512,9 @@ aFlushId
 isFinal
 :
 aIsFinal
+epoch
+:
+aEpoch
 }
 )
 ;
