@@ -33,6 +33,14 @@ taskgraph
 .
 util
 .
+attributes
+import
+copy_attributes_from_dependent_job
+from
+taskgraph
+.
+util
+.
 partners
 import
 (
@@ -103,6 +111,18 @@ dependency
 '
 ]
         
+job
+[
+'
+attributes
+'
+]
+=
+copy_attributes_from_dependent_job
+(
+dep_job
+)
+        
 repack_id
 =
 job
@@ -124,7 +144,7 @@ generate_specifications_of_artifacts_to_sign
             
 config
             
-dep_job
+job
             
 keep_locale_template
 =
