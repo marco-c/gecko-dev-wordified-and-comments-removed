@@ -22195,6 +22195,12 @@ lParamClient
 ;
 }
 else
+{
+mMouseInDraggableArea
+=
+false
+;
+}
 if
 (
 mMousePresent
@@ -22202,6 +22208,10 @@ mMousePresent
 &
 !
 sIsInMouseCapture
+&
+&
+!
+mMouseInDraggableArea
 )
 {
 SendMessage
