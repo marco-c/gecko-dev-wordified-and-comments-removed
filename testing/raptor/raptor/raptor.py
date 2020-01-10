@@ -3634,6 +3634,12 @@ e10s
 ]
 }
 )
+        
+self
+.
+remove_mozprofile_delimiters_from_profile
+(
+)
 class
 Raptor
 (
