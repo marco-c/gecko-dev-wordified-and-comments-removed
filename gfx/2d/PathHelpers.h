@@ -514,6 +514,14 @@ aRotation
 0
 .
 0f
+const
+Matrix
+&
+aTransform
+=
+Matrix
+(
+)
 )
 {
 Float
@@ -670,6 +678,11 @@ PostTranslate
 (
 aOrigin
 )
+;
+transform
+*
+=
+aTransform
 ;
 aSink
 -
