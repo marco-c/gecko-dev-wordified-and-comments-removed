@@ -11586,10 +11586,8 @@ MOZ_ASSERT
 bc
 )
 ;
-nsCOMPtr
-<
 nsPIDOMWindowOuter
->
+*
 outer
 ;
 if
