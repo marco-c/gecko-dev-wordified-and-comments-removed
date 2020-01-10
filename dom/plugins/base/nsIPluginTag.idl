@@ -388,11 +388,6 @@ attribute
 PRTime
 lastModifiedTime
 ;
-readonly
-attribute
-boolean
-isFlashPlugin
-;
 Array
 <
 AUTF8String

@@ -22703,6 +22703,16 @@ pref
 "
 plugins
 .
+click_to_play
+"
+false
+)
+;
+pref
+(
+"
+plugins
+.
 navigator
 .
 hidden_ctp_plugin
