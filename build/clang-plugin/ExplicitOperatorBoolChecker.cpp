@@ -111,7 +111,7 @@ if
 Method
 -
 >
-isExplicitSpecified
+isExplicit
 (
 )
 &
