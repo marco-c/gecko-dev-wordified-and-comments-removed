@@ -1841,7 +1841,7 @@ hostFromURI
 aHostURI
 -
 >
-GetPathQueryRef
+GetFilePath
 (
 pathFromURI
 )
