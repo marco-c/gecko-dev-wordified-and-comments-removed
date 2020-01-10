@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-IHistory
+BaseHistory
 .
 h
 "
@@ -102,7 +102,7 @@ public
 mozilla
 :
 :
-IHistory
+BaseHistory
 public
 nsITimerCallback
 public

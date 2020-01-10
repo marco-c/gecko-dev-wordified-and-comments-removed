@@ -408,6 +408,11 @@ mozilla
 =
 [
 '
+BaseHistory
+.
+h
+'
+'
 IHistory
 .
 h
@@ -456,6 +461,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+BaseHistory
+.
+cpp
+'
 '
 BrowsingContext
 .
