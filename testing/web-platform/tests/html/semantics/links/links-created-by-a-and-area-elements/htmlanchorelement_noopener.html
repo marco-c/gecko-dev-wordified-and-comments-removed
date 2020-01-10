@@ -410,9 +410,11 @@ three
 special
 targets
 above
-in
-fact
-ignores
+is
+still
+able
+to
+reuse
 existing
 things
 with
@@ -535,7 +537,7 @@ with
 a
 given
 name
-ignores
+reuses
 an
 existing
 window
@@ -596,7 +598,7 @@ e
 .
 data
 ;
-assert_false
+assert_true
 (
 data
 .
@@ -628,7 +630,7 @@ opener
 window
 )
 ;
-assert_equals
+assert_not_equals
 (
 w
 .
@@ -710,7 +712,7 @@ with
 a
 given
 name
-ignores
+reuses
 an
 existing
 subframe
@@ -758,7 +760,7 @@ data
 hasOpener
 )
 ;
-assert_false
+assert_true
 (
 data
 .
@@ -775,7 +777,7 @@ oursubframe
 "
 )
 ;
-assert_equals
+assert_not_equals
 (
 document
 .
