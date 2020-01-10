@@ -115,6 +115,11 @@ l10n
 =
 [
 '
+DOMLocalization
+.
+h
+'
+'
 DOMOverlays
 .
 h
@@ -129,6 +134,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+DOMLocalization
+.
+cpp
+'
 '
 DOMOverlays
 .
