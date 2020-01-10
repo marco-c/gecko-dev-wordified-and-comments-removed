@@ -1427,11 +1427,6 @@ Resume
 (
 )
 ;
-async
-ResumeAsync
-(
-)
-;
 /
 /
 See

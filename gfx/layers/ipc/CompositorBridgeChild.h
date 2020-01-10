@@ -548,11 +548,6 @@ SendResume
 )
 ;
 bool
-SendResumeAsync
-(
-)
-;
-bool
 SendNotifyChildCreated
 (
 const

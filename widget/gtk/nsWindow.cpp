@@ -9883,13 +9883,6 @@ RequestsUpdatingEGLSurface
 (
 )
 ;
-remoteRenderer
--
->
-SendResumeAsync
-(
-)
-;
 }
 remoteRenderer
 -
