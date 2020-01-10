@@ -2034,6 +2034,8 @@ bug_numbers
 :
 -
 1265472
+-
+1558870
 description
 :
 >
@@ -2066,7 +2068,7 @@ U2FSignAbort
 expires
 :
 "
-70
+78
 "
 kind
 :
