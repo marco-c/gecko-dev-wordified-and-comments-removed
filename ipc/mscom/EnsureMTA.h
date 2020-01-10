@@ -132,13 +132,6 @@ EnsureMTA
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 nsCOMPtr
 <
 nsIThread
@@ -212,13 +205,6 @@ aClosure
 return
 ;
 }
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 nsCOMPtr
 <
 nsIThread
