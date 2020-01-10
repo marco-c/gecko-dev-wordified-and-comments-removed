@@ -3614,6 +3614,9 @@ bool
 mHaveCompositionRecorder
 ;
 bool
+mIsForcedFirstPaint
+;
+bool
 mUseExternalSurfaceSize
 ;
 gfx

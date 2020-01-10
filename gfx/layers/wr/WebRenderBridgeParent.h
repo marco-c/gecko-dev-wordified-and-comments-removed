@@ -1448,16 +1448,6 @@ aRenderedEpoch
 )
 ;
 void
-ForceIsFirstPaint
-(
-)
-{
-mIsFirstPaint
-=
-true
-;
-}
-void
 PushDeferredPipelineData
 (
 RenderRootDeferredData
