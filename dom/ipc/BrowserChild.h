@@ -811,6 +811,9 @@ Init
 mozIDOMWindowProxy
 *
 aParent
+WindowGlobalChild
+*
+aInitialWindowChild
 )
 ;
 static

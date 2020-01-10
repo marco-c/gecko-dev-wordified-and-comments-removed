@@ -2772,6 +2772,13 @@ PBrowserChild
 &
 &
 aBrowserEp
+ManagedEndpoint
+<
+PWindowGlobalChild
+>
+&
+&
+aWindowEp
 const
 TabId
 &
@@ -2784,9 +2791,10 @@ const
 IPCTabContext
 &
 aContext
-BrowsingContext
-*
-aBrowsingContext
+const
+WindowGlobalInit
+&
+aWindowInit
 const
 uint32_t
 &
