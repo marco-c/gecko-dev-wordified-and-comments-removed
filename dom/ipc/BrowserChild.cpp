@@ -3220,9 +3220,6 @@ window
 >
 SetKeyboardIndicators
 (
-ShowAccelerators
-(
-)
 ShowFocusRings
 (
 )
@@ -3236,9 +3233,6 @@ window
 >
 SetInitialKeyboardIndicators
 (
-ShowAccelerators
-(
-)
 ShowFocusRings
 (
 )
@@ -7281,10 +7275,6 @@ RecvSetKeyboardIndicators
 const
 UIStateChangeType
 &
-aShowAccelerators
-const
-UIStateChangeType
-&
 aShowFocusRings
 )
 {
@@ -7314,7 +7304,6 @@ window
 >
 SetKeyboardIndicators
 (
-aShowAccelerators
 aShowFocusRings
 )
 ;

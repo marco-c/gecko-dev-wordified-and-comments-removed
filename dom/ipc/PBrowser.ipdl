@@ -4357,8 +4357,6 @@ async
 SetKeyboardIndicators
 (
 UIStateChangeType
-showAccelerators
-UIStateChangeType
 showFocusRings
 )
 ;

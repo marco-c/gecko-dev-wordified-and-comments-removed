@@ -4272,8 +4272,6 @@ void
 SetKeyboardIndicators
 (
 UIStateChangeType
-aShowAccelerators
-UIStateChangeType
 aShowFocusRings
 )
 override

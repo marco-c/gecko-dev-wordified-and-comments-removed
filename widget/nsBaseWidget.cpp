@@ -7693,8 +7693,6 @@ nsBaseWidget
 NotifyUIStateChanged
 (
 UIStateChangeType
-aShowAccelerators
-UIStateChangeType
 aShowFocusRings
 )
 {
@@ -7709,6 +7707,8 @@ GetDocument
 )
 )
 {
+if
+(
 nsPIDOMWindowOuter
 *
 win
@@ -7719,10 +7719,6 @@ doc
 GetWindow
 (
 )
-;
-if
-(
-win
 )
 {
 win
@@ -7730,7 +7726,6 @@ win
 >
 SetKeyboardIndicators
 (
-aShowAccelerators
 aShowFocusRings
 )
 ;

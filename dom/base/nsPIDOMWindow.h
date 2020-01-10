@@ -2086,8 +2086,6 @@ void
 SetInitialKeyboardIndicators
 (
 UIStateChangeType
-aShowAccelerators
-UIStateChangeType
 aShowFocusRings
 )
 ;
@@ -2761,8 +2759,6 @@ virtual
 void
 SetKeyboardIndicators
 (
-UIStateChangeType
-aShowAccelerators
 UIStateChangeType
 aShowFocusRings
 )

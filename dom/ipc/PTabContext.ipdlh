@@ -396,9 +396,6 @@ the
 parent
 .
 UIStateChangeType
-showAccelerators
-;
-UIStateChangeType
 showFocusRings
 ;
 }
