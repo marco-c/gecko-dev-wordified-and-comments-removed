@@ -1466,10 +1466,7 @@ WrReferenceFrameKind
 :
 Transform
 nullptr
-wr
-:
-:
-PrimitiveFlags_IS_BACKFACE_VISIBLE
+true
 false
 wr
 :
