@@ -927,6 +927,9 @@ SkCreateTypefaceFromDWriteFont
 factory
 mFontFace
 mStyle
+(
+int
+)
 mRenderingMode
 gamma
 contrast

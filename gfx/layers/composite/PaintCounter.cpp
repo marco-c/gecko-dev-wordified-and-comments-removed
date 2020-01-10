@@ -337,14 +337,9 @@ SK_ColorTRANSPARENT
 mCanvas
 -
 >
-drawSimpleText
+drawString
 (
 buffer
-strlen
-(
-buffer
-)
-kUTF8_SkTextEncoding
 10
 30
 font
