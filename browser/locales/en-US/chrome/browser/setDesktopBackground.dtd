@@ -228,16 +228,6 @@ Preferences
 <
 !
 ENTITY
-closeWindow
-.
-key
-"
-w
-"
->
-<
-!
-ENTITY
 previewUnavailable
 "
 Preview
