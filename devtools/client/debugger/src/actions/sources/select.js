@@ -370,9 +370,6 @@ options
 PartialPosition
 =
 {
-line
-:
-1
 }
 )
 {
@@ -468,9 +465,6 @@ options
 PartialPosition
 =
 {
-line
-:
-1
 }
 )
 {

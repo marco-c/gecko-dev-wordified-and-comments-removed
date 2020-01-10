@@ -107,7 +107,7 @@ createLocation
 sourceId
 line
 =
-1
+0
 column
 sourceUrl
 =
