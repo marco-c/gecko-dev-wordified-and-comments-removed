@@ -5683,6 +5683,12 @@ else
 {
 this
 .
+focus
+(
+)
+;
+this
+.
 startQuery
 (
 {
