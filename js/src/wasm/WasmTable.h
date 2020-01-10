@@ -387,6 +387,12 @@ mallocSizeOf
 )
 const
 ;
+size_t
+gcMallocBytes
+(
+)
+const
+;
 }
 ;
 typedef

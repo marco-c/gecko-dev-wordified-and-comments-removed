@@ -550,6 +550,16 @@ _
 (
 WasmResolveResponseClosure
 )
+\
+_
+(
+WasmModule
+)
+\
+_
+(
+WasmTableTable
+)
 #
 define
 JS_FOR_EACH_MEMORY_USE
