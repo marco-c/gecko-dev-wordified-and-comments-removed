@@ -161,6 +161,17 @@ short
 -
 name
 }
+fxaccounts
+-
+avatar
+-
+button
+=
+.
+title
+=
+Manage
+account
 #
 #
 The
