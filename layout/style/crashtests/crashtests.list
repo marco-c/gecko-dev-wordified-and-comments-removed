@@ -2072,6 +2072,16 @@ geckoview
 &
 webrender
 )
+skip
+-
+if
+(
+Android
+&
+&
+!
+isDebugBuild
+)
 load
 1546255
 .
@@ -2083,6 +2093,9 @@ for
 GV
 +
 WR
+&
+Bug
+1553971
 pref
 (
 layout
