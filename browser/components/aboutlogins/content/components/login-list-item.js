@@ -128,7 +128,7 @@ render
 )
 {
 let
-origin
+title
 =
 this
 .
@@ -138,7 +138,7 @@ querySelector
 (
 "
 .
-origin
+title
 "
 )
 ;
@@ -176,7 +176,7 @@ guid
 "
 )
 ;
-origin
+title
 .
 textContent
 =
@@ -227,7 +227,7 @@ _login
 guid
 )
 ;
-origin
+title
 .
 textContent
 =
@@ -235,7 +235,7 @@ this
 .
 _login
 .
-origin
+title
 ;
 username
 .
