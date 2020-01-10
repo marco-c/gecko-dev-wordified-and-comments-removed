@@ -1044,6 +1044,17 @@ aString
 )
 ;
 static
+NSString
+*
+ToNSString
+(
+const
+nsACString
+&
+aCString
+)
+;
+static
 void
 GeckoRectToNSRect
 (
