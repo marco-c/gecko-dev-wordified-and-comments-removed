@@ -9724,6 +9724,12 @@ Zero
 else
 if
 (
+!
+IsComboboxControlFrame
+(
+)
+&
+&
 aReflowInput
 .
 mStyleDisplay
