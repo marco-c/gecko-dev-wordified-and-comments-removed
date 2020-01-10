@@ -3,8 +3,6 @@ __future__
 import
 absolute_import
 unicode_literals
-import
-os
 from
 .
 .
@@ -162,19 +160,12 @@ path
 "
 ]
 =
-os
-.
-path
-.
-relpath
-(
 slots
 [
-"
-path
-"
+'
+relpath
+'
 ]
-)
                 
 slots
 [

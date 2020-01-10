@@ -29,6 +29,12 @@ mozlint
 parser
 import
 Parser
+from
+mozlint
+.
+result
+import
+ResultSummary
 import
 pytest
 here
@@ -656,6 +662,12 @@ payload
 ]
 )
 )
+    
+ResultSummary
+.
+root
+=
+root
     
 def
 wrapper
