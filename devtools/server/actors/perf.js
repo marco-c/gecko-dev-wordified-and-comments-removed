@@ -295,6 +295,14 @@ actorBridgeWithSpec
 isLockedForPrivateBrowsing
 "
 )
+getSupportedFeatures
+:
+actorBridgeWithSpec
+(
+"
+getSupportedFeatures
+"
+)
 }
 )
 ;
