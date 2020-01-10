@@ -138,8 +138,6 @@ ws_protocol
 var
 ws
 ;
-try
-{
 if
 (
 ws_protocol
@@ -227,16 +225,6 @@ _testNumber
 ;
 }
 ;
-}
-catch
-(
-e
-)
-{
-throw
-e
-;
-}
 return
 ws
 ;
