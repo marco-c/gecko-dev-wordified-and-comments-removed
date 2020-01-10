@@ -3045,6 +3045,16 @@ hidden
 =
 !
 ABUSE_REPORT_ENABLED
+|
+|
+addon
+.
+isBuiltin
+|
+|
+addon
+.
+isSystem
 ;
 break
 ;
