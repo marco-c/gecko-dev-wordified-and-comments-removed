@@ -414,7 +414,12 @@ used
 can
 be
 found
-here
+in
+the
+Office
+Addressing
+Schemes
+spreadsheet
 <
 https
 :
@@ -439,6 +444,7 @@ gid
 0
 >
 _
+.
 *
 To
 use
