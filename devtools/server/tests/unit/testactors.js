@@ -533,6 +533,16 @@ _extraActors
 ;
 this
 .
+_extraActors
+.
+contextActor
+=
+this
+.
+threadActor
+;
+this
+.
 makeDebugger
 =
 makeDebugger

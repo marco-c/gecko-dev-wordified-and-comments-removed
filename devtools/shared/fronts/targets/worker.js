@@ -240,6 +240,16 @@ consoleActor
 ;
 this
 .
+targetForm
+.
+contextActor
+=
+connectResponse
+.
+threadActor
+;
+this
+.
 _threadActor
 =
 connectResponse
