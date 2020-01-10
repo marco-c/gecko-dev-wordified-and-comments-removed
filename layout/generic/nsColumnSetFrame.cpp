@@ -2068,10 +2068,6 @@ colBSize
 }
 else
 {
-numColumns
-=
-INT32_MAX
-;
 colBSize
 =
 std
@@ -3129,6 +3125,11 @@ aConfig
 mUsedColCount
 -
 1
+&
+&
+aConfig
+.
+mIsBalancing
 ;
 bool
 skipIncremental
@@ -4220,6 +4221,11 @@ aConfig
 mUsedColCount
 -
 1
+&
+&
+aConfig
+.
+mIsBalancing
 )
 {
 aStatus
