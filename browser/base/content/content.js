@@ -198,6 +198,12 @@ target
 nodePrincipal
 ;
 return
+(
+nodePrincipal
+.
+isSystemPrincipal
+|
+|
 nodePrincipal
 .
 isNullPrincipal
@@ -212,6 +218,7 @@ schemeIs
 "
 about
 "
+)
 )
 ;
 }
