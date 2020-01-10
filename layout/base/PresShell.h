@@ -2228,13 +2228,6 @@ AsyncPanZoomEnabled
 (
 )
 ;
-void
-SetIgnoreViewportScrolling
-(
-bool
-aIgnore
-)
-;
 bool
 IgnoringViewportScrolling
 (
