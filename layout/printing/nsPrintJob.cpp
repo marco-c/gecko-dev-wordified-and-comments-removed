@@ -2072,7 +2072,7 @@ kid
 }
 static
 void
-BuildDocTree
+BuildNestedPrintObjects
 (
 BrowsingContext
 *
@@ -2253,7 +2253,7 @@ get
 )
 )
 ;
-BuildDocTree
+BuildNestedPrintObjects
 (
 childBC
 aPO
@@ -3796,7 +3796,7 @@ eFrameSet
 :
 eDoc
 ;
-BuildDocTree
+BuildNestedPrintObjects
 (
 nsDocShell
 :
