@@ -2321,15 +2321,19 @@ args
                 
 "
 -
--
-scripts
-"
-                
-script
-                
-"
--
 v
+"
+                
+"
+-
+-
+set
+"
+                
+"
+websocket
+=
+false
 "
                 
 "
@@ -2355,6 +2359,14 @@ join
 recording_paths
 )
 )
+                
+"
+-
+-
+scripts
+"
+                
+script
             
 ]
             
