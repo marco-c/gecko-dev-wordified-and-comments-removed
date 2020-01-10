@@ -156,6 +156,14 @@ clearHttpAuths
 (
 )
 ;
+Services
+.
+telemetry
+.
+clearEvents
+(
+)
+;
 let
 recipeParent
 =
