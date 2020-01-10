@@ -648,6 +648,10 @@ friend
 class
 BaseProcessLauncher
 ;
+friend
+class
+PosixProcessLauncher
+;
 protected
 :
 ~
@@ -833,6 +837,12 @@ mQueue
 ;
 nsCString
 mTmpDirName
+;
+nsCOMPtr
+<
+nsIFile
+>
+mProfileDir
 ;
 mozilla
 :

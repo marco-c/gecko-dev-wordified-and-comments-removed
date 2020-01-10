@@ -1602,9 +1602,8 @@ nsDirectoryService
 gService
 -
 >
-Set
+SetCurrentProcessDirectory
 (
-NS_XPCOM_INIT_CURRENT_PROCESS_DIR
 aBinDirectory
 )
 ;
