@@ -45,9 +45,6 @@ class
 nsICookieSettings
 ;
 class
-nsIHttpChannel
-;
-class
 nsIPermission
 ;
 class
@@ -114,7 +111,7 @@ static
 bool
 IsFirstPartyStorageAccessGrantedFor
 (
-nsIHttpChannel
+nsIChannel
 *
 aChannel
 nsIURI
