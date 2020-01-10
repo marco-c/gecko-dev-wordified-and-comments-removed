@@ -15505,6 +15505,13 @@ Element
 aElement
 )
 {
+MOZ_ASSERT
+(
+IsEditActionDataAvailable
+(
+)
+)
+;
 AutoTopLevelEditSubActionNotifier
 maybeTopLevelEditSubAction
 (
