@@ -3252,7 +3252,6 @@ components
 ;
 }
 }
-static
 void
 qcms_transform_data_rgb_out_lut_precache
 (
@@ -3287,7 +3286,6 @@ length
 )
 ;
 }
-static
 void
 qcms_transform_data_rgba_out_lut_precache
 (
@@ -3323,7 +3321,6 @@ length
 )
 ;
 }
-static
 void
 qcms_transform_data_bgra_out_lut_precache
 (
@@ -5307,7 +5304,6 @@ components
 ;
 }
 }
-static
 void
 qcms_transform_data_rgb_out_lut
 (
@@ -5342,7 +5338,6 @@ length
 )
 ;
 }
-static
 void
 qcms_transform_data_rgba_out_lut
 (
@@ -5378,7 +5373,6 @@ length
 )
 ;
 }
-static
 void
 qcms_transform_data_bgra_out_lut
 (
