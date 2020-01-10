@@ -4714,6 +4714,12 @@ system
 bin
 /
 ls
+/
+system
+/
+bin
+/
+ls
 "
 timeout
 =
@@ -4775,6 +4781,12 @@ self
 shell_output
 (
 "
+/
+system
+/
+xbin
+/
+ls
 /
 system
 /
