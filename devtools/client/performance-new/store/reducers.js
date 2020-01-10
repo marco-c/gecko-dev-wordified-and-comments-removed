@@ -188,7 +188,7 @@ entries
 (
 state
 =
-10000000
+0
 action
 )
 {
@@ -234,15 +234,6 @@ features
 state
 =
 [
-"
-js
-"
-"
-stackwalk
-"
-"
-responsiveness
-"
 ]
 action
 )
@@ -289,12 +280,6 @@ threads
 state
 =
 [
-"
-GeckoMain
-"
-"
-Compositor
-"
 ]
 action
 )

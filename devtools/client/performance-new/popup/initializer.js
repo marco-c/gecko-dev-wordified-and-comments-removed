@@ -357,16 +357,6 @@ recordingSettingsFromPreferences
 :
 getRecordingPreferencesFromBrowser
 (
-selectors
-.
-getRecordingSettings
-(
-store
-.
-getState
-(
-)
-)
 )
 setRecordingPreferences
 :

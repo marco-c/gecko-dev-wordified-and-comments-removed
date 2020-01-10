@@ -139,6 +139,9 @@ getObjdirs
 (
 state
 )
+duration
+:
+0
 }
 ;
 }
