@@ -6286,6 +6286,11 @@ gcSweepingZone
 this
 nullptr
 )
+gcMarking
+(
+this
+false
+)
 isTouchingGrayThings
 (
 this
