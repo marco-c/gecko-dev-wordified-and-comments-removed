@@ -3810,6 +3810,13 @@ this
 props
 .
 autocomplete
+|
+|
+this
+.
+autocompletePopup
+.
+isOpen
 )
 {
 this
