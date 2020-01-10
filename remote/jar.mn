@@ -689,13 +689,13 @@ content
 /
 server
 /
-WebSocketHandshake
+WebSocket
 .
 jsm
 (
 server
 /
-WebSocketHandshake
+WebSocket
 .
 jsm
 )
