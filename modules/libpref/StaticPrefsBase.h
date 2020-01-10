@@ -236,7 +236,6 @@ enum
 class
 UpdatePolicy
 {
-Skip
 Once
 Live
 }
