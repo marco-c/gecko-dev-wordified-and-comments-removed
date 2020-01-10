@@ -480,3 +480,9 @@ clang
 mingw
 -
 x86
+fetches
+:
+fetch
+:
+-
+fxc2
