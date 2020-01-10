@@ -36,6 +36,9 @@ valid_names
 x
 "
 "
+X
+"
+"
 :
 "
 "
