@@ -2043,6 +2043,9 @@ me
 *
 *
 /
+[
+can_run_script
+]
 void
 align
 (
