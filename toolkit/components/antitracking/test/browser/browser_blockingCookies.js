@@ -1,6 +1,6 @@
 AntiTracking
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 Set
