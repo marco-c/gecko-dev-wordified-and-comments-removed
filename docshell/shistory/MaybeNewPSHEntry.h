@@ -87,6 +87,14 @@ PSHEntryChild
 >
 mEndpoint
 ;
+PSHistoryParent
+*
+mSHistoryParent
+;
+PSHistoryChild
+*
+mSHistoryChild
+;
 uint64_t
 mSharedID
 ;

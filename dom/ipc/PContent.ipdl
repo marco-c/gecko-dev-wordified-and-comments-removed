@@ -5003,6 +5003,7 @@ id
 sync
 PSHEntry
 (
+nullable
 PSHistory
 shistory
 PSHEntryOrSharedID

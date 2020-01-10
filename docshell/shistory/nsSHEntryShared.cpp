@@ -116,7 +116,7 @@ SHEntrySharedParentState
 :
 SHEntrySharedParentState
 (
-nsSHistory
+nsISHistory
 *
 aSHistory
 uint64_t
