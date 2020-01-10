@@ -8,9 +8,7 @@ use
 worker
 :
 :
-{
 WorkerId
-}
 ;
 use
 std
@@ -54,8 +52,8 @@ Ordering
 :
 {
 self
-Acquire
 AcqRel
+Acquire
 Relaxed
 }
 ;

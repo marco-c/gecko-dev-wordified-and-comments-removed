@@ -62,10 +62,6 @@ a
 OutputBuffer
 {
 slice
-:
-slice
-position
-:
 position
 }
 }

@@ -33,8 +33,8 @@ Ordering
 :
 :
 {
-Acquire
 AcqRel
+Acquire
 }
 ;
 #

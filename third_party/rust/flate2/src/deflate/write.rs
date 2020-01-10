@@ -3,18 +3,18 @@ std
 :
 :
 io
-:
-:
-prelude
-:
-:
-*
 ;
 use
 std
 :
 :
 io
+:
+:
+prelude
+:
+:
+*
 ;
 #
 [
@@ -207,9 +207,6 @@ Result
 W
 >
 {
-try
-!
-(
 self
 .
 inner
@@ -217,7 +214,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 self
 .
@@ -285,9 +282,6 @@ Result
 W
 >
 {
-try
-!
-(
 self
 .
 inner
@@ -295,7 +289,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 Ok
 (
@@ -325,9 +319,6 @@ Result
 W
 >
 {
-try
-!
-(
 self
 .
 inner
@@ -335,7 +326,7 @@ inner
 flush
 (
 )
-)
+?
 ;
 Ok
 (
@@ -506,9 +497,6 @@ io
 Error
 >
 {
-try_nb
-!
-(
 self
 .
 inner
@@ -516,7 +504,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 self
 .
@@ -750,9 +738,6 @@ Result
 W
 >
 {
-try
-!
-(
 self
 .
 inner
@@ -760,7 +745,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 self
 .
@@ -832,9 +817,6 @@ Result
 W
 >
 {
-try
-!
-(
 self
 .
 inner
@@ -842,7 +824,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 Ok
 (
@@ -1013,9 +995,6 @@ io
 Error
 >
 {
-try_nb
-!
-(
 self
 .
 inner
@@ -1023,7 +1002,7 @@ inner
 finish
 (
 )
-)
+?
 ;
 self
 .

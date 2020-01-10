@@ -24,6 +24,17 @@ cfg
 windows
 )
 ]
+extern
+crate
+winapi_util
+;
+#
+[
+cfg
+(
+windows
+)
+]
 pub
 use
 win

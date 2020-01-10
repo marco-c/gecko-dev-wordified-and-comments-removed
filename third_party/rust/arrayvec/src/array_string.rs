@@ -226,9 +226,10 @@ ArrayString
 {
 xs
 :
+mem
 :
 :
-new_array
+zeroed
 (
 )
 len

@@ -122,7 +122,7 @@ version
 .
 0
 .
-4
+5
 "
 authors
 =
@@ -165,8 +165,9 @@ data
 on
 Linux
 Windows
-and
 macOS
+and
+Redox
 by
 leveraging
 the
@@ -276,7 +277,7 @@ version
 "
 0
 .
-2
+3
 .
 0
 "

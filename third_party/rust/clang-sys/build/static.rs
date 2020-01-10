@@ -548,10 +548,6 @@ prefix
 if
 mode
 .
-ok
-(
-)
-.
 map_or
 (
 false
@@ -613,7 +609,7 @@ unwrap
 (
 )
 .
-trim_right
+trim_end
 (
 )
 )

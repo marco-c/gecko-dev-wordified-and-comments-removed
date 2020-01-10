@@ -584,6 +584,13 @@ Target
 Inst
 ]
 ;
+#
+[
+inline
+(
+always
+)
+]
 fn
 deref
 (

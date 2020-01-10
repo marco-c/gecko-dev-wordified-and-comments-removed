@@ -28,8 +28,8 @@ visitor
 :
 :
 {
-Visitor
 visit
+Visitor
 }
 ;
 pub
@@ -251,6 +251,7 @@ NestLimitExceeded
 u32
 )
 RepetitionCountInvalid
+RepetitionCountDecimalEmpty
 RepetitionCountUnclosed
 RepetitionMissing
 UnsupportedBackreference
@@ -667,7 +668,6 @@ self
 CaptureLimitExceeded
 =
 >
-{
 write
 !
 (
@@ -696,7 +696,6 @@ u32
 :
 MAX
 )
-}
 ClassEscapeInvalid
 =
 >
@@ -719,7 +718,6 @@ class
 ClassRangeInvalid
 =
 >
-{
 write
 !
 (
@@ -740,7 +738,6 @@ the
 end
 "
 )
-}
 ClassRangeLiteral
 =
 >
@@ -763,7 +760,6 @@ literal
 ClassUnclosed
 =
 >
-{
 write
 !
 (
@@ -774,11 +770,9 @@ character
 class
 "
 )
-}
 DecimalEmpty
 =
 >
-{
 write
 !
 (
@@ -789,11 +783,9 @@ literal
 empty
 "
 )
-}
 DecimalInvalid
 =
 >
-{
 write
 !
 (
@@ -804,11 +796,9 @@ literal
 invalid
 "
 )
-}
 EscapeHexEmpty
 =
 >
-{
 write
 !
 (
@@ -819,7 +809,6 @@ literal
 empty
 "
 )
-}
 EscapeHexInvalid
 =
 >
@@ -843,7 +832,6 @@ value
 EscapeHexInvalidDigit
 =
 >
-{
 write
 !
 (
@@ -854,11 +842,9 @@ hexadecimal
 digit
 "
 )
-}
 EscapeUnexpectedEof
 =
 >
-{
 write
 !
 (
@@ -875,11 +861,9 @@ pattern
 prematurely
 "
 )
-}
 EscapeUnrecognized
 =
 >
-{
 write
 !
 (
@@ -890,7 +874,6 @@ escape
 sequence
 "
 )
-}
 FlagDanglingNegation
 =
 >
@@ -914,7 +897,6 @@ FlagDuplicate
 }
 =
 >
-{
 write
 !
 (
@@ -924,7 +906,6 @@ duplicate
 flag
 "
 )
-}
 FlagRepeatedNegation
 {
 .
@@ -967,7 +948,6 @@ regex
 FlagUnrecognized
 =
 >
-{
 write
 !
 (
@@ -977,7 +957,6 @@ unrecognized
 flag
 "
 )
-}
 GroupNameDuplicate
 {
 .
@@ -1001,7 +980,6 @@ name
 GroupNameEmpty
 =
 >
-{
 write
 !
 (
@@ -1013,11 +991,9 @@ group
 name
 "
 )
-}
 GroupNameInvalid
 =
 >
-{
 write
 !
 (
@@ -1029,11 +1005,9 @@ group
 character
 "
 )
-}
 GroupNameUnexpectedEof
 =
 >
-{
 write
 !
 (
@@ -1045,11 +1019,9 @@ group
 name
 "
 )
-}
 GroupUnclosed
 =
 >
-{
 write
 !
 (
@@ -1059,11 +1031,9 @@ unclosed
 group
 "
 )
-}
 GroupUnopened
 =
 >
-{
 write
 !
 (
@@ -1073,14 +1043,12 @@ unopened
 group
 "
 )
-}
 NestLimitExceeded
 (
 limit
 )
 =
 >
-{
 write
 !
 (
@@ -1103,11 +1071,9 @@ brackets
 "
 limit
 )
-}
 RepetitionCountInvalid
 =
 >
-{
 write
 !
 (
@@ -1126,6 +1092,23 @@ be
 =
 the
 end
+"
+)
+RepetitionCountDecimalEmpty
+=
+>
+{
+write
+!
+(
+f
+"
+repetition
+quantifier
+expects
+a
+valid
+decimal
 "
 )
 }
@@ -1179,7 +1162,6 @@ supported
 UnsupportedLookAround
 =
 >
-{
 write
 !
 (
@@ -1202,7 +1184,6 @@ not
 supported
 "
 )
-}
 _
 =
 >
@@ -4817,7 +4798,6 @@ item
 )
 =
 >
-{
 match
 *
 item
@@ -4918,7 +4898,6 @@ is_empty
 {
 return
 ;
-}
 }
 }
 }
@@ -5045,7 +5024,6 @@ item
 )
 =
 >
-{
 match
 *
 item
@@ -5169,7 +5147,6 @@ Item
 )
 )
 ;
-}
 }
 }
 ClassSet

@@ -70,6 +70,17 @@ from_env
 env
 )
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+termcolor
+"
+)
+]
 builder
 .
 format

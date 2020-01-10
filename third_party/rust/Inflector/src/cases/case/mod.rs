@@ -607,7 +607,7 @@ str
 {
 convertable_string
 .
-trim_right_matches
+trim_end_matches
 (
 is_not_alphanumeric
 )

@@ -81,7 +81,7 @@ org
 /
 BurntSushi
 /
-ripgrep
+termcolor
 .
 png
 )
@@ -99,7 +99,7 @@ org
 /
 BurntSushi
 /
-ripgrep
+termcolor
 )
 [
 !
@@ -129,7 +129,7 @@ github
 /
 BurntSushi
 /
-ripgrep
+termcolor
 ?
 svg
 =
@@ -151,7 +151,7 @@ project
 /
 BurntSushi
 /
-ripgrep
+termcolor
 )
 [
 !
@@ -255,9 +255,7 @@ dependencies
 termcolor
 =
 "
-0
-.
-3
+1
 "
 and
 this

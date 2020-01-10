@@ -38,6 +38,9 @@ Scheduled
 Complete
 =
 4
+Aborted
+=
+5
 }
 impl
 State
@@ -113,7 +116,7 @@ usize
 src
 <
 =
-Complete
+Aborted
 as
 usize
 "

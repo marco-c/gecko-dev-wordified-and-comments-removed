@@ -22,9 +22,7 @@ use
 libc
 :
 :
-{
 c_char
-}
 ;
 fn
 parse

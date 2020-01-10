@@ -165,7 +165,7 @@ requires
 rustc
 1
 .
-26
+28
 .
 0
 or

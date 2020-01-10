@@ -120,7 +120,7 @@ version
 "
 0
 .
-2
+5
 .
 1
 "
@@ -203,5 +203,18 @@ Gilnaa
 memoffset
 "
 [
+build
+-
 dependencies
+.
+rustc_version
 ]
+version
+=
+"
+0
+.
+2
+.
+3
+"

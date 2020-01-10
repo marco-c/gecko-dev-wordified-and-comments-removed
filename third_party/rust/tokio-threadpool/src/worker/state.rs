@@ -581,13 +581,13 @@ use
 super
 :
 :
+Lifecycle
+:
+:
 *
 ;
 use
 super
-:
-:
-Lifecycle
 :
 :
 *

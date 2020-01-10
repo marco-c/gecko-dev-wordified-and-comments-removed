@@ -17,9 +17,7 @@ std
 path
 :
 :
-{
 Path
-}
 ;
 #
 [
@@ -100,9 +98,7 @@ std
 fs
 :
 :
-{
 File
-}
 ;
 use
 std
@@ -352,7 +348,7 @@ link
 }
 if
 let
-Ok
+Some
 (
 output
 )
@@ -382,7 +378,7 @@ new
 (
 output
 .
-trim_right
+trim_end
 (
 )
 )

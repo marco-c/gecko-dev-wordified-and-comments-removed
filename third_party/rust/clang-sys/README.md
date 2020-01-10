@@ -625,8 +625,7 @@ libclang
 .
 dylib
 on
-OS
-X
+macOS
 libclang
 .
 dll
@@ -1016,6 +1015,15 @@ a
 directory
 containing
 a
+libclang
+shared
+library
+or
+a
+path
+to
+a
+specific
 libclang
 shared
 library

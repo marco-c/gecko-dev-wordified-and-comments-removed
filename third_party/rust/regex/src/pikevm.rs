@@ -245,6 +245,9 @@ I
 start
 :
 usize
+end
+:
+usize
 )
 -
 >
@@ -352,6 +355,7 @@ matches
 slots
 quit_after_match
 at
+end
 )
 }
 fn
@@ -393,6 +397,9 @@ mut
 at
 :
 InputAt
+end
+:
+usize
 )
 -
 >
@@ -672,6 +679,16 @@ break
 }
 }
 if
+at
+.
+pos
+(
+)
+=
+=
+end
+|
+|
 at
 .
 is_end

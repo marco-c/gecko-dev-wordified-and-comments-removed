@@ -1043,7 +1043,6 @@ x
 )
 =
 >
-{
 Some
 (
 Frame
@@ -1073,7 +1072,6 @@ asts
 ]
 }
 )
-}
 _
 =
 >
@@ -1820,7 +1818,6 @@ op
 )
 =
 >
-{
 Some
 (
 ClassFrame
@@ -1845,7 +1842,6 @@ op
 rhs
 }
 )
-}
 _
 =
 >
@@ -2448,7 +2444,6 @@ it
 )
 =
 >
-{
 match
 *
 it
@@ -2598,7 +2593,6 @@ Union
 )
 "
 }
-}
 ClassInduct
 :
 :
@@ -2608,7 +2602,6 @@ it
 )
 =
 >
-{
 match
 it
 .
@@ -2664,7 +2657,6 @@ BinaryOp
 SymmetricDifference
 )
 "
-}
 }
 }
 }

@@ -67,9 +67,9 @@ default_format_level
 false
 )
 .
-default_format_timestamp
+default_format_timestamp_nanos
 (
-false
+true
 )
 ;
 builder

@@ -22,7 +22,7 @@ threadpool
 .
 1
 .
-10
+14
 "
 )
 ]
@@ -42,13 +42,11 @@ tokio_executor
 ;
 extern
 crate
-crossbeam_channel
+crossbeam_deque
 ;
 extern
 crate
-crossbeam_deque
-as
-deque
+crossbeam_queue
 ;
 extern
 crate
@@ -69,6 +67,10 @@ num_cpus
 extern
 crate
 rand
+;
+extern
+crate
+slab
 ;
 #
 [
@@ -152,8 +154,8 @@ thread_pool
 :
 :
 {
-ThreadPool
 SpawnHandle
+ThreadPool
 }
 ;
 pub
