@@ -667,11 +667,6 @@ AllLogins
 "
 AboutLogins
 :
-LocalizeBadges
-"
-"
-AboutLogins
-:
 LoginAdded
 "
 "
@@ -693,6 +688,11 @@ MasterPasswordResponse
 AboutLogins
 :
 SendFavicons
+"
+"
+AboutLogins
+:
+Setup
 "
 "
 AboutLogins
