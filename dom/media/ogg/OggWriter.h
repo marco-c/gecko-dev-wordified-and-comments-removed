@@ -89,8 +89,15 @@ override
 nsresult
 SetMetadata
 (
+const
+nsTArray
+<
+RefPtr
+<
 TrackMetadataBase
-*
+>
+>
+&
 aMetadata
 )
 override
