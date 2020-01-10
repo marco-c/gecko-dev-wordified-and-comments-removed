@@ -97,6 +97,15 @@ testing
 mozbase
 /
 moznetwork
+mozpower
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozpower
 mozprocess
 .
 pth

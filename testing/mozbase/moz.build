@@ -189,6 +189,15 @@ manifest
 ini
 '
 '
+mozpower
+/
+tests
+/
+manifest
+.
+ini
+'
+'
 mozprocess
 /
 tests
@@ -287,6 +296,9 @@ mozlog
 '
 '
 moznetwork
+'
+'
+mozpower
 '
 '
 mozprocess
