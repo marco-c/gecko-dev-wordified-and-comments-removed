@@ -135,6 +135,11 @@ introductionType
 string
 |
 null
+extensionName
+:
+string
+|
+null
 }
 ;
 export

@@ -1250,6 +1250,9 @@ undefined
 isExtension
 :
 false
+extensionName
+:
+null
 }
 )
 )
@@ -1464,6 +1467,11 @@ url
 isPrettyPrinted
 :
 false
+extensionName
+:
+source
+.
+extensionName
 sourceMapURL
 :
 source
@@ -1614,10 +1622,9 @@ values
 newSourcesObj
 )
 :
-Array
-<
 any
->
+[
+]
 )
 ;
 const

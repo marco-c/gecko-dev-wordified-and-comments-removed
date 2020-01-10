@@ -1021,6 +1021,11 @@ introductionType
 ?
 string
 +
+extensionName
+:
+?
+string
++
 isExtension
 :
 boolean

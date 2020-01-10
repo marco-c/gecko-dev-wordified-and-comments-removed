@@ -79,6 +79,9 @@ undefined
 isWasm
 :
 false
+extensionName
+:
+null
 isExtension
 :
 false
@@ -263,6 +266,9 @@ undefined
 isWasm
 :
 true
+extensionName
+:
+null
 isExtension
 :
 false
