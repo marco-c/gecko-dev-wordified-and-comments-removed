@@ -4017,15 +4017,6 @@ kidWM
 )
 )
 ;
-kidReflowInput
-.
-ApplyRelativePositioning
-(
-&
-kidPt
-containerSize
-)
-;
 ReflowChild
 (
 kidFrame
@@ -4055,7 +4046,7 @@ containerSize
 ReflowChildFlags
 :
 :
-Default
+ApplyRelativePositioning
 )
 ;
 if

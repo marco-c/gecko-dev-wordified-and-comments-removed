@@ -1358,7 +1358,7 @@ aContainerSize
 ReflowChildFlags
 :
 :
-Default
+ApplyRelativePositioning
 )
 ;
 nsTableFrame
@@ -2059,15 +2059,6 @@ ReflowChildFlags
 :
 Default
 aStatus
-)
-;
-kidReflowInput
-.
-ApplyRelativePositioning
-(
-&
-kidPosition
-containerSize
 )
 ;
 PlaceChild

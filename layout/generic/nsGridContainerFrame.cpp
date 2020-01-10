@@ -34774,15 +34774,6 @@ childPos
 )
 ;
 }
-childRI
-.
-ApplyRelativePositioning
-(
-&
-childPos
-aContainerSize
-)
-;
 FinishReflowChild
 (
 aChild
@@ -34796,7 +34787,7 @@ aContainerSize
 ReflowChildFlags
 :
 :
-Default
+ApplyRelativePositioning
 )
 ;
 ConsiderChildOverflow
