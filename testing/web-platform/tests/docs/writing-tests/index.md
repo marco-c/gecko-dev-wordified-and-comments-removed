@@ -86,6 +86,9 @@ lint
 -
 tool
 manual
+reftest
+-
+tutorial
 reftests
 rendering
 server
