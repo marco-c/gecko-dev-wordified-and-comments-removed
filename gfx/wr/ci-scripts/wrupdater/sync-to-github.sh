@@ -781,9 +781,7 @@ grep
 "
 \
 [
-import
--
-pr
+import_pr
 \
 ]
 From
