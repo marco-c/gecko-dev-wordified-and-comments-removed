@@ -4700,10 +4700,10 @@ code
 false
 )
 ;
-ExecutableAllocator
+jit
 :
 :
-cacheFlush
+FlushICache
 (
 code
 roundedCodeLength

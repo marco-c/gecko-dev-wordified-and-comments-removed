@@ -136,6 +136,15 @@ h
 #
 include
 "
+jit
+/
+Simulator
+.
+h
+"
+#
+include
+"
 js
 /
 Conversions
