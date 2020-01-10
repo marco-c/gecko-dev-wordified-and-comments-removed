@@ -15,10 +15,12 @@ utf
 title
 >
 Layout
-Jank
+Instability
 :
 query
-jank
+layout
+shift
+value
 via
 the
 performance
@@ -170,7 +172,7 @@ performance
 getEntriesByType
 (
 '
-layoutJank
+layoutShift
 '
 )
 .
@@ -208,7 +210,7 @@ performance
 getEntriesByType
 (
 '
-layoutJank
+layoutShift
 '
 )
 .
@@ -236,7 +238,7 @@ entryType
 =
 =
 '
-layoutJank
+layoutShift
 '
 )
 .
@@ -252,7 +254,7 @@ performance
 getEntriesByType
 (
 '
-layoutJank
+layoutShift
 '
 )
 [
@@ -265,7 +267,7 @@ entry
 .
 entryType
 "
-layoutJank
+layoutShift
 "
 )
 ;
@@ -306,8 +308,8 @@ duration
 /
 The
 layout
-jank
-fraction
+shift
+value
 should
 be
 :
@@ -326,7 +328,7 @@ assert_equals
 (
 entry
 .
-fraction
+value
 300
 *
 (
@@ -366,7 +368,8 @@ testBufferedEntry
 ;
 }
 '
-LayoutJank
+Layout
+shift
 before
 onload
 is

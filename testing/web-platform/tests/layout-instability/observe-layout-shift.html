@@ -15,11 +15,12 @@ utf
 title
 >
 Layout
-Jank
+Instability
 :
 observe
-jank
-fraction
+layout
+shift
+value
 via
 PerformanceObserver
 <
@@ -171,7 +172,7 @@ entry
 .
 entryType
 "
-layoutJank
+layoutShift
 "
 )
 ;
@@ -212,8 +213,8 @@ duration
 /
 The
 layout
-jank
-fraction
+shift
+value
 should
 be
 :
@@ -232,7 +233,7 @@ assert_equals
 (
 entry
 .
-fraction
+value
 300
 *
 (
@@ -269,7 +270,7 @@ entryTypes
 :
 [
 '
-layoutJank
+layoutShift
 '
 ]
 }
@@ -314,7 +315,8 @@ top
 ;
 }
 '
-LayoutJank
+Layout
+shift
 is
 observable
 via
