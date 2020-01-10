@@ -76,6 +76,9 @@ namespace
 mozilla
 {
 class
+AutoTextControlHandlingState
+;
+class
 TextEditor
 ;
 class
@@ -850,6 +853,13 @@ EditorInitializer
 friend
 class
 EditorInitializer
+;
+friend
+class
+mozilla
+:
+:
+AutoTextControlHandlingState
 ;
 friend
 class

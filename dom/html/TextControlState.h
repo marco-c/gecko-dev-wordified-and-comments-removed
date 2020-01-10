@@ -336,6 +336,13 @@ InitializeKeyboardEventListeners
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+OnEditActionHandled
+(
+)
+;
 enum
 SetValueFlags
 {
@@ -1166,7 +1173,7 @@ EditorHasComposition
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-void
+bool
 SetValueWithTextEditor
 (
 AutoTextControlHandlingState
