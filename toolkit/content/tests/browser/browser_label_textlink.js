@@ -110,7 +110,7 @@ me
 ;
 doc
 .
-documentElement
+body
 .
 append
 (
