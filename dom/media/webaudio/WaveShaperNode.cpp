@@ -1169,9 +1169,7 @@ channelCount
 aStream
 -
 >
-SampleRate
-(
-)
+mSampleRate
 OverSampleType
 :
 :
@@ -1203,9 +1201,7 @@ channelCount
 aStream
 -
 >
-SampleRate
-(
-)
+mSampleRate
 OverSampleType
 :
 :
@@ -1257,9 +1253,7 @@ channelCount
 aStream
 -
 >
-SampleRate
-(
-)
+mSampleRate
 OverSampleType
 :
 :

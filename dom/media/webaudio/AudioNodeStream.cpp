@@ -981,9 +981,7 @@ mSampleRate
 aStream
 -
 >
-SampleRate
-(
-)
+mSampleRate
 )
 mIndex
 (

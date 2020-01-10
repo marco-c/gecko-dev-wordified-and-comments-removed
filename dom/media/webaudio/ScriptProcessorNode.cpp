@@ -884,9 +884,7 @@ SharedBuffers
 mDestination
 -
 >
-SampleRate
-(
-)
+mSampleRate
 )
 )
 mBufferSize
