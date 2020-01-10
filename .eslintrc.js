@@ -225,6 +225,9 @@ plugins
 :
 [
 "
+html
+"
+"
 mozilla
 "
 ]
