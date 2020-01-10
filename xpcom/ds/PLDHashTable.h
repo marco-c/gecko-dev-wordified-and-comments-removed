@@ -194,7 +194,7 @@ kIdle
 )
 mIsWritable
 (
-1
+true
 )
 {
 }
@@ -220,7 +220,7 @@ mState
 ;
 mIsWritable
 =
-uint32_t
+bool
 (
 aOther
 .
@@ -324,8 +324,6 @@ IsWritable
 const
 {
 return
-!
-!
 mIsWritable
 ;
 }
@@ -336,7 +334,7 @@ SetNonWritable
 {
 mIsWritable
 =
-0
+false
 ;
 }
 void
@@ -596,7 +594,6 @@ kWrite
 =
 10000
 ;
-mutable
 mozilla
 :
 :
@@ -620,13 +617,12 @@ DontPreserve
 >
 mState
 ;
-mutable
 mozilla
 :
 :
 Atomic
 <
-uint32_t
+bool
 mozilla
 :
 :
