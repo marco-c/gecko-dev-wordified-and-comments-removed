@@ -1009,7 +1009,6 @@ return
 new
 Promise
 (
-async
 function
 (
 resolve
