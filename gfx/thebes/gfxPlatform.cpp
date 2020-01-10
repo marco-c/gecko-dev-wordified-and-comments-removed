@@ -4966,13 +4966,6 @@ path
 )
 ;
 }
-gfxUtils
-:
-:
-RemoveShaderCacheFromDiskIfNecessary
-(
-)
-;
 nsAutoCString
 path
 ;
@@ -14764,6 +14757,13 @@ true
 }
 #
 endif
+gfxUtils
+:
+:
+RemoveShaderCacheFromDiskIfNecessary
+(
+)
+;
 }
 void
 gfxPlatform
