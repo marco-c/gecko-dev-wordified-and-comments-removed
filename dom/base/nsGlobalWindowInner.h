@@ -5765,13 +5765,10 @@ IsInSyncOperation
 ;
 }
 bool
-CanShareMemory
+IsCrossOriginIsolated
 (
-const
-nsID
-&
-aAgentClusterId
 )
+const
 ;
 protected
 :
