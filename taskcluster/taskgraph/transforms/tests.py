@@ -1309,6 +1309,22 @@ autostart
 true
 "
 '
+                                  
+'
+-
+-
+setpref
+=
+"
+dom
+.
+serviceWorkers
+.
+parent_intercept
+=
+true
+"
+'
 ]
             
 }
