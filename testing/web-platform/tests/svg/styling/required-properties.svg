@@ -878,14 +878,11 @@ function
 {
 assert_true
 (
+property
+in
 target
 .
 style
-.
-hasOwnProperty
-(
-property
-)
 )
 ;
 }
