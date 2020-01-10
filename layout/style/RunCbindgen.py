@@ -180,6 +180,14 @@ _get_crate_name
 (
 cbindgen_crate_path
 )
+        
+"
+-
+-
+cpp
+-
+compat
+"
     
 ]
 env
