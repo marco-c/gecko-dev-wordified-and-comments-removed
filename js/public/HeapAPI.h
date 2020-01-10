@@ -1781,12 +1781,6 @@ OutOfLineTraceKindMask
 )
 ;
 }
-bool
-mayBeOwnedByOtherRuntimeSlow
-(
-)
-const
-;
 JS
 :
 :
