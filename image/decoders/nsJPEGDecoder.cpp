@@ -1325,7 +1325,7 @@ Debug
 }
 (
 unknown
-colorpsace
+colorspace
 (
 3
 )

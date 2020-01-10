@@ -1111,7 +1111,7 @@ we
 decode
 *
 synchronously
-beause
+because
 of
 FLAG_SYNC_DECODE
 or
