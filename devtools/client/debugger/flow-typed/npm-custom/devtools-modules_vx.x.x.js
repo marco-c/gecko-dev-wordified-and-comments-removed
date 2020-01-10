@@ -3,9 +3,7 @@ module
 "
 devtools
 -
-shared
--
-utils
+modules
 "
 {
 declare
