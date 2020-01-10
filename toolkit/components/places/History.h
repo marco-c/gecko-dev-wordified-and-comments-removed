@@ -144,6 +144,9 @@ VisitData
 class
 ConcurrentStatementsHolder
 ;
+class
+VisitedQuery
+;
 #
 define
 RECENTLY_VISITED_URIS_SIZE
@@ -219,11 +222,12 @@ History
 )
 ;
 nsresult
-GetIsVisitedStatement
+QueueVisitedStatement
 (
-mozIStorageCompletionCallback
-*
-aCallback
+RefPtr
+<
+VisitedQuery
+>
 )
 ;
 nsresult
