@@ -196,6 +196,24 @@ startswith
 android
 '
 )
+and
+        
+not
+task
+.
+attributes
+.
+get
+(
+'
+disable
+-
+push
+-
+apk
+'
+False
+)
     
 )
     

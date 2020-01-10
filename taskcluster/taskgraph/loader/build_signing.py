@@ -291,5 +291,24 @@ in
 NON_NIGHTLY_LABELS_WHICH_SHOULD_SIGN_BUILDS
 :
             
+if
+not
+dependent_task
+.
+attributes
+.
+get
+(
+'
+disable
+-
+build
+-
+signing
+'
+False
+)
+:
+                
 yield
 job
