@@ -629,6 +629,11 @@ align
 "
 center
 "
+wrap
+=
+"
+true
+"
 >
 <
 image
@@ -883,6 +888,11 @@ align
 "
 center
 "
+wrap
+=
+"
+true
+"
 >
 <
 image
@@ -1021,6 +1031,11 @@ align
 "
 center
 "
+wrap
+=
+"
+true
+"
 >
 <
 image
@@ -1145,6 +1160,11 @@ align
 =
 "
 center
+"
+wrap
+=
+"
+true
 "
 >
 <
