@@ -1330,15 +1330,12 @@ simulateScreenOrientationChange
 (
 type
 angle
-isViewportRotated
-=
-false
+deviceChange
 )
 {
 if
 (
-!
-isViewportRotated
+deviceChange
 )
 {
 this
