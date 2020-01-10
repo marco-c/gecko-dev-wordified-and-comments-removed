@@ -3674,7 +3674,7 @@ mOffThreadCompileStringLength
 mOffThreadCompileStringBuf
 )
 "
-XULDocument
+PrototypeDocument
 can
 '
 t
