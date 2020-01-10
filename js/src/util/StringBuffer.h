@@ -613,7 +613,7 @@ template
 typename
 CharT
 >
-JSFlatString
+JSLinearString
 *
 finishStringInternal
 (
@@ -1798,7 +1798,7 @@ StringBufferArena
 )
 {
 }
-JSFlatString
+JSLinearString
 *
 finishString
 (

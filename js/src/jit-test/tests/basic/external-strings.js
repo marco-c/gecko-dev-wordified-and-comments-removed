@@ -128,7 +128,7 @@ abc
 ;
 assertEq
 (
-ensureFlatString
+ensureLinearString
 (
 ext
 )
@@ -143,7 +143,7 @@ abc
 ;
 assertEq
 (
-ensureFlatString
+ensureLinearString
 (
 ext
 )
@@ -167,7 +167,7 @@ representativeStringArray
 )
 assertEq
 (
-ensureFlatString
+ensureLinearString
 (
 s
 )
@@ -372,7 +372,7 @@ i
 )
 assertEq
 (
-ensureFlatString
+ensureLinearString
 (
 newMaybeExternalString
 (

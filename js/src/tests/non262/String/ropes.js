@@ -37,7 +37,7 @@ newRope
 if
 (
 typeof
-ensureFlatString
+ensureLinearString
 =
 =
 =
@@ -47,7 +47,7 @@ undefined
 )
 {
 var
-ensureFlatString
+ensureLinearString
 =
 SpecialPowers
 .
@@ -57,7 +57,7 @@ getJSTestingFunctions
 (
 )
 .
-ensureFlatString
+ensureLinearString
 ;
 }
 function
@@ -306,7 +306,7 @@ entries
 ropes
 )
 )
-ensureFlatString
+ensureLinearString
 (
 rope
 )

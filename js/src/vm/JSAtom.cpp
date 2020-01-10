@@ -5050,9 +5050,9 @@ CharT
 >
 static
 MOZ_ALWAYS_INLINE
-JSFlatString
+JSLinearString
 *
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 (
 JSContext
 *
@@ -5079,9 +5079,9 @@ length
 }
 static
 MOZ_ALWAYS_INLINE
-JSFlatString
+JSLinearString
 *
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 (
 JSContext
 *
@@ -5110,7 +5110,7 @@ WrapperT
 >
 static
 MOZ_ALWAYS_INLINE
-JSFlatString
+JSLinearString
 *
 MakeUTF8AtomHelper
 (
@@ -5242,7 +5242,7 @@ encoding
 )
 ;
 return
-JSFlatString
+JSLinearString
 :
 :
 new_
@@ -5268,9 +5268,9 @@ typename
 InputCharsT
 >
 MOZ_ALWAYS_INLINE
-JSFlatString
+JSLinearString
 *
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 (
 JSContext
 *
@@ -5389,11 +5389,11 @@ ac
 cx
 )
 ;
-JSFlatString
+JSLinearString
 *
-flat
+linear
 =
-MakeFlatStringForAtomization
+MakeLinearStringForAtomization
 (
 cx
 chars
@@ -5403,7 +5403,7 @@ length
 if
 (
 !
-flat
+linear
 )
 {
 ReportOutOfMemory
@@ -5419,7 +5419,7 @@ JSAtom
 *
 atom
 =
-flat
+linear
 -
 >
 morphAtomizedStringIntoAtom

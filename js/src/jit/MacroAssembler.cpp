@@ -7567,7 +7567,7 @@ Imm32
 JSString
 :
 :
-HAS_BASE_BIT
+DEPENDENT_BIT
 )
 dest
 str

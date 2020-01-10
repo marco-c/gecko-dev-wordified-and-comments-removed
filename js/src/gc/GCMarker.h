@@ -1981,13 +1981,6 @@ JSString
 bool
 ThingIsPermanentAtomOrWellKnownSymbol
 (
-JSFlatString
-*
-)
-;
-bool
-ThingIsPermanentAtomOrWellKnownSymbol
-(
 JSLinearString
 *
 )

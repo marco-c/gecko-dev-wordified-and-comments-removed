@@ -18753,8 +18753,6 @@ length
 )
 *
 2
-+
-1
 |
 does
 not
@@ -18780,8 +18778,6 @@ length
 )
 *
 2
-+
-1
 js
 :
 :
@@ -18861,13 +18857,6 @@ length
 )
 ;
 }
-elements
-[
-length
-]
-=
-0
-;
 JSString
 *
 str
