@@ -300,9 +300,6 @@ mFTLoadFlags
 bool
 mEmbolden
 ;
-gfxFloat
-mFTSize
-;
 nsTArray
 <
 FT_Fixed
