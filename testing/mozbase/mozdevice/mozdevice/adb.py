@@ -6670,6 +6670,52 @@ appname
 return
 pids
     
+def
+_sync
+(
+self
+timeout
+=
+None
+)
+:
+        
+"
+"
+"
+Sync
+the
+file
+system
+using
+shell_output
+in
+order
+that
+exceptions
+        
+are
+raised
+to
+the
+caller
+.
+"
+"
+"
+        
+self
+.
+shell_output
+(
+"
+sync
+"
+timeout
+=
+timeout
+)
+    
 staticmethod
     
 def
@@ -16486,6 +16532,15 @@ retry
 return
 False
         
+self
+.
+_sync
+(
+timeout
+=
+timeout
+)
+        
 path
 =
 posixpath
@@ -16545,6 +16600,15 @@ self
 _mkdir_p
 =
 True
+                    
+self
+.
+_sync
+(
+timeout
+=
+timeout
+)
                     
 return
             
@@ -16644,6 +16708,15 @@ root
 =
 root
 )
+                            
+self
+.
+_sync
+(
+timeout
+=
+timeout
+)
         
 if
 not
@@ -16678,6 +16751,15 @@ timeout
 root
 =
 root
+)
+            
+self
+.
+_sync
+(
+timeout
+=
+timeout
 )
         
 if
@@ -16838,6 +16920,15 @@ ADBError
 "
 "
 "
+        
+self
+.
+_sync
+(
+timeout
+=
+timeout
+)
         
 local
 =
@@ -17001,6 +17092,15 @@ raise
 finally
 :
             
+self
+.
+_sync
+(
+timeout
+=
+timeout
+)
+            
 if
 copy_required
 :
@@ -17148,6 +17248,15 @@ ADBError
 "
 "
 "
+        
+self
+.
+_sync
+(
+timeout
+=
+timeout
+)
         
 local
 =
@@ -17487,6 +17596,15 @@ ADBError
 "
 "
         
+self
+.
+_sync
+(
+timeout
+=
+timeout
+)
+        
 with
 tempfile
 .
@@ -17789,6 +17907,15 @@ ADBError
 "
 "
         
+self
+.
+_sync
+(
+timeout
+=
+timeout
+)
+        
 cmd
 =
 "
@@ -17831,6 +17958,15 @@ timeout
 root
 =
 root
+)
+            
+self
+.
+_sync
+(
+timeout
+=
+timeout
 )
             
 if
@@ -18049,6 +18185,15 @@ timeout
 root
 =
 root
+)
+        
+self
+.
+_sync
+(
+timeout
+=
+timeout
 )
         
 if
@@ -19837,6 +19982,15 @@ root
 root
 )
             
+self
+.
+_sync
+(
+timeout
+=
+timeout
+)
+            
 return
         
 if
@@ -19954,6 +20108,15 @@ timeout
 root
 =
 root
+)
+            
+self
+.
+_sync
+(
+timeout
+=
+timeout
 )
             
 return
