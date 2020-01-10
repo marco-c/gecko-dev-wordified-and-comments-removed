@@ -214,6 +214,10 @@ actors
 network
 -
 monitor
+/
+network
+-
+monitor
 "
 true
 )
@@ -2232,6 +2236,10 @@ devtools
 server
 /
 actors
+/
+network
+-
+monitor
 /
 network
 -
