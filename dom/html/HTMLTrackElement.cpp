@@ -32,14 +32,6 @@ HTMLMediaElement
 h
 "
 #
-ifdef
-XP_WIN
-#
-undef
-ERROR
-#
-endif
-#
 include
 "
 WebVTTListener

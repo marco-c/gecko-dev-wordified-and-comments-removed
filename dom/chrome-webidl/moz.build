@@ -276,6 +276,16 @@ ChannelWrapper
 webidl
 '
 '
+DebuggerNotification
+.
+webidl
+'
+'
+DebuggerNotificationObserver
+.
+webidl
+'
+'
 DocumentL10n
 .
 webidl
