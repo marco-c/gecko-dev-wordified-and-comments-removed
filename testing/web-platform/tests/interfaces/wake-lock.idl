@@ -127,10 +127,7 @@ dictionary
 WakeLockRequestOptions
 {
 AbortSignal
-?
 signal
-=
-null
 ;
 }
 ;
