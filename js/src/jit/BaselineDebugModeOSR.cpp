@@ -2012,15 +2012,14 @@ cx
 script
 -
 >
-setBaselineScript
+clearBaselineScript
 (
 cx
 -
 >
-runtime
+defaultFreeOp
 (
 )
-nullptr
 )
 ;
 MethodStatus
