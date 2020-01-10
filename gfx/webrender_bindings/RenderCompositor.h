@@ -54,6 +54,9 @@ namespace
 layers
 {
 class
+NativeLayer
+;
+class
 SyncObjectHost
 ;
 }
@@ -115,6 +118,12 @@ virtual
 bool
 BeginFrame
 (
+layers
+:
+:
+NativeLayer
+*
+aNativeLayer
 )
 =
 0
