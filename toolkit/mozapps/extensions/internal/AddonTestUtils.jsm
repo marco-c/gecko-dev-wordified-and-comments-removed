@@ -5263,7 +5263,13 @@ zipW
 addEntryStream
 (
 path
-0
+Math
+.
+pow
+(
+2
+49
+)
 Ci
 .
 nsIZipWriter

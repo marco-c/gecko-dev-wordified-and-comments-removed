@@ -18,6 +18,11 @@ PR_TRUNCATE
 =
 0x20
 ;
+const
+PR_USEC_PER_MSEC
+=
+1000
+;
 do_get_profile
 (
 )
@@ -378,6 +383,8 @@ new
 Date
 (
 )
+*
+PR_USEC_PER_MSEC
 Ci
 .
 nsIZipWriter
