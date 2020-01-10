@@ -332,15 +332,6 @@ aAnimation
 )
 ;
 static
-void
-LastRelease
-(
-nsINode
-*
-aNode
-)
-;
-static
 already_AddRefed
 <
 nsINode

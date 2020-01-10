@@ -928,12 +928,8 @@ nsIContent
 NS_IMPL_MAIN_THREAD_ONLY_CYCLE_COLLECTING_RELEASE_WITH_LAST_RELEASE
 (
 nsIContent
-nsNodeUtils
-:
-:
 LastRelease
 (
-this
 )
 )
 nsIContent

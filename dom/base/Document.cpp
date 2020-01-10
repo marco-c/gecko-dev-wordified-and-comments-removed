@@ -10218,12 +10218,8 @@ incr
 base
 )
 ;
-nsNodeUtils
-:
-:
 LastRelease
 (
-this
 )
 ;
 mRefCnt

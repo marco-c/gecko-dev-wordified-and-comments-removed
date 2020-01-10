@@ -1855,6 +1855,11 @@ GetUncomposedDocOrConnectedShadowRoot
 )
 const
 ;
+void
+LastRelease
+(
+)
+;
 uint16_t
 NodeType
 (
