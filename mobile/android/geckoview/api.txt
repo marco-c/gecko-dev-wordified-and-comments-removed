@@ -4121,6 +4121,17 @@ UiThread
 default
 public
 void
+onKill
+(
+NonNull
+GeckoSession
+)
+;
+method
+UiThread
+default
+public
+void
 onTitleChange
 (
 NonNull
