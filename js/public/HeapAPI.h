@@ -1021,6 +1021,16 @@ public
 :
 GCCellPtr
 (
+)
+:
+GCCellPtr
+(
+nullptr
+)
+{
+}
+GCCellPtr
+(
 void
 *
 gcthing
