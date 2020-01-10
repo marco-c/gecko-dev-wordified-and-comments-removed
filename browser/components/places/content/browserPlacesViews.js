@@ -3084,7 +3084,7 @@ aPopup
 setAttribute
 (
 "
-singleitempopup
+nofooterpopup
 "
 "
 true
@@ -3099,7 +3099,7 @@ aPopup
 removeAttribute
 (
 "
-singleitempopup
+nofooterpopup
 "
 )
 ;
