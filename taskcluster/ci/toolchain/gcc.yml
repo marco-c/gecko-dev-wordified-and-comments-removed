@@ -139,8 +139,6 @@ build
 -
 gcc
 -
-6
--
 linux
 .
 sh
@@ -231,8 +229,6 @@ build
 -
 gcc
 -
-7
--
 linux
 .
 sh
@@ -318,8 +314,6 @@ build
 -
 gcc
 -
-8
--
 linux
 .
 sh
@@ -404,8 +398,6 @@ script
 build
 -
 gcc
--
-9
 -
 linux
 .

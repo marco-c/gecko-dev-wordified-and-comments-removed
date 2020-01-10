@@ -14,7 +14,6 @@ is
 for
 building
 GCC
-6
 for
 Linux
 .
