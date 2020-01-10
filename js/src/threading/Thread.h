@@ -55,7 +55,9 @@ utility
 #
 include
 "
-jsutil
+js
+/
+Initialization
 .
 h
 "
@@ -64,7 +66,7 @@ include
 "
 js
 /
-Initialization
+Utility
 .
 h
 "

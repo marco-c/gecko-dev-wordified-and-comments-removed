@@ -16,13 +16,6 @@ h
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 util
 /
 Poison

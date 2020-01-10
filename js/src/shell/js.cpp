@@ -352,13 +352,6 @@ jstypes
 h
 "
 #
-include
-"
-jsutil
-.
-h
-"
-#
 ifndef
 JS_WITHOUT_NSPR
 #

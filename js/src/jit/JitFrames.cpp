@@ -26,13 +26,6 @@ algorithm
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 gc
 /
 Marking

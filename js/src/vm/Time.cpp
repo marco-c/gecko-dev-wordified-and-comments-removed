@@ -61,13 +61,6 @@ jstypes
 h
 "
 #
-include
-"
-jsutil
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

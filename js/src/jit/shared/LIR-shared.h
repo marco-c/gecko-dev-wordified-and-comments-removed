@@ -7,13 +7,6 @@ jit_shared_LIR_shared_h
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 jit
 /
 AtomicOp

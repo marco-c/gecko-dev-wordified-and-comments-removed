@@ -7,7 +7,9 @@ jit_InlineList_h
 #
 include
 "
-jsutil
+mozilla
+/
+Assertions
 .
 h
 "

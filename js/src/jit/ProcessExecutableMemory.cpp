@@ -85,13 +85,6 @@ h
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 gc
 /
 Memory
