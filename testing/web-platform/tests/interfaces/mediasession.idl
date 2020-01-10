@@ -162,8 +162,10 @@ setPositionState
 (
 optional
 MediaPositionState
-?
 state
+=
+{
+}
 )
 ;
 }
