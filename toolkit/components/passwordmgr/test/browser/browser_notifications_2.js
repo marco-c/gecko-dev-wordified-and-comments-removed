@@ -258,6 +258,7 @@ passwordTextbox
 .
 type
 "
+text
 "
 "
 Password
