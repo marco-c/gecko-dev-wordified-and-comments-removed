@@ -6540,6 +6540,7 @@ nursery
 .
 init
 (
+maxNurseryBytes
 lock
 )
 )
