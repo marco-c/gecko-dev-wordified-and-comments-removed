@@ -1001,6 +1001,8 @@ isChromeHandler
 handler
 )
 {
+try
+{
 const
 handlerPrincipal
 =
@@ -1023,6 +1025,16 @@ handlerPrincipal
 isExpandedPrincipal
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+false
+;
+}
 }
 }
 class
