@@ -395,7 +395,7 @@ IMAGE_WEBP
 StaticPrefs
 :
 :
-ImageWebPEnabled
+image_webp_enabled
 (
 )
 )

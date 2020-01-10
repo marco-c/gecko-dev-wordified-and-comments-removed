@@ -151,7 +151,7 @@ isDiscardable
 StaticPrefs
 :
 :
-ImageMemDiscardable
+image_mem_discardable
 (
 )
 ;
@@ -161,7 +161,7 @@ doDecodeImmediately
 StaticPrefs
 :
 :
-ImageDecodeImmediatelyEnabled
+image_decode_immediately_enabled
 (
 )
 ;

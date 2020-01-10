@@ -406,7 +406,7 @@ aIsAnimated
 StaticPrefs
 :
 :
-ImageMemAnimatedUseHeap
+image_mem_animated_use_heap
 (
 )
 )
@@ -435,7 +435,7 @@ bufferSize
 StaticPrefs
 :
 :
-ImageMemVolatileMinThresholdKB
+image_mem_volatile_min_threshold_kb
 (
 )
 )
@@ -489,7 +489,7 @@ GetUseWebRenderOrDefault
 StaticPrefs
 :
 :
-ImageMemShared
+image_mem_shared
 (
 )
 )

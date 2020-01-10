@@ -2558,7 +2558,7 @@ if
 StaticPrefs
 :
 :
-ImageAnimatedDecodeOnDemandRecycle
+image_animated_decode_on_demand_recycle
 (
 )
 )
@@ -2636,7 +2636,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-ImageAnimatedDecodeOnDemandRecycle
+image_animated_decode_on_demand_recycle
 (
 )
 )
@@ -3120,7 +3120,7 @@ if
 StaticPrefs
 :
 :
-ImageAnimatedDecodeOnDemandRecycle
+image_animated_decode_on_demand_recycle
 (
 )
 )

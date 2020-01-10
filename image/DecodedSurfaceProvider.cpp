@@ -832,7 +832,7 @@ ShouldSyncDecode
 StaticPrefs
 :
 :
-ImageMemDecodeBytesAtATime
+image_mem_decode_bytes_at_a_time
 (
 )
 )

@@ -469,7 +469,7 @@ manager
 StaticPrefs
 :
 :
-ImageMemDebugReporting
+image_mem_debug_reporting
 (
 )
 )
@@ -1553,7 +1553,7 @@ IsNotable
 StaticPrefs
 :
 :
-ImageMemDebugReporting
+image_mem_debug_reporting
 (
 )
 )
@@ -2106,7 +2106,7 @@ if
 StaticPrefs
 :
 :
-ImageMemDebugReporting
+image_mem_debug_reporting
 (
 )
 )
@@ -6356,7 +6356,7 @@ sCacheTimeWeight
 StaticPrefs
 :
 :
-ImageCacheTimeWeight
+image_cache_timeweight
 (
 )
 /
@@ -6370,7 +6370,7 @@ cachesize
 StaticPrefs
 :
 :
-ImageCacheSize
+image_cache_size
 (
 )
 ;

@@ -7319,7 +7319,7 @@ threshold
 -
 kb
 "
-ImageAnimatedDecodeOnDemandThresholdKB
+image_animated_decode_on_demand_threshold_kb
 RelaxedAtomicUint32
 20480
 )
@@ -7341,7 +7341,7 @@ batch
 -
 size
 "
-ImageAnimatedDecodeOnDemandBatchSize
+image_animated_decode_on_demand_batch_size
 RelaxedAtomicUint32
 6
 )
@@ -7361,7 +7361,7 @@ demand
 .
 recycle
 "
-ImageAnimatedDecodeOnDemandRecycle
+image_animated_decode_on_demand_recycle
 bool
 true
 )
@@ -7381,7 +7381,7 @@ last
 -
 displayed
 "
-ImageAnimatedResumeFromLastDisplayed
+image_animated_resume_from_last_displayed
 RelaxedAtomicBool
 false
 )
@@ -7399,7 +7399,7 @@ threshold
 -
 surfaces
 "
-ImageCacheFactor2ThresholdSurfaces
+image_cache_factor2_threshold_surfaces
 RelaxedAtomicInt32
 -
 1
@@ -7422,7 +7422,7 @@ threshold
 -
 kb
 "
-ImageCacheMaxRasterizedSVGThresholdKB
+image_cache_max_rasterized_svg_threshold_kb
 RelaxedAtomicInt32
 90
 *
@@ -7438,7 +7438,7 @@ cache
 .
 size
 "
-ImageCacheSize
+image_cache_size
 int32_t
 5
 *
@@ -7456,7 +7456,7 @@ cache
 .
 timeweight
 "
-ImageCacheTimeWeight
+image_cache_timeweight
 int32_t
 500
 )
@@ -7472,7 +7472,7 @@ immediately
 .
 enabled
 "
-ImageDecodeImmediatelyEnabled
+image_decode_immediately_enabled
 RelaxedAtomicBool
 false
 )
@@ -7490,7 +7490,7 @@ decode
 .
 enabled
 "
-ImageDownscaleDuringDecodeEnabled
+image_downscale_during_decode_enabled
 RelaxedAtomicBool
 true
 )
@@ -7510,7 +7510,7 @@ threshold
 -
 ms
 "
-ImageInferSrcAnimationThresholdMS
+image_infer_src_animation_threshold_ms
 RelaxedAtomicUint32
 2000
 )
@@ -7522,7 +7522,7 @@ image
 .
 layout_network_priority
 "
-ImageLayoutNetworkPriority
+image_layout_network_priority
 RelaxedAtomicBool
 true
 )
@@ -7536,7 +7536,7 @@ mem
 .
 decode_bytes_at_a_time
 "
-ImageMemDecodeBytesAtATime
+image_mem_decode_bytes_at_a_time
 uint32_t
 16384
 )
@@ -7550,7 +7550,7 @@ mem
 .
 discardable
 "
-ImageMemDiscardable
+image_mem_discardable
 RelaxedAtomicBool
 false
 )
@@ -7566,7 +7566,7 @@ animated
 .
 discardable
 "
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 bool
 true
 )
@@ -7582,7 +7582,7 @@ animated
 .
 use_heap
 "
-ImageMemAnimatedUseHeap
+image_mem_animated_use_heap
 RelaxedAtomicBool
 false
 )
@@ -7598,7 +7598,7 @@ debug
 -
 reporting
 "
-ImageMemDebugReporting
+image_mem_debug_reporting
 RelaxedAtomicBool
 false
 )
@@ -7612,7 +7612,7 @@ mem
 .
 shared
 "
-ImageMemShared
+image_mem_shared
 RelaxedAtomicBool
 true
 )
@@ -7628,7 +7628,7 @@ surfacecache
 .
 discard_factor
 "
-ImageMemSurfaceCacheDiscardFactor
+image_mem_surfacecache_discard_factor
 uint32_t
 1
 )
@@ -7644,7 +7644,7 @@ surfacecache
 .
 max_size_kb
 "
-ImageMemSurfaceCacheMaxSizeKB
+image_mem_surfacecache_max_size_kb
 uint32_t
 1024
 *
@@ -7662,7 +7662,7 @@ surfacecache
 .
 min_expiration_ms
 "
-ImageMemSurfaceCacheMinExpirationMS
+image_mem_surfacecache_min_expiration_ms
 uint32_t
 60
 *
@@ -7680,7 +7680,7 @@ surfacecache
 .
 size_factor
 "
-ImageMemSurfaceCacheSizeFactor
+image_mem_surfacecache_size_factor
 uint32_t
 4
 )
@@ -7696,7 +7696,7 @@ volatile
 .
 min_threshold_kb
 "
-ImageMemVolatileMinThresholdKB
+image_mem_volatile_min_threshold_kb
 RelaxedAtomicInt32
 -
 1
@@ -7711,7 +7711,7 @@ multithreaded_decoding
 .
 idle_timeout
 "
-ImageMTDecodingIdleTimeout
+image_multithreaded_decoding_idle_timeout
 int32_t
 600000
 )
@@ -7725,7 +7725,7 @@ multithreaded_decoding
 .
 limit
 "
-ImageMTDecodingLimit
+image_multithreaded_decoding_limit
 int32_t
 -
 1
@@ -7740,7 +7740,7 @@ webp
 .
 enabled
 "
-ImageWebPEnabled
+image_webp_enabled
 RelaxedAtomicBool
 false
 )

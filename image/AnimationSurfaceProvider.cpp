@@ -194,7 +194,7 @@ size_t
 StaticPrefs
 :
 :
-ImageAnimatedDecodeOnDemandThresholdKB
+image_animated_decode_on_demand_threshold_kb
 (
 )
 )
@@ -223,7 +223,7 @@ batch
 StaticPrefs
 :
 :
-ImageAnimatedDecodeOnDemandBatchSize
+image_animated_decode_on_demand_batch_size
 (
 )
 ;
@@ -1588,7 +1588,7 @@ if
 StaticPrefs
 :
 :
-ImageAnimatedDecodeOnDemandRecycle
+image_animated_decode_on_demand_recycle
 (
 )
 )
@@ -1801,7 +1801,7 @@ ShouldSyncDecode
 StaticPrefs
 :
 :
-ImageMemDecodeBytesAtATime
+image_mem_decode_bytes_at_a_time
 (
 )
 )

@@ -250,7 +250,7 @@ aInvalid
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 )

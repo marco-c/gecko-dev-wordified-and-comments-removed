@@ -216,7 +216,7 @@ uint64_t
 StaticPrefs
 :
 :
-ImageMemDecodeBytesAtATime
+image_mem_decode_bytes_at_a_time
 (
 )
 )
@@ -335,7 +335,7 @@ threshold
 StaticPrefs
 :
 :
-ImageCacheFactor2ThresholdSurfaces
+image_cache_factor2_threshold_surfaces
 (
 )
 ;

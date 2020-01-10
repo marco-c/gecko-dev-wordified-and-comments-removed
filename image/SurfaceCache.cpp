@@ -1845,7 +1845,7 @@ thresholdSurfaces
 StaticPrefs
 :
 :
-ImageCacheFactor2ThresholdSurfaces
+image_cache_factor2_threshold_surfaces
 (
 )
 ;
@@ -4774,7 +4774,7 @@ cache
 StaticPrefs
 :
 :
-ImageMemAnimatedDiscardable
+image_mem_animated_discardable
 (
 )
 aAutoLock
@@ -6211,7 +6211,7 @@ surfaceCacheExpirationTimeMS
 StaticPrefs
 :
 :
-ImageMemSurfaceCacheMinExpirationMS
+image_mem_surfacecache_min_expiration_ms
 (
 )
 ;
@@ -6223,7 +6223,7 @@ max
 StaticPrefs
 :
 :
-ImageMemSurfaceCacheDiscardFactor
+image_mem_surfacecache_discard_factor
 (
 )
 1u
@@ -6235,7 +6235,7 @@ surfaceCacheMaxSizeKB
 StaticPrefs
 :
 :
-ImageMemSurfaceCacheMaxSizeKB
+image_mem_surfacecache_max_size_kb
 (
 )
 ;
@@ -6247,7 +6247,7 @@ max
 StaticPrefs
 :
 :
-ImageMemSurfaceCacheSizeFactor
+image_mem_surfacecache_size_factor
 (
 )
 1u
@@ -7236,7 +7236,7 @@ maxSizeKB
 StaticPrefs
 :
 :
-ImageCacheMaxRasterizedSVGThresholdKB
+image_cache_max_rasterized_svg_threshold_kb
 (
 )
 ;
