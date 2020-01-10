@@ -81,13 +81,6 @@ const
 nsACString
 &
 aMatchedList
-const
-Maybe
-<
-uint64_t
->
-&
-aMaybeElapsedLoadTimeMS
 )
 :
 mURI
@@ -101,10 +94,6 @@ aOriginalURI
 mMatchedList
 (
 aMatchedList
-)
-mMaybeElapsedLoadTimeMS
-(
-aMaybeElapsedLoadTimeMS
 )
 {
 }
@@ -133,12 +122,6 @@ mOriginalURI
 ;
 nsCString
 mMatchedList
-;
-Maybe
-<
-uint64_t
->
-mMaybeElapsedLoadTimeMS
 ;
 }
 ;
