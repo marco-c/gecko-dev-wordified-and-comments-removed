@@ -332,11 +332,14 @@ check
 this
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
-!
-hasForceInterpreterOp
+JitOptions
+.
+baselineInterpreter
+CanBaselineInterpretScript
 (
+this
 )
 )
 ;

@@ -2104,6 +2104,14 @@ pc
 )
 ;
 bool
+CanBaselineInterpretScript
+(
+JSScript
+*
+script
+)
+;
+bool
 BaselineCompileFromBaselineInterpreter
 (
 JSContext
