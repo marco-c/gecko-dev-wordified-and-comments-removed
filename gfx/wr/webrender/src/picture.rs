@@ -1849,6 +1849,12 @@ rect
 "
 )
 ;
+self
+.
+is_same_content
+=
+true
+;
 if
 ctx
 .
