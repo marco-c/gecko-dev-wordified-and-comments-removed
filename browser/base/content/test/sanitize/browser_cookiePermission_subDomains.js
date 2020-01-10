@@ -150,9 +150,7 @@ org
 "
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 add
 (
@@ -239,9 +237,7 @@ org
 "
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 add
 (
@@ -527,9 +523,7 @@ uriB
 host
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 remove
 (
@@ -539,9 +533,7 @@ cookie
 "
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 remove
 (
@@ -664,9 +656,7 @@ org
 "
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 add
 (
@@ -1026,9 +1016,7 @@ uriB
 host
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 remove
 (

@@ -458,9 +458,7 @@ newtab
 "
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 add
 (
@@ -606,9 +604,7 @@ aResolve
 }
 )
 ;
-Services
-.
-perms
+PermissionTestUtils
 .
 remove
 (
