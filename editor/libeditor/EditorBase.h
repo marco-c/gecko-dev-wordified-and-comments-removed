@@ -3451,9 +3451,8 @@ false
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
 nsresult
-SetTextNodeWithoutTransaction
+SetTextImpl
 (
 const
 nsAString

@@ -878,7 +878,6 @@ aStripWrappers
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
 nsresult
 SetTextAsSubAction
 (
@@ -1139,17 +1138,6 @@ nsAString
 aValue
 )
 const
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-EditActionResult
-SetTextWithoutTransaction
-(
-const
-nsAString
-&
-aValue
-)
 ;
 protected
 :
