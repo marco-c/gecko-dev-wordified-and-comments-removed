@@ -1946,16 +1946,6 @@ false
 }
 virtual
 bool
-SupportsWrNativeTexture
-(
-)
-{
-return
-false
-;
-}
-virtual
-bool
 NeedsYFlip
 (
 )

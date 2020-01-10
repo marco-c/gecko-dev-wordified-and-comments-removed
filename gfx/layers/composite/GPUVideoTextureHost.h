@@ -259,12 +259,6 @@ aImageKeys
 )
 override
 ;
-bool
-SupportsWrNativeTexture
-(
-)
-override
-;
 protected
 :
 GPUVideoTextureHost
