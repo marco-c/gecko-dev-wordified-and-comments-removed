@@ -53,11 +53,13 @@ browser
 /
 skin
 /
-places
-/
-toolbarDropMarker
+toolbar
+-
+drag
+-
+indicator
 .
-png
+svg
 "
 platforms
 :
