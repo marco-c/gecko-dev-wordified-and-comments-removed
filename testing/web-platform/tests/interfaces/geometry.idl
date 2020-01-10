@@ -133,6 +133,9 @@ unrestricted
 double
 w
 ;
+[
+NewObject
+]
 DOMPoint
 matrixTransform
 (
