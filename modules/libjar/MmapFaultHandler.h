@@ -223,6 +223,14 @@ void
 aPtr
 )
 ;
+void
+CrashWithInfo
+(
+void
+*
+aPtr
+)
+;
 sigjmp_buf
 mJmpBuf
 ;
