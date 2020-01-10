@@ -770,6 +770,12 @@ UnionTypes
 .
 h
 '
+        
+'
+WebIDLPrefs
+.
+h
+'
     
 }
     
@@ -809,6 +815,12 @@ cpp
         
 '
 PrototypeList
+.
+cpp
+'
+        
+'
+WebIDLPrefs
 .
 cpp
 '
