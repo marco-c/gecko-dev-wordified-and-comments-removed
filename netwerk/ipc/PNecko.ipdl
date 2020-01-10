@@ -221,10 +221,6 @@ protocol
 PSocketProcessBridge
 ;
 include
-protocol
-PProxyConfigLookup
-;
-include
 IPCStream
 ;
 include
@@ -459,9 +455,6 @@ PClassifierDummyChannel
 ;
 manages
 PWebrtcProxyChannel
-;
-manages
-PProxyConfigLookup
 ;
 parent
 :
@@ -809,11 +802,6 @@ PWebrtcProxyChannel
 (
 TabId
 tabId
-)
-;
-async
-PProxyConfigLookup
-(
 )
 ;
 /
