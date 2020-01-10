@@ -60,6 +60,11 @@ contentful
 paint
 /
 )
+[
+Exposed
+=
+Window
+]
 interface
 LargestContentfulPaint
 :
