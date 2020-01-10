@@ -762,6 +762,15 @@ currencyDisplay
 \
 MACRO
 (
+currencySign
+currencySign
+"
+currencySign
+"
+)
+\
+MACRO
+(
 DateTimeFormat
 DateTimeFormat
 "

@@ -675,6 +675,9 @@ Auto
 Never
 Always
 ExceptZero
+Accounting
+AccountingAlways
+AccountingExceptZero
 }
 ;
 MOZ_MUST_USE
