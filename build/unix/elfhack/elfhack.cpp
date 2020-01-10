@@ -1256,6 +1256,7 @@ ei_class
 char
 ei_data
 )
+override
 {
 for
 (
@@ -1475,6 +1476,7 @@ bool
 isRelocatable
 (
 )
+override
 {
 return
 false
