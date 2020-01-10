@@ -31,18 +31,6 @@ self
 config
 =
 config
-        
-self
-.
-host
-=
-None
-        
-self
-.
-port
-=
-None
     
 abstractmethod
     

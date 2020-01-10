@@ -133,6 +133,10 @@ Mitmproxy
 .
 check_proxy
 "
+lambda
+x
+:
+True
 )
 def
 test_mitm
@@ -388,6 +392,10 @@ Mitmproxy
 .
 check_proxy
 "
+lambda
+x
+:
+True
 )
 def
 test_playback_setup_failed
