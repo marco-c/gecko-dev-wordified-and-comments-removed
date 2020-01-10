@@ -2544,12 +2544,6 @@ break
 #
 ifndef
 U_HIDE_DRAFT_API
-#
-if
-U_ICU_VERSION_MAJOR_NUM
->
-=
-64
 case
 UNUM_MEASURE_UNIT_FIELD
 :
@@ -2627,8 +2621,6 @@ notation
 ;
 break
 ;
-#
-endif
 #
 endif
 #
