@@ -1248,6 +1248,7 @@ async
 (
 tabId
 changeInfo
+tab
 )
 =
 >
@@ -1256,10 +1257,16 @@ if
 (
 changeInfo
 .
-url
+status
+=
+=
+=
+"
+complete
+"
 &
 &
-changeInfo
+tab
 .
 url
 .
