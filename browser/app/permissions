@@ -263,3 +263,15 @@ network
 firefox
 .
 com
+origin
+install
+1
+https
+:
+/
+/
+fpn
+.
+firefox
+.
+com
