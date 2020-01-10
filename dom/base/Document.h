@@ -11036,11 +11036,6 @@ HasValidTransientUserGestureActivation
 (
 )
 ;
-bool
-ConsumeTransientUserGestureActivation
-(
-)
-;
 BrowsingContext
 *
 GetBrowsingContext

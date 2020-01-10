@@ -109,17 +109,6 @@ mozilla
 /
 dom
 /
-UserActivation
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WheelEventBinding
 .
 h
@@ -5909,7 +5898,7 @@ aValue
 {
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -20151,7 +20140,7 @@ src
 {
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -21083,7 +21072,7 @@ src
 {
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput

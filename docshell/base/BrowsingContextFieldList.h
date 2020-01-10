@@ -41,11 +41,8 @@ bool
 )
 MOZ_BC_FIELD
 (
-UserActivationState
-UserActivation
-:
-:
-State
+IsActivatedByUserGesture
+bool
 )
 MOZ_BC_FIELD
 (

@@ -188,17 +188,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-UserActivation
-.
-h
-"
-#
-include
-"
 nsAttrValueOrString
 .
 h
@@ -1631,7 +1620,7 @@ aValue
 {
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -1707,7 +1696,7 @@ kNameSpaceID_None
 {
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -1750,7 +1739,7 @@ kNameSpaceID_None
 {
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -1923,7 +1912,7 @@ src
 {
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -2141,7 +2130,7 @@ forceReload
 {
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -2452,7 +2441,7 @@ true
 }
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -2486,7 +2475,7 @@ src
 {
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -3375,7 +3364,7 @@ ShouldLoadImages
 {
 mUseUrgentStartForChannel
 =
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput

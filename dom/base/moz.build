@@ -1294,11 +1294,6 @@ UIDirectionManager
 h
 '
 '
-UserActivation
-.
-h
-'
-'
 ViewportMetaData
 .
 h
@@ -2137,11 +2132,6 @@ cpp
 '
 '
 UIDirectionManager
-.
-cpp
-'
-'
-UserActivation
 .
 cpp
 '
