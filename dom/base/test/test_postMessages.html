@@ -2162,6 +2162,7 @@ iframe_postMessages
 .
 html
 '
+true
 )
 ;
 }
@@ -2214,6 +2215,10 @@ iframe_postMessages
 .
 html
 '
+!
+SpecialPowers
+.
+useRemoteSubframes
 )
 ;
 }
@@ -2226,6 +2231,7 @@ function
 test_windowToIframeURL
 (
 url
+clonableObjectsSameProcess
 )
 {
 var
@@ -2316,8 +2322,6 @@ clonableObjectsEveryWhere
 :
 true
 clonableObjectsSameProcess
-:
-true
 transferableObjects
 :
 true
