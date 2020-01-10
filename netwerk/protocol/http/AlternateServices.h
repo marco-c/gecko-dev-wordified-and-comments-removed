@@ -759,6 +759,17 @@ return
 mStorageEpoch
 ;
 }
+nsresult
+GetAltSvcCacheKeys
+(
+nsTArray
+<
+nsCString
+>
+&
+value
+)
+;
 private
 :
 already_AddRefed
