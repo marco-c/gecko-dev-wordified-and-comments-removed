@@ -2660,7 +2660,7 @@ nullptr
 )
 MARKUPMAP
 (
-tfoot
+thead
 [
 ]
 (
