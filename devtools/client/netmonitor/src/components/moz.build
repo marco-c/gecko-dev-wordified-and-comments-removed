@@ -53,6 +53,14 @@ MPL
 0
 /
 .
+DIRS
++
+=
+[
+'
+websockets
+'
+]
 DevToolsModules
 (
 '
@@ -272,11 +280,6 @@ js
 '
 '
 Toolbar
-.
-js
-'
-'
-WebSocketsPanel
 .
 js
 '

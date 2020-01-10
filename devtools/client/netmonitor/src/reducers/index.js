@@ -109,7 +109,7 @@ ui
 ;
 const
 {
-webSocketsReducer
+webSockets
 }
 =
 require
@@ -159,8 +159,6 @@ sort
 :
 sortReducer
 webSockets
-:
-webSocketsReducer
 filters
 timingMarkers
 ui
