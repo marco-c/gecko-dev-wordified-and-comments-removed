@@ -1118,9 +1118,6 @@ AsyncPanZoomController
 *
 GetAPZCAtPoint
 (
-HitTestingTreeNode
-*
-aNode
 const
 ScreenPoint
 &
