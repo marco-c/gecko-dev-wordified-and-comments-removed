@@ -10988,6 +10988,9 @@ GCRuntime
 :
 sweepZoneAfterCompacting
 (
+MovingTracer
+*
+trc
 Zone
 *
 zone
@@ -11030,8 +11033,9 @@ fop
 zone
 -
 >
-sweepWeakMaps
+traceWeakMaps
 (
+trc
 )
 ;
 for
@@ -12695,6 +12699,8 @@ trc
 }
 sweepZoneAfterCompacting
 (
+&
+trc
 zone
 )
 ;
@@ -26311,6 +26317,12 @@ runtime
 (
 )
 ;
+SweepingTracer
+trc
+(
+runtime
+)
+;
 for
 (
 SweepGroupZonesIter
@@ -26370,8 +26382,10 @@ beginSweepingSweepGroup
 zone
 -
 >
-sweepWeakMaps
+traceWeakMaps
 (
+&
+trc
 )
 ;
 }

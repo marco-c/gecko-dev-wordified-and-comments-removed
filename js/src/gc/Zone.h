@@ -1279,8 +1279,11 @@ sweepUniqueIds
 )
 ;
 void
-sweepWeakMaps
+traceWeakMaps
 (
+JSTracer
+*
+trc
 )
 ;
 void

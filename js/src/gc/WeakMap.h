@@ -231,7 +231,7 @@ zone
 ;
 static
 void
-sweepZone
+traceWeakEdgesInZone
 (
 JS
 :
@@ -239,6 +239,9 @@ JS
 Zone
 *
 zone
+JSTracer
+*
+trc
 )
 ;
 static
@@ -353,8 +356,11 @@ findSweepGroupEdges
 ;
 virtual
 void
-sweep
+traceWeak
 (
+JSTracer
+*
+trc
 )
 =
 0
@@ -1105,8 +1111,11 @@ true
 ;
 }
 void
-sweep
+traceWeak
 (
+JSTracer
+*
+trc
 )
 override
 ;
