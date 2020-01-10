@@ -160,12 +160,9 @@ eCommand_ID_ShowAll
 eCommand_ID_Update
 =
 7
-eCommand_ID_TouchBar
-=
-8
 eCommand_ID_Last
 =
-9
+8
 }
 ;
 #
