@@ -164,6 +164,9 @@ markName
 optional
 PerformanceMarkOptions
 markOptions
+=
+{
+}
 )
 ]
 interface
