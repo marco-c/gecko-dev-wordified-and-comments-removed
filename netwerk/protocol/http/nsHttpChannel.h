@@ -1804,14 +1804,6 @@ bool
 alreadyMarkedValid
 )
 ;
-MOZ_MUST_USE
-nsresult
-ContinueReadFromCache
-(
-nsresult
-rv
-)
-;
 void
 CloseCacheEntry
 (
