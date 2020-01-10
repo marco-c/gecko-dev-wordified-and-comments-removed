@@ -5153,8 +5153,10 @@ firstFramePromise
 if
 (
 mAudioDevice
-&
-&
+)
+{
+if
+(
 mAudioDevice
 -
 >
@@ -5264,11 +5266,6 @@ track
 }
 else
 {
-if
-(
-mAudioDevice
-)
-{
 nsString
 audioDeviceName
 ;
@@ -5361,6 +5358,7 @@ AddTrackInternal
 track
 )
 ;
+}
 }
 if
 (
@@ -5505,7 +5503,6 @@ default
 :
 break
 ;
-}
 }
 }
 if
