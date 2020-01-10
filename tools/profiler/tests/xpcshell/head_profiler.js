@@ -326,13 +326,11 @@ reverse
 )
 ;
 }
-async
 function
 doAtLeastOnePeriodicSample
 (
 )
 {
-async
 function
 getProfileSampleCount
 (
@@ -341,12 +339,11 @@ getProfileSampleCount
 const
 profile
 =
-await
 Services
 .
 profiler
 .
-getProfileDataAsync
+getProfileData
 (
 )
 ;
@@ -368,7 +365,6 @@ length
 const
 sampleCount
 =
-await
 getProfileSampleCount
 (
 )
@@ -382,11 +378,8 @@ if
 (
 sampleCount
 <
-(
-await
 getProfileSampleCount
 (
-)
 )
 )
 {
