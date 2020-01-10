@@ -635,14 +635,6 @@ aStack
 )
 ;
 bool
-ShouldReplaceContainerWithPlaceholder
-(
-nsAtom
-*
-aTag
-)
-;
-bool
 IsIgnorableRubyAnnotation
 (
 nsAtom
