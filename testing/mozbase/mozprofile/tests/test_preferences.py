@@ -5,8 +5,6 @@ absolute_import
 import
 mozfile
 import
-mozhttpd
-import
 os
 import
 shutil
@@ -16,6 +14,10 @@ import
 mozunit
 import
 pytest
+from
+wptserve
+import
+server
 from
 mozprofile
 .
@@ -2684,7 +2686,7 @@ through
 the
 web
 via
-mozhttpd
+wptserve
 "
 "
 "
@@ -2721,9 +2723,9 @@ port
     
 httpd
 =
-mozhttpd
+server
 .
-MozHttpd
+WebTestHttpd
 (
 host
 =
@@ -2731,7 +2733,7 @@ host
 port
 =
 port
-docroot
+doc_root
 =
 docroot
 )
