@@ -32972,6 +32972,12 @@ mContentViewer
 =
 nullptr
 ;
+if
+(
+!
+mSkipBrowsingContextDetachOnDestroy
+)
+{
 mBrowsingContext
 -
 >
@@ -32979,6 +32985,7 @@ CacheChildren
 (
 )
 ;
+}
 DestroyChildren
 (
 )
