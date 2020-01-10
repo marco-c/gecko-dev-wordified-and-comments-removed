@@ -117,6 +117,16 @@ GuardToInt32Index
 \
 _
 (
+GuardToInt32ModUint32
+)
+\
+_
+(
+GuardToUint8Clamped
+)
+\
+_
+(
 GuardType
 )
 \
