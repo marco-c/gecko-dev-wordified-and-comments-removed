@@ -314,6 +314,9 @@ class
 CallOrNewEmitter
 ;
 class
+ClassEmitter
+;
+class
 ElemOpEmitter
 ;
 class
@@ -2334,6 +2337,9 @@ MOZ_MUST_USE
 bool
 emitCreateFieldInitializers
 (
+ClassEmitter
+&
+ce
 ListNode
 *
 obj
