@@ -43435,12 +43435,11 @@ nsINode
 >
 nodesWithProperties
 ;
-nsNodeUtils
-:
-:
+adoptedNode
+-
+>
 Adopt
 (
-adoptedNode
 sameDocument
 ?
 nullptr
