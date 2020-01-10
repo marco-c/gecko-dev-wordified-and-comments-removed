@@ -2376,7 +2376,7 @@ _addScript
 (
 this
 .
-_sendRequest
+_sendRequestMainChild
 (
 {
 type
