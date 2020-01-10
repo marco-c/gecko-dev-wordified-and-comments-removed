@@ -250,12 +250,6 @@ MemoryTracker
 \
 _
 (
-IcuTimeZoneStateMutex
-600
-)
-\
-_
-(
 ThreadId
 600
 )
