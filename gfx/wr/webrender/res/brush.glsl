@@ -382,12 +382,6 @@ ph
 z
 transform
 pic_task
-ph
-.
-local_rect
-ph
-.
-snap_offsets
 )
 ;
 /
