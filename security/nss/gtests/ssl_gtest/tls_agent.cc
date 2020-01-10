@@ -1765,6 +1765,12 @@ SECSuccess
 return
 false
 ;
+SetOption
+(
+SSL_ENABLE_EXTENDED_MASTER_SECRET
+PR_FALSE
+)
+;
 return
 true
 ;

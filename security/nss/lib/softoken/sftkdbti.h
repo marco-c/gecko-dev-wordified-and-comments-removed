@@ -21,9 +21,15 @@ type
 SECItem
 passwordKey
 ;
+int
+defaultIterationCount
+;
 SECItem
 *
 newKey
+;
+int
+newDefaultIterationCount
 ;
 SECItem
 *
@@ -51,6 +57,9 @@ updateID
 ;
 PRBool
 updateDBIsInit
+;
+PRBool
+usesLegacyStorage
 ;
 }
 ;
@@ -134,6 +143,8 @@ arena
 SECItem
 *
 passKey
+int
+iterationCount
 SECItem
 *
 plainText
@@ -152,6 +163,8 @@ arena
 SECItem
 *
 passKey
+int
+iterationCount
 CK_OBJECT_HANDLE
 objectID
 CK_ATTRIBUTE_TYPE
