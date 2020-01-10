@@ -841,7 +841,7 @@ iter
 )
 ;
 bool
-hasAnyLiveHooks
+hasAnyHooks
 (
 )
 const

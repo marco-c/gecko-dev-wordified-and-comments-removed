@@ -1333,7 +1333,7 @@ bool
 DebuggerFrame
 :
 :
-hasAnyLiveHooks
+hasAnyHooks
 (
 )
 const
