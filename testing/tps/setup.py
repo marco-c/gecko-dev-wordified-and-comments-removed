@@ -102,6 +102,15 @@ mozversion
 5
 '
         
+'
+PyYAML
+>
+=
+4
+.
+0
+'
+        
 ]
 assert
 sys

@@ -6,6 +6,8 @@ print_function
 import
 json
 import
+yaml
+import
 os
 import
 re
@@ -1666,9 +1668,9 @@ try
             
 test
 =
-json
+yaml
 .
-loads
+safe_load
 (
 testcontent
 )
@@ -1679,9 +1681,9 @@ Exception
             
 test
 =
-json
+yaml
 .
-loads
+safe_load
 (
 testcontent
 [
