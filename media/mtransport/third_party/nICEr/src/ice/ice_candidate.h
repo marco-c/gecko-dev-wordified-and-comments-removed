@@ -110,6 +110,9 @@ addr
 nr_transport_addr
 base
 ;
+int
+obfuscate_addrs
+;
 char
 *
 mdns_addr
@@ -325,6 +328,8 @@ char
 attr
 int
 maxlen
+int
+obfuscate_srflx_addr
 )
 ;
 int
