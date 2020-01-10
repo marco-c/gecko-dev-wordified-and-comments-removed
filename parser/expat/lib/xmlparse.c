@@ -1253,6 +1253,8 @@ char
 nextPtr
 XML_Bool
 haveMore
+XML_Bool
+allowClosingDoctype
 )
 ;
 static
@@ -19198,6 +19200,7 @@ XML_Bool
 )
 !
 ps_finalBuffer
+XML_TRUE
 )
 ;
 }
@@ -19400,6 +19403,7 @@ XML_Bool
 )
 !
 ps_finalBuffer
+XML_TRUE
 )
 ;
 }
@@ -19435,6 +19439,8 @@ char
 nextPtr
 XML_Bool
 haveMore
+XML_Bool
+allowClosingDoctype
 )
 {
 #
@@ -20302,6 +20308,18 @@ break
 case
 XML_ROLE_DOCTYPE_CLOSE
 :
+if
+(
+allowClosingDoctype
+!
+=
+XML_TRUE
+)
+{
+return
+XML_ERROR_INVALID_TOKEN
+;
+}
 if
 (
 doctypeName
@@ -24495,6 +24513,7 @@ next
 &
 next
 XML_FALSE
+XML_FALSE
 )
 ;
 }
@@ -24800,6 +24819,7 @@ next
 &
 next
 XML_FALSE
+XML_TRUE
 )
 ;
 }
@@ -24945,6 +24965,7 @@ XML_Bool
 )
 !
 ps_finalBuffer
+XML_TRUE
 )
 ;
 }
