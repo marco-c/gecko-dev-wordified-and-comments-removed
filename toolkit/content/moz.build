@@ -516,7 +516,9 @@ tests
 /
 browser
 /
-browser_autoplay
+browser_
+*
+autoplay
 *
 '
 )
