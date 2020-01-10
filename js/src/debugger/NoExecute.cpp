@@ -230,13 +230,6 @@ unlocked_
 &
 dbg
 .
-isEnabled
-(
-)
-&
-&
-dbg
-.
 observesGlobal
 (
 debuggee
