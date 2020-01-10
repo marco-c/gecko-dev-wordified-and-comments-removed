@@ -13772,7 +13772,9 @@ DEPENDENCY
 :
 sms
 /
-sms_provider
+resources
+/
+helper
 .
 js
 MISSING
