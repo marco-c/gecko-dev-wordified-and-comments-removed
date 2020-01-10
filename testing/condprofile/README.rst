@@ -89,6 +89,7 @@ and
 eventually
 uploaded
 as
+an
 artifact
 in
 TaskCluster
@@ -195,7 +196,7 @@ an
 existing
 profile
 in
-taskcluster
+Taskcluster
 -
 browses
 the
@@ -205,7 +206,7 @@ the
 scenario
 via
 the
-webdriver
+WebDriver
 client
 -
 recreates
@@ -471,7 +472,9 @@ addons
 a
 mapping
 of
-addons
+add
+-
+ons
 to
 install
 .
@@ -695,9 +698,6 @@ win64
 cold
 "
 "
-days
-"
-"
 default
 "
 )
@@ -749,7 +749,7 @@ the
 conditioned
 profile
 builder
-in
+into
 mach
 at
 this
@@ -841,3 +841,4 @@ cp
 creator
 *
 *
+.
