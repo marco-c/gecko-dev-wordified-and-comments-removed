@@ -27,6 +27,6 @@ eval
 (
 source
 )
-ReferenceError
+SyntaxError
 )
 ;
