@@ -5676,6 +5676,17 @@ AccessibleType
 =
 =
 eHTMLTableType
+|
+|
+frame
+-
+>
+AccessibleType
+(
+)
+=
+=
+eOuterDocType
 )
 {
 const
