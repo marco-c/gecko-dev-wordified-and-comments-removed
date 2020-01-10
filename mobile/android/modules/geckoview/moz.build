@@ -95,11 +95,6 @@ AndroidLog
 jsm
 '
 '
-BrowserUsageTelemetry
-.
-jsm
-'
-'
 ContentCrashHandler
 .
 jsm
