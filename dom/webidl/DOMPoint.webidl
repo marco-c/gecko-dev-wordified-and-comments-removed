@@ -182,6 +182,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 DOMPointReadOnly
@@ -277,6 +278,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 DOMPoint
