@@ -296,11 +296,6 @@ DocumentL10n
 webidl
 '
 '
-DOMCollectedFrames
-.
-webidl
-'
-'
 DominatorTree
 .
 webidl

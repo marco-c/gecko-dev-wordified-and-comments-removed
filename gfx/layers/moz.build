@@ -3712,13 +3712,6 @@ ipdl
 '
 ipc
 /
-PCompositorBridgeTypes
-.
-ipdlh
-'
-'
-ipc
-/
 PCompositorManager
 .
 ipdl
