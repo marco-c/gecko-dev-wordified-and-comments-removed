@@ -20,6 +20,18 @@ from
 urlparse
 import
 urljoin
+from
+mozilla_version
+.
+gecko
+import
+GeckoVersion
+from
+mozilla_version
+.
+version
+import
+VersionType
 sys
 .
 path
@@ -1993,23 +2005,33 @@ def
 _get_branch_url
 (
 self
-category
 branch_prefix
 version
 )
 :
+        
+version
+=
+GeckoVersion
+.
+parse
+(
+version
+)
         
 branch
 =
 None
         
 if
-category
+version
+.
+version_type
 =
 =
-"
-dev
-"
+VersionType
+.
+BETA
 :
             
 branch
@@ -2029,12 +2051,14 @@ branch_prefix
 )
         
 elif
-category
+version
+.
+version_type
 =
 =
-"
-esr
-"
+VersionType
+.
+ESR
 :
             
 branch
@@ -2054,23 +2078,19 @@ format
 (
 branch_prefix
 version
-[
-:
-2
-]
+.
+major_number
 )
         
 elif
-category
-in
-(
-"
-major
-"
-"
-stability
-"
-)
+version
+.
+version_type
+=
+=
+VersionType
+.
+RELEASE
 :
             
 if
@@ -2099,10 +2119,8 @@ format
 (
 branch_prefix
 version
-[
-:
-2
-]
+.
+major_number
 )
             
 else
@@ -2301,15 +2319,6 @@ split
 1
 )
             
-category
-=
-release_info
-[
-'
-category
-'
-]
-            
 tag
 =
 "
@@ -2339,25 +2348,6 @@ replace
 _
 "
 )
-)
-            
-branch
-=
-self
-.
-_get_branch_url
-(
-category
-self
-.
-config
-[
-"
-branch_prefix
-"
-]
-                                          
-version
 )
             
 for
@@ -2740,6 +2730,23 @@ split
 .
 strip
 (
+)
+            
+branch
+=
+self
+.
+_get_branch_url
+(
+self
+.
+config
+[
+"
+branch_prefix
+"
+]
+version
 )
             
 shipped_locales_url
