@@ -74,6 +74,14 @@ PowerOfTwo32
 aCapacity
 )
 ;
+explicit
+ProfileBuffer
+(
+BlocksRingBuffer
+&
+aBuffer
+)
+;
 ~
 ProfileBuffer
 (
