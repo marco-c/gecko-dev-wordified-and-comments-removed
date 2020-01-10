@@ -224,10 +224,13 @@ t
 .
 add_cleanup
 (
+async
 (
 )
 =
 >
+{
+await
 cookieStore
 .
 delete
@@ -238,6 +241,8 @@ cookie
 name
 '
 )
+;
+}
 )
 ;
 const
@@ -366,10 +371,13 @@ t
 .
 add_cleanup
 (
+async
 (
 )
 =
 >
+{
+await
 frameCookieStore
 .
 delete
@@ -380,6 +388,8 @@ cookie
 name
 '
 )
+;
+}
 )
 ;
 const
