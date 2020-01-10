@@ -86,6 +86,10 @@ url
 :
 '
 /
+cookie
+-
+store
+/
 scope
 /
 path
