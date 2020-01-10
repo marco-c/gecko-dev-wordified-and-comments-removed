@@ -12385,11 +12385,6 @@ found
 "
 )
 ;
-if
-tile
-.
-is_valid
-{
 for
 image_key
 in
@@ -12411,6 +12406,11 @@ image_key
 )
 ;
 }
+if
+tile
+.
+is_valid
+{
 continue
 ;
 }
