@@ -91,11 +91,6 @@ FrameListColumnTime
 js
 '
 '
-FrameListColumnType
-.
-js
-'
-'
 FrameListContent
 .
 js
