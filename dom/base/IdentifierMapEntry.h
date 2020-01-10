@@ -577,6 +577,11 @@ aForImage
 )
 ;
 void
+ClearAndNotify
+(
+)
+;
+void
 Traverse
 (
 nsCycleCollectionTraversalCallback
