@@ -12967,16 +12967,11 @@ GetDocShell
 )
 )
 ;
-MOZ_ASSERT
-(
 viewer
 -
 >
-GetDocument
+SetDocument
 (
-)
-=
-=
 clonedDoc
 )
 ;
