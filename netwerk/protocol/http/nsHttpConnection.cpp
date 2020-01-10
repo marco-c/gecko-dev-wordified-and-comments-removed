@@ -3462,6 +3462,8 @@ ssl
 bool
 esni
 ;
+rv
+=
 mSocketTransport
 -
 >
@@ -3471,6 +3473,14 @@ GetEsniUsed
 esni
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 Telemetry
 :
 :
@@ -3505,6 +3515,7 @@ NO_ESNI_FAILED
 )
 )
 ;
+}
 }
 if
 (
