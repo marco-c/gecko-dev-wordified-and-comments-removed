@@ -4709,6 +4709,13 @@ PreventExecution
 }
 }
 result
+-
+>
+SetElementCreatedFromPrototypeAndHasUnmodifiedL10n
+(
+)
+;
+result
 .
 forget
 (
