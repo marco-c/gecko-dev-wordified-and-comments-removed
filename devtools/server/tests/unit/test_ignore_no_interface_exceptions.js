@@ -12,7 +12,6 @@ async
 {
 threadClient
 debuggee
-client
 }
 )
 =
@@ -41,7 +40,7 @@ evaluateTestCode
 (
 debuggee
 )
-client
+threadClient
 )
 ;
 equal

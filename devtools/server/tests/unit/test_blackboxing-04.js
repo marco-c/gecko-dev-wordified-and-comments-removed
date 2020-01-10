@@ -133,7 +133,7 @@ test_black_box
 (
 )
 {
-gClient
+gThreadClient
 .
 addOneTimeListener
 (
@@ -340,6 +340,13 @@ in
 this
 source
 "
+)
+;
+await
+gThreadClient
+.
+resume
+(
 )
 ;
 finishClient

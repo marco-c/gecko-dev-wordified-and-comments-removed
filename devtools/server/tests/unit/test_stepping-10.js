@@ -12,7 +12,6 @@ async
 {
 threadClient
 debuggee
-client
 }
 )
 =
@@ -47,7 +46,7 @@ evaluateTestCode
 (
 debuggee
 )
-client
+threadClient
 )
 ;
 equal
@@ -93,7 +92,6 @@ step2
 await
 stepOut
 (
-client
 threadClient
 )
 ;
@@ -147,7 +145,6 @@ step3
 await
 stepOut
 (
-client
 threadClient
 )
 ;

@@ -34,7 +34,6 @@ async
 {
 threadClient
 debuggee
-client
 }
 )
 =
@@ -155,7 +154,7 @@ debuggee
 )
 ;
 }
-client
+threadClient
 )
 ;
 Assert

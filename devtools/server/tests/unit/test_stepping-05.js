@@ -49,7 +49,6 @@ async
 {
 threadClient
 debuggee
-client
 }
 )
 =
@@ -81,7 +80,7 @@ evaluateTestCode
 (
 debuggee
 )
-client
+threadClient
 )
 ;
 const
@@ -90,7 +89,6 @@ step1
 await
 stepIn
 (
-client
 threadClient
 )
 ;
@@ -150,7 +148,6 @@ step2
 await
 stepIn
 (
-client
 threadClient
 )
 ;
@@ -210,7 +207,6 @@ step3
 await
 stepIn
 (
-client
 threadClient
 )
 ;

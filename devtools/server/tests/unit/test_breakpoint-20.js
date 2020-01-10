@@ -185,7 +185,7 @@ functions
 [
 0
 ]
-gClient
+threadClient
 )
 ;
 equal
@@ -229,7 +229,7 @@ resume
 (
 threadClient
 )
-gClient
+threadClient
 )
 ;
 equal
@@ -275,7 +275,7 @@ functions
 [
 1
 ]
-gClient
+threadClient
 )
 ;
 equal
@@ -319,7 +319,7 @@ resume
 (
 threadClient
 )
-gClient
+threadClient
 )
 ;
 equal

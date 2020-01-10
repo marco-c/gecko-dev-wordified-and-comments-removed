@@ -25,7 +25,7 @@ resolve
 =
 >
 {
-client
+threadClient
 .
 addOneTimeListener
 (

@@ -39,7 +39,7 @@ void
 x
 }
 ;
-client
+threadClient
 .
 addOneTimeListener
 (
@@ -62,7 +62,7 @@ threadClient
 client
 )
 ;
-client
+threadClient
 .
 addOneTimeListener
 (
@@ -90,7 +90,7 @@ breakpoint
 "
 )
 ;
-client
+threadClient
 .
 addOneTimeListener
 (
@@ -222,7 +222,7 @@ where
 actor
 )
 ;
-client
+threadClient
 .
 addOneTimeListener
 (

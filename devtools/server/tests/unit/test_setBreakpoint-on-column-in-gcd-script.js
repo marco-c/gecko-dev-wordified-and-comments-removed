@@ -34,7 +34,6 @@ async
 {
 threadClient
 debuggee
-client
 targetFront
 }
 )
@@ -150,7 +149,7 @@ true
 )
 ;
 }
-client
+threadClient
 )
 ;
 Assert

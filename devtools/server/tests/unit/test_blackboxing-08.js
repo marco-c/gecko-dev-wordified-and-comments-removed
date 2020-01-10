@@ -36,7 +36,7 @@ invokeAndPause
 (
 {
 global
-debuggerClient
+threadClient
 }
 expression
 )
@@ -55,7 +55,7 @@ evalInSandbox
 expression
 global
 )
-debuggerClient
+threadClient
 )
 ;
 }

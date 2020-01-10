@@ -143,7 +143,7 @@ await
 executeOnNextTickAndWaitForPause
 (
 evalCode
-gClient
+gThreadClient
 )
 ;
 const
@@ -666,7 +666,7 @@ executeOnNextTickAndWaitForPause
 gDebuggee
 .
 runTest
-gClient
+gThreadClient
 )
 ;
 Assert
@@ -686,7 +686,6 @@ breakpoint
 await
 stepIn
 (
-gClient
 gThreadClient
 )
 ;
@@ -709,7 +708,6 @@ packet
 await
 resumeAndWaitForPause
 (
-gClient
 gThreadClient
 )
 ;

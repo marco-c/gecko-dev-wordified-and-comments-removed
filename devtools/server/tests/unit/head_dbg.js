@@ -3226,7 +3226,7 @@ function
 executeOnNextTickAndWaitForPause
 (
 action
-client
+threadClient
 )
 {
 const
@@ -3234,7 +3234,7 @@ paused
 =
 waitForPause
 (
-client
+threadClient
 )
 ;
 executeSoon
@@ -3308,7 +3308,6 @@ interrupt
 function
 resumeAndWaitForPause
 (
-client
 threadClient
 )
 {
@@ -3317,7 +3316,7 @@ paused
 =
 waitForPause
 (
-client
+threadClient
 )
 ;
 return
@@ -3339,7 +3338,6 @@ paused
 function
 stepIn
 (
-client
 threadClient
 )
 {
@@ -3357,7 +3355,7 @@ paused
 =
 waitForPause
 (
-client
+threadClient
 )
 ;
 return
@@ -3380,7 +3378,6 @@ paused
 function
 stepOver
 (
-client
 threadClient
 )
 {
@@ -3408,7 +3405,7 @@ then
 >
 waitForPause
 (
-client
+threadClient
 )
 )
 ;
@@ -3416,7 +3413,6 @@ client
 function
 stepOut
 (
-client
 threadClient
 )
 {
@@ -3444,7 +3440,7 @@ then
 >
 waitForPause
 (
-client
+threadClient
 )
 )
 ;

@@ -81,6 +81,7 @@ bind
 (
 null
 client
+threadClient
 debuggee
 )
 )
@@ -105,6 +106,7 @@ function
 testSymbols
 (
 client
+threadClient
 debuggee
 )
 {
@@ -189,7 +191,7 @@ await
 executeOnNextTickAndWaitForPause
 (
 evalCode
-client
+threadClient
 )
 ;
 const

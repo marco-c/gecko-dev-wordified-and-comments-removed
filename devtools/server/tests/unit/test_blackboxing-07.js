@@ -144,7 +144,7 @@ await
 executeOnNextTickAndWaitForPause
 (
 evalCode
-gClient
+gThreadClient
 )
 ;
 const

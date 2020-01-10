@@ -142,7 +142,7 @@ test_black_box
 (
 )
 {
-gClient
+gThreadClient
 .
 addOneTimeListener
 (
@@ -314,7 +314,7 @@ true
 false
 )
 ;
-gClient
+gThreadClient
 .
 addOneTimeListener
 (
