@@ -956,6 +956,7 @@ text
 :
 :
 {
+TextDecorationLength
 TextDecorationSkipInk
 TextTransform
 }

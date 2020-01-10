@@ -854,7 +854,10 @@ self
 text
 :
 :
+{
+TextDecorationLength
 TextDecorationSkipInk
+}
 ;
 pub
 use

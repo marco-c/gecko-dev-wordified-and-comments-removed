@@ -28193,7 +28193,7 @@ void
 SetWidthIfLength
 (
 const
-LengthOrAuto
+StyleTextDecorationLength
 &
 aDecorationThickness
 Float
@@ -28235,7 +28235,7 @@ void
 SetOffsetIfLength
 (
 const
-LengthOrAuto
+StyleTextDecorationLength
 &
 aOffset
 nsCSSRendering
@@ -28496,7 +28496,7 @@ underlineSize
 )
 ;
 const
-LengthOrAuto
+StyleTextDecorationLength
 &
 textUnderlineOffset
 =
@@ -28516,7 +28516,7 @@ StyleText
 mTextUnderlineOffset
 ;
 const
-LengthOrAuto
+StyleTextDecorationLength
 &
 textDecorationThickness
 =
@@ -30188,7 +30188,7 @@ float
 relativeSize
 ;
 const
-LengthOrAuto
+auto
 &
 decThickness
 =
@@ -39443,7 +39443,7 @@ nsRect
 decorationArea
 ;
 const
-LengthOrAuto
+auto
 &
 decThickness
 =

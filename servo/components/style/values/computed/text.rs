@@ -100,7 +100,10 @@ generics
 text
 :
 :
+{
 Spacing
+GenericTextDecorationLength
+}
 ;
 use
 crate
@@ -251,6 +254,15 @@ GenericInitialLetter
 <
 CSSFloat
 CSSInteger
+>
+;
+pub
+type
+TextDecorationLength
+=
+GenericTextDecorationLength
+<
+Length
 >
 ;
 #
