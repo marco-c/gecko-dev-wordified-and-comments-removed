@@ -460,6 +460,12 @@ newState
 =
 =
 Errored
+|
+|
+newState
+=
+=
+Closed
 )
 ;
 }
