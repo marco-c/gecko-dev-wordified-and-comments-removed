@@ -2,13 +2,22 @@ import
 os
 import
 subprocess
+from
+six
+.
+moves
+.
+urllib
+.
+parse
 import
-urlparse
+urljoin
 from
 collections
 import
 defaultdict
 from
+.
 wptmanifest
 .
 parser
@@ -2746,8 +2755,6 @@ key
 0
 ]
 =
-urlparse
-.
 urljoin
 (
 self
@@ -2764,8 +2771,6 @@ key
 1
 ]
 =
-urlparse
-.
 urljoin
 (
 self
@@ -2790,8 +2795,6 @@ key
                     
 key
 =
-urlparse
-.
 urljoin
 (
 self

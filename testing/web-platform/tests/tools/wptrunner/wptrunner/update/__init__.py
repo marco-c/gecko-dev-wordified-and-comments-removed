@@ -13,6 +13,7 @@ from
 import
 wptcommandline
 from
+.
 update
 import
 WPTUpdate

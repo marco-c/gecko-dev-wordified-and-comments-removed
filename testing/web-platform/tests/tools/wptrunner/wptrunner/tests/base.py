@@ -35,7 +35,8 @@ __file__
 )
 )
 from
-wptrunner
+.
+.
 import
 browsers
 _products

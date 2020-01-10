@@ -9,7 +9,11 @@ threading
 import
 traceback
 from
-Queue
+six
+.
+moves
+.
+queue
 import
 Empty
 from

@@ -1,5 +1,11 @@
+from
+six
+.
+moves
+.
+configparser
 import
-ConfigParser
+SafeConfigParser
 import
 os
 import
@@ -149,8 +155,6 @@ config_path
     
 parser
 =
-ConfigParser
-.
 SafeConfigParser
 (
 )

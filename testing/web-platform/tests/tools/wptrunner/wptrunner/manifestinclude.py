@@ -51,8 +51,17 @@ import
 glob
 import
 os
+from
+six
+.
+moves
+.
+urllib
+.
+parse
 import
 urlparse
+urlsplit
 from
 wptmanifest
 .
@@ -459,8 +468,6 @@ rv
         
 url_parts
 =
-urlparse
-.
 urlsplit
 (
 url
@@ -760,8 +767,6 @@ fragment
                             
 parsed
 =
-urlparse
-.
 urlparse
 (
 url

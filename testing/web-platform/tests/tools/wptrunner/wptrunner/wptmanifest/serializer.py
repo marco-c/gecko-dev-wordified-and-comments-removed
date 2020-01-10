@@ -1,4 +1,5 @@
 from
+.
 node
 import
 NodeVisitor
@@ -6,6 +7,7 @@ ValueNode
 ListNode
 BinaryExpressionNode
 from
+.
 parser
 import
 atoms
@@ -29,7 +31,7 @@ v
 in
 atoms
 .
-iteritems
+items
 (
 )
 }

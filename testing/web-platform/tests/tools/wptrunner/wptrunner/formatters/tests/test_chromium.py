@@ -10,8 +10,12 @@ import
 dirname
 join
 from
-StringIO
+six
+.
+moves
 import
+cStringIO
+as
 StringIO
 from
 mozlog

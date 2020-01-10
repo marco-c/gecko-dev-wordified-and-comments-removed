@@ -1,8 +1,12 @@
 import
 unittest
 from
-cStringIO
+six
+.
+moves
 import
+cStringIO
+as
 StringIO
 from
 .

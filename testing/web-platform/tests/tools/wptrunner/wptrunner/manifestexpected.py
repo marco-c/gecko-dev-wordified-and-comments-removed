@@ -1,7 +1,15 @@
 import
 os
+from
+six
+.
+moves
+.
+urllib
+.
+parse
 import
-urlparse
+urljoin
 from
 collections
 import
@@ -1661,14 +1669,12 @@ self
 :
         
 return
-urlparse
-.
 urljoin
 (
 self
 .
 url_base
-                                
+                       
 "
 /
 "
@@ -2313,8 +2319,6 @@ self
 :
         
 return
-urlparse
-.
 urljoin
 (
 self
