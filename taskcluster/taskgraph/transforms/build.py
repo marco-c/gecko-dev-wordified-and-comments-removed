@@ -575,6 +575,19 @@ name
 {
                     
 '
+project
+'
+:
+config
+.
+params
+[
+'
+project
+'
+]
+                    
+'
 release
 -
 type
