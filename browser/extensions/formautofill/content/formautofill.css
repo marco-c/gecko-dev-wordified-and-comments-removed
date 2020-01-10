@@ -190,7 +190,8 @@ none
 #
 PopupAutoComplete
 [
-firstresultstyle
+resultstyles
+~
 =
 "
 autofill
@@ -211,7 +212,8 @@ important
 #
 PopupAutoComplete
 [
-firstresultstyle
+resultstyles
+~
 =
 "
 autofill
