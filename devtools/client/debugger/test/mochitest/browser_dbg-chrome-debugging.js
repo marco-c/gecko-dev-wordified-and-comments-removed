@@ -130,7 +130,6 @@ transport
 function
 onNewSource
 (
-event
 packet
 )
 {
@@ -172,7 +171,7 @@ url
 ;
 gThreadClient
 .
-removeListener
+off
 (
 "
 newSource
@@ -335,7 +334,7 @@ mozilla
 ;
 gThreadClient
 .
-addListener
+on
 (
 "
 newSource

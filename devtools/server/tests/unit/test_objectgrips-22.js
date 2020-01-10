@@ -66,7 +66,7 @@ resolve
 {
 threadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
@@ -74,7 +74,6 @@ paused
 async
 function
 (
-event
 packet
 )
 {

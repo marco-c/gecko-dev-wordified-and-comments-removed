@@ -101,7 +101,7 @@ test_simple_breakpoint
 {
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
@@ -109,7 +109,6 @@ paused
 async
 function
 (
-event
 packet
 )
 {
@@ -163,14 +162,13 @@ Error
 ;
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

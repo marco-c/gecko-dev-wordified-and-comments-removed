@@ -1080,7 +1080,7 @@ Promise
 <
 *
 >
-addListener
+on
 :
 (
 string

@@ -564,7 +564,7 @@ this
 .
 threadClient
 .
-addListener
+on
 (
 "
 paused
@@ -583,7 +583,7 @@ this
 .
 threadClient
 .
-addListener
+on
 (
 "
 resumed
@@ -602,7 +602,7 @@ this
 .
 threadClient
 .
-addListener
+on
 (
 "
 progress
@@ -894,7 +894,6 @@ minSize
 }
 onPaused
 (
-_
 packet
 )
 {
@@ -953,7 +952,6 @@ closestMessage
 }
 onResumed
 (
-_
 packet
 )
 {
@@ -974,7 +972,6 @@ null
 }
 onProgress
 (
-_
 packet
 )
 {

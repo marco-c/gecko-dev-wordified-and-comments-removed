@@ -1306,7 +1306,7 @@ threadClient
 ;
 threadClient
 .
-addListener
+on
 (
 "
 paused
@@ -1316,7 +1316,7 @@ onPaused
 ;
 threadClient
 .
-addListener
+on
 (
 "
 resumed
@@ -1338,7 +1338,7 @@ destroyed
 {
 threadClient
 .
-removeListener
+off
 (
 "
 paused
@@ -1348,7 +1348,7 @@ onPaused
 ;
 threadClient
 .
-removeListener
+off
 (
 "
 resumed

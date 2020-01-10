@@ -97,7 +97,7 @@ eventName
 {
 client
 .
-addListener
+on
 (
 eventName
 clientEvents
@@ -174,11 +174,6 @@ paused
 threadClient
 :
 ThreadClient
-_
-:
-"
-paused
-"
 packet
 :
 PausedPacket
@@ -313,11 +308,6 @@ resumed
 threadClient
 :
 ThreadClient
-_
-:
-"
-resumed
-"
 packet
 :
 ResumedPacket
@@ -349,11 +339,6 @@ newSource
 threadClient
 :
 ThreadClient
-_
-:
-"
-newSource
-"
 {
 source
 }

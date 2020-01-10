@@ -25,7 +25,7 @@ client
 )
 ;
 const
-eventSource
+EventEmitter
 =
 require
 (
@@ -34,11 +34,9 @@ devtools
 /
 shared
 /
-client
-/
 event
 -
-source
+emitter
 "
 )
 ;
@@ -1247,7 +1245,9 @@ progress
 ]
 }
 ;
-eventSource
+EventEmitter
+.
+decorate
 (
 ThreadClient
 .

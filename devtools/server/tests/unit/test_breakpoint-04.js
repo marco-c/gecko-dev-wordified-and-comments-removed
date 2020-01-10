@@ -26,7 +26,7 @@ resolve
 {
 threadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
@@ -34,7 +34,6 @@ paused
 async
 function
 (
-event
 packet
 )
 {
@@ -83,14 +82,13 @@ location
 ;
 threadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

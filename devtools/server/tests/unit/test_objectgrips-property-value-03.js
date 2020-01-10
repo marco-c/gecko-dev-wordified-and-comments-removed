@@ -329,14 +329,13 @@ reject
 {
 threadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {

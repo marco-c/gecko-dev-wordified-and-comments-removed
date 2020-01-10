@@ -135,7 +135,7 @@ test_black_box
 {
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
@@ -143,7 +143,6 @@ paused
 async
 function
 (
-event
 packet
 )
 {
@@ -328,14 +327,13 @@ sourceFront
 ;
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {
@@ -413,14 +411,13 @@ sourceFront
 ;
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused
 "
 function
 (
-event
 packet
 )
 {
@@ -448,7 +445,7 @@ again
 ;
 gThreadClient
 .
-addOneTimeListener
+once
 (
 "
 paused

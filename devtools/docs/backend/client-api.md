@@ -839,7 +839,7 @@ events
 .
 threadClient
 .
-addListener
+on
 (
 "
 paused
@@ -849,7 +849,7 @@ onPause
 ;
 threadClient
 .
-addListener
+on
 (
 "
 resumed
@@ -859,7 +859,7 @@ fooListener
 ;
 threadClient
 .
-addListener
+on
 (
 "
 detached
@@ -1261,7 +1261,7 @@ events
 .
 threadClient
 .
-addListener
+on
 (
 "
 paused
@@ -1271,7 +1271,7 @@ onPause
 ;
 threadClient
 .
-addListener
+on
 (
 "
 resumed
@@ -1281,7 +1281,7 @@ fooListener
 ;
 threadClient
 .
-addListener
+on
 (
 "
 detached
