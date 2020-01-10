@@ -1556,9 +1556,9 @@ next
 )
 ;
 #
-ifdef
+if
 DEBUG_EHABI_UNWIND
-NS_WARNING
+LOG
 (
 "
 unwind
@@ -2141,7 +2141,7 @@ continue
 #
 ifdef
 DEBUG_EHABI_UNWIND
-NS_WARNING
+LOG
 (
 "
 Unhandled
