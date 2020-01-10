@@ -343,13 +343,8 @@ host
 128
 ]
 ;
-int
-family
-;
 switch
 (
-family
-=
 ifreq
 .
 ifr_addr
