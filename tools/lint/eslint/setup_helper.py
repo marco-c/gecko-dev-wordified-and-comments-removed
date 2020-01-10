@@ -41,6 +41,12 @@ StrictVersion
 from
 mozbuild
 .
+util
+import
+ensure_subprocess_env
+from
+mozbuild
+.
 nodeutil
 import
 (
@@ -1026,7 +1032,10 @@ env
 .
 update
 (
+ensure_subprocess_env
+(
 append_env
+)
 )
     
 try
