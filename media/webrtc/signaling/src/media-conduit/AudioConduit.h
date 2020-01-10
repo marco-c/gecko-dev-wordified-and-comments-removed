@@ -313,7 +313,10 @@ int32_t
 samplingFreqHz
 int32_t
 capture_delay
-int
+size_t
+&
+numChannels
+size_t
 &
 lengthSamples
 )

@@ -1173,7 +1173,12 @@ short
 *
 inbuf
 ;
-int
+size_t
+numChannels
+=
+0
+;
+size_t
 sampleLengthDecoded
 =
 0
@@ -1475,6 +1480,7 @@ get
 )
 PLAYOUT_SAMPLE_FREQUENCY
 10
+numChannels
 sampleLengthDecoded
 )
 ;

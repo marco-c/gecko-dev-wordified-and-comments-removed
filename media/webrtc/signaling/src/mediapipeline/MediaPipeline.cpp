@@ -6716,8 +6716,8 @@ mPlayedTicks
 aDesiredTime
 )
 {
-const
-int
+constexpr
+size_t
 scratchBufferLength
 =
 AUDIO_SAMPLE_BUFFER_MAX_BYTES
@@ -6733,7 +6733,12 @@ scratchBuffer
 scratchBufferLength
 ]
 ;
-int
+size_t
+channelCount
+=
+0
+;
+size_t
 samplesLength
 =
 scratchBufferLength
@@ -6760,6 +6765,7 @@ GetAudioFrame
 scratchBuffer
 mRate
 0
+channelCount
 samplesLength
 )
 ;
@@ -6819,6 +6825,10 @@ aDesiredTime
 )
 )
 ;
+channelCount
+=
+1
+;
 samplesLength
 =
 samplesPer10ms
@@ -6853,7 +6863,7 @@ buffer
 of
 length
 %
-u
+zu
 "
 samplesLength
 )
@@ -6898,13 +6908,6 @@ Data
 ;
 AudioSegment
 segment
-;
-uint32_t
-channelCount
-=
-samplesLength
-/
-samplesPer10ms
 ;
 AutoTArray
 <
