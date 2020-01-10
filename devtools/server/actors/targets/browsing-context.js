@@ -880,6 +880,11 @@ return
 this
 .
 docShell
+&
+&
+this
+.
+docShell
 .
 domWindow
 ;
