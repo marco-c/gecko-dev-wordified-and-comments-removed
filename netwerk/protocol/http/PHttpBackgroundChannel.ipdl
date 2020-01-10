@@ -257,6 +257,7 @@ net
 -
 -
 async
+refcounted
 protocol
 PHttpBackgroundChannel
 {
