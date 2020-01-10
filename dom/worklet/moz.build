@@ -132,7 +132,7 @@ WorkletImpl
 h
 '
 '
-WorkletPrincipal
+WorkletPrincipals
 .
 h
 '
@@ -162,7 +162,7 @@ WorkletImpl
 cpp
 '
 '
-WorkletPrincipal
+WorkletPrincipals
 .
 cpp
 '
