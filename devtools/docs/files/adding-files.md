@@ -284,7 +284,7 @@ layout
 #
 #
 #
-Cu
+ChromeUtils
 .
 import
 (
@@ -371,7 +371,7 @@ modules
 are
 loaded
 using
-Cu
+ChromeUtils
 .
 import
 (
@@ -483,7 +483,12 @@ jsm
 Usage
 :
 *
-Cu
+const
+{
+loader
+}
+=
+ChromeUtils
 .
 import
 (
@@ -552,7 +557,12 @@ jsm
 "
 )
 *
-Cu
+const
+{
+gDevTools
+}
+=
+ChromeUtils
 .
 import
 (

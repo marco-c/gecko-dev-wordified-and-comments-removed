@@ -19,6 +19,9 @@ ExtensionData
 "
 Langpack
 "
+"
+Management
+"
 ]
 ;
 const

@@ -167,6 +167,9 @@ EXPORTED_SYMBOLS
 "
 DevToolsWorker
 "
+"
+workerify
+"
 ]
 ;
 }

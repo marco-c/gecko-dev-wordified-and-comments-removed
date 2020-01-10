@@ -607,6 +607,11 @@ newRecordingFile
 (
 )
 {
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -624,7 +629,6 @@ osfile
 .
 jsm
 "
-this
 )
 ;
 return

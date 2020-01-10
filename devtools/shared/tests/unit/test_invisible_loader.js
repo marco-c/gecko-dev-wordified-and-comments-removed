@@ -152,8 +152,6 @@ Promise
 .
 jsm
 "
-{
-}
 )
 .
 Promise

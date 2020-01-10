@@ -38,8 +38,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 const

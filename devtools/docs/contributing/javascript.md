@@ -439,7 +439,7 @@ foo
 bar
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -448,8 +448,6 @@ import
 .
 .
 "
-{
-}
 )
 ;
 *

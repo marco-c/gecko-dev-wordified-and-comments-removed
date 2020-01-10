@@ -25,8 +25,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

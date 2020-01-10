@@ -4,11 +4,10 @@ strict
 "
 ;
 const
-BrowserLoaderModule
-=
 {
+BrowserLoader
 }
-;
+=
 ChromeUtils
 .
 import
@@ -30,7 +29,6 @@ loader
 .
 js
 "
-BrowserLoaderModule
 )
 ;
 const
@@ -38,8 +36,6 @@ const
 require
 }
 =
-BrowserLoaderModule
-.
 BrowserLoader
 (
 {

@@ -200,8 +200,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const

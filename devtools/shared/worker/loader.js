@@ -1604,7 +1604,6 @@ Timer
 .
 jsm
 "
-null
 )
 ;
 const

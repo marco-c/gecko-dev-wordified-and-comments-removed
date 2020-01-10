@@ -25,8 +25,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

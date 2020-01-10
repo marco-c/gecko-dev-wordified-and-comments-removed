@@ -126,7 +126,6 @@ worker
 .
 js
 "
-null
 )
 )
 ;
@@ -307,7 +306,6 @@ worker
 .
 js
 "
-null
 )
 ;
 const
