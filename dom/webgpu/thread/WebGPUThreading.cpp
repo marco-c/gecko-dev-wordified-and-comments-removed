@@ -253,6 +253,13 @@ GetLoop
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 return
 sWebGPUThread
 ?
