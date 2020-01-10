@@ -27382,6 +27382,17 @@ displaySize
 minScale
 )
 ;
+if
+(
+!
+StaticPrefs
+:
+:
+layout_viewport_contains_no_contents_area
+(
+)
+)
+{
 mMinimumScaleSize
 =
 Min
@@ -27402,6 +27413,7 @@ YMost
 )
 )
 ;
+}
 mMinimumScaleSize
 =
 Max
