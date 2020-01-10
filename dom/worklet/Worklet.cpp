@@ -676,7 +676,7 @@ new
 WorkletFetchHandler
 (
 aWorklet
-aModuleURL
+spec
 promise
 )
 ;
@@ -1201,7 +1201,7 @@ NS_ERROR_DOM_NETWORK_ERR
 ;
 }
 const
-nsString
+nsCString
 &
 URL
 (
@@ -1257,7 +1257,7 @@ Worklet
 *
 aWorklet
 const
-nsAString
+nsACString
 &
 aURL
 Promise
@@ -1558,7 +1558,7 @@ mStatus
 nsresult
 mErrorStatus
 ;
-nsString
+nsCString
 mURL
 ;
 }
@@ -1673,17 +1673,6 @@ GetGlobalJSObject
 )
 )
 ;
-NS_ConvertUTF16toUTF8
-url
-(
-mHandler
--
->
-URL
-(
-)
-)
-;
 JS
 :
 :
@@ -1706,7 +1695,12 @@ compileOptions
 .
 setFileAndLine
 (
-url
+mHandler
+-
+>
+URL
+(
+)
 .
 get
 (
