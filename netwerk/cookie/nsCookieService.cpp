@@ -18174,7 +18174,10 @@ if
 (
 StoragePartitioningEnabled
 (
-aInputRejectedReason
+nsIWebProgressListener
+:
+:
+STATE_COOKIES_BLOCKED_TRACKER
 aCookieSettings
 )
 )
