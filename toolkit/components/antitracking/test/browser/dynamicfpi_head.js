@@ -638,10 +638,6 @@ cleanupFunction
 )
 ;
 }
-forceGC
-(
-)
-;
 }
 )
 ;

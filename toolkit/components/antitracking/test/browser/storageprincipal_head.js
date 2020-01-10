@@ -649,10 +649,6 @@ cleanupTestTrackers
 (
 )
 ;
-forceGC
-(
-)
-;
 }
 )
 ;
