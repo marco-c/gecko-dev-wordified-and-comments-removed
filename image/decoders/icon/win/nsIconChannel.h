@@ -294,6 +294,7 @@ HICON
 hIcon
 )
 ;
+MOZ_MUST_USE
 nsresult
 MakeInputStream
 (

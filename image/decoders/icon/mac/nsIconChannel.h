@@ -177,6 +177,7 @@ nsIStreamListener
 >
 mListener
 ;
+MOZ_MUST_USE
 nsresult
 MakeInputStream
 (
