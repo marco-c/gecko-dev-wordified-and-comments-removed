@@ -2390,7 +2390,7 @@ class
 MediaStreamTrackListener
 ;
 class
-VideoFrameListener
+FirstFrameListener
 ;
 class
 ShutdownObserver
@@ -3396,9 +3396,9 @@ mNextAvailableMediaDecoderOutputTrackID
 ;
 RefPtr
 <
-VideoFrameListener
+FirstFrameListener
 >
-mVideoFrameListener
+mFirstFrameListener
 ;
 RefPtr
 <
