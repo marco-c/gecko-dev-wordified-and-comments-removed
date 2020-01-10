@@ -1477,16 +1477,6 @@ aOutArrayOfNodes
 )
 const
 ;
-nsIContent
-*
-GetHighestInlineParent
-(
-nsINode
-&
-aNode
-)
-const
-;
 void
 MakeTransitionList
 (

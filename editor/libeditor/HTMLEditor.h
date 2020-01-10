@@ -2734,6 +2734,16 @@ EditorDOMPoint
 aInsertToBreak
 )
 ;
+nsIContent
+*
+GetMostAncestorInlineElement
+(
+nsINode
+&
+aNode
+)
+const
+;
 protected
 :
 virtual
