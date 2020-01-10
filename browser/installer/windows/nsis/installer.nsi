@@ -6372,6 +6372,10 @@ FileMainEXE
 }
 \
 "
+-
+first
+-
+startup
 "
 {
 Else
@@ -6442,6 +6446,10 @@ FileMainEXE
 }
 \
 "
+-
+first
+-
+startup
 "
 FunctionEnd
 Function

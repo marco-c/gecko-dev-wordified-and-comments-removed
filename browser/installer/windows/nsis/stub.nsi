@@ -10791,6 +10791,10 @@ reset
 profile
 -
 migration
+-
+first
+-
+startup
 "
 {
 Else
@@ -10808,6 +10812,10 @@ FileMainEXE
 }
 \
 "
+-
+first
+-
+startup
 "
 {
 EndIf
@@ -10882,6 +10890,10 @@ reset
 profile
 -
 migration
+-
+first
+-
+startup
 "
 {
 Else
@@ -10899,6 +10911,10 @@ FileMainEXE
 }
 \
 "
+-
+first
+-
+startup
 "
 {
 EndIf
