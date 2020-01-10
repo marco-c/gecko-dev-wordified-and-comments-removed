@@ -219,7 +219,7 @@ cxxflags
 mozbuild
 '
 )
-SOURCES
+UNIFIED_SOURCES
 =
 [
 '
