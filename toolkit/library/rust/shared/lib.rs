@@ -20,6 +20,10 @@ geckoservo
 ;
 extern
 crate
+mapped_hyph
+;
+extern
+crate
 kvstore
 ;
 extern
