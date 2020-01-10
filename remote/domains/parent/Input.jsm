@@ -202,7 +202,7 @@ this
 executeInChild
 (
 "
-addContentEventListener
+_addContentEventListener
 "
 domType
 )
@@ -352,7 +352,7 @@ this
 executeInChild
 (
 "
-doDocShellCommand
+_doDocShellCommand
 "
 "
 cmd_deleteWordBackward
@@ -389,7 +389,7 @@ this
 executeInChild
 (
 "
-doDocShellCommand
+_doDocShellCommand
 "
 "
 cmd_deleteToBeginningOfLine
@@ -405,7 +405,7 @@ this
 executeInChild
 (
 "
-waitForContentEvent
+_waitForContentEvent
 "
 eventId
 )

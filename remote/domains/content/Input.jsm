@@ -69,7 +69,7 @@ Map
 )
 ;
 }
-addContentEventListener
+_addContentEventListener
 (
 eventName
 )
@@ -130,7 +130,7 @@ _eventId
 ;
 }
 async
-waitForContentEvent
+_waitForContentEvent
 (
 eventId
 )
@@ -183,7 +183,7 @@ eventId
 )
 ;
 }
-doDocShellCommand
+_doDocShellCommand
 (
 command
 )
