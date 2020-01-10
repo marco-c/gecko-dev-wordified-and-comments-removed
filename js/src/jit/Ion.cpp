@@ -4968,6 +4968,7 @@ i
 trace
 (
 trc
+this
 )
 ;
 }
@@ -5388,9 +5389,9 @@ getICFromIndex
 i
 )
 .
-updateBaseAddress
+resetCodeRaw
 (
-method_
+this
 )
 ;
 }
@@ -5948,6 +5949,7 @@ i
 reset
 (
 zone
+this
 )
 ;
 }

@@ -3092,7 +3092,7 @@ rejoin
 cache
 -
 >
-setRejoinLabel
+setRejoinOffset
 (
 CodeOffset
 (
@@ -3166,12 +3166,15 @@ cacheIndex
 ic
 -
 >
-setFallbackLabel
+setFallbackOffset
+(
+CodeOffset
 (
 masm
 .
-labelForPatch
+currentOffset
 (
+)
 )
 )
 ;

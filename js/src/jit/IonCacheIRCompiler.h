@@ -125,9 +125,6 @@ PropertyTypeCheckInfo
 *
 typeCheckInfo_
 ;
-CodeOffsetJump
-rejoinOffset_
-;
 Vector
 <
 CodeOffset
