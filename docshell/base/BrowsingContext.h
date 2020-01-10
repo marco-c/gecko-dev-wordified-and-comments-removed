@@ -101,6 +101,9 @@ nsILoadInfo
 h
 "
 class
+nsDocShellLoadState
+;
+class
 nsGlobalWindowOuter
 ;
 class
@@ -593,6 +596,17 @@ bool
 aFromIPC
 =
 false
+)
+;
+void
+LoadURI
+(
+BrowsingContext
+*
+aAccessor
+nsDocShellLoadState
+*
+aLoadState
 )
 ;
 bool
