@@ -38,6 +38,11 @@ const
 DEFAULT_CONTENT
 =
 {
+layout
+:
+"
+addon_recommendation
+"
 category
 :
 "
@@ -218,6 +223,11 @@ const
 L10N_CONTENT
 =
 {
+layout
+:
+"
+addon_recommendation
+"
 category
 :
 "
