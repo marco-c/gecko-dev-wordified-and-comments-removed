@@ -278,6 +278,10 @@ fails
 if
 (
 webrender
+&
+&
+!
+Android
 )
 =
 =
