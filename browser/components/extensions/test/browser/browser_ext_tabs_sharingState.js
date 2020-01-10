@@ -59,11 +59,14 @@ com
 ;
 gBrowser
 .
-setBrowserSharing
+updateBrowserSharing
 (
 tab
 .
 linkedBrowser
+{
+webRTC
+:
 {
 sharing
 :
@@ -89,6 +92,7 @@ Ci
 nsIMediaManagerService
 .
 STATE_CAPTURE_ENABLED
+}
 }
 )
 ;
@@ -129,6 +133,8 @@ state
 testTab
 .
 sharingState
+.
+webRTC
 ;
 browser
 .
@@ -404,6 +410,8 @@ state
 tab
 .
 sharingState
+.
+webRTC
 ;
 browser
 .
@@ -540,13 +548,11 @@ ready
 ;
 gBrowser
 .
-setBrowserSharing
+resetBrowserSharing
 (
 tab
 .
 linkedBrowser
-{
-}
 )
 ;
 await
