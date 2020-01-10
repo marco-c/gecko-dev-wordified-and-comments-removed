@@ -2385,6 +2385,16 @@ lstrip
 .
 '
 )
+.
+replace
+(
+'
+.
+'
+'
+_
+'
+)
 )
 GENERATED_FILES
 [
