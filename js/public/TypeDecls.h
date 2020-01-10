@@ -58,11 +58,6 @@ JSString
 namespace
 js
 {
-using
-FreeOp
-=
-JSFreeOp
-;
 class
 TempAllocPolicy
 ;

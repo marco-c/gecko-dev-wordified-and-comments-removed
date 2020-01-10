@@ -125,9 +125,6 @@ TypeDecls
 .
 h
 "
-struct
-JSFreeOp
-;
 namespace
 js
 {
