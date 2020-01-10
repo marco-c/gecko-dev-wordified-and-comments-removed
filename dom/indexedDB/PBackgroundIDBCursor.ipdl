@@ -261,6 +261,17 @@ objectKey
 ;
 }
 ;
+/
+/
+TODO
+:
+All
+cursor
+responses
+must
+be
+arrays
+!
 union
 CursorResponse
 {
