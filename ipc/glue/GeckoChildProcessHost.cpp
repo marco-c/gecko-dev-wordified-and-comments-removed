@@ -960,14 +960,6 @@ mProcessType
 }
 nsCOMPtr
 <
-nsIEventTarget
->
-GetIPCLauncher
-(
-)
-;
-nsCOMPtr
-<
 nsISerialEventTarget
 >
 mLaunchThread
@@ -4032,9 +4024,6 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-BaseProcessLauncher
-:
-:
 GetIPCLauncher
 (
 )
@@ -4184,9 +4173,6 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-BaseProcessLauncher
-:
-:
 GetIPCLauncher
 (
 )
