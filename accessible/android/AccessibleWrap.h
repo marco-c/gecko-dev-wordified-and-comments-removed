@@ -173,6 +173,16 @@ bool
 aSelect
 )
 ;
+virtual
+void
+SetSelection
+(
+int32_t
+aStart
+int32_t
+aEnd
+)
+;
 mozilla
 :
 :

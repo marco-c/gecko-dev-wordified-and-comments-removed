@@ -208,6 +208,17 @@ override
 ;
 virtual
 void
+SetSelection
+(
+int32_t
+aStart
+int32_t
+aEnd
+)
+override
+;
+virtual
+void
 ExploreByTouch
 (
 float
