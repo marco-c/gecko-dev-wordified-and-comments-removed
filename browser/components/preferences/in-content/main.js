@@ -4402,7 +4402,7 @@ FxAccounts
 .
 config
 .
-promiseConnectAccountURI
+promiseSignInURI
 (
 "
 dev

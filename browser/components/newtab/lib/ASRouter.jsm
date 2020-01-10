@@ -8757,7 +8757,7 @@ FxAccounts
 .
 config
 .
-promiseConnectAccountURI
+promiseSignUpURI
 (
 "
 snippets

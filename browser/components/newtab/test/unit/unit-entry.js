@@ -1762,7 +1762,7 @@ args
 FxAccountsConfig
 :
 {
-promiseConnectAccountURI
+promiseEmailFirstURI
 (
 id
 )

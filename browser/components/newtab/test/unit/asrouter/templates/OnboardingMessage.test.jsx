@@ -256,7 +256,7 @@ set
 FxAccountsConfig
 "
 {
-promiseConnectAccountURI
+promiseEmailFirstURI
 :
 sandbox
 .
