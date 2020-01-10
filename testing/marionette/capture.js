@@ -447,14 +447,6 @@ flags
 ctx
 .
 DRAWWINDOW_DRAW_CARET
-|
-ctx
-.
-DRAWWINDOW_DRAW_VIEW
-|
-ctx
-.
-DRAWWINDOW_USE_WIDGET_LAYERS
 ;
 }
 ctx
