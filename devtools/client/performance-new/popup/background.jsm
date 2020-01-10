@@ -52,7 +52,9 @@ jsm
 )
 ;
 const
-Loader
+{
+loader
+}
 =
 ChromeUtils
 .
@@ -72,13 +74,6 @@ Loader
 jsm
 "
 )
-;
-const
-{
-loader
-}
-=
-Loader
 ;
 ChromeUtils
 .
