@@ -2945,7 +2945,7 @@ GTestMarkerPayload
 :
 :
 sNumSerialized
-0
+10
 )
 ;
 ASSERT_EQ
@@ -2972,7 +2972,7 @@ GTestMarkerPayload
 :
 :
 sNumDestroyed
-0
+10
 )
 ;
 static
@@ -3211,7 +3211,7 @@ GTestMarkerPayload
 :
 :
 sNumSerialized
-0
+10
 +
 0
 )
@@ -3224,7 +3224,7 @@ GTestMarkerPayload
 sNumDeserialized
 0
 +
-0
+10
 )
 ;
 ASSERT_EQ
@@ -3244,9 +3244,9 @@ GTestMarkerPayload
 :
 :
 sNumDestroyed
-0
+10
 +
-0
+10
 )
 ;
 for
@@ -3889,7 +3889,7 @@ GTestMarkerPayload
 :
 :
 sNumSerialized
-0
+10
 +
 0
 +
@@ -3904,7 +3904,7 @@ GTestMarkerPayload
 sNumDeserialized
 0
 +
-0
+10
 +
 0
 )
@@ -3928,11 +3928,11 @@ GTestMarkerPayload
 :
 :
 sNumDestroyed
-0
-+
-0
+10
 +
 10
++
+0
 )
 ;
 for
@@ -4009,7 +4009,7 @@ GTestMarkerPayload
 :
 :
 sNumSerialized
-0
+10
 +
 0
 +
@@ -4026,7 +4026,7 @@ GTestMarkerPayload
 sNumDeserialized
 0
 +
-0
+10
 +
 0
 +
@@ -4054,11 +4054,11 @@ GTestMarkerPayload
 :
 :
 sNumDestroyed
-0
-+
-0
+10
 +
 10
++
+0
 +
 10
 )
@@ -4210,7 +4210,7 @@ GTestMarkerPayload
 :
 :
 sNumSerialized
-0
+2
 )
 ;
 ASSERT_EQ
@@ -4219,7 +4219,7 @@ GTestMarkerPayload
 :
 :
 sNumDeserialized
-0
+1
 )
 ;
 ASSERT_EQ
@@ -4237,7 +4237,7 @@ GTestMarkerPayload
 :
 :
 sNumDestroyed
-1
+3
 )
 ;
 }
