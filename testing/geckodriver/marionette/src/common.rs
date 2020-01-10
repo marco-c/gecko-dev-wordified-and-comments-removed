@@ -461,6 +461,16 @@ is_none
 "
 )
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+option_option
+)
+]
 pub
 script
 :

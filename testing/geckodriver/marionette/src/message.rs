@@ -1054,9 +1054,6 @@ error
 =
 maybe_error
 {
-let
-_
-=
 seq
 .
 next_element
