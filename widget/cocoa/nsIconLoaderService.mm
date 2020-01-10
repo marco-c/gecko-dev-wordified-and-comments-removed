@@ -865,6 +865,16 @@ return
 rv
 ;
 }
+NSImage
+*
+newImage
+=
+mNativeIconImage
+;
+mNativeIconImage
+=
+nil
+;
 rv
 =
 mCompletionHandler
@@ -872,7 +882,7 @@ mCompletionHandler
 >
 OnComplete
 (
-mNativeIconImage
+newImage
 )
 ;
 return
