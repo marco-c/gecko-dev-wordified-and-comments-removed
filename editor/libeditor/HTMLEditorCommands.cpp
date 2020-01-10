@@ -4618,7 +4618,10 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 htmlEditor
+)
 -
 >
 AddZIndexAsAction
@@ -4803,7 +4806,10 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 htmlEditor
+)
 -
 >
 AddZIndexAsAction

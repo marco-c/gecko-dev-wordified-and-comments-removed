@@ -1046,6 +1046,7 @@ Element
 aElement
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 AddZIndexAsAction
 (
@@ -4954,6 +4955,15 @@ MOZ_MUST_USE
 EditActionResult
 SetSelectionToStaticAsSubAction
 (
+)
+;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+EditActionResult
+AddZIndexAsSubAction
+(
+int32_t
+aChange
 )
 ;
 protected
