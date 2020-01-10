@@ -818,7 +818,7 @@ key
 :
 study
 .
-slug
+name
 study
 translations
 }
@@ -896,7 +896,7 @@ key
 :
 study
 .
-slug
+name
 study
 translations
 }
@@ -1053,12 +1053,12 @@ data
 -
 study
 -
-slug
+name
 "
 :
 study
 .
-slug
+name
 }
 r
 (
@@ -1076,7 +1076,7 @@ icon
 }
 study
 .
-userFacingName
+name
 .
 replace
 (
@@ -1090,7 +1090,6 @@ on
 -
 ?
 /
-i
 "
 "
 )
@@ -1104,7 +1103,6 @@ study
 -
 ?
 /
-i
 "
 "
 )
@@ -1159,7 +1157,7 @@ name
 }
 study
 .
-userFacingName
+name
 )
 r
 (
@@ -1216,7 +1214,7 @@ description
 }
 study
 .
-userFacingDescription
+description
 )
 )
 r
@@ -1301,14 +1299,7 @@ PropTypes
 number
 .
 isRequired
-slug
-:
-PropTypes
-.
-string
-.
-isRequired
-userFacingName
+name
 :
 PropTypes
 .
@@ -1322,7 +1313,7 @@ PropTypes
 bool
 .
 isRequired
-userFacingDescription
+description
 :
 PropTypes
 .
@@ -1619,7 +1610,7 @@ data
 -
 study
 -
-slug
+name
 "
 :
 study

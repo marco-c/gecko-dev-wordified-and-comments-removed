@@ -186,7 +186,7 @@ withStudies
 addonStudyFactory
 (
 {
-slug
+name
 :
 "
 test
@@ -308,7 +308,7 @@ withStudies
 addonStudyFactory
 (
 {
-slug
+name
 :
 "
 test
@@ -410,7 +410,7 @@ withStudies
 addonStudyFactory
 (
 {
-slug
+name
 :
 "
 test
@@ -422,7 +422,7 @@ study1
 addonStudyFactory
 (
 {
-slug
+name
 :
 "
 test
@@ -557,7 +557,7 @@ withStudies
 addonStudyFactory
 (
 {
-slug
+name
 :
 "
 foo
@@ -599,7 +599,7 @@ updatedStudy
 .
 .
 study
-slug
+name
 :
 "
 bar
@@ -876,7 +876,7 @@ addon_study
 "
 activeUninstalledStudy
 .
-slug
+name
 {
 addonId
 :
@@ -895,11 +895,6 @@ uninstalled
 -
 sideload
 "
-branch
-:
-AddonStudies
-.
-NO_BRANCHES_MARKER
 }
 ]
 "
