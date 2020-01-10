@@ -1059,11 +1059,13 @@ available
 [
 [
 -
-d
+x
 "
 {
 GECKO_PATH
 }
+/
+mach
 "
 ]
 ]
