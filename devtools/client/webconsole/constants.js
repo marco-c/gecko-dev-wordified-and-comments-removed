@@ -375,6 +375,17 @@ webconsole
 .
 groupWarningMessages
 "
+EDITOR
+:
+"
+devtools
+.
+webconsole
+.
+features
+.
+editor
+"
 }
 }
 }

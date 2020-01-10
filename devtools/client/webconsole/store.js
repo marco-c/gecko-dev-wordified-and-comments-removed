@@ -367,6 +367,18 @@ GROUP_WARNINGS
 )
 ;
 const
+editor
+=
+getBoolPref
+(
+PREFS
+.
+FEATURES
+.
+EDITOR
+)
+;
+const
 historyCount
 =
 getIntPref
@@ -393,6 +405,7 @@ jstermCodeMirror
 autocomplete
 historyCount
 groupWarnings
+editor
 }
 )
 filters

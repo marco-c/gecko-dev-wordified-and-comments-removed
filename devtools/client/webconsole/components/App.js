@@ -570,6 +570,13 @@ FILTERBAR_DISPLAY_MODES
 )
 .
 isRequired
+editorFeatureEnabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 }
 ;
 }
@@ -632,6 +639,7 @@ const
 {
 dispatch
 webConsoleUI
+editorFeatureEnabled
 }
 =
 this
@@ -719,6 +727,9 @@ stopPropagation
 }
 if
 (
+editorFeatureEnabled
+&
+&
 event
 .
 key
