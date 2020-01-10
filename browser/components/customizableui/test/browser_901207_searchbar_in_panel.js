@@ -48,6 +48,8 @@ activeElement
 searchbar
 .
 textbox
+.
+inputField
 ;
 }
 )
