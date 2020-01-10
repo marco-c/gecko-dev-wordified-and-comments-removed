@@ -3277,6 +3277,12 @@ dylib
 '
         
 '
+minidump
+-
+analyzer
+'
+        
+'
 pingsender
 '
         
@@ -3579,31 +3585,6 @@ bundle_dirs
 paths_keep_path
 =
 [
-                
-(
-'
-Contents
-/
-MacOS
-'
-[
-                    
-'
-crashreporter
-.
-app
-/
-Contents
-/
-MacOS
-/
-minidump
--
-analyzer
-'
-                
-]
-)
                 
 (
 '
