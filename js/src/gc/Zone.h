@@ -1266,14 +1266,6 @@ trc
 )
 ;
 void
-sweepBreakpoints
-(
-JSFreeOp
-*
-fop
-)
-;
-void
 sweepUniqueIds
 (
 )

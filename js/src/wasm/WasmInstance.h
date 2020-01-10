@@ -136,17 +136,6 @@ maybeDebug_
 StructTypeDescrVector
 structTypeDescrs_
 ;
-friend
-void
-Zone
-:
-:
-sweepBreakpoints
-(
-JSFreeOp
-*
-)
-;
 const
 void
 *
