@@ -172,6 +172,16 @@ visible
 "
 true
 ]
+[
+"
+security
+.
+data_uri
+.
+unique_opaque_origin
+"
+false
+]
 ]
 }
 )
