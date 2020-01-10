@@ -798,6 +798,11 @@ name
 )
 ;
 }
+template
+<
+typename
+T
+>
 void
 TraceCrossCompartmentEdge
 (
@@ -809,7 +814,7 @@ JSObject
 src
 WriteBarriered
 <
-Value
+T
 >
 *
 dst
