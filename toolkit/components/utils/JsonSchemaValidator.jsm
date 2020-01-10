@@ -140,16 +140,6 @@ if
 properties
 .
 enum
-&
-&
-typeof
-param
-!
-=
-=
-"
-boolean
-"
 )
 {
 if
