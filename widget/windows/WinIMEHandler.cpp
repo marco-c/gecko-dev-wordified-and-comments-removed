@@ -3321,10 +3321,10 @@ mozilla
 gfx
 :
 :
-VRFxIMEState
+VRFxEventState
 :
 :
-Focus
+FOCUS
 )
 ;
 return
@@ -3484,10 +3484,10 @@ mozilla
 gfx
 :
 :
-VRFxIMEState
+VRFxEventState
 :
 :
-Blur
+BLUR
 )
 ;
 }
