@@ -629,6 +629,12 @@ BrowserParent
 >
 mBrowserParent
 ;
+nsTArray
+<
+DocumentChannelRedirect
+>
+mRedirects
+;
 uint32_t
 mRedirectChannelId
 =
@@ -646,11 +652,6 @@ false
 ;
 bool
 mOldApplyConversion
-=
-false
-;
-bool
-mDidUpstreamRedirect
 =
 false
 ;
