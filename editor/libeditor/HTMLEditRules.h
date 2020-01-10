@@ -1188,17 +1188,6 @@ aEditSubAction
 const
 ;
 void
-PromoteRange
-(
-nsRange
-&
-aRange
-EditSubAction
-aEditSubAction
-)
-const
-;
-void
 GetChildNodesForOperation
 (
 nsINode
