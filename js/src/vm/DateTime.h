@@ -271,7 +271,7 @@ Valid
 guard
 -
 >
-resetTimeZoneAdjustment
+updateTimeZoneAdjustment
 (
 )
 ;
@@ -432,7 +432,7 @@ ResyncICUDefaultTimeZone
 ;
 static
 void
-updateTimeZoneAdjustment
+resetTimeZoneAdjustment
 (
 ResetTimeZoneMode
 mode
@@ -451,7 +451,7 @@ lock
 guard
 -
 >
-internalUpdateTimeZoneAdjustment
+internalResetTimeZoneAdjustment
 (
 mode
 )
@@ -649,14 +649,14 @@ RangeExpansionAmount
 SecondsPerDay
 ;
 void
-internalUpdateTimeZoneAdjustment
+internalResetTimeZoneAdjustment
 (
 ResetTimeZoneMode
 mode
 )
 ;
 void
-resetTimeZoneAdjustment
+updateTimeZoneAdjustment
 (
 )
 ;

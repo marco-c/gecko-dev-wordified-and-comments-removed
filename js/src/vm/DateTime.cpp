@@ -574,7 +574,7 @@ js
 DateTimeInfo
 :
 :
-internalUpdateTimeZoneAdjustment
+internalResetTimeZoneAdjustment
 (
 ResetTimeZoneMode
 mode
@@ -631,7 +631,7 @@ js
 DateTimeInfo
 :
 :
-resetTimeZoneAdjustment
+updateTimeZoneAdjustment
 (
 )
 {
@@ -2398,7 +2398,7 @@ js
 DateTimeInfo
 :
 :
-updateTimeZoneAdjustment
+resetTimeZoneAdjustment
 (
 mode
 )
