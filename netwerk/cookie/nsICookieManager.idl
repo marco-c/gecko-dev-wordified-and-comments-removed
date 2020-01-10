@@ -846,7 +846,7 @@ in
 ACString
 aName
 in
-ACString
+AUTF8String
 aValue
 in
 boolean
@@ -884,7 +884,7 @@ in
 ACString
 aName
 in
-ACString
+AUTF8String
 aValue
 in
 boolean
