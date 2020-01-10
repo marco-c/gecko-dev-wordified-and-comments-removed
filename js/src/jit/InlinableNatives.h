@@ -339,6 +339,11 @@ IsRegExpObject
 \
 _
 (
+IsPossiblyWrappedRegExpObject
+)
+\
+_
+(
 RegExpPrototypeOptimizable
 )
 \

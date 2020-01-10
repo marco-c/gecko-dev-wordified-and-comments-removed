@@ -4732,6 +4732,14 @@ callInfo
 )
 ;
 InliningResult
+inlineIsPossiblyWrappedRegExpObject
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineRegExpPrototypeOptimizable
 (
 CallInfo
