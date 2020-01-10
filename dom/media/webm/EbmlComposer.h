@@ -156,11 +156,6 @@ uint8_t
 mCodecPrivateData
 ;
 uint64_t
-mCodecDelay
-=
-0
-;
-uint64_t
 mClusterTimecode
 =
 0
