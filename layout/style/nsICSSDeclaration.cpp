@@ -12,17 +12,6 @@ nsINode
 .
 h
 "
-#
-include
-"
-mozilla
-/
-css
-/
-Rule
-.
-h
-"
 using
 mozilla
 :

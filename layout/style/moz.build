@@ -544,11 +544,6 @@ GeckoBindings
 h
 '
 '
-ImportScanner
-.
-h
-'
-'
 LayerAnimationInfo
 .
 h
@@ -1023,11 +1018,6 @@ cpp
 '
 '
 ImageLoader
-.
-cpp
-'
-'
-ImportScanner
 .
 cpp
 '

@@ -97,11 +97,6 @@ UNIFIED_SOURCES
 =
 [
 '
-ImportScannerTest
-.
-cpp
-'
-'
 StyloParsingBench
 .
 cpp
