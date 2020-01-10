@@ -190,7 +190,6 @@ toolbox
 target
 ;
 }
-async
 destroy
 (
 )
