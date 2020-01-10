@@ -10111,7 +10111,7 @@ dead_code
 ]
 pub
 fn
-get_allocated_size_for_render_task
+cache_item_is_allocated_for_render_task
 (
 &
 self
@@ -10126,10 +10126,7 @@ RenderTaskCacheKey
 )
 -
 >
-Option
-<
-usize
->
+bool
 {
 let
 handle
@@ -10161,7 +10158,7 @@ handle
 ;
 texture_cache
 .
-get_allocated_size
+is_allocated
 (
 &
 cache_entry
