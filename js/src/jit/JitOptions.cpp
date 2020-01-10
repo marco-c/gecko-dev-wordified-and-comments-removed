@@ -542,7 +542,7 @@ baselineInterpreterWarmUpThreshold
 ;
 SET_DEFAULT
 (
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 50
 )
 ;
@@ -932,7 +932,7 @@ baselineInterpreterWarmUpThreshold
 =
 0
 ;
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 =
 0
 ;

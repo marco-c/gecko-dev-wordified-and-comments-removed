@@ -267,7 +267,7 @@ uint32_t
 baselineInterpreterWarmUpThreshold
 ;
 uint32_t
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 ;
 uint32_t
 normalIonWarmUpThreshold

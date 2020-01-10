@@ -7738,7 +7738,7 @@ Imm32
 (
 JitOptions
 .
-baselineWarmUpThreshold
+baselineJitWarmUpThreshold
 )
 &
 done
