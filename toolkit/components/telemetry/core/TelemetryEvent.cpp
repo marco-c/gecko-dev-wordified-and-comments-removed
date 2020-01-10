@@ -6464,6 +6464,7 @@ Clear
 for
 (
 auto
+&
 pair
 :
 leftovers

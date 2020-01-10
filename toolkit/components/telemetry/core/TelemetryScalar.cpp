@@ -7842,6 +7842,7 @@ aIPCDefs
 for
 (
 auto
+&
 info
 :
 aDynamicScalarInfos
@@ -8056,6 +8057,7 @@ nsAtom
 for
 (
 auto
+&
 scalarInfo
 :
 scalarInfos
@@ -15931,6 +15933,7 @@ dynamicStubs
 for
 (
 auto
+&
 def
 :
 aDefs
