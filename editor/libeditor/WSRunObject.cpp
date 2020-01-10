@@ -1913,6 +1913,8 @@ lastCharIndex
 else
 if
 (
+afterRunObject
+.
 mEndReason
 &
 WSType
