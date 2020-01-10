@@ -177,7 +177,7 @@ CryptoBuffer
 Assign
 (
 const
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

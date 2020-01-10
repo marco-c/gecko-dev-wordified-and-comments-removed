@@ -99,7 +99,7 @@ uint8_t
 Assign
 (
 const
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
