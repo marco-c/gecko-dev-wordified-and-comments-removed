@@ -2037,16 +2037,6 @@ GPUDeviceData
 aData
 )
 ;
-virtual
-FT_Library
-GetFTLibrary
-(
-)
-{
-return
-nullptr
-;
-}
 bool
 HasVariationFontSupport
 (

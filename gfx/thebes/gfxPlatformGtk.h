@@ -217,12 +217,6 @@ FlushContentDrawing
 )
 override
 ;
-FT_Library
-GetFTLibrary
-(
-)
-override
-;
 static
 int32_t
 GetFontScaleDPI
