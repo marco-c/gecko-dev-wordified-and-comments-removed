@@ -132,12 +132,6 @@ customizeStart
 (
 )
 ;
-gURLBarHandler
-.
-customizeStart
-(
-)
-;
 }
 _afterCustomization
 (
@@ -233,12 +227,6 @@ gBrowser
 selectedBrowser
 .
 focus
-(
-)
-;
-gURLBarHandler
-.
-customizeEnd
 (
 )
 ;
