@@ -4486,12 +4486,6 @@ JSProto_Null
 key
 !
 =
-JSProto_AsyncFunction
-&
-&
-key
-!
-=
 JSProto_AsyncGeneratorFunction
 )
 {
@@ -4821,12 +4815,6 @@ continue
 }
 if
 (
-key
-=
-=
-JSProto_AsyncFunction
-|
-|
 key
 =
 =
