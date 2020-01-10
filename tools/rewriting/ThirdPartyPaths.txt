@@ -83,6 +83,12 @@ devtools
 /
 shared
 /
+acorn
+/
+devtools
+/
+shared
+/
 heapsnapshot
 /
 CoreDump
