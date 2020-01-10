@@ -3829,7 +3829,7 @@ numOptionalArrays
 *
 sizeof
 (
-uint32_t
+Offset
 )
 ;
 size
@@ -3991,7 +3991,7 @@ SharedScriptData
 =
 alignof
 (
-uint32_t
+Offset
 )
 "
 Incompatible
@@ -4001,7 +4001,7 @@ alignment
 ;
 initElements
 <
-uint32_t
+Offset
 >
 (
 cursor
@@ -4015,7 +4015,7 @@ numOptionalArrays
 *
 sizeof
 (
-uint32_t
+Offset
 )
 ;
 optArrayOffset_
@@ -4048,7 +4048,7 @@ static_assert
 (
 sizeof
 (
-uint32_t
+Offset
 )
 >
 =
