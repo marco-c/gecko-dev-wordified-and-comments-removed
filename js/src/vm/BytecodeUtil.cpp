@@ -11021,7 +11021,7 @@ MOZ_ASSERT
 script
 -
 >
-function
+isFunction
 (
 )
 )

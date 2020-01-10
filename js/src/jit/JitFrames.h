@@ -325,7 +325,7 @@ token
 )
 -
 >
-module
+isModule
 (
 )
 ;

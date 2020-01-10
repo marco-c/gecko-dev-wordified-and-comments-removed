@@ -1136,7 +1136,7 @@ if
 script
 -
 >
-module
+isModule
 (
 )
 |

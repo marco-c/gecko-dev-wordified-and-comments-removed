@@ -537,12 +537,10 @@ isFunctionFrame
 const
 {
 return
-!
-!
 script_
 -
 >
-function
+isFunction
 (
 )
 ;
@@ -572,7 +570,7 @@ return
 script_
 -
 >
-module
+isModule
 (
 )
 ;

@@ -10387,7 +10387,7 @@ MOZ_ASSERT
 script
 -
 >
-module
+isModule
 (
 )
 )

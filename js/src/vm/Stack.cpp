@@ -5149,7 +5149,7 @@ script
 )
 -
 >
-function
+isFunction
 (
 )
 ;

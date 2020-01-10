@@ -1550,7 +1550,7 @@ hasName
 script
 -
 >
-function
+isFunction
 (
 )
 |

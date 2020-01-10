@@ -4687,7 +4687,7 @@ if
 script
 -
 >
-module
+isModule
 (
 )
 )
