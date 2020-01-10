@@ -269,6 +269,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+ChromeMacOSLoginCrypto
+.
+jsm
+'
+'
 SafariProfileMigrator
 .
 jsm
