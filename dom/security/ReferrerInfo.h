@@ -391,6 +391,12 @@ aOriginURI
 )
 ;
 static
+uint32_t
+GetUserReferrerSendingPolicy
+(
+)
+;
+static
 ReferrerPolicyEnum
 GetDefaultReferrerPolicy
 (
