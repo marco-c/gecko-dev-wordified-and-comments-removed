@@ -32911,11 +32911,6 @@ if
 ctorbox
 -
 >
-function
-(
-)
--
->
 isInterpretedLazy
 (
 )
