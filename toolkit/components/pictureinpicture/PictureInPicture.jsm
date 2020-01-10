@@ -802,8 +802,14 @@ pipLeft
 =
 isRTL
 ?
-0
+screenLeft
+.
+value
 :
+screenLeft
+.
+value
++
 screenWidth
 .
 value
@@ -813,6 +819,10 @@ resultWidth
 let
 pipTop
 =
+screenTop
+.
+value
++
 screenHeight
 .
 value
