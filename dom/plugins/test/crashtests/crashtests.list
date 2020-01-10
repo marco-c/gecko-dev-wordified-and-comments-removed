@@ -138,12 +138,6 @@ load
 598862
 .
 html
-skip
--
-if
-(
-Android
-)
 HTTP
 load
 626602
@@ -151,9 +145,6 @@ load
 1
 .
 html
-#
-bug
-908363
 HTTP
 load
 752340

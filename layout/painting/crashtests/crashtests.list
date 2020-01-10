@@ -4,12 +4,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-Android
-)
 load
 1407470
 -
@@ -34,12 +28,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-Android
-)
 load
 1418177
 -

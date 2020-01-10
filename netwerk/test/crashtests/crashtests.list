@@ -21,12 +21,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-Android
-)
 pref
 (
 privacy
