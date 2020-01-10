@@ -1137,7 +1137,12 @@ tabSession
 return
 GeckoResult
 .
+fromValue
+(
+AllowOrDeny
+.
 ALLOW
+)
 ;
 }
 }
