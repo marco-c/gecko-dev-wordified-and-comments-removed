@@ -112,11 +112,6 @@ DIRS
 =
 [
 '
-hybrid
--
-content
-'
-'
 pingsender
 '
 ]
