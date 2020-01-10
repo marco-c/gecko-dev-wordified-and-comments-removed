@@ -58,7 +58,6 @@ version
 :
    
 print
-(
 '
 Wrong
 Python
@@ -74,7 +73,6 @@ Need
 .
 6
 '
-)
    
 sys
 .
@@ -582,9 +580,7 @@ VERBOSE
 :
     
 print
-(
 msg
-)
 def
 TransposeMatrix
 (
@@ -736,7 +732,6 @@ VALID_UNIFORM_TYPES
 :
     
 print
-(
 "
 unknown
 type
@@ -744,7 +739,6 @@ name
 :
 "
 type_name
-)
     
 raise
 SyntaxError
@@ -1576,7 +1570,6 @@ text
 :
     
 print
-(
 "
 no
 matching
@@ -1585,7 +1578,6 @@ found
 :
 "
 s
-)
     
 raise
 RuntimeError
@@ -1718,7 +1710,6 @@ valid_tags
 :
       
 print
-(
 "
 unsupported
 tag
@@ -1727,16 +1718,13 @@ tag
 child
 .
 localName
-)
       
 print
-(
 "
 depth
 :
 "
 depth
-)
       
 raise
 SyntaxError
@@ -1861,9 +1849,7 @@ verbose
 :
       
 print
-(
 msg
-)
   
 def
 MakeOutPath
@@ -2098,7 +2084,6 @@ else
 :
           
 print
-(
 "
 Error
 in
@@ -2116,7 +2101,6 @@ s
 filename
 count
 line
-)
 )
           
 raise
@@ -3372,7 +3356,6 @@ uniform
 :
                 
 print
-(
 "
 utype
 was
@@ -3390,7 +3373,6 @@ found
 child
 .
 localName
-)
                 
 raise
 SyntaxError

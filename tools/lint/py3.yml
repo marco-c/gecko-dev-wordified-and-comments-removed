@@ -35,6 +35,12 @@ bindings
 -
 dom
 /
+canvas
+/
+test
+-
+dom
+/
 media
 /
 test
