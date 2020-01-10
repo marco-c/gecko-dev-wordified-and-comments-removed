@@ -124,11 +124,6 @@ pauseOnExceptions
 js
 '
 '
-previewPausedLocation
-.
-js
-'
-'
 resumed
 .
 js
