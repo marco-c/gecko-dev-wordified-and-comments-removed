@@ -103,7 +103,7 @@ AB_CD
 .
 jar
 :
-browser
+preview
 /
 protections
 .
@@ -122,7 +122,7 @@ protections
 .
 ftl
 )
-toolkit
+preview
 /
 certviewer
 .
