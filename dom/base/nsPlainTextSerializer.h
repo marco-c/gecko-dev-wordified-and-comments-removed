@@ -806,7 +806,7 @@ struct
 Indentation
 {
 int32_t
-mWidth
+mLength
 =
 0
 ;
@@ -887,7 +887,7 @@ mCiteQuoteLevel
 +
 mIndentation
 .
-mWidth
+mLength
 ;
 }
 Indentation
