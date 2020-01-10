@@ -423,8 +423,10 @@ channelId
 }
 catch
 (
-e
+e1
 )
+{
+try
 {
 channel
 =
@@ -437,6 +439,15 @@ Ci
 nsIWebSocketChannel
 )
 ;
+}
+catch
+(
+e2
+)
+{
+return
+;
+}
 id
 =
 channel
