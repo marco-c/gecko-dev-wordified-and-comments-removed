@@ -24,7 +24,7 @@ mozilla
 test
 ;
 struct
-SymantecCertHost
+SanctionsCertHost
 {
 const
 char
@@ -39,8 +39,8 @@ mCertName
 }
 ;
 const
-SymantecCertHost
-sSymantecCertHosts
+SanctionsCertHost
+sSanctionsCertHosts
 [
 ]
 =
@@ -60,6 +60,8 @@ example
 com
 "
 "
+symantec
+-
 ee
 -
 from
@@ -86,6 +88,8 @@ example
 com
 "
 "
+symantec
+-
 ee
 -
 from
@@ -114,6 +118,8 @@ example
 com
 "
 "
+symantec
+-
 ee
 -
 not
@@ -142,6 +148,8 @@ example
 com
 "
 "
+symantec
+-
 ee
 -
 not
@@ -164,6 +172,8 @@ example
 com
 "
 "
+symantec
+-
 ee
 -
 unaffected
@@ -301,7 +311,7 @@ aArg
 )
 {
 const
-SymantecCertHost
+SanctionsCertHost
 *
 host
 =
@@ -309,7 +319,7 @@ GetHostForSNI
 (
 aSrvNameArr
 aSrvNameArrSize
-sSymantecCertHosts
+sSanctionsCertHosts
 )
 ;
 if

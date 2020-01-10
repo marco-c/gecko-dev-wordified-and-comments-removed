@@ -102,7 +102,7 @@ OCSPStaplingServer
 '
     
 '
-SymantecSanctionsServer
+SanctionsTestServer
 '
     
 '

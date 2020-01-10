@@ -2882,7 +2882,7 @@ GenerateOCSPResponse
 "
                     
 "
-SymantecSanctionsServer
+SanctionsTestServer
 "
 ]
         

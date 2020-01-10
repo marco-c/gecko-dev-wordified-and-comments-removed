@@ -1836,7 +1836,7 @@ BadCertAndPinningServer
 OCSPStaplingServer
 *
 \
-SymantecSanctionsServer
+SanctionsTestServer
 *
 \
 GenerateOCSPResponse
