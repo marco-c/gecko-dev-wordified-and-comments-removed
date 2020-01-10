@@ -6169,6 +6169,18 @@ test
 '
             
 '
+testing
+/
+mozbase
+/
+moztest
+/
+tests
+/
+data
+'
+            
+'
 obj
 *
 '
