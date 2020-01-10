@@ -191,6 +191,8 @@ promiseAutocompleteResultPopup
 (
 {
 window
+:
+aWindow
 waitForFocus
 value
 }
