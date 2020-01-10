@@ -27957,7 +27957,7 @@ if
 StaticPrefs
 :
 :
-SmoothScrollEnabled
+general_smoothScroll
 (
 )
 &
@@ -27965,7 +27965,7 @@ SmoothScrollEnabled
 StaticPrefs
 :
 :
-WheelSmoothScrollEnabled
+general_smoothScroll_mouseWheel
 (
 )
 )

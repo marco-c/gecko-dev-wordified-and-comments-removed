@@ -617,7 +617,7 @@ if
 StaticPrefs
 :
 :
-SmoothScrollEnabled
+general_smoothScroll
 (
 )
 &
@@ -641,7 +641,7 @@ DOM_DELTA_LINE
 StaticPrefs
 :
 :
-WheelSmoothScrollEnabled
+general_smoothScroll_mouseWheel
 (
 )
 )
@@ -665,7 +665,7 @@ DOM_DELTA_PAGE
 StaticPrefs
 :
 :
-PageSmoothScrollEnabled
+general_smoothScroll_pages
 (
 )
 )
