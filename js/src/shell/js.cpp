@@ -23228,6 +23228,7 @@ GetShellContext
 cx
 )
 ;
+{
 LockGuard
 <
 Mutex
@@ -23368,6 +23369,14 @@ sleepDuration
 ;
 }
 }
+}
+Mutex
+:
+:
+ShutDown
+(
+)
+;
 }
 static
 bool
