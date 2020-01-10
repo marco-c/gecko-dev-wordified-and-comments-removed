@@ -3929,13 +3929,12 @@ serverLoader
 new
 DevToolsLoader
 (
-)
-;
-serverLoader
-.
+{
 invisibleToDebugger
-=
+:
 true
+}
+)
 ;
 const
 {

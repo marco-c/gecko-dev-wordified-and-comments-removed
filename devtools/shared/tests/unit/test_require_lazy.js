@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-devtools
+loader
 }
 =
 ChromeUtils
@@ -58,7 +58,7 @@ o
 {
 }
 ;
-devtools
+loader
 .
 lazyRequireGetter
 (
@@ -95,14 +95,14 @@ o2
 }
 ;
 const
-loader
+loader2
 =
 new
 DevToolsLoader
 (
 )
 ;
-loader
+loader2
 .
 require
 (
@@ -115,7 +115,7 @@ DevToolsUtils
 "
 )
 ;
-loader
+loader2
 .
 lazyRequireGetter
 (
@@ -140,7 +140,7 @@ asyncUtils
 const
 exposeLoader
 =
-loader
+loader2
 .
 require
 (

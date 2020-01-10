@@ -76,8 +76,6 @@ loaders
 [
 loader
 .
-provider
-.
 loader
 debuggerLoader
 .

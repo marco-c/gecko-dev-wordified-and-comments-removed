@@ -53,8 +53,6 @@ loaders
 [
 loader
 .
-provider
-.
 loader
 ]
 ;

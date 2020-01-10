@@ -61,13 +61,12 @@ loader
 new
 DevToolsLoader
 (
-)
-;
-loader
-.
+{
 invisibleToDebugger
-=
+:
 true
+}
+)
 ;
 customLoader
 =
