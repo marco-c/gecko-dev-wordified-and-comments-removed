@@ -136,6 +136,7 @@ setupEvents
 threadFront
 tabTarget
 actions
+debuggerClient
 }
 )
 ;

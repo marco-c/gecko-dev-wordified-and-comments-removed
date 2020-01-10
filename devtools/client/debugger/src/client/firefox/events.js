@@ -6,6 +6,7 @@ PausedPacket
 ThreadFront
 Actions
 Target
+DebuggerClient
 }
 from
 "
@@ -78,6 +79,9 @@ Target
 actions
 :
 Actions
+debuggerClient
+:
+DebuggerClient
 }
 ;
 let
@@ -144,6 +148,7 @@ const
 {
 tabTarget
 threadFront
+debuggerClient
 }
 =
 dependencies
@@ -185,7 +190,9 @@ worker
 )
 )
 ;
-tabTarget
+debuggerClient
+.
+mainRoot
 .
 on
 (
