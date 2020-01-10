@@ -232,9 +232,6 @@ TEMPLATES_ABOVE_PAGE
 trailhead
 "
 "
-fxa_overlay
-"
-"
 return_to_amo_overlay
 "
 "

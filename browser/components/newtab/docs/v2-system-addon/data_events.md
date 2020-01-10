@@ -1403,6 +1403,10 @@ pinned
 "
 search
 "
+|
+"
+spoc
+"
 ]
 "
 icon_type
@@ -1427,6 +1431,10 @@ rich_icon
 |
 "
 no_image
+"
+|
+"
+custom_screenshot
 "
 ]
 /
@@ -1868,6 +1876,10 @@ rich_icon
 "
 no_image
 "
+|
+"
+custom_screenshot
+"
 ]
 }
 /
@@ -2005,6 +2017,10 @@ pinned
 "
 search
 "
+|
+"
+spoc
+"
 ]
 "
 icon_type
@@ -2029,6 +2045,10 @@ rich_icon
 |
 "
 no_image
+"
+|
+"
+custom_screenshot
 "
 ]
 /
@@ -2469,6 +2489,10 @@ rich_icon
 "
 no_image
 "
+|
+"
+custom_screenshot
+"
 ]
 }
 /
@@ -2629,6 +2653,10 @@ rich_icon
 |
 "
 no_image
+"
+|
+"
+custom_screenshot
 "
 ]
 }
