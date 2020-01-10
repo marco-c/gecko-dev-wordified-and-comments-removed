@@ -1914,6 +1914,12 @@ friend
 class
 AutoEditActionDataSetter
 ;
+RefPtr
+<
+Element
+>
+mNewBlockElement
+;
 bool
 mDidDeleteSelection
 ;
@@ -1936,6 +1942,10 @@ Clear
 (
 )
 {
+mNewBlockElement
+=
+nullptr
+;
 mDidDeleteSelection
 =
 false

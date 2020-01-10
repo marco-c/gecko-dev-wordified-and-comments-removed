@@ -2162,12 +2162,6 @@ mJoinOffset
 ;
 RefPtr
 <
-Element
->
-mNewBlock
-;
-RefPtr
-<
 RangeItem
 >
 mRangeItem
