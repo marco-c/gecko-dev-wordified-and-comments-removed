@@ -987,8 +987,17 @@ get
 (
 )
 .
+flags
+.
 isNamedLambda
 (
+data
+.
+get
+(
+)
+.
+atom
 )
 data
 .
