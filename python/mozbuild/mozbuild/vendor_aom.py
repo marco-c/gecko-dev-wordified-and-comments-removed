@@ -34,7 +34,9 @@ sys
 import
 tarfile
 from
-urlparse
+urllib
+.
+parse
 import
 urlparse
 class

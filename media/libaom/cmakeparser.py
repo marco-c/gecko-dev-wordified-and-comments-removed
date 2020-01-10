@@ -1041,13 +1041,10 @@ APPEND
 :
                     
 if
-not
-variables
-.
-has_key
-(
 variable
-)
+not
+in
+variables
 :
                         
 variables
@@ -1116,13 +1113,10 @@ arguments
 ]
             
 if
-not
-variables
-.
-has_key
-(
 variable
-)
+not
+in
+variables
 :
                 
 variables
@@ -1193,13 +1187,10 @@ cache
 ]
                 
 if
-not
-variables
-.
-has_key
-(
 variable
-)
+not
+in
+variables
 :
                     
 variables
