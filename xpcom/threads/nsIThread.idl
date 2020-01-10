@@ -1325,5 +1325,16 @@ attribute
 TimeStamp
 lastLongNonIdleTaskEnd
 ;
+[
+noscript
+]
+void
+setNameForWakeupTelemetry
+(
+in
+ACString
+name
+)
+;
 }
 ;
