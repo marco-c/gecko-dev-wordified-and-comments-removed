@@ -17242,6 +17242,12 @@ InitializeHelperThreadPool
 (
 )
 ;
+SetHelperThreadTaskCallback
+(
+&
+DispatchOffThreadTask
+)
+;
 mozilla
 :
 :
