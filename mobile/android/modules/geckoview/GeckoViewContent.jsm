@@ -1615,6 +1615,9 @@ finder
 .
 findAgain
 (
+aData
+.
+searchString
 !
 !
 aData
