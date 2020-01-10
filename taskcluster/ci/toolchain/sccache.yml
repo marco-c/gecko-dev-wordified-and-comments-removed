@@ -349,9 +349,7 @@ manifests
 /
 win64
 /
-sccache
--
-build
+vs2017
 .
 manifest
 "

@@ -526,13 +526,9 @@ tooltool
 -
 manifests
 /
-win32
+win64
 /
-build
--
-clang
--
-cl
+vs2017
 .
 manifest
 "

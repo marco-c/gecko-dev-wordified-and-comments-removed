@@ -289,11 +289,9 @@ tooltool
 -
 manifests
 /
-win32
+win64
 /
-gn
--
-build
+vs2017
 .
 manifest
 "
