@@ -1234,6 +1234,19 @@ descriptors
 tofilter
 =
 [
+(
+lambda
+x
+:
+x
+.
+interface
+.
+isExternal
+(
+)
+False
+)
 ]
         
 for
@@ -1285,17 +1298,6 @@ getter
 lambda
 x
 :
-(
-not
-x
-.
-interface
-.
-isExternal
-(
-)
-and
-                                    
 x
 .
 interface
@@ -1303,7 +1305,6 @@ interface
 hasInterfaceObject
 (
 )
-)
             
 elif
 key
@@ -1319,24 +1320,12 @@ getter
 lambda
 x
 :
-(
-not
-x
-.
-interface
-.
-isExternal
-(
-)
-and
-                                    
 x
 .
 interface
 .
 hasInterfacePrototypeObject
 (
-)
 )
             
 elif
@@ -1378,28 +1367,6 @@ x
 interface
 .
 isCallback
-(
-)
-            
-elif
-key
-=
-=
-'
-isExternal
-'
-:
-                
-getter
-=
-lambda
-x
-:
-x
-.
-interface
-.
-isExternal
 (
 )
             
@@ -3896,20 +3863,8 @@ self
 )
 :
         
-if
-self
-.
-interface
-.
-isExternal
+return
 (
-)
-:
-            
-return
-False
-        
-return
 self
 .
 interface
@@ -3918,12 +3873,14 @@ hasInterfaceObject
 (
 )
 or
+                
 self
 .
 interface
 .
 hasInterfacePrototypeObject
 (
+)
 )
     
 property
@@ -3934,19 +3891,6 @@ hasNamedPropertiesObject
 self
 )
 :
-        
-if
-self
-.
-interface
-.
-isExternal
-(
-)
-:
-            
-return
-False
         
 return
 self
@@ -5256,16 +5200,6 @@ self
         
 return
 (
-not
-self
-.
-interface
-.
-isExternal
-(
-)
-and
-                
 self
 .
 interface
