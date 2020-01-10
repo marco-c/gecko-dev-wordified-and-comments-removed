@@ -1138,15 +1138,6 @@ webrtc
 mdns_service
 "
 ]
-moz_xbl
-=
-[
-"
-geckoservo
-/
-moz_xbl
-"
-]
 [
 lib
 ]
