@@ -80,6 +80,11 @@ CommandBar
 js
 '
 '
+DOMMutationBreakpoints
+.
+js
+'
+'
 EventListeners
 .
 js
@@ -129,6 +134,11 @@ DevToolsModules
 (
 '
 CommandBar
+.
+css
+'
+'
+DOMMutationBreakpoints
 .
 css
 '
