@@ -98,7 +98,7 @@ node
 ;
 const
 {
-DebuggerServer
+connectToFrame
 }
 =
 require
@@ -108,9 +108,11 @@ devtools
 /
 server
 /
-debugger
+connectors
+/
+frame
 -
-server
+connector
 "
 )
 ;
@@ -2661,8 +2663,6 @@ frame
 ;
 }
 return
-DebuggerServer
-.
 connectToFrame
 (
 this
