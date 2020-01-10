@@ -41,10 +41,6 @@ cpp
 "
 using
 namespace
-std
-;
-using
-namespace
 mozilla
 ;
 namespace
@@ -208,6 +204,9 @@ rawSampleRate
 unsigned
 size
 =
+std
+:
+:
 min
 (
 resampledLength
@@ -853,6 +852,9 @@ rawIndex
 int
 actualElevation
 =
+std
+:
+:
 min
 (
 elevation

@@ -12,10 +12,6 @@ HRTFElevation
 .
 h
 "
-using
-namespace
-std
-;
 namespace
 WebCore
 {

@@ -111,10 +111,6 @@ float
 v2
 )
 {
-using
-namespace
-std
-;
 return
 fabsf
 (
@@ -138,10 +134,6 @@ double
 v2
 )
 {
-using
-namespace
-std
-;
 return
 fabs
 (
@@ -349,8 +341,10 @@ f
 )
 {
 using
-namespace
 std
+:
+:
+numeric_limits
 ;
 static_assert
 (

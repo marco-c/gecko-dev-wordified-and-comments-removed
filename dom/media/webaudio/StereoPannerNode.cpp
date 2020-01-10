@@ -78,10 +78,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-std
-;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 StereoPannerNode
