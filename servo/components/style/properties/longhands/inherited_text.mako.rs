@@ -720,6 +720,11 @@ justify
 .
 enabled
 "
+has_effect_on_gecko_scrollbars
+=
+"
+False
+"
 flags
 =
 "
@@ -2653,6 +2658,9 @@ offset
 .
 enabled
 "
+has_effect_on_gecko_scrollbars
+=
+False
 spec
 =
 "
@@ -2743,6 +2751,9 @@ ink
 .
 enabled
 "
+has_effect_on_gecko_scrollbars
+=
+False
 spec
 =
 "
