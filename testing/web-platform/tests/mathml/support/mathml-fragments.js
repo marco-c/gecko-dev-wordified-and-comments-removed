@@ -702,9 +702,6 @@ class
 =
 '
 element
-mathml
--
-container
 '
 >
 \
@@ -755,9 +752,6 @@ class
 =
 '
 element
-mathml
--
-container
 '
 >
 \
@@ -823,9 +817,6 @@ class
 =
 '
 element
-mathml
--
-container
 '
 >
 \
