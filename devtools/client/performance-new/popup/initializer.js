@@ -285,7 +285,7 @@ require
 "
 devtools
 /
-server
+shared
 /
 performance
 -
