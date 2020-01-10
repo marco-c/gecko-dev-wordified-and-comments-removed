@@ -274,6 +274,10 @@ webkit
 "
                 
 "
+webkitgtk_minibrowser
+"
+                
+"
 epiphany
 "
 ]

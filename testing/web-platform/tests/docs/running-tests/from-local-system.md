@@ -972,3 +972,4 @@ chrome
 chrome_android
 android_webview
 safari
+webkitgtk_minibrowser
