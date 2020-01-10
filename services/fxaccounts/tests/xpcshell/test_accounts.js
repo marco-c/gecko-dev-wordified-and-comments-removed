@@ -7262,8 +7262,8 @@ equal
 (
 scopeString
 "
-foo
 bar
+foo
 "
 )
 ;
