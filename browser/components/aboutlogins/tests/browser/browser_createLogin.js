@@ -629,6 +629,7 @@ shadowRoot
 querySelectorAll
 (
 "
+.
 login
 -
 list

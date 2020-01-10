@@ -463,6 +463,7 @@ shadowRoot
 querySelectorAll
 (
 "
+.
 login
 -
 list
@@ -484,6 +485,7 @@ shadowRoot
 querySelectorAll
 (
 "
+.
 login
 -
 list
