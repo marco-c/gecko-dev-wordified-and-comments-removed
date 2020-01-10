@@ -32,9 +32,7 @@ selectors
 ;
 import
 {
-sourceThreadFront
-as
-threadFront
+mockCommandClient
 }
 from
 "
@@ -48,9 +46,7 @@ tests
 /
 helpers
 /
-threadFront
-.
-js
+mockCommandClient
 "
 ;
 describe
@@ -94,7 +90,7 @@ getState
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 await

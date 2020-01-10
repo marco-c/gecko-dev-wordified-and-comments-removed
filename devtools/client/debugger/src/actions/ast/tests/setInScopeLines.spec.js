@@ -92,7 +92,7 @@ js
 }
 ;
 const
-threadFront
+mockCommandClient
 =
 {
 sourceContents
@@ -190,7 +190,7 @@ store
 =
 createStore
 (
-threadFront
+mockCommandClient
 )
 ;
 const
