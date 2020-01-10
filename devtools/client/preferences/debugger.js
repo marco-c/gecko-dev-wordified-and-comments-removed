@@ -1150,10 +1150,6 @@ debugger
 features
 .
 overlay
--
-step
--
-buttons
 "
 true
 )

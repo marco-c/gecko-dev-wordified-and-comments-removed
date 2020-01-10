@@ -2916,7 +2916,7 @@ caught
 exceptions
 "
 )
-showOverlayStepButtons
+shouldShowOverlay
 :
 Services
 .
@@ -2932,10 +2932,6 @@ debugger
 features
 .
 overlay
--
-step
--
-buttons
 "
 )
 skipBreakpoints
