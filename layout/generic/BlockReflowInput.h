@@ -65,10 +65,6 @@ Flags
 (
 )
 :
-mHasUnconstrainedBSize
-(
-false
-)
 mIsBStartMarginRoot
 (
 false
@@ -111,11 +107,6 @@ false
 )
 {
 }
-bool
-mHasUnconstrainedBSize
-:
-1
-;
 bool
 mIsBStartMarginRoot
 :
