@@ -3592,6 +3592,7 @@ return
 NS_OK
 ;
 }
+const
 bool
 currentNodeIsConverted
 =
@@ -4838,6 +4839,7 @@ return
 NS_OK
 ;
 }
+const
 bool
 currentNodeIsConverted
 =
@@ -5242,6 +5244,7 @@ nsPlainTextSerializer
 MustSuppressLeaf
 (
 )
+const
 {
 if
 (
@@ -8452,6 +8455,7 @@ nsString
 &
 aValueRet
 )
+const
 {
 if
 (
@@ -8487,6 +8491,7 @@ nsPlainTextSerializer
 IsCurrentNodeConverted
 (
 )
+const
 {
 nsAutoString
 value
@@ -8757,6 +8762,7 @@ nsPlainTextSerializer
 IsInOL
 (
 )
+const
 {
 int32_t
 i
