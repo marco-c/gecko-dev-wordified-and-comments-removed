@@ -155,7 +155,7 @@ x86_64
 -
 apple
 -
-darwin11
+darwin
 '
                      
 '
@@ -218,7 +218,7 @@ x86_64
 -
 apple
 -
-darwin11
+darwin
 '
                     
 '
@@ -266,31 +266,6 @@ min
 10
 .
 11
-'
-                    
-'
--
-fuse
--
-ld
-=
-%
-(
-abs_work_dir
-)
-s
-/
-src
-/
-cctools
-/
-bin
-/
-x86_64
--
-darwin11
--
-ld
 '
 )
         
