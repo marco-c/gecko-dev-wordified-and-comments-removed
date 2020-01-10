@@ -6032,6 +6032,8 @@ unstageInstall
 stagedAddon
 )
 ;
+break
+;
 default
 :
 throw
