@@ -898,9 +898,6 @@ actions
 :
 [
 build
-check
--
-test
 ]
 options
 :

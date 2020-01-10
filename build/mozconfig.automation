@@ -177,6 +177,17 @@ MOZ_AUTOMATION_UPLOAD
 1
 }
 "
+mk_add_options
+"
+export
+MOZ_AUTOMATION_CHECK
+=
+{
+MOZ_AUTOMATION_CHECK
+-
+1
+}
+"
 export
 MOZ_AUTOMATION_MOZCONFIG
 =

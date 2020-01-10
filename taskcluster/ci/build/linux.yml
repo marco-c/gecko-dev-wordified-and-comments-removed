@@ -125,9 +125,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -468,9 +465,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -635,9 +629,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -995,9 +986,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -1203,9 +1191,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -1392,9 +1377,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -1597,9 +1579,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -1782,9 +1761,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -1964,9 +1940,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -2144,9 +2117,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -2744,9 +2714,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -2963,9 +2930,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -3123,9 +3087,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -3305,9 +3266,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -3516,9 +3474,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -3712,9 +3667,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -3929,9 +3881,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -4124,9 +4073,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -4323,9 +4269,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -4484,9 +4427,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -5267,9 +5207,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -5465,9 +5402,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -5648,9 +5582,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -6062,9 +5993,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -6264,9 +6192,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -6453,9 +6378,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :
@@ -6640,9 +6562,6 @@ get
 -
 secrets
 build
-check
--
-test
 ]
 config
 :

@@ -19,12 +19,6 @@ build
 '
         
 '
-check
--
-test
-'
-        
-'
 valgrind
 -
 test

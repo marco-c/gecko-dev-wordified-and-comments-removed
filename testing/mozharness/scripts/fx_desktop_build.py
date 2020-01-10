@@ -150,12 +150,6 @@ autotest
 '
                 
 '
-check
--
-test
-'
-                
-'
 valgrind
 -
 test

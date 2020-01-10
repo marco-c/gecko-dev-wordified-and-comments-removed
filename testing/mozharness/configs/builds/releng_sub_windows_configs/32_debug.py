@@ -17,12 +17,6 @@ clobber
 '
 build
 '
-        
-'
-check
--
-test
-'
     
 ]
     

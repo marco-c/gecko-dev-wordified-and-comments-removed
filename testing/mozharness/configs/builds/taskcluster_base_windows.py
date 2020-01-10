@@ -19,12 +19,6 @@ secrets
 '
 build
 '
-        
-'
-check
--
-test
-'
     
 ]
     
