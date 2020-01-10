@@ -1223,13 +1223,8 @@ void
 BasicCompositor
 :
 :
-DetachWidget
+Destroy
 (
-)
-{
-if
-(
-mWidget
 )
 {
 if
@@ -1256,11 +1251,10 @@ CleanupRemoteDrawing
 (
 )
 ;
-}
 Compositor
 :
 :
-DetachWidget
+Destroy
 (
 )
 ;

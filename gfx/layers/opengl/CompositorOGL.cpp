@@ -1215,10 +1215,6 @@ MOZ_COUNT_DTOR
 CompositorOGL
 )
 ;
-Destroy
-(
-)
-;
 }
 already_AddRefed
 <
