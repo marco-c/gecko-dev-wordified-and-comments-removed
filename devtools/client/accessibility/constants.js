@@ -172,6 +172,11 @@ exports
 FILTERS
 =
 {
+ALL
+:
+"
+ALL
+"
 [
 AUDIT_TYPE
 .
