@@ -39,8 +39,10 @@ InspectorUtils
 ]
 )
 ;
-function
+class
 ValueExtractor
+{
+constructor
 (
 errors
 aBundle
@@ -59,11 +61,6 @@ domBundle
 aBundle
 ;
 }
-ValueExtractor
-.
-prototype
-=
-{
 extractValue
 (
 options
@@ -417,8 +414,7 @@ langTag
 ;
 }
 }
-;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
