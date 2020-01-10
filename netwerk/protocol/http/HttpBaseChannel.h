@@ -2736,6 +2736,17 @@ nsISupports
 aContext
 )
 ;
+nsresult
+GetResponseEmbedderPolicy
+(
+nsILoadInfo
+:
+:
+CrossOriginEmbedderPolicy
+*
+aResponseEmbedderPolicy
+)
+;
 friend
 class
 PrivateBrowsingChannel

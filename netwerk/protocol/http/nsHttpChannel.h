@@ -2064,17 +2064,6 @@ status
 )
 ;
 nsresult
-GetResponseEmbedderPolicy
-(
-nsILoadInfo
-:
-:
-CrossOriginEmbedderPolicy
-*
-aResponseEmbedderPolicy
-)
-;
-nsresult
 ProcessCrossOriginEmbedderPolicyHeader
 (
 )
