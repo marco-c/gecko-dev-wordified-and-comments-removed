@@ -69,7 +69,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+VideoDecoderManagerChild
 .
 h
 "
@@ -78,7 +78,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerParent
+VideoDecoderManagerParent
 .
 h
 "
@@ -990,7 +990,16 @@ HandleProcessLost
 ;
 #
 if
+defined
+(
 XP_WIN
+)
+|
+|
+defined
+(
+MOZ_WIDGET_GTK
+)
 FallbackToSoftware
 (
 "
@@ -2519,6 +2528,9 @@ Blocked
 aMessage
 )
 ;
+#
+ifdef
+XP_WIN
 gfxConfig
 :
 :
@@ -2551,6 +2563,8 @@ Blocked
 aMessage
 )
 ;
+#
+endif
 }
 void
 GPUProcessManager
@@ -3593,7 +3607,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PVideoDecoderManagerChild
 >
 *
 aOutVideoManager
@@ -3635,7 +3649,7 @@ return
 false
 ;
 }
-CreateContentRemoteDecoderManager
+CreateContentVideoDecoderManager
 (
 aOtherProcess
 aOutVideoManager
@@ -4241,7 +4255,7 @@ void
 GPUProcessManager
 :
 :
-CreateContentRemoteDecoderManager
+CreateContentVideoDecoderManager
 (
 base
 :
@@ -4253,7 +4267,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PVideoDecoderManagerChild
 >
 *
 aOutEndpoint
@@ -4288,7 +4302,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerParent
+PVideoDecoderManagerParent
 >
 parentPipe
 ;
@@ -4297,14 +4311,14 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PVideoDecoderManagerChild
 >
 childPipe
 ;
 nsresult
 rv
 =
-PRemoteDecoderManager
+PVideoDecoderManager
 :
 :
 CreateEndpoints
@@ -4358,7 +4372,7 @@ return
 mGPUChild
 -
 >
-SendNewContentRemoteDecoderManager
+SendNewContentVideoDecoderManager
 (
 std
 :
