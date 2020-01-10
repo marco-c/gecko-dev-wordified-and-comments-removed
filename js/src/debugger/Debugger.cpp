@@ -19576,8 +19576,10 @@ marker
 &
 dbgobj
 "
-enabled
 Debugger
+with
+live
+hooks
 "
 )
 ;
