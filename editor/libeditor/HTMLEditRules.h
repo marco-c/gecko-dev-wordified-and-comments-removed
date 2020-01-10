@@ -466,13 +466,6 @@ MOZ_MUST_USE
 nsresult
 InsertBRIfNeeded
 (
-)
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
-InsertBRIfNeeded
-(
 nsINode
 &
 aNode

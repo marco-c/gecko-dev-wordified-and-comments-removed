@@ -3824,6 +3824,17 @@ nsAtom
 aBlockType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+InsertBRElementIfHardLineIsEmptyAndEndsWithBlockBoundary
+(
+const
+EditorDOMPoint
+&
+aPointToInsert
+)
+;
 protected
 :
 virtual
