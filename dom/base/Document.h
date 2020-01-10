@@ -11347,11 +11347,6 @@ nsString
 aResourceIds
 )
 ;
-void
-SetCssUseCounterBits
-(
-)
-;
 bool
 ParseWidthAndHeightInMetaViewport
 (
