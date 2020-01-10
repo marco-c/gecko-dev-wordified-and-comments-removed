@@ -69,8 +69,8 @@ computed
 :
 {
 Angle
-ZeroToOneNumber
 NonNegativeNumber
+ZeroToOneNumber
 }
 ;
 use
