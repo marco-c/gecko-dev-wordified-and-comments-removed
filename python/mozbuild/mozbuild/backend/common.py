@@ -1431,13 +1431,6 @@ StaticLibrary
 :
                 
 if
-not
-isinstance
-(
-lib
-HostLibrary
-)
-and
 lib
 .
 no_expand_lib
