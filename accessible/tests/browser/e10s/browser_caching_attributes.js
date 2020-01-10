@@ -525,5 +525,10 @@ unexpected
 ;
 }
 }
+{
+iframe
+:
+true
+}
 )
 ;

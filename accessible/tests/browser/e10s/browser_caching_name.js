@@ -2899,6 +2899,11 @@ event
 )
 ;
 }
+{
+iframe
+:
+true
+}
 )
 )
 ;
