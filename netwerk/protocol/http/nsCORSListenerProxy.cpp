@@ -7171,6 +7171,14 @@ rv
 rv
 )
 ;
+if
+(
+preCh
+&
+&
+reqCh
+)
+{
 nsCOMPtr
 <
 nsIReferrerInfo
@@ -7244,6 +7252,7 @@ rv
 rv
 )
 ;
+}
 }
 rv
 =
