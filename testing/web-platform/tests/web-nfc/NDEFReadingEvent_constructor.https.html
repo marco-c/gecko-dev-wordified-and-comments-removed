@@ -6,7 +6,7 @@ html
 <
 title
 >
-NFCReadingEvent
+NDEFReadingEvent
 constructor
 <
 /
@@ -39,7 +39,7 @@ nfc
 #
 dom
 -
-nfcreadingevent
+ndefreadingevent
 "
 >
 <
@@ -106,7 +106,7 @@ test
 {
 assert_equals
 (
-NFCReadingEvent
+NDEFReadingEvent
 .
 length
 2
@@ -121,7 +121,7 @@ TypeError
 =
 >
 new
-NFCReadingEvent
+NDEFReadingEvent
 (
 '
 message
@@ -131,7 +131,7 @@ message
 ;
 }
 '
-NFCReadingEvent
+NDEFReadingEvent
 constructor
 without
 init
@@ -163,7 +163,7 @@ const
 event
 =
 new
-NFCReadingEvent
+NDEFReadingEvent
 (
 '
 type
@@ -192,7 +192,7 @@ serialNumber
 ;
 }
 '
-NFCReadingEvent
+NDEFReadingEvent
 constructor
 with
 null
@@ -224,7 +224,7 @@ const
 event
 =
 new
-NFCReadingEvent
+NDEFReadingEvent
 (
 '
 type
@@ -250,7 +250,7 @@ serialNumber
 ;
 }
 '
-NFCReadingEvent
+NDEFReadingEvent
 constructor
 with
 serialNumber
@@ -270,7 +270,7 @@ const
 event
 =
 new
-NFCReadingEvent
+NDEFReadingEvent
 (
 '
 type
@@ -320,7 +320,7 @@ url
 ;
 }
 '
-NFCReadingEvent
+NDEFReadingEvent
 constructor
 with
 null
@@ -352,7 +352,7 @@ const
 event
 =
 new
-NFCReadingEvent
+NDEFReadingEvent
 (
 '
 type
@@ -407,7 +407,7 @@ message
 ;
 }
 '
-NFCReadingEvent
+NDEFReadingEvent
 constructor
 with
 valid

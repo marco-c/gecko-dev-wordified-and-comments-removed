@@ -153,7 +153,7 @@ pushOptions
 Gets
 the
 pushed
-NFCPushOptions
+NDEFPushOptions
 .
 }
 ;

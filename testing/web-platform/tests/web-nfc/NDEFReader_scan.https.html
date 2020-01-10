@@ -17,7 +17,7 @@ title
 Web
 NFC
 :
-NFCReader
+NDEFReader
 .
 scan
 tests
@@ -173,7 +173,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -230,7 +230,7 @@ SyntaxError
 ;
 /
 /
-NFCReader
+NDEFReader
 #
 scan
 (
@@ -281,12 +281,12 @@ com
 "
 Test
 that
-NFCReader
+NDEFReader
 .
 scan
 fails
 if
-NFCScanOptions
+NDEFScanOptions
 .
 url
 is
@@ -321,12 +321,12 @@ invalid
 "
 Test
 that
-NFCReader
+NDEFReader
 .
 scan
 fails
 if
-NFCScanOptions
+NDEFScanOptions
 .
 url
 is
@@ -365,12 +365,12 @@ com
 "
 Test
 that
-NFCReader
+NDEFReader
 .
 scan
 fails
 if
-NFCScanOptions
+NDEFScanOptions
 .
 url
 has
@@ -395,7 +395,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -459,7 +459,7 @@ NotReadableError
 ;
 }
 "
-NFCReader
+NDEFReader
 .
 scan
 should
@@ -487,7 +487,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -551,7 +551,7 @@ NotSupportedError
 ;
 }
 "
-NFCReader
+NDEFReader
 .
 scan
 should
@@ -580,7 +580,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -647,7 +647,7 @@ assert_true
 (
 event
 instanceof
-NFCReadingEvent
+NDEFReadingEvent
 )
 ;
 controller
@@ -661,7 +661,7 @@ abort
 ;
 /
 /
-NFCReader
+NDEFReader
 #
 scan
 (
@@ -718,7 +718,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -785,7 +785,7 @@ assert_true
 (
 event
 instanceof
-NFCReadingEvent
+NDEFReadingEvent
 )
 ;
 controller
@@ -799,7 +799,7 @@ abort
 ;
 /
 /
-NFCReader
+NDEFReader
 #
 scan
 (
@@ -841,12 +841,12 @@ promise
 "
 Test
 that
-NFCReader
+NDEFReader
 .
 scan
 succeeds
 if
-NFCScanOptions
+NDEFScanOptions
 .
 url
 is
@@ -870,7 +870,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -937,7 +937,7 @@ assert_true
 (
 event
 instanceof
-NFCReadingEvent
+NDEFReadingEvent
 )
 ;
 controller
@@ -951,7 +951,7 @@ abort
 ;
 /
 /
-NFCReader
+NDEFReader
 #
 scan
 (
@@ -995,12 +995,12 @@ promise
 "
 Test
 that
-NFCReader
+NDEFReader
 .
 scan
 succeeds
 if
-NFCScanOptions
+NDEFScanOptions
 .
 url
 is
@@ -1033,7 +1033,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -1100,7 +1100,7 @@ assert_true
 (
 event
 instanceof
-NFCReadingEvent
+NDEFReadingEvent
 )
 ;
 controller
@@ -1114,7 +1114,7 @@ abort
 ;
 /
 /
-NFCReader
+NDEFReader
 #
 scan
 (
@@ -1160,12 +1160,12 @@ promise
 "
 Test
 that
-NFCReader
+NDEFReader
 .
 scan
 succeeds
 if
-NFCScanOptions
+NDEFScanOptions
 .
 url
 is
@@ -1206,7 +1206,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -1273,7 +1273,7 @@ assert_true
 (
 event
 instanceof
-NFCReadingEvent
+NDEFReadingEvent
 )
 ;
 controller
@@ -1287,7 +1287,7 @@ abort
 ;
 /
 /
-NFCReader
+NDEFReader
 #
 scan
 (
@@ -1322,12 +1322,12 @@ promise
 "
 Test
 that
-NFCReader
+NDEFReader
 .
 scan
 succeeds
 if
-NFCScanOptions
+NDEFScanOptions
 .
 url
 is
@@ -1350,7 +1350,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -1471,7 +1471,7 @@ resolve
 "
 Test
 that
-NFCReader
+NDEFReader
 .
 onreading
 should
@@ -1479,7 +1479,7 @@ not
 be
 fired
 if
-NFCScanOptions
+NDEFScanOptions
 .
 signal
 \
@@ -1503,7 +1503,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -1583,7 +1583,7 @@ assert_true
 (
 event
 instanceof
-NFCReadingEvent
+NDEFReadingEvent
 )
 ;
 mockNFC
@@ -1672,7 +1672,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -1714,7 +1714,7 @@ invalid_signal
 ;
 }
 "
-NFCReader
+NDEFReader
 .
 scan
 should

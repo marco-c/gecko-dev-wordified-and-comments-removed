@@ -622,7 +622,7 @@ url
 ;
 }
 function
-createNFCPushOptions
+createNDEFPushOptions
 (
 target
 timeout
@@ -944,7 +944,7 @@ expectedJson
 }
 }
 function
-testNFCScanOptions
+testNDEFScanOptions
 (
 message
 scanOptions
@@ -966,7 +966,7 @@ const
 reader1
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -974,7 +974,7 @@ const
 reader2
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;
@@ -1130,7 +1130,7 @@ const
 reader
 =
 new
-NFCReader
+NDEFReader
 (
 )
 ;

@@ -17,7 +17,7 @@ title
 Web
 NFC
 :
-NFCReader
+NDEFReader
 option
 tests
 <
@@ -139,7 +139,7 @@ strict
 '
 ;
 const
-NFCReaderOptionTests
+NDEFReaderOptionTests
 =
 [
 {
@@ -152,7 +152,7 @@ reading
 data
 succeed
 when
-NFCScanOptions
+NDEFScanOptions
 '
 "
 +
@@ -210,7 +210,7 @@ reading
 data
 succeed
 when
-NFCScanOptions
+NDEFScanOptions
 '
 "
 +
@@ -264,7 +264,7 @@ reading
 data
 succeed
 when
-NFCScanOptions
+NDEFScanOptions
 '
 "
 +
@@ -318,7 +318,7 @@ reading
 data
 succeed
 when
-NFCScanOptions
+NDEFScanOptions
 '
 "
 +
@@ -372,7 +372,7 @@ reading
 data
 succeed
 when
-NFCScanOptions
+NDEFScanOptions
 '
 "
 +
@@ -426,7 +426,7 @@ reading
 data
 succeed
 when
-NFCScanOptions
+NDEFScanOptions
 '
 "
 +
@@ -501,7 +501,7 @@ that
 the
 url
 of
-NFCScanOptions
+NDEFScanOptions
 filters
 relevant
 data
@@ -577,7 +577,7 @@ that
 the
 mediaType
 of
-NFCScanOptions
+NDEFScanOptions
 filters
 relevant
 data
@@ -649,7 +649,7 @@ messages
 "
 correctly
 with
-NFCScanOptions
+NDEFScanOptions
 '
 recordType
 is
@@ -715,7 +715,7 @@ messages
 "
 correctly
 with
-NFCScanOptions
+NDEFScanOptions
 '
 recordType
 is
@@ -777,7 +777,7 @@ messages
 "
 correctly
 with
-NFCScanOptions
+NDEFScanOptions
 '
 recordType
 is
@@ -839,7 +839,7 @@ messages
 "
 correctly
 with
-NFCScanOptions
+NDEFScanOptions
 '
 recordType
 is
@@ -901,7 +901,7 @@ messages
 "
 correctly
 with
-NFCScanOptions
+NDEFScanOptions
 '
 recordType
 is
@@ -961,7 +961,7 @@ messages
 "
 correctly
 with
-NFCScanOptions
+NDEFScanOptions
 '
 recordType
 is
@@ -1041,7 +1041,7 @@ messages
 "
 correctly
 with
-NFCScanOptions
+NDEFScanOptions
 '
 url
 set
@@ -1130,7 +1130,7 @@ messages
 "
 correctly
 with
-NFCScanOptions
+NDEFScanOptions
 '
 mediaType
 set
@@ -1177,23 +1177,23 @@ test_json_data
 for
 (
 let
-NFCReaderOptionTest
+NDEFReaderOptionTest
 of
-NFCReaderOptionTests
+NDEFReaderOptionTests
 )
 {
-testNFCScanOptions
+testNDEFScanOptions
 (
-NFCReaderOptionTest
+NDEFReaderOptionTest
 .
 message
-NFCReaderOptionTest
+NDEFReaderOptionTest
 .
 scanOptions
-NFCReaderOptionTest
+NDEFReaderOptionTest
 .
 unmatchedScanOptions
-NFCReaderOptionTest
+NDEFReaderOptionTest
 .
 desc
 )
