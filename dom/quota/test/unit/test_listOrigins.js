@@ -329,7 +329,7 @@ resolve
 =
 >
 {
-listInitializedOrigins
+listOrigins
 (
 req
 =
