@@ -113,13 +113,6 @@ bin
 bash
 JSSHELL
 :
-/
-home
-/
-cltbld
-/
-fetches
-/
 js
 v8
 :
@@ -131,13 +124,6 @@ bin
 bash
 JSSHELL
 :
-/
-home
-/
-cltbld
-/
-fetches
-/
 d8
 /
 release
@@ -185,6 +171,8 @@ shell
 -
 binary
 =
+MOZ_FETCHES_DIR
+/
 JSSHELL
 {
 test
