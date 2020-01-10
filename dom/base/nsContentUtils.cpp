@@ -13338,7 +13338,7 @@ eIgnoreCase
 )
 ;
 }
-nsresult
+void
 nsContentUtils
 :
 :
@@ -13355,6 +13355,11 @@ nsACString
 aKey
 )
 {
+MOZ_ASSERT
+(
+aContent
+)
+;
 aKey
 .
 Truncate
@@ -13375,12 +13380,6 @@ GetPartID
 :
 0
 ;
-NS_ENSURE_TRUE
-(
-aContent
-NS_ERROR_FAILURE
-)
-;
 if
 (
 aContent
@@ -13392,7 +13391,6 @@ IsInAnonymousSubtree
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -13404,7 +13402,6 @@ aContent
 )
 {
 return
-NS_OK
 ;
 }
 RefPtr
@@ -13541,7 +13538,6 @@ Truncate
 )
 ;
 return
-NS_OK
 ;
 }
 KeyAppendString
@@ -13840,9 +13836,6 @@ GetParentNode
 ;
 }
 }
-return
-NS_OK
-;
 }
 nsIPrincipal
 *

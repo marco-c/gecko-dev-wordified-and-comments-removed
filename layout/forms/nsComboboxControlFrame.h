@@ -762,7 +762,7 @@ aState
 )
 override
 ;
-NS_IMETHOD
+void
 GenerateStateKey
 (
 nsIContent
