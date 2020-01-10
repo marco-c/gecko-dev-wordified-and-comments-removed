@@ -13425,9 +13425,6 @@ DOMAIN
 "
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -13448,8 +13445,6 @@ includeOtherSubdomainsInLookup
 true
 )
 ;
-#
-endif
 pref
 (
 "
