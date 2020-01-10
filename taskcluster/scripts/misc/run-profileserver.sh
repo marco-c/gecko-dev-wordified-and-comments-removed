@@ -37,6 +37,8 @@ HOME
 /
 artifacts
 }
+export
+UPLOAD_PATH
 #
 #
 #
