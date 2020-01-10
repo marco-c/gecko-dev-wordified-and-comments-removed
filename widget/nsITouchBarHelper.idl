@@ -157,12 +157,11 @@ activeTitle
 *
 *
 Returns
-the
-layout
-for
-the
+all
+available
 Touch
 Bar
+Inputs
 in
 an
 nsIArray
@@ -175,7 +174,7 @@ objects
 /
 attribute
 nsIArray
-layout
+allItems
 ;
 /
 *

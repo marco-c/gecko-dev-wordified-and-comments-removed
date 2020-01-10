@@ -102,15 +102,6 @@ bookmark
 =
 Add
 bookmark
-open
--
-bookmarks
--
-sidebar
-=
-Open
-Bookmarks
-Sidebar
 reader
 -
 view
@@ -147,3 +138,8 @@ window
 =
 Close
 Window
+open
+-
+sidebar
+=
+Sidebars
