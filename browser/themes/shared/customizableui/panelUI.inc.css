@@ -11428,10 +11428,6 @@ flex
 1
 auto
 ;
-height
-:
-40px
-;
 padding
 :
 4px
@@ -11456,6 +11452,7 @@ weight
 ;
 margin
 :
+4px
 0
 ;
 text
