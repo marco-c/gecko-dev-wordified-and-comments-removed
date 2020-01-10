@@ -1703,11 +1703,7 @@ i
 )
 cluster
 =
-MIN
-<
-unsigned
-int
->
+hb_min
 (
 cluster
 infos

@@ -1920,11 +1920,7 @@ i
 )
 cluster
 =
-MIN
-<
-unsigned
-int
->
+hb_min
 (
 cluster
 info
@@ -2134,11 +2130,7 @@ i
 )
 cluster
 =
-MIN
-<
-unsigned
-int
->
+hb_min
 (
 cluster
 out_info

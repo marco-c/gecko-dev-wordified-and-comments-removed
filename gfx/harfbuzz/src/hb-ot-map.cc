@@ -934,7 +934,7 @@ j
 .
 max_value
 =
-MAX
+hb_max
 (
 feature_infos
 [
@@ -980,7 +980,7 @@ stage
 0
 ]
 =
-MIN
+hb_min
 (
 feature_infos
 [
@@ -1012,7 +1012,7 @@ stage
 1
 ]
 =
-MIN
+hb_min
 (
 feature_infos
 [
@@ -1114,7 +1114,7 @@ bits_needed
 else
 bits_needed
 =
-MIN
+hb_min
 (
 HB_OT_MAP_MAX_BITS
 hb_bit_storage
@@ -1148,7 +1148,7 @@ hb_mask_t
 )
 continue
 ;
-hb_bool_t
+bool
 found
 =
 false
@@ -1206,6 +1206,9 @@ table_index
 found
 |
 =
+(
+bool
+)
 hb_ot_layout_language_find_feature
 (
 face
@@ -1269,6 +1272,9 @@ table_index
 found
 |
 =
+(
+bool
+)
 hb_ot_layout_table_find_feature
 (
 face

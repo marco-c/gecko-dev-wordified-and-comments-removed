@@ -74,7 +74,9 @@ _bss_end__
 __end__
 \
 |
-__gcov_flush
+__gcov_
+.
+*
 \
 |
 llvm_

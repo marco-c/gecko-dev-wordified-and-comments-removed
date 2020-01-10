@@ -765,6 +765,13 @@ hb_font_t
 font
 )
 {
+#
+ifdef
+HB_NO_OT_SHAPE_COMPLEX_THAI_FALLBACK
+return
+;
+#
+endif
 thai_above_state_t
 above_state
 =

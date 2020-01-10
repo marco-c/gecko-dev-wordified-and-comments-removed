@@ -499,7 +499,7 @@ csspx
 break
 ;
 return
-round
+roundf
 (
 interpolate_at
 (

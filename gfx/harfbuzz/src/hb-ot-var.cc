@@ -121,6 +121,9 @@ get_axis_count
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 unsigned
 int
 hb_ot_var_get_axes
@@ -191,6 +194,8 @@ axis_info
 )
 ;
 }
+#
+endif
 HB_EXTERN
 unsigned
 int

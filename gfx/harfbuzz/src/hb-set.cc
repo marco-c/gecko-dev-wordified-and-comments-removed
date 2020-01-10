@@ -468,6 +468,9 @@ other
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 void
 hb_set_invert
 (
@@ -478,6 +481,8 @@ HB_UNUSED
 )
 {
 }
+#
+endif
 unsigned
 int
 hb_set_get_population

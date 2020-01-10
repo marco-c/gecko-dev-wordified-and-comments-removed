@@ -1,4 +1,10 @@
 #
+ifndef
+HB_OT_NAME_LANGUAGE_STATIC_HH
+#
+define
+HB_OT_NAME_LANGUAGE_STATIC_HH
+#
 include
 "
 hb
@@ -2275,6 +2281,14 @@ int
 len
 )
 {
+#
+ifdef
+HB_NO_OT_NAME_LANGUAGE
+return
+HB_LANGUAGE_INVALID
+;
+#
+endif
 const
 hb_ot_language_map_t
 *
@@ -2363,3 +2377,5 @@ hb_mac_language_map
 )
 ;
 }
+#
+endif

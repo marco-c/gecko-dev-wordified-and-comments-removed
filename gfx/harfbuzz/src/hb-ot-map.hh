@@ -165,6 +165,7 @@ random
 hb_mask_t
 mask
 ;
+HB_INTERNAL
 static
 int
 cmp
@@ -816,7 +817,7 @@ private
 hb_mask_t
 global_mask
 ;
-hb_vector_t
+hb_sorted_vector_t
 <
 feature_map_t
 >
@@ -1112,6 +1113,7 @@ stage
 2
 ]
 ;
+HB_INTERNAL
 static
 int
 cmp

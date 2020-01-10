@@ -677,6 +677,9 @@ HB_UNUSED
 )
 {
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 gr_font
 *
 hb_graphite2_font_get_gr_font
@@ -691,6 +694,8 @@ return
 nullptr
 ;
 }
+#
+endif
 struct
 hb_graphite2_cluster_t
 {
@@ -1228,6 +1233,7 @@ Type
 scratch
 ;
 \
+do
 {
 \
 unsigned
@@ -1274,6 +1280,10 @@ _consumed
 ;
 \
 }
+while
+(
+0
+)
 ALLOCATE_ARRAY
 (
 hb_graphite2_cluster_t

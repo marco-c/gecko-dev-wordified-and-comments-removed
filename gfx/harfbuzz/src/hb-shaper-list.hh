@@ -44,10 +44,6 @@ HB_SHAPER_IMPLEMENT
 (
 coretext
 )
-HB_SHAPER_IMPLEMENT
-(
-coretext_aat
-)
 #
 endif
 #

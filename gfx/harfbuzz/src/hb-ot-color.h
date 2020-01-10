@@ -174,7 +174,7 @@ start_offset
 unsigned
 int
 *
-count
+layer_count
 hb_ot_color_layer_t
 *
 layers

@@ -1294,6 +1294,9 @@ return
 ret
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 static
 hb_position_t
 hb_font_get_glyph_h_kerning_nil
@@ -1432,6 +1435,8 @@ bottom_glyph
 )
 ;
 }
+#
+endif
 static
 hb_bool_t
 hb_font_get_glyph_extents_nil
@@ -2712,6 +2717,9 @@ y
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 hb_position_t
 hb_font_get_glyph_h_kerning
 (
@@ -2758,6 +2766,8 @@ bottom_glyph
 )
 ;
 }
+#
+endif
 hb_bool_t
 hb_font_get_glyph_extents
 (
@@ -3058,6 +3068,9 @@ y
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 void
 hb_font_get_glyph_kerning_for_direction
 (
@@ -3092,6 +3105,8 @@ y
 )
 ;
 }
+#
+endif
 hb_bool_t
 hb_font_get_glyph_extents_for_origin
 (
@@ -3372,11 +3387,16 @@ _hb_font_create
 face
 )
 ;
+#
+ifndef
+HB_NO_OT_FONT
 hb_ot_font_set_funcs
 (
 font
 )
 ;
+#
+endif
 return
 font
 ;
@@ -4660,6 +4680,9 @@ font
 coords
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 struct
 hb_trampoline_closure_t
 {
@@ -5042,3 +5065,5 @@ trampoline_destroy
 )
 ;
 }
+#
+endif

@@ -1101,6 +1101,7 @@ syllable_type_t
 {
 independent_cluster
 virama_terminated_cluster
+sakot_terminated_cluster
 standard_cluster
 number_joiner_terminated_cluster
 numeral_cluster
@@ -1319,7 +1320,7 @@ USE_R
 ?
 1
 :
-MIN
+hb_min
 (
 3u
 end
@@ -1578,6 +1579,9 @@ break
 ;
 case
 virama_terminated_cluster
+:
+case
+sakot_terminated_cluster
 :
 case
 standard_cluster
@@ -2120,6 +2124,11 @@ syllable_type
 FLAG
 (
 virama_terminated_cluster
+)
+|
+FLAG
+(
+sakot_terminated_cluster
 )
 |
 FLAG

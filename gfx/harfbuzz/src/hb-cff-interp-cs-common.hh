@@ -557,7 +557,7 @@ in_error
 ;
 }
 bool
-popSubrNum
+pop_subr_num
 (
 const
 biased_subrs_t
@@ -572,6 +572,10 @@ int
 subr_num
 )
 {
+subr_num
+=
+0
+;
 int
 n
 =
@@ -636,7 +640,7 @@ true
 ;
 }
 void
-callSubr
+call_subr
 (
 const
 biased_subrs_t
@@ -652,13 +656,15 @@ type
 unsigned
 int
 subr_num
+=
+0
 ;
 if
 (
 unlikely
 (
 !
-popSubrNum
+pop_subr_num
 (
 biasedSubrs
 subr_num
@@ -725,7 +731,7 @@ str_ref
 ;
 }
 void
-returnFromSubr
+return_from_subr
 (
 )
 {
@@ -1286,7 +1292,7 @@ OpCode_return
 :
 env
 .
-returnFromSubr
+return_from_subr
 (
 )
 ;
@@ -1345,7 +1351,7 @@ OpCode_callsubr
 :
 env
 .
-callSubr
+call_subr
 (
 env
 .
@@ -1360,7 +1366,7 @@ OpCode_callgsubr
 :
 env
 .
-callSubr
+call_subr
 (
 env
 .

@@ -16,12 +16,17 @@ serialize_formats
 ]
 =
 {
+#
+ifndef
+HB_NO_BUFFER_SERIALIZE
 "
 text
 "
 "
 json
 "
+#
+endif
 nullptr
 }
 ;
@@ -75,9 +80,15 @@ format
 {
 switch
 (
+(
+unsigned
+)
 format
 )
 {
+#
+ifndef
+HB_NO_BUFFER_SERIALIZE
 case
 HB_BUFFER_SERIALIZE_FORMAT_TEXT
 :
@@ -96,6 +107,8 @@ serialize_formats
 1
 ]
 ;
+#
+endif
 default
 :
 case
@@ -364,7 +377,7 @@ else
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -406,7 +419,7 @@ HB_BUFFER_SERIALIZE_FLAG_NO_CLUSTERS
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -455,7 +468,7 @@ HB_BUFFER_SERIALIZE_FLAG_NO_POSITIONS
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -520,7 +533,7 @@ HB_BUFFER_SERIALIZE_FLAG_NO_ADVANCES
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -591,7 +604,7 @@ HB_GLYPH_FLAG_DEFINED
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -655,7 +668,7 @@ extents
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -701,7 +714,7 @@ y_bearing
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -997,7 +1010,7 @@ else
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -1039,7 +1052,7 @@ HB_BUFFER_SERIALIZE_FLAG_NO_CLUSTERS
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -1104,7 +1117,7 @@ y_offset
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -1167,7 +1180,7 @@ p
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -1208,7 +1221,7 @@ y_advance
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -1260,7 +1273,7 @@ HB_GLYPH_FLAG_DEFINED
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -1319,7 +1332,7 @@ extents
 p
 +
 =
-MAX
+hb_max
 (
 0
 snprintf
@@ -1536,6 +1549,14 @@ buf
 0
 '
 ;
+#
+ifdef
+HB_NO_BUFFER_SERIALIZE
+return
+0
+;
+#
+endif
 assert
 (
 (
@@ -1676,7 +1697,7 @@ unsigned
 int
 len
 =
-MIN
+hb_min
 (
 ARRAY_LENGTH
 (
@@ -1800,7 +1821,7 @@ unsigned
 int
 len
 =
-MIN
+hb_min
 (
 ARRAY_LENGTH
 (
@@ -1967,6 +1988,14 @@ end_ptr
 =
 buf
 ;
+#
+ifdef
+HB_NO_BUFFER_SERIALIZE
+return
+false
+;
+#
+endif
 assert
 (
 (

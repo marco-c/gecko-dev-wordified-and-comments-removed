@@ -164,7 +164,7 @@ ft_font
 >
 cached_x_scale
 .
-set
+set_relaxed
 (
 0
 )
@@ -1746,7 +1746,7 @@ buf
 ;
 len
 =
-MIN
+hb_min
 (
 len
 (
@@ -3058,9 +3058,9 @@ hb_ft_library_lazy_loader_t
 hb_lazy_loader_t
 <
 hb_remove_pointer
-(
+<
 FT_Library
-)
+>
 hb_ft_library_lazy_loader_t
 >
 {

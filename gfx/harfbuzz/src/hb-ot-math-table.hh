@@ -1701,7 +1701,7 @@ static_assert
 unsigned
 int
 )
-HB_MATH_GLYPH_PART_FLAG_EXTENDER
+HB_OT_MATH_GLYPH_PART_FLAG_EXTENDER
 =
 =
 (

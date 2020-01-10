@@ -6,11 +6,8 @@ hb
 hh
 "
 #
-if
-defined
-(
+ifdef
 HB_ATOMIC_INT_NIL
-)
 #
 error
 "
@@ -48,11 +45,8 @@ resolutions
 #
 endif
 #
-if
-defined
-(
+ifdef
 HB_MUTEX_IMPL_NIL
-)
 #
 error
 "

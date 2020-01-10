@@ -154,11 +154,10 @@ struct
 hb_blob_ptr_t
 {
 typedef
-typename
 hb_remove_pointer
-(
+<
 P
-)
+>
 T
 ;
 hb_blob_ptr_t

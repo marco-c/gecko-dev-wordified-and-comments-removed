@@ -102,7 +102,7 @@ HB_EXTERN
 HB_DEPRECATED_FOR
 (
 hb_font_funcs_set_nominal_glyph_func
-or
+and
 hb_font_funcs_set_variation_glyph_func
 )
 void
