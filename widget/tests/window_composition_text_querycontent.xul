@@ -91922,6 +91922,7 @@ a
 let
 unmaskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -91934,6 +91935,7 @@ waitForMaskingLastInput
 let
 maskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -91965,6 +91967,7 @@ setSelectionRange
 let
 unmaskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -91988,6 +91991,7 @@ setSelectionRange
 let
 maskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -92080,6 +92084,7 @@ b
 ;
 unmaskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -92091,6 +92096,7 @@ waitForMaskingLastInput
 ;
 maskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -92122,6 +92128,7 @@ setSelectionRange
 ;
 unmaskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -92149,6 +92156,7 @@ setSelectionRange
 ;
 maskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -92254,6 +92262,7 @@ d
 ;
 unmaskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -92265,6 +92274,7 @@ waitForMaskingLastInput
 ;
 maskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -92302,6 +92312,7 @@ setSelectionRange
 ;
 unmaskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -92335,6 +92346,7 @@ setSelectionRange
 ;
 maskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -92433,6 +92445,7 @@ e
 ;
 unmaskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -92444,6 +92457,7 @@ waitForMaskingLastInput
 ;
 maskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -92484,6 +92498,7 @@ setSelectionRange
 ;
 unmaskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -92520,6 +92535,7 @@ setSelectionRange
 ;
 maskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -92653,6 +92669,7 @@ length
 ;
 unmaskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -92664,6 +92681,7 @@ waitForMaskingLastInput
 ;
 maskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -92784,6 +92802,7 @@ length
 ;
 unmaskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -92827,6 +92846,7 @@ length
 ;
 maskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -93021,6 +93041,7 @@ length
 ;
 unmaskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -93032,6 +93053,7 @@ waitForMaskingLastInput
 ;
 maskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -93152,6 +93174,7 @@ length
 ;
 unmaskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -93195,6 +93218,7 @@ length
 ;
 maskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -93391,6 +93415,7 @@ length
 ;
 unmaskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -93402,6 +93427,7 @@ waitForMaskingLastInput
 ;
 maskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -93522,6 +93548,7 @@ length
 ;
 unmaskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -93570,6 +93597,7 @@ length
 ;
 maskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -93749,6 +93777,7 @@ KEY_Enter
 ;
 unmaskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -93760,6 +93789,7 @@ waitForMaskingLastInput
 ;
 maskedResult
 =
+await
 snapshotWindow
 (
 passwordWindow
@@ -93794,6 +93824,7 @@ setSelectionRange
 ;
 unmaskedReference
 =
+await
 snapshotWindow
 (
 inputWindow
@@ -93827,6 +93858,7 @@ setSelectionRange
 ;
 maskedReference
 =
+await
 snapshotWindow
 (
 inputWindow

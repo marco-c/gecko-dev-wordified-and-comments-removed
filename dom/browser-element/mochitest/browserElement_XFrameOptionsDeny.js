@@ -155,6 +155,7 @@ addEventListener
 "
 mozbrowsershowmodalprompt
 "
+async
 function
 (
 e
@@ -177,6 +178,7 @@ step
 :
 step1
 =
+await
 SpecialPowers
 .
 snapshotWindow
@@ -196,6 +198,7 @@ step
 :
 stepfinish
 =
+await
 SpecialPowers
 .
 snapshotWindow

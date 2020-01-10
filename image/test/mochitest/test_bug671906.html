@@ -199,6 +199,7 @@ waitForExplicitFinish
 (
 )
 ;
+async
 function
 snapshotFirst
 (
@@ -220,11 +221,10 @@ iframe
 ;
 first
 =
+await
 snapshotWindow
 (
 iframeelem
-.
-contentWindow
 false
 )
 ;
@@ -263,6 +263,7 @@ html
 "
 ;
 }
+async
 function
 snapshotSecond
 (
@@ -284,11 +285,10 @@ iframe
 ;
 second
 =
+await
 snapshotWindow
 (
 iframeelem
-.
-contentWindow
 false
 )
 ;
@@ -382,6 +382,7 @@ html
 "
 ;
 }
+async
 function
 snapshotThird
 (
@@ -403,11 +404,10 @@ iframe
 ;
 third
 =
+await
 snapshotWindow
 (
 iframeelem
-.
-contentWindow
 false
 )
 ;

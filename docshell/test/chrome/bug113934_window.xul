@@ -534,6 +534,7 @@ src
 doc2
 )
 ;
+async
 function
 doTheTest
 (
@@ -542,6 +543,7 @@ doTheTest
 var
 s1
 =
+await
 snapshotWindow
 (
 (
@@ -556,6 +558,7 @@ contentWindow
 var
 s2
 =
+await
 snapshotWindow
 (
 (
@@ -570,6 +573,7 @@ contentWindow
 var
 s3
 =
+await
 snapshotWindow
 (
 (
@@ -885,6 +889,7 @@ _addedDispatched
 false
 handleEvent
 :
+async
 function
 (
 aEvent
@@ -1167,6 +1172,7 @@ getBoundingClientRect
 var
 s1_new
 =
+await
 snapshotWindow
 (
 (

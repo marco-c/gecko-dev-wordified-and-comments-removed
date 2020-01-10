@@ -508,6 +508,7 @@ addEventListener
 "
 load
 "
+async
 function
 (
 )
@@ -533,12 +534,14 @@ ok
 (
 compareSnapshots
 (
+await
 snapshotWindow
 (
 testFrame
 .
 contentWindow
 )
+await
 snapshotWindow
 (
 refFrame

@@ -313,6 +313,7 @@ newline
 .
 *
 /
+async
 function
 testSelectEndOfText
 (
@@ -412,6 +413,7 @@ line
 )
 referenceSnapshot
 =
+await
 snapshotWindow
 (
 window
@@ -545,6 +547,7 @@ line
 )
 testSnapshot
 =
+await
 snapshotWindow
 (
 window
@@ -685,6 +688,7 @@ n
 ;
 }
 }
+async
 function
 runTests
 (
@@ -712,6 +716,7 @@ support
 /
 test
 textarea
+await
 testSelectEndOfText
 (
 document
@@ -728,6 +733,7 @@ ta
 /
 test
 contentEditable
+await
 testSelectEndOfText
 (
 document
