@@ -48,8 +48,8 @@ fileName
 )
 ;
 static
-void
-AssertEvalNotRestricted
+bool
+IsEvalAllowed
 (
 JSContext
 *
