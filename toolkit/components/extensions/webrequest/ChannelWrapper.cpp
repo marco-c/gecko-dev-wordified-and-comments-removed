@@ -4860,6 +4860,8 @@ const
 MozUrlClassification
 classification
 ;
+if
+(
 nsCOMPtr
 <
 nsIHttpChannel
@@ -4869,7 +4871,8 @@ chan
 MaybeHttpChannel
 (
 )
-;
+)
+{
 nsCOMPtr
 <
 nsIClassifiedChannel
@@ -4900,11 +4903,6 @@ nsIClassifiedChannel
 "
 )
 ;
-if
-(
-classified
-)
-{
 uint32_t
 classificationFlags
 ;
