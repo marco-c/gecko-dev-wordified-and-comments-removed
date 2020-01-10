@@ -11451,9 +11451,6 @@ endif
 ;
 class
 SamplerThread
-:
-public
-Sampler
 {
 public
 :
@@ -11492,6 +11489,9 @@ SleepMicro
 uint32_t
 aMicroseconds
 )
+;
+Sampler
+mSampler
 ;
 const
 uint32_t
@@ -12127,6 +12127,8 @@ NowUnfuzzed
 (
 )
 ;
+mSampler
+.
 SuspendAndSampleAndResumeThread
 (
 lock

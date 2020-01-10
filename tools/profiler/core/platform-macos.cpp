@@ -570,7 +570,7 @@ double
 aIntervalMilliseconds
 )
 :
-Sampler
+mSampler
 (
 aLock
 )
@@ -678,9 +678,8 @@ PSLockRef
 aLock
 )
 {
-Sampler
-:
-:
+mSampler
+.
 Disable
 (
 aLock

@@ -637,7 +637,7 @@ double
 aIntervalMilliseconds
 )
 :
-Sampler
+mSampler
 (
 aLock
 )
@@ -879,9 +879,8 @@ mIntervalMicroseconds
 )
 ;
 }
-Sampler
-:
-:
+mSampler
+.
 Disable
 (
 aLock
