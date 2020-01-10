@@ -2787,6 +2787,16 @@ offs
 padding
 -
 inline
+-
+start
+:
+urlbarBreakoutHorizontalExtend
+;
+padding
+-
+inline
+-
+end
 :
 calc
 (
