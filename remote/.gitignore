@@ -13,3 +13,12 @@ puppeteer
 /
 node_modules
 /
+test
+/
+puppeteer
+/
+.
+local
+-
+chromium
+/
