@@ -4482,6 +4482,13 @@ channelId
 )
 ;
 async
+GenerateReplayCrashReport
+(
+uint32_t
+channelId
+)
+;
+async
 CreateGMPService
 (
 )
