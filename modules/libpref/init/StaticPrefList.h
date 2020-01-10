@@ -7842,7 +7842,7 @@ fields
 "
 javascript_options_experimental_fields
 RelaxedAtomicBool
-false
+true
 )
 VARCACHE_PREF
 (
