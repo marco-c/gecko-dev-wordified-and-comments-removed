@@ -38,6 +38,9 @@ findStepOffsets
 (
 frame
 rewinding
+requireStepStart
+=
+true
 )
 {
 const
@@ -114,9 +117,15 @@ offset
 ;
 if
 (
+requireStepStart
+?
 meta
 .
 isStepStart
+:
+meta
+.
+isBreakpoint
 )
 {
 if

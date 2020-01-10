@@ -1032,14 +1032,6 @@ dbg
 replaying
 )
 {
-assert
-(
-!
-this
-.
-_contentType
-)
-;
 return
 this
 .

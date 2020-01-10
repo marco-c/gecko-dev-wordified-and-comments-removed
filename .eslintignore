@@ -848,6 +848,16 @@ client
 debugger
 /
 out
+devtools
+/
+client
+/
+webreplay
+/
+mochitest
+/
+examples
+/
 #
 Ignore
 devtools
