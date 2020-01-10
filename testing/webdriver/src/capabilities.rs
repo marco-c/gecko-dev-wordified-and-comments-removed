@@ -2335,7 +2335,7 @@ iter
 (
 )
 .
-filter_map
+find
 (
 |
 merged
@@ -2355,6 +2355,10 @@ value
 )
 in
 merged
+.
+iter
+(
+)
 {
 match
 &
@@ -2416,7 +2420,7 @@ x
 )
 {
 return
-None
+false
 ;
 }
 }
@@ -2490,14 +2494,14 @@ false
 )
 {
 return
-None
+false
 ;
 }
 }
 else
 {
 return
-None
+false
 ;
 }
 }
@@ -2555,7 +2559,7 @@ x
 )
 {
 return
-None
+false
 ;
 }
 }
@@ -2592,7 +2596,7 @@ false
 )
 {
 return
-None
+false
 ;
 }
 }
@@ -2629,7 +2633,7 @@ false
 )
 {
 return
-None
+false
 ;
 }
 }
@@ -2666,7 +2670,7 @@ false
 )
 {
 return
-None
+false
 ;
 }
 }
@@ -2718,7 +2722,7 @@ false
 )
 {
 return
-None
+false
 ;
 }
 }
@@ -2753,7 +2757,7 @@ false
 )
 {
 return
-None
+false
 ;
 }
 }
@@ -2763,15 +2767,8 @@ else
 }
 }
 }
-Some
-(
-merged
-)
+true
 }
-)
-.
-next
-(
 )
 .
 cloned
