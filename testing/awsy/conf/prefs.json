@@ -20,15 +20,6 @@ separatePrivilegedContentProcess
 :
 true
 "
-browser
-.
-urlbar
-.
-userMadeSearchSuggestionsChoice
-"
-:
-true
-"
 javascript
 .
 options

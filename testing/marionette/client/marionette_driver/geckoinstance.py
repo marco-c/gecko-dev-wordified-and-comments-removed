@@ -3376,16 +3376,6 @@ False
 "
 browser
 .
-urlbar
-.
-userMadeSearchSuggestionsChoice
-"
-:
-True
-        
-"
-browser
-.
 warnOnQuit
 "
 :
