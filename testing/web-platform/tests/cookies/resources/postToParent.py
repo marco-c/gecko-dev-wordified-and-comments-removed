@@ -74,6 +74,15 @@ data
 s
 ;
   
+data
+.
+type
+=
+"
+COOKIES
+"
+;
+  
 if
 (
 window
@@ -83,6 +92,7 @@ parent
 =
 window
 )
+{
     
 window
 .
@@ -96,6 +106,33 @@ data
 "
 )
 ;
+    
+if
+(
+window
+.
+top
+!
+=
+window
+.
+parent
+)
+      
+window
+.
+top
+.
+postMessage
+(
+data
+"
+*
+"
+)
+;
+  
+}
   
 if
 (
