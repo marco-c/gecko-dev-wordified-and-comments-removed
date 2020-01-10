@@ -1132,6 +1132,7 @@ aError
 )
 {
 auto
+&
 listeners
 =
 mListeners
@@ -1568,6 +1569,7 @@ weakListener
 #
 endif
 auto
+&
 listeners
 =
 mListeners
