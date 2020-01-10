@@ -405,7 +405,11 @@ gBrowser
 .
 clearMultiSelectedTabs
 (
+{
+isLastMultiSelectChange
+:
 false
+}
 )
 ;
 BrowserTestUtils
