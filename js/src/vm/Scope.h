@@ -1083,12 +1083,15 @@ friend
 class
 GCMarker
 ;
+const
 GCPtrScope
 enclosing_
 ;
+const
 ScopeKind
 kind_
 ;
+const
 GCPtrShape
 environmentShape_
 ;

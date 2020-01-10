@@ -3569,6 +3569,7 @@ protected
 GCPtrBaseShape
 base_
 ;
+const
 GCPtrId
 propid_
 ;
@@ -5524,6 +5525,7 @@ return
 propid_
 ;
 }
+const
 GCPtrId
 &
 propidRef

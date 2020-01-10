@@ -374,6 +374,7 @@ BaseChain
 {
 private
 :
+const
 GCPtrObject
 picObject_
 ;
