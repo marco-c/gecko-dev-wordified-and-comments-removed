@@ -308,9 +308,6 @@ true
 documentLoadingMarkers
 :
 true
-webExtensionAddonConnect
-:
-true
 perfActorVersion
 :
 1
