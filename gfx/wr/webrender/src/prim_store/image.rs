@@ -113,6 +113,15 @@ use
 crate
 :
 :
+render_target
+:
+:
+RenderTargetKind
+;
+use
+crate
+:
+:
 render_task
 :
 :
@@ -122,7 +131,6 @@ RenderTask
 RenderTaskCacheEntryHandle
 RenderTaskCacheKey
 RenderTaskCacheKeyKind
-RenderTargetKind
 }
 ;
 use

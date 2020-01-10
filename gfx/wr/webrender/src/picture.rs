@@ -282,14 +282,10 @@ use
 crate
 :
 :
-render_task
+render_target
 :
 :
-{
-ClearMode
 RenderTargetKind
-RenderTask
-}
 ;
 use
 crate
@@ -299,8 +295,10 @@ render_task
 :
 :
 {
+RenderTask
 RenderTaskLocation
 BlurTaskCache
+ClearMode
 }
 ;
 use
