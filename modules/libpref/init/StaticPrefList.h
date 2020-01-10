@@ -5505,7 +5505,7 @@ sanitize_omt
 "
 gfx_downloadable_fonts_sanitize_omt
 RelaxedAtomicBool
-false
+true
 )
 VARCACHE_PREF
 (
