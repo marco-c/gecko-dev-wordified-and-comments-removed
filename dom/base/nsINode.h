@@ -404,6 +404,9 @@ Element
 class
 EventHandlerNonNull
 ;
+class
+MutationObservers
+;
 template
 <
 typename
@@ -1159,6 +1162,16 @@ const
 friend
 class
 nsNodeUtils
+;
+friend
+class
+mozilla
+:
+:
+dom
+:
+:
+MutationObservers
 ;
 friend
 class

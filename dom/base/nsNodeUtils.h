@@ -63,16 +63,14 @@ dom
 class
 Animation
 ;
-}
-}
 class
-nsNodeUtils
+MutationObservers
 {
 public
 :
 static
 void
-CharacterDataWillChange
+NotifyCharacterDataWillChange
 (
 nsIContent
 *
@@ -84,7 +82,7 @@ CharacterDataChangeInfo
 ;
 static
 void
-CharacterDataChanged
+NotifyCharacterDataChanged
 (
 nsIContent
 *
@@ -96,7 +94,7 @@ CharacterDataChangeInfo
 ;
 static
 void
-AttributeWillChange
+NotifyAttributeWillChange
 (
 mozilla
 :
@@ -118,7 +116,7 @@ aModType
 ;
 static
 void
-AttributeChanged
+NotifyAttributeChanged
 (
 mozilla
 :
@@ -144,7 +142,7 @@ aOldValue
 ;
 static
 void
-AttributeSetToCurrentValue
+NotifyAttributeSetToCurrentValue
 (
 mozilla
 :
@@ -164,7 +162,7 @@ aAttribute
 ;
 static
 void
-ContentAppended
+NotifyContentAppended
 (
 nsIContent
 *
@@ -176,7 +174,7 @@ aFirstNewContent
 ;
 static
 void
-NativeAnonymousChildListChange
+NotifyNativeAnonymousChildListChange
 (
 nsIContent
 *
@@ -187,7 +185,7 @@ aIsRemove
 ;
 static
 void
-ContentInserted
+NotifyContentInserted
 (
 nsINode
 *
@@ -199,7 +197,7 @@ aChild
 ;
 static
 void
-ContentRemoved
+NotifyContentRemoved
 (
 nsINode
 *
@@ -215,7 +213,7 @@ aPreviousSibling
 static
 inline
 void
-ParentChainChanged
+NotifyParentChainChanged
 (
 nsIContent
 *
@@ -268,6 +266,15 @@ aContent
 ;
 }
 }
+}
+;
+}
+}
+class
+nsNodeUtils
+{
+public
+:
 static
 void
 AnimationAdded

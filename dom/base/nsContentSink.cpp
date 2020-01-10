@@ -5255,10 +5255,10 @@ OwnerDoc
 true
 )
 ;
-nsNodeUtils
+MutationObservers
 :
 :
-ContentAppended
+NotifyContentAppended
 (
 aContainer
 aContainer

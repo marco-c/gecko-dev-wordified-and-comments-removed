@@ -484,10 +484,10 @@ MutationEvent_Binding
 ADDITION
 )
 ;
-nsNodeUtils
+MutationObservers
 :
 :
-AttributeWillChange
+NotifyAttributeWillChange
 (
 this
 kNameSpaceID_None

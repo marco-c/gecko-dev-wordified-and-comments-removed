@@ -12317,10 +12317,10 @@ mCachedRootElement
 nullptr
 ;
 }
-nsNodeUtils
+MutationObservers
 :
 :
-ContentRemoved
+NotifyContentRemoved
 (
 this
 content
