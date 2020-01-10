@@ -1811,7 +1811,7 @@ e
 )
 ;
 }
-receiveMessage
+_receiveMessage
 (
 aMessage
 )
