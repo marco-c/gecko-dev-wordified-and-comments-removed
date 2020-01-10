@@ -43084,7 +43084,7 @@ security
 allow_eval_with_system_principal
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
@@ -43123,7 +43123,7 @@ security
 allow_eval_in_parent_process
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true

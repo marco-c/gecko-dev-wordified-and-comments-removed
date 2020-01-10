@@ -2027,6 +2027,11 @@ IsEvalAllowed
 (
 cx
 subjectPrincipal
+-
+>
+IsSystemPrincipal
+(
+)
 scriptSample
 )
 )
