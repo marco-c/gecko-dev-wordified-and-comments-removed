@@ -6670,10 +6670,13 @@ for
 f
 flags
 in
+sorted
+(
 all_flags
 .
 iteritems
 (
+)
 )
 :
             
