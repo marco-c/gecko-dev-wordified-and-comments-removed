@@ -17615,7 +17615,7 @@ aMinTwips
 )
 const
 {
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 aFrame
 -
