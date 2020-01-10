@@ -41,7 +41,6 @@ https
 example
 .
 com
-/
 "
 "
 https
@@ -51,7 +50,6 @@ https
 example
 .
 com
-/
 "
 null
 "
@@ -84,7 +82,6 @@ https
 example
 .
 com
-/
 "
 "
 https
@@ -96,7 +93,6 @@ https
 example
 .
 com
-/
 "
 null
 "
@@ -127,7 +123,6 @@ https
 breached
 .
 com
-/
 "
 "
 https
@@ -137,7 +132,6 @@ https
 breached
 .
 com
-/
 "
 null
 "
