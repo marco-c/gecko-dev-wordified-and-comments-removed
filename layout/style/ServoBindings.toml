@@ -240,11 +240,6 @@ nsMediaFeatures
 h
 "
 "
-nsXBLBinding
-.
-h
-"
-"
 GeckoProfiler
 .
 h
