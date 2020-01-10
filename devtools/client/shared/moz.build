@@ -145,6 +145,11 @@ DIRS
 components
 '
 '
+fluent
+-
+l10n
+'
+'
 redux
 '
 '
