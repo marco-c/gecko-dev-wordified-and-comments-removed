@@ -531,6 +531,8 @@ uint64_t
 fwdTransactionId
 TransactionId
 transactionId
+IdNamespace
+aIdNamespace
 bool
 containsSVGGroup
 VsyncId
@@ -556,6 +558,8 @@ EmptyTransaction
 (
 FocusTarget
 focusTarget
+uint32_t
+aPaintSequenceNumber
 RenderRootUpdates
 [
 ]
@@ -568,6 +572,8 @@ uint64_t
 fwdTransactionId
 TransactionId
 transactionId
+IdNamespace
+aIdNamespace
 VsyncId
 vsyncId
 TimeStamp
