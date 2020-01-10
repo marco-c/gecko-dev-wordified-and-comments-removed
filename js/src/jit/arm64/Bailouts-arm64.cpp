@@ -7,6 +7,17 @@ Bailouts
 .
 h
 "
+#
+include
+"
+vm
+/
+JSScript
+-
+inl
+.
+h
+"
 using
 namespace
 js

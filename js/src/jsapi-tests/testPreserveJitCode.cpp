@@ -56,6 +56,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+JSScript
+-
+inl
+.
+h
+"
 using
 namespace
 JS

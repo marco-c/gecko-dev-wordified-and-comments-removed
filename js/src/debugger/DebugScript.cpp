@@ -243,6 +243,17 @@ include
 "
 vm
 /
+JSScript
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Realm
 -
 inl
