@@ -133,9 +133,9 @@ then
 TOOLTOOL_HOST
 =
 "
-stage
-.
 tooltool
+.
+staging
 .
 mozilla
 -

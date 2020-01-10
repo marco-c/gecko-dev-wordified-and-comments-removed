@@ -60,9 +60,9 @@ http
 /
 taskcluster
 /
-stage
-.
 tooltool
+.
+staging
 .
 mozilla
 -
