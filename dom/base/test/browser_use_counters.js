@@ -275,7 +275,7 @@ file_use_counter_svg_getElementById
 svg
 "
 "
-PROPERTY_FILL
+CSS_PROPERTY_Fill
 "
 )
 ;
@@ -288,7 +288,7 @@ file_use_counter_svg_currentScale
 svg
 "
 "
-PROPERTY_FILL
+CSS_PROPERTY_Fill
 "
 )
 ;
@@ -301,7 +301,7 @@ file_use_counter_svg_fill_pattern
 svg
 "
 "
-PROPERTY_FILLOPACITY
+CSS_PROPERTY_FillOpacity
 "
 true
 )
@@ -315,7 +315,7 @@ file_use_counter_svg_fill_pattern_internal
 svg
 "
 "
-PROPERTY_FILLOPACITY
+CSS_PROPERTY_FillOpacity
 "
 )
 ;
