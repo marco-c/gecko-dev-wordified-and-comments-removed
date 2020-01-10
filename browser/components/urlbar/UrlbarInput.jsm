@@ -840,7 +840,7 @@ this
 querySelector
 (
 "
-.
+#
 urlbar
 -
 input
