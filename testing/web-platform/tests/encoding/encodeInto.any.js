@@ -699,6 +699,8 @@ destination
 "
 +
 view
+.
+name
 )
 ;
 }
