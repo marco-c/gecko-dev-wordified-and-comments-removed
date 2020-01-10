@@ -524,6 +524,9 @@ icon
 label
 :
 title
+panelLabel
+:
+title
 tooltip
 :
 DevTools
