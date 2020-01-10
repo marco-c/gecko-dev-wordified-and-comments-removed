@@ -179,13 +179,13 @@ await
 loaded
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 async
 function
 (
