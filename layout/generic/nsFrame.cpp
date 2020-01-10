@@ -49157,6 +49157,17 @@ tableWrapper
 {
 if
 (
+MOZ_LIKELY
+(
+parentElement
+-
+>
+HasServoData
+(
+)
+)
+&
+&
 Servo_Element_IsDisplayContents
 (
 parentElement
