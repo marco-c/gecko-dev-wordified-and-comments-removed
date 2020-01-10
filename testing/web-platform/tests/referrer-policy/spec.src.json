@@ -3694,6 +3694,13 @@ referrer
 }
 ]
 "
+delivery_key
+"
+:
+"
+referrerPolicy
+"
+"
 excluded_tests
 "
 :

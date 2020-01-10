@@ -520,19 +520,23 @@ spec_json
     
 assert_contains_only_fields
 (
-        
 spec_json
-        
 [
+        
 "
 specification
 "
 "
+delivery_key
+"
+"
 test_expansion_schema
 "
+        
 "
 excluded_tests
 "
+    
 ]
 )
     

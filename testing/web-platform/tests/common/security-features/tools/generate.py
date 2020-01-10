@@ -1023,6 +1023,20 @@ artifact_order
 )
 :
                 
+selection
+[
+'
+delivery_key
+'
+]
+=
+spec_json
+[
+'
+delivery_key
+'
+]
+                
 selection_path
 =
 config

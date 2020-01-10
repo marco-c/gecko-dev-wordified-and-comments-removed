@@ -931,6 +931,13 @@ allowed
 }
 ]
 "
+delivery_key
+"
+:
+"
+mixedContent
+"
+"
 excluded_tests
 "
 :
