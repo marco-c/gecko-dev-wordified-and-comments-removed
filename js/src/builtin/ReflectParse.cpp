@@ -18357,13 +18357,9 @@ RegExpLiteral
 (
 )
 .
-objbox
+getOrCreate
 (
-)
--
->
-object
-(
+cx
 )
 )
 ;
