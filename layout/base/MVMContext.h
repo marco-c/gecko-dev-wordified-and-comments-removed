@@ -41,6 +41,13 @@ nsViewportInfo
 .
 h
 "
+#
+include
+"
+PresShell
+.
+h
+"
 class
 nsIDOMEventListener
 ;
@@ -245,6 +252,8 @@ SetResolutionAndScaleTo
 (
 float
 aResolution
+ResolutionChangeOrigin
+aOrigin
 )
 =
 0

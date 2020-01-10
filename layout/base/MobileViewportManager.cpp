@@ -2011,6 +2011,10 @@ SetResolutionAndScaleTo
 resolution
 .
 scale
+ResolutionChangeOrigin
+:
+:
+MainThreadRestore
 )
 ;
 MVM_LOG

@@ -219,6 +219,8 @@ SetResolutionAndScaleTo
 (
 float
 aResolution
+ResolutionChangeOrigin
+aOrigin
 )
 override
 ;

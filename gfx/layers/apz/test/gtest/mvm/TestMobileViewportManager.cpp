@@ -315,6 +315,8 @@ SetResolutionAndScaleTo
 (
 float
 aResolution
+ResolutionChangeOrigin
+aOrigin
 )
 {
 mResolution
