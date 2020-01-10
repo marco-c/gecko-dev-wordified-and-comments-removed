@@ -1,7 +1,7 @@
 #
 include
 "
-dbg
+debugger
 /
 NoExecute
 .

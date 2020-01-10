@@ -1,9 +1,9 @@
 #
 ifndef
-dbg_Script_h
+debugger_Script_h
 #
 define
-dbg_Script_h
+debugger_Script_h
 #
 include
 "
@@ -23,7 +23,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

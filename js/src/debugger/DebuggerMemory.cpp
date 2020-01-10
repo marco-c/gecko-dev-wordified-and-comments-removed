@@ -1,7 +1,7 @@
 #
 include
 "
-dbg
+debugger
 /
 DebuggerMemory
 .
@@ -53,7 +53,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .
@@ -170,7 +170,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 -

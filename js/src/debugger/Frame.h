@@ -1,9 +1,9 @@
 #
 ifndef
-dbg_Frame_h
+debugger_Frame_h
 #
 define
-dbg_Frame_h
+debugger_Frame_h
 #
 include
 "
@@ -41,7 +41,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

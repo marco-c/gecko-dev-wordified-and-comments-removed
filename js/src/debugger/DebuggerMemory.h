@@ -1,9 +1,9 @@
 #
 ifndef
-dbg_DebuggerMemory_h
+debugger_DebuggerMemory_h
 #
 define
-dbg_DebuggerMemory_h
+debugger_DebuggerMemory_h
 #
 include
 "

@@ -223,7 +223,7 @@ endif
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

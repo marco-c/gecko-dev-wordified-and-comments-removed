@@ -1,13 +1,13 @@
 #
 ifndef
-dbg_Script_inl_h
+debugger_Script_inl_h
 #
 define
-dbg_Script_inl_h
+debugger_Script_inl_h
 #
 include
 "
-dbg
+debugger
 /
 Script
 .

@@ -1,7 +1,7 @@
 #
 include
 "
-dbg
+debugger
 /
 Script
 -
@@ -12,7 +12,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

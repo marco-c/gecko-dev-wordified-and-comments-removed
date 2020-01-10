@@ -17,7 +17,7 @@ utility
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

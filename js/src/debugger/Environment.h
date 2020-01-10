@@ -1,13 +1,13 @@
 #
 ifndef
-dbg_Environment_h
+debugger_Environment_h
 #
 define
-dbg_Environment_h
+debugger_Environment_h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

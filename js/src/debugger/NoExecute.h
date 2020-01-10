@@ -1,9 +1,9 @@
 #
 ifndef
-dbg_NoExecute_h
+debugger_NoExecute_h
 #
 define
-dbg_NoExecute_h
+debugger_NoExecute_h
 #
 include
 "
@@ -25,7 +25,7 @@ h
 #
 include
 "
-dbg
+debugger
 /
 Debugger
 .

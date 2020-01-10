@@ -1,9 +1,9 @@
 #
 ifndef
-dbg_Debugger_h
+debugger_Debugger_h
 #
 define
-dbg_Debugger_h
+debugger_Debugger_h
 #
 include
 "

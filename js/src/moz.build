@@ -3004,7 +3004,7 @@ DIRS
 build
 '
 '
-dbg
+debugger
 '
 '
 frontend
