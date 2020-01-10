@@ -502,6 +502,13 @@ int32_t
 aAppUnitsPerDevPixel
 )
 ;
+async
+SubFrameCrashed
+(
+BrowsingContext
+aContext
+)
+;
 parent
 :
 /

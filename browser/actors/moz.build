@@ -331,16 +331,6 @@ SearchTelemetryChild
 jsm
 '
 '
-SubframeCrashChild
-.
-jsm
-'
-'
-SubframeCrashParent
-.
-jsm
-'
-'
 SwitchDocumentDirectionChild
 .
 jsm
