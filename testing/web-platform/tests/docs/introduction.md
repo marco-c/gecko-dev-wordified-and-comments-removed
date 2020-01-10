@@ -676,8 +676,8 @@ them
 [
 wdspec
 ]
-(
-)
+[
+]
 tests
 are
 written
