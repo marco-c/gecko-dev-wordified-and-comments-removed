@@ -114,17 +114,20 @@ device
 .
 shell_output
 .
-return_value
+side_effect
 =
+[
+'
+8
+.
+0
+.
+0
+'
 '
 geckoview
 '
-            
-device
-.
-version
-=
-8
+]
             
 device
 .
@@ -317,8 +320,7 @@ files
 /
 '
             
-f
-=
+with
 open
 (
 filepath
@@ -334,12 +336,11 @@ txt
 r
 '
 )
-            
-device
-.
-shell_output
-.
-return_value
+as
+f
+:
+                
+test_data
 =
 f
 .
@@ -349,15 +350,26 @@ read
             
 device
 .
-_verbose
+shell_output
+.
+side_effect
 =
-True
+[
+'
+8
+.
+0
+.
+0
+'
+test_data
+]
             
 device
 .
-version
+_verbose
 =
-8
+True
             
 control_server
 .
@@ -552,12 +564,6 @@ control_server
             
 device
 .
-version
-=
-7
-            
-device
-.
 _verbose
 =
 True
@@ -590,9 +596,18 @@ device
 .
 shell_output
 .
-return_value
+side_effect
 =
+[
+'
+7
+.
+0
+.
+0
+'
 shell_output
+]
             
 control_server
 .
