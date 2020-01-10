@@ -200,10 +200,10 @@ gen
 *
 files
 from
-generator
+generate
 .
 py
-generator
+generate
 .
 py
 builds
