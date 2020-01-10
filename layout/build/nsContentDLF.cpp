@@ -1223,6 +1223,9 @@ aLoadGroup
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 nsDocShell
 *
 aContainer
@@ -1298,7 +1301,7 @@ ResetToURI
 uri
 aLoadGroup
 aPrincipal
-aPrincipal
+aStoragePrincipal
 )
 ;
 blankDoc

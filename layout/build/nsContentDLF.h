@@ -194,6 +194,9 @@ aLoadGroup
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 nsDocShell
 *
 aContainer
