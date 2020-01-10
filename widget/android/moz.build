@@ -535,6 +535,14 @@ cache
 '
 '
 /
+toolkit
+/
+components
+/
+telemetry
+'
+'
+/
 widget
 '
 '
