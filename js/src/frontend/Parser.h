@@ -463,6 +463,11 @@ ArgT
 arg
 )
 ;
+void
+cleanupTraceList
+(
+)
+;
 public
 :
 ObjectBox
