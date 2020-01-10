@@ -153,13 +153,6 @@ jsm
 '
 content
 /
-MozillaLogger
-.
-js
-'
-'
-content
-/
 SpecialPowers
 .
 jsm

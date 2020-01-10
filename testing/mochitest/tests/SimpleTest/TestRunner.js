@@ -1000,7 +1000,7 @@ var
 failures
 =
 new
-SpecialPowersLogger
+MozillaFileLogger
 (
 TestRunner
 .
