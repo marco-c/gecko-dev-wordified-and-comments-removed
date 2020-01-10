@@ -157,7 +157,7 @@ assert_greater_than_equal
 (
 entry
 .
-startTime
+renderTime
 beforeRender
 '
 The
@@ -182,7 +182,7 @@ now
 )
 entry
 .
-startTime
+renderTime
 '
 The
 rendering
@@ -199,6 +199,14 @@ the
 observer
 .
 '
+)
+;
+assert_equals
+(
+entry
+.
+startTime
+0
 )
 ;
 assert_equals

@@ -25,7 +25,7 @@ origin
 images
 but
 without
-startTime
+renderTime
 .
 <
 /
@@ -154,11 +154,11 @@ assert_equals
 (
 entry
 .
-startTime
+renderTime
 0
 '
 The
-startTime
+renderTime
 value
 should
 be
@@ -170,6 +170,14 @@ origin
 image
 .
 '
+)
+;
+assert_equals
+(
+entry
+.
+startTime
+0
 )
 ;
 assert_equals
@@ -321,7 +329,7 @@ image
 is
 observable
 with
-startTime
+renderTime
 equal
 to
 0
