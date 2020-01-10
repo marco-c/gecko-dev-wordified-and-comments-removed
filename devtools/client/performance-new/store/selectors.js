@@ -256,6 +256,16 @@ state
 .
 getSymbolTableGetter
 ;
+const
+getPromptEnvRestart
+=
+state
+=
+>
+state
+.
+promptEnvRestart
+;
 module
 .
 exports
@@ -277,5 +287,6 @@ getReceiveProfileFn
 getSetRecordingPreferencesFn
 getIsPopup
 getSymbolTableGetter
+getPromptEnvRestart
 }
 ;
