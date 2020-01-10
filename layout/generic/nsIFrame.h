@@ -10072,6 +10072,7 @@ bool
 BuiltDisplayList
 (
 )
+const
 {
 return
 mBuiltDisplayList
@@ -10080,6 +10081,7 @@ mBuiltDisplayList
 void
 SetBuiltDisplayList
 (
+const
 bool
 aBuilt
 )
@@ -10093,6 +10095,7 @@ bool
 IsFrameModified
 (
 )
+const
 {
 return
 mFrameIsModified
@@ -10101,6 +10104,7 @@ mFrameIsModified
 void
 SetFrameIsModified
 (
+const
 bool
 aFrameIsModified
 )
@@ -10114,6 +10118,7 @@ bool
 HasOverrideDirtyRegion
 (
 )
+const
 {
 return
 mHasOverrideDirtyRegion
@@ -10122,6 +10127,7 @@ mHasOverrideDirtyRegion
 void
 SetHasOverrideDirtyRegion
 (
+const
 bool
 aHasDirtyRegion
 )
@@ -10135,6 +10141,7 @@ bool
 MayHaveWillChangeBudget
 (
 )
+const
 {
 return
 mMayHaveWillChangeBudget
@@ -10143,6 +10150,7 @@ mMayHaveWillChangeBudget
 void
 SetMayHaveWillChangeBudget
 (
+const
 bool
 aHasBudget
 )
@@ -10165,6 +10173,7 @@ mHasBSizeChange
 void
 SetHasBSizeChange
 (
+const
 bool
 aHasBSizeChange
 )
