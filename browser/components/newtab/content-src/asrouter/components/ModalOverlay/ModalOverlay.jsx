@@ -443,6 +443,13 @@ role
 dialog
 "
 >
+{
+props
+.
+hasDismissIcon
+&
+&
+(
 <
 button
 className
@@ -475,6 +482,8 @@ dismiss
 "
 /
 >
+)
+}
 {
 props
 .

@@ -1114,6 +1114,11 @@ headerId
 "
 trailheadHeader
 "
+hasDismissIcon
+=
+{
+true
+}
 >
 <
 div

@@ -24858,6 +24858,9 @@ headerId
 "
 trailheadHeader
 "
+hasDismissIcon
+:
+true
 }
 react__WEBPACK_IMPORTED_MODULE_3___default
 .
@@ -26380,6 +26383,11 @@ role
 dialog
 "
 }
+props
+.
+hasDismissIcon
+&
+&
 react__WEBPACK_IMPORTED_MODULE_0___default
 .
 a
