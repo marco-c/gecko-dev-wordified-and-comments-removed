@@ -1622,17 +1622,6 @@ controls
 -
 enable
 -
-posix
--
-nspr
--
-emulation
-'
-'
--
--
-enable
--
 pref
 -
 extensions
