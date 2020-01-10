@@ -406,9 +406,6 @@ TriggerCrossProcessRedirect
 nsIChannel
 *
 oldChannel
-nsILoadInfo
-*
-aLoadInfo
 uint64_t
 aIdentifier
 )
