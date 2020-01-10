@@ -3324,6 +3324,15 @@ IsInlineFrame
 )
 &
 &
+!
+aKidFrame
+-
+>
+IsColumnSetWrapperFrame
+(
+)
+&
+&
 (
 aKidFrame
 -
