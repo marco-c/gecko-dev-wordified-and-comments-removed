@@ -207,6 +207,7 @@ TRACE
 AutoTracer
 trace
 (
+\
 gAudioCallbackTraceLogger
 FUNCTION_SIGNATURE
 getpid
