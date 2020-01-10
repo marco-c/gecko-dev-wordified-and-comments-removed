@@ -89,13 +89,6 @@ prinit
 .
 h
 "
-#
-include
-"
-prtime
-.
-h
-"
 const
 char
 *

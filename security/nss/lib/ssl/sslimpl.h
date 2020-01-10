@@ -5914,6 +5914,14 @@ pubKey
 )
 ;
 SECStatus
+ssl3_HandleServerSpki
+(
+sslSocket
+*
+ss
+)
+;
+SECStatus
 ssl3_AuthCertificate
 (
 sslSocket

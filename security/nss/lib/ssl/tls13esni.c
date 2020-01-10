@@ -2572,8 +2572,9 @@ NULL
 PRTime
 now
 =
-PR_Now
+ssl_Time
 (
+ss
 )
 /
 PR_USEC_PER_SEC

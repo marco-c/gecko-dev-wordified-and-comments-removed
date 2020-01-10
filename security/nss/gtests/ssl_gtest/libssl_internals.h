@@ -273,5 +273,17 @@ uint32_t
 size
 )
 ;
+SECStatus
+SSLInt_TweakChannelInfoForDC
+(
+PRFileDesc
+*
+fd
+PRBool
+changeAuthKeyBits
+PRBool
+changeScheme
+)
+;
 #
 endif
