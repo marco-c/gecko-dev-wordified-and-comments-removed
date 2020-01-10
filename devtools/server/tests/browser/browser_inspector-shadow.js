@@ -1070,7 +1070,13 @@ slottedChildren
 .
 nodes
 [
-2
+slottedChildren
+.
+nodes
+.
+length
+-
+1
 ]
 .
 isAfterPseudoElement
