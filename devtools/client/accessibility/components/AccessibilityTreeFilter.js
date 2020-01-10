@@ -889,7 +889,7 @@ filters
 -
 menu
 "
-doc
+toolboxDoc
 :
 document
 className

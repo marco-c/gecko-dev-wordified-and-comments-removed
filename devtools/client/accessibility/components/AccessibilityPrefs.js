@@ -400,7 +400,7 @@ prefs
 -
 menu
 "
-doc
+toolboxDoc
 :
 document
 className
