@@ -374,15 +374,11 @@ quote
         
 if
 value
-.
-lower
-(
-)
 =
 =
-"
+'
 true
-"
+'
 :
             
 return
@@ -390,15 +386,11 @@ True
         
 if
 value
-.
-lower
-(
-)
 =
 =
-"
+'
 false
-"
+'
 :
             
 return
