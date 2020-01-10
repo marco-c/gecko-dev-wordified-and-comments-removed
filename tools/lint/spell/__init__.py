@@ -654,6 +654,36 @@ root
 '
 ]
     
+skip_files
+=
+'
+-
+-
+skip
+=
+*
+.
+dic
+{
+}
+'
+.
+format
+(
+'
+'
+.
+join
+(
+config
+[
+'
+exclude
+'
+]
+)
+)
+    
 exclude_list
 =
 os
@@ -706,16 +736,7 @@ words
 +
 exclude_list
                 
-'
--
--
-skip
-=
-*
-.
-dic
-'
-                
+skip_files
 ]
     
 if
