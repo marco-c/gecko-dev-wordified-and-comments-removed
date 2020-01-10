@@ -508,6 +508,9 @@ applyConstraints
 optional
 MediaTrackConstraints
 constraints
+=
+{
+}
 )
 ;
 /

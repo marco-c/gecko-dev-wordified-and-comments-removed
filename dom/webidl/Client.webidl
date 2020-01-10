@@ -200,6 +200,9 @@ message
 optional
 PostMessageOptions
 aOptions
+=
+{
+}
 )
 ;
 }

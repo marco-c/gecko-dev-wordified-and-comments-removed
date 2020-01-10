@@ -176,6 +176,9 @@ stream
 optional
 MediaRecorderOptions
 options
+=
+{
+}
 )
 Constructor
 (
@@ -190,6 +193,9 @@ output
 optional
 MediaRecorderOptions
 options
+=
+{
+}
 )
 ]
 interface

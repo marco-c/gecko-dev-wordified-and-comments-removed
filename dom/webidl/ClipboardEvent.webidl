@@ -158,6 +158,9 @@ type
 optional
 ClipboardEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

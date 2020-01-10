@@ -317,6 +317,9 @@ getRootNode
 optional
 GetRootNodeOptions
 options
+=
+{
+}
 )
 ;
 [

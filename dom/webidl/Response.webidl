@@ -174,6 +174,9 @@ body
 optional
 ResponseInit
 init
+=
+{
+}
 )
 Exposed
 =

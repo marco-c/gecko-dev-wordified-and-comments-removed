@@ -99,6 +99,9 @@ type
 optional
 ProgressEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =

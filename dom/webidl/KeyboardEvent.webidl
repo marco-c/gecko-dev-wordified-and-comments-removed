@@ -99,6 +99,9 @@ typeArg
 optional
 KeyboardEventInit
 keyboardEventInitDict
+=
+{
+}
 )
 ]
 interface

@@ -100,6 +100,9 @@ type
 optional
 StyleSheetApplicableStateChangeEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

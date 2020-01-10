@@ -136,6 +136,9 @@ port
 optional
 ServerSocketOptions
 options
+=
+{
+}
 optional
 unsigned
 short

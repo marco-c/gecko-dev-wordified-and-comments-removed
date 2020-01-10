@@ -229,6 +229,9 @@ or
 KeyframeEffectOptions
 )
 options
+=
+{
+}
 )
 Constructor
 (

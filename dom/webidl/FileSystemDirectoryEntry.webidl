@@ -131,6 +131,9 @@ path
 optional
 FileSystemFlags
 options
+=
+{
+}
 optional
 FileSystemEntryCallback
 successCallback
@@ -149,6 +152,9 @@ path
 optional
 FileSystemFlags
 options
+=
+{
+}
 optional
 FileSystemEntryCallback
 successCallback

@@ -138,6 +138,9 @@ input
 optional
 RequestInit
 init
+=
+{
+}
 )
 Exposed
 =

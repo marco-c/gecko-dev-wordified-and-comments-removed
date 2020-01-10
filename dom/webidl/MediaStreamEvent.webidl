@@ -152,6 +152,9 @@ type
 optional
 MediaStreamEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

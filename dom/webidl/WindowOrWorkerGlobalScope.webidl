@@ -466,6 +466,9 @@ input
 optional
 RequestInit
 init
+=
+{
+}
 )
 ;
 }

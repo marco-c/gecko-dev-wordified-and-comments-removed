@@ -158,6 +158,9 @@ isPointInFill
 optional
 DOMPointInit
 point
+=
+{
+}
 )
 ;
 boolean
@@ -166,6 +169,9 @@ isPointInStroke
 optional
 DOMPointInit
 point
+=
+{
+}
 )
 ;
 float

@@ -165,6 +165,9 @@ type
 optional
 MediaKeyNeededEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

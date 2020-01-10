@@ -209,6 +209,9 @@ getUserMedia
 optional
 MediaStreamConstraints
 constraints
+=
+{
+}
 )
 ;
 [
@@ -226,6 +229,9 @@ getDisplayMedia
 optional
 DisplayMediaStreamConstraints
 constraints
+=
+{
+}
 )
 ;
 }

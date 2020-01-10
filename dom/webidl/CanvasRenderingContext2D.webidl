@@ -2333,6 +2333,9 @@ addHitRegion
 optional
 HitRegionOptions
 options
+=
+{
+}
 )
 ;
 [

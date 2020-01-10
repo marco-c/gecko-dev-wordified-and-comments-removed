@@ -99,6 +99,9 @@ type
 optional
 TCPServerSocketEventInit
 eventInitDict
+=
+{
+}
 )
 Func
 =

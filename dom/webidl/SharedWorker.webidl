@@ -103,6 +103,9 @@ or
 WorkerOptions
 )
 options
+=
+{
+}
 )
 ]
 interface

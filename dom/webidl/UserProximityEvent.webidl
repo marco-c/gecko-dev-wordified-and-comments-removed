@@ -118,6 +118,9 @@ type
 optional
 UserProximityEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

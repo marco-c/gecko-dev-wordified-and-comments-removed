@@ -154,6 +154,9 @@ type
 optional
 TCPSocketErrorEventInit
 eventInitDict
+=
+{
+}
 )
 Func
 =

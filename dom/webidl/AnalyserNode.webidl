@@ -190,6 +190,9 @@ context
 optional
 AnalyserOptions
 options
+=
+{
+}
 )
 ]
 interface

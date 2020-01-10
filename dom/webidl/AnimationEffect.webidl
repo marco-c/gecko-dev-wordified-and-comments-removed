@@ -363,6 +363,9 @@ updateTiming
 optional
 OptionalEffectTiming
 timing
+=
+{
+}
 )
 ;
 }

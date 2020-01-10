@@ -125,6 +125,9 @@ type
 optional
 RTCDTMFToneChangeEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

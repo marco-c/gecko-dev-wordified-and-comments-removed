@@ -147,7 +147,8 @@ data
 NotificationBehavior
 mozbehavior
 =
-null
+{
+}
 ;
 }
 ;

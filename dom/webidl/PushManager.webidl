@@ -199,6 +199,9 @@ subscribe
 optional
 PushSubscriptionOptionsInit
 options
+=
+{
+}
 )
 ;
 Promise
@@ -219,6 +222,9 @@ permissionState
 optional
 PushSubscriptionOptionsInit
 options
+=
+{
+}
 )
 ;
 }
@@ -261,6 +267,9 @@ subscribe
 optional
 PushSubscriptionOptionsInit
 options
+=
+{
+}
 )
 ;
 [
@@ -287,6 +296,9 @@ permissionState
 optional
 PushSubscriptionOptionsInit
 options
+=
+{
+}
 )
 ;
 }

@@ -174,6 +174,9 @@ url
 optional
 EventSourceInit
 eventSourceInitDict
+=
+{
+}
 )
 ]
 interface

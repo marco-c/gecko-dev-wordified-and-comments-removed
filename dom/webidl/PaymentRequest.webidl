@@ -440,6 +440,9 @@ details
 optional
 PaymentOptions
 options
+=
+{
+}
 )
 SecureContext
 Func

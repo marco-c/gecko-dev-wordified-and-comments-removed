@@ -181,6 +181,9 @@ observe
 optional
 PerformanceObserverInit
 options
+=
+{
+}
 )
 ;
 void

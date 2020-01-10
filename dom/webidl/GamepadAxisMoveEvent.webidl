@@ -110,6 +110,9 @@ type
 optional
 GamepadAxisMoveEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface
