@@ -1135,11 +1135,6 @@ override
 ;
 private
 :
-bool
-IsFocusableForTabIndex
-(
-)
-;
 nsContentPolicyType
 GetContentPolicyType
 (
