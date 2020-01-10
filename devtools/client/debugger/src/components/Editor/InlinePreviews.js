@@ -231,6 +231,11 @@ editor
 {
 editor
 }
+key
+=
+{
+line
+}
 line
 =
 {
