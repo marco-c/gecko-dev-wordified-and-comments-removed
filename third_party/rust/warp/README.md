@@ -220,6 +220,10 @@ and
 Form
 bodies
 *
+Multipart
+form
+data
+*
 Static
 Files
 and

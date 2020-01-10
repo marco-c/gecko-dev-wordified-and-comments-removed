@@ -6,11 +6,11 @@ ops
 :
 :
 {
+Index
 Range
 RangeFrom
-RangeTo
 RangeFull
-Index
+RangeTo
 }
 ;
 use
@@ -287,6 +287,7 @@ Position
 BeforeUsername
 =
 >
+{
 if
 self
 .
@@ -367,6 +368,7 @@ usize
 len
 (
 )
+}
 }
 Position
 :
@@ -385,6 +387,7 @@ Position
 BeforePassword
 =
 >
+{
 if
 self
 .
@@ -443,12 +446,14 @@ username_end
 as
 usize
 }
+}
 Position
 :
 :
 AfterPassword
 =
 >
+{
 if
 self
 .
@@ -532,6 +537,7 @@ self
 host_start
 as
 usize
+}
 }
 Position
 :
@@ -561,6 +567,7 @@ Position
 BeforePort
 =
 >
+{
 if
 self
 .
@@ -610,6 +617,7 @@ self
 host_end
 as
 usize
+}
 }
 Position
 :

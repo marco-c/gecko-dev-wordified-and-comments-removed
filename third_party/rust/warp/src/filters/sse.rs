@@ -124,13 +124,7 @@ use
 super
 :
 :
-{
 header
-header
-:
-:
-MissingHeader
-}
 ;
 use
 filter
@@ -1428,6 +1422,11 @@ find_cause
 :
 :
 <
+:
+:
+reject
+:
+:
 MissingHeader
 >
 (
@@ -1514,6 +1513,11 @@ find_cause
 :
 :
 <
+:
+:
+reject
+:
+:
 MissingHeader
 >
 (

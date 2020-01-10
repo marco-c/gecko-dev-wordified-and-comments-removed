@@ -136,6 +136,8 @@ struct
 Serializer
 <
 '
+input
+'
 output
 Target
 :
@@ -153,11 +155,15 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 }
 impl
 <
+'
+input
 '
 output
 Target
@@ -169,6 +175,8 @@ UrlEncodedTarget
 >
 Serializer
 <
+'
+input
 '
 output
 Target
@@ -186,6 +194,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 )
@@ -466,6 +476,8 @@ struct
 SeqSerializer
 <
 '
+input
+'
 output
 Target
 :
@@ -483,6 +495,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 }
@@ -491,6 +505,8 @@ struct
 TupleSerializer
 <
 '
+input
+'
 output
 Target
 :
@@ -508,6 +524,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 }
@@ -515,6 +533,8 @@ pub
 struct
 TupleStructSerializer
 <
+'
+input
 '
 output
 T
@@ -538,6 +558,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 T
 >
 Error
@@ -548,6 +570,8 @@ struct
 TupleVariantSerializer
 <
 '
+input
+'
 output
 T
 :
@@ -570,6 +594,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 T
 >
 Error
@@ -579,6 +605,8 @@ pub
 struct
 MapSerializer
 <
+'
+input
 '
 output
 Target
@@ -597,6 +625,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 key
@@ -616,6 +646,8 @@ struct
 StructSerializer
 <
 '
+input
+'
 output
 Target
 :
@@ -633,6 +665,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 }
@@ -640,6 +674,8 @@ pub
 struct
 StructVariantSerializer
 <
+'
+input
 '
 output
 T
@@ -663,6 +699,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 T
 >
 Error
@@ -670,6 +708,8 @@ Error
 }
 impl
 <
+'
+input
 '
 output
 Target
@@ -681,6 +721,8 @@ Serializer
 for
 Serializer
 <
+'
+input
 '
 output
 Target
@@ -702,6 +744,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 ;
@@ -716,6 +760,8 @@ SerializeSeq
 SeqSerializer
 <
 '
+input
+'
 output
 Target
 >
@@ -725,6 +771,8 @@ SerializeTuple
 =
 TupleSerializer
 <
+'
+input
 '
 output
 Target
@@ -736,6 +784,8 @@ SerializeTupleStruct
 TupleStructSerializer
 <
 '
+input
+'
 output
 Target
 >
@@ -745,6 +795,8 @@ SerializeTupleVariant
 =
 TupleVariantSerializer
 <
+'
+input
 '
 output
 Target
@@ -756,6 +808,8 @@ SerializeMap
 MapSerializer
 <
 '
+input
+'
 output
 Target
 >
@@ -766,6 +820,8 @@ SerializeStruct
 StructSerializer
 <
 '
+input
+'
 output
 Target
 >
@@ -775,6 +831,8 @@ SerializeStructVariant
 =
 StructVariantSerializer
 <
+'
+input
 '
 output
 Target
@@ -1238,14 +1296,11 @@ Ok
 Error
 >
 {
-Err
+Ok
 (
-Error
-:
-:
-top_level
-(
-)
+self
+.
+urlencoder
 )
 }
 fn
@@ -1716,6 +1771,8 @@ top_level
 impl
 <
 '
+input
+'
 output
 Target
 >
@@ -1726,6 +1783,8 @@ SerializeSeq
 for
 SeqSerializer
 <
+'
+input
 '
 output
 Target
@@ -1747,6 +1806,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 ;
@@ -1830,6 +1891,8 @@ urlencoder
 }
 impl
 <
+'
+input
 '
 output
 Target
@@ -1842,6 +1905,8 @@ for
 TupleSerializer
 <
 '
+input
+'
 output
 Target
 >
@@ -1862,6 +1927,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 ;
@@ -1946,6 +2013,8 @@ urlencoder
 impl
 <
 '
+input
+'
 output
 Target
 >
@@ -1956,6 +2025,8 @@ SerializeTupleStruct
 for
 TupleStructSerializer
 <
+'
+input
 '
 output
 Target
@@ -1977,6 +2048,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 ;
@@ -2052,6 +2125,8 @@ end
 }
 impl
 <
+'
+input
 '
 output
 Target
@@ -2064,6 +2139,8 @@ for
 TupleVariantSerializer
 <
 '
+input
+'
 output
 Target
 >
@@ -2084,6 +2161,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 ;
@@ -2160,6 +2239,8 @@ end
 impl
 <
 '
+input
+'
 output
 Target
 >
@@ -2170,6 +2251,8 @@ SerializeMap
 for
 MapSerializer
 <
+'
+input
 '
 output
 Target
@@ -2191,6 +2274,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 ;
@@ -2549,6 +2634,8 @@ urlencoder
 impl
 <
 '
+input
+'
 output
 Target
 >
@@ -2559,6 +2646,8 @@ SerializeStruct
 for
 StructSerializer
 <
+'
+input
 '
 output
 Target
@@ -2580,6 +2669,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 ;
@@ -2685,6 +2776,8 @@ urlencoder
 impl
 <
 '
+input
+'
 output
 Target
 >
@@ -2695,6 +2788,8 @@ SerializeStructVariant
 for
 StructVariantSerializer
 <
+'
+input
 '
 output
 Target
@@ -2716,6 +2811,8 @@ output
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 ;

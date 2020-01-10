@@ -68,6 +68,7 @@ readwrite
 :
 :
 {
+Readable
 Reader
 Writer
 }

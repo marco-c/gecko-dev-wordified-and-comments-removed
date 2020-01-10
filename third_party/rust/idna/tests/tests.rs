@@ -4,10 +4,12 @@ idna
 ;
 extern
 crate
-rustc_serialize
+serde_json
 ;
 extern
 crate
+rustc_test
+as
 test
 ;
 mod

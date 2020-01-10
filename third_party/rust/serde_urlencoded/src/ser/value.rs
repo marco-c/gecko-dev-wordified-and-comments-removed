@@ -58,6 +58,8 @@ struct
 ValueSink
 <
 '
+input
+'
 key
 '
 target
@@ -79,6 +81,8 @@ target
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 key
@@ -91,6 +95,8 @@ str
 impl
 <
 '
+input
+'
 key
 '
 target
@@ -98,6 +104,8 @@ Target
 >
 ValueSink
 <
+'
+input
 '
 key
 '
@@ -124,6 +132,8 @@ target
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 key
@@ -151,6 +161,8 @@ key
 impl
 <
 '
+input
+'
 key
 '
 target
@@ -160,6 +172,8 @@ Sink
 for
 ValueSink
 <
+'
+input
 '
 key
 '

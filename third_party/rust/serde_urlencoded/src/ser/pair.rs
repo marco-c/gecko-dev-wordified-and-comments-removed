@@ -79,6 +79,8 @@ struct
 PairSerializer
 <
 '
+input
+'
 target
 Target
 :
@@ -96,6 +98,8 @@ target
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 state
@@ -105,11 +109,15 @@ PairState
 impl
 <
 '
+input
+'
 target
 Target
 >
 PairSerializer
 <
+'
+input
 '
 target
 Target
@@ -134,6 +142,8 @@ target
 mut
 UrlEncodedSerializer
 <
+'
+input
 Target
 >
 )
@@ -158,6 +168,8 @@ WaitingForKey
 impl
 <
 '
+input
+'
 target
 Target
 >
@@ -168,6 +180,8 @@ Serializer
 for
 PairSerializer
 <
+'
+input
 '
 target
 Target
@@ -1167,6 +1181,8 @@ unsupported_pair
 impl
 <
 '
+input
+'
 target
 Target
 >
@@ -1177,6 +1193,8 @@ SerializeTuple
 for
 PairSerializer
 <
+'
+input
 '
 target
 Target
