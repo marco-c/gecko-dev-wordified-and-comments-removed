@@ -552,6 +552,10 @@ if
 (
 !
 aNewPosition
+|
+|
+!
+aFromUser
 )
 {
 return

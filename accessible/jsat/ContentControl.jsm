@@ -992,16 +992,6 @@ CursorCleared
 )
 ;
 }
-this
-.
-document
-.
-activeElement
-.
-blur
-(
-)
-;
 }
 handleAutoMove
 :
