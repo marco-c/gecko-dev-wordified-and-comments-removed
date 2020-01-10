@@ -272,6 +272,16 @@ return
 FONT_TYPE_FT2
 ;
 }
+bool
+ShouldRoundXOffset
+(
+cairo_t
+*
+aCairo
+)
+const
+override
+;
 static
 void
 SetupVarCoords

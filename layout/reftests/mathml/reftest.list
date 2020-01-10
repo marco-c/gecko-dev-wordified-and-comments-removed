@@ -378,7 +378,7 @@ skiaContent
 2
 0
 -
-500
+529
 )
 =
 =
@@ -638,12 +638,12 @@ geckoview
 &
 &
 webrender
-216
+201
 -
 216
 312
 -
-314
+316
 )
 fuzzy
 -
@@ -7716,7 +7716,7 @@ geckoview
 webrender
 0
 -
-198
+239
 0
 -
 781
@@ -7789,7 +7789,7 @@ geckoview
 webrender
 0
 -
-198
+239
 0
 -
 781
@@ -7931,7 +7931,7 @@ geckoview
 webrender
 0
 -
-198
+239
 0
 -
 776
@@ -7973,7 +7973,7 @@ geckoview
 webrender
 0
 -
-198
+239
 0
 -
 271
@@ -8084,7 +8084,7 @@ geckoview
 webrender
 0
 -
-198
+239
 0
 -
 776
@@ -8126,7 +8126,7 @@ geckoview
 webrender
 0
 -
-198
+239
 0
 -
 271
