@@ -14287,7 +14287,6 @@ GetDocumentCharacterSet
 (
 )
 aBaseURI
-sIOService
 )
 ;
 }
@@ -14298,7 +14297,6 @@ aResult
 aSpec
 nullptr
 aBaseURI
-sIOService
 )
 ;
 }
