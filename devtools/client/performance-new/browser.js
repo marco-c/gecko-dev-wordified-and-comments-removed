@@ -1340,7 +1340,7 @@ function
 createMultiModalGetSymbolTableFn
 (
 profile
-objdirs
+getObjdirs
 perfFront
 )
 {
@@ -1440,6 +1440,13 @@ breakpadId
 }
 try
 {
+const
+objdirs
+=
+getObjdirs
+(
+)
+;
 return
 await
 getSymbolTableFromLocalBinary
