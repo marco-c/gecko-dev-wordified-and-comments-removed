@@ -136,6 +136,8 @@ CloseVRWindow
 PRIVATE
 SendUIMessageToVRWindow
 PRIVATE
+WaitForVREvent
+PRIVATE
 ;
 +
 =
