@@ -9237,6 +9237,16 @@ AsInteger
 ;
 #
 endif
+auto
+remoteTypePrefix
+=
+RemoteTypePrefix
+(
+GetRemoteType
+(
+)
+)
+;
 CrashReporter
 :
 :
@@ -9251,9 +9261,7 @@ Annotation
 RemoteType
 NS_ConvertUTF16toUTF8
 (
-GetRemoteType
-(
-)
+remoteTypePrefix
 )
 )
 ;

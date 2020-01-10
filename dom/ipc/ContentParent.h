@@ -5941,6 +5941,16 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 ContentParent
 NS_CONTENTPARENT_IID
 )
+const
+nsDependentSubstring
+RemoteTypePrefix
+(
+const
+nsAString
+&
+aContentProcessType
+)
+;
 }
 }
 class
