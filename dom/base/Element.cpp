@@ -2827,10 +2827,6 @@ nsGkAtoms
 :
 :
 textbox
-nsGkAtoms
-:
-:
-arrowscrollbox
 )
 )
 {
