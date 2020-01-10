@@ -191,9 +191,6 @@ Geckoview
 <
 2
 )
-All
-=
-0xFF
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS

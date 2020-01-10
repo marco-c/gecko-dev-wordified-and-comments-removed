@@ -1174,6 +1174,14 @@ expired
 '
 :
 False
+            
+'
+products
+'
+:
+event
+.
+products
         
 }
 )
