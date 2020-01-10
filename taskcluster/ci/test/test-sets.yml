@@ -1815,7 +1815,6 @@ chrome
 mochitest
 -
 chrome
-#
 -
 mochitest
 -
@@ -1942,12 +1941,6 @@ browser
 chrome
 -
 mochitest
--
-chrome
--
-mochitest
--
-devtools
 -
 chrome
 -
