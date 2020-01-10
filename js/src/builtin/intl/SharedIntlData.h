@@ -496,12 +496,6 @@ supportedLocales
 LocaleSet
 collatorSupportedLocales
 ;
-LocaleSet
-dateTimeFormatSupportedLocales
-;
-LocaleSet
-numberFormatSupportedLocales
-;
 bool
 supportedLocalesInitialized
 =
