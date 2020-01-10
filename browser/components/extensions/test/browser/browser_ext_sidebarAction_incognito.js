@@ -11,6 +11,7 @@ test_sidebarAction_not_allowed
 (
 )
 {
+await
 SpecialPowers
 .
 pushPrefEnv
