@@ -12109,6 +12109,16 @@ rv
 nsAutoCString
 baseDomain
 ;
+if
+(
+!
+host
+.
+IsEmpty
+(
+)
+)
+{
 rv
 =
 GetBaseDomainFromHost
@@ -12124,6 +12134,7 @@ rv
 rv
 )
 ;
+}
 nsListIter
 matchIter
 ;
