@@ -14,7 +14,7 @@ h
 #
 include
 "
-EncodedFrameContainer
+EncodedFrame
 .
 h
 "
@@ -85,7 +85,13 @@ nsresult
 WriteEncodedTrack
 (
 const
-EncodedFrameContainer
+nsTArray
+<
+RefPtr
+<
+EncodedFrame
+>
+>
 &
 aData
 uint32_t

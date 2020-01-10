@@ -14,7 +14,7 @@ h
 #
 include
 "
-EncodedFrameContainer
+EncodedFrame
 .
 h
 "
@@ -159,7 +159,13 @@ virtual
 nsresult
 GetEncodedTrack
 (
-EncodedFrameContainer
+nsTArray
+<
+RefPtr
+<
+EncodedFrame
+>
+>
 &
 aData
 )

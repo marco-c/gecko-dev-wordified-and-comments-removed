@@ -327,7 +327,13 @@ uint64_t
 aDuration
 )
 {
-EncodedFrameContainer
+nsTArray
+<
+RefPtr
+<
+EncodedFrame
+>
+>
 encodedVideoData
 ;
 nsTArray
@@ -388,7 +394,7 @@ frameData
 ;
 encodedVideoData
 .
-AppendEncodedFrame
+AppendElement
 (
 videoData
 )
