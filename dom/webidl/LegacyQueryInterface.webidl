@@ -161,14 +161,6 @@ Element
 implements
 LegacyQueryInterface
 ;
-TreeColumns
-implements
-LegacyQueryInterface
-;
-TreeContentView
-implements
-LegacyQueryInterface
-;
 Window
 implements
 LegacyQueryInterface
