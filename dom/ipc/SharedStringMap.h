@@ -74,9 +74,6 @@ struct
 Header
 {
 uint32_t
-mMagic
-;
-uint32_t
 mEntryCount
 ;
 size_t

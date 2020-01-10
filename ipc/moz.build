@@ -90,9 +90,6 @@ DIRS
 =
 [
 '
-app
-'
-'
 chromium
 '
 '
@@ -147,12 +144,12 @@ DIRS
 mscom
 '
 ]
-TEST_DIRS
+DIRS
 +
 =
 [
 '
-gtest
+app
 '
 ]
 with
