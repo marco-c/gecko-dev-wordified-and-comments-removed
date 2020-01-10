@@ -446,6 +446,11 @@ ClearData
 "
 GeckoView
 :
+ClearSessionContextData
+"
+"
+GeckoView
+:
 ClearHostData
 "
 ]

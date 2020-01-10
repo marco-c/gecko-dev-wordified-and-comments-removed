@@ -8722,6 +8722,16 @@ long
 ;
 method
 AnyThread
+public
+void
+clearDataForSessionContext
+(
+NonNull
+String
+)
+;
+method
+AnyThread
 NonNull
 public
 GeckoResult
