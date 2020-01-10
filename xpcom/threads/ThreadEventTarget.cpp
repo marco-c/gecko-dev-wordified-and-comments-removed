@@ -374,13 +374,14 @@ ThreadEventTarget
 :
 SetCurrentThread
 (
+PRThread
+*
+aThread
 )
 {
 mThread
 =
-PR_GetCurrentThread
-(
-)
+aThread
 ;
 }
 NS_IMPL_ISUPPORTS
