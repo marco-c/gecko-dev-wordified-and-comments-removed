@@ -286,6 +286,15 @@ item
 .
 info
 ;
+this
+.
+classList
+.
+add
+(
+labelText
+)
+;
 if
 (
 this
