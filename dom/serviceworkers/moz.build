@@ -390,6 +390,11 @@ ServiceWorkerPrivate
 cpp
 '
 '
+ServiceWorkerPrivateImpl
+.
+cpp
+'
+'
 ServiceWorkerProxy
 .
 cpp
@@ -564,6 +569,12 @@ LOCAL_INCLUDES
 +
 =
 [
+'
+/
+extensions
+/
+permissions
+'
 '
 /
 js
