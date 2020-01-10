@@ -275,5 +275,17 @@ MakeCurrent
 )
 ;
 }
+bool
+RenderCompositor
+:
+:
+IsContextLost
+(
+)
+{
+return
+false
+;
+}
 }
 }

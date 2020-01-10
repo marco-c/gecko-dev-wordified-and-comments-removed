@@ -270,15 +270,6 @@ void
 RenderCompositorOGL
 :
 :
-WaitForGPU
-(
-)
-{
-}
-void
-RenderCompositorOGL
-:
-:
 Pause
 (
 )
