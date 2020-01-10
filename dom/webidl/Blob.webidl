@@ -237,6 +237,7 @@ Blob
 .
 [
 NewObject
+Throws
 ]
 ReadableStream
 stream

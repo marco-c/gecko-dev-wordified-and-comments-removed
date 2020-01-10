@@ -1842,17 +1842,6 @@ isMethod
 (
 )
     
-if
-method
-.
-returnsPromise
-(
-)
-:
-        
-return
-True
-    
 for
 signature
 in
@@ -4359,7 +4348,6 @@ isMethod
 :
             
 if
-(
 member
 .
 getExtendedAttribute
@@ -4368,16 +4356,28 @@ getExtendedAttribute
 NewObject
 "
 )
-and
+:
                 
+if
+member
+.
+returnsPromise
+(
+)
+:
+                    
+throws
+=
+True
+                
+elif
 methodReturnsJSObject
 (
 member
 )
-)
 :
-                
-throws
+                    
+canOOM
 =
 True
             

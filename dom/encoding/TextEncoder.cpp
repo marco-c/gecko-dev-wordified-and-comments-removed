@@ -76,7 +76,7 @@ JSObject
 *
 >
 aRetval
-ErrorResult
+OOMReporter
 &
 aRv
 )
@@ -122,9 +122,8 @@ UINT32_MAX
 {
 aRv
 .
-Throw
+ReportOOM
 (
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
@@ -158,9 +157,8 @@ data
 {
 aRv
 .
-Throw
+ReportOOM
 (
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
@@ -205,9 +203,8 @@ maybe
 {
 aRv
 .
-Throw
+ReportOOM
 (
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
@@ -281,9 +278,8 @@ outView
 {
 aRv
 .
-Throw
+ReportOOM
 (
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
