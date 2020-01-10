@@ -12406,13 +12406,6 @@ texture_cache
 swizzle_settings
 (
 )
-self
-.
-texture_cache
-.
-min_picture_cache_slices
-(
-)
 )
 ;
 }
