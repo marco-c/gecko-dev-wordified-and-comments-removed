@@ -6943,6 +6943,14 @@ true
 }
 if
 (
+StaticPrefs
+:
+:
+dom_webshare_requireinteraction
+(
+)
+&
+&
 !
 UserActivation
 :
