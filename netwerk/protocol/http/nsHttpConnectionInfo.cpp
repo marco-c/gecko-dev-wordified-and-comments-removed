@@ -234,6 +234,8 @@ bool
 endToEndSSL
 bool
 isolated
+bool
+aIsHttp3
 )
 :
 mRoutedPort
@@ -259,6 +261,7 @@ topWindowOrigin
 proxyInfo
 originAttributes
 endToEndSSL
+aIsHttp3
 )
 ;
 }
@@ -294,6 +297,8 @@ OriginAttributes
 originAttributes
 bool
 endToEndSSL
+bool
+aIsHttp3
 )
 :
 nsHttpConnectionInfo
@@ -307,6 +312,7 @@ proxyInfo
 originAttributes
 endToEndSSL
 false
+aIsHttp3
 )
 {
 }
@@ -348,6 +354,8 @@ int32_t
 routedPort
 bool
 isolated
+bool
+aIsHttp3
 )
 :
 mIsolated
@@ -411,6 +419,7 @@ topWindowOrigin
 proxyInfo
 originAttributes
 true
+aIsHttp3
 )
 ;
 }
@@ -450,6 +459,8 @@ nsACString
 routedHost
 int32_t
 routedPort
+bool
+aIsHttp3
 )
 :
 nsHttpConnectionInfo
@@ -464,6 +475,7 @@ originAttributes
 routedHost
 routedPort
 false
+aIsHttp3
 )
 {
 }
@@ -500,6 +512,8 @@ OriginAttributes
 originAttributes
 bool
 e2eSSL
+bool
+aIsHttp3
 )
 {
 LOG
@@ -540,6 +554,10 @@ false
 mNPNToken
 =
 npnToken
+;
+mIsHttp3
+=
+aIsHttp3
 ;
 mOriginAttributes
 =
@@ -1481,6 +1499,7 @@ mProxyInfo
 mOriginAttributes
 mEndToEndSSL
 mIsolated
+mIsHttp3
 )
 ;
 }
@@ -1506,6 +1525,7 @@ mOriginAttributes
 mRoutedHost
 mRoutedPort
 mIsolated
+mIsHttp3
 )
 ;
 }
@@ -1850,6 +1870,7 @@ mTopWindowOrigin
 mProxyInfo
 mOriginAttributes
 true
+mIsHttp3
 )
 ;
 clone
