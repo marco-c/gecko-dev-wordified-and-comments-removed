@@ -302,6 +302,11 @@ Transport
 h
 '
 '
+TransportSecurityInfoUtils
+.
+h
+'
+'
 URIUtils
 .
 h
@@ -903,6 +908,11 @@ cpp
 '
 '
 StringUtil
+.
+cpp
+'
+'
+TransportSecurityInfoUtils
 .
 cpp
 '

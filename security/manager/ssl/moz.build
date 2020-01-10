@@ -428,6 +428,11 @@ PSMContentListener
 .
 h
 '
+'
+TransportSecurityInfo
+.
+h
+'
 ]
 EXPORTS
 .
