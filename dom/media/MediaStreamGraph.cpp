@@ -1155,10 +1155,6 @@ mNotifiedFinished
 =
 true
 ;
-SetStreamOrderDirty
-(
-)
-;
 }
 }
 }
@@ -9938,15 +9934,6 @@ endif
 mFinished
 =
 true
-;
-GraphImpl
-(
-)
--
->
-SetStreamOrderDirty
-(
-)
 ;
 }
 StreamTracks
