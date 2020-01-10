@@ -1667,9 +1667,6 @@ CONTAIN
 =
 (
 constrainingRatio
-&
-&
-constrainingRatio
 <
 aIntrinsicRatio
 )
