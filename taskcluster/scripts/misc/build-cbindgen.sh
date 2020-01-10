@@ -309,3 +309,17 @@ tar
 .
 COMPRESS_EXT
 UPLOAD_DIR
+.
+GECKO_PATH
+/
+taskcluster
+/
+scripts
+/
+misc
+/
+vs
+-
+cleanup
+.
+sh

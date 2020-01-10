@@ -311,3 +311,17 @@ tar
 .
 *
 UPLOAD_DIR
+.
+GECKO_PATH
+/
+taskcluster
+/
+scripts
+/
+misc
+/
+vs
+-
+cleanup
+.
+sh
