@@ -1746,25 +1746,6 @@ node_dir
 +
 path
         
-path
-=
-[
-os
-.
-path
-.
-dirname
-(
-self
-.
-virtualenv_manager
-.
-python_path
-)
-]
-+
-path
-        
 append_env
 =
 {
@@ -1781,6 +1762,16 @@ join
 (
 path
 )
+            
+'
+PYTHON
+'
+:
+self
+.
+virtualenv_manager
+.
+python_path
         
 }
         
