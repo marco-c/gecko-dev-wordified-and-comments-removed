@@ -4126,11 +4126,11 @@ do_QueryObject
 controller
 )
 ;
-MOZ_ASSERT
+if
 (
 parentListener
 )
-;
+{
 parentListener
 -
 >
@@ -4139,6 +4139,7 @@ SetupInterceptionAfterRedirect
 shouldIntercept
 )
 ;
+}
 if
 (
 mPBOverride

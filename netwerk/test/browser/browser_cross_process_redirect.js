@@ -1186,6 +1186,8 @@ BrowserTestUtils
 browserStopped
 (
 browser1
+undefined
+true
 )
 ;
 await
@@ -1260,6 +1262,8 @@ BrowserTestUtils
 browserStopped
 (
 browser1
+undefined
+true
 )
 ;
 await
