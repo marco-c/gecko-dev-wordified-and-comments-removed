@@ -92,6 +92,13 @@ unwrap
 )
 ;
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 fn
 assert_ser

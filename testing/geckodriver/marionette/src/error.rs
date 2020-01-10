@@ -314,7 +314,6 @@ rename
 "
 error
 "
-skip_serializing
 )
 ]
 pub
@@ -1050,7 +1049,7 @@ crate
 test
 :
 :
-assert_ser
+assert_ser_de
 ;
 use
 serde_json
@@ -1063,7 +1062,7 @@ json
 test
 ]
 fn
-test_error_serialize
+test_json_error
 (
 )
 {
@@ -1096,7 +1095,7 @@ into
 )
 }
 ;
-assert_ser
+assert_ser_de
 (
 &
 err
@@ -1104,6 +1103,13 @@ json
 !
 (
 {
+"
+error
+"
+:
+"
+timeout
+"
 "
 message
 "
