@@ -735,6 +735,16 @@ self
         
 return
 True
+    
+def
+__bool__
+(
+self
+)
+:
+        
+return
+True
 class
 NegativeOptionValue
 (
