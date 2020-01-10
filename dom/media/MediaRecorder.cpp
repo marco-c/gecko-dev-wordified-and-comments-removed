@@ -4060,7 +4060,7 @@ audioBitrate
 mRecorder
 -
 >
-GetAudioBitrate
+AudioBitsPerSecond
 (
 )
 ;
@@ -4070,7 +4070,7 @@ videoBitrate
 mRecorder
 -
 >
-GetVideoBitrate
+VideoBitsPerSecond
 (
 )
 ;
@@ -4080,7 +4080,7 @@ bitrate
 mRecorder
 -
 >
-GetBitrate
+BitsPerSecond
 (
 )
 ;
