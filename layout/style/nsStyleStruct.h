@@ -6490,12 +6490,6 @@ aOldPosition
 )
 const
 ;
-mozilla
-:
-:
-StyleUrlOrNone
-mBinding
-;
 nsStyleAutoArray
 <
 mozilla
