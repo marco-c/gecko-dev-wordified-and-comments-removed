@@ -66,7 +66,7 @@ framework
 /
 toolbox
 .
-xul
+xhtml
 "
 )
 classDescription

@@ -1058,7 +1058,7 @@ toolbox
 -
 window
 .
-xul
+xhtml
 "
 create
 :
