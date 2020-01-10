@@ -65,7 +65,6 @@ window
 var
 isWebRender
 =
-(
 utils
 .
 layerManagerType
@@ -74,7 +73,6 @@ layerManagerType
 "
 WebRender
 "
-)
 ;
 var
 test_urls
@@ -206,9 +204,7 @@ jsm
 events
 :
 {
-"
 DOMWindowCreated
-"
 :
 {
 }
@@ -255,9 +251,7 @@ gBrowser
 url
 }
 async
-(
 browser
-)
 =
 >
 {

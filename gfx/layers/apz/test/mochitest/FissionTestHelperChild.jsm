@@ -155,9 +155,7 @@ Cu
 .
 exportFunction
 (
-(
 resolve
-)
 =
 >
 {
@@ -327,9 +325,7 @@ Cu
 .
 exportFunction
 (
-(
 resolve
-)
 =
 >
 {

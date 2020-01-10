@@ -248,9 +248,7 @@ Troubleshoot
 .
 snapshot
 (
-(
 data
-)
 =
 >
 {

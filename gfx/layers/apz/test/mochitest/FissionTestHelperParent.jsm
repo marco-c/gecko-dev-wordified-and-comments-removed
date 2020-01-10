@@ -27,9 +27,7 @@ _testCompletePromise
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

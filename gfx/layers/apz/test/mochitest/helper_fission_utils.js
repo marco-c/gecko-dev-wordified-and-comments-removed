@@ -302,14 +302,12 @@ e
 )
 {
 return
-(
 typeof
 e
 .
 data
 .
 content
-)
 =
 =
 "
