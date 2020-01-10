@@ -248,10 +248,6 @@ script
 build
 -
 clang
--
-tidy
--
-linux
 .
 sh
 arguments
@@ -383,10 +379,6 @@ script
 build
 -
 clang
--
-tidy
--
-macosx
 .
 sh
 tooltool
@@ -553,10 +545,6 @@ script
 build
 -
 clang
--
-tidy64
--
-windows
 .
 sh
 arguments
