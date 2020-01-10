@@ -59,7 +59,10 @@ reporting
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 ReportBody
@@ -69,7 +72,10 @@ ReportBody
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 Report
@@ -95,7 +101,10 @@ body
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 ReportingObserver
@@ -169,7 +178,10 @@ ReportList
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 DeprecationReportBody
@@ -217,7 +229,10 @@ columnNumber
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 InterventionReportBody
@@ -259,7 +274,10 @@ columnNumber
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 CrashReportBody
