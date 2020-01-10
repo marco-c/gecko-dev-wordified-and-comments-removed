@@ -355,6 +355,7 @@ from
 optparse
 import
 OptionParser
+SUPPRESS_HELP
     
 op
 =
@@ -2175,6 +2176,37 @@ also
 executed
 .
 "
+)
+    
+op
+.
+add_option
+(
+'
+-
+-
+enable
+-
+webrender
+'
+action
+=
+'
+store_true
+'
+                  
+dest
+=
+"
+enable_webrender
+"
+default
+=
+False
+                  
+help
+=
+SUPPRESS_HELP
 )
     
 options
