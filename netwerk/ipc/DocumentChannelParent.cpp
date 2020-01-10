@@ -2508,11 +2508,6 @@ cp
 return
 ;
 }
-MOZ_ASSERT
-(
-config
-)
-;
 cp
 -
 >
@@ -2520,7 +2515,6 @@ SendCrossProcessRedirect
 (
 mRedirectChannelId
 uri
-*
 config
 loadInfoArgs
 channelId
