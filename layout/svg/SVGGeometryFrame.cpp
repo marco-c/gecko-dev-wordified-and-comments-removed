@@ -2240,6 +2240,7 @@ eBBoxIncludeFill
 )
 &
 &
+!
 StyleSVG
 (
 )
@@ -2247,12 +2248,11 @@ StyleSVG
 >
 mFill
 .
-Type
+kind
+.
+IsNone
 (
 )
-!
-=
-eStyleSVGPaintType_None
 )
 ;
 bool
