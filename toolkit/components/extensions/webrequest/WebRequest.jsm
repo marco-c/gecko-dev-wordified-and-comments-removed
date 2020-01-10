@@ -1119,11 +1119,6 @@ parentFrameId
 this
 .
 parentWindowId
-thirdParty
-:
-this
-.
-thirdParty
 }
 ;
 if
@@ -3911,11 +3906,6 @@ channel
 .
 fromCache
 originAttributes
-thirdParty
-:
-channel
-.
-thirdParty
 originUrl
 :
 channel
