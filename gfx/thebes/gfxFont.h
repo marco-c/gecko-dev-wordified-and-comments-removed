@@ -6600,6 +6600,16 @@ gfx
 Point
 *
 aPt
+const
+mozilla
+:
+:
+gfx
+:
+:
+Matrix
+*
+aOffsetMatrix
 GlyphBufferAzure
 &
 aBuffer
