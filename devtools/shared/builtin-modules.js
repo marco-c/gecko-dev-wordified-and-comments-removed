@@ -95,6 +95,7 @@ getSystemPrincipal
 const
 {
 console
+DebuggerNotificationObserver
 DOMPoint
 DOMQuad
 DOMRect
@@ -534,6 +535,7 @@ modules
 =
 {
 ChromeUtils
+DebuggerNotificationObserver
 HeapSnapshot
 promise
 Promise

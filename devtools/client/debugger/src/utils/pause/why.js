@@ -53,6 +53,13 @@ whyPaused
 .
 breakpointConditionThrown
 "
+eventBreakpoint
+:
+"
+whyPaused
+.
+eventBreakpoint
+"
 DOM
 :
 "

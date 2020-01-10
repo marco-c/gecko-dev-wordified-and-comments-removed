@@ -169,6 +169,10 @@ state
 eventListenerBreakpoints
 .
 active
+|
+|
+[
+]
 ;
 }
 export
@@ -188,6 +192,10 @@ state
 eventListenerBreakpoints
 .
 categories
+|
+|
+[
+]
 ;
 }
 export
@@ -207,6 +215,10 @@ state
 eventListenerBreakpoints
 .
 expanded
+|
+|
+[
+]
 ;
 }
 export

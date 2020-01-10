@@ -96,6 +96,7 @@ active
 newEvents
 }
 ;
+await
 client
 .
 setEventListenerBreakpoints
@@ -206,6 +207,7 @@ activeListenerBreakpoints
 ]
 )
 ;
+await
 updateBreakpoints
 (
 dispatch
@@ -270,6 +272,7 @@ event
 )
 )
 ;
+await
 updateBreakpoints
 (
 dispatch

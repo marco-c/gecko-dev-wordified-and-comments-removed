@@ -1964,6 +1964,11 @@ ChromeUtils
 "
 :
 ChromeUtils
+"
+DebuggerNotificationObserver
+"
+:
+DebuggerNotificationObserver
 }
 paths
 :
