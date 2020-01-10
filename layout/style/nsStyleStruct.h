@@ -10536,6 +10536,9 @@ uint8_t
 mStrokeLinejoin
 ;
 uint8_t
+mDominantBaseline
+;
+uint8_t
 mTextAnchor
 ;
 bool
@@ -10947,9 +10950,6 @@ mStopOpacity
 ;
 float
 mFloodOpacity
-;
-uint8_t
-mDominantBaseline
 ;
 uint8_t
 mVectorEffect
