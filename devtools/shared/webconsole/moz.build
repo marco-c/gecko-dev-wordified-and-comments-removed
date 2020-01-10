@@ -313,6 +313,11 @@ helper
 js
 '
 '
+parser
+.
+js
+'
+'
 throttle
 .
 js
