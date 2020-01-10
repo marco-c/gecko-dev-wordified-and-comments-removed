@@ -152,7 +152,7 @@ await
 setLogPoint
 (
 dbg
-9
+7
 "
 undefinedVariable
 "
@@ -175,7 +175,7 @@ await
 setLogPoint
 (
 dbg
-10
+8
 "
 a
 is
@@ -189,7 +189,7 @@ await
 assertEditorLogpoint
 (
 dbg
-9
+7
 {
 hasLog
 :
@@ -201,7 +201,7 @@ await
 assertEditorLogpoint
 (
 dbg
-10
+8
 {
 hasLog
 :
@@ -410,7 +410,7 @@ dbg
 source
 .
 id
-9
+7
 )
 ;
 await
@@ -420,7 +420,7 @@ dbg
 source
 .
 id
-10
+8
 )
 ;
 await
@@ -442,7 +442,7 @@ logpoint
 .
 js
 "
-10
+8
 )
 ;
 info
@@ -476,8 +476,8 @@ not
 defined
 "
 true
-9
-12
+8
+10
 )
 ;
 info
@@ -511,8 +511,8 @@ is
 1
 "
 true
+8
 10
-12
 )
 ;
 }
@@ -627,7 +627,7 @@ await
 setLogPoint
 (
 dbg
-10
+8
 "
 a
 is
@@ -675,7 +675,7 @@ await
 setLogPoint
 (
 dbg
-10
+8
 "
 c
 is
