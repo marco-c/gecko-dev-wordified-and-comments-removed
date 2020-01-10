@@ -498,6 +498,17 @@ return
 mGood
 ;
 }
+void
+SetIsBad
+(
+)
+final
+{
+mGood
+=
+false
+;
+}
 private
 :
 size_t

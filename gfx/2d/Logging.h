@@ -273,6 +273,7 @@ UnscaledFontNotFound
 ScaledFontNotFound
 InvalidLayerType
 PlayEventFailed
+InvalidConstrainedValueRead
 MustBeLessThanThis
 =
 101
