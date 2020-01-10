@@ -1947,6 +1947,7 @@ nsIRequest
 aRequest
 )
 ;
+static
 nsresult
 AddHeadersToChannel
 (
