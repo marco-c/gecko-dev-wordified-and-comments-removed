@@ -430,6 +430,8 @@ async
 Decode
 (
 MediaRawDataIPDL
+[
+]
 data
 )
 returns
