@@ -3,6 +3,10 @@ use
 strict
 "
 ;
+_profileInitialized
+=
+true
+;
 add_task
 (
 async

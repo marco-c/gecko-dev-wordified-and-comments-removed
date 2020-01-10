@@ -38,7 +38,7 @@ SimpleTest
 .
 requestLongerTimeout
 (
-2
+4
 )
 ;
 if
