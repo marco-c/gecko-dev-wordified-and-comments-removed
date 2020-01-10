@@ -2014,6 +2014,17 @@ aFrame
 NS_DECL_ISUPPORTS
 private
 :
+virtual
+~
+BackgroundClipRenderingObserver
+(
+)
+{
+StopObserving
+(
+)
+;
+}
 Element
 *
 GetReferencedElementWithoutObserving
