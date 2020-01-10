@@ -22,8 +22,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 /
 "
 +

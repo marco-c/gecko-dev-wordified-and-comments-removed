@@ -20,8 +20,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 /
 test
 .
@@ -155,8 +153,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 /
 src
 .
@@ -273,8 +269,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 /
 test
 /
@@ -306,8 +300,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 /
 test
 /

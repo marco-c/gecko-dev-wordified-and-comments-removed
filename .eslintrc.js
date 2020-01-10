@@ -2811,8 +2811,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 /
 test
 /

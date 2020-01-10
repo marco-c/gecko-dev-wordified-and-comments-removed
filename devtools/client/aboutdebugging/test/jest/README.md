@@ -7,8 +7,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 #
 #
 About
@@ -75,8 +73,6 @@ client
 shared
 /
 aboutdebugging
--
-new
 /
 test
 /

@@ -505,8 +505,6 @@ script
 are
 :
 aboutdebugging
--
-new
 accessibility
 application
 framework
