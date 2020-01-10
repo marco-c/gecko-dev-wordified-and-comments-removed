@@ -1442,6 +1442,8 @@ self
 return
 "
 <
+conditional
+.
 ManifestItem
 %
 s
