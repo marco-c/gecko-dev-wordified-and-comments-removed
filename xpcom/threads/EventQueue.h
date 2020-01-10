@@ -98,6 +98,16 @@ aProofOfLock
 )
 final
 ;
+void
+DidRunEvent
+(
+const
+MutexAutoLock
+&
+aProofOfLock
+)
+{
+}
 bool
 IsEmpty
 (
