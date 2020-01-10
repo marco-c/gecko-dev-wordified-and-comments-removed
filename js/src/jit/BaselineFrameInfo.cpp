@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -91,7 +96,10 @@ isGlobalCode
 size_t
 nstack
 =
-Max
+std
+:
+:
+max
 (
 script
 -

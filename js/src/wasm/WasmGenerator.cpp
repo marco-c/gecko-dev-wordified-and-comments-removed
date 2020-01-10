@@ -995,7 +995,10 @@ masm_
 .
 reserve
 (
-Min
+std
+:
+:
+min
 (
 estimatedCodeSize
 MaxCodeBytesPerProcess
@@ -2319,7 +2322,10 @@ callee
 uint32_t
 range
 =
-Min
+std
+:
+:
+min
 (
 JitOptions
 .

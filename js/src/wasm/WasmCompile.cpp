@@ -27,6 +27,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -1625,7 +1630,10 @@ maxWasmCompilationThreads
 uint32_t
 cores
 =
-Min
+std
+:
+:
+min
 (
 cpuCount
 workers
@@ -2911,7 +2919,10 @@ numBytes
 {
 numBytes
 =
-Min
+std
+:
+:
+min
 (
 numBytes
 d_

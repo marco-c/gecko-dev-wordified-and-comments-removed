@@ -10,6 +10,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 utility
 >
 #
@@ -5921,7 +5926,10 @@ break
 }
 maxDefinition
 =
-Max
+std
+:
+:
+max
 (
 maxDefinition
 def
@@ -19221,7 +19229,10 @@ if
 !
 SafeSub
 (
-Min
+std
+:
+:
+min
 (
 minimumA
 minimumB
@@ -19237,7 +19248,10 @@ newMinimum
 !
 SafeSub
 (
-Max
+std
+:
+:
+max
 (
 maximumA
 maximumB

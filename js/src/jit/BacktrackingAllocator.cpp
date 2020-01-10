@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -16209,7 +16214,10 @@ i
 {
 maxWeight
 =
-Max
+std
+:
+:
+max
 (
 maxWeight
 computeSpillWeight

@@ -27,6 +27,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -10781,7 +10786,10 @@ cx_
 size_t
 numArgs
 =
-Max
+std
+:
+:
+max
 <
 size_t
 >

@@ -27,6 +27,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -3825,7 +3830,10 @@ codeLength
 size_t
 newSegmentSize
 =
-Max
+std
+:
+:
+max
 (
 codeLength
 ExecutableCodePageSize

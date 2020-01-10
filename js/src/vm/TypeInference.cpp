@@ -75,6 +75,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 new
 >
 #
@@ -19961,7 +19966,10 @@ true
 }
 maxSlotSpan
 =
-Max
+std
+:
+:
+max
 <
 size_t
 >

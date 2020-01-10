@@ -45,6 +45,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 builtin
 /
@@ -6173,7 +6178,10 @@ warnings
 size_t
 numWarnings
 =
-Min
+std
+:
+:
+min
 <
 size_t
 >
@@ -18091,7 +18099,10 @@ Code
 size_t
 copyLength
 =
-Min
+std
+:
+:
+min
 <
 size_t
 >

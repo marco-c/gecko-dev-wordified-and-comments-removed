@@ -2674,7 +2674,10 @@ isNative
 uint32_t
 bound
 =
-Min
+std
+:
+:
+min
 (
 source
 -
@@ -2872,7 +2875,10 @@ false
 }
 len
 =
-Min
+std
+:
+:
+min
 (
 len
 target

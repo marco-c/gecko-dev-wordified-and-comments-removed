@@ -24,6 +24,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -1834,7 +1839,10 @@ if
 (
 finger_dist
 <
-Min
+std
+:
+:
+min
 (
 offset
 int

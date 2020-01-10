@@ -36,6 +36,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 debugger
 /
@@ -908,7 +913,10 @@ data
 .
 maxArgc
 =
-Max
+std
+:
+:
+max
 (
 fp
 -

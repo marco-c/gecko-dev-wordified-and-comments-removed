@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -1188,7 +1193,10 @@ args
 size_t
 numKnownArgs
 =
-Min
+std
+:
+:
+min
 (
 importArgs
 .
@@ -9408,7 +9416,10 @@ exportArgs
 .
 resize
 (
-Max
+std
+:
+:
+max
 <
 size_t
 >

@@ -10,6 +10,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 utility
 >
 #
@@ -319,7 +324,10 @@ nargs
 unsigned
 argSlots
 =
-Max
+std
+:
+:
+max
 (
 numFormals
 iter

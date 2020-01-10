@@ -136,6 +136,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 chrono
 >
 #
@@ -23458,7 +23463,10 @@ TimeDuration
 :
 FromSeconds
 (
-Max
+std
+:
+:
+max
 (
 0
 .
@@ -40950,7 +40958,10 @@ delayMillis
 ;
 chunkSize
 =
-Min
+std
+:
+:
+min
 (
 chunkSize
 byteLength

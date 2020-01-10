@@ -11,6 +11,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 debugger
 /
@@ -181,10 +186,10 @@ this
 unsigned
 numArgs
 =
-js
+std
 :
 :
-Max
+max
 (
 numActualArgs
 (

@@ -45,6 +45,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 builtin
 /
@@ -505,7 +510,10 @@ cpuCount
 )
 {
 return
-Min
+std
+:
+:
+min
 <
 size_t
 >
@@ -524,7 +532,10 @@ cpuCount
 )
 {
 return
-Max
+std
+:
+:
+max
 <
 size_t
 >

@@ -27,6 +27,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 builtin
 /
@@ -6010,7 +6015,10 @@ needsArgsObj
 uint32_t
 existing_args
 =
-Min
+std
+:
+:
+min
 <
 uint32_t
 >
@@ -33020,7 +33028,10 @@ true
 uint32_t
 expected_args
 =
-Min
+std
+:
+:
+min
 <
 uint32_t
 >
@@ -33238,7 +33249,10 @@ isBuiltinNative
 {
 targetArgs
 =
-Max
+std
+:
+:
+max
 <
 uint32_t
 >

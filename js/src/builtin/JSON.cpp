@@ -45,6 +45,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jsnum
 .
@@ -3731,7 +3736,10 @@ jsid
 >
 (
 cx
-Min
+std
+:
+:
+min
 (
 len
 MaxInitialSize
@@ -4083,7 +4091,10 @@ d
 ;
 d
 =
-Min
+std
+:
+:
+min
 (
 10
 .
@@ -4157,7 +4168,10 @@ false
 size_t
 len
 =
-Min
+std
+:
+:
+min
 (
 size_t
 (

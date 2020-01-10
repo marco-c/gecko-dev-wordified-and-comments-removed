@@ -48,6 +48,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 string
 .
 h
@@ -5555,7 +5560,10 @@ argc
 =
 unsigned
 (
-Min
+std
+:
+:
+min
 (
 argc
 ARGS_LENGTH_MAX

@@ -9,6 +9,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 gc
 /
@@ -1636,7 +1641,10 @@ UnknownSSE
 {
 maxSSEVersion
 =
-Min
+std
+:
+:
+min
 (
 maxSSEVersion
 maxEnabledSSEVersion

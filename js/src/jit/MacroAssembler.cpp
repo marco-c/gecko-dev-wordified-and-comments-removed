@@ -29,6 +29,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jsfriendapi
 .
@@ -4524,7 +4529,10 @@ end
 uint32_t
 nfixed
 =
-Min
+std
+:
+:
+min
 (
 templateObj
 .
@@ -5745,7 +5753,10 @@ offset
 )
 temp
 startOfUninitialized
-Min
+std
+:
+:
+min
 (
 startOfUndefined
 nfixed
@@ -18901,7 +18912,10 @@ i
 ;
 i
 <
-Min
+std
+:
+:
+min
 (
 len
 TailWindow

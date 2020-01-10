@@ -10,6 +10,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 stdarg
 .
 h
@@ -1088,7 +1093,10 @@ arguments
 {
 lhsLen
 =
-Max
+std
+:
+:
+max
 (
 lhsLen
 strlen
@@ -1272,7 +1280,10 @@ metavar
 }
 lhsLen
 =
-Max
+std
+:
+:
+max
 (
 lhsLen
 len

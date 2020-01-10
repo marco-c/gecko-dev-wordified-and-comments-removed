@@ -12,6 +12,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 utility
 >
 #
@@ -2103,7 +2108,10 @@ this
 unsigned
 argc
 =
-Max
+std
+:
+:
+max
 (
 numActualArgs
 (

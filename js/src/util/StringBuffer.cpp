@@ -36,6 +36,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 vm
 /
@@ -261,7 +266,10 @@ arenaId_
 size_t
 capacity
 =
-Max
+std
+:
+:
+max
 (
 reserved_
 latin1Chars

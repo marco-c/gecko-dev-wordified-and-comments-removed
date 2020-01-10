@@ -42,6 +42,11 @@ Sprintf
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 __linux__
 #
@@ -24536,7 +24541,10 @@ nogc
 size_t
 writeLength
 =
-Min
+std
+:
+:
+min
 (
 linear
 -

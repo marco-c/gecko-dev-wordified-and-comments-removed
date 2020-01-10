@@ -25,6 +25,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 stdint
 .
 h
@@ -2674,7 +2679,10 @@ getClass
 )
 ;
 return
-Min
+std
+:
+:
+min
 (
 nslots
 numFixedSlots

@@ -37,6 +37,11 @@ endif
 #
 include
 <
+algorithm
+>
+#
+include
+<
 string
 .
 h
@@ -174,10 +179,10 @@ NowFuzzyTime
 ;
 }
 return
-js
+std
 :
 :
-Max
+max
 (
 PRMJ_NowImpl
 (

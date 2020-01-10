@@ -18,6 +18,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -5231,7 +5236,10 @@ stackBytesConsumedSoFar
 ;
 maxStackArgBytes_
 =
-Max
+std
+:
+:
+max
 (
 maxStackArgBytes_
 stackBytes
