@@ -120,17 +120,3 @@ TEST_DIRS
 browser
 '
 ]
-ANDROID_INSTRUMENTATION_MANIFESTS
-+
-=
-[
-'
-browser
-/
-robocop
-/
-robocop
-.
-ini
-'
-]

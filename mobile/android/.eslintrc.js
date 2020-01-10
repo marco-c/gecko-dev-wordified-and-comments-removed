@@ -141,16 +141,6 @@ WebsiteMetadata
 .
 jsm
 "
-"
-tests
-/
-browser
-/
-robocop
-/
-*
-*
-"
 ]
 rules
 :

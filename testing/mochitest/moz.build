@@ -717,11 +717,6 @@ runjunit
 py
 '
 '
-runrobocop
-.
-py
-'
-'
 runtests
 .
 py
@@ -1624,9 +1619,6 @@ exclusive
 [
 '
 mochitest
-'
-'
-robocop
 '
 ]
 with
