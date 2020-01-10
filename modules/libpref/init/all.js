@@ -19568,7 +19568,6 @@ telemetry
 url
 -
 classifier
-webrtc
 welcomeback
 "
 )
@@ -28286,6 +28285,16 @@ slider
 snapMultiplier
 "
 6
+)
+;
+pref
+(
+"
+print
+.
+extend_native_print_dialog
+"
+true
 )
 ;
 pref
