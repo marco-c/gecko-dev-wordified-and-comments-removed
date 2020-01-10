@@ -2477,6 +2477,12 @@ _import
 dedent
 '
 )
+imports
+(
+'
+os
+'
+)
 def
 check_sccache_version
 (
@@ -2637,6 +2643,9 @@ sccache
 check_version
 (
 rustc_wrapper
+[
+0
+]
 )
 set_config
 (
