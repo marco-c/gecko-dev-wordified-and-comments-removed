@@ -221,6 +221,7 @@ BrowserToolboxProcess
 (
 onClose
 onRun
+overwritePreferences
 )
 {
 const
@@ -384,6 +385,7 @@ this
 .
 _initProfile
 (
+overwritePreferences
 )
 ;
 this
@@ -416,6 +418,7 @@ function
 (
 onClose
 onRun
+overwritePreferences
 )
 {
 if
@@ -485,6 +488,7 @@ BrowserToolboxProcess
 (
 onClose
 onRun
+overwritePreferences
 )
 ;
 }
@@ -797,9 +801,8 @@ n
 ;
 }
 _initProfile
-:
-function
 (
+overwritePreferences
 )
 {
 dumpn
@@ -878,6 +881,12 @@ Cr
 NS_ERROR_FILE_ALREADY_EXISTS
 )
 {
+if
+(
+!
+overwritePreferences
+)
+{
 this
 .
 _dbgProfilePath
@@ -886,6 +895,9 @@ debuggingProfileDir
 .
 path
 ;
+return
+;
+}
 }
 else
 {
@@ -921,9 +933,9 @@ ex
 )
 )
 ;
-}
 return
 ;
+}
 }
 this
 .
