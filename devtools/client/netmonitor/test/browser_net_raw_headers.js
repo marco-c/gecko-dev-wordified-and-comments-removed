@@ -106,6 +106,7 @@ tab
 2
 )
 ;
+let
 wait
 =
 waitForDOM

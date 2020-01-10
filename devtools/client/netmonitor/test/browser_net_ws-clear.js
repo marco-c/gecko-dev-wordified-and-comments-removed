@@ -172,6 +172,7 @@ requests
 "
 )
 ;
+let
 wait
 =
 waitForDOM

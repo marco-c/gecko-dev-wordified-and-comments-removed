@@ -381,6 +381,7 @@ request
 "
 )
 ;
+let
 wait
 =
 waitForDOM

@@ -106,6 +106,7 @@ tab
 1
 )
 ;
+const
 wait
 =
 waitForDOM

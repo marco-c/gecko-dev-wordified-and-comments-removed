@@ -195,6 +195,7 @@ netmonitor
 await
 onNetMonitor
 ;
+const
 wait
 =
 waitForNetworkEvents

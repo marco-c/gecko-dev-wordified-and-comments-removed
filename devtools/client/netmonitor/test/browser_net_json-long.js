@@ -283,6 +283,7 @@ true
 }
 )
 ;
+const
 wait
 =
 waitForDOM
