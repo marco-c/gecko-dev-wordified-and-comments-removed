@@ -1771,8 +1771,11 @@ void
 Realm
 :
 :
-sweepJitRealm
+traceWeakEdgesInJitRealm
 (
+JSTracer
+*
+trc
 )
 {
 if
@@ -1783,8 +1786,9 @@ jitRealm_
 jitRealm_
 -
 >
-sweep
+traceWeak
 (
+trc
 this
 )
 ;
