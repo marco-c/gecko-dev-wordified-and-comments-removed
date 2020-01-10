@@ -1830,7 +1830,7 @@ certutil
 pk12util
 *
 \
-BadCertServer
+BadCertAndPinningServer
 *
 \
 OCSPStaplingServer

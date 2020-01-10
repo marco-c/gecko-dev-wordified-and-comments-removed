@@ -145,7 +145,7 @@ mode
 add_tls_server_setup
 (
 "
-BadCertServer
+BadCertAndPinningServer
 "
 "
 test_ct

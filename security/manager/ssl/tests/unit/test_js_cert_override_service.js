@@ -176,7 +176,7 @@ certOverrideServiceCID
 add_tls_server_setup
 (
 "
-BadCertServer
+BadCertAndPinningServer
 "
 "
 bad_certs

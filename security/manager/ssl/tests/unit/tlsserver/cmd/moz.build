@@ -89,7 +89,7 @@ GeckoSimplePrograms
 (
 [
 '
-BadCertServer
+BadCertAndPinningServer
 '
 '
 GenerateOCSPResponse
