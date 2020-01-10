@@ -1236,6 +1236,13 @@ IsValid
 )
 )
 ;
+if
+(
+GetReferentId
+(
+)
+)
+{
 return
 mLayer
 -
@@ -1243,6 +1250,13 @@ mLayer
 GetEventRegionsOverride
 (
 )
+;
+}
+return
+EventRegionsOverride
+:
+:
+NoOverride
 ;
 }
 const
