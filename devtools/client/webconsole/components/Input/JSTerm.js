@@ -3471,9 +3471,6 @@ serviceContainer
 .
 getFrameActor
 (
-options
-.
-frame
 )
 ;
 return
