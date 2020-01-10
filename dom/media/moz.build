@@ -308,6 +308,9 @@ ipc
 mediacapabilities
 '
 '
+mediacontrol
+'
+'
 mediasink
 '
 '
