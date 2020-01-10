@@ -126,6 +126,11 @@ EXPORTS
 =
 [
 '
+CFTypeRefPtr
+.
+h
+'
+'
 mozView
 .
 h
