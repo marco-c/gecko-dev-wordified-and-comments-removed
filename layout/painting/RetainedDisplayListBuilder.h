@@ -650,6 +650,11 @@ aAGR
 PartialUpdateResult
 &
 aUpdated
+nsIFrame
+*
+aOuterFrame
+=
+nullptr
 uint32_t
 aCallerKey
 =
