@@ -52,6 +52,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsISupportsBase
 .
 h
@@ -341,6 +348,12 @@ EnsureApzAware
 (
 )
 ;
+bool
+IsInPositionFixedSubtree
+(
+)
+const
+;
 protected
 :
 void
@@ -593,6 +606,9 @@ mImaginaryCaretRect
 ;
 nsRect
 mImaginaryCaretRectInContainerFrame
+;
+WeakFrame
+mImaginaryCaretReferenceFrame
 ;
 float
 mZoomLevel
