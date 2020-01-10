@@ -340,6 +340,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WindowProxyHolder
+.
+h
+"
+#
+include
+"
 Units
 .
 h
