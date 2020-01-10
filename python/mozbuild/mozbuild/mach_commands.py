@@ -17244,6 +17244,20 @@ server_url
         
 self
 .
+cov_port
+=
+cov_config
+.
+get
+(
+'
+server_port
+'
+8443
+)
+        
+self
+.
 cov_auth
 =
 cov_config
@@ -17301,10 +17315,20 @@ None
 or
 self
 .
+cov_port
+is
+None
+or
+\
+                
+self
+.
 cov_analysis_url
 is
 None
 or
+\
+                
 self
 .
 cov_auth
@@ -17389,6 +17413,13 @@ ssl
 "
 :
 true
+                
+"
+port
+"
+:
+%
+s
                 
 "
 on_new_cert
@@ -17485,6 +17516,9 @@ COVERITY_CONFIG
 self
 .
 cov_url
+self
+.
+cov_port
 cov_auth_path
 )
         
