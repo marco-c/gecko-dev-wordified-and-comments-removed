@@ -100,9 +100,6 @@ waitForUpdateDownload
 aArgs
 .
 updates
-aArgs
-.
-updateCount
 Cr
 .
 NS_OK

@@ -17719,7 +17719,6 @@ onCheckComplete
 (
 request
 updates
-updateCount
 )
 =
 >
@@ -17752,7 +17751,9 @@ equal
 aExpectedValues
 .
 updateCount
-updateCount
+updates
+.
+length
 "
 the
 update
@@ -17768,7 +17769,6 @@ resolve
 {
 request
 updates
-updateCount
 }
 )
 ;
@@ -17858,7 +17858,6 @@ function
 waitForUpdateDownload
 (
 aUpdates
-aUpdateCount
 aExpectedStatus
 )
 {
@@ -17870,7 +17869,6 @@ gAUS
 selectUpdate
 (
 aUpdates
-aUpdateCount
 )
 ;
 let
