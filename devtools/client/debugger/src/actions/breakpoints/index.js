@@ -543,6 +543,17 @@ getState
 )
 )
 ;
+dispatch
+(
+{
+type
+:
+"
+REMOVE_BREAKPOINTS
+"
+}
+)
+;
 return
 Promise
 .

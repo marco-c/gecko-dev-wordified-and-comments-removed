@@ -165,6 +165,17 @@ state
 action
 )
 ;
+case
+"
+REMOVE_BREAKPOINTS
+"
+:
+{
+return
+{
+}
+;
+}
 }
 return
 state
