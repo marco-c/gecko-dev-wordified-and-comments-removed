@@ -87,7 +87,7 @@ DocAccessiblePlatformExtChild
 :
 RecvNavigateText
 (
-int32_t
+uint64_t
 aID
 int32_t
 aGranularity
@@ -112,6 +112,18 @@ aID
 )
 )
 {
+acc
+-
+>
+NavigateText
+(
+aGranularity
+aStartOffset
+aEndOffset
+aForward
+aSelect
+)
+;
 }
 return
 IPC_OK
