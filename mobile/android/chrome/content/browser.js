@@ -34246,11 +34246,7 @@ search
 addEngineWithDetails
 (
 name
-data
-null
-null
-method
-formURL
+details
 )
 ;
 Snackbars
