@@ -1016,7 +1016,7 @@ when
 the
 returned
 promise
-resolves
+settles
 .
 The
 test
