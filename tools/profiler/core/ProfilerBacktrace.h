@@ -17,6 +17,9 @@ class
 ProfileBuffer
 ;
 class
+ProfilerCodeAddressService
+;
+class
 SpliceableJSONWriter
 ;
 class

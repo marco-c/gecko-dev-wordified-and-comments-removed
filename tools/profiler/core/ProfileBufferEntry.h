@@ -109,6 +109,9 @@ nsString
 h
 "
 class
+ProfilerCodeAddressService
+;
+class
 ProfilerMarker
 ;
 #
@@ -1938,6 +1941,12 @@ UniquePtr
 UniqueJSONStrings
 >
 mUniqueStrings
+;
+ProfilerCodeAddressService
+*
+mCodeAddressService
+=
+nullptr
 ;
 private
 :
