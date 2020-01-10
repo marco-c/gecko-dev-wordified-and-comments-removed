@@ -747,7 +747,7 @@ campaignId
 {
 heroRec
 .
-campaignId
+campaign_id
 }
 rows
 =

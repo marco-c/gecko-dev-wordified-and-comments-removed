@@ -1888,7 +1888,7 @@ learnMore
 .
 link
 .
-id
+message
 link_url
 :
 topStories
@@ -2020,7 +2020,7 @@ message
 header
 .
 link_url
-id
+message
 :
 message
 .

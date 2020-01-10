@@ -72,12 +72,18 @@ found
 const
 contextMenuItems
 =
+await
 content
 .
 openContextMenuAndGetOptions
 (
 siteSelector
 )
+;
+const
+contextMenuItemsText
+=
+contextMenuItems
 .
 map
 (
@@ -93,7 +99,7 @@ Assert
 .
 equal
 (
-contextMenuItems
+contextMenuItemsText
 .
 length
 5
@@ -145,7 +151,7 @@ i
 ;
 i
 <
-contextMenuItems
+contextMenuItemsText
 .
 length
 ;
@@ -158,7 +164,7 @@ Assert
 .
 equal
 (
-contextMenuItems
+contextMenuItemsText
 [
 i
 ]
@@ -301,6 +307,7 @@ href
 const
 contextMenuItems
 =
+await
 content
 .
 openContextMenuAndGetOptions
@@ -514,6 +521,7 @@ default
 const
 contextMenuItems
 =
+await
 content
 .
 openContextMenuAndGetOptions

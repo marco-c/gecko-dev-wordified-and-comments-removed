@@ -804,12 +804,6 @@ type
 "
 history
 "
-&
-&
-!
-page
-.
-bookmarkGuid
 )
 {
 splitHighlights
