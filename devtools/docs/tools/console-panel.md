@@ -73,7 +73,8 @@ js
 openBrowserConsole
 (
 )
-openWebConsole
+or
+toggleBrowserConsole
 (
 )
 HUDService
@@ -86,10 +87,12 @@ js
 hud
 }
 {
-consoles
+_browserConsole
 }
-n
-n
+0
+.
+.
+1
 1
 BrowserConsole
 WebConsole
