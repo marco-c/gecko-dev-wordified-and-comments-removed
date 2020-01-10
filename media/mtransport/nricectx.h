@@ -1133,6 +1133,8 @@ bool
 default_route_only
 bool
 proxy_only
+bool
+obfuscate_host_addresses
 )
 ;
 nsresult
@@ -1504,6 +1506,9 @@ proxy_config_
 ;
 bool
 proxy_only_
+;
+bool
+obfuscate_host_addresses_
 ;
 std
 :

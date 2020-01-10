@@ -212,6 +212,10 @@ bool
 &
 defaultRouteOnly
 const
+bool
+&
+obfuscateAddresses
+const
 net
 :
 :
