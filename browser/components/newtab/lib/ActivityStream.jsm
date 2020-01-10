@@ -2580,7 +2580,7 @@ hardcoded_layout
 true
 personalized
 :
-false
+true
 layout_endpoint
 :
 "
