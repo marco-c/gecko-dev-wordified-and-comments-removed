@@ -375,6 +375,16 @@ extensions
 .
 htmlaboutaddons
 .
+enabled
+"
+true
+]
+[
+"
+extensions
+.
+htmlaboutaddons
+.
 recommendations
 .
 enabled

@@ -1489,6 +1489,16 @@ extensions
 .
 htmlaboutaddons
 .
+enabled
+"
+true
+]
+[
+"
+extensions
+.
+htmlaboutaddons
+.
 discover
 .
 enabled
