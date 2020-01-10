@@ -552,6 +552,17 @@ invalid
 "
 const
 val
+UNKNOWN_PROTOCOL_URI
+=
+"
+htt
+:
+/
+/
+invalid
+"
+const
+val
 FULLSCREEN_PATH
 =
 "
