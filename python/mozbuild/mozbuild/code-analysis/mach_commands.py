@@ -1643,9 +1643,24 @@ total
 +
 1
         
+source
+=
+self
+.
+_generate_path_list
+(
+source
+verbose
+=
+verbose
+)
+        
 if
 not
 total
+or
+not
+source
 :
             
 self
@@ -15262,9 +15277,9 @@ verbose
 print
 (
 "
-clang
+static
 -
-format
+analysis
 :
 Ignored
 third
