@@ -1420,7 +1420,7 @@ run
 -
 time
 :
-900
+1800
 mozharness
 :
 mochitest
