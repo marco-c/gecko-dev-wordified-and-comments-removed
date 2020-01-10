@@ -2485,7 +2485,7 @@ FunctionSyntaxKind
 DerivedClassConstructor
 )
 ;
-MOZ_ASSERT
+if
 (
 !
 node
@@ -2495,7 +2495,7 @@ isEmptyScope
 (
 )
 )
-;
+{
 MOZ_ASSERT
 (
 node
@@ -2549,6 +2549,7 @@ clearScopeBindings
 (
 )
 ;
+}
 }
 }
 }
