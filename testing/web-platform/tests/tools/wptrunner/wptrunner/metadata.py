@@ -271,6 +271,13 @@ None
 disable_intermittent
 =
 None
+                    
+update_intermittent
+=
+False
+remove_intermittent
+=
+False
 )
 :
     
@@ -301,7 +308,7 @@ or
 runs
     
 If
-stability
+disable_intermittent
 is
 not
 None
@@ -354,6 +361,10 @@ id_test_map
 update_properties
                                                        
 disable_intermittent
+                                                       
+update_intermittent
+                                                       
+remove_intermittent
                                                        
 full_update
                                                        
@@ -1251,8 +1262,10 @@ update_from_logs
 id_test_map
 update_properties
 disable_intermittent
-full_update
+update_intermittent
                      
+remove_intermittent
+full_update
 *
 log_filenames
 )
@@ -1321,8 +1334,11 @@ update_results
 (
 id_test_map
 update_properties
-disable_intermittent
 full_update
+                               
+disable_intermittent
+update_intermittent
+remove_intermittent
 )
 :
         
