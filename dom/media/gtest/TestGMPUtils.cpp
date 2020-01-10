@@ -33,10 +33,6 @@ vector
 >
 using
 namespace
-std
-;
-using
-namespace
 mozilla
 ;
 void
@@ -375,6 +371,9 @@ uint8_t
 >
 bytes
 ;
+std
+:
+:
 string
 hex
 ;

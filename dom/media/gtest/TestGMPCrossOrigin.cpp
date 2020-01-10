@@ -85,10 +85,6 @@ h
 "
 using
 namespace
-std
-;
-using
-namespace
 mozilla
 ;
 using

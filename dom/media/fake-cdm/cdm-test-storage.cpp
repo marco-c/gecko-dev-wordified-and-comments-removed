@@ -36,10 +36,6 @@ using
 namespace
 cdm
 ;
-using
-namespace
-std
-;
 class
 WriteRecordClient
 :
@@ -50,6 +46,9 @@ public
 :
 WriteRecordClient
 (
+std
+:
+:
 function
 <
 void
@@ -59,6 +58,9 @@ void
 &
 &
 aOnSuccess
+std
+:
+:
 function
 <
 void
@@ -199,6 +201,9 @@ void
 Do
 (
 const
+std
+:
+:
 string
 &
 aName
@@ -293,6 +298,9 @@ mFileIO
 =
 nullptr
 ;
+std
+:
+:
 function
 <
 void
@@ -301,6 +309,9 @@ void
 >
 mOnSuccess
 ;
+std
+:
+:
 function
 <
 void
@@ -339,6 +350,9 @@ uint8_t
 aData
 uint32_t
 aNumBytes
+std
+:
+:
 function
 <
 void
@@ -348,6 +362,9 @@ void
 &
 &
 aOnSuccess
+std
+:
+:
 function
 <
 void
@@ -408,6 +425,9 @@ std
 string
 &
 aData
+std
+:
+:
 function
 <
 void
@@ -417,6 +437,9 @@ void
 &
 &
 aOnSuccess
+std
+:
+:
 function
 <
 void
@@ -470,6 +493,9 @@ public
 explicit
 ReadRecordClient
 (
+std
+:
+:
 function
 <
 void
@@ -582,6 +608,9 @@ void
 Do
 (
 const
+std
+:
+:
 string
 &
 aName
@@ -697,6 +726,9 @@ mFileIO
 =
 nullptr
 ;
+std
+:
+:
 function
 <
 void
@@ -725,6 +757,9 @@ std
 string
 &
 aRecordName
+std
+:
+:
 function
 <
 void
@@ -775,6 +810,9 @@ public
 explicit
 OpenRecordClient
 (
+std
+:
+:
 function
 <
 void
@@ -838,6 +876,9 @@ void
 Do
 (
 const
+std
+:
+:
 string
 &
 aName
@@ -934,6 +975,9 @@ mFileIO
 =
 nullptr
 ;
+std
+:
+:
 function
 <
 void
@@ -959,6 +1003,9 @@ std
 string
 &
 aRecordName
+std
+:
+:
 function
 <
 void
