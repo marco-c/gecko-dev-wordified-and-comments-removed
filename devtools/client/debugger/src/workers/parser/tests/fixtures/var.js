@@ -30,7 +30,7 @@ var
 foo
 :
 {
-bar
+baw
 }
 }
 =
@@ -38,7 +38,7 @@ bar
 }
 var
 {
-baz
+bap
 }
 =
 {
@@ -87,7 +87,7 @@ god
 var
 [
 [
-oh
+oj
 ]
 [
 {
