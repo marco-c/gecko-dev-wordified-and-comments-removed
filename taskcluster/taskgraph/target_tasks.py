@@ -3347,11 +3347,11 @@ t
 _target_task
 (
 '
-fennec_v64
+fennec_v68
 '
 )
 def
-target_tasks_fennec_v64
+target_tasks_fennec_v68
 (
 full_task_graph
 parameters
@@ -3370,7 +3370,7 @@ for
 running
 tp6m
 fennec
-v64
+v68
 tests
     
 "
@@ -3439,7 +3439,7 @@ False
 if
 '
 -
-fennec64
+fennec68
 -
 '
 in

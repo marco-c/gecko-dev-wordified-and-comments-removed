@@ -508,7 +508,7 @@ tp6m
 -
 fennec
 -
-v64
+v68
 job
 :
 type
@@ -520,14 +520,14 @@ treeherder
 -
 symbol
 :
-f64
+f68
 target
 -
 tasks
 -
 method
 :
-fennec_v64
+fennec_v68
 include
 -
 push
