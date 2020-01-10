@@ -150,5 +150,11 @@ BLOCKED
 =
 1
 ;
+const
+uint32_t
+BLOCKED_ALL
+=
+5
+;
 }
 ;
