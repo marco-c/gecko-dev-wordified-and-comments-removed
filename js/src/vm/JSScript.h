@@ -399,6 +399,8 @@ JSContext
 cx
 HandleScript
 src
+HandleObject
+functionOrGlobal
 HandleScriptSourceObject
 sourceObject
 MutableHandle
@@ -9497,6 +9499,11 @@ src
 js
 :
 :
+HandleObject
+functionOrGlobal
+js
+:
+:
 HandleScriptSourceObject
 sourceObject
 js
@@ -9527,7 +9534,7 @@ js
 :
 :
 HandleObject
-global
+functionOrGlobal
 uint8_t
 *
 stubEntry
@@ -9557,6 +9564,11 @@ cx
 js
 :
 :
+HandleObject
+functionOrGlobal
+js
+:
+:
 HandleScriptSourceObject
 sourceObject
 uint32_t
@@ -9579,6 +9591,11 @@ Create
 JSContext
 *
 cx
+js
+:
+:
+HandleObject
+functionOrGlobal
 const
 JS
 :
