@@ -39,6 +39,8 @@ run_if_e10s
     
 run_if_manage_instance
     
+skip
+    
 WindowManagerMixin
 )
 here
@@ -3250,6 +3252,29 @@ self
 run_bfcache_test
 (
 test_pages
+)
+    
+skip
+(
+"
+Bug
+1484927
+:
+Maybe
+causes
+crash
+in
+[
+mozilla
+:
+:
+ShutdownXPCOM
+(
+nsIServiceManager
+*
+)
+]
+"
 )
     
 def
