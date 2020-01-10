@@ -18756,7 +18756,6 @@ printpreview
 srcdoc
 addons
 config
-debugging
 downloads
 home
 newtab
