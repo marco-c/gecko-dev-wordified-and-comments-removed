@@ -19432,7 +19432,7 @@ p1_
 >
 SetStunResponseDelay
 (
-300
+200
 )
 ;
 p2_
@@ -19440,7 +19440,7 @@ p2_
 >
 SetStunResponseDelay
 (
-300
+200
 )
 ;
 PR_Sleep
