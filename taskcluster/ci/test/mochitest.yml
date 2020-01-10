@@ -344,17 +344,6 @@ test
 -
 platform
 :
-android
--
-em
--
-7
-.
-*
-/
-debug
-:
-2
 windows10
 -
 aarch64
