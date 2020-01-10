@@ -2401,11 +2401,6 @@ font_rendering
 .
 "
 BIDI_NUMERAL_PREF
-"
-gfx
-.
-font_ahem_antialias_none
-"
 nullptr
 }
 ;
@@ -11267,7 +11262,9 @@ strcmp
 "
 gfx
 .
-font_ahem_antialias_none
+font_rendering
+.
+ahem_antialias_none
 "
 aPref
 )

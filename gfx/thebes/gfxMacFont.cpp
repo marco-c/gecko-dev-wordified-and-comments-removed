@@ -733,7 +733,7 @@ MOZ_UNLIKELY
 StaticPrefs
 :
 :
-gfx_font_ahem_antialias_none
+gfx_font_rendering_ahem_antialias_none
 (
 )
 &

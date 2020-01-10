@@ -2595,7 +2595,9 @@ prefs
 '
 gfx
 .
-font_ahem_antialias_none
+font_rendering
+.
+ahem_antialias_none
 '
 ]
 =
