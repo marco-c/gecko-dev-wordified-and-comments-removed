@@ -2900,10 +2900,8 @@ GetFallbackBaseURI
 )
 ;
 }
-already_AddRefed
-<
 nsIURI
->
+*
 GetBaseURI
 (
 bool

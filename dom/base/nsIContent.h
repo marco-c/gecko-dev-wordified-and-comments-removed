@@ -1400,11 +1400,8 @@ return
 false
 ;
 }
-virtual
-already_AddRefed
-<
 nsIURI
->
+*
 GetBaseURI
 (
 bool

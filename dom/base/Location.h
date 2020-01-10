@@ -620,10 +620,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
-<
 nsIURI
->
+*
 GetSourceBaseURL
 (
 )

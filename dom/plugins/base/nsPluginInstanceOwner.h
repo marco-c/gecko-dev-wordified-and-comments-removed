@@ -999,10 +999,8 @@ UseAsyncRendering
 (
 )
 ;
-already_AddRefed
-<
 nsIURI
->
+*
 GetBaseURI
 (
 )

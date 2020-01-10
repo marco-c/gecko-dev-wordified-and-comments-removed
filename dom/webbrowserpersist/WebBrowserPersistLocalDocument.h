@@ -89,10 +89,8 @@ GetPersistFlags
 )
 const
 ;
-already_AddRefed
-<
 nsIURI
->
+*
 GetBaseURI
 (
 )
