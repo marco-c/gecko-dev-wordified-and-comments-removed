@@ -22,5 +22,11 @@ ProcessPendingGetURLAppleEvents
 void
 )
 ;
+void
+DisableAppNap
+(
+void
+)
+;
 #
 endif
