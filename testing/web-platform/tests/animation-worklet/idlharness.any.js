@@ -7,6 +7,8 @@ idl_test
 (
 [
 '
+css
+-
 animation
 -
 worklet
