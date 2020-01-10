@@ -189,15 +189,6 @@ patches
 :
 [
 "
-clang
--
-tidy
--
-8
-.
-patch
-"
-"
 compiler
 -
 rt

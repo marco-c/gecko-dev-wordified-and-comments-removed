@@ -221,7 +221,7 @@ fetch
 -
 clang
 -
-8
+9
 linux64
 -
 clang
@@ -298,6 +298,10 @@ fetches
 :
 toolchain
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -
@@ -439,6 +443,10 @@ toolchain
 -
 linux64
 -
+binutils
+-
+linux64
+-
 cctools
 -
 port
@@ -447,7 +455,7 @@ linux64
 -
 clang
 -
-8
+9
 -
 linux64
 -
