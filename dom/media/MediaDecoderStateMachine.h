@@ -1305,8 +1305,6 @@ MediaSink
 >
 CreateMediaSink
 (
-bool
-aOutputCaptured
 )
 ;
 void
@@ -1969,6 +1967,15 @@ mLooping
 ;
 Mirror
 <
+RefPtr
+<
+AudioDeviceInfo
+>
+>
+mSinkDevice
+;
+Mirror
+<
 bool
 >
 mOutputCaptured
@@ -2032,12 +2039,6 @@ Canonical
 bool
 >
 mIsAudioDataAudible
-;
-Atomic
-<
-int
->
-mSetSinkRequestsCount
 ;
 public
 :
