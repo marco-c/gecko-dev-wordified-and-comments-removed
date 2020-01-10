@@ -6718,7 +6718,7 @@ override
 ;
 nsIPrincipal
 *
-GetTopLevelAntiTrackingPrincipal
+GetTopLevelPrincipal
 (
 )
 ;
