@@ -6733,6 +6733,8 @@ aAttributes
 MappedDeclarations
 &
 aDecls
+MapAspectRatio
+aMapAspectRatio
 )
 {
 auto
@@ -6801,6 +6803,15 @@ StaticPrefs
 layout_css_width_and_height_map_to_aspect_ratio_enabled
 (
 )
+&
+&
+aMapAspectRatio
+=
+=
+MapAspectRatio
+:
+:
+Yes
 &
 &
 width
