@@ -914,6 +914,7 @@ GraphicsApi
 GraphicsApiInfo
 PipelineInfo
 Renderer
+RendererError
 RendererOptions
 RenderResults
 RendererStats
