@@ -885,7 +885,6 @@ GetDesiredIMEState
 (
 )
 ;
-virtual
 mozilla
 :
 :
