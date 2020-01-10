@@ -2621,6 +2621,12 @@ OnModifyDocument
 ;
 protected
 :
+EditActionResult
+CanHandleHTMLEditSubAction
+(
+)
+const
+;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
@@ -3817,7 +3823,7 @@ aBlockTag
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
-FormatBlockContainer
+FormatBlockContainerWithTransaction
 (
 nsAtom
 &
@@ -6093,7 +6099,7 @@ aTagName
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
-InsertBasicBlockWithTransaction
+FormatBlockContainerAsSubAction
 (
 nsAtom
 &
