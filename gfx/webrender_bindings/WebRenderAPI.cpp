@@ -503,6 +503,12 @@ get
 )
 :
 nullptr
+compositor
+-
+>
+GetMaxPartialPresentRects
+(
+)
 mDocHandle
 &
 wrRenderer
