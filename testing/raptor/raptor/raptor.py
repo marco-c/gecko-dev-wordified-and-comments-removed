@@ -5071,6 +5071,12 @@ None
         
 self
 .
+power_test_time
+=
+None
+        
+self
+.
 screen_off_timeout
 =
 0

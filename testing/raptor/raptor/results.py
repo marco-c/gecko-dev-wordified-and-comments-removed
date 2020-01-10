@@ -637,7 +637,7 @@ None
 expected_perfherder
 +
 =
-1
+2
         
 if
 self
