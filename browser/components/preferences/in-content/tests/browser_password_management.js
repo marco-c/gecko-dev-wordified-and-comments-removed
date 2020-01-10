@@ -70,6 +70,17 @@ removeAllLogins
 (
 )
 ;
+Services
+.
+prefs
+.
+setCharPref
+(
+PREF_MANAGEMENT_URI
+"
+"
+)
+;
 let
 nsLoginInfo
 =
