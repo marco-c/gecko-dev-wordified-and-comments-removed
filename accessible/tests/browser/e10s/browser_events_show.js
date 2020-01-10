@@ -82,5 +82,10 @@ present
 )
 ;
 }
+{
+iframe
+:
+true
+}
 )
 ;

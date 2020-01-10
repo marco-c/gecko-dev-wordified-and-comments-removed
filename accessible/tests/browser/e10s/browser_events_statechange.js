@@ -211,9 +211,7 @@ checkbox
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -275,9 +273,7 @@ iframe
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -331,6 +327,11 @@ accessible
 EXT_STATE_EDITABLE
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;
