@@ -135,7 +135,7 @@ compatibility
 /
 test
 /
-components
+node
 "
 type
 :
