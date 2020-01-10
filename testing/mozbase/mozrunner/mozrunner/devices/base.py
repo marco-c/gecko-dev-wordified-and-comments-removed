@@ -448,7 +448,27 @@ e
 )
 :
                 
+try
+:
+                    
+shutil
+.
+rmtree
+(
+local_dump_dir
+)
+                
+except
+Exception
+:
+                    
+pass
+                
+finally
+:
+                    
 raise
+e
             
 else
 :
