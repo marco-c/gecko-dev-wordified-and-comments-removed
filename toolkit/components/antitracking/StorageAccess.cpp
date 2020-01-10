@@ -1093,6 +1093,9 @@ aWindow
 |
 |
 aChannel
+|
+|
+aPrincipal
 )
 ;
 nsCOMPtr
