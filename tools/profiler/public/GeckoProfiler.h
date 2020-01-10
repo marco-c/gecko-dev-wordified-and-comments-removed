@@ -1543,8 +1543,8 @@ const
 nsCString
 &
 aUrl
-bool
-aIsSubFrame
+uint64_t
+aEmbedderInnerWindowID
 )
 ;
 void

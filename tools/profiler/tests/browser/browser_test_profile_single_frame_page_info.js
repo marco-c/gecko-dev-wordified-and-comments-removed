@@ -209,8 +209,8 @@ equal
 (
 page
 .
-isSubFrame
-false
+embedderInnerWindowID
+0
 )
 ;
 pageFound

@@ -6720,7 +6720,7 @@ IntProperty
 "
 version
 "
-16
+17
 )
 ;
 TimeDuration
@@ -13638,8 +13638,8 @@ std
 string
 &
 aUrl
-bool
-aIsSubFrame
+uint64_t
+aEmbedderInnerWindowID
 )
 {
 DEBUG_LOG
@@ -13658,7 +13658,9 @@ PRIu64
 %
 s
 %
-d
+"
+PRIu64
+"
 )
 "
 aBrowsingContextID
@@ -13668,7 +13670,7 @@ aUrl
 c_str
 (
 )
-aIsSubFrame
+aEmbedderInnerWindowID
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -13696,7 +13698,7 @@ PageInformation
 aBrowsingContextID
 aInnerWindowID
 aUrl
-aIsSubFrame
+aEmbedderInnerWindowID
 )
 ;
 CorePS

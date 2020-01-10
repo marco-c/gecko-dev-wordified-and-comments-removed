@@ -8584,7 +8584,7 @@ IntProperty
 "
 version
 "
-16
+17
 )
 ;
 TimeDuration
@@ -18614,8 +18614,8 @@ const
 nsCString
 &
 aUrl
-bool
-aIsSubFrame
+uint64_t
+aEmbedderInnerWindowID
 )
 {
 DEBUG_LOG
@@ -18634,7 +18634,9 @@ PRIu64
 %
 s
 %
-d
+"
+PRIu64
+"
 )
 "
 aBrowsingContextID
@@ -18644,7 +18646,7 @@ aUrl
 get
 (
 )
-aIsSubFrame
+aEmbedderInnerWindowID
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -18675,7 +18677,7 @@ PageInformation
 aBrowsingContextID
 aInnerWindowID
 aUrl
-aIsSubFrame
+aEmbedderInnerWindowID
 )
 ;
 CorePS

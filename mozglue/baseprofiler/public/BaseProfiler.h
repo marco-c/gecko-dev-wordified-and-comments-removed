@@ -1209,8 +1209,8 @@ std
 string
 &
 aUrl
-bool
-aIsSubFrame
+uint64_t
+aEmbedderInnerWindowID
 )
 ;
 MFBT_API
