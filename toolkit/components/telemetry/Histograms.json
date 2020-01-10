@@ -92049,9 +92049,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -92064,9 +92061,6 @@ products
 firefox
 "
 "
-fennec
-"
-"
 geckoview
 "
 ]
@@ -92076,7 +92070,7 @@ alert_emails
 :
 [
 "
-ayang
+bvandyk
 mozilla
 .
 com
@@ -92087,7 +92081,7 @@ expires_in_version
 "
 :
 "
-65
+74
 "
 "
 kind
@@ -92123,6 +92117,7 @@ bug_numbers
 :
 [
 1429986
+1570634
 ]
 }
 "
@@ -92488,9 +92483,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -92503,9 +92495,6 @@ products
 firefox
 "
 "
-fennec
-"
-"
 geckoview
 "
 ]
@@ -92515,7 +92504,7 @@ alert_emails
 :
 [
 "
-gsquelart
+jya
 mozilla
 .
 com
@@ -92527,13 +92516,14 @@ bug_numbers
 :
 [
 1369538
+1570634
 ]
 "
 expires_in_version
 "
 :
 "
-60
+74
 "
 "
 kind
@@ -92601,6 +92591,9 @@ record_in_processes
 "
 content
 "
+"
+socket
+"
 ]
 "
 products
@@ -92609,9 +92602,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -92647,13 +92637,14 @@ bug_numbers
 :
 [
 1484024
+1570634
 ]
 "
 expires_in_version
 "
 :
 "
-66
+74
 "
 "
 kind
@@ -92710,6 +92701,9 @@ record_in_processes
 "
 content
 "
+"
+socket
+"
 ]
 "
 products
@@ -92718,9 +92712,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -92756,13 +92747,14 @@ bug_numbers
 :
 [
 1491511
+1570634
 ]
 "
 expires_in_version
 "
 :
 "
-67
+74
 "
 "
 kind
@@ -92824,6 +92816,9 @@ record_in_processes
 "
 content
 "
+"
+socket
+"
 ]
 "
 products
@@ -92832,9 +92827,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -92870,13 +92862,14 @@ bug_numbers
 :
 [
 1491511
+1570634
 ]
 "
 expires_in_version
 "
 :
 "
-68
+74
 "
 "
 kind
@@ -121603,9 +121596,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -121616,9 +121606,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -121647,7 +121634,7 @@ expires_in_version
 "
 :
 "
-63
+never
 "
 "
 description
@@ -121724,6 +121711,7 @@ bug_numbers
 [
 1261955
 1127646
+1570634
 ]
 }
 "
@@ -121737,9 +121725,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -121750,9 +121735,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -121781,7 +121763,7 @@ expires_in_version
 "
 :
 "
-63
+never
 "
 "
 description
@@ -121862,6 +121844,7 @@ bug_numbers
 :
 [
 1285419
+1570634
 ]
 }
 "
@@ -121875,9 +121858,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -121888,9 +121868,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -121919,7 +121896,7 @@ expires_in_version
 "
 :
 "
-63
+never
 "
 "
 description
@@ -122036,6 +122013,7 @@ bug_numbers
 :
 [
 1287987
+1570634
 ]
 }
 "
@@ -122049,9 +122027,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -122062,9 +122037,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -122093,7 +122065,7 @@ expires_in_version
 "
 :
 "
-63
+74
 "
 "
 description
@@ -122223,6 +122195,7 @@ bug_numbers
 :
 [
 1293145
+1570634
 ]
 }
 "
@@ -122236,9 +122209,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -122249,9 +122219,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -122280,7 +122247,7 @@ expires_in_version
 "
 :
 "
-63
+74
 "
 "
 description
@@ -122396,6 +122363,7 @@ bug_numbers
 :
 [
 1289668
+1570634
 ]
 }
 "
@@ -122409,9 +122377,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -122422,9 +122387,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -122453,7 +122415,7 @@ expires_in_version
 "
 :
 "
-63
+74
 "
 "
 description
@@ -122578,6 +122540,7 @@ bug_numbers
 :
 [
 1289668
+1570634
 ]
 }
 "
@@ -122591,9 +122554,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -122604,9 +122564,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -122635,7 +122592,7 @@ expires_in_version
 "
 :
 "
-63
+74
 "
 "
 description
@@ -122734,6 +122691,7 @@ bug_numbers
 :
 [
 1294349
+1570634
 ]
 }
 "
@@ -122747,9 +122705,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -122760,9 +122715,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -122791,7 +122743,7 @@ expires_in_version
 "
 :
 "
-63
+74
 "
 "
 bug_numbers
@@ -122799,6 +122751,7 @@ bug_numbers
 :
 [
 1230265
+1570634
 ]
 "
 kind
@@ -122853,9 +122806,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -122866,9 +122816,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -132094,9 +132041,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -132107,9 +132051,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -132138,7 +132079,7 @@ expires_in_version
 "
 :
 "
-63
+never
 "
 "
 kind
@@ -132163,6 +132104,7 @@ bug_numbers
 :
 [
 1238433
+1570634
 ]
 "
 description
@@ -134388,9 +134330,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -134401,9 +134340,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -134426,7 +134362,7 @@ expires_in_version
 "
 :
 "
-55
+74
 "
 "
 kind
@@ -134446,6 +134382,7 @@ bug_numbers
 :
 [
 1280644
+1570634
 ]
 "
 description
@@ -148550,9 +148487,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -148563,9 +148497,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -148600,7 +148531,7 @@ expires_in_version
 "
 :
 "
-68
+74
 "
 "
 kind
@@ -148625,6 +148556,7 @@ bug_numbers
 :
 [
 1482259
+1570634
 ]
 "
 description
@@ -148694,9 +148626,6 @@ record_in_processes
 :
 [
 "
-main
-"
-"
 content
 "
 ]
@@ -148707,9 +148636,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview
@@ -148750,7 +148676,7 @@ expires_in_version
 "
 :
 "
-69
+74
 "
 "
 kind
@@ -148775,6 +148701,7 @@ bug_numbers
 :
 [
 1490074
+1570634
 ]
 "
 description
