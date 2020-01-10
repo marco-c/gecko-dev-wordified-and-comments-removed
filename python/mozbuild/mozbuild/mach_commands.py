@@ -3272,6 +3272,50 @@ CommandArgument
 '
 -
 -
+enable
+-
+webrender
+'
+action
+=
+'
+store_true
+'
+                     
+default
+=
+False
+dest
+=
+'
+enable_webrender
+'
+                     
+help
+=
+'
+Enable
+the
+WebRender
+compositor
+in
+Gecko
+.
+'
+)
+    
+CommandArgumentGroup
+(
+'
+Android
+'
+)
+    
+CommandArgument
+(
+'
+-
+-
 package
 '
                      
@@ -3287,13 +3331,15 @@ geckoview
 test
 '
                      
+group
+=
+'
+Android
+'
+                     
 help
 =
 '
-(
-Android
-only
-)
 Package
 name
 of
@@ -3317,13 +3363,15 @@ dest
 adb_path
 '
                      
+group
+=
+'
+Android
+'
+                     
 help
 =
 '
-(
-Android
-only
-)
 Path
 to
 adb
@@ -3346,13 +3394,15 @@ dest
 device_serial
 '
                      
+group
+=
+'
+Android
+'
+                     
 help
 =
 "
-(
-Android
-only
-)
 adb
 serial
 number
@@ -3405,13 +3455,15 @@ dest
 remote_test_root
 '
                      
+group
+=
+'
+Android
+'
+                     
 help
 =
 '
-(
-Android
-only
-)
 Remote
 directory
 to
@@ -3457,13 +3509,15 @@ dest
 libxul_path
 '
                      
+group
+=
+'
+Android
+'
+                     
 help
 =
 '
-(
-Android
-only
-)
 Path
 to
 gtest
@@ -3479,9 +3533,9 @@ CommandArgument
 '
 -
 -
-enable
+no
 -
-webrender
+install
 '
 action
 =
@@ -3492,21 +3546,22 @@ store_true
 default
 =
 False
-dest
+                     
+group
 =
 '
-enable_webrender
+Android
 '
                      
 help
 =
 '
-Enable
+Skip
 the
-WebRender
-compositor
-in
-Gecko
+installation
+of
+the
+APK
 .
 '
 )
@@ -3658,14 +3713,15 @@ shuffle
 jobs
 gtest_filter
 tbpl_parser
+enable_webrender
               
 package
 adb_path
 device_serial
 remote_test_root
 libxul_path
+no_install
               
-enable_webrender
 debug
 debugger
 debugger_args
@@ -3961,6 +4017,8 @@ remote_test_root
 libxul_path
                                       
 enable_webrender
+not
+no_install
 )
         
 if
@@ -3973,6 +4031,8 @@ or
 remote_test_root
 or
 libxul_path
+or
+no_install
 :
             
 print
@@ -4504,6 +4564,7 @@ remote_test_root
 libxul_path
                       
 enable_webrender
+install
 )
 :
         
@@ -4592,7 +4653,7 @@ verify_android_device
 self
 install
 =
-True
+install
 app
 =
 package

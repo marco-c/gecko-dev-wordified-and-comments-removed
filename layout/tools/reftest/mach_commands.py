@@ -1807,12 +1807,24 @@ android_device
 import
 verify_android_device
             
+install
+=
+not
+kwargs
+.
+get
+(
+'
+no_install
+'
+)
+            
 verify_android_device
 (
 self
 install
 =
-True
+install
 xre
 =
 True
