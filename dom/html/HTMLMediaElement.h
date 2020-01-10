@@ -3445,11 +3445,6 @@ MediaStreamRenderer
 >
 mMediaStreamRenderer
 ;
-bool
-mSrcStreamTracksAvailable
-=
-false
-;
 Watchable
 <
 bool
