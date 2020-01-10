@@ -363,14 +363,7 @@ constructorSender
 >
 OpenPBrowserEndpoint
 (
-do_AddRef
-(
 browserParent
-)
-.
-take
-(
-)
 )
 ;
 if

@@ -1452,6 +1452,7 @@ upto
 inside_cpow
 )
 sync
+refcounted
 protocol
 PBrowser
 {
