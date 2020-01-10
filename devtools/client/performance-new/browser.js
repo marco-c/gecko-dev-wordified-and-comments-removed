@@ -556,7 +556,7 @@ defaultValue
 }
 async
 function
-getRecordingPreferences
+getRecordingPreferencesFromDebuggee
 (
 preferenceFront
 defaultSettings
@@ -667,7 +667,7 @@ objdirs
 }
 async
 function
-setRecordingPreferences
+setRecordingPreferencesOnDebuggee
 (
 preferenceFront
 settings
@@ -777,7 +777,7 @@ exports
 =
 {
 receiveProfile
-getRecordingPreferences
-setRecordingPreferences
+getRecordingPreferencesFromDebuggee
+setRecordingPreferencesOnDebuggee
 }
 ;

@@ -437,6 +437,14 @@ setRecordingPreferences
 action
 .
 setRecordingPreferences
+isPopup
+:
+Boolean
+(
+action
+.
+isPopup
+)
 }
 ;
 default
