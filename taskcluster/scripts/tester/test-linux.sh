@@ -305,6 +305,12 @@ Debian
 ;
 then
 #
+temporarily
+turn
+errexit
+off
+#
+nicely
 kill
 existing
 daemons
@@ -326,11 +332,6 @@ additional
 stabilization
 and
 debugging
-#
-turn
-off
-errexit
-temporarily
 ps
 ax
 |
@@ -378,9 +379,8 @@ check
 and
 start
 pulseaudio
-(
+with
 debugging
-)
 pulseaudio
 -
 -
@@ -424,6 +424,9 @@ log
 time
 =
 1
+set
+-
+e
 else
 :
 fi
