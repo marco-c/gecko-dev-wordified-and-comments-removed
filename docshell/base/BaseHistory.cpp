@@ -642,9 +642,6 @@ if
 entry
 )
 {
-#
-ifndef
-MOZ_WIDGET_ANDROID
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -661,8 +658,6 @@ registered
 "
 )
 ;
-#
-endif
 return
 ;
 }
@@ -689,9 +684,6 @@ aLink
 )
 )
 {
-#
-ifndef
-MOZ_WIDGET_ANDROID
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -708,8 +700,6 @@ registered
 "
 )
 ;
-#
-endif
 return
 ;
 }
