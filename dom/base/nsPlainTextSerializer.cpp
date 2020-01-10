@@ -6137,6 +6137,11 @@ Length
 (
 )
 ;
+if
+(
+mLineBreaker
+)
+{
 uint32_t
 width
 =
@@ -6180,11 +6185,6 @@ goodSpace
 +
 +
 ;
-if
-(
-mLineBreaker
-)
-{
 goodSpace
 =
 mLineBreaker
