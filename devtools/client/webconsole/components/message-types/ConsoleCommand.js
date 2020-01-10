@@ -165,7 +165,6 @@ indent
 timeStamp
 timestampsVisible
 maybeScrollToBottom
-message
 }
 )
 ;

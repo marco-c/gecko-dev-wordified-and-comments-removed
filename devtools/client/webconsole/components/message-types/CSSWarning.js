@@ -549,7 +549,6 @@ topLevelClasses
 [
 ]
 type
-message
 }
 )
 ;
