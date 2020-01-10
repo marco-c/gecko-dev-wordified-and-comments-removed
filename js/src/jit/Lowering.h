@@ -279,7 +279,7 @@ lowerBitOp
 (
 JSOp
 op
-MInstruction
+MBinaryBitwiseInstruction
 *
 ins
 )
