@@ -5202,7 +5202,7 @@ bottom
 StyleVerticalAlignKeyword
 :
 :
-Bottom
+Baseline
 }
 {
 "
