@@ -113,3 +113,5 @@ CreateVRWindow
 PRIVATE
 CloseVRWindow
 PRIVATE
+SendUIMessageToVRWindow
+PRIVATE
