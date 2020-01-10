@@ -1837,6 +1837,11 @@ accessibility
 .
 filter
 .
+keyboard
+accessibility
+.
+filter
+.
 textLabel
 <
 /
@@ -2004,6 +2009,11 @@ accessibility
 .
 filter
 .
+keyboard
+accessibility
+.
+filter
+.
 textLabel
 <
 /
@@ -2167,6 +2177,11 @@ menu
 \
 "
 >
+accessibility
+.
+filter
+.
+keyboard
 accessibility
 .
 filter

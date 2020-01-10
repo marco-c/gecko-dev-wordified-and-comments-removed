@@ -71,6 +71,13 @@ false
 [
 FILTERS
 .
+KEYBOARD
+]
+:
+false
+[
+FILTERS
+.
 TEXT_LABEL
 ]
 :
@@ -104,6 +111,13 @@ true
 FILTERS
 .
 CONTRAST
+]
+:
+true
+[
+FILTERS
+.
+KEYBOARD
 ]
 :
 true

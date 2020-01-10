@@ -5,8 +5,8 @@ strict
 ;
 const
 {
-Component
 createFactory
+PureComponent
 }
 =
 require
@@ -111,7 +111,7 @@ Badge
 class
 ContrastBadge
 extends
-Component
+PureComponent
 {
 static
 get
@@ -151,14 +151,8 @@ props
 if
 (
 error
-)
-{
-return
-null
-;
-}
-if
-(
+|
+|
 score
 !
 =

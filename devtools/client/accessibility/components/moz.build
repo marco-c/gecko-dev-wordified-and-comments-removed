@@ -141,6 +141,11 @@ Description
 js
 '
 '
+KeyboardBadge
+.
+js
+'
+'
 KeyboardCheck
 .
 js

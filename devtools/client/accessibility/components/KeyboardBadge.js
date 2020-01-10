@@ -115,7 +115,7 @@ Badge
 )
 ;
 class
-TextLabelBadge
+KeyboardBadge
 extends
 PureComponent
 {
@@ -191,7 +191,7 @@ accessibility
 .
 badge
 .
-textLabel
+keyboard
 "
 )
 tooltip
@@ -205,7 +205,7 @@ accessibility
 .
 badge
 .
-textLabel
+keyboard
 .
 tooltip
 "
@@ -219,5 +219,5 @@ module
 .
 exports
 =
-TextLabelBadge
+KeyboardBadge
 ;
