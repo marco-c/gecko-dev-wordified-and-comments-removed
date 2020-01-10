@@ -1126,9 +1126,6 @@ true
 mainthreadio
 :
 false
-memory
-:
-false
 privacy
 :
 false
