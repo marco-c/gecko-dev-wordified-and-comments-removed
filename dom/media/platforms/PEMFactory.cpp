@@ -20,6 +20,14 @@ endif
 namespace
 mozilla
 {
+LazyLogModule
+sPEMLog
+(
+"
+PlatformEncoderModule
+"
+)
+;
 PEMFactory
 :
 :
