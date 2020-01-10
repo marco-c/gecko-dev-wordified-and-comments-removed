@@ -116,6 +116,8 @@ src
 .
 .
 /
+promisified
+-
 events
 .
 js
@@ -154,7 +156,7 @@ aNodeToFocus
 let
 focused
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_FOCUS
 expected
@@ -216,7 +218,7 @@ aExpectedFocus
 let
 focused
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_FOCUS
 aExpectedFocus

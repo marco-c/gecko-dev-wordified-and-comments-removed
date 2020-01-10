@@ -179,6 +179,8 @@ src
 .
 .
 /
+promisified
+-
 events
 .
 js
@@ -2675,7 +2677,7 @@ true
 let
 onShow
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_SHOW
 doc
@@ -2921,7 +2923,7 @@ button
 ;
 onShow
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_SHOW
 doc
@@ -3066,7 +3068,7 @@ level
 ;
 onShow
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_SHOW
 doc

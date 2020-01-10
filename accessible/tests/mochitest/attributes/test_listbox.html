@@ -150,6 +150,8 @@ src
 .
 .
 /
+promisified
+-
 events
 .
 js
@@ -260,7 +262,7 @@ listbox
 let
 updated
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_REORDER
 listbox
@@ -330,7 +332,7 @@ element
 .
 updated
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_REORDER
 listbox
@@ -390,7 +392,7 @@ item
 .
 updated
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_REORDER
 listbox
@@ -442,7 +444,7 @@ item
 .
 updated
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_REORDER
 listbox

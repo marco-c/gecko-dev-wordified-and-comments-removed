@@ -231,6 +231,8 @@ src
 .
 .
 /
+promisified
+-
 events
 .
 js
@@ -271,7 +273,7 @@ radio1
 let
 focused
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_FOCUS
 radio1
@@ -341,7 +343,7 @@ radio2
 ;
 focused
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_FOCUS
 radio2
@@ -387,7 +389,7 @@ it
 .
 focused
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_FOCUS
 radio1
@@ -400,6 +402,9 @@ value
 "
 1
 "
+;
+await
+focused
 ;
 testStates
 (
@@ -430,7 +435,7 @@ it
 .
 focused
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_FOCUS
 radio2
@@ -474,7 +479,7 @@ it
 .
 focused
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_FOCUS
 radio1

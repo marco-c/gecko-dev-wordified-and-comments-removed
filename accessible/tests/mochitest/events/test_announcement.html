@@ -164,6 +164,8 @@ src
 .
 .
 /
+promisified
+-
 events
 .
 js
@@ -202,7 +204,7 @@ display
 let
 onAnnounce
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_ANNOUNCEMENT
 acc
@@ -264,7 +266,7 @@ matches
 ;
 onAnnounce
 =
-waitForEventPromise
+waitForEvent
 (
 EVENT_ANNOUNCEMENT
 acc
