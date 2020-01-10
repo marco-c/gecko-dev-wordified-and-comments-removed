@@ -1213,6 +1213,15 @@ intermittent_logs
 '
 ]
         
+harness_errors
+=
+summary
+[
+'
+harness_errors
+'
+]
+        
 rv
 =
 [
@@ -1854,8 +1863,8 @@ rstrip
 )
 )
         
-if
-not
+testfailed
+=
 any
 (
 count
@@ -1882,6 +1891,13 @@ assert
 '
 )
 )
+        
+if
+not
+testfailed
+and
+not
+harness_errors
 :
             
 rv
@@ -2081,6 +2097,28 @@ data
 .
 rstrip
 (
+)
+)
+            
+if
+harness_errors
+:
+                
+for
+data
+in
+harness_errors
+:
+                    
+rv
+.
+append
+(
+self
+.
+log
+(
+data
 )
 )
         
