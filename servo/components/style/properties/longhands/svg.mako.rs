@@ -52,15 +52,6 @@ baseline
 "
 "
 auto
-use
--
-script
-no
--
-change
-reset
--
-size
 ideographic
 alphabetic
 hanging
