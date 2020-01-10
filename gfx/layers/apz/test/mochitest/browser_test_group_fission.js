@@ -87,7 +87,6 @@ helper_fission_basic
 .
 html
 "
-null
 )
 ]
 ;
@@ -110,7 +109,6 @@ helper_fission_transforms
 .
 html
 "
-null
 )
 ]
 )
