@@ -573,11 +573,6 @@ ParentChannelListener
 cpp
 '
 '
-QuicSocketControl
-.
-cpp
-'
-'
 TunnelUtils
 .
 cpp
