@@ -22,6 +22,9 @@ AllocPolicy
 .
 h
 "
+class
+JSLinearString
+;
 #
 define
 TRACELOGGER_TREE_ITEMS
