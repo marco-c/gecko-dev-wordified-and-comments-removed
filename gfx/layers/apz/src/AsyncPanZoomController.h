@@ -2111,6 +2111,14 @@ mState
 ;
 static
 bool
+IsPanningState
+(
+PanZoomState
+aState
+)
+;
+static
+bool
 CanHandleScrollOffsetUpdate
 (
 PanZoomState
