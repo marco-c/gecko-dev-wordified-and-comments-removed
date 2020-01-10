@@ -381,6 +381,40 @@ mkdtemp
 (
 )
         
+if
+not
+self
+.
+device
+.
+is_dir
+(
+remote_dump_dir
+)
+:
+            
+print
+(
+"
+WARNING
+:
+No
+crash
+directory
+{
+}
+found
+on
+remote
+device
+"
+.
+format
+(
+remote_dump_dir
+)
+)
+        
 try
 :
             
@@ -415,6 +449,24 @@ e
 :
                 
 raise
+            
+else
+:
+                
+print
+(
+"
+WARNING
+:
+{
+}
+"
+.
+format
+(
+e
+)
+)
         
 if
 os
