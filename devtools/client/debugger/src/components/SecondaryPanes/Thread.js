@@ -335,8 +335,6 @@ mapStateToProps
 (
 state
 props
-:
-Props
 )
 =
 >

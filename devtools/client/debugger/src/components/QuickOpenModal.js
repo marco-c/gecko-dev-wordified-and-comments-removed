@@ -256,8 +256,8 @@ Source
 [
 ]
 selectedSource
-?
 :
+?
 Source
 selectedContentLoaded
 ?

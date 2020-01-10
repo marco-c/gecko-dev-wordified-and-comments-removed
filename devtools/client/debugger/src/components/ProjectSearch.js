@@ -338,6 +338,7 @@ status
 StatusType
 activeSearch
 :
+?
 ActiveSearchType
 closeProjectSearch
 :

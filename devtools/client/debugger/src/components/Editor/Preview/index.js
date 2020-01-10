@@ -177,6 +177,8 @@ null
 constructor
 (
 props
+:
+Props
 )
 {
 super
@@ -363,6 +365,8 @@ onTokenEnter
 target
 tokenPos
 }
+:
+any
 )
 =
 >

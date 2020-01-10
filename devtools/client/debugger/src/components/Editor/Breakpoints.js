@@ -150,6 +150,7 @@ cx
 ThreadContext
 selectedSource
 :
+?
 Source
 breakpoints
 :
@@ -195,6 +196,10 @@ props
 ;
 if
 (
+!
+selectedSource
+|
+|
 !
 breakpoints
 |

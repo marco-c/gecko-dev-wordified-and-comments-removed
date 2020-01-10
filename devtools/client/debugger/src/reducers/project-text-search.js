@@ -139,7 +139,7 @@ ResultList
 +
 status
 :
-string
+StatusType
 }
 ;
 export

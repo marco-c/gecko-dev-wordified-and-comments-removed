@@ -1219,6 +1219,8 @@ onClosePress
 =
 (
 key
+:
+mixed
 e
 :
 KeyboardEvent
@@ -1458,6 +1460,8 @@ onToggleBreakpoint
 =
 (
 key
+:
+mixed
 e
 :
 KeyboardEvent
@@ -1521,6 +1525,8 @@ onToggleConditionalPanel
 =
 (
 key
+:
+mixed
 e
 :
 KeyboardEvent
@@ -1765,6 +1771,8 @@ onEscape
 =
 (
 key
+:
+mixed
 e
 :
 KeyboardEvent
@@ -2323,7 +2331,11 @@ sourceLocation
 shouldScrollToLocation
 (
 nextProps
+:
+Props
 editor
+:
+SourceEditor
 )
 {
 const
@@ -2433,7 +2445,11 @@ symbolsChanged
 scrollToLocation
 (
 nextProps
+:
+Props
 editor
+:
+SourceEditor
 )
 {
 const
@@ -2533,7 +2549,11 @@ column
 setSize
 (
 nextProps
+:
+Props
 editor
+:
+SourceEditor
 )
 {
 if
@@ -2586,7 +2606,12 @@ setSize
 setText
 (
 props
+:
+Props
 editor
+:
+?
+SourceEditor
 )
 {
 const
@@ -2734,6 +2759,8 @@ editor
 showErrorMessage
 (
 msg
+:
+string
 )
 {
 const
@@ -2865,11 +2892,6 @@ div
 >
 <
 DebugLine
-editor
-=
-{
-editor
-}
 /
 >
 <

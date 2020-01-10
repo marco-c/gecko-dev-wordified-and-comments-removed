@@ -191,7 +191,14 @@ Props
 {
 onContextMenu
 =
+(
 e
+:
+SyntheticEvent
+<
+HTMLElement
+>
+)
 =
 >
 {

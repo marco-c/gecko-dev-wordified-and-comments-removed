@@ -333,6 +333,8 @@ Function
 constructor
 (
 props
+:
+Props
 )
 {
 super
@@ -378,6 +380,8 @@ updateHiddenTabs
 componentDidUpdate
 (
 prevProps
+:
+Props
 )
 {
 if
@@ -595,7 +599,6 @@ hiddenTabs
 ;
 toggleSourcesDropdown
 (
-e
 )
 {
 this

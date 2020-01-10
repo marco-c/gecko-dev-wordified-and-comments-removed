@@ -94,6 +94,7 @@ import
 type
 {
 SearchOperation
+StatusType
 }
 from
 "
@@ -555,7 +556,7 @@ Context
 +
 status
 :
-string
+StatusType
 |
 }
 |
@@ -888,6 +889,7 @@ ActiveEventListener
 =
 string
 ;
+export
 type
 EventListenerEvent
 =
@@ -900,6 +902,7 @@ id
 ActiveEventListener
 }
 ;
+export
 type
 EventListenerCategory
 =
