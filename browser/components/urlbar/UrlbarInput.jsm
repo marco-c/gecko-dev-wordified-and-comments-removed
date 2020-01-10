@@ -7566,6 +7566,16 @@ userTypedValue
 =
 value
 ;
+this
+.
+controller
+.
+userSelectionBehavior
+=
+"
+none
+"
+;
 let
 compositionState
 =
