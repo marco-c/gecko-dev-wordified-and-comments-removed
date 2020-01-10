@@ -1530,6 +1530,13 @@ dest
 )
 ;
 void
+computeFrameSize
+(
+Register
+dest
+)
+;
+void
 prepareVMCall
 (
 )
