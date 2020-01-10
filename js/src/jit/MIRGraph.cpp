@@ -8847,7 +8847,7 @@ out
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 for
 (
 MBasicBlockIterator
@@ -8931,7 +8931,7 @@ out
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 out
 .
 printf

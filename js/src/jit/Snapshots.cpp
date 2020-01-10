@@ -1855,6 +1855,9 @@ spewBailingFrom
 )
 const
 {
+#
+ifdef
+JS_JITSPEW
 if
 (
 JitSpewEnabled
@@ -1965,6 +1968,8 @@ n
 )
 ;
 }
+#
+endif
 }
 #
 endif
