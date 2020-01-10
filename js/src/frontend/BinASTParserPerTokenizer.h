@@ -1478,6 +1478,7 @@ parser
 >
 usedNames_
 newDirectives
+nullptr
 true
 )
 {
