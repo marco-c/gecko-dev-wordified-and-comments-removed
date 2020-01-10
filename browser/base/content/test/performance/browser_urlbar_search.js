@@ -53,7 +53,6 @@ await
 runUrlbarTest
 (
 false
-false
 EXPECTED_REFLOWS_FIRST_OPEN
 EXPECTED_REFLOWS_SECOND_OPEN
 )
