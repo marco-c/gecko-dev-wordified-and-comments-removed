@@ -187,9 +187,7 @@ getWindowByName
 aData
 .
 sessionId
-this
-.
-window
+null
 )
 ;
 ContentBlockingAllowList
@@ -224,9 +222,7 @@ getWindowByName
 aData
 .
 sessionId
-this
-.
-window
+null
 )
 ;
 ContentBlockingAllowList
@@ -261,9 +257,7 @@ getWindowByName
 aData
 .
 sessionId
-this
-.
-window
+null
 )
 ;
 const
