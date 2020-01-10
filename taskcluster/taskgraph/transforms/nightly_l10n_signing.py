@@ -189,6 +189,42 @@ copy_attributes_from_dependent_job
 dep_job
 )
         
+if
+dep_job
+.
+attributes
+.
+get
+(
+'
+chunk_locales
+'
+)
+:
+            
+job
+[
+'
+attributes
+'
+]
+[
+'
+chunk_locales
+'
+]
+=
+dep_job
+.
+attributes
+.
+get
+(
+'
+chunk_locales
+'
+)
+        
 locale_specifications
 =
 generate_specifications_of_artifacts_to_sign
@@ -253,6 +289,10 @@ l10n
 paths
 '
 :
+sorted
+(
+set
+(
 [
                     
 path_template
@@ -291,6 +331,8 @@ artifacts
 ]
                 
 ]
+)
+)
                 
 '
 formats
