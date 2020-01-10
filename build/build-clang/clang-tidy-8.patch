@@ -3,10 +3,6 @@
 -
 a
 /
-clang
--
-tools
--
 extra
 /
 clang
@@ -41,10 +37,6 @@ py
 +
 b
 /
-clang
--
-tools
--
 extra
 /
 clang

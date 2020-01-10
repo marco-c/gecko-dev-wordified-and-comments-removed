@@ -311,9 +311,9 @@ clang
 mkdir
 -
 p
-TOOLCHAIN_DIR
+SRC_DIR
 pushd
-TOOLCHAIN_DIR
+SRC_DIR
 git
 clone
 -
@@ -642,7 +642,7 @@ mingw
 w64
 -
 headers
-TOOLCHAIN_DIR
+SRC_DIR
 /
 mingw
 -
@@ -655,7 +655,6 @@ w64
 headers
 /
 configure
-\
 -
 -
 host
@@ -723,7 +722,7 @@ mingw
 w64
 -
 crt
-TOOLCHAIN_DIR
+SRC_DIR
 /
 mingw
 -
@@ -736,7 +735,6 @@ w64
 crt
 /
 configure
-\
 -
 -
 host
@@ -798,7 +796,7 @@ mkdir
 widl
 pushd
 widl
-TOOLCHAIN_DIR
+SRC_DIR
 /
 mingw
 -
@@ -1251,7 +1249,7 @@ on
 redeclaration
 "
 \
-TOOLCHAIN_DIR
+SRC_DIR
 /
 libunwind
 make
@@ -1738,7 +1736,7 @@ objcopy
 .
 /
 clang
-TOOLCHAIN_DIR
+SRC_DIR
 /
 llvm
 -
