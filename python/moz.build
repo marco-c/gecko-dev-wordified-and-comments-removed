@@ -391,6 +391,7 @@ docs
 SPHINX_TREES
 [
 '
+/
 mach
 '
 ]
@@ -403,6 +404,7 @@ docs
 SPHINX_TREES
 [
 '
+/
 python
 '
 ]

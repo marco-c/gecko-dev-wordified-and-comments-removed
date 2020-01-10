@@ -640,6 +640,9 @@ conf
 SPHINX_TREES
 [
 '
+/
+modules
+/
 libpref
 '
 ]

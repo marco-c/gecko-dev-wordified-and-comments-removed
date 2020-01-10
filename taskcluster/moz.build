@@ -124,6 +124,7 @@ ini
 SPHINX_TREES
 [
 '
+/
 taskcluster
 '
 ]

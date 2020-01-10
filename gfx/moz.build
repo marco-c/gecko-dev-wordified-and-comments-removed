@@ -278,6 +278,7 @@ tests
 SPHINX_TREES
 [
 '
+/
 gfx
 '
 ]

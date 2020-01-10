@@ -525,6 +525,7 @@ test
 SPHINX_TREES
 [
 '
+/
 dom
 '
 ]
