@@ -5257,7 +5257,7 @@ as
 #
 CPU_TYPE
 -
-MANUFACTURER
+VENDOR
 -
 OPERATING_SYSTEM
 #
@@ -5271,7 +5271,7 @@ form
 #
 CPU_TYPE
 -
-MANUFACTURER
+VENDOR
 -
 KERNEL
 -
@@ -5300,7 +5300,7 @@ unknown
 "
 when
 the
-manufacturer
+vendor
 #
 is
 not
@@ -5311,6 +5311,11 @@ emit
 CPU_TYPE
 -
 OPERATING_SYSTEM
+vendor
+=
+'
+unknown
+'
 parts
 =
 triplet
@@ -5332,7 +5337,7 @@ parts
 3
 :
 cpu
-_
+vendor
 os
 =
 parts
@@ -6330,6 +6335,9 @@ os
 toolchain
 =
 toolchain
+vendor
+=
+vendor
 )
 #
 This
