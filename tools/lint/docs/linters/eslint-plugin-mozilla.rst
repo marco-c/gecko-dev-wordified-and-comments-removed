@@ -154,7 +154,7 @@ the
 main
 browser
 .
-xul
+xhtml
 scope
 .
 chrome

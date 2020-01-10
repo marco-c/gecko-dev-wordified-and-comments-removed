@@ -99,9 +99,6 @@ true
 MOZILLA_OFFICIAL
 :
 true
-BROWSER_XHTML
-:
-false
 }
 ;
 function

@@ -3238,7 +3238,7 @@ content
 "
 browser
 .
-xul
+xhtml
 "
 )
 path
