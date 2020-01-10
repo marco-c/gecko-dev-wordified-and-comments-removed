@@ -1068,6 +1068,11 @@ GetVRFrame
 (
 )
 ;
+void
+ClearVRFrame
+(
+)
+;
 bool
 MaybeModified
 (

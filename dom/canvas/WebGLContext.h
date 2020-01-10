@@ -3598,6 +3598,11 @@ GetVRFrame
 )
 ;
 void
+ClearVRFrame
+(
+)
+;
+void
 EnsureVRReady
 (
 )
