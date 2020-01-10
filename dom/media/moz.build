@@ -900,6 +900,11 @@ PrincipalChangeObserver
 h
 '
 '
+PrincipalHandle
+.
+h
+'
+'
 QueueObject
 .
 h
