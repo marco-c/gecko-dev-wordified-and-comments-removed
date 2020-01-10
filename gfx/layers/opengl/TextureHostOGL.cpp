@@ -4019,7 +4019,10 @@ egl
 >
 fClientWaitSync
 (
-EGL_DISPLAY
+egl
+-
+>
+Display
 (
 )
 mSync
