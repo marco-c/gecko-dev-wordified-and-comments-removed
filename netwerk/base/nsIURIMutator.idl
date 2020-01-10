@@ -2518,13 +2518,6 @@ aUserPass
 nullptr
 )
 ;
-NS_ENSURE_SUCCESS
-(
-mStatus
-*
-this
-)
-;
 return
 *
 this
