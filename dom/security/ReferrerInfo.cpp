@@ -4189,6 +4189,10 @@ if
 (
 !
 element
+|
+|
+!
+element
 -
 >
 IsAnyOfHTMLElements
@@ -4264,6 +4268,10 @@ AsElement
 ;
 if
 (
+!
+element
+|
+|
 !
 element
 -
