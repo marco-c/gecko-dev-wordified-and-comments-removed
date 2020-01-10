@@ -326,6 +326,11 @@ HeapCopyOfStackArray
 h
 '
 '
+MozFramebuffer
+.
+h
+'
+'
 ScopedGLHelpers
 .
 h
