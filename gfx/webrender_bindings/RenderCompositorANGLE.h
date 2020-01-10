@@ -311,7 +311,7 @@ mEGLConfig
 EGLSurface
 mEGLSurface
 ;
-int
+bool
 mUseTripleBuffering
 ;
 RefPtr
