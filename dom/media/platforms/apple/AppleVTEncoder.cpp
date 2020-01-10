@@ -1493,6 +1493,13 @@ return
 true
 ;
 }
+aDst
+-
+>
+mKeyframe
+=
+true
+;
 CMFormatDescriptionRef
 desc
 =
