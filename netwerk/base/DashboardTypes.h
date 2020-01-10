@@ -114,6 +114,11 @@ SpdyVersion
 pv
 )
 ;
+void
+SetHTTP3ProtocolVersion
+(
+)
+;
 }
 ;
 struct
