@@ -3313,16 +3313,12 @@ nsAtom
 aTag
 )
 ;
-static
 already_AddRefed
 <
 nsTextNode
 >
 CreateTextNode
 (
-Document
-&
-aDocument
 const
 nsAString
 &

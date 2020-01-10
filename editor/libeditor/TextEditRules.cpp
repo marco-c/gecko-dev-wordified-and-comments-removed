@@ -4308,13 +4308,12 @@ nsTextNode
 >
 newNode
 =
-EditorBase
-:
-:
+TextEditorRef
+(
+)
+.
 CreateTextNode
 (
-*
-doc
 tString
 )
 ;
