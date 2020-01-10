@@ -367,6 +367,11 @@ URLClassifierParent
 h
 '
 '
+UserActivationIPCUtils
+.
+h
+'
+'
 WindowGlobalActor
 .
 h
