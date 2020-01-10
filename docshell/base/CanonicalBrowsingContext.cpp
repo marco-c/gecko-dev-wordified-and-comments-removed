@@ -762,6 +762,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mWindowGlobals
 mCurrentWindowGlobal
+mSessionHistory
 )
 ;
 }
@@ -783,6 +784,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mWindowGlobals
 mCurrentWindowGlobal
+mSessionHistory
 )
 ;
 }

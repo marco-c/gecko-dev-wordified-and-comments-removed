@@ -580,6 +580,12 @@ long
 pendingSwitchId
 )
 ;
+readonly
+attribute
+nsISHistory
+?
+sessionHistory
+;
 }
 ;
 [
