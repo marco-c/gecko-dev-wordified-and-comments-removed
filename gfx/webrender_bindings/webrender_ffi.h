@@ -242,6 +242,12 @@ macro
 filterdata
 )
 ;
+\
+macro
+(
+backdrop
+)
+;
 namespace
 mozilla
 {
