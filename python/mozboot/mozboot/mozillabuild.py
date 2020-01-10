@@ -234,6 +234,16 @@ pip_install
 '
 mercurial
 '
+'
+-
+-
+only
+-
+binary
+'
+'
+mercurial
+'
 )
     
 def
