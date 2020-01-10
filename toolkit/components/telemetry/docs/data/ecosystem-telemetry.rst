@@ -882,7 +882,7 @@ telemetry
 /
 Scalars
 .
-yml
+yaml
 >
 _
 marked
