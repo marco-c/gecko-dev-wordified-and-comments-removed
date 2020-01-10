@@ -4252,9 +4252,7 @@ gmpAddons
 .
 forEach
 (
-(
 addon
-)
 =
 >
 {
@@ -4269,11 +4267,11 @@ id
 =
 =
 =
-'
+"
 gmp
 -
 gmpopenh264
-'
+"
 &
 &
 !
@@ -4288,7 +4286,7 @@ prefs
 .
 setBoolPref
 (
-'
+"
 media
 .
 gmp
@@ -4296,7 +4294,7 @@ gmp
 gmpopenh264
 .
 visible
-'
+"
 false
 )
 ;
@@ -4306,7 +4304,7 @@ prefs
 .
 setBoolPref
 (
-'
+"
 media
 .
 gmp
@@ -4314,7 +4312,7 @@ gmp
 gmpopenh264
 .
 enabled
-'
+"
 false
 )
 ;
@@ -4323,9 +4321,7 @@ false
 )
 ;
 }
-(
 err
-)
 =
 >
 {
