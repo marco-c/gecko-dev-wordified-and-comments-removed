@@ -128,6 +128,7 @@ USVString
 mediaType
 ;
 USVString
+?
 toText
 (
 )
@@ -136,6 +137,7 @@ toText
 NewObject
 ]
 ArrayBuffer
+?
 toArrayBuffer
 (
 )
@@ -144,6 +146,7 @@ toArrayBuffer
 NewObject
 ]
 object
+?
 toJSON
 (
 )
