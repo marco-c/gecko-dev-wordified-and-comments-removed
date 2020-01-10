@@ -131,6 +131,11 @@ devtools
 docs
 /
 #
+Install
+plugins
+gitbook
+install
+#
 Generate
 the
 docs
