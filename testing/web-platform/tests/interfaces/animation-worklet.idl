@@ -127,7 +127,10 @@ state
 [
 Exposed
 =
+(
 AnimationWorklet
+Worklet
+)
 Global
 =
 AnimationWorklet
