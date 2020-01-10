@@ -1155,6 +1155,6 @@ inline
 -
 preview
 "
-false
+true
 )
 ;
