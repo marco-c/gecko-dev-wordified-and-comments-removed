@@ -257,7 +257,8 @@ charnum
 long
 getCharNumAtPosition
 (
-SVGPoint
+optional
+DOMPointInit
 point
 )
 ;
