@@ -3145,7 +3145,7 @@ return
 true
 ;
 }
-JSFlatString
+JSLinearString
 *
 StringFromCharCode
 (
