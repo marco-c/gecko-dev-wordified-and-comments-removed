@@ -748,6 +748,11 @@ AV_FUNC_OPTION
 av_frame_get_colorspace
 AV_FUNC_AVUTIL_ALL
 )
+AV_FUNC_OPTION
+(
+av_frame_get_color_range
+AV_FUNC_AVUTIL_ALL
+)
 #
 undef
 AV_FUNC
