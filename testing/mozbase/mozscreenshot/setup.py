@@ -14,9 +14,11 @@ mozscreenshot
 PACKAGE_VERSION
 =
 '
+1
+.
 0
 .
-1
+0
 '
 setup
 (
@@ -90,10 +92,9 @@ Language
 Python
 :
 :
-2
-:
-:
-Only
+3
+.
+5
 '
 ]
     
