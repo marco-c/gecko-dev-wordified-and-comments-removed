@@ -819,7 +819,10 @@ close
 ;
 window
 .
-opener
+arguments
+[
+0
+]
 .
 lastResizerTest
 (
