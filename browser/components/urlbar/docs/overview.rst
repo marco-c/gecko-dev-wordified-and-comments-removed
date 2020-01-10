@@ -2862,7 +2862,7 @@ icon
 suggestion
 keyword
 query
-isKeywordOffer
+keywordOffer
 }
 SEARCH
 :
