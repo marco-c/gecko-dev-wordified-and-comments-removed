@@ -72,6 +72,9 @@ getDisplayMedia
 optional
 DisplayMediaStreamConstraints
 constraints
+=
+{
+}
 )
 ;
 }
