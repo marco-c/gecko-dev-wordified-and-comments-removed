@@ -170,14 +170,6 @@ aPriority
 0
 ;
 virtual
-void
-DidRunEvent
-(
-)
-=
-0
-;
-virtual
 bool
 HasPendingEvent
 (

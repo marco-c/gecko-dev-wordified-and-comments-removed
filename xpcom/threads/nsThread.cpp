@@ -5185,13 +5185,6 @@ Run
 (
 )
 ;
-mEvents
--
->
-DidRunEvent
-(
-)
-;
 mozilla
 :
 :

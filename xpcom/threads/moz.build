@@ -307,11 +307,6 @@ PerformanceCounter
 h
 '
 '
-PrioritizedEventQueue
-.
-h
-'
-'
 Queue
 .
 h

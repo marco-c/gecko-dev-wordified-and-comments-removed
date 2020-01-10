@@ -142,10 +142,6 @@ PHttpBackgroundChannel
 ;
 include
 protocol
-PIdleScheduler
-;
-include
-protocol
 PIPCBlobInputStream
 ;
 include
@@ -389,9 +385,6 @@ PGamepadTestChannel
 ;
 manages
 PHttpBackgroundChannel
-;
-manages
-PIdleScheduler
 ;
 manages
 PIPCBlobInputStream
@@ -982,11 +975,6 @@ nsCString
 aEndpointURL
 PrincipalInfo
 aPrincipalInfo
-)
-;
-async
-PIdleScheduler
-(
 )
 ;
 async
