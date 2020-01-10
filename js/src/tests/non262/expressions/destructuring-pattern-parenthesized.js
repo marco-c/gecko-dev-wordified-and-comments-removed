@@ -280,8 +280,8 @@ b
 ]
 ;
 "
-SyntaxError
-SyntaxError
+ReferenceError
+ReferenceError
 )
 ;
 checkError
@@ -308,8 +308,8 @@ b
 }
 ;
 "
-SyntaxError
-SyntaxError
+ReferenceError
+ReferenceError
 )
 ;
 checkError
@@ -1166,7 +1166,7 @@ b
 ;
 "
 SyntaxError
-SyntaxError
+ReferenceError
 )
 ;
 checkError
@@ -1196,7 +1196,7 @@ b
 ;
 "
 SyntaxError
-SyntaxError
+ReferenceError
 )
 ;
 Function
