@@ -466,9 +466,7 @@ version
 "
 0
 .
-5
-.
-0
+6
 "
 optional
 =
@@ -874,9 +872,9 @@ audio_thread_priority
 "
 0
 .
-19
+20
 .
-1
+2
 "
 mdns_service
 =
