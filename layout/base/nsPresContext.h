@@ -2187,11 +2187,6 @@ GetBidi
 )
 const
 ;
-bool
-IsTopLevelWindowInactive
-(
-)
-;
 nsITheme
 *
 GetTheme
