@@ -3176,7 +3176,7 @@ OwnerDoc
 )
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

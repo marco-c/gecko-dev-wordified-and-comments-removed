@@ -1059,7 +1059,7 @@ if
 outerWindow
 -
 >
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 )
@@ -1127,7 +1127,7 @@ root
 docshell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -1231,7 +1231,7 @@ GetDocShell
 outerWindow
 -
 >
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 )

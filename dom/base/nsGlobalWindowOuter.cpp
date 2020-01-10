@@ -7557,7 +7557,7 @@ nsPIDOMWindowOuter
 *
 parentOuterWin
 =
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;
@@ -7599,7 +7599,7 @@ creatorDoc
 aDocument
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -8272,7 +8272,7 @@ top
 aNewInner
 -
 >
-GetTopInternal
+GetInProcessTopInternal
 (
 )
 ;
@@ -10993,7 +10993,7 @@ nsPIDOMWindowOuter
 >
 parentWindow
 =
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 ;
@@ -11028,7 +11028,7 @@ mTopLevelOuterContentWindow
 mIsChrome
 &
 &
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 =
@@ -11068,7 +11068,7 @@ nsPIDOMWindowOuter
 >
 parentWindow
 =
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -11745,7 +11745,7 @@ nsGlobalWindowOuter
 *
 topWin
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -11866,7 +11866,7 @@ nsGlobalWindowOuter
 *
 topWindowOuter
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -11939,7 +11939,7 @@ nsGlobalWindowOuter
 *
 topWindowOuter
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -12207,7 +12207,7 @@ nsGlobalWindowOuter
 *
 topWindowOuter
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -12272,7 +12272,7 @@ nsGlobalWindowOuter
 *
 topWindowOuter
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -12467,7 +12467,7 @@ objPrincipal
 =
 do_QueryInterface
 (
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 )
@@ -12530,7 +12530,7 @@ objPrincipal
 =
 do_QueryInterface
 (
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 )
@@ -13151,7 +13151,7 @@ nsPIDOMWindowOuter
 >
 topWindow
 =
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -13185,7 +13185,7 @@ nsPIDOMWindowOuter
 >
 topWindow
 =
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -13246,7 +13246,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 {
@@ -13280,7 +13280,7 @@ nsPIDOMWindowOuter
 >
 parent
 =
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -13293,7 +13293,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 {
@@ -13301,7 +13301,7 @@ nsPIDOMWindowOuter
 *
 parent
 =
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;
@@ -13331,7 +13331,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetParent
+GetInProcessParent
 (
 )
 {
@@ -13478,7 +13478,7 @@ parent
 parent
 -
 >
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;
@@ -13490,7 +13490,7 @@ parent
 parent
 -
 >
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -13626,7 +13626,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 {
@@ -13663,7 +13663,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetTop
+GetInProcessTop
 (
 )
 {
@@ -13928,7 +13928,7 @@ nsPIDOMWindowOuter
 >
 domWindow
 (
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 )
@@ -14015,7 +14015,7 @@ visible
 mDocShell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -19804,7 +19804,7 @@ MOZ_ASSERT
 this
 =
 =
-GetTopInternal
+GetInProcessTopInternal
 (
 )
 "
@@ -22016,7 +22016,7 @@ parentDsti
 mDocShell
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -25063,7 +25063,7 @@ nsPIDOMWindowOuter
 >
 parent
 =
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -25391,7 +25391,7 @@ nsPIDOMWindowOuter
 >
 window
 =
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -28212,7 +28212,7 @@ nsGlobalWindowOuter
 *
 topWin
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -28555,7 +28555,7 @@ nsGlobalWindowOuter
 *
 topWin
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -28806,7 +28806,7 @@ nsGlobalWindowOuter
 *
 topWin
 =
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;
@@ -29775,7 +29775,7 @@ nsPIDOMWindowOuter
 >
 parent
 =
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -29854,7 +29854,7 @@ nsPIDOMWindowOuter
 >
 top
 =
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -29914,7 +29914,7 @@ top
 parent
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -31384,7 +31384,7 @@ nsPIDOMWindowOuter
 nsGlobalWindowOuter
 :
 :
-GetParentInternal
+GetInProcessParentInternal
 (
 )
 {
@@ -31394,7 +31394,7 @@ nsPIDOMWindowOuter
 >
 parent
 =
-GetParent
+GetInProcessParent
 (
 )
 ;
@@ -32907,7 +32907,7 @@ parent
 mDoc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -34175,7 +34175,7 @@ nsPIDOMWindowOuter
 *
 parent
 =
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 ;
@@ -34380,7 +34380,7 @@ nsPIDOMWindowOuter
 >
 parent
 =
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 ;
@@ -34651,7 +34651,7 @@ topWindowOuter
 aWindow
 -
 >
-GetScriptableTopInternal
+GetInProcessScriptableTopInternal
 (
 )
 ;

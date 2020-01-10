@@ -2798,7 +2798,7 @@ sameTypeParent
 docShellTreeItem
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -2831,7 +2831,7 @@ parentDoc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

@@ -1377,7 +1377,7 @@ childCount
 aNode
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -1407,7 +1407,7 @@ child
 aNode
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs

@@ -409,7 +409,7 @@ sameTypeRoot
 docShell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -2843,7 +2843,7 @@ sameTypeRoot
 docShell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -3045,7 +3045,7 @@ newParentTreeItem
 parentTreeItem
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (

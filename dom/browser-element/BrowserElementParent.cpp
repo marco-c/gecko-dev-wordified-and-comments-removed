@@ -906,7 +906,7 @@ GetDOMWindow
 )
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;

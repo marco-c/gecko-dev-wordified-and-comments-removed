@@ -131,7 +131,7 @@ parentTreeItem
 treeItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (

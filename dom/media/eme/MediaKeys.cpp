@@ -2470,7 +2470,7 @@ GetOuterWindow
 )
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

@@ -2649,7 +2649,7 @@ parentDoc
 ownerDoc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

@@ -926,7 +926,7 @@ parent
 current
 -
 >
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;

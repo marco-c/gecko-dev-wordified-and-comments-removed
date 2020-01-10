@@ -1005,7 +1005,7 @@ root
 docShell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (

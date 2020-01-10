@@ -5066,7 +5066,7 @@ parentDsti
 dsti
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -6021,7 +6021,7 @@ parentDsti
 docShell
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -6799,7 +6799,7 @@ parentDsti
 dsti
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -6910,7 +6910,7 @@ parentDsti1
 dsti1
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -6949,7 +6949,7 @@ parentDsti2
 dsti2
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -7163,7 +7163,7 @@ parentDsti
 dsti
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -18601,7 +18601,7 @@ doc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )

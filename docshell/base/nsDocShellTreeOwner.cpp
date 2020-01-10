@@ -5122,7 +5122,7 @@ document
 document
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

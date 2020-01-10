@@ -4948,7 +4948,7 @@ topWindow
 aWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -6034,7 +6034,7 @@ topWindow
 outerWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -11781,7 +11781,7 @@ parentWindow
 innerWindow
 -
 >
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 ;
@@ -11887,7 +11887,7 @@ if
 parentWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 =
@@ -11895,7 +11895,7 @@ GetScriptableTop
 innerWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 )

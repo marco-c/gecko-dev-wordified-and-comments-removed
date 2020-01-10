@@ -5654,7 +5654,7 @@ while
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )
@@ -5664,7 +5664,7 @@ doc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

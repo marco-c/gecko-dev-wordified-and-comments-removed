@@ -1938,7 +1938,7 @@ parentTreeItem
 docShellTreeItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -2041,7 +2041,7 @@ parentTreeItem
 treeItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (

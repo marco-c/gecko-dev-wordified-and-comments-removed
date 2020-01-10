@@ -497,7 +497,7 @@ rv
 aItem
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 numChildren
@@ -542,7 +542,7 @@ rv
 aItem
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -616,7 +616,7 @@ rv
 aItem
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 numChildren
@@ -664,7 +664,7 @@ rv
 aItem
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs

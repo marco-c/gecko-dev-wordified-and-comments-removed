@@ -2066,7 +2066,7 @@ top
 outer
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

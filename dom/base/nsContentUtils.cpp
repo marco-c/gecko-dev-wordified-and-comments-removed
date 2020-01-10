@@ -11016,7 +11016,7 @@ parentDoc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -18554,7 +18554,7 @@ docShellAsItem
 docShellAsItem
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -26764,7 +26764,7 @@ doc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -29856,7 +29856,7 @@ i_end
 docShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 i_end
@@ -29885,7 +29885,7 @@ if
 docShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -30292,7 +30292,7 @@ parent
 docShellTreeItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -32100,7 +32100,7 @@ while
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )
@@ -32110,7 +32110,7 @@ doc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -32187,7 +32187,7 @@ GetWindow
 )
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -32200,7 +32200,7 @@ top
 aWin
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -34227,7 +34227,7 @@ false
 docshell
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -39261,7 +39261,7 @@ childCount
 aItem
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -39303,7 +39303,7 @@ i
 aItem
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -39383,7 +39383,7 @@ childCount
 aItem
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -39425,7 +39425,7 @@ i
 aItem
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -44310,7 +44310,7 @@ sameTypeRoot
 aDocShell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -48294,7 +48294,7 @@ rootItem
 docShell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (

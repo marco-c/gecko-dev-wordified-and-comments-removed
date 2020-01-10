@@ -2466,7 +2466,7 @@ top
 aWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;

@@ -70,7 +70,7 @@ OwnerDoc
 )
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )

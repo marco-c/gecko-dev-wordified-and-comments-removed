@@ -952,7 +952,7 @@ CustomElements
 virtual
 nsPIDOMWindowOuter
 *
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 =
@@ -961,7 +961,7 @@ GetScriptableTop
 virtual
 nsPIDOMWindowOuter
 *
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 =
@@ -2302,7 +2302,7 @@ already_AddRefed
 <
 nsPIDOMWindowOuter
 >
-GetTop
+GetInProcessTop
 (
 )
 =
@@ -2313,7 +2313,7 @@ already_AddRefed
 <
 nsPIDOMWindowOuter
 >
-GetParent
+GetInProcessParent
 (
 )
 =
@@ -2322,7 +2322,7 @@ GetParent
 virtual
 nsPIDOMWindowOuter
 *
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 =
@@ -2331,7 +2331,7 @@ GetScriptableTop
 virtual
 nsPIDOMWindowOuter
 *
-GetScriptableParent
+GetInProcessScriptableParent
 (
 )
 =
@@ -2351,7 +2351,7 @@ GetTopWindowRoot
 virtual
 nsPIDOMWindowOuter
 *
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 =

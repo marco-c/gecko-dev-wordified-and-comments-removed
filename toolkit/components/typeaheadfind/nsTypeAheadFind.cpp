@@ -1745,7 +1745,7 @@ currentDocShell
 startingDocShell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -2450,7 +2450,7 @@ rv
 fwTreeItem
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (

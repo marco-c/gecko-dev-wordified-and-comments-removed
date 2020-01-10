@@ -518,7 +518,7 @@ top
 win
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

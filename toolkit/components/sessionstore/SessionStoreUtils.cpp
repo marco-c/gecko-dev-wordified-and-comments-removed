@@ -514,7 +514,7 @@ aRv
 docShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 length
@@ -557,7 +557,7 @@ item
 docShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -6095,7 +6095,7 @@ rv
 docShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 length
@@ -6137,7 +6137,7 @@ item
 docShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs

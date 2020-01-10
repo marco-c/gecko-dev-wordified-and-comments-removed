@@ -5302,7 +5302,7 @@ aParent
 )
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

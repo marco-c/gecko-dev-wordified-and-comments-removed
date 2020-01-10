@@ -708,7 +708,7 @@ parent
 current
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )

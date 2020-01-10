@@ -2165,7 +2165,7 @@ GetDocAccessible
 aDocument
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )

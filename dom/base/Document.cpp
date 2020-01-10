@@ -11971,7 +11971,7 @@ parent
 parent
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )
@@ -12863,7 +12863,7 @@ parentDocShellItem
 mDocumentContainer
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -14616,7 +14616,7 @@ parentAsItem
 aDocShell
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -14653,7 +14653,7 @@ grandParentAsItem
 parentDocShell
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -15390,7 +15390,7 @@ sameTypeParent
 treeItem
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -15591,7 +15591,7 @@ Document
 >
 parentDocument
 =
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -19267,7 +19267,7 @@ currentDoc
 currentDoc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )
@@ -24014,7 +24014,7 @@ Document
 >
 doc
 =
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -33304,7 +33304,7 @@ parent
 parent
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -43410,7 +43410,7 @@ doc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )
@@ -55122,7 +55122,7 @@ top
 window
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 )
@@ -60753,7 +60753,7 @@ parent
 docShell
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -61916,7 +61916,7 @@ doc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )
@@ -61984,7 +61984,7 @@ doc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )
@@ -62108,7 +62108,7 @@ if
 lastDoc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 &
@@ -62229,7 +62229,7 @@ newFullscreenDoc
 lastDoc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -64547,7 +64547,7 @@ parent
 child
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -65147,7 +65147,7 @@ top
 ownerWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -67567,7 +67567,7 @@ parent
 parent
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -67688,7 +67688,7 @@ parent
 parent
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -69554,7 +69554,7 @@ top
 win
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 )
@@ -71270,7 +71270,7 @@ parent
 current
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -71657,7 +71657,7 @@ rv
 docshell
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -71675,7 +71675,7 @@ rv
 nsIDocShellTreeItem
 :
 :
-GetSameTypeParent
+GetInProcessSameTypeParent
 should
 never
 fail
@@ -71714,7 +71714,7 @@ Document
 >
 parentDocument
 =
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -71996,7 +71996,7 @@ Document
 *
 parentDocument
 =
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -72721,7 +72721,7 @@ Document
 *
 parent
 =
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;

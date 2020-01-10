@@ -3840,7 +3840,7 @@ parent
 aWin
 -
 >
-GetParent
+GetInProcessParent
 (
 )
 ;

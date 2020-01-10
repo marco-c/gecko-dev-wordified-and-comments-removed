@@ -1624,7 +1624,7 @@ win
 window
 -
 >
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 ;
@@ -1991,7 +1991,7 @@ topWindow
 aWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -2200,7 +2200,7 @@ topWindow
 aWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -2467,7 +2467,7 @@ aWindow
 )
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -2611,7 +2611,7 @@ topWindow
 aWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;

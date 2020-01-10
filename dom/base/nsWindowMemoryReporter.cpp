@@ -1067,7 +1067,7 @@ MOZ_ASSERT
 aWindow
 -
 >
-GetTopInternal
+GetInProcessTopInternal
 (
 )
 =
@@ -1087,7 +1087,7 @@ top
 aWindow
 -
 >
-GetTopInternal
+GetInProcessTopInternal
 (
 )
 ;
@@ -4835,7 +4835,7 @@ GetOuterWindow
 window
 -
 >
-GetTopInternal
+GetInProcessTopInternal
 (
 )
 )
@@ -4973,7 +4973,7 @@ GetOuterWindow
 )
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

@@ -2571,7 +2571,7 @@ piWin
 piWin
 -
 >
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 )

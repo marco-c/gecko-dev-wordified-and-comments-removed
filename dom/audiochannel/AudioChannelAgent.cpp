@@ -261,7 +261,7 @@ mWindow
 aWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -287,7 +287,7 @@ outerParent
 mWindow
 -
 >
-GetParent
+GetInProcessParent
 (
 )
 ;

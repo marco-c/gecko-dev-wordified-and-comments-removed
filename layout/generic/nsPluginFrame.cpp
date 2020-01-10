@@ -3522,7 +3522,7 @@ topWindow
 window
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 )

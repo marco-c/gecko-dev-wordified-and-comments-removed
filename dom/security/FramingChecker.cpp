@@ -616,7 +616,7 @@ root
 curDocShellItem
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -680,7 +680,7 @@ topWindow
 thisWindow
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -721,7 +721,7 @@ NS_SUCCEEDED
 curDocShellItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (

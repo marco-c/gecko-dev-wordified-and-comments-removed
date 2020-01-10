@@ -2342,7 +2342,7 @@ parent
 docShell
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (
@@ -4029,7 +4029,7 @@ count
 container
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 count
@@ -4060,7 +4060,7 @@ child
 container
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -5454,7 +5454,7 @@ childCount
 docShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -5489,7 +5489,7 @@ item
 docShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -5919,7 +5919,7 @@ childCount
 aShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -5950,7 +5950,7 @@ childItem
 aShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -6537,7 +6537,7 @@ childCount
 aShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 childCount
@@ -6568,7 +6568,7 @@ childItem
 aShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -7484,7 +7484,7 @@ count
 node
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 count
@@ -7515,7 +7515,7 @@ child
 node
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 0
 getter_AddRefs
@@ -8181,7 +8181,7 @@ root
 treeItem
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -10305,7 +10305,7 @@ n
 docShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 n
@@ -10335,7 +10335,7 @@ child
 docShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs
@@ -12736,7 +12736,7 @@ docShellParent
 docShellAsItem
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -15503,7 +15503,7 @@ parent
 parentItem
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -15584,7 +15584,7 @@ n
 aParentNode
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 n
@@ -15615,7 +15615,7 @@ child
 aParentNode
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs

@@ -4362,7 +4362,7 @@ nsIDocShellTreeItem
 >
 parentAsItem
 ;
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -6138,7 +6138,7 @@ nsIDocShellTreeItem
 >
 root
 ;
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -8632,7 +8632,7 @@ nsDocShell
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -10066,7 +10066,7 @@ nsDocShell
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -10115,7 +10115,7 @@ nsDocShell
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -10169,7 +10169,7 @@ topItem
 ;
 rv
 =
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -11112,7 +11112,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-GetParent
+GetInProcessParent
 (
 nsIDocShellTreeItem
 *
@@ -11152,7 +11152,7 @@ nsDocShell
 nsDocShell
 :
 :
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 {
@@ -11360,7 +11360,7 @@ nsIDocShell
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -11596,7 +11596,7 @@ nsDocShell
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -12356,7 +12356,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 nsIDocShellTreeItem
 *
@@ -12554,7 +12554,7 @@ parent
 root
 -
 >
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -12572,7 +12572,7 @@ parent
 root
 -
 >
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -12592,7 +12592,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 nsIDocShellTreeItem
 *
@@ -12625,7 +12625,7 @@ parent
 ;
 NS_ENSURE_SUCCESS
 (
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -12653,7 +12653,7 @@ aRootTreeItem
 )
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -12881,7 +12881,7 @@ accessingRoot
 aAccessingItem
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -12909,7 +12909,7 @@ targetRoot
 aTargetItem
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -13237,7 +13237,7 @@ parent
 target
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -13545,7 +13545,7 @@ _parent
 )
 )
 {
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -13578,7 +13578,7 @@ _top
 )
 )
 {
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -14013,7 +14013,7 @@ ancestorOfTarget
 aTargetDocShell
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -14049,7 +14049,7 @@ tempTreeItem
 ancestorOfTarget
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -14119,7 +14119,7 @@ nsIDocShellTreeItem
 >
 rootTreeItem
 ;
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -14532,7 +14532,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-GetChildCount
+GetInProcessChildCount
 (
 int32_t
 *
@@ -15029,7 +15029,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-GetChildAt
+GetInProcessChildAt
 (
 int32_t
 aIndex
@@ -16032,7 +16032,7 @@ nsIDocShellTreeItem
 >
 root
 ;
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -21508,7 +21508,7 @@ nsIDocShellTreeItem
 >
 root
 ;
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -23418,7 +23418,7 @@ parentItem
 docShell
 -
 >
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -23577,7 +23577,7 @@ parentItem
 docShell
 -
 >
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -23749,7 +23749,7 @@ nsIDocShellTreeItem
 >
 parent
 ;
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -24316,7 +24316,7 @@ nsIDocShellTreeItem
 >
 root
 ;
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -24493,7 +24493,7 @@ nsIDocShellTreeItem
 >
 sameTypeRoot
 ;
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -24847,7 +24847,7 @@ nsIDocShellTreeItem
 >
 parent
 ;
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -28917,7 +28917,7 @@ targetParentTreeItem
 ;
 rv
 =
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -29054,7 +29054,7 @@ nsIDocShellTreeItem
 >
 parentItem
 ;
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -30017,7 +30017,7 @@ nsIDocShellTreeItem
 >
 parentItem
 ;
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -30885,7 +30885,7 @@ nsIDocShellTreeItem
 >
 root
 ;
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -33566,7 +33566,7 @@ nsDocShell
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -35117,7 +35117,7 @@ nsDocShell
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -35658,7 +35658,7 @@ parentAsItem
 ;
 NS_ENSURE_SUCCESS
 (
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -36427,7 +36427,7 @@ tmp
 item
 -
 >
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -39645,7 +39645,7 @@ nsIDocShellTreeItem
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -40470,7 +40470,7 @@ nsIDocShellTreeItem
 >
 parent
 ;
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -41106,7 +41106,7 @@ nsIDocShellTreeItem
 >
 parentItem
 ;
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -48225,7 +48225,7 @@ nsIDocShellTreeItem
 >
 root
 ;
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -49962,7 +49962,7 @@ nsIDocShellTreeItem
 >
 rootAsItem
 ;
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -50084,7 +50084,7 @@ root
 nsresult
 rv
 =
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -52344,7 +52344,7 @@ win
 win
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;
@@ -52406,7 +52406,7 @@ top
 win
 -
 >
-GetScriptableTop
+GetInProcessScriptableTop
 (
 )
 ;
@@ -52519,7 +52519,7 @@ nsDocShell
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -55239,7 +55239,7 @@ nsIDocShellTreeItem
 >
 parentAsItem
 ;
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -55444,7 +55444,7 @@ nsIDocShellTreeItem
 >
 root
 ;
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -55714,7 +55714,7 @@ nsIDocShellTreeItem
 >
 parent
 ;
-GetSameTypeParent
+GetInProcessSameTypeParent
 (
 getter_AddRefs
 (
@@ -56266,7 +56266,7 @@ nsDocShell
 >
 parent
 =
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -56303,7 +56303,7 @@ parent
 parent
 -
 >
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -56853,7 +56853,7 @@ shell
 shell
 -
 >
-GetParentDocshell
+GetInProcessParentDocshell
 (
 )
 ;
@@ -57114,7 +57114,7 @@ if
 outer
 -
 >
-GetScriptableParentOrNull
+GetInProcessScriptableParentOrNull
 (
 )
 )

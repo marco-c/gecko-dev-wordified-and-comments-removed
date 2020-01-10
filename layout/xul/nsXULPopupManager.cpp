@@ -6009,7 +6009,7 @@ parent
 docShellItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (

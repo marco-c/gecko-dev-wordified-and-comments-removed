@@ -16849,7 +16849,7 @@ doc
 doc
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 )

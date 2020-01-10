@@ -3934,7 +3934,7 @@ topWindow
 piwindow
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;

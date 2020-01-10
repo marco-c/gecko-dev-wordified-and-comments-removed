@@ -21034,7 +21034,7 @@ count
 docShell
 -
 >
-GetChildCount
+GetInProcessChildCount
 (
 &
 count
@@ -21064,7 +21064,7 @@ item
 docShell
 -
 >
-GetChildAt
+GetInProcessChildAt
 (
 i
 getter_AddRefs

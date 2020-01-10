@@ -1028,7 +1028,7 @@ sameTypeRoot
 docShell
 -
 >
-GetSameTypeRootTreeItem
+GetInProcessSameTypeRootTreeItem
 (
 getter_AddRefs
 (
@@ -2479,7 +2479,7 @@ parentDoc
 document
 -
 >
-GetParentDocument
+GetInProcessParentDocument
 (
 )
 ;
@@ -11369,7 +11369,7 @@ parentTreeItem
 treeItem
 -
 >
-GetParent
+GetInProcessParent
 (
 getter_AddRefs
 (

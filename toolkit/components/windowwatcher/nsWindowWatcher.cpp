@@ -3424,7 +3424,7 @@ parentTopWindow
 parentWindow
 -
 >
-GetTop
+GetInProcessTop
 (
 )
 ;
