@@ -37336,9 +37336,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_marker
-:
-true
 applies_to_placeholder
 :
 true
@@ -38220,9 +38217,6 @@ false
 type
 :
 CSS_TYPE_LONGHAND
-applies_to_marker
-:
-true
 initial_values
 :
 [
@@ -39469,9 +39463,6 @@ true
 type
 :
 CSS_TYPE_LONGHAND
-applies_to_marker
-:
-true
 initial_values
 :
 [
@@ -40235,9 +40226,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_marker
-:
-true
 applies_to_placeholder
 :
 true
@@ -40431,9 +40419,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_marker
 :
 true
 applies_to_placeholder
@@ -40732,9 +40717,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_marker
-:
-true
 applies_to_placeholder
 :
 true
@@ -40790,9 +40772,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_marker
 :
 true
 applies_to_placeholder
@@ -40871,9 +40850,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_marker
 :
 true
 applies_to_placeholder
@@ -41058,9 +41034,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_marker
-:
-true
 applies_to_placeholder
 :
 true
@@ -41141,9 +41114,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_marker
 :
 true
 applies_to_placeholder
@@ -41234,9 +41204,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_marker
-:
-true
 applies_to_placeholder
 :
 true
@@ -41287,9 +41254,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_marker
 :
 true
 applies_to_placeholder
@@ -41669,9 +41633,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_marker
-:
-true
 applies_to_placeholder
 :
 true
@@ -41837,9 +41798,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_marker
-:
-true
 applies_to_placeholder
 :
 true
@@ -41936,9 +41894,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_marker
 :
 true
 applies_to_placeholder
@@ -42071,9 +42026,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_marker
 :
 true
 applies_to_placeholder
@@ -42310,9 +42262,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_marker
-:
-true
 applies_to_placeholder
 :
 true
@@ -42514,9 +42463,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_marker
-:
-true
 applies_to_placeholder
 :
 true
@@ -42575,9 +42521,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_marker
 :
 true
 applies_to_placeholder
@@ -49755,9 +49698,6 @@ CSS_TYPE_LONGHAND
 applies_to_cue
 :
 true
-applies_to_marker
-:
-true
 initial_values
 :
 [
@@ -52962,9 +52902,6 @@ false
 type
 :
 CSS_TYPE_LONGHAND
-applies_to_marker
-:
-true
 initial_values
 :
 [
@@ -62479,9 +62416,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_marker
-:
-true
 applies_to_placeholder
 :
 true
@@ -62536,9 +62470,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_marker
 :
 true
 applies_to_placeholder
@@ -71943,9 +71874,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_marker
-:
-true
 applies_to_cue
 :
 true
@@ -72159,9 +72087,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_marker
 :
 true
 applies_to_cue

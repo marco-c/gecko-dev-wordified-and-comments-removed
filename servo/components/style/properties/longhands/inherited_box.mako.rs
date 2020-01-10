@@ -297,11 +297,6 @@ direction
 needs_conversion
 =
 True
-flags
-=
-"
-APPLIES_TO_MARKER
-"
 servo_restyle_damage
 =
 "
