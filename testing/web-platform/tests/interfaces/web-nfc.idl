@@ -124,7 +124,7 @@ id
 ;
 USVString
 ?
-toText
+text
 (
 )
 ;
@@ -133,7 +133,7 @@ NewObject
 ]
 ArrayBuffer
 ?
-toArrayBuffer
+arrayBuffer
 (
 )
 ;
@@ -141,7 +141,7 @@ toArrayBuffer
 NewObject
 ]
 any
-toJSON
+json
 (
 )
 ;
