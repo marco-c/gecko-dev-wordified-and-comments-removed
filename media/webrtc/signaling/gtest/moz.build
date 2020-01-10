@@ -301,11 +301,6 @@ jsep_track_unittest
 cpp
 '
 '
-mediaconduit_unittests
-.
-cpp
-'
-'
 rtpsources_unittests
 .
 cpp
