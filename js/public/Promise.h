@@ -343,13 +343,6 @@ JS
 :
 HandleObject
 executor
-JS
-:
-:
-HandleObject
-proto
-=
-nullptr
 )
 ;
 extern

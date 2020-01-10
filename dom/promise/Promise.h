@@ -1146,15 +1146,6 @@ Promise
 void
 CreateWrapper
 (
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aDesiredProto
 ErrorResult
 &
 aRv

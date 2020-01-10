@@ -483,7 +483,6 @@ p
 >
 CreateWrapper
 (
-nullptr
 aRv
 aPropagateUserInteraction
 )
@@ -1422,15 +1421,6 @@ Promise
 :
 CreateWrapper
 (
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aDesiredProto
 ErrorResult
 &
 aRv
@@ -1481,7 +1471,6 @@ NewPromiseObject
 (
 cx
 nullptr
-aDesiredProto
 )
 ;
 if
