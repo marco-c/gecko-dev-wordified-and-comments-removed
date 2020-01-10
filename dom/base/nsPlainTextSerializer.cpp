@@ -5828,7 +5828,7 @@ char16_t
 s
 )
 {
-if
+return
 (
 s
 [
@@ -5873,12 +5873,6 @@ From
 =
 0
 )
-return
-true
-;
-else
-return
-false
 ;
 }
 void
