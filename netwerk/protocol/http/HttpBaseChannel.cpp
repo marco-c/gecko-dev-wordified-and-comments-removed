@@ -8413,6 +8413,14 @@ mLoadInfo
 mLoadInfo
 -
 >
+SetBypassCORSChecks
+(
+false
+)
+;
+mLoadInfo
+-
+>
 SetAllowInsecureRedirectToDataURI
 (
 false

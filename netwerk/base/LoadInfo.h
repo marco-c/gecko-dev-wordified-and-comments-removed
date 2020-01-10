@@ -428,6 +428,8 @@ aForceAllowDataURI
 bool
 aAllowInsecureRedirectToDataURI
 bool
+aBypassCORSChecks
+bool
 aSkipContentPolicyCheckForWebRequest
 bool
 aForceInheritPrincipalDropped
@@ -758,6 +760,9 @@ mForceAllowDataURI
 ;
 bool
 mAllowInsecureRedirectToDataURI
+;
+bool
+mBypassCORSChecks
 ;
 bool
 mSkipContentPolicyCheckForWebRequest

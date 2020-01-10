@@ -4668,6 +4668,14 @@ allowInsecureRedirectToDataURI
 =
 true
 ;
+channel
+.
+loadInfo
+.
+bypassCORSChecks
+=
+true
+;
 return
 ;
 }
