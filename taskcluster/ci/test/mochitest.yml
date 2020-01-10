@@ -646,11 +646,9 @@ platform
 :
 linux64
 -
-.
-*
-cov
+ccov
 /
-opt
+debug
 :
 7200
 windows7
@@ -675,7 +673,7 @@ ccov
 /
 debug
 :
-7200
+10800
 windows10
 -
 aarch64
