@@ -886,6 +886,16 @@ nsIScrollableFrame
 *
 FindScrollableFrameFor
 (
+nsIContent
+*
+aContent
+)
+;
+static
+nsIScrollableFrame
+*
+FindScrollableFrameFor
+(
 ViewID
 aId
 )
