@@ -1361,6 +1361,7 @@ false
 timeout
 "
 :
+async
 function
 (
 )

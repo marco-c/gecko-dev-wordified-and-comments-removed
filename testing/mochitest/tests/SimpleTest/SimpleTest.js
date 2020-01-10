@@ -5708,13 +5708,14 @@ SimpleTest
 .
 timeout
 =
+async
 function
 (
 )
 {
 for
 (
-let
+const
 func
 of
 SimpleTest
@@ -5722,6 +5723,7 @@ SimpleTest
 _timeoutFunctions
 )
 {
+await
 func
 (
 )
