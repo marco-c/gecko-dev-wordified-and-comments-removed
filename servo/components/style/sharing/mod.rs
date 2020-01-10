@@ -203,16 +203,7 @@ SHARING_CACHE_SIZE
 :
 usize
 =
-31
-;
-const
-SHARING_CACHE_BACKING_STORE_SIZE
-:
-usize
-=
-SHARING_CACHE_SIZE
-+
-1
+32
 ;
 #
 [
@@ -1493,7 +1484,7 @@ Entry
 Candidate
 >
 ;
-SHARING_CACHE_BACKING_STORE_SIZE
+SHARING_CACHE_SIZE
 ]
 >
 }
