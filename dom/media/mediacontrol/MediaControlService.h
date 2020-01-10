@@ -30,6 +30,13 @@ h
 #
 include
 "
+MediaHardwareKeysManager
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h
@@ -190,6 +197,9 @@ mControllers
 ;
 AudioFocusManager
 mAudioFocusManager
+;
+MediaHardwareKeysManager
+mHardwareKeysManager
 ;
 }
 ;
