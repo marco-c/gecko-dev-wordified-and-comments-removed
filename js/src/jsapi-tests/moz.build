@@ -162,6 +162,11 @@ testAtomicOperations
 cpp
 '
 '
+testAtomizeUtf8NonAsciiLatin1CodePoint
+.
+cpp
+'
+'
 testBoundFunction
 .
 cpp
