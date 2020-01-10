@@ -245,13 +245,6 @@ accessibilityWalker
 PropTypes
 .
 object
-getDOMWalker
-:
-PropTypes
-.
-func
-.
-isRequired
 dispatch
 :
 PropTypes
@@ -729,7 +722,6 @@ highlighted
 highlightedItem
 supports
 accessibilityWalker
-getDOMWalker
 filtered
 }
 =
@@ -781,7 +773,6 @@ assign
 rowProps
 {
 accessibilityWalker
-getDOMWalker
 hasContextMenu
 highlighted
 decorator
