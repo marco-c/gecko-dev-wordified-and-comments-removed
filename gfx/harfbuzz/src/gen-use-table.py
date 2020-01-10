@@ -2512,6 +2512,16 @@ UIPC
 Left
 		
 if
+U
+=
+=
+0x1C29
+:
+UIPC
+=
+Left
+		
+if
 0xA926
 <
 =

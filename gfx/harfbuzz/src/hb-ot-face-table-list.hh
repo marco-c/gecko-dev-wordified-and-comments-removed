@@ -166,6 +166,11 @@ HB_OT_TABLE
 OT
 avar
 )
+HB_OT_ACCELERATOR
+(
+OT
+gvar
+)
 HB_OT_TABLE
 (
 OT

@@ -750,13 +750,6 @@ unicode
 .
 cc
 '
-'
-hb
--
-warning
-.
-cc
-'
 ]
 if
 CONFIG

@@ -807,7 +807,6 @@ ObsoleteTypes
 Types
 ;
 unsigned
-int
 tuple_count
 (
 )
@@ -994,7 +993,6 @@ ObsoleteTypes
 Types
 ;
 unsigned
-int
 tuple_count
 (
 )
@@ -1181,7 +1179,6 @@ version32
 ;
 }
 unsigned
-int
 get_type
 (
 )

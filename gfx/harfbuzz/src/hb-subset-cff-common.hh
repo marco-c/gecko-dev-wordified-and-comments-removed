@@ -4249,9 +4249,11 @@ subr_subset_param_t
 param
 )
 {
-hb_set_add
-(
 closure
+-
+>
+add
+(
 subr_num
 )
 ;

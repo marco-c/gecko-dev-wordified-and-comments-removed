@@ -77,9 +77,11 @@ i
 +
 +
 )
-hb_set_add
-(
 lookups_out
+-
+>
+add
+(
 lookups
 [
 table_index

@@ -1018,14 +1018,7 @@ out_info
 =
 info
 ;
-if
-(
-likely
-(
-len
-)
-)
-memset
+hb_memset
 (
 pos
 0
@@ -2899,6 +2892,9 @@ buffer
 pos
 )
 ;
+#
+ifndef
+HB_NO_BUFFER_MESSAGE
 if
 (
 buffer
@@ -2917,6 +2913,8 @@ buffer
 message_data
 )
 ;
+#
+endif
 free
 (
 buffer

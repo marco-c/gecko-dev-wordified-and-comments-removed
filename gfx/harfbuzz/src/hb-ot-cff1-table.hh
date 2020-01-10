@@ -6648,6 +6648,9 @@ HB_INTERNAL
 bool
 get_extents
 (
+hb_font_t
+*
+font
 hb_codepoint_t
 glyph
 hb_glyph_extents_t

@@ -545,15 +545,6 @@ include
 "
 hb
 -
-warning
-.
-cc
-"
-#
-include
-"
-hb
--
 glib
 .
 cc

@@ -3700,7 +3700,6 @@ ExtendedTypes
 Types
 ;
 unsigned
-int
 tuple_count
 (
 )

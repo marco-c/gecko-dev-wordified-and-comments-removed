@@ -142,6 +142,8 @@ hb_set_create
 ;
 if
 (
+unlikely
+(
 set
 =
 =
@@ -149,6 +151,7 @@ set
 Null
 (
 hb_set_t
+)
 )
 )
 return
