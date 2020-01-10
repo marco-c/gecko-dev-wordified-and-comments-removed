@@ -479,6 +479,14 @@ IsKnownLive
 )
 const
 ;
+void
+UnlinkDeclarationWrapper
+(
+nsWrapperCache
+&
+aDecl
+)
+;
 StyleSheet
 *
 MOZ_NON_OWNING_REF
