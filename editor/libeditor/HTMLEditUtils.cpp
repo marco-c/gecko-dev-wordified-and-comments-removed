@@ -1226,10 +1226,6 @@ output
 nsGkAtoms
 :
 :
-keygen
-nsGkAtoms
-:
-:
 progress
 nsGkAtoms
 :
@@ -2219,7 +2215,7 @@ ELEM
 keygen
 false
 false
-GROUP_FORMCONTROL
+GROUP_NONE
 GROUP_NONE
 )
 ELEM

@@ -9618,6 +9618,9 @@ case
 AREA_OR_WBR
 :
 case
+KEYGEN
+:
+case
 BR
 :
 case
@@ -9628,9 +9631,6 @@ IMG
 :
 case
 INPUT
-:
-case
-KEYGEN
 :
 case
 HR
@@ -10591,6 +10591,9 @@ EMBED
 case
 AREA_OR_WBR
 :
+case
+KEYGEN
+:
 reconstructTheActiveFormattingElements
 (
 )
@@ -10657,9 +10660,6 @@ starttagloop
 ;
 case
 IMG
-:
-case
-KEYGEN
 :
 case
 INPUT
@@ -11996,9 +11996,6 @@ INPUT
 :
 case
 TEXTAREA
-:
-case
-KEYGEN
 :
 errStartTagWithSelectOpen
 (
@@ -16288,6 +16285,9 @@ case
 AREA_OR_WBR
 :
 case
+KEYGEN
+:
+case
 PARAM_OR_SOURCE_OR_TRACK
 :
 case
@@ -16301,9 +16301,6 @@ IMAGE
 :
 case
 INPUT
-:
-case
-KEYGEN
 :
 case
 HR

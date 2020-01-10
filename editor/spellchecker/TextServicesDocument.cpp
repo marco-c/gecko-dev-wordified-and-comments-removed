@@ -5967,15 +5967,6 @@ atom
 nsGkAtoms
 :
 :
-keygen
-!
-=
-atom
-&
-&
-nsGkAtoms
-:
-:
 nobr
 !
 =

@@ -3530,6 +3530,8 @@ keygen
 TreeBuilder
 .
 KEYGEN
+|
+SPECIAL
 )
 ;
 public

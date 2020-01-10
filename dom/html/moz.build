@@ -235,11 +235,6 @@ nsIFormControl
 h
 '
 '
-nsIFormProcessor
-.
-h
-'
-'
 nsIHTMLCollection
 .
 h
