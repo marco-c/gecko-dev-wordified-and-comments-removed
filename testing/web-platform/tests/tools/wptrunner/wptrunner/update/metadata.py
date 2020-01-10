@@ -23,10 +23,7 @@ provides
 =
 [
 "
-property_order
-"
-"
-boolean_properties
+update_properties
 "
 ]
     
@@ -38,14 +35,14 @@ state
 )
 :
         
-property_order
-boolean_properties
+state
+.
+update_properties
 =
 products
 .
 load_product_update
 (
-            
 state
 .
 config
@@ -53,27 +50,6 @@ state
 .
 product
 )
-        
-state
-.
-property_order
-=
-(
-property_order
-or
-[
-]
-)
-+
-state
-.
-extra_properties
-        
-state
-.
-boolean_properties
-=
-boolean_properties
 class
 UpdateExpected
 (

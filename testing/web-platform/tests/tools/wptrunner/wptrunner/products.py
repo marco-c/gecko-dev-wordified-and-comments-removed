@@ -532,10 +532,8 @@ update_properties
 in
 data
 else
-(
-None
-None
-)
+{
+}
 )
     
 return
