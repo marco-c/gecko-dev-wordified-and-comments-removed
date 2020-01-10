@@ -1213,6 +1213,17 @@ PromiseTestUtils
 whitelistRejectionsGlobally
 (
 /
+Error
+in
+asyncStorage
+/
+)
+;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
 Current
 thread
 has
