@@ -205,11 +205,6 @@ DateTimePickerChild
 jsm
 '
 '
-DateTimePickerParent
-.
-jsm
-'
-'
 ExtFindChild
 .
 jsm
