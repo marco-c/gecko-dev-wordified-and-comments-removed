@@ -205,6 +205,28 @@ name
 )
 :
 basestring
+            
+Optional
+(
+'
+strip
+-
+components
+'
+)
+:
+int
+            
+Optional
+(
+'
+add
+-
+prefix
+'
+)
+:
+basestring
         
 }
         
@@ -712,7 +734,7 @@ split
 1
 ]
     
-args
+command
 =
 [
         
@@ -733,6 +755,12 @@ static
 -
 url
 '
+    
+]
+    
+args
+=
+[
         
 '
 -
@@ -764,6 +792,90 @@ size
 ]
     
 ]
+    
+if
+fetch
+.
+get
+(
+'
+strip
+-
+components
+'
+)
+:
+        
+args
+.
+extend
+(
+[
+'
+-
+-
+strip
+-
+components
+'
+'
+%
+d
+'
+%
+fetch
+[
+'
+strip
+-
+components
+'
+]
+]
+)
+    
+if
+fetch
+.
+get
+(
+'
+add
+-
+prefix
+'
+)
+:
+        
+args
+.
+extend
+(
+[
+'
+-
+-
+add
+-
+prefix
+'
+fetch
+[
+'
+add
+-
+prefix
+'
+]
+]
+)
+    
+command
+.
+extend
+(
+args
+)
     
 env
 =
@@ -868,7 +980,7 @@ FETCH_GPG_KEY
 =
 gpg_key
         
-args
+command
 .
 extend
 (
@@ -901,7 +1013,7 @@ FETCH_GPG_KEY
 ]
 )
     
-args
+command
 .
 extend
 (
@@ -942,7 +1054,7 @@ job
 description
 '
 ]
-args
+command
 )
     
 task
@@ -1101,24 +1213,9 @@ cache_name
             
 digest_data
 =
+args
++
 [
-fetch
-[
-'
-sha256
-'
-]
-'
-%
-d
-'
-%
-fetch
-[
-'
-size
-'
-]
 artifact_name
 ]
         
