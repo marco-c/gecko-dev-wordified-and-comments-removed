@@ -98,8 +98,7 @@ if
 soundURI
 |
 |
-NS_FAILED
-(
+!
 soundURI
 -
 >
@@ -108,14 +107,7 @@ SchemeIs
 "
 chrome
 "
-&
-isChrome
 )
-)
-|
-|
-!
-isChrome
 )
 {
 return
