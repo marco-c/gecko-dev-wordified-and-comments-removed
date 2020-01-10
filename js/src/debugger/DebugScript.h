@@ -49,9 +49,6 @@ class
 Debugger
 ;
 class
-FreeOp
-;
-class
 DebugScript
 {
 friend

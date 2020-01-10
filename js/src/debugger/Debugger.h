@@ -389,9 +389,6 @@ class
 DebuggerEnvironment
 ;
 class
-FreeOp
-;
-class
 PromiseObject
 ;
 namespace

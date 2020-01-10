@@ -131,9 +131,6 @@ class
 AbstractGeneratorObject
 ;
 class
-FreeOp
-;
-class
 GlobalObject
 ;
 struct

@@ -497,14 +497,5 @@ p
 ;
 }
 ;
-namespace
-js
-{
-using
-FreeOp
-=
-JSFreeOp
-;
-}
 #
 endif
