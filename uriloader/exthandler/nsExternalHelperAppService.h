@@ -676,11 +676,6 @@ aFile
 )
 ;
 void
-ProcessAnyRefreshTags
-(
-)
-;
-void
 NotifyTransfer
 (
 nsresult
@@ -741,12 +736,6 @@ nsCOMPtr
 nsITransfer
 >
 mTransfer
-;
-nsCOMPtr
-<
-nsIChannel
->
-mOriginalChannel
 ;
 nsCOMPtr
 <
