@@ -56,6 +56,10 @@ get_repository_from_build_config
     
 get_repository_object
     
+GitRepository
+    
+HgRepository
+    
 InvalidRepoPath
 )
 from
@@ -6487,28 +6491,24 @@ checkout
 "
 "
         
+try
+:
+            
 return
-getattr
+isinstance
 (
 cls
-'
-substs
-'
-{
-}
-)
 .
-get
-(
-'
-VCS_CHECKOUT_TYPE
-'
+repository
+HgRepository
 )
-=
-=
-'
-hg
-'
+        
+except
+InvalidRepoPath
+:
+            
+return
+False
     
 staticmethod
     
@@ -6533,28 +6533,24 @@ checkout
 "
 "
         
+try
+:
+            
 return
-getattr
+isinstance
 (
 cls
-'
-substs
-'
-{
-}
-)
 .
-get
-(
-'
-VCS_CHECKOUT_TYPE
-'
+repository
+GitRepository
 )
-=
-=
-'
-git
-'
+        
+except
+InvalidRepoPath
+:
+            
+return
+False
     
 staticmethod
     
@@ -6578,6 +6574,16 @@ build
 "
 "
         
+if
+hasattr
+(
+cls
+'
+substs
+'
+)
+:
+            
 return
 getattr
 (
@@ -6595,6 +6601,9 @@ get
 MOZ_ARTIFACT_BUILDS
 '
 )
+        
+return
+False
     
 staticmethod
     
@@ -6619,6 +6628,16 @@ build
 "
 "
         
+if
+hasattr
+(
+cls
+'
+substs
+'
+)
+:
+            
 return
 not
 MachCommandConditions
@@ -6627,6 +6646,9 @@ is_artifact_build
 (
 cls
 )
+        
+return
+False
 class
 PathArgument
 (
