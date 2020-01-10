@@ -5861,10 +5861,9 @@ _loadURL
 url
 openUILinkWhere
 params
-result
+resultDetails
 =
-{
-}
+null
 browser
 =
 this
@@ -6064,7 +6063,7 @@ this
 .
 _notifyStartNavigation
 (
-result
+resultDetails
 )
 ;
 try
