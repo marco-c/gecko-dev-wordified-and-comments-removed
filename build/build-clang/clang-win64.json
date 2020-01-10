@@ -252,6 +252,15 @@ cfg
 patch
 "
 "
+r357725
+-
+asan
+-
+vs2019
+.
+patch
+"
+"
 loosen
 -
 msvc
