@@ -393,10 +393,10 @@ delivery_type
         
 delivery_value
 =
-spec
+selection
 [
 '
-referrer_policy
+delivery_value
 '
 ]
         
