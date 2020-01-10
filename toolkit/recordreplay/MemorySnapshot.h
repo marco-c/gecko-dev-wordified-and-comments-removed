@@ -227,6 +227,13 @@ size_t
 aSize
 )
 ;
+size_t
+GetMemoryUsage
+(
+MemoryKind
+aKind
+)
+;
 }
 }
 #
