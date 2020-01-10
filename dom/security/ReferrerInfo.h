@@ -350,12 +350,6 @@ aChannel
 )
 ;
 static
-bool
-HideOnionReferrerSource
-(
-)
-;
-static
 nsresult
 HandleSecureToInsecureReferral
 (

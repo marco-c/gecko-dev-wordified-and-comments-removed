@@ -44710,13 +44710,10 @@ return
 else
 if
 (
-dom
+StaticPrefs
 :
 :
-ReferrerInfo
-:
-:
-HideOnionReferrerSource
+network_http_referer_hideOnionSource
 (
 )
 )
