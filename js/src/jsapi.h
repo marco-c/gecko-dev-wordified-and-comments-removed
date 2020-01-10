@@ -8994,9 +8994,11 @@ optimizations
 \
 Register
 (
-UNBOXED_OBJECTS
+NATIVE_REGEXP_ENABLE
 "
-unboxed_objects
+native_regexp
+.
+enable
 "
 )
 \

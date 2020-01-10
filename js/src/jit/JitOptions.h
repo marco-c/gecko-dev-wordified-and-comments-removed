@@ -209,6 +209,15 @@ bool
 baselineInterpreter
 ;
 bool
+baselineJit
+;
+bool
+ion
+;
+bool
+nativeRegExp
+;
+bool
 forceInlineCaches
 ;
 bool

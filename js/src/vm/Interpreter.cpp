@@ -10609,7 +10609,6 @@ jit
 :
 IsBaselineInterpreterOrJitEnabled
 (
-cx
 )
 )
 {

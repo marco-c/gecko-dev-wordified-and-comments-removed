@@ -7059,7 +7059,6 @@ if
 !
 IsIonEnabled
 (
-cx
 )
 )
 {

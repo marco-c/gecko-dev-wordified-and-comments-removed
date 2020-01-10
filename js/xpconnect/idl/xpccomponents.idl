@@ -3155,13 +3155,6 @@ attribute
 boolean
 strict_mode
 ;
-[
-implicit_jscontext
-]
-attribute
-boolean
-ion
-;
 /
 /
 Returns

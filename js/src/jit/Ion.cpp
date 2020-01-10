@@ -11250,7 +11250,6 @@ jit
 :
 IsIonEnabled
 (
-cx
 )
 )
 ;
@@ -11259,9 +11258,8 @@ MOZ_ASSERT
 jit
 :
 :
-IsBaselineEnabled
+IsBaselineJitEnabled
 (
-cx
 )
 )
 ;
@@ -11708,7 +11706,6 @@ jit
 :
 IsIonEnabled
 (
-cx
 )
 )
 ;
@@ -12066,7 +12063,6 @@ jit
 :
 IsIonEnabled
 (
-cx
 )
 )
 ;
@@ -12228,7 +12224,6 @@ jit
 :
 IsIonEnabled
 (
-cx
 )
 )
 ;
@@ -12525,7 +12520,6 @@ jit
 :
 IsIonEnabled
 (
-cx
 )
 )
 {

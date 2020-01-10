@@ -372,7 +372,6 @@ jit
 :
 IsIonEnabled
 (
-cx
 )
 &
 &
