@@ -75,7 +75,7 @@ log_test_status_known_intermittent
 '
 :
 '
-orange
+yellow
 '
     
 '
