@@ -648,12 +648,15 @@ std
 string
 &
 aTransportId
+const
 bool
 aClient
+const
 uint16_t
-localport
+aLocalPort
+const
 uint16_t
-remoteport
+aRemotePort
 )
 ;
 void
