@@ -1220,6 +1220,15 @@ CookieBehavior
 ACCEPT_NON_TRACKERS
 )
 .
+enhancedTrackingProtectionLevel
+(
+ContentBlocking
+.
+EtpLevel
+.
+DEFAULT
+)
+.
 build
 (
 )
