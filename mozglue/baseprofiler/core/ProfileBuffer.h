@@ -65,9 +65,11 @@ BlocksRingBuffer
 :
 BlockIndex
 ;
-explicit
 ProfileBuffer
 (
+BlocksRingBuffer
+&
+aBuffer
 PowerOfTwo32
 aCapacity
 )
@@ -328,6 +330,7 @@ aThreadId
 )
 ;
 BlocksRingBuffer
+&
 mEntries
 ;
 public
