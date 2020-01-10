@@ -597,6 +597,13 @@ rec
 .
 bookmarkGuid
 }
+engagement
+=
+{
+rec
+.
+engagement
+}
 /
 >
 )
@@ -815,6 +822,13 @@ context_type
 heroRec
 .
 context_type
+}
+engagement
+=
+{
+heroRec
+.
+engagement
 }
 /
 >

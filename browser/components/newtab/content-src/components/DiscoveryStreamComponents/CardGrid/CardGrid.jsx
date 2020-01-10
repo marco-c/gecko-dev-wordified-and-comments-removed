@@ -328,6 +328,13 @@ rec
 .
 bookmarkGuid
 }
+engagement
+=
+{
+rec
+.
+engagement
+}
 cta
 =
 {

@@ -148,9 +148,9 @@ button
 -
 label
 -
-try
+get
 -
-now
+started
 "
 }
 action

@@ -1893,6 +1893,13 @@ target
 .
 ownerGlobal
 ;
+this
+.
+maybeInsertFTL
+(
+win
+)
+;
 const
 doc
 =
