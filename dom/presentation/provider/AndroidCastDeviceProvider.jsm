@@ -1712,9 +1712,6 @@ log
 AndroidCastDeviceProvider
 -
 onSessionRequest
-"
-+
-"
 aDeviceId
 =
 "

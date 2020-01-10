@@ -281,9 +281,6 @@ request
 with
 the
 same
-"
-+
-"
 node
 fails
 .
@@ -305,9 +302,6 @@ is
 still
 request
 in
-"
-+
-"
 the
 queue
 "
@@ -338,9 +332,6 @@ no
 request
 in
 the
-"
-+
-"
 queue
 "
 )
@@ -440,9 +431,6 @@ still
 one
 more
 request
-"
-+
-"
 in
 the
 queue
@@ -598,9 +586,6 @@ is
 still
 a
 request
-"
-+
-"
 in
 the
 queue
@@ -773,9 +758,6 @@ is
 still
 a
 request
-"
-+
-"
 in
 the
 queue
