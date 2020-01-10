@@ -289,12 +289,6 @@ double
 printableHeightInInches
 ;
 bool
-isFramesetDocument
-;
-bool
-isFramesetFrameSelected
-;
-bool
 isIFrameSelected
 ;
 bool
