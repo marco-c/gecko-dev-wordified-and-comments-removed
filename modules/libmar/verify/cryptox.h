@@ -689,6 +689,7 @@ BYTE
 certData
 )
 dataSize
+\
 publicKey
 )
 #
@@ -815,6 +816,7 @@ publicKey
 signedData
 len
 )
+\
 CryptoX_Error
 #
 define
