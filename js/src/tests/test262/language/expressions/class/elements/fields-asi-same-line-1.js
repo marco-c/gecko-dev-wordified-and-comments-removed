@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+var
+C
+=
+class
+{
+field
+method
+(
+)
+{
+}
+}

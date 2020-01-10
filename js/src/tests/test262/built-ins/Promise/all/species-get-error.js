@@ -19,6 +19,16 @@ function
 )
 ;
 }
+C
+.
+resolve
+=
+function
+(
+)
+{
+}
+;
 Object
 .
 defineProperty

@@ -1,0 +1,17 @@
+assert
+.
+sameValue
+(
+typeof
+Promise
+'
+function
+'
+)
+;
+reportCompare
+(
+0
+0
+)
+;
