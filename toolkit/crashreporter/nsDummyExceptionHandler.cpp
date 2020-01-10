@@ -17,6 +17,13 @@ nsExceptionHandlerUtils
 .
 h
 "
+#
+include
+"
+prio
+.
+h
+"
 namespace
 CrashReporter
 {
@@ -366,6 +373,11 @@ PRFileDesc
 aFd
 )
 {
+PR_Close
+(
+aFd
+)
+;
 }
 void
 DeregisterChildCrashAnnotationFileDescriptor
