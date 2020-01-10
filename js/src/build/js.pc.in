@@ -94,8 +94,8 @@ includedir
 JS_LIBRARY_NAME
 /
 js
-/
-RequiredDefines
+-
+confdefs
 .
 h
 -

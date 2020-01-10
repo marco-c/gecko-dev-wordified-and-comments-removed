@@ -503,12 +503,12 @@ includedir
 JS_LIBRARY_NAME
 /
 js
-/
-RequiredDefines
+-
+confdefs
 .
 h
 -
-I
+isystem
 includedir
 /
 JS_LIBRARY_NAME
