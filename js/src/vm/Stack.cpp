@@ -3880,6 +3880,12 @@ interpreterScript
 =
 nullptr
 ;
+frame
+.
+realmID
+=
+0
+;
 return
 mozilla
 :
@@ -4122,6 +4128,10 @@ interpreterScript
 frame
 .
 interpreterPC_
+&
+frame
+.
+realmID
 )
 ;
 MOZ_ASSERT
@@ -4158,6 +4168,12 @@ frame
 label
 =
 nullptr
+;
+frame
+.
+realmID
+=
+0
 ;
 }
 frame

@@ -1014,6 +1014,9 @@ jsbytecode
 *
 *
 pc
+uint64_t
+*
+realmID
 )
 const
 ;

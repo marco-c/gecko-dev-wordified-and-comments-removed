@@ -529,6 +529,9 @@ JSScript
 *
 interpreterScript
 ;
+uint64_t
+realmID
+;
 public
 :
 void
@@ -843,6 +846,13 @@ forEachOptimizationTypeInfo
 ForEachTrackedOptimizationTypeInfoOp
 &
 op
+)
+const
+;
+JS_PUBLIC_API
+uint64_t
+realmID
+(
 )
 const
 ;
