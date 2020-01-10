@@ -1912,6 +1912,8 @@ int32_t
 aScreenId
 bool
 aPrivateMode
+bool
+aRemote
 )
 ;
 void
@@ -6676,6 +6678,8 @@ int32_t
 aScreenId
 bool
 aPrivateMode
+bool
+aRemote
 )
 {
 MOZ_ASSERT
@@ -6857,6 +6861,19 @@ chromeFlags
 =
 "
 private
+"
+;
+}
+if
+(
+aRemote
+)
+{
+chromeFlags
++
+=
+"
+remote
 "
 ;
 }

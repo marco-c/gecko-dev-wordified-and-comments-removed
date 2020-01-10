@@ -24862,6 +24862,8 @@ GetLoadContext
 if
 (
 (
+!
+!
 (
 aChromeFlags
 &
@@ -24870,9 +24872,8 @@ nsIWebBrowserChrome
 :
 CHROME_REMOTE_WINDOW
 )
-&
-&
 !
+=
 context
 -
 >
@@ -24883,6 +24884,8 @@ UseRemoteTabs
 |
 |
 (
+!
+!
 (
 aChromeFlags
 &
@@ -24891,9 +24894,8 @@ nsIWebBrowserChrome
 :
 CHROME_FISSION_WINDOW
 )
-&
-&
 !
+=
 context
 -
 >
