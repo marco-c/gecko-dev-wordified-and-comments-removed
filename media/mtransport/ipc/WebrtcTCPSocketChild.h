@@ -83,6 +83,10 @@ ipc
 IPCResult
 RecvOnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 override
 ;

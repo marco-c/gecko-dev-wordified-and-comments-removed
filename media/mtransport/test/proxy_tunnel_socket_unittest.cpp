@@ -543,6 +543,12 @@ mSProxy
 >
 OnConnected
 (
+NS_LITERAL_CSTRING
+(
+"
+http
+"
+)
 )
 ;
 ASSERT_TRUE

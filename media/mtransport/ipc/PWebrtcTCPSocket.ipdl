@@ -213,6 +213,8 @@ aReason
 async
 OnConnected
 (
+nsCString
+aProxyType
 )
 ;
 async

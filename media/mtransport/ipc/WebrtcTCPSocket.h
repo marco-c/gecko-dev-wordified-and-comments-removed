@@ -332,6 +332,9 @@ mLocalPort
 =
 0
 ;
+nsCString
+mProxyType
+;
 nsresult
 DoProxyConfigLookup
 (

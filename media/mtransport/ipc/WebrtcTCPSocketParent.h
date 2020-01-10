@@ -167,6 +167,10 @@ override
 void
 OnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 override
 ;
