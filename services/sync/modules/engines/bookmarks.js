@@ -5718,6 +5718,16 @@ extra
 )
 ;
 }
+recordStepTelemetry
+(
+)
+{
+}
+recordValidationTelemetry
+(
+)
+{
+}
 }
 )
 ;

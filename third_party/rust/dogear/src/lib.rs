@@ -60,9 +60,12 @@ driver
 :
 {
 AbortSignal
+ContentsStats
 DefaultAbortSignal
 DefaultDriver
 Driver
+TelemetryEvent
+TreeStats
 }
 ;
 pub
@@ -118,11 +121,7 @@ crate
 store
 :
 :
-{
-MergeTimings
-Stats
 Store
-}
 ;
 pub
 use
@@ -140,6 +139,7 @@ MergeState
 MergedDescendant
 MergedNode
 MergedRoot
+ProblemCounts
 Tree
 UploadReason
 Validity
