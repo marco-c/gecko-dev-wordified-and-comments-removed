@@ -105,13 +105,7 @@ override
 nsresult
 GetEncodedTrack
 (
-nsTArray
-<
-RefPtr
-<
-EncodedFrame
->
->
+EncodedFrameContainer
 &
 aData
 )

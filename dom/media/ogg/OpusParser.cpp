@@ -1280,7 +1280,4 @@ valInt
 aChannels
 ;
 }
-#
-undef
-OPUS_LOG
 }
