@@ -281,10 +281,6 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-\
-nsICookieSettings
-*
-aCookieSettings
 )
 override
 {
@@ -306,7 +302,6 @@ aClientID
 aDocumentURI
 \
 aLoadingPrincipal
-aCookieSettings
 )
 ;
 \
@@ -609,12 +604,6 @@ nsCOMPtr
 nsIPrincipal
 >
 mLoadingPrincipal
-;
-nsCOMPtr
-<
-nsICookieSettings
->
-mCookieSettings
 ;
 }
 ;

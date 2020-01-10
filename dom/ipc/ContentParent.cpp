@@ -23926,10 +23926,6 @@ const
 bool
 &
 aStickDocument
-const
-CookieSettingsArgs
-&
-aCookieSettingsArgs
 )
 {
 RefPtr
@@ -23994,10 +23990,6 @@ const
 bool
 &
 aStickDocument
-const
-CookieSettingsArgs
-&
-aCookieSettingsArgs
 )
 {
 MOZ_ASSERT
@@ -24044,7 +24036,6 @@ aManifestURI
 aDocumentURI
 aLoadingPrincipal
 aStickDocument
-aCookieSettingsArgs
 )
 ;
 if
