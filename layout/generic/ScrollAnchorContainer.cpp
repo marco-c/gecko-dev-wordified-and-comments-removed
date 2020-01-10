@@ -830,8 +830,6 @@ ANCHOR_LOG
 Selecting
 anchor
 for
-%
-p
 with
 scroll
 -
@@ -843,7 +841,6 @@ s
 \
 n
 "
-this
 mozilla
 :
 :
@@ -1558,10 +1555,7 @@ d
 in
 %
 s
-for
-%
-p
-and
+with
 anchor
 %
 p
@@ -1575,7 +1569,6 @@ writingMode
 DebugString
 (
 )
-this
 mAnchorNode
 )
 ;
