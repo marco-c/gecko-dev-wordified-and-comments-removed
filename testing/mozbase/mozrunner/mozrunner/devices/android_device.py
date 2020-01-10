@@ -430,6 +430,8 @@ Android
 .
 0
 x86
+/
+x86_64
 '
                        
 '
@@ -487,14 +489,6 @@ ranchu
                         
 '
 -
-engine
-'
-'
-qemu2
-'
-                        
-'
--
 selinux
 '
 '
@@ -514,17 +508,6 @@ cores
 '
 '
 4
-'
-                        
-'
--
-qemu
-'
-'
--
-enable
--
-kvm
 '
 ]
                        
@@ -3784,7 +3767,7 @@ command
 gpu
 '
 '
-swiftshader_indirect
+on
 '
 ]
         
