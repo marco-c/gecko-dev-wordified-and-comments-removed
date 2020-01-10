@@ -169,8 +169,8 @@ FuncT
 explicit
 EnsureMTA
 (
-const
 FuncT
+&
 &
 aClosure
 Option
@@ -301,7 +301,13 @@ NS_NewRunnableFunction
 "
 EnsureMTA
 "
+std
+:
+:
+move
+(
 eventSetter
+)
 )
 NS_DISPATCH_NORMAL
 )
@@ -377,8 +383,8 @@ static
 void
 AsyncOperation
 (
-const
 FuncT
+&
 &
 aClosure
 )
@@ -444,7 +450,13 @@ EnsureMTA
 :
 AsyncOperation
 "
+std
+:
+:
+move
+(
 aClosure
+)
 )
 NS_DISPATCH_NORMAL
 )

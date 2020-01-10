@@ -348,7 +348,13 @@ EnsureMTA
 :
 GetMTAThread
 "
+std
+:
+:
+move
+(
 setClearOnShutdown
+)
 )
 )
 ;
