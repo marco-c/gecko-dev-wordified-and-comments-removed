@@ -135,6 +135,9 @@ USVString
 decode
 (
 optional
+[
+AllowShared
+]
 BufferSource
 input
 optional
@@ -211,6 +214,9 @@ encodeInto
 (
 USVString
 source
+[
+AllowShared
+]
 Uint8Array
 destination
 )
