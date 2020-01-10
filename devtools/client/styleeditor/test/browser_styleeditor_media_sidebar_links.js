@@ -114,7 +114,6 @@ responsive
 /
 manager
 "
-true
 )
 ;
 const

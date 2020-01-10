@@ -228,7 +228,6 @@ responsive
 /
 manager
 "
-true
 )
 ;
 add_task

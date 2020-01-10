@@ -275,7 +275,6 @@ responsive
 /
 manager
 "
-true
 )
 ;
 loader

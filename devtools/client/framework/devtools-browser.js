@@ -196,7 +196,6 @@ responsive
 /
 manager
 "
-true
 )
 ;
 loader

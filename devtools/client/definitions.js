@@ -517,7 +517,6 @@ responsive
 /
 manager
 "
-true
 )
 ;
 loader
