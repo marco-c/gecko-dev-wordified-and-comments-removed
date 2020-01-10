@@ -363,6 +363,8 @@ boundary
 =
 kRatioReportDocument
 *
+double
+(
 std
 :
 :
@@ -374,6 +376,7 @@ uint64_t
 :
 max
 (
+)
 )
 ;
 Maybe
