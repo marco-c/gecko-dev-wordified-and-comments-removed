@@ -374,6 +374,8 @@ explicit
 VMSharingPolicyUnique
 (
 Args
+&
+&
 .
 .
 .

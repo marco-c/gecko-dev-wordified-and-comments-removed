@@ -472,6 +472,8 @@ operator
 )
 (
 ArgsType
+&
+&
 .
 .
 .
@@ -1024,6 +1026,8 @@ operator
 )
 (
 ArgsType
+&
+&
 .
 .
 .
@@ -1314,6 +1318,8 @@ explicit
 WindowsDllInterceptor
 (
 Args
+&
+&
 .
 .
 .

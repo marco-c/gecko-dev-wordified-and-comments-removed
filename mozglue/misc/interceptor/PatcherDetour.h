@@ -246,6 +246,8 @@ explicit
 WindowsDllDetourPatcher
 (
 Args
+&
+&
 .
 .
 .

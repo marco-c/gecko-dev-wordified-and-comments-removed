@@ -51,6 +51,8 @@ explicit
 WindowsDllPatcherBase
 (
 Args
+&
+&
 .
 .
 .

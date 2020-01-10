@@ -74,6 +74,8 @@ explicit
 WindowsDllNopSpacePatcher
 (
 Args
+&
+&
 .
 .
 .
