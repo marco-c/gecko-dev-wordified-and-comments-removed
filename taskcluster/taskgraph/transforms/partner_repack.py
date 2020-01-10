@@ -768,6 +768,32 @@ dependencies
         
 }
         
+task
+[
+'
+worker
+'
+]
+[
+'
+env
+'
+]
+[
+'
+RELEASE_TYPE
+'
+]
+=
+config
+.
+params
+[
+'
+release_type
+'
+]
+        
 yield
 task
 transforms
