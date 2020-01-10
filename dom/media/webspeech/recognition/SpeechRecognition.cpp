@@ -459,7 +459,7 @@ if
 StaticPrefs
 :
 :
-MediaWebspeechTextFakeRecognitionService
+media_webspeech_test_fake_recognition_service
 (
 )
 )
@@ -684,7 +684,7 @@ if
 StaticPrefs
 :
 :
-MediaWebspeechTestEnable
+media_webspeech_test_enable
 (
 )
 )
@@ -993,7 +993,7 @@ hasPermission
 StaticPrefs
 :
 :
-MediaWebspeechRecognitionForceEnable
+media_webspeech_recognition_force_enable
 (
 )
 |
@@ -1001,7 +1001,7 @@ MediaWebspeechRecognitionForceEnable
 StaticPrefs
 :
 :
-MediaWebspeechTestEnable
+media_webspeech_test_enable
 (
 )
 )
@@ -2792,7 +2792,7 @@ if
 StaticPrefs
 :
 :
-MediaWebspeechTextFakeFsmEvents
+media_webspeech_test_fake_fsm_events
 (
 )
 &
@@ -2892,7 +2892,7 @@ NS_ASSERTION
 StaticPrefs
 :
 :
-MediaWebspeechTextFakeRecognitionService
+media_webspeech_test_fake_recognition_service
 (
 )
 "

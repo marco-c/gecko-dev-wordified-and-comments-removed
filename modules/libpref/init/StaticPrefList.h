@@ -11621,7 +11621,7 @@ gestures
 -
 needed
 "
-MediaAutoplayUserGesturesNeeded
+media_autoplay_enabled_user_gestures_needed
 bool
 false
 )
@@ -11631,43 +11631,9 @@ Live
 "
 media
 .
-autoplay
-.
-allow
--
-muted
-"
-MediaAutoplayAllowMuted
-RelaxedAtomicBool
-true
-)
-VARCACHE_PREF
-(
-Live
-"
-media
-.
-autoplay
-.
-blackList
--
-override
--
-default
-"
-MediaAutoplayBlackListOverrideDefault
-RelaxedAtomicBool
-true
-)
-VARCACHE_PREF
-(
-Live
-"
-media
-.
 cache_size
 "
-MediaCacheSize
+media_cache_size
 RelaxedAtomicUint32
 512000
 )
@@ -11681,7 +11647,7 @@ cache_size
 .
 cellular
 "
-MediaCacheCellularSize
+media_cache_size_cellular
 RelaxedAtomicUint32
 32768
 )
@@ -11693,7 +11659,7 @@ media
 .
 memory_cache_max_size
 "
-MediaMemoryCacheMaxSize
+media_memory_cache_max_size
 uint32_t
 8192
 )
@@ -11705,7 +11671,7 @@ media
 .
 memory_caches_combined_limit_kb
 "
-MediaMemoryCachesCombinedLimitKb
+media_memory_caches_combined_limit_kb
 uint32_t
 524288
 )
@@ -11717,7 +11683,7 @@ media
 .
 memory_caches_combined_limit_pc_sysmem
 "
-MediaMemoryCachesCombinedLimitPcSysmem
+media_memory_caches_combined_limit_pc_sysmem
 uint32_t
 5
 )
@@ -11729,7 +11695,7 @@ media
 .
 cache_resume_threshold
 "
-MediaCacheResumeThreshold
+media_cache_resume_threshold
 RelaxedAtomicUint32
 30
 )
@@ -11743,7 +11709,7 @@ cache_resume_threshold
 .
 cellular
 "
-MediaCacheCellularResumeThreshold
+media_cache_resume_threshold_cellular
 RelaxedAtomicUint32
 10
 )
@@ -11755,7 +11721,7 @@ media
 .
 cache_readahead_limit
 "
-MediaCacheReadaheadLimit
+media_cache_readahead_limit
 RelaxedAtomicUint32
 60
 )
@@ -11769,7 +11735,7 @@ cache_readahead_limit
 .
 cellular
 "
-MediaCacheCellularReadaheadLimit
+media_cache_readahead_limit_cellular
 RelaxedAtomicUint32
 30
 )
@@ -11783,7 +11749,7 @@ resampling
 .
 enabled
 "
-MediaResamplingEnabled
+media_resampling_enabled
 RelaxedAtomicBool
 false
 )
@@ -11827,7 +11793,7 @@ forcestereo
 .
 enabled
 "
-MediaForcestereoEnabled
+media_forcestereo_enabled
 RelaxedAtomicBool
 PREF_VALUE
 )
@@ -11848,7 +11814,7 @@ sync
 .
 enabled
 "
-MediaRuinAvSyncEnabled
+media_ruin_av_sync_enabled
 RelaxedAtomicBool
 false
 )
@@ -11904,7 +11870,7 @@ eme
 .
 enabled
 "
-MediaEmeEnabled
+media_eme_enabled
 bool
 PREF_VALUE
 )
@@ -11947,7 +11913,7 @@ license
 .
 enabled
 "
-MediaClearkeyPersistentLicenseEnabled
+media_clearkey_persistent_license_enabled
 bool
 false
 )
@@ -11975,7 +11941,7 @@ insecure
 .
 allow
 "
-MediaGmpInsecureAllow
+media_gmp_insecure_allow
 RelaxedAtomicBool
 false
 )
@@ -11993,7 +11959,7 @@ blank
 -
 decoder
 "
-MediaUseBlankDecoder
+media_use_blank_decoder
 RelaxedAtomicBool
 false
 )
@@ -12027,7 +11993,7 @@ process
 -
 decoder
 "
-MediaGpuProcessDecoder
+media_gpu_process_decoder
 RelaxedAtomicBool
 PREF_VALUE
 )
@@ -12111,7 +12077,7 @@ process
 .
 enabled
 "
-MediaRddProcessEnabled
+media_rdd_process_enabled
 RelaxedAtomicBool
 PREF_VALUE
 )
@@ -12130,7 +12096,7 @@ process
 .
 startup_timeout_ms
 "
-MediaRddProcessStartupTimeoutMs
+media_rdd_process_startup_timeout_ms
 RelaxedAtomicInt32
 5000
 )
@@ -12198,7 +12164,7 @@ vorbis
 .
 enabled
 "
-MediaRddVorbisEnabled
+media_rdd_vorbis_enabled
 RelaxedAtomicBool
 PREF_VALUE
 )
@@ -12222,7 +12188,7 @@ codec
 .
 enabled
 "
-MediaAndroidMediaCodecEnabled
+media_android_media_codec_enabled
 RelaxedAtomicBool
 true
 )
@@ -12240,7 +12206,7 @@ codec
 .
 preferred
 "
-MediaAndroidMediaCodecPreferred
+media_android_media_codec_preferred
 RelaxedAtomicBool
 true
 )
@@ -12259,7 +12225,7 @@ omx
 .
 enabled
 "
-MediaOmxEnabled
+media_omx_enabled
 bool
 false
 )
@@ -12296,7 +12262,7 @@ ffmpeg
 .
 enabled
 "
-MediaFfmpegEnabled
+media_ffmpeg_enabled
 RelaxedAtomicBool
 PREF_VALUE
 )
@@ -12315,7 +12281,7 @@ allow
 -
 obsolete
 "
-MediaLibavcodecAllowObsolete
+media_libavcodec_allow_obsolete
 bool
 false
 )
@@ -12334,7 +12300,7 @@ ffvpx
 .
 enabled
 "
-MediaFfvpxEnabled
+media_ffvpx_enabled
 RelaxedAtomicBool
 true
 )
@@ -12366,7 +12332,7 @@ latency
 .
 enabled
 "
-MediaFfmpegLowLatencyEnabled
+media_ffmpeg_low_latency_enabled
 RelaxedAtomicBool
 false
 )
@@ -12385,7 +12351,7 @@ wmf
 .
 enabled
 "
-MediaWmfEnabled
+media_wmf_enabled
 RelaxedAtomicBool
 true
 )
@@ -12407,7 +12373,7 @@ is
 -
 failure
 "
-MediaDecoderDoctorWmfDisabledIsFailure
+media_decoder_doctor_wmf_disabled_is_failure
 bool
 false
 )
@@ -12425,7 +12391,7 @@ d3d11
 .
 enabled
 "
-PDMWMFAllowD3D11
+media_wmf_dxva_d3d11_enabled
 RelaxedAtomicBool
 true
 )
@@ -12443,7 +12409,7 @@ max
 -
 videos
 "
-PDMWMFMaxDXVAVideos
+media_wmf_dxva_max_videos
 RelaxedAtomicUint32
 8
 )
@@ -12461,7 +12427,7 @@ nv12
 -
 format
 "
-PDMWMFUseNV12Format
+media_wmf_use_nv12_format
 RelaxedAtomicBool
 true
 )
@@ -12481,7 +12447,7 @@ p010
 -
 format
 "
-PDMWMFForceAllowP010Format
+media_wmf_force_allow_p010_format
 RelaxedAtomicBool
 false
 )
@@ -12499,7 +12465,7 @@ sync
 -
 texture
 "
-PDMWMFUseSyncTexture
+media_wmf_use_sync_texture
 bool
 true
 )
@@ -12517,7 +12483,7 @@ latency
 .
 enabled
 "
-PDMWMFLowLatencyEnabled
+media_wmf_low_latency_enabled
 RelaxedAtomicBool
 false
 )
@@ -12537,7 +12503,7 @@ force
 -
 disabled
 "
-PDMWMFLowLatencyForceDisabled
+media_mwf_low_latency_force_disabled
 RelaxedAtomicBool
 false
 )
@@ -12553,7 +12519,7 @@ skip
 -
 blacklist
 "
-PDMWMFSkipBlacklist
+media_wmf_skip_blacklist
 RelaxedAtomicBool
 false
 )
@@ -12577,7 +12543,7 @@ gpu
 -
 process
 "
-PDMWMFDeblacklistingForTelemetryInGPUProcess
+media_wmf_deblacklisting_for_telemetry_in_gpu_process
 RelaxedAtomicBool
 false
 )
@@ -12595,7 +12561,7 @@ highres
 .
 enabled
 "
-PDMWMFAMDHighResEnabled
+media_wmf_amd_highres_enabled
 RelaxedAtomicBool
 true
 )
@@ -12613,7 +12579,7 @@ unsupported
 -
 resolutions
 "
-PDMWMFAllowUnsupportedResolutions
+media_wmf_allow_unsupported_resolutions
 RelaxedAtomicBool
 false
 )
@@ -12629,7 +12595,7 @@ vp9
 .
 enabled
 "
-MediaWmfVp9Enabled
+media_wmf_vp9_enabled
 bool
 true
 )
@@ -12651,7 +12617,7 @@ force
 -
 enabled
 "
-HardwareVideoDecodingForceEnabled
+media_hardware_video_decoding_force_enabled
 bool
 false
 )
@@ -12682,7 +12648,7 @@ recycle
 .
 enabled
 "
-MediaDecoderRecycleEnabled
+media_decoder_recycle_enabled
 RelaxedAtomicBool
 PREF_VALUE
 )
@@ -12709,7 +12675,7 @@ frame
 .
 enabled
 "
-MediaDecoderSkipToNextKeyFrameEnabled
+media_decoder_skip_to_next_key_frame_enabled
 RelaxedAtomicBool
 true
 )
@@ -12725,7 +12691,7 @@ decoder
 .
 enabled
 "
-MediaGmpDecoderEnabled
+media_gmp_decoder_enabled
 RelaxedAtomicBool
 false
 )
@@ -12741,7 +12707,7 @@ audio
 .
 blank
 "
-MediaEmeAudioBlank
+media_eme_audio_blank
 RelaxedAtomicBool
 false
 )
@@ -12757,7 +12723,7 @@ video
 .
 blank
 "
-MediaEmeVideoBlank
+media_eme_video_blank
 RelaxedAtomicBool
 false
 )
@@ -12777,7 +12743,7 @@ video
 -
 shmems
 "
-MediaEmeChromiumApiVideoShmems
+media_eme_chromium_api_video_shmems
 RelaxedAtomicUint32
 6
 )
@@ -12795,7 +12761,7 @@ video
 .
 enabled
 "
-MediaSuspendBkgndVideoEnabled
+media_suspend_bkgnd_video_enabled
 RelaxedAtomicBool
 true
 )
@@ -12815,7 +12781,7 @@ delay
 -
 ms
 "
-MediaSuspendBkgndVideoDelayMs
+media_suspend_bkgnd_video_delay_ms
 RelaxedAtomicUint32
 10000
 )
@@ -12835,7 +12801,7 @@ timeout
 -
 ms
 "
-MediaDormantOnPauseTimeoutMs
+media_dormant_on_pause_timeout_ms
 RelaxedAtomicInt32
 5000
 )
@@ -12881,7 +12847,7 @@ synth
 .
 force_global_queue
 "
-MediaWebspeechSynthForceGlobalQueue
+media_webspeech_synth_force_global_queue
 bool
 false
 )
@@ -12897,7 +12863,7 @@ test
 .
 enable
 "
-MediaWebspeechTestEnable
+media_webspeech_test_enable
 bool
 false
 )
@@ -12913,7 +12879,7 @@ test
 .
 fake_fsm_events
 "
-MediaWebspeechTextFakeFsmEvents
+media_webspeech_test_fake_fsm_events
 bool
 false
 )
@@ -12929,7 +12895,7 @@ test
 .
 fake_recognition_service
 "
-MediaWebspeechTextFakeRecognitionService
+media_webspeech_test_fake_recognition_service
 bool
 false
 )
@@ -12966,7 +12932,7 @@ recognition
 .
 force_enable
 "
-MediaWebspeechRecognitionForceEnable
+media_webspeech_recognition_force_enable
 bool
 false
 )
@@ -13021,7 +12987,7 @@ webm
 .
 enabled
 "
-MediaEncoderWebMEnabled
+media_encoder_webm_enabled
 RelaxedAtomicBool
 true
 )
@@ -13060,7 +13026,7 @@ decode
 -
 error
 "
-MediaAudioMaxDecodeError
+media_audio_max_decode_error
 uint32_t
 PREF_VALUE
 )
@@ -13099,7 +13065,7 @@ decode
 -
 error
 "
-MediaVideoMaxDecodeError
+media_video_max_decode_error
 uint32_t
 PREF_VALUE
 )
@@ -13116,7 +13082,7 @@ opus
 .
 enabled
 "
-MediaOpusEnabled
+media_opus_enabled
 RelaxedAtomicBool
 true
 )
@@ -13130,7 +13096,7 @@ wave
 .
 enabled
 "
-MediaWaveEnabled
+media_wave_enabled
 RelaxedAtomicBool
 true
 )
@@ -13144,7 +13110,7 @@ ogg
 .
 enabled
 "
-MediaOggEnabled
+media_ogg_enabled
 RelaxedAtomicBool
 true
 )
@@ -13158,7 +13124,7 @@ webm
 .
 enabled
 "
-MediaWebMEnabled
+media_webm_enabled
 RelaxedAtomicBool
 true
 )
@@ -13224,7 +13190,7 @@ av1
 .
 enabled
 "
-MediaAv1Enabled
+media_av1_enabled
 RelaxedAtomicBool
 PREF_VALUE
 )
@@ -13243,7 +13209,7 @@ use
 -
 dav1d
 "
-MediaAv1UseDav1d
+media_av1_use_dav1d
 #
 if
 defined
@@ -13299,7 +13265,7 @@ flac
 .
 enabled
 "
-MediaFlacEnabled
+media_flac_enabled
 bool
 true
 )
@@ -13328,7 +13294,7 @@ hls
 .
 enabled
 "
-MediaHlsEnabled
+media_hls_enabled
 bool
 PREF_VALUE
 )
@@ -13350,7 +13316,7 @@ max
 -
 allocations
 "
-MediaHlsMaxAllocations
+media_hls_max_allocations
 uint32_t
 20
 )
@@ -13381,7 +13347,7 @@ mp4
 .
 enabled
 "
-MediaMp4Enabled
+media_mp4_enabled
 RelaxedAtomicBool
 PREF_VALUE
 )
@@ -13402,7 +13368,7 @@ as
 -
 errors
 "
-MediaPlaybackWarningsAsErrors
+media_playback_warnings_as_errors
 RelaxedAtomicBool
 false
 )
@@ -13422,7 +13388,7 @@ on
 -
 tabhover
 "
-MediaResumeBkgndVideoOnTabhover
+media_resume_bkgnd_video_on_tabhover
 bool
 true
 )
@@ -13472,7 +13438,7 @@ seamless
 -
 looping
 "
-MediaSeamlessLooping
+media_seamless_looping
 RelaxedAtomicBool
 true
 )
@@ -13490,7 +13456,7 @@ event
 .
 enabled
 "
-MediaBlockEventEnabled
+media_autoplay_block_event_enabled
 bool
 false
 )
@@ -13506,7 +13472,7 @@ capabilities
 .
 enabled
 "
-MediaCapabilitiesEnabled
+media_media_capabilities_enabled
 RelaxedAtomicBool
 true
 )
@@ -13524,7 +13490,7 @@ screen
 .
 enabled
 "
-MediaCapabilitiesScreenEnabled
+media_media_capabilities_screen_enabled
 RelaxedAtomicBool
 false
 )
@@ -13540,7 +13506,7 @@ vp9
 .
 fps
 "
-MediaBenchmarkVp9Fps
+media_benchmark_vp9_fps
 RelaxedAtomicUint32
 0
 )
@@ -13556,7 +13522,7 @@ vp9
 .
 threshold
 "
-MediaBenchmarkVp9Threshold
+media_benchmark_vp9_threshold
 RelaxedAtomicUint32
 150
 )
@@ -13572,7 +13538,7 @@ vp9
 .
 versioncheck
 "
-MediaBenchmarkVp9Versioncheck
+media_benchmark_vp9_versioncheck
 RelaxedAtomicUint32
 0
 )
@@ -13586,7 +13552,7 @@ benchmark
 .
 frames
 "
-MediaBenchmarkFrames
+media_benchmark_frames
 RelaxedAtomicUint32
 300
 )
@@ -13600,7 +13566,7 @@ benchmark
 .
 timeout
 "
-MediaBenchmarkTimeout
+media_benchmark_timeout
 RelaxedAtomicUint32
 1000
 )
@@ -13748,7 +13714,7 @@ vp8_encode
 .
 acceleration_remote_enabled
 "
-MediaNavigatorHardwareVp8encodeAccelerationRemoteEnabled
+media_navigator_hardware_vp8_encode_acceleration_remote_enabled
 bool
 true
 )
@@ -13821,7 +13787,7 @@ navigator
 .
 mediadatadecoder_vpx_enabled
 "
-MediaNavigatorMediadatadecoderVPXEnabled
+media_navigator_mediadatadecoder_vpx_enabled
 RelaxedAtomicBool
 PREF_VALUE
 )
@@ -13860,7 +13826,7 @@ navigator
 .
 mediadatadecoder_h264_enabled
 "
-MediaNavigatorMediadatadecoderH264Enabled
+media_navigator_mediadatadecoder_h264_enabled
 RelaxedAtomicBool
 PREF_VALUE
 )

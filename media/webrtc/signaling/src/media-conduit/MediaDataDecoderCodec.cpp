@@ -85,7 +85,7 @@ if
 StaticPrefs
 :
 :
-MediaNavigatorMediadatadecoderVPXEnabled
+media_navigator_mediadatadecoder_vpx_enabled
 (
 )
 )
@@ -111,7 +111,7 @@ if
 StaticPrefs
 :
 :
-MediaNavigatorMediadatadecoderH264Enabled
+media_navigator_mediadatadecoder_h264_enabled
 (
 )
 )

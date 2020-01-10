@@ -657,7 +657,7 @@ false
 StaticPrefs
 :
 :
-MediaCapabilitiesEnabled
+media_media_capabilities_enabled
 (
 )
 |
@@ -691,7 +691,7 @@ MOZ_AV1
 StaticPrefs
 :
 :
-MediaAv1Enabled
+media_av1_enabled
 (
 )
 &

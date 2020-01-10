@@ -101,7 +101,7 @@ if
 StaticPrefs
 :
 :
-MediaResumeBkgndVideoOnTabhover
+media_resume_bkgnd_video_on_tabhover
 (
 )
 )

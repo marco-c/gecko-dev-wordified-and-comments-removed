@@ -1093,7 +1093,7 @@ return
 StaticPrefs
 :
 :
-MediaMp4Enabled
+media_mp4_enabled
 (
 )
 ;

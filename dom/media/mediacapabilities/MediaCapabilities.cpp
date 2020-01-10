@@ -3157,7 +3157,7 @@ return
 StaticPrefs
 :
 :
-MediaCapabilitiesEnabled
+media_media_capabilities_enabled
 (
 )
 ;

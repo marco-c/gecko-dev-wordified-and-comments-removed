@@ -2578,7 +2578,7 @@ return
 StaticPrefs
 :
 :
-MediaDecoderRecycleEnabled
+media_decoder_recycle_enabled
 (
 )
 &

@@ -475,7 +475,7 @@ sAllocatedInstances
 StaticPrefs
 :
 :
-MediaHlsMaxAllocations
+media_hls_max_allocations
 (
 )
 ?
@@ -678,7 +678,7 @@ return
 StaticPrefs
 :
 :
-MediaHlsEnabled
+media_hls_enabled
 (
 )
 &

@@ -12024,7 +12024,7 @@ FEATURE_STATUS_OK
 StaticPrefs
 :
 :
-HardwareVideoDecodingForceEnabled
+media_hardware_video_decoding_force_enabled
 (
 )
 )

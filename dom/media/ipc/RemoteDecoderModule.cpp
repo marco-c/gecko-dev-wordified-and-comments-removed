@@ -171,7 +171,7 @@ if
 StaticPrefs
 :
 :
-MediaAv1Enabled
+media_av1_enabled
 (
 )
 )
@@ -195,7 +195,7 @@ if
 StaticPrefs
 :
 :
-MediaRddVorbisEnabled
+media_rdd_vorbis_enabled
 (
 )
 )

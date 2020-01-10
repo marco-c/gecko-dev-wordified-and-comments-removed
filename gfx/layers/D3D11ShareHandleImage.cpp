@@ -1276,7 +1276,7 @@ mCanUseNV12
 StaticPrefs
 :
 :
-PDMWMFUseNV12Format
+media_wmf_use_nv12_format
 (
 )
 &
@@ -1301,7 +1301,7 @@ mCanUseP010
 StaticPrefs
 :
 :
-PDMWMFUseNV12Format
+media_wmf_use_nv12_format
 (
 )
 &
@@ -1326,7 +1326,7 @@ mCanUseP016
 StaticPrefs
 :
 :
-PDMWMFUseNV12Format
+media_wmf_use_nv12_format
 (
 )
 &
@@ -1516,7 +1516,7 @@ if
 StaticPrefs
 :
 :
-PDMWMFUseSyncTexture
+media_wmf_use_sync_texture
 (
 )
 |

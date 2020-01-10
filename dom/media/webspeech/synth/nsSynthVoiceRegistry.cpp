@@ -1491,7 +1491,7 @@ mIsQueued
 StaticPrefs
 :
 :
-MediaWebspeechSynthForceGlobalQueue
+media_webspeech_synth_force_global_queue
 (
 )
 )
@@ -3341,7 +3341,7 @@ mUseGlobalQueue
 StaticPrefs
 :
 :
-MediaWebspeechSynthForceGlobalQueue
+media_webspeech_synth_force_global_queue
 (
 )
 )
@@ -3800,7 +3800,7 @@ mUseGlobalQueue
 StaticPrefs
 :
 :
-MediaWebspeechSynthForceGlobalQueue
+media_webspeech_synth_force_global_queue
 (
 )
 )

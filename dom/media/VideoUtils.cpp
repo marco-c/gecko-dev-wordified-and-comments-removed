@@ -958,7 +958,7 @@ if
 StaticPrefs
 :
 :
-MediaForcestereoEnabled
+media_forcestereo_enabled
 (
 )
 )

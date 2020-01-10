@@ -1144,7 +1144,7 @@ EnsureRDDReady
 StaticPrefs
 :
 :
-MediaRddProcessEnabled
+media_rdd_process_enabled
 (
 )
 )

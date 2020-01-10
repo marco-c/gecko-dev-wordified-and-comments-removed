@@ -56,7 +56,7 @@ if
 StaticPrefs
 :
 :
-MediaOggEnabled
+media_ogg_enabled
 (
 )
 )

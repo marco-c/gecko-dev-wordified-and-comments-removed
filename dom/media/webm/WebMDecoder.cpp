@@ -403,7 +403,7 @@ if
 StaticPrefs
 :
 :
-MediaAv1Enabled
+media_av1_enabled
 (
 )
 &
@@ -485,7 +485,7 @@ if
 StaticPrefs
 :
 :
-MediaWebMEnabled
+media_webm_enabled
 (
 )
 )

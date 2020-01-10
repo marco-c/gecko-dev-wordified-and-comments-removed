@@ -2332,7 +2332,7 @@ XRE_IsGPUProcess
 StaticPrefs
 :
 :
-PDMWMFDeblacklistingForTelemetryInGPUProcess
+media_wmf_deblacklisting_for_telemetry_in_gpu_process
 (
 )
 ;
@@ -2360,7 +2360,7 @@ LAYERS_D3D11
 StaticPrefs
 :
 :
-PDMWMFAllowD3D11
+media_wmf_dxva_d3d11_enabled
 (
 )
 &
@@ -2703,7 +2703,7 @@ H264
 StaticPrefs
 :
 :
-PDMWMFAllowUnsupportedResolutions
+media_wmf_allow_unsupported_resolutions
 (
 )
 )
@@ -3071,7 +3071,7 @@ lowLatency
 StaticPrefs
 :
 :
-PDMWMFLowLatencyEnabled
+media_wmf_low_latency_enabled
 (
 )
 |
@@ -3086,7 +3086,7 @@ IsWin10OrLater
 StaticPrefs
 :
 :
-PDMWMFLowLatencyForceDisabled
+media_mwf_low_latency_force_disabled
 (
 )
 ;
@@ -6109,7 +6109,7 @@ hw
 StaticPrefs
 :
 :
-PDMWMFUseNV12Format
+media_wmf_use_nv12_format
 (
 )
 &

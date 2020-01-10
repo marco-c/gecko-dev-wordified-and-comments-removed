@@ -2321,7 +2321,7 @@ DXP010Blocked
 StaticPrefs
 :
 :
-PDMWMFForceAllowP010Format
+media_wmf_force_allow_p010_format
 (
 )
 )
@@ -2386,7 +2386,7 @@ DXP016Blocked
 StaticPrefs
 :
 :
-PDMWMFForceAllowP010Format
+media_wmf_force_allow_p010_format
 (
 )
 )

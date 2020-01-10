@@ -5310,7 +5310,7 @@ return
 StaticPrefs
 :
 :
-MediaEncoderWebMEnabled
+media_encoder_webm_enabled
 (
 )
 ;

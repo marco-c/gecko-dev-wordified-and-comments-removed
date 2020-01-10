@@ -241,7 +241,7 @@ resampling
 StaticPrefs
 :
 :
-MediaResamplingEnabled
+media_resampling_enabled
 (
 )
 ;

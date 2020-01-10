@@ -481,7 +481,7 @@ int64_t
 StaticPrefs
 :
 :
-MediaMemoryCacheMaxSize
+media_memory_cache_max_size
 (
 )
 )
@@ -809,7 +809,7 @@ size_t
 StaticPrefs
 :
 :
-MediaMemoryCachesCombinedLimitKb
+media_memory_caches_combined_limit_kb
 (
 )
 )
@@ -820,7 +820,7 @@ sysmem
 StaticPrefs
 :
 :
-MediaMemoryCachesCombinedLimitPcSysmem
+media_memory_caches_combined_limit_pc_sysmem
 (
 )
 /

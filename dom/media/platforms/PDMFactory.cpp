@@ -1665,7 +1665,7 @@ if
 StaticPrefs
 :
 :
-MediaUseBlankDecoder
+media_use_blank_decoder
 (
 )
 )
@@ -1689,7 +1689,7 @@ if
 StaticPrefs
 :
 :
-MediaRddProcessEnabled
+media_rdd_process_enabled
 (
 )
 &
@@ -1718,7 +1718,7 @@ if
 StaticPrefs
 :
 :
-MediaWmfEnabled
+media_wmf_enabled
 (
 )
 &
@@ -1769,7 +1769,7 @@ mWMFFailedToLoad
 StaticPrefs
 :
 :
-MediaDecoderDoctorWmfDisabledIsFailure
+media_decoder_doctor_wmf_disabled_is_failure
 (
 )
 ;
@@ -1784,7 +1784,7 @@ if
 StaticPrefs
 :
 :
-MediaOmxEnabled
+media_omx_enabled
 (
 )
 )
@@ -1814,7 +1814,7 @@ if
 StaticPrefs
 :
 :
-MediaFfvpxEnabled
+media_ffvpx_enabled
 (
 )
 )
@@ -1844,7 +1844,7 @@ if
 StaticPrefs
 :
 :
-MediaFfmpegEnabled
+media_ffmpeg_enabled
 (
 )
 )
@@ -1901,7 +1901,7 @@ if
 StaticPrefs
 :
 :
-MediaAndroidMediaCodecEnabled
+media_android_media_codec_enabled
 (
 )
 )
@@ -1919,7 +1919,7 @@ m
 StaticPrefs
 :
 :
-MediaAndroidMediaCodecPreferred
+media_android_media_codec_preferred
 (
 )
 )
@@ -1944,7 +1944,7 @@ if
 StaticPrefs
 :
 :
-MediaGmpDecoderEnabled
+media_gmp_decoder_enabled
 (
 )
 )

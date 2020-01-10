@@ -5274,7 +5274,7 @@ if
 StaticPrefs
 :
 :
-MediaBlockEventEnabled
+media_autoplay_block_event_enabled
 (
 )
 )

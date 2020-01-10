@@ -39,7 +39,7 @@ return
 StaticPrefs
 :
 :
-MediaFlacEnabled
+media_flac_enabled
 (
 )
 ;

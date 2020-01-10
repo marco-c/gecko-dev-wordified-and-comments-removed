@@ -4365,7 +4365,7 @@ EnsureGPUReady
 StaticPrefs
 :
 :
-MediaGpuProcessDecoder
+media_gpu_process_decoder
 (
 )
 |
