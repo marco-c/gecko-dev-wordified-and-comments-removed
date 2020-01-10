@@ -61,6 +61,7 @@ Clipper
 <
 T
 U
+A
 >
 {
 clips
@@ -81,6 +82,7 @@ Polygon
 <
 T
 U
+A
 >
 >
 temp
@@ -91,6 +93,7 @@ Polygon
 <
 T
 U
+A
 >
 >
 }
@@ -165,11 +168,20 @@ fmt
 :
 :
 Debug
+A
+:
+Copy
++
+fmt
+:
+:
+Debug
 >
 Clipper
 <
 T
 U
+A
 >
 {
 pub
@@ -620,6 +632,7 @@ Polygon
 <
 T
 U
+A
 >
 )
 -
@@ -630,6 +643,7 @@ Polygon
 <
 T
 U
+A
 >
 ]
 {
@@ -896,6 +910,7 @@ Polygon
 <
 T
 U
+A
 >
 transform
 :
@@ -935,6 +950,7 @@ Polygon
 <
 T
 V
+A
 >
 >
 NegativeHemisphereError

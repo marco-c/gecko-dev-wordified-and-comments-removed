@@ -247,6 +247,15 @@ crate
 intern
 ;
 use
+crate
+:
+:
+internal_types
+:
+:
+PlaneSplitAnchor
+;
+use
 malloc_size_of
 :
 :
@@ -11904,7 +11913,7 @@ mut
 FrameBuildingState
 plane_split_anchor
 :
-usize
+PlaneSplitAnchor
 data_stores
 :
 &
@@ -12369,7 +12378,7 @@ PrimitiveScratchBuffer
 {
 for
 (
-plane_split_anchor
+prim_instance_index
 prim_instance
 )
 in
@@ -12497,6 +12506,14 @@ frame_context
 clip_scroll_tree
 )
 ;
+let
+plane_split_anchor
+=
+PlaneSplitAnchor
+{
+prim_instance_index
+}
+;
 if
 self
 .
@@ -12538,7 +12555,7 @@ mut
 PrimitiveInstance
 plane_split_anchor
 :
-usize
+PlaneSplitAnchor
 pic_context
 :
 &

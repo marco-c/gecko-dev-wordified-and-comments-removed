@@ -485,6 +485,7 @@ Polygon
 <
 T
 U
+A
 >
 {
 pub
@@ -510,7 +511,7 @@ U
 pub
 anchor
 :
-usize
+A
 }
 impl
 <
@@ -518,6 +519,9 @@ T
 :
 Clone
 U
+A
+:
+Copy
 >
 Clone
 for
@@ -525,6 +529,7 @@ Polygon
 <
 T
 U
+A
 >
 {
 fn
@@ -604,11 +609,13 @@ impl
 <
 T
 U
+A
 >
 Polygon
 <
 T
 U
+A
 >
 where
 T
@@ -680,6 +687,9 @@ fmt
 :
 :
 Debug
+A
+:
+Copy
 {
 pub
 fn
@@ -698,7 +708,7 @@ U
 ]
 anchor
 :
-usize
+A
 )
 -
 >
@@ -902,7 +912,7 @@ U
 >
 anchor
 :
-usize
+A
 )
 -
 >
@@ -1044,7 +1054,7 @@ U
 >
 anchor
 :
-usize
+A
 )
 -
 >
@@ -1204,7 +1214,7 @@ V
 >
 anchor
 :
-usize
+A
 )
 -
 >
@@ -1628,6 +1638,7 @@ Polygon
 <
 T
 V
+A
 >
 >
 where

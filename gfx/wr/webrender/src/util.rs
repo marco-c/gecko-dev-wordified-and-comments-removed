@@ -6126,6 +6126,13 @@ match
 Clipper
 :
 :
+<
+_
+_
+usize
+>
+:
+:
 frustum_planes
 (
 transform

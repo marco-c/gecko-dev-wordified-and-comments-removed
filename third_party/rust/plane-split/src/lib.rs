@@ -957,6 +957,9 @@ dir
 pub
 fn
 signed_distance_sum_to
+<
+A
+>
 (
 &
 self
@@ -967,6 +970,7 @@ Polygon
 <
 T
 U
+A
 >
 )
 -
@@ -1227,6 +1231,7 @@ Splitter
 <
 T
 U
+A
 >
 {
 fn
@@ -1249,6 +1254,7 @@ Polygon
 <
 T
 U
+A
 >
 )
 ;
@@ -1274,6 +1280,7 @@ Polygon
 <
 T
 U
+A
 >
 ]
 ;
@@ -1291,6 +1298,7 @@ Polygon
 <
 T
 U
+A
 >
 ]
 view
@@ -1309,6 +1317,7 @@ Polygon
 <
 T
 U
+A
 >
 ]
 where
@@ -1318,6 +1327,9 @@ Clone
 U
 :
 Clone
+A
+:
+Copy
 {
 self
 .
@@ -1374,6 +1386,7 @@ Polygon
 f32
 (
 )
+usize
 >
 >
 {
@@ -1388,6 +1401,7 @@ Polygon
 f32
 (
 )
+usize
 >
 >
 =
