@@ -3039,6 +3039,7 @@ KEY_ArrowDown
 let
 numLogins
 =
+await
 LoginManager
 .
 countLogins
@@ -3163,6 +3164,7 @@ pword
 ;
 numLogins
 =
+await
 LoginManager
 .
 countLogins
@@ -3394,6 +3396,7 @@ pword
 let
 numLogins
 =
+await
 LoginManager
 .
 countLogins
@@ -3628,6 +3631,7 @@ pword
 let
 numLogins
 =
+await
 LoginManager
 .
 countLogins
@@ -3873,6 +3877,7 @@ pword
 let
 numLogins
 =
+await
 LoginManager
 .
 countLogins
@@ -3924,7 +3929,7 @@ previous
 tests
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 removeLogin
@@ -3936,7 +3941,7 @@ login0
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 addLogin
@@ -5108,7 +5113,7 @@ removeLogin
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 removeLogin
@@ -5149,7 +5154,7 @@ addLogin
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 addLogin
@@ -5161,7 +5166,7 @@ login6A
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 addLogin
@@ -5461,7 +5466,7 @@ removeLogin
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 removeLogin
@@ -5701,7 +5706,7 @@ removeLogin
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 removeLogin
@@ -5739,7 +5744,7 @@ addLogin
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 addLogin
@@ -6094,7 +6099,7 @@ addLogin
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 removeLogin
@@ -6106,7 +6111,7 @@ login7
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 addLogin
@@ -6118,7 +6123,7 @@ login8A
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 addLogin
@@ -6567,7 +6572,7 @@ addLogin
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 addLogin
@@ -6716,7 +6721,7 @@ addLogin
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 removeLogin
@@ -6728,7 +6733,7 @@ login8A
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 removeLogin
@@ -6740,7 +6745,7 @@ login8B
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 removeLogin
@@ -6752,7 +6757,7 @@ login8C
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 addLogin
@@ -7181,7 +7186,7 @@ removeLogin
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 removeLogin
@@ -7219,7 +7224,7 @@ addLogin
 ;
 setupScript
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 addLogin

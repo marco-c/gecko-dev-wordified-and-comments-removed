@@ -286,6 +286,7 @@ script
 var
 loadListener
 =
+async
 function
 (
 evt
@@ -503,9 +504,10 @@ en_GB
 ;
 is
 (
+await
 script
 .
-sendSyncMessage
+sendQuery
 (
 "
 en_GB
@@ -513,12 +515,6 @@ en_GB
 exists
 "
 )
-[
-0
-]
-[
-0
-]
 true
 "
 true
@@ -956,7 +952,7 @@ tests
 .
 script
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 destroy

@@ -1335,8 +1335,9 @@ message
 )
 ;
 }
-sendSyncMessage
+sendQuery
 :
+async
 (
 name
 message
@@ -1358,6 +1359,12 @@ name
 message
 }
 )
+[
+0
+]
+[
+0
+]
 ;
 }
 destroy
