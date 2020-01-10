@@ -1,10 +1,4 @@
 use
-std
-:
-:
-io
-;
-use
 error
 :
 :
@@ -12,6 +6,12 @@ Result
 ;
 use
 serde
+;
+use
+std
+:
+:
+io
 ;
 pub
 trait
@@ -986,12 +986,14 @@ Ok
 }
 impl
 <
+'
+a
 R
 >
 BincodeRead
 <
 '
-static
+a
 >
 for
 IoReader
@@ -1043,7 +1045,7 @@ de
 Visitor
 <
 '
-static
+a
 >
 {
 self
@@ -1213,7 +1215,7 @@ de
 Visitor
 <
 '
-static
+a
 >
 {
 self
