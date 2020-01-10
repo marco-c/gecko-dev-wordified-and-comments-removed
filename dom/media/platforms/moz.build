@@ -132,6 +132,13 @@ VPXDecoder
 h
 '
 '
+agnostic
+/
+WAVDecoder
+.
+h
+'
+'
 AllocationPolicy
 .
 h
