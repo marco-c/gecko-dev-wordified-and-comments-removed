@@ -1392,11 +1392,6 @@ mSuspendedForFlowControl
 1
 ;
 uint8_t
-mDoingCrossProcessRedirect
-:
-1
-;
-uint8_t
 mAsyncOpenBarrier
 =
 0
