@@ -673,6 +673,7 @@ let
 task
 args
 caller
+taskId
 }
 =
 aMessage
@@ -687,6 +688,17 @@ _spawnTask
 task
 args
 caller
+taskId
+)
+;
+default
+:
+return
+super
+.
+receiveMessage
+(
+aMessage
 )
 ;
 }
