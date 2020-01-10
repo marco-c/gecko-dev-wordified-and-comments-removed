@@ -4903,14 +4903,6 @@ callInfo
 )
 ;
 InliningResult
-inlineSetDisjointTypedElements
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningResult
 inlineObjectIsTypeDescr
 (
 CallInfo
