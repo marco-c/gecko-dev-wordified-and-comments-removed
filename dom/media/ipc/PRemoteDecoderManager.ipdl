@@ -298,7 +298,6 @@ info
 OptionSet
 options
 TextureFactoryIdentifier
-?
 identifier
 )
 returns
