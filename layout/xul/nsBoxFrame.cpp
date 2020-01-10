@@ -4414,10 +4414,6 @@ nsGkAtoms
 :
 :
 dialog
-nsGkAtoms
-:
-:
-wizard
 )
 &
 &
