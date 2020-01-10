@@ -24345,7 +24345,7 @@ void
 InitAlwaysPref
 (
 const
-nsACString
+nsCString
 &
 aName
 T
@@ -24369,10 +24369,7 @@ aIsParent
 {
 InitPref
 (
-PromiseFlatCString
-(
 aName
-)
 .
 get
 (
