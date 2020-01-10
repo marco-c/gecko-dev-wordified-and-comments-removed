@@ -197,9 +197,6 @@ bool
 mPreparingForPrint
 ;
 bool
-mDocWasToBeDestroyed
-;
-bool
 mShrinkToFit
 ;
 int32_t

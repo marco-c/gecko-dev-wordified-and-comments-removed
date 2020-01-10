@@ -133,10 +133,6 @@ mPreparingForPrint
 (
 false
 )
-mDocWasToBeDestroyed
-(
-false
-)
 mShrinkToFit
 (
 false
