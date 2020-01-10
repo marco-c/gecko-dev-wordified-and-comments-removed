@@ -769,9 +769,6 @@ gdk_display_get_default
 ;
 if
 (
-gdkDisplay
-&
-&
 GDK_IS_X11_DISPLAY
 (
 gdkDisplay
