@@ -178,6 +178,15 @@ widgets
 DevToolsModules
 (
 '
+async
+-
+store
+-
+helper
+.
+js
+'
+'
 autocomplete
 -
 popup
