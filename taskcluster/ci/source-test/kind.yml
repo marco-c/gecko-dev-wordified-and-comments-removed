@@ -164,6 +164,12 @@ remote
 .
 yml
 -
+shadow
+-
+scheduler
+.
+yml
+-
 webidl
 .
 yml
