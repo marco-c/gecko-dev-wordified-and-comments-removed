@@ -123,7 +123,7 @@ Sandbox
 (
 systemPrincipal
 {
-invisibleToDebugger
+freshCompartment
 :
 true
 wantGlobalProperties
