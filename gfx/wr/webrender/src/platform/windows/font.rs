@@ -2746,8 +2746,6 @@ top
 width
 height
 advance
-:
-advance
 }
 }
 )

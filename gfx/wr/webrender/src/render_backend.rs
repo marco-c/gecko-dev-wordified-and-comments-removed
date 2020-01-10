@@ -1178,8 +1178,6 @@ now
 (
 )
 document_id
-:
-document_id
 }
 }
 pub
@@ -9543,8 +9541,6 @@ doc
 =
 Document
 {
-id
-:
 id
 scene
 :
