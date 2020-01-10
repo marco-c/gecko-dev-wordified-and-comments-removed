@@ -1625,7 +1625,7 @@ None
 fh
 =
 None
-mode
+readmode
 =
 '
 rU
@@ -1723,9 +1723,9 @@ self
 .
 dry_run
                                 
-mode
+readmode
 =
-mode
+readmode
 )
         
 else

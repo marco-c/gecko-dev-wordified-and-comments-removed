@@ -293,7 +293,7 @@ tests
 pkl
 '
 )
-mode
+readmode
 =
 '
 rb
@@ -337,7 +337,7 @@ defaults
 pkl
 '
 )
-mode
+readmode
 =
 '
 rb
@@ -382,7 +382,7 @@ self
 _write_file
 (
 path
-mode
+readmode
 =
 '
 rb

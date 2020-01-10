@@ -1260,7 +1260,7 @@ False
 dry_run
 =
 False
-mode
+readmode
 =
 '
 rU
@@ -1304,7 +1304,7 @@ assert
 r
 '
 in
-mode
+readmode
         
 self
 .
@@ -1329,7 +1329,7 @@ self
 .
 mode
 =
-mode
+readmode
     
 def
 write

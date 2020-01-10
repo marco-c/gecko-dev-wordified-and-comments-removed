@@ -433,7 +433,7 @@ FileAvoidWrite
 args
 .
 output_file
-mode
+readmode
 =
 '
 rb

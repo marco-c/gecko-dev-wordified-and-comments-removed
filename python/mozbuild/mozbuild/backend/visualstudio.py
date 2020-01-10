@@ -952,7 +952,7 @@ self
 _write_file
 (
 props_path
-mode
+readmode
 =
 '
 rb
@@ -987,7 +987,7 @@ mach
 bat
 '
 )
-mode
+readmode
 =
 '
 rb
@@ -1022,7 +1022,7 @@ mach
 ps1
 '
 )
-mode
+readmode
 =
 '
 rb
@@ -1061,7 +1061,7 @@ self
 _write_file
 (
 solution_path
-mode
+readmode
 =
 '
 rb
@@ -3572,7 +3572,7 @@ join
 out_dir
 root
 )
-mode
+readmode
 =
 '
 rb
@@ -3622,7 +3622,7 @@ user
 %
 root
 )
-mode
+readmode
 =
 '
 rb
