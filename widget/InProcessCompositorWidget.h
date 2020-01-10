@@ -143,6 +143,7 @@ gfx
 DrawTarget
 *
 aDrawTarget
+const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
