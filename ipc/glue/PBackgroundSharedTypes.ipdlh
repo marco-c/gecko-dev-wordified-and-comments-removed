@@ -316,6 +316,9 @@ referrer
 uint64_t
 innerWindowID
 ;
+bool
+skipAllowInlineStyleCheck
+;
 }
 ;
 }

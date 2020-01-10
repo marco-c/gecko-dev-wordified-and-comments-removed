@@ -512,6 +512,9 @@ mReferrer
 uint64_t
 mInnerWindowID
 ;
+bool
+mSkipAllowInlineStyleCheck
+;
 nsTArray
 <
 mozilla
