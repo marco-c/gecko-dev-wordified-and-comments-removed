@@ -44,14 +44,10 @@ string
 postMessage
 (
 {
-"
 string
-"
 :
 string
-"
 value
-"
 :
 value
 }
@@ -61,9 +57,7 @@ value
 postMessage
 (
 {
-"
 string
-"
 :
 "
 testfinished

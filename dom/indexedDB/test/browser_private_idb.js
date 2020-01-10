@@ -105,9 +105,7 @@ req
 .
 onsuccess
 =
-(
 event
-)
 =
 >
 {
@@ -298,9 +296,7 @@ resultPromise
 .
 then
 (
-(
 result
-)
 =
 >
 {

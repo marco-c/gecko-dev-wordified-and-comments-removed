@@ -187,9 +187,7 @@ test
 html
 "
 async
-(
 browser
-)
 =
 >
 {
@@ -313,9 +311,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

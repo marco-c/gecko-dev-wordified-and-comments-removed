@@ -2029,9 +2029,7 @@ addEventListener
 "
 load
 "
-(
 aEvent
-)
 =
 >
 {

@@ -115,6 +115,7 @@ if
 (
 performed
 )
+{
 postMsg
 (
 "
@@ -122,6 +123,7 @@ perf
 "
 )
 ;
+}
 return
 ;
 }
@@ -129,6 +131,7 @@ if
 (
 parent
 )
+{
 postMsg
 (
 event
@@ -136,6 +139,7 @@ event
 data
 )
 ;
+}
 }
 function
 ok
@@ -149,6 +153,7 @@ if
 !
 a
 )
+{
 postMsg
 (
 "
@@ -159,12 +164,15 @@ FAILURE
 message
 )
 ;
+}
 else
+{
 postMsg
 (
 message
 )
 ;
+}
 }
 function
 is
@@ -181,6 +189,7 @@ a
 =
 b
 )
+{
 postMsg
 (
 "
@@ -203,7 +212,9 @@ got
 a
 )
 ;
+}
 else
+{
 postMsg
 (
 message
@@ -221,6 +232,7 @@ got
 a
 )
 ;
+}
 }
 function
 todo

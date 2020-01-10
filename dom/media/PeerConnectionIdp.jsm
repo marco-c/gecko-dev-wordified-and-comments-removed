@@ -537,6 +537,7 @@ assertion
 )
 {
 return
+(
 assertion
 &
 &
@@ -593,6 +594,7 @@ assertion
 "
 string
 "
+)
 ;
 }
 _getSessionLevelEnd
@@ -1206,7 +1208,6 @@ isFingerprint
 f
 =
 >
-(
 typeof
 f
 .
@@ -1217,10 +1218,8 @@ digest
 "
 string
 "
-)
 &
 &
-(
 typeof
 f
 .
@@ -1231,7 +1230,6 @@ algorithm
 "
 string
 "
-)
 ;
 if
 (
@@ -1326,7 +1324,6 @@ b
 >
 {
 return
-(
 a
 .
 digest
@@ -1336,10 +1333,8 @@ digest
 b
 .
 digest
-)
 &
 &
-(
 a
 .
 algorithm
@@ -1349,7 +1344,6 @@ algorithm
 b
 .
 algorithm
-)
 ;
 }
 ;
@@ -1478,6 +1472,7 @@ sdp
 )
 ;
 return
+(
 sdp
 .
 substring
@@ -1509,6 +1504,7 @@ sdp
 substring
 (
 index
+)
 )
 ;
 }

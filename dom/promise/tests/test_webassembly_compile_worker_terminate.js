@@ -38,6 +38,7 @@ i
 +
 +
 )
+{
 arr
 .
 push
@@ -53,6 +54,7 @@ sampleURL
 )
 )
 ;
+}
 Promise
 .
 all

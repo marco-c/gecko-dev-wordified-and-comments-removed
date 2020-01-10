@@ -314,11 +314,13 @@ Promise
 resolve
 =
 >
+(
 this
 .
 resolve
 =
 resolve
+)
 )
 ;
 }
@@ -598,9 +600,7 @@ expected
 values
 (
 )
-(
 x
-)
 =
 >
 names
@@ -1443,9 +1443,7 @@ expected
 values
 (
 )
-(
 x
-)
 =
 >
 names
@@ -1554,11 +1552,13 @@ Promise
 resolve
 =
 >
+(
 this
 .
 resolve
 =
 resolve
+)
 )
 ;
 this

@@ -68,9 +68,9 @@ nsIProperties
 .
 get
 (
-'
+"
 TmpD
-'
+"
 Ci
 .
 nsIFile
@@ -80,13 +80,13 @@ parent
 .
 append
 (
-'
+"
 worker
 -
 dir
 -
 test
-'
+"
 )
 ;
 parent
@@ -114,9 +114,9 @@ dir_a
 .
 append
 (
-'
+"
 a
-'
+"
 )
 ;
 dir_a
@@ -144,11 +144,11 @@ page_a
 .
 append
 (
-'
+"
 empty
 .
 html
-'
+"
 )
 ;
 page_a
@@ -174,6 +174,7 @@ newFileURI
 (
 page_a
 )
+;
 let
 worker
 =
@@ -187,11 +188,11 @@ worker
 .
 append
 (
-'
+"
 worker
 .
 js
-'
+"
 )
 ;
 let
@@ -278,9 +279,9 @@ dir_b
 .
 append
 (
-'
+"
 b
-'
+"
 )
 ;
 dir_b
@@ -308,11 +309,11 @@ page_b
 .
 append
 (
-'
+"
 empty
 .
 html
-'
+"
 )
 ;
 page_b
@@ -338,6 +339,7 @@ newFileURI
 (
 page_b
 )
+;
 let
 tab
 =
@@ -428,6 +430,7 @@ reject
 )
 ;
 }
+;
 w
 .
 onmessage
@@ -439,6 +442,7 @@ _
 resolve
 (
 )
+;
 }
 ;
 }
@@ -562,6 +566,7 @@ resolve
 )
 ;
 }
+;
 w
 .
 onmessage
@@ -573,6 +578,7 @@ _
 reject
 (
 )
+;
 }
 ;
 }
@@ -781,6 +787,7 @@ resolve
 )
 ;
 }
+;
 w
 .
 onmessage
@@ -792,6 +799,7 @@ _
 reject
 (
 )
+;
 }
 ;
 }
@@ -943,6 +951,7 @@ resolve
 )
 ;
 }
+;
 w
 .
 onmessage
@@ -954,6 +963,7 @@ _
 reject
 (
 )
+;
 }
 ;
 }

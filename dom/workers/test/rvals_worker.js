@@ -9,9 +9,9 @@ postMessage
 (
 postMessage
 (
-'
+"
 ignore
-'
+"
 )
 =
 =
@@ -71,10 +71,10 @@ dump
 (
 42
 +
-'
+"
 \
 n
-'
+"
 )
 =
 =
@@ -83,9 +83,10 @@ undefined
 ;
 postMessage
 (
-'
+"
 finished
-'
+"
 )
 ;
 }
+;

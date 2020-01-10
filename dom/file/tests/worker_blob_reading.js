@@ -1,10 +1,10 @@
 importScripts
 (
-'
+"
 common_blob_reading
 .
 js
-'
+"
 )
 ;
 function
@@ -18,9 +18,9 @@ postMessage
 {
 type
 :
-'
+"
 info
-'
+"
 message
 }
 )
@@ -38,9 +38,9 @@ postMessage
 {
 type
 :
-'
+"
 test
-'
+"
 test
 :
 !
@@ -110,9 +110,9 @@ postMessage
 {
 type
 :
-'
+"
 done
-'
+"
 }
 )
 ;
@@ -138,9 +138,9 @@ postMessage
 {
 type
 :
-'
+"
 error
-'
+"
 message
 :
 exc
@@ -155,3 +155,4 @@ toString
 )
 ;
 }
+;

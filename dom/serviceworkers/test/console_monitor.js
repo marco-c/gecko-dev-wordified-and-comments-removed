@@ -51,9 +51,7 @@ callbacks
 ]
 observe
 :
-(
 aMsg
-)
 =
 >
 {
@@ -127,7 +125,6 @@ true
 isWarning
 :
 (
-(
 aMsg
 .
 flags
@@ -142,10 +139,8 @@ warningFlag
 =
 =
 1
-)
 isException
 :
-(
 (
 aMsg
 .
@@ -161,10 +156,8 @@ exceptionFlag
 =
 =
 1
-)
 isStrict
 :
-(
 (
 aMsg
 .
@@ -180,7 +173,6 @@ strictFlag
 =
 =
 1
-)
 }
 ;
 sendAsyncMessage
@@ -193,6 +185,7 @@ msg
 ;
 }
 }
+;
 addMessageListener
 (
 "

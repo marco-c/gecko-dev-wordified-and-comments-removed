@@ -38,9 +38,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -78,9 +76,7 @@ url
 kTestURI
 }
 async
-(
 browser
-)
 =
 >
 {
@@ -161,13 +157,13 @@ loadInfo
 loadingPrincipal
 .
 isSystemPrincipal
-'
+"
 LoadingPrincipal
 for
 iframe
 is
 SystemPrincipal
-'
+"
 )
 ;
 }

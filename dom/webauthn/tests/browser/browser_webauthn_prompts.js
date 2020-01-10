@@ -192,9 +192,7 @@ is
 object
 "
 typeof
-(
 attStmt
-)
 "
 attStmt
 is
@@ -271,9 +269,7 @@ is
 object
 "
 typeof
-(
 attStmt
-)
 "
 attStmt
 is
@@ -604,9 +600,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -715,9 +709,11 @@ then
 )
 =
 >
+(
 active
 =
 false
+)
 )
 ;
 await
@@ -819,9 +815,11 @@ then
 )
 =
 >
+(
 active
 =
 false
+)
 )
 ;
 await
@@ -926,9 +924,11 @@ then
 )
 =
 >
+(
 active
 =
 false
+)
 )
 ;
 await
@@ -997,9 +997,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1045,6 +1043,7 @@ false
 ]
 }
 )
+;
 }
 )
 ;

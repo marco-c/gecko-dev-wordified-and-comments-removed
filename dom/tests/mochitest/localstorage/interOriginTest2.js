@@ -99,8 +99,10 @@ if
 -
 frameLoadsPending
 )
+{
 break
 ;
+}
 case
 "
 perf
@@ -110,6 +112,7 @@ if
 (
 callMasterFrame
 )
+{
 masterFrame
 .
 postMessage
@@ -120,7 +123,9 @@ step
 masterFrameOrigin
 )
 ;
+}
 else
+{
 slaveFrame
 .
 postMessage
@@ -131,6 +136,7 @@ step
 slaveFrameOrigin
 )
 ;
+}
 callMasterFrame
 =
 !
@@ -147,8 +153,10 @@ if
 (
 testDone
 )
+{
 break
 ;
+}
 testDone
 =
 true

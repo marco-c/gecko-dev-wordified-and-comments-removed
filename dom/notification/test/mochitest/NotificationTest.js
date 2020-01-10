@@ -581,10 +581,8 @@ fakeCustomData
 .
 primitives
 )
-)
 &
 &
-(
 dataObj
 .
 date
@@ -602,10 +600,8 @@ date
 toDateString
 (
 )
-)
 &
 &
-(
 dataObj
 .
 regexp
@@ -628,10 +624,8 @@ substr
 "
 www
 "
-)
 &
 &
-(
 new
 Int16Array
 (
@@ -646,10 +640,8 @@ arrayBuffer
 =
 =
 42
-)
 &
 &
-(
 JSON
 .
 stringify
@@ -673,10 +665,8 @@ imageData
 .
 data
 )
-)
 &
 &
-(
 dataObj
 .
 map
@@ -690,7 +680,6 @@ test
 =
 =
 42
-)
 &
 &
 (
@@ -711,6 +700,7 @@ set
 has
 (
 2
+)
 )
 )
 ;

@@ -54,9 +54,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 setTimeout
@@ -80,9 +78,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

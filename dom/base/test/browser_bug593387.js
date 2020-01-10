@@ -12,9 +12,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -127,9 +125,7 @@ promise
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -303,9 +299,7 @@ promise
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

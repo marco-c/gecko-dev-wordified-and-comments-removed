@@ -261,7 +261,6 @@ this
 .
 ctime
 =
-(
 typeof
 props
 .
@@ -272,7 +271,6 @@ ctime
 "
 number
 "
-)
 ?
 props
 .
@@ -1145,6 +1143,7 @@ hasAuthenticationSecret
 )
 {
 return
+(
 !
 !
 this
@@ -1160,6 +1159,7 @@ byteLength
 =
 =
 16
+)
 ;
 }
 matchesAppServerKey
@@ -1191,6 +1191,7 @@ false
 ;
 }
 return
+(
 this
 .
 appServerKey
@@ -1224,6 +1225,7 @@ key
 [
 index
 ]
+)
 )
 ;
 }

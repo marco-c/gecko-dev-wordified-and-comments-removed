@@ -96,6 +96,7 @@ Promise
 resolve
 =
 >
+(
 onHello
 =
 after
@@ -146,6 +147,7 @@ resolve
 )
 ;
 }
+)
 )
 )
 ;

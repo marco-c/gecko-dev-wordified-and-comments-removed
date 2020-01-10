@@ -31,9 +31,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -200,6 +198,7 @@ view
 image
 "
 )
+;
 }
 )
 ;

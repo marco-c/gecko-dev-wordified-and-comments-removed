@@ -41,12 +41,12 @@ WM_COMMAND
 const
 BM_GETCHECK
 =
-0x00F0
+0x00f0
 ;
 const
 BM_SETCHECK
 =
-0x00F1
+0x00f1
 ;
 const
 BN_CLICKED

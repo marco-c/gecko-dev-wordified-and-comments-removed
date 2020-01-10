@@ -13,9 +13,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 aPrefs
 }
@@ -39,9 +37,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

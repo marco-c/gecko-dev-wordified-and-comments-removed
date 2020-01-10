@@ -541,9 +541,7 @@ broadcast
 test
 "
 {
-"
 phase
-"
 :
 broadcastService
 .
@@ -975,9 +973,7 @@ broadcast
 test
 "
 {
-"
 phase
-"
 :
 broadcastService
 .
@@ -1325,9 +1321,7 @@ const
 fakeListenersData
 =
 {
-"
 abc
-"
 :
 {
 version
@@ -1364,9 +1358,7 @@ getAbc
 "
 }
 }
-"
 def
-"
 :
 {
 version
@@ -1482,9 +1474,7 @@ deepEqual
 (
 listeners
 {
-"
 abc
-"
 :
 "
 2018
@@ -1493,9 +1483,7 @@ abc
 -
 04
 "
-"
 def
-"
 :
 "
 2018
@@ -1658,9 +1646,7 @@ getListeners
 (
 )
 {
-"
 abc
-"
 :
 "
 2018
@@ -1669,9 +1655,7 @@ abc
 -
 04
 "
-"
 def
-"
 :
 "
 2018
@@ -1680,9 +1664,7 @@ def
 -
 05
 "
-"
 ghi
-"
 :
 "
 2018

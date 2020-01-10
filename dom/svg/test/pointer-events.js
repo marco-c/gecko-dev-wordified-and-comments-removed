@@ -305,9 +305,7 @@ iff
 "
 :
 {
-"
 visibility
-"
 :
 [
 "
@@ -334,9 +332,7 @@ iff
 "
 :
 {
-"
 visibility
-"
 :
 [
 "
@@ -367,9 +363,7 @@ iff
 "
 :
 {
-"
 visibility
-"
 :
 [
 "
@@ -396,9 +390,7 @@ iff
 "
 :
 {
-"
 visibility
-"
 :
 [
 "
@@ -761,6 +753,8 @@ true
 }
 return
 (
+(
+(
 over
 &
 POINT_OVER_FILL
@@ -776,8 +770,10 @@ expect_hit
 fill
 "
 )
+)
 |
 |
+(
 (
 over
 &
@@ -793,6 +789,8 @@ expect_hit
 "
 stroke
 "
+)
+)
 )
 ;
 }

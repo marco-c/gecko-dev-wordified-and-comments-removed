@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 function
 ok
 (
@@ -18,9 +19,9 @@ stringify
 {
 type
 :
-'
+"
 status
-'
+"
 what
 :
 !
@@ -67,9 +68,9 @@ stringify
 {
 type
 :
-'
+"
 finish
-'
+"
 }
 )
 )

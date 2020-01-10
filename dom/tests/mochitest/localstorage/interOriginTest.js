@@ -78,8 +78,10 @@ if
 -
 slaveLoadsPending
 )
+{
 break
 ;
+}
 case
 "
 perf
@@ -96,10 +98,12 @@ data
 perf
 "
 )
+{
 doStep
 (
 )
 ;
+}
 slave
 .
 postMessage

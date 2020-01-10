@@ -232,9 +232,7 @@ test_mixed_content_image
 html
 "
 async
-(
 browser
-)
 =
 >
 {
@@ -449,9 +447,7 @@ new
 Promise
 (
 async
-(
 resolve
-)
 =
 >
 {

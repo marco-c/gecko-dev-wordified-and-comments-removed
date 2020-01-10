@@ -360,9 +360,7 @@ api
 call
 "
 {
-"
 msg_name
-"
 :
 "
 hello

@@ -6,8 +6,8 @@ foobar
 ;
 postMessage
 (
-'
+"
 done
-'
+"
 )
 ;

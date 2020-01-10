@@ -3170,9 +3170,7 @@ _warnDeprecatedStatsRemoteAccessNullable
 {
 warn
 :
-(
 key
-)
 =
 >
 this
@@ -3640,7 +3638,6 @@ func
 )
 {
 return
-(
 typeof
 onSucc
 =
@@ -3648,7 +3645,6 @@ onSucc
 "
 function
 "
-)
 ?
 this
 .
@@ -5057,6 +5053,7 @@ transceiver
 {
 return
 (
+(
 options
 .
 offerToReceiveVideo
@@ -5103,6 +5100,7 @@ kind
 "
 audio
 "
+)
 )
 ;
 }
@@ -7069,6 +7067,7 @@ transceiver
 >
 {
 return
+(
 transceiver
 .
 sender
@@ -7102,6 +7101,7 @@ transceiver
 .
 hasBeenUsedToSend
 (
+)
 )
 ;
 }
@@ -7363,9 +7363,7 @@ kind
 if
 (
 typeof
-(
 sendTrackOrKind
-)
 =
 =
 "
@@ -11285,7 +11283,6 @@ if
 withTrack
 &
 &
-(
 withTrack
 .
 kind
@@ -11297,7 +11294,6 @@ _transceiver
 .
 getKind
 (
-)
 )
 )
 {
@@ -12050,11 +12046,13 @@ then
 )
 =
 >
+(
 this
 .
 _rtpSourcesJsTimestamp
 =
 null
+)
 )
 ;
 let
@@ -12194,7 +12192,6 @@ values
 {
 if
 (
-(
 entry
 .
 timestamp
@@ -12202,7 +12199,6 @@ timestamp
 entry
 .
 sourceClockOffset
-)
 <
 cutoffTime
 )
@@ -12279,13 +12275,12 @@ values
 .
 filter
 (
-(
 entry
-)
 =
 >
 {
 return
+(
 entry
 .
 sourceType
@@ -12294,7 +12289,6 @@ sourceType
 type
 &
 &
-(
 entry
 .
 timestamp
@@ -12302,10 +12296,10 @@ timestamp
 entry
 .
 sourceClockOffset
-)
 >
 =
 cutoffTime
+)
 ;
 }
 )
@@ -12591,14 +12585,12 @@ _streams
 let
 needsTrackEvent
 =
-(
 streamsAdded
 .
 length
 !
 =
 0
-)
 ;
 if
 (
@@ -13227,10 +13219,12 @@ interToneGap
 <
 30
 )
+{
 interToneGap
 =
 30
 ;
+}
 tones
 =
 tones

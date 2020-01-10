@@ -172,6 +172,7 @@ worker
 .
 "
 )
+;
 ok
 (
 imageData

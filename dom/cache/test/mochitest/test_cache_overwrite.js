@@ -251,9 +251,7 @@ requestURL
 headers
 :
 {
-"
 Mirror
-"
 :
 "
 bar
@@ -357,9 +355,7 @@ requestURL
 headers
 :
 {
-"
 Mirror
-"
 :
 "
 foo
@@ -391,9 +387,7 @@ requestURL
 headers
 :
 {
-"
 Mirror
-"
 :
 "
 bar

@@ -36,6 +36,7 @@ WebAssembly
 Module
 )
 )
+{
 throw
 "
 not
@@ -43,6 +44,7 @@ a
 module
 "
 ;
+}
 var
 i
 =
@@ -65,6 +67,7 @@ WebAssembly
 Instance
 )
 )
+{
 throw
 "
 not
@@ -72,6 +75,7 @@ an
 instance
 "
 ;
+}
 if
 (
 i
@@ -87,12 +91,14 @@ sampleExportName
 =
 sampleResult
 )
+{
 throw
 "
 wrong
 result
 "
 ;
+}
 }
 function
 checkSampleInstance
@@ -111,6 +117,7 @@ WebAssembly
 Instance
 )
 )
+{
 throw
 "
 not
@@ -118,6 +125,7 @@ an
 instance
 "
 ;
+}
 if
 (
 i
@@ -133,12 +141,14 @@ sampleExportName
 =
 sampleResult
 )
+{
 throw
 "
 wrong
 result
 "
 ;
+}
 }
 const
 initObj

@@ -98,8 +98,10 @@ QueryInterface
 =
 undefined
 )
+{
 return
 ;
+}
 var
 message
 =
@@ -118,7 +120,7 @@ if
 topic
 =
 =
-'
+"
 http
 -
 on
@@ -126,7 +128,7 @@ on
 opening
 -
 request
-'
+"
 )
 {
 var
@@ -153,8 +155,10 @@ asciiSpec
 =
 reportURI
 )
+{
 return
 ;
+}
 var
 reportText
 =
@@ -291,13 +295,13 @@ toString
 }
 sendAsyncMessage
 (
-'
+"
 opening
 -
 request
 -
 completed
-'
+"
 message
 )
 ;
@@ -312,7 +316,7 @@ obs
 addObserver
 (
 openingObserver
-'
+"
 http
 -
 on
@@ -320,7 +324,7 @@ on
 opening
 -
 request
-'
+"
 )
 ;
 addMessageListener
@@ -339,7 +343,7 @@ obs
 removeObserver
 (
 openingObserver
-'
+"
 http
 -
 on
@@ -347,7 +351,7 @@ on
 opening
 -
 request
-'
+"
 )
 ;
 }

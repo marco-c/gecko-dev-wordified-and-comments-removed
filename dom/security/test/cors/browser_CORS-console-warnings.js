@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 function
 console_observer
@@ -30,7 +30,6 @@ message
 )
 ;
 }
-;
 var
 webconsole
 =
@@ -80,14 +79,14 @@ text
 .
 match
 (
-'
+"
 Cross
 -
 Origin
 Request
 Blocked
 :
-'
+"
 )
 )
 {

@@ -1,10 +1,10 @@
 importScripts
 (
-'
+"
 utils_bug743615
 .
 js
-'
+"
 )
 ;
 self
@@ -44,18 +44,18 @@ imageData
 pattern
 )
 ?
-'
+"
 PASS
-'
+"
 :
-'
+"
 Got
 corrupt
 typed
 array
 in
 worker
-'
+"
 ;
 if
 (
@@ -66,6 +66,7 @@ instanceof
 ImageData
 )
 )
+{
 statusMessage
 +
 =
@@ -77,6 +78,7 @@ in
 worker
 "
 ;
+}
 if
 (
 imageData
@@ -108,6 +110,7 @@ in
 worker
 :
 "
+;
 statusMessage
 +
 =
@@ -122,8 +125,8 @@ height
 .
 join
 (
-'
-'
+"
+"
 )
 ;
 }
@@ -184,6 +187,7 @@ data
 =
 origData
 )
+{
 statusMessage
 =
 statusMessage
@@ -195,6 +199,7 @@ ignore
 sets
 "
 ;
+}
 pattern
 =
 makePattern
@@ -232,3 +237,4 @@ pattern
 )
 ;
 }
+;

@@ -216,6 +216,7 @@ record
 )
 {
 return
+(
 record
 &
 &
@@ -261,6 +262,7 @@ _keyPath
 "
 string
 "
+)
 ;
 }
 upgradeSchema

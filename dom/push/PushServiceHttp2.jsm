@@ -1696,7 +1696,6 @@ parse
 retryField
 )
 -
-(
 new
 Date
 (
@@ -1704,7 +1703,6 @@ Date
 .
 getTime
 (
-)
 )
 ;
 }
@@ -1723,11 +1721,9 @@ retryField
 }
 retryAfter
 =
-(
 retryAfter
 >
 0
-)
 ?
 retryAfter
 :
@@ -1764,13 +1760,11 @@ split
 ;
 if
 (
-(
 linkList
 .
 length
 <
 1
-)
 )
 {
 throw
@@ -2043,9 +2037,7 @@ pushURI
 spec
 pushReceiptEndpoint
 :
-(
 pushReceiptURI
-)
 ?
 pushReceiptURI
 .
@@ -2877,7 +2869,6 @@ reset_retry_count_after_ms
 ;
 if
 (
-(
 Date
 .
 now
@@ -2892,7 +2883,6 @@ aSubscriptionUri
 ]
 .
 lastStartListening
-)
 >
 resetRetryCount
 )
@@ -3594,9 +3584,7 @@ _listenersPendingRetry
 .
 forEach
 (
-(
 listener
-)
 =
 >
 listener

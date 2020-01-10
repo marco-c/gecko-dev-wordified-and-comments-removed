@@ -64,7 +64,6 @@ resizeTo
 ;
 \
 <
-\
 /
 script
 >
@@ -104,7 +103,6 @@ resizeBy
 ;
 \
 <
-\
 /
 script
 >

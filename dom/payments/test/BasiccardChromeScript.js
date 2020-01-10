@@ -904,9 +904,7 @@ completePayment
 completePaymentResponse
 updatePayment
 :
-(
 requestId
-)
 =
 >
 {
@@ -1003,9 +1001,7 @@ nsIPaymentActionResponse
 }
 closePayment
 :
-(
 requestId
-)
 =
 >
 {

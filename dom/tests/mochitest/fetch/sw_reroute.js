@@ -76,9 +76,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -181,9 +179,9 @@ waitForState
 swr
 .
 installing
-'
+"
 activated
-'
+"
 swr
 )
 )

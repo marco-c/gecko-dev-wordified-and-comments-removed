@@ -7,9 +7,9 @@ e
 {
 postMessage
 (
-'
+"
 worker
-'
+"
 )
 ;
 }

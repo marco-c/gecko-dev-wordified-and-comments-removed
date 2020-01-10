@@ -96,9 +96,7 @@ value
 const
 type
 =
-(
 isArray
-)
 ?
 "
 array

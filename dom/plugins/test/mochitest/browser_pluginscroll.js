@@ -100,7 +100,6 @@ targetWindow
 mozInnerScreenX
 +
 (
-(
 rect
 .
 left
@@ -109,14 +108,12 @@ aX
 )
 *
 scale
-)
 y
 :
 targetWindow
 .
 mozInnerScreenY
 +
-(
 (
 rect
 .
@@ -126,7 +123,6 @@ aY
 )
 *
 scale
-)
 }
 ;
 }
@@ -221,9 +217,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

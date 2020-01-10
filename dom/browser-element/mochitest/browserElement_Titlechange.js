@@ -147,8 +147,10 @@ detail
 "
 "
 )
+{
 return
 ;
+}
 numTitleChanges
 +
 +

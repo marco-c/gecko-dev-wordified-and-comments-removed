@@ -100,7 +100,6 @@ aTargetTag
 )
 ;
 return
-(
 elemList
 .
 length
@@ -114,7 +113,6 @@ elemList
 [
 0
 ]
-)
 ;
 }
 getComputedStyleSimple
@@ -627,8 +625,8 @@ px
 s
 *
 /
-'
-'
+"
+"
 )
 }
 ;
@@ -1132,6 +1130,7 @@ _dur
 ;
 }
 }
+;
 function
 Attribute
 (
@@ -1873,6 +1872,7 @@ aBaseVal
 aTimeData
 aIsFreeze
 )
+;
 }
 seekAndTest
 :
@@ -1928,21 +1928,21 @@ entry
 if
 (
 [
-'
+"
 stroke
 -
 width
-'
-'
+"
+"
 stroke
 -
 dasharray
-'
-'
+"
+"
 stroke
 -
 dashoffset
-'
+"
 ]
 .
 includes
@@ -2093,6 +2093,7 @@ this
 .
 from
 )
+;
 return
 animElem
 ;
@@ -2534,6 +2535,7 @@ seekList
 ;
 }
 }
+;
 extend
 (
 AnimTestcaseFrom
@@ -2625,11 +2627,13 @@ this
 .
 to
 )
+;
 return
 animElem
 ;
 }
 }
+;
 extend
 (
 AnimTestcaseFromTo
@@ -2754,6 +2758,7 @@ this
 .
 by
 )
+;
 return
 animElem
 ;
@@ -2817,6 +2822,7 @@ aIsFreeze
 ;
 }
 }
+;
 extend
 (
 AnimTestcaseFromBy
@@ -2962,6 +2968,7 @@ this
 .
 valuesString
 )
+;
 animElem
 .
 setAttribute

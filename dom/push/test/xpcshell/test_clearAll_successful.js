@@ -50,12 +50,14 @@ Promise
 r
 =
 >
+(
 unregisterDefers
 [
 keyID
 ]
 =
 r
+)
 )
 ;
 }
@@ -228,9 +230,11 @@ Promise
 r
 =
 >
+(
 handshakeDone
 =
 r
+)
 )
 ;
 PushService

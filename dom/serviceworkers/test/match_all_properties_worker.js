@@ -40,6 +40,7 @@ return
 ;
 }
 }
+;
 onmessage
 =
 function
@@ -175,3 +176,4 @@ response
 )
 ;
 }
+;

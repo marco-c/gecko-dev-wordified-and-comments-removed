@@ -143,7 +143,6 @@ test2
 )
 {
 return
-(
 ChromeUtils
 .
 getClassName
@@ -164,7 +163,6 @@ root
 "
 XMLDocument
 "
-)
 ;
 }
 function

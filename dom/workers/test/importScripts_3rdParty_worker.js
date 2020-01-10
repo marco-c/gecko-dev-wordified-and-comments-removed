@@ -1,7 +1,7 @@
 const
 workerURL
 =
-'
+"
 http
 :
 /
@@ -23,7 +23,7 @@ test
 importScripts_3rdParty_worker
 .
 js
-'
+"
 ;
 onmessage
 =
@@ -67,6 +67,7 @@ data
 )
 ;
 }
+;
 worker
 .
 onerror
@@ -102,6 +103,7 @@ workerURL
 )
 ;
 }
+;
 a
 .
 data
@@ -157,11 +159,11 @@ crossOriginURL
 .
 host
 =
-'
+"
 example
 .
 com
-'
+"
 ;
 crossOriginURL
 .
@@ -183,9 +185,9 @@ data
 test
 =
 =
-'
+"
 none
-'
+"
 )
 {
 importScripts
@@ -277,9 +279,9 @@ data
 test
 =
 =
-'
+"
 try
-'
+"
 )
 {
 var
@@ -355,9 +357,9 @@ data
 test
 =
 =
-'
+"
 eventListener
-'
+"
 )
 {
 addEventListener
@@ -408,9 +410,9 @@ data
 test
 =
 =
-'
+"
 onerror
-'
+"
 )
 {
 onerror
@@ -439,6 +441,7 @@ workerURL
 )
 ;
 }
+;
 }
 importScripts
 (
@@ -448,3 +451,4 @@ href
 )
 ;
 }
+;

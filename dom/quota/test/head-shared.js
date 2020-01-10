@@ -84,6 +84,7 @@ random
 *
 255
 )
+;
 }
 return
 buffer

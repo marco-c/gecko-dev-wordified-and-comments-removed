@@ -296,7 +296,6 @@ NS_ERROR_FAILURE
 let
 serverSocketPort
 =
-(
 typeof
 aPort
 !
@@ -312,7 +311,6 @@ aPort
 =
 =
 0
-)
 ?
 aPort
 :
@@ -2352,7 +2350,6 @@ this
 .
 _stateMachine
 =
-(
 direction
 =
 =
@@ -2360,7 +2357,6 @@ direction
 "
 sender
 "
-)
 ?
 new
 ControllerStateMachine

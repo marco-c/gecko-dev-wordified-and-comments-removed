@@ -3,9 +3,9 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 File
-'
+"
 ]
 )
 ;
@@ -28,6 +28,7 @@ files
 =
 [
 ]
+;
 let
 promises
 =

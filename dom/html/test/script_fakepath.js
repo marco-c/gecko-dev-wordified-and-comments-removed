@@ -55,9 +55,9 @@ nsIProperties
 .
 get
 (
-'
+"
 ProfD
-'
+"
 Ci
 .
 nsIFile
@@ -67,11 +67,11 @@ tmpFile
 .
 append
 (
-'
+"
 prefs
 .
 js
-'
+"
 )
 ;
 File

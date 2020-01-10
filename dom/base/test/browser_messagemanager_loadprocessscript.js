@@ -405,9 +405,7 @@ resolve
 let
 listener
 =
-(
 msg
-)
 =
 >
 {
@@ -436,6 +434,7 @@ listener
 ;
 }
 )
+;
 }
 add_task
 (
@@ -450,9 +449,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -473,6 +470,7 @@ false
 ;
 }
 )
+;
 add_task
 (
 async
@@ -485,8 +483,10 @@ if
 !
 gMultiProcessBrowser
 )
+{
 return
 ;
+}
 Services
 .
 ppmm
@@ -501,9 +501,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -519,15 +517,14 @@ processCount
 ]
 }
 )
+;
 await
 SpecialPowers
 .
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -545,6 +542,7 @@ web
 ]
 }
 )
+;
 let
 tabs
 =
@@ -657,6 +655,7 @@ point
 ;
 }
 )
+;
 add_task
 (
 async
@@ -689,6 +688,7 @@ i
 +
 +
 )
+{
 checks
 .
 push
@@ -706,6 +706,7 @@ i
 )
 )
 ;
+}
 Services
 .
 ppmm
@@ -739,8 +740,10 @@ if
 !
 gMultiProcessBrowser
 )
+{
 return
 ;
+}
 checkBaseProcessCount
 (
 "

@@ -288,9 +288,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -878,6 +876,7 @@ next
 )
 ;
 }
+;
 }
 function
 finishTest
@@ -982,9 +981,7 @@ _thing_
 if
 (
 typeof
-(
 _thing_
-)
 =
 =
 "
@@ -1022,9 +1019,7 @@ return
 "
 +
 typeof
-(
 _thing_
-)
 +
 "
 ]
@@ -1034,9 +1029,7 @@ _thing_
 if
 (
 typeof
-(
 _thing_
-)
 =
 =
 "
@@ -1157,12 +1150,10 @@ _name_
 let
 pass
 =
-(
 _a_
 =
 =
 _b_
-)
 ;
 let
 diag
@@ -1213,12 +1204,10 @@ _name_
 let
 pass
 =
-(
 _a_
 !
 =
 _b_
-)
 ;
 let
 diag
@@ -1482,6 +1471,7 @@ clearAllDatabases
 )
 ;
 }
+;
 self
 .
 onerror

@@ -46,6 +46,7 @@ msg
 )
 ;
 }
+;
 assert_equals
 =
 function

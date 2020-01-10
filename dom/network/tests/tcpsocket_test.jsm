@@ -2,15 +2,15 @@ var
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 createSocket
-'
-'
+"
+"
 createServer
-'
-'
+"
+"
 socketCompartmentInstanceOfArrayBuffer
-'
+"
 ]
 ;
 var
@@ -33,6 +33,7 @@ options
 )
 ;
 }
+;
 var
 createServer
 =
@@ -53,6 +54,7 @@ backlog
 )
 ;
 }
+;
 var
 socketCompartmentInstanceOfArrayBuffer
 =
@@ -67,3 +69,4 @@ instanceof
 ArrayBuffer
 ;
 }
+;

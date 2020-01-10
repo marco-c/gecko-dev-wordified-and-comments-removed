@@ -14,13 +14,11 @@ testSteps
 const
 dbName
 =
-(
 "
 window
 "
 in
 this
-)
 ?
 window
 .

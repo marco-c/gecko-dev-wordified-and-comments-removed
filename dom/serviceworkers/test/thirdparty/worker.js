@@ -2,10 +2,10 @@ self
 .
 postMessage
 (
-'
+"
 worker
 -
 networkresponse
-'
+"
 )
 ;

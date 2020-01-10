@@ -26,9 +26,11 @@ x
 =
 0
 )
+{
 return
 y
 ;
+}
 return
 func3
 (

@@ -35,6 +35,7 @@ html
 /
 >
 "
+;
 let
 eventPromise
 =
@@ -86,9 +87,7 @@ defer
 let
 listener
 =
-(
 event
-)
 =
 >
 {

@@ -184,23 +184,17 @@ var
 eventDependencies
 =
 {
-"
 speechend
-"
 :
 "
 speechstart
 "
-"
 soundend
-"
 :
 "
 soundstart
 "
-"
 audioend
-"
 :
 "
 audiostart
@@ -501,7 +495,9 @@ doneFunc
 ;
 }
 }
+;
 }
+;
 self
 .
 start
@@ -607,6 +603,7 @@ stream
 )
 ;
 }
+;
 self
 .
 requestFSMEvent
@@ -674,6 +671,7 @@ eventName
 )
 ;
 }
+;
 self
 .
 requestTestEnd
@@ -694,6 +692,7 @@ SPEECH_RECOGNITION_TEST_END_TOPIC
 )
 ;
 }
+;
 }
 function
 buildResultCallback
@@ -702,7 +701,6 @@ transcript
 )
 {
 return
-(
 function
 (
 evt
@@ -730,7 +728,6 @@ transcript
 )
 ;
 }
-)
 ;
 }
 function
@@ -740,7 +737,6 @@ errcode
 )
 {
 return
-(
 function
 (
 err
@@ -761,7 +757,6 @@ code
 )
 ;
 }
-)
 ;
 }
 function
@@ -895,6 +890,7 @@ doneFunc
 ;
 }
 }
+;
 em
 .
 audioSampleFile

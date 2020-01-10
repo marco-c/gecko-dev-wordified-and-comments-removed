@@ -35,6 +35,7 @@ meta
 )
 {
 return
+(
 '
 data
 :
@@ -85,6 +86,7 @@ body
 html
 >
 "
+)
 ;
 }
 function
@@ -95,6 +97,7 @@ lang
 )
 {
 return
+(
 '
 data
 :
@@ -154,6 +157,7 @@ body
 html
 >
 "
+)
 ;
 }
 function
@@ -198,6 +202,7 @@ lang
 )
 {
 return
+(
 '
 <
 meta
@@ -230,6 +235,7 @@ lang
 "
 >
 '
+)
 ;
 }
 function

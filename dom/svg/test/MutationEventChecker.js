@@ -193,6 +193,7 @@ length
 0
 |
 |
+(
 arguments
 .
 length
@@ -209,6 +210,7 @@ arguments
 =
 "
 "
+)
 )
 {
 return
@@ -886,11 +888,9 @@ attribute
 ok
 (
 typeof
-(
 e
 .
 newValue
-)
 =
 =
 "
@@ -1130,9 +1130,11 @@ arg
 number
 "
 )
+{
 return
 arg
 ;
+}
 if
 (
 typeof

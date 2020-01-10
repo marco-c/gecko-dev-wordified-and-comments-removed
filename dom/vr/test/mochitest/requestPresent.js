@@ -7,11 +7,9 @@ test
 assert_equals
 (
 typeof
-(
 navigator
 .
 getVRDisplays
-)
 "
 function
 "
@@ -47,11 +45,9 @@ test
 assert_equals
 (
 typeof
-(
 navigator
 .
 getVRDisplays
-)
 "
 function
 "
@@ -96,9 +92,7 @@ getVRDisplays
 .
 then
 (
-(
 displays
-)
 =
 >
 {

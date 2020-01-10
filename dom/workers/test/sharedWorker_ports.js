@@ -100,7 +100,6 @@ status
 "
 test
 :
-(
 evtFromPort
 .
 ports
@@ -109,7 +108,6 @@ length
 =
 =
 1
-)
 msg
 :
 "
@@ -146,7 +144,6 @@ status
 "
 test
 :
-(
 evtFromPort2
 .
 data
@@ -157,7 +154,6 @@ type
 "
 connected
 "
-)
 msg
 :
 "
@@ -187,6 +183,9 @@ close
 )
 ;
 }
+;
+}
+;
 }
 }
-}
+;

@@ -14,13 +14,11 @@ testSteps
 const
 databaseName
 =
-(
 "
 window
 "
 in
 this
-)
 ?
 window
 .
@@ -529,11 +527,9 @@ if
 thisIndex
 =
 =
-(
 databaseCount
 -
 1
-)
 )
 {
 info

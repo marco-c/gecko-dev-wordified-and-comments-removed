@@ -41,6 +41,7 @@ e
 [
 prop
 ]
+;
 }
 obj
 .
@@ -86,6 +87,7 @@ type
 callback
 "
 }
+;
 postMessage
 (
 obj
@@ -95,6 +97,7 @@ return
 false
 ;
 }
+;
 throw
 new
 Error

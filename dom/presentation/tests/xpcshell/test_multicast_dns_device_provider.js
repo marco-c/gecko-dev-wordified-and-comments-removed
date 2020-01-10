@@ -353,11 +353,9 @@ NS_ERROR_NO_AGGREGATION
 switch
 (
 typeof
-(
 this
 .
 _cls
-)
 )
 {
 case

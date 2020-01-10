@@ -220,11 +220,9 @@ try
 {
 if
 (
-(
 URLSearchParams
 instanceof
 Object
-)
 )
 {
 status

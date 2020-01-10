@@ -73,9 +73,7 @@ let
 listener
 =
 async
-(
 event
-)
 =
 >
 {

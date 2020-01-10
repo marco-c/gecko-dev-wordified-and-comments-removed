@@ -5,6 +5,7 @@ win
 )
 {
 return
+(
 win
 .
 innerWidth
@@ -27,6 +28,7 @@ win
 screen
 .
 height
+)
 ;
 }
 function
@@ -36,6 +38,7 @@ win
 )
 {
 return
+(
 win
 .
 innerWidth
@@ -58,6 +61,7 @@ win
 normalSize
 .
 h
+)
 ;
 }
 function
@@ -301,9 +305,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -372,6 +374,7 @@ listener
 ;
 }
 )
+;
 }
 function
 waitForLoadAndPaint
@@ -400,9 +403,9 @@ document
 readyState
 =
 =
-'
+"
 complete
-'
+"
 )
 {
 callback

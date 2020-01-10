@@ -57,6 +57,7 @@ doStep
 (
 )
 )
+{
 postMsg
 (
 "
@@ -64,6 +65,7 @@ perf
 "
 )
 ;
+}
 return
 ;
 }
@@ -88,6 +90,7 @@ if
 !
 a
 )
+{
 postMsg
 (
 "
@@ -98,12 +101,15 @@ FAILURE
 message
 )
 ;
+}
 else
+{
 postMsg
 (
 message
 )
 ;
+}
 }
 function
 is
@@ -120,6 +126,7 @@ a
 =
 b
 )
+{
 postMsg
 (
 "
@@ -142,7 +149,9 @@ got
 a
 )
 ;
+}
 else
+{
 postMsg
 (
 message
@@ -160,6 +169,7 @@ got
 a
 )
 ;
+}
 }
 function
 finishTest

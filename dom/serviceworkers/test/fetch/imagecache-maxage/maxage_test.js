@@ -138,9 +138,7 @@ image
 /
 png
 "
-"
 Date
-"
 :
 "
 Tue

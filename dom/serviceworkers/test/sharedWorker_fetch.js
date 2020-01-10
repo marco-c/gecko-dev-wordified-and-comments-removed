@@ -59,6 +59,7 @@ message
 ;
 }
 }
+;
 onconnect
 =
 function
@@ -151,9 +152,7 @@ SharedWorker_SRIFailed
 html
 "
 {
-"
 integrity
-"
 :
 "
 abc
@@ -174,9 +173,9 @@ clients
 .
 postMessage
 (
-'
+"
 SRI_failed
-'
+"
 )
 ;
 }
@@ -184,5 +183,7 @@ SRI_failed
 ;
 }
 }
+;
 }
 }
+;

@@ -16,14 +16,14 @@ a
 .
 open
 (
-'
+"
 GET
-'
-'
+"
+"
 empty
 .
 html
-'
+"
 false
 )
 ;
@@ -54,6 +54,7 @@ response
 ;
 }
 }
+;
 a
 .
 send
@@ -62,3 +63,4 @@ null
 )
 ;
 }
+;

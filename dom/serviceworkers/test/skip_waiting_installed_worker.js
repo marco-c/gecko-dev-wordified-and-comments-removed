@@ -2,9 +2,9 @@ self
 .
 addEventListener
 (
-'
+"
 install
-'
+"
 evt
 =
 >

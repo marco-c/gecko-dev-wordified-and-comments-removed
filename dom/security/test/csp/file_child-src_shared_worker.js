@@ -19,9 +19,9 @@ port
 .
 addEventListener
 (
-'
+"
 message
-'
+"
 function
 (
 e
@@ -31,9 +31,9 @@ port
 .
 postMessage
 (
-'
+"
 success
-'
+"
 )
 ;
 }
@@ -46,3 +46,4 @@ start
 )
 ;
 }
+;

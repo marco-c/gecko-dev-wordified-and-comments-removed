@@ -2,9 +2,9 @@ var
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 checkFromJSM
-'
+"
 ]
 ;
 function

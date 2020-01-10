@@ -786,6 +786,7 @@ key
 ;
 }
 return
+(
 this
 .
 _pendingRegisterRequest
@@ -798,6 +799,7 @@ this
 _registerWithServer
 (
 aPageRecord
+)
 )
 ;
 }
@@ -2538,9 +2540,7 @@ _updateQuotaTimeouts
 .
 forEach
 (
-(
 timeoutID
-)
 =
 >
 clearTimeout

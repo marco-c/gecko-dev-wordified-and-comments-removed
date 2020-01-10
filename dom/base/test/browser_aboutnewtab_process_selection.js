@@ -59,9 +59,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -182,8 +180,10 @@ if
 !
 gMultiProcessBrowser
 )
+{
 return
 ;
+}
 ppmm
 .
 releaseCachedProcesses
@@ -241,6 +241,7 @@ process
 .
 "
 )
+;
 BrowserOpenTab
 (
 )
@@ -280,6 +281,7 @@ process
 .
 "
 )
+;
 BrowserTestUtils
 .
 loadURI
@@ -330,6 +332,7 @@ process
 .
 "
 )
+;
 await
 BrowserTestUtils
 .
@@ -431,6 +434,7 @@ process
 .
 "
 )
+;
 BrowserTestUtils
 .
 removeTab

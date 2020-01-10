@@ -32,6 +32,7 @@ example
 com
 "
 )
+;
 const
 kTestURI
 =

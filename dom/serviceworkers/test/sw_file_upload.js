@@ -6,9 +6,9 @@ skipWaiting
 ;
 addEventListener
 (
-'
+"
 fetch
-'
+"
 event
 =
 >
@@ -30,9 +30,9 @@ request
 ;
 addEventListener
 (
-'
+"
 message
-'
+"
 function
 (
 event
@@ -46,9 +46,9 @@ data
 =
 =
 =
-'
+"
 claim
-'
+"
 )
 {
 event

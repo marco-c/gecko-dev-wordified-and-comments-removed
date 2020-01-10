@@ -356,9 +356,9 @@ document
 .
 createElement
 (
-'
+"
 img
-'
+"
 )
 ;
 img
@@ -892,9 +892,11 @@ Ci
 imgIScriptedNotificationObserver
 )
 )
+{
 return
 this
 ;
+}
 throw
 Cr
 .

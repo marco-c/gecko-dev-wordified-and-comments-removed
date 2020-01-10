@@ -564,9 +564,7 @@ new
 Promise
 (
 async
-(
 resolve
-)
 =
 >
 {

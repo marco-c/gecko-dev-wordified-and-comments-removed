@@ -848,6 +848,7 @@ i
 =
 j
 )
+{
 check_eq_nodes
 (
 nodes
@@ -860,7 +861,9 @@ j
 ]
 )
 ;
+}
 else
+{
 check_neq_nodes
 (
 nodes
@@ -873,6 +876,7 @@ j
 ]
 )
 ;
+}
 }
 }
 }
@@ -1034,6 +1038,7 @@ hasChildNodes
 (
 )
 )
+{
 node1
 .
 removeChild
@@ -1048,6 +1053,7 @@ item
 )
 )
 ;
+}
 while
 (
 node2
@@ -1056,6 +1062,7 @@ hasChildNodes
 (
 )
 )
+{
 node2
 .
 removeChild
@@ -1070,6 +1077,7 @@ item
 )
 )
 ;
+}
 var
 at1
 =
@@ -2246,19 +2254,23 @@ if
 (
 areEqual
 )
+{
 check_eq_nodes
 (
 kid1
 kid2
 )
 ;
+}
 else
+{
 check_neq_nodes
 (
 kid1
 kid2
 )
 ;
+}
 }
 function
 check_eq_nodes
@@ -2280,6 +2292,7 @@ isEqualNode
 n2
 )
 )
+{
 do_throw
 (
 n1
@@ -2294,6 +2307,7 @@ to
 n2
 )
 ;
+}
 if
 (
 n2
@@ -2307,6 +2321,7 @@ isEqualNode
 n1
 )
 )
+{
 do_throw
 (
 n2
@@ -2321,6 +2336,7 @@ to
 n1
 )
 ;
+}
 if
 (
 !
@@ -2330,6 +2346,7 @@ n1
 !
 n2
 )
+{
 do_throw
 (
 "
@@ -2341,6 +2358,7 @@ null
 )
 ;
 }
+}
 function
 check_neq_nodes
 (
@@ -2360,6 +2378,7 @@ isEqualNode
 n2
 )
 )
+{
 do_throw
 (
 n1
@@ -2375,6 +2394,7 @@ to
 n2
 )
 ;
+}
 if
 (
 n2
@@ -2387,6 +2407,7 @@ isEqualNode
 n1
 )
 )
+{
 do_throw
 (
 n2
@@ -2402,6 +2423,7 @@ to
 n1
 )
 ;
+}
 if
 (
 !
@@ -2411,6 +2433,7 @@ n1
 !
 n2
 )
+{
 do_throw
 (
 "
@@ -2423,4 +2446,5 @@ null
 "
 )
 ;
+}
 }

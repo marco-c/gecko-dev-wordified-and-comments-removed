@@ -218,9 +218,7 @@ addEventListener
 "
 load
 "
-(
 e
-)
 =
 >
 {
@@ -482,9 +480,7 @@ Test
 :
 Fail
 "
-(
 msg
-)
 =
 >
 {
@@ -516,9 +512,7 @@ Test
 :
 Event
 "
-(
 msg
-)
 =
 >
 {

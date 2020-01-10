@@ -487,6 +487,7 @@ return
 "
 foo
 "
+;
 }
 }
 "
@@ -505,6 +506,7 @@ return
 "
 foo
 "
+;
 }
 }
 "
@@ -526,6 +528,7 @@ return
 "
 quux
 "
+;
 }
 toString
 :
@@ -547,6 +550,7 @@ return
 "
 foo
 "
+;
 }
 toString
 :
@@ -558,6 +562,7 @@ return
 "
 bar
 "
+;
 }
 }
 "
@@ -584,6 +589,7 @@ v
 v
 ]
 )
+;
 }
 )
 ;
@@ -1657,6 +1663,7 @@ aParameters
 defaultValue
 .
 invalid
+;
 var
 defaultValueMissing
 =
@@ -1691,6 +1698,7 @@ aParameters
 defaultValue
 .
 missing
+;
 var
 unsupportedValues
 =
@@ -3093,6 +3101,7 @@ return
 "
 foo
 "
+;
 }
 }
 stringified
@@ -3118,6 +3127,7 @@ return
 "
 foo
 "
+;
 }
 }
 stringified
@@ -3146,6 +3156,7 @@ return
 "
 quux
 "
+;
 }
 toString
 :
@@ -3174,6 +3185,7 @@ return
 "
 foo
 "
+;
 }
 toString
 :
@@ -3185,6 +3197,7 @@ return
 "
 bar
 "
+;
 }
 }
 stringified
@@ -3208,6 +3221,7 @@ function
 {
 return
 false
+;
 }
 }
 stringified
@@ -3603,7 +3617,7 @@ resultInt
 resultInt
 <
 =
-0x7FFFFFFF
+0x7fffffff
 )
 {
 return

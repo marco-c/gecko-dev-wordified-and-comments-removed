@@ -25,12 +25,12 @@ parent
 .
 postMessage
 (
-'
+"
 finish
-'
-'
+"
+"
 *
-'
+"
 )
 ;
 }

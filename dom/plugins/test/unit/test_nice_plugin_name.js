@@ -272,6 +272,7 @@ if
 (
 gIsWindows
 )
+{
 expectedDefaultPermissionString
 =
 "
@@ -280,10 +281,12 @@ plugin
 nptest
 "
 ;
+}
 if
 (
 gIsOSX
 )
+{
 expectedDefaultPermissionString
 =
 "
@@ -292,10 +295,12 @@ plugin
 test
 "
 ;
+}
 if
 (
 gIsLinux
 )
+{
 expectedDefaultPermissionString
 =
 "
@@ -304,6 +309,7 @@ plugin
 libnptest
 "
 ;
+}
 test_expected_permission_string
 (
 expectedDefaultPermissionString

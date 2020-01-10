@@ -3487,7 +3487,6 @@ close
 var
 inCharset
 =
-(
 toCharset
 =
 =
@@ -3496,7 +3495,6 @@ UTF
 -
 16
 "
-)
 ?
 "
 UTF

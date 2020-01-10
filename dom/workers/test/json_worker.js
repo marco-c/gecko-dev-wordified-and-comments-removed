@@ -58,6 +58,7 @@ bar
 :
 5
 }
+;
 innermostobj
 =
 obj
@@ -266,10 +267,10 @@ value
 }
 jsonValue
 :
-'
+"
 {
 }
-'
+"
 }
 {
 type
@@ -574,10 +575,10 @@ objectWithSaneGetter2
 )
 jsonValue
 :
-'
+"
 {
 }
-'
+"
 }
 {
 type
@@ -610,13 +611,13 @@ value
 ]
 jsonValue
 :
-'
+"
 [
 9
 8
 7
 ]
-'
+"
 }
 {
 type
@@ -1118,10 +1119,10 @@ typedArrayWithValues
 buffer
 jsonValue
 :
-'
+"
 {
 }
-'
+"
 }
 {
 type
@@ -1577,3 +1578,4 @@ exception
 }
 }
 }
+;

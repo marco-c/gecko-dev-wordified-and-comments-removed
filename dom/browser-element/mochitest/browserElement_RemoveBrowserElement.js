@@ -116,7 +116,7 @@ iframe
 .
 src
 =
-"
+'
 data
 :
 text
@@ -133,17 +133,15 @@ script
 >
 alert
 (
-\
 "
 test
-\
 "
 )
 <
 /
 script
 >
-"
+'
 +
 "
 <

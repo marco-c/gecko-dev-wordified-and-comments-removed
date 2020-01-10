@@ -399,6 +399,7 @@ next
 )
 ;
 }
+;
 }
 function
 sync_xhr_request

@@ -866,6 +866,7 @@ requestId
 respondRequestId
 =
 requestId
+;
 }
 completePayment
 (
@@ -1001,6 +1002,7 @@ paymentDetails
 .
 shippingAddressErrors
 )
+;
 checkPayerErrors
 (
 this
@@ -1052,15 +1054,14 @@ retry
 }
 closePayment
 :
-(
 requestId
-)
 =
 >
 {
 respondRequestId
 =
 requestId
+;
 }
 QueryInterface
 :
@@ -1203,11 +1204,11 @@ null
 ;
 sendAsyncMessage
 (
-'
+"
 teardown
 -
 complete
-'
+"
 )
 ;
 }

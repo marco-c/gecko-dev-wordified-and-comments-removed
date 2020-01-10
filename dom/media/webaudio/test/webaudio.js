@@ -434,7 +434,6 @@ i
 }
 }
 }
-;
 is
 (
 difference
@@ -1307,7 +1306,6 @@ done
 )
 ;
 }
-;
 if
 (
 document
@@ -1316,9 +1314,9 @@ readyState
 !
 =
 =
-'
+"
 complete
-'
+"
 )
 {
 addLoadEvent

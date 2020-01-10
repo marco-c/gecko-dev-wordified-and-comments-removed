@@ -10,11 +10,11 @@ postMessage
 {
 result
 :
-'
+"
 script
 -
 allowed
-'
+"
 }
 "
 *

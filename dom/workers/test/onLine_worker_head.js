@@ -37,9 +37,9 @@ postMessage
 {
 type
 :
-'
+"
 ok
-'
+"
 test
 :
 test
@@ -186,9 +186,9 @@ ok
 eventName
 =
 =
-'
+"
 online
-'
+"
 ?
 navigator
 .
@@ -230,4 +230,5 @@ custom
 ;
 }
 }
+;
 }

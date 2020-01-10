@@ -128,9 +128,9 @@ data
 type
 =
 =
-'
+"
 page1
-'
+"
 )
 {
 if
@@ -193,6 +193,7 @@ ready
 )
 ;
 }
+;
 }
 else
 {
@@ -224,9 +225,9 @@ data
 type
 =
 =
-'
+"
 page2
-'
+"
 )
 {
 do_magic
@@ -247,3 +248,4 @@ false
 ;
 }
 }
+;

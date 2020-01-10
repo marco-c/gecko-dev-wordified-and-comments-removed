@@ -10,6 +10,7 @@ module_simpleExport
 .
 js
 "
+;
 result
 =
 x

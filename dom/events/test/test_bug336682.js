@@ -223,6 +223,7 @@ window
 )
 ;
 }
+;
 }
 function
 doTest

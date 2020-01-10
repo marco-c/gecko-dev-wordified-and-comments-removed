@@ -23,6 +23,7 @@ if
 -
 tests
 )
+{
 SimpleTest
 .
 finish
@@ -30,6 +31,8 @@ finish
 )
 ;
 }
+}
+;
 worker
 =
 new
@@ -82,10 +85,13 @@ testDone
 )
 ;
 }
+;
 xhr
 =
 new
 XMLHttpRequest
+(
+)
 ;
 xhr
 .
@@ -119,9 +125,7 @@ xhr
 .
 onload
 =
-(
 e
-)
 =
 >
 {
@@ -158,6 +162,7 @@ eval
 "
 }
 )
+;
 worker
 .
 onmessage
@@ -195,11 +200,15 @@ testDone
 )
 ;
 }
+;
 }
+;
 xhr
 =
 new
 XMLHttpRequest
+(
+)
 ;
 xhr
 .
@@ -233,9 +242,7 @@ xhr
 .
 onload
 =
-(
 e
-)
 =
 >
 {
@@ -278,6 +285,7 @@ level
 3
 }
 )
+;
 worker
 .
 onmessage
@@ -318,4 +326,6 @@ testDone
 )
 ;
 }
+;
 }
+;

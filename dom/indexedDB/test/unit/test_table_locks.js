@@ -1,13 +1,11 @@
 const
 dbName
 =
-(
 "
 window
 "
 in
 this
-)
 ?
 window
 .

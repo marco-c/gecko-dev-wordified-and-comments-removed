@@ -18,9 +18,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -231,6 +229,7 @@ isAllTextSelected
 )
 {
 return
+(
 gURLBar
 .
 inputField
@@ -257,6 +256,7 @@ inputField
 value
 .
 length
+)
 ;
 }
 if

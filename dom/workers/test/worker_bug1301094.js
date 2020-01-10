@@ -20,11 +20,11 @@ open
 "
 POST
 "
-'
+"
 worker_bug1301094
 .
 js
-'
+"
 false
 )
 ;
@@ -59,9 +59,9 @@ fd
 .
 append
 (
-'
+"
 file
-'
+"
 e
 .
 data
@@ -75,3 +75,4 @@ fd
 )
 ;
 }
+;

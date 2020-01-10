@@ -35,6 +35,7 @@ data
 )
 ;
 }
+;
 worker
 .
 postMessage
@@ -45,3 +46,4 @@ data
 )
 ;
 }
+;

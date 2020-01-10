@@ -666,9 +666,7 @@ channelID
 "
 headers
 message
-(
 record
-)
 =
 >
 {

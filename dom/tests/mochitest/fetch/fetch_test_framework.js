@@ -80,9 +80,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -195,9 +193,9 @@ data
 type
 =
 =
-'
+"
 finish
-'
+"
 )
 {
 resolve
@@ -215,9 +213,9 @@ data
 type
 =
 =
-'
+"
 status
-'
+"
 )
 {
 ok
@@ -246,6 +244,7 @@ msg
 ;
 }
 }
+;
 worker
 .
 onerror
@@ -275,9 +274,7 @@ worker
 postMessage
 (
 {
-"
 script
-"
 :
 script
 }
@@ -353,9 +350,9 @@ data
 type
 =
 =
-'
+"
 finish
-'
+"
 )
 {
 resolve
@@ -373,9 +370,9 @@ data
 type
 =
 =
-'
+"
 status
-'
+"
 )
 {
 ok
@@ -404,6 +401,7 @@ msg
 ;
 }
 }
+;
 worker
 .
 onerror
@@ -434,9 +432,7 @@ worker
 postMessage
 (
 {
-"
 script
-"
 :
 script
 }
@@ -588,9 +584,9 @@ data
 type
 =
 =
-'
+"
 finish
-'
+"
 )
 {
 window
@@ -636,9 +632,9 @@ data
 type
 =
 =
-'
+"
 status
-'
+"
 )
 {
 ok

@@ -243,9 +243,11 @@ Promise
 resolve
 =
 >
+(
 handshakeDone
 =
 resolve
+)
 )
 ;
 PushService

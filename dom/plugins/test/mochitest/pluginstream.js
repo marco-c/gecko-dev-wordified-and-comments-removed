@@ -43,9 +43,11 @@ length
 =
 0
 )
+{
 return
 undefined
 ;
+}
 return
 lastObject
 ?
@@ -87,6 +89,7 @@ undefined
 =
 embed
 )
+{
 embed
 =
 getNode
@@ -101,6 +104,7 @@ object
 )
 )
 ;
+}
 if
 (
 testframe
@@ -126,8 +130,10 @@ content
 .
 length
 )
+{
 return
 ;
+}
 var
 filename
 =

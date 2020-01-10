@@ -59,6 +59,7 @@ if
 !
 file
 )
+{
 do_throw
 (
 "
@@ -69,6 +70,7 @@ found
 "
 )
 ;
+}
 const
 pluginDir
 =
@@ -168,6 +170,7 @@ if
 !
 plugin
 )
+{
 do_throw
 (
 "
@@ -178,6 +181,7 @@ found
 "
 )
 ;
+}
 plugin
 .
 enabledState

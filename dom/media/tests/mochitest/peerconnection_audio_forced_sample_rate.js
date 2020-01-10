@@ -100,9 +100,9 @@ oscillator
 .
 type
 =
-'
+"
 sine
-'
+"
 ;
 oscillator
 .
@@ -193,4 +193,5 @@ run
 ;
 }
 )
+;
 }

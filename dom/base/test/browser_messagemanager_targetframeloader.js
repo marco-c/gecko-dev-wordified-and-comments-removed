@@ -126,9 +126,7 @@ Test
 :
 Message
 "
-(
 msg
-)
 =
 >
 {

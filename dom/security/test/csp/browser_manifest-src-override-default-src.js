@@ -360,9 +360,7 @@ tests
 .
 map
 (
-(
 test
-)
 =
 >
 {
@@ -387,9 +385,7 @@ BrowserTestUtils
 withNewTab
 (
 tabOptions
-(
 browser
-)
 =
 >
 testObtainingManifest
@@ -438,9 +434,7 @@ block
 const
 observer
 =
-(
 expectsBlocked
-)
 ?
 createNetObserver
 (
@@ -547,9 +541,7 @@ finished
 new
 Promise
 (
-(
 resolver
-)
 =
 >
 {

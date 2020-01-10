@@ -236,6 +236,7 @@ break
 }
 }
 }
+;
 xhr
 .
 onerror
@@ -271,6 +272,7 @@ finish
 )
 ;
 }
+;
 function
 test_data1
 (
@@ -344,3 +346,4 @@ test_data1
 )
 ;
 }
+;

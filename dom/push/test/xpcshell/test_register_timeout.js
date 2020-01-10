@@ -93,9 +93,11 @@ Promise
 resolve
 =
 >
+(
 timeoutDone
 =
 resolve
+)
 )
 ;
 let

@@ -46,9 +46,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -157,9 +155,9 @@ window
 .
 BroadcastChannel
 (
-'
+"
 foobar
-'
+"
 )
 ;
 bc
@@ -264,6 +262,7 @@ happened
 )
 ;
 }
+;
 fr
 .
 onloadend
@@ -308,6 +307,7 @@ true
 ;
 }
 }
+;
 }
 }
 )
@@ -419,14 +419,14 @@ xhr
 .
 open
 (
-'
+"
 GET
-'
-'
+"
+"
 temporary
 .
 sjs
-'
+"
 true
 )
 ;
@@ -434,9 +434,9 @@ xhr
 .
 responseType
 =
-'
+"
 blob
-'
+"
 ;
 xhr
 .
@@ -455,6 +455,7 @@ response
 )
 ;
 }
+;
 xhr
 .
 send
@@ -515,9 +516,9 @@ window
 .
 BroadcastChannel
 (
-'
+"
 foobar
-'
+"
 )
 ;
 bc
@@ -614,6 +615,7 @@ happened
 )
 ;
 }
+;
 fr
 .
 onloadend
@@ -656,6 +658,7 @@ true
 ;
 }
 }
+;
 }
 }
 )

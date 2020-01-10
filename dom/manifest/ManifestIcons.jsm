@@ -180,13 +180,11 @@ icon
 const
 sizes
 =
-(
 "
 sizes
 "
 in
 icon
-)
 ?
 icon
 .

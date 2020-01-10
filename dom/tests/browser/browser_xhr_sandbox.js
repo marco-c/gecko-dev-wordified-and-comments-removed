@@ -1,7 +1,6 @@
 var
 sandboxCode
 =
-(
 function
 (
 )
@@ -148,7 +147,6 @@ null
 )
 ;
 }
-)
 .
 toSource
 (

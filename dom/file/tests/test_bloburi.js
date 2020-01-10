@@ -176,14 +176,12 @@ nsIProtocolHandler
 URI_IS_LOCAL_RESOURCE
 &
 flags
-(
 uris
 [
 i
 ]
 .
 local
-)
 ?
 Ci
 .

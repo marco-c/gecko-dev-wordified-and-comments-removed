@@ -170,9 +170,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -227,9 +225,9 @@ window
 .
 removeEventListener
 (
-'
+"
 message
-'
+"
 onMessage
 )
 ;
@@ -272,9 +270,9 @@ window
 .
 addEventListener
 (
-'
+"
 message
-'
+"
 onMessage
 )
 ;
@@ -282,9 +280,9 @@ document
 .
 querySelector
 (
-'
+"
 iframe
-'
+"
 )
 .
 src
@@ -325,9 +323,9 @@ worker
 .
 addEventListener
 (
-'
+"
 message
-'
+"
 function
 (
 e
@@ -1370,9 +1368,7 @@ value
 then
 (
 next_step
-(
 e
-)
 =
 >
 next_step
@@ -1487,6 +1483,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;

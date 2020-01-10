@@ -6734,9 +6734,7 @@ interfaces
 if
 (
 typeof
-(
 entry
-)
 =
 =
 =
@@ -6780,7 +6778,6 @@ name
 ;
 if
 (
-(
 entry
 .
 nightly
@@ -6789,7 +6786,6 @@ nightly
 =
 !
 isNightly
-)
 |
 |
 (
@@ -6812,7 +6808,6 @@ isAndroid
 )
 |
 |
-(
 entry
 .
 desktop
@@ -6821,10 +6816,8 @@ desktop
 =
 !
 isDesktop
-)
 |
 |
-(
 entry
 .
 windows
@@ -6833,10 +6826,8 @@ windows
 =
 !
 isWindows
-)
 |
 |
-(
 entry
 .
 mac
@@ -6845,10 +6836,8 @@ mac
 =
 !
 isMac
-)
 |
 |
-(
 entry
 .
 linux
@@ -6857,7 +6846,6 @@ linux
 =
 !
 isLinux
-)
 |
 |
 (
@@ -6878,7 +6866,6 @@ nightlyAndroid
 )
 |
 |
-(
 entry
 .
 fennecOrDesktop
@@ -6892,10 +6879,8 @@ isAndroid
 !
 isFennec
 )
-)
 |
 |
-(
 entry
 .
 fennec
@@ -6904,10 +6889,8 @@ fennec
 =
 !
 isFennec
-)
 |
 |
-(
 entry
 .
 release
@@ -6916,10 +6899,8 @@ release
 =
 !
 isRelease
-)
 |
 |
-(
 entry
 .
 releaseNonWindowsAndMac
@@ -6938,10 +6919,8 @@ isWindows
 !
 isMac
 )
-)
 |
 |
-(
 entry
 .
 releaseNonWindows
@@ -6955,7 +6934,6 @@ isRelease
 &
 !
 isWindows
-)
 )
 |
 |

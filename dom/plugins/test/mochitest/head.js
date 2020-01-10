@@ -49,9 +49,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -174,7 +172,7 @@ windows
 "
 :
 return
-0x020A
+0x020a
 ;
 case
 "
@@ -522,12 +520,14 @@ name
 =
 pluginName
 )
+{
 return
 tags
 [
 i
 ]
 ;
+}
 }
 ok
 (

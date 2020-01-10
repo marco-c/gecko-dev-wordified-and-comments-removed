@@ -17,8 +17,10 @@ localName
 img
 "
 )
+{
 return
 ;
+}
 var
 img
 =
@@ -460,15 +462,12 @@ ELEMENT_NODE
 {
 if
 (
-(
 newTocLink
 !
 =
 null
-)
 &
 &
-(
 child
 .
 tagName
@@ -477,7 +476,6 @@ tagName
 "
 title
 "
-)
 )
 {
 var

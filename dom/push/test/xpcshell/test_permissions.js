@@ -107,12 +107,14 @@ Promise
 r
 =
 >
+(
 unregisterDefers
 [
 keyID
 ]
 =
 r
+)
 )
 ;
 }
@@ -549,9 +551,11 @@ Promise
 resolve
 =
 >
+(
 handshakeDone
 =
 resolve
+)
 )
 ;
 PushService

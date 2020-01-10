@@ -187,8 +187,10 @@ p
 subject
 )
 )
+{
 return
 ;
+}
 const
 index
 =
@@ -297,6 +299,7 @@ openTab
 uri
 =
 >
+(
 gBrowser
 .
 selectedTab
@@ -307,6 +310,7 @@ addTab
 (
 gBrowser
 uri
+)
 )
 ;
 const

@@ -58,9 +58,9 @@ postMessage
 {
 type
 :
-'
+"
 finish
-'
+"
 progressFired
 :
 progressFired
@@ -131,3 +131,4 @@ send
 )
 ;
 }
+;

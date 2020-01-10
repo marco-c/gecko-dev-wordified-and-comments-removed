@@ -40,9 +40,9 @@ postMessage
 {
 type
 :
-'
+"
 status
-'
+"
 status
 :
 !
@@ -71,9 +71,9 @@ postMessage
 {
 type
 :
-'
+"
 finish
-'
+"
 }
 )
 ;
@@ -102,9 +102,9 @@ performance
 now
 =
 =
-'
+"
 function
-'
+"
 "
 Performance
 object
@@ -344,4 +344,3 @@ workerTestDone
 )
 ;
 }
-;

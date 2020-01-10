@@ -111,13 +111,11 @@ data
 ;
 ok
 (
-(
 subject
 instanceof
 Ci
 .
 nsIPropertyBag2
-)
 "
 got
 Propbag
@@ -126,13 +124,11 @@ Propbag
 ;
 ok
 (
-(
 subject
 instanceof
 Ci
 .
 nsIWritablePropertyBag2
-)
 "
 got
 writable

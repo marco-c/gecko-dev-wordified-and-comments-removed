@@ -35,7 +35,6 @@ nestedStack
 ]
 ;
 }
-;
 HTMLMenuBuilder
 .
 prototype

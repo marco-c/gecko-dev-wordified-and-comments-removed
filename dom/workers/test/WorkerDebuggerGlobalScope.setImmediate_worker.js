@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 self
 .
 onmessage

@@ -120,9 +120,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

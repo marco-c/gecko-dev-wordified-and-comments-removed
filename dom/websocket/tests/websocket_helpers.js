@@ -226,6 +226,7 @@ _testNumber
 )
 ;
 }
+;
 }
 catch
 (

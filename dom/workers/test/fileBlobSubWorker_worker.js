@@ -44,6 +44,7 @@ data
 )
 ;
 }
+;
 worker
 .
 onerror
@@ -59,5 +60,6 @@ undefined
 )
 ;
 }
+;
 }
 ;

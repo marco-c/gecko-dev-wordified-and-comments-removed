@@ -3082,6 +3082,7 @@ options
 senderKeyPair
 |
 |
+(
 await
 crypto
 .
@@ -3096,6 +3097,7 @@ true
 deriveBits
 "
 ]
+)
 )
 ;
 const

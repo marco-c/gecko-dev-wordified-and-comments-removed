@@ -359,6 +359,7 @@ return
 }
 }
 }
+;
 var
 cl
 =
@@ -390,11 +391,11 @@ content
 .
 SharedWorker
 (
-'
+"
 sharedWorker_console
 .
 js
-'
+"
 )
 ;
 }

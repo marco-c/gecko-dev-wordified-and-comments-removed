@@ -101,11 +101,9 @@ push
 {
 result
 :
-(
 e
 instanceof
 WindowClient
-)
 message
 :
 "
@@ -256,6 +254,7 @@ err
 }
 }
 )
+;
 }
 onmessage
 =
@@ -524,6 +523,7 @@ CLOSE
 ;
 }
 }
+;
 onnotificationclick
 =
 function
@@ -570,6 +570,7 @@ redirect
 sjs
 ?
 "
+;
 var
 redirect_xorigin
 =
@@ -595,6 +596,7 @@ redirect
 sjs
 ?
 "
+;
 var
 same_origin
 =
@@ -623,6 +625,7 @@ client
 .
 html
 "
+;
 var
 different_origin
 =
@@ -649,6 +652,7 @@ client
 .
 html
 "
+;
 promises
 .
 push
@@ -830,3 +834,4 @@ results
 )
 ;
 }
+;

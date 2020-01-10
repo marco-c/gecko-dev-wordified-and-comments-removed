@@ -48,9 +48,7 @@ then
 .
 catch
 (
-(
 err
-)
 =
 >
 {

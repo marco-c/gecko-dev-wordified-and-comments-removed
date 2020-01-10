@@ -581,6 +581,7 @@ if
 !
 plugin
 )
+{
 do_throw
 (
 "
@@ -591,6 +592,7 @@ found
 "
 )
 ;
+}
 Assert
 .
 equal

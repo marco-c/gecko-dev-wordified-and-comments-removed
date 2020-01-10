@@ -1,11 +1,9 @@
-(
 new
 BroadcastChannel
 (
 "
 foobar
 "
-)
 )
 .
 addEventListener
@@ -45,14 +43,12 @@ data
 }
 )
 ;
-(
 new
 BroadcastChannel
 (
 "
 foobar
 "
-)
 )
 .
 postMessage

@@ -212,12 +212,14 @@ originA
 a
 .
 origin
+;
 let
 originB
 =
 b
 .
 origin
+;
 if
 (
 originA

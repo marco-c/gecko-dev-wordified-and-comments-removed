@@ -583,9 +583,7 @@ completed
 .
 catch
 (
-(
 ex
-)
 =
 >
 {
@@ -636,9 +634,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

@@ -17,9 +17,9 @@ data
 .
 append
 (
-'
+"
 Filedata
-'
+"
 e
 .
 data
@@ -51,9 +51,9 @@ xhr
 .
 open
 (
-'
+"
 POST
-'
+"
 location
 .
 href
@@ -80,3 +80,4 @@ o
 )
 ;
 }
+;

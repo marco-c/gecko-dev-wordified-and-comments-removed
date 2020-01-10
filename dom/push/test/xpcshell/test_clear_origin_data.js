@@ -330,6 +330,7 @@ Promise
 resolve
 =
 >
+(
 unregisterDone
 =
 after
@@ -338,6 +339,7 @@ testRecords
 .
 length
 resolve
+)
 )
 )
 ;

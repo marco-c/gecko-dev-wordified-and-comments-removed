@@ -106,6 +106,7 @@ log
 (
 msg
 )
+;
 let
 logBox
 =
@@ -144,14 +145,12 @@ str
 )
 {
 return
-(
 new
 Uint8Array
 (
 str
 .
 length
-)
 )
 .
 map
@@ -190,6 +189,7 @@ map
 x
 =
 >
+(
 str
 +
 =
@@ -198,6 +198,7 @@ String
 fromCharCode
 (
 x
+)
 )
 )
 ;
@@ -612,6 +613,7 @@ slice
 keyHandleLength
 )
 }
+;
 u2fRegObj
 .
 keyHandle
@@ -759,6 +761,7 @@ verify
 "
 ]
 )
+;
 }
 function
 deriveAppAndChallengeParam
@@ -878,6 +881,7 @@ i
 )
 =
 >
+(
 signedData
 [
 0
@@ -886,6 +890,7 @@ i
 ]
 =
 x
+)
 )
 ;
 presenceAndCounter
@@ -898,6 +903,7 @@ i
 )
 =
 >
+(
 signedData
 [
 32
@@ -906,6 +912,7 @@ i
 ]
 =
 x
+)
 )
 ;
 challengeParam
@@ -918,6 +925,7 @@ i
 )
 =
 >
+(
 signedData
 [
 37
@@ -926,6 +934,7 @@ i
 ]
 =
 x
+)
 )
 ;
 return
@@ -977,6 +986,7 @@ i
 )
 =
 >
+(
 signedData
 [
 1
@@ -985,6 +995,7 @@ i
 ]
 =
 x
+)
 )
 ;
 challengeParam
@@ -997,6 +1008,7 @@ i
 )
 =
 >
+(
 signedData
 [
 33
@@ -1005,6 +1017,7 @@ i
 ]
 =
 x
+)
 )
 ;
 keyHandle
@@ -1017,6 +1030,7 @@ i
 )
 =
 >
+(
 signedData
 [
 65
@@ -1025,6 +1039,7 @@ i
 ]
 =
 x
+)
 )
 ;
 pubKey
@@ -1037,6 +1052,7 @@ i
 )
 =
 >
+(
 signedData
 [
 65
@@ -1049,6 +1065,7 @@ i
 ]
 =
 x
+)
 )
 ;
 return
@@ -1082,6 +1099,7 @@ length
 -
 32
 )
+;
 }
 let
 ret

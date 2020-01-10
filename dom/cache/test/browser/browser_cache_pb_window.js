@@ -713,7 +713,6 @@ e
 let
 isGood
 =
-(
 e
 .
 data
@@ -723,7 +722,6 @@ data
 "
 SecurityError
 "
-)
 ;
 ok
 (
@@ -780,9 +778,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

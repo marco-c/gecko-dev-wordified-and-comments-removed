@@ -4,9 +4,7 @@ MIDITestUtils
 {
 permissionSetup
 :
-(
 allow
-)
 =
 >
 {
@@ -38,9 +36,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

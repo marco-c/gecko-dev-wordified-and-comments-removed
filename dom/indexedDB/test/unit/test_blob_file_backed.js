@@ -40,13 +40,11 @@ plain
 const
 databaseName
 =
-(
 "
 window
 "
 in
 this
-)
 ?
 window
 .

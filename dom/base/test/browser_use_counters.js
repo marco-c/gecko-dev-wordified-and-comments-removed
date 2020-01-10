@@ -73,6 +73,7 @@ gOldParentCanRecord
 Telemetry
 .
 canRecordExtended
+;
 Telemetry
 .
 canRecordExtended
@@ -557,6 +558,7 @@ resolve
 )
 ;
 }
+;
 addEventListener
 (
 "
@@ -662,9 +664,7 @@ parent
 let
 checkGet
 =
-(
 probe
-)
 =
 >
 {
@@ -923,9 +923,9 @@ document
 .
 getElementById
 (
-'
+"
 content
-'
+"
 )
 ;
 iframe
@@ -939,9 +939,7 @@ file
 let
 listener
 =
-(
 event
-)
 =
 >
 {
@@ -1254,9 +1252,9 @@ document
 .
 getElementById
 (
-'
+"
 display
-'
+"
 )
 ;
 img
@@ -1270,9 +1268,7 @@ file
 let
 listener
 =
-(
 event
-)
 =
 >
 {
@@ -1616,6 +1612,7 @@ resolve
 )
 ;
 }
+;
 addEventListener
 (
 "

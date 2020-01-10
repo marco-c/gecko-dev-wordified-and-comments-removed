@@ -47,6 +47,7 @@ contentDocument
 )
 ;
 }
+;
 iframe
 .
 onerror
@@ -57,15 +58,16 @@ function
 {
 aReject
 (
-'
+"
 Failed
 to
 load
 iframe
-'
+"
 )
 ;
 }
+;
 if
 (
 aSrcDoc

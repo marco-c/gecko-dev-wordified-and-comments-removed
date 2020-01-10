@@ -194,6 +194,7 @@ cell
 )
 {
 return
+(
 "
 "
 +
@@ -232,6 +233,7 @@ locationAreaCode
 cell
 .
 cellId
+)
 ;
 }
 let
@@ -488,7 +490,6 @@ return
 common
 >
 =
-(
 Math
 .
 max
@@ -502,7 +503,6 @@ length
 )
 *
 kPercentMatch
-)
 ;
 }
 ;
@@ -1314,8 +1314,10 @@ this
 .
 started
 )
+{
 return
 ;
+}
 this
 .
 started
@@ -1619,16 +1621,12 @@ ap
 {
 return
 {
-"
 macAddress
-"
 :
 ap
 .
 mac
-"
 signalStrength
-"
 :
 ap
 .

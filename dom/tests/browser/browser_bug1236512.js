@@ -47,9 +47,7 @@ aBrowser
 .
 selectedBrowser
 aIsHidden
-(
 aExpectedResult
-)
 =
 >
 {
@@ -192,9 +190,7 @@ document
 visibilitychange
 "
 true
-(
 aEvent
-)
 =
 >
 {
@@ -219,6 +215,7 @@ visibilityState
 )
 ;
 return
+(
 content
 .
 document
@@ -239,6 +236,7 @@ visibilityState
 =
 =
 visibilityState
+)
 ;
 }
 )

@@ -669,7 +669,7 @@ element
 {
 uri
 :
-"
+'
 data
 :
 text
@@ -679,7 +679,6 @@ html
 body
 onload
 =
-\
 "
 setTimeout
 (
@@ -687,7 +686,7 @@ function
 (
 )
 {
-"
+'
 +
 "
 var
@@ -748,7 +747,7 @@ element
 ;
 "
 +
-"
+'
 element
 .
 dispatchEvent
@@ -760,10 +759,9 @@ event
 10
 )
 ;
-\
 "
 >
-"
+'
 +
 "
 <

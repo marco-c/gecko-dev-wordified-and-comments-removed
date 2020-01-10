@@ -7,9 +7,9 @@ pathname
 .
 split
 (
-'
+"
 /
-'
+"
 )
 .
 pop
@@ -286,9 +286,9 @@ start
 !
 =
 =
-'
+"
 undefined
-'
+"
 )
 {
 SimpleTest
@@ -309,6 +309,7 @@ win
 )
 {
 return
+(
 win
 .
 innerWidth
@@ -331,6 +332,7 @@ win
 screen
 .
 height
+)
 ;
 }
 function
@@ -340,6 +342,7 @@ win
 )
 {
 return
+(
 win
 .
 innerWidth
@@ -362,6 +365,7 @@ win
 normalSize
 .
 h
+)
 ;
 }
 function

@@ -105,8 +105,8 @@ functionArgs
 )
 ;
 }
-(
 )
+(
 )
 ;
 }
@@ -258,11 +258,11 @@ async
 async
 ;
 }
+)
 (
 this
 |
 |
 self
-)
 )
 ;

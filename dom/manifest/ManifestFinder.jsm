@@ -190,7 +190,6 @@ xul
 "
 ;
 return
-(
 aBrowser
 .
 namespaceURI
@@ -209,7 +208,6 @@ localName
 "
 browser
 "
-)
 ;
 }
 function

@@ -1,11 +1,9 @@
-(
 new
 BroadcastChannel
 (
 "
 foobar
 "
-)
 )
 .
 onmessage

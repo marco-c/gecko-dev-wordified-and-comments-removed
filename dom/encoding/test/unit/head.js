@@ -284,13 +284,14 @@ if
 (
 !
 (
-'
+"
 name
-'
+"
 in
 ex
 )
 )
+{
 do_throw
 (
 "
@@ -316,6 +317,7 @@ something
 "
 )
 ;
+}
 let
 msg
 =
@@ -346,12 +348,13 @@ e
 {
 if
 (
-'
+"
 name
-'
+"
 in
 e
 )
+{
 do_report_result
 (
 e
@@ -379,7 +382,9 @@ caller
 false
 )
 ;
+}
 else
+{
 do_report_result
 (
 false
@@ -401,6 +406,7 @@ caller
 false
 )
 ;
+}
 return
 ;
 }
@@ -505,4 +511,3 @@ func
 )
 ;
 }
-;

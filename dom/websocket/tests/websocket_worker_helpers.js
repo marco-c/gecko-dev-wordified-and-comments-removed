@@ -8,9 +8,9 @@ postMessage
 {
 type
 :
-'
+"
 feedback
-'
+"
 msg
 :
 "
@@ -53,9 +53,9 @@ postMessage
 {
 type
 :
-'
+"
 status
-'
+"
 status
 :
 !
@@ -115,9 +115,9 @@ postMessage
 {
 type
 :
-'
+"
 finish
-'
+"
 }
 )
 ;

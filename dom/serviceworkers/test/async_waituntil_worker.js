@@ -30,6 +30,7 @@ claim
 )
 ;
 }
+;
 onmessage
 =
 function
@@ -143,11 +144,12 @@ resolvePromise
 }
 }
 }
+;
 addEventListener
 (
-'
+"
 fetch
-'
+"
 e
 =
 >
@@ -217,9 +219,7 @@ matchAll
 .
 then
 (
-(
 cls
-)
 =
 >
 {

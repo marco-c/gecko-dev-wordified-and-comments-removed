@@ -6,9 +6,7 @@ scale
 {
 return
 {
-"
 set
-"
 :
 [
 [

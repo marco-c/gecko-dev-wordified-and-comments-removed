@@ -53,8 +53,10 @@ PopupNotifications
 .
 panel
 )
+{
 return
 ;
+}
 win
 .
 PopupNotifications
@@ -88,6 +90,7 @@ panel
 )
 ;
 }
+;
 win
 .
 PopupNotifications
@@ -953,6 +956,7 @@ resultCode
 ;
 }
 }
+;
 }
 )
 ;
