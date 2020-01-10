@@ -2209,8 +2209,6 @@ JSScript
 *
 jsscript
 uint32_t
-bailoutPrologueOffset
-uint32_t
 warmUpCheckPrologueOffset
 uint32_t
 profilerEnterToggleOffset
@@ -2373,7 +2371,6 @@ script
 )
 BaselineScript
 (
-bailoutPrologueOffset
 warmUpCheckPrologueOffset
 profilerEnterToggleOffset
 profilerExitToggleOffset
@@ -5861,6 +5858,8 @@ interpretOpOffset
 uint32_t
 interpretOpNoDebugTrapOffset
 uint32_t
+bailoutPrologueOffset
+uint32_t
 profilerEnterToggleOffset
 uint32_t
 profilerExitToggleOffset
@@ -5897,6 +5896,10 @@ interpretOpOffset
 interpretOpNoDebugTrapOffset_
 =
 interpretOpNoDebugTrapOffset
+;
+bailoutPrologueOffset_
+=
+bailoutPrologueOffset
 ;
 profilerEnterToggleOffset_
 =

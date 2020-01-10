@@ -1311,6 +1311,9 @@ returnNoDebugEpilogue_
 NonAssertingLabel
 postBarrierSlot_
 ;
+NonAssertingLabel
+bailoutPrologue_
+;
 CodeOffset
 profilerEnterFrameToggleOffset_
 ;
