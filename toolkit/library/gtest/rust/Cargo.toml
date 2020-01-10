@@ -282,6 +282,17 @@ fuzz
 targets
 "
 ]
+webrtc
+=
+[
+"
+gkrust
+-
+shared
+/
+webrtc
+"
+]
 [
 dependencies
 ]

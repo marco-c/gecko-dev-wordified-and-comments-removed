@@ -902,6 +902,9 @@ mtransport
 /
 mdns_service
 "
+optional
+=
+true
 }
 [
 build
@@ -1129,6 +1132,13 @@ cert_storage
 fuzzing_interfaces
 =
 [
+]
+webrtc
+=
+[
+"
+mdns_service
+"
 ]
 [
 lib

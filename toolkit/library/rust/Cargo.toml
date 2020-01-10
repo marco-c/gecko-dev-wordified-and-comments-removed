@@ -284,6 +284,17 @@ shared
 fuzzing_interfaces
 "
 ]
+webrtc
+=
+[
+"
+gkrust
+-
+shared
+/
+webrtc
+"
+]
 [
 dependencies
 ]

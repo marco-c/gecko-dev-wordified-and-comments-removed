@@ -256,6 +256,17 @@ extern
 crate
 audio_thread_priority
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+webrtc
+"
+)
+]
 extern
 crate
 mdns_service
