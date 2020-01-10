@@ -387,7 +387,11 @@ in
 order
 to
 be
-whitelisted
+allowed
+to
+use
+the
+API
 .
 Example
 :

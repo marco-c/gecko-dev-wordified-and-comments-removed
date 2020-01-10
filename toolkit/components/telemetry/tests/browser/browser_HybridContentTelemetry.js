@@ -680,7 +680,7 @@ add_task
 (
 async
 function
-test_secure_non_whitelisted_origin
+test_secure_unallowed_origin
 (
 )
 {

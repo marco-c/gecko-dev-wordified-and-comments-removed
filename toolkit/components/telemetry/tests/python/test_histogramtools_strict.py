@@ -181,7 +181,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -284,7 +284,7 @@ SAMPLE_HISTOGRAM
 {
             
 "
-TEST_HISTOGRAM_WHITELIST_BUG_NUMBERS
+TEST_HISTOGRAM_ALLOWLIST_BUG_NUMBERS
 "
 :
 {
@@ -363,7 +363,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -372,13 +372,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_BUG_NUMBERS
+TEST_HISTOGRAM_ALLOWLIST_BUG_NUMBERS
 '
                                    
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_BUG_NUMBERS
+TEST_HISTOGRAM_ALLOWLIST_BUG_NUMBERS
 '
 ]
                                    
@@ -399,7 +399,7 @@ exit_func
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 {
             
@@ -417,7 +417,7 @@ bug_numbers
 [
                 
 "
-TEST_HISTOGRAM_WHITELIST_BUG_NUMBERS
+TEST_HISTOGRAM_ALLOWLIST_BUG_NUMBERS
 "
             
 ]
@@ -452,13 +452,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_BUG_NUMBERS
+TEST_HISTOGRAM_ALLOWLIST_BUG_NUMBERS
 '
                                           
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_BUG_NUMBERS
+TEST_HISTOGRAM_ALLOWLIST_BUG_NUMBERS
 '
 ]
                                           
@@ -534,7 +534,7 @@ False
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 None
     
@@ -550,7 +550,7 @@ SAMPLE_HISTOGRAM
 {
             
 "
-TEST_HISTOGRAM_WHITELIST_ALERT_EMAILS
+TEST_HISTOGRAM_ALLOWLIST_ALERT_EMAILS
 "
 :
 {
@@ -624,7 +624,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -633,13 +633,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_ALERT_EMAILS
+TEST_HISTOGRAM_ALLOWLIST_ALERT_EMAILS
 '
                                    
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_ALERT_EMAILS
+TEST_HISTOGRAM_ALLOWLIST_ALERT_EMAILS
 '
 ]
                                    
@@ -660,7 +660,7 @@ exit_func
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 {
             
@@ -671,7 +671,7 @@ alert_emails
 [
                 
 "
-TEST_HISTOGRAM_WHITELIST_ALERT_EMAILS
+TEST_HISTOGRAM_ALLOWLIST_ALERT_EMAILS
 "
             
 ]
@@ -713,13 +713,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_ALERT_EMAILS
+TEST_HISTOGRAM_ALLOWLIST_ALERT_EMAILS
 '
                                           
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_ALERT_EMAILS
+TEST_HISTOGRAM_ALLOWLIST_ALERT_EMAILS
 '
 ]
                                           
@@ -795,7 +795,7 @@ False
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 None
     
@@ -811,7 +811,7 @@ SAMPLE_HISTOGRAM
 {
             
 "
-TEST_HISTOGRAM_WHITELIST_N_BUCKETS
+TEST_HISTOGRAM_ALLOWLIST_N_BUCKETS
 "
 :
 {
@@ -919,7 +919,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -928,13 +928,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_N_BUCKETS
+TEST_HISTOGRAM_ALLOWLIST_N_BUCKETS
 '
                                    
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_N_BUCKETS
+TEST_HISTOGRAM_ALLOWLIST_N_BUCKETS
 '
 ]
                                    
@@ -965,7 +965,7 @@ SAMPLE_HISTOGRAM
 {
             
 "
-TEST_HISTOGRAM_WHITELIST_N_BUCKETS
+TEST_HISTOGRAM_ALLOWLIST_N_BUCKETS
 "
 :
 {
@@ -1070,7 +1070,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -1079,13 +1079,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_N_BUCKETS
+TEST_HISTOGRAM_ALLOWLIST_N_BUCKETS
 '
                                    
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_N_BUCKETS
+TEST_HISTOGRAM_ALLOWLIST_N_BUCKETS
 '
 ]
                                    
@@ -1106,7 +1106,7 @@ exit_func
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 {
             
@@ -1131,7 +1131,7 @@ n_buckets
 [
                 
 "
-TEST_HISTOGRAM_WHITELIST_N_BUCKETS
+TEST_HISTOGRAM_ALLOWLIST_N_BUCKETS
 "
             
 ]
@@ -1159,13 +1159,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_N_BUCKETS
+TEST_HISTOGRAM_ALLOWLIST_N_BUCKETS
 '
                                           
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_N_BUCKETS
+TEST_HISTOGRAM_ALLOWLIST_N_BUCKETS
 '
 ]
                                           
@@ -1277,7 +1277,7 @@ n_buckets
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 None
     
@@ -1293,7 +1293,7 @@ SAMPLE_HISTOGRAM
 {
             
 "
-TEST_HISTOGRAM_WHITELIST_EXPIRY_DEFAULT
+TEST_HISTOGRAM_ALLOWLIST_EXPIRY_DEFAULT
 "
 :
 {
@@ -1380,7 +1380,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -1389,13 +1389,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_EXPIRY_DEFAULT
+TEST_HISTOGRAM_ALLOWLIST_EXPIRY_DEFAULT
 '
                                    
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_EXPIRY_DEFAULT
+TEST_HISTOGRAM_ALLOWLIST_EXPIRY_DEFAULT
 '
 ]
                                    
@@ -1416,7 +1416,7 @@ exit_func
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 {
             
@@ -1448,7 +1448,7 @@ expiry_default
 [
                 
 "
-TEST_HISTOGRAM_WHITELIST_EXPIRY_DEFAULT
+TEST_HISTOGRAM_ALLOWLIST_EXPIRY_DEFAULT
 "
             
 ]
@@ -1469,13 +1469,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_EXPIRY_DEFAULT
+TEST_HISTOGRAM_ALLOWLIST_EXPIRY_DEFAULT
 '
                                           
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_EXPIRY_DEFAULT
+TEST_HISTOGRAM_ALLOWLIST_EXPIRY_DEFAULT
 '
 ]
                                           
@@ -1551,7 +1551,7 @@ False
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 None
     
@@ -1567,7 +1567,7 @@ SAMPLE_HISTOGRAM
 {
             
 "
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 "
 :
 {
@@ -1664,7 +1664,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -1678,13 +1678,13 @@ parse_histograms
 Histogram
                           
 '
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 '
                           
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 '
 ]
                           
@@ -1695,7 +1695,7 @@ True
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 {
             
@@ -1734,7 +1734,7 @@ kind
 [
                 
 "
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 "
             
 ]
@@ -1748,13 +1748,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 '
                                           
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 '
 ]
                                           
@@ -1830,7 +1830,7 @@ False
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 None
     
@@ -1846,7 +1846,7 @@ SAMPLE_HISTOGRAM
 {
             
 "
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 "
 :
 {
@@ -1933,7 +1933,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -1947,13 +1947,13 @@ parse_histograms
 Histogram
                           
 '
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 '
                           
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 '
 ]
                           
@@ -1964,7 +1964,7 @@ True
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 {
             
@@ -2003,7 +2003,7 @@ kind
 [
                 
 "
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 "
             
 ]
@@ -2017,13 +2017,13 @@ parse_histograms
 Histogram
 (
 '
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 '
                                           
 histograms
 [
 '
-TEST_HISTOGRAM_WHITELIST_KIND
+TEST_HISTOGRAM_ALLOWLIST_KIND
 '
 ]
                                           
@@ -2099,7 +2099,7 @@ False
         
 parse_histograms
 .
-whitelists
+allowlists
 =
 None
     
@@ -2215,7 +2215,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -2398,7 +2398,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -2521,7 +2521,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -2655,7 +2655,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
@@ -2792,7 +2792,7 @@ SAMPLE_HISTOGRAM
         
 parse_histograms
 .
-load_whitelist
+load_allowlist
 (
 )
         
