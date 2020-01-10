@@ -3631,7 +3631,7 @@ js
 -
 jitflags
 =
-all
+jstests
 '
         
 ]
