@@ -3010,7 +3010,6 @@ class
 IDLExternalInterface
 (
 IDLObjectWithIdentifier
-IDLExposureMixins
 )
 :
     
@@ -3054,14 +3053,6 @@ parentScope
 identifier
 )
         
-IDLExposureMixins
-.
-__init__
-(
-self
-location
-)
-        
 IDLObjectWithIdentifier
 .
 resolve
@@ -3077,14 +3068,6 @@ self
 scope
 )
 :
-        
-IDLExposureMixins
-.
-finish
-(
-self
-scope
-)
         
 pass
     
