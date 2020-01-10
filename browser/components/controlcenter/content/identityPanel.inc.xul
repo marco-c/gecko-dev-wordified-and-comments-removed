@@ -343,7 +343,7 @@ root
 &
 identity
 .
-connectionNotSecure
+connectionNotSecure2
 ;
 <
 /
@@ -376,7 +376,7 @@ ev
 &
 identity
 .
-connectionSecure2
+connectionSecure3
 ;
 <
 /
@@ -1314,7 +1314,7 @@ ev
 &
 identity
 .
-evOwnerLabel
+evOwnerLabel2
 ;
 <
 /
