@@ -288,6 +288,7 @@ error
 ;
 }
 }
+async
 function
 getSymbols
 (
