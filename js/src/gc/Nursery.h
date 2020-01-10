@@ -2209,6 +2209,10 @@ chunkno
 void
 poisonAndInitCurrentChunk
 (
+size_t
+extent
+=
+NurseryChunkUsableSize
 )
 ;
 void
