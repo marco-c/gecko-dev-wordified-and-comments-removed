@@ -79,6 +79,9 @@ class
 nsIContent
 ;
 class
+nsINode
+;
+class
 nsContentList
 ;
 class
