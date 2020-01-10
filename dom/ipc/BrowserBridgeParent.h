@@ -99,6 +99,12 @@ Manager
 (
 )
 ;
+#
+if
+defined
+(
+ACCESSIBILITY
+)
 Tuple
 <
 a11y
@@ -128,6 +134,8 @@ mEmbedderAccessibleID
 )
 ;
 }
+#
+endif
 void
 Destroy
 (
@@ -347,6 +355,12 @@ BrowserParent
 >
 mBrowserParent
 ;
+#
+if
+defined
+(
+ACCESSIBILITY
+)
 RefPtr
 <
 a11y
@@ -359,6 +373,8 @@ mEmbedderAccessibleDoc
 uint64_t
 mEmbedderAccessibleID
 ;
+#
+endif
 bool
 mIPCOpen
 ;
