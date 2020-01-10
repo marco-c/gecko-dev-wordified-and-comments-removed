@@ -22355,6 +22355,10 @@ const
 nsCString
 &
 aKeyword
+const
+bool
+&
+aIsPrivateContext
 nsString
 *
 aProviderName
@@ -22428,6 +22432,7 @@ fixup
 KeywordToURI
 (
 aKeyword
+aIsPrivateContext
 getter_AddRefs
 (
 *

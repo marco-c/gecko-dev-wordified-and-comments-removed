@@ -580,6 +580,13 @@ IsEmpty
 nsresult
 rv
 ;
+bool
+isPrivateContext
+=
+aFixupFlags
+&
+FIXUP_FLAG_PRIVATE_CONTEXT
+;
 nsAutoCString
 uriString
 (
@@ -1501,6 +1508,7 @@ TryKeywordFixupForURIInfo
 (
 uriString
 info
+isPrivateContext
 aPostData
 )
 ;
@@ -1720,6 +1728,7 @@ KeywordURIFixup
 (
 uriString
 info
+isPrivateContext
 aPostData
 )
 )
@@ -1808,6 +1817,7 @@ TryKeywordFixupForURIInfo
 (
 aStringURI
 info
+isPrivateContext
 aPostData
 )
 ;
@@ -1916,6 +1926,8 @@ const
 nsACString
 &
 aKeyword
+bool
+aIsPrivateContext
 nsIInputStream
 *
 *
@@ -2065,6 +2077,7 @@ contentChild
 SendKeywordToURI
 (
 keyword
+aIsPrivateContext
 &
 providerName
 &
@@ -2167,6 +2180,25 @@ nsISearchEngine
 >
 defaultEngine
 ;
+if
+(
+aIsPrivateContext
+)
+{
+searchSvc
+-
+>
+GetDefaultPrivateEngine
+(
+getter_AddRefs
+(
+defaultEngine
+)
+)
+;
+}
+else
+{
 searchSvc
 -
 >
@@ -2178,6 +2210,7 @@ defaultEngine
 )
 )
 ;
+}
 if
 (
 defaultEngine
@@ -2357,6 +2390,8 @@ aURIString
 nsDefaultURIFixupInfo
 *
 aFixupInfo
+bool
+aIsPrivateContext
 nsIInputStream
 *
 *
@@ -2375,6 +2410,7 @@ rv
 KeywordToURI
 (
 aURIString
+aIsPrivateContext
 aPostData
 getter_AddRefs
 (
@@ -3527,6 +3563,8 @@ aURIString
 nsDefaultURIFixupInfo
 *
 aFixupInfo
+bool
+aIsPrivateContext
 nsIInputStream
 *
 *
@@ -4267,6 +4305,7 @@ aFixupInfo
 >
 mOriginalInput
 aFixupInfo
+aIsPrivateContext
 aPostData
 )
 ;
@@ -4316,6 +4355,7 @@ aFixupInfo
 >
 mOriginalInput
 aFixupInfo
+aIsPrivateContext
 aPostData
 )
 ;
@@ -4436,6 +4476,7 @@ aFixupInfo
 >
 mOriginalInput
 aFixupInfo
+aIsPrivateContext
 aPostData
 )
 ;

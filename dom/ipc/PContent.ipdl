@@ -5560,6 +5560,8 @@ KeywordToURI
 (
 nsCString
 keyword
+bool
+isPrivateContext
 )
 returns
 (
