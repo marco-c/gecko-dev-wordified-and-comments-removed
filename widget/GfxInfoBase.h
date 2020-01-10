@@ -382,6 +382,17 @@ aTargetFrameRate
 )
 override
 ;
+void
+GetAllFeatures
+(
+dom
+:
+:
+XPCOMInitData
+&
+xpcomInit
+)
+;
 virtual
 nsresult
 Init
