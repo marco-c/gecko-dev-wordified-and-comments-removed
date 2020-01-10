@@ -486,8 +486,7 @@ password
 let
 notif
 =
-await
-getCaptureDoorhangerThatMayOpen
+getCaptureDoorhanger
 (
 "
 password
@@ -844,8 +843,7 @@ password
 let
 notif
 =
-await
-getCaptureDoorhangerThatMayOpen
+getCaptureDoorhanger
 (
 "
 password
@@ -1243,8 +1241,7 @@ password
 let
 notif
 =
-await
-getCaptureDoorhangerThatMayOpen
+getCaptureDoorhanger
 (
 "
 password

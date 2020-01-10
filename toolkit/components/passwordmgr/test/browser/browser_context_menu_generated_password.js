@@ -1568,12 +1568,6 @@ removeAllLogins
 (
 )
 ;
-LoginTestUtils
-.
-resetGeneratedPasswordsCache
-(
-)
-;
 }
 )
 ;
@@ -2063,12 +2057,6 @@ Services
 logins
 .
 removeAllLogins
-(
-)
-;
-LoginTestUtils
-.
-resetGeneratedPasswordsCache
 (
 )
 ;
