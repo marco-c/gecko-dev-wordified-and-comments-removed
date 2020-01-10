@@ -2,7 +2,7 @@ function
 checkElementInternal
 (
 entry
-expectedName
+expectedUrl
 expectedIdentifier
 expectedID
 beforeRender
@@ -24,7 +24,19 @@ assert_equals
 entry
 .
 name
-expectedName
+'
+image
+-
+paint
+'
+)
+;
+assert_equals
+(
+entry
+.
+url
+expectedUrl
 )
 ;
 assert_equals
@@ -92,7 +104,7 @@ function
 checkElement
 (
 entry
-expectedName
+expectedUrl
 expectedIdentifier
 expectedID
 beforeRender
@@ -102,7 +114,7 @@ expectedElement
 checkElementInternal
 (
 entry
-expectedName
+expectedUrl
 expectedIdentifier
 expectedID
 beforeRender
@@ -116,7 +128,7 @@ performance
 .
 getEntriesByName
 (
-expectedName
+expectedUrl
 '
 resource
 '
@@ -148,7 +160,7 @@ function
 checkElementWithoutResourceTiming
 (
 entry
-expectedName
+expectedUrl
 expectedIdentifier
 expectedID
 beforeRender
@@ -158,7 +170,7 @@ expectedElement
 checkElementInternal
 (
 entry
-expectedName
+expectedUrl
 expectedIdentifier
 expectedID
 beforeRender
