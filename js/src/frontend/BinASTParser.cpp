@@ -6910,6 +6910,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -6917,6 +6919,7 @@ BinASTKind
 :
 :
 AssertedBlockScope
+)
 )
 {
 return
@@ -7242,6 +7245,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -7249,6 +7254,7 @@ BinASTKind
 :
 :
 AssertedBoundName
+)
 )
 {
 return
@@ -7544,6 +7550,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -7551,6 +7559,7 @@ BinASTKind
 :
 :
 AssertedBoundNamesScope
+)
 )
 {
 return
@@ -7876,6 +7885,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -7883,6 +7894,7 @@ BinASTKind
 :
 :
 AssertedDeclaredName
+)
 )
 {
 return
@@ -8261,6 +8273,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -8268,6 +8282,7 @@ BinASTKind
 :
 :
 AssertedParameterScope
+)
 )
 {
 return
@@ -8994,6 +9009,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -9001,6 +9018,7 @@ BinASTKind
 :
 :
 AssertedScriptGlobalScope
+)
 )
 {
 return
@@ -9324,6 +9342,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -9331,6 +9351,7 @@ BinASTKind
 :
 :
 AssertedVarScope
+)
 )
 {
 return
@@ -10646,6 +10667,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -10653,6 +10676,7 @@ BinASTKind
 :
 :
 BindingIdentifier
+)
 )
 {
 return
@@ -10962,6 +10986,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -10969,6 +10995,7 @@ BinASTKind
 :
 :
 Block
+)
 )
 {
 return
@@ -11856,6 +11883,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -11863,6 +11892,7 @@ BinASTKind
 :
 :
 CatchClause
+)
 )
 {
 return
@@ -13768,6 +13798,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -13775,6 +13807,7 @@ BinASTKind
 :
 :
 Directive
+)
 )
 {
 return
@@ -17642,6 +17675,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -17649,6 +17684,7 @@ BinASTKind
 :
 :
 FormalParameters
+)
 )
 {
 return
@@ -17921,6 +17957,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -17928,6 +17966,7 @@ BinASTKind
 :
 :
 FunctionExpressionContents
+)
 )
 {
 return
@@ -18350,6 +18389,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -18357,6 +18398,7 @@ BinASTKind
 :
 :
 FunctionOrMethodContents
+)
 )
 {
 return
@@ -18734,6 +18776,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -18741,6 +18785,7 @@ BinASTKind
 :
 :
 GetterContents
+)
 )
 {
 return
@@ -19049,6 +19094,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -19056,6 +19103,7 @@ BinASTKind
 :
 :
 IdentifierExpression
+)
 )
 {
 return
@@ -22577,6 +22625,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -22584,6 +22634,7 @@ BinASTKind
 :
 :
 SetterContents
+)
 )
 {
 return
@@ -23638,6 +23689,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -23645,6 +23698,7 @@ BinASTKind
 :
 :
 SwitchCase
+)
 )
 {
 return
@@ -23894,6 +23948,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -23901,6 +23957,7 @@ BinASTKind
 :
 :
 SwitchDefault
+)
 )
 {
 return
@@ -26190,6 +26247,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -26197,6 +26256,7 @@ BinASTKind
 :
 :
 VariableDeclarator
+)
 )
 {
 return

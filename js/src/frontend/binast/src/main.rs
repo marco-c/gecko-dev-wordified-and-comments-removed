@@ -15378,10 +15378,13 @@ format
 "
 if
 (
+MOZ_UNLIKELY
+(
 length
 =
 =
 0
+)
 )
 {
 {
@@ -17217,6 +17220,8 @@ guard
 ;
 if
 (
+MOZ_UNLIKELY
+(
 kind
 !
 =
@@ -17226,6 +17231,7 @@ BinASTKind
 {
 kind
 }
+)
 )
 {
 {
