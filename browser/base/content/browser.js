@@ -21469,6 +21469,7 @@ _loadSearch
 (
 searchText
 useNewTab
+usePrivate
 purpose
 triggeringPrincipal
 csp
@@ -21501,8 +21502,17 @@ engine
 Services
 .
 search
-.
+[
+usePrivate
+?
+"
+defaultPrivateEngine
+"
+:
+"
 defaultEngine
+"
+]
 ;
 let
 submission
@@ -21584,6 +21594,7 @@ engine
 loadSearchFromContext
 (
 terms
+usePrivate
 triggeringPrincipal
 csp
 )
@@ -21597,6 +21608,7 @@ _loadSearch
 (
 terms
 true
+usePrivate
 "
 contextmenu
 "

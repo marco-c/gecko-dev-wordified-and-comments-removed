@@ -597,6 +597,7 @@ _loadSearch
 foo
 "
 false
+false
 "
 contextmenu
 "
