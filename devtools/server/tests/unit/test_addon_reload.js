@@ -25,10 +25,6 @@ jsm
 "
 )
 ;
-startupAddonsManager
-(
-)
-;
 function
 promiseAddonEvent
 (
@@ -218,6 +214,11 @@ testReloadExitedAddon
 (
 )
 {
+await
+startupAddonsManager
+(
+)
+;
 DebuggerServer
 .
 init
