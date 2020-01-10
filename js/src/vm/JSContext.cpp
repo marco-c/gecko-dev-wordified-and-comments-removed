@@ -6698,10 +6698,7 @@ locked
 {
 currentThread_
 =
-Thread
-:
-:
-Id
+ThreadId
 (
 )
 ;

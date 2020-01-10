@@ -144,11 +144,6 @@ Thread
 {
 public
 :
-using
-Id
-=
-ThreadId
-;
 class
 Options
 {
@@ -271,7 +266,7 @@ Options
 :
 id_
 (
-Id
+ThreadId
 (
 )
 )
@@ -332,7 +327,7 @@ MOZ_RELEASE_ASSERT
 id_
 =
 =
-Id
+ThreadId
 (
 )
 )
@@ -453,7 +448,7 @@ joinable
 (
 )
 ;
-Id
+ThreadId
 get_id
 (
 )
@@ -499,7 +494,7 @@ Thread
 =
 delete
 ;
-Id
+ThreadId
 id_
 ;
 Options

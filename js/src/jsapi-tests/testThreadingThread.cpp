@@ -298,10 +298,7 @@ CHECK
 js
 :
 :
-Thread
-:
-:
-Id
+ThreadId
 (
 )
 =
@@ -309,10 +306,7 @@ Id
 js
 :
 :
-Thread
-:
-:
-Id
+ThreadId
 (
 )
 )
@@ -320,10 +314,7 @@ Id
 js
 :
 :
-Thread
-:
-:
-Id
+ThreadId
 fromOther
 ;
 js
@@ -371,10 +362,7 @@ fromOther
 js
 :
 :
-Thread
-:
-:
-Id
+ThreadId
 fromMain
 =
 thread

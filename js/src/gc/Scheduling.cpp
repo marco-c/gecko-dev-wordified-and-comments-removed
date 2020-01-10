@@ -43,6 +43,15 @@ ZoneAllocator
 .
 h
 "
+#
+include
+"
+vm
+/
+MutexIDs
+.
+h
+"
 using
 namespace
 js
