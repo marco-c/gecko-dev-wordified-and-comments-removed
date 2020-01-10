@@ -8261,15 +8261,6 @@ JSRuntime
 rt
 )
 ;
-extern
-void
-FreeScriptData
-(
-JSRuntime
-*
-rt
-)
-;
 }
 namespace
 JS
