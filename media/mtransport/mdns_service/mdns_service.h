@@ -46,6 +46,10 @@ MDNSService
 *
 mdns_service_start
 (
+const
+char
+*
+ifaddr
 )
 ;
 void
