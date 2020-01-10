@@ -347,6 +347,16 @@ getOwnPropertyDescriptor
 obj
 property
 )
+|
+|
+this
+.
+obj
+.
+getOwnPropertyDescriptor
+(
+property
+)
 ;
 if
 (
