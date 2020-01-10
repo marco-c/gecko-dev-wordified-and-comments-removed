@@ -3715,6 +3715,12 @@ IsFrameOfType
 (
 eSupportsContainLayoutAndPaint
 )
+&
+&
+!
+IsTableWrapperFrame
+(
+)
 )
 {
 AddStateBits
