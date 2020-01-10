@@ -7271,7 +7271,7 @@ checkErrors
 (
 [
 "
-Error
+Warning
 processing
 xxx
 :
@@ -7279,7 +7279,7 @@ Unknown
 property
 "
 "
-Error
+Warning
 processing
 yyy
 :

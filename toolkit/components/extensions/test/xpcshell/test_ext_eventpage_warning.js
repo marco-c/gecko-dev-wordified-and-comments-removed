@@ -413,7 +413,7 @@ message
 Reading
 manifest
 :
-Error
+Warning
 processing
 background
 .

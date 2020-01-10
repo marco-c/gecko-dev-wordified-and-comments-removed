@@ -224,7 +224,7 @@ message
 Reading
 manifest
 :
-Error
+Warning
 processing
 browser_action
 .

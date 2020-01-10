@@ -973,7 +973,7 @@ message
 Reading
 manifest
 :
-Error
+Warning
 processing
 commands
 .

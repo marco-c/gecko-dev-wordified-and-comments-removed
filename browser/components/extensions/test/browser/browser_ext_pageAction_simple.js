@@ -310,7 +310,7 @@ message
 Reading
 manifest
 :
-Error
+Warning
 processing
 page_action
 .
