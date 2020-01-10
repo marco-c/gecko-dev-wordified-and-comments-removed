@@ -352,10 +352,7 @@ lazyClosedOverBindingIndex
 )
 sourceKind_
 (
-SourceKind
-:
-:
-Text
+kind
 )
 {
 }
