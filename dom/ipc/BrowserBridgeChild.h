@@ -59,6 +59,9 @@ class
 ContentChild
 ;
 class
+Document
+;
+class
 BrowserBridgeChild
 :
 public
@@ -385,6 +388,14 @@ BrowserBridgeChild
 (
 )
 ;
+void
+UnblockOwnerDocsLoadEvent
+(
+Document
+*
+aOwnerDoc
+)
+;
 TabId
 mId
 ;
@@ -393,6 +404,11 @@ mLayersId
 ;
 bool
 mIPCOpen
+;
+bool
+mHadInitialLoad
+=
+false
 ;
 RefPtr
 <
