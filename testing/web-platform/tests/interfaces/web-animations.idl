@@ -94,6 +94,9 @@ Constructor
 optional
 DocumentTimelineOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -296,6 +299,9 @@ updateTiming
 optional
 OptionalEffectTiming
 timing
+=
+{
+}
 )
 ;
 }
@@ -489,6 +495,9 @@ or
 KeyframeEffectOptions
 )
 options
+=
+{
+}
 )
 Constructor
 (
@@ -716,6 +725,9 @@ or
 KeyframeAnimationOptions
 )
 options
+=
+{
+}
 )
 ;
 sequence
@@ -727,6 +739,9 @@ getAnimations
 optional
 GetAnimationsOptions
 options
+=
+{
+}
 )
 ;
 }
@@ -799,6 +814,9 @@ type
 optional
 AnimationPlaybackEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface
