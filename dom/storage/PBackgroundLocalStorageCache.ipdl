@@ -158,6 +158,8 @@ Observe
 (
 PrincipalInfo
 principalInfo
+PrincipalInfo
+cachePrincipalInfo
 uint32_t
 privateBrowsingId
 nsString
