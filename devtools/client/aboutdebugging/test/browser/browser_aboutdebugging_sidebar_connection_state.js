@@ -1013,6 +1013,16 @@ setupPreferences
 (
 )
 {
+if
+(
+SpecialPowers
+.
+isDebugBuild
+)
+{
+return
+;
+}
 await
 pushPref
 (
