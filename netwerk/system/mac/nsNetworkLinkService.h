@@ -88,9 +88,6 @@ mLinkUp
 bool
 mStatusKnown
 ;
-bool
-mAllowChangedEvent
-;
 SCNetworkReachabilityRef
 mReachability
 ;
