@@ -1440,6 +1440,10 @@ bool
 aWillRecord
 )
 {
+mRecordFrames
+=
+aWillRecord
+;
 }
 already_AddRefed
 <
@@ -1680,6 +1684,12 @@ Rect
 aVisibleRect
 )
 ;
+bool
+ShouldRecordFrames
+(
+)
+const
+;
 TimeStamp
 mLastCompositionEndTime
 ;
@@ -1720,6 +1730,11 @@ gfx
 :
 Color
 mDefaultClearColor
+;
+bool
+mRecordFrames
+=
+false
 ;
 private
 :
