@@ -350,11 +350,6 @@ CamerasTypes
 h
 '
 '
-DeviceChangeCallback
-.
-h
-'
-'
 MediaChild
 .
 h
