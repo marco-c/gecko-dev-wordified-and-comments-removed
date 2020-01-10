@@ -240,7 +240,10 @@ nsCString
 &
 hostname
 const
+Maybe
+<
 nsCString
+>
 &
 address
 )
@@ -287,12 +290,7 @@ end
 {
 if
 (
-!
 address
-.
-IsEmpty
-(
-)
 )
 {
 for
@@ -328,7 +326,8 @@ mTokenizedCandidate
 ]
 =
 address
-.
+-
+>
 BeginReading
 (
 )

@@ -38,7 +38,10 @@ nsCString
 &
 hostname
 const
+Maybe
+<
 nsCString
+>
 &
 address
 )
@@ -177,7 +180,10 @@ nsCString
 &
 aHostname
 const
+Maybe
+<
 nsCString
+>
 &
 aAddress
 )

@@ -90,7 +90,10 @@ nsCString
 &
 hostname
 const
+Maybe
+<
 nsCString
+>
 &
 address
 )
@@ -214,7 +217,10 @@ nsCString
 &
 hostname
 const
+Maybe
+<
 nsCString
+>
 &
 address
 )
