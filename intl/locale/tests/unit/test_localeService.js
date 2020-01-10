@@ -1115,7 +1115,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 PREF_REQUESTED_LOCALES
 "

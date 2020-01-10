@@ -916,13 +916,13 @@ negotiateLanguages
 in
 Array
 <
-ACString
+AUTF8String
 >
 aRequested
 in
 Array
 <
-ACString
+AUTF8String
 >
 aAvailable
 [
