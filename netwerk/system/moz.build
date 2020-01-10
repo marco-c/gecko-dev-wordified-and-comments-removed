@@ -147,6 +147,9 @@ DIRS
 '
 android
 '
+'
+netlink
+'
 ]
 elif
 CONFIG
