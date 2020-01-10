@@ -807,6 +807,15 @@ rules
 /
 UCARules
 "
+"
+-
+/
+collations
+/
+*
+/
+Sequence
+"
 ]
 }
 ]
