@@ -51,7 +51,7 @@ AstMatcher
 override
 ;
 void
-registerPPCallbacks
+registerCompilerInstance
 (
 CompilerInstance
 &

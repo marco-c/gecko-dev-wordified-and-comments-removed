@@ -49,7 +49,7 @@ void
 MustOverrideChecker
 :
 :
-registerPPCallbacks
+registerCompilerInstance
 (
 CompilerInstance
 &
