@@ -468,13 +468,6 @@ Element
 aTargetElement
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
-DidAbsolutePosition
-(
-)
-;
 nsresult
 AppendInnerFormatNodes
 (
