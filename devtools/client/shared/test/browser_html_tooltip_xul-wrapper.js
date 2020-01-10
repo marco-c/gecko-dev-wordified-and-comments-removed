@@ -69,7 +69,7 @@ js
 const
 TOOLTIP_HEIGHT
 =
-200
+160
 ;
 const
 TOOLTIP_WIDTH
