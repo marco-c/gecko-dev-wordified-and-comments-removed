@@ -1851,7 +1851,7 @@ RasterizeSingleBlob
 GRAPHICS
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aSize
 .
