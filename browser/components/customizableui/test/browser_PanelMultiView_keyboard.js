@@ -706,10 +706,10 @@ gMainTextbox
 =
 document
 .
-createXULElement
+createElement
 (
 "
-textbox
+input
 "
 )
 ;
