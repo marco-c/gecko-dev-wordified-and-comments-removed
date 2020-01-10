@@ -100,6 +100,9 @@ message
 optional
 PostMessageOptions
 options
+=
+{
+}
 )
 ;
 /
@@ -305,6 +308,9 @@ scriptURL
 optional
 RegistrationOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -575,6 +581,9 @@ message
 optional
 PostMessageOptions
 options
+=
+{
+}
 )
 ;
 }
@@ -703,6 +712,9 @@ matchAll
 optional
 ClientQueryOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -774,6 +786,9 @@ type
 optional
 ExtendableEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =
@@ -917,6 +932,9 @@ type
 optional
 ExtendableMessageEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =
@@ -1054,6 +1072,9 @@ request
 optional
 CacheQueryOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -1074,6 +1095,9 @@ request
 optional
 CacheQueryOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -1134,6 +1158,9 @@ request
 optional
 CacheQueryOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -1154,6 +1181,9 @@ request
 optional
 CacheQueryOptions
 options
+=
+{
+}
 )
 ;
 }
@@ -1204,6 +1234,9 @@ request
 optional
 MultiCacheQueryOptions
 options
+=
+{
+}
 )
 ;
 [
