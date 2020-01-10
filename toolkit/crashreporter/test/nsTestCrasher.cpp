@@ -623,7 +623,7 @@ endif
 #
 ifdef
 MOZ_PHC
-char
+uint8_t
 *
 GetPHCAllocation
 (
@@ -647,12 +647,12 @@ i
 +
 )
 {
-char
+uint8_t
 *
 p
 =
 (
-char
+uint8_t
 *
 )
 malloc
@@ -952,7 +952,7 @@ case
 CRASH_PHC_USE_AFTER_FREE
 :
 {
-char
+uint8_t
 *
 p
 =
@@ -976,7 +976,7 @@ case
 CRASH_PHC_DOUBLE_FREE
 :
 {
-char
+uint8_t
 *
 p
 =
