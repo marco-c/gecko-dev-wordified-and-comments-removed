@@ -12,7 +12,7 @@ h
 #
 include
 "
-CommandEncoder
+RenderBundle
 .
 h
 "
@@ -29,11 +29,11 @@ mozilla
 namespace
 webgpu
 {
-CommandEncoder
+RenderBundle
 :
 :
 ~
-CommandEncoder
+RenderBundle
 (
 )
 =
@@ -41,12 +41,12 @@ default
 ;
 GPU_IMPL_CYCLE_COLLECTION
 (
-CommandEncoder
+RenderBundle
 mParent
 )
 GPU_IMPL_JS_WRAP
 (
-CommandEncoder
+RenderBundle
 )
 }
 }

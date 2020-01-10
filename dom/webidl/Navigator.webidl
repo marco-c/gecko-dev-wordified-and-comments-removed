@@ -510,6 +510,10 @@ Navigator
 includes
 NavigatorAutomationInformation
 ;
+Navigator
+includes
+GPUProvider
+;
 interface
 mixin
 NavigatorID

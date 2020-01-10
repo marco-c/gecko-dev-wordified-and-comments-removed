@@ -5453,11 +5453,6 @@ WebGPU
 webidl
 '
 '
-WebGPUExtras
-.
-webidl
-'
-'
 WebSocket
 .
 webidl
@@ -5997,6 +5992,11 @@ webidl
 '
 '
 GamepadEvent
+.
+webidl
+'
+'
+GPUUncapturedErrorEvent
 .
 webidl
 '

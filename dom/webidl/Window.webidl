@@ -4487,10 +4487,6 @@ intlUtils
 ;
 }
 ;
-Window
-includes
-WebGPUProvider
-;
 partial
 interface
 Window
