@@ -2706,12 +2706,11 @@ else
 {
 ok
 (
+!
+!
 allMessages
 .
 length
-!
-=
-0
 "
 Some
 console

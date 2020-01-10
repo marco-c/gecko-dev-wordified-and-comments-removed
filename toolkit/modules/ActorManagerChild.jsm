@@ -488,12 +488,10 @@ actors
 }
 if
 (
+!
 actors
 .
 length
-=
-=
-0
 )
 {
 this

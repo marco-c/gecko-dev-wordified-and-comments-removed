@@ -1865,14 +1865,12 @@ isPlatformCompatible
 {
 if
 (
+!
 this
 .
 targetPlatforms
 .
 length
-=
-=
-0
 )
 {
 return
@@ -3813,8 +3811,6 @@ repositoryScreenshots
 repositoryScreenshots
 .
 length
->
-0
 )
 {
 return

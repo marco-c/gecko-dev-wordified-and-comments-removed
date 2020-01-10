@@ -142,13 +142,13 @@ test
 ;
 ok
 (
+!
+!
 logger
 .
 appenders
 .
 length
->
-0
 "
 Loggers
 have

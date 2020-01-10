@@ -2600,8 +2600,6 @@ streamerMap
 requestPayload
 .
 length
->
-0
 )
 {
 this

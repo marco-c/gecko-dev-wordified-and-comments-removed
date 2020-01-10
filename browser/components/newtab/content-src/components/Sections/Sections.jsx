@@ -1224,11 +1224,11 @@ hasTopics
 topics
 &
 &
+!
+!
 topics
 .
 length
->
-0
 ;
 const
 shouldShowPocketCta

@@ -303,12 +303,10 @@ properties
 ;
 if
 (
+!
 files
 .
 length
-=
-=
-0
 )
 {
 if

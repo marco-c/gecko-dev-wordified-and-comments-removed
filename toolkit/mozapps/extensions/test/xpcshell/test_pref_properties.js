@@ -130,8 +130,6 @@ this
 expectedEvents
 .
 length
->
-0
 )
 {
 let

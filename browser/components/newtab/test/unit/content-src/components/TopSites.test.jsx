@@ -2616,6 +2616,8 @@ assert
 .
 isTrue
 (
+!
+!
 wrapper
 .
 find
@@ -2632,8 +2634,6 @@ auto
 )
 .
 length
->
-0
 )
 ;
 }

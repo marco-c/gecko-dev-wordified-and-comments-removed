@@ -337,8 +337,6 @@ if
 matchingProfiles
 .
 length
->
-0
 )
 {
 this

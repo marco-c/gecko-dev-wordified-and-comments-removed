@@ -3011,12 +3011,10 @@ extIds
 ;
 if
 (
+!
 extIds
 .
 length
-=
-=
-0
 )
 {
 return
@@ -3434,8 +3432,6 @@ changes
 )
 .
 length
->
-0
 )
 {
 this
@@ -4010,9 +4006,6 @@ result
 resolved
 .
 length
-!
-=
-0
 )
 {
 return
@@ -4191,8 +4184,6 @@ result
 resolved
 .
 length
->
-0
 )
 {
 const
@@ -4945,8 +4936,6 @@ changes
 )
 .
 length
->
-0
 )
 {
 this

@@ -4031,8 +4031,6 @@ if
 logModules
 .
 length
->
-0
 )
 {
 document
@@ -4134,8 +4132,6 @@ if
 logFile
 .
 length
->
-0
 )
 {
 document

@@ -501,12 +501,10 @@ run_next_update_test
 {
 if
 (
+!
 gTests
 .
 length
-=
-=
-0
 )
 {
 callback

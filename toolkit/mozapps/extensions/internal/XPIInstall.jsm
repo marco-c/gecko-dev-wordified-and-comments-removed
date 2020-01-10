@@ -2093,14 +2093,12 @@ loadManifest
 let
 locales
 =
+!
 extension
 .
 errors
 .
 length
-=
-=
-0
 ?
 await
 extension
@@ -2118,8 +2116,6 @@ extension
 errors
 .
 length
->
-0
 )
 {
 let
@@ -4912,8 +4908,6 @@ this
 _installedFiles
 .
 length
->
-0
 )
 {
 let
@@ -5051,8 +5045,6 @@ this
 _createdDirs
 .
 length
->
-0
 )
 {
 recursiveRemove
@@ -14959,8 +14951,6 @@ if
 blockers
 .
 length
->
-0
 )
 {
 await
@@ -15488,8 +15478,6 @@ this
 _inProgress
 .
 length
->
-0
 )
 {
 let

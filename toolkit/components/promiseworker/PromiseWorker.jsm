@@ -97,14 +97,12 @@ isEmpty
 )
 {
 return
+!
 this
 .
 _array
 .
 length
-=
-=
-0
 ;
 }
 }

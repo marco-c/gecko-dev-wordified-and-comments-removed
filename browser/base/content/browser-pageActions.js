@@ -5692,8 +5692,6 @@ bodyNode
 children
 .
 length
->
-0
 )
 {
 return

@@ -4259,8 +4259,6 @@ this
 sendTabTargets
 .
 length
->
-0
 )
 {
 this

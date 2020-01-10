@@ -1853,12 +1853,10 @@ responseType
 ;
 if
 (
+!
 handlers
 .
 length
-=
-=
-0
 &
 &
 responseType
@@ -2044,12 +2042,10 @@ RESPONSE_FIRST
 :
 if
 (
+!
 responses
 .
 length
-=
-=
-0
 )
 {
 return

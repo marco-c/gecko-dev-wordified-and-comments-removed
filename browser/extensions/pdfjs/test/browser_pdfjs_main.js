@@ -349,13 +349,13 @@ Assert
 .
 ok
 (
+!
+!
 viewBookmark
 .
 href
 .
 length
->
-0
 "
 viewBookmark
 button

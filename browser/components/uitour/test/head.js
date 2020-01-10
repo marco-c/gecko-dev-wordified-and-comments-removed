@@ -2513,12 +2513,10 @@ nextTest
 {
 if
 (
+!
 tests
 .
 length
-=
-=
-0
 )
 {
 info

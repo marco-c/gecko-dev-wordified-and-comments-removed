@@ -2027,8 +2027,6 @@ while
 aMutations
 .
 length
->
-0
 )
 {
 var

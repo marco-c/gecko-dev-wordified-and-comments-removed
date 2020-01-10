@@ -7947,8 +7947,6 @@ if
 links
 .
 length
->
-0
 &
 &
 links

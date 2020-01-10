@@ -1846,8 +1846,6 @@ if
 foundLogins
 .
 length
->
-0
 )
 {
 selectedLogin
@@ -2731,8 +2729,6 @@ if
 foundLogins
 .
 length
->
-0
 )
 {
 selectedLogin
@@ -4237,14 +4233,12 @@ button
 ;
 if
 (
+!
 login
 .
 password
 .
 length
-=
-=
-0
 )
 {
 mainActionButton
@@ -4400,12 +4394,10 @@ autoSavedLoginGuid
 let
 msgNames
 =
+!
 logins
 .
 length
-=
-=
-0
 ?
 saveMsgNames
 :

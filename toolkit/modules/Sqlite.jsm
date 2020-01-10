@@ -5593,11 +5593,11 @@ Promise
 .
 resolve
 (
+!
+!
 rows
 .
 length
->
-0
 )
 ;
 }
@@ -5665,11 +5665,11 @@ Promise
 .
 resolve
 (
+!
+!
 rows
 .
 length
->
-0
 )
 ;
 }

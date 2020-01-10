@@ -90,8 +90,6 @@ searchResult
 values
 .
 length
->
-0
 ?
 Ci
 .
@@ -111,8 +109,6 @@ defaultIndex
 values
 .
 length
->
-0
 ?
 0
 :

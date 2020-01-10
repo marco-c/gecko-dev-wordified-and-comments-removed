@@ -818,11 +818,11 @@ card
 ;
 ok
 (
+!
+!
 cards
 .
 length
->
-0
 "
 There
 were
@@ -1144,11 +1144,11 @@ hidden
 ;
 ok
 (
+!
+!
 cards
 .
 length
->
-0
 "
 There
 are

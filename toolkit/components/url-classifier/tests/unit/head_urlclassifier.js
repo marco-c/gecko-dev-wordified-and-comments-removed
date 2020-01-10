@@ -1489,8 +1489,6 @@ if
 urls
 .
 length
->
-0
 )
 {
 var
@@ -1973,8 +1971,6 @@ if
 updates
 .
 length
->
-0
 )
 {
 var

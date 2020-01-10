@@ -760,8 +760,6 @@ if
 disabledIds
 .
 length
->
-0
 )
 {
 this
@@ -795,8 +793,6 @@ if
 uninstalledIds
 .
 length
->
-0
 )
 {
 this

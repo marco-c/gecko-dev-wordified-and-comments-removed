@@ -12926,8 +12926,6 @@ if
 results
 .
 length
->
-0
 )
 {
 return

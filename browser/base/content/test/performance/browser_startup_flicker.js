@@ -57,11 +57,11 @@ frames
 ;
 ok
 (
+!
+!
 frames
 .
 length
->
-0
 "
 Should
 have

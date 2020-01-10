@@ -723,12 +723,10 @@ Assert
 .
 ok
 (
+!
 expectedSearches
 .
 length
-=
-=
-0
 )
 ;
 }

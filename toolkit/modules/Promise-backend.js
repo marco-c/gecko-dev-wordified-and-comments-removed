@@ -2026,8 +2026,6 @@ N_INTERNALS
 handlers
 .
 length
->
-0
 )
 {
 this
@@ -2287,8 +2285,6 @@ this
 handlers
 .
 length
->
-0
 )
 {
 this

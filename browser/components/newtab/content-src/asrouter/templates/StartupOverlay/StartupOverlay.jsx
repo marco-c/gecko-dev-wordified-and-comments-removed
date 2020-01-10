@@ -598,6 +598,8 @@ value
 {
 has_flow_params
 :
+!
+!
 this
 .
 props
@@ -607,8 +609,6 @@ flowParams
 flowId
 .
 length
->
-0
 }
 ;
 return

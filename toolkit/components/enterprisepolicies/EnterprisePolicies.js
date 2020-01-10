@@ -872,8 +872,6 @@ while
 callbacks
 .
 length
->
-0
 )
 {
 let

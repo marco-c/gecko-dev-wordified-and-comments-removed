@@ -1831,11 +1831,11 @@ if
 stories
 &
 &
+!
+!
 stories
 .
 length
->
-0
 &
 &
 this
@@ -1976,11 +1976,11 @@ if
 topics
 &
 &
+!
+!
 topics
 .
 length
->
-0
 &
 &
 this

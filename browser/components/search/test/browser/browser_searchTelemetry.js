@@ -362,8 +362,6 @@ expectedScalars
 )
 .
 length
->
-0
 )
 {
 await

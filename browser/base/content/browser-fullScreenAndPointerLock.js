@@ -2076,8 +2076,6 @@ dismissed
 )
 .
 length
->
-0
 )
 {
 this
@@ -2352,8 +2350,6 @@ if
 notifications
 .
 length
->
-0
 )
 {
 this

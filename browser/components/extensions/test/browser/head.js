@@ -2204,12 +2204,10 @@ menu
 ;
 if
 (
+!
 topLevelMenu
 .
 length
-=
-=
-0
 )
 {
 return

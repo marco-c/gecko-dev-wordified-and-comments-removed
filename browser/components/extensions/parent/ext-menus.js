@@ -1347,8 +1347,6 @@ item
 children
 .
 length
->
-0
 )
 {
 element

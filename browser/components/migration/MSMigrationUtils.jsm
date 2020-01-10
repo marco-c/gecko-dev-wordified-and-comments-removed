@@ -2938,8 +2938,6 @@ while
 lines
 .
 length
->
-0
 )
 {
 let
@@ -2993,12 +2991,10 @@ record
 ;
 if
 (
+!
 value
 .
 length
-=
-=
-0
 )
 {
 continue
@@ -3061,8 +3057,6 @@ if
 host
 .
 length
->
-0
 )
 {
 Services
@@ -4344,8 +4338,6 @@ if
 logins
 .
 length
->
-0
 )
 {
 await

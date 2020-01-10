@@ -733,12 +733,10 @@ aProfile
 ;
 if
 (
+!
 resources
 .
 length
-=
-=
-0
 )
 {
 throw
@@ -1772,8 +1770,6 @@ resources
 resources
 .
 length
->
-0
 )
 {
 exists
@@ -1786,11 +1782,11 @@ else
 {
 exists
 =
+!
+!
 profiles
 .
 length
->
-0
 ;
 }
 }

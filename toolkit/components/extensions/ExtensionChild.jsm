@@ -3384,8 +3384,6 @@ permissions
 permissions
 .
 length
->
-0
 )
 {
 let
@@ -3435,8 +3433,6 @@ permissions
 origins
 .
 length
->
-0
 )
 {
 let
@@ -3514,8 +3510,6 @@ permissions
 permissions
 .
 length
->
-0
 )
 {
 let
@@ -3565,8 +3559,6 @@ permissions
 origins
 .
 length
->
-0
 )
 {
 let
@@ -5117,8 +5109,6 @@ extension
 optionalPermissions
 .
 length
->
-0
 )
 {
 this

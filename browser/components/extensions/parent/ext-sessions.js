@@ -868,8 +868,6 @@ if
 recentlyClosedTabs
 .
 length
->
-0
 )
 {
 recentlyClosedTabs

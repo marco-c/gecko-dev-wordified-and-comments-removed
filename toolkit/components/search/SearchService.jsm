@@ -7748,8 +7748,6 @@ if
 filteredEngineNames
 .
 length
->
-0
 )
 {
 engineNames

@@ -3045,11 +3045,11 @@ _iconClose
 ;
 ok
 (
+!
+!
 allButtons
 .
 length
->
-0
 "
 panel
 buttons
@@ -4594,11 +4594,11 @@ hasSuggestions
 {
 ok
 (
+!
+!
 localizedSuggestionsContent
 .
 length
->
-0
 Category
 suggestions
 should
@@ -4724,8 +4724,6 @@ if
 learnMoreLinks
 .
 length
->
-0
 )
 {
 ok

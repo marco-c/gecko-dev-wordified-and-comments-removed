@@ -3513,8 +3513,6 @@ payload
 tags
 .
 length
->
-0
 )
 {
 tagsContainer

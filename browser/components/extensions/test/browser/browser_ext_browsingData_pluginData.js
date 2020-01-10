@@ -197,8 +197,6 @@ elems
 elems
 .
 length
->
-0
 )
 {
 elems

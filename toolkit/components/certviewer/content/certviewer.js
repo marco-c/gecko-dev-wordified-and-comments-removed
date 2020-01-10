@@ -247,8 +247,6 @@ if
 items
 .
 length
->
-0
 )
 {
 certItems

@@ -13206,14 +13206,12 @@ closeWindow
 closeWindowFastpath
 &
 &
+!
 this
 .
 _removingTabs
 .
 length
-=
-=
-0
 )
 {
 this
@@ -25863,6 +25861,7 @@ context_closeTabsToTheEnd
 .
 disabled
 =
+!
 gBrowser
 .
 getTabsToTheEndFrom
@@ -25873,9 +25872,6 @@ contextTab
 )
 .
 length
-=
-=
-0
 ;
 let
 unpinnedTabsToClose

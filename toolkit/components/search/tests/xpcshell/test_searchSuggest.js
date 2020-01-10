@@ -3707,13 +3707,13 @@ Assert
 .
 ok
 (
+!
+!
 result
 .
 local
 .
 length
->
-0
 )
 ;
 Assert

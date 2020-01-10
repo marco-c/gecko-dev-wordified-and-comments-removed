@@ -10529,8 +10529,6 @@ if
 updateReasons
 .
 length
->
-0
 )
 {
 AddonManagerPrivate

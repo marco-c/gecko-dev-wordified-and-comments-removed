@@ -247,8 +247,6 @@ if
 entries
 .
 length
->
-0
 )
 {
 return
@@ -2565,8 +2563,6 @@ if
 available
 .
 length
->
-0
 )
 {
 items

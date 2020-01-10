@@ -3160,11 +3160,11 @@ tab
 ;
 show
 =
+!
+!
 tabs
 .
 length
->
-0
 ;
 }
 else

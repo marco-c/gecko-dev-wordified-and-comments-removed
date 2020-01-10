@@ -99,13 +99,13 @@ aPage
 tags
 &
 &
+!
+!
 aPage
 .
 tags
 .
 length
->
-0
 tagArray
 :
 aPage

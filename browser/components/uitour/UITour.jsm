@@ -2028,8 +2028,6 @@ data
 buttons
 .
 length
->
-0
 )
 {
 for
@@ -3968,12 +3966,10 @@ utm_
 )
 |
 |
+!
 value
 .
 length
-=
-=
-0
 |
 |
 !

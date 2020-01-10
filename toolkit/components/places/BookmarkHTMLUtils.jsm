@@ -1907,11 +1907,11 @@ filter
 aTag
 =
 >
+!
+!
 aTag
 .
 length
->
-0
 &
 &
 aTag
@@ -2992,8 +2992,6 @@ root
 children
 .
 length
->
-0
 )
 {
 if

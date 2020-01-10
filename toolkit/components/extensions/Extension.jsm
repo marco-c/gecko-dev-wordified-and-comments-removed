@@ -4377,8 +4377,6 @@ if
 entries
 .
 length
->
-0
 )
 {
 l10nRegistrySources
@@ -6493,14 +6491,12 @@ sideloadHeader
 let
 key
 =
+!
 result
 .
 msgs
 .
 length
-=
-=
-0
 ?
 "
 webextPerms
@@ -7770,8 +7766,6 @@ permissions
 origins
 .
 length
->
-0
 )
 {
 let
@@ -11936,8 +11930,6 @@ startupData
 chromeEntries
 .
 length
->
-0
 )
 {
 const

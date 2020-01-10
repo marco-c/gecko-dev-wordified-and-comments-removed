@@ -541,8 +541,6 @@ expect
 addresses
 .
 length
->
-0
 &
 &
 result
@@ -550,8 +548,6 @@ result
 addresses
 .
 length
->
-0
 )
 {
 ok

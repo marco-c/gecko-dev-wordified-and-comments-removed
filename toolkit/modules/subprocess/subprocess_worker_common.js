@@ -93,14 +93,12 @@ this
 closing
 &
 &
+!
 this
 .
 pending
 .
 length
-=
-=
-0
 )
 {
 this

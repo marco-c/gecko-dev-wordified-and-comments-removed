@@ -2700,6 +2700,8 @@ this
 _slowSQLStartup
 &
 &
+!
+!
 Object
 .
 keys
@@ -2710,9 +2712,6 @@ _slowSQLStartup
 )
 .
 length
-!
-=
-0
 &
 &
 (
@@ -2850,8 +2849,6 @@ stacks
 captures
 .
 length
->
-0
 )
 {
 payloadObj
@@ -4210,6 +4207,7 @@ REASON_GATHER_PAYLOAD
 ;
 if
 (
+!
 Object
 .
 keys
@@ -4220,9 +4218,6 @@ _slowSQLStartup
 )
 .
 length
-=
-=
-0
 )
 {
 this

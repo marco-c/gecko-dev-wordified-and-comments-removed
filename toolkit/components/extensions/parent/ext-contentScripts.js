@@ -318,8 +318,6 @@ details
 js
 .
 length
->
-0
 )
 {
 options
@@ -380,8 +378,6 @@ details
 css
 .
 length
->
-0
 )
 {
 options

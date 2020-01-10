@@ -18127,14 +18127,12 @@ Assert
 .
 ok
 (
+!
 f_t
 .
 argTypes
 .
 length
-=
-=
-0
 )
 ;
 Assert

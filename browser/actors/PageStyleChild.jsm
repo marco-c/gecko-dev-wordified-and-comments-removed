@@ -537,8 +537,6 @@ currentStyleSheet
 media
 .
 length
->
-0
 )
 {
 let

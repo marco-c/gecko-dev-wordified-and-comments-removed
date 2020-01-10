@@ -526,12 +526,10 @@ break
 }
 if
 (
+!
 reads
 .
 length
-=
-=
-0
 )
 {
 io
@@ -788,12 +786,10 @@ break
 }
 if
 (
+!
 writes
 .
 length
-=
-=
-0
 )
 {
 io

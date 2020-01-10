@@ -1327,8 +1327,6 @@ if
 modifiers
 .
 length
->
-0
 )
 {
 baseSelector

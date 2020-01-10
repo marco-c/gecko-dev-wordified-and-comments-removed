@@ -17656,12 +17656,10 @@ tab
 }
 if
 (
+!
 unchangedRemoteness
 .
 length
-=
-=
-0
 )
 {
 return
@@ -20953,8 +20951,6 @@ engines
 engines
 .
 length
->
-0
 )
 {
 searchBar

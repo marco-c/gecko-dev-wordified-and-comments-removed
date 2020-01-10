@@ -3399,14 +3399,12 @@ RESULT_TYPE_FOLDER
 }
 if
 (
+!
 this
 .
 uri
 .
 length
-=
-=
-0
 )
 {
 throw

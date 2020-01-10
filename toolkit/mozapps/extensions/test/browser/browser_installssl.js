@@ -416,12 +416,10 @@ run_next_install_test
 {
 if
 (
+!
 gTests
 .
 length
-=
-=
-0
 )
 {
 callback

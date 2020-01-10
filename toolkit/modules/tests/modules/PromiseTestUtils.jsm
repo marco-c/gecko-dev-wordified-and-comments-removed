@@ -630,8 +630,6 @@ this
 _rejections
 .
 length
->
-0
 )
 {
 let
@@ -758,8 +756,6 @@ this
 _rejectionIgnoreFns
 .
 length
->
-0
 )
 {
 Assert

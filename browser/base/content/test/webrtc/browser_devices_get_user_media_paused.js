@@ -356,12 +356,10 @@ live
 ;
 if
 (
+!
 liveClones
 .
 length
-=
-=
-0
 )
 {
 delete

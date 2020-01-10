@@ -1477,8 +1477,6 @@ searchAliases
 searchAliases
 .
 length
->
-0
 )
 {
 return

@@ -126,6 +126,7 @@ Assert
 .
 ok
 (
+!
 SearchStaticData
 .
 getAlternateDomains
@@ -138,9 +139,6 @@ com
 )
 .
 length
-=
-=
-0
 )
 ;
 let

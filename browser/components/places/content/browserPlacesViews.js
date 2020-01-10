@@ -3648,8 +3648,6 @@ popup
 _delayedRemovals
 .
 length
->
-0
 )
 {
 popup

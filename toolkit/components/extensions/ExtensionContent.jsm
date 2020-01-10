@@ -1525,13 +1525,13 @@ removeCSS
 &
 &
 (
+!
+!
 this
 .
 css
 .
 length
->
-0
 |
 |
 this
@@ -2320,8 +2320,6 @@ this
 css
 .
 length
->
-0
 )
 {
 context

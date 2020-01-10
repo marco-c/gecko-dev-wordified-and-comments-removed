@@ -3707,8 +3707,6 @@ n
 secondaryActions
 .
 length
->
-0
 )
 {
 let
@@ -4817,11 +4815,11 @@ _currentNotifications
 let
 haveNotifications
 =
+!
+!
 notifications
 .
 length
->
-0
 ;
 if
 (
@@ -5035,8 +5033,6 @@ if
 notificationsToShow
 .
 length
->
-0
 )
 {
 let
@@ -5252,8 +5248,6 @@ if
 notifications
 .
 length
->
-0
 )
 {
 let
@@ -5635,14 +5629,12 @@ return
 }
 if
 (
+!
 this
 .
 _currentNotifications
 .
 length
-=
-=
-0
 )
 {
 return
@@ -5922,8 +5914,6 @@ if
 ourNotifications
 .
 length
->
-0
 )
 {
 Cu
@@ -6109,8 +6099,6 @@ if
 otherNotifications
 .
 length
->
-0
 )
 {
 this
@@ -6126,8 +6114,6 @@ if
 ourNotifications
 .
 length
->
-0
 )
 {
 other

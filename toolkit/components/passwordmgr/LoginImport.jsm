@@ -134,8 +134,6 @@ data
 logins
 .
 length
->
-0
 )
 {
 throw

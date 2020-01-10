@@ -760,12 +760,10 @@ Date
 }
 if
 (
+!
 pageInfos
 .
 length
-=
-=
-0
 )
 {
 aCallback

@@ -3947,11 +3947,11 @@ Assert
 .
 ok
 (
+!
+!
 events
 .
 length
->
-0
 Should
 be
 expecting

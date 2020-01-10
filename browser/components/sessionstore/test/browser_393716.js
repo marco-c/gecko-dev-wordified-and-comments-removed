@@ -176,13 +176,13 @@ instanceof
 Array
 &
 &
+!
+!
 state
 .
 entries
 .
 length
->
-0
 "
 state
 object

@@ -3806,12 +3806,10 @@ value
 }
 if
 (
+!
 trs
 .
 length
-=
-=
-0
 )
 {
 (
@@ -4079,8 +4077,6 @@ entry
 message
 .
 length
->
-0
 &
 &
 entry
@@ -8233,6 +8229,8 @@ trim
 let
 hasColHeadings
 =
+!
+!
 Object
 .
 keys
@@ -8241,8 +8239,6 @@ colHeadings
 )
 .
 length
->
-0
 ;
 if
 (

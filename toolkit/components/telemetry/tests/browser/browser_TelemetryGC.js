@@ -290,13 +290,13 @@ array
 ;
 ok
 (
+!
+!
 gc
 .
 slices_list
 .
 length
->
-0
 "
 slices_list
 array

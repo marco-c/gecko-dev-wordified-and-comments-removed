@@ -1959,14 +1959,12 @@ listItem
 }
 if
 (
+!
 fragment
 .
 childNodes
 .
 length
-=
-=
-0
 )
 {
 let

@@ -8728,12 +8728,10 @@ urls
 let
 expectedTags
 =
+!
 tagsRemoved
 .
 length
-=
-=
-0
 ?
 [
 ]

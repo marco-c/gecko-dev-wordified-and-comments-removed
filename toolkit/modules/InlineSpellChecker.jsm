@@ -1619,8 +1619,6 @@ this
 mAddedWordStack
 .
 length
->
-0
 )
 {
 var
@@ -1670,13 +1668,13 @@ canUndo
 )
 {
 return
+!
+!
 this
 .
 mAddedWordStack
 .
 length
->
-0
 ;
 }
 ignoreWord

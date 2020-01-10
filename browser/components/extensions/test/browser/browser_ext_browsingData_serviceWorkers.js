@@ -492,8 +492,6 @@ while
 serviceWorkers
 .
 length
->
-0
 )
 {
 serviceWorkers

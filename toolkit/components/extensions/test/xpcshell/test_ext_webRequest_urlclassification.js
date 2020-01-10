@@ -79,11 +79,11 @@ enumeration
 ;
 ok
 (
+!
+!
 schema_enum
 .
 length
->
-0
 UrlClassificationFlags
 :
 {

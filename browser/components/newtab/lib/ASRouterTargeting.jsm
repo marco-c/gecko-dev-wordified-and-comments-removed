@@ -528,11 +528,11 @@ checker
 .
 _value
 =
+!
+!
 updates
 .
 length
->
-0
 ;
 resolve
 (

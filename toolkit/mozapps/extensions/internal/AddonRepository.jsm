@@ -1998,12 +1998,10 @@ aIds
 ;
 if
 (
+!
 ids
 .
 length
-=
-=
-0
 )
 {
 return
@@ -2140,12 +2138,10 @@ ids
 ;
 if
 (
+!
 addonsToCache
 .
 length
-=
-=
-0
 )
 {
 logger
@@ -2472,8 +2468,6 @@ if
 authors
 .
 length
->
-0
 )
 {
 addon

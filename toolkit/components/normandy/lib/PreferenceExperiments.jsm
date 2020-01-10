@@ -1435,8 +1435,6 @@ if
 preferencesWithConflicts
 .
 length
->
-0
 )
 {
 TelemetryEvents

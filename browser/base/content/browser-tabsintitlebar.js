@@ -343,6 +343,7 @@ window
 fullScreen
 &
 &
+!
 Object
 .
 keys
@@ -353,9 +354,6 @@ _disallowed
 )
 .
 length
-=
-=
-0
 ;
 if
 (

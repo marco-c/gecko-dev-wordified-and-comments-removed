@@ -2036,12 +2036,10 @@ timeout
 }
 if
 (
+!
 windowList
 .
 length
-=
-=
-0
 )
 {
 return

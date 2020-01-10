@@ -1210,8 +1210,6 @@ if
 openedFiles
 .
 length
->
-0
 )
 {
 msg
@@ -1245,8 +1243,6 @@ if
 openedDirectoryIterators
 .
 length
->
-0
 )
 {
 msg

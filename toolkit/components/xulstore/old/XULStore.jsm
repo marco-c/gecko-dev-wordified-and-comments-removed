@@ -1222,6 +1222,7 @@ attr
 ;
 if
 (
+!
 Object
 .
 getOwnPropertyNames
@@ -1230,9 +1231,6 @@ attrs
 )
 .
 length
-=
-=
-0
 )
 {
 delete
@@ -1243,6 +1241,7 @@ id
 ;
 if
 (
+!
 Object
 .
 getOwnPropertyNames
@@ -1251,9 +1250,6 @@ ids
 )
 .
 length
-=
-=
-0
 )
 {
 delete

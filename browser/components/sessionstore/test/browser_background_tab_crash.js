@@ -230,11 +230,11 @@ Assert
 .
 ok
 (
+!
+!
 tabs
 .
 length
->
-0
 "
 Need
 to

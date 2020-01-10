@@ -156,6 +156,7 @@ aVisit
 {
 if
 (
+!
 visits
 .
 filter
@@ -186,9 +187,6 @@ refVisit
 )
 .
 length
-=
-=
-0
 )
 {
 return

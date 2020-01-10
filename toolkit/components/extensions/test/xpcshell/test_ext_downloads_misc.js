@@ -1040,12 +1040,10 @@ true
 }
 if
 (
+!
 expected
 .
 length
-=
-=
-0
 )
 {
 events

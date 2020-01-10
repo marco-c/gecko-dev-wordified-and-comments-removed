@@ -1773,6 +1773,7 @@ BlockedLinks_isEmpty
 )
 {
 return
+!
 Object
 .
 keys
@@ -1783,9 +1784,6 @@ links
 )
 .
 length
-=
-=
-0
 ;
 }
 resetCache

@@ -3592,13 +3592,13 @@ Assert
 .
 ok
 (
+!
+!
 gfxData
 .
 adapters
 .
 length
->
-0
 "
 There
 must
@@ -4984,6 +4984,7 @@ experiments
 ;
 if
 (
+!
 Object
 .
 keys
@@ -4992,9 +4993,6 @@ experiments
 )
 .
 length
-=
-=
-0
 )
 {
 return

@@ -399,12 +399,10 @@ title
 ;
 if
 (
+!
 title
 .
 length
-=
-=
-0
 )
 {
 continue
@@ -492,12 +490,10 @@ Date
 }
 if
 (
+!
 pageInfos
 .
 length
-=
-=
-0
 )
 {
 aCallback
@@ -1086,8 +1082,6 @@ if
 logins
 .
 length
->
-0
 )
 {
 await

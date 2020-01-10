@@ -1587,8 +1587,6 @@ proxyData
 proxyData
 .
 length
->
-0
 )
 {
 return

@@ -4013,6 +4013,7 @@ Assert
 .
 ok
 (
+!
 Object
 .
 keys
@@ -4027,9 +4028,6 @@ scalars
 )
 .
 length
-=
-=
-0
 "
 Scalars
 must

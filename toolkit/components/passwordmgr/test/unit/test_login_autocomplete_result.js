@@ -5312,9 +5312,6 @@ pattern
 items
 .
 length
-!
-=
-0
 )
 {
 Assert

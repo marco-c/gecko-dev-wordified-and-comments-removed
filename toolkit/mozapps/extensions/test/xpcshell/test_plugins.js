@@ -406,11 +406,11 @@ Assert
 .
 ok
 (
+!
+!
 addons
 .
 length
->
-0
 )
 ;
 addons

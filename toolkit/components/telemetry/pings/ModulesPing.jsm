@@ -317,13 +317,13 @@ filter
 module
 =
 >
+!
+!
 module
 .
 name
 .
 length
->
-0
 )
 ;
 if

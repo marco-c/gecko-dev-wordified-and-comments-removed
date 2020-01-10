@@ -1721,14 +1721,12 @@ setup
 }
 if
 (
+!
 gCurrentTest
 .
 targets
 .
 length
-=
-=
-0
 )
 {
 info
@@ -1758,8 +1756,6 @@ if
 gTests
 .
 length
->
-0
 )
 {
 gCurrentTest

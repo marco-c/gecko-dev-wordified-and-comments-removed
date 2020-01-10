@@ -316,13 +316,13 @@ Assert
 .
 ok
 (
+!
+!
 entry
 .
 visits
 .
 length
->
-0
 "
 Should
 have

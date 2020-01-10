@@ -5546,12 +5546,10 @@ if
 localesString
 |
 |
+!
 localesString
 .
 length
-=
-=
-0
 )
 {
 return

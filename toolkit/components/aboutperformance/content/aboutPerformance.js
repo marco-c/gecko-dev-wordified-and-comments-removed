@@ -963,14 +963,12 @@ update
 {
 if
 (
+!
 this
 .
 _buffer
 .
 length
-=
-=
-0
 )
 {
 this

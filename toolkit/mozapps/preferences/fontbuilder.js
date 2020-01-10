@@ -105,8 +105,6 @@ if
 fonts
 .
 length
->
-0
 )
 {
 defaultFont
@@ -143,8 +141,6 @@ if
 fonts
 .
 length
->
-0
 )
 {
 defaultFont
@@ -206,8 +202,6 @@ if
 fonts
 .
 length
->
-0
 )
 {
 let

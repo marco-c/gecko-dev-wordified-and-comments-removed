@@ -666,8 +666,6 @@ if
 unknownKeys
 .
 length
->
-0
 )
 {
 throw
@@ -720,8 +718,6 @@ if
 missingRequiredKeys
 .
 length
->
-0
 )
 {
 throw

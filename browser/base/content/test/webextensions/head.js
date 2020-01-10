@@ -1031,12 +1031,10 @@ entries
 ;
 if
 (
+!
 permissions
 .
 length
-=
-=
-0
 )
 {
 is

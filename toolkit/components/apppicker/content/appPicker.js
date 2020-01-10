@@ -333,12 +333,10 @@ if
 fileList
 |
 |
+!
 fileList
 .
 length
-=
-=
-0
 )
 {
 document

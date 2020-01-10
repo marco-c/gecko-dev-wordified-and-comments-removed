@@ -511,8 +511,6 @@ added
 permissions
 .
 length
->
-0
 |
 |
 added
@@ -520,8 +518,6 @@ added
 origins
 .
 length
->
-0
 )
 {
 await
@@ -701,8 +697,6 @@ removed
 permissions
 .
 length
->
-0
 |
 |
 removed
@@ -710,8 +704,6 @@ removed
 origins
 .
 length
->
-0
 )
 {
 await

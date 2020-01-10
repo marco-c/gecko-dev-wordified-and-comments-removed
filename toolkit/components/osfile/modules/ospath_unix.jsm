@@ -245,12 +245,10 @@ component
 }
 if
 (
+!
 subpath
 .
 length
-=
-=
-0
 )
 {
 continue
@@ -396,12 +394,10 @@ case
 :
 if
 (
+!
 stack
 .
 length
-=
-=
-0
 )
 {
 if
