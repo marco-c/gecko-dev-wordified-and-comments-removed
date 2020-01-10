@@ -2161,7 +2161,6 @@ flags
 )
 ;
 if
-!
 self
 .
 is_in_shadow_tree
