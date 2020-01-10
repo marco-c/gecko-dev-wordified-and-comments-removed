@@ -924,11 +924,10 @@ this
 .
 _rendering
 =
-new
-Promise
 (
 async
-resolve
+(
+)
 =
 >
 {
@@ -967,11 +966,9 @@ graphName
 )
 ;
 }
-resolve
-(
-)
-;
 }
+)
+(
 )
 ;
 await
