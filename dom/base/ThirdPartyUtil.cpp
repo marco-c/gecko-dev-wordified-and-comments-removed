@@ -789,6 +789,13 @@ rv
 if
 (
 aURI
+&
+&
+!
+NS_IsAboutBlank
+(
+aURI
+)
 )
 {
 nsresult
