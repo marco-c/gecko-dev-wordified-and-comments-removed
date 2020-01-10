@@ -1994,6 +1994,9 @@ required
 preferenceType
 "
 "
+preferenceBranchType
+"
+"
 preferenceValue
 "
 ]
