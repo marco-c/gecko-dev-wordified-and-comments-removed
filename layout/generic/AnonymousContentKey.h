@@ -40,9 +40,15 @@ Flag_Resizer_Right
 Flag_Resizer_Bottom
 =
 0x10
-Flag_Resizer_Flip
+Flag_Resizer_BottomLeft
+=
+0x18
+Flag_Resizer_BottomRight
 =
 0x20
+Flag_Resizer_Bottom_Flip
+=
+0x28
 Flag_ScrollbarButton_Down
 =
 0x10
