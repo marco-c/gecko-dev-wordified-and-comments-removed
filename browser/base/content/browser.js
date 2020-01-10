@@ -1587,9 +1587,6 @@ defineLazyScriptGetter
 this
 [
 "
-setContextMenuContentData
-"
-"
 openContextMenu
 "
 "
