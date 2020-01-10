@@ -84,7 +84,7 @@ runTest
 vbox
 >
 <
-text
+label
 value
 =
 "

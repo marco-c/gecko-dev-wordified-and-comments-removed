@@ -18620,11 +18620,6 @@ SIMPLE_XUL_CREATE
 treecol
 NS_NewTreeColFrame
 )
-SIMPLE_XUL_CREATE
-(
-text
-NS_NewTextBoxFrame
-)
 SIMPLE_TAG_CHAIN
 (
 button
