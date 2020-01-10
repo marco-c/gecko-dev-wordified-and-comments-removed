@@ -408,7 +408,7 @@ copy
 env
 [
 '
-MOZ_FULL_PRODUCT_VERSION
+MOZ_PRODUCT_VERSION
 '
 ]
 =
