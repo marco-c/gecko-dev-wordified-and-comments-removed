@@ -434,6 +434,9 @@ integer
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 unsigned
