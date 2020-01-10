@@ -6252,6 +6252,9 @@ runtimeFromAnyThread
 (
 )
 ;
+AutoSetHelperThreadContext
+usesContext
+;
 TraceLoggerThread
 *
 logger
