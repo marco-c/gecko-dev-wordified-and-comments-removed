@@ -12011,17 +12011,6 @@ isString
 )
 ;
 }
-maybeBranchTestType
-(
-MIRType
-:
-:
-Object
-maybeInput
-tag
-fail
-)
-;
 branchTestUndefined
 (
 Assembler
