@@ -267,6 +267,15 @@ while
 (
 0
 )
+namespace
+mozilla
+{
+class
+JSONWriter
+;
+namespace
+baseprofiler
+{
 class
 PSMutex
 :
@@ -369,9 +378,6 @@ PlatformData
 }
 ;
 typedef
-mozilla
-:
-:
 UniquePtr
 <
 PlatformData
@@ -452,9 +458,6 @@ string
 aExitProfile
 )
 ;
-mozilla
-:
-:
 Vector
 <
 std
@@ -466,5 +469,7 @@ profiler_move_exit_profiles
 (
 )
 ;
+}
+}
 #
 endif

@@ -65,6 +65,12 @@ include
 <
 string
 >
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 class
 VTuneProfiler
 {
@@ -227,6 +233,8 @@ RegisterThread
 (
 name
 )
+}
+}
 #
 endif
 #

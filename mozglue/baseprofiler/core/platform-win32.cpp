@@ -44,6 +44,12 @@ WindowsVersion
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 int
 profiler_current_process_id
 (
@@ -1172,3 +1178,5 @@ patched_LdrResolveDelayLoadedAPI
 }
 #
 endif
+}
+}
