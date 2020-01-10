@@ -2492,7 +2492,7 @@ issue
 .
 fieldset
 .
-legend
+legend2
 "
 [
 FORM_NO_NAME
@@ -2541,7 +2541,7 @@ issue
 .
 optgroup
 .
-label
+label2
 "
 [
 FRAME_NO_NAME

@@ -465,7 +465,7 @@ issue
 -
 fieldset
 -
-legend
+legend2
 "
 args
 :
@@ -581,7 +581,7 @@ issue
 -
 optgroup
 -
-label
+label2
 "
 args
 :
