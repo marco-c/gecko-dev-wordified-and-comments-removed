@@ -1802,6 +1802,10 @@ if
 AppConstants
 .
 NIGHTLY_BUILD
+&
+&
+!
+isDevtools
 )
 {
 whitelist
