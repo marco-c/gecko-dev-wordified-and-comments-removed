@@ -3168,9 +3168,6 @@ frozenset
 stub
 "
 "
-helper
-"
-"
 manual
 "
 "
@@ -3179,14 +3176,13 @@ support
 "
 conformancechecker
 "
-"
-reftest_base
-"
 ]
 )
     
 all_types
 =
+set
+(
 manifestitem
 .
 item_types
@@ -3194,13 +3190,16 @@ item_types
 keys
 (
 )
+)
+    
+assert
+all_types
+>
+exclude_types
     
 include_types
 =
-set
-(
 all_types
-)
 -
 exclude_types
     

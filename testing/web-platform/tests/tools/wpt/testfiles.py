@@ -18,6 +18,89 @@ from
 six
 import
 iteritems
+try
+:
+    
+from
+.
+.
+manifest
+import
+manifest
+except
+ValueError
+:
+    
+from
+manifest
+import
+manifest
+MYPY
+=
+False
+if
+MYPY
+:
+    
+from
+typing
+import
+Any
+    
+from
+typing
+import
+Callable
+    
+from
+typing
+import
+Dict
+    
+from
+typing
+import
+Iterable
+    
+from
+typing
+import
+List
+    
+from
+typing
+import
+Optional
+    
+from
+typing
+import
+Pattern
+    
+from
+typing
+import
+Sequence
+    
+from
+typing
+import
+Set
+    
+from
+typing
+import
+Text
+    
+from
+typing
+import
+Tuple
+    
+from
+typing
+import
+Union
 here
 =
 os
@@ -95,6 +178,7 @@ args
 full_cmd
 =
 [
+u
 "
 git
 "
@@ -836,7 +920,7 @@ get_git_cmd
 wpt_root
 )
     
-files
+files_list
 =
 git
 (
@@ -867,7 +951,7 @@ split
     
 assert
 not
-files
+files_list
 [
 -
 1
@@ -877,7 +961,7 @@ files
 =
 set
 (
-files
+files_list
 [
 :
 -
@@ -1037,7 +1121,7 @@ ignore_rules
 [
 ]
     
-ignore_rules
+compiled_ignore_rules
 =
 [
 compile_ignore_rule
@@ -1100,7 +1184,7 @@ sep
 for
 rule
 in
-ignore_rules
+compiled_ignore_rules
 :
             
 if
@@ -1138,15 +1222,19 @@ def
 files_changed
 (
 revish
+                  
 ignore_rules
 =
 None
+                  
 include_uncommitted
 =
 False
+                  
 include_new
 =
 False
+                  
 )
 :
     
@@ -1287,11 +1375,6 @@ True
 )
 :
     
-from
-manifest
-import
-manifest
-    
 if
 manifest_path
 is
@@ -1333,6 +1416,7 @@ def
 affected_testfiles
 (
 files_changed
+                       
 skip_dirs
 =
 None
@@ -1340,9 +1424,11 @@ None
 manifest_path
 =
 None
+                       
 manifest_update
 =
 True
+                       
 )
 :
     
@@ -2039,7 +2125,7 @@ as
 fh
 :
                 
-file_contents
+raw_file_contents
 =
 fh
 .
@@ -2048,7 +2134,7 @@ read
 )
                 
 if
-file_contents
+raw_file_contents
 .
 startswith
 (
@@ -2063,7 +2149,7 @@ xff
                     
 file_contents
 =
-file_contents
+raw_file_contents
 .
 decode
 (
@@ -2078,7 +2164,7 @@ replace
 )
                 
 elif
-file_contents
+raw_file_contents
 .
 startswith
 (
@@ -2093,7 +2179,7 @@ xfe
                     
 file_contents
 =
-file_contents
+raw_file_contents
 .
 decode
 (
@@ -2112,7 +2198,7 @@ else
                     
 file_contents
 =
-file_contents
+raw_file_contents
 .
 decode
 (
@@ -2519,12 +2605,7 @@ revish
 ]
     
 if
-kwargs
-[
-"
 revish
-"
-]
 is
 None
 :
@@ -2541,6 +2622,13 @@ HEAD
 %
 branch_point
 (
+)
+    
+assert
+isinstance
+(
+revish
+str
 )
     
 return
@@ -2636,6 +2724,13 @@ path
 relpath
 (
 item
+.
+encode
+(
+"
+utf8
+"
+)
 wpt_root
 )
 +
@@ -2871,7 +2966,7 @@ item_types
                 
 item_types
 =
-[
+{
 "
 "
 .
@@ -2879,7 +2974,7 @@ join
 (
 item_types
 )
-]
+}
             
 results
 [

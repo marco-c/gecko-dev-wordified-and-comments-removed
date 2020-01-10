@@ -3,9 +3,14 @@ copy
 import
 copy
 from
+inspect
+import
+isabstract
+from
 six
 import
 iteritems
+with_metaclass
 from
 six
 .
@@ -38,6 +43,76 @@ from
 typing
 import
 Optional
+    
+from
+typing
+import
+Text
+    
+from
+typing
+import
+Dict
+    
+from
+typing
+import
+Tuple
+    
+from
+typing
+import
+List
+    
+from
+typing
+import
+Union
+    
+from
+typing
+import
+Type
+    
+from
+typing
+import
+Any
+    
+from
+typing
+import
+Sequence
+    
+from
+typing
+import
+Hashable
+    
+from
+.
+manifest
+import
+Manifest
+    
+Fuzzy
+=
+Dict
+[
+Optional
+[
+Tuple
+[
+Text
+Text
+Text
+]
+]
+List
+[
+int
+]
+]
 item_types
 =
 {
@@ -91,9 +166,6 @@ cls
 name
 bases
 attrs
-*
-*
-kwargs
 )
 :
         
@@ -107,16 +179,31 @@ cls
 name
 bases
 attrs
-*
-*
-kwargs
 )
         
 if
+not
+isabstract
+(
+rv
+)
+:
+            
+assert
+issubclass
+(
+rv
+ManifestItem
+)
+            
+assert
+isinstance
+(
 rv
 .
 item_type
-:
+str
+)
             
 item_types
 [
@@ -132,13 +219,12 @@ rv
 class
 ManifestItem
 (
-object
+with_metaclass
+(
+ManifestItemMeta
+)
 )
 :
-    
-__metaclass__
-=
-ManifestItemMeta
     
 __slots__
 =
@@ -151,20 +237,12 @@ path
 "
 )
     
-item_type
-=
-None
-    
 def
 __init__
 (
 self
 tests_root
-=
-None
 path
-=
-None
 )
 :
         
@@ -202,6 +280,29 @@ usually
 its
 url
 )
+"
+"
+"
+        
+pass
+    
+abstractproperty
+    
+def
+item_type
+(
+self
+)
+:
+        
+"
+"
+"
+The
+item
+'
+s
+type
 "
 "
 "
@@ -261,6 +362,8 @@ return
 False
         
 return
+bool
+(
 self
 .
 key
@@ -272,6 +375,7 @@ other
 .
 key
 (
+)
 )
     
 def
@@ -342,10 +446,8 @@ self
 :
         
 return
-[
-{
-}
-]
+(
+)
     
 classmethod
     
@@ -353,9 +455,13 @@ def
 from_json
 (
 cls
+                  
 manifest
+                  
 path
+                  
 obj
+                  
 )
 :
         
@@ -366,11 +472,21 @@ to_os_path
 path
 )
         
+tests_root
+=
+manifest
+.
+tests_root
+        
+assert
+tests_root
+is
+not
+None
+        
 return
 cls
 (
-manifest
-.
 tests_root
 path
 )
@@ -399,13 +515,19 @@ def
 __init__
 (
 self
+                 
 tests_root
+                 
 path
+                 
 url_base
+                 
 url
+                 
 *
 *
 extras
+                 
 )
 :
         
@@ -586,13 +708,13 @@ self
         
 rv
 =
-[
+(
 self
 .
 _url
 {
 }
-]
+)
         
 return
 rv
@@ -603,9 +725,13 @@ def
 from_json
 (
 cls
+                  
 manifest
+                  
 path
+                  
 obj
+                  
 )
 :
         
@@ -621,11 +747,21 @@ extras
 =
 obj
         
+tests_root
+=
+manifest
+.
+tests_root
+        
+assert
+tests_root
+is
+not
+None
+        
 return
 cls
 (
-manifest
-.
 tests_root
                    
 path
@@ -863,26 +999,27 @@ references
 "
 )
     
-item_type
-=
-"
-reftest_base
-"
-    
 def
 __init__
 (
 self
+                 
 tests_root
+                 
 path
+                 
 url_base
+                 
 url
+                 
 references
 =
 None
+                 
 *
 *
 extras
+                 
 )
 :
         
@@ -1039,11 +1176,26 @@ fuzzy
 if
 k
 is
-not
 None
 :
                 
+key
+=
+None
+            
+else
+:
+                
+assert
+len
+(
 k
+)
+=
+=
+3
+                
+key
 =
 tuple
 (
@@ -1052,7 +1204,7 @@ k
             
 rv
 [
-k
+key
 ]
 =
 v
@@ -1069,7 +1221,7 @@ self
         
 rv
 =
-[
+(
 self
 .
 _url
@@ -1078,7 +1230,7 @@ self
 references
 {
 }
-]
+)
         
 extras
 =
@@ -1180,11 +1332,27 @@ def
 from_json
 (
 cls
+                  
 manifest
+                  
 path
+                  
 obj
+                  
 )
 :
+        
+tests_root
+=
+manifest
+.
+tests_root
+        
+assert
+tests_root
+is
+not
+None
         
 path
 =
@@ -1202,8 +1370,6 @@ obj
 return
 cls
 (
-manifest
-.
 tests_root
                    
 path
@@ -1238,6 +1404,13 @@ self
 RefTest
 :
             
+assert
+isinstance
+(
+self
+RefTest
+)
+            
 return
 self
         
@@ -1253,6 +1426,13 @@ rv
 __class__
 =
 RefTest
+        
+assert
+isinstance
+(
+rv
+RefTest
+)
         
 return
 rv
@@ -1274,6 +1454,13 @@ self
 RefTestNode
 :
             
+assert
+isinstance
+(
+self
+RefTestNode
+)
+            
 return
 self
         
@@ -1289,6 +1476,13 @@ rv
 __class__
 =
 RefTestNode
+        
+assert
+isinstance
+(
+rv
+RefTestNode
+)
         
 return
 rv

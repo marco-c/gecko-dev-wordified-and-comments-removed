@@ -109,7 +109,80 @@ MYPY
 from
 typing
 import
+Any
+    
+from
+typing
+import
+Dict
+    
+from
+typing
+import
+IO
+    
+from
+typing
+import
+Iterable
+    
+from
+typing
+import
+List
+    
+from
+typing
+import
+Optional
+    
+from
+typing
+import
+Sequence
+    
+from
+typing
+import
+Set
+    
+from
+typing
+import
+Text
+    
+from
+typing
+import
+Tuple
+    
+from
+typing
+import
 Type
+    
+from
+typing
+import
+Union
+    
+Whitelist
+=
+Dict
+[
+Text
+Dict
+[
+Text
+Set
+[
+Optional
+[
+int
+]
+]
+]
+]
 logger
 =
 None
@@ -168,15 +241,26 @@ sys
 stdout
 )
         
-if
+parent
+=
 logger
 .
+parent
+        
+assert
+isinstance
+(
+parent
+logging
+.
+Logger
+)
+        
+if
 parent
 and
 len
 (
-logger
-.
 parent
 .
 handlers
@@ -219,6 +303,8 @@ else
         
 format
 =
+str
+(
 "
 %
 (
@@ -226,6 +312,7 @@ message
 )
 s
 "
+)
     
 formatter
 =
@@ -401,11 +488,14 @@ repo_root
 extras
 =
 [
+str
+(
 "
 .
 git
 /
 "
+)
 ]
 )
     
@@ -1505,16 +1595,46 @@ nt
 "
 :
             
+if
+isinstance
+(
+path
+binary_type
+)
+:
+                
 path
 =
 path
 .
 replace
 (
+b
 "
 \
 \
 "
+b
+"
+/
+"
+)
+            
+else
+:
+                
+path
+=
+path
+.
+replace
+(
+u
+"
+\
+\
+"
+u
 "
 /
 "
@@ -1650,7 +1770,7 @@ dir_path_non_test
                 
 continue
             
-name
+support_name
 =
 path
 [
@@ -1662,7 +1782,7 @@ offset
             
 support_files
 [
-name
+support_name
 ]
 .
 add
@@ -1691,25 +1811,58 @@ path
 else
 :
             
-name
+test_name
 =
 source_file
 .
 name
+            
+if
+isinstance
+(
+test_name
+bytes
+)
+:
+                
+test_name
+=
+test_name
 .
 replace
 (
+b
 '
 -
 manual
 '
+b
+'
+'
+)
+            
+else
+:
+                
+test_name
+=
+test_name
+.
+replace
+(
+u
+'
+-
+manual
+'
+u
 '
 '
 )
             
 test_files
 [
-name
+test_name
 ]
 .
 add
@@ -1846,7 +1999,7 @@ path
                 
 for
 spec
-paths
+spec_paths
 in
 iteritems
 (
@@ -1871,7 +2024,7 @@ x
 for
 x
 in
-paths
+spec_paths
 ]
 )
 :
@@ -1879,10 +2032,10 @@ paths
 for
 x
 in
-paths
+spec_paths
 :
                             
-context
+context1
 =
 (
 name
@@ -1894,7 +2047,7 @@ join
 (
 sorted
 (
-paths
+spec_paths
 )
 )
 )
@@ -1911,7 +2064,7 @@ error
 (
 x
                                                                            
-context
+context1
 )
 )
     
@@ -1977,7 +2130,7 @@ colliding
 )
 :
                     
-context
+context2
 =
 (
 name
@@ -2008,7 +2161,7 @@ rule_class
 error
 (
 x
-context
+context2
 )
 )
     
@@ -2122,36 +2275,30 @@ parts
 2
 :
             
+error_types_s
+file_match
+=
 parts
-.
-append
-(
+            
+line_number
+=
 None
-)
         
 else
 :
             
+error_types_s
+file_match
+line_number_s
+=
 parts
-[
--
-1
-]
+            
+line_number
 =
 int
 (
-parts
-[
--
-1
-]
+line_number_s
 )
-        
-error_types
-file_match
-line_number
-=
-parts
         
 error_types
 =
@@ -2164,7 +2311,7 @@ strip
 for
 item
 in
-error_types
+error_types_s
 .
 split
 (
@@ -4241,6 +4388,7 @@ rules
 BrokenGlobalMetadata
                        
 (
+(
 "
 Cannot
 specify
@@ -4255,6 +4403,7 @@ s
 (
 global_value
 excluded_value
+)
 )
 )
 )
@@ -4285,6 +4434,7 @@ rules
 BrokenGlobalMetadata
                            
 (
+(
 "
 Cannot
 exclude
@@ -4299,6 +4449,7 @@ included
 %
 (
 excluded_value
+)
 )
 )
 )
@@ -4944,6 +5095,12 @@ errors
 )
 :
     
+assert
+logger
+is
+not
+None
+    
 for
 error_type
 description
@@ -5007,6 +5164,12 @@ errors
 :
         
 return
+    
+assert
+logger
+is
+not
+None
     
 heading
 =
@@ -5196,6 +5359,12 @@ error_count
         
 return
     
+assert
+logger
+is
+not
+None
+    
 by_type
 =
 "
@@ -5318,9 +5487,7 @@ testfiles
 files_changed
 (
 revish
-set
-(
-)
+None
 include_uncommitted
 =
 True
@@ -5358,9 +5525,12 @@ kwargs
 .
 get
 (
+str
+(
 "
 paths
 "
+)
 )
 :
         
@@ -5376,9 +5546,14 @@ kwargs
 .
 get
 (
+str
+(
 "
 paths
 "
+)
+[
+]
 )
 :
             
@@ -5447,9 +5622,12 @@ wpt_root
 elif
 kwargs
 [
+str
+(
 "
 all
 "
+)
 ]
 :
         
@@ -5725,23 +5903,35 @@ kwargs
 )
 :
     
+assert
+logger
+is
+not
+None
+    
 if
 kwargs
 .
 get
 (
+str
+(
 "
 json
 "
+)
 )
 and
 kwargs
 .
 get
 (
+str
+(
 "
 markdown
 "
+)
 )
 :
         
@@ -5775,9 +5965,12 @@ kwargs
 .
 get
 (
+str
+(
 '
 repo_root
 '
+)
 )
 or
 localpaths
@@ -5792,27 +5985,36 @@ True
 False
 )
 :
+str
+(
 "
 json
 "
+)
                      
 (
 False
 True
 )
 :
+str
+(
 "
 markdown
 "
+)
                      
 (
 False
 False
 )
 :
+str
+(
 "
 normal
 "
+)
 }
 [
 (
@@ -5820,19 +6022,25 @@ kwargs
 .
 get
 (
+str
+(
 "
 json
 "
+)
 False
 )
-                                                
+                                                     
 kwargs
 .
 get
 (
+str
+(
 "
 markdown
 "
+)
 False
 )
 )
@@ -6224,6 +6432,18 @@ error_count
 if
 error_count
 :
+            
+assert
+last
+is
+not
+None
+            
+assert
+logger
+is
+not
+None
             
 for
 line

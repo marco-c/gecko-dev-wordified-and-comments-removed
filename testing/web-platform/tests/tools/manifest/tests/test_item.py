@@ -1,4 +1,6 @@
 import
+inspect
+import
 json
 import
 pytest
@@ -13,8 +15,9 @@ from
 .
 item
 import
-URLManifestItem
+TestharnessTest
 RefTest
+item_types
 pytest
 .
 mark
@@ -116,7 +119,7 @@ path
     
 m
 =
-URLManifestItem
+TestharnessTest
 (
 "
 /
@@ -262,7 +265,7 @@ path
     
 m
 =
-URLManifestItem
+TestharnessTest
 (
 "
 /
@@ -807,3 +810,35 @@ fuzzy
 t3
 .
 fuzzy
+def
+test_item_types
+(
+)
+:
+    
+for
+key
+value
+in
+item_types
+.
+items
+(
+)
+:
+        
+assert
+isinstance
+(
+key
+str
+)
+        
+assert
+not
+inspect
+.
+isabstract
+(
+value
+)

@@ -19,8 +19,25 @@ from
 .
 import
 manifest
+sourcefile
 item
 utils
+MYPY
+=
+False
+if
+MYPY
+:
+    
+from
+typing
+import
+Any
+    
+from
+typing
+import
+Type
 def
 SourceFileWithTest
 (
@@ -65,13 +82,19 @@ cls
 foobar
 "
 path
-*
-*
-kwargs
 )
     
 else
 :
+        
+assert
+issubclass
+(
+cls
+item
+.
+URLManifestItem
+)
         
 test
 =
@@ -160,10 +183,10 @@ item
 0
 ]
 *
+*
 item
 [
 1
-:
 ]
 )
 for
@@ -912,7 +935,7 @@ b
 '
 :
 [
-[
+(
 '
 a
 /
@@ -920,7 +943,7 @@ b
 '
 {
 }
-]
+)
 ]
             
 }
@@ -1065,7 +1088,7 @@ b
 '
 :
 [
-[
+(
 '
 a
 /
@@ -1073,7 +1096,7 @@ b
 '
 {
 }
-]
+)
 ]
             
 }
@@ -2471,6 +2494,8 @@ test2
 .
 html
 "
+{
+}
 )
                                                                            
 (
@@ -2481,6 +2506,8 @@ test2
 .
 html
 "
+{
+}
 )
 ]
 )
@@ -3345,7 +3372,7 @@ test1
 '
 :
 [
-[
+(
 '
 test1
 '
@@ -3358,7 +3385,7 @@ timeout
 long
 "
 }
-]
+)
 ]
 }
 }
