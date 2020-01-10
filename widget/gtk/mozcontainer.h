@@ -253,6 +253,8 @@ moz_container_get_wl_surface
 MozContainer
 *
 container
+int
+scale
 )
 ;
 struct
@@ -263,6 +265,8 @@ moz_container_get_wl_egl_window
 MozContainer
 *
 container
+int
+scale
 )
 ;
 gboolean
@@ -279,17 +283,6 @@ moz_container_surface_needs_clear
 MozContainer
 *
 container
-)
-;
-void
-moz_container_scale_changed
-(
-MozContainer
-*
-container
-GtkAllocation
-*
-aAllocation
 )
 ;
 void

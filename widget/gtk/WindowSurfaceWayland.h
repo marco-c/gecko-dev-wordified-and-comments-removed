@@ -1063,9 +1063,6 @@ mBufferNeedsClear
 bool
 mIsMainThread
 ;
-bool
-mNeedScaleFactorUpdate
-;
 RenderingCacheMode
 mRenderingCacheMode
 ;
