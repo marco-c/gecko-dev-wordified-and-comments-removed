@@ -2715,7 +2715,7 @@ addresses
 yuv
 -
 >
-mCrChannel
+mCbChannel
 ;
 widths
 [
