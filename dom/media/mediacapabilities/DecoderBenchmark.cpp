@@ -473,9 +473,6 @@ FrameRateLevels
 )
 ;
 nsCString
-KeyUtil
-:
-:
 FindLevel
 (
 const
@@ -682,9 +679,6 @@ NS_LITERAL_CSTRING
 ;
 }
 nsCString
-KeyUtil
-:
-:
 BitDepthToStr
 (
 uint8_t
@@ -746,10 +740,7 @@ NS_LITERAL_CSTRING
 ;
 }
 nsCString
-KeyUtil
-:
-:
-CreateKey
+CreateStoreKey
 (
 const
 DecoderBenchmarkInfo
@@ -880,10 +871,7 @@ StoreScore
 aBenchInfo
 .
 mContentType
-KeyUtil
-:
-:
-CreateKey
+CreateStoreKey
 (
 aBenchInfo
 )
@@ -962,10 +950,7 @@ GetScore
 aBenchInfo
 .
 mContentType
-KeyUtil
-:
-:
-CreateKey
+CreateStoreKey
 (
 aBenchInfo
 )

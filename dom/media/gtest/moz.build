@@ -183,11 +183,6 @@ TestAudioTrackEncoder
 cpp
 '
 '
-TestBenchmarkStorage
-.
-cpp
-'
-'
 TestBitWriter
 .
 cpp
@@ -208,11 +203,6 @@ TestDataMutex
 cpp
 '
 '
-TestDecoderBenchmark
-.
-cpp
-'
-'
 TestDriftCompensation
 .
 cpp
@@ -229,11 +219,6 @@ cpp
 '
 '
 TestIntervalSet
-.
-cpp
-'
-'
-TestKeyValueStorage
 .
 cpp
 '

@@ -22,9 +22,6 @@ AVG_WINDOW
 20
 ;
 void
-BenchmarkStorageParent
-:
-:
 MovingAverage
 (
 int32_t
@@ -94,9 +91,6 @@ aWindow
 ;
 }
 int32_t
-BenchmarkStorageParent
-:
-:
 ParseStoredValue
 (
 int32_t
@@ -142,9 +136,6 @@ score
 ;
 }
 int32_t
-BenchmarkStorageParent
-:
-:
 PrepareStoredValue
 (
 int32_t
