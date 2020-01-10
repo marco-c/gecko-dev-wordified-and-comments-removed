@@ -1131,7 +1131,7 @@ ctx
 .
 conn
 .
-getActor
+getFrontByID
 (
 actorID
 )

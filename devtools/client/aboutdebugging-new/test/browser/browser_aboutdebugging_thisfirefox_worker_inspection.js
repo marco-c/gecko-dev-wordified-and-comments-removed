@@ -88,7 +88,7 @@ thisFirefoxClient
 .
 client
 .
-getActor
+getFrontByID
 =
 id
 =

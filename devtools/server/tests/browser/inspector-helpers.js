@@ -556,7 +556,7 @@ front
 =
 client
 .
-getActor
+getFrontByID
 (
 actorID
 )

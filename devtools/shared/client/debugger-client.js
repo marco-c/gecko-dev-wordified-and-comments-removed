@@ -1937,7 +1937,7 @@ front
 =
 this
 .
-getActor
+getFrontByID
 (
 packet
 .
@@ -2101,7 +2101,7 @@ deprecatedThreadClient
 =
 this
 .
-getActor
+getFrontByID
 (
 packet
 .
@@ -3004,7 +3004,7 @@ pool
 )
 ;
 }
-getActor
+getFrontByID
 :
 function
 (

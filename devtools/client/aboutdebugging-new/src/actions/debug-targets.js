@@ -215,7 +215,7 @@ clientWrapper
 .
 client
 .
-getActor
+getFrontByID
 (
 id
 )
