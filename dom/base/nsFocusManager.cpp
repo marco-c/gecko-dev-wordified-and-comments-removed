@@ -15862,10 +15862,8 @@ currentContent
 if
 (
 currentTopLevelScopeOwner
-)
-{
-if
-(
+&
+&
 currentTopLevelScopeOwner
 =
 =
@@ -15928,11 +15926,6 @@ GetPrevContinuation
 )
 ;
 continue
-;
-}
-currentContent
-=
-currentTopLevelScopeOwner
 ;
 }
 if
@@ -16077,7 +16070,7 @@ if
 (
 IsHostOrSlot
 (
-currentContent
+currentTopLevelScopeOwner
 )
 )
 {
@@ -16089,7 +16082,7 @@ tabIndex
 =
 HostOrSlotTabIndexValue
 (
-currentContent
+currentTopLevelScopeOwner
 &
 focusableHostSlot
 )
@@ -16129,8 +16122,8 @@ contentToFocus
 =
 GetNextTabbableContentInScope
 (
-currentContent
-currentContent
+currentTopLevelScopeOwner
+currentTopLevelScopeOwner
 aOriginalStartContent
 aForward
 aForward
