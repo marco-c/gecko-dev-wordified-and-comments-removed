@@ -27143,7 +27143,7 @@ RecvPBackgroundIDBTransactionConstructor
 PBackgroundIDBTransactionParent
 *
 aActor
-InfallibleTArray
+nsTArray
 <
 nsString
 >
@@ -56839,7 +56839,7 @@ RecvPBackgroundIDBTransactionConstructor
 PBackgroundIDBTransactionParent
 *
 aActor
-InfallibleTArray
+nsTArray
 <
 nsString
 >
