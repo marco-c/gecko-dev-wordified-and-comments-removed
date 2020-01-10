@@ -146,6 +146,9 @@ LoadInfoArgs
 >
 &
 aLoadInfoArgs
+nsINode
+*
+aLoadingContext
 nsILoadInfo
 *
 *
@@ -511,6 +514,9 @@ bool
 aSkipContentSniffing
 uint32_t
 aRequestBlockingReason
+nsINode
+*
+aLoadingContext
 )
 ;
 LoadInfo
@@ -567,6 +573,9 @@ LoadInfoArgs
 >
 &
 aLoadInfoArgs
+nsINode
+*
+aLoadingContext
 nsILoadInfo
 *
 *
