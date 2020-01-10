@@ -1439,7 +1439,7 @@ document
 querySelector
 (
 "
-textbox
+vbox
 :
 not
 (
@@ -1449,6 +1449,8 @@ collapsed
 true
 ]
 )
+>
+input
 "
 )
 ;
