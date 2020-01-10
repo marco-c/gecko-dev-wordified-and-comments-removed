@@ -403,7 +403,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_PLUGINTAG_IID
 )
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIPLUGINTAG
 enum
 PluginState
@@ -541,6 +541,12 @@ TryUnloadPlugin
 (
 bool
 inShutdown
+)
+;
+static
+void
+EnsureSandboxInformation
+(
 )
 ;
 bool
