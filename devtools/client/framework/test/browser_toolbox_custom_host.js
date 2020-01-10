@@ -215,9 +215,7 @@ is
 (
 toolbox
 .
-win
-.
-top
+topWindow
 window
 "
 Toolbox

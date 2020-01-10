@@ -185,9 +185,7 @@ destroyed
 ;
 toolbox
 .
-win
-.
-top
+topWindow
 .
 close
 (
