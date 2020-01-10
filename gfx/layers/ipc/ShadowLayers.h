@@ -690,17 +690,6 @@ SynchronouslyShutdown
 (
 )
 ;
-virtual
-void
-WindowOverlayChanged
-(
-)
-{
-mWindowOverlayChanged
-=
-true
-;
-}
 bool
 IPCOpen
 (
@@ -1067,9 +1056,6 @@ mIsFirstPaint
 ;
 FocusTarget
 mFocusTarget
-;
-bool
-mWindowOverlayChanged
 ;
 nsTArray
 <

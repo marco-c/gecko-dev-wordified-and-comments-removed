@@ -2628,11 +2628,6 @@ diagnostics
 }
 ;
 struct
-OpWindowOverlayChanged
-{
-}
-;
-struct
 ShmemSection
 {
 Shmem
@@ -3044,8 +3039,6 @@ OpCreateCanvasLayer
 OpCreateRefLayer
 ;
 OpSetDiagnosticTypes
-;
-OpWindowOverlayChanged
 ;
 OpSetRoot
 ;

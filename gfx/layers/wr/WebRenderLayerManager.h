@@ -940,16 +940,6 @@ WrUpdated
 (
 )
 ;
-void
-WindowOverlayChanged
-(
-)
-{
-mWindowOverlayChanged
-=
-true
-;
-}
 nsIWidget
 *
 GetWidget
@@ -1074,9 +1064,6 @@ RenderRootArray
 WebRenderScrollData
 >
 mScrollDatas
-;
-bool
-mWindowOverlayChanged
 ;
 bool
 mNeedsComposite

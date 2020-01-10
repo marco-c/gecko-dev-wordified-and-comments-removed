@@ -186,10 +186,6 @@ mLatestTransactionId
 {
 0
 }
-mWindowOverlayChanged
-(
-false
-)
 mNeedsComposite
 (
 false
@@ -897,15 +893,6 @@ EndTransactionFlags
 aFlags
 )
 {
-if
-(
-mWindowOverlayChanged
-)
-{
-return
-false
-;
-}
 mAnimationReadyTime
 =
 TimeStamp
@@ -1816,10 +1803,6 @@ WrBridge
 builder
 resourceUpdates
 )
-;
-mWindowOverlayChanged
-=
-false
 ;
 if
 (

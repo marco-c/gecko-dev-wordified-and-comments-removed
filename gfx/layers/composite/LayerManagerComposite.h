@@ -770,16 +770,6 @@ severity
 }
 }
 void
-SetWindowOverlayChanged
-(
-)
-{
-mWindowOverlayChanged
-=
-true
-;
-}
-void
 SetPaintTime
 (
 const
@@ -1024,9 +1014,6 @@ mDiagnostics
 ;
 uint64_t
 mCompositorBridgeID
-;
-bool
-mWindowOverlayChanged
 ;
 TimeDuration
 mLastPaintTime
