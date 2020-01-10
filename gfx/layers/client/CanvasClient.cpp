@@ -1906,6 +1906,9 @@ ProducerAcquire
 (
 )
 ;
+bool
+ret
+=
 SharedSurface
 :
 :
@@ -1928,6 +1931,16 @@ ProducerRelease
 (
 )
 ;
+if
+(
+!
+ret
+)
+{
+return
+nullptr
+;
+}
 return
 dest
 .
