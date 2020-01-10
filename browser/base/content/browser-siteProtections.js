@@ -6570,7 +6570,7 @@ toast
 .
 timeout
 "
-5000
+3000
 )
 ;
 XPCOMUtils
@@ -8474,6 +8474,18 @@ this
 .
 toggleBreakageLink
 (
+)
+;
+this
+.
+iconBox
+.
+toggleAttribute
+(
+"
+hasException
+"
+newExceptionState
 )
 ;
 this
