@@ -94,7 +94,17 @@ dom
 =
 [
 '
+SessionStoreData
+.
+h
+'
+'
 SessionStoreListener
+.
+h
+'
+'
+SessionStoreMessageUtils
 .
 h
 '
