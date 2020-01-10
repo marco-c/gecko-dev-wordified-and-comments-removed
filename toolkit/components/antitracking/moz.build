@@ -181,6 +181,11 @@ StoragePrincipalHelper
 .
 h
 '
+'
+URLDecorationStripper
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -198,6 +203,11 @@ cpp
 '
 '
 StoragePrincipalHelper
+.
+cpp
+'
+'
+URLDecorationStripper
 .
 cpp
 '
