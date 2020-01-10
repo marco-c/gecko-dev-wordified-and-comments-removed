@@ -32375,6 +32375,10 @@ mPrototypeDocument
 =
 aPrototype
 ;
+mSynchronousDOMContentLoaded
+=
+true
+;
 }
 Document
 *

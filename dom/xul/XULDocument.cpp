@@ -1298,10 +1298,6 @@ EndLoad
 (
 )
 {
-mSynchronousDOMContentLoaded
-=
-true
-;
 Document
 :
 :
