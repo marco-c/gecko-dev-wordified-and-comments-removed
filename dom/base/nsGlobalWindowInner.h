@@ -7025,6 +7025,13 @@ ShouldResetBrowsingContextUserGestureActivation
 (
 )
 ;
+void
+FireFrameLoadEvent
+(
+bool
+aIsTrusted
+)
+;
 public
 :
 virtual
