@@ -1150,7 +1150,7 @@ handler
 bp
 -
 >
-destroy
+remove
 (
 fop
 )
@@ -1998,7 +1998,7 @@ dying
 bp
 -
 >
-destroy
+remove
 (
 fop
 )
