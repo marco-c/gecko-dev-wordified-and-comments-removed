@@ -291,6 +291,16 @@ DocAccessible
 aDoc
 )
 ;
+static
+HTMLSummaryAccessible
+*
+FromDetails
+(
+Accessible
+*
+aDetails
+)
+;
 virtual
 uint64_t
 NativeState
