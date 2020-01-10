@@ -875,10 +875,6 @@ mozilla
 gfx
 ;
 using
-namespace
-std
-;
-using
 base
 :
 :
@@ -1484,6 +1480,9 @@ Destroy
 }
 }
 typedef
+std
+:
+:
 map
 <
 LayersId
@@ -1630,6 +1629,9 @@ first
 }
 }
 typedef
+std
+:
+:
 map
 <
 uint64_t
