@@ -366,7 +366,7 @@ windows
         
 logger
 .
-error
+critical
 (
 "
 Unsupported

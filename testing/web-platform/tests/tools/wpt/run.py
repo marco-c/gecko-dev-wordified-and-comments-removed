@@ -526,7 +526,7 @@ msg
         
 logger
 .
-error
+critical
 (
 msg
 )

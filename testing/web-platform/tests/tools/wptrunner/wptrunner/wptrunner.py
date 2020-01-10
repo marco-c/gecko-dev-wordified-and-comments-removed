@@ -1130,7 +1130,7 @@ test_list
             
 logger
 .
-error
+critical
 (
 "
 Unable
@@ -1161,7 +1161,7 @@ test_list
                 
 logger
 .
-error
+critical
 (
 "
 %
@@ -1173,7 +1173,7 @@ path
             
 logger
 .
-error
+critical
 (
 "
 Please
@@ -2031,7 +2031,7 @@ else
                 
 logger
 .
-error
+critical
 (
 "
 No
