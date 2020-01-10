@@ -206,7 +206,7 @@ root
 content
 -
 >
-GetBindingParent
+GetClosestNativeAnonymousSubtreeRootParent
 (
 )
 )
