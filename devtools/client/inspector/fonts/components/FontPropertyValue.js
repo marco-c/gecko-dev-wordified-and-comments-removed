@@ -605,6 +605,16 @@ state
 initialValue
 ;
 }
+if
+(
+!
+this
+.
+props
+.
+valueLabel
+)
+{
 this
 .
 updateValue
@@ -612,6 +622,7 @@ updateValue
 value
 )
 ;
+}
 this
 .
 toggleInteractiveState
