@@ -2,6 +2,14 @@ browser
 /
 components
 /
+newtab
+/
+vendor
+/
+browser
+/
+components
+/
 translation
 /
 cld2
