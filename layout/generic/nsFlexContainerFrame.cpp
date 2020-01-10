@@ -7470,13 +7470,9 @@ IsInlineAxisMainAxis
 disp
 -
 >
-mOverflowX
-=
-=
-StyleOverflow
-:
-:
-Visible
+IsScrollableOverflow
+(
+)
 ;
 }
 nscoord
