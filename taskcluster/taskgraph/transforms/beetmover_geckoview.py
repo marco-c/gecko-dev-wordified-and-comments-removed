@@ -946,7 +946,9 @@ job
 *
 get_geckoview_template_vars
 (
+                    
 config
+                    
 job
 [
 '
@@ -958,6 +960,23 @@ attributes
 build_platform
 '
 ]
+                    
+job
+[
+'
+attributes
+'
+]
+.
+get
+(
+'
+update
+-
+channel
+'
+)
+                
 )
             
 )
@@ -1039,12 +1058,21 @@ attributes
 build_platform
 '
 ]
-release_properties
+job
 [
 '
-branch
+attributes
 '
 ]
+.
+get
+(
+'
+update
+-
+channel
+'
+)
     
 )
     
