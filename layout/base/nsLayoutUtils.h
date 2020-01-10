@@ -5426,16 +5426,6 @@ aPresContext
 ;
 static
 uint32_t
-FontSizeInflationMaxRatio
-(
-)
-{
-return
-sFontSizeInflationMaxRatio
-;
-}
-static
-uint32_t
 FontSizeInflationEmPerLine
 (
 )
@@ -6650,10 +6640,6 @@ sFontSizeInflationLineThreshold
 static
 int32_t
 sFontSizeInflationMappingIntercept
-;
-static
-uint32_t
-sFontSizeInflationMaxRatio
 ;
 static
 bool
