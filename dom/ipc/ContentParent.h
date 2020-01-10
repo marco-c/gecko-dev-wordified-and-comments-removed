@@ -3564,8 +3564,10 @@ PPSMContentDownloaderParent
 aDownloader
 )
 ;
+already_AddRefed
+<
 PExternalHelperAppParent
-*
+>
 AllocPExternalHelperAppParent
 (
 const
@@ -3626,14 +3628,6 @@ aReferrer
 PBrowserParent
 *
 aBrowser
-)
-;
-bool
-DeallocPExternalHelperAppParent
-(
-PExternalHelperAppParent
-*
-aService
 )
 ;
 mozilla

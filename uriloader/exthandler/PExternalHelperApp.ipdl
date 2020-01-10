@@ -85,6 +85,7 @@ mozilla
 namespace
 dom
 {
+refcounted
 protocol
 PExternalHelperApp
 {
