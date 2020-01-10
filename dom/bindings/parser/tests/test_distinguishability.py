@@ -1320,6 +1320,9 @@ any
 USVString
 "
 "
+JSString
+"
+"
 ArrayBuffer
 "
 "
@@ -1497,6 +1500,9 @@ Enum2
 "
 "
 USVString
+"
+"
+JSString
 "
 ]
     
@@ -1869,6 +1875,14 @@ setDistinguishable
 (
 "
 USVString
+"
+nonStrings
+)
+    
+setDistinguishable
+(
+"
+JSString
 "
 nonStrings
 )

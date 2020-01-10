@@ -13443,6 +13443,10 @@ usvstring
 '
         
 '
+jsstring
+'
+        
+'
 object
 '
         
@@ -13714,6 +13718,16 @@ False
     
 def
 isUSVString
+(
+self
+)
+:
+        
+return
+False
+    
+def
+isJSString
 (
 self
 )
@@ -15020,6 +15034,22 @@ isUSVString
 )
     
 def
+isJSString
+(
+self
+)
+:
+        
+return
+self
+.
+inner
+.
+isJSString
+(
+)
+    
+def
 isFloat
 (
 self
@@ -15693,6 +15723,16 @@ False
     
 def
 isUSVString
+(
+self
+)
+:
+        
+return
+False
+    
+def
+isJSString
 (
 self
 )
@@ -17355,6 +17395,22 @@ isUSVString
 )
     
 def
+isJSString
+(
+self
+)
+:
+        
+return
+self
+.
+inner
+.
+isJSString
+(
+)
+    
+def
 isVoid
 (
 self
@@ -18054,6 +18110,16 @@ False
     
 def
 isUSVString
+(
+self
+)
+:
+        
+return
+False
+    
+def
+isJSString
 (
 self
 )
@@ -19132,6 +19198,10 @@ usvstring
 '
         
 '
+jsstring
+'
+        
+'
 object
 '
         
@@ -19370,6 +19440,16 @@ IDLType
 Tags
 .
 usvstring
+        
+Types
+.
+jsstring
+:
+IDLType
+.
+Tags
+.
+jsstring
         
 Types
 .
@@ -20063,6 +20143,18 @@ IDLBuiltinType
 Types
 .
 usvstring
+or
+                
+self
+.
+_typeTag
+=
+=
+IDLBuiltinType
+.
+Types
+.
+jsstring
 )
     
 def
@@ -20121,6 +20213,25 @@ IDLBuiltinType
 Types
 .
 usvstring
+    
+def
+isJSString
+(
+self
+)
+:
+        
+return
+self
+.
+_typeTag
+=
+=
+IDLBuiltinType
+.
+Types
+.
+jsstring
     
 def
 isInteger
@@ -21898,6 +22009,35 @@ IDLBuiltinType
 .
 Types
 .
+jsstring
+:
+        
+IDLBuiltinType
+(
+BuiltinLocation
+(
+"
+<
+builtin
+type
+>
+"
+)
+"
+JSString
+"
+                       
+IDLBuiltinType
+.
+Types
+.
+jsstring
+)
+    
+IDLBuiltinType
+.
+Types
+.
 object
 :
         
@@ -23122,10 +23262,18 @@ isString
 (
 )
 and
+(
 type
 .
 isByteString
 (
+)
+or
+type
+.
+isJSString
+(
+)
 )
 :
             
@@ -38420,6 +38568,14 @@ USVSTRING
 "
         
 "
+JSString
+"
+:
+"
+JSSTRING
+"
+        
+"
 any
 "
 :
@@ -46032,6 +46188,9 @@ BYTESTRING
 USVSTRING
                   
 |
+JSSTRING
+                  
+|
 ANY
                   
 |
@@ -47685,6 +47844,37 @@ IDLBuiltinType
 Types
 .
 usvstring
+    
+def
+p_BuiltinStringTypeJSString
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+BuiltinStringType
+:
+JSSTRING
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+IDLBuiltinType
+.
+Types
+.
+jsstring
     
 def
 p_UnsignedIntegerTypeUnsigned
