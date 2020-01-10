@@ -75,12 +75,16 @@ BrowsingContextTargetFront
 constructor
 (
 client
+targetFront
+parentFront
 tab
 )
 {
 super
 (
 client
+targetFront
+parentFront
 )
 ;
 this

@@ -95,11 +95,15 @@ processDescriptorSpec
 constructor
 (
 client
+targetFront
+parentFront
 )
 {
 super
 (
 client
+targetFront
+parentFront
 )
 ;
 this
@@ -182,6 +186,8 @@ BrowsingContextTargetFront
 this
 .
 _client
+null
+this
 )
 ;
 }
@@ -195,6 +201,8 @@ ContentProcessTargetFront
 this
 .
 _client
+null
+this
 )
 ;
 }

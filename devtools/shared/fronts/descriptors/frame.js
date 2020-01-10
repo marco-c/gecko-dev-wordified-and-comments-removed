@@ -75,11 +75,15 @@ frameDescriptorSpec
 constructor
 (
 client
+targetFront
+parentFront
 )
 {
 super
 (
 client
+targetFront
+parentFront
 )
 ;
 this
@@ -150,6 +154,8 @@ BrowsingContextTargetFront
 this
 .
 _client
+null
+this
 )
 ;
 front
