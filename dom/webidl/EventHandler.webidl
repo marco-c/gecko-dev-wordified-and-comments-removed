@@ -228,10 +228,8 @@ OnErrorEventHandlerNonNull
 ?
 OnErrorEventHandler
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 GlobalEventHandlers
 {
 attribute
@@ -910,10 +908,8 @@ onunload
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 DocumentAndElementEventHandlers
 {
 attribute

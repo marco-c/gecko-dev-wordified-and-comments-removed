@@ -996,7 +996,7 @@ members
 }
 ;
 Window
-implements
+includes
 GlobalEventHandlers
 ;
 Window

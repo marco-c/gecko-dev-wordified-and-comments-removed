@@ -4349,11 +4349,11 @@ implements
 XPathEvaluator
 ;
 Document
-implements
+includes
 GlobalEventHandlers
 ;
 Document
-implements
+includes
 DocumentAndElementEventHandlers
 ;
 Document
