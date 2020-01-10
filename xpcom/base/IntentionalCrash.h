@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_IntentionalCrash_h
+#
+define
+mozilla_IntentionalCrash_h
+#
 include
 <
 string
@@ -47,12 +53,6 @@ h
 >
 #
 endif
-#
-ifndef
-mozilla_IntentionalCrash_h
-#
-define
-mozilla_IntentionalCrash_h
 namespace
 mozilla
 {
