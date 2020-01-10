@@ -111,6 +111,17 @@ ini
 test
 /
 browser
+-
+telemetry
+-
+startup
+.
+ini
+'
+'
+test
+/
+browser
 .
 ini
 '
