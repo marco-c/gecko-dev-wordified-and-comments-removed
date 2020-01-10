@@ -327,6 +327,11 @@ setUpdateTimerPrefs
 (
 )
 ;
+reloadUpdateManagerData
+(
+true
+)
+;
 removeUpdateFiles
 (
 true
