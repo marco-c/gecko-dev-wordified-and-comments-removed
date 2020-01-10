@@ -416,6 +416,10 @@ StartIceGathering
 (
 bool
 defaultRouteOnly
+string
+remoteIp
+uint16_t
+remotePort
 NrIceStunAddrArray
 stunAddrs
 )
