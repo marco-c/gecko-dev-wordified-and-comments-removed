@@ -505,6 +505,16 @@ _
 (
 BreakpointSite
 )
+\
+_
+(
+ForOfPIC
+)
+\
+_
+(
+ForOfPICStub
+)
 #
 define
 JS_FOR_EACH_MEMORY_USE
