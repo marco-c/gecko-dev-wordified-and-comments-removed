@@ -3086,7 +3086,7 @@ IsWin10OrLater
 StaticPrefs
 :
 :
-media_mwf_low_latency_force_disabled
+media_wmf_low_latency_force_disabled
 (
 )
 ;

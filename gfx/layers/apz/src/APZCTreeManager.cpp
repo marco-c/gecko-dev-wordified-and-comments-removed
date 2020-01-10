@@ -8022,7 +8022,7 @@ apz_drag_enabled
 StaticPrefs
 :
 :
-apz_touch_drag_enabled
+apz_drag_touch_enabled
 (
 )
 &
