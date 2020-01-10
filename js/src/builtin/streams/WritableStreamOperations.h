@@ -1,0 +1,12 @@
+#
+ifndef
+builtin_streams_WritableStreamOperations_h
+#
+define
+builtin_streams_WritableStreamOperations_h
+namespace
+js
+{
+}
+#
+endif
