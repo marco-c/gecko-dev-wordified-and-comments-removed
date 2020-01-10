@@ -12661,7 +12661,7 @@ ifdef
 MOZ_GECKO_PROFILER
 if
 (
-profiler_is_active
+profiler_can_accept_markers
 (
 )
 )
