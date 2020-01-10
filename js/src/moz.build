@@ -2734,6 +2734,13 @@ RegExp
 cpp
 '
 '
+dbg
+/
+NoExecute
+.
+cpp
+'
+'
 jsmath
 .
 cpp
