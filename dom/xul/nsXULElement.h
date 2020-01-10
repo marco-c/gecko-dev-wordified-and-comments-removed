@@ -1447,7 +1447,7 @@ bool
 aIsTrustedEvent
 )
 ;
-nsIContent
+Element
 *
 GetBindingParent
 (
@@ -1550,7 +1550,7 @@ override
 void
 SetXULBindingParent
 (
-nsIContent
+Element
 *
 aBindingParent
 )
@@ -2802,9 +2802,9 @@ nsAtom
 aName
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 mBindingParent
 ;

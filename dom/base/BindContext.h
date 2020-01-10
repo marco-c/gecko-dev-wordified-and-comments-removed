@@ -114,12 +114,6 @@ IsContent
 (
 )
 ?
-static_cast
-<
-Element
-*
->
-(
 aParentNode
 .
 AsContent
@@ -129,7 +123,6 @@ AsContent
 >
 GetBindingParent
 (
-)
 )
 :
 nullptr
