@@ -92,6 +92,7 @@ inl
 h
 "
 struct
+JS_PUBLIC_API
 JSContext
 ;
 namespace
