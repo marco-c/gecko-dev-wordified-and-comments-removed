@@ -36,6 +36,7 @@ maxdepth
 1
 checklist
 email
+git
 #
 #
 Test
