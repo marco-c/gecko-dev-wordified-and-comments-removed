@@ -905,6 +905,9 @@ document
 querySelectorAll
 (
 "
+discovery
+-
+pane
 img
 [
 src

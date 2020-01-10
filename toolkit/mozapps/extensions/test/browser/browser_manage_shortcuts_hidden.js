@@ -49,9 +49,11 @@ document
 getElementById
 (
 "
-shortcuts
+html
 -
 view
+-
+browser
 "
 )
 .
