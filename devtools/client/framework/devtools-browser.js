@@ -558,8 +558,6 @@ win
 gMultiProcessBrowser
 )
 ;
-try
-{
 const
 recordReplayEnabled
 =
@@ -586,13 +584,6 @@ menu_webreplay
 recordReplayEnabled
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 const
 isPopupFeatureFlagEnabled
 =
