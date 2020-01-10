@@ -13,6 +13,12 @@ functools
 import
 partial
 from
+mozbuild
+.
+base
+import
+MachCommandBase
+from
 mach
 .
 decorators
@@ -25,14 +31,6 @@ CommandArgument
     
 CommandProvider
 )
-import
-which
-from
-mozbuild
-.
-base
-import
-MachCommandBase
 here
 =
 os
@@ -433,22 +431,19 @@ False
 )
 :
         
-try
-:
-            
+from
+mozfile
+import
 which
-.
+        
+if
+not
 which
 (
 '
 jsdoc
 '
 )
-        
-except
-which
-.
-WhichError
 :
             
 return

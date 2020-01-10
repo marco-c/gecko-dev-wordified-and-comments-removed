@@ -8,8 +8,6 @@ os
 import
 signal
 import
-which
-import
 re
 try
 :
@@ -27,6 +25,10 @@ ImportError
 JSONDecodeError
 =
 ValueError
+from
+mozfile
+import
+which
 from
 mozlint
 import
@@ -531,27 +533,13 @@ binary
 return
 binary
     
-try
-:
-        
 return
-which
-.
 which
 (
 '
 codespell
 '
 )
-    
-except
-which
-.
-WhichError
-:
-        
-return
-None
 def
 lint
 (
