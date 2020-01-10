@@ -6624,6 +6624,7 @@ constructorSender
 IsForBrowser
 (
 )
+true
 )
 ;
 if

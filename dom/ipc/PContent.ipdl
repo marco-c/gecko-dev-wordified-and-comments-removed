@@ -2086,6 +2086,8 @@ ContentParentId
 cpId
 bool
 isForBrowser
+bool
+isTopLevel
 )
 ;
 both

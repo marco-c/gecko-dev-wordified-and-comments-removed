@@ -1009,6 +1009,8 @@ BrowsingContext
 aBrowsingContext
 uint32_t
 aChromeFlags
+bool
+aIsTopLevel
 )
 ;
 nsresult
@@ -1046,6 +1048,8 @@ BrowsingContext
 aBrowsingContext
 uint32_t
 aChromeFlags
+bool
+aIsTopLevel
 )
 ;
 bool
@@ -3943,6 +3947,9 @@ mChromeOffset
 ;
 TabId
 mUniqueId
+;
+bool
+mIsTopLevel
 ;
 bool
 mHasSiblings

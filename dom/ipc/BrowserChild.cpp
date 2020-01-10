@@ -2087,6 +2087,8 @@ BrowsingContext
 aBrowsingContext
 uint32_t
 aChromeFlags
+bool
+aIsTopLevel
 )
 {
 RefPtr
@@ -2133,6 +2135,7 @@ group
 aContext
 aBrowsingContext
 aChromeFlags
+aIsTopLevel
 )
 ;
 return
@@ -2170,6 +2173,8 @@ BrowsingContext
 aBrowsingContext
 uint32_t
 aChromeFlags
+bool
+aIsTopLevel
 )
 :
 TabContext
@@ -2247,6 +2252,10 @@ false
 mUniqueId
 (
 aTabId
+)
+mIsTopLevel
+(
+aIsTopLevel
 )
 mHasSiblings
 (
