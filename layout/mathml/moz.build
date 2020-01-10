@@ -117,13 +117,6 @@ MOCHITEST_MANIFESTS
 =
 [
 '
-imptests
-/
-mochitest
-.
-ini
-'
-'
 tests
 /
 mochitest
