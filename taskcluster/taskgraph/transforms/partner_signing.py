@@ -122,8 +122,6 @@ artifacts_specifications
 generate_specifications_of_artifacts_to_sign
 (
             
-config
-            
 dep_job
             
 keep_locale_template

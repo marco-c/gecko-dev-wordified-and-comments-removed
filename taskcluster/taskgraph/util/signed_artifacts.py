@@ -25,14 +25,6 @@ util
 taskcluster
 import
 get_artifact_path
-from
-taskgraph
-.
-util
-.
-declarative_artifacts
-import
-get_geckoview_upstream_artifacts
 def
 is_partner_kind
 (
@@ -70,8 +62,7 @@ def
 generate_specifications_of_artifacts_to_sign
 (
     
-config
-job
+task
 keep_locale_template
 =
 True
@@ -83,12 +74,9 @@ None
     
 build_platform
 =
-job
-[
-'
+task
+.
 attributes
-'
-]
 .
 get
 (
@@ -99,12 +87,9 @@ build_platform
     
 use_stub
 =
-job
-[
-'
+task
+.
 attributes
-'
-]
 .
 get
 (
@@ -141,7 +126,7 @@ artifacts
                 
 get_artifact_path
 (
-job
+task
 '
 source
 .
@@ -187,7 +172,7 @@ artifacts
                 
 get_artifact_path
 (
-job
+task
 '
 {
 locale
@@ -208,29 +193,6 @@ formats
 [
 '
 autograph_apk_fennec_sha1
-'
-]
-        
-}
-{
-            
-'
-artifacts
-'
-:
-get_geckoview_artifacts_to_sign
-(
-config
-job
-)
-            
-'
-formats
-'
-:
-[
-'
-autograph_gpg
 '
 ]
         
@@ -281,7 +243,7 @@ artifacts
 [
 get_artifact_path
 (
-job
+task
 '
 {
 {
@@ -342,7 +304,7 @@ artifacts
                 
 get_artifact_path
 (
-job
+task
 '
 {
 locale
@@ -377,7 +339,7 @@ artifacts
                 
 get_artifact_path
 (
-job
+task
 '
 {
 locale
@@ -429,7 +391,7 @@ artifacts
                 
 get_artifact_path
 (
-job
+task
 '
 {
 locale
@@ -465,7 +427,7 @@ artifacts
 [
 get_artifact_path
 (
-job
+task
 '
 {
 locale
@@ -853,63 +815,3 @@ input
     
 return
 artifacts
-def
-get_geckoview_artifacts_to_sign
-(
-config
-job
-)
-:
-    
-upstream_artifacts
-=
-get_geckoview_upstream_artifacts
-(
-config
-job
-)
-    
-return
-[
-        
-path
-        
-for
-upstream_artifact
-in
-upstream_artifacts
-        
-for
-path
-in
-upstream_artifact
-[
-'
-paths
-'
-]
-        
-if
-not
-path
-.
-endswith
-(
-'
-.
-md5
-'
-)
-and
-not
-path
-.
-endswith
-(
-'
-.
-sha1
-'
-)
-    
-]
