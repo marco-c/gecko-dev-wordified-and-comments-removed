@@ -3520,6 +3520,7 @@ frameLoader
 >
 MaybeNotifyCrashed
 (
+mBrowsingContext
 GetIPCChannel
 (
 )
