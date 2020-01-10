@@ -10252,7 +10252,12 @@ self
 _build_autotest_result
 (
 test_file_path_json
+json
+.
+dumps
+(
 issues
+)
 )
         
 else
