@@ -912,10 +912,6 @@ mProcessLinkHeaderEvent
 ;
 static
 int32_t
-sBackoffCount
-;
-static
-int32_t
 sNotificationInterval
 ;
 static
