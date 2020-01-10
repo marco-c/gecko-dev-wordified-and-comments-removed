@@ -234,7 +234,7 @@ size_of_test
 (
 test_size_of_rule_node
 RuleNode
-88
+80
 )
 ;
 size_of_test
