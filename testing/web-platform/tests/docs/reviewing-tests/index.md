@@ -346,7 +346,6 @@ yml
 files
 are
 used
-only
 to
 indicate
 who
@@ -377,8 +376,15 @@ feel
 free
 to
 add
-yourself
+your
+GitHub
+account
+username
 to
+the
+suggested_reviewers
+list
+in
 the
 META
 .
