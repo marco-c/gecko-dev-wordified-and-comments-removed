@@ -92,16 +92,9 @@ bool
 aHyphens
 )
 ;
-const
 void
 *
 mDict
-;
-uint32_t
-mDictSize
-;
-bool
-mOwnsDict
 ;
 bool
 mHyphenateCapitalized
