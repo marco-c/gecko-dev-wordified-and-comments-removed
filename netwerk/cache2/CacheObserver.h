@@ -115,7 +115,12 @@ UseMemoryCache
 )
 {
 return
-sUseMemoryCache
+StaticPrefs
+:
+:
+browser_cache_memory_enable
+(
+)
 ;
 }
 static
@@ -421,10 +426,6 @@ void
 AttachToPreferences
 (
 )
-;
-static
-bool
-sUseMemoryCache
 ;
 static
 uint32_t
