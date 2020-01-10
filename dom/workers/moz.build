@@ -393,6 +393,14 @@ system
 '
 '
 /
+dom
+/
+workers
+/
+remoteworkers
+'
+'
+/
 js
 /
 xpconnect

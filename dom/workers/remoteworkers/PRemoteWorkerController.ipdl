@@ -109,6 +109,16 @@ Terminated
 (
 )
 ;
+async
+SetServiceWorkerSkipWaitingFlag
+(
+)
+returns
+(
+bool
+aOk
+)
+;
 parent
 :
 async

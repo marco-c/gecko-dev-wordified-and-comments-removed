@@ -211,6 +211,16 @@ Close
 (
 )
 ;
+async
+SetServiceWorkerSkipWaitingFlag
+(
+)
+returns
+(
+bool
+aOk
+)
+;
 child
 :
 async
