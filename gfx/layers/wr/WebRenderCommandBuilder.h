@@ -1202,12 +1202,6 @@ public
 bool
 mDoGrouping
 ;
-Maybe
-<
-nsRect
->
-mClippedGroupBounds
-;
 bool
 mContainsSVGGroup
 ;
