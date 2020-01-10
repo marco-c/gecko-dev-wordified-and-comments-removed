@@ -1656,7 +1656,7 @@ UpdateAndRender
 (
 )
 ;
-void
+bool
 Render
 (
 const
