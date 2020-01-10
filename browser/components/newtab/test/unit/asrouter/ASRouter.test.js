@@ -13387,7 +13387,7 @@ FxAccounts
 config
 :
 {
-promiseSignUpURI
+promiseConnectAccountURI
 :
 sandbox
 .
