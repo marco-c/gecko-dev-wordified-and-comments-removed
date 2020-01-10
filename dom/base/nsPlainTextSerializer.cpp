@@ -6041,11 +6041,7 @@ goodSpace
 ;
 }
 }
-if
-(
-!
-mLineBreaker
-)
+else
 {
 if
 (
@@ -6214,11 +6210,7 @@ Length
 )
 ;
 }
-if
-(
-!
-mLineBreaker
-)
+else
 {
 goodSpace
 =
