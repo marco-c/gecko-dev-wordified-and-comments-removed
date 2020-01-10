@@ -161,7 +161,6 @@ endif
 +
 /
 *
-*
 A
 union
 which
@@ -171,12 +170,12 @@ to
 convert
 between
 a
+long
 double
 and
-two
+four
 32
 bit
-*
 ints
 .
 *
@@ -186,3 +185,8 @@ if
 MOZ_BIG_ENDIAN
 typedef
 union
+{
+long
+double
+value
+;
