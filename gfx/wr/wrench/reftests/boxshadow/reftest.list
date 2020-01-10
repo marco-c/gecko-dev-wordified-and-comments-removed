@@ -298,6 +298,11 @@ radius
 ref
 .
 yaml
+skip_on
+(
+android
+emulator
+)
 fuzzy
 (
 1

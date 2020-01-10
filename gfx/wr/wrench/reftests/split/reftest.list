@@ -41,6 +41,11 @@ order
 ref
 .
 yaml
+skip_on
+(
+android
+emulator
+)
 =
 =
 nested
@@ -100,6 +105,11 @@ preserve3d
 crash
 .
 yaml
+skip_on
+(
+android
+emulator
+)
 =
 =
 perspective
