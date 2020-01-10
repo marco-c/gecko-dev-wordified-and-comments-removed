@@ -271,6 +271,10 @@ environ
 processOutputLine
 =
 process_line
+                          
+universal_newlines
+=
+True
 )
     
 proc
