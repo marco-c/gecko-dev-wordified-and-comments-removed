@@ -912,7 +912,7 @@ acc
 ;
 export
 function
-getThreadsBySource
+getAllThreadsBySource
 (
 state
 :

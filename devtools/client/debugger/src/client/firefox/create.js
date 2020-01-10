@@ -271,7 +271,7 @@ thread
 }
 export
 function
-createTarget
+createThread
 (
 actor
 :

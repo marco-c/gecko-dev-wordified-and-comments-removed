@@ -156,7 +156,7 @@ getState
 createStore
 (
 {
-fetchWorkers
+fetchThreads
 :
 (
 )

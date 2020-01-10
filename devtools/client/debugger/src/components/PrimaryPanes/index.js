@@ -54,7 +54,7 @@ getDisplayedSources
 getActiveSearch
 getProjectDirectoryRoot
 getSelectedPrimaryPaneTab
-getThreads
+getAllThreads
 getContext
 }
 from
@@ -932,7 +932,7 @@ source
 "
 threads
 :
-getThreads
+getAllThreads
 (
 state
 )

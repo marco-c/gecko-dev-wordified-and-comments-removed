@@ -466,7 +466,7 @@ getThreadContext
 :
 false
 "
-getWorkers
+getThreads
 "
 :
 false

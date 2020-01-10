@@ -40,7 +40,7 @@ actions
 ;
 import
 {
-getThreads
+getAllThreads
 }
 from
 "
@@ -67,7 +67,7 @@ from
 /
 utils
 /
-workers
+threads
 "
 ;
 import
@@ -363,7 +363,7 @@ state
 {
 threads
 :
-getThreads
+getAllThreads
 (
 state
 )
