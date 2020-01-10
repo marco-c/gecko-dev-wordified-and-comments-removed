@@ -1061,6 +1061,13 @@ jitflags
         
 self
 .
+ignoredflags
+=
+[
+]
+        
+self
+.
 test_reflect_stringify
 =
 None
@@ -1405,6 +1412,27 @@ abs_path
 (
 )
 ]
+        
+for
+flag
+in
+self
+.
+ignoredflags
+:
+            
+if
+flag
+in
+cmd
+:
+                
+cmd
+.
+remove
+(
+flag
+)
         
 return
 cmd
