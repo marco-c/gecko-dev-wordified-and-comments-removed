@@ -549,6 +549,11 @@ EncodedFrame
 >
 mEncodedVideoFrames
 ;
+uint64_t
+mAudioCodecDelay
+=
+0
+;
 TimeStamp
 mStartTime
 ;
