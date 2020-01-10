@@ -29,6 +29,7 @@ window
 open
 "
 )
+;
 const
 domWindow
 =

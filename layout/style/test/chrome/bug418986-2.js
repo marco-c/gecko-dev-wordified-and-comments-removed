@@ -903,7 +903,6 @@ ok
 foundValue
 foundValue
 ?
-(
 "
 Match
 found
@@ -922,7 +921,6 @@ foundValue
 "
 '
 "
-)
 :
 "
 Should
@@ -1190,6 +1188,7 @@ color
 )
 {
 return
+(
 "
 media
 "
@@ -1226,6 +1225,7 @@ color
 \
 n
 "
+)
 ;
 }
 ;
@@ -1873,7 +1873,6 @@ resisting
 "
 "
 :
-(
 smoothingPref
 ?
 "
@@ -1882,7 +1881,6 @@ auto
 :
 "
 "
-)
 "
 -
 moz
@@ -2226,9 +2224,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

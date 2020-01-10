@@ -52,8 +52,10 @@ about
 blank
 "
 )
+{
 return
 ;
+}
 gBrowser
 .
 removeEventListener
@@ -137,11 +139,9 @@ browser
 var
 gfxInfo
 =
-(
 NS_GFXINFO_CONTRACTID
 in
 Cc
-)
 &
 &
 Cc
