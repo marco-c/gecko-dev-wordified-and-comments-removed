@@ -685,7 +685,6 @@ type
 OriginalFrame
 =
 {
-|
 displayName
 :
 string
@@ -697,7 +696,9 @@ location
 ?
 :
 SourceLocation
-|
+thread
+:
+string
 }
 ;
 export
@@ -1008,6 +1009,11 @@ id
 SourceId
 +
 url
+:
+string
++
+sourceMapURL
+?
 :
 string
 +

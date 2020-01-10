@@ -394,6 +394,10 @@ string
 props
 :
 {
+sourceMapURL
+?
+:
+string
 introductionType
 ?
 :

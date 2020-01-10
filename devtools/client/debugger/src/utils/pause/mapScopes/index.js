@@ -273,6 +273,7 @@ originalRanges
 await
 loadRangeMetadata
 (
+source
 frame
 originalAstScopes
 sourceMaps
@@ -833,6 +834,7 @@ getGeneratedRanges
 loc
 .
 start
+source
 )
 )
 ;
@@ -853,6 +855,7 @@ getGeneratedLocation
 loc
 .
 start
+source
 )
 )
 ;
@@ -873,6 +876,7 @@ getGeneratedLocation
 loc
 .
 end
+source
 )
 )
 ;
@@ -886,6 +890,7 @@ async
 getGeneratedRanges
 (
 pos
+s
 )
 {
 const
@@ -898,6 +903,13 @@ pos
 ;
 if
 (
+s
+!
+=
+=
+source
+|
+|
 !
 precalculatedRanges
 .
@@ -922,6 +934,7 @@ sourceMaps
 getGeneratedRanges
 (
 pos
+s
 )
 ;
 }
@@ -938,6 +951,7 @@ async
 getGeneratedLocation
 (
 pos
+s
 )
 {
 const
@@ -950,6 +964,13 @@ pos
 ;
 if
 (
+s
+!
+=
+=
+source
+|
+|
 !
 precalculatedLocations
 .
@@ -974,6 +995,7 @@ sourceMaps
 getGeneratedLocation
 (
 pos
+s
 )
 ;
 }

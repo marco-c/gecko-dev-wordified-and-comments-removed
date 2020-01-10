@@ -180,6 +180,16 @@ return
 ;
 }
 const
+{
+sourceId
+}
+=
+generatedLocations
+[
+0
+]
+;
+const
 originalLocations
 =
 await
@@ -187,6 +197,7 @@ sourceMaps
 .
 getOriginalLocations
 (
+sourceId
 generatedLocations
 )
 ;
@@ -522,6 +533,9 @@ sourceMaps
 getGeneratedRangesForOriginal
 (
 sourceId
+generatedSource
+.
+url
 true
 )
 ;

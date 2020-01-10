@@ -226,8 +226,6 @@ sourceMaps
 getFileGeneratedRange
 (
 source
-.
-id
 )
 ;
 sourceId
