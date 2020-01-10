@@ -519,6 +519,13 @@ NetMonitor
 :
 ThrottlingChanged
 "
+LONGSTRING_RESOLVED
+:
+"
+NetMonitor
+:
+LongStringResolved
+"
 }
 ;
 const
