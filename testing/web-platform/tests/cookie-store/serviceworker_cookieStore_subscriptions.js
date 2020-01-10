@@ -61,6 +61,8 @@ async
 =
 >
 {
+try
+{
 await
 cookieStore
 .
@@ -119,6 +121,13 @@ with
 ]
 )
 ;
+}
+catch
+(
+err
+)
+{
+}
 }
 )
 (

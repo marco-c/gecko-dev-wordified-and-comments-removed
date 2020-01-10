@@ -61,6 +61,8 @@ async
 =
 >
 {
+try
+{
 await
 cookieStore
 .
@@ -70,6 +72,13 @@ subscribeToChanges
 ]
 )
 ;
+}
+catch
+(
+err
+)
+{
+}
 }
 )
 (
