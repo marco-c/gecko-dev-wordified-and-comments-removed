@@ -199,7 +199,7 @@ aID
 async
 ExploreByTouch
 (
-int32_t
+uint64_t
 aID
 float
 aX
