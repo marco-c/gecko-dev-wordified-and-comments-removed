@@ -255,7 +255,7 @@ alignof
 T
 )
 %
-sizeof
+alignof
 (
 void
 *

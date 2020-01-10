@@ -2345,7 +2345,7 @@ _hb_ft_font_destroy
 static
 hb_blob_t
 *
-reference_table
+_hb_ft_reference_table
 (
 hb_face_t
 *
@@ -2543,7 +2543,7 @@ face
 =
 hb_face_create_for_tables
 (
-reference_table
+_hb_ft_reference_table
 ft_face
 destroy
 )

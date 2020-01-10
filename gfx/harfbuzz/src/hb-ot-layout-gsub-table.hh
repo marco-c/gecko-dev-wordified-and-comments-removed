@@ -1247,10 +1247,6 @@ delta
 if
 (
 glyphs
-.
-len
-(
-)
 )
 {
 format
@@ -7867,6 +7863,9 @@ accelerator_t
 {
 }
 ;
+#
+ifndef
+HB_NO_OT_LAYOUT
 inline
 bool
 ExtensionSubst
@@ -8098,6 +8097,8 @@ return
 ret
 ;
 }
+#
+endif
 }
 #
 endif

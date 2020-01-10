@@ -5,6 +5,9 @@ hb
 .
 hh
 "
+#
+ifndef
+HB_NO_OT_TAG
 static
 hb_tag_t
 hb_ot_old_tag_from_script
@@ -2746,5 +2749,7 @@ return
 0
 ;
 }
+#
+endif
 #
 endif

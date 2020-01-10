@@ -146,7 +146,7 @@ cf_data
 static
 hb_blob_t
 *
-reference_table
+_hb_cg_reference_table
 (
 hb_face_t
 *
@@ -1170,7 +1170,7 @@ cg_font
 return
 hb_face_create_for_tables
 (
-reference_table
+_hb_cg_reference_table
 CGFontRetain
 (
 cg_font

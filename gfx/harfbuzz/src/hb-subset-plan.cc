@@ -753,7 +753,7 @@ all_gids_to_retain
 hb_reduce
 (
 hb_max
-0
+0u
 )
 ;
 *

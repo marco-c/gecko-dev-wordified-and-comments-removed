@@ -7,6 +7,9 @@ HB_SHAPER_LIST_HH
 #
 endif
 #
+ifndef
+HB_NO_SHAPER
+#
 ifdef
 HAVE_GRAPHITE2
 HB_SHAPER_IMPLEMENT
@@ -15,10 +18,15 @@ graphite2
 )
 #
 endif
+#
+ifndef
+HB_NO_OT_SHAPE
 HB_SHAPER_IMPLEMENT
 (
 ot
 )
+#
+endif
 #
 ifdef
 HAVE_UNISCRIBE
@@ -53,5 +61,7 @@ HB_SHAPER_IMPLEMENT
 (
 fallback
 )
+#
+endif
 #
 endif

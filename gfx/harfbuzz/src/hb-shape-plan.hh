@@ -46,9 +46,14 @@ unsigned
 int
 num_user_features
 ;
+#
+ifndef
+HB_NO_OT_SHAPE
 hb_ot_shape_plan_key_t
 ot
 ;
+#
+endif
 hb_shape_func_t
 *
 shaper_func
@@ -59,7 +64,6 @@ char
 shaper_name
 ;
 HB_INTERNAL
-inline
 bool
 init
 (
@@ -95,7 +99,6 @@ shaper_list
 )
 ;
 HB_INTERNAL
-inline
 void
 free
 (
@@ -148,9 +151,14 @@ face_unsafe
 hb_shape_plan_key_t
 key
 ;
+#
+ifndef
+HB_NO_OT_SHAPE
 hb_ot_shape_plan_t
 ot
 ;
+#
+endif
 }
 ;
 #

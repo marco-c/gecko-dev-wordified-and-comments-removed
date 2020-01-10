@@ -2,6 +2,16 @@
 include
 "
 hb
+.
+hh
+"
+#
+ifndef
+HB_NO_OT_SHAPE
+#
+include
+"
+hb
 -
 ot
 -
@@ -2052,3 +2062,5 @@ stage_index
 }
 }
 }
+#
+endif

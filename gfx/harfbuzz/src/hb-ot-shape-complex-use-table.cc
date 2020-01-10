@@ -2,6 +2,16 @@
 include
 "
 hb
+.
+hh
+"
+#
+ifndef
+HB_NO_OT_SHAPE
+#
+include
+"
+hb
 -
 ot
 -
@@ -7111,3 +7121,5 @@ VMPst
 #
 undef
 VMAbv
+#
+endif

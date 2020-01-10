@@ -951,6 +951,12 @@ extents
 >
 y_bearing
 =
+png
+.
+IHDR
+.
+height
++
 y_offset
 ;
 extents
@@ -969,6 +975,7 @@ extents
 >
 height
 =
+-
 png
 .
 IHDR

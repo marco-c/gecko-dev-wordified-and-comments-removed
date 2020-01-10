@@ -199,7 +199,7 @@ kern_mask
 endif
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 hb_mask_t
 trak_mask
 ;
@@ -235,7 +235,7 @@ false
 endif
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 bool
 requested_tracking
 :
@@ -322,7 +322,7 @@ false
 endif
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 bool
 apply_kerx
 :
@@ -483,7 +483,7 @@ aat_map
 ;
 #
 ifndef
-HB_NO_SHAPE_AAT
+HB_NO_AAT_SHAPE
 bool
 apply_morx
 :

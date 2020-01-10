@@ -2,6 +2,16 @@
 include
 "
 hb
+.
+hh
+"
+#
+ifndef
+HB_NO_OT_SHAPE
+#
+include
+"
+hb
 -
 ot
 -
@@ -2196,3 +2206,5 @@ swap_buffers
 ;
 }
 }
+#
+endif

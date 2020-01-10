@@ -1576,6 +1576,17 @@ int
 length
 )
 ;
+HB_EXTERN
+void
+hb_font_set_var_named_instance
+(
+hb_font_t
+*
+font
+unsigned
+instance_index
+)
+;
 HB_END_DECLS
 #
 endif

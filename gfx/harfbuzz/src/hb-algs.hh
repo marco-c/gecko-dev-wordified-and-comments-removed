@@ -244,6 +244,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -278,6 +279,7 @@ template
 typename
 T
 >
+constexpr
 T
 &
 operator
@@ -299,6 +301,7 @@ template
 typename
 T
 >
+constexpr
 hb_remove_reference
 <
 T
@@ -331,6 +334,7 @@ template
 typename
 T
 >
+constexpr
 hb_remove_reference
 <
 T
@@ -363,6 +367,7 @@ template
 typename
 T
 >
+constexpr
 bool
 operator
 (
@@ -403,6 +408,7 @@ template
 typename
 T
 >
+constexpr
 auto
 impl
 (
@@ -440,6 +446,7 @@ T
 )
 )
 >
+constexpr
 auto
 impl
 (
@@ -469,6 +476,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -1947,6 +1955,7 @@ template
 typename
 Pair
 >
+constexpr
 typename
 Pair
 :
@@ -1982,6 +1991,7 @@ template
 typename
 Pair
 >
+constexpr
 typename
 Pair
 :
@@ -2019,6 +2029,7 @@ T
 typename
 T2
 >
+constexpr
 auto
 operator
 (
@@ -2084,6 +2095,7 @@ T
 typename
 T2
 >
+constexpr
 auto
 operator
 (
@@ -5410,6 +5422,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -5464,6 +5477,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -5518,6 +5532,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -5572,6 +5587,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -5607,6 +5623,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -5643,6 +5660,7 @@ T
 typename
 T2
 >
+constexpr
 auto
 operator
 (
@@ -5684,6 +5702,7 @@ T
 typename
 T2
 >
+constexpr
 auto
 operator
 (
@@ -5725,6 +5744,7 @@ T
 typename
 T2
 >
+constexpr
 auto
 operator
 (
@@ -5766,6 +5786,7 @@ T
 typename
 T2
 >
+constexpr
 auto
 operator
 (
@@ -5807,6 +5828,7 @@ T
 typename
 T2
 >
+constexpr
 auto
 operator
 (
@@ -5841,6 +5863,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (
@@ -5870,6 +5893,7 @@ template
 typename
 T
 >
+constexpr
 auto
 operator
 (

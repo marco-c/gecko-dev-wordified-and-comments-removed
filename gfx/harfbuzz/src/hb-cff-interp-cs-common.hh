@@ -104,7 +104,7 @@ kMaxCallLimit
 struct
 call_stack_t
 :
-stack_t
+cff_stack_t
 <
 call_context_t
 kMaxCallLimit
@@ -125,13 +125,12 @@ init
 (
 const
 SUBRS
-&
+*
 subrs_
 )
 {
 subrs
 =
-&
 subrs_
 ;
 unsigned
@@ -426,11 +425,11 @@ byte_str_t
 str
 const
 SUBRS
-&
+*
 globalSubrs_
 const
 SUBRS
-&
+*
 localSubrs_
 )
 {

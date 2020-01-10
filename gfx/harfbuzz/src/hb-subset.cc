@@ -1253,7 +1253,7 @@ HB_OT_TAG_cmap
 :
 result
 =
-_subset
+_subset2
 <
 const
 OT

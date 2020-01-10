@@ -2099,6 +2099,9 @@ syllable_serial
 4
 )
 |
+myanmar_
+#
+#
 syllable_type
 ;
 \
@@ -2126,7 +2129,7 @@ syllable_serial
 HB_STMT_END
 static
 void
-find_syllables
+find_syllables_myanmar
 (
 hb_buffer_t
 *

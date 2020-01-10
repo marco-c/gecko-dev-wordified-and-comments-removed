@@ -39,7 +39,7 @@ namespace
 CFF
 ;
 struct
-extents_param_t
+cff2_extents_param_t
 {
 void
 init
@@ -199,7 +199,7 @@ path_procs_t
 <
 cff2_path_procs_extents_t
 cff2_cs_interp_env_t
-extents_param_t
+cff2_extents_param_t
 >
 {
 static
@@ -209,7 +209,7 @@ moveto
 cff2_cs_interp_env_t
 &
 env
-extents_param_t
+cff2_extents_param_t
 &
 param
 const
@@ -239,7 +239,7 @@ line
 cff2_cs_interp_env_t
 &
 env
-extents_param_t
+cff2_extents_param_t
 &
 param
 const
@@ -302,7 +302,7 @@ curve
 cff2_cs_interp_env_t
 &
 env
-extents_param_t
+cff2_extents_param_t
 &
 param
 const
@@ -388,7 +388,7 @@ cff2_cs_opset_extents_t
 cff2_cs_opset_t
 <
 cff2_cs_opset_extents_t
-extents_param_t
+cff2_extents_param_t
 cff2_path_procs_extents_t
 >
 {
@@ -477,7 +477,7 @@ glyph
 cff2_cs_interpreter_t
 <
 cff2_cs_opset_extents_t
-extents_param_t
+cff2_extents_param_t
 >
 interp
 ;
@@ -507,7 +507,7 @@ coords
 num_coords
 )
 ;
-extents_param_t
+cff2_extents_param_t
 param
 ;
 param

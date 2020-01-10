@@ -2,6 +2,16 @@
 include
 "
 hb
+.
+hh
+"
+#
+ifndef
+HB_NO_OT_SHAPE
+#
+include
+"
+hb
 -
 ot
 -
@@ -1818,3 +1828,5 @@ HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
 false
 }
 ;
+#
+endif

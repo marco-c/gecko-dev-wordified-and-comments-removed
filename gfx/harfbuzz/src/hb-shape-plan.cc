@@ -236,6 +236,9 @@ shaper_name
 =
 nullptr
 ;
+#
+ifndef
+HB_NO_OT_SHAPE
 this
 -
 >
@@ -248,6 +251,8 @@ coords
 num_coords
 )
 ;
+#
+endif
 #
 define
 HB_SHAPER_PLAN
@@ -656,6 +661,9 @@ other
 )
 &
 &
+#
+ifndef
+HB_NO_OT_SHAPE
 this
 -
 >
@@ -671,6 +679,8 @@ ot
 )
 &
 &
+#
+endif
 this
 -
 >
@@ -878,6 +888,9 @@ shaper_list
 goto
 bail2
 ;
+#
+ifndef
+HB_NO_OT_SHAPE
 if
 (
 unlikely
@@ -902,11 +915,18 @@ key
 goto
 bail3
 ;
+#
+endif
 return
 shape_plan
 ;
+#
+ifndef
+HB_NO_OT_SHAPE
 bail3
 :
+#
+endif
 shape_plan
 -
 >
@@ -986,6 +1006,9 @@ shape_plan
 )
 return
 ;
+#
+ifndef
+HB_NO_OT_SHAPE
 shape_plan
 -
 >
@@ -995,6 +1018,8 @@ fini
 (
 )
 ;
+#
+endif
 shape_plan
 -
 >

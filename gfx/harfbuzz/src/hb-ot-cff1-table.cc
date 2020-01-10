@@ -1607,7 +1607,7 @@ max
 }
 ;
 struct
-extents_param_t
+cff1_extents_param_t
 {
 void
 init
@@ -1695,7 +1695,7 @@ path_procs_t
 <
 cff1_path_procs_extents_t
 cff1_cs_interp_env_t
-extents_param_t
+cff1_extents_param_t
 >
 {
 static
@@ -1705,7 +1705,7 @@ moveto
 cff1_cs_interp_env_t
 &
 env
-extents_param_t
+cff1_extents_param_t
 &
 param
 const
@@ -1735,7 +1735,7 @@ line
 cff1_cs_interp_env_t
 &
 env
-extents_param_t
+cff1_extents_param_t
 &
 param
 const
@@ -1802,7 +1802,7 @@ curve
 cff1_cs_interp_env_t
 &
 env
-extents_param_t
+cff1_extents_param_t
 &
 param
 const
@@ -1921,7 +1921,7 @@ cff1_cs_opset_extents_t
 cff1_cs_opset_t
 <
 cff1_cs_opset_extents_t
-extents_param_t
+cff1_extents_param_t
 cff1_path_procs_extents_t
 >
 {
@@ -1932,7 +1932,7 @@ process_seac
 cff1_cs_interp_env_t
 &
 env
-extents_param_t
+cff1_extents_param_t
 &
 param
 )
@@ -2178,7 +2178,7 @@ glyph
 cff1_cs_interpreter_t
 <
 cff1_cs_opset_extents_t
-extents_param_t
+cff1_extents_param_t
 >
 interp
 ;
@@ -2218,7 +2218,7 @@ set_in_seac
 in_seac
 )
 ;
-extents_param_t
+cff1_extents_param_t
 param
 ;
 param
