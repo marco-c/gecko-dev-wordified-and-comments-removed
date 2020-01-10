@@ -3394,7 +3394,7 @@ aWriter
 StartObjectProperty
 (
 "
-profilerOverhead_UNSTABLE
+profilerOverhead
 "
 )
 ;
