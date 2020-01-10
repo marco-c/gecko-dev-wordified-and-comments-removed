@@ -221,6 +221,11 @@ SearchEngine
 jsm
 '
 '
+SearchEngineSelector
+.
+jsm
+'
+'
 SearchService
 .
 jsm
@@ -270,11 +275,6 @@ TESTING_JS_MODULES
 +
 =
 [
-'
-SearchEngineSelector
-.
-jsm
-'
 '
 tests
 /

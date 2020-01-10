@@ -120,9 +120,9 @@ resource
 :
 /
 /
-testing
--
-common
+gre
+/
+modules
 /
 SearchEngineSelector
 .
