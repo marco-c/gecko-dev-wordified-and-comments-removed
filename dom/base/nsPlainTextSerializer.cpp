@@ -1685,11 +1685,15 @@ aOutput
 ;
 if
 (
+mSettings
+.
 MayWrap
 (
 )
 &
 &
+mSettings
+.
 MayBreakLines
 (
 )
@@ -6352,6 +6356,8 @@ MaybeWrapAndOutputCompleteLines
 if
 (
 !
+mSettings
+.
 MayWrap
 (
 )
