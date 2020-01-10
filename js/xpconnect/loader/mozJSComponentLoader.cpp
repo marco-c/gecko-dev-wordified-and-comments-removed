@@ -3403,6 +3403,7 @@ aRealFile
 =
 false
 ;
+{
 nsresult
 rv
 =
@@ -3526,6 +3527,7 @@ locationObj
 return
 nullptr
 ;
+}
 }
 }
 }

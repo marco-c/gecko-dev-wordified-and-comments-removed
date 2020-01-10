@@ -165,10 +165,13 @@ return
 false
 ;
 }
-JSObject
-*
+JS
+:
+:
+RootedObject
 obj
-=
+(
+aCtx
 &
 args
 .
@@ -178,6 +181,7 @@ thisv
 .
 toObject
 (
+)
 )
 ;
 nsresult

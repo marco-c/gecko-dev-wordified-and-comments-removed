@@ -272,6 +272,12 @@ if
 underware
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 JSObject
 *
 mainObj

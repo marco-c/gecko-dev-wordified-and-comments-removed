@@ -3345,6 +3345,12 @@ return
 nullptr
 ;
 }
+JS
+:
+:
+AutoSuppressGCAnalysis
+suppress
+;
 return
 runtimeFromMainThread
 (
