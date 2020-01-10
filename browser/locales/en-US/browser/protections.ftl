@@ -162,6 +162,8 @@ graph
 -
 total
 -
+tracker
+-
 summary
 =
 {
@@ -171,9 +173,16 @@ count
 [
 one
 ]
+<
+b
+>
 {
 count
 }
+<
+/
+b
+>
 tracker
 blocked
 since
@@ -202,9 +211,16 @@ numeric
 [
 other
 ]
+<
+b
+>
 {
 count
 }
+<
+/
+b
+>
 trackers
 blocked
 since
@@ -670,7 +686,7 @@ tracker
 -
 tab
 -
-content
+description
 =
 Websites
 may
@@ -704,7 +720,6 @@ fields
 might
 not
 work
-.
 <
 a
 data
@@ -1182,13 +1197,14 @@ sync
 not
 -
 syncing
+-
+devices
 =
 Not
 syncing
 to
 other
 devices
-.
 monitor
 -
 title
@@ -1210,6 +1226,10 @@ monitor
 header
 -
 content
+-
+no
+-
+account
 =
 Check
 {
@@ -1229,6 +1249,7 @@ been
 part
 of
 a
+known
 data
 breach
 and
@@ -1244,7 +1265,7 @@ header
 -
 content
 -
-logged
+signed
 -
 in
 =
@@ -1268,6 +1289,7 @@ a
 known
 data
 breach
+.
 monitor
 -
 sign
@@ -1329,7 +1351,7 @@ info
 -
 monitored
 -
-addresses
+emails
 =
 {
 count
@@ -1342,7 +1364,6 @@ Email
 address
 being
 monitored
-.
 *
 [
 other
@@ -1351,7 +1372,6 @@ Email
 addresses
 being
 monitored
-.
 }
 #
 This
@@ -1396,6 +1416,8 @@ info
 known
 -
 breaches
+-
+found
 =
 {
 count
@@ -1411,7 +1433,6 @@ has
 exposed
 your
 information
-.
 *
 [
 other
@@ -1423,7 +1444,6 @@ have
 exposed
 your
 information
-.
 }
 #
 This
@@ -1467,6 +1487,8 @@ info
 exposed
 -
 passwords
+-
+found
 =
 {
 count
@@ -1480,7 +1502,6 @@ exposed
 across
 all
 breaches
-.
 *
 [
 other
@@ -1490,7 +1511,6 @@ exposed
 across
 all
 breaches
-.
 }
 full
 -
