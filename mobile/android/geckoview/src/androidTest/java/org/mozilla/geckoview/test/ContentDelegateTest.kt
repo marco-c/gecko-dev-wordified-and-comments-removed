@@ -1732,7 +1732,7 @@ object
 :
 Callbacks
 .
-TextInputDelegate
+AutofillDelegate
 {
 /
 /
@@ -1774,7 +1774,7 @@ count
 )
 override
 fun
-notifyAutoFill
+onAutofill
 (
 session
 :
@@ -2540,10 +2540,9 @@ MockViewNode
 )
 mainSession
 .
-textInput
-.
-onProvideAutofillVirtualStructure
+provideAutofillVirtualStructure
 (
+null
 rootStructure
 0
 )
@@ -2552,8 +2551,6 @@ checkAutoFillChild
 rootStructure
 )
 mainSession
-.
-textInput
 .
 autofill
 (
@@ -2830,10 +2827,9 @@ also
 {
 mainSession
 .
-textInput
-.
-onProvideAutofillVirtualStructure
+provideAutofillVirtualStructure
 (
+null
 it
 0
 )
@@ -2901,7 +2897,7 @@ object
 :
 Callbacks
 .
-TextInputDelegate
+AutofillDelegate
 {
 AssertCalled
 (
@@ -2911,7 +2907,7 @@ count
 )
 override
 fun
-notifyAutoFill
+onAutofill
 (
 session
 :
@@ -2941,12 +2937,12 @@ forEachCall
 (
 GeckoSession
 .
-TextInputDelegate
+AutofillDelegate
 .
 AUTO_FILL_NOTIFY_STARTED
 GeckoSession
 .
-TextInputDelegate
+AutofillDelegate
 .
 AUTO_FILL_NOTIFY_VIEW_ADDED
 )
@@ -3017,7 +3013,7 @@ object
 :
 Callbacks
 .
-TextInputDelegate
+AutofillDelegate
 {
 AssertCalled
 (
@@ -3027,7 +3023,7 @@ count
 )
 override
 fun
-notifyAutoFill
+onAutofill
 (
 session
 :
@@ -3055,7 +3051,7 @@ equalTo
 (
 GeckoSession
 .
-TextInputDelegate
+AutofillDelegate
 .
 AUTO_FILL_NOTIFY_CANCELED
 )
@@ -3126,7 +3122,7 @@ object
 :
 Callbacks
 .
-TextInputDelegate
+AutofillDelegate
 {
 AssertCalled
 (
@@ -3136,7 +3132,7 @@ count
 )
 override
 fun
-notifyAutoFill
+onAutofill
 (
 session
 :
@@ -3166,12 +3162,12 @@ forEachCall
 (
 GeckoSession
 .
-TextInputDelegate
+AutofillDelegate
 .
 AUTO_FILL_NOTIFY_STARTED
 GeckoSession
 .
-TextInputDelegate
+AutofillDelegate
 .
 AUTO_FILL_NOTIFY_VIEW_ADDED
 )
@@ -3268,7 +3264,7 @@ object
 :
 Callbacks
 .
-TextInputDelegate
+AutofillDelegate
 {
 AssertCalled
 (
@@ -3278,7 +3274,7 @@ count
 )
 override
 fun
-notifyAutoFill
+onAutofill
 (
 session
 :
@@ -3307,7 +3303,7 @@ equalTo
 (
 GeckoSession
 .
-TextInputDelegate
+AutofillDelegate
 .
 AUTO_FILL_NOTIFY_VIEW_ENTERED
 )
@@ -3435,7 +3431,7 @@ object
 :
 Callbacks
 .
-TextInputDelegate
+AutofillDelegate
 {
 AssertCalled
 (
@@ -3445,7 +3441,7 @@ count
 )
 override
 fun
-notifyAutoFill
+onAutofill
 (
 session
 :
@@ -3474,7 +3470,7 @@ equalTo
 (
 GeckoSession
 .
-TextInputDelegate
+AutofillDelegate
 .
 AUTO_FILL_NOTIFY_VIEW_EXITED
 )
@@ -3578,7 +3574,7 @@ object
 :
 Callbacks
 .
-TextInputDelegate
+AutofillDelegate
 {
 AssertCalled
 (
@@ -3588,7 +3584,7 @@ count
 )
 override
 fun
-notifyAutoFill
+onAutofill
 (
 session
 :
@@ -3811,10 +3807,9 @@ MockViewNode
 )
 mainSession
 .
-textInput
-.
-onProvideAutofillVirtualStructure
+provideAutofillVirtualStructure
 (
+null
 rootStructure
 0
 )

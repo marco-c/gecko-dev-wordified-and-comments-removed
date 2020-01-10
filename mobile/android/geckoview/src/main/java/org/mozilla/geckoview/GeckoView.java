@@ -2961,12 +2961,9 @@ null
 {
 mSession
 .
-getTextInput
+provideAutofillVirtualStructure
 (
-)
-.
-onProvideAutofillVirtualStructure
-(
+this
 structure
 flags
 )
@@ -3088,10 +3085,6 @@ getTextValue
 }
 }
 mSession
-.
-getTextInput
-(
-)
 .
 autofill
 (
