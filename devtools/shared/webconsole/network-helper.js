@@ -2124,6 +2124,15 @@ return
 info
 ;
 }
+securityInfo
+.
+QueryInterface
+(
+Ci
+.
+nsITransportSecurityInfo
+)
+;
 const
 wpl
 =
