@@ -377,7 +377,6 @@ FRAME_ID
 #
 undef
 ABSTRACT_FRAME_ID
-NON_FRAME_MARKER
 }
 ;
 enum

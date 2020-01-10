@@ -17,14 +17,6 @@ mozilla
 enum
 ArenaObjectID
 {
-eArenaObjectID_DummyBeforeFirstObjectID
-=
-nsQueryFrame
-:
-:
-NON_FRAME_MARKER
--
-1
 #
 define
 PRES_ARENA_OBJECT
