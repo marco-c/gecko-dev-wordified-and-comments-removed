@@ -337,6 +337,14 @@ Document
 aDocument
 )
 ;
+void
+ProcessViewportContent
+(
+Document
+*
+aDocument
+)
+;
 }
 ;
 }
