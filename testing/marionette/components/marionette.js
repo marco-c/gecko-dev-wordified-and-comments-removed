@@ -431,6 +431,16 @@ browser
 .
 tabs
 .
+unloadOnLowMemory
+"
+false
+]
+[
+"
+browser
+.
+tabs
+.
 warnOnClose
 "
 false

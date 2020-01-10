@@ -3220,6 +3220,16 @@ browser
 .
 tabs
 .
+unloadOnLowMemory
+"
+:
+False
+        
+"
+browser
+.
+tabs
+.
 warnOnClose
 "
 :
