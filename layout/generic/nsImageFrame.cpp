@@ -6211,7 +6211,6 @@ aFrame
 )
 {
 }
-virtual
 nsDisplayItemGeometry
 *
 AllocateGeometry
@@ -6220,7 +6219,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-override
+final
 {
 return
 new
@@ -6231,7 +6230,6 @@ aBuilder
 )
 ;
 }
-virtual
 void
 ComputeInvalidationRegion
 (
@@ -6247,7 +6245,7 @@ nsRegion
 aInvalidRegion
 )
 const
-override
+final
 {
 auto
 geometry
@@ -6310,7 +6308,6 @@ aInvalidRegion
 )
 ;
 }
-virtual
 nsRect
 GetBounds
 (
@@ -6322,7 +6319,7 @@ bool
 aSnap
 )
 const
-override
+final
 {
 *
 aSnap
@@ -6342,7 +6339,6 @@ ToReferenceFrame
 )
 ;
 }
-virtual
 void
 Paint
 (
@@ -6353,7 +6349,7 @@ gfxContext
 *
 aCtx
 )
-override
+final
 {
 uint32_t
 flags
@@ -6443,7 +6439,7 @@ nsDisplayListBuilder
 *
 aDisplayListBuilder
 )
-override
+final
 {
 uint32_t
 flags
