@@ -489,7 +489,7 @@ false
 SET_DEFAULT
 (
 baselineInterpreter
-false
+true
 )
 ;
 SET_DEFAULT
@@ -543,7 +543,7 @@ baselineInterpreterWarmUpThreshold
 SET_DEFAULT
 (
 baselineWarmUpThreshold
-10
+50
 )
 ;
 SET_DEFAULT
