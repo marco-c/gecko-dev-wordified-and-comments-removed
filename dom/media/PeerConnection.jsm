@@ -8998,7 +8998,6 @@ mozInsertAudioLevelForContributingSource
 receiver
 source
 timestamp
-rtpTimestamp
 hasLevel
 level
 )
@@ -9014,7 +9013,6 @@ receiver
 track
 source
 timestamp
-rtpTimestamp
 hasLevel
 level
 )
@@ -12600,11 +12598,6 @@ timestamp
 e
 .
 sourceClockOffset
-rtpTimestamp
-:
-e
-.
-rtpTimestamp
 audioLevel
 :
 e

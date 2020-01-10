@@ -137,11 +137,6 @@ source
 double
 audioLevel
 ;
-required
-unsigned
-long
-rtpTimestamp
-;
 }
 ;
 dictionary
