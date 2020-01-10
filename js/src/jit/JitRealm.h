@@ -2630,11 +2630,8 @@ StringConcat
 ;
 }
 void
-traceWeak
+sweep
 (
-JSTracer
-*
-trc
 JS
 :
 :
