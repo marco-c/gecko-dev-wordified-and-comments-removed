@@ -17954,6 +17954,8 @@ mBrowsingContext
 FindChildWithName
 (
 aName
+*
+mBrowsingContext
 )
 )
 ;
@@ -28109,6 +28111,16 @@ FinalClose
 mIsClosed
 =
 true
+;
+GetBrowsingContext
+(
+)
+-
+>
+SetClosed
+(
+true
+)
 ;
 if
 (
