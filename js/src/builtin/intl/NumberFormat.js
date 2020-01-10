@@ -450,8 +450,11 @@ nf
 &
 nf
 instanceof
-GetNumberFormatConstructor
+GetBuiltinConstructor
 (
+"
+NumberFormat
+"
 )
 )
 {
@@ -2131,8 +2134,11 @@ thisValue
 &
 thisValue
 instanceof
-GetNumberFormatConstructor
+GetBuiltinConstructor
 (
+"
+NumberFormat
+"
 )
 )
 {

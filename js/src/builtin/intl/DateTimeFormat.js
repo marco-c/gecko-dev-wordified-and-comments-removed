@@ -632,8 +632,11 @@ dtf
 &
 dtf
 instanceof
-GetDateTimeFormatConstructor
+GetBuiltinConstructor
 (
+"
+DateTimeFormat
+"
 )
 )
 {
@@ -1693,8 +1696,11 @@ thisValue
 &
 thisValue
 instanceof
-GetDateTimeFormatConstructor
+GetBuiltinConstructor
 (
+"
+DateTimeFormat
+"
 )
 )
 {
