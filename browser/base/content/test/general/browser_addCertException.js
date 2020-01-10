@@ -108,7 +108,7 @@ document
 getElementById
 (
 "
-connection
+identity
 -
 icon
 "
@@ -116,13 +116,13 @@ icon
 "
 Should
 see
-connection
+identity
 icon
 "
 )
 ;
 let
-connectionIconImage
+identityIconImage
 =
 gBrowser
 .
@@ -135,7 +135,7 @@ document
 getElementById
 (
 "
-connection
+identity
 -
 icon
 "
@@ -251,7 +251,7 @@ image
 ;
 is
 (
-connectionIconImage
+identityIconImage
 '
 url
 (

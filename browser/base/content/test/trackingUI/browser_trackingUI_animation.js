@@ -294,7 +294,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+is_visible
 (
 noAnimationIcon
 )
@@ -303,7 +303,7 @@ the
 default
 icon
 is
-hidden
+visible
 "
 )
 ;

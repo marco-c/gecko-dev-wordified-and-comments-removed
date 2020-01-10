@@ -883,14 +883,15 @@ is
 (
 identityMode
 "
-unknownIdentity
+notSecure
 "
 "
 identity
 should
 be
 '
-unknown
+not
+secure
 '
 "
 )

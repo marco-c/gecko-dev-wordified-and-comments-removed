@@ -95,7 +95,7 @@ verifier
 ;
 }
 function
-getConnectionIcon
+getIdentityIcon
 (
 )
 {
@@ -109,7 +109,7 @@ document
 getElementById
 (
 "
-connection
+identity
 -
 icon
 "
@@ -133,7 +133,7 @@ refreshIdentityPopup
 ;
 is
 (
-getConnectionIcon
+getIdentityIcon
 (
 )
 url
