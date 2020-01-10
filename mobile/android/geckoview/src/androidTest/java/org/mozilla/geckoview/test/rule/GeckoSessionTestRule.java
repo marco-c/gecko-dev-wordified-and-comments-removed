@@ -712,7 +712,7 @@ class
 getMethod
 (
 "
-onCrash
+onKill
 "
 GeckoSession
 .
