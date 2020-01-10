@@ -3368,6 +3368,9 @@ overrideContext
 mozillaAddons
 "
 "
+networkStatus
+"
+"
 normandyAddonStudy
 "
 "

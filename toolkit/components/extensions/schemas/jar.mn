@@ -275,6 +275,15 @@ extensions
 /
 schemas
 /
+network_status
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 notifications
 .
 json
