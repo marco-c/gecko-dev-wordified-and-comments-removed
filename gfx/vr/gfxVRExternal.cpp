@@ -2886,7 +2886,7 @@ if
 StaticPrefs
 :
 :
-VRProcessEnabled
+dom_vr_process_enabled
 (
 )
 )
@@ -3332,7 +3332,7 @@ if
 StaticPrefs
 :
 :
-VRExternalEnabled
+dom_vr_external_enabled
 (
 )
 &

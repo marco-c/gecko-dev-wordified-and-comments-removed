@@ -250,7 +250,7 @@ if
 StaticPrefs
 :
 :
-VRServiceEnabled
+dom_vr_service_enabled
 (
 )
 )
@@ -334,7 +334,7 @@ mVRProcessEnabled
 StaticPrefs
 :
 :
-VRProcessEnabled
+dom_vr_process_enabled
 (
 )
 )
@@ -1214,7 +1214,7 @@ minRestartInterval
 StaticPrefs
 :
 :
-VRExternalNotDetectedTimeout
+dom_vr_external_notdetected_timeout
 (
 )
 ;
@@ -1295,7 +1295,7 @@ minRestartInterval
 StaticPrefs
 :
 :
-VRExternalQuitTimeout
+dom_vr_external_quit_timeout
 (
 )
 ;

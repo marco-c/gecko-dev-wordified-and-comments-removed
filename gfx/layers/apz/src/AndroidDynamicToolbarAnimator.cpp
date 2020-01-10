@@ -921,7 +921,7 @@ lround
 StaticPrefs
 :
 :
-ToolbarScrollThreshold
+browser_ui_scroll_toolbar_threshold
 (
 )
 *

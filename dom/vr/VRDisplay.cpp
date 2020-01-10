@@ -2469,7 +2469,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-VRNavigationTimeout
+dom_vr_navigation_timeout
 (
 )
 )
@@ -2582,7 +2582,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-VRNavigationTimeout
+dom_vr_navigation_timeout
 (
 )
 )
@@ -2752,7 +2752,7 @@ IsHandlingVRNavigationEvent
 StaticPrefs
 :
 :
-VRRequireGesture
+dom_vr_require_gesture
 (
 )
 &

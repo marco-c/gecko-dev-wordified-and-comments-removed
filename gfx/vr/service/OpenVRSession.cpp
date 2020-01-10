@@ -1233,7 +1233,7 @@ dom_vr_enabled
 StaticPrefs
 :
 :
-VROpenVREnabled
+dom_vr_openvr_enabled
 (
 )
 )
@@ -1519,7 +1519,7 @@ if
 StaticPrefs
 :
 :
-VROpenVRActionInputEnabled
+dom_vr_openvr_action_input
 (
 )
 &
@@ -1587,7 +1587,7 @@ if
 StaticPrefs
 :
 :
-VRProcessEnabled
+dom_vr_process_enabled
 (
 )
 )
@@ -4750,7 +4750,7 @@ if
 StaticPrefs
 :
 :
-VRProcessEnabled
+dom_vr_process_enabled
 (
 )
 )
@@ -8625,7 +8625,7 @@ triggerThreshold
 StaticPrefs
 :
 :
-VRControllerTriggerThreshold
+dom_vr_controller_trigger_threshold
 (
 )
 ;
@@ -10751,7 +10751,7 @@ triggerThreshold
 StaticPrefs
 :
 :
-VRControllerTriggerThreshold
+dom_vr_controller_trigger_threshold
 (
 )
 ;
@@ -12832,7 +12832,7 @@ if
 StaticPrefs
 :
 :
-VROpenVRActionInputEnabled
+dom_vr_openvr_action_input
 (
 )
 )
@@ -14015,7 +14015,7 @@ if
 StaticPrefs
 :
 :
-VROpenVRActionInputEnabled
+dom_vr_openvr_action_input
 (
 )
 )

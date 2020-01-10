@@ -486,7 +486,7 @@ if
 StaticPrefs
 :
 :
-VRAutoActivateEnabled
+dom_vr_autoactivate_enabled
 (
 )
 )
@@ -525,7 +525,7 @@ if
 StaticPrefs
 :
 :
-VRAutoActivateEnabled
+dom_vr_autoactivate_enabled
 (
 )
 )

@@ -2850,7 +2850,7 @@ if
 StaticPrefs
 :
 :
-VRProcessEnabled
+dom_vr_process_enabled
 (
 )
 )

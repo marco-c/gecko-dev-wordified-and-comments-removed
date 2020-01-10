@@ -1540,7 +1540,7 @@ if
 StaticPrefs
 :
 :
-PluginAsyncDrawingEnabled
+dom_ipc_plugins_asyncdrawing_enabled
 (
 )
 )
@@ -1576,7 +1576,7 @@ if
 StaticPrefs
 :
 :
-PluginAsyncDrawingEnabled
+dom_ipc_plugins_asyncdrawing_enabled
 (
 )
 )

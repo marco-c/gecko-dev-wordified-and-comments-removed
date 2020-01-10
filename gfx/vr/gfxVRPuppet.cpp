@@ -1803,7 +1803,7 @@ switch
 StaticPrefs
 :
 :
-VRPuppetSubmitFrame
+dom_vr_puppet_submitframe
 (
 )
 )
@@ -2889,7 +2889,7 @@ switch
 StaticPrefs
 :
 :
-VRPuppetSubmitFrame
+dom_vr_puppet_submitframe
 (
 )
 )
@@ -3715,7 +3715,7 @@ dom_vr_enabled
 StaticPrefs
 :
 :
-VRPuppetEnabled
+dom_vr_puppet_enabled
 (
 )
 )

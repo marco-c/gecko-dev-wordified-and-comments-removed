@@ -1045,7 +1045,7 @@ dom_vr_enabled
 StaticPrefs
 :
 :
-VROculusEnabled
+dom_vr_oculus_enabled
 (
 )
 )
@@ -1203,7 +1203,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-VROculusPresentTimeout
+dom_vr_oculus_present_timeout
 (
 )
 )
@@ -1353,7 +1353,7 @@ if
 StaticPrefs
 :
 :
-VROculusInvisibleEnabled
+dom_vr_oculus_invisible_enabled
 (
 )
 &
@@ -6169,7 +6169,7 @@ if
 StaticPrefs
 :
 :
-VRPosePredictionEnabled
+dom_vr_poseprediction_enabled
 (
 )
 )
@@ -7463,7 +7463,7 @@ triggerThreshold
 StaticPrefs
 :
 :
-VRControllerTriggerThreshold
+dom_vr_controller_trigger_threshold
 (
 )
 ;
