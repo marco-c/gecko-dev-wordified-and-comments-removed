@@ -20593,6 +20593,16 @@ None
 ;
 }
 bool
+mightHaveSideEffects
+(
+)
+const
+{
+return
+mightHaveSideEffects_
+;
+}
+bool
 supportSideEffects
 (
 )
