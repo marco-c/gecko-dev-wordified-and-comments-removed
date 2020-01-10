@@ -3088,6 +3088,11 @@ default
 :
 [
 '
+mozilla
+-
+beta
+'
+'
 trunk
 '
 '
