@@ -2130,14 +2130,6 @@ aOriginPrincipal
 )
 &
 &
-aElement
--
->
-OwnerDoc
-(
-)
-&
-&
 !
 aElement
 -

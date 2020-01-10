@@ -1738,6 +1738,7 @@ OwnerDoc
 (
 )
 const
+MOZ_NONNULL_RETURN
 {
 return
 mNodeInfo
@@ -1755,6 +1756,7 @@ OwnerDocAsNode
 (
 )
 const
+MOZ_NONNULL_RETURN
 ;
 bool
 IsInUncomposedDoc
