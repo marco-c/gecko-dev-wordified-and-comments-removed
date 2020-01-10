@@ -511,6 +511,7 @@ tests_root
 .
 wptcache
 /
+)
 "
 )
     
