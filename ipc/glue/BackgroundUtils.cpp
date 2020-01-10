@@ -4115,6 +4115,17 @@ isSome
 )
 )
 {
+nsCOMPtr
+<
+Document
+>
+doc
+=
+do_QueryInterface
+(
+aLoadingContext
+)
+;
 cspToInherit
 =
 CSPInfoToCSP
@@ -4124,7 +4135,7 @@ cspToInheritInfo
 ref
 (
 )
-nullptr
+doc
 )
 ;
 }
