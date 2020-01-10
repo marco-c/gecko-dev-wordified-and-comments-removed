@@ -730,7 +730,7 @@ reject
 =
 >
 {
-setTimeout
+step_timeout
 (
 (
 )
