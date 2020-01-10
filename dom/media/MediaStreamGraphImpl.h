@@ -920,6 +920,11 @@ return
 mOutputChannels
 ;
 }
+double
+AudioOutputLatency
+(
+)
+;
 uint32_t
 AudioInputChannelCount
 (
@@ -2069,6 +2074,9 @@ GraphTime
 mNextMainThreadGraphTime
 =
 0
+;
+double
+mAudioOutputLatency
 ;
 }
 ;

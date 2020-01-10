@@ -3126,6 +3126,11 @@ return
 mSampleRate
 ;
 }
+double
+AudioOutputLatency
+(
+)
+;
 void
 RegisterCaptureStreamForWindow
 (

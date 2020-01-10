@@ -228,16 +228,6 @@ attribute
 AudioWorklet
 audioWorklet
 ;
-/
-/
-Bug
-1324552
-:
-readonly
-attribute
-double
-baseLatency
-;
 [
 Throws
 ]
