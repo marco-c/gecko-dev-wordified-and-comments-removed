@@ -6679,13 +6679,6 @@ Append
 fontURI
 )
 ;
-if
-(
-LOG_ENABLED
-(
-)
-)
-{
 LOG
 (
 (
@@ -6711,7 +6704,6 @@ get
 )
 )
 ;
-}
 RawServoFontFaceRule
 *
 rule
