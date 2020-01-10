@@ -3354,6 +3354,17 @@ getBreakpointCount
 (
 )
 ;
+const
+onBreakpoint
+=
+waitForDispatch
+(
+dbg
+"
+SET_BREAKPOINT
+"
+)
+;
 await
 dbg
 .
@@ -3372,6 +3383,9 @@ column
 }
 options
 )
+;
+await
+onBreakpoint
 ;
 is
 (

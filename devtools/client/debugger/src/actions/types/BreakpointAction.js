@@ -148,6 +148,8 @@ XHRBreakpoint
 }
 >
 |
+PromiseAction
+<
 {
 |
 +
@@ -166,7 +168,10 @@ breakpoint
 Breakpoint
 |
 }
+>
 |
+PromiseAction
+<
 {
 |
 +
@@ -185,6 +190,7 @@ location
 SourceLocation
 |
 }
+>
 |
 {
 |
