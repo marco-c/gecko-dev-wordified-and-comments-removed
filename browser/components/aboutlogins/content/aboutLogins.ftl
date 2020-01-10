@@ -572,6 +572,13 @@ menu
 .
 menuitem
 -
+import
+=
+Import
+Passwords
+.
+menuitem
+-
 preferences
 =
 {
