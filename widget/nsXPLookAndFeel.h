@@ -599,10 +599,6 @@ COLOR_CACHE_SIZE
 ]
 ;
 static
-bool
-sFindbarModalHighlight
-;
-static
 nsXPLookAndFeel
 *
 sInstance
