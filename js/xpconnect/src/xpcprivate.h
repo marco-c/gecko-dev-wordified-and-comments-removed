@@ -10402,10 +10402,6 @@ isWebExtensionContentScript
 &
 &
 !
-isContentXBLCompartment
-&
-&
-!
 isUAWidgetCompartment
 &
 &
@@ -10436,9 +10432,6 @@ isWebExtensionContentScript
 ;
 bool
 allowCPOWs
-;
-bool
-isContentXBLCompartment
 ;
 bool
 isUAWidgetCompartment
