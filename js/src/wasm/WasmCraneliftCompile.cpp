@@ -61,6 +61,15 @@ include
 "
 wasm
 /
+WasmFrameIter
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmGenerator
 .
 h

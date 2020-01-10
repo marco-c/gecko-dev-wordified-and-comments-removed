@@ -63,6 +63,15 @@ include
 "
 wasm
 /
+WasmFrameIter
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmProcess
 .
 h
