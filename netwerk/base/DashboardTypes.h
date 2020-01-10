@@ -151,8 +151,8 @@ counter
 uint16_t
 port
 ;
-bool
-spdy
+nsCString
+httpVersion
 ;
 bool
 ssl

@@ -213,10 +213,11 @@ port
 =
 0
 ;
-boolean
-spdy
+DOMString
+httpVersion
 =
-false
+"
+"
 ;
 boolean
 ssl

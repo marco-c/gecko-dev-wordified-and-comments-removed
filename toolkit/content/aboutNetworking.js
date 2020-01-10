@@ -398,7 +398,7 @@ connections
 i
 ]
 .
-spdy
+httpVersion
 )
 )
 ;

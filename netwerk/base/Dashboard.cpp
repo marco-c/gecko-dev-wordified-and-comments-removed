@@ -2131,10 +2131,8 @@ i
 .
 port
 ;
-connection
-.
-mSpdy
-=
+CopyASCIItoUTF16
+(
 httpData
 -
 >
@@ -2143,7 +2141,11 @@ mData
 i
 ]
 .
-spdy
+httpVersion
+connection
+.
+mHttpVersion
+)
 ;
 connection
 .
