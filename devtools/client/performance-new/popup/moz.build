@@ -69,9 +69,11 @@ background
 jsm
 '
 '
-initializer
+menu
+-
+button
 .
-js
+jsm
 '
 '
 popup
