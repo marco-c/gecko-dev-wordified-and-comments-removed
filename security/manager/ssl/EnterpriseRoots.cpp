@@ -465,6 +465,17 @@ RequestedUsage
 =
 certUsage
 ;
+DWORD
+flags
+=
+CERT_CHAIN_REVOCATION_CHECK_CACHE_ONLY
+|
+CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL
+|
+CERT_CHAIN_DISABLE_AUTH_ROOT_AUTO_UPDATE
+|
+CERT_CHAIN_DISABLE_AIA
+;
 if
 (
 !
@@ -476,7 +487,7 @@ nullptr
 nullptr
 &
 chainPara
-0
+flags
 nullptr
 &
 pChainContext
