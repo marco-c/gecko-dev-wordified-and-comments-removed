@@ -2971,7 +2971,7 @@ mathcolor
 ref
 .
 xml
-=
+!
 =
 mathcolor
 -
@@ -3027,7 +3027,7 @@ mathbackground
 ref
 .
 xml
-=
+!
 =
 mathbackground
 -
