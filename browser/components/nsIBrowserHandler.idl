@@ -94,6 +94,10 @@ attribute
 AUTF8String
 defaultArgs
 ;
+attribute
+boolean
+kiosk
+;
 /
 *
 *

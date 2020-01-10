@@ -105,6 +105,16 @@ Enterprise
 Policies
 "
 )
+SPHINX_TREES
+[
+'
+docs
+'
+]
+=
+'
+docs
+'
 DIRS
 +
 =

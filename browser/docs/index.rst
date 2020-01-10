@@ -39,6 +39,13 @@ urlbar
 /
 index
 BrowserUsageTelemetry
+components
+/
+enterprisepolicies
+/
+docs
+/
+index
 extensions
 /
 formautofill
