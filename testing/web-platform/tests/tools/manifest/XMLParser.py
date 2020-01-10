@@ -23,6 +23,17 @@ etree
 ElementTree
 as
 etree
+MYPY
+=
+False
+if
+MYPY
+:
+    
+from
+typing
+import
+Dict
 _catalog
 =
 join

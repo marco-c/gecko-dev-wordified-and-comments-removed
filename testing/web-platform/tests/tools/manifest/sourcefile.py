@@ -26,6 +26,17 @@ from
 fnmatch
 import
 fnmatch
+MYPY
+=
+False
+if
+MYPY
+:
+    
+from
+types
+import
+ModuleType
 try
 :
     
@@ -35,8 +46,10 @@ xml
 etree
 import
 cElementTree
-as
+    
 ElementTree
+=
+cElementTree
 except
 ImportError
 :
@@ -47,6 +60,12 @@ xml
 etree
 import
 ElementTree
+as
+_ElementTree
+    
+ElementTree
+=
+_ElementTree
 import
 html5lib
 from

@@ -22,6 +22,17 @@ abc
 import
 ABCMeta
 abstractproperty
+MYPY
+=
+False
+if
+MYPY
+:
+    
+from
+typing
+import
+Optional
 item_types
 =
 {
