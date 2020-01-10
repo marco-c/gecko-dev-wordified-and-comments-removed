@@ -132,13 +132,13 @@ table
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 (
 )
 =

@@ -180,7 +180,7 @@ id
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -190,10 +190,8 @@ id
 value
 ]
 (
-[
 contentId
 contentValue
-]
 )
 =
 >
@@ -277,7 +275,7 @@ id
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -288,11 +286,9 @@ start
 end
 ]
 (
-[
 contentId
 contentStart
 contentEnd
-]
 )
 =
 >

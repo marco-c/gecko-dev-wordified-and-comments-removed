@@ -108,13 +108,13 @@ body
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 (
 )
 =

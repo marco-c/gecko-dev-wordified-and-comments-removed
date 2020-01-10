@@ -179,12 +179,14 @@ id1
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 id1
+]
 id
 =
 >
