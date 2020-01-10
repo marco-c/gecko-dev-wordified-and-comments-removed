@@ -285,7 +285,7 @@ svgA
 await
 waitUntilStableAutofocusState
 (
-t
+w
 )
 ;
 assert_equals
@@ -420,7 +420,7 @@ path
 await
 waitUntilStableAutofocusState
 (
-t
+w
 )
 ;
 assert_equals
@@ -543,7 +543,7 @@ element
 await
 waitUntilStableAutofocusState
 (
-t
+w
 )
 ;
 /
