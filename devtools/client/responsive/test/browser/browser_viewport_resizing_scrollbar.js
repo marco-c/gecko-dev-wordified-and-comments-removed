@@ -311,6 +311,7 @@ manager
 const
 initialSnapshot
 =
+await
 snapshotWindow
 (
 browser
@@ -356,6 +357,7 @@ manager
 const
 finalSnapshot
 =
+await
 snapshotWindow
 (
 browser
