@@ -931,6 +931,15 @@ isCopyOrMoveConstructor
 Declaration
 -
 >
+isInheritingConstructor
+(
+)
+&
+&
+!
+Declaration
+-
+>
 isDeleted
 (
 )
