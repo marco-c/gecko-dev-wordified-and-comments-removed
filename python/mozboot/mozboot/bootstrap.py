@@ -12,7 +12,14 @@ import
 os
 import
 subprocess
-try
+if
+sys
+.
+version_info
+<
+(
+3
+)
 :
     
 from
@@ -27,8 +34,11 @@ ConfigParserError
 RawConfigParser
     
 )
-except
-ImportError
+    
+input
+=
+raw_input
+else
 :
     
 from
@@ -1293,7 +1303,7 @@ open
 (
 path
 '
-wb
+w
 '
 )
 as
@@ -1839,7 +1849,7 @@ True
             
 dest
 =
-raw_input
+input
 (
 CLONE_VCS_PROMPT
 .
@@ -4079,6 +4089,10 @@ path
 env
 =
 env
+                                    
+universal_newlines
+=
+True
 )
                 
 if
