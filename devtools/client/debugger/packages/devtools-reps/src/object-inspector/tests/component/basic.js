@@ -1873,10 +1873,7 @@ waitForLoadedProperties
 store
 [
 "
-Symbol
-(
 Block
-)
 "
 ]
 )
