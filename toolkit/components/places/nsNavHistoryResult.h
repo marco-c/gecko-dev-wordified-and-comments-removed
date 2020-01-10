@@ -2055,7 +2055,7 @@ nsNavHistoryResultNode
 >
 :
 :
-nsCOMArrayComparatorFunc
+TComparatorFunc
 SortComparator
 ;
 virtual
