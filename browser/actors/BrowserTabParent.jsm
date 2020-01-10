@@ -137,7 +137,7 @@ break
 }
 case
 "
-PointerLock
+MozDOMPointerLock
 :
 Entered
 "
@@ -163,7 +163,7 @@ break
 }
 case
 "
-PointerLock
+MozDOMPointerLock
 :
 Exited
 "
