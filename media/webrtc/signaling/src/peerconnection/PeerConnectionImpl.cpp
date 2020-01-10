@@ -3253,6 +3253,15 @@ gmpHasH264
 (
 )
 ;
+mHardwareH264Supported
+=
+WebrtcVideoConduit
+:
+:
+HasH264Hardware
+(
+)
+;
 mH264Enabled
 =
 mHardwareH264Supported
