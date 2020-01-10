@@ -7440,6 +7440,9 @@ self
 this
 )
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 RefPtr
 <
 BrowserChild
@@ -7494,6 +7497,8 @@ if
 isSupportedLambda
 )
 {
+#
+endif
 nsGlobalWindowInner
 *
 win
@@ -7555,6 +7560,9 @@ p
 )
 ;
 }
+#
+ifndef
+MOZ_WIDGET_ANDROID
 }
 else
 {
@@ -7606,6 +7614,8 @@ IsWindowSupportingWebVR
 }
 )
 ;
+#
+endif
 return
 p
 .
