@@ -76,6 +76,12 @@ OnNetworkChanged
 override
 ;
 void
+OnNetworkIDChanged
+(
+)
+override
+;
+void
 OnLinkUp
 (
 )
