@@ -1974,7 +1974,11 @@ animate
 "
 true
 "
-window
+(
+"
+animatepanel
+"
+)
 .
 addEventListener
 (
@@ -2032,7 +2036,11 @@ showing
 ;
 yield
 ;
-window
+(
+"
+animatepanel
+"
+)
 .
 removeEventListener
 (
@@ -2040,7 +2048,6 @@ removeEventListener
 transitionend
 "
 transitionEnded
-false
 )
 ;
 synthesizeKey
