@@ -445,9 +445,6 @@ nsIEffectiveTLDService
 mTLDService
 ;
 bool
-mThirdPartySession
-;
-bool
 mThirdPartyNonsecureSession
 ;
 bool
