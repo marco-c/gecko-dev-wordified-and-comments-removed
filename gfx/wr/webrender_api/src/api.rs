@@ -1208,6 +1208,9 @@ Arc
 <
 BlobImageData
 >
+visible_rect
+:
+DeviceIntRect
 tiling
 :
 Option
@@ -1232,6 +1235,7 @@ AddBlobImage
 key
 descriptor
 data
+visible_rect
 tiling
 }
 )
@@ -1257,6 +1261,9 @@ Arc
 <
 BlobImageData
 >
+visible_rect
+:
+DeviceIntRect
 dirty_rect
 :
 &
@@ -1279,6 +1286,7 @@ UpdateBlobImage
 key
 descriptor
 data
+visible_rect
 dirty_rect
 :
 *
@@ -2010,6 +2018,10 @@ Arc
 BlobImageData
 >
 pub
+visible_rect
+:
+DeviceIntRect
+pub
 tiling
 :
 Option
@@ -2045,6 +2057,10 @@ Arc
 <
 BlobImageData
 >
+pub
+visible_rect
+:
+DeviceIntRect
 pub
 dirty_rect
 :
