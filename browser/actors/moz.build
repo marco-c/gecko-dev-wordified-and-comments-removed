@@ -306,6 +306,11 @@ NetErrorChild
 jsm
 '
 '
+NetErrorParent
+.
+jsm
+'
+'
 OfflineAppsChild
 .
 jsm
