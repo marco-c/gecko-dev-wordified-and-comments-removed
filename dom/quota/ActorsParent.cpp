@@ -18555,11 +18555,16 @@ LoadQuotaFromCache
 )
 )
 {
+#
+ifdef
+NIGHTLY_BUILD
 nsresult
 statusKeeper
 =
 NS_OK
 ;
+#
+endif
 for
 (
 const
