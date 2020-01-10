@@ -1543,9 +1543,7 @@ gBrowser
 .
 selectedBrowser
 .
-messageManager
-.
-sendAsyncMessage
+sendMessageToActor
 (
 "
 MixedContent
@@ -1554,6 +1552,9 @@ ReenableProtection
 "
 {
 }
+"
+BrowserTab
+"
 )
 ;
 BrowserReload

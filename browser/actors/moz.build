@@ -231,6 +231,11 @@ BrowserTabChild
 jsm
 '
 '
+BrowserTabParent
+.
+jsm
+'
+'
 ClickHandlerChild
 .
 jsm
@@ -317,6 +322,11 @@ jsm
 '
 '
 SubframeCrashParent
+.
+jsm
+'
+'
+SwitchDocumentDirectionChild
 .
 jsm
 '
