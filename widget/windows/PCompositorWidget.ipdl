@@ -226,6 +226,11 @@ aCompositorWnd
 WindowsHandle
 aParentWnd
 )
+returns
+(
+bool
+success
+)
 ;
 }
 ;
