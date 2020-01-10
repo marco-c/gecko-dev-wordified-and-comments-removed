@@ -485,7 +485,7 @@ updateAfterGC
 (
 zoneSize
 .
-gcBytes
+retainedBytes
 (
 )
 invocationKind
@@ -504,7 +504,7 @@ updateAfterGC
 (
 gcMallocBytes
 .
-gcBytes
+retainedBytes
 (
 )
 gc

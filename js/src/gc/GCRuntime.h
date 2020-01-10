@@ -4294,7 +4294,7 @@ bool
 >
 isCompacting
 ;
-MainThreadData
+MainThreadOrGCTaskData
 <
 JSGCInvocationKind
 >
