@@ -17954,12 +17954,6 @@ MOZ_ASSERT
 aRejectedReason
 )
 ;
-uint32_t
-aInputRejectedReason
-=
-*
-aRejectedReason
-;
 *
 aRejectedReason
 =
@@ -18174,7 +18168,10 @@ if
 (
 StoragePartitioningEnabled
 (
-aInputRejectedReason
+nsIWebProgressListener
+:
+:
+STATE_COOKIES_BLOCKED_TRACKER
 aCookieSettings
 )
 )
