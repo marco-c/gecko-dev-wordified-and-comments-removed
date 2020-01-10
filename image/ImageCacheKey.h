@@ -175,15 +175,6 @@ mControlledDocument
 }
 private
 :
-bool
-SchemeIs
-(
-const
-char
-*
-aScheme
-)
-;
 static
 void
 *
