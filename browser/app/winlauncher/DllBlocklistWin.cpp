@@ -101,6 +101,7 @@ sizeof
 (
 wchar_t
 )
+\
 /
 *
 Length
@@ -110,7 +111,6 @@ string
 in
 bytes
 including
-\
 the
 null
 terminator
@@ -121,6 +121,7 @@ sizeof
 (
 s
 )
+\
 /
 *
 Pointer
@@ -893,6 +894,13 @@ BLOCK_WIN8_ONLY
 {
 RTL_OSVERSIONINFOW
 osv
+=
+{
+sizeof
+(
+osv
+)
+}
 ;
 NTSTATUS
 ntStatus
