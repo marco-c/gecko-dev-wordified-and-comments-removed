@@ -1342,6 +1342,8 @@ r1
 #
 Reload
 lr
+mtlr
+0
 ld
 29
 -
@@ -1366,8 +1368,6 @@ ld
 (
 r1
 )
-mtlr
-0
 blr
 #
 if
