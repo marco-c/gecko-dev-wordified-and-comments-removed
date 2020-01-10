@@ -840,13 +840,6 @@ prefs
 js
 BINPATH
 /
-ua
--
-update
-.
-json
-BINPATH
-/
 defaults
 /
 autoconfig
