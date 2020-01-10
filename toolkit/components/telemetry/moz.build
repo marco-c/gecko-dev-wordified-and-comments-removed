@@ -590,6 +590,16 @@ components
 conf
 '
 ]
+EXTRA_COMPONENTS
++
+=
+[
+'
+TelemetryStartup
+.
+manifest
+'
+]
 EXTRA_JS_MODULES
 +
 =

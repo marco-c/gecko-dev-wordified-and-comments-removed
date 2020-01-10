@@ -951,6 +951,13 @@ RESPATH
 /
 components
 /
+TelemetryStartup
+.
+manifest
+RESPATH
+/
+components
+/
 Push
 .
 manifest
