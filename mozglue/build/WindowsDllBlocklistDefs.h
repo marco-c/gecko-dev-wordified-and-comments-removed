@@ -975,6 +975,15 @@ dll
 "
 ALL_VERSIONS
 )
+DLL_BLOCKLIST_ENTRY
+(
+"
+safemon64
+.
+dll
+"
+ALL_VERSIONS
+)
 #
 ifdef
 ENABLE_TESTS
