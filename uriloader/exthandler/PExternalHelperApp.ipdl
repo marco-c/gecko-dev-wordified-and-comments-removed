@@ -99,8 +99,6 @@ OnStartRequest
 (
 nsCString
 entityID
-PBrowser
-windowContext
 )
 ;
 async
@@ -126,8 +124,6 @@ DivertToParentUsing
 (
 PChannelDiverter
 diverter
-PBrowser
-windowContext
 )
 ;
 child
