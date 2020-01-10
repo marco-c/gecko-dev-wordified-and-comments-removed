@@ -1480,6 +1480,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -1643,6 +1646,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -1741,6 +1747,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -12137,6 +12146,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -12830,6 +12842,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -12920,6 +12935,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -13005,6 +13023,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -13109,6 +13130,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -13208,6 +13232,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -48891,6 +48918,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -54481,6 +54511,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -54591,6 +54624,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -54770,6 +54806,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -54852,6 +54891,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -54919,6 +54961,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -57005,6 +57050,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -57076,6 +57124,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -57144,6 +57195,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -57220,6 +57274,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -57295,6 +57352,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -57373,6 +57433,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -57476,6 +57539,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -57981,6 +58047,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -58062,6 +58131,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -58142,6 +58214,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -58216,6 +58291,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -58289,6 +58367,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -64538,6 +64619,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -75941,6 +76025,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -76027,6 +76114,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -76112,6 +76202,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -76200,6 +76293,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -76283,6 +76379,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -76374,6 +76473,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -76468,6 +76570,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -76560,6 +76665,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -76643,6 +76751,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -76735,6 +76846,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -76835,6 +76949,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -76933,6 +77050,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -77025,6 +77145,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -77124,6 +77247,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -77219,6 +77345,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -77296,6 +77425,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -77376,6 +77508,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -77477,6 +77612,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -77561,6 +77699,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -77656,6 +77797,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -77744,6 +77888,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -77837,6 +77984,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -77916,6 +78066,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -77994,6 +78147,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -78071,6 +78227,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -78183,6 +78342,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -78273,6 +78435,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -78369,6 +78534,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -78461,6 +78629,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -78545,6 +78716,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -78652,6 +78826,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -78757,6 +78934,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -78882,6 +79062,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -79015,6 +79198,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -79099,6 +79285,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -79170,6 +79359,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -79257,6 +79449,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -79341,6 +79536,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -79423,6 +79621,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -79500,6 +79701,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -79580,6 +79784,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -79659,6 +79866,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -79736,6 +79946,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -79819,6 +80032,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -79922,6 +80138,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -80036,6 +80255,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -80148,6 +80370,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -80226,6 +80451,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -80303,6 +80531,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -80389,6 +80620,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -80470,6 +80704,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -80573,6 +80810,9 @@ geckoview
 "
 "
 geckoview_streaming
+"
+"
+thunderbird
 "
 ]
 "
@@ -80686,6 +80926,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -80790,6 +81033,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -80912,6 +81158,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -80999,6 +81248,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -81081,6 +81333,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -81181,6 +81436,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 bug_numbers
@@ -81269,6 +81527,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -81359,6 +81620,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -81465,6 +81729,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -81569,6 +81836,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -81675,6 +81945,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -81762,6 +82035,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -81848,6 +82124,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -81941,6 +82220,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -82032,6 +82314,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -82133,6 +82418,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -82233,6 +82521,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -82318,6 +82609,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -82395,6 +82689,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -82498,6 +82795,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -82594,6 +82894,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -82697,6 +83000,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -82779,6 +83085,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -82860,6 +83169,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -82958,6 +83270,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -83054,6 +83369,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -83213,6 +83531,9 @@ products
 "
 firefox
 "
+"
+thunderbird
+"
 ]
 }
 "
@@ -83309,6 +83630,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 }
@@ -83434,6 +83758,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -83539,6 +83866,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -83646,6 +83976,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -83751,6 +84084,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -83858,6 +84194,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -83964,6 +84303,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -84069,6 +84411,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -84178,6 +84523,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -84289,6 +84637,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -84606,6 +84957,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -87273,6 +87627,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -87366,6 +87723,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -87477,6 +87837,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -87744,6 +88107,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -87846,6 +88212,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -87953,6 +88322,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -88055,6 +88427,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -107804,6 +108179,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -107928,6 +108306,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -113676,6 +114057,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -113775,6 +114159,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -115275,6 +115662,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -115364,6 +115754,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -115463,6 +115856,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -115841,6 +116237,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 alert_emails
@@ -115916,6 +116315,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -116198,6 +116600,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -117504,6 +117909,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -117583,6 +117991,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -117666,6 +118077,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -117747,6 +118161,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -120434,6 +120851,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -123751,6 +124171,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -123999,6 +124422,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -124952,6 +125378,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -125068,6 +125497,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "
@@ -125466,6 +125898,9 @@ fennec
 "
 geckoview
 "
+"
+thunderbird
+"
 ]
 "
 expires_in_version
@@ -125570,6 +126005,9 @@ fennec
 "
 "
 geckoview
+"
+"
+thunderbird
 "
 ]
 "

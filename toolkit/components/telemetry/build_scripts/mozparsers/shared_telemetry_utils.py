@@ -103,6 +103,14 @@ geckoview_streaming
 '
 GeckoviewStreaming
 '
+    
+'
+thunderbird
+'
+:
+'
+Thunderbird
+'
 }
 SUPPORTED_OPERATING_SYSTEMS
 =
