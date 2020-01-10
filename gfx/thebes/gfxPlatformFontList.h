@@ -1524,6 +1524,10 @@ fontlist
 :
 FontList
 ;
+friend
+class
+InitOtherFamilyNamesForStylo
+;
 class
 InitOtherFamilyNamesRunnable
 :
