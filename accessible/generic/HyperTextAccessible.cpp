@@ -6449,7 +6449,7 @@ idx
 domSel
 -
 >
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 *
 domSel
@@ -8089,7 +8089,7 @@ rangeCount
 domSel
 -
 >
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 *
 range
@@ -8202,7 +8202,7 @@ false
 domSel
 -
 >
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 *
 domSel

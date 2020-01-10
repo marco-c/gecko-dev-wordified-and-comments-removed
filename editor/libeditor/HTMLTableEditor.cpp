@@ -8182,7 +8182,7 @@ SelectionRefPtr
 )
 -
 >
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 *
 range
@@ -12021,7 +12021,7 @@ SelectionRefPtr
 )
 -
 >
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 *
 range

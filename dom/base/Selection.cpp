@@ -9739,7 +9739,7 @@ void
 Selection
 :
 :
-RemoveRange
+RemoveRangeAndUnselectFramesAndNotifyListeners
 (
 nsRange
 &

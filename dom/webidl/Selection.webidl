@@ -281,6 +281,11 @@ selection
 /
 [
 Throws
+BinaryName
+=
+"
+removeRangeAndUnselectFramesAndNotifyListeners
+"
 ]
 void
 removeRange
