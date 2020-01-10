@@ -720,14 +720,6 @@ TOPSRCDIR
 /
 memory
 /
-fallible
-\
-{
-TOPSRCDIR
-}
-/
-memory
-/
 mozalloc
 \
 {
