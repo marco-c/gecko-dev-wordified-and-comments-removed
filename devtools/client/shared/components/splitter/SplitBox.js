@@ -209,6 +209,11 @@ onControlledPanelResized
 PropTypes
 .
 func
+onSelectContainerElement
+:
+PropTypes
+.
+any
 }
 ;
 }
@@ -853,6 +858,7 @@ startPanel
 endPanel
 minSize
 maxSize
+onSelectContainerElement
 }
 =
 this
@@ -1180,6 +1186,17 @@ startPanelContainer
 =
 div
 ;
+if
+(
+onSelectContainerElement
+)
+{
+onSelectContainerElement
+(
+div
+)
+;
+}
 }
 }
 startPanel
