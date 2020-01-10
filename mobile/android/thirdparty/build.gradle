@@ -32,6 +32,16 @@ project
 ext
 .
 compileSdkVersion
+useLibrary
+'
+org
+.
+apache
+.
+http
+.
+legacy
+'
 defaultConfig
 {
 targetSdkVersion
