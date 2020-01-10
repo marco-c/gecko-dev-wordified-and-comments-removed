@@ -200,7 +200,7 @@ watcherdone
 function
 onFrame
 (
-t
+timestamp
 frame
 )
 {
@@ -325,6 +325,7 @@ session
 .
 requestAnimationFrame
 (
+onFrame
 )
 t
 .
@@ -515,6 +516,9 @@ simulateVisibilityChange
 hidden
 "
 )
+;
+return
+eventPromise
 ;
 }
 ;
