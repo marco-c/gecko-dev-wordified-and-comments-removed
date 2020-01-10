@@ -24,6 +24,13 @@ h
 #
 include
 "
+nsDisplayList
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
