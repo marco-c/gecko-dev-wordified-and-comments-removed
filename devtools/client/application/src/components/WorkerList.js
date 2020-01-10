@@ -218,6 +218,14 @@ header
 h1
 (
 {
+className
+:
+"
+application
+-
+-
+title
+"
 }
 )
 )
@@ -255,7 +263,7 @@ serviceworker
 -
 list
 -
-aboutdebugging2
+aboutdebugging
 "
 a
 :
