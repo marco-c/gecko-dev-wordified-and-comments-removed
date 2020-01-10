@@ -186,7 +186,7 @@ KEY_Enter
 )
 ;
 await
-waitForDOM
+waitForDOMIfNeeded
 (
 document
 "
