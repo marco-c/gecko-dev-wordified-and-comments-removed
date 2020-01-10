@@ -3148,11 +3148,6 @@ bool
 aForDocumentNavigation
 )
 ;
-void
-SkipBrowsingContextDetach
-(
-)
-;
 bool
 GetDocShellIsActive
 (

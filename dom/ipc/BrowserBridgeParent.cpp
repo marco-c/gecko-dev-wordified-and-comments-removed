@@ -954,10 +954,13 @@ RecvSkipBrowsingContextDetach
 (
 )
 {
+Unused
+<
+<
 mBrowserParent
 -
 >
-SkipBrowsingContextDetach
+SendSkipBrowsingContextDetach
 (
 )
 ;
