@@ -175,6 +175,9 @@ name
 hex
 hsl
 rgb
+disableColorMatch
+=
+false
 }
 of
 data
@@ -279,6 +282,12 @@ hsl
 rgb
 )
 ;
+if
+(
+!
+disableColorMatch
+)
+{
 testColorMatch
 (
 name
@@ -291,6 +300,7 @@ rgba
 canvas
 )
 ;
+}
 }
 testSetAlpha
 (
