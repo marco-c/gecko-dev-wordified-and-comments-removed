@@ -8756,16 +8756,6 @@ pref
 "
 dom
 .
-disable_open_click_delay
-"
-1000
-)
-;
-pref
-(
-"
-dom
-.
 serviceWorkers
 .
 disable_open_click_delay
