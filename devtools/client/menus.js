@@ -227,9 +227,6 @@ l10nKey
 "
 devtoolsRemoteDebugging
 "
-disabled
-:
-true
 oncommand
 (
 event
@@ -381,9 +378,6 @@ l10nKey
 "
 webide
 "
-disabled
-:
-true
 oncommand
 (
 )
@@ -412,9 +406,6 @@ l10nKey
 "
 browserToolboxMenu
 "
-disabled
-:
-true
 oncommand
 (
 )
@@ -443,9 +434,6 @@ l10nKey
 "
 browserContentToolboxMenu
 "
-disabled
-:
-true
 oncommand
 (
 event
@@ -725,9 +713,6 @@ l10nKey
 "
 devtoolsConnect
 "
-disabled
-:
-true
 oncommand
 (
 event
