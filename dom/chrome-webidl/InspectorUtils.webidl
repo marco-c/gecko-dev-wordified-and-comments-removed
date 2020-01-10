@@ -179,6 +179,11 @@ pseudo
 =
 "
 "
+optional
+boolean
+includeVisitedStyle
+=
+false
 )
 ;
 unsigned
