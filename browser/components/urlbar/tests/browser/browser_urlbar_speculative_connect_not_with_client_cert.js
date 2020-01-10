@@ -112,13 +112,13 @@ clientAuthDialogs
 {
 chooseCertificate
 (
-ctx
 hostname
 port
 organization
 issuerOrg
 certList
 selectedIndex
+rememberClientAuthCertificate
 )
 {
 ok
@@ -163,6 +163,12 @@ selectedIndex
 value
 =
 0
+;
+rememberClientAuthCertificate
+.
+value
+=
+false
 ;
 chooseCertificateCalled
 =
