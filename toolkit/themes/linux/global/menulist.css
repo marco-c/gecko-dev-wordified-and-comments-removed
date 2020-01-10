@@ -169,7 +169,12 @@ true
 {
 color
 :
-ButtonText
+-
+moz
+-
+gtk
+-
+buttonactivetext
 ;
 }
 menulist
