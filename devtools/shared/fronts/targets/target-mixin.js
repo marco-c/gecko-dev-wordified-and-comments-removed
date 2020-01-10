@@ -674,6 +674,11 @@ if
 this
 .
 isAddon
+|
+|
+this
+.
+isContentProcess
 )
 {
 return

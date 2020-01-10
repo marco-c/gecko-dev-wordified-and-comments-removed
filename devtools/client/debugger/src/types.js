@@ -1167,7 +1167,7 @@ string
 +
 type
 :
-number
+string
 +
 name
 :

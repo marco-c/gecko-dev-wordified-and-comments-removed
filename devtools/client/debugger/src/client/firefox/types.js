@@ -513,10 +513,16 @@ ThreadFront
 activeConsole
 :
 ConsoleClient
+name
+:
+string
 isBrowsingContext
 :
 boolean
 isContentProcess
+:
+boolean
+isWorkerTarget
 :
 boolean
 traits

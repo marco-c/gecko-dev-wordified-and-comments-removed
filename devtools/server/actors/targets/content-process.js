@@ -642,12 +642,6 @@ actor
 this
 .
 actorID
-name
-:
-"
-Content
-process
-"
 consoleActor
 :
 this
