@@ -212,6 +212,11 @@ WILL_NAVIGATE
 "
 WILL_NAVIGATE
 "
+EDITOR_SET_WIDTH
+:
+"
+EDITOR_SET_WIDTH
+"
 }
 ;
 const
@@ -330,6 +335,13 @@ devtools
 webconsole
 .
 timestampMessages
+"
+EDITOR_WIDTH
+:
+"
+input
+.
+editorWidth
 "
 }
 FEATURES
