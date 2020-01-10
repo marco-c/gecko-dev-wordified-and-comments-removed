@@ -17,6 +17,15 @@ raw
 c_char
 ;
 use
+std
+:
+:
+convert
+:
+:
+TryInto
+;
+use
 libc
 :
 :
@@ -1079,7 +1088,7 @@ codec_name
 match
 codec_name
 .
-into
+try_into
 (
 )
 {
@@ -1208,7 +1217,7 @@ name_str
 match
 name
 .
-into
+try_into
 (
 )
 {
