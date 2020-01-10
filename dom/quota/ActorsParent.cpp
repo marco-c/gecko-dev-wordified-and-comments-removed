@@ -18587,7 +18587,7 @@ IsShuttingDown
 RETURN_STATUS_OR_RESULT
 (
 statusKeeper
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 )
 ;
 }
@@ -21118,7 +21118,7 @@ IsShuttingDown
 RETURN_STATUS_OR_RESULT
 (
 statusKeeper
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 )
 ;
 }
@@ -21537,7 +21537,7 @@ IsShuttingDown
 RETURN_STATUS_OR_RESULT
 (
 statusKeeper
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 )
 ;
 }
