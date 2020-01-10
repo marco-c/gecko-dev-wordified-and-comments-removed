@@ -6476,7 +6476,7 @@ aRoot
 {
 ContentRemoved
 (
-acc
+aRoot
 )
 ;
 return
