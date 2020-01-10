@@ -9631,7 +9631,9 @@ borderPadding
 finalSize
 aState
 .
-mConsumedBSize
+ConsumedBSize
+(
+)
 )
 ;
 aMetrics
@@ -36974,6 +36976,7 @@ GetWritingMode
 (
 )
 ;
+const
 nscoord
 computedBSizeLeftOver
 =
@@ -37197,19 +37200,6 @@ AvailableBSize
 aContentBSize
 )
 ;
-nscoord
-effectiveComputedBSize
-=
-GetEffectiveComputedBSize
-(
-aReflowInput
-aState
-.
-ConsumedBSize
-(
-)
-)
-;
 aFinalSize
 .
 BSize
@@ -37235,7 +37225,7 @@ BStart
 wm
 )
 +
-effectiveComputedBSize
+computedBSizeLeftOver
 )
 ;
 }
