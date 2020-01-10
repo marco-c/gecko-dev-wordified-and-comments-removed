@@ -3777,7 +3777,7 @@ TestcaseBundle
 (
 gPropList
 .
-text_decoration
+text_decoration_line
 [
 new
 AnimTestcaseFromTo

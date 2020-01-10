@@ -480,7 +480,7 @@ XML
 text
 "
 )
-text_decoration
+text_decoration_line
 :
 new
 NonAdditiveAttribute
@@ -489,6 +489,8 @@ NonAdditiveAttribute
 text
 -
 decoration
+-
+line
 "
 "
 XML
