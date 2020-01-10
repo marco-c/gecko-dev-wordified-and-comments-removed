@@ -1610,6 +1610,11 @@ description
 Win64
 Shippable
 "
+use
+-
+pgo
+:
+true
 index
 :
 product
@@ -1660,7 +1665,10 @@ shippable
 opt
 symbol
 :
+Bpgo
+(
 B
+)
 tier
 :
 1
