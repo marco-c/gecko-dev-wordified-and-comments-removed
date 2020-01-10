@@ -267,6 +267,7 @@ webConsoleUI
 .
 onMessageHover
 (
+type
 message
 )
 getLongString
