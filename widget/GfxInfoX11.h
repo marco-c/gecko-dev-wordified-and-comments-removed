@@ -392,9 +392,6 @@ mIsAccelerated
 bool
 mIsWayland
 ;
-bool
-mIsWaylandDRM
-;
 void
 AddCrashReportAnnotations
 (
