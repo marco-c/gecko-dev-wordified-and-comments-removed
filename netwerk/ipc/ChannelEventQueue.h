@@ -361,6 +361,7 @@ UniquePtr
 ChannelEvent
 >
 &
+&
 aEvent
 )
 ;
@@ -767,6 +768,7 @@ UniquePtr
 <
 ChannelEvent
 >
+&
 &
 aEvent
 )

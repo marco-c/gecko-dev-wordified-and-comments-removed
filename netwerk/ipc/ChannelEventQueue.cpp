@@ -304,7 +304,13 @@ Suspend
 ;
 PrependEvent
 (
+std
+:
+:
+move
+(
 event
+)
 )
 ;
 needResumeOnOtherThread
