@@ -12772,6 +12772,9 @@ unboxObject
 Address
 (
 reg
+js
+:
+:
 detail
 :
 :
@@ -12941,6 +12944,9 @@ val
 scratchReg
 (
 )
+js
+:
+:
 detail
 :
 :
@@ -13032,6 +13038,9 @@ Address
 expandoAddr
 (
 scratch
+js
+:
+:
 detail
 :
 :

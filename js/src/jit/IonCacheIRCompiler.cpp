@@ -12403,6 +12403,9 @@ Address
 expandoAddr
 (
 scratch1
+js
+:
+:
 detail
 :
 :
