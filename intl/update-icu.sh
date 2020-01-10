@@ -570,6 +570,16 @@ bug
 .
 diff
 \
+bug
+-
+1433303
+-
+minimize
+-
+subtags
+.
+diff
+\
 ;
 do
 echo

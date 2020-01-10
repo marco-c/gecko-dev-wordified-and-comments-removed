@@ -352,6 +352,8 @@ template
 <
 typename
 ICUStringFunction
+typename
+CharT
 size_t
 InlineCapacity
 >
@@ -368,7 +370,7 @@ ICUStringFunction
 strFn
 Vector
 <
-char16_t
+CharT
 InlineCapacity
 >
 &
