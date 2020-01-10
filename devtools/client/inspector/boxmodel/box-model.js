@@ -831,7 +831,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 .
 actorHasMethod
 (

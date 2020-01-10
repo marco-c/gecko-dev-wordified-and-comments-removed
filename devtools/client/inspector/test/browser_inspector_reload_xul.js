@@ -119,7 +119,7 @@ is
 (
 inspector
 .
-target
+currentTarget
 .
 tab
 tab

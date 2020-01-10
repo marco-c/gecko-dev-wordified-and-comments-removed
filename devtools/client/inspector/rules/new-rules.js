@@ -905,7 +905,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 ;
 this
 .
@@ -1722,7 +1722,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 )
 )
 {
@@ -1741,7 +1741,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 "
 styleeditor
 "

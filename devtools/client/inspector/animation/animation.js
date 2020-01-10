@@ -796,7 +796,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 ;
 const
 front
@@ -2332,7 +2332,7 @@ this
 .
 inspector
 .
-target
+currentTarget
 .
 actorHasMethod
 (

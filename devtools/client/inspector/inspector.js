@@ -821,7 +821,7 @@ if
 (
 this
 .
-target
+currentTarget
 .
 isReplayEnabled
 (
@@ -876,7 +876,7 @@ isPaused
 ;
 this
 .
-target
+currentTarget
 .
 threadFront
 .
@@ -892,7 +892,7 @@ handleThreadPaused
 ;
 this
 .
-target
+currentTarget
 .
 threadFront
 .
@@ -916,7 +916,7 @@ initInspectorFront
 ;
 this
 .
-target
+currentTarget
 .
 on
 (
@@ -970,7 +970,7 @@ previousURL
 =
 this
 .
-target
+currentTarget
 .
 url
 ;
@@ -983,7 +983,7 @@ ReflowTracker
 (
 this
 .
-target
+currentTarget
 )
 ;
 this
@@ -1033,7 +1033,7 @@ inspectorFront
 await
 this
 .
-target
+currentTarget
 .
 getFront
 (
@@ -1126,7 +1126,7 @@ if
 (
 this
 .
-target
+currentTarget
 .
 chrome
 )
@@ -1197,7 +1197,7 @@ if
 (
 this
 .
-target
+currentTarget
 .
 chrome
 )
@@ -1641,7 +1641,7 @@ accessibilityFront
 await
 this
 .
-target
+currentTarget
 .
 getFront
 (
@@ -1670,9 +1670,7 @@ changesFront
 await
 this
 .
-toolbox
-.
-target
+currentTarget
 .
 getFront
 (
@@ -2023,7 +2021,7 @@ node
 ;
 }
 get
-target
+currentTarget
 (
 )
 {
@@ -2031,19 +2029,6 @@ return
 this
 .
 _target
-;
-}
-set
-target
-(
-value
-)
-{
-this
-.
-_target
-=
-value
 ;
 }
 setupSearchBox
@@ -5862,7 +5847,7 @@ if
 !
 this
 .
-target
+currentTarget
 |
 |
 !
@@ -6458,7 +6443,7 @@ onSidebarHidden
 ;
 this
 .
-target
+currentTarget
 .
 off
 (
@@ -7546,7 +7531,7 @@ screenshotFront
 await
 this
 .
-target
+currentTarget
 .
 getFront
 (

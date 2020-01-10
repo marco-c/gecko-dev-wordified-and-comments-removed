@@ -71,7 +71,7 @@ willNavigate
 =
 inspector
 .
-target
+currentTarget
 .
 once
 (
