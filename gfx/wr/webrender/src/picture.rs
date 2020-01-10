@@ -19288,6 +19288,7 @@ dirty_tracker
 impl
 CompositeState
 {
+pub
 fn
 destroy_native_surfaces
 <
