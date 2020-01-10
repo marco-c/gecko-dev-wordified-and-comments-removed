@@ -1545,10 +1545,8 @@ build
 platform
 :
 macosx64
--
-shippable
 /
-opt
+debug
 test
 -
 sets
