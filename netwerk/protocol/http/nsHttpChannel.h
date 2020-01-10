@@ -2519,6 +2519,15 @@ WAIT_FOR_OFFLINE_CACHE_ENTRY
 =
 2
 ;
+Maybe
+<
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
+>
+mComputedCrossOriginOpenerPolicy
+;
 bool
 mCacheOpenWithPriority
 ;
