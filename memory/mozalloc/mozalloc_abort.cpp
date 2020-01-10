@@ -293,6 +293,13 @@ defined
 (
 MOZ_ASAN
 )
+&
+&
+!
+defined
+(
+MOZ_TSAN
+)
 extern
 "
 C
