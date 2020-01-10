@@ -5039,19 +5039,6 @@ i
 items
 )
 {
-if
-(
-i
--
->
-FrameForInvalidation
-(
-)
-=
-=
-this
-)
-{
 i
 -
 >
@@ -5059,7 +5046,6 @@ DiscardIfOldItem
 (
 )
 ;
-}
 }
 }
 void
