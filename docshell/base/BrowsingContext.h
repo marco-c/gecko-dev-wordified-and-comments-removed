@@ -792,6 +792,16 @@ HasOpener
 )
 const
 ;
+bool
+HadOriginalOpener
+(
+)
+const
+{
+return
+mHadOriginalOpener
+;
+}
 already_AddRefed
 <
 BrowsingContext

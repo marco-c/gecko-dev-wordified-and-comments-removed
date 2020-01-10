@@ -36,6 +36,11 @@ uint64_t
 )
 MOZ_BC_FIELD
 (
+HadOriginalOpener
+bool
+)
+MOZ_BC_FIELD
+(
 IsActivatedByUserGesture
 bool
 )
