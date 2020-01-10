@@ -18865,7 +18865,6 @@ devtools
 downloads
 home
 newtab
-performance
 plugins
 profiles
 preferences
