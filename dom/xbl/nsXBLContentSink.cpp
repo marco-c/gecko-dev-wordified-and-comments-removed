@@ -4007,8 +4007,14 @@ prototype
 new
 nsXULPrototypeElement
 (
-aNodeInfo
 )
+;
+prototype
+-
+>
+mNodeInfo
+=
+aNodeInfo
 ;
 AddAttributesToXULPrototype
 (
