@@ -109,7 +109,7 @@ double
 or
 ArrayBuffer
 or
-Dictionary
+object
 )
 NDEFRecordData
 ;
