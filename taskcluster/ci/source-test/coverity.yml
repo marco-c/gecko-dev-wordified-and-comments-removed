@@ -105,11 +105,9 @@ linux64
 .
 *
 :
-t
+b
 -
 linux
--
-xlarge
 worker
 :
 docker
