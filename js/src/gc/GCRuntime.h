@@ -4430,7 +4430,7 @@ uint64_t
 >
 sliceNumber
 ;
-MainThreadData
+MainThreadOrGCTaskData
 <
 bool
 >
@@ -4469,7 +4469,7 @@ State
 >
 incrementalState
 ;
-MainThreadData
+MainThreadOrGCTaskData
 <
 State
 >
