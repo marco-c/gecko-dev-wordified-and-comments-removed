@@ -165,6 +165,7 @@ true
 toolbar
 :
 [
+true
 false
 false
 false
@@ -206,7 +207,7 @@ await
 toggleFilter
 (
 doc
-0
+1
 )
 ;
 }
@@ -269,6 +270,7 @@ contrast
 toolbar
 :
 [
+false
 true
 true
 true
@@ -301,7 +303,7 @@ await
 toggleFilter
 (
 doc
-0
+1
 )
 ;
 }
@@ -406,6 +408,7 @@ contrast
 toolbar
 :
 [
+true
 false
 false
 false

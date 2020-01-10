@@ -196,7 +196,7 @@ await
 toggleFilter
 (
 doc
-0
+1
 )
 ;
 }

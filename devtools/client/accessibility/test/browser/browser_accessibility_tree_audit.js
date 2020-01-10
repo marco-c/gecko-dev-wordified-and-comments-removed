@@ -260,7 +260,7 @@ desc
 Click
 on
 the
-contrast
+all
 filter
 .
 "
@@ -279,7 +279,7 @@ await
 toggleFilter
 (
 doc
-0
+1
 )
 ;
 }
@@ -354,7 +354,7 @@ desc
 Click
 on
 the
-contrast
+all
 filter
 again
 .
@@ -374,7 +374,7 @@ await
 toggleFilter
 (
 doc
-0
+1
 )
 ;
 }
