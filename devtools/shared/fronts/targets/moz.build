@@ -88,11 +88,6 @@ MPL
 DevToolsModules
 (
 '
-addon
-.
-js
-'
-'
 browsing
 -
 context
