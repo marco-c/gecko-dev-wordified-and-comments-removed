@@ -230,14 +230,6 @@ UpdateConduit
 (
 )
 ;
-nsresult
-UpdatePrincipal
-(
-nsIPrincipal
-*
-aPrincipal
-)
-;
 void
 ResetSync
 (

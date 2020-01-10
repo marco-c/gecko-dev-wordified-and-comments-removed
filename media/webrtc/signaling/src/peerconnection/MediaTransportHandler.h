@@ -632,7 +632,7 @@ SignalCandidate
 sigslot
 :
 :
-signal1
+signal2
 <
 const
 std
@@ -640,6 +640,7 @@ std
 :
 string
 &
+bool
 >
 SignalAlpnNegotiated
 ;
