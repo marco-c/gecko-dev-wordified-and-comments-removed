@@ -146,6 +146,7 @@ CDATA
 const
 {
 FluentBundle
+FluentResource
 }
 =
 ChromeUtils
@@ -187,7 +188,10 @@ locales
 ;
 bundle
 .
-addMessages
+addResource
+(
+new
+FluentResource
 (
 file
 -
@@ -235,6 +239,7 @@ foo
 inside
 it
 .
+)
 )
 ;
 yield

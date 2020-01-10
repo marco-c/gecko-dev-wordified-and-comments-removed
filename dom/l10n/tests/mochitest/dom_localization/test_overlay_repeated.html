@@ -110,6 +110,7 @@ strict
 const
 {
 FluentBundle
+FluentResource
 }
 =
 ChromeUtils
@@ -151,7 +152,10 @@ locales
 ;
 bundle
 .
-addMessages
+addResource
+(
+new
+FluentResource
 (
 title
 =
@@ -197,6 +201,7 @@ a
 >
 website
 !
+)
 )
 ;
 yield

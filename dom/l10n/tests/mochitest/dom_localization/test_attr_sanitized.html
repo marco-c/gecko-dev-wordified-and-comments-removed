@@ -111,6 +111,7 @@ strict
 const
 {
 FluentBundle
+FluentResource
 }
 =
 ChromeUtils
@@ -152,7 +153,10 @@ locales
 ;
 bundle
 .
-addMessages
+addResource
+(
+new
+FluentResource
 (
 key1
 =
@@ -174,6 +178,7 @@ a
 /
 >
 .
+)
 )
 ;
 yield

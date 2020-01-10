@@ -111,6 +111,7 @@ strict
 const
 {
 FluentBundle
+FluentResource
 }
 =
 ChromeUtils
@@ -137,7 +138,6 @@ function
 *
 mockGenerateMessages
 (
-locales
 resourceIds
 )
 {
@@ -147,7 +147,11 @@ bundle
 new
 FluentBundle
 (
-locales
+"
+en
+-
+US
+"
 {
 useIsolating
 :
@@ -157,7 +161,10 @@ false
 ;
 bundle
 .
-addMessages
+addResource
+(
+new
+FluentResource
 (
 key1
 =
@@ -184,6 +191,7 @@ for
 {
 user
 }
+)
 )
 ;
 yield
@@ -472,9 +480,9 @@ resolver
 ]
 errors
 in
-mock
-.
-ftl
+en
+-
+US
 /
 key2
 :
@@ -568,9 +576,9 @@ fluent
 Missing
 translations
 in
-mock
-.
-ftl
+en
+-
+US
 :
 key4
 .

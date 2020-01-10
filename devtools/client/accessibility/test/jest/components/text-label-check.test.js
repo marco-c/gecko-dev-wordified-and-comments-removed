@@ -493,7 +493,7 @@ mount
 LocalizationProvider
 (
 {
-messages
+bundles
 :
 [
 ]

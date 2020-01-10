@@ -111,7 +111,7 @@ shallow
 LocalizationProvider
 (
 {
-messages
+bundles
 :
 [
 ]

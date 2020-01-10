@@ -6,6 +6,7 @@ run_test
 const
 {
 FluentBundle
+FluentResource
 }
 =
 ChromeUtils
@@ -35,6 +36,7 @@ FluentBundle
 test_methods_calling
 (
 FluentBundle
+FluentResource
 )
 ;
 ok
@@ -72,7 +74,7 @@ equal
 typeof
 bundle
 .
-addMessages
+addResource
 "
 function
 "
@@ -83,7 +85,7 @@ equal
 typeof
 bundle
 .
-format
+formatPattern
 "
 function
 "
@@ -94,6 +96,7 @@ function
 test_methods_calling
 (
 FluentBundle
+FluentResource
 )
 {
 const
@@ -121,13 +124,17 @@ false
 ;
 bundle
 .
-addMessages
+addResource
+(
+new
+FluentResource
 (
 "
 key
 =
 Value
 "
+)
 )
 ;
 const
@@ -146,9 +153,11 @@ equal
 (
 bundle
 .
-format
+formatPattern
 (
 msg
+.
+value
 )
 "
 Value
@@ -157,7 +166,10 @@ Value
 ;
 bundle
 .
-addMessages
+addResource
+(
+new
+FluentResource
 (
 "
 key2
@@ -168,6 +180,7 @@ name
 }
 "
 )
+)
 ;
 const
 msg2
@@ -185,9 +198,11 @@ equal
 (
 bundle
 .
-format
+formatPattern
 (
 msg2
+.
+value
 {
 name
 :

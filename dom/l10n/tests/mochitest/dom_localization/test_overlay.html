@@ -110,6 +110,7 @@ strict
 const
 {
 FluentBundle
+FluentResource
 }
 =
 ChromeUtils
@@ -151,7 +152,10 @@ locales
 ;
 bundle
 .
-addMessages
+addResource
+(
+new
+FluentResource
 (
 "
 title
@@ -167,10 +171,14 @@ strong
 World
 "
 )
+)
 ;
 bundle
 .
-addMessages
+addResource
+(
+new
+FluentResource
 (
 title2
 =
@@ -195,6 +203,7 @@ link
 a
 >
 !
+)
 )
 ;
 yield
