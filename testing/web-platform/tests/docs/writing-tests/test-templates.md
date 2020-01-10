@@ -277,7 +277,7 @@ html
 #
 SVG
 test
-svg
+xml
 <
 svg
 xmlns
@@ -408,7 +408,7 @@ svg
 #
 SVG
 reference
-svg
+xml
 <
 svg
 xmlns
@@ -576,7 +576,7 @@ html
 #
 #
 SVG
-svg
+xml
 <
 svg
 xmlns
@@ -842,7 +842,7 @@ html
 #
 #
 SVG
-svg
+xml
 <
 svg
 xmlns
