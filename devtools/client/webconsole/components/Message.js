@@ -724,6 +724,12 @@ toggleMessage
 e
 )
 {
+e
+.
+stopPropagation
+(
+)
+;
 const
 {
 open
