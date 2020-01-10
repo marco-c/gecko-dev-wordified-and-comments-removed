@@ -5316,6 +5316,14 @@ enabled
 frameobj
 -
 >
+isLive
+(
+)
+&
+&
+frameobj
+-
+>
 onPopHandler
 (
 )
