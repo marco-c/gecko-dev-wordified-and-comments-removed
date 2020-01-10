@@ -1961,6 +1961,11 @@ releng
 .
 manifest
 "
+RUSTC_BOOTSTRAP
+:
+'
+1
+'
 run
 :
 using
@@ -2085,8 +2090,6 @@ dsymutil
 linux64
 -
 rust
--
-nightly
 -
 macos
 -

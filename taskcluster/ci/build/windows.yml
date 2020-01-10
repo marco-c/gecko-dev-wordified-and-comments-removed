@@ -3562,6 +3562,11 @@ releng
 .
 manifest
 "
+RUSTC_BOOTSTRAP
+:
+'
+1
+'
 run
 :
 options
@@ -3654,8 +3659,6 @@ cl
 win64
 -
 rust
--
-nightly
 -
 win64
 -
