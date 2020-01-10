@@ -156,9 +156,9 @@ addon
 -
 install
 -
-blocked
+fullscreen
 -
-silent
+blocked
 "
 )
 ;
