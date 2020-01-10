@@ -1532,7 +1532,7 @@ renderRoot
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 rects
 [
