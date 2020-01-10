@@ -873,6 +873,14 @@ sMutex
 ;
 }
 ;
+nsCOMPtr
+<
+nsIEventTarget
+>
+GetIPCLauncher
+(
+)
+;
 }
 }
 #
