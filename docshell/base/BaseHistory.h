@@ -123,13 +123,13 @@ Link
 >
 ;
 struct
-TrackedURI
+ObservingLinks
 {
 ObserverArray
 mLinks
 ;
 bool
-mVisited
+mKnownVisited
 =
 false
 ;
@@ -183,7 +183,7 @@ protected
 nsDataHashtable
 <
 nsURIHashKey
-TrackedURI
+ObservingLinks
 >
 mTrackedURIs
 ;
