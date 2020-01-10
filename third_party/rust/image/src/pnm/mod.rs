@@ -193,7 +193,6 @@ loaded_image
 =
 {
 let
-mut
 decoder
 =
 PNMDecoder
@@ -403,7 +402,6 @@ loaded_image
 =
 {
 let
-mut
 decoder
 =
 PNMDecoder
@@ -616,7 +614,6 @@ loaded_image
 =
 {
 let
-mut
 decoder
 =
 PNMDecoder
