@@ -9979,6 +9979,9 @@ isMarkedGray
 #
 endif
 }
+#
+ifdef
+DEBUG
 static
 inline
 bool
@@ -9995,6 +9998,8 @@ SystemPageSize
 ArenaSize
 ;
 }
+#
+endif
 static
 inline
 bool
