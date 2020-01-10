@@ -344,6 +344,10 @@ x_klass
 >
 <
 h2
+className
+=
+"
+"
 onClick
 =
 {
@@ -351,6 +355,9 @@ onClick
 Function
 ]
 }
+>
+<
+div
 >
 <
 span
@@ -366,6 +373,10 @@ class
 span
 >
 x_klass
+<
+/
+div
+>
 <
 /
 h2
@@ -483,6 +494,10 @@ a_klass
 >
 <
 h2
+className
+=
+"
+"
 onClick
 =
 {
@@ -490,6 +505,9 @@ onClick
 Function
 ]
 }
+>
+<
+div
 >
 <
 span
@@ -505,6 +523,10 @@ class
 span
 >
 a_klass
+<
+/
+div
+>
 <
 /
 h2
@@ -804,6 +826,10 @@ x_klass
 >
 <
 h2
+className
+=
+"
+"
 onClick
 =
 {
@@ -811,6 +837,9 @@ onClick
 Function
 ]
 }
+>
+<
+div
 >
 <
 span
@@ -826,6 +855,10 @@ class
 span
 >
 x_klass
+<
+/
+div
+>
 <
 /
 h2
@@ -943,6 +976,10 @@ a_klass
 >
 <
 h2
+className
+=
+"
+"
 onClick
 =
 {
@@ -950,6 +987,9 @@ onClick
 Function
 ]
 }
+>
+<
+div
 >
 <
 span
@@ -965,6 +1005,10 @@ class
 span
 >
 a_klass
+<
+/
+div
+>
 <
 /
 h2
