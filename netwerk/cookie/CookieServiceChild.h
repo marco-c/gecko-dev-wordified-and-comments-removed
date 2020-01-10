@@ -83,9 +83,6 @@ nsIEffectiveTLDService
 class
 nsILoadInfo
 ;
-struct
-nsCookieAttributes
-;
 namespace
 mozilla
 {
@@ -271,9 +268,10 @@ aAttrs
 void
 SetCookieInternal
 (
-nsCookieAttributes
+const
+CookieStruct
 &
-aCookieAttributes
+aCookieData
 const
 mozilla
 :
