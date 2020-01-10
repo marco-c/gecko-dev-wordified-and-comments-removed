@@ -414,7 +414,10 @@ ComputedTimingFunction
 CursorKind
 "
 "
-Display
+DisplayOutside
+"
+"
+DisplayInside
 "
 "
 DisplayMode
