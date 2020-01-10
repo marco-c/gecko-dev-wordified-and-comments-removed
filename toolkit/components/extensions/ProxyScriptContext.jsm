@@ -1102,6 +1102,9 @@ type
 PROXY_TYPES
 .
 DIRECT
+&
+&
+defaultProxyInfo
 )
 {
 return
