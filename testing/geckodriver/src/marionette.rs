@@ -198,7 +198,6 @@ WebDriverCommand
 {
 AcceptAlert
 AddCookie
-NewWindow
 CloseWindow
 DeleteCookie
 DeleteCookies
@@ -241,6 +240,7 @@ IsSelected
 MaximizeWindow
 MinimizeWindow
 NewSession
+NewWindow
 PerformActions
 Refresh
 ReleaseActions
@@ -270,11 +270,11 @@ GetParameters
 JavascriptCommandParameters
 LocatorParameters
 NewSessionParameters
+NewWindowParameters
 SwitchToFrameParameters
 SwitchToWindowParameters
 TimeoutsParameters
 WindowRectParameters
-NewWindowParameters
 }
 ;
 use
@@ -326,12 +326,12 @@ response
 :
 :
 {
-NewWindowResponse
 CloseWindowResponse
 CookieResponse
 CookiesResponse
 ElementRectResponse
 NewSessionResponse
+NewWindowResponse
 TimeoutsResponse
 ValueResponse
 WebDriverResponse
@@ -6571,7 +6571,6 @@ x
 )
 =
 >
-{
 (
 Some
 (
@@ -6590,14 +6589,12 @@ to_marionette
 )
 )
 )
-}
 SetContext
 (
 x
 )
 =
 >
-{
 (
 Some
 (
@@ -6616,14 +6613,12 @@ to_marionette
 )
 )
 )
-}
 UninstallAddon
 (
 x
 )
 =
 >
-{
 (
 Some
 (
@@ -6642,7 +6637,6 @@ to_marionette
 )
 )
 )
-}
 XblAnonymousByAttribute
 (
 e
@@ -9493,6 +9487,7 @@ x
 )
 =
 >
+{
 data
 .
 insert
@@ -9517,6 +9512,7 @@ to_marionette
 ?
 )
 )
+}
 }
 ;
 Ok
@@ -9876,6 +9872,7 @@ _
 )
 =
 >
+{
 data
 .
 insert
@@ -9899,6 +9896,7 @@ id
 )
 ?
 )
+}
 Some
 (
 FrameId

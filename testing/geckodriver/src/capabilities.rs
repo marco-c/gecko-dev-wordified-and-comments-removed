@@ -1,7 +1,4 @@
 use
-base64
-;
-use
 crate
 :
 :
@@ -18,6 +15,9 @@ logging
 :
 :
 Level
+;
+use
+base64
 ;
 use
 mozprofile
