@@ -107,15 +107,6 @@ if
 (
 gtkWidget
 )
-fails
--
-if
-(
-geckoview
-&
-&
-webrender
-)
 =
 =
 radio

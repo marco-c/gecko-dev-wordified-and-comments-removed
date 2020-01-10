@@ -32,15 +32,6 @@ usercss
 ref
 .
 html
-fails
--
-if
-(
-geckoview
-&
-&
-webrender
-)
 =
 =
 usercss

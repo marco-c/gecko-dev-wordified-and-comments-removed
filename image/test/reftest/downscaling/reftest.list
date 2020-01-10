@@ -363,10 +363,6 @@ fuzzy
 if
 (
 webrender
-&
-&
-!
-geckoview
 1
 -
 1
@@ -413,7 +409,7 @@ webrender
 65
 468
 -
-480
+468
 )
 =
 =
@@ -481,10 +477,6 @@ fuzzy
 if
 (
 webrender
-&
-&
-!
-geckoview
 1
 -
 1

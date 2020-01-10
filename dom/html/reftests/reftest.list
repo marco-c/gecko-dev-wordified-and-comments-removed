@@ -592,10 +592,6 @@ fuzzy
 if
 (
 webrender
-&
-&
-!
-geckoview
 2
 -
 3

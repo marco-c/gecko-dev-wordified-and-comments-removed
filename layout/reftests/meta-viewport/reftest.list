@@ -222,15 +222,6 @@ if
 !
 Android
 )
-fails
--
-if
-(
-geckoview
-&
-&
-webrender
-)
 =
 =
 position
