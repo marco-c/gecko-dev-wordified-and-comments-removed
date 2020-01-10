@@ -430,11 +430,6 @@ mCSDReversedPlacement
 false
 ;
 bool
-mSystemUsesDarkTheme
-=
-false
-;
-bool
 mInitialized
 =
 false
