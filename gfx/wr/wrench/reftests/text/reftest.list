@@ -1263,11 +1263,6 @@ offset
 ref
 .
 yaml
-fuzzy
-(
-4
-4369
-)
 =
 =
 shadow
@@ -1282,11 +1277,6 @@ solid
 ref
 .
 yaml
-fuzzy
-(
-4
-4369
-)
 skip_on
 (
 android
