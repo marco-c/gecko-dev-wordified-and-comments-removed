@@ -1446,6 +1446,12 @@ imagesContentUsedUncompressed
 storageSQLite
 "
 "
+lowMemoryEventsVirtual
+"
+"
+lowMemoryEventsCommitSpace
+"
+"
 lowMemoryEventsPhysical
 "
 "

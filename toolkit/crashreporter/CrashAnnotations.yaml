@@ -2673,7 +2673,7 @@ false
 ping
 :
 true
-LowPhysicalMemoryEvents
+LowCommitSpaceEvents
 :
 description
 :
@@ -2687,11 +2687,12 @@ memory
 tracker
 has
 detected
+a
 that
-free
-physical
-memory
-is
+commit
+-
+space
+was
 running
 low
 .
