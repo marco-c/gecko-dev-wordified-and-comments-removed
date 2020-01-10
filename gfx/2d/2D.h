@@ -5199,6 +5199,10 @@ RefPtr
 SharedFTFace
 >
 aFace
+bool
+aApplySyntheticBold
+=
+false
 )
 ;
 #

@@ -109,15 +109,6 @@ GetSpaceGlyph
 )
 override
 ;
-bool
-SetupCairoFont
-(
-DrawTarget
-*
-aDrawTarget
-)
-override
-;
 already_AddRefed
 <
 mozilla
