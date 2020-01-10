@@ -811,37 +811,11 @@ task
 def
 generate_upstream_artifacts
 (
-refs
-platform
 locale
 =
 None
 )
 :
-    
-common_paths
-=
-[
-        
-"
-public
-/
-target
-.
-checksums
-"
-        
-"
-public
-/
-target
-.
-checksums
-.
-asc
-"
-    
-]
     
 upstream_artifacts
 =
@@ -859,12 +833,13 @@ task
 reference
 "
 :
-refs
-[
 "
-signing
+<
+beetmover
+-
+repackage
+>
 "
-]
 }
         
 "
@@ -872,14 +847,24 @@ taskType
 "
 :
 "
-signing
+beetmover
 "
         
 "
 paths
 "
 :
-common_paths
+[
+            
+"
+public
+/
+target
+.
+checksums
+"
+        
+]
         
 "
 locale
@@ -944,24 +929,6 @@ attributes
 build_platform
 "
 ]
-        
-refs
-=
-{
-            
-"
-signing
-"
-:
-"
-<
-checksums
--
-signing
->
-"
-        
-}
         
 worker
 =
@@ -1038,8 +1005,6 @@ upstream_artifacts
 generate_upstream_artifacts
 (
                 
-refs
-platform
 locale
             
 )
