@@ -2222,7 +2222,7 @@ footerSize
 )
 ;
 IntPoint
-recordingOrigin
+origin
 =
 ConvertFromBytes
 <
@@ -2286,9 +2286,6 @@ footerSize
 indexOffset
 )
 ;
-IntPoint
-origin
-;
 if
 (
 aTileOffset
@@ -2330,8 +2327,6 @@ Factory
 CreateOffsetDrawTarget
 (
 dt
-recordingOrigin
-+
 origin
 )
 ;
@@ -2361,18 +2356,10 @@ aDirtyRect
 origin
 .
 x
-+
-recordingOrigin
-.
-x
 aDirtyRect
 -
 >
 origin
-.
-y
-+
-recordingOrigin
 .
 y
 aDirtyRect
