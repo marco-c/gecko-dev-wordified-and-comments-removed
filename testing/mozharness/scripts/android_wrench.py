@@ -406,17 +406,11 @@ android
 -
 artifacts
 /
-app
-/
-build
-/
-outputs
+debug
 /
 apk
 /
-app
--
-debug
+wrench
 .
 apk
 '
@@ -929,11 +923,11 @@ wrench
 activity_name
 =
 '
-rust
+android
 .
-wrench
+app
 .
-MainActivity
+NativeActivity
 '
             
 intent
