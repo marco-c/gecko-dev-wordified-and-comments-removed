@@ -1501,6 +1501,8 @@ MozTaggedAnonymousMmap
 randomAddr
 bytes
 PROT_NONE
+MAP_NORESERVE
+|
 MAP_PRIVATE
 |
 MAP_ANON
