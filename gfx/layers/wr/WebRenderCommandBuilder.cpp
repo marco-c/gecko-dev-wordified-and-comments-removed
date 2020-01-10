@@ -11649,7 +11649,7 @@ r
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 aRect
 )
@@ -11660,7 +11660,7 @@ c
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 aClip
 )
@@ -15489,7 +15489,7 @@ dest
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 imageRect
 )
