@@ -624,13 +624,6 @@ aItem
 void
 InvalidateCaretFramesIfNeeded
 (
-nsTArray
-<
-nsIFrame
-*
->
-&
-aModifiedFrames
 )
 ;
 bool
