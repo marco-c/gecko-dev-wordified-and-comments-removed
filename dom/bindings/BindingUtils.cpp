@@ -14515,7 +14515,7 @@ FakeString
 aString
 )
 {
-EnsureUTF16ValiditySpan
+EnsureUtf16ValiditySpan
 (
 aString
 )

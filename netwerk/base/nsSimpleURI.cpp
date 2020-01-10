@@ -101,6 +101,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 URIUtils
@@ -2897,7 +2906,7 @@ rv
 ;
 MOZ_ASSERT
 (
-IsASCII
+IsAscii
 (
 aResult
 )

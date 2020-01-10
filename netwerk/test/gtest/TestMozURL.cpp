@@ -44,6 +44,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 MozURL
@@ -1985,7 +1994,7 @@ aString
 if
 (
 !
-IsASCII
+IsAscii
 (
 aString
 )

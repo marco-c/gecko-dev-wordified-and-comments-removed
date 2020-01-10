@@ -37,6 +37,15 @@ h
 #
 include
 "
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h
@@ -1584,7 +1593,7 @@ aHostname
 if
 (
 !
-IsASCII
+IsAscii
 (
 aHostname
 )

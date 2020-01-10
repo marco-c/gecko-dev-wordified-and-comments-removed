@@ -103,6 +103,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -2738,7 +2747,7 @@ len
 ;
 if
 (
-IsASCII
+IsAscii
 (
 nameFromCert
 )

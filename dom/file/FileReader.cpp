@@ -1131,7 +1131,7 @@ uint32_t
 aCount
 )
 {
-ConvertLatin1toUTF16
+ConvertLatin1toUtf16
 (
 MakeSpan
 (

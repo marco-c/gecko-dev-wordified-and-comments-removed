@@ -4402,7 +4402,13 @@ mozilla
 :
 IsAscii
 (
+static_cast
+<
+char32_t
+>
+(
 unit
+)
 )
 ;
 }

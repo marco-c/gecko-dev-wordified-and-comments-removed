@@ -28,6 +28,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf8
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -11654,7 +11663,7 @@ aPersistentDescriptor
 {
 if
 (
-IsUTF8
+IsUtf8
 (
 aPersistentDescriptor
 )

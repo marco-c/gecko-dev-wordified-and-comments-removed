@@ -859,7 +859,7 @@ Data
 )
 )
 ;
-ConvertLatin1toUTF16
+ConvertAsciitoUtf16
 (
 MakeSpan
 (

@@ -72,6 +72,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf8
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -3213,7 +3222,7 @@ len
 ;
 if
 (
-IsUTF8
+IsUtf8
 (
 span
 )

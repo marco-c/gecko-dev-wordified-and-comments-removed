@@ -166,6 +166,15 @@ TextUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Utf8
+.
+h
+"
 static
 LazyLogModule
 gStandardURLLog
@@ -661,7 +670,7 @@ if
 MOZ_UNLIKELY
 (
 !
-IsUTF8
+IsUtf8
 (
 span
 .

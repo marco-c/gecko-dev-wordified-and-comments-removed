@@ -435,6 +435,15 @@ h
 #
 include
 "
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
 nsIConsoleService
 .
 h
@@ -18192,7 +18201,7 @@ aHost
 if
 (
 !
-IsASCII
+IsAscii
 (
 aHost
 )

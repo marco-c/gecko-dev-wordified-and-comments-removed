@@ -54,6 +54,15 @@ include
 "
 mozilla
 /
+Utf8
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 CryptoBuffer
@@ -6157,7 +6166,7 @@ Length
 if
 (
 !
-IsUTF8
+IsUtf8
 (
 utf8
 )

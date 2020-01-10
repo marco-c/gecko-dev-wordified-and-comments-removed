@@ -53,6 +53,9 @@ bool
 mozilla
 :
 :
+detail
+:
+:
 IsValidUtf8
 (
 const
@@ -68,7 +71,7 @@ auto
 *
 s
 =
-static_cast
+reinterpret_cast
 <
 const
 unsigned

@@ -40324,7 +40324,7 @@ Length
 )
 )
 ;
-ConvertLatin1toUTF16
+ConvertLatin1toUtf16
 (
 aStr
 mHandle

@@ -26,6 +26,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Sprintf
 .
 h
@@ -3310,7 +3319,7 @@ family
 if
 (
 !
-IsASCII
+IsAscii
 (
 faceName
 )

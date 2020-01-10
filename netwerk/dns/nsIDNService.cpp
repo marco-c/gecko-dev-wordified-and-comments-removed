@@ -86,6 +86,24 @@ punycode
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Utf8
+.
+h
+"
 const
 bool
 kIDNA2008_TransitionalProcessing
@@ -1590,7 +1608,7 @@ output
 {
 NS_ENSURE_TRUE
 (
-IsUTF8
+IsUtf8
 (
 input
 )
@@ -1896,7 +1914,7 @@ isACE
 ;
 if
 (
-IsASCII
+IsAscii
 (
 input
 )
@@ -1943,7 +1961,7 @@ eStringPrepForUI
 *
 _isASCII
 =
-IsASCII
+IsAscii
 (
 _retval
 )
@@ -2033,7 +2051,7 @@ NS_OK
 *
 _isASCII
 =
-IsASCII
+IsAscii
 (
 _retval
 )
@@ -2064,7 +2082,7 @@ eStringPrepForUI
 *
 _isASCII
 =
-IsASCII
+IsAscii
 (
 _retval
 )
@@ -2432,7 +2450,7 @@ NS_ERROR_MALFORMED_URI
 }
 if
 (
-IsASCII
+IsAscii
 (
 in
 )
@@ -2477,7 +2495,7 @@ rv
 }
 if
 (
-IsASCII
+IsAscii
 (
 strPrep
 )
@@ -2836,7 +2854,7 @@ host
 if
 (
 !
-IsASCII
+IsAscii
 (
 tld
 )
@@ -2975,7 +2993,7 @@ false
 NS_ASSERTION
 (
 !
-IsASCII
+IsAscii
 (
 label
 )

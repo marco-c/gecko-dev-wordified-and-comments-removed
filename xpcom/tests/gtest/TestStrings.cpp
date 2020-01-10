@@ -61,7 +61,25 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Utf8
 .
 h
 "
@@ -14513,7 +14531,7 @@ i
 bool
 b
 =
-IsUTF8
+IsUtf8
 (
 *
 BlackBox
@@ -14560,7 +14578,7 @@ i
 bool
 b
 =
-IsUTF8
+IsUtf8
 (
 *
 BlackBox
@@ -14607,7 +14625,7 @@ i
 bool
 b
 =
-IsUTF8
+IsUtf8
 (
 *
 BlackBox
@@ -14654,7 +14672,7 @@ i
 bool
 b
 =
-IsUTF8
+IsUtf8
 (
 *
 BlackBox
@@ -14701,7 +14719,7 @@ i
 bool
 b
 =
-IsASCII
+IsAscii
 (
 *
 BlackBox
@@ -14748,7 +14766,7 @@ i
 bool
 b
 =
-IsASCII
+IsAscii
 (
 *
 BlackBox
@@ -14795,7 +14813,7 @@ i
 bool
 b
 =
-IsASCII
+IsAscii
 (
 *
 BlackBox
@@ -14842,7 +14860,7 @@ i
 bool
 b
 =
-IsASCII
+IsAscii
 (
 *
 BlackBox

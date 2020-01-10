@@ -275,6 +275,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -5317,7 +5326,7 @@ mOtherFamilyNamesInitialized
 &
 &
 !
-IsASCII
+IsAscii
 (
 aFamily
 )
@@ -5483,7 +5492,7 @@ mOtherFamilyNamesInitialized
 &
 &
 !
-IsASCII
+IsAscii
 (
 aFamily
 )

@@ -51,6 +51,15 @@ include
 "
 mozilla
 /
+Utf8
+.
+h
+"
+#
+include
+"
+mozilla
+/
 NullPrincipalURI
 .
 h
@@ -342,7 +351,7 @@ CreateWithoutOriginAttributes
 ;
 ASSERT_TRUE
 (
-IsUTF8
+IsUtf8
 (
 css
 )

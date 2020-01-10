@@ -60,6 +60,15 @@ include
 "
 mozilla
 /
+Utf8
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 WebSocketEventService
@@ -8072,7 +8081,7 @@ NS_ERROR_OUT_OF_MEMORY
 if
 (
 !
-IsUTF8
+IsUtf8
 (
 utf8Data
 )
@@ -8384,7 +8393,7 @@ msglen
 if
 (
 !
-IsUTF8
+IsUtf8
 (
 mServerCloseReason
 )

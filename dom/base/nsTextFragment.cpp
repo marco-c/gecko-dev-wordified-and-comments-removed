@@ -1712,7 +1712,7 @@ return
 false
 ;
 }
-LossyConvertUTF16toLatin1
+LossyConvertUtf16toLatin1
 (
 MakeSpan
 (
@@ -1888,7 +1888,7 @@ m1b
 +
 aOffset
 ;
-ConvertLatin1toUTF16
+ConvertLatin1toUtf16
 (
 MakeSpan
 (
@@ -2297,7 +2297,7 @@ Data
 )
 )
 ;
-ConvertLatin1toUTF16
+ConvertLatin1toUtf16
 (
 MakeSpan
 (
@@ -2512,7 +2512,7 @@ mInHeap
 true
 ;
 }
-LossyConvertUTF16toLatin1
+LossyConvertUtf16toLatin1
 (
 MakeSpan
 (
