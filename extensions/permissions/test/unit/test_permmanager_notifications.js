@@ -691,13 +691,13 @@ Assert
 .
 equal
 (
-do_count_enumerator
+do_count_array
 (
 Services
 .
 perms
 .
-enumerator
+all
 )
 0
 )
