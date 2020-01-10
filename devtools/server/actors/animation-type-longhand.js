@@ -1289,11 +1289,6 @@ inline
 size
 "
 "
-offset
--
-anchor
-"
-"
 padding
 -
 block
@@ -1645,6 +1640,11 @@ size
 object
 -
 position
+"
+"
+offset
+-
+anchor
 "
 "
 offset
