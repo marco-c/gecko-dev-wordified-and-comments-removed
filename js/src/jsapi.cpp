@@ -3739,10 +3739,7 @@ compartment
 putWrapper
 (
 cx
-CrossCompartmentKey
-(
 newIdentity
-)
 origv
 )
 )
