@@ -254,6 +254,7 @@ devtools
 (
 Tools
 >
+Web
 Developer
 >
 Browser
@@ -274,8 +275,6 @@ for
 activity
 -
 stream
--
-router
 to
 only
 display
@@ -286,7 +285,7 @@ pings
 [
 Devtools
 telemetry
-pong
+ping
 ]
 (
 .

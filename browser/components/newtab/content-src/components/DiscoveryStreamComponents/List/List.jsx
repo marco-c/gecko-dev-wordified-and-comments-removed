@@ -853,6 +853,15 @@ props
 .
 bookmarkGuid
 }
+campaignId
+=
+{
+this
+.
+props
+.
+campaignId
+}
 /
 >
 )

@@ -991,6 +991,13 @@ heroRec
 .
 bookmarkGuid
 }
+campaignId
+=
+{
+heroRec
+.
+campaign_id
+}
 /
 >
 <

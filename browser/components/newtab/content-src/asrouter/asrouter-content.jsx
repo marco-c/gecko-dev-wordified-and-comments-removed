@@ -232,6 +232,9 @@ TEMPLATES_ABOVE_PAGE
 trailhead
 "
 "
+full_page_interrupt
+"
+"
 return_to_amo_overlay
 "
 "

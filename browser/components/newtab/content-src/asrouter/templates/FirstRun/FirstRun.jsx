@@ -825,6 +825,11 @@ props
 .
 document
 }
+cards
+=
+{
+triplets
+}
 message
 =
 {

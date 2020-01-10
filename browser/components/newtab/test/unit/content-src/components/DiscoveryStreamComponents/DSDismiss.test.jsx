@@ -37,7 +37,7 @@ describe
 (
 "
 <
-DSTextPromo
+DSDismiss
 >
 "
 (

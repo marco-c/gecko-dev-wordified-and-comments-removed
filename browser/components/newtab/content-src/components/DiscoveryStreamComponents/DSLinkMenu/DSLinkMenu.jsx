@@ -521,6 +521,13 @@ this
 props
 .
 bookmarkGuid
+campaign_id
+:
+this
+.
+props
+.
+campaignId
 }
 }
 /
