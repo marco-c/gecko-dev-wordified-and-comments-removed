@@ -755,6 +755,11 @@ EXPORTS
 =
 [
 '
+nsAtomicContainerFrame
+.
+h
+'
+'
 nsCanvasFrame
 .
 h

@@ -452,6 +452,12 @@ EnsureInnerView
 (
 )
 ;
+nsPoint
+GetExtraOffset
+(
+)
+const
+;
 nsIFrame
 *
 GetSubdocumentRootFrame
