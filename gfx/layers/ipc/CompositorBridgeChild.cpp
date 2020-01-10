@@ -741,7 +741,7 @@ Destroy
 (
 )
 {
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 clear
 (
@@ -4246,7 +4246,7 @@ GetFwdTransactionId
 )
 )
 ;
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 emplace
 (
@@ -4275,7 +4275,7 @@ aFwdTransactionId
 auto
 it
 =
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 find
 (
@@ -4287,7 +4287,7 @@ if
 it
 !
 =
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 end
 (
@@ -4312,7 +4312,7 @@ GetLastFwdTransactionId
 return
 ;
 }
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 erase
 (
@@ -4325,13 +4325,13 @@ void
 CompositorBridgeChild
 :
 :
-CancelWaitForRecycle
+CancelWaitForNotifyNotUsed
 (
 uint64_t
 aTextureId
 )
 {
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 erase
 (

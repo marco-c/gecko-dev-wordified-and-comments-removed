@@ -850,7 +850,7 @@ GetFwdTransactionId
 )
 )
 ;
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 emplace
 (
@@ -879,7 +879,7 @@ aFwdTransactionId
 auto
 it
 =
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 find
 (
@@ -891,7 +891,7 @@ if
 it
 !
 =
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 end
 (
@@ -916,7 +916,7 @@ GetLastFwdTransactionId
 return
 ;
 }
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 erase
 (
@@ -929,7 +929,7 @@ void
 ImageBridgeChild
 :
 :
-CancelWaitForRecycle
+CancelWaitForNotifyNotUsed
 (
 uint64_t
 aTextureId
@@ -942,7 +942,7 @@ InImageBridgeChildThread
 )
 )
 ;
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 erase
 (
@@ -1334,7 +1334,7 @@ MarkShutDown
 (
 )
 {
-mTexturesWaitingRecycled
+mTexturesWaitingNotifyNotUsed
 .
 clear
 (

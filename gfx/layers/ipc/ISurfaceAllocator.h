@@ -391,7 +391,7 @@ const
 ;
 virtual
 void
-CancelWaitForRecycle
+CancelWaitForNotifyNotUsed
 (
 uint64_t
 aTextureId
