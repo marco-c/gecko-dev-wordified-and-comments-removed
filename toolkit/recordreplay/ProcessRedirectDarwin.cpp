@@ -14565,7 +14565,7 @@ HIThemeDrawButton
 "
 RR_Compose
 <
-RR_WriteBufferFixedSize
+RR_WriteOptionalBufferFixedSize
 <
 4
 sizeof
@@ -14734,7 +14734,7 @@ HIThemeDrawMenuItem
 "
 RR_Compose
 <
-RR_WriteBufferFixedSize
+RR_WriteOptionalBufferFixedSize
 <
 5
 sizeof
