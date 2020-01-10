@@ -26,8 +26,6 @@ optparse
 import
 os
 import
-ssl
-import
 sys
 import
 tempfile
@@ -58,8 +56,10 @@ from
 psutil
 .
 tests
+.
+runner
 import
-run_suite
+run
 HERE
 =
 os
@@ -185,32 +185,6 @@ mock
 "
 ]
 )
-elif
-sys
-.
-version_info
-[
-:
-2
-]
-=
-=
-(
-3
-3
-)
-:
-    
-TEST_DEPS
-.
-extend
-(
-[
-"
-ipaddress
-"
-]
-)
 def
 install_pip
 (
@@ -226,6 +200,9 @@ pip
 except
 ImportError
 :
+        
+import
+ssl
         
 f
 =
@@ -653,7 +630,7 @@ PYTHON_EXE
 )
 )
         
-run_suite
+run
 (
 )
 main

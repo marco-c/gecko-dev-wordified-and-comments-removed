@@ -305,6 +305,11 @@ db
 .
 DS_Store
 '
+'
+DEVGUIDE
+.
+rst
+'
 ]
 pygments_style
 =

@@ -17,6 +17,13 @@ void
 )
 ;
 int
+psutil_is_zombie
+(
+long
+pid
+)
+;
+int
 psutil_get_kinfo_proc
 (
 long

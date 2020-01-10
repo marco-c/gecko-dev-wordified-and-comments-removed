@@ -284,7 +284,7 @@ uids
 elif
 psutil
 .
-OSX
+MACOS
 :
     
 names

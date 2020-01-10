@@ -46,11 +46,6 @@ from
 _compat
 import
 unicode
-from
-.
-_exceptions
-import
-TimeoutExpired
 __all__
 =
 [
@@ -67,6 +62,9 @@ disk_usage
 get_terminal_map
 '
 ]
+TimeoutExpired
+=
+None
 def
 pid_exists
 (
@@ -732,7 +730,7 @@ usage_percent
 (
 used
 total_user
-_round
+round_
 =
 1
 )

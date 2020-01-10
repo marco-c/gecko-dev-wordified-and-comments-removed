@@ -2596,6 +2596,16 @@ _state
 #
 endif
 #
+ifdef
+__cplusplus
+extern
+"
+C
+"
+{
+#
+endif
+#
 if
 PY_MAJOR_VERSION
 >
@@ -2789,3 +2799,9 @@ module
 #
 endif
 }
+#
+ifdef
+__cplusplus
+}
+#
+endif

@@ -1,7 +1,7 @@
 "
 "
 "
-OSX
+macOS
 platform
 implementation
 .
@@ -84,21 +84,6 @@ from
 _common
 import
 usage_percent
-from
-.
-_exceptions
-import
-AccessDenied
-from
-.
-_exceptions
-import
-NoSuchProcess
-from
-.
-_exceptions
-import
-ZombieProcess
 __extra__all__
 =
 [
@@ -348,6 +333,18 @@ volctxsw
 =
 7
 )
+NoSuchProcess
+=
+None
+ZombieProcess
+=
+None
+AccessDenied
+=
+None
+TimeoutExpired
+=
+None
 scputimes
 =
 namedtuple
@@ -445,48 +442,6 @@ uss
 '
 )
 )
-pmmap_grouped
-=
-namedtuple
-(
-    
-'
-pmmap_grouped
-'
-    
-'
-path
-rss
-private
-swapped
-dirtied
-ref_count
-shadow_depth
-'
-)
-pmmap_ext
-=
-namedtuple
-(
-    
-'
-pmmap_ext
-'
-'
-addr
-perms
-'
-+
-'
-'
-.
-join
-(
-pmmap_grouped
-.
-_fields
-)
-)
 def
 virtual_memory
 (
@@ -512,6 +467,7 @@ active
 inactive
 wired
 free
+speculative
 =
 cext
 .
@@ -529,9 +485,12 @@ used
 =
 active
 +
-inactive
-+
 wired
+    
+free
+-
+=
+speculative
     
 percent
 =
@@ -543,7 +502,7 @@ total
 avail
 )
 total
-_round
+round_
 =
 1
 )
@@ -606,7 +565,7 @@ usage_percent
 (
 used
 total
-_round
+round_
 =
 1
 )
@@ -829,7 +788,7 @@ frequency
 .
     
 On
-OSX
+macOS
 per
 -
 cpu
@@ -1034,7 +993,6 @@ Return
 battery
 information
 .
-    
 "
 "
 "
@@ -1259,6 +1217,9 @@ in
 names
 :
         
+try
+:
+            
 mtu
 =
 cext_posix
@@ -1267,7 +1228,7 @@ net_if_mtu
 (
 name
 )
-        
+            
 isup
 =
 cext_posix
@@ -1276,7 +1237,7 @@ net_if_flags
 (
 name
 )
-        
+            
 duplex
 speed
 =
@@ -1287,6 +1248,28 @@ net_if_duplex_speed
 name
 )
         
+except
+OSError
+as
+err
+:
+            
+if
+err
+.
+errno
+!
+=
+errno
+.
+ENODEV
+:
+                
+raise
+        
+else
+:
+            
 if
 hasattr
 (
@@ -1296,7 +1279,7 @@ NicDuplex
 '
 )
 :
-            
+                
 duplex
 =
 _common
@@ -1305,7 +1288,7 @@ NicDuplex
 (
 duplex
 )
-        
+            
 ret
 [
 name
@@ -1482,8 +1465,9 @@ create_time
             
 ls
 .
-append
+insert
 (
+0
 0
 )
         
@@ -1499,8 +1483,9 @@ AccessDenied
             
 ls
 .
-append
+insert
 (
+0
 0
 )
     
@@ -1626,6 +1611,26 @@ _name
 )
             
 raise
+        
+except
+cext
+.
+ZombieProcessError
+:
+            
+raise
+ZombieProcess
+(
+self
+.
+pid
+self
+.
+_name
+self
+.
+_ppid
+)
     
 return
 wrapper
@@ -1834,6 +1839,9 @@ _name
 "
 _ppid
 "
+"
+_cache
+"
 ]
     
 def
@@ -1861,6 +1869,8 @@ self
 _ppid
 =
 None
+    
+wrap_exceptions
     
 memoize_when_activated
     
@@ -1896,6 +1906,8 @@ kinfo_proc_map
         
 return
 ret
+    
+wrap_exceptions
     
 memoize_when_activated
     
@@ -1952,6 +1964,7 @@ _get_kinfo_proc
 .
 cache_activate
 (
+self
 )
         
 self
@@ -1960,6 +1973,7 @@ _get_pidtaskinfo
 .
 cache_activate
 (
+self
 )
     
 def
@@ -1975,6 +1989,7 @@ _get_kinfo_proc
 .
 cache_deactivate
 (
+self
 )
         
 self
@@ -1983,6 +1998,7 @@ _get_pidtaskinfo
 .
 cache_deactivate
 (
+self
 )
     
 wrap_exceptions
@@ -2989,13 +3005,6 @@ self
 )
 :
         
-with
-catch_zombie
-(
-self
-)
-:
-            
 rawlist
 =
 cext
@@ -3040,29 +3049,3 @@ ntuple
         
 return
 retlist
-    
-wrap_exceptions
-    
-def
-memory_maps
-(
-self
-)
-:
-        
-with
-catch_zombie
-(
-self
-)
-:
-            
-return
-cext
-.
-proc_memory_maps
-(
-self
-.
-pid
-)

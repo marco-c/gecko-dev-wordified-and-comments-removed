@@ -162,7 +162,7 @@ on
 Travis
 (
 Linux
-OSX
+MACOS
 )
 and
 appveyor

@@ -79,13 +79,6 @@ psutil_handle_from_pid
 (
 DWORD
 pid
-)
-;
-HANDLE
-psutil_handle_from_pid_waccess
-(
-DWORD
-pid
 DWORD
 dwDesiredAccess
 )
@@ -136,6 +129,8 @@ psutil_get_cmdline
 (
 long
 pid
+int
+use_peb
 )
 ;
 PyObject

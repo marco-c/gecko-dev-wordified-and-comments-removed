@@ -73,7 +73,7 @@ NETBSD
 if
 OPENBSD
 if
-OSX
+MACOS
 if
 ppid_map
 is

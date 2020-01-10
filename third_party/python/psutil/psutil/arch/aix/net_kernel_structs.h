@@ -40,6 +40,15 @@ h
 #
 include
 <
+sys
+/
+mbuf_macro
+.
+h
+>
+#
+include
+<
 netinet
 /
 ip_var

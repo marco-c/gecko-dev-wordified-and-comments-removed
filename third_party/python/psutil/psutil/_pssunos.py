@@ -13,6 +13,8 @@ implementation
 import
 errno
 import
+functools
+import
 os
 import
 socket
@@ -57,6 +59,11 @@ from
 .
 _common
 import
+get_procfs_path
+from
+.
+_common
+import
 isfile_strict
 from
 .
@@ -88,21 +95,6 @@ from
 _compat
 import
 PY3
-from
-.
-_exceptions
-import
-AccessDenied
-from
-.
-_exceptions
-import
-NoSuchProcess
-from
-.
-_exceptions
-import
-ZombieProcess
 __extra__all__
 =
 [
@@ -359,7 +351,35 @@ status
 ttynr
 =
 7
+    
+uid
+=
+8
+    
+euid
+=
+9
+    
+gid
+=
+10
+    
+egid
+=
+11
 )
+NoSuchProcess
+=
+None
+ZombieProcess
+=
+None
+AccessDenied
+=
+None
+TimeoutExpired
+=
+None
 scputimes
 =
 namedtuple
@@ -496,37 +516,6 @@ _fields
 )
 )
 def
-get_procfs_path
-(
-)
-:
-    
-"
-"
-"
-Return
-updated
-psutil
-.
-PROCFS_PATH
-constant
-.
-"
-"
-"
-    
-return
-sys
-.
-modules
-[
-'
-psutil
-'
-]
-.
-PROCFS_PATH
-def
 virtual_memory
 (
 )
@@ -584,7 +573,7 @@ usage_percent
 (
 used
 total
-_round
+round_
 =
 1
 )
@@ -845,7 +834,7 @@ usage_percent
 (
 used
 total
-_round
+round_
 =
 1
 )
@@ -1840,6 +1829,13 @@ exceptions
 "
 "
     
+functools
+.
+wraps
+(
+fun
+)
+    
 def
 wrapper
 (
@@ -2024,6 +2020,9 @@ _ppid
 "
 _procfs_path
 "
+"
+_cache
+"
 ]
     
 def
@@ -2061,6 +2060,51 @@ get_procfs_path
 )
     
 def
+_assert_alive
+(
+self
+)
+:
+        
+"
+"
+"
+Raise
+NSP
+if
+the
+process
+disappeared
+on
+us
+.
+"
+"
+"
+        
+os
+.
+stat
+(
+'
+%
+s
+/
+%
+s
+'
+%
+(
+self
+.
+_procfs_path
+self
+.
+pid
+)
+)
+    
+def
 oneshot_enter
 (
 self
@@ -2073,6 +2117,7 @@ _proc_name_and_args
 .
 cache_activate
 (
+self
 )
         
 self
@@ -2081,6 +2126,7 @@ _proc_basic_info
 .
 cache_activate
 (
+self
 )
         
 self
@@ -2089,6 +2135,7 @@ _proc_cred
 .
 cache_activate
 (
+self
 )
     
 def
@@ -2104,6 +2151,7 @@ _proc_name_and_args
 .
 cache_deactivate
 (
+self
 )
         
 self
@@ -2112,6 +2160,7 @@ _proc_basic_info
 .
 cache_deactivate
 (
+self
 )
         
 self
@@ -2120,7 +2169,10 @@ _proc_cred
 .
 cache_deactivate
 (
+self
 )
+    
+wrap_exceptions
     
 memoize_when_activated
     
@@ -2143,6 +2195,8 @@ self
 .
 _procfs_path
 )
+    
+wrap_exceptions
     
 memoize_when_activated
     
@@ -2181,6 +2235,8 @@ proc_info_map
         
 return
 ret
+    
+wrap_exceptions
     
 memoize_when_activated
     
@@ -2385,62 +2441,20 @@ self
 )
 :
         
-try
-:
-            
 return
-cext_posix
-.
-getpriority
-(
 self
 .
-pid
-)
-        
-except
-EnvironmentError
-as
-err
-:
-            
-if
-err
-.
-errno
-in
+_proc_basic_info
 (
-errno
-.
-ENOENT
-errno
-.
-ESRCH
-48
 )
-:
-                
-if
-pid_exists
-(
-self
-.
-pid
-)
-:
-                    
-raise
-AccessDenied
-(
-self
-.
-pid
-self
-.
-_name
-)
-            
-raise
+[
+proc_info_map
+[
+'
+nice
+'
+]
+]
     
 wrap_exceptions
     
@@ -2526,6 +2540,9 @@ self
 )
 :
         
+try
+:
+            
 real
 effective
 saved
@@ -2538,6 +2555,46 @@ self
 _proc_cred
 (
 )
+        
+except
+AccessDenied
+:
+            
+real
+=
+self
+.
+_proc_basic_info
+(
+)
+[
+proc_info_map
+[
+'
+uid
+'
+]
+]
+            
+effective
+=
+self
+.
+_proc_basic_info
+(
+)
+[
+proc_info_map
+[
+'
+euid
+'
+]
+]
+            
+saved
+=
+None
         
 return
 _common
@@ -2558,6 +2615,9 @@ self
 )
 :
         
+try
+:
+            
 _
 _
 _
@@ -2570,6 +2630,46 @@ self
 _proc_cred
 (
 )
+        
+except
+AccessDenied
+:
+            
+real
+=
+self
+.
+_proc_basic_info
+(
+)
+[
+proc_info_map
+[
+'
+gid
+'
+]
+]
+            
+effective
+=
+self
+.
+_proc_basic_info
+(
+)
+[
+proc_info_map
+[
+'
+egid
+'
+]
+]
+            
+saved
+=
+None
         
 return
 _common
@@ -2799,24 +2899,10 @@ if
 hit_enoent
 :
             
-os
-.
-stat
-(
-'
-%
-s
-/
-%
-s
-'
-%
-(
-procfs_path
 self
 .
-pid
-)
+_assert_alive
+(
 )
     
 wrap_exceptions
@@ -3141,24 +3227,10 @@ if
 hit_enoent
 :
             
-os
-.
-stat
-(
-'
-%
-s
-/
-%
-s
-'
-%
-(
-procfs_path
 self
 .
-pid
-)
+_assert_alive
+(
 )
         
 return
@@ -3323,24 +3395,10 @@ if
 hit_enoent
 :
             
-os
-.
-stat
-(
-'
-%
-s
-/
-%
-s
-'
-%
-(
-procfs_path
 self
 .
-pid
-)
+_assert_alive
+(
 )
         
 return
@@ -4032,24 +4090,10 @@ if
 hit_enoent
 :
             
-os
-.
-stat
-(
-'
-%
-s
-/
-%
-s
-'
-%
-(
-procfs_path
 self
 .
-pid
-)
+_assert_alive
+(
 )
         
 return

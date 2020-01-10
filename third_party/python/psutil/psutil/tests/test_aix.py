@@ -19,12 +19,6 @@ psutil
 .
 tests
 import
-run_test_module_by_name
-from
-psutil
-.
-tests
-import
 sh
 from
 psutil
@@ -82,6 +76,7 @@ KB
         
 re_pattern
 =
+r
 "
 memory
 \
@@ -112,6 +107,7 @@ split
 re_pattern
 +
 =
+r
 "
 (
 ?
@@ -323,6 +319,7 @@ re
 .
 search
 (
+r
 "
 (
 ?
@@ -339,6 +336,7 @@ s
 +
 "
                              
+r
 "
 (
 ?
@@ -355,6 +353,7 @@ s
 +
 "
                              
+r
 "
 (
 ?
@@ -371,6 +370,7 @@ s
 +
 "
                              
+r
 "
 (
 ?
@@ -471,6 +471,7 @@ a
         
 re_pattern
 =
+r
 "
 ALL
 \
@@ -522,6 +523,7 @@ split
 re_pattern
 +
 =
+r
 "
 (
 ?
@@ -715,6 +717,7 @@ re
 .
 search
 (
+r
 "
 lcpu
 =
@@ -815,7 +818,16 @@ __main__
 '
 :
     
-run_test_module_by_name
+from
+psutil
+.
+tests
+.
+runner
+import
+run
+    
+run
 (
 __file__
 )

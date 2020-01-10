@@ -56,15 +56,15 @@ LINUX
 from
 psutil
 import
+MACOS
+from
+psutil
+import
 NETBSD
 from
 psutil
 import
 OPENBSD
-from
-psutil
-import
-OSX
 from
 psutil
 import
@@ -148,12 +148,6 @@ psutil
 .
 tests
 import
-run_test_module_by_name
-from
-psutil
-.
-tests
-import
 safe_rmpath
 from
 psutil
@@ -223,6 +217,11 @@ setUp
 self
 )
 :
+        
+safe_rmpath
+(
+TESTFN
+)
         
 if
 not
@@ -699,7 +698,7 @@ AccessDenied
 :
             
 if
-OSX
+MACOS
 :
                 
 return
@@ -1657,7 +1656,7 @@ skip_on_access_denied
 (
 only_if
 =
-OSX
+MACOS
 )
     
 def
@@ -3276,13 +3275,13 @@ unittest
 .
 skipIf
 (
-OSX
+MACOS
 and
 TRAVIS
 "
 unreliable
 on
-OSX
+MACOS
 +
 TRAVIS
 "
@@ -3375,6 +3374,7 @@ create_sockets
 with
 open
 (
+r
 '
 %
 s
@@ -3672,7 +3672,16 @@ __main__
 '
 :
     
-run_test_module_by_name
+from
+psutil
+.
+tests
+.
+runner
+import
+run
+    
+run
 (
 __file__
 )

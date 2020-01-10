@@ -704,6 +704,12 @@ close
 sd
 )
 ;
+freeifaddrs
+(
+*
+ifap
+)
+;
 return
 (
 -

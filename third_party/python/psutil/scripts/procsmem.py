@@ -469,7 +469,7 @@ LINUX
 or
 psutil
 .
-OSX
+MACOS
 or
 psutil
 .
@@ -867,6 +867,18 @@ username
 :
 7
 ]
+if
+p
+.
+_info
+[
+"
+username
+"
+]
+else
+"
+"
             
 "
 "

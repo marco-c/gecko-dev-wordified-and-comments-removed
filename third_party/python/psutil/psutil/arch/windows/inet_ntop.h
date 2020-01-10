@@ -1,4 +1,7 @@
 #
+define
+_WINSOCK_DEPRECATED_NO_WARNINGS
+#
 include
 <
 ws2tcpip
@@ -13,7 +16,9 @@ __in
 INT
 Family
 __in
-PVOID
+const
+VOID
+*
 pAddr
 __out_ecount
 (

@@ -14,7 +14,7 @@ import
 os
 import
 subprocess
-IGNORED_EXTS
+SKIP_EXTS
 =
 (
 '
@@ -30,7 +30,7 @@ jpg
 jpeg
 '
 )
-IGNORED_FILES
+SKIP_FILES
 =
 (
 '
@@ -43,6 +43,20 @@ yml
 appveyor
 .
 yml
+'
+)
+SKIP_PREFIXES
+=
+(
+'
+.
+ci
+/
+'
+'
+.
+github
+/
 '
 )
 def
@@ -107,11 +121,7 @@ file
 .
 startswith
 (
-'
-.
-ci
-/
-'
+SKIP_PREFIXES
 )
 or
 \
@@ -132,13 +142,13 @@ lower
 (
 )
 in
-IGNORED_EXTS
+SKIP_EXTS
 or
 \
                 
 file
 in
-IGNORED_FILES
+SKIP_FILES
 :
             
 continue
