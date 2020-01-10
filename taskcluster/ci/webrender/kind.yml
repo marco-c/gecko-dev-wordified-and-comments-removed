@@ -1490,7 +1490,7 @@ manifests
 /
 win64
 /
-webrender
+vs2017
 .
 manifest
 '
