@@ -58,6 +58,8 @@ aInitialClientInfo
 nsISerialEventTarget
 *
 aEventTarget
+bool
+aManagedInParent
 )
 ;
 nsresult
