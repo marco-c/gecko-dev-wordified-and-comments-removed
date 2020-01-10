@@ -17,9 +17,9 @@ PACKAGE_VERSION
 '
 7
 .
-5
+6
 .
-1
+0
 '
 desc
 =
