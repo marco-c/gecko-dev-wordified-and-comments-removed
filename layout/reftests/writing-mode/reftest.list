@@ -2738,6 +2738,12 @@ inline
 ref
 .
 html
+fails
+-
+if
+(
+geckoview
+)
 =
 =
 1135361
@@ -2760,6 +2766,11 @@ justify
 ref
 .
 html
+#
+Bug
+1558513
+for
+GV
 fuzzy
 -
 if

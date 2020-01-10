@@ -4211,6 +4211,10 @@ fuzzy
 if
 (
 Android
+&
+&
+!
+geckoview
 207
 -
 207

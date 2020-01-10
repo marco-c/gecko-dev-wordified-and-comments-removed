@@ -497,6 +497,10 @@ fails
 if
 (
 Android
+&
+&
+!
+geckoview
 )
 =
 =
@@ -846,6 +850,12 @@ winWidget
 |
 cocoaWidget
 )
+fails
+-
+if
+(
+geckoview
+)
 =
 =
 617869
@@ -860,6 +870,11 @@ html
 ref
 .
 html
+#
+Bug
+1558513
+for
+GV
 =
 =
 723509
