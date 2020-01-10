@@ -255,14 +255,6 @@ javascript
 [
 CDATA
 [
-add_task
-(
-async
-(
-)
-=
->
-{
 var
 sandbox
 =
@@ -285,7 +277,6 @@ window
 .
 windowUtils
 ;
-await
 SpecialPowers
 .
 pushPrefEnv
@@ -1905,9 +1896,6 @@ e
 )
 ;
 }
-}
-)
-;
 ]
 ]
 >

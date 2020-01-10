@@ -381,10 +381,9 @@ destroy
 let
 result
 =
-await
 chromeScript
 .
-sendQuery
+sendSyncMessage
 (
 "
 CheckSubKeys
@@ -394,6 +393,12 @@ CheckSubKeys
 ok
 (
 result
+[
+0
+]
+[
+0
+]
 "
 Check
 that
