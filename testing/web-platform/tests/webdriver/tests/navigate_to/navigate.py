@@ -271,6 +271,26 @@ assert_success
 response
 )
     
+if
+session
+.
+url
+.
+endswith
+(
+'
+/
+'
+)
+:
+        
+url
++
+=
+'
+/
+'
+    
 assert
 session
 .
