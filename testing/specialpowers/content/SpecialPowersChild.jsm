@@ -212,6 +212,11 @@ handleEvent
 aEvent
 )
 {
+}
+actorCreated
+(
+)
+{
 this
 .
 attachToWindow
