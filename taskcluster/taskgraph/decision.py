@@ -1020,14 +1020,16 @@ parameters
 parameters
 or
 (
+        
 lambda
-config
+graph_config
 :
 get_decision_parameters
 (
-config
+graph_config
 options
 )
+    
 )
     
 tgg
@@ -1207,7 +1209,7 @@ parameters
 def
 get_decision_parameters
 (
-config
+graph_config
 options
 )
 :
@@ -1251,7 +1253,7 @@ project
     
 product_dir
 =
-config
+graph_config
 [
 '
 product
@@ -1889,7 +1891,7 @@ rebuild_kinds
 ]
 )
 parameters
-config
+graph_config
 )
     
 parameters
