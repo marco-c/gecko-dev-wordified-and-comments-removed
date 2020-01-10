@@ -254,11 +254,17 @@ WebRenderAPI
 &
 &
 aApis
+bool
+aUseCompositorWnd
 )
 :
 mApis
 (
 aApis
+)
+mUseCompositorWnd
+(
+aUseCompositorWnd
 )
 mIdNamespace
 (

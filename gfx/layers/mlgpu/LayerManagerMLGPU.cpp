@@ -962,6 +962,7 @@ mDevice
 >
 GetTextureFactoryIdentifier
 (
+mWidget
 )
 ;
 }

@@ -133,6 +133,8 @@ WebRenderAPI
 &
 &
 aApis
+bool
+aUseCompositorWnd
 )
 ;
 protected
@@ -149,6 +151,16 @@ Destroy
 (
 )
 ;
+bool
+UseCompositorWnd
+(
+)
+const
+{
+return
+mUseCompositorWnd
+;
+}
 void
 AddPipeline
 (
@@ -1127,6 +1139,9 @@ WebRenderAPI
 >
 >
 mApis
+;
+bool
+mUseCompositorWnd
 ;
 const
 wr
