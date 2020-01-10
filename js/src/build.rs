@@ -278,16 +278,6 @@ variant
 env
 (
 "
-NO_RUST_PANIC_HOOK
-"
-"
-1
-"
-)
-.
-env
-(
-"
 SOURCE
 "
 &
