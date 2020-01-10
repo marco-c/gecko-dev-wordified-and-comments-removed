@@ -1289,7 +1289,9 @@ this
 ;
 this
 .
-window
+document
+.
+documentElement
 .
 removeEventListener
 (
@@ -4119,7 +4121,9 @@ disablekeynav
 {
 this
 .
-window
+document
+.
+documentElement
 .
 addEventListener
 (
@@ -4276,7 +4280,9 @@ _cleanupTransitionPhase
 ;
 this
 .
-window
+document
+.
+documentElement
 .
 removeEventListener
 (
