@@ -74,6 +74,17 @@ python
 attrs
 /
 src
+python2
+:
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
+backports
 mozilla
 .
 pth
