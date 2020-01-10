@@ -6924,6 +6924,12 @@ on
 swatch
 -
 click
+-
+or
+-
+keyboard
+-
+activation
 .
 js
 "
