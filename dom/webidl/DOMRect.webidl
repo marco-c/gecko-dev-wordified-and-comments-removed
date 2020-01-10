@@ -171,6 +171,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 DOMRect
@@ -238,6 +239,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 DOMRectReadOnly
