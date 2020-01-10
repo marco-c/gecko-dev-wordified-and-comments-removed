@@ -3444,6 +3444,14 @@ PhaseKind
 phase
 )
 ;
+IncrementalProgress
+markUntilBudgetExhausted
+(
+SliceBudget
+&
+sliceBudget
+)
+;
 void
 drainMarkStack
 (
