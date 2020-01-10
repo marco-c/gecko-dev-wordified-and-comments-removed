@@ -112,7 +112,7 @@ mHandleList
 ;
 MozPromiseHolder
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 mExecutionReadyPromise
 ;
@@ -297,7 +297,7 @@ const
 ;
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 ExecutionReadyPromise
 (
