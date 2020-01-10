@@ -81,6 +81,13 @@ namespace
 mozilla
 :
 :
+dom
+;
+using
+namespace
+mozilla
+:
+:
 image
 ;
 NS_QUERYFRAME_HEAD

@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsSVGIntegrationUtils
+.
+h
+"
+#
+include
+"
 nsSVGUtils
 .
 h

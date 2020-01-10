@@ -299,6 +299,9 @@ GetPatternTransform
 )
 ;
 const
+mozilla
+:
+:
 SVGAnimatedViewBox
 &
 GetViewBox
@@ -309,6 +312,9 @@ aDefault
 )
 ;
 const
+mozilla
+:
+:
 SVGAnimatedViewBox
 &
 GetViewBox
@@ -323,6 +329,9 @@ mContent
 ;
 }
 const
+mozilla
+:
+:
 SVGAnimatedPreserveAspectRatio
 &
 GetPreserveAspectRatio
@@ -333,6 +342,9 @@ aDefault
 )
 ;
 const
+mozilla
+:
+:
 SVGAnimatedPreserveAspectRatio
 &
 GetPreserveAspectRatio
@@ -347,6 +359,9 @@ mContent
 ;
 }
 const
+mozilla
+:
+:
 SVGAnimatedLength
 *
 GetLengthValue
@@ -359,6 +374,9 @@ aDefault
 )
 ;
 const
+mozilla
+:
+:
 SVGAnimatedLength
 *
 GetLengthValue
@@ -443,6 +461,9 @@ gfxMatrix
 ConstructCTM
 (
 const
+mozilla
+:
+:
 SVGAnimatedViewBox
 &
 aViewBox
