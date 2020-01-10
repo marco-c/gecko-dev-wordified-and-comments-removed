@@ -108,15 +108,6 @@ bars
 .
 *
 The
-device
-has
-the
-Ahem
-font
-installed
-.
-*
-The
 HTML
 div
 element
