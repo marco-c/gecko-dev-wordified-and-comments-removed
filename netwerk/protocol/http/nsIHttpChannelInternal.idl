@@ -2408,6 +2408,9 @@ noscript
 nsILoadInfo_CrossOriginOpenerPolicy
 getCrossOriginOpenerPolicy
 (
+in
+nsILoadInfo_CrossOriginOpenerPolicy
+aInitiatorPolicy
 )
 ;
 [
