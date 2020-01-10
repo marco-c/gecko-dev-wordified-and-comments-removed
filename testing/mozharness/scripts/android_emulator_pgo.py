@@ -1631,7 +1631,9 @@ adb
 bin
 =
 "
-target
+geckoview
+-
+androidTest
 .
 apk
 "

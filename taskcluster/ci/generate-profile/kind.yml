@@ -856,7 +856,9 @@ worker
 /
 fetches
 /
-target
+geckoview
+-
+androidTest
 .
 apk
 ]

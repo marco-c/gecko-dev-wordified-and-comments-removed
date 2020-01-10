@@ -109,7 +109,9 @@ build_platform
 artifact
 =
 '
-target
+geckoview
+-
+androidTest
 .
 apk
 '
