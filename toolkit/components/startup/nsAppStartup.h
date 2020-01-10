@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIWindowCreator2
+nsIWindowCreator
 .
 h
 "
@@ -109,7 +109,7 @@ final
 public
 nsIAppStartup
 public
-nsIWindowCreator2
+nsIWindowCreator
 public
 nsIObserver
 public
@@ -120,7 +120,6 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIAPPSTARTUP
 NS_DECL_NSIWINDOWCREATOR
-NS_DECL_NSIWINDOWCREATOR2
 NS_DECL_NSIOBSERVER
 nsAppStartup
 (
