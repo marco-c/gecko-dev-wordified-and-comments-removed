@@ -775,11 +775,6 @@ nsFrame
 h
 '
 '
-nsFrameIdList
-.
-h
-'
-'
 nsFrameList
 .
 h
@@ -973,6 +968,11 @@ h
 '
 '
 CSSOrderAwareFrameIterator
+.
+h
+'
+'
+FrameIdList
 .
 h
 '
