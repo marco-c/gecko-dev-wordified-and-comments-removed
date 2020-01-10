@@ -437,6 +437,22 @@ all
 False
 )
     
+meta
+=
+session
+.
+find
+.
+css
+(
+"
+meta
+"
+all
+=
+False
+)
+    
 body
 =
 session
@@ -500,7 +516,7 @@ value
 )
 =
 =
-5
+6
     
 assert_same_element
 (
@@ -525,10 +541,20 @@ value
 assert_same_element
 (
 session
-body
+meta
 value
 [
 2
+]
+)
+    
+assert_same_element
+(
+session
+body
+value
+[
+3
 ]
 )
     
@@ -541,7 +567,7 @@ ps
 ]
 value
 [
-3
+4
 ]
 )
     
@@ -554,7 +580,7 @@ ps
 ]
 value
 [
-4
+5
 ]
 )
 def
