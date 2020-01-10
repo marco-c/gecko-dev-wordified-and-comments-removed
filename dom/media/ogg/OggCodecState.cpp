@@ -9577,4 +9577,7 @@ return
 true
 ;
 }
+#
+undef
+LOG
 }

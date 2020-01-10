@@ -254,14 +254,6 @@ h
 "
 #
 endif
-#
-ifdef
-LOG
-#
-undef
-LOG
-#
-endif
 mozilla
 :
 :
@@ -5582,3 +5574,6 @@ rv
 ;
 }
 }
+#
+undef
+LOG
