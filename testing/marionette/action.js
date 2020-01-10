@@ -5216,11 +5216,11 @@ Services
 appinfo
 .
 OS
-!
+=
 =
 =
 "
-WINNT
+Darwin
 "
 )
 {
@@ -5308,11 +5308,11 @@ Services
 appinfo
 .
 OS
-!
+=
 =
 =
 "
-WINNT
+Darwin
 "
 )
 )
