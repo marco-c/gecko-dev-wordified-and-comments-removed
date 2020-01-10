@@ -201,9 +201,6 @@ mCachedLength
 bool
 mCalculatedLength
 ;
-Point
-mLastMove
-;
 std
 :
 :

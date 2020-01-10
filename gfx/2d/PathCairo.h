@@ -130,13 +130,6 @@ false
 )
 override
 ;
-Point
-CurrentPoint
-(
-)
-const
-override
-;
 already_AddRefed
 <
 Path
@@ -178,12 +171,6 @@ cairo_path_data_t
 >
 mPathData
 ;
-Point
-mCurrentPoint
-;
-Point
-mBeginPoint
-;
 }
 ;
 class
@@ -216,6 +203,10 @@ const
 Point
 &
 aCurrentPoint
+const
+Point
+&
+aBeginPoint
 )
 ;
 explicit
@@ -422,6 +413,9 @@ mContainingTransform
 ;
 Point
 mCurrentPoint
+;
+Point
+mBeginPoint
 ;
 }
 ;

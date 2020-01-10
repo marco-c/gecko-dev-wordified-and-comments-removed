@@ -161,13 +161,6 @@ false
 )
 ;
 virtual
-Point
-CurrentPoint
-(
-)
-const
-;
-virtual
 already_AddRefed
 <
 Path
@@ -236,12 +229,6 @@ mGeometry
 ;
 bool
 mFigureActive
-;
-Point
-mCurrentPoint
-;
-Point
-mBeginPoint
 ;
 FillRule
 mFillRule
