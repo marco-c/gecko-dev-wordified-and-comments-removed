@@ -265,4 +265,7 @@ linters
 l10n
 linters
 /
+lintpref
+linters
+/
 rstlinter
