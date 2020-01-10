@@ -3278,6 +3278,15 @@ wr
 LayoutSize
 mContentSize
 ;
+nsTArray
+<
+wr
+:
+:
+PipelineId
+>
+mRemotePipelineIds
+;
 RenderRoot
 mRenderRoot
 ;
