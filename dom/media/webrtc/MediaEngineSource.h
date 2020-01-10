@@ -65,13 +65,6 @@ nsStringFwd
 .
 h
 "
-#
-include
-"
-TrackID
-.
-h
-"
 namespace
 mozilla
 {
@@ -278,8 +271,6 @@ SourceMediaStream
 >
 &
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &

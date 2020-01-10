@@ -171,7 +171,7 @@ OfflineShutdown
 )
 ;
 void
-NotifyMainThreadStreamFinished
+NotifyMainThreadTrackEnded
 (
 )
 override

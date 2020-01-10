@@ -46,8 +46,6 @@ aWindow
 MediaStream
 *
 aInputStream
-TrackID
-aTrackID
 MediaStreamTrackSource
 *
 aSource

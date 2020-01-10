@@ -236,7 +236,7 @@ char
 )
 )
 ;
-MOCK_METHOD3
+MOCK_METHOD2
 (
 SetTrack
 void
@@ -247,7 +247,6 @@ RefPtr
 SourceMediaStream
 >
 &
-TrackID
 const
 PrincipalHandle
 &

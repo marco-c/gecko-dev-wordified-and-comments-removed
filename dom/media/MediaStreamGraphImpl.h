@@ -153,7 +153,7 @@ StreamTime
 mNextMainThreadCurrentTime
 ;
 bool
-mNextMainThreadFinished
+mNextMainThreadEnded
 ;
 }
 ;
@@ -485,8 +485,6 @@ ProcessChunkMetadataForInterval
 MediaStream
 *
 aStream
-TrackID
-aTrackID
 C
 &
 aSegment

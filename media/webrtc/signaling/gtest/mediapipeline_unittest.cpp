@@ -274,7 +274,6 @@ AudioStreamTrack
 (
 nullptr
 nullptr
-0
 new
 FakeMediaStreamTrackSource
 (

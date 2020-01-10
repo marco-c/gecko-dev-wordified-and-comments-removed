@@ -116,13 +116,6 @@ h
 #
 include
 "
-StreamTracks
-.
-h
-"
-#
-include
-"
 MediaStreamGraph
 .
 h
@@ -466,8 +459,6 @@ SourceMediaStream
 >
 &
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &
@@ -678,11 +669,6 @@ RefPtr
 SourceMediaStream
 >
 mStream
-;
-TrackID
-mTrackID
-=
-TRACK_NONE
 ;
 PrincipalHandle
 mPrincipal

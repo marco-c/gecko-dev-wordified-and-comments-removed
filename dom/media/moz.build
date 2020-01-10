@@ -860,11 +860,6 @@ MediaStreamListener
 h
 '
 '
-MediaStreamTypes
-.
-h
-'
-'
 MediaStreamWindowCapturer
 .
 h
@@ -930,11 +925,6 @@ SharedBuffer
 h
 '
 '
-StreamTracks
-.
-h
-'
-'
 ThreadPoolCOMListener
 .
 h
@@ -946,11 +936,6 @@ h
 '
 '
 Tracing
-.
-h
-'
-'
-TrackID
 .
 h
 '
@@ -1479,11 +1464,6 @@ cpp
 '
 '
 SeekJob
-.
-cpp
-'
-'
-StreamTracks
 .
 cpp
 '

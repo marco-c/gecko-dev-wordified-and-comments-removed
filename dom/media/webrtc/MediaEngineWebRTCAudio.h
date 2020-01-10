@@ -164,8 +164,6 @@ SourceMediaStream
 >
 &
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &
@@ -356,11 +354,6 @@ bool
 aDelayAgnostic
 )
 ;
-TrackID
-mTrackID
-=
-TRACK_NONE
-;
 PrincipalHandle
 mPrincipal
 =
@@ -456,8 +449,6 @@ RefPtr
 SourceMediaStream
 >
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &
@@ -779,10 +770,6 @@ bool
 mLiveSilenceAppended
 ;
 const
-TrackID
-mTrackID
-;
-const
 PrincipalHandle
 mPrincipal
 ;
@@ -964,8 +951,6 @@ SourceMediaStream
 >
 &
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &
