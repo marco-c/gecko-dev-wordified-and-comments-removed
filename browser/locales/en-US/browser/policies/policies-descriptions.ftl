@@ -867,6 +867,7 @@ profile
 for
 each
 installation
+.
 policy
 -
 LocalFileLinks
