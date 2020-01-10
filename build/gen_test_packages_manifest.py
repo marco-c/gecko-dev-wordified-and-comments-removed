@@ -13,6 +13,10 @@ common
 '
     
 '
+condprof
+'
+    
+'
 mochitest
 '
     
@@ -67,6 +71,10 @@ dep
 PACKAGE_SPECIFIED_HARNESSES
 =
 [
+    
+'
+condprof
+'
     
 '
 cppunittest
