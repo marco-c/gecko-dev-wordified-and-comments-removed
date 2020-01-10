@@ -2061,6 +2061,10 @@ clang
 version
 '
 ]
+                                       
+universal_newlines
+=
+True
 )
             
 match
@@ -2248,6 +2252,10 @@ cmd
 list
 '
 ]
+                                      
+universal_newlines
+=
+True
 )
 .
 split
@@ -2668,10 +2676,12 @@ installed
 =
 set
 (
+            
 self
 .
 check_output
 (
+                
 [
 self
 .
@@ -2680,6 +2690,10 @@ port
 installed
 '
 ]
+                
+universal_newlines
+=
+True
 )
 .
 split
@@ -2795,10 +2809,12 @@ pythons
 =
 set
 (
+            
 self
 .
 check_output
 (
+                
 [
 self
 .
@@ -2815,6 +2831,10 @@ list
 python
 '
 ]
+                
+universal_newlines
+=
+True
 )
 .
 split
@@ -3126,7 +3146,7 @@ cmd
 in
 PACKAGE_MANAGER
 .
-iteritems
+items
 (
 )
 :
