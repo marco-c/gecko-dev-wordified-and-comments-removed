@@ -109,9 +109,9 @@ io
 newURI
 (
 "
-chrome
-/
-res
+about
+-
+compat
 /
 "
 null
