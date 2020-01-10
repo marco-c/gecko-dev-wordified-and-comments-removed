@@ -152,7 +152,7 @@ reading
 data
 succeed
 when
-NFCReaderOptions
+NFCScanOptions
 '
 "
 +
@@ -166,7 +166,7 @@ empty
 '
 .
 "
-readOptions
+scanOptions
 :
 {
 recordType
@@ -175,7 +175,7 @@ recordType
 empty
 "
 }
-unmatchedReadOptions
+unmatchedScanOptions
 :
 {
 recordType
@@ -210,7 +210,7 @@ reading
 data
 succeed
 when
-NFCReaderOptions
+NFCScanOptions
 '
 "
 +
@@ -224,7 +224,7 @@ json
 '
 .
 "
-readOptions
+scanOptions
 :
 {
 recordType
@@ -233,7 +233,7 @@ recordType
 json
 "
 }
-unmatchedReadOptions
+unmatchedScanOptions
 :
 {
 recordType
@@ -264,7 +264,7 @@ reading
 data
 succeed
 when
-NFCReaderOptions
+NFCScanOptions
 '
 "
 +
@@ -278,7 +278,7 @@ opaque
 '
 .
 "
-readOptions
+scanOptions
 :
 {
 recordType
@@ -287,7 +287,7 @@ recordType
 opaque
 "
 }
-unmatchedReadOptions
+unmatchedScanOptions
 :
 {
 recordType
@@ -318,7 +318,7 @@ reading
 data
 succeed
 when
-NFCReaderOptions
+NFCScanOptions
 '
 "
 +
@@ -332,7 +332,7 @@ text
 '
 .
 "
-readOptions
+scanOptions
 :
 {
 recordType
@@ -341,7 +341,7 @@ recordType
 text
 "
 }
-unmatchedReadOptions
+unmatchedScanOptions
 :
 {
 recordType
@@ -372,7 +372,7 @@ reading
 data
 succeed
 when
-NFCReaderOptions
+NFCScanOptions
 '
 "
 +
@@ -386,7 +386,7 @@ url
 '
 .
 "
-readOptions
+scanOptions
 :
 {
 recordType
@@ -395,7 +395,7 @@ recordType
 url
 "
 }
-unmatchedReadOptions
+unmatchedScanOptions
 :
 {
 recordType
@@ -425,7 +425,7 @@ that
 the
 url
 of
-NFCReaderOptions
+NFCScanOptions
 filters
 relevant
 data
@@ -436,7 +436,7 @@ sources
 correctly
 .
 "
-readOptions
+scanOptions
 :
 {
 url
@@ -451,7 +451,7 @@ custom
 /
 path
 }
-unmatchedReadOptions
+unmatchedScanOptions
 :
 {
 url
@@ -501,7 +501,7 @@ that
 the
 mediaType
 of
-NFCReaderOptions
+NFCScanOptions
 filters
 relevant
 data
@@ -512,7 +512,7 @@ sources
 correctly
 .
 "
-readOptions
+scanOptions
 :
 {
 mediaType
@@ -525,7 +525,7 @@ octet
 stream
 "
 }
-unmatchedReadOptions
+unmatchedScanOptions
 :
 {
 mediaType
@@ -557,7 +557,7 @@ that
 the
 compatibility
 of
-NFCReaderOptions
+NFCScanOptions
 filters
 relevant
 data
@@ -568,7 +568,7 @@ sources
 correctly
 .
 "
-readOptions
+scanOptions
 :
 {
 compatibility
@@ -577,7 +577,7 @@ compatibility
 vendor
 "
 }
-unmatchedReadOptions
+unmatchedScanOptions
 :
 {
 compatibility
@@ -625,7 +625,7 @@ messages
 "
 correctly
 with
-NFCReaderOptions
+NFCScanOptions
 '
 recordType
 is
@@ -636,7 +636,7 @@ empty
 '
 .
 "
-readOptions
+scanOptions
 :
 {
 recordType
@@ -691,7 +691,7 @@ messages
 "
 correctly
 with
-NFCReaderOptions
+NFCScanOptions
 '
 recordType
 is
@@ -702,7 +702,7 @@ json
 '
 .
 "
-readOptions
+scanOptions
 :
 {
 recordType
@@ -753,7 +753,7 @@ messages
 "
 correctly
 with
-NFCReaderOptions
+NFCScanOptions
 '
 recordType
 is
@@ -764,7 +764,7 @@ opaque
 '
 .
 "
-readOptions
+scanOptions
 :
 {
 recordType
@@ -815,7 +815,7 @@ messages
 "
 correctly
 with
-NFCReaderOptions
+NFCScanOptions
 '
 recordType
 is
@@ -826,7 +826,7 @@ text
 '
 .
 "
-readOptions
+scanOptions
 :
 {
 recordType
@@ -877,7 +877,7 @@ messages
 "
 correctly
 with
-NFCReaderOptions
+NFCScanOptions
 '
 recordType
 is
@@ -888,7 +888,7 @@ url
 '
 .
 "
-readOptions
+scanOptions
 :
 {
 recordType
@@ -939,13 +939,13 @@ messages
 "
 correctly
 with
-NFCReaderOptions
+NFCScanOptions
 '
 url
 set
 .
 "
-readOptions
+scanOptions
 :
 {
 url
@@ -1028,13 +1028,13 @@ messages
 "
 correctly
 with
-NFCReaderOptions
+NFCScanOptions
 '
 mediaType
 set
 .
 "
-readOptions
+scanOptions
 :
 {
 mediaType
@@ -1089,13 +1089,13 @@ messages
 "
 correctly
 with
-NFCReaderOptions
+NFCScanOptions
 '
 compatibility
 set
 .
 "
-readOptions
+scanOptions
 :
 {
 compatibility
@@ -1144,17 +1144,17 @@ of
 NFCReaderOptionTests
 )
 {
-testNFCReaderOptions
+testNFCScanOptions
 (
 NFCReaderOptionTest
 .
 message
 NFCReaderOptionTest
 .
-readOptions
+scanOptions
 NFCReaderOptionTest
 .
-unmatchedReadOptions
+unmatchedScanOptions
 NFCReaderOptionTest
 .
 desc
@@ -1206,7 +1206,7 @@ readMultiMessagesTest
 message
 readMultiMessagesTest
 .
-readOptions
+scanOptions
 readMultiMessagesTest
 .
 unmatchedMessage
