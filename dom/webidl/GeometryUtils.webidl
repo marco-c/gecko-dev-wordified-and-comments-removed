@@ -171,6 +171,14 @@ border
 GeometryNode
 relativeTo
 ;
+[
+ChromeOnly
+]
+boolean
+createFramesForSuppressedWhitespace
+=
+true
+;
 }
 ;
 dictionary
