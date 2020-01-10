@@ -815,12 +815,6 @@ nsINode
 aNode
 )
 ;
-nsAtom
-&
-DefaultParagraphSeparator
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
