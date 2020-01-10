@@ -98,11 +98,6 @@ propdef
 -
 visibility
 "
-flags
-=
-"
-APPLIES_TO_CUE
-"
 )
 }
 /

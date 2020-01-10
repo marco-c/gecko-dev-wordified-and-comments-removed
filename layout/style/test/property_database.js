@@ -31300,9 +31300,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -31370,9 +31367,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -31479,9 +31473,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -31616,9 +31607,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -31826,9 +31814,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -32056,9 +32041,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -32172,9 +32154,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -32725,9 +32704,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -32999,9 +32975,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -33271,9 +33244,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -33537,9 +33507,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -37339,9 +37306,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -40229,9 +40193,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -40422,9 +40383,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -40720,9 +40678,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -40775,9 +40730,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -40853,9 +40805,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -41037,9 +40986,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -41117,9 +41063,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -41207,9 +41150,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -41257,9 +41197,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -41636,9 +41573,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -41801,9 +41735,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -41897,9 +41828,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -42029,9 +41957,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -42265,9 +42190,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -42466,9 +42388,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -42524,9 +42443,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -43136,9 +43052,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 prerequisites
@@ -46636,9 +46549,6 @@ CSS_TYPE_LONGHAND
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -46873,9 +46783,6 @@ false
 type
 :
 CSS_TYPE_LONGHAND
-applies_to_cue
-:
-true
 prerequisites
 :
 {
@@ -47064,9 +46971,6 @@ false
 type
 :
 CSS_TYPE_LONGHAND
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -47128,9 +47032,6 @@ false
 type
 :
 CSS_TYPE_LONGHAND
-applies_to_cue
-:
-true
 prerequisites
 :
 {
@@ -49407,9 +49308,6 @@ true
 type
 :
 CSS_TYPE_LONGHAND
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -49695,9 +49593,6 @@ true
 type
 :
 CSS_TYPE_LONGHAND
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -49802,9 +49697,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 subproperties
@@ -49989,9 +49881,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 prerequisites
 :
 {
@@ -50089,9 +49978,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -50205,9 +50091,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -51246,9 +51129,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 prerequisites
@@ -53136,9 +53016,6 @@ true
 type
 :
 CSS_TYPE_LONGHAND
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -53180,9 +53057,6 @@ type
 :
 CSS_TYPE_LONGHAND
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -62419,9 +62293,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 alias_for
 :
 "
@@ -62473,9 +62344,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 alias_for
@@ -69107,9 +68975,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 alias_for
 :
 "
@@ -69157,9 +69022,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 alias_for
 :
 "
@@ -69205,9 +69067,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 alias_for
@@ -71874,9 +71733,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -72087,9 +71943,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
@@ -76975,9 +76828,6 @@ applies_to_first_line
 :
 true
 applies_to_placeholder
-:
-true
-applies_to_cue
 :
 true
 initial_values
