@@ -2,12 +2,12 @@ use
 core
 :
 :
-intrinsics
+ptr
 :
 :
 {
-volatile_load
-volatile_store
+read_volatile
+write_volatile
 }
 ;
 use
@@ -145,7 +145,7 @@ T
 {
 unsafe
 {
-volatile_load
+read_volatile
 (
 &
 self
@@ -167,7 +167,7 @@ T
 {
 unsafe
 {
-volatile_store
+write_volatile
 (
 &
 mut

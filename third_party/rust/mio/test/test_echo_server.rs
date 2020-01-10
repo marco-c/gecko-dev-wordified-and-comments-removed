@@ -117,8 +117,6 @@ EchoConn
 EchoConn
 {
 sock
-:
-sock
 buf
 :
 None
@@ -791,10 +789,6 @@ oneshot
 )
 )
 .
-ok
-(
-)
-.
 expect
 (
 "
@@ -928,14 +922,8 @@ poll
 }
 fn
 conn
-<
-'
-a
->
 (
 &
-'
-a
 mut
 self
 tok
@@ -945,8 +933,6 @@ Token
 -
 >
 &
-'
-a
 mut
 EchoConn
 {
@@ -1018,7 +1004,7 @@ new
 sock
 :
 TcpStream
-tok
+token
 :
 Token
 mut
@@ -1049,10 +1035,6 @@ remove
 EchoClient
 {
 sock
-:
-sock
-msgs
-:
 msgs
 tx
 :
@@ -1093,8 +1075,6 @@ mut_with_capacity
 )
 )
 token
-:
-tok
 interest
 :
 Ready

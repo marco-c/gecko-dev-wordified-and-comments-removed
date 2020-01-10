@@ -927,10 +927,6 @@ oneshot
 )
 )
 .
-ok
-(
-)
-.
 expect
 (
 "

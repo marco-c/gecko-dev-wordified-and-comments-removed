@@ -295,6 +295,15 @@ STREQUAL
 "
 Linux
 "
+AND
+NOT
+{
+CMAKE_SYSTEM_NAME
+}
+STREQUAL
+"
+Darwin
+"
 )
 message
 (
@@ -316,6 +325,8 @@ supported
 for
 Linux
 systems
+and
+macOS
 only
 .
 "
@@ -424,7 +435,7 @@ return
 endif
 (
 )
-saitizer_add_flags
+sanitizer_add_flags
 (
 {
 TARGET

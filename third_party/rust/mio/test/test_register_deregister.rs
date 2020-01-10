@@ -180,13 +180,10 @@ SliceBuf
 :
 wrap
 (
+b
 "
 foobar
 "
-.
-as_bytes
-(
-)
 )
 )
 .

@@ -70,8 +70,6 @@ self
 -
 >
 &
-'
-static
 CStr
 ;
 fn
