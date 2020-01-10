@@ -10326,7 +10326,6 @@ offlineService
 OfflineAppAllowed
 (
 aPrincipal
-nullptr
 &
 allowed
 )
