@@ -208,14 +208,6 @@ mIsPaused
 ;
 }
 void
-AddBufferBindCounts
-(
-int8_t
-addVal
-)
-const
-;
-void
 BeginTransformFeedback
 (
 GLenum
