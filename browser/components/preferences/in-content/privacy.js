@@ -7717,6 +7717,11 @@ disabled
 preference
 .
 value
+|
+|
+preference
+.
+locked
 ;
 return
 undefined
