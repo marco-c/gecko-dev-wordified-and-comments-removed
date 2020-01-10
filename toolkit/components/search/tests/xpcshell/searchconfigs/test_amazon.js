@@ -1352,6 +1352,17 @@ hsb
 }
 }
 ]
+searchUrlCode
+:
+"
+tag
+=
+firefox
+-
+de
+-
+21
+"
 noSuggestionsURL
 :
 true
