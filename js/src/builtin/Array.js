@@ -43,15 +43,13 @@ length
 >
 1
 ?
-ToInteger
+ToIntegerPositiveZero
 (
 arguments
 [
 1
 ]
 )
-+
-0
 :
 0
 ;
@@ -183,15 +181,13 @@ length
 >
 1
 ?
-ToInteger
+ToIntegerPositiveZero
 (
 arguments
 [
 1
 ]
 )
-+
-0
 :
 len
 -
@@ -1772,7 +1768,7 @@ length
 var
 relativeTarget
 =
-ToInteger
+ToIntegerPositiveZero
 (
 target
 )
@@ -1801,7 +1797,7 @@ len
 var
 relativeStart
 =
-ToInteger
+ToIntegerPositiveZero
 (
 start
 )
@@ -1838,7 +1834,7 @@ undefined
 ?
 len
 :
-ToInteger
+ToIntegerPositiveZero
 (
 end
 )
@@ -2036,7 +2032,7 @@ length
 var
 relativeStart
 =
-ToInteger
+ToIntegerPositiveZero
 (
 start
 )
@@ -2073,7 +2069,7 @@ undefined
 ?
 len
 :
-ToInteger
+ToIntegerPositiveZero
 (
 end
 )
@@ -2164,7 +2160,7 @@ false
 var
 n
 =
-ToInteger
+ToIntegerPositiveZero
 (
 fromIndex
 )
@@ -3763,7 +3759,7 @@ undefined
 )
 depthNum
 =
-ToInteger
+ToIntegerPositiveZero
 (
 arguments
 [

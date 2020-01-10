@@ -241,7 +241,7 @@ v
 {
 v
 =
-ToInteger
+ToIntegerPositiveZero
 (
 v
 )
