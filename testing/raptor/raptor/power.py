@@ -239,6 +239,9 @@ finish_android_power_test
 (
 raptor
 test_name
+os_baseline
+=
+False
 )
 :
     
@@ -903,6 +906,9 @@ if
 uid
 is
 None
+and
+not
+os_baseline
 :
             
 match
@@ -1049,6 +1055,13 @@ line
             
 if
 match
+and
+match
+.
+group
+(
+1
+)
 :
                 
 full_screen
@@ -1084,6 +1097,13 @@ line
             
 if
 match
+and
+match
+.
+group
+(
+1
+)
 :
                 
 full_wifi
@@ -1118,7 +1138,7 @@ if
 match
 :
                 
-total
+ttotal
 breakdown
 smear_info
 =
@@ -1127,6 +1147,18 @@ match
 groups
 (
 )
+                
+total
++
+=
+float
+(
+ttotal
+)
+if
+ttotal
+else
+0
                 
 cpu_match
 =
@@ -1139,6 +1171,13 @@ breakdown
                 
 if
 cpu_match
+and
+cpu_match
+.
+group
+(
+1
+)
 :
                     
 cpu
@@ -1165,6 +1204,13 @@ breakdown
                 
 if
 wifi_match
+and
+wifi_match
+.
+group
+(
+1
+)
 :
                     
 wifi
@@ -1195,6 +1241,13 @@ smear_info
                     
 if
 smear_match
+and
+smear_match
+.
+group
+(
+1
+)
 :
                         
 smearing
@@ -1221,6 +1274,13 @@ line
                     
 if
 screen_match
+and
+screen_match
+.
+group
+(
+1
+)
 :
                         
 screen
@@ -1247,6 +1307,13 @@ smear_info
                     
 if
 prop_match
+and
+prop_match
+.
+group
+(
+1
+)
 :
                         
 proportional
@@ -1278,6 +1345,29 @@ total
 )
 :
             
+if
+not
+os_baseline
+:
+                
+break
+            
+elif
+line
+.
+replace
+(
+'
+'
+'
+'
+)
+=
+=
+'
+'
+:
+                
 break
     
 cpu
@@ -1285,8 +1375,9 @@ cpu
 total
 if
 cpu
-is
-None
+=
+=
+0
 else
 cpu
     
@@ -1306,10 +1397,21 @@ wifi
 full_wifi
 if
 wifi
-is
-None
+=
+=
+0
 else
 wifi
+    
+if
+os_baseline
+:
+        
+uid
+=
+'
+all
+'
     
 LOG
 .
@@ -1416,21 +1518,6 @@ screen
     
 }
     
-LOG
-.
-info
-(
-"
-submitting
-power
-data
-via
-control
-server
-directly
-"
-)
-    
 if
 major_android_version
 >
@@ -1455,6 +1542,34 @@ float
 proportional
 )
     
+if
+os_baseline
+:
+        
+raptor
+.
+os_baseline_data
+=
+power_data
+    
+else
+:
+        
+LOG
+.
+info
+(
+"
+submitting
+power
+data
+via
+control
+server
+directly
+"
+)
+        
 raptor
 .
 control_server
@@ -1463,7 +1578,24 @@ submit_supporting_data
 (
 power_data
 )
-    
+        
+if
+raptor
+.
+os_baseline_data
+:
+            
+raptor
+.
+control_server
+.
+submit_supporting_data
+(
+raptor
+.
+os_baseline_data
+)
+        
 LOG
 .
 info
@@ -1475,7 +1607,7 @@ bugreport
 zip
 "
 )
-    
+        
 raptor
 .
 device
