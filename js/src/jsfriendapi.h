@@ -5137,6 +5137,16 @@ GetDOMRemoteProxyHandlerFamily
 (
 )
 ;
+extern
+JS_FRIEND_API
+bool
+IsDOMRemoteProxyObject
+(
+JSObject
+*
+object
+)
+;
 struct
 XrayJitInfo
 {
