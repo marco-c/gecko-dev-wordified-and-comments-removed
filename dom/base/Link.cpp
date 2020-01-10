@@ -1693,7 +1693,7 @@ nsLinkState
 aState
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mRegistered
 "
@@ -1709,7 +1709,7 @@ Link
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mLinkState
 !
@@ -3579,6 +3579,19 @@ this
 mNeedsRegistration
 =
 aHasHref
+&
+&
+!
+mElement
+-
+>
+IsHTMLElement
+(
+nsGkAtoms
+:
+:
+link
+)
 ;
 UnregisterFromHistory
 (
