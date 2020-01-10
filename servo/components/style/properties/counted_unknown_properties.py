@@ -653,10 +653,6 @@ collapse
 "
     
 "
-offset
-"
-    
-"
 -
 webkit
 -
