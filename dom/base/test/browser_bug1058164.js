@@ -204,7 +204,6 @@ pagehide
 }
 checkFn
 false
-false
 )
 ;
 rmvShow
@@ -230,7 +229,6 @@ pageshow
 {
 }
 checkFn
-false
 false
 )
 ;

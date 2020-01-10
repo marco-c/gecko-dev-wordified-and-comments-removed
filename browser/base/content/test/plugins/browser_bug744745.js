@@ -212,9 +212,14 @@ gTestBrowser
 PluginBindingAttached
 "
 pluginBindingAttached
+{
+capture
+:
 true
-null
+wantUntrusted
+:
 true
+}
 )
 ;
 let

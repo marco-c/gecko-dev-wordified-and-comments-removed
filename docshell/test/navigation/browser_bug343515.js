@@ -79,7 +79,11 @@ aCallback
 ;
 }
 }
+{
+capture
+:
 true
+}
 )
 ;
 }

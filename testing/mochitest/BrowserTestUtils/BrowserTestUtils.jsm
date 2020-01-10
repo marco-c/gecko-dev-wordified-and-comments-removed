@@ -3662,13 +3662,11 @@ addContentEventListener
 browser
 eventName
 listener
-useCapture
+listenerOptions
 =
-false
+{
+}
 checkFn
-wantsUntrusted
-=
-false
 autoremove
 =
 true
@@ -3706,9 +3704,8 @@ frameScript
 (
 id
 eventName
-useCapture
+listenerOptions
 checkFnSource
-wantsUntrusted
 )
 {
 let
@@ -3804,8 +3801,7 @@ removeEventListener
 (
 eventName
 listener
-useCapture
-wantsUntrusted
+listenerOptions
 )
 ;
 }
@@ -3824,8 +3820,7 @@ addEventListener
 (
 eventName
 listener
-useCapture
-wantsUntrusted
+listenerOptions
 )
 ;
 }
@@ -3855,7 +3850,7 @@ eventName
 {
 uneval
 (
-useCapture
+listenerOptions
 )
 }
 "
@@ -3863,9 +3858,6 @@ useCapture
 checkFnSource
 }
 "
-{
-wantsUntrusted
-}
 )
 ;
 let
