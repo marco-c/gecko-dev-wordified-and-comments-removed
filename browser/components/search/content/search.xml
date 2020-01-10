@@ -1450,7 +1450,7 @@ PopupSearchAutoComplete
 in
 browser
 .
-xul
+xhtml
 )
 is
 hidden

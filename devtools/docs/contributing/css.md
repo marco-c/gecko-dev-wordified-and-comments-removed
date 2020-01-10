@@ -848,7 +848,7 @@ used
 in
 browser
 .
-xul
+xhtml
 you
 need
 to

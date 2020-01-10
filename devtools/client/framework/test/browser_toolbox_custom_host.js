@@ -226,7 +226,7 @@ included
 in
 browser
 .
-xul
+xhtml
 "
 )
 ;

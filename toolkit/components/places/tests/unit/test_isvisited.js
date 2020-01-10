@@ -294,7 +294,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 "
 resource

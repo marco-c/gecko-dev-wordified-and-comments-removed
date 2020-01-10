@@ -97,7 +97,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 ;
 const

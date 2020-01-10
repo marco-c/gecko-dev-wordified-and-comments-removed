@@ -1481,7 +1481,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 ;
 let

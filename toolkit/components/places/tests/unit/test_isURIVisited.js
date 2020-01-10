@@ -92,7 +92,7 @@ content
 /
 browser
 .
-xul
+xhtml
 ?
 "
 :

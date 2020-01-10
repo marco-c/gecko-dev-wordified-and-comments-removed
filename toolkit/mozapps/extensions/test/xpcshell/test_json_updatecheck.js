@@ -1621,7 +1621,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 update_hash
 :

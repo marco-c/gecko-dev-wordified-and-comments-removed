@@ -436,7 +436,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 ;
 Assert

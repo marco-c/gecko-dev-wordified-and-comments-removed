@@ -200,7 +200,7 @@ content
 /
 browser
 .
-xul
+xhtml
 "
 ]
 ;

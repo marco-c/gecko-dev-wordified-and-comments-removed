@@ -81,7 +81,7 @@ needed
 by
 browser
 .
-xul
+xhtml
 but
 no
 other
@@ -101,7 +101,7 @@ directly
 from
 browser
 .
-xul
+xhtml
 #
 rather
 than

@@ -5684,7 +5684,7 @@ f
 "
 browser
 .
-xul
+xhtml
 "
 instanceData
 -

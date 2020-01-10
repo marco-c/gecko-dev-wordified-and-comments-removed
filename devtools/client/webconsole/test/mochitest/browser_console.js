@@ -665,7 +665,7 @@ hud
 "
 browser
 .
-xul
+xhtml
 "
 )
 ;
