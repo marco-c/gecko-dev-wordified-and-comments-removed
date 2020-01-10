@@ -508,12 +508,6 @@ JSContext
 cx
 HandleScript
 script
-BaselineFrame
-*
-osrFrame
-jsbytecode
-*
-osrPc
 bool
 force
 )

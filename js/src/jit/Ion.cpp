@@ -12698,12 +12698,6 @@ JSContext
 cx
 HandleScript
 script
-BaselineFrame
-*
-osrFrame
-jsbytecode
-*
-osrPc
 bool
 force
 )
@@ -12760,8 +12754,8 @@ Compile
 (
 cx
 script
-osrFrame
-osrPc
+nullptr
+nullptr
 force
 )
 ;
