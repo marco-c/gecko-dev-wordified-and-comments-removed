@@ -225,6 +225,7 @@ SecurityPropertyState
 aState
 bool
 aIncludeSubdomains
+const
 nsTArray
 <
 nsCString

@@ -613,7 +613,6 @@ getTime
 )
 +
 1000000
-1
 [
 NON_ISSUED_KEY_HASH
 ]
