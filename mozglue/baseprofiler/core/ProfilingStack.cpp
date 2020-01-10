@@ -47,10 +47,12 @@ include
 <
 algorithm
 >
-using
 namespace
-js
-;
+mozilla
+{
+namespace
+baseprofiler
+{
 ProfilingStack
 :
 :
@@ -125,9 +127,6 @@ auto
 newFrames
 =
 new
-js
-:
-:
 ProfilingStackFrame
 [
 newCapacity
@@ -137,9 +136,6 @@ for
 (
 auto
 i
-:
-mozilla
-:
 :
 IntegerRange
 (
@@ -158,9 +154,6 @@ i
 ]
 ;
 }
-js
-:
-:
 ProfilingStackFrame
 *
 oldFrames
@@ -180,6 +173,8 @@ delete
 ]
 oldFrames
 ;
+}
+}
 }
 #
 endif

@@ -35,6 +35,12 @@ using
 namespace
 std
 ;
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 VTuneProfiler
 *
 VTuneProfiler
@@ -89,6 +95,8 @@ char
 aName
 )
 {
+}
+}
 }
 #
 endif

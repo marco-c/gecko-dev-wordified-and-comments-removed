@@ -221,6 +221,12 @@ using
 namespace
 mozilla
 ;
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 int
 profiler_current_process_id
 (
@@ -1025,9 +1031,6 @@ defined
 (
 USE_EHABI_STACKWALK
 )
-mozilla
-:
-:
 EHABIStackWalkInit
 (
 )
@@ -1848,3 +1851,5 @@ unsupported
 }
 #
 endif
+}
+}
