@@ -3525,6 +3525,13 @@ nsINode
 aNode
 )
 ;
+Element
+*
+GetParentListElementAtSelection
+(
+)
+const
+;
 protected
 :
 virtual
