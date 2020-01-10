@@ -1259,6 +1259,7 @@ onMouseDown
 (
 evt
 id
+channelId
 )
 {
 if
@@ -1279,6 +1280,7 @@ props
 selectRequest
 (
 id
+channelId
 )
 ;
 }
@@ -1818,6 +1820,9 @@ evt
 item
 .
 id
+item
+.
+channelId
 )
 onCauseBadgeMouseDown
 :
@@ -2093,7 +2098,10 @@ trace
 }
 selectRequest
 :
+(
 id
+channelId
+)
 =
 >
 dispatch
@@ -2103,6 +2111,7 @@ Actions
 selectRequest
 (
 id
+channelId
 )
 )
 onItemRightMouseButtonDown
