@@ -48,9 +48,6 @@ name
 number
 blobber
 )
-"
-+
-"
 VALUES
 (
 ?

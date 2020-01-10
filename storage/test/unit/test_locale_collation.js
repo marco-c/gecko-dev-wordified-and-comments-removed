@@ -290,9 +290,6 @@ SELECT
 t
 FROM
 test
-"
-+
-"
 ORDER
 BY
 t
