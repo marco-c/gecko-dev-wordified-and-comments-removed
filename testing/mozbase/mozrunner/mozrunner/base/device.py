@@ -97,6 +97,14 @@ MOZ_HIDE_RESULTS_TABLE
 '
            
 '
+MOZ_IN_AUTOMATION
+'
+:
+'
+1
+'
+           
+'
 MOZ_LOG
 '
 :
