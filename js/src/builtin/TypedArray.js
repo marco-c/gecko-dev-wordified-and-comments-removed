@@ -5517,7 +5517,7 @@ if
 (
 IsDetachedBuffer
 (
-new_
+newBuffer
 )
 )
 ThrowTypeError
@@ -5627,7 +5627,7 @@ isWrapped
 )
 ;
 return
-new_
+newBuffer
 ;
 }
 function
@@ -5895,14 +5895,8 @@ newObj
 =
 =
 O
-)
-ThrowTypeError
-(
-JSMSG_SAME_SHARED_ARRAY_BUFFER_RETURNED
-)
-;
-if
-(
+|
+|
 SharedArrayBuffersMemorySame
 (
 newObj
@@ -5950,6 +5944,6 @@ isWrapped
 )
 ;
 return
-new_
+newObj
 ;
 }
