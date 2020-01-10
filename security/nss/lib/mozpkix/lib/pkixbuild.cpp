@@ -955,6 +955,7 @@ subject
 endEntityOrCA
 certID
 time
+notBefore
 validityDuration
 stapledOCSPResponse
 subject
