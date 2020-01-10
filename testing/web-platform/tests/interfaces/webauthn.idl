@@ -173,7 +173,7 @@ attestationObject
 ;
 sequence
 <
-AuthenticatorTransport
+DOMString
 >
 getTransports
 (
@@ -502,7 +502,7 @@ id
 ;
 sequence
 <
-AuthenticatorTransport
+DOMString
 >
 transports
 ;
@@ -522,6 +522,9 @@ ble
 "
 "
 internal
+"
+"
+lightning
 "
 }
 ;
