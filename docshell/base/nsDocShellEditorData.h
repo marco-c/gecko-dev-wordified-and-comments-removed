@@ -37,7 +37,11 @@ h
 #
 include
 "
-nsIHTMLDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -165,7 +169,13 @@ HTMLEditor
 >
 mHTMLEditor
 ;
-nsIHTMLDocument
+mozilla
+:
+:
+dom
+:
+:
+Document
 :
 :
 EditingState

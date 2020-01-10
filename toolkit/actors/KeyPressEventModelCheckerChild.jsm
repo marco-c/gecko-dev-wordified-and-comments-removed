@@ -112,7 +112,7 @@ stopImmediatePropagation
 let
 model
 =
-HTMLDocument
+Document
 .
 KEYPRESS_EVENT_MODEL_DEFAULT
 ;
@@ -142,7 +142,7 @@ ownerGlobal
 {
 model
 =
-HTMLDocument
+Document
 .
 KEYPRESS_EVENT_MODEL_SPLIT
 ;
