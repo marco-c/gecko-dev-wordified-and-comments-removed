@@ -4582,13 +4582,12 @@ ionScript
 )
 )
 {
-IonScript
-:
-:
-Trace
+ionScript
+-
+>
+trace
 (
 trc
-ionScript
 )
 ;
 }

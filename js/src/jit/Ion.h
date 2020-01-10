@@ -974,17 +974,6 @@ JSScript
 script
 )
 ;
-void
-TraceJitScripts
-(
-JSTracer
-*
-trc
-JSScript
-*
-script
-)
-;
 bool
 JitSupportsSimd
 (
