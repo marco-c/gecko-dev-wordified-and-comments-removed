@@ -11771,7 +11771,7 @@ TOPIC_IDLE_DAILY
 (
 void
 )
-FixAndDecayFrecency
+DecayFrecency
 (
 )
 ;
@@ -11780,11 +11780,11 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsNavHistory
 :
 :
-FixAndDecayFrecency
+DecayFrecency
 (
 )
 {

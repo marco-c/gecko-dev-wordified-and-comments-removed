@@ -1280,11 +1280,6 @@ Database
 >
 mDB
 ;
-nsresult
-FixAndDecayFrecency
-(
-)
-;
 void
 LoadPrefs
 (
