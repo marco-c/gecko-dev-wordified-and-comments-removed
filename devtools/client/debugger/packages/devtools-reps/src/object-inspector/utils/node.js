@@ -2729,9 +2729,6 @@ maybeEscapePropertyName
 (
 name
 )
-propertyName
-:
-name
 path
 :
 createPath
@@ -2805,9 +2802,6 @@ maybeEscapePropertyName
 (
 name
 )
-propertyName
-:
-name
 contents
 :
 ownProperties
@@ -3390,10 +3384,6 @@ meta
 ?
 :
 Object
-propertyName
-?
-:
-string
 }
 )
 :
@@ -3404,7 +3394,6 @@ const
 {
 parent
 name
-propertyName
 path
 contents
 type
@@ -3434,7 +3423,6 @@ return
 {
 parent
 name
-propertyName
 path
 :
 createPath
