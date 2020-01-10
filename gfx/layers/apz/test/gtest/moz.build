@@ -157,6 +157,11 @@ TestScrollHandoff
 .
 cpp
 '
+'
+TestSnappingOnMomentum
+.
+cpp
+'
 ]
 include
 (
