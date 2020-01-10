@@ -10541,6 +10541,11 @@ sort
 (
 )
             
+relpaths
+=
+[
+]
+            
 for
 manifest_path
 in
@@ -10557,19 +10562,6 @@ manifest_path
 self
 .
 topsrcdir
-)
-                
-print
-(
-"
-{
-}
-"
-.
-format
-(
-relpath
-)
 )
                 
 if
@@ -10593,6 +10585,13 @@ topsrcdir
                     
 continue
                 
+relpaths
+.
+append
+(
+relpath
+)
+            
 reader
 =
 self
@@ -10605,32 +10604,84 @@ config_mode
 empty
 '
 )
+            
+files_info
+=
+reader
+.
+files_info
+(
+relpaths
+)
+            
+for
+manifest_path
+in
+manifest_paths
+:
+                
+relpath
+=
+mozpath
+.
+relpath
+(
+manifest_path
+self
+.
+topsrcdir
+)
+                
+if
+mozpath
+.
+commonprefix
+(
+(
+manifest_path
+self
+.
+topsrcdir
+)
+)
+!
+=
+self
+.
+topsrcdir
+:
+                    
+continue
+                
+print
+(
+"
+{
+}
+"
+.
+format
+(
+relpath
+)
+)
                 
 manifest_info
 =
 None
                 
-for
-info_path
-info
+if
+relpath
 in
-reader
-.
 files_info
-(
-[
-manifest_path
-]
-)
-.
-items
-(
-)
 :
                     
 bug_component
 =
-info
+files_info
+[
+relpath
+]
 .
 get
 (
@@ -10662,14 +10713,6 @@ component
                     
 if
 (
-info_path
-=
-=
-relpath
-)
-and
-(
-(
 not
 components
 )
@@ -10678,7 +10721,6 @@ or
 key
 in
 components
-)
 )
 :
                         
@@ -10758,8 +10800,6 @@ rkey
 [
 manifest_info
 ]
-                        
-break
                 
 if
 manifest_info
@@ -10879,12 +10919,35 @@ set
 (
 )
             
+relpaths
+=
+[
+]
+            
 for
 t
 in
 tests
 :
                 
+relpath
+=
+t
+.
+get
+(
+'
+srcdir_relpath
+'
+)
+                
+relpaths
+.
+append
+(
+relpath
+)
+            
 reader
 =
 self
@@ -10897,6 +10960,21 @@ config_mode
 empty
 '
 )
+            
+files_info
+=
+reader
+.
+files_info
+(
+relpaths
+)
+            
+for
+t
+in
+tests
+:
                 
 if
 not
@@ -10924,27 +11002,18 @@ srcdir_relpath
 '
 )
                 
-for
-info_path
-info
-in
-reader
-.
-files_info
-(
-[
+if
 relpath
-]
-)
-.
-items
-(
-)
+in
+files_info
 :
                     
 bug_component
 =
-info
+files_info
+[
+relpath
+]
 .
 get
 (
@@ -10976,14 +11045,6 @@ component
                     
 if
 (
-info_path
-=
-=
-relpath
-)
-and
-(
-(
 not
 components
 )
@@ -10992,7 +11053,6 @@ or
 key
 in
 components
-)
 )
 :
                         
@@ -11142,8 +11202,6 @@ rkey
 [
 test_info
 ]
-                        
-break
             
 if
 show_tests
