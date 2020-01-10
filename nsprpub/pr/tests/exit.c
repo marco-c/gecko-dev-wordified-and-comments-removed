@@ -210,6 +210,7 @@ verbose
 &
 force
 )
+{
 PR_fprintf
 (
 err
@@ -226,6 +227,7 @@ n
 "
 )
 ;
+}
 }
 static
 PRIntn
@@ -287,8 +289,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -364,10 +368,12 @@ if
 =
 dally
 )
+{
 dally
 =
 10
 ;
+}
 (
 void
 )

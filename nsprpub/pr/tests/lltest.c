@@ -386,6 +386,7 @@ if
 (
 debugMode
 )
+{
 PR_fprintf
 (
 output
@@ -404,6 +405,7 @@ what
 how
 )
 ;
+}
 return
 ;
 }
@@ -496,6 +498,7 @@ zero
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -511,6 +514,7 @@ bigZero
 "
 )
 ;
+}
 if
 (
 !
@@ -521,6 +525,7 @@ max
 min
 )
 )
+{
 SetFailed
 (
 "
@@ -537,6 +542,7 @@ min
 "
 )
 ;
+}
 }
 static
 void
@@ -564,6 +570,7 @@ LL_IS_ZERO
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -577,6 +584,7 @@ zero
 "
 )
 ;
+}
 if
 (
 LL_IS_ZERO
@@ -584,6 +592,7 @@ LL_IS_ZERO
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -597,6 +606,7 @@ zero
 "
 )
 ;
+}
 if
 (
 LL_IS_ZERO
@@ -604,6 +614,7 @@ LL_IS_ZERO
 bigMinusOne
 )
 )
+{
 SetFailed
 (
 "
@@ -618,6 +629,7 @@ zero
 "
 )
 ;
+}
 if
 (
 !
@@ -627,6 +639,7 @@ bigZero
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -639,6 +652,7 @@ zero
 "
 )
 ;
+}
 if
 (
 !
@@ -648,6 +662,7 @@ bigOne
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -660,6 +675,7 @@ one
 "
 )
 ;
+}
 if
 (
 !
@@ -669,6 +685,7 @@ bigNumber
 bigNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -681,6 +698,7 @@ bigNumber
 "
 )
 ;
+}
 if
 (
 !
@@ -690,6 +708,7 @@ bigMinusOne
 bigMinusOne
 )
 )
+{
 SetFailed
 (
 "
@@ -704,6 +723,7 @@ one
 "
 )
 ;
+}
 if
 (
 LL_EQ
@@ -712,6 +732,7 @@ bigZero
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -724,6 +745,7 @@ one
 "
 )
 ;
+}
 if
 (
 LL_EQ
@@ -732,6 +754,7 @@ bigOne
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -744,6 +767,7 @@ zero
 "
 )
 ;
+}
 if
 (
 LL_EQ
@@ -752,6 +776,7 @@ bigMinusOne
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -765,6 +790,7 @@ one
 "
 )
 ;
+}
 if
 (
 LL_EQ
@@ -773,6 +799,7 @@ bigNumber
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -785,6 +812,7 @@ one
 "
 )
 ;
+}
 if
 (
 LL_NE
@@ -793,6 +821,7 @@ bigZero
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -805,6 +834,7 @@ NE
 "
 )
 ;
+}
 if
 (
 LL_NE
@@ -813,6 +843,7 @@ bigOne
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -825,6 +856,7 @@ NE
 "
 )
 ;
+}
 if
 (
 LL_NE
@@ -833,6 +865,7 @@ bigMinusOne
 bigMinusOne
 )
 )
+{
 SetFailed
 (
 "
@@ -847,6 +880,7 @@ NE
 "
 )
 ;
+}
 if
 (
 LL_NE
@@ -855,6 +889,7 @@ bigNumber
 bigNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -867,6 +902,7 @@ n
 "
 )
 ;
+}
 if
 (
 LL_NE
@@ -875,6 +911,7 @@ bigMinusNumber
 bigMinusNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -889,6 +926,7 @@ n
 "
 )
 ;
+}
 if
 (
 !
@@ -898,6 +936,7 @@ bigZero
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -910,6 +949,7 @@ NE
 "
 )
 ;
+}
 if
 (
 !
@@ -919,6 +959,7 @@ bigOne
 bigMinusNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -932,6 +973,7 @@ n
 "
 )
 ;
+}
 if
 (
 !
@@ -940,6 +982,7 @@ LL_GE_ZERO
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -950,6 +993,7 @@ LL_GE_ZERO
 "
 )
 ;
+}
 if
 (
 !
@@ -958,6 +1002,7 @@ LL_GE_ZERO
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -968,6 +1013,7 @@ LL_GE_ZERO
 "
 )
 ;
+}
 if
 (
 !
@@ -976,6 +1022,7 @@ LL_GE_ZERO
 bigNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -986,6 +1033,7 @@ n
 "
 )
 ;
+}
 if
 (
 LL_GE_ZERO
@@ -993,6 +1041,7 @@ LL_GE_ZERO
 bigMinusOne
 )
 )
+{
 SetFailed
 (
 "
@@ -1004,6 +1053,7 @@ LL_GE_ZERO
 "
 )
 ;
+}
 if
 (
 LL_GE_ZERO
@@ -1011,6 +1061,7 @@ LL_GE_ZERO
 bigMinusNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -1022,6 +1073,7 @@ n
 "
 )
 ;
+}
 if
 (
 !
@@ -1033,6 +1085,7 @@ bigZero
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -1046,6 +1099,7 @@ LL_CMP
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1055,6 +1109,7 @@ bigZero
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -1067,6 +1122,7 @@ LL_CMP
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1076,6 +1132,7 @@ bigZero
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -1088,6 +1145,7 @@ LL_CMP
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1097,6 +1155,7 @@ bigNumber
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -1109,6 +1168,7 @@ n
 "
 )
 ;
+}
 if
 (
 !
@@ -1119,6 +1179,7 @@ bigNumber
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -1132,6 +1193,7 @@ n
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1141,6 +1203,7 @@ bigOne
 bigNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -1153,6 +1216,7 @@ n
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1162,6 +1226,7 @@ bigMinusNumber
 bigNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -1175,6 +1240,7 @@ n
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1185,6 +1251,7 @@ bigNumber
 bigNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -1198,6 +1265,7 @@ n
 "
 )
 ;
+}
 if
 (
 !
@@ -1208,6 +1276,7 @@ bigMinusOne
 bigMinusTwo
 )
 )
+{
 SetFailed
 (
 "
@@ -1223,6 +1292,7 @@ LL_CMP
 "
 )
 ;
+}
 if
 (
 !
@@ -1233,6 +1303,7 @@ bigMaxInt32
 big2To31
 )
 )
+{
 SetFailed
 (
 "
@@ -1253,6 +1324,7 @@ int
 "
 )
 ;
+}
 if
 (
 !
@@ -1264,6 +1336,7 @@ bigInt0
 bigInt0
 )
 )
+{
 SetFailed
 (
 "
@@ -1279,6 +1352,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1290,6 +1364,7 @@ bigInt0
 bigInt1
 )
 )
+{
 SetFailed
 (
 "
@@ -1305,6 +1380,7 @@ failed
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1315,6 +1391,7 @@ bigInt0
 bigInt2
 )
 )
+{
 SetFailed
 (
 "
@@ -1330,6 +1407,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1341,6 +1419,7 @@ bigInt0
 bigInt3
 )
 )
+{
 SetFailed
 (
 "
@@ -1356,6 +1435,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1367,6 +1447,7 @@ bigInt0
 bigInt4
 )
 )
+{
 SetFailed
 (
 "
@@ -1382,6 +1463,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1393,6 +1475,7 @@ bigInt0
 bigInt5
 )
 )
+{
 SetFailed
 (
 "
@@ -1408,6 +1491,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1419,6 +1503,7 @@ bigInt6
 bigInt6
 )
 )
+{
 SetFailed
 (
 "
@@ -1434,6 +1519,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1445,6 +1531,7 @@ bigInt6
 bigInt7
 )
 )
+{
 SetFailed
 (
 "
@@ -1460,6 +1547,7 @@ failed
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1470,6 +1558,7 @@ bigInt6
 bigInt8
 )
 )
+{
 SetFailed
 (
 "
@@ -1485,6 +1574,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1496,6 +1586,7 @@ bigInt6
 bigInt9
 )
 )
+{
 SetFailed
 (
 "
@@ -1511,6 +1602,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1522,6 +1614,7 @@ bigInt6
 bigInt10
 )
 )
+{
 SetFailed
 (
 "
@@ -1537,6 +1630,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1548,6 +1642,7 @@ bigInt6
 bigInt11
 )
 )
+{
 SetFailed
 (
 "
@@ -1563,6 +1658,7 @@ failed
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1573,6 +1669,7 @@ bigInt0
 bigInt6
 )
 )
+{
 SetFailed
 (
 "
@@ -1588,6 +1685,7 @@ failed
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1598,6 +1696,7 @@ bigInt0
 bigInt7
 )
 )
+{
 SetFailed
 (
 "
@@ -1613,6 +1712,7 @@ failed
 "
 )
 ;
+}
 if
 (
 LL_CMP
@@ -1623,6 +1723,7 @@ bigInt0
 bigInt8
 )
 )
+{
 SetFailed
 (
 "
@@ -1638,6 +1739,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1649,6 +1751,7 @@ bigZero
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -1662,6 +1765,7 @@ LL_UCMP
 "
 )
 ;
+}
 if
 (
 LL_UCMP
@@ -1671,6 +1775,7 @@ bigZero
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -1683,6 +1788,7 @@ LL_UCMP
 "
 )
 ;
+}
 if
 (
 LL_UCMP
@@ -1692,6 +1798,7 @@ bigZero
 bigZero
 )
 )
+{
 SetFailed
 (
 "
@@ -1704,6 +1811,7 @@ LL_UCMP
 "
 )
 ;
+}
 if
 (
 LL_UCMP
@@ -1713,6 +1821,7 @@ bigNumber
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -1725,6 +1834,7 @@ n
 "
 )
 ;
+}
 if
 (
 !
@@ -1735,6 +1845,7 @@ bigNumber
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -1747,6 +1858,7 @@ n
 "
 )
 ;
+}
 if
 (
 LL_UCMP
@@ -1756,6 +1868,7 @@ bigOne
 bigNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -1768,6 +1881,7 @@ n
 "
 )
 ;
+}
 if
 (
 LL_UCMP
@@ -1777,6 +1891,7 @@ bigMinusNumber
 bigNumber
 )
 )
+{
 SetFailed
 (
 "
@@ -1790,6 +1905,7 @@ n
 "
 )
 ;
+}
 if
 (
 !
@@ -1801,6 +1917,7 @@ bigInt0
 bigInt0
 )
 )
+{
 SetFailed
 (
 "
@@ -1816,6 +1933,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1827,6 +1945,7 @@ bigInt0
 bigInt1
 )
 )
+{
 SetFailed
 (
 "
@@ -1842,6 +1961,7 @@ failed
 "
 )
 ;
+}
 if
 (
 LL_UCMP
@@ -1852,6 +1972,7 @@ bigInt0
 bigInt2
 )
 )
+{
 SetFailed
 (
 "
@@ -1867,6 +1988,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1878,6 +2000,7 @@ bigInt0
 bigInt3
 )
 )
+{
 SetFailed
 (
 "
@@ -1893,6 +2016,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1904,6 +2028,7 @@ bigInt0
 bigInt4
 )
 )
+{
 SetFailed
 (
 "
@@ -1919,6 +2044,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1930,6 +2056,7 @@ bigInt0
 bigInt5
 )
 )
+{
 SetFailed
 (
 "
@@ -1945,6 +2072,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1956,6 +2084,7 @@ bigInt6
 bigInt6
 )
 )
+{
 SetFailed
 (
 "
@@ -1971,6 +2100,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1982,6 +2112,7 @@ bigInt6
 bigInt7
 )
 )
+{
 SetFailed
 (
 "
@@ -1997,6 +2128,7 @@ failed
 "
 )
 ;
+}
 if
 (
 LL_UCMP
@@ -2007,6 +2139,7 @@ bigInt6
 bigInt8
 )
 )
+{
 SetFailed
 (
 "
@@ -2022,6 +2155,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -2033,6 +2167,7 @@ bigInt6
 bigInt9
 )
 )
+{
 SetFailed
 (
 "
@@ -2048,6 +2183,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -2059,6 +2195,7 @@ bigInt6
 bigInt10
 )
 )
+{
 SetFailed
 (
 "
@@ -2074,6 +2211,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -2085,6 +2223,7 @@ bigInt6
 bigInt11
 )
 )
+{
 SetFailed
 (
 "
@@ -2100,6 +2239,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -2111,6 +2251,7 @@ bigInt0
 bigInt6
 )
 )
+{
 SetFailed
 (
 "
@@ -2126,6 +2267,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -2137,6 +2279,7 @@ bigInt0
 bigInt7
 )
 )
+{
 SetFailed
 (
 "
@@ -2152,6 +2295,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -2163,6 +2307,7 @@ bigInt0
 bigInt8
 )
 )
+{
 SetFailed
 (
 "
@@ -2178,6 +2323,7 @@ failed
 "
 )
 ;
+}
 return
 ;
 }
@@ -2218,6 +2364,7 @@ LL_IS_ZERO
 result
 )
 )
+{
 ResultFailed
 (
 "
@@ -2232,6 +2379,7 @@ bigZero
 result
 )
 ;
+}
 LL_AND
 (
 result
@@ -2246,6 +2394,7 @@ LL_IS_ZERO
 result
 )
 )
+{
 ResultFailed
 (
 "
@@ -2260,6 +2409,7 @@ bigOne
 result
 )
 ;
+}
 LL_AND
 (
 result
@@ -2275,6 +2425,7 @@ LL_IS_ZERO
 result
 )
 )
+{
 ResultFailed
 (
 "
@@ -2289,6 +2440,7 @@ bigZero
 result
 )
 ;
+}
 LL_AND
 (
 result
@@ -2307,6 +2459,7 @@ result
 bigMinusOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -2323,6 +2476,7 @@ bigMinusOne
 result
 )
 ;
+}
 LL_OR
 (
 result
@@ -2338,6 +2492,7 @@ LL_IS_ZERO
 result
 )
 )
+{
 ResultFailed
 (
 "
@@ -2352,6 +2507,7 @@ bigZero
 result
 )
 ;
+}
 LL_OR
 (
 result
@@ -2366,6 +2522,7 @@ LL_IS_ZERO
 result
 )
 )
+{
 ResultFailed
 (
 "
@@ -2380,6 +2537,7 @@ bigOne
 result
 )
 ;
+}
 LL_OR
 (
 result
@@ -2398,6 +2556,7 @@ result
 bigMinusNumber
 )
 )
+{
 ResultFailed
 (
 "
@@ -2413,6 +2572,7 @@ bigMinusNumber
 result
 )
 ;
+}
 LL_OR
 (
 result
@@ -2431,6 +2591,7 @@ result
 bigMinusNumber
 )
 )
+{
 ResultFailed
 (
 "
@@ -2446,6 +2607,7 @@ bigMinusNumber
 result
 )
 ;
+}
 LL_XOR
 (
 result
@@ -2463,6 +2625,7 @@ result
 bigZero
 )
 )
+{
 ResultFailed
 (
 "
@@ -2477,6 +2640,7 @@ bigZero
 result
 )
 ;
+}
 LL_XOR
 (
 result
@@ -2494,6 +2658,7 @@ result
 bigOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -2508,6 +2673,7 @@ bigZero
 result
 )
 ;
+}
 LL_XOR
 (
 result
@@ -2525,6 +2691,7 @@ result
 bigMinusNumber
 )
 )
+{
 ResultFailed
 (
 "
@@ -2540,6 +2707,7 @@ bigMinusNumber
 result
 )
 ;
+}
 LL_XOR
 (
 result
@@ -2557,6 +2725,7 @@ result
 bigZero
 )
 )
+{
 ResultFailed
 (
 "
@@ -2573,6 +2742,7 @@ bigMinusNumber
 result
 )
 ;
+}
 result
 =
 bigZero
@@ -2593,6 +2763,7 @@ result
 bigOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -2612,6 +2783,7 @@ bigOne
 result
 )
 ;
+}
 result
 =
 bigOne
@@ -2632,6 +2804,7 @@ result
 bigNumber
 )
 )
+{
 ResultFailed
 (
 "
@@ -2651,6 +2824,7 @@ bigNumber
 result
 )
 ;
+}
 result
 =
 bigMinusNumber
@@ -2671,6 +2845,7 @@ result
 bigMinusNumber
 )
 )
+{
 ResultFailed
 (
 "
@@ -2692,6 +2867,7 @@ bigMinusNumber
 result
 )
 ;
+}
 LL_NOT
 (
 result
@@ -2714,6 +2890,7 @@ result2
 bigMinusNumber
 )
 )
+{
 ResultFailed
 (
 "
@@ -2734,6 +2911,7 @@ bigMinusNumber
 result
 )
 ;
+}
 LL_NEG
 (
 result
@@ -2756,6 +2934,7 @@ result2
 bigMinusNumber
 )
 )
+{
 ResultFailed
 (
 "
@@ -2778,6 +2957,7 @@ bigMinusNumber
 result
 )
 ;
+}
 return
 ;
 }
@@ -2830,6 +3010,7 @@ result32
 =
 one
 )
+{
 SetFailed
 (
 "
@@ -2843,6 +3024,7 @@ r
 "
 )
 ;
+}
 LL_L2I
 (
 result32
@@ -2856,6 +3038,7 @@ result32
 =
 minusOne
 )
+{
 SetFailed
 (
 "
@@ -2870,6 +3053,7 @@ r
 "
 )
 ;
+}
 LL_L2UI
 (
 resultU32
@@ -2886,6 +3070,7 @@ PRUint32
 )
 minusOne
 )
+{
 SetFailed
 (
 "
@@ -2900,6 +3085,7 @@ r
 "
 )
 ;
+}
 LL_L2UI
 (
 resultU32
@@ -2916,6 +3102,7 @@ PRUint32
 )
 one
 )
+{
 SetFailed
 (
 "
@@ -2929,6 +3116,7 @@ r
 "
 )
 ;
+}
 LL_L2F
 (
 resultF
@@ -2944,6 +3132,7 @@ resultF
 .
 0
 )
+{
 SetFailed
 (
 "
@@ -2959,6 +3148,7 @@ r
 "
 )
 ;
+}
 LL_L2F
 (
 resultF
@@ -2975,6 +3165,7 @@ resultF
 .
 0
 )
+{
 SetFailed
 (
 "
@@ -2990,6 +3181,7 @@ r
 "
 )
 ;
+}
 LL_L2D
 (
 resultD
@@ -3005,6 +3197,7 @@ resultD
 .
 0L
 )
+{
 SetFailed
 (
 "
@@ -3020,6 +3213,7 @@ r
 "
 )
 ;
+}
 LL_L2D
 (
 resultD
@@ -3036,6 +3230,7 @@ resultD
 .
 0L
 )
+{
 SetFailed
 (
 "
@@ -3052,6 +3247,7 @@ r
 "
 )
 ;
+}
 LL_I2L
 (
 result
@@ -3068,6 +3264,7 @@ result
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -3081,6 +3278,7 @@ r
 "
 )
 ;
+}
 LL_I2L
 (
 result
@@ -3097,6 +3295,7 @@ result
 bigMinusOne
 )
 )
+{
 SetFailed
 (
 "
@@ -3111,6 +3310,7 @@ r
 "
 )
 ;
+}
 LL_UI2L
 (
 resultU
@@ -3130,6 +3330,7 @@ resultU
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -3143,6 +3344,7 @@ r
 "
 )
 ;
+}
 LL_UI2L
 (
 resultU
@@ -3162,6 +3364,7 @@ resultU
 bigZeroFox
 )
 )
+{
 ResultFailed
 (
 "
@@ -3178,6 +3381,7 @@ bigZeroFox
 resultU
 )
 ;
+}
 LL_F2L
 (
 result
@@ -3196,6 +3400,7 @@ result
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -3209,6 +3414,7 @@ r
 "
 )
 ;
+}
 LL_F2L
 (
 result
@@ -3228,6 +3434,7 @@ result
 bigMinusOne
 )
 )
+{
 SetFailed
 (
 "
@@ -3242,6 +3449,7 @@ r
 "
 )
 ;
+}
 LL_D2L
 (
 result
@@ -3260,6 +3468,7 @@ result
 bigOne
 )
 )
+{
 SetFailed
 (
 "
@@ -3273,6 +3482,7 @@ r
 "
 )
 ;
+}
 LL_D2L
 (
 result
@@ -3292,6 +3502,7 @@ result
 bigMinusOne
 )
 )
+{
 SetFailed
 (
 "
@@ -3306,6 +3517,7 @@ r
 "
 )
 ;
+}
 return
 ;
 }
@@ -3404,6 +3616,7 @@ result
 bigTwo
 )
 )
+{
 ResultFailed
 (
 "
@@ -3419,6 +3632,7 @@ bigOne
 result
 )
 ;
+}
 LL_SHL
 (
 result
@@ -3436,6 +3650,7 @@ result
 largeTwoZero
 )
 )
+{
 ResultFailed
 (
 "
@@ -3451,6 +3666,7 @@ largeTwoZero
 result
 )
 ;
+}
 LL_SHR
 (
 result
@@ -3468,6 +3684,7 @@ result
 bigMinusOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -3484,6 +3701,7 @@ bigMinusOne
 result
 )
 ;
+}
 LL_SHR
 (
 result
@@ -3501,6 +3719,7 @@ result
 bigOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -3516,6 +3735,7 @@ bigOne
 result
 )
 ;
+}
 LL_SHR
 (
 result
@@ -3533,6 +3753,7 @@ result
 bigMinusOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -3554,6 +3775,7 @@ bigMinusOne
 result
 )
 ;
+}
 LL_USHR
 (
 resultU
@@ -3571,6 +3793,7 @@ resultU
 bigZero
 )
 )
+{
 ResultFailed
 (
 "
@@ -3586,6 +3809,7 @@ bigZero
 result
 )
 ;
+}
 LL_USHR
 (
 resultU
@@ -3603,6 +3827,7 @@ resultU
 bigZeroFox
 )
 )
+{
 ResultFailed
 (
 "
@@ -3618,6 +3843,7 @@ bigZeroFox
 result
 )
 ;
+}
 LL_ISHL
 (
 resultU
@@ -3635,6 +3861,7 @@ resultU
 bigFoxZero
 )
 )
+{
 ResultFailed
 (
 "
@@ -3651,6 +3878,7 @@ bigFoxZero
 result
 )
 ;
+}
 LL_ISHL
 (
 resultU
@@ -3668,6 +3896,7 @@ resultU
 bigEightZero
 )
 )
+{
 ResultFailed
 (
 "
@@ -3684,6 +3913,7 @@ bigEightZero
 result
 )
 ;
+}
 LL_ISHL
 (
 resultU
@@ -3701,6 +3931,7 @@ resultU
 big64K
 )
 )
+{
 ResultFailed
 (
 "
@@ -3716,6 +3947,7 @@ big64K
 resultU
 )
 ;
+}
 return
 ;
 }
@@ -3810,6 +4042,7 @@ result
 bigTwo
 )
 )
+{
 ResultFailed
 (
 "
@@ -3827,6 +4060,7 @@ bigTwo
 result
 )
 ;
+}
 LL_ADD
 (
 result
@@ -3844,6 +4078,7 @@ result
 bigZero
 )
 )
+{
 ResultFailed
 (
 "
@@ -3862,6 +4097,7 @@ bigOne
 result
 )
 ;
+}
 LL_ADD
 (
 result
@@ -3879,6 +4115,7 @@ result
 largeValPlusOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -3896,6 +4133,7 @@ largeValPlusOne
 result
 )
 ;
+}
 LL_SUB
 (
 result
@@ -3913,6 +4151,7 @@ result
 bigZero
 )
 )
+{
 ResultFailed
 (
 "
@@ -3930,6 +4169,7 @@ bigZero
 result
 )
 ;
+}
 LL_SUB
 (
 result
@@ -3947,6 +4187,7 @@ result
 bigOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -3964,6 +4205,7 @@ bigOne
 result
 )
 ;
+}
 LL_SUB
 (
 result
@@ -3981,6 +4223,7 @@ result
 largeVal
 )
 )
+{
 ResultFailed
 (
 "
@@ -3998,6 +4241,7 @@ largeVal
 result
 )
 ;
+}
 LL_MUL
 (
 result
@@ -4015,6 +4259,7 @@ result
 largeValTimesTwo
 )
 )
+{
 ResultFailed
 (
 "
@@ -4032,6 +4277,7 @@ largeValTimesTwo
 result
 )
 ;
+}
 LL_MUL
 (
 result
@@ -4049,6 +4295,7 @@ result
 largeMultCandx64K
 )
 )
+{
 ResultFailed
 (
 "
@@ -4066,6 +4313,7 @@ largeMultCandx64K
 result
 )
 ;
+}
 LL_NEG
 (
 result2
@@ -4089,6 +4337,7 @@ result
 result2
 )
 )
+{
 ResultFailed
 (
 "
@@ -4105,6 +4354,7 @@ result2
 result
 )
 ;
+}
 LL_SHL
 (
 result2
@@ -4129,6 +4379,7 @@ result
 largeNumSHL5
 )
 )
+{
 ResultFailed
 (
 "
@@ -4147,6 +4398,7 @@ largeNumSHL5
 result
 )
 ;
+}
 LL_DIV
 (
 result
@@ -4164,6 +4416,7 @@ result
 bigOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -4179,6 +4432,7 @@ bigOne
 result
 )
 ;
+}
 LL_DIV
 (
 result
@@ -4196,6 +4450,7 @@ result
 bigNumber
 )
 )
+{
 ResultFailed
 (
 "
@@ -4213,6 +4468,7 @@ bigNumber
 result
 )
 ;
+}
 LL_DIV
 (
 result
@@ -4230,6 +4486,7 @@ result
 bigMinusNumber
 )
 )
+{
 ResultFailed
 (
 "
@@ -4248,6 +4505,7 @@ bigMinusNumber
 result
 )
 ;
+}
 LL_DIV
 (
 result
@@ -4265,6 +4523,7 @@ result
 bigNumber
 )
 )
+{
 ResultFailed
 (
 "
@@ -4284,6 +4543,7 @@ bigNumber
 result
 )
 ;
+}
 LL_SHL
 (
 result2
@@ -4308,6 +4568,7 @@ result
 result2
 )
 )
+{
 ResultFailed
 (
 "
@@ -4329,6 +4590,7 @@ result2
 result
 )
 ;
+}
 LL_SHL
 (
 result2
@@ -4359,6 +4621,7 @@ result
 result2
 )
 )
+{
 ResultFailed
 (
 "
@@ -4382,6 +4645,7 @@ result2
 result
 )
 ;
+}
 LL_SHL
 (
 result2
@@ -4412,6 +4676,7 @@ result
 result2
 )
 )
+{
 ResultFailed
 (
 "
@@ -4435,6 +4700,7 @@ result2
 result
 )
 ;
+}
 LL_ADD
 (
 result2
@@ -4459,6 +4725,7 @@ result
 bigOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -4474,6 +4741,7 @@ bigSixTeen
 result
 )
 ;
+}
 LL_MUL
 (
 result2
@@ -4505,6 +4773,7 @@ result
 bigSixTeen
 )
 )
+{
 ResultFailed
 (
 "
@@ -4520,6 +4789,7 @@ bigSixTeen
 result
 )
 ;
+}
 LL_DIV
 (
 result
@@ -4537,6 +4807,7 @@ result
 bigOne
 )
 )
+{
 ResultFailed
 (
 "
@@ -4552,6 +4823,7 @@ bigSixTeen
 result
 )
 ;
+}
 return
 ;
 }
@@ -4598,6 +4870,7 @@ max
 mmax
 )
 )
+{
 ResultFailed
 (
 "
@@ -4614,6 +4887,7 @@ max
 mmax
 )
 ;
+}
 if
 (
 LL_NE
@@ -4622,6 +4896,7 @@ min
 mmin
 )
 )
+{
 ResultFailed
 (
 "
@@ -4638,6 +4913,7 @@ max
 mmin
 )
 ;
+}
 if
 (
 LL_NE
@@ -4646,6 +4922,7 @@ zero
 mzero
 )
 )
+{
 ResultFailed
 (
 "
@@ -4662,6 +4939,7 @@ zero
 mzero
 )
 ;
+}
 }
 static
 PRIntn
@@ -4713,8 +4991,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -4817,11 +5097,13 @@ argc
 argv
 )
 )
+{
 return
 (
 1
 )
 ;
+}
 TestAssignment
 (
 )

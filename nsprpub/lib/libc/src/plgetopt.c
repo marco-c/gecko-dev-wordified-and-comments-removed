@@ -662,8 +662,10 @@ xargv
 optNameLen
 )
 )
+{
 continue
 ;
+}
 if
 (
 strlen
@@ -677,8 +679,10 @@ longOptName
 =
 optNameLen
 )
+{
 continue
 ;
+}
 opt
 -
 >
@@ -964,6 +968,7 @@ minus
 ;
 }
 else
+{
 opt
 -
 >
@@ -971,6 +976,7 @@ value
 =
 NULL
 ;
+}
 return
 PL_OPT_OK
 ;

@@ -173,6 +173,7 @@ newfd
 ;
 }
 else
+{
 (
 void
 )
@@ -189,6 +190,7 @@ close
 newfd
 )
 ;
+}
 }
 return
 rcio
@@ -275,6 +277,7 @@ NULL
 *
 nd
 )
+{
 ns
 -
 >
@@ -282,6 +285,7 @@ fd
 =
 accepted
 ;
+}
 else
 {
 PR_Close
@@ -429,12 +433,14 @@ PR_SUCCESS
 =
 rv
 )
+{
 *
 addr
 =
 &
 local
 ;
+}
 return
 rv
 ;
@@ -479,12 +485,14 @@ PR_SUCCESS
 =
 rv
 )
+{
 *
 addr
 =
 &
 peer
 ;
+}
 return
 rv
 ;
@@ -696,12 +704,14 @@ if
 =
 rv
 )
+{
 *
 addr
 =
 &
 peer
 ;
+}
 return
 rv
 ;

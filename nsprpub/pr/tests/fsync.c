@@ -311,8 +311,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -482,6 +484,7 @@ buffer
 +
 index
 )
+{
 buffer
 [
 index
@@ -492,6 +495,7 @@ PRUint8
 )
 index
 ;
+}
 for
 (
 loops
@@ -557,10 +561,12 @@ time
 <
 shortest
 )
+{
 shortest
 =
 time
 ;
+}
 else
 if
 (
@@ -568,10 +574,12 @@ time
 >
 longest
 )
+{
 longest
 =
 time
 ;
+}
 if
 (
 0

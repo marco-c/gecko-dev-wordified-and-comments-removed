@@ -319,8 +319,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -797,6 +799,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -806,6 +809,7 @@ s
 buf
 )
 ;
+}
 clientThread
 =
 PR_CreateThread
@@ -1363,6 +1367,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1384,6 +1389,7 @@ n
 buf
 )
 ;
+}
 }
 else
 {
@@ -1447,6 +1453,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1457,6 +1464,7 @@ n
 "
 )
 ;
+}
 PR_Cleanup
 (
 )
@@ -1470,11 +1478,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

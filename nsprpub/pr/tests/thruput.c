@@ -218,6 +218,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 PR_fprintf
 (
 err
@@ -242,7 +243,9 @@ port
 )
 )
 ;
+}
 else
+{
 PL_FPrintError
 (
 err
@@ -251,6 +254,7 @@ PR_NetAddrToString
 "
 )
 ;
+}
 return
 rv
 ;
@@ -427,6 +431,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err
@@ -437,6 +442,7 @@ ignored
 "
 )
 ;
+}
 data
 .
 option
@@ -470,6 +476,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err
@@ -480,6 +487,7 @@ ignored
 "
 )
 ;
+}
 }
 rv
 =
@@ -515,11 +523,13 @@ PR_GetError
 (
 )
 )
+{
 PR_Sleep
 (
 connect_timeout
 )
 ;
+}
 PR_Close
 (
 xport
@@ -737,6 +747,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err
@@ -745,6 +756,7 @@ PR_GetHostByName
 "
 )
 ;
+}
 else
 {
 if
@@ -764,6 +776,7 @@ server_address
 <
 0
 )
+{
 PL_FPrintError
 (
 err
@@ -772,6 +785,7 @@ PR_EnumerateHostEnt
 "
 )
 ;
+}
 else
 {
 do
@@ -933,6 +947,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err
@@ -943,6 +958,7 @@ ignored
 "
 )
 ;
+}
 data
 .
 option
@@ -976,6 +992,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err
@@ -986,6 +1003,7 @@ ignored
 "
 )
 ;
+}
 }
 do
 {
@@ -1184,6 +1202,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err
@@ -1192,6 +1211,7 @@ PR_InitializeNetAddr
 "
 )
 ;
+}
 else
 {
 rv
@@ -1210,6 +1230,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err
@@ -1218,6 +1239,7 @@ PR_Bind
 "
 )
 ;
+}
 else
 {
 PRFileDesc
@@ -1270,6 +1292,7 @@ NULL
 =
 client
 )
+{
 PL_FPrintError
 (
 err
@@ -1278,6 +1301,7 @@ PR_Accept
 "
 )
 ;
+}
 else
 {
 PR_fprintf
@@ -1674,8 +1698,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -2063,16 +2089,20 @@ NULL
 =
 server_name
 )
+{
 Server
 (
 )
 ;
+}
 else
+{
 Client
 (
 server_name
 )
 ;
+}
 return
 0
 ;

@@ -1460,6 +1460,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1473,6 +1474,7 @@ n
 buf
 )
 ;
+}
 PR_ExplodeTime
 (
 prt
@@ -2076,6 +2078,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2087,6 +2090,7 @@ n
 "
 )
 ;
+}
 return
 PR_SUCCESS
 ;
@@ -2927,6 +2931,7 @@ if
 (
 debug_mode
 )
+{
 PrintExplodedTime
 (
 &
@@ -2936,6 +2941,7 @@ itemp
 expected_uspt_time
 )
 ;
+}
 return
 PR_FAILURE
 ;
@@ -6956,8 +6962,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -7030,6 +7038,7 @@ failed
 ;
 }
 else
+{
 printf
 (
 "
@@ -7045,6 +7054,7 @@ n
 "
 )
 ;
+}
 if
 (
 PR_FAILURE
@@ -7071,6 +7081,7 @@ failed
 ;
 }
 else
+{
 printf
 (
 "
@@ -7086,6 +7097,7 @@ n
 "
 )
 ;
+}
 if
 (
 PR_FAILURE
@@ -7112,6 +7124,7 @@ failed
 ;
 }
 else
+{
 printf
 (
 "
@@ -7127,15 +7140,20 @@ n
 "
 )
 ;
+}
 if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

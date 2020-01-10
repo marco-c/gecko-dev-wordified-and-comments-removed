@@ -2503,8 +2503,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -2678,9 +2680,11 @@ failed_already
 =
 0
 )
+{
 goto
 Finished
 ;
+}
 ReadOnlyTest
 (
 )
@@ -2692,9 +2696,11 @@ failed_already
 =
 0
 )
+{
 goto
 Finished
 ;
+}
 ClientServerTest
 (
 )
@@ -2706,6 +2712,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -2727,6 +2734,7 @@ PASS
 "
 )
 ;
+}
 return
 (
 (

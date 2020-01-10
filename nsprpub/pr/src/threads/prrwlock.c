@@ -356,10 +356,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 rwlock
 =
 PR_NEWZAP
@@ -374,9 +376,11 @@ rwlock
 =
 NULL
 )
+{
 return
 NULL
 ;
+}
 rwlock
 -
 >
@@ -771,6 +775,7 @@ rw_name
 =
 NULL
 )
+{
 PR_Free
 (
 rwlock
@@ -779,6 +784,7 @@ rwlock
 rw_name
 )
 ;
+}
 PR_DELETE
 (
 rwlock
@@ -961,11 +967,13 @@ rw_rank
 =
 PR_RWLOCK_RANK_NONE
 )
+{
 _PR_SET_THREAD_RWLOCK_RANK
 (
 rwlock
 )
 ;
+}
 #
 endif
 }
@@ -1182,11 +1190,13 @@ rw_rank
 =
 PR_RWLOCK_RANK_NONE
 )
+{
 _PR_SET_THREAD_RWLOCK_RANK
 (
 rwlock
 )
 ;
+}
 #
 endif
 }
@@ -1323,6 +1333,7 @@ rw_writer_cnt
 >
 0
 )
+{
 PR_NotifyCondVar
 (
 rwlock
@@ -1331,6 +1342,7 @@ rwlock
 rw_writer_waitq
 )
 ;
+}
 }
 }
 else
@@ -1386,6 +1398,7 @@ rw_writer_cnt
 >
 0
 )
+{
 PR_NotifyCondVar
 (
 rwlock
@@ -1394,6 +1407,7 @@ rwlock
 rw_writer_waitq
 )
 ;
+}
 else
 if
 (
@@ -1404,6 +1418,7 @@ rw_reader_cnt
 >
 0
 )
+{
 PR_NotifyAllCondVar
 (
 rwlock
@@ -1412,6 +1427,7 @@ rwlock
 rw_reader_waitq
 )
 ;
+}
 }
 PR_Unlock
 (
@@ -1436,11 +1452,13 @@ rw_rank
 =
 PR_RWLOCK_RANK_NONE
 )
+{
 _PR_UNSET_THREAD_RWLOCK_RANK
 (
 rwlock
 )
 ;
+}
 #
 endif
 return
@@ -1590,6 +1608,7 @@ trs_index
 <
 _PR_RWLOCK_RANK_ORDER_LIMIT
 )
+{
 lock_stack
 -
 >
@@ -1605,6 +1624,7 @@ trs_index
 =
 rwlock
 ;
+}
 }
 }
 static
@@ -1661,12 +1681,15 @@ trs_index
 =
 0
 )
+{
 return
 (
 PR_RWLOCK_RANK_NONE
 )
 ;
+}
 else
+{
 return
 (
 lock_stack
@@ -1686,6 +1709,7 @@ trs_index
 rw_rank
 )
 ;
+}
 }
 static
 void
@@ -1799,12 +1823,14 @@ index
 NULL
 )
 )
+{
 new_index
 =
 index
 +
 1
 ;
+}
 if
 (
 done
@@ -1812,8 +1838,10 @@ done
 &
 new_index
 )
+{
 break
 ;
+}
 }
 lock_stack
 -

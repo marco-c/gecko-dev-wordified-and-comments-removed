@@ -79,11 +79,13 @@ NULL
 =
 cv
 )
+{
 PR_DestroyCondVar
 (
 cv
 )
 ;
+}
 }
 PRStatus
 RCCondition
@@ -124,6 +126,7 @@ PR_FAILURE
 ;
 }
 else
+{
 rv
 =
 PR_WaitCondVar
@@ -134,6 +137,7 @@ timeout
 interval
 )
 ;
+}
 return
 rv
 ;

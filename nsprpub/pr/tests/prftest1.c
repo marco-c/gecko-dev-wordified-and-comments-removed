@@ -59,6 +59,7 @@ result
 =
 PASS
 )
+{
 printf
 (
 "
@@ -68,7 +69,9 @@ n
 "
 )
 ;
+}
 else
+{
 printf
 (
 "
@@ -78,6 +81,7 @@ n
 "
 )
 ;
+}
 }
 int
 main
@@ -156,8 +160,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -288,6 +294,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -300,12 +307,15 @@ n
 "
 )
 ;
+}
 else
+{
 Test_Result
 (
 PASS
 )
 ;
+}
 }
 else
 {
@@ -355,11 +365,13 @@ answer
 ;
 }
 else
+{
 Test_Result
 (
 FAIL
 )
 ;
+}
 }
 return
 0

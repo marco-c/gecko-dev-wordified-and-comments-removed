@@ -760,6 +760,7 @@ i
 +
 +
 )
+{
 *
 (
 addr
@@ -769,6 +770,7 @@ i
 =
 0x00
 ;
+}
 PR_LOG
 (
 lm
@@ -905,6 +907,7 @@ if
 (
 debug
 )
+{
 fprintf
 (
 stderr
@@ -913,6 +916,7 @@ stderr
 "
 )
 ;
+}
 PR_Sleep
 (
 PR_MillisecondsToInterval
@@ -926,6 +930,7 @@ if
 (
 debug
 )
+{
 fprintf
 (
 stderr
@@ -935,6 +940,7 @@ n
 "
 )
 ;
+}
 PR_LOG
 (
 lm
@@ -1157,8 +1163,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1296,9 +1304,11 @@ if
 (
 failed_already
 )
+{
 goto
 Finished
 ;
+}
 ServerTwo
 (
 )
@@ -1310,6 +1320,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -1331,6 +1342,7 @@ PASS
 "
 )
 ;
+}
 return
 (
 (

@@ -39,6 +39,7 @@ char
 =
 s
 )
+{
 return
 (
 char
@@ -46,6 +47,7 @@ char
 )
 0
 ;
+}
 return
 strchr
 (
@@ -81,6 +83,7 @@ char
 =
 s
 )
+{
 return
 (
 char
@@ -88,6 +91,7 @@ char
 )
 0
 ;
+}
 return
 strrchr
 (
@@ -125,6 +129,7 @@ char
 =
 s
 )
+{
 return
 (
 char
@@ -132,6 +137,7 @@ char
 )
 0
 ;
+}
 for
 (
 ;
@@ -156,6 +162,7 @@ s
 =
 c
 )
+{
 return
 (
 char
@@ -163,6 +170,7 @@ char
 )
 s
 ;
+}
 if
 (
 (
@@ -194,6 +202,7 @@ char
 s
 )
 )
+{
 return
 (
 char
@@ -201,6 +210,7 @@ char
 )
 s
 ;
+}
 return
 (
 char
@@ -243,6 +253,7 @@ char
 =
 s
 )
+{
 return
 (
 char
@@ -250,6 +261,7 @@ char
 )
 0
 ;
+}
 for
 (
 p
@@ -301,6 +313,7 @@ char
 p
 )
 )
+{
 return
 (
 char
@@ -308,6 +321,7 @@ char
 )
 p
 ;
+}
 for
 (
 p
@@ -331,6 +345,7 @@ p
 =
 c
 )
+{
 return
 (
 char
@@ -338,6 +353,7 @@ char
 )
 p
 ;
+}
 return
 (
 char

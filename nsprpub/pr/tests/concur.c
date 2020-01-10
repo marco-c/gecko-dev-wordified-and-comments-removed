@@ -163,6 +163,7 @@ context
 >
 have
 )
+{
 PR_WaitCondVar
 (
 context
@@ -172,6 +173,7 @@ cv
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 context
 -
 >
@@ -279,8 +281,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -363,10 +367,12 @@ if
 =
 range
 )
+{
 range
 =
 DEFAULT_RANGE
 ;
+}
 if
 (
 0
@@ -374,10 +380,12 @@ if
 =
 loops
 )
+{
 loops
 =
 DEFAULT_LOOPS
 ;
+}
 context
 .
 ml
@@ -619,11 +627,13 @@ have
 >
 0
 )
+{
 PR_Sleep
 (
 hundredMills
 )
 ;
+}
 if
 (
 debug

@@ -142,6 +142,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -158,6 +159,7 @@ n
 counter
 )
 ;
+}
 }
 else
 {
@@ -364,8 +366,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -670,6 +674,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -686,6 +691,7 @@ n
 counter
 )
 ;
+}
 }
 else
 {

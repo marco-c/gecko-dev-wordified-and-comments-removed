@@ -113,8 +113,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -208,6 +210,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -220,6 +223,7 @@ n
 "
 )
 ;
+}
 }
 else
 {
@@ -271,10 +275,12 @@ n
 ;
 }
 else
+{
 failed_already
 =
 1
 ;
+}
 }
 if
 (

@@ -158,10 +158,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 if
 (
 _PR_MakeNativeIPCName
@@ -270,10 +272,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 if
 (
 _PR_MakeNativeIPCName

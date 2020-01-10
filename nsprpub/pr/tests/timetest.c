@@ -248,6 +248,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -255,6 +256,7 @@ UTC
 "
 )
 ;
+}
 }
 else
 {
@@ -303,6 +305,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -319,10 +322,12 @@ minOffset
 )
 ;
 }
+}
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -335,6 +340,7 @@ et
 tm_year
 )
 ;
+}
 }
 static
 int
@@ -890,8 +896,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -946,6 +954,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -959,6 +968,7 @@ n
 "
 )
 ;
+}
 PR_ExplodeTime
 (
 t
@@ -977,6 +987,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -985,6 +996,7 @@ n
 "
 )
 ;
+}
 PR_ExplodeTime
 (
 t
@@ -1003,6 +1015,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1013,6 +1026,7 @@ n
 "
 )
 ;
+}
 testParseTimeString
 (
 t
@@ -1234,6 +1248,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1252,11 +1267,14 @@ n
 "
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 return
 1
 ;
@@ -1265,6 +1283,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1274,6 +1293,7 @@ is
 "
 )
 ;
+}
 PrintExplodedTime
 (
 &
@@ -1284,6 +1304,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1292,6 +1313,7 @@ n
 "
 )
 ;
+}
 t2
 =
 PR_ImplodeTime
@@ -1313,6 +1335,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1330,7 +1353,9 @@ n
 "
 )
 ;
+}
 else
+{
 printf
 (
 "
@@ -1340,6 +1365,7 @@ n
 "
 )
 ;
+}
 return
 1
 ;
@@ -1356,6 +1382,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1366,6 +1393,7 @@ is
 "
 )
 ;
+}
 PrintExplodedTime
 (
 &
@@ -1376,6 +1404,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1384,6 +1413,7 @@ n
 "
 )
 ;
+}
 if
 (
 debug_mode
@@ -1437,6 +1467,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1454,6 +1485,7 @@ n
 "
 )
 ;
+}
 return
 1
 ;
@@ -1462,6 +1494,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1474,6 +1507,7 @@ n
 "
 )
 ;
+}
 testParseTimeString
 (
 t1
@@ -1689,6 +1723,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1710,6 +1745,7 @@ tm_wday
 ]
 )
 ;
+}
 if
 (
 et
@@ -1724,6 +1760,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1734,12 +1771,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1754,11 +1793,14 @@ n
 "
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 return
 1
 ;
@@ -1875,6 +1917,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1884,6 +1927,7 @@ n
 "
 )
 ;
+}
 if
 (
 et
@@ -1898,6 +1942,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1908,12 +1953,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1928,11 +1975,14 @@ n
 "
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 return
 1
 ;
@@ -2049,6 +2099,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2058,6 +2109,7 @@ n
 "
 )
 ;
+}
 if
 (
 et
@@ -2072,6 +2124,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2082,12 +2135,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2102,11 +2157,14 @@ n
 "
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 return
 1
 ;
@@ -2194,6 +2252,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2210,6 +2269,7 @@ is
 "
 )
 ;
+}
 PrintExplodedTime
 (
 &
@@ -2220,6 +2280,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2229,6 +2290,7 @@ n
 "
 )
 ;
+}
 testParseTimeString
 (
 PR_ImplodeTime
@@ -2306,6 +2368,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2322,6 +2385,7 @@ is
 "
 )
 ;
+}
 PrintExplodedTime
 (
 &
@@ -2332,6 +2396,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2341,6 +2406,7 @@ n
 "
 )
 ;
+}
 testParseTimeString
 (
 PR_ImplodeTime
@@ -2354,6 +2420,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2366,6 +2433,7 @@ n
 "
 )
 ;
+}
 }
 {
 PRExplodedTime
@@ -2609,6 +2677,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2628,6 +2697,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -2660,6 +2730,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2681,6 +2752,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -2706,6 +2778,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2720,6 +2793,7 @@ n
 "
 )
 ;
+}
 et1
 .
 tm_usec
@@ -2802,6 +2876,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2821,6 +2896,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -2853,6 +2929,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2874,6 +2951,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -2895,6 +2973,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2909,6 +2988,7 @@ n
 "
 )
 ;
+}
 }
 {
 PRExplodedTime
@@ -3564,6 +3644,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -3574,6 +3655,7 @@ n
 "
 )
 ;
+}
 }
 {
 PRExplodedTime
@@ -4225,6 +4307,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -4235,6 +4318,7 @@ n
 "
 )
 ;
+}
 }
 {
 PRExplodedTime
@@ -4887,11 +4971,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

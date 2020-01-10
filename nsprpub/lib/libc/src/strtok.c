@@ -54,9 +54,11 @@ lasts
 =
 NULL
 )
+{
 return
 NULL
 ;
+}
 s1
 =
 *
@@ -109,8 +111,10 @@ c
 =
 sc
 )
+{
 break
 ;
+}
 }
 if
 (
@@ -119,8 +123,10 @@ sc
 =
 0
 )
+{
 break
 ;
+}
 }
 if
 (

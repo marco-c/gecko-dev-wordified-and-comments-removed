@@ -160,8 +160,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -638,6 +640,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -647,6 +650,7 @@ s
 buf
 )
 ;
+}
 PR_FD_ZERO
 (
 &
@@ -671,6 +675,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -686,6 +691,7 @@ n
 "
 )
 ;
+}
 retVal
 =
 PR_Select
@@ -788,6 +794,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -805,6 +812,7 @@ n
 "
 )
 ;
+}
 PR_Cleanup
 (
 )
@@ -815,11 +823,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

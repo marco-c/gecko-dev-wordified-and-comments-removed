@@ -80,13 +80,17 @@ rv
 =
 WAIT_OBJECT_0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 else
+{
 return
 PR_FAILURE
 ;
+}
 }
 PRStatus
 _PR_MD_WAIT_SEM

@@ -733,6 +733,7 @@ if
 (
 test_cancelio
 )
+{
 timeout
 =
 PR_SecondsToInterval
@@ -740,6 +741,7 @@ PR_SecondsToInterval
 2
 )
 ;
+}
 for
 (
 rem
@@ -889,6 +891,7 @@ sockfd
 =
 PR_SUCCESS
 )
+{
 printf
 (
 "
@@ -906,6 +909,7 @@ PR_GetError
 )
 )
 ;
+}
 timeout
 =
 PR_INTERVAL_NO_TIMEOUT
@@ -1042,10 +1046,12 @@ bytes
 =
 0
 )
+{
 return
 -
 1
 ;
+}
 }
 return
 len
@@ -1510,6 +1516,7 @@ start
 arg
 )
 )
+{
 return
 (
 (
@@ -1519,12 +1526,15 @@ PRThread
 tid
 )
 ;
+}
 else
+{
 return
 (
 NULL
 )
 ;
+}
 #
 else
 HANDLE
@@ -1766,8 +1776,10 @@ i
 <
 SERVER_MAX_BIND_COUNT
 )
+{
 continue
 ;
+}
 }
 fprintf
 (
@@ -2437,8 +2449,10 @@ i
 <
 SERVER_MAX_BIND_COUNT
 )
+{
 continue
 ;
+}
 }
 fprintf
 (
@@ -3222,6 +3236,7 @@ j
 0
 )
 )
+{
 PR_Sleep
 (
 PR_SecondsToInterval
@@ -3230,6 +3245,7 @@ PR_SecondsToInterval
 )
 )
 ;
+}
 #
 endif
 if
@@ -5095,15 +5111,19 @@ if
 (
 udp_connect
 )
+{
 udp_connect
 =
 0
 ;
+}
 else
+{
 udp_connect
 =
 1
 ;
+}
 DPRINTF
 (
 (
@@ -8351,11 +8371,13 @@ local_small_file_fd
 =
 NULL
 )
+{
 PR_Close
 (
 local_small_file_fd
 )
 ;
+}
 if
 (
 local_large_file_fd
@@ -8363,11 +8385,13 @@ local_large_file_fd
 =
 NULL
 )
+{
 PR_Close
 (
 local_large_file_fd
 )
 ;
+}
 }
 static
 void
@@ -8582,8 +8606,10 @@ i
 <
 SERVER_MAX_BIND_COUNT
 )
+{
 continue
 ;
+}
 }
 fprintf
 (
@@ -10741,8 +10767,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -10859,6 +10887,7 @@ done
 ;
 }
 else
+{
 printf
 (
 "
@@ -10869,6 +10898,7 @@ n
 "
 )
 ;
+}
 client_domain
 =
 PR_AF_INET6
@@ -10914,6 +10944,7 @@ done
 ;
 }
 else
+{
 printf
 (
 "
@@ -10924,6 +10955,7 @@ n
 "
 )
 ;
+}
 client_domain
 =
 PR_AF_INET
@@ -10973,6 +11005,7 @@ done
 ;
 }
 else
+{
 printf
 (
 "
@@ -10983,6 +11016,7 @@ n
 "
 )
 ;
+}
 client_domain
 =
 PR_AF_INET6
@@ -11032,6 +11066,7 @@ done
 ;
 }
 else
+{
 printf
 (
 "
@@ -11042,6 +11077,7 @@ n
 "
 )
 ;
+}
 test_cancelio
 =
 0
@@ -11081,6 +11117,7 @@ done
 ;
 }
 else
+{
 printf
 (
 "
@@ -11091,6 +11128,7 @@ n
 "
 )
 ;
+}
 if
 (
 TCP_Socket_Client_Server_Test
@@ -11115,6 +11153,7 @@ done
 ;
 }
 else
+{
 printf
 (
 "
@@ -11125,6 +11164,7 @@ n
 "
 )
 ;
+}
 #
 endif
 done
@@ -11137,11 +11177,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

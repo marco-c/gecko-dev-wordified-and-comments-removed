@@ -511,11 +511,13 @@ _PR_MD_CURRENT_THREAD
 )
 )
 )
+{
 _PR_INTSOFF
 (
 is
 )
 ;
+}
 _pr_dumpOut
 =
 _pr_stderr
@@ -540,11 +542,13 @@ _PR_MD_CURRENT_THREAD
 )
 )
 )
+{
 _PR_FAST_INTSON
 (
 is
 )
 ;
+}
 }
 PR_IMPLEMENT
 (

@@ -163,6 +163,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -175,6 +176,7 @@ and
 "
 )
 ;
+}
 if
 (
 PR_FAILURE
@@ -197,6 +199,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -208,12 +211,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -225,6 +230,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -237,6 +243,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -249,6 +256,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -445,6 +453,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -457,6 +466,7 @@ and
 "
 )
 ;
+}
 if
 (
 PR_FAILURE
@@ -479,6 +489,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -490,12 +501,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -505,6 +518,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -517,6 +531,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -529,6 +544,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -808,6 +824,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -822,6 +839,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -932,6 +950,7 @@ failure
 ;
 }
 else
+{
 printf
 (
 "
@@ -942,6 +961,7 @@ n
 "
 )
 ;
+}
 }
 passed
 =
@@ -1003,6 +1023,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1016,6 +1037,7 @@ and
 "
 )
 ;
+}
 if
 (
 PR_PENDING_INTERRUPT_ERROR
@@ -1028,6 +1050,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1039,12 +1062,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1054,6 +1079,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -1066,6 +1092,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1080,6 +1107,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -1144,6 +1172,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1154,6 +1183,7 @@ n
 "
 )
 ;
+}
 abortCV
 =
 PR_CreateThread
@@ -1209,6 +1239,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1219,6 +1250,7 @@ n
 "
 )
 ;
+}
 abortJoin
 =
 PR_CreateThread
@@ -1244,6 +1276,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1256,6 +1289,7 @@ thread
 "
 )
 ;
+}
 rv
 =
 PR_Interrupt
@@ -1290,6 +1324,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1300,10 +1335,12 @@ n
 "
 )
 ;
+}
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1314,6 +1351,7 @@ n
 "
 )
 ;
+}
 setup_listen_socket
 (
 &
@@ -1362,6 +1400,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1375,6 +1414,7 @@ and
 "
 )
 ;
+}
 if
 (
 PR_PENDING_INTERRUPT_ERROR
@@ -1387,6 +1427,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1398,12 +1439,14 @@ n
 )
 ;
 }
+}
 else
 {
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1413,6 +1456,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -1425,6 +1469,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1439,6 +1484,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -1475,6 +1521,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1485,6 +1532,7 @@ n
 "
 )
 ;
+}
 intrBlock
 =
 PR_CreateThread
@@ -1600,8 +1648,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt

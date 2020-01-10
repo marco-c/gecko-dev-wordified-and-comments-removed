@@ -54,9 +54,11 @@ char
 src
 )
 )
+{
 return
 dest
 ;
+}
 return
 strcat
 (
@@ -121,9 +123,11 @@ src
 max
 )
 )
+{
 return
 dest
 ;
+}
 for
 (
 rv
@@ -203,9 +207,11 @@ char
 src
 )
 )
+{
 return
 dest
 ;
+}
 for
 (
 rv
@@ -233,9 +239,11 @@ max
 =
 dl
 )
+{
 return
 rv
 ;
+}
 (
 void
 )

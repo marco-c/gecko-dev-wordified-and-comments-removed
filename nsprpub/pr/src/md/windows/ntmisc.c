@@ -3004,6 +3004,7 @@ PR_SI_SYSNAME
 =
 cmd
 )
+{
 (
 void
 )
@@ -3016,6 +3017,7 @@ Windows_NT
 "
 )
 ;
+}
 else
 if
 (
@@ -3090,6 +3092,7 @@ dwMinorVersion
 )
 )
 )
+{
 (
 void
 )
@@ -3102,7 +3105,9 @@ Windows_98
 "
 )
 ;
+}
 else
+{
 (
 void
 )
@@ -3115,6 +3120,7 @@ Windows_95
 "
 )
 ;
+}
 }
 else
 if
@@ -3163,6 +3169,7 @@ PR_SI_SYSNAME
 =
 cmd
 )
+{
 (
 void
 )
@@ -3175,6 +3182,7 @@ Windows_CE
 "
 )
 ;
+}
 else
 if
 (
@@ -3218,6 +3226,7 @@ PR_SI_SYSNAME
 =
 cmd
 )
+{
 (
 void
 )
@@ -3230,6 +3239,7 @@ Windows_Unknown
 "
 )
 ;
+}
 else
 if
 (
@@ -3238,6 +3248,7 @@ PR_SI_RELEASE
 =
 cmd
 )
+{
 (
 void
 )
@@ -3256,6 +3267,7 @@ d
 0
 )
 ;
+}
 break
 ;
 }
@@ -4285,9 +4297,11 @@ void
 -
 1
 )
+{
 goto
 retry
 ;
+}
 __asm__
 (
 "
@@ -4342,9 +4356,11 @@ void
 -
 1
 )
+{
 goto
 retry
 ;
+}
 *
 (
 void
@@ -4488,9 +4504,11 @@ void
 -
 1
 )
+{
 goto
 retry
 ;
+}
 __asm__
 (
 "
@@ -4545,9 +4563,11 @@ void
 -
 1
 )
+{
 goto
 retry
 ;
+}
 if
 (
 tmp
@@ -4589,11 +4609,13 @@ tmp
 ;
 }
 else
+{
 *
 tos
 =
 tmp
 ;
+}
 return
 tmp
 ;

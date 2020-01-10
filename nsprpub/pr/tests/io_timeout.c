@@ -135,6 +135,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -152,6 +153,7 @@ info
 id
 )
 ;
+}
 tscope
 =
 PR_GetThreadScope
@@ -243,6 +245,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -256,6 +259,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -320,6 +324,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -331,6 +336,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -359,6 +365,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -370,6 +377,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -531,6 +539,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -547,6 +556,7 @@ n
 "
 )
 ;
+}
 failed_already
 =
 1
@@ -608,6 +618,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -625,6 +636,7 @@ info
 id
 )
 ;
+}
 PR_Free
 (
 info
@@ -662,6 +674,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -679,6 +692,7 @@ n
 num_threads
 )
 ;
+}
 dead_lock
 =
 PR_NewLock
@@ -846,6 +860,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -863,6 +878,7 @@ n
 alive
 )
 ;
+}
 PR_WaitCondVar
 (
 dead_cv
@@ -941,8 +957,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -997,10 +1015,12 @@ if
 =
 num_threads
 )
+{
 num_threads
 =
 NUM_THREADS
 ;
+}
 PR_Init
 (
 PR_USER_THREAD
@@ -1075,11 +1095,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

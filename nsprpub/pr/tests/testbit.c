@@ -66,6 +66,7 @@ myMap
 0
 )
 )
+{
 ErrorReport
 (
 "
@@ -80,6 +81,7 @@ n
 "
 )
 ;
+}
 if
 (
 PR_TEST_BIT
@@ -88,6 +90,7 @@ myMap
 31
 )
 )
+{
 ErrorReport
 (
 "
@@ -102,6 +105,7 @@ n
 "
 )
 ;
+}
 if
 (
 PR_TEST_BIT
@@ -110,6 +114,7 @@ myMap
 128
 )
 )
+{
 ErrorReport
 (
 "
@@ -124,6 +129,7 @@ n
 "
 )
 ;
+}
 if
 (
 PR_TEST_BIT
@@ -132,6 +138,7 @@ myMap
 129
 )
 )
+{
 ErrorReport
 (
 "
@@ -146,6 +153,7 @@ n
 "
 )
 ;
+}
 PR_SET_BIT
 (
 myMap
@@ -161,6 +169,7 @@ myMap
 0
 )
 )
+{
 ErrorReport
 (
 "
@@ -175,6 +184,7 @@ n
 "
 )
 ;
+}
 PR_CLEAR_BIT
 (
 myMap
@@ -189,6 +199,7 @@ myMap
 0
 )
 )
+{
 ErrorReport
 (
 "
@@ -205,6 +216,7 @@ n
 "
 )
 ;
+}
 PR_SET_BIT
 (
 myMap
@@ -220,6 +232,7 @@ myMap
 31
 )
 )
+{
 ErrorReport
 (
 "
@@ -234,6 +247,7 @@ n
 "
 )
 ;
+}
 PR_CLEAR_BIT
 (
 myMap
@@ -248,6 +262,7 @@ myMap
 31
 )
 )
+{
 ErrorReport
 (
 "
@@ -264,6 +279,7 @@ n
 "
 )
 ;
+}
 PR_SET_BIT
 (
 myMap
@@ -279,6 +295,7 @@ myMap
 128
 )
 )
+{
 ErrorReport
 (
 "
@@ -293,6 +310,7 @@ n
 "
 )
 ;
+}
 PR_CLEAR_BIT
 (
 myMap
@@ -307,6 +325,7 @@ myMap
 128
 )
 )
+{
 ErrorReport
 (
 "
@@ -323,6 +342,7 @@ n
 "
 )
 ;
+}
 PR_SET_BIT
 (
 myMap
@@ -338,6 +358,7 @@ myMap
 129
 )
 )
+{
 ErrorReport
 (
 "
@@ -352,6 +373,7 @@ n
 "
 )
 ;
+}
 PR_CLEAR_BIT
 (
 myMap
@@ -366,6 +388,7 @@ myMap
 129
 )
 )
+{
 ErrorReport
 (
 "
@@ -382,6 +405,7 @@ n
 "
 )
 ;
+}
 if
 (
 (
@@ -396,6 +420,7 @@ PR_CeilingLog2
 =
 5
 )
+{
 ErrorReport
 (
 "
@@ -410,6 +435,7 @@ n
 "
 )
 ;
+}
 if
 (
 (
@@ -424,6 +450,7 @@ PR_FloorLog2
 =
 5
 )
+{
 ErrorReport
 (
 "
@@ -438,6 +465,7 @@ n
 "
 )
 ;
+}
 if
 (
 failed

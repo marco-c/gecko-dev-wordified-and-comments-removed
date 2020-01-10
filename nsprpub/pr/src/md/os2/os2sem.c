@@ -113,13 +113,17 @@ rv
 =
 NO_ERROR
 )
+{
 return
 PR_SUCCESS
 ;
+}
 else
+{
 return
 PR_FAILURE
 ;
+}
 }
 PRStatus
 _PR_MD_WAIT_SEM

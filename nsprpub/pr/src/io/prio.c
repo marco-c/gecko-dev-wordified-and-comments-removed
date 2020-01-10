@@ -348,10 +348,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 switch
 (
 osfd

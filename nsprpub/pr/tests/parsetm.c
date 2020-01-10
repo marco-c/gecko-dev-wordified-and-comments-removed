@@ -229,6 +229,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -236,6 +237,7 @@ UTC
 "
 )
 ;
+}
 }
 else
 {
@@ -284,6 +286,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -300,10 +303,12 @@ minOffset
 )
 ;
 }
+}
 if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -316,6 +321,7 @@ et
 tm_year
 )
 ;
+}
 }
 int
 main

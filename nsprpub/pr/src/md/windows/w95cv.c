@@ -707,11 +707,13 @@ post
 =
 prev
 )
+{
 PR_DELETE
 (
 prev
 )
 ;
+}
 }
 while
 (
@@ -854,8 +856,10 @@ length
 <
 _MD_CV_NOTIFIED_LENGTH
 )
+{
 break
 ;
+}
 if
 (
 NULL

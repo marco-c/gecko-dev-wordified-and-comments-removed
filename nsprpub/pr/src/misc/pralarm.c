@@ -424,10 +424,12 @@ state
 =
 alarm_inactive
 )
+{
 why
 =
 abort
 ;
+}
 else
 if
 (
@@ -452,6 +454,7 @@ id
 =
 NULL
 )
+{
 (
 void
 )
@@ -464,6 +467,7 @@ cond
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 else
 {
 pause
@@ -508,6 +512,7 @@ id
 ;
 }
 else
+{
 (
 void
 )
@@ -520,6 +525,7 @@ cond
 pause
 )
 ;
+}
 }
 }
 }
@@ -625,9 +631,11 @@ PR_NewLock
 =
 NULL
 )
+{
 goto
 done
 ;
+}
 if
 (
 (
@@ -648,9 +656,11 @@ lock
 =
 NULL
 )
+{
 goto
 done
 ;
+}
 alarm
 -
 >
@@ -698,9 +708,11 @@ notifier
 =
 NULL
 )
+{
 goto
 done
 ;
+}
 }
 return
 alarm
@@ -717,6 +729,7 @@ cond
 =
 NULL
 )
+{
 PR_DestroyCondVar
 (
 alarm
@@ -725,6 +738,7 @@ alarm
 cond
 )
 ;
+}
 if
 (
 alarm
@@ -735,6 +749,7 @@ lock
 =
 NULL
 )
+{
 PR_DestroyLock
 (
 alarm
@@ -743,6 +758,7 @@ alarm
 lock
 )
 ;
+}
 PR_DELETE
 (
 alarm
@@ -806,6 +822,7 @@ rv
 =
 PR_SUCCESS
 )
+{
 rv
 =
 PR_JoinThread
@@ -816,6 +833,7 @@ alarm
 notifier
 )
 ;
+}
 if
 (
 rv
@@ -885,9 +903,11 @@ if
 !
 id
 )
+{
 return
 NULL
 ;
+}
 id
 -
 >
@@ -1024,9 +1044,11 @@ alarm
 >
 current
 )
+{
 return
 PR_FAILURE
 ;
+}
 id
 -
 >

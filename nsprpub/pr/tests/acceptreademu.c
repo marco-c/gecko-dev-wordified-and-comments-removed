@@ -174,6 +174,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err_out
@@ -182,6 +183,7 @@ PR_NetAddrToString
 "
 )
 ;
+}
 else
 PR_fprintf
 (
@@ -373,6 +375,7 @@ nbytes
 -
 1
 )
+{
 PL_FPrintError
 (
 err_out
@@ -385,6 +388,7 @@ failed
 "
 )
 ;
+}
 nbytes
 =
 PR_Recv
@@ -407,6 +411,7 @@ nbytes
 -
 1
 )
+{
 PL_FPrintError
 (
 err_out
@@ -419,6 +424,7 @@ failed
 "
 )
 ;
+}
 else
 {
 PR_fprintf
@@ -479,6 +485,7 @@ sock
 PR_SHUTDOWN_BOTH
 )
 )
+{
 PL_FPrintError
 (
 err_out
@@ -491,6 +498,7 @@ failed
 "
 )
 ;
+}
 if
 (
 PR_FAILURE
@@ -501,6 +509,7 @@ PR_Close
 sock
 )
 )
+{
 PL_FPrintError
 (
 err_out
@@ -513,6 +522,7 @@ failed
 "
 )
 ;
+}
 return
 ;
 }
@@ -817,6 +827,7 @@ if
 =
 bytes
 )
+{
 PL_FPrintError
 (
 err_out
@@ -829,6 +840,7 @@ failed
 "
 )
 ;
+}
 else
 {
 PrintAddress
@@ -892,6 +904,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err_out
@@ -904,6 +917,7 @@ failed
 "
 )
 ;
+}
 }
 if
 (
@@ -928,6 +942,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err_out
@@ -940,6 +955,7 @@ failed
 "
 )
 ;
+}
 }
 rv
 =
@@ -955,6 +971,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err_out
@@ -967,6 +984,7 @@ failed
 "
 )
 ;
+}
 }
 int
 main
@@ -1066,11 +1084,14 @@ argc
 =
 3
 )
+{
 port_number
 =
 DEFAULT_PORT
 ;
+}
 else
+{
 port_number
 =
 (
@@ -1093,6 +1114,7 @@ argc
 ]
 )
 ;
+}
 status
 =
 PR_InitializeNetAddr
@@ -1384,6 +1406,7 @@ client_thread
 =
 PR_FAILURE
 )
+{
 PL_FPrintError
 (
 err_out
@@ -1396,6 +1419,7 @@ failed
 "
 )
 ;
+}
 if
 (
 PR_JoinThread
@@ -1406,6 +1430,7 @@ server_thread
 =
 PR_FAILURE
 )
+{
 PL_FPrintError
 (
 err_out
@@ -1418,6 +1443,7 @@ failed
 "
 )
 ;
+}
 }
 return
 0

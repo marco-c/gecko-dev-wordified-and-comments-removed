@@ -100,10 +100,12 @@ flags
 _PR_ATTACHED
 )
 )
+{
 _PRI_DetachThread
 (
 )
 ;
+}
 }
 break
 ;

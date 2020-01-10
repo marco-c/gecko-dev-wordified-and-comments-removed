@@ -1600,11 +1600,13 @@ flags
 &
 PR_SHM_EXCL
 )
+{
 oflag
 |
 =
 O_EXCL
 ;
+}
 shm
 -
 >
@@ -1830,11 +1832,13 @@ PR_SHM_READONLY
 =
 flags
 )
+{
 prot
 ^
 =
 PROT_WRITE
 ;
+}
 addr
 =
 mmap

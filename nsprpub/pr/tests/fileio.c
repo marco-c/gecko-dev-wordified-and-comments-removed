@@ -147,6 +147,7 @@ i
 +
 +
 )
+{
 tbuf
 [
 i
@@ -154,6 +155,7 @@ i
 =
 i
 ;
+}
 nWritten
 =
 PR_Write
@@ -244,6 +246,7 @@ i
 +
 +
 )
+{
 tbuf
 [
 i
@@ -251,6 +254,7 @@ i
 =
 0
 ;
+}
 rv
 =
 PR_Seek
@@ -321,6 +325,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -337,11 +342,14 @@ n
 i
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 }
 PR_Close
 (
@@ -375,6 +383,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -386,6 +395,7 @@ n
 "
 )
 ;
+}
 }
 PRSemaphore
 *

@@ -167,10 +167,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 return
 (
 _PR_MD_OPEN_SHARED_MEMORY
@@ -268,10 +270,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 return
 (
 _PR_MD_DELETE_SHARED_MEMORY

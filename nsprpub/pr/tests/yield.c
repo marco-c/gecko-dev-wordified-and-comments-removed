@@ -241,6 +241,7 @@ index
 +
 +
 )
+{
 PR_JoinThread
 (
 a
@@ -249,6 +250,7 @@ index
 ]
 )
 ;
+}
 printf
 (
 "

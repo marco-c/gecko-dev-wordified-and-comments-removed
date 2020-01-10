@@ -90,6 +90,7 @@ NULL
 =
 msg1
 )
+{
 PR_fprintf
 (
 err
@@ -100,6 +101,7 @@ s
 msg1
 )
 ;
+}
 PL_FPrintError
 (
 err
@@ -260,6 +262,7 @@ NULL
 =
 udp
 )
+{
 Failed
 (
 "
@@ -270,6 +273,7 @@ PR_NewUDPSocket
 NULL
 )
 ;
+}
 else
 if
 (
@@ -278,6 +282,7 @@ NULL
 =
 tcp
 )
+{
 Failed
 (
 "
@@ -288,6 +293,7 @@ PR_NewTCPSocket
 NULL
 )
 ;
+}
 else
 {
 PRSockOption
@@ -318,6 +324,7 @@ PR_FAILURE
 =
 rv
 )
+{
 Failed
 (
 "
@@ -328,6 +335,7 @@ PR_InitializeNetAddr
 NULL
 )
 ;
+}
 rv
 =
 PR_Bind
@@ -344,6 +352,7 @@ PR_FAILURE
 =
 rv
 )
+{
 Failed
 (
 "
@@ -354,6 +363,7 @@ PR_Bind
 NULL
 )
 ;
+}
 for
 (
 option
@@ -652,6 +662,7 @@ PR_FAILURE
 =
 rv
 )
+{
 Failed
 (
 "
@@ -665,6 +676,7 @@ option
 ]
 )
 ;
+}
 }
 }
 rv
@@ -683,6 +695,7 @@ PR_FAILURE
 =
 rv
 )
+{
 Failed
 (
 "
@@ -696,6 +709,7 @@ option
 ]
 )
 ;
+}
 }
 PR_Close
 (

@@ -353,10 +353,12 @@ atoi
 evp
 )
 )
+{
 _pr_aix_send_file_use_disabled
 =
 1
 ;
+}
 }
 #
 if

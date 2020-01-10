@@ -769,6 +769,7 @@ flags
 &
 O_NONBLOCK
 )
+{
 fcntl
 (
 fd_map
@@ -782,6 +783,7 @@ flags
 O_NONBLOCK
 )
 ;
+}
 }
 if
 (
@@ -847,6 +849,7 @@ flags
 &
 O_NONBLOCK
 )
+{
 fcntl
 (
 fd_map
@@ -860,6 +863,7 @@ flags
 O_NONBLOCK
 )
 ;
+}
 }
 if
 (
@@ -925,6 +929,7 @@ flags
 &
 O_NONBLOCK
 )
+{
 fcntl
 (
 fd_map
@@ -938,6 +943,7 @@ flags
 O_NONBLOCK
 )
 ;
+}
 }
 PR_ASSERT
 (
@@ -978,6 +984,7 @@ fd_map
 =
 0
 )
+{
 close
 (
 fd_map
@@ -986,6 +993,7 @@ fd_map
 ]
 )
 ;
+}
 if
 (
 fd_map
@@ -996,6 +1004,7 @@ fd_map
 =
 1
 )
+{
 close
 (
 fd_map
@@ -1004,6 +1013,7 @@ fd_map
 ]
 )
 ;
+}
 if
 (
 fd_map
@@ -1014,6 +1024,7 @@ fd_map
 =
 2
 )
+{
 close
 (
 fd_map
@@ -1022,6 +1033,7 @@ fd_map
 ]
 )
 ;
+}
 }
 #
 else
@@ -3011,8 +3023,10 @@ if
 =
 pid
 )
+{
 break
 ;
+}
 if
 (
 (

@@ -167,10 +167,12 @@ align
 =
 0
 )
+{
 align
 =
 PL_ARENA_DEFAULT_ALIGN
 ;
+}
 if
 (
 align
@@ -188,6 +190,7 @@ pmasks
 ]
 )
 )
+{
 pool
 -
 >
@@ -198,7 +201,9 @@ pmasks
 align
 ]
 ;
+}
 else
+{
 pool
 -
 >
@@ -212,6 +217,7 @@ align
 )
 )
 ;
+}
 pool
 -
 >
@@ -282,6 +288,7 @@ pool
 >
 mask
 )
+{
 pool
 -
 >
@@ -301,7 +308,9 @@ pool
 mask
 )
 ;
+}
 else
+{
 pool
 -
 >
@@ -309,6 +318,7 @@ arenasize
 =
 size
 ;
+}
 #
 ifdef
 PL_ARENAMETER
@@ -420,9 +430,11 @@ nb
 <
 nbOld
 )
+{
 return
 NULL
 ;
+}
 {
 a
 =
@@ -693,6 +705,7 @@ first
 .
 next
 )
+{
 pool
 -
 >
@@ -702,6 +715,7 @@ next
 =
 a
 ;
+}
 PL_COUNT_ARENA
 (
 pool
@@ -759,9 +773,11 @@ size
 <
 incr
 )
+{
 return
 NULL
 ;
+}
 PL_ARENA_ALLOCATE
 (
 newp
@@ -775,6 +791,7 @@ if
 (
 newp
 )
+{
 memcpy
 (
 newp
@@ -782,6 +799,7 @@ p
 size
 )
 ;
+}
 return
 newp
 ;
@@ -915,8 +933,10 @@ if
 !
 a
 )
+{
 return
 ;
+}
 head
 -
 >
@@ -1127,6 +1147,7 @@ stats
 .
 name
 )
+{
 PR_DELETE
 (
 pool
@@ -1137,6 +1158,7 @@ stats
 name
 )
 ;
+}
 for
 (
 statsp
@@ -1315,6 +1337,7 @@ stats
 .
 maxalloc
 )
+{
 pool
 -
 >
@@ -1324,6 +1347,7 @@ maxalloc
 =
 nb
 ;
+}
 pool
 -
 >
@@ -1424,6 +1448,7 @@ stats
 .
 maxalloc
 )
+{
 pool
 -
 >
@@ -1433,6 +1458,7 @@ maxalloc
 =
 size
 ;
+}
 pool
 -
 >

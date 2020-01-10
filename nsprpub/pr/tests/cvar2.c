@@ -188,6 +188,7 @@ tcount
 =
 0
 )
+{
 PR_WaitCondVar
 (
 info
@@ -200,6 +201,7 @@ info
 timeout
 )
 ;
+}
 #
 if
 0
@@ -689,6 +691,7 @@ info
 >
 thread
 )
+{
 PL_PrintError
 (
 "
@@ -700,6 +703,7 @@ n
 "
 )
 ;
+}
 }
 void
 CondVarTestSUU
@@ -974,6 +978,7 @@ exitcount
 <
 arg
 )
+{
 PR_WaitCondVar
 (
 exitcvar
@@ -983,6 +988,7 @@ PR_SecondsToInterval
 )
 )
 ;
+}
 PR_ASSERT
 (
 exitcount
@@ -1018,6 +1024,7 @@ index
 +
 +
 )
+{
 PR_JoinThread
 (
 list
@@ -1028,6 +1035,7 @@ index
 thread
 )
 ;
+}
 PR_DestroyCondVar
 (
 sharedcvar
@@ -1292,6 +1300,7 @@ exitcount
 <
 arg
 )
+{
 PR_WaitCondVar
 (
 exitcvar
@@ -1301,6 +1310,7 @@ PR_SecondsToInterval
 )
 )
 ;
+}
 PR_ASSERT
 (
 exitcount
@@ -1351,6 +1361,7 @@ index
 +
 +
 )
+{
 PR_JoinThread
 (
 list
@@ -1361,6 +1372,7 @@ index
 thread
 )
 ;
+}
 PR_DestroyCondVar
 (
 sharedcvar
@@ -2175,6 +2187,7 @@ exitcount
 <
 arg
 )
+{
 PR_WaitCondVar
 (
 exitcvar
@@ -2184,6 +2197,7 @@ PR_SecondsToInterval
 )
 )
 ;
+}
 PR_ASSERT
 (
 exitcount
@@ -2744,6 +2758,7 @@ arg
 *
 4
 )
+{
 PR_WaitCondVar
 (
 exitcvar
@@ -2753,6 +2768,7 @@ PR_SecondsToInterval
 )
 )
 ;
+}
 PR_ASSERT
 (
 exitcount
@@ -3224,6 +3240,7 @@ arg
 *
 4
 )
+{
 PR_WaitCondVar
 (
 exitcvar
@@ -3233,6 +3250,7 @@ PR_SecondsToInterval
 )
 )
 ;
+}
 PR_ASSERT
 (
 exitcount
@@ -3784,6 +3802,7 @@ arg
 *
 4
 )
+{
 PR_WaitCondVar
 (
 exitcvar
@@ -3793,6 +3812,7 @@ PR_SecondsToInterval
 )
 )
 ;
+}
 PR_ASSERT
 (
 exitcount
@@ -4158,8 +4178,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -4231,10 +4253,12 @@ if
 =
 count
 )
+{
 count
 =
 DEFAULT_COUNT
 ;
+}
 if
 (
 0
@@ -4242,10 +4266,12 @@ if
 =
 default_threads
 )
+{
 default_threads
 =
 DEFAULT_THREADS
 ;
+}
 printf
 (
 "

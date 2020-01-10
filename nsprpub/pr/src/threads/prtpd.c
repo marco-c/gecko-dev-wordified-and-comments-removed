@@ -128,10 +128,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 PR_ASSERT
 (
 NULL

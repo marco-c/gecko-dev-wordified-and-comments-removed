@@ -847,10 +847,12 @@ PR_SHM_READONLY
 &
 flags
 )
+{
 access
 =
 FILE_MAP_READ
 ;
+}
 addr
 =
 MapViewOfFile

@@ -245,10 +245,12 @@ num_atomic_locks
 >
 MAX_ATOMIC_LOCKS
 )
+{
 num_atomic_locks
 =
 MAX_ATOMIC_LOCKS
 ;
+}
 else
 if
 (
@@ -256,10 +258,12 @@ num_atomic_locks
 <
 1
 )
+{
 num_atomic_locks
 =
 1
 ;
+}
 else
 {
 num_atomic_locks
@@ -1099,6 +1103,7 @@ stack_name
 ;
 }
 else
+{
 stack
 -
 >
@@ -1106,6 +1111,7 @@ prstk_name
 =
 NULL
 ;
+}
 #
 ifndef
 _PR_HAVE_ATOMIC_CAS
@@ -1202,6 +1208,7 @@ stack
 >
 prstk_name
 )
+{
 PR_Free
 (
 stack
@@ -1210,6 +1217,7 @@ stack
 prstk_name
 )
 ;
+}
 #
 ifndef
 _PR_HAVE_ATOMIC_CAS

@@ -590,8 +590,10 @@ if
 (
 shutdown
 )
+{
 break
 ;
+}
 jobp
 =
 (
@@ -1200,6 +1202,7 @@ ioq
 .
 pollfds
 )
+{
 PR_Free
 (
 tp
@@ -1210,6 +1213,7 @@ ioq
 pollfds
 )
 ;
+}
 tp
 -
 >
@@ -1430,8 +1434,10 @@ pollfds_used
 pollfd_cnt
 )
 )
+{
 break
 ;
+}
 pollfds
 [
 pollfds_used
@@ -1523,10 +1529,12 @@ jobp
 >
 timeout
 )
+{
 poll_timeout
 =
 PR_INTERVAL_NO_TIMEOUT
 ;
+}
 else
 if
 (
@@ -1538,10 +1546,12 @@ jobp
 >
 timeout
 )
+{
 poll_timeout
 =
 PR_INTERVAL_NO_WAIT
 ;
+}
 else
 {
 poll_timeout
@@ -1562,10 +1572,12 @@ poll_timeout
 =
 0
 )
+{
 poll_timeout
 =
 PR_INTERVAL_NO_WAIT
 ;
+}
 }
 }
 else
@@ -1835,6 +1847,7 @@ PR_POLL_NVAL
 &
 revents
 )
+{
 jobp
 -
 >
@@ -1845,6 +1858,7 @@ error
 =
 PR_BAD_DESCRIPTOR_ERROR
 ;
+}
 else
 if
 (
@@ -1852,6 +1866,7 @@ PR_POLL_HUP
 &
 revents
 )
+{
 jobp
 -
 >
@@ -1862,7 +1877,9 @@ error
 =
 PR_CONNECT_RESET_ERROR
 ;
+}
 else
+{
 jobp
 -
 >
@@ -1873,6 +1890,7 @@ error
 =
 PR_IO_ERROR
 ;
+}
 add_to_jobq
 (
 tp
@@ -1982,6 +2000,7 @@ index
 =
 PR_SUCCESS
 )
+{
 jobp
 -
 >
@@ -1992,7 +2011,9 @@ error
 =
 0
 ;
+}
 else
+{
 jobp
 -
 >
@@ -2006,7 +2027,9 @@ PR_GetError
 )
 ;
 }
+}
 else
+{
 jobp
 -
 >
@@ -2017,6 +2040,7 @@ error
 =
 0
 ;
+}
 add_to_jobq
 (
 tp
@@ -2111,8 +2135,10 @@ jobp
 >
 timeout
 )
+{
 break
 ;
+}
 if
 (
 (
@@ -2142,8 +2168,10 @@ now
 0
 )
 )
+{
 break
 ;
+}
 PR_REMOVE_AND_INIT_LINK
 (
 &
@@ -2311,10 +2339,12 @@ timeout
 =
 0
 )
+{
 timeout
 =
 PR_INTERVAL_NO_WAIT
 ;
+}
 }
 if
 (
@@ -2323,6 +2353,7 @@ PR_INTERVAL_NO_WAIT
 =
 timeout
 )
+{
 PR_WaitCondVar
 (
 tp
@@ -2334,6 +2365,7 @@ cv
 timeout
 )
 ;
+}
 if
 (
 tp
@@ -2485,6 +2517,7 @@ tp
 >
 shutdown_cv
 )
+{
 PR_DestroyCondVar
 (
 tp
@@ -2493,6 +2526,7 @@ tp
 shutdown_cv
 )
 ;
+}
 if
 (
 NULL
@@ -2505,6 +2539,7 @@ jobq
 .
 cv
 )
+{
 PR_DestroyCondVar
 (
 tp
@@ -2515,6 +2550,7 @@ jobq
 cv
 )
 ;
+}
 if
 (
 NULL
@@ -2527,6 +2563,7 @@ jobq
 .
 lock
 )
+{
 PR_DestroyLock
 (
 tp
@@ -2537,6 +2574,7 @@ jobq
 lock
 )
 ;
+}
 if
 (
 NULL
@@ -2547,6 +2585,7 @@ tp
 >
 join_lock
 )
+{
 PR_DestroyLock
 (
 tp
@@ -2555,6 +2594,7 @@ tp
 join_lock
 )
 ;
+}
 #
 ifdef
 OPT_WINNT
@@ -2570,6 +2610,7 @@ jobq
 .
 nt_completion_port
 )
+{
 CloseHandle
 (
 tp
@@ -2580,6 +2621,7 @@ jobq
 nt_completion_port
 )
 ;
+}
 #
 endif
 if
@@ -2594,6 +2636,7 @@ timerq
 .
 cv
 )
+{
 PR_DestroyCondVar
 (
 tp
@@ -2604,6 +2647,7 @@ timerq
 cv
 )
 ;
+}
 if
 (
 NULL
@@ -2616,6 +2660,7 @@ timerq
 .
 lock
 )
+{
 PR_DestroyLock
 (
 tp
@@ -2626,6 +2671,7 @@ timerq
 lock
 )
 ;
+}
 if
 (
 NULL
@@ -2638,6 +2684,7 @@ ioq
 .
 lock
 )
+{
 PR_DestroyLock
 (
 tp
@@ -2648,6 +2695,7 @@ ioq
 lock
 )
 ;
+}
 if
 (
 NULL
@@ -2660,6 +2708,7 @@ ioq
 .
 pollfds
 )
+{
 PR_Free
 (
 tp
@@ -2670,6 +2719,7 @@ ioq
 pollfds
 )
 ;
+}
 if
 (
 NULL
@@ -2682,6 +2732,7 @@ ioq
 .
 notify_fd
 )
+{
 PR_DestroyPollableEvent
 (
 tp
@@ -2692,6 +2743,7 @@ ioq
 notify_fd
 )
 ;
+}
 PR_Free
 (
 tp
@@ -2735,9 +2787,11 @@ NULL
 =
 tp
 )
+{
 goto
 failed
 ;
+}
 tp
 -
 >
@@ -2761,9 +2815,11 @@ jobq
 .
 lock
 )
+{
 goto
 failed
 ;
+}
 tp
 -
 >
@@ -2793,9 +2849,11 @@ jobq
 .
 cv
 )
+{
 goto
 failed
 ;
+}
 tp
 -
 >
@@ -2815,9 +2873,11 @@ tp
 >
 join_lock
 )
+{
 goto
 failed
 ;
+}
 #
 ifdef
 OPT_WINNT
@@ -2848,9 +2908,11 @@ jobq
 .
 nt_completion_port
 )
+{
 goto
 failed
 ;
+}
 #
 endif
 tp
@@ -2876,9 +2938,11 @@ ioq
 .
 lock
 )
+{
 goto
 failed
 ;
+}
 tp
 -
 >
@@ -2902,9 +2966,11 @@ timerq
 .
 lock
 )
+{
 goto
 failed
 ;
+}
 tp
 -
 >
@@ -2934,9 +3000,11 @@ timerq
 .
 cv
 )
+{
 goto
 failed
 ;
+}
 tp
 -
 >
@@ -2962,9 +3030,11 @@ tp
 >
 shutdown_cv
 )
+{
 goto
 failed
 ;
+}
 tp
 -
 >
@@ -2988,9 +3058,11 @@ ioq
 .
 notify_fd
 )
+{
 goto
 failed
 ;
+}
 return
 tp
 ;
@@ -3054,9 +3126,11 @@ NULL
 =
 tp
 )
+{
 return
 NULL
 ;
+}
 tp
 -
 >
@@ -3465,9 +3539,11 @@ NULL
 =
 jobp
 )
+{
 goto
 failed
 ;
+}
 if
 (
 joinable
@@ -3503,9 +3579,11 @@ jobp
 >
 join_cv
 )
+{
 goto
 failed
 ;
+}
 }
 else
 {
@@ -3589,9 +3667,11 @@ NULL
 =
 jobp
 )
+{
 return
 NULL
 ;
+}
 jobp
 -
 >
@@ -4278,6 +4358,7 @@ rv
 =
 PR_FAILURE
 )
+{
 iod
 -
 >
@@ -4285,7 +4366,9 @@ error
 =
 err
 ;
+}
 else
+{
 iod
 -
 >
@@ -4293,6 +4376,7 @@ error
 =
 0
 ;
+}
 return
 (
 PR_QueueJob
@@ -4464,6 +4548,7 @@ timerq
 list
 )
 )
+{
 PR_APPEND_LINK
 (
 &
@@ -4480,6 +4565,7 @@ timerq
 list
 )
 ;
+}
 else
 {
 PRCList
@@ -4763,6 +4849,7 @@ PR_SUCCESS
 ;
 }
 else
+{
 PR_Unlock
 (
 tp
@@ -4773,6 +4860,7 @@ timerq
 lock
 )
 ;
+}
 }
 else
 if
@@ -4893,6 +4981,7 @@ jobp
 >
 cancel_io
 )
+{
 PR_WaitCondVar
 (
 jobp
@@ -4902,6 +4991,7 @@ cancel_cv
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 PR_Unlock
 (
 tp
@@ -4950,6 +5040,7 @@ PR_SUCCESS
 ;
 }
 else
+{
 PR_Unlock
 (
 tp
@@ -4961,6 +5052,7 @@ lock
 )
 ;
 }
+}
 if
 (
 PR_FAILURE
@@ -4968,12 +5060,14 @@ PR_FAILURE
 =
 rval
 )
+{
 PR_SetError
 (
 PR_INVALID_STATE_ERROR
 0
 )
 ;
+}
 return
 rval
 ;
@@ -5026,6 +5120,7 @@ jobp
 >
 join_wait
 )
+{
 PR_WaitCondVar
 (
 jobp
@@ -5035,6 +5130,7 @@ join_cv
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 PR_Unlock
 (
 jobp
@@ -5151,6 +5247,7 @@ tpool
 >
 shutdown
 )
+{
 PR_WaitCondVar
 (
 tpool
@@ -5160,6 +5257,7 @@ shutdown_cv
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 #
 ifdef
 OPT_WINNT

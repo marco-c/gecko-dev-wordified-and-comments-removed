@@ -54,6 +54,7 @@ char
 src
 )
 )
+{
 return
 (
 char
@@ -61,6 +62,7 @@ char
 )
 0
 ;
+}
 return
 strcpy
 (
@@ -102,6 +104,7 @@ char
 =
 dest
 )
+{
 return
 (
 char
@@ -109,6 +112,7 @@ char
 )
 0
 ;
+}
 if
 (
 (
@@ -121,6 +125,7 @@ char
 =
 src
 )
+{
 return
 (
 char
@@ -128,6 +133,7 @@ char
 )
 0
 ;
+}
 for
 (
 rv
@@ -170,6 +176,7 @@ while
 -
 max
 )
+{
 *
 +
 +
@@ -180,6 +187,7 @@ dest
 0
 '
 ;
+}
 #
 endif
 return
@@ -219,6 +227,7 @@ char
 =
 dest
 )
+{
 return
 (
 char
@@ -226,6 +235,7 @@ char
 )
 0
 ;
+}
 if
 (
 (
@@ -238,6 +248,7 @@ char
 =
 src
 )
+{
 return
 (
 char
@@ -245,6 +256,7 @@ char
 )
 0
 ;
+}
 if
 (
 0
@@ -252,6 +264,7 @@ if
 =
 max
 )
+{
 return
 (
 char
@@ -259,6 +272,7 @@ char
 )
 0
 ;
+}
 for
 (
 rv

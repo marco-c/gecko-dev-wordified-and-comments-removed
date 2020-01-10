@@ -124,8 +124,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -202,6 +204,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -222,6 +225,7 @@ PR_GetError
 )
 )
 ;
+}
 failedAlready
 =
 PR_TRUE
@@ -273,6 +277,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -291,6 +296,7 @@ PR_GetError
 )
 )
 ;
+}
 failedAlready
 =
 PR_TRUE
@@ -321,6 +327,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -339,6 +346,7 @@ PR_GetError
 )
 )
 ;
+}
 failedAlready
 =
 PR_TRUE
@@ -367,6 +375,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -387,6 +396,7 @@ PR_GetError
 )
 )
 ;
+}
 failedAlready
 =
 PR_TRUE
@@ -421,6 +431,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -441,6 +452,7 @@ PR_GetError
 )
 )
 ;
+}
 failedAlready
 =
 PR_TRUE
@@ -492,6 +504,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -510,6 +523,7 @@ PR_GetError
 )
 )
 ;
+}
 failedAlready
 =
 PR_TRUE
@@ -543,6 +557,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -563,6 +578,7 @@ PR_GetError
 )
 )
 ;
+}
 failedAlready
 =
 PR_TRUE
@@ -583,6 +599,7 @@ if
 (
 debug
 )
+{
 printf
 (
 "
@@ -605,6 +622,7 @@ addedBytes
 sum
 )
 ;
+}
 failedAlready
 =
 PR_TRUE
@@ -622,6 +640,7 @@ debug
 |
 verbose
 )
+{
 printf
 (
 "
@@ -643,6 +662,7 @@ PASSED
 "
 )
 ;
+}
 return
 (
 (

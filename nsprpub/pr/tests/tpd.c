@@ -264,6 +264,7 @@ debug
 >
 0
 )
+{
 (
 void
 )
@@ -291,6 +292,7 @@ file
 line
 )
 ;
+}
 }
 #
 define
@@ -341,15 +343,19 @@ if
 (
 should
 )
+{
 did
 =
 PR_TRUE
 ;
+}
 else
+{
 failed
 =
 PR_TRUE
 ;
+}
 }
 static
 void
@@ -1138,6 +1144,7 @@ keys
 +
 keys
 )
+{
 key
 [
 keys
@@ -1145,6 +1152,7 @@ keys
 =
 4096
 ;
+}
 did
 =
 should
@@ -1644,8 +1652,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt

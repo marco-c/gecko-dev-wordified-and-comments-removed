@@ -369,6 +369,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err
@@ -377,6 +378,7 @@ PR_NetAddrToString
 "
 )
 ;
+}
 else
 {
 PR_fprintf
@@ -420,6 +422,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err
@@ -428,6 +431,7 @@ PR_StringToNetAddr
 "
 )
 ;
+}
 else
 {
 PRSize
@@ -574,8 +578,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -697,6 +703,7 @@ NULL
 =
 runtime
 )
+{
 PL_FPrintError
 (
 err
@@ -705,6 +712,7 @@ PR_LoadLibrary
 "
 )
 ;
+}
 else
 {
 versionEntryPointType
@@ -728,6 +736,7 @@ NULL
 =
 versionPoint
 )
+{
 PL_FPrintError
 (
 err
@@ -736,6 +745,7 @@ PR_FindSymbol
 "
 )
 ;
+}
 else
 {
 char
@@ -1025,11 +1035,13 @@ NULL
 =
 nspr_name
 )
+{
 PR_FreeLibraryName
 (
 nspr_name
 )
 ;
+}
 }
 {
 if
@@ -1205,12 +1217,14 @@ index
 >
 0
 )
+{
 PrintAddress
 (
 &
 address
 )
 ;
+}
 else
 if
 (

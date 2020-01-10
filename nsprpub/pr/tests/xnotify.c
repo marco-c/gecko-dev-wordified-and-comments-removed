@@ -199,6 +199,7 @@ PR_FAILURE
 =
 rv
 )
+{
 PL_FPrintError
 (
 err
@@ -206,7 +207,9 @@ err
 "
 )
 ;
+}
 else
+{
 PR_fprintf
 (
 err
@@ -216,6 +219,7 @@ n
 "
 )
 ;
+}
 PR_Unlock
 (
 ml
@@ -424,6 +428,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -435,7 +440,9 @@ o1
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -448,6 +455,7 @@ o1
 rv
 )
 ;
+}
 rv
 =
 PR_CNotify
@@ -466,6 +474,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -476,7 +485,9 @@ o1
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -489,6 +500,7 @@ failed
 rv
 )
 ;
+}
 PR_CExitMonitor
 (
 &
@@ -566,6 +578,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -577,7 +590,9 @@ o2
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -590,6 +605,7 @@ o2
 rv
 )
 ;
+}
 rv
 =
 PR_CNotify
@@ -789,6 +805,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -800,7 +817,9 @@ o1
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -813,6 +832,7 @@ failed
 rv
 )
 ;
+}
 PR_CExitMonitor
 (
 &
@@ -907,6 +927,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -918,7 +939,9 @@ o2
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -931,6 +954,7 @@ failed
 rv
 )
 ;
+}
 PR_CExitMonitor
 (
 &
@@ -1021,6 +1045,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -1032,7 +1057,9 @@ o1
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -1045,6 +1072,7 @@ o1
 rv
 )
 ;
+}
 rv
 =
 PR_Notify
@@ -1062,6 +1090,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -1072,7 +1101,9 @@ o1
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -1085,6 +1116,7 @@ failed
 rv
 )
 ;
+}
 PR_ExitMonitor
 (
 shared
@@ -1159,6 +1191,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -1170,7 +1203,9 @@ o2
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -1183,6 +1218,7 @@ o2
 rv
 )
 ;
+}
 rv
 =
 PR_Notify
@@ -1393,6 +1429,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -1404,7 +1441,9 @@ o1
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -1417,6 +1456,7 @@ failed
 rv
 )
 ;
+}
 PR_ExitMonitor
 (
 sharedM
@@ -1508,6 +1548,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -1519,7 +1560,9 @@ o2
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -1532,6 +1575,7 @@ failed
 rv
 )
 ;
+}
 PR_ExitMonitor
 (
 sharedM
@@ -1635,6 +1679,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -1646,7 +1691,9 @@ o1
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -1659,6 +1706,7 @@ o1
 rv
 )
 ;
+}
 rv
 =
 PR_NotifyCondVar
@@ -1676,6 +1724,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -1686,7 +1735,9 @@ o1
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -1699,6 +1750,7 @@ failed
 rv
 )
 ;
+}
 PR_Unlock
 (
 shared
@@ -1773,6 +1825,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -1784,7 +1837,9 @@ o2
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -1797,6 +1852,7 @@ o2
 rv
 )
 ;
+}
 rv
 =
 PR_NotifyCondVar
@@ -2029,6 +2085,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -2040,7 +2097,9 @@ o1
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -2053,6 +2112,7 @@ failed
 rv
 )
 ;
+}
 PR_Unlock
 (
 sharedL
@@ -2144,6 +2204,7 @@ PR_SUCCESS
 =
 rv
 )
+{
 LogNow
 (
 "
@@ -2155,7 +2216,9 @@ o2
 rv
 )
 ;
+}
 else
+{
 LogNow
 (
 "
@@ -2168,6 +2231,7 @@ failed
 rv
 )
 ;
+}
 PR_Unlock
 (
 sharedL
@@ -2289,8 +2353,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -2370,26 +2436,32 @@ if
 (
 locks
 )
+{
 T1Lock
 (
 )
 ;
+}
 if
 (
 monitors
 )
+{
 T1Mon
 (
 )
 ;
+}
 if
 (
 cmonitors
 )
+{
 T1CMon
 (
 )
 ;
+}
 PR_DestroyLock
 (
 ml

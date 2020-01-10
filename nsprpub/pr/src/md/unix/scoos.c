@@ -191,11 +191,13 @@ tmpfile
 =
 NULL
 )
+{
 PR_ASSERT
 (
 0
 )
 ;
+}
 return
 ;
 }

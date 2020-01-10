@@ -621,6 +621,7 @@ char
 =
 a
 )
+{
 return
 (
 (
@@ -639,6 +640,7 @@ b
 -
 1
 ;
+}
 if
 (
 (
@@ -651,9 +653,11 @@ char
 =
 b
 )
+{
 return
 1
 ;
+}
 while
 (
 (
@@ -774,6 +778,7 @@ char
 =
 a
 )
+{
 return
 (
 (
@@ -792,6 +797,7 @@ b
 -
 1
 ;
+}
 if
 (
 (
@@ -804,9 +810,11 @@ char
 =
 b
 )
+{
 return
 1
 ;
+}
 while
 (
 max
@@ -864,12 +872,14 @@ if
 =
 max
 )
+{
 return
 (
 PRIntn
 )
 0
 ;
+}
 return
 (
 PRIntn
@@ -936,6 +946,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -943,6 +954,7 @@ char
 )
 0
 ;
+}
 if
 (
 (
@@ -968,6 +980,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -975,6 +988,7 @@ char
 )
 0
 ;
+}
 ll
 =
 strlen
@@ -1004,6 +1018,7 @@ little
 ll
 )
 )
+{
 return
 (
 char
@@ -1011,6 +1026,7 @@ char
 )
 big
 ;
+}
 return
 (
 char
@@ -1072,6 +1088,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -1079,6 +1096,7 @@ char
 )
 0
 ;
+}
 if
 (
 (
@@ -1104,6 +1122,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -1111,6 +1130,7 @@ char
 )
 0
 ;
+}
 bl
 =
 strlen
@@ -1131,6 +1151,7 @@ bl
 <
 ll
 )
+{
 return
 (
 char
@@ -1138,6 +1159,7 @@ char
 )
 0
 ;
+}
 p
 =
 &
@@ -1172,6 +1194,7 @@ little
 ll
 )
 )
+{
 return
 (
 char
@@ -1179,6 +1202,7 @@ char
 )
 p
 ;
+}
 return
 (
 char
@@ -1236,6 +1260,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -1243,6 +1268,7 @@ char
 )
 0
 ;
+}
 if
 (
 (
@@ -1268,6 +1294,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -1275,6 +1302,7 @@ char
 )
 0
 ;
+}
 ll
 =
 strlen
@@ -1288,6 +1316,7 @@ ll
 >
 max
 )
+{
 return
 (
 char
@@ -1295,6 +1324,7 @@ char
 )
 0
 ;
+}
 max
 -
 =
@@ -1332,6 +1362,7 @@ little
 ll
 )
 )
+{
 return
 (
 char
@@ -1339,6 +1370,7 @@ char
 )
 big
 ;
+}
 return
 (
 char
@@ -1401,6 +1433,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -1408,6 +1441,7 @@ char
 )
 0
 ;
+}
 if
 (
 (
@@ -1433,6 +1467,7 @@ char
 little
 )
 )
+{
 return
 (
 char
@@ -1440,6 +1475,7 @@ char
 )
 0
 ;
+}
 ll
 =
 strlen
@@ -1478,6 +1514,7 @@ p
 <
 big
 )
+{
 return
 (
 char
@@ -1485,6 +1522,7 @@ char
 )
 0
 ;
+}
 for
 (
 ;
@@ -1509,6 +1547,7 @@ little
 ll
 )
 )
+{
 return
 (
 char
@@ -1516,6 +1555,7 @@ char
 )
 p
 ;
+}
 return
 (
 char

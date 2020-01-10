@@ -78,6 +78,7 @@ him
 >
 execution
 )
+{
 (
 void
 )
@@ -86,6 +87,7 @@ PR_Sleep
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 him
 -
 >
@@ -106,9 +108,11 @@ him
 identity
 )
 )
+{
 delete
 him
 ;
+}
 }
 RCThread
 :
@@ -329,6 +333,7 @@ PR_INVALID_STATE_ERROR
 ;
 }
 else
+{
 rv
 =
 PR_JoinThread
@@ -336,6 +341,7 @@ PR_JoinThread
 identity
 )
 ;
+}
 if
 (
 PR_SUCCESS
@@ -343,9 +349,11 @@ PR_SUCCESS
 =
 rv
 )
+{
 delete
 this
 ;
+}
 return
 rv
 ;
@@ -384,6 +392,7 @@ PR_INVALID_STATE_ERROR
 ;
 }
 else
+{
 rv
 =
 PR_Interrupt
@@ -391,6 +400,7 @@ PR_Interrupt
 identity
 )
 ;
+}
 return
 rv
 ;
@@ -726,9 +736,11 @@ PR_GetCurrentThread
 ;
 }
 else
+{
 delete
 me
 ;
+}
 }
 return
 primordial

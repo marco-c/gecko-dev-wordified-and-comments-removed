@@ -362,8 +362,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -488,6 +490,7 @@ if
 (
 debug
 )
+{
 PrintRand
 (
 buf
@@ -495,10 +498,12 @@ rSize
 )
 ;
 }
+}
 if
 (
 debug
 )
+{
 printf
 (
 "
@@ -520,6 +525,7 @@ PASS
 "
 )
 ;
+}
 return
 (
 (

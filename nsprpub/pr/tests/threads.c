@@ -540,8 +540,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -614,10 +616,12 @@ if
 =
 count
 )
+{
 count
 =
 50
 ;
+}
 if
 (
 0
@@ -625,10 +629,12 @@ if
 =
 iterations
 )
+{
 iterations
 =
 10
 ;
+}
 if
 (
 debug_mode
@@ -751,6 +757,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -767,6 +774,7 @@ n
 "
 )
 ;
+}
 PR_SetThreadRecycleMode
 (
 1

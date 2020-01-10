@@ -267,6 +267,7 @@ ch
 =
 0
 )
+{
 *
 p
 +
@@ -279,6 +280,7 @@ ch
 1
 ]
 ;
+}
 }
 *
 p
@@ -415,9 +417,11 @@ if
 (
 msg
 )
+{
 return
 msg
 ;
+}
 }
 return
 (
@@ -789,9 +793,11 @@ if
 !
 new_et
 )
+{
 return
 errno
 ;
+}
 new_et
 -
 >

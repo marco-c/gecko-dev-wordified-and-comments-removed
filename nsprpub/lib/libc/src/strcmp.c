@@ -40,6 +40,7 @@ char
 =
 a
 )
+{
 return
 (
 (
@@ -58,6 +59,7 @@ b
 -
 1
 ;
+}
 if
 (
 (
@@ -70,9 +72,11 @@ char
 =
 b
 )
+{
 return
 1
 ;
+}
 return
 (
 PRIntn
@@ -114,6 +118,7 @@ char
 =
 a
 )
+{
 return
 (
 (
@@ -132,6 +137,7 @@ b
 -
 1
 ;
+}
 if
 (
 (
@@ -144,9 +150,11 @@ char
 =
 b
 )
+{
 return
 1
 ;
+}
 return
 (
 PRIntn

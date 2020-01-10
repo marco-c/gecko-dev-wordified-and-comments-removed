@@ -33,6 +33,7 @@ if
 (
 broadcast
 )
+{
 mon
 -
 >
@@ -41,6 +42,7 @@ notifyTimes
 -
 1
 ;
+}
 else
 if
 (
@@ -53,6 +55,7 @@ notifyTimes
 -
 1
 )
+{
 mon
 -
 >
@@ -61,6 +64,7 @@ notifyTimes
 =
 1
 ;
+}
 }
 static
 void
@@ -167,10 +171,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 mon
 =
 PR_NEWZAP
@@ -222,9 +228,11 @@ rv
 =
 PR_SUCCESS
 )
+{
 goto
 error1
 ;
+}
 mon
 -
 >
@@ -263,9 +271,11 @@ rv
 =
 PR_SUCCESS
 )
+{
 goto
 error2
 ;
+}
 rv
 =
 _PR_InitCondVar
@@ -297,9 +307,11 @@ rv
 =
 PR_SUCCESS
 )
+{
 goto
 error3
 ;
+}
 mon
 -
 >
@@ -382,6 +394,7 @@ if
 (
 mon
 )
+{
 mon
 -
 >
@@ -389,6 +402,7 @@ name
 =
 name
 ;
+}
 return
 mon
 ;
@@ -523,9 +537,11 @@ owner
 =
 me
 )
+{
 goto
 done
 ;
+}
 while
 (
 mon
@@ -678,9 +694,11 @@ owner
 =
 me
 )
+{
 goto
 done
 ;
+}
 rv
 =
 PR_Unlock
@@ -1016,6 +1034,7 @@ owner
 =
 me
 )
+{
 count
 =
 mon
@@ -1023,6 +1042,7 @@ mon
 >
 entryCount
 ;
+}
 rv
 =
 PR_Unlock

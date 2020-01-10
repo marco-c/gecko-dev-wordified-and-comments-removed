@@ -539,10 +539,12 @@ return
 }
 }
 else
+{
 bound
 =
 PR_TRUE
 ;
+}
 }
 ListNetAddr
 (
@@ -1052,6 +1054,7 @@ i
 +
 +
 )
+{
 cltBuf
 [
 i
@@ -1059,6 +1062,7 @@ i
 =
 i
 ;
+}
 while
 (
 !
@@ -1196,10 +1200,12 @@ return
 }
 }
 else
+{
 bound
 =
 PR_TRUE
 ;
+}
 }
 ListNetAddr
 (
@@ -1304,15 +1310,19 @@ writeThisMany
 >
 UDP_DGRAM_SIZE
 )
+{
 numBytes
 =
 UDP_DGRAM_SIZE
 ;
+}
 else
+{
 numBytes
 =
 writeThisMany
 ;
+}
 writeThisMany
 -
 =
@@ -1609,8 +1619,10 @@ cltBufin
 E
 '
 )
+{
 continue
 ;
+}
 passed
 =
 PR_FALSE
@@ -1650,6 +1662,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -1658,6 +1671,7 @@ output
 "
 )
 ;
+}
 }
 DPRINTF
 (
@@ -1795,8 +1809,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1900,6 +1916,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -1915,6 +1932,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -1986,6 +2004,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -2001,6 +2020,7 @@ n
 "
 )
 ;
+}
 passed
 =
 PR_FALSE
@@ -2101,11 +2121,15 @@ if
 (
 passed
 )
+{
 return
 0
 ;
+}
 else
+{
 return
 1
 ;
+}
 }

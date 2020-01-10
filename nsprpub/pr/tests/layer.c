@@ -160,6 +160,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -185,6 +186,7 @@ layer
 stack
 )
 ;
+}
 PR_ASSERT
 (
 PR_SUCCESS
@@ -452,6 +454,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -477,6 +480,7 @@ popped
 stack
 )
 ;
+}
 popped
 -
 >
@@ -597,6 +601,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -612,6 +617,7 @@ n
 bytes_sent
 )
 ;
+}
 bytes_read
 =
 PR_Recv
@@ -629,6 +635,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -644,6 +651,7 @@ n
 bytes_read
 )
 ;
+}
 PR_ASSERT
 (
 bytes_read
@@ -659,6 +667,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -672,6 +681,7 @@ n
 "
 )
 ;
+}
 rv
 =
 PR_Shutdown
@@ -750,6 +760,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -762,6 +773,7 @@ n
 "
 )
 ;
+}
 do
 {
 bytes_read
@@ -792,6 +804,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -807,6 +820,7 @@ n
 bytes_read
 )
 ;
+}
 PR_ASSERT
 (
 bytes_read
@@ -831,6 +845,7 @@ verbosity
 >
 chatty
 )
+{
 PR_fprintf
 (
 logFile
@@ -846,6 +861,7 @@ n
 bytes_sent
 )
 ;
+}
 PR_ASSERT
 (
 bytes_read
@@ -870,6 +886,7 @@ verbosity
 >
 quiet
 )
+{
 PR_fprintf
 (
 logFile
@@ -885,6 +902,7 @@ n
 "
 )
 ;
+}
 rv
 =
 PR_Shutdown
@@ -1125,8 +1143,10 @@ rv
 =
 0
 )
+{
 break
 ;
+}
 if
 (
 verbosity
@@ -1359,8 +1379,10 @@ rv
 =
 0
 )
+{
 break
 ;
+}
 if
 (
 verbosity
@@ -1427,6 +1449,7 @@ PRIntn
 )
 silent
 )
+{
 verbage
 =
 (
@@ -1434,6 +1457,7 @@ PRIntn
 )
 silent
 ;
+}
 else
 if
 (
@@ -1444,6 +1468,7 @@ PRIntn
 )
 noisy
 )
+{
 verbage
 =
 (
@@ -1451,6 +1476,7 @@ PRIntn
 )
 noisy
 ;
+}
 return
 (
 Verbosity
@@ -1556,8 +1582,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -1589,6 +1617,7 @@ verbosity
 <
 noisy
 )
+{
 verbosity
 =
 ChangeVerbosity
@@ -1597,6 +1626,7 @@ verbosity
 1
 )
 ;
+}
 break
 ;
 case
@@ -1610,6 +1640,7 @@ verbosity
 >
 silent
 )
+{
 verbosity
 =
 ChangeVerbosity
@@ -1619,6 +1650,7 @@ verbosity
 1
 )
 ;
+}
 break
 ;
 case
@@ -1811,6 +1843,7 @@ verbosity
 >
 silent
 )
+{
 PR_fprintf
 (
 logFile
@@ -1825,6 +1858,7 @@ n
 "
 )
 ;
+}
 client
 =
 PR_NewTCPSocket
@@ -2020,6 +2054,7 @@ verbosity
 >
 silent
 )
+{
 PR_fprintf
 (
 logFile
@@ -2034,12 +2069,14 @@ n
 "
 )
 ;
+}
 if
 (
 verbosity
 >
 silent
 )
+{
 PR_fprintf
 (
 logFile
@@ -2052,6 +2089,7 @@ n
 "
 )
 ;
+}
 client
 =
 PR_NewTCPSocket
@@ -2492,6 +2530,7 @@ verbosity
 >
 silent
 )
+{
 PR_fprintf
 (
 logFile
@@ -2504,6 +2543,7 @@ n
 "
 )
 ;
+}
 }
 return
 0

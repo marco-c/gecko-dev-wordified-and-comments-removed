@@ -502,11 +502,13 @@ cv
 notify_pending
 )
 )
+{
 PR_DestroyCondVar
 (
 cv
 )
 ;
+}
 #
 endif
 }
@@ -529,11 +531,13 @@ post
 =
 prev
 )
+{
 PR_DELETE
 (
 prev
 )
 ;
+}
 }
 while
 (
@@ -566,10 +570,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 lock
 =
 PR_NEWZAP
@@ -925,9 +931,11 @@ owner
 self
 )
 )
+{
 return
 PR_FAILURE
 ;
+}
 lock
 -
 >
@@ -969,12 +977,14 @@ rv
 ;
 }
 else
+{
 pt_PostNotifies
 (
 lock
 PR_TRUE
 )
 ;
+}
 #
 if
 defined
@@ -1303,6 +1313,7 @@ if
 (
 broadcast
 )
+{
 notified
 -
 >
@@ -1316,6 +1327,7 @@ times
 -
 1
 ;
+}
 else
 if
 (
@@ -1333,6 +1345,7 @@ index
 .
 times
 )
+{
 notified
 -
 >
@@ -1346,6 +1359,7 @@ times
 =
 1
 ;
+}
 return
 ;
 }
@@ -1359,8 +1373,10 @@ length
 <
 PT_CV_NOTIFIED_LENGTH
 )
+{
 break
 ;
+}
 if
 (
 NULL
@@ -1371,6 +1387,7 @@ notified
 >
 link
 )
+{
 notified
 -
 >
@@ -1381,6 +1398,7 @@ PR_NEWZAP
 _PT_Notified
 )
 ;
+}
 notified
 =
 notified
@@ -1721,9 +1739,11 @@ _PT_THREAD_INTERRUPTED
 thred
 )
 )
+{
 goto
 aborted
 ;
+}
 thred
 -
 >
@@ -1746,6 +1766,7 @@ notified
 .
 length
 )
+{
 pt_PostNotifies
 (
 cvar
@@ -1755,6 +1776,7 @@ lock
 PR_FALSE
 )
 ;
+}
 cvar
 -
 >
@@ -1772,6 +1794,7 @@ timeout
 =
 PR_INTERVAL_NO_TIMEOUT
 )
+{
 rv
 =
 pthread_cond_wait
@@ -1791,7 +1814,9 @@ lock
 mutex
 )
 ;
+}
 else
+{
 rv
 =
 pt_TimedWait
@@ -1812,6 +1837,7 @@ mutex
 timeout
 )
 ;
+}
 PR_ASSERT
 (
 PR_FALSE
@@ -1878,9 +1904,11 @@ _PT_THREAD_INTERRUPTED
 thred
 )
 )
+{
 goto
 aborted
 ;
+}
 if
 (
 rv
@@ -2008,6 +2036,7 @@ if
 (
 broadcast
 )
+{
 mon
 -
 >
@@ -2016,6 +2045,7 @@ notifyTimes
 -
 1
 ;
+}
 else
 if
 (
@@ -2028,6 +2058,7 @@ mon
 >
 notifyTimes
 )
+{
 mon
 -
 >
@@ -2036,6 +2067,7 @@ notifyTimes
 =
 1
 ;
+}
 }
 static
 void
@@ -2143,10 +2175,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 mon
 =
 PR_NEWZAP
@@ -2198,9 +2232,11 @@ if
 =
 rv
 )
+{
 goto
 error1
 ;
+}
 _PT_PTHREAD_INVALIDATE_THR_HANDLE
 (
 mon
@@ -2235,9 +2271,11 @@ if
 =
 rv
 )
+{
 goto
 error2
 ;
+}
 rv
 =
 _PT_PTHREAD_COND_INIT
@@ -2264,9 +2302,11 @@ if
 =
 rv
 )
+{
 goto
 error3
 ;
+}
 mon
 -
 >
@@ -2361,6 +2401,7 @@ if
 (
 mon
 )
+{
 mon
 -
 >
@@ -2368,6 +2409,7 @@ name
 =
 name
 ;
+}
 return
 mon
 ;
@@ -2547,6 +2589,7 @@ owner
 self
 )
 )
+{
 count
 =
 mon
@@ -2554,6 +2597,7 @@ mon
 >
 entryCount
 ;
+}
 rv
 =
 pthread_mutex_unlock
@@ -2737,9 +2781,11 @@ owner
 self
 )
 )
+{
 goto
 done
 ;
+}
 while
 (
 mon
@@ -3046,6 +3092,7 @@ if
 (
 notifyTimes
 )
+{
 pt_PostNotifiesFromMonitor
 (
 &
@@ -3056,6 +3103,7 @@ waitCV
 notifyTimes
 )
 ;
+}
 rv
 =
 pthread_cond_signal
@@ -3247,6 +3295,7 @@ timeout
 =
 PR_INTERVAL_NO_TIMEOUT
 )
+{
 rv
 =
 pthread_cond_wait
@@ -3263,7 +3312,9 @@ mon
 lock
 )
 ;
+}
 else
+{
 rv
 =
 pt_TimedWait
@@ -3281,6 +3332,7 @@ lock
 timeout
 )
 ;
+}
 PR_ASSERT
 (
 0
@@ -3564,6 +3616,7 @@ PR_SUCCESS
 status
 )
 )
+{
 status
 =
 PR_WaitCondVar
@@ -3575,6 +3628,7 @@ cvar
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 if
 (
 PR_SUCCESS
@@ -3582,6 +3636,7 @@ PR_SUCCESS
 =
 status
 )
+{
 semaphore
 -
 >
@@ -3590,6 +3645,7 @@ count
 =
 1
 ;
+}
 PR_Unlock
 (
 semaphore
@@ -3692,10 +3748,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 if
 (
 unwarned
@@ -3897,11 +3955,13 @@ flags
 &
 PR_SEM_EXCL
 )
+{
 oflag
 |
 =
 O_EXCL
 ;
+}
 sem
 -
 >
@@ -4727,8 +4787,10 @@ sem_otime
 =
 0
 )
+{
 break
 ;
+}
 sleep
 (
 1
@@ -5287,10 +5349,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 cv
 =
 PR_NEW
@@ -5463,6 +5527,7 @@ timeout
 =
 PR_INTERVAL_NO_TIMEOUT
 )
+{
 rv
 =
 pthread_cond_wait
@@ -5479,7 +5544,9 @@ ml
 mutex
 )
 ;
+}
 else
+{
 rv
 =
 pt_TimedWait
@@ -5497,6 +5564,7 @@ mutex
 timeout
 )
 ;
+}
 if
 (
 rv

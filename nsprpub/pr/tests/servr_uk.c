@@ -163,6 +163,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -182,6 +183,7 @@ waiter
 state
 )
 ;
+}
 PR_Unlock
 (
 ServerStateCVLock
@@ -210,6 +212,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -229,6 +232,7 @@ waiter
 state
 )
 ;
+}
 while
 (
 !
@@ -238,12 +242,14 @@ ServerState
 state
 )
 )
+{
 PR_WaitCondVar
 (
 ServerStateCV
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 rv
 =
 ServerState
@@ -408,6 +414,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -424,6 +431,7 @@ n
 "
 )
 ;
+}
 sendBuf
 =
 (
@@ -449,6 +457,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -465,10 +474,12 @@ n
 "
 )
 ;
+}
 if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -482,6 +493,7 @@ n
 "
 )
 ;
+}
 while
 (
 1
@@ -518,6 +530,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -532,6 +545,7 @@ n
 "
 )
 ;
+}
 bytesRead
 =
 PR_AcceptRead
@@ -557,6 +571,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -575,6 +590,7 @@ n
 bytesRead
 )
 ;
+}
 continue
 ;
 }
@@ -582,6 +598,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -600,6 +617,7 @@ n
 bytesRead
 )
 ;
+}
 PR_AtomicIncrement
 (
 &
@@ -654,6 +672,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -670,6 +689,7 @@ workerThreads
 )
 ;
 }
+}
 else
 {
 PR_AtomicIncrement
@@ -682,6 +702,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -699,6 +720,7 @@ n
 workerThreads
 )
 ;
+}
 }
 }
 PR_Unlock
@@ -739,6 +761,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -757,6 +780,7 @@ n
 bytesRead
 )
 ;
+}
 continue
 ;
 }
@@ -764,6 +788,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -779,6 +804,7 @@ n
 bytesRead
 )
 ;
+}
 }
 bytesWritten
 =
@@ -834,6 +860,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -849,6 +876,7 @@ n
 bytesWritten
 )
 ;
+}
 }
 PR_Close
 (
@@ -902,6 +930,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -916,10 +945,13 @@ n
 "
 )
 ;
+}
 else
+{
 return
 NULL
 ;
+}
 }
 sockOpt
 .
@@ -975,10 +1007,12 @@ PR_GetOSError
 )
 ;
 else
+{
 failed_already
 =
 1
 ;
+}
 PR_Close
 (
 listenSocket
@@ -1070,10 +1104,12 @@ PR_GetOSError
 )
 ;
 else
+{
 failed_already
 =
 1
 ;
+}
 PR_Close
 (
 listenSocket
@@ -1099,6 +1135,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1114,11 +1151,14 @@ n
 "
 )
 ;
+}
 else
+{
 failed_already
 =
 1
 ;
+}
 PR_Close
 (
 listenSocket
@@ -1165,6 +1205,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1177,6 +1218,7 @@ n
 "
 )
 ;
+}
 PR_Close
 (
 listenSocket
@@ -1196,6 +1238,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -1210,6 +1253,7 @@ n
 "
 )
 ;
+}
 return
 listenSocket
 ;
@@ -1251,6 +1295,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -1262,6 +1307,7 @@ n
 "
 )
 ;
+}
 SetServerState
 (
 SERVER
@@ -1346,6 +1392,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1362,6 +1409,7 @@ n
 "
 )
 ;
+}
 recvBuf
 =
 (
@@ -1387,6 +1435,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1403,6 +1452,7 @@ n
 "
 )
 ;
+}
 memset
 (
 &
@@ -1466,6 +1516,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1473,10 +1524,12 @@ printf
 "
 )
 ;
+}
 if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -1492,6 +1545,7 @@ n
 numRequests
 )
 ;
+}
 clientSocket
 =
 PR_NewTCPSocket
@@ -1535,6 +1589,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -1546,6 +1601,7 @@ n
 "
 )
 ;
+}
 rv
 =
 PR_Connect
@@ -1566,6 +1622,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1578,6 +1635,7 @@ n
 "
 )
 ;
+}
 continue
 ;
 }
@@ -1585,6 +1643,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -1596,6 +1655,7 @@ n
 "
 )
 ;
+}
 rv
 =
 PR_Send
@@ -1619,6 +1679,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1636,6 +1697,7 @@ n
 rv
 )
 ;
+}
 PR_Close
 (
 clientSocket
@@ -1648,6 +1710,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -1663,6 +1726,7 @@ n
 rv
 )
 ;
+}
 bytesNeeded
 =
 _server_data
@@ -1732,6 +1796,7 @@ if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -1755,6 +1820,7 @@ bytesNeeded
 rv
 )
 ;
+}
 bytesNeeded
 -
 =
@@ -1868,6 +1934,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1885,11 +1952,13 @@ index
 )
 ;
 }
+}
 else
 if
 (
 debug_mode
 )
+{
 DPRINTF
 (
 "
@@ -1912,6 +1981,7 @@ _clients
 )
 ;
 }
+}
 PR_EnterMonitor
 (
 clientMonitor
@@ -1921,12 +1991,14 @@ while
 (
 numClients
 )
+{
 PR_Wait
 (
 clientMonitor
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+}
 PR_ExitMonitor
 (
 clientMonitor
@@ -1975,6 +2047,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -1988,6 +2061,7 @@ n
 "
 )
 ;
+}
 return
 ;
 }
@@ -2108,6 +2182,7 @@ if
 (
 debug_mode
 )
+{
 printf
 (
 "
@@ -2130,6 +2205,7 @@ d
 _iterations
 )
 ;
+}
 }
 int
 main
@@ -2181,8 +2257,10 @@ PL_OPT_BAD
 =
 os
 )
+{
 continue
 ;
+}
 switch
 (
 opt
@@ -2434,11 +2512,15 @@ if
 (
 failed_already
 )
+{
 return
 1
 ;
+}
 else
+{
 return
 0
 ;
+}
 }

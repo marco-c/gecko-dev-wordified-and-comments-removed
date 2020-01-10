@@ -393,6 +393,7 @@ index
 +
 +
 )
+{
 sz
 +
 =
@@ -403,6 +404,7 @@ index
 .
 iov_len
 ;
+}
 iov_cnt
 =
 iov_size
@@ -522,10 +524,12 @@ index
 =
 LOCAL_MAXIOV
 )
+{
 iov_copy
 =
 local_iov
 ;
+}
 else
 if
 (
@@ -680,11 +684,13 @@ iov_copy
 =
 local_iov
 )
+{
 PR_DELETE
 (
 iov_copy
 )
 ;
+}
 return
 count
 ;
@@ -709,10 +715,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 fd
 =
 PR_AllocFileDesc
@@ -759,11 +767,13 @@ AF_INET
 endif
 }
 else
+{
 _PR_MD_CLOSE_SOCKET
 (
 osfd
 )
 ;
+}
 return
 (
 fd
@@ -790,10 +800,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 fd
 =
 PR_AllocFileDesc
@@ -825,11 +837,13 @@ PR_TRUE
 ;
 }
 else
+{
 _PR_MD_CLOSE_SOCKET
 (
 osfd
 )
 ;
+}
 return
 (
 fd
@@ -865,10 +879,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 fd
 =
 _PR_Getfd
@@ -882,12 +898,14 @@ fd
 =
 NULL
 )
+{
 PR_SetError
 (
 PR_OUT_OF_MEMORY_ERROR
 0
 )
 ;
+}
 else
 {
 fd
@@ -1132,13 +1150,17 @@ rv
 =
 0
 )
+{
 return
 PR_SUCCESS
 ;
+}
 else
+{
 return
 PR_FAILURE
 ;
+}
 }
 static
 PRStatus
@@ -1924,9 +1946,11 @@ osfd
 -
 1
 )
+{
 return
 0
 ;
+}
 fd2
 =
 PR_AllocFileDesc
@@ -2106,6 +2130,7 @@ raw
 family
 )
 )
+{
 addr
 -
 >
@@ -2115,6 +2140,7 @@ family
 =
 PR_AF_INET6
 ;
+}
 #
 endif
 PR_ASSERT
@@ -2384,6 +2410,7 @@ raw
 .
 family
 )
+{
 addr
 -
 >
@@ -2393,6 +2420,7 @@ family
 =
 PR_AF_INET6
 ;
+}
 #
 endif
 #
@@ -4663,6 +4691,7 @@ raw
 family
 )
 )
+{
 addr
 -
 >
@@ -4672,6 +4701,7 @@ family
 =
 PR_AF_INET6
 ;
+}
 #
 endif
 return
@@ -4947,6 +4977,7 @@ raw
 .
 family
 )
+{
 *
 raddr
 -
@@ -4957,6 +4988,7 @@ family
 =
 PR_AF_INET6
 ;
+}
 #
 endif
 }
@@ -5229,6 +5261,7 @@ raw
 .
 family
 )
+{
 *
 raddr
 -
@@ -5239,6 +5272,7 @@ family
 =
 PR_AF_INET6
 ;
+}
 #
 endif
 #
@@ -5520,6 +5554,7 @@ raw
 .
 family
 )
+{
 *
 raddr
 -
@@ -5530,6 +5565,7 @@ family
 =
 PR_AF_INET6
 ;
+}
 #
 endif
 #
@@ -5904,6 +5940,7 @@ raw
 .
 family
 )
+{
 addr
 -
 >
@@ -5913,6 +5950,7 @@ family
 =
 PR_AF_INET6
 ;
+}
 #
 endif
 PR_ASSERT
@@ -6004,6 +6042,7 @@ raw
 .
 family
 )
+{
 addr
 -
 >
@@ -6013,6 +6052,7 @@ family
 =
 PR_AF_INET6
 ;
+}
 #
 endif
 PR_ASSERT
@@ -6086,6 +6126,7 @@ secret
 alreadyConnected
 )
 {
+*
 out_flags
 =
 PR_POLL_WRITE
@@ -6591,10 +6632,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 if
 (
 PR_AF_INET
@@ -6652,6 +6695,7 @@ PR_AF_INET6
 =
 domain
 )
+{
 domain
 =
 _pr_ipv6_is_present
@@ -6662,6 +6706,7 @@ AF_INET6
 :
 AF_INET
 ;
+}
 #
 elif
 defined
@@ -6675,10 +6720,12 @@ PR_AF_INET6
 =
 domain
 )
+{
 domain
 =
 AF_INET6
 ;
+}
 #
 else
 if
@@ -6688,10 +6735,12 @@ PR_AF_INET6
 =
 domain
 )
+{
 domain
 =
 AF_INET
 ;
+}
 #
 endif
 osfd
@@ -6723,6 +6772,7 @@ type
 =
 SOCK_STREAM
 )
+{
 fd
 =
 PR_AllocFileDesc
@@ -6733,7 +6783,9 @@ PR_GetTCPMethods
 )
 )
 ;
+}
 else
+{
 fd
 =
 PR_AllocFileDesc
@@ -6744,6 +6796,7 @@ PR_GetUDPMethods
 )
 )
 ;
+}
 if
 (
 fd
@@ -6831,11 +6884,13 @@ NULL
 endif
 }
 else
+{
 _PR_MD_CLOSE_SOCKET
 (
 osfd
 )
 ;
+}
 return
 fd
 ;
@@ -6956,10 +7011,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 rv
 =
 _PR_MD_SOCKETPAIR
@@ -7138,10 +7195,12 @@ if
 !
 _pr_initialized
 )
+{
 _PR_ImplicitInitialization
 (
 )
 ;
+}
 osfd
 [
 0
@@ -7994,6 +8053,7 @@ if
 (
 fd
 )
+{
 fd
 -
 >
@@ -8006,6 +8066,7 @@ osfd
 =
 handle
 ;
+}
 }
 PR_IMPLEMENT
 (
@@ -8472,9 +8533,11 @@ NULL
 =
 set
 )
+{
 return
 poll
 ;
+}
 for
 (
 fsidx
@@ -8554,9 +8617,11 @@ NULL
 =
 poll
 )
+{
 goto
 out_of_memory
 ;
+}
 memset
 (
 poll
@@ -8748,9 +8813,11 @@ NULL
 =
 poll
 )
+{
 goto
 out_of_memory
 ;
+}
 memset
 (
 poll
@@ -8884,11 +8951,13 @@ NULL
 =
 polldesc
 )
+{
 PR_DELETE
 (
 polldesc
 )
 ;
+}
 return
 NULL
 ;
@@ -8944,6 +9013,7 @@ if
 (
 warning
 )
+{
 warning
 =
 _PR_Obsolete
@@ -8960,6 +9030,7 @@ PR_Poll
 "
 )
 ;
+}
 npds
 =
 0
@@ -8992,6 +9063,7 @@ npds
 0
 )
 )
+{
 npds
 =
 pr_rd
@@ -9004,6 +9076,7 @@ pr_rd
 >
 nsize
 ;
+}
 if
 (
 (
@@ -9032,6 +9105,7 @@ npds
 0
 )
 )
+{
 npds
 =
 pr_wr
@@ -9044,6 +9118,7 @@ pr_wr
 >
 nsize
 ;
+}
 if
 (
 (
@@ -9072,6 +9147,7 @@ npds
 0
 )
 )
+{
 npds
 =
 pr_ex
@@ -9084,6 +9160,7 @@ pr_ex
 >
 nsize
 ;
+}
 if
 (
 0
@@ -9127,9 +9204,11 @@ NULL
 =
 poll
 )
+{
 goto
 out_of_memory
 ;
+}
 poll
 [
 npds
@@ -9164,9 +9243,11 @@ NULL
 =
 poll
 )
+{
 goto
 out_of_memory
 ;
+}
 poll
 =
 _pr_setfd
@@ -9183,9 +9264,11 @@ NULL
 =
 poll
 )
+{
 goto
 out_of_memory
 ;
+}
 poll
 =
 _pr_setfd
@@ -9202,9 +9285,11 @@ NULL
 =
 poll
 )
+{
 goto
 out_of_memory
 ;
+}
 unused
 =
 0
@@ -9273,6 +9358,7 @@ NULL
 =
 pr_rd
 )
+{
 pr_rd
 -
 >
@@ -9285,6 +9371,7 @@ hsize
 =
 0
 ;
+}
 if
 (
 NULL
@@ -9292,6 +9379,7 @@ NULL
 =
 pr_wr
 )
+{
 pr_wr
 -
 >
@@ -9304,6 +9392,7 @@ hsize
 =
 0
 ;
+}
 if
 (
 NULL
@@ -9311,6 +9400,7 @@ NULL
 =
 pr_ex
 )
+{
 pr_ex
 -
 >
@@ -9323,6 +9413,7 @@ hsize
 =
 0
 ;
+}
 for
 (
 copy
@@ -9385,6 +9476,7 @@ NULL
 =
 pr_rd
 )
+{
 pr_rd
 -
 >
@@ -9403,6 +9495,7 @@ copy
 >
 fd
 ;
+}
 if
 (
 copy
@@ -9419,6 +9512,7 @@ NULL
 =
 pr_wr
 )
+{
 pr_wr
 -
 >
@@ -9437,6 +9531,7 @@ copy
 >
 fd
 ;
+}
 if
 (
 copy
@@ -9453,6 +9548,7 @@ NULL
 =
 pr_ex
 )
+{
 pr_ex
 -
 >
@@ -9471,6 +9567,7 @@ copy
 >
 fd
 ;
+}
 }
 }
 PR_DELETE
