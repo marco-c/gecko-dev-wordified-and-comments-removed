@@ -98,6 +98,16 @@ constructor
 (
 )
 ;
+}
+;
+XPathEvaluator
+includes
+XPathEvaluatorMixin
+;
+interface
+mixin
+XPathEvaluatorMixin
+{
 [
 NewObject
 Throws

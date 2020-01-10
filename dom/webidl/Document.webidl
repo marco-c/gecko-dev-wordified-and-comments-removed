@@ -4387,8 +4387,8 @@ l10n
 }
 ;
 Document
-implements
-XPathEvaluator
+includes
+XPathEvaluatorMixin
 ;
 Document
 includes
