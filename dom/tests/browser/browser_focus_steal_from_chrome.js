@@ -1161,14 +1161,7 @@ process
 )
 ;
 }
-document
-.
-getElementById
-(
-"
-urlbar
-"
-)
+gURLBar
 .
 focus
 (
