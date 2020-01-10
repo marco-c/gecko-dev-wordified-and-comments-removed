@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+var
+x
+=
+{
+default
+}
+=
+{
+default
+:
+42
+}
+;

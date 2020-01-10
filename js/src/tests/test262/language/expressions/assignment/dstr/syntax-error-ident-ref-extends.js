@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+var
+x
+=
+{
+extends
+}
+=
+{
+extends
+:
+42
+}
+;
