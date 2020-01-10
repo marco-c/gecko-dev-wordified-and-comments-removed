@@ -435,7 +435,7 @@ center
 id
 =
 "
-iconWrapper
+colorWrapper
 "
 >
 <
@@ -443,12 +443,12 @@ label
 id
 =
 "
-iconLabel
+colorLabel
 "
 control
 =
 "
-icon
+color
 "
 data
 -
@@ -459,7 +459,7 @@ id
 "
 containers
 -
-icon
+color
 -
 label
 "
@@ -488,7 +488,7 @@ center
 id
 =
 "
-colorWrapper
+iconWrapper
 "
 >
 <
@@ -496,12 +496,12 @@ label
 id
 =
 "
-colorLabel
+iconLabel
 "
 control
 =
 "
-color
+icon
 "
 data
 -
@@ -512,7 +512,7 @@ id
 "
 containers
 -
-color
+icon
 -
 label
 "
