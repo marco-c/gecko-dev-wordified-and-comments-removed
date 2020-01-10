@@ -6029,7 +6029,7 @@ JSAtom
 *
 name
 =
-GetSelfHostedFunctionName
+GetClonedSelfHostedFunctionName
 (
 this
 )
@@ -8379,7 +8379,7 @@ RootedAtom
 funAtom
 (
 cx
-GetSelfHostedFunctionName
+GetClonedSelfHostedFunctionName
 (
 fun
 )
@@ -8668,7 +8668,7 @@ isExtended
 ;
 MOZ_ASSERT
 (
-GetSelfHostedFunctionName
+GetClonedSelfHostedFunctionName
 (
 this
 )
