@@ -168,6 +168,7 @@ SurfaceDescriptorMacIOSurface
 aDescriptor
 )
 ;
+virtual
 void
 SetTextureSourceProvider
 (
@@ -193,6 +194,7 @@ GetFormat
 const
 override
 ;
+virtual
 bool
 BindTextureSource
 (

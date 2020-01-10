@@ -756,11 +756,6 @@ gfx
 :
 YUVColorSpace
 aYUVColorSpace
-gfx
-:
-:
-ColorRange
-aColorRange
 TextureFlags
 aTextureFlags
 )
@@ -907,7 +902,6 @@ crOffset
 aStereoMode
 aColorDepth
 aYUVColorSpace
-aColorRange
 hasIntermediateBuffer
 )
 ;

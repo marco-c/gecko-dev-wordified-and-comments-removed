@@ -422,13 +422,6 @@ gfx
 YUVColorSpace
 mColorSpace
 ;
-const
-gfx
-:
-:
-ColorRange
-mColorRange
-;
 MediaResult
 InitializeSession
 (

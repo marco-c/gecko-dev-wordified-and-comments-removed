@@ -2419,11 +2419,6 @@ aColorSpace
 wr
 :
 :
-WrColorRange
-aColorRange
-wr
-:
-:
 ImageRendering
 aFilter
 )
@@ -2470,11 +2465,6 @@ aColorSpace
 wr
 :
 :
-WrColorRange
-aColorRange
-wr
-:
-:
 ImageRendering
 aFilter
 )
@@ -2513,11 +2503,6 @@ wr
 :
 WrYuvColorSpace
 aColorSpace
-wr
-:
-:
-WrColorRange
-aColorRange
 wr
 :
 :

@@ -535,9 +535,6 @@ mColorDepth
 mData
 .
 mYUVColorSpace
-mData
-.
-mColorRange
 mTextureFlags
 )
 ;
