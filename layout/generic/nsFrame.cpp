@@ -3887,6 +3887,10 @@ if
 IsPlaceholderFrame
 (
 )
+&
+&
+!
+aPrevInFlow
 )
 {
 UpdateVisibleDescendantsState
