@@ -965,7 +965,7 @@ gfx
 VRSystemState
 mEncodedState
 ;
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
