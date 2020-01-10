@@ -16,7 +16,9 @@ enzyme
 )
 ;
 const
-React
+{
+createFactory
+}
 =
 require
 (
@@ -55,8 +57,6 @@ constants
 const
 WorkerList
 =
-React
-.
 createFactory
 (
 require
@@ -119,10 +119,6 @@ shallow
 WorkerList
 (
 {
-client
-:
-{
-}
 workers
 :
 SINGLE_WORKER_DEFAULT_DOMAIN_LIST
@@ -171,10 +167,6 @@ shallow
 WorkerList
 (
 {
-client
-:
-{
-}
 workers
 :
 MULTIPLE_WORKER_LIST

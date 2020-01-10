@@ -157,13 +157,6 @@ PropTypes
 bool
 .
 isRequired
-client
-:
-PropTypes
-.
-object
-.
-isRequired
 workers
 :
 PropTypes
@@ -181,7 +174,6 @@ render
 const
 {
 canDebugWorkers
-client
 workers
 }
 =
@@ -255,7 +247,6 @@ key
 worker
 .
 id
-client
 isDebugEnabled
 :
 canDebugWorkers
