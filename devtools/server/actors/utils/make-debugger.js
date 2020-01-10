@@ -259,8 +259,9 @@ e
 reportException
 (
 "
-Debugger
-Hook
+DBG
+-
+SERVER
 "
 e
 )
