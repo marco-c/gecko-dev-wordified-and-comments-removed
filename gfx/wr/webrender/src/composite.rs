@@ -608,6 +608,9 @@ derive
 Debug
 Copy
 Clone
+Hash
+Eq
+PartialEq
 )
 ]
 #
