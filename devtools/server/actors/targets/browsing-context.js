@@ -3490,12 +3490,6 @@ document
 true
 )
 ;
-const
-promises
-=
-[
-]
-;
 for
 (
 const
@@ -3517,10 +3511,6 @@ sheet
 continue
 ;
 }
-promises
-.
-push
-(
 getSheetText
 (
 sheet
@@ -3545,7 +3535,6 @@ false
 )
 ;
 }
-)
 )
 ;
 }
