@@ -192,6 +192,13 @@ SpecialPowersObserverAPI
 .
 js
 '
+'
+content
+/
+WrapPrivileged
+.
+jsm
+'
 ]
 with
 Files
