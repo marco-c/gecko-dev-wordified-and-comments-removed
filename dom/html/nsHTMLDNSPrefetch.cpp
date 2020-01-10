@@ -1786,6 +1786,8 @@ URI_IS_LOCAL_RESOURCE
 isLocalResource
 )
 ;
+isHttps
+=
 hrefURI
 -
 >
@@ -1794,8 +1796,6 @@ SchemeIs
 "
 https
 "
-&
-isHttps
 )
 ;
 }
