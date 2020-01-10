@@ -8897,8 +8897,6 @@ webrender
 )
 :
             
-extra_options
-=
 test
 [
 '
@@ -8916,8 +8914,8 @@ options
 [
 ]
 )
-            
-extra_options
+\
+                              
 .
 append
 (
@@ -8927,27 +8925,6 @@ append
 enable
 -
 webrender
-"
-)
-            
-extra_options
-.
-append
-(
-"
--
--
-setpref
-=
-layers
-.
-d3d11
-.
-enable
--
-blacklist
-=
-false
 "
 )
         
