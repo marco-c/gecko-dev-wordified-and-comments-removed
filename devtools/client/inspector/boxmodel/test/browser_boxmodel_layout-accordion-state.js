@@ -609,10 +609,14 @@ panel
 "
 )
 ;
-ok
+is
 (
-!
 bContent
+.
+children
+.
+length
+0
 "
 The
 box

@@ -156,6 +156,10 @@ classList
 contains
 (
 "
+flex
+-
+accordion
+-
 container
 "
 )
@@ -287,6 +291,10 @@ classList
 contains
 (
 "
+flex
+-
+accordion
+-
 container
 "
 )
@@ -313,6 +321,10 @@ classList
 contains
 (
 "
+flex
+-
+accordion
+-
 item
 "
 )
@@ -503,6 +515,10 @@ classList
 contains
 (
 "
+flex
+-
+accordion
+-
 item
 "
 )
@@ -529,6 +545,10 @@ classList
 contains
 (
 "
+flex
+-
+accordion
+-
 container
 "
 )

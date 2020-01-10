@@ -221,6 +221,7 @@ item
 .
 onToggled
 (
+isOpened
 )
 ;
 }
@@ -445,11 +446,6 @@ item
 header
 )
 )
-isCreated
-|
-|
-isOpened
-?
 div
 (
 {
@@ -474,6 +470,11 @@ none
 "
 }
 }
+isCreated
+|
+|
+isOpened
+?
 createElement
 (
 item
@@ -487,9 +488,9 @@ componentProps
 {
 }
 )
-)
 :
 null
+)
 )
 ;
 }
