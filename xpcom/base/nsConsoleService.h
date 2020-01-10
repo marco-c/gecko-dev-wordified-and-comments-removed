@@ -280,17 +280,6 @@ nsConsoleService
 (
 )
 ;
-nsresult
-MaybeForwardScriptError
-(
-nsIConsoleMessage
-*
-aMessage
-bool
-*
-sent
-)
-;
 void
 ClearMessagesForWindowID
 (
