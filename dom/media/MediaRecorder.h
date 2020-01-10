@@ -222,7 +222,7 @@ aGlobal
 const
 nsAString
 &
-aType
+aMIMEType
 )
 ;
 static
@@ -232,7 +232,7 @@ IsTypeSupported
 const
 nsAString
 &
-aType
+aMIMEType
 )
 ;
 static
