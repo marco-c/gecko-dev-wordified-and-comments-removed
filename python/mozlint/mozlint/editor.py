@@ -300,6 +300,11 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+'
+w
+'
 )
 as
 fh
@@ -368,7 +373,7 @@ result
 .
 issues
 .
-iteritems
+items
 (
 )
 :

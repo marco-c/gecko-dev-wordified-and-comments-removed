@@ -629,12 +629,15 @@ base
         
 paths
 =
+list
+(
 map
 (
 mozpath
 .
 abspath
 paths
+)
 )
         
 base
@@ -996,14 +999,19 @@ path
     
 include
 =
+list
+(
 map
 (
 normalize
 include
 )
+)
     
 exclude
 =
+list
+(
 map
 (
 normalize
@@ -1011,6 +1019,7 @@ exclude
 or
 [
 ]
+)
 )
     
 excludepaths
@@ -1059,10 +1068,13 @@ set
 for
 path
 in
+list
+(
 map
 (
 normalize
 paths
+)
 )
 :
         
@@ -1757,6 +1769,8 @@ path
     
 exclude
 =
+list
+(
 map
 (
 normalize
@@ -1769,6 +1783,7 @@ exclude
 '
 [
 ]
+)
 )
 )
     

@@ -55,6 +55,10 @@ stderr
 subprocess
 .
 STDOUT
+                                
+universal_newlines
+=
+True
 )
         
 return

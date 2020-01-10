@@ -132,12 +132,15 @@ set
     
 path
 =
+list
+(
 result
 .
 issues
 .
 keys
 (
+)
 )
 [
 0
@@ -1697,9 +1700,13 @@ stderr
 subprocess
 .
 STDOUT
+                            
 cwd
 =
 here
+universal_newlines
+=
+True
 )
     
 time
@@ -1738,6 +1745,14 @@ all
 files
 were
 linted
+'
+in
+out
+    
+assert
+'
+2
+problems
 '
 in
 out

@@ -73,6 +73,8 @@ paths
 =
 set
 (
+list
+(
 result
 .
 issues
@@ -80,13 +82,17 @@ issues
 keys
 (
 )
+)
 +
+list
+(
 result
 .
 suppressed_warnings
 .
 keys
 (
+)
 )
 )
         
