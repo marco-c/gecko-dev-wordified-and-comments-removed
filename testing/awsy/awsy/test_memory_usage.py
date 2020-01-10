@@ -595,12 +595,6 @@ playback_pageset_manifest
 tp6_pageset_manifest
             
 '
-playback_upstream_cert
-'
-:
-False
-            
-'
 platform
 '
 :
