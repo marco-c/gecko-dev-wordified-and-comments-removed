@@ -86,7 +86,7 @@ PLAYER_FEATURES
 chrome
 titlebar
 =
-no
+yes
 alwaysontop
 lockaspectratio
 resizable
