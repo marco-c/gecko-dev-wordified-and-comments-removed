@@ -955,7 +955,7 @@ mNodeInfo
 )
 ;
 }
-uint32_t
+size_t
 i
 ;
 for
@@ -969,7 +969,11 @@ i
 aPrototype
 -
 >
-mNumAttributes
+mAttributes
+.
+Length
+(
+)
 ;
 +
 +
