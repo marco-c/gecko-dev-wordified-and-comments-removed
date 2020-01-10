@@ -320,6 +320,9 @@ true
 hasThreadFront
 :
 true
+watchpoints
+:
+true
 }
 sayHello
 :
