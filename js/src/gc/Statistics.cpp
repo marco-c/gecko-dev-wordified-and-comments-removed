@@ -6041,7 +6041,7 @@ gc
 .
 heapSize
 .
-gcBytes
+bytes
 (
 )
 ;
@@ -6131,9 +6131,9 @@ preCollectedHeapBytes
 zone
 -
 >
-zoneSize
+gcHeapSize
 .
-gcBytes
+bytes
 (
 )
 ;
@@ -6168,9 +6168,9 @@ preCollectedHeapBytes
 mergedZone
 -
 >
-zoneSize
+gcHeapSize
 .
-gcBytes
+bytes
 (
 )
 ;
@@ -6192,7 +6192,7 @@ gc
 .
 heapSize
 .
-gcBytes
+bytes
 (
 )
 ;
@@ -6704,7 +6704,7 @@ bytesSurvived
 zone
 -
 >
-zoneSize
+gcHeapSize
 .
 retainedBytes
 (

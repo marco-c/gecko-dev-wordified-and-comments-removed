@@ -4970,7 +4970,7 @@ gc
 .
 heapSize
 .
-gcBytes
+bytes
 (
 )
 >
