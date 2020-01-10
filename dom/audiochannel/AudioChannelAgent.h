@@ -66,6 +66,11 @@ AudioChannelAgent
 )
 ;
 void
+PullInitialUpdate
+(
+)
+;
+void
 WindowVolumeChanged
 (
 )
