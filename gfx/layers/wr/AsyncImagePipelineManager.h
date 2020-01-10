@@ -592,14 +592,6 @@ RenderRoot
 aRenderRoot
 )
 ;
-wr
-:
-:
-ExternalImageId
-GetNextExternalImageId
-(
-)
-;
 private
 :
 void
