@@ -234,7 +234,7 @@ PropTypes
 func
 .
 isRequired
-sidebarVisible
+visible
 :
 PropTypes
 .
@@ -244,6 +244,11 @@ grip
 PropTypes
 .
 object
+onResized
+:
+PropTypes
+.
+func
 }
 ;
 }
@@ -279,13 +284,13 @@ nextProps
 const
 {
 grip
-sidebarVisible
+visible
 }
 =
 nextProps
 ;
 return
-sidebarVisible
+visible
 !
 =
 =
@@ -293,7 +298,7 @@ this
 .
 props
 .
-sidebarVisible
+visible
 |
 |
 grip
@@ -336,7 +341,7 @@ this
 .
 props
 .
-sidebarVisible
+visible
 )
 {
 return
@@ -347,6 +352,7 @@ const
 {
 grip
 serviceContainer
+onResized
 }
 =
 this
@@ -494,6 +500,9 @@ minSize
 vert
 :
 true
+onControlledPanelResized
+:
+onResized
 }
 )
 ;
@@ -508,13 +517,6 @@ props
 {
 return
 {
-sidebarVisible
-:
-state
-.
-ui
-.
-sidebarVisible
 grip
 :
 state
