@@ -443,7 +443,7 @@ BLUE_DARK
 =
 "
 #
-75BFFF
+75bfff
 "
 ;
 const
