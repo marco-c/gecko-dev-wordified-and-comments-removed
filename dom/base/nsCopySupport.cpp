@@ -1713,7 +1713,7 @@ StealNSResult
 selection
 -
 >
-AddRangeInternal
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 range
