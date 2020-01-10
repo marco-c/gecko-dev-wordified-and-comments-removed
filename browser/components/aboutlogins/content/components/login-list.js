@@ -800,6 +800,9 @@ true
 composed
 :
 true
+cancelable
+:
+true
 detail
 :
 listItem
@@ -887,6 +890,9 @@ _logins
 [
 0
 ]
+cancelable
+:
+true
 }
 )
 )
@@ -953,6 +959,11 @@ AboutLoginsLoginSelected
 {
 if
 (
+event
+.
+defaultPrevented
+|
+|
 this
 .
 _selectedGuid
