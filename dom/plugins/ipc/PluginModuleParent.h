@@ -641,7 +641,7 @@ const
 char
 *
 aPref
-PluginModuleParent
+void
 *
 aModule
 )
@@ -1951,7 +1951,7 @@ const
 char
 *
 aPref
-PluginModuleChromeParent
+void
 *
 aModule
 )

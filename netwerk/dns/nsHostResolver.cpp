@@ -2792,7 +2792,7 @@ const
 char
 *
 aPref
-nsHostResolver
+void
 *
 aSelf
 )
