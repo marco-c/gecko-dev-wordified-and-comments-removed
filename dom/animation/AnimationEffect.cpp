@@ -388,10 +388,10 @@ IsRelevant
 )
 )
 {
-nsNodeUtils
+MutationObservers
 :
 :
-AnimationChanged
+NotifyAnimationChanged
 (
 mAnimation
 )

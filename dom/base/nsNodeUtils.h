@@ -266,18 +266,9 @@ aContent
 ;
 }
 }
-}
-;
-}
-}
-class
-nsNodeUtils
-{
-public
-:
 static
 void
-AnimationAdded
+NotifyAnimationAdded
 (
 mozilla
 :
@@ -292,7 +283,7 @@ aAnimation
 ;
 static
 void
-AnimationChanged
+NotifyAnimationChanged
 (
 mozilla
 :
@@ -307,7 +298,7 @@ aAnimation
 ;
 static
 void
-AnimationRemoved
+NotifyAnimationRemoved
 (
 mozilla
 :
@@ -333,7 +324,7 @@ Removed
 ;
 static
 void
-AnimationMutated
+NotifyAnimationMutated
 (
 mozilla
 :
@@ -350,5 +341,7 @@ aMutatedType
 ;
 }
 ;
+}
+}
 #
 endif

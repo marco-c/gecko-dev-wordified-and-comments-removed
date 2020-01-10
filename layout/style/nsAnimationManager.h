@@ -444,10 +444,10 @@ mAnimationIndex
 aIndex
 )
 {
-nsNodeUtils
+MutationObservers
 :
 :
-AnimationChanged
+NotifyAnimationChanged
 (
 this
 )
