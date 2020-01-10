@@ -151,6 +151,11 @@ PWebrtcTCPSocket
 .
 ipdl
 '
+'
+WebrtcProxyConfig
+.
+ipdlh
+'
 ]
 include
 (
