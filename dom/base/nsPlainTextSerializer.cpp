@@ -5676,6 +5676,8 @@ IsAtFirstColumn
 nsAutoString
 quotesAndIndent
 ;
+mCurrentLine
+.
 CreateQuotesAndIndent
 (
 quotesAndIndent
@@ -7003,6 +7005,8 @@ IsEmpty
 nsAutoString
 quotesAndIndent
 ;
+mCurrentLine
+.
 CreateQuotesAndIndent
 (
 quotesAndIndent
@@ -7090,6 +7094,9 @@ void
 nsPlainTextSerializer
 :
 :
+CurrentLine
+:
+:
 CreateQuotesAndIndent
 (
 nsAString
@@ -7100,8 +7107,6 @@ const
 {
 if
 (
-mCurrentLine
-.
 mCiteQuoteLevel
 >
 0
@@ -7119,8 +7124,6 @@ i
 ;
 i
 <
-mCurrentLine
-.
 mCiteQuoteLevel
 ;
 i
@@ -7144,8 +7147,6 @@ char16_t
 if
 (
 !
-mCurrentLine
-.
 mContent
 .
 mValue
@@ -7175,14 +7176,10 @@ quotes
 int32_t
 indentwidth
 =
-mCurrentLine
-.
 mIndentation
 .
 mWidth
 -
-mCurrentLine
-.
 mIndentation
 .
 mHeader
@@ -7200,8 +7197,6 @@ indentwidth
 &
 (
 !
-mCurrentLine
-.
 mContent
 .
 mValue
@@ -7212,8 +7207,6 @@ IsEmpty
 |
 |
 !
-mCurrentLine
-.
 mIndentation
 .
 mHeader
@@ -7262,8 +7255,6 @@ spaces
 if
 (
 !
-mCurrentLine
-.
 mIndentation
 .
 mHeader
@@ -7276,8 +7267,6 @@ IsEmpty
 aResult
 +
 =
-mCurrentLine
-.
 mIndentation
 .
 mHeader
@@ -7988,6 +7977,8 @@ IsAtFirstColumn
 nsAutoString
 quotesAndIndent
 ;
+mCurrentLine
+.
 CreateQuotesAndIndent
 (
 quotesAndIndent
