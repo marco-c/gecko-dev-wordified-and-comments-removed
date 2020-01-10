@@ -105,9 +105,6 @@ usage
 uint64_t
 fileUsage
 ;
-uint64_t
-limit
-;
 }
 ;
 union

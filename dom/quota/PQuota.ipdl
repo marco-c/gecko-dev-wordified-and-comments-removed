@@ -215,7 +215,7 @@ PrincipalInfo
 principalInfo
 ;
 bool
-getGroupUsage
+fromMemory
 ;
 }
 ;
@@ -302,6 +302,14 @@ principalInfo
 }
 ;
 struct
+EstimateParams
+{
+PrincipalInfo
+principalInfo
+;
+}
+;
+struct
 ListInitializedOriginsParams
 {
 }
@@ -328,6 +336,8 @@ ResetAllParams
 PersistedParams
 ;
 PersistParams
+;
+EstimateParams
 ;
 ListInitializedOriginsParams
 ;

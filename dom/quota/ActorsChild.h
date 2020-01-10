@@ -376,6 +376,15 @@ void
 HandleResponse
 (
 const
+EstimateResponse
+&
+aResponse
+)
+;
+void
+HandleResponse
+(
+const
 nsTArray
 <
 nsCString
