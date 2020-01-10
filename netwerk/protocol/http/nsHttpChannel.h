@@ -2279,6 +2279,11 @@ MaybeWarnAboutAppCache
 )
 ;
 void
+SetLoadGroupUserAgentOverride
+(
+)
+;
+void
 SetOriginHeader
 (
 )
