@@ -681,6 +681,7 @@ FOR_EACH_SIZE
 (
 ADD_OTHER_SIZE
 )
+;
 }
 void
 subtract
@@ -695,6 +696,7 @@ FOR_EACH_SIZE
 (
 SUB_OTHER_SIZE
 )
+;
 }
 size_t
 sizeOfAllThings
@@ -711,6 +713,7 @@ FOR_EACH_SIZE
 (
 ADD_SIZE_TO_N
 )
+;
 return
 n
 ;
@@ -754,6 +757,7 @@ FOR_EACH_SIZE
 (
 ADD_SIZE_TO_N_IF_LIVE_GC_THING
 )
+;
 return
 n
 ;
@@ -771,6 +775,7 @@ FOR_EACH_SIZE
 (
 ADD_TO_TAB_SIZES
 )
+;
 }
 void
 addToServoSizes
@@ -785,11 +790,13 @@ FOR_EACH_SIZE
 (
 ADD_TO_SERVO_SIZES
 )
+;
 }
 FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 size_t
 wasmGuardPages
 ;
@@ -875,6 +882,7 @@ FOR_EACH_SIZE
 (
 ADD_OTHER_SIZE
 )
+;
 }
 void
 subtract
@@ -889,6 +897,7 @@ FOR_EACH_SIZE
 (
 SUB_OTHER_SIZE
 )
+;
 }
 size_t
 sizeOfAllThings
@@ -905,6 +914,7 @@ FOR_EACH_SIZE
 (
 ADD_SIZE_TO_N
 )
+;
 return
 n
 ;
@@ -924,6 +934,7 @@ FOR_EACH_SIZE
 (
 ADD_SIZE_TO_N_IF_LIVE_GC_THING
 )
+;
 return
 n
 ;
@@ -941,6 +952,7 @@ FOR_EACH_SIZE
 (
 ADD_TO_TAB_SIZES
 )
+;
 }
 void
 addToServoSizes
@@ -955,11 +967,13 @@ FOR_EACH_SIZE
 (
 ADD_TO_SERVO_SIZES
 )
+;
 }
 FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 int
 dummy
 ;
@@ -1108,11 +1122,13 @@ FOR_EACH_SIZE
 (
 ADD_TO_SERVO_SIZES
 )
+;
 }
 FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 int
 dummy
 ;
@@ -1212,11 +1228,13 @@ FOR_EACH_SIZE
 (
 ADD_TO_SERVO_SIZES
 )
+;
 }
 FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 int
 dummy
 ;
@@ -1338,6 +1356,7 @@ FOR_EACH_SIZE
 (
 ADD_SIZE_TO_N
 )
+;
 return
 n
 >
@@ -1360,6 +1379,7 @@ FOR_EACH_SIZE
 (
 ADD_SIZE_TO_N_IF_LIVE_GC_THING
 )
+;
 return
 n
 ;
@@ -1377,6 +1397,7 @@ FOR_EACH_SIZE
 (
 ADD_TO_TAB_SIZES
 )
+;
 }
 void
 addToServoSizes
@@ -1391,11 +1412,13 @@ FOR_EACH_SIZE
 (
 ADD_TO_SERVO_SIZES
 )
+;
 }
 FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 uint32_t
 numCopies
 ;
@@ -1525,6 +1548,7 @@ FOR_EACH_SIZE
 (
 ADD_OTHER_SIZE
 )
+;
 numScripts
 +
 +
@@ -1543,6 +1567,7 @@ FOR_EACH_SIZE
 (
 SUB_OTHER_SIZE
 )
+;
 numScripts
 -
 -
@@ -1561,6 +1586,7 @@ FOR_EACH_SIZE
 (
 ADD_TO_SERVO_SIZES
 )
+;
 }
 bool
 isNotable
@@ -1586,6 +1612,7 @@ FOR_EACH_SIZE
 (
 ADD_SIZE_TO_N
 )
+;
 return
 n
 >
@@ -1597,6 +1624,7 @@ FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 uint32_t
 numScripts
 ;
@@ -1735,6 +1763,7 @@ FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 unsigned
 idleThreadCount
 ;
@@ -1785,6 +1814,7 @@ FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 HelperThreadStats
 helperThread
 ;
@@ -1968,6 +1998,7 @@ FOR_EACH_SIZE
 (
 ADD_TO_SERVO_SIZES
 )
+;
 scriptSourceInfo
 .
 addToServoSizes
@@ -1994,6 +2025,7 @@ FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 ScriptSourceInfo
 scriptSourceInfo
 ;
@@ -2407,6 +2439,7 @@ FOR_EACH_SIZE
 (
 ADD_OTHER_SIZE
 )
+;
 }
 size_t
 totalSize
@@ -2423,6 +2456,7 @@ FOR_EACH_SIZE
 (
 ADD_SIZE_TO_N
 )
+;
 return
 n
 ;
@@ -2443,6 +2477,7 @@ FOR_EACH_SIZE
 (
 ADD_TO_TAB_SIZES
 )
+;
 }
 void
 addToServoSizes
@@ -2460,11 +2495,13 @@ FOR_EACH_SIZE
 (
 ADD_TO_SERVO_SIZES
 )
+;
 }
 FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 int
 dummy
 ;
@@ -2804,6 +2841,7 @@ FOR_EACH_SIZE
 (
 ADD_OTHER_SIZE
 )
+;
 unusedGCThings
 .
 addSizes
@@ -2852,6 +2890,7 @@ FOR_EACH_SIZE
 (
 ADD_SIZE_TO_N_IF_LIVE_GC_THING
 )
+;
 n
 +
 =
@@ -2895,6 +2934,7 @@ FOR_EACH_SIZE
 (
 ADD_TO_TAB_SIZES
 )
+;
 unusedGCThings
 .
 addToTabSizes
@@ -2938,6 +2978,7 @@ FOR_EACH_SIZE
 (
 ADD_TO_SERVO_SIZES
 )
+;
 unusedGCThings
 .
 addToServoSizes
@@ -2964,6 +3005,7 @@ FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 UnusedGCThingSizes
 unusedGCThings
 ;
@@ -3312,6 +3354,7 @@ FOR_EACH_SIZE
 (
 ADD_OTHER_SIZE
 )
+;
 classInfo
 .
 add
@@ -3342,6 +3385,7 @@ FOR_EACH_SIZE
 (
 ADD_SIZE_TO_N_IF_LIVE_GC_THING
 )
+;
 n
 +
 =
@@ -3413,6 +3457,7 @@ FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 ClassInfo
 classInfo
 ;
@@ -3600,6 +3645,7 @@ FOR_EACH_SIZE
 (
 ADD_TO_SERVO_SIZES
 )
+;
 runtime
 .
 addToServoSizes
@@ -3612,6 +3658,7 @@ FOR_EACH_SIZE
 (
 DECL_SIZE
 )
+;
 RuntimeSizes
 runtime
 ;
