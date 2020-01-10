@@ -272,6 +272,11 @@ EventQueue
 h
 '
 '
+IdlePeriodState
+.
+h
+'
+'
 IdleTaskRunner
 .
 h
@@ -438,6 +443,11 @@ cpp
 '
 '
 EventQueue
+.
+cpp
+'
+'
+IdlePeriodState
 .
 cpp
 '

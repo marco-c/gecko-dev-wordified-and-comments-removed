@@ -40,7 +40,7 @@ namespace
 mozilla
 {
 class
-PrioritizedEventQueue
+IdlePeriodState
 ;
 namespace
 ipc
@@ -79,9 +79,9 @@ aBudget
 void
 Init
 (
-PrioritizedEventQueue
+IdlePeriodState
 *
-aEventQueue
+aIdlePeriodState
 )
 ;
 void
@@ -89,7 +89,7 @@ Disconnect
 (
 )
 {
-mEventQueue
+mIdlePeriodState
 =
 nullptr
 ;
@@ -128,9 +128,9 @@ base
 SharedMemory
 mActiveCounter
 ;
-PrioritizedEventQueue
+IdlePeriodState
 *
-mEventQueue
+mIdlePeriodState
 =
 nullptr
 ;
