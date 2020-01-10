@@ -904,20 +904,20 @@ defaultValue
 ;
 }
 let
-_defaultSettings
+_defaultPrefs
 ;
 function
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 (
 )
 {
 if
 (
 !
-_defaultSettings
+_defaultPrefs
 )
 {
-_defaultSettings
+_defaultPrefs
 =
 {
 entries
@@ -974,7 +974,7 @@ android
 "
 )
 {
-_defaultSettings
+_defaultPrefs
 .
 features
 .
@@ -988,7 +988,7 @@ java
 }
 }
 return
-_defaultSettings
+_defaultPrefs
 ;
 }
 function
@@ -997,9 +997,9 @@ getRecordingPreferencesFromBrowser
 )
 {
 const
-defaultSettings
+defaultPrefs
 =
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 (
 )
 ;
@@ -1013,7 +1013,7 @@ prefs
 getIntPref
 (
 ENTRIES_PREF
-defaultSettings
+defaultPrefs
 .
 entries
 )
@@ -1028,7 +1028,7 @@ prefs
 getIntPref
 (
 INTERVAL_PREF
-defaultSettings
+defaultPrefs
 .
 interval
 )
@@ -1039,7 +1039,7 @@ features
 _getArrayOfStringsPref
 (
 FEATURES_PREF
-defaultSettings
+defaultPrefs
 .
 features
 )
@@ -1050,7 +1050,7 @@ threads
 _getArrayOfStringsPref
 (
 THREADS_PREF
-defaultSettings
+defaultPrefs
 .
 threads
 )
@@ -1061,7 +1061,7 @@ objdirs
 _getArrayOfStringsHostPref
 (
 OBJDIRS_PREF
-defaultSettings
+defaultPrefs
 .
 objdirs
 )
@@ -1076,7 +1076,7 @@ prefs
 getIntPref
 (
 DURATION_PREF
-defaultSettings
+defaultPrefs
 .
 duration
 )
@@ -1224,7 +1224,7 @@ revertRecordingPreferences
 {
 setRecordingPreferencesOnBrowser
 (
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 (
 )
 )
@@ -1256,7 +1256,7 @@ platform
 getSymbolsFromThisBrowser
 "
 "
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 "
 "
 getRecordingPreferencesFromBrowser

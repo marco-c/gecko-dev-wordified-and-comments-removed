@@ -64,7 +64,7 @@ const
 {
 getRecordingPreferencesFromBrowser
 revertRecordingPreferences
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 }
 =
 setupBackgroundJsm
@@ -80,7 +80,7 @@ getRecordingPreferencesFromBrowser
 )
 .
 buffersize
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 (
 )
 .
@@ -113,7 +113,7 @@ includes
 stackwalk
 "
 )
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 (
 )
 .

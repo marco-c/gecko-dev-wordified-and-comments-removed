@@ -934,7 +934,7 @@ selectors
 ;
 const
 {
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 }
 =
 ChromeUtils
@@ -1066,7 +1066,7 @@ receiveProfile
 receiveProfileMock
 recordingSettingsFromPreferences
 :
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 (
 )
 setRecordingPreferences

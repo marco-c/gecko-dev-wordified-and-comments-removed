@@ -778,7 +778,7 @@ function
 getRecordingPreferencesFromDebuggee
 (
 preferenceFront
-defaultSettings
+defaultPrefs
 )
 {
 const
@@ -806,7 +806,7 @@ performance
 recording
 .
 entries
-defaultSettings
+defaultPrefs
 .
 entries
 )
@@ -820,7 +820,7 @@ performance
 recording
 .
 interval
-defaultSettings
+defaultPrefs
 .
 interval
 )
@@ -834,7 +834,7 @@ performance
 recording
 .
 features
-defaultSettings
+defaultPrefs
 .
 features
 )
@@ -848,14 +848,14 @@ performance
 recording
 .
 threads
-defaultSettings
+defaultPrefs
 .
 threads
 )
 _getArrayOfStringsHostPref
 (
 OBJDIRS_PREF
-defaultSettings
+defaultPrefs
 .
 objdirs
 )
