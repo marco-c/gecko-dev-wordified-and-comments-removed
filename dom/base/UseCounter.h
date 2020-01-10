@@ -240,6 +240,7 @@ COUNTED_UNKNOWN_PROPERTY
 name_
 method_
 )
+\
 eUseCounter_unknown_property_
 #
 #
