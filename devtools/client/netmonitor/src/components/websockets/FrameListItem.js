@@ -137,7 +137,7 @@ lazyGetter
 (
 this
 "
-FrameListColumnData
+FrameListColumnPayload
 "
 function
 (
@@ -151,7 +151,7 @@ require
 "
 .
 /
-FrameListColumnData
+FrameListColumnPayload
 "
 )
 )
@@ -299,11 +299,11 @@ FrameListColumnSize
 column
 :
 "
-data
+payload
 "
 ColumnComponent
 :
-FrameListColumnData
+FrameListColumnPayload
 }
 {
 column

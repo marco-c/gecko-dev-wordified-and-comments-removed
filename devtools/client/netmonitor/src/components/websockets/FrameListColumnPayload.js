@@ -90,7 +90,7 @@ utils
 )
 ;
 class
-FrameListColumnData
+FrameListColumnPayload
 extends
 Component
 {
@@ -294,5 +294,5 @@ module
 .
 exports
 =
-FrameListColumnData
+FrameListColumnPayload
 ;
