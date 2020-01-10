@@ -351,6 +351,16 @@ CertificateTransparencyInfo
 info
 )
 ;
+virtual
+void
+SetCertVerificationResult
+(
+PRErrorCode
+errorCode
+)
+{
+}
+;
 uint16_t
 mCipherSuite
 ;

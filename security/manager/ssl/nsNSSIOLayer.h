@@ -385,6 +385,7 @@ SetCertVerificationResult
 PRErrorCode
 errorCode
 )
+override
 ;
 PRBool
 IsWaitingForCertVerification
