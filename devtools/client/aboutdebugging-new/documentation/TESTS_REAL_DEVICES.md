@@ -43,6 +43,8 @@ devtools
 client
 /
 aboutdebugging
+-
+new
 /
 test
 /
@@ -167,6 +169,8 @@ devtools
 client
 /
 aboutdebugging
+-
+new
 /
 test
 /
@@ -192,6 +196,8 @@ devtools
 client
 /
 aboutdebugging
+-
+new
 /
 test
 /
@@ -356,6 +362,8 @@ devtools
 client
 /
 aboutdebugging
+-
+new
 /
 test
 /
@@ -390,6 +398,8 @@ devtools
 client
 /
 aboutdebugging
+-
+new
 /
 test
 /
@@ -413,6 +423,8 @@ devtools
 client
 /
 aboutdebugging
+-
+new
 /
 test
 /

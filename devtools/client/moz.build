@@ -102,6 +102,8 @@ DIRS
 [
 '
 aboutdebugging
+-
+new
 '
 '
 accessibility

@@ -51,6 +51,8 @@ devtools
 client
 /
 aboutdebugging
+-
+new
 /
 "
 window
