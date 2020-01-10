@@ -104,17 +104,6 @@ ProcessRuntimeShared
 h
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-mozglue
-/
-build
-'
-]
 UNIFIED_SOURCES
 +
 =
