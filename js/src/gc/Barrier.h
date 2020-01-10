@@ -2731,6 +2731,15 @@ value
 }
 ;
 template
+struct
+JS_PUBLIC_API
+MovableCellHasher
+<
+JSObject
+*
+>
+;
+template
 <
 typename
 T
