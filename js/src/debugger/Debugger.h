@@ -4400,6 +4400,7 @@ Debugger
 const
 debugger
 ;
+const
 HeapPtr
 <
 JSObject
@@ -4414,6 +4415,7 @@ site
 ;
 private
 :
+const
 HeapPtr
 <
 JSObject
@@ -4519,6 +4521,7 @@ BreakpointSite
 {
 public
 :
+const
 HeapPtr
 <
 JSScript
@@ -4613,6 +4616,7 @@ BreakpointSite
 {
 public
 :
+const
 HeapPtr
 <
 WasmInstanceObject
