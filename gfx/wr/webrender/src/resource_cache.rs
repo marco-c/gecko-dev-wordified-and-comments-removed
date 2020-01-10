@@ -6420,6 +6420,11 @@ MAX_TILES_PER_REQUEST
 )
 {
 let
+limit
+=
+46340
+;
+let
 w
 =
 tiles
@@ -6427,6 +6432,11 @@ tiles
 size
 .
 width
+.
+min
+(
+limit
+)
 ;
 let
 h
@@ -6436,6 +6446,11 @@ tiles
 size
 .
 height
+.
+min
+(
+limit
+)
 ;
 let
 diff
