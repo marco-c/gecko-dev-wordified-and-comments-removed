@@ -294,7 +294,11 @@ equal
 password1
 .
 length
-15
+LoginTestUtils
+.
+generation
+.
+LENGTH
 "
 Check
 password
@@ -498,7 +502,11 @@ equal
 password3
 .
 length
-15
+LoginTestUtils
+.
+generation
+.
+LENGTH
 "
 Check
 password3

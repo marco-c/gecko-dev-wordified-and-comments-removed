@@ -451,7 +451,11 @@ equal
 generatedPassword
 .
 length
-15
+LoginTestUtils
+.
+generation
+.
+LENGTH
 "
 Check
 password
