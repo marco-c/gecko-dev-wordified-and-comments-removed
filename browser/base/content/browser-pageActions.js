@@ -1852,6 +1852,13 @@ identity
 -
 icon
 "
+"
+urlbar
+-
+search
+-
+icon
+"
 ]
 ;
 for
