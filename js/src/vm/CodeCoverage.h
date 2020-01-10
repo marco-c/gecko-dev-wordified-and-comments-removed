@@ -84,21 +84,6 @@ UniqueChars
 name
 )
 ;
-LCovSource
-(
-LCovSource
-&
-&
-src
-)
-;
-~
-LCovSource
-(
-)
-=
-default
-;
 bool
 match
 (
@@ -297,6 +282,7 @@ mozilla
 Vector
 <
 LCovSource
+*
 16
 LifoAllocPolicy
 <
@@ -312,7 +298,6 @@ LSprinter
 outTN_
 ;
 LCovSourceVector
-*
 sources_
 ;
 }
