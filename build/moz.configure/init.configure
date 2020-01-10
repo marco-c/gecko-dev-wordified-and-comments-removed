@@ -6891,6 +6891,9 @@ check_output
 shell
 config_guess
 ]
+universal_newlines
+=
+True
 )
 .
 strip

@@ -252,6 +252,7 @@ class
 BuildEnvironmentNotFoundException
 (
 BadEnvironmentException
+AttributeError
 )
 :
     
@@ -1650,7 +1651,7 @@ out
 =
 six
 .
-StringIO
+BytesIO
 (
 )
         
