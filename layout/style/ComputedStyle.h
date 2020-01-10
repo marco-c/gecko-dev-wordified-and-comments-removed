@@ -735,6 +735,7 @@ S
 *
 aField
 )
+const
 ;
 static
 nscolor
