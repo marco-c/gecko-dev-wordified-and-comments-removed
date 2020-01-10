@@ -4232,12 +4232,6 @@ clearCompletion
 (
 )
 ;
-event
-.
-preventDefault
-(
-)
-;
 }
 if
 (
