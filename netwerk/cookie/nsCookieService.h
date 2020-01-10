@@ -756,8 +756,6 @@ CheckPrefs
 nsICookieSettings
 *
 aCookieSettings
-bool
-aThirdPartyNonsecureSession
 nsIURI
 *
 aHostURI
@@ -1609,9 +1607,6 @@ RefPtr
 DBState
 >
 mPrivateDBState
-;
-bool
-mThirdPartyNonsecureSession
 ;
 uint16_t
 mMaxNumberOfCookies
