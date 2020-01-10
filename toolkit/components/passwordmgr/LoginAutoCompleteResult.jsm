@@ -928,7 +928,7 @@ return
 getLocalizedString
 (
 "
-useGeneratedPassword
+useASecurelyGeneratedPassword
 "
 )
 ;
