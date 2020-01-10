@@ -270,7 +270,7 @@ moz
 -
 inline
 -
-stack
+box
 "
 ;
 }
@@ -1562,7 +1562,7 @@ moz
 -
 inline
 -
-stack
+box
 "
 ;
 }
@@ -14305,7 +14305,7 @@ moz
 -
 inline
 -
-grid
+box
 "
 ;
 }
@@ -17086,7 +17086,7 @@ moz
 -
 inline
 -
-grid
+box
 "
 ;
 }
@@ -21958,7 +21958,7 @@ moz
 -
 inline
 -
-grid
+box
 "
 ;
 }
@@ -27278,7 +27278,7 @@ moz
 -
 inline
 -
-grid
+box
 "
 ;
 }
@@ -31310,7 +31310,7 @@ moz
 -
 inline
 -
-stack
+box
 "
 ;
 }
@@ -32190,7 +32190,7 @@ moz
 -
 inline
 -
-stack
+box
 "
 ;
 }
