@@ -225,6 +225,11 @@ FindBarChild
 jsm
 '
 '
+FindBarParent
+.
+jsm
+'
+'
 FinderChild
 .
 jsm
