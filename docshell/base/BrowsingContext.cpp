@@ -4687,6 +4687,14 @@ ErrorResult
 aError
 )
 {
+if
+(
+mIsDiscarded
+)
+{
+return
+;
+}
 RefPtr
 <
 BrowsingContext
