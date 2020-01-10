@@ -322,6 +322,8 @@ BrowserTestUtils
 waitForNewTab
 (
 gBrowser
+null
+true
 )
 ;
 await
@@ -636,6 +638,8 @@ BrowserTestUtils
 waitForNewTab
 (
 gBrowser
+null
+true
 )
 ;
 checkAndClickButton
@@ -1246,6 +1250,8 @@ BrowserTestUtils
 waitForNewTab
 (
 gBrowser
+null
+true
 )
 ;
 viewButton
