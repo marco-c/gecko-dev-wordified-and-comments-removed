@@ -47968,7 +47968,7 @@ csp
 loadInfo
 -
 >
-GetCsp
+GetCspToInherit
 (
 )
 ;
