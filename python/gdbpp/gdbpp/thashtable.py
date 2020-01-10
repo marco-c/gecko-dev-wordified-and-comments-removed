@@ -1,7 +1,9 @@
+from
+__future__
+import
+absolute_import
 import
 gdb
-import
-itertools
 from
 gdbpp
 import
