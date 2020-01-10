@@ -10619,7 +10619,7 @@ if
 xpc
 :
 :
-TransplantObjectNukingXrayWaiver
+TransplantObject
 (
 cx
 localProxy
