@@ -152,6 +152,9 @@ getBBox
 optional
 SVGBoundingBoxOptions
 options
+=
+{
+}
 )
 ;
 DOMMatrix
@@ -196,6 +199,9 @@ isPointInFill
 optional
 DOMPointInit
 point
+=
+{
+}
 )
 ;
 boolean
@@ -204,6 +210,9 @@ isPointInStroke
 optional
 DOMPointInit
 point
+=
+{
+}
 )
 ;
 float
@@ -2380,6 +2389,9 @@ getCharNumAtPosition
 optional
 DOMPointInit
 point
+=
+{
+}
 )
 ;
 void
