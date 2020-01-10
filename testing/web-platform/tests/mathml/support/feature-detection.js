@@ -1881,12 +1881,12 @@ mo
 lspace
 =
 '
-8px
+20px
 '
 rspace
 =
 '
-8px
+20px
 '
 >
 +
@@ -1962,7 +1962,7 @@ getBoundingClientRect
 .
 width
 >
-10
+30
 ;
 document
 .
