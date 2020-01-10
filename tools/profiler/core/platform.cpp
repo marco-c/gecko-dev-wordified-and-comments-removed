@@ -13463,7 +13463,8 @@ double
 aDuration
 )
 ;
-ProfilingStack
+static
+void
 *
 MozGlueLabelEnter
 (
@@ -13520,10 +13521,11 @@ return
 profilingStack
 ;
 }
+static
 void
 MozGlueLabelExit
 (
-ProfilingStack
+void
 *
 sProfilingStack
 )
@@ -13533,7 +13535,14 @@ if
 sProfilingStack
 )
 {
+reinterpret_cast
+<
+ProfilingStack
+*
+>
+(
 sProfilingStack
+)
 -
 >
 pop
