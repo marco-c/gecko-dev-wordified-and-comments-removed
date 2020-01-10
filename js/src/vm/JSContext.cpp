@@ -1381,7 +1381,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -1564,7 +1564,7 @@ if
 maybecx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -1641,7 +1641,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -6127,7 +6127,7 @@ DEBUG
 if
 (
 !
-helperThread
+isHelperThreadContext
 (
 )
 )

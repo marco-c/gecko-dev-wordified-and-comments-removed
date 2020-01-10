@@ -39623,7 +39623,7 @@ return
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 |

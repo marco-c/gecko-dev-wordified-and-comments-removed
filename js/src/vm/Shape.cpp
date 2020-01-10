@@ -12511,7 +12511,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )

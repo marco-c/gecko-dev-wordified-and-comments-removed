@@ -526,7 +526,7 @@ MOZ_RELEASE_ASSERT
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -857,7 +857,7 @@ MOZ_ASSERT
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -1474,7 +1474,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -1756,7 +1756,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -2173,7 +2173,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 |
@@ -2415,7 +2415,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )

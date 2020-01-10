@@ -399,7 +399,7 @@ if
 cx_
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -2786,7 +2786,7 @@ MOZ_ASSERT_IF
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 !
@@ -3078,7 +3078,7 @@ MOZ_ASSERT_IF
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 !
@@ -3496,7 +3496,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )

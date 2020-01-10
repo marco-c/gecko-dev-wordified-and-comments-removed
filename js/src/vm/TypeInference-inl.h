@@ -5293,7 +5293,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )

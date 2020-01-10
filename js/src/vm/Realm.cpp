@@ -4827,7 +4827,7 @@ cx_
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 ?

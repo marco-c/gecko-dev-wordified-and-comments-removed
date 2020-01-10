@@ -12928,7 +12928,7 @@ syntaxParser
 cx_
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 !

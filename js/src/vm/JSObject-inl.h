@@ -1194,7 +1194,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )

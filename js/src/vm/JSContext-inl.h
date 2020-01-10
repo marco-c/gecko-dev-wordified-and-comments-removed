@@ -2208,7 +2208,7 @@ isAtomsZone
 AtomsZone
 &
 &
-helperThread
+isHelperThreadContext
 (
 )
 )
