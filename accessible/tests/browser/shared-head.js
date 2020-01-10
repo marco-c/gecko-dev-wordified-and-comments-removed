@@ -479,16 +479,6 @@ if
 elm
 .
 editor
-|
-|
-elm
-.
-localName
-=
-=
-"
-textbox
-"
 )
 {
 elm

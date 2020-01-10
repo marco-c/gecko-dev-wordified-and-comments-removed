@@ -330,9 +330,6 @@ TAB
 TABS
 "
 "
-TEXTBOX
-"
-"
 TOOLBARBUTTON
 "
 "
