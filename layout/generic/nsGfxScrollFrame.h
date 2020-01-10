@@ -2696,14 +2696,6 @@ static
 uint32_t
 sVertExpandScrollPort
 ;
-static
-int32_t
-sHorzScrollFraction
-;
-static
-int32_t
-sVertScrollFraction
-;
 }
 ;
 }
