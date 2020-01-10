@@ -58759,8 +58759,6 @@ filename
 let
 blobUrl
 =
-_pdfjsLib
-.
 URL
 .
 createObjectURL
@@ -58793,8 +58791,6 @@ err
 )
 ;
 }
-_pdfjsLib
-.
 URL
 .
 revokeObjectURL
