@@ -10666,6 +10666,12 @@ WidgetRenderingContext
 aContext
 )
 {
+{
+/
+/
+scope
+for
+lock
 auto
 compositingState
 =
@@ -10758,6 +10764,7 @@ NSAnimationContext
 endGrouping
 ]
 ;
+}
 }
 mViewTearDownLock
 .
