@@ -21078,7 +21078,10 @@ uint32_t
 toStringEnd
 )
 :
-jitCodeRaw_
+js
+:
+:
+BaseScript
 (
 stubEntry
 )
@@ -30681,7 +30684,7 @@ uint32_t
 column
 )
 :
-jitCodeRaw_
+BaseScript
 (
 stubEntry
 )
