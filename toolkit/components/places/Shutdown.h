@@ -14,13 +14,6 @@ h
 #
 include
 "
-Database
-.
-h
-"
-#
-include
-"
 nsProxyRelease
 .
 h
