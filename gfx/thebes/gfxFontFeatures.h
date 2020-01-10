@@ -130,6 +130,9 @@ mValue
 ;
 }
 class
+nsAtom
+;
+class
 gfxFontFeatureValueSet
 final
 {
@@ -205,9 +208,8 @@ nsACString
 aFamily
 uint32_t
 aVariantProperty
-const
-nsAString
-&
+nsAtom
+*
 aName
 nsTArray
 <
@@ -228,9 +230,8 @@ const
 nsACString
 &
 aFamily
-const
-nsAString
-&
+nsAtom
+*
 aName
 uint32_t
 aAlternate
@@ -253,7 +254,10 @@ mFamily
 uint32_t
 mPropVal
 ;
-nsString
+RefPtr
+<
+nsAtom
+>
 mName
 ;
 FeatureValueHashKey
@@ -274,9 +278,8 @@ nsACString
 aFamily
 uint32_t
 aPropVal
-const
-nsAString
-&
+nsAtom
+*
 aName
 )
 :
