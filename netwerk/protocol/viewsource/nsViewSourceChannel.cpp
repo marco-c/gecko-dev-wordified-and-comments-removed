@@ -117,6 +117,11 @@ mHttpChannel
 )
 NS_INTERFACE_MAP_ENTRY_CONDITIONAL
 (
+nsIIdentChannel
+mHttpChannel
+)
+NS_INTERFACE_MAP_ENTRY_CONDITIONAL
+(
 nsIHttpChannelInternal
 mHttpChannelInternal
 )

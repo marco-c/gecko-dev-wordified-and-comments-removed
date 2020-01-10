@@ -1709,7 +1709,7 @@ InitConnectionMgr
 void
 NotifyObservers
 (
-nsIHttpChannel
+nsIChannel
 *
 chan
 const

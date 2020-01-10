@@ -411,7 +411,7 @@ QueryInterface
 (
 Ci
 .
-nsIHttpChannel
+nsIIdentChannel
 )
 ;
 id

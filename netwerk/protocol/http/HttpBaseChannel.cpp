@@ -2108,6 +2108,10 @@ nsIChannel
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIIdentChannel
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIEncodedChannel
 )
 NS_INTERFACE_MAP_ENTRY
