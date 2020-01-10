@@ -489,6 +489,11 @@ Document
 *
 )
 ;
+void
+ClearCachedData
+(
+)
+;
 static
 nsPoint
 CaretElementPosition
@@ -585,6 +590,9 @@ mCaretElementHolder
 ;
 nsRect
 mImaginaryCaretRect
+;
+nsRect
+mImaginaryCaretRectInContainerFrame
 ;
 float
 mZoomLevel
