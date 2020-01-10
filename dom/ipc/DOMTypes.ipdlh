@@ -1116,14 +1116,6 @@ redirect
 nsIContentSecurityPolicy
 Csp
 ;
-nsCString
-?
-OriginalURIString
-;
-int32_t
-?
-CancelContentJSEpoch
-;
 nsIInputStream
 PostDataStream
 ;

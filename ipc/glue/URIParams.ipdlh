@@ -162,9 +162,6 @@ ref
 bool
 supportsFileURL
 ;
-bool
-isSubstituting
-;
 }
 ;
 struct
