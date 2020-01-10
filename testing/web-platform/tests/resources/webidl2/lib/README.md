@@ -33,12 +33,11 @@ is
 built
 by
 running
-npx
-webpack
+npm
+run
+build
 -
--
-mode
-none
+debug
 at
 the
 root
