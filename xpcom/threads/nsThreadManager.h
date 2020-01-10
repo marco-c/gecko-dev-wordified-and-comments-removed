@@ -118,6 +118,15 @@ uint32_t
 aDispatchFlags
 )
 ;
+nsresult
+GetBackgroundEventTarget
+(
+nsIEventTarget
+*
+*
+aEventTarget
+)
+;
 uint32_t
 GetHighestNumberOfThreads
 (
