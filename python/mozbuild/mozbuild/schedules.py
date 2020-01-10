@@ -102,6 +102,14 @@ wpt
 '
 jsreftest
 '
+    
+'
+android
+-
+hw
+-
+gfx
+'
 ]
 INCLUSIVE_COMPONENTS
 =
