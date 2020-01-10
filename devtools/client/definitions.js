@@ -3744,7 +3744,12 @@ toolbox
 .
 target
 .
-_inspector
+getCachedFront
+(
+"
+inspector
+"
+)
 ;
 if
 (

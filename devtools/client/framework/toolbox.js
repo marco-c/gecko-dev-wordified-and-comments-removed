@@ -13160,8 +13160,11 @@ this
 .
 target
 .
-getInspector
+getFront
 (
+"
+inspector
+"
 )
 ;
 this
