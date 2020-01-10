@@ -1474,7 +1474,6 @@ desktop
 screenshot
 -
 capture
-#
 -
 awsy
 -
@@ -1489,7 +1488,6 @@ firefox
 raptor
 -
 profiling
-#
 -
 marionette
 -
@@ -1700,14 +1698,6 @@ desktop
 screenshot
 -
 capture
--
-awsy
--
-marionette
--
-media
--
-tests
 macosx1010
 -
 64
