@@ -1166,6 +1166,8 @@ ExecutablePool
 pool
 ProtectionSetting
 protection
+MustFlushICache
+flushICache
 )
 {
 char
@@ -1192,6 +1194,7 @@ m_freePtr
 -
 start
 protection
+flushICache
 )
 )
 {
@@ -1339,6 +1342,10 @@ ProtectionSetting
 :
 :
 Writable
+MustFlushICache
+:
+:
+No
 )
 ;
 pool
@@ -1432,6 +1439,10 @@ ProtectionSetting
 :
 :
 Executable
+MustFlushICache
+:
+:
+No
 )
 ;
 pool

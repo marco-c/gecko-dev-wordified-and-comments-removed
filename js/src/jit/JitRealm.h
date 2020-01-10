@@ -3053,7 +3053,7 @@ if
 ExecutableAllocator
 :
 :
-makeExecutable
+makeExecutableAndFlushICache
 (
 addr_
 size_
