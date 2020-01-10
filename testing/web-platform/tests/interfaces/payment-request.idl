@@ -121,6 +121,17 @@ canMakePayment
 (
 )
 ;
+[
+NewObject
+]
+Promise
+<
+boolean
+>
+hasEnrolledInstrument
+(
+)
+;
 readonly
 attribute
 DOMString
