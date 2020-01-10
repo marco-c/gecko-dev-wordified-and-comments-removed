@@ -8190,6 +8190,7 @@ TableGrow
 TableInit
 TableSet
 TableSize
+FuncRef
 PostBarrier
 PostBarrierFiltering
 StructNew

@@ -200,6 +200,11 @@ SASigTableSize
 extern
 const
 SymbolicAddressSignature
+SASigFuncRef
+;
+extern
+const
+SymbolicAddressSignature
 SASigPostBarrier
 ;
 extern
