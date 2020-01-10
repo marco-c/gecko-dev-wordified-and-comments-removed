@@ -63,6 +63,9 @@ h
 class
 nsIURI
 ;
+class
+nsIReferrerInfo
+;
 namespace
 mozilla
 {
@@ -119,11 +122,9 @@ aFrom
 nsIURI
 *
 aURI
-nsIURI
+nsIReferrerInfo
 *
-aReferrer
-uint32_t
-aReferrerPolicy
+aReferrerInfo
 bool
 aWatch
 =

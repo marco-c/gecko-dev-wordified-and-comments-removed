@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsIReferrerInfo
+.
+h
+"
+#
+include
+"
 nsBindingManager
 .
 h
@@ -148,11 +155,9 @@ aFromContent
 nsIURI
 *
 aURI
-nsIURI
+nsIReferrerInfo
 *
-aReferrer
-uint32_t
-aReferrerPolicy
+aReferrerInfo
 bool
 aWatch
 bool
@@ -507,8 +512,7 @@ doc
 RequestExternalResource
 (
 aURI
-aReferrer
-aReferrerPolicy
+aReferrerInfo
 aFromContent
 getter_AddRefs
 (
