@@ -428,11 +428,6 @@ nsIMacDockSupport
 idl
 '
 '
-nsIMacFinderProgress
-.
-idl
-'
-'
 nsIMacSharingService
 .
 idl

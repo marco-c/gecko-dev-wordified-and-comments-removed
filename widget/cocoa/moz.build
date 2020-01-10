@@ -241,11 +241,6 @@ nsMacDockSupport
 mm
 '
 '
-nsMacFinderProgress
-.
-mm
-'
-'
 nsMacSharingService
 .
 mm
