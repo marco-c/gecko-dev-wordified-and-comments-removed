@@ -656,6 +656,15 @@ plural
 -
 form
 "
+DevToolsUtils
+:
+"
+devtools
+/
+shared
+/
+DevToolsUtils
+"
 }
 ;
 function
