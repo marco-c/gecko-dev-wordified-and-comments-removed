@@ -14,7 +14,7 @@ gl
 fbAQLP
 exports
 [
-ManifestView
+Manifest
 renders
 the
 expected
@@ -58,8 +58,6 @@ className
 =
 "
 manifest
--
-view
 "
 key
 =
@@ -88,9 +86,7 @@ caption
 className
 =
 "
-manifest
--
-view__title
+manifest__title
 "
 /
 >
@@ -203,8 +199,6 @@ className
 =
 "
 manifest
--
-view
 "
 key
 =
@@ -229,9 +223,7 @@ caption
 className
 =
 "
-manifest
--
-view__title
+manifest__title
 "
 /
 >
@@ -311,8 +303,6 @@ className
 =
 "
 manifest
--
-view
 "
 key
 =
@@ -337,9 +327,7 @@ caption
 className
 =
 "
-manifest
--
-view__title
+manifest__title
 "
 /
 >
@@ -461,8 +449,6 @@ className
 =
 "
 manifest
--
-view
 "
 key
 =
@@ -487,9 +473,7 @@ caption
 className
 =
 "
-manifest
--
-view__title
+manifest__title
 "
 /
 >

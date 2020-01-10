@@ -28,7 +28,7 @@ react
 )
 ;
 const
-ManifestView
+Manifest
 =
 createFactory
 (
@@ -47,7 +47,7 @@ components
 /
 manifest
 /
-ManifestView
+Manifest
 "
 )
 )
@@ -137,7 +137,7 @@ background_color
 describe
 (
 "
-ManifestView
+Manifest
 "
 (
 )
@@ -162,7 +162,7 @@ wrapper
 =
 shallow
 (
-ManifestView
+Manifest
 (
 {
 identity

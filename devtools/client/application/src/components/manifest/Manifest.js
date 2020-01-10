@@ -150,7 +150,7 @@ ManifestItemWarning
 )
 ;
 class
-ManifestView
+Manifest
 extends
 PureComponent
 {
@@ -247,8 +247,6 @@ className
 :
 "
 manifest
--
-view
 "
 key
 :
@@ -279,9 +277,7 @@ caption
 className
 :
 "
-manifest
--
-view__title
+manifest__title
 "
 }
 )
@@ -323,8 +319,6 @@ className
 :
 "
 manifest
--
-view
 "
 key
 :
@@ -351,9 +345,7 @@ caption
 className
 :
 "
-manifest
--
-view__title
+manifest__title
 "
 }
 )
@@ -405,8 +397,6 @@ className
 :
 "
 manifest
--
-view
 "
 key
 :
@@ -433,9 +423,7 @@ caption
 className
 :
 "
-manifest
--
-view__title
+manifest__title
 "
 }
 )
@@ -487,8 +475,6 @@ className
 :
 "
 manifest
--
-view
 "
 key
 :
@@ -515,9 +501,7 @@ caption
 className
 :
 "
-manifest
--
-view__title
+manifest__title
 "
 }
 )
@@ -560,5 +544,5 @@ module
 .
 exports
 =
-ManifestView
+Manifest
 ;

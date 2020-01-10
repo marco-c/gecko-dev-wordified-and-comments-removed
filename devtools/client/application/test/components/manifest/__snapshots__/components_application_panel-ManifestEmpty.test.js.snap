@@ -14,7 +14,7 @@ gl
 fbAQLP
 exports
 [
-ManifestViewEmpty
+ManifestEmpty
 renders
 the
 expected
@@ -28,8 +28,6 @@ className
 =
 "
 manifest
--
-view
 -
 empty
 "

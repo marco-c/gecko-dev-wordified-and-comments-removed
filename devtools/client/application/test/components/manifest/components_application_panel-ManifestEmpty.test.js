@@ -28,7 +28,7 @@ react
 )
 ;
 const
-ManifestViewEmpty
+ManifestEmpty
 =
 createFactory
 (
@@ -47,7 +47,7 @@ components
 /
 manifest
 /
-ManifestViewEmpty
+ManifestEmpty
 "
 )
 )
@@ -55,7 +55,7 @@ ManifestViewEmpty
 describe
 (
 "
-ManifestViewEmpty
+ManifestEmpty
 "
 (
 )
@@ -80,7 +80,7 @@ wrapper
 =
 shallow
 (
-ManifestViewEmpty
+ManifestEmpty
 (
 {
 }
