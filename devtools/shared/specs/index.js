@@ -1489,7 +1489,7 @@ types
 :
 [
 "
-context
+thread
 "
 ]
 spec
