@@ -197,10 +197,6 @@ aParentCOMProxy
 MOZ_ASSERT
 (
 !
-mParentProxy
-&
-&
-!
 aParentCOMProxy
 .
 IsNull
