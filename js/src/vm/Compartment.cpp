@@ -1062,6 +1062,8 @@ getNonWrapperObjectForCurrentCompartment
 JSContext
 *
 cx
+HandleObject
+origObj
 MutableHandleObject
 obj
 )
@@ -1370,6 +1372,7 @@ cx
 global
 (
 )
+origObj
 obj
 objectPassedToWrap
 obj
@@ -1654,6 +1657,7 @@ if
 getNonWrapperObjectForCurrentCompartment
 (
 cx
+nullptr
 obj
 )
 )
@@ -1814,6 +1818,7 @@ if
 getNonWrapperObjectForCurrentCompartment
 (
 cx
+existingArg
 obj
 )
 )
