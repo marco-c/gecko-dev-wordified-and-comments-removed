@@ -375,6 +375,11 @@ extensions
 lastAppVersion
 "
 "
+fission
+.
+autostart
+"
+"
 font
 .
 "
