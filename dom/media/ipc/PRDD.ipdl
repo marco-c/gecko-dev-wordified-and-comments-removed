@@ -107,6 +107,10 @@ include
 protocol
 PRemoteDecoderManager
 ;
+include
+protocol
+PVideoBridge
+;
 using
 mozilla
 :
@@ -239,6 +243,16 @@ PreferenceUpdate
 (
 Pref
 pref
+)
+;
+async
+CreateVideoBridgeToParentProcess
+(
+Endpoint
+<
+PVideoBridgeChild
+>
+endpoint
 )
 ;
 child
