@@ -374,11 +374,18 @@ calculateLiveFixed
 pc
 )
 ;
+uint32_t
+numValueSlots
+=
+frameIterator
+.
+baselineFrameNumValueSlots
+(
+)
+;
 if
 (
 numValueSlots
-(
-)
 =
 =
 0
@@ -393,8 +400,6 @@ nfixed
 <
 =
 numValueSlots
-(
-)
 )
 ;
 if
@@ -411,8 +416,6 @@ this
 trc
 0
 numValueSlots
-(
-)
 )
 ;
 }
@@ -424,8 +427,6 @@ this
 trc
 nfixed
 numValueSlots
-(
-)
 )
 ;
 while

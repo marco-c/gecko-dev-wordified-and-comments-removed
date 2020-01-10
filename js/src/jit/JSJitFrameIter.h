@@ -830,6 +830,13 @@ baselineFrame
 )
 const
 ;
+inline
+uint32_t
+baselineFrameNumValueSlots
+(
+)
+const
+;
 #
 ifdef
 DEBUG
