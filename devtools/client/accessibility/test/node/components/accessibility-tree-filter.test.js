@@ -130,7 +130,7 @@ accessibility
 /
 test
 /
-jest
+node
 /
 helpers
 "

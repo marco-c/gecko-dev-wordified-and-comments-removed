@@ -91,7 +91,7 @@ accessibility
 /
 test
 /
-jest
+node
 "
 type
 :

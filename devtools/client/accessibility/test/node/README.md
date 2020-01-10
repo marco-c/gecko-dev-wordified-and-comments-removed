@@ -74,7 +74,7 @@ accessibility
 /
 test
 /
-jest
+node
 yarn
 &
 &
