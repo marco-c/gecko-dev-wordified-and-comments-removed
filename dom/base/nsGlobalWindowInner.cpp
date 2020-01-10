@@ -26840,6 +26840,13 @@ timeout
 #
 ifdef
 MOZ_GECKO_PROFILER
+if
+(
+profiler_can_accept_markers
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIDocShell
@@ -26853,13 +26860,6 @@ GetDocShell
 nsCString
 str
 ;
-if
-(
-profiler_is_active
-(
-)
-)
-{
 TimeDuration
 originalInterval
 =
@@ -26939,7 +26939,6 @@ Append
 handlerDescription
 )
 ;
-}
 AUTO_PROFILER_TEXT_MARKER_DOCSHELL_CAUSE
 (
 "
@@ -26957,6 +26956,7 @@ TakeProfilerBacktrace
 )
 )
 ;
+}
 #
 endif
 bool
