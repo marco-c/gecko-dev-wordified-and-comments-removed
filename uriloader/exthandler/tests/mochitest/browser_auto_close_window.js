@@ -197,9 +197,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -348,9 +346,7 @@ TabOpen
 .
 then
 (
-(
 event
-)
 =
 >
 {

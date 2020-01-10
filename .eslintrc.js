@@ -246,12 +246,6 @@ devtools
 *
 "
 "
-uriloader
-/
-*
-*
-"
-"
 view
 /
 *

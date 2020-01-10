@@ -256,6 +256,7 @@ substring
 psn_0_
 "
 )
+{
 Assert
 .
 equal
@@ -264,6 +265,7 @@ data
 kExpectedURI
 )
 ;
+}
 do_test_finished
 (
 )
@@ -408,6 +410,7 @@ exists
 (
 )
 )
+{
 do_throw
 (
 "
@@ -423,6 +426,7 @@ n
 "
 )
 ;
+}
 }
 var
 outFile
