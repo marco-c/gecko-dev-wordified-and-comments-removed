@@ -461,7 +461,7 @@ MAX_SLICE_KEYS
 const
 MAX_PHASES
 =
-65
+73
 ;
 const
 LOGGER_NAME

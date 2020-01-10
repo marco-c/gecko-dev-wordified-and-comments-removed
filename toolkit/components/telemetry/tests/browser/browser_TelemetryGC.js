@@ -27,6 +27,11 @@ jsm
 "
 )
 ;
+const
+MAX_PHASES
+=
+73
+;
 function
 check
 (
@@ -368,7 +373,7 @@ totals
 length
 <
 =
-65
+MAX_PHASES
 "
 totals
 array
