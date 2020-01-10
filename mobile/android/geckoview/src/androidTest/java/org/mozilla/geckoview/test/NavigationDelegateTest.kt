@@ -1509,9 +1509,9 @@ org
 /
 tests
 /
-robocop
+junit
 /
-robocop_blank_02
+hello
 .
 html
 "
@@ -1561,7 +1561,7 @@ org
 /
 tests
 /
-robocop
+junit
 /
 simple_redirect
 .
