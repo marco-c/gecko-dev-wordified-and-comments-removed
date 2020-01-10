@@ -467,14 +467,7 @@ run
 "
 suite
 :
-category
-:
 jittest
-name
-:
-jittest
--
-chunked
 treeherder
 -
 symbol

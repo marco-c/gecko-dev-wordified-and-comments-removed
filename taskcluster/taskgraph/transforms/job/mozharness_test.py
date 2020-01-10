@@ -1007,8 +1007,6 @@ suite
 mochitest
 -
 plain
--
-chunked
 '
 and
             

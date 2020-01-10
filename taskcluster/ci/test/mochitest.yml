@@ -289,8 +289,6 @@ name
 mochitest
 -
 plain
--
-chunked
 treeherder
 -
 symbol
@@ -542,8 +540,6 @@ mochitest
 browser
 -
 chrome
--
-chunked
 treeherder
 -
 symbol
@@ -1102,8 +1098,6 @@ mochitest
 devtools
 -
 chrome
--
-chunked
 treeherder
 -
 symbol
@@ -1892,8 +1886,6 @@ name
 mochitest
 -
 plain
--
-chunked
 treeherder
 -
 symbol
