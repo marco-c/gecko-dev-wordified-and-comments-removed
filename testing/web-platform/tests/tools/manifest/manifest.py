@@ -16,6 +16,8 @@ iteritems
 iterkeys
 itervalues
 string_types
+binary_type
+text_type
 from
 .
 import
@@ -1875,8 +1877,8 @@ isinstance
 (
 source_file
 (
-bytes
-str
+binary_type
+text_type
 )
 )
                 
