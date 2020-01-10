@@ -198,6 +198,18 @@ SyncAttributesWithPrivateBrowsing
 false
 )
 ;
+uint32_t
+maxTouchPoints
+=
+Manager
+(
+)
+-
+>
+GetMaxTouchPoints
+(
+)
+;
 MutableTabContext
 tabContext
 ;
@@ -210,6 +222,7 @@ false
 UIStateChangeType_Set
 attrs
 aPresentationURL
+maxTouchPoints
 )
 ;
 ProcessPriority

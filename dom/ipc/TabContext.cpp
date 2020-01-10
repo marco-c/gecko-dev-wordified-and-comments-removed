@@ -116,6 +116,10 @@ mShowFocusRings
 (
 UIStateChangeType_NoChange
 )
+mMaxTouchPoints
+(
+0
+)
 {
 }
 bool
@@ -362,6 +366,8 @@ const
 nsAString
 &
 aPresentationURL
+uint32_t
+aMaxTouchPoints
 )
 {
 NS_ENSURE_FALSE
@@ -393,6 +399,10 @@ aPresentationURL
 mShowFocusRings
 =
 aShowFocusRings
+;
+mMaxTouchPoints
+=
+aMaxTouchPoints
 ;
 return
 true
@@ -462,6 +472,7 @@ mIsMozBrowserElement
 mChromeOuterWindowID
 mPresentationURL
 mShowFocusRings
+mMaxTouchPoints
 )
 )
 ;
@@ -508,6 +519,11 @@ UIStateChangeType
 showFocusRings
 =
 UIStateChangeType_NoChange
+;
+uint32_t
+maxTouchPoints
+=
+0
 ;
 switch
 (
@@ -864,6 +880,14 @@ originAttributes
 (
 )
 ;
+maxTouchPoints
+=
+ipcContext
+.
+maxTouchPoints
+(
+)
+;
 break
 ;
 }
@@ -944,6 +968,7 @@ chromeOuterWindowID
 showFocusRings
 originAttributes
 presentationURL
+maxTouchPoints
 )
 ;
 }
