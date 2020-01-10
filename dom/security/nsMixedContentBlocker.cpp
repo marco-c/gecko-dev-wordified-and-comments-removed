@@ -3348,14 +3348,6 @@ eMixedDisplayObjectSubrequest
 )
 ;
 }
-rootDoc
--
->
-SetHasMixedContentObjectSubrequest
-(
-true
-)
-;
 }
 if
 (
