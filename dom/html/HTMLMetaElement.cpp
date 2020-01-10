@@ -271,13 +271,10 @@ content
 aDocument
 -
 >
-SetHeaderData
+UpdateReferrerInfoFromMeta
 (
-nsGkAtoms
-:
-:
-referrer
 content
+false
 )
 ;
 }

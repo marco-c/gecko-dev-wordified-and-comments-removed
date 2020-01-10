@@ -8095,7 +8095,7 @@ referrer
 mDocument
 -
 >
-GetDocumentURI
+GetDocumentURIAsReferrer
 (
 )
 ;

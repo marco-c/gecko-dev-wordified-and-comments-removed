@@ -15013,7 +15013,7 @@ referer
 doc
 -
 >
-GetDocumentURI
+GetDocumentURIAsReferrer
 (
 )
 ;
