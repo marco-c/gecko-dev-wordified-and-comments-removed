@@ -940,7 +940,6 @@ mValueAfter
 else
 if
 (
-(
 node
 -
 >
@@ -951,19 +950,6 @@ nsCounterChangeNode
 :
 :
 INCREMENT
-|
-|
-node
--
->
-mType
-=
-=
-nsCounterChangeNode
-:
-:
-SET
-)
 &
 &
 node
