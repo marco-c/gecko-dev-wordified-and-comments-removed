@@ -2076,6 +2076,16 @@ c_ulong
 ;
 pub
 const
+FIONCLEX
+:
+:
+:
+c_ulong
+=
+0x6602
+;
+pub
+const
 FIONBIO
 :
 :
@@ -3572,7 +3582,7 @@ TAB1
 :
 :
 :
-c_int
+tcflag_t
 =
 0x00000800
 ;
@@ -3582,7 +3592,7 @@ TAB2
 :
 :
 :
-c_int
+tcflag_t
 =
 0x00001000
 ;
@@ -3592,7 +3602,7 @@ TAB3
 :
 :
 :
-c_int
+tcflag_t
 =
 0x00001800
 ;
@@ -3602,7 +3612,7 @@ CR1
 :
 :
 :
-c_int
+tcflag_t
 =
 0x00000200
 ;
@@ -3612,7 +3622,7 @@ CR2
 :
 :
 :
-c_int
+tcflag_t
 =
 0x00000400
 ;
@@ -3622,7 +3632,7 @@ CR3
 :
 :
 :
-c_int
+tcflag_t
 =
 0x00000600
 ;
@@ -3632,7 +3642,7 @@ FF1
 :
 :
 :
-c_int
+tcflag_t
 =
 0x00008000
 ;
@@ -3642,7 +3652,7 @@ BS1
 :
 :
 :
-c_int
+tcflag_t
 =
 0x00002000
 ;
@@ -3652,7 +3662,7 @@ VT1
 :
 :
 :
-c_int
+tcflag_t
 =
 0x00004000
 ;
