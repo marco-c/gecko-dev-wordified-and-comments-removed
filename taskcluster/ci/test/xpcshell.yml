@@ -568,7 +568,13 @@ win
 win32
 -
 node
-default
+android
+-
+em
+-
+7
+.
+*
 :
 [
 ]
