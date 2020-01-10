@@ -974,7 +974,7 @@ return
 snapshot_helpers
 :
 :
-each_class
+each_class_or_part
 (
 &
 self
