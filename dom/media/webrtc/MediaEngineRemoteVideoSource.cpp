@@ -810,7 +810,7 @@ aFM
 )
 {
 return
-NS_ConvertUTF8toUTF16
+NS_ConvertASCIItoUTF16
 (
 dom
 :
@@ -818,15 +818,10 @@ dom
 VideoFacingModeEnumValues
 :
 :
-strings
-[
-uint32_t
+GetString
 (
 aFM
 )
-]
-.
-value
 )
 ;
 }
