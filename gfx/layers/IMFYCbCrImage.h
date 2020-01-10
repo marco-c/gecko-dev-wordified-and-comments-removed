@@ -85,7 +85,7 @@ GetTextureClient
 (
 KnowsCompositor
 *
-aForwarder
+aKnowsCompositor
 )
 override
 ;
@@ -97,7 +97,7 @@ GetD3D11TextureClient
 (
 KnowsCompositor
 *
-aForwarder
+aKnowsCompositor
 )
 ;
 static

@@ -4327,13 +4327,13 @@ GetTextureClient
 (
 KnowsCompositor
 *
-aForwarder
+aKnowsCompositor
 )
 {
 if
 (
 !
-aForwarder
+aKnowsCompositor
 )
 {
 return
@@ -4347,7 +4347,7 @@ mTextureClients
 .
 LookupForAdd
 (
-aForwarder
+aKnowsCompositor
 -
 >
 GetSerial
@@ -4401,7 +4401,7 @@ TextureClient
 :
 CreateFromSurface
 (
-aForwarder
+aKnowsCompositor
 surface
 BackendSelector
 :
@@ -4422,7 +4422,7 @@ textureClient
 >
 SyncWithObject
 (
-aForwarder
+aKnowsCompositor
 -
 >
 GetSyncObject
