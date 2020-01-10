@@ -461,6 +461,14 @@ error
 "
 "
 ^
+(
+resource
+\
+:
+/
+/
+)
+?
 devtools
 /
 client
