@@ -154,11 +154,6 @@ CamerasParent
 cpp
 '
 '
-ShmemPool
-.
-cpp
-'
-'
 VideoEngine
 .
 cpp
@@ -456,6 +451,11 @@ cpp
 '
 '
 MediaUtils
+.
+cpp
+'
+'
+ShmemPool
 .
 cpp
 '
