@@ -459,6 +459,14 @@ dmg
 tar
 .
 xz
+fetches
+:
+fetch
+:
+-
+libdmg
+-
+hfsplus
 linux64
 -
 mar
