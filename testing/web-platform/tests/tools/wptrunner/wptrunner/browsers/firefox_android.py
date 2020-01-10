@@ -3,10 +3,6 @@ os
 import
 moznetwork
 from
-mozprocess
-import
-ProcessHandler
-from
 mozprofile
 import
 FirefoxProfile
@@ -1159,24 +1155,6 @@ os
 getcwd
 (
 )
-                                           
-process_class
-=
-ProcessHandler
-                                           
-process_args
-=
-{
-"
-processOutputLine
-"
-:
-[
-self
-.
-on_output
-]
-}
 )
         
 self
