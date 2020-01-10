@@ -2084,6 +2084,14 @@ weakOverVideo
 =
 null
 ;
+if
+(
+!
+this
+.
+toggleTesting
+)
+{
 state
 .
 hideToggleDeferredTask
@@ -2092,6 +2100,7 @@ disarm
 (
 )
 ;
+}
 state
 .
 hideToggleDeferredTask
