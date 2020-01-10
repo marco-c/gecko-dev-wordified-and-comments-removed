@@ -280,6 +280,11 @@ thread
 js
 '
 '
+walker
+.
+js
+'
+'
 webconsole
 .
 js

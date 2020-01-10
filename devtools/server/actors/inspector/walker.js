@@ -55,7 +55,7 @@ shared
 /
 specs
 /
-inspector
+walker
 "
 )
 ;
