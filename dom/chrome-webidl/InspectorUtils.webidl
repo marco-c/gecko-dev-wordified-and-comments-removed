@@ -632,6 +632,13 @@ DOMString
 namespaceURI
 )
 ;
+boolean
+isElementThemed
+(
+Element
+element
+)
+;
 }
 ;
 dictionary
