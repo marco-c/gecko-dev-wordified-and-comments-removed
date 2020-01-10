@@ -131,6 +131,11 @@ SourceIcon
 .
 js
 '
+'
+SmartGap
+.
+js
+'
 )
 DevToolsModules
 (
