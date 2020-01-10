@@ -327,6 +327,7 @@ isa
 :
 Box
 <
+dyn
 TargetIsa
 >
 context

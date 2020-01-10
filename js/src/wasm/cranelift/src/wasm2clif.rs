@@ -514,6 +514,7 @@ isa
 &
 '
 a
+dyn
 TargetIsa
 env
 :
@@ -654,6 +655,7 @@ isa
 &
 '
 a
+dyn
 TargetIsa
 env
 :

@@ -21,6 +21,7 @@ DashError
 =
 Box
 <
+dyn
 error
 :
 :
