@@ -6277,6 +6277,11 @@ suppressGC
 this
 0
 )
+gcSweeping
+(
+this
+false
+)
 #
 ifdef
 DEBUG
@@ -6291,11 +6296,6 @@ this
 false
 )
 performingGC
-(
-this
-false
-)
-gcSweeping
 (
 this
 false

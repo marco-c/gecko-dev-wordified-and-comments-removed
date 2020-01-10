@@ -267,12 +267,12 @@ nbytes
 ;
 }
 void
-updateAllGCMallocCountersOnGCStart
+updateMemoryCountersOnGCStart
 (
 )
 ;
 void
-updateAllGCMallocCountersOnGCEnd
+updateMemoryCountersOnGCEnd
 (
 const
 js
@@ -284,7 +284,7 @@ lock
 )
 ;
 void
-updateAllGCThresholds
+updateGCThresholds
 (
 gc
 :
@@ -386,6 +386,10 @@ js
 :
 MemoryUse
 use
+bool
+wasSwept
+=
+false
 )
 {
 MOZ_ASSERT
@@ -403,6 +407,7 @@ gcMallocBytes
 removeBytes
 (
 nbytes
+wasSwept
 )
 ;
 #
@@ -589,6 +594,10 @@ ZoneAllocPolicy
 policy
 size_t
 nbytes
+bool
+wasSwept
+=
+false
 )
 {
 MOZ_ASSERT
@@ -601,6 +610,7 @@ gcMallocBytes
 removeBytes
 (
 nbytes
+wasSwept
 )
 ;
 #
@@ -1417,6 +1427,10 @@ size_t
 nbytes
 MemoryUse
 use
+bool
+wasSwept
+=
+false
 )
 {
 if
@@ -1448,6 +1462,7 @@ removeCellMemory
 cell
 nbytes
 use
+wasSwept
 )
 ;
 }
@@ -1466,6 +1481,10 @@ size_t
 nbytes
 MemoryUse
 use
+bool
+wasSwept
+=
+false
 )
 {
 if
@@ -1489,6 +1508,7 @@ asTenured
 )
 nbytes
 use
+wasSwept
 )
 ;
 }

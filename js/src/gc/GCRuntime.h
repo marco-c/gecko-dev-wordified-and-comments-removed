@@ -2014,7 +2014,7 @@ true
 ;
 }
 void
-updateMallocCountersOnGCStart
+updateMemoryCountersOnGCStart
 (
 )
 ;

@@ -7193,7 +7193,7 @@ next
 zone
 -
 >
-updateAllGCThresholds
+updateGCThresholds
 (
 *
 this
@@ -8396,7 +8396,7 @@ next
 zone
 -
 >
-updateAllGCThresholds
+updateGCThresholds
 (
 *
 this
@@ -15343,8 +15343,14 @@ zone
 >
 zoneSize
 .
-removeGCArena
+removeBytes
 (
+ArenaSize
+!
+ShouldRelocateAllArenas
+(
+reason
+)
 )
 ;
 if
@@ -22997,7 +23003,7 @@ markCompartments
 )
 ;
 }
-updateMallocCountersOnGCStart
+updateMemoryCountersOnGCStart
 (
 )
 ;
@@ -23294,10 +23300,16 @@ void
 GCRuntime
 :
 :
-updateMallocCountersOnGCStart
+updateMemoryCountersOnGCStart
 (
 )
 {
+heapSize
+.
+updateOnGCStart
+(
+)
+;
 for
 (
 GCZonesIter
@@ -23324,7 +23336,7 @@ next
 zone
 -
 >
-updateAllGCMallocCountersOnGCStart
+updateMemoryCountersOnGCStart
 (
 )
 ;
@@ -30388,7 +30400,7 @@ Finished
 zone
 -
 >
-updateAllGCThresholds
+updateGCThresholds
 (
 *
 this
@@ -30399,7 +30411,7 @@ lock
 zone
 -
 >
-updateAllGCMallocCountersOnGCEnd
+updateMemoryCountersOnGCEnd
 (
 lock
 )
