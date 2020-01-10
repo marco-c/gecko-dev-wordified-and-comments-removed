@@ -130,6 +130,11 @@ GeckoBundleUtils
 h
 '
 '
+GeckoResultUtils
+.
+h
+'
+'
 Natives
 .
 h
