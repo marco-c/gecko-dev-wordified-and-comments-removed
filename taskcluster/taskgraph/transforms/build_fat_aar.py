@@ -6,8 +6,6 @@ print_function
 unicode_literals
 import
 copy
-import
-os
 from
 taskgraph
 .
@@ -16,14 +14,6 @@ transforms
 base
 import
 TransformSequence
-from
-taskgraph
-.
-transforms
-.
-job
-import
-get_default_moz_fetches_dir
 from
 taskgraph
 .
@@ -343,20 +333,7 @@ env
 env_var
 ]
 =
-os
-.
-path
-.
-join
-(
-                
-get_default_moz_fetches_dir
-(
-job
-)
 aar_file_name
-            
-)
         
 job
 [
