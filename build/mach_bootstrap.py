@@ -2811,12 +2811,13 @@ resolved_name
         
 if
 not
-hasattr
+getattr
 (
 module
 '
 __file__
 '
+None
 )
 :
             
