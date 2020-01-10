@@ -330,11 +330,6 @@ WinDllServices
 .
 h
 '
-'
-WinTokenUtils
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -371,11 +366,6 @@ cpp
 '
 '
 WinDllServices
-.
-cpp
-'
-'
-WinTokenUtils
 .
 cpp
 '
