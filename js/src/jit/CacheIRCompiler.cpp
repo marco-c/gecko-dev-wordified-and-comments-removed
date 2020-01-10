@@ -8006,7 +8006,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardIsObject
+emitGuardToObject
 (
 )
 {
@@ -8657,7 +8657,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardIsBoolean
+emitGuardToBoolean
 (
 )
 {
@@ -8796,7 +8796,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardIsString
+emitGuardToString
 (
 )
 {
@@ -8886,7 +8886,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardIsSymbol
+emitGuardToSymbol
 (
 )
 {
@@ -8976,7 +8976,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardIsBigInt
+emitGuardToBigInt
 (
 )
 {
@@ -9066,7 +9066,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardIsInt32
+emitGuardToInt32
 (
 )
 {
@@ -9205,7 +9205,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardIsInt32Index
+emitGuardToInt32Index
 (
 )
 {
