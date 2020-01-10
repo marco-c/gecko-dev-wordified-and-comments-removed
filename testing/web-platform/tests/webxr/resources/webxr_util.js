@@ -316,6 +316,12 @@ inline
 }
 )
 ;
+glLayer
+.
+context
+=
+gl
+;
 session
 .
 updateRenderState
