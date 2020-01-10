@@ -496,8 +496,6 @@ cert
 .
 getEmailAddresses
 (
-{
-}
 )
 ;
 if
