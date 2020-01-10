@@ -22084,16 +22084,6 @@ NotifyOwnerDocumentActivityChanged
 ;
 if
 (
-!
-mDecoder
-)
-{
-return
-NS_ERROR_FAILURE
-;
-}
-if
-(
 mPausedForInactiveDocumentOrChannel
 )
 {
