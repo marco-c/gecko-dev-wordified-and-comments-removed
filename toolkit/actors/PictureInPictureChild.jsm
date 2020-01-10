@@ -2743,6 +2743,12 @@ cloneNode
 ;
 playerVideo
 .
+pause
+(
+)
+;
+playerVideo
+.
 removeAttribute
 (
 "
