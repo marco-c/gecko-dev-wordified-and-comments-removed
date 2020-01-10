@@ -604,10 +604,6 @@ bool
 aSuccess
 nsCString
 *
-nsCString
-*
-nsCString
-*
 )
 {
 MOZ_ASSERT
