@@ -14,7 +14,7 @@ h
 #
 include
 "
-MediaSpan
+MediaData
 .
 h
 "
@@ -29,9 +29,8 @@ ResourceItem
 {
 ResourceItem
 (
-const
-MediaSpan
-&
+MediaByteBuffer
+*
 aData
 uint64_t
 aOffset
@@ -45,7 +44,10 @@ aMallocSizeOf
 )
 const
 ;
-MediaSpan
+RefPtr
+<
+MediaByteBuffer
+>
 mData
 ;
 uint64_t
@@ -90,9 +92,8 @@ aDest
 void
 AppendItem
 (
-const
-MediaSpan
-&
+MediaByteBuffer
+*
 aData
 )
 ;
@@ -103,6 +104,9 @@ uint64_t
 aOffset
 uint32_t
 aSizeToEvict
+ErrorResult
+&
+aRv
 )
 ;
 uint32_t
@@ -110,6 +114,9 @@ EvictBefore
 (
 uint64_t
 aOffset
+ErrorResult
+&
+aRv
 )
 ;
 uint32_t

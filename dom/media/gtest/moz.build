@@ -238,11 +238,6 @@ TestMediaMIMETypes
 cpp
 '
 '
-TestMediaSpan
-.
-cpp
-'
-'
 TestMP3Demuxer
 .
 cpp

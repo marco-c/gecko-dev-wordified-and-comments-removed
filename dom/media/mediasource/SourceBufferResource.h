@@ -418,15 +418,6 @@ aData
 )
 ;
 void
-AppendData
-(
-const
-MediaSpan
-&
-aData
-)
-;
-void
 Ended
 (
 )
@@ -454,6 +445,9 @@ uint64_t
 aPlaybackOffset
 int64_t
 aThresholdReduct
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -461,6 +455,9 @@ EvictBefore
 (
 uint64_t
 aOffset
+ErrorResult
+&
+aRv
 )
 ;
 uint32_t
