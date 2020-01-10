@@ -235,6 +235,16 @@ availableData
 ;
 extern
 JS_PUBLIC_API
+void
+ReadableStreamReleaseCCObject
+(
+JSObject
+*
+stream
+)
+;
+extern
+JS_PUBLIC_API
 bool
 IsReadableStream
 (
