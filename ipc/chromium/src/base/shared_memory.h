@@ -359,6 +359,9 @@ OS_POSIX
 int
 mapped_file_
 ;
+size_t
+mapped_size_
+;
 #
 endif
 void
