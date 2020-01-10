@@ -8161,7 +8161,7 @@ root
 dsti
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (

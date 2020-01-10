@@ -12518,7 +12518,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 nsIDocShellTreeItem
 *

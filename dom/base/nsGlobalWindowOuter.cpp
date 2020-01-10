@@ -14440,7 +14440,7 @@ openerRootItem
 openerDocShell
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
@@ -19591,7 +19591,7 @@ rootItem
 mDocShell
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
@@ -20329,7 +20329,7 @@ rootItem
 mDocShell
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
@@ -21899,7 +21899,7 @@ rootItem
 mDocShell
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
@@ -28059,7 +28059,7 @@ rootItem
 mDocShell
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
@@ -30157,7 +30157,7 @@ rootItem
 treeItem
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (

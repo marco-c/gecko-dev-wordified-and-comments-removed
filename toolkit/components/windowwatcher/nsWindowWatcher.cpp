@@ -4358,7 +4358,7 @@ childRoot
 newDocShellItem
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (

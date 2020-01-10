@@ -31514,7 +31514,7 @@ rootItem
 treeItem
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
@@ -60536,7 +60536,7 @@ root
 mRootShellForIteration
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
@@ -63103,7 +63103,7 @@ rootItem
 docshell
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
@@ -63808,7 +63808,7 @@ rootItem
 docShell
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (

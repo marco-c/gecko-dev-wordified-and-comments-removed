@@ -12238,7 +12238,7 @@ rootItem
 parentDocShell
 -
 >
-GetRootTreeItem
+GetInProcessRootTreeItem
 (
 getter_AddRefs
 (
