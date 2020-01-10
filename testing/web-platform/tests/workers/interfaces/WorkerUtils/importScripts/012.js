@@ -1,5 +1,3 @@
-prevent
-recursion
 if
 (
 '
