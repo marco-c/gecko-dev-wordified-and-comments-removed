@@ -6242,6 +6242,17 @@ Save
 accesskey
 =
 v
+sync
+-
+connect
+-
+another
+-
+device
+=
+Connect
+another
+device
 #
 #
 Privacy
