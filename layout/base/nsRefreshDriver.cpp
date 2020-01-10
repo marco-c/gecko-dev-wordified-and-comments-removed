@@ -7346,6 +7346,17 @@ TimeStampToDOMHighRes
 aNowTime
 )
 ;
+if
+(
+!
+perf
+-
+>
+IsSystemPrincipal
+(
+)
+)
+{
 timeStamp
 =
 nsRFPService
@@ -7361,6 +7372,7 @@ TimerPrecisionType
 RFPOnly
 )
 ;
+}
 }
 }
 for
