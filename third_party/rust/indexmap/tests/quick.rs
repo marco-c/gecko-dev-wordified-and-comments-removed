@@ -16,6 +16,10 @@ quickcheck
 ;
 extern
 crate
+rand
+;
+extern
+crate
 fnv
 ;
 use
@@ -41,6 +45,12 @@ quickcheck
 :
 :
 Gen
+;
+use
+rand
+:
+:
+Rng
 ;
 use
 fnv

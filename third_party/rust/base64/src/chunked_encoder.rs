@@ -93,7 +93,6 @@ max_input_chunk_len
 max_input_length
 (
 BUF_SIZE
-&
 config
 )
 }
@@ -305,7 +304,6 @@ encoded_buf_len
 usize
 config
 :
-&
 Config
 )
 -
@@ -520,7 +518,7 @@ distributions
 :
 {
 Distribution
-Range
+Uniform
 }
 ;
 use
@@ -531,8 +529,8 @@ rand
 :
 :
 {
-Rng
 FromEntropy
+Rng
 }
 ;
 #
@@ -717,7 +715,6 @@ assert_eq
 max_input_length
 (
 1024
-&
 config
 )
 )
@@ -747,7 +744,6 @@ assert_eq
 max_input_length
 (
 1024
-&
 config
 )
 )
@@ -777,7 +773,6 @@ assert_eq
 max_input_length
 (
 1025
-&
 config
 )
 )
@@ -807,7 +802,6 @@ assert_eq
 max_input_length
 (
 1026
-&
 config
 )
 )
@@ -844,7 +838,6 @@ assert_eq
 max_input_length
 (
 401
-&
 config
 )
 )
@@ -912,7 +905,7 @@ from_entropy
 let
 input_len_range
 =
-Range
+Uniform
 :
 :
 new

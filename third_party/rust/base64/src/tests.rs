@@ -29,7 +29,7 @@ distributions
 :
 {
 Distribution
-Range
+Uniform
 }
 ;
 use
@@ -40,9 +40,21 @@ rand
 :
 :
 {
-Rng
 FromEntropy
+Rng
 }
+;
+use
+self
+:
+:
+rand
+:
+:
+seq
+:
+:
+SliceRandom
 ;
 #
 [
@@ -71,7 +83,7 @@ more
 vigorously
 roundtrip_random_config
 (
-Range
+Uniform
 :
 :
 new
@@ -94,7 +106,7 @@ roundtrip_random_config_long
 {
 roundtrip_random_config
 (
-Range
+Uniform
 :
 :
 new
@@ -116,7 +128,6 @@ encoded
 str
 config
 :
-&
 Config
 input_len
 :
@@ -163,7 +174,6 @@ expected_encoded_len
 encoded_size
 (
 input_len
-&
 config
 )
 .
@@ -248,7 +258,7 @@ roundtrip_random_config
 (
 input_len_range
 :
-Range
+Uniform
 <
 usize
 >
@@ -377,7 +387,6 @@ assert_encode_sanity
 (
 &
 encoded_buf
-&
 config
 input_len
 )
@@ -447,11 +456,11 @@ let
 charset
 =
 *
-rng
+CHARSETS
 .
 choose
 (
-CHARSETS
+rng
 )
 .
 unwrap

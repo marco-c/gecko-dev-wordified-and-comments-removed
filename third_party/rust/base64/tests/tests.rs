@@ -11,8 +11,8 @@ rand
 :
 :
 {
-Rng
 FromEntropy
+Rng
 }
 ;
 use
