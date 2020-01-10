@@ -868,6 +868,11 @@ headline
 >
 <
 hbox
+align
+=
+"
+center
+"
 >
 <
 label
