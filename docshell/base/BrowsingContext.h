@@ -598,7 +598,7 @@ aFromIPC
 false
 )
 ;
-void
+nsresult
 LoadURI
 (
 BrowsingContext
