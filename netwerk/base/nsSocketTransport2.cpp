@@ -5865,6 +5865,13 @@ IsIPAddrLocal
 &
 mNetAddr
 )
+|
+|
+IsIPAddrShared
+(
+&
+mNetAddr
+)
 )
 )
 {

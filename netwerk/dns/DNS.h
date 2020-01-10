@@ -858,6 +858,15 @@ NetAddr
 addr
 )
 ;
+bool
+IsIPAddrShared
+(
+const
+NetAddr
+*
+addr
+)
+;
 nsresult
 GetPort
 (
