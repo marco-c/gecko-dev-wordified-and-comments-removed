@@ -67,6 +67,9 @@ blobParts
 optional
 BlobPropertyBag
 options
+=
+{
+}
 )
 Exposed
 =
@@ -213,6 +216,9 @@ fileName
 optional
 FilePropertyBag
 options
+=
+{
+}
 )
 Exposed
 =
