@@ -1520,6 +1520,7 @@ marionette
 .
 set_pref
 (
+            
 "
 network
 .
@@ -1541,8 +1542,30 @@ auth
 -
 allow
 "
-                                 
+            
 True
+        
+)
+        
+self
+.
+new_tab
+=
+self
+.
+open_tab
+(
+)
+        
+self
+.
+marionette
+.
+switch_to_window
+(
+self
+.
+new_tab
 )
     
 def
@@ -1554,7 +1577,7 @@ self
         
 self
 .
-close_all_windows
+close_all_tabs
 (
 )
         
@@ -1564,6 +1587,7 @@ marionette
 .
 clear_pref
 (
+            
 "
 network
 .
