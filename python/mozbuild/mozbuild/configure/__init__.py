@@ -53,6 +53,8 @@ CommandLineHelper
     
 ConflictingOptionError
     
+HELP_OPTIONS_CATEGORY
+    
 InvalidOptionError
     
 Option
@@ -1877,6 +1879,12 @@ _config
 =
 config
         
+self
+.
+_template_depth
+=
+0
+        
 logging
 .
 addLevelName
@@ -2146,12 +2154,12 @@ self
 .
 option_impl
 (
+            
 '
 -
 -
 help
 '
-                                             
 help
 =
 '
@@ -2159,6 +2167,9 @@ print
 this
 message
 '
+category
+=
+HELP_OPTIONS_CATEGORY
 )
         
 self
@@ -4347,6 +4358,19 @@ when
 '
 }
         
+kwargs
+[
+'
+define_depth
+'
+]
+=
+self
+.
+_template_depth
+*
+3
+        
 option
 =
 Option
@@ -5295,6 +5319,13 @@ items
 )
 }
                 
+self
+.
+_template_depth
++
+=
+1
+                
 ret
 =
 template
@@ -5305,6 +5336,13 @@ args
 *
 kwargs
 )
+                
+self
+.
+_template_depth
+-
+=
+1
                 
 if
 isfunction
