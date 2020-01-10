@@ -49,6 +49,9 @@ aPrincipal
 nsIPrincipal
 *
 aStoragePrincipal
+SessionStorageCache
+*
+aCache
 )
 ;
 StorageType

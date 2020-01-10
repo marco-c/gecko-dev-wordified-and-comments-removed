@@ -67,6 +67,9 @@ aPrincipal
 nsIPrincipal
 *
 aStoragePrincipal
+SessionStorageCache
+*
+aCache
 )
 :
 Storage
@@ -77,10 +80,7 @@ aStoragePrincipal
 )
 mCache
 (
-new
-SessionStorageCache
-(
-)
+aCache
 )
 {
 }
