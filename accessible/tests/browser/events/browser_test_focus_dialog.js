@@ -368,6 +368,9 @@ snippetToURL
 "
 "
 {
+contentDocBodyAttrs
+:
+{
 id
 :
 "
@@ -378,6 +381,7 @@ contentEditable
 "
 true
 "
+}
 }
 )
 }
