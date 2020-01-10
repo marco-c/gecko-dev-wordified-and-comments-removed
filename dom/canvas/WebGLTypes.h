@@ -423,6 +423,7 @@ WEBGL_debug_renderer_info
 WEBGL_debug_shaders
 WEBGL_depth_texture
 WEBGL_draw_buffers
+WEBGL_explicit_present
 WEBGL_lose_context
 Max
 }

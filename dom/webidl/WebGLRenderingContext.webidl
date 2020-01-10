@@ -6329,3 +6329,16 @@ OES_fbo_render_mipmap
 {
 }
 ;
+[
+NoInterfaceObject
+]
+interface
+WEBGL_explicit_present
+{
+void
+present
+(
+)
+;
+}
+;
