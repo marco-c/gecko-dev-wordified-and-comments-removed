@@ -176,6 +176,10 @@ mAlwaysOnTop
 (
 false
 )
+mPIPWindow
+(
+false
+)
 {
 }
 nsWindowType
@@ -227,6 +231,9 @@ mHasRemoteContent
 ;
 bool
 mAlwaysOnTop
+;
+bool
+mPIPWindow
 ;
 }
 ;
