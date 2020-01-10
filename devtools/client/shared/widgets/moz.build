@@ -101,11 +101,6 @@ AbstractTreeItem
 jsm
 '
 '
-BarGraphWidget
-.
-js
-'
-'
 Chart
 .
 js
