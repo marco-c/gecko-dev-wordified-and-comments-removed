@@ -1746,6 +1746,13 @@ editorMode
 EditorToolbar
 (
 {
+key
+:
+"
+editor
+-
+toolbar
+"
 dispatch
 editorMode
 webConsoleUI
