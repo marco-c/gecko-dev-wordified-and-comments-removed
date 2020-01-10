@@ -144,9 +144,6 @@ DIRS
 '
 other
 '
-'
-extension
-'
 ]
 LOCAL_INCLUDES
 +
