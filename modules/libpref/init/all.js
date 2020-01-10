@@ -11360,7 +11360,7 @@ network
 .
 warnOnAboutNetworking
 "
-true
+false
 )
 ;
 pref
