@@ -399,6 +399,13 @@ cmdargs
 =
 [
             
+which
+(
+'
+python
+'
+)
+            
 binary
         
 ]
