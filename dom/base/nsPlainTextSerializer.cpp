@@ -885,7 +885,7 @@ prefixwidth
 ;
 const
 int32_t
-linelength
+contentLength
 =
 mContent
 .
@@ -897,7 +897,7 @@ while
 (
 goodSpace
 <
-linelength
+contentLength
 &
 &
 !
@@ -6508,7 +6508,7 @@ mLineBreaker
 ;
 const
 int32_t
-linelength
+contentLength
 =
 mCurrentLine
 .
@@ -6523,7 +6523,7 @@ if
 (
 goodSpace
 <
-linelength
+contentLength
 )
 &
 &
@@ -6562,7 +6562,7 @@ mContent
 Right
 (
 restOfLine
-linelength
+contentLength
 -
 goodSpace
 -
@@ -6579,7 +6579,7 @@ mContent
 Right
 (
 restOfLine
-linelength
+contentLength
 -
 goodSpace
 )
