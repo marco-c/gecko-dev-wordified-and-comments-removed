@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 .
 h
 "
@@ -40,7 +40,7 @@ GPUVideoTextureData
 :
 GPUVideoTextureData
 (
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 *
 aManager
 const

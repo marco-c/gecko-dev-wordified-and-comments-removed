@@ -152,7 +152,7 @@ class
 MemoryReportingProcess
 ;
 class
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 ;
 namespace
 layers
@@ -458,7 +458,7 @@ ipc
 :
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 *
 aOutVideoManager
@@ -772,7 +772,7 @@ aOutEndpoint
 )
 ;
 void
-CreateContentVideoDecoderManager
+CreateContentRemoteDecoderManager
 (
 base
 :
@@ -787,7 +787,7 @@ ipc
 :
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 *
 aOutEndPoint

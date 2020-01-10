@@ -264,10 +264,6 @@ PVRManager
 ;
 include
 protocol
-PVideoDecoderManager
-;
-include
-protocol
 PRemoteDecoderManager
 ;
 include
@@ -2228,7 +2224,7 @@ PVRManagerChild
 vr
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 video
 uint32_t
@@ -2304,7 +2300,7 @@ PVRManagerChild
 vr
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 video
 uint32_t

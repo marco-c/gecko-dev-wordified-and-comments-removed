@@ -84,7 +84,7 @@ h
 #
 include
 "
-VideoDecoderManagerParent
+RemoteDecoderManagerParent
 .
 h
 "
@@ -198,7 +198,7 @@ VideoDecoderParent
 :
 VideoDecoderParent
 (
-VideoDecoderManagerParent
+RemoteDecoderManagerParent
 *
 aParent
 const

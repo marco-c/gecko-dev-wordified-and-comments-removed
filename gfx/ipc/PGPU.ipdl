@@ -139,7 +139,7 @@ PUiCompositorController
 ;
 include
 protocol
-PVideoDecoderManager
+PRemoteDecoderManager
 ;
 using
 base
@@ -611,11 +611,11 @@ endpoint
 )
 ;
 async
-NewContentVideoDecoderManager
+NewContentRemoteDecoderManager
 (
 Endpoint
 <
-PVideoDecoderManagerParent
+PRemoteDecoderManagerParent
 >
 endpoint
 )

@@ -851,7 +851,7 @@ PVRManagerChild
 aVRBridge
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 &
 &
@@ -912,7 +912,7 @@ PVRManagerChild
 aVRBridge
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 &
 &

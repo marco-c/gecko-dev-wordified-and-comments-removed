@@ -13055,7 +13055,7 @@ vrBridge
 ;
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 videoManager
 ;
@@ -13871,7 +13871,7 @@ vrBridge
 ;
 Endpoint
 <
-PVideoDecoderManagerChild
+PRemoteDecoderManagerChild
 >
 videoManager
 ;

@@ -28,7 +28,7 @@ h
 #
 include
 "
-VideoDecoderManagerParent
+RemoteDecoderManagerParent
 .
 h
 "
@@ -95,7 +95,7 @@ VideoDecoderParent
 )
 VideoDecoderParent
 (
-VideoDecoderManagerParent
+RemoteDecoderManagerParent
 *
 aParent
 const
@@ -221,7 +221,7 @@ aData
 ;
 RefPtr
 <
-VideoDecoderManagerParent
+RemoteDecoderManagerParent
 >
 mParent
 ;

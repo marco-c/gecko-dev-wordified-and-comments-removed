@@ -60,7 +60,7 @@ namespace
 dom
 {
 class
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 ;
 }
 namespace
@@ -91,7 +91,7 @@ public
 :
 GPUVideoImage
 (
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 *
 aManager
 const

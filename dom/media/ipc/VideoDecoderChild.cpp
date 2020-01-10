@@ -29,7 +29,7 @@ h
 #
 include
 "
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 .
 h
 "
@@ -158,7 +158,7 @@ VideoDecoderChild
 :
 mThread
 (
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 :
 :
 GetManagerThread
@@ -765,7 +765,7 @@ GetManager
 )
 -
 >
-RunWhenRecreated
+RunWhenGPUProcessRecreated
 (
 NS_NewRunnableFunction
 (
@@ -920,14 +920,14 @@ aIdentifier
 {
 RefPtr
 <
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 >
 manager
 =
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 :
 :
-GetSingleton
+GetGPUProcessSingleton
 (
 )
 ;
@@ -944,7 +944,7 @@ NS_ERROR_DOM_MEDIA_FATAL_ERR
 RESULT_DETAIL
 (
 "
-VideoDecoderManager
+RemoteDecoderManager
 is
 not
 available
@@ -1672,7 +1672,7 @@ mThread
 )
 ;
 }
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 *
 VideoDecoderChild
 :
@@ -1694,7 +1694,7 @@ nullptr
 return
 static_cast
 <
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 *
 >
 (

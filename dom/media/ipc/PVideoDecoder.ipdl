@@ -95,7 +95,7 @@ MPL
 /
 include
 protocol
-PVideoDecoderManager
+PRemoteDecoderManager
 ;
 include
 PMediaDecoderParams
@@ -222,7 +222,7 @@ protocol
 PVideoDecoder
 {
 manager
-PVideoDecoderManager
+PRemoteDecoderManager
 ;
 parent
 :

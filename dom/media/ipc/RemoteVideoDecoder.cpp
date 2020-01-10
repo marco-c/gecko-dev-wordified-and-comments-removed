@@ -678,7 +678,7 @@ manager
 RemoteDecoderManagerChild
 :
 :
-GetSingleton
+GetRDDProcessSingleton
 (
 )
 ;

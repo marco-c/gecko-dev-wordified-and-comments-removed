@@ -369,11 +369,11 @@ ipc
 :
 :
 IPCResult
-RecvNewContentVideoDecoderManager
+RecvNewContentRemoteDecoderManager
 (
 Endpoint
 <
-PVideoDecoderManagerParent
+PRemoteDecoderManagerParent
 >
 &
 &

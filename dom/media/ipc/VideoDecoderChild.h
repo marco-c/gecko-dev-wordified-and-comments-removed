@@ -44,7 +44,7 @@ class
 RemoteDecoderModule
 ;
 class
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 ;
 using
 mozilla
@@ -288,7 +288,7 @@ IPDLActorDestroyed
 (
 )
 ;
-VideoDecoderManagerChild
+RemoteDecoderManagerChild
 *
 GetManager
 (
