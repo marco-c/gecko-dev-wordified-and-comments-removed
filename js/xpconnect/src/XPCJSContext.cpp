@@ -5091,7 +5091,7 @@ DefaultHeapMaxBytes
 JS
 :
 :
-DefaultNurseryBytes
+DefaultNurseryMaxBytes
 )
 ;
 }
