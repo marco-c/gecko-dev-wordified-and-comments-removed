@@ -88,16 +88,6 @@ MPL
 DevToolsModules
 (
 '
-Accordion
-.
-css
-'
-'
-Accordion
-.
-js
-'
-'
 LayoutApp
 .
 js

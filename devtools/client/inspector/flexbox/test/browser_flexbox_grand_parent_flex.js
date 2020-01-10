@@ -255,9 +255,11 @@ querySelector
 (
 "
 .
-_header
-.
-truncate
+accordion
+-
+header
+-
+label
 "
 )
 ;
