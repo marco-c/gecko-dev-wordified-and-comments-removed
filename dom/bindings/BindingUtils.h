@@ -9699,7 +9699,7 @@ DoTraceSequence
 JSTracer
 *
 trc
-InfallibleTArray
+nsTArray
 <
 T
 >
@@ -10537,7 +10537,7 @@ DoTraceSequence
 JSTracer
 *
 trc
-InfallibleTArray
+nsTArray
 <
 T
 >
@@ -10640,7 +10640,7 @@ const
 CX
 &
 cx
-InfallibleTArray
+nsTArray
 <
 T
 >
@@ -10798,7 +10798,7 @@ Value
 }
 union
 {
-InfallibleTArray
+nsTArray
 <
 T
 >
