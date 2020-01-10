@@ -135,6 +135,10 @@ set
 "
 "
 from
+__future__
+import
+print_function
+from
 copy
 import
 deepcopy
@@ -1166,6 +1170,7 @@ attempts
 :
             
 print
+(
 "
 Failed
 to
@@ -1187,6 +1192,7 @@ quiting
 (
 url
 attempts
+)
 )
             
 raise
@@ -1221,10 +1227,12 @@ except
 urllib2
 .
 URLError
+as
 e
 :
             
 print
+(
 "
 Error
 downloading
@@ -1244,15 +1252,18 @@ str
 e
 )
 )
+)
         
 except
 socket
 .
 timeout
+as
 e
 :
             
 print
+(
 "
 Time
 out
@@ -1271,15 +1282,18 @@ str
 e
 )
 )
+)
         
 except
 socket
 .
 error
+as
 e
 :
             
 print
+(
 "
 Socket
 error
@@ -1299,8 +1313,10 @@ str
 e
 )
 )
+)
         
 print
+(
 "
 Sleeping
 %
@@ -1311,6 +1327,7 @@ retrying
 "
 %
 sleeptime
+)
         
 time
 .
@@ -1368,10 +1385,12 @@ close
     
 except
 IOError
+as
 e
 :
         
 print
+(
 "
 Error
 writing
@@ -1391,6 +1410,7 @@ file_name
 str
 (
 e
+)
 )
 )
         
@@ -3071,11 +3091,13 @@ self
 :
         
 print
+(
 "
 Actions
 available
 :
 "
+)
         
 for
 a
@@ -3086,6 +3108,7 @@ all_actions
 :
             
 print
+(
 "
 "
 +
@@ -3104,6 +3127,7 @@ else
 "
 )
 a
+)
         
 raise
 SystemExit

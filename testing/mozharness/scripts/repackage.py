@@ -169,7 +169,7 @@ self
 chmod
 (
 mar_path
-0755
+0o755
 )
         
 if

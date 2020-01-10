@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 gc
 import
@@ -3714,7 +3718,7 @@ chmod
 self
 .
 temp_file
-0100700
+0o100700
 )
         
 self
@@ -5852,7 +5856,9 @@ sleeptime
 )
         
 print
+(
 ret
+)
         
 self
 .

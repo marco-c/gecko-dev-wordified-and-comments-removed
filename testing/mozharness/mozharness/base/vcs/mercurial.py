@@ -2353,6 +2353,7 @@ except
 subprocess
 .
 CalledProcessError
+as
 inst
 :
                 
