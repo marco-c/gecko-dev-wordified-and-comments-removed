@@ -21078,7 +21078,7 @@ WarnOnceAbout
 aOperation
 )
 ;
-nsAutoCString
+nsAutoString
 fileName
 ;
 Nullable
@@ -21142,10 +21142,7 @@ MaybeReportDeprecation
 (
 window
 aOperation
-NS_ConvertUTF8toUTF16
-(
 fileName
-)
 lineNumber
 columnNumber
 )

@@ -1074,7 +1074,7 @@ columnNumber
 =
 0
 ;
-nsAutoCString
+nsAutoString
 spec
 ;
 JSContext
@@ -1128,10 +1128,7 @@ p
 EmptyString
 (
 )
-NS_ConvertUTF8toUTF16
-(
 spec
-)
 EmptyString
 (
 )

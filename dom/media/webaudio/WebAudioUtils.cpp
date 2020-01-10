@@ -632,7 +632,7 @@ console
 return
 ;
 }
-nsAutoCString
+nsAutoString
 spec
 ;
 uint32_t
@@ -755,10 +755,7 @@ errorObject
 InitWithWindowID
 (
 result
-NS_ConvertUTF8toUTF16
-(
 spec
-)
 EmptyString
 (
 )

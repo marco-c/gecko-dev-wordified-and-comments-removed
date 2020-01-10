@@ -18299,7 +18299,7 @@ rv
 )
 ;
 }
-nsAutoCString
+nsAutoString
 spec
 ;
 if
@@ -18379,10 +18379,7 @@ errorObject
 InitWithWindowID
 (
 aErrorText
-NS_ConvertUTF8toUTF16
-(
 spec
-)
 aSourceLine
 aLineNumber
 aColumnNumber
