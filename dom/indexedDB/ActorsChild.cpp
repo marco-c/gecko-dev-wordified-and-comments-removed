@@ -855,6 +855,7 @@ ResultCallback
 {
 IDBRequest
 *
+const
 mRequest
 ;
 AutoSetCurrentTransaction
@@ -1631,6 +1632,7 @@ return
 NS_OK
 ;
 }
+const
 bool
 ok
 =
@@ -1684,6 +1686,7 @@ Value
 aResult
 )
 {
+const
 bool
 ok
 =
@@ -1870,6 +1873,7 @@ value
 aCx
 )
 ;
+const
 nsresult
 rv
 =
@@ -1958,6 +1962,7 @@ Value
 aResult
 )
 {
+const
 nsresult
 rv
 =
@@ -2148,6 +2153,7 @@ value
 aCx
 )
 ;
+const
 nsresult
 rv
 =
@@ -2288,8 +2294,9 @@ protected
 PermissionRequestMainProcessHelper
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual
@@ -2470,6 +2477,7 @@ get_IPCBlob
 (
 )
 ;
+const
 RefPtr
 <
 BlobImpl
@@ -2511,6 +2519,7 @@ blobImpl
 ;
 StructuredCloneFile
 *
+const
 file
 =
 aFiles
@@ -2600,6 +2609,7 @@ Tnull_t
 {
 StructuredCloneFile
 *
+const
 file
 =
 aFiles
@@ -2635,6 +2645,7 @@ TPBackgroundMutableFileChild
 {
 auto
 *
+const
 actor
 =
 static_cast
@@ -2664,6 +2675,7 @@ EnsureDOMObject
 ;
 auto
 *
+const
 mutableFile
 =
 static_cast
@@ -2687,6 +2699,7 @@ mutableFile
 ;
 StructuredCloneFile
 *
+const
 file
 =
 aFiles
@@ -2782,6 +2795,7 @@ get_IPCBlob
 (
 )
 ;
+const
 RefPtr
 <
 BlobImpl
@@ -2823,6 +2837,7 @@ blobImpl
 ;
 StructuredCloneFile
 *
+const
 file
 =
 aFiles
@@ -2876,6 +2891,7 @@ Tnull_t
 ;
 StructuredCloneFile
 *
+const
 file
 =
 aFiles
@@ -2933,6 +2949,7 @@ Tnull_t
 ;
 StructuredCloneFile
 *
+const
 file
 =
 aFiles
@@ -3038,6 +3055,7 @@ DispatchErrorEvent
 DOM
 )
 ;
+const
 RefPtr
 <
 IDBRequest
@@ -3046,6 +3064,7 @@ request
 =
 aRequest
 ;
+const
 RefPtr
 <
 IDBTransaction
@@ -3206,6 +3225,7 @@ aErrorCode
 IgnoredErrorResult
 rv
 ;
+const
 bool
 doDefault
 =
@@ -3281,6 +3301,7 @@ NS_ERROR_DOM_INDEXEDDB_ABORT_ERR
 {
 WidgetEvent
 *
+const
 internalEvent
 =
 aEvent
@@ -3359,6 +3380,7 @@ DispatchSuccessEvent
 DOM
 )
 ;
+const
 RefPtr
 <
 IDBRequest
@@ -3384,6 +3406,7 @@ AssertIsOnOwningThread
 (
 )
 ;
+const
 RefPtr
 <
 IDBTransaction
@@ -3599,6 +3622,7 @@ return
 }
 WidgetEvent
 *
+const
 internalEvent
 =
 aEvent
@@ -3671,6 +3695,7 @@ MOZ_ASSERT
 aStream
 )
 ;
+const
 nsCOMPtr
 <
 nsIFileMetadata
@@ -3699,6 +3724,7 @@ PRFileDesc
 *
 fileDesc
 ;
+const
 nsresult
 rv
 =
@@ -4025,6 +4051,7 @@ Run
 )
 override
 {
+const
 bool
 completed
 =
@@ -4058,6 +4085,7 @@ NS_IsMainThread
 )
 )
 {
+const
 RefPtr
 <
 WorkerPermissionOperationCompleted
@@ -4182,6 +4210,7 @@ GetParent
 }
 nsPIDOMWindowInner
 *
+const
 window
 =
 wp
@@ -4204,6 +4233,7 @@ true
 nsresult
 rv
 ;
+const
 nsCOMPtr
 <
 nsIPrincipal
@@ -4245,6 +4275,7 @@ XRE_IsParentProcess
 )
 )
 {
+const
 nsCOMPtr
 <
 Element
@@ -4447,6 +4478,7 @@ private
 :
 WorkerPrivate
 *
+const
 mWorkerPrivate
 ;
 BackgroundFactoryRequestChild
@@ -4459,6 +4491,7 @@ IDBFactory
 >
 mFactory
 ;
+const
 PrincipalInfo
 mPrincipalInfo
 ;
@@ -4676,6 +4709,7 @@ ResultCallback
 {
 IDBFileRequest
 *
+const
 mFileRequest
 ;
 AutoSetCurrentFileHandle
@@ -5095,6 +5129,7 @@ Value
 aResult
 )
 {
+const
 bool
 ok
 =
@@ -5559,6 +5594,7 @@ aResponse
 {
 auto
 *
+const
 actor
 =
 static_cast
@@ -5647,6 +5683,7 @@ isSome
 )
 )
 ;
+const
 RefPtr
 <
 BlobImpl
@@ -5687,6 +5724,7 @@ MOZ_ASSERT
 blobImpl
 )
 ;
+const
 RefPtr
 <
 BlobImpl
@@ -5784,6 +5822,7 @@ MOZ_ASSERT
 aFileHandle
 )
 ;
+const
 RefPtr
 <
 IDBFileRequest
@@ -5792,6 +5831,7 @@ fileRequest
 =
 aFileRequest
 ;
+const
 RefPtr
 <
 IDBFileHandle
@@ -5846,6 +5886,7 @@ MOZ_ASSERT
 aResultHelper
 )
 ;
+const
 RefPtr
 <
 IDBFileRequest
@@ -5871,6 +5912,7 @@ AssertIsOnOwningThread
 (
 )
 ;
+const
 RefPtr
 <
 IDBFileHandle
@@ -5972,6 +6014,7 @@ Finishing
 Completed
 }
 ;
+const
 nsCOMPtr
 <
 nsIEventTarget
@@ -6006,6 +6049,7 @@ BackgroundRequestChild
 *
 mActor
 ;
+const
 uint32_t
 mCloneDataIndex
 ;
@@ -6563,6 +6607,8 @@ AssertIsOnOwningThread
 )
 ;
 auto
+*
+const
 request
 =
 static_cast
