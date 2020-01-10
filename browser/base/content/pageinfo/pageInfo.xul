@@ -581,7 +581,7 @@ command
 id
 =
 "
-cmd_copy
+cmd_copy_tree
 "
 oncommand
 =
@@ -598,7 +598,7 @@ command
 id
 =
 "
-cmd_selectall
+cmd_selectall_tree
 "
 oncommand
 =
@@ -738,7 +738,7 @@ accel
 command
 =
 "
-cmd_copy
+cmd_copy_tree
 "
 /
 >
@@ -772,7 +772,7 @@ accel
 command
 =
 "
-cmd_selectall
+cmd_selectall_tree
 "
 /
 >
@@ -806,7 +806,7 @@ alt
 command
 =
 "
-cmd_selectall
+cmd_selectall_tree
 "
 /
 >
@@ -845,7 +845,7 @@ all
 command
 =
 "
-cmd_selectall
+cmd_selectall_tree
 "
 /
 >
@@ -870,7 +870,7 @@ copy
 command
 =
 "
-cmd_copy
+cmd_copy_tree
 "
 /
 >
