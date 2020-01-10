@@ -660,6 +660,7 @@ callback
                 
 callback
 (
+focus
 )
             
 else
@@ -996,6 +997,7 @@ bug
 def
 open_with_js
 (
+focus
 )
 :
             
@@ -1025,6 +1027,7 @@ execute_async_script
 let
 [
 url
+focus
 resolve
 ]
 =
@@ -1264,19 +1267,48 @@ focused
                     
 /
 /
-Now
-refocus
-our
-original
+The
+new
 window
-and
-wait
-for
-that
+shouldn
+'
+t
+get
+focused
+.
+As
+such
+set
+the
+                    
+/
+/
+focus
+back
 to
-happen
+the
+opening
+window
 .
                     
+if
+(
+!
+focus
+&
+&
+Services
+.
+focus
+.
+activeWindow
+!
+=
+window
+)
+{
+                      
+let
 focused
 =
 waitForFocus
@@ -1284,20 +1316,27 @@ waitForFocus
 window
 )
 ;
-                    
+                      
 window
 .
 focus
 (
 )
 ;
-                    
+                      
 await
 focused
 ;
                     
+}
+                    
 resolve
 (
+win
+.
+windowUtils
+.
+outerWindowID
 )
 ;
                   
@@ -1314,6 +1353,7 @@ script_args
 =
 (
 url
+focus
 )
 )
         
