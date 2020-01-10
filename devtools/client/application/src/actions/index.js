@@ -27,6 +27,18 @@ page
 "
 )
 ;
+const
+ui
+=
+require
+(
+"
+.
+/
+ui
+"
+)
+;
 Object
 .
 assign
@@ -34,5 +46,6 @@ assign
 exports
 workers
 page
+ui
 )
 ;

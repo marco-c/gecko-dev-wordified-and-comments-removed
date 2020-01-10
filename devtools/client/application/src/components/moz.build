@@ -58,6 +58,9 @@ DIRS
 =
 [
 '
+layout
+'
+'
 service
 -
 workers
