@@ -723,6 +723,13 @@ onGlobalLayout
 (
 )
 {
+ViewTreeObserver
+vto
+=
+getViewTreeObserver
+(
+)
+;
 if
 (
 !
