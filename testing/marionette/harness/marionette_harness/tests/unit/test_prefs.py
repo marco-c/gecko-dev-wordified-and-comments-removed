@@ -119,6 +119,20 @@ self
 )
 :
         
+ignored_prefs
+=
+[
+            
+"
+sanity
+-
+test
+.
+running
+"
+        
+]
+        
 required_prefs
 =
 geckoinstance
@@ -179,10 +193,18 @@ value
 else
 :
                 
+if
+key
+not
+in
+ignored_prefs
+:
+                    
 self
 .
 assertEqual
 (
+                        
 self
 .
 marionette
@@ -192,7 +214,7 @@ get_pref
 key
 )
 value
-                                 
+                        
 "
 Preference
 {

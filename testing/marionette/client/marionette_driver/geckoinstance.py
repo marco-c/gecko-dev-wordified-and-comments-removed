@@ -445,6 +445,16 @@ enabled
 False
         
 "
+sanity
+-
+test
+.
+running
+"
+:
+True
+        
+"
 security
 .
 certerrors
