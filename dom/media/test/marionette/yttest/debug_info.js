@@ -23,8 +23,8 @@ replace
 t
 /
 g
-'
-'
+"
+"
 )
 .
 split

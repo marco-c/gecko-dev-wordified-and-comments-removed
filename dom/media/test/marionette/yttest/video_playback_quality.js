@@ -2,9 +2,7 @@ var
 result
 =
 {
-"
 getVideoPlaybackQuality
-"
 :
 video
 .
