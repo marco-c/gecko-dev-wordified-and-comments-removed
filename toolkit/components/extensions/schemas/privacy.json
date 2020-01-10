@@ -199,6 +199,9 @@ default_public_interface_only
 "
 disable_non_proxied_udp
 "
+"
+proxy_only
+"
 ]
 "
 description
