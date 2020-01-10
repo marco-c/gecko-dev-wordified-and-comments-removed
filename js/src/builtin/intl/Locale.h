@@ -45,7 +45,7 @@ class
 GlobalObject
 ;
 class
-NativeLocaleObject
+LocaleObject
 :
 public
 NativeObject
@@ -141,7 +141,7 @@ UNICODE_EXTENSION_SLOT
 extern
 JSObject
 *
-CreateNativeLocalePrototype
+CreateLocalePrototype
 (
 JSContext
 *

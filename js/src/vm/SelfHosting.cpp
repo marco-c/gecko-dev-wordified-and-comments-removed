@@ -13603,7 +13603,7 @@ unwrapped
 >
 is
 <
-NativeLocaleObject
+LocaleObject
 >
 (
 )
@@ -13632,7 +13632,7 @@ unwrapped
 >
 as
 <
-NativeLocaleObject
+LocaleObject
 >
 (
 )

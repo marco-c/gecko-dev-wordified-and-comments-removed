@@ -4364,7 +4364,7 @@ RegionLength
 ;
 enum
 class
-LikelySubtags2
+LikelySubtags
 :
 bool
 {
@@ -4376,7 +4376,7 @@ static
 bool
 HasLikelySubtags
 (
-LikelySubtags2
+LikelySubtags
 likelySubtags
 const
 LanguageTag
@@ -4389,7 +4389,7 @@ if
 likelySubtags
 =
 =
-LikelySubtags2
+LikelySubtags
 :
 :
 Add
@@ -4958,7 +4958,7 @@ likelySubtagsFn
 >
 static
 bool
-CallLikelySubtags2
+CallLikelySubtags
 (
 JSContext
 *
@@ -5127,12 +5127,12 @@ append
 }
 static
 bool
-LikelySubtags2
+LikelySubtags
 (
 JSContext
 *
 cx
-LikelySubtags2
+LikelySubtags
 likelySubtags
 LanguageTag
 &
@@ -5184,7 +5184,7 @@ addLikelySubtags
 likelySubtags
 =
 =
-LikelySubtags2
+LikelySubtags
 :
 :
 Add
@@ -5193,7 +5193,7 @@ Add
 !
 HasLikelySubtags
 (
-LikelySubtags2
+LikelySubtags
 :
 :
 Add
@@ -5208,7 +5208,7 @@ addLikelySubtags
 if
 (
 !
-CallLikelySubtags2
+CallLikelySubtags
 <
 uloc_addLikelySubtags
 >
@@ -5229,7 +5229,7 @@ if
 likelySubtags
 =
 =
-LikelySubtags2
+LikelySubtags
 :
 :
 Remove
@@ -5261,7 +5261,7 @@ cx
 if
 (
 !
-CallLikelySubtags2
+CallLikelySubtags
 <
 uloc_minimizeSubtags
 >
@@ -5313,10 +5313,10 @@ cx
 )
 {
 return
-LikelySubtags2
+LikelySubtags
 (
 cx
-LikelySubtags2
+LikelySubtags
 :
 :
 Add
@@ -5337,10 +5337,10 @@ cx
 )
 {
 return
-LikelySubtags2
+LikelySubtags
 (
 cx
-LikelySubtags2
+LikelySubtags
 :
 :
 Remove
