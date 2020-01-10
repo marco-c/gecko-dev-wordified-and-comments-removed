@@ -3718,6 +3718,16 @@ enabled
 "
 true
 ]
+[
+"
+app
+.
+update
+.
+log
+"
+true
+]
 ]
 }
 )
