@@ -236,7 +236,13 @@ observed
 =
 true
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 onConsumed
 (
