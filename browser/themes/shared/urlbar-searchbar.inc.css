@@ -31,8 +31,12 @@ hsla
 )
 %
 define
-urlbarBreakoutExtend
+urlbarBreakoutVerticalExtend
 4px
+%
+define
+urlbarBreakoutHorizontalExtend
+55px
 :
 root
 {
@@ -583,7 +587,7 @@ margin
 top
 :
 -
-urlbarBreakoutExtend
+urlbarBreakoutVerticalExtend
 ;
 margin
 -
@@ -592,7 +596,7 @@ inline
 start
 :
 -
-urlbarBreakoutExtend
+urlbarBreakoutHorizontalExtend
 ;
 width
 :
@@ -609,7 +613,7 @@ width
 +
 2
 *
-urlbarBreakoutExtend
+urlbarBreakoutHorizontalExtend
 )
 ;
 min
@@ -631,7 +635,7 @@ height
 +
 2
 *
-urlbarBreakoutExtend
+urlbarBreakoutVerticalExtend
 )
 ;
 padding
@@ -640,7 +644,7 @@ calc
 (
 3px
 +
-urlbarBreakoutExtend
+urlbarBreakoutVerticalExtend
 )
 0
 ;
@@ -678,6 +682,12 @@ input
 -
 container
 {
+padding
+-
+inline
+:
+urlbarBreakoutHorizontalExtend
+;
 width
 :
 100
