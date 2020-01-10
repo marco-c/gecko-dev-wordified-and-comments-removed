@@ -13143,12 +13143,6 @@ select
 (
 )
 ;
-gURLBar
-.
-startLayoutExtend
-(
-)
-;
 }
 function
 openLocation
