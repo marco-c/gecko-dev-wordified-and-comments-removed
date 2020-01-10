@@ -16,15 +16,7 @@ item
 return
 item
 .
-querySelector
-(
-"
-.
-addon
--
-name
-"
-)
+addonNameEl
 .
 textContent
 ;

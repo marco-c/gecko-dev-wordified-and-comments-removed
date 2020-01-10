@@ -2008,15 +2008,7 @@ name
 =
 card
 .
-querySelector
-(
-"
-.
-addon
--
-name
-"
-)
+addonNameEl
 ;
 is
 (
