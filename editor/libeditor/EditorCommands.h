@@ -1112,6 +1112,12 @@ Command
 :
 FormatJustifyFull
 :
+case
+Command
+:
+:
+FormatJustifyNone
+:
 return
 EditorCommandParamType
 :

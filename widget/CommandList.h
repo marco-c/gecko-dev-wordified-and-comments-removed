@@ -495,6 +495,16 @@ cmd_increaseZIndex
 )
 NS_DEFINE_COMMAND
 (
+FormatJustify
+cmd_align
+)
+NS_DEFINE_COMMAND
+(
+FormatJustifyNone
+cmd_align
+)
+NS_DEFINE_COMMAND
+(
 FormatNoBreak
 cmd_nobreak
 )
