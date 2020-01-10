@@ -133,6 +133,11 @@ nsIBrowserDOMWindow
 idl
 '
 '
+nsIBrowserUsage
+.
+idl
+'
+'
 nsIContentPermissionPrompt
 .
 idl

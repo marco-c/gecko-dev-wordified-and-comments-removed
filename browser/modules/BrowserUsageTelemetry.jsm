@@ -11,6 +11,9 @@ EXPORTED_SYMBOLS
 BrowserUsageTelemetry
 "
 "
+getUniqueDomainsVisitedInPast24Hours
+"
+"
 URICountListener
 "
 "
@@ -3012,3 +3015,14 @@ currentTime
 }
 }
 ;
+function
+getUniqueDomainsVisitedInPast24Hours
+(
+)
+{
+return
+URICountListener
+.
+uniqueDomainsVisitedInPast24Hours
+;
+}
