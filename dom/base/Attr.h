@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsDOMAttributeMap
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h
