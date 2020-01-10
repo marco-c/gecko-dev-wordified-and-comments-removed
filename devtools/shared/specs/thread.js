@@ -351,16 +351,6 @@ json
 "
 )
 }
-response
-:
-RetVal
-(
-"
-nullable
-:
-json
-"
-)
 }
 sources
 :
