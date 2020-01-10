@@ -210,9 +210,7 @@ close
 )
 ;
 throw
-(
 e
-)
 ;
 }
 }
@@ -586,7 +584,6 @@ useDefault
 .
 disabled
 =
-(
 newProfileRoot
 .
 parent
@@ -594,7 +591,6 @@ parent
 equals
 (
 gDefaultProfileParent
-)
 )
 ;
 gProfileRoot
@@ -810,6 +806,7 @@ test
 profileNameToCheck
 )
 )
+{
 return
 gProfileManagerBundle
 .
@@ -820,6 +817,7 @@ profileNameEmpty
 "
 )
 ;
+}
 if
 (
 /
@@ -846,6 +844,7 @@ test
 profileNameToCheck
 )
 )
+{
 return
 gProfileManagerBundle
 .
@@ -861,6 +860,7 @@ RegExp
 ]
 )
 ;
+}
 if
 (
 profileExists
@@ -868,6 +868,7 @@ profileExists
 profileNameToCheck
 )
 )
+{
 return
 gProfileManagerBundle
 .
@@ -878,6 +879,7 @@ profileExists
 "
 )
 ;
+}
 return
 "
 "
@@ -916,9 +918,11 @@ toLowerCase
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false

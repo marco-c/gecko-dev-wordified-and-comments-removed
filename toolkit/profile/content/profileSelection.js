@@ -325,9 +325,7 @@ close
 )
 ;
 throw
-(
 e
-)
 ;
 }
 document
@@ -526,7 +524,6 @@ confirmEx
 window
 title
 message
-(
 PS
 .
 BUTTON_POS_0
@@ -534,9 +531,7 @@ BUTTON_POS_0
 PS
 .
 BUTTON_TITLE_IS_STRING
-)
 +
-(
 PS
 .
 BUTTON_POS_1
@@ -544,7 +539,6 @@ BUTTON_POS_1
 PS
 .
 BUTTON_TITLE_IS_STRING
-)
 restartButton
 exitButton
 null
@@ -846,8 +840,10 @@ platform
 macosx
 "
 )
+{
 break
 ;
+}
 case
 KeyEvent
 .
@@ -891,6 +887,7 @@ richlistitem
 "
 )
 )
+{
 document
 .
 documentElement
@@ -899,6 +896,7 @@ acceptDialog
 (
 )
 ;
+}
 }
 function
 CreateProfileWizard
@@ -1143,9 +1141,11 @@ newName
 =
 oldName
 )
+{
 return
 false
 ;
+}
 try
 {
 selectedProfile
@@ -1356,7 +1356,6 @@ confirmEx
 window
 dialogTitle
 dialogText
-(
 Services
 .
 prompt
@@ -1368,9 +1367,7 @@ Services
 prompt
 .
 BUTTON_POS_0
-)
 +
-(
 Services
 .
 prompt
@@ -1382,9 +1379,7 @@ Services
 prompt
 .
 BUTTON_POS_1
-)
 +
-(
 Services
 .
 prompt
@@ -1396,7 +1391,6 @@ Services
 prompt
 .
 BUTTON_POS_2
-)
 gProfileManagerBundle
 .
 getString
@@ -1429,9 +1423,11 @@ buttonPressed
 =
 1
 )
+{
 return
 false
 ;
+}
 if
 (
 buttonPressed
@@ -1439,10 +1435,12 @@ buttonPressed
 =
 2
 )
+{
 deleteFiles
 =
 true
 ;
+}
 }
 try
 {
