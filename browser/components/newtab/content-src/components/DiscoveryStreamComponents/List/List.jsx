@@ -998,7 +998,9 @@ list
 item
 -
 {
-index
+rec
+.
+id
 }
 }
 dispatch

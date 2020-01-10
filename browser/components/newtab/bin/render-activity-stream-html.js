@@ -598,7 +598,7 @@ body
 html
 >
 .
-trimStart
+trimLeft
 (
 )
 ;

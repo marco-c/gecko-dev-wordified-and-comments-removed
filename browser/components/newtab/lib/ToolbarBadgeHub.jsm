@@ -514,7 +514,7 @@ icon
 .
 classList
 .
-add
+remove
 (
 "
 feature

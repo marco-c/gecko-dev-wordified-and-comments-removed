@@ -200,7 +200,9 @@ key
 dscard
 -
 {
-index
+rec
+.
+id
 }
 }
 pos
