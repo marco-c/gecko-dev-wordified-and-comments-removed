@@ -1,9 +1,7 @@
 import
+defaultArea
 {
 StorageArea
-storage
-as
-defaultArea
 }
 from
 "
