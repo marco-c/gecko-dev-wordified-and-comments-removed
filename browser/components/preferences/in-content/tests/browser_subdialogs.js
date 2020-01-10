@@ -14,7 +14,7 @@ gTestPath
 "
 subdialog
 .
-xul
+xhtml
 "
 ;
 const
@@ -28,7 +28,7 @@ gTestPath
 "
 subdialog2
 .
-xul
+xhtml
 "
 ;
 function

@@ -19,7 +19,7 @@ ROOT
 "
 browser_tab_dragdrop2_frame1
 .
-xul
+xhtml
 "
 ;
 add_task

@@ -51,7 +51,7 @@ gTestPath
 "
 browser_bug1184989_prevent_scrolling_when_preferences_flipped
 .
-xul
+xhtml
 "
 ;
 await
