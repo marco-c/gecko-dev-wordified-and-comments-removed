@@ -2646,6 +2646,11 @@ RoundsWidgetCoordinatesTo
 override
 ;
 void
+UpdateMozWindowActive
+(
+)
+;
+void
 ForceTitlebarRedraw
 (
 )
