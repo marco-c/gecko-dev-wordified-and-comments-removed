@@ -892,7 +892,7 @@ dep_job
 .
 label
 else
-600
+900
             
 '
 chain
