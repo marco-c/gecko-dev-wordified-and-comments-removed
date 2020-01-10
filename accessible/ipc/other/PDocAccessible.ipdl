@@ -120,6 +120,10 @@ protocol
 PBrowser
 ;
 include
+protocol
+PDocAccessiblePlatformExt
+;
+include
 "
 mozilla
 /
@@ -328,8 +332,16 @@ PDocAccessible
 manager
 PBrowser
 ;
+manages
+PDocAccessiblePlatformExt
+;
 parent
 :
+async
+PDocAccessiblePlatformExt
+(
+)
+;
 async
 Shutdown
 (
