@@ -1298,8 +1298,8 @@ the
 notification
 is
 the
-nsIHttpChannel
 *
+nsIProcessSwitchRequestor
 instance
 .
 Observers
@@ -1309,11 +1309,11 @@ call
 switchProcessTo
 "
 to
+*
 perform
 a
 process
 switch
-*
 while
 this
 is
