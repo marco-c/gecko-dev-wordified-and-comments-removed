@@ -44,7 +44,7 @@ application
 /
 test
 /
-components
+jest
 /
 fixtures
 /

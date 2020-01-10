@@ -43,9 +43,7 @@ application
 /
 test
 /
-components
-/
-helpers
+jest
 /
 helpers
 "
