@@ -146,6 +146,11 @@ RightSidebar
 js
 '
 '
+TextLabelBadge
+.
+js
+'
+'
 Toolbar
 .
 js

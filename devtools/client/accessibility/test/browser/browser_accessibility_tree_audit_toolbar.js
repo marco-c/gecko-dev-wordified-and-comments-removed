@@ -167,6 +167,7 @@ toolbar
 [
 false
 false
+false
 ]
 }
 }
@@ -268,6 +269,7 @@ contrast
 toolbar
 :
 [
+true
 true
 true
 ]
@@ -404,6 +406,7 @@ contrast
 toolbar
 :
 [
+false
 false
 false
 ]

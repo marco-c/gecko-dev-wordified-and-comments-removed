@@ -186,6 +186,15 @@ CONTRAST
 "
 CONTRAST
 "
+[
+AUDIT_TYPE
+.
+TEXT_LABEL
+]
+:
+"
+TEXT_LABEL
+"
 }
 ;
 exports
