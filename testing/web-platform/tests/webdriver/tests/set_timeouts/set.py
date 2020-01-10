@@ -202,10 +202,32 @@ invalid
 argument
 "
 )
+pytest
+.
+mark
+.
+parametrize
+(
+"
+value
+"
+[
+{
+}
+{
+"
+a
+"
+:
+42
+}
+]
+)
 def
-test_parameters_empty_no_change
+test_parameters_unknown_fields
 (
 session
+value
 )
 :
     
@@ -224,8 +246,7 @@ response
 set_timeouts
 (
 session
-{
-}
+value
 )
     
 assert_success
