@@ -1802,6 +1802,16 @@ gBrowser
 selectedTab
 )
 ;
+await
+BrowserTestUtils
+.
+removeTab
+(
+gBrowser
+.
+selectedTab
+)
+;
 }
 )
 ;
