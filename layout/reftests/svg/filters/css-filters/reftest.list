@@ -740,6 +740,10 @@ fuzzy
 if
 (
 webrender
+&
+&
+!
+geckoview
 2
 -
 2
@@ -1040,6 +1044,10 @@ fuzzy
 if
 (
 webrender
+&
+&
+!
+geckoview
 1
 -
 1
@@ -1144,6 +1152,10 @@ fuzzy
 if
 (
 webrender
+&
+&
+!
+geckoview
 1
 -
 1
@@ -1206,6 +1218,10 @@ fuzzy
 if
 (
 webrender
+&
+&
+!
+geckoview
 1
 -
 1
@@ -1285,6 +1301,10 @@ fuzzy
 -
 if
 (
+webrender
+&
+&
+!
 webrender
 1
 -

@@ -216,7 +216,12 @@ webrender
 &
 &
 !
+(
 cocoaWidget
+|
+|
+geckoview
+)
 )
 =
 =

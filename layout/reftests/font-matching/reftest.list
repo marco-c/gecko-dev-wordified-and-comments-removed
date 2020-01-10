@@ -2580,6 +2580,10 @@ fails
 if
 (
 geckoview
+&
+&
+!
+webrender
 )
 =
 =
@@ -2653,6 +2657,10 @@ fails
 if
 (
 geckoview
+&
+&
+!
+webrender
 )
 =
 =
