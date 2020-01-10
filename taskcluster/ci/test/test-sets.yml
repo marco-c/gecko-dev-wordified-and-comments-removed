@@ -1616,12 +1616,6 @@ mochitest
 -
 webgl1
 -
-core
--
-mochitest
--
-webgl1
--
 ext
 -
 mochitest
@@ -1839,7 +1833,6 @@ gpu
 mochitest
 -
 media
-#
 -
 mochitest
 -
