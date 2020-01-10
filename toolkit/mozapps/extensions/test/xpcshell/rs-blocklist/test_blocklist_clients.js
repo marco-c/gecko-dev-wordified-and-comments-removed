@@ -139,7 +139,7 @@ BlocklistGlobal
 .
 ExtensionBlocklistRS
 .
-_ensureInitialized
+ensureInitialized
 (
 )
 ;
@@ -147,7 +147,7 @@ BlocklistGlobal
 .
 PluginBlocklistRS
 .
-_ensureInitialized
+ensureInitialized
 (
 )
 ;

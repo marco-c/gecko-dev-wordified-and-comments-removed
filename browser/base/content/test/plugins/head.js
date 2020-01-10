@@ -1247,7 +1247,7 @@ now
 await
 blocklistObj
 .
-_ensureInitialized
+ensureInitialized
 (
 )
 ;
