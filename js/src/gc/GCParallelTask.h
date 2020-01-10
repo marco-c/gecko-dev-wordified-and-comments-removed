@@ -249,8 +249,7 @@ return
 duration_
 ;
 }
-MOZ_MUST_USE
-bool
+void
 start
 (
 )
@@ -260,13 +259,12 @@ join
 (
 )
 ;
-MOZ_MUST_USE
-bool
+void
 startWithLockHeld
 (
 AutoLockHelperThreadState
 &
-locked
+lock
 )
 ;
 void
@@ -274,7 +272,7 @@ joinWithLockHeld
 (
 AutoLockHelperThreadState
 &
-locked
+lock
 )
 ;
 void
@@ -282,7 +280,7 @@ joinRunningOrFinishedTask
 (
 AutoLockHelperThreadState
 &
-locked
+lock
 )
 ;
 void
