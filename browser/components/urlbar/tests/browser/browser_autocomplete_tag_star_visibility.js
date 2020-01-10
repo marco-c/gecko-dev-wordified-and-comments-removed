@@ -505,16 +505,6 @@ type
 let
 expected_tags
 =
-UrlbarPrefs
-.
-get
-(
-"
-quantumbar
-"
-)
-&
-&
 !
 testcase
 .

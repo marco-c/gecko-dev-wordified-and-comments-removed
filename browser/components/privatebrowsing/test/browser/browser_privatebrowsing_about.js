@@ -886,18 +886,6 @@ r
 )
 )
 ;
-if
-(
-UrlbarPrefs
-.
-get
-(
-"
-quantumbar
-"
-)
-)
-{
 await
 UrlbarTestUtils
 .
@@ -906,7 +894,6 @@ promiseSearchComplete
 win
 )
 ;
-}
 ok
 (
 urlBarHasNormalFocus
