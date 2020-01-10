@@ -1217,9 +1217,8 @@ raster_space
 aData
 .
 z
->
->
-16
+&
+0xffff
 ;
 int
 subpx_dir
@@ -1230,7 +1229,7 @@ aData
 z
 >
 >
-8
+24
 )
 &
 0xff
@@ -1238,9 +1237,14 @@ z
 int
 color_mode
 =
+(
 aData
 .
 z
+>
+>
+16
+)
 &
 0xff
 ;
