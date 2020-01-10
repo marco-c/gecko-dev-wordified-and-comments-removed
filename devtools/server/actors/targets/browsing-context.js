@@ -658,6 +658,9 @@ logInPage
 :
 true
 canRewind
+watchpoints
+:
+true
 }
 ;
 this
