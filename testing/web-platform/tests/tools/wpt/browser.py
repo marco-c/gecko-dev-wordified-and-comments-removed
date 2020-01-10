@@ -3223,7 +3223,7 @@ group
 1
 )
 class
-Fennec
+FirefoxAndroid
 (
 Browser
 )
@@ -3232,9 +3232,10 @@ Browser
 "
 "
 "
-Fennec
+Android
 -
 specific
+Firefox
 interface
 .
 "
@@ -3244,7 +3245,7 @@ interface
 product
 =
 "
-fennec
+firefox_android
 "
     
 requirements

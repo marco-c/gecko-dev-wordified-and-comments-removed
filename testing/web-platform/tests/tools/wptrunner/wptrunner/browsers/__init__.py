@@ -230,11 +230,11 @@ edge_webdriver
 "
                 
 "
-fennec
+firefox
 "
                 
 "
-firefox
+firefox_android
 "
                 
 "

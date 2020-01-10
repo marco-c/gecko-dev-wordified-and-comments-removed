@@ -2030,7 +2030,7 @@ true
 "
 )
 class
-Fennec
+FirefoxAndroid
 (
 BrowserSetup
 )
@@ -2039,14 +2039,14 @@ BrowserSetup
 name
 =
 "
-fennec
+firefox_android
 "
     
 browser_cls
 =
 browser
 .
-Fennec
+FirefoxAndroid
     
 def
 setup_kwargs
@@ -3581,16 +3581,16 @@ product_setup
 {
     
 "
-fennec
-"
-:
-Fennec
-    
-"
 firefox
 "
 :
 Firefox
+    
+"
+firefox_android
+"
+:
+FirefoxAndroid
     
 "
 chrome

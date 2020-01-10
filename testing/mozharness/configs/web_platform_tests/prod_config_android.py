@@ -157,7 +157,7 @@ certutil
 -
 product
 =
-fennec
+firefox_android
 "
     
 ]
