@@ -572,6 +572,16 @@ SharedSurfaceIO
 cpp
 '
 ]
+OS_LIBS
++
+=
+[
+'
+-
+framework
+IOSurface
+'
+]
 elif
 gl_provider
 =
