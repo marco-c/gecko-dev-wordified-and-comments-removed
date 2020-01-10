@@ -58,9 +58,6 @@ namespace
 dom
 {
 class
-IPCURLClassifierFeature
-;
-class
 URLClassifierParent
 :
 public

@@ -259,14 +259,6 @@ get
 )
 ;
 }
-already_AddRefed
-<
-nsIInputStream
->
-GetInputStream
-(
-)
-;
 protected
 :
 virtual
