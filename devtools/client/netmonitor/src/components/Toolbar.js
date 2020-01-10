@@ -2597,6 +2597,12 @@ toggleSearchPanel
 )
 this
 .
+renderBlockingButton
+(
+toggleSearchPanel
+)
+this
+.
 renderSeparator
 (
 )
