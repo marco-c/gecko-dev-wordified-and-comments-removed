@@ -1263,7 +1263,7 @@ aErrorCode
 )
 ;
 nsresult
-BeginConnectActual
+MaybeResolveProxyAndBeginConnect
 (
 )
 ;
