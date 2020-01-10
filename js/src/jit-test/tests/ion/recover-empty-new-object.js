@@ -28,6 +28,11 @@ trigger
 20
 )
 ;
+gczeal
+(
+0
+)
+;
 function
 f
 (

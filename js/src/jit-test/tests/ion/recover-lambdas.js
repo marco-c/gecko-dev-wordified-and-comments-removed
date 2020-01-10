@@ -33,6 +33,11 @@ max
 10
 )
 ;
+gczeal
+(
+0
+)
+;
 function
 return_f
 (

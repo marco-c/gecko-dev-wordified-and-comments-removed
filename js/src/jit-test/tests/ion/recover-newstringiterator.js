@@ -17,6 +17,11 @@ max
 10
 )
 ;
+gczeal
+(
+0
+)
+;
 function
 selfhosted
 (

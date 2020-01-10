@@ -83,6 +83,11 @@ forceinlineCaches
 0
 )
 ;
+gczeal
+(
+0
+)
+;
 function
 resumeHere
 (
