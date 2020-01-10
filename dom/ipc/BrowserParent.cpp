@@ -280,7 +280,7 @@ mozilla
 /
 layout
 /
-RenderFrame
+RemoteLayerTreeOwner
 .
 h
 "
@@ -1156,7 +1156,7 @@ mContentCache
 *
 this
 )
-mRenderFrame
+mRemoteLayerTreeOwner
 {
 }
 mLayerTreeEpoch
@@ -2342,7 +2342,7 @@ const
 if
 (
 !
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 IsInitialized
 (
@@ -2356,7 +2356,7 @@ LayersId
 ;
 }
 return
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 GetLayersId
 (
@@ -2871,14 +2871,14 @@ widgetNativeData
 }
 if
 (
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 IsInitialized
 (
 )
 )
 {
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 OwnerContentChanged
 (
@@ -3316,14 +3316,14 @@ aCompositorOptions
 {
 if
 (
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 IsInitialized
 (
 )
 )
 {
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 EnsureLayersConnected
 (
@@ -3393,7 +3393,7 @@ why
 {
 if
 (
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 IsInitialized
 (
@@ -3402,14 +3402,14 @@ IsInitialized
 {
 RemoveBrowserParentFromTable
 (
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 GetLayersId
 (
 )
 )
 ;
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 Destroy
 (
@@ -4346,7 +4346,7 @@ InitRendering
 {
 if
 (
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 IsInitialized
 (
@@ -4356,7 +4356,7 @@ IsInitialized
 return
 ;
 }
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 Initialize
 (
@@ -4369,7 +4369,7 @@ layers
 LayersId
 layersId
 =
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 GetLayersId
 (
@@ -4384,7 +4384,7 @@ this
 TextureFactoryIdentifier
 textureFactoryIdentifier
 ;
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 GetTextureFactoryIdentifier
 (
@@ -4399,12 +4399,12 @@ SendInitRendering
 (
 textureFactoryIdentifier
 layersId
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 GetCompositorOptions
 (
 )
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 IsLayersConnected
 (
@@ -4423,7 +4423,7 @@ AttachLayerManager
 return
 !
 !
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 AttachLayerManager
 (
@@ -4494,7 +4494,7 @@ false
 }
 MOZ_ASSERT
 (
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 IsInitialized
 (
@@ -4504,7 +4504,7 @@ IsInitialized
 if
 (
 !
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 AttachLayerManager
 (
@@ -15273,7 +15273,7 @@ GetTargetLayerGuid
 ;
 if
 (
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 IsInitialized
 (
@@ -15288,7 +15288,7 @@ aOutTargetGuid
 mLayersId
 !
 =
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 GetLayersId
 (
@@ -15300,7 +15300,7 @@ aOutTargetGuid
 =
 ScrollableLayerGuid
 (
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 GetLayersId
 (
@@ -16152,7 +16152,7 @@ false
 ;
 if
 (
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 IsInitialized
 (
@@ -16165,7 +16165,7 @@ layers
 LayersId
 layersId
 =
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 GetLayersId
 (
@@ -16282,7 +16282,7 @@ return
 }
 if
 (
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 IsInitialized
 (
@@ -16295,7 +16295,7 @@ layers
 LayersId
 layersId
 =
-mRenderFrame
+mRemoteLayerTreeOwner
 .
 GetLayersId
 (

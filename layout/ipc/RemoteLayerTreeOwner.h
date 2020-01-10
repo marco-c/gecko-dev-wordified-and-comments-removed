@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_layout_RenderFrame_h
+mozilla_layout_RemoteLayerTreeOwner_h
 #
 define
-mozilla_layout_RenderFrame_h
+mozilla_layout_RemoteLayerTreeOwner_h
 #
 include
 "
@@ -91,7 +91,7 @@ namespace
 layout
 {
 class
-RenderFrame
+RemoteLayerTreeOwner
 final
 {
 typedef
@@ -136,13 +136,13 @@ TextureFactoryIdentifier
 ;
 public
 :
-RenderFrame
+RemoteLayerTreeOwner
 (
 )
 ;
 virtual
 ~
-RenderFrame
+RemoteLayerTreeOwner
 (
 )
 ;

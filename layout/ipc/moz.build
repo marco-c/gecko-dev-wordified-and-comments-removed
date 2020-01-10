@@ -114,7 +114,7 @@ layout
 =
 [
 '
-RenderFrame
+RemoteLayerTreeOwner
 .
 h
 '
@@ -134,7 +134,7 @@ UNIFIED_SOURCES
 =
 [
 '
-RenderFrame
+RemoteLayerTreeOwner
 .
 cpp
 '

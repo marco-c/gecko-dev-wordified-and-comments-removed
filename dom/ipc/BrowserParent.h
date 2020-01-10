@@ -146,7 +146,7 @@ mozilla
 /
 layout
 /
-RenderFrame
+RemoteLayerTreeOwner
 .
 h
 "
@@ -3705,8 +3705,8 @@ mContentCache
 layout
 :
 :
-RenderFrame
-mRenderFrame
+RemoteLayerTreeOwner
+mRemoteLayerTreeOwner
 ;
 LayersObserverEpoch
 mLayerTreeEpoch
