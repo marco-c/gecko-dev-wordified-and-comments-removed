@@ -694,9 +694,6 @@ FindChar
 ;
 if
 (
-aContentCharset
-&
-&
 commaIdx
 =
 =
@@ -713,12 +710,6 @@ commaIdx
 =
 =
 0
-|
-|
-commaIdx
-=
-=
-kNotFound
 )
 {
 aContentType
