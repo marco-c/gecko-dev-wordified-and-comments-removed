@@ -441,6 +441,14 @@ true
 )
 ;
 }
+getOriginalDefault
+(
+)
+{
+return
+kDefaultHomePage
+;
+}
 get
 overridden
 (
