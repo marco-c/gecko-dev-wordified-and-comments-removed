@@ -1506,8 +1506,6 @@ return
 rv
 ;
 }
-AUTO_PROFILER_INIT2
-;
 SystemGroup
 :
 :

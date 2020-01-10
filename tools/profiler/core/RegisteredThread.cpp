@@ -13,7 +13,7 @@ RegisteredThread
 ThreadInfo
 *
 aInfo
-nsIThread
+nsIEventTarget
 *
 aThread
 void

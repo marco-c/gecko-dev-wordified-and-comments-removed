@@ -646,12 +646,6 @@ aMayWait
 EventQueuePriority
 *
 aPriority
-mozilla
-:
-:
-TimeDuration
-*
-aLastEventDelay
 )
 {
 MutexAutoLock
@@ -690,7 +684,6 @@ GetEvent
 (
 aPriority
 lock
-aLastEventDelay
 )
 ;
 }
@@ -711,7 +704,6 @@ GetEvent
 (
 aPriority
 lock
-aLastEventDelay
 )
 ;
 }
@@ -1328,9 +1320,6 @@ event
 EventQueuePriority
 prio
 ;
-TimeDuration
-delay
-;
 while
 (
 (
@@ -1346,8 +1335,6 @@ GetEvent
 &
 prio
 lock
-&
-delay
 )
 )
 )
@@ -1364,8 +1351,6 @@ forget
 )
 prio
 lock
-&
-delay
 )
 ;
 }

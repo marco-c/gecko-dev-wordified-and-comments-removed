@@ -165,14 +165,6 @@ aMayWait
 EventQueuePriority
 *
 aPriority
-mozilla
-:
-:
-TimeDuration
-*
-aLastEventDelay
-=
-nullptr
 )
 =
 0
