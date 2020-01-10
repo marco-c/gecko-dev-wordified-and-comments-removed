@@ -264,6 +264,11 @@ TrivialCtorDtorChecker
 cpp
 '
 '
+TrivialDtorChecker
+.
+cpp
+'
+'
 VariableUsageHelpers
 .
 cpp
