@@ -332,7 +332,7 @@ kSharedMemorySize
 =
 1024
 *
-400
+450
 ;
 private
 :
