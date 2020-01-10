@@ -813,6 +813,14 @@ moz
 build
 \
 {
+TOPSRCDIR
+}
+/
+mozglue
+/
+static
+\
+{
 tgtpath
 }
 /
