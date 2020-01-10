@@ -444,6 +444,11 @@ MediaEmulationData
 h
 '
 '
+MotionPathUtils
+.
+h
+'
+'
 MVMContext
 .
 h
@@ -530,6 +535,11 @@ cpp
 '
 '
 MobileViewportManager
+.
+cpp
+'
+'
+MotionPathUtils
 .
 cpp
 '

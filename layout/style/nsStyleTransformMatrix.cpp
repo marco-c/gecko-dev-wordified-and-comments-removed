@@ -31,6 +31,15 @@ include
 "
 mozilla
 /
+MotionPathUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindings
 .
 h

@@ -42610,7 +42610,7 @@ mTransform
 )
 mMotion
 (
-nsLayoutUtils
+MotionPathUtils
 :
 :
 ResolveMotionPath
