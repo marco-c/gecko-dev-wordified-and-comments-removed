@@ -122,7 +122,7 @@ version
 .
 49
 .
-3
+2
 "
 authors
 =
@@ -368,15 +368,6 @@ rs
 doc
 =
 false
-required
--
-features
-=
-[
-"
-clap
-"
-]
 [
 dependencies
 .
@@ -457,9 +448,6 @@ version
 "
 2
 "
-optional
-=
-true
 [
 dependencies
 .
@@ -652,9 +640,6 @@ default
 [
 "
 logging
-"
-"
-clap
 "
 ]
 logging
