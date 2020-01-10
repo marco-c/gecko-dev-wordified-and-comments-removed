@@ -792,24 +792,26 @@ key_indent
 line_indent
                 
 if
-strict
-:
-                    
-assert
 key
-                    
-if
+and
 current_section
 is
 not
 variables
 :
-                        
+                    
 assert
 key
 not
 in
 current_section
+                
+if
+strict
+:
+                    
+assert
+key
                 
 current_section
 [
