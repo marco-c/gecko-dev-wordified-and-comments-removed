@@ -4677,6 +4677,8 @@ start
 -
 1
 ;
+if
+(
 nsIContent
 *
 focusedContent
@@ -4684,10 +4686,6 @@ focusedContent
 GetFocusedContent
 (
 )
-;
-if
-(
-focusedContent
 )
 {
 start
@@ -4711,10 +4709,11 @@ start
 focusedContent
 -
 >
-GetBindingParent
+IsInNativeAnonymousSubtree
 (
 )
 )
+{
 start
 =
 mAccessKeys
@@ -4724,11 +4723,12 @@ IndexOf
 focusedContent
 -
 >
-GetBindingParent
+GetClosestNativeAnonymousSubtreeRootParent
 (
 )
 )
 ;
+}
 }
 RefPtr
 <
