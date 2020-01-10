@@ -118,6 +118,11 @@ ComputeIntrinsicResolution
 )
 const
 ;
+void
+HandleDOMMetaAdded
+(
+)
+;
 private
 :
 void
