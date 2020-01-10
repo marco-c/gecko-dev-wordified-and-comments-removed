@@ -5524,14 +5524,6 @@ _urlbarFocused
 gURLBar
 )
 {
-gURLBar
-.
-view
-.
-close
-(
-)
-;
 if
 (
 gURLBar
