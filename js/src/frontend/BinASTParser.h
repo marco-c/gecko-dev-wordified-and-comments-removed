@@ -211,15 +211,6 @@ Tokenizer
 Chars
 ;
 using
-Context
-=
-typename
-BinASTTokenReaderBase
-:
-:
-Context
-;
-using
 ListContext
 =
 typename
@@ -245,6 +236,22 @@ BinASTTokenReaderBase
 :
 :
 RootContext
+;
+using
+FieldOrRootContext
+=
+BinASTTokenReaderBase
+:
+:
+FieldOrRootContext
+;
+using
+FieldOrListContext
+=
+BinASTTokenReaderBase
+:
+:
+FieldOrListContext
 ;
 public
 :
@@ -715,7 +722,7 @@ ParseNode
 parseParameter
 (
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -779,7 +786,7 @@ ParseNode
 parseStatement
 (
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1049,7 +1056,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1153,7 +1160,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1287,7 +1294,7 @@ ParseNode
 parseBindingIdentifier
 (
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1303,7 +1310,7 @@ ParseNode
 parseBlock
 (
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1376,7 +1383,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldOrRootContext
 &
 context
 )
@@ -1401,7 +1408,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldOrRootContext
 &
 context
 )
@@ -1442,7 +1449,7 @@ ParseNode
 parseIdentifierExpression
 (
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1567,7 +1574,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1593,7 +1600,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1843,7 +1850,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1895,7 +1902,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1921,7 +1928,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1947,7 +1954,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1973,7 +1980,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -1999,7 +2006,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2025,7 +2032,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2051,7 +2058,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2103,7 +2110,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2129,7 +2136,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2155,7 +2162,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2207,7 +2214,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2259,7 +2266,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2285,7 +2292,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2337,7 +2344,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2389,7 +2396,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2415,7 +2422,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2441,7 +2448,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2467,7 +2474,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2493,7 +2500,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2597,7 +2604,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2623,7 +2630,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2675,7 +2682,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2701,7 +2708,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2727,7 +2734,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2788,7 +2795,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldOrRootContext
 &
 context
 )
@@ -2823,7 +2830,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldOrRootContext
 &
 context
 )
@@ -2884,7 +2891,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2910,7 +2917,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2936,7 +2943,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2962,7 +2969,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -2988,7 +2995,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3014,7 +3021,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3040,7 +3047,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3144,7 +3151,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3170,7 +3177,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3196,7 +3203,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3222,7 +3229,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3274,7 +3281,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3300,7 +3307,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3352,7 +3359,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3378,7 +3385,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3430,7 +3437,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3456,7 +3463,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3482,7 +3489,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3647,7 +3654,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3751,7 +3758,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3777,7 +3784,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3803,7 +3810,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3829,7 +3836,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3855,7 +3862,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3881,7 +3888,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3907,7 +3914,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3933,7 +3940,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3959,7 +3966,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -3985,7 +3992,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -4037,7 +4044,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -4063,7 +4070,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -4089,7 +4096,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -4115,7 +4122,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
