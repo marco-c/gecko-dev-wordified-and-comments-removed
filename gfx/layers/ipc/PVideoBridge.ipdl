@@ -192,16 +192,6 @@ uint64_t
 aSerial
 )
 ;
-async
-Flush
-(
-)
-returns
-(
-bool
-result
-)
-;
 }
 ;
 }
