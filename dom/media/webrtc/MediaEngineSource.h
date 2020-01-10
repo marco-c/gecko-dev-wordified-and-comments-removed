@@ -253,6 +253,10 @@ nsString
 &
 aDeviceId
 const
+nsString
+&
+aGroupId
+const
 mozilla
 :
 :
@@ -328,6 +332,10 @@ nsString
 &
 aDeviceId
 const
+nsString
+&
+aGroupId
+const
 char
 *
 *
@@ -388,6 +396,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 )
 const
 =

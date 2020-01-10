@@ -210,12 +210,9 @@ true
 ;
 boolean
 groupId
+=
+true
 ;
-/
-/
-to
-be
-supported
 /
 /
 Mozilla

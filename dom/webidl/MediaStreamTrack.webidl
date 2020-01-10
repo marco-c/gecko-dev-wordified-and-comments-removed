@@ -357,6 +357,9 @@ scrollWithPage
 ConstrainDOMString
 deviceId
 ;
+ConstrainDOMString
+groupId
+;
 ConstrainLong
 viewportOffsetX
 ;

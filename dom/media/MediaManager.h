@@ -1246,12 +1246,13 @@ static
 void
 GuessVideoDeviceGroupIDs
 (
-MediaManager
-:
-:
 MediaDeviceSet
 &
 aDevices
+const
+MediaDeviceSet
+&
+aAudios
 )
 ;
 private

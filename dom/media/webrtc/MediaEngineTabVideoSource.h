@@ -137,6 +137,10 @@ nsString
 &
 aDeviceId
 const
+nsString
+&
+aGroupId
+const
 ipc
 :
 :
@@ -201,6 +205,10 @@ nsString
 &
 aDeviceId
 const
+nsString
+&
+aGroupId
+const
 char
 *
 *
@@ -236,6 +244,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsString
+&
+aGroupId
 )
 const
 override
