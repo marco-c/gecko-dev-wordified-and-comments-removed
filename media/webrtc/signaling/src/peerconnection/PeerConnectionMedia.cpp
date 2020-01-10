@@ -1977,9 +1977,9 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-bool
-isFileScheme
-;
+if
+(
+!
 doc
 -
 >
@@ -1993,14 +1993,7 @@ SchemeIs
 "
 file
 "
-&
-isFileScheme
 )
-;
-if
-(
-!
-isFileScheme
 )
 {
 nsIChannel

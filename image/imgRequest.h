@@ -442,16 +442,6 @@ aURI
 )
 ;
 bool
-IsScheme
-(
-const
-char
-*
-aScheme
-)
-const
-;
-bool
 IsChrome
 (
 )
