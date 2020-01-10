@@ -540,7 +540,7 @@ Services
 .
 profiler
 .
-getProfileDataAsArrayBuffer
+getProfileDataAsGzippedArrayBuffer
 (
 )
 .
