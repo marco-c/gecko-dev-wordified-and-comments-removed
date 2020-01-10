@@ -4100,10 +4100,6 @@ getAttribute
 titlepreface
 "
 )
-|
-|
-"
-"
 ;
 newTitle
 +
@@ -5605,7 +5601,7 @@ activeElement
 =
 document
 .
-body
+documentElement
 )
 {
 return
