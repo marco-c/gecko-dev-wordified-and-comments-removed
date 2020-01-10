@@ -70,7 +70,7 @@ framework
 :
 FrameworkException
 "
-exception
+interface
 FrameworkException
 {
 /
@@ -112,6 +112,7 @@ identifier
 "
 code
 "
+attribute
 long
 code
 ;

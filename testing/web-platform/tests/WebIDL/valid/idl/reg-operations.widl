@@ -39,11 +39,6 @@ height
 ;
 }
 ;
-exception
-NoPointerDevice
-{
-}
-;
 interface
 Button
 {
