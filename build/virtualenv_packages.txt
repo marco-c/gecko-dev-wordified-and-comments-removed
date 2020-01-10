@@ -177,6 +177,8 @@ third_party
 python
 /
 funcsigs
+python2
+:
 mozilla
 .
 pth
@@ -389,6 +391,8 @@ python
 requests
 -
 unixsocket
+python2
+:
 mozilla
 .
 pth
