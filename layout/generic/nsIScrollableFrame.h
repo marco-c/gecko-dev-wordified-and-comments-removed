@@ -231,7 +231,7 @@ const
 0
 ;
 uint32_t
-GetAvailableScrollingDirections
+GetPerceivedScrollingDirections
 (
 )
 const

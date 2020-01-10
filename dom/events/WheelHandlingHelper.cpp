@@ -368,7 +368,7 @@ directions
 aScrollFrame
 -
 >
-GetAvailableScrollingDirections
+GetPerceivedScrollingDirections
 (
 )
 ;
@@ -3358,7 +3358,7 @@ return
 mScrollTargetFrame
 -
 >
-GetAvailableScrollingDirections
+GetPerceivedScrollingDirections
 (
 )
 &
@@ -3381,7 +3381,7 @@ return
 mScrollTargetFrame
 -
 >
-GetAvailableScrollingDirections
+GetPerceivedScrollingDirections
 (
 )
 &
