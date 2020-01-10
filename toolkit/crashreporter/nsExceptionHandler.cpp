@@ -926,13 +926,12 @@ XP_TTOA
 (
 time
 buffer
-base
 )
 ltoa
 (
 time
 buffer
-base
+10
 )
 #
 else
@@ -942,13 +941,12 @@ XP_TTOA
 (
 time
 buffer
-base
 )
 _i64toa
 (
 time
 buffer
-base
+10
 )
 #
 endif
@@ -958,13 +956,12 @@ XP_STOA
 (
 size
 buffer
-base
 )
 _ui64toa
 (
 size
 buffer
-base
+10
 )
 #
 else
@@ -1051,9 +1048,7 @@ XP_TTOA
 (
 time
 buffer
-base
 )
-\
 my_inttostring
 (
 time
@@ -1069,9 +1064,7 @@ XP_STOA
 (
 size
 buffer
-base
 )
-\
 my_inttostring
 (
 size
@@ -1099,7 +1092,6 @@ XP_TTOA
 (
 time
 buffer
-base
 )
 sprintf
 (
@@ -1116,7 +1108,6 @@ XP_STOA
 (
 size
 buffer
-base
 )
 sprintf
 (
@@ -4212,7 +4203,6 @@ XP_TTOA
 (
 crashTime
 crashTimeString
-10
 )
 ;
 WriteAnnotation
@@ -4307,7 +4297,6 @@ XP_TTOA
 (
 timeSinceLastCrash
 timeSinceLastCrashString
-10
 )
 ;
 WriteAnnotation
@@ -4357,7 +4346,6 @@ XP_STOA
 (
 eventloopNestingLevel
 buffer
-10
 )
 ;
 WriteAnnotation
@@ -4461,7 +4449,6 @@ XP_STOA
 (
 gOOMAllocationSize
 oomAllocationSizeBuffer
-10
 )
 ;
 WriteAnnotation
@@ -4493,7 +4480,6 @@ XP_STOA
 (
 gTexturesSize
 texturesSizeBuffer
-10
 )
 ;
 WriteAnnotation
@@ -5120,7 +5106,6 @@ XP_TTOA
 (
 crashTime
 crashTimeString
-10
 )
 ;
 if
@@ -5849,7 +5834,6 @@ XP_STOA
 (
 gOOMAllocationSize
 oomAllocationSizeBuffer
-10
 )
 ;
 WriteAnnotation
@@ -7243,7 +7227,6 @@ XP_TTOA
 (
 startupTime
 timeString
-10
 )
 ;
 AnnotateCrashReport
