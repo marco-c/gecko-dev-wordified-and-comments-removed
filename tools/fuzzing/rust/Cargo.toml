@@ -39,6 +39,11 @@ libc
 .
 2
 "
+tempfile
+=
+"
+3
+"
 [
 dependencies
 .
