@@ -10584,7 +10584,16 @@ type
 )
 {
 return
-false
+d
+.
+fail
+(
+"
+expected
+global
+type
+"
+)
 ;
 }
 uint8_t
