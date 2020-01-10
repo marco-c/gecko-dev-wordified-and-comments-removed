@@ -384,15 +384,9 @@ mShutdownPipe
 2
 ]
 ;
-bool
-mDoRouteCheckIPv4
-;
 struct
 in_addr
 mRouteCheckIPv4
-;
-bool
-mDoRouteCheckIPv6
 ;
 struct
 in6_addr
@@ -445,7 +439,7 @@ LinkInfo
 )
 ;
 bool
-UpdateLinkStatus
+UpdateStatus
 (
 )
 ;
