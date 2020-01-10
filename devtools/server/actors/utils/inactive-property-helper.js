@@ -2290,15 +2290,6 @@ position
 =
 =
 "
-absolute
-"
-|
-|
-position
-=
-=
-=
-"
 fixed
 "
 |
