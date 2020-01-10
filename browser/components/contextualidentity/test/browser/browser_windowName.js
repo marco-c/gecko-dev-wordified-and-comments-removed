@@ -442,9 +442,7 @@ i
 <
 gBrowser
 .
-tabContainer
-.
-children
+tabs
 .
 length
 ;
@@ -458,9 +456,7 @@ tab
 =
 gBrowser
 .
-tabContainer
-.
-children
+tabs
 [
 i
 ]
