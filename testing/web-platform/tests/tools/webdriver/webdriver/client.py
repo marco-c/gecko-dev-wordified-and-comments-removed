@@ -2710,6 +2710,12 @@ return
 body
 =
 {
+"
+capabilities
+"
+:
+{
+}
 }
         
 if
