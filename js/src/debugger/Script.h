@@ -220,6 +220,17 @@ getReferentCell
 const
 ;
 inline
+js
+:
+:
+BaseScript
+*
+getReferentScript
+(
+)
+const
+;
+inline
 DebuggerScriptReferent
 getReferent
 (
