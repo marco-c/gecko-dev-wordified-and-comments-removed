@@ -324,12 +324,6 @@ side
 [
 0
 ]
-flags
-=
-"
-APPLIES_TO_FIRST_LETTER
-APPLIES_TO_FIRST_LINE
-"
 animation_value_type
 =
 "
