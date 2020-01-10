@@ -1807,6 +1807,10 @@ gcTypes_
 (
 gcTypesConfigured
 )
+multiValues_
+(
+true
+)
 hugeMemory_
 (
 hugeMemory
@@ -2109,6 +2113,11 @@ gcTypes_
 gcEnabled
 ;
 refTypes_
+=
+!
+craneliftEnabled
+;
+multiValues_
 =
 !
 craneliftEnabled
