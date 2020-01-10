@@ -2813,6 +2813,11 @@ TimeStamp
 mStartTime
 ;
 bool
+mIceFinished
+=
+false
+;
+bool
 mHaveConfiguredCodecs
 ;
 bool
