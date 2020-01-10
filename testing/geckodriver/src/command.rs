@@ -14,12 +14,6 @@ hyper
 Method
 ;
 use
-regex
-:
-:
-Captures
-;
-use
 serde
 :
 :
@@ -73,6 +67,12 @@ uuid
 :
 :
 Uuid
+;
+use
+webdriver
+:
+:
+Parameters
 ;
 use
 webdriver
@@ -374,7 +374,7 @@ self
 params
 :
 &
-Captures
+Parameters
 body_data
 :
 &
@@ -448,7 +448,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -501,7 +501,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId

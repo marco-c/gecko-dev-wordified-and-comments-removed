@@ -2,6 +2,12 @@ use
 crate
 :
 :
+Parameters
+;
+use
+crate
+:
+:
 actions
 :
 :
@@ -62,12 +68,6 @@ Route
 VoidWebDriverExtensionRoute
 WebDriverExtensionRoute
 }
-;
-use
-regex
-:
-:
-Captures
 ;
 use
 serde
@@ -422,7 +422,6 @@ from_http
 (
 match_type
 :
-&
 Route
 <
 U
@@ -430,7 +429,7 @@ U
 params
 :
 &
-Captures
+Parameters
 raw_body
 :
 &
@@ -872,7 +871,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -936,7 +935,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1010,7 +1009,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1066,7 +1065,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1122,7 +1121,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1163,7 +1162,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 name
@@ -1212,7 +1211,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1253,7 +1252,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 name
@@ -1302,7 +1301,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1343,7 +1342,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 propertyName
@@ -1392,7 +1391,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1448,7 +1447,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1504,7 +1503,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1560,7 +1559,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1616,7 +1615,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1672,7 +1671,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1728,7 +1727,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -1846,7 +1845,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 name
@@ -1926,7 +1925,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 name
@@ -2068,7 +2067,7 @@ try_opt
 (
 params
 .
-name
+get
 (
 "
 elementId
@@ -2158,7 +2157,7 @@ get_session_id
 params
 :
 &
-Captures
+Parameters
 )
 -
 >
@@ -2169,27 +2168,15 @@ String
 {
 params
 .
-name
+get
 (
 "
 sessionId
 "
 )
 .
-map
+cloned
 (
-|
-x
-|
-x
-.
-as_str
-(
-)
-.
-into
-(
-)
 )
 }
 fn

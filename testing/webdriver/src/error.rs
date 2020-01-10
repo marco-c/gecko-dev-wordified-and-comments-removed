@@ -5,7 +5,7 @@ base64
 DecodeError
 ;
 use
-hyper
+http
 :
 :
 StatusCode
