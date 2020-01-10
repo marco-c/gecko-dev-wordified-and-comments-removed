@@ -106,8 +106,15 @@ virtual
 nsresult
 SetMetadata
 (
+const
+nsTArray
+<
+RefPtr
+<
 TrackMetadataBase
-*
+>
+>
+&
 aMetadata
 )
 =
