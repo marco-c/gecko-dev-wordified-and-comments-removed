@@ -1131,6 +1131,8 @@ v2
 REPODIR
 }
 .
+shippable
+.
 latest
 .
 {
@@ -1170,6 +1172,8 @@ v2
 mozilla
 -
 central
+.
+shippable
 .
 latest
 .
