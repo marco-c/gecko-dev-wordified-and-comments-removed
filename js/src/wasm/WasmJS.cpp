@@ -12909,6 +12909,7 @@ finalize
 (
 FreeOp
 *
+fop
 JSObject
 *
 obj
@@ -12938,7 +12939,10 @@ isNewborn
 )
 )
 {
-js_delete
+fop
+-
+>
+delete_
 (
 global
 -
