@@ -508,7 +508,7 @@ CPU_ARCH
 =
 =
 '
-mips
+mips32
 '
 :
 SOURCES
