@@ -1172,6 +1172,9 @@ PushManager
 insecureContext
 :
 true
+fennecOrDesktop
+:
+true
 }
 {
 name
@@ -1182,6 +1185,9 @@ PushSubscription
 insecureContext
 :
 true
+fennecOrDesktop
+:
+true
 }
 {
 name
@@ -1190,6 +1196,9 @@ name
 PushSubscriptionOptions
 "
 insecureContext
+:
+true
+fennecOrDesktop
 :
 true
 }

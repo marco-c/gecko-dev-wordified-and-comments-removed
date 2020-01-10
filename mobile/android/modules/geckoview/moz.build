@@ -155,11 +155,6 @@ GeckoViewProgress
 jsm
 '
 '
-GeckoViewPushController
-.
-jsm
-'
-'
 GeckoViewRemoteDebugger
 .
 jsm
