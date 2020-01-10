@@ -243,6 +243,11 @@ OSPreferences
 .
 h
 '
+'
+Quotes
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -285,6 +290,11 @@ cpp
 '
 '
 OSPreferences
+.
+cpp
+'
+'
+Quotes
 .
 cpp
 '
