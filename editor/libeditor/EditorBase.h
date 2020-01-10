@@ -2502,7 +2502,7 @@ case
 EditSubAction
 :
 :
-eCreateOrChangeDefinitionList
+eCreateOrChangeDefinitionListItem
 :
 case
 EditSubAction

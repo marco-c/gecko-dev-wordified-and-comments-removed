@@ -169,7 +169,7 @@ eSetOrClearAlignment
 eCreateOrRemoveBlock
 eMergeBlockContents
 eRemoveList
-eCreateOrChangeDefinitionList
+eCreateOrChangeDefinitionListItem
 eInsertElement
 eInsertQuotation
 eInsertQuotedText
