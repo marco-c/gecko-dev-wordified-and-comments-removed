@@ -342,7 +342,7 @@ maximum
 element
 :
 '
-funcref
+anyfunc
 '
 }
 )
