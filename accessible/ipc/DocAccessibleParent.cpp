@@ -3048,6 +3048,16 @@ defined
 (
 XP_WIN
 )
+if
+(
+aChildDoc
+-
+>
+IsTopLevelInContentProcess
+(
+)
+)
+{
 auto
 embeddedBrowser
 =
@@ -3241,6 +3251,7 @@ mEmulatedWindowHandle
 nullptr
 )
 ;
+}
 }
 }
 #

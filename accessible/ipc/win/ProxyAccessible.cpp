@@ -236,6 +236,16 @@ GetExistingID
 (
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+realId
+.
+ulVal
+!
+=
+CHILDID_SELF
+)
+;
 thisPtr
 -
 >
