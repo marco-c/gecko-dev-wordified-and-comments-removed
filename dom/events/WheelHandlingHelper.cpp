@@ -507,14 +507,14 @@ do_QueryInterface
 content
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 ?
 content
 -
 >
-GetBindingParent
+GetClosestNativeAnonymousSubtreeRootParent
 (
 )
 :
