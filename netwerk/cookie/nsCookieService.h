@@ -1542,8 +1542,6 @@ const
 nsACString
 &
 aPath
-bool
-aBlocked
 )
 ;
 protected
