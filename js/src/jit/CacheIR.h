@@ -12579,6 +12579,17 @@ indexId
 )
 ;
 AttachDecision
+tryAttachTypedArrayNonInt32Index
+(
+HandleObject
+obj
+ObjOperandId
+objId
+ValOperandId
+keyId
+)
+;
+AttachDecision
 tryAttachSparse
 (
 HandleObject
