@@ -7,14 +7,6 @@ components
 /
 newtab
 /
-logs
-/
-browser
-/
-components
-/
-newtab
-/
 vendor
 /
 browser

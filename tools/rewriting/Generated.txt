@@ -4,6 +4,14 @@ components
 /
 newtab
 /
+logs
+/
+browser
+/
+components
+/
+newtab
+/
 node_modules
 /
 devtools
