@@ -3233,15 +3233,6 @@ builtin
 /
 intl
 /
-LangTagMappingsIANAGenerated
-.
-js
-'
-'
-builtin
-/
-intl
-/
 NumberFormat
 .
 js
