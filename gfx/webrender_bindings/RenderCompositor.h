@@ -360,15 +360,6 @@ aClipRect
 )
 {
 }
-void
-wr_compositor_unbind
-(
-void
-*
-aCompositor
-)
-{
-}
 virtual
 bool
 SurfaceIsYFlipped
