@@ -23766,6 +23766,12 @@ busy
 }
 if
 (
+!
+isSameDocument
+)
+{
+if
+(
 this
 .
 mTab
@@ -23776,10 +23782,6 @@ hasAttribute
 soundplaying
 "
 )
-&
-&
-!
-isSameDocument
 )
 {
 clearTimeout
@@ -23928,10 +23930,6 @@ pending
 aWebProgress
 .
 isLoadingDocument
-&
-&
-!
-isSameDocument
 )
 {
 this
@@ -23942,6 +23940,7 @@ mIconURL
 =
 null
 ;
+}
 }
 let
 userContextId
