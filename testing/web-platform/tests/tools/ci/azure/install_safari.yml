@@ -47,15 +47,6 @@ preview
 script
 :
 |
-#
-Pinned
-to
-Safari
-Technology
-Preview
-version
-94
-.
 HOMEBREW_NO_AUTO_UPDATE
 =
 1
@@ -80,7 +71,7 @@ cask
 -
 versions
 /
-02e2aff2d578cc7d8545cf035bffa45293bb1de1
+master
 /
 Casks
 /
