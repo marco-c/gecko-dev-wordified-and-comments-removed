@@ -272,7 +272,7 @@ addressOfNurseryAllocCount
 )
 ;
 bool
-nurseryEnabled
+nurseryExists
 (
 )
 ;
