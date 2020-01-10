@@ -856,7 +856,7 @@ mChildNodes
 mChildNodes
 -
 >
-DropReference
+InvalidateCacheIfAvailable
 (
 )
 ;
@@ -927,8 +927,13 @@ mChildNodes
 mChildNodes
 -
 >
-DropReference
+InvalidateCacheIfAvailable
 (
+)
+;
+ImplCycleCollectionUnlink
+(
+mChildNodes
 )
 ;
 }
