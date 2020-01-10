@@ -153,6 +153,13 @@ editor
 js
 '
 '
+highlighter
+-
+renderer
+.
+js
+'
+'
 measuring
 -
 tool
