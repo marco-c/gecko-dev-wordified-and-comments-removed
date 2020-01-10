@@ -326,6 +326,9 @@ size
 YUVColorSpace
 yUVColorSpace
 ;
+ColorRange
+colorRange
+;
 }
 ;
 struct
@@ -354,6 +357,9 @@ colorDepth
 ;
 YUVColorSpace
 yUVColorSpace
+;
+ColorRange
+colorRange
 ;
 }
 ;
