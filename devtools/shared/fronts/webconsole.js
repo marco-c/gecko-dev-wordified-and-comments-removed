@@ -707,6 +707,11 @@ options
 text
 :
 string
+bindObjectActor
+:
+opts
+.
+bindObjectActor
 frameActor
 :
 opts
@@ -754,6 +759,11 @@ options
 text
 :
 string
+bindObjectActor
+:
+opts
+.
+bindObjectActor
 frameActor
 :
 opts
