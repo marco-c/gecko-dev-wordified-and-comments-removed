@@ -141,7 +141,7 @@ addLoginsToMenu
 (
 inputElementIdentifier
 browser
-documentURI
+formOrigin
 )
 {
 let
@@ -151,7 +151,7 @@ this
 .
 _findLogins
 (
-documentURI
+formOrigin
 )
 ;
 if
@@ -340,7 +340,7 @@ _fillTargetField
 login
 inputElementIdentifier
 browser
-documentURI
+formOrigin
 )
 ;
 }
@@ -532,7 +532,7 @@ recipes
 }
 _findLogins
 (
-documentURI
+formOrigin
 )
 {
 let
@@ -541,9 +541,7 @@ searchParams
 {
 origin
 :
-documentURI
-.
-displayPrePath
+formOrigin
 schemeUpgrades
 :
 LoginHelper
@@ -589,9 +587,7 @@ password
 "
 ]
 resolveBy
-documentURI
-.
-displayPrePath
+formOrigin
 )
 ;
 logins
@@ -763,7 +759,7 @@ _fillTargetField
 login
 inputElementIdentifier
 browser
-documentURI
+formOrigin
 )
 {
 LoginManagerParent
@@ -775,9 +771,7 @@ browser
 inputElementIdentifier
 loginFormOrigin
 :
-documentURI
-.
-displayPrePath
+formOrigin
 login
 }
 )

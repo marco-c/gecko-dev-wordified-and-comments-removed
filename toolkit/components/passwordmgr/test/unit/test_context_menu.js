@@ -425,13 +425,11 @@ document
 }
 ;
 let
-URI
+formOrigin
 =
-Services
+LoginHelper
 .
-io
-.
-newURI
+getLoginOrigin
 (
 url
 )
@@ -447,7 +445,7 @@ addLoginsToMenu
 (
 inputElement
 browser
-URI
+formOrigin
 )
 }
 ;
