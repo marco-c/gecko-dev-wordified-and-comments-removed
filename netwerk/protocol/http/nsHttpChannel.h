@@ -1327,7 +1327,7 @@ aErrorCode
 )
 ;
 nsresult
-MaybeResolveProxyAndBeginConnect
+BeginConnectActual
 (
 )
 ;
