@@ -172,7 +172,6 @@ remoteDoc
 >
 SendParentCOMProxy
 (
-this
 )
 ;
 }
