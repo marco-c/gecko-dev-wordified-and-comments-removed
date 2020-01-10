@@ -2951,10 +2951,6 @@ changed
 rebuilding
 "
 )
-            
-rebuild
-=
-True
         
 if
 manifest
@@ -2985,9 +2981,9 @@ rebuilding
 "
 )
             
-rebuild
+manifest
 =
-True
+None
     
 if
 manifest
@@ -3003,11 +2999,17 @@ tests_root
 url_base
 )
         
+rebuild
+=
+True
+        
 update
 =
 True
     
 if
+rebuild
+or
 update
 :
         
