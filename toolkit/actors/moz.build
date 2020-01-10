@@ -205,6 +205,11 @@ DateTimePickerChild
 jsm
 '
 '
+DateTimePickerParent
+.
+jsm
+'
+'
 ExtFindChild
 .
 jsm
@@ -276,6 +281,11 @@ jsm
 '
 '
 UAWidgetsChild
+.
+jsm
+'
+'
+UAWidgetsDateTimeBoxChild
 .
 jsm
 '

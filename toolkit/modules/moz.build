@@ -1319,11 +1319,6 @@ DateTimePickerPanel
 jsm
 '
 '
-DateTimePickerParent
-.
-jsm
-'
-'
 DeferredTask
 .
 jsm
