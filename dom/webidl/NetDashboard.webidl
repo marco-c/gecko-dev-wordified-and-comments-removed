@@ -141,6 +141,9 @@ received
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 SocketsDict
 {
@@ -240,6 +243,9 @@ halfOpens
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 HttpConnDict
 {
@@ -289,6 +295,9 @@ false
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 WebSocketDict
 {
@@ -333,6 +342,9 @@ false
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 DNSCacheDict
 {
@@ -344,6 +356,9 @@ entries
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 DNSLookupDict
 {
@@ -366,6 +381,9 @@ false
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 ConnStatusDict
 {
@@ -400,6 +418,9 @@ stddevLong
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 RcwnStatus
 {

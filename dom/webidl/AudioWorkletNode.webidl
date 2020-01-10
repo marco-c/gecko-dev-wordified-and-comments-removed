@@ -141,6 +141,9 @@ apply
 .
 *
 /
+[
+GenerateConversionToJS
+]
 dictionary
 AudioWorkletNodeOptions
 :

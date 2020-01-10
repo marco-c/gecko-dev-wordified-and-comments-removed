@@ -386,6 +386,9 @@ artwork
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 MediaImage
 {

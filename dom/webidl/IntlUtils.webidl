@@ -56,6 +56,9 @@ MPL
 .
 *
 /
+[
+GenerateConversionToJS
+]
 dictionary
 DisplayNameOptions
 {

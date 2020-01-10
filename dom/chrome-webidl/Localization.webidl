@@ -949,6 +949,7 @@ L10nArgs
 /
 [
 GenerateInitFromJSON
+GenerateConversionToJS
 ]
 dictionary
 L10nArgsHelperDict

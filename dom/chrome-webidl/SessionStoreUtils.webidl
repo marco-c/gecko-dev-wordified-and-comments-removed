@@ -870,6 +870,9 @@ data
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 CollectedFileListValue
 {
@@ -886,6 +889,9 @@ fileList
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 CollectedNonMultipleSelectValue
 {
@@ -1012,6 +1018,9 @@ boolVal
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 UpdateSessionStoreData
 {

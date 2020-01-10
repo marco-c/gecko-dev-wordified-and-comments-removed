@@ -439,6 +439,9 @@ level
 data
 structure
 .
+[
+GenerateConversionToJS
+]
 dictionary
 APZTestData
 {
@@ -490,6 +493,9 @@ frameUniformity
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 FrameUniformityResults
 {

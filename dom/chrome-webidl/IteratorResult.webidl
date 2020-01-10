@@ -142,6 +142,9 @@ object
 .
 *
 /
+[
+GenerateConversionToJS
+]
 dictionary
 IteratorResult
 {

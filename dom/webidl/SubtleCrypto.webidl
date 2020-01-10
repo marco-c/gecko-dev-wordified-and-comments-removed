@@ -681,6 +681,9 @@ usages
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 CryptoKeyPair
 {

@@ -140,6 +140,9 @@ true
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 BasicCardResponse
 {
@@ -179,6 +182,9 @@ null
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 BasicCardChangeDetails
 {

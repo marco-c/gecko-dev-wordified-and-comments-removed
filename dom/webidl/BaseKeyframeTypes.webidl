@@ -525,6 +525,9 @@ false
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 BaseComputedKeyframe
 :

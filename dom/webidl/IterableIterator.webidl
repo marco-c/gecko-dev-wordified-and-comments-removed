@@ -91,6 +91,9 @@ MPL
 .
 *
 /
+[
+GenerateConversionToJS
+]
 dictionary
 IterableKeyOrValueResult
 {
@@ -104,6 +107,9 @@ false
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 IterableKeyAndValueResult
 {

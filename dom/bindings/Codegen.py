@@ -72355,6 +72355,24 @@ type
 )
 :
         
+if
+type
+.
+isDictionary
+(
+)
+and
+not
+type
+.
+inner
+.
+needsConversionToJS
+:
+            
+return
+None
+        
 assert
 not
 type
@@ -96031,6 +96049,12 @@ initFromJSONMethod
 )
 )
         
+if
+d
+.
+needsConversionToJS
+:
+            
 methods
 .
 append

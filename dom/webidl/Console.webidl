@@ -562,6 +562,9 @@ to
 the
 observers
 .
+[
+GenerateConversionToJS
+]
 dictionary
 ConsoleEvent
 {
@@ -791,6 +794,9 @@ Event
 for
 profile
 operations
+[
+GenerateConversionToJS
+]
 dictionary
 ConsoleProfileEvent
 {
@@ -825,6 +831,9 @@ stack
 trace
 data
 .
+[
+GenerateConversionToJS
+]
 dictionary
 ConsoleStackEntry
 {
@@ -885,6 +894,9 @@ asyncCause
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 ConsoleTimerStart
 {
@@ -896,6 +908,9 @@ name
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 ConsoleTimerLogOrEnd
 {
@@ -912,6 +927,9 @@ duration
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 ConsoleTimerError
 {
@@ -929,6 +947,9 @@ name
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 ConsoleCounter
 {
@@ -946,6 +967,9 @@ count
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 ConsoleCounterError
 {

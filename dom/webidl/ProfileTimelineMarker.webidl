@@ -141,6 +141,9 @@ the
 entry
 point
 .
+[
+GenerateConversionToJS
+]
 dictionary
 ProfileTimelineStackFrame
 {
@@ -228,6 +231,9 @@ deserializeDataOnMainThread
 "
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 ProfileTimelineMarker
 {

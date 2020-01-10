@@ -115,6 +115,9 @@ apply
 .
 *
 /
+[
+GenerateConversionToJS
+]
 dictionary
 OpenWindowEventDetail
 {
@@ -149,6 +152,9 @@ false
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 DOMWindowResizeEventDetail
 {

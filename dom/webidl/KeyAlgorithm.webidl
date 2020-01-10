@@ -124,6 +124,9 @@ name
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 AesKeyAlgorithm
 :
@@ -136,6 +139,9 @@ length
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 EcKeyAlgorithm
 :
@@ -147,6 +153,9 @@ namedCurve
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 HmacKeyAlgorithm
 :
@@ -163,6 +172,9 @@ length
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 RsaHashedKeyAlgorithm
 :
@@ -183,6 +195,9 @@ hash
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 DhKeyAlgorithm
 :
