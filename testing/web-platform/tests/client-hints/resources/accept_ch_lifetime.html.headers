@@ -11,4 +11,13 @@ CH
 -
 Lifetime
 :
-5
+1
+Access
+-
+Control
+-
+Allow
+-
+Origin
+:
+*
