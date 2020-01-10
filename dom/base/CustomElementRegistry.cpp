@@ -3654,8 +3654,6 @@ aRv
 ThrowDOMException
 (
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
-NS_LITERAL_CSTRING
-(
 "
 Cannot
 define
@@ -3664,13 +3662,10 @@ custom
 element
 while
 defining
-"
-"
 another
 custom
-elment
+element
 "
-)
 )
 ;
 return
