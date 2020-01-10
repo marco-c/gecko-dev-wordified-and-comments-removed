@@ -337,7 +337,7 @@ function
 /
 *
 global
-browserElement
+actorParent
 *
 /
 /
@@ -365,7 +365,11 @@ function
 var
 chromeWin
 =
-browserElement
+actorParent
+.
+rootFrameLoader
+.
+ownerElement
 .
 ownerGlobal
 .
@@ -374,13 +378,6 @@ docShell
 rootTreeItem
 .
 domWindow
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMChromeWindow
-)
 ;
 var
 contextMenu
