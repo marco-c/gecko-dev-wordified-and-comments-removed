@@ -208,6 +208,12 @@ u32
 trivial_to_resolved_value
 !
 (
+usize
+)
+;
+trivial_to_resolved_value
+!
+(
 String
 )
 ;

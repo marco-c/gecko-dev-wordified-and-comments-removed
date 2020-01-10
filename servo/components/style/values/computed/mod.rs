@@ -2765,6 +2765,12 @@ u32
 trivial_to_computed_value
 !
 (
+usize
+)
+;
+trivial_to_computed_value
+!
+(
 Atom
 )
 ;
