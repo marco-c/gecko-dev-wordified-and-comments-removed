@@ -4940,6 +4940,10 @@ _setMenuStateForAnnotation
 aWindow
 aShouldOpen
 aMenuName
+aOptions
+=
+{
+}
 )
 {
 log
@@ -5084,6 +5088,7 @@ showMenu
 aWindow
 aMenuName
 resolve
+aOptions
 )
 ;
 }
@@ -5162,6 +5167,10 @@ _ensureTarget
 (
 aChromeWindow
 aTarget
+aOptions
+=
+{
+}
 )
 {
 let
@@ -5401,6 +5410,7 @@ _setMenuStateForAnnotation
 aChromeWindow
 true
 menuToOpen
+aOptions
 )
 ;
 }
@@ -5491,6 +5501,10 @@ aEffect
 "
 none
 "
+aOptions
+=
+{
+}
 )
 {
 let
@@ -5946,6 +5960,7 @@ _ensureTarget
 (
 aChromeWindow
 aTarget
+aOptions
 )
 ;
 let
@@ -6917,6 +6932,10 @@ aMenuName
 aOpenCallback
 =
 null
+aOptions
+=
+{
+}
 )
 {
 log
@@ -7124,6 +7143,14 @@ showPanel
 )
 ;
 }
+if
+(
+!
+aOptions
+.
+autohide
+)
+{
 menu
 .
 node
@@ -7138,6 +7165,7 @@ true
 "
 )
 ;
+}
 if
 (
 menu
