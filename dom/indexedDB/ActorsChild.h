@@ -2210,6 +2210,10 @@ const
 CursorRequestParams
 &
 aParams
+const
+Key
+&
+aCurrentKey
 )
 ;
 void
@@ -2364,6 +2368,8 @@ aResponse
 )
 override
 ;
+public
+:
 bool
 SendContinue
 (
@@ -2371,6 +2377,10 @@ const
 CursorRequestParams
 &
 aParams
+const
+Key
+&
+aCurrentKey
 )
 =
 delete

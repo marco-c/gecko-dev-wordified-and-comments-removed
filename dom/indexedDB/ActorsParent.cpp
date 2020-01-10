@@ -33051,6 +33051,10 @@ const
 CursorRequestParams
 &
 aParams
+const
+Key
+&
+key
 )
 override
 ;
@@ -67455,6 +67459,10 @@ const
 CursorRequestParams
 &
 aParams
+const
+Key
+&
+aCurrentKey
 )
 {
 AssertIsOnBackgroundThread
@@ -67521,6 +67529,15 @@ else
 mIsSameProcessActor
 #
 endif
+;
+MOZ_ASSERT
+(
+aCurrentKey
+.
+IsUnset
+(
+)
+)
 ;
 if
 (

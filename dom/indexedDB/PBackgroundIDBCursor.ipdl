@@ -300,6 +300,8 @@ Continue
 (
 CursorRequestParams
 params
+Key
+currentKey
 )
 ;
 child

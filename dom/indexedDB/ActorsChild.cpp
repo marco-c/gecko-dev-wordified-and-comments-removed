@@ -13897,6 +13897,10 @@ const
 CursorRequestParams
 &
 aParams
+const
+Key
+&
+aCurrentKey
 )
 {
 AssertIsOnOwningThread
@@ -13972,6 +13976,7 @@ PBackgroundIDBCursorChild
 SendContinue
 (
 aParams
+aCurrentKey
 )
 )
 ;
