@@ -407,6 +407,9 @@ mExpectingWheelStop
 BOOL
 mNeedsGLUpdate
 ;
+BOOL
+mIsUpdatingLayer
+;
 nsIDragService
 *
 mDragService
