@@ -71,6 +71,9 @@ callback
 optional
 IdleRequestOptions
 options
+=
+{
+}
 )
 ;
 void
