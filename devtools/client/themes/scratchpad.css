@@ -24,3 +24,17 @@ border
 none
 ;
 }
+notification
+a
+{
+color
+:
+currentColor
+;
+text
+-
+decoration
+:
+underline
+;
+}
