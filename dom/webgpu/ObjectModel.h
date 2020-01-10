@@ -49,8 +49,9 @@ ChildOf
 (
 T
 *
-const
 parent
+=
+nullptr
 )
 ;
 protected

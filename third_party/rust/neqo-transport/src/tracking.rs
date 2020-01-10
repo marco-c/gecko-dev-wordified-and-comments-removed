@@ -666,7 +666,6 @@ usize
 derive
 (
 Debug
-Clone
 )
 ]
 pub

@@ -123,9 +123,6 @@ gkrust_features
 '
 quantum_render
 '
-'
-webgpu
-'
 ]
 if
 CONFIG
