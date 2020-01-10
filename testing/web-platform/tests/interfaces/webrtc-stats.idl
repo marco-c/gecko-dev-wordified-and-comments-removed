@@ -962,11 +962,6 @@ url
 DOMString
 relayProtocol
 ;
-boolean
-deleted
-=
-false
-;
 }
 ;
 enum
