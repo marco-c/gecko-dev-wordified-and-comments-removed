@@ -403,11 +403,6 @@ noOfRows
 )
 ;
 void
-FlushLine
-(
-)
-;
-void
 Output
 (
 nsString
@@ -885,6 +880,14 @@ AppendLineBreak
 (
 )
 ;
+void
+Flush
+(
+CurrentLine
+&
+aCurrentLine
+)
+;
 bool
 IsAtFirstColumn
 (
@@ -911,6 +914,10 @@ nsAString
 &
 aString
 )
+;
+const
+int32_t
+mFlags
 ;
 nsAString
 &
