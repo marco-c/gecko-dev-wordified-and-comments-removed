@@ -1292,7 +1292,7 @@ Ci
 .
 nsICookieService
 .
-BEHAVIOR_ALLOW
+BEHAVIOR_ACCEPT
 )
 ;
 }
