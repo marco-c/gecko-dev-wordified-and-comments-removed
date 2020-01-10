@@ -341,7 +341,7 @@ SVGRenderingObserver
 (
 )
 :
-mInObserverList
+mInObserverSet
 (
 false
 )
@@ -437,7 +437,7 @@ DebugObserverSet
 #
 endif
 bool
-mInObserverList
+mInObserverSet
 ;
 }
 ;

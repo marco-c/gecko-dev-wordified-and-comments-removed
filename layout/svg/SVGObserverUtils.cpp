@@ -770,7 +770,7 @@ this
 ;
 if
 (
-mInObserverList
+mInObserverSet
 )
 {
 SVGObserverUtils
@@ -782,7 +782,7 @@ target
 this
 )
 ;
-mInObserverList
+mInObserverSet
 =
 false
 ;
@@ -791,13 +791,13 @@ false
 NS_ASSERTION
 (
 !
-mInObserverList
+mInObserverSet
 "
 still
 in
 an
 observer
-list
+set
 ?
 "
 )
@@ -835,7 +835,7 @@ referencedElement
 &
 &
 !
-mInObserverList
+mInObserverSet
 )
 {
 SVGObserverUtils
@@ -847,7 +847,7 @@ referencedElement
 this
 )
 ;
-mInObserverList
+mInObserverSet
 =
 true
 ;
@@ -954,7 +954,7 @@ OnNonDOMMutationRenderingChange
 (
 )
 {
-mInObserverList
+mInObserverSet
 =
 false
 ;
@@ -971,7 +971,7 @@ NotifyEvictedFromRenderingObserverSet
 (
 )
 {
-mInObserverList
+mInObserverSet
 =
 false
 ;
@@ -1316,7 +1316,7 @@ get
 )
 &
 &
-mInObserverList
+mInObserverSet
 )
 {
 SVGObserverUtils
@@ -1332,7 +1332,7 @@ get
 this
 )
 ;
-mInObserverList
+mInObserverSet
 =
 false
 ;
@@ -3989,7 +3989,7 @@ MOZ_ASSERT
 inObserverSet
 =
 =
-mInObserverList
+mInObserverSet
 "
 failed
 to
@@ -4018,7 +4018,7 @@ else
 MOZ_ASSERT
 (
 !
-mInObserverList
+mInObserverSet
 "
 In
 whose

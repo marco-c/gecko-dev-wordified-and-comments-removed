@@ -404,7 +404,7 @@ elem
 this
 )
 ;
-mInObserverList
+mInObserverSet
 =
 true
 ;
@@ -536,7 +536,7 @@ InvalidateObserversOnNextRefreshDriverTick
 if
 (
 !
-mInObserverList
+mInObserverSet
 )
 {
 SVGObserverUtils
@@ -548,7 +548,7 @@ elem
 this
 )
 ;
-mInObserverList
+mInObserverSet
 =
 true
 ;
