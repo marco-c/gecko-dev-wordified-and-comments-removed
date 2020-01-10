@@ -3987,6 +3987,17 @@ NodePrincipal
 OriginAttributesRef
 (
 )
+mDocument
+-
+>
+GetChannel
+(
+)
+-
+>
+GetTRRMode
+(
+)
 )
 ;
 }
