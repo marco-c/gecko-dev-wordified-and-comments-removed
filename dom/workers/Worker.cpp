@@ -526,7 +526,6 @@ nsContentUtils
 :
 CallerInnerWindow
 (
-aCx
 )
 ;
 if

@@ -26218,7 +26218,6 @@ nsContentUtils
 :
 CallerInnerWindow
 (
-aCx
 )
 ;
 nsIPrincipal

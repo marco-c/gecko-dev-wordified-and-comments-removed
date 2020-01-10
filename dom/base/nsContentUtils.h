@@ -6840,9 +6840,6 @@ nsGlobalWindowInner
 *
 CallerInnerWindow
 (
-JSContext
-*
-aCx
 )
 ;
 private
