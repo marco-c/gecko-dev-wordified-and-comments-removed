@@ -1756,7 +1756,7 @@ toolbar
 -
 threshold
 "
-browser_ui_scroll_toolbar_threshold
+ToolbarScrollThreshold
 RelaxedAtomicInt32
 10
 )
@@ -1776,7 +1776,7 @@ user
 -
 scalable
 "
-browser_ui_zoom_force_user_scalable
+ForceUserScalable
 RelaxedAtomicBool
 false
 )
@@ -1802,7 +1802,7 @@ viewport
 .
 desktopWidth
 "
-browser_viewport_desktopWidth
+DesktopViewportWidth
 RelaxedAtomicInt32
 980
 )
@@ -2884,7 +2884,7 @@ asyncdrawing
 .
 enabled
 "
-dom_ipc_plugins_asyncdrawing_enabled
+PluginAsyncDrawingEnabled
 RelaxedAtomicBool
 false
 )
@@ -3130,7 +3130,7 @@ viewport
 .
 enabled
 "
-dom_meta_viewport_enabled
+MetaViewportEnabled
 RelaxedAtomicBool
 false
 )
@@ -4268,7 +4268,7 @@ autoactivate
 .
 enabled
 "
-dom_vr_autoactivate_enabled
+VRAutoActivateEnabled
 RelaxedAtomicBool
 false
 )
@@ -4286,7 +4286,7 @@ enumerate
 .
 interval
 "
-dom_vr_controller_enumerate_interval
+VRControllerEnumerateInterval
 RelaxedAtomicInt32
 1000
 )
@@ -4300,7 +4300,7 @@ vr
 .
 controller_trigger_threshold
 "
-dom_vr_controller_trigger_threshold
+VRControllerTriggerThreshold
 AtomicFloat
 0
 .
@@ -4320,7 +4320,7 @@ enumerate
 .
 interval
 "
-dom_vr_display_enumerate_interval
+VRDisplayEnumerateInterval
 RelaxedAtomicInt32
 5000
 )
@@ -4336,7 +4336,7 @@ display
 .
 rafMaxDuration
 "
-dom_vr_display_rafMaxDuration
+VRDisplayRafMaxDuration
 RelaxedAtomicUint32
 50
 )
@@ -4370,7 +4370,7 @@ external
 .
 enabled
 "
-dom_vr_external_enabled
+VRExternalEnabled
 bool
 PREF_VALUE
 )
@@ -4391,7 +4391,7 @@ notdetected
 .
 timeout
 "
-dom_vr_external_notdetected_timeout
+VRExternalNotDetectedTimeout
 RelaxedAtomicInt32
 60000
 )
@@ -4409,7 +4409,7 @@ quit
 .
 timeout
 "
-dom_vr_external_quit_timeout
+VRExternalQuitTimeout
 RelaxedAtomicInt32
 10000
 )
@@ -4425,7 +4425,7 @@ inactive
 .
 timeout
 "
-dom_vr_inactive_timeout
+VRInactiveTimeout
 RelaxedAtomicInt32
 5000
 )
@@ -4441,7 +4441,7 @@ navigation
 .
 timeout
 "
-dom_vr_navigation_timeout
+VRNavigationTimeout
 RelaxedAtomicInt32
 1000
 )
@@ -4482,7 +4482,7 @@ oculus
 .
 enabled
 "
-dom_vr_oculus_enabled
+VROculusEnabled
 bool
 PREF_VALUE
 )
@@ -4503,7 +4503,7 @@ invisible
 .
 enabled
 "
-dom_vr_oculus_invisible_enabled
+VROculusInvisibleEnabled
 RelaxedAtomicBool
 true
 )
@@ -4521,9 +4521,27 @@ present
 .
 timeout
 "
-dom_vr_oculus_present_timeout
+VROculusPresentTimeout
 RelaxedAtomicInt32
 500
+)
+VARCACHE_PREF
+(
+Live
+"
+dom
+.
+vr
+.
+oculus
+.
+quit
+.
+timeout
+"
+VROculusQuitTimeout
+RelaxedAtomicInt32
+10000
 )
 #
 if
@@ -4579,7 +4597,7 @@ openvr
 .
 enabled
 "
-dom_vr_openvr_enabled
+VROpenVREnabled
 bool
 PREF_VALUE
 )
@@ -4598,7 +4616,7 @@ openvr
 .
 action_input
 "
-dom_vr_openvr_action_input
+VROpenVRActionInputEnabled
 bool
 true
 )
@@ -4614,7 +4632,7 @@ osvr
 .
 enabled
 "
-dom_vr_osvr_enabled
+VROSVREnabled
 bool
 false
 )
@@ -4630,7 +4648,7 @@ poseprediction
 .
 enabled
 "
-dom_vr_poseprediction_enabled
+VRPosePredictionEnabled
 RelaxedAtomicBool
 true
 )
@@ -4664,7 +4682,7 @@ process
 .
 enabled
 "
-dom_vr_process_enabled
+VRProcessEnabled
 bool
 PREF_VALUE
 )
@@ -4683,7 +4701,7 @@ process
 .
 startup_timeout_ms
 "
-dom_vr_process_startup_timeout_ms
+VRProcessTimeoutMs
 int32_t
 5000
 )
@@ -4699,7 +4717,7 @@ puppet
 .
 enabled
 "
-dom_vr_puppet_enabled
+VRPuppetEnabled
 RelaxedAtomicBool
 false
 )
@@ -4715,7 +4733,7 @@ puppet
 .
 submitframe
 "
-dom_vr_puppet_submitframe
+VRPuppetSubmitFrame
 RelaxedAtomicUint32
 0
 )
@@ -4747,7 +4765,7 @@ require
 -
 gesture
 "
-dom_vr_require_gesture
+VRRequireGesture
 RelaxedAtomicBool
 true
 )
@@ -4763,7 +4781,7 @@ service
 .
 enabled
 "
-dom_vr_service_enabled
+VRServiceEnabled
 bool
 true
 )
@@ -5458,7 +5476,7 @@ general
 .
 smoothScroll
 "
-general_smoothScroll
+SmoothScrollEnabled
 RelaxedAtomicBool
 true
 )
@@ -5472,7 +5490,7 @@ smoothScroll
 .
 currentVelocityWeighting
 "
-general_smoothScroll_currentVelocityWeighting
+SmoothScrollCurrentVelocityWeighting
 AtomicFloat
 0
 .
@@ -5488,7 +5506,7 @@ smoothScroll
 .
 durationToIntervalRatio
 "
-general_smoothScroll_durationToIntervalRatio
+SmoothScrollDurationToIntervalRatio
 RelaxedAtomicInt32
 200
 )
@@ -5504,7 +5522,7 @@ lines
 .
 durationMaxMS
 "
-general_smoothScroll_lines_durationMaxMS
+LineSmoothScrollMaxDurationMs
 RelaxedAtomicInt32
 150
 )
@@ -5520,7 +5538,7 @@ lines
 .
 durationMinMS
 "
-general_smoothScroll_lines_durationMinMS
+LineSmoothScrollMinDurationMs
 RelaxedAtomicInt32
 150
 )
@@ -5534,7 +5552,7 @@ smoothScroll
 .
 mouseWheel
 "
-general_smoothScroll_mouseWheel
+WheelSmoothScrollEnabled
 RelaxedAtomicBool
 true
 )
@@ -5550,7 +5568,7 @@ mouseWheel
 .
 durationMaxMS
 "
-general_smoothScroll_mouseWheel_durationMaxMS
+WheelSmoothScrollMaxDurationMs
 RelaxedAtomicInt32
 400
 )
@@ -5566,7 +5584,7 @@ mouseWheel
 .
 durationMinMS
 "
-general_smoothScroll_mouseWheel_durationMinMS
+WheelSmoothScrollMinDurationMs
 RelaxedAtomicInt32
 200
 )
@@ -5582,7 +5600,7 @@ other
 .
 durationMaxMS
 "
-general_smoothScroll_other_durationMaxMS
+OtherSmoothScrollMaxDurationMs
 RelaxedAtomicInt32
 150
 )
@@ -5598,7 +5616,7 @@ other
 .
 durationMinMS
 "
-general_smoothScroll_other_durationMinMS
+OtherSmoothScrollMinDurationMs
 RelaxedAtomicInt32
 150
 )
@@ -5612,7 +5630,7 @@ smoothScroll
 .
 pages
 "
-general_smoothScroll_pages
+PageSmoothScrollEnabled
 RelaxedAtomicBool
 true
 )
@@ -5628,7 +5646,7 @@ pages
 .
 durationMaxMS
 "
-general_smoothScroll_pages_durationMaxMS
+PageSmoothScrollMaxDurationMs
 RelaxedAtomicInt32
 150
 )
@@ -5644,7 +5662,7 @@ pages
 .
 durationMinMS
 "
-general_smoothScroll_pages_durationMinMS
+PageSmoothScrollMinDurationMs
 RelaxedAtomicInt32
 150
 )
@@ -5660,7 +5678,7 @@ pixels
 .
 durationMaxMS
 "
-general_smoothScroll_pixels_durationMaxMS
+PixelSmoothScrollMaxDurationMs
 RelaxedAtomicInt32
 150
 )
@@ -5676,7 +5694,7 @@ pixels
 .
 durationMinMS
 "
-general_smoothScroll_pixels_durationMinMS
+PixelSmoothScrollMinDurationMs
 RelaxedAtomicInt32
 150
 )
@@ -5690,7 +5708,7 @@ smoothScroll
 .
 stopDecelerationWeighting
 "
-general_smoothScroll_stopDecelerationWeighting
+SmoothScrollStopDecelerationWeighting
 AtomicFloat
 0
 .
@@ -5708,7 +5726,7 @@ msdPhysics
 .
 enabled
 "
-general_smoothScroll_msdPhysics_enabled
+SmoothScrollMSDPhysicsEnabled
 RelaxedAtomicBool
 false
 )
@@ -5724,7 +5742,7 @@ msdPhysics
 .
 continuousMotionMaxDeltaMS
 "
-general_smoothScroll_msdPhysics_continuousMotionMaxDeltaMS
+SmoothScrollMSDPhysicsContinuousMotionMaxDeltaMS
 RelaxedAtomicInt32
 120
 )
@@ -5740,7 +5758,7 @@ msdPhysics
 .
 motionBeginSpringConstant
 "
-general_smoothScroll_msdPhysics_motionBeginSpringConstant
+SmoothScrollMSDPhysicsMotionBeginSpringConstant
 RelaxedAtomicInt32
 1250
 )
@@ -5756,7 +5774,7 @@ msdPhysics
 .
 slowdownMinDeltaMS
 "
-general_smoothScroll_msdPhysics_slowdownMinDeltaMS
+SmoothScrollMSDPhysicsSlowdownMinDeltaMS
 RelaxedAtomicInt32
 12
 )
@@ -5772,7 +5790,7 @@ msdPhysics
 .
 slowdownMinDeltaRatio
 "
-general_smoothScroll_msdPhysics_slowdownMinDeltaRatio
+SmoothScrollMSDPhysicsSlowdownMinDeltaRatio
 AtomicFloat
 1
 .
@@ -5790,7 +5808,7 @@ msdPhysics
 .
 slowdownSpringConstant
 "
-general_smoothScroll_msdPhysics_slowdownSpringConstant
+SmoothScrollMSDPhysicsSlowdownSpringConstant
 RelaxedAtomicInt32
 2000
 )
@@ -5806,7 +5824,7 @@ msdPhysics
 .
 regularSpringConstant
 "
-general_smoothScroll_msdPhysics_regularSpringConstant
+SmoothScrollMSDPhysicsRegularSpringConstant
 RelaxedAtomicInt32
 1000
 )
@@ -5824,7 +5842,7 @@ direct
 -
 mapping
 "
-gfx_allow_texture_direct_mapping
+AllowTextureDirectMapping
 bool
 true
 )
@@ -5840,7 +5858,7 @@ rgb16
 .
 force
 "
-gfx_android_rgb16_force
+AndroidRGB16Force
 bool
 false
 )
@@ -5854,7 +5872,7 @@ apitrace
 .
 enabled
 "
-gfx_apitrace_enabled
+UseApitrace
 bool
 false
 )
@@ -5874,7 +5892,7 @@ blocklist
 .
 all
 "
-gfx_blocklist_all
+BlocklistAll
 int32_t
 0
 )
@@ -5890,7 +5908,7 @@ blocklist
 .
 all
 "
-gfx_blocklist_all
+BlocklistAll
 int32_t
 0
 )
@@ -5908,7 +5926,7 @@ max
 -
 size
 "
-gfx_canvas_max_size
+MaxCanvasSize
 RelaxedAtomicInt32
 0x7fff
 )
@@ -5922,7 +5940,7 @@ canvas
 .
 remote
 "
-gfx_canvas_remote
+CanvasRemote
 RelaxedAtomicBool
 false
 )
@@ -5936,7 +5954,7 @@ color_management
 .
 enablev4
 "
-gfx_color_management_enablev4
+CMSEnableV4
 RelaxedAtomicBool
 false
 )
@@ -5950,7 +5968,7 @@ color_management
 .
 mode
 "
-gfx_color_management_mode
+CMSMode
 RelaxedAtomicInt32
 -
 1
@@ -5965,7 +5983,7 @@ color_management
 .
 rendering_intent
 "
-gfx_color_management_rendering_intent
+CMSRenderingIntent
 RelaxedAtomicInt32
 0
 )
@@ -5979,7 +5997,7 @@ compositor
 .
 clearstate
 "
-gfx_compositor_clearstate
+CompositorClearState
 RelaxedAtomicBool
 false
 )
@@ -5995,7 +6013,7 @@ glcontext
 .
 opaque
 "
-gfx_compositor_glcontext_opaque
+CompositorGLContextOpaque
 RelaxedAtomicBool
 false
 )
@@ -6021,7 +6039,7 @@ color
 .
 r
 "
-gfx_compositor_override_clear_color_r
+CompositorOverrideClearColorR
 AtomicFloat
 0
 .
@@ -6043,7 +6061,7 @@ color
 .
 g
 "
-gfx_compositor_override_clear_color_g
+CompositorOverrideClearColorG
 AtomicFloat
 0
 .
@@ -6065,7 +6083,7 @@ color
 .
 b
 "
-gfx_compositor_override_clear_color_b
+CompositorOverrideClearColorB
 AtomicFloat
 0
 .
@@ -6087,7 +6105,7 @@ color
 .
 a
 "
-gfx_compositor_override_clear_color_a
+CompositorOverrideClearColorA
 AtomicFloat
 0
 .
@@ -6107,7 +6125,7 @@ always
 -
 paint
 "
-gfx_content_always_paint
+AlwaysPaint
 RelaxedAtomicBool
 false
 )
@@ -6127,7 +6145,7 @@ cache
 -
 size
 "
-gfx_content_skia_font_cache_size
+SkiaContentFontCacheSize
 int32_t
 5
 )
@@ -6143,7 +6161,7 @@ reset
 .
 limit
 "
-gfx_device_reset_limit
+DeviceResetLimitCount
 int32_t
 10
 )
@@ -6161,7 +6179,7 @@ threshold
 -
 ms
 "
-gfx_device_reset_threshold_ms
+DeviceResetThresholdMilliseconds
 int32_t
 -
 1
@@ -6176,7 +6194,7 @@ direct2d
 .
 disabled
 "
-gfx_direct2d_disabled
+Direct2DDisabled
 bool
 false
 )
@@ -6192,7 +6210,7 @@ force
 -
 enabled
 "
-gfx_direct2d_force_enabled
+Direct2DForceEnabled
 bool
 false
 )
@@ -6212,7 +6230,7 @@ on
 -
 paintthread
 "
-gfx_direct2d_destroy_dt_on_paintthread
+Direct2DDestroyDTOnPaintThread
 RelaxedAtomicBool
 true
 )
@@ -6230,7 +6248,7 @@ decoder
 -
 device
 "
-gfx_direct3d11_reuse_decoder_device
+Direct3D11ReuseDecoderDevice
 RelaxedAtomicInt32
 -
 1
@@ -6249,7 +6267,7 @@ keyed
 -
 mutex
 "
-gfx_direct3d11_allow_keyed_mutex
+Direct3D11AllowKeyedMutex
 RelaxedAtomicBool
 true
 )
@@ -6267,7 +6285,7 @@ double
 -
 buffering
 "
-gfx_direct3d11_use_double_buffering
+Direct3D11UseDoubleBuffering
 RelaxedAtomicBool
 false
 )
@@ -6285,7 +6303,7 @@ debug
 -
 layer
 "
-gfx_direct3d11_enable_debug_layer
+Direct3D11EnableDebugLayer
 bool
 false
 )
@@ -6303,7 +6321,7 @@ on
 -
 error
 "
-gfx_direct3d11_break_on_error
+Direct3D11BreakOnError
 bool
 false
 )
@@ -6323,7 +6341,7 @@ create
 -
 device
 "
-gfx_direct3d11_sleep_on_create_device
+Direct3D11SleepOnCreateDevice
 int32_t
 0
 )
@@ -6337,7 +6355,7 @@ downloadable_fonts
 .
 keep_color_bitmaps
 "
-gfx_downloadable_fonts_keep_color_bitmaps
+KeepColorBitmaps
 RelaxedAtomicBool
 false
 )
@@ -6365,7 +6383,7 @@ downloadable_fonts
 .
 validate_variation_tables
 "
-gfx_downloadable_fonts_validate_variation_tables
+ValidateVariationTables
 RelaxedAtomicBool
 true
 )
@@ -6379,7 +6397,7 @@ downloadable_fonts
 .
 otl_validation
 "
-gfx_downloadable_fonts_otl_validation
+ValidateOTLTables
 RelaxedAtomicBool
 true
 )
@@ -6395,7 +6413,7 @@ color
 -
 bars
 "
-gfx_draw_color_bars
+CompositorDrawColorBars
 RelaxedAtomicBool
 false
 )
@@ -6415,7 +6433,7 @@ for
 -
 scroll
 "
-gfx_e10s_hide_plugins_for_scroll
+HidePluginsForScroll
 bool
 true
 )
@@ -6433,7 +6451,7 @@ list
 .
 shared
 "
-gfx_e10s_font_list_shared
+SharedFontList
 bool
 false
 )
@@ -6467,7 +6485,7 @@ coretext
 .
 enabled
 "
-gfx_font_rendering_coretext_enabled
+CoreTextEnabled
 RelaxedAtomicBool
 false
 )
@@ -6499,7 +6517,7 @@ layerscope
 .
 enabled
 "
-gfx_layerscope_enabled
+LayerScopeEnabled
 RelaxedAtomicBool
 false
 )
@@ -6513,7 +6531,7 @@ layerscope
 .
 port
 "
-gfx_layerscope_port
+LayerScopePort
 RelaxedAtomicInt32
 23456
 )
@@ -6527,7 +6545,7 @@ logging
 .
 level
 "
-gfx_logging_level
+GfxLoggingLevel
 RelaxedAtomicInt32
 mozilla
 :
@@ -6549,7 +6567,7 @@ crash
 .
 length
 "
-gfx_logging_crash_length
+GfxLoggingCrashLength
 uint32_t
 16
 )
@@ -6569,7 +6587,7 @@ count
 .
 enabled
 "
-gfx_logging_painted_pixel_count_enabled
+GfxLoggingPaintedPixelCountEnabled
 RelaxedAtomicBool
 false
 )
@@ -6587,7 +6605,7 @@ usage
 .
 enabled
 "
-gfx_logging_texture_usage_enabled
+GfxLoggingTextureUsageEnabled
 bool
 false
 )
@@ -6607,7 +6625,7 @@ usage
 .
 enabled
 "
-gfx_logging_peak_texture_usage_enabled
+GfxLoggingPeakTextureUsageEnabled
 bool
 false
 )
@@ -6625,7 +6643,7 @@ frames
 .
 enabled
 "
-gfx_logging_slow_frames_enabled
+LoggingSlowFramesEnabled
 bool
 false
 )
@@ -6641,7 +6659,7 @@ alloc
 -
 size
 "
-gfx_max_alloc_size_do_not_use_directly
+MaxAllocSizeDoNotUseDirectly
 int32_t
 (
 int32_t
@@ -6660,7 +6678,7 @@ texture
 -
 size
 "
-gfx_max_texture_size_do_not_use_directly
+MaxTextureSizeDoNotUseDirectly
 int32_t
 (
 int32_t
@@ -6725,7 +6743,7 @@ partialpresent
 .
 force
 "
-gfx_partialpresent_force
+PartialPresent
 RelaxedAtomicInt32
 0
 )
@@ -6741,7 +6759,7 @@ warnings
 .
 enabled
 "
-gfx_perf_warnings_enabled
+PerfWarnings
 RelaxedAtomicBool
 false
 )
@@ -6757,7 +6775,7 @@ device
 -
 fail
 "
-gfx_testing_device_fail
+DeviceFailForTesting
 RelaxedAtomicBool
 false
 )
@@ -6773,7 +6791,7 @@ device
 -
 reset
 "
-gfx_testing_device_reset
+DeviceResetForTesting
 RelaxedAtomicInt32
 0
 )
@@ -6789,7 +6807,7 @@ disable
 -
 aa
 "
-gfx_text_disable_aa
+DisableAllTextAA
 bool
 false
 )
@@ -6809,7 +6827,7 @@ from
 -
 pixmap
 "
-gfx_use_glx_texture_from_pixmap
+UseGLXTextureFromPixmap
 RelaxedAtomicBool
 false
 )
@@ -6825,7 +6843,7 @@ iosurface
 -
 textures
 "
-gfx_use_iosurface_textures
+UseIOSurfaceTextures
 bool
 false
 )
@@ -6843,7 +6861,7 @@ on
 -
 present
 "
-gfx_use_mutex_on_present
+UseMutexOnPresent
 bool
 false
 )
@@ -6859,7 +6877,7 @@ surfacetexture
 -
 textures
 "
-gfx_use_surfacetexture_textures
+UseSurfaceTextureTextures
 bool
 false
 )
@@ -6877,7 +6895,7 @@ scroll
 -
 transforms
 "
-gfx_vsync_collect_scroll_transforms
+CollectScrollTransforms
 RelaxedAtomicBool
 false
 )
@@ -6895,7 +6913,7 @@ unobserve
 -
 count
 "
-gfx_vsync_compositor_unobserve_count
+CompositorUnobserveCount
 int32_t
 10
 )
@@ -6909,7 +6927,7 @@ webrender
 .
 all
 "
-gfx_webrender_all
+WebRenderAll
 bool
 false
 )
@@ -6938,7 +6956,7 @@ webrender
 .
 enabled
 "
-gfx_webrender_enabled_do_not_use_directly
+WebRenderEnabledDoNotUseDirectly
 bool
 PREF_VALUE
 )
@@ -6957,7 +6975,7 @@ blob
 -
 images
 "
-gfx_webrender_blob_images
+WebRenderBlobImages
 RelaxedAtomicBool
 true
 )
@@ -6975,7 +6993,7 @@ paint
 -
 flashing
 "
-gfx_webrender_blob_paint_flashing
+WebRenderBlobPaintFlashing
 RelaxedAtomicBool
 false
 )
@@ -6993,7 +7011,7 @@ dump
 -
 parent
 "
-gfx_webrender_dl_dump_parent
+WebRenderDLDumpParent
 RelaxedAtomicBool
 false
 )
@@ -7011,7 +7029,7 @@ dump
 -
 content
 "
-gfx_webrender_dl_dump_content
+WebRenderDLDumpContent
 RelaxedAtomicBool
 false
 )
@@ -7027,7 +7045,7 @@ force
 -
 disabled
 "
-gfx_webrender_force_disabled
+WebRenderForceDisabled
 bool
 false
 )
@@ -7045,7 +7063,7 @@ painted
 -
 layers
 "
-gfx_webrender_highlight_painted_layers
+WebRenderHighlightPaintedLayers
 RelaxedAtomicBool
 false
 )
@@ -7063,7 +7081,7 @@ scenebuild
 -
 threshold
 "
-gfx_webrender_late_scenebuild_threshold
+WebRenderLateSceneBuildThreshold
 RelaxedAtomicInt32
 4
 )
@@ -7085,7 +7103,7 @@ per
 -
 chain
 "
-gfx_webrender_max_filter_ops_per_chain
+WebRenderMaxFilterOpsPerChain
 RelaxedAtomicUint32
 64
 )
@@ -7101,7 +7119,7 @@ picture
 -
 caching
 "
-gfx_webrender_picture_caching
+WebRenderPictureCaching
 RelaxedAtomicBool
 false
 )
@@ -7119,7 +7137,7 @@ render
 -
 roots
 "
-gfx_webrender_split_render_roots
+WebRenderSplitRenderRoots
 bool
 false
 )
@@ -7137,7 +7155,7 @@ debug
 -
 server
 "
-gfx_webrender_start_debug_server
+WebRenderStartDebugServer
 RelaxedAtomicBool
 false
 )
@@ -7155,7 +7173,7 @@ driver
 -
 bugs
 "
-gfx_work_around_driver_bugs
+WorkAroundDriverBugs
 bool
 true
 )
@@ -7171,7 +7189,7 @@ accurate
 -
 conversion
 "
-gfx_ycbcr_accurate_conversion
+YCbCrAccurateConversion
 RelaxedAtomicBool
 false
 )
@@ -7187,7 +7205,7 @@ high
 -
 power
 "
-gl_allow_high_power
+GLAllowHighPower
 RelaxedAtomicBool
 true
 )
@@ -7205,7 +7223,7 @@ interop2
 -
 blacklist
 "
-gl_ignore_dx_interop2_blacklist
+IgnoreDXInterop2Blacklist
 RelaxedAtomicBool
 false
 )
@@ -7223,7 +7241,7 @@ gl
 .
 multithreaded
 "
-gl_multithreaded
+GLMultithreaded
 RelaxedAtomicBool
 false
 )
@@ -7239,7 +7257,7 @@ require
 -
 hardware
 "
-gl_require_hardware
+RequireHardwareGL
 RelaxedAtomicBool
 false
 )
@@ -7257,7 +7275,7 @@ is
 -
 current
 "
-gl_use_tls_is_current
+UseTLSIsCurrent
 RelaxedAtomicInt32
 0
 )
@@ -7319,7 +7337,7 @@ threshold
 -
 kb
 "
-image_animated_decode_on_demand_threshold_kb
+ImageAnimatedDecodeOnDemandThresholdKB
 RelaxedAtomicUint32
 20480
 )
@@ -7341,7 +7359,7 @@ batch
 -
 size
 "
-image_animated_decode_on_demand_batch_size
+ImageAnimatedDecodeOnDemandBatchSize
 RelaxedAtomicUint32
 6
 )
@@ -7361,7 +7379,7 @@ demand
 .
 recycle
 "
-image_animated_decode_on_demand_recycle
+ImageAnimatedDecodeOnDemandRecycle
 bool
 true
 )
@@ -7381,7 +7399,7 @@ last
 -
 displayed
 "
-image_animated_resume_from_last_displayed
+ImageAnimatedResumeFromLastDisplayed
 RelaxedAtomicBool
 false
 )
@@ -7399,7 +7417,7 @@ threshold
 -
 surfaces
 "
-image_cache_factor2_threshold_surfaces
+ImageCacheFactor2ThresholdSurfaces
 RelaxedAtomicInt32
 -
 1
@@ -7422,7 +7440,7 @@ threshold
 -
 kb
 "
-image_cache_max_rasterized_svg_threshold_kb
+ImageCacheMaxRasterizedSVGThresholdKB
 RelaxedAtomicInt32
 90
 *
@@ -7438,7 +7456,7 @@ cache
 .
 size
 "
-image_cache_size
+ImageCacheSize
 int32_t
 5
 *
@@ -7456,7 +7474,7 @@ cache
 .
 timeweight
 "
-image_cache_timeweight
+ImageCacheTimeWeight
 int32_t
 500
 )
@@ -7472,7 +7490,7 @@ immediately
 .
 enabled
 "
-image_decode_immediately_enabled
+ImageDecodeImmediatelyEnabled
 RelaxedAtomicBool
 false
 )
@@ -7490,7 +7508,7 @@ decode
 .
 enabled
 "
-image_downscale_during_decode_enabled
+ImageDownscaleDuringDecodeEnabled
 RelaxedAtomicBool
 true
 )
@@ -7510,7 +7528,7 @@ threshold
 -
 ms
 "
-image_infer_src_animation_threshold_ms
+ImageInferSrcAnimationThresholdMS
 RelaxedAtomicUint32
 2000
 )
@@ -7522,7 +7540,7 @@ image
 .
 layout_network_priority
 "
-image_layout_network_priority
+ImageLayoutNetworkPriority
 RelaxedAtomicBool
 true
 )
@@ -7536,7 +7554,7 @@ mem
 .
 decode_bytes_at_a_time
 "
-image_mem_decode_bytes_at_a_time
+ImageMemDecodeBytesAtATime
 uint32_t
 16384
 )
@@ -7550,7 +7568,7 @@ mem
 .
 discardable
 "
-image_mem_discardable
+ImageMemDiscardable
 RelaxedAtomicBool
 false
 )
@@ -7566,7 +7584,7 @@ animated
 .
 discardable
 "
-image_mem_animated_discardable
+ImageMemAnimatedDiscardable
 bool
 true
 )
@@ -7582,7 +7600,7 @@ animated
 .
 use_heap
 "
-image_mem_animated_use_heap
+ImageMemAnimatedUseHeap
 RelaxedAtomicBool
 false
 )
@@ -7598,7 +7616,7 @@ debug
 -
 reporting
 "
-image_mem_debug_reporting
+ImageMemDebugReporting
 RelaxedAtomicBool
 false
 )
@@ -7612,7 +7630,7 @@ mem
 .
 shared
 "
-image_mem_shared
+ImageMemShared
 RelaxedAtomicBool
 true
 )
@@ -7628,7 +7646,7 @@ surfacecache
 .
 discard_factor
 "
-image_mem_surfacecache_discard_factor
+ImageMemSurfaceCacheDiscardFactor
 uint32_t
 1
 )
@@ -7644,7 +7662,7 @@ surfacecache
 .
 max_size_kb
 "
-image_mem_surfacecache_max_size_kb
+ImageMemSurfaceCacheMaxSizeKB
 uint32_t
 1024
 *
@@ -7662,7 +7680,7 @@ surfacecache
 .
 min_expiration_ms
 "
-image_mem_surfacecache_min_expiration_ms
+ImageMemSurfaceCacheMinExpirationMS
 uint32_t
 60
 *
@@ -7680,7 +7698,7 @@ surfacecache
 .
 size_factor
 "
-image_mem_surfacecache_size_factor
+ImageMemSurfaceCacheSizeFactor
 uint32_t
 4
 )
@@ -7696,7 +7714,7 @@ volatile
 .
 min_threshold_kb
 "
-image_mem_volatile_min_threshold_kb
+ImageMemVolatileMinThresholdKB
 RelaxedAtomicInt32
 -
 1
@@ -7711,7 +7729,7 @@ multithreaded_decoding
 .
 idle_timeout
 "
-image_multithreaded_decoding_idle_timeout
+ImageMTDecodingIdleTimeout
 int32_t
 600000
 )
@@ -7725,7 +7743,7 @@ multithreaded_decoding
 .
 limit
 "
-image_multithreaded_decoding_limit
+ImageMTDecodingLimit
 int32_t
 -
 1
@@ -7740,7 +7758,7 @@ webp
 .
 enabled
 "
-image_webp_enabled
+ImageWebPEnabled
 RelaxedAtomicBool
 false
 )
@@ -9773,6 +9791,26 @@ y
 AnimationPrerenderAbsoluteLimitY
 RelaxedAtomicUint32
 4096
+)
+VARCACHE_PREF
+(
+Live
+"
+layout
+.
+css
+.
+cached
+-
+scrollbar
+-
+styles
+.
+enabled
+"
+layout_css_cached_scrollbar_styles_enabled
+bool
+false
 )
 VARCACHE_PREF
 (
