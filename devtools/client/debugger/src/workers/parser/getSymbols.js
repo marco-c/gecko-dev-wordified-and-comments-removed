@@ -210,7 +210,7 @@ SymbolDeclaration
 {
 computed
 :
-Boolean
+boolean
 expression
 :
 string
