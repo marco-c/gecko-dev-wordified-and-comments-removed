@@ -339,13 +339,6 @@ crashtest
 reftest
 '
 )
-PUPPETEER_FLAVORS
-=
-(
-'
-puppeteer
-'
-)
 WEB_PLATFORM_TESTS_FLAVORS
 =
 (
@@ -384,12 +377,6 @@ values
 list
 (
 REFTEST_FLAVORS
-)
-+
-            
-list
-(
-PUPPETEER_FLAVORS
 )
 +
             

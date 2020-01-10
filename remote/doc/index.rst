@@ -219,9 +219,6 @@ md
 CodeStyle
 .
 md
-PuppeteerVendor
-.
-md
 Bugs
 =
 =
