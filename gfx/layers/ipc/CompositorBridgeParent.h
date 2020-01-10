@@ -1332,6 +1332,10 @@ const
 TimeStamp
 &
 aRecordingStart
+BeginRecordingResolver
+&
+&
+aResolve
 )
 =
 0
@@ -1346,6 +1350,9 @@ ipc
 IPCResult
 RecvEndRecording
 (
+bool
+*
+aOutSuccess
 )
 =
 0
@@ -2153,6 +2160,10 @@ const
 TimeStamp
 &
 aRecordingStart
+BeginRecordingResolver
+&
+&
+aResolve
 )
 override
 ;
@@ -2165,6 +2176,9 @@ ipc
 IPCResult
 RecvEndRecording
 (
+bool
+*
+aOutSuccess
 )
 override
 ;
