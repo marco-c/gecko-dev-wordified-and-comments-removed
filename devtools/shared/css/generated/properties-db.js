@@ -13686,6 +13686,11 @@ scrollbar
 color
 "
 "
+dominant
+-
+baseline
+"
+"
 text
 -
 anchor
@@ -14216,7 +14221,7 @@ text
 -
 decoration
 -
-thickness
+width
 "
 "
 ime
@@ -14252,11 +14257,6 @@ broken
 image
 -
 icon
-"
-"
-dominant
--
-baseline
 "
 "
 vector
@@ -24501,7 +24501,7 @@ baseline
 isInherited
 "
 :
-false
+true
 "
 subproperties
 "
@@ -43412,7 +43412,7 @@ text
 -
 decoration
 -
-thickness
+width
 "
 "
 layout
@@ -43423,7 +43423,7 @@ text
 -
 decoration
 -
-thickness
+width
 .
 enabled
 "
