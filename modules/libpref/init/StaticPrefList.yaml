@@ -19274,6 +19274,16 @@ true
 mirror
 :
 always
+#
+Use
+nsLayoutUtils
+:
+:
+SmoothScrollingEnabled
+(
+)
+instead
+.
 -
 name
 :
@@ -19289,6 +19299,9 @@ true
 mirror
 :
 always
+do_not_use_directly
+:
+true
 #
 This
 pref
