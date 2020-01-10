@@ -676,9 +676,9 @@ Runs
 a
 reftest
 in
-Firefox
-for
+an
 Android
+application
 .
 "
 "
@@ -1012,14 +1012,15 @@ args
 .
 app
 =
-self
+"
+org
 .
-substs
-[
+mozilla
+.
+geckoview
+.
+test
 "
-ANDROID_PACKAGE_NAME
-"
-]
         
 if
 not

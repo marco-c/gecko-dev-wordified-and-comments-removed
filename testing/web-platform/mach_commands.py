@@ -224,16 +224,24 @@ not
 package_name
 :
                 
-package_name
-=
-self
-.
-substs
+kwargs
 [
 "
-ANDROID_PACKAGE_NAME
+package_name
 "
 ]
+=
+package_name
+=
+"
+org
+.
+mozilla
+.
+geckoview
+.
+test
+"
             
 from
 mozrunner
