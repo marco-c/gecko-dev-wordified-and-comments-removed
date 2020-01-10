@@ -134,9 +134,6 @@ messageName
 optional
 any
 obj
-optional
-any
-transfers
 )
 ;
 [
@@ -153,9 +150,6 @@ messageName
 optional
 any
 obj
-optional
-any
-transfers
 )
 ;
 }
