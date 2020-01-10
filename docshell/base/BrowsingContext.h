@@ -1519,6 +1519,11 @@ IsActive
 )
 const
 ;
+void
+Unregister
+(
+)
+;
 friend
 class
 :
@@ -1792,6 +1797,11 @@ mFieldEpochs
 ;
 bool
 mIsInProcess
+:
+1
+;
+bool
+mIsDiscarded
 :
 1
 ;
