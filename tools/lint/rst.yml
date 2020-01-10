@@ -42,6 +42,13 @@ browser
 /
 docs
 /
+-
+intl
+/
+l10n
+/
+docs
+/
 extensions
 :
 -
