@@ -41343,8 +41343,8 @@ mirror
 always
 #
 Whether
-origin
-telemetry
+Origin
+Telemetry
 should
 be
 enabled
@@ -41385,7 +41385,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -42564,6 +42564,12 @@ policy
 is
 in
 effect
+.
+"
+False
+"
+is
+traditional
 .
 -
 name
