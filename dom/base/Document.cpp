@@ -29002,11 +29002,10 @@ IsContent
 {
 if
 (
-!
 context
 -
 >
-GetParent
+IsTopContent
 (
 )
 )
