@@ -512,6 +512,13 @@ defined
 (
 MOZ_CODE_COVERAGE
 )
+|
+|
+\
+defined
+(
+MOZ_PROFILE_GENERATE
+)
 #
 define
 NS_FREE_PERMANENT_DATA
