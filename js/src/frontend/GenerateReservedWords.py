@@ -496,10 +496,8 @@ items
 key
 =
 lambda
-(
 char
 word
-)
 :
 ord
 (
@@ -1029,10 +1027,8 @@ items
 key
 =
 lambda
-(
 length
 word
-)
 :
 length
 )
