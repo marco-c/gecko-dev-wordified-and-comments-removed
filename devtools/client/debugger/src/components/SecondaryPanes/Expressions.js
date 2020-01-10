@@ -396,7 +396,7 @@ if
 (
 expressions
 .
-size
+length
 >
 0
 )
@@ -2040,7 +2040,7 @@ showInput
 !
 expressions
 .
-size
+length
 )
 &
 &

@@ -640,6 +640,13 @@ projectDirectoryRoot
 "
 "
 ;
+prefs
+.
+expressions
+=
+[
+]
+;
 setupHelper
 (
 {

@@ -2,7 +2,7 @@ import
 type
 {
 Source
-PartialRange
+Range
 SourceLocation
 Context
 }
@@ -283,7 +283,7 @@ SET_VIEWPORT
 +
 viewport
 :
-PartialRange
+Range
 |
 }
 ;
