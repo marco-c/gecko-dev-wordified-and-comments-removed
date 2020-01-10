@@ -3252,16 +3252,6 @@ true
 name
 :
 "
-MathMLElement
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 MediaCapabilities
 "
 insecureContext

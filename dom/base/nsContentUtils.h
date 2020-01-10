@@ -5541,15 +5541,6 @@ aAnonymousContent
 )
 ;
 static
-bool
-IsNodeInEditableRegion
-(
-nsINode
-*
-aNode
-)
-;
-static
 mozilla
 :
 :
