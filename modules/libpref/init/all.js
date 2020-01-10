@@ -9413,16 +9413,6 @@ pref
 "
 network
 .
-warnOnAboutNetworking
-"
-false
-)
-;
-pref
-(
-"
-network
-.
 manage
 -
 offline
