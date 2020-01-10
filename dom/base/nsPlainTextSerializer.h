@@ -389,7 +389,7 @@ void
 EndLine
 (
 bool
-softlinebreak
+aSoftLineBreak
 bool
 aBreakBySpace
 =
