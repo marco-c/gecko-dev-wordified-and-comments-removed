@@ -252,7 +252,6 @@ kRGB_H_SkPixelGeometry
 return
 SkCreateTypefaceFromCairoFTFont
 (
-mScaledFont
 mFace
 -
 >
