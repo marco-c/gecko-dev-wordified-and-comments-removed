@@ -4547,7 +4547,7 @@ gamepad
 remapper
 -
 >
-GetTouchData
+ProcessTouchData
 (
 gamepad
 -

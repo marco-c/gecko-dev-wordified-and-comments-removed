@@ -191,6 +191,17 @@ const
 {
 }
 virtual
+uint32_t
+GetMaxInputReportLength
+(
+)
+const
+{
+return
+0
+;
+}
+virtual
 void
 SetAxisCount
 (
@@ -224,7 +235,7 @@ Standard
 }
 virtual
 void
-GetTouchData
+ProcessTouchData
 (
 uint32_t
 aIndex
