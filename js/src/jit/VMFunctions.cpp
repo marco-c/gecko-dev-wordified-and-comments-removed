@@ -4887,6 +4887,13 @@ if
 ok
 )
 {
+frame
+-
+>
+deleteDebugModeOSRInfo
+(
+)
+;
 JitFrameLayout
 *
 prefix
