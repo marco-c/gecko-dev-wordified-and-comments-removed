@@ -6911,11 +6911,14 @@ aLength
 ;
 }
 void
-Gecko_ResizeTArrayForCStrings
+Gecko_ResizeAtomArray
 (
 nsTArray
 <
-nsCString
+RefPtr
+<
+nsAtom
+>
 >
 *
 aArray
