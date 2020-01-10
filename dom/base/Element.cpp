@@ -2822,10 +2822,6 @@ IsAnyOfXULElements
 nsGkAtoms
 :
 :
-panel
-nsGkAtoms
-:
-:
 textbox
 )
 )
