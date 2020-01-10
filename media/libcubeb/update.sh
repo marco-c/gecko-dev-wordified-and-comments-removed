@@ -412,6 +412,15 @@ cp
 /
 src
 /
+cubeb_sun
+.
+c
+src
+cp
+1
+/
+src
+/
 cubeb_utils
 .
 h
