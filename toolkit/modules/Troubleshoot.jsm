@@ -3256,12 +3256,6 @@ info
 infoInfo
 ;
 let
-failureCount
-=
-{
-}
-;
-let
 failureIndices
 =
 {
@@ -3274,7 +3268,6 @@ gfxInfo
 .
 getFailures
 (
-failureCount
 failureIndices
 )
 ;
