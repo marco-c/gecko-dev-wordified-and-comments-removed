@@ -32441,6 +32441,16 @@ item
 contents
 .
 watchpoint
+|
+|
+typeof
+L10N
+=
+=
+=
+"
+undefined
+"
 )
 {
 return
