@@ -7514,14 +7514,6 @@ observer
 mNeedsToNotifyIMEOfTextChange
 )
 {
-if
-(
-observer
--
->
-mNeedsToNotifyIMEOfSelectionChange
-)
-{
 observer
 -
 >
@@ -7533,7 +7525,6 @@ SendSelectionChange
 (
 )
 ;
-}
 }
 if
 (
