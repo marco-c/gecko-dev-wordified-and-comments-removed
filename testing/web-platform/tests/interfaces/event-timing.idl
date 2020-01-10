@@ -83,6 +83,14 @@ attribute
 boolean
 cancelable
 ;
+[
+Default
+]
+object
+toJSON
+(
+)
+;
 }
 ;
 [
