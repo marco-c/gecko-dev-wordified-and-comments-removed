@@ -180,6 +180,9 @@ takeRecords
 (
 )
 ;
+[
+SameObject
+]
 static
 readonly
 attribute
