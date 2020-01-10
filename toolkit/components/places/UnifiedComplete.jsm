@@ -11722,8 +11722,6 @@ promiseLargeCacheDBConnection
 (
 )
 ;
-try
-{
 Sqlite
 .
 shutdown
@@ -11751,16 +11749,6 @@ null
 }
 )
 ;
-}
-catch
-(
-ex
-)
-{
-throw
-ex
-;
-}
 await
 UrlbarProviderOpenTabs
 .

@@ -3119,15 +3119,6 @@ execute
 )
 ;
 }
-catch
-(
-ex
-)
-{
-throw
-ex
-;
-}
 finally
 {
 if
