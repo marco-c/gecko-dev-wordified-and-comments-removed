@@ -68,11 +68,6 @@ jsx
 -
 a11y
 "
-"
-fetch
--
-options
-"
 ]
 "
 settings
