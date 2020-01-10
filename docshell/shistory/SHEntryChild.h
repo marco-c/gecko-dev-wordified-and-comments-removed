@@ -152,6 +152,15 @@ uint64_t
 aToEvictSharedStateIDs
 )
 ;
+void
+NotifyListenersContentViewerEvicted
+(
+uint32_t
+aNumEvicted
+=
+1
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIBFCACHEENTRY
 NS_DECL_NSIMUTATIONOBSERVER_CHARACTERDATACHANGED

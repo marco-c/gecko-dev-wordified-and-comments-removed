@@ -4374,6 +4374,13 @@ if
 viewer
 )
 {
+mShared
+-
+>
+NotifyListenersContentViewerEvicted
+(
+)
+;
 SetContentViewer
 (
 nullptr

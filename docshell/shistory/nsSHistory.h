@@ -481,6 +481,13 @@ int32_t
 aOutEndIndex
 )
 ;
+void
+NotifyListenersContentViewerEvicted
+(
+uint32_t
+aNumEvicted
+)
+;
 protected
 :
 virtual

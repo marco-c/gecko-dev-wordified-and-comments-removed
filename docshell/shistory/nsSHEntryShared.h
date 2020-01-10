@@ -128,6 +128,11 @@ return
 mID
 ;
 }
+void
+NotifyListenersContentViewerEvicted
+(
+)
+;
 protected
 :
 friend
