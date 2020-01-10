@@ -716,6 +716,7 @@ length
 :
 :
 {
+NonNegativeLength
 NonNegativeLengthPercentage
 NonNegativeLengthPercentageOrAuto
 }

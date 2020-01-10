@@ -3971,11 +3971,6 @@ NoCalcLength
 Self
 {
 NonNegative
-:
-:
-<
-Length
->
 (
 Length
 :
@@ -4011,11 +4006,6 @@ Length
 Self
 {
 NonNegative
-:
-:
-<
-Length
->
 (
 len
 )
