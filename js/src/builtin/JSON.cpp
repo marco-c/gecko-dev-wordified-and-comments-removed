@@ -4938,6 +4938,13 @@ CharT
 (
 cx
 chars
+JSONParserBase
+:
+:
+ParseType
+:
+:
+JSONParse
 )
 )
 ;
