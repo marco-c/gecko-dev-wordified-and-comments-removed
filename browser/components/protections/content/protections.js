@@ -246,6 +246,8 @@ id
 "
 protection
 -
+report
+-
 header
 -
 details
@@ -280,6 +282,8 @@ id
 "
 protection
 -
+report
+-
 header
 -
 details
@@ -304,6 +308,8 @@ id
 "
 "
 protection
+-
+report
 -
 header
 -
