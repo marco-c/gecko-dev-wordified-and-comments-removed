@@ -67,7 +67,7 @@ libc
 :
 c_int
 =
-VM_VOLATILE_GROUP_7
+VM_VOLATILE_GROUP_0
 ;
 pub
 const

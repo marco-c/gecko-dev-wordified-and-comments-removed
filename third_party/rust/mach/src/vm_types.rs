@@ -24,7 +24,7 @@ pub
 type
 user_addr_t
 =
-usize
+u64
 ;
 pub
 type

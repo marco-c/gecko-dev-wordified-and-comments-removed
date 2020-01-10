@@ -2,9 +2,7 @@ use
 vm_types
 :
 :
-{
 natural_t
-}
 ;
 pub
 type
