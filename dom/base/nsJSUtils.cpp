@@ -274,6 +274,7 @@ return
 false
 ;
 }
+return
 aFilename
 .
 Assign
@@ -283,10 +284,8 @@ filename
 get
 (
 )
+fallible
 )
-;
-return
-true
 ;
 }
 bool
@@ -335,6 +334,7 @@ return
 false
 ;
 }
+return
 aFilename
 .
 Assign
@@ -347,10 +347,8 @@ get
 (
 )
 )
+fallible
 )
-;
-return
-true
 ;
 }
 uint64_t
