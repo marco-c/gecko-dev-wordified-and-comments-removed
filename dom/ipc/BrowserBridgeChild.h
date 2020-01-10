@@ -59,6 +59,9 @@ class
 ContentChild
 ;
 class
+BrowserBridgeHost
+;
+class
 BrowserBridgeChild
 :
 public
@@ -184,6 +187,14 @@ SetIsUnderHiddenEmbedderElement
 (
 bool
 aIsUnderHiddenEmbedderElement
+)
+;
+already_AddRefed
+<
+BrowserBridgeHost
+>
+FinishInit
+(
 )
 ;
 #
