@@ -646,24 +646,34 @@ clang_tidy_path
 module
 )
     
-if
-not
-os
-.
-path
-.
-isdir
-(
-module_path
-)
+try
 :
         
 os
 .
-mkdir
+makedirs
 (
 module_path
 )
+    
+except
+OSError
+as
+e
+:
+        
+if
+e
+.
+errno
+!
+=
+errno
+.
+EEXIST
+:
+            
+raise
     
 copy_dir_contents
 (
