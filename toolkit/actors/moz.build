@@ -285,11 +285,6 @@ UAWidgetsChild
 jsm
 '
 '
-UAWidgetsDateTimeBoxChild
-.
-jsm
-'
-'
 UnselectedTabHoverChild
 .
 jsm
