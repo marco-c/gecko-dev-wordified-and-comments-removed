@@ -67,6 +67,9 @@ wasm
 /
 cranelift
 "
+optional
+=
+true
 }
 mozilla
 -

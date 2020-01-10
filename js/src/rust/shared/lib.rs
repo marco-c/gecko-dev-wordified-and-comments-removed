@@ -1,3 +1,14 @@
+#
+[
+cfg
+(
+feature
+=
+"
+baldrdash
+"
+)
+]
 extern
 crate
 baldrdash

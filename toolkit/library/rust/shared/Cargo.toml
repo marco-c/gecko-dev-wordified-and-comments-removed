@@ -760,9 +760,6 @@ rust
 /
 shared
 "
-optional
-=
-true
 }
 arrayvec
 =
@@ -1038,6 +1035,8 @@ spidermonkey_rust
 [
 "
 jsrust_shared
+/
+baldrdash
 "
 ]
 cranelift_x86
