@@ -640,6 +640,9 @@ gBrowser
 about
 :
 logins
+?
+filter
+=
 "
 )
 ;
