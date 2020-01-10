@@ -115,6 +115,11 @@ GeckoViewAccessibility
 jsm
 '
 '
+GeckoViewActorChild
+.
+jsm
+'
+'
 GeckoViewAutoFill
 .
 jsm

@@ -1530,6 +1530,15 @@ g
 browser
 )
 ;
+ChromeUtils
+.
+unregisterWindowActor
+(
+"
+LoadURIDelegate
+"
+)
+;
 }
 else
 {

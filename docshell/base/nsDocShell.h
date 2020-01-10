@@ -1874,6 +1874,14 @@ nsIContentViewer
 aViewer
 )
 ;
+already_AddRefed
+<
+nsILoadURIDelegate
+>
+GetLoadURIDelegate
+(
+)
+;
 nsresult
 SetupNewViewer
 (
@@ -3187,12 +3195,6 @@ nsCOMPtr
 nsIPrincipal
 >
 mParentCharsetPrincipal
-;
-nsCOMPtr
-<
-nsILoadURIDelegate
->
-mLoadURIDelegate
 ;
 nsCOMPtr
 <

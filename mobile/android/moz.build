@@ -433,6 +433,9 @@ DIRS
 =
 [
 '
+actors
+'
+'
 base
 '
 '
