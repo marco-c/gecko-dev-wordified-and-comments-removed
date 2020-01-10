@@ -2191,7 +2191,7 @@ get
 '
 android_version
 '
-18
+24
 )
 }
 )
@@ -2214,7 +2214,7 @@ get
 '
 is_fennec
 '
-True
+False
 )
 }
 )
