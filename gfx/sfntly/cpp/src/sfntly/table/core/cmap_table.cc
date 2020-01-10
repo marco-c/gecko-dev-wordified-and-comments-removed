@@ -2213,7 +2213,7 @@ CMap
 :
 Builder
 (
-reinterpret_cast
+static_cast
 <
 ReadableFontData
 *
@@ -2876,7 +2876,7 @@ kFormat0Length
 )
 )
 :
-reinterpret_cast
+static_cast
 <
 WritableFontData
 *
@@ -2951,7 +2951,7 @@ kFormat0Length
 )
 )
 :
-reinterpret_cast
+static_cast
 <
 ReadableFontData
 *
@@ -4952,7 +4952,7 @@ CMap
 :
 Builder
 (
-reinterpret_cast
+static_cast
 <
 ReadableFontData
 *
@@ -5024,7 +5024,7 @@ CMap
 :
 Builder
 (
-reinterpret_cast
+static_cast
 <
 ReadableFontData
 *

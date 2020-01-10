@@ -609,7 +609,7 @@ font_array
 ASSERT_NE
 (
 font_array
-reinterpret_cast
+static_cast
 <
 FontArray
 *
@@ -648,7 +648,7 @@ at
 ASSERT_NE
 (
 font
-reinterpret_cast
+static_cast
 <
 Font
 *
@@ -713,7 +713,7 @@ ASSERT_NE
 (
 cmap1_
 )
-reinterpret_cast
+static_cast
 <
 CMapTable
 :
@@ -757,7 +757,7 @@ ASSERT_NE
 (
 cmap2_
 )
-reinterpret_cast
+static_cast
 <
 CMapTable
 :

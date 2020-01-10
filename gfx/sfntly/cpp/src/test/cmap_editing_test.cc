@@ -225,7 +225,7 @@ cmap
 ASSERT_NE
 (
 cmap_table_builder
-reinterpret_cast
+static_cast
 <
 CMapTable
 :
@@ -690,7 +690,7 @@ WINDOWS_BMP
 ASSERT_NE
 (
 cmap
-reinterpret_cast
+static_cast
 <
 CMapTable
 :
