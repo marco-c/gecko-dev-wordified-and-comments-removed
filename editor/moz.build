@@ -171,11 +171,6 @@ nsITableEditor
 .
 idl
 '
-'
-nsIURIRefObject
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

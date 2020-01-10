@@ -367,11 +367,6 @@ HTMLTableEditor
 cpp
 '
 '
-HTMLURIRefObject
-.
-cpp
-'
-'
 InsertNodeTransaction
 .
 cpp
