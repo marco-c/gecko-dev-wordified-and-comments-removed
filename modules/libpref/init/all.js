@@ -22354,6 +22354,16 @@ false
 pref
 (
 "
+fission
+.
+autostart
+"
+false
+)
+;
+pref
+(
+"
 browser
 .
 tabs
