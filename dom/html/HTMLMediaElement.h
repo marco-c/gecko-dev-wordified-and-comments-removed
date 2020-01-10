@@ -3919,7 +3919,7 @@ nsIPrincipal
 mSrcStreamVideoPrincipal
 ;
 bool
-mUnboundFromTree
+mDispatchedTaskToPauseIfNotInDocument
 =
 false
 ;
