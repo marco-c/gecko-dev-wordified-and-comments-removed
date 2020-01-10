@@ -1,6 +1,8 @@
 #
 include
 "
+mozilla
+/
 ShortcutKeys
 .
 h
@@ -8,9 +10,10 @@ h
 #
 include
 "
-mozilla
+.
+.
 /
-KeyEventHandler
+nsXBLPrototypeHandler
 .
 h
 "
@@ -151,7 +154,7 @@ return
 NS_OK
 ;
 }
-KeyEventHandler
+nsXBLPrototypeHandler
 *
 ShortcutKeys
 :
@@ -280,7 +283,7 @@ return
 nullptr
 ;
 }
-KeyEventHandler
+nsXBLPrototypeHandler
 *
 ShortcutKeys
 :
@@ -295,7 +298,7 @@ ShortcutKeyData
 *
 keyData
 ;
-KeyEventHandler
+nsXBLPrototypeHandler
 *
 *
 cache
@@ -415,7 +418,7 @@ return
 cache
 ;
 }
-KeyEventHandler
+nsXBLPrototypeHandler
 *
 lastHandler
 =
@@ -429,12 +432,12 @@ keyData
 event
 )
 {
-KeyEventHandler
+nsXBLPrototypeHandler
 *
 handler
 =
 new
-KeyEventHandler
+nsXBLPrototypeHandler
 (
 keyData
 )

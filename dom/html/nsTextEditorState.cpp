@@ -341,9 +341,7 @@ h
 #
 include
 "
-mozilla
-/
-KeyEventHandler
+nsXBLPrototypeHandler
 .
 h
 "
@@ -3859,14 +3857,14 @@ AsKeyboardEvent
 if
 (
 !
-widgetKeyEvent
+keyEvent
 )
 {
 return
 NS_ERROR_UNEXPECTED
 ;
 }
-KeyEventHandler
+nsXBLPrototypeHandler
 *
 keyHandlers
 =
@@ -3909,7 +3907,7 @@ widgetKeyEvent
 ;
 for
 (
-KeyEventHandler
+nsXBLPrototypeHandler
 *
 handler
 =
