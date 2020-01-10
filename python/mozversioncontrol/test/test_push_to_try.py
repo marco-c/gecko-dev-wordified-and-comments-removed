@@ -169,6 +169,17 @@ version
 (
 tool
 '
+-
+c
+'
+'
+commit
+.
+gpgSign
+=
+false
+'
+'
 commit
 '
 '
@@ -178,6 +189,7 @@ allow
 -
 empty
 '
+                   
 '
 -
 m
