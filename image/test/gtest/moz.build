@@ -154,6 +154,11 @@ TestSurfaceSink
 .
 cpp
 '
+'
+TestSwizzleFilter
+.
+cpp
+'
 ]
 #
 skip
