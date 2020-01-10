@@ -37,6 +37,12 @@ euclid
 HomogeneousVector
 ;
 use
+peek_poke
+:
+:
+PeekPoke
+;
+use
 crate
 :
 :
@@ -446,6 +452,7 @@ Ord
 PartialOrd
 Deserialize
 Serialize
+PeekPoke
 )
 ]
 pub
