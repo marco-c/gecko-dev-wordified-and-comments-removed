@@ -119,6 +119,11 @@ PatcherNopSpace
 h
 '
 '
+RangeMap
+.
+h
+'
+'
 TargetFunction
 .
 h
