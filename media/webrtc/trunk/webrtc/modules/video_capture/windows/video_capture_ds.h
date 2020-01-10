@@ -7,9 +7,9 @@ MODULES_VIDEO_CAPTURE_MAIN_SOURCE_WINDOWS_VIDEO_CAPTURE_DS_H_
 #
 include
 "
-api
+rtc_base
 /
-scoped_refptr
+scoped_ref_ptr
 .
 h
 "

@@ -49,7 +49,7 @@ include
 "
 rtc_base
 /
-string_utils
+stringutils
 .
 h
 "
@@ -347,6 +347,9 @@ char
 productUniqueIdUTF8
 uint32_t
 productUniqueIdUTF8Length
+pid_t
+*
+pid
 )
 {
 ReadLockScoped

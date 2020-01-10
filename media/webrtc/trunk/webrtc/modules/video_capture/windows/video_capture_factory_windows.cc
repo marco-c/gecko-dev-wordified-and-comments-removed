@@ -1,9 +1,9 @@
 #
 include
 "
-api
+rtc_base
 /
-scoped_refptr
+scoped_ref_ptr
 .
 h
 "
@@ -25,7 +25,7 @@ include
 "
 rtc_base
 /
-ref_counted_object
+refcountedobject
 .
 h
 "
