@@ -713,7 +713,6 @@ function
 {
 ok
 (
-!
 cutItem
 .
 hasAttribute
@@ -726,7 +725,7 @@ disabled
 cut
 menuitem
 is
-enabled
+disabled
 "
 )
 ;
@@ -925,7 +924,6 @@ function
 {
 ok
 (
-!
 cutItem
 .
 hasAttribute
@@ -938,7 +936,7 @@ disabled
 cut
 menuitem
 is
-enabled
+disabled
 after
 cut
 "
@@ -1055,7 +1053,6 @@ function
 {
 ok
 (
-!
 cutItem
 .
 hasAttribute
@@ -1068,7 +1065,7 @@ disabled
 cut
 menuitem
 is
-enabled
+disabled
 after
 paste
 "
