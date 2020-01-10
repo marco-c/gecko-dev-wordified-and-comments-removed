@@ -430,12 +430,6 @@ name
 .
 txt
 \
-ua
--
-update
-.
-json
-\
 platform
 .
 ini
