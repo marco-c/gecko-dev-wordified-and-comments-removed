@@ -3297,7 +3297,7 @@ remote
 .
 separatePrivilegedMozillaWebContentProcess
 "
-false
+true
 )
 ;
 pref
