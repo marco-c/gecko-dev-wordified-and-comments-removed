@@ -755,9 +755,6 @@ aURI
 return
 ;
 }
-nsAutoScriptBlocker
-scriptBlocker
-;
 auto
 entry
 =
