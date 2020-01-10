@@ -221,6 +221,7 @@ re
 .
 compile
 (
+b
 "
 See
 also
@@ -245,6 +246,7 @@ re
 .
 compile
 (
+b
 "
 See
 also
