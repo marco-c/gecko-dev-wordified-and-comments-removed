@@ -1866,7 +1866,7 @@ opacity
 PrimitiveOpacity
 :
 :
-translucent
+opaque
 (
 )
 ;
