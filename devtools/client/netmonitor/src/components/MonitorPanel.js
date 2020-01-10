@@ -270,7 +270,7 @@ lazyGetter
 (
 this
 "
-SearchPanel
+NetworkActionBar
 "
 function
 (
@@ -284,9 +284,7 @@ require
 "
 .
 /
-search
-/
-SearchPanel
+NetworkActionBar
 "
 )
 )
@@ -513,7 +511,7 @@ persistDetailsPanelSize
 ;
 this
 .
-persistSearchPanelSize
+persistActionBarSize
 (
 )
 ;
@@ -586,7 +584,7 @@ persistDetailsPanelSize
 ;
 this
 .
-persistSearchPanelSize
+persistActionBarSize
 (
 )
 ;
@@ -686,7 +684,7 @@ clientHeight
 ;
 }
 }
-persistSearchPanelSize
+persistActionBarSize
 (
 )
 {
@@ -702,7 +700,7 @@ this
 .
 refs
 .
-searchPanel
+actionBar
 )
 |
 |
@@ -820,7 +818,7 @@ height
 )
 ;
 }
-renderSearchPanel
+renderActionBar
 (
 )
 {
@@ -917,13 +915,13 @@ startPanel
 panelOpen
 &
 &
-SearchPanel
+NetworkActionBar
 (
 {
 ref
 :
 "
-searchPanel
+actionBar
 "
 connector
 }
@@ -1076,7 +1074,7 @@ startPanel
 :
 this
 .
-renderSearchPanel
+renderActionBar
 (
 )
 endPanel
