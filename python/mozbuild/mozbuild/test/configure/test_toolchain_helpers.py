@@ -119,6 +119,8 @@ feature
 builtin
 |
 attribute
+|
+warning
 )
 )
 \
