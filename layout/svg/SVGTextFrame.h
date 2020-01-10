@@ -700,16 +700,6 @@ aResult
 endif
 virtual
 void
-DidSetComputedStyle
-(
-ComputedStyle
-*
-aOldComputedStyle
-)
-override
-;
-virtual
-void
 FindCloserFrameForSelection
 (
 const

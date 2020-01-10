@@ -1187,12 +1187,8 @@ display
 -
 >
 mScale
-MotionPathUtils
-:
-:
-ResolveMotionPath
+Nothing
 (
-aFrame
 )
 display
 -
