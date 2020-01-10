@@ -528,6 +528,13 @@ compiler
 baseline
 -
 -
+wasm
+-
+compiler
+=
+cranelift
+-
+-
 test
 -
 wasm
