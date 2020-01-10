@@ -404,14 +404,6 @@ noOfRows
 )
 ;
 void
-Output
-(
-nsString
-&
-aString
-)
-;
-void
 Write
 (
 const
@@ -1029,10 +1021,6 @@ bool
 8
 >
 mIsInCiteBlockquote
-;
-nsAString
-*
-mOutput
 ;
 nsAtom
 *
