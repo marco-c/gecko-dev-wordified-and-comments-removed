@@ -93,6 +93,7 @@ printed_intro
 :
             
 print
+(
 "
 Finished
 test
@@ -103,6 +104,7 @@ s
 self
 .
 test
+)
     
 def
 maybe_print_intro
@@ -119,6 +121,7 @@ printed_intro
 :
             
 print
+(
 "
 Starting
 test
@@ -129,6 +132,7 @@ s
 self
 .
 test
+)
             
 self
 .
@@ -158,6 +162,7 @@ verbose
 :
             
 print
+(
 "
 TEST
 -
@@ -168,6 +173,7 @@ s
 "
 %
 msg
+)
     
 def
 test_fail
@@ -193,6 +199,7 @@ msg
 )
         
 print
+(
 "
 TEST
 -
@@ -205,6 +212,7 @@ s
 "
 %
 msg
+)
     
 def
 ok
@@ -435,6 +443,7 @@ harness
         
 except
 Exception
+as
 ex
 :
             
@@ -508,15 +517,20 @@ failed_tests
 :
         
 print
+(
+)
         
 print
+(
 '
 Result
 summary
 :
 '
+)
         
 print
+(
 '
 Successful
 :
@@ -525,8 +539,10 @@ d
 '
 %
 all_passed
+)
         
 print
+(
 '
 Unexpected
 :
@@ -548,6 +564,7 @@ failures
 in
 failed_tests
 )
+)
         
 for
 test
@@ -557,6 +574,7 @@ failed_tests
 :
             
 print
+(
 '
 %
 s
@@ -564,6 +582,7 @@ s
 '
 %
 test
+)
             
 for
 failure
@@ -572,6 +591,7 @@ failures
 :
                 
 print
+(
 '
 TEST
 -
@@ -584,6 +604,7 @@ s
 '
 %
 failure
+)
     
 return
 1
