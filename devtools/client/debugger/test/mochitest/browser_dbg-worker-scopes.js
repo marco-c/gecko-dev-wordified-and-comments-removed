@@ -10,6 +10,16 @@ running
 /
 )
 ;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+Connection
+closed
+/
+)
+;
 function
 findNode
 (
