@@ -15,9 +15,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 arrow
 -
