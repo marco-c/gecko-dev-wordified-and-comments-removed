@@ -368,7 +368,12 @@ GetSpec
 docURISpec
 )
 ;
+bool
+isFileURL
+;
 if
+(
+NS_SUCCEEDED
 (
 docURI
 -
@@ -378,7 +383,13 @@ SchemeIs
 "
 file
 "
+&
+isFileURL
 )
+)
+&
+&
+isFileURL
 )
 {
 return
