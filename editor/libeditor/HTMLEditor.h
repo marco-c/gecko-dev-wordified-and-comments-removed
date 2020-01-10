@@ -4824,6 +4824,15 @@ nsAString
 aAlignType
 )
 ;
+bool
+StartOrEndOfSelectionRangesIsIn
+(
+nsIContent
+&
+aContent
+)
+const
+;
 protected
 :
 virtual

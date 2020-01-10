@@ -596,17 +596,6 @@ RemoveEmptyNodesInChangedRange
 (
 )
 ;
-nsresult
-SelectionEndpointInNode
-(
-nsINode
-*
-aNode
-bool
-*
-aResult
-)
-;
 MOZ_MUST_USE
 nsresult
 ConfirmSelectionInBody
