@@ -598,6 +598,9 @@ stream
 writeByteArray
 (
 IMAGE_DATA
+IMAGE_DATA
+.
+length
 )
 ;
 }

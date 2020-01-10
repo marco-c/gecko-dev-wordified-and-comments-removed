@@ -160,6 +160,9 @@ stream
 writeByteArray
 (
 FONT_DATA
+FONT_DATA
+.
+length
 )
 ;
 }

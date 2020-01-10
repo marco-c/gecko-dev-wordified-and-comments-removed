@@ -126,6 +126,9 @@ bos
 writeByteArray
 (
 bodyBytes
+bodyBytes
+.
+length
 )
 ;
 response

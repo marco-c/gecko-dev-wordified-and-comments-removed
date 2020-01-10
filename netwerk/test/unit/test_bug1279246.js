@@ -572,6 +572,9 @@ bos
 writeByteArray
 (
 responseBody
+responseBody
+.
+length
 )
 ;
 response

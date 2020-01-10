@@ -1634,6 +1634,9 @@ stream
 writeByteArray
 (
 data
+data
+.
+length
 )
 ;
 }

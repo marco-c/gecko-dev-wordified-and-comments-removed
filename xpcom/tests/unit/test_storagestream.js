@@ -564,6 +564,9 @@ bos
 writeByteArray
 (
 bytes
+bytes
+.
+length
 )
 ;
 bos

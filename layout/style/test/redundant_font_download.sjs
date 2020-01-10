@@ -342,6 +342,9 @@ stream
 writeByteArray
 (
 RED_SQUARE
+RED_SQUARE
+.
+length
 )
 ;
 }
@@ -398,6 +401,9 @@ stream
 writeByteArray
 (
 RED_SQUARE
+RED_SQUARE
+.
+length
 )
 ;
 }
