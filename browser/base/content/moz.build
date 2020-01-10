@@ -479,10 +479,7 @@ Firefox
 "
 "
 Site
-Identity
-and
-Permission
-Panels
+Permissions
 "
 )
 with
@@ -556,10 +553,7 @@ Firefox
 "
 "
 Site
-Identity
-and
-Permission
-Panels
+Permissions
 "
 )
 with
@@ -632,9 +626,6 @@ Firefox
 "
 Site
 Identity
-and
-Permission
-Panels
 "
 )
 with
@@ -845,8 +836,8 @@ BUG_COMPONENT
 Firefox
 "
 "
-Tracking
-Protection
+Protections
+UI
 "
 )
 with
@@ -1230,7 +1221,7 @@ BUG_COMPONENT
 Firefox
 "
 "
-Device
+Site
 Permissions
 "
 )
@@ -1337,7 +1328,7 @@ BUG_COMPONENT
 Firefox
 "
 "
-Device
+Site
 Permissions
 "
 )
