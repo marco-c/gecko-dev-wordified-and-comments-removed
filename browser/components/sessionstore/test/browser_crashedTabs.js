@@ -636,7 +636,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
@@ -783,7 +783,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
@@ -1013,7 +1013,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
@@ -1330,7 +1330,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
@@ -1645,7 +1645,7 @@ browser2
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
@@ -1920,7 +1920,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
@@ -2047,7 +2047,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
@@ -2227,7 +2227,7 @@ otherWinBrowser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )
@@ -2448,7 +2448,7 @@ browser
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 browser
 )

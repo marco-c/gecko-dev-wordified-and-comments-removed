@@ -95,11 +95,6 @@ BrowserTestUtils
 jsm
 '
 '
-BrowserTestUtilsChild
-.
-jsm
-'
-'
 content
 /
 content

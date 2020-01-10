@@ -320,7 +320,7 @@ t
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 tabs
 [
@@ -867,7 +867,7 @@ window
 await
 BrowserTestUtils
 .
-crashFrame
+crashBrowser
 (
 gBrowser
 .
