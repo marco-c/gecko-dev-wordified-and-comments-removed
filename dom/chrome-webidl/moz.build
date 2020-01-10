@@ -286,6 +286,11 @@ DebuggerNotificationObserver
 webidl
 '
 '
+DebuggerUtils
+.
+webidl
+'
+'
 DocumentL10n
 .
 webidl
