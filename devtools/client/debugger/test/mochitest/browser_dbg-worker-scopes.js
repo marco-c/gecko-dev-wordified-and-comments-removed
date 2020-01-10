@@ -781,6 +781,12 @@ var_weakset
 )
 ;
 await
+toggleScopes
+(
+dbg
+)
+;
+await
 waitForRequestsToSettle
 (
 dbg
