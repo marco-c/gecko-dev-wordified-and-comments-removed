@@ -6,9 +6,6 @@ Exposed
 Window
 DedicatedWorker
 )
-RuntimeEnabled
-=
-SmsRetrieval
 ]
 interface
 SMS
