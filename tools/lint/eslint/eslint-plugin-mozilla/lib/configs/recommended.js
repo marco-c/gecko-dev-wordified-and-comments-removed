@@ -281,9 +281,6 @@ fetch
 options
 "
 "
-mozilla
-"
-"
 no
 -
 unsanitized
