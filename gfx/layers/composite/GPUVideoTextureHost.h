@@ -134,6 +134,16 @@ override
 gfx
 :
 :
+ColorRange
+GetColorRange
+(
+)
+const
+override
+;
+gfx
+:
+:
 IntSize
 GetSize
 (
