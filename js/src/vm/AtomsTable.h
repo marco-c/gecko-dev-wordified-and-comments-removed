@@ -714,11 +714,11 @@ access
 )
 ;
 void
-sweepAll
+traceWeak
 (
-JSRuntime
+JSTracer
 *
-rt
+trc
 )
 ;
 bool
@@ -727,8 +727,11 @@ startIncrementalSweep
 )
 ;
 bool
-sweepIncrementally
+traceWeakIncrementally
 (
+JSTracer
+*
+trc
 SweepIterator
 &
 atomsToSweep
