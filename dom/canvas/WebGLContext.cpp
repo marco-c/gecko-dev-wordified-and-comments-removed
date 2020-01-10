@@ -2279,6 +2279,10 @@ if
 IsWebGL2
 (
 )
+&
+&
+!
+forceEnabled
 )
 {
 const
