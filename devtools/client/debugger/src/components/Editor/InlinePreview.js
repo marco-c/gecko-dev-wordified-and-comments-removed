@@ -59,16 +59,6 @@ variable
 string
 )
 {
-console
-.
-log
-(
-show
-{
-variable
-}
-)
-;
 }
 render
 (

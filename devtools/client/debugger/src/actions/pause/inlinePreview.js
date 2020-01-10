@@ -883,6 +883,9 @@ property
 displayValue
 =
 property
+&
+&
+property
 .
 contents
 .
@@ -900,6 +903,15 @@ property
 ;
 }
 else
+if
+(
+displayValue
+&
+&
+displayValue
+.
+preview
+)
 {
 const
 {
