@@ -17634,7 +17634,7 @@ FinishDateClassInit
 }
 ;
 const
-Class
+JSClass
 DateObject
 :
 :
@@ -17657,7 +17657,7 @@ DateObjectClassSpec
 }
 ;
 const
-Class
+JSClass
 DateObject
 :
 :

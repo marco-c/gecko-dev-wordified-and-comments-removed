@@ -1693,7 +1693,7 @@ properties
 }
 ;
 const
-Class
+JSClass
 WeakMapObject
 :
 :
@@ -1724,7 +1724,7 @@ classSpec_
 }
 ;
 const
-Class
+JSClass
 WeakMapObject
 :
 :

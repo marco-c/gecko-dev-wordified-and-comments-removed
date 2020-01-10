@@ -2603,7 +2603,7 @@ thingSize
 size_t
 nDynamicSlots
 const
-Class
+JSClass
 *
 clasp
 )

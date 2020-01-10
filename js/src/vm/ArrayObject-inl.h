@@ -180,10 +180,7 @@ AutoSetNewObjectMetadata
 )
 {
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =

@@ -3301,7 +3301,7 @@ GlobalDebuggerVectorHolder_finalize
 ;
 static
 const
-Class
+JSClass
 GlobalDebuggerVectorHolder_class
 =
 {
@@ -20539,7 +20539,7 @@ traceObject
 }
 ;
 const
-Class
+JSClass
 Debugger
 :
 :

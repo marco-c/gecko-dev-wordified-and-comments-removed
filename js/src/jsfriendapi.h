@@ -1824,7 +1824,7 @@ struct
 ObjectGroup
 {
 const
-Class
+JSClass
 *
 clasp
 ;
@@ -1845,10 +1845,7 @@ struct
 BaseShape
 {
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp_
 ;
@@ -2066,10 +2063,7 @@ _1
 extern
 JS_FRIEND_DATA
 const
-js
-:
-:
-Class
+JSClass
 *
 const
 ObjectClassPtr
@@ -2109,7 +2103,7 @@ clasp
 }
 JS_FRIEND_API
 const
-Class
+JSClass
 *
 ProtoKeyToClass
 (
@@ -4622,7 +4616,7 @@ DOMInstanceClassHasProtoAtDepth
 )
 (
 const
-Class
+JSClass
 *
 instanceClass
 uint32_t
@@ -6404,7 +6398,7 @@ detail
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 Int8ArrayClassPtr
@@ -6412,7 +6406,7 @@ Int8ArrayClassPtr
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 Uint8ArrayClassPtr
@@ -6420,7 +6414,7 @@ Uint8ArrayClassPtr
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 Uint8ClampedArrayClassPtr
@@ -6428,7 +6422,7 @@ Uint8ClampedArrayClassPtr
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 Int16ArrayClassPtr
@@ -6436,7 +6430,7 @@ Int16ArrayClassPtr
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 Uint16ArrayClassPtr
@@ -6444,7 +6438,7 @@ Uint16ArrayClassPtr
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 Int32ArrayClassPtr
@@ -6452,7 +6446,7 @@ Int32ArrayClassPtr
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 Uint32ArrayClassPtr
@@ -6460,7 +6454,7 @@ Uint32ArrayClassPtr
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 BigInt64ArrayClassPtr
@@ -6468,7 +6462,7 @@ BigInt64ArrayClassPtr
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 BigUint64ArrayClassPtr
@@ -6476,7 +6470,7 @@ BigUint64ArrayClassPtr
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 Float32ArrayClassPtr
@@ -6484,7 +6478,7 @@ Float32ArrayClassPtr
 extern
 JS_FRIEND_DATA
 const
-Class
+JSClass
 *
 const
 Float64ArrayClassPtr
@@ -9322,7 +9316,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 )

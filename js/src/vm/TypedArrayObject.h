@@ -350,7 +350,7 @@ bufferEither
 }
 static
 const
-Class
+JSClass
 classes
 [
 Scalar
@@ -361,7 +361,7 @@ MaxTypedArrayViewType
 ;
 static
 const
-Class
+JSClass
 protoClasses
 [
 Scalar
@@ -372,12 +372,12 @@ MaxTypedArrayViewType
 ;
 static
 const
-Class
+JSClass
 sharedTypedArrayPrototypeClass
 ;
 static
 const
-Class
+JSClass
 *
 classForType
 (
@@ -408,7 +408,7 @@ type
 }
 static
 const
-Class
+JSClass
 *
 protoClassForType
 (
@@ -1122,7 +1122,7 @@ bool
 IsTypedArrayClass
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -1164,7 +1164,7 @@ Type
 GetTypedArrayClassType
 (
 const
-Class
+JSClass
 *
 clasp
 )

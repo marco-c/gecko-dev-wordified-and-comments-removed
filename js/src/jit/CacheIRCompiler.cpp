@@ -5704,7 +5704,7 @@ const
 template
 GCPtr
 <
-Class
+JSClass
 *
 >
 &
@@ -9870,7 +9870,7 @@ false
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -10264,7 +10264,7 @@ false
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =

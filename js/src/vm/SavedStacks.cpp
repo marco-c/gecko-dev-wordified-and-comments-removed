@@ -1957,7 +1957,7 @@ DontDefineConstructor
 }
 ;
 const
-Class
+JSClass
 SavedFrame
 :
 :
@@ -1993,7 +1993,7 @@ classSpec_
 }
 ;
 const
-Class
+JSClass
 SavedFrame
 :
 :

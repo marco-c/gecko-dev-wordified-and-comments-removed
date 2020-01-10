@@ -5609,7 +5609,7 @@ properties
 }
 ;
 const
-Class
+JSClass
 DataViewObject
 :
 :
@@ -5643,7 +5643,7 @@ classSpec_
 }
 ;
 const
-Class
+JSClass
 DataViewObject
 :
 :

@@ -17325,7 +17325,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -18647,7 +18647,7 @@ Finalize
 }
 ;
 const
-Class
+JSClass
 CloneBufferObject
 :
 :
@@ -25527,7 +25527,7 @@ nurseryVal
 }
 static
 const
-Class
+JSClass
 cls
 =
 {

@@ -4582,7 +4582,7 @@ JSProto_Null
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -4908,7 +4908,7 @@ continue
 if
 (
 const
-Class
+JSClass
 *
 clasp
 =
@@ -16108,7 +16108,7 @@ return
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =

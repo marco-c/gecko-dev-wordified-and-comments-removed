@@ -3416,7 +3416,7 @@ obj
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -4054,10 +4054,7 @@ AllocKind
 NewObjectGCKind
 (
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 )
@@ -4141,7 +4138,7 @@ initialShapeFlags
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -4419,7 +4416,7 @@ fillProto
 EntryIndex
 entry
 const
-Class
+JSClass
 *
 clasp
 js
@@ -4505,7 +4502,7 @@ proto
 NewObjectKind
 newKind
 const
-Class
+JSClass
 *
 clasp
 )
@@ -4568,7 +4565,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 Handle
@@ -4831,7 +4828,7 @@ cx
 NewObjectKind
 newKind
 const
-Class
+JSClass
 *
 clasp
 )
@@ -4871,7 +4868,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -5665,7 +5662,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 newclasp
 HandleObject
@@ -10107,10 +10104,7 @@ obj
 )
 {
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =
@@ -11828,7 +11822,7 @@ atom
 HandleObject
 protoProto
 const
-Class
+JSClass
 *
 clasp
 Native
@@ -12039,7 +12033,7 @@ obj
 HandleObject
 protoProto_
 const
-Class
+JSClass
 *
 clasp
 Native
@@ -17220,7 +17214,7 @@ hint
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -17367,7 +17361,7 @@ cx
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -19442,7 +19436,7 @@ toObject
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -20369,7 +20363,7 @@ name
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -23362,7 +23356,7 @@ trc
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -24423,10 +24417,7 @@ heap
 )
 {
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =

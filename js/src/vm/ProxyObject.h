@@ -142,10 +142,7 @@ JSContext
 *
 cx
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 Handle
@@ -532,7 +529,7 @@ bool
 isValidProxyClass
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -636,7 +633,7 @@ bool
 IsProxyClass
 (
 const
-Class
+JSClass
 *
 clasp
 )

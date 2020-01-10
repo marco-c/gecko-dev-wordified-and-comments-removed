@@ -5826,7 +5826,7 @@ i
 }
 inline
 const
-Class
+JSClass
 *
 TypeSet
 :

@@ -1430,7 +1430,7 @@ proto
 ;
 }
 const
-Class
+JSClass
 GeneratorObject
 :
 :

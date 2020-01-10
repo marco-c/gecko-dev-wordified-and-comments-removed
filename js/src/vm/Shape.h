@@ -217,10 +217,7 @@ size_t
 JSSLOT_FREE
 (
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 )
@@ -2296,7 +2293,7 @@ OBJECT_FLAG_MASK
 private
 :
 const
-Class
+JSClass
 *
 clasp_
 ;
@@ -2361,7 +2358,7 @@ BaseShape
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 (
@@ -3093,7 +3090,7 @@ uint32_t
 flags
 ;
 const
-Class
+JSClass
 *
 clasp
 ;
@@ -3130,7 +3127,7 @@ inline
 StackBaseShape
 (
 const
-Class
+JSClass
 *
 clasp
 uint32_t
@@ -3153,7 +3150,7 @@ uint32_t
 flags
 ;
 const
-Class
+JSClass
 *
 clasp
 ;
@@ -4578,7 +4575,7 @@ parent
 }
 ;
 const
-Class
+JSClass
 *
 getObjectClass
 (
@@ -5307,7 +5304,7 @@ uint32_t
 slotSpan
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -6435,7 +6432,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -6457,7 +6454,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -6529,7 +6526,7 @@ struct
 Lookup
 {
 const
-Class
+JSClass
 *
 clasp
 ;
@@ -6545,7 +6542,7 @@ baseFlags
 Lookup
 (
 const
-Class
+JSClass
 *
 clasp
 const

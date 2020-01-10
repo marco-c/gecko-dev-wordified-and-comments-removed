@@ -1435,7 +1435,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 JSFunction
@@ -1593,7 +1593,7 @@ public
 :
 static
 const
-Class
+JSClass
 class_
 ;
 private

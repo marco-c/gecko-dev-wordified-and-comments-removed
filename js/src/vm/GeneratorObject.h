@@ -985,7 +985,7 @@ RESERVED_SLOTS
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static

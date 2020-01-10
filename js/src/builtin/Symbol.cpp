@@ -76,7 +76,7 @@ namespace
 js
 ;
 const
-Class
+JSClass
 SymbolObject
 :
 :

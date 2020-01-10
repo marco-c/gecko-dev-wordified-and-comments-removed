@@ -419,7 +419,7 @@ DebuggerScript
 }
 ;
 const
-Class
+JSClass
 DebuggerScript
 :
 :

@@ -752,7 +752,7 @@ properties
 }
 ;
 const
-Class
+JSClass
 WeakSetObject
 :
 :
@@ -783,7 +783,7 @@ classSpec_
 }
 ;
 const
-Class
+JSClass
 WeakSetObject
 :
 :

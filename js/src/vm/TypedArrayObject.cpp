@@ -1816,7 +1816,7 @@ nullptr
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -1947,7 +1947,7 @@ fun
 static
 inline
 const
-Class
+JSClass
 *
 instanceClass
 (
@@ -9202,7 +9202,7 @@ DontDefineConstructor
 }
 ;
 const
-Class
+JSClass
 TypedArrayObject
 :
 :
@@ -10243,7 +10243,7 @@ IMPL_TYPED_ARRAY_CLASS_SPEC
 }
 ;
 const
-Class
+JSClass
 TypedArrayObject
 :
 :
@@ -10328,7 +10328,7 @@ IMPL_TYPED_ARRAY_CLASS
 }
 ;
 const
-Class
+JSClass
 TypedArrayObject
 :
 :
@@ -11795,7 +11795,7 @@ nullptr
 }
 \
 const
-Class
+JSClass
 *
 clasp
 =
@@ -11876,10 +11876,7 @@ nullptr
 \
 \
 const
-js
-:
-:
-Class
+JSClass
 *
 const
 js

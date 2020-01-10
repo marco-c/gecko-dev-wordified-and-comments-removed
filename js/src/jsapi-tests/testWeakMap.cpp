@@ -812,10 +812,7 @@ newKey
 {
 static
 const
-js
-:
-:
-Class
+JSClass
 keyClass
 =
 {
@@ -995,10 +992,7 @@ DelegateObjectMoved
 ;
 static
 const
-js
-:
-:
-Class
+JSClass
 delegateClass
 =
 {

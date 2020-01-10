@@ -3798,7 +3798,7 @@ RawWord
 ;
 }
 const
-Class
+JSClass
 *
 classStubField
 (
@@ -3820,7 +3820,7 @@ Constant
 return
 (
 const
-Class
+JSClass
 *
 )
 readStubWord

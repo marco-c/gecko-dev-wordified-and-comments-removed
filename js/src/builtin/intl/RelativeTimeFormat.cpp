@@ -188,7 +188,7 @@ finalize
 }
 ;
 const
-Class
+JSClass
 RelativeTimeFormatObject
 :
 :

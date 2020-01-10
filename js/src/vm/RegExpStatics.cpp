@@ -173,7 +173,7 @@ resc_trace
 }
 ;
 const
-Class
+JSClass
 RegExpStaticsObject
 :
 :

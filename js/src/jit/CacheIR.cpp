@@ -7567,7 +7567,7 @@ TypedThingLayout
 GetTypedThingLayout
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -18038,7 +18038,7 @@ false
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -26656,7 +26656,7 @@ endif
 }
 static
 const
-Class
+JSClass
 shapeContainerClass
 =
 {

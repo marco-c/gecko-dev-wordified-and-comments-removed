@@ -3588,7 +3588,7 @@ mask
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -4632,7 +4632,7 @@ bool
 IsArrayClass
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -5112,7 +5112,7 @@ InliningStatus_NotInlined
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -5497,7 +5497,7 @@ false
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -5811,7 +5811,7 @@ InliningStatus_NotInlined
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -6517,7 +6517,7 @@ InliningStatus_NotInlined
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -11725,7 +11725,7 @@ InliningStatus_NotInlined
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -13389,7 +13389,7 @@ resultTypeSet
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -13701,7 +13701,7 @@ resultTypeSet
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -14013,7 +14013,7 @@ resultTypeSet
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -14295,7 +14295,7 @@ resultTypeSet
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -16156,7 +16156,7 @@ setImplicitlyUsedUnchecked
 if
 (
 const
-Class
+JSClass
 *
 knownClass
 =
@@ -16300,19 +16300,19 @@ CallInfo
 &
 callInfo
 const
-Class
+JSClass
 *
 clasp1
 const
-Class
+JSClass
 *
 clasp2
 const
-Class
+JSClass
 *
 clasp3
 const
-Class
+JSClass
 *
 clasp4
 )
@@ -16398,7 +16398,7 @@ resultTypeSet
 )
 ;
 const
-Class
+JSClass
 *
 knownClass
 =
@@ -16508,7 +16508,7 @@ hasClass1
 else
 {
 const
-Class
+JSClass
 *
 remaining
 [
@@ -16657,7 +16657,7 @@ CallInfo
 &
 callInfo
 const
-Class
+JSClass
 *
 clasp
 )
@@ -16743,7 +16743,7 @@ resultTypeSet
 )
 ;
 const
-Class
+JSClass
 *
 knownClass
 =
@@ -16951,7 +16951,7 @@ resultTypeSet
 )
 ;
 const
-Class
+JSClass
 *
 resultClasp
 =
@@ -17751,7 +17751,7 @@ IsArrayBufferMaybeSharedClass
 ]
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -20160,7 +20160,7 @@ resultTypeSet
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =

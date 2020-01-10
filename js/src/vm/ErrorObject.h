@@ -153,7 +153,7 @@ JSEXN_ERROR_LIMIT
 ;
 static
 const
-Class
+JSClass
 protoClasses
 [
 JSEXN_ERROR_LIMIT
@@ -253,7 +253,7 @@ public
 :
 static
 const
-Class
+JSClass
 classes
 [
 JSEXN_ERROR_LIMIT
@@ -261,7 +261,7 @@ JSEXN_ERROR_LIMIT
 ;
 static
 const
-Class
+JSClass
 *
 classForType
 (
@@ -289,7 +289,7 @@ bool
 isErrorClass
 (
 const
-Class
+JSClass
 *
 clasp
 )

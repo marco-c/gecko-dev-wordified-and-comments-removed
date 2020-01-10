@@ -561,10 +561,7 @@ heap
 )
 ;
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =

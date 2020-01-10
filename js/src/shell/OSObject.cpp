@@ -2069,10 +2069,7 @@ public
 :
 static
 const
-js
-:
-:
-Class
+JSClass
 class_
 ;
 static
@@ -2314,10 +2311,7 @@ nullptr
 }
 ;
 const
-js
-:
-:
-Class
+JSClass
 FileObject
 :
 :

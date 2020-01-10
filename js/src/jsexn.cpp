@@ -315,7 +315,7 @@ JSProto_Error
 \
 }
 const
-Class
+JSClass
 ErrorObject
 :
 :
@@ -762,7 +762,7 @@ nullptr
 }
 ;
 const
-Class
+JSClass
 ErrorObject
 :
 :

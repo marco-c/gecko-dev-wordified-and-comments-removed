@@ -155,7 +155,7 @@ SlotCount
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -260,7 +260,7 @@ SlotCount
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -371,7 +371,7 @@ SlotCount
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -1179,7 +1179,7 @@ define
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static

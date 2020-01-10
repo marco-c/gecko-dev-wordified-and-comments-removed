@@ -5964,7 +5964,7 @@ function_properties
 }
 ;
 const
-Class
+JSClass
 JSFunction
 :
 :
@@ -5983,7 +5983,7 @@ JSFunctionClassSpec
 }
 ;
 const
-Class
+JSClass
 *
 const
 js
@@ -12616,7 +12616,7 @@ CallArgs
 &
 args
 const
-Class
+JSClass
 *
 clasp
 )

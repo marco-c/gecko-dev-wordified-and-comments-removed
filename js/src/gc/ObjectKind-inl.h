@@ -27,7 +27,7 @@ CanBeFinalizedInBackground
 AllocKind
 kind
 const
-Class
+JSClass
 *
 clasp
 )
@@ -159,7 +159,7 @@ AllocKind
 GetGCObjectKind
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -530,7 +530,7 @@ GetGCKindSlots
 AllocKind
 thingKind
 const
-Class
+JSClass
 *
 clasp
 )

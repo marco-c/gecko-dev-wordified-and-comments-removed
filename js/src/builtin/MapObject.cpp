@@ -728,7 +728,7 @@ objectMoved
 }
 ;
 const
-Class
+JSClass
 MapIteratorObject
 :
 :
@@ -2212,7 +2212,7 @@ properties
 }
 ;
 const
-Class
+JSClass
 MapObject
 :
 :
@@ -2253,7 +2253,7 @@ classSpec_
 }
 ;
 const
-Class
+JSClass
 MapObject
 :
 :
@@ -5555,7 +5555,7 @@ objectMoved
 }
 ;
 const
-Class
+JSClass
 SetIteratorObject
 :
 :
@@ -6827,7 +6827,7 @@ properties
 }
 ;
 const
-Class
+JSClass
 SetObject
 :
 :
@@ -6868,7 +6868,7 @@ classSpec_
 }
 ;
 const
-Class
+JSClass
 SetObject
 :
 :

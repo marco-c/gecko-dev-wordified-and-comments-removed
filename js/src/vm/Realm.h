@@ -381,7 +381,7 @@ bool
 lookup
 (
 const
-Class
+JSClass
 *
 clasp
 TaggedProto

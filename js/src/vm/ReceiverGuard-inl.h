@@ -134,7 +134,7 @@ group_
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =

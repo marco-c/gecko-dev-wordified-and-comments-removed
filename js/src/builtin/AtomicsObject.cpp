@@ -179,7 +179,7 @@ namespace
 js
 ;
 const
-Class
+JSClass
 AtomicsObject
 :
 :

@@ -8179,10 +8179,7 @@ JSContext
 *
 cx
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 )

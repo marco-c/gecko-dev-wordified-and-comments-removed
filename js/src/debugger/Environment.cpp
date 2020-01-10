@@ -333,7 +333,7 @@ DebuggerEnvironment
 }
 ;
 const
-Class
+JSClass
 DebuggerEnvironment
 :
 :

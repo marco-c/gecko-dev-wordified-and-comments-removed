@@ -12418,7 +12418,7 @@ scratch
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =

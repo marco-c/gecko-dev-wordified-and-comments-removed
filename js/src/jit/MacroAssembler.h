@@ -5407,10 +5407,7 @@ cond
 Register
 obj
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 Register
@@ -5431,10 +5428,7 @@ cond
 Register
 obj
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 Register

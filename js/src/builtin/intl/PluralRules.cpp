@@ -214,7 +214,7 @@ finalize
 }
 ;
 const
-Class
+JSClass
 PluralRulesObject
 :
 :

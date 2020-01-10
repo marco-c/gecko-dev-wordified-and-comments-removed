@@ -178,7 +178,7 @@ object
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -312,7 +312,7 @@ JAVASCRIPT_OBJECT_FINALIZE_ENABLED
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =

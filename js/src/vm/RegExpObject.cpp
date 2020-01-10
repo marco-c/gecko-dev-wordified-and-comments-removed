@@ -922,7 +922,7 @@ regexp_properties
 }
 ;
 const
-Class
+JSClass
 RegExpObject
 :
 :
@@ -951,7 +951,7 @@ RegExpObjectClassSpec
 }
 ;
 const
-Class
+JSClass
 RegExpObject
 :
 :

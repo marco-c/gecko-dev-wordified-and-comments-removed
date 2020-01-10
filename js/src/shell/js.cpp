@@ -2957,10 +2957,7 @@ kind
 )
 ;
 const
-js
-:
-:
-Class
+JSClass
 ShellWindowProxyClass
 =
 PROXY_CLASS_DEF
@@ -39292,7 +39289,7 @@ RESERVED_SLOTS
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -39627,7 +39624,7 @@ finalize
 }
 ;
 const
-Class
+JSClass
 StreamCacheEntryObject
 :
 :
@@ -45338,7 +45335,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 ;
 static
 const
-Class
+JSClass
 TransplantableDOMProxyObjectClass
 =
 PROXY_CLASS_DEF
@@ -57562,7 +57559,7 @@ bool
 InstanceClassHasProtoAtDepth
 (
 const
-Class
+JSClass
 *
 clasp
 uint32_t

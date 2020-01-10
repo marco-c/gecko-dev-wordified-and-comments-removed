@@ -535,7 +535,7 @@ DebuggerObject
 }
 ;
 const
-Class
+JSClass
 DebuggerObject
 :
 :

@@ -4080,7 +4080,7 @@ jsbytecode
 *
 pc
 const
-Class
+JSClass
 *
 clasp
 )
@@ -4158,7 +4158,7 @@ info
 >
 getStubField
 <
-Class
+JSClass
 *
 >
 (

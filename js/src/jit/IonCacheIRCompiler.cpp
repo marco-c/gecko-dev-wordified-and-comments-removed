@@ -4028,7 +4028,7 @@ masm
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =

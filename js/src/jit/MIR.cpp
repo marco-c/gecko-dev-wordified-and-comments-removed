@@ -33816,7 +33816,7 @@ false
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -35754,7 +35754,7 @@ types
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =

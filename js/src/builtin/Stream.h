@@ -555,7 +555,7 @@ classSpec_
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -565,7 +565,7 @@ protoClassSpec_
 ;
 static
 const
-Class
+JSClass
 protoClass_
 ;
 }
@@ -789,7 +789,7 @@ wrappedPromise
 }
 static
 const
-Class
+JSClass
 class_
 ;
 }
@@ -823,7 +823,7 @@ classSpec_
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -833,7 +833,7 @@ protoClassSpec_
 ;
 static
 const
-Class
+JSClass
 protoClass_
 ;
 }
@@ -1710,7 +1710,7 @@ classSpec_
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -1720,7 +1720,7 @@ protoClassSpec_
 ;
 static
 const
-Class
+JSClass
 protoClass_
 ;
 }
@@ -1853,7 +1853,7 @@ classSpec_
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -1863,7 +1863,7 @@ protoClassSpec_
 ;
 static
 const
-Class
+JSClass
 protoClass_
 ;
 }
@@ -1897,7 +1897,7 @@ classSpec_
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -1907,7 +1907,7 @@ protoClassSpec_
 ;
 static
 const
-Class
+JSClass
 protoClass_
 ;
 }
@@ -1941,7 +1941,7 @@ classSpec_
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static
@@ -1951,7 +1951,7 @@ protoClassSpec_
 ;
 static
 const
-Class
+JSClass
 protoClass_
 ;
 }

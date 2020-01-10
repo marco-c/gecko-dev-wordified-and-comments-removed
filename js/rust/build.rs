@@ -906,12 +906,6 @@ JS
 CallArgs
 "
 "
-js
-:
-:
-Class
-"
-"
 JS
 :
 :

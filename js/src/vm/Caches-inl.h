@@ -71,7 +71,7 @@ NewObjectCache
 lookupProto
 (
 const
-Class
+JSClass
 *
 clasp
 JSObject
@@ -119,7 +119,7 @@ NewObjectCache
 lookupGlobal
 (
 const
-Class
+JSClass
 *
 clasp
 GlobalObject
@@ -155,7 +155,7 @@ fillGlobal
 EntryIndex
 entry
 const
-Class
+JSClass
 *
 clasp
 GlobalObject

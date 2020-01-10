@@ -45,7 +45,7 @@ double
 ;
 extern
 const
-Class
+JSClass
 MathClass
 ;
 extern

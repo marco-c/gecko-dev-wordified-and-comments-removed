@@ -1484,10 +1484,7 @@ public
 :
 static
 const
-js
-:
-:
-Class
+JSClass
 class_
 ;
 private
@@ -6162,7 +6159,7 @@ CallArgs
 &
 args
 const
-Class
+JSClass
 *
 clasp
 )

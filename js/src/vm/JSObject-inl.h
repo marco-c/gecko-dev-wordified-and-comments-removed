@@ -147,7 +147,7 @@ nfixed
 uint32_t
 span
 const
-Class
+JSClass
 *
 clasp
 )
@@ -315,10 +315,7 @@ zone
 #
 endif
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =
@@ -1112,7 +1109,7 @@ bool
 ClassCanHaveFixedData
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -2082,7 +2079,7 @@ GetInitialHeap
 NewObjectKind
 newKind
 const
-Class
+JSClass
 *
 clasp
 )
@@ -2236,7 +2233,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 Handle
@@ -2266,7 +2263,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 Handle
@@ -2496,7 +2493,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -2535,7 +2532,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -2666,7 +2663,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -2689,7 +2686,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -2725,7 +2722,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -2884,7 +2881,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 gc
@@ -2918,7 +2915,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 NewObjectKind
@@ -3339,7 +3336,7 @@ obj
 HandleObject
 parent_proto
 const
-Class
+JSClass
 *
 clasp
 JSNative

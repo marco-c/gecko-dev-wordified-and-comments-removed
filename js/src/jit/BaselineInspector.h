@@ -464,7 +464,7 @@ jsbytecode
 *
 pc
 const
-Class
+JSClass
 *
 clasp
 )

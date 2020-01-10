@@ -120,7 +120,7 @@ vp
 ;
 static
 const
-Class
+JSClass
 class_
 ;
 static

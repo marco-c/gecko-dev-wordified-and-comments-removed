@@ -233,7 +233,7 @@ JS
 AutoStableStringChars
 ;
 const
-Class
+JSClass
 js
 :
 :

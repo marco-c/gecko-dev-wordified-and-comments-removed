@@ -4597,7 +4597,7 @@ guardAnyClass
 ObjOperandId
 obj
 const
-Class
+JSClass
 *
 clasp
 )

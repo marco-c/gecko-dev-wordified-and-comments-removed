@@ -2306,7 +2306,7 @@ info
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =

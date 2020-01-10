@@ -1102,7 +1102,7 @@ properties
 }
 ;
 const
-Class
+JSClass
 BigIntObject
 :
 :
@@ -1130,7 +1130,7 @@ classSpec_
 }
 ;
 const
-Class
+JSClass
 BigIntObject
 :
 :

@@ -774,7 +774,7 @@ cx
 ;
 {
 const
-Class
+JSClass
 *
 clasp
 =

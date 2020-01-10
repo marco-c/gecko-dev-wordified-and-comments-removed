@@ -9524,7 +9524,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 ScriptSourceObject
 :
 :

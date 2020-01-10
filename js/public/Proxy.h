@@ -837,10 +837,7 @@ false
 extern
 JS_FRIEND_DATA
 const
-js
-:
-:
-Class
+JSClass
 ProxyClass
 ;
 inline
@@ -1780,7 +1777,7 @@ this
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 (
@@ -1796,7 +1793,7 @@ ProxyOptions
 setClass
 (
 const
-Class
+JSClass
 *
 claspArg
 )
@@ -1819,7 +1816,7 @@ bool
 lazyProto_
 ;
 const
-Class
+JSClass
 *
 clasp_
 ;
@@ -2446,10 +2443,7 @@ flags
 \
 name
 \
-js
-:
-:
-Class
+JSClass
 :
 :
 NON_NATIVE

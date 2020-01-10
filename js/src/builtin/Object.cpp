@@ -2708,7 +2708,7 @@ JSObject
 *
 obj
 const
-Class
+JSClass
 *
 clasp
 JSContext
@@ -3138,7 +3138,7 @@ cx
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -3485,7 +3485,7 @@ obj
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =
@@ -10678,7 +10678,7 @@ FinishObjectClassInit
 }
 ;
 const
-Class
+JSClass
 PlainObject
 :
 :
@@ -10696,7 +10696,7 @@ PlainObjectClassSpec
 }
 ;
 const
-Class
+JSClass
 *
 const
 js

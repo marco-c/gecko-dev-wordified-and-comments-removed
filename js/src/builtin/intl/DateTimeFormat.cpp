@@ -307,7 +307,7 @@ finalize
 }
 ;
 const
-Class
+JSClass
 DateTimeFormatObject
 :
 :

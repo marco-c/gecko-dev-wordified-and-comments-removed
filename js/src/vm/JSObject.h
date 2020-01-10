@@ -1596,10 +1596,7 @@ ObjectGroupRealm
 &
 realm
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 JS
@@ -3422,7 +3419,7 @@ proto
 NewObjectKind
 newKind
 const
-Class
+JSClass
 *
 clasp
 )
@@ -3603,10 +3600,7 @@ JSContext
 *
 cx
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 js

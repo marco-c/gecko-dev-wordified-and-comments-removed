@@ -7819,7 +7819,7 @@ Address
 flags
 (
 scratch
-Class
+JSClass
 :
 :
 offsetOfFlags
@@ -7852,10 +7852,7 @@ Address
 scratch
 offsetof
 (
-js
-:
-:
-Class
+JSClass
 cOps
 )
 )
@@ -7873,10 +7870,7 @@ Address
 scratch
 offsetof
 (
-js
-:
-:
-Class
+JSClass
 cOps
 )
 )
@@ -15804,7 +15798,7 @@ NonZero
 Address
 (
 scratch
-Class
+JSClass
 :
 :
 offsetOfFlags
@@ -15813,7 +15807,7 @@ offsetOfFlags
 )
 Imm32
 (
-Class
+JSClass
 :
 :
 NON_NATIVE

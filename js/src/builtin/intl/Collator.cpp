@@ -246,7 +246,7 @@ finalize
 }
 ;
 const
-Class
+JSClass
 CollatorObject
 :
 :

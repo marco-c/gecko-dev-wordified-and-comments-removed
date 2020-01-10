@@ -88,7 +88,7 @@ AllocKind
 GetProxyGCObjectKind
 (
 const
-Class
+JSClass
 *
 clasp
 const
@@ -265,7 +265,7 @@ proto_
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -902,7 +902,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 Handle

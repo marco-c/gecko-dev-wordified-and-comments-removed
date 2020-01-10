@@ -8616,7 +8616,7 @@ toObject
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =

@@ -813,7 +813,7 @@ bool
 ClassCanHaveExtraProperties
 (
 const
-Class
+JSClass
 *
 clasp
 )

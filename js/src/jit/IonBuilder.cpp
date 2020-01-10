@@ -30074,7 +30074,7 @@ resultTypeSet
 if
 (
 const
-Class
+JSClass
 *
 clasp
 =
@@ -41263,7 +41263,7 @@ bool
 ClassHasEffectlessLookup
 (
 const
-Class
+JSClass
 *
 clasp
 )
@@ -41365,7 +41365,7 @@ id
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -42097,7 +42097,7 @@ id
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -42450,7 +42450,7 @@ false
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -47311,7 +47311,7 @@ resultTypeSet
 )
 ;
 const
-Class
+JSClass
 *
 expectedClass
 =
@@ -47320,7 +47320,7 @@ nullptr
 if
 (
 const
-Class
+JSClass
 *
 objClass
 =
@@ -47388,7 +47388,7 @@ pc
 )
 ;
 const
-Class
+JSClass
 *
 observedClass
 =
@@ -52497,7 +52497,7 @@ object
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -55856,7 +55856,7 @@ nullptr
 ;
 }
 const
-Class
+JSClass
 *
 clasp
 =
@@ -56966,7 +56966,7 @@ toObject
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =
@@ -72732,7 +72732,7 @@ resultTypeSet
 )
 ;
 const
-Class
+JSClass
 *
 clasp
 =

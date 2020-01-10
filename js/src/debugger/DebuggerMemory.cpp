@@ -384,7 +384,7 @@ false
 ;
 }
 const
-Class
+JSClass
 DebuggerMemory
 :
 :

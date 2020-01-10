@@ -4887,7 +4887,7 @@ bp
 )
 {
 const
-Class
+JSClass
 *
 clasp
 =

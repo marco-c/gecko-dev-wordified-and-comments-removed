@@ -3354,10 +3354,7 @@ options
 ;
 }
 const
-js
-:
-:
-Class
+JSClass
 WindowProxyClass
 =
 PROXY_CLASS_DEF
@@ -3372,10 +3369,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 )
 ;
 const
-js
-:
-:
-Class
+JSClass
 *
 GetWindowProxyClass
 (

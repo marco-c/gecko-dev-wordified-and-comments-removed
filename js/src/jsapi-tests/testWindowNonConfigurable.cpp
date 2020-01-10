@@ -108,10 +108,7 @@ windowProxy_defineProperty
 ;
 static
 const
-js
-:
-:
-Class
+JSClass
 windowProxy_class
 =
 {

@@ -214,7 +214,7 @@ ObjectGroup
 ObjectGroup
 (
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -1212,7 +1212,7 @@ toObject
 ifdef
 DEBUG
 const
-Class
+JSClass
 *
 oldClass
 =
@@ -1634,10 +1634,7 @@ ObjectGroupRealm
 &
 realm
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 JS
@@ -1710,7 +1707,7 @@ struct
 Lookup
 {
 const
-Class
+JSClass
 *
 clasp
 ;
@@ -1724,7 +1721,7 @@ associated
 Lookup
 (
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -2386,7 +2383,7 @@ DefaultNewGroupCache
 lookup
 (
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -2454,7 +2451,7 @@ JSContext
 *
 cx
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -3340,7 +3337,7 @@ ObjectGroup
 *
 oldGroup
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -3606,7 +3603,7 @@ ObjectGroupRealm
 &
 realm
 const
-Class
+JSClass
 *
 clasp
 HandleObject
@@ -3699,7 +3696,7 @@ JSObject
 *
 proto
 const
-Class
+JSClass
 *
 clasp
 ObjectGroup
@@ -3780,7 +3777,7 @@ false
 endif
 inline
 const
-Class
+JSClass
 *
 GetClassForProtoKey
 (
@@ -8844,7 +8841,7 @@ ObjectGroupRealm
 removeDefaultNewGroup
 (
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -8900,7 +8897,7 @@ ObjectGroupRealm
 replaceDefaultNewGroup
 (
 const
-Class
+JSClass
 *
 clasp
 TaggedProto
@@ -9003,7 +9000,7 @@ Realm
 *
 realm
 const
-Class
+JSClass
 *
 clasp
 Handle

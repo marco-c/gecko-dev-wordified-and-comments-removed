@@ -1360,7 +1360,7 @@ callobj
 ;
 }
 const
-Class
+JSClass
 CallObject
 :
 :
@@ -1994,7 +1994,7 @@ env
 ;
 }
 const
-Class
+JSClass
 VarEnvironmentObject
 :
 :
@@ -2068,7 +2068,7 @@ newEnumerate
 }
 ;
 const
-Class
+JSClass
 ModuleEnvironmentObject
 :
 :
@@ -3402,7 +3402,7 @@ true
 ;
 }
 const
-Class
+JSClass
 WasmInstanceEnvironmentObject
 :
 :
@@ -3610,7 +3610,7 @@ callobj
 ;
 }
 const
-Class
+JSClass
 WasmFunctionCallObject
 :
 :
@@ -4735,7 +4735,7 @@ nullptr
 }
 ;
 const
-Class
+JSClass
 WithEnvironmentObject
 :
 :
@@ -4854,7 +4854,7 @@ obj
 ;
 }
 const
-Class
+JSClass
 NonSyntacticVariablesObject
 :
 :
@@ -6126,7 +6126,7 @@ obj
 ;
 }
 const
-Class
+JSClass
 LexicalEnvironmentObject
 :
 :
@@ -6823,7 +6823,7 @@ nullptr
 }
 ;
 const
-Class
+JSClass
 RuntimeLexicalErrorObject
 :
 :

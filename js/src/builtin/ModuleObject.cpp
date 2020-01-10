@@ -610,7 +610,7 @@ toDouble
 \
 }
 const
-Class
+JSClass
 ImportEntryObject
 :
 :
@@ -983,7 +983,7 @@ self
 ;
 }
 const
-Class
+JSClass
 ExportEntryObject
 :
 :
@@ -1411,7 +1411,7 @@ self
 ;
 }
 const
-Class
+JSClass
 RequestedModuleObject
 :
 :
@@ -4119,7 +4119,7 @@ trace
 }
 ;
 const
-Class
+JSClass
 ModuleObject
 :
 :

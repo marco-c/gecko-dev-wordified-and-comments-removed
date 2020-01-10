@@ -299,7 +299,7 @@ DebuggerSource
 }
 ;
 const
-Class
+JSClass
 DebuggerSource
 :
 :

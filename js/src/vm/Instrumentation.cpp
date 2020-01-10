@@ -253,7 +253,7 @@ holderTrace
 ;
 static
 const
-Class
+JSClass
 InstrumentationHolderClass
 =
 {
