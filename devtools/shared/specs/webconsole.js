@@ -48,11 +48,6 @@ selectedObjectActor
 "
 boolean
 "
-fetchCacheDescriptor
-:
-"
-boolean
-"
 }
 )
 ;

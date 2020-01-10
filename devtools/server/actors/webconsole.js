@@ -1001,9 +1001,6 @@ true
 selectedObjectActor
 :
 true
-fetchCacheDescriptor
-:
-true
 }
 ;
 if

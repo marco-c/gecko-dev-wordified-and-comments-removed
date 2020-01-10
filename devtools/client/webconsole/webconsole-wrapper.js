@@ -2971,17 +2971,6 @@ NUMBER_OF_NETWORK_UPDATE
 ;
 if
 (
-this
-.
-webConsoleUI
-.
-webConsoleClient
-.
-traits
-.
-fetchCacheDescriptor
-&
-&
 res
 .
 networkInfo
