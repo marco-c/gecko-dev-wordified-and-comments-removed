@@ -2538,6 +2538,17 @@ ToAppUnits
 )
 const
 {
+if
+(
+IsZero
+(
+)
+)
+{
+return
+0
+;
+}
 float
 length
 =
