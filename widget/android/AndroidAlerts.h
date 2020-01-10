@@ -7,6 +7,13 @@ mozilla_widget_AndroidAlerts_h__
 #
 include
 "
+nsDataHashtable
+.
+h
+"
+#
+include
+"
 nsInterfaceHashtable
 .
 h
@@ -36,6 +43,13 @@ h
 include
 "
 nsIObserver
+.
+h
+"
+#
+include
+"
+GeneratedJNIWrappers
 .
 h
 "
@@ -91,6 +105,9 @@ static
 nsDataHashtable
 <
 nsStringHashKey
+mozilla
+:
+:
 java
 :
 :

@@ -143,9 +143,6 @@ DIRS
 bindings
 '
 '
-fennec
-'
-'
 jni
 '
 ]
@@ -257,11 +254,6 @@ cpp
 '
 '
 AndroidUiThread
-.
-cpp
-'
-'
-ANRReporter
 .
 cpp
 '

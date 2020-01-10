@@ -564,13 +564,6 @@ h
 #
 include
 "
-FennecJNINatives
-.
-h
-"
-#
-include
-"
 GeckoEditableSupport
 .
 h

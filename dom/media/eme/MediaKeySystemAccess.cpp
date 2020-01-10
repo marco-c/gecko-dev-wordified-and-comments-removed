@@ -201,13 +201,6 @@ h
 #
 include
 "
-FennecJNIWrappers
-.
-h
-"
-#
-include
-"
 GeneratedJNIWrappers
 .
 h

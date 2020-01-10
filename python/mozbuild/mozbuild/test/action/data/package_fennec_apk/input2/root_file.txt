@@ -1,5 +1,0 @@
-input2
-/
-root_file
-.
-txt

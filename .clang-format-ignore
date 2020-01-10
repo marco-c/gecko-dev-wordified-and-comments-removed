@@ -1218,14 +1218,6 @@ thirdparty
 /
 .
 *
-mobile
-/
-android
-/
-thirdparty
-/
-.
-*
 modules
 /
 brotli

@@ -8,7 +8,7 @@ h
 #
 include
 "
-FennecJNIWrappers
+GeneratedJNIWrappers
 .
 h
 "

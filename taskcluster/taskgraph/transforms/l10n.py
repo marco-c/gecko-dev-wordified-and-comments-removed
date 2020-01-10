@@ -416,6 +416,9 @@ docker
 -
 image
 '
+default
+=
+None
 )
 :
 _by_platform

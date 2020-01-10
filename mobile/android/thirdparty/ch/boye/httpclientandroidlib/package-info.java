@@ -1,7 +1,0 @@
-package
-ch
-.
-boye
-.
-httpclientandroidlib
-;
