@@ -480,6 +480,11 @@ _
 (
 TypeDescrTraceList
 )
+\
+_
+(
+NativeIterator
+)
 #
 define
 JS_FOR_EACH_MEMORY_USE
