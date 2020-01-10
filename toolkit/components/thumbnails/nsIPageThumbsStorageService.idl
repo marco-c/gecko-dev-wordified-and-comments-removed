@@ -163,7 +163,7 @@ stored
 /
 readonly
 attribute
-ACString
+AString
 path
 ;
 /
