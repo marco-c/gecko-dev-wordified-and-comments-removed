@@ -403,6 +403,12 @@ GetUserXOriginSendingPolicy
 )
 ;
 static
+uint32_t
+GetUserTrimmingPolicy
+(
+)
+;
+static
 ReferrerPolicyEnum
 GetDefaultReferrerPolicy
 (
