@@ -6289,7 +6289,7 @@ Length
 StaticPrefs
 :
 :
-LayoutRebuildFrameLimit
+layout_display_list_rebuild_frame_limit
 (
 )
 )

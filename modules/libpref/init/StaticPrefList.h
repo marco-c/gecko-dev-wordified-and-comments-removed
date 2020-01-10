@@ -9664,7 +9664,7 @@ prerender
 .
 partial
 "
-PartiallyPrerenderAnimatedContent
+layout_animation_prerender_partial
 RelaxedAtomicBool
 false
 )
@@ -9686,7 +9686,7 @@ limit
 -
 x
 "
-AnimationPrerenderViewportRatioLimitX
+layout_animation_prerender_viewport_ratio_limit_x
 AtomicFloat
 1
 .
@@ -9710,7 +9710,7 @@ limit
 -
 y
 "
-AnimationPrerenderViewportRatioLimitY
+layout_animation_prerender_viewport_ratio_limit_y
 AtomicFloat
 1
 .
@@ -9732,7 +9732,7 @@ limit
 -
 x
 "
-AnimationPrerenderAbsoluteLimitX
+layout_animation_prerender_absolute_limit_x
 RelaxedAtomicUint32
 4096
 )
@@ -9752,7 +9752,7 @@ limit
 -
 y
 "
-AnimationPrerenderAbsoluteLimitY
+layout_animation_prerender_absolute_limit_y
 RelaxedAtomicUint32
 4096
 )
@@ -10467,7 +10467,7 @@ order
 .
 enabled
 "
-PaintOrderEnabled
+layout_css_paint_order_enabled
 RelaxedAtomicBool
 false
 )
@@ -10657,7 +10657,7 @@ damping
 -
 ratio
 "
-ScrollBehaviorDampingRatio
+layout_css_scroll_behavior_damping_ratio
 AtomicFloat
 1
 .
@@ -10749,7 +10749,7 @@ behavior
 .
 enabled
 "
-ScrollBehaviorEnabled
+layout_css_scroll_behavior_enabled
 RelaxedAtomicBool
 true
 )
@@ -10769,7 +10769,7 @@ spring
 -
 constant
 "
-ScrollBehaviorSpringConstant
+layout_css_scroll_behavior_spring_constant
 AtomicFloat
 250
 .
@@ -10793,7 +10793,7 @@ max
 -
 velocity
 "
-ScrollSnapPredictionMaxVelocity
+layout_css_scroll_snap_prediction_max_velocity
 RelaxedAtomicInt32
 2000
 )
@@ -10813,7 +10813,7 @@ prediction
 -
 sensitivity
 "
-ScrollSnapPredictionSensitivity
+layout_css_scroll_snap_prediction_sensitivity
 AtomicFloat
 0
 .
@@ -10835,7 +10835,7 @@ proximity
 -
 threshold
 "
-ScrollSnapProximityThreshold
+layout_css_scroll_snap_proximity_threshold
 RelaxedAtomicInt32
 200
 )
@@ -11079,7 +11079,7 @@ build
 -
 twice
 "
-LayoutDisplayListBuildTwice
+layout_display_list_build_twice
 RelaxedAtomicBool
 false
 )
@@ -11095,7 +11095,7 @@ list
 .
 retain
 "
-LayoutRetainDisplayList
+layout_display_list_retain
 RelaxedAtomicBool
 true
 )
@@ -11113,7 +11113,7 @@ retain
 .
 chrome
 "
-LayoutRetainDisplayListChrome
+layout_display_list_retain_chrome
 RelaxedAtomicBool
 false
 )
@@ -11131,7 +11131,7 @@ retain
 .
 verify
 "
-LayoutVerifyRetainDisplayList
+layout_display_list_retain_verify
 RelaxedAtomicBool
 false
 )
@@ -11151,7 +11151,7 @@ verify
 .
 order
 "
-LayoutVerifyRetainDisplayListOrder
+layout_display_list_retain_verify_order
 RelaxedAtomicBool
 false
 )
@@ -11171,7 +11171,7 @@ frame
 -
 limit
 "
-LayoutRebuildFrameLimit
+layout_display_list_rebuild_frame_limit
 RelaxedAtomicUint32
 500
 )
@@ -11187,7 +11187,7 @@ list
 .
 dump
 "
-LayoutDumpDisplayList
+layout_display_list_dump
 RelaxedAtomicBool
 false
 )
@@ -11205,7 +11205,7 @@ dump
 -
 content
 "
-LayoutDumpDisplayListContent
+layout_display_list_dump_content
 RelaxedAtomicBool
 false
 )
@@ -11223,7 +11223,7 @@ dump
 -
 parent
 "
-LayoutDumpDisplayListParent
+layout_display_list_dump_parent
 RelaxedAtomicBool
 false
 )
@@ -11243,7 +11243,7 @@ rebuild
 -
 area
 "
-LayoutDisplayListShowArea
+layout_display_list_show_rebuild_area
 RelaxedAtomicBool
 false
 )
@@ -11261,7 +11261,7 @@ flatten
 -
 transform
 "
-LayoutFlattenTransform
+layout_display_list_flatten_transform
 RelaxedAtomicBool
 true
 )
@@ -11309,7 +11309,7 @@ layout
 .
 frame_rate
 "
-LayoutFrameRate
+layout_frame_rate
 RelaxedAtomicInt32
 -
 1
@@ -11328,7 +11328,7 @@ layer
 -
 size
 "
-LayoutMinActiveLayerSize
+layout_min_active_layer_size
 int
 64
 )
@@ -11340,7 +11340,7 @@ layout
 .
 paint_rects_separately
 "
-LayoutPaintRectsSeparately
+layout_paint_rects_separately
 bool
 true
 )
@@ -11358,7 +11358,7 @@ frame
 -
 containers
 "
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 RelaxedAtomicBool
 false
 )
@@ -11376,7 +11376,7 @@ layerize
 -
 track
 "
-AlwaysLayerizeScrollbarTrackTestOnly
+layout_scrollbars_always_layerize_track
 RelaxedAtomicBool
 false
 )
@@ -11392,7 +11392,7 @@ painted
 -
 layers
 "
-LayoutSmallerPaintedLayers
+layout_smaller_painted_layers
 RelaxedAtomicBool
 false
 )

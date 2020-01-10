@@ -2604,7 +2604,7 @@ isASAP
 StaticPrefs
 :
 :
-LayoutFrameRate
+layout_frame_rate
 (
 )
 =

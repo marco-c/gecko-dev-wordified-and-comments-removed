@@ -14246,13 +14246,13 @@ destination
 StaticPrefs
 :
 :
-ScrollBehaviorSpringConstant
+layout_css_scroll_behavior_spring_constant
 (
 )
 StaticPrefs
 :
 :
-ScrollBehaviorDampingRatio
+layout_css_scroll_behavior_damping_ratio
 (
 )
 )

@@ -8223,13 +8223,13 @@ width
 StaticPrefs
 :
 :
-ScrollBehaviorSpringConstant
+layout_css_scroll_behavior_spring_constant
 (
 )
 StaticPrefs
 :
 :
-ScrollBehaviorDampingRatio
+layout_css_scroll_behavior_damping_ratio
 (
 )
 )
@@ -8247,13 +8247,13 @@ height
 StaticPrefs
 :
 :
-ScrollBehaviorSpringConstant
+layout_css_scroll_behavior_spring_constant
 (
 )
 StaticPrefs
 :
 :
-ScrollBehaviorDampingRatio
+layout_css_scroll_behavior_damping_ratio
 (
 )
 )
@@ -11130,7 +11130,7 @@ if
 StaticPrefs
 :
 :
-ScrollBehaviorEnabled
+layout_css_scroll_behavior_enabled
 (
 )
 )
@@ -14952,7 +14952,7 @@ isOverlayScrollbar
 StaticPrefs
 :
 :
-AlwaysLayerizeScrollbarTrackTestOnly
+layout_scrollbars_always_layerize_track
 (
 )
 ;
@@ -16101,7 +16101,7 @@ IsPaintingToWindow
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 &
@@ -16251,7 +16251,7 @@ WantAsyncScroll
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 &
@@ -16783,7 +16783,7 @@ if
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 |
@@ -17235,7 +17235,7 @@ dirtyRectHasBeenOverriden
 StaticPrefs
 :
 :
-LayoutDisplayListShowArea
+layout_display_list_show_rebuild_area
 (
 )
 )
@@ -17345,7 +17345,7 @@ ShouldForceLayerForScrollParent
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )
@@ -18645,7 +18645,7 @@ mIsScrollableLayerInRootContainer
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 &
@@ -18870,7 +18870,7 @@ aClip
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 |
@@ -20510,7 +20510,7 @@ flingSensitivity
 StaticPrefs
 :
 :
-ScrollSnapPredictionSensitivity
+layout_css_scroll_snap_prediction_sensitivity
 (
 )
 ;
@@ -20520,7 +20520,7 @@ maxVelocity
 StaticPrefs
 :
 :
-ScrollSnapPredictionMaxVelocity
+layout_css_scroll_snap_prediction_max_velocity
 (
 )
 ;
@@ -32999,7 +32999,7 @@ if
 StaticPrefs
 :
 :
-LayoutUseContainersForRootFrames
+layout_scroll_root_frame_containers
 (
 )
 )
@@ -33700,7 +33700,7 @@ canDoApzSmoothScroll
 StaticPrefs
 :
 :
-ScrollBehaviorEnabled
+layout_css_scroll_behavior_enabled
 (
 )
 &
