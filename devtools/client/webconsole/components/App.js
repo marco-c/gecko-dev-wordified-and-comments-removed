@@ -1301,7 +1301,6 @@ closeSplitConsole
 filterBarDisplayMode
 hidePersistLogsCheckbox
 hideShowContentMessagesCheckbox
-webConsoleUI
 }
 =
 this
@@ -1323,7 +1322,6 @@ closeSplitConsole
 displayMode
 :
 filterBarDisplayMode
-webConsoleUI
 }
 )
 ;

@@ -185,10 +185,9 @@ return
 state
 timestampsVisible
 :
-!
-state
+action
 .
-timestampsVisible
+visible
 }
 ;
 case

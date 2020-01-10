@@ -64,11 +64,6 @@ MPL
 DevToolsModules
 (
 '
-ConsoleSettings
-.
-js
-'
-'
 FilterBar
 .
 js
