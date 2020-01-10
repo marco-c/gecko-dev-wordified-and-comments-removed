@@ -597,7 +597,7 @@ false
 info
 (
 "
-DISBALED
+DISABLED
 -
 -
 FILE
