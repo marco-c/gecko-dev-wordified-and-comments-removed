@@ -4156,7 +4156,10 @@ mozilla
 StyleFlexDirection
 mFlexDirection
 ;
-uint8_t
+mozilla
+:
+:
+StyleFlexWrap
 mFlexWrap
 ;
 uint8_t

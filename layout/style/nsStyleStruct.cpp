@@ -6013,7 +6013,10 @@ Row
 )
 mFlexWrap
 (
-NS_STYLE_FLEX_WRAP_NOWRAP
+StyleFlexWrap
+:
+:
+Nowrap
 )
 mObjectFit
 (
