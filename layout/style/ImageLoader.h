@@ -254,11 +254,6 @@ StyleLoadData
 &
 )
 ;
-void
-FlushUseCounters
-(
-)
-;
 private
 :
 struct
