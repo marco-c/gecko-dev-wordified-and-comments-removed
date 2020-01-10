@@ -6376,6 +6376,17 @@ return
 mPrototypeDocument
 ;
 }
+nsXULPrototypeDocument
+*
+GetPrototype
+(
+)
+const
+{
+return
+mPrototypeDocument
+;
+}
 bool
 IsTopLevelContentDocument
 (
