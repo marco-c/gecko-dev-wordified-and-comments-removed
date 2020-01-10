@@ -9440,11 +9440,17 @@ get
 OwnerDoc
 (
 )
+?
+OwnerDoc
+(
+)
 -
 >
 HasBeenUserGestureActivated
 (
 )
+:
+0
 mMuted
 mVolume
 )
