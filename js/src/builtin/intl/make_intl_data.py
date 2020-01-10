@@ -1938,12 +1938,9 @@ script
 (
 )
 .
-length
+missing
 (
 )
-=
-=
-0
 )
 {
 {
@@ -1997,12 +1994,9 @@ region
 (
 )
 .
-length
+missing
 (
 )
-=
-=
-0
 )
 {
 {
@@ -3190,12 +3184,9 @@ script
 (
 )
 .
-length
+present
 (
 )
-!
-=
-0
 |
 |
       
@@ -3203,12 +3194,9 @@ region
 (
 )
 .
-length
+present
 (
 )
-!
-=
-0
 |
 |
       
