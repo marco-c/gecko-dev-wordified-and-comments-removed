@@ -398,7 +398,7 @@ StackKindCount
 ;
 const
 uint32_t
-DefaultNurseryMaxBytes
+DefaultNurseryBytes
 =
 16
 *

@@ -1323,6 +1323,13 @@ JS_NewContext
 (
 uint32_t
 maxbytes
+uint32_t
+maxNurseryBytes
+=
+JS
+:
+:
+DefaultNurseryBytes
 JSRuntime
 *
 parentRuntime
