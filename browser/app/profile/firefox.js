@@ -10406,7 +10406,7 @@ whatsNewPanel
 .
 enabled
 "
-false
+true
 )
 ;
 pref
