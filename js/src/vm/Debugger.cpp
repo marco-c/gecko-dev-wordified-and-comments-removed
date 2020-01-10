@@ -3986,14 +3986,6 @@ frameObj
 }
 else
 {
-{
-AutoRealm
-ar
-(
-cx
-frameObj
-)
-;
 if
 (
 !
@@ -4010,7 +4002,6 @@ genObj
 return
 false
 ;
-}
 }
 if
 (
@@ -5812,6 +5803,14 @@ fromChildJSObject
 frameObj
 )
 ;
+{
+AutoRealm
+ar
+(
+cx
+frameObj
+)
+;
 if
 (
 !
@@ -5835,6 +5834,7 @@ ok
 =
 false
 ;
+}
 }
 }
 )
