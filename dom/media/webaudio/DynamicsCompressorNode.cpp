@@ -172,9 +172,7 @@ DynamicsCompressor
 mDestination
 -
 >
-SampleRate
-(
-)
+mSampleRate
 2
 )
 )
@@ -380,9 +378,7 @@ DynamicsCompressor
 aStream
 -
 >
-SampleRate
-(
-)
+mSampleRate
 aInput
 .
 ChannelCount

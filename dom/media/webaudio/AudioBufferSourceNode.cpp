@@ -421,9 +421,7 @@ aParam
 mDestination
 -
 >
-SampleRate
-(
-)
+mSampleRate
 ;
 mBeginProcessing
 =
@@ -1989,9 +1987,7 @@ int32_t
 mSource
 -
 >
-SampleRate
-(
-)
+mSampleRate
 /
 computedPlaybackRate
 )

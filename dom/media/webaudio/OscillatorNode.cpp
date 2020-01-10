@@ -568,9 +568,7 @@ create
 mSource
 -
 >
-SampleRate
-(
-)
+mSampleRate
 aBuffer
 .
 ChannelData
@@ -766,9 +764,7 @@ signalPeriod
 mSource
 -
 >
-SampleRate
-(
-)
+mSampleRate
 /
 finalFrequency
 ;
