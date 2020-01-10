@@ -2127,12 +2127,6 @@ firefox
 \
 -
 -
-channel
-=
-experimental
-\
--
--
 xvfb
 \
 resources_unittest
