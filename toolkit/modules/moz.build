@@ -1297,6 +1297,11 @@ Console
 jsm
 '
 '
+ContentDOMReference
+.
+jsm
+'
+'
 CreditCard
 .
 jsm

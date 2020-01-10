@@ -113,7 +113,7 @@ LoginManagerContextMenu
 {
 addLoginsToMenu
 (
-inputElement
+inputElementIdentifier
 browser
 documentURI
 )
@@ -312,7 +312,7 @@ this
 _fillTargetField
 (
 login
-inputElement
+inputElementIdentifier
 browser
 documentURI
 )
@@ -613,7 +613,7 @@ duplicates
 _fillTargetField
 (
 login
-inputElement
+inputElementIdentifier
 browser
 documentURI
 )
@@ -624,13 +624,13 @@ fillForm
 (
 {
 browser
+inputElementIdentifier
 loginFormOrigin
 :
 documentURI
 .
 displayPrePath
 login
-inputElement
 }
 )
 .
