@@ -899,6 +899,15 @@ Extra
 object
     
 }
+    
+Optional
+(
+'
+priority
+'
+)
+:
+basestring
 }
 )
 TC_TREEHERDER_SCHEMA_URL

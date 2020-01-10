@@ -57,11 +57,19 @@ import
 check_if_partners_enabled
     
 get_partner_url_config
+    
+apply_partner_priority
 )
 transforms
 =
 TransformSequence
 (
+)
+transforms
+.
+add
+(
+apply_partner_priority
 )
 transforms
 .

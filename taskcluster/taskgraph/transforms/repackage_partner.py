@@ -360,6 +360,20 @@ False
 bool
     
 }
+    
+Optional
+(
+'
+priority
+'
+)
+:
+task_description_schema
+[
+'
+priority
+'
+]
 }
 )
 transforms
@@ -1457,6 +1471,31 @@ repack_stub_installer
 )
         
 }
+        
+if
+job
+.
+get
+(
+'
+priority
+'
+)
+:
+            
+task
+[
+'
+priority
+'
+]
+=
+job
+[
+'
+priority
+'
+]
         
 if
 build_platform
