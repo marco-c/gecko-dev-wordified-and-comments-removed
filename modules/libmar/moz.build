@@ -128,9 +128,6 @@ DIRS
 '
 sign
 '
-'
-verify
-'
 ]
 TEST_DIRS
 +
@@ -140,7 +137,7 @@ TEST_DIRS
 tests
 '
 ]
-elif
+if
 CONFIG
 [
 '
