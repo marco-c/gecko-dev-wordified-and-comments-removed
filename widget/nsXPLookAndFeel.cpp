@@ -4722,7 +4722,7 @@ transform
 uint8_t
 color
 [
-3
+4
 ]
 ;
 color
@@ -4755,6 +4755,16 @@ NS_GET_B
 aResult
 )
 ;
+color
+[
+3
+]
+=
+NS_GET_A
+(
+aResult
+)
+;
 qcms_transform_data
 (
 transform
@@ -4765,7 +4775,7 @@ color
 ;
 aResult
 =
-NS_RGB
+NS_RGBA
 (
 color
 [
@@ -4778,6 +4788,10 @@ color
 color
 [
 2
+]
+color
+[
+3
 ]
 )
 ;
