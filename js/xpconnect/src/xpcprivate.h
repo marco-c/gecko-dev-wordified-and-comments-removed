@@ -3282,15 +3282,6 @@ ScopeSizeInfo
 scopeSizeInfo
 )
 ;
-JSObject
-*
-EnsureContentXBLScope
-(
-JSContext
-*
-cx
-)
-;
 bool
 XBLScopeStateMatches
 (
