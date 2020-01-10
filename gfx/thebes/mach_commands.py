@@ -40,8 +40,6 @@ as
 mozpath
 import
 json
-import
-requests
 GITHUB_ROOT
 =
 '
@@ -296,6 +294,9 @@ reviewer
 None
 )
 :
+        
+import
+requests
         
 pr_number
 =
@@ -927,6 +928,9 @@ repo
 pr_number
 )
 :
+        
+import
+requests
         
 bug
 =
