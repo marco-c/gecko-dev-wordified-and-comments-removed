@@ -26,6 +26,12 @@ math
 import
 ceil
 from
+six
+import
+iterkeys
+itervalues
+iteritems
+from
 wptmanifest
 import
 serialize
@@ -413,12 +419,11 @@ self
 for
 name
 in
+iterkeys
+(
 self
 .
 _classes
-.
-iterkeys
-(
 )
 :
             
@@ -2023,10 +2028,9 @@ for
 run_info
 values
 in
-results
-.
 iteritems
 (
+results
 )
 :
         
@@ -2034,10 +2038,9 @@ for
 value
 count
 in
-values
-.
 iteritems
 (
+values
 )
 :
             
@@ -3027,10 +3030,9 @@ run_info
 node
 )
 in
-run_info_index
-.
 iteritems
 (
+run_info_index
 )
                             
 if
@@ -3081,10 +3083,9 @@ top_level_props
 for
 item
 in
-dependent_props
-.
 itervalues
 (
+dependent_props
 )
 :
                 
@@ -4088,10 +4089,9 @@ for
 status
 count
 in
-new
-.
 iteritems
 (
+new
 )
 :
             
@@ -4214,10 +4214,9 @@ sorted_new
 =
 sorted
 (
-counts
-.
 iteritems
 (
+counts
 )
 key
 =
@@ -4757,10 +4756,9 @@ item
 in
 sorted
 (
-data
-.
 iteritems
 (
+data
 )
 )
 ]
