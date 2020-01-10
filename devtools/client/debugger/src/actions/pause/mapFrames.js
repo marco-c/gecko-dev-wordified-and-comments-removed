@@ -718,6 +718,12 @@ if
 originalFrame
 .
 location
+|
+|
+!
+originalFrame
+.
+thread
 )
 {
 return
@@ -752,6 +758,11 @@ push
 (
 {
 id
+thread
+:
+originalFrame
+.
+thread
 displayName
 :
 originalFrame
@@ -765,11 +776,6 @@ location
 source
 :
 null
-thread
-:
-frame
-.
-thread
 scope
 :
 frame

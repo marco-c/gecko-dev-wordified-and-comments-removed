@@ -179,7 +179,7 @@ generatedPosition
 .
 lastColumn
 =
-0
+Infinity
 ;
 }
 return
@@ -318,9 +318,6 @@ generatedLine
 :
 generatedColumn
 generatedColumn
-:
-0
-lastGeneratedColumn
 :
 0
 originalLine
