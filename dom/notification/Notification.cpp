@@ -7831,11 +7831,11 @@ rv
 =
 NS_OK
 ;
-nsCOMPtr
-<
 nsIURI
->
+*
 baseUri
+=
+nullptr
 ;
 auto
 encoding

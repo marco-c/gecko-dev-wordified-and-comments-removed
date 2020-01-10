@@ -6110,11 +6110,11 @@ return
 rv
 ;
 }
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURI
+=
+nullptr
 ;
 if
 (
