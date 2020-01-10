@@ -945,9 +945,6 @@ JS
 AutoFilename
 scriptFilename
 ;
-nsAutoCString
-fileName
-;
 if
 (
 JS
@@ -1025,6 +1022,9 @@ sUrisAllowEval
 )
 ;
 }
+nsAutoCString
+fileName
+;
 fileName
 =
 nsAutoCString
@@ -1095,8 +1095,9 @@ return
 }
 }
 }
-MOZ_CRASH_UNSAFE_PRINTF
+MOZ_ASSERT
 (
+false
 "
 do
 not
@@ -1105,15 +1106,7 @@ eval
 with
 system
 privileges
-:
-%
-s
 "
-fileName
-.
-get
-(
-)
 )
 ;
 }
