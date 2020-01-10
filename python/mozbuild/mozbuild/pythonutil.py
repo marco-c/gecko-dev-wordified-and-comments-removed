@@ -299,6 +299,8 @@ resolved
 "
 "
     
+from
+mozfile
 import
 which
     
@@ -442,22 +444,16 @@ in
 names
 :
         
-try
-:
-            
 exe
 =
-which
-.
 which
 (
 name
 )
         
-except
-which
-.
-WhichError
+if
+not
+exe
 :
             
 continue

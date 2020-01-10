@@ -22,20 +22,22 @@ import
 errno
 import
 re
+import
+sys
 from
 contextlib
 import
 contextmanager
-import
-sys
-import
-which
 from
 distutils
 .
 dir_util
 import
 copy_tree
+from
+mozfile
+import
+which
 def
 symlink
 (
@@ -3144,12 +3146,8 @@ key
 return
 f
     
-try
-:
-        
-return
-which
-.
+tool
+=
 which
 (
 f
@@ -3158,16 +3156,13 @@ if
 f
 else
 which
-.
-which
 (
 key
 )
     
-except
-which
-.
-WhichError
+if
+not
+tool
 :
         
 raise
@@ -3182,8 +3177,15 @@ on
 PATH
 "
 %
+(
 f
+or
+key
 )
+)
+    
+return
+tool
 def
 prune_final_dir_for_clang_tidy
 (

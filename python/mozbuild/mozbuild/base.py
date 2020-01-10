@@ -26,19 +26,6 @@ import
 sys
 import
 errno
-try
-:
-    
-from
-shutil
-import
-which
-except
-ImportError
-:
-    
-import
-which
 from
 mach
 .
@@ -47,6 +34,10 @@ mixin
 process
 import
 ProcessExecutionMixin
+from
+mozfile
+import
+which
 from
 mozversioncontrol
 import
@@ -3691,13 +3682,8 @@ darwin
 )
 :
                 
-try
-:
-                    
 notifier
 =
-which
-.
 which
 (
 '
@@ -3707,10 +3693,9 @@ notifier
 '
 )
                 
-except
-which
-.
-WhichError
+if
+not
+notifier
 :
                     
 raise
@@ -3931,13 +3916,8 @@ params
 else
 :
                 
-try
-:
-                    
 notifier
 =
-which
-.
 which
 (
 '
@@ -3947,10 +3927,9 @@ send
 '
 )
                 
-except
-which
-.
-WhichError
+if
+not
+notifier
 :
                     
 raise
@@ -5051,22 +5030,16 @@ test
 else
 :
                 
-try
-:
-                    
 make
 =
-which
-.
 which
 (
 test
 )
                 
-except
-which
-.
-WhichError
+if
+not
+make
 :
                     
 continue
