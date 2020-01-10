@@ -105,6 +105,12 @@ testharness
 tools
 visual
 wdspec
+test
+-
+templates
+github
+-
+intro
 #
 #
 Test

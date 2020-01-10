@@ -1038,7 +1038,9 @@ clone
 .
 .
 /
-appendix
+writing
+-
+tests
 /
 github
 -
@@ -1054,7 +1056,9 @@ commit
 .
 .
 /
-appendix
+writing
+-
+tests
 /
 github
 -
@@ -1070,7 +1074,9 @@ configure
 .
 .
 /
-appendix
+writing
+-
+tests
 /
 github
 -
@@ -1090,7 +1096,9 @@ fork
 .
 .
 /
-appendix
+writing
+-
+tests
 /
 github
 -
@@ -1112,7 +1120,9 @@ submit
 .
 .
 /
-appendix
+writing
+-
+tests
 /
 github
 -

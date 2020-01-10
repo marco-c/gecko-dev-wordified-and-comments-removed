@@ -523,9 +523,6 @@ index
 admin
 /
 index
-appendix
-/
-index
 [
 public
 -
@@ -591,7 +588,9 @@ github
 intro
 ]
 :
-appendix
+writing
+-
+tests
 /
 github
 -
