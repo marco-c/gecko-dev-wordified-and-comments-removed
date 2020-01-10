@@ -1966,8 +1966,9 @@ aPoint
 )
 ;
 bool
-HasSameRoot
+HasSameRootOrSameComposedDoc
 (
+const
 nsINode
 &
 aNode
