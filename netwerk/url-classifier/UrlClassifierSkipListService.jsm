@@ -174,11 +174,6 @@ COLLECTION_NAME
 .
 get
 (
-{
-syncIfEmpty
-:
-false
-}
 )
 ;
 }
