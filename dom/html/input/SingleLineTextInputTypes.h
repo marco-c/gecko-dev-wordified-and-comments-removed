@@ -49,7 +49,10 @@ IsValueMissing
 const
 override
 ;
+Maybe
+<
 bool
+>
 HasPatternMismatch
 (
 )

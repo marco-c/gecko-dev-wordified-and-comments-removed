@@ -1428,7 +1428,13 @@ HasTypeMismatch
 )
 const
 ;
+mozilla
+:
+:
+Maybe
+<
 bool
+>
 HasPatternMismatch
 (
 )

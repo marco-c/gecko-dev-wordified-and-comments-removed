@@ -780,7 +780,10 @@ return
 false
 ;
 }
+Maybe
+<
 bool
+>
 InputType
 :
 :
@@ -790,7 +793,10 @@ HasPatternMismatch
 const
 {
 return
+Some
+(
 false
+)
 ;
 }
 bool

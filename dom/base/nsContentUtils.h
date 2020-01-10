@@ -5242,7 +5242,13 @@ nullptr
 )
 ;
 static
+mozilla
+:
+:
+Maybe
+<
 bool
+>
 IsPatternMatching
 (
 nsAString

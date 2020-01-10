@@ -185,7 +185,13 @@ HasTypeMismatch
 const
 ;
 virtual
+mozilla
+:
+:
+Maybe
+<
 bool
+>
 HasPatternMismatch
 (
 )

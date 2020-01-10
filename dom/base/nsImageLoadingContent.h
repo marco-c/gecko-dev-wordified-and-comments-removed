@@ -150,6 +150,8 @@ nsImageLoadingContent
 public
 nsIImageLoadingContent
 {
+protected
+:
 template
 <
 typename
