@@ -84,7 +84,7 @@ re
 .
 compile
 (
-b
+br
 "
 /
 /
@@ -114,7 +114,7 @@ re
 .
 compile
 (
-b
+br
 "
 #
 \
@@ -1036,33 +1036,27 @@ _parse_xml
     
 root_dir_non_test
 =
-set
-(
-[
+{
 "
 common
 "
-]
-)
+}
     
 dir_non_test
 =
-set
-(
-[
+{
 "
 resources
 "
-                        
+                    
 "
 support
 "
-                        
+                    
 "
 tools
 "
-]
-)
+}
     
 dir_path_non_test
 =

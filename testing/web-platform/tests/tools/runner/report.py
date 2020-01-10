@@ -1101,8 +1101,7 @@ id
 ]
 |
 =
-set
-(
+{
 subtest
 [
 "
@@ -1118,7 +1117,7 @@ result
 subtests
 "
 ]
-)
+}
     
 return
 tests
@@ -1293,20 +1292,18 @@ return
 harness
 "
 :
-dict
-(
-(
+{
 UA
+:
 (
 None
 None
-)
 )
 for
 UA
 in
 UAs
-)
+}
             
 "
 subtests
@@ -1382,26 +1379,22 @@ subtests
 "
 ]
 =
-dict
-(
+{
                     
-(
 name
-dict
-(
-(
+:
+{
 UA
+:
 (
 None
 None
-)
 )
 for
 UA
 in
 UAs
-)
-)
+}
 for
 name
 in
@@ -1410,7 +1403,7 @@ tests
 id
 ]
                 
-)
+}
             
 result
 [

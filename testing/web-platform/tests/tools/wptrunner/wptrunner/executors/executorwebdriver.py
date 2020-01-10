@@ -809,12 +809,9 @@ set
 after
 )
 -
-set
-(
-[
+{
 parent
-]
-)
+}
 )
 )
                 
@@ -1664,11 +1661,9 @@ base
 .
 set_timeout
 (
-(
 timeout
 +
 extra_timeout
-)
 )
         
 except

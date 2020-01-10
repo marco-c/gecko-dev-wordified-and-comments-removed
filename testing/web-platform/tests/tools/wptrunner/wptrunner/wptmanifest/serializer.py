@@ -37,9 +37,7 @@ items
 }
 named_escapes
 =
-set
-(
-[
+{
 "
 \
 a
@@ -68,8 +66,7 @@ t
 \
 v
 "
-]
-)
+}
 def
 escape
 (

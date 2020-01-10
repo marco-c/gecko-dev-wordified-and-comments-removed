@@ -191,7 +191,7 @@ self
 .
 compare
 (
-b
+br
 "
 "
 "
@@ -306,7 +306,7 @@ self
 .
 compare
 (
-b
+br
 "
 "
 "
@@ -394,7 +394,7 @@ self
 .
 compare
 (
-b
+br
 "
 "
 "

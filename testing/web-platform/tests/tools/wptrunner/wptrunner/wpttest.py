@@ -33,9 +33,7 @@ Reset
 ]
 enabled_tests
 =
-set
-(
-[
+{
 "
 testharness
 "
@@ -45,8 +43,7 @@ reftest
 "
 wdspec
 "
-]
-)
+}
 class
 Result
 (
@@ -293,9 +290,7 @@ OK
     
 statuses
 =
-set
-(
-[
+{
 "
 OK
 "
@@ -318,8 +313,7 @@ TIMEOUT
 "
 CRASH
 "
-]
-)
+}
 class
 TestharnessSubtestResult
 (
@@ -335,9 +329,7 @@ PASS
     
 statuses
 =
-set
-(
-[
+{
 "
 PASS
 "
@@ -350,8 +342,7 @@ TIMEOUT
 "
 NOTRUN
 "
-]
-)
+}
 class
 ReftestResult
 (
@@ -367,9 +358,7 @@ PASS
     
 statuses
 =
-set
-(
-[
+{
 "
 PASS
 "
@@ -392,12 +381,11 @@ EXTERNAL
 -
 TIMEOUT
 "
-                    
+                
 "
 CRASH
 "
-]
-)
+}
 class
 WdspecResult
 (
@@ -413,9 +401,7 @@ OK
     
 statuses
 =
-set
-(
-[
+{
 "
 OK
 "
@@ -438,8 +424,7 @@ TIMEOUT
 "
 CRASH
 "
-]
-)
+}
 class
 WdspecSubtestResult
 (
@@ -455,9 +440,7 @@ PASS
     
 statuses
 =
-set
-(
-[
+{
 "
 PASS
 "
@@ -467,8 +450,7 @@ FAIL
 "
 ERROR
 "
-]
-)
+}
 def
 get_run_info
 (

@@ -1016,6 +1016,7 @@ is_windows
             
 hosts_path
 =
+r
 "
 %
 s
@@ -1038,6 +1039,7 @@ get
 "
 SystemRoot
 "
+r
 "
 C
 :

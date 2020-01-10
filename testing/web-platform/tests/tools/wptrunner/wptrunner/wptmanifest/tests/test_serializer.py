@@ -821,6 +821,7 @@ self
 .
 compare
 (
+r
 "
 "
 "

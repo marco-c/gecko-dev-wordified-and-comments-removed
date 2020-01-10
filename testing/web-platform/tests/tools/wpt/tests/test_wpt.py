@@ -2992,6 +2992,7 @@ baz
 pattern
 =
 =
+r
 "
 ^
 foo
@@ -3025,6 +3026,7 @@ baz
 pattern
 =
 =
+r
 "
 ^
 foo

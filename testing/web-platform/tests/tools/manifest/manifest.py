@@ -1130,8 +1130,7 @@ json_data
 rv
 |
 =
-set
-(
+{
 to_os_path
 (
 item
@@ -1145,7 +1144,7 @@ self
 .
 json_data
 )
-)
+}
         
 return
 rv

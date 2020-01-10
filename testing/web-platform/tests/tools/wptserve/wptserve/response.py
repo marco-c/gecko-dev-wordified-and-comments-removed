@@ -721,14 +721,12 @@ expires
         
 days
 =
-dict
-(
-(
+{
 i
 +
 1
+:
 name
-)
 for
 i
 name
@@ -745,7 +743,7 @@ feb
 "
 mar
 "
-                                                          
+                                                    
 "
 apr
 "
@@ -755,7 +753,7 @@ may
 "
 jun
 "
-                                                          
+                                                    
 "
 jul
 "
@@ -765,7 +763,7 @@ aug
 "
 sep
 "
-                                                          
+                                                    
 "
 oct
 "
@@ -777,7 +775,7 @@ dec
 "
 ]
 )
-)
+}
         
 if
 value

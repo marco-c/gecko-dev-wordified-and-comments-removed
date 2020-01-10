@@ -640,17 +640,14 @@ iterkeys
 (
 )
 )
-set
-(
-[
+{
 "
 key
 "
 "
 key_1
 "
-]
-)
+}
 )
         
 self
@@ -665,17 +662,14 @@ itervalues
 (
 )
 )
-set
-(
-[
+{
 "
 value_1
 "
 "
 other_value
 "
-]
-)
+}
 )
     
 def

@@ -6,9 +6,7 @@ import
 jobs
 all_jobs
 =
-set
-(
-[
+{
     
 "
 build_css
@@ -49,21 +47,17 @@ wptrunner_infrastructure
 "
 wptrunner_unittest
 "
-]
-)
+}
 default_jobs
 =
-set
-(
-[
+{
 "
 lint
 "
 "
 manifest_upload
 "
-]
-)
+}
 def
 test_all
 (
@@ -136,18 +130,15 @@ js
 =
 default_jobs
 |
-set
-(
-[
+{
 "
 resources_unittest
 "
-                                                                              
+                                                                          
 "
 wptrunner_infrastructure
 "
-]
-)
+}
     
 assert
 jobs
@@ -174,14 +165,11 @@ resources_unittest
 )
 =
 =
-set
-(
-[
+{
 "
 resources_unittest
 "
-]
-)
+}
     
 assert
 jobs
@@ -212,14 +200,11 @@ resources_unittest
 )
 =
 =
-set
-(
-[
+{
 "
 resources_unittest
 "
-]
-)
+}
     
 assert
 jobs
@@ -282,14 +267,11 @@ stability
 )
 =
 =
-set
-(
-[
+{
 "
 stability
 "
-]
-)
+}
     
 assert
 jobs
@@ -555,14 +537,11 @@ stability
 )
 =
 =
-set
-(
-[
+{
 "
 stability
 "
-]
-)
+}
     
 assert
 jobs
@@ -605,14 +584,11 @@ stability
 )
 =
 =
-set
-(
-[
+{
 "
 stability
 "
-]
-)
+}
 def
 test_tools_unittest
 (
@@ -648,14 +624,11 @@ tools_unittest
 )
 =
 =
-set
-(
-[
+{
 "
 tools_unittest
 "
-]
-)
+}
     
 assert
 jobs
@@ -751,14 +724,11 @@ wptrunner_unittest
 )
 =
 =
-set
-(
-[
+{
 "
 wptrunner_unittest
 "
-]
-)
+}
     
 assert
 jobs
@@ -785,14 +755,11 @@ wptrunner_unittest
 )
 =
 =
-set
-(
-[
+{
 "
 wptrunner_unittest
 "
-]
-)
+}
 def
 test_build_css
 (
@@ -828,14 +795,11 @@ build_css
 )
 =
 =
-set
-(
-[
+{
 "
 build_css
 "
-]
-)
+}
     
 assert
 jobs
@@ -864,14 +828,11 @@ build_css
 )
 =
 =
-set
-(
-[
+{
 "
 build_css
 "
-]
-)
+}
     
 assert
 jobs
@@ -936,14 +897,11 @@ update_built
 )
 =
 =
-set
-(
-[
+{
 "
 update_built
 "
-]
-)
+}
     
 assert
 jobs
@@ -970,14 +928,11 @@ update_built
 )
 =
 =
-set
-(
-[
+{
 "
 update_built
 "
-]
-)
+}
     
 assert
 jobs
@@ -1006,14 +961,11 @@ update_built
 )
 =
 =
-set
-(
-[
+{
 "
 update_built
 "
-]
-)
+}
 def
 test_wpt_integration
 (
@@ -1047,14 +999,11 @@ wpt_integration
 )
 =
 =
-set
-(
-[
+{
 "
 wpt_integration
 "
-]
-)
+}
     
 assert
 jobs
@@ -1085,14 +1034,11 @@ wpt_integration
 )
 =
 =
-set
-(
-[
+{
 "
 wpt_integration
 "
-]
-)
+}
 def
 test_wpt_infrastructure
 (
@@ -1124,14 +1070,11 @@ wptrunner_infrastructure
 )
 =
 =
-set
-(
-[
+{
 "
 wptrunner_infrastructure
 "
-]
-)
+}
     
 assert
 jobs
@@ -1160,11 +1103,8 @@ wptrunner_infrastructure
 )
 =
 =
-set
-(
-[
+{
 "
 wptrunner_infrastructure
 "
-]
-)
+}

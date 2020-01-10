@@ -359,9 +359,7 @@ test_type
                           
 filename
                           
-set
-(
-[
+{
 TestharnessTest
 (
 "
@@ -376,8 +374,7 @@ filename
 "
 filename
 )
-]
-)
+}
 )
 )
     

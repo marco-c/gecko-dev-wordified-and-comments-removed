@@ -37,17 +37,14 @@ jobs
 foo
 bar
 "
-set
-(
-[
+{
 "
 foo
 "
 "
 bar
 "
-]
-)
+}
 )
     
 (
@@ -65,17 +62,14 @@ jobs
 foo
 bar
 "
-set
-(
-[
+{
 "
 foo
 "
 "
 bar
 "
-]
-)
+}
 )
     
 (
@@ -89,17 +83,14 @@ bar
 \
 nbaz
 "
-set
-(
-[
+{
 "
 foo
 "
 "
 bar
 "
-]
-)
+}
 )
     
 (
@@ -110,14 +101,11 @@ jobs
 :
 all
 "
-set
-(
-[
+{
 "
 all
 "
-]
-)
+}
 )
     
 (
@@ -142,14 +130,11 @@ jobs
 :
 bar
 "
-set
-(
-[
+{
 "
 foo
 "
-]
-)
+}
 )
 ]
 )

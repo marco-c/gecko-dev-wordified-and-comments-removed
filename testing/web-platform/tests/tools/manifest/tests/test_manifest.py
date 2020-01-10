@@ -2562,8 +2562,7 @@ sources
 )
     
 assert
-set
-(
+{
 item
 .
 url
@@ -2578,12 +2577,10 @@ iterpath
 test2
 "
 )
-)
+}
 =
 =
-set
-(
-[
+{
 "
 /
 test2
@@ -2592,7 +2589,7 @@ test2
 .
 html
 "
-                                                                 
+                                                          
 "
 /
 test2
@@ -2601,8 +2598,7 @@ test2
 .
 html
 "
-]
-)
+}
     
 assert
 set
