@@ -4502,13 +4502,6 @@ is_executable_method
 =
 None
         
-pywebsocket
-.
-_configure_logging
-(
-opts
-)
-        
 reload_module
 (
 logging
@@ -4516,13 +4509,6 @@ logging
         
 release_mozlog_lock
 (
-)
-        
-pywebsocket
-.
-_configure_logging
-(
-opts
 )
         
 self
