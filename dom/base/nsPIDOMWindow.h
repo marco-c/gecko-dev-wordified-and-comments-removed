@@ -446,7 +446,6 @@ aFrom
 )
 ;
 }
-inline
 bool
 IsCurrentInnerWindow
 (
