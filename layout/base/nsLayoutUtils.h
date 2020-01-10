@@ -5353,16 +5353,6 @@ GPUImageScalingEnabled
 )
 ;
 static
-bool
-InterruptibleReflowEnabled
-(
-)
-{
-return
-sInterruptibleReflowEnabled
-;
-}
-static
 void
 UnionChildOverflow
 (
@@ -6540,10 +6530,6 @@ aFrame
 ;
 private
 :
-static
-bool
-sInterruptibleReflowEnabled
-;
 static
 bool
 sSVGTransformBoxEnabled
