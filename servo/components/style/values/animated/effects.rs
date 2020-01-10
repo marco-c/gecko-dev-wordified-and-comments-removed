@@ -156,6 +156,7 @@ GenericFilter
 <
 Angle
 Number
+Number
 Length
 AnimatedSimpleShadow
 ComputedUrl
@@ -182,6 +183,7 @@ AnimatedFilter
 GenericFilter
 <
 Angle
+Number
 Number
 Length
 Impossible

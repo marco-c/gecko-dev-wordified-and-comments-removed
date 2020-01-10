@@ -69,6 +69,7 @@ computed
 :
 {
 Angle
+ZeroToOneNumber
 NonNegativeNumber
 }
 ;
@@ -177,6 +178,7 @@ GenericFilter
 <
 Angle
 NonNegativeNumber
+ZeroToOneNumber
 NonNegativeLength
 SimpleShadow
 ComputedUrl
@@ -201,6 +203,7 @@ GenericFilter
 <
 Angle
 NonNegativeNumber
+ZeroToOneNumber
 NonNegativeLength
 Impossible
 Impossible

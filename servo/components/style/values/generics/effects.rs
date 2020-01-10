@@ -146,7 +146,8 @@ enum
 GenericFilter
 <
 Angle
-Factor
+NonNegativeFactor
+ZeroToOneFactor
 Length
 Shadow
 U
@@ -172,7 +173,7 @@ function
 ]
 Brightness
 (
-Factor
+NonNegativeFactor
 )
 #
 [
@@ -183,7 +184,7 @@ function
 ]
 Contrast
 (
-Factor
+NonNegativeFactor
 )
 #
 [
@@ -194,7 +195,7 @@ function
 ]
 Grayscale
 (
-Factor
+ZeroToOneFactor
 )
 #
 [
@@ -216,7 +217,7 @@ function
 ]
 Invert
 (
-Factor
+ZeroToOneFactor
 )
 #
 [
@@ -227,7 +228,7 @@ function
 ]
 Opacity
 (
-Factor
+ZeroToOneFactor
 )
 #
 [
@@ -238,7 +239,7 @@ function
 ]
 Saturate
 (
-Factor
+NonNegativeFactor
 )
 #
 [
@@ -249,7 +250,7 @@ function
 ]
 Sepia
 (
-Factor
+ZeroToOneFactor
 )
 #
 [
