@@ -970,7 +970,11 @@ LINE_SEPARATOR
 )
 ;
 const
+{
+result
+:
 output
+}
 =
 prettifyCSS
 (
@@ -1053,7 +1057,11 @@ LINE_SEPARATOR
 )
 ;
 const
+{
+result
+:
 output
+}
 =
 prettifyCSS
 (
