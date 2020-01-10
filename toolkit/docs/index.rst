@@ -73,6 +73,9 @@ featuregates
 featuregates
 /
 index
+search
+/
+index
 components
 /
 normandy
