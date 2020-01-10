@@ -727,10 +727,9 @@ const
 LayoutDeviceIntRect
 &
 aRect
-const
-LayoutDeviceIntRect
-&
-aClearRect
+bool
+*
+aOutIsCleared
 )
 {
 MOZ_ASSERT
@@ -755,7 +754,7 @@ GetBackBufferDrawTarget
 (
 aScreenTarget
 aRect
-aClearRect
+aOutIsCleared
 )
 ;
 if
