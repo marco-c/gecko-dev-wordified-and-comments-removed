@@ -9456,11 +9456,12 @@ shared
 ENTITY
 contentBlocking
 .
-trackingProtection3
+trackingProtection4
 .
 label
 "
-Trackers
+Tracking
+Content
 "
 >
 <
