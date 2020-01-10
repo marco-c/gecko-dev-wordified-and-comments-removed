@@ -121,6 +121,8 @@ if
 (
 window
 .
+document
+.
 fullscreen
 )
 {
