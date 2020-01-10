@@ -1926,6 +1926,9 @@ mDidDeleteNonCollapsedRange
 bool
 mDidDeleteEmptyParentBlocks
 ;
+bool
+mRestoreContentEditableCount
+;
 private
 :
 void
@@ -1946,6 +1949,10 @@ mDidDeleteNonCollapsedRange
 false
 ;
 mDidDeleteEmptyParentBlocks
+=
+false
+;
+mRestoreContentEditableCount
 =
 false
 ;
