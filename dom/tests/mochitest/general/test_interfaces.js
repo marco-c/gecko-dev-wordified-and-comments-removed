@@ -5973,16 +5973,6 @@ true
 name
 :
 "
-SVGZoomAndPan
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 Text
 "
 insecureContext

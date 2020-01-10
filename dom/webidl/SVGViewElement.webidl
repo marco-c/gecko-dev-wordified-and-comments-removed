@@ -157,5 +157,5 @@ SVGFitToViewBox
 ;
 SVGViewElement
 includes
-SVGZoomAndPanValues
+SVGZoomAndPan
 ;
