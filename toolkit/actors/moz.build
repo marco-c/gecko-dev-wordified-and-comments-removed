@@ -180,7 +180,12 @@ AutoplayChild
 jsm
 '
 '
-BrowserChild
+BrowserElementChild
+.
+jsm
+'
+'
+BrowserElementParent
 .
 jsm
 '
