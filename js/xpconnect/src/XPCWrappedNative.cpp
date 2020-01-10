@@ -4561,7 +4561,10 @@ __linux__
 __PPC64__
 &
 &
+defined
+(
 _LITTLE_ENDIAN
+)
 )
 __attribute__
 (
@@ -5410,7 +5413,10 @@ __linux__
 __PPC64__
 &
 &
+defined
+(
 _LITTLE_ENDIAN
+)
 )
 __attribute__
 (
