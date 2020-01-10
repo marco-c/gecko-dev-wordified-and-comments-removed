@@ -851,17 +851,6 @@ kwargs
 cache_root
 "
 ]
-                                
-meta_filters
-=
-kwargs
-.
-get
-(
-"
-meta_filters
-"
-)
 )
     
 return
@@ -1303,9 +1292,6 @@ cache_root
 =
 None
                     
-meta_filters
-=
-None
 update
 =
 True
@@ -1416,10 +1402,6 @@ True
 cache_root
 =
 this_cache_root
-                                              
-meta_filters
-=
-meta_filters
 )
         
 path_data
