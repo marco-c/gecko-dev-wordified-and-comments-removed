@@ -519,6 +519,12 @@ js
 /
 src
 /
+octane
+/
+js
+/
+src
+/
 vtune
 /
 disable_warnings
