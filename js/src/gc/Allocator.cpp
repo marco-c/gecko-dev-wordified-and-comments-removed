@@ -2114,8 +2114,9 @@ zone
 >
 gcHeapThreshold
 .
-bytes
+nonIncrementalTriggerBytes
 (
+tunables
 )
 )
 {
