@@ -119,6 +119,16 @@ api
 audioworkletglobalscope
 *
 /
+callback
+constructor
+AudioWorkletProcessorConstructor
+=
+AudioWorkletProcessor
+(
+object
+options
+)
+;
 [
 Global
 =
@@ -143,7 +153,7 @@ registerProcessor
 (
 DOMString
 name
-VoidFunction
+AudioWorkletProcessorConstructor
 processorCtor
 )
 ;
