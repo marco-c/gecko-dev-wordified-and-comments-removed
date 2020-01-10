@@ -109,15 +109,6 @@ narrate
 voice
 "
 "
-privacy
-.
-trackingprotection
-.
-pbmode
-.
-enabled
-"
-"
 reader
 .
 font_size
