@@ -25834,6 +25834,11 @@ pattern
 incomplete
 .
 image
+mozilla
+:
+{
+throws
+}
 code
 :
 |
