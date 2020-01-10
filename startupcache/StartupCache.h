@@ -546,6 +546,16 @@ mallocSizeOf
 )
 const
 ;
+bool
+ShouldCompactCache
+(
+)
+;
+nsresult
+ResetStartupWriteTimerCheckingReadCount
+(
+)
+;
 nsresult
 ResetStartupWriteTimer
 (
@@ -706,6 +716,9 @@ mStartupWriteInitiated
 ;
 bool
 mCurTableReferenced
+;
+uint32_t
+mRequestedCount
 ;
 size_t
 mCacheEntriesBaseOffset
