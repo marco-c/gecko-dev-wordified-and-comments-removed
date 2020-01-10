@@ -202,6 +202,10 @@ __VA_ARGS__
 ;
 \
 }
+NS_IMPL_ISUPPORTS0
+(
+MediaControlKeysHandler
+)
 void
 MediaControlKeysHandler
 :
@@ -338,6 +342,10 @@ return
 ;
 }
 }
+NS_IMPL_ISUPPORTS0
+(
+MediaControlKeysEventSource
+)
 void
 MediaControlKeysEventSource
 :

@@ -141,6 +141,7 @@ MediaControlKeysEventListener
 {
 public
 :
+NS_DECL_ISUPPORTS
 void
 OnKeyPressed
 (
@@ -166,6 +167,13 @@ mReceivedEvent
 }
 private
 :
+~
+MediaHardwareKeysEventListenerTest
+(
+)
+=
+default
+;
 MediaControlKeysEvent
 mReceivedEvent
 =
@@ -176,6 +184,10 @@ eNone
 ;
 }
 ;
+NS_IMPL_ISUPPORTS0
+(
+MediaHardwareKeysEventListenerTest
+)
 static
 void
 NotifyFakeMediaKeysEvent
