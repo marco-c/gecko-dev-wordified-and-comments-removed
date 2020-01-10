@@ -27977,7 +27977,7 @@ hls
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 PREF_VALUE
