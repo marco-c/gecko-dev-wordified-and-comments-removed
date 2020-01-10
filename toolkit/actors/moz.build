@@ -299,4 +299,9 @@ ZoomChild
 .
 jsm
 '
+'
+ZoomParent
+.
+jsm
+'
 ]
