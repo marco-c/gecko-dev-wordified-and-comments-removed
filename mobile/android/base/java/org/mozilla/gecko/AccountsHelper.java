@@ -1473,12 +1473,13 @@ false
 ;
 if
 (
+!
 action
 .
 equals
 (
 "
-reconnect
+passwordChange
 "
 )
 )
