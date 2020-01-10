@@ -22,9 +22,7 @@ color
 )
 ;
 const
-{
 Spectrum
-}
 =
 require
 (

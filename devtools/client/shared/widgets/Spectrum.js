@@ -259,8 +259,10 @@ STEP
 }
 }
 ;
-function
+class
 Spectrum
+{
+constructor
 (
 parentEl
 rgb
@@ -1186,11 +1188,6 @@ updateUI
 ;
 }
 }
-Spectrum
-.
-prototype
-=
-{
 set
 textProps
 (
@@ -1593,8 +1590,6 @@ rgb
 ;
 }
 show
-:
-function
 (
 )
 {
@@ -1636,8 +1631,6 @@ updateUI
 ;
 }
 onElementClick
-:
-function
 (
 e
 )
@@ -1650,8 +1643,6 @@ stopPropagation
 ;
 }
 onHueSliderMove
-:
-function
 (
 )
 {
@@ -1688,8 +1679,6 @@ onChange
 ;
 }
 onDraggerMove
-:
-function
 (
 dragX
 dragY
@@ -1741,8 +1730,6 @@ onChange
 ;
 }
 onAlphaSliderMove
-:
-function
 (
 )
 {
@@ -1779,8 +1766,6 @@ onChange
 ;
 }
 onChange
-:
-function
 (
 )
 {
@@ -1801,8 +1786,6 @@ rgbCssString
 ;
 }
 createSlider
-:
-function
 (
 sliderType
 onSliderMove
@@ -1931,8 +1914,6 @@ slider
 ;
 }
 updateContrastLabel
-:
-function
 (
 isLargeText
 )
@@ -2139,8 +2120,6 @@ content
 }
 }
 updateContrastValueEl
-:
-function
 (
 el
 score
@@ -2253,8 +2232,6 @@ backgroundColor
 ;
 }
 updateAlphaSlider
-:
-function
 (
 )
 {
@@ -2367,8 +2344,6 @@ alphaGradient
 ;
 }
 updateColorPreview
-:
-function
 (
 )
 {
@@ -2436,8 +2411,6 @@ colorName
 ;
 }
 updateDragger
-:
-function
 (
 )
 {
@@ -2508,8 +2481,6 @@ rgbCssString
 ;
 }
 updateHueSlider
-:
-function
 (
 )
 {
@@ -2531,8 +2502,6 @@ rgbCssString
 ;
 }
 updateHelperLocations
-:
-function
 (
 )
 {
@@ -2706,8 +2675,6 @@ max
 ;
 }
 updateContrast
-:
-function
 (
 )
 {
@@ -3005,8 +2972,6 @@ backgroundColorMax
 ;
 }
 updateUI
-:
-function
 (
 )
 {
@@ -3048,8 +3013,6 @@ updateContrast
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -3174,7 +3137,6 @@ null
 ;
 }
 }
-;
 function
 hsvToRgb
 (
@@ -4098,8 +4060,6 @@ props
 module
 .
 exports
-.
-Spectrum
 =
 Spectrum
 ;
