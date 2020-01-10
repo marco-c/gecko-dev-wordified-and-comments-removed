@@ -3989,6 +3989,12 @@ numDebuggeeRealms_
 =
 =
 0
+&
+&
+!
+isBeingDestroyed
+(
+)
 )
 {
 jitRuntime
@@ -4085,6 +4091,12 @@ numDebuggeeRealmsObservingCoverage_
 =
 =
 0
+&
+&
+!
+isBeingDestroyed
+(
+)
 )
 {
 jit
