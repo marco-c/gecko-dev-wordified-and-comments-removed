@@ -72,7 +72,7 @@ function
 onlyOneInstanceOfMainHighlighter
 (
 {
-inspector
+inspectorFront
 }
 )
 {
@@ -97,7 +97,7 @@ const
 h1
 =
 await
-inspector
+inspectorFront
 .
 getHighlighter
 (
@@ -108,7 +108,7 @@ const
 h2
 =
 await
-inspector
+inspectorFront
 .
 getHighlighter
 (
@@ -153,7 +153,7 @@ function
 manyInstancesOfCustomHighlighters
 (
 {
-inspector
+inspectorFront
 }
 )
 {
@@ -161,7 +161,7 @@ const
 h1
 =
 await
-inspector
+inspectorFront
 .
 getHighlighterByType
 (
@@ -174,7 +174,7 @@ const
 h2
 =
 await
-inspector
+inspectorFront
 .
 getHighlighterByType
 (
@@ -207,7 +207,7 @@ const
 h3
 =
 await
-inspector
+inspectorFront
 .
 getHighlighterByType
 (
@@ -220,7 +220,7 @@ const
 h4
 =
 await
-inspector
+inspectorFront
 .
 getHighlighterByType
 (
@@ -337,7 +337,7 @@ function
 showHideMethodsAreAvailable
 (
 {
-inspector
+inspectorFront
 }
 )
 {
@@ -345,7 +345,7 @@ const
 h1
 =
 await
-inspector
+inspectorFront
 .
 getHighlighterByType
 (
@@ -358,7 +358,7 @@ const
 h2
 =
 await
-inspector
+inspectorFront
 .
 getHighlighterByType
 (
@@ -463,7 +463,7 @@ function
 unknownHighlighterTypeShouldntBeAccepted
 (
 {
-inspector
+inspectorFront
 }
 )
 {
@@ -471,7 +471,7 @@ const
 h
 =
 await
-inspector
+inspectorFront
 .
 getHighlighterByType
 (

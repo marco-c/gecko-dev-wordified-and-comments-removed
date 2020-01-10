@@ -358,7 +358,7 @@ deactivate
 await
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -420,7 +420,7 @@ then
 >
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

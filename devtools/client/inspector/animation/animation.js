@@ -707,7 +707,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -727,7 +727,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -923,7 +923,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -943,7 +943,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -2917,7 +2917,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

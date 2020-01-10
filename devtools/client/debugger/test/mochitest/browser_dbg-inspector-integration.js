@@ -39,7 +39,7 @@ ok
 (
 toolbox
 .
-inspector
+inspectorFront
 "
 Inspector
 is
@@ -52,7 +52,7 @@ resolve
 (
 toolbox
 .
-inspector
+inspectorFront
 )
 ;
 }

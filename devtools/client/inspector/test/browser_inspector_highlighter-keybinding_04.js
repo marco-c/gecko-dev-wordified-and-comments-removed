@@ -70,7 +70,7 @@ onHover
 =
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -133,7 +133,7 @@ onPickerStopped
 =
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

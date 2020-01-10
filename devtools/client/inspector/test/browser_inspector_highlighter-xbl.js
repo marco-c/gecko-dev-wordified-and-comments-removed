@@ -216,7 +216,7 @@ selector
 return
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

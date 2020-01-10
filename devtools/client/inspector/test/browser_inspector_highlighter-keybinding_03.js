@@ -373,7 +373,7 @@ updated
 )
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -420,7 +420,7 @@ args
 return
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -476,7 +476,7 @@ onPickerNodeHovered
 =
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

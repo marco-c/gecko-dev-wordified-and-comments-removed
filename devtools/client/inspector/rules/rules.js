@@ -1620,7 +1620,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 ;
 const
 h

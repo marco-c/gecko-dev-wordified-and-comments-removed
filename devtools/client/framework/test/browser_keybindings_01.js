@@ -706,7 +706,7 @@ loaded
 await
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -742,7 +742,7 @@ synthesizeKey
 await
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

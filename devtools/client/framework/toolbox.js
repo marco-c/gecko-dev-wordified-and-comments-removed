@@ -2324,7 +2324,7 @@ _highlighter
 ;
 }
 get
-inspector
+inspectorFront
 (
 )
 {
@@ -7172,7 +7172,7 @@ if
 !
 this
 .
-inspector
+inspectorFront
 )
 {
 await
@@ -7185,7 +7185,7 @@ initInspector
 }
 this
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -7243,7 +7243,7 @@ else
 {
 this
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -7304,7 +7304,7 @@ select
 "
 this
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -7373,7 +7373,7 @@ select
 "
 this
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -7837,7 +7837,7 @@ inspector
 =
 this
 .
-inspector
+inspectorFront
 ;
 const
 hasHighlighters
@@ -13132,7 +13132,7 @@ _walker
 =
 this
 .
-inspector
+inspectorFront
 .
 walker
 ;
@@ -13142,7 +13142,7 @@ _highlighter
 =
 this
 .
-inspector
+inspectorFront
 .
 highlighter
 ;
@@ -13152,13 +13152,13 @@ _selection
 =
 this
 .
-inspector
+inspectorFront
 .
 selection
 ;
 this
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -13176,7 +13176,7 @@ _onPickerStarting
 ;
 this
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -13194,7 +13194,7 @@ _onPickerStarted
 ;
 this
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -13212,7 +13212,7 @@ _onPickerStopped
 ;
 this
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

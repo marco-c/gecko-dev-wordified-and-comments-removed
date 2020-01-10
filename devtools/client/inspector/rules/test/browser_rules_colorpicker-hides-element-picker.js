@@ -66,7 +66,7 @@ pickerStopped
 =
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

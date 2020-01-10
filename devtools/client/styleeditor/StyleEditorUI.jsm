@@ -867,7 +867,7 @@ this
 .
 _toolbox
 .
-inspector
+inspectorFront
 .
 getHighlighterByType
 (

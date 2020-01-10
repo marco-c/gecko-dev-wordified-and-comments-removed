@@ -144,7 +144,7 @@ front
 =
 inspector
 .
-inspector
+inspectorFront
 ;
 const
 highlighter

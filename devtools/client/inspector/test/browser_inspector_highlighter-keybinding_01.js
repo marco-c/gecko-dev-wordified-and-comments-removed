@@ -337,7 +337,7 @@ picker
 await
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -378,7 +378,7 @@ args
 return
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -443,7 +443,7 @@ selector
 return
 toolbox
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

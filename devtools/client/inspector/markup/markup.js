@@ -1157,7 +1157,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -1179,7 +1179,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .
@@ -3852,7 +3852,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 resolveRelativeURL
 (
@@ -9158,7 +9158,7 @@ this
 .
 inspector
 .
-inspector
+inspectorFront
 .
 nodePicker
 .

@@ -565,7 +565,7 @@ resolve
 {
 inspector
 .
-inspector
+inspectorFront
 .
 once
 (
@@ -665,7 +665,7 @@ resolve
 {
 inspector
 .
-inspector
+inspectorFront
 .
 once
 (

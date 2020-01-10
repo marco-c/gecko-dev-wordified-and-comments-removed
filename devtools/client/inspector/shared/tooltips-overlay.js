@@ -1543,7 +1543,7 @@ view
 .
 inspector
 .
-inspector
+inspectorFront
 ;
 const
 {
