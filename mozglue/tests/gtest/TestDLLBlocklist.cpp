@@ -377,7 +377,7 @@ include
 "
 mozilla
 /
-WindowsDllBlocklistDefs
+WindowsDllBlocklistLegacyDefs
 .
 h
 "
@@ -408,19 +408,19 @@ EXPECT_FALSE
 pLast
 -
 >
-name
+mName
 |
 |
 pLast
 -
 >
-maxVersion
+mMaxVersion
 |
 |
 pLast
 -
 >
-flags
+mFlags
 )
 ;
 for
@@ -461,7 +461,7 @@ EXPECT_TRUE
 pEntry
 -
 >
-name
+mName
 )
 ;
 EXPECT_GT
@@ -471,7 +471,7 @@ strlen
 pEntry
 -
 >
-name
+mName
 )
 3
 )
@@ -484,7 +484,7 @@ pch
 pEntry
 -
 >
-name
+mName
 ;
 *
 pch
@@ -536,7 +536,7 @@ dupe
 pEntry
 -
 >
-name
+mName
 )
 0
 )
@@ -549,7 +549,7 @@ AppendElement
 pEntry
 -
 >
-name
+mName
 )
 ;
 }
