@@ -219,33 +219,33 @@ d
         
 flags
 =
-d
+self
+.
+value
 [
 '
 flags_
 '
 ]
         
-if
-'
-length_
-'
-in
-d
-.
-type
+try
 :
             
 length
 =
-d
+self
+.
+value
 [
 '
 length_
 '
 ]
         
-else
+except
+gdb
+.
+error
 :
             
 length
