@@ -100,11 +100,6 @@ BrowserTestUtilsChild
 jsm
 '
 '
-BrowserTestUtilsParent
-.
-jsm
-'
-'
 content
 /
 content

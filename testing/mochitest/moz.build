@@ -442,6 +442,17 @@ task
 .
 js
 '
+'
+BrowserTestUtils
+/
+content
+/
+content
+-
+utils
+.
+js
+'
 ]
 MOCHITEST_MANIFESTS
 +

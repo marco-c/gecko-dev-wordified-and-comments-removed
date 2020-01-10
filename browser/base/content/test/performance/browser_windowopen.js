@@ -584,10 +584,7 @@ subject
 win
 )
 ;
-let
-promises
-=
-[
+await
 BrowserTestUtils
 .
 firstBrowserLoaded
@@ -595,6 +592,8 @@ firstBrowserLoaded
 win
 false
 )
+;
+await
 BrowserTestUtils
 .
 browserStopped
@@ -609,15 +608,6 @@ about
 :
 home
 "
-)
-]
-;
-await
-Promise
-.
-all
-(
-promises
 )
 ;
 await
