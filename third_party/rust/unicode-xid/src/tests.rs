@@ -55,6 +55,12 @@ v1
 :
 *
 ;
+use
+super
+:
+:
+UnicodeXID
+;
 #
 [
 cfg
@@ -134,9 +140,6 @@ chars
 .
 all
 (
-super
-:
-:
 UnicodeXID
 :
 :
@@ -313,9 +316,6 @@ chars
 .
 all
 (
-super
-:
-:
 UnicodeXID
 :
 :
@@ -463,9 +463,6 @@ chars
 assert
 !
 (
-super
-:
-:
 UnicodeXID
 :
 :
@@ -550,9 +547,6 @@ assert
 !
 (
 !
-super
-:
-:
 UnicodeXID
 :
 :
@@ -629,9 +623,6 @@ chars
 assert
 !
 (
-super
-:
-:
 UnicodeXID
 :
 :
@@ -711,9 +702,6 @@ assert
 !
 (
 !
-super
-:
-:
 UnicodeXID
 :
 :
