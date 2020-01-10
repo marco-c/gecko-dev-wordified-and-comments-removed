@@ -372,10 +372,6 @@ ContentProcessManager
 UnregisterRemoteFrame
 (
 const
-ContentParentId
-&
-aChildCpId
-const
 TabId
 &
 aChildTabId
