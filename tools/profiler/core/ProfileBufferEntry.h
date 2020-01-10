@@ -279,6 +279,16 @@ double
 \
 MACRO
 (
+TimeBeforeCompactStack
+double
+sizeof
+(
+double
+)
+)
+\
+MACRO
+(
 CounterId
 void
 *
@@ -377,6 +387,7 @@ LEGACY_LIMIT
 MarkerData
 =
 LEGACY_LIMIT
+CompactStack
 MODERN_LIMIT
 }
 ;

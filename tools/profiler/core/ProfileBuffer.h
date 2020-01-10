@@ -589,7 +589,7 @@ Byte
 [
 ]
 >
-mDuplicationBuffer
+mWorkerBuffer
 ;
 double
 mFirstSamplingTimeNs
