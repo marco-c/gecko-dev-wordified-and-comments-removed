@@ -7918,9 +7918,9 @@ nodeFront
 await
 this
 .
-inspectorFront
+walker
 .
-getNodeFrontFromNodeGrip
+gripToNodeFront
 (
 {
 actor
