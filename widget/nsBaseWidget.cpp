@@ -954,6 +954,10 @@ mSizeMode
 (
 nsSizeMode_Normal
 )
+mIsTiled
+(
+false
+)
 mPopupLevel
 (
 ePopupLevelTop

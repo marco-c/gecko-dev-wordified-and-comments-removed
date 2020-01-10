@@ -3038,6 +3038,17 @@ sizemode
 normal
 "
 ]
+:
+not
+(
+[
+gtktiledwindow
+=
+"
+true
+"
+]
+)
 >
 #
 navigator
