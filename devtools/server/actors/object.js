@@ -350,6 +350,12 @@ set
 desc
 .
 get
+|
+|
+!
+desc
+.
+configurable
 )
 {
 return
