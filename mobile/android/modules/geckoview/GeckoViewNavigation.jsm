@@ -1597,6 +1597,7 @@ aWhere
 aFlags
 aTriggeringPrincipal
 aCsp
+aReferrerInfo
 aNextRemoteTabId
 )
 {
@@ -1727,6 +1728,9 @@ aTriggeringPrincipal
 csp
 :
 aCsp
+referrerInfo
+:
+aReferrerInfo
 }
 )
 ;
@@ -1757,6 +1761,7 @@ aWhere
 aFlags
 aTriggeringPrincipal
 aCsp
+null
 null
 )
 ;
@@ -1796,6 +1801,9 @@ triggeringPrincipal
 aParams
 .
 csp
+aParams
+.
+referrerInfo
 aNextRemoteTabId
 )
 ;
