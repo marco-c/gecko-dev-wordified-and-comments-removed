@@ -892,6 +892,12 @@ ShouldRecordFrames
 )
 const
 ;
+bool
+NeedToRecreateFullWindowRenderTarget
+(
+)
+const
+;
 RefPtr
 <
 gfx
