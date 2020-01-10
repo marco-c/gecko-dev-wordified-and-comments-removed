@@ -273,7 +273,7 @@ LoginManager
 jsm
 '
 '
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 '

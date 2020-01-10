@@ -57,7 +57,7 @@ LoginFormFactory
 .
 jsm
 "
-LoginManagerContent
+LoginManagerChild
 :
 "
 resource
@@ -68,7 +68,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "
@@ -102,7 +102,7 @@ function
 message
 )
 {
-LoginManagerContent
+LoginManagerChild
 .
 receiveMessage
 (
@@ -125,7 +125,7 @@ function
 message
 )
 {
-LoginManagerContent
+LoginManagerChild
 .
 receiveMessage
 (
@@ -197,7 +197,7 @@ return
 }
 this
 .
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (
@@ -235,7 +235,7 @@ return
 }
 this
 .
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (
@@ -292,7 +292,7 @@ return
 }
 this
 .
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (

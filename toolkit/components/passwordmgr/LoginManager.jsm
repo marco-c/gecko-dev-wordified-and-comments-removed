@@ -117,7 +117,7 @@ defineModuleGetter
 (
 this
 "
-LoginManagerContent
+LoginManagerChild
 "
 "
 resource
@@ -128,7 +128,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "

@@ -337,7 +337,7 @@ jsm
 ;
 const
 {
-LoginManagerContent
+LoginManagerChild
 }
 =
 ChromeUtils
@@ -353,7 +353,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "
@@ -431,7 +431,7 @@ vanillaObjectToLogin
 addedLogin
 )
 ;
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (

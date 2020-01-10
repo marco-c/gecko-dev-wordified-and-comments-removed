@@ -55,7 +55,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "
@@ -64,7 +64,7 @@ null
 ;
 const
 {
-LoginManagerContent
+LoginManagerChild
 }
 =
 LMCBackstagePass
@@ -1155,7 +1155,7 @@ let
 actual
 =
 new
-LoginManagerContent
+LoginManagerChild
 (
 )
 .

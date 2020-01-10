@@ -96,7 +96,7 @@ FormLikeFactory
 .
 jsm
 "
-LoginManagerContent
+LoginManagerChild
 :
 "
 resource
@@ -107,7 +107,7 @@ gre
 /
 modules
 /
-LoginManagerContent
+LoginManagerChild
 .
 jsm
 "
@@ -743,7 +743,7 @@ const
 usernameField
 ]
 =
-LoginManagerContent
+LoginManagerChild
 .
 forWindow
 (
