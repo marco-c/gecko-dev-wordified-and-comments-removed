@@ -855,7 +855,7 @@ treeherder
 :
 symbol
 :
-ml
+mozlint
 run
 :
 using
