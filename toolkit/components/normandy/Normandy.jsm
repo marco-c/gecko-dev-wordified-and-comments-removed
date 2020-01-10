@@ -374,10 +374,12 @@ rolloutPrefsChanged
 :
 {
 }
+async
 init
 (
 )
 {
+await
 NormandyMigrations
 .
 applyAll

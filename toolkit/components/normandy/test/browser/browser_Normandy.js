@@ -757,6 +757,7 @@ testStartupDelayed
 finishInitStub
 )
 {
+await
 Normandy
 .
 init
