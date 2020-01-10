@@ -98,10 +98,6 @@ dependencies
 -
 release
 -
-sign
--
-and
--
 push
 -
 langpacks

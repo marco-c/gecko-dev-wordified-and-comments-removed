@@ -310,10 +310,6 @@ replace
 (
             
 '
-sign
--
-and
--
 push
 -
 langpacks
@@ -717,10 +713,6 @@ expected_kinds
 (
 '
 release
--
-sign
--
-and
 -
 push
 -
