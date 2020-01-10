@@ -297,7 +297,7 @@ deviceId
 width
 :
 {
-exact
+ideal
 :
 settings1
 .
@@ -356,14 +356,17 @@ settings2
 deviceId
 )
 ;
-assert_equals
+assert_between_inclusive
 (
+settings2
+.
+width
 settings1
 .
 width
 /
 2
-settings2
+settings1
 .
 width
 )
@@ -385,6 +388,7 @@ twice
 with
 different
 resolutions
+requested
 '
 )
 ;
