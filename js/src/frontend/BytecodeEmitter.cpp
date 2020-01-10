@@ -687,11 +687,6 @@ asFunctionBox
 )
 -
 >
-function
-(
-)
--
->
 nargs
 (
 )
