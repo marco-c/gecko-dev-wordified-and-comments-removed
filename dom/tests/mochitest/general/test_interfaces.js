@@ -4202,7 +4202,7 @@ PointerEvent
 insecureContext
 :
 true
-android
+fennec
 :
 false
 }
