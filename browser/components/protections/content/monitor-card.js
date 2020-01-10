@@ -505,9 +505,7 @@ exposedLockwisePasswords
 .
 textContent
 =
-monitorData
-.
-lockwisePasswords
+2
 ;
 }
 }
