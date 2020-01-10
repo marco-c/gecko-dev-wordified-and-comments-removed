@@ -4015,6 +4015,8 @@ _touchY
 ;
 this
 .
+shadowRoot
+.
 addEventListener
 (
 "
@@ -4070,6 +4072,8 @@ preventDefault
 )
 ;
 this
+.
+shadowRoot
 .
 addEventListener
 (
