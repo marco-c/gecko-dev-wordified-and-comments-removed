@@ -1643,6 +1643,8 @@ DEPTH
 cargo
 /
 config
+ifndef
+TEST_MOZBUILD
 export
 :
 :
@@ -1654,6 +1656,7 @@ DEPTH
 cargo
 /
 config
+endif
 #
 When
 building
