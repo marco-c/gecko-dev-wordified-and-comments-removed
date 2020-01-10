@@ -144,9 +144,6 @@ trackopts
 "
 jstracer
 "
-"
-jsallocations
-"
 ]
 }
 {
