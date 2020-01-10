@@ -20,9 +20,6 @@ GeckoProfiler
 h
 "
 #
-undef
-LOG
-#
 define
 LOG
 (
@@ -1053,3 +1050,6 @@ NS_OK
 ;
 }
 }
+#
+undef
+LOG
