@@ -413,6 +413,9 @@ mPolicy
 nsCString
 mTempPath
 ;
+nsCString
+mContentTempPath
+;
 typedef
 nsDataHashtable
 <
