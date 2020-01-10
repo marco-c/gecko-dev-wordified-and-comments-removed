@@ -872,6 +872,12 @@ WM_MOUSEWHEEL
 case
 WM_CHAR
 :
+case
+WM_KEYDOWN
+:
+case
+WM_KEYUP
+:
 :
 :
 PostMessage
