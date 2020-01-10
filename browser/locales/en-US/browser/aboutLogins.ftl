@@ -828,6 +828,10 @@ username
 label
 =
 Username
+about
+-
+logins
+-
 login
 -
 item
@@ -837,10 +841,10 @@ username
 .
 placeholder
 =
-name
-example
-.
-com
+(
+no
+username
+)
 login
 -
 item
