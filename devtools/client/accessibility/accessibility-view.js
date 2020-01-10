@@ -238,10 +238,13 @@ prototype
 async
 initialize
 (
-accessibility
+{
+front
 walker
 supports
 fluentBundles
+simulator
+}
 )
 {
 await
@@ -253,7 +256,7 @@ dispatch
 (
 reset
 (
-accessibility
+front
 supports
 )
 )
@@ -298,10 +301,13 @@ MainFrame
 (
 {
 accessibility
+:
+front
 accessibilityWalker
 :
 walker
 fluentBundles
+simulator
 }
 )
 ;

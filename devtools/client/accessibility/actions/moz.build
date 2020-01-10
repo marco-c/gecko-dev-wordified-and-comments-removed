@@ -71,6 +71,11 @@ details
 js
 '
 '
+simulation
+.
+js
+'
+'
 ui
 .
 js

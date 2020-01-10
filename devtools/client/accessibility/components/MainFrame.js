@@ -316,6 +316,11 @@ supports
 PropTypes
 .
 object
+simulator
+:
+PropTypes
+.
+object
 }
 ;
 }
@@ -613,6 +618,7 @@ accessibilityWalker
 fluentBundles
 enabled
 auditing
+simulator
 }
 =
 this
@@ -670,6 +676,7 @@ Toolbar
 {
 accessibility
 accessibilityWalker
+simulator
 }
 )
 isAuditing
