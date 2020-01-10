@@ -1281,6 +1281,7 @@ type
 type
 }
 ]
+span
 )
 .
 textContent
