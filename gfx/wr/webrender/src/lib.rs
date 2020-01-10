@@ -810,6 +810,7 @@ device
 build_shader_strings
 UploadMethod
 VertexUsageHint
+get_gl_target
 }
 ;
 pub
@@ -824,6 +825,7 @@ device
 ProgramBinary
 ProgramCache
 ProgramCacheObserver
+FormatDesc
 }
 ;
 pub
