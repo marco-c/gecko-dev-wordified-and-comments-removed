@@ -521,7 +521,7 @@ row
 .
 result
 .
-uiIndex
+rowIndex
 i
 )
 ;
@@ -1184,7 +1184,7 @@ row
 .
 result
 .
-uiIndex
+rowIndex
 0
 )
 ;
@@ -1259,7 +1259,7 @@ row
 .
 result
 .
-uiIndex
+rowIndex
 i
 )
 ;

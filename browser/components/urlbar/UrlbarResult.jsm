@@ -191,7 +191,7 @@ resultSource
 ;
 this
 .
-uiIndex
+rowIndex
 =
 -
 1
