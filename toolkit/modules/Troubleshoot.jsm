@@ -479,6 +479,11 @@ privacy
 .
 "
 "
+remote
+.
+enabled
+"
+"
 security
 .
 "
