@@ -166,8 +166,6 @@ noRedirectURI
 false
 )
 ;
-return
-;
 }
 function
 contentHandler

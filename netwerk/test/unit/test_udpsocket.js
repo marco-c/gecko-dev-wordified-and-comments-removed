@@ -109,8 +109,6 @@ nsIUDPSocketListener
 ]
 )
 onPacketReceived
-:
-function
 (
 aSocket
 aMessage
@@ -161,8 +159,6 @@ run_next_test
 ;
 }
 onStopListening
-:
-function
 (
 aSocket
 aStatus
@@ -328,8 +324,6 @@ nsIUDPSocketListener
 ]
 )
 onPacketReceived
-:
-function
 (
 aSocket
 aMessage
@@ -370,8 +364,6 @@ run_next_test
 ;
 }
 onStopListening
-:
-function
 (
 aSocket
 aStatus
@@ -535,8 +527,6 @@ nsIUDPSocketListener
 ]
 )
 onPacketReceived
-:
-function
 (
 aSocket
 aMessage
@@ -587,8 +577,6 @@ run_next_test
 ;
 }
 onStopListening
-:
-function
 (
 aSocket
 aStatus
@@ -644,13 +632,3 @@ length
 }
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}

@@ -399,16 +399,12 @@ prototype
 =
 {
 onStartRequest
-:
-function
 (
 request
 )
 {
 }
 onDataAvailable
-:
-function
 (
 request
 stream
@@ -418,8 +414,6 @@ cnt
 {
 }
 onStopRequest
-:
-function
 (
 request
 status

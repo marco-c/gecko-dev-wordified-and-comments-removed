@@ -707,8 +707,6 @@ visitResponseHeaders
 (
 {
 visitHeader
-:
-function
 (
 key
 val

@@ -39,8 +39,6 @@ nsIPrompt
 ]
 )
 alert
-:
-function
 (
 )
 {
@@ -91,8 +89,6 @@ nsIWindowWatcher
 ]
 )
 getNewPrompter
-:
-function
 (
 )
 {

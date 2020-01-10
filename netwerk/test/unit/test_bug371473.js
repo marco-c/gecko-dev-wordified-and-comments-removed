@@ -225,8 +225,6 @@ catch
 e
 )
 {
-return
-;
 }
 }
 function

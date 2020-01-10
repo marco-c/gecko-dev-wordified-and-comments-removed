@@ -114,8 +114,6 @@ listener1
 =
 {
 onLookupComplete
-:
-function
 (
 inRequest
 inRecord
@@ -148,8 +146,6 @@ listener2
 =
 {
 onLookupComplete
-:
-function
 (
 inRequest
 inRecord
@@ -219,8 +215,6 @@ listener3
 =
 {
 onLookupComplete
-:
-function
 (
 inRequest
 inRecord

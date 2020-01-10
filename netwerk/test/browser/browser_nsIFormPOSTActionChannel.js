@@ -158,8 +158,6 @@ URI_IS_LOCAL_RESOURCE
 ;
 }
 newChannel
-:
-function
 (
 aURI
 aLoadInfo
@@ -175,8 +173,6 @@ aLoadInfo
 ;
 }
 allowPort
-:
-function
 (
 port
 scheme
@@ -191,8 +187,6 @@ port
 ;
 }
 createInstance
-:
-function
 (
 aOuter
 aIID
@@ -219,8 +213,6 @@ aIID
 ;
 }
 lockFactory
-:
-function
 (
 )
 {
@@ -385,8 +377,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 setUploadStream
-:
-function
 (
 aStream
 aContentType
@@ -487,8 +477,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 open
-:
-function
 (
 )
 {
@@ -499,8 +487,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 asyncOpen
-:
-function
 (
 aListener
 )
@@ -1033,8 +1019,6 @@ spec
 ;
 }
 isPending
-:
-function
 (
 )
 {
@@ -1054,8 +1038,6 @@ NS_OK
 ;
 }
 cancel
-:
-function
 (
 status
 )

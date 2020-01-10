@@ -70,8 +70,6 @@ cacheFlushObserver
 =
 {
 observe
-:
-function
 (
 )
 {

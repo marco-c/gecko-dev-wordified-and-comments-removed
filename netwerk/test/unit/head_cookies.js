@@ -272,8 +272,6 @@ prototype
 =
 {
 observe
-:
-function
 (
 subject
 topic
@@ -1697,8 +1695,6 @@ prototype
 =
 {
 insertCookie
-:
-function
 (
 cookie
 )
@@ -2287,8 +2283,6 @@ stmtInsert
 ;
 }
 deleteCookie
-:
-function
 (
 cookie
 )
@@ -2413,8 +2407,6 @@ stmtDelete
 ;
 }
 updateCookie
-:
-function
 (
 cookie
 )
@@ -2582,8 +2574,6 @@ stmtUpdate
 ;
 }
 close
-:
-function
 (
 )
 {

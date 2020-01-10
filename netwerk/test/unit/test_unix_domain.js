@@ -417,8 +417,6 @@ asyncListen
 (
 {
 onSocketAccepted
-:
-function
 (
 aServ
 aTransport
@@ -668,8 +666,6 @@ currentThread
 ;
 }
 onStopListening
-:
-function
 (
 aServ
 aStatus
@@ -2238,8 +2234,6 @@ asyncListen
 onSocketAccepted
 :
 onAccepted
-onStopListening
-:
 onStopListening
 }
 )

@@ -50,8 +50,6 @@ observer
 =
 {
 observe
-:
-function
 (
 subject
 topic

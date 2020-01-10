@@ -346,8 +346,6 @@ observer
 =
 {
 onStreamComplete
-:
-function
 (
 loader
 context
@@ -410,8 +408,6 @@ status
 ;
 }
 onIncrementalData
-:
-function
 (
 loader
 context

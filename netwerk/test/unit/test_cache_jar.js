@@ -188,10 +188,6 @@ originAttributes
 =
 {
 inIsolatedMozBrowser
-:
-inIsolatedMozBrowser
-userContextId
-:
 userContextId
 }
 ;

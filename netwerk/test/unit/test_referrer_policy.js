@@ -139,8 +139,6 @@ newChannel
 (
 {
 uri
-:
-uri
 loadUsingSystemPrincipal
 :
 true

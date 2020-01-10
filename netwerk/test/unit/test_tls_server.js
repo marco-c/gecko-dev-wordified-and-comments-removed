@@ -160,16 +160,6 @@ nsIPrefBranch
 )
 ;
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 getCert
 (
 )
@@ -196,8 +186,6 @@ test
 "
 {
 handleCert
-:
-function
 (
 c
 rv
@@ -294,8 +282,6 @@ listener
 =
 {
 onSocketAccepted
-:
-function
 (
 socket
 transport
@@ -356,8 +342,6 @@ openOutputStream
 ;
 }
 onHandshakeDone
-:
-function
 (
 socket
 status
@@ -520,8 +504,6 @@ asyncWait
 (
 {
 onInputStreamReady
-:
-function
 (
 input
 )
@@ -547,8 +529,6 @@ currentThread
 ;
 }
 onStopListening
-:
-function
 (
 )
 {
@@ -727,8 +707,6 @@ handler
 =
 {
 onTransportStatus
-:
-function
 (
 transport
 status
@@ -764,8 +742,6 @@ currentThread
 }
 }
 onInputStreamReady
-:
-function
 (
 input
 )
@@ -978,8 +954,6 @@ e
 }
 }
 onOutputStreamReady
-:
-function
 (
 output
 )

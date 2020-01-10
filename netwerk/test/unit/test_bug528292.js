@@ -175,8 +175,6 @@ postRedirectURL
 false
 )
 ;
-return
-;
 }
 function
 postRedirectHandler

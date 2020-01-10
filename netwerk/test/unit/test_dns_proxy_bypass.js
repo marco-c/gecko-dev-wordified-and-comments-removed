@@ -70,8 +70,6 @@ dnsRequestObserver
 =
 {
 register
-:
-function
 (
 )
 {
@@ -119,8 +117,6 @@ request
 ;
 }
 unregister
-:
-function
 (
 )
 {
@@ -150,8 +146,6 @@ request
 }
 }
 observe
-:
-function
 (
 subject
 topic
@@ -222,8 +216,6 @@ listener
 =
 {
 onAcknowledge
-:
-function
 (
 aContext
 aSize
@@ -231,8 +223,6 @@ aSize
 {
 }
 onBinaryMessageAvailable
-:
-function
 (
 aContext
 aMsg
@@ -240,8 +230,6 @@ aMsg
 {
 }
 onMessageAvailable
-:
-function
 (
 aContext
 aMsg
@@ -249,8 +237,6 @@ aMsg
 {
 }
 onServerClose
-:
-function
 (
 aContext
 aCode
@@ -259,16 +245,12 @@ aReason
 {
 }
 onStart
-:
-function
 (
 aContext
 )
 {
 }
 onStop
-:
-function
 (
 aContext
 aStatusCode

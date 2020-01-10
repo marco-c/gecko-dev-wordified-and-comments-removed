@@ -83,8 +83,6 @@ test
 "
 {
 handleCert
-:
-function
 (
 c
 rv
@@ -675,8 +673,6 @@ securityObservers
 [
 ]
 onSocketAccepted
-:
-function
 (
 socket
 transport
@@ -759,8 +755,6 @@ securityObserver
 ;
 }
 onStopListening
-:
-function
 (
 )
 {

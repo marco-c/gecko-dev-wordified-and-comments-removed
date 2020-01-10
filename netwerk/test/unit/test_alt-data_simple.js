@@ -586,8 +586,6 @@ cacheFlushObserver
 =
 {
 observe
-:
-function
 (
 )
 {
@@ -802,8 +800,6 @@ getOriginalInputStream
 (
 {
 onInputStreamReady
-:
-function
 (
 aInputStream
 )

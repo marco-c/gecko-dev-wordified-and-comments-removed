@@ -141,8 +141,6 @@ nsIProtocolHandler
 .
 URI_DANGEROUS_TO_LOAD
 newChannel
-:
-function
 (
 uri
 aLoadInfo
@@ -155,8 +153,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 allowPort
-:
-function
 (
 port
 scheme
@@ -180,8 +176,6 @@ prototype
 =
 {
 createInstance
-:
-function
 (
 delegate
 iid
@@ -200,8 +194,6 @@ iid
 ;
 }
 lockFactory
-:
-function
 (
 lock
 )
@@ -494,8 +486,6 @@ nsIProtocolProxyFilter
 ]
 )
 applyFilter
-:
-function
 (
 pps
 uri
@@ -630,8 +620,6 @@ nsIProtocolProxyCallback
 ]
 )
 onProxyAvailable
-:
-function
 (
 req
 channel

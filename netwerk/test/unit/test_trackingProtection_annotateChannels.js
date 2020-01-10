@@ -155,8 +155,6 @@ prototype
 =
 {
 onStartRequest
-:
-function
 (
 request
 )

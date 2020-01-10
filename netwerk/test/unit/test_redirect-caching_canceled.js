@@ -180,8 +180,6 @@ age
 false
 )
 ;
-return
-;
 }
 function
 contentHandler

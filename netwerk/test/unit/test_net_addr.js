@@ -95,8 +95,6 @@ prototype
 =
 {
 onSocketAccepted
-:
-function
 (
 socket
 trans
@@ -236,16 +234,12 @@ reset
 ;
 }
 onStopListening
-:
-function
 (
 socket
 )
 {
 }
 reset
-:
-function
 (
 )
 {
@@ -327,8 +321,6 @@ null
 ;
 }
 stop
-:
-function
 (
 )
 {

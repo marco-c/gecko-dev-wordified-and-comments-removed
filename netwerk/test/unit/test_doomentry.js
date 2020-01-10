@@ -29,8 +29,6 @@ url
 "
 {
 onCacheEntryDoomed
-:
-function
 (
 result
 )

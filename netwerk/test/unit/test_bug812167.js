@@ -237,8 +237,6 @@ store
 +
 redirectHandler_NoStore_calls
 ;
-return
-;
 }
 var
 redirectHandler_ExpiresInPast_calls
@@ -310,8 +308,6 @@ Expires
 +
 +
 redirectHandler_ExpiresInPast_calls
-;
-return
 ;
 }
 function

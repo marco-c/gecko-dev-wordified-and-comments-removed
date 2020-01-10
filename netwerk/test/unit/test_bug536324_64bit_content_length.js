@@ -39,16 +39,12 @@ listener
 =
 {
 onStartRequest
-:
-function
 (
 req
 )
 {
 }
 onDataAvailable
-:
-function
 (
 req
 stream
@@ -82,8 +78,6 @@ NS_BINDING_ABORT
 ;
 }
 onStopRequest
-:
-function
 (
 req
 stat

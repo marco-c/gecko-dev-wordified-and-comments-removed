@@ -783,8 +783,6 @@ isBuffered
 return
 {
 file
-:
-file
 sink
 :
 ostream
@@ -830,8 +828,6 @@ ostream
 ;
 return
 {
-file
-:
 file
 sink
 :
@@ -2840,8 +2836,6 @@ newChannel
 (
 {
 uri
-:
-uri
 loadUsingSystemPrincipal
 :
 true
@@ -4064,13 +4058,3 @@ index
 =
 0
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}

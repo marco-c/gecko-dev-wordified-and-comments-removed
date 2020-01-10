@@ -250,8 +250,6 @@ asyncListen
 (
 {
 onPacketReceived
-:
-function
 (
 s
 message
@@ -295,8 +293,6 @@ data
 ;
 }
 onStopListening
-:
-function
 (
 socket
 status

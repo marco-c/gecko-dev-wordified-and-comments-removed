@@ -20,8 +20,6 @@ listener
 =
 {
 onAcknowledge
-:
-function
 (
 aContext
 aSize
@@ -29,8 +27,6 @@ aSize
 {
 }
 onBinaryMessageAvailable
-:
-function
 (
 aContext
 aMsg
@@ -38,8 +34,6 @@ aMsg
 {
 }
 onMessageAvailable
-:
-function
 (
 aContext
 aMsg
@@ -47,8 +41,6 @@ aMsg
 {
 }
 onServerClose
-:
-function
 (
 aContext
 aCode
@@ -57,8 +49,6 @@ aReason
 {
 }
 onStart
-:
-function
 (
 aContext
 )
@@ -72,8 +62,6 @@ false
 ;
 }
 onStop
-:
-function
 (
 aContext
 aStatusCode

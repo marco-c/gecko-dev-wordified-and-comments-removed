@@ -724,7 +724,6 @@ portal
 -
 connectivity
 "
-null
 )
 ;
 equal
@@ -1102,7 +1101,6 @@ portal
 -
 connectivity
 "
-null
 )
 ;
 await

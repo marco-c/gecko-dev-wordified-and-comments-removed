@@ -328,7 +328,6 @@ initial
 -
 state
 "
-null
 )
 ;
 do_test_pending

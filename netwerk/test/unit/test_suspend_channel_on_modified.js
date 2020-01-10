@@ -216,8 +216,6 @@ addObserver
 (
 {
 observe
-:
-function
 (
 subject
 topic
@@ -361,8 +359,6 @@ Assert
 .
 ok
 (
-!
-!
 !
 data
 "

@@ -83,8 +83,6 @@ newChannel
 (
 {
 uri
-:
-uri
 loadingPrincipal
 :
 principal

@@ -1302,8 +1302,6 @@ pending
 :
 true
 isPending
-:
-function
 (
 )
 {

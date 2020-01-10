@@ -704,8 +704,6 @@ prototype
 =
 {
 onStartRequest
-:
-function
 (
 aRequest
 )
@@ -781,8 +779,6 @@ correct
 ;
 }
 onStopRequest
-:
-function
 (
 aRequest
 aStatusCode
@@ -857,8 +853,6 @@ resolve
 ;
 }
 onDataAvailable
-:
-function
 (
 aRequest
 aContext
@@ -931,8 +925,6 @@ prototype
 =
 {
 onChannelReady
-:
-function
 (
 aChildChannel
 aIdentifier
@@ -973,8 +965,6 @@ null
 ;
 }
 createInstance
-:
-function
 (
 aOuter
 aIID
@@ -1001,8 +991,6 @@ aIID
 ;
 }
 lockFactory
-:
-function
 (
 )
 {

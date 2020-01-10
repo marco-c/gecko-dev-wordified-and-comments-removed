@@ -199,8 +199,6 @@ getSystemPrincipal
 (
 )
 triggeringPrincipal
-:
-triggeringPrincipal
 contentPolicyType
 :
 Ci

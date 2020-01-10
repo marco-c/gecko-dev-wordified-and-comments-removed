@@ -57,8 +57,6 @@ listener
 =
 {
 onLookupComplete
-:
-function
 (
 inRequest
 inRecord

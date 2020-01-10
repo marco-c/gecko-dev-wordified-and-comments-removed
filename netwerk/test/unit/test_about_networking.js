@@ -348,8 +348,6 @@ listener
 =
 {
 onTransportStatus
-:
-function
 (
 aTransport
 aStatus
@@ -572,8 +570,6 @@ NetUtil
 newChannel
 (
 {
-uri
-:
 uri
 loadUsingSystemPrincipal
 :
