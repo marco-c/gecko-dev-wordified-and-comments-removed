@@ -3908,11 +3908,6 @@ nsIPrincipal
 mSrcStreamVideoPrincipal
 ;
 bool
-mDispatchedTaskToPauseIfNotInDocument
-=
-false
-;
-bool
 mBlockedAsWithoutMetadata
 =
 false
