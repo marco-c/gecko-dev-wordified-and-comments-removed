@@ -812,6 +812,7 @@ if
 (
 indexStart
 >
+=
 0
 )
 {
