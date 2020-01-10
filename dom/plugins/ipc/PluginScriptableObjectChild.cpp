@@ -3739,7 +3739,7 @@ const
 PluginIdentifier
 &
 aId
-InfallibleTArray
+nsTArray
 <
 Variant
 >
@@ -4125,7 +4125,7 @@ PluginScriptableObjectChild
 :
 AnswerInvokeDefault
 (
-InfallibleTArray
+nsTArray
 <
 Variant
 >
@@ -5361,7 +5361,7 @@ PluginScriptableObjectChild
 :
 AnswerEnumerate
 (
-InfallibleTArray
+nsTArray
 <
 PluginIdentifier
 >
@@ -5586,7 +5586,7 @@ PluginScriptableObjectChild
 :
 AnswerConstruct
 (
-InfallibleTArray
+nsTArray
 <
 Variant
 >

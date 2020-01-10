@@ -937,13 +937,13 @@ nsACString
 &
 domain
 const
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
 &
 sites
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
@@ -1041,7 +1041,7 @@ nsPluginTag
 FindPreferredPlugin
 (
 const
-InfallibleTArray
+nsTArray
 <
 nsPluginTag
 *

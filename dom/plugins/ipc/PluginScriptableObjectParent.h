@@ -169,7 +169,7 @@ const
 PluginIdentifier
 &
 aId
-InfallibleTArray
+nsTArray
 <
 Variant
 >
@@ -193,7 +193,7 @@ ipc
 IPCResult
 AnswerInvokeDefault
 (
-InfallibleTArray
+nsTArray
 <
 Variant
 >
@@ -296,7 +296,7 @@ ipc
 IPCResult
 AnswerEnumerate
 (
-InfallibleTArray
+nsTArray
 <
 PluginIdentifier
 >
@@ -316,7 +316,7 @@ ipc
 IPCResult
 AnswerConstruct
 (
-InfallibleTArray
+nsTArray
 <
 Variant
 >

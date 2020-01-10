@@ -138,7 +138,7 @@ public
 NS_IMETHOD
 SitesWithData
 (
-InfallibleTArray
+nsTArray
 <
 nsCString
 >

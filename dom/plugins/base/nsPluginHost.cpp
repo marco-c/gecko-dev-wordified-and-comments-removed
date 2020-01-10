@@ -5071,7 +5071,7 @@ nsPluginHost
 FindPreferredPlugin
 (
 const
-InfallibleTArray
+nsTArray
 <
 nsPluginTag
 *
@@ -5427,7 +5427,7 @@ LoadPlugins
 (
 )
 ;
-InfallibleTArray
+nsTArray
 <
 nsPluginTag
 *
@@ -5528,7 +5528,7 @@ LoadPlugins
 (
 )
 ;
-InfallibleTArray
+nsTArray
 <
 nsPluginTag
 *
@@ -6329,13 +6329,13 @@ nsACString
 &
 domain
 const
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
 &
 sites
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
@@ -7422,7 +7422,7 @@ NS_OK
 NS_IMETHOD
 SitesWithData
 (
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
@@ -7463,7 +7463,7 @@ nsIClearSiteDataCallback
 >
 callback
 ;
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
@@ -7799,7 +7799,7 @@ NS_ERROR_NOT_INITIALIZED
 NS_IMETHOD
 SitesWithData
 (
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
@@ -7826,7 +7826,7 @@ NS_OK
 nsresult
 HandleGetSites
 (
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
@@ -7868,7 +7868,7 @@ return
 NS_OK
 ;
 }
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
