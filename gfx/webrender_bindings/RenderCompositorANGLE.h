@@ -137,12 +137,6 @@ Initialize
 bool
 BeginFrame
 (
-layers
-:
-:
-NativeLayer
-*
-aNativeLayer
 )
 override
 ;
