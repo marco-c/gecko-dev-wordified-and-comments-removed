@@ -2064,6 +2064,7 @@ AllowedNumericType
 :
 NonNegative
 )
+;
 }
 Self
 :
