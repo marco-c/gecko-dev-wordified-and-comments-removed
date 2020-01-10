@@ -24432,6 +24432,10 @@ nextEditableSibling
 GetNextHTMLSibling
 (
 aCurNode
+SkipWhitespace
+:
+:
+Yes
 )
 )
 {
@@ -24572,6 +24576,10 @@ previousEditableSibling
 GetPriorHTMLSibling
 (
 aCurNode
+SkipWhitespace
+:
+:
+Yes
 )
 )
 {
@@ -24708,6 +24716,10 @@ aCurList
 GetPriorHTMLSibling
 (
 aCurNode
+SkipWhitespace
+:
+:
+Yes
 )
 :
 nullptr
