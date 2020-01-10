@@ -26,6 +26,8 @@ searchbar
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 function
@@ -298,6 +300,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -396,6 +400,8 @@ button
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -474,6 +480,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
