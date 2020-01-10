@@ -2508,6 +2508,27 @@ extra
 '
 ]
         
+job_description
+[
+'
+run
+'
+]
+[
+'
+tooltool
+-
+downloads
+'
+]
+=
+job
+[
+'
+tooltool
+'
+]
+        
 if
 job
 [
@@ -2643,27 +2664,6 @@ trust
 True
             
 }
-            
-job_description
-[
-'
-run
-'
-]
-[
-'
-tooltool
--
-downloads
-'
-]
-=
-job
-[
-'
-tooltool
-'
-]
             
 job_description
 [
