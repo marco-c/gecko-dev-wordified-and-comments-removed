@@ -1018,7 +1018,7 @@ add
 a
 web
 app
-Manifest
+manifest
 to
 inspect
 it
