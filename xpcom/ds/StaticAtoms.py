@@ -11452,16 +11452,6 @@ splitter
 Atom
 (
 "
-spring
-"
-"
-spring
-"
-)
-    
-Atom
-(
-"
 square
 "
 "
