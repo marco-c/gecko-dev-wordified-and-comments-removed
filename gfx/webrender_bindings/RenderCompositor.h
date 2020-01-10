@@ -324,8 +324,6 @@ wr
 :
 DeviceIntSize
 aSize
-bool
-aIsOpaque
 )
 {
 }

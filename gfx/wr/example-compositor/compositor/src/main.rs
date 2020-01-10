@@ -125,9 +125,6 @@ NativeSurfaceId
 size
 :
 DeviceIntSize
-is_opaque
-:
-bool
 )
 {
 compositor
@@ -147,7 +144,6 @@ width
 size
 .
 height
-is_opaque
 )
 ;
 }

@@ -118,9 +118,6 @@ i32
 height
 :
 i32
-is_opaque
-:
-bool
 )
 ;
 fn
@@ -347,9 +344,6 @@ i32
 height
 :
 i32
-is_opaque
-:
-bool
 )
 {
 unsafe
@@ -360,7 +354,6 @@ window
 id
 width
 height
-is_opaque
 )
 }
 }
