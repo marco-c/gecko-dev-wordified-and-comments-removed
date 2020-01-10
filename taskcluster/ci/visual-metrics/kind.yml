@@ -89,6 +89,14 @@ transforms
 task
 :
 transforms
+-
+taskgraph
+.
+transforms
+.
+visual_metrics
+:
+transforms
 jobs
 :
 visual
