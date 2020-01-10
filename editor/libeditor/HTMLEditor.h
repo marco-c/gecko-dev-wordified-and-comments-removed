@@ -4921,6 +4921,13 @@ Element
 aElement
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+OnEndHandlingTopLevelEditSubActionInternal
+(
+)
+;
 protected
 :
 virtual

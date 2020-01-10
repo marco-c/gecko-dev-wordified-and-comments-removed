@@ -504,13 +504,6 @@ outFormat
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
-AfterEditInner
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 GetParagraphFormatNodes
 (
