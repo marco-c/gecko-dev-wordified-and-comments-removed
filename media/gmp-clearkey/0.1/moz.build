@@ -291,6 +291,9 @@ USE_LIBS
 =
 [
 '
+nss
+'
+'
 psshparser
 '
 ]
