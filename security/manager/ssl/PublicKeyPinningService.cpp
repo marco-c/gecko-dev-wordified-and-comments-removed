@@ -1733,6 +1733,10 @@ rootCertObj
 -
 >
 derCert
+rootCertObj
+-
+>
+slot
 )
 ;
 if
