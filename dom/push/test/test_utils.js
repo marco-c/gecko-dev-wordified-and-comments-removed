@@ -765,13 +765,6 @@ allow
 )
 {
 return
-new
-Promise
-(
-resolve
-=
->
-{
 SpecialPowers
 .
 pushPermissions
@@ -791,10 +784,6 @@ context
 document
 }
 ]
-resolve
-)
-;
-}
 )
 ;
 }

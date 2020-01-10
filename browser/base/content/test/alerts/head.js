@@ -6,13 +6,6 @@ originString
 )
 {
 return
-new
-Promise
-(
-resolve
-=
->
-{
 SpecialPowers
 .
 pushPermissions
@@ -34,10 +27,6 @@ context
 originString
 }
 ]
-resolve
-)
-;
-}
 )
 ;
 }
