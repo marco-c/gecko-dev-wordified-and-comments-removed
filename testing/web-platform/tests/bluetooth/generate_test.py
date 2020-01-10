@@ -275,7 +275,9 @@ gen
 .
 https
 .
-html
+window
+.
+js
 '
 )
 :
