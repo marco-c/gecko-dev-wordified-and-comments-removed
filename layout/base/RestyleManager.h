@@ -1179,10 +1179,13 @@ AddLayerChangesForAnimation
 (
 nsIFrame
 *
-aFrame
-nsIContent
+aStyleFrame
+nsIFrame
 *
-aContent
+aPrimaryFrame
+Element
+*
+aElement
 nsChangeHint
 aHintForThisFrame
 nsStyleChangeList
