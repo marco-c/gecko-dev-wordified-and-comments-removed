@@ -1098,7 +1098,7 @@ unlock
 lock
 )
 ;
-MarkPagesUnused
+MarkPagesUnusedSoft
 (
 (
 void

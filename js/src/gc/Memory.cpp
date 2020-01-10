@@ -3140,7 +3140,7 @@ length
 ;
 }
 bool
-MarkPagesUnused
+MarkPagesUnusedSoft
 (
 void
 *
@@ -3298,7 +3298,7 @@ MADV_DONTNEED
 endif
 }
 void
-MarkPagesInUse
+MarkPagesInUseSoft
 (
 void
 *

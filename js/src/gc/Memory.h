@@ -58,7 +58,7 @@ size
 )
 ;
 bool
-MarkPagesUnused
+MarkPagesUnusedSoft
 (
 void
 *
@@ -68,7 +68,7 @@ size
 )
 ;
 void
-MarkPagesInUse
+MarkPagesInUseSoft
 (
 void
 *
