@@ -5152,10 +5152,10 @@ font_size_inflation_minTwips
 ;
 mFontSizeInflationLineThreshold
 =
-nsLayoutUtils
+StaticPrefs
 :
 :
-FontSizeInflationLineThreshold
+font_size_inflation_lineThreshold
 (
 )
 ;

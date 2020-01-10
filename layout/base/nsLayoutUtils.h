@@ -5425,16 +5425,6 @@ aPresContext
 )
 ;
 static
-uint32_t
-FontSizeInflationLineThreshold
-(
-)
-{
-return
-sFontSizeInflationLineThreshold
-;
-}
-static
 bool
 FontSizeInflationForceEnabled
 (
@@ -6595,10 +6585,6 @@ aFrame
 ;
 private
 :
-static
-uint32_t
-sFontSizeInflationLineThreshold
-;
 static
 bool
 sFontSizeInflationForceEnabled
