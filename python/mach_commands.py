@@ -1360,6 +1360,7 @@ True
 )
             
 if
+b
 '
 FAILED
 '
@@ -1368,6 +1369,7 @@ line
 .
 rsplit
 (
+b
 '
 '
 1
@@ -1384,9 +1386,11 @@ line
 .
 replace
 (
+b
 '
 FAILED
 '
+b
 '
 TEST
 -
