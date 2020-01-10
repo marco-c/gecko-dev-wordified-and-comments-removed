@@ -4859,6 +4859,11 @@ aLayer
 GetFixedPositionScrollContainerId
 (
 )
+aLayer
+.
+GetFixedPositionSides
+(
+)
 )
 ;
 return
@@ -5864,6 +5869,11 @@ SetFixedPosData
 aLayer
 .
 GetFixedPositionScrollContainerId
+(
+)
+aLayer
+.
+GetFixedPositionSides
 (
 )
 )
