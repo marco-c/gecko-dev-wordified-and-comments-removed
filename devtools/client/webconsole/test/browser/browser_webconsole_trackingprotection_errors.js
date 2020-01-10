@@ -9,7 +9,7 @@ requestLongerTimeout
 )
 ;
 const
-TEST_FILE
+TEST_PATH
 =
 "
 browser
@@ -25,6 +25,11 @@ test
 browser
 /
 "
+;
+const
+TEST_FILE
+=
+TEST_PATH
 +
 "
 test
@@ -75,6 +80,14 @@ BLOCKED_URL
 u201c
 {
 TRACKER_URL
++
+TEST_PATH
++
+"
+cookieSetter
+.
+html
+"
 }
 \
 u201d
