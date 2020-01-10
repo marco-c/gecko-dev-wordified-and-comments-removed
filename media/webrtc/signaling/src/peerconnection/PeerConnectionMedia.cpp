@@ -3097,6 +3097,10 @@ dom
 MediaStreamTrack
 *
 aSendTrack
+const
+PrincipalHandle
+&
+aPrincipalHandle
 RefPtr
 <
 TransceiverImpl
@@ -3156,6 +3160,7 @@ mCall
 get
 (
 )
+aPrincipalHandle
 )
 ;
 if

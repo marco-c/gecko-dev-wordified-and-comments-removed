@@ -1247,6 +1247,10 @@ dom
 MediaStreamTrack
 *
 aTrack
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 void
@@ -1299,6 +1303,7 @@ private
 class
 PipelineListener
 ;
+const
 RefPtr
 <
 PipelineListener
@@ -1348,6 +1353,10 @@ dom
 MediaStreamTrack
 *
 aTrack
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 void
@@ -1414,6 +1423,7 @@ PipelineRenderer
 >
 mRenderer
 ;
+const
 RefPtr
 <
 PipelineListener

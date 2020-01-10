@@ -1893,6 +1893,7 @@ get
 )
 )
 nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 audio_pipeline_
