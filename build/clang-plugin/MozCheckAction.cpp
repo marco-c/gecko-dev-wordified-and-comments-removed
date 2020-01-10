@@ -133,7 +133,7 @@ action
 ;
 DenseMap
 <
-unsigned
+StringRef
 bool
 >
 InThirdPartyPathCache
