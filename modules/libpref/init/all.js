@@ -19548,6 +19548,7 @@ newtab
 performance
 plugins
 profiles
+preferences
 restartrequired
 serviceworkers
 sessionrestore
