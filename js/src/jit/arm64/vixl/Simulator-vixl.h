@@ -175,15 +175,6 @@ h
 #
 include
 "
-vm
-/
-PosixNSPR
-.
-h
-"
-#
-include
-"
 wasm
 /
 WasmSignalHandlers

@@ -56,15 +56,6 @@ h
 #
 include
 "
-util
-/
-NSPR
-.
-h
-"
-#
-include
-"
 wasm
 /
 WasmBaselineCompile
