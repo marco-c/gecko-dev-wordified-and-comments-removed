@@ -278,6 +278,12 @@ height
 :
 16px
 ;
+min
+-
+height
+:
+auto
+;
 position
 :
 absolute
@@ -297,5 +303,11 @@ top
 width
 :
 16px
+;
+min
+-
+width
+:
+auto
 ;
 }
