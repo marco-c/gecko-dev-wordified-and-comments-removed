@@ -113,7 +113,6 @@ eThemeGeometryTypeVibrancyDark
 eThemeGeometryTypeVibrantTitlebarLight
 eThemeGeometryTypeVibrantTitlebarDark
 eThemeGeometryTypeTooltip
-eThemeGeometryTypeSheet
 eThemeGeometryTypeSourceList
 eThemeGeometryTypeSourceListSelection
 eThemeGeometryTypeActiveSourceListSelection
@@ -2067,14 +2066,6 @@ aBefore
 nsIFrame
 *
 aAfter
-)
-;
-bool
-IsWindowSheet
-(
-nsIFrame
-*
-aFrame
 )
 ;
 ControlParams
