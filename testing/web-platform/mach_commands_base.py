@@ -278,7 +278,6 @@ kwargs
 return
 int
 (
-not
 result
 )
     
