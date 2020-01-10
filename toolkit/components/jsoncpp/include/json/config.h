@@ -54,6 +54,15 @@ JSON_USE_EXCEPTION
 #
 endif
 #
+ifndef
+JSON_USE_NULLREF
+#
+define
+JSON_USE_NULLREF
+1
+#
+endif
+#
 ifdef
 JSON_IN_CPPTL
 #
