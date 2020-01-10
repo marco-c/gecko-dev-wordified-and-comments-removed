@@ -480,11 +480,11 @@ u8
 [
 derive
 (
-Debug
-Copy
 Clone
-PartialEq
+Copy
+Debug
 Eq
+PartialEq
 ToShmem
 )
 ]

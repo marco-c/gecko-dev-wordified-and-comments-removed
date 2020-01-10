@@ -429,9 +429,9 @@ n
 derive
 (
 Debug
+Eq
 Hash
 PartialEq
-Eq
 )
 ]
 struct
