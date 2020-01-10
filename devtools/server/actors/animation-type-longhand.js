@@ -1644,11 +1644,6 @@ position
 "
 offset
 -
-anchor
-"
-"
-offset
--
 path
 "
 "
