@@ -2212,15 +2212,6 @@ loc
 \
 MACRO
 (
-Locale
-Locale
-"
-Locale
-"
-)
-\
-MACRO
-(
 locale
 locale
 "
