@@ -342,7 +342,7 @@ mState
 +
 +
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsIdle
 (
@@ -356,7 +356,7 @@ oldState
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 oldState
 <
@@ -376,7 +376,7 @@ mState
 -
 -
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsRead
 (
@@ -390,7 +390,7 @@ StartWriteOp
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWritable
 (
@@ -407,7 +407,7 @@ exchange
 kWrite
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsIdle
 (
@@ -421,7 +421,7 @@ EndWriteOp
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWritable
 (
@@ -438,7 +438,7 @@ exchange
 kIdle
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWrite
 (
@@ -452,7 +452,7 @@ StartIteratorRemovalOp
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWritable
 (
@@ -469,7 +469,7 @@ exchange
 kWrite
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsRead1
 (
@@ -483,7 +483,7 @@ EndIteratorRemovalOp
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWritable
 (
@@ -500,7 +500,7 @@ exchange
 kRead1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWrite
 (
@@ -524,7 +524,7 @@ exchange
 kWrite
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsIdle
 (
@@ -548,7 +548,7 @@ exchange
 kIdle
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsWrite
 (
