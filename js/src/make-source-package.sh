@@ -748,14 +748,6 @@ TOPSRCDIR
 /
 modules
 /
-brotli
-\
-{
-TOPSRCDIR
-}
-/
-modules
-/
 fdlibm
 \
 {
