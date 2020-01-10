@@ -65,8 +65,8 @@ report
 -
 title
 =
-Protection
-Report
+Privacy
+Protections
 appmenuitem
 -
 protection
