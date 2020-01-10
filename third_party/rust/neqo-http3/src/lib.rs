@@ -93,13 +93,6 @@ Header
 ;
 pub
 use
-server_events
-:
-:
-Http3ServerEvent
-;
-pub
-use
 transaction_server
 :
 :
