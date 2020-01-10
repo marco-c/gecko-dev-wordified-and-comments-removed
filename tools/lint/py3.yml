@@ -69,10 +69,6 @@ reftest
 -
 media
 -
-modules
-/
-freetype2
--
 security
 /
 manager
