@@ -147,6 +147,16 @@ lsan_suppressions
 txt
 '
 ]
+PYTHON_UNITTEST_MANIFESTS
++
+=
+[
+'
+python
+.
+ini
+'
+]
 with
 Files
 (

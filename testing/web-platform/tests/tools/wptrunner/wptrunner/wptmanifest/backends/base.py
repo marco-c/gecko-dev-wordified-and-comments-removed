@@ -995,7 +995,7 @@ children
 .
 remove
 (
-child
+self
 )
             
 self
