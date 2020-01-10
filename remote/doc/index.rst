@@ -181,8 +181,7 @@ md
 Prefs
 .
 md
-Developers
-=
+Internals
 =
 =
 =
@@ -220,6 +219,9 @@ CodeStyle
 .
 md
 PuppeteerVendor
+.
+md
+Security
 .
 md
 Bugs
