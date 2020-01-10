@@ -474,8 +474,6 @@ StartIceChecks
 (
 bool
 isControlling
-bool
-isOfferer
 StringVector
 iceOptions
 )

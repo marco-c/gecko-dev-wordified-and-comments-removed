@@ -314,10 +314,6 @@ bool
 &
 isControlling
 const
-bool
-&
-isOfferer
-const
 StringVector
 &
 iceOptions

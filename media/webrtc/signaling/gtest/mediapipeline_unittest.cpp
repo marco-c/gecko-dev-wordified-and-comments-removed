@@ -992,8 +992,6 @@ StartIceChecks
 (
 bool
 aIsControlling
-bool
-aIsOfferer
 const
 std
 :
