@@ -977,6 +977,11 @@ mCompositionRecorder
 aRecorder
 ;
 }
+void
+WriteCollectedFrames
+(
+)
+;
 protected
 :
 bool
