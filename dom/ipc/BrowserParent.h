@@ -637,6 +637,16 @@ return
 mIsDestroyed
 ;
 }
+bool
+CreatingWindow
+(
+)
+const
+{
+return
+mCreatingWindow
+;
+}
 template
 <
 typename

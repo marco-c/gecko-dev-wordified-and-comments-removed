@@ -1535,6 +1535,14 @@ if
 (
 !
 mRoot
+|
+|
+mRoot
+-
+>
+CreatingWindow
+(
+)
 )
 {
 return
