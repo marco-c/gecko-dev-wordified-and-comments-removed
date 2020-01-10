@@ -1103,6 +1103,13 @@ ReadUnlockTextures
 ;
 }
 virtual
+void
+WaitForGPU
+(
+)
+{
+}
+virtual
 bool
 SupportsPartialTextureUpdate
 (

@@ -5662,6 +5662,13 @@ Clear
 (
 )
 ;
+mCompositor
+-
+>
+WaitForGPU
+(
+)
+;
 }
 #
 if

@@ -823,6 +823,12 @@ EndFrame
 )
 override
 ;
+void
+WaitForGPU
+(
+)
+override
+;
 bool
 SupportsPartialTextureUpdate
 (
@@ -1209,6 +1215,11 @@ SupportsTextureDirectMapping
 (
 )
 ;
+void
+InsertFrameDoneSync
+(
+)
+;
 LayoutDeviceIntSize
 mWidgetSize
 ;
@@ -1288,6 +1299,12 @@ mQuadVBO
 ;
 GLuint
 mTriangleVBO
+;
+GLsync
+mPreviousFrameDoneSync
+;
+GLsync
+mThisFrameDoneSync
 ;
 bool
 mHasBGRA
