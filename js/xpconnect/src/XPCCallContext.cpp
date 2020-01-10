@@ -46,10 +46,7 @@ bool
 IsTearoffClass
 (
 const
-js
-:
-:
-Class
+JSClass
 *
 clazz
 )
@@ -255,10 +252,7 @@ return
 ;
 }
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =

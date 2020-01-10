@@ -258,10 +258,7 @@ SimpleGlobal_moved
 }
 ;
 const
-js
-:
-:
-Class
+JSClass
 SimpleGlobalClass
 =
 {

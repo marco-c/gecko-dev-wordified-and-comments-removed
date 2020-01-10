@@ -1317,10 +1317,7 @@ vp
 )
 ;
 const
-js
-:
-:
-Class
+JSClass
 sNPObjWrapperProxyClass
 =
 PROXY_CLASS_DEF

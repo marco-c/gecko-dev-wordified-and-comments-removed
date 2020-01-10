@@ -2209,10 +2209,7 @@ outer
 ;
 }
 const
-js
-:
-:
-Class
+JSClass
 OuterWindowProxyClass
 =
 PROXY_CLASS_DEF
@@ -17957,8 +17954,6 @@ mBrowsingContext
 FindChildWithName
 (
 aName
-*
-mBrowsingContext
 )
 )
 ;
@@ -28114,16 +28109,6 @@ FinalClose
 mIsClosed
 =
 true
-;
-GetBrowsingContext
-(
-)
--
->
-SetClosed
-(
-true
-)
 ;
 if
 (

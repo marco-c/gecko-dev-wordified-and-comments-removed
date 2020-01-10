@@ -2565,10 +2565,7 @@ sandbox_moved
 ;
 static
 const
-js
-:
-:
-Class
+JSClass
 SandboxClass
 =
 {
@@ -2639,10 +2636,7 @@ obj
 )
 {
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =
@@ -6071,10 +6065,7 @@ discardSource
 )
 ;
 const
-js
-:
-:
-Class
+JSClass
 *
 clasp
 =
@@ -6425,10 +6416,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 const
-js
-:
-:
-Class
+JSClass
 *
 unwrappedClass
 =

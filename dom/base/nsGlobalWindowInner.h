@@ -699,10 +699,7 @@ aError
 ;
 extern
 const
-js
-:
-:
-Class
+JSClass
 OuterWindowProxyClass
 ;
 class

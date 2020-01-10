@@ -2335,10 +2335,7 @@ if
 (
 (
 const
-js
-:
-:
-Class
+JSClass
 *
 )
 clasp
