@@ -190,11 +190,6 @@ gfx
 :
 YUVColorSpace
 aColorSpace
-gfx
-:
-:
-ColorRange
-aColorRange
 uint32_t
 aWidth
 uint32_t

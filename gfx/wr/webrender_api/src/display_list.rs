@@ -6002,12 +6002,6 @@ di
 :
 :
 YuvColorSpace
-color_range
-:
-di
-:
-:
-ColorRange
 image_rendering
 :
 di
@@ -6040,7 +6034,6 @@ bounds
 yuv_data
 color_depth
 color_space
-color_range
 image_rendering
 }
 )

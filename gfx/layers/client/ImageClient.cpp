@@ -596,10 +596,6 @@ data
 -
 >
 mYUVColorSpace
-data
--
->
-mColorRange
 TextureFlags
 :
 :

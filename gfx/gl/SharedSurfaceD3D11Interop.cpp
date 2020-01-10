@@ -1938,13 +1938,6 @@ YUVColorSpace
 :
 :
 UNKNOWN
-gfx
-:
-:
-ColorRange
-:
-:
-FULL
 )
 ;
 return

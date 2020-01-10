@@ -177,12 +177,6 @@ aData
 .
 mYUVColorSpace
 ;
-mColorRange
-=
-aData
-.
-mColorRange
-;
 D3D11YCbCrRecycleAllocator
 *
 allocator
@@ -1417,12 +1411,6 @@ mColorSpace
 ;
 data
 .
-mColorRange
-=
-mColorRange
-;
-data
-.
 mYSkip
 =
 data
@@ -2496,9 +2484,6 @@ mColorDepth
 mData
 .
 mYUVColorSpace
-mData
-.
-mColorRange
 )
 mTextureFlags
 forwarder
