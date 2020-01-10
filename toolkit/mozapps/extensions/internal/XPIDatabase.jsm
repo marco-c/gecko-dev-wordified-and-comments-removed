@@ -11861,7 +11861,7 @@ aSchemaChange
 {
 AddonManager
 .
-shutdown
+beforeShutdown
 .
 addBlocker
 (

@@ -5820,9 +5820,9 @@ FILE_XPI_STATES
 )
 finalizeAt
 :
-AddonManager
+AddonManagerPrivate
 .
-shutdown
+finalShutdown
 compression
 :
 "
