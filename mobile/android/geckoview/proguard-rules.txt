@@ -591,6 +591,24 @@ JNIObject
 *
 ;
 }
+-
+keep
+class
+*
+extends
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+JNIObject
+{
+*
+;
+}
 #
 Keep
 the
@@ -914,6 +932,7 @@ class
 *
 -
 keepclassmembers
+includedescriptorclasses
 class
 *
 {
@@ -931,6 +950,7 @@ WrapForJNI
 }
 -
 keepclasseswithmembers
+includedescriptorclasses
 class
 *
 {
@@ -950,6 +970,7 @@ methods
 }
 -
 keepclasseswithmembers
+includedescriptorclasses
 class
 *
 {
@@ -978,6 +999,7 @@ class
 .
 -
 keepclassmembers
+includedescriptorclasses
 org
 .
 mozilla
