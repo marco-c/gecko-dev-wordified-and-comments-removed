@@ -3112,10 +3112,6 @@ aRv
 void
 UpdateAudioChannelPlayingState
 (
-bool
-aForcePlaying
-=
-false
 )
 ;
 void
