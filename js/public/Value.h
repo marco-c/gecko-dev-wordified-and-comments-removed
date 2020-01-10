@@ -118,7 +118,7 @@ h
 namespace
 JS
 {
-union
+class
 Value
 ;
 }
@@ -1064,7 +1064,7 @@ define
 JS_NONCANONICAL_HARDWARE_NAN
 #
 endif
-union
+class
 alignas
 (
 8
