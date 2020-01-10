@@ -124,9 +124,6 @@ bos
 writeByteArray
 (
 aData
-aData
-.
-length
 )
 ;
 outputStream

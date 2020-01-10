@@ -159,9 +159,6 @@ bos
 writeByteArray
 (
 part
-part
-.
-length
 )
 ;
 response
@@ -181,9 +178,6 @@ bos
 writeByteArray
 (
 bodyBytes
-bodyBytes
-.
-length
 )
 ;
 }

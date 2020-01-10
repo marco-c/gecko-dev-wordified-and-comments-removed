@@ -155,9 +155,6 @@ bos
 writeByteArray
 (
 bytes
-bytes
-.
-length
 )
 ;
 }
