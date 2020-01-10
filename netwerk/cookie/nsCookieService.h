@@ -1549,7 +1549,7 @@ aBlocked
 protected
 :
 nsresult
-RemoveCookiesFromRootDomain
+RemoveCookiesFromExactHost
 (
 const
 nsACString

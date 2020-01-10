@@ -1544,11 +1544,13 @@ the
 *
 host
 is
-the
-root
-domain
-of
+exactly
 aHost
+(
+without
+subdomain
+matching
+)
 .
 *
 *
@@ -1558,9 +1560,6 @@ the
 host
 to
 match
-the
-root
-domain
 *
 param
 aPattern
@@ -1573,7 +1572,7 @@ format
 *
 /
 void
-removeCookiesFromRootDomain
+removeCookiesFromExactHost
 (
 in
 AUTF8String

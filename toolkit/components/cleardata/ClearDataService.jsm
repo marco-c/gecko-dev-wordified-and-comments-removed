@@ -224,7 +224,7 @@ Services
 .
 cookies
 .
-removeCookiesFromRootDomain
+removeCookiesFromExactHost
 (
 aHost
 JSON
