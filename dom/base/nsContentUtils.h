@@ -897,6 +897,17 @@ IsFuzzingEnabled
 }
 static
 bool
+IsCallerChromeOrElementTransformGettersEnabled
+(
+JSContext
+*
+aCx
+JSObject
+*
+)
+;
+static
+bool
 IsSystemCaller
 (
 JSContext
