@@ -493,13 +493,6 @@ hasRaisedError
 )
 )
 ;
-MOZ_ASSERT
-(
-len
->
-0
-)
-;
 if
 (
 stop_
