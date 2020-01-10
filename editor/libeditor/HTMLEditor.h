@@ -4535,6 +4535,16 @@ LiftUpFromAllParentListElements
 aLiftUpFromAllParentListElements
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+DestroyListStructureRecursively
+(
+Element
+&
+aListElement
+)
+;
 protected
 :
 virtual

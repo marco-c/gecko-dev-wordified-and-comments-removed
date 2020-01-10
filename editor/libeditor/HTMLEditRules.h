@@ -717,16 +717,6 @@ aTransitionArray
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
-RemoveListStructure
-(
-Element
-&
-aListElement
-)
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
 InsertBRElementToEmptyListItemsAndTableCellsInRange
 (
 const
