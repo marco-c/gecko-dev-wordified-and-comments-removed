@@ -105,10 +105,6 @@ mIsFloatListInBlockPropertyTable
 (
 false
 )
-mFloatFragmentsInsideColumnEnabled
-(
-false
-)
 mCanHaveOverflowMarkers
 (
 false
@@ -162,11 +158,6 @@ mIsOverflowContainer
 ;
 bool
 mIsFloatListInBlockPropertyTable
-:
-1
-;
-bool
-mFloatFragmentsInsideColumnEnabled
 :
 1
 ;
