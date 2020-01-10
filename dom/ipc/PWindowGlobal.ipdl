@@ -382,15 +382,6 @@ LoadURIInChild
 (
 nsDocShellLoadState
 aLoadState
-bool
-aSetNavigating
-)
-;
-async
-DisplayLoadError
-(
-nsString
-aURI
 )
 ;
 both
@@ -447,8 +438,6 @@ BrowsingContext
 aTargetBC
 nsDocShellLoadState
 aLoadState
-bool
-aSetNavigating
 )
 ;
 /

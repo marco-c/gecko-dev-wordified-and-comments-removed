@@ -1095,7 +1095,6 @@ docShell
 LoadURI
 (
 loadState
-false
 )
 ;
 if

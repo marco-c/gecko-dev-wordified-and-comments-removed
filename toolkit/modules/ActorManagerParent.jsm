@@ -1366,6 +1366,11 @@ GotoIndex
 "
 WebNavigation
 :
+LoadURI
+"
+"
+WebNavigation
+:
 Reload
 "
 "
