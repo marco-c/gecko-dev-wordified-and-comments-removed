@@ -5896,6 +5896,9 @@ i32
 support_low_priority_transactions
 :
 bool
+allow_texture_swizzling
+:
+bool
 enable_picture_caching
 :
 bool
@@ -6320,6 +6323,7 @@ android
 )
 )
 support_low_priority_transactions
+allow_texture_swizzling
 recorder
 :
 recorder

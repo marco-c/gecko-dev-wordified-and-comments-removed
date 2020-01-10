@@ -345,6 +345,19 @@ UseTripleBuffering
 )
 ;
 bool
+allow_texture_swizzling
+=
+gfx
+:
+:
+gfxVars
+:
+:
+UseGLSwizzle
+(
+)
+;
+bool
 isMainWindow
 =
 true
@@ -381,6 +394,7 @@ mSize
 .
 height
 supportLowPriorityTransactions
+allow_texture_swizzling
 StaticPrefs
 :
 :

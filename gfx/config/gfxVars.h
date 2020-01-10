@@ -338,6 +338,13 @@ UseDoubleBufferingWithCompositor
 bool
 false
 )
+\
+_
+(
+UseGLSwizzle
+bool
+true
+)
 class
 gfxVars
 final
