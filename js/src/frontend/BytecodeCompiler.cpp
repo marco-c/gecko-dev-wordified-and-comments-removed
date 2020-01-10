@@ -4435,7 +4435,6 @@ RootedScriptSourceObject
 sourceObject
 (
 cx
-&
 lazy
 -
 >
@@ -4969,7 +4968,6 @@ RootedScriptSourceObject
 sourceObj
 (
 cx
-&
 lazy
 -
 >

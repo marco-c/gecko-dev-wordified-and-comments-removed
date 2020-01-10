@@ -8333,7 +8333,6 @@ RootedScriptSourceObject
 sourceObject
 (
 cx
-&
 lazy
 -
 >

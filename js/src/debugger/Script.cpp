@@ -2336,7 +2336,6 @@ RootedScriptSourceObject
 source
 (
 cx_
-&
 lazyScript
 -
 >
