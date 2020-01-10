@@ -1645,7 +1645,7 @@ token
 )
 {
 var
-v
+video
 =
 document
 .
@@ -1663,7 +1663,7 @@ started
 token
 )
 ;
-v
+video
 .
 preload
 =
@@ -1671,7 +1671,7 @@ preload
 metadata
 "
 ;
-v
+video
 .
 src
 =
@@ -1679,13 +1679,13 @@ test
 .
 name
 ;
-v
+video
 .
 token
 =
 token
 ;
-v
+video
 .
 controls
 =
@@ -1697,7 +1697,7 @@ body
 .
 appendChild
 (
-v
+video
 )
 ;
 var
@@ -1717,7 +1717,7 @@ localIs
 =
 function
 (
-name
+n
 )
 {
 return
@@ -1732,7 +1732,7 @@ is
 (
 a
 b
-name
+n
 +
 "
 :
@@ -1752,7 +1752,7 @@ localOk
 =
 function
 (
-name
+n
 )
 {
 return
@@ -1765,7 +1765,7 @@ msg
 ok
 (
 a
-name
+n
 +
 "
 :
@@ -1786,7 +1786,7 @@ localFinish
 function
 (
 v
-manager
+m
 )
 {
 return
@@ -1799,7 +1799,7 @@ removeNodeAndSource
 v
 )
 ;
-manager
+m
 .
 finished
 (
@@ -1811,7 +1811,7 @@ token
 }
 }
 (
-v
+video
 manager
 )
 ;
@@ -1822,7 +1822,7 @@ test_fragment_noplay
 '
 ]
 (
-v
+video
 test
 .
 start
