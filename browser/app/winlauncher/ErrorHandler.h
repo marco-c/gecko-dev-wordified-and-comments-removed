@@ -77,7 +77,7 @@ HandleLauncherError
 (
 aResult
 .
-unwrapErr
+inspectErr
 (
 )
 )

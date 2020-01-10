@@ -864,7 +864,13 @@ outputSize
 )
 ;
 return
+std
+:
+:
+move
+(
 result
+)
 ;
 }
 #
@@ -1051,7 +1057,13 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 return
+std
+:
+:
+move
+(
 result
+)
 ;
 }
 static_assert
@@ -2753,7 +2765,7 @@ if
 (
 res
 .
-unwrapErr
+inspectErr
 (
 )
 !

@@ -247,15 +247,17 @@ aMsg
 "
 "
 ;
+const
 mozilla
 :
 :
 LauncherError
+&
 err
 =
 aResult
 .
-unwrapErr
+inspectErr
 (
 )
 ;
@@ -352,7 +354,7 @@ if
 (
 parentPid
 .
-unwrap
+inspect
 (
 )
 !
@@ -394,7 +396,7 @@ kAccess
 FALSE
 parentPid
 .
-unwrap
+inspect
 (
 )
 )
@@ -555,7 +557,7 @@ PROCESS_QUERY_LIMITED_INFORMATION
 FALSE
 parentPid
 .
-unwrap
+inspect
 (
 )
 )

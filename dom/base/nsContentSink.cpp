@@ -3255,7 +3255,7 @@ if
 (
 loadResultOrErr
 .
-unwrap
+inspect
 (
 )
 .
