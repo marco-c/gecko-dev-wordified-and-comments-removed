@@ -4,15 +4,7 @@ recordTelemetryEvent
 }
 from
 "
-chrome
-:
-/
-/
-browser
-/
-content
-/
-aboutlogins
+.
 /
 aboutLoginsUtils
 .
