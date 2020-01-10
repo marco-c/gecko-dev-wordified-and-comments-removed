@@ -3270,6 +3270,16 @@ GetEnhancedContrast
 (
 )
 ;
+FLOAT
+clearTypeLevel
+=
+params
+-
+>
+GetClearTypeLevel
+(
+)
+;
 if
 (
 forceGDI
@@ -3363,6 +3373,7 @@ renderingMode
 params
 gamma
 contrast
+clearTypeLevel
 )
 ;
 if

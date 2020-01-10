@@ -4902,6 +4902,8 @@ Float
 aGamma
 Float
 aContrast
+Float
+aClearTypeLevel
 )
 {
 return
@@ -4921,6 +4923,7 @@ aRenderingMode
 aParams
 aGamma
 aContrast
+aClearTypeLevel
 aStyle
 )
 ;

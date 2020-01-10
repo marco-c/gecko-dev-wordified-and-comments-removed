@@ -129,6 +129,8 @@ float
 aGamma
 float
 aContrast
+float
+aClearTypeLevel
 )
 ;
 SK_API

@@ -1546,7 +1546,11 @@ u16
 pub
 contrast
 :
-u16
+u8
+pub
+cleartype_level
+:
+u8
 }
 #
 [
@@ -1578,6 +1582,9 @@ gamma
 :
 180
 contrast
+:
+100
+cleartype_level
 :
 100
 }

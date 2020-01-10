@@ -265,6 +265,8 @@ const
 uint8_t
 *
 tableB
+int
+clearTypeLevel
 )
 ;
 const
@@ -422,6 +424,9 @@ fGridFitMode
 ;
 bool
 fIsColorFont
+;
+int
+fClearTypeLevel
 ;
 }
 ;
