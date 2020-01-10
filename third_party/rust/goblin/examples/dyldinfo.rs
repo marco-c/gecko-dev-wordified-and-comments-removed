@@ -1,7 +1,3 @@
-extern
-crate
-goblin
-;
 use
 goblin
 :
@@ -135,16 +131,10 @@ exit
 }
 fn
 name_to_str
-<
-'
-a
->
 (
 name
 :
 &
-'
-a
 [
 u8
 ;
@@ -156,7 +146,7 @@ u8
 Cow
 <
 '
-a
+_
 str
 >
 {
@@ -319,8 +309,7 @@ println
 :
 16
 }
-{
-}
+symbol
 "
 "
 segment
@@ -339,9 +328,6 @@ addend
 "
 "
 dylib
-"
-"
-symbol
 "
 )
 ;
@@ -374,7 +360,7 @@ iter
 (
 )
 .
-filter
+find
 (
 |
 s
@@ -402,10 +388,6 @@ s
 .
 size
 )
-)
-.
-next
-(
 )
 ;
 let
@@ -611,8 +593,7 @@ println
 :
 16
 }
-{
-}
+symbol
 "
 "
 segment
@@ -628,9 +609,6 @@ index
 "
 "
 dylib
-"
-"
-symbol
 "
 )
 ;
@@ -662,7 +640,7 @@ iter
 (
 )
 .
-filter
+find
 (
 |
 s
@@ -690,10 +668,6 @@ s
 .
 size
 )
-)
-.
-next
-(
 )
 ;
 let
@@ -948,8 +922,6 @@ other
 println
 !
 (
-"
-"
 )
 ;
 usage

@@ -5,7 +5,22 @@ core
 fmt
 ;
 use
+crate
+:
+:
 mach
+;
+use
+scroll
+:
+:
+{
+Pread
+Pwrite
+IOwrite
+SizeWith
+IOread
+}
 ;
 #
 [
@@ -59,7 +74,6 @@ pub
 fn
 r_symbolnum
 (
-&
 self
 )
 -
@@ -84,7 +98,6 @@ pub
 fn
 r_pcrel
 (
-&
 self
 )
 -
@@ -114,7 +127,6 @@ pub
 fn
 r_length
 (
-&
 self
 )
 -
@@ -144,7 +156,6 @@ pub
 fn
 r_extern
 (
-&
 self
 )
 -
@@ -174,7 +185,6 @@ pub
 fn
 r_type
 (
-&
 self
 )
 -
@@ -204,7 +214,6 @@ pub
 fn
 is_extern
 (
-&
 self
 )
 -
@@ -228,7 +237,6 @@ pub
 fn
 is_pic
 (
-&
 self
 )
 -
@@ -247,7 +255,6 @@ pub
 fn
 to_str
 (
-&
 self
 cputype
 :
@@ -772,6 +779,9 @@ static
 str
 {
 use
+crate
+:
+:
 mach
 :
 :
@@ -787,6 +797,8 @@ match
 cputype
 {
 CPU_TYPE_ARM64
+|
+CPU_TYPE_ARM64_32
 =
 >
 {

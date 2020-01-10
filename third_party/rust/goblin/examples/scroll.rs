@@ -1,11 +1,3 @@
-extern
-crate
-scroll
-;
-extern
-crate
-goblin
-;
 use
 goblin
 :
@@ -40,9 +32,6 @@ Result
 )
 >
 {
-use
-Pread
-;
 let
 crt1
 :

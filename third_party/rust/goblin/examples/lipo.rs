@@ -1,7 +1,3 @@
-extern
-crate
-goblin
-;
 use
 goblin
 :
@@ -234,8 +230,6 @@ other
 println
 !
 (
-"
-"
 )
 ;
 usage

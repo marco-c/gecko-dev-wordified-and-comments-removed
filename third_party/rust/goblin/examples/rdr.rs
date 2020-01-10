@@ -1,11 +1,3 @@
-extern
-crate
-goblin
-;
-extern
-crate
-env_logger
-;
 use
 goblin
 :
@@ -185,13 +177,6 @@ main
 (
 )
 {
-env_logger
-:
-:
-init
-(
-)
-;
 match
 run
 (

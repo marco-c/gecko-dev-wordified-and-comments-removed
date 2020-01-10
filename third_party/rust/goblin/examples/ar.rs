@@ -1,7 +1,3 @@
-extern
-crate
-goblin
-;
 use
 goblin
 :
