@@ -7277,9 +7277,6 @@ outputQuotes
 mAtFirstColumn
 ;
 bool
-atFirstColumn
-;
-bool
 outputLineBreak
 =
 false
@@ -7501,10 +7498,6 @@ mEmptyLines
 -
 1
 ;
-atFirstColumn
-=
-false
-;
 bol
 =
 totLen
@@ -7537,10 +7530,6 @@ true
 mEmptyLines
 =
 0
-;
-atFirstColumn
-=
-true
 ;
 bol
 =
@@ -7735,7 +7724,7 @@ mValue
 ;
 mAtFirstColumn
 =
-atFirstColumn
+outputLineBreak
 ;
 }
 mCurrentLineContent
