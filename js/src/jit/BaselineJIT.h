@@ -1754,6 +1754,11 @@ profilerExitToggleOffset_
 =
 0
 ;
+uint32_t
+debugTrapHandlerOffset_
+=
+0
+;
 using
 CodeOffsetVector
 =
@@ -1861,6 +1866,8 @@ uint32_t
 profilerEnterToggleOffset
 uint32_t
 profilerExitToggleOffset
+uint32_t
+debugTrapHandlerOffset
 CodeOffsetVector
 &
 &

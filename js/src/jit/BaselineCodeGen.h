@@ -3190,6 +3190,11 @@ interpretOpNoDebugTrapOffset_
 =
 0
 ;
+uint32_t
+debugTrapHandlerOffset_
+=
+0
+;
 public
 :
 explicit
