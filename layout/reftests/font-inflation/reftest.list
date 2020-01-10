@@ -3526,6 +3526,10 @@ html
 #
 The
 tests
+in
+the
+two
+groups
 below
 use
 nonzero
@@ -3533,6 +3537,7 @@ values
 of
 the
 lineThreshold
+#
 preference
 .
 test
@@ -5655,6 +5660,14 @@ at
 ref
 .
 html
+#
+End
+of
+nonzero
+lineThreshold
+preference
+group
+.
 test
 -
 pref
