@@ -363,11 +363,11 @@ sourceContextList
 sourceContextType
 :
 '
+worker
+-
 classic
 -
 data
--
-worker
 '
 }
 ]
