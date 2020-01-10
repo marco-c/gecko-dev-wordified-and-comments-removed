@@ -394,13 +394,6 @@ removeTab
 tab
 )
 ;
-await
-RemoteAgent
-.
-close
-(
-)
-;
 }
 )
 ;
