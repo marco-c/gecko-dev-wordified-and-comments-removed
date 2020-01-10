@@ -885,13 +885,6 @@ mozSystemGroup
 :
 true
 }
-pagehide
-:
-{
-capture
-:
-true
-}
 }
 }
 }
