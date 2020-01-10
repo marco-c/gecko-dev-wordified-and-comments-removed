@@ -17385,9 +17385,14 @@ Enable
 building
 with
 the
-mozilla
-clang
+Clang
 plugin
+(
+gecko
+specific
+static
+analyzers
+)
 "
 )
 add_old_configure_assignment
