@@ -423,6 +423,16 @@ PSHEntry
 entry
 )
 ;
+sync
+EvictContentViewersOrReplaceEntry
+(
+nullable
+PSHEntry
+newSHEntry
+bool
+replace
+)
+;
 async
 __delete__
 (
