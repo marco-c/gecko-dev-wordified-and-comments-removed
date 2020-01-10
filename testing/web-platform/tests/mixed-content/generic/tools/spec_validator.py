@@ -814,9 +814,6 @@ delivery_value
 '
         
 '
-context_nesting
-'
-'
 redirection
 '
 '
@@ -825,7 +822,6 @@ subresource
 '
 origin
 '
-        
 '
 expectation
 '
