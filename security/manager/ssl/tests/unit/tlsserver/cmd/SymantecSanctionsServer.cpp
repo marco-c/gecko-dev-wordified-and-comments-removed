@@ -266,6 +266,7 @@ get
 )
 nullptr
 nullptr
+nullptr
 )
 =
 =
@@ -379,6 +380,7 @@ mCertName
 cert
 &
 certKEA
+nullptr
 )
 )
 {

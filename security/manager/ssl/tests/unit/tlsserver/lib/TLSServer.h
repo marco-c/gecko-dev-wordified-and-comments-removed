@@ -115,6 +115,9 @@ cert
 SSLKEAType
 *
 kea
+SSLExtraServerCertData
+*
+extraData
 )
 ;
 SECStatus
