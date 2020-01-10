@@ -1276,8 +1276,10 @@ Depth
 )
 break
 ;
+RefPtr
+<
 nsXULPrototypeText
-*
+>
 text
 =
 new
@@ -1349,6 +1351,10 @@ children
 AppendElement
 (
 text
+.
+forget
+(
+)
 )
 ;
 }
@@ -2747,8 +2753,10 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+RefPtr
+<
 nsXULPrototypeElement
-*
+>
 element
 =
 new
@@ -2821,8 +2829,10 @@ NodeInfo
 aNodeInfo
 )
 {
+RefPtr
+<
 nsXULPrototypeElement
-*
+>
 element
 =
 new
@@ -2856,9 +2866,6 @@ rv
 )
 )
 {
-delete
-element
-;
 return
 rv
 ;
