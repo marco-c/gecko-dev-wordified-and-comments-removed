@@ -4137,7 +4137,7 @@ compartment
 )
 )
 {
-WrapperMap
+ObjectWrapperMap
 :
 :
 Ptr

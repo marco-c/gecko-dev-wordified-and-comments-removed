@@ -4580,7 +4580,7 @@ obj
 }
 if
 (
-WrapperMap
+ObjectWrapperMap
 :
 :
 Ptr
