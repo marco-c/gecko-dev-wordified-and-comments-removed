@@ -166,11 +166,6 @@ allowHTMLComments
 true
 ;
 bool
-isProbablySystemCode
-=
-false
-;
-bool
 hideScriptFromDebugger
 =
 false
