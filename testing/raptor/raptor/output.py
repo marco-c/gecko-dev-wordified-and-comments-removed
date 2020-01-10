@@ -5121,6 +5121,12 @@ _value
 decodedFrames
 '
 ]
+\
+                                      
+*
+100
+.
+0
                 
 except
 ZeroDivisionError
@@ -5128,7 +5134,9 @@ ZeroDivisionError
                     
 percent_dropped
 =
-1
+100
+.
+0
                 
 _sub
 =
