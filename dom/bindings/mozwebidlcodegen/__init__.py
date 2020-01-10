@@ -776,6 +776,12 @@ WebIDLPrefs
 .
 h
 '
+        
+'
+WebIDLSerializable
+.
+h
+'
     
 }
     
@@ -821,6 +827,12 @@ cpp
         
 '
 WebIDLPrefs
+.
+cpp
+'
+        
+'
+WebIDLSerializable
 .
 cpp
 '
