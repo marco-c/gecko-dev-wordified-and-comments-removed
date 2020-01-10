@@ -469,7 +469,7 @@ formats
 :
 [
 '
-sha2signcode
+autograph_authenticode
 '
 ]
         
@@ -504,7 +504,7 @@ formats
 :
 [
 '
-sha2signcode
+autograph_authenticode
 '
 '
 autograph_widevine

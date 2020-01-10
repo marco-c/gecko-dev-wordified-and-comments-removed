@@ -880,7 +880,7 @@ tar
 .
 gz
 .
-signcode
+authenticode
 signing
 takes
 individual
@@ -938,11 +938,9 @@ input
 This
 format
 includes
-signcode
-osslsigncode
-sha2signcode
+authograph_authenticode
 and
-sha2signcodestub
+autograph_authenticode_stub
 .
 mar
 signing
