@@ -1183,11 +1183,6 @@ LoadURIResult
 "
 Content
 :
-LocationChange
-"
-"
-Content
-:
 SecurityChange
 "
 "
