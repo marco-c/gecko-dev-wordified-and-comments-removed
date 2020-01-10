@@ -110,11 +110,6 @@ reasonable
 [
 package
 ]
-edition
-=
-"
-2018
-"
 name
 =
 "
@@ -125,7 +120,7 @@ version
 "
 0
 .
-19
+18
 .
 0
 "
