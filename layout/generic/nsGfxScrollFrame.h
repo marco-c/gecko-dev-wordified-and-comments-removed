@@ -1661,6 +1661,12 @@ UsesContainerScrolling
 )
 const
 ;
+bool
+UsesOverlayScrollbars
+(
+)
+const
+;
 ScrollSnapInfo
 GetScrollSnapInfo
 (

@@ -478,12 +478,6 @@ layout
 viewport_contains_no_contents_area
 true
 )
-fails
--
-if
-(
-usesOverlayScrollbars
-)
 =
 =
 scrollbars
