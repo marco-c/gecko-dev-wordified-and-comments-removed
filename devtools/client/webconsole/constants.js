@@ -370,15 +370,6 @@ webconsole
 .
 groupWarningMessages
 "
-FILTER_CONTENT_MESSAGES
-:
-"
-devtools
-.
-browserconsole
-.
-filterContentMessages
-"
 }
 }
 }
