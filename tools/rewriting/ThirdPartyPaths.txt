@@ -72,8 +72,6 @@ flow
 -
 typed
 /
-npm
-/
 devtools
 /
 client
