@@ -436,6 +436,13 @@ return
 article
 (
 {
+className
+:
+"
+js
+-
+manifest
+"
 }
 Localized
 (

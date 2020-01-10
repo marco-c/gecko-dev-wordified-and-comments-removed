@@ -31,6 +31,13 @@ valid
 =
 <
 article
+className
+=
+"
+js
+-
+manifest
+"
 >
 <
 Localized
@@ -271,6 +278,13 @@ manifest
 =
 <
 article
+className
+=
+"
+js
+-
+manifest
+"
 >
 <
 Localized
