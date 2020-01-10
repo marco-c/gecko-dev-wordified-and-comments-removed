@@ -95,16 +95,6 @@ jar
 mn
 '
 ]
-EXTRA_JS_MODULES
-+
-=
-[
-'
-AboutCertViewerHandler
-.
-jsm
-'
-]
 with
 Files
 (
