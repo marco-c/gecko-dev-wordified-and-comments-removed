@@ -62,6 +62,7 @@ const
 {
 addDebugServiceWorkersListener
 canDebugServiceWorkers
+isParentInterceptEnabled
 removeDebugServiceWorkersListener
 }
 =
@@ -351,6 +352,11 @@ getSystemInfo
 canDebugServiceWorkers
 :
 canDebugServiceWorkers
+(
+)
+isParentInterceptEnabled
+:
+isParentInterceptEnabled
 (
 )
 }
