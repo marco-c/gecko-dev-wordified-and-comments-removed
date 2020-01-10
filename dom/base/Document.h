@@ -10884,15 +10884,6 @@ UseCounter
 aUseCounter
 )
 {
-if
-(
-!
-mUseCounters
-[
-aUseCounter
-]
-)
-{
 mUseCounters
 [
 aUseCounter
@@ -10900,7 +10891,6 @@ aUseCounter
 =
 true
 ;
-}
 }
 const
 StyleUseCounters
