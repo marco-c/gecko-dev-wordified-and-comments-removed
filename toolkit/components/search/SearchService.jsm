@@ -7026,7 +7026,7 @@ search
 region
 "
 "
-us
+default
 "
 )
 ;
@@ -7047,8 +7047,8 @@ engineSelector
 .
 fetchEngineConfiguration
 (
-region
 locale
+region
 )
 ;
 this
