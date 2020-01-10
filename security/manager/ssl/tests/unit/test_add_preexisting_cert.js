@@ -84,8 +84,6 @@ cert
 .
 getRawDER
 (
-{
-}
 )
 )
 {

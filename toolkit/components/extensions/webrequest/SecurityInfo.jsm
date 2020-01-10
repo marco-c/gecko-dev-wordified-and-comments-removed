@@ -728,8 +728,6 @@ cert
 .
 getRawDER
 (
-{
-}
 )
 ;
 }
