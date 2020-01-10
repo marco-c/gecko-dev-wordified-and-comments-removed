@@ -17,9 +17,6 @@ require
 .
 .
 /
-.
-.
-/
 assets
 "
 )

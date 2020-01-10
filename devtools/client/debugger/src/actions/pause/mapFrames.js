@@ -793,6 +793,11 @@ originalDisplayName
 originalFrame
 .
 displayName
+originalVariables
+:
+originalFrame
+.
+variables
 }
 )
 ;
