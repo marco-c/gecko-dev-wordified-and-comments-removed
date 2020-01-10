@@ -23180,7 +23180,7 @@ if
 not
 iface
 .
-isExposedOnMainThread
+isExposedInWindow
 (
 )
 :
@@ -23340,7 +23340,7 @@ exposedInWorkerCheck
 if
 iface
 .
-isExposedOnMainThread
+isExposedInWindow
 (
 )
 :

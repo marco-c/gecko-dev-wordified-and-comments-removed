@@ -2778,20 +2778,6 @@ self
 exposureSet
     
 def
-isExposedOnMainThread
-(
-self
-)
-:
-        
-return
-self
-.
-isExposedInWindow
-(
-)
-    
-def
 isExposedInAnyWorker
 (
 self
