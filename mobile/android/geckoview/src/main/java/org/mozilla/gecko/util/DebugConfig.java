@@ -42,6 +42,17 @@ GeckoThread
 import
 org
 .
+mozilla
+.
+gecko
+.
+annotation
+.
+ReflectionTarget
+;
+import
+org
+.
 yaml
 .
 snakeyaml
@@ -131,6 +142,7 @@ util
 .
 Map
 ;
+ReflectionTarget
 public
 class
 DebugConfig
