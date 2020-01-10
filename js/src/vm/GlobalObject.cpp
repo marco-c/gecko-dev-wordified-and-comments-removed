@@ -101,6 +101,17 @@ Locale
 h
 "
 #
+include
+"
+builtin
+/
+intl
+/
+NumberFormat
+.
+h
+"
+#
 endif
 #
 include
