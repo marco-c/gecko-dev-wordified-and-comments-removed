@@ -731,16 +731,6 @@ set
 "
 extensions
 .
-htmlaboutaddons
-.
-enabled
-"
-true
-]
-[
-"
-extensions
-.
 allowPrivateBrowsingByDefault
 "
 false
