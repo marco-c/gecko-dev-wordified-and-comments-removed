@@ -17,12 +17,14 @@ org
 /
 svg
 "
-viewBox
+width
 =
 "
-0
-0
 400
+"
+height
+=
+"
 400
 "
 xmlns
