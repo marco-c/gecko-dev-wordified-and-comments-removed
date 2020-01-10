@@ -75,6 +75,7 @@ if
 !
 editor
 )
+{
 throw
 new
 Error
@@ -91,6 +92,7 @@ element
 editableElement
 )
 ;
+}
 try
 {
 var
@@ -140,8 +142,10 @@ subj
 =
 editor
 )
+{
 return
 ;
+}
 count
 =
 0
@@ -162,6 +166,7 @@ topic
 =
 expectedTopic
 )
+{
 Cu
 .
 reportError
@@ -184,6 +189,7 @@ topic
 "
 )
 ;
+}
 waitingForEnded
 =
 !
@@ -274,8 +280,10 @@ count
 <
 50
 )
+{
 return
 ;
+}
 timer
 .
 cancel

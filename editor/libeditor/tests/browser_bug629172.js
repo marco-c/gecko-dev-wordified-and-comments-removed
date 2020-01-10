@@ -315,6 +315,7 @@ document
 var
 t
 =
+(
 window
 .
 t
@@ -326,6 +327,7 @@ createElement
 "
 textarea
 "
+)
 )
 ;
 t
