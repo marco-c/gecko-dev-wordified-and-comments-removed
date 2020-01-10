@@ -25,10 +25,6 @@ app
 -
 build
 -
-client
-.
-py
--
 dom
 /
 canvas

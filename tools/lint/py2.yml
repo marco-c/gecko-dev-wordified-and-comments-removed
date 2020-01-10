@@ -21,10 +21,6 @@ exclude
 -
 build
 -
-client
-.
-py
--
 dom
 -
 editor
