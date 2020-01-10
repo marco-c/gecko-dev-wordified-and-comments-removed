@@ -1566,6 +1566,15 @@ return
 mBug1556491
 ;
 }
+nsCString
+Http3Version
+(
+)
+{
+return
+kHttp3Version
+;
+}
 uint32_t
 MaxHttpResponseHeaderSize
 (
