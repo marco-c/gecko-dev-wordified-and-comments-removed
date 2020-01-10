@@ -28,7 +28,7 @@ signing
 export
 MKFSHFS
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 hfsplus
 -
@@ -38,7 +38,7 @@ newfs_hfs
 export
 DMG_TOOL
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 dmg
 /
@@ -46,7 +46,7 @@ dmg
 export
 HFS_TOOL
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 dmg
 /
@@ -54,7 +54,7 @@ hfsplus
 export
 NODEJS
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 node
 /

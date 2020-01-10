@@ -28,7 +28,7 @@ export
 TUP
 =
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 tup

@@ -19,10 +19,7 @@ LLVM_CONFIG
 =
 "
 {
-TOOLTOOL_DIR
-:
--
-topsrcdir
+MOZ_FETCHES_DIR
 }
 /
 clang

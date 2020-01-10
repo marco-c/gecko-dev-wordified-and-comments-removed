@@ -3,7 +3,7 @@ test
 -
 d
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -15,7 +15,7 @@ CLANG_DIR
 =
 cd
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /

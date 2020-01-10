@@ -19,7 +19,7 @@ if
 -
 d
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 "
@@ -31,7 +31,7 @@ CLANG_LIB_DIR
 "
 (
 cd
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -84,7 +84,7 @@ export
 LLVM_SYMBOLIZER
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /

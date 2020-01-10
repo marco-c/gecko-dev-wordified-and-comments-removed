@@ -2005,16 +2005,21 @@ merge_cmd
 =
 [
             
+os
+.
+path
+.
+join
+(
+os
+.
+environ
+[
 '
-/
-builds
-/
-worker
-/
-workspace
-/
-build
-/
+MOZ_FETCHES_DIR
+'
+]
+'
 clang
 /
 bin
@@ -2023,6 +2028,7 @@ llvm
 -
 profdata
 '
+)
             
 '
 merge

@@ -182,7 +182,7 @@ libstdc
 HOST_CC
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -195,14 +195,14 @@ gcc
 -
 toolchain
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 "
 HOST_CXX
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -217,7 +217,7 @@ gcc
 -
 toolchain
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 "
@@ -244,7 +244,7 @@ android
 sdk
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 android
 -
@@ -260,7 +260,7 @@ with
 gradle
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 android
 -
@@ -284,7 +284,7 @@ file
 :
 /
 /
-topsrcdir
+MOZ_FETCHES_DIR
 /
 android
 -
@@ -299,7 +299,7 @@ file
 :
 /
 /
-topsrcdir
+MOZ_FETCHES_DIR
 /
 android
 -
@@ -314,7 +314,7 @@ file
 :
 /
 /
-topsrcdir
+MOZ_FETCHES_DIR
 /
 android
 -
@@ -360,7 +360,7 @@ clang
 CC
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -371,7 +371,7 @@ clang
 CXX
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -391,7 +391,7 @@ android
 ndk
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 android
 -
@@ -1103,7 +1103,7 @@ export
 LLVM_PROFDATA
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /

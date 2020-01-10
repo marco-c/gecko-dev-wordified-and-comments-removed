@@ -123,13 +123,15 @@ version
 .
 INSTALL_DIR
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 mingw32
 mkdir
 -
 p
 INSTALL_DIR
+cd
+MOZ_FETCHES_DIR
 #
 As
 explained
@@ -206,11 +208,7 @@ just
 built
 .
 mv
-MOZ_FETCHES_DIR
-/
 mingw32
-GECKO_PATH
-/
 mingw32
 -
 gcc
@@ -218,7 +216,7 @@ export
 PATH
 =
 "
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 mingw32
 -
@@ -228,8 +226,6 @@ bin
 :
 PATH
 "
-cd
-MOZ_FETCHES_DIR
 #
 -
 -
@@ -385,7 +381,7 @@ install
 -
 -
 cd
-GECKO_PATH
+MOZ_FETCHES_DIR
 tar
 caf
 nsis

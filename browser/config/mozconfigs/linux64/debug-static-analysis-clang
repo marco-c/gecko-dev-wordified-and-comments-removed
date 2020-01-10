@@ -42,7 +42,7 @@ export
 CC
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -54,7 +54,7 @@ export
 CXX
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /

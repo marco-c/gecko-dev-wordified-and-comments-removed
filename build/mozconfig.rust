@@ -27,7 +27,7 @@ rustc
 RUSTC
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 rustc
 /
@@ -38,7 +38,7 @@ rustc
 CARGO
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 rustc
 /
@@ -49,7 +49,7 @@ cargo
 RUSTDOC
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 rustc
 /
@@ -60,7 +60,7 @@ rustdoc
 RUSTFMT
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 rustc
 /
@@ -71,7 +71,7 @@ rustfmt
 CBINDGEN
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 cbindgen
 /

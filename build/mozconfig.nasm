@@ -68,7 +68,7 @@ MINGW
 export
 NASM
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 nasm
 /
@@ -82,7 +82,7 @@ exe
 export
 NASM
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 nasm
 /

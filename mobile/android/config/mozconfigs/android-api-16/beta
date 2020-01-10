@@ -151,7 +151,7 @@ export
 AR
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -165,7 +165,7 @@ export
 NM
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -179,7 +179,7 @@ export
 RANLIB
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /

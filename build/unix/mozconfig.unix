@@ -29,7 +29,7 @@ then
 CC
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 gcc
 /
@@ -40,7 +40,7 @@ gcc
 CXX
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 gcc
 /
@@ -73,7 +73,7 @@ mk_add_options
 export
 PATH
 =
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 gcc
 /
@@ -90,7 +90,7 @@ clang
 -
 path
 =
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -101,7 +101,7 @@ else
 CC
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -112,7 +112,7 @@ clang
 CXX
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -283,7 +283,7 @@ export
 LLVM_PROFDATA
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -297,7 +297,7 @@ export
 AR
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -311,7 +311,7 @@ export
 NM
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -325,7 +325,7 @@ export
 RANLIB
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -341,7 +341,7 @@ mk_add_options
 export
 PATH
 =
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 binutils
 /

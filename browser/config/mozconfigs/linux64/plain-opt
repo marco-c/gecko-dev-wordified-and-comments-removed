@@ -9,7 +9,7 @@ LLVM_CONFIG
 =
 "
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 clang
@@ -24,7 +24,7 @@ CARGO
 =
 "
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 rustc
@@ -37,7 +37,7 @@ RUSTC
 =
 "
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 rustc
@@ -50,7 +50,7 @@ RUSTDOC
 =
 "
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 rustc
@@ -63,7 +63,7 @@ RUSTFMT
 =
 "
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 rustc
@@ -76,7 +76,7 @@ CBINDGEN
 =
 "
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 cbindgen
@@ -88,7 +88,7 @@ NODEJS
 =
 "
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 node
@@ -101,7 +101,7 @@ NASM
 =
 "
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 nasm
@@ -112,7 +112,7 @@ CC
 =
 "
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 clang
@@ -125,7 +125,7 @@ CXX
 =
 "
 {
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 }
 /
 clang

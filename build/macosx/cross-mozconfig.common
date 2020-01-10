@@ -85,19 +85,19 @@ mk_add_options
 export
 PATH
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 cctools
 /
 bin
 :
-topsrcdir
+MOZ_FETCHES_DIR
 /
 binutils
 /
 bin
 :
-topsrcdir
+MOZ_FETCHES_DIR
 /
 llvm
 -
@@ -129,7 +129,7 @@ mk_add_options
 export
 LD_LIBRARY_PATH
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -268,7 +268,7 @@ export
 CC
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -280,7 +280,7 @@ export
 CXX
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -325,7 +325,7 @@ UPLOAD_PATH
 export
 LLVMCONFIG
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -359,7 +359,7 @@ mk_add_options
 export
 REAL_DSYMUTIL
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 llvm
 -
@@ -372,7 +372,7 @@ dsymutil
 export
 MKFSHFS
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 hfsplus
 -
@@ -382,7 +382,7 @@ newfs_hfs
 export
 DMG_TOOL
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 dmg
 /
@@ -390,7 +390,7 @@ dmg
 export
 HFS_TOOL
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 dmg
 /

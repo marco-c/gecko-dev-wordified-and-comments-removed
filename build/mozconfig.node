@@ -68,7 +68,7 @@ MINGW
 export
 NODEJS
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 node
 /
@@ -82,7 +82,7 @@ exe
 export
 NODEJS
 =
-topsrcdir
+MOZ_FETCHES_DIR
 /
 node
 /

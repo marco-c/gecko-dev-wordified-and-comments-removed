@@ -776,7 +776,7 @@ MOZSEARCH_RUST_STDLIB_BASENAME
 zip
 cd
 (
-topsrcdir
+MOZ_FETCHES_DIR
 )
 /
 rustc

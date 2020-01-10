@@ -82,7 +82,7 @@ LDFLAGS
 coverage
 -
 L
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /

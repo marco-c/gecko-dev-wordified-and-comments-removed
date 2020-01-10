@@ -647,7 +647,7 @@ export
 CCACHE
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 sccache
 /
@@ -661,7 +661,7 @@ mk_add_options
 MOZBUILD_MANAGE_SCCACHE_DAEMON
 =
 {
-topsrcdir
+MOZ_FETCHES_DIR
 }
 /
 sccache

@@ -17,7 +17,7 @@ export
 LLVM_SYMBOLIZER
 =
 "
-topsrcdir
+MOZ_FETCHES_DIR
 /
 clang
 /
