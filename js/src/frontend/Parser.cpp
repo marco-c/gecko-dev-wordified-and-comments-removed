@@ -32889,6 +32889,16 @@ method
 if
 (
 !
+scope
+)
+{
+return
+false
+;
+}
+if
+(
+!
 handler_
 .
 addClassMemberDefinition
