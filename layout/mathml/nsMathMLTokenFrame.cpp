@@ -476,6 +476,13 @@ aListID
 nsIFrame
 *
 aPrevFrame
+const
+nsLineList
+:
+:
+iterator
+*
+aPrevFrameLine
 nsFrameList
 &
 aChildList
@@ -488,6 +495,7 @@ InsertFrames
 (
 aListID
 aPrevFrame
+aPrevFrameLine
 aChildList
 )
 ;

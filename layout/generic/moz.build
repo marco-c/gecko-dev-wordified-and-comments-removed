@@ -845,6 +845,11 @@ nsIStatefulFrame
 h
 '
 '
+nsLineBox
+.
+h
+'
+'
 nsPageSequenceFrame
 .
 h

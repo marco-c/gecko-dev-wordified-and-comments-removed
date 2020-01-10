@@ -272,6 +272,13 @@ aListID
 nsIFrame
 *
 aPrevFrame
+const
+nsLineList
+:
+:
+iterator
+*
+aPrevFrameLine
 nsFrameList
 &
 aFrameList
@@ -285,6 +292,7 @@ InsertFrames
 (
 aListID
 aPrevFrame
+aPrevFrameLine
 aFrameList
 )
 ;
@@ -596,6 +604,13 @@ aListID
 nsIFrame
 *
 aPrevFrame
+const
+nsLineList
+:
+:
+iterator
+*
+aPrevFrameLine
 nsFrameList
 &
 aFrameList
@@ -609,6 +624,7 @@ InsertFrames
 (
 aListID
 aPrevFrame
+aPrevFrameLine
 aFrameList
 )
 ;

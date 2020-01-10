@@ -35,6 +35,13 @@ nsLayoutUtils
 h
 "
 #
+include
+"
+nsLineBox
+.
+h
+"
+#
 define
 NS_FRAME_NO_MOVE_VIEW
 0x0001
@@ -308,6 +315,13 @@ aListID
 nsIFrame
 *
 aPrevFrame
+const
+nsLineList
+:
+:
+iterator
+*
+aPrevFrameLine
 nsFrameList
 &
 aFrameList
