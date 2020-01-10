@@ -519,7 +519,15 @@ frame
 "
 front
 :
-null
+"
+devtools
+/
+shared
+/
+fronts
+/
+frame
+"
 }
 {
 types
