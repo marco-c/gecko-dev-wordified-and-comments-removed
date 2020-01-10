@@ -1311,6 +1311,9 @@ nargs
 '
 help
 '
+'
+metavar
+'
 )
 for
 k

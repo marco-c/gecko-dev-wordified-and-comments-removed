@@ -1499,6 +1499,9 @@ help
 '
 group
 '
+'
+metavar
+'
 )
 for
 k
