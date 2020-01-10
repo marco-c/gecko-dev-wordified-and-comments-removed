@@ -984,7 +984,6 @@ type
 Source
 =
 {
-|
 +
 id
 :
@@ -1033,7 +1032,6 @@ boolean
 isWasm
 :
 boolean
-|
 }
 ;
 export
