@@ -1473,7 +1473,7 @@ null
 return
 browser
 .
-contentWindow
+browsingContext
 ;
 }
 createContentWindowInFrame
@@ -1771,7 +1771,7 @@ browser
 &
 browser
 .
-contentWindow
+browsingContext
 ;
 }
 openURIInFrame

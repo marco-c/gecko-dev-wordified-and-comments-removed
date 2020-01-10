@@ -117,6 +117,9 @@ interface
 nsIReferrerInfo
 ;
 webidl
+BrowsingContext
+;
+webidl
 Element
 ;
 [
@@ -812,7 +815,7 @@ opened
 .
 *
 /
-mozIDOMWindowProxy
+BrowsingContext
 createContentWindow
 (
 in
@@ -1059,7 +1062,7 @@ opened
 .
 *
 /
-mozIDOMWindowProxy
+BrowsingContext
 openURI
 (
 in

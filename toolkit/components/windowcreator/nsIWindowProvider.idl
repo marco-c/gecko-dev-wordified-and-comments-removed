@@ -182,6 +182,9 @@ nsDocShellLoadState
 ;
 %
 }
+webidl
+BrowsingContext
+;
 interface
 mozIDOMWindowProxy
 ;
@@ -879,7 +882,7 @@ aChromeFlags
 .
 *
 /
-mozIDOMWindowProxy
+BrowsingContext
 provideWindow
 (
 in
