@@ -49,6 +49,10 @@ mojom
 FaceDetectionProvider
 .
 name
+"
+context
+"
+true
 )
 ;
 this

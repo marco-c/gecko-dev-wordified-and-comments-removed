@@ -49,6 +49,10 @@ mojom
 BarcodeDetectionProvider
 .
 name
+"
+context
+"
+true
 )
 ;
 this
