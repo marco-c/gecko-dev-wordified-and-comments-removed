@@ -5424,16 +5424,6 @@ aPresContext
 )
 ;
 static
-bool
-SVGTransformBoxEnabled
-(
-)
-{
-return
-sSVGTransformBoxEnabled
-;
-}
-static
 uint32_t
 IdlePeriodDeadlineLimit
 (
@@ -6530,10 +6520,6 @@ aFrame
 ;
 private
 :
-static
-bool
-sSVGTransformBoxEnabled
-;
 static
 uint32_t
 sIdlePeriodDeadlineLimit
