@@ -7004,6 +7004,12 @@ return
 NS_OK
 ;
 }
+NS_ENSURE_STATE
+(
+!
+mCleanedUp
+)
+;
 NS_ASSERTION
 (
 !
