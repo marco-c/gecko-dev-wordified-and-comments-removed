@@ -1347,6 +1347,29 @@ version_list
 [
 0
 ]
+                
+'
+COMBINED_MAJOR_VERSION
+'
+:
+str
+(
+int
+(
+version_list
+[
+0
+]
+)
++
+int
+(
+version_list
+[
+1
+]
+)
+)
             
 }
             
