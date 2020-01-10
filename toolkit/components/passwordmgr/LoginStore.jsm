@@ -207,6 +207,16 @@ dismissedBreachAlertsByLoginGUID
 }
 if
 (
+!
+(
+"
+version
+"
+in
+data
+)
+|
+|
 data
 .
 version
