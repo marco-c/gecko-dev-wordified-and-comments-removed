@@ -246,12 +246,6 @@ devtools
 *
 "
 "
-python
-/
-*
-*
-"
-"
 remote
 /
 *
