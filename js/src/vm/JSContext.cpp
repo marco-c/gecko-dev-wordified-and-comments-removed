@@ -595,10 +595,10 @@ this
 ;
 currentThread_
 =
-ThisThread
+ThreadId
 :
 :
-GetId
+ThisThreadId
 (
 )
 ;
@@ -6677,10 +6677,10 @@ this
 ;
 currentThread_
 =
-ThisThread
+ThreadId
 :
 :
-GetId
+ThisThreadId
 (
 )
 ;

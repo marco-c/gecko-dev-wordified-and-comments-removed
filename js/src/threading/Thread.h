@@ -529,14 +529,6 @@ aArg
 namespace
 ThisThread
 {
-Thread
-:
-:
-Id
-GetId
-(
-)
-;
 void
 SetName
 (

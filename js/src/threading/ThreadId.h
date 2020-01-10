@@ -125,6 +125,12 @@ platformData
 )
 const
 ;
+static
+ThreadId
+ThisThreadId
+(
+)
+;
 }
 ;
 }

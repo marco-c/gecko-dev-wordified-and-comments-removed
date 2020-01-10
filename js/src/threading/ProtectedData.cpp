@@ -224,10 +224,10 @@ MOZ_ASSERT
 id
 =
 =
-ThisThread
+ThreadId
 :
 :
-GetId
+ThisThreadId
 (
 )
 )

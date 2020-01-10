@@ -60,15 +60,6 @@ friend
 class
 ThreadId
 ;
-friend
-ThreadId
-ThisThread
-:
-:
-GetId
-(
-)
-;
 HANDLE
 handle
 ;
