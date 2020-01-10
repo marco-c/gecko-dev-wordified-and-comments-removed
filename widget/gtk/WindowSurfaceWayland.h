@@ -813,8 +813,6 @@ int
 aHeight
 bool
 aFullScreenUpdate
-bool
-aNoBackBufferCopy
 )
 ;
 already_AddRefed
@@ -834,8 +832,6 @@ bool
 aClearBuffer
 bool
 aFullScreenUpdate
-bool
-aNoBackBufferCopy
 )
 ;
 void
@@ -906,6 +902,9 @@ nsWindow
 *
 mWindow
 ;
+LayoutDeviceIntRect
+mLastScreenRect
+;
 nsWaylandDisplay
 *
 mWaylandDisplay
@@ -968,9 +967,6 @@ mIsMainThread
 ;
 bool
 mNeedScaleFactorUpdate
-;
-bool
-mWaitToFullScreenUpdate
 ;
 static
 bool
