@@ -1124,6 +1124,9 @@ gfx
 CompositorHitTestInfo
 *
 aOutHitResult
+LayersId
+*
+aOutLayersId
 HitTestingTreeNode
 *
 *
