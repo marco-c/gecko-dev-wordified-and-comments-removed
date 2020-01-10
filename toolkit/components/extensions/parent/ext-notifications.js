@@ -42,7 +42,7 @@ ExtensionCommon
 function
 Notification
 (
-extension
+context
 notificationsMap
 id
 options
@@ -78,6 +78,8 @@ iconUrl
 {
 imageURL
 =
+context
+.
 extension
 .
 baseURI
@@ -136,6 +138,12 @@ this
 this
 .
 id
+undefined
+undefined
+undefined
+context
+.
+principal
 )
 ;
 }
@@ -371,13 +379,6 @@ context
 )
 {
 let
-{
-extension
-}
-=
-context
-;
-let
 notificationsMap
 =
 this
@@ -444,7 +445,7 @@ notification
 new
 Notification
 (
-extension
+context
 notificationsMap
 notificationId
 options
