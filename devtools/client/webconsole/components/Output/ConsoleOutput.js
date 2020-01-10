@@ -160,6 +160,8 @@ webconsole
 /
 components
 /
+Output
+/
 MessageContainer
 "
 true

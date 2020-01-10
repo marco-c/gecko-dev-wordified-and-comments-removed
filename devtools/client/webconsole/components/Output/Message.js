@@ -120,6 +120,8 @@ webconsole
 /
 components
 /
+Output
+/
 MessageIndent
 "
 )
@@ -137,6 +139,8 @@ client
 webconsole
 /
 components
+/
+Output
 /
 MessageIcon
 "
@@ -180,6 +184,8 @@ webconsole
 /
 components
 /
+Output
+/
 CollapseButton
 "
 )
@@ -200,6 +206,8 @@ client
 webconsole
 /
 components
+/
+Output
 /
 MessageRepeat
 "

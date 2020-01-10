@@ -128,6 +128,8 @@ webconsole
 /
 components
 /
+FilterBar
+/
 FilterButton
 "
 )
@@ -147,6 +149,8 @@ client
 webconsole
 /
 components
+/
+FilterBar
 /
 FilterBar
 "

@@ -34,8 +34,11 @@ JSTERM_COMMANDS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+webconsole
 /
 constants
 "

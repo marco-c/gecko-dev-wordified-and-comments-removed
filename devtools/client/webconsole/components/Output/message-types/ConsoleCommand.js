@@ -62,6 +62,8 @@ webconsole
 /
 components
 /
+Output
+/
 Message
 "
 )

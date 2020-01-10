@@ -78,6 +78,8 @@ webconsole
 /
 components
 /
+Output
+/
 ConsoleOutput
 "
 )

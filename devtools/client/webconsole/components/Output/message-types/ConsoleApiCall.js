@@ -81,6 +81,8 @@ webconsole
 /
 components
 /
+Output
+/
 GripMessageBody
 "
 )
@@ -100,6 +102,8 @@ client
 webconsole
 /
 components
+/
+Output
 /
 ConsoleTable
 "
@@ -142,6 +146,8 @@ client
 webconsole
 /
 components
+/
+Output
 /
 Message
 "

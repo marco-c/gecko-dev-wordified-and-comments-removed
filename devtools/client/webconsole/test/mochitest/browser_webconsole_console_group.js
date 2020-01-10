@@ -55,6 +55,8 @@ webconsole
 /
 components
 /
+Output
+/
 MessageIndent
 "
 )

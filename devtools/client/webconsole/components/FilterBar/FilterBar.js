@@ -193,8 +193,11 @@ FILTERBAR_DISPLAY_MODES
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+webconsole
 /
 constants
 "
@@ -214,6 +217,8 @@ webconsole
 /
 components
 /
+FilterBar
+/
 FilterButton
 "
 )
@@ -231,6 +236,8 @@ client
 webconsole
 /
 components
+/
+FilterBar
 /
 FilterCheckbox
 "

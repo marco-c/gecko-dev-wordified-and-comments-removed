@@ -61,6 +61,8 @@ webconsole
 /
 components
 /
+Output
+/
 MessageRepeat
 "
 )
