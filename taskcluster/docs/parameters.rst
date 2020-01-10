@@ -646,7 +646,8 @@ try_task_config
 json
 file
 or
-None
+{
+}
 if
 try_mode
 is
