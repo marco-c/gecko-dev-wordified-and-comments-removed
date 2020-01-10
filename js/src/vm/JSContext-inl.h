@@ -52,6 +52,15 @@ h
 #
 include
 "
+util
+/
+DiagnosticAssertions
+.
+h
+"
+#
+include
+"
 vm
 /
 BigIntType

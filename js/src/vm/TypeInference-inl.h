@@ -93,6 +93,15 @@ h
 #
 include
 "
+util
+/
+DiagnosticAssertions
+.
+h
+"
+#
+include
+"
 vm
 /
 ArrayObject
