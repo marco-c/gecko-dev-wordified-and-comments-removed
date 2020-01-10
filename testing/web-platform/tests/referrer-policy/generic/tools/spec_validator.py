@@ -5,10 +5,6 @@ print_function
 import
 json
 sys
-from
-common_paths
-import
-*
 def
 assert_non_empty_string
 (
