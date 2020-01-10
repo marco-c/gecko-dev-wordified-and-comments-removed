@@ -19818,14 +19818,6 @@ NotifyUAWidgetSetupOrChange
 (
 )
 ;
-}
-if
-(
-IsInUncomposedDoc
-(
-)
-)
-{
 UpdatePreloadAction
 (
 )
