@@ -693,6 +693,11 @@ isTrackingResource
 false
 ;
 bool
+isSocialTrackingResource
+=
+false
+;
+bool
 storageAccessGranted
 =
 false
@@ -724,6 +729,15 @@ classifiedChannel
 -
 >
 IsTrackingResource
+(
+)
+;
+isSocialTrackingResource
+=
+classifiedChannel
+-
+>
+IsSocialTrackingResource
 (
 )
 ;
@@ -763,6 +777,7 @@ uri
 aChannel
 isForeign
 isTrackingResource
+isSocialTrackingResource
 storageAccessGranted
 rejectedReason
 isSafeTopLevelNav
@@ -921,6 +936,10 @@ aIsTrackingResource
 const
 bool
 &
+aIsSocialTrackingResource
+const
+bool
+&
 aFirstPartyStorageAccessGranted
 const
 uint32_t
@@ -967,6 +986,7 @@ hostURI
 nullptr
 aIsForeign
 aIsTrackingResource
+aIsSocialTrackingResource
 aFirstPartyStorageAccessGranted
 aRejectedReason
 aIsSafeTopLevelNav
@@ -1053,6 +1073,10 @@ const
 bool
 &
 aIsTrackingResource
+const
+bool
+&
+aIsSocialTrackingResource
 const
 bool
 &
@@ -1201,6 +1225,7 @@ SetCookieStringInternal
 hostURI
 aIsForeign
 aIsTrackingResource
+aIsSocialTrackingResource
 aFirstPartyStorageAccessGranted
 aRejectedReason
 cookieString

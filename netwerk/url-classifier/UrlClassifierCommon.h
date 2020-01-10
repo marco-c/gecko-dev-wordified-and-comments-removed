@@ -250,6 +250,14 @@ aFlag
 ;
 static
 bool
+IsSocialTrackingClassificationFlag
+(
+uint32_t
+aFlag
+)
+;
+static
+bool
 IsCryptominingClassificationFlag
 (
 uint32_t
