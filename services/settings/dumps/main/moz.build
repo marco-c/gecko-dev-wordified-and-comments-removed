@@ -105,6 +105,17 @@ classification
 .
 json
 '
+'
+url
+-
+classifier
+-
+skip
+-
+urls
+.
+json
+'
 ]
 if
 CONFIG
