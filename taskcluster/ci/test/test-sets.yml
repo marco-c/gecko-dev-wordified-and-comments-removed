@@ -3182,14 +3182,6 @@ capture
 browser
 -
 screenshots
-desktop
--
-instrumentation
-:
--
-browser
--
-instrumentation
 android
 -
 x86_64

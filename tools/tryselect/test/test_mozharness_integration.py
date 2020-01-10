@@ -172,16 +172,6 @@ jsreftest
 '
 mochitest
 -
-browser
--
-chrome
--
-instrumentation
-'
-            
-'
-mochitest
--
 devtools
 -
 chrome
