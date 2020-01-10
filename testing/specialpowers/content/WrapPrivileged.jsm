@@ -90,6 +90,7 @@ x
 try
 {
 return
+(
 isWrappable
 (
 x
@@ -106,6 +107,7 @@ SpecialPowers_wrappedObject
 "
 undefined
 "
+)
 ;
 }
 catch
