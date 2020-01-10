@@ -10182,6 +10182,17 @@ setIsSelfHostedBuiltin
 (
 )
 ;
+MOZ_ASSERT
+(
+!
+fun
+-
+>
+isInterpretedLazy
+(
+)
+)
+;
 }
 return
 fun
