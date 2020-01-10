@@ -1223,16 +1223,6 @@ const
 ;
 protected
 :
-static
-const
-uint32_t
-kAutoLine
-;
-static
-const
-uint32_t
-kTranslatedMaxLine
-;
 typedef
 mozilla
 :
