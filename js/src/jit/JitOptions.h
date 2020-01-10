@@ -373,6 +373,11 @@ script
 const
 ;
 void
+setEagerBaselineCompilation
+(
+)
+;
+void
 setEagerIonCompilation
 (
 )
