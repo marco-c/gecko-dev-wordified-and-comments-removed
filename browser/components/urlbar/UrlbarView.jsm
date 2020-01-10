@@ -318,14 +318,6 @@ _openPanel
 (
 )
 ;
-this
-.
-input
-.
-focus
-(
-)
-;
 }
 hideContextualTip
 (
