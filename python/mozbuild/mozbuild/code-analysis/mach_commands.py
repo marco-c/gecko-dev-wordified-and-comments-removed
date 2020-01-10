@@ -2502,6 +2502,11 @@ cov_path
 )
 :
             
+if
+not
+full_build
+:
+                
 return
 1
         
