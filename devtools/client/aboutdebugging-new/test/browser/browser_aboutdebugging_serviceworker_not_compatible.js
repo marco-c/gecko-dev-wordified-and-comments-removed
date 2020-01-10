@@ -143,7 +143,7 @@ openAboutDebugging
 {
 enableWorkerUpdates
 :
-true
+false
 }
 )
 ;
@@ -326,7 +326,7 @@ openAboutDebugging
 {
 enableWorkerUpdates
 :
-true
+false
 }
 )
 ;
