@@ -175,7 +175,7 @@ getElementById
 "
 urlbar
 -
-display
+label
 -
 box
 "
@@ -199,6 +199,10 @@ id
 =
 =
 "
+urlbar
+-
+label
+-
 switchtab
 "
 )
