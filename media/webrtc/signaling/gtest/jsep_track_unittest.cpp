@@ -10215,6 +10215,8 @@ a
 simulcast
 :
 send
+rid
+=
 foo
 ;
 bar
@@ -10246,6 +10248,8 @@ a
 simulcast
 :
 recv
+rid
+=
 foo
 ;
 bar
@@ -10585,6 +10589,8 @@ a
 simulcast
 :
 recv
+rid
+=
 foo
 ;
 bar
@@ -10616,6 +10622,8 @@ a
 simulcast
 :
 send
+rid
+=
 foo
 ;
 bar
