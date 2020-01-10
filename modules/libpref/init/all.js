@@ -10075,7 +10075,7 @@ storage
 .
 snapshot_reusing
 "
-false
+true
 )
 ;
 pref
