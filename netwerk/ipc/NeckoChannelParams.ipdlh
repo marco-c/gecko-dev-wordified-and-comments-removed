@@ -2342,9 +2342,6 @@ isActive
 bool
 isTopLevelDoc
 ;
-bool
-hasNonEmptySandboxingFlags
-;
 }
 ;
 }

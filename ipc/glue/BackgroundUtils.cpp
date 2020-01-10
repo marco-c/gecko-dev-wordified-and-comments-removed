@@ -3302,7 +3302,6 @@ LoadInfoArgsToLoadInfo
 (
 aOptionalLoadInfoArgs
 nullptr
-nullptr
 outLoadInfo
 )
 ;
@@ -3320,9 +3319,6 @@ aOptionalLoadInfoArgs
 nsINode
 *
 aLoadingContext
-nsINode
-*
-aCspToInheritLoadingContext
 nsILoadInfo
 *
 *
@@ -3342,7 +3338,6 @@ LoadInfoArgsToLoadInfo
 (
 aOptionalLoadInfoArgs
 aLoadingContext
-aCspToInheritLoadingContext
 getter_AddRefs
 (
 loadInfo
@@ -3387,7 +3382,6 @@ LoadInfoArgsToLoadInfo
 (
 aOptionalLoadInfoArgs
 nullptr
-nullptr
 outLoadInfo
 )
 ;
@@ -3405,9 +3399,6 @@ aOptionalLoadInfoArgs
 nsINode
 *
 aLoadingContext
-nsINode
-*
-aCspToInheritLoadingContext
 LoadInfo
 *
 *
@@ -4138,7 +4129,7 @@ doc
 =
 do_QueryInterface
 (
-aCspToInheritLoadingContext
+aLoadingContext
 )
 ;
 cspToInherit

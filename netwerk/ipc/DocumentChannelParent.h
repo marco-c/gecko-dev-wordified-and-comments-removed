@@ -664,11 +664,6 @@ mOldApplyConversion
 =
 false
 ;
-bool
-mHasCrossOriginOpenerPolicyMismatch
-=
-false
-;
 typedef
 MozPromise
 <
