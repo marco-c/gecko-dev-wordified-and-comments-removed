@@ -126,6 +126,9 @@ net
 class
 LoadInfoArgs
 ;
+class
+LoadInfo
+;
 }
 namespace
 ipc
@@ -136,9 +139,6 @@ LoadInfoArgsToLoadInfo
 const
 Maybe
 <
-mozilla
-:
-:
 net
 :
 :
@@ -149,7 +149,10 @@ aLoadInfoArgs
 nsINode
 *
 aLoadingContext
-nsILoadInfo
+net
+:
+:
+LoadInfo
 *
 *
 outLoadInfo
@@ -576,7 +579,10 @@ aLoadInfoArgs
 nsINode
 *
 aLoadingContext
-nsILoadInfo
+net
+:
+:
+LoadInfo
 *
 *
 outLoadInfo
