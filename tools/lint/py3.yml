@@ -31,10 +31,6 @@ py
 -
 dom
 /
-bindings
--
-dom
-/
 canvas
 /
 test
