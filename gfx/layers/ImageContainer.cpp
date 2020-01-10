@@ -2511,6 +2511,10 @@ pdata
 -
 >
 mYUVColorSpace
+pdata
+-
+>
+mColorRange
 false
 )
 ;

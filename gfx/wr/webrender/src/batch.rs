@@ -17,6 +17,7 @@ api
 YuvColorSpace
 YuvFormat
 ColorDepth
+ColorRange
 PremultipliedColorF
 RasterSpace
 }
@@ -437,6 +438,7 @@ ImageBufferKind
 YuvFormat
 ColorDepth
 YuvColorSpace
+ColorRange
 )
 RadialGradient
 LinearGradient
@@ -8552,6 +8554,9 @@ color_depth
 yuv_image_data
 .
 color_space
+yuv_image_data
+.
+color_range
 )
 ;
 let
