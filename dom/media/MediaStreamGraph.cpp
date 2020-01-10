@@ -12650,6 +12650,12 @@ lock
 mMutex
 )
 ;
+mUpdateTracks
+.
+Clear
+(
+)
+;
 MediaStream
 :
 :
