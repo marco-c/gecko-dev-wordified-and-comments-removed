@@ -1052,7 +1052,7 @@ GCVector
 <
 FunctionDeclaration
 0
-ZoneAllocPolicy
+SystemAllocPolicy
 >
 ;
 using
