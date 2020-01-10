@@ -612,7 +612,7 @@ const
 int32_t
 kDefaultMaxPreloadExtraRecords
 =
-0
+64
 ;
 #
 define
