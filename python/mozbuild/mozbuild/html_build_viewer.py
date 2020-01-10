@@ -48,7 +48,9 @@ p
 =
 '
 /
-list
+build_resources
+.
+json
 '
 :
             
