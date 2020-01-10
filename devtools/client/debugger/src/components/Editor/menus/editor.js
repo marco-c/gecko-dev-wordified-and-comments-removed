@@ -1010,7 +1010,7 @@ getStr
 "
 inlinePreview
 .
-disable
+hide
 .
 label
 "
@@ -1023,7 +1023,7 @@ getStr
 "
 inlinePreview
 .
-enable
+show
 .
 label
 "
