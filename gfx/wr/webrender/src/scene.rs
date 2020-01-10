@@ -1179,7 +1179,7 @@ ChasePrimitive
 :
 :
 Nothing
-enable_picture_caching
+global_enable_picture_caching
 :
 false
 testing

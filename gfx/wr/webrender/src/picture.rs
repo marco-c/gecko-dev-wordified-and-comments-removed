@@ -7761,6 +7761,12 @@ PictureInfo
 are_raster_roots_assigned
 :
 bool
+composite_state
+:
+&
+'
+a
+CompositeState
 }
 impl
 <
@@ -7815,6 +7821,10 @@ data_stores
 &
 mut
 DataStores
+composite_state
+:
+&
+CompositeState
 )
 {
 profile_marker
@@ -7853,6 +7863,7 @@ new
 are_raster_roots_assigned
 :
 true
+composite_state
 }
 ;
 state
@@ -15003,6 +15014,13 @@ TileCache
 =
 >
 {
+if
+state
+.
+composite_state
+.
+picture_caching_is_enabled
+{
 let
 spatial_node
 =
@@ -15044,6 +15062,11 @@ TileCache
 {
 }
 )
+}
+else
+{
+None
+}
 }
 else
 {
