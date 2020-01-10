@@ -918,7 +918,7 @@ extensionStorage
 .
 enabled
 "
-false
+true
 )
 ;
 pref
