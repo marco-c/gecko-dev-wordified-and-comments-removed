@@ -20,7 +20,7 @@ context
 .
 destination
 .
-numberOfChannels
+channelCount
 }
 )
 ;
