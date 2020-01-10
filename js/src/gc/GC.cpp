@@ -23001,7 +23001,7 @@ if
 !
 marker
 .
-isWeakMarkingTracer
+isWeakMarking
 (
 )
 )
@@ -23652,7 +23652,7 @@ return
 }
 }
 }
-WeakMapSet
+WeakMapColors
 markedWeakMaps
 ;
 gc
