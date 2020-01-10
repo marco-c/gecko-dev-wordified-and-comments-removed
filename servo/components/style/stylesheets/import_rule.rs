@@ -119,6 +119,17 @@ ToShmem
 ;
 #
 [
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
+#
+[
 derive
 (
 Clone

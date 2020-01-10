@@ -1751,11 +1751,6 @@ always
 ]
 fn
 apply_declaration
-<
-Phase
-:
-CascadePhase
->
 (
 &
 mut
@@ -2273,11 +2268,6 @@ continue
 self
 .
 apply_declaration
-:
-:
-<
-Phase
->
 (
 longhand_id
 &

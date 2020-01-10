@@ -58,15 +58,6 @@ CountingBloomFilter
 BloomStorageU8
 >
 ;
-pub
-type
-NonCountingBloomFilter
-=
-CountingBloomFilter
-<
-BloomStorageBool
->
-;
 #
 [
 derive
