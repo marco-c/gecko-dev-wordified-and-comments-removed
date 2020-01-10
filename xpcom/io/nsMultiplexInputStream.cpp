@@ -4275,7 +4275,7 @@ if
 streamCount
 )
 {
-InfallibleTArray
+nsTArray
 <
 InputStreamParams
 >
@@ -4496,7 +4496,7 @@ get_MultiplexInputStreamParams
 )
 ;
 const
-InfallibleTArray
+nsTArray
 <
 InputStreamParams
 >
