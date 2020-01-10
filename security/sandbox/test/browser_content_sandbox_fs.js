@@ -1985,6 +1985,19 @@ readDir
 }
 )
 ;
+if
+(
+AppConstants
+.
+isPlatformAndVersionAtMost
+(
+"
+macosx
+"
+18
+)
+)
+{
 let
 network
 =
@@ -2027,6 +2040,7 @@ readDir
 }
 )
 ;
+}
 let
 users
 =
