@@ -4416,9 +4416,8 @@ MOZ_BASE_PROFILER
 if
 (
 bufferRangeStart
-!
-=
-0
+>
+1
 &
 &
 sInstance
