@@ -1381,6 +1381,13 @@ language
 -
 name
 -
+trs
+=
+Triqui
+language
+-
+name
+-
 ts
 =
 Tsonga
