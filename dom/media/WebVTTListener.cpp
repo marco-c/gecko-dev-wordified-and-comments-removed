@@ -600,7 +600,7 @@ Loaded
 mElement
 -
 >
-DropChannel
+CancelChannelAndListener
 (
 )
 ;
