@@ -1158,6 +1158,15 @@ auto_gen_test_config
 js
 #
 Ignore
+browsertime
+output
+directory
+^
+browsertime
+-
+results
+#
+Ignore
 the
 build
 directories
