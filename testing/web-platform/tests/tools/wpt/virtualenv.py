@@ -575,9 +575,7 @@ requirements
 )
         
 except
-pkg_resources
-.
-ResolutionError
+Exception
 :
             
 pass
@@ -640,9 +638,7 @@ read
 )
             
 except
-pkg_resources
-.
-ResolutionError
+Exception
 :
                 
 pass
