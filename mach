@@ -225,17 +225,6 @@ bench
 jstestbrowser
 jstests
 lint
-mach
--
-commands
-mach
--
-completion
-mach
--
-debug
--
-commands
 marionette
 -
 test
@@ -289,7 +278,6 @@ run
 -
 desktop
 rusttests
-settings
 show
 -
 log
