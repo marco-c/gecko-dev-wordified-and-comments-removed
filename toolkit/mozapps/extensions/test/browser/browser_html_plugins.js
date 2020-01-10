@@ -285,6 +285,14 @@ flash
 .
 id
 ;
+flash
+.
+userDisabled
+=
+AddonManager
+.
+STATE_ASK_TO_ACTIVATE
+;
 let
 win
 =
