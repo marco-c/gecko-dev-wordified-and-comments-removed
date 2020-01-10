@@ -603,7 +603,7 @@ targetId
 ;
 }
 const
-session
+tabSession
 =
 new
 TabSession
@@ -617,6 +617,17 @@ target
 sessionIds
 +
 +
+)
+;
+this
+.
+session
+.
+connection
+.
+registerSession
+(
+tabSession
 )
 ;
 this
@@ -640,7 +651,7 @@ page
 }
 sessionId
 :
-session
+tabSession
 .
 id
 }
@@ -650,7 +661,7 @@ return
 {
 sessionId
 :
-session
+tabSession
 .
 id
 }
