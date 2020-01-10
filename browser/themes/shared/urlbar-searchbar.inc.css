@@ -3307,6 +3307,10 @@ animatable
 -
 box
 {
+display
+:
+block
+;
 position
 :
 absolute
