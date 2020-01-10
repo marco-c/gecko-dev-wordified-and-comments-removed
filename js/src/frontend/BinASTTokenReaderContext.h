@@ -2242,15 +2242,7 @@ GenericHuffmanTable
 using
 HuffmanTableListLength
 =
-mozilla
-:
-:
-Variant
-<
-HuffmanTableUnreachable
-HuffmanTableInitializing
-GenericHuffmanTable
->
+HuffmanTableValue
 ;
 class
 HuffmanDictionary
