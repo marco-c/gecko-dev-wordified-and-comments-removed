@@ -9590,15 +9590,7 @@ if
 (
 aWM
 .
-IsVerticalLR
-(
-)
-&
-&
-!
-aWM
-.
-IsLineInverted
+IsSidewaysLR
 (
 )
 )
