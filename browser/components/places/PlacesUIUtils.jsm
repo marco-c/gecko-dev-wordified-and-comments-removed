@@ -4475,10 +4475,6 @@ parentGuid
 ;
 if
 (
-!
-parentGuid
-|
-|
 parentGuid
 =
 =
