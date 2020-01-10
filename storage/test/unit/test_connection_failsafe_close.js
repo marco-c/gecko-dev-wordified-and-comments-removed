@@ -19,9 +19,7 @@ callbackInvoked
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

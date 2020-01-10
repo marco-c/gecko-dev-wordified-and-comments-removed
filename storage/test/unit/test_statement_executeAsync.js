@@ -52,11 +52,13 @@ aOptions
 =
 null
 )
+{
 aOptions
 =
 {
 }
 ;
+}
 let
 resultsExpected
 ;
@@ -182,6 +184,7 @@ if
 (
 errorCodeExpected
 )
+{
 reasonExpected
 =
 Ci
@@ -190,6 +193,7 @@ mozIStorageStatementCallback
 .
 REASON_ERROR
 ;
+}
 }
 let
 errorCodeSeen
@@ -209,6 +213,7 @@ aOptions
 .
 cancel
 )
+{
 altReasonExpected
 =
 Ci
@@ -217,6 +222,7 @@ mozIStorageStatementCallback
 .
 REASON_CANCELED
 ;
+}
 let
 completed
 =
@@ -257,6 +263,7 @@ if
 (
 resultsChecker
 )
+{
 resultsChecker
 (
 resultsSeen
@@ -264,6 +271,7 @@ row
 caller
 )
 ;
+}
 resultsSeen
 +
 +
@@ -278,6 +286,7 @@ if
 !
 resultsSeenThisCall
 )
+{
 do_throw
 (
 "
@@ -292,6 +301,7 @@ rows
 )
 ;
 }
+}
 handleError
 (
 aError
@@ -301,6 +311,7 @@ if
 (
 errorCodeSeen
 )
+{
 do_throw
 (
 "
@@ -316,6 +327,7 @@ error
 "
 )
 ;
+}
 errorCodeSeen
 =
 aError
@@ -332,6 +344,7 @@ if
 (
 completed
 )
+{
 do_throw
 (
 "
@@ -345,6 +358,7 @@ notification
 caller
 )
 ;
+}
 if
 (
 resultsSeen
@@ -352,6 +366,7 @@ resultsSeen
 =
 resultsExpected
 )
+{
 do_throw
 (
 "
@@ -380,6 +395,7 @@ rows
 caller
 )
 ;
+}
 if
 (
 errorCodeExpected
@@ -388,6 +404,7 @@ errorCodeExpected
 !
 errorCodeSeen
 )
+{
 do_throw
 (
 "
@@ -404,6 +421,7 @@ one
 caller
 )
 ;
+}
 else
 if
 (
@@ -412,6 +430,7 @@ errorCodeExpected
 =
 errorCodeSeen
 )
+{
 do_throw
 (
 "
@@ -431,6 +450,7 @@ errorCodeSeen
 caller
 )
 ;
+}
 if
 (
 aReason
@@ -444,6 +464,7 @@ aReason
 =
 altReasonExpected
 )
+{
 do_throw
 (
 "
@@ -456,13 +477,11 @@ reasonExpected
 (
 altReasonExpected
 ?
-(
 "
 or
 "
 +
 altReasonExpected
-)
 :
 "
 "
@@ -477,6 +496,7 @@ aReason
 caller
 )
 ;
+}
 completed
 =
 true
@@ -550,12 +570,14 @@ aOptions
 .
 cancel
 )
+{
 pending
 .
 cancel
 (
 )
 ;
+}
 Services
 .
 tm
@@ -1313,6 +1335,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -1329,6 +1352,7 @@ i
 ]
 )
 ;
+}
 Assert
 .
 equal
@@ -4309,13 +4333,11 @@ testPass
 TEST_PASS_SYNC
 &
 &
-(
 "
 asyncOnly
 "
 in
 test
-)
 )
 |
 |
@@ -4326,7 +4348,6 @@ testPass
 TEST_PASS_ASYNC
 &
 &
-(
 "
 syncOnly
 "
@@ -4334,9 +4355,10 @@ in
 test
 )
 )
-)
+{
 continue
 ;
+}
 try
 {
 print

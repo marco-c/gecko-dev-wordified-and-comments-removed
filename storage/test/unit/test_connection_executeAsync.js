@@ -447,6 +447,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -463,6 +464,7 @@ i
 ]
 )
 ;
+}
 }
 finally
 {
@@ -632,6 +634,7 @@ i
 %
 2
 )
+{
 stmts
 [
 i
@@ -644,7 +647,9 @@ createStatement
 sqlString
 )
 ;
+}
 else
+{
 stmts
 [
 i
@@ -657,6 +662,7 @@ createAsyncStatement
 sqlString
 )
 ;
+}
 let
 params
 =
@@ -893,11 +899,9 @@ equal
 (
 currentRows
 +
-(
 ITERATIONS
 *
 AMOUNT_TO_ADD
-)
 countStmt
 .
 row

@@ -4610,11 +4610,9 @@ append
 test_storage_
 "
 +
-(
 +
 +
 c
-)
 +
 "
 .
@@ -6066,6 +6064,7 @@ throws
 )
 =
 >
+(
 db
 .
 defaultTransactionType
@@ -6075,6 +6074,7 @@ Ci
 mozIStorageConnection
 .
 TRANSACTION_DEFAULT
+)
 /
 NS_ERROR_ILLEGAL_VALUE
 /

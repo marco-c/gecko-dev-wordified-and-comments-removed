@@ -57,10 +57,8 @@ db
 ;
 equal
 (
-(
 await
 asyncStatementPromise
-)
 Ci
 .
 mozIStorageStatementCallback

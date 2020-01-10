@@ -185,6 +185,7 @@ exists
 (
 )
 )
+{
 try
 {
 dbFile
@@ -200,6 +201,7 @@ catch
 e
 )
 {
+}
 }
 }
 function
@@ -512,6 +514,7 @@ if
 !
 exceptionCaught
 )
+{
 do_throw
 (
 aFunction
@@ -529,6 +532,7 @@ not
 "
 )
 ;
+}
 }
 function
 verifyQuery
@@ -587,6 +591,7 @@ length
 =
 nCols
 )
+{
 do_throw
 (
 "
@@ -619,6 +624,7 @@ length
 "
 )
 ;
+}
 for
 (
 let

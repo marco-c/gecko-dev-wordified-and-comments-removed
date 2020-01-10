@@ -248,6 +248,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -262,6 +263,7 @@ i
 ]
 )
 ;
+}
 }
 function
 getResults
@@ -312,6 +314,7 @@ executeStep
 (
 )
 )
+{
 results
 .
 push
@@ -323,6 +326,7 @@ row
 t
 )
 ;
+}
 stmt
 .
 finalize

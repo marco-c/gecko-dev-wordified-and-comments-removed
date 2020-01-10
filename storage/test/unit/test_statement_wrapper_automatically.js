@@ -41,6 +41,7 @@ aActualVal
 instanceof
 Date
 )
+{
 aActualVal
 =
 aActualVal
@@ -53,6 +54,7 @@ valueOf
 .
 0
 ;
+}
 Assert
 .
 equal
