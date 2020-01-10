@@ -248,6 +248,11 @@ nsITimer
 >
 mQueryVisitedStateTimer
 ;
+bool
+mQueryVisitedStateTimerPending
+=
+false
+;
 }
 ;
 #
