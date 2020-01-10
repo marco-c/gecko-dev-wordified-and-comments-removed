@@ -3098,10 +3098,9 @@ aSize
 {
 if
 (
-!
 aWritingMode
 .
-IsPhysicalLTR
+IsPhysicalRTL
 (
 )
 )

@@ -1833,7 +1833,6 @@ false
 ;
 }
 return
-!
 aFrame
 -
 >
@@ -1841,7 +1840,7 @@ GetWritingMode
 (
 )
 .
-IsPhysicalLTR
+IsPhysicalRTL
 (
 )
 ;

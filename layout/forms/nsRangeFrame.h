@@ -463,12 +463,11 @@ IsHorizontal
 )
 ;
 return
-!
 GetWritingMode
 (
 )
 .
-IsPhysicalLTR
+IsPhysicalRTL
 (
 )
 ;

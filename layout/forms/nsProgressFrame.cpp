@@ -793,10 +793,9 @@ if
 vertical
 &
 &
-!
 wm
 .
-IsPhysicalLTR
+IsPhysicalRTL
 (
 )
 )

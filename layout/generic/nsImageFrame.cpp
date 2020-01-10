@@ -6895,10 +6895,9 @@ GetWritingMode
 bool
 flushRight
 =
-!
 wm
 .
-IsPhysicalLTR
+IsPhysicalRTL
 (
 )
 ;
@@ -7869,10 +7868,9 @@ const
 bool
 flushRight
 =
-!
 wm
 .
-IsPhysicalLTR
+IsPhysicalRTL
 (
 )
 ;
