@@ -1312,6 +1312,15 @@ cpt
 =
 0
 ;
+const
+now
+=
+Date
+.
+now
+(
+)
+;
 function
 emitContentBlockingMessage
 (
@@ -1328,6 +1337,10 @@ CONTENT_BLOCKED_URL
 +
 +
 cpt
+}
+-
+{
+now
 }
 ;
 ContentTask
@@ -1372,6 +1385,10 @@ STORAGE_BLOCKED_URL
 +
 +
 cpt
+}
+-
+{
+now
 }
 ;
 ContentTask
