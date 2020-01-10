@@ -584,6 +584,9 @@ accessible
 .
 properties
 )
+#
+ifdef
+ANDROID
 locale
 /
 AB_CD
@@ -603,6 +606,8 @@ AccessFu
 .
 properties
 )
+#
+endif
 locale
 /
 AB_CD
