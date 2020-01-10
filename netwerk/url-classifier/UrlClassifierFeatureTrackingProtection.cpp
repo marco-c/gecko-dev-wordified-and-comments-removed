@@ -677,15 +677,6 @@ EmptyCString
 )
 )
 ;
-NS_SetRequestBlockingReason
-(
-aChannel
-nsILoadInfo
-:
-:
-BLOCKING_REASON_CLASSIFY_TRACKING_URI
-)
-;
 UC_LOG
 (
 (
