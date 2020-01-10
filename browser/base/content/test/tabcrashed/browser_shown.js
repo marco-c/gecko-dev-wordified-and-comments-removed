@@ -166,7 +166,7 @@ browser
 await
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 browser
 )

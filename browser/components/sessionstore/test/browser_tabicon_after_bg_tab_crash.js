@@ -165,7 +165,7 @@ originalTab
 await
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 browser
 false
