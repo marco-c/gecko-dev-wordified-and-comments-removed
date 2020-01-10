@@ -102,7 +102,7 @@ export
 const
 transitionTimeout
 =
-175
+50
 ;
 export
 class
