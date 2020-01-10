@@ -1714,7 +1714,7 @@ compositionFrameRatePref
 StaticPrefs
 :
 :
-LayersCompositionFrameRate
+layers_offmainthreadcomposition_frame_rate
 (
 )
 ;
@@ -4951,7 +4951,7 @@ if
 StaticPrefs
 :
 :
-DumpHostLayers
+layers_dump_host_layers
 (
 )
 |
@@ -4959,7 +4959,7 @@ DumpHostLayers
 StaticPrefs
 :
 :
-LayersDump
+layers_dump
 (
 )
 )
@@ -5155,7 +5155,7 @@ if
 StaticPrefs
 :
 :
-LayersCompositionFrameRate
+layers_offmainthreadcomposition_frame_rate
 (
 )
 =
@@ -5999,7 +5999,7 @@ forget
 StaticPrefs
 :
 :
-OrientationSyncMillis
+layers_orientation_sync_timeout
 (
 )
 )

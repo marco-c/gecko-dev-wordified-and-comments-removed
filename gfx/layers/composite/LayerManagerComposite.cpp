@@ -3091,7 +3091,7 @@ drawFps
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 ;
@@ -3264,7 +3264,7 @@ drawFps
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 ;
@@ -4056,7 +4056,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-LayersEffectInvert
+layers_effect_invert
 (
 )
 |
@@ -4064,7 +4064,7 @@ LayersEffectInvert
 StaticPrefs
 :
 :
-LayersEffectGrayscale
+layers_effect_grayscale
 (
 )
 |
@@ -4072,7 +4072,7 @@ LayersEffectGrayscale
 StaticPrefs
 :
 :
-LayersEffectContrast
+layers_effect_contrast
 (
 )
 !
@@ -4748,7 +4748,7 @@ invertVal
 StaticPrefs
 :
 :
-LayersEffectInvert
+layers_effect_invert
 (
 )
 ;
@@ -4758,7 +4758,7 @@ grayscaleVal
 StaticPrefs
 :
 :
-LayersEffectGrayscale
+layers_effect_grayscale
 (
 )
 ;
@@ -4768,7 +4768,7 @@ contrastVal
 StaticPrefs
 :
 :
-LayersEffectContrast
+layers_effect_contrast
 (
 )
 ;
@@ -7472,7 +7472,7 @@ if
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 )

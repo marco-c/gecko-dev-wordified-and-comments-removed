@@ -6823,7 +6823,7 @@ bEnableAA
 StaticPrefs
 :
 :
-LayersDEAAEnabled
+layers_deaa_enabled
 (
 )
 &
@@ -8802,7 +8802,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-ComponentAlphaEnabled
+layers_componentalpha_enabled
 (
 )
 )
@@ -11478,7 +11478,7 @@ return
 StaticPrefs
 :
 :
-OGLLayerGeometry
+layers_geometry_opengl_enabled
 (
 )
 ;

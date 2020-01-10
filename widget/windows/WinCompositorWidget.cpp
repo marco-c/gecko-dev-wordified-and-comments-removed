@@ -188,7 +188,7 @@ mNotDeferEndRemoteDrawing
 StaticPrefs
 :
 :
-LayersCompositionFrameRate
+layers_offmainthreadcomposition_frame_rate
 (
 )
 =

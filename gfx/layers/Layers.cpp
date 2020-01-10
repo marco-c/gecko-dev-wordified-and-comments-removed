@@ -813,7 +813,7 @@ return
 StaticPrefs
 :
 :
-ComponentAlphaEnabled
+layers_componentalpha_enabled
 (
 )
 ;

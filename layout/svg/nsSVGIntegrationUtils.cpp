@@ -4391,7 +4391,7 @@ if
 StaticPrefs
 :
 :
-DrawMaskLayer
+layers_draw_mask_debug
 (
 )
 )

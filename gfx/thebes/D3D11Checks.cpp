@@ -1133,7 +1133,7 @@ if
 StaticPrefs
 :
 :
-LayersAMDSwitchableGfxEnabled
+layers_amd_switchable_gfx_enabled
 (
 )
 )

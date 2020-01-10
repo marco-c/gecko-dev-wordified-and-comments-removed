@@ -22642,7 +22642,7 @@ mSharedLock
 StaticPrefs
 :
 :
-ProgressivePaint
+layers_progressive_paint
 (
 )
 )
@@ -22694,7 +22694,7 @@ mMetricsSharingController
 StaticPrefs
 :
 :
-ProgressivePaint
+layers_progressive_paint
 (
 )
 )

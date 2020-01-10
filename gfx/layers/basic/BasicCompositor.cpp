@@ -1857,7 +1857,7 @@ return
 StaticPrefs
 :
 :
-BasicLayerGeometry
+layers_geometry_basic_enabled
 (
 )
 ;

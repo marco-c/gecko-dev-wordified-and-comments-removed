@@ -312,7 +312,7 @@ if
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 )

@@ -1311,7 +1311,7 @@ if
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 )
@@ -2889,7 +2889,7 @@ SynchronouslyRepaintOnResize
 StaticPrefs
 :
 :
-LayersForceSynchronousResize
+layers_force_synchronous_resize
 (
 )
 )

@@ -2285,7 +2285,7 @@ if
 StaticPrefs
 :
 :
-LayersD3D11ForceWARP
+layers_d3d11_force_warp
 (
 )
 )
@@ -2877,7 +2877,7 @@ WARP
 StaticPrefs
 :
 :
-LayersD3D11ForceWARP
+layers_d3d11_force_warp
 (
 )
 )

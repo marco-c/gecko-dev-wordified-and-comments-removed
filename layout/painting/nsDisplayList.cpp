@@ -15224,7 +15224,7 @@ IsNull
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 )
@@ -18946,7 +18946,7 @@ return
 StaticPrefs
 :
 :
-LayersAdvancedBasicLayerEnabled
+layers_advanced_basic_layer_enabled
 (
 )
 |
@@ -50704,7 +50704,7 @@ if
 StaticPrefs
 :
 :
-DrawMaskLayer
+layers_draw_mask_debug
 (
 )
 )

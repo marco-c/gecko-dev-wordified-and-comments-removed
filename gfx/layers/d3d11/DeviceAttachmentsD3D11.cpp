@@ -866,7 +866,7 @@ if
 StaticPrefs
 :
 :
-ComponentAlphaEnabled
+layers_componentalpha_enabled
 (
 )
 )
@@ -1336,7 +1336,7 @@ if
 StaticPrefs
 :
 :
-ComponentAlphaEnabled
+layers_componentalpha_enabled
 (
 )
 )

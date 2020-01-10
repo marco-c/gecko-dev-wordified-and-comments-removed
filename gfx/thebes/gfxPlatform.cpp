@@ -5041,25 +5041,25 @@ d
 StaticPrefs
 :
 :
-LayersAMDSwitchableGfxEnabled
+layers_amd_switchable_gfx_enabled
 (
 )
 StaticPrefs
 :
 :
-LayersAccelerationDisabledDoNotUseDirectly
+layers_acceleration_disabled_do_not_use_directly
 (
 )
 StaticPrefs
 :
 :
-LayersAccelerationForceEnabledDoNotUseDirectly
+layers_acceleration_force_enabled_do_not_use_directly
 (
 )
 StaticPrefs
 :
 :
-LayersD3D11ForceWARP
+layers_d3d11_force_warp
 (
 )
 )
@@ -5163,7 +5163,7 @@ gfx_android_rgb16_force
 StaticPrefs
 :
 :
-ForceShmemTiles
+layers_force_shmem_tiles
 (
 )
 )
@@ -6773,7 +6773,7 @@ if
 StaticPrefs
 :
 :
-ChildProcessShutdown
+layers_child_process_shutdown
 (
 )
 )
@@ -7796,7 +7796,7 @@ w
 StaticPrefs
 :
 :
-LayersTileWidth
+layers_tile_width
 (
 )
 ;
@@ -7806,7 +7806,7 @@ h
 StaticPrefs
 :
 :
-LayersTileHeight
+layers_tile_height
 (
 )
 ;
@@ -7815,7 +7815,7 @@ if
 StaticPrefs
 :
 :
-LayersTilesAdjust
+layers_tiles_adjust
 (
 )
 )
@@ -9302,7 +9302,7 @@ if
 StaticPrefs
 :
 :
-DrawLayerBorders
+layers_draw_borders
 (
 )
 )
@@ -9327,7 +9327,7 @@ if
 StaticPrefs
 :
 :
-DrawTileBorders
+layers_draw_tile_borders
 (
 )
 )
@@ -9352,7 +9352,7 @@ if
 StaticPrefs
 :
 :
-DrawBigImageBorders
+layers_draw_bigimage_borders
 (
 )
 )
@@ -9377,7 +9377,7 @@ if
 StaticPrefs
 :
 :
-FlashLayerBorders
+layers_flash_borders
 (
 )
 )
@@ -12110,7 +12110,7 @@ if
 StaticPrefs
 :
 :
-GPUProcessEnabled
+layers_gpu_process_enabled
 (
 )
 &
@@ -12119,7 +12119,7 @@ GPUProcessEnabled
 StaticPrefs
 :
 :
-GPUProcessForceEnabled
+layers_gpu_process_force_enabled
 (
 )
 )
@@ -12185,14 +12185,14 @@ SetDefaultFromPref
 StaticPrefs
 :
 :
-GetGPUProcessEnabledPrefName
+Getlayers_gpu_process_enabledPrefName
 (
 )
 true
 StaticPrefs
 :
 :
-GetGPUProcessEnabledPrefDefault
+Getlayers_gpu_process_enabledPrefDefault
 (
 )
 )
@@ -12203,7 +12203,7 @@ if
 StaticPrefs
 :
 :
-GPUProcessForceEnabled
+layers_gpu_process_force_enabled
 (
 )
 )
@@ -12394,7 +12394,7 @@ if
 StaticPrefs
 :
 :
-LayersAccelerationDisabledDoNotUseDirectly
+layers_acceleration_disabled_do_not_use_directly
 (
 )
 )
@@ -12485,7 +12485,7 @@ if
 StaticPrefs
 :
 :
-LayersAccelerationForceEnabledDoNotUseDirectly
+layers_acceleration_force_enabled_do_not_use_directly
 (
 )
 )
@@ -14331,7 +14331,7 @@ GPU_PROCESS
 StaticPrefs
 :
 :
-GPUProcessAllowSoftware
+layers_gpu_process_allow_software
 (
 )
 )
@@ -14779,7 +14779,7 @@ sBufferRotationCheckPref
 StaticPrefs
 :
 :
-BufferRotationEnabled
+layers_bufferrotation_enabled
 (
 )
 ;
@@ -14862,7 +14862,7 @@ BrowserTabsRemoteAutostart
 StaticPrefs
 :
 :
-LayersOffMainThreadCompositionForceDisabled
+layers_offmainthreadcomposition_force_disabled
 (
 )
 ;
@@ -14878,7 +14878,7 @@ result
 StaticPrefs
 :
 :
-LayersAccelerationForceEnabledDoNotUseDirectly
+layers_acceleration_force_enabled_do_not_use_directly
 (
 )
 ;
@@ -14935,7 +14935,7 @@ UseOMTP
 StaticPrefs
 :
 :
-LayersOMTPPaintWorkers
+layers_omtp_paint_workers
 (
 )
 =
@@ -14947,7 +14947,7 @@ LayersOMTPPaintWorkers
 StaticPrefs
 :
 :
-LayersOMTPPaintWorkers
+layers_omtp_paint_workers
 (
 )
 >
@@ -14958,7 +14958,7 @@ return
 StaticPrefs
 :
 :
-LayersTilesEnabled
+layers_enable_tiles
 (
 )
 |
@@ -14967,7 +14967,7 @@ LayersTilesEnabled
 StaticPrefs
 :
 :
-LayersTilesEnabledIfSkiaPOMTP
+layers_enable_tiles_if_skia_pomtp
 (
 )
 &
@@ -15049,7 +15049,7 @@ UseOMTP
 StaticPrefs
 :
 :
-LayersOMTPPaintWorkers
+layers_omtp_paint_workers
 (
 )
 =
@@ -15061,7 +15061,7 @@ LayersOMTPPaintWorkers
 StaticPrefs
 :
 :
-LayersOMTPPaintWorkers
+layers_omtp_paint_workers
 (
 )
 >
@@ -15072,7 +15072,7 @@ return
 StaticPrefs
 :
 :
-LayersTilesEnabled
+layers_enable_tiles
 (
 )
 |
@@ -15081,7 +15081,7 @@ LayersTilesEnabled
 StaticPrefs
 :
 :
-LayersTilesEnabledIfSkiaPOMTP
+layers_enable_tiles_if_skia_pomtp
 (
 )
 &
@@ -15705,7 +15705,7 @@ if
 StaticPrefs
 :
 :
-LayersTilesEnabled
+layers_enable_tiles
 (
 )
 )
@@ -16447,7 +16447,7 @@ return
 StaticPrefs
 :
 :
-AsyncPanZoomEnabledDoNotUseDirectly
+layers_async_pan_zoom_enabled_do_not_use_directly
 (
 )
 ;
@@ -17270,14 +17270,14 @@ SetDefaultFromPref
 StaticPrefs
 :
 :
-GetLayersPreferOpenGLPrefName
+Getlayers_prefer_openglPrefName
 (
 )
 true
 StaticPrefs
 :
 :
-GetLayersPreferOpenGLPrefDefault
+Getlayers_prefer_openglPrefDefault
 (
 )
 )
@@ -17297,7 +17297,7 @@ if
 StaticPrefs
 :
 :
-LayersAccelerationForceEnabledDoNotUseDirectly
+layers_acceleration_force_enabled_do_not_use_directly
 (
 )
 )

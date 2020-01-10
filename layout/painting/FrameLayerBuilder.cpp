@@ -2755,7 +2755,7 @@ if
 StaticPrefs
 :
 :
-LayersDumpDecision
+layers_dump_decision
 (
 )
 )
@@ -18855,7 +18855,7 @@ maxLayers
 StaticPrefs
 :
 :
-MaxActiveLayers
+layers_max_active
 (
 )
 ;
@@ -27547,7 +27547,7 @@ aTransform
 StaticPrefs
 :
 :
-LayersTilesEnabled
+layers_enable_tiles
 (
 )
 )

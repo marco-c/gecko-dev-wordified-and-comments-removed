@@ -276,7 +276,7 @@ mRenderTarget
 StaticPrefs
 :
 :
-AdvancedLayersUseInvalidation
+layers_mlgpu_enable_invalidation
 (
 )
 |

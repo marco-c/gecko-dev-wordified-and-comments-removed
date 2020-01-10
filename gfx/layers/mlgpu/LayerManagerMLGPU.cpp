@@ -1304,7 +1304,7 @@ mDrawDiagnostics
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 &
@@ -1317,7 +1317,7 @@ mUsingInvalidation
 StaticPrefs
 :
 :
-AdvancedLayersUseInvalidation
+layers_mlgpu_enable_invalidation
 (
 )
 ;
@@ -2586,7 +2586,7 @@ if
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 )

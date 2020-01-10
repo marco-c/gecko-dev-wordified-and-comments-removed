@@ -230,7 +230,7 @@ workerCount
 StaticPrefs
 :
 :
-LayersOMTPPaintWorkers
+layers_omtp_paint_workers
 (
 )
 ;
@@ -818,7 +818,7 @@ if
 StaticPrefs
 :
 :
-LayersOMTPDumpCapture
+layers_omtp_dump_capture
 (
 )
 &
@@ -1092,7 +1092,7 @@ if
 StaticPrefs
 :
 :
-LayersOMTPReleaseCaptureOnMainThread
+layers_omtp_release_capture_on_main_thread
 (
 )
 )

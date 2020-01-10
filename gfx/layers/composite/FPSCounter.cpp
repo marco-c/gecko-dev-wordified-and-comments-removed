@@ -1269,7 +1269,7 @@ if
 StaticPrefs
 :
 :
-FPSPrintHistogram
+layers_acceleration_draw_fps_print_histogram
 (
 )
 )
@@ -1544,7 +1544,7 @@ if
 StaticPrefs
 :
 :
-WriteFPSToFile
+layers_acceleration_draw_fps_write_to_file
 (
 )
 )

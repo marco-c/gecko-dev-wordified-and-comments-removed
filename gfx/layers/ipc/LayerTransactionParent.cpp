@@ -2794,7 +2794,7 @@ drawFps
 StaticPrefs
 :
 :
-LayersDrawFPS
+layers_acceleration_draw_fps
 (
 )
 ;
@@ -2809,7 +2809,7 @@ visualWarningTrigger
 StaticPrefs
 :
 :
-LayerTransactionWarning
+layers_transaction_warning_ms
 (
 )
 ;

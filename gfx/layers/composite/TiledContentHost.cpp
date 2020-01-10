@@ -210,7 +210,7 @@ if
 StaticPrefs
 :
 :
-LayerTileFadeInEnabled
+layers_tiles_fade_in_enabled
 (
 )
 |
@@ -237,7 +237,7 @@ duration
 StaticPrefs
 :
 :
-LayerTileFadeInDuration
+layers_tiles_fade_in_duration_ms
 (
 )
 ;
@@ -1808,7 +1808,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-LayerTileFadeInDuration
+layers_tiles_fade_in_duration_ms
 (
 )
 )
@@ -2155,7 +2155,7 @@ aOpacity
 StaticPrefs
 :
 :
-LowPrecisionOpacity
+layers_low_precision_opacity
 (
 )
 <
@@ -2247,7 +2247,7 @@ a
 StaticPrefs
 :
 :
-LowPrecisionOpacity
+layers_low_precision_opacity
 (
 )
 :
@@ -3402,7 +3402,7 @@ if
 StaticPrefs
 :
 :
-LayersDumpTexture
+layers_dump_texture
 (
 )
 )

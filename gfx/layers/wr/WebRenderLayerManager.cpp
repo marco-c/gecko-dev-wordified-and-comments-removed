@@ -3454,7 +3454,7 @@ SynchronouslyRepaintOnResize
 StaticPrefs
 :
 :
-LayersForceSynchronousResize
+layers_force_synchronous_resize
 (
 )
 )

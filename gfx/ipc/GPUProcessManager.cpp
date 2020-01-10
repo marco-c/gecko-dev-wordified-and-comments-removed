@@ -2668,7 +2668,7 @@ uint32_t
 StaticPrefs
 :
 :
-GPUProcessMaxRestarts
+layers_gpu_process_max_restarts
 (
 )
 )
@@ -2711,7 +2711,7 @@ uint32_t
 StaticPrefs
 :
 :
-GPUProcessMaxRestartsWithDecoder
+layers_gpu_process_max_restarts_with_decoder
 (
 )
 )
