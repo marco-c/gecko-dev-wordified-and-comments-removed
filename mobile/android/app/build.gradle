@@ -266,7 +266,7 @@ dexOptions
 {
 javaMaxHeapSize
 "
-4g
+6g
 "
 jumboMode
 =
