@@ -6065,6 +6065,7 @@ aInputString
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 SetInlinePropertyInternal
 (
@@ -6081,6 +6082,7 @@ aValue
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 RemoveInlinePropertyInternal
 (
@@ -6152,6 +6154,7 @@ aCell
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 SetCSSBackgroundColorWithTransaction
 (
