@@ -40,7 +40,9 @@ import
 (
 get_timeout_multiplier
                       
-run_info_browser_version
+run_info_extras
+as
+fx_run_info_extras
                       
 update_properties
                       
@@ -406,6 +408,15 @@ kwargs
 )
 :
     
+rv
+=
+fx_run_info_extras
+(
+*
+*
+kwargs
+)
+    
 package
 =
 kwargs
@@ -416,7 +427,9 @@ package_name
 ]
     
 rv
-=
+.
+update
+(
 {
 "
 e10s
@@ -436,27 +449,13 @@ in
 package
 else
 False
-          
+               
 "
 headless
 "
 :
 False
 }
-    
-rv
-.
-update
-(
-run_info_browser_version
-(
-kwargs
-[
-"
-binary
-"
-]
-)
 )
     
 return
