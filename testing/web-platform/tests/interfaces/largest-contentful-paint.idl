@@ -97,5 +97,13 @@ Element
 ?
 element
 ;
+[
+Default
+]
+object
+toJSON
+(
+)
+;
 }
 ;
