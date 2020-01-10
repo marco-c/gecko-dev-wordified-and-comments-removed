@@ -6003,6 +6003,11 @@ mCurrentOrientationType
 ;
 }
 void
+ClearOrientationPendingPromise
+(
+)
+;
+bool
 SetOrientationPendingPromise
 (
 Promise
