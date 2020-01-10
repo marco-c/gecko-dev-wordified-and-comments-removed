@@ -21839,7 +21839,7 @@ return
 }
 }
 }
-WeakMapSet
+WeakMapColors
 markedWeakMaps
 ;
 gc
