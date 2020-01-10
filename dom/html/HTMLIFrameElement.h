@@ -1057,11 +1057,6 @@ bool
 aNotify
 )
 ;
-void
-MaybeStoreCrossOriginFeaturePolicy
-(
-)
-;
 RefPtr
 <
 dom

@@ -80,17 +80,6 @@ mozilla
 /
 dom
 /
-FeaturePolicyUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 UserActivation
 .
 h

@@ -2492,9 +2492,6 @@ gfxConfig
 :
 IsEnabled
 (
-gfx
-:
-:
 Feature
 :
 :
