@@ -31318,8 +31318,6 @@ RegPtr
 valueAddr
 RegPtr
 value
-ValType
-valueType
 )
 {
 ASSERT_ANYREF_IS_JSOBJECT
@@ -44582,11 +44580,6 @@ Nothing
 )
 valueAddr
 rv
-global
-.
-type
-(
-)
 )
 )
 {
@@ -51298,14 +51291,6 @@ rp
 )
 valueAddr
 rr
-structType
-.
-fields_
-[
-fieldIndex
-]
-.
-type
 )
 )
 {
