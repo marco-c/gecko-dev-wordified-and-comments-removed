@@ -9698,6 +9698,8 @@ bug_numbers
 :
 -
 1456551
+-
+1566362
 description
 :
 >
@@ -9719,9 +9721,7 @@ id
 .
 expires
 :
-"
-65
-"
+never
 kind
 :
 uint
@@ -9743,6 +9743,11 @@ mozilla
 org
 -
 daisuke
+mozilla
+.
+com
+-
+hkirschner
 mozilla
 .
 com
