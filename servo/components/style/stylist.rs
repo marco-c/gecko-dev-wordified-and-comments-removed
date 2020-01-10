@@ -179,7 +179,6 @@ rule_tree
 {
 CascadeLevel
 RuleTree
-ShadowCascadeOrder
 StrongRuleNode
 StyleSource
 }
@@ -5253,7 +5252,9 @@ declaration
 CascadeLevel
 :
 :
-StyleAttributeNormal
+same_tree_author_normal
+(
+)
 )
 }
 )
@@ -8168,7 +8169,6 @@ selector
 specificity
 (
 )
-0
 )
 )
 ;
@@ -9856,9 +9856,6 @@ self
 level
 :
 CascadeLevel
-shadow_cascade_order
-:
-ShadowCascadeOrder
 )
 -
 >
@@ -9896,7 +9893,6 @@ self
 specificity
 (
 )
-shadow_cascade_order
 )
 }
 pub
