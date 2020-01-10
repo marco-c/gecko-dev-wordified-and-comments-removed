@@ -3234,6 +3234,15 @@ const
 =
 0
 ;
+virtual
+bool
+Destroyed
+(
+)
+const
+=
+0
+;
 TrackRate
 mSampleRate
 ;
