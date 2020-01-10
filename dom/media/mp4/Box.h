@@ -125,6 +125,7 @@ mAllocator
 struct
 ByteSlice
 {
+const
 uint8_t
 *
 mBytes
