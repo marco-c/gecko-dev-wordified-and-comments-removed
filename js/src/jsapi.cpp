@@ -18820,12 +18820,6 @@ rhs
 .
 selfHostingMode
 ;
-canLazilyParse
-=
-rhs
-.
-canLazilyParse
-;
 extraWarningsOption
 =
 rhs
