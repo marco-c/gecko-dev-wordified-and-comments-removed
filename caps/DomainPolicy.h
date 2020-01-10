@@ -82,7 +82,7 @@ aType
 void
 CloneSet
 (
-InfallibleTArray
+nsTArray
 <
 mozilla
 :
