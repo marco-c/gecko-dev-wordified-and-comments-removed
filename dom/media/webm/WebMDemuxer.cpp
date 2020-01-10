@@ -7158,7 +7158,7 @@ return
 offset
 ;
 }
-}
 #
 undef
 WEBM_DEBUG
+}

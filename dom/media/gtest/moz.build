@@ -138,11 +138,6 @@ UNIFIED_SOURCES
 =
 [
 '
-AudioGenerator
-.
-cpp
-'
-'
 MockMediaResource
 .
 cpp
@@ -254,11 +249,6 @@ cpp
 '
 '
 TestMP4Demuxer
-.
-cpp
-'
-'
-TestMuxer
 .
 cpp
 '

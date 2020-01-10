@@ -117,7 +117,7 @@ ContainerWriter
 h
 '
 '
-EncodedFrame
+EncodedFrameContainer
 .
 h
 '
@@ -148,11 +148,6 @@ UNIFIED_SOURCES
 [
 '
 MediaEncoder
-.
-cpp
-'
-'
-Muxer
 .
 cpp
 '
