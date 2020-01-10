@@ -451,7 +451,7 @@ Hspace
 )
 {
 return
-GetUnsignedIntAttr
+GetDimensionAttrAsUnsignedInt
 (
 nsGkAtoms
 :
@@ -489,7 +489,7 @@ Vspace
 )
 {
 return
-GetUnsignedIntAttr
+GetDimensionAttrAsUnsignedInt
 (
 nsGkAtoms
 :
