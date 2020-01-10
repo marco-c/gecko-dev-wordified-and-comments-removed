@@ -7105,7 +7105,7 @@ if
 xdr
 -
 >
-atomMap
+hasAtomMap
 (
 )
 )
@@ -7124,8 +7124,7 @@ xdr
 atomMap
 (
 )
--
->
+.
 lookup
 (
 atomp
@@ -7188,8 +7187,7 @@ xdr
 atomMap
 (
 )
--
->
+.
 lookupForAdd
 (
 atomp
@@ -7214,8 +7212,7 @@ xdr
 atomMap
 (
 )
--
->
+.
 add
 (
 p
