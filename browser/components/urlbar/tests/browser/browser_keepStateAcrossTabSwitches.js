@@ -7,6 +7,7 @@ add_task
 (
 async
 function
+validURL
 (
 )
 {
@@ -37,11 +38,15 @@ openNewForegroundTab
 (
 gBrowser
 "
-about
+http
 :
-blank
+/
+/
+example
+.
+com
+/
 "
-false
 )
 ;
 let
@@ -100,9 +105,7 @@ BrowserTestUtils
 .
 waitForErrorPage
 (
-tab
-.
-linkedBrowser
+browser
 )
 ;
 gURLBar
@@ -198,6 +201,7 @@ add_task
 (
 async
 function
+invalidURL
 (
 )
 {
