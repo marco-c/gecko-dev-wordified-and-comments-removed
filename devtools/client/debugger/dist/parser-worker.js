@@ -103148,10 +103148,8 @@ stack
 }
 )
 ;
-return
-result
-;
 }
+else
 if
 (
 isMap
@@ -103188,9 +103186,6 @@ stack
 ;
 }
 )
-;
-return
-result
 ;
 }
 var
