@@ -665,6 +665,15 @@ XPCOM_DEBUG_BREAK
 warn
 '
             
+env
+.
+update
+(
+self
+.
+extra_environment_variables
+)
+            
 outputHandler
 =
 OutputHandler
