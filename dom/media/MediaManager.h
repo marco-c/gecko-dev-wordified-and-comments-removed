@@ -617,6 +617,10 @@ bool
 mScary
 ;
 const
+bool
+mIsFake
+;
+const
 nsString
 mType
 ;
