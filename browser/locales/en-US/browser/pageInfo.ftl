@@ -117,12 +117,12 @@ accesskey
 A
 close
 -
-window
+dialog
 =
 .
 key
 =
-A
+w
 general
 -
 tab
