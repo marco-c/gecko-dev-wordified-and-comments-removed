@@ -18798,7 +18798,6 @@ home
 newtab
 plugins
 preferences
-serviceworkers
 sessionrestore
 support
 sync
