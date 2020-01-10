@@ -587,7 +587,7 @@ JSAtom
 >
 positionalParams
 const
-Context
+ListContext
 &
 context
 )
@@ -603,7 +603,7 @@ ParseNode
 parseAssignmentTarget
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -619,7 +619,7 @@ ParseNode
 parseAssignmentTargetOrForInOfBinding
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -635,7 +635,7 @@ ParseNode
 parseBinding
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -651,7 +651,7 @@ ParseNode
 parseExpression
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -667,7 +667,7 @@ ParseNode
 parseExpressionOrSpreadElement
 (
 const
-Context
+ListContext
 &
 context
 )
@@ -683,7 +683,7 @@ ParseNode
 parseExpressionOrSuper
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -699,7 +699,7 @@ ParseNode
 parseObjectProperty
 (
 const
-Context
+ListContext
 &
 context
 )
@@ -731,7 +731,7 @@ ParseNode
 parseProgram
 (
 const
-Context
+RootContext
 &
 context
 )
@@ -747,7 +747,7 @@ ParseNode
 parsePropertyName
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -763,7 +763,7 @@ ParseNode
 parseSimpleAssignmentTarget
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -815,7 +815,7 @@ JSAtom
 >
 positionalParams
 const
-Context
+ListContext
 &
 context
 )
@@ -841,7 +841,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -867,7 +867,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -893,7 +893,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -919,7 +919,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -945,7 +945,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -971,7 +971,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -997,7 +997,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -1023,7 +1023,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -1075,7 +1075,7 @@ BinASTFields
 &
 fields
 const
-Context
+RootContext
 &
 context
 )
@@ -1101,7 +1101,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -1127,7 +1127,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -1168,7 +1168,7 @@ Ok
 parseAssertedBlockScope
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -1185,7 +1185,7 @@ parseAssertedBoundName
 AssertedScopeKind
 scopeKind
 const
-Context
+ListContext
 &
 context
 )
@@ -1200,7 +1200,7 @@ Ok
 parseAssertedBoundNamesScope
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -1217,7 +1217,7 @@ parseAssertedDeclaredName
 AssertedScopeKind
 scopeKind
 const
-Context
+ListContext
 &
 context
 )
@@ -1241,7 +1241,7 @@ JSAtom
 >
 positionalParams
 const
-Context
+FieldContext
 &
 context
 )
@@ -1256,7 +1256,7 @@ Ok
 parseAssertedScriptGlobalScope
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -1271,7 +1271,7 @@ Ok
 parseAssertedVarScope
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -1319,7 +1319,7 @@ LexicalScopeNode
 parseCatchClause
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -1335,7 +1335,7 @@ ParseNode
 parseDirective
 (
 const
-Context
+ListContext
 &
 context
 )
@@ -1351,7 +1351,7 @@ ListNode
 parseFormalParameters
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -1426,7 +1426,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldContext
 &
 context
 )
@@ -1467,7 +1467,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldContext
 &
 context
 )
@@ -1483,7 +1483,7 @@ CaseClause
 parseSwitchCase
 (
 const
-Context
+ListContext
 &
 context
 )
@@ -1499,7 +1499,7 @@ ParseNode
 parseSwitchDefault
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -1515,7 +1515,7 @@ ParseNode
 parseVariableDeclarator
 (
 const
-Context
+ListContext
 &
 context
 )
@@ -1541,7 +1541,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -1618,7 +1618,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -1645,7 +1645,7 @@ fields
 AssertedScopeKind
 scopeKind
 const
-Context
+ListContext
 &
 context
 )
@@ -1670,7 +1670,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -1697,7 +1697,7 @@ fields
 AssertedScopeKind
 scopeKind
 const
-Context
+ListContext
 &
 context
 )
@@ -1731,7 +1731,7 @@ JSAtom
 >
 positionalParams
 const
-Context
+FieldContext
 &
 context
 )
@@ -1767,7 +1767,7 @@ JSAtom
 >
 positionalParams
 const
-Context
+ListContext
 &
 context
 )
@@ -1792,7 +1792,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -1817,7 +1817,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -1869,7 +1869,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -2077,7 +2077,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -2181,7 +2181,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -2233,7 +2233,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -2311,7 +2311,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -2363,7 +2363,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -2519,7 +2519,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -2545,7 +2545,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -2571,7 +2571,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -2649,7 +2649,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -2753,7 +2753,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -2858,7 +2858,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldContext
 &
 context
 )
@@ -3066,7 +3066,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -3092,7 +3092,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -3118,7 +3118,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -3248,7 +3248,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -3326,7 +3326,7 @@ BinASTFields
 &
 fields
 const
-Context
+RootContext
 &
 context
 )
@@ -3404,7 +3404,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -3508,7 +3508,7 @@ BinASTFields
 &
 fields
 const
-Context
+RootContext
 &
 context
 )
@@ -3543,7 +3543,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldContext
 &
 context
 )
@@ -3569,7 +3569,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -3595,7 +3595,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -3621,7 +3621,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -3673,7 +3673,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -3699,7 +3699,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -3725,7 +3725,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldContext
 &
 context
 )
@@ -4011,7 +4011,7 @@ BinASTFields
 &
 fields
 const
-Context
+ListContext
 &
 context
 )
@@ -4137,7 +4137,7 @@ AssertedDeclaredKind
 parseAssertedDeclaredKind
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4159,7 +4159,7 @@ BinaryOperator
 parseBinaryOperator
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4181,7 +4181,7 @@ CompoundAssignmentOperator
 parseCompoundAssignmentOperator
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4203,7 +4203,7 @@ UnaryOperator
 parseUnaryOperator
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4225,7 +4225,7 @@ UpdateOperator
 parseUpdateOperator
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4247,7 +4247,7 @@ VariableDeclarationKind
 parseVariableDeclarationKind
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4263,7 +4263,7 @@ ParseNode
 parseArguments
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4279,7 +4279,7 @@ ListNode
 parseFunctionBody
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4296,7 +4296,7 @@ parseListOfAssertedBoundName
 AssertedScopeKind
 scopeKind
 const
-Context
+FieldContext
 &
 context
 )
@@ -4313,7 +4313,7 @@ parseListOfAssertedDeclaredName
 AssertedScopeKind
 scopeKind
 const
-Context
+FieldContext
 &
 context
 )
@@ -4339,7 +4339,7 @@ JSAtom
 >
 positionalParams
 const
-Context
+FieldContext
 &
 context
 )
@@ -4355,7 +4355,7 @@ ListNode
 parseListOfDirective
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4371,7 +4371,7 @@ ListNode
 parseListOfObjectProperty
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4387,7 +4387,7 @@ ListNode
 parseListOfOptionalExpressionOrSpreadElement
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4403,7 +4403,7 @@ ListNode
 parseListOfParameter
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4419,7 +4419,7 @@ ListNode
 parseListOfStatement
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4435,7 +4435,7 @@ ListNode
 parseListOfSwitchCase
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4453,7 +4453,7 @@ parseListOfVariableDeclarator
 ParseNodeKind
 declarationListKind
 const
-Context
+FieldContext
 &
 context
 )
@@ -4469,7 +4469,7 @@ ParseNode
 parseOptionalBinding
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4485,7 +4485,7 @@ ParseNode
 parseOptionalBindingIdentifier
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4501,7 +4501,7 @@ LexicalScopeNode
 parseOptionalCatchClause
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4517,7 +4517,7 @@ ParseNode
 parseOptionalExpression
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4533,7 +4533,7 @@ ParseNode
 parseOptionalExpressionOrSpreadElement
 (
 const
-Context
+ListContext
 &
 context
 )
@@ -4549,7 +4549,7 @@ ParseNode
 parseOptionalExpressionOrVariableDeclaration
 (
 const
-Context
+FieldContext
 &
 context
 )
@@ -4565,7 +4565,7 @@ ParseNode
 parseOptionalStatement
 (
 const
-Context
+FieldContext
 &
 context
 )
