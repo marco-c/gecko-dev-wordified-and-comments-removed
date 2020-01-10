@@ -2,16 +2,6 @@
 "
 topsrcdir
 /
-build
-/
-mozconfig
-.
-pgo
-"
-.
-"
-topsrcdir
-/
 browser
 /
 config
