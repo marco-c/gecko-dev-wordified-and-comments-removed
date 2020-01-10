@@ -1728,6 +1728,7 @@ COMPONENT_TRANSFER_TABLE
 case
 COMPONENT_TRANSFER_DISCRETE
 :
+{
 /
 /
 fetch
@@ -1802,9 +1803,11 @@ offset
 ;
 break
 ;
+}
 case
 COMPONENT_TRANSFER_LINEAR
 :
+{
 /
 /
 fetch
@@ -1869,9 +1872,11 @@ offset
 ;
 break
 ;
+}
 case
 COMPONENT_TRANSFER_GAMMA
 :
+{
 /
 /
 fetch
@@ -1943,6 +1948,7 @@ offset
 ;
 break
 ;
+}
 default
 :
 /
@@ -2126,6 +2132,7 @@ break
 case
 13
 :
+{
 /
 /
 Component
@@ -2167,6 +2174,7 @@ a
 ;
 break
 ;
+}
 case
 14
 :

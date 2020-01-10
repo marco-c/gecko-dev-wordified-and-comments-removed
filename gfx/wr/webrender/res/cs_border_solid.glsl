@@ -505,6 +505,7 @@ SEGMENT_BOTTOM_RIGHT
 case
 SEGMENT_BOTTOM_LEFT
 :
+{
 mix_colors
 =
 do_aa
@@ -515,6 +516,7 @@ MIX_NO_AA
 ;
 break
 ;
+}
 default
 :
 mix_colors
