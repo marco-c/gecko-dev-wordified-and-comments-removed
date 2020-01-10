@@ -77,11 +77,11 @@ perms
 let
 perm
 =
-'
+"
 test
 -
 idn
-'
+"
 ;
 let
 mainDomainPrincipal
@@ -218,7 +218,7 @@ punyMainDomainPrincipal
 =
 getPrincipalFromDomain
 (
-'
+"
 xn
 -
 -
@@ -227,7 +227,7 @@ f
 xgav
 .
 com
-'
+"
 )
 ;
 let
@@ -235,7 +235,7 @@ punySubDomainPrincipal
 =
 getPrincipalFromDomain
 (
-'
+"
 xn
 -
 -
@@ -251,7 +251,7 @@ br
 jia
 .
 com
-'
+"
 )
 ;
 let
@@ -259,7 +259,7 @@ punyTldPrincipal
 =
 getPrincipalFromDomain
 (
-'
+"
 xn
 -
 -
@@ -280,7 +280,7 @@ xn
 cm
 -
 8ja
-'
+"
 )
 ;
 Assert

@@ -9,9 +9,7 @@ principals
 .
 forEach
 (
-(
 principal
-)
 =
 >
 {
@@ -94,9 +92,7 @@ principals
 .
 forEach
 (
-(
 principal
-)
 =
 >
 {
@@ -180,9 +176,7 @@ principals
 .
 forEach
 (
-(
 principal
-)
 =
 >
 {

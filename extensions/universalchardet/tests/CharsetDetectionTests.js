@@ -144,7 +144,7 @@ ioService
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -156,7 +156,7 @@ io
 service
 ;
 1
-'
+"
 ]
 .
 getService

@@ -1532,9 +1532,7 @@ expected
 .
 map
 (
-(
 it
-)
 =
 >
 0
@@ -1996,9 +1994,7 @@ created5
 .
 forEach
 (
-(
 it
-)
 =
 >
 {

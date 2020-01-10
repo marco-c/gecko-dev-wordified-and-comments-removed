@@ -157,7 +157,7 @@ obs
 notifyObservers
 (
 null
-'
+"
 clear
 -
 origin
@@ -165,7 +165,7 @@ origin
 attributes
 -
 data
-'
+"
 aData
 )
 ;
@@ -204,13 +204,13 @@ principals
 [
 i
 ]
-'
+"
 test
 /
 clear
 -
 origin
-'
+"
 )
 aResults
 [
@@ -239,13 +239,13 @@ principals
 [
 i
 ]
-'
+"
 test
 /
 clear
 -
 origin
-'
+"
 )
 ;
 }
@@ -289,7 +289,7 @@ entries
 {
 origin
 :
-'
+"
 http
 :
 /
@@ -297,7 +297,7 @@ http
 example
 .
 com
-'
+"
 originAttributes
 :
 {
@@ -306,7 +306,7 @@ originAttributes
 {
 origin
 :
-'
+"
 http
 :
 /
@@ -314,7 +314,7 @@ http
 example
 .
 com
-'
+"
 originAttributes
 :
 {

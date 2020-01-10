@@ -161,6 +161,7 @@ fileSize
 +
 i
 )
+{
 conv
 .
 writeString
@@ -170,6 +171,7 @@ a
 "
 )
 ;
+}
 conv
 .
 close
