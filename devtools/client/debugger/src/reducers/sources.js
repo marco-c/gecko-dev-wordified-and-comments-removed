@@ -229,13 +229,13 @@ SourceAction
 import
 type
 {
-DebuggeeState
+ThreadsState
 }
 from
 "
 .
 /
-debuggee
+threads
 "
 ;
 import
@@ -2076,12 +2076,12 @@ SourcesState
 }
 ;
 type
-DebuggeeOuterState
+ThreadsOuterState
 =
 {
-debuggee
+threads
 :
-DebuggeeState
+ThreadsState
 }
 ;
 const
@@ -2947,7 +2947,7 @@ OuterState
 &
 SourceActorOuterState
 &
-DebuggeeOuterState
+ThreadsOuterState
 )
 :
 Source
@@ -3429,7 +3429,7 @@ state
 :
 OuterState
 &
-DebuggeeOuterState
+ThreadsOuterState
 )
 :
 Array
@@ -3464,7 +3464,7 @@ debuggeeIsWebExtension
 :
 state
 .
-debuggee
+threads
 .
 isWebExtension
 }
@@ -3479,7 +3479,7 @@ OuterState
 &
 SourceActorOuterState
 &
-DebuggeeOuterState
+ThreadsOuterState
 )
 =
 >
@@ -3599,7 +3599,7 @@ OuterState
 &
 SourceActorOuterState
 &
-DebuggeeOuterState
+ThreadsOuterState
 )
 =
 >

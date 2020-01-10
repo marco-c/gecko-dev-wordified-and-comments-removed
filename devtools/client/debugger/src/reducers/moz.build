@@ -86,11 +86,6 @@ breakpoints
 js
 '
 '
-debuggee
-.
-js
-'
-'
 event
 -
 listeners
@@ -168,6 +163,11 @@ js
 '
 '
 tabs
+.
+js
+'
+'
+threads
 .
 js
 '

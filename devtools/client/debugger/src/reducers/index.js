@@ -150,12 +150,12 @@ tree
 "
 ;
 import
-debuggee
+threads
 from
 "
 .
 /
-debuggee
+threads
 "
 ;
 import
@@ -197,7 +197,7 @@ ast
 projectTextSearch
 quickOpen
 sourceTree
-debuggee
+threads
 objectInspector
 :
 objectInspector

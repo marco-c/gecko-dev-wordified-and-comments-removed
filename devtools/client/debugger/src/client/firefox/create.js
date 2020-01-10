@@ -4,7 +4,7 @@ type
 Frame
 ThreadId
 GeneratedSourceData
-Worker
+Thread
 }
 from
 "
@@ -281,7 +281,7 @@ target
 Target
 )
 :
-Worker
+Thread
 {
 return
 {

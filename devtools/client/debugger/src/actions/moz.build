@@ -84,11 +84,6 @@ utils
 CompiledModules
 (
 '
-debuggee
-.
-js
-'
-'
 event
 -
 listeners
@@ -159,6 +154,11 @@ js
 '
 '
 toolbox
+.
+js
+'
+'
+threads
 .
 js
 '

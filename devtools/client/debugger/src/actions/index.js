@@ -169,12 +169,12 @@ tabs
 import
 *
 as
-debuggee
+threads
 from
 "
 .
 /
-debuggee
+threads
 "
 ;
 import
@@ -261,7 +261,7 @@ sourceTree
 .
 .
 .
-debuggee
+threads
 .
 .
 .
