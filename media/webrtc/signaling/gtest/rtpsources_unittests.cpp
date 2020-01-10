@@ -211,6 +211,7 @@ i
 i
 +
 jitter
+i
 hasAudioLevel
 audioLevel
 )
@@ -387,6 +388,7 @@ Insert
 (
 timeNow
 time0
+0
 true
 0
 )
@@ -413,6 +415,7 @@ Insert
 (
 timeNow
 time1
+1
 true
 0
 )
@@ -449,6 +452,7 @@ Insert
 (
 timeNow
 time2
+2
 true
 0
 )
@@ -485,6 +489,7 @@ Insert
 (
 timeNow
 time3
+3
 true
 0
 )
@@ -643,6 +648,7 @@ Insert
 (
 timeNow0
 time0
+0
 false
 1
 )
@@ -695,6 +701,7 @@ Insert
 (
 timeNow0
 time1
+1
 true
 2
 )
@@ -896,6 +903,12 @@ timeNow
 10
 ;
 const
+uint32_t
+ntpTimestamp
+=
+0
+;
+const
 bool
 hasAudioLevel
 =
@@ -925,6 +938,7 @@ Insert
 (
 timeNow
 jitterAdjusted
+ntpTimestamp
 hasAudioLevel
 audioLevel0
 )
@@ -996,6 +1010,7 @@ Insert
 (
 timeNow
 jitterAdjusted
+ntpTimestamp
 hasAudioLevel
 audioLevel1
 )
@@ -1067,6 +1082,7 @@ Insert
 (
 timeNow
 jitterAdjusted
+ntpTimestamp
 hasAudioLevel
 audioLevel2
 )
@@ -1222,14 +1238,21 @@ timeNow
 +
 jitter
 ;
+const
+uint32_t
+ntpTimestamp
+=
+0
+;
 history
 .
 Insert
 (
 timeNow
 jitterAdjusted
-0
+ntpTimestamp
 false
+0
 )
 ;
 history

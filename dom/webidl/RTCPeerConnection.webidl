@@ -877,6 +877,9 @@ long
 source
 DOMHighResTimeStamp
 timestamp
+unsigned
+long
+rtpTimestamp
 boolean
 hasLevel
 byte
