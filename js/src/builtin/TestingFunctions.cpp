@@ -11490,6 +11490,15 @@ THREAD_TYPE_NONE
 |
 |
 targetThread
+=
+=
+js
+:
+:
+THREAD_TYPE_WORKER
+|
+|
+targetThread
 >
 =
 js

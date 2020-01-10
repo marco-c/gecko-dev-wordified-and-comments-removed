@@ -4,9 +4,3 @@ oomAtAllocation
 11
 )
 ;
-evalInWorker
-(
-"
-"
-)
-;
