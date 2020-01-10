@@ -2620,7 +2620,7 @@ Bridge
 *
 aStatus
 =
-WebRtcHwEncodeSupported
+WebRtcHwVp8EncodeSupported
 (
 )
 ;
@@ -2659,7 +2659,7 @@ Bridge
 *
 aStatus
 =
-WebRtcHwDecodeSupported
+WebRtcHwVp8DecodeSupported
 (
 )
 ;
@@ -3066,7 +3066,7 @@ int32_t
 GfxInfo
 :
 :
-WebRtcHwEncodeSupported
+WebRtcHwVp8EncodeSupported
 (
 )
 {
@@ -3115,7 +3115,7 @@ Bridge
 )
 -
 >
-GetHWEncoderCapability
+HasHWVP8Encoder
 (
 )
 ?
@@ -3144,7 +3144,7 @@ int32_t
 GfxInfo
 :
 :
-WebRtcHwDecodeSupported
+WebRtcHwVp8DecodeSupported
 (
 )
 {
@@ -3193,7 +3193,7 @@ Bridge
 )
 -
 >
-GetHWDecoderCapability
+HasHWVP8Decoder
 (
 )
 ?

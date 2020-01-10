@@ -411,12 +411,12 @@ AddCrashReportAnnotations
 )
 ;
 int32_t
-WebRtcHwEncodeSupported
+WebRtcHwVp8EncodeSupported
 (
 )
 ;
 int32_t
-WebRtcHwDecodeSupported
+WebRtcHwVp8DecodeSupported
 (
 )
 ;
