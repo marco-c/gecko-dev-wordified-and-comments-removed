@@ -68,7 +68,7 @@ handleClose
 =
 {
 [
-MockFunction
+Function
 ]
 }
 hasPrefix
@@ -541,7 +541,7 @@ handleClose
 =
 {
 [
-MockFunction
+Function
 ]
 }
 hasPrefix
@@ -802,7 +802,7 @@ handleClick
 =
 {
 [
-MockFunction
+Function
 ]
 }
 >
@@ -820,7 +820,7 @@ onClick
 =
 {
 [
-MockFunction
+Function
 ]
 }
 >
@@ -3424,7 +3424,7 @@ handleClose
 =
 {
 [
-MockFunction
+Function
 ]
 }
 hasPrefix
@@ -3604,7 +3604,7 @@ handleClose
 =
 {
 [
-MockFunction
+Function
 ]
 }
 hasPrefix
@@ -3783,7 +3783,7 @@ handleClose
 =
 {
 [
-MockFunction
+Function
 ]
 }
 hasPrefix
@@ -4011,7 +4011,7 @@ handleClose
 =
 {
 [
-MockFunction
+Function
 ]
 }
 hasPrefix
@@ -4168,7 +4168,7 @@ handleClose
 =
 {
 [
-MockFunction
+Function
 ]
 }
 hasPrefix
