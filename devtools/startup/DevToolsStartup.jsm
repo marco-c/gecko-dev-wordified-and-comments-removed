@@ -223,6 +223,8 @@ menu
 button
 .
 jsm
+.
+js
 "
 )
 ;
@@ -933,6 +935,8 @@ popup
 background
 .
 jsm
+.
+js
 "
 )
 ;

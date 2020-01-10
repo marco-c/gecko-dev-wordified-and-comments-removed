@@ -67,6 +67,8 @@ DevToolsModules
 background
 .
 jsm
+.
+js
 '
 '
 menu
@@ -74,6 +76,8 @@ menu
 button
 .
 jsm
+.
+js
 '
 )
 with

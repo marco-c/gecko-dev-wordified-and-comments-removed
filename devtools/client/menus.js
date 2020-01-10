@@ -176,6 +176,8 @@ menu
 button
 .
 jsm
+.
+js
 "
 )
 ;
