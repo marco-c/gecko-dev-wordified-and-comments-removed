@@ -742,7 +742,7 @@ NewObject
 Throws
 ]
 static
-DOMMatrixReadOnly
+DOMMatrix
 fromFloat32Array
 (
 Float32Array
@@ -754,7 +754,7 @@ NewObject
 Throws
 ]
 static
-DOMMatrixReadOnly
+DOMMatrix
 fromFloat64Array
 (
 Float64Array
