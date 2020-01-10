@@ -106,13 +106,4 @@ client
 .
 js
 '
-'
-deprecated
--
-thread
--
-client
-.
-js
-'
 )

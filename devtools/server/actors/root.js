@@ -333,9 +333,6 @@ true
 watchpoints
 :
 true
-hasThreadFront
-:
-true
 }
 sayHello
 :
