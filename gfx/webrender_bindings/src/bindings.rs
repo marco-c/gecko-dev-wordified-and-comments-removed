@@ -6707,6 +6707,9 @@ RendererOptions
 enable_aa
 :
 true
+force_subpixel_aa
+:
+false
 enable_subpixel_aa
 :
 cfg
