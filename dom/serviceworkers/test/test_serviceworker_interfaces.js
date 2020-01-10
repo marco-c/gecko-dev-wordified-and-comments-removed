@@ -415,9 +415,6 @@ name
 "
 PushEvent
 "
-fennecOrDesktop
-:
-true
 }
 {
 name
@@ -425,9 +422,6 @@ name
 "
 PushManager
 "
-fennecOrDesktop
-:
-true
 }
 {
 name
@@ -435,9 +429,6 @@ name
 "
 PushMessageData
 "
-fennecOrDesktop
-:
-true
 }
 {
 name
@@ -445,9 +436,6 @@ name
 "
 PushSubscription
 "
-fennecOrDesktop
-:
-true
 }
 {
 name
@@ -455,9 +443,6 @@ name
 "
 PushSubscriptionOptions
 "
-fennecOrDesktop
-:
-true
 }
 "
 Request
