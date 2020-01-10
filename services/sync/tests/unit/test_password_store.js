@@ -939,8 +939,6 @@ foo
 bar
 .
 com
-/
-baz
 "
 httpRealm
 :
@@ -1001,8 +999,6 @@ foo
 baz
 .
 com
-/
-baz
 "
 username
 :

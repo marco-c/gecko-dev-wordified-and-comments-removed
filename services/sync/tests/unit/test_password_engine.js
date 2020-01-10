@@ -880,7 +880,7 @@ formSubmitURL
 =
 newLogin
 .
-formSubmitURL
+formActionOrigin
 ;
 rec
 .
@@ -896,7 +896,7 @@ hostname
 =
 newLogin
 .
-hostname
+origin
 ;
 rec
 .
@@ -1155,7 +1155,7 @@ hostname
 =
 oldLogin
 .
-hostname
+origin
 ;
 rec
 .
@@ -1163,7 +1163,7 @@ formSubmitURL
 =
 oldLogin
 .
-formSubmitURL
+formActionOrigin
 ;
 rec
 .

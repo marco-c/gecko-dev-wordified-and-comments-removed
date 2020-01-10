@@ -70,8 +70,6 @@ www
 11111
 .
 com
-/
-login
 "
 password
 :
@@ -133,8 +131,6 @@ www
 22222
 .
 org
-/
-login
 "
 password
 :
@@ -196,8 +192,6 @@ www
 33333
 .
 com
-/
-login
 "
 password
 :
@@ -263,8 +257,6 @@ www
 11111
 .
 com
-/
-login
 "
 password
 :
@@ -326,8 +318,6 @@ www
 22222
 .
 org
-/
-login
 "
 password
 :
@@ -389,8 +379,6 @@ www
 33333
 .
 com
-/
-login
 "
 password
 :
