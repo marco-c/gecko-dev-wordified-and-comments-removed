@@ -558,12 +558,6 @@ RemoveEmptyNodesInChangedRange
 (
 )
 ;
-MOZ_MUST_USE
-nsresult
-ConfirmSelectionInBody
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 void
 DocumentModifiedWorker

@@ -4871,6 +4871,13 @@ EDirection
 aDirectionAndAmount
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+EnsureSelectionInBodyOrDocumentElement
+(
+)
+;
 protected
 :
 virtual
