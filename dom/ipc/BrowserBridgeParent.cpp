@@ -443,14 +443,7 @@ browserParent
 >
 OpenPWindowGlobalEndpoint
 (
-do_AddRef
-(
 windowParent
-)
-.
-take
-(
-)
 )
 ;
 if

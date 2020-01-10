@@ -812,17 +812,7 @@ FileDescriptorUtils
 cpp
 '
 '
-InProcessChild
-.
-cpp
-'
-'
 InProcessImpl
-.
-cpp
-'
-'
-InProcessParent
 .
 cpp
 '
