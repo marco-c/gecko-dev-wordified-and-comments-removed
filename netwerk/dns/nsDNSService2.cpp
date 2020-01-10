@@ -2411,7 +2411,7 @@ GetXPCOMSingleton
 {
 if
 (
-IsNeckoChild
+XRE_IsContentProcess
 (
 )
 )
@@ -2444,8 +2444,7 @@ GetSingleton
 {
 NS_ASSERTION
 (
-!
-IsNeckoChild
+XRE_IsParentProcess
 (
 )
 "

@@ -162,7 +162,7 @@ GetSingleton
 {
 MOZ_ASSERT
 (
-IsNeckoChild
+XRE_IsContentProcess
 (
 )
 )
@@ -225,7 +225,7 @@ DNSPendingRequestsLock
 {
 MOZ_ASSERT
 (
-IsNeckoChild
+XRE_IsContentProcess
 (
 )
 )
