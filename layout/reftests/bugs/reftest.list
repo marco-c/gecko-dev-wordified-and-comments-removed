@@ -9307,6 +9307,15 @@ pref
 (
 mathml
 .
+nonzero_unitless_lengths
+.
+disabled
+false
+)
+pref
+(
+mathml
+.
 mathsize_names
 .
 disabled
