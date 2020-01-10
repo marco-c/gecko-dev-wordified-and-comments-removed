@@ -19029,7 +19029,7 @@ NS_IMETHODIMP
 HttpBaseChannel
 :
 :
-ComputeCrossOriginOpenerPolicy
+GetCrossOriginOpenerPolicy
 (
 nsILoadInfo
 :

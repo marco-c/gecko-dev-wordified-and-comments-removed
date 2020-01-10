@@ -2087,7 +2087,7 @@ NS_IMETHODIMP
 ClassifierDummyChannel
 :
 :
-ComputeCrossOriginOpenerPolicy
+GetCrossOriginOpenerPolicy
 (
 nsILoadInfo
 :

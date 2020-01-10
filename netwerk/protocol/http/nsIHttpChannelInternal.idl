@@ -2539,7 +2539,7 @@ channel
 noscript
 ]
 nsILoadInfo_CrossOriginOpenerPolicy
-computeCrossOriginOpenerPolicy
+getCrossOriginOpenerPolicy
 (
 in
 nsILoadInfo_CrossOriginOpenerPolicy
