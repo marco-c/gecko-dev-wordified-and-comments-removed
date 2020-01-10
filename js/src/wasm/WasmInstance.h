@@ -116,6 +116,7 @@ const
 UniqueTlsData
 tlsData_
 ;
+const
 GCPtrWasmMemoryObject
 memory_
 ;

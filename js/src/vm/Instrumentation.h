@@ -217,9 +217,11 @@ DEFINE_INSTRUMENTATION_ENUM
 class
 RealmInstrumentation
 {
+const
 GCPtrObject
 callback
 ;
+const
 GCPtrObject
 dbgObject
 ;
