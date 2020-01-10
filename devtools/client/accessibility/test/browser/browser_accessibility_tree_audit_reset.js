@@ -193,9 +193,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 1
 )
 ;

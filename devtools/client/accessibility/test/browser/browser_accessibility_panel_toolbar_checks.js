@@ -65,7 +65,7 @@ state
 expected
 :
 {
-toolbar
+activeToolbarFilters
 :
 [
 true
@@ -101,9 +101,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 1
 )
 ;
@@ -111,7 +112,7 @@ doc
 expected
 :
 {
-toolbar
+activeToolbarFilters
 :
 [
 false
@@ -144,9 +145,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 1
 )
 ;
@@ -154,7 +156,7 @@ doc
 expected
 :
 {
-toolbar
+activeToolbarFilters
 :
 [
 true
@@ -188,9 +190,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 2
 )
 ;
@@ -198,7 +201,7 @@ doc
 expected
 :
 {
-toolbar
+activeToolbarFilters
 :
 [
 false
@@ -231,9 +234,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 2
 )
 ;
@@ -241,7 +245,7 @@ doc
 expected
 :
 {
-toolbar
+activeToolbarFilters
 :
 [
 true
@@ -275,9 +279,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 2
 )
 ;
@@ -285,7 +290,7 @@ doc
 expected
 :
 {
-toolbar
+activeToolbarFilters
 :
 [
 false
@@ -319,9 +324,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 3
 )
 ;
@@ -329,7 +335,7 @@ doc
 expected
 :
 {
-toolbar
+activeToolbarFilters
 :
 [
 false
@@ -367,9 +373,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 0
 )
 ;
@@ -377,7 +384,7 @@ doc
 expected
 :
 {
-toolbar
+activeToolbarFilters
 :
 [
 true

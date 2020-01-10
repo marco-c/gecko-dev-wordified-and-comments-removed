@@ -113,7 +113,7 @@ exports
 audit
 =
 (
-walker
+accessibilityWalker
 filter
 )
 =
@@ -173,7 +173,7 @@ case
 error
 "
 :
-walker
+accessibilityWalker
 .
 off
 (
@@ -208,7 +208,7 @@ case
 completed
 "
 :
-walker
+accessibilityWalker
 .
 off
 (
@@ -262,7 +262,7 @@ break
 }
 }
 ;
-walker
+accessibilityWalker
 .
 on
 (
@@ -274,7 +274,7 @@ event
 auditEventHandler
 )
 ;
-walker
+accessibilityWalker
 .
 startAudit
 (

@@ -162,7 +162,7 @@ selected
 true
 }
 ]
-toolbar
+activeToolbarFilters
 :
 [
 true
@@ -204,9 +204,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 1
 )
 ;
@@ -267,7 +268,7 @@ contrast
 ]
 }
 ]
-toolbar
+activeToolbarFilters
 :
 [
 false
@@ -300,9 +301,10 @@ doc
 >
 {
 await
-toggleFilter
+toggleMenuItem
 (
 doc
+0
 1
 )
 ;
@@ -405,7 +407,7 @@ contrast
 ]
 }
 ]
-toolbar
+activeToolbarFilters
 :
 [
 true
