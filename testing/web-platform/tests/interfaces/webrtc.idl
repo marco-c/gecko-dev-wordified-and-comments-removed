@@ -474,6 +474,11 @@ boolean
 ?
 canTrickleIceCandidates
 ;
+void
+restartIce
+(
+)
+;
 static
 sequence
 <
