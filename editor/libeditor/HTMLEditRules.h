@@ -178,12 +178,6 @@ AfterEdit
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-nsresult
-DocumentModified
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 GetListState
@@ -319,12 +313,6 @@ nsINode
 >
 &
 outArrayOfNodes
-)
-;
-MOZ_CAN_RUN_SCRIPT
-void
-DocumentModifiedWorker
-(
 )
 ;
 protected

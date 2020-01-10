@@ -4996,6 +4996,12 @@ int32_t
 aChange
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+nsresult
+OnDocumentModified
+(
+)
+;
 protected
 :
 virtual
@@ -7960,6 +7966,7 @@ eAppended
 }
 InsertedOrAppended
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DoContentInserted
 (
@@ -7967,6 +7974,7 @@ nsIContent
 *
 aChild
 InsertedOrAppended
+aInsertedOrAppended
 )
 ;
 ManualNACPtr
