@@ -1155,7 +1155,7 @@ ifdef
 MOZ_GECKO_PROFILER
 if
 (
-profiler_can_accept_markers
+profiler_is_active
 (
 )
 )
@@ -1565,7 +1565,7 @@ ifdef
 MOZ_GECKO_PROFILER
 if
 (
-profiler_can_accept_markers
+profiler_is_active
 (
 )
 )
