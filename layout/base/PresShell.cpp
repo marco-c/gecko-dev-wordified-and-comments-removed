@@ -13794,6 +13794,14 @@ Length
 =
 =
 1
+&
+&
+aOldSlot
+-
+>
+HasChildren
+(
+)
 )
 {
 DestroyFramesForAndRestyle
