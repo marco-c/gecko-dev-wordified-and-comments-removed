@@ -350,6 +350,12 @@ aIsReload
 )
 override
 ;
+nsresult
+SpawnWorkerIfNeeded
+(
+)
+override
+;
 void
 TerminateWorker
 (
@@ -415,11 +421,6 @@ ServiceWorkerRegistrationInfo
 >
 &
 aRegistration
-)
-;
-nsresult
-SpawnWorkerIfNeeded
-(
 )
 ;
 nsresult

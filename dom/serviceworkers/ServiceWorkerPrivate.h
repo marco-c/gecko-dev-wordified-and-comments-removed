@@ -373,6 +373,14 @@ aIsReload
 0
 ;
 virtual
+nsresult
+SpawnWorkerIfNeeded
+(
+)
+=
+0
+;
+virtual
 void
 TerminateWorker
 (
