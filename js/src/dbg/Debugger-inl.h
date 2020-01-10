@@ -1,13 +1,13 @@
 #
 ifndef
-vm_Debugger_inl_h
+dbg_Debugger_inl_h
 #
 define
-vm_Debugger_inl_h
+dbg_Debugger_inl_h
 #
 include
 "
-vm
+dbg
 /
 Debugger
 .
