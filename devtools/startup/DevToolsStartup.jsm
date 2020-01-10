@@ -612,7 +612,7 @@ GetStringFromName
 "
 jsdebugger
 .
-commandkey
+commandkey2
 "
 )
 modifiers
