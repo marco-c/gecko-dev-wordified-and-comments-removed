@@ -231,8 +231,11 @@ GetTerminationPromise
 (
 )
 ;
-void
-CloseWorkerOnMainThread
+RefPtr
+<
+GenericPromise
+>
+MaybeSendSetServiceWorkerSkipWaitingFlag
 (
 )
 ;
