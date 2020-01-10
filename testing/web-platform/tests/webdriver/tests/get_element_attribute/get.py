@@ -666,8 +666,6 @@ False
         
 result
 =
-result
-=
 get_element_attribute
 (
 session
@@ -724,8 +722,6 @@ False
     
 result
 =
-result
-=
 get_element_attribute
 (
 session
@@ -775,8 +771,6 @@ all
 False
 )
     
-result
-=
 result
 =
 get_element_attribute
@@ -829,8 +823,6 @@ False
     
 result
 =
-result
-=
 get_element_attribute
 (
 session
@@ -880,8 +872,6 @@ all
 False
 )
     
-result
-=
 result
 =
 get_element_attribute
