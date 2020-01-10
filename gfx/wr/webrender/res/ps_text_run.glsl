@@ -1203,7 +1203,7 @@ y
 16
 ;
 int
-raster_space
+clip_address
 =
 aData
 .
@@ -1278,11 +1278,7 @@ clip_area
 =
 fetch_clip_area
 (
-ph
-.
-user_data
-.
-w
+clip_address
 )
 ;
 PictureTask
@@ -1292,6 +1288,15 @@ fetch_picture_task
 (
 render_task_index
 )
+;
+int
+raster_space
+=
+ph
+.
+user_data
+.
+w
 ;
 TextRun
 text
