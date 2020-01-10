@@ -161,7 +161,3 @@ Element
 implements
 LegacyQueryInterface
 ;
-Window
-implements
-LegacyQueryInterface
-;
