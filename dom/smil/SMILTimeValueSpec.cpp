@@ -1738,6 +1738,8 @@ if
 (
 resultAsDouble
 >
+double
+(
 std
 :
 :
@@ -1750,10 +1752,13 @@ SMILTime
 max
 (
 )
+)
 |
 |
 resultAsDouble
 <
+double
+(
 std
 :
 :
@@ -1765,6 +1770,7 @@ SMILTime
 :
 min
 (
+)
 )
 )
 {

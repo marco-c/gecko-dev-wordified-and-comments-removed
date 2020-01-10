@@ -7496,6 +7496,8 @@ GetMillis
 )
 )
 <
+double
+(
 std
 :
 :
@@ -7507,6 +7509,7 @@ SMILTime
 :
 max
 (
+)
 )
 )
 {
@@ -8687,6 +8690,8 @@ aCurrentTime
 +
 offset
 >
+double
+(
 std
 :
 :
@@ -8698,6 +8703,7 @@ SMILTime
 :
 max
 (
+)
 )
 )
 return
