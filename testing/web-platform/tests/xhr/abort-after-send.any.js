@@ -56,6 +56,17 @@ readyState
 control_flag
 =
 true
+if
+(
+self
+.
+GLOBAL
+.
+isWindow
+(
+)
+)
+{
 assert_equals
 (
 client
@@ -63,6 +74,7 @@ client
 responseXML
 null
 )
+}
 assert_equals
 (
 client
