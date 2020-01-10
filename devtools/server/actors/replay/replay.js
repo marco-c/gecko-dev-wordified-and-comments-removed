@@ -3780,6 +3780,7 @@ hitLogpoint
 {
 text
 condition
+skipPauseData
 }
 )
 {
@@ -3869,7 +3870,15 @@ displayName
 }
 )
 ;
-const
+let
+pauseData
+;
+if
+(
+!
+skipPauseData
+)
+{
 pauseData
 =
 getPauseData
@@ -3890,6 +3899,7 @@ ClearPausedState
 (
 )
 ;
+}
 let
 result
 ;
