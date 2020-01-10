@@ -76,7 +76,7 @@ Span
 const
 {
 return
-GetIntAttr
+GetUnsignedIntAttr
 (
 nsGkAtoms
 :
