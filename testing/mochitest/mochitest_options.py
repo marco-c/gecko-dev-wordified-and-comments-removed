@@ -206,9 +206,6 @@ enabled_apps
 '
 firefox
 '
-'
-android
-'
 )
         
 '
