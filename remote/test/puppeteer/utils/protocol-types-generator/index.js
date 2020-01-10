@@ -40,7 +40,7 @@ process
 .
 env
 .
-CHROME
+BINARY
 }
 )
 .

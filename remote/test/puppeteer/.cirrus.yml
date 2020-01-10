@@ -154,6 +154,7 @@ matrix
 name
 :
 Firefox
+Juggler
 (
 node8
 +
@@ -212,7 +213,7 @@ test_script
 :
 npm
 run
-funit
+fjunit
 task
 :
 osx_instance
