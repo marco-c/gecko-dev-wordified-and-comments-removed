@@ -110,6 +110,16 @@ name
 ;
 }
 bool
+hadOutOfMemory
+(
+)
+const
+{
+return
+hadOOM_
+;
+}
+bool
 isComplete
 (
 )
@@ -119,7 +129,7 @@ return
 hasTopLevelScript_
 ;
 }
-bool
+void
 writeScript
 (
 JSScript
@@ -200,6 +210,11 @@ maxLineHit_
 ;
 bool
 hasTopLevelScript_
+:
+1
+;
+bool
+hadOOM_
 :
 1
 ;
