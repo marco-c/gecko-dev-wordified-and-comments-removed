@@ -866,7 +866,7 @@ rv
 ;
 if
 (
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
