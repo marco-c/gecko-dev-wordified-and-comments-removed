@@ -192,8 +192,6 @@ env_logger
 "
 0
 .
-5
-.
 6
 "
 smallvec
