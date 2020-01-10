@@ -640,6 +640,11 @@ BINPATH
 libGLESv2
 .
 dll
+BINPATH
+/
+d3dcompiler_47
+.
+dll
 #
 endif
 [
