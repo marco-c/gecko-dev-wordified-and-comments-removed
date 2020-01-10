@@ -288,8 +288,7 @@ mapStateToProps
 state
 =
 >
-{
-return
+(
 {
 cx
 :
@@ -310,8 +309,7 @@ visibleColumnBreakpoints
 state
 )
 }
-;
-}
+)
 ;
 export
 default

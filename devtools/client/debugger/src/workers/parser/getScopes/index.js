@@ -267,8 +267,7 @@ map
 i
 =
 >
-{
-return
+(
 {
 type
 :
@@ -301,8 +300,7 @@ i
 .
 bindings
 }
-;
-}
+)
 )
 ;
 }

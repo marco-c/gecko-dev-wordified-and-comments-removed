@@ -219,11 +219,9 @@ icon
 AccessibleImage
 className
 =
-{
 "
 worker
 "
-}
 /
 >
 <

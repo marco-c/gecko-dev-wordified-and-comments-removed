@@ -828,8 +828,7 @@ map
 scope
 =
 >
-{
-return
+(
 {
 start
 :
@@ -901,8 +900,7 @@ children
 sourceId
 )
 }
-;
-}
+)
 )
 ;
 }

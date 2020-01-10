@@ -2064,8 +2064,7 @@ mapStateToProps
 state
 =
 >
-{
-return
+(
 {
 cx
 :
@@ -2092,8 +2091,7 @@ getExpressionError
 state
 )
 }
-;
-}
+)
 ;
 export
 default

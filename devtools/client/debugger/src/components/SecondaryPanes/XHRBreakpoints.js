@@ -1658,7 +1658,6 @@ inputMethod
 }
 className
 =
-{
 "
 xhr
 -
@@ -1666,7 +1665,6 @@ input
 -
 method
 "
-}
 onChange
 =
 {
@@ -1744,8 +1742,7 @@ mapStateToProps
 state
 =
 >
-{
-return
+(
 {
 xhrBreakpoints
 :
@@ -1760,8 +1757,7 @@ shouldPauseOnAnyXHR
 state
 )
 }
-;
-}
+)
 ;
 export
 default
