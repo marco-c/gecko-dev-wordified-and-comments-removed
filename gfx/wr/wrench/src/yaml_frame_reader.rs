@@ -855,9 +855,6 @@ target
 }
 }
 impl
-webrender
-:
-:
 ExternalImageHandler
 for
 LocalExternalImageHandler
@@ -880,9 +877,6 @@ ImageRendering
 )
 -
 >
-webrender
-:
-:
 ExternalImage
 {
 let
@@ -902,9 +896,6 @@ as
 usize
 ]
 ;
-webrender
-:
-:
 ExternalImage
 {
 uv
@@ -936,9 +927,6 @@ as
 f32
 )
 source
-:
-webrender
-:
 :
 ExternalImageSource
 :

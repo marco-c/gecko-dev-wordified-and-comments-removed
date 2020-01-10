@@ -264,9 +264,6 @@ BinaryRecorder
 Compositor
 DebugFlags
 Device
-ExternalImage
-ExternalImageHandler
-ExternalImageSource
 NativeSurfaceId
 PipelineInfo
 ProfilerHooks

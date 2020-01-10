@@ -138,9 +138,6 @@ gl
 GLuint
 }
 impl
-webrender
-:
-:
 OutputImageHandler
 for
 OutputHandler
@@ -196,9 +193,6 @@ PipelineId
 }
 }
 impl
-webrender
-:
-:
 ExternalImageHandler
 for
 ExternalHandler
@@ -221,14 +215,8 @@ ImageRendering
 )
 -
 >
-webrender
-:
-:
 ExternalImage
 {
-webrender
-:
-:
 ExternalImage
 {
 uv
@@ -252,9 +240,6 @@ new
 0
 )
 source
-:
-webrender
-:
 :
 ExternalImageSource
 :
@@ -825,9 +810,6 @@ Option
 Box
 <
 dyn
-webrender
-:
-:
 ExternalImageHandler
 >
 >
@@ -836,9 +818,6 @@ Option
 Box
 <
 dyn
-webrender
-:
-:
 OutputImageHandler
 >
 >
