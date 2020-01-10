@@ -37,6 +37,9 @@ JSAtom
 struct
 JSContext
 ;
+struct
+JSClass
+;
 class
 JSFunction
 ;
@@ -60,6 +63,11 @@ js
 {
 class
 TempAllocPolicy
+;
+using
+Class
+=
+JSClass
 ;
 }
 ;

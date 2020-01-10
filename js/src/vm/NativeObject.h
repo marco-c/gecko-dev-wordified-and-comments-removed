@@ -1348,9 +1348,6 @@ HeapSlot
 const
 emptyObjectElementsShared
 ;
-struct
-Class
-;
 class
 AutoCheckShapeConsistency
 ;

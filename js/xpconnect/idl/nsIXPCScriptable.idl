@@ -125,13 +125,6 @@ TypeDecls
 .
 h
 "
-namespace
-js
-{
-struct
-Class
-;
-}
 %
 }
 interface

@@ -37,9 +37,6 @@ JSFatInlineString
 namespace
 js
 {
-struct
-Class
-;
 template
 <
 typename

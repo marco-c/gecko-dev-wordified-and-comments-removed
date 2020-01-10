@@ -127,13 +127,6 @@ class
 nsWrapperCache
 ;
 namespace
-js
-{
-struct
-Class
-;
-}
-namespace
 mozilla
 {
 class
