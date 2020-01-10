@@ -1277,6 +1277,22 @@ browsertime
 should_clobber
 =
 should_clobber
+            
+no_optional
+=
+bool
+(
+os
+.
+environ
+.
+get
+(
+'
+MOZ_AUTOMATION
+'
+)
+)
 )
         
 if

@@ -458,6 +458,9 @@ package_name
 should_clobber
 =
 False
+no_optional
+=
+False
 )
 :
     
@@ -656,6 +659,23 @@ loglevel
 error
 "
 ]
+        
+if
+no_optional
+:
+            
+extra_parameters
+.
+append
+(
+'
+-
+-
+no
+-
+optional
+'
+)
         
 package_lock_json_path
 =
