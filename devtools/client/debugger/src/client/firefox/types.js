@@ -650,7 +650,7 @@ Promise
 <
 *
 >
-createObjectClient
+createObjectFront
 :
 (
 grip
@@ -659,7 +659,7 @@ Grip
 )
 =
 >
-ObjectClient
+ObjectFront
 release
 :
 (
@@ -906,7 +906,7 @@ number
 ;
 export
 type
-ObjectClient
+ObjectFront
 =
 {
 getPrototypeAndProperties
@@ -1036,7 +1036,7 @@ Function
 )
 =
 >
-ObjectClient
+ObjectFront
 pauseOnExceptions
 :
 (

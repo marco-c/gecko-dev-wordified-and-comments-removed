@@ -59,14 +59,14 @@ thunkOptions
 client
 :
 {
-createObjectClient
+createObjectFront
 :
 services
 &
 &
 services
 .
-createObjectClient
+createObjectFront
 createLongStringClient
 :
 services

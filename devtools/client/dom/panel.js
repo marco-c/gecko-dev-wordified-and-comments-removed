@@ -16,7 +16,7 @@ chrome
 )
 ;
 const
-ObjectClient
+ObjectFront
 =
 require
 (
@@ -25,11 +25,9 @@ devtools
 /
 shared
 /
-client
+fronts
 /
 object
--
-client
 "
 )
 ;
@@ -591,10 +589,10 @@ request
 )
 {
 const
-client
+objectFront
 =
 new
-ObjectClient
+ObjectFront
 (
 this
 .
@@ -606,7 +604,7 @@ grip
 ;
 request
 =
-client
+objectFront
 .
 getPrototypeAndProperties
 (

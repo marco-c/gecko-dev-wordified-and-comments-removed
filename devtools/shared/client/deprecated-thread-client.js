@@ -64,7 +64,7 @@ lazyRequireGetter
 (
 this
 "
-ObjectClient
+ObjectFront
 "
 "
 devtools
@@ -74,8 +74,6 @@ shared
 client
 /
 object
--
-client
 "
 )
 ;
@@ -846,10 +844,10 @@ actor
 ;
 }
 const
-client
+objectFront
 =
 new
-ObjectClient
+ObjectFront
 (
 this
 .
@@ -866,13 +864,13 @@ grip
 actor
 ]
 =
-client
+objectFront
 ;
 return
-client
+objectFront
 ;
 }
-_clearObjectClients
+_clearObjectFronts
 :
 function
 (
@@ -920,7 +918,7 @@ function
 {
 this
 .
-_clearObjectClients
+_clearObjectFronts
 (
 "
 _pauseGrips
@@ -936,7 +934,7 @@ function
 {
 this
 .
-_clearObjectClients
+_clearObjectFronts
 (
 "
 _threadGrips

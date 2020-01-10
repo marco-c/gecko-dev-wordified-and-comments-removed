@@ -53,7 +53,7 @@ getApplicableBindingsForOriginalPosition
 ;
 import
 {
-createObjectClient
+createObjectFront
 }
 from
 "
@@ -1016,9 +1016,9 @@ desc
 ;
 }
 const
-objectClient
+objectFront
 =
-createObjectClient
+createObjectFront
 (
 desc
 .
@@ -1028,7 +1028,7 @@ value
 return
 (
 await
-objectClient
+objectFront
 .
 getProperty
 (

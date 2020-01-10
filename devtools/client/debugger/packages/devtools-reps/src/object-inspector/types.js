@@ -226,7 +226,7 @@ GripProperties
 ;
 export
 type
-ObjectClient
+ObjectFront
 =
 {
 enumEntries
@@ -333,12 +333,12 @@ void
 ;
 export
 type
-CreateObjectClient
+CreateObjectFront
 =
 RdpGrip
 =
 >
-ObjectClient
+ObjectFront
 ;
 export
 type
@@ -463,9 +463,9 @@ string
 =
 >
 void
-createObjectClient
+createObjectFront
 :
-CreateObjectClient
+CreateObjectFront
 createLongStringClient
 :
 CreateLongStringClient

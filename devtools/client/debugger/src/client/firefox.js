@@ -58,7 +58,7 @@ let
 DebuggerClient
 ;
 function
-createObjectClient
+createObjectFront
 (
 grip
 :
@@ -68,7 +68,7 @@ Grip
 return
 DebuggerClient
 .
-createObjectClient
+createObjectFront
 (
 grip
 )
@@ -302,7 +302,7 @@ checkIfAlreadyPaused
 }
 export
 {
-createObjectClient
+createObjectFront
 clientCommands
 clientEvents
 }

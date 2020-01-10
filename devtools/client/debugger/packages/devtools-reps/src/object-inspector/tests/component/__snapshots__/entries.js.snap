@@ -18,7 +18,7 @@ ObjectInspector
 -
 entries
 calls
-ObjectClient
+ObjectFront
 .
 enumEntries
 when
@@ -43,7 +43,7 @@ ObjectInspector
 -
 entries
 calls
-ObjectClient
+ObjectFront
 .
 enumEntries
 when
@@ -312,7 +312,7 @@ ObjectInspector
 -
 entries
 calls
-ObjectClient
+ObjectFront
 .
 enumEntries
 when
@@ -339,7 +339,7 @@ ObjectInspector
 -
 entries
 calls
-ObjectClient
+ObjectFront
 .
 enumEntries
 when

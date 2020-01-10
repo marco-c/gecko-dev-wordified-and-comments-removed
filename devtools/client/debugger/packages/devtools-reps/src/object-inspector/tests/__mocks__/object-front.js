@@ -1,5 +1,5 @@
 function
-ObjectClient
+ObjectFront
 (
 grip
 overrides
@@ -19,9 +19,6 @@ Promise
 .
 resolve
 (
-{
-iterator
-:
 this
 .
 getIterator
@@ -33,7 +30,6 @@ ownProperties
 }
 }
 )
-}
 )
 ;
 }
@@ -49,9 +45,6 @@ Promise
 .
 resolve
 (
-{
-iterator
-:
 this
 .
 getIterator
@@ -63,7 +56,6 @@ ownProperties
 }
 }
 )
-}
 )
 ;
 }
@@ -78,9 +70,6 @@ Promise
 .
 resolve
 (
-{
-iterator
-:
 this
 .
 getIterator
@@ -92,7 +81,6 @@ ownSymbols
 ]
 }
 )
-}
 )
 ;
 }
@@ -154,5 +142,5 @@ module
 .
 exports
 =
-ObjectClient
+ObjectFront
 ;

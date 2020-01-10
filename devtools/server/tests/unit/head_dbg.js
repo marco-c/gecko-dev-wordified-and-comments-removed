@@ -318,7 +318,7 @@ client
 )
 ;
 const
-ObjectClient
+ObjectFront
 =
 require
 (
@@ -327,11 +327,9 @@ devtools
 /
 shared
 /
-client
+fronts
 /
 object
--
-client
 "
 )
 ;

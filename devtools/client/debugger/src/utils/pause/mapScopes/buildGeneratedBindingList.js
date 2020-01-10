@@ -51,7 +51,7 @@ types
 ;
 import
 {
-createObjectClient
+createObjectFront
 }
 from
 "
@@ -529,9 +529,9 @@ async
 >
 {
 const
-objectClient
+objectFront
 =
-createObjectClient
+createObjectFront
 (
 globalGrip
 )
@@ -539,7 +539,7 @@ globalGrip
 return
 (
 await
-objectClient
+objectFront
 .
 getProperty
 (

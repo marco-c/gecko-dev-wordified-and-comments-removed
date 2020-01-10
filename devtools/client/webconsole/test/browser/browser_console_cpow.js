@@ -4,7 +4,7 @@ strict
 "
 ;
 const
-ObjectClient
+ObjectFront
 =
 require
 (
@@ -13,11 +13,9 @@ devtools
 /
 shared
 /
-client
+fronts
 /
 object
--
-client
 "
 )
 ;
@@ -527,7 +525,7 @@ info
 "
 Creating
 an
-ObjectClient
+ObjectFront
 with
 :
 "
@@ -536,10 +534,10 @@ actor
 )
 ;
 const
-objectClient
+objectFront
 =
 new
-ObjectClient
+ObjectFront
 (
 hud
 .
@@ -557,7 +555,7 @@ const
 prototypeAndProperties
 =
 await
-objectClient
+objectFront
 .
 getPrototypeAndProperties
 (
@@ -598,7 +596,7 @@ const
 objClient
 =
 new
-ObjectClient
+ObjectFront
 (
 hud
 .

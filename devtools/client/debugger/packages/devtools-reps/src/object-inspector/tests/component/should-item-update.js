@@ -16,7 +16,7 @@ utils
 )
 ;
 const
-ObjectClient
+ObjectFront
 =
 require
 (
@@ -28,7 +28,7 @@ __mocks__
 /
 object
 -
-client
+front
 "
 )
 ;
@@ -132,12 +132,12 @@ mountObjectInspector
 client
 :
 {
-createObjectClient
+createObjectFront
 :
 grip
 =
 >
-ObjectClient
+ObjectFront
 (
 grip
 )

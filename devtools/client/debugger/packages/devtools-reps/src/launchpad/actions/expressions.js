@@ -169,7 +169,7 @@ HIDE_RESULT_PACKET
 ;
 }
 function
-createObjectClient
+createObjectFront
 (
 grip
 )
@@ -186,7 +186,7 @@ client
 return
 client
 .
-getObjectClient
+getObjectFront
 (
 grip
 )
@@ -255,7 +255,7 @@ clearExpressions
 evaluateInput
 showResultPacket
 hideResultPacket
-createObjectClient
+createObjectFront
 createLongStringClient
 releaseActor
 }
