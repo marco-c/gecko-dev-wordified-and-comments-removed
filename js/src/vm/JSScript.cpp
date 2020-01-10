@@ -3745,7 +3745,7 @@ Ok
 ;
 }
 size_t
-SharedScriptData
+ImmutableScriptData
 :
 :
 AllocationSize
@@ -3767,7 +3767,7 @@ size
 =
 sizeof
 (
-SharedScriptData
+ImmutableScriptData
 )
 ;
 size
@@ -3872,7 +3872,7 @@ typename
 T
 >
 void
-SharedScriptData
+ImmutableScriptData
 :
 :
 initElements
@@ -3914,7 +3914,7 @@ length
 ;
 }
 void
-SharedScriptData
+ImmutableScriptData
 :
 :
 initOptionalArrays
@@ -3922,7 +3922,7 @@ initOptionalArrays
 size_t
 *
 pcursor
-SharedScriptData
+ImmutableScriptData
 :
 :
 Flags
@@ -3985,7 +3985,7 @@ static_assert
 (
 alignof
 (
-SharedScriptData
+ImmutableScriptData
 )
 >
 =
@@ -4255,10 +4255,10 @@ pcursor
 cursor
 ;
 }
-SharedScriptData
+ImmutableScriptData
 :
 :
-SharedScriptData
+ImmutableScriptData
 (
 uint32_t
 codeLength
@@ -4480,7 +4480,7 @@ XDRMode
 mode
 >
 XDRResult
-SharedScriptData
+ImmutableScriptData
 :
 :
 XDR
@@ -4531,9 +4531,9 @@ cx
 (
 )
 ;
-SharedScriptData
+ImmutableScriptData
 *
-ssd
+isd
 =
 nullptr
 ;
@@ -4545,18 +4545,18 @@ mode
 XDR_ENCODE
 )
 {
-ssd
+isd
 =
 script
 -
 >
-sharedScriptData
+immutableScriptData
 (
 )
 ;
 codeLength
 =
-ssd
+isd
 -
 >
 codeLength
@@ -4565,7 +4565,7 @@ codeLength
 ;
 noteLength
 =
-ssd
+isd
 -
 >
 noteLength
@@ -4574,7 +4574,7 @@ noteLength
 ;
 numResumeOffsets
 =
-ssd
+isd
 -
 >
 resumeOffsets
@@ -4587,7 +4587,7 @@ size
 ;
 numScopeNotes
 =
-ssd
+isd
 -
 >
 scopeNotes
@@ -4600,7 +4600,7 @@ size
 ;
 numTryNotes
 =
-ssd
+isd
 -
 >
 tryNotes
@@ -4686,7 +4686,7 @@ if
 script
 -
 >
-createSharedScriptData
+createImmutableScriptData
 (
 cx
 codeLength
@@ -4710,12 +4710,12 @@ TranscodeResult_Throw
 )
 ;
 }
-ssd
+isd
 =
 script
 -
 >
-sharedScriptData
+immutableScriptData
 (
 )
 ;
@@ -4728,7 +4728,7 @@ xdr
 codeUint32
 (
 &
-ssd
+isd
 -
 >
 mainOffset
@@ -4743,7 +4743,7 @@ xdr
 codeUint32
 (
 &
-ssd
+isd
 -
 >
 nfixed
@@ -4758,7 +4758,7 @@ xdr
 codeUint32
 (
 &
-ssd
+isd
 -
 >
 nslots
@@ -4773,7 +4773,7 @@ xdr
 codeUint32
 (
 &
-ssd
+isd
 -
 >
 bodyScopeIndex
@@ -4788,7 +4788,7 @@ xdr
 codeUint32
 (
 &
-ssd
+isd
 -
 >
 numICEntries
@@ -4803,7 +4803,7 @@ xdr
 codeUint16
 (
 &
-ssd
+isd
 -
 >
 funLength
@@ -4818,7 +4818,7 @@ xdr
 codeUint16
 (
 &
-ssd
+isd
 -
 >
 numBytecodeTypeSets
@@ -4851,7 +4851,7 @@ jsbytecode
 *
 code
 =
-ssd
+isd
 -
 >
 code
@@ -4862,7 +4862,7 @@ jssrcnote
 *
 notes
 =
-ssd
+isd
 -
 >
 notes
@@ -4899,7 +4899,7 @@ uint32_t
 &
 elem
 :
-ssd
+isd
 -
 >
 resumeOffsets
@@ -4926,7 +4926,7 @@ ScopeNote
 &
 elem
 :
-ssd
+isd
 -
 >
 scopeNotes
@@ -4951,7 +4951,7 @@ JSTryNote
 &
 elem
 :
-ssd
+isd
 -
 >
 tryNotes
@@ -4978,7 +4978,7 @@ Ok
 }
 template
 XDRResult
-SharedScriptData
+ImmutableScriptData
 :
 :
 XDR
@@ -4995,7 +4995,7 @@ script
 ;
 template
 XDRResult
-SharedScriptData
+ImmutableScriptData
 :
 :
 XDR
@@ -5384,7 +5384,7 @@ atom
 }
 MOZ_TRY
 (
-SharedScriptData
+ImmutableScriptData
 :
 :
 XDR
@@ -19767,12 +19767,12 @@ ScriptSource
 :
 idCount_
 ;
-SharedScriptData
+ImmutableScriptData
 *
 js
 :
 :
-SharedScriptData
+ImmutableScriptData
 :
 :
 new_
@@ -19828,7 +19828,7 @@ raw
 %
 alignof
 (
-SharedScriptData
+ImmutableScriptData
 )
 =
 =
@@ -19850,7 +19850,7 @@ new
 (
 raw
 )
-SharedScriptData
+ImmutableScriptData
 (
 codeLength
 noteLength
@@ -20000,7 +20000,7 @@ bool
 JSScript
 :
 :
-createSharedScriptData
+createImmutableScriptData
 (
 JSContext
 *
@@ -20025,7 +20025,7 @@ byteArrayLength
 =
 sizeof
 (
-SharedScriptData
+ImmutableScriptData
 :
 :
 Flags
@@ -20065,7 +20065,7 @@ MOZ_ASSERT
 scriptData_
 -
 >
-ssd_
+isd_
 )
 ;
 js
@@ -20073,11 +20073,11 @@ js
 :
 UniquePtr
 <
-SharedScriptData
+ImmutableScriptData
 >
-ssd
+isd
 (
-SharedScriptData
+ImmutableScriptData
 :
 :
 new_
@@ -20094,7 +20094,7 @@ numTryNotes
 if
 (
 !
-ssd
+isd
 )
 {
 return
@@ -20104,14 +20104,14 @@ false
 scriptData_
 -
 >
-ssd_
+isd_
 =
 std
 :
 :
 move
 (
-ssd
+isd
 )
 ;
 return
@@ -20580,7 +20580,7 @@ found
 %
 zu
 live
-SharedScriptData
+RuntimeScriptData
 at
 shutdown
 \
@@ -21961,7 +21961,7 @@ if
 script
 -
 >
-createSharedScriptData
+createImmutableScriptData
 (
 cx
 codeLength
@@ -21983,7 +21983,7 @@ code
 script
 -
 >
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -22006,7 +22006,7 @@ notes
 script
 -
 >
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -28127,7 +28127,7 @@ enabledCount
 ;
 }
 bool
-SharedScriptData
+ImmutableScriptData
 :
 :
 InitFromEmitter
@@ -28300,7 +28300,7 @@ if
 script
 -
 >
-createSharedScriptData
+createImmutableScriptData
 (
 cx
 codeLength
@@ -28320,14 +28320,14 @@ false
 js
 :
 :
-SharedScriptData
+ImmutableScriptData
 *
 data
 =
 script
 -
 >
-sharedScriptData
+immutableScriptData
 (
 )
 ;
@@ -28686,7 +28686,7 @@ atoms
 )
 ;
 return
-SharedScriptData
+ImmutableScriptData
 :
 :
 InitFromEmitter

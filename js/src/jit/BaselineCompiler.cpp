@@ -2826,7 +2826,7 @@ scratch
 RuntimeScriptData
 :
 :
-offsetOfSSD
+offsetOfISD
 (
 )
 )
@@ -2840,7 +2840,7 @@ load32
 Address
 (
 scratch
-SharedScriptData
+ImmutableScriptData
 :
 :
 offsetOfNfixed
@@ -4681,7 +4681,7 @@ scratch
 RuntimeScriptData
 :
 :
-offsetOfSSD
+offsetOfISD
 (
 )
 )
@@ -4695,7 +4695,7 @@ load32
 Address
 (
 scratch
-SharedScriptData
+ImmutableScriptData
 :
 :
 offsetOfNslots
@@ -6582,7 +6582,7 @@ scratch1
 RuntimeScriptData
 :
 :
-offsetOfSSD
+offsetOfISD
 (
 )
 )
@@ -6595,7 +6595,7 @@ addPtr
 (
 Imm32
 (
-SharedScriptData
+ImmutableScriptData
 :
 :
 offsetOfCode
@@ -24270,7 +24270,7 @@ script
 RuntimeScriptData
 :
 :
-offsetOfSSD
+offsetOfISD
 (
 )
 )
@@ -24284,7 +24284,7 @@ load32
 Address
 (
 script
-SharedScriptData
+ImmutableScriptData
 :
 :
 offsetOfResumeOffsetsOffset
@@ -24329,7 +24329,7 @@ BaseIndex
 script
 resumeIndex
 TimesOne
-SharedScriptData
+ImmutableScriptData
 :
 :
 offsetOfCode

@@ -5977,7 +5977,7 @@ alignas
 (
 uint32_t
 )
-SharedScriptData
+ImmutableScriptData
 final
 {
 using
@@ -6323,7 +6323,7 @@ uint32_t
 numTryNotes
 )
 ;
-SharedScriptData
+ImmutableScriptData
 (
 uint32_t
 codeLength
@@ -6403,13 +6403,13 @@ return
 optArrayOffset_
 ;
 }
-SharedScriptData
+ImmutableScriptData
 *
 this_
 =
 const_cast
 <
-SharedScriptData
+ImmutableScriptData
 *
 >
 (
@@ -6436,7 +6436,7 @@ index
 public
 :
 static
-SharedScriptData
+ImmutableScriptData
 *
 new_
 (
@@ -6579,7 +6579,7 @@ const
 return
 const_cast
 <
-SharedScriptData
+ImmutableScriptData
 *
 >
 (
@@ -6778,7 +6778,7 @@ offsetOfCode
 return
 sizeof
 (
-SharedScriptData
+ImmutableScriptData
 )
 +
 sizeof
@@ -6797,7 +6797,7 @@ offsetOfResumeOffsetsOffset
 return
 offsetof
 (
-SharedScriptData
+ImmutableScriptData
 optArrayOffset_
 )
 ;
@@ -6812,7 +6812,7 @@ offsetOfNfixed
 return
 offsetof
 (
-SharedScriptData
+ImmutableScriptData
 nfixed
 )
 ;
@@ -6827,7 +6827,7 @@ offsetOfNslots
 return
 offsetof
 (
-SharedScriptData
+ImmutableScriptData
 nslots
 )
 ;
@@ -6842,7 +6842,7 @@ offsetOfFunLength
 return
 offsetof
 (
-SharedScriptData
+ImmutableScriptData
 funLength
 )
 ;
@@ -6898,22 +6898,22 @@ uint32_t
 nslots
 )
 ;
-SharedScriptData
+ImmutableScriptData
 (
 const
-SharedScriptData
+ImmutableScriptData
 &
 )
 =
 delete
 ;
-SharedScriptData
+ImmutableScriptData
 &
 operator
 =
 (
 const
-SharedScriptData
+ImmutableScriptData
 &
 )
 =
@@ -6964,9 +6964,9 @@ js
 :
 UniquePtr
 <
-SharedScriptData
+ImmutableScriptData
 >
-ssd_
+isd_
 =
 nullptr
 ;
@@ -6981,7 +6981,7 @@ class
 js
 :
 :
-SharedScriptData
+ImmutableScriptData
 ;
 friend
 struct
@@ -7095,7 +7095,7 @@ remain
 0
 )
 {
-ssd_
+isd_
 =
 nullptr
 ;
@@ -7219,7 +7219,7 @@ RuntimeScriptData
 static
 constexpr
 size_t
-offsetOfSSD
+offsetOfISD
 (
 )
 {
@@ -7227,7 +7227,7 @@ return
 offsetof
 (
 RuntimeScriptData
-ssd_
+isd_
 )
 ;
 }
@@ -7316,7 +7316,7 @@ this
 +
 mallocSizeOf
 (
-ssd_
+isd_
 .
 get
 (
@@ -7381,7 +7381,7 @@ immutableData
 l
 -
 >
-ssd_
+isd_
 -
 >
 immutableData
@@ -7477,7 +7477,7 @@ atomsSpan
 entry
 -
 >
-ssd_
+isd_
 -
 >
 immutableData
@@ -7488,7 +7488,7 @@ immutableData
 lookup
 -
 >
-ssd_
+isd_
 -
 >
 immutableData
@@ -8155,7 +8155,7 @@ XDRResult
 js
 :
 :
-SharedScriptData
+ImmutableScriptData
 :
 :
 XDR
@@ -8212,7 +8212,7 @@ bool
 js
 :
 :
-SharedScriptData
+ImmutableScriptData
 :
 :
 InitFromEmitter
@@ -8823,9 +8823,9 @@ scriptData_
 js
 :
 :
-SharedScriptData
+ImmutableScriptData
 *
-sharedScriptData
+immutableScriptData
 (
 )
 const
@@ -8834,7 +8834,7 @@ return
 scriptData_
 -
 >
-ssd_
+isd_
 .
 get
 (
@@ -8859,7 +8859,7 @@ nullptr
 ;
 }
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -8962,7 +8962,7 @@ scriptData_
 )
 ;
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -9134,7 +9134,7 @@ mainOffset
 const
 {
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -9181,7 +9181,7 @@ nfixed
 const
 {
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -9292,7 +9292,7 @@ nslots
 const
 {
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -9431,7 +9431,7 @@ sizeof
 js
 :
 :
-SharedScriptData
+ImmutableScriptData
 :
 :
 numBytecodeTypeSets
@@ -9457,7 +9457,7 @@ numBytecodeTypeSets
 const
 {
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -9472,7 +9472,7 @@ numICEntries
 const
 {
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -9487,7 +9487,7 @@ funLength
 const
 {
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -11639,7 +11639,7 @@ bodyScopeIndex
 const
 {
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -11993,7 +11993,7 @@ natoms
 )
 ;
 bool
-createSharedScriptData
+createImmutableScriptData
 (
 JSContext
 *
@@ -12454,7 +12454,7 @@ const
 {
 return
 !
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -12476,7 +12476,7 @@ const
 {
 return
 !
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -12498,7 +12498,7 @@ const
 {
 return
 !
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -12551,7 +12551,7 @@ trynotes
 const
 {
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -12578,7 +12578,7 @@ scopeNotes
 const
 {
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -12602,7 +12602,7 @@ resumeOffsets
 const
 {
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -12703,7 +12703,7 @@ scriptData_
 )
 ;
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -
@@ -12726,7 +12726,7 @@ scriptData_
 )
 ;
 return
-sharedScriptData
+immutableScriptData
 (
 )
 -

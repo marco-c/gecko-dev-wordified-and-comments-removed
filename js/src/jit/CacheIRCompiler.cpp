@@ -16121,7 +16121,7 @@ scratch
 RuntimeScriptData
 :
 :
-offsetOfSSD
+offsetOfISD
 (
 )
 )
@@ -16135,7 +16135,7 @@ load16ZeroExtend
 Address
 (
 scratch
-SharedScriptData
+ImmutableScriptData
 :
 :
 offsetOfFunLength
