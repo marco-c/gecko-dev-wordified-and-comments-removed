@@ -107,12 +107,6 @@ s
 source_protocol
 )
 s
--
-%
-(
-target_protocol
-)
-s
 /
 '
 +
@@ -200,12 +194,7 @@ source_protocol
 )
 s
 requires
-an
-%
-(
-target_protocol
-)
-s
+a
 sub
 -
 resource
