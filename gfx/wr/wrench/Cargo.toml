@@ -386,15 +386,6 @@ osmesa
 src
 "
 ]
-pathfinder
-=
-[
-"
-webrender
-/
-pathfinder
-"
-]
 [
 target
 .

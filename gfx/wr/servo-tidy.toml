@@ -54,9 +54,6 @@ khronos_api
 lazy_static
 "
 "
-log
-"
-"
 nix
 "
 "
