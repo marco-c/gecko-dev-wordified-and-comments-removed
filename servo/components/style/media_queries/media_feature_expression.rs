@@ -297,11 +297,11 @@ dest
 ;
 dest
 .
-write_char
+write_str
 (
-'
+"
 /
-'
+"
 )
 ?
 ;
