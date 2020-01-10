@@ -113,6 +113,16 @@ exemptFromPerDomainMax
 "
 true
 ]
+[
+"
+dom
+.
+serviceWorkers
+.
+idle_timeout
+"
+60000
+]
 ]
 }
 function
