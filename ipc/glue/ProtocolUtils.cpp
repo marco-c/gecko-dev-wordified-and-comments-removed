@@ -2947,7 +2947,6 @@ CanSend
 )
 )
 {
-return
 GetIPCChannel
 (
 )
@@ -2961,6 +2960,9 @@ release
 (
 )
 )
+;
+return
+true
 ;
 }
 NS_WARNING
