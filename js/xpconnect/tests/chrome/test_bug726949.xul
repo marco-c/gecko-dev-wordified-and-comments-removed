@@ -427,7 +427,10 @@ is
 (
 display
 "
-block
+-
+moz
+-
+box
 "
 "
 Should

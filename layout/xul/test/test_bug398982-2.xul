@@ -182,6 +182,10 @@ position
 :
 absolute
 ;
+display
+:
+block
+;
 "
 >
 <
