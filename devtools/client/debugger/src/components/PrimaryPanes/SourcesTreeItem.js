@@ -1254,6 +1254,14 @@ depth
 =
 =
 1
+&
+&
+projectRoot
+=
+=
+=
+"
+"
 )
 {
 return

@@ -34,6 +34,7 @@ formatTree
 export
 {
 getDirectories
+findSourceTreeNodes
 }
 from
 "
