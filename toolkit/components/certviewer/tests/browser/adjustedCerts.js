@@ -6,6 +6,7 @@ strict
 const
 adjustedCerts
 =
+[
 {
 certItems
 :
@@ -422,21 +423,6 @@ size
 info
 :
 2048
-}
-{
-label
-:
-"
-Curve
-"
-}
-{
-label
-:
-"
-Public
-Value
-"
 }
 {
 label
@@ -1487,6 +1473,9 @@ label
 Certificate
 Authority
 "
+info
+:
+false
 }
 ]
 Critical
@@ -2546,4 +2535,5 @@ github
 com
 "
 }
+]
 ;

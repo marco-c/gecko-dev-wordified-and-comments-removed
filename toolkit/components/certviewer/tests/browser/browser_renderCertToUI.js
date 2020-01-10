@@ -139,6 +139,9 @@ let
 tabName
 =
 adjustedCerts
+[
+0
+]
 .
 tabName
 ;
@@ -146,6 +149,9 @@ let
 certItems
 =
 adjustedCerts
+[
+0
+]
 .
 certItems
 ;
