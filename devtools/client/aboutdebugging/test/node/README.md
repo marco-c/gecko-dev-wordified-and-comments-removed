@@ -76,7 +76,7 @@ aboutdebugging
 /
 test
 /
-jest
+node
 yarn
 &
 &
