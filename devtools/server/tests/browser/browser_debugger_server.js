@@ -508,7 +508,9 @@ devtools
 /
 server
 /
-main
+debugger
+-
+server
 "
 )
 ;
@@ -585,7 +587,9 @@ devtools
 /
 server
 /
-main
+debugger
+-
+server
 "
 )
 ;

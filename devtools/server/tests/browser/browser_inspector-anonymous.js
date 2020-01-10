@@ -390,7 +390,9 @@ devtools
 /
 server
 /
-main
+debugger
+-
+server
 "
 )
 ;
