@@ -46,6 +46,7 @@ for
 dir
 in
 [
+            
 '
 mixed
 -
@@ -56,6 +57,14 @@ referrer
 -
 policy
 '
+'
+upgrade
+-
+insecure
+-
+requests
+'
+    
 ]
 :
         
