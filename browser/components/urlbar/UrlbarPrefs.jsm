@@ -252,12 +252,6 @@ false
 ]
 [
 "
-openViewOnFocus
-"
-false
-]
-[
-"
 quantumbar
 "
 false
