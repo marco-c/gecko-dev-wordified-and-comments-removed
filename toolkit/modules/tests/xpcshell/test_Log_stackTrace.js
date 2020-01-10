@@ -182,7 +182,7 @@ test_Log_stackTrace
 .
 js
 :
-4
+9
 "
 )
 ;
@@ -199,7 +199,7 @@ test_Log_stackTrace
 .
 js
 :
-3
+6
 "
 )
 ;
@@ -216,7 +216,7 @@ test_Log_stackTrace
 .
 js
 :
-2
+3
 "
 )
 ;
