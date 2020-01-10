@@ -732,6 +732,7 @@ typename
 Ts
 >
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowTypeError
 (
 Ts
@@ -767,6 +768,7 @@ messageArgs
 }
 inline
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowTypeError
 (
 const
@@ -797,6 +799,7 @@ int
 N
 >
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowTypeError
 (
 const
@@ -833,6 +836,7 @@ typename
 Ts
 >
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowRangeError
 (
 Ts
@@ -868,6 +872,7 @@ messageArgs
 }
 inline
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowRangeError
 (
 const
@@ -898,6 +903,7 @@ int
 N
 >
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowRangeError
 (
 const
@@ -944,6 +950,7 @@ NS_ERROR_INTERNAL_ERRORRESULT_RANGEERROR
 ;
 }
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowJSException
 (
 JSContext
@@ -978,6 +985,7 @@ NS_ERROR_INTERNAL_ERRORRESULT_JS_EXCEPTION
 ;
 }
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowDOMException
 (
 nsresult
@@ -1008,6 +1016,7 @@ NS_ERROR_INTERNAL_ERRORRESULT_DOMEXCEPTION
 ;
 }
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 NoteJSContextException
 (
 JSContext
@@ -2509,6 +2518,7 @@ FastErrorResult
 public
 :
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ReportOOM
 (
 )

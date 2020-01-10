@@ -799,7 +799,13 @@ scope
 mScope
 )
 ;
+ErrorResult
+&
+rv
+=
 aRv
+;
+rv
 .
 ThrowTypeError
 <
