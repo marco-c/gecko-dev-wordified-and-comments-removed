@@ -3396,6 +3396,16 @@ NIGHTLY_BUILD
 pref
 (
 "
+security
+.
+allow_eval_with_system_principal
+"
+false
+)
+;
+pref
+(
+"
 browser
 .
 tabs
