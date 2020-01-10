@@ -95,15 +95,6 @@ viewport
 desktopWidth
 1200
 )
-test
--
-pref
-(
-plain_text
-.
-wrap_long_lines
-true
-)
 =
 =
 test_bug1525662

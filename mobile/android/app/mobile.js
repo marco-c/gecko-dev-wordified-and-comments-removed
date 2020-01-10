@@ -2843,16 +2843,6 @@ true
 pref
 (
 "
-plain_text
-.
-wrap_long_lines
-"
-true
-)
-;
-pref
-(
-"
 ui
 .
 touch
