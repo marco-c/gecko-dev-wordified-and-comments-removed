@@ -2240,11 +2240,6 @@ GenericHuffmanTable
 >
 ;
 using
-HuffmanTableExplicitSymbolsListLength
-=
-GenericHuffmanTable
-;
-using
 HuffmanTableListLength
 =
 mozilla
@@ -2254,7 +2249,7 @@ Variant
 <
 HuffmanTableUnreachable
 HuffmanTableInitializing
-HuffmanTableExplicitSymbolsListLength
+GenericHuffmanTable
 >
 ;
 class

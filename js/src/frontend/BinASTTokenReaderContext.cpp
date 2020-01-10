@@ -1037,7 +1037,7 @@ EntryExplicit
 using
 Table
 =
-HuffmanTableExplicitSymbolsListLength
+GenericHuffmanTable
 ;
 const
 BinASTList
@@ -1859,7 +1859,7 @@ table
 .
 as
 <
-HuffmanTableExplicitSymbolsListLength
+GenericHuffmanTable
 >
 (
 )
@@ -6901,7 +6901,7 @@ table
 .
 as
 <
-HuffmanTableExplicitSymbolsListLength
+GenericHuffmanTable
 >
 (
 )
@@ -13408,7 +13408,7 @@ readSingleValueTable
 List
 >
 (
-HuffmanTableExplicitSymbolsListLength
+GenericHuffmanTable
 &
 table
 const
