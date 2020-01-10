@@ -268,6 +268,13 @@ ABINonArgReg3
 static
 constexpr
 Register
+InterpreterPCReg
+=
+t5
+;
+static
+constexpr
+Register
 JSReturnReg_Type
 =
 a3
