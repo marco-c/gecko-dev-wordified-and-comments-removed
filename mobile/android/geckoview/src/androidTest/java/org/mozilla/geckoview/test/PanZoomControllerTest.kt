@@ -27,20 +27,6 @@ rule
 .
 GeckoSessionTestRule
 .
-WithDevToolsAPI
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
-rule
-.
-GeckoSessionTestRule
-.
 WithDisplay
 import
 android
@@ -279,12 +265,6 @@ trimIndent
 (
 )
 )
-.
-asJSPromise
-(
-)
-.
-value
 }
 private
 fun
@@ -548,7 +528,6 @@ errorEpsilon
 )
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -571,7 +550,6 @@ PanZoomController
 SCROLL_BEHAVIOR_SMOOTH
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -594,7 +572,6 @@ PanZoomController
 SCROLL_BEHAVIOR_AUTO
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -617,7 +594,6 @@ PanZoomController
 SCROLL_BEHAVIOR_SMOOTH
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -786,7 +762,6 @@ errorEpsilon
 )
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -809,7 +784,6 @@ PanZoomController
 SCROLL_BEHAVIOR_SMOOTH
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -1052,7 +1026,6 @@ errorEpsilon
 )
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -1075,7 +1048,6 @@ PanZoomController
 SCROLL_BEHAVIOR_SMOOTH
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -1098,7 +1070,6 @@ PanZoomController
 SCROLL_BEHAVIOR_AUTO
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -1121,7 +1092,6 @@ PanZoomController
 SCROLL_BEHAVIOR_SMOOTH
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -1282,7 +1252,6 @@ errorEpsilon
 )
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -1305,7 +1274,6 @@ PanZoomController
 SCROLL_BEHAVIOR_SMOOTH
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width

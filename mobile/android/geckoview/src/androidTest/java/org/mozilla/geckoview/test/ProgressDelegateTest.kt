@@ -103,20 +103,6 @@ rule
 .
 GeckoSessionTestRule
 .
-WithDevToolsAPI
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
-rule
-.
-GeckoSessionTestRule
-.
 WithDisplay
 import
 org
@@ -2014,7 +2000,6 @@ pageTop
 "
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -2402,7 +2387,6 @@ closeTo
 )
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width

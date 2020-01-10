@@ -181,20 +181,6 @@ rule
 .
 GeckoSessionTestRule
 .
-WithDevToolsAPI
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
-rule
-.
-GeckoSessionTestRule
-.
 WithDisplay
 import
 org
@@ -4792,7 +4778,6 @@ false
 }
 )
 }
-WithDevToolsAPI
 Test
 fun
 fullscreen
@@ -4820,7 +4805,6 @@ waitForFullscreenExit
 (
 )
 }
-WithDevToolsAPI
 Test
 fun
 sessionExitFullscreen

@@ -121,20 +121,6 @@ geckoview
 .
 test
 .
-rule
-.
-GeckoSessionTestRule
-.
-WithDevToolsAPI
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
 util
 .
 Callbacks
@@ -1278,7 +1264,6 @@ false
 )
 }
 }
-WithDevToolsAPI
 Test
 fun
 oggPlayMedia
@@ -1290,7 +1275,6 @@ playMedia
 VIDEO_OGG_PATH
 )
 }
-WithDevToolsAPI
 Ignore
 /
 /
@@ -1312,7 +1296,6 @@ playMediaFromScript
 VIDEO_OGG_PATH
 )
 }
-WithDevToolsAPI
 Test
 fun
 oggPauseMedia
@@ -1324,7 +1307,6 @@ pauseMedia
 VIDEO_OGG_PATH
 )
 }
-WithDevToolsAPI
 Test
 fun
 oggTimeMedia
@@ -1339,7 +1321,6 @@ VIDEO_OGG_PATH
 0
 )
 }
-WithDevToolsAPI
 Test
 fun
 oggMetadataMedia
@@ -1496,7 +1477,6 @@ equalTo
 )
 )
 }
-WithDevToolsAPI
 Test
 fun
 oggSeekMedia
@@ -1511,7 +1491,6 @@ VIDEO_OGG_PATH
 0
 )
 }
-WithDevToolsAPI
 Test
 fun
 oggFullscreenMedia
@@ -1523,7 +1502,6 @@ fullscreenMedia
 VIDEO_OGG_PATH
 )
 }
-WithDevToolsAPI
 Test
 fun
 webmPlayMedia
@@ -1535,7 +1513,6 @@ playMedia
 VIDEO_WEBM_PATH
 )
 }
-WithDevToolsAPI
 Test
 fun
 webmPlayMediaFromScript
@@ -1564,7 +1541,6 @@ playMediaFromScript
 VIDEO_WEBM_PATH
 )
 }
-WithDevToolsAPI
 Test
 fun
 webmPauseMedia
@@ -1576,7 +1552,6 @@ pauseMedia
 VIDEO_WEBM_PATH
 )
 }
-WithDevToolsAPI
 Test
 fun
 webmTimeMedia
@@ -1591,7 +1566,6 @@ VIDEO_WEBM_PATH
 2
 )
 }
-WithDevToolsAPI
 Test
 fun
 webmMetadataMedia
@@ -1738,7 +1712,6 @@ equalTo
 )
 )
 }
-WithDevToolsAPI
 Test
 fun
 webmSeekMedia
@@ -1753,7 +1726,6 @@ VIDEO_WEBM_PATH
 2
 )
 }
-WithDevToolsAPI
 Test
 fun
 webmFullscreenMedia
@@ -1833,7 +1805,6 @@ isMuted
 }
 )
 }
-WithDevToolsAPI
 Test
 fun
 webmVolumeMedia
@@ -1918,7 +1889,6 @@ automation
 by
 Bug
 1503952
-WithDevToolsAPI
 Test
 fun
 mp4PlayMedia
@@ -1942,7 +1912,6 @@ playMedia
 VIDEO_MP4_PATH
 )
 }
-WithDevToolsAPI
 Test
 fun
 mp4PlayMediaFromScript
@@ -1966,7 +1935,6 @@ playMediaFromScript
 VIDEO_MP4_PATH
 )
 }
-WithDevToolsAPI
 Test
 fun
 mp4PauseMedia
@@ -1990,7 +1958,6 @@ pauseMedia
 VIDEO_MP4_PATH
 )
 }
-WithDevToolsAPI
 Test
 fun
 mp4TimeMedia
@@ -2017,7 +1984,6 @@ VIDEO_MP4_PATH
 2
 )
 }
-WithDevToolsAPI
 Test
 fun
 mp4MetadataMedia
@@ -2176,7 +2142,6 @@ equalTo
 )
 )
 }
-WithDevToolsAPI
 Test
 fun
 mp4SeekMedia
@@ -2203,7 +2168,6 @@ VIDEO_MP4_PATH
 2
 )
 }
-WithDevToolsAPI
 Test
 fun
 mp4FullscreenMedia
@@ -2227,7 +2191,6 @@ fullscreenMedia
 VIDEO_MP4_PATH
 )
 }
-WithDevToolsAPI
 Test
 fun
 mp4VolumeMedia
@@ -2311,7 +2274,6 @@ false
 )
 }
 Ignore
-WithDevToolsAPI
 Test
 fun
 badMediaPath
@@ -2387,7 +2349,6 @@ MEDIA_ERROR_NETWORK_NO_SOURCE
 }
 )
 }
-WithDevToolsAPI
 Test
 fun
 autoplayBlocked
@@ -2417,7 +2378,7 @@ promise
 =
 sessionRule
 .
-evaluateJS
+evaluatePromiseJS
 (
 mainSession
 "
@@ -2434,10 +2395,6 @@ play
 (
 )
 "
-)
-.
-asJSPromise
-(
 )
 var
 exceptionCaught
@@ -2529,7 +2486,6 @@ MEDIA_STATE_PLAYING
 *
 /
 }
-WithDevToolsAPI
 Test
 fun
 autoplayAllowed
@@ -2559,7 +2515,7 @@ promise
 =
 sessionRule
 .
-evaluateJS
+evaluatePromiseJS
 (
 mainSession
 "
@@ -2576,10 +2532,6 @@ play
 (
 )
 "
-)
-.
-asJSPromise
-(
 )
 var
 exceptionCaught

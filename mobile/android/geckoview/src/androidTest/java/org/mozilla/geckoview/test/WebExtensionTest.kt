@@ -187,20 +187,6 @@ geckoview
 .
 test
 .
-rule
-.
-GeckoSessionTestRule
-.
-WithDevToolsAPI
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
 util
 .
 Callbacks
@@ -302,7 +288,6 @@ content
 "
 }
 Test
-WithDevToolsAPI
 fun
 registerWebExtension
 (
@@ -968,7 +953,6 @@ return
 webExtension
 }
 Test
-WithDevToolsAPI
 fun
 contentMessaging
 (
@@ -995,7 +979,6 @@ false
 )
 }
 Test
-WithDevToolsAPI
 fun
 backgroundMessaging
 (
@@ -1424,7 +1407,6 @@ messaging
 )
 }
 Test
-WithDevToolsAPI
 fun
 contentPortMessaging
 (
@@ -1451,7 +1433,6 @@ false
 )
 }
 Test
-WithDevToolsAPI
 fun
 backgroundPortMessaging
 (
@@ -1888,7 +1869,6 @@ messaging
 )
 }
 Test
-WithDevToolsAPI
 fun
 contentPortDisconnect
 (
@@ -1928,7 +1908,6 @@ false
 )
 }
 Test
-WithDevToolsAPI
 fun
 contentPortDisconnectAfterRefresh
 (
@@ -2377,7 +2356,6 @@ messaging
 )
 }
 Test
-WithDevToolsAPI
 fun
 contentPortDisconnectFromApp
 (
@@ -2833,7 +2811,6 @@ messaging
 )
 }
 Test
-WithDevToolsAPI
 fun
 iframeTopLevel
 (

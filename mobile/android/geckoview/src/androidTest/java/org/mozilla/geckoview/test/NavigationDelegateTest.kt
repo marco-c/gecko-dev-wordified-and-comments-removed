@@ -203,20 +203,6 @@ rule
 .
 GeckoSessionTestRule
 .
-WithDevToolsAPI
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
-rule
-.
-GeckoSessionTestRule
-.
 WithDisplay
 import
 org
@@ -2570,7 +2556,6 @@ getDefaultUserAgent
 )
 )
 }
-WithDevToolsAPI
 Test
 fun
 desktopMode
@@ -2924,7 +2909,6 @@ vrSubStr
 )
 )
 }
-WithDevToolsAPI
 Test
 fun
 uaOverride
@@ -3351,7 +3335,6 @@ vrSubStr
 )
 )
 }
-WithDevToolsAPI
 WithDisplay
 (
 width
@@ -6045,7 +6028,6 @@ true
 }
 )
 }
-WithDevToolsAPI
 Test
 fun
 onNewSession_calledForWindowOpen
@@ -6255,7 +6237,6 @@ null
 }
 )
 }
-WithDevToolsAPI
 Test
 fun
 onNewSession_calledForTargetBlankLink
@@ -6564,7 +6545,6 @@ newSession
 return
 newSession
 }
-WithDevToolsAPI
 Test
 fun
 onNewSession_childShouldLoad
@@ -6730,7 +6710,6 @@ true
 }
 )
 }
-WithDevToolsAPI
 Test
 fun
 onNewSession_setWindowOpener
@@ -6853,7 +6832,6 @@ value
 false
 "
 )
-WithDevToolsAPI
 Test
 fun
 onNewSession_openRemoteFromNonRemote
@@ -7016,7 +6994,6 @@ true
 )
 )
 }
-WithDevToolsAPI
 Test
 fun
 onNewSession_supportNoOpener
@@ -7121,7 +7098,6 @@ NULL
 )
 )
 }
-WithDevToolsAPI
 Test
 fun
 onNewSession_notCalledForHandledLoads
@@ -7385,7 +7361,6 @@ null
 }
 )
 }
-WithDevToolsAPI
 Test
 fun
 loadUriReferrer
@@ -7463,7 +7438,6 @@ referrer
 )
 )
 }
-WithDevToolsAPI
 Test
 (
 expected
