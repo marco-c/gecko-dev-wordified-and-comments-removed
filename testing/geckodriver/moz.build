@@ -94,6 +94,9 @@ geckodriver
 "
 webdriver
 "
+"
+marionette
+"
 #
 TODO
 :

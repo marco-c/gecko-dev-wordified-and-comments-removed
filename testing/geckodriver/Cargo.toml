@@ -173,6 +173,17 @@ std
 "
 ]
 }
+marionette
+=
+{
+path
+=
+"
+.
+/
+marionette
+"
+}
 mozprofile
 =
 {
