@@ -171,6 +171,14 @@ pid
 ;
 static
 void
+CleanupForPidWithLock
+(
+pid_t
+pid
+)
+;
+static
+void
 Shutdown
 (
 )

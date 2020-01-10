@@ -1865,7 +1865,7 @@ MOZ_WIDGET_COCOA
 SharedMemoryBasic
 :
 :
-CleanupForPid
+CleanupForPidWithLock
 (
 mChildProcessHandle
 )
