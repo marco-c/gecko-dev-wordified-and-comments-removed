@@ -27,7 +27,7 @@ section
 ]
 =
 <
-table
+section
 className
 =
 "
@@ -37,7 +37,7 @@ section
 "
 >
 <
-caption
+h2
 className
 =
 "
@@ -50,10 +50,7 @@ Lorem
 ipsum
 <
 /
-caption
->
-<
-tbody
+h2
 >
 <
 tr
@@ -72,11 +69,7 @@ tr
 >
 <
 /
-tbody
->
-<
-/
-table
+section
 >
 ;
 exports
@@ -96,7 +89,7 @@ children
 ]
 =
 <
-table
+section
 className
 =
 "
@@ -112,7 +105,7 @@ empty
 "
 >
 <
-caption
+h2
 className
 =
 "
@@ -125,14 +118,10 @@ Lorem
 ipsum
 <
 /
-caption
->
-<
-tbody
-/
+h2
 >
 <
 /
-table
+section
 >
 ;
