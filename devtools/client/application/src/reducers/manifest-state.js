@@ -10,6 +10,7 @@ MANIFEST_ISSUE_LEVELS
 FETCH_MANIFEST_FAILURE
 FETCH_MANIFEST_START
 FETCH_MANIFEST_SUCCESS
+RESET_MANIFEST
 }
 =
 require
@@ -455,6 +456,19 @@ manifest
 null
 }
 )
+;
+case
+RESET_MANIFEST
+:
+const
+defaultState
+=
+ManifestState
+(
+)
+;
+return
+defaultState
 ;
 default
 :
