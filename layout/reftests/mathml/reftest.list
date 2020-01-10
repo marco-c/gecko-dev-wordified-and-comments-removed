@@ -132,6 +132,15 @@ pref
 (
 mathml
 .
+legacy_number_syntax
+.
+disabled
+false
+)
+pref
+(
+mathml
+.
 nonzero_unitless_lengths
 .
 disabled
