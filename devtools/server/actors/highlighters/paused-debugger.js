@@ -568,6 +568,10 @@ if
 (
 !
 target
+|
+|
+!
+target
 .
 id
 )
