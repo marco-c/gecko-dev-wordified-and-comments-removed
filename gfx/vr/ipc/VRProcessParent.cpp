@@ -679,9 +679,15 @@ GetGPUChild
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 gpuChild
+"
+gpuChild
+is
+null
+.
+"
 )
 ;
 Endpoint
