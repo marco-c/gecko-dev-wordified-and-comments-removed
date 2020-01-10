@@ -1173,8 +1173,6 @@ getSourcesForTabs
 state
 )
 selectedSource
-:
-selectedSource
 activeSearch
 :
 getActiveSearch

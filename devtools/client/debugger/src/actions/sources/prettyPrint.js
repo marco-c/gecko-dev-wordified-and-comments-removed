@@ -291,8 +291,6 @@ content
 .
 value
 url
-:
-url
 }
 )
 ;

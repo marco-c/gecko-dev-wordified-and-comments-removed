@@ -180,8 +180,6 @@ cx
 {
 line
 column
-:
-column
 sourceId
 :
 selectedSource

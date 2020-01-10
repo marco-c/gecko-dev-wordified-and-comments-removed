@@ -335,8 +335,6 @@ Number
 line
 )
 column
-:
-column
 sourceId
 :
 id
@@ -868,8 +866,6 @@ type
 ADD_BREAKPOINT_POSITIONS
 "
 cx
-source
-:
 source
 positions
 }

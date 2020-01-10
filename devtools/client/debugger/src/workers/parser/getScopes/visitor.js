@@ -4395,11 +4395,11 @@ parent
 )
 {
 const
+{
 freeVariables
+}
 =
 state
-.
-freeVariables
 ;
 state
 .

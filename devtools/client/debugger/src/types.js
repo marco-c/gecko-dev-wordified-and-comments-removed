@@ -838,6 +838,14 @@ string
 updating
 :
 boolean
+exception
+?
+:
+string
+error
+?
+:
+string
 }
 ;
 export
