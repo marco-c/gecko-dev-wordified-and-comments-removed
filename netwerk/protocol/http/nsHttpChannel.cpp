@@ -35753,6 +35753,11 @@ IsNSSErrorCode
 (
 nsprError
 )
+&
+&
+IsHTTPS
+(
+)
 )
 {
 gIOService
