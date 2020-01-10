@@ -489,7 +489,6 @@ properly
 ;
 ok
 (
-!
 isContent
 (
 {
@@ -529,7 +528,6 @@ properly
 ;
 ok
 (
-!
 isContent
 (
 {
@@ -569,7 +567,6 @@ properly
 ;
 ok
 (
-!
 isContent
 (
 {
