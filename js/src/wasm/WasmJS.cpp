@@ -143,6 +143,15 @@ include
 "
 vm
 /
+ErrorObject
+.
+h
+"
+#
+include
+"
+vm
+/
 Interpreter
 .
 h

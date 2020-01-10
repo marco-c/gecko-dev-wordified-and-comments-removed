@@ -399,6 +399,15 @@ include
 "
 vm
 /
+ErrorObject
+.
+h
+"
+#
+include
+"
+vm
+/
 GeneratorObject
 .
 h
