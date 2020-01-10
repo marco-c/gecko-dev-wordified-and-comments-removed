@@ -290,6 +290,7 @@ net
 -
 -
 -
+refcounted
 protocol
 PHttpChannel
 {

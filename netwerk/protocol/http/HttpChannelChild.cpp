@@ -9960,10 +9960,6 @@ SetDocshellUserAgentOverride
 (
 )
 ;
-AddRef
-(
-)
-;
 SetEventTarget
 (
 )
@@ -13188,10 +13184,6 @@ GetHasSandboxedAuxiliaryNavigations
 )
 ;
 SetEventTarget
-(
-)
-;
-AddRef
 (
 )
 ;
