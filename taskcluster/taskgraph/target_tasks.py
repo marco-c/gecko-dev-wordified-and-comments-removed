@@ -2117,6 +2117,34 @@ parameters
 return
 False
         
+platform
+=
+task
+.
+attributes
+.
+get
+(
+'
+test_platform
+'
+)
+        
+if
+platform
+and
+'
+-
+qr
+/
+'
+in
+platform
+:
+            
+return
+False
+        
 return
 True
     
