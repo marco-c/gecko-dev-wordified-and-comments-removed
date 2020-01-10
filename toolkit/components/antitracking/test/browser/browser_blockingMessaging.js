@@ -523,7 +523,7 @@ resolve
 ;
 AntiTracking
 .
-runTestInNormalAndPrivateMode
+runTest
 (
 "
 BroadcastChannel
@@ -831,7 +831,7 @@ false
 ;
 AntiTracking
 .
-runTestInNormalAndPrivateMode
+runTest
 (
 "
 BroadcastChannel

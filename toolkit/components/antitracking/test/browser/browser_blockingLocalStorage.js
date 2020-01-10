@@ -144,7 +144,7 @@ resolve
 ;
 AntiTracking
 .
-runTestInNormalAndPrivateMode
+runTest
 (
 "
 localStorage
