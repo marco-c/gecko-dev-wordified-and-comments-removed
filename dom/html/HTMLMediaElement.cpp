@@ -17728,11 +17728,6 @@ HAVE_FUTURE_DATA
 case
 HAVE_ENOUGH_DATA
 :
-FireTimeUpdate
-(
-false
-)
-;
 NotifyAboutPlaying
 (
 )
