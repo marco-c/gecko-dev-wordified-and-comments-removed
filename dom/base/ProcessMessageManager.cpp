@@ -78,6 +78,17 @@ MessageManagerFlags
 :
 MM_PROCESSMANAGER
 )
+mPid
+(
+-
+1
+)
+mInProcess
+(
+!
+!
+aCallback
+)
 {
 MOZ_ASSERT
 (
