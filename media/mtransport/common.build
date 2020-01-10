@@ -209,7 +209,7 @@ transportlayersrtp
 cpp
 '
 '
-WebrtcProxyChannelWrapper
+WebrtcTCPSocketWrapper
 .
 cpp
 '

@@ -1,9 +1,9 @@
 #
 ifndef
-webrtc_proxy_channel_h__
+webrtc_tcp_socket_h__
 #
 define
-webrtc_proxy_channel_h__
+webrtc_tcp_socket_h__
 #
 include
 <
@@ -113,13 +113,13 @@ namespace
 net
 {
 class
-WebrtcProxyChannelCallback
+WebrtcTCPSocketCallback
 ;
 class
-WebrtcProxyData
+WebrtcTCPData
 ;
 class
-WebrtcProxyChannel
+WebrtcTCPSocket
 :
 public
 nsIHttpUpgradeListener
@@ -151,9 +151,9 @@ mAuthProvider
 )
 NS_DECL_NSIPROTOCOLPROXYCALLBACK
 explicit
-WebrtcProxyChannel
+WebrtcTCPSocket
 (
-WebrtcProxyChannelCallback
+WebrtcTCPSocketCallback
 *
 aCallbacks
 )
@@ -219,7 +219,7 @@ protected
 :
 virtual
 ~
-WebrtcProxyChannel
+WebrtcTCPSocket
 (
 )
 ;
@@ -252,7 +252,7 @@ aReadData
 ;
 RefPtr
 <
-WebrtcProxyChannelCallback
+WebrtcTCPSocketCallback
 >
 mProxyCallbacks
 ;
@@ -334,7 +334,7 @@ std
 :
 list
 <
-WebrtcProxyData
+WebrtcTCPData
 >
 mWriteQueue
 ;

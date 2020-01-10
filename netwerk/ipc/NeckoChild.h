@@ -78,9 +78,9 @@ PStunAddrsRequestChild
 aActor
 )
 ;
-PWebrtcProxyChannelChild
+PWebrtcTCPSocketChild
 *
-AllocPWebrtcProxyChannelChild
+AllocPWebrtcTCPSocketChild
 (
 const
 TabId
@@ -89,9 +89,9 @@ tabId
 )
 ;
 bool
-DeallocPWebrtcProxyChannelChild
+DeallocPWebrtcTCPSocketChild
 (
-PWebrtcProxyChannelChild
+PWebrtcTCPSocketChild
 *
 aActor
 )

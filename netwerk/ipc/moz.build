@@ -359,7 +359,7 @@ mtransport
 /
 ipc
 /
-PWebrtcProxyChannel
+PWebrtcTCPSocket
 .
 ipdl
 '

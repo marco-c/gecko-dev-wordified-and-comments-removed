@@ -1,9 +1,9 @@
 #
 ifndef
-webrtc_proxy_log_h__
+webrtc_tcp_socket_log_h__
 #
 define
-webrtc_proxy_log_h__
+webrtc_tcp_socket_log_h__
 #
 include
 "
@@ -21,7 +21,7 @@ net
 {
 extern
 LazyLogModule
-webrtcProxyLog
+webrtcTCPSocketLog
 ;
 }
 }
@@ -43,7 +43,7 @@ mozilla
 net
 :
 :
-webrtcProxyLog
+webrtcTCPSocketLog
 mozilla
 :
 :

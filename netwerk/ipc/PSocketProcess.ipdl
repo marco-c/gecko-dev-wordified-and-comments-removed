@@ -111,7 +111,7 @@ PProxyConfigLookup
 ;
 include
 protocol
-PWebrtcProxyChannel
+PWebrtcTCPSocket
 ;
 include
 MemoryReportTypes
@@ -286,10 +286,10 @@ manages
 PDNSRequest
 ;
 manages
-PProxyConfigLookup
+PWebrtcTCPSocket
 ;
 manages
-PWebrtcProxyChannel
+PProxyConfigLookup
 ;
 parent
 :
@@ -379,7 +379,7 @@ data
 )
 ;
 async
-PWebrtcProxyChannel
+PWebrtcTCPSocket
 (
 TabId
 tabId

@@ -1,9 +1,9 @@
 #
 ifndef
-webrtc_proxy_channel_callback_h__
+webrtc_tcp_socket_callback_h__
 #
 define
-webrtc_proxy_channel_callback_h__
+webrtc_tcp_socket_callback_h__
 #
 include
 "
@@ -18,7 +18,7 @@ namespace
 net
 {
 class
-WebrtcProxyChannelCallback
+WebrtcTCPSocketCallback
 {
 public
 :
@@ -60,7 +60,7 @@ protected
 :
 virtual
 ~
-WebrtcProxyChannelCallback
+WebrtcTCPSocketCallback
 (
 )
 =

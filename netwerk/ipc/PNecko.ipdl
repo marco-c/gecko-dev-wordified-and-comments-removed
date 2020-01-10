@@ -214,7 +214,7 @@ PClassifierDummyChannel
 ;
 include
 protocol
-PWebrtcProxyChannel
+PWebrtcTCPSocket
 ;
 include
 protocol
@@ -462,7 +462,7 @@ manages
 PClassifierDummyChannel
 ;
 manages
-PWebrtcProxyChannel
+PWebrtcTCPSocket
 ;
 manages
 PProxyConfigLookup
@@ -825,7 +825,7 @@ PStunAddrsRequest
 )
 ;
 async
-PWebrtcProxyChannel
+PWebrtcTCPSocket
 (
 TabId
 tabId

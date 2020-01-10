@@ -237,9 +237,9 @@ DiscardedData
 aDiscardedData
 )
 ;
-PWebrtcProxyChannelParent
+PWebrtcTCPSocketParent
 *
-AllocPWebrtcProxyChannelParent
+AllocPWebrtcTCPSocketParent
 (
 const
 TabId
@@ -248,9 +248,9 @@ aTabId
 )
 ;
 bool
-DeallocPWebrtcProxyChannelParent
+DeallocPWebrtcTCPSocketParent
 (
-PWebrtcProxyChannelParent
+PWebrtcTCPSocketParent
 *
 aActor
 )

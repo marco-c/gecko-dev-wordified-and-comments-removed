@@ -335,7 +335,7 @@ in
 #
 PBrowserOrId
 and
-WebrtcProxyChannelChild
+WebrtcTCPSocketChild
 .
 SOURCES
 +
