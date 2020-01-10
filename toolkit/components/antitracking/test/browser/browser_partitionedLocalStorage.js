@@ -1,6 +1,6 @@
 AntiTracking
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 localStorage
@@ -464,7 +464,7 @@ false
 ;
 PartitionedStorageHelper
 .
-runPartitioningTest
+runPartitioningTestInNormalAndPrivateMode
 (
 "
 Partitioned

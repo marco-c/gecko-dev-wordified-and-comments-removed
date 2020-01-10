@@ -1,6 +1,6 @@
 PartitionedStorageHelper
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 BroadcastChannel
