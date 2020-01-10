@@ -8261,12 +8261,6 @@ pod_types
 {
     
 '
-bool
-'
-:
-1
-    
-'
 int8_t
 '
 :
