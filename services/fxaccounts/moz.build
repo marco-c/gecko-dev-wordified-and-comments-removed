@@ -189,11 +189,6 @@ FxAccountsConfig
 jsm
 '
 '
-FxAccountsDevice
-.
-jsm
-'
-'
 FxAccountsOAuthGrantClient
 .
 jsm
