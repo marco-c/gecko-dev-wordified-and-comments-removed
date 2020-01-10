@@ -5023,7 +5023,10 @@ matching_context
 .
 with_shadow_host
 (
+Some
+(
 host
+)
 |
 matching_context
 |
