@@ -865,6 +865,13 @@ hover
 :
 :
 before
+.
+message
+.
+highlight
+:
+:
+before
 {
 background
 -
@@ -4734,7 +4741,9 @@ consoletable
 [
 role
 =
+"
 gridcell
+"
 ]
 {
 background
@@ -4785,7 +4794,9 @@ consoletable
 [
 role
 =
+"
 gridcell
+"
 ]
 .
 even
@@ -5515,6 +5526,7 @@ arrow
 fill
 :
 currentColor
+;
 }
 .
 clipboard
