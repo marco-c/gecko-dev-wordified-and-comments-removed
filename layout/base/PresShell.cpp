@@ -16050,9 +16050,6 @@ static
 void
 ScrollToShowRect
 (
-PresShell
-*
-aPresShell
 nsIScrollableFrame
 *
 aFrameAsScrollable
@@ -16553,7 +16550,12 @@ IsRootScrollFrameOfDocument
 )
 &
 &
-aPresShell
+frame
+-
+>
+PresShell
+(
+)
 -
 >
 GetPresContext
@@ -16566,7 +16568,12 @@ IsRootContentDocument
 )
 )
 {
-aPresShell
+frame
+-
+>
+PresShell
+(
+)
 -
 >
 ScrollToVisual
@@ -17331,7 +17338,6 @@ container
 ;
 ScrollToShowRect
 (
-this
 sf
 targetRect
 aVertical
