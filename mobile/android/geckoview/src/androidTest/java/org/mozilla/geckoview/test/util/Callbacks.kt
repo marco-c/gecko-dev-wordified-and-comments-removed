@@ -130,14 +130,6 @@ mozilla
 .
 geckoview
 .
-GeckoResponse
-import
-org
-.
-mozilla
-.
-geckoview
-.
 GeckoResult
 import
 org
