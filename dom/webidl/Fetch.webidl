@@ -131,16 +131,8 @@ USVString
 )
 BodyInit
 ;
-[
-NoInterfaceObject
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
+mixin
 Body
 {
 [

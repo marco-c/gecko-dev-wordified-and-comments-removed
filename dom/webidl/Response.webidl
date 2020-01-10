@@ -290,7 +290,7 @@ hasCacheInfoChannel
 }
 ;
 Response
-implements
+includes
 Body
 ;
 /

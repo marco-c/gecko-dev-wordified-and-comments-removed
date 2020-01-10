@@ -163,7 +163,7 @@ upperOpen
 Throws
 ]
 boolean
-includes
+_includes
 (
 any
 key

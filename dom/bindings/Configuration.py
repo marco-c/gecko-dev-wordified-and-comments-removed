@@ -438,7 +438,7 @@ partialIface
 in
 iface
 .
-getPartialInterfaces
+getPartials
 (
 )
 :
