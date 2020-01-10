@@ -502,7 +502,7 @@ HOST_OS_ARCH
 !
 =
 '
-Windows
+WINNT
 '
 :
 HOST_CXXFLAGS
