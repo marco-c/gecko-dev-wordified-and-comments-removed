@@ -18672,16 +18672,6 @@ pref
 "
 plugins
 .
-load_appdir_plugins
-"
-false
-)
-;
-pref
-(
-"
-plugins
-.
 navigator
 .
 hidden_ctp_plugin

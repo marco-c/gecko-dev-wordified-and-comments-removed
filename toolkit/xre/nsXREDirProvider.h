@@ -565,12 +565,6 @@ mPluginProcessSandboxTempDir
 ;
 #
 endif
-nsCOMArray
-<
-nsIFile
->
-mAppBundleDirectories
-;
 private
 :
 static
