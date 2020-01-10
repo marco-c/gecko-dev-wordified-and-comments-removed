@@ -7954,6 +7954,10 @@ name
 payload_builder
 (
 '
+sign
+-
+and
+-
 push
 -
 addons
@@ -8025,7 +8029,7 @@ basestring
 }
 )
 def
-build_push_addons_payload
+build_sign_and_push_addons_payload
 (
 config
 task
