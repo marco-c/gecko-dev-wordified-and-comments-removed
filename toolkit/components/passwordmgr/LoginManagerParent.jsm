@@ -472,7 +472,8 @@ browsingContext
 embedderElement
 ;
 }
-_searchAndDedupeLogins
+static
+searchAndDedupeLogins
 (
 formOrigin
 {
@@ -1352,9 +1353,9 @@ else
 {
 logins
 =
-this
+LoginManagerParent
 .
-_searchAndDedupeLogins
+searchAndDedupeLogins
 (
 formOrigin
 {
@@ -1599,9 +1600,9 @@ result
 ;
 logins
 =
-this
+LoginManagerParent
 .
-_searchAndDedupeLogins
+searchAndDedupeLogins
 (
 formOrigin
 {
@@ -2319,9 +2320,9 @@ return
 let
 logins
 =
-this
+LoginManagerParent
 .
-_searchAndDedupeLogins
+searchAndDedupeLogins
 (
 origin
 {
@@ -3248,9 +3249,9 @@ loginToChange
 let
 logins
 =
-this
+LoginManagerParent
 .
-_searchAndDedupeLogins
+searchAndDedupeLogins
 (
 formOrigin
 {
