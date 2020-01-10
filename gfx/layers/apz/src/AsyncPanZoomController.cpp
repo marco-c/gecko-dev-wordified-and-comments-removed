@@ -16489,7 +16489,7 @@ layers
 APZCTreeManager
 :
 :
-CollectTransformsForChromeMainThread
+SendSubtreeTransformsToChromeMainThread
 "
 GetApzcTreeManager
 (
@@ -16498,7 +16498,7 @@ GetApzcTreeManager
 APZCTreeManager
 :
 :
-CollectTransformsForChromeMainThread
+SendSubtreeTransformsToChromeMainThread
 this
 )
 )

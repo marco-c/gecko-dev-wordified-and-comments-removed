@@ -721,7 +721,7 @@ aOutData
 )
 ;
 void
-CollectTransformsForChromeMainThread
+SendSubtreeTransformsToChromeMainThread
 (
 const
 AsyncPanZoomController
