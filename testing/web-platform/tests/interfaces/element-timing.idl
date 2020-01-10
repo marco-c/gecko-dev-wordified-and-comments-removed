@@ -111,6 +111,14 @@ attribute
 DOMString
 url
 ;
+[
+Default
+]
+object
+toJSON
+(
+)
+;
 }
 ;
 partial
