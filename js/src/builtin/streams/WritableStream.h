@@ -99,6 +99,9 @@ namespace
 js
 {
 class
+PromiseObject
+;
+class
 WritableStreamDefaultController
 ;
 class
@@ -1069,6 +1072,15 @@ UndefinedValue
 )
 ;
 }
+inline
+void
+setCloseRequest
+(
+PromiseObject
+*
+closeRequest
+)
+;
 JS
 :
 :
