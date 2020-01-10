@@ -1558,6 +1558,9 @@ Create
 (
 aWidth
 aHeight
+DMABUF_ALPHA
+|
+DMABUF_CREATE_WL_BUFFER
 )
 ;
 LOGWAYLAND
