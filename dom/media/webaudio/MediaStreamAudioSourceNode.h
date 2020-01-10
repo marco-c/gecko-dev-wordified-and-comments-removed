@@ -238,16 +238,6 @@ return
 0
 ;
 }
-DOMMediaStream
-*
-GetMediaStream
-(
-)
-{
-return
-mInputStream
-;
-}
 const
 char
 *

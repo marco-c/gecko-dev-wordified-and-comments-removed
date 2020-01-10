@@ -1109,11 +1109,6 @@ AsyncCubebOperation
 aOperation
 )
 ;
-TimeDuration
-AudioOutputLatency
-(
-)
-;
 private
 :
 void
