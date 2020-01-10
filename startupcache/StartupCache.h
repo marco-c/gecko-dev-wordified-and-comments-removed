@@ -232,6 +232,15 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIMEMORYREPORTER
+bool
+HasEntry
+(
+const
+char
+*
+id
+)
+;
 nsresult
 GetBuffer
 (
