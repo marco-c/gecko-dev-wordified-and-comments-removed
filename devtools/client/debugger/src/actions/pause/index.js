@@ -125,3 +125,14 @@ from
 mapScopes
 "
 ;
+export
+{
+setExpandedScope
+}
+from
+"
+.
+/
+expandScopes
+"
+;

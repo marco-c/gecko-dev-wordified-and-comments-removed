@@ -84,6 +84,11 @@ continueToHere
 js
 '
 '
+expandScopes
+.
+js
+'
+'
 fetchScopes
 .
 js
