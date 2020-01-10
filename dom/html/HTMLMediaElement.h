@@ -2693,6 +2693,11 @@ aAsyncAddtrack
 true
 )
 ;
+void
+DiscardFinishWhenEndedOutputStreams
+(
+)
+;
 already_AddRefed
 <
 DOMMediaStream
