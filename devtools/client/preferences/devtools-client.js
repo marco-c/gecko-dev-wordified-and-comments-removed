@@ -3036,3 +3036,15 @@ expression
 true
 )
 ;
+pref
+(
+"
+devtools
+.
+popup
+.
+disable_autohide
+"
+false
+)
+;

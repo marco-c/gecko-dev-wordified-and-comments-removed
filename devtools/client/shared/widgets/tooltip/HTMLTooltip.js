@@ -2649,7 +2649,7 @@ prefs
 getBoolPref
 (
 "
-ui
+devtools
 .
 popup
 .
