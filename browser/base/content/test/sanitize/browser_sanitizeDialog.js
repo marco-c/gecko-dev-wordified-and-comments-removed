@@ -1875,9 +1875,6 @@ is
 formdata
 checkbox
 to
-"
-+
-"
 clear
 formdata
 should
@@ -1936,9 +1933,6 @@ is
 history
 checkbox
 to
-"
-+
-"
 clear
 history
 should

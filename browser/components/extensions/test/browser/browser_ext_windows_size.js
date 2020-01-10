@@ -243,7 +243,6 @@ geom
 }
 )
 .
-+
 Retrying
 after
 a

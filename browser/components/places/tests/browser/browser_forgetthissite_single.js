@@ -387,7 +387,6 @@ hideForgetThisSite
 not
 "
 }
-+
 be
 hidden
 with

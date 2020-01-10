@@ -388,9 +388,6 @@ called
 in
 the
 parent
-"
-+
-"
 process
 .
 "
@@ -554,9 +551,6 @@ should
 only
 get
 called
-"
-+
-"
 in
 the
 parent
@@ -1339,9 +1333,6 @@ should
 be
 observing
 PDF
-"
-+
-"
 handler
 changes
 .

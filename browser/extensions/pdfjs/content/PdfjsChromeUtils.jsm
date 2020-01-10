@@ -1273,9 +1273,6 @@ FindEventManager
 was
 not
 bound
-"
-+
-"
 for
 the
 current
@@ -1369,9 +1366,6 @@ was
 bound
 2nd
 time
-"
-+
-"
 without
 unbinding
 it

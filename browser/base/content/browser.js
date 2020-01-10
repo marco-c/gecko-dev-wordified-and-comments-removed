@@ -14026,9 +14026,6 @@ cannot
 accept
 a
 CPOW
-"
-+
-"
 as
 a
 document
