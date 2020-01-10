@@ -1245,6 +1245,12 @@ StashDocument
 (
 )
 ;
+bool
+IsTextBaseDirectionLTR
+(
+)
+const
+;
 RefPtr
 <
 Document
