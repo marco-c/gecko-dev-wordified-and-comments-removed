@@ -372,6 +372,16 @@ return
 true
 ;
 }
+bool
+IsDocumentLoading
+(
+)
+const
+{
+return
+false
+;
+}
 void
 SetResolutionAndScaleTo
 (
