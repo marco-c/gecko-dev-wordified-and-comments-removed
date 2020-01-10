@@ -83,7 +83,7 @@ Symbol
 class
 BigInt
 ;
-class
+union
 Value
 ;
 class
