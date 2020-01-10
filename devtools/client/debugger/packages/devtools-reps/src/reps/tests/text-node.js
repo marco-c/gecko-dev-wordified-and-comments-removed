@@ -653,6 +653,16 @@ toHaveLength
 1
 )
 ;
+expect
+(
+onDOMNodeMouseOut
+)
+.
+toHaveBeenCalledWith
+(
+object
+)
+;
 }
 )
 ;

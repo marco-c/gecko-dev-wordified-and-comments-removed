@@ -229,7 +229,13 @@ baseConfig
 {
 onMouseOut
 :
+_
+=
+>
 onDOMNodeMouseOut
+(
+grip
+)
 }
 )
 ;
