@@ -2343,11 +2343,6 @@ profilerExitToggleOffset_
 =
 0
 ;
-uint32_t
-debuggeeCheckOffset_
-=
-0
-;
 using
 CodeOffsetVector
 =
@@ -2357,6 +2352,9 @@ uint32_t
 0
 SystemAllocPolicy
 >
+;
+CodeOffsetVector
+debugInstrumentationOffsets_
 ;
 CodeOffsetVector
 debugTrapOffsets_
@@ -2406,8 +2404,10 @@ uint32_t
 profilerEnterToggleOffset
 uint32_t
 profilerExitToggleOffset
-uint32_t
-debuggeeCheckOffset
+CodeOffsetVector
+&
+&
+debugInstrumentationOffsets
 CodeOffsetVector
 &
 &
