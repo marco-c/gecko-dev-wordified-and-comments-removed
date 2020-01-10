@@ -137,12 +137,6 @@ mPrintBGColors
 bool
 mPrintBGImages
 ;
-int16_t
-mPrintFrameType
-;
-int16_t
-mHowToEnableFrameUI
-;
 bool
 mIsCancelled
 ;

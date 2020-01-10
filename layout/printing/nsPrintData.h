@@ -202,9 +202,6 @@ mDocWasToBeDestroyed
 bool
 mShrinkToFit
 ;
-int16_t
-mPrintFrameType
-;
 int32_t
 mNumPrintablePages
 ;

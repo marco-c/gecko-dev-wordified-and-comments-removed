@@ -199,14 +199,8 @@ footerStrCenter
 nsString
 footerStrRight
 ;
-short
-howToEnableFrameUI
-;
 bool
 isCancelled
-;
-short
-printFrameType
 ;
 bool
 printSilent

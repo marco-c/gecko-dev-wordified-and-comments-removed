@@ -141,13 +141,6 @@ mShrinkToFit
 (
 false
 )
-mPrintFrameType
-(
-nsIPrintSettings
-:
-:
-kFramesAsIs
-)
 mNumPrintablePages
 (
 0

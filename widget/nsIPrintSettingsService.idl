@@ -568,10 +568,8 @@ printRange
 title
 *
 docURL
-howToEnableFrameUI
 isCancelled
 *
-printFrameType
 printSilent
 shrinkToFit
 numCopies
@@ -715,10 +713,8 @@ printRange
 title
 *
 docURL
-howToEnableFrameUI
 isCancelled
 *
-printFrameType
 printSilent
 shrinkToFit
 numCopies

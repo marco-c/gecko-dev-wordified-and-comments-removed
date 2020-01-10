@@ -7309,16 +7309,6 @@ true
 ;
 printSettings
 .
-printFrameType
-=
-Ci
-.
-nsIPrintSettings
-.
-kFramesAsIs
-;
-printSettings
-.
 headerStrCenter
 =
 "
