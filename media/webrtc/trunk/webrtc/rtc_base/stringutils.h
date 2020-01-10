@@ -1471,6 +1471,17 @@ string
 s
 )
 ;
+std
+:
+:
+string
+ToHex
+(
+const
+int
+i
+)
+;
 }
 #
 endif
