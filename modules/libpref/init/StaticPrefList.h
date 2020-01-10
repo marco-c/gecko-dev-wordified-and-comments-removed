@@ -4241,7 +4241,7 @@ false
 endif
 VARCACHE_PREF
 (
-Once
+Live
 "
 dom
 .
@@ -4250,7 +4250,7 @@ vr
 enabled
 "
 dom_vr_enabled
-bool
+RelaxedAtomicBool
 PREF_VALUE
 )
 #
