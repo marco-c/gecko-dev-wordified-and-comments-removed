@@ -8764,11 +8764,6 @@ FlushPendingLinkUpdates
 (
 )
 ;
-void
-FlushPendingLinkUpdatesFromRunnable
-(
-)
-;
 #
 define
 DEPRECATED_OPERATION
