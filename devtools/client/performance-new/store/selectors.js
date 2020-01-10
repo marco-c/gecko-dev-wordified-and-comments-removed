@@ -257,6 +257,19 @@ state
 getSymbolTableGetter
 ;
 const
+getSupportedFeatures
+=
+state
+=
+>
+getInitializedValues
+(
+state
+)
+.
+supportedFeatures
+;
+const
 getPromptEnvRestart
 =
 state
@@ -288,5 +301,6 @@ getSetRecordingPreferencesFn
 getIsPopup
 getSymbolTableGetter
 getPromptEnvRestart
+getSupportedFeatures
 }
 ;
