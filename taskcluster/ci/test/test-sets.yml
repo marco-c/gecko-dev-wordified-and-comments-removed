@@ -1894,6 +1894,7 @@ test
 verify
 -
 wpt
+#
 -
 web
 -
@@ -1992,6 +1993,12 @@ telemetry
 tests
 -
 client
+-
+web
+-
+platform
+-
+tests
 -
 web
 -
