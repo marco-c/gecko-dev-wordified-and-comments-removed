@@ -3075,6 +3075,10 @@ LayoutDeviceToLayoutDeviceMatrix4x4
 >
 &
 aMatrix
+const
+ScreenRect
+&
+aRemoteDocumentRect
 )
 ;
 LayoutDeviceIntPoint

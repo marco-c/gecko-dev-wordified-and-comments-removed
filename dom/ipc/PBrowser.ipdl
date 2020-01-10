@@ -324,6 +324,15 @@ h
 "
 ;
 using
+ScreenRect
+from
+"
+Units
+.
+h
+"
+;
+using
 struct
 mozilla
 :
@@ -4623,6 +4632,8 @@ ChildToParentMatrix
 (
 MaybeMatrix4x4
 aMatrix
+ScreenRect
+aRemoteDocumentRect
 )
 ;
 async

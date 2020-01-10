@@ -419,6 +419,12 @@ GetVisibleRegion
 )
 const
 ;
+ScreenRect
+GetRemoteDocumentScreenRect
+(
+)
+const
+;
 bool
 IsAsyncZoomContainer
 (

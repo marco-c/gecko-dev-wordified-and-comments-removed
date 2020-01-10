@@ -14919,6 +14919,9 @@ LayerToScreenMatrix4x4
 (
 )
 )
+ScreenRect
+(
+)
 layersId
 )
 )
@@ -14964,6 +14967,9 @@ MatrixMessage
 Nothing
 (
 )
+ScreenRect
+(
+)
 layersId
 )
 )
@@ -14985,6 +14991,12 @@ parent
 GetTransformToGecko
 (
 )
+)
+parent
+-
+>
+GetRemoteDocumentScreenRect
+(
 )
 layersId
 )

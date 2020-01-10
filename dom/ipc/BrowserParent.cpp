@@ -11756,6 +11756,10 @@ LayoutDeviceToLayoutDeviceMatrix4x4
 >
 &
 aMatrix
+const
+ScreenRect
+&
+aRemoteDocumentRect
 )
 {
 mChildToParentConversionMatrix
@@ -11782,6 +11786,7 @@ ToUnknownMatrix
 (
 aMatrix
 )
+aRemoteDocumentRect
 )
 ;
 }
