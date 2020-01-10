@@ -3784,6 +3784,17 @@ PictureInPicture
 "
 ]
 "
+PictureInPicture
+:
+OpenToggleContextMenu
+"
+:
+[
+"
+PictureInPicture
+"
+]
+"
 Reader
 :
 FaviconRequest
