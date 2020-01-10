@@ -112,6 +112,8 @@ bool
 aIsActive
 bool
 aIsTopLevelDoc
+bool
+aHasNonEmptySandboxingFlags
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -527,6 +529,10 @@ mIsActive
 const
 bool
 mIsTopLevelDoc
+;
+const
+bool
+mHasNonEmptySandboxingFlags
 ;
 bool
 mCanceled
