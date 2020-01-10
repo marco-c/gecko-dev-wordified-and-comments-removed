@@ -310,6 +310,17 @@ MediaElementAudioSourceOptions
 aOptions
 )
 {
+if
+(
+!
+GetAbstractMainThread
+(
+)
+)
+{
+return
+;
+}
 aOptions
 .
 mMediaElement
