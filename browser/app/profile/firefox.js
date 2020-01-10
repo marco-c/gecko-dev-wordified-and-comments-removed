@@ -542,6 +542,12 @@ lang
 %
 LOCALE
 %
+&
+edition
+=
+%
+DISTRIBUTION
+%
 "
 )
 ;
