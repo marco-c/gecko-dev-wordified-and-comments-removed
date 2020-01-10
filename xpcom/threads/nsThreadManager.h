@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIThreadPool
-.
-h
-"
-#
-include
-"
 nsThread
 .
 h
@@ -225,7 +218,7 @@ mInitialized
 ;
 nsCOMPtr
 <
-nsIThreadPool
+nsIEventTarget
 >
 mBackgroundEventTarget
 ;
