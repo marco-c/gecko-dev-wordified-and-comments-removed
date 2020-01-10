@@ -1545,7 +1545,7 @@ _placesNode
 &
 node
 .
-lastChild
+menupopup
 .
 _placesView
 )
@@ -1553,7 +1553,7 @@ _placesView
 return
 node
 .
-lastChild
+menupopup
 .
 _placesView
 ;
