@@ -116,16 +116,6 @@ RemoteWebNavigation
 jsm
 '
 ]
-XPCOM_MANIFESTS
-+
-=
-[
-'
-components
-.
-conf
-'
-]
 BROWSER_CHROME_MANIFESTS
 +
 =
