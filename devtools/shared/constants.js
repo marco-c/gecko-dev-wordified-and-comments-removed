@@ -183,7 +183,7 @@ BEST_PRACTICES
 FAIL
 :
 "
-fail
+FAIL
 "
 WARNING
 :
