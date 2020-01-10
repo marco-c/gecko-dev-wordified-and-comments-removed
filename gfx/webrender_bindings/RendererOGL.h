@@ -170,7 +170,7 @@ Update
 (
 )
 ;
-bool
+RenderedFrameId
 UpdateAndRender
 (
 const
@@ -212,6 +212,11 @@ aOutStats
 ;
 void
 WaitForGPU
+(
+)
+;
+RenderedFrameId
+GetLastCompletedFrameId
 (
 )
 ;

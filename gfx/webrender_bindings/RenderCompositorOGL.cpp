@@ -493,7 +493,7 @@ return
 true
 ;
 }
-void
+RenderedFrameId
 RenderCompositorOGL
 :
 :
@@ -508,6 +508,13 @@ DeviceIntRect
 aDirtyRects
 )
 {
+RenderedFrameId
+frameId
+=
+GetNextRenderFrameId
+(
+)
+;
 InsertFrameDoneSync
 (
 )
@@ -532,6 +539,9 @@ NotifySurfaceReady
 )
 ;
 }
+return
+frameId
+;
 }
 void
 RenderCompositorOGL
