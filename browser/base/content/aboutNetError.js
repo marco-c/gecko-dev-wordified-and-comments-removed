@@ -1373,14 +1373,6 @@ errorCode
 "
 SSL_ERROR_UNSUPPORTED_VERSION
 "
-|
-|
-errorCode
-=
-=
-"
-SSL_ERROR_PROTOCOL_VERSION_ALERT
-"
 ;
 const
 tls10OverrideEnabled
