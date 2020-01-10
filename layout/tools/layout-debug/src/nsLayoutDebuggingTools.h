@@ -47,11 +47,6 @@ nsLayoutDebuggingTools
 (
 )
 ;
-void
-ForceRefresh
-(
-)
-;
 nsresult
 SetBoolPrefAndRefresh
 (
