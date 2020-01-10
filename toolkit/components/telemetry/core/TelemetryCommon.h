@@ -191,6 +191,14 @@ Geckoview
 <
 2
 )
+GeckoviewStreaming
+=
+(
+1
+<
+<
+3
+)
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
@@ -517,11 +525,6 @@ const
 nsAString
 &
 aStr
-)
-;
-void
-SetCurrentProduct
-(
 )
 ;
 SupportedProduct

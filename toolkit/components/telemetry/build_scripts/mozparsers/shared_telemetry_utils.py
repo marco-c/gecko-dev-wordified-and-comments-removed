@@ -95,6 +95,14 @@ geckoview
 '
 Geckoview
 '
+    
+'
+geckoview_streaming
+'
+:
+'
+GeckoviewStreaming
+'
 }
 SUPPORTED_OPERATING_SYSTEMS
 =

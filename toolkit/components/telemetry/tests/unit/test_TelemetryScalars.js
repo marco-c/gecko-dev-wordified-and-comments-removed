@@ -5527,12 +5527,6 @@ isGeckoViewMode
 true
 )
 ;
-Telemetry
-.
-resetCurrentProduct
-(
-)
-;
 let
 expectedValue
 =
@@ -5724,12 +5718,6 @@ telemetry
 .
 isGeckoViewMode
 "
-)
-;
-Telemetry
-.
-resetCurrentProduct
-(
 )
 ;
 }
