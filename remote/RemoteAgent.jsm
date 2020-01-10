@@ -1262,6 +1262,7 @@ helpInfo
 )
 {
 return
+(
 "
 -
 -
@@ -1334,6 +1335,7 @@ localhost
 \
 n
 "
+)
 ;
 }
 get

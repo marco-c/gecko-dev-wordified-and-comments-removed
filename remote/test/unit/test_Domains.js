@@ -105,9 +105,7 @@ const
 modules
 =
 {
-"
 Foo
-"
 :
 class
 extends
