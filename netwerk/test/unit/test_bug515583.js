@@ -262,6 +262,8 @@ Wed
 3A09
 %
 3A01
+%
+20GMT
 FILE
 \
 n
@@ -289,6 +291,8 @@ Mon
 3A09
 %
 3A01
+%
+20GMT
 FILE
 \
 n
