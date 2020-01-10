@@ -52,7 +52,7 @@ allocateSomeStuff
 (
 )
 ;
-gc
+minorgc
 (
 )
 ;
@@ -80,7 +80,7 @@ allocateSomeStuff
 (
 )
 ;
-gc
+minorgc
 (
 )
 ;
