@@ -2044,6 +2044,16 @@ spocs_per_domain
 }
 )
 ;
+this
+.
+updatePlacements
+(
+sendUpdate
+layoutResp
+.
+layout
+)
+;
 }
 }
 }

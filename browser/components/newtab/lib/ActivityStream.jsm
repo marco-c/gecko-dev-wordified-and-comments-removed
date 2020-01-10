@@ -1744,10 +1744,6 @@ mozilla
 org
 /
 submit
-/
-activity
--
-stream
 "
 }
 ]

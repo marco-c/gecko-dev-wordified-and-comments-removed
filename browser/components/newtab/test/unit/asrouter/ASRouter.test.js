@@ -4667,7 +4667,7 @@ event
 "
 ASR_RS_ERROR
 "
-value
+event_context
 :
 "
 remotey
@@ -4772,7 +4772,7 @@ event
 "
 ASR_RS_NO_MESSAGES
 "
-value
+event_context
 :
 "
 remotey
@@ -5096,7 +5096,7 @@ event
 "
 ASR_RS_NO_MESSAGES
 "
-value
+event_context
 :
 "
 ms

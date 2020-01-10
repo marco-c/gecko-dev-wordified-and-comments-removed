@@ -7546,7 +7546,7 @@ event
 TARGETING_EXPRESSION_ERROR
 "
 "
-value
+event_context
 "
 :
 [
@@ -7661,7 +7661,7 @@ onboarding
 etc
 .
 "
-value
+event_context
 "
 :
 "

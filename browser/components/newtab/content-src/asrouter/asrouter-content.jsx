@@ -1284,7 +1284,7 @@ as
 part
 of
 the
-value
+event_context
 /
 /
 telemetry
@@ -1318,7 +1318,7 @@ const
 metric
 =
 {
-value
+event_context
 :
 event
 .
