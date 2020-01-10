@@ -1233,6 +1233,9 @@ aExpires
 nsACString
 &
 aMaxage
+bool
+&
+aAcceptedByParser
 )
 ;
 bool
