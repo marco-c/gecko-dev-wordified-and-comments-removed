@@ -372,7 +372,8 @@ uint8_t
 ptr
 =
 buf
-.
+-
+>
 write
 (
 count
@@ -432,7 +433,8 @@ uint8_t
 ptr
 =
 buf
-.
+-
+>
 read
 (
 count
@@ -547,7 +549,8 @@ uint8_t
 ptr
 =
 buf
-.
+-
+>
 write
 (
 nbytes
@@ -591,7 +594,8 @@ uint8_t
 ptr
 =
 buf
-.
+-
+>
 read
 (
 nbytes
@@ -1661,6 +1665,13 @@ this
 )
 )
 ;
+MOZ_ASSERT
+(
+isMainBuf
+(
+)
+)
+;
 MOZ_TRY
 (
 XDRScript
@@ -2288,7 +2299,8 @@ size_t
 cursor
 =
 buf
-.
+-
+>
 cursor
 (
 )
@@ -2541,7 +2553,8 @@ size_t
 cursor
 =
 buf
-.
+-
+>
 cursor
 (
 )
