@@ -442,14 +442,6 @@ headless
 "
 :
 False
-          
-"
-sw
--
-e10s
-"
-:
-False
 }
     
 rv
