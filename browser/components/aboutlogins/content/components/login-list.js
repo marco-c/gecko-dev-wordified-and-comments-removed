@@ -239,6 +239,14 @@ create
 }
 )
 ;
+this
+.
+_blankLoginListItem
+.
+hidden
+=
+true
+;
 }
 connectedCallback
 (
