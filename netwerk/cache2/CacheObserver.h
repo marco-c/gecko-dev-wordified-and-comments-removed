@@ -228,7 +228,12 @@ MaxMemoryEntrySize
 )
 {
 return
-sMaxMemoryEntrySize
+StaticPrefs
+:
+:
+browser_cache_memory_max_entry_size
+(
+)
 ;
 }
 static
@@ -468,10 +473,6 @@ uint32_t
 Relaxed
 >
 sDiskCacheCapacity
-;
-static
-int32_t
-sMaxMemoryEntrySize
 ;
 static
 uint32_t
