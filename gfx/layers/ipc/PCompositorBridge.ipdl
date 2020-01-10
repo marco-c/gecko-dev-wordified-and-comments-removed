@@ -1960,6 +1960,11 @@ PCanvasParent
 aEndpoint
 )
 ;
+async
+ReleasePCanvasParent
+(
+)
+;
 sync
 SyncWithCompositor
 (
