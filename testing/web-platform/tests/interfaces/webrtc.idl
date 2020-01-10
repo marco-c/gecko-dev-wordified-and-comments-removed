@@ -1031,7 +1031,15 @@ eventInitDict
 readonly
 attribute
 DOMString
-hostCandidate
+?
+address
+;
+readonly
+attribute
+unsigned
+short
+?
+port
 ;
 readonly
 attribute
