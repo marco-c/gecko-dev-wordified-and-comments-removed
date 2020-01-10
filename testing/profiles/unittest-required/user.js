@@ -983,6 +983,16 @@ txt
 user_pref
 (
 "
+consoleservice
+.
+logcat
+"
+true
+)
+;
+user_pref
+(
+"
 datareporting
 .
 healthreport
