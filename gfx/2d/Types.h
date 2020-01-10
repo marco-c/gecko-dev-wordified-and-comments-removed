@@ -794,15 +794,6 @@ OPENGL_TEXTURE
 ;
 enum
 class
-NativeFontType
-:
-int8_t
-{
-GDI_LOGFONT
-}
-;
-enum
-class
 FontStyle
 :
 int8_t

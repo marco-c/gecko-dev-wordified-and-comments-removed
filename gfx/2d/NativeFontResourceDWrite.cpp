@@ -831,8 +831,6 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
-bool
-aNeedsCairo
 )
 {
 RefPtr
@@ -1087,7 +1085,6 @@ forget
 )
 faceType
 numberOfFaces
-aNeedsCairo
 )
 ;
 return
@@ -1215,7 +1212,6 @@ UnscaledFontDWrite
 (
 fontFace
 nullptr
-mNeedsCairo
 )
 ;
 return

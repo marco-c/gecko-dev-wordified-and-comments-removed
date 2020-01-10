@@ -22,13 +22,6 @@ h
 "
 #
 include
-"
-cairo
-.
-h
-"
-#
-include
 <
 ApplicationServices
 /
@@ -353,10 +346,6 @@ mCGFont
 ;
 CTFontRef
 mCTFont
-;
-cairo_font_face_t
-*
-mFontFace
 ;
 mozilla
 :

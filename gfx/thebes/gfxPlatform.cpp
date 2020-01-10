@@ -7021,9 +7021,6 @@ nullptr
 ;
 #
 ifdef
-NS_FREE_PERMANENT_DATA
-#
-ifdef
 USE_SKIA
 SkGraphics
 :
@@ -7034,6 +7031,9 @@ PurgeFontCache
 ;
 #
 endif
+#
+ifdef
+NS_FREE_PERMANENT_DATA
 #
 if
 MOZ_TREE_CAIRO

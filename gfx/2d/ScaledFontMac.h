@@ -234,8 +234,11 @@ ifdef
 USE_CAIRO_SCALED_FONT
 cairo_font_face_t
 *
-GetCairoFontFace
+CreateCairoFontFace
 (
+cairo_font_options_t
+*
+aFontOptions
 )
 override
 ;

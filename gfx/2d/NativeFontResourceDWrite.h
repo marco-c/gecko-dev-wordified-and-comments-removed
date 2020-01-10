@@ -59,8 +59,6 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
-bool
-aNeedsCairo
 )
 ;
 already_AddRefed
@@ -101,8 +99,6 @@ DWRITE_FONT_FACE_TYPE
 aFaceType
 uint32_t
 aNumberOfFaces
-bool
-aNeedsCairo
 )
 :
 mFactory
@@ -124,10 +120,6 @@ aFaceType
 mNumberOfFaces
 (
 aNumberOfFaces
-)
-mNeedsCairo
-(
-aNeedsCairo
 )
 {
 }
@@ -152,9 +144,6 @@ mFaceType
 ;
 uint32_t
 mNumberOfFaces
-;
-bool
-mNeedsCairo
 ;
 }
 ;

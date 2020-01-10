@@ -1089,6 +1089,10 @@ aOperator
 void
 SetFontOptions
 (
+cairo_antialias_t
+aAAMode
+=
+CAIRO_ANTIALIAS_DEFAULT
 )
 ;
 private
