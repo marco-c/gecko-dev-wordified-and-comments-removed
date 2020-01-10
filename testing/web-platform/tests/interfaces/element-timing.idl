@@ -58,6 +58,11 @@ element
 timing
 /
 )
+[
+Exposed
+=
+Window
+]
 interface
 PerformanceElementTiming
 :
