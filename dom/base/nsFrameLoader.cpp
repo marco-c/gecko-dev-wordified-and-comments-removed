@@ -8699,10 +8699,6 @@ mBrowsingContext
 =
 nullptr
 ;
-mDocShell
-=
-nullptr
-;
 if
 (
 mChildMessageManager
@@ -9147,10 +9143,6 @@ NS_ENSURE_TRUE
 docShell
 NS_ERROR_FAILURE
 )
-;
-mDocShell
-=
-docShell
 ;
 mBrowsingContext
 -
