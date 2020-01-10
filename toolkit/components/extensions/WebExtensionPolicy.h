@@ -279,6 +279,15 @@ aBaseURL
 )
 ;
 }
+bool
+IsPrivileged
+(
+)
+{
+return
+mIsPrivileged
+;
+}
 void
 GetURL
 (
@@ -949,6 +958,9 @@ RefPtr
 WebExtensionLocalizeCallback
 >
 mLocalizeCallback
+;
+bool
+mIsPrivileged
 ;
 RefPtr
 <

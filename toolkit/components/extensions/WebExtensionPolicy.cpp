@@ -692,6 +692,12 @@ aInit
 .
 mLocalizeCallback
 )
+mIsPrivileged
+(
+aInit
+.
+mIsPrivileged
+)
 mPermissions
 (
 new
