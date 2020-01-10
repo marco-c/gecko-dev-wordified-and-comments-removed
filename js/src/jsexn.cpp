@@ -1763,7 +1763,7 @@ getErrorReport
 fop
 -
 >
-delete_
+deleteUntracked
 (
 report
 )
