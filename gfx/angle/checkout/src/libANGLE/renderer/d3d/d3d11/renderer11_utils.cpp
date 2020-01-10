@@ -9045,6 +9045,12 @@ IntelDriverVersion
 4624
 )
 ;
+workarounds
+.
+setDataFasterThanImageUpload
+=
+false
+;
 }
 }
 workarounds
