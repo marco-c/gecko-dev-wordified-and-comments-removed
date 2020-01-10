@@ -16622,6 +16622,15 @@ GCReason
 :
 TOO_MUCH_JIT_CODE
 :
+case
+JS
+:
+:
+GCReason
+:
+:
+INCREMENTAL_ALLOC_TRIGGER
+:
 return
 false
 ;
