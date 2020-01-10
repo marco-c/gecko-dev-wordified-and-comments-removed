@@ -91,6 +91,9 @@ software
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 MIDIInputMap
 {
@@ -103,6 +106,9 @@ MIDIInput
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 MIDIOutputMap
 {
