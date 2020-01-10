@@ -47,6 +47,10 @@ position
 :
 absolute
 ;
+display
+:
+block
+;
 "
 /
 >

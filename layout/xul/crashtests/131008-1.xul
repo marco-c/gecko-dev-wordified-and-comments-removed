@@ -114,6 +114,10 @@ div
 style
 =
 "
+display
+:
+block
+;
 position
 :
 absolute

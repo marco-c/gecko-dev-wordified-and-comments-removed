@@ -118,6 +118,10 @@ t
 style
 =
 "
+display
+:
+block
+;
 position
 :
 fixed

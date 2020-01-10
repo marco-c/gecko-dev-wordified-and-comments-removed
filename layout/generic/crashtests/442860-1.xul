@@ -53,6 +53,10 @@ height
 style
 =
 "
+display
+:
+block
+;
 position
 :
 fixed
