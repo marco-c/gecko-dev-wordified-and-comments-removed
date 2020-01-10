@@ -32055,7 +32055,7 @@ getStr
 "
 watchpoints
 .
-removeWatchpoint
+removeWatchpointTooltip
 "
 )
 onClick
