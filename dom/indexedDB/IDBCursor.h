@@ -176,6 +176,7 @@ mSourceIndex
 ;
 IDBTransaction
 *
+const
 mTransaction
 ;
 JS
