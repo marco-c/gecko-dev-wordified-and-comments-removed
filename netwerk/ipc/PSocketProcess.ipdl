@@ -107,6 +107,10 @@ PProfiler
 ;
 include
 protocol
+PProxyConfigLookup
+;
+include
+protocol
 PWebrtcProxyChannel
 ;
 include
@@ -282,6 +286,9 @@ manages
 PDNSRequest
 ;
 manages
+PProxyConfigLookup
+;
+manages
 PWebrtcProxyChannel
 ;
 parent
@@ -387,6 +394,11 @@ OriginAttributes
 originAttributes
 uint32_t
 flags
+)
+;
+async
+PProxyConfigLookup
+(
 )
 ;
 child

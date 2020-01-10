@@ -60,6 +60,10 @@ include
 protocol
 PNecko
 ;
+include
+protocol
+PSocketProcess
+;
 namespace
 mozilla
 {
@@ -71,6 +75,8 @@ PProxyConfigLookup
 {
 manager
 PNecko
+or
+PSocketProcess
 ;
 child
 :
