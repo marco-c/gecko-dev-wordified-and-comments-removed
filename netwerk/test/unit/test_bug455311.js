@@ -723,7 +723,7 @@ ios
 .
 newFileURI
 (
-linkTarget
+link
 )
 ;
 }
