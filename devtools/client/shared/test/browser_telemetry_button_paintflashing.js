@@ -197,6 +197,17 @@ button
 4
 )
 ;
+await
+toolbox
+.
+target
+.
+client
+.
+waitForRequestsToSettle
+(
+)
+;
 checkResults
 (
 )
