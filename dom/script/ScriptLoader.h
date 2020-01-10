@@ -685,6 +685,18 @@ true
 ;
 if
 (
+mDocumentParsingDone
+)
+{
+mDocumentParsingDone
+=
+false
+;
+}
+else
+{
+if
+(
 mDocument
 )
 {
@@ -695,6 +707,7 @@ BlockOnload
 (
 )
 ;
+}
 }
 }
 void
