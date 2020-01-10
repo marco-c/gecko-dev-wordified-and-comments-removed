@@ -1384,7 +1384,7 @@ aPromise
 )
 ;
 }
-bool
+void
 VRManagerChild
 :
 :
@@ -1404,9 +1404,6 @@ aDisplays
 aDisplays
 =
 mDisplays
-;
-return
-true
 ;
 }
 bool

@@ -258,7 +258,7 @@ StopActivity
 (
 )
 ;
-bool
+void
 GetVRDisplays
 (
 nsTArray
