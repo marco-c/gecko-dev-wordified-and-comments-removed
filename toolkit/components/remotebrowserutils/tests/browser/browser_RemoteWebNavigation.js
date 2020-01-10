@@ -17,9 +17,11 @@ http
 :
 /
 /
+test1
+.
 example
 .
-com
+org
 /
 browser
 /
@@ -44,6 +46,8 @@ http
 :
 /
 /
+test2
+.
 example
 .
 org
