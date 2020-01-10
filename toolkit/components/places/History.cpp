@@ -10254,7 +10254,7 @@ IsEmpty
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 keyAlreadyExists
@@ -10295,7 +10295,7 @@ rv
 aLink
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 key
 =
@@ -10375,7 +10375,7 @@ return
 NS_OK
 ;
 }
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 observers
