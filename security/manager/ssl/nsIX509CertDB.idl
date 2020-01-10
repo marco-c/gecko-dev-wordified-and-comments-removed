@@ -114,9 +114,6 @@ interface
 nsIZipReader
 ;
 interface
-nsIX509CertList
-;
-interface
 nsIInputStream
 ;
 %
@@ -289,7 +286,10 @@ in
 int32_t
 aPRErrorCode
 in
-nsIX509CertList
+Array
+<
+nsIX509Cert
+>
 aVerifiedChain
 in
 bool
