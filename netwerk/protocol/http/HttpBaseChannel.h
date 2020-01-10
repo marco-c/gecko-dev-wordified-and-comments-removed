@@ -2658,6 +2658,15 @@ aExtraLoadFlags
 0
 )
 ;
+enum
+class
+ConfigureReason
+{
+Redirect
+InternalRedirect
+DocumentChannelReplacement
+}
+;
 static
 void
 ConfigureReplacementChannel
@@ -2667,6 +2676,7 @@ nsIChannel
 const
 ReplacementChannelConfig
 &
+ConfigureReason
 )
 ;
 already_AddRefed

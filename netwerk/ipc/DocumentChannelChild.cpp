@@ -1524,6 +1524,13 @@ ConfigureReplacementChannel
 (
 newChannel
 config
+HttpBaseChannel
+:
+:
+ConfigureReason
+:
+:
+DocumentChannelReplacement
 )
 ;
 }
