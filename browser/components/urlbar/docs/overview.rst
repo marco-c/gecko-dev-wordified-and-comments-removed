@@ -2055,7 +2055,6 @@ options
 {
 textbox
 panel
-controller
 }
 )
 ;

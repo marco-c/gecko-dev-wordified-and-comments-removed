@@ -576,11 +576,6 @@ this
 .
 controller
 =
-options
-.
-controller
-|
-|
 new
 UrlbarController
 (
