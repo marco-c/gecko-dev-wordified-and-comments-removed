@@ -162,12 +162,14 @@ config
 -
 search
 -
-input
+input1
 =
 .
 placeholder
 =
 Search
+preference
+name
 about
 -
 config
