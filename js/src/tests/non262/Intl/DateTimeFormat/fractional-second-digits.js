@@ -45,7 +45,7 @@ parts
 type
 :
 "
-fractionalSecondDigits
+fractionalSecond
 "
 value
 :
@@ -134,7 +134,7 @@ value
 type
 :
 "
-fractionalSecondDigits
+fractionalSecond
 "
 value
 :
@@ -185,7 +185,7 @@ value
 type
 :
 "
-fractionalSecondDigits
+fractionalSecond
 "
 value
 :
@@ -240,7 +240,7 @@ parts
 type
 :
 "
-fractionalSecondDigits
+fractionalSecond
 "
 value
 :
@@ -329,7 +329,7 @@ value
 type
 :
 "
-fractionalSecondDigits
+fractionalSecond
 "
 value
 :
@@ -380,7 +380,7 @@ value
 type
 :
 "
-fractionalSecondDigits
+fractionalSecond
 "
 value
 :
@@ -435,7 +435,7 @@ parts
 type
 :
 "
-fractionalSecondDigits
+fractionalSecond
 "
 value
 :
@@ -524,7 +524,7 @@ value
 type
 :
 "
-fractionalSecondDigits
+fractionalSecond
 "
 value
 :
@@ -575,7 +575,7 @@ value
 type
 :
 "
-fractionalSecondDigits
+fractionalSecond
 "
 value
 :

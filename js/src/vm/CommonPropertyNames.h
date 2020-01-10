@@ -1392,11 +1392,10 @@ fraction
 \
 MACRO
 (
-fractionalSecondDigits
-fractionalSecondDigits
-\
+fractionalSecond
+fractionalSecond
 "
-fractionalSecondDigits
+fractionalSecond
 "
 )
 \
