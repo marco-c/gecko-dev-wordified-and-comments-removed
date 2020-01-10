@@ -254,6 +254,7 @@ struct
 OutOfLinePoisoner
 {
 static
+MOZ_NEVER_INLINE
 void
 poison
 (
