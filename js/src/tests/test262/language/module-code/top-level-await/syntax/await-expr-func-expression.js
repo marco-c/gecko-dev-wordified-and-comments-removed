@@ -1,0 +1,13 @@
+await
+function
+(
+)
+{
+}
+;
+reportCompare
+(
+0
+0
+)
+;
