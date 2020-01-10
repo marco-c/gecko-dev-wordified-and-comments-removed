@@ -721,10 +721,16 @@ perform
 (
 )
         
+Wait
+(
 self
 .
-wait_for_condition
+marionette
+)
+.
+until
 (
+            
 lambda
 _
 :
@@ -736,6 +742,17 @@ context_menu_state
 "
 open
 "
+            
+message
+=
+"
+Context
+menu
+did
+not
+open
+"
+        
 )
         
 with
@@ -774,10 +791,16 @@ Keys
 ESCAPE
 )
         
+Wait
+(
 self
 .
-wait_for_condition
+marionette
+)
+.
+until
 (
+            
 lambda
 _
 :
@@ -789,6 +812,17 @@ context_menu_state
 "
 closed
 "
+            
+message
+=
+"
+Context
+menu
+did
+not
+close
+"
+        
 )
     
 def
@@ -874,10 +908,16 @@ perform
 (
 )
         
+Wait
+(
 self
 .
-wait_for_condition
+marionette
+)
+.
+until
 (
+            
 lambda
 _
 :
@@ -894,6 +934,20 @@ innerHTML
 "
 1
 "
+            
+message
+=
+"
+Middle
+-
+click
+hasn
+'
+t
+been
+fired
+"
+        
 )
 class
 TestNonSpecCompliantPointerOrigin
@@ -1099,13 +1153,14 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
 self
 .
 click_position
-                                                     
+            
 message
 =
 "
@@ -1116,6 +1171,7 @@ has
 been
 detected
 "
+        
 )
         
 self
@@ -1282,13 +1338,14 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
 self
 .
 click_position
-                                                     
+            
 message
 =
 "
@@ -1299,6 +1356,7 @@ has
 been
 detected
 "
+        
 )
         
 self
