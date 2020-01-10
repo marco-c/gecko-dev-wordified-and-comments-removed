@@ -3024,6 +3024,12 @@ mozilla
 :
 MallocSizeOf
 mallocSizeOf
+JS
+:
+:
+CodeSizes
+*
+code
 size_t
 *
 typePool
@@ -3101,6 +3107,7 @@ jitZone_
 addSizeOfIncludingThis
 (
 mallocSizeOf
+code
 jitZone
 baselineStubsOptimized
 cachedCFG

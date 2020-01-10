@@ -1287,6 +1287,10 @@ mallocSizeOf_
 &
 zStats
 .
+code
+&
+zStats
+.
 typePool
 &
 zStats
