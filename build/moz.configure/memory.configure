@@ -590,6 +590,12 @@ bitness
 =
 64
 )
+#
+XXX
+:
+disabled
+for
+now
 option
 (
 '
@@ -606,7 +612,7 @@ MOZ_PHC
 '
 default
 =
-phc_default
+False
 when
 =
 '
