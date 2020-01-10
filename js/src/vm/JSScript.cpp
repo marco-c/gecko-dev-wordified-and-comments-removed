@@ -2974,6 +2974,12 @@ ScopeKind
 :
 StrictNamedLambda
 :
+case
+ScopeKind
+:
+:
+FunctionLexical
+:
 MOZ_TRY
 (
 LexicalScope

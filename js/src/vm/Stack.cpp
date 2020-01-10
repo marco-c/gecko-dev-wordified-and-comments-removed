@@ -834,6 +834,12 @@ ScopeKind
 :
 StrictNamedLambda
 :
+case
+ScopeKind
+:
+:
+FunctionLexical
+:
 MOZ_ASSERT
 (
 &

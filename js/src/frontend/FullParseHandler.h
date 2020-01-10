@@ -4418,6 +4418,13 @@ Data
 bindings
 Node
 body
+ScopeKind
+kind
+=
+ScopeKind
+:
+:
+Lexical
 )
 {
 return
@@ -4428,6 +4435,7 @@ LexicalScopeNode
 (
 bindings
 body
+kind
 )
 ;
 }

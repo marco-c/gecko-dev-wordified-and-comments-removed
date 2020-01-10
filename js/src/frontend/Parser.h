@@ -1492,6 +1492,13 @@ Scope
 scope
 Node
 body
+ScopeKind
+kind
+=
+ScopeKind
+:
+:
+Lexical
 )
 ;
 bool

@@ -6826,6 +6826,12 @@ ScopeKind
 :
 StrictNamedLambda
 :
+case
+ScopeKind
+:
+:
+FunctionLexical
+:
 {
 LexicalScope
 :

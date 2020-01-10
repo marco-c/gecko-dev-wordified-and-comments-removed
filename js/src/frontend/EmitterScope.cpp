@@ -1272,6 +1272,12 @@ ScopeKind
 :
 Catch
 :
+case
+ScopeKind
+:
+:
+FunctionLexical
+:
 if
 (
 hasEnv
@@ -5416,6 +5422,12 @@ ScopeKind
 :
 :
 Catch
+:
+case
+ScopeKind
+:
+:
+FunctionLexical
 :
 if
 (
