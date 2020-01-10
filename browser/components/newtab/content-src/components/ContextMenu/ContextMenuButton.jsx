@@ -210,16 +210,6 @@ key
 "
 Enter
 "
-|
-|
-event
-.
-key
-=
-=
-=
-"
-"
 )
 {
 event
