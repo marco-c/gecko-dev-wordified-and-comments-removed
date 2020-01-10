@@ -2449,12 +2449,6 @@ IsChrome
 const
 ;
 bool
-IsChromeOriginImage
-(
-)
-const
-;
-bool
 HasAuthorSpecifiedRules
 (
 const
@@ -3142,11 +3136,6 @@ uint16_t
 aNewMode
 uint16_t
 aOldMode
-)
-;
-void
-GetDocumentColorPreferences
-(
 )
 ;
 void
