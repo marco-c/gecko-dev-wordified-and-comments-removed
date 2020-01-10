@@ -152,6 +152,10 @@ SetAndroidObjects
 LOG
 (
 (
+"
+%
+s
+"
 __PRETTY_FUNCTION__
 )
 )
@@ -270,6 +274,10 @@ deviceUniqueIdUTF8
 LOG
 (
 (
+"
+%
+s
+"
 __PRETTY_FUNCTION__
 )
 )
@@ -808,6 +816,10 @@ GetOrCreateVideoCaptureDeviceInfo
 LOG
 (
 (
+"
+%
+s
+"
 __PRETTY_FUNCTION__
 )
 )
@@ -1342,6 +1354,10 @@ aConfig
 LOG
 (
 (
+"
+%
+s
+"
 __PRETTY_FUNCTION__
 )
 )
@@ -1652,6 +1668,10 @@ aConfig
 LOG
 (
 (
+"
+%
+s
+"
 __PRETTY_FUNCTION__
 )
 )
