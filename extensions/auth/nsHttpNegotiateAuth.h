@@ -90,15 +90,6 @@ nsIURI
 uri
 )
 ;
-RefPtr
-<
-mozilla
-:
-:
-LazyIdleThread
->
-mNegotiateThread
-;
 static
 mozilla
 :
