@@ -449,6 +449,11 @@ testNullRoot
 cpp
 '
 '
+testNumberToString
+.
+cpp
+'
+'
 testObjectEmulatingUndefined
 .
 cpp

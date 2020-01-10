@@ -389,6 +389,9 @@ true
 }
 }
 ;
+#
+undef
+STR
 BEGIN_TEST
 (
 testStringIsArrayIndex
