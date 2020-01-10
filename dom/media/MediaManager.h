@@ -671,6 +671,8 @@ nsIMediaManagerService
 public
 nsIObserver
 public
+DeviceChangeNotifier
+public
 DeviceChangeCallback
 {
 friend

@@ -446,7 +446,7 @@ final
 public
 PCamerasChild
 public
-DeviceChangeCallback
+DeviceChangeNotifier
 {
 friend
 class

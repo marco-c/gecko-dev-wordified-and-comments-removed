@@ -290,7 +290,7 @@ child
 child
 -
 >
-OnDeviceChange
+NotifyDeviceChange
 (
 )
 ;
@@ -739,7 +739,7 @@ CameraEngine
 )
 ;
 return
-DeviceChangeCallback
+DeviceChangeNotifier
 :
 :
 AddDeviceChangeCallback
@@ -3326,7 +3326,7 @@ RecvDeviceChange
 this
 -
 >
-OnDeviceChange
+NotifyDeviceChange
 (
 )
 ;

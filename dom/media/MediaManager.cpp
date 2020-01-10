@@ -10981,7 +10981,7 @@ SetFakeDeviceChangeEvents
 )
 ;
 return
-DeviceChangeCallback
+DeviceChangeNotifier
 :
 :
 AddDeviceChangeCallback
@@ -11040,10 +11040,7 @@ return
 self
 -
 >
-DeviceChangeCallback
-:
-:
-OnDeviceChange
+NotifyDeviceChange
 (
 )
 ;
@@ -17927,9 +17924,6 @@ WindowID
 aWindowID
 )
 {
-DeviceChangeCallback
-:
-:
 RemoveDeviceChangeCallbackLocked
 (
 observer
