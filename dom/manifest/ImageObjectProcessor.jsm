@@ -989,12 +989,6 @@ from
 (
 sizes
 )
-.
-join
-(
-"
-"
-)
 :
 undefined
 ;
