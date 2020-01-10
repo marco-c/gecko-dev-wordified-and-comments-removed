@@ -54,6 +54,10 @@ src
 /
 components
 /
+service
+-
+workers
+/
 Worker
 .
 css
@@ -75,6 +79,10 @@ src
 /
 components
 /
+service
+-
+workers
+/
 WorkerList
 .
 css
@@ -95,6 +103,10 @@ application
 src
 /
 components
+/
+service
+-
+workers
 /
 WorkerListEmpty
 .
