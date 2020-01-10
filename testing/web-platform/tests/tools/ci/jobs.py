@@ -198,9 +198,6 @@ wptrunner_unittest
 "
 tools
 /
-wptrunner
-/
-*
 "
 ]
     

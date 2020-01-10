@@ -1047,7 +1047,6 @@ html
 [
 [
 "
-/
 a
 /
 fuzzy
@@ -1153,9 +1152,7 @@ reftest
 version
 "
 :
-wptmanifest
-.
-CURRENT_VERSION
+6
         
 "
 url_base

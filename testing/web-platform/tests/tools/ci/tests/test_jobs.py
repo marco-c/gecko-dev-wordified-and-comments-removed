@@ -787,6 +787,11 @@ wptrunner_unittest
 =
 set
 (
+[
+"
+wptrunner_unittest
+"
+]
 )
 def
 test_build_css
