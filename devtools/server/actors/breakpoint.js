@@ -689,7 +689,7 @@ threadActor
 .
 hasMoved
 (
-frame
+location
 "
 breakpoint
 "
