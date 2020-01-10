@@ -1812,9 +1812,10 @@ mLastFocus
 =
 target
 ;
-MOZ_ASSERT
+if
 (
-!
+NS_WARN_IF
+(
 target
 -
 >
@@ -1822,7 +1823,11 @@ IsDefunct
 (
 )
 )
+)
+{
+return
 ;
+}
 DocAccessible
 *
 targetDocument
