@@ -379,7 +379,7 @@ LoginRemoved
 {
 gElements
 .
-loginList
+loginItem
 .
 loginRemoved
 (
@@ -392,7 +392,7 @@ value
 ;
 gElements
 .
-loginItem
+loginList
 .
 loginRemoved
 (
