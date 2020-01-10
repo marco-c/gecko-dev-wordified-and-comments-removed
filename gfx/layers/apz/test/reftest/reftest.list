@@ -816,6 +816,12 @@ apz
 allow_zooming
 true
 )
+fails
+-
+if
+(
+webrender
+)
 =
 =
 pinch
@@ -838,3 +844,8 @@ sticky
 ref
 .
 html
+#
+bug
+1569339
+for
+webrender
