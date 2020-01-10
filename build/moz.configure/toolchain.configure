@@ -10996,9 +10996,6 @@ fprofile
 generate
 '
 ]
-if
-gen_ldflags
-:
 return
 namespace
 (
