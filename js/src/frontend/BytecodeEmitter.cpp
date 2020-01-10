@@ -1310,14 +1310,10 @@ false
 }
 if
 (
-CodeSpec
-[
+BytecodeOpHasTypeSet
+(
 op
-]
-.
-format
-&
-JOF_TYPESET
+)
 )
 {
 bytecodeSection
