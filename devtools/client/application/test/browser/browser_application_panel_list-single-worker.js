@@ -55,6 +55,16 @@ panelWin
 .
 document
 ;
+selectPage
+(
+panel
+"
+service
+-
+workers
+"
+)
+;
 const
 isWorkerListEmpty
 =

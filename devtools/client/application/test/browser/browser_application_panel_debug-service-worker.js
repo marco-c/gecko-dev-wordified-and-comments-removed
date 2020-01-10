@@ -124,6 +124,16 @@ panelWin
 .
 document
 ;
+selectPage
+(
+panel
+"
+service
+-
+workers
+"
+)
+;
 info
 (
 "

@@ -53,6 +53,16 @@ panelWin
 .
 document
 ;
+selectPage
+(
+panel
+"
+service
+-
+workers
+"
+)
+;
 await
 waitUntil
 (
