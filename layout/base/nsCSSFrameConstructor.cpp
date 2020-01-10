@@ -8002,6 +8002,14 @@ Servo_ComputedValues_SpecifiesAnimationsOrTransitions
 (
 pseudoStyle
 )
+&
+&
+!
+aOriginatingElement
+.
+MayHaveAnimations
+(
+)
 )
 {
 Servo_SetExplicitStyle
