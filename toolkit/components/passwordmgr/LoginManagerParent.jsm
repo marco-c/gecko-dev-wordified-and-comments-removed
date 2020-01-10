@@ -2458,6 +2458,10 @@ _onGeneratedPasswordFilled
 {
 browsingContextId
 formActionOrigin
+username
+=
+"
+"
 openerTopWindowID
 }
 )
@@ -2583,8 +2587,7 @@ init
 formOrigin
 formActionOrigin
 null
-"
-"
+username
 password
 )
 ;
