@@ -31,6 +31,9 @@ BlockedScreenTooLarge
 BlockedScreenUnknown
 BlockedNoGfxInfo
 BlockedOverride
+BlockedReleaseChannelIntel
+BlockedReleaseChannelAMD
+BlockedReleaseChannelBattery
 Blacklisted
 OptIn
 Failed
