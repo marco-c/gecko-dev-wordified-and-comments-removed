@@ -480,6 +480,13 @@ contents
 )
 )
 ;
+await
+writer
+.
+close
+(
+)
+;
 return
 handle
 ;
