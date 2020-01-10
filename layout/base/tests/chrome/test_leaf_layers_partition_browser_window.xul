@@ -323,7 +323,9 @@ initialCount
 =
 win
 .
-mozPaintCount
+windowUtils
+.
+paintCount
 ;
 function
 nextStep
@@ -334,7 +336,9 @@ if
 (
 win
 .
-mozPaintCount
+windowUtils
+.
+paintCount
 =
 =
 initialCount
@@ -401,7 +405,9 @@ isnot
 (
 win
 .
-mozPaintCount
+windowUtils
+.
+paintCount
 initialCount
 "
 mozPaintCount
@@ -597,7 +603,9 @@ initialCount
 =
 win
 .
-mozPaintCount
+windowUtils
+.
+paintCount
 ;
 SimpleTest
 .

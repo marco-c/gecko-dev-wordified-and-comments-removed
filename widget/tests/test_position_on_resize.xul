@@ -231,9 +231,11 @@ function
 )
 {
 return
-win
+SpecialPowers
 .
-mozPaintCount
+DOMWindowUtils
+.
+paintCount
 }
 "
 No
