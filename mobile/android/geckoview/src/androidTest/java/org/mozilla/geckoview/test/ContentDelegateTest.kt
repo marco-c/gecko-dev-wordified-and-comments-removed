@@ -1175,6 +1175,17 @@ sessionRule
 createOpenSession
 (
 )
+newSession
+.
+loadTestPath
+(
+HELLO_HTML_PATH
+)
+newSession
+.
+waitForPageStop
+(
+)
 mainSession
 .
 loadUri
