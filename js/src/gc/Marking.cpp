@@ -4860,11 +4860,6 @@ script
 )
 ;
 }
-if
-(
-function_
-)
-{
 TraceEdge
 (
 trc
@@ -4875,7 +4870,6 @@ function
 "
 )
 ;
-}
 if
 (
 enclosingLazyScriptOrScope_
@@ -5027,14 +5021,6 @@ sourceObject_
 )
 ;
 }
-if
-(
-thing
--
->
-function_
-)
-{
 traverseEdge
 (
 thing
@@ -5051,7 +5037,6 @@ function_
 )
 )
 ;
-}
 if
 (
 thing
