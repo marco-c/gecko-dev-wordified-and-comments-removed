@@ -2,6 +2,16 @@
 include
 "
 hb
+.
+hh
+"
+#
+ifndef
+HB_NO_OT_FONT_CFF
+#
+include
+"
+hb
 -
 ot
 -
@@ -24,9 +34,6 @@ cs
 .
 hh
 "
-#
-ifndef
-HB_NO_OT_FONT_CFF
 using
 namespace
 CFF

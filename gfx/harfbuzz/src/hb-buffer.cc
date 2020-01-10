@@ -5865,6 +5865,9 @@ return
 result
 ;
 }
+#
+ifndef
+HB_NO_BUFFER_MESSAGE
 void
 hb_buffer_set_message_func
 (
@@ -6003,3 +6006,5 @@ message_data
 )
 ;
 }
+#
+endif

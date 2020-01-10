@@ -924,6 +924,14 @@ HAVE_ROUND
 DEFINES
 [
 '
+HB_NO_FALLBACK_SHAPE
+'
+]
+=
+True
+DEFINES
+[
+'
 HB_NO_MT
 '
 ]

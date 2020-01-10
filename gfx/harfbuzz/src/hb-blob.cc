@@ -1249,6 +1249,9 @@ true
 ;
 }
 #
+ifndef
+HB_NO_OPEN
+#
 ifdef
 HAVE_MMAP
 #
@@ -2304,3 +2307,5 @@ hb_blob_get_empty
 )
 ;
 }
+#
+endif

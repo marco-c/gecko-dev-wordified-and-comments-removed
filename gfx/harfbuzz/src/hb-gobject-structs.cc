@@ -6,6 +6,9 @@ hb
 hh
 "
 #
+ifdef
+HAVE_GOBJECT
+#
 include
 <
 glib
@@ -364,3 +367,5 @@ HB_DEFINE_VALUE_TYPE
 (
 ot_math_glyph_part
 )
+#
+endif

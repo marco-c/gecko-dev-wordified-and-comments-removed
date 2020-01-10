@@ -1294,9 +1294,6 @@ return
 ret
 ;
 }
-#
-ifndef
-HB_DISABLE_DEPRECATED
 static
 hb_position_t
 hb_font_get_glyph_h_kerning_nil
@@ -1366,6 +1363,9 @@ right_glyph
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 static
 hb_position_t
 hb_font_get_glyph_v_kerning_nil
@@ -2717,9 +2717,6 @@ y
 )
 ;
 }
-#
-ifndef
-HB_DISABLE_DEPRECATED
 hb_position_t
 hb_font_get_glyph_h_kerning
 (
@@ -2743,6 +2740,9 @@ right_glyph
 )
 ;
 }
+#
+ifndef
+HB_DISABLE_DEPRECATED
 hb_position_t
 hb_font_get_glyph_v_kerning
 (
@@ -3068,9 +3068,6 @@ y
 )
 ;
 }
-#
-ifndef
-HB_DISABLE_DEPRECATED
 void
 hb_font_get_glyph_kerning_for_direction
 (
@@ -3105,8 +3102,6 @@ y
 )
 ;
 }
-#
-endif
 hb_bool_t
 hb_font_get_glyph_extents_for_origin
 (
@@ -4376,6 +4371,9 @@ num_coords
 coords_length
 ;
 }
+#
+ifndef
+HB_NO_VAR
 void
 hb_font_set_variations
 (
@@ -4559,6 +4557,8 @@ coords_length
 )
 ;
 }
+#
+endif
 void
 hb_font_set_var_coords_normalized
 (

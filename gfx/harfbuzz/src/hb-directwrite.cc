@@ -6,6 +6,9 @@ hb
 hh
 "
 #
+ifdef
+HAVE_DIRECTWRITE
+#
 include
 "
 hb
@@ -582,7 +585,6 @@ nullptr
 \
 }
 HB_STMT_END
-;
 if
 (
 FAILED
@@ -3953,3 +3955,5 @@ directwrite
 fontFace
 ;
 }
+#
+endif

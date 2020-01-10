@@ -53,6 +53,10 @@ BUILD
 .
 md
 \
+CONFIG
+.
+md
+\
 RELEASING
 .
 md

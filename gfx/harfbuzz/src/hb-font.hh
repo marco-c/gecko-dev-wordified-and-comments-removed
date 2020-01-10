@@ -88,12 +88,9 @@ HB_FONT_FUNC_IMPLEMENT
 glyph_v_origin
 )
 \
-HB_IF_NOT_DEPRECATED
-(
 HB_FONT_FUNC_IMPLEMENT
 (
 glyph_h_kerning
-)
 )
 \
 HB_IF_NOT_DEPRECATED

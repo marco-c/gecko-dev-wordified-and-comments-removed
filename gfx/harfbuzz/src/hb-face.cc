@@ -1131,6 +1131,9 @@ table_tags
 )
 ;
 }
+#
+ifndef
+HB_NO_FACE_COLLECT_UNICODES
 void
 hb_face_collect_unicodes
 (
@@ -1209,6 +1212,8 @@ out
 )
 ;
 }
+#
+endif
 struct
 hb_face_builder_data_t
 {

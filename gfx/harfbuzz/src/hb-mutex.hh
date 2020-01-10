@@ -474,7 +474,6 @@ M
 )
 -
 -
-;
 #
 define
 hb_mutex_impl_finish

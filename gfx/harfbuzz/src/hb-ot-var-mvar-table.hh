@@ -196,7 +196,7 @@ record
 VariationValueRecord
 *
 )
-bsearch
+hb_bsearch
 (
 &
 tag

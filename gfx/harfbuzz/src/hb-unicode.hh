@@ -1113,7 +1113,7 @@ alaph
 #
 define
 HB_MODIFIED_COMBINING_CLASS_CCC84
-0
+5
 /
 *
 length
@@ -1123,7 +1123,7 @@ mark
 #
 define
 HB_MODIFIED_COMBINING_CLASS_CCC91
-0
+6
 /
 *
 ai

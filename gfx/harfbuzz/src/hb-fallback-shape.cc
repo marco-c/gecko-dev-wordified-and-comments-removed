@@ -9,6 +9,9 @@ impl
 .
 hh
 "
+#
+ifndef
+HB_NO_FALLBACK_SHAPE
 struct
 hb_fallback_face_data_t
 {
@@ -341,3 +344,5 @@ return
 true
 ;
 }
+#
+endif

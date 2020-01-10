@@ -705,6 +705,10 @@ new_gid
 {
 SubsetGlyph
 subset_glyph
+=
+{
+0
+}
 ;
 subset_glyph
 .

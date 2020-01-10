@@ -2,6 +2,16 @@
 include
 "
 hb
+.
+hh
+"
+#
+ifndef
+HB_NO_CFF
+#
+include
+"
+hb
 -
 ot
 -
@@ -24,9 +34,6 @@ cs
 .
 hh
 "
-#
-ifndef
-HB_NO_CFF
 using
 namespace
 CFF

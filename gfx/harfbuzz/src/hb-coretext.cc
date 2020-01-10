@@ -6,6 +6,9 @@ hb
 hh
 "
 #
+ifdef
+HAVE_CORETEXT
+#
 include
 "
 hb
@@ -3060,7 +3063,6 @@ fail
 \
 }
 HB_STMT_END
-;
 bool
 ret
 =
@@ -4734,7 +4736,6 @@ scratch_size_saved
 scratch
 =
 scratch_saved
-;
 {
 SCRATCH_SAVE
 (
@@ -5662,3 +5663,5 @@ return
 ret
 ;
 }
+#
+endif

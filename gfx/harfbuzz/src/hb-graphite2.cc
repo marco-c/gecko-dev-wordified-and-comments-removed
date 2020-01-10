@@ -2,6 +2,16 @@
 include
 "
 hb
+.
+hh
+"
+#
+ifdef
+HAVE_GRAPHITE2
+#
+include
+"
+hb
 -
 shaper
 -
@@ -2311,3 +2321,5 @@ return
 true
 ;
 }
+#
+endif
