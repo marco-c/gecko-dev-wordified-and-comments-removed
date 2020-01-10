@@ -460,6 +460,15 @@ self
 eof
 )
 ;
+self
+.
+read_buf
+.
+reserve
+(
+INITIAL_CAPACITY
+)
+;
 if
 try_ready
 !
