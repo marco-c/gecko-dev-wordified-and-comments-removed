@@ -59,9 +59,9 @@ gcc
 sh
 gcc_version
 =
-7
+9
 .
-4
+1
 .
 0
 gcc_ext
