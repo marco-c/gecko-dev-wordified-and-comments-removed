@@ -1055,7 +1055,7 @@ endif
 template
 <
 class
-UnbarrieredKey
+Referent
 class
 Wrapper
 bool
@@ -1071,7 +1071,7 @@ WeakMap
 <
 HeapPtr
 <
-UnbarrieredKey
+Referent
 >
 HeapPtr
 <
@@ -1085,7 +1085,7 @@ private
 typedef
 HeapPtr
 <
-UnbarrieredKey
+Referent
 >
 Key
 ;
