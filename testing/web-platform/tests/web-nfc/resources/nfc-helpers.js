@@ -1138,7 +1138,6 @@ reader
 new
 NFCReader
 (
-scanOptions
 )
 ;
 const
