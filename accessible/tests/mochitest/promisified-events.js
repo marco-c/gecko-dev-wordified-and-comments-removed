@@ -137,6 +137,13 @@ nsIAccessibleEvent
 EVENT_VIRTUALCURSOR_CHANGED
 ;
 const
+EVENT_ALERT
+=
+nsIAccessibleEvent
+.
+EVENT_ALERT
+;
+const
 EventsLogger
 =
 {
