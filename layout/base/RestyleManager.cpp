@@ -6297,11 +6297,7 @@ data
 mHint
 |
 =
-(
-nsChangeHint_ReflowHintsForISizeChange
-|
-nsChangeHint_ReflowHintsForBSizeChange
-)
+nsChangeHint_ReflowHintsForScrollbarChange
 ;
 doReconstruct
 =

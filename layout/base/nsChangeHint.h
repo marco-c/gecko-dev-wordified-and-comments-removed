@@ -747,6 +747,17 @@ nsChangeHint_NeedDirtyReflow
 )
 #
 define
+nsChangeHint_ReflowHintsForScrollbarChange
+\
+nsChangeHint
+(
+nsChangeHint_ReflowHintsForBSizeChange
+|
+\
+nsChangeHint_ReflowHintsForISizeChange
+)
+#
+define
 nsChangeHint_ReflowHintsForFloatAreaChange
 \
 nsChangeHint
