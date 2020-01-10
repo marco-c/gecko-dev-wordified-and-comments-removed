@@ -875,6 +875,18 @@ R_LOG_VERBOSE
 '
 )
     
+env
+.
+setdefault
+(
+'
+NSS_MAX_MP_PBE_ITERATION_COUNT
+'
+'
+10
+'
+)
+    
 asan
 =
 bool
