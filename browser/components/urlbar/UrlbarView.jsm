@@ -4758,6 +4758,9 @@ firstElementChild
 if
 (
 firstElementChild
+&
+&
+firstElementChild
 .
 result
 &
