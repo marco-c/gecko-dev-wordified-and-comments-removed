@@ -58,6 +58,11 @@ DIRS
 =
 [
 '
+request
+-
+blocking
+'
+'
 search
 '
 '
@@ -128,11 +133,6 @@ js
 '
 '
 PropertiesView
-.
-js
-'
-'
-RequestBlockingPanel
 .
 js
 '

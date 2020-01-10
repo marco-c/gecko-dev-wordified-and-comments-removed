@@ -115,6 +115,20 @@ search
 "
 )
 ;
+const
+requestBlocking
+=
+require
+(
+"
+.
+/
+request
+-
+blocking
+"
+)
+;
 Object
 .
 assign
@@ -129,5 +143,6 @@ sort
 timingMarkers
 ui
 webSockets
+requestBlocking
 )
 ;
