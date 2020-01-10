@@ -492,9 +492,7 @@ vertical
 "
 >
 <
-html
-:
-input
+textbox
 id
 =
 "
@@ -507,9 +505,7 @@ username
 /
 >
 <
-html
-:
-input
+textbox
 id
 =
 "
@@ -523,6 +519,12 @@ type
 =
 "
 password
+"
+show
+-
+content
+=
+"
 "
 /
 >
