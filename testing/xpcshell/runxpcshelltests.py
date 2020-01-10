@@ -8952,14 +8952,7 @@ serviceWorkers
 .
 parent_intercept
 '
-self
-.
-mozInfo
-[
-'
-nightly_build
-'
-]
+False
 )
         
 self
