@@ -153,7 +153,7 @@ updatehelper
 h
 '
 '
-win_dirent
+updateutils_win
 .
 h
 '
@@ -234,7 +234,7 @@ updatehelper
 cpp
 '
 '
-win_dirent
+updateutils_win
 .
 cpp
 '

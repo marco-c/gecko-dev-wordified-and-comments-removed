@@ -345,7 +345,7 @@ update
 /
 common
 /
-win_dirent
+updateutils_win
 .
 cpp
 '

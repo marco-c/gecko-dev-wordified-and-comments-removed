@@ -77,7 +77,6 @@ enum
 class
 SetPermissionsOf
 {
-BaseDir
 BaseDirIfNotExists
 AllFilesAndDirs
 }
