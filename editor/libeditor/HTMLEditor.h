@@ -2827,6 +2827,14 @@ No
 Yes
 }
 ;
+enum
+class
+CollectNonEditableNodes
+{
+No
+Yes
+}
+;
 size_t
 CollectChildren
 (
@@ -2846,18 +2854,10 @@ size_t
 aIndexToInsertChildren
 CollectListChildren
 aCollectListChildren
-=
-CollectListChildren
-:
-:
-Yes
 CollectTableChildren
 aCollectTableChildren
-=
-CollectTableChildren
-:
-:
-Yes
+CollectNonEditableNodes
+aCollectNonEditableNodes
 )
 const
 ;
@@ -2886,6 +2886,8 @@ nsINode
 aOutArrayOfNodes
 EditSubAction
 aEditSubAction
+CollectNonEditableNodes
+aCollectNonEditableNodes
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -2927,6 +2929,8 @@ nsINode
 aOutArrayOfNodes
 EditSubAction
 aEditSubAction
+CollectNonEditableNodes
+aCollectNonEditableNodes
 )
 const
 ;
@@ -3153,6 +3157,8 @@ nsINode
 aOutArrayOfNodes
 EditSubAction
 aEditSubAction
+CollectNonEditableNodes
+aCollectNonEditableNodes
 )
 {
 AutoTArray
@@ -3179,6 +3185,7 @@ SplitInlinesAndCollectEditTargetNodes
 extendedSelectionRanges
 aOutArrayOfNodes
 aEditSubAction
+aCollectNonEditableNodes
 )
 ;
 NS_WARNING_ASSERTION
@@ -3219,6 +3226,8 @@ nsINode
 aOutArrayOfNodes
 EditSubAction
 aEditSubAction
+CollectNonEditableNodes
+aCollectNonEditableNodes
 )
 {
 if
@@ -3334,6 +3343,7 @@ SplitInlinesAndCollectEditTargetNodes
 arrayOfLineRanges
 aOutArrayOfNodes
 aEditSubAction
+aCollectNonEditableNodes
 )
 ;
 NS_WARNING_ASSERTION
@@ -3368,6 +3378,8 @@ nsINode
 aOutArrayOfNodes
 EditSubAction
 aEditSubAction
+CollectNonEditableNodes
+aCollectNonEditableNodes
 )
 {
 AutoTArray
@@ -3394,6 +3406,7 @@ CollectEditTargetNodes
 extendedSelectionRanges
 aOutArrayOfNodes
 aEditSubAction
+aCollectNonEditableNodes
 )
 ;
 NS_WARNING_ASSERTION
