@@ -1487,7 +1487,7 @@ if
 (
 browser
 .
-_remoteWebNavigationImpl
+_remoteWebNavigation
 =
 =
 undefined
@@ -1495,7 +1495,7 @@ undefined
 {
 browser
 .
-_remoteWebNavigationImpl
+_remoteWebNavigation
 =
 {
 swapBrowser
