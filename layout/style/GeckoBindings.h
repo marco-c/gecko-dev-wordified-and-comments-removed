@@ -3711,6 +3711,14 @@ Document
 *
 )
 ;
+void
+Gecko_PrintfStderr
+(
+const
+nsCString
+*
+)
+;
 }
 #
 endif
