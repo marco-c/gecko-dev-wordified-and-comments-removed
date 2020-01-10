@@ -38464,7 +38464,7 @@ ntlm
 v1
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
