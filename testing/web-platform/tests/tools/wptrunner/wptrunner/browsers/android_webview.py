@@ -404,11 +404,14 @@ WebPlatformTestsActivity
 "
     
 if
+kwargs
+.
+get
+(
 '
 device_serial
 '
-in
-kwargs
+)
 :
         
 capabilities
