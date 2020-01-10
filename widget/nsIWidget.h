@@ -1864,15 +1864,6 @@ SizeMode
 ;
 virtual
 bool
-IsTiled
-(
-)
-const
-=
-0
-;
-virtual
-bool
 IsFullyOccluded
 (
 )
