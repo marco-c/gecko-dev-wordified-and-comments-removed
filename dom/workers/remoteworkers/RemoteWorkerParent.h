@@ -58,6 +58,11 @@ RemoteWorkerController
 aController
 )
 ;
+void
+MaybeSendDelete
+(
+)
+;
 private
 :
 ~
@@ -121,6 +126,11 @@ bool
 &
 aStatus
 )
+;
+bool
+mDeleteSent
+=
+false
 ;
 RefPtr
 <
