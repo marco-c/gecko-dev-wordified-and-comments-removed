@@ -2934,6 +2934,17 @@ is
 cryptomining
 "
 )
+XPC_MSG_DEF
+(
+NS_ERROR_SOCIALTRACKING_URI
+"
+The
+URI
+is
+social
+tracking
+"
+)
 /
 *
 Profile

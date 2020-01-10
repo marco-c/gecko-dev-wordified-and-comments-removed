@@ -243,6 +243,16 @@ UrlClassifierFeatureResult
 cpp
 '
 '
+UrlClassifierFeatureSocialTrackingAnnotation
+.
+cpp
+'
+'
+UrlClassifierFeatureSocialTrackingProtection
+.
+cpp
+'
+'
 UrlClassifierFeatureTrackingAnnotation
 .
 cpp

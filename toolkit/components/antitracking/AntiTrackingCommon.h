@@ -301,6 +301,7 @@ eTrackingProtection
 eTrackingAnnotations
 eFingerprinting
 eCryptomining
+eSocialTracking
 }
 ;
 static
