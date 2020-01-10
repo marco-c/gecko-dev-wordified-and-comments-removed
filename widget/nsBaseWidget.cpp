@@ -869,6 +869,8 @@ mWritingMode
 aWritingMode
 .
 mWritingMode
+.
+bits
 ;
 }
 WritingMode
