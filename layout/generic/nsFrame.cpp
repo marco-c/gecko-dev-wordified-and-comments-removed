@@ -3393,6 +3393,15 @@ NS_FRAME_HAS_MULTI_COLUMN_ANCESTOR
 )
 )
 ;
+mHasColumnSpanSiblings
+=
+aPrevInFlow
+-
+>
+HasColumnSpanSiblings
+(
+)
+;
 }
 else
 {
