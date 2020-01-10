@@ -99,6 +99,15 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_content
+.
+h
+"
 class
 nsIURI
 ;
@@ -900,10 +909,6 @@ false
 >
 >
 mProcessLinkHeaderEvent
-;
-static
-bool
-sNotifyOnTimer
 ;
 static
 int32_t
