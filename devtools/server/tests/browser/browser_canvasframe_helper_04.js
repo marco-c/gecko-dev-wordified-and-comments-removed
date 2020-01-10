@@ -60,12 +60,6 @@ TEST_URL_1
 )
 ;
 await
-injectEventUtilsInContentTask
-(
-browser
-)
-;
-await
 ContentTask
 .
 spawn

@@ -89,16 +89,6 @@ true
 >
 {
 let
-EventUtils
-=
-ContentTaskUtils
-.
-getEventUtils
-(
-content
-)
-;
-let
 notificationButton
 =
 content

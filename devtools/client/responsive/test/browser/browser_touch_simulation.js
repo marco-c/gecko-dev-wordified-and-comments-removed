@@ -43,16 +43,6 @@ true
 )
 ;
 await
-injectEventUtilsInContentTask
-(
-ui
-.
-getViewportBrowser
-(
-)
-)
-;
-await
 waitBootstrap
 (
 ui
