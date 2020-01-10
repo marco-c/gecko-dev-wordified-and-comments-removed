@@ -6455,11 +6455,6 @@ interruptBits_
 (
 0
 )
-osrTempData_
-(
-this
-nullptr
-)
 ionReturnOverride_
 (
 this
@@ -6578,10 +6573,6 @@ dtoaState
 fx
 .
 destroyInstance
-(
-)
-;
-freeOsrTempData
 (
 )
 ;
