@@ -119,8 +119,10 @@ background
 count
 {
 flex
+-
+grow
 :
-auto
+1
 ;
 text
 -
