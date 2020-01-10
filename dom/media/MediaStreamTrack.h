@@ -1097,6 +1097,13 @@ aTrackID
 MediaStreamTrackSource
 *
 aSource
+MediaStreamTrackState
+aReadyState
+=
+MediaStreamTrackState
+:
+:
+Live
 const
 MediaTrackConstraints
 &
@@ -1647,6 +1654,7 @@ nsPIDOMWindowInner
 >
 mWindow
 ;
+const
 RefPtr
 <
 MediaStream
