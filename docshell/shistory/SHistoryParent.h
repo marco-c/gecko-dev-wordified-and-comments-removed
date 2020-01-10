@@ -59,6 +59,14 @@ LegacySHistory
 )
 {
 }
+void
+EvictOutOfRangeWindowContentViewers
+(
+int32_t
+aIndex
+)
+override
+;
 public
 :
 LegacySHistory

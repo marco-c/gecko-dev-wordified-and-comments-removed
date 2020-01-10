@@ -4609,6 +4609,15 @@ uint64_t
 aID
 )
 ;
+async
+EvictContentViewers
+(
+uint64_t
+[
+]
+aToEvictSharedStateIDs
+)
+;
 parent
 :
 async
