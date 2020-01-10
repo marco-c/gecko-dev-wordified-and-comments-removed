@@ -3067,6 +3067,11 @@ modifiers
 accel
 shift
 "
+id
+=
+"
+key_reload_skip_cache
+"
 /
 >
 <
