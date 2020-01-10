@@ -3730,8 +3730,6 @@ ignore
 regexp
 =
 "
-firstrun_signup_button
-|
 activity_stream_signin_title
 |
 activity_stream_signin_description
