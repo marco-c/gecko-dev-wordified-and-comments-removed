@@ -10947,6 +10947,11 @@ maybeReleaseJitScript
 (
 )
 ;
+void
+releaseJitScript
+(
+)
+;
 inline
 js
 :

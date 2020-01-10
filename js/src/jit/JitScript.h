@@ -134,6 +134,11 @@ bytecodeTypeMapHint_
 =
 0
 ;
+uint32_t
+allocBytes_
+=
+0
+;
 struct
 Flags
 {
@@ -274,6 +279,8 @@ uint32_t
 typeSetOffset
 uint32_t
 bytecodeTypeMapOffset
+uint32_t
+allocBytes
 )
 ;
 #
@@ -1180,6 +1187,16 @@ unlinkDependentWasmImports
 (
 )
 ;
+size_t
+allocBytes
+(
+)
+const
+{
+return
+allocBytes_
+;
+}
 }
 ;
 class
