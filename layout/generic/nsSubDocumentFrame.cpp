@@ -260,15 +260,6 @@ dom
 :
 Document
 ;
-using
-mozilla
-:
-:
-layout
-:
-:
-RenderFrame
-;
 static
 bool
 sShowPreviousPage
@@ -3871,7 +3862,7 @@ reflow
 ;
 NS_ASSERTION
 (
-NS_UNCONSTRAINEDSIZE
+NS_INTRINSICSIZE
 !
 =
 aReflowInput

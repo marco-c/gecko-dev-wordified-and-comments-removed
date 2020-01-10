@@ -544,6 +544,11 @@ ReferrerInfoUtils
 cpp
 '
 '
+RemoteBrowser
+.
+cpp
+'
+'
 RemoteWebProgress
 .
 cpp
