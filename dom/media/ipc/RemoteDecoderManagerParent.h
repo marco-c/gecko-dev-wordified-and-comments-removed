@@ -107,10 +107,13 @@ OptionSet
 &
 aOptions
 const
+Maybe
+<
 layers
 :
 :
 TextureFactoryIdentifier
+>
 &
 aIdentifier
 bool
