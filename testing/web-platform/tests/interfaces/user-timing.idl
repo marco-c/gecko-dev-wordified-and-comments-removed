@@ -64,8 +64,6 @@ PerformanceMarkOptions
 {
 any
 detail
-=
-null
 ;
 DOMHighResTimeStamp
 startTime
@@ -77,8 +75,6 @@ PerformanceMeasureOptions
 {
 any
 detail
-=
-null
 ;
 (
 DOMString
@@ -132,7 +128,6 @@ DOMString
 or
 PerformanceMeasureOptions
 )
-?
 startOrMeasureOptions
 optional
 DOMString
