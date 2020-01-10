@@ -460,7 +460,7 @@ waitFor
 )
 =
 >
-findMessage
+findMessages
 (
 hud
 "
@@ -472,6 +472,11 @@ item
 result
 "
 )
+.
+length
+=
+=
+2
 )
 ;
 setInputValue
@@ -501,7 +506,7 @@ waitFor
 )
 =
 >
-findMessage
+findMessages
 (
 hud
 "
@@ -513,6 +518,11 @@ item
 result
 "
 )
+.
+length
+=
+=
+3
 )
 ;
 EventUtils
