@@ -89,7 +89,7 @@ weekAgoInMs
 =
 todayInMs
 -
-7
+6
 *
 24
 *
