@@ -630,9 +630,6 @@ False
 types
 =
 None
-meta_filters
-=
-None
 )
 :
         
@@ -673,12 +670,6 @@ structured
 get_default_logger
 (
 )
-        
-self
-.
-meta_filters
-=
-meta_filters
         
 if
 self
@@ -833,11 +824,6 @@ self
 .
 force_manifest_update
                                         
-meta_filters
-=
-self
-.
-meta_filters
 types
 =
 self
