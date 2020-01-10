@@ -10,11 +10,3 @@ arguments
 base
 import
 FirefoxUIArguments
-from
-firefox_ui_harness
-.
-arguments
-.
-update
-import
-UpdateArguments

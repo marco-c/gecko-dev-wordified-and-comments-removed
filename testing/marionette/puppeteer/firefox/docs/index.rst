@@ -531,11 +531,6 @@ browser
 window
 ui
 /
-update_wizard
-/
-dialog
-ui
-/
 windows
 api
 /
@@ -552,9 +547,6 @@ places
 api
 /
 security
-api
-/
-software_update
 api
 /
 utils

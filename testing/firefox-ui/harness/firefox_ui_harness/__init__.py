@@ -15,7 +15,3 @@ from
 .
 import
 cli_functional
-from
-.
-import
-cli_update
