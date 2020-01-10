@@ -39,7 +39,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -1354,7 +1354,7 @@ isDebuggee
 &
 &
 !
-Debugger
+DebugAPI
 :
 :
 ensureExecutionObservabilityOfOsrFrame

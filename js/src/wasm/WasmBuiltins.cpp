@@ -89,7 +89,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 -
 inl
 .
@@ -1265,7 +1265,7 @@ cx
 ResumeMode
 mode
 =
-Debugger
+DebugAPI
 :
 :
 onEnterFrame
@@ -1337,7 +1337,7 @@ updateReturnJSValue
 bool
 ok
 =
-Debugger
+DebugAPI
 :
 :
 onLeaveFrame
@@ -1413,7 +1413,7 @@ UndefinedValue
 ResumeMode
 mode
 =
-Debugger
+DebugAPI
 :
 :
 onSingleStep
@@ -1493,7 +1493,7 @@ UndefinedValue
 ResumeMode
 mode
 =
-Debugger
+DebugAPI
 :
 :
 onTrap
@@ -1694,7 +1694,7 @@ isExceptionPending
 ResumeMode
 mode
 =
-Debugger
+DebugAPI
 :
 :
 onExceptionUnwind
@@ -1731,7 +1731,7 @@ onExceptionUnwind
 bool
 ok
 =
-Debugger
+DebugAPI
 :
 :
 onLeaveFrame

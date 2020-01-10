@@ -66,7 +66,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -5524,7 +5524,7 @@ PhaseKind
 MARK_ROOTS
 )
 ;
-Debugger
+DebugAPI
 :
 :
 traceAllForMovingGC

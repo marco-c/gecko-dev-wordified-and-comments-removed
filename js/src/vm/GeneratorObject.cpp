@@ -48,7 +48,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 -
 inl
 .
@@ -317,7 +317,7 @@ clearExpressionStack
 if
 (
 !
-Debugger
+DebugAPI
 :
 :
 onNewGenerator

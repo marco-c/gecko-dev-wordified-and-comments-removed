@@ -140,7 +140,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -2111,7 +2111,7 @@ cx
 ;
 switch
 (
-Debugger
+DebugAPI
 :
 :
 onSingleStep
@@ -2165,7 +2165,7 @@ ResumeMode
 :
 Return
 :
-Debugger
+DebugAPI
 :
 :
 propagateForcedReturn
@@ -4534,7 +4534,7 @@ global
 |
 |
 !
-Debugger
+DebugAPI
 :
 :
 isObservedByDebuggerTrackingAllocations

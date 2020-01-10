@@ -499,7 +499,7 @@ JSContext
 *
 cx
 const
-Debugger
+DebugAPI
 :
 :
 ExecutionObservableSet
@@ -826,7 +826,7 @@ JSContext
 *
 cx
 const
-Debugger
+DebugAPI
 :
 :
 ExecutionObservableSet
@@ -1288,7 +1288,7 @@ JSContext
 *
 cx
 const
-Debugger
+DebugAPI
 :
 :
 ExecutionObservableSet
@@ -2083,7 +2083,7 @@ void
 SkipInterpreterFrameEntries
 (
 const
-Debugger
+DebugAPI
 :
 :
 ExecutionObservableSet
@@ -2180,10 +2180,7 @@ cx
 JSScript
 *
 script
-Debugger
-:
-:
-IsObserving
+bool
 observing
 )
 {
@@ -2625,16 +2622,13 @@ JSContext
 *
 cx
 const
-Debugger
+DebugAPI
 :
 :
 ExecutionObservableSet
 &
 obs
-Debugger
-:
-:
-IsObserving
+bool
 observing
 )
 {
@@ -2779,7 +2773,7 @@ false
 else
 {
 typedef
-Debugger
+DebugAPI
 :
 :
 ExecutionObservableSet

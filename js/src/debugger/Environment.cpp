@@ -65,6 +65,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+EnvironmentObject
+-
+inl
+.
+h
+"
 using
 namespace
 js

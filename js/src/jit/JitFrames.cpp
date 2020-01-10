@@ -264,7 +264,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 -
 inl
 .
@@ -2725,7 +2725,7 @@ isClosingGenerator
 {
 switch
 (
-Debugger
+DebugAPI
 :
 :
 onExceptionUnwind
@@ -2911,7 +2911,7 @@ frameOk
 ;
 frameOk
 =
-Debugger
+DebugAPI
 :
 :
 onLeaveFrame

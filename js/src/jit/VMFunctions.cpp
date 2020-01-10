@@ -159,7 +159,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 -
 inl
 .
@@ -4729,7 +4729,7 @@ MOZ_CRASH
 (
 "
 bad
-Debugger
+DebugAPI
 :
 :
 onEnterFrame
@@ -4760,7 +4760,7 @@ mustReturn
 ResumeMode
 resumeMode
 =
-Debugger
+DebugAPI
 :
 :
 onEnterFrame
@@ -4853,7 +4853,7 @@ ok
 {
 ok
 =
-Debugger
+DebugAPI
 :
 :
 onLeaveFrame
@@ -5370,7 +5370,7 @@ setIsDebuggee
 ResumeMode
 resumeMode
 =
-Debugger
+DebugAPI
 :
 :
 onResumeFrame
@@ -6166,7 +6166,7 @@ stepModeEnabled
 {
 resumeMode
 =
-Debugger
+DebugAPI
 :
 :
 onSingleStep
@@ -6199,7 +6199,7 @@ pc
 {
 resumeMode
 =
-Debugger
+DebugAPI
 :
 :
 onTrap
@@ -6323,7 +6323,7 @@ false
 ;
 switch
 (
-Debugger
+DebugAPI
 :
 :
 onDebuggerStatement

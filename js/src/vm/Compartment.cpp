@@ -37,7 +37,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -2312,7 +2312,7 @@ trc
 ;
 }
 }
-Debugger
+DebugAPI
 :
 :
 traceIncomingCrossCompartmentEdges

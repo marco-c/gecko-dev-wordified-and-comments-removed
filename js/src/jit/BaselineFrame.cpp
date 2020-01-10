@@ -14,7 +14,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -904,7 +904,7 @@ isDebuggee
 if
 (
 !
-Debugger
+DebugAPI
 :
 :
 handleBaselineOsr

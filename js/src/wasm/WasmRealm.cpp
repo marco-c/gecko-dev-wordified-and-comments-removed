@@ -30,7 +30,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 -
 inl
 .
@@ -474,7 +474,7 @@ instance
 )
 ;
 }
-Debugger
+DebugAPI
 :
 :
 onNewWasmInstance

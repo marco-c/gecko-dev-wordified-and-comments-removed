@@ -174,7 +174,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -15087,7 +15087,7 @@ PhaseKind
 MARK_ROOTS
 )
 ;
-Debugger
+DebugAPI
 :
 :
 traceAllForMovingGC
@@ -15096,7 +15096,7 @@ traceAllForMovingGC
 trc
 )
 ;
-Debugger
+DebugAPI
 :
 :
 traceIncomingCrossCompartmentEdges
@@ -15129,7 +15129,7 @@ data
 ;
 }
 }
-Debugger
+DebugAPI
 :
 :
 sweepAll
@@ -23425,7 +23425,7 @@ marker
 markedAny
 |
 =
-Debugger
+DebugAPI
 :
 :
 markIteratively
@@ -25892,7 +25892,7 @@ false
 ;
 }
 return
-Debugger
+DebugAPI
 :
 :
 findSweepGroupEdges
@@ -28879,7 +28879,7 @@ FreeOp
 fop
 )
 {
-Debugger
+DebugAPI
 :
 :
 sweepAll

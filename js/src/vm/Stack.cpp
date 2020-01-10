@@ -19,7 +19,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 .
 h
 "
@@ -8858,7 +8858,7 @@ i
 +
 )
 {
-Debugger
+DebugAPI
 :
 :
 handleUnrecoverableIonBailoutError

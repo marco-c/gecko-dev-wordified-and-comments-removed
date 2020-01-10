@@ -123,15 +123,6 @@ h
 #
 include
 "
-debugger
-/
-Debugger
-.
-h
-"
-#
-include
-"
 jit
 /
 AtomicOperations
@@ -370,7 +361,7 @@ include
 "
 debugger
 /
-Debugger
+DebugAPI
 -
 inl
 .
@@ -1871,7 +1862,7 @@ line
 column
 )
 ;
-Debugger
+DebugAPI
 :
 :
 onNewScript
@@ -2332,7 +2323,7 @@ isAccessValid
 if
 (
 !
-Debugger
+DebugAPI
 :
 :
 checkNoExecute
@@ -6079,7 +6070,7 @@ regs
 bool
 ok
 =
-Debugger
+DebugAPI
 :
 :
 onLeaveFrame
@@ -6898,7 +6889,7 @@ isClosingGenerator
 ResumeMode
 mode
 =
-Debugger
+DebugAPI
 :
 :
 onExceptionUnwind
@@ -6974,7 +6965,7 @@ MOZ_CRASH
 (
 "
 bad
-Debugger
+DebugAPI
 :
 :
 onExceptionUnwind
@@ -7073,7 +7064,7 @@ ok
 ;
 ok
 =
-Debugger
+DebugAPI
 :
 :
 onLeaveFrame
@@ -10046,7 +10037,7 @@ prologue_error
 }
 switch
 (
-Debugger
+DebugAPI
 :
 :
 onEnterFrame
@@ -10112,7 +10103,7 @@ MOZ_CRASH
 (
 "
 bad
-Debugger
+DebugAPI
 :
 :
 onEnterFrame
@@ -10227,7 +10218,7 @@ cx
 ResumeMode
 mode
 =
-Debugger
+DebugAPI
 :
 :
 onSingleStep
@@ -10357,7 +10348,7 @@ cx
 ResumeMode
 mode
 =
-Debugger
+DebugAPI
 :
 :
 onTrap
@@ -11172,7 +11163,7 @@ frameHalfInitialized
 {
 interpReturnOK
 =
-Debugger
+DebugAPI
 :
 :
 onLeaveFrame
@@ -17688,7 +17679,7 @@ prologue_error
 }
 switch
 (
-Debugger
+DebugAPI
 :
 :
 onEnterFrame
@@ -17754,7 +17745,7 @@ MOZ_CRASH
 (
 "
 bad
-Debugger
+DebugAPI
 :
 :
 onEnterFrame
@@ -22092,7 +22083,7 @@ cx
 ;
 switch
 (
-Debugger
+DebugAPI
 :
 :
 onDebuggerStatement
@@ -23168,7 +23159,7 @@ TraceLogger_Interpreter
 ;
 switch
 (
-Debugger
+DebugAPI
 :
 :
 onResumeFrame
@@ -24745,7 +24736,7 @@ frameHalfInitialized
 {
 interpReturnOK
 =
-Debugger
+DebugAPI
 :
 :
 onLeaveFrame
