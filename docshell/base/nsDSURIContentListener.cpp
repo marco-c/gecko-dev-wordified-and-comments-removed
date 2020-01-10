@@ -54,13 +54,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

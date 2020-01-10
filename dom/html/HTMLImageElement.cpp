@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h

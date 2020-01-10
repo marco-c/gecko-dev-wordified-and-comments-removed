@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

@@ -469,13 +469,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h

@@ -88,13 +88,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIDialogParamBlock
 .
 h

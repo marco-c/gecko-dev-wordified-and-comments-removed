@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

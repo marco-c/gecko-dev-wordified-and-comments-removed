@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

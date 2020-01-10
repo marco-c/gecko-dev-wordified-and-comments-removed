@@ -93,13 +93,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h

@@ -170,13 +170,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIHTMLObjectResizer
 .
 h

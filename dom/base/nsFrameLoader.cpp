@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIContentInlines
 .
 h
@@ -13695,6 +13688,7 @@ MOZ_THUNDERBIRD
 )
 &
 &
+\
 !
 defined
 (

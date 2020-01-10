@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsIDOMWindowUtils
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

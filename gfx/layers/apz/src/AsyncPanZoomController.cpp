@@ -610,13 +610,6 @@ h
 #
 include
 "
-nsIDOMWindowUtils
-.
-h
-"
-#
-include
-"
 nsMathUtils
 .
 h

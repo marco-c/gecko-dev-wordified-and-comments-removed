@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -193,6 +186,9 @@ dom
 using
 namespace
 hal
+;
+class
+nsIDOMWindow
 ;
 #
 undef
