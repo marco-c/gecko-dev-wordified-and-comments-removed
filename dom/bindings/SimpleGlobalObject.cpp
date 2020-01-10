@@ -228,10 +228,7 @@ return
 }
 static
 const
-js
-:
-:
-ClassOps
+JSClassOps
 SimpleGlobalClassOps
 =
 {

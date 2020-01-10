@@ -11781,10 +11781,7 @@ sEmptyNativePropertyHooks
 ;
 extern
 const
-js
-:
-:
-ClassOps
+JSClassOps
 sBoringInterfaceObjectClassClassOps
 ;
 extern

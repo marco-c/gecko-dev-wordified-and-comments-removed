@@ -3337,10 +3337,7 @@ fill
             
 static
 const
-js
-:
-:
-ClassOps
+JSClassOps
 sClassOps
 =
 {
@@ -5058,10 +5055,7 @@ fill
                 
 static
 const
-js
-:
-:
-ClassOps
+JSClassOps
 sInterfaceObjectClassOps
 =
 {

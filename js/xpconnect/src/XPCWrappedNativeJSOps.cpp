@@ -2895,10 +2895,7 @@ resolvedp
 }
 static
 const
-js
-:
-:
-ClassOps
+JSClassOps
 XPC_WN_NoHelper_JSClassOps
 =
 {
@@ -5184,10 +5181,7 @@ resolvedp
 }
 static
 const
-js
-:
-:
-ClassOps
+JSClassOps
 XPC_WN_Proto_JSClassOps
 =
 {
@@ -5598,10 +5592,7 @@ slots
 ;
 static
 const
-js
-:
-:
-ClassOps
+JSClassOps
 XPC_WN_Tearoff_JSClassOps
 =
 {

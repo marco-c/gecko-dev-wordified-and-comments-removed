@@ -115,10 +115,7 @@ GetClass
 {
 static
 const
-js
-:
-:
-ClassOps
+JSClassOps
 classOps
 =
 XPC_MAKE_CLASS_OPS
