@@ -32460,7 +32460,7 @@ nsIFrame
 nsFrame
 :
 :
-GetPrevInFlowVirtual
+GetPrevInFlow
 (
 )
 const
@@ -32495,7 +32495,7 @@ nsIFrame
 nsFrame
 :
 :
-GetNextInFlowVirtual
+GetNextInFlow
 (
 )
 const
