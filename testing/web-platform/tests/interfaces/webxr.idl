@@ -614,10 +614,10 @@ attribute
 Float32Array
 matrix
 ;
+readonly
+attribute
 XRRigidTransform
 inverse
-(
-)
 ;
 }
 ;
