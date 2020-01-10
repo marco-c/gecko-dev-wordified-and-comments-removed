@@ -2049,6 +2049,17 @@ RegisterTouchWindow
 )
 override
 ;
+virtual
+bool
+CompositorInitiallyPaused
+(
+)
+override
+{
+return
+mNeedsUpdatingEGLSurface
+;
+}
 nsCOMPtr
 <
 nsIWidget

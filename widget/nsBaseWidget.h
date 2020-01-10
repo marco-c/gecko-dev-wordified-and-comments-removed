@@ -2202,6 +2202,16 @@ GetGLFrameBufferFormat
 (
 )
 ;
+virtual
+bool
+CompositorInitiallyPaused
+(
+)
+{
+return
+false
+;
+}
 protected
 :
 void
