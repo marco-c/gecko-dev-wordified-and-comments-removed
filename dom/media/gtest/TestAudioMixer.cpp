@@ -401,8 +401,11 @@ mixer
 .
 AddCallback
 (
+WrapNotNull
+(
 &
 consumer
+)
 )
 ;
 fprintf
@@ -466,8 +469,11 @@ mixer
 .
 AddCallback
 (
+WrapNotNull
+(
 &
 consumer
+)
 )
 ;
 fprintf
@@ -787,8 +793,11 @@ mixer
 .
 AddCallback
 (
+WrapNotNull
+(
 &
 consumer
+)
 )
 ;
 fprintf
@@ -896,8 +905,11 @@ mixer
 .
 AddCallback
 (
+WrapNotNull
+(
 &
 consumer
+)
 )
 ;
 fprintf

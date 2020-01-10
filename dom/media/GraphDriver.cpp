@@ -4325,7 +4325,10 @@ mMixer
 .
 AddCallback
 (
+WrapNotNull
+(
 this
+)
 )
 ;
 mAddedMixer
@@ -4715,7 +4718,10 @@ mMixer
 .
 AddCallback
 (
+WrapNotNull
+(
 this
+)
 )
 ;
 mAddedMixer
