@@ -180,12 +180,14 @@ flag
 "
 )
 ;
-ok
+equal
 (
-!
 transportSecurityInfo
 .
 succeededCertChain
+.
+length
+0
 "
 ev
 -
