@@ -27,6 +27,13 @@ comparisons
 =
 [
 "
+pre
+"
+String
+(
+0x1F0000000
+)
+"
 0
 .
 9
