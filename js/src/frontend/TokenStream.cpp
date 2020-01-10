@@ -12026,9 +12026,6 @@ unit
 continue
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 unit
@@ -12066,12 +12063,6 @@ return
 false
 ;
 }
-#
-else
-break
-;
-#
-endif
 }
 *
 nextUnit
@@ -13414,9 +13405,6 @@ unit
 )
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 unit
@@ -13430,8 +13418,6 @@ _
 continue
 ;
 }
-#
-endif
 if
 (
 !
@@ -14583,9 +14569,6 @@ unit
 )
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 unit
@@ -14607,8 +14590,6 @@ badToken
 )
 ;
 }
-#
-endif
 if
 (
 nonOctalDecimalIntegerLiteral
@@ -14625,9 +14606,6 @@ ttp
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 }
 else
 if
@@ -14650,8 +14628,6 @@ badToken
 (
 )
 ;
-#
-endif
 }
 else
 {

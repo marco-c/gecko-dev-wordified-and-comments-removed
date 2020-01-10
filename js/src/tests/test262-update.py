@@ -333,14 +333,6 @@ set
 [
     
 "
-numeric
--
-separator
--
-literal
-"
-    
-"
 Intl
 .
 NumberFormat
