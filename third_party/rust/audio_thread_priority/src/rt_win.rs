@@ -128,7 +128,7 @@ rv
 =
 0
 {
-error
+warn
 !
 (
 "
@@ -245,7 +245,7 @@ is_null
 (
 )
 {
-error
+warn
 !
 (
 "

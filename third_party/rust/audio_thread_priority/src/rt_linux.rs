@@ -779,7 +779,7 @@ is_err
 (
 )
 {
-error
+warn
 !
 (
 "
@@ -869,7 +869,7 @@ param
 <
 0
 {
-error
+warn
 !
 (
 "

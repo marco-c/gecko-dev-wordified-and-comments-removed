@@ -273,7 +273,7 @@ KERN_SUCCESS
 as
 i32
 {
-error
+warn
 !
 (
 "
@@ -295,7 +295,7 @@ Err
 )
 ;
 }
-info
+warn
 !
 (
 "
@@ -626,7 +626,7 @@ KERN_SUCCESS
 as
 i32
 {
-error
+warn
 !
 (
 "
