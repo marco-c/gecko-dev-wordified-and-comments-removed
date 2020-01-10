@@ -66,11 +66,11 @@ objectBeingIterated_
 {
 }
 ;
-JSObject
-*
+GCPtrObject
 iterObj_
 =
-nullptr
+{
+}
 ;
 HeapReceiverGuard
 *

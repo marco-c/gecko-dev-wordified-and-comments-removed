@@ -377,12 +377,7 @@ objectBeingIterated_
 "
 )
 ;
-if
-(
-iterObj_
-)
-{
-TraceManuallyBarrieredEdge
+TraceNullableEdge
 (
 trc
 &
@@ -392,7 +387,6 @@ iterObj
 "
 )
 ;
-}
 std
 :
 :

@@ -3693,6 +3693,14 @@ JitCode
 ;
 }
 using
+PreBarrieredId
+=
+PreBarriered
+<
+jsid
+>
+;
+using
 PreBarrieredObject
 =
 PreBarriered
