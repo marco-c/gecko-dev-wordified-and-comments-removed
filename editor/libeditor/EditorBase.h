@@ -1917,6 +1917,9 @@ AutoEditActionDataSetter
 bool
 mDidDeleteSelection
 ;
+bool
+mDidExplicitlySetInterLine
+;
 private
 :
 void
@@ -1925,6 +1928,10 @@ Clear
 )
 {
 mDidDeleteSelection
+=
+false
+;
+mDidExplicitlySetInterLine
 =
 false
 ;
