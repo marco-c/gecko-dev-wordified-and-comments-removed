@@ -149,6 +149,15 @@ PlatformHandleType
 aHandle
 )
 ;
+explicit
+FileDescriptor
+(
+UniquePlatformHandle
+&
+&
+aHandle
+)
+;
 FileDescriptor
 (
 const
@@ -209,6 +218,11 @@ ClonePlatformHandle
 (
 )
 const
+;
+UniquePlatformHandle
+TakePlatformHandle
+(
+)
 ;
 bool
 operator
