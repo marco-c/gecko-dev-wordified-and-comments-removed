@@ -84,6 +84,11 @@ vector
 ;
 public
 :
+using
+ElementType
+=
+T
+;
 explicit
 GCVector
 (
