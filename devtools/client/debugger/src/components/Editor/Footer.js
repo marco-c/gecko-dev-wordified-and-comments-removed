@@ -440,7 +440,7 @@ div
 className
 =
 "
-loader
+action
 "
 key
 =
@@ -456,6 +456,7 @@ className
 =
 "
 loader
+spin
 "
 /
 >
