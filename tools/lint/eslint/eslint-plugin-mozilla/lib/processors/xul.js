@@ -1407,7 +1407,6 @@ find
 r
 =
 >
-(
 target
 >
 =
@@ -1422,7 +1421,6 @@ target
 r
 .
 end
-)
 )
 ;
 if
@@ -1472,14 +1470,12 @@ filter
 r
 =
 >
-(
 target
 >
 =
 r
 .
 end
-)
 )
 .
 map

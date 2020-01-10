@@ -40,11 +40,7 @@ context
 {
 return
 {
-"
 MemberExpression
-"
-:
-function
 (
 node
 )

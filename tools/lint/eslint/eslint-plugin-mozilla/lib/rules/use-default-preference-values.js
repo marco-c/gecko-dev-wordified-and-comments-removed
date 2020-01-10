@@ -14,11 +14,7 @@ context
 {
 return
 {
-"
 TryStatement
-"
-:
-function
 (
 node
 )

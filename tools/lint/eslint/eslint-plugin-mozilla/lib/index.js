@@ -74,9 +74,7 @@ mochitest
 test
 "
 )
-"
 recommended
-"
 :
 require
 (
@@ -185,9 +183,7 @@ script
 js
 "
 )
-"
 jsm
-"
 :
 require
 (
@@ -204,9 +200,7 @@ jsm
 js
 "
 )
-"
 simpletest
-"
 :
 require
 (
@@ -223,9 +217,7 @@ simpletest
 js
 "
 )
-"
 privileged
-"
 :
 require
 (

@@ -1280,7 +1280,6 @@ continue
 }
 addSyntheticLine
 (
-(
 part
 .
 local
@@ -1293,7 +1292,6 @@ implementation
 }
 :
 ]
-)
 part
 .
 textEndLine

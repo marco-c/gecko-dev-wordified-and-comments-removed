@@ -196,7 +196,6 @@ name
 {
 value
 :
-(
 value
 =
 =
@@ -204,7 +203,6 @@ value
 "
 true
 "
-)
 comment
 }
 ;

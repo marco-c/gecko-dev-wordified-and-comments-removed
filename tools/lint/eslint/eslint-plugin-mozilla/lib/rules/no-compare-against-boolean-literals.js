@@ -14,11 +14,7 @@ context
 {
 return
 {
-"
 BinaryExpression
-"
-:
-function
 (
 node
 )

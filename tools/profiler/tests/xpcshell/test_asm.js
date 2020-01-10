@@ -46,8 +46,10 @@ isAsmJSCompilationAvailable
 (
 )
 )
+{
 return
 ;
+}
 const
 ms
 =
@@ -135,8 +137,10 @@ delayMS
 >
 30000
 )
+{
 return
 ;
+}
 delayMS
 *
 =
@@ -155,8 +159,10 @@ length
 =
 0
 )
+{
 continue
 ;
+}
 var
 lastSample
 =
@@ -199,8 +205,10 @@ trampoline
 "
 )
 )
+{
 return
 ;
+}
 }
 }
 function

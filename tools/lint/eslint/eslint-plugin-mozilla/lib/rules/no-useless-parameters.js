@@ -62,11 +62,7 @@ range
 }
 return
 {
-"
 CallExpression
-"
-:
-function
 (
 node
 )

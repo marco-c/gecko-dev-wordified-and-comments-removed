@@ -27,11 +27,7 @@ context
 {
 return
 {
-"
 VariableDeclaration
-"
-:
-function
 (
 node
 )

@@ -76,9 +76,7 @@ withNewTab
 (
 url
 async
-(
 contentBrowser
-)
 =
 >
 {
@@ -413,9 +411,11 @@ if
 (
 sampleCount
 <
+(
 await
 getProfileSampleCount
 (
+)
 )
 )
 {

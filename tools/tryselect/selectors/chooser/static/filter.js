@@ -205,7 +205,6 @@ split
 if
 (
 !
-(
 kinds
 .
 includes
@@ -213,7 +212,7 @@ includes
 kind
 )
 )
-)
+{
 kinds
 .
 push
@@ -221,6 +220,7 @@ push
 kind
 )
 ;
+}
 }
 let
 attrs
@@ -251,6 +251,7 @@ in
 filters
 )
 )
+{
 filters
 [
 attr
@@ -259,6 +260,7 @@ attr
 [
 ]
 ;
+}
 let
 values
 =
@@ -350,9 +352,7 @@ return
 var
 taskMatches
 =
-(
 label
-)
 =
 >
 {
@@ -367,7 +367,6 @@ label
 if
 (
 !
-(
 kinds
 .
 includes
@@ -377,10 +376,11 @@ task
 kind
 )
 )
-)
+{
 return
 false
 ;
+}
 for
 (
 let
@@ -417,8 +417,10 @@ attr
 ]
 )
 )
+{
 continue
 ;
+}
 return
 false
 ;

@@ -32,11 +32,7 @@ context
 {
 return
 {
-"
 VariableDeclarator
-"
-:
-function
 (
 node
 )

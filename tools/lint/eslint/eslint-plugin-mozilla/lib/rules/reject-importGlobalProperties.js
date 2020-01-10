@@ -70,9 +70,7 @@ schema
 :
 [
 {
-"
 enum
-"
 :
 [
 "
@@ -97,11 +95,7 @@ context
 {
 return
 {
-"
 CallExpression
-"
-:
-function
 (
 node
 )

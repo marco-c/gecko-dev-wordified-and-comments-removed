@@ -232,13 +232,11 @@ removeRange
 [
 startNode
 ?
-(
 startNode
 .
 end
 +
 1
-)
 :
 0
 node

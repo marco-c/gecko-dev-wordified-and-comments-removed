@@ -97,7 +97,6 @@ import
 const
 MESSAGE_DEFINE
 =
-(
 "
 Please
 use
@@ -113,7 +112,6 @@ XPCOMUtils
 .
 defineLazyModuleGetter
 "
-)
 ;
 ruleTester
 .

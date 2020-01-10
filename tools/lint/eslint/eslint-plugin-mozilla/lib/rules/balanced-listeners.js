@@ -16,16 +16,12 @@ var
 DICTIONARY
 =
 {
-"
 addEventListener
-"
 :
 "
 removeEventListener
 "
-"
 on
-"
 :
 "
 off
