@@ -11581,7 +11581,7 @@ out
 default
 =
 "
-LangTagMappingsGenerated
+LangTagMappingsIANAGenerated
 .
 js
 "
