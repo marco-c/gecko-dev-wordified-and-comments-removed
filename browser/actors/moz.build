@@ -241,6 +241,16 @@ ClickHandlerChild
 jsm
 '
 '
+ContentMetaChild
+.
+jsm
+'
+'
+ContentMetaParent
+.
+jsm
+'
+'
 ContentSearchChild
 .
 jsm

@@ -1029,11 +1029,6 @@ ContentCrashHandlers
 jsm
 '
 '
-ContentMetaHandler
-.
-jsm
-'
-'
 ContentObservers
 .
 js
