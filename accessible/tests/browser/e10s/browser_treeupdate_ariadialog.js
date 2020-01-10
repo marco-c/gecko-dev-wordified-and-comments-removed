@@ -59,13 +59,13 @@ dialog
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 (
 )
 =

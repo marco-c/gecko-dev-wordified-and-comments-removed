@@ -230,12 +230,13 @@ browsers
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 async
 (
 )
@@ -265,6 +266,8 @@ Ci
 nsIAccessibilityService
 )
 ;
+Assert
+.
 ok
 (
 !
