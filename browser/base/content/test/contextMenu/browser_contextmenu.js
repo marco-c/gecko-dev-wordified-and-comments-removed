@@ -329,7 +329,7 @@ chrome_base
 "
 subtst_contextmenu_xul
 .
-xhtml
+xul
 "
 ;
 await
