@@ -97,10 +97,6 @@ position
 :
 absolute
 ;
-display
-:
-block
-;
 "
 >
 <
@@ -120,10 +116,6 @@ position
 :
 absolute
 ;
-display
-:
-block
-;
 "
 /
 >
@@ -139,10 +131,6 @@ style
 position
 :
 fixed
-;
-display
-:
-block
 ;
 "
 >

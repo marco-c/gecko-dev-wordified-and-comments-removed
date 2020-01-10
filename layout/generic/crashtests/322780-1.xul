@@ -46,10 +46,6 @@ foopy
 style
 =
 "
-display
-:
-block
-;
 float
 :
 left

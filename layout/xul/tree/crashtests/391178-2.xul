@@ -88,10 +88,6 @@ a
 style
 =
 "
-display
-:
-block
-;
 position
 :
 fixed
@@ -105,7 +101,10 @@ style
 "
 display
 :
-block
+-
+moz
+-
+box
 ;
 position
 :
@@ -137,10 +136,6 @@ box
 style
 =
 "
-display
-:
-block
-;
 position
 :
 fixed
@@ -154,7 +149,10 @@ style
 "
 display
 :
-block
+-
+moz
+-
+box
 ;
 position
 :
