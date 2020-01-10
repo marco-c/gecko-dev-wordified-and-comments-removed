@@ -1697,16 +1697,6 @@ Element
 aListElement
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
-CacheInlineStyles
-(
-nsINode
-*
-aNode
-)
-;
 void
 ClearCachedStyles
 (
