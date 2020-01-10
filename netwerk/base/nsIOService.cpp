@@ -1302,13 +1302,6 @@ GetSingleton
 (
 )
 ;
-ncs
--
->
-Init
-(
-)
-;
 return
 NS_OK
 ;
