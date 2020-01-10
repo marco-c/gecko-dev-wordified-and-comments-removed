@@ -316,6 +316,12 @@ DocumentIsEmpty
 (
 )
 ;
+bool
+DontEchoPassword
+(
+)
+const
+;
 protected
 :
 virtual
@@ -772,12 +778,6 @@ const
 ;
 bool
 IsMailEditor
-(
-)
-const
-;
-bool
-DontEchoPassword
 (
 )
 const
