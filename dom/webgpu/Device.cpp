@@ -106,6 +106,9 @@ Device
 if
 (
 mBridge
+&
+&
+mBridge
 -
 >
 IsOpen
