@@ -5992,7 +5992,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture2DLod_Sampler2D1_Float2_Float1
+texture3D_Sampler3D1_Float3
 =
 TSymbolUniqueId
 (
@@ -6003,7 +6003,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture2DProjLod_Sampler2D1_Float3_Float1
+pt0I
 =
 TSymbolUniqueId
 (
@@ -6014,7 +6014,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture2DProjLod_Sampler2D1_Float4_Float1
+texture3D_Sampler3D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6025,7 +6025,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureCubeLod_SamplerCube1_Float3_Float1
+texture3DProj_Sampler3D1_Float4
 =
 TSymbolUniqueId
 (
@@ -6036,7 +6036,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_Sampler2D1_Float2
+texture3DProj_Sampler3D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -6047,7 +6047,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_ISampler2D1_Float2
+texture3DLod_Sampler3D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6058,7 +6058,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0Q
+texture3DProjLod_Sampler3D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -6069,7 +6069,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_USampler2D1_Float2
+texture2DLod_Sampler2D1_Float2_Float1
 =
 TSymbolUniqueId
 (
@@ -6080,7 +6080,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0W
+texture2DProjLod_Sampler2D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6091,7 +6091,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_Sampler3D1_Float3
+texture2DProjLod_Sampler2D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -6102,7 +6102,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0I
+textureCubeLod_SamplerCube1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6113,7 +6113,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_ISampler3D1_Float3
+texture_Sampler2D1_Float2
 =
 TSymbolUniqueId
 (
@@ -6124,7 +6124,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0R
+texture_ISampler2D1_Float2
 =
 TSymbolUniqueId
 (
@@ -6135,7 +6135,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_USampler3D1_Float3
+pt0Q
 =
 TSymbolUniqueId
 (
@@ -6146,7 +6146,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0X
+texture_USampler2D1_Float2
 =
 TSymbolUniqueId
 (
@@ -6157,7 +6157,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_SamplerCube1_Float3
+pt0W
 =
 TSymbolUniqueId
 (
@@ -6168,7 +6168,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_ISamplerCube1_Float3
+texture_Sampler3D1_Float3
 =
 TSymbolUniqueId
 (
@@ -6179,7 +6179,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0S
+texture_ISampler3D1_Float3
 =
 TSymbolUniqueId
 (
@@ -6190,7 +6190,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_USamplerCube1_Float3
+pt0R
 =
 TSymbolUniqueId
 (
@@ -6201,7 +6201,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0Y
+texture_USampler3D1_Float3
 =
 TSymbolUniqueId
 (
@@ -6212,7 +6212,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_Sampler2DArray1_Float3
+pt0X
 =
 TSymbolUniqueId
 (
@@ -6223,7 +6223,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0K
+texture_SamplerCube1_Float3
 =
 TSymbolUniqueId
 (
@@ -6234,7 +6234,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_ISampler2DArray1_Float3
+texture_ISamplerCube1_Float3
 =
 TSymbolUniqueId
 (
@@ -6245,7 +6245,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0T
+pt0S
 =
 TSymbolUniqueId
 (
@@ -6256,7 +6256,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_USampler2DArray1_Float3
+texture_USamplerCube1_Float3
 =
 TSymbolUniqueId
 (
@@ -6267,7 +6267,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0Z
+pt0Y
 =
 TSymbolUniqueId
 (
@@ -6278,7 +6278,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_Sampler2D1_Float3
+texture_Sampler2DArray1_Float3
 =
 TSymbolUniqueId
 (
@@ -6289,7 +6289,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_ISampler2D1_Float3
+pt0K
 =
 TSymbolUniqueId
 (
@@ -6300,7 +6300,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_USampler2D1_Float3
+texture_ISampler2DArray1_Float3
 =
 TSymbolUniqueId
 (
@@ -6311,7 +6311,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_Sampler2D1_Float4
+pt0T
 =
 TSymbolUniqueId
 (
@@ -6322,7 +6322,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_ISampler2D1_Float4
+texture_USampler2DArray1_Float3
 =
 TSymbolUniqueId
 (
@@ -6333,7 +6333,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_USampler2D1_Float4
+pt0Z
 =
 TSymbolUniqueId
 (
@@ -6344,7 +6344,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_Sampler3D1_Float4
+textureProj_Sampler2D1_Float3
 =
 TSymbolUniqueId
 (
@@ -6355,7 +6355,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_ISampler3D1_Float4
+textureProj_ISampler2D1_Float3
 =
 TSymbolUniqueId
 (
@@ -6366,7 +6366,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_USampler3D1_Float4
+textureProj_USampler2D1_Float3
 =
 TSymbolUniqueId
 (
@@ -6377,7 +6377,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_Sampler2D1_Float2_Float1
+textureProj_Sampler2D1_Float4
 =
 TSymbolUniqueId
 (
@@ -6388,7 +6388,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_ISampler2D1_Float2_Float1
+textureProj_ISampler2D1_Float4
 =
 TSymbolUniqueId
 (
@@ -6399,7 +6399,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_USampler2D1_Float2_Float1
+textureProj_USampler2D1_Float4
 =
 TSymbolUniqueId
 (
@@ -6410,7 +6410,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_Sampler3D1_Float3_Float1
+textureProj_Sampler3D1_Float4
 =
 TSymbolUniqueId
 (
@@ -6421,7 +6421,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_ISampler3D1_Float3_Float1
+textureProj_ISampler3D1_Float4
 =
 TSymbolUniqueId
 (
@@ -6432,7 +6432,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_USampler3D1_Float3_Float1
+textureProj_USampler3D1_Float4
 =
 TSymbolUniqueId
 (
@@ -6443,7 +6443,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_SamplerCube1_Float3_Float1
+textureLod_Sampler2D1_Float2_Float1
 =
 TSymbolUniqueId
 (
@@ -6454,7 +6454,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_ISamplerCube1_Float3_Float1
+textureLod_ISampler2D1_Float2_Float1
 =
 TSymbolUniqueId
 (
@@ -6465,7 +6465,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_USamplerCube1_Float3_Float1
+textureLod_USampler2D1_Float2_Float1
 =
 TSymbolUniqueId
 (
@@ -6476,7 +6476,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_Sampler2DArray1_Float3_Float1
+textureLod_Sampler3D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6487,7 +6487,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_ISampler2DArray1_Float3_Float1
+textureLod_ISampler3D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6498,7 +6498,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_USampler2DArray1_Float3_Float1
+textureLod_USampler3D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6509,7 +6509,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_Sampler2DShadow1_Float3
+textureLod_SamplerCube1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6520,7 +6520,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0c
+textureLod_ISamplerCube1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6531,7 +6531,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_SamplerCubeShadow1_Float4
+textureLod_USamplerCube1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6542,7 +6542,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0d
+textureLod_Sampler2DArray1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6553,7 +6553,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_Sampler2DArrayShadow1_Float4
+textureLod_ISampler2DArray1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6564,7 +6564,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0e
+textureLod_USampler2DArray1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6575,7 +6575,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_Sampler2DShadow1_Float4
+texture_Sampler2DShadow1_Float3
 =
 TSymbolUniqueId
 (
@@ -6586,7 +6586,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLod_Sampler2DShadow1_Float3_Float1
+pt0c
 =
 TSymbolUniqueId
 (
@@ -6597,7 +6597,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_Sampler2D1_Int1
+texture_SamplerCubeShadow1_Float4
 =
 TSymbolUniqueId
 (
@@ -6608,7 +6608,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_ISampler2D1_Int1
+pt0d
 =
 TSymbolUniqueId
 (
@@ -6619,7 +6619,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_USampler2D1_Int1
+texture_Sampler2DArrayShadow1_Float4
 =
 TSymbolUniqueId
 (
@@ -6630,7 +6630,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_Sampler3D1_Int1
+pt0e
 =
 TSymbolUniqueId
 (
@@ -6641,7 +6641,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_ISampler3D1_Int1
+textureProj_Sampler2DShadow1_Float4
 =
 TSymbolUniqueId
 (
@@ -6652,7 +6652,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_USampler3D1_Int1
+textureLod_Sampler2DShadow1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6663,7 +6663,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_SamplerCube1_Int1
+textureSize_Sampler2D1_Int1
 =
 TSymbolUniqueId
 (
@@ -6674,7 +6674,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_ISamplerCube1_Int1
+textureSize_ISampler2D1_Int1
 =
 TSymbolUniqueId
 (
@@ -6685,7 +6685,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_USamplerCube1_Int1
+textureSize_USampler2D1_Int1
 =
 TSymbolUniqueId
 (
@@ -6696,7 +6696,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_Sampler2DArray1_Int1
+textureSize_Sampler3D1_Int1
 =
 TSymbolUniqueId
 (
@@ -6707,7 +6707,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_ISampler2DArray1_Int1
+textureSize_ISampler3D1_Int1
 =
 TSymbolUniqueId
 (
@@ -6718,7 +6718,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_USampler2DArray1_Int1
+textureSize_USampler3D1_Int1
 =
 TSymbolUniqueId
 (
@@ -6729,7 +6729,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_Sampler2DShadow1_Int1
+textureSize_SamplerCube1_Int1
 =
 TSymbolUniqueId
 (
@@ -6740,7 +6740,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_SamplerCubeShadow1_Int1
+textureSize_ISamplerCube1_Int1
 =
 TSymbolUniqueId
 (
@@ -6751,7 +6751,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_Sampler2DArrayShadow1_Int1
+textureSize_USamplerCube1_Int1
 =
 TSymbolUniqueId
 (
@@ -6762,7 +6762,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLod_Sampler2D1_Float3_Float1
+textureSize_Sampler2DArray1_Int1
 =
 TSymbolUniqueId
 (
@@ -6773,7 +6773,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLod_ISampler2D1_Float3_Float1
+textureSize_ISampler2DArray1_Int1
 =
 TSymbolUniqueId
 (
@@ -6784,7 +6784,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLod_USampler2D1_Float3_Float1
+textureSize_USampler2DArray1_Int1
 =
 TSymbolUniqueId
 (
@@ -6795,7 +6795,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLod_Sampler2D1_Float4_Float1
+textureSize_Sampler2DShadow1_Int1
 =
 TSymbolUniqueId
 (
@@ -6806,7 +6806,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLod_ISampler2D1_Float4_Float1
+textureSize_SamplerCubeShadow1_Int1
 =
 TSymbolUniqueId
 (
@@ -6817,7 +6817,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLod_USampler2D1_Float4_Float1
+textureSize_Sampler2DArrayShadow1_Int1
 =
 TSymbolUniqueId
 (
@@ -6828,7 +6828,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLod_Sampler3D1_Float4_Float1
+textureProjLod_Sampler2D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6839,7 +6839,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLod_ISampler3D1_Float4_Float1
+textureProjLod_ISampler2D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6850,7 +6850,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLod_USampler3D1_Float4_Float1
+textureProjLod_USampler2D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -6861,7 +6861,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLod_Sampler2DShadow1_Float4_Float1
+textureProjLod_Sampler2D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -6872,7 +6872,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_Sampler2D1_Int2_Int1
+textureProjLod_ISampler2D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -6883,7 +6883,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_ISampler2D1_Int2_Int1
+textureProjLod_USampler2D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -6894,7 +6894,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_USampler2D1_Int2_Int1
+textureProjLod_Sampler3D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -6905,7 +6905,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_Sampler3D1_Int3_Int1
+textureProjLod_ISampler3D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -6916,7 +6916,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_ISampler3D1_Int3_Int1
+textureProjLod_USampler3D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -6927,7 +6927,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_USampler3D1_Int3_Int1
+textureProjLod_Sampler2DShadow1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -6938,7 +6938,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_Sampler2DArray1_Int3_Int1
+texelFetch_Sampler2D1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -6949,7 +6949,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_ISampler2DArray1_Int3_Int1
+texelFetch_ISampler2D1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -6960,7 +6960,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_USampler2DArray1_Int3_Int1
+texelFetch_USampler2D1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -6971,7 +6971,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_Sampler2D1_Float2_Float2_Float2
+texelFetch_Sampler3D1_Int3_Int1
 =
 TSymbolUniqueId
 (
@@ -6982,7 +6982,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_ISampler2D1_Float2_Float2_Float2
+texelFetch_ISampler3D1_Int3_Int1
 =
 TSymbolUniqueId
 (
@@ -6993,7 +6993,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_USampler2D1_Float2_Float2_Float2
+texelFetch_USampler3D1_Int3_Int1
 =
 TSymbolUniqueId
 (
@@ -7004,7 +7004,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_Sampler3D1_Float3_Float3_Float3
+texelFetch_Sampler2DArray1_Int3_Int1
 =
 TSymbolUniqueId
 (
@@ -7015,7 +7015,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_ISampler3D1_Float3_Float3_Float3
+texelFetch_ISampler2DArray1_Int3_Int1
 =
 TSymbolUniqueId
 (
@@ -7026,7 +7026,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_USampler3D1_Float3_Float3_Float3
+texelFetch_USampler2DArray1_Int3_Int1
 =
 TSymbolUniqueId
 (
@@ -7037,7 +7037,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_SamplerCube1_Float3_Float3_Float3
+textureGrad_Sampler2D1_Float2_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7048,7 +7048,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_ISamplerCube1_Float3_Float3_Float3
+textureGrad_ISampler2D1_Float2_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7059,7 +7059,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_USamplerCube1_Float3_Float3_Float3
+textureGrad_USampler2D1_Float2_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7070,7 +7070,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_Sampler2DShadow1_Float3_Float2_Float2
+textureGrad_Sampler3D1_Float3_Float3_Float3
 =
 TSymbolUniqueId
 (
@@ -7081,7 +7081,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_SamplerCubeShadow1_Float4_Float3_Float3
+textureGrad_ISampler3D1_Float3_Float3_Float3
 =
 TSymbolUniqueId
 (
@@ -7092,7 +7092,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_Sampler2DArray1_Float3_Float2_Float2
+textureGrad_USampler3D1_Float3_Float3_Float3
 =
 TSymbolUniqueId
 (
@@ -7103,7 +7103,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_ISampler2DArray1_Float3_Float2_Float2
+textureGrad_SamplerCube1_Float3_Float3_Float3
 =
 TSymbolUniqueId
 (
@@ -7114,7 +7114,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_USampler2DArray1_Float3_Float2_Float2
+textureGrad_ISamplerCube1_Float3_Float3_Float3
 =
 TSymbolUniqueId
 (
@@ -7125,7 +7125,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGrad_Sampler2DArrayShadow1_Float4_Float2_Float2
+textureGrad_USamplerCube1_Float3_Float3_Float3
 =
 TSymbolUniqueId
 (
@@ -7136,7 +7136,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGrad_Sampler2D1_Float3_Float2_Float2
+textureGrad_Sampler2DShadow1_Float3_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7147,7 +7147,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGrad_ISampler2D1_Float3_Float2_Float2
+textureGrad_SamplerCubeShadow1_Float4_Float3_Float3
 =
 TSymbolUniqueId
 (
@@ -7158,7 +7158,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGrad_USampler2D1_Float3_Float2_Float2
+textureGrad_Sampler2DArray1_Float3_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7169,7 +7169,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGrad_Sampler2D1_Float4_Float2_Float2
+textureGrad_ISampler2DArray1_Float3_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7180,7 +7180,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGrad_ISampler2D1_Float4_Float2_Float2
+textureGrad_USampler2DArray1_Float3_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7191,7 +7191,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGrad_USampler2D1_Float4_Float2_Float2
+textureGrad_Sampler2DArrayShadow1_Float4_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7202,7 +7202,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGrad_Sampler3D1_Float4_Float3_Float3
+textureProjGrad_Sampler2D1_Float3_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7213,7 +7213,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGrad_ISampler3D1_Float4_Float3_Float3
+textureProjGrad_ISampler2D1_Float3_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7224,7 +7224,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGrad_USampler3D1_Float4_Float3_Float3
+textureProjGrad_USampler2D1_Float3_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7235,7 +7235,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGrad_Sampler2DShadow1_Float4_Float2_Float2
+textureProjGrad_Sampler2D1_Float4_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7246,7 +7246,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_Sampler2DMS1
+textureProjGrad_ISampler2D1_Float4_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7257,7 +7257,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0O
+textureProjGrad_USampler2D1_Float4_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7268,7 +7268,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_ISampler2DMS1
+textureProjGrad_Sampler3D1_Float4_Float3_Float3
 =
 TSymbolUniqueId
 (
@@ -7279,7 +7279,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0U
+textureProjGrad_ISampler3D1_Float4_Float3_Float3
 =
 TSymbolUniqueId
 (
@@ -7290,7 +7290,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_USampler2DMS1
+textureProjGrad_USampler3D1_Float4_Float3_Float3
 =
 TSymbolUniqueId
 (
@@ -7301,7 +7301,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0a
+textureProjGrad_Sampler2DShadow1_Float4_Float2_Float2
 =
 TSymbolUniqueId
 (
@@ -7312,7 +7312,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSizeExt_Sampler2DMS1
+textureSize_Sampler2DMS1
 =
 TSymbolUniqueId
 (
@@ -7323,7 +7323,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSizeExt_ISampler2DMS1
+pt0O
 =
 TSymbolUniqueId
 (
@@ -7334,7 +7334,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSizeExt_USampler2DMS1
+textureSize_ISampler2DMS1
 =
 TSymbolUniqueId
 (
@@ -7345,7 +7345,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_Sampler2DMSArray1
+pt0U
 =
 TSymbolUniqueId
 (
@@ -7356,7 +7356,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0P
+textureSize_USampler2DMS1
 =
 TSymbolUniqueId
 (
@@ -7367,7 +7367,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_ISampler2DMSArray1
+pt0a
 =
 TSymbolUniqueId
 (
@@ -7378,7 +7378,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0V
+textureSizeExt_Sampler2DMS1
 =
 TSymbolUniqueId
 (
@@ -7389,7 +7389,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_USampler2DMSArray1
+textureSizeExt_ISampler2DMS1
 =
 TSymbolUniqueId
 (
@@ -7400,7 +7400,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0b
+textureSizeExt_USampler2DMS1
 =
 TSymbolUniqueId
 (
@@ -7411,7 +7411,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_Sampler2D1_Float2_Int2
+textureSize_Sampler2DMSArray1
 =
 TSymbolUniqueId
 (
@@ -7422,7 +7422,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_ISampler2D1_Float2_Int2
+pt0P
 =
 TSymbolUniqueId
 (
@@ -7433,7 +7433,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_USampler2D1_Float2_Int2
+textureSize_ISampler2DMSArray1
 =
 TSymbolUniqueId
 (
@@ -7444,7 +7444,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_Sampler3D1_Float3_Int3
+pt0V
 =
 TSymbolUniqueId
 (
@@ -7455,7 +7455,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_ISampler3D1_Float3_Int3
+textureSize_USampler2DMSArray1
 =
 TSymbolUniqueId
 (
@@ -7466,7 +7466,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_USampler3D1_Float3_Int3
+pt0b
 =
 TSymbolUniqueId
 (
@@ -7477,7 +7477,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_Sampler2DShadow1_Float3_Int2
+textureOffset_Sampler2D1_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -7488,7 +7488,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_Sampler2DArray1_Float3_Int2
+textureOffset_ISampler2D1_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -7499,7 +7499,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_ISampler2DArray1_Float3_Int2
+textureOffset_USampler2D1_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -7510,7 +7510,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_USampler2DArray1_Float3_Int2
+textureOffset_Sampler3D1_Float3_Int3
 =
 TSymbolUniqueId
 (
@@ -7521,7 +7521,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_Sampler2D1_Float3_Int2
+textureOffset_ISampler3D1_Float3_Int3
 =
 TSymbolUniqueId
 (
@@ -7532,7 +7532,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_ISampler2D1_Float3_Int2
+textureOffset_USampler3D1_Float3_Int3
 =
 TSymbolUniqueId
 (
@@ -7543,7 +7543,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_USampler2D1_Float3_Int2
+textureOffset_Sampler2DShadow1_Float3_Int2
 =
 TSymbolUniqueId
 (
@@ -7554,7 +7554,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_Sampler2D1_Float4_Int2
+textureOffset_Sampler2DArray1_Float3_Int2
 =
 TSymbolUniqueId
 (
@@ -7565,7 +7565,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_ISampler2D1_Float4_Int2
+textureOffset_ISampler2DArray1_Float3_Int2
 =
 TSymbolUniqueId
 (
@@ -7576,7 +7576,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_USampler2D1_Float4_Int2
+textureOffset_USampler2DArray1_Float3_Int2
 =
 TSymbolUniqueId
 (
@@ -7587,7 +7587,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_Sampler3D1_Float4_Int3
+textureProjOffset_Sampler2D1_Float3_Int2
 =
 TSymbolUniqueId
 (
@@ -7598,7 +7598,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_ISampler3D1_Float4_Int3
+textureProjOffset_ISampler2D1_Float3_Int2
 =
 TSymbolUniqueId
 (
@@ -7609,7 +7609,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_USampler3D1_Float4_Int3
+textureProjOffset_USampler2D1_Float3_Int2
 =
 TSymbolUniqueId
 (
@@ -7620,7 +7620,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_Sampler2DShadow1_Float4_Int2
+textureProjOffset_Sampler2D1_Float4_Int2
 =
 TSymbolUniqueId
 (
@@ -7631,7 +7631,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLodOffset_Sampler2D1_Float2_Float1_Int2
+textureProjOffset_ISampler2D1_Float4_Int2
 =
 TSymbolUniqueId
 (
@@ -7642,7 +7642,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLodOffset_ISampler2D1_Float2_Float1_Int2
+textureProjOffset_USampler2D1_Float4_Int2
 =
 TSymbolUniqueId
 (
@@ -7653,7 +7653,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLodOffset_USampler2D1_Float2_Float1_Int2
+textureProjOffset_Sampler3D1_Float4_Int3
 =
 TSymbolUniqueId
 (
@@ -7664,7 +7664,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLodOffset_Sampler3D1_Float3_Float1_Int3
+textureProjOffset_ISampler3D1_Float4_Int3
 =
 TSymbolUniqueId
 (
@@ -7675,7 +7675,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLodOffset_ISampler3D1_Float3_Float1_Int3
+textureProjOffset_USampler3D1_Float4_Int3
 =
 TSymbolUniqueId
 (
@@ -7686,7 +7686,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLodOffset_USampler3D1_Float3_Float1_Int3
+textureProjOffset_Sampler2DShadow1_Float4_Int2
 =
 TSymbolUniqueId
 (
@@ -7697,7 +7697,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLodOffset_Sampler2DShadow1_Float3_Float1_Int2
+textureLodOffset_Sampler2D1_Float2_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7708,7 +7708,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLodOffset_Sampler2DArray1_Float3_Float1_Int2
+textureLodOffset_ISampler2D1_Float2_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7719,7 +7719,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLodOffset_ISampler2DArray1_Float3_Float1_Int2
+textureLodOffset_USampler2D1_Float2_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7730,7 +7730,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureLodOffset_USampler2DArray1_Float3_Float1_Int2
+textureLodOffset_Sampler3D1_Float3_Float1_Int3
 =
 TSymbolUniqueId
 (
@@ -7741,7 +7741,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLodOffset_Sampler2D1_Float3_Float1_Int2
+textureLodOffset_ISampler3D1_Float3_Float1_Int3
 =
 TSymbolUniqueId
 (
@@ -7752,7 +7752,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLodOffset_ISampler2D1_Float3_Float1_Int2
+textureLodOffset_USampler3D1_Float3_Float1_Int3
 =
 TSymbolUniqueId
 (
@@ -7763,7 +7763,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLodOffset_USampler2D1_Float3_Float1_Int2
+textureLodOffset_Sampler2DShadow1_Float3_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7774,7 +7774,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLodOffset_Sampler2D1_Float4_Float1_Int2
+textureLodOffset_Sampler2DArray1_Float3_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7785,7 +7785,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLodOffset_ISampler2D1_Float4_Float1_Int2
+textureLodOffset_ISampler2DArray1_Float3_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7796,7 +7796,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLodOffset_USampler2D1_Float4_Float1_Int2
+textureLodOffset_USampler2DArray1_Float3_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7807,7 +7807,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLodOffset_Sampler3D1_Float4_Float1_Int3
+textureProjLodOffset_Sampler2D1_Float3_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7818,7 +7818,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLodOffset_ISampler3D1_Float4_Float1_Int3
+textureProjLodOffset_ISampler2D1_Float3_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7829,7 +7829,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLodOffset_USampler3D1_Float4_Float1_Int3
+textureProjLodOffset_USampler2D1_Float3_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7840,7 +7840,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjLodOffset_Sampler2DShadow1_Float4_Float1_Int2
+textureProjLodOffset_Sampler2D1_Float4_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7851,7 +7851,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchOffset_Sampler2D1_Int2_Int1_Int2
+textureProjLodOffset_ISampler2D1_Float4_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7862,7 +7862,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchOffset_ISampler2D1_Int2_Int1_Int2
+textureProjLodOffset_USampler2D1_Float4_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7873,7 +7873,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchOffset_USampler2D1_Int2_Int1_Int2
+textureProjLodOffset_Sampler3D1_Float4_Float1_Int3
 =
 TSymbolUniqueId
 (
@@ -7884,7 +7884,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchOffset_Sampler3D1_Int3_Int1_Int3
+textureProjLodOffset_ISampler3D1_Float4_Float1_Int3
 =
 TSymbolUniqueId
 (
@@ -7895,7 +7895,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchOffset_ISampler3D1_Int3_Int1_Int3
+textureProjLodOffset_USampler3D1_Float4_Float1_Int3
 =
 TSymbolUniqueId
 (
@@ -7906,7 +7906,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchOffset_USampler3D1_Int3_Int1_Int3
+textureProjLodOffset_Sampler2DShadow1_Float4_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -7917,7 +7917,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchOffset_Sampler2DArray1_Int3_Int1_Int2
+texelFetchOffset_Sampler2D1_Int2_Int1_Int2
 =
 TSymbolUniqueId
 (
@@ -7928,7 +7928,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchOffset_ISampler2DArray1_Int3_Int1_Int2
+texelFetchOffset_ISampler2D1_Int2_Int1_Int2
 =
 TSymbolUniqueId
 (
@@ -7939,7 +7939,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchOffset_USampler2DArray1_Int3_Int1_Int2
+texelFetchOffset_USampler2D1_Int2_Int1_Int2
 =
 TSymbolUniqueId
 (
@@ -7950,7 +7950,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_Sampler2D1_Float2_Float2_Float2_Int2
+texelFetchOffset_Sampler3D1_Int3_Int1_Int3
 =
 TSymbolUniqueId
 (
@@ -7961,7 +7961,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_ISampler2D1_Float2_Float2_Float2_Int2
+texelFetchOffset_ISampler3D1_Int3_Int1_Int3
 =
 TSymbolUniqueId
 (
@@ -7972,7 +7972,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_USampler2D1_Float2_Float2_Float2_Int2
+texelFetchOffset_USampler3D1_Int3_Int1_Int3
 =
 TSymbolUniqueId
 (
@@ -7983,7 +7983,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_Sampler3D1_Float3_Float3_Float3_Int3
+texelFetchOffset_Sampler2DArray1_Int3_Int1_Int2
 =
 TSymbolUniqueId
 (
@@ -7994,7 +7994,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_ISampler3D1_Float3_Float3_Float3_Int3
+texelFetchOffset_ISampler2DArray1_Int3_Int1_Int2
 =
 TSymbolUniqueId
 (
@@ -8005,7 +8005,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_USampler3D1_Float3_Float3_Float3_Int3
+texelFetchOffset_USampler2DArray1_Int3_Int1_Int2
 =
 TSymbolUniqueId
 (
@@ -8016,7 +8016,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_Sampler2DShadow1_Float3_Float2_Float2_Int2
+textureGradOffset_Sampler2D1_Float2_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8027,7 +8027,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_Sampler2DArray1_Float3_Float2_Float2_Int2
+textureGradOffset_ISampler2D1_Float2_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8038,7 +8038,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_ISampler2DArray1_Float3_Float2_Float2_Int2
+textureGradOffset_USampler2D1_Float2_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8049,7 +8049,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_USampler2DArray1_Float3_Float2_Float2_Int2
+textureGradOffset_Sampler3D1_Float3_Float3_Float3_Int3
 =
 TSymbolUniqueId
 (
@@ -8060,7 +8060,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGradOffset_Sampler2DArrayShadow1_Float4_Float2_Float2_Int2
+textureGradOffset_ISampler3D1_Float3_Float3_Float3_Int3
 =
 TSymbolUniqueId
 (
@@ -8071,7 +8071,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGradOffset_Sampler2D1_Float3_Float2_Float2_Int2
+textureGradOffset_USampler3D1_Float3_Float3_Float3_Int3
 =
 TSymbolUniqueId
 (
@@ -8082,7 +8082,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGradOffset_ISampler2D1_Float3_Float2_Float2_Int2
+textureGradOffset_Sampler2DShadow1_Float3_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8093,7 +8093,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGradOffset_USampler2D1_Float3_Float2_Float2_Int2
+textureGradOffset_Sampler2DArray1_Float3_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8104,7 +8104,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGradOffset_Sampler2D1_Float4_Float2_Float2_Int2
+textureGradOffset_ISampler2DArray1_Float3_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8115,7 +8115,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGradOffset_ISampler2D1_Float4_Float2_Float2_Int2
+textureGradOffset_USampler2DArray1_Float3_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8126,7 +8126,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGradOffset_USampler2D1_Float4_Float2_Float2_Int2
+textureGradOffset_Sampler2DArrayShadow1_Float4_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8137,7 +8137,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGradOffset_Sampler3D1_Float4_Float3_Float3_Int3
+textureProjGradOffset_Sampler2D1_Float3_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8148,7 +8148,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGradOffset_ISampler3D1_Float4_Float3_Float3_Int3
+textureProjGradOffset_ISampler2D1_Float3_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8159,7 +8159,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGradOffset_USampler3D1_Float4_Float3_Float3_Int3
+textureProjGradOffset_USampler2D1_Float3_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8170,7 +8170,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjGradOffset_Sampler2DShadow1_Float4_Float2_Float2_Int2
+textureProjGradOffset_Sampler2D1_Float4_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8181,7 +8181,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_Sampler2D1_Float2_Int2_Float1
+textureProjGradOffset_ISampler2D1_Float4_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8192,7 +8192,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_ISampler2D1_Float2_Int2_Float1
+textureProjGradOffset_USampler2D1_Float4_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8203,7 +8203,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_USampler2D1_Float2_Int2_Float1
+textureProjGradOffset_Sampler3D1_Float4_Float3_Float3_Int3
 =
 TSymbolUniqueId
 (
@@ -8214,7 +8214,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_Sampler3D1_Float3_Int3_Float1
+textureProjGradOffset_ISampler3D1_Float4_Float3_Float3_Int3
 =
 TSymbolUniqueId
 (
@@ -8225,7 +8225,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_ISampler3D1_Float3_Int3_Float1
+textureProjGradOffset_USampler3D1_Float4_Float3_Float3_Int3
 =
 TSymbolUniqueId
 (
@@ -8236,7 +8236,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_USampler3D1_Float3_Int3_Float1
+textureProjGradOffset_Sampler2DShadow1_Float4_Float2_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -8247,7 +8247,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_Sampler2DShadow1_Float3_Int2_Float1
+textureOffset_Sampler2D1_Float2_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8258,7 +8258,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_Sampler2DArray1_Float3_Int2_Float1
+textureOffset_ISampler2D1_Float2_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8269,7 +8269,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_ISampler2DArray1_Float3_Int2_Float1
+textureOffset_USampler2D1_Float2_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8280,7 +8280,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureOffset_USampler2DArray1_Float3_Int2_Float1
+textureOffset_Sampler3D1_Float3_Int3_Float1
 =
 TSymbolUniqueId
 (
@@ -8291,7 +8291,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_Sampler2D1_Float3_Int2_Float1
+textureOffset_ISampler3D1_Float3_Int3_Float1
 =
 TSymbolUniqueId
 (
@@ -8302,7 +8302,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_ISampler2D1_Float3_Int2_Float1
+textureOffset_USampler3D1_Float3_Int3_Float1
 =
 TSymbolUniqueId
 (
@@ -8313,7 +8313,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_USampler2D1_Float3_Int2_Float1
+textureOffset_Sampler2DShadow1_Float3_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8324,7 +8324,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_Sampler2D1_Float4_Int2_Float1
+textureOffset_Sampler2DArray1_Float3_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8335,7 +8335,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_ISampler2D1_Float4_Int2_Float1
+textureOffset_ISampler2DArray1_Float3_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8346,7 +8346,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_USampler2D1_Float4_Int2_Float1
+textureOffset_USampler2DArray1_Float3_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8357,7 +8357,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_Sampler3D1_Float4_Int3_Float1
+textureProjOffset_Sampler2D1_Float3_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8368,7 +8368,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_ISampler3D1_Float4_Int3_Float1
+textureProjOffset_ISampler2D1_Float3_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8379,7 +8379,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_USampler3D1_Float4_Int3_Float1
+textureProjOffset_USampler2D1_Float3_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8390,7 +8390,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProjOffset_Sampler2DShadow1_Float4_Int2_Float1
+textureProjOffset_Sampler2D1_Float4_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8401,7 +8401,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_SamplerExternalOES1_Float2
+textureProjOffset_ISampler2D1_Float4_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8412,7 +8412,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_SamplerExternalOES1_Float3
+textureProjOffset_USampler2D1_Float4_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8423,7 +8423,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_SamplerExternalOES1_Float4
+textureProjOffset_Sampler3D1_Float4_Int3_Float1
 =
 TSymbolUniqueId
 (
@@ -8434,7 +8434,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_SamplerExternalOES1_Int1
+textureProjOffset_ISampler3D1_Float4_Int3_Float1
 =
 TSymbolUniqueId
 (
@@ -8445,7 +8445,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_SamplerExternalOES1_Int2_Int1
+textureProjOffset_USampler3D1_Float4_Int3_Float1
 =
 TSymbolUniqueId
 (
@@ -8456,7 +8456,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_SamplerExternal2DY2YEXT1_Float2
+textureProjOffset_Sampler2DShadow1_Float4_Int2_Float1
 =
 TSymbolUniqueId
 (
@@ -8467,7 +8467,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0M
+texture_SamplerExternalOES1_Float2
 =
 TSymbolUniqueId
 (
@@ -8478,7 +8478,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_SamplerExternal2DY2YEXT1_Float3
+textureProj_SamplerExternalOES1_Float3
 =
 TSymbolUniqueId
 (
@@ -8489,7 +8489,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_SamplerExternal2DY2YEXT1_Float4
+textureProj_SamplerExternalOES1_Float4
 =
 TSymbolUniqueId
 (
@@ -8500,7 +8500,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-rgb_2_yuv_Float3_YuvCscStandardEXT1
+textureSize_SamplerExternalOES1_Int1
 =
 TSymbolUniqueId
 (
@@ -8511,7 +8511,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0G
+texelFetch_SamplerExternalOES1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -8522,7 +8522,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-yuv_2_rgb_Float3_YuvCscStandardEXT1
+texture_SamplerExternal2DY2YEXT1_Float2
 =
 TSymbolUniqueId
 (
@@ -8533,7 +8533,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureSize_SamplerExternal2DY2YEXT1_Int1
+pt0M
 =
 TSymbolUniqueId
 (
@@ -8544,7 +8544,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_SamplerExternal2DY2YEXT1_Int2_Int1
+textureProj_SamplerExternal2DY2YEXT1_Float3
 =
 TSymbolUniqueId
 (
@@ -8555,7 +8555,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_Sampler2D1_Float2_Float1
+textureProj_SamplerExternal2DY2YEXT1_Float4
 =
 TSymbolUniqueId
 (
@@ -8566,7 +8566,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_ISampler2D1_Float2_Float1
+rgb_2_yuv_Float3_YuvCscStandardEXT1
 =
 TSymbolUniqueId
 (
@@ -8577,7 +8577,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_USampler2D1_Float2_Float1
+pt0G
 =
 TSymbolUniqueId
 (
@@ -8588,7 +8588,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_Sampler3D1_Float3_Float1
+yuv_2_rgb_Float3_YuvCscStandardEXT1
 =
 TSymbolUniqueId
 (
@@ -8599,7 +8599,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_ISampler3D1_Float3_Float1
+textureSize_SamplerExternal2DY2YEXT1_Int1
 =
 TSymbolUniqueId
 (
@@ -8610,7 +8610,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_USampler3D1_Float3_Float1
+texelFetch_SamplerExternal2DY2YEXT1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -8621,7 +8621,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_SamplerCube1_Float3_Float1
+texture_Sampler2D1_Float2_Float1
 =
 TSymbolUniqueId
 (
@@ -8632,7 +8632,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_ISamplerCube1_Float3_Float1
+texture_ISampler2D1_Float2_Float1
 =
 TSymbolUniqueId
 (
@@ -8643,7 +8643,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_USamplerCube1_Float3_Float1
+texture_USampler2D1_Float2_Float1
 =
 TSymbolUniqueId
 (
@@ -8654,7 +8654,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_Sampler2DArray1_Float3_Float1
+texture_Sampler3D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8665,7 +8665,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_ISampler2DArray1_Float3_Float1
+texture_ISampler3D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8676,7 +8676,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_USampler2DArray1_Float3_Float1
+texture_USampler3D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8687,7 +8687,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_Sampler2D1_Float3_Float1
+texture_SamplerCube1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8698,7 +8698,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_ISampler2D1_Float3_Float1
+texture_ISamplerCube1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8709,7 +8709,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_USampler2D1_Float3_Float1
+texture_USamplerCube1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8720,7 +8720,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_Sampler2D1_Float4_Float1
+texture_Sampler2DArray1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8731,7 +8731,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_ISampler2D1_Float4_Float1
+texture_ISampler2DArray1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8742,7 +8742,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_USampler2D1_Float4_Float1
+texture_USampler2DArray1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8753,7 +8753,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_Sampler3D1_Float4_Float1
+textureProj_Sampler2D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8764,7 +8764,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_ISampler3D1_Float4_Float1
+textureProj_ISampler2D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8775,7 +8775,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_USampler3D1_Float4_Float1
+textureProj_USampler2D1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8786,7 +8786,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_Sampler2DShadow1_Float3_Float1
+textureProj_Sampler2D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -8797,7 +8797,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_SamplerCubeShadow1_Float4_Float1
+textureProj_ISampler2D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -8808,7 +8808,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_Sampler2DShadow1_Float4_Float1
+textureProj_USampler2D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -8819,7 +8819,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_SamplerExternalOES1_Float2_Float1
+textureProj_Sampler3D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -8830,7 +8830,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_SamplerExternalOES1_Float3_Float1
+textureProj_ISampler3D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -8841,7 +8841,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_SamplerExternalOES1_Float4_Float1
+textureProj_USampler3D1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -8852,7 +8852,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texture_SamplerExternal2DY2YEXT1_Float2_Float1
+texture_Sampler2DShadow1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8863,7 +8863,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_SamplerExternal2DY2YEXT1_Float3_Float1
+texture_SamplerCubeShadow1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -8874,7 +8874,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureProj_SamplerExternal2DY2YEXT1_Float4_Float1
+textureProj_Sampler2DShadow1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -8885,7 +8885,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_Sampler2DMS1_Int2_Int1
+texture_SamplerExternalOES1_Float2_Float1
 =
 TSymbolUniqueId
 (
@@ -8896,7 +8896,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_ISampler2DMS1_Int2_Int1
+textureProj_SamplerExternalOES1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8907,7 +8907,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_USampler2DMS1_Int2_Int1
+textureProj_SamplerExternalOES1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -8918,7 +8918,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchExt_Sampler2DMS1_Int2_Int1
+texture_SamplerExternal2DY2YEXT1_Float2_Float1
 =
 TSymbolUniqueId
 (
@@ -8929,7 +8929,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchExt_ISampler2DMS1_Int2_Int1
+textureProj_SamplerExternal2DY2YEXT1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -8940,7 +8940,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetchExt_USampler2DMS1_Int2_Int1
+textureProj_SamplerExternal2DY2YEXT1_Float4_Float1
 =
 TSymbolUniqueId
 (
@@ -8951,7 +8951,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_Sampler2DMSArray1_Int3_Int1
+texelFetch_Sampler2DMS1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -8962,7 +8962,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_ISampler2DMSArray1_Int3_Int1
+texelFetch_ISampler2DMS1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -8973,7 +8973,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-texelFetch_USampler2DMSArray1_Int3_Int1
+texelFetch_USampler2DMS1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -8984,7 +8984,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_Sampler2D1_Float2
+texelFetchExt_Sampler2DMS1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -8995,7 +8995,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_ISampler2D1_Float2
+texelFetchExt_ISampler2DMS1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -9006,7 +9006,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_USampler2D1_Float2
+texelFetchExt_USampler2DMS1_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -9017,7 +9017,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_Sampler2D1_Float2_Int1
+texelFetch_Sampler2DMSArray1_Int3_Int1
 =
 TSymbolUniqueId
 (
@@ -9028,7 +9028,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_ISampler2D1_Float2_Int1
+texelFetch_ISampler2DMSArray1_Int3_Int1
 =
 TSymbolUniqueId
 (
@@ -9039,7 +9039,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_USampler2D1_Float2_Int1
+texelFetch_USampler2DMSArray1_Int3_Int1
 =
 TSymbolUniqueId
 (
@@ -9050,7 +9050,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_Sampler2DArray1_Float3
+textureGather_Sampler2D1_Float2
 =
 TSymbolUniqueId
 (
@@ -9061,7 +9061,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_ISampler2DArray1_Float3
+textureGather_ISampler2D1_Float2
 =
 TSymbolUniqueId
 (
@@ -9072,7 +9072,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_USampler2DArray1_Float3
+textureGather_USampler2D1_Float2
 =
 TSymbolUniqueId
 (
@@ -9083,7 +9083,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_Sampler2DArray1_Float3_Int1
+textureGather_Sampler2D1_Float2_Int1
 =
 TSymbolUniqueId
 (
@@ -9094,7 +9094,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_ISampler2DArray1_Float3_Int1
+textureGather_ISampler2D1_Float2_Int1
 =
 TSymbolUniqueId
 (
@@ -9105,7 +9105,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_USampler2DArray1_Float3_Int1
+textureGather_USampler2D1_Float2_Int1
 =
 TSymbolUniqueId
 (
@@ -9116,7 +9116,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_SamplerCube1_Float3
+textureGather_Sampler2DArray1_Float3
 =
 TSymbolUniqueId
 (
@@ -9127,7 +9127,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_ISamplerCube1_Float3
+textureGather_ISampler2DArray1_Float3
 =
 TSymbolUniqueId
 (
@@ -9138,7 +9138,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_USamplerCube1_Float3
+textureGather_USampler2DArray1_Float3
 =
 TSymbolUniqueId
 (
@@ -9149,7 +9149,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_SamplerCube1_Float3_Int1
+textureGather_Sampler2DArray1_Float3_Int1
 =
 TSymbolUniqueId
 (
@@ -9160,7 +9160,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_ISamplerCube1_Float3_Int1
+textureGather_ISampler2DArray1_Float3_Int1
 =
 TSymbolUniqueId
 (
@@ -9171,7 +9171,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_USamplerCube1_Float3_Int1
+textureGather_USampler2DArray1_Float3_Int1
 =
 TSymbolUniqueId
 (
@@ -9182,7 +9182,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_Sampler2DShadow1_Float2
+textureGather_SamplerCube1_Float3
 =
 TSymbolUniqueId
 (
@@ -9193,7 +9193,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_Sampler2DShadow1_Float2_Float1
+textureGather_ISamplerCube1_Float3
 =
 TSymbolUniqueId
 (
@@ -9204,7 +9204,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_Sampler2DArrayShadow1_Float3
+textureGather_USamplerCube1_Float3
 =
 TSymbolUniqueId
 (
@@ -9215,7 +9215,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_Sampler2DArrayShadow1_Float3_Float1
+textureGather_SamplerCube1_Float3_Int1
 =
 TSymbolUniqueId
 (
@@ -9226,7 +9226,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_SamplerCubeShadow1_Float3
+textureGather_ISamplerCube1_Float3_Int1
 =
 TSymbolUniqueId
 (
@@ -9237,7 +9237,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGather_SamplerCubeShadow1_Float3_Float1
+textureGather_USamplerCube1_Float3_Int1
 =
 TSymbolUniqueId
 (
@@ -9248,7 +9248,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_Sampler2D1_Float2_Int2
+textureGather_Sampler2DShadow1_Float2
 =
 TSymbolUniqueId
 (
@@ -9259,7 +9259,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_ISampler2D1_Float2_Int2
+textureGather_Sampler2DShadow1_Float2_Float1
 =
 TSymbolUniqueId
 (
@@ -9270,7 +9270,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_USampler2D1_Float2_Int2
+textureGather_Sampler2DArrayShadow1_Float3
 =
 TSymbolUniqueId
 (
@@ -9281,7 +9281,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_Sampler2D1_Float2_Int2_Int1
+textureGather_Sampler2DArrayShadow1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -9292,7 +9292,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_ISampler2D1_Float2_Int2_Int1
+textureGather_SamplerCubeShadow1_Float3
 =
 TSymbolUniqueId
 (
@@ -9303,7 +9303,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_USampler2D1_Float2_Int2_Int1
+textureGather_SamplerCubeShadow1_Float3_Float1
 =
 TSymbolUniqueId
 (
@@ -9314,7 +9314,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_Sampler2DArray1_Float3_Int2
+textureGatherOffset_Sampler2D1_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -9325,7 +9325,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_ISampler2DArray1_Float3_Int2
+textureGatherOffset_ISampler2D1_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -9336,7 +9336,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_USampler2DArray1_Float3_Int2
+textureGatherOffset_USampler2D1_Float2_Int2
 =
 TSymbolUniqueId
 (
@@ -9347,7 +9347,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_Sampler2DArray1_Float3_Int2_Int1
+textureGatherOffset_Sampler2D1_Float2_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -9358,7 +9358,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_ISampler2DArray1_Float3_Int2_Int1
+textureGatherOffset_ISampler2D1_Float2_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -9369,7 +9369,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_USampler2DArray1_Float3_Int2_Int1
+textureGatherOffset_USampler2D1_Float2_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -9380,7 +9380,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_Sampler2DShadow1_Float2_Float1_Int2
+textureGatherOffset_Sampler2DArray1_Float3_Int2
 =
 TSymbolUniqueId
 (
@@ -9391,7 +9391,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-textureGatherOffset_Sampler2DArrayShadow1_Float3_Float1_Int2
+textureGatherOffset_ISampler2DArray1_Float3_Int2
 =
 TSymbolUniqueId
 (
@@ -9402,7 +9402,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-dFdx_Float1
+textureGatherOffset_USampler2DArray1_Float3_Int2
 =
 TSymbolUniqueId
 (
@@ -9413,7 +9413,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-dFdx_Float2
+textureGatherOffset_Sampler2DArray1_Float3_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -9424,7 +9424,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-dFdx_Float3
+textureGatherOffset_ISampler2DArray1_Float3_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -9435,7 +9435,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-dFdx_Float4
+textureGatherOffset_USampler2DArray1_Float3_Int2_Int1
 =
 TSymbolUniqueId
 (
@@ -9446,7 +9446,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-dFdy_Float1
+textureGatherOffset_Sampler2DShadow1_Float2_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -9457,7 +9457,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-dFdy_Float2
+textureGatherOffset_Sampler2DArrayShadow1_Float3_Float1_Int2
 =
 TSymbolUniqueId
 (
@@ -9468,7 +9468,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-dFdy_Float3
+dFdx_Float1
 =
 TSymbolUniqueId
 (
@@ -9479,7 +9479,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-dFdy_Float4
+dFdx_Float2
 =
 TSymbolUniqueId
 (
@@ -9490,7 +9490,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-fwidth_Float1
+dFdx_Float3
 =
 TSymbolUniqueId
 (
@@ -9501,7 +9501,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-fwidth_Float2
+dFdx_Float4
 =
 TSymbolUniqueId
 (
@@ -9512,7 +9512,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-fwidth_Float3
+dFdy_Float1
 =
 TSymbolUniqueId
 (
@@ -9523,7 +9523,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-fwidth_Float4
+dFdy_Float2
 =
 TSymbolUniqueId
 (
@@ -9534,7 +9534,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicCounter_AtomicCounter1
+dFdy_Float3
 =
 TSymbolUniqueId
 (
@@ -9545,7 +9545,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0F
+dFdy_Float4
 =
 TSymbolUniqueId
 (
@@ -9556,7 +9556,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicCounterIncrement_AtomicCounter1
+fwidth_Float1
 =
 TSymbolUniqueId
 (
@@ -9567,7 +9567,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicCounterDecrement_AtomicCounter1
+fwidth_Float2
 =
 TSymbolUniqueId
 (
@@ -9578,7 +9578,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicAdd_UInt1_UInt1
+fwidth_Float3
 =
 TSymbolUniqueId
 (
@@ -9589,7 +9589,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt_io_0D
+fwidth_Float4
 =
 TSymbolUniqueId
 (
@@ -9600,7 +9600,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicAdd_Int1_Int1
+atomicCounter_AtomicCounter1
 =
 TSymbolUniqueId
 (
@@ -9611,7 +9611,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt_io_0C
+pt0F
 =
 TSymbolUniqueId
 (
@@ -9622,7 +9622,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicMin_UInt1_UInt1
+atomicCounterIncrement_AtomicCounter1
 =
 TSymbolUniqueId
 (
@@ -9633,7 +9633,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicMin_Int1_Int1
+atomicCounterDecrement_AtomicCounter1
 =
 TSymbolUniqueId
 (
@@ -9644,7 +9644,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicMax_UInt1_UInt1
+atomicAdd_UInt1_UInt1
 =
 TSymbolUniqueId
 (
@@ -9655,7 +9655,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicMax_Int1_Int1
+pt_io_0D
 =
 TSymbolUniqueId
 (
@@ -9666,7 +9666,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicAnd_UInt1_UInt1
+atomicAdd_Int1_Int1
 =
 TSymbolUniqueId
 (
@@ -9677,7 +9677,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicAnd_Int1_Int1
+pt_io_0C
 =
 TSymbolUniqueId
 (
@@ -9688,7 +9688,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicOr_UInt1_UInt1
+atomicMin_UInt1_UInt1
 =
 TSymbolUniqueId
 (
@@ -9699,7 +9699,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicOr_Int1_Int1
+atomicMin_Int1_Int1
 =
 TSymbolUniqueId
 (
@@ -9710,7 +9710,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicXor_UInt1_UInt1
+atomicMax_UInt1_UInt1
 =
 TSymbolUniqueId
 (
@@ -9721,7 +9721,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicXor_Int1_Int1
+atomicMax_Int1_Int1
 =
 TSymbolUniqueId
 (
@@ -9732,7 +9732,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicExchange_UInt1_UInt1
+atomicAnd_UInt1_UInt1
 =
 TSymbolUniqueId
 (
@@ -9743,7 +9743,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicExchange_Int1_Int1
+atomicAnd_Int1_Int1
 =
 TSymbolUniqueId
 (
@@ -9754,7 +9754,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicCompSwap_UInt1_UInt1_UInt1
+atomicOr_UInt1_UInt1
 =
 TSymbolUniqueId
 (
@@ -9765,7 +9765,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-atomicCompSwap_Int1_Int1_Int1
+atomicOr_Int1_Int1
 =
 TSymbolUniqueId
 (
@@ -9776,7 +9776,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_Image2D1
+atomicXor_UInt1_UInt1
 =
 TSymbolUniqueId
 (
@@ -9787,7 +9787,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0f
+atomicXor_Int1_Int1
 =
 TSymbolUniqueId
 (
@@ -9798,7 +9798,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_IImage2D1
+atomicExchange_UInt1_UInt1
 =
 TSymbolUniqueId
 (
@@ -9809,7 +9809,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0g
+atomicExchange_Int1_Int1
 =
 TSymbolUniqueId
 (
@@ -9820,7 +9820,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_UImage2D1
+atomicCompSwap_UInt1_UInt1_UInt1
 =
 TSymbolUniqueId
 (
@@ -9831,7 +9831,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0h
+atomicCompSwap_Int1_Int1_Int1
 =
 TSymbolUniqueId
 (
@@ -9842,7 +9842,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_Image3D1
+imageSize_Image2D1
 =
 TSymbolUniqueId
 (
@@ -9853,7 +9853,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0i
+pt0f
 =
 TSymbolUniqueId
 (
@@ -9864,7 +9864,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_IImage3D1
+imageSize_IImage2D1
 =
 TSymbolUniqueId
 (
@@ -9875,7 +9875,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0j
+pt0g
 =
 TSymbolUniqueId
 (
@@ -9886,7 +9886,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_UImage3D1
+imageSize_UImage2D1
 =
 TSymbolUniqueId
 (
@@ -9897,7 +9897,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0k
+pt0h
 =
 TSymbolUniqueId
 (
@@ -9908,7 +9908,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_Image2DArray1
+imageSize_Image3D1
 =
 TSymbolUniqueId
 (
@@ -9919,7 +9919,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0l
+pt0i
 =
 TSymbolUniqueId
 (
@@ -9930,7 +9930,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_IImage2DArray1
+imageSize_IImage3D1
 =
 TSymbolUniqueId
 (
@@ -9941,7 +9941,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0m
+pt0j
 =
 TSymbolUniqueId
 (
@@ -9952,7 +9952,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_UImage2DArray1
+imageSize_UImage3D1
 =
 TSymbolUniqueId
 (
@@ -9963,7 +9963,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0n
+pt0k
 =
 TSymbolUniqueId
 (
@@ -9974,7 +9974,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_ImageCube1
+imageSize_Image2DArray1
 =
 TSymbolUniqueId
 (
@@ -9985,7 +9985,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0o
+pt0l
 =
 TSymbolUniqueId
 (
@@ -9996,7 +9996,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_IImageCube1
+imageSize_IImage2DArray1
 =
 TSymbolUniqueId
 (
@@ -10007,7 +10007,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0p
+pt0m
 =
 TSymbolUniqueId
 (
@@ -10018,7 +10018,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageSize_UImageCube1
+imageSize_UImage2DArray1
 =
 TSymbolUniqueId
 (
@@ -10029,7 +10029,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-pt0q
+pt0n
 =
 TSymbolUniqueId
 (
@@ -10040,7 +10040,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_Image2D1_Int2
+imageSize_ImageCube1
 =
 TSymbolUniqueId
 (
@@ -10051,7 +10051,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_IImage2D1_Int2
+pt0o
 =
 TSymbolUniqueId
 (
@@ -10062,7 +10062,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_UImage2D1_Int2
+imageSize_IImageCube1
 =
 TSymbolUniqueId
 (
@@ -10073,7 +10073,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_Image3D1_Int3
+pt0p
 =
 TSymbolUniqueId
 (
@@ -10084,7 +10084,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_IImage3D1_Int3
+imageSize_UImageCube1
 =
 TSymbolUniqueId
 (
@@ -10095,7 +10095,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_UImage3D1_Int3
+pt0q
 =
 TSymbolUniqueId
 (
@@ -10106,7 +10106,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_Image2DArray1_Int3
+imageLoad_Image2D1_Int2
 =
 TSymbolUniqueId
 (
@@ -10117,7 +10117,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_IImage2DArray1_Int3
+imageLoad_IImage2D1_Int2
 =
 TSymbolUniqueId
 (
@@ -10128,7 +10128,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_UImage2DArray1_Int3
+imageLoad_UImage2D1_Int2
 =
 TSymbolUniqueId
 (
@@ -10139,7 +10139,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_ImageCube1_Int3
+imageLoad_Image3D1_Int3
 =
 TSymbolUniqueId
 (
@@ -10150,7 +10150,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_IImageCube1_Int3
+imageLoad_IImage3D1_Int3
 =
 TSymbolUniqueId
 (
@@ -10161,7 +10161,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageLoad_UImageCube1_Int3
+imageLoad_UImage3D1_Int3
 =
 TSymbolUniqueId
 (
@@ -10172,7 +10172,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_Image2D1_Int2_Float4
+imageLoad_Image2DArray1_Int3
 =
 TSymbolUniqueId
 (
@@ -10183,7 +10183,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_IImage2D1_Int2_Int4
+imageLoad_IImage2DArray1_Int3
 =
 TSymbolUniqueId
 (
@@ -10194,7 +10194,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_UImage2D1_Int2_UInt4
+imageLoad_UImage2DArray1_Int3
 =
 TSymbolUniqueId
 (
@@ -10205,7 +10205,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_Image3D1_Int3_Float4
+imageLoad_ImageCube1_Int3
 =
 TSymbolUniqueId
 (
@@ -10216,7 +10216,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_IImage3D1_Int3_Int4
+imageLoad_IImageCube1_Int3
 =
 TSymbolUniqueId
 (
@@ -10227,7 +10227,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_UImage3D1_Int3_UInt4
+imageLoad_UImageCube1_Int3
 =
 TSymbolUniqueId
 (
@@ -10238,7 +10238,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_Image2DArray1_Int3_Float4
+imageStore_Image2D1_Int2_Float4
 =
 TSymbolUniqueId
 (
@@ -10249,7 +10249,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_IImage2DArray1_Int3_Int4
+imageStore_IImage2D1_Int2_Int4
 =
 TSymbolUniqueId
 (
@@ -10260,7 +10260,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_UImage2DArray1_Int3_UInt4
+imageStore_UImage2D1_Int2_UInt4
 =
 TSymbolUniqueId
 (
@@ -10271,7 +10271,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_ImageCube1_Int3_Float4
+imageStore_Image3D1_Int3_Float4
 =
 TSymbolUniqueId
 (
@@ -10282,7 +10282,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_IImageCube1_Int3_Int4
+imageStore_IImage3D1_Int3_Int4
 =
 TSymbolUniqueId
 (
@@ -10293,7 +10293,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-imageStore_UImageCube1_Int3_UInt4
+imageStore_UImage3D1_Int3_UInt4
 =
 TSymbolUniqueId
 (
@@ -10304,7 +10304,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-memoryBarrier
+imageStore_Image2DArray1_Int3_Float4
 =
 TSymbolUniqueId
 (
@@ -10315,7 +10315,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-memoryBarrierAtomicCounter
+imageStore_IImage2DArray1_Int3_Int4
 =
 TSymbolUniqueId
 (
@@ -10326,7 +10326,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-memoryBarrierBuffer
+imageStore_UImage2DArray1_Int3_UInt4
 =
 TSymbolUniqueId
 (
@@ -10337,7 +10337,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-memoryBarrierImage
+imageStore_ImageCube1_Int3_Float4
 =
 TSymbolUniqueId
 (
@@ -10348,7 +10348,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-barrier
+imageStore_IImageCube1_Int3_Int4
 =
 TSymbolUniqueId
 (
@@ -10359,7 +10359,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-memoryBarrierShared
+imageStore_UImageCube1_Int3_UInt4
 =
 TSymbolUniqueId
 (
@@ -10370,7 +10370,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-groupMemoryBarrier
+memoryBarrier
 =
 TSymbolUniqueId
 (
@@ -10381,7 +10381,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-EmitVertex
+memoryBarrierAtomicCounter
 =
 TSymbolUniqueId
 (
@@ -10392,7 +10392,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-EndPrimitive
+memoryBarrierBuffer
 =
 TSymbolUniqueId
 (
@@ -10403,7 +10403,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_DepthRangeParameters
+memoryBarrierImage
 =
 TSymbolUniqueId
 (
@@ -10414,7 +10414,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_DepthRange
+barrier
 =
 TSymbolUniqueId
 (
@@ -10425,7 +10425,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxVertexAttribs
+memoryBarrierShared
 =
 TSymbolUniqueId
 (
@@ -10436,7 +10436,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxVertexUniformVectors
+groupMemoryBarrier
 =
 TSymbolUniqueId
 (
@@ -10447,7 +10447,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxVertexTextureImageUnits
+EmitVertex
 =
 TSymbolUniqueId
 (
@@ -10458,7 +10458,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxCombinedTextureImageUnits
+EndPrimitive
 =
 TSymbolUniqueId
 (
@@ -10469,7 +10469,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxTextureImageUnits
+gl_DepthRangeParameters
 =
 TSymbolUniqueId
 (
@@ -10480,7 +10480,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxFragmentUniformVectors
+gl_DepthRange
 =
 TSymbolUniqueId
 (
@@ -10491,7 +10491,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxVaryingVectors
+gl_MaxVertexAttribs
 =
 TSymbolUniqueId
 (
@@ -10502,7 +10502,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxDrawBuffers
+gl_MaxVertexUniformVectors
 =
 TSymbolUniqueId
 (
@@ -10513,7 +10513,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxDualSourceDrawBuffersEXT
+gl_MaxVertexTextureImageUnits
 =
 TSymbolUniqueId
 (
@@ -10524,7 +10524,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxVertexOutputVectors
+gl_MaxCombinedTextureImageUnits
 =
 TSymbolUniqueId
 (
@@ -10535,7 +10535,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxFragmentInputVectors
+gl_MaxTextureImageUnits
 =
 TSymbolUniqueId
 (
@@ -10546,7 +10546,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MinProgramTexelOffset
+gl_MaxFragmentUniformVectors
 =
 TSymbolUniqueId
 (
@@ -10557,7 +10557,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxProgramTexelOffset
+gl_MaxVaryingVectors
 =
 TSymbolUniqueId
 (
@@ -10568,7 +10568,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxImageUnits
+gl_MaxDrawBuffers
 =
 TSymbolUniqueId
 (
@@ -10579,7 +10579,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxVertexImageUniforms
+gl_MaxDualSourceDrawBuffersEXT
 =
 TSymbolUniqueId
 (
@@ -10590,7 +10590,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxFragmentImageUniforms
+gl_MaxVertexOutputVectors
 =
 TSymbolUniqueId
 (
@@ -10601,7 +10601,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxComputeImageUniforms
+gl_MaxFragmentInputVectors
 =
 TSymbolUniqueId
 (
@@ -10612,7 +10612,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxCombinedImageUniforms
+gl_MinProgramTexelOffset
 =
 TSymbolUniqueId
 (
@@ -10623,7 +10623,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxCombinedShaderOutputResources
+gl_MaxProgramTexelOffset
 =
 TSymbolUniqueId
 (
@@ -10634,7 +10634,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxComputeWorkGroupCount
+gl_MaxImageUnits
 =
 TSymbolUniqueId
 (
@@ -10645,7 +10645,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxComputeWorkGroupSize
+gl_MaxVertexImageUniforms
 =
 TSymbolUniqueId
 (
@@ -10656,7 +10656,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxComputeUniformComponents
+gl_MaxFragmentImageUniforms
 =
 TSymbolUniqueId
 (
@@ -10667,7 +10667,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxComputeTextureImageUnits
+gl_MaxComputeImageUniforms
 =
 TSymbolUniqueId
 (
@@ -10678,7 +10678,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxComputeAtomicCounters
+gl_MaxCombinedImageUniforms
 =
 TSymbolUniqueId
 (
@@ -10689,7 +10689,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxComputeAtomicCounterBuffers
+gl_MaxCombinedShaderOutputResources
 =
 TSymbolUniqueId
 (
@@ -10700,7 +10700,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxVertexAtomicCounters
+gl_MaxComputeWorkGroupCount
 =
 TSymbolUniqueId
 (
@@ -10711,7 +10711,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxFragmentAtomicCounters
+gl_MaxComputeWorkGroupSize
 =
 TSymbolUniqueId
 (
@@ -10722,7 +10722,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxCombinedAtomicCounters
+gl_MaxComputeUniformComponents
 =
 TSymbolUniqueId
 (
@@ -10733,7 +10733,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxAtomicCounterBindings
+gl_MaxComputeTextureImageUnits
 =
 TSymbolUniqueId
 (
@@ -10744,7 +10744,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxVertexAtomicCounterBuffers
+gl_MaxComputeAtomicCounters
 =
 TSymbolUniqueId
 (
@@ -10755,7 +10755,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxFragmentAtomicCounterBuffers
+gl_MaxComputeAtomicCounterBuffers
 =
 TSymbolUniqueId
 (
@@ -10766,7 +10766,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxCombinedAtomicCounterBuffers
+gl_MaxVertexAtomicCounters
 =
 TSymbolUniqueId
 (
@@ -10777,7 +10777,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxAtomicCounterBufferSize
+gl_MaxFragmentAtomicCounters
 =
 TSymbolUniqueId
 (
@@ -10788,7 +10788,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxGeometryInputComponents
+gl_MaxCombinedAtomicCounters
 =
 TSymbolUniqueId
 (
@@ -10799,7 +10799,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxGeometryOutputComponents
+gl_MaxAtomicCounterBindings
 =
 TSymbolUniqueId
 (
@@ -10810,7 +10810,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxGeometryImageUniforms
+gl_MaxVertexAtomicCounterBuffers
 =
 TSymbolUniqueId
 (
@@ -10821,7 +10821,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxGeometryTextureImageUnits
+gl_MaxFragmentAtomicCounterBuffers
 =
 TSymbolUniqueId
 (
@@ -10832,7 +10832,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxGeometryOutputVertices
+gl_MaxCombinedAtomicCounterBuffers
 =
 TSymbolUniqueId
 (
@@ -10843,7 +10843,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxGeometryTotalOutputComponents
+gl_MaxAtomicCounterBufferSize
 =
 TSymbolUniqueId
 (
@@ -10854,7 +10854,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxGeometryUniformComponents
+gl_MaxGeometryInputComponents
 =
 TSymbolUniqueId
 (
@@ -10865,7 +10865,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxGeometryAtomicCounters
+gl_MaxGeometryOutputComponents
 =
 TSymbolUniqueId
 (
@@ -10876,7 +10876,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_MaxGeometryAtomicCounterBuffers
+gl_MaxGeometryImageUniforms
 =
 TSymbolUniqueId
 (
@@ -10887,7 +10887,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_FragCoord
+gl_MaxGeometryTextureImageUnits
 =
 TSymbolUniqueId
 (
@@ -10898,7 +10898,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_FrontFacing
+gl_MaxGeometryOutputVertices
 =
 TSymbolUniqueId
 (
@@ -10909,7 +10909,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_PointCoord
+gl_MaxGeometryTotalOutputComponents
 =
 TSymbolUniqueId
 (
@@ -10920,7 +10920,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_FragColor
+gl_MaxGeometryUniformComponents
 =
 TSymbolUniqueId
 (
@@ -10931,7 +10931,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_FragData
+gl_MaxGeometryAtomicCounters
 =
 TSymbolUniqueId
 (
@@ -10942,7 +10942,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_FragDepth
+gl_MaxGeometryAtomicCounterBuffers
 =
 TSymbolUniqueId
 (
@@ -10953,7 +10953,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_SecondaryFragColorEXT
+gl_FragCoord
 =
 TSymbolUniqueId
 (
@@ -10964,7 +10964,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_SecondaryFragDataEXT
+gl_FrontFacing
 =
 TSymbolUniqueId
 (
@@ -10975,7 +10975,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_FragDepthEXT
+gl_PointCoord
 =
 TSymbolUniqueId
 (
@@ -10986,7 +10986,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_LastFragData
+gl_FragColor
 =
 TSymbolUniqueId
 (
@@ -10997,7 +10997,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_LastFragColor
+gl_FragData
 =
 TSymbolUniqueId
 (
@@ -11008,7 +11008,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_LastFragDataNV
+gl_FragDepth
 =
 TSymbolUniqueId
 (
@@ -11019,7 +11019,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_LastFragColorARM
+gl_SecondaryFragColorEXT
 =
 TSymbolUniqueId
 (
@@ -11030,7 +11030,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_PrimitiveID
+gl_SecondaryFragDataEXT
 =
 TSymbolUniqueId
 (
@@ -11041,7 +11041,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_Layer
+gl_FragDepthEXT
 =
 TSymbolUniqueId
 (
@@ -11052,7 +11052,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_Position
+gl_LastFragData
 =
 TSymbolUniqueId
 (
@@ -11063,7 +11063,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_PointSize
+gl_LastFragColor
 =
 TSymbolUniqueId
 (
@@ -11074,7 +11074,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_InstanceID
+gl_LastFragDataNV
 =
 TSymbolUniqueId
 (
@@ -11085,7 +11085,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_VertexID
+gl_LastFragColorARM
 =
 TSymbolUniqueId
 (
@@ -11096,7 +11096,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_ViewportIndex
+gl_PrimitiveID
 =
 TSymbolUniqueId
 (
@@ -11107,7 +11107,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_LayerVS
+gl_Layer
 =
 TSymbolUniqueId
 (
@@ -11118,7 +11118,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_DrawID
+gl_Position
 =
 TSymbolUniqueId
 (
@@ -11129,7 +11129,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_DrawIDESSL1
+gl_PointSize
 =
 TSymbolUniqueId
 (
@@ -11140,7 +11140,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_NumWorkGroups
+gl_InstanceID
 =
 TSymbolUniqueId
 (
@@ -11151,7 +11151,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_WorkGroupSize
+gl_VertexID
 =
 TSymbolUniqueId
 (
@@ -11162,7 +11162,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_WorkGroupID
+gl_ViewportIndex
 =
 TSymbolUniqueId
 (
@@ -11173,7 +11173,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_LocalInvocationID
+gl_LayerVS
 =
 TSymbolUniqueId
 (
@@ -11184,7 +11184,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_GlobalInvocationID
+gl_DrawID
 =
 TSymbolUniqueId
 (
@@ -11195,7 +11195,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_LocalInvocationIndex
+gl_DrawIDESSL1
 =
 TSymbolUniqueId
 (
@@ -11206,7 +11206,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_PrimitiveIDIn
+gl_BaseVertex
 =
 TSymbolUniqueId
 (
@@ -11217,7 +11217,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_InvocationID
+gl_BaseInstance
 =
 TSymbolUniqueId
 (
@@ -11228,7 +11228,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_PrimitiveIDGS
+gl_NumWorkGroups
 =
 TSymbolUniqueId
 (
@@ -11239,7 +11239,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_LayerGS
+gl_WorkGroupSize
 =
 TSymbolUniqueId
 (
@@ -11250,7 +11250,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_PerVertex
+gl_WorkGroupID
 =
 TSymbolUniqueId
 (
@@ -11261,7 +11261,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_in
+gl_LocalInvocationID
 =
 TSymbolUniqueId
 (
@@ -11272,7 +11272,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_PerVertexOutBlock
+gl_GlobalInvocationID
 =
 TSymbolUniqueId
 (
@@ -11283,7 +11283,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_PositionGS
+gl_LocalInvocationIndex
 =
 TSymbolUniqueId
 (
@@ -11294,7 +11294,7 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_ViewID_OVR
+gl_PrimitiveIDIn
 =
 TSymbolUniqueId
 (
@@ -11305,11 +11305,99 @@ static
 constexpr
 const
 TSymbolUniqueId
-gl_ViewID_OVRESSL1
+gl_InvocationID
 =
 TSymbolUniqueId
 (
 1025
+)
+;
+static
+constexpr
+const
+TSymbolUniqueId
+gl_PrimitiveIDGS
+=
+TSymbolUniqueId
+(
+1026
+)
+;
+static
+constexpr
+const
+TSymbolUniqueId
+gl_LayerGS
+=
+TSymbolUniqueId
+(
+1027
+)
+;
+static
+constexpr
+const
+TSymbolUniqueId
+gl_PerVertex
+=
+TSymbolUniqueId
+(
+1028
+)
+;
+static
+constexpr
+const
+TSymbolUniqueId
+gl_in
+=
+TSymbolUniqueId
+(
+1029
+)
+;
+static
+constexpr
+const
+TSymbolUniqueId
+gl_PerVertexOutBlock
+=
+TSymbolUniqueId
+(
+1030
+)
+;
+static
+constexpr
+const
+TSymbolUniqueId
+gl_PositionGS
+=
+TSymbolUniqueId
+(
+1031
+)
+;
+static
+constexpr
+const
+TSymbolUniqueId
+gl_ViewID_OVR
+=
+TSymbolUniqueId
+(
+1032
+)
+;
+static
+constexpr
+const
+TSymbolUniqueId
+gl_ViewID_OVRESSL1
+=
+TSymbolUniqueId
+(
+1033
 )
 ;
 }
@@ -11317,6 +11405,20 @@ TSymbolUniqueId
 namespace
 BuiltInVariable
 {
+const
+TVariable
+*
+gl_BaseInstance
+(
+)
+;
+const
+TVariable
+*
+gl_BaseVertex
+(
+)
+;
 const
 TVariable
 *

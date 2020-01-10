@@ -196,6 +196,10 @@ params
 void
 QueryShaderiv
 (
+const
+Context
+*
+context
 Shader
 *
 shader

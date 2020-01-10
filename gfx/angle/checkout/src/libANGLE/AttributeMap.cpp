@@ -164,12 +164,7 @@ key
 ;
 return
 (
-mAttributes
-.
-find
-(
-key
-)
+iter
 !
 =
 mAttributes

@@ -219,7 +219,7 @@ ValidateCompressedTexImage3D
 Context
 *
 context
-TextureType
+TextureTarget
 targetPacked
 GLint
 level
@@ -247,7 +247,7 @@ ValidateCompressedTexSubImage3D
 Context
 *
 context
-TextureType
+TextureTarget
 targetPacked
 GLint
 level
@@ -297,7 +297,7 @@ ValidateCopyTexSubImage3D
 Context
 *
 context
-TextureType
+TextureTarget
 targetPacked
 GLint
 level
@@ -1201,7 +1201,7 @@ ValidateTexImage3D
 Context
 *
 context
-TextureType
+TextureTarget
 targetPacked
 GLint
 level
@@ -1269,7 +1269,7 @@ ValidateTexSubImage3D
 Context
 *
 context
-TextureType
+TextureTarget
 targetPacked
 GLint
 level

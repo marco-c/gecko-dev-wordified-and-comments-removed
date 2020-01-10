@@ -139,6 +139,14 @@ eglLabelObjectKHR
 77
 eglSetBlobCacheFuncsANDROID
 78
+eglQueryDisplayAttribANGLE
+79
+eglQueryStringiANGLE
+80
+eglGetNativeClientBufferANDROID
+81
+eglDupNativeFenceFDANDROID
+82
 ;
 1
 .

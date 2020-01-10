@@ -147,10 +147,6 @@ GL_FLOAT
 GLint
 CastMaskValue
 (
-const
-Context
-*
-context
 GLuint
 value
 )

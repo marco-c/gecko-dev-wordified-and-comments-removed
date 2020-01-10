@@ -120,7 +120,7 @@ deviceId
 )
 ;
 void
-FindPrimaryGPU
+FindActiveGPU
 (
 SystemInfo
 *

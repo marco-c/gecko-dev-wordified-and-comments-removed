@@ -140,11 +140,9 @@ h
 #
 include
 "
-third_party
+libANGLE
 /
-trace_event
-/
-trace_event
+trace
 .
 h
 "
@@ -3682,7 +3680,7 @@ Result
 Continue
 ;
 }
-TRACE_EVENT0
+ANGLE_TRACE_EVENT0
 (
 "
 gpu
@@ -7380,11 +7378,13 @@ if
 mRenderer
 -
 >
-getWorkarounds
+getFeatures
 (
 )
 .
 depthStencilBlitExtraCopy
+.
+enabled
 )
 {
 D3D11_MAPPED_SUBRESOURCE

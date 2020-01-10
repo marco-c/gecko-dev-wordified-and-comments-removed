@@ -77,11 +77,9 @@ h
 #
 include
 "
-third_party
+libANGLE
 /
-trace_event
-/
-trace_event
+trace
 .
 h
 "
@@ -442,7 +440,7 @@ Result
 Continue
 ;
 }
-TRACE_EVENT0
+ANGLE_TRACE_EVENT0
 (
 "
 gpu
@@ -1026,7 +1024,7 @@ result
 S_OK
 ;
 {
-TRACE_EVENT0
+ANGLE_TRACE_EVENT0
 (
 "
 gpu

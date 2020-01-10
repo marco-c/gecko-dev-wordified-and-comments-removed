@@ -83,6 +83,7 @@ varyingIn
 interpolationIn
 "
 "
+false
 )
 {
 }
@@ -107,6 +108,8 @@ std
 string
 &
 parentStructNameIn
+GLuint
+fieldIndexIn
 )
 :
 varying
@@ -129,6 +132,10 @@ parentStructNameIn
 arrayIndex
 (
 GL_INVALID_INDEX
+)
+fieldIndex
+(
+fieldIndexIn
 )
 {
 }
@@ -258,6 +265,9 @@ parentStructName
 ;
 GLuint
 arrayIndex
+;
+GLuint
+fieldIndex
 ;
 }
 ;
@@ -672,7 +682,11 @@ getInactiveVaryingNames
 (
 )
 const
+{
+return
+mInactiveVaryingNames
 ;
+}
 private
 :
 bool

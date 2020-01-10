@@ -456,6 +456,12 @@ pixelData
 )
 override
 ;
+void
+invalidateTextures
+(
+)
+override
+;
 virtual
 angle
 :
