@@ -47,6 +47,10 @@ position
 :
 fixed
 ;
+display
+:
+block
+;
 "
 /
 >
