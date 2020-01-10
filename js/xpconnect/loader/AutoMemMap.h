@@ -136,7 +136,7 @@ prot
 =
 PR_PROT_READONLY
 size_t
-expectedSize
+maybeSize
 =
 0
 )
@@ -297,10 +297,8 @@ initInternal
 (
 PRFileMapProtect
 prot
-=
-PR_PROT_READONLY
 size_t
-expectedSize
+maybeSize
 =
 0
 )
