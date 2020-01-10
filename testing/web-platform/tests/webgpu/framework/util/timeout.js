@@ -1,0 +1,17 @@
+export
+const
+timeout
+=
+typeof
+step_timeout
+!
+=
+=
+'
+undefined
+'
+?
+step_timeout
+:
+setTimeout
+;

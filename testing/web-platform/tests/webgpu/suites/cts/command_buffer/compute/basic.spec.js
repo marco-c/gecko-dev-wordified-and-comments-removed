@@ -472,8 +472,6 @@ device
 .
 createCommandEncoder
 (
-{
-}
 )
 ;
 const
