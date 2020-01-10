@@ -138,6 +138,7 @@ namespace
 gmp
 {
 intr
+refcounted
 protocol
 PGMPVideoDecoder
 {

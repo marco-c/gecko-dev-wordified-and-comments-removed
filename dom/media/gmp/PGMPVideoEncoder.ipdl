@@ -153,6 +153,7 @@ namespace
 gmp
 {
 intr
+refcounted
 protocol
 PGMPVideoEncoder
 {
