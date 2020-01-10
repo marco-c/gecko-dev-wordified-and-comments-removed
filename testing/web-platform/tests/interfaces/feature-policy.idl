@@ -59,9 +59,6 @@ feature
 policy
 /
 )
-[
-NoInterfaceObject
-]
 interface
 FeaturePolicy
 {
