@@ -6097,6 +6097,9 @@ nsScriptError
 data
 -
 >
+nsIScriptError
+:
+:
 InitWithWindowID
 (
 bestMessage
