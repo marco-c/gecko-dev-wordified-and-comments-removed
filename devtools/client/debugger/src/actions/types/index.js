@@ -424,9 +424,9 @@ mainThread
 :
 Thread
 +
-traits
+canRewind
 :
-Object
+boolean
 +
 isWebExtension
 :
