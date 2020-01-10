@@ -2628,11 +2628,6 @@ copyDown
 srcByteOffset
 <
 dstByteOffset
-&
-&
-dstByteOffset
-<
-highestSrcOffset
 ;
 if
 (
@@ -3688,11 +3683,6 @@ copyDown
 srcOffset
 <
 dstOffset
-&
-&
-dstOffset
-<
-highestSrcOffset
 ;
 if
 (
