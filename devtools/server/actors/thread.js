@@ -6889,6 +6889,9 @@ PauseScopedObjectActor
 (
 value
 {
+thread
+:
+this
 getGripDepth
 :
 (
