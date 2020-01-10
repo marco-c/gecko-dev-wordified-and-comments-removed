@@ -3715,6 +3715,16 @@ BrowserParent
 aBrowserParent
 )
 ;
+public
+:
+static
+void
+PopFocusAll
+(
+)
+;
+private
+:
 TabId
 mTabId
 ;

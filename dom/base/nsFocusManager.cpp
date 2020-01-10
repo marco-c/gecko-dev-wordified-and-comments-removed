@@ -3550,6 +3550,13 @@ XRE_IsParentProcess
 )
 )
 {
+BrowserParent
+:
+:
+PopFocusAll
+(
+)
+;
 ActivateOrDeactivate
 (
 window
