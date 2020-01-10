@@ -21701,6 +21701,12 @@ aState
 PAN_MOMENTUM
 |
 |
+aState
+=
+=
+TOUCHING
+|
+|
 IsPanningState
 (
 aState
