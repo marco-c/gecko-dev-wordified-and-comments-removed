@@ -105,7 +105,8 @@ settings
 from
 )
 '
-Value
+From
+value
 "
 '
 +
@@ -139,7 +140,8 @@ settings
 to
 )
 '
-Value
+To
+value
 "
 '
 +
@@ -276,7 +278,8 @@ property
 expectation
 )
 '
-Value
+Expectation
+value
 "
 '
 +
@@ -610,7 +613,7 @@ expectatFrom
 0
 0
 .
-125
+4
 ]
 .
 map
@@ -641,7 +644,7 @@ expectatTo
 [
 0
 .
-875
+6
 1
 2
 ]
