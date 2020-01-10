@@ -244,9 +244,6 @@ CustomEvent
 Directory
 "
 "
-DOMError
-"
-"
 DOMException
 "
 "

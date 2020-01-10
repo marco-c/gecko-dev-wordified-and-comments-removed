@@ -889,11 +889,6 @@ DocumentType
 h
 '
 '
-DOMError
-.
-h
-'
-'
 DOMException
 .
 h
@@ -1462,11 +1457,6 @@ cpp
 '
 '
 DocumentType
-.
-cpp
-'
-'
-DOMError
 .
 cpp
 '

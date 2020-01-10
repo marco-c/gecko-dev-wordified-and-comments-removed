@@ -1651,16 +1651,6 @@ true
 name
 :
 "
-DOMError
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 DOMException
 "
 insecureContext

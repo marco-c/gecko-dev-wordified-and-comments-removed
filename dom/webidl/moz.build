@@ -3152,11 +3152,6 @@ DocumentType
 webidl
 '
 '
-DOMError
-.
-webidl
-'
-'
 DOMException
 .
 webidl
