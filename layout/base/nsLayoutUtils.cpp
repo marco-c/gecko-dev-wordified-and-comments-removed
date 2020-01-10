@@ -8582,7 +8582,7 @@ c1
 c1
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 )
@@ -8640,7 +8640,7 @@ c2
 c2
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 )
@@ -8809,7 +8809,7 @@ parent
 content1Ancestor
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 ;

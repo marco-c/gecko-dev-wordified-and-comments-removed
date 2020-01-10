@@ -3665,7 +3665,7 @@ aNode
 aNode
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 :

@@ -49657,7 +49657,7 @@ temp
 temp
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 ;
@@ -49790,7 +49790,7 @@ temp
 temp
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 ;

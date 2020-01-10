@@ -22520,7 +22520,7 @@ ancestor
 ancestor
 -
 >
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 ;

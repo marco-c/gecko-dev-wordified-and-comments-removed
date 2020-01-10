@@ -2590,7 +2590,7 @@ mParent
 }
 nsINode
 *
-GetParentOrHostNode
+GetParentOrShadowHostNode
 (
 )
 const
