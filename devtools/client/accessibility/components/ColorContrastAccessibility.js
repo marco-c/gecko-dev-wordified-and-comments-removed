@@ -673,7 +673,9 @@ className
 "
 accessibility
 -
-check
+color
+-
+contrast
 -
 annotation
 "
@@ -766,6 +768,10 @@ className
 "
 accessibility
 -
+color
+-
+contrast
+-
 check
 "
 }
@@ -777,7 +783,9 @@ className
 "
 accessibility
 -
-check
+color
+-
+contrast
 -
 header
 "
