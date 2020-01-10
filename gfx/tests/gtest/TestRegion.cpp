@@ -48,10 +48,6 @@ h
 "
 using
 namespace
-std
-;
-using
-namespace
 mozilla
 :
 :
@@ -10508,6 +10504,9 @@ for
 int
 yn
 =
+std
+:
+:
 max
 (
 y
@@ -10519,6 +10518,9 @@ y
 yn
 <
 =
+std
+:
+:
 min
 (
 y
@@ -10539,6 +10541,9 @@ for
 int
 xn
 =
+std
+:
+:
 max
 (
 x
@@ -10550,6 +10555,9 @@ x
 xn
 <
 =
+std
+:
+:
 min
 (
 x
