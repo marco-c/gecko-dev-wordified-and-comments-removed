@@ -2336,8 +2336,8 @@ PrincipalInfo
 (
 )
 mPrivateBrowsingId
-aKey
 aDocumentURI
+aKey
 aOldValue
 aNewValue
 )
