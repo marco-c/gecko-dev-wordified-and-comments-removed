@@ -3200,6 +3200,12 @@ mState
 =
 ERRORED
 ;
+mDataSource
+.
+Errored
+(
+)
+;
 }
 }
 AudioClock

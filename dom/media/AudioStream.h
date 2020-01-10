@@ -701,6 +701,14 @@ Drained
 =
 0
 ;
+virtual
+void
+Errored
+(
+)
+=
+0
+;
 protected
 :
 virtual
