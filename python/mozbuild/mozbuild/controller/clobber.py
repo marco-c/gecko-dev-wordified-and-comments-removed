@@ -1002,15 +1002,6 @@ paths
 self
 .
 topobjdir
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 ]
         
 else
