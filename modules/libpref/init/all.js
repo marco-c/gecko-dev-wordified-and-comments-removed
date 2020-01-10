@@ -18813,7 +18813,6 @@ downloads
 home
 newtab
 plugins
-profiles
 preferences
 restartrequired
 serviceworkers
