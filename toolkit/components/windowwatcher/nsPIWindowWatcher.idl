@@ -144,9 +144,6 @@ interface
 mozIDOMWindowProxy
 ;
 interface
-nsIDOMWindow
-;
-interface
 nsISimpleEnumerator
 ;
 interface
@@ -454,10 +451,10 @@ dialog
 defaults
 (
 see
-nsIDOMWindow
+nsGlobalWindowOuter
 :
 :
-openDialog
+OpenInternal
 )
 param
 aNavigate

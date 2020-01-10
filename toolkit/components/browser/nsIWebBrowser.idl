@@ -106,9 +106,6 @@ interface
 nsIURIContentListener
 ;
 interface
-nsIDOMWindow
-;
-interface
 mozIDOMWindowProxy
 ;
 interface
@@ -532,10 +529,6 @@ from
 this
 value
 .
-*
-*
-see
-nsIDOMWindow
 *
 /
 readonly

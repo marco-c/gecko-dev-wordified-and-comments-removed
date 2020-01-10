@@ -99,9 +99,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMWindow
-;
-interface
 nsIRequest
 ;
 interface

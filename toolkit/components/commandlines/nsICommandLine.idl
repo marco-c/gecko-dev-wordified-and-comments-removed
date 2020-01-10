@@ -69,9 +69,6 @@ nsIFile
 interface
 nsIURI
 ;
-interface
-nsIDOMWindow
-;
 /
 *
 *

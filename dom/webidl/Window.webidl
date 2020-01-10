@@ -2964,10 +2964,10 @@ scriptable
 version
 of
 *
-nsIDOMWindow
+nsPIDOMWindow
 :
 :
-openDialog
+OpenDialog
 (
 )
 that
