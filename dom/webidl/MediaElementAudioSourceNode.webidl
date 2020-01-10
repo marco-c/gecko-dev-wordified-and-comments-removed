@@ -173,6 +173,11 @@ MediaElementAudioSourceNode
 :
 AudioNode
 {
+readonly
+attribute
+HTMLMediaElement
+mediaElement
+;
 }
 ;
 /
