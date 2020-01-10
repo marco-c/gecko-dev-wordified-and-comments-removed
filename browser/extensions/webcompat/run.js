@@ -10,6 +10,7 @@ new
 Injections
 (
 AVAILABLE_INJECTIONS
+CUSTOM_FUNCTIONS
 )
 ;
 const
