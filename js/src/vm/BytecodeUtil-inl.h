@@ -59,6 +59,9 @@ JSOP_OR
 case
 JSOP_AND
 :
+case
+JSOP_COALESCE
+:
 return
 1
 ;
