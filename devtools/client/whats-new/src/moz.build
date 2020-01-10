@@ -56,11 +56,6 @@ MPL
 DevToolsModules
 (
 '
-base
-.
-css
-'
-'
 main
 .
 js
