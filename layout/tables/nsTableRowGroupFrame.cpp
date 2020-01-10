@@ -1714,14 +1714,6 @@ tableFrame
 IsGeometryDirty
 (
 )
-|
-|
-tableFrame
--
->
-NeedToCollapse
-(
-)
 ;
 bool
 needToCalcRowBSizes
