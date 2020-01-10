@@ -19284,7 +19284,6 @@ about_uris_without_csp
 blank
 printpreview
 srcdoc
-addons
 config
 downloads
 preferences
