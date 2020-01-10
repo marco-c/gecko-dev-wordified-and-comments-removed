@@ -79,6 +79,17 @@ Collator
 h
 "
 #
+include
+"
+builtin
+/
+intl
+/
+DateTimeFormat
+.
+h
+"
+#
 endif
 #
 include
