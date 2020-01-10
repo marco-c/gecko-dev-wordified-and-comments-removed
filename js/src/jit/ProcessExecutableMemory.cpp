@@ -1417,6 +1417,14 @@ ComputeRandomAllocationAddress
 (
 )
 {
+#
+ifdef
+__OpenBSD__
+return
+nullptr
+;
+#
+else
 uint64_t
 rand
 =
@@ -1483,6 +1491,8 @@ rand
 mask
 )
 ;
+#
+endif
 }
 static
 void
