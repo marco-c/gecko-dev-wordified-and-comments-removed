@@ -42,9 +42,9 @@ aRootDir
 void
 Init
 (
-nsISupports
+nsIGlobalObject
 *
-aParent
+aGlobal
 )
 ;
 virtual
@@ -81,7 +81,7 @@ false
 ;
 }
 virtual
-nsISupports
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -150,9 +150,9 @@ OSFileSystem
 }
 nsCOMPtr
 <
-nsISupports
+nsIGlobalObject
 >
-mParent
+mGlobal
 ;
 }
 ;
@@ -216,7 +216,7 @@ false
 ;
 }
 virtual
-nsISupports
+nsIGlobalObject
 *
 GetParentObject
 (

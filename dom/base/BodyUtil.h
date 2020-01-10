@@ -102,7 +102,7 @@ Blob
 >
 ConsumeBlob
 (
-nsISupports
+nsIGlobalObject
 *
 aParent
 const

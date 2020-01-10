@@ -10223,6 +10223,11 @@ Directory
 Create
 (
 window
+-
+>
+AsGlobal
+(
+)
 file
 )
 ;
@@ -28226,6 +28231,11 @@ File
 Create
 (
 aWindow
+-
+>
+AsGlobal
+(
+)
 it
 .
 get_BlobImpl
@@ -28324,6 +28334,11 @@ Directory
 Create
 (
 aWindow
+-
+>
+AsGlobal
+(
+)
 file
 )
 ;

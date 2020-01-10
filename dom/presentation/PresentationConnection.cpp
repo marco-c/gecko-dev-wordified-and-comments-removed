@@ -2607,7 +2607,7 @@ Blob
 :
 CreateStringBlob
 (
-GetOwner
+GetOwnerGlobal
 (
 )
 aData

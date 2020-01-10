@@ -116,9 +116,9 @@ Directory
 >
 Create
 (
-nsISupports
+nsIGlobalObject
 *
-aParent
+aGlobal
 nsIFile
 *
 aDirectory
@@ -129,7 +129,7 @@ aFileSystem
 0
 )
 ;
-nsISupports
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -243,9 +243,9 @@ private
 :
 Directory
 (
-nsISupports
+nsIGlobalObject
 *
-aParent
+aGlobal
 nsIFile
 *
 aFile
@@ -277,9 +277,9 @@ const
 ;
 nsCOMPtr
 <
-nsISupports
+nsIGlobalObject
 >
-mParent
+mGlobal
 ;
 RefPtr
 <
