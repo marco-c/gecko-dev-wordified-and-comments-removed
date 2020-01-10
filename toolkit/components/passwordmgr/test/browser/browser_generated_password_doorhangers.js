@@ -894,7 +894,7 @@ getCaptureDoorhanger
 "
 password
 -
-save
+change
 "
 )
 ;
