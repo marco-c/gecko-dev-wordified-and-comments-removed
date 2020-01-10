@@ -2868,6 +2868,13 @@ loginFillInfo
 =
 LoginManagerContent
 .
+forWindow
+(
+doc
+.
+defaultView
+)
+.
 getFieldContext
 (
 aEvent

@@ -30,8 +30,6 @@ jsm
 const
 {
 LoginManagerParent
-:
-LMP
 }
 =
 ChromeUtils
@@ -91,6 +89,14 @@ generation
 enabled
 "
 true
+)
+;
+let
+LMP
+=
+new
+LoginManagerParent
+(
 )
 ;
 ok
@@ -225,7 +231,7 @@ sinon
 .
 stub
 (
-LMP
+LoginManagerParent
 .
 _browsingContextGlobal
 "

@@ -40,8 +40,6 @@ this
 const
 {
 LoginManagerParent
-:
-LMP
 }
 =
 ChromeUtils

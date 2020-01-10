@@ -764,6 +764,10 @@ formOrigin
 {
 LoginManagerParent
 .
+getLoginManagerParent
+(
+)
+.
 fillForm
 (
 {

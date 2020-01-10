@@ -794,7 +794,10 @@ Set
 let
 actual
 =
+new
 LoginManagerContent
+(
+)
 .
 getUserNameAndPasswordFields
 (

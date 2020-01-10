@@ -433,6 +433,11 @@ addedLogin
 ;
 LoginManagerContent
 .
+forWindow
+(
+content
+)
+.
 _fillForm
 (
 formLike
