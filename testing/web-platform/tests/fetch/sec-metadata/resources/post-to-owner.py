@@ -11,6 +11,7 @@ response
 headers
 =
 [
+        
 (
 "
 Content
@@ -23,6 +24,26 @@ text
 html
 "
 )
+        
+(
+"
+Cache
+-
+Control
+"
+"
+no
+-
+cache
+no
+-
+store
+must
+-
+revalidate
+"
+)
+    
 ]
     
 body
