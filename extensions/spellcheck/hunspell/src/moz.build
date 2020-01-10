@@ -130,6 +130,14 @@ suggestmgr
 cxx
 '
 ]
+DEFINES
+[
+'
+HUNSPELL_STATIC
+'
+]
+=
+True
 FINAL_LIBRARY
 =
 '

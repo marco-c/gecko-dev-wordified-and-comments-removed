@@ -110,6 +110,14 @@ RemoteSpellCheckEngineParent
 cpp
 '
 ]
+DEFINES
+[
+'
+HUNSPELL_STATIC
+'
+]
+=
+True
 FINAL_LIBRARY
 =
 '
