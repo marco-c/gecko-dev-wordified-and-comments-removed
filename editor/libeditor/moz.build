@@ -211,6 +211,11 @@ TextEditRules
 .
 h
 '
+'
+TypeInState
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
