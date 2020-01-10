@@ -577,6 +577,11 @@ display
 {
 id
 }
+index
+:
+number
+=
+0
 )
 :
 Frame
@@ -612,6 +617,7 @@ this
 :
 {
 }
+index
 }
 ;
 }
