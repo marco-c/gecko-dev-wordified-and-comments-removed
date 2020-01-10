@@ -409,6 +409,12 @@ GetUserTrimmingPolicy
 )
 ;
 static
+uint32_t
+GetUserXOriginTrimmingPolicy
+(
+)
+;
+static
 ReferrerPolicyEnum
 GetDefaultReferrerPolicy
 (
