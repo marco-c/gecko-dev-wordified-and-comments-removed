@@ -2096,6 +2096,7 @@ File
 APPLICATION_XJAVASCRIPT
 "
 jsm
+mjs
 "
 "
 Javascript
