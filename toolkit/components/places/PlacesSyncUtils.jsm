@@ -142,11 +142,6 @@ MICROSECONDS_PER_SECOND
 1000000
 ;
 const
-SQLITE_MAX_VARIABLE_NUMBER
-=
-999
-;
-const
 MOBILE_BOOKMARKS_PREF
 =
 "
@@ -859,7 +854,9 @@ PlacesUtils
 chunkArray
 (
 guids
-SQLITE_MAX_VARIABLE_NUMBER
+db
+.
+variableLimit
 )
 )
 {
