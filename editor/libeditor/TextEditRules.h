@@ -391,13 +391,6 @@ bool
 aHandled
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
-DidDeleteSelection
-(
-)
-;
 nsresult
 WillSetTextProperty
 (
