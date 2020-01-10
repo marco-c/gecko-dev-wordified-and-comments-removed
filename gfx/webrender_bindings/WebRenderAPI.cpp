@@ -506,6 +506,12 @@ nullptr
 compositor
 -
 >
+GetMaxUpdateRects
+(
+)
+compositor
+-
+>
 GetMaxPartialPresentRects
 (
 )

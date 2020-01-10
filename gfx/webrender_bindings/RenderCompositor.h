@@ -292,6 +292,16 @@ false
 ;
 }
 virtual
+uint32_t
+GetMaxUpdateRects
+(
+)
+{
+return
+0
+;
+}
+virtual
 void
 CompositorBeginFrame
 (

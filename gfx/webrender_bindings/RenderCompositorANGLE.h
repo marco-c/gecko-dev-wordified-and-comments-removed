@@ -277,6 +277,12 @@ ShouldUseNativeCompositor
 )
 override
 ;
+uint32_t
+GetMaxUpdateRects
+(
+)
+override
+;
 void
 CompositorBeginFrame
 (

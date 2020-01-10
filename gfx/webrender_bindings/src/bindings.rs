@@ -6289,6 +6289,9 @@ compositor
 *
 mut
 c_void
+max_update_rects
+:
+usize
 max_partial_present_rects
 :
 usize
@@ -6672,8 +6675,6 @@ CompositorConfig
 Native
 {
 max_update_rects
-:
-0
 compositor
 :
 Box
