@@ -227,7 +227,7 @@ Content
 Type
 "
 "
-picture
+image
 /
 png
 "
@@ -235,12 +235,11 @@ png
 ;
 /
 /
-Try
-Browser
-to
-force
-sniffing
-.
+Send
+a
+wrong
+mime
+type
 response
 .
 write
