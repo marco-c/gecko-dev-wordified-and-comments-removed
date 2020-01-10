@@ -2642,6 +2642,11 @@ aFlags
 )
 ;
 void
+UpdateSrcStreamPotentiallyPlaying
+(
+)
+;
+void
 UpdateSrcStreamTime
 (
 )
