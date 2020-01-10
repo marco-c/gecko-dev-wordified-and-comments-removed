@@ -65601,12 +65601,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
-"
-geckoview
-"
 ]
 "
 alert_emails
@@ -65638,7 +65632,7 @@ expires_in_version
 "
 :
 "
-72
+76
 "
 "
 kind
@@ -65715,12 +65709,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
-"
-geckoview
-"
 ]
 "
 alert_emails
@@ -65752,7 +65740,7 @@ expires_in_version
 "
 :
 "
-72
+76
 "
 "
 kind
