@@ -576,6 +576,12 @@ vtune
 /
 legacy
 /
+js
+/
+src
+/
+zydis
+/
 media
 /
 ffvpx
