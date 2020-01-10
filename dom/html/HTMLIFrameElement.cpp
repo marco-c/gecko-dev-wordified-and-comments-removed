@@ -376,7 +376,7 @@ marginwidth
 return
 aResult
 .
-ParseSpecialIntValue
+ParseNonNegativeIntValue
 (
 aValue
 )
@@ -396,7 +396,7 @@ marginheight
 return
 aResult
 .
-ParseSpecialIntValue
+ParseNonNegativeIntValue
 (
 aValue
 )
