@@ -112,6 +112,9 @@ DIRS
 '
 build
 '
+'
+fallible
+'
 ]
 #
 For
