@@ -1269,7 +1269,7 @@ if
 StaticPrefs
 :
 :
-GLAllowHighPower
+gl_allow_high_power
 (
 )
 )
@@ -1352,7 +1352,7 @@ if
 StaticPrefs
 :
 :
-RequireHardwareGL
+gl_require_hardware
 (
 )
 )
@@ -1487,7 +1487,7 @@ if
 StaticPrefs
 :
 :
-GLMultithreaded
+gl_multithreaded
 (
 )
 )
