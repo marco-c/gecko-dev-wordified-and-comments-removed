@@ -2119,7 +2119,7 @@ setup
 -
 job
 :
-results_edge
+results_edge_dev
 displayName
 :
 '
@@ -2167,7 +2167,7 @@ Manual
 variables
 [
 '
-run_all_edge
+run_all_edge_dev
 '
 ]
 )
@@ -2468,6 +2468,8 @@ artifactName
 '
 edge
 -
+dev
+-
 results
 '
 -
@@ -2498,10 +2500,12 @@ parameters
 :
 dependsOn
 :
-results_edge
+results_edge_dev
 artifactName
 :
 edge
+-
+dev
 -
 results
 -
@@ -2555,7 +2559,7 @@ Manual
 variables
 [
 '
-run_all_edge
+run_all_edge_canary
 '
 ]
 )
