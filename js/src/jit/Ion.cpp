@@ -1046,10 +1046,6 @@ doubleToInt32ValueStubOffset_
 debugTrapHandlers_
 (
 )
-baselineDebugModeOSRHandler_
-(
-nullptr
-)
 baselineInterpreter_
 (
 )
