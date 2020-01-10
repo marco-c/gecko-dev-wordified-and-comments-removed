@@ -292,6 +292,8 @@ gc
 GCRuntime
 &
 gc
+JSGCInvocationKind
+invocationKind
 const
 js
 :
