@@ -579,14 +579,13 @@ _TPSwitchCommanding
 true
 ;
 let
-currentlyEnabled
+newExceptionState
 =
-!
 this
 .
 _protectionsPopup
 .
-hasAttribute
+toggleAttribute
 (
 "
 hasException
@@ -603,7 +602,7 @@ toggleAttribute
 enabled
 "
 !
-currentlyEnabled
+newExceptionState
 )
 ;
 await
@@ -624,7 +623,7 @@ resolve
 ;
 if
 (
-currentlyEnabled
+newExceptionState
 )
 {
 ContentBlocking
