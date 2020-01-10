@@ -580,7 +580,7 @@ subject
 instanceof
 Ci
 .
-nsIXULWindow
+nsIAppWindow
 )
 {
 subject

@@ -267,7 +267,7 @@ win
 =
 context
 .
-xulWindow
+appWindow
 ;
 await
 openDelay

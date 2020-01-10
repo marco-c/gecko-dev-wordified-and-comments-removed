@@ -214,7 +214,7 @@ h
 #
 include
 "
-nsIXULWindow
+nsIAppWindow
 .
 h
 "
@@ -4522,7 +4522,7 @@ modal
 event
 loop
 in
-nsXULWindow
+AppWindow
 :
 :
 /
@@ -11188,7 +11188,7 @@ mWidgetListener
 mWidgetListener
 -
 >
-GetXULWindow
+GetAppWindow
 (
 )
 )

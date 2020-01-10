@@ -127,6 +127,11 @@ nsIAppShellService
 idl
 '
 '
+nsIAppWindow
+.
+idl
+'
+'
 nsIWindowlessBrowser
 .
 idl
@@ -143,11 +148,6 @@ idl
 '
 '
 nsIXULBrowserWindow
-.
-idl
-'
-'
-nsIXULWindow
 .
 idl
 '
@@ -177,6 +177,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AppWindow
+.
+cpp
+'
+'
 nsAppShellService
 .
 cpp
@@ -198,11 +203,6 @@ cpp
 '
 '
 nsWindowMediator
-.
-cpp
-'
-'
-nsXULWindow
 .
 cpp
 '

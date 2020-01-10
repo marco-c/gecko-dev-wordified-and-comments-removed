@@ -3928,7 +3928,7 @@ getInterface
 (
 Ci
 .
-nsIXULWindow
+nsIAppWindow
 )
 .
 XULBrowserWindow
