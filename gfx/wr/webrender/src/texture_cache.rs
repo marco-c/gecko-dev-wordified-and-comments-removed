@@ -2776,11 +2776,9 @@ self
 >
 bool
 {
-return
 self
 .
 require_frame_build
-;
 }
 pub
 fn

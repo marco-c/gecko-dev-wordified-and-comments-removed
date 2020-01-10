@@ -134,7 +134,6 @@ T
 >
 bool
 {
-return
 ptr
 as
 *
@@ -145,7 +144,6 @@ usize
 <
 =
 256
-;
 }
 pub
 unsafe

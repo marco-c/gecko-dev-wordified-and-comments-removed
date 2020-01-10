@@ -185,7 +185,6 @@ default
 >
 Self
 {
-return
 AsyncScreenshotGrabber
 {
 scaling_textures
@@ -222,7 +221,6 @@ AsyncScreenshotGrabberMode
 :
 ProfilerScreenshots
 }
-;
 }
 }
 impl
