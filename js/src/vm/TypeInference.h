@@ -579,7 +579,6 @@ Kind
 {
 SETPROP
 SETPROP_FRAME
-DONE
 }
 kind
 ;
