@@ -1857,6 +1857,11 @@ endTime
 -
 aHangTime
 ;
+AUTO_PROFILER_STATS
+(
+add_marker_with_HangMarkerPayload
+)
+;
 profiler_add_marker_for_thread
 (
 mStackHelper
