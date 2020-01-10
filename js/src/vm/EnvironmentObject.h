@@ -2570,6 +2570,17 @@ JSContext
 cx
 )
 ;
+extern
+Scope
+*
+GetEnvironmentScope
+(
+const
+JSObject
+&
+env
+)
+;
 class
 DebugEnvironmentProxy
 :
