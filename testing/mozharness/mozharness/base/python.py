@@ -2394,7 +2394,7 @@ virtualenv_options
 if
 self
 .
-_is_redhat
+_is_redhat_based
 (
 )
 :
