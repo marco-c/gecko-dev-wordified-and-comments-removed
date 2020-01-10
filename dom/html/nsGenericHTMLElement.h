@@ -3518,7 +3518,7 @@ override
 ;
 protected
 :
-nsresult
+void
 GenerateStateKey
 (
 )

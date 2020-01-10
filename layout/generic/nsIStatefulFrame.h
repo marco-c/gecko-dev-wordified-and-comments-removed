@@ -64,7 +64,8 @@ aState
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 GenerateStateKey
 (
 nsIContent
@@ -84,7 +85,6 @@ nsACString
 aKey
 )
 {
-return
 nsContentUtils
 :
 :
