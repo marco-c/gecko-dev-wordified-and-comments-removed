@@ -3126,16 +3126,6 @@ bool
 aForceSetNewDocument
 )
 {
-if
-(
-mIsPageMode
-)
-{
-aForceSetNewDocument
-=
-false
-;
-}
 nsAutoScriptBlocker
 blockScripts
 ;
@@ -16280,6 +16270,7 @@ nullptr
 nullptr
 mBounds
 true
+false
 false
 )
 NS_ERROR_FAILURE

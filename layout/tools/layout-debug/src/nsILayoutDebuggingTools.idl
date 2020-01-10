@@ -234,6 +234,14 @@ boolean
 enabled
 )
 ;
+void
+setPagedMode
+(
+in
+boolean
+enabled
+)
+;
 /
 *
 Run
