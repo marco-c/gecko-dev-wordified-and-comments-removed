@@ -203,8 +203,8 @@ nsACString
 aBuf
 )
 ;
-bool
-CheckCompatVersions
+int32_t
+CompareCompatVersions
 (
 const
 nsACString
@@ -214,9 +214,6 @@ const
 nsACString
 &
 aNewCompatVersion
-bool
-*
-aIsDowngrade
 )
 ;
 nsresult
