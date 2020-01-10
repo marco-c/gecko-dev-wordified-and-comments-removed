@@ -4991,7 +4991,13 @@ runnable
 =
 WrapRunnable
 (
+RefPtr
+<
+MediaStreamGraphImpl
+>
+(
 this
+)
 &
 MediaStreamGraphImpl
 :
