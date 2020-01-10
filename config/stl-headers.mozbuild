@@ -248,6 +248,9 @@ climits
 cmath
 '
 '
+condition_variable
+'
+'
 cstdarg
 '
 '
@@ -296,6 +299,9 @@ map
 memory
 '
 '
+mutex
+'
+'
 ostream
 '
 '
@@ -303,6 +309,9 @@ regex
 '
 '
 set
+'
+'
+shared_mutex
 '
 '
 stack
