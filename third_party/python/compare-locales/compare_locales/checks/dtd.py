@@ -691,6 +691,27 @@ entities
 "
 "
         
+for
+encoding_trouble
+in
+super
+(
+            
+DTDChecker
+self
+        
+)
+.
+check
+(
+refEnt
+l10nEnt
+)
+:
+            
+yield
+encoding_trouble
+        
 refValue
 l10nValue
 =

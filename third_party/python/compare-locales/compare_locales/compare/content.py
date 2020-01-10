@@ -35,6 +35,7 @@ compare_locales
 checks
 import
 getChecker
+EntityPos
 from
 compare_locales
 .
@@ -1366,6 +1367,27 @@ l10nent
 )
 :
                         
+if
+isinstance
+(
+pos
+EntityPos
+)
+:
+                            
+line
+col
+=
+l10nent
+.
+position
+(
+pos
+)
+                        
+else
+:
+                            
 line
 col
 =

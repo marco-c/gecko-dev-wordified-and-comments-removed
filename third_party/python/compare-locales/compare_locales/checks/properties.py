@@ -242,6 +242,27 @@ formats
 '
 '
         
+for
+encoding_trouble
+in
+super
+(
+            
+PropertiesChecker
+self
+        
+)
+.
+check
+(
+refEnt
+l10nEnt
+)
+:
+            
+yield
+encoding_trouble
+        
 refValue
 l10nValue
 =
