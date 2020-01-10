@@ -203,14 +203,6 @@ UnifiedComplete
 )
 )
 ;
-const
-TITLE_TAGS_SEPARATOR
-=
-"
-\
-u2013
-"
-;
 class
 ProviderUnifiedComplete
 extends
@@ -1710,6 +1702,8 @@ comment
 .
 split
 (
+UrlbarUtils
+.
 TITLE_TAGS_SEPARATOR
 )
 ;

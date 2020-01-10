@@ -29,14 +29,6 @@ QUERYTYPE_ADAPTIVE
 3
 ;
 const
-TITLE_TAGS_SEPARATOR
-=
-"
-\
-u2013
-"
-;
-const
 TELEMETRY_1ST_RESULT
 =
 "
@@ -10320,6 +10312,8 @@ showTags
 title
 +
 =
+UrlbarUtils
+.
 TITLE_TAGS_SEPARATOR
 +
 tags

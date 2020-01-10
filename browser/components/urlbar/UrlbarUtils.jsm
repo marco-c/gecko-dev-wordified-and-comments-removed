@@ -302,6 +302,12 @@ SUGGESTED
 :
 2
 }
+TITLE_TAGS_SEPARATOR
+:
+"
+\
+x1F
+"
 addToUrlbarHistory
 (
 url
