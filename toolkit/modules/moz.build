@@ -1297,13 +1297,6 @@ CreditCard
 jsm
 '
 '
-css
--
-selector
-.
-js
-'
-'
 DateTimePickerPanel
 .
 jsm
