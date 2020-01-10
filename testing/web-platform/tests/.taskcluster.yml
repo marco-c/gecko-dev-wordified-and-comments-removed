@@ -1679,6 +1679,11 @@ HYPOTHESIS_PROFILE
 =
 ci
 ;
+export
+PY_COLORS
+=
+0
+;
 .
 /
 tools
@@ -1741,6 +1746,11 @@ export
 HYPOTHESIS_PROFILE
 =
 ci
+;
+export
+PY_COLORS
+=
+0
 ;
 sudo
 apt
