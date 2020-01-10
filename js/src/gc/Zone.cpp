@@ -3895,7 +3895,13 @@ use
 const
 {
 return
-false
+use
+=
+=
+MemoryUse
+:
+:
+RegExpSharedBytecode
 ;
 }
 void
