@@ -15850,6 +15850,15 @@ if
 IsMaybeScrollingActive
 (
 )
+&
+&
+!
+gfxVars
+:
+:
+UseWebRender
+(
+)
 )
 {
 if
