@@ -2542,16 +2542,6 @@ BigIntLiteral
 (
 )
 .
-box
-(
-)
--
->
-value
-(
-)
--
->
 isZero
 (
 )
