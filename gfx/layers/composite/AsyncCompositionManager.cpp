@@ -2958,6 +2958,12 @@ ServoAnimationValueToMatrix4x4
 (
 aValues
 transformData
+aLayer
+-
+>
+CachedMotionPath
+(
+)
 )
 ;
 Matrix4x4
@@ -3358,6 +3364,12 @@ ServoAnimationValueToMatrix4x4
 (
 animationValues
 transformData
+layer
+-
+>
+CachedMotionPath
+(
+)
 )
 ;
 Matrix4x4
