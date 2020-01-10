@@ -2787,6 +2787,17 @@ RECT
 aRequiredClip
 )
 ;
+void
+CreateCompositor
+(
+)
+override
+;
+void
+RequestFxrOutput
+(
+)
+;
 protected
 :
 nsCOMPtr
@@ -3146,6 +3157,9 @@ mPointerEvents
 ;
 ScreenPoint
 mLastPanGestureFocus
+;
+bool
+mRequestFxrOutputPending
 ;
 }
 ;

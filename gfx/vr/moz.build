@@ -206,6 +206,11 @@ VRPuppetCommandBuffer
 h
 '
 '
+VRShMem
+.
+h
+'
+'
 VRThread
 .
 h
