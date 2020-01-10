@@ -130,8 +130,6 @@ mkdir
 .
 cargo
 cargo
--
-vendor
 vendor
 -
 -
