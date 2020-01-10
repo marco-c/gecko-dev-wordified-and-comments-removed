@@ -5857,6 +5857,10 @@ friend
 class
 WSRunObject
 ;
+friend
+class
+WSRunScanner
+;
 }
 ;
 }
