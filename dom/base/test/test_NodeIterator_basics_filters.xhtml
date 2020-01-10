@@ -855,7 +855,7 @@ n
 )
 {
 var
-iterator
+iter
 =
 document
 .
@@ -875,7 +875,7 @@ n
 <
 0
 )
-iterator
+iter
 .
 detach
 (
@@ -898,7 +898,7 @@ n
 =
 0
 )
-iterator
+iter
 .
 nextNode
 (
@@ -906,7 +906,7 @@ nextNode
 ;
 try
 {
-iterator
+iter
 [
 method
 ]
@@ -1002,12 +1002,12 @@ id
 #
 c4
 var
-iterator
+iter
 =
 (
 function
 (
-filter
+filt
 )
 {
 var
@@ -1076,14 +1076,13 @@ grandparent
 NodeFilter
 .
 SHOW_ALL
-filter
+filt
 )
 ;
 }
 )
 (
 function
-filter
 (
 n
 )
@@ -1104,7 +1103,7 @@ NodeFilter
 .
 FILTER_ACCEPT
 ;
-iterator
+iter
 .
 detach
 (
@@ -1216,7 +1215,7 @@ FILTER_SKIP
 ;
 is
 (
-iterator
+iter
 .
 nextNode
 (
@@ -1227,7 +1226,7 @@ nodeName
 div
 "
 "
-iterator
+iter
 .
 nextNode
 (
@@ -1241,7 +1240,7 @@ node
 ;
 is
 (
-iterator
+iter
 .
 nextNode
 (
@@ -1252,7 +1251,7 @@ nodeName
 span
 "
 "
-iterator
+iter
 .
 nextNode
 (
@@ -1269,7 +1268,7 @@ try
 var
 p
 =
-iterator
+iter
 .
 nextNode
 (
@@ -1279,7 +1278,7 @@ ok
 (
 false
 "
-iterator
+iter
 .
 nextNode
 (

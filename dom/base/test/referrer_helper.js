@@ -491,7 +491,7 @@ j
 ACTION
 ;
 var
-tests
+subTests
 =
 testCases
 [
@@ -535,7 +535,7 @@ i
 ;
 i
 <
-tests
+subTests
 .
 length
 ;
@@ -574,7 +574,7 @@ append
 "
 NAME
 "
-tests
+subTests
 [
 i
 ]
@@ -592,7 +592,7 @@ PARAMS
 {
 if
 (
-tests
+subTests
 [
 i
 ]
@@ -606,7 +606,7 @@ searchParams
 append
 (
 l
-tests
+subTests
 [
 i
 ]
@@ -620,7 +620,7 @@ l
 var
 schemeFrom
 =
-tests
+subTests
 [
 i
 ]
@@ -650,19 +650,19 @@ toString
 yield
 checkIndividualResults
 (
-tests
+subTests
 [
 i
 ]
 .
 DESC
-tests
+subTests
 [
 i
 ]
 .
 RESULT
-tests
+subTests
 [
 i
 ]

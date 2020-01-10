@@ -205,7 +205,7 @@ initial
 }
 for
 (
-var
+let
 i
 =
 0
@@ -247,7 +247,7 @@ function
 {
 for
 (
-var
+let
 i
 =
 0
@@ -298,6 +298,7 @@ load
 }
 for
 (
+let
 i
 =
 0
@@ -378,7 +379,7 @@ style
 }
 for
 (
-var
+let
 i
 =
 0
@@ -438,6 +439,7 @@ undefined
 }
 for
 (
+let
 i
 =
 0
