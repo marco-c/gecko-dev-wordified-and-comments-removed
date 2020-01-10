@@ -1614,20 +1614,6 @@ push
 '
 :
 push
-                        
-'
-parameters
-'
-:
-{
-'
-eval
-'
-:
-'
-parameters
-'
-}
                     
 }
                     
@@ -1899,25 +1885,6 @@ version
 '
 :
 1
-        
-'
-variables
-'
-:
-{
-            
-'
-parameters
-'
-:
-dict
-(
-*
-*
-parameters
-)
-        
-}
         
 '
 actions
