@@ -744,6 +744,11 @@ param
 :
 "
 "
+option
+:
+"
+noopener
+"
 }
 finalizeFn
 (
