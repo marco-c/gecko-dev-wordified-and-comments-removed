@@ -944,6 +944,15 @@ shadow
 )
 ;
 }
+html
+|
+input
+{
+margin
+:
+4px
+;
+}
 notification
 >
 hbox

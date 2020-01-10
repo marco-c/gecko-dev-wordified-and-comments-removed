@@ -493,6 +493,15 @@ nowrap
 }
 html
 |
+input
+{
+margin
+:
+revert
+;
+}
+html
+|
 button
 html
 |
