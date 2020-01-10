@@ -273,6 +273,23 @@ options
 )
 :
         
+env
+=
+os
+.
+environ
+        
+env
+[
+'
+CCACHE_DISABLE
+'
+]
+=
+'
+1
+'
+        
 cmd
 =
 "
@@ -344,6 +361,9 @@ sixgill_plugin
 options
 =
 options
+env
+=
+env
 )
         
 if
