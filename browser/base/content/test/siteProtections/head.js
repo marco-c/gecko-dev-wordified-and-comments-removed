@@ -51,7 +51,7 @@ synthesizeMouseAtCenter
 (
 identityBox
 {
-metaKey
+altKey
 :
 true
 }
