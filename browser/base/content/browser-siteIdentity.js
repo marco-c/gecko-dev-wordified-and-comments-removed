@@ -6825,13 +6825,6 @@ class
 popup
 -
 subitem
-identity
--
-popup
--
-permission
--
-icon
 "
 )
 ;
