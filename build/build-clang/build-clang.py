@@ -131,6 +131,9 @@ file
 sys
 .
 stderr
+flush
+=
+True
 )
     
 if
