@@ -18,6 +18,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 builtin
 /
@@ -7269,7 +7274,10 @@ false
 ;
 }
 }
-Reverse
+std
+:
+:
+reverse
 (
 properties
 .
