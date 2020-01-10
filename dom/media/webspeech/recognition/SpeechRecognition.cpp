@@ -1010,7 +1010,7 @@ MediaWebspeechTestEnable
 StaticPrefs
 :
 :
-MediaWebspeechRecognitionEnable
+media_webspeech_recognition_enable
 (
 )
 ;
