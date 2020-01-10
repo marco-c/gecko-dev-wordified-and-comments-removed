@@ -7057,9 +7057,12 @@ return
 raiseError
 (
 "
-Not
-Yet
-Implemented
+readChars
+is
+not
+implemented
+in
+BinASTTokenReaderContext
 "
 )
 ;
