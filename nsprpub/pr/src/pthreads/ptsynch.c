@@ -4265,12 +4265,6 @@ defined
 (
 DARWIN
 )
-|
-|
-defined
-(
-SYMBIAN
-)
 #
 else
 union

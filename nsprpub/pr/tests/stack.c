@@ -167,14 +167,6 @@ argv
 {
 #
 if
-!
-(
-defined
-(
-SYMBIAN
-)
-&
-&
 defined
 (
 __WINS__

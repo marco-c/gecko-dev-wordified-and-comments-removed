@@ -404,9 +404,6 @@ PR_TRUE
 ;
 break
 ;
-#
-ifndef
-SYMBIAN
 case
 PR_SockOpt_Linger
 :
@@ -435,8 +432,6 @@ PR_SecondsToInterval
 ;
 break
 ;
-#
-endif
 case
 PR_SockOpt_Reuseaddr
 :
@@ -489,9 +484,6 @@ segment
 ;
 break
 ;
-#
-ifndef
-SYMBIAN
 case
 PR_SockOpt_IpTimeToLive
 :
@@ -552,8 +544,6 @@ PR_TRUE
 ;
 break
 ;
-#
-endif
 case
 PR_SockOpt_NoDelay
 :
@@ -585,9 +575,6 @@ break
 ;
 #
 endif
-#
-ifndef
-SYMBIAN
 case
 PR_SockOpt_Broadcast
 :
@@ -605,8 +592,6 @@ PR_TRUE
 ;
 break
 ;
-#
-endif
 #
 ifdef
 SO_REUSEPORT

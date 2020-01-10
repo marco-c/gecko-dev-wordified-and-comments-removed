@@ -1044,9 +1044,6 @@ mask
 #
 ifdef
 HAVE_THREAD_AFFINITY
-#
-ifndef
-IRIX
 return
 _PR_MD_SETTHREADAFFINITYMASK
 (
@@ -1054,13 +1051,6 @@ thread
 mask
 )
 ;
-#
-else
-return
-0
-;
-#
-endif
 #
 else
 return

@@ -867,13 +867,6 @@ defined
 (
 XP_UNIX
 )
-&
-&
-!
-defined
-(
-SYMBIAN
-)
 status
 =
 PR_CreatePipe

@@ -1,7 +1,4 @@
 #
-ifndef
-XP_BEOS
-#
 include
 "
 primpl
@@ -712,5 +709,3 @@ void
 ;
 }
 }
-#
-endif
