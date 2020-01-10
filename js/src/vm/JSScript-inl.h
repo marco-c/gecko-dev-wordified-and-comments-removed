@@ -1371,7 +1371,9 @@ isDebuggee
 const
 {
 return
-realm_
+realm
+(
+)
 -
 >
 debuggerObservesAllExecution
