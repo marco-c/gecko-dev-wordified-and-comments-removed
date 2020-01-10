@@ -165,13 +165,6 @@ js
 '
 webconsole
 -
-l10n
-.
-js
-'
-'
-webconsole
--
 ui
 .
 js
