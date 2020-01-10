@@ -52,6 +52,7 @@ products
 bool
 builtin
 ;
+constexpr
 BaseScalarInfo
 (
 uint32_t
@@ -180,6 +181,7 @@ store_count
 uint16_t
 store_offset
 ;
+constexpr
 ScalarInfo
 (
 uint32_t
