@@ -439,10 +439,6 @@ AttachToPreferences
 ;
 static
 int32_t
-sMemoryCacheCapacity
-;
-static
-int32_t
 sAutoMemoryCacheCapacity
 ;
 static
