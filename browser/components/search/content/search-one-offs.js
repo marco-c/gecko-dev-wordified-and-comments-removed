@@ -5507,6 +5507,8 @@ Services
 search
 .
 defaultEngine
+.
+wrappedJSObject
 )
 ;
 this
