@@ -1763,6 +1763,12 @@ set
 (
 )
 ;
+mAttribsToTranslate
+=
+mAttribsToTranslate
+^
+mDynamicAttribsMask
+;
 }
 }
 const

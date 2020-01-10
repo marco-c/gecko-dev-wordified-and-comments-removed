@@ -1486,7 +1486,7 @@ readBuffer
 sourceFramebuffer
 -
 >
-getReadColorbuffer
+getReadColorAttachment
 (
 )
 ;
@@ -1778,7 +1778,7 @@ readBuffer
 sourceFramebuffer
 -
 >
-getDepthOrStencilbuffer
+getDepthOrStencilAttachment
 (
 )
 ;

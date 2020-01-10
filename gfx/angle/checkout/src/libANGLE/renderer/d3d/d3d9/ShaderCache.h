@@ -119,9 +119,12 @@ angle
 Result
 create
 (
-Context9
+d3d
+:
+:
+Context
 *
-context9
+context
 const
 DWORD
 *
@@ -237,7 +240,7 @@ shader
 ;
 ANGLE_TRY_HR
 (
-context9
+context
 result
 "
 Failed

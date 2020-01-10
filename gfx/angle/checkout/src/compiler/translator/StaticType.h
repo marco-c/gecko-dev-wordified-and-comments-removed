@@ -162,7 +162,7 @@ secondarySize
 static
 constexpr
 TType
-kInstance
+instance
 =
 TType
 (
@@ -252,7 +252,7 @@ return
 Helpers
 :
 :
-kInstance
+instance
 <
 basicType
 precision

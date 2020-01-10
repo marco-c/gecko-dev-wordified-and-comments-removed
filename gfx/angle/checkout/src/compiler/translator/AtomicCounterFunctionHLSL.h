@@ -51,6 +51,12 @@ NonCopyable
 {
 public
 :
+AtomicCounterFunctionHLSL
+(
+bool
+forceResolution
+)
+;
 ImmutableString
 useAtomicCounterFunction
 (
@@ -89,6 +95,9 @@ ImmutableString
 AtomicCounterFunction
 >
 mAtomicCounterFunctions
+;
+bool
+mForceResolution
 ;
 }
 ;

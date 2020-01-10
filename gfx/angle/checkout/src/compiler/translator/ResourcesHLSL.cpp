@@ -2139,6 +2139,7 @@ out
 <
 "
 uniform
+globallycoherent
 RWByteAddressBuffer
 "
 <
@@ -3295,7 +3296,14 @@ layer
 n
 "
 "
-int3
+uint
+level
+;
+\
+n
+"
+"
+int2
 padding
 ;
 \

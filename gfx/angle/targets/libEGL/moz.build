@@ -196,7 +196,7 @@ NTDDI_VERSION
 ]
 =
 '
-0x0A000003
+NTDDI_WIN10_RS2
 '
 #
 DEFINES
@@ -466,11 +466,6 @@ CXXFLAGS
 '
 /
 bigobj
-'
-#
-'
-/
-d2FastFail
 '
 #
 '
@@ -766,6 +761,11 @@ we4458
 #
 '
 /
+we4715
+'
+#
+'
+/
 we4800
 '
 #
@@ -988,11 +988,6 @@ DEBUG
 '
 /
 DYNAMICBASE
-'
-#
-'
-/
-fastfail
 '
 #
 '

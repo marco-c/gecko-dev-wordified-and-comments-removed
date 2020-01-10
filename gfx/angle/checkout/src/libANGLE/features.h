@@ -115,17 +115,4 @@ ANGLE_ENABLED
 #
 endif
 #
-if
-!
-defined
-(
-ANGLE_FORCE_THREAD_SAFETY
-)
-#
-define
-ANGLE_FORCE_THREAD_SAFETY
-ANGLE_DISABLED
-#
-endif
-#
 endif

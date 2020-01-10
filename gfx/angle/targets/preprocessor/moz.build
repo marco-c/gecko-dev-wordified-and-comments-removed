@@ -102,7 +102,7 @@ NTDDI_VERSION
 ]
 =
 '
-0x0A000003
+NTDDI_WIN10_RS2
 '
 #
 DEFINES
@@ -394,11 +394,6 @@ bigobj
 #
 '
 /
-d2FastFail
-'
-#
-'
-/
 D__DATE__
 =
 '
@@ -686,6 +681,11 @@ we4456
 '
 /
 we4458
+'
+#
+'
+/
+we4715
 '
 #
 '

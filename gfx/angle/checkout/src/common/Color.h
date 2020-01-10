@@ -404,7 +404,7 @@ include
 "
 Color
 .
-inl
+inc
 "
 #
 endif

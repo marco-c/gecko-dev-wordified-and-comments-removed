@@ -401,7 +401,7 @@ break
 default
 :
 {
-ASSERT
+static_assert
 (
 gl
 :
@@ -413,8 +413,15 @@ DIRTY_BIT_COLOR_ATTACHMENT_0
 =
 =
 0
-&
-&
+"
+FB
+dirty
+bits
+"
+)
+;
+if
+(
 dirtyBit
 <
 gl
@@ -425,7 +432,7 @@ Framebuffer
 :
 DIRTY_BIT_COLOR_ATTACHMENT_MAX
 )
-;
+{
 size_t
 colorIndex
 =
@@ -455,6 +462,7 @@ colorIndex
 )
 )
 ;
+}
 break
 ;
 }

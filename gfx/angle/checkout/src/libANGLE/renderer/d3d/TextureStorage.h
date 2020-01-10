@@ -304,6 +304,13 @@ bool
 useLevelZeroTexture
 )
 ;
+virtual
+void
+invalidateTextures
+(
+)
+{
+}
 protected
 :
 const

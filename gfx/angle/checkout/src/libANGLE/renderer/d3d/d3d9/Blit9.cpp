@@ -706,7 +706,10 @@ Renderer9
 createShader
 )
 (
-Context9
+d3d
+:
+:
+Context
 *
 const
 DWORD
@@ -1293,7 +1296,7 @@ colorbuffer
 framebuffer
 -
 >
-getColorbuffer
+getColorAttachment
 (
 0
 )
@@ -1512,7 +1515,7 @@ colorbuffer
 framebuffer
 -
 >
-getColorbuffer
+getColorAttachment
 (
 0
 )
