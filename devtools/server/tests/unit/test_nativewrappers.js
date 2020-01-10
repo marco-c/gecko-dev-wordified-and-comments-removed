@@ -82,8 +82,7 @@ test1
 const
 dbg
 =
-new
-Debugger
+makeDebugger
 (
 )
 ;
@@ -247,8 +246,8 @@ MouseEvent
 ;
 dbg
 .
-enabled
-=
-false
+disable
+(
+)
 ;
 }

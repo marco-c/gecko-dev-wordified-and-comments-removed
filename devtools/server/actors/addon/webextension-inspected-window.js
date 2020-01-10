@@ -1212,9 +1212,9 @@ this
 .
 _dbg
 .
-enabled
-=
-false
+disable
+(
+)
 ;
 delete
 this
