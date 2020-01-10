@@ -875,10 +875,11 @@ override
 void
 TryToEndRemoteDrawing
 (
-bool
-aForceToEnd
-=
-false
+)
+;
+void
+EndRemoteDrawing
+(
 )
 ;
 bool
