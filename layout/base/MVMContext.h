@@ -248,6 +248,15 @@ const
 ;
 virtual
 bool
+IsInReaderMode
+(
+)
+const
+=
+0
+;
+virtual
+bool
 IsDocumentLoading
 (
 )

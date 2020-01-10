@@ -2819,6 +2819,14 @@ mContext
 AllowZoomingForDocument
 (
 )
+|
+|
+mContext
+-
+>
+IsInReaderMode
+(
+)
 )
 {
 return
