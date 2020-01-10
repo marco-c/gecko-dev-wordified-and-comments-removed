@@ -393,6 +393,11 @@ body
 -
 inner
 "
+role
+=
+"
+combobox
+"
 >
 <
 html
