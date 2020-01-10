@@ -904,6 +904,13 @@ RESULT_TYPE
 .
 OMNIBOX
 :
+case
+UrlbarUtils
+.
+RESULT_TYPE
+.
+TIP
+:
 throw
 new
 Error
