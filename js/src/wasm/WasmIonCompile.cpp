@@ -15197,7 +15197,6 @@ ifndef
 ENABLE_WASM_BULKMEM_OPS
 if
 (
-!
 f
 .
 env
@@ -15205,6 +15204,12 @@ env
 )
 .
 sharedMemoryEnabled
+=
+=
+Shareable
+:
+:
+False
 )
 {
 return
@@ -15549,7 +15554,6 @@ ifndef
 ENABLE_WASM_BULKMEM_OPS
 if
 (
-!
 f
 .
 env
@@ -15557,6 +15561,12 @@ env
 )
 .
 sharedMemoryEnabled
+=
+=
+Shareable
+:
+:
+False
 )
 {
 return
@@ -15748,7 +15758,6 @@ ifndef
 ENABLE_WASM_BULKMEM_OPS
 if
 (
-!
 f
 .
 env
@@ -15756,6 +15765,12 @@ env
 )
 .
 sharedMemoryEnabled
+=
+=
+Shareable
+:
+:
+False
 )
 {
 return
@@ -15976,7 +15991,6 @@ ifndef
 ENABLE_WASM_BULKMEM_OPS
 if
 (
-!
 f
 .
 env
@@ -15984,6 +15998,12 @@ env
 )
 .
 sharedMemoryEnabled
+=
+=
+Shareable
+:
+:
+False
 )
 {
 return
