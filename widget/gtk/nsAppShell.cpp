@@ -256,6 +256,14 @@ WidgetWayland
 "
 )
 ;
+LazyLogModule
+gClipboardLog
+(
+"
+WidgetClipboard
+"
+)
+;
 static
 GPollFunc
 sPollFunc
