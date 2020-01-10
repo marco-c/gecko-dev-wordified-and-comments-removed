@@ -344,7 +344,7 @@ contentSize
 transferredSize
 "
 "
-millis
+ms
 "
 ]
 ;
@@ -464,7 +464,7 @@ const
 count
 contentSize
 transferredSize
-millis
+ms
 }
 =
 summary
@@ -556,7 +556,7 @@ finish
 "
 getFormattedTime
 (
-millis
+ms
 )
 )
 ;

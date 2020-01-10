@@ -2841,13 +2841,13 @@ state
 ui
 .
 columnsData
-firstRequestStartedMillis
+firstRequestStartedMs
 :
 state
 .
 requests
 .
-firstStartedMillis
+firstStartedMs
 scale
 :
 getWaterfallScale

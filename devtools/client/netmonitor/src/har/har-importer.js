@@ -140,7 +140,7 @@ guid
 )
 ;
 const
-startedMillis
+startedMs
 =
 Date
 .
@@ -159,9 +159,9 @@ addRequest
 (
 requestId
 {
-startedMillis
+startedMs
 :
-startedMillis
+startedMs
 method
 :
 entry
@@ -593,7 +593,7 @@ interactive
 "
 time
 :
-startedMillis
+startedMs
 +
 onContentLoad
 }
@@ -623,7 +623,7 @@ complete
 "
 time
 :
-startedMillis
+startedMs
 +
 onLoad
 }

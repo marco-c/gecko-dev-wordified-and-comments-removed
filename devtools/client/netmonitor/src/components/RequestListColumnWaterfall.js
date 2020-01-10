@@ -164,7 +164,7 @@ PropTypes
 object
 .
 isRequired
-firstRequestStartedMillis
+firstRequestStartedMs
 :
 PropTypes
 .
@@ -269,13 +269,13 @@ this
 .
 props
 .
-firstRequestStartedMillis
+firstRequestStartedMs
 !
 =
 =
 nextProps
 .
-firstRequestStartedMillis
+firstRequestStartedMs
 )
 ;
 }
@@ -591,7 +591,7 @@ render
 {
 const
 {
-firstRequestStartedMillis
+firstRequestStartedMs
 item
 onWaterfallMouseDown
 }
@@ -671,9 +671,9 @@ paddingInlineStart
 {
 item
 .
-startedMillis
+startedMs
 -
-firstRequestStartedMillis
+firstRequestStartedMs
 }
 px
 }

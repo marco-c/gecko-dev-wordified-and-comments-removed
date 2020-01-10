@@ -621,7 +621,7 @@ getFormattedTime
 (
 requestsSummary
 .
-millis
+ms
 )
 )
 ;
@@ -642,12 +642,12 @@ info
 (
 Computed
 total
-millis
+ms
 :
 {
 requestsSummary
 .
-millis
+ms
 }
 )
 ;

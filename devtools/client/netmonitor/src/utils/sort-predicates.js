@@ -84,10 +84,10 @@ compareValues
 (
 first
 .
-startedMillis
+startedMs
 second
 .
-startedMillis
+startedMs
 )
 ;
 return

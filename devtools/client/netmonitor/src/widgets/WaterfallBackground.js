@@ -78,7 +78,7 @@ STATE_KEYS
 =
 [
 "
-firstRequestStartedMillis
+firstRequestStartedMs
 "
 "
 scale
@@ -566,7 +566,7 @@ timestamp
 -
 state
 .
-firstRequestStartedMillis
+firstRequestStartedMs
 )
 *
 state
