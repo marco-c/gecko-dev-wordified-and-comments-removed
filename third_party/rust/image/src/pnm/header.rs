@@ -936,6 +936,7 @@ writer
 :
 &
 mut
+dyn
 io
 :
 :

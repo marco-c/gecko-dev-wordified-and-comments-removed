@@ -53,6 +53,7 @@ derive
 (
 Clone
 Copy
+Debug
 )
 ]
 pub
@@ -78,6 +79,7 @@ kernel
 :
 Box
 <
+dyn
 Fn
 (
 f32
@@ -600,9 +602,6 @@ Pixel
 =
 P
 >
-+
-'
-static
 P
 :
 Pixel
@@ -1242,9 +1241,6 @@ Pixel
 =
 P
 >
-+
-'
-static
 P
 :
 Pixel
@@ -3658,9 +3654,6 @@ Pixel
 =
 P
 >
-+
-'
-static
 P
 :
 Pixel
@@ -4215,9 +4208,6 @@ resize
 I
 :
 GenericImageView
-+
-'
-static
 >
 (
 image
@@ -4433,9 +4423,6 @@ blur
 I
 :
 GenericImageView
-+
-'
-static
 >
 (
 image
@@ -4474,20 +4461,6 @@ I
 :
 :
 Pixel
-:
-'
-static
-<
-I
-:
-:
-Pixel
-as
-Pixel
->
-:
-:
-Subpixel
 :
 '
 static
@@ -4615,9 +4588,6 @@ Pixel
 =
 P
 >
-+
-'
-static
 P
 :
 Pixel
