@@ -55,16 +55,6 @@ InitLibrary
 (
 )
 ;
-#
-ifdef
-XP_LINUX
-void
-InitAudioThreads
-(
-)
-;
-#
-endif
 void
 ShutdownLibrary
 (
