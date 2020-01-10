@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIAudioChannelAgent
+AudioChannelAgent
 .
 h
 "
@@ -355,9 +355,15 @@ nsISpeechTaskCallback
 >
 mCallback
 ;
-nsCOMPtr
+RefPtr
 <
-nsIAudioChannelAgent
+mozilla
+:
+:
+dom
+:
+:
+AudioChannelAgent
 >
 mAudioChannelAgent
 ;

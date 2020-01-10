@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIAudioChannelAgent
+AudioChannelAgent
 .
 h
 "
@@ -273,9 +273,9 @@ mOfflineRenderingRef
 uint32_t
 mFramesToProduce
 ;
-nsCOMPtr
+RefPtr
 <
-nsIAudioChannelAgent
+AudioChannelAgent
 >
 mAudioChannelAgent
 ;
