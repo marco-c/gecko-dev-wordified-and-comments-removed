@@ -2764,7 +2764,7 @@ samples
 :
             
 return
-None
+0
         
 if
 per_cpu

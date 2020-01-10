@@ -1789,6 +1789,21 @@ if
 usage
 :
         
+cpu_percent
+=
+usage
+.
+get
+(
+'
+cpu_percent
+'
+)
+        
+if
+cpu_percent
+:
+            
 res
 [
 '
@@ -1800,12 +1815,7 @@ int
 (
 round
 (
-usage
-[
-'
 cpu_percent
-'
-]
 )
 )
     
