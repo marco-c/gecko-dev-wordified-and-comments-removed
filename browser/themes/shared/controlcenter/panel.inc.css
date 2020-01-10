@@ -4704,6 +4704,17 @@ row
 1
 ;
 }
+#
+protections
+-
+popup
+:
+not
+(
+[
+hasException
+]
+)
 .
 protections
 -
