@@ -136,7 +136,7 @@ gfx
 /
 geometry
 /
-mojo
+mojom
 /
 geometry
 .
