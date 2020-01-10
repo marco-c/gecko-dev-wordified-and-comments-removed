@@ -89,7 +89,7 @@ if
 -
 n
 "
-RELENGAPI_PORT
+TASKCLUSTER_PROXY_URL
 "
 ]
 ;
@@ -119,11 +119,9 @@ tooltool
 -
 url
 =
-http
-:
-/
-/
-taskcluster
+{
+TASKCLUSTER_PROXY_URL
+}
 /
 tooltool
 .
