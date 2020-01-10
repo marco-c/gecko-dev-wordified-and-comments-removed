@@ -213,14 +213,9 @@ is
 (
 gProtectionsHandler
 .
-iconBox
+_trackingProtectionIconTooltipLabel
 .
-getAttribute
-(
-"
-tooltiptext
-"
-)
+textContent
 gNavigatorBundle
 .
 getString
@@ -230,7 +225,7 @@ trackingProtection
 .
 icon
 .
-activeTooltip
+activeTooltip2
 "
 )
 "
