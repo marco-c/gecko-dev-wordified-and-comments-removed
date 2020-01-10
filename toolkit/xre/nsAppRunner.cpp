@@ -1524,7 +1524,7 @@ gToolkitVersion
 [
 ]
 =
-NS_STRINGIFY
+MOZ_STRINGIFY
 (
 GRE_MILESTONE
 )
@@ -3996,7 +3996,7 @@ aResult
 .
 AssignLiteral
 (
-NS_STRINGIFY
+MOZ_STRINGIFY
 (
 MOZ_UPDATE_CHANNEL
 )
@@ -6678,7 +6678,7 @@ printf
 %
 s
 "
-NS_STRINGIFY
+MOZ_STRINGIFY
 (
 MOZ_APP_VERSION_DISPLAY
 )
@@ -10199,7 +10199,7 @@ StringProperty
 "
 displayVersion
 "
-NS_STRINGIFY
+MOZ_STRINGIFY
 (
 MOZ_APP_VERSION_DISPLAY
 )
@@ -10947,7 +10947,7 @@ Append
 "
 -
 "
-NS_STRINGIFY
+MOZ_STRINGIFY
 (
 MOZ_UPDATE_CHANNEL
 )
@@ -15264,7 +15264,7 @@ buildID
 nsDependentCString
 releaseChannel
 (
-NS_STRINGIFY
+MOZ_STRINGIFY
 (
 MOZ_UPDATE_CHANNEL
 )
@@ -17077,7 +17077,7 @@ char
 *
 releaseChannel
 =
-NS_STRINGIFY
+MOZ_STRINGIFY
 (
 MOZ_UPDATE_CHANNEL
 )
@@ -17495,7 +17495,7 @@ char
 *
 releaseChannel
 =
-NS_STRINGIFY
+MOZ_STRINGIFY
 (
 MOZ_UPDATE_CHANNEL
 )
