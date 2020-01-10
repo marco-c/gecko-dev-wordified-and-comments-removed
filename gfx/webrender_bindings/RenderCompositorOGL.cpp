@@ -595,16 +595,6 @@ ifdef
 XP_MACOSX
 if
 (
-StaticPrefs
-:
-:
-gfx_core_animation_enabled_AtStartup
-(
-)
-)
-{
-if
-(
 mThisFrameDoneSync
 )
 {
@@ -628,7 +618,6 @@ LOCAL_GL_SYNC_GPU_COMMANDS_COMPLETE
 0
 )
 ;
-}
 #
 endif
 }

@@ -304,13 +304,6 @@ mainChildView
 ;
 -
 (
-NSArray
-*
-)
-titlebarControls
-;
--
-(
 void
 )
 setWantsTitleDrawn

@@ -366,11 +366,6 @@ ProcInfo
 mm
 '
 '
-RectTextureImage
-.
-mm
-'
-'
 ScreenHelperCocoa
 .
 mm
