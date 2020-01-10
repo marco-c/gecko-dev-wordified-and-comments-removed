@@ -67,6 +67,15 @@ idlArray
 add_objects
 (
 {
+WorkerLocation
+:
+[
+'
+self
+.
+location
+'
+]
 WorkerNavigator
 :
 [

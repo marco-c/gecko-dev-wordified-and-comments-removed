@@ -62,11 +62,6 @@ service
 -
 workers
 '
-'
-dedicated
--
-workers
-'
 ]
 ;
 const
@@ -74,7 +69,6 @@ const
 dom
 html
 serviceWorkerIdl
-dedicated
 ]
 =
 await
@@ -170,13 +164,6 @@ CacheStorage
 '
 ]
 }
-)
-;
-idlArray
-.
-add_dependency_idls
-(
-dedicated
 )
 ;
 idlArray
