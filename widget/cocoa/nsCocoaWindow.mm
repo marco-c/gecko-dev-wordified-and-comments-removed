@@ -12757,7 +12757,7 @@ GetToolkit
 )
 -
 >
-RegisterForAllProcessMouseEvents
+MonitorAllProcessMouseEvents
 (
 )
 ;
@@ -13002,7 +13002,7 @@ GetToolkit
 )
 -
 >
-UnregisterAllProcessMouseEventHandlers
+StopMonitoringAllProcessMouseEvents
 (
 )
 ;
