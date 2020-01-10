@@ -10685,8 +10685,6 @@ Decoder
 d
 ValType
 type
-bool
-isMutable
 )
 {
 switch
@@ -11618,7 +11616,6 @@ GlobalIsJSCompatible
 (
 d
 type
-isMutable
 )
 )
 {
@@ -13999,12 +13996,6 @@ global
 -
 >
 type
-(
-)
-global
--
->
-isMutable
 (
 )
 )
