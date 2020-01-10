@@ -6490,6 +6490,8 @@ scopedKeys
 await
 this
 .
+keys
+.
 getScopedKeys
 (
 scope
