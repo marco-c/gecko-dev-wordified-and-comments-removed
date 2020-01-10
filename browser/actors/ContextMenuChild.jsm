@@ -3270,12 +3270,6 @@ storagePrincipal
 ;
 aEvent
 .
-preventDefault
-(
-)
-;
-aEvent
-.
 stopPropagation
 (
 )
