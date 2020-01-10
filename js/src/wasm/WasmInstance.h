@@ -931,6 +931,9 @@ uint32_t
 srcByteOffset
 uint32_t
 len
+uint8_t
+*
+memBase
 )
 ;
 static
@@ -946,6 +949,9 @@ uint32_t
 srcByteOffset
 uint32_t
 len
+uint8_t
+*
+memBase
 )
 ;
 static
@@ -972,6 +978,9 @@ uint32_t
 value
 uint32_t
 len
+uint8_t
+*
+memBase
 )
 ;
 static
@@ -987,6 +996,9 @@ uint32_t
 value
 uint32_t
 len
+uint8_t
+*
+memBase
 )
 ;
 static
