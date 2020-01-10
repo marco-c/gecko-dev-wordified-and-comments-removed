@@ -482,6 +482,11 @@ height
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 DOMRectList
 {
