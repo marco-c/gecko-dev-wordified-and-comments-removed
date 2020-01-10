@@ -42,12 +42,6 @@ unistd
 .
 h
 >
-extern
-char
-*
-*
-environ
-;
 namespace
 angle
 {
@@ -596,7 +590,7 @@ errno
 ;
 }
 }
-execve
+execv
 (
 args
 [
@@ -616,7 +610,6 @@ data
 (
 )
 )
-environ
 )
 ;
 _exit
