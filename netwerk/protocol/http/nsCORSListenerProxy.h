@@ -178,12 +178,6 @@ NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 static
 void
-Startup
-(
-)
-;
-static
-void
 Shutdown
 (
 )

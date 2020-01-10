@@ -1534,13 +1534,6 @@ InitializeStatics
 (
 )
 ;
-nsCORSListenerProxy
-:
-:
-Startup
-(
-)
-;
 nsWindowMemoryReporter
 :
 :
