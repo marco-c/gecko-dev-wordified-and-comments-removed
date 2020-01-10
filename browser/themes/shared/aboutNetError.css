@@ -179,6 +179,14 @@ top
 ;
 }
 #
+enableTls10Container
+{
+display
+:
+none
+;
+}
+#
 prefChangeContainer
 {
 display
