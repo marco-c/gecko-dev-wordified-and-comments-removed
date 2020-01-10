@@ -69,6 +69,7 @@ Exposed
 Window
 Worker
 )
+SecureContext
 Constructor
 (
 optional
@@ -107,6 +108,13 @@ fastMode
 }
 ;
 [
+Exposed
+=
+(
+Window
+Worker
+)
+SecureContext
 Serializable
 ]
 interface
@@ -170,6 +178,7 @@ Exposed
 Window
 Worker
 )
+SecureContext
 Constructor
 (
 optional
@@ -219,6 +228,13 @@ formats
 }
 ;
 [
+Exposed
+=
+(
+Window
+Worker
+)
+SecureContext
 Serializable
 ]
 interface
