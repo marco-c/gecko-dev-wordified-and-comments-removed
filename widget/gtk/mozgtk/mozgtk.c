@@ -1888,6 +1888,10 @@ gtk_widget_is_toplevel
 )
 STUB
 (
+gtk_widget_is_visible
+)
+STUB
+(
 gtk_widget_map
 )
 STUB
