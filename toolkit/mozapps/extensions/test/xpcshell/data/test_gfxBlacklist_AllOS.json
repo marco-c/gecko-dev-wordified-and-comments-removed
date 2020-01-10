@@ -703,7 +703,7 @@ feature
 "
 :
 "
-WEBRTC_HW_ACCELERATION
+WEBRTC_HW_ACCELERATION_H264
 "
 "
 featureStatus
@@ -1773,7 +1773,7 @@ feature
 "
 :
 "
-WEBRTC_HW_ACCELERATION
+WEBRTC_HW_ACCELERATION_H264
 "
 "
 featureStatus
@@ -2837,7 +2837,7 @@ feature
 "
 :
 "
-WEBRTC_HW_ACCELERATION
+WEBRTC_HW_ACCELERATION_H264
 "
 "
 featureStatus
@@ -3896,7 +3896,7 @@ feature
 "
 :
 "
-WEBRTC_HW_ACCELERATION
+WEBRTC_HW_ACCELERATION_H264
 "
 "
 featureStatus

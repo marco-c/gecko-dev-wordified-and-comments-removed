@@ -1520,7 +1520,7 @@ devices
 <
 feature
 >
-WEBRTC_HW_ACCELERATION
+WEBRTC_HW_ACCELERATION_H264
 <
 /
 feature

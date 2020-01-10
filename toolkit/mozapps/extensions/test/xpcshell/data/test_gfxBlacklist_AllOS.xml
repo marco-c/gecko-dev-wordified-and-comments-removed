@@ -958,7 +958,7 @@ devices
 <
 feature
 >
-WEBRTC_HW_ACCELERATION
+WEBRTC_HW_ACCELERATION_H264
 <
 /
 feature
@@ -2342,7 +2342,7 @@ devices
 <
 feature
 >
-WEBRTC_HW_ACCELERATION
+WEBRTC_HW_ACCELERATION_H264
 <
 /
 feature
@@ -3720,7 +3720,7 @@ devices
 <
 feature
 >
-WEBRTC_HW_ACCELERATION
+WEBRTC_HW_ACCELERATION_H264
 <
 /
 feature
@@ -5093,7 +5093,7 @@ devices
 <
 feature
 >
-WEBRTC_HW_ACCELERATION
+WEBRTC_HW_ACCELERATION_H264
 <
 /
 feature
