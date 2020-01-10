@@ -115,7 +115,6 @@ aConn
 ;
 private
 :
-virtual
 void
 RunOnTarget
 (
