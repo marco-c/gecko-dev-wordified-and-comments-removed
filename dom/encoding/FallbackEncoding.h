@@ -64,10 +64,6 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 static
-bool
-sGuessFallbackFromTopLevelDomain
-;
-static
 NotNull
 <
 const
