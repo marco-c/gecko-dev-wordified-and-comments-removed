@@ -99,7 +99,7 @@ Put
 const
 nsACString
 &
-aKey
+aHost
 const
 uint8_t
 *
@@ -115,7 +115,7 @@ Get
 const
 nsACString
 &
-aKey
+aHost
 nsTArray
 <
 uint8_t
@@ -131,7 +131,7 @@ Remove
 const
 nsACString
 &
-aKey
+aHost
 )
 ;
 private
@@ -152,7 +152,7 @@ RemoveLocked
 const
 nsACString
 &
-aKey
+aHost
 )
 ;
 void
@@ -215,12 +215,12 @@ uint32_t
 mCacheSize
 ;
 class
-TokenCacheRecord
+HostRecord
 {
 public
 :
 nsCString
-mKey
+mHost
 ;
 PRUint32
 mExpirationTime
@@ -236,13 +236,13 @@ mToken
 nsClassHashtable
 <
 nsCStringHashKey
-TokenCacheRecord
+HostRecord
 >
-mTokenCacheRecords
+mHostRecs
 ;
 nsTArray
 <
-TokenCacheRecord
+HostRecord
 *
 >
 mExpirationArray
