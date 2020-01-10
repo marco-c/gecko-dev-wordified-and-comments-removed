@@ -155,14 +155,8 @@ new
 CustomEvent
 (
 "
-AboutLoginsLoginSelected
+AboutLoginsCreateLogin
 "
-{
-detail
-:
-{
-}
-}
 )
 )
 ;
