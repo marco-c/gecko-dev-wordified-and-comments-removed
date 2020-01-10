@@ -1785,7 +1785,7 @@ if
 (
 unit
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 em
@@ -1801,7 +1801,7 @@ if
 (
 unit
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 ex
@@ -1817,7 +1817,7 @@ if
 (
 unit
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 px
@@ -1833,7 +1833,7 @@ if
 (
 unit
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 in
@@ -1849,7 +1849,7 @@ if
 (
 unit
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 cm
@@ -1865,7 +1865,7 @@ if
 (
 unit
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 mm
@@ -1881,7 +1881,7 @@ if
 (
 unit
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 pt
@@ -1897,7 +1897,7 @@ if
 (
 unit
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 pc
@@ -1913,7 +1913,7 @@ if
 (
 unit
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 "
 q
@@ -3243,7 +3243,7 @@ if
 (
 str
 .
-EqualsASCII
+LowerCaseEqualsASCII
 (
 sizes
 [
@@ -3680,7 +3680,7 @@ if
 (
 str
 .
-EqualsASCII
+LowerCaseEqualsASCII
 (
 dirs
 [
