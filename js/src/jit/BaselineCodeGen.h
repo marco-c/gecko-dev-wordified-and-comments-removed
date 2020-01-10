@@ -2011,6 +2011,12 @@ branchIfTrue
 ;
 MOZ_MUST_USE
 bool
+emitCoalesce
+(
+)
+;
+MOZ_MUST_USE
+bool
 emitCall
 (
 JSOp
