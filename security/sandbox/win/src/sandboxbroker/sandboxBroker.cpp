@@ -4385,6 +4385,11 @@ MITIGATION_IMAGE_LOAD_PREFER_SYS32
 if
 (
 sRddWin32kDisable
+&
+&
+IsWin8OrLater
+(
+)
 )
 {
 mitigations
