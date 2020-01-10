@@ -605,6 +605,7 @@ panelId
 {
 return
 (
+(
 SUPPORTED_HTTP_CODES
 .
 includes
@@ -631,6 +632,7 @@ MDN_STATUS_CODES_LIST_URL
 getGAParams
 (
 panelId
+)
 )
 ;
 }
@@ -684,6 +686,7 @@ getFilterBoxURL
 )
 {
 return
+(
 {
 MDN_URL
 }
@@ -700,6 +703,7 @@ getGAParams
 +
 #
 Filtering_by_properties
+)
 ;
 }
 function

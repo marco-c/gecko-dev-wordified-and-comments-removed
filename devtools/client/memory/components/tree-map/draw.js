@@ -263,6 +263,7 @@ drawZoomedTreemap
 const
 configureD3Treemap
 =
+(
 exports
 .
 configureD3Treemap
@@ -426,10 +427,12 @@ nodes
 }
 ;
 }
+)
 ;
 const
 drawTruncatedName
 =
+(
 exports
 .
 drawTruncatedName
@@ -507,10 +510,12 @@ y
 ;
 }
 }
+)
 ;
 const
 drawText
 =
+(
 exports
 .
 drawText
@@ -808,10 +813,12 @@ y
 }
 }
 }
+)
 ;
 const
 drawBox
 =
+(
 exports
 .
 drawBox
@@ -993,10 +1000,12 @@ dy
 )
 ;
 }
+)
 ;
 const
 drawTreemap
 =
+(
 exports
 .
 drawTreemap
@@ -1187,6 +1196,7 @@ padding
 ;
 }
 }
+)
 ;
 const
 positionZoomedCanvas

@@ -679,9 +679,8 @@ with
 spaces
 "
 +
-"
+'
 like
-\
 "
 margin
 :
@@ -689,7 +688,6 @@ w
 x
 y
 z
-\
 "
 .
 Also
@@ -699,7 +697,7 @@ for
 inherticance
 of
 CSS
-"
+'
 +
 "
 variables

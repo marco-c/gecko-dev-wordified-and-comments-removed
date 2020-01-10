@@ -244,13 +244,11 @@ hasChildren
 hasChildren
 |
 |
-(
 objectsWithProps
 .
 includes
 (
 k
-)
 )
 ;
 hasChildren
@@ -276,7 +274,6 @@ length
 ;
 }
 return
-(
 value
 .
 type
@@ -288,7 +285,6 @@ object
 &
 &
 hasChildren
-)
 ;
 }
 return
@@ -317,7 +313,6 @@ object
 value
 ;
 return
-(
 typeof
 value
 .
@@ -327,7 +322,6 @@ value
 "
 undefined
 "
-)
 ?
 value
 .
@@ -350,11 +344,9 @@ object
 )
 {
 return
-(
 object
 instanceof
 Property
-)
 ?
 object
 .
@@ -371,11 +363,9 @@ object
 )
 {
 return
-(
 object
 instanceof
 Property
-)
 ?
 object
 .

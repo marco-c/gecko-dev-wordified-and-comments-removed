@@ -1857,6 +1857,7 @@ target
 )
 {
 return
+(
 target
 .
 getTrait
@@ -1877,6 +1878,7 @@ isAddon
 target
 .
 isWorkerTarget
+)
 ;
 }
 build
@@ -2220,6 +2222,7 @@ target
 )
 {
 return
+(
 target
 .
 isLocalTab
@@ -2243,6 +2246,7 @@ getTrait
 "
 storageInspector
 "
+)
 )
 )
 ;

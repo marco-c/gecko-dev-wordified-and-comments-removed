@@ -90,7 +90,6 @@ options
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -102,7 +101,6 @@ simple
 -
 div2
 "
-)
 )
 "
 The
@@ -136,7 +134,6 @@ options
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -146,7 +143,6 @@ assertHighlightedNode
 #
 ahoy
 "
-)
 )
 "
 The
@@ -209,7 +205,6 @@ options
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -221,7 +216,6 @@ complex
 -
 div
 "
-)
 )
 "
 The
@@ -255,7 +249,6 @@ options
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -267,7 +260,6 @@ simple
 -
 div2
 "
-)
 )
 "
 The

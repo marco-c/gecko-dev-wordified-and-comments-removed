@@ -195,9 +195,7 @@ type
 )
 modifyFrontend
 :
-(
 value
-)
 =
 >
 value

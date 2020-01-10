@@ -293,9 +293,7 @@ const
 DISPLAY_TYPES
 =
 {
-"
 flex
-"
 :
 INSPECTOR_L10N
 .
@@ -331,9 +329,7 @@ inlineFlex
 tooltiptext
 "
 )
-"
 grid
-"
 :
 INSPECTOR_L10N
 .
@@ -369,9 +365,7 @@ inlineGrid
 tooltiptext
 "
 )
-"
 subgrid
-"
 :
 INSPECTOR_L10N
 .
@@ -407,9 +401,7 @@ flowRoot
 tooltiptext
 "
 )
-"
 contents
-"
 :
 INSPECTOR_L10N
 .
@@ -4132,6 +4124,7 @@ attrNode
 const
 onMutations
 =
+(
 this
 .
 _editedAttributeObserver
@@ -4201,6 +4194,7 @@ isDeletedAttribute
 isDeletedAttribute
 |
 |
+(
 isOriginalAttribute
 &
 &
@@ -4211,6 +4205,7 @@ newValue
 =
 =
 null
+)
 ;
 isNewAttribute
 =
@@ -4463,6 +4458,7 @@ refocusedonedit
 )
 ;
 }
+)
 ;
 this
 .

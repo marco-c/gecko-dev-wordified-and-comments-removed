@@ -6,7 +6,7 @@ strict
 const
 TEST_URL_1
 =
-"
+'
 data
 :
 text
@@ -19,14 +19,12 @@ html
 body
 id
 =
-\
 "
 test
 -
 doc
 -
 1
-\
 "
 >
 page
@@ -38,7 +36,7 @@ body
 /
 html
 >
-"
+'
 ;
 const
 TEST_URL_2

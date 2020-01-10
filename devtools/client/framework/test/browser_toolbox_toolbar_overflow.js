@@ -144,6 +144,7 @@ waitUntil
 >
 {
 return
+(
 toolbox
 .
 panelDefinitions
@@ -167,6 +168,7 @@ tab
 )
 .
 length
+)
 ;
 }
 )

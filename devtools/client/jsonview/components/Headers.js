@@ -142,7 +142,6 @@ props
 data
 ;
 return
-(
 div
 (
 {
@@ -255,7 +254,6 @@ data
 .
 request
 }
-)
 )
 )
 )
@@ -435,13 +433,11 @@ value
 )
 ;
 return
-(
 tbody
 (
 {
 }
 rows
-)
 )
 ;
 }

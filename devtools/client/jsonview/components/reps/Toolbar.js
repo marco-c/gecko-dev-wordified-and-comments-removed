@@ -112,7 +112,6 @@ render
 )
 {
 return
-(
 dom
 .
 div
@@ -129,7 +128,6 @@ this
 props
 .
 children
-)
 )
 ;
 }
@@ -189,7 +187,6 @@ props
 )
 ;
 return
-(
 dom
 .
 button
@@ -200,7 +197,6 @@ this
 props
 .
 children
-)
 )
 ;
 }

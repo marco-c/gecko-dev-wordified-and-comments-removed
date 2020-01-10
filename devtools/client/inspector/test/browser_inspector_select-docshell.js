@@ -22,15 +22,13 @@ UTF
 +
 encodeURI
 (
-"
+'
 <
 div
 id
 =
-\
 "
 frame
-\
 "
 >
 frame
@@ -38,7 +36,7 @@ frame
 /
 div
 >
-"
+'
 )
 ;
 const
@@ -135,7 +133,6 @@ URL
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -145,7 +142,6 @@ hasNode
 #
 top
 "
-)
 )
 "
 We
@@ -554,7 +550,6 @@ elements
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -564,7 +559,6 @@ hasNode
 #
 frame
 "
-)
 )
 "
 But

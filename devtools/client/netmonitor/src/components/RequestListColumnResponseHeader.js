@@ -244,7 +244,6 @@ header
 )
 ;
 return
-(
 dom
 .
 td
@@ -271,7 +270,6 @@ title
 header
 }
 header
-)
 )
 ;
 }

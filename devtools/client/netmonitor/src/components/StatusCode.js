@@ -269,7 +269,6 @@ blocked
 ;
 }
 return
-(
 div
 (
 {
@@ -339,7 +338,6 @@ code
 status
 }
 statusContent
-)
 )
 ;
 }

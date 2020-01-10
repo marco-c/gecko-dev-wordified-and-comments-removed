@@ -271,9 +271,7 @@ activeDeclarations
 declarations
 :
 {
-"
 order
-"
 :
 "
 2
@@ -357,9 +355,7 @@ activeDeclarations
 declarations
 :
 {
-"
 display
-"
 :
 "
 flex
@@ -415,9 +411,7 @@ inactiveDeclarations
 declaration
 :
 {
-"
 order
-"
 :
 "
 1
@@ -451,9 +445,7 @@ inactiveDeclarations
 declaration
 :
 {
-"
 order
-"
 :
 "
 2

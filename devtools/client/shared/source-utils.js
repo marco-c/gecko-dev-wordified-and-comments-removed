@@ -475,7 +475,6 @@ url
 .
 pathname
 ?
-(
 url
 .
 pathname
@@ -500,7 +499,6 @@ lastIndexOf
 "
 /
 "
-)
 :
 "
 /
@@ -893,6 +891,7 @@ i
 )
 {
 return
+(
 location
 .
 charCodeAt
@@ -933,6 +932,7 @@ i
 =
 =
 CHAR_CODE_SLASH
+)
 ;
 }
 function
@@ -945,6 +945,7 @@ i
 )
 {
 return
+(
 location
 .
 charCodeAt
@@ -1095,6 +1096,7 @@ i
 =
 =
 CHAR_CODE_SLASH
+)
 ;
 }
 function
@@ -1107,6 +1109,7 @@ i
 )
 {
 return
+(
 location
 .
 charCodeAt
@@ -1173,6 +1176,7 @@ i
 =
 =
 CHAR_CODE_COLON
+)
 ;
 }
 function

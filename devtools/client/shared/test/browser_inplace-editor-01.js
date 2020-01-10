@@ -126,6 +126,7 @@ options
 const
 span
 =
+(
 options
 .
 element
@@ -133,6 +134,7 @@ element
 createSpan
 (
 doc
+)
 )
 ;
 info

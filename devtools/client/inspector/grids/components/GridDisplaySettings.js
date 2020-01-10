@@ -284,7 +284,6 @@ this
 props
 ;
 return
-(
 dom
 .
 div
@@ -516,7 +515,6 @@ layout
 .
 extendLinesInfinitely
 "
-)
 )
 )
 )

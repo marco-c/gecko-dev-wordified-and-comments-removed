@@ -129,7 +129,6 @@ _supports
 enableDisable
 )
 {
-(
 [
 this
 .
@@ -213,7 +212,6 @@ hydrate
 )
 ]
 )
-)
 ;
 await
 this
@@ -255,7 +253,6 @@ this
 .
 _initAccessibility
 =
-(
 async
 function
 (
@@ -379,7 +376,6 @@ bind
 (
 this
 )
-)
 (
 )
 ;
@@ -411,7 +407,6 @@ this
 .
 _destroyingAccessibility
 =
-(
 async
 function
 (
@@ -487,7 +482,6 @@ null
 bind
 (
 this
-)
 )
 (
 )

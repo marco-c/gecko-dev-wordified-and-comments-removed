@@ -74,6 +74,7 @@ textContent
 const
 span
 =
+(
 options
 .
 element
@@ -81,6 +82,7 @@ element
 createSpan
 (
 doc
+)
 )
 ;
 if
@@ -401,7 +403,7 @@ back_space
 escape
 )
 /
-ig
+gi
 .
 test
 (

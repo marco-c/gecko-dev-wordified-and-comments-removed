@@ -97,7 +97,6 @@ true
 showIdleBlocks
 :
 "
-\
 m
 /
 "

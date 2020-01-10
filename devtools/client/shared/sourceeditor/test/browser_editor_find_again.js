@@ -124,17 +124,13 @@ key
 const
 dispatchAndWaitForFocus
 =
-(
 target
-)
 =
 >
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

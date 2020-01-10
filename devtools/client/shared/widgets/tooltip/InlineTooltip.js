@@ -143,6 +143,7 @@ isVisible
 )
 {
 return
+(
 typeof
 this
 .
@@ -166,6 +167,7 @@ parentNode
 =
 =
 null
+)
 ;
 }
 clear

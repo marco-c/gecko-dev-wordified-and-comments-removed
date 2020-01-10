@@ -1585,14 +1585,17 @@ t
 :
 if
 (
+(
 isMacOS
 &
 &
 e
 .
 metaKey
+)
 |
 |
+(
 !
 isMacOS
 &
@@ -1600,6 +1603,7 @@ isMacOS
 e
 .
 ctrlKey
+)
 )
 {
 this

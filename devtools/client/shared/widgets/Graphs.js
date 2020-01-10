@@ -465,6 +465,7 @@ devicePixelRatio
 const
 container
 =
+(
 this
 .
 _container
@@ -480,6 +481,7 @@ graph
 -
 container
 "
+)
 )
 ;
 container
@@ -503,6 +505,7 @@ container
 const
 canvas
 =
+(
 this
 .
 _canvas
@@ -518,6 +521,7 @@ graph
 -
 canvas
 "
+)
 )
 ;
 canvas
@@ -2249,6 +2253,7 @@ function
 )
 {
 return
+(
 this
 .
 _selection
@@ -2272,6 +2277,7 @@ end
 !
 =
 null
+)
 ;
 }
 hasSelectionInProgress
@@ -2281,6 +2287,7 @@ function
 )
 {
 return
+(
 this
 .
 _selection
@@ -2304,6 +2311,7 @@ end
 =
 =
 null
+)
 ;
 }
 selectionEnabled
@@ -4045,6 +4053,7 @@ _selection
 ;
 return
 (
+(
 start
 <
 end
@@ -4075,6 +4084,7 @@ x
 start
 >
 x
+)
 )
 ;
 }
@@ -4085,6 +4095,7 @@ function
 )
 {
 return
+(
 this
 .
 _isHoveringSelectionContents
@@ -4103,6 +4114,7 @@ this
 .
 _isHoveringEndBoundary
 (
+)
 )
 ;
 }
@@ -4232,7 +4244,6 @@ _boundingBox
 const
 x
 =
-(
 e
 .
 screenX
@@ -4242,7 +4253,6 @@ this
 _topWindow
 .
 screenX
-)
 -
 bb
 .
@@ -4253,7 +4263,6 @@ x
 const
 y
 =
-(
 e
 .
 screenY
@@ -4263,7 +4272,6 @@ this
 _topWindow
 .
 screenY
-)
 -
 bb
 .
@@ -5940,20 +5948,24 @@ getContext
 const
 width
 =
+(
 canvas
 .
 width
 =
 GRAPH_STRIPE_PATTERN_WIDTH
+)
 ;
 const
 height
 =
+(
 canvas
 .
 height
 =
 GRAPH_STRIPE_PATTERN_HEIGHT
+)
 ;
 ctx
 .

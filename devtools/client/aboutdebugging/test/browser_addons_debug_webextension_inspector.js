@@ -279,9 +279,7 @@ body
 .
 then
 (
-(
 nodeActor
-)
 =
 >
 {
@@ -317,11 +315,9 @@ n
 if
 (
 !
-(
 nodeActor
 .
 inlineTextChild
-)
 )
 {
 throw
@@ -464,9 +460,7 @@ destroy
 .
 catch
 (
-(
 error
-)
 =
 >
 {

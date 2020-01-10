@@ -938,9 +938,7 @@ webconsole
 then
 (
 async
-(
 console
-)
 =
 >
 {
@@ -1202,9 +1200,7 @@ frames
 .
 filter
 (
-(
 frame
-)
 =
 >
 {
@@ -1370,9 +1366,7 @@ devtoolsTab
 .
 catch
 (
-(
 error
-)
 =
 >
 {

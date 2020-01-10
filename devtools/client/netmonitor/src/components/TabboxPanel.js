@@ -680,7 +680,6 @@ true
 showWebSocketsTab
 ;
 return
-(
 Tabbar
 (
 {
@@ -958,7 +957,6 @@ connector
 openLink
 request
 }
-)
 )
 )
 )

@@ -413,7 +413,6 @@ SIZE_UNAVAILABLE_TITLE
 text
 ;
 return
-(
 dom
 .
 td
@@ -438,7 +437,6 @@ title
 title
 }
 text
-)
 )
 ;
 }

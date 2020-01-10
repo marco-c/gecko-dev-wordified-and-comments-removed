@@ -164,7 +164,6 @@ unknown
 "
 ;
 return
-(
 dom
 .
 td
@@ -189,7 +188,6 @@ title
 remoteIP
 }
 remoteIP
-)
 )
 ;
 }

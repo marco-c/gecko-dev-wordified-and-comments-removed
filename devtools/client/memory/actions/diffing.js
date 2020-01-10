@@ -118,6 +118,7 @@ getState
 const
 selectSnapshotForDiffing
 =
+(
 exports
 .
 selectSnapshotForDiffing
@@ -158,10 +159,12 @@ snapshot
 }
 ;
 }
+)
 ;
 const
 takeCensusDiff
 =
+(
 exports
 .
 takeCensusDiff
@@ -480,10 +483,12 @@ display
 }
 ;
 }
+)
 ;
 const
 refreshDiffing
 =
+(
 exports
 .
 refreshDiffing
@@ -603,6 +608,7 @@ second
 }
 ;
 }
+)
 ;
 exports
 .

@@ -420,6 +420,7 @@ this
 props
 ;
 return
+(
 !
 propertiesEqual
 (
@@ -439,6 +440,7 @@ timingMarkers
 nextProps
 .
 timingMarkers
+)
 )
 ;
 }
@@ -559,7 +561,6 @@ millis
 )
 ;
 return
-(
 div
 (
 {
@@ -781,7 +782,6 @@ load
 }
 )
 )
-)
 ;
 }
 }
@@ -791,9 +791,7 @@ exports
 =
 connect
 (
-(
 state
-)
 =
 >
 (

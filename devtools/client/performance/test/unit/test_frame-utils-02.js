@@ -34,9 +34,7 @@ utils
 const
 isContent
 =
-(
 frame
-)
 =
 >
 {

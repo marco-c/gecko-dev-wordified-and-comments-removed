@@ -217,6 +217,7 @@ path
 const
 exportSnapshot
 =
+(
 exports
 .
 exportSnapshot
@@ -330,6 +331,7 @@ snapshot
 }
 ;
 }
+)
 ;
 exports
 .

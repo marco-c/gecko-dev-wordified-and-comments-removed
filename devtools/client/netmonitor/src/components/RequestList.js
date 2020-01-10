@@ -155,7 +155,6 @@ isEmpty
 )
 {
 return
-(
 div
 (
 {
@@ -189,7 +188,6 @@ StatusBar
 {
 connector
 }
-)
 )
 )
 ;

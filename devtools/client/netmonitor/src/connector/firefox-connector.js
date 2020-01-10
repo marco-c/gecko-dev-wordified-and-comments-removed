@@ -1426,9 +1426,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1501,9 +1499,7 @@ options
 const
 reconfigureTabAndWaitForNavigation
 =
-(
 options
-)
 =
 >
 {

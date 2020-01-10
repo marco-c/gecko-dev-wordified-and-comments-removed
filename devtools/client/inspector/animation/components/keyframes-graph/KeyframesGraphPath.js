@@ -367,11 +367,13 @@ type
 const
 strokeWidthInViewBox
 =
+(
 DEFAULT_EASING_HINT_STROKE_WIDTH
 /
 2
 /
 componentHeight
+)
 *
 DEFAULT_GRAPH_HEIGHT
 ;

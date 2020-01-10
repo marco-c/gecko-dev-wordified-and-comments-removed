@@ -215,9 +215,7 @@ this
 id
 onExtensionPageMount
 :
-(
 containerEl
-)
 =
 >
 {
@@ -238,9 +236,7 @@ containerEl
 }
 onExtensionPageUnmount
 :
-(
 containerEl
-)
 =
 >
 {
@@ -264,9 +260,7 @@ serviceContainer
 {
 createObjectClient
 :
-(
 object
-)
 =
 >
 {
@@ -289,9 +283,7 @@ object
 }
 releaseActor
 :
-(
 actor
-)
 =
 >
 {
@@ -398,9 +390,7 @@ forceHide
 openNodeInInspector
 :
 async
-(
 grip
-)
 =
 >
 {

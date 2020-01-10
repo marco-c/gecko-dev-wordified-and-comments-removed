@@ -376,6 +376,7 @@ nextState
 )
 {
 return
+(
 this
 .
 props
@@ -398,6 +399,7 @@ length
 =
 =
 0
+)
 ;
 }
 render

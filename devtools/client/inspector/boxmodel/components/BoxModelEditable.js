@@ -362,7 +362,6 @@ length
 LONG_TEXT_ROTATE_LIMIT
 ;
 return
-(
 dom
 .
 p
@@ -462,7 +461,6 @@ span
 }
 }
 textContent
-)
 )
 )
 ;

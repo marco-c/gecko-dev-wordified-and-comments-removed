@@ -197,9 +197,7 @@ wrappedActions
 .
 messagesAdd
 =
-(
 packets
-)
 =
 >
 {

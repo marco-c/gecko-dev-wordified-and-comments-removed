@@ -784,13 +784,11 @@ some
 sp
 =
 >
-(
 "
 winDrive
 "
 in
 sp
-)
 )
 )
 {

@@ -494,12 +494,14 @@ Math
 .
 round
 (
+(
 time
 /
 timeScale
 .
 getDuration
 (
+)
 )
 *
 controllerBounds

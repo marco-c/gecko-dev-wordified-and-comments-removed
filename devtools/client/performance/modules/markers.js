@@ -49,9 +49,7 @@ const
 TIMELINE_BLUEPRINT
 =
 {
-"
 UNKNOWN
-"
 :
 {
 group
@@ -70,9 +68,7 @@ Formatters
 .
 UnknownLabel
 }
-"
 Styles
-"
 :
 {
 group
@@ -105,9 +101,7 @@ Formatters
 .
 StylesFields
 }
-"
 StylesApplyChanges
-"
 :
 {
 group
@@ -135,9 +129,7 @@ stylesApplyChanges
 "
 )
 }
-"
 Reflow
-"
 :
 {
 group
@@ -165,9 +157,7 @@ reflow
 "
 )
 }
-"
 Paint
-"
 :
 {
 group
@@ -195,9 +185,7 @@ paint
 "
 )
 }
-"
 Composite
-"
 :
 {
 group
@@ -225,9 +213,7 @@ composite
 "
 )
 }
-"
 CompositeForwardTransaction
-"
 :
 {
 group
@@ -255,9 +241,7 @@ compositeForwardTransaction
 "
 )
 }
-"
 DOMEvent
-"
 :
 {
 group
@@ -342,9 +326,7 @@ label
 Load
 "
 }
-"
 Javascript
-"
 :
 {
 group
@@ -430,9 +412,7 @@ parseXML
 "
 )
 }
-"
 GarbageCollection
-"
 :
 {
 group
@@ -456,9 +436,7 @@ Formatters
 .
 GCFields
 }
-"
 MinorGC
-"
 :
 {
 group
@@ -569,9 +547,7 @@ Formatters
 .
 CycleCollectionFields
 }
-"
 Worker
-"
 :
 {
 group
@@ -604,9 +580,7 @@ Formatters
 .
 WorkerFields
 }
-"
 MessagePort
-"
 :
 {
 group
@@ -639,9 +613,7 @@ Formatters
 .
 MessagePortFields
 }
-"
 ConsoleTime
-"
 :
 {
 group
@@ -688,9 +660,7 @@ collapsible
 :
 false
 }
-"
 TimeStamp
-"
 :
 {
 group

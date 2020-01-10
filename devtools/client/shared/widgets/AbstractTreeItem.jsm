@@ -1137,6 +1137,7 @@ document
 const
 arrowNode
 =
+(
 this
 .
 _arrowNode
@@ -1148,6 +1149,7 @@ createXULElement
 "
 hbox
 "
+)
 )
 ;
 arrowNode
@@ -1176,6 +1178,7 @@ _onArrowClick
 const
 targetNode
 =
+(
 this
 .
 _targetNode
@@ -1186,6 +1189,7 @@ _displaySelf
 (
 document
 arrowNode
+)
 )
 ;
 targetNode

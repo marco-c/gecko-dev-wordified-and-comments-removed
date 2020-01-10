@@ -551,6 +551,7 @@ getCaller
 }
 }
 return
+(
 histogram
 |
 |
@@ -564,6 +565,7 @@ add
 {
 }
 }
+)
 ;
 }
 getKeyedHistogramById
@@ -640,6 +642,7 @@ getCaller
 }
 }
 return
+(
 histogram
 |
 |
@@ -653,6 +656,7 @@ add
 {
 }
 }
+)
 ;
 }
 scalarSet
@@ -2089,21 +2093,15 @@ tool_timer
 id
 null
 {
-"
 time_open
-"
 :
 time
-"
 os
-"
 :
 this
 .
 osNameAndVersion
-"
 session_id
-"
 :
 sessionId
 }

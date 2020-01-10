@@ -269,7 +269,6 @@ realSecurityState
 ;
 }
 return
-(
 div
 (
 {
@@ -324,7 +323,6 @@ tooltip
 "
 )
 }
-)
 )
 )
 ;

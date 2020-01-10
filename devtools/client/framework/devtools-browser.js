@@ -332,6 +332,7 @@ css
 var
 gDevToolsBrowser
 =
+(
 exports
 .
 gDevToolsBrowser
@@ -2706,6 +2707,7 @@ gBrowser
 currentURI
 ;
 return
+(
 currentURI
 .
 scheme
@@ -2728,6 +2730,7 @@ devtools
 -
 toolbox
 "
+)
 ;
 }
 _getAboutDevtoolsToolbox
@@ -3107,6 +3110,7 @@ shuttingDown
 ;
 }
 }
+)
 ;
 gDevTools
 .

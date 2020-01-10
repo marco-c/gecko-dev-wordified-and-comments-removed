@@ -904,9 +904,7 @@ data
 .
 forEach
 (
-(
 frame
-)
 =
 >
 {

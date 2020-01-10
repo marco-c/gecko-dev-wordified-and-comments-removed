@@ -442,6 +442,7 @@ lastTick
 const
 dataScaleX
 =
+(
 this
 .
 dataScaleX
@@ -455,10 +456,12 @@ this
 .
 dataOffsetX
 )
+)
 ;
 const
 dataScaleY
 =
+(
 this
 .
 dataScaleY
@@ -468,6 +471,7 @@ height
 this
 .
 dampenValuesFactor
+)
 ;
 const
 prevHeights
@@ -786,9 +790,11 @@ beginPath
 const
 averageY
 =
+(
 height
 /
 2
+)
 *
 this
 .

@@ -296,9 +296,7 @@ onScratchpadSelected
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

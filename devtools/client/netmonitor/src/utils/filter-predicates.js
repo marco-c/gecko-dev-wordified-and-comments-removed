@@ -85,6 +85,7 @@ mimeType
 )
 {
 return
+(
 mimeType
 &
 &
@@ -123,6 +124,7 @@ javascript
 "
 )
 )
+)
 ;
 }
 function
@@ -154,6 +156,7 @@ mimeType
 )
 {
 return
+(
 (
 mimeType
 &
@@ -225,6 +228,7 @@ includes
 woff
 "
 )
+)
 ;
 }
 function
@@ -259,6 +263,7 @@ mimeType
 )
 {
 return
+(
 mimeType
 &
 &
@@ -322,6 +327,7 @@ x
 -
 mpegurl
 "
+)
 )
 ;
 }
@@ -399,7 +405,6 @@ header
 >
 {
 return
-(
 header
 .
 name
@@ -412,7 +417,6 @@ toLowerCase
 "
 upgrade
 "
-)
 ;
 }
 )
@@ -449,7 +453,6 @@ header
 >
 {
 return
-(
 header
 .
 name
@@ -462,7 +465,6 @@ toLowerCase
 "
 upgrade
 "
-)
 ;
 }
 )

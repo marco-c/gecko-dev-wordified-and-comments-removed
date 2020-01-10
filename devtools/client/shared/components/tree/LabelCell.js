@@ -209,7 +209,6 @@ open
 ;
 }
 return
-(
 dom
 .
 td
@@ -310,7 +309,6 @@ level
 member
 .
 name
-)
 )
 )
 ;

@@ -135,9 +135,7 @@ javascript
 jsURI
 "
 )
-"
 EventHandlerNonNull
-"
 :
 L10N
 .
@@ -189,9 +187,7 @@ handler
 "
 setTimeout
 "
-"
 FrameRequestCallback
-"
 :
 "
 requestAnimationFrame

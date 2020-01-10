@@ -286,6 +286,7 @@ m
 >
 {
 return
+(
 m
 &
 &
@@ -300,6 +301,7 @@ m
 .
 executionPoint
 executionPoint
+)
 )
 ;
 }
@@ -873,9 +875,7 @@ outputNode
 )
 |
 |
-(
 isNewMessageEvaluationResult
-)
 |
 |
 (
@@ -1041,9 +1041,7 @@ visibleMessages
 .
 map
 (
-(
 messageId
-)
 =
 >
 createElement
@@ -1164,7 +1162,6 @@ maybeScrollToBottom
 )
 ;
 return
-(
 dom
 .
 div
@@ -1202,7 +1199,6 @@ node
 }
 }
 messageNodes
-)
 )
 ;
 }
@@ -1257,6 +1253,7 @@ clientHeight
 0
 ;
 return
+(
 scrollNode
 .
 scrollTop
@@ -1273,6 +1270,7 @@ scrollHeight
 lastNodeHeight
 /
 2
+)
 ;
 }
 function

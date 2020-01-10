@@ -199,6 +199,7 @@ ruleData
 ]
 ;
 return
+(
 ruleAncestry
 .
 map
@@ -249,7 +250,6 @@ rule
 typeName
 }
 {
-(
 rule
 .
 conditionText
@@ -263,7 +263,6 @@ name
 rule
 .
 keyText
-)
 }
 ]
 ;
@@ -418,6 +417,7 @@ ruleId
 .
 pop
 (
+)
 )
 ;
 }
@@ -793,6 +793,7 @@ addDecl
 >
 {
 return
+(
 addDecl
 .
 index
@@ -824,6 +825,7 @@ value
 decl
 .
 value
+)
 ;
 }
 )
@@ -842,6 +844,7 @@ removeDecl
 >
 {
 return
+(
 removeDecl
 .
 index
@@ -873,6 +876,7 @@ value
 decl
 .
 value
+)
 ;
 }
 )
@@ -945,7 +949,6 @@ add
 .
 map
 (
-(
 addDecl
 =
 >
@@ -972,7 +975,6 @@ return
 addDecl
 ;
 }
-)
 )
 ;
 rule
@@ -985,7 +987,6 @@ remove
 .
 map
 (
-(
 removeDecl
 =
 >
@@ -1012,7 +1013,6 @@ return
 removeDecl
 ;
 }
-)
 )
 ;
 }
@@ -1056,6 +1056,7 @@ removeDecl
 >
 {
 return
+(
 removeDecl
 .
 index
@@ -1087,6 +1088,7 @@ property
 decl
 .
 property
+)
 ;
 }
 )
@@ -1105,6 +1107,7 @@ addDecl
 >
 {
 return
+(
 addDecl
 .
 index
@@ -1125,6 +1128,7 @@ property
 decl
 .
 property
+)
 ;
 }
 )

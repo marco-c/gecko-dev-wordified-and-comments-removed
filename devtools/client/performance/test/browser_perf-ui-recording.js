@@ -165,11 +165,9 @@ panel
 ;
 ok
 (
-(
 await
 pmmIsProfilerActive
 (
-)
 )
 "
 The
@@ -194,11 +192,9 @@ panel
 ;
 ok
 (
-(
 await
 pmmIsProfilerActive
 (
-)
 )
 "
 The

@@ -120,7 +120,6 @@ this
 props
 ;
 return
-(
 dom
 .
 td
@@ -146,7 +145,6 @@ StatusCode
 {
 item
 }
-)
 )
 )
 ;

@@ -482,9 +482,11 @@ getDuration
 const
 minTimeInterval
 =
+(
 TIME_GRADUATION_MIN_SPACING
 *
 animationDuration
+)
 /
 width
 ;
@@ -499,9 +501,11 @@ minTimeInterval
 const
 intervalWidth
 =
+(
 intervalLength
 *
 width
+)
 /
 animationDuration
 ;
@@ -640,12 +644,12 @@ position
 i
 *
 intervalWidth
-)
 +
 shiftWidth
 )
 *
 100
+)
 /
 width
 ;

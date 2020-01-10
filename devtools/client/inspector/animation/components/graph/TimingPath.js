@@ -196,9 +196,11 @@ min
 (
 1
 -
+(
 iterationStart
 %
 1
+)
 iterationCount
 )
 ;

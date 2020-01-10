@@ -435,9 +435,7 @@ this
 layouts
 =
 {
-"
 position
-"
 :
 new
 Map
@@ -483,9 +481,7 @@ positionLayout
 ]
 ]
 )
-"
 margin
-"
 :
 new
 Map
@@ -537,9 +533,7 @@ marginLayout
 ]
 ]
 )
-"
 border
-"
 :
 new
 Map
@@ -587,9 +581,7 @@ borderLayout
 ]
 ]
 )
-"
 padding
-"
 :
 new
 Map
@@ -641,9 +633,7 @@ paddingLayout
 ]
 ]
 )
-"
 content
-"
 :
 new
 Map
@@ -2426,7 +2416,6 @@ height
 )
 ;
 return
-(
 dom
 .
 div
@@ -3334,7 +3323,6 @@ onShowRulePreviewTooltip
 }
 )
 contentBox
-)
 )
 ;
 }

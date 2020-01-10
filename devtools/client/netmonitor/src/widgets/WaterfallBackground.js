@@ -241,6 +241,7 @@ return
 const
 canvasWidth
 =
+(
 this
 .
 canvas
@@ -254,10 +255,12 @@ waterfallWidth
 REQUESTS_WATERFALL
 .
 LABEL_WIDTH
+)
 ;
 const
 canvasHeight
 =
+(
 this
 .
 canvas
@@ -265,6 +268,7 @@ canvas
 height
 =
 1
+)
 ;
 const
 imageData

@@ -187,7 +187,6 @@ null
 ;
 }
 return
-(
 dom
 .
 ul
@@ -238,7 +237,6 @@ showDeclarationValueEditor
 )
 ;
 }
-)
 )
 )
 ;

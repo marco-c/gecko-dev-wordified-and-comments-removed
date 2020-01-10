@@ -634,7 +634,6 @@ parent
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -647,7 +646,6 @@ div
 1
 "
 PSEUDO
-)
 )
 "
 pseudo

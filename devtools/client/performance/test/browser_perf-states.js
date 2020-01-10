@@ -160,7 +160,6 @@ correct
 ok
 (
 !
-(
 OverviewView
 .
 graphs
@@ -170,7 +169,6 @@ get
 "
 timeline
 "
-)
 )
 "
 The
@@ -189,7 +187,6 @@ yet
 ok
 (
 !
-(
 OverviewView
 .
 graphs
@@ -199,7 +196,6 @@ get
 "
 memory
 "
-)
 )
 "
 The
@@ -218,7 +214,6 @@ yet
 ok
 (
 !
-(
 OverviewView
 .
 graphs
@@ -228,7 +223,6 @@ get
 "
 framerate
 "
-)
 )
 "
 The
@@ -420,7 +414,6 @@ true
 ok
 (
 !
-(
 OverviewView
 .
 graphs
@@ -430,7 +423,6 @@ get
 "
 timeline
 "
-)
 )
 "
 The
@@ -450,7 +442,6 @@ yet
 ok
 (
 !
-(
 OverviewView
 .
 graphs
@@ -460,7 +451,6 @@ get
 "
 memory
 "
-)
 )
 "
 The
@@ -480,7 +470,6 @@ yet
 ok
 (
 !
-(
 OverviewView
 .
 graphs
@@ -490,7 +479,6 @@ get
 "
 framerate
 "
-)
 )
 "
 The

@@ -143,9 +143,7 @@ getState
 .
 filter
 (
-(
 req
-)
 =
 >
 !
@@ -156,9 +154,7 @@ stacktrace
 .
 map
 (
-(
 req
-)
 =
 >
 connector

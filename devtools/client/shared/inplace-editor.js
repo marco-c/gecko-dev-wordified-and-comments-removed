@@ -3076,7 +3076,6 @@ value
 )
 &
 &
-(
 m
 .
 index
@@ -3089,7 +3088,6 @@ m
 length
 <
 offset
-)
 )
 {
 value
@@ -3308,7 +3306,6 @@ offsetEnd
 &
 &
 !
-(
 /
 \
 d
@@ -3330,7 +3327,6 @@ value
 charAt
 (
 offsetEnd
-)
 )
 )
 )
@@ -4110,7 +4106,6 @@ increment
 {
 increment
 =
-(
 increment
 <
 0
@@ -4119,7 +4114,6 @@ increment
 1
 :
 1
-)
 ;
 }
 if
@@ -4138,7 +4132,6 @@ increment
 {
 increment
 =
-(
 increment
 <
 0
@@ -4147,13 +4140,11 @@ increment
 16
 :
 16
-)
 ;
 }
 const
 isUpper
 =
-(
 rawValue
 .
 toUpperCase
@@ -4163,7 +4154,6 @@ toUpperCase
 =
 =
 rawValue
-)
 ;
 for
 (
@@ -6061,9 +6051,7 @@ event
 const
 getSmallIncrementKey
 =
-(
 evt
-)
 =
 >
 {

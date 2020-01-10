@@ -384,9 +384,7 @@ view
 contextMenu
 .
 _colorToCopy
-(
 correct
-)
 ?
 "
 rgb
@@ -420,7 +418,6 @@ node
 let
 container
 =
-(
 node
 .
 nodeType
@@ -429,7 +426,6 @@ nodeType
 node
 .
 TEXT_NODE
-)
 ?
 node
 .
@@ -559,7 +555,6 @@ view
 view
 .
 element
-)
 ?
 view
 .
@@ -568,4 +563,5 @@ element
 view
 .
 styleDocument
+)
 ;

@@ -224,7 +224,6 @@ removed
 ;
 is
 (
-(
 await
 testActor
 .
@@ -237,7 +236,6 @@ yay
 "
 textContent
 "
-)
 )
 "
 load

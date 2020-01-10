@@ -550,7 +550,6 @@ disabledTitle
 ;
 }
 return
-(
 div
 (
 {
@@ -687,7 +686,6 @@ this
 .
 onLearnMoreClick
 }
-)
 )
 )
 ;

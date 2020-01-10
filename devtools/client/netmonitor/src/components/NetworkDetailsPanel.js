@@ -213,7 +213,6 @@ null
 ;
 }
 return
-(
 div
 (
 {
@@ -253,7 +252,6 @@ CustomRequestPanel
 connector
 request
 }
-)
 )
 )
 ;
@@ -332,9 +330,7 @@ exports
 =
 connect
 (
-(
 state
-)
 =
 >
 (
@@ -354,9 +350,7 @@ state
 )
 }
 )
-(
 dispatch
-)
 =
 >
 (
@@ -377,9 +371,7 @@ cloneSelectedRequest
 )
 selectTab
 :
-(
 tabId
-)
 =
 >
 dispatch
@@ -407,9 +399,7 @@ toggleNetworkDetails
 )
 openNetworkDetails
 :
-(
 open
-)
 =
 >
 dispatch

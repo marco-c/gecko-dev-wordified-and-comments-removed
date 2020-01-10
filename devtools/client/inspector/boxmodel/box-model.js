@@ -521,6 +521,7 @@ isPanelVisible
 )
 {
 return
+(
 this
 .
 inspector
@@ -550,7 +551,6 @@ inspector
 "
 &
 &
-(
 this
 .
 inspector
@@ -574,6 +574,7 @@ isPanelVisibleAndNodeValid
 )
 {
 return
+(
 this
 .
 isPanelVisible
@@ -600,6 +601,7 @@ selection
 .
 isElementNode
 (
+)
 )
 ;
 }
@@ -676,8 +678,6 @@ reason
 const
 lastRequest
 =
-(
-(
 async
 function
 (
@@ -939,12 +939,10 @@ return
 null
 ;
 }
-)
 .
 bind
 (
 this
-)
 )
 (
 )

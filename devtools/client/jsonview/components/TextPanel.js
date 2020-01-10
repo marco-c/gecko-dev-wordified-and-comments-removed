@@ -194,7 +194,6 @@ render
 )
 {
 return
-(
 div
 (
 {
@@ -248,7 +247,6 @@ props
 .
 data
 }
-)
 )
 )
 )

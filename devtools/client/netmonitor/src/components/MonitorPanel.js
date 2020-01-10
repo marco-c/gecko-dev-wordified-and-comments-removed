@@ -746,7 +746,6 @@ height
 )
 ;
 return
-(
 div
 (
 {
@@ -858,7 +857,6 @@ onNetworkDetailsResized
 }
 )
 )
-)
 ;
 }
 }
@@ -868,9 +866,7 @@ exports
 =
 connect
 (
-(
 state
-)
 =
 >
 (
@@ -908,18 +904,14 @@ state
 )
 }
 )
-(
 dispatch
-)
 =
 >
 (
 {
 openNetworkDetails
 :
-(
 open
-)
 =
 >
 dispatch

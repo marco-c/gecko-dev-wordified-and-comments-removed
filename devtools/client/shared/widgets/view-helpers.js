@@ -368,6 +368,7 @@ object
 )
 {
 return
+(
 object
 instanceof
 Node
@@ -389,6 +390,7 @@ object
 "
 DocumentFragment
 "
+)
 ;
 }
 preventScrolling
@@ -467,6 +469,7 @@ event
 )
 {
 return
+(
 event
 .
 keyCode
@@ -487,6 +490,7 @@ keyCode
 KeyCodes
 .
 DOM_VK_RETURN
+)
 ;
 }
 togglePane

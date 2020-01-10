@@ -581,6 +581,7 @@ editing
 )
 {
 return
+(
 !
 !
 (
@@ -613,6 +614,7 @@ this
 popup
 .
 isOpen
+)
 ;
 }
 get
@@ -1183,9 +1185,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -1294,9 +1294,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -1340,9 +1338,7 @@ addEventListener
 "
 mousedown
 "
-(
 event
-)
 =
 >
 {
@@ -1380,9 +1376,7 @@ ACTIONABLE_ELEMENTS_SELECTORS
 .
 find
 (
-(
 selector
-)
 =
 >
 clickedEl
@@ -1446,9 +1440,7 @@ addEventListener
 "
 mouseup
 "
-(
 event
-)
 =
 >
 {
@@ -1476,9 +1468,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -3413,6 +3403,7 @@ shouldShowComputedExpander
 )
 {
 return
+(
 this
 .
 prop
@@ -3454,6 +3445,7 @@ c
 c
 .
 value
+)
 )
 ;
 }
@@ -4355,9 +4347,7 @@ ruleview
 "
 null
 {
-"
 session_id
-"
 :
 this
 .
@@ -4693,9 +4683,7 @@ ruleview
 "
 null
 {
-"
 session_id
-"
 :
 this
 .
@@ -5077,6 +5065,7 @@ isEditing
 )
 |
 |
+(
 !
 parsedProperties
 .
@@ -5109,6 +5098,7 @@ priority
 val
 .
 priority
+)
 ;
 if
 (
@@ -5174,9 +5164,7 @@ ruleview
 "
 null
 {
-"
 session_id
-"
 :
 this
 .
@@ -5668,6 +5656,7 @@ function
 )
 {
 return
+(
 this
 .
 prop
@@ -5708,6 +5697,7 @@ inline
 -
 flex
 "
+)
 )
 ;
 }
@@ -5718,6 +5708,7 @@ function
 )
 {
 return
+(
 this
 .
 prop
@@ -5758,6 +5749,7 @@ inline
 -
 grid
 "
+)
 )
 ;
 }

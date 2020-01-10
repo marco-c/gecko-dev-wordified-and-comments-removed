@@ -643,6 +643,7 @@ maxHighlighters
 )
 ;
 return
+(
 maxGridHighlighters
 =
 =
@@ -666,6 +667,7 @@ gridHighlighters
 has
 (
 node
+)
 )
 ;
 }
@@ -1096,6 +1098,7 @@ color
 const
 customHostColors
 =
+(
 await
 asyncStorage
 .
@@ -1104,6 +1107,7 @@ getItem
 "
 flexboxInspectorHostColors
 "
+)
 )
 |
 |
@@ -1961,11 +1965,13 @@ subgrid
 "
 &
 &
+(
 await
 this
 .
 canGetParentGridNode
 (
+)
 )
 )
 {
@@ -3970,6 +3976,7 @@ false
 ;
 }
 return
+(
 nodeInfo
 .
 type
@@ -3990,6 +3997,7 @@ property
 "
 transform
 "
+)
 ;
 }
 _isRuleViewDisplayFlex
@@ -4054,6 +4062,7 @@ node
 )
 {
 return
+(
 this
 .
 isRuleView
@@ -4073,6 +4082,7 @@ ruleview
 -
 shapeswatch
 "
+)
 )
 ;
 }
@@ -4243,6 +4253,7 @@ value
 pseudoElement
 ;
 return
+(
 isShape
 &
 &
@@ -4266,6 +4277,7 @@ shapes
 options
 .
 transformMode
+)
 ;
 }
 onClick

@@ -643,13 +643,11 @@ style
 .
 marginInlineStart
 =
-(
 this
 .
 level
 *
 10
-)
 +
 "
 px

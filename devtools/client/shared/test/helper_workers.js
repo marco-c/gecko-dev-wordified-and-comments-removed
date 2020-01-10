@@ -1097,6 +1097,7 @@ focus
 const
 tab
 =
+(
 targetBrowser
 .
 selectedTab
@@ -1107,6 +1108,7 @@ addTab
 (
 targetBrowser
 url
+)
 )
 ;
 const
@@ -1371,9 +1373,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 aPrefs
 }

@@ -1827,9 +1827,9 @@ return
 undefined
 ;
 }
+)
 (
 root
-)
 )
 ;
 }

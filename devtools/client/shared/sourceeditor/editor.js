@@ -2235,9 +2235,7 @@ defineExtension
 "
 l10n
 "
-(
 name
-)
 =
 >
 {
@@ -3352,9 +3350,7 @@ eachLine
 (
 start
 end
-(
 line
-)
 =
 >
 {
@@ -3811,9 +3807,7 @@ let
 topLine
 =
 {
-"
 center
-"
 :
 Math
 .
@@ -3824,9 +3818,7 @@ line
 halfVisible
 0
 )
-"
 bottom
-"
 :
 Math
 .
@@ -3839,9 +3831,7 @@ linesVisible
 offset
 0
 )
-"
 top
-"
 :
 Math
 .
@@ -4638,9 +4628,7 @@ args
 .
 map
 (
-(
 ind
-)
 =
 >
 cm
@@ -4695,9 +4683,7 @@ args
 .
 map
 (
-(
 pos
-)
 =
 >
 cm
@@ -5127,9 +5113,7 @@ this
 openDialog
 (
 div
-(
 line
-)
 =
 >
 {
@@ -7228,6 +7212,7 @@ modifiers
 {
 return
 (
+(
 modifiers
 .
 shift
@@ -7279,6 +7264,7 @@ Alt
 )
 +
 key
+)
 ;
 }
 ;

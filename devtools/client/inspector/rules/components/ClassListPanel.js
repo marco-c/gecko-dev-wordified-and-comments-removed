@@ -361,7 +361,6 @@ render
 )
 {
 return
-(
 dom
 .
 div
@@ -479,7 +478,6 @@ isApplied
 >
 {
 return
-(
 dom
 .
 label
@@ -524,7 +522,6 @@ span
 name
 )
 )
-)
 ;
 }
 )
@@ -551,7 +548,6 @@ classPanel
 .
 noClasses
 "
-)
 )
 )
 )

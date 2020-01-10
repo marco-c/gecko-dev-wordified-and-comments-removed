@@ -130,12 +130,14 @@ toPercentage
 v
 =
 >
+(
 v
 /
 timeScale
 .
 getDuration
 (
+)
 )
 *
 100

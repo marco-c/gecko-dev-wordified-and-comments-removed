@@ -1999,12 +1999,10 @@ openState
 .
 messagesById
 =
-(
 new
 Map
 (
 messagesById
-)
 )
 .
 set
@@ -2247,12 +2245,10 @@ return
 state
 messagesPayloadById
 :
-(
 new
 Map
 (
 messagesPayloadById
-)
 )
 .
 set
@@ -4270,6 +4266,7 @@ messagesUI
 )
 {
 return
+(
 !
 message
 .
@@ -4299,6 +4296,7 @@ message
 groupId
 )
 messagesUI
+)
 )
 )
 ;
@@ -4484,7 +4482,6 @@ filters
 )
 {
 return
-(
 message
 .
 source
@@ -4503,7 +4500,6 @@ css
 =
 =
 true
-)
 ;
 }
 function
@@ -4804,12 +4800,10 @@ prop
 const
 str
 =
-(
 prop
 +
 "
 "
-)
 ;
 return
 regex

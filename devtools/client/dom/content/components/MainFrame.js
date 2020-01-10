@@ -175,7 +175,6 @@ this
 props
 ;
 return
-(
 div
 (
 {
@@ -236,16 +235,13 @@ url
 )
 )
 )
-)
 ;
 }
 }
 const
 mapStateToProps
 =
-(
 state
-)
 =
 >
 {

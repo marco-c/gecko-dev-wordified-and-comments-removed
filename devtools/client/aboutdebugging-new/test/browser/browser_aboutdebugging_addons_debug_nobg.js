@@ -501,9 +501,7 @@ devtoolsTab
 .
 catch
 (
-(
 error
-)
 =
 >
 {

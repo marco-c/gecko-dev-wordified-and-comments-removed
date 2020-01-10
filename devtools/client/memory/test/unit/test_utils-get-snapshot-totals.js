@@ -481,7 +481,6 @@ for
 const
 child
 of
-(
 report
 .
 children
@@ -489,7 +488,6 @@ children
 |
 [
 ]
-)
 )
 {
 const

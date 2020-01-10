@@ -116,9 +116,7 @@ assign
 }
 baseMessage
 {
-"
 timeStamp
-"
 :
 1
 }
@@ -135,9 +133,7 @@ assign
 }
 baseMessage
 {
-"
 timeStamp
-"
 :
 2
 }
@@ -210,9 +206,7 @@ assign
 }
 message1
 {
-"
 parameters
-"
 :
 [
 "
@@ -292,9 +286,7 @@ assign
 }
 message1
 {
-"
 level
-"
 :
 "
 error

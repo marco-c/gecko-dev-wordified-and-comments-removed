@@ -164,7 +164,6 @@ mimeType
 ;
 }
 return
-(
 dom
 .
 td
@@ -189,7 +188,6 @@ title
 mimeType
 }
 abbrevType
-)
 )
 ;
 }

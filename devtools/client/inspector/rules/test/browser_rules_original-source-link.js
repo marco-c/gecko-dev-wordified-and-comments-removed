@@ -516,6 +516,7 @@ function
 )
 {
 return
+(
 label
 .
 textContent
@@ -538,6 +539,7 @@ title
 URL_ROOT
 +
 text
+)
 ;
 }
 "

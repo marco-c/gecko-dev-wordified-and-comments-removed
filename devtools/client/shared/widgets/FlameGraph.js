@@ -498,9 +498,9 @@ PALLETTE_HUE_OFFSET
 i
 /
 PALLETTE_SIZE
+)
 *
 PALLETTE_HUE_RANGE
-)
 )
 |
 0
@@ -621,6 +621,7 @@ devicePixelRatio
 const
 container
 =
+(
 this
 .
 _container
@@ -636,6 +637,7 @@ graph
 -
 container
 "
+)
 )
 ;
 container
@@ -660,6 +662,7 @@ container
 const
 canvas
 =
+(
 this
 .
 _canvas
@@ -675,6 +678,7 @@ graph
 -
 canvas
 "
+)
 )
 ;
 canvas
@@ -4452,11 +4456,13 @@ mouseX
 const
 vector
 =
+(
 e
 .
 detail
 *
 GRAPH_WHEEL_ZOOM_SENSITIVITY
+)
 /
 selectionScale
 ;
@@ -4490,11 +4496,13 @@ HORIZONTAL_AXIS
 const
 vector
 =
+(
 e
 .
 detail
 *
 GRAPH_WHEEL_SCROLL_SENSITIVITY
+)
 /
 selectionScale
 ;
@@ -5546,13 +5554,11 @@ prevFrame
 .
 width
 =
-(
 time
 -
 prevFrame
 .
 startTime
-)
 ;
 }
 else
@@ -5629,6 +5635,7 @@ bucket
 .
 push
 (
+(
 prevFrames
 [
 frameIndex
@@ -5661,6 +5668,7 @@ text
 :
 label
 }
+)
 )
 ;
 }
@@ -5884,13 +5892,11 @@ line
 =
 null
 ?
-(
 "
 :
 "
 +
 line
-)
 :
 "
 "

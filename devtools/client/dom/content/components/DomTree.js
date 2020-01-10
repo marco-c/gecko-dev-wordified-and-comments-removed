@@ -249,7 +249,6 @@ true
 ;
 }
 return
-(
 object
 .
 name
@@ -270,7 +269,6 @@ filter
 >
 -
 1
-)
 ;
 }
 render
@@ -294,9 +292,7 @@ columns
 =
 [
 {
-"
 id
-"
 :
 "
 value
@@ -416,9 +412,7 @@ null
 onInspectIconClick
 =
 async
-(
 grip
-)
 =
 >
 {
@@ -554,7 +548,6 @@ cropLimit
 }
 ;
 return
-(
 TreeView
 (
 {
@@ -588,16 +581,13 @@ dispatch
 renderValue
 }
 )
-)
 ;
 }
 }
 const
 mapStateToProps
 =
-(
 state
-)
 =
 >
 {

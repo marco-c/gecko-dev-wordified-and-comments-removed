@@ -756,7 +756,6 @@ if
 selection
 |
 |
-(
 selection
 .
 max
@@ -764,7 +763,6 @@ max
 selection
 .
 min
-)
 <
 1
 )

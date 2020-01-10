@@ -568,7 +568,6 @@ componentProps
 item
 ;
 return
-(
 li
 (
 {
@@ -643,7 +642,6 @@ componentProps
 |
 {
 }
-)
 )
 )
 )
@@ -814,6 +812,7 @@ this
 state
 ;
 return
+(
 current
 !
 =
@@ -839,6 +838,7 @@ mouseDown
 nextState
 .
 mouseDown
+)
 ;
 }
 _preventArrowKeyScrolling
@@ -1114,11 +1114,9 @@ case
 ArrowUp
 "
 :
-(
 current
 >
 0
-)
 &
 &
 this
@@ -1144,13 +1142,11 @@ case
 ArrowDown
 "
 :
-(
 current
 <
 length
 -
 1
-)
 &
 &
 this
@@ -1336,7 +1332,6 @@ this
 props
 ;
 return
-(
 ul
 (
 {
@@ -1529,12 +1524,10 @@ aria
 activedescendant
 "
 :
-(
 current
 !
 =
 null
-)
 ?
 items
 [
@@ -1619,7 +1612,6 @@ true
 )
 ;
 }
-)
 )
 )
 ;

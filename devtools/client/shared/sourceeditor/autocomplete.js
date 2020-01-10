@@ -987,14 +987,10 @@ let
 keyMap
 =
 {
-"
 Tab
-"
 :
 cycle
-"
 Down
-"
 :
 cycle
 "
@@ -1010,9 +1006,7 @@ bind
 null
 true
 )
-"
 Up
-"
 :
 cycle
 .
@@ -1021,9 +1015,7 @@ bind
 null
 true
 )
-"
 Enter
-"
 :
 (
 )

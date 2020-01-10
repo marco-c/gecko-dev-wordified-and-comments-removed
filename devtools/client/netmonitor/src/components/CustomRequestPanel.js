@@ -624,7 +624,6 @@ value
 :
 data
 =
-(
 evt
 .
 type
@@ -642,7 +641,6 @@ val
 =
 "
 "
-)
 ?
 {
 method
@@ -1037,7 +1035,6 @@ text
 "
 ;
 return
-(
 div
 (
 {
@@ -1241,9 +1238,7 @@ value
 "
 onChange
 :
-(
 evt
-)
 =
 >
 this
@@ -1256,9 +1251,7 @@ updateRequest
 )
 onBlur
 :
-(
 evt
-)
 =
 >
 this
@@ -1328,9 +1321,7 @@ value
 "
 onChange
 :
-(
 evt
-)
 =
 >
 this
@@ -1427,9 +1418,7 @@ value
 "
 onChange
 :
-(
 evt
-)
 =
 >
 this
@@ -1526,9 +1515,7 @@ value
 "
 onChange
 :
-(
 evt
-)
 =
 >
 this
@@ -1623,9 +1610,7 @@ value
 "
 onChange
 :
-(
 evt
-)
 =
 >
 this
@@ -1651,7 +1636,6 @@ off
 )
 )
 )
-)
 ;
 }
 }
@@ -1661,9 +1645,7 @@ exports
 =
 connect
 (
-(
 state
-)
 =
 >
 (

@@ -316,7 +316,6 @@ this
 state
 ;
 return
-(
 dom
 .
 span
@@ -365,7 +364,6 @@ tooltip
 "
 )
 }
-)
 )
 ;
 }

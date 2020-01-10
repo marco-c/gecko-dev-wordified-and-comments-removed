@@ -558,7 +558,6 @@ MESSAGE_TIMESTAMP
 const
 services
 =
-(
 options
 .
 services
@@ -566,7 +565,6 @@ services
 |
 {
 }
-)
 ;
 const
 middleware

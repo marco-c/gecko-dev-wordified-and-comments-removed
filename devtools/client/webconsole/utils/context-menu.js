@@ -730,9 +730,7 @@ options
 .
 then
 (
-(
 res
-)
 =
 >
 {
@@ -915,14 +913,12 @@ accesskey
 )
 disabled
 :
-(
 !
 actor
 &
 &
 !
 variableText
-)
 click
 :
 (
@@ -951,9 +947,7 @@ actor
 .
 then
 (
-(
 res
-)
 =
 >
 {

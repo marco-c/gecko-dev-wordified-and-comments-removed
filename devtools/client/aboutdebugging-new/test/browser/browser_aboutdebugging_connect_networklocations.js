@@ -599,6 +599,7 @@ element
 >
 {
 return
+(
 element
 .
 querySelector
@@ -620,6 +621,7 @@ textContent
 =
 =
 location
+)
 ;
 }
 )

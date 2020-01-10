@@ -19,9 +19,7 @@ callFrames
 .
 forEach
 (
-(
 frame
-)
 =
 >
 {
@@ -154,9 +152,7 @@ headers
 .
 map
 (
-(
 value
-)
 =
 >
 {

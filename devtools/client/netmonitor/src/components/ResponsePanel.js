@@ -881,7 +881,6 @@ state
 imageDimensions
 ;
 return
-(
 div
 (
 {
@@ -1058,7 +1057,6 @@ value
 "
 }
 mimeType
-)
 )
 )
 )
@@ -1260,7 +1258,6 @@ preview
 ;
 }
 return
-(
 div
 (
 {
@@ -1312,7 +1309,6 @@ object
 )
 openLink
 }
-)
 )
 )
 ;

@@ -692,6 +692,7 @@ this
 .
 _customHostColors
 =
+(
 await
 asyncStorage
 .
@@ -700,6 +701,7 @@ getItem
 "
 flexboxInspectorHostColors
 "
+)
 )
 |
 |
@@ -1056,6 +1058,7 @@ isPanelVisible
 )
 {
 return
+(
 this
 .
 inspector
@@ -1105,6 +1108,7 @@ getCurrentTabID
 "
 layoutview
 "
+)
 ;
 }
 onHighlighterShown
@@ -1996,6 +2000,7 @@ newFlexContainer
 )
 {
 return
+(
 JSON
 .
 stringify
@@ -2015,6 +2020,7 @@ stringify
 getComparableFlexContainerProperties
 (
 newFlexContainer
+)
 )
 )
 ;

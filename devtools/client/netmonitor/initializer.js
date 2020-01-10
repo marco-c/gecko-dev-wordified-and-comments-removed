@@ -34,6 +34,7 @@ js
 const
 require
 =
+(
 window
 .
 windowRequire
@@ -60,6 +61,7 @@ window
 )
 .
 require
+)
 ;
 const
 {

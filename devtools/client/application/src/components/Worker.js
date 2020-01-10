@@ -897,9 +897,7 @@ worker
 -
 updated
 "
-"
 date
-"
 :
 worker
 .

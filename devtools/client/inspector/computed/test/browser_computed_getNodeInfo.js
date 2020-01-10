@@ -492,10 +492,9 @@ nodeInfo
 value
 .
 value
-"
+'
 url
 (
-\
 "
 chrome
 :
@@ -512,10 +511,9 @@ warning
 64
 .
 png
-\
 "
 )
-"
+'
 )
 ;
 is

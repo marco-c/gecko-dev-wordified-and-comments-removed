@@ -144,9 +144,7 @@ latency
 forEach
 (
 async
-(
 column
-)
 =
 >
 {

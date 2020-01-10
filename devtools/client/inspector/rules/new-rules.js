@@ -923,6 +923,7 @@ emulation
 ;
 if
 (
+(
 await
 target
 .
@@ -934,6 +935,7 @@ emulation
 "
 getIsPrintSimulationEnabled
 "
+)
 )
 &
 &
@@ -1594,6 +1596,7 @@ isPanelVisible
 )
 {
 return
+(
 this
 .
 inspector
@@ -1643,6 +1646,7 @@ getCurrentTabID
 "
 newruleview
 "
+)
 ;
 }
 async
@@ -1964,9 +1968,7 @@ ruleview
 "
 null
 {
-"
 session_id
-"
 :
 this
 .
@@ -2327,9 +2329,7 @@ ruleview
 "
 null
 {
-"
 session_id
-"
 :
 this
 .
@@ -2497,9 +2497,7 @@ ruleview
 "
 null
 {
-"
 session_id
-"
 :
 this
 .
@@ -2657,9 +2655,7 @@ ruleview
 "
 null
 {
-"
 session_id
-"
 :
 this
 .

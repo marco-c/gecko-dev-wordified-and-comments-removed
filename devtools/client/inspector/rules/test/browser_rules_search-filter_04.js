@@ -283,7 +283,7 @@ view
 {
 info
 (
-"
+'
 Press
 backspace
 and
@@ -291,12 +291,10 @@ set
 filter
 text
 to
-\
 "
 00
-\
 "
-"
+'
 )
 ;
 const

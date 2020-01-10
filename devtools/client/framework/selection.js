@@ -494,6 +494,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -513,6 +514,7 @@ this
 _nodeFront
 .
 isDocumentElement
+)
 ;
 }
 isNode
@@ -643,6 +645,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -660,6 +663,7 @@ nodeType
 nodeConstants
 .
 ELEMENT_NODE
+)
 ;
 }
 isPseudoElementNode
@@ -711,6 +715,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -728,6 +733,7 @@ nodeType
 nodeConstants
 .
 ATTRIBUTE_NODE
+)
 ;
 }
 isTextNode
@@ -763,6 +769,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -780,6 +787,7 @@ nodeType
 nodeConstants
 .
 CDATA_SECTION_NODE
+)
 ;
 }
 isEntityRefNode
@@ -789,6 +797,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -806,6 +815,7 @@ nodeType
 nodeConstants
 .
 ENTITY_REFERENCE_NODE
+)
 ;
 }
 isEntityNode
@@ -815,6 +825,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -832,6 +843,7 @@ nodeType
 nodeConstants
 .
 ENTITY_NODE
+)
 ;
 }
 isProcessingInstructionNode
@@ -841,6 +853,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -858,6 +871,7 @@ nodeType
 nodeConstants
 .
 PROCESSING_INSTRUCTION_NODE
+)
 ;
 }
 isCommentNode
@@ -867,6 +881,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -884,6 +899,7 @@ nodeType
 nodeConstants
 .
 PROCESSING_INSTRUCTION_NODE
+)
 ;
 }
 isDocumentNode
@@ -893,6 +909,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -910,6 +927,7 @@ nodeType
 nodeConstants
 .
 DOCUMENT_NODE
+)
 ;
 }
 isBodyNode
@@ -919,6 +937,7 @@ function
 )
 {
 return
+(
 this
 .
 isHTMLNode
@@ -944,6 +963,7 @@ nodeName
 "
 BODY
 "
+)
 ;
 }
 isHeadNode
@@ -953,6 +973,7 @@ function
 )
 {
 return
+(
 this
 .
 isHTMLNode
@@ -978,6 +999,7 @@ nodeName
 "
 HEAD
 "
+)
 ;
 }
 isDocumentTypeNode
@@ -987,6 +1009,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -1004,6 +1027,7 @@ nodeType
 nodeConstants
 .
 DOCUMENT_TYPE_NODE
+)
 ;
 }
 isDocumentFragmentNode
@@ -1013,6 +1037,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -1030,6 +1055,7 @@ nodeType
 nodeConstants
 .
 DOCUMENT_FRAGMENT_NODE
+)
 ;
 }
 isNotationNode
@@ -1039,6 +1065,7 @@ function
 )
 {
 return
+(
 this
 .
 isNode
@@ -1056,6 +1083,7 @@ nodeType
 nodeConstants
 .
 NOTATION_NODE
+)
 ;
 }
 isSlotted

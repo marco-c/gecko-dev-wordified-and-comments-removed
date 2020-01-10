@@ -83,9 +83,7 @@ TEST_URL
 then
 (
 async
-(
 tab
-)
 =
 >
 {
@@ -129,9 +127,7 @@ waitForToolInstanceBuild
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -151,9 +147,7 @@ waitForToolInstanceDestroyed
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -179,9 +173,7 @@ waitForToolInstanceBuild
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

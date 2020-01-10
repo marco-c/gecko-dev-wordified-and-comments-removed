@@ -1627,9 +1627,7 @@ unbusy
 )
 ;
 }
-(
 e
-)
 =
 >
 {
@@ -1682,13 +1680,11 @@ operationDescription
 (
 e
 ?
-(
 "
 :
 "
 +
 e
-)
 :
 "
 "
@@ -4784,6 +4780,7 @@ height
 const
 promise
 =
+(
 this
 .
 toolboxPromise
@@ -4844,6 +4841,7 @@ toolbox
 console
 .
 error
+)
 )
 ;
 return

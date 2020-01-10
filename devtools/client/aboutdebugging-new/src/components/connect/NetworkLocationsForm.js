@@ -507,9 +507,7 @@ form
 "
 onSubmit
 :
-(
 e
-)
 =
 >
 this
@@ -626,9 +624,7 @@ state
 value
 onChange
 :
-(
 e
-)
 =
 >
 {

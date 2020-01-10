@@ -216,9 +216,7 @@ null
 const
 handler
 =
-(
 e
-)
 =
 >
 {

@@ -50,6 +50,7 @@ properties
 const
 L10N
 =
+(
 exports
 .
 L10N
@@ -58,6 +59,7 @@ new
 LocalizationHelper
 (
 STRINGS_URI
+)
 )
 ;
 const
@@ -1289,6 +1291,7 @@ snapshot
 {
 return
 (
+(
 snapshot
 .
 census
@@ -1348,6 +1351,7 @@ state
 states
 .
 READ
+)
 ;
 }
 ;
@@ -1552,6 +1556,7 @@ census
 )
 {
 return
+(
 census
 &
 &
@@ -1570,6 +1575,7 @@ display
 census
 .
 display
+)
 ;
 }
 ;
@@ -1583,6 +1589,7 @@ snapshot
 )
 {
 return
+(
 snapshot
 .
 state
@@ -1594,7 +1601,6 @@ states
 READ
 &
 &
-(
 (
 !
 snapshot
@@ -1613,7 +1619,6 @@ state
 censusState
 .
 SAVED
-)
 |
 |
 (
@@ -1636,6 +1641,7 @@ treeMapState
 SAVED
 )
 )
+)
 ;
 }
 ;
@@ -1649,6 +1655,7 @@ snapshot
 )
 {
 return
+(
 snapshot
 .
 dominatorTree
@@ -1692,6 +1699,7 @@ state
 dominatorTreeState
 .
 INCREMENTAL_FETCHING
+)
 )
 ;
 }
@@ -1927,13 +1935,11 @@ for
 const
 filter
 of
-(
 filters
 |
 |
 [
 ]
-)
 )
 {
 fp

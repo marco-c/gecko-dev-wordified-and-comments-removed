@@ -157,6 +157,7 @@ state
 >
 {
 return
+(
 state
 .
 snapshots
@@ -194,6 +195,7 @@ state
 censusState
 .
 SAVED
+)
 ;
 }
 )
@@ -234,6 +236,7 @@ state
 >
 {
 return
+(
 state
 .
 view
@@ -263,6 +266,7 @@ state
 individualsState
 .
 FETCHED
+)
 ;
 }
 )

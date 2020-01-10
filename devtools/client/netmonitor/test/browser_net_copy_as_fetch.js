@@ -426,14 +426,12 @@ is
 !
 copyAsFetchNode
 true
-"
+'
 The
-\
 "
 Copy
 as
 Fetch
-\
 "
 context
 menu
@@ -443,7 +441,7 @@ not
 be
 hidden
 .
-"
+'
 )
 ;
 await

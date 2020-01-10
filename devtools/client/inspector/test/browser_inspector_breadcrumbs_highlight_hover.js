@@ -169,7 +169,6 @@ hover
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -178,7 +177,6 @@ assertHighlightedNode
 "
 body
 "
-)
 )
 "
 The
@@ -305,7 +303,6 @@ hover
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -314,7 +311,6 @@ assertHighlightedNode
 "
 span
 "
-)
 )
 "
 The

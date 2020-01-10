@@ -4699,7 +4699,6 @@ e
 const
 value
 =
-(
 decodedValue
 &
 &
@@ -4708,7 +4707,6 @@ decodedValue
 =
 =
 originalValue
-)
 ?
 decodedValue
 :
@@ -7646,6 +7644,7 @@ c
 const
 r
 =
+(
 Math
 .
 random
@@ -7653,6 +7652,7 @@ random
 )
 *
 16
+)
 |
 0
 ;
@@ -7672,9 +7672,9 @@ r
 r
 &
 0x3
+)
 |
 0x8
-)
 ;
 return
 v

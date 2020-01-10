@@ -3465,17 +3465,13 @@ useLandscapeMode
 const
 canDoubleSidebarWidth
 =
-(
 sidebarWidth
 *
 2
-)
 <
-(
 toolboxWidth
 /
 2
-)
 ;
 this
 .
@@ -3492,9 +3488,11 @@ sidebarWidth
 *
 2
 :
+(
 toolboxWidth
 *
 2
+)
 /
 3
 }
@@ -5754,6 +5752,7 @@ iframe
 ]
 ;
 return
+(
 selection
 .
 isHTMLNode
@@ -5797,6 +5796,7 @@ nodeName
 .
 toLowerCase
 (
+)
 )
 )
 ;
@@ -6100,7 +6100,6 @@ self
 selection
 |
 |
-(
 this
 .
 node
@@ -6112,7 +6111,6 @@ self
 selection
 .
 nodeFront
-)
 )
 {
 self

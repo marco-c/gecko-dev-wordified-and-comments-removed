@@ -143,9 +143,7 @@ const
 values
 =
 {
-"
 display
-"
 :
 [
 "

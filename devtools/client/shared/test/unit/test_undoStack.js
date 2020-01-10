@@ -40,9 +40,7 @@ Loader
 paths
 :
 {
-"
 devtools
-"
 :
 "
 resource

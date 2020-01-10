@@ -258,7 +258,7 @@ accel
 ;
 info
 (
-"
+'
 check
 that
 the
@@ -267,12 +267,10 @@ page
 is
 opened
 on
-\
 "
 F1
-\
 "
-"
+'
 )
 ;
 let

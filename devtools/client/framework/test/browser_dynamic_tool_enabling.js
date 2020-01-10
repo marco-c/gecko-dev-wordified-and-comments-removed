@@ -2,9 +2,7 @@ var
 gItemsToTest
 =
 {
-"
 menu_browserToolbox
-"
 :
 [
 "
@@ -24,9 +22,7 @@ remote
 enabled
 "
 ]
-"
 menu_devtools_connect
-"
 :
 "
 devtools
@@ -50,9 +46,7 @@ prefs
 .
 every
 (
-(
 pref
-)
 =
 >
 Services

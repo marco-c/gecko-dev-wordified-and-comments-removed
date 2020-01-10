@@ -1051,9 +1051,7 @@ existingRules
 .
 findIndex
 (
-(
 r
-)
 =
 >
 r
@@ -1354,7 +1352,6 @@ computedProp
 .
 _overriddenDirty
 =
-(
 !
 !
 computedProp
@@ -1364,7 +1361,6 @@ overridden
 =
 =
 overridden
-)
 ;
 computedProp
 .
@@ -1570,12 +1566,10 @@ pseudo
 "
 "
 ?
-(
 isStyleRule
 |
 |
 isElementStyle
-)
 :
 isPseudoElementRule
 ;
@@ -2526,7 +2520,6 @@ _overriddenDirty
 }
 dirty
 =
-(
 !
 !
 prop
@@ -2536,7 +2529,6 @@ overridden
 =
 =
 overridden
-)
 |
 |
 dirty

@@ -132,7 +132,6 @@ element
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -146,7 +145,6 @@ margin
 -
 top
 "
-)
 )
 "
 "
@@ -198,7 +196,6 @@ element
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -212,7 +209,6 @@ padding
 -
 top
 "
-)
 )
 "
 "
@@ -264,7 +260,6 @@ element
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -276,7 +271,6 @@ test
 "
 width
 "
-)
 )
 "
 "

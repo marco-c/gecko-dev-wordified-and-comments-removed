@@ -245,6 +245,7 @@ nextState
 )
 {
 return
+(
 this
 .
 props
@@ -269,6 +270,7 @@ focused
 nextProps
 .
 focused
+)
 ;
 }
 render
@@ -457,6 +459,7 @@ nextState
 )
 {
 return
+(
 this
 .
 props
@@ -481,6 +484,7 @@ focused
 nextProps
 .
 focused
+)
 ;
 }
 render

@@ -384,9 +384,7 @@ on
 "
 click
 "
-(
 item
-)
 =
 >
 {
@@ -410,9 +408,7 @@ on
 "
 click
 "
-(
 item
-)
 =
 >
 {
@@ -436,9 +432,7 @@ on
 "
 mouseover
 "
-(
 item
-)
 =
 >
 {
@@ -493,9 +487,7 @@ on
 "
 mouseout
 "
-(
 item
-)
 =
 >
 {
@@ -548,9 +540,7 @@ on
 "
 mouseover
 "
-(
 item
-)
 =
 >
 {
@@ -605,9 +595,7 @@ on
 "
 mouseout
 "
-(
 item
-)
 =
 >
 {
@@ -930,11 +918,13 @@ map
 e
 =
 >
+(
 e
 .
 size
 /
 total
+)
 *
 (
 TAU
@@ -956,6 +946,7 @@ b
 )
 =
 >
+(
 a
 .
 size
@@ -967,6 +958,7 @@ size
 a
 :
 b
+)
 )
 ;
 const
@@ -982,6 +974,7 @@ b
 )
 =
 >
+(
 a
 .
 size
@@ -993,6 +986,7 @@ size
 a
 :
 b
+)
 )
 ;
 const

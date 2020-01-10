@@ -321,7 +321,6 @@ is
 imgSize
 .
 width
-(
 contentSize
 .
 innerWidth
@@ -333,7 +332,6 @@ scrollMaxX
 contentSize
 .
 scrollMinX
-)
 "
 Fullpage
 Clipboard
@@ -351,7 +349,6 @@ is
 imgSize
 .
 height
-(
 contentSize
 .
 innerHeight
@@ -363,7 +360,6 @@ scrollMaxY
 contentSize
 .
 scrollMinY
-)
 "
 Fullpage
 Clipboard
@@ -590,7 +586,6 @@ is
 imgSize
 .
 width
-(
 contentSize
 .
 innerWidth
@@ -602,7 +597,6 @@ scrollMaxX
 contentSize
 .
 scrollMinX
-)
 -
 scrollbarSize
 .
@@ -628,7 +622,6 @@ is
 imgSize
 .
 height
-(
 contentSize
 .
 innerHeight
@@ -640,7 +633,6 @@ scrollMaxY
 contentSize
 .
 scrollMinY
-)
 -
 scrollbarSize
 .

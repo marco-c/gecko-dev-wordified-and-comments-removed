@@ -837,7 +837,6 @@ swatch
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -850,7 +849,6 @@ background
 -
 color
 "
-)
 )
 EXPECTED_COLOR
 "

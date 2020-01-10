@@ -427,14 +427,12 @@ is
 !
 useAsFetchNode
 true
-"
+'
 The
-\
 "
 Use
 as
 Fetch
-\
 "
 context
 menu
@@ -444,7 +442,7 @@ not
 be
 hidden
 .
-"
+'
 )
 ;
 useAsFetchNode

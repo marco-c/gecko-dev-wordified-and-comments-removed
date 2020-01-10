@@ -508,11 +508,9 @@ listTabs
 )
 =
 >
-(
 [
 mockAboutDebuggingTab
 ]
-)
 ;
 mockThisFirefoxClient
 .

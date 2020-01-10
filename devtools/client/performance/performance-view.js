@@ -222,9 +222,7 @@ false
 states
 :
 {
-"
 unavailable
-"
 :
 [
 {
@@ -281,9 +279,7 @@ val
 true
 }
 ]
-"
 empty
-"
 :
 [
 {
@@ -340,9 +336,7 @@ val
 true
 }
 ]
-"
 recording
-"
 :
 [
 {
@@ -528,9 +522,7 @@ notice
 )
 }
 ]
-"
 recorded
-"
 :
 [
 {
@@ -620,9 +612,7 @@ pane
 )
 }
 ]
-"
 loading
-"
 :
 [
 {

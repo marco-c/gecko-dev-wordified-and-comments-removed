@@ -177,9 +177,7 @@ runtimeClientFactoryMock
 createClientForRuntime
 =
 async
-(
 runtime
-)
 =
 >
 {
@@ -296,9 +294,7 @@ runtimeClientFactoryMock
 createClientForRuntime
 =
 async
-(
 runtime
-)
 =
 >
 {
@@ -733,9 +729,7 @@ runtimeClientFactoryMock
 createClientForRuntime
 =
 async
-(
 runtime
-)
 =
 >
 {

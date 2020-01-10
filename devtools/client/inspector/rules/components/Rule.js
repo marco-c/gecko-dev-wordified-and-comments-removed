@@ -410,7 +410,6 @@ type
 rule
 ;
 return
-(
 dom
 .
 div
@@ -626,7 +625,6 @@ isNewDeclarationEditorVisible
 "
 }
 "
-)
 )
 )
 )

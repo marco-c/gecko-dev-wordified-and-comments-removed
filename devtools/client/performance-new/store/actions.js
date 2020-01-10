@@ -97,6 +97,7 @@ jsm
 const
 changeRecordingState
 =
+(
 exports
 .
 changeRecordingState
@@ -127,6 +128,7 @@ options
 .
 didRecordingUnexpectedlyStopped
 }
+)
 )
 ;
 exports

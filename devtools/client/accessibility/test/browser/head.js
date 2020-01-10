@@ -785,6 +785,7 @@ badge
 ]
 ;
 return
+(
 badgeEls
 .
 length
@@ -816,6 +817,7 @@ expected
 [
 i
 ]
+)
 )
 ;
 }
@@ -903,6 +905,7 @@ getBoundingClientRect
 null
 ;
 return
+(
 !
 scrolledParent
 |
@@ -922,6 +925,7 @@ bottom
 scrolledParentRect
 .
 bottom
+)
 )
 ;
 }
@@ -1078,6 +1082,7 @@ i
 ]
 ;
 return
+(
 row
 .
 querySelector
@@ -1138,6 +1143,7 @@ checkLevel
 (
 row
 level
+)
 )
 ;
 }

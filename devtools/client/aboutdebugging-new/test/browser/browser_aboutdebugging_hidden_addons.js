@@ -150,13 +150,11 @@ listAddons
 )
 =
 >
-(
 [
 SYSTEM_ADDON
 HIDDEN_ADDON
 NORMAL_ADDON
 ]
-)
 ;
 info
 (

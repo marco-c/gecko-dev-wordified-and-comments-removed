@@ -390,9 +390,7 @@ EXTENSION_NAME
 extraProperties
 :
 {
-"
 wrongProperty
-"
 :
 {
 }

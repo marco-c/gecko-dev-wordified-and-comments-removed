@@ -347,9 +347,7 @@ f
 .
 .
 expectedEvent
-"
 session_id
-"
 :
 event
 .

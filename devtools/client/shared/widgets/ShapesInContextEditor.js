@@ -299,7 +299,6 @@ textPropIndex
 ]
 ;
 return
-(
 textProp
 &
 &
@@ -312,7 +311,6 @@ name
 this
 .
 textPropName
-)
 ?
 textProp
 :
@@ -367,17 +365,14 @@ prop
 {
 if
 (
-(
 node
 =
 =
 this
 .
 highlighterTargetNode
-)
 &
 &
-(
 this
 .
 mode
@@ -387,7 +382,6 @@ mode
 options
 .
 mode
-)
 )
 {
 if
@@ -426,17 +420,14 @@ transformMode
 }
 if
 (
-(
 node
 =
 =
 this
 .
 highlighterTargetNode
-)
 &
 &
-(
 this
 .
 mode
@@ -446,7 +437,6 @@ mode
 options
 .
 mode
-)
 )
 {
 await
@@ -1027,7 +1017,6 @@ return
 const
 point
 =
-(
 data
 .
 point
@@ -1036,7 +1025,6 @@ includes
 (
 "
 "
-)
 )
 ?
 data

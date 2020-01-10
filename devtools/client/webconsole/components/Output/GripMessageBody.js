@@ -578,6 +578,7 @@ name
 >
 {
 return
+(
 allowedStylesRegex
 .
 test
@@ -604,6 +605,7 @@ style
 [
 name
 ]
+)
 )
 )
 ;
@@ -660,7 +662,6 @@ type
 props
 ;
 return
-(
 type
 =
 =
@@ -677,7 +678,6 @@ helperType
 JSTERM_COMMANDS
 .
 INSPECT
-)
 ;
 }
 module

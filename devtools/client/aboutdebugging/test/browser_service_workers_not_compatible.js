@@ -45,9 +45,7 @@ const
 options
 =
 {
-"
 set
-"
 :
 [
 [
@@ -149,9 +147,7 @@ const
 options
 =
 {
-"
 set
-"
 :
 [
 [

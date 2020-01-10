@@ -63,6 +63,7 @@ function
 const
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -80,6 +81,7 @@ text
 html
 empty
 "
+)
 )
 ;
 await

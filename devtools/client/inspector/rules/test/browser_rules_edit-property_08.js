@@ -302,7 +302,6 @@ rgb
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -314,7 +313,6 @@ null
 "
 color
 "
-)
 )
 "
 rgb

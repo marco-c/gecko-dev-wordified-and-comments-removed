@@ -274,9 +274,7 @@ const
 values
 =
 {
-"
 color
-"
 :
 [
 "
@@ -286,9 +284,7 @@ blue
 red
 "
 ]
-"
 display
-"
 :
 [
 "

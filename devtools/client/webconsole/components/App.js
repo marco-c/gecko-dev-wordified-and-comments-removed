@@ -746,14 +746,17 @@ b
 &
 &
 (
+(
 isMacOS
 &
 &
 event
 .
 metaKey
+)
 |
 |
+(
 !
 isMacOS
 &
@@ -761,6 +764,7 @@ isMacOS
 event
 .
 ctrlKey
+)
 )
 )
 {
@@ -1077,9 +1081,7 @@ target
 const
 removeCallback
 =
-(
 eventType
-)
 =
 >
 {
@@ -1144,9 +1146,7 @@ removeCallback
 const
 pasteKeyUpHandler
 =
-(
 e
-)
 =
 >
 {
@@ -1285,7 +1285,6 @@ editor
 ;
 }
 return
-(
 div
 (
 {
@@ -1437,7 +1436,6 @@ codeMirrorEnabled
 :
 jstermCodeMirror
 }
-)
 )
 )
 ;

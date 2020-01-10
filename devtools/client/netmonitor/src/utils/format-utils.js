@@ -123,13 +123,11 @@ decimals
 )
 {
 return
-(
 size
 %
 1
 >
 0
-)
 ?
 decimals
 :

@@ -81,7 +81,6 @@ if
 proxy
 &
 &
-(
 [
 MESSAGES_ADD
 MESSAGES_CLEAR
@@ -92,7 +91,6 @@ MESSAGES_CLEAR_LOGPOINT
 includes
 (
 type
-)
 )
 )
 {

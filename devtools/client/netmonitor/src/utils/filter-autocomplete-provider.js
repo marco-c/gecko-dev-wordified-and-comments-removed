@@ -558,6 +558,7 @@ lowerTyped
 ;
 }
 return
+(
 typeof
 value
 !
@@ -583,6 +584,7 @@ value
 "
 undefined
 "
+)
 ;
 }
 )
@@ -596,6 +598,7 @@ map
 value
 =
 >
+(
 isNegativeFlag
 ?
 -
@@ -614,6 +617,7 @@ flag
 {
 value
 }
+)
 )
 ;
 }
@@ -642,9 +646,7 @@ FILTER_FLAGS
 .
 map
 (
-(
 item
-)
 =
 >
 -
@@ -669,9 +671,7 @@ negativeAutocompleteList
 .
 map
 (
-(
 item
-)
 =
 >
 {
@@ -780,9 +780,7 @@ SUPPORTED_HTTP_CODES
 .
 filter
 (
-(
 item
-)
 =
 >
 {
@@ -835,9 +833,7 @@ filteredStatusCodes
 .
 map
 (
-(
 item
-)
 =
 >
 -
@@ -854,9 +850,7 @@ filteredStatusCodes
 .
 map
 (
-(
 item
-)
 =
 >
 status
@@ -877,13 +871,12 @@ baseList
 .
 filter
 (
-(
 item
-)
 =
 >
 {
 return
+(
 item
 .
 toLowerCase
@@ -912,6 +905,7 @@ lastToken
 .
 toLowerCase
 (
+)
 )
 ;
 }

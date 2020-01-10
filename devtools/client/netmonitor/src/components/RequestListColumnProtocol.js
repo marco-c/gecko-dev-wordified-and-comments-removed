@@ -115,6 +115,7 @@ nextProps
 )
 {
 return
+(
 getFormattedProtocol
 (
 this
@@ -131,6 +132,7 @@ getFormattedProtocol
 nextProps
 .
 item
+)
 )
 ;
 }
@@ -151,7 +153,6 @@ item
 )
 ;
 return
-(
 dom
 .
 td
@@ -176,7 +177,6 @@ title
 protocol
 }
 protocol
-)
 )
 ;
 }

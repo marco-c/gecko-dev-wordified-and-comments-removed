@@ -1318,7 +1318,6 @@ id
 const
 render
 =
-(
 col
 .
 id
@@ -1327,7 +1326,6 @@ id
 "
 default
 "
-)
 ?
 renderLabelCell
 :
@@ -1353,12 +1351,10 @@ cellProps
 )
 ;
 return
-(
 tr
 (
 props
 cells
-)
 )
 ;
 }

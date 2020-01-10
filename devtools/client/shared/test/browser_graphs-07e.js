@@ -455,6 +455,7 @@ setZoom
 host
 .
 frame
+0
 .
 5
 )
@@ -837,7 +838,6 @@ document
 const
 screenX
 =
-(
 window
 .
 screenX
@@ -849,12 +849,10 @@ p1
 x
 +
 x
-)
 ;
 const
 screenY
 =
-(
 window
 .
 screenY
@@ -866,7 +864,6 @@ p1
 y
 +
 y
-)
 ;
 fn
 (

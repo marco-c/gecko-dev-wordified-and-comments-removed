@@ -608,7 +608,6 @@ stopPropagation
 }
 ;
 return
-(
 button
 (
 {
@@ -635,7 +634,6 @@ props
 .
 label
 )
-)
 ;
 }
 renderNotification
@@ -644,7 +642,6 @@ notification
 )
 {
 return
-(
 div
 (
 {
@@ -767,7 +764,6 @@ this
 notification
 )
 }
-)
 )
 )
 )

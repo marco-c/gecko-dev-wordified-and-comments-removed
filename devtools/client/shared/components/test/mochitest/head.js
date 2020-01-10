@@ -2121,9 +2121,7 @@ return
 container
 component
 :
-(
 s
-)
 =
 >
 container
@@ -2285,7 +2283,6 @@ value
 )
 =
 >
-(
 typeof
 value
 =
@@ -2294,7 +2291,6 @@ value
 "
 function
 "
-)
 ?
 value
 .

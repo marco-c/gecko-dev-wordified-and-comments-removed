@@ -6,15 +6,13 @@ strict
 const
 TEST_URI
 =
-"
+'
 <
 h1
 id
 =
-\
 "
 h1
-\
 "
 >
 header
@@ -26,10 +24,8 @@ h1
 p
 id
 =
-\
 "
 p
-\
 "
 >
 paragraph
@@ -37,7 +33,7 @@ paragraph
 /
 p
 >
-"
+'
 ;
 add_task
 (

@@ -2199,9 +2199,7 @@ objectClient
 .
 enumEntries
 (
-(
 response
-)
 =
 >
 {
@@ -2941,7 +2939,6 @@ this
 objectActor
 &
 &
-(
 "
 ownPropertyLength
 "
@@ -2949,7 +2946,6 @@ in
 this
 .
 objectActor
-)
 ;
 }
 performSearch
@@ -3280,6 +3276,7 @@ aOptions
 var
 StackFrameUtils
 =
+(
 this
 .
 StackFrameUtils
@@ -3312,7 +3309,6 @@ aFrame
 callee
 ;
 return
-(
 c
 .
 name
@@ -3333,7 +3329,6 @@ displayName
 anonymous
 )
 "
-)
 ;
 }
 return
@@ -3513,6 +3508,7 @@ label
 ;
 }
 }
+)
 ;
 function
 isActorGrip
@@ -3525,9 +3521,7 @@ grip
 &
 &
 typeof
-(
 grip
-)
 =
 =
 "

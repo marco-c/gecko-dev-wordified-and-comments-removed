@@ -1169,9 +1169,7 @@ content
 Headers
 (
 {
-"
 xyz
-"
 :
 true
 }

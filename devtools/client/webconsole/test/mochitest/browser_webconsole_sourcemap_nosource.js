@@ -140,12 +140,10 @@ toolbox
 ;
 info
 (
-"
+'
 Finding
-\
 "
 here
-\
 "
 message
 and
@@ -156,7 +154,7 @@ map
 to
 be
 applied
-"
+'
 )
 ;
 await

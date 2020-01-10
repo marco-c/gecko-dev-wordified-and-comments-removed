@@ -25,7 +25,6 @@ action
 >
 {
 return
-(
 typeof
 action
 =
@@ -34,7 +33,6 @@ action
 "
 function
 "
-)
 ?
 action
 (

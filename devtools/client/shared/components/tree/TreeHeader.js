@@ -272,9 +272,7 @@ const
 cellStyle
 =
 {
-"
 width
-"
 :
 col
 .
@@ -384,7 +382,6 @@ null
 )
 ;
 return
-(
 thead
 (
 {
@@ -414,7 +411,6 @@ presentation
 "
 }
 cells
-)
 )
 )
 ;

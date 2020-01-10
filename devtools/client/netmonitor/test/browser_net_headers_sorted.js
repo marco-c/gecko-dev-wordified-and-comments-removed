@@ -667,13 +667,11 @@ headers
 )
 ;
 return
-(
 rawArr
 .
 length
 >
 1
-)
 ;
 }
 )

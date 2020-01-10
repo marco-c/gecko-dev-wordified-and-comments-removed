@@ -202,10 +202,8 @@ value
 nextProps
 .
 value
-)
 |
 |
-(
 this
 .
 state
@@ -213,10 +211,8 @@ state
 =
 =
 nextState
-)
 |
 |
-(
 this
 .
 props
@@ -539,7 +535,6 @@ span
 {
 onClick
 :
-(
 type
 !
 =
@@ -547,7 +542,6 @@ type
 "
 object
 "
-)
 ?
 this
 .
@@ -570,7 +564,6 @@ props
 ;
 }
 return
-(
 td
 (
 {
@@ -591,7 +584,6 @@ presentation
 }
 cellElement
 )
-)
 ;
 }
 }
@@ -603,14 +595,12 @@ props
 >
 {
 return
-(
 props
 .
 object
 +
 "
 "
-)
 ;
 }
 ;

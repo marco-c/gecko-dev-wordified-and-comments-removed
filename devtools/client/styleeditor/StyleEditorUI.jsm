@@ -1028,9 +1028,7 @@ editor
 -
 options
 "
-(
 event
-)
 =
 >
 {
@@ -1332,9 +1330,7 @@ getStyleSheets
 .
 then
 (
-(
 styleSheets
-)
 =
 >
 {
@@ -2044,9 +2040,7 @@ parentWindow
 const
 onFileSelected
 =
-(
 selectedFile
-)
 =
 >
 {
@@ -2172,9 +2166,7 @@ source
 .
 then
 (
-(
 styleSheet
-)
 =
 >
 {
@@ -2739,13 +2731,9 @@ name
 events
 :
 {
-"
 keypress
-"
 :
-(
 event
-)
 =
 >
 {
@@ -3184,7 +3172,6 @@ bind
 (
 this
 )
-)
 (
 )
 .
@@ -3193,6 +3180,7 @@ catch
 console
 .
 error
+)
 )
 ;
 }
@@ -3319,6 +3307,7 @@ string
 ;
 return
 (
+(
 isHref
 &
 &
@@ -3335,7 +3324,6 @@ stylesheet
 )
 |
 |
-(
 toSelect
 .
 stylesheet
@@ -3415,9 +3403,7 @@ editor
 .
 then
 (
-(
 summary
-)
 =
 >
 {
@@ -4445,7 +4431,6 @@ bind
 (
 this
 )
-)
 (
 )
 .
@@ -4454,6 +4439,7 @@ catch
 console
 .
 error
+)
 )
 ;
 }
@@ -4491,7 +4477,7 @@ d
 px
 )
 /
-ig
+gi
 ;
 let
 match

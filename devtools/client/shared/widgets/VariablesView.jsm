@@ -828,6 +828,7 @@ _list
 const
 currList
 =
+(
 this
 .
 _list
@@ -841,6 +842,7 @@ createXULElement
 "
 scrollbox
 "
+)
 )
 ;
 this
@@ -1250,6 +1252,7 @@ parentNode
 const
 container
 =
+(
 this
 .
 _searchboxContainer
@@ -1261,6 +1264,7 @@ createXULElement
 "
 hbox
 "
+)
 )
 ;
 container
@@ -1292,6 +1296,7 @@ length
 const
 searchbox
 =
+(
 this
 .
 _searchboxNode
@@ -1304,6 +1309,7 @@ HTML_NS
 "
 input
 "
+)
 )
 ;
 searchbox
@@ -3278,6 +3284,7 @@ this
 "
 ;
 return
+(
 "
 Object
 .
@@ -3338,6 +3345,7 @@ true
 }
 )
 "
+)
 ;
 }
 ;
@@ -3515,6 +3523,7 @@ aPrefix
 ;
 }
 return
+(
 "
 Object
 .
@@ -3600,6 +3609,7 @@ true
 }
 )
 "
+)
 ;
 default
 :
@@ -3736,13 +3746,12 @@ __defineSetter__
 const
 defineFunc
 =
-"
+'
 eval
 (
-\
 "
 (
-"
+'
 +
 aCurrentString
 .
@@ -3759,14 +3768,14 @@ g
 "
 )
 +
-"
-)
-\
-"
+'
 )
 "
+)
+'
 ;
 return
+(
 parent
 +
 "
@@ -3789,6 +3798,7 @@ defineFunc
 "
 )
 "
+)
 ;
 }
 }
@@ -5317,11 +5327,13 @@ _idString
 =
 generateId
 (
+(
 this
 .
 _nameString
 =
 aName
+)
 )
 ;
 this
@@ -5389,6 +5401,7 @@ document
 const
 element
 =
+(
 this
 .
 _target
@@ -5400,6 +5413,7 @@ createXULElement
 "
 vbox
 "
+)
 )
 ;
 element
@@ -5419,6 +5433,7 @@ aTargetClassName
 const
 arrow
 =
+(
 this
 .
 _arrow
@@ -5430,6 +5445,7 @@ createXULElement
 "
 hbox
 "
+)
 )
 ;
 arrow
@@ -5446,6 +5462,7 @@ twisty
 const
 name
 =
+(
 this
 .
 _name
@@ -5457,6 +5474,7 @@ createXULElement
 "
 label
 "
+)
 )
 ;
 name
@@ -5497,6 +5515,7 @@ end
 const
 title
 =
+(
 this
 .
 _title
@@ -5508,6 +5527,7 @@ createXULElement
 "
 hbox
 "
+)
 )
 ;
 title
@@ -5535,6 +5555,7 @@ center
 const
 enumerable
 =
+(
 this
 .
 _enum
@@ -5547,10 +5568,12 @@ createXULElement
 vbox
 "
 )
+)
 ;
 const
 nonenum
 =
+(
 this
 .
 _nonenum
@@ -5562,6 +5585,7 @@ createXULElement
 "
 vbox
 "
+)
 )
 ;
 enumerable
@@ -6407,6 +6431,7 @@ _variablesView
 )
 {
 return
+(
 this
 .
 _topView
@@ -6455,6 +6480,7 @@ parentView
 }
 )
 (
+)
 )
 )
 ;
@@ -6818,11 +6844,13 @@ call
 this
 aScope
 aName
+(
 this
 .
 _initialDescriptor
 =
 aDescriptor
+)
 )
 ;
 this
@@ -8002,11 +8030,13 @@ _idString
 =
 generateId
 (
+(
 this
 .
 _nameString
 =
 aName
+)
 )
 ;
 this
@@ -8149,6 +8179,7 @@ _initialDescriptor
 const
 separatorLabel
 =
+(
 this
 .
 _separatorLabel
@@ -8160,6 +8191,7 @@ createXULElement
 "
 label
 "
+)
 )
 ;
 separatorLabel
@@ -8189,6 +8221,7 @@ separatorStr
 const
 valueLabel
 =
+(
 this
 .
 _valueLabel
@@ -8200,6 +8233,7 @@ createXULElement
 "
 label
 "
+)
 )
 ;
 valueLabel
@@ -8468,6 +8502,7 @@ _initialDescriptor
 ;
 if
 (
+(
 ownerView
 .
 eval
@@ -8476,6 +8511,7 @@ eval
 this
 .
 getter
+)
 |
 |
 this
@@ -8486,6 +8522,7 @@ setter
 const
 editNode
 =
+(
 this
 .
 _editNode
@@ -8499,6 +8536,7 @@ createXULElement
 "
 toolbarbutton
 "
+)
 )
 ;
 editNode
@@ -8554,6 +8592,7 @@ delete
 const
 deleteNode
 =
+(
 this
 .
 _deleteNode
@@ -8567,6 +8606,7 @@ createXULElement
 "
 toolbarbutton
 "
+)
 )
 ;
 deleteNode
@@ -8619,6 +8659,7 @@ new
 const
 addPropertyNode
 =
+(
 this
 .
 _addPropertyNode
@@ -8632,6 +8673,7 @@ createXULElement
 "
 toolbarbutton
 "
+)
 )
 ;
 addPropertyNode
@@ -9618,7 +9660,6 @@ stopPropagation
 )
 ;
 return
-(
 async
 function
 (
@@ -9742,7 +9783,6 @@ promise
 bind
 (
 this
-)
 )
 (
 )
@@ -11229,14 +11269,10 @@ extend
 (
 null
 {
-"
 window
-"
 :
 true
-"
 this
-"
 :
 true
 }
@@ -13154,6 +13190,7 @@ null
 ;
 }
 return
+(
 aGrip
 .
 class
@@ -13174,6 +13211,7 @@ wrappedValue
 "
 }
 "
+)
 ;
 }
 }
@@ -14767,6 +14805,7 @@ nodeConstants
 TEXT_NODE
 :
 return
+(
 preview
 .
 nodeName
@@ -14781,6 +14820,7 @@ getString
 preview
 .
 textContent
+)
 )
 ;
 case
@@ -15387,6 +15427,7 @@ aName
 )
 {
 return
+(
 aName
 .
 toLowerCase
@@ -15410,7 +15451,6 @@ g
 "
 )
 +
-(
 +
 +
 count
@@ -15691,6 +15731,7 @@ stopPropagation
 const
 input
 =
+(
 this
 .
 _input
@@ -15707,6 +15748,7 @@ HTML_NS
 "
 input
 "
+)
 )
 ;
 input

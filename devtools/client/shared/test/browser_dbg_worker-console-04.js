@@ -35,10 +35,12 @@ js
 this
 )
 ;
+(
 "
 use
 strict
 "
+)
 ;
 const
 {

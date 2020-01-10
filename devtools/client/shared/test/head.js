@@ -234,7 +234,6 @@ failureFn
 {
 if
 (
-(
 Date
 .
 now
@@ -242,7 +241,6 @@ now
 )
 -
 start
-)
 >
 timeout
 )
@@ -414,9 +412,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

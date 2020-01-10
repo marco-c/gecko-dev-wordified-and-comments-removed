@@ -138,9 +138,7 @@ hud
 .
 openLink
 =
-(
 url
-)
 =
 >
 {

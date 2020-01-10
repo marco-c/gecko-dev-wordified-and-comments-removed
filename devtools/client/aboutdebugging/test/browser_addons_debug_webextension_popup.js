@@ -865,9 +865,7 @@ webconsole
 then
 (
 async
-(
 console
-)
 =
 >
 {
@@ -1129,9 +1127,7 @@ frames
 .
 filter
 (
-(
 frame
-)
 =
 >
 {
@@ -1271,9 +1267,7 @@ destroy
 .
 catch
 (
-(
 error
-)
 =
 >
 {

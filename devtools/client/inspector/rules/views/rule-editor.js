@@ -1292,7 +1292,6 @@ bind
 (
 this
 )
-)
 (
 )
 .
@@ -1317,6 +1316,7 @@ error
 )
 ;
 }
+)
 )
 ;
 }
@@ -2045,7 +2045,6 @@ title
 const
 sourceHref
 =
-(
 this
 .
 rule
@@ -2060,7 +2059,6 @@ rule
 sheet
 .
 href
-)
 ?
 this
 .
@@ -2470,7 +2468,6 @@ textContent
 const
 containerClass
 =
-(
 this
 .
 rule
@@ -2484,7 +2481,6 @@ selector
 >
 -
 1
-)
 ?
 "
 ruleview
@@ -3170,9 +3166,7 @@ ruleview
 "
 null
 {
-"
 session_id
-"
 :
 this
 .
@@ -3444,9 +3438,7 @@ applied
 .
 findIndex
 (
-(
 r
-)
 =
 >
 r

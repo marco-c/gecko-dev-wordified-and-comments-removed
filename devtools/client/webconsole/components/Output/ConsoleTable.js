@@ -469,11 +469,9 @@ gridcell
 "
 className
 :
-(
 index
 %
 2
-)
 ?
 "
 odd
@@ -584,7 +582,6 @@ headers
 )
 ;
 return
-(
 dom
 .
 div
@@ -630,7 +627,6 @@ getRows
 (
 columns
 items
-)
 )
 )
 ;
@@ -712,7 +708,6 @@ namedIndexes
 INDEX_NAME
 ]
 :
-(
 [
 "
 Object
@@ -747,7 +742,6 @@ table
 .
 iterationIndex
 "
-)
 )
 [
 VALUE_NAME

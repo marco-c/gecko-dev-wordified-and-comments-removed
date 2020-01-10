@@ -45,6 +45,7 @@ bool
 const
 declaration
 =
+(
 exports
 .
 declaration
@@ -140,6 +141,7 @@ PropTypes
 .
 string
 }
+)
 ;
 exports
 .
@@ -241,6 +243,7 @@ bool
 const
 selector
 =
+(
 exports
 .
 selector
@@ -277,6 +280,7 @@ PropTypes
 string
 )
 }
+)
 ;
 exports
 .

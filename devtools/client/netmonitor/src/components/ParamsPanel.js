@@ -668,9 +668,7 @@ formDataSections
 .
 filter
 (
-(
 str
-)
 =
 >
 /
@@ -840,7 +838,6 @@ postData
 ;
 }
 return
-(
 div
 (
 {
@@ -887,7 +884,6 @@ openLink
 }
 )
 )
-)
 ;
 }
 }
@@ -898,9 +894,7 @@ exports
 connect
 (
 null
-(
 dispatch
-)
 =
 >
 (

@@ -38,9 +38,7 @@ onContextMenuShown
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

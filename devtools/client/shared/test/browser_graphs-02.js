@@ -625,11 +625,13 @@ is
 graph
 .
 dataScaleY
+(
 graph
 .
 height
 /
 60
+)
 *
 0
 .

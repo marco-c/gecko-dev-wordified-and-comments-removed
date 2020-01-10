@@ -81,7 +81,6 @@ shown
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -93,7 +92,6 @@ simple
 -
 div
 "
-)
 )
 "
 The

@@ -492,7 +492,7 @@ back_space
 escape
 )
 /
-ig
+gi
 .
 test
 (

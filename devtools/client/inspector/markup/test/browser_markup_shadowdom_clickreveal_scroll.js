@@ -741,7 +741,6 @@ top
 0
 |
 |
-(
 rect
 .
 top
@@ -749,7 +748,6 @@ top
 rect
 .
 height
-)
 >
 win
 .

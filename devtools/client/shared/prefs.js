@@ -375,9 +375,7 @@ Number
 parseFloat
 out
 :
-(
 n
-)
 =
 >
 n
@@ -417,9 +415,7 @@ prefName
 )
 set
 :
-(
 e
-)
 =
 >
 set

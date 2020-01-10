@@ -258,7 +258,6 @@ enabled
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -272,7 +271,6 @@ background
 -
 color
 "
-)
 )
 "
 rgb
@@ -354,7 +352,6 @@ set
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -366,7 +363,6 @@ null
 "
 color
 "
-)
 )
 "
 rgb

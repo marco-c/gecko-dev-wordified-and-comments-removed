@@ -801,9 +801,7 @@ warnings
 .
 map
 (
-(
 warning
-)
 =
 >
 {

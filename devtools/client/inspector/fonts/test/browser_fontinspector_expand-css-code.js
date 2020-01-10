@@ -152,6 +152,7 @@ waitForCondition
 >
 {
 return
+(
 codeEl
 .
 textContent
@@ -200,6 +201,7 @@ truetype
 )
 ;
 }
+)
 ;
 }
 "

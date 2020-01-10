@@ -171,7 +171,6 @@ value
 }
 value
 =
-(
 Math
 .
 round
@@ -182,7 +181,6 @@ value
 )
 /
 100
-)
 ;
 if
 (
@@ -204,7 +202,6 @@ value
 ;
 }
 return
-(
 dom
 .
 span
@@ -231,7 +228,6 @@ unit
 "
 px
 "
-)
 )
 )
 ;
@@ -277,7 +273,6 @@ sentences
 )
 {
 return
-(
 dom
 .
 ul
@@ -303,7 +298,6 @@ li
 {
 }
 sentence
-)
 )
 )
 )
@@ -420,7 +414,6 @@ base
 "
 ;
 return
-(
 dom
 .
 li
@@ -462,7 +455,6 @@ this
 renderSize
 (
 mainBaseSize
-)
 )
 )
 ;
@@ -824,7 +816,6 @@ flexibility
 "
 ;
 return
-(
 dom
 .
 li
@@ -882,7 +873,6 @@ this
 renderReasons
 (
 reasons
-)
 )
 )
 ;
@@ -976,7 +966,6 @@ clampedToMin
 ;
 }
 return
-(
 dom
 .
 li
@@ -1039,7 +1028,6 @@ this
 renderReasons
 (
 reasons
-)
 )
 )
 ;
@@ -1133,7 +1121,6 @@ clampedToMax
 ;
 }
 return
-(
 dom
 .
 li
@@ -1198,7 +1185,6 @@ renderReasons
 reasons
 )
 )
-)
 ;
 }
 renderFinalSizeSection
@@ -1207,7 +1193,6 @@ mainFinalSize
 )
 {
 return
-(
 dom
 .
 li
@@ -1250,7 +1235,6 @@ this
 renderSize
 (
 mainFinalSize
-)
 )
 )
 ;
@@ -1344,7 +1328,6 @@ mainMaxSize
 )
 ;
 return
-(
 dom
 .
 ul
@@ -1398,7 +1381,6 @@ this
 renderFinalSizeSection
 (
 mainFinalSize
-)
 )
 )
 ;

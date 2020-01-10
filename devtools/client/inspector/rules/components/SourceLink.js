@@ -215,6 +215,7 @@ isSourceLinkEnabled
 )
 {
 return
+(
 this
 .
 props
@@ -239,6 +240,7 @@ type
 =
 =
 ELEMENT_STYLE
+)
 ;
 }
 onSourceClick
@@ -291,7 +293,6 @@ props
 sourceLink
 ;
 return
-(
 dom
 .
 div
@@ -348,7 +349,6 @@ label
 title
 }
 label
-)
 )
 )
 ;

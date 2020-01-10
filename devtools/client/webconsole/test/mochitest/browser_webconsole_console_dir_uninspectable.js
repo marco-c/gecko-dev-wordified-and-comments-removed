@@ -188,9 +188,7 @@ gBrowser
 .
 selectedBrowser
 SECOND_LOG_MESSAGE
-(
 string
-)
 =
 >
 {

@@ -29,9 +29,7 @@ pageError
 .
 forEach
 (
-(
 filename
-)
 =
 >
 {

@@ -384,14 +384,12 @@ iframe
 ;
 ok
 (
-(
 await
 testActor
 .
 assertHighlightedNode
 (
 iframeBodySelector
-)
 )
 "
 highlighter

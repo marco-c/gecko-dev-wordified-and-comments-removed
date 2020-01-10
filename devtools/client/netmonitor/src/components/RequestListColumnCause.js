@@ -200,7 +200,6 @@ length
 ;
 }
 return
-(
 dom
 .
 td
@@ -250,7 +249,6 @@ JS
 "
 )
 causeType
-)
 )
 ;
 }

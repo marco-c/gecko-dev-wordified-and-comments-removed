@@ -38,9 +38,7 @@ devtools
 debugger
 "
 {
-"
 foo
-"
 :
 [
 "

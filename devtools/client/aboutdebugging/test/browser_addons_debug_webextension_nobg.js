@@ -403,9 +403,7 @@ destroy
 .
 catch
 (
-(
 error
-)
 =
 >
 {

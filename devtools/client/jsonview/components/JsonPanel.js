@@ -631,7 +631,6 @@ renderTree
 ;
 }
 return
-(
 div
 (
 {
@@ -675,7 +674,6 @@ panelContent
 "
 }
 content
-)
 )
 )
 ;

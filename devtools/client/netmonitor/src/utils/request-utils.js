@@ -49,16 +49,12 @@ const
 CONTENT_MIME_TYPE_ABBREVIATIONS
 =
 {
-"
 ecmascript
-"
 :
 "
 js
 "
-"
 javascript
-"
 :
 "
 js
@@ -318,9 +314,7 @@ updateTypes
 .
 forEach
 (
-(
 updateType
-)
 =
 >
 {
@@ -1401,13 +1395,11 @@ Math
 pow
 (
 256
-(
 arr
 .
 length
 -
 1
-)
 -
 ix
 )
@@ -1539,6 +1531,7 @@ timings
 item
 ;
 return
+(
 startedMillis
 +
 totalTime
@@ -1550,6 +1543,7 @@ eventTimings
 timings
 .
 receive
+)
 ;
 }
 function

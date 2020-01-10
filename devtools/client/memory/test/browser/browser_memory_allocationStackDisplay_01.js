@@ -137,8 +137,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -223,7 +223,7 @@ allocationStack
 "
 )
 ;
-yield
+await
 dispatch
 (
 toggleRecordingAllocationStacks
@@ -243,13 +243,13 @@ allocations
 recording
 )
 ;
-yield
+await
 waitForTime
 (
 500
 )
 ;
-yield
+await
 dispatch
 (
 takeSnapshotAndCensus

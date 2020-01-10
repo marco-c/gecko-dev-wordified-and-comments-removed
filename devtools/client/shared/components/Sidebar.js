@@ -244,7 +244,6 @@ props
 sidebarToggleButton
 ;
 return
-(
 SidebarToggle
 (
 {
@@ -253,7 +252,6 @@ collapsePaneTitle
 expandPaneTitle
 onClick
 }
-)
 )
 ;
 }
@@ -283,7 +281,6 @@ this
 props
 ;
 return
-(
 Tabs
 (
 {
@@ -295,7 +292,6 @@ showAllTabsMenu
 activeTab
 }
 children
-)
 )
 ;
 }

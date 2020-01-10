@@ -379,7 +379,6 @@ profile
 NO_THROTTLING_LABEL
 ;
 return
-(
 dom
 .
 button
@@ -427,7 +426,6 @@ title
 "
 }
 selectedProfile
-)
 )
 )
 ;

@@ -705,7 +705,6 @@ d2
 const
 o1
 =
-(
 typeof
 d1
 .
@@ -715,7 +714,6 @@ ordinal
 "
 number
 "
-)
 ?
 d1
 .
@@ -726,7 +724,6 @@ MAX_ORDINAL
 const
 o2
 =
-(
 typeof
 d2
 .
@@ -736,7 +733,6 @@ ordinal
 "
 number
 "
-)
 ?
 d2
 .
@@ -2388,6 +2384,7 @@ nodeType
 node
 ;
 return
+(
 nodeType
 =
 =
@@ -2404,6 +2401,7 @@ nodeType
 Node
 .
 DOCUMENT_NODE
+)
 ;
 }
 )
@@ -2761,6 +2759,7 @@ values
 const
 gDevTools
 =
+(
 exports
 .
 gDevTools
@@ -2768,5 +2767,6 @@ gDevTools
 new
 DevTools
 (
+)
 )
 ;

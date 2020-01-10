@@ -80,21 +80,18 @@ utf
 +
 encodeURIComponent
 (
-"
+'
 <
 img
 src
 =
-\
 "
 foo
 .
 png
-\
 "
 srcset
 =
-\
 "
 foo
 .
@@ -102,11 +99,10 @@ png
 1
 .
 5x
-\
 "
 /
 >
-"
+'
 )
 ;
 const
@@ -307,7 +303,6 @@ loaded
 ;
 is
 (
-(
 await
 testActor
 .
@@ -319,7 +314,6 @@ location
 href
 ;
 "
-)
 )
 TEST_URL_1
 "
@@ -509,7 +503,6 @@ loaded
 ;
 is
 (
-(
 await
 testActor
 .
@@ -521,7 +514,6 @@ location
 href
 ;
 "
-)
 )
 TEST_URL_3
 "

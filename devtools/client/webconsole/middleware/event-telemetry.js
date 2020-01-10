@@ -162,9 +162,7 @@ ui
 persistLogs
 )
 {
-"
 session_id
-"
 :
 sessionId
 }
@@ -351,14 +349,10 @@ webconsole
 "
 null
 {
-"
 trigger
-"
 :
 trigger
-"
 active
-"
 :
 activeFilters
 .
@@ -367,9 +361,7 @@ join
 "
 "
 )
-"
 inactive
-"
 :
 inactiveFilters
 .
@@ -378,9 +370,7 @@ join
 "
 "
 )
-"
 session_id
-"
 :
 sessionId
 }

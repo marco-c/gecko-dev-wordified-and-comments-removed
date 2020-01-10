@@ -520,9 +520,7 @@ addEventListener
 "
 contextmenu
 "
-(
 event
-)
 =
 >
 {

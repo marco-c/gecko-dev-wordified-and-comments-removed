@@ -225,6 +225,7 @@ id
 const
 computeSnapshotData
 =
+(
 exports
 .
 computeSnapshotData
@@ -332,6 +333,7 @@ id
 }
 ;
 }
+)
 ;
 exports
 .
@@ -406,6 +408,7 @@ heapWorker
 const
 takeSnapshot
 =
+(
 exports
 .
 takeSnapshot
@@ -555,10 +558,12 @@ id
 }
 ;
 }
+)
 ;
 const
 readSnapshot
 =
+(
 exports
 .
 readSnapshot
@@ -728,6 +733,7 @@ creationTime
 ;
 }
 }
+)
 )
 ;
 let
@@ -1091,6 +1097,7 @@ parentMap
 const
 takeCensus
 =
+(
 exports
 .
 takeCensus
@@ -1100,9 +1107,7 @@ makeTakeCensusTask
 {
 getDisplay
 :
-(
 state
-)
 =
 >
 state
@@ -1110,9 +1115,7 @@ state
 censusDisplay
 getFilter
 :
-(
 state
-)
 =
 >
 state
@@ -1120,9 +1123,7 @@ state
 filter
 getCensus
 :
-(
 snapshot
-)
 =
 >
 snapshot
@@ -1180,10 +1181,12 @@ SAVED
 )
 }
 )
+)
 ;
 const
 takeTreeMap
 =
+(
 exports
 .
 takeTreeMap
@@ -1193,9 +1196,7 @@ makeTakeCensusTask
 {
 getDisplay
 :
-(
 state
-)
 =
 >
 state
@@ -1210,9 +1211,7 @@ getFilter
 null
 getCensus
 :
-(
 snapshot
-)
 =
 >
 snapshot
@@ -1270,6 +1269,7 @@ SAVED
 )
 }
 )
+)
 ;
 const
 defaultCensusTaker
@@ -1279,6 +1279,7 @@ takeTreeMap
 const
 getCurrentCensusTaker
 =
+(
 exports
 .
 getCurrentCensusTaker
@@ -1316,6 +1317,7 @@ defaultCensusTaker
 ;
 }
 }
+)
 ;
 exports
 .
@@ -1341,6 +1343,7 @@ node
 const
 fetchIndividuals
 =
+(
 exports
 .
 fetchIndividuals
@@ -1721,6 +1724,7 @@ dominatorTree
 }
 ;
 }
+)
 ;
 exports
 .
@@ -2074,6 +2078,7 @@ id
 const
 computeDominatorTree
 =
+(
 exports
 .
 computeDominatorTree
@@ -2233,10 +2238,12 @@ dominatorTreeId
 }
 }
 )
+)
 ;
 const
 fetchDominatorTree
 =
+(
 exports
 .
 fetchDominatorTree
@@ -2472,6 +2479,7 @@ root
 ;
 }
 }
+)
 )
 ;
 exports
@@ -2783,6 +2791,7 @@ moreChildrenAvailable
 const
 computeAndFetchDominatorTree
 =
+(
 exports
 .
 computeAndFetchDominatorTree
@@ -2876,6 +2885,7 @@ root
 ;
 }
 }
+)
 )
 ;
 exports
@@ -3031,6 +3041,7 @@ id
 const
 selectSnapshot
 =
+(
 exports
 .
 selectSnapshot
@@ -3051,6 +3062,7 @@ id
 }
 ;
 }
+)
 ;
 exports
 .

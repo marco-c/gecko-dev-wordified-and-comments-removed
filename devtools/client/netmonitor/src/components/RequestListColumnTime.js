@@ -370,7 +370,6 @@ props
 )
 ;
 return
-(
 dom
 .
 td
@@ -401,7 +400,6 @@ title
 time
 }
 time
-)
 )
 ;
 }

@@ -194,7 +194,6 @@ works
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -208,7 +207,6 @@ padding
 -
 top
 "
-)
 )
 "
 "
@@ -385,7 +383,6 @@ inspector
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -399,7 +396,6 @@ padding
 -
 top
 "
-)
 )
 "
 "
@@ -458,7 +454,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -472,7 +467,6 @@ padding
 -
 top
 "
-)
 )
 "
 1em
@@ -505,7 +499,6 @@ defaultView
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -519,7 +512,6 @@ padding
 -
 top
 "
-)
 )
 "
 1em
@@ -584,7 +576,6 @@ rule
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -600,7 +591,6 @@ bottom
 -
 width
 "
-)
 )
 "
 "
@@ -780,7 +770,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -796,7 +785,6 @@ bottom
 -
 width
 "
-)
 )
 "
 0px
@@ -829,7 +817,6 @@ defaultView
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -845,7 +832,6 @@ bottom
 -
 width
 "
-)
 )
 "
 0px
@@ -909,7 +895,6 @@ correctly
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -923,7 +908,6 @@ padding
 -
 right
 "
-)
 )
 "
 "
@@ -1072,7 +1056,6 @@ defaultView
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1086,7 +1069,6 @@ padding
 -
 right
 "
-)
 )
 "
 "

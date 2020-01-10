@@ -268,7 +268,6 @@ return
 const
 oncommand
 =
-(
 async
 function
 (
@@ -339,7 +338,6 @@ stack
 ;
 }
 }
-)
 .
 bind
 (

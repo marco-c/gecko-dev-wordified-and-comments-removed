@@ -1708,7 +1708,6 @@ null
 )
 ;
 return
-(
 stubPreparedMessages
 .
 set
@@ -1727,7 +1726,6 @@ stringifiedMessage
 )
 )
 ;
-)
 ;
 }
 function
@@ -1791,6 +1789,7 @@ null
 )
 ;
 return
+(
 stubPreparedMessages
 .
 set
@@ -1810,6 +1809,7 @@ stringifiedMessage
 )
 )
 ;
+)
 ;
 }
 function
@@ -2121,9 +2121,7 @@ const
 listener
 =
 async
-(
 res
-)
 =
 >
 {

@@ -1147,9 +1147,7 @@ responseHeaders
 .
 forEach
 (
-(
 header
-)
 =
 >
 {
@@ -1326,9 +1324,7 @@ requestHeaders
 .
 forEach
 (
-(
 header
-)
 =
 >
 {
@@ -1834,9 +1830,7 @@ propsToVerify
 .
 forEach
 (
-(
 propName
-)
 =
 >
 {

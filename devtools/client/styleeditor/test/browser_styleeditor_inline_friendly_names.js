@@ -111,9 +111,7 @@ const
 fakeStyleSheetFile
 =
 {
-"
 href
-"
 :
 "
 http
@@ -128,9 +126,7 @@ test
 .
 css
 "
-"
 nodeHref
-"
 :
 "
 http
@@ -142,9 +138,7 @@ example
 com
 /
 "
-"
 styleSheetIndex
-"
 :
 1
 }
@@ -153,14 +147,10 @@ const
 fakeInlineStyleSheet
 =
 {
-"
 href
-"
 :
 null
-"
 nodeHref
-"
 :
 "
 http
@@ -172,9 +162,7 @@ example
 com
 /
 "
-"
 styleSheetIndex
-"
 :
 2
 }

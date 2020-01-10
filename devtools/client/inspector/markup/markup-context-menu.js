@@ -1525,9 +1525,7 @@ options
 .
 then
 (
-(
 res
-)
 =
 >
 {
@@ -2726,7 +2724,6 @@ type
 ;
 if
 (
-(
 type
 =
 =
@@ -2752,7 +2749,6 @@ type
 "
 jsresource
 "
-)
 )
 {
 if

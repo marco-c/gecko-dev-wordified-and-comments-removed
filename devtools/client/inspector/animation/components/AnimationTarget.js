@@ -314,6 +314,7 @@ nextState
 )
 {
 return
+(
 this
 .
 state
@@ -338,6 +339,7 @@ highlightedNode
 nextState
 .
 highlightedNode
+)
 ;
 }
 async

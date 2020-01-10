@@ -171,6 +171,7 @@ cPicker
 0
 255
 0
+0
 .
 5
 ]
@@ -334,7 +335,6 @@ onModified
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -349,7 +349,6 @@ left
 -
 color
 "
-)
 )
 "
 rgba

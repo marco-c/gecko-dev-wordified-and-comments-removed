@@ -1626,9 +1626,7 @@ js
 (
 handler
 {
-"
 indent_size
-"
 :
 2
 }

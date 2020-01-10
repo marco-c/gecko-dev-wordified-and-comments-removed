@@ -110,9 +110,7 @@ FORMATTERS
 {
 TIME
 :
-(
 value
-)
 =
 >
 L10N
@@ -134,9 +132,7 @@ value
 )
 PERCENT
 :
-(
 value
-)
 =
 >
 L10N
@@ -158,9 +154,7 @@ value
 )
 NUMBER
 :
-(
 value
-)
 =
 >
 value
@@ -169,9 +163,7 @@ value
 0
 BYTESIZE
 :
-(
 value
-)
 =
 >
 L10N
@@ -183,12 +175,10 @@ table
 .
 bytes
 "
-(
 value
 |
 |
 0
-)
 )
 }
 ;
@@ -618,6 +608,7 @@ level
 :
 level
 |
+(
 0
 -
 (
@@ -626,6 +617,7 @@ hidden
 1
 :
 0
+)
 )
 }
 )
@@ -1224,11 +1216,9 @@ style
 .
 marginInlineStart
 =
-(
 frameLevel
 *
 CALL_TREE_INDENTATION
-)
 +
 "
 px
@@ -1834,7 +1824,6 @@ root
 frame
 allocations
 :
-(
 this
 .
 visibleCells
@@ -1847,7 +1836,6 @@ this
 visibleCells
 .
 selfCount
-)
 }
 )
 ;

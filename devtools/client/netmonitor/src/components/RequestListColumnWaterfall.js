@@ -249,6 +249,7 @@ nextProps
 )
 {
 return
+(
 !
 propertiesEqual
 (
@@ -275,6 +276,7 @@ firstRequestStartedMillis
 nextProps
 .
 firstRequestStartedMillis
+)
 ;
 }
 timingTooltip
@@ -599,7 +601,6 @@ this
 props
 ;
 return
-(
 dom
 .
 td
@@ -684,7 +685,6 @@ this
 .
 timingBoxes
 (
-)
 )
 )
 )

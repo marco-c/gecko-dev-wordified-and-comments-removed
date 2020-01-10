@@ -235,9 +235,7 @@ workers
 .
 filter
 (
-(
 x
-)
 =
 >
 new
@@ -267,7 +265,6 @@ length
 0
 ;
 return
-(
 LocalizationProvider
 (
 {
@@ -313,7 +310,6 @@ workers
 :
 domainWorkers
 }
-)
 )
 )
 )

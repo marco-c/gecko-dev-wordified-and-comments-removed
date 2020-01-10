@@ -190,7 +190,6 @@ EmptyChecks
 )
 {
 return
-(
 div
 (
 {
@@ -218,7 +217,6 @@ checks
 .
 empty2
 "
-)
 )
 )
 ;
@@ -383,7 +381,6 @@ EmptyChecks
 ;
 }
 return
-(
 div
 (
 {
@@ -404,7 +401,6 @@ List
 items
 labelledby
 }
-)
 )
 )
 ;

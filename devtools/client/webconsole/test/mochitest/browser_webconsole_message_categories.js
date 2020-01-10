@@ -120,15 +120,13 @@ ImageMap
 "
 matchString
 :
-"
+'
 shape
 =
-\
 "
 rect
-\
 "
-"
+'
 }
 {
 file

@@ -109,9 +109,7 @@ const
 ErrorDocStatements
 =
 {
-"
 JSMSG_BAD_RADIX
-"
 :
 "
 (
@@ -124,9 +122,7 @@ toString
 )
 ;
 "
-"
 JSMSG_BAD_ARRAY_LENGTH
-"
 :
 "
 (
@@ -139,9 +135,7 @@ length
 -
 1
 "
-"
 JSMSG_NEGATIVE_REPETITION_COUNT
-"
 :
 "
 '
@@ -155,9 +149,7 @@ repeat
 )
 ;
 "
-"
 JSMSG_PRECISION_RANGE
-"
 :
 "
 77

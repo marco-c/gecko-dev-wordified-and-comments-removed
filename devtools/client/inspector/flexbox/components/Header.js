@@ -519,7 +519,6 @@ nodeFront
 flexContainer
 ;
 return
-(
 dom
 .
 div
@@ -624,7 +623,6 @@ this
 .
 renderFlexboxHighlighterToggle
 (
-)
 )
 )
 ;

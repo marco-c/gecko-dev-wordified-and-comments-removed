@@ -346,9 +346,11 @@ getDuration
 const
 minTimeInterval
 =
+(
 TIME_GRADUATION_MIN_SPACING
 *
 animationDuration
+)
 /
 width
 ;

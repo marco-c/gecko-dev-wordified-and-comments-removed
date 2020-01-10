@@ -1165,9 +1165,7 @@ proxy
 {
 releaseActor
 :
-(
 actor
-)
 =
 >
 {

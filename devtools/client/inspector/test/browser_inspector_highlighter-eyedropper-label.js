@@ -700,13 +700,11 @@ positions
 {
 is
 (
-(
 await
 hasAttribute
 (
 helper
 position
-)
 )
 positions
 [

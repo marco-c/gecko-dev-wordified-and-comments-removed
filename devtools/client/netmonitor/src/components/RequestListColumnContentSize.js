@@ -167,7 +167,6 @@ contentSize
 null
 ;
 return
-(
 dom
 .
 td
@@ -192,7 +191,6 @@ title
 size
 }
 size
-)
 )
 ;
 }

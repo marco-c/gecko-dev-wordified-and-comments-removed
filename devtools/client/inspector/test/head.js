@@ -1803,9 +1803,7 @@ desc
 const
 getHighlighterHelperFor
 =
-(
 type
-)
 =
 >
 async
@@ -2007,6 +2005,7 @@ id
 {
 return
 (
+(
 await
 testActor
 .
@@ -2027,6 +2026,7 @@ highlighter
 "
 true
 "
+)
 ;
 }
 getElementTextContent

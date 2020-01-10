@@ -755,14 +755,12 @@ return
 .
 state
 [
-(
 removedRequest
 &
 &
 removedRequest
 .
 isCustom
-)
 &
 &
 "

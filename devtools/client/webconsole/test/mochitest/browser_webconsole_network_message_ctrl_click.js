@@ -322,9 +322,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

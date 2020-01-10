@@ -710,9 +710,7 @@ awaitedEvents
 .
 map
 (
-(
 event
-)
 =
 >
 {

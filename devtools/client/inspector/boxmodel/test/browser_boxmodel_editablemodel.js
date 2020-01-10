@@ -262,7 +262,6 @@ changes
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -276,7 +275,6 @@ margin
 -
 top
 "
-)
 )
 "
 "
@@ -436,7 +434,6 @@ inspector
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -450,7 +447,6 @@ margin
 -
 top
 "
-)
 )
 "
 3px
@@ -489,7 +485,6 @@ inspector
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -503,7 +498,6 @@ margin
 -
 top
 "
-)
 )
 "
 "
@@ -574,7 +568,6 @@ changes
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -588,7 +581,6 @@ margin
 -
 left
 "
-)
 )
 "
 "
@@ -769,7 +761,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -783,7 +774,6 @@ margin
 -
 left
 "
-)
 )
 "
 11px
@@ -843,7 +833,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -857,7 +846,6 @@ margin
 -
 left
 "
-)
 )
 "
 10px
@@ -920,7 +908,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -934,7 +921,6 @@ margin
 -
 left
 "
-)
 )
 "
 20px
@@ -967,7 +953,6 @@ defaultView
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -981,7 +966,6 @@ margin
 -
 left
 "
-)
 )
 "
 20px
@@ -1054,7 +1038,6 @@ that
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1068,7 +1051,6 @@ margin
 -
 left
 "
-)
 )
 "
 20px
@@ -1250,7 +1232,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1264,7 +1245,6 @@ margin
 -
 left
 "
-)
 )
 "
 "
@@ -1302,7 +1282,6 @@ inspector
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1316,7 +1295,6 @@ margin
 -
 left
 "
-)
 )
 "
 20px
@@ -1564,7 +1542,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1578,7 +1555,6 @@ margin
 -
 right
 "
-)
 )
 "
 "
@@ -1610,7 +1586,6 @@ defaultView
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1624,7 +1599,6 @@ margin
 -
 right
 "
-)
 )
 "
 "
@@ -1894,7 +1868,6 @@ editor
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1908,7 +1881,6 @@ margin
 -
 top
 "
-)
 )
 "
 2px
@@ -1941,7 +1913,6 @@ defaultView
 ;
 is
 (
-(
 await
 getStyle
 (
@@ -1955,7 +1926,6 @@ margin
 -
 top
 "
-)
 )
 "
 2px

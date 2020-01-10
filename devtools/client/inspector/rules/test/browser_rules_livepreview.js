@@ -376,7 +376,6 @@ onValueDone
 ;
 is
 (
-(
 await
 getComputedStyleProperty
 (
@@ -385,7 +384,6 @@ null
 "
 display
 "
-)
 )
 data
 .

@@ -1118,6 +1118,7 @@ click
 const
 scrollPos
 =
+(
 scroller
 .
 scrollTop
@@ -1137,6 +1138,7 @@ offsetTop
 )
 /
 2
+)
 )
 ;
 ok

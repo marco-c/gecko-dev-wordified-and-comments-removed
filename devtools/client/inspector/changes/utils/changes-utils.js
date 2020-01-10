@@ -89,7 +89,6 @@ rule
 typeName
 }
 {
-(
 rule
 .
 conditionText
@@ -103,7 +102,6 @@ name
 rule
 .
 keyText
-)
 }
 ;
 return

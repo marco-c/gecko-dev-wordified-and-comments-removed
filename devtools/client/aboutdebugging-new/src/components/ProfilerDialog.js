@@ -385,9 +385,7 @@ getPerformancePanelUrl
 )
 onLoad
 :
-(
 e
-)
 =
 >
 {

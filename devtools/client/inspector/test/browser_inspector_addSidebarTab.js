@@ -119,7 +119,6 @@ render
 )
 {
 return
-(
 div
 (
 {
@@ -134,7 +133,6 @@ panel
 "
 }
 CONTENT_TEXT
-)
 )
 ;
 }
@@ -194,7 +192,6 @@ render
 )
 {
 return
-(
 div
 (
 {
@@ -212,7 +209,6 @@ panel2
 Another
 Content
 "
-)
 )
 ;
 }

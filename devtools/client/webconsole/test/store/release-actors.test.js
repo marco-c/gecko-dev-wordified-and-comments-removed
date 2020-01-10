@@ -157,9 +157,7 @@ proxy
 {
 releaseActor
 :
-(
 actor
-)
 =
 >
 {
@@ -463,9 +461,7 @@ proxy
 {
 releaseActor
 :
-(
 actor
-)
 =
 >
 {
@@ -807,9 +803,7 @@ proxy
 {
 releaseActor
 :
-(
 actor
-)
 =
 >
 {

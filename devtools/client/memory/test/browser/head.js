@@ -402,6 +402,7 @@ getState
 snapshots
 ;
 return
+(
 snapshots
 .
 length
@@ -425,6 +426,7 @@ i
 >
 {
 return
+(
 snapshots
 [
 i
@@ -445,8 +447,10 @@ state
 =
 =
 state
+)
 ;
 }
+)
 )
 ;
 }
@@ -611,9 +615,7 @@ snapshots
 .
 every
 (
-(
 snapshot
-)
 =
 >
 snapshot
@@ -721,6 +723,7 @@ selected
 )
 ;
 return
+(
 selected
 .
 state
@@ -759,6 +762,7 @@ display
 =
 =
 display
+)
 ;
 }
 )
@@ -920,6 +924,7 @@ map
 x
 =
 >
+(
 getCensus
 (
 x
@@ -935,8 +940,10 @@ state
 null
 )
 )
+)
 ;
 return
+(
 snapshots
 .
 length
@@ -979,7 +986,6 @@ state
 "
 *
 "
-)
 |
 |
 (
@@ -1004,8 +1010,10 @@ state
 =
 state
 )
+)
 ;
 }
+)
 )
 ;
 }

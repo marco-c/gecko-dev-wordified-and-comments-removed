@@ -59,8 +59,8 @@ display
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -74,7 +74,7 @@ display
 )
 )
 ;
-yield
+await
 dispatch
 (
 refresh
@@ -90,6 +90,7 @@ heapWorker
 const
 setLabelDisplay
 =
+(
 exports
 .
 setLabelDisplay
@@ -132,9 +133,7 @@ an
 object
 with
 a
-\
 by
-\
 property
 attempted
 to
@@ -159,4 +158,5 @@ display
 }
 ;
 }
+)
 ;

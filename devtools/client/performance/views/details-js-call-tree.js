@@ -430,6 +430,7 @@ showOptimizations
 const
 threadNode
 =
+(
 this
 .
 threadNode
@@ -441,6 +442,7 @@ _prepareCallTree
 profile
 interval
 options
+)
 )
 ;
 this

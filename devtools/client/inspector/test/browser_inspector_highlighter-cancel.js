@@ -50,7 +50,6 @@ inspector
 ;
 ok
 (
-(
 await
 testActor
 .
@@ -62,7 +61,6 @@ focus
 -
 here
 "
-)
 )
 "
 The

@@ -539,9 +539,7 @@ filters
 .
 forEach
 (
-(
 filter
-)
 =
 >
 {

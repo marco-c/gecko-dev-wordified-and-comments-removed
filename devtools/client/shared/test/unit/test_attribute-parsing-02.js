@@ -913,11 +913,13 @@ attributes
 .
 .
 .
+(
 otherAttributes
 |
 |
 [
 ]
+)
 {
 name
 :

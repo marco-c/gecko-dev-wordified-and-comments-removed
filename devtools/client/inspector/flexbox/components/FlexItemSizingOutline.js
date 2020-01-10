@@ -121,7 +121,6 @@ mainBaseSize
 )
 {
 return
-(
 dom
 .
 div
@@ -152,7 +151,6 @@ basis
 )
 }
 )
-)
 ;
 }
 renderDeltaOutline
@@ -171,7 +169,6 @@ null
 ;
 }
 return
-(
 dom
 .
 div
@@ -187,7 +184,6 @@ outline
 delta
 "
 }
-)
 )
 ;
 }
@@ -235,7 +231,6 @@ className
 )
 {
 return
-(
 dom
 .
 div
@@ -262,7 +257,6 @@ label
 :
 label
 }
-)
 )
 ;
 }
@@ -587,6 +581,7 @@ curr
 )
 =
 >
+(
 curr
 .
 size
@@ -598,6 +593,7 @@ curr
 size
 :
 acc
+)
 0
 )
 ;
@@ -774,7 +770,6 @@ final
 ;
 }
 return
-(
 dom
 .
 div
@@ -871,7 +866,6 @@ clampState
 "
 unclamped
 "
-)
 )
 )
 )

@@ -844,7 +844,7 @@ page_up
 page_down
 )
 /
-ig
+gi
 .
 test
 (

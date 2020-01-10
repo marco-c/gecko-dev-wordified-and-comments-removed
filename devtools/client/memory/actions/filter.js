@@ -35,6 +35,7 @@ refresh
 const
 setFilterString
 =
+(
 exports
 .
 setFilterString
@@ -57,6 +58,7 @@ filterString
 }
 ;
 }
+)
 ;
 const
 FILTER_INPUT_DEBOUNCE_MS

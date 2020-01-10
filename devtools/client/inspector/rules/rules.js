@@ -1850,6 +1850,7 @@ emulation
 ;
 if
 (
+(
 await
 this
 .
@@ -1863,6 +1864,7 @@ emulation
 "
 getIsPrintSimulationEnabled
 "
+)
 )
 &
 &
@@ -2666,7 +2668,6 @@ rule
 ;
 value
 =
-(
 rule
 .
 sheet
@@ -2677,7 +2678,6 @@ rule
 sheet
 .
 href
-)
 ?
 rule
 .
@@ -3067,9 +3067,7 @@ newRulePromise
 .
 then
 (
-(
 values
-)
 =
 >
 {
@@ -3196,6 +3194,7 @@ isEditing
 )
 {
 return
+(
 this
 .
 tooltips
@@ -3220,6 +3219,7 @@ propertyeditor
 length
 >
 0
+)
 ;
 }
 _handleUAStylePrefChange
@@ -3360,7 +3360,6 @@ _filterChangedTimeout
 const
 filterTimeout
 =
-(
 this
 .
 searchValue
@@ -3368,7 +3367,6 @@ searchValue
 length
 >
 0
-)
 ?
 FILTER_CHANGED_TIMEOUT
 :
@@ -4226,7 +4224,6 @@ false
 const
 refresh
 =
-(
 this
 .
 _viewedElement
@@ -4234,7 +4231,6 @@ _viewedElement
 =
 =
 element
-)
 ;
 if
 (
@@ -7538,11 +7534,9 @@ declaration
 const
 distance
 =
-(
 offsetTop
 +
 offsetHeight
-)
 -
 rule
 .

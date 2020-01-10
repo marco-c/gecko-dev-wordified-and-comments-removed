@@ -83,7 +83,6 @@ render
 )
 {
 return
-(
 dom
 .
 div
@@ -159,7 +158,6 @@ searchinput
 clear
 "
 }
-)
 )
 )
 ;

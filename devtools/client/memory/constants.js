@@ -25,12 +25,14 @@ TREE_ROW_HEIGHT
 const
 actions
 =
+(
 exports
 .
 actions
 =
 {
 }
+)
 ;
 actions
 .
@@ -1297,6 +1299,7 @@ false
 const
 viewState
 =
+(
 exports
 .
 viewState
@@ -1306,6 +1309,7 @@ Object
 create
 (
 null
+)
 )
 ;
 viewState
@@ -1375,6 +1379,7 @@ individuals
 const
 snapshotState
 =
+(
 exports
 .
 snapshotState
@@ -1384,6 +1389,7 @@ Object
 create
 (
 null
+)
 )
 ;
 snapshotState
@@ -1461,6 +1467,7 @@ read
 const
 censusState
 =
+(
 exports
 .
 censusState
@@ -1470,6 +1477,7 @@ Object
 create
 (
 null
+)
 )
 ;
 censusState
@@ -1511,6 +1519,7 @@ error
 const
 treeMapState
 =
+(
 exports
 .
 treeMapState
@@ -1520,6 +1529,7 @@ Object
 create
 (
 null
+)
 )
 ;
 treeMapState
@@ -1567,6 +1577,7 @@ error
 const
 diffingState
 =
+(
 exports
 .
 diffingState
@@ -1576,6 +1587,7 @@ Object
 create
 (
 null
+)
 )
 ;
 diffingState
@@ -1633,6 +1645,7 @@ error
 const
 dominatorTreeState
 =
+(
 exports
 .
 dominatorTreeState
@@ -1642,6 +1655,7 @@ Object
 create
 (
 null
+)
 )
 ;
 dominatorTreeState
@@ -1733,6 +1747,7 @@ error
 const
 individualsState
 =
+(
 exports
 .
 individualsState
@@ -1742,6 +1757,7 @@ Object
 create
 (
 null
+)
 )
 ;
 individualsState

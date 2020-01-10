@@ -221,9 +221,7 @@ this
 .
 setState
 (
-(
 prevState
-)
 =
 >
 {

@@ -221,7 +221,6 @@ waitFor
 )
 =
 >
-(
 document
 .
 visibilityState
@@ -230,7 +229,6 @@ visibilityState
 "
 hidden
 "
-)
 )
 ;
 const
@@ -312,9 +310,7 @@ selectedBrowser
 [
 MESSAGES_COUNT
 ]
-(
 count
-)
 =
 >
 {
@@ -655,7 +651,6 @@ waitFor
 )
 =
 >
-(
 document
 .
 visibilityState
@@ -664,7 +659,6 @@ visibilityState
 "
 hidden
 "
-)
 )
 ;
 await
@@ -685,9 +679,7 @@ selectedBrowser
 [
 MESSAGES_COUNT
 ]
-(
 count
-)
 =
 >
 {

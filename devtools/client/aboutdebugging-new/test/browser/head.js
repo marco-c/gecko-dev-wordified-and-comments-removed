@@ -1272,9 +1272,7 @@ document
 const
 sanitizeTitle
 =
-(
 x
-)
 =
 >
 {

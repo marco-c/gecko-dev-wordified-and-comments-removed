@@ -1259,9 +1259,7 @@ this
 .
 applyProperties
 (
-(
 modifications
-)
 =
 >
 {
@@ -2059,9 +2057,7 @@ this
 .
 applyProperties
 (
-(
 modifications
-)
 =
 >
 {
@@ -2113,9 +2109,7 @@ this
 .
 applyProperties
 (
-(
 modifications
-)
 =
 >
 {

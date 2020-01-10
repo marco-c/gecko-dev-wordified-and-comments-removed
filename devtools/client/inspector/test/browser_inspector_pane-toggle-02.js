@@ -317,9 +317,11 @@ displayed
 is
 (
 sidebarWidth
+(
 toolboxWidth
 *
 2
+)
 /
 3
 "

@@ -204,11 +204,9 @@ return
 {
 minVersion
 :
-(
 localMajorVersion
 -
 2
-)
 +
 "
 .
@@ -216,11 +214,9 @@ localMajorVersion
 "
 maxVersion
 :
-(
 localMajorVersion
 +
 1
-)
 +
 "
 .

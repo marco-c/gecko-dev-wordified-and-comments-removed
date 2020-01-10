@@ -653,7 +653,6 @@ next
 ;
 if
 (
-(
 Date
 .
 now
@@ -661,7 +660,6 @@ now
 )
 -
 time
-)
 >
 this
 .
@@ -2233,9 +2231,7 @@ propertyNames
 {
 onItem
 :
-(
 propertyName
-)
 =
 >
 {
@@ -2570,9 +2566,7 @@ propertyViews
 {
 onItem
 :
-(
 propView
-)
 =
 >
 {
@@ -2874,7 +2868,6 @@ _filterChangedTimeout
 const
 filterTimeout
 =
-(
 this
 .
 searchField
@@ -2884,7 +2877,6 @@ value
 length
 >
 0
-)
 ?
 FILTER_CHANGED_TIMEOUT
 :
@@ -4072,6 +4064,7 @@ visible
 const
 isDark
 =
+(
 this
 .
 tree
@@ -4084,6 +4077,7 @@ this
 tree
 .
 _darkStripe
+)
 ;
 return
 isDark

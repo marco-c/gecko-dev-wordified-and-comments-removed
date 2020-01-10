@@ -205,6 +205,7 @@ function
 const
 db
 =
+(
 IDB
 .
 _db
@@ -212,6 +213,7 @@ _db
 request
 .
 result
+)
 ;
 const
 objectStore
