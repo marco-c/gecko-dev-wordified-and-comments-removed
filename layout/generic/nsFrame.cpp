@@ -54097,7 +54097,13 @@ scrollableFrame
 )
 {
 return
-false
+nsLayoutUtils
+:
+:
+FrameIsScrolledOutOfViewInCrossProcess
+(
+aTarget
+)
 ;
 }
 nsIFrame

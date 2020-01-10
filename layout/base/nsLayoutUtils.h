@@ -6492,6 +6492,16 @@ nsIFrame
 aFrame
 )
 ;
+static
+bool
+FrameIsScrolledOutOfViewInCrossProcess
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 static
