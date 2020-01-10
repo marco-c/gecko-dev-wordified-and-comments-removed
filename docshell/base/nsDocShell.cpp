@@ -27490,13 +27490,6 @@ Embed
 nsIContentViewer
 *
 aContentViewer
-const
-char
-*
-aCommand
-nsISupports
-*
-aExtraInfo
 )
 {
 PersistLayoutHistoryState
@@ -30568,9 +30561,6 @@ rv
 Embed
 (
 viewer
-"
-"
-0
 )
 ;
 NS_ENSURE_SUCCESS
@@ -35273,9 +35263,6 @@ NS_ENSURE_SUCCESS
 Embed
 (
 viewer
-"
-"
-nullptr
 )
 NS_ERROR_FAILURE
 )
