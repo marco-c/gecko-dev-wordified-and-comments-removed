@@ -1267,7 +1267,7 @@ SharedArrayBufferObject
 :
 Finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

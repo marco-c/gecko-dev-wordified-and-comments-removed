@@ -201,10 +201,7 @@ virtual
 void
 drop
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -328,10 +325,7 @@ virtual
 void
 drop
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -831,7 +825,7 @@ genObj
 void
 clearGenerator
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -839,7 +833,7 @@ fop
 void
 clearGenerator
 (
-FreeOp
+JSFreeOp
 *
 fop
 Debugger
@@ -898,7 +892,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -1249,7 +1243,7 @@ Data
 void
 freeFrameIterData
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -1257,7 +1251,7 @@ fop
 void
 maybeDecrementFrameScriptStepperCount
 (
-FreeOp
+JSFreeOp
 *
 fop
 AbstractFramePtr

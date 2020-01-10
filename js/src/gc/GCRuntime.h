@@ -235,7 +235,7 @@ GCRuntime
 *
 gc
 ;
-FreeOp
+JSFreeOp
 *
 fop
 ;
@@ -3338,7 +3338,7 @@ getNextSweepGroup
 IncrementalProgress
 markGrayReferencesInCurrentGroup
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -3349,7 +3349,7 @@ budget
 IncrementalProgress
 endMarkingSweepGroup
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -3367,7 +3367,7 @@ color
 IncrementalProgress
 beginSweepingSweepGroup
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -3378,7 +3378,7 @@ budget
 void
 sweepDebuggerOnMainThread
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -3386,7 +3386,7 @@ fop
 void
 sweepJitDataOnMainThread
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -3394,7 +3394,7 @@ fop
 IncrementalProgress
 endSweepingSweepGroup
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -3413,7 +3413,7 @@ sliceBudget
 IncrementalProgress
 sweepTypeInformation
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -3424,7 +3424,7 @@ budget
 IncrementalProgress
 releaseSweptEmptyArenas
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -3440,7 +3440,7 @@ startSweepingAtomsTable
 IncrementalProgress
 sweepAtomsTable
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -3451,7 +3451,7 @@ budget
 IncrementalProgress
 sweepWeakCaches
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -3462,7 +3462,7 @@ budget
 IncrementalProgress
 finalizeAllocKind
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -3473,7 +3473,7 @@ budget
 IncrementalProgress
 sweepShapeTree
 (
-FreeOp
+JSFreeOp
 *
 fop
 SliceBudget
@@ -3497,7 +3497,7 @@ const
 void
 sweepZones
 (
-FreeOp
+JSFreeOp
 *
 fop
 bool
@@ -3780,7 +3780,7 @@ endif
 void
 callFinalizeCallbacks
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSFinalizeStatus

@@ -143,7 +143,7 @@ extern
 void
 ReleaseAllJITCode
 (
-FreeOp
+JSFreeOp
 *
 op
 )

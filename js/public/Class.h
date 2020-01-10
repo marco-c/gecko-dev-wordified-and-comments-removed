@@ -1867,7 +1867,7 @@ void
 FinalizeOp
 )
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -3050,7 +3050,7 @@ js
 :
 :
 ClassOps
-FreeOp
+JSFreeOp
 )
 ;
 const

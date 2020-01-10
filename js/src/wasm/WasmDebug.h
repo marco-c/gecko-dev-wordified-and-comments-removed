@@ -326,7 +326,7 @@ offset
 void
 destroyBreakpointSite
 (
-FreeOp
+JSFreeOp
 *
 fop
 Instance
@@ -339,7 +339,7 @@ offset
 void
 clearBreakpointsIn
 (
-FreeOp
+JSFreeOp
 *
 fp
 WasmInstanceObject
@@ -359,7 +359,7 @@ handler
 void
 clearAllBreakpoints
 (
-FreeOp
+JSFreeOp
 *
 fp
 WasmInstanceObject
@@ -388,7 +388,7 @@ funcIndex
 bool
 decrementStepperCount
 (
-FreeOp
+JSFreeOp
 *
 fop
 uint32_t

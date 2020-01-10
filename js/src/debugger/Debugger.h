@@ -2746,7 +2746,7 @@ obj
 void
 removeDebuggeeGlobal
 (
-FreeOp
+JSFreeOp
 *
 fop
 GlobalObject
@@ -4383,7 +4383,7 @@ static
 void
 detachAllDebuggersFromGlobal
 (
-FreeOp
+JSFreeOp
 *
 fop
 GlobalObject
@@ -4752,10 +4752,7 @@ virtual
 void
 drop
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -4906,7 +4903,7 @@ virtual
 void
 recompile
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -4968,7 +4965,7 @@ type_
 void
 inc
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -4976,7 +4973,7 @@ fop
 void
 dec
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -4991,7 +4988,7 @@ virtual
 void
 destroyIfEmpty
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -5092,7 +5089,7 @@ True
 void
 destroy
 (
-FreeOp
+JSFreeOp
 *
 fop
 MayDestroySite
@@ -5168,7 +5165,7 @@ protected
 void
 recompile
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -5189,7 +5186,7 @@ pc
 void
 destroyIfEmpty
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -5254,7 +5251,7 @@ private
 void
 recompile
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -5277,7 +5274,7 @@ offset
 void
 destroyIfEmpty
 (
-FreeOp
+JSFreeOp
 *
 fop
 )

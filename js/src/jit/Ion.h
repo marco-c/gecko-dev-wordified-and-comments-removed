@@ -557,7 +557,7 @@ Invalidate
 TypeZone
 &
 types
-FreeOp
+JSFreeOp
 *
 fop
 const
@@ -966,7 +966,7 @@ mallocSizeOf
 void
 DestroyJitScripts
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSScript

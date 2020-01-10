@@ -1115,7 +1115,7 @@ stats
 void
 queueForegroundObjectsForSweep
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -1133,7 +1133,7 @@ releaseForegroundSweptEmptyArenas
 bool
 foregroundFinalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 AllocKind
@@ -1153,7 +1153,7 @@ static
 void
 backgroundFinalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 Arena
@@ -1192,7 +1192,7 @@ inline
 void
 queueForForegroundSweep
 (
-FreeOp
+JSFreeOp
 *
 fop
 const
@@ -1205,7 +1205,7 @@ inline
 void
 queueForBackgroundSweep
 (
-FreeOp
+JSFreeOp
 *
 fop
 const

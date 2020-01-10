@@ -464,7 +464,7 @@ trc
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -1066,7 +1066,7 @@ static
 void
 Destroy
 (
-FreeOp
+JSFreeOp
 *
 fop
 IonScript
@@ -2011,7 +2011,7 @@ invalidationCount_
 void
 decrementInvalidationCount
 (
-FreeOp
+JSFreeOp
 *
 fop
 )

@@ -554,10 +554,7 @@ BigInt
 :
 finalize
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 )

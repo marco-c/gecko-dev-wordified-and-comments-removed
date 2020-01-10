@@ -2654,7 +2654,7 @@ Scope
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 )

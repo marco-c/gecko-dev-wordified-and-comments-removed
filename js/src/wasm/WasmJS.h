@@ -288,7 +288,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -456,7 +456,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 JSObject
 *
@@ -781,7 +781,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -1136,7 +1136,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -1399,7 +1399,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

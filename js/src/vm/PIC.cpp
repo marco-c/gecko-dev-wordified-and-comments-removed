@@ -1279,7 +1279,7 @@ static
 void
 ForOfPIC_finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -1347,7 +1347,7 @@ Chain
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -1386,7 +1386,7 @@ Chain
 :
 freeAllStubs
 (
-FreeOp
+JSFreeOp
 *
 fop
 )

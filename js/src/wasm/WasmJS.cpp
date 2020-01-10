@@ -3663,7 +3663,7 @@ WasmModuleObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -6685,7 +6685,7 @@ WasmInstanceObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -8938,7 +8938,7 @@ WasmMemoryObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -10784,7 +10784,7 @@ WasmTableObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -12998,7 +12998,7 @@ WasmGlobalObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -18519,7 +18519,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

@@ -516,7 +516,7 @@ trc
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -592,7 +592,7 @@ cx
 void
 freeAllStubs
 (
-FreeOp
+JSFreeOp
 *
 fop
 )

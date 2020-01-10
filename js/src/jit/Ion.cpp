@@ -4130,7 +4130,7 @@ JitCode
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -5916,7 +5916,7 @@ IonScript
 :
 Destroy
 (
-FreeOp
+JSFreeOp
 *
 fop
 IonScript
@@ -13117,7 +13117,7 @@ static
 void
 InvalidateActivation
 (
-FreeOp
+JSFreeOp
 *
 fop
 const
@@ -13975,7 +13975,7 @@ jit
 :
 InvalidateAll
 (
-FreeOp
+JSFreeOp
 *
 fop
 Zone
@@ -14154,7 +14154,7 @@ Invalidate
 TypeZone
 &
 types
-FreeOp
+JSFreeOp
 *
 fop
 const
@@ -14785,7 +14785,7 @@ jit
 :
 FinishInvalidation
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSScript
@@ -15768,7 +15768,7 @@ jit
 :
 DestroyJitScripts
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSScript
