@@ -4051,7 +4051,7 @@ void
 Chunk
 :
 :
-decommitAllArenasWithoutUnlocking
+decommitFreeArenasWithoutUnlocking
 (
 const
 AutoLockGC
@@ -17418,7 +17418,7 @@ void
 GCRuntime
 :
 :
-decommitAllWithoutUnlocking
+decommitFreeArenasWithoutUnlocking
 (
 const
 AutoLockGC
@@ -17472,7 +17472,7 @@ next
 chunk
 -
 >
-decommitAllArenasWithoutUnlocking
+decommitFreeArenasWithoutUnlocking
 (
 lock
 )
@@ -40158,7 +40158,7 @@ freeEmptyChunks
 lock
 )
 ;
-decommitAllWithoutUnlocking
+decommitFreeArenasWithoutUnlocking
 (
 lock
 )

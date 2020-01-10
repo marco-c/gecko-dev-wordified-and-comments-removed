@@ -3254,7 +3254,7 @@ lock
 )
 ;
 void
-decommitAllArenasWithoutUnlocking
+decommitFreeArenasWithoutUnlocking
 (
 const
 AutoLockGC
