@@ -17,6 +17,12 @@ subprocess
 import
 sys
 from
+mozbuild
+.
+util
+import
+ensure_subprocess_env
+from
 distutils
 .
 spawn
@@ -613,9 +619,12 @@ path
                                            
 env
 =
+ensure_subprocess_env
+(
 self
 .
 _env
+)
                                            
 universal_newlines
 =
