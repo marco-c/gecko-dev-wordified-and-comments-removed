@@ -64,6 +64,8 @@ resource
 :
 /
 /
+gre
+/
 modules
 /
 PlacesUtils
