@@ -142,7 +142,6 @@ yaml
 skip_on
 (
 android
-debug
 emulator
 )
 =

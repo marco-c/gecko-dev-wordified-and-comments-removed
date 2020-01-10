@@ -95,7 +95,7 @@ yaml
 fuzzy
 (
 1
-3
+4
 )
 =
 =
@@ -215,11 +215,6 @@ system
 clip
 .
 png
-skip_on
-(
-android
-emulator
-)
 =
 =
 segmentation
@@ -279,11 +274,6 @@ snapping
 ref
 .
 yaml
-skip_on
-(
-android
-emulator
-)
 fuzzy
 (
 70

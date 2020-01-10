@@ -439,11 +439,6 @@ crash
 ref
 .
 yaml
-skip_on
-(
-android
-emulator
-)
 =
 =
 border
@@ -608,11 +603,6 @@ outset
 notref
 .
 yaml
-skip_on
-(
-android
-emulator
-)
 fuzzy
 (
 1
