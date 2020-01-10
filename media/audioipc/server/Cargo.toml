@@ -99,7 +99,7 @@ futures
 .
 18
 "
-once_cell
+lazy_static
 =
 "
 1
