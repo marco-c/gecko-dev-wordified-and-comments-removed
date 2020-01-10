@@ -796,11 +796,6 @@ aFlags
 nsString
 mValue
 ;
-uint32_t
-mWidth
-=
-0
-;
 }
 ;
 class
