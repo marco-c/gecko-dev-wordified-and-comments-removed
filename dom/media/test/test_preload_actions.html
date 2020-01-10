@@ -339,20 +339,6 @@ log
 "
 )
 ;
-/
-/
-eslint
--
-disable
--
-next
--
-line
-no
--
-unsanitized
-/
-property
 l
 .
 innerHTML
@@ -547,6 +533,8 @@ loading
 metadata
 .
 suspend
+:
+function
 (
 e
 )
@@ -645,6 +633,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -792,6 +782,8 @@ after
 loadedmetadata
 .
 loadeddata
+:
+function
 (
 e
 )
@@ -893,6 +885,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -1032,6 +1026,8 @@ canplaythrough
 eventually
 .
 canplaythrough
+:
+function
 (
 e
 )
@@ -1085,6 +1081,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -1217,6 +1215,8 @@ play
 through
 .
 suspend
+:
+function
 (
 e
 )
@@ -1354,6 +1354,8 @@ through
 .
 }
 ended
+:
+function
 (
 e
 )
@@ -1381,6 +1383,8 @@ target
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -1536,6 +1540,8 @@ t
 load
 .
 suspend
+:
+function
 (
 e
 )
@@ -1634,6 +1640,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -1797,6 +1805,8 @@ t
 load
 .
 suspend
+:
+function
 (
 e
 )
@@ -1895,6 +1905,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -2090,6 +2102,8 @@ second
 source
 .
 suspend
+:
+function
 (
 e
 )
@@ -2225,6 +2239,8 @@ through
 .
 }
 ended
+:
+function
 (
 e
 )
@@ -2279,6 +2295,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -2527,6 +2545,8 @@ be
 loaded
 .
 loadeddata
+:
+function
 (
 e
 )
@@ -2618,6 +2638,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -2986,6 +3008,8 @@ be
 loaded
 .
 canplaythrough
+:
+function
 (
 e
 )
@@ -3022,6 +3046,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -3145,6 +3171,8 @@ to
 load
 .
 loadeddata
+:
+function
 (
 e
 )
@@ -3231,6 +3259,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -3366,6 +3396,8 @@ have
 taken
 place
 suspend
+:
+function
 (
 e
 )
@@ -3464,6 +3496,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -3578,6 +3612,9 @@ according
 to
 preload
 none
+var
+s
+=
 document
 .
 createElement
@@ -3617,6 +3654,8 @@ play
 through
 .
 loadeddata
+:
+function
 (
 e
 )
@@ -3718,6 +3757,8 @@ play
 ;
 }
 ended
+:
+function
 (
 e
 )
@@ -3750,6 +3791,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -3896,6 +3939,8 @@ preload
 none
 .
 ended
+:
+function
 (
 e
 )
@@ -3929,6 +3974,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -4100,6 +4147,13 @@ logEvent
 e
 )
 {
+var
+v
+=
+e
+.
+target
+;
 info
 (
 e
@@ -4159,6 +4213,8 @@ preload
 metadata
 .
 ended
+:
+function
 (
 e
 )
@@ -4192,6 +4248,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -4280,6 +4338,8 @@ break
 autoplay
 !
 ended
+:
+function
 (
 e
 )
@@ -4313,6 +4373,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -4423,6 +4485,8 @@ none
 '
 .
 ended
+:
+function
 (
 e
 )
@@ -4456,6 +4520,8 @@ v
 ;
 }
 setup
+:
+function
 (
 v
 )
@@ -4588,6 +4654,8 @@ from
 auto
 '
 setup
+:
+function
 (
 v
 )
@@ -4849,13 +4917,13 @@ iterationCount
 function
 startTest
 (
-t
+test
 token
 )
 {
 if
 (
-t
+test
 =
 =
 tests
@@ -4898,7 +4966,7 @@ on
 logically
 different
 resources
-t
+test
 .
 name
 =
@@ -4940,7 +5008,7 @@ token
 =
 token
 ;
-t
+test
 .
 setup
 (

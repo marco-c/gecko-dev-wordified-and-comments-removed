@@ -341,7 +341,7 @@ testPrefs
 push
 (
 [
-"
+'
 media
 .
 navigator
@@ -349,7 +349,7 @@ navigator
 permission
 .
 disabled
-"
+'
 true
 ]
 )
@@ -374,7 +374,6 @@ setupGetUserMediaTestPrefs
 (
 )
 {
-let
 prefRequests
 =
 {

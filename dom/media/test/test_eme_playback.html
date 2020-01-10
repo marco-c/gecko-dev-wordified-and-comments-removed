@@ -157,18 +157,6 @@ text
 javascript
 "
 >
-/
-*
-import
--
-globals
--
-from
-eme
-.
-js
-*
-/
 var
 manager
 =
@@ -325,13 +313,13 @@ ev
 )
 {
 var
-s
+session
 =
 ev
 .
 target
 ;
-s
+session
 .
 gotKeysChanged
 =
@@ -352,7 +340,7 @@ valueList
 var
 map
 =
-s
+session
 .
 keyStatuses
 ;
@@ -452,7 +440,7 @@ status
 .
 for
 (
-let
+var
 [
 key
 val
@@ -572,7 +560,7 @@ ok
 (
 kid
 in
-s
+session
 .
 keyIdsReceived
 TimeStamp
@@ -585,7 +573,7 @@ session
 [
 "
 +
-s
+session
 .
 sessionId
 +
@@ -605,7 +593,7 @@ expected
 "
 )
 ;
-s
+session
 .
 keyIdsReceived
 [
@@ -666,7 +654,7 @@ index
 ;
 for
 (
-let
+var
 val
 of
 map
@@ -1245,7 +1233,7 @@ event
 ;
 for
 (
-let
+var
 kid
 in
 session
@@ -1417,7 +1405,7 @@ calls
 }
 for
 (
-let
+var
 kid
 in
 keyIdsReceived

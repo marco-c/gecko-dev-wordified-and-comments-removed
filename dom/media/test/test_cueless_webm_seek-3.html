@@ -283,6 +283,11 @@ testWebM3
 )
 ;
 var
+startPassed
+=
+false
+;
+var
 completed
 =
 false
@@ -326,7 +331,7 @@ end
 2
 ;
 function
-start
+startTest
 (
 )
 {
@@ -440,6 +445,10 @@ timeupdate
 timeupdate
 )
 ;
+startPassed
+=
+true
+;
 }
 function
 seekEnded
@@ -545,7 +554,7 @@ seeked
 seekEnded
 )
 ;
-start
+startTest
 (
 )
 }

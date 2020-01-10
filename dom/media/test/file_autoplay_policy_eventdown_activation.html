@@ -282,6 +282,7 @@ return
 new
 Promise
 (
+async
 function
 (
 resolve
@@ -300,7 +301,7 @@ event
 )
 {
 let
-p
+played
 =
 await
 element
@@ -325,7 +326,7 @@ false
 ;
 ok
 (
-p
+played
 "
 Expect
 to
@@ -343,6 +344,7 @@ resolve
 )
 ;
 }
+false
 )
 ;
 }

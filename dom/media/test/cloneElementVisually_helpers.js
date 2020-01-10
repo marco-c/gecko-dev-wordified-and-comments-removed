@@ -822,7 +822,6 @@ setVisible
 (
 true
 )
-;
 ok
 (
 !

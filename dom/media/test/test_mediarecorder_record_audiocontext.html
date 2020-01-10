@@ -124,6 +124,11 @@ AudioContext
 )
 ;
 var
+hasonstop
+=
+false
+;
+var
 buffer
 =
 context
@@ -240,6 +245,12 @@ dest
 .
 stream
 ;
+mMediaStream
+=
+dest
+.
+stream
+;
 source
 .
 start
@@ -253,7 +264,6 @@ play
 (
 )
 ;
-let
 mMediaRecorder
 =
 new
