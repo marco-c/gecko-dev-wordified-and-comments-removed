@@ -8406,6 +8406,15 @@ platform
 '
 win32
 '
+and
+sys
+.
+version_info
+<
+(
+3
+4
+)
 :
         
 import
