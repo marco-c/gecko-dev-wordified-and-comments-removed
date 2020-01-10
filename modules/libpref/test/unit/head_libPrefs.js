@@ -18,6 +18,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -26,6 +27,7 @@ stack
 .
 caller
 ;
+}
 try
 {
 f
@@ -119,6 +121,7 @@ prop
 =
 NS_APP_USER_PROFILE_50_DIR
 )
+{
 return
 Services
 .
@@ -134,6 +137,7 @@ Ci
 nsIFile
 )
 ;
+}
 throw
 Components
 .

@@ -115,13 +115,10 @@ ZIP_FILE_HEADER_SIZE
 +
 ZIP_CDS_HEADER_SIZE
 +
-(
 ZIP_EXTENDED_TIMESTAMP_SIZE
 *
 2
-)
 +
-(
 TESTS
 [
 i
@@ -132,7 +129,6 @@ name
 length
 *
 2
-)
 +
 TESTS
 [

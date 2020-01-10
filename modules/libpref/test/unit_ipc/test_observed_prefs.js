@@ -28,7 +28,6 @@ isParentProcess
 )
 {
 return
-(
 Services
 .
 appinfo
@@ -41,7 +40,6 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
-)
 ;
 }
 function

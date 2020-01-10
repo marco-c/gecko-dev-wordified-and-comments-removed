@@ -311,6 +311,7 @@ source
 =
 actual
 )
+{
 do_throw
 (
 "
@@ -338,6 +339,7 @@ been
 source
 )
 ;
+}
 this
 .
 offset
