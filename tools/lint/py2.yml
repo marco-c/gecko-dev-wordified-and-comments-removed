@@ -93,10 +93,6 @@ tools
 -
 testing
 /
-tps
--
-testing
-/
 web
 -
 platform
