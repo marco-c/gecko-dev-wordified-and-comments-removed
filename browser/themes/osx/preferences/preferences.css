@@ -23,7 +23,8 @@ global
 shared
 .
 inc
-window
+:
+root
 {
 font
 :
