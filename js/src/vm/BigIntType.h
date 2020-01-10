@@ -2614,6 +2614,17 @@ heapDigits_
 static
 constexpr
 size_t
+inlineDigitsLength
+(
+)
+{
+return
+InlineDigitsLength
+;
+}
+static
+constexpr
+size_t
 nonInlineDigitsLengthMask
 (
 )
