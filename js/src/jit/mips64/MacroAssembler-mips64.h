@@ -2332,6 +2332,17 @@ dest
 )
 ;
 void
+unboxDouble
+(
+const
+BaseIndex
+&
+src
+FloatRegister
+dest
+)
+;
+void
 unboxString
 (
 const
