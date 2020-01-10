@@ -12997,6 +12997,19 @@ contentStoragePrincipal
 )
 )
 ;
+nsCOMPtr
+<
+nsIReferrerInfo
+>
+referrerInfo
+=
+aLocationChangeData
+-
+>
+referrerInfo
+(
+)
+;
 Unused
 <
 <
@@ -13055,6 +13068,7 @@ title
 contentPrincipal
 contentStoragePrincipal
 csp
+referrerInfo
 aLocationChangeData
 -
 >
