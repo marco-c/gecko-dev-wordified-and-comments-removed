@@ -3214,6 +3214,11 @@ ShowFocusRings
 )
 ;
 }
+if
+(
+mIsTopLevel
+)
+{
 nsContentUtils
 :
 :
@@ -3237,6 +3242,7 @@ CHROME_SCROLLBARS
 )
 )
 ;
+}
 nsWeakPtr
 weakPtrThis
 =

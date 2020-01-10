@@ -1260,6 +1260,8 @@ GetExistingDocShell
 (
 )
 ;
+if
+(
 nsCOMPtr
 <
 nsIScrollable
@@ -1270,10 +1272,6 @@ do_QueryInterface
 (
 docshell
 )
-;
-if
-(
-scrollable
 )
 {
 int32_t
