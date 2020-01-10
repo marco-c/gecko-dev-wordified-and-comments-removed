@@ -6918,7 +6918,7 @@ await_fix
 "
 javascript_options_experimental_await_fix
 RelaxedAtomicBool
-false
+true
 )
 #
 ifdef
