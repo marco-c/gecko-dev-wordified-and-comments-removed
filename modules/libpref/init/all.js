@@ -7507,16 +7507,6 @@ pref
 "
 dom
 .
-popup_maximum
-"
-20
-)
-;
-pref
-(
-"
-dom
-.
 popup_allowed_events
 "
 "
