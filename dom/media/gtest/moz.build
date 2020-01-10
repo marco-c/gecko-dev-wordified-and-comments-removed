@@ -183,6 +183,11 @@ TestAudioTrackEncoder
 cpp
 '
 '
+TestBenchmarkStorage
+.
+cpp
+'
+'
 TestBitWriter
 .
 cpp
