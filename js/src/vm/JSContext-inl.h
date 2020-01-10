@@ -121,6 +121,17 @@ SymbolType
 .
 h
 "
+#
+include
+"
+vm
+/
+Activation
+-
+inl
+.
+h
+"
 namespace
 js
 {

@@ -151,6 +151,15 @@ include
 "
 vm
 /
+FrameIter
+.
+h
+"
+#
+include
+"
+vm
+/
 GlobalObject
 .
 h

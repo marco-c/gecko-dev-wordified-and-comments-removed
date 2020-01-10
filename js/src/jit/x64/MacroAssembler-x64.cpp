@@ -77,6 +77,15 @@ h
 #
 include
 "
+vm
+/
+JitActivation
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler

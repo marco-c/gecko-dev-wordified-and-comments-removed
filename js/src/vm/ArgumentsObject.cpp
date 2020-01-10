@@ -102,6 +102,17 @@ include
 "
 vm
 /
+FrameIter
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 -
 inl

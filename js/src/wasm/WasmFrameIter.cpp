@@ -10,6 +10,15 @@ h
 #
 include
 "
+vm
+/
+JitActivation
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmInstance

@@ -402,6 +402,17 @@ include
 "
 vm
 /
+FrameIter
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Interpreter
 -
 inl

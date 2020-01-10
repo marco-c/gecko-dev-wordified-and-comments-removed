@@ -104,6 +104,15 @@ include
 "
 vm
 /
+FrameIter
+.
+h
+"
+#
+include
+"
+vm
+/
 JSScript
 .
 h

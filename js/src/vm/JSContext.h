@@ -117,6 +117,15 @@ include
 "
 vm
 /
+Activation
+.
+h
+"
+#
+include
+"
+vm
+/
 ErrorReporting
 .
 h
@@ -157,6 +166,9 @@ AutoRealm
 namespace
 jit
 {
+class
+JitActivation
+;
 class
 JitContext
 ;
