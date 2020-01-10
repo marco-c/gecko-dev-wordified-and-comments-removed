@@ -320,15 +320,6 @@ ui
 init
 (
 )
-.
-then
-(
-(
-)
-=
->
-this
-)
 ;
 }
 get
