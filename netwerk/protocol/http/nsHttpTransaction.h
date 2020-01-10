@@ -702,6 +702,15 @@ return
 mTransferSize
 ;
 }
+int64_t
+GetRequestSize
+(
+)
+{
+return
+mRequestSize
+;
+}
 MOZ_MUST_USE
 bool
 Do0RTT
