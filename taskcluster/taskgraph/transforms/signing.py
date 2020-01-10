@@ -61,8 +61,6 @@ scriptworker
 import
 (
     
-add_scope_prefix
-    
 get_signing_cert_scope_per_platform
     
 get_worker_type_for_scope
@@ -367,37 +365,6 @@ formats
 add
 (
 f
-)
-        
-for
-format
-in
-formats
-:
-            
-signing_format_scopes
-.
-append
-(
-                
-add_scope_prefix
-(
-config
-'
-signing
-:
-format
-:
-{
-}
-'
-.
-format
-(
-format
-)
-)
-            
 )
         
 is_nightly

@@ -54,8 +54,6 @@ scriptworker
 import
 (
     
-add_scope_prefix
-    
 get_signing_cert_scope_per_platform
     
 get_worker_type_for_scope
@@ -316,23 +314,6 @@ win
 in
 build_platform
 :
-            
-scopes
-.
-append
-(
-add_scope_prefix
-(
-config
-"
-signing
-:
-format
-:
-sha2signcode
-"
-)
-)
             
 formats
 =
