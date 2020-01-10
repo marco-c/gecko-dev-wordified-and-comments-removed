@@ -32,6 +32,7 @@ State
 uint8_t
 {
 None
+HasBeenActivated
 FullActivated
 EndGuard_
 }

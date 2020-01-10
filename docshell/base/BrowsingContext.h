@@ -1020,6 +1020,11 @@ HasValidTransientUserGestureActivation
 (
 )
 ;
+bool
+ConsumeTransientUserGestureActivation
+(
+)
+;
 inline
 JSObject
 *

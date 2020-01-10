@@ -4087,6 +4087,14 @@ attribute
 boolean
 hasValidTransientUserGestureActivation
 ;
+[
+ChromeOnly
+]
+boolean
+consumeTransientUserGestureActivation
+(
+)
+;
 }
 ;
 /
