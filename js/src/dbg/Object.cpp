@@ -21,6 +21,15 @@ h
 #
 include
 "
+dbg
+/
+Script
+.
+h
+"
+#
+include
+"
 proxy
 /
 ScriptedProxyHandler
@@ -1893,7 +1902,7 @@ return
 true
 ;
 }
-RootedObject
+RootedDebuggerScript
 scriptObject
 (
 cx

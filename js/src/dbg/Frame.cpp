@@ -57,6 +57,15 @@ h
 #
 include
 "
+dbg
+/
+Script
+.
+h
+"
+#
+include
+"
 frontend
 /
 BytecodeCompilation
@@ -6875,7 +6884,7 @@ fromChildJSObject
 thisobj
 )
 ;
-RootedObject
+RootedDebuggerScript
 scriptObject
 (
 cx
