@@ -3258,6 +3258,16 @@ cellp
 namespace
 js
 {
+extern
+bool
+ObjectMayBeSwapped
+(
+const
+JSObject
+*
+obj
+)
+;
 enum
 DefineAsIntrinsic
 {
