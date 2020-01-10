@@ -2022,9 +2022,6 @@ HuffmanTableUnreachable
 {
 HuffmanTableIndexedSymbolsSum
 sum
-(
-cx_
-)
 ;
 MOZ_TRY
 (
@@ -3381,7 +3378,6 @@ Table
 >
 {
 }
-cx_
 }
 ;
 auto
@@ -3445,7 +3441,6 @@ Table
 >
 {
 }
-cx_
 }
 ;
 auto
@@ -4379,10 +4374,6 @@ length
 metadata_
 (
 nullptr
-)
-dictionary_
-(
-cx
 )
 posBeforeTree_
 (
@@ -8318,8 +8309,6 @@ GenericHuffmanTable
 :
 GenericHuffmanTable
 (
-JSContext
-*
 )
 :
 implementation_
@@ -9061,7 +9050,6 @@ SingleLookupHuffmanTable
 >
 {
 }
-cx
 SingleLookupHuffmanTable
 :
 :
@@ -9113,7 +9101,6 @@ TwoLookupsHuffmanTable
 >
 {
 }
-cx
 }
 ;
 return
@@ -9147,7 +9134,6 @@ ThreeLookupsHuffmanTable
 >
 {
 }
-cx
 }
 ;
 return
@@ -11587,7 +11573,6 @@ i
 )
 Subtable
 (
-cx
 )
 ;
 suffixTablesIndices
@@ -14481,9 +14466,6 @@ HuffmanDictionary
 :
 HuffmanDictionary
 (
-JSContext
-*
-cx
 )
 :
 fields_
