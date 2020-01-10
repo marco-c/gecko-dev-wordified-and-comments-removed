@@ -246,12 +246,6 @@ devtools
 *
 "
 "
-nsprpub
-/
-*
-*
-"
-"
 other
 -
 licenses
