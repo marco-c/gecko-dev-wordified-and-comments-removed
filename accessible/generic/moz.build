@@ -108,6 +108,11 @@ HyperTextAccessible
 .
 h
 '
+'
+OuterDocAccessible
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
