@@ -65,6 +65,7 @@ no
 alwaysontop
 lockaspectratio
 resizable
+dialog
 ;
 const
 WINDOW_TYPE
