@@ -65,6 +65,14 @@ update
 -
 generator
 -
+taskcluster
+/
+docker
+/
+visual
+-
+metrics
+-
 testing
 /
 gtest
