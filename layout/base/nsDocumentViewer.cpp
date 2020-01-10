@@ -7903,6 +7903,7 @@ NS_ERROR_NOT_AVAILABLE
 bool
 boundsChanged
 =
+!
 mBounds
 .
 IsEqualEdges
