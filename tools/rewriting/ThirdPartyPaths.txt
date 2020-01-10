@@ -4,6 +4,14 @@ components
 /
 newtab
 /
+node_modules
+/
+browser
+/
+components
+/
+newtab
+/
 vendor
 /
 browser
