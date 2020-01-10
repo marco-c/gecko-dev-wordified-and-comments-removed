@@ -1577,7 +1577,7 @@ needed
 for
 sane
 texture
-coordiantes
+coordinates
 )
 .
 Only
