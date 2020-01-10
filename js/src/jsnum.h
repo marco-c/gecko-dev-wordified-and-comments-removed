@@ -249,6 +249,14 @@ val
 )
 ;
 extern
+bool
+IsInteger
+(
+double
+d
+)
+;
+extern
 MOZ_MUST_USE
 bool
 JS_FASTCALL
