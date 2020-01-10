@@ -197,6 +197,10 @@ no_static_freetype
 =
 [
 ]
+leak_checks
+=
+[
+]
 [
 build
 -

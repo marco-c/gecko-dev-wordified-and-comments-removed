@@ -261,6 +261,9 @@ profiler
 "
 no_static_freetype
 "
+"
+leak_checks
+"
 ]
 }
 webrender_api
