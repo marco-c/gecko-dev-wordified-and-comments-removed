@@ -157,6 +157,9 @@ AutoLockHelperThreadState
 class
 VerifyPreTracer
 ;
+class
+ZoneAllocator
+;
 namespace
 gc
 {

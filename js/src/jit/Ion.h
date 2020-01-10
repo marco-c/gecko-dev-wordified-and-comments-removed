@@ -58,6 +58,15 @@ Realm
 .
 h
 "
+#
+include
+"
+vm
+/
+TypeInference
+.
+h
+"
 namespace
 js
 {

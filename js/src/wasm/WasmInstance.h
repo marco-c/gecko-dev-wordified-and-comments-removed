@@ -25,6 +25,15 @@ h
 #
 include
 "
+gc
+/
+Zone
+.
+h
+"
+#
+include
+"
 vm
 /
 SharedMem

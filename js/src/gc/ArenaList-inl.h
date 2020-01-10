@@ -22,6 +22,15 @@ Heap
 .
 h
 "
+#
+include
+"
+gc
+/
+Zone
+.
+h
+"
 void
 js
 :
