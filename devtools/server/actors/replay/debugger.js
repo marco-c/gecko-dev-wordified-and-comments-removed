@@ -509,6 +509,15 @@ hadRepaintFailure
 ;
 }
 }
+getDebuggees
+(
+)
+{
+return
+[
+]
+;
+}
 get
 _paused
 (
