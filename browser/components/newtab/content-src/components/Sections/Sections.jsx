@@ -1734,6 +1734,15 @@ props
 .
 Prefs
 }
+isFixed
+=
+{
+this
+.
+props
+.
+isFixed
+}
 isFirst
 =
 {

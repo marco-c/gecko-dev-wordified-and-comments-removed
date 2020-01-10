@@ -2280,7 +2280,7 @@ return
 (
 <
 LocalizationProvider
-messages
+bundles
 =
 {
 generateBundles

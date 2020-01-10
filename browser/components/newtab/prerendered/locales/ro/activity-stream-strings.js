@@ -1169,8 +1169,8 @@ firstrun_extra_legal_links
 "
 :
 "
-Prin
-continuare
+Continu
+nd
 e
 ti
 de

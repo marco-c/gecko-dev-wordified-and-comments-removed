@@ -129,7 +129,7 @@ menu_action_open_new_window
 "
 :
 "
-Ldei
+Ldi
 deg
 usfaylu
 amaynut
