@@ -6,7 +6,7 @@ define
 mozilla_SandboxPolicyContent_h
 #
 define
-MAX_TESTING_READ_PATHS
+MAX_CONTENT_TESTING_READ_PATHS
 4
 namespace
 mozilla

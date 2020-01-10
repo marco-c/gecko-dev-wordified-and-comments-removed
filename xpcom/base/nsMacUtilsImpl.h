@@ -206,6 +206,12 @@ static
 StaticMutex
 sCachedAppPathMutex
 ;
+static
+nsresult
+ClearCachedAppPathOnShutdown
+(
+)
+;
 #
 endif
 enum
