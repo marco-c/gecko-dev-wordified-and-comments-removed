@@ -1,3 +1,8 @@
+requestLongerTimeout
+(
+6
+)
+;
 AntiTracking
 .
 runTestInNormalAndPrivateMode
