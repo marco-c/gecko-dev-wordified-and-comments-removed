@@ -93,7 +93,6 @@ const
 {
 getSourceNames
 parseURL
-isScratchpadScheme
 getSourceMappedFile
 }
 =
@@ -691,17 +690,9 @@ isLinkable
 =
 !
 !
-(
-isScratchpadScheme
-(
-source
-)
-|
-|
 parseURL
 (
 source
-)
 )
 |
 |

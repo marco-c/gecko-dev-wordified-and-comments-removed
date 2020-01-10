@@ -2267,11 +2267,6 @@ RESPONSIVE
 :
 case
 "
-SCRATCHPAD
-"
-:
-case
-"
 STORAGE
 "
 :

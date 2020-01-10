@@ -234285,12 +234285,6 @@ recentCrashes
 0
 }
 "
-scratchpads
-"
-:
-[
-]
-"
 global
 "
 :

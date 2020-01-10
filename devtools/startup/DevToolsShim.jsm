@@ -583,7 +583,6 @@ return
 }
 const
 {
-scratchpads
 browserConsole
 browserToolbox
 }
@@ -597,16 +596,6 @@ browserConsole
 |
 |
 browserToolbox
-|
-|
-(
-scratchpads
-&
-&
-scratchpads
-.
-length
-)
 ;
 if
 (

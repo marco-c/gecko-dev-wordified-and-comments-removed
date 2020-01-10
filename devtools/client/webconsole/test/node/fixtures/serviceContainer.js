@@ -70,14 +70,6 @@ onViewSourceInStyleEditor
 >
 {
 }
-onViewSourceInScratchpad
-:
-(
-)
-=
->
-{
-}
 openNetworkPanel
 :
 (

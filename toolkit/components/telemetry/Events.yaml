@@ -7299,9 +7299,6 @@ options
 performance
 "
 "
-scratchpad
-"
-"
 storage
 "
 "
@@ -7672,9 +7669,6 @@ options
 "
 "
 performance
-"
-"
-scratchpad
 "
 "
 storage

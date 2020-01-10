@@ -1096,8 +1096,6 @@ of
 the
 web
 console
-or
-scratchpad
 .
 #
 #

@@ -197,8 +197,6 @@ javascript
 pretty
 -
 printing
-and
-scratchpad
 work
 without
 any

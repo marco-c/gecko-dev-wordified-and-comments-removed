@@ -419,17 +419,6 @@ onViewSourceInStyleEditor
 (
 frame
 )
-onViewSourceInScratchpad
-:
-frame
-=
->
-hud
-.
-onViewSourceInScratchpad
-(
-frame
-)
 }
 )
 ;
