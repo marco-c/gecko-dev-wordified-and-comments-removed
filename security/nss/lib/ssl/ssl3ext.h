@@ -200,6 +200,16 @@ esniNonce
 TLS13_ESNI_NONCE_SIZE
 ]
 ;
+sslDelegatedCredential
+*
+peerDelegCred
+;
+PRBool
+peerRequestedDelegCred
+;
+PRBool
+sendingDelegCredToPeer
+;
 }
 ;
 typedef

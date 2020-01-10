@@ -80,6 +80,13 @@ certStatusArray
 SECItem
 signedCertTimestamps
 ;
+SECItem
+delegCred
+;
+sslKeyPair
+*
+delegCredKeyPair
+;
 }
 sslServerCert
 ;

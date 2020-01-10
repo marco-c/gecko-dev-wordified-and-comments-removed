@@ -6877,6 +6877,8 @@ ssl_auth_rsa_decrypt
 nullptr
 nullptr
 nullptr
+nullptr
+nullptr
 }
 ;
 static
@@ -6889,6 +6891,8 @@ ssl_auth_rsa_sign
 nullptr
 nullptr
 nullptr
+nullptr
+nullptr
 }
 ;
 static
@@ -6898,6 +6902,8 @@ ServerCertDataRsaPss
 =
 {
 ssl_auth_rsa_pss
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr

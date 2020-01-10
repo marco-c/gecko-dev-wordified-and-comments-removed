@@ -463,6 +463,10 @@ make_cert
 dsa
 dsa
 sign
+make_cert
+delegator_ecdsa256
+delegator_p256
+sign
 }
 #
 #

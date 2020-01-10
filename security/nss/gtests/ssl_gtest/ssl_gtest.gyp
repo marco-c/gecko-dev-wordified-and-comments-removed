@@ -328,6 +328,11 @@ tls_protect
 .
 cc
 '
+'
+tls_subcerts_unittest
+.
+cc
+'
 ]
 '
 dependencies

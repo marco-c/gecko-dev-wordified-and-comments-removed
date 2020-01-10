@@ -293,6 +293,11 @@ tls13replay
 .
 c
 '
+'
+tls13subcerts
+.
+c
+'
 ]
 '
 conditions
