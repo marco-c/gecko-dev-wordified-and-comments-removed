@@ -2388,10 +2388,6 @@ tar
 '
             
 '
-llvm
-'
-            
-'
 mercurial
 '
             
@@ -2928,22 +2924,6 @@ nasm
             
 '
 yasm
-'
-            
-'
-llvm
--
-7
-.
-0
-'
-            
-'
-clang
--
-7
-.
-0
 '
         
 ]
@@ -3506,16 +3486,6 @@ mozboot
 import
 stylo
         
-if
-'
-mobile_android
-'
-in
-self
-.
-application
-:
-            
 self
 .
 install_toolchain_artifact
