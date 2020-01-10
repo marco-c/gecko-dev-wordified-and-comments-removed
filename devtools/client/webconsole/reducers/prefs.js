@@ -50,6 +50,9 @@ false
 groupWarnings
 :
 false
+filterContentMessages
+:
+false
 historyCount
 :
 50

@@ -379,6 +379,18 @@ INPUT_HISTORY_COUNT
 )
 ;
 const
+filterContentMessages
+=
+getBoolPref
+(
+PREFS
+.
+FEATURES
+.
+FILTER_CONTENT_MESSAGES
+)
+;
+const
 initialState
 =
 {
@@ -393,6 +405,7 @@ jstermCodeMirror
 autocomplete
 historyCount
 groupWarnings
+filterContentMessages
 }
 )
 filters
@@ -507,6 +520,9 @@ showContentMessages
 webConsoleUI
 .
 isBrowserConsole
+&
+&
+filterContentMessages
 ?
 getBoolPref
 (
