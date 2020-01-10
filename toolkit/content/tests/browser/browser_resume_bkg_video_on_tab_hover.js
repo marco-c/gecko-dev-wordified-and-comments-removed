@@ -602,6 +602,14 @@ tab
 .
 linkedBrowser
 ;
+await
+BrowserTestUtils
+.
+browserLoaded
+(
+browser
+)
+;
 info
 (
 "
