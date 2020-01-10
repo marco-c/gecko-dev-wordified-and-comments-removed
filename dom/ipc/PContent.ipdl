@@ -5232,6 +5232,16 @@ enable
 )
 ;
 async
+GetGeoSysPermission
+(
+)
+returns
+(
+bool
+isok
+)
+;
+async
 ConsoleMessage
 (
 nsString
