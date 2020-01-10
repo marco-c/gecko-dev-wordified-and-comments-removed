@@ -328,13 +328,6 @@ Float32Array
 )
 )
 ;
-if
-(
-window
-.
-SharedArrayBuffer
-)
-{
 assert_throws
 (
 {
@@ -364,7 +357,6 @@ SharedArrayBuffer
 )
 )
 ;
-}
 sensor
 .
 start
