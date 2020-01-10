@@ -411,6 +411,7 @@ aboutprivatebrowsing
 "
 aboutprivatebrowsing
 "
+true
 )
 ;
 }

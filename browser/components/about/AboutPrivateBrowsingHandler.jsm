@@ -238,7 +238,7 @@ Services
 .
 search
 .
-defaultEngine
+defaultPrivateEngine
 .
 wrappedJSObject
 .
