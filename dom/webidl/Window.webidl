@@ -838,6 +838,7 @@ external
 endif
 [
 Throws
+SecureContext
 Pref
 =
 "
@@ -848,14 +849,6 @@ cache
 offline
 .
 enable
-"
-Func
-=
-"
-nsGlobalWindowInner
-:
-:
-OfflineCacheAllowedForContext
 "
 ]
 readonly
