@@ -21785,6 +21785,8 @@ sDumpPaintFile
 =
 savedDumpFile
 ;
+#
+endif
 if
 (
 StaticPrefs
@@ -21817,8 +21819,6 @@ ss
 )
 ;
 }
-#
-endif
 if
 (
 (
