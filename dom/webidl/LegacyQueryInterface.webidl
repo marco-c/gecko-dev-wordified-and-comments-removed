@@ -173,10 +173,6 @@ Event
 implements
 LegacyQueryInterface
 ;
-Selection
-implements
-LegacyQueryInterface
-;
 TreeColumns
 implements
 LegacyQueryInterface
