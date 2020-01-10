@@ -2622,6 +2622,13 @@ happened
 "
 )
 ;
+mPolicy
+-
+>
+SetLockdownDefaultDacl
+(
+)
+;
 sandbox
 :
 :
