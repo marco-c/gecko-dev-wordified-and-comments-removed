@@ -6022,7 +6022,9 @@ mock_pkg_config
 s
 "
 %
+(
 args
+)
 )
         
 def
