@@ -149,10 +149,10 @@ dict
     
 if
 os
-!
+=
 =
 "
-mac
+windows
 "
 :
         
