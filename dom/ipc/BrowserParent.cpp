@@ -207,6 +207,17 @@ include
 "
 mozilla
 /
+dom
+/
+UserActivation
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventStateManager
 .
 h
