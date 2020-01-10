@@ -6254,7 +6254,7 @@ payloadReg
 (
 )
 ;
-cmpPtr
+cmp32
 (
 Operand
 (
@@ -6262,11 +6262,11 @@ bi
 BigInt
 :
 :
-offsetOfLengthSignAndReservedBits
+offsetOfDigitLength
 (
 )
 )
-ImmWord
+Imm32
 (
 0
 )

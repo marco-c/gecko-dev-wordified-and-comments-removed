@@ -6117,7 +6117,7 @@ value
 scratch
 )
 ;
-cmpPtr
+cmp32
 (
 Operand
 (
@@ -6125,11 +6125,11 @@ scratch
 BigInt
 :
 :
-offsetOfLengthSignAndReservedBits
+offsetOfDigitLength
 (
 )
 )
-ImmWord
+Imm32
 (
 0
 )

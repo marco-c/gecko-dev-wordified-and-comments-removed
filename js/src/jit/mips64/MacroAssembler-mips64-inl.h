@@ -3576,7 +3576,7 @@ value
 scratch2
 )
 ;
-loadPtr
+load32
 (
 Address
 (
@@ -3584,7 +3584,7 @@ scratch2
 BigInt
 :
 :
-offsetOfLengthSignAndReservedBits
+offsetOfDigitLength
 (
 )
 )
@@ -3594,7 +3594,7 @@ scratch2
 ma_b
 (
 scratch2
-ImmWord
+Imm32
 (
 0
 )
