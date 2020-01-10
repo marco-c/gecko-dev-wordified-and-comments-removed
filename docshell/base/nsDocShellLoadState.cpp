@@ -279,13 +279,6 @@ LoadType
 (
 )
 ;
-mSrcdocData
-.
-SetIsVoid
-(
-true
-)
-;
 mTarget
 =
 aLoadState
