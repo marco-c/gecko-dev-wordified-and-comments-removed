@@ -2454,6 +2454,13 @@ info
 )
 ;
 void
+profiler_add_native_allocation_marker
+(
+int64_t
+aSize
+)
+;
+void
 profiler_add_marker_for_thread
 (
 int
