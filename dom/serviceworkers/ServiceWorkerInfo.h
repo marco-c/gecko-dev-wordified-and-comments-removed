@@ -93,6 +93,10 @@ OriginAttributes
 mOriginAttributes
 ;
 const
+nsString
+mWorkerPrivateId
+;
+const
 nsLoadFlags
 mImportsLoadFlags
 ;

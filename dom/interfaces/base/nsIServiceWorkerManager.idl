@@ -336,6 +336,11 @@ STATE_UNKNOWN
 readonly
 attribute
 AString
+id
+;
+readonly
+attribute
+AString
 scriptSpec
 ;
 readonly
