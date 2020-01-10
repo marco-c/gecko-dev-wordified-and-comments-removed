@@ -293,17 +293,6 @@ shared
 webrtc
 "
 ]
-webgpu
-=
-[
-"
-gkrust
--
-shared
-/
-webgpu
-"
-]
 [
 dependencies
 ]
