@@ -6,9 +6,13 @@ print_function
 import
 os
 import
+posixpath
+import
 sys
 import
 subprocess
+import
+traceback
 from
 zipfile
 import
@@ -25,8 +29,6 @@ import
 mozinfo
 import
 mozlog
-import
-posixpath
 from
 mozdevice
 import
@@ -2182,6 +2184,12 @@ str
 (
 e
 )
+)
+        
+traceback
+.
+print_exc
+(
 )
         
 result
