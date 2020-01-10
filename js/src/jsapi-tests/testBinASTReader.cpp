@@ -789,7 +789,10 @@ js
 :
 Vector
 <
-char16_t
+mozilla
+:
+:
+Utf8Unit
 >
 &
 buf
@@ -1467,7 +1470,10 @@ js
 :
 Vector
 <
-char16_t
+mozilla
+:
+:
+Utf8Unit
 >
 txtSource
 (
@@ -1562,7 +1568,10 @@ frontend
 :
 :
 FullParseHandler
-char16_t
+mozilla
+:
+:
+Utf8Unit
 >
 txtParser
 (
