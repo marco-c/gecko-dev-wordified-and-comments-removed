@@ -911,9 +911,15 @@ mFullscreenFlag
 aValue
 ;
 }
+mozilla
+:
+:
+dom
+:
+:
 FeaturePolicy
 *
-Policy
+FeaturePolicy
 (
 )
 const
