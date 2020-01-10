@@ -56,6 +56,7 @@ png
 skip_on
 (
 android
+emulator
 )
 =
 =
@@ -77,6 +78,7 @@ png
 Fails
 on
 Android
+emulator
 #
 Something
 leaks
@@ -513,6 +515,7 @@ yaml
 skip_on
 (
 android
+emulator
 )
 =
 =
@@ -532,6 +535,7 @@ yaml
 Fails
 on
 Android
+emulator
 platform
 (
 linux
@@ -660,6 +664,11 @@ border
 radius
 .
 png
+fuzzy
+(
+1
+6
+)
 =
 =
 snapped

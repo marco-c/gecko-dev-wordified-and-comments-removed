@@ -164,6 +164,7 @@ yaml
 skip_on
 (
 android
+emulator
 )
 fuzzy
 (
@@ -186,6 +187,7 @@ png
 Fails
 on
 Android
+emulator
 #
 Note
 :

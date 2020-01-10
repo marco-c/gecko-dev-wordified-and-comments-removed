@@ -11,6 +11,7 @@ yaml
 skip_on
 (
 android
+emulator
 )
 =
 =
@@ -26,6 +27,7 @@ ref
 yaml
 #
 Android
+emulator
 :
 GL
 error
@@ -52,6 +54,7 @@ yaml
 skip_on
 (
 android
+emulator
 )
 =
 =
@@ -71,6 +74,7 @@ ref
 yaml
 #
 Android
+emulator
 :
 GL
 error
@@ -239,6 +243,7 @@ png
 skip_on
 (
 android
+emulator
 )
 =
 =
@@ -261,6 +266,7 @@ perspective
 yaml
 #
 Android
+emulator
 :
 GL
 error
@@ -299,6 +305,7 @@ tiling
 yaml
 #
 Android
+emulator
 :
 GL
 error
@@ -308,6 +315,11 @@ blit_framebuffer
 fails
 on
 opt
+emulator
+and
+on
+a
+Pixel2
 =
 =
 missing

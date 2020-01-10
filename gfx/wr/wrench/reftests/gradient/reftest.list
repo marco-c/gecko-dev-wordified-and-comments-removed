@@ -255,6 +255,7 @@ skip_on
 (
 android
 debug
+emulator
 )
 fuzzy
 (
@@ -281,6 +282,7 @@ ref
 yaml
 #
 Android
+emulator
 :
 GL
 error
@@ -733,6 +735,11 @@ radial
 ref
 .
 yaml
+fuzzy
+(
+1
+3
+)
 =
 =
 tiling

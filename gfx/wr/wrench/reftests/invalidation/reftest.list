@@ -19,7 +19,7 @@ Skipped
 on
 debug
 Android
-debug
+emulator
 because
 of
 panic
@@ -37,10 +37,12 @@ on
 #
 Android
 release
+emulator
 .
 skip_on
 (
 android
+emulator
 )
 dirty
 (
