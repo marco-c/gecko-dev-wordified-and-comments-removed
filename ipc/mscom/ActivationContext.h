@@ -227,8 +227,6 @@ explicit
 ActivationContextRegion
 (
 Args
-&
-&
 .
 .
 .

@@ -937,8 +937,6 @@ aSyncMethod
 AsyncMethod
 aAsyncMethod
 Args
-&
-&
 .
 .
 .

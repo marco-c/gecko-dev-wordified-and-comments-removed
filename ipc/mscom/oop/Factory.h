@@ -119,8 +119,6 @@ HRESULT
 DoCreate
 (
 Args
-&
-&
 .
 .
 .
@@ -168,8 +166,6 @@ void
 *
 )
 Args
-&
-&
 .
 .
 .
