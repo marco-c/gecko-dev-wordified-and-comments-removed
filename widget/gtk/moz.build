@@ -551,11 +551,6 @@ nsWaylandDisplay
 .
 h
 '
-'
-nsWaylandDisplayShutdown
-.
-h
-'
 ]
 if
 CONFIG
