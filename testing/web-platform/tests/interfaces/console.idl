@@ -141,6 +141,7 @@ data
 void
 table
 (
+optional
 any
 tabularData
 optional
@@ -174,6 +175,7 @@ data
 void
 dir
 (
+optional
 any
 item
 optional
