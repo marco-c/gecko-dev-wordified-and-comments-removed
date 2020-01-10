@@ -21992,13 +21992,11 @@ return
 }
 SitePermissions
 .
-set
+setForPrincipal
 (
-event
+browser
 .
-detail
-.
-url
+contentPrincipal
 "
 autoplay
 -
