@@ -2565,6 +2565,13 @@ void
 argument
 )
 {
+pthread_setname_np
+(
+"
+PortServerThread
+"
+)
+;
 MemoryPorts
 *
 ports

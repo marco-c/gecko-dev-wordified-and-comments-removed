@@ -70,6 +70,13 @@ void
 aArg
 )
 {
+NS_SetCurrentThreadName
+(
+"
+GraphRunner
+"
+)
+;
 GraphRunner
 *
 th

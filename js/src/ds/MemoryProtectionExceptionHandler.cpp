@@ -2011,6 +2011,17 @@ MachExceptionHandler
 (
 )
 {
+ThisThread
+:
+:
+SetName
+(
+"
+JS
+MachExceptionHandler
+"
+)
+;
 kern_return_t
 ret
 ;

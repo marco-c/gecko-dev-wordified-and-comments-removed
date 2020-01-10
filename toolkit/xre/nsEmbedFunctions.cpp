@@ -1704,6 +1704,13 @@ MOZ_ASSERT
 aChildData
 )
 ;
+NS_SetCurrentThreadName
+(
+"
+MainThread
+"
+)
+;
 recordreplay
 :
 :
