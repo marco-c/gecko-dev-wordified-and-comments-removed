@@ -172,10 +172,14 @@ transformList
 Immutable
 transform
 methods
+[
+Throws
+]
 WebKitCSSMatrix
 multiply
 (
-WebKitCSSMatrix
+optional
+DOMMatrixInit
 other
 )
 ;
