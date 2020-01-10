@@ -285,16 +285,6 @@ minidumps
 }
     
 "
-marionette_extra
-"
-:
-"
--
--
-emulator
-"
-    
-"
 bogomips_minimum
 "
 :
