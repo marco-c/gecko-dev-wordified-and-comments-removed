@@ -629,13 +629,6 @@ LoadImage
 aIconURI
 nullptr
 nullptr
-mozilla
-:
-:
-net
-:
-:
-RP_Unset
 mContent
 -
 >

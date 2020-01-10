@@ -12311,13 +12311,6 @@ LoadImage
 realURI
 nullptr
 nullptr
-mozilla
-:
-:
-net
-:
-:
-RP_Unset
 nullptr
 0
 loadGroup
