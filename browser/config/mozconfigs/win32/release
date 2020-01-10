@@ -15,10 +15,6 @@ the
 #
 safeguard
 below
-export
-MOZ_PGO
-=
-1
 .
 "
 topsrcdir

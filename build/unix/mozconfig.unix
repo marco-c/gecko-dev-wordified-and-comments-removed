@@ -198,16 +198,6 @@ esac
 if
 [
 -
-n
-"
-MOZ_PGO
-"
-]
-;
-then
-if
-[
--
 z
 "
 USE_ARTIFACT
@@ -215,10 +205,6 @@ USE_ARTIFACT
 ]
 ;
 then
-export
-MOZ_LTO
-=
-cross
 if
 [
 -
@@ -229,6 +215,10 @@ MOZ_PGO_PROFILE_USE
 ]
 ;
 then
+export
+MOZ_LTO
+=
+cross
 ac_add_options
 -
 -
@@ -281,8 +271,6 @@ fetches
 merged
 .
 profdata
-fi
-fi
 export
 LLVM_PROFDATA
 =
@@ -339,6 +327,7 @@ llvm
 -
 ranlib
 "
+fi
 fi
 mk_add_options
 "
