@@ -949,6 +949,9 @@ MakePowerOfTwo32
 131
 '
 072
+entries
+=
+1MB
 #
 endif
 static
@@ -990,6 +993,8 @@ MakePowerOfTwo32
 131
 '
 072
+=
+1MB
 #
 endif
 #

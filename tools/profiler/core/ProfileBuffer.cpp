@@ -887,6 +887,8 @@ BufferLength
 Value
 (
 )
+/
+8
 mIntervalsNs
 mOverheadsNs
 mLockingsNs
