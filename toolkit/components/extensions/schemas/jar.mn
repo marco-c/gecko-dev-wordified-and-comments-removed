@@ -71,6 +71,15 @@ extensions
 /
 schemas
 /
+activity_log
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 alarms
 .
 json

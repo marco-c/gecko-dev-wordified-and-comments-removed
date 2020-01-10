@@ -3348,6 +3348,9 @@ contextualIdentities
 cookies
 "
 "
+activityLog
+"
+"
 geckoProfiler
 "
 "
