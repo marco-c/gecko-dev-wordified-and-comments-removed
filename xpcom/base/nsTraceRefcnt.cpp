@@ -2703,6 +2703,7 @@ it
 ;
 }
 auto
+&
 record
 =
 entry
