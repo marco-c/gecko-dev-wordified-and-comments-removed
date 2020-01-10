@@ -25,6 +25,7 @@ Frame
 Scope
 Why
 ThreadContext
+Previews
 }
 from
 "
@@ -587,9 +588,9 @@ frame
 :
 Frame
 +
-previewData
+previews
 :
-any
+Previews
 |
 }
 ;
