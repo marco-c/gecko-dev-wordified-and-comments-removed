@@ -233,11 +233,6 @@ DebuggerMemory
 cpp
 '
 '
-DebugScript
-.
-cpp
-'
-'
 Environment
 .
 cpp
