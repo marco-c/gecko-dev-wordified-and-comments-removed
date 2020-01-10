@@ -6,6 +6,9 @@ event
 )
 {
 throw
+new
+Error
+(
 "
 No
 messages
@@ -14,6 +17,7 @@ reach
 me
 !
 "
+)
 ;
 }
 ;

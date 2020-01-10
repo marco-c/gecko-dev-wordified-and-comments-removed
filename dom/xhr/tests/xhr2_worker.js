@@ -50,7 +50,6 @@ getResponse
 type
 )
 {
-var
 xhr
 =
 new
@@ -261,7 +260,6 @@ testResponseTextException
 type
 )
 {
-var
 xhr
 =
 new

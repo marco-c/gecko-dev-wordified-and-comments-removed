@@ -23,6 +23,9 @@ xhr
 )
 {
 throw
+new
+Error
+(
 "
 onload
 event
@@ -32,6 +35,7 @@ target
 =
 xhr
 "
+)
 ;
 }
 if
@@ -46,7 +50,7 @@ status
 200
 )
 {
-var
+const
 message
 =
 {
@@ -70,7 +74,7 @@ message
 )
 ;
 }
-var
+const
 message
 =
 {
@@ -126,7 +130,7 @@ xhr
 onload
 )
 {
-var
+const
 message
 =
 {
@@ -171,6 +175,9 @@ xhr
 )
 {
 throw
+new
+Error
+(
 "
 onerror
 event
@@ -180,6 +187,7 @@ target
 =
 xhr
 "
+)
 ;
 }
 var
@@ -234,6 +242,9 @@ onerror
 )
 {
 throw
+new
+Error
+(
 "
 onerror
 wasn
@@ -242,6 +253,7 @@ t
 set
 properly
 "
+)
 ;
 }
 function
@@ -261,6 +273,9 @@ xhr
 )
 {
 throw
+new
+Error
+(
 "
 onprogress
 event
@@ -270,9 +285,10 @@ target
 =
 xhr
 "
+)
 ;
 }
-var
+const
 message
 =
 {
@@ -348,7 +364,7 @@ function
 event
 )
 {
-var
+const
 message
 =
 {
@@ -453,7 +469,7 @@ function
 event
 )
 {
-var
+const
 message
 =
 {
@@ -499,6 +515,9 @@ DONE
 )
 {
 throw
+new
+Error
+(
 "
 xhr
 constants
@@ -506,6 +525,7 @@ not
 correct
 !
 "
+)
 ;
 }
 if
@@ -520,12 +540,16 @@ UNSENT
 )
 {
 throw
+new
+Error
+(
 "
 XHR
 already
 running
 !
 "
+)
 ;
 }
 xhr

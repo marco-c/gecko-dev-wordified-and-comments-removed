@@ -11,7 +11,7 @@ onmessage
 =
 function
 (
-event
+_
 )
 {
 var
@@ -55,6 +55,9 @@ status
 )
 {
 throw
+new
+Error
+(
 "
 Loaded
 an
@@ -65,6 +68,7 @@ wrong
 location
 !
 "
+)
 ;
 }
 importScripts
@@ -121,11 +125,15 @@ workerSubURL
 )
 {
 throw
+new
+Error
+(
 "
 Bad
 data
 !
 "
+)
 ;
 }
 postMessage

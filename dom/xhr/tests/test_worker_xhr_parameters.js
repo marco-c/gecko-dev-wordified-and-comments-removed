@@ -112,9 +112,13 @@ mozSystem
 )
 {
 throw
+new
+Error
+(
 "
 Bla
 "
+)
 ;
 }
 }

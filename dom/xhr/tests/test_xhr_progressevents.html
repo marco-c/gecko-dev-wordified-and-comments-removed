@@ -1080,7 +1080,7 @@ fileExpectedResult
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1109,12 +1109,14 @@ i
 }
 while
 (
+(
 responseType
 =
 responseTypes
 .
 shift
 (
+)
 )
 )
 {
@@ -1934,6 +1936,7 @@ closeConn
 (
 )
 ;
+let
 e
 =
 yield
@@ -2461,6 +2464,7 @@ testState
 pendingBytes
 )
 ;
+let
 e
 =
 yield
