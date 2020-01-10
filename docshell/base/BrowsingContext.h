@@ -982,6 +982,9 @@ const
 nsAString
 &
 aName
+BrowsingContext
+&
+aRequestingContext
 )
 ;
 BrowsingContext
