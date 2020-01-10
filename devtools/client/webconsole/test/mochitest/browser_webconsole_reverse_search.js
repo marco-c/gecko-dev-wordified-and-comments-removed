@@ -123,9 +123,13 @@ of
 jstermHistory
 )
 {
+await
+hud
+.
+jsterm
+.
 execute
 (
-hud
 input
 )
 ;

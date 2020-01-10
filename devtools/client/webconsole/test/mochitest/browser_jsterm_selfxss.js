@@ -174,6 +174,7 @@ TEST_URI
 ;
 const
 {
+jsterm
 ui
 }
 =
@@ -235,8 +236,7 @@ i
 +
 )
 {
-await
-executeAndWaitForMessage
+setInputValue
 (
 hud
 i
@@ -244,11 +244,12 @@ i
 toString
 (
 )
-i
-"
+)
+;
+jsterm
 .
-result
-"
+execute
+(
 )
 ;
 }

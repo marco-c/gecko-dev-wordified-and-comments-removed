@@ -132,10 +132,6 @@ waitForMessage
 hud
 "
 "
-"
-.
-result
-"
 )
 ;
 for
@@ -146,9 +142,11 @@ of
 jstermHistory
 )
 {
+await
+jsterm
+.
 execute
 (
-hud
 input
 )
 ;
