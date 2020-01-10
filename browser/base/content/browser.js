@@ -28151,6 +28151,9 @@ aName
 aCsp
 =
 null
+aSkipLoad
+=
+false
 )
 {
 let
@@ -28316,6 +28319,9 @@ aName
 csp
 :
 aCsp
+skipLoad
+:
+aSkipLoad
 }
 )
 ;
@@ -28377,6 +28383,7 @@ aWhere
 aFlags
 aTriggeringPrincipal
 aCsp
+true
 )
 ;
 }
@@ -28430,6 +28437,7 @@ aWhere
 aFlags
 aTriggeringPrincipal
 aCsp
+false
 )
 ;
 }
@@ -28441,6 +28449,7 @@ aWhere
 aFlags
 aTriggeringPrincipal
 aCsp
+aSkipLoad
 )
 {
 if
@@ -28940,6 +28949,7 @@ aTriggeringPrincipal
 "
 "
 aCsp
+aSkipLoad
 )
 ;
 if
@@ -29073,6 +29083,7 @@ aWhere
 aFlags
 aNextRemoteTabId
 aName
+true
 )
 ;
 }
@@ -29100,6 +29111,7 @@ aWhere
 aFlags
 aNextRemoteTabId
 aName
+false
 )
 ;
 }
@@ -29114,6 +29126,7 @@ aWhere
 aFlags
 aNextRemoteTabId
 aName
+aSkipLoad
 )
 {
 if
@@ -29217,6 +29230,7 @@ aName
 aParams
 .
 csp
+aSkipLoad
 )
 ;
 }

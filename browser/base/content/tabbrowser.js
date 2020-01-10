@@ -6667,6 +6667,9 @@ aName
 var
 aCsp
 ;
+var
+aSkipLoad
+;
 if
 (
 arguments
@@ -6856,6 +6859,12 @@ params
 .
 csp
 ;
+aSkipLoad
+=
+params
+.
+skipLoad
+;
 }
 if
 (
@@ -6995,6 +7004,9 @@ aName
 csp
 :
 aCsp
+skipLoad
+:
+aSkipLoad
 }
 )
 ;
@@ -8426,6 +8438,7 @@ replayExecution
 sameProcessAsFrameLoader
 uriIsAboutBlank
 userContextId
+skipLoad
 }
 =
 {
@@ -8903,6 +8916,9 @@ if
 (
 !
 uriIsAboutBlank
+|
+|
+skipLoad
 )
 {
 b
@@ -10387,6 +10403,7 @@ userContextId
 recordExecution
 replayExecution
 csp
+skipLoad
 }
 =
 {
@@ -11266,6 +11283,7 @@ nextRemoteTabId
 name
 recordExecution
 replayExecution
+skipLoad
 }
 )
 ;
@@ -11577,6 +11595,10 @@ uriIsAboutBlank
 !
 allowInheritPrincipal
 )
+&
+&
+!
+skipLoad
 )
 {
 if
