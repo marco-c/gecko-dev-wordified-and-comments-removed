@@ -932,6 +932,16 @@ doc
 StorageAccessSandboxed
 (
 )
+&
+&
+!
+nsContentUtils
+:
+:
+IsInPrivateBrowsing
+(
+doc
+)
 )
 )
 {
