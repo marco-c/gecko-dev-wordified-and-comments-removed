@@ -1700,8 +1700,6 @@ renderInput
 {
 const
 {
-cx
-closeProjectSearch
 status
 }
 =
@@ -1840,12 +1838,13 @@ handleClose
 =
 {
 (
-)
-=
->
+this
+.
+props
+.
 closeProjectSearch
-(
-cx
+:
+any
 )
 }
 ref
