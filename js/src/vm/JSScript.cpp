@@ -6484,12 +6484,8 @@ if
 script
 -
 >
-hasFlag
+argumentsHasVarBinding
 (
-ImmutableFlags
-:
-:
-ArgsHasVarBinding
 )
 )
 {
@@ -27896,7 +27892,7 @@ setFlag
 ImmutableFlags
 :
 :
-ArgsHasVarBinding
+ArgumentsHasVarBinding
 )
 ;
 setFlag
