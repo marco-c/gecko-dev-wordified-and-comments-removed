@@ -257,6 +257,10 @@ denominatordisplaystyleshiftdown
 %
 d
 -
+axisheight
+%
+d
+-
 rulethickness
 %
 d
@@ -264,6 +268,7 @@ d
 %
 (
 v1
+v2
 v2
 )
 )
@@ -273,7 +278,7 @@ math
 .
 AxisHeight
 =
-0
+v2
 f
 .
 math
@@ -483,6 +488,10 @@ denominatorshiftdown
 %
 d
 -
+axisheight
+%
+d
+-
 rulethickness
 %
 d
@@ -490,6 +499,7 @@ d
 %
 (
 v1
+v2
 v2
 )
 )
@@ -499,7 +509,7 @@ math
 .
 AxisHeight
 =
-0
+v2
 f
 .
 math
@@ -709,6 +719,10 @@ numeratordisplaystyleshiftup
 %
 d
 -
+axisheight
+%
+d
+-
 rulethickness
 %
 d
@@ -716,6 +730,7 @@ d
 %
 (
 v1
+v2
 v2
 )
 )
@@ -725,7 +740,7 @@ math
 .
 AxisHeight
 =
-0
+v2
 f
 .
 math
@@ -935,6 +950,10 @@ numeratorshiftup
 %
 d
 -
+axisheight
+%
+d
+-
 rulethickness
 %
 d
@@ -942,6 +961,7 @@ d
 %
 (
 v1
+v2
 v2
 )
 )
@@ -951,7 +971,7 @@ math
 .
 AxisHeight
 =
-0
+v2
 f
 .
 math
