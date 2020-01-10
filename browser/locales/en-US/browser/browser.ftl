@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-browser
--
 urlbar
 -
 identity
