@@ -352,6 +352,9 @@ perfActorVersion
 nativeLogpoints
 :
 true
+hasThreadFront
+:
+true
 }
 sayHello
 :
