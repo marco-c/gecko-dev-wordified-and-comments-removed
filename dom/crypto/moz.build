@@ -139,11 +139,6 @@ WebCryptoTask
 .
 h
 '
-'
-WebCryptoThreadPool
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -166,11 +161,6 @@ cpp
 '
 '
 WebCryptoTask
-.
-cpp
-'
-'
-WebCryptoThreadPool
 .
 cpp
 '
