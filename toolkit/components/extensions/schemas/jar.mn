@@ -275,6 +275,15 @@ extensions
 /
 schemas
 /
+memory
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 native_manifest
 .
 json

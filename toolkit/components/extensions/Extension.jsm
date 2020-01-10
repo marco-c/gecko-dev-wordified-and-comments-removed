@@ -773,6 +773,9 @@ normandyAddonStudy
 "
 networkStatus
 "
+"
+memory
+"
 ]
 )
 ;
