@@ -16136,7 +16136,7 @@ directions
 aFrameAsScrollable
 -
 >
-GetPerceivedScrollingDirections
+GetAvailableScrollingDirections
 (
 )
 ;
