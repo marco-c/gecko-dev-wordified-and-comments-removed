@@ -9788,6 +9788,10 @@ performTestEndCheck
 )
 }
 IgnoreCrash
+ReuseSession
+(
+false
+)
 Test
 fun
 contentCrashIgnored
@@ -9895,6 +9899,10 @@ ChildCrashedException
 :
 :
 class
+)
+ReuseSession
+(
+false
 )
 fun
 contentCrashFails

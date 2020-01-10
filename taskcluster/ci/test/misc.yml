@@ -152,7 +152,7 @@ ccov
 /
 debug
 :
-12
+8
 android
 -
 em
@@ -172,7 +172,7 @@ api
 /
 debug
 :
-12
+8
 android
 -
 em
@@ -191,7 +191,7 @@ pgo
 )
 ?
 :
-7
+3
 default
 :
 1
