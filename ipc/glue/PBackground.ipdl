@@ -158,10 +158,6 @@ PRemoteWorker
 ;
 include
 protocol
-PRemoteWorkerController
-;
-include
-protocol
 PRemoteWorkerService
 ;
 include
@@ -397,9 +393,6 @@ PPendingIPCBlob
 ;
 manages
 PRemoteWorker
-;
-manages
-PRemoteWorkerController
 ;
 manages
 PRemoteWorkerService
@@ -931,13 +924,6 @@ PServiceWorker
 (
 IPCServiceWorkerDescriptor
 aDescriptor
-)
-;
-async
-PRemoteWorkerController
-(
-RemoteWorkerData
-aData
 )
 ;
 async
