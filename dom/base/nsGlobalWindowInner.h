@@ -1648,16 +1648,6 @@ JSObject
 ;
 static
 bool
-IsWindowPrintEnabled
-(
-JSContext
-*
-JSObject
-*
-)
-;
-static
-bool
 RegisterProtocolHandlerAllowedForContext
 (
 JSContext

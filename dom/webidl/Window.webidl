@@ -923,13 +923,12 @@ default
 ;
 [
 Throws
-Func
+Pref
 =
 "
-nsGlobalWindowInner
-:
-:
-IsWindowPrintEnabled
+dom
+.
+enable_window_print
 "
 ]
 void

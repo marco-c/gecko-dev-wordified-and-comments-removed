@@ -8142,7 +8142,7 @@ name
 :
 dom
 .
-disable_window_print
+enable_window_print
 type
 :
 bool
@@ -8151,12 +8151,12 @@ ifdef
 ANDROID
 value
 :
-true
+false
 #
 else
 value
 :
-false
+true
 #
 endif
 mirror
