@@ -61,7 +61,7 @@ h
 #
 include
 "
-nsContentSecurityManager
+nsContentSecurityUtils
 .
 h
 "
@@ -172,7 +172,7 @@ GetCurrentJSContext
 (
 )
 ;
-nsContentSecurityManager
+nsContentSecurityUtils
 :
 :
 AssertEvalNotRestricted
