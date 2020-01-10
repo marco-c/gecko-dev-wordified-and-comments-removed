@@ -25,7 +25,9 @@ started
 const
 oldPref
 =
-SpecialPowers
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -36,7 +38,9 @@ enabled
 "
 )
 ;
-SpecialPowers
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -133,7 +137,9 @@ visible
 "
 )
 ;
-SpecialPowers
+Services
+.
+prefs
 .
 setBoolPref
 (
