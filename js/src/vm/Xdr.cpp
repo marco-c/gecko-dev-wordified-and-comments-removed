@@ -1361,6 +1361,8 @@ xdr
 -
 >
 hasAtomTable
+(
+)
 )
 ;
 for
@@ -1407,6 +1409,8 @@ xdr
 -
 >
 atomTable
+(
+)
 .
 append
 (
@@ -1441,9 +1445,9 @@ TranscodeResult_Throw
 xdr
 -
 >
-hasAtomTable
-=
-true
+finishAtomTable
+(
+)
 ;
 }
 }
