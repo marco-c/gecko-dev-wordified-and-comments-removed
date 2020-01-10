@@ -4273,7 +4273,7 @@ if
 (
 AppConstants
 .
-platform
+unixstyle
 =
 =
 "
