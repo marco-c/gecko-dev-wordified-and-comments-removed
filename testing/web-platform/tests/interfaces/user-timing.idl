@@ -107,6 +107,9 @@ markName
 optional
 PerformanceMarkOptions
 markOptions
+=
+{
+}
 )
 ;
 void
@@ -129,6 +132,9 @@ or
 PerformanceMeasureOptions
 )
 startOrMeasureOptions
+=
+{
+}
 optional
 DOMString
 endMark
