@@ -403,7 +403,9 @@ referrer
 (
 )
 {
-return
+const
+uri
+=
 this
 .
 download
@@ -423,6 +425,14 @@ referrerInfo
 originalReferrer
 :
 null
+;
+return
+uri
+&
+&
+uri
+.
+spec
 ;
 }
 get
