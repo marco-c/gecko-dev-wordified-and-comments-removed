@@ -84,6 +84,17 @@ time
 :
 1800
 run
+-
+on
+-
+projects
+:
+[
+'
+trunk
+'
+]
+run
 :
 script
 :
