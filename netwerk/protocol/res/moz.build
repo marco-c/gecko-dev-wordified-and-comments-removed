@@ -199,4 +199,10 @@ netwerk
 /
 base
 '
+'
+/
+xpcom
+/
+base
+'
 ]
