@@ -228,13 +228,6 @@ h
 #
 include
 "
-nsTouchBarNativeAPIDefines
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
