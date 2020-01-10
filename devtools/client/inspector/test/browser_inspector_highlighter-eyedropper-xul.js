@@ -9,9 +9,9 @@ TEST_URL
 URL_ROOT
 +
 "
-doc_inspector_highlighter_xbl
+doc_inspector_eyedropper_disabled
 .
-xul
+xhtml
 "
 ;
 const
@@ -127,9 +127,7 @@ selectNode
 (
 "
 #
-xbl
--
-host
+box
 "
 inspector
 )
