@@ -20,7 +20,7 @@ workspace
 #
 Setup
 toolchains
-cd
+pushd
 MOZBUILD_STATE_PATH
 HOME
 /
@@ -120,3 +120,4 @@ bin
 clang
 +
 +
+popd

@@ -167,6 +167,16 @@ task
 '
             
 '
+cwd
+'
+:
+'
+{
+checkout
+}
+'
+            
+'
 command
 '
 :
@@ -178,20 +188,6 @@ artifact
 reference
 '
 :
-'
-cd
-/
-builds
-/
-worker
-/
-checkouts
-/
-gecko
-&
-&
-'
-                                      
 '
 tools
 /
