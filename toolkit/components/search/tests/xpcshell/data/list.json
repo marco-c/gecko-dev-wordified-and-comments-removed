@@ -89,6 +89,8 @@ RU
 {
 "
 engine
+-
+resourceicon
 "
 :
 "
@@ -146,6 +148,11 @@ engine
 engine
 -
 pref
+"
+"
+engine
+-
+resourceicon
 "
 ]
 }
