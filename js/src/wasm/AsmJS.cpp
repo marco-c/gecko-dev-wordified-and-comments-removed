@@ -40126,6 +40126,11 @@ MOZ_ASSERT
 funbox
 -
 >
+function
+(
+)
+-
+>
 isInterpreted
 (
 )
