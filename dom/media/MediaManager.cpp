@@ -602,14 +602,6 @@ h
 >
 #
 endif
-#
-ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
 template
 <
 >

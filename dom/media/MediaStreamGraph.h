@@ -453,14 +453,6 @@ mTrackID
 ;
 }
 ;
-#
-ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
 class
 MediaStream
 :

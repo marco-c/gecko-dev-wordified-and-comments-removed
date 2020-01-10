@@ -9,9 +9,6 @@ objbase
 h
 "
 #
-undef
-GetCurrentTime
-#
 endif
 #
 include

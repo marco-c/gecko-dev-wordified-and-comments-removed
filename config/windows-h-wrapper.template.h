@@ -148,6 +148,17 @@ decls
 }
 }
 #
+undef
+GetCurrentTime
+/
+/
+Use
+GetTickCount
+(
+)
+instead
+.
+#
 endif
 #
 if

@@ -249,14 +249,6 @@ namespace
 mozilla
 {
 #
-ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
-#
 undef
 LOG
 #

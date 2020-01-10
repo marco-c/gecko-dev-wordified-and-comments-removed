@@ -234,14 +234,6 @@ Visibility
 :
 uint8_t
 ;
-#
-ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
 struct
 MOZ_STACK_CLASS
 MediaDecoderInit
