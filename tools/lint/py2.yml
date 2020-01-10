@@ -37,10 +37,6 @@ js
 /
 src
 -
-js
-/
-xpconnect
--
 layout
 -
 modules
