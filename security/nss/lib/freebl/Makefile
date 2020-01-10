@@ -3720,6 +3720,11 @@ CC
 dev
 /
 null
+<
+/
+dev
+/
+null
 |
 sed
 -

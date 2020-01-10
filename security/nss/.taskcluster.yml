@@ -428,9 +428,7 @@ TC_OWNER
 :
 "
 {
-push
-.
-owner
+ownerEmail
 }
 "
 TC_SOURCE

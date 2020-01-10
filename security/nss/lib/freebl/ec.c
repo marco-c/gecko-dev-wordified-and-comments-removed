@@ -91,7 +91,8 @@ ECCurveName
 name
 )
 {
-int
+unsigned
+long
 i
 ;
 for

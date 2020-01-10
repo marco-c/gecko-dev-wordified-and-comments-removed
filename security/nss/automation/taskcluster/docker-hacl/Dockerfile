@@ -78,7 +78,7 @@ opamv
 0
 ENV
 haclversion
-1da331f9ef30e13269e45ae73bbe4a4bca679ae6
+1442c015dab97cdf203ae238b1f3aeccf511bd1e
 #
 Install
 required
@@ -86,6 +86,16 @@ packages
 and
 set
 versions
+ADD
+B6C8F98282B944E3B0D5C2530FC3042E345AD05D
+.
+asc
+/
+tmp
+/
+B6C8F98282B944E3B0D5C2530FC3042E345AD05D
+.
+asc
 ADD
 setup
 .

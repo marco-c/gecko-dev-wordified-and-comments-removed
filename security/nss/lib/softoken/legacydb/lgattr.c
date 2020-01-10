@@ -5150,6 +5150,8 @@ trustFlags
 ;
 CK_RV
 crv
+=
+CKR_CANCEL
 ;
 switch
 (
