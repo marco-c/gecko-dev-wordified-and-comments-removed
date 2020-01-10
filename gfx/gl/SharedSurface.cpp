@@ -1539,13 +1539,6 @@ StopRecycling
 tex
 )
 ;
-tex
--
->
-CancelWaitForNotifyNotUsed
-(
-)
-;
 }
 MOZ_RELEASE_ASSERT
 (
