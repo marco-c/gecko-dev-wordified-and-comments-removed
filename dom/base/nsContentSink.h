@@ -722,7 +722,15 @@ return
 ;
 }
 return
-sNotificationInterval
+mozilla
+:
+:
+StaticPrefs
+:
+:
+content_notify_interval
+(
+)
 ;
 }
 virtual
@@ -909,10 +917,6 @@ false
 >
 >
 mProcessLinkHeaderEvent
-;
-static
-int32_t
-sNotificationInterval
 ;
 static
 int32_t
