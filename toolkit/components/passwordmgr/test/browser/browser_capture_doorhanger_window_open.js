@@ -329,7 +329,8 @@ notifShownPromise
 let
 popup
 =
-getCaptureDoorhanger
+await
+getCaptureDoorhangerThatMayOpen
 (
 "
 password
@@ -567,7 +568,8 @@ notifShownPromise
 let
 popup
 =
-getCaptureDoorhanger
+await
+getCaptureDoorhangerThatMayOpen
 (
 "
 password
@@ -807,7 +809,8 @@ notifShownPromise
 let
 popup
 =
-getCaptureDoorhanger
+await
+getCaptureDoorhangerThatMayOpen
 (
 "
 password
@@ -1009,7 +1012,8 @@ notifShownPromise
 let
 popup
 =
-getCaptureDoorhanger
+await
+getCaptureDoorhangerThatMayOpen
 (
 "
 password
