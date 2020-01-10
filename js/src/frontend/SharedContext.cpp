@@ -621,7 +621,15 @@ explicitName
 :
 ObjectBox
 (
+nullptr
 traceListHead
+TraceListNode
+:
+:
+NodeType
+:
+:
+Function
 )
 SharedContext
 (
