@@ -4903,6 +4903,11 @@ nsRange
 aRange
 )
 ;
+void
+SetSelectionInterlinePosition
+(
+)
+;
 protected
 :
 virtual

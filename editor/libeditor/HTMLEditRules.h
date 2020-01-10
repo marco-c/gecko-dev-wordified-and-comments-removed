@@ -531,11 +531,6 @@ PinSelectionToNewBlock
 (
 )
 ;
-void
-CheckInterlinePosition
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 void
 DocumentModifiedWorker
