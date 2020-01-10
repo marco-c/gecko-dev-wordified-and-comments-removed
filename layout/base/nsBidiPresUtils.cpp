@@ -4753,6 +4753,10 @@ AdjustOffsetsForBidi
 0
 )
 ;
+lastRealFrame
+=
+frameInfo
+;
 continue
 ;
 }
