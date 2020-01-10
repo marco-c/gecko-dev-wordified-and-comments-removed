@@ -18827,6 +18827,8 @@ bug_numbers
 :
 -
 1522934
+-
+1570652
 description
 :
 >
@@ -19084,7 +19086,7 @@ normal
 expires
 :
 "
-72
+77
 "
 keyed
 :
@@ -19127,6 +19129,14 @@ record_in_processes
 :
 -
 main
+record_into_store
+:
+-
+main
+-
+new
+-
+profile
 is_cold
 :
 bug_numbers
