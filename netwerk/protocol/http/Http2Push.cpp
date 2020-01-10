@@ -2089,15 +2089,6 @@ return
 0
 ;
 }
-void
-Http2PushTransactionBuffer
-:
-:
-SetDNSWasRefreshed
-(
-)
-{
-}
 uint64_t
 Http2PushTransactionBuffer
 :

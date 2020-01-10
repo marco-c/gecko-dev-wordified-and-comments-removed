@@ -1849,7 +1849,7 @@ MOZ_MUST_USE
 nsresult
 DoAuthRetry
 (
-nsHttpTransaction
+HttpTransactionShell
 *
 aTransWithStickyConn
 const
@@ -1873,7 +1873,7 @@ MOZ_MUST_USE
 nsresult
 ContinueDoAuthRetry
 (
-nsHttpTransaction
+HttpTransactionShell
 *
 aTransWithStickyConn
 const
@@ -1897,7 +1897,7 @@ MOZ_MUST_USE
 nsresult
 DoConnect
 (
-nsHttpTransaction
+HttpTransactionShell
 *
 aTransWithStickyConn
 =
@@ -1916,7 +1916,7 @@ bool
 aIsFromNet
 bool
 aContentComplete
-nsHttpTransaction
+HttpTransactionShell
 *
 aTransWithStickyConn
 )
@@ -2402,7 +2402,7 @@ mTransactionPump
 ;
 RefPtr
 <
-nsHttpTransaction
+HttpTransactionShell
 >
 mTransaction
 ;

@@ -415,7 +415,7 @@ MOZ_MUST_USE
 nsresult
 CompleteUpgrade
 (
-nsHttpTransaction
+HttpTransactionShell
 *
 aTrans
 nsIHttpUpgradeListener

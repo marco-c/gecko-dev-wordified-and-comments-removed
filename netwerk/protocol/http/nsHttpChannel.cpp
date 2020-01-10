@@ -4258,7 +4258,7 @@ nsHttpChannel
 :
 DoConnect
 (
-nsHttpTransaction
+HttpTransactionShell
 *
 aTransWithStickyConn
 )
@@ -27968,11 +27968,9 @@ NS_HTTP_STICKY_CONNECTION
 mTransaction
 -
 >
-Caps
+HasStickyConnection
 (
 )
-&
-NS_HTTP_STICKY_CONNECTION
 )
 )
 {
@@ -36156,7 +36154,7 @@ mStronglyFramed
 ;
 RefPtr
 <
-nsHttpTransaction
+HttpTransactionShell
 >
 transactionWithStickyConn
 ;
@@ -36170,11 +36168,9 @@ NS_HTTP_STICKY_CONNECTION
 mTransaction
 -
 >
-Caps
+HasStickyConnection
 (
 )
-&
-NS_HTTP_STICKY_CONNECTION
 )
 {
 transactionWithStickyConn
@@ -36595,7 +36591,7 @@ bool
 aIsFromNet
 bool
 aContentComplete
-nsHttpTransaction
+HttpTransactionShell
 *
 aTransWithStickyConn
 )
@@ -40978,7 +40974,7 @@ nsHttpChannel
 :
 DoAuthRetry
 (
-nsHttpTransaction
+HttpTransactionShell
 *
 aTransWithStickyConn
 const
@@ -41051,7 +41047,7 @@ CallOnModifyRequestObservers
 ;
 RefPtr
 <
-nsHttpTransaction
+HttpTransactionShell
 >
 trans
 (
@@ -41100,7 +41096,7 @@ nsHttpChannel
 :
 ContinueDoAuthRetry
 (
-nsHttpTransaction
+HttpTransactionShell
 *
 aTransWithStickyConn
 const
@@ -41247,7 +41243,7 @@ this
 ;
 RefPtr
 <
-nsHttpTransaction
+HttpTransactionShell
 >
 trans
 (
