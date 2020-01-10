@@ -590,12 +590,6 @@ bitness
 =
 64
 )
-#
-XXX
-:
-disabled
-for
-now
 option
 (
 '
@@ -612,7 +606,7 @@ MOZ_PHC
 '
 default
 =
-False
+phc_default
 when
 =
 '
