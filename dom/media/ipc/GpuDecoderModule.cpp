@@ -37,7 +37,7 @@ h
 #
 include
 "
-VideoDecoderChild
+RemoteVideoDecoder
 .
 h
 "
@@ -255,12 +255,12 @@ aParams
 }
 RefPtr
 <
-VideoDecoderChild
+GpuRemoteVideoDecoderChild
 >
 child
 =
 new
-VideoDecoderChild
+GpuRemoteVideoDecoderChild
 (
 )
 ;
