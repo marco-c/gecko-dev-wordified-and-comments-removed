@@ -11400,6 +11400,11 @@ by
 zero
 '
 '
+pointer
+-
+overflow
+'
+'
 vla
 -
 bound
