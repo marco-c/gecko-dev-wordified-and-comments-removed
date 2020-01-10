@@ -477,6 +477,12 @@ mTranslate
 float
 mRotate
 ;
+gfx
+:
+:
+Point
+mShift
+;
 }
 ;
 }
