@@ -1008,8 +1008,7 @@ fails
 -
 if
 (
-!
-gtkWidget
+Android
 )
 =
 =
@@ -1039,7 +1038,7 @@ ref
 html
 #
 bug
-1562057
+1588212
 =
 =
 contain
