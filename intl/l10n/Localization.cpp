@@ -153,6 +153,10 @@ mGlobal
 (
 aGlobal
 )
+mIsSync
+(
+false
+)
 {
 }
 void
@@ -209,6 +213,7 @@ jsm
 GetLocalization
 (
 aResourceIds
+mIsSync
 getter_AddRefs
 (
 mLocalization

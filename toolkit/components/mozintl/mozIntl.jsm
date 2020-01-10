@@ -24,7 +24,7 @@ jsm
 ;
 const
 {
-LocalizationSync
+Localization
 }
 =
 ChromeUtils
@@ -2434,7 +2434,7 @@ const
 loc
 =
 new
-LocalizationSync
+Localization
 (
 [
 "
@@ -2447,6 +2447,7 @@ languageNames
 ftl
 "
 ]
+true
 )
 ;
 this
@@ -2530,7 +2531,7 @@ value
 =
 loc
 .
-formatValue
+formatValueSync
 (
 language
 -
@@ -2611,7 +2612,7 @@ const
 loc
 =
 new
-LocalizationSync
+Localization
 (
 [
 "
@@ -2624,6 +2625,7 @@ regionNames
 ftl
 "
 ]
+true
 )
 ;
 this
@@ -2707,7 +2709,7 @@ value
 =
 loc
 .
-formatValue
+formatValueSync
 (
 region
 -
