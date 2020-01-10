@@ -1590,10 +1590,9 @@ aContext
 )
 ;
 bool
-IsActive
+IsTargetable
 (
 )
-const
 ;
 void
 Unregister
