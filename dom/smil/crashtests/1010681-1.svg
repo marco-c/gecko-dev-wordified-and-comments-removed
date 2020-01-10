@@ -111,7 +111,7 @@ targetElement
 ;
 animate
 .
-requiredFeatures
+requiredExtensions
 .
 insertItemBefore
 (

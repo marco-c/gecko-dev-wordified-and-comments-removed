@@ -148,11 +148,6 @@ SVGTests
 readonly
 attribute
 SVGStringList
-requiredFeatures
-;
-readonly
-attribute
-SVGStringList
 requiredExtensions
 ;
 readonly
