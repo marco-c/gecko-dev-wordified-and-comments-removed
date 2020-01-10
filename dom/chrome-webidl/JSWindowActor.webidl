@@ -172,6 +172,15 @@ attribute
 WindowGlobalParent
 manager
 ;
+[
+Throws
+]
+readonly
+attribute
+CanonicalBrowsingContext
+?
+browsingContext
+;
 }
 ;
 JSWindowActorParent

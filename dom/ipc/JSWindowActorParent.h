@@ -171,6 +171,15 @@ AfterDestroy
 (
 )
 ;
+CanonicalBrowsingContext
+*
+GetBrowsingContext
+(
+ErrorResult
+&
+aRv
+)
+;
 protected
 :
 void
