@@ -7279,10 +7279,7 @@ declareIncludes
 def
 addHeadersForType
 (
-(
-t
-dictionary
-)
+typeAndPossibleDictionary
 )
 :
             
@@ -7317,6 +7314,11 @@ types
 "
 "
 "
+            
+t
+dictionary
+=
+typeAndPossibleDictionary
             
 if
 dictionary
@@ -54783,6 +54785,7 @@ resultTemplateValues
         
 except
 MethodNotNewObjectError
+as
 err
 :
             
