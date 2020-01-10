@@ -12,7 +12,7 @@ function
 {
 is
 (
-HUDService
+BrowserConsoleManager
 .
 getBrowserConsoleSessionState
 (
@@ -27,7 +27,7 @@ default
 "
 )
 ;
-HUDService
+BrowserConsoleManager
 .
 storeBrowserConsoleSessionState
 (
@@ -35,7 +35,7 @@ storeBrowserConsoleSessionState
 ;
 is
 (
-HUDService
+BrowserConsoleManager
 .
 getBrowserConsoleSessionState
 (
@@ -61,13 +61,13 @@ closed
 )
 ;
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (
 )
 ;
-HUDService
+BrowserConsoleManager
 .
 storeBrowserConsoleSessionState
 (
@@ -75,7 +75,7 @@ storeBrowserConsoleSessionState
 ;
 is
 (
-HUDService
+BrowserConsoleManager
 .
 getBrowserConsoleSessionState
 (
@@ -115,7 +115,7 @@ it
 )
 ;
 await
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (

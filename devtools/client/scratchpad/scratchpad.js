@@ -650,7 +650,7 @@ lazyRequireGetter
 (
 this
 "
-HUDService
+BrowserConsoleManager
 "
 "
 devtools
@@ -659,7 +659,11 @@ client
 /
 webconsole
 /
-hudservice
+browser
+-
+console
+-
+manager
 "
 true
 )
@@ -6953,7 +6957,7 @@ SP_openErrorConsole
 (
 )
 {
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (

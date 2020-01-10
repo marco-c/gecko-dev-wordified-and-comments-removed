@@ -535,7 +535,7 @@ lazyRequireGetter
 (
 this
 "
-HUDService
+BrowserConsoleManager
 "
 "
 devtools
@@ -544,7 +544,11 @@ client
 /
 webconsole
 /
-hudservice
+browser
+-
+console
+-
+manager
 "
 true
 )
@@ -4209,7 +4213,7 @@ electronKey
 =
 >
 {
-HUDService
+BrowserConsoleManager
 .
 toggleBrowserConsole
 (

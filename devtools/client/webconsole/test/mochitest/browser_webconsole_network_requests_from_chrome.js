@@ -102,7 +102,7 @@ registerListener
 listener
 )
 ;
-HUDService
+BrowserConsoleManager
 ;
 await
 sendRequestFromChrome

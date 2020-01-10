@@ -54,7 +54,7 @@ lazyRequireGetter
 (
 this
 "
-HUDService
+BrowserConsoleManager
 "
 "
 devtools
@@ -63,7 +63,11 @@ client
 /
 webconsole
 /
-hudservice
+browser
+-
+console
+-
+manager
 "
 true
 )
@@ -78,7 +82,6 @@ constructor
 target
 iframeWindow
 chromeWindow
-hudService
 fissionSupport
 =
 false
@@ -343,7 +346,7 @@ granted
 "
 )
 {
-HUDService
+BrowserConsoleManager
 .
 storeBrowserConsoleSessionState
 (
