@@ -25195,7 +25195,7 @@ isNullOrUndefined
 )
 )
 {
-NativeObject
+JSObject
 *
 proto
 ;
