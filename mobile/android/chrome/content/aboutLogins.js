@@ -496,13 +496,13 @@ b
 >
 a
 .
-hostname
+origin
 .
 localeCompare
 (
 b
 .
-hostname
+origin
 )
 )
 ;
@@ -1498,7 +1498,7 @@ document
 getElementById
 (
 "
-hostname
+origin
 "
 )
 ;
@@ -1508,7 +1508,7 @@ value
 =
 login
 .
-hostname
+origin
 ;
 let
 img
@@ -1529,7 +1529,7 @@ _loadFavicon
 img
 login
 .
-hostname
+origin
 )
 ;
 let
@@ -1554,13 +1554,13 @@ if
 (
 login
 .
-hostname
+origin
 &
 &
 (
 login
 .
-hostname
+origin
 !
 =
 "
@@ -1574,7 +1574,7 @@ textContent
 =
 login
 .
-hostname
+origin
 ;
 }
 else
@@ -1822,12 +1822,12 @@ this
 .
 _selectedLogin
 .
-hostname
+origin
 this
 .
 _selectedLogin
 .
-formSubmitURL
+formActionOrigin
 this
 .
 _selectedLogin
@@ -2803,7 +2803,7 @@ _loadFavicon
 function
 (
 aImg
-aHostname
+aOrigin
 )
 {
 EventDispatcher
@@ -2822,7 +2822,7 @@ Request
 "
 url
 :
-aHostname
+aOrigin
 skipNetwork
 :
 true
@@ -2990,7 +2990,7 @@ _loadFavicon
 img
 login
 .
-hostname
+origin
 )
 ;
 loginItem
@@ -3064,7 +3064,7 @@ titlePart
 className
 =
 "
-hostname
+origin
 "
 ;
 titlePart
@@ -3073,7 +3073,7 @@ textContent
 =
 login
 .
-hostname
+origin
 ;
 details
 .
@@ -3296,7 +3296,7 @@ if
 (
 login
 .
-hostname
+origin
 .
 toLowerCase
 (

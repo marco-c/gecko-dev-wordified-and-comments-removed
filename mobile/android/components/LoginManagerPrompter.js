@@ -681,7 +681,7 @@ setLoginSavingEnabled
 (
 aLogin
 .
-hostname
+origin
 false
 )
 ;

@@ -168,8 +168,6 @@ https
 example
 .
 com
-/
-login
 \
 "
 \
