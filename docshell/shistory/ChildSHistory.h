@@ -50,6 +50,9 @@ class
 nsDocShell
 ;
 class
+nsISHEntry
+;
+class
 nsISHistory
 ;
 class
@@ -287,9 +290,9 @@ nsDocShell
 >
 mDocShell
 ;
-RefPtr
+nsCOMPtr
 <
-nsSHistory
+nsISHistory
 >
 mHistory
 ;
@@ -303,6 +306,14 @@ PendingAsyncHistoryNavigation
 mPendingNavigations
 ;
 }
+;
+already_AddRefed
+<
+nsISHEntry
+>
+CreateSHEntry
+(
+)
 ;
 }
 }
