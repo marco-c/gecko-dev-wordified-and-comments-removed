@@ -751,7 +751,7 @@ link
 "
 >
 &
-learnMoreNoEllipsis
+learnMore
 ;
 <
 /
