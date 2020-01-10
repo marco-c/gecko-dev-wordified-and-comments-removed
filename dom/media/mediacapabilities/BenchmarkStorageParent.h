@@ -78,6 +78,17 @@ GetResolver
 aResolve
 )
 ;
+IPCResult
+RecvCheckVersion
+(
+const
+nsCString
+&
+aDbName
+int32_t
+aVersion
+)
+;
 private
 :
 RefPtr
