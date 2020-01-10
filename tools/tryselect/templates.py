@@ -1668,8 +1668,6 @@ except
 IOError
 OSError
 )
-as
-e
 :
             
 print

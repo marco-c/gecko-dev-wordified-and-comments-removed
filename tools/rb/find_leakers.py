@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 sys
 def
@@ -69,6 +73,7 @@ items
 :
         
 print
+(
 "
 {
 obj
@@ -99,6 +104,7 @@ obj_to_class
 [
 obj
 ]
+)
 )
 def
 process_log
@@ -299,6 +305,7 @@ allocation
 :
                 
 print
+(
 "
 An
 object
@@ -311,12 +318,15 @@ t
 allocated
 !
 "
+)
                 
 print
+(
 obj
 "
 "
 class_name
+)
             
 else
 :
@@ -347,8 +357,13 @@ print_usage
 :
     
 print
+(
+'
+'
+)
     
 print
+(
 "
 Usage
 :
@@ -363,10 +378,16 @@ log
 file
 ]
 "
+)
     
 print
+(
+'
+'
+)
     
 print
+(
 "
 If
 log
@@ -384,8 +405,10 @@ input
 log
 .
 "
+)
     
 print
+(
 "
 Else
 it
@@ -399,8 +422,13 @@ input
 log
 .
 "
+)
     
 print
+(
+'
+'
+)
 def
 main
 (
@@ -489,6 +517,7 @@ else
 :
         
 print
+(
 '
 ERROR
 :
@@ -497,6 +526,7 @@ number
 of
 arguments
 '
+)
         
 print_usage
 (

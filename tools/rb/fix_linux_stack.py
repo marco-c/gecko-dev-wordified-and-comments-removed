@@ -909,7 +909,7 @@ s
 :
             
 raise
-StandardError
+Exception
 (
 "
 expected

@@ -1167,9 +1167,16 @@ target
 activate_env
 )
     
-execfile
+exec
+(
+open
 (
 tps_env
+)
+.
+read
+(
+)
 dict
 (
 __file__

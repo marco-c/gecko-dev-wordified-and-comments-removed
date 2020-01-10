@@ -266,9 +266,16 @@ if
 exec_file
 :
             
-execfile
+exec
+(
+open
 (
 exec_file
+)
+.
+read
+(
+)
 )
             
 return

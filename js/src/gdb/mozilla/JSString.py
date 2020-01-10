@@ -19,8 +19,6 @@ chr
 )
 except
 ValueError
-as
-exc
 :
     
 chr

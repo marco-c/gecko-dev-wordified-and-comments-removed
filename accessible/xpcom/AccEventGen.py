@@ -75,7 +75,9 @@ glbl
 =
 {
 }
-execfile
+exec
+(
+open
 (
 mozpath
 .
@@ -84,7 +86,6 @@ join
 buildconfig
 .
 topsrcdir
-                      
 '
 dom
 '
@@ -97,7 +98,11 @@ Bindings
 conf
 '
 )
-         
+)
+.
+read
+(
+)
 glbl
 )
 webidlconfig
@@ -258,9 +263,16 @@ config
 {
 }
         
-execfile
+exec
+(
+open
 (
 filename
+)
+.
+read
+(
+)
 config
 )
         

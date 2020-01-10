@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 json
 import
@@ -263,9 +267,11 @@ c
 "
         
 print
+(
 "
 Pass
 "
+)
 def
 separate_debug_file_for
 (
@@ -379,7 +385,7 @@ vmaddr
 :
                     
 raise
-StandardError
+Exception
 (
 "
 unexpected
@@ -417,7 +423,7 @@ None
 :
             
 raise
-StandardError
+Exception
 (
 "
 unexpected

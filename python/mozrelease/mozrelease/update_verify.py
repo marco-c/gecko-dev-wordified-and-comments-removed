@@ -20,6 +20,10 @@ os
 import
 re
 from
+six
+import
+string_types
+from
 .
 chunking
 import
@@ -1074,7 +1078,7 @@ if
 isinstance
 (
 locales
-basestring
+string_types
 )
 :
             
@@ -1096,7 +1100,7 @@ if
 isinstance
 (
 patch_types
-basestring
+string_types
 )
 :
             
