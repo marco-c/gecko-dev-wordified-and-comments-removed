@@ -298,9 +298,6 @@ ALIVE
 ORIGIN
 "
 "
-REFERER
-"
-"
 TE
 "
 "
