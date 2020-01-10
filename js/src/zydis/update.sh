@@ -764,7 +764,6 @@ mozbuild
 '
 )
 if
-(
 CONFIG
 [
 '
@@ -776,14 +775,6 @@ CONFIG
 [
 '
 JS_CODEGEN_X86
-'
-]
-)
-and
-CONFIG
-[
-'
-JS_JITSPEW
 '
 ]
 :
