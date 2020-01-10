@@ -1813,6 +1813,15 @@ builtin
 /
 streams
 /
+ReadableStreamInternals
+.
+cpp
+'
+'
+builtin
+/
+streams
+/
 ReadableStreamOperations
 .
 cpp

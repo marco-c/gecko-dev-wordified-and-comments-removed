@@ -77,6 +77,17 @@ builtin
 /
 streams
 /
+ReadableStreamInternals
+.
+h
+"
+#
+include
+"
+builtin
+/
+streams
+/
 ReadableStreamOperations
 .
 h
