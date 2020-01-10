@@ -198,6 +198,13 @@ rowIndex
 ;
 this
 .
+suggestedIndex
+=
+-
+1
+;
+this
+.
 heuristic
 =
 false
