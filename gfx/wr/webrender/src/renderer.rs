@@ -25669,7 +25669,7 @@ size
 >
 {
 let
-offset
+surface_info
 =
 match
 self
@@ -25722,6 +25722,15 @@ DrawTarget
 NativeSurface
 {
 offset
+:
+surface_info
+.
+origin
+external_fbo_id
+:
+surface_info
+.
+fbo_id
 dimensions
 :
 size
