@@ -5614,6 +5614,11 @@ alpha
 =
 true
 ;
+boolean
+desynchronized
+=
+false
+;
 }
 ;
 enum
@@ -7475,7 +7480,7 @@ root
 callback
 CustomElementConstructor
 =
-any
+HTMLElement
 (
 )
 ;
