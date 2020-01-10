@@ -8,7 +8,7 @@ from
 .
 .
 import
-vcs
+utils
 def
 test_git_for_path_no_git
 (
@@ -53,16 +53,10 @@ foo
 :
         
 assert
-vcs
+utils
 .
-Git
-.
-for_path
+git
 (
-this_dir
-"
-/
-"
 this_dir
 )
 is

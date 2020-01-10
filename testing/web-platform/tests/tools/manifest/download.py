@@ -43,9 +43,9 @@ zstandard
 None
 from
 .
-vcs
+utils
 import
-Git
+git
 from
 .
 import
@@ -202,11 +202,9 @@ max_count
 )
 :
     
-git
+gitfunc
 =
-Git
-.
-get_func
+git
 (
 repo_root
 )
@@ -219,7 +217,7 @@ tags
 for
 line
 in
-git
+gitfunc
 (
 "
 log
