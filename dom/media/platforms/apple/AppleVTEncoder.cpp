@@ -67,13 +67,6 @@ AppleUtils
 .
 h
 "
-namespace
-mozilla
-{
-extern
-LazyLogModule
-sPEMLog
-;
 #
 define
 VTENC_LOGE
@@ -148,6 +141,9 @@ __func__
 __VA_ARGS__
 )
 )
+namespace
+mozilla
+{
 static
 CFDictionaryRef
 BuildEncoderSpec
