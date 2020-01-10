@@ -1142,12 +1142,12 @@ mPreformatStack
 uint32_t
 mIgnoreAboveIndex
 ;
+AutoTArray
+<
 int32_t
-*
+100
+>
 mOLStack
-;
-uint32_t
-mOLStackIndex
 ;
 uint32_t
 mULCount
