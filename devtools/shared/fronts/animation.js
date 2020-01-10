@@ -686,7 +686,6 @@ Infinity
 {
 endTime
 =
-(
 absoluteDelay
 >
 0
@@ -696,7 +695,6 @@ absoluteDelay
 2
 :
 1
-)
 ;
 }
 else

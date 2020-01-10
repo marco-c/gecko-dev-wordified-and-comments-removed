@@ -640,7 +640,7 @@ n
 \
 /
 /
-mg
+gm
 )
 |
 |
@@ -700,7 +700,6 @@ prettifyCSS
 .
 LINE_SEPARATOR
 =
-(
 os
 =
 =
@@ -720,7 +719,6 @@ n
 \
 n
 "
-)
 ;
 }
 const

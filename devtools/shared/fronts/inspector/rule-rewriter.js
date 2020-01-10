@@ -583,9 +583,7 @@ endOffset
 const
 popSomeParens
 =
-(
 closer
-)
 =
 >
 {
@@ -993,7 +991,6 @@ declarations
 length
 |
 |
-(
 "
 commentOffsets
 "
@@ -1004,7 +1001,6 @@ declarations
 [
 index
 ]
-)
 )
 {
 return

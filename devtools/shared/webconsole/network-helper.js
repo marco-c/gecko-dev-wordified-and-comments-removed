@@ -577,7 +577,6 @@ isTopLevelLoad
 )
 {
 return
-(
 request
 .
 loadFlags
@@ -587,7 +586,6 @@ Ci
 nsIChannel
 .
 LOAD_DOCUMENT_URI
-)
 ;
 }
 }
@@ -2436,11 +2434,9 @@ nsISiteSecurityService
 const
 flags
 =
-(
 httpActivity
 .
 private
-)
 ?
 Ci
 .

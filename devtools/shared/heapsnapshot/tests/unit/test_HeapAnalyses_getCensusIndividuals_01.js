@@ -466,9 +466,9 @@ child
 }
 }
 }
+)
 (
 report
-)
 )
 ;
 equal

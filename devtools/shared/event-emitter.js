@@ -924,9 +924,7 @@ EventEmitter
 const
 isEventHandler
 =
-(
 listener
-)
 =
 >
 listener

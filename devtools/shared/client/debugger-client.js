@@ -294,9 +294,7 @@ expectReply
 "
 root
 "
-(
 packet
-)
 =
 >
 {
@@ -498,9 +496,7 @@ DevToolsUtils
 .
 makeInfallible
 (
-(
 response
-)
 =
 >
 {

@@ -130,9 +130,7 @@ const
 paths
 =
 {
-"
 devtools
-"
 :
 "
 resource
@@ -141,9 +139,7 @@ resource
 /
 devtools
 "
-"
 acorn
-"
 :
 "
 resource

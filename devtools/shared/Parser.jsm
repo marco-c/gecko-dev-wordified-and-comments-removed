@@ -1789,6 +1789,7 @@ node
 )
 ;
 return
+(
 s
 .
 line
@@ -1819,6 +1820,7 @@ column
 >
 =
 column
+)
 ;
 }
 inferFunctionExpressionInfo

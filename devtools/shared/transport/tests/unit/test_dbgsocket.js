@@ -334,9 +334,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

@@ -2296,9 +2296,7 @@ options
 "
 :
 options
-"
 chrome
-"
 :
 {
 Cc

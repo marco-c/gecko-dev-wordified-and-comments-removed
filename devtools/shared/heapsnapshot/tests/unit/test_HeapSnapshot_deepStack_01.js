@@ -75,7 +75,6 @@ debuggee
 .
 eval
 (
-(
 function
 recursiveAllocate
 (
@@ -111,7 +110,6 @@ push
 )
 ;
 }
-)
 .
 toString
 (

@@ -830,11 +830,13 @@ socketPaths
 .
 .
 .
+(
 await
 device
 .
 getRuntimeSocketPaths
 (
+)
 )
 ]
 ;

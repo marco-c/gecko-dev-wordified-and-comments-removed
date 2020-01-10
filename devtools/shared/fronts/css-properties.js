@@ -605,6 +605,7 @@ property
 {
 return
 (
+(
 this
 .
 properties
@@ -628,6 +629,7 @@ isCssVariable
 (
 property
 )
+)
 ;
 }
 supportsType
@@ -645,6 +647,7 @@ type
 ]
 ;
 return
+(
 this
 .
 properties
@@ -681,6 +684,7 @@ supports
 includes
 (
 id
+)
 )
 )
 ;
@@ -1004,11 +1008,9 @@ db
 if
 (
 typeof
-(
 db
 .
 from
-)
 =
 =
 "

@@ -549,7 +549,6 @@ authoredText
 )
 {
 return
-(
 typeof
 this
 .
@@ -562,7 +561,6 @@ authoredText
 "
 string
 "
-)
 ?
 this
 .

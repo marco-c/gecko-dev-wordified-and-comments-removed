@@ -67,6 +67,7 @@ factory
 ;
 }
 }
+)
 (
 this
 function
@@ -412,6 +413,5 @@ createTask
 }
 ;
 }
-)
 )
 ;

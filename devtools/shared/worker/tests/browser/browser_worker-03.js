@@ -43,9 +43,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 resolve
@@ -115,12 +113,10 @@ square
 ;
 is
 (
-(
 await
 fn
 (
 5
-)
 )
 25
 "
@@ -145,12 +141,10 @@ squarePromise
 ;
 is
 (
-(
 await
 fn
 (
 5
-)
 )
 25
 "

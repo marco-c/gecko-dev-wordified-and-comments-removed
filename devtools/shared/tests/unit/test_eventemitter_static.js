@@ -53,9 +53,7 @@ emitter
 const
 pass
 =
-(
 message
-)
 =
 >
 ok
@@ -67,9 +65,7 @@ message
 const
 fail
 =
-(
 message
-)
 =
 >
 ok
@@ -2263,12 +2259,9 @@ removed
 const
 runnable
 =
-(
 tests
-)
 =
 >
-(
 async
 function
 (
@@ -2307,7 +2300,6 @@ length
 )
 {
 await
-(
 new
 Promise
 (
@@ -2320,7 +2312,6 @@ name
 ]
 (
 resolve
-)
 )
 )
 ;
@@ -2338,7 +2329,6 @@ name
 }
 }
 }
-)
 ;
 add_task
 (

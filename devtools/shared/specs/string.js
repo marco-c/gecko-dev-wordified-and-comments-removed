@@ -332,9 +332,7 @@ supported
 if
 (
 typeof
-(
 value
-)
 =
 =
 =

@@ -474,9 +474,9 @@ child
 }
 }
 }
+)
 (
 root
-)
 )
 ;
 function

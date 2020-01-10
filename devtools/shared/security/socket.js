@@ -445,9 +445,9 @@ Authenticators
 get
 (
 )
+)
 .
 Client
-)
 (
 )
 ;
@@ -1393,9 +1393,9 @@ Authenticators
 get
 (
 )
+)
 .
 Server
-)
 (
 )
 discoverable

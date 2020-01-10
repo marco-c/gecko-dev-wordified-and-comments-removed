@@ -63,9 +63,7 @@ nsIJSInspector
 var
 requestor
 =
-(
 count
-)
 =
 >
 (

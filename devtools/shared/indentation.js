@@ -304,9 +304,7 @@ textIteratorFn
 (
 0
 DETECT_INDENT_MAX_LINES
-(
 text
-)
 =
 >
 {

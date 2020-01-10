@@ -34,13 +34,11 @@ options
 .
 sampleFrequency
 ?
-(
 1000
 /
 options
 .
 sampleFrequency
-)
 :
 void
 0
@@ -914,9 +912,7 @@ threads
 .
 map
 (
-(
 thread
-)
 =
 >
 {

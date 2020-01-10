@@ -849,6 +849,7 @@ node
 {
 return
 (
+(
 node
 .
 children
@@ -882,6 +883,7 @@ count
 =
 =
 0
+)
 ;
 }
 CensusTreeNodeVisitor
@@ -1307,6 +1309,7 @@ node2
 )
 {
 return
+(
 Math
 .
 abs
@@ -1380,6 +1383,7 @@ abs
 node1
 .
 count
+)
 )
 ;
 }
@@ -1391,6 +1395,7 @@ node2
 )
 {
 return
+(
 Math
 .
 abs
@@ -1464,6 +1469,7 @@ abs
 node1
 .
 totalCount
+)
 )
 ;
 }
@@ -1867,9 +1873,9 @@ pop
 )
 ;
 }
+)
 (
 tree
-)
 )
 ;
 inverted
@@ -2190,6 +2196,7 @@ name
 )
 {
 return
+(
 node
 .
 name
@@ -2235,6 +2242,7 @@ asyncCause
 includes
 (
 filterString
+)
 )
 ;
 }
@@ -2449,9 +2457,9 @@ i
 }
 }
 }
+)
 (
 result
-)
 )
 ;
 return

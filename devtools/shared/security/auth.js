@@ -148,6 +148,7 @@ obj
 var
 AuthenticationResult
 =
+(
 exports
 .
 AuthenticationResult
@@ -172,6 +173,7 @@ ALLOW_PERSIST
 null
 }
 )
+)
 ;
 var
 Authenticators
@@ -182,12 +184,14 @@ Authenticators
 var
 Prompt
 =
+(
 Authenticators
 .
 Prompt
 =
 {
 }
+)
 ;
 Prompt
 .
@@ -350,12 +354,14 @@ defaultAllowConnection
 var
 OOBCert
 =
+(
 Authenticators
 .
 OOBCert
 =
 {
 }
+)
 ;
 OOBCert
 .
@@ -552,9 +558,7 @@ hooks
 onPacket
 :
 async
-(
 packet
-)
 =
 >
 {

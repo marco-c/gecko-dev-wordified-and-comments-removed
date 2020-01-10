@@ -41,9 +41,7 @@ strings
 {
 write
 :
-(
 v
-)
 =
 >
 v
@@ -55,11 +53,10 @@ join
 )
 read
 :
-(
 v
-)
 =
 >
+(
 typeof
 v
 =
@@ -78,6 +75,7 @@ split
 )
 :
 v
+)
 }
 )
 ;
@@ -128,9 +126,7 @@ number
 "
 )
 }
-"
 markers
-"
 :
 {
 type
@@ -157,9 +153,7 @@ number
 "
 )
 }
-"
 memory
-"
 :
 {
 type
@@ -186,9 +180,7 @@ json
 "
 )
 }
-"
 ticks
-"
 :
 {
 type
@@ -223,9 +215,7 @@ strings
 "
 )
 }
-"
 frames
-"
 :
 {
 type

@@ -165,6 +165,7 @@ false
 ;
 }
 return
+(
 this
 .
 type
@@ -190,6 +191,7 @@ isWebExtension
 this
 .
 isAPIExtension
+)
 ;
 }
 async

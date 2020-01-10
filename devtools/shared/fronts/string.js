@@ -147,9 +147,7 @@ strPromise
 const
 promiseRest
 =
-(
 thusFar
-)
 =
 >
 {
@@ -194,9 +192,7 @@ LONG_STRING_READ_LENGTH
 .
 then
 (
-(
 next
-)
 =
 >
 promiseRest

@@ -363,9 +363,7 @@ domnode
 "
 )
 }
-"
 resize
-"
 :
 {
 type

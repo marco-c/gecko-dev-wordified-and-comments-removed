@@ -310,9 +310,7 @@ string
 "
 )
 }
-"
 reorder
-"
 :
 {
 type
@@ -391,9 +389,7 @@ number
 "
 )
 }
-"
 audited
-"
 :
 {
 type
@@ -913,9 +909,7 @@ accessibility
 events
 :
 {
-"
 init
-"
 :
 {
 type
@@ -924,9 +918,7 @@ type
 init
 "
 }
-"
 shutdown
-"
 :
 {
 type

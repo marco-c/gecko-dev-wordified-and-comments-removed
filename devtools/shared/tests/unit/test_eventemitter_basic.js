@@ -302,18 +302,16 @@ ok
 (
 !
 beenHere2
-"
-\
+'
 "
 once
-\
 "
 listener
 has
 been
 called
 once
-"
+'
 )
 ;
 beenHere2
@@ -1610,12 +1608,9 @@ clearEvents
 const
 runnable
 =
-(
 tests
-)
 =
 >
-(
 async
 function
 (
@@ -1654,7 +1649,6 @@ length
 )
 {
 await
-(
 new
 Promise
 (
@@ -1667,7 +1661,6 @@ name
 ]
 (
 resolve
-)
 )
 )
 ;
@@ -1685,7 +1678,6 @@ name
 }
 }
 }
-)
 ;
 const
 createNewEmitter

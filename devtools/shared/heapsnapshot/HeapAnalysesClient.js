@@ -62,6 +62,7 @@ workerCounter
 const
 HeapAnalysesClient
 =
+(
 module
 .
 exports
@@ -99,6 +100,7 @@ wantVerbose
 )
 ;
 }
+)
 ;
 HeapAnalysesClient
 .

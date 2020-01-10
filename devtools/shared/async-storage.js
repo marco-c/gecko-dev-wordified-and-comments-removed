@@ -189,9 +189,7 @@ withStore
 "
 readonly
 "
-(
 store
-)
 =
 >
 {
@@ -304,9 +302,7 @@ withStore
 "
 readwrite
 "
-(
 store
-)
 =
 >
 {
@@ -389,9 +385,7 @@ withStore
 "
 readwrite
 "
-(
 store
-)
 =
 >
 {
@@ -472,9 +466,7 @@ withStore
 "
 readwrite
 "
-(
 store
-)
 =
 >
 {
@@ -557,9 +549,7 @@ withStore
 "
 readonly
 "
-(
 store
-)
 =
 >
 {
@@ -669,9 +659,7 @@ withStore
 "
 readonly
 "
-(
 store
-)
 =
 >
 {

@@ -40,23 +40,17 @@ const
 SHEET_TYPE
 =
 {
-"
 agent
-"
 :
 "
 AGENT_SHEET
 "
-"
 user
-"
 :
 "
 USER_SHEET
 "
-"
 author
-"
 :
 "
 AUTHOR_SHEET
@@ -252,9 +246,7 @@ isWindowIncluded
 const
 getFrameElement
 =
-(
 win
-)
 =
 >
 isTopWindow
@@ -1704,9 +1696,7 @@ getBindingParent
 const
 isAnonymous
 =
-(
 node
-)
 =
 >
 getRootBindingParent
@@ -1727,9 +1717,7 @@ isAnonymous
 const
 hasBindingParent
 =
-(
 node
-)
 =
 >
 !
@@ -1742,9 +1730,7 @@ node
 const
 isNativeAnonymous
 =
-(
 node
-)
 =
 >
 hasBindingParent
@@ -1804,6 +1790,7 @@ anonNodes
 .
 .
 .
+(
 node
 .
 ownerDocument
@@ -1816,6 +1803,7 @@ parent
 |
 [
 ]
+)
 ]
 ;
 return
@@ -1861,6 +1849,7 @@ false
 ;
 }
 return
+(
 parent
 .
 openOrClosedShadowRoot
@@ -1873,6 +1862,7 @@ openOrClosedShadowRoot
 contains
 (
 node
+)
 )
 ;
 }
@@ -1889,6 +1879,7 @@ node
 )
 {
 return
+(
 node
 .
 ownerGlobal
@@ -1901,6 +1892,7 @@ node
 ownerGlobal
 .
 HTMLTemplateElement
+)
 ;
 }
 exports

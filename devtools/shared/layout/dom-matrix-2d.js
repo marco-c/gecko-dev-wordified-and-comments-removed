@@ -566,9 +566,7 @@ apply
 const
 isIdentity
 =
-(
 M
-)
 =
 >
 M

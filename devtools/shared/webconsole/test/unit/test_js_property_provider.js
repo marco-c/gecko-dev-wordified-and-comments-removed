@@ -1279,13 +1279,12 @@ results
 =
 propertyProvider
 (
-"
+'
 foo
-\
 "
 doc
 .
-"
+'
 )
 ;
 test_has_result
@@ -1302,7 +1301,6 @@ propertyProvider
 (
 "
 foo
-\
 '
 doc
 .

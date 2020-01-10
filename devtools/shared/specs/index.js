@@ -6,6 +6,7 @@ strict
 const
 Types
 =
+(
 exports
 .
 __TypesForTests
@@ -1700,6 +1701,7 @@ registration
 "
 }
 ]
+)
 ;
 const
 lazySpecs

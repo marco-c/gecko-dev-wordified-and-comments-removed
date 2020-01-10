@@ -139,7 +139,6 @@ n
 ;
 }
 return
-(
 stack
 [
 n
@@ -148,7 +147,6 @@ n
 |
 "
 "
-)
 ;
 }
 function

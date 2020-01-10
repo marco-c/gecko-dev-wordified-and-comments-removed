@@ -29,6 +29,7 @@ str
 ;
 }
 return
+(
 str
 .
 substring
@@ -62,6 +63,7 @@ floor
 maxLength
 /
 2
+)
 )
 )
 ;

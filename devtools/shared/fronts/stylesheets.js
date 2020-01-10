@@ -533,7 +533,6 @@ indentUnit
 ;
 }
 return
-(
 async
 function
 (
@@ -591,7 +590,6 @@ indentUnit
 bind
 (
 this
-)
 )
 (
 )

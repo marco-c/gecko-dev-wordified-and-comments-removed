@@ -1189,7 +1189,6 @@ get
 )
 =
 >
-(
 AppConstants
 .
 DEBUG_JS_MODULES
@@ -1198,7 +1197,6 @@ DEBUG_JS_MODULES
 flags
 .
 testing
-)
 ?
 reallyAssert
 :
@@ -2340,9 +2338,7 @@ asyncCopy
 (
 istream
 ostream
-(
 status
-)
 =
 >
 {
@@ -2475,9 +2471,7 @@ fp
 .
 open
 (
-(
 result
-)
 =
 >
 {

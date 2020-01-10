@@ -96,9 +96,7 @@ clearChanges
 methods
 :
 {
-"
 allChanges
-"
 :
 {
 response
@@ -116,9 +114,7 @@ json
 )
 }
 }
-"
 start
-"
 :
 {
 }

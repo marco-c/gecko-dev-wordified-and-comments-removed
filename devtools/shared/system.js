@@ -139,10 +139,8 @@ endianness
 {
 if
 (
-(
 new
 Uint32Array
-(
 (
 new
 Uint8Array
@@ -154,10 +152,8 @@ Uint8Array
 4
 ]
 )
-)
 .
 buffer
-)
 )
 [
 0
