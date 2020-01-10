@@ -5528,6 +5528,14 @@ return
 jitCodeRaw_
 ;
 }
+void
+traceChildren
+(
+JSTracer
+*
+trc
+)
+;
 static
 constexpr
 size_t

@@ -28955,6 +28955,14 @@ JSTracer
 trc
 )
 {
+BaseScript
+:
+:
+traceChildren
+(
+trc
+)
+;
 MOZ_ASSERT_IF
 (
 trc
