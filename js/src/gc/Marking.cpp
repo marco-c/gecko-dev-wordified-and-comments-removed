@@ -8597,7 +8597,7 @@ if
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 str
 "
@@ -8623,7 +8623,7 @@ if
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 str
 "
@@ -8641,7 +8641,7 @@ mode
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 str
 "
@@ -8681,7 +8681,7 @@ if
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 str
 "
@@ -8708,7 +8708,7 @@ if
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 str
 "
@@ -8742,7 +8742,7 @@ if
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 str
 "
@@ -8806,7 +8806,7 @@ if
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 str
 "
@@ -8847,7 +8847,7 @@ if
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 str
 "

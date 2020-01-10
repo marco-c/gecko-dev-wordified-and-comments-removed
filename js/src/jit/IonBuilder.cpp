@@ -34111,7 +34111,7 @@ asAtom
 ;
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 atom
 "

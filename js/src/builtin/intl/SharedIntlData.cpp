@@ -2126,7 +2126,7 @@ isDefaultUpperCaseFirstLocale
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 localeLinear
 "
@@ -2138,7 +2138,7 @@ da
 js
 :
 :
-StringEqualsAscii
+StringEqualsLiteral
 (
 localeLinear
 "

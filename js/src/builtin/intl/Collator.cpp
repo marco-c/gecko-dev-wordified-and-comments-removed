@@ -1478,7 +1478,7 @@ nullptr
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 usage
 "
@@ -1697,7 +1697,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 usage
 "
@@ -1762,7 +1762,7 @@ nullptr
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 sensitivity
 "
@@ -1779,7 +1779,7 @@ UCOL_PRIMARY
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 sensitivity
 "
@@ -1796,7 +1796,7 @@ UCOL_SECONDARY
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 sensitivity
 "
@@ -1818,7 +1818,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 sensitivity
 "
@@ -1982,7 +1982,7 @@ nullptr
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 caseFirst
 "
@@ -1999,7 +1999,7 @@ UCOL_UPPER_FIRST
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 caseFirst
 "
@@ -2017,7 +2017,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 caseFirst
 "

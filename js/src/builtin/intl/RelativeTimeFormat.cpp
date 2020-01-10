@@ -1016,7 +1016,7 @@ nullptr
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 style
 "
@@ -1033,7 +1033,7 @@ UDAT_STYLE_SHORT
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 style
 "
@@ -1051,7 +1051,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 style
 "
@@ -1737,7 +1737,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1746,7 +1746,7 @@ second
 )
 |
 |
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1763,7 +1763,7 @@ UDAT_REL_UNIT_SECOND
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1772,7 +1772,7 @@ minute
 )
 |
 |
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1789,7 +1789,7 @@ UDAT_REL_UNIT_MINUTE
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1798,7 +1798,7 @@ hour
 )
 |
 |
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1815,7 +1815,7 @@ UDAT_REL_UNIT_HOUR
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1824,7 +1824,7 @@ day
 )
 |
 |
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1841,7 +1841,7 @@ UDAT_REL_UNIT_DAY
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1850,7 +1850,7 @@ week
 )
 |
 |
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1867,7 +1867,7 @@ UDAT_REL_UNIT_WEEK
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1876,7 +1876,7 @@ month
 )
 |
 |
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1893,7 +1893,7 @@ UDAT_REL_UNIT_MONTH
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1902,7 +1902,7 @@ quarter
 )
 |
 |
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1919,7 +1919,7 @@ UDAT_REL_UNIT_QUARTER
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -1928,7 +1928,7 @@ year
 )
 |
 |
-StringEqualsAscii
+StringEqualsLiteral
 (
 unit
 "
@@ -2014,7 +2014,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 numeric
 "
@@ -2035,7 +2035,7 @@ else
 {
 MOZ_ASSERT
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 numeric
 "

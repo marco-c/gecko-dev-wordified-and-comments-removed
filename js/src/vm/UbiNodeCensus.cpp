@@ -6520,7 +6520,7 @@ nullptr
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 by
 "
@@ -6775,7 +6775,7 @@ simple
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 by
 "
@@ -6801,7 +6801,7 @@ BucketCount
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 by
 "
@@ -6885,7 +6885,7 @@ otherType
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 by
 "
@@ -7056,7 +7056,7 @@ domNodeType
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 by
 "
@@ -7111,7 +7111,7 @@ thenType
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 by
 "
@@ -7166,7 +7166,7 @@ thenType
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 by
 "
@@ -7250,7 +7250,7 @@ noStackType
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 by
 "

@@ -8692,7 +8692,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 opt
 "
@@ -8717,7 +8717,7 @@ toggleExtraWarnings
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 opt
 "
@@ -8787,7 +8787,7 @@ toggleWerror
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 opt
 "
@@ -8812,7 +8812,7 @@ toggleThrowOnAsmJSValidationFailure
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 opt
 "
@@ -28618,7 +28618,7 @@ false
 }
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 linearFormat
 "
@@ -28635,7 +28635,7 @@ Multipart
 else
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 linearFormat
 "
