@@ -4554,6 +4554,9 @@ AppendElementEnd
 Element
 *
 aElement
+Element
+*
+aOriginalElement
 nsAString
 &
 aStr
@@ -4581,6 +4584,7 @@ outputElementEnd
 CheckElementEnd
 (
 aElement
+aOriginalElement
 forceFormat
 aStr
 )
@@ -5209,6 +5213,9 @@ CheckElementEnd
 Element
 *
 aElement
+Element
+*
+aOriginalElement
 bool
 &
 aForceFormat
@@ -5225,7 +5232,7 @@ return
 ElementNeedsSeparateEndTag
 (
 aElement
-aElement
+aOriginalElement
 )
 ;
 }

@@ -180,6 +180,15 @@ dom
 Element
 *
 aContent
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
+aOriginalElement
 bool
 &
 aForceFormat
