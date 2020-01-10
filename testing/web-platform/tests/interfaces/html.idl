@@ -7409,6 +7409,11 @@ Worker
 interface
 ImageBitmapRenderingContext
 {
+[
+ImplementedAs
+=
+getHTMLOrOffscreenCanvas
+]
 readonly
 attribute
 (
@@ -7418,6 +7423,9 @@ OffscreenCanvas
 )
 canvas
 ;
+[
+RaisesException
+]
 void
 transferFromImageBitmap
 (
