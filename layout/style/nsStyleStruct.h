@@ -10277,7 +10277,10 @@ mozilla
 StyleFillRule
 mFillRule
 ;
-uint8_t
+mozilla
+:
+:
+StyleSVGPaintOrder
 mPaintOrder
 ;
 uint8_t

@@ -719,6 +719,12 @@ TextEmphasisStyle
 "
 VariantAlternatesList
 "
+"
+PaintOrder
+"
+"
+SVGPaintOrder
+"
 ]
 item_types
 =
