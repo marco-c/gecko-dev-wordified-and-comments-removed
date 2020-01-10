@@ -146,6 +146,10 @@ PIPCBlobInputStream
 ;
 include
 protocol
+PMediaTransport
+;
+include
+protocol
 PPendingIPCBlob
 ;
 include
@@ -380,6 +384,9 @@ PHttpBackgroundChannel
 ;
 manages
 PIPCBlobInputStream
+;
+manages
+PMediaTransport
 ;
 manages
 PPendingIPCBlob
@@ -954,6 +961,11 @@ nsCString
 aEndpointURL
 PrincipalInfo
 aPrincipalInfo
+)
+;
+async
+PMediaTransport
+(
 )
 ;
 child

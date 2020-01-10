@@ -58,7 +58,7 @@ MPL
 /
 include
 protocol
-PSocketProcessBridge
+PBackground
 ;
 #
 ifdef
@@ -327,7 +327,7 @@ protocol
 PMediaTransport
 {
 manager
-PSocketProcessBridge
+PBackground
 ;
 parent
 :

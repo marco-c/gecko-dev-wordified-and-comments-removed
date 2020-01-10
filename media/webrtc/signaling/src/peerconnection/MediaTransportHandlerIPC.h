@@ -367,7 +367,10 @@ friend
 class
 MediaTransportChild
 ;
-MediaTransportChild
+dom
+:
+:
+PMediaTransportChild
 *
 mChild
 =
