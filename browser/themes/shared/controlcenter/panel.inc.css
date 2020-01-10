@@ -6358,6 +6358,13 @@ popup
 tp
 -
 switch
+:
+not
+(
+[
+enabled
+]
+)
 [
 showdotindicator
 ]
@@ -6437,6 +6444,13 @@ popup
 tp
 -
 switch
+:
+not
+(
+[
+enabled
+]
+)
 [
 showdotindicator
 ]
