@@ -1491,7 +1491,16 @@ tasks
                      
 type
 =
+lambda
+flag
+:
+bool
+(
 strtobool
+(
+flag
+)
+)
                      
 nargs
 =
@@ -1586,6 +1595,10 @@ generate
 this
 task
 '
+                     
+required
+=
+True
 )
     
 CommandArgument
