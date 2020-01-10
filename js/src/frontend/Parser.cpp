@@ -1040,9 +1040,7 @@ anyChars
 (
 cx
 options
-thisForCtor
-(
-)
+this
 )
 ss
 (
