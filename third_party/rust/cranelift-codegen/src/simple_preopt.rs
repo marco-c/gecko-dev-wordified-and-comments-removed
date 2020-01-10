@@ -104,7 +104,7 @@ timing
 inline
 ]
 fn
-replace_with_alias
+replace_single_result_with_alias
 (
 dfg
 :
@@ -114,9 +114,6 @@ DataFlowGraph
 inst
 :
 Inst
-result_index
-:
-usize
 value
 :
 Value
@@ -144,8 +141,9 @@ dfg
 .
 value_lists
 )
->
-result_index
+=
+=
+1
 )
 ;
 let
@@ -155,7 +153,7 @@ results
 .
 get
 (
-result_index
+0
 &
 dfg
 .
@@ -904,7 +902,7 @@ I32
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -914,7 +912,6 @@ func
 .
 dfg
 inst
-0
 n1
 )
 ;
@@ -1292,7 +1289,7 @@ tt
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -1302,7 +1299,6 @@ func
 .
 dfg
 inst
-0
 qf
 )
 ;
@@ -1372,7 +1368,7 @@ I64
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -1382,7 +1378,6 @@ func
 .
 dfg
 inst
-0
 n1
 )
 ;
@@ -1760,7 +1755,7 @@ tt
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -1770,7 +1765,6 @@ func
 .
 dfg
 inst
-0
 qf
 )
 ;
@@ -1860,7 +1854,7 @@ I32
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -1870,7 +1864,6 @@ func
 .
 dfg
 inst
-0
 n1
 )
 ;
@@ -2085,7 +2078,7 @@ t4
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -2095,7 +2088,6 @@ func
 .
 dfg
 inst
-0
 t4
 )
 ;
@@ -2328,7 +2320,7 @@ tt
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -2338,7 +2330,6 @@ func
 .
 dfg
 inst
-0
 qf
 )
 ;
@@ -2429,7 +2420,7 @@ I64
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -2439,7 +2430,6 @@ func
 .
 dfg
 inst
-0
 n1
 )
 ;
@@ -2652,7 +2642,7 @@ t4
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -2662,7 +2652,6 @@ func
 .
 dfg
 inst
-0
 t4
 )
 ;
@@ -2891,7 +2880,7 @@ tt
 }
 else
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -2901,7 +2890,6 @@ func
 .
 dfg
 inst
-0
 qf
 )
 ;
@@ -4160,7 +4148,7 @@ SshrImm
 =
 >
 {
-replace_with_alias
+replace_single_result_with_alias
 (
 &
 mut
@@ -4170,7 +4158,6 @@ func
 .
 dfg
 inst
-0
 arg
 )
 ;

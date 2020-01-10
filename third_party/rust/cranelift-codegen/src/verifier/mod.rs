@@ -3316,6 +3316,12 @@ CopySpecial
 .
 }
 |
+CopyToSsa
+{
+.
+.
+}
+|
 Trap
 {
 .

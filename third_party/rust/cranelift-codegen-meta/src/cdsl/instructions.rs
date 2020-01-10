@@ -447,6 +447,7 @@ find
 |
 inst
 |
+&
 inst
 .
 name
@@ -680,6 +681,7 @@ self
 str
 {
 if
+&
 self
 .
 name
@@ -849,7 +851,7 @@ new
 }
 pub
 fn
-bind_vector
+bind_vector_from_lane
 (
 &
 self
@@ -860,7 +862,7 @@ Into
 <
 LaneType
 >
-num_lanes
+vector_size_in_bits
 :
 u64
 )
@@ -880,7 +882,7 @@ lane_type
 into
 (
 )
-num_lanes
+vector_size_in_bits
 Vec
 :
 :
@@ -2158,7 +2160,7 @@ value_types
 }
 pub
 fn
-bind_vector
+bind_vector_from_lane
 (
 self
 lane_type
@@ -2168,7 +2170,7 @@ Into
 <
 LaneType
 >
-num_lanes
+vector_size_in_bits
 :
 u64
 )
@@ -2186,7 +2188,7 @@ lane_type
 into
 (
 )
-num_lanes
+vector_size_in_bits
 self
 .
 value_types
@@ -3949,7 +3951,6 @@ ret
 .
 push
 (
-&
 self
 )
 }
@@ -5481,7 +5482,7 @@ Instruction
 lane_type
 :
 LaneType
-num_lanes
+vector_size_in_bits
 :
 u64
 mut
@@ -5496,6 +5497,17 @@ ValueTypeOrAny
 >
 BoundInstruction
 {
+let
+num_lanes
+=
+vector_size_in_bits
+/
+lane_type
+.
+lane_bits
+(
+)
+;
 let
 vector_type
 =

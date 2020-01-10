@@ -20,6 +20,7 @@ memorysink
 :
 {
 MemoryCodeSink
+NullRelocSink
 NullStackmapSink
 NullTrapSink
 RelocSink
@@ -151,6 +152,8 @@ derive
 Copy
 Clone
 Debug
+PartialEq
+Eq
 )
 ]
 #

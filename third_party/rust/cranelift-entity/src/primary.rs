@@ -117,6 +117,8 @@ derive
 Debug
 Clone
 Hash
+PartialEq
+Eq
 )
 ]
 #

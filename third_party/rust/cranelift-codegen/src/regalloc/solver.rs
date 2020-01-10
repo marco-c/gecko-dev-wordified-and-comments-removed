@@ -2951,6 +2951,9 @@ global_regs
 :
 &
 RegisterSet
+is_reload
+:
+bool
 )
 -
 >
@@ -2965,6 +2968,7 @@ self
 find_solution
 (
 global_regs
+is_reload
 )
 }
 pub
@@ -2978,6 +2982,9 @@ global_regs
 :
 &
 RegisterSet
+is_reload
+:
+bool
 )
 -
 >
@@ -3100,6 +3107,7 @@ self
 find_solution
 (
 global_regs
+is_reload
 )
 }
 fn
@@ -3112,6 +3120,9 @@ global_regs
 :
 &
 RegisterSet
+is_reload
+:
+bool
 )
 -
 >
@@ -3172,9 +3183,9 @@ v
 constraint
 ;
 let
-reg
+mut
+reg_set_iter
 =
-match
 v
 .
 iter
@@ -3186,10 +3197,33 @@ oregs
 &
 gregs
 )
+;
+let
+maybe_reg
+=
+if
+is_reload
+{
+reg_set_iter
+.
+rnext
+(
+)
+}
+else
+{
+reg_set_iter
 .
 next
 (
 )
+}
+;
+let
+reg
+=
+match
+maybe_reg
 {
 Some
 (
@@ -4705,6 +4739,7 @@ quick_solve
 (
 &
 gregs
+false
 )
 .
 is_ok
@@ -4796,6 +4831,7 @@ quick_solve
 (
 &
 gregs
+false
 )
 .
 is_ok
@@ -4886,6 +4922,7 @@ quick_solve
 (
 &
 gregs
+false
 )
 .
 is_ok
@@ -5205,6 +5242,7 @@ quick_solve
 (
 &
 gregs
+false
 )
 .
 is_ok
@@ -5319,6 +5357,7 @@ quick_solve
 (
 &
 gregs
+false
 )
 .
 is_ok
@@ -5662,6 +5701,7 @@ quick_solve
 (
 &
 gregs
+false
 )
 .
 is_ok
@@ -5806,6 +5846,7 @@ quick_solve
 (
 &
 gregs
+false
 )
 .
 is_ok
