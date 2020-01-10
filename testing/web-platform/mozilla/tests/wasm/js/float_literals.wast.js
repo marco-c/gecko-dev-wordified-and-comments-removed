@@ -5782,7 +5782,7 @@ nan
 [
 ]
 )
-2143289344
+2_143_289_344
 )
 ;
 assert_return
@@ -5802,7 +5802,7 @@ positive_nan
 [
 ]
 )
-2143289344
+2_143_289_344
 )
 ;
 assert_return
@@ -5823,7 +5823,7 @@ negative_nan
 ]
 )
 -
-4194304
+4_194_304
 )
 ;
 assert_return
@@ -5843,7 +5843,7 @@ plain_nan
 [
 ]
 )
-2143289344
+2_143_289_344
 )
 ;
 assert_return
@@ -5863,7 +5863,7 @@ informally_known_as_plain_snan
 [
 ]
 )
-2141192192
+2_141_192_192
 )
 ;
 assert_return
@@ -5904,7 +5904,7 @@ misc_nan
 [
 ]
 )
-2139169605
+2_139_169_605
 )
 ;
 assert_return
@@ -5924,7 +5924,7 @@ misc_positive_nan
 [
 ]
 )
-2142257232
+2_142_257_232
 )
 ;
 assert_return
@@ -5945,7 +5945,7 @@ misc_negative_nan
 ]
 )
 -
-5587746
+5_587_746
 )
 ;
 assert_return
@@ -5965,7 +5965,7 @@ infinity
 [
 ]
 )
-2139095040
+2_139_095_040
 )
 ;
 assert_return
@@ -5985,7 +5985,7 @@ positive_infinity
 [
 ]
 )
-2139095040
+2_139_095_040
 )
 ;
 assert_return
@@ -6006,7 +6006,7 @@ negative_infinity
 ]
 )
 -
-8388608
+8_388_608
 )
 ;
 assert_return
@@ -6067,7 +6067,7 @@ negative_zero
 ]
 )
 -
-2147483648
+2_147_483_648
 )
 ;
 assert_return
@@ -6087,7 +6087,7 @@ misc
 [
 ]
 )
-1086918619
+1_086_918_619
 )
 ;
 assert_return
@@ -6127,7 +6127,7 @@ min_normal
 [
 ]
 )
-8388608
+8_388_608
 )
 ;
 assert_return
@@ -6147,7 +6147,7 @@ max_subnormal
 [
 ]
 )
-8388607
+8_388_607
 )
 ;
 assert_return
@@ -6167,7 +6167,7 @@ max_finite
 [
 ]
 )
-2139095039
+2_139_095_039
 )
 ;
 assert_return
@@ -6187,7 +6187,7 @@ trailing_dot
 [
 ]
 )
-1149239296
+1_149_239_296
 )
 ;
 assert_return
@@ -6248,7 +6248,7 @@ negative_zero
 ]
 )
 -
-2147483648
+2_147_483_648
 )
 ;
 assert_return
@@ -6268,7 +6268,7 @@ misc
 [
 ]
 )
-1086918619
+1_086_918_619
 )
 ;
 assert_return
@@ -6308,7 +6308,7 @@ min_normal
 [
 ]
 )
-8388608
+8_388_608
 )
 ;
 assert_return
@@ -6328,7 +6328,7 @@ max_subnormal
 [
 ]
 )
-8388607
+8_388_607
 )
 ;
 assert_return
@@ -6348,7 +6348,7 @@ max_finite
 [
 ]
 )
-2139095039
+2_139_095_039
 )
 ;
 assert_return
@@ -6368,7 +6368,7 @@ trailing_dot
 [
 ]
 )
-1343554297
+1_343_554_297
 )
 ;
 assert_return
@@ -6388,7 +6388,7 @@ root_beer_float
 [
 ]
 )
-1065353217
+1_065_353_217
 )
 ;
 run

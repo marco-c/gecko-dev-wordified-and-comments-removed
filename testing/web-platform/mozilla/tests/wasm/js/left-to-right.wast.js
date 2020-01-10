@@ -8138,7 +8138,7 @@ i32_call_indirect
 [
 ]
 )
-66052
+66_052
 )
 ;
 assert_return
@@ -8156,7 +8156,7 @@ i64_call_indirect
 [
 ]
 )
-66052
+66_052
 )
 ;
 assert_return
@@ -8174,7 +8174,7 @@ i32_select
 [
 ]
 )
-66053
+66_053
 )
 ;
 assert_return
@@ -8192,7 +8192,7 @@ i64_select
 [
 ]
 )
-66053
+66_053
 )
 ;
 assert_return
@@ -8750,7 +8750,7 @@ f32_call_indirect
 [
 ]
 )
-66052
+66_052
 )
 ;
 assert_return
@@ -8768,7 +8768,7 @@ f64_call_indirect
 [
 ]
 )
-66052
+66_052
 )
 ;
 assert_return
@@ -8786,7 +8786,7 @@ f32_select
 [
 ]
 )
-66053
+66_053
 )
 ;
 assert_return
@@ -8804,7 +8804,7 @@ f64_select
 [
 ]
 )
-66053
+66_053
 )
 ;
 assert_return
