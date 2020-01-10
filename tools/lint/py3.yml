@@ -113,9 +113,7 @@ mozharness
 -
 testing
 /
-tools
-/
-iceserver
+tps
 -
 testing
 /
