@@ -1,7 +1,7 @@
 #
 include
 "
-nr_socket_proxy
+nr_socket_tcp
 .
 h
 "
@@ -35,12 +35,12 @@ std
 shared_ptr
 ;
 class
-NrSocketProxyData
+NrTcpSocketData
 {
 public
 :
 explicit
-NrSocketProxyData
+NrTcpSocketData
 (
 nsTArray
 <
@@ -58,18 +58,18 @@ aData
 {
 MOZ_COUNT_CTOR
 (
-NrSocketProxyData
+NrTcpSocketData
 )
 ;
 }
 ~
-NrSocketProxyData
+NrTcpSocketData
 (
 )
 {
 MOZ_COUNT_DTOR
 (
-NrSocketProxyData
+NrTcpSocketData
 )
 ;
 }
@@ -98,10 +98,10 @@ mData
 ;
 }
 ;
-NrSocketProxy
+NrTcpSocket
 :
 :
-NrSocketProxy
+NrTcpSocket
 (
 const
 shared_ptr
@@ -134,10 +134,10 @@ r_log
 LOG_GENERIC
 LOG_DEBUG
 "
-NrSocketProxy
+NrTcpSocket
 :
 :
-NrSocketProxy
+NrTcpSocket
 %
 p
 \
@@ -159,11 +159,11 @@ null
 )
 ;
 }
-NrSocketProxy
+NrTcpSocket
 :
 :
 ~
-NrSocketProxy
+NrTcpSocket
 (
 )
 {
@@ -172,11 +172,11 @@ r_log
 LOG_GENERIC
 LOG_DEBUG
 "
-NrSocketProxy
+NrTcpSocket
 :
 :
 ~
-NrSocketProxy
+NrTcpSocket
 %
 p
 \
@@ -191,8 +191,8 @@ MOZ_ASSERT
 mWebrtcTCPSocket
 "
 webrtc
-proxy
-channel
+TCP
+socket
 not
 null
 "
@@ -200,7 +200,7 @@ null
 ;
 }
 int
-NrSocketProxy
+NrTcpSocket
 :
 :
 create
@@ -251,7 +251,7 @@ return
 ;
 }
 int
-NrSocketProxy
+NrTcpSocket
 :
 :
 connect
@@ -266,7 +266,7 @@ r_log
 LOG_GENERIC
 LOG_DEBUG
 "
-NrSocketProxy
+NrTcpSocket
 :
 :
 Connect
@@ -323,7 +323,7 @@ R_WOULDBLOCK
 ;
 }
 void
-NrSocketProxy
+NrTcpSocket
 :
 :
 close
@@ -335,7 +335,7 @@ r_log
 LOG_GENERIC
 LOG_DEBUG
 "
-NrSocketProxy
+NrTcpSocket
 :
 :
 Close
@@ -378,7 +378,7 @@ nullptr
 }
 }
 int
-NrSocketProxy
+NrTcpSocket
 :
 :
 write
@@ -399,7 +399,7 @@ r_log
 LOG_GENERIC
 LOG_DEBUG
 "
-NrSocketProxy
+NrTcpSocket
 :
 :
 Write
@@ -491,7 +491,7 @@ return
 ;
 }
 int
-NrSocketProxy
+NrTcpSocket
 :
 :
 read
@@ -511,7 +511,7 @@ r_log
 LOG_GENERIC
 LOG_DEBUG
 "
-NrSocketProxy
+NrTcpSocket
 :
 :
 Read
@@ -576,7 +576,7 @@ empty
 )
 {
 const
-NrSocketProxyData
+NrTcpSocketData
 &
 data
 =
@@ -689,7 +689,7 @@ return
 ;
 }
 int
-NrSocketProxy
+NrTcpSocket
 :
 :
 getaddr
@@ -704,7 +704,7 @@ r_log
 LOG_GENERIC
 LOG_DEBUG
 "
-NrSocketProxy
+NrTcpSocket
 :
 :
 GetAddr
@@ -726,7 +726,7 @@ my_addr_
 ;
 }
 int
-NrSocketProxy
+NrTcpSocket
 :
 :
 sendto
@@ -754,7 +754,7 @@ R_FAILED
 ;
 }
 int
-NrSocketProxy
+NrTcpSocket
 :
 :
 recvfrom
@@ -784,7 +784,7 @@ R_FAILED
 ;
 }
 int
-NrSocketProxy
+NrTcpSocket
 :
 :
 listen
@@ -798,7 +798,7 @@ R_INTERNAL
 ;
 }
 int
-NrSocketProxy
+NrTcpSocket
 :
 :
 accept
@@ -817,7 +817,7 @@ R_INTERNAL
 ;
 }
 void
-NrSocketProxy
+NrTcpSocket
 :
 :
 OnClose
@@ -840,7 +840,7 @@ r_log
 LOG_GENERIC
 LOG_ERR
 "
-NrSocketProxy
+NrTcpSocket
 :
 :
 OnClose
@@ -882,7 +882,7 @@ DoCallbacks
 ;
 }
 void
-NrSocketProxy
+NrTcpSocket
 :
 :
 OnConnected
@@ -894,7 +894,7 @@ r_log
 LOG_GENERIC
 LOG_DEBUG
 "
-NrSocketProxy
+NrTcpSocket
 :
 :
 OnConnected
@@ -912,7 +912,7 @@ DoCallbacks
 ;
 }
 void
-NrSocketProxy
+NrTcpSocket
 :
 :
 OnRead
@@ -931,7 +931,7 @@ r_log
 LOG_GENERIC
 LOG_DEBUG
 "
-NrSocketProxy
+NrTcpSocket
 :
 :
 OnRead
@@ -971,7 +971,7 @@ DoCallbacks
 ;
 }
 void
-NrSocketProxy
+NrTcpSocket
 :
 :
 DoCallbacks
@@ -1064,7 +1064,7 @@ NR_ASYNC_WAIT_WRITE
 }
 }
 size_t
-NrSocketProxy
+NrTcpSocket
 :
 :
 CountUnreadBytes
@@ -1080,7 +1080,7 @@ count
 for
 (
 const
-NrSocketProxyData
+NrTcpSocketData
 &
 data
 :
@@ -1126,7 +1126,7 @@ count
 ;
 }
 void
-NrSocketProxy
+NrTcpSocket
 :
 :
 AssignChannel_DoNotUse
