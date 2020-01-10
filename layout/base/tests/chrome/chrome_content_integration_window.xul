@@ -125,6 +125,12 @@ stack
 style
 =
 "
+align
+-
+items
+:
+center
+;
 height
 :
 300px
