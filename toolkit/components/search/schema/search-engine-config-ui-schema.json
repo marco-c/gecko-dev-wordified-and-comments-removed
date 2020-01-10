@@ -20,10 +20,10 @@ order
 :
 [
 "
-webExtension
-"
-"
 engineName
+"
+"
+webExtension
 "
 "
 default
