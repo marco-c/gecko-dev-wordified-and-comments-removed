@@ -649,8 +649,11 @@ TypedObjectModule
 REAL
 (
 Reflect
-InitReflect
-nullptr
+InitViaClassSpec
+CLASP
+(
+Reflect
+)
 )
 \
 REAL
