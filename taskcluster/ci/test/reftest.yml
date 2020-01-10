@@ -796,6 +796,15 @@ windows10
 -
 64
 -
+asan
+/
+opt
+:
+3
+windows10
+-
+64
+-
 ccov
 /
 debug
