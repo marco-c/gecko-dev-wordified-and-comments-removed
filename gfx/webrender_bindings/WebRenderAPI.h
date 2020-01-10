@@ -2343,7 +2343,7 @@ ColorF
 )
 ;
 void
-PushImage
+PushRepeatingImage
 (
 const
 wr
