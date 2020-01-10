@@ -976,7 +976,7 @@ mozilla
 EnumSet
 <
 AllocKind
-uint32_t
+uint64_t
 >
 ;
 class
