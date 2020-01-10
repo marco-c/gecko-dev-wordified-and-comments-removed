@@ -491,15 +491,3 @@ utils
 js
 '
 ]
-JS_PREFERENCE_PP_FILES
-+
-=
-[
-'
-services
--
-sync
-.
-js
-'
-]

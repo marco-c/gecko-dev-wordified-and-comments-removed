@@ -297,15 +297,6 @@ services
 /
 sync
 /
-services
--
-sync
-.
-js
-services
-/
-sync
-/
 tests
 /
 unit
