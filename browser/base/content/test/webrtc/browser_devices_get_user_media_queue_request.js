@@ -267,7 +267,7 @@ deny
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -506,7 +506,7 @@ true
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
@@ -884,7 +884,7 @@ ended
 ;
 SitePermissions
 .
-remove
+removeFromPrincipal
 (
 null
 "
