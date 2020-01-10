@@ -7928,7 +7928,6 @@ if
 mInner
 )
 {
-;
 RefPtr
 <
 nsIRunnable
