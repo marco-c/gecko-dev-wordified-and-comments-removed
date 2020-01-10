@@ -129,12 +129,6 @@ escapes
 "
     
 "
-Intl
-.
-Locale
-"
-    
-"
 global
 "
     
@@ -2541,6 +2535,32 @@ TypedArrays
 [
 "
 detachArrayBuffer
+.
+js
+"
+]
+    
+localIncludesMap
+[
+os
+.
+path
+.
+join
+(
+"
+intl402
+"
+)
+]
+=
+[
+"
+test262
+-
+intl
+-
+locale
 .
 js
 "
