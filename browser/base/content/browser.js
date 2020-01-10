@@ -30958,6 +30958,12 @@ uiDensityChanged
 (
 )
 ;
+gURLBar
+.
+initLayoutBreakout
+(
+)
+;
 }
 }
 ;

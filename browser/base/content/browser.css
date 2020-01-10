@@ -1603,6 +1603,17 @@ overflowable
 customization
 -
 target
+:
+not
+(
+[
+urlbar
+-
+breakout
+-
+extend
+]
+)
 {
 overflow
 :
