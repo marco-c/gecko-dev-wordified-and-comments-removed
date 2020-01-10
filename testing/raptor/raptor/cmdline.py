@@ -247,9 +247,7 @@ mozilla
 .
 fenix
 .
-browser
-.
-BrowserPerformanceTestActivity
+IntentReceiverActivity
 "
         
 "

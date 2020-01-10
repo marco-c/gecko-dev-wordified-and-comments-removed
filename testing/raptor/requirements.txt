@@ -44,3 +44,9 @@ mozproxy
 1
 .
 0
+pyyaml
+~
+=
+3
+.
+1
