@@ -508,11 +508,6 @@ return
 mBorderPadding
 ;
 }
-nscoord
-ConsumedBSize
-(
-)
-;
 void
 ReconstructMarginBefore
 (
@@ -893,6 +888,7 @@ mFlags
 StyleClear
 mFloatBreakType
 ;
+const
 nscoord
 mConsumedBSize
 ;

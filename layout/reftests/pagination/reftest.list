@@ -964,6 +964,12 @@ clear
 ref
 .
 html
+asserts
+(
+4
+-
+4
+)
 fails
 =
 =
@@ -983,6 +989,9 @@ clear
 ref
 .
 html
+#
+Bug
+1574046
 =
 =
 float
@@ -1042,6 +1051,12 @@ print
 ref
 .
 html
+asserts
+(
+1
+-
+1
+)
 =
 =
 float
@@ -1064,6 +1079,9 @@ print
 ref
 .
 html
+#
+Bug
+1574046
 =
 =
 float

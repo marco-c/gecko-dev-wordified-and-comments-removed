@@ -9351,9 +9351,7 @@ nonCarriedOutBDirMargin
 borderPadding
 aState
 .
-ConsumedBSize
-(
-)
+mConsumedBSize
 )
 ;
 aMetrics
