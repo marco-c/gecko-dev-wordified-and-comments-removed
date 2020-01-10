@@ -905,13 +905,13 @@ void
 nsIFrame
 :
 :
-PropagateRootElementWritingMode
+PropagateWritingModeToSelfAndAncestors
 (
 mozilla
 :
 :
 WritingMode
-aRootElemWM
+aWM
 )
 {
 MOZ_ASSERT
@@ -945,7 +945,7 @@ f
 >
 mWritingMode
 =
-aRootElemWM
+aWM
 ;
 }
 }

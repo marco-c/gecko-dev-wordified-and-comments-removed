@@ -450,11 +450,6 @@ const
 ;
 protected
 :
-void
-MaybePropagateRootElementWritingMode
-(
-)
-;
 bool
 mDoPaintFocus
 ;
