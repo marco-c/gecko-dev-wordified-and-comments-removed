@@ -104,9 +104,17 @@ moz_stack_class
 )
 ATTR
 (
+moz_static_local_class
+)
+ATTR
+(
 moz_temporary_class
 )
 ATTR
 (
 moz_trivial_ctor_dtor
+)
+ATTR
+(
+moz_trivial_dtor
 )
