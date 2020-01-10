@@ -1524,7 +1524,7 @@ this
 .
 client
 .
-addListener
+on
 (
 "
 closed
@@ -1555,7 +1555,7 @@ this
 .
 client
 .
-removeListener
+off
 (
 "
 closed

@@ -3181,7 +3181,6 @@ resolve
 function
 listener
 (
-type
 packet
 )
 {
@@ -3201,6 +3200,7 @@ client
 .
 removeListener
 (
+type
 listener
 )
 ;

@@ -55,7 +55,7 @@ stack
 )
 ;
 const
-eventSource
+EventEmitter
 =
 require
 (
@@ -64,11 +64,9 @@ devtools
 /
 shared
 /
-client
-/
 event
 -
-source
+emitter
 "
 )
 ;
@@ -795,13 +793,12 @@ defer
 ;
 this
 .
-addOneTimeListener
+once
 (
 "
 connected
 "
 (
-name
 applicationType
 traits
 )
@@ -947,7 +944,7 @@ promise
 }
 this
 .
-addOneTimeListener
+once
 (
 "
 closed
@@ -3499,7 +3496,9 @@ _transport
 }
 }
 ;
-eventSource
+EventEmitter
+.
+decorate
 (
 DebuggerClient
 .

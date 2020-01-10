@@ -475,7 +475,7 @@ defer
 ;
 gClient
 .
-addListener
+on
 (
 "
 paused

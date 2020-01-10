@@ -745,7 +745,7 @@ THIS_FIREFOX
 {
 clientWrapper
 .
-addOneTimeListener
+once
 (
 "
 closed
@@ -993,7 +993,7 @@ THIS_FIREFOX
 {
 clientWrapper
 .
-removeListener
+off
 (
 "
 closed
@@ -2189,7 +2189,7 @@ runtimeDetails
 ;
 clientWrapper
 .
-removeListener
+off
 (
 "
 closed

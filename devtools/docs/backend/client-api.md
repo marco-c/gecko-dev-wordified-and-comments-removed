@@ -592,7 +592,7 @@ events
 .
 targetFront
 .
-addListener
+on
 (
 "
 tabNavigated

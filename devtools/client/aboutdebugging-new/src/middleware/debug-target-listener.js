@@ -140,7 +140,7 @@ runtimeDetails
 ;
 clientWrapper
 .
-addListener
+on
 (
 "
 tabListChanged
@@ -150,7 +150,7 @@ onTabsUpdated
 ;
 clientWrapper
 .
-addListener
+on
 (
 "
 addonListChanged
@@ -160,7 +160,7 @@ onExtensionsUpdated
 ;
 clientWrapper
 .
-addListener
+on
 (
 "
 workersUpdated
@@ -193,7 +193,7 @@ runtimeDetails
 ;
 clientWrapper
 .
-removeListener
+off
 (
 "
 tabListChanged
@@ -203,7 +203,7 @@ onTabsUpdated
 ;
 clientWrapper
 .
-removeListener
+off
 (
 "
 addonListChanged
@@ -213,7 +213,7 @@ onExtensionsUpdated
 ;
 clientWrapper
 .
-removeListener
+off
 (
 "
 workersUpdated

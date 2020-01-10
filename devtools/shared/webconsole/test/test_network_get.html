@@ -238,7 +238,7 @@ aState
 .
 dbgClient
 .
-addListener
+on
 (
 "
 networkEventUpdate
@@ -375,7 +375,6 @@ function
 onNetworkEventUpdate
 (
 aState
-aType
 aPacket
 )
 {
@@ -702,12 +701,12 @@ aState
 .
 dbgClient
 .
-removeListener
+off
 (
 "
 networkEventUpdate
 "
-onNetworkEvent
+onNetworkEventUpdate
 )
 ;
 onRequestHeaders

@@ -210,7 +210,7 @@ this
 .
 _client
 .
-addListener
+on
 (
 "
 networkEventUpdate
@@ -400,7 +400,6 @@ networkInfo
 }
 _onNetworkEventUpdate
 (
-type
 packet
 )
 {
@@ -1388,7 +1387,7 @@ this
 .
 _client
 .
-removeListener
+off
 (
 "
 networkEventUpdate

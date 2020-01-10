@@ -384,7 +384,6 @@ const
 listener
 =
 (
-evt
 data
 )
 =
@@ -410,7 +409,7 @@ data
 ;
 client
 .
-addListener
+on
 (
 "
 frameUpdate
@@ -432,7 +431,7 @@ null
 ;
 client
 .
-removeListener
+off
 (
 "
 frameUpdate

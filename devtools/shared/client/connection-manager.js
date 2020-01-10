@@ -1411,7 +1411,7 @@ this
 .
 _client
 .
-addOneTimeListener
+once
 (
 "
 closed

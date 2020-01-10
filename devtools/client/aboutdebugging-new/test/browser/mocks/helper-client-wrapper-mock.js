@@ -103,7 +103,7 @@ serviceWorkerRegistrationFronts
 :
 [
 ]
-addOneTimeListener
+once
 :
 (
 evt
@@ -121,7 +121,7 @@ listener
 )
 ;
 }
-addListener
+on
 :
 (
 evt
@@ -139,7 +139,7 @@ listener
 )
 ;
 }
-removeListener
+off
 :
 (
 evt
@@ -160,7 +160,7 @@ listener
 client
 :
 {
-addOneTimeListener
+once
 :
 (
 evt
@@ -178,7 +178,7 @@ listener
 )
 ;
 }
-addListener
+on
 :
 (
 evt
@@ -196,7 +196,7 @@ listener
 )
 ;
 }
-removeListener
+off
 :
 (
 evt

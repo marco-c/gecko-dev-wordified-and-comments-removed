@@ -128,7 +128,7 @@ false
 ;
 client
 .
-addListener
+on
 (
 "
 closed
@@ -241,7 +241,7 @@ function
 {
 client
 .
-removeListener
+off
 (
 "
 closed
@@ -270,7 +270,7 @@ resolve
 ;
 client
 .
-addListener
+on
 (
 "
 closed

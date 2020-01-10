@@ -111,7 +111,7 @@ runtimeInfo
 }
 client
 .
-addOneTimeListener
+once
 (
 "
 closed
@@ -425,7 +425,7 @@ client
 {
 client
 .
-removeListener
+off
 (
 "
 closed
