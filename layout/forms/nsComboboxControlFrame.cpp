@@ -3438,7 +3438,7 @@ GetWritingMode
 }
 const
 bool
-isSizedAsEmpty
+isContainSize
 =
 StyleDisplay
 (
@@ -3446,13 +3446,6 @@ StyleDisplay
 -
 >
 IsContainSize
-(
-)
-|
-|
-mDisplayedOptionTextOrPreview
-.
-IsEmpty
 (
 )
 ;
@@ -3470,7 +3463,7 @@ mDisplayFrame
 &
 &
 !
-isSizedAsEmpty
+isContainSize
 )
 {
 displayISize
@@ -3524,7 +3517,7 @@ MIN_ISIZE
 {
 dropdownContentISize
 =
-isSizedAsEmpty
+isContainSize
 ?
 0
 :
@@ -3567,7 +3560,7 @@ type
 ;
 dropdownContentISize
 =
-isSizedAsEmpty
+isContainSize
 ?
 0
 :
