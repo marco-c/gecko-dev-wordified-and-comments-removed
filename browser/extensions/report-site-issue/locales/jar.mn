@@ -72,9 +72,11 @@ jar
 :
 %
 locale
-webcompat
+report
 -
-reporter
+site
+-
+issue
 AB_CD
 %
 locale
