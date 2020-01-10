@@ -1150,7 +1150,7 @@ script
 )
 -
 >
-baselineScript
+jitScript
 (
 )
 -
@@ -23283,7 +23283,7 @@ inliningWarmUpThreshold
 targetScript
 -
 >
-baselineScript
+jitScript
 (
 )
 -
