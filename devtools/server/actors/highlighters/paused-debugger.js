@@ -44,8 +44,6 @@ devtools
 /
 client
 /
-shared
-/
 locales
 /
 debugger
