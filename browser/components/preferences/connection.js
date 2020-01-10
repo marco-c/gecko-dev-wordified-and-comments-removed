@@ -2420,17 +2420,6 @@ controlGroup
 querySelectorAll
 (
 "
-textbox
-"
-)
-.
-.
-.
-controlGroup
-.
-querySelectorAll
-(
-"
 checkbox
 "
 )
