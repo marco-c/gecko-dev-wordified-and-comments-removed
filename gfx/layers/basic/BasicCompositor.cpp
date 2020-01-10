@@ -5145,9 +5145,6 @@ NativeLayer
 aNativeLayer
 IntRect
 *
-aClipRectOut
-IntRect
-*
 aRenderBoundsOut
 )
 {
@@ -5808,17 +5805,6 @@ aRenderBoundsOut
 {
 *
 aRenderBoundsOut
-=
-rect
-;
-}
-if
-(
-aClipRectOut
-)
-{
-*
-aClipRectOut
 =
 rect
 ;

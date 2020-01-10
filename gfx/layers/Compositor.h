@@ -1054,14 +1054,6 @@ gfx
 :
 IntRect
 *
-aClipRectOut
-=
-nullptr
-gfx
-:
-:
-IntRect
-*
 aRenderBoundsOut
 =
 nullptr
