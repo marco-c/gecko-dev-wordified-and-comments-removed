@@ -100,6 +100,9 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsCycleCollectionISupports
 NS_CYCLECOLLECTIONISUPPORTS_IID
 )
+class
+nsWrapperCache
+;
 namespace
 JS
 {
@@ -198,8 +201,7 @@ virtual
 void
 Trace
 (
-JSObject
-*
+nsWrapperCache
 *
 aPtr
 const
@@ -440,8 +442,7 @@ virtual
 void
 Trace
 (
-JSObject
-*
+nsWrapperCache
 *
 aPtr
 const
