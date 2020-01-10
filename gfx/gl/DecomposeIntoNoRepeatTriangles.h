@@ -71,7 +71,7 @@ flip_y
 false
 )
 ;
-InfallibleTArray
+nsTArray
 <
 coord
 >
@@ -84,7 +84,7 @@ return
 mVertexCoords
 ;
 }
-InfallibleTArray
+nsTArray
 <
 coord
 >
@@ -131,7 +131,7 @@ static
 void
 AppendRectToCoordArray
 (
-InfallibleTArray
+nsTArray
 <
 coord
 >

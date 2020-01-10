@@ -202,7 +202,7 @@ if
 gGfxVarInitUpdates
 )
 {
-InfallibleTArray
+nsTArray
 <
 GfxVarUpdate
 >

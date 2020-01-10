@@ -24,7 +24,7 @@ RectTriangles
 :
 AppendRectToCoordArray
 (
-InfallibleTArray
+nsTArray
 <
 coord
 >
