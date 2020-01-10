@@ -106,6 +106,7 @@ selectFrame
 export
 {
 toggleSkipPausing
+setSkipPausing
 }
 from
 "
