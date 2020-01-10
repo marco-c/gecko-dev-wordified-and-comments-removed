@@ -1139,7 +1139,7 @@ EmptyString
 url
 -
 >
-Stringify
+GetHref
 (
 aRequestURL
 )
@@ -2051,7 +2051,7 @@ nullptr
 url
 -
 >
-Stringify
+GetHref
 (
 referrerURL
 )
