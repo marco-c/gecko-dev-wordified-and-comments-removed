@@ -60,6 +60,17 @@ nsISerialEventTarget
 aEventTarget
 )
 ;
+nsresult
+AddClientChannelHelperInParent
+(
+nsIChannel
+*
+aChannel
+nsISerialEventTarget
+*
+aEventTarget
+)
+;
 }
 }
 #
