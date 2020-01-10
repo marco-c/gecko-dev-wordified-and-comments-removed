@@ -295,6 +295,17 @@ mediapacket
 h
 "
 ;
+include
+"
+mozilla
+/
+net
+/
+NrIceStunAddrMessageUtils
+.
+h
+"
+;
 using
 net
 :
