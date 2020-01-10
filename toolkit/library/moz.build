@@ -216,6 +216,11 @@ comdlg32
 dll
 '
 '
+credui
+.
+dll
+'
+'
 hid
 .
 dll
