@@ -1136,6 +1136,16 @@ nsRect
 r
 )
 ;
+nsSize
+GetSizeForViewportUnits
+(
+)
+const
+{
+return
+mSizeForViewportUnits
+;
+}
 MOZ_CAN_RUN_SCRIPT
 void
 SetDynamicToolbarMaxHeight
