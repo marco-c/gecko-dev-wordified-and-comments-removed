@@ -3109,9 +3109,6 @@ Console
 >
 mConsole
 ;
-ConsoleStructuredCloneData
-mClonedData
-;
 }
 ;
 class
