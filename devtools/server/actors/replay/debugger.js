@@ -1775,14 +1775,6 @@ NONE
 ;
 this
 .
-_control
-.
-repaint
-(
-)
-;
-this
-.
 _cancelPerformPause
 =
 true
@@ -2048,7 +2040,7 @@ this
 .
 _control
 .
-getPauseData
+getPauseDataAndRepaint
 (
 )
 ;
