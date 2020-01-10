@@ -286,3 +286,17 @@ clip
 ref
 .
 yaml
+=
+=
+texture
+-
+rect
+.
+yaml
+texture
+-
+rect
+-
+ref
+.
+yaml
