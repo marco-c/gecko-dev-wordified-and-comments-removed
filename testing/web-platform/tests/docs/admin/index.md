@@ -48,6 +48,14 @@ index
 rst
 .
 .
+/
+tools
+/
+wptrunner
+/
+README
+.
+.
 toctree
 :
 :

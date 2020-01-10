@@ -150,6 +150,9 @@ wptserve
 tools
 /
 certs
+tools
+/
+wptrunner
 (
 SPHINXBUILD
 )
