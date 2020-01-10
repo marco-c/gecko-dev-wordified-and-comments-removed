@@ -2339,10 +2339,9 @@ i
 1
 ]
 =
-StringToNewUTF8CharsZ
+QuoteString
 (
 cx
-*
 str
 )
 ;

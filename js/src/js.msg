@@ -1804,17 +1804,13 @@ operator
 to
 search
 for
-'
 {
 0
 }
-'
 in
-'
 {
 1
 }
-'
 "
 )
 MSG_DEF

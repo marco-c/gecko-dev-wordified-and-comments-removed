@@ -2827,7 +2827,11 @@ ThrowRangeError
 (
 JSMSG_INVALID_OPTION_VALUE
 property
+"
+{
 value
+}
+"
 )
 ;
 return
