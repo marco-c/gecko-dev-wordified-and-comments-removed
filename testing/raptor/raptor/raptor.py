@@ -6471,21 +6471,6 @@ push
 yml_on_host
 yml_on_device
 )
-            
-self
-.
-device
-.
-chmod
-(
-yml_on_device
-recursive
-=
-True
-root
-=
-True
-)
         
 except
 Exception
