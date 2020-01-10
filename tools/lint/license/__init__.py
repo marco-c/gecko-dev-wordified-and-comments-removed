@@ -537,6 +537,20 @@ not
 "
 "
     
+if
+"
+lint
+/
+test
+/
+"
+in
+f
+:
+        
+return
+False
+    
 return
 (
 "
