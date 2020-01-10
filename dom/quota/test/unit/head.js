@@ -803,7 +803,7 @@ request
 ;
 }
 function
-listInitializedOrigins
+listOrigins
 (
 callback
 )
@@ -817,7 +817,7 @@ _getQuotaManager
 (
 )
 .
-listInitializedOrigins
+listOrigins
 (
 callback
 )
