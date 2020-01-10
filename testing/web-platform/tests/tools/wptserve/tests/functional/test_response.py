@@ -1453,14 +1453,6 @@ pytest
 raises
 (
 ValueError
-message
-=
-"
-data
-cannot
-be
-None
-"
 )
 :
                 
