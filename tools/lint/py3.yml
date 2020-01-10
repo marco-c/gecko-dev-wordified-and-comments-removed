@@ -29,8 +29,6 @@ client
 .
 py
 -
-config
--
 dom
 /
 bindings
