@@ -3803,9 +3803,6 @@ formatStringFromName
 (
 key
 array
-array
-.
-length
 )
 ;
 }
@@ -21127,7 +21124,6 @@ placeholder
 [
 name
 ]
-1
 )
 ;
 }
@@ -39006,7 +39002,6 @@ blockedInfo
 .
 provider
 ]
-1
 )
 )
 ;
@@ -42655,7 +42650,6 @@ allowTabFocusByPromptForSite
 [
 hostForAllowFocusCheckbox
 ]
-1
 )
 ;
 allowFocusCheckbox
