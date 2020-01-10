@@ -1660,10 +1660,6 @@ CertDb
 getCerts
 (
 )
-.
-getEnumerator
-(
-)
 )
 {
 if

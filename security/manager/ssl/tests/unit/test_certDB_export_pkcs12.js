@@ -80,10 +80,6 @@ gCertDB
 getCerts
 (
 )
-.
-getEnumerator
-(
-)
 )
 {
 if

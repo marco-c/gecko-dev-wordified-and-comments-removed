@@ -538,10 +538,6 @@ certDB
 getCerts
 (
 )
-.
-getEnumerator
-(
-)
 )
 {
 if

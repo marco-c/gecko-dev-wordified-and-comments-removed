@@ -87,10 +87,6 @@ certDB
 getCerts
 (
 )
-.
-getEnumerator
-(
-)
 )
 {
 if

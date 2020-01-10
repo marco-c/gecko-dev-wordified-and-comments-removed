@@ -108,9 +108,6 @@ idl
 interface
 nsIX509Cert
 ;
-interface
-nsIX509CertList
-;
 [
 scriptable
 uuid
@@ -188,7 +185,10 @@ void
 loadCertsFromCache
 (
 in
-nsIX509CertList
+Array
+<
+nsIX509Cert
+>
 cache
 in
 unsigned

@@ -2131,7 +2131,10 @@ database
 [
 must_use
 ]
-nsIX509CertList
+Array
+<
+nsIX509Cert
+>
 getCerts
 (
 )
