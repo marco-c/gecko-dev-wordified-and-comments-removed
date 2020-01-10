@@ -239,15 +239,6 @@ image
 ref
 .
 html
-fails
--
-if
-(
-geckoview
-&
-&
-webrender
-)
 =
 =
 470250
