@@ -989,6 +989,11 @@ return
 this
 .
 traits
+&
+&
+this
+.
+traits
 .
 canRewind
 ;

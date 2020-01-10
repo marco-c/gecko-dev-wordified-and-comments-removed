@@ -64,6 +64,7 @@ async
 function
 (
 tab
+client
 )
 {
 let
@@ -93,6 +94,7 @@ this
 createTargetForTab
 (
 tab
+client
 )
 ;
 targets
@@ -146,6 +148,7 @@ async
 createTargetForTab
 (
 tab
+client
 )
 {
 function
@@ -177,6 +180,10 @@ createLocalClient
 (
 )
 {
+createLocalServer
+(
+)
+;
 return
 new
 DebuggerClient
@@ -189,11 +196,12 @@ connectPipe
 )
 ;
 }
-createLocalServer
+if
 (
+!
+client
 )
-;
-const
+{
 client
 =
 createLocalClient
@@ -207,6 +215,7 @@ connect
 (
 )
 ;
+}
 return
 client
 .

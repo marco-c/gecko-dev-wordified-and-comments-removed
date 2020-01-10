@@ -1446,6 +1446,13 @@ clearNetworkRequests
 (
 )
 {
+if
+(
+this
+.
+_networkRequests
+)
+{
 this
 .
 _networkRequests
@@ -1454,6 +1461,7 @@ clear
 (
 )
 ;
+}
 }
 getString
 (
