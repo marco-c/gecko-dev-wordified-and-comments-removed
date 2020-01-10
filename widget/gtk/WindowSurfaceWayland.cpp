@@ -2197,16 +2197,6 @@ if
 mUseDMABufInitialized
 )
 {
-if
-(
-WaylandDMABufSurface
-:
-:
-IsAvailable
-(
-)
-)
-{
 mUseDMABuf
 =
 nsWaylandDisplay
@@ -2234,7 +2224,6 @@ mUseDMABuf
 )
 )
 ;
-}
 mUseDMABufInitialized
 =
 true

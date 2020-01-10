@@ -368,11 +368,6 @@ bool
 IsDMABufEnabled
 (
 )
-{
-return
-mIsDMABufEnabled
-;
-}
 ;
 private
 :
@@ -449,8 +444,12 @@ bool
 mIsDMABufEnabled
 ;
 static
+int
+mIsDMABufPrefState
+;
+static
 bool
-mIsDMABufPrefLoaded
+mIsDMABufConfigured
 ;
 }
 ;
