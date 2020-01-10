@@ -357,11 +357,6 @@ on
 -
 header
 "
-hidden
-=
-"
-true
-"
 >
 &
 protections
@@ -390,11 +385,6 @@ switch
 off
 -
 header
-"
-hidden
-=
-"
-true
 "
 >
 &
@@ -441,11 +431,6 @@ showSiteNotWorkingView
 (
 )
 ;
-"
-hidden
-=
-"
-true
 "
 >
 &
