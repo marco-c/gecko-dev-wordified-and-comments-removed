@@ -346,6 +346,14 @@ int
 &
 aPort
 const
+nsCString
+&
+aLocalAddress
+const
+int
+&
+aLocalPort
+const
 net
 :
 :
@@ -485,6 +493,8 @@ SendAsyncOpen
 (
 aHost
 aPort
+aLocalAddress
+aLocalPort
 aArgs
 aAlpn
 aProxyPolicy

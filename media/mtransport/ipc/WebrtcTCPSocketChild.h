@@ -125,6 +125,14 @@ int
 &
 aPort
 const
+nsCString
+&
+aLocalAddress
+const
+int
+&
+aLocalPort
+const
 net
 :
 :

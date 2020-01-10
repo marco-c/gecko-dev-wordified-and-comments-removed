@@ -189,6 +189,14 @@ int
 &
 aPort
 const
+nsCString
+&
+aLocalAddress
+const
+int
+&
+aLocalPort
+const
 shared_ptr
 <
 NrSocketProxyConfig
@@ -219,6 +227,10 @@ nsCString
 const
 int
 const
+nsCString
+const
+int
+const
 shared_ptr
 <
 NrSocketProxyConfig
@@ -239,6 +251,8 @@ WebrtcTCPSocketWrapper
 AsyncOpen
 aHost
 aPort
+aLocalAddress
+aLocalPort
 aConfig
 )
 )
@@ -273,6 +287,8 @@ AsyncOpen
 (
 aHost
 aPort
+aLocalAddress
+aLocalPort
 aConfig
 -
 >

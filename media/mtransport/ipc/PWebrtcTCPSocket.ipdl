@@ -170,6 +170,10 @@ nsCString
 aHost
 int32_t
 aPort
+nsCString
+aLocalAddress
+int32_t
+aLocalPort
 LoadInfoArgs
 aLoadInfoArgs
 nsCString
