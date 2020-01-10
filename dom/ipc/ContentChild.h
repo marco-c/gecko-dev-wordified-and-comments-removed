@@ -3424,9 +3424,9 @@ nsIURI
 *
 aURI
 const
-uint32_t
+ReplacementChannelConfigInit
 &
-aNewLoadFlags
+aConfig
 const
 Maybe
 <

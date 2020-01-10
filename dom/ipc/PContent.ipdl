@@ -4365,8 +4365,8 @@ uint32_t
 aRegistrarId
 nsIURI
 aURI
-uint32_t
-aNewLoadFlags
+ReplacementChannelConfigInit
+config
 LoadInfoArgs
 ?
 aLoadInfo
