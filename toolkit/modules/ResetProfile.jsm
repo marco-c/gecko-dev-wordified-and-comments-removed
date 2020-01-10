@@ -244,6 +244,12 @@ false
 ;
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 openDialog
 (
 "
@@ -261,13 +267,9 @@ xul
 "
 null
 "
-chrome
 modal
 centerscreen
 titlebar
-dialog
-=
-yes
 "
 params
 )
