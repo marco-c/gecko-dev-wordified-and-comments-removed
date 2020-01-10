@@ -219,12 +219,7 @@ _mochitest_
 category
 in
 the
-bc
-(
-_browser
--
-chrome_
-)
+remote
 jobs
 on
 Treeherder
