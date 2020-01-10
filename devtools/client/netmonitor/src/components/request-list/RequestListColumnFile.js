@@ -56,6 +56,9 @@ require
 .
 .
 /
+.
+.
+/
 utils
 /
 l10n
@@ -92,6 +95,9 @@ propertiesEqual
 require
 (
 "
+.
+.
+/
 .
 .
 /

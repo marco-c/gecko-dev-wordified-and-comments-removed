@@ -122,6 +122,9 @@ require
 .
 .
 /
+.
+.
+/
 actions
 /
 index
@@ -142,6 +145,9 @@ require
 .
 .
 /
+.
+.
+/
 constants
 "
 )
@@ -155,6 +161,9 @@ getWaterfallScale
 require
 (
 "
+.
+.
+/
 .
 .
 /
@@ -172,6 +181,9 @@ getFormattedTime
 require
 (
 "
+.
+.
+/
 .
 .
 /
@@ -194,6 +206,9 @@ require
 .
 .
 /
+.
+.
+/
 utils
 /
 l10n
@@ -209,6 +224,9 @@ require
 .
 .
 /
+.
+.
+/
 widgets
 /
 RequestListHeaderContextMenu
@@ -221,6 +239,9 @@ WaterfallBackground
 require
 (
 "
+.
+.
+/
 .
 .
 /

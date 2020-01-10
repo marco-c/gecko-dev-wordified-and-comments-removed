@@ -83,6 +83,7 @@ require
 (
 "
 .
+.
 /
 StatusBar
 "

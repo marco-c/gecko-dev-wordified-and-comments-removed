@@ -123,6 +123,9 @@ require
 .
 .
 /
+.
+.
+/
 actions
 /
 index
@@ -137,6 +140,9 @@ formDataURI
 require
 (
 "
+.
+.
+/
 .
 .
 /
@@ -159,6 +165,9 @@ getWaterfallScale
 require
 (
 "
+.
+.
+/
 .
 .
 /
@@ -306,6 +315,9 @@ RequestListContextMenu
 require
 (
 "
+.
+.
+/
 .
 .
 /
