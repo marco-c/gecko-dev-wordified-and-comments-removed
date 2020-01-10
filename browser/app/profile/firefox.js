@@ -11640,9 +11640,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 pref
 (
 "
@@ -11655,6 +11652,9 @@ cookieBehavior
 4
 )
 ;
+#
+ifdef
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
