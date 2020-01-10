@@ -7041,6 +7041,14 @@ failureId
 ;
 if
 (
+StaticPrefs
+:
+:
+layers_d3d11_enable_blacklist_AtStartup
+(
+)
+&
+&
 !
 gfxPlatform
 :
