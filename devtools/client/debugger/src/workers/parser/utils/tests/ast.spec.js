@@ -104,10 +104,7 @@ name
 >
 {
 const
-{
 source
-content
-}
 =
 makeMockSourceAndContent
 (
@@ -131,6 +128,8 @@ source
 id
 text
 :
+source
+.
 content
 .
 value
@@ -140,6 +139,8 @@ value
 "
 contentType
 :
+source
+.
 content
 .
 contentType

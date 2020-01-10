@@ -967,10 +967,7 @@ state
 >
 {
 const
-{
 source
-content
-}
 =
 dbg
 .
@@ -984,6 +981,12 @@ state
 if
 (
 !
+source
+|
+|
+!
+source
+.
 content
 )
 {

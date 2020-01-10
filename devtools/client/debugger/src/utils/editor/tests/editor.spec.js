@@ -69,8 +69,11 @@ source
 {
 const
 {
-source
 content
+.
+.
+.
+source
 }
 =
 makeMockSourceAndContent

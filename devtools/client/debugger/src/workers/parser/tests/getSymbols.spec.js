@@ -54,9 +54,7 @@ type
 >
 {
 const
-{
 source
-}
 =
 original
 ?
