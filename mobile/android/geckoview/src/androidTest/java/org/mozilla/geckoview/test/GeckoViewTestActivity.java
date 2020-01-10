@@ -26,6 +26,13 @@ Activity
 import
 android
 .
+content
+.
+ContextWrapper
+;
+import
+android
+.
 os
 .
 Bundle
@@ -61,7 +68,11 @@ view
 new
 GeckoView
 (
+new
+ContextWrapper
+(
 this
+)
 )
 ;
 setContentView
