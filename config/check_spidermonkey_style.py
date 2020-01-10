@@ -389,14 +389,6 @@ h
 '
 unicode
 /
-uformattedvalue
-.
-h
-'
-    
-'
-unicode
-/
 uloc
 .
 h
