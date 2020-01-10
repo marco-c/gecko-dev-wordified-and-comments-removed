@@ -1102,9 +1102,7 @@ totalDuration
 frame
 -
 >
-GetDuration
-(
-)
+mDuration
 ;
 }
 const
