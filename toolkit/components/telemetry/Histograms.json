@@ -82715,6 +82715,9 @@ geckoview
 "
 thunderbird
 "
+"
+geckoview_streaming
+"
 ]
 "
 alert_emails

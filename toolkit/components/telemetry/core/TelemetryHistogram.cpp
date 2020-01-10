@@ -2694,6 +2694,13 @@ NS_OK
 }
 if
 (
+&
+histogram
+!
+=
+gExpiredHistogram
+&
+&
 GetCurrentProduct
 (
 )
