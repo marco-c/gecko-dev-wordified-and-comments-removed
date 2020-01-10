@@ -36596,9 +36596,6 @@ values
 :
 [
 "
-auto
-"
-"
 inherit
 "
 "
