@@ -143,6 +143,12 @@ null
 ;
 this
 .
+targetFront
+=
+null
+;
+this
+.
 _requests
 =
 [
@@ -268,6 +274,12 @@ clearEvents
 this
 .
 actorID
+=
+null
+;
+this
+.
+targetFront
 =
 null
 ;
