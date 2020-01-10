@@ -454,10 +454,6 @@ margin
 :
 0
 ;
-height
-:
-38px
-;
 font
 -
 size
@@ -3788,6 +3784,12 @@ blue
 -
 60
 )
+;
+border
+:
+1px
+solid
+transparent
 ;
 border
 -
