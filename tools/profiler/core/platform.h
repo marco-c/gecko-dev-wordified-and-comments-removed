@@ -304,6 +304,17 @@ nsCString
 aExitProfile
 )
 ;
+void
+profiler_write_active_configuration
+(
+mozilla
+:
+:
+JSONWriter
+&
+aWriter
+)
+;
 mozilla
 :
 :
