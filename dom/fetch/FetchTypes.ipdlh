@@ -229,9 +229,6 @@ integrity
 nsCString
 fragment
 ;
-bool
-createdByFetchEvent
-;
 PrincipalInfo
 ?
 principalInfo

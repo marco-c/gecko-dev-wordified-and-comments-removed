@@ -6329,13 +6329,6 @@ mUploadStream
 mUploadStreamContentLength
 )
 ;
-internalReq
--
->
-SetCreatedByFetchEvent
-(
-)
-;
 nsCOMPtr
 <
 nsIChannel
