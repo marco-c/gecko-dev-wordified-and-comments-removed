@@ -1325,6 +1325,22 @@ parent_intercept
 true
 "
 '
+                                  
+'
+-
+-
+setpref
+=
+"
+browser
+.
+tabs
+.
+documentchannel
+=
+true
+"
+'
 ]
             
 }
