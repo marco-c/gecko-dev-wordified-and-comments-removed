@@ -673,6 +673,7 @@ LIBDIR
 /
 *
 nssckbi
+.
 *
 |
 head
