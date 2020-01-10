@@ -6262,13 +6262,14 @@ nsPlainTextSerializer
 :
 EnsureVerticalSpace
 (
+const
 int32_t
-noOfRows
+aNumberOfRows
 )
 {
 if
 (
-noOfRows
+aNumberOfRows
 >
 =
 0
@@ -6300,7 +6301,7 @@ while
 (
 mEmptyLines
 <
-noOfRows
+aNumberOfRows
 )
 {
 EndLine
