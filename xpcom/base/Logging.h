@@ -87,6 +87,13 @@ MOZ_LOG_FILE_EXTENSION
 .
 moz_log
 "
+#
+define
+MOZ_LOG_PID_TOKEN
+"
+%
+PID
+"
 namespace
 mozilla
 {

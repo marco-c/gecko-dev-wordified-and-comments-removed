@@ -324,10 +324,7 @@ prefValue
 get
 (
 )
-"
-%
-PID
-"
+MOZ_LOG_PID_TOKEN
 )
 )
 {
@@ -335,10 +332,7 @@ prefValue
 .
 AppendLiteral
 (
-"
-%
-PID
-"
+MOZ_LOG_PID_TOKEN
 )
 ;
 }
