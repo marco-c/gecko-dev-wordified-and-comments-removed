@@ -126,7 +126,6 @@ function
 const
 {
 inspector
-toolbox
 }
 =
 await
@@ -522,7 +521,7 @@ tab
 const
 onHighlighterHidden
 =
-toolbox
+inspector
 .
 highlighter
 .

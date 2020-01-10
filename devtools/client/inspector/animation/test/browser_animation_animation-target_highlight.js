@@ -42,7 +42,6 @@ const
 animationInspector
 inspector
 panel
-toolbox
 }
 =
 await
@@ -68,7 +67,7 @@ node
 const
 onHighlight
 =
-toolbox
+inspector
 .
 highlighter
 .
@@ -124,7 +123,7 @@ node
 const
 onUnhighlight
 =
-toolbox
+inspector
 .
 highlighter
 .
@@ -364,7 +363,7 @@ highlightEventCount
 ;
 }
 ;
-toolbox
+inspector
 .
 highlighter
 .
@@ -404,7 +403,7 @@ occur
 "
 )
 ;
-toolbox
+inspector
 .
 highlighter
 .

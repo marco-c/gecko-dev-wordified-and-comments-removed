@@ -147,7 +147,6 @@ function
 {
 const
 {
-toolbox
 inspector
 }
 =
@@ -228,7 +227,7 @@ checked
 const
 onHighlight
 =
-toolbox
+inspector
 .
 highlighter
 .

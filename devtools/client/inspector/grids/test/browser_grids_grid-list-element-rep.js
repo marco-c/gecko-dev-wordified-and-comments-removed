@@ -101,7 +101,6 @@ const
 {
 inspector
 gridInspector
-toolbox
 }
 =
 await
@@ -203,7 +202,7 @@ widget
 const
 onHighlight
 =
-toolbox
+inspector
 .
 highlighter
 .

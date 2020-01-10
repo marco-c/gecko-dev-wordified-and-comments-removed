@@ -3067,7 +3067,7 @@ testSpec
 constructor
 (
 client
-toolbox
+highlighter
 )
 {
 super
@@ -3077,9 +3077,9 @@ client
 ;
 this
 .
-toolbox
+highlighter
 =
-toolbox
+highlighter
 ;
 }
 zoomPageTo
@@ -3088,8 +3088,6 @@ level
 actorID
 =
 this
-.
-toolbox
 .
 highlighter
 .
@@ -3126,8 +3124,6 @@ highlighter
 |
 this
 .
-toolbox
-.
 highlighter
 )
 .
@@ -3155,8 +3151,6 @@ highlighter
 |
 this
 .
-toolbox
-.
 highlighter
 )
 .
@@ -3181,8 +3175,6 @@ highlighter
 |
 |
 this
-.
-toolbox
 .
 highlighter
 )
@@ -3399,7 +3391,6 @@ correct
 async
 getSimpleBorderRect
 (
-toolbox
 )
 {
 const
@@ -3412,7 +3403,6 @@ this
 .
 _getBoxModelStatus
 (
-toolbox
 )
 ;
 const
@@ -4328,8 +4318,6 @@ waitForHighlighterEvent
 (
 event
 this
-.
-toolbox
 .
 highlighter
 .

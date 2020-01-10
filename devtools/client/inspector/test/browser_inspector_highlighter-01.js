@@ -124,7 +124,7 @@ inspector
 const
 onHighlight
 =
-toolbox
+inspector
 .
 highlighter
 .

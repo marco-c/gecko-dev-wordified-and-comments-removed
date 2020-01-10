@@ -31,7 +31,6 @@ const
 {
 inspector
 flexboxInspector
-toolbox
 }
 =
 await
@@ -119,7 +118,7 @@ rep
 const
 onHighlight
 =
-toolbox
+inspector
 .
 highlighter
 .

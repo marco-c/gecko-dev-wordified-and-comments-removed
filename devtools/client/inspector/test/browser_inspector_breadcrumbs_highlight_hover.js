@@ -26,7 +26,6 @@ inspector
 ;
 const
 {
-toolbox
 inspector
 testActor
 }
@@ -96,7 +95,7 @@ container
 let
 onNodeHighlighted
 =
-toolbox
+inspector
 .
 highlighter
 .
@@ -191,7 +190,7 @@ node
 const
 onNodeUnhighlighted
 =
-toolbox
+inspector
 .
 highlighter
 .
@@ -232,7 +231,7 @@ onNodeUnhighlighted
 ;
 onNodeHighlighted
 =
-toolbox
+inspector
 .
 highlighter
 .

@@ -118,7 +118,6 @@ TEST_URL
 ;
 const
 {
-toolbox
 inspector
 boxmodel
 }
@@ -137,7 +136,7 @@ div
 inspector
 )
 ;
-toolbox
+inspector
 .
 highlighter
 .
