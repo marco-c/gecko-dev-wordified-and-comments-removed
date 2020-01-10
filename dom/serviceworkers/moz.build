@@ -200,6 +200,11 @@ ServiceWorkerManagerParent
 h
 '
 '
+ServiceWorkerOp
+.
+h
+'
+'
 ServiceWorkerOpPromise
 .
 h
@@ -366,6 +371,11 @@ cpp
 '
 '
 ServiceWorkerManagerService
+.
+cpp
+'
+'
+ServiceWorkerOp
 .
 cpp
 '
