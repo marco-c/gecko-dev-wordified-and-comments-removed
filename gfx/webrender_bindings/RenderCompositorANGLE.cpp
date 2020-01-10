@@ -1454,7 +1454,7 @@ UseWebRenderTripleBufferingWin
 bool
 useAlpha
 =
-true
+false
 ;
 RefPtr
 <
