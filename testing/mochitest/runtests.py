@@ -15999,8 +15999,14 @@ marionette_exception
             
 raise
 exc
+(
 value
+)
+.
+with_traceback
+(
 tb
+)
         
 return
 status

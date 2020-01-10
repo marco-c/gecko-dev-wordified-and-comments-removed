@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 json
 import
@@ -4529,6 +4533,7 @@ else
 :
             
 print
+(
 "
 INFO
 |
@@ -4542,6 +4547,7 @@ summary
 start
 .
 "
+)
             
 logResult
 =
@@ -4552,6 +4558,7 @@ logTestSummary
 )
             
 print
+(
 "
 INFO
 |
@@ -4565,6 +4572,7 @@ summary
 end
 .
 "
+)
             
 if
 worstTestResult

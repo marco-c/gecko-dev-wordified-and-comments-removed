@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 argparse
 import
@@ -2300,26 +2304,33 @@ remote_dir
 :
                 
 print
+(
 "
 Automation
 Error
 :
+"
++
+                      
+"
 No
 crash
 directory
 (
-%
-s
+{
+}
 )
 found
 on
 remote
 device
 "
-%
-\
-                    
+.
+format
+(
 remote_dir
+)
+)
                 
 return
 True
