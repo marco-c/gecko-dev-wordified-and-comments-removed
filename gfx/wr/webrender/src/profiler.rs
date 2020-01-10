@@ -1975,19 +1975,19 @@ struct
 TextureCacheProfileCounters
 {
 pub
-pages_a8_linear
+pages_alpha8_linear
 :
 ResourceProfileCounter
 pub
-pages_a16_linear
+pages_alpha16_linear
 :
 ResourceProfileCounter
 pub
-pages_rgba8_linear
+pages_color8_linear
 :
 ResourceProfileCounter
 pub
-pages_rgba8_nearest
+pages_color8_nearest
 :
 ResourceProfileCounter
 pub
@@ -2009,7 +2009,7 @@ Self
 {
 TextureCacheProfileCounters
 {
-pages_a8_linear
+pages_alpha8_linear
 :
 ResourceProfileCounter
 :
@@ -2023,7 +2023,7 @@ cached
 pages
 "
 )
-pages_a16_linear
+pages_alpha16_linear
 :
 ResourceProfileCounter
 :
@@ -2037,7 +2037,7 @@ cached
 pages
 "
 )
-pages_rgba8_linear
+pages_color8_linear
 :
 ResourceProfileCounter
 :
@@ -2054,7 +2054,7 @@ L
 )
 "
 )
-pages_rgba8_nearest
+pages_color8_nearest
 :
 ResourceProfileCounter
 :
@@ -6419,7 +6419,7 @@ resources
 .
 texture_cache
 .
-pages_a8_linear
+pages_alpha8_linear
 &
 backend_profile
 .
@@ -6427,7 +6427,7 @@ resources
 .
 texture_cache
 .
-pages_rgba8_linear
+pages_color8_linear
 &
 backend_profile
 .
@@ -6435,7 +6435,7 @@ resources
 .
 texture_cache
 .
-pages_rgba8_nearest
+pages_color8_nearest
 &
 backend_profile
 .
