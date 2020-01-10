@@ -228,6 +228,13 @@ h
 #
 include
 "
+nsTouchBarNativeAPIDefines
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h
