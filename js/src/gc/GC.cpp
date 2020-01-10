@@ -22482,6 +22482,12 @@ baseShape
 >
 maybePurgeCache
 (
+rt
+-
+>
+defaultFreeOp
+(
+)
 )
 ;
 }
