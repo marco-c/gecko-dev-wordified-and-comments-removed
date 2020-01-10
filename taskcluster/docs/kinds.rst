@@ -3256,10 +3256,6 @@ releases
 .
 release
 -
-sign
--
-and
--
 push
 -
 langpacks
@@ -3294,13 +3290,9 @@ langpacks
 -
 -
 -
-Sign
-a
-langpack
-XPI
-and
-publishes
-it
+Publishes
+language
+packs
 onto
 addons
 .

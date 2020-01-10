@@ -488,10 +488,6 @@ msi
 repackage
 release
 -
-sign
--
-and
--
 push
 -
 langpacks
@@ -1851,10 +1847,6 @@ from
 :
 -
 release
--
-sign
--
-and
 -
 push
 -
