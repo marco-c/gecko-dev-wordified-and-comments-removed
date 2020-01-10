@@ -8912,7 +8912,10 @@ aReferenceFrame
 PresContext
 (
 )
-eLayoutPhase_DisplayListBuilding
+nsLayoutPhase
+:
+:
+DisplayListBuilding
 )
 ;
 #
