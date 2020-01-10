@@ -962,6 +962,9 @@ attribute
 any
 primaryKey
 ;
+[
+SameObject
+]
 readonly
 attribute
 IDBRequest
