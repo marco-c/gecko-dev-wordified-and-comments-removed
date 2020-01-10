@@ -21029,7 +21029,9 @@ System
 if
 (
 !
-mHadOriginalOpener
+HadOriginalOpener
+(
+)
 )
 {
 return
@@ -27984,7 +27986,9 @@ neterror
 &
 &
 !
-mHadOriginalOpener
+HadOriginalOpener
+(
+)
 &
 &
 !
