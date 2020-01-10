@@ -1406,6 +1406,8 @@ plugin
 tests
 /
 target
+-
+objects
 build
 /
 clang
@@ -1415,6 +1417,8 @@ plugin
 tests
 /
 target
+-
+objects
 :
 build
 /
