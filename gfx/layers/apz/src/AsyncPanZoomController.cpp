@@ -20336,15 +20336,7 @@ aLayerMetrics
 ;
 if
 (
-!
-mAnimation
-|
-|
-!
-mAnimation
--
->
-HandleScrollOffsetUpdate
+ShouldCancelAnimationForScrollUpdate
 (
 Nothing
 (
