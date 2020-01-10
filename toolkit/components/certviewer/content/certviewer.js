@@ -331,6 +331,7 @@ false
 ;
 }
 ;
+export
 const
 adjustCertInformation
 =
@@ -1648,6 +1649,8 @@ method
 }
 )
 ;
+}
+return
 items
 .
 filter
@@ -1660,10 +1663,6 @@ elem
 =
 null
 )
-;
-}
-return
-items
 ;
 }
 certItems
@@ -1840,6 +1839,8 @@ value
 }
 )
 ;
+}
+return
 items
 .
 filter
@@ -1852,10 +1853,6 @@ elem
 =
 null
 )
-;
-}
-return
-items
 ;
 }
 certItems
@@ -1952,6 +1949,8 @@ key
 }
 )
 ;
+}
+return
 items
 .
 filter
@@ -1964,10 +1963,6 @@ elem
 =
 null
 )
-;
-}
-return
-items
 ;
 }
 certItems
