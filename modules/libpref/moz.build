@@ -581,6 +581,16 @@ components
 conf
 '
 ]
+SPHINX_TREES
+[
+'
+libpref
+'
+]
+=
+'
+docs
+'
 include
 (
 '
