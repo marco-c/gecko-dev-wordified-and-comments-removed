@@ -11315,9 +11315,7 @@ profile
 -
 use
 '
-'
-LLVM_PROFDATA
-'
+llvm_profdata
 )
 imports
 (
