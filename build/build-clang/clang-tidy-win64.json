@@ -78,14 +78,5 @@ patches
 "
 :
 [
-"
-clang
--
-tidy
--
-8
-.
-patch
-"
 ]
 }

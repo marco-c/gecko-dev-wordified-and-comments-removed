@@ -318,13 +318,13 @@ linux64
 -
 clang
 -
-8
+9
 :
 description
 :
 "
 Clang
-8
+9
 toolchain
 build
 "
@@ -334,7 +334,7 @@ symbol
 :
 TL
 (
-clang8
+clang9
 )
 run
 :
@@ -362,8 +362,6 @@ clang
 /
 clang
 -
-8
--
 linux64
 .
 json
@@ -379,8 +377,6 @@ build
 clang
 /
 clang
--
-8
 -
 linux64
 .
@@ -413,9 +409,13 @@ fetch
 -
 clang
 -
-8
+9
 toolchain
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -
@@ -697,7 +697,7 @@ linux64
 -
 clang
 -
-8
+9
 -
 android
 -
@@ -707,7 +707,7 @@ description
 :
 "
 Clang
-8
+9
 toolchain
 build
 "
@@ -717,7 +717,7 @@ symbol
 :
 TL
 (
-clang8
+clang9
 -
 android
 )
@@ -747,8 +747,6 @@ clang
 /
 clang
 -
-8
--
 android
 .
 json
@@ -764,8 +762,6 @@ build
 clang
 /
 clang
--
-8
 -
 android
 .
@@ -802,9 +798,13 @@ fetch
 -
 clang
 -
-8
+9
 toolchain
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -
@@ -825,7 +825,7 @@ linux64
 -
 clang
 -
-8
+9
 -
 aarch64
 -
@@ -835,7 +835,7 @@ description
 :
 "
 Clang
-8
+9
 toolchain
 build
 with
@@ -848,7 +848,7 @@ symbol
 :
 TL
 (
-clang8
+clang9
 -
 aarch64
 )
@@ -909,8 +909,6 @@ clang
 /
 clang
 -
-8
--
 linux64
 -
 aarch64
@@ -930,8 +928,6 @@ build
 clang
 /
 clang
--
-8
 -
 linux64
 -
@@ -972,7 +968,7 @@ fetch
 -
 clang
 -
-8
+9
 toolchain
 :
 -
@@ -989,7 +985,7 @@ linux64
 -
 clang
 -
-8
+9
 -
 macosx
 -
@@ -999,7 +995,7 @@ description
 :
 "
 Clang
-8
+9
 toolchain
 build
 with
@@ -1014,7 +1010,7 @@ symbol
 :
 TL
 (
-clang8
+clang9
 -
 macosx
 -
@@ -1065,8 +1061,6 @@ build
 -
 clang
 -
-8
--
 linux
 -
 macosx
@@ -1086,8 +1080,6 @@ clang
 /
 clang
 -
-8
--
 macosx64
 .
 json
@@ -1103,8 +1095,6 @@ build
 clang
 /
 clang
--
-8
 -
 macosx64
 .
@@ -1160,9 +1150,13 @@ fetch
 -
 clang
 -
-8
+9
 toolchain
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -
@@ -1174,7 +1168,7 @@ linux64
 -
 clang
 -
-8
+9
 -
 linux64
 -
@@ -1275,8 +1269,6 @@ clang
 /
 clang
 -
-8
--
 macosx64
 .
 json
@@ -1292,8 +1284,6 @@ build
 clang
 /
 clang
--
-8
 -
 macosx64
 .
@@ -1333,9 +1323,13 @@ fetch
 -
 clang
 -
-8
+9
 toolchain
 :
+-
+linux64
+-
+binutils
 -
 linux64
 -
@@ -1347,7 +1341,7 @@ linux64
 -
 clang
 -
-8
+9
 -
 linux64
 -
@@ -1486,7 +1480,7 @@ fetch
 -
 clang
 -
-8
+9
 -
 cmake
 -
