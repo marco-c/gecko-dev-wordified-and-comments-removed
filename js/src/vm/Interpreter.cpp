@@ -23938,7 +23938,7 @@ MOZ_ASSERT
 (
 superEnvFunc
 .
-nonLazyScript
+baseScript
 (
 )
 -
