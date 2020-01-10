@@ -4496,6 +4496,11 @@ sandbox
 :
 :
 MITIGATION_DLL_SEARCH_ORDER
+|
+sandbox
+:
+:
+MITIGATION_FORCE_MS_SIGNED_BINS
 ;
 result
 =
