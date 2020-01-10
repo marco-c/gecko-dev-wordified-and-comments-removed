@@ -7544,13 +7544,6 @@ InitNatives
 (
 )
 {
-jni
-:
-:
-InitConversionStatics
-(
-)
-;
 nsWindow
 :
 :
