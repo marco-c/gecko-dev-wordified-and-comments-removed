@@ -4512,13 +4512,11 @@ BreakpointSite
 {
 friend
 class
-Breakpoint
+DebugAPI
 ;
 friend
 class
-:
-:
-JSScript
+Breakpoint
 ;
 friend
 class
