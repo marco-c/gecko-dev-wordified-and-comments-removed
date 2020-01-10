@@ -2060,6 +2060,7 @@ kind_
 ;
 protected
 :
+explicit
 AstExpr
 (
 AstExprKind

@@ -32705,6 +32705,10 @@ return
 true
 ;
 }
+MOZ_CRASH
+(
+)
+;
 }
 static
 bool
@@ -37582,6 +37586,10 @@ index
 )
 ;
 }
+MOZ_CRASH
+(
+)
+;
 }
 static
 bool
