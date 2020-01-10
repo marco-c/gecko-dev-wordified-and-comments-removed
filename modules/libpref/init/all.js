@@ -950,6 +950,19 @@ xx
 fbcdn
 .
 net
+*
+.
+cloudflare
+.
+com
+*
+.
+cloudflarestream
+.
+com
+unpkg
+.
+com
 "
 )
 ;
@@ -19526,7 +19539,6 @@ cache
 -
 entry
 config
-crashes
 debugging
 devtools
 downloads
