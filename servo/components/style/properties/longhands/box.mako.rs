@@ -2752,6 +2752,7 @@ flags
 "
 CREATES_STACKING_CONTEXT
 FIXPOS_CB
+CAN_ANIMATE_ON_COMPOSITOR
 "
 spec
 =
@@ -2838,6 +2839,11 @@ path
 .
 enabled
 "
+flags
+=
+"
+CAN_ANIMATE_ON_COMPOSITOR
+"
 spec
 =
 "
@@ -2923,6 +2929,11 @@ path
 .
 enabled
 "
+flags
+=
+"
+CAN_ANIMATE_ON_COMPOSITOR
+"
 spec
 =
 "
@@ -3007,6 +3018,11 @@ motion
 path
 .
 enabled
+"
+flags
+=
+"
+CAN_ANIMATE_ON_COMPOSITOR
 "
 spec
 =

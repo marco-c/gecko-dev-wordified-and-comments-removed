@@ -308,7 +308,7 @@ CompositorAnimatableDisplayItemCount
 return
 COMPOSITOR_ANIMATABLE_PROPERTY_LIST_LENGTH
 -
-3
+7
 ;
 }
 static
@@ -325,6 +325,10 @@ eCSSProperty_transform
 eCSSProperty_translate
 eCSSProperty_rotate
 eCSSProperty_scale
+eCSSProperty_offset_path
+eCSSProperty_offset_distance
+eCSSProperty_offset_rotate
+eCSSProperty_offset_anchor
 }
 ;
 }
