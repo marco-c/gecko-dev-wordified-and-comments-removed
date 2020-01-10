@@ -71,6 +71,15 @@ use
 crate
 :
 :
+composite
+:
+:
+CompositeConfig
+;
+use
+crate
+:
+:
 device
 :
 :
@@ -554,6 +563,11 @@ _z_generator
 &
 mut
 ZBufferIdGenerator
+_composite_config
+:
+&
+mut
+CompositeConfig
 )
 {
 }
@@ -816,6 +830,11 @@ z_generator
 &
 mut
 ZBufferIdGenerator
+composite_config
+:
+&
+mut
+CompositeConfig
 )
 {
 debug_assert_eq
@@ -853,6 +872,7 @@ deferred_resolves
 prim_headers
 transforms
 z_generator
+composite_config
 )
 ;
 }
@@ -1516,6 +1536,11 @@ z_generator
 &
 mut
 ZBufferIdGenerator
+composite_config
+:
+&
+mut
+CompositeConfig
 )
 {
 let
@@ -1767,6 +1792,7 @@ pic_task
 .
 surface_spatial_node_index
 z_generator
+composite_config
 )
 ;
 let

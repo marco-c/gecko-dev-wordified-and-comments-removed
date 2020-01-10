@@ -1588,6 +1588,7 @@ RenderTaskCache
 SavedTargetIndex
 Swizzle
 )
+Dummy
 }
 pub
 const

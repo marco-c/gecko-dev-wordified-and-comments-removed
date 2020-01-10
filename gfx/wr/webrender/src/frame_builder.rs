@@ -69,6 +69,15 @@ use
 crate
 :
 :
+composite
+:
+:
+CompositeConfig
+;
+use
+crate
+:
+:
 debug_render
 :
 :
@@ -2086,6 +2095,17 @@ new
 (
 )
 ;
+let
+mut
+composite_config
+=
+CompositeConfig
+:
+:
+new
+(
+)
+;
 {
 profile_marker
 !
@@ -2229,6 +2249,9 @@ prim_headers
 &
 mut
 z_generator
+&
+mut
+composite_config
 )
 ;
 match
@@ -2426,6 +2449,7 @@ new
 (
 )
 )
+composite_config
 }
 }
 }
@@ -2480,6 +2504,11 @@ z_generator
 &
 mut
 ZBufferIdGenerator
+composite_config
+:
+&
+mut
+CompositeConfig
 )
 {
 profile_scope
@@ -2563,6 +2592,7 @@ deferred_resolves
 prim_headers
 transforms
 z_generator
+composite_config
 )
 ;
 }
@@ -3375,6 +3405,7 @@ transforms
 root_spatial_node_index
 surface_spatial_node_index
 z_generator
+composite_config
 )
 ;
 let
@@ -3573,6 +3604,7 @@ saved_color
 prim_headers
 transforms
 z_generator
+composite_config
 )
 ;
 alpha
@@ -3587,6 +3619,7 @@ saved_alpha
 prim_headers
 transforms
 z_generator
+composite_config
 )
 ;
 }
@@ -3772,6 +3805,10 @@ Vec
 <
 DebugItem
 >
+pub
+composite_config
+:
+CompositeConfig
 }
 impl
 Frame

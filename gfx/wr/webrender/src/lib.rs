@@ -164,6 +164,9 @@ mod
 clip_scroll_tree
 ;
 mod
+composite
+;
+mod
 debug_colors
 ;
 mod
