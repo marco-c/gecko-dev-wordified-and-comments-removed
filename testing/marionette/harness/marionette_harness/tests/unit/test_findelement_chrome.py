@@ -296,7 +296,7 @@ By
 .
 TAG_NAME
 "
-textbox
+input
 "
 )
         
@@ -368,7 +368,7 @@ By
 .
 TAG_NAME
 "
-textbox
+input
 "
 )
         
