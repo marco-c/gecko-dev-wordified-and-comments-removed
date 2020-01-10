@@ -1370,8 +1370,6 @@ ZoomReset
 )
 ;
 }
-else
-{
 let
 token
 =
@@ -1442,7 +1440,6 @@ browser
 return
 result
 ;
-}
 }
 _applyPrefToZoom
 :
