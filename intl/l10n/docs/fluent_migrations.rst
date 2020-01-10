@@ -1791,7 +1791,7 @@ code
 block
 :
 :
-XML
+DTD
 <
 !
 ENTITY
@@ -1819,7 +1819,7 @@ code
 block
 :
 :
-properties
+fluent
 features
 -
 title
@@ -2237,7 +2237,7 @@ code
 block
 :
 :
-properties
+fluent
 update
 -
 full
@@ -2709,7 +2709,7 @@ code
 block
 :
 :
-XML
+DTD
 <
 !
 ENTITY
@@ -2778,7 +2778,7 @@ code
 block
 :
 :
-properties
+fluent
 about
 -
 about
@@ -2864,7 +2864,7 @@ code
 block
 :
 :
-properties
+python
 transforms_from
 (
 "
@@ -3224,10 +3224,18 @@ code
 block
 :
 :
-properties
-searchResults
-.
-needHelpSupportLink
+fluent
+search
+-
+results
+-
+need
+-
+help
+-
+support
+-
+link
 =
 Need
 help
@@ -3707,7 +3715,7 @@ code
 block
 :
 :
-properties
+fluent
 containers
 -
 disable
@@ -3984,7 +3992,7 @@ code
 block
 :
 :
-properties
+fluent
 use
 -
 current

@@ -958,7 +958,7 @@ code
 block
 :
 :
-properties
+fluent
 home
 -
 page
@@ -1035,7 +1035,7 @@ code
 block
 :
 :
-properties
+fluent
 #
 #
 #
@@ -1913,7 +1913,7 @@ code
 block
 :
 :
-properties
+fluent
 -
 brand
 -
@@ -3105,7 +3105,7 @@ code
 block
 :
 :
-properties
+fluent
 unread
 -
 warning
@@ -3191,7 +3191,7 @@ code
 block
 :
 :
-properties
+fluent
 unread
 -
 warning
@@ -3238,7 +3238,7 @@ code
 block
 :
 :
-properties
+fluent
 unread
 -
 warning
@@ -3596,7 +3596,7 @@ code
 block
 :
 :
-properties
+fluent
 welcome
 -
 message
@@ -3661,7 +3661,7 @@ code
 block
 :
 :
-properties
+fluent
 welcome
 -
 message

@@ -458,7 +458,7 @@ code
 block
 :
 :
-properties
+fluent
 #
 This
 string
@@ -1115,7 +1115,7 @@ code
 block
 :
 :
-properties
+fluent
 newtab
 -
 search
@@ -1280,7 +1280,7 @@ code
 block
 :
 :
-properties
+fluent
 help
 -
 button
@@ -1496,7 +1496,7 @@ code
 block
 :
 :
-properties
+fluent
 items
 -
 selected
@@ -1579,7 +1579,7 @@ code
 block
 :
 :
-properties
+fluent
 #
 Separate
 messages
@@ -1749,7 +1749,7 @@ code
 block
 :
 :
-properties
+fluent
 items
 -
 selected
