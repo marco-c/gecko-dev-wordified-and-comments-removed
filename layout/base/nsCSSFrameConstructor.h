@@ -4763,12 +4763,6 @@ WipeInsertionParent
 nsContainerFrame
 *
 aFrame
-nsIContent
-*
-aStartChild
-nsIContent
-*
-aEndChild
 )
 ;
 bool
