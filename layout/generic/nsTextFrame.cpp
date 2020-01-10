@@ -3802,6 +3802,16 @@ int32_t
 aDirection
 )
 {
+if
+(
+!
+aLength
+)
+{
+return
+0
+;
+}
 int32_t
 count
 =
