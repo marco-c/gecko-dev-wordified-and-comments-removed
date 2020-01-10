@@ -656,15 +656,9 @@ getBoundingClientRect
 var
 scrollbox
 =
-document
-.
-getAnonymousNodes
-(
 popup
-)
-[
-0
-]
+.
+scrollBox
 .
 scrollbox
 ;
