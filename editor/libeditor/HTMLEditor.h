@@ -4637,7 +4637,14 @@ aBlockIndentedWith
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 SplitRangeOffFromNodeResult
-OutdentAroundSelection
+HandleOutdentAtSelectionInternal
+(
+)
+;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+EditActionResult
+HandleOutdentAtSelection
 (
 )
 ;
