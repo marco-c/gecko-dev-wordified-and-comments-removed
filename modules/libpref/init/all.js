@@ -28276,16 +28276,6 @@ snapMultiplier
 pref
 (
 "
-print
-.
-extend_native_print_dialog
-"
-true
-)
-;
-pref
-(
-"
 plugin
 .
 scan

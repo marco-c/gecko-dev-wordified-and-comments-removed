@@ -10769,6 +10769,17 @@ nsIWebBrowserChrome
 CHROME_PRIVATE_LIFETIME
 ;
 }
+TabId
+tabId
+(
+nsContentUtils
+:
+:
+GenerateTabId
+(
+)
+)
+;
 RefPtr
 <
 BrowserBridgeChild
@@ -10780,6 +10791,7 @@ BrowserBridgeChild
 (
 aFrameLoader
 aBrowsingContext
+tabId
 )
 ;
 browserChild
@@ -10806,6 +10818,7 @@ PresentationURL
 aRemoteType
 aBrowsingContext
 chromeFlags
+tabId
 )
 ;
 browserBridge
