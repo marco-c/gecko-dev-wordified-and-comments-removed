@@ -198,13 +198,10 @@ const
 size_t
 ACTIONS
 =
-ArrayLength
-(
 MediaSessionActionValues
 :
 :
-strings
-)
+Count
 ;
 RefPtr
 <
