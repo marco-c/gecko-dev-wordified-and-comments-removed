@@ -129,6 +129,7 @@ window
 .
 onload
 =
+async
 function
 (
 )
@@ -229,13 +230,12 @@ iframe
 >
 '
 ;
-xpcWaitForFinishedFrames
+await
+waitForFinishedFrames
 (
-async
-function
-(
+4
 )
-{
+;
 await
 isNavigated
 (
@@ -350,10 +350,6 @@ SimpleTest
 .
 finish
 (
-)
-;
-}
-4
 )
 ;
 }

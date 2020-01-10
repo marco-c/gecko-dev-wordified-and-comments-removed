@@ -197,6 +197,12 @@ attribute
 BrowsingContextGroup
 group
 ;
+readonly
+attribute
+WindowProxy
+?
+window
+;
 }
 ;
 [

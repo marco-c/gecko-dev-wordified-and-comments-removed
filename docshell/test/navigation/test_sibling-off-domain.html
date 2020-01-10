@@ -129,6 +129,7 @@ window
 .
 onload
 =
+async
 function
 (
 )
@@ -309,12 +310,12 @@ iframe
 >
 '
 ;
-xpcWaitForFinishedFrames
+await
+waitForFinishedFrames
 (
-function
-(
+4
 )
-{
+;
 isBlank
 (
 frames
@@ -421,10 +422,6 @@ SimpleTest
 .
 finish
 (
-)
-;
-}
-4
 )
 ;
 }
