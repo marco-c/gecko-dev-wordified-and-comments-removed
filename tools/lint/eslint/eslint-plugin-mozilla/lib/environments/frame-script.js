@@ -56,6 +56,9 @@ false
 tabEventTarget
 :
 false
+RPMGetIntPref
+:
+false
 RPMGetBoolPref
 :
 false
