@@ -33,9 +33,14 @@ h
 #
 include
 "
-mozilla
-/
-RefPtr
+GLConsts
+.
+h
+"
+#
+include
+"
+GLContextCGL
 .
 h
 "
@@ -51,14 +56,9 @@ h
 #
 include
 "
-GLConsts
-.
-h
-"
-#
-include
-"
-GLContextCGL
+mozilla
+/
+RefPtr
 .
 h
 "
@@ -1931,6 +1931,7 @@ MacIOSurface
 GetIOSurfaceID
 (
 )
+const
 {
 return
 MacIOSurfaceLib
@@ -1950,6 +1951,7 @@ MacIOSurface
 GetBaseAddress
 (
 )
+const
 {
 return
 MacIOSurfaceLib
@@ -1971,6 +1973,7 @@ GetBaseAddressOfPlane
 size_t
 aPlaneIndex
 )
+const
 {
 return
 MacIOSurfaceLib
@@ -1992,6 +1995,7 @@ GetWidth
 size_t
 plane
 )
+const
 {
 size_t
 intScaleFactor
@@ -2019,6 +2023,7 @@ GetHeight
 size_t
 plane
 )
+const
 {
 size_t
 intScaleFactor
@@ -2044,6 +2049,7 @@ MacIOSurface
 GetPlaneCount
 (
 )
+const
 {
 return
 MacIOSurfaceLib
@@ -2134,6 +2140,7 @@ GetDevicePixelWidth
 size_t
 plane
 )
+const
 {
 return
 MacIOSurfaceLib
@@ -2155,6 +2162,7 @@ GetDevicePixelHeight
 size_t
 plane
 )
+const
 {
 return
 MacIOSurfaceLib
@@ -2176,6 +2184,7 @@ GetBytesPerRow
 size_t
 plane
 )
+const
 {
 return
 MacIOSurfaceLib
@@ -2195,6 +2204,7 @@ MacIOSurface
 GetPixelFormat
 (
 )
+const
 {
 return
 MacIOSurfaceLib
@@ -2543,6 +2553,7 @@ MacIOSurface
 GetFormat
 (
 )
+const
 {
 OSType
 pixelFormat
@@ -2612,6 +2623,7 @@ MacIOSurface
 GetReadFormat
 (
 )
+const
 {
 OSType
 pixelFormat
