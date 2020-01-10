@@ -1254,7 +1254,6 @@ className
 outline
 -
 footer
-bottom
 "
 >
 <
