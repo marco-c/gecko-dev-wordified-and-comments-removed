@@ -144,6 +144,9 @@ required
 DOMString
 framerate
 ;
+boolean
+hasAlphaChannel
+;
 }
 ;
 dictionary
