@@ -2203,6 +2203,13 @@ GetClientOffset
 )
 override
 ;
+virtual
+LayoutDeviceIntRegion
+GetOpaqueWidgetRegion
+(
+)
+override
+;
 void
 DispatchAPZWheelInputEvent
 (
