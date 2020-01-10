@@ -5,9 +5,17 @@ unicode_literals
 import
 os
 from
-cStringIO
+io
 import
 StringIO
+from
+mozunit
+import
+main
+from
+six
+import
+string_types
 from
 mach
 .
@@ -28,10 +36,6 @@ test
 common
 import
 TestBase
-from
-mozunit
-import
-main
 here
 =
 os
@@ -115,7 +119,7 @@ if
 isinstance
 (
 config
-basestring
+string_types
 )
 :
                 

@@ -113,8 +113,6 @@ from
 six
 import
 string_types
-as
-str_type
 class
 ConfigException
 (
@@ -309,7 +307,7 @@ not
 isinstance
 (
 value
-str_type
+string_types
 )
 :
             
@@ -516,7 +514,7 @@ not
 isinstance
 (
 value
-str_type
+string_types
 )
 :
             
@@ -2045,7 +2043,7 @@ if
 isinstance
 (
 type_cls
-basestring
+string_types
 )
 :
             
