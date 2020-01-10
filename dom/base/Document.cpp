@@ -43309,12 +43309,11 @@ if
 node
 &
 &
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 node
+-
+>
+IsInclusiveDescendantOf
+(
 adoptedNode
 )
 )
