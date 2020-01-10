@@ -2463,13 +2463,6 @@ bwin
 =
 chrome
 .
-QueryInterface
-(
-Ci
-.
-nsIDOMChromeWindow
-)
-.
 browserDOMWindow
 ;
 if
@@ -2736,13 +2729,6 @@ let
 bwin
 =
 chrome
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMChromeWindow
-)
 .
 browserDOMWindow
 ;
