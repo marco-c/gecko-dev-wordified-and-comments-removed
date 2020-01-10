@@ -192,6 +192,8 @@ RemoteWorkerParent
 :
 Initialize
 (
+bool
+aAlreadyRegistered
 )
 {
 RefPtr
@@ -215,6 +217,12 @@ if
 parent
 )
 {
+if
+(
+!
+aAlreadyRegistered
+)
+{
 parent
 -
 >
@@ -222,6 +230,7 @@ RegisterRemoteWorkerActor
 (
 )
 ;
+}
 nsCOMPtr
 <
 nsIEventTarget
