@@ -861,7 +861,9 @@ build
 /
 browsertime
 .
-zip
+tar
+.
+bz2
 fetches
 :
 toolchain
