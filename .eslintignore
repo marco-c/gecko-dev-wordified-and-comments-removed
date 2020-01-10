@@ -87,13 +87,6 @@ enabled
 )
 dom
 /
-base
-/
-*
-.
-*
-dom
-/
 media
 /
 test
