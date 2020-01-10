@@ -298,9 +298,6 @@ uuid
 valgrind
 -
 test
-vcs
--
-setup
 vendor
 visualmetrics
 warnings
