@@ -689,6 +689,9 @@ GetUncomposedDoc
 :
 nullptr
 ;
+nsresult
+rv
+=
 statefulFrame
 -
 >
@@ -701,6 +704,12 @@ stateKey
 ;
 if
 (
+NS_FAILED
+(
+rv
+)
+|
+|
 stateKey
 .
 IsEmpty
@@ -952,6 +961,9 @@ GetUncomposedDoc
 (
 )
 ;
+nsresult
+rv
+=
 statefulFrame
 -
 >
@@ -964,6 +976,12 @@ stateKey
 ;
 if
 (
+NS_FAILED
+(
+rv
+)
+|
+|
 stateKey
 .
 IsEmpty
@@ -995,7 +1013,6 @@ frameState
 return
 ;
 }
-nsresult
 rv
 =
 statefulFrame

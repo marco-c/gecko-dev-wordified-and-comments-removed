@@ -7442,14 +7442,6 @@ mInRDMPane
 (
 false
 )
-mNextFormNumber
-(
-0
-)
-mNextControlNumber
-(
-0
-)
 {
 MOZ_LOG
 (

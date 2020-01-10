@@ -7318,7 +7318,7 @@ return
 NS_OK
 ;
 }
-void
+NS_IMETHODIMP
 nsComboboxControlFrame
 :
 :
@@ -7335,6 +7335,9 @@ nsACString
 aKey
 )
 {
+nsresult
+rv
+=
 nsContentUtils
 :
 :
@@ -7347,6 +7350,12 @@ aKey
 ;
 if
 (
+NS_FAILED
+(
+rv
+)
+|
+|
 aKey
 .
 IsEmpty
@@ -7355,6 +7364,7 @@ IsEmpty
 )
 {
 return
+rv
 ;
 }
 aKey
@@ -7365,6 +7375,9 @@ AppendLiteral
 CCF
 "
 )
+;
+return
+NS_OK
 ;
 }
 bool
