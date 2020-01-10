@@ -7376,6 +7376,7 @@ GetDocShell
 CreateAboutBlankContentViewer
 (
 newWindowPrincipal
+newWindowPrincipal
 aCSP
 )
 ;

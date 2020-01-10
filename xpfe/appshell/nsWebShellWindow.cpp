@@ -1111,6 +1111,7 @@ mDocShell
 CreateAboutBlankContentViewer
 (
 principal
+principal
 nullptr
 )
 ;

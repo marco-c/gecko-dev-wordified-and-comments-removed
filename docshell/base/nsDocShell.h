@@ -1760,6 +1760,9 @@ CreateAboutBlankContentViewer
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 nsIContentSecurityPolicy
 *
 aCSP
@@ -2122,6 +2125,10 @@ GetInheritedPrincipal
 (
 bool
 aConsiderCurrentDocument
+bool
+aConsiderStoragePrincipal
+=
+false
 )
 ;
 bool
