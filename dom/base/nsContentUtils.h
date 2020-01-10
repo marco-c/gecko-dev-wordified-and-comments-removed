@@ -1612,7 +1612,7 @@ aChar
 ;
 static
 bool
-IsHTMLBlock
+IsHTMLBlockLevelElement
 (
 nsIContent
 *

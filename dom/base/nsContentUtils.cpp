@@ -7907,7 +7907,7 @@ bool
 nsContentUtils
 :
 :
-IsHTMLBlock
+IsHTMLBlockLevelElement
 (
 nsIContent
 *

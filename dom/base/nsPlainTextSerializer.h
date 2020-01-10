@@ -424,9 +424,10 @@ aString
 )
 ;
 bool
-IsInPre
+IsElementPreformatted
 (
 )
+const
 ;
 bool
 IsInOL
@@ -543,6 +544,7 @@ bool
 DoOutput
 (
 )
+const
 {
 return
 mHeadLevel
@@ -642,6 +644,7 @@ nsAtom
 aTag
 )
 ;
+static
 bool
 IsElementPreformatted
 (
@@ -656,8 +659,9 @@ Element
 aElement
 )
 ;
+static
 bool
-IsElementBlock
+IsCssBlockLevelElement
 (
 mozilla
 :
