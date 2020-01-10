@@ -2377,7 +2377,6 @@ allowedDiff
 |
 |
 (
-(
 maxDifference
 >
 =
@@ -2394,7 +2393,6 @@ allowedDiff
 [
 1
 ]
-)
 &
 &
 (

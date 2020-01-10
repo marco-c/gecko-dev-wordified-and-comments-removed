@@ -821,7 +821,7 @@ dbg
 const
 element
 =
-"
+'
 .
 scopes
 -
@@ -835,13 +835,11 @@ aria
 -
 level
 =
-\
 "
 1
-\
 "
 ]
-"
+'
 ;
 return
 waitForElement

@@ -688,11 +688,9 @@ obj
 substring
 (
 0
-(
 MAX_STRING_LENGTH
 /
 2
-)
 )
 ;
 let
@@ -706,11 +704,9 @@ obj
 .
 length
 -
-(
 MAX_STRING_LENGTH
 /
 2
-)
 )
 ;
 return

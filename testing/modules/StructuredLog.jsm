@@ -1010,6 +1010,7 @@ expected
 )
 {
 return
+(
 "
 TEST
 -
@@ -1036,6 +1037,7 @@ expected
 message
 .
 expected
+)
 ;
 }
 return

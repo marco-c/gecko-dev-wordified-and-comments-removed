@@ -62,6 +62,7 @@ jsm
 var
 Assert
 =
+(
 this
 .
 Assert
@@ -76,6 +77,7 @@ if
 (
 reporterFunc
 )
+{
 this
 .
 setReporter
@@ -83,10 +85,12 @@ setReporter
 reporterFunc
 )
 ;
+}
 if
 (
 isDefault
 )
+{
 Assert
 .
 setReporter
@@ -95,6 +99,8 @@ reporterFunc
 )
 ;
 }
+}
+)
 ;
 Object
 .
@@ -1290,7 +1296,6 @@ message
 }
 if
 (
-(
 actual
 &
 &
@@ -1299,7 +1304,6 @@ expectedException
 (
 actual
 expected
-)
 )
 )
 {

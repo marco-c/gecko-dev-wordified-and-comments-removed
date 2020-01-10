@@ -144,11 +144,13 @@ if
 (
 aOuter
 )
+{
 throw
 Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
+}
 return
 new
 MockFilePickerInstance
@@ -988,6 +990,7 @@ appendFilterCallback
 function
 "
 )
+{
 MockFilePicker
 .
 appendFilterCallback
@@ -997,6 +1000,7 @@ aTitle
 aFilter
 )
 ;
+}
 }
 appendFilters
 (
@@ -1015,6 +1019,7 @@ appendFiltersCallback
 function
 "
 )
+{
 MockFilePicker
 .
 appendFiltersCallback
@@ -1023,6 +1028,7 @@ this
 aFilterMask
 )
 ;
+}
 }
 defaultString
 :

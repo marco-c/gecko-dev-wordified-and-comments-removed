@@ -103,9 +103,7 @@ _dbg
 .
 onNewScript
 =
-(
 script
-)
 =
 >
 {
@@ -369,7 +367,6 @@ key
 ]
 |
 |
-(
 this
 .
 _allCoverage
@@ -387,7 +384,6 @@ scriptName
 [
 key
 ]
-)
 )
 {
 let
@@ -898,12 +894,10 @@ uncovered
 if
 (
 typeof
-(
 methods
 [
 scriptName
 ]
-)
 !
 =
 "

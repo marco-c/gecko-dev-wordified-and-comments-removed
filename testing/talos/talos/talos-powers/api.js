@@ -584,9 +584,7 @@ getProfileDataAsync
 .
 then
 (
-(
 profile
-)
 =
 >
 {
@@ -672,9 +670,7 @@ gathered
 )
 ;
 }
-(
 error
-)
 =
 >
 {
@@ -1481,6 +1477,7 @@ command
 name
 )
 )
+{
 throw
 new
 Error
@@ -1504,6 +1501,7 @@ name
 "
 )
 ;
+}
 this
 .
 ParentExecServices

@@ -66,7 +66,6 @@ e
 )
 {
 return
-(
 e
 .
 type
@@ -87,7 +86,6 @@ max
 -
 width
 "
-)
 ;
 }
 cleanup
@@ -140,7 +138,6 @@ e
 )
 {
 return
-(
 e
 .
 type
@@ -149,7 +146,6 @@ type
 "
 customizationready
 "
-)
 ;
 }
 cleanup
@@ -312,7 +308,6 @@ e
 )
 {
 return
-(
 e
 .
 type
@@ -323,7 +318,6 @@ customization
 -
 transitionend
 "
-)
 ;
 }
 keepListening
@@ -332,7 +326,6 @@ e
 )
 {
 return
-(
 e
 .
 type
@@ -341,7 +334,6 @@ type
 "
 customizationready
 "
-)
 ;
 }
 cleanup
@@ -406,7 +398,6 @@ e
 )
 {
 return
-(
 e
 .
 type
@@ -415,7 +406,6 @@ type
 "
 aftercustomization
 "
-)
 ;
 }
 cleanup
@@ -813,6 +803,7 @@ if
 (
 isReportResult
 )
+{
 Profiler
 .
 resume
@@ -820,6 +811,7 @@ resume
 name
 )
 ;
+}
 }
 else
 {
@@ -901,8 +893,10 @@ if
 (
 _abortRecording
 )
+{
 return
 ;
+}
 var
 now
 =
@@ -973,6 +967,7 @@ if
 (
 isReportResult
 )
+{
 Profiler
 .
 pause
@@ -980,6 +975,7 @@ pause
 name
 )
 ;
+}
 }
 else
 {
@@ -1121,6 +1117,7 @@ sumMost
 <
 referenceDuration
 *
+0
 .
 85
 )
@@ -1394,12 +1391,14 @@ self
 .
 USE_RECORDING_API
 )
+{
 return
 rAF
 (
 f
 )
 ;
+}
 var
 id
 =
@@ -1444,7 +1443,6 @@ i
 +
 <
 (
-(
 isReportResult
 &
 &
@@ -1453,7 +1451,6 @@ self
 _config
 .
 tickle
-)
 ?
 17
 :
@@ -1476,12 +1473,15 @@ style
 .
 opacity
 =
+(
 i
 %
 10
+)
 /
 10
 +
+0
 .
 05
 ;
@@ -1685,6 +1685,7 @@ MozillaFileLogger
 .
 log
 )
+{
 window
 .
 MozillaFileLogger
@@ -1694,6 +1695,7 @@ log
 str
 )
 ;
+}
 window
 .
 dump
@@ -1771,7 +1773,6 @@ a
 )
 {
 return
-(
 isNaN
 (
 a
@@ -1785,7 +1786,6 @@ a
 toFixed
 (
 1
-)
 )
 ;
 }
@@ -2117,6 +2117,7 @@ aTab
 try
 {
 return
+(
 1000
 *
 Math
@@ -2145,6 +2146,7 @@ parseFloat
 (
 s
 10
+)
 )
 )
 )
@@ -2292,19 +2294,23 @@ if
 (
 origPinned
 )
+{
 self
 .
 pinTart
 (
 )
 ;
+}
 else
+{
 self
 .
 unpinTart
 (
 )
 ;
+}
 self
 .
 makeNewTabURLChangePromise

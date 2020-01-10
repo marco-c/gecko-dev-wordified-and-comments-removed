@@ -67,9 +67,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -140,9 +138,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -404,9 +400,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -457,9 +451,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -557,9 +549,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1449,7 +1439,6 @@ split
 a
 href
 =
-\
 "
 '
 )
@@ -1496,7 +1485,6 @@ a
 split
 (
 '
-\
 "
 '
 )
@@ -1525,7 +1513,6 @@ a
 split
 (
 '
-\
 "
 '
 )

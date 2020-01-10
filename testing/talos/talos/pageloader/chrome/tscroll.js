@@ -522,7 +522,6 @@ myNow
 )
 {
 return
-(
 win
 .
 performance
@@ -533,7 +532,6 @@ win
 performance
 .
 now
-)
 ?
 win
 .
@@ -852,32 +850,26 @@ doScrollTick
 ;
 if
 (
-(
 getPos
 (
 )
 =
 =
 lastScrollPos
-)
 |
 |
 (
 opt_numSteps
 &
 &
-(
 durations
 .
 length
 >
 =
-(
 opt_numSteps
 +
 2
-)
-)
 )
 )
 {
@@ -893,9 +885,7 @@ resolve
 if
 (
 typeof
-(
 TalosContentProfiler
-)
 !
 =
 =
@@ -942,6 +932,7 @@ win
 .
 talosDebug
 )
+{
 win
 .
 talosDebug
@@ -950,6 +941,7 @@ displayData
 =
 true
 ;
+}
 var
 sum
 =
@@ -972,6 +964,7 @@ i
 +
 +
 )
+{
 sum
 +
 =
@@ -983,6 +976,7 @@ i
 ]
 )
 ;
+}
 result
 .
 values
@@ -1040,9 +1034,7 @@ tick
 if
 (
 typeof
-(
 TalosContentProfiler
-)
 !
 =
 =
@@ -1204,6 +1196,7 @@ i
 +
 +
 )
+{
 sum
 +
 =
@@ -1212,6 +1205,7 @@ arr
 i
 ]
 ;
+}
 return
 arr
 .

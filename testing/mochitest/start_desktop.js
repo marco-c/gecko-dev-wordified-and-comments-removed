@@ -91,9 +91,7 @@ mochitest
 load
 "
 {
-"
 detail
-"
 :
 [
 flavor

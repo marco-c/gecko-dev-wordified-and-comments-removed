@@ -573,9 +573,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -598,9 +596,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

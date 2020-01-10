@@ -2529,6 +2529,7 @@ el
 )
 {
 return
+(
 element
 .
 isDOMElement
@@ -2557,6 +2558,7 @@ localName
 el
 .
 readOnly
+)
 ;
 }
 ;
@@ -2850,6 +2852,7 @@ el
 )
 {
 return
+(
 element
 .
 isDOMElement
@@ -2874,6 +2877,7 @@ designMode
 "
 on
 "
+)
 )
 ;
 }
@@ -3128,7 +3132,6 @@ win
 pageXOffset
 bottom
 :
-(
 win
 .
 pageYOffset
@@ -3136,10 +3139,8 @@ pageYOffset
 win
 .
 innerHeight
-)
 right
 :
-(
 win
 .
 pageXOffset
@@ -3147,7 +3148,6 @@ pageXOffset
 win
 .
 innerWidth
-)
 }
 ;
 return
@@ -3842,6 +3842,7 @@ node
 )
 {
 return
+(
 typeof
 node
 =
@@ -3885,6 +3886,7 @@ isXULElement
 (
 node
 )
+)
 ;
 }
 ;
@@ -3898,6 +3900,7 @@ node
 )
 {
 return
+(
 typeof
 node
 =
@@ -3943,6 +3946,7 @@ node
 .
 namespaceURI
 )
+)
 ;
 }
 ;
@@ -3956,6 +3960,7 @@ node
 )
 {
 return
+(
 typeof
 node
 =
@@ -4005,6 +4010,7 @@ self
 =
 =
 node
+)
 ;
 }
 ;
@@ -4702,40 +4708,32 @@ false
 }
 if
 (
-(
 ContentWebElement
 .
 Identifier
 in
 obj
-)
 |
 |
-(
 ContentWebWindow
 .
 Identifier
 in
 obj
-)
 |
 |
-(
 ContentWebFrame
 .
 Identifier
 in
 obj
-)
 |
 |
-(
 ChromeWebElement
 .
 Identifier
 in
 obj
-)
 )
 {
 return

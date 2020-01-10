@@ -88,14 +88,10 @@ runtime
 sendMessage
 (
 {
-"
 type
-"
 :
 _type
-"
 value
-"
 :
 _value
 }

@@ -451,9 +451,7 @@ splice
 .
 forEach
 (
-(
 element
-)
 =
 >
 {

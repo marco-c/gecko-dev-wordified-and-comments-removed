@@ -447,9 +447,7 @@ onToolboxCreated
 if
 (
 typeof
-(
 onLoad
-)
 =
 =
 "

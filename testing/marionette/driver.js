@@ -2086,6 +2086,7 @@ element
 )
 {
 return
+(
 this
 .
 _reftest
@@ -2123,6 +2124,7 @@ id
 "
 reftest
 "
+)
 ;
 }
 ;
@@ -6421,6 +6423,7 @@ anonNodes
 .
 .
 .
+(
 doc
 .
 getAnonymousNodes
@@ -6431,6 +6434,7 @@ parent
 |
 [
 ]
+)
 ]
 ;
 if
@@ -7162,10 +7166,6 @@ listener
 performActions
 (
 {
-"
-actions
-"
-:
 actions
 }
 )

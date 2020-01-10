@@ -243,6 +243,7 @@ MozillaFileLogger
 .
 _foStream
 )
+{
 MozillaFileLogger
 .
 _foStream
@@ -255,6 +256,7 @@ data
 length
 )
 ;
+}
 if
 (
 data
@@ -296,6 +298,7 @@ MozillaFileLogger
 .
 _foStream
 )
+{
 MozillaFileLogger
 .
 _foStream
@@ -308,6 +311,7 @@ msg
 length
 )
 ;
+}
 }
 catch
 (
@@ -331,6 +335,7 @@ MozillaFileLogger
 .
 _foStream
 )
+{
 MozillaFileLogger
 .
 _foStream
@@ -339,6 +344,7 @@ close
 (
 )
 ;
+}
 MozillaFileLogger
 .
 _foStream

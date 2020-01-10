@@ -193,11 +193,13 @@ this
 .
 values
 )
+{
 throw
 Cr
 .
 NS_ERROR_FAILURE
 ;
+}
 return
 this
 .
@@ -269,11 +271,13 @@ values
 .
 size
 )
+{
 throw
 Cr
 .
 NS_ERROR_FAILURE
 ;
+}
 let
 names
 =

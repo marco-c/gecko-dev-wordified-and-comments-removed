@@ -3,9 +3,7 @@ addEventListener
 "
 TalosContentProfilerCommand
 "
-(
 e
-)
 =
 >
 {
@@ -50,9 +48,7 @@ TalosContentProfiler
 :
 Response
 "
-(
 msg
-)
 =
 >
 {
@@ -119,9 +115,7 @@ addEventListener
 "
 TalosPowersContentForceCCAndGC
 "
-(
 e
-)
 =
 >
 {
@@ -160,9 +154,7 @@ addEventListener
 "
 TalosPowersContentFocus
 "
-(
 e
-)
 =
 >
 {
@@ -275,9 +267,7 @@ addEventListener
 "
 TalosPowersContentGetStartupInfo
 "
-(
 e
-)
 =
 >
 {
@@ -364,9 +354,7 @@ addEventListener
 "
 TalosPowersGoQuitApplication
 "
-(
 e
-)
 =
 >
 {
@@ -553,8 +541,10 @@ id
 =
 uniqueMessageId
 )
+{
 return
 ;
+}
 removeMessageListener
 (
 "
