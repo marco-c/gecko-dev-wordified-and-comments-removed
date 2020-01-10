@@ -25359,9 +25359,6 @@ GetRootElement
 if
 (
 document
-&
-&
-document
 -
 >
 IsHTMLOrXHTML
