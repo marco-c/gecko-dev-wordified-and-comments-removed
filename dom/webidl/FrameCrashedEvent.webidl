@@ -168,7 +168,7 @@ browsingContextId
 boolean
 isTopFrame
 =
-false
+true
 ;
 }
 ;
