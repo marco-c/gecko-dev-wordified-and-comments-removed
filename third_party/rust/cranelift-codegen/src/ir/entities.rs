@@ -947,6 +947,7 @@ Result
 self
 as
 &
+dyn
 fmt
 :
 :

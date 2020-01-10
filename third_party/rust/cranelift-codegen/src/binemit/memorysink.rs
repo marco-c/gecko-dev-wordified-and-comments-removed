@@ -55,6 +55,7 @@ relocs
 '
 a
 mut
+dyn
 RelocSink
 traps
 :
@@ -62,6 +63,7 @@ traps
 '
 a
 mut
+dyn
 TrapSink
 pub
 info
@@ -95,6 +97,7 @@ relocs
 '
 a
 mut
+dyn
 RelocSink
 traps
 :
@@ -102,6 +105,7 @@ traps
 '
 a
 mut
+dyn
 TrapSink
 )
 -
@@ -627,11 +631,19 @@ offset
 (
 )
 -
+(
 self
 .
 info
 .
 jumptables_size
++
+self
+.
+info
+.
+code_size
+)
 ;
 self
 .

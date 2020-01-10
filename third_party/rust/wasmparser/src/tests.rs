@@ -20,6 +20,12 @@ mod
 simple_tests
 {
 use
+operators_validator
+:
+:
+OperatorValidatorConfig
+;
+use
 parser
 :
 :
@@ -77,7 +83,6 @@ validator
 :
 :
 {
-OperatorValidatorConfig
 ValidatingParser
 ValidatingParserConfig
 }
@@ -108,6 +113,9 @@ enable_simd
 :
 true
 enable_bulk_memory
+:
+true
+enable_multi_value
 :
 true
 }

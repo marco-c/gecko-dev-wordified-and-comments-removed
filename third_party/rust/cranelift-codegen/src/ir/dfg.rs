@@ -1816,6 +1816,7 @@ Option
 &
 '
 a
+dyn
 TargetIsa
 >
 >
@@ -4288,6 +4289,7 @@ Option
 &
 '
 a
+dyn
 TargetIsa
 >
 Inst

@@ -66,6 +66,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 <
 '

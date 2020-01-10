@@ -149,6 +149,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 )
 -

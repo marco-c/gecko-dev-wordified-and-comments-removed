@@ -108,6 +108,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -342,6 +343,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 <
 '
@@ -606,6 +608,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -669,6 +672,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -777,6 +781,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -855,6 +860,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -1095,6 +1101,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 <
 '
@@ -1249,6 +1256,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -1297,6 +1305,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 )
 -
@@ -1556,6 +1565,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 <
 '
@@ -1645,6 +1655,7 @@ environ
 :
 &
 mut
+dyn
 ModuleEnvironment
 <
 '

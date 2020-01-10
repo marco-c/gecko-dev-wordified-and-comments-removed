@@ -2578,6 +2578,7 @@ line
 isa
 :
 &
+dyn
 crate
 :
 :

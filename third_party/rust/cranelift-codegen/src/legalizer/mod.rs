@@ -156,6 +156,7 @@ ControlFlowGraph
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -325,6 +326,7 @@ ControlFlowGraph
 isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -523,6 +525,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -794,6 +797,7 @@ ControlFlowGraph
 isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -854,6 +858,7 @@ ControlFlowGraph
 isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -1146,6 +1151,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -1400,6 +1406,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -1643,6 +1650,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -1884,6 +1892,7 @@ ControlFlowGraph
 _isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -2126,6 +2135,7 @@ ControlFlowGraph
 isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -2315,6 +2325,7 @@ ControlFlowGraph
 isa
 :
 &
+dyn
 TargetIsa
 )
 {

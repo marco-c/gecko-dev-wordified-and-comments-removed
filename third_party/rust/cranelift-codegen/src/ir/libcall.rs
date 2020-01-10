@@ -468,6 +468,7 @@ Inst
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -511,6 +512,7 @@ RegUnit
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -631,6 +633,7 @@ RegUnit
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -727,6 +730,7 @@ Inst
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -846,6 +850,7 @@ Signature
 isa
 :
 &
+dyn
 TargetIsa
 )
 -

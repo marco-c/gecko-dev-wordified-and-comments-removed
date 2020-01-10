@@ -2169,6 +2169,7 @@ isa
 &
 '
 f
+dyn
 TargetIsa
 }
 impl
@@ -2201,6 +2202,7 @@ isa
 &
 '
 f
+dyn
 TargetIsa
 )
 -

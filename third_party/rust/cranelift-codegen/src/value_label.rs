@@ -465,6 +465,7 @@ Context
 isa
 :
 &
+dyn
 TargetIsa
 )
 -

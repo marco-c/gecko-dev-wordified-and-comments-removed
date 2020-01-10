@@ -1212,6 +1212,7 @@ callee_saved_gprs
 isa
 :
 &
+dyn
 TargetIsa
 call_conv
 :
@@ -1355,6 +1356,7 @@ callee_saved_gprs_used
 isa
 :
 &
+dyn
 TargetIsa
 func
 :
@@ -1575,6 +1577,7 @@ Function
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -1668,6 +1671,7 @@ Function
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -1821,6 +1825,7 @@ Function
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -2202,6 +2207,7 @@ Function
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -2580,6 +2586,7 @@ RegisterSet
 isa
 :
 &
+dyn
 TargetIsa
 )
 {

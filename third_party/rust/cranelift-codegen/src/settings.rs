@@ -1638,6 +1638,7 @@ Option
 &
 '
 a
+dyn
 TargetIsa
 >
 }
@@ -1693,6 +1694,7 @@ From
 &
 '
 a
+dyn
 TargetIsa
 >
 for
@@ -1710,6 +1712,7 @@ isa
 &
 '
 a
+dyn
 TargetIsa
 )
 -

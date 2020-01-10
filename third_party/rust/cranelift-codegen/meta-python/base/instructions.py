@@ -1312,6 +1312,9 @@ JT
 outs
 =
 entry
+can_load
+=
+True
 )
 jump_table_base
 =

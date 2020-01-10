@@ -220,6 +220,7 @@ isa
 &
 '
 a
+dyn
 TargetIsa
 encinfo
 :
@@ -432,6 +433,7 @@ self
 isa
 :
 &
+dyn
 TargetIsa
 func
 :

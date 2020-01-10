@@ -66,6 +66,7 @@ ControlFlowGraph
 isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -488,6 +489,7 @@ bool
 isa
 :
 &
+dyn
 TargetIsa
 )
 {
@@ -655,6 +657,7 @@ GlobalValue
 isa
 :
 &
+dyn
 TargetIsa
 )
 {

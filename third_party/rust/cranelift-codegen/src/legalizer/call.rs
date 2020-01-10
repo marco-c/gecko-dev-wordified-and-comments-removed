@@ -66,6 +66,7 @@ ControlFlowGraph
 isa
 :
 &
+dyn
 TargetIsa
 )
 {

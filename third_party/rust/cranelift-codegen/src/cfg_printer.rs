@@ -113,6 +113,7 @@ w
 :
 &
 mut
+dyn
 Write
 )
 -
@@ -162,6 +163,7 @@ w
 :
 &
 mut
+dyn
 Write
 )
 -
@@ -244,6 +246,7 @@ w
 :
 &
 mut
+dyn
 Write
 )
 -
@@ -460,6 +463,7 @@ w
 :
 &
 mut
+dyn
 Write
 )
 -

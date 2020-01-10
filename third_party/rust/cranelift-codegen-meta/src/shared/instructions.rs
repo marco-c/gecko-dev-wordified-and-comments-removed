@@ -2088,6 +2088,11 @@ vec
 entry
 ]
 )
+.
+can_load
+(
+true
+)
 )
 ;
 ig

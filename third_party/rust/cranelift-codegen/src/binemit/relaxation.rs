@@ -95,6 +95,7 @@ Function
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
@@ -737,6 +738,7 @@ EncInfo
 isa
 :
 &
+dyn
 TargetIsa
 )
 -
