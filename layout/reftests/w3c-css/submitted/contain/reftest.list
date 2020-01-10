@@ -1004,13 +1004,6 @@ html
 #
 bug
 1480862
-fails
--
-if
-(
-!
-gtkWidget
-)
 =
 =
 contain
@@ -1037,9 +1030,6 @@ elem
 ref
 .
 html
-#
-bug
-1562057
 =
 =
 contain
