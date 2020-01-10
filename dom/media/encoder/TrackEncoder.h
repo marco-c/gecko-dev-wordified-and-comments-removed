@@ -764,7 +764,7 @@ aTime
 void
 SetKeyFrameInterval
 (
-int32_t
+uint32_t
 aKeyFrameInterval
 )
 ;
@@ -832,7 +832,7 @@ mVideoBitrate
 FrameDroppingMode
 mFrameDroppingMode
 ;
-int32_t
+uint32_t
 mKeyFrameInterval
 ;
 bool
