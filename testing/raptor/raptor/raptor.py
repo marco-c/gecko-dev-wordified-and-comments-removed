@@ -2655,7 +2655,7 @@ self
 browsertime_args
 )
         
-timeout
+bt_timeout
 =
 int
 (
@@ -2670,18 +2670,33 @@ test
 .
 get
 (
-'
-browser_cycles
-'
+"
+page_cycles
+"
 1
 )
 )
         
-timeout
+bt_timeout
 +
 =
+int
 (
+self
+.
+post_startup_delay
+/
+1000
+)
+        
+bt_timeout
++
+=
 20
+        
+bt_timeout
+=
+bt_timeout
 *
 int
 (
@@ -2693,7 +2708,6 @@ get
 browser_cycles
 '
 1
-)
 )
 )
         
@@ -2710,29 +2724,12 @@ is
 True
 :
             
-timeout
+bt_timeout
 +
 =
 5
 *
 60
-        
-timeout
-=
-timeout
-*
-int
-(
-test
-.
-get
-(
-"
-page_cycles
-"
-1
-)
-)
         
 browsertime_script
 .
@@ -2819,6 +2816,28 @@ foreground_delay
 ]
 )
         
+browsertime_script
+.
+extend
+(
+[
+"
+-
+-
+browsertime
+.
+post_startup_delay
+"
+                                  
+str
+(
+self
+.
+post_startup_delay
+)
+]
+)
+        
 cmd
 =
 (
@@ -2864,6 +2883,18 @@ visualMetrics
 '
 false
 '
+                
+'
+-
+-
+timeouts
+.
+pageLoad
+'
+str
+(
+timeout
+)
                 
 '
 -
@@ -3120,7 +3151,7 @@ run
 (
 timeout
 =
-timeout
+bt_timeout
                      
 outputTimeout
 =
