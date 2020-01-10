@@ -2755,11 +2755,6 @@ dotThis
 funbox
 -
 >
-function
-(
-)
--
->
 kind
 (
 )
