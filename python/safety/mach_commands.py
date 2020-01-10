@@ -108,9 +108,9 @@ python
 default
 =
 '
-2
+3
 .
-7
+5
 '
                      
 help
@@ -273,7 +273,7 @@ p
 )
 for
 p
-f
+_
 in
 finder
 .
@@ -361,6 +361,15 @@ output
 append
 (
 line
+.
+decode
+(
+'
+UTF
+-
+8
+'
+)
 )
         
 cmd
@@ -401,13 +410,11 @@ copy
         
 env
 [
-b
 '
 PYTHONDONTWRITEBYTECODE
 '
 ]
 =
-b
 '
 1
 '
@@ -446,6 +453,7 @@ wait
 "
 "
 "
+        
 Example
 output
 for
