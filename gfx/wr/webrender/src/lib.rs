@@ -190,9 +190,6 @@ mod
 device
 ;
 mod
-display_list_flattener
-;
-mod
 ellipse
 ;
 mod
@@ -288,6 +285,9 @@ scene
 ;
 mod
 scene_builder_thread
+;
+mod
+scene_building
 ;
 mod
 screen_capture

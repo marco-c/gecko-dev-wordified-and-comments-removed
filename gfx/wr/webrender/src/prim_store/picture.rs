@@ -30,7 +30,7 @@ use
 crate
 :
 :
-display_list_flattener
+scene_building
 :
 :
 IsVisible
