@@ -128,7 +128,7 @@ render
 )
 {
 let
-title
+origin
 =
 this
 .
@@ -138,7 +138,7 @@ querySelector
 (
 "
 .
-title
+origin
 "
 )
 ;
@@ -176,7 +176,7 @@ guid
 "
 )
 ;
-title
+origin
 .
 textContent
 =
@@ -227,7 +227,7 @@ _login
 guid
 )
 ;
-title
+origin
 .
 textContent
 =
@@ -235,7 +235,7 @@ this
 .
 _login
 .
-title
+origin
 ;
 username
 .
@@ -246,22 +246,6 @@ this
 _login
 .
 username
-.
-trim
-(
-)
-|
-|
-this
-.
-getAttribute
-(
-"
-missing
--
-username
-"
-)
 ;
 }
 handleEvent
