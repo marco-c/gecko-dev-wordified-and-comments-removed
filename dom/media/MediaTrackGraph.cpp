@@ -13732,6 +13732,12 @@ AssertOnGraphThreadOrNotRunning
 (
 )
 ;
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 auto
 directListeners
 (
