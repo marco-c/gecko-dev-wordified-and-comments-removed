@@ -13,9 +13,6 @@ mark
 "
 mark1
 "
-"
-responseStart
-"
 )
 ;
 self
@@ -40,9 +37,6 @@ mark
 (
 "
 mark2
-"
-"
-responseStart
 "
 )
 ;
