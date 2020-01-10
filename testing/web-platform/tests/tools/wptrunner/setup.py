@@ -357,10 +357,6 @@ requirements_files
 )
 ]
       
-install_requires
-=
-deps
-      
 )
 if
 "
