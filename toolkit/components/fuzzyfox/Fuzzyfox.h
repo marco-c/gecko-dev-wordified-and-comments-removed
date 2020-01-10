@@ -120,11 +120,6 @@ aNewTimeStamp
 )
 ;
 uint64_t
-GetClockGrain
-(
-)
-;
-uint64_t
 FloorToGrain
 (
 uint64_t
@@ -194,14 +189,6 @@ bool
 Relaxed
 >
 sFuzzyfoxEnabledPrefMapped
-;
-static
-Atomic
-<
-uint32_t
-Relaxed
->
-sFuzzyfoxClockGrain
 ;
 }
 ;
