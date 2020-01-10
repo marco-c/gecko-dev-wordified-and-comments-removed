@@ -486,6 +486,11 @@ signing
 msi
 :
 repackage
+langpack
+-
+copy
+:
+signing
 platform_names
 :
 filename_platform
@@ -2026,7 +2031,11 @@ Firefox
 from
 :
 -
-build
+langpack
+-
+copy
+-
+signing
 only_for_platforms
 :
 -
