@@ -170,9 +170,10 @@ lists
 var
 pref
 =
+await
 SpecialPowers
 .
-getCharPref
+getParentCharPref
 (
 PREFS
 .
@@ -199,9 +200,10 @@ pref
 ;
 pref
 =
+await
 SpecialPowers
 .
-getCharPref
+getParentCharPref
 (
 PREFS
 .
