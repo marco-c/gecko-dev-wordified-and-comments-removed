@@ -1595,6 +1595,16 @@ return
 nullptr
 ;
 }
+if
+(
+StaticPrefs
+:
+:
+dom_formdata_event_enabled
+(
+)
+)
+{
 formData
 =
 formData
@@ -1604,6 +1614,7 @@ Clone
 (
 )
 ;
+}
 }
 return
 formData
