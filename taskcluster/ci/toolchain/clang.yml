@@ -947,6 +947,8 @@ alias
 :
 linux64
 -
+clang
+-
 aarch64
 -
 cross
