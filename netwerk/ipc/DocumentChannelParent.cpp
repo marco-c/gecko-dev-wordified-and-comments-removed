@@ -1088,8 +1088,9 @@ CanSend
 Unused
 <
 <
-SendCancelForProcessSwitch
+SendDisconnectChildListeners
 (
+NS_BINDING_ABORTED
 )
 ;
 }

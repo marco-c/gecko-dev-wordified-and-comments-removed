@@ -205,8 +205,12 @@ ipc
 :
 :
 IPCResult
-RecvCancelForProcessSwitch
+RecvDisconnectChildListeners
 (
+const
+nsresult
+&
+aStatus
 )
 ;
 mozilla
