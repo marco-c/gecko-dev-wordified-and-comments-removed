@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsIClassifiedChannel
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -514,7 +521,7 @@ track
 -
 "
 )
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -532,7 +539,7 @@ track
 -
 "
 )
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -550,7 +557,7 @@ track
 -
 "
 )
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -568,7 +575,7 @@ track
 -
 "
 )
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -588,7 +595,7 @@ TablesToClassificationFlags
 (
 aList
 sClassificationData
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags

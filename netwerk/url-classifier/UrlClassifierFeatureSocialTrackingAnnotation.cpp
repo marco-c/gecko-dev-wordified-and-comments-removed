@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIClassifiedChannel
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -524,7 +531,7 @@ facebook
 -
 "
 )
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -546,7 +553,7 @@ linkedin
 -
 "
 )
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -568,7 +575,7 @@ twitter
 -
 "
 )
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -588,7 +595,7 @@ TablesToClassificationFlags
 (
 aList
 sClassificationData
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags

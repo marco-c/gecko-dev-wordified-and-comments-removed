@@ -704,9 +704,9 @@ rejectedReason
 ;
 nsCOMPtr
 <
-nsIHttpChannel
+nsIClassifiedChannel
 >
-httpChannel
+classifiedChannel
 =
 do_QueryInterface
 (
@@ -715,12 +715,12 @@ aChannel
 ;
 if
 (
-httpChannel
+classifiedChannel
 )
 {
 isTrackingResource
 =
-httpChannel
+classifiedChannel
 -
 >
 IsTrackingResource
@@ -734,7 +734,7 @@ AntiTrackingCommon
 :
 IsFirstPartyStorageAccessGrantedFor
 (
-httpChannel
+aChannel
 uri
 &
 rejectedReason

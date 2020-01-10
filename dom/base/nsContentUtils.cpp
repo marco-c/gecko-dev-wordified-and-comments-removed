@@ -1342,6 +1342,13 @@ h
 #
 include
 "
+nsIClassifiedChannel
+.
+h
+"
+#
+include
+"
 nsIHttpChannelInternal
 .
 h
@@ -40104,9 +40111,9 @@ false
 }
 nsCOMPtr
 <
-nsIHttpChannel
+nsIClassifiedChannel
 >
-httpChannel
+classifiedChannel
 =
 do_QueryInterface
 (
@@ -40121,7 +40128,7 @@ GetChannel
 if
 (
 !
-httpChannel
+classifiedChannel
 )
 {
 return
@@ -40129,7 +40136,7 @@ false
 ;
 }
 return
-httpChannel
+classifiedChannel
 -
 >
 IsTrackingResource
@@ -40176,9 +40183,9 @@ false
 }
 nsCOMPtr
 <
-nsIHttpChannel
+nsIClassifiedChannel
 >
-httpChannel
+classifiedChannel
 =
 do_QueryInterface
 (
@@ -40193,7 +40200,7 @@ GetChannel
 if
 (
 !
-httpChannel
+classifiedChannel
 )
 {
 return
@@ -40201,7 +40208,7 @@ false
 ;
 }
 return
-httpChannel
+classifiedChannel
 -
 >
 IsThirdPartyTrackingResource

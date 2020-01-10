@@ -184,7 +184,7 @@ CLASSIFIED_
 tracking
 flags
 from
-nsHttpChannel
+nsIClassifiedChannel
 .
 idl
 *

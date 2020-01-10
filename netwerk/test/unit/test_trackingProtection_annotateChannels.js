@@ -169,7 +169,7 @@ QueryInterface
 (
 Ci
 .
-nsIHttpChannel
+nsIClassifiedChannel
 )
 .
 isTrackingResource

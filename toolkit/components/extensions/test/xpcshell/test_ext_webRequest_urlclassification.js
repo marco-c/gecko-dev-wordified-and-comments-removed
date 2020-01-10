@@ -124,7 +124,7 @@ keys
 (
 Ci
 .
-nsIHttpChannel
+nsIClassifiedChannel
 )
 .
 filter

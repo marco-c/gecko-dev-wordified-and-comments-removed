@@ -2664,7 +2664,7 @@ privacy_annotate_channels_strict_list_enabled
 (
 aFlag
 &
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -2691,7 +2691,7 @@ privacy_socialtracking_block_cookies_enabled
 (
 aFlag
 &
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -2709,7 +2709,7 @@ return
 (
 aFlag
 &
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -2733,7 +2733,7 @@ if
 (
 aFlag
 &
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
@@ -2759,7 +2759,7 @@ privacy_annotate_channels_strict_list_enabled
 (
 aFlag
 &
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
