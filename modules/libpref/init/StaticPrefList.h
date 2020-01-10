@@ -1324,7 +1324,7 @@ enabled
 "
 browser_contentblocking_database_enabled
 bool
-true
+false
 )
 VARCACHE_PREF
 (
