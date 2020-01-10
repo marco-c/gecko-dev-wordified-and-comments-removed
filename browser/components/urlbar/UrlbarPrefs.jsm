@@ -260,6 +260,12 @@ false
 ]
 [
 "
+searchIcon
+"
+false
+]
+[
+"
 oneOffSearches
 "
 false
