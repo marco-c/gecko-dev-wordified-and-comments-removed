@@ -929,6 +929,9 @@ true
 }
 )
 ;
+return
+true
+;
 }
 onContextMenuTree
 :
