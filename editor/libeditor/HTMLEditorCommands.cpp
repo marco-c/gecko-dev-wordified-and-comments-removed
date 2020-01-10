@@ -2979,6 +2979,12 @@ NS_ERROR_INVALID_ARG
 }
 if
 (
+!
+aPrincipal
+)
+{
+if
+(
 aNewState
 .
 EqualsLiteral
@@ -3093,6 +3099,7 @@ return
 rv
 ;
 }
+}
 if
 (
 aNewState
@@ -3112,6 +3119,7 @@ normal
 )
 )
 {
+nsresult
 rv
 =
 aHTMLEditor
@@ -3149,6 +3157,7 @@ return
 rv
 ;
 }
+nsresult
 rv
 =
 aHTMLEditor
