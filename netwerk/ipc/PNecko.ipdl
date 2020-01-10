@@ -623,7 +623,7 @@ bool
 isHttps
 OriginAttributes
 originAttributes
-uint32_t
+uint16_t
 flags
 )
 ;
@@ -636,7 +636,7 @@ bool
 isHttps
 OriginAttributes
 originAttributes
-uint32_t
+uint16_t
 flags
 nsresult
 reason
