@@ -491,8 +491,6 @@ toggleNetworkDetails
 PropTypes
 .
 func
-.
-isRequired
 openNetworkDetails
 :
 PropTypes
