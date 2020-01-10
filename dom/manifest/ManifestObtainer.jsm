@@ -615,6 +615,11 @@ const
 reqInit
 =
 {
+credentials
+:
+"
+omit
+"
 mode
 :
 "
