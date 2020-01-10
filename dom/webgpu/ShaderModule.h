@@ -1,9 +1,9 @@
 #
 ifndef
-WEBGPU_ShaderModule_H_
+GPU_ShaderModule_H_
 #
 define
-WEBGPU_ShaderModule_H_
+GPU_ShaderModule_H_
 #
 include
 "
@@ -32,6 +32,8 @@ ShaderModule
 final
 :
 public
+ObjectBase
+public
 ChildOf
 <
 Device
@@ -39,7 +41,11 @@ Device
 {
 public
 :
-WEBGPU_DECL_GOOP
+GPU_DECL_CYCLE_COLLECTION
+(
+ShaderModule
+)
+GPU_DECL_JS_WRAP
 (
 ShaderModule
 )

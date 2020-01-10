@@ -1,9 +1,9 @@
 #
 ifndef
-WEBGPU_CommandBuffer_H_
+GPU_CommandBuffer_H_
 #
 define
-WEBGPU_CommandBuffer_H_
+GPU_CommandBuffer_H_
 #
 include
 "
@@ -32,6 +32,8 @@ CommandBuffer
 final
 :
 public
+ObjectBase
+public
 ChildOf
 <
 Device
@@ -39,7 +41,11 @@ Device
 {
 public
 :
-WEBGPU_DECL_GOOP
+GPU_DECL_CYCLE_COLLECTION
+(
+CommandBuffer
+)
+GPU_DECL_JS_WRAP
 (
 CommandBuffer
 )

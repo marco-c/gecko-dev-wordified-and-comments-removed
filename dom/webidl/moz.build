@@ -6006,6 +6006,11 @@ GamepadEvent
 webidl
 '
 '
+GPUUncapturedErrorEvent
+.
+webidl
+'
+'
 HashChangeEvent
 .
 webidl
