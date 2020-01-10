@@ -51,6 +51,7 @@ mozilla
 .
 automation
 import
+TBPL_SUCCESS
 TBPL_RETRY
 TBPL_WORST_LEVEL_TUPLE
 from
@@ -6386,6 +6387,18 @@ found_perf_data
 =
 [
 ]
+        
+self
+.
+tbpl_status
+=
+TBPL_SUCCESS
+        
+self
+.
+worst_log_level
+=
+INFO
         
 self
 .
