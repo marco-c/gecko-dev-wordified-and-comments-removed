@@ -398,6 +398,11 @@ flags
 unsigned
 long
 long
+layersId
+;
+unsigned
+long
+long
 scrollId
 ;
 }

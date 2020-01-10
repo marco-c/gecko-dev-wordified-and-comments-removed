@@ -13205,6 +13205,13 @@ syncFlushCompositor
 (
 )
 ;
+unsigned
+long
+long
+getLayersId
+(
+)
+;
 }
 ;
 [

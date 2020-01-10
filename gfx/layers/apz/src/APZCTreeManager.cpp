@@ -6239,6 +6239,9 @@ mOrigin
 hitResult
 guid
 .
+mLayersId
+guid
+.
 mScrollId
 )
 ;
