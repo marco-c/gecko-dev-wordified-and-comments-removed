@@ -214,7 +214,7 @@ is_child_four_loaded
 false
 ;
 var
-is_child_five_loaded
+is_child_two_loaded
 =
 false
 ;
@@ -246,7 +246,7 @@ if
 is_child_four_loaded
 &
 &
-is_child_five_loaded
+is_child_two_loaded
 )
 test_driver
 .
@@ -432,7 +432,7 @@ type
 '
 child
 -
-five
+two
 -
 loaded
 '
@@ -471,7 +471,7 @@ both
 child
 frames
 load
-is_child_five_loaded
+is_child_two_loaded
 =
 true
 ;
@@ -491,7 +491,7 @@ type
 '
 child
 -
-five
+two
 -
 report
 '
@@ -598,7 +598,7 @@ contentWindow
 postMessage
 (
 "
-transfer_user_activation
+report
 "
 {
 targetOrigin
@@ -729,7 +729,7 @@ resources
 /
 child
 -
-five
+two
 .
 html
 "
