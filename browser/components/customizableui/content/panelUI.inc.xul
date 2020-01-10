@@ -7781,8 +7781,11 @@ oncommand
 "
 gSync
 .
-openFxAEmailFirstPageFromFxaMenu
+openPrefsFromFxaMenu
 (
+'
+send_tab
+'
 this
 )
 ;
