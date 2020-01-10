@@ -5,11 +5,7 @@ tooltool
 manifest
 .
 cd
-WORKSPACE
-/
-build
-/
-src
+GECKO_PATH
 case
 "
 uname
