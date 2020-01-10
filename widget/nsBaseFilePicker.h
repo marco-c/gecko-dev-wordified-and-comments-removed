@@ -297,7 +297,7 @@ mMode
 nsString
 mOkButtonLabel
 ;
-InfallibleTArray
+nsTArray
 <
 nsString
 >

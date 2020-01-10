@@ -94,7 +94,7 @@ ContentCache
 public
 :
 typedef
-InfallibleTArray
+nsTArray
 <
 LayoutDeviceIntRect
 >

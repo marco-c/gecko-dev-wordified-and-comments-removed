@@ -323,13 +323,13 @@ mDefaultExtension
 bool
 mIPCActive
 ;
-InfallibleTArray
+nsTArray
 <
 nsString
 >
 mFilters
 ;
-InfallibleTArray
+nsTArray
 <
 nsString
 >
