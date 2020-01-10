@@ -929,17 +929,6 @@ volume
 ;
 CUBEB_EXPORT
 int
-cubeb_stream_set_panning
-(
-cubeb_stream
-*
-stream
-float
-panning
-)
-;
-CUBEB_EXPORT
-int
 cubeb_stream_get_current_device
 (
 cubeb_stream

@@ -38,9 +38,6 @@ mod
 mixer
 ;
 mod
-panner
-;
-mod
 resampler
 ;
 mod
@@ -98,13 +95,6 @@ log
 pub
 use
 mixer
-:
-:
-*
-;
-pub
-use
-panner
 :
 :
 *

@@ -448,11 +448,6 @@ cubeb_resampler
 cpp
 src
 /
-cubeb_panner
-.
-cpp
-src
-/
 cubeb_log
 .
 cpp
@@ -950,6 +945,7 @@ target_link_libraries
 cubeb
 PRIVATE
 pulse
+pthread
 )
 if
 (
@@ -1476,6 +1472,7 @@ libcubeb_pulse
 .
 a
 "
+pulse
 )
 endif
 (

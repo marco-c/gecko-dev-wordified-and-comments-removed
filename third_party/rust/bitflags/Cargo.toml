@@ -120,9 +120,9 @@ version
 "
 1
 .
-0
+2
 .
-4
+0
 "
 authors
 =
@@ -134,6 +134,13 @@ Project
 Developers
 "
 ]
+build
+=
+"
+build
+.
+rs
+"
 exclude
 =
 [
