@@ -706,7 +706,7 @@ cx
 ;
 MOZ_MUST_USE
 bool
-IsPromiseForAsync
+IsPromiseForAsyncFunctionOrGenerator
 (
 JSObject
 *
