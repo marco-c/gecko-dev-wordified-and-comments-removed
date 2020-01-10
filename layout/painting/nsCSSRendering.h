@@ -2055,6 +2055,13 @@ icoordInFrame
 .
 0f
 ;
+Float
+baselineOffset
+=
+0
+.
+0f
+;
 }
 ;
 static
