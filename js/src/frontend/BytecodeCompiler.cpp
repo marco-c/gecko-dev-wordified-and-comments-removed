@@ -719,26 +719,6 @@ BytecodeCompiler
 info
 )
 {
-JSContext
-*
-cx
-=
-info
-.
-cx
-;
-RootedObject
-global
-(
-cx
-cx
--
->
-global
-(
-)
-)
-;
 uint32_t
 toStringStart
 =
@@ -763,7 +743,6 @@ info
 .
 internalCreateScript
 (
-global
 toStringStart
 toStringEnd
 len
@@ -1513,8 +1492,6 @@ createFunctionScript
 StandaloneFunctionInfo
 &
 info
-HandleObject
-function
 uint32_t
 toStringStart
 uint32_t
@@ -1526,7 +1503,6 @@ info
 .
 internalCreateScript
 (
-function
 toStringStart
 toStringEnd
 sourceBuffer_
@@ -2202,8 +2178,6 @@ BytecodeCompiler
 :
 internalCreateScript
 (
-HandleObject
-functionOrGlobal
 uint32_t
 toStringStart
 uint32_t
@@ -2220,7 +2194,6 @@ JSScript
 Create
 (
 cx
-functionOrGlobal
 options
 sourceObject
 0
@@ -3263,7 +3236,6 @@ if
 createFunctionScript
 (
 info
-fun
 funbox
 -
 >
@@ -3619,12 +3591,6 @@ JSScript
 Create
 (
 cx
-cx
--
->
-global
-(
-)
 options
 sourceObj
 0
@@ -5220,7 +5186,6 @@ JSScript
 Create
 (
 cx
-fun
 options
 sourceObj
 lazy
