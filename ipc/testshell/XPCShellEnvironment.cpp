@@ -300,6 +300,9 @@ XPCShellEnvironment
 *
 Environment
 (
+JS
+:
+:
 Handle
 <
 JSObject
