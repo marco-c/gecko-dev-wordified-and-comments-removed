@@ -316,7 +316,7 @@ SensorPtr
 ;
 this
 .
-clientRequest
+clientReceiver
 =
 new
 bindings
@@ -719,7 +719,7 @@ SensorPtr
 ;
 val
 .
-clientRequest
+clientReceiver
 =
 decoder
 .
@@ -897,7 +897,7 @@ codec
 InterfaceRequest
 val
 .
-clientRequest
+clientReceiver
 )
 ;
 encoder
