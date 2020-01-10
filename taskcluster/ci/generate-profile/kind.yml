@@ -188,6 +188,13 @@ b
 linux
 worker
 :
+env
+:
+NEED_XVFB
+:
+"
+true
+"
 max
 -
 run
