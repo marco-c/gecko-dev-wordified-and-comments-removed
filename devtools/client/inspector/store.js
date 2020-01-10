@@ -50,9 +50,6 @@ createStore
 (
 reducers
 {
-disableTask
-:
-true
 shouldLog
 :
 true

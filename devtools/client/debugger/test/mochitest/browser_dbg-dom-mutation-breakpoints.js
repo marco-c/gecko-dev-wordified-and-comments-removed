@@ -154,7 +154,7 @@ DMB_TEST_URL
 info
 (
 "
-Sellecting
+Selecting
 the
 body
 node
@@ -510,11 +510,11 @@ info
 (
 "
 Removing
-a
-breakpoint
+breakpoints
 works
 "
 )
+;
 dbg
 .
 win
@@ -549,6 +549,7 @@ dbg
 domMutationItem
 "
 1
+true
 )
 ;
 }

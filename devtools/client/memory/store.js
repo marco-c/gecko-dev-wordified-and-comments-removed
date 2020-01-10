@@ -46,6 +46,9 @@ createStore
 (
 reducers
 {
+enableTaskMiddleware
+:
+true
 }
 )
 ;
