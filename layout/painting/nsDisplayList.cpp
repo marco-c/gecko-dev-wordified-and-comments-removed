@@ -21685,7 +21685,7 @@ uint16_t
 nsDisplayBackgroundImage
 :
 :
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -25931,7 +25931,7 @@ uint16_t
 nsDisplayTableBackgroundImage
 :
 :
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -29509,7 +29509,7 @@ uint16_t
 nsDisplayCompositorHitTestInfo
 :
 :
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -29618,7 +29618,7 @@ uint16_t
 nsDisplayCompositorHitTestInfo
 :
 :
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
