@@ -727,6 +727,18 @@ FrameConstructionItem
 class
 FrameConstructionItemList
 ;
+void
+SetRootElementFrameAndConstructCanvasAnonContent
+(
+nsContainerFrame
+*
+aRootElementFrame
+nsFrameConstructorState
+&
+nsFrameList
+&
+)
+;
 nsContainerFrame
 *
 ConstructPageFrame
@@ -5240,6 +5252,8 @@ aFrame
 nsIContent
 *
 aDocElement
+nsFrameList
+&
 )
 ;
 public
