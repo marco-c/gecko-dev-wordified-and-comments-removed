@@ -74,10 +74,8 @@ continue
 var
 t
 =
-new
-Object
-(
-)
+{
+}
 ;
 t
 .
