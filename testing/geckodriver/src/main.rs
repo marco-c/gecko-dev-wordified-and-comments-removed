@@ -78,6 +78,10 @@ serde_json
 ;
 extern
 crate
+serde_yaml
+;
+extern
+crate
 uuid
 ;
 extern
