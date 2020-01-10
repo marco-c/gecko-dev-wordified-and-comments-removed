@@ -6730,6 +6730,8 @@ exec
 (
 "
 INSERT
+OR
+IGNORE
 INTO
 tagsToUpload
 (
