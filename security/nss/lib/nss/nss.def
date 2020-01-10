@@ -343,9 +343,9 @@ CERT_GetAVATag
 ;
 CERT_GetCertEmailAddress
 ;
-CERT_GetCertIssuerAndSN
-;
 CERT_GetCertNicknames
+;
+CERT_GetCertIssuerAndSN
 ;
 CERT_GetCertTrust
 ;

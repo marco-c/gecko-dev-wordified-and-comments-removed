@@ -64,9 +64,6 @@ CORE_DEPTH
 /
 .
 .
-DIRS
-=
-testlib
 MODULE
 =
 nss
