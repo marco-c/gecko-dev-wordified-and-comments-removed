@@ -392,10 +392,12 @@ BUG_COMPONENT
 =
 (
 "
-Testing
+Firefox
+Build
+System
 "
 "
-General
+Try
 "
 )
 with
