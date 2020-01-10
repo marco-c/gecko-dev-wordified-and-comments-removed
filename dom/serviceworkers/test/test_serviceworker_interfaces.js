@@ -388,6 +388,9 @@ PerformanceServerTiming
 "
 ProgressEvent
 "
+"
+PromiseRejectionEvent
+"
 {
 name
 :

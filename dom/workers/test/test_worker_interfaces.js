@@ -1097,6 +1097,16 @@ true
 name
 :
 "
+PromiseRejectionEvent
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 PushManager
 "
 insecureContext

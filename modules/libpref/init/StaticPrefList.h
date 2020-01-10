@@ -3086,7 +3086,7 @@ enabled
 "
 dom_promise_rejection_events_enabled
 RelaxedAtomicBool
-false
+true
 )
 VARCACHE_PREF
 (
