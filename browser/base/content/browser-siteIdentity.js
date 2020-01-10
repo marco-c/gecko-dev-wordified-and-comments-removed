@@ -3104,6 +3104,16 @@ state
 SitePermissions
 .
 BLOCK
+|
+|
+permission
+.
+state
+=
+=
+SitePermissions
+.
+AUTOPLAY_BLOCKED_ALL
 )
 {
 let
@@ -6112,6 +6122,9 @@ SitePermissions
 .
 getMultichoiceStateLabel
 (
+aPermission
+.
+id
 state
 )
 )
