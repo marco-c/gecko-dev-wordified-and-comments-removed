@@ -266,6 +266,7 @@ initialize
 accessibility
 walker
 supports
+fluentBundles
 )
 {
 await
@@ -323,6 +324,7 @@ MainFrame
 {
 accessibility
 walker
+fluentBundles
 }
 )
 ;

@@ -151,6 +151,11 @@ TextLabelBadge
 js
 '
 '
+TextLabelCheck
+.
+js
+'
+'
 Toolbar
 .
 js
