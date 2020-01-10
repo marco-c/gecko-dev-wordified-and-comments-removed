@@ -36,7 +36,7 @@ application
 <
 Connect
 (
-PageContainer
+PageSwitcher
 )
 /
 >

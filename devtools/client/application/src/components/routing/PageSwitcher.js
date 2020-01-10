@@ -125,7 +125,7 @@ WorkersPage
 )
 ;
 class
-PageContainer
+PageSwitcher
 extends
 PureComponent
 {
@@ -257,6 +257,6 @@ connect
 mapStateToProps
 )
 (
-PageContainer
+PageSwitcher
 )
 ;

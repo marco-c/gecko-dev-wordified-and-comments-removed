@@ -58,7 +58,7 @@ DIRS
 =
 [
 '
-layout
+routing
 '
 '
 manifest

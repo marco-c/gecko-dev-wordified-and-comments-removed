@@ -56,7 +56,7 @@ MPL
 DevToolsModules
 (
 '
-PageContainer
+PageSwitcher
 .
 js
 '

@@ -101,7 +101,7 @@ LocalizationProvider
 )
 ;
 const
-PageContainer
+PageSwitcher
 =
 createFactory
 (
@@ -110,9 +110,9 @@ require
 "
 .
 /
-layout
+routing
 /
-PageContainer
+PageSwitcher
 "
 )
 )
@@ -168,7 +168,7 @@ className
 :
 application
 }
-PageContainer
+PageSwitcher
 (
 {
 }

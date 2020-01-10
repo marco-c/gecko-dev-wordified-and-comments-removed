@@ -62,7 +62,7 @@ helpers
 )
 ;
 const
-PageContainer
+PageSwitcher
 =
 createFactory
 (
@@ -79,9 +79,9 @@ src
 /
 components
 /
-layout
+routing
 /
-PageContainer
+PageSwitcher
 "
 )
 )
@@ -109,7 +109,7 @@ constants
 describe
 (
 "
-PageContainer
+PageSwitcher
 "
 (
 )
@@ -190,7 +190,7 @@ wrapper
 =
 shallow
 (
-PageContainer
+PageSwitcher
 (
 {
 store
@@ -247,7 +247,7 @@ wrapper
 =
 shallow
 (
-PageContainer
+PageSwitcher
 (
 {
 store
@@ -300,7 +300,7 @@ wrapper
 =
 shallow
 (
-PageContainer
+PageSwitcher
 (
 {
 store
@@ -368,7 +368,7 @@ wrapper
 =
 shallow
 (
-PageContainer
+PageSwitcher
 (
 {
 store

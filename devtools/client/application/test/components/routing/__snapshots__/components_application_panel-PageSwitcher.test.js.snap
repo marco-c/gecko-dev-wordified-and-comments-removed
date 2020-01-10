@@ -14,7 +14,7 @@ gl
 fbAQLP
 exports
 [
-PageContainer
+PageSwitcher
 renders
 nothing
 when
@@ -31,7 +31,7 @@ selected
 ;
 exports
 [
-PageContainer
+PageSwitcher
 renders
 nothing
 when
@@ -47,7 +47,7 @@ selected
 ;
 exports
 [
-PageContainer
+PageSwitcher
 renders
 the
 ManifestPage
@@ -67,7 +67,7 @@ ManifestPage
 ;
 exports
 [
-PageContainer
+PageSwitcher
 renders
 the
 WorkersPage
