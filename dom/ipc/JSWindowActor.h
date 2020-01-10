@@ -113,10 +113,11 @@ Child
 ;
 enum
 class
-DestroyCallbackFunction
+CallbackFunction
 {
 WillDestroy
 DidDestroy
+ActorCreated
 }
 ;
 const
@@ -291,9 +292,9 @@ AfterDestroy
 )
 ;
 void
-DestroyCallback
+InvokeCallback
 (
-DestroyCallbackFunction
+CallbackFunction
 willDestroy
 )
 ;
