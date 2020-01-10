@@ -89,6 +89,12 @@ load
 1
 .
 html
+skip
+-
+if
+(
+Android
+)
 pref
 (
 dom
@@ -100,6 +106,10 @@ load
 914521
 .
 html
+#
+Android
+bug
+1584562
 pref
 (
 browser
