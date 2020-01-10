@@ -73,10 +73,6 @@ python
 /
 mach
 -
-python
-/
-mozbuild
--
 security
 -
 servo
