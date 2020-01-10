@@ -253,6 +253,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+BrowsingContext
+.
+h
+"
+#
+include
+"
 nsEmbedCID
 .
 h
