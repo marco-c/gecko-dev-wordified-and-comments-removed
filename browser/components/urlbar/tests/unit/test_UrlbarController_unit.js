@@ -537,7 +537,7 @@ param
 ;
 controller
 .
-_notify
+notify
 (
 "
 onFake
@@ -663,7 +663,7 @@ listener1
 ;
 controller
 .
-_notify
+notify
 (
 "
 onNewFake
