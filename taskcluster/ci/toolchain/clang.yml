@@ -507,13 +507,6 @@ json
 '
 toolchain
 -
-alias
-:
-linux64
--
-clang
-toolchain
--
 artifact
 :
 public
