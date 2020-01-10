@@ -50,7 +50,7 @@ include
 "
 mozilla
 /
-Range
+Span
 .
 h
 "
@@ -478,12 +478,12 @@ T
 mozilla
 :
 :
-Range
+Span
 <
 const
 T
 >
-rangeOf
+spanOf
 (
 const
 T
@@ -3940,7 +3940,7 @@ IsStructurallyValidLanguageTag
 (
 language
 .
-rangeOf
+spanOf
 (
 baseName
 )
@@ -3981,7 +3981,7 @@ IsStructurallyValidScriptTag
 script
 -
 >
-rangeOf
+spanOf
 (
 baseName
 )
@@ -4023,7 +4023,7 @@ IsStructurallyValidRegionTag
 region
 -
 >
-rangeOf
+spanOf
 (
 baseName
 )
