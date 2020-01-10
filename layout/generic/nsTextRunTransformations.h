@@ -199,6 +199,11 @@ mForceNonFullWidth
 =
 false
 ;
+bool
+mMaskPassword
+=
+false
+;
 private
 :
 ~
