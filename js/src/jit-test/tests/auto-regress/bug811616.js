@@ -1,0 +1,12 @@
+"
+"
+.
+replace
+(
+RegExp
+(
+)
+Array
+.
+reduce
+)

@@ -135,11 +135,7 @@ function
 return
 Array
 .
-prototype
-.
 slice
-.
-call
 (
 b
 )

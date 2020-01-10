@@ -3,11 +3,7 @@ x
 =
 Array
 .
-prototype
-.
 concat
-.
-call
 (
 Object
 .
