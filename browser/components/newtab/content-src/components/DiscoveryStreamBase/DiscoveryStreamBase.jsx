@@ -1279,6 +1279,13 @@ component
 .
 data
 }
+feed
+=
+{
+component
+.
+feed
+}
 fullWidth
 =
 {

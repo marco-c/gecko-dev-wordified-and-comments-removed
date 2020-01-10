@@ -2302,6 +2302,13 @@ div
 >
 <
 button
+aria
+-
+haspopup
+=
+"
+true
+"
 className
 =
 "
@@ -2565,6 +2572,13 @@ false
 >
 <
 button
+aria
+-
+haspopup
+=
+"
+true
+"
 className
 =
 "

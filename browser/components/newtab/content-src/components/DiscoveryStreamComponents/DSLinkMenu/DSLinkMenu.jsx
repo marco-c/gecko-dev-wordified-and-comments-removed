@@ -355,6 +355,13 @@ this
 .
 contextMenuButtonRef
 }
+aria
+-
+haspopup
+=
+"
+true
+"
 className
 =
 "

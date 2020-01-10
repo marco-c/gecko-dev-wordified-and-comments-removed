@@ -392,7 +392,7 @@ section_disclaimer_topstories_buttontext
 "
 :
 "
-Ok
+OK
 am
 n
 eles
