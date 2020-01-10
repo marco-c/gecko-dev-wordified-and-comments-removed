@@ -14093,6 +14093,11 @@ mHttpChannel
 nsIProtocolProxyService
 :
 :
+RESOLVE_PREFER_SOCKS_PROXY
+|
+nsIProtocolProxyService
+:
+:
 RESOLVE_PREFER_HTTPS_PROXY
 |
 nsIProtocolProxyService
@@ -17196,6 +17201,11 @@ NewChannelFromURIWithProxyFlags
 (
 localURI
 mURI
+nsIProtocolProxyService
+:
+:
+RESOLVE_PREFER_SOCKS_PROXY
+|
 nsIProtocolProxyService
 :
 :
