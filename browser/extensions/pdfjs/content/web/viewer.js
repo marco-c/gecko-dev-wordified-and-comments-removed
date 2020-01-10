@@ -8151,9 +8151,6 @@ print
 ;
 }
 afterPrint
-:
-function
-pdfViewSetupAfterPrint
 (
 )
 {
