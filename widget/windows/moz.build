@@ -166,11 +166,6 @@ ShellHeaderOnlyUtils
 h
 '
 '
-UrlmonHeaderOnlyUtils
-.
-h
-'
-'
 WindowsConsole
 .
 h
@@ -798,9 +793,6 @@ OS_LIBS
 [
 '
 rpcrt4
-'
-'
-urlmon
 '
 ]
 if

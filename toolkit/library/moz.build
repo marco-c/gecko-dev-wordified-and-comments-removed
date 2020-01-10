@@ -241,11 +241,6 @@ secur32
 dll
 '
 '
-urlmon
-.
-dll
-'
-'
 wininet
 .
 dll
