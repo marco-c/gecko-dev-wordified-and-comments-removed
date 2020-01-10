@@ -125,6 +125,17 @@ mozilla
 /
 layers
 /
+CompositionRecorder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 CompositorController
 .
 h
@@ -344,9 +355,6 @@ AsyncCompositionManager
 ;
 class
 AsyncImagePipelineManager
-;
-class
-CompositionRecorder
 ;
 class
 Compositor
@@ -3533,7 +3541,7 @@ CompositorAnimationStorage
 >
 mAnimationStorage
 ;
-UniquePtr
+RefPtr
 <
 CompositionRecorder
 >
