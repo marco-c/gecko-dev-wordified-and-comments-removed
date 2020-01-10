@@ -495,11 +495,14 @@ hasRaisedError
 ;
 if
 (
+MOZ_UNLIKELY
+(
 stop_
 <
 current_
 +
 len
+)
 )
 {
 return

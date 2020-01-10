@@ -715,6 +715,8 @@ ptr
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 binASTKindMap_
 .
@@ -723,6 +725,7 @@ add
 ptr
 key
 variant
+)
 )
 )
 {
@@ -831,6 +834,8 @@ ptr
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 binASTVariantMap_
 .
@@ -839,6 +844,7 @@ add
 ptr
 key
 variant
+)
 )
 )
 {
@@ -914,10 +920,13 @@ isHelperThreadContext
 {
 if
 (
+MOZ_UNLIKELY
+(
 !
 ensureBinASTKindsInitialized
 (
 cx
+)
 )
 )
 {
@@ -1018,10 +1027,13 @@ isHelperThreadContext
 {
 if
 (
+MOZ_UNLIKELY
+(
 !
 ensureBinASTVariantsInitialized
 (
 cx
+)
 )
 )
 {

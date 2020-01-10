@@ -1049,8 +1049,11 @@ traceListHead_
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 objbox
+)
 )
 {
 ReportOutOfMemory

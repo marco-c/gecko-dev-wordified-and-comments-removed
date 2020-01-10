@@ -484,11 +484,14 @@ nullptr
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 globalpc
 .
 init
 (
+)
 )
 )
 {
@@ -515,6 +518,8 @@ usedNames_
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 varScope
 .
@@ -522,6 +527,7 @@ init
 (
 &
 globalpc
+)
 )
 )
 {
@@ -596,8 +602,11 @@ pc_
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 bindings
+)
 )
 {
 return
@@ -1219,8 +1228,11 @@ atom
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 ptr
+)
 )
 {
 return
@@ -1261,12 +1273,15 @@ declaredKind
 {
 if
 (
+MOZ_UNLIKELY
+(
 !
 pc_
 -
 >
 atBodyLevel
 (
+)
 )
 )
 {
@@ -1427,8 +1442,11 @@ functionAsyncKind
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 funbox
+)
 )
 {
 return
@@ -2428,6 +2446,8 @@ Var
 :
 if
 (
+MOZ_UNLIKELY
+(
 scopeKind
 =
 =
@@ -2435,6 +2455,7 @@ AssertedScopeKind
 :
 :
 Block
+)
 )
 {
 return
@@ -2735,8 +2756,11 @@ asPropertyName
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 ptr
+)
 )
 {
 return
@@ -2891,6 +2915,8 @@ continue
 }
 if
 (
+MOZ_UNLIKELY
+(
 positionalParams
 .
 get
@@ -2899,6 +2925,7 @@ get
 [
 i
 ]
+)
 )
 {
 return
@@ -2939,6 +2966,8 @@ Name
 {
 if
 (
+MOZ_UNLIKELY
+(
 i
 >
 =
@@ -2950,6 +2979,7 @@ get
 .
 length
 (
+)
 )
 )
 {
@@ -2990,8 +3020,11 @@ i
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 name
+)
 )
 {
 return
@@ -3018,6 +3051,8 @@ parameter
 }
 if
 (
+MOZ_UNLIKELY
+(
 param
 -
 >
@@ -3034,6 +3069,7 @@ name
 !
 =
 name
+)
 )
 {
 return
@@ -3107,6 +3143,8 @@ continue
 }
 if
 (
+MOZ_UNLIKELY
+(
 positionalParams
 .
 get
@@ -3115,6 +3153,7 @@ get
 [
 i
 ]
+)
 )
 {
 return
@@ -3145,6 +3184,8 @@ i
 }
 if
 (
+MOZ_UNLIKELY
+(
 positionalParams
 .
 get
@@ -3160,6 +3201,7 @@ params
 >
 count
 (
+)
 )
 )
 {
@@ -3215,6 +3257,8 @@ expectedLength
 {
 if
 (
+MOZ_UNLIKELY
+(
 pc_
 -
 >
@@ -3227,6 +3271,7 @@ length
 !
 =
 expectedLength
+)
 )
 {
 return
@@ -3348,6 +3393,8 @@ closedOver
 ;
 if
 (
+MOZ_UNLIKELY
+(
 closedOver
 &
 &
@@ -3356,6 +3403,7 @@ bi
 .
 closedOver
 (
+)
 )
 )
 {

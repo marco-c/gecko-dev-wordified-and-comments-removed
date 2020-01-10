@@ -92,8 +92,11 @@ numStrings
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 data
+)
 )
 {
 return
