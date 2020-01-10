@@ -1604,6 +1604,13 @@ std
 string
 &
 aUfrag
+const
+std
+:
+:
+string
+&
+aObfuscatedAddress
 )
 {
 mInitPromise
@@ -1642,6 +1649,7 @@ SendAddIceCandidate
 aTransportId
 aCandidate
 aUfrag
+aObfuscatedAddress
 )
 ;
 }

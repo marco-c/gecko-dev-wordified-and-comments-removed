@@ -482,6 +482,8 @@ string
 candidate
 string
 ufrag
+string
+obfuscatedAddr
 )
 ;
 async
