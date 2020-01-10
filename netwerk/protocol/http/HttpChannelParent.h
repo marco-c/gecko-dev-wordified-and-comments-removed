@@ -397,14 +397,6 @@ uint64_t
 aIdentifier
 )
 ;
-void
-OverrideReferrerInfoDuringBeginConnect
-(
-nsIReferrerInfo
-*
-aReferrerInfo
-)
-;
 protected
 :
 MOZ_MUST_USE

@@ -1191,13 +1191,6 @@ IPCStream
 stream
 )
 ;
-async
-OverrideReferrerInfoDuringBeginConnect
-(
-nsIReferrerInfo
-referrerInfo
-)
-;
 both
 :
 /
