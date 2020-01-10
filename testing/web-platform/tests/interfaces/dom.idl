@@ -63,6 +63,9 @@ type
 optional
 EventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =
@@ -276,6 +279,9 @@ type
 optional
 CustomEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =
@@ -358,6 +364,9 @@ or
 boolean
 )
 options
+=
+{
+}
 )
 ;
 void
@@ -375,6 +384,9 @@ or
 boolean
 )
 options
+=
+{
+}
 )
 ;
 boolean
@@ -826,6 +838,9 @@ target
 optional
 MutationObserverInit
 options
+=
+{
+}
 )
 ;
 void
@@ -1095,6 +1110,9 @@ getRootNode
 optional
 GetRootNodeOptions
 options
+=
+{
+}
 )
 ;
 readonly
@@ -1474,6 +1492,9 @@ or
 ElementCreationOptions
 )
 options
+=
+{
+}
 )
 ;
 [
@@ -1495,6 +1516,9 @@ or
 ElementCreationOptions
 )
 options
+=
+{
+}
 )
 ;
 [
@@ -2070,8 +2094,12 @@ attr
 ShadowRoot
 attachShadow
 (
+optional
 ShadowRootInit
 init
+=
+{
+}
 )
 ;
 readonly
