@@ -927,6 +927,9 @@ mLayersId
 HitTestingTreeNodeAutoLock
 mScrollbarNode
 ;
+SideBits
+mFixedPosSides
+;
 HitTestResult
 (
 )
