@@ -609,6 +609,17 @@ bool
 Optional
 (
 '
+gecko
+-
+profile
+'
+)
+:
+bool
+    
+Optional
+(
+'
 visual
 -
 metrics
