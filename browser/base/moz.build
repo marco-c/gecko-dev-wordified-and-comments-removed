@@ -501,6 +501,17 @@ content
 /
 test
 /
+siteProtections
+/
+browser
+.
+ini
+'
+'
+content
+/
+test
+/
 static
 /
 browser
