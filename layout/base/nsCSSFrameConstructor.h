@@ -5251,7 +5251,7 @@ ConstructAnonymousContentForCanvas
 nsFrameConstructorState
 &
 aState
-nsIFrame
+nsContainerFrame
 *
 aFrame
 nsIContent
