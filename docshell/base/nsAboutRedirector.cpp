@@ -428,11 +428,6 @@ nsIAboutModule
 :
 :
 URI_SAFE_FOR_UNTRUSTED_CONTENT
-|
-nsIAboutModule
-:
-:
-MAKE_LINKABLE
 }
 {
 "
