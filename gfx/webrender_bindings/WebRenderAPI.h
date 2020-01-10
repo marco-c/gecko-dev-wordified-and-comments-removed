@@ -1234,6 +1234,13 @@ Capture
 )
 ;
 void
+SetTransactionLogging
+(
+bool
+aValue
+)
+;
+void
 SetCompositionRecorder
 (
 UniquePtr

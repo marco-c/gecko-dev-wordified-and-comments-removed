@@ -3445,6 +3445,10 @@ SimulateLongLowPrioritySceneBuild
 (
 u32
 )
+SetTransactionLogging
+(
+bool
+)
 }
 #
 [
@@ -5371,14 +5375,6 @@ OBSCURE_IMAGES
 <
 <
 24
-;
-const
-LOG_TRANSACTIONS
-=
-1
-<
-<
-25
 ;
 }
 }

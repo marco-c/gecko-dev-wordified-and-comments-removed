@@ -12742,6 +12742,14 @@ EnableDualSourceBlending
 (
 _
 )
+|
+DebugCommand
+:
+:
+SetTransactionLogging
+(
+_
+)
 =
 >
 {
