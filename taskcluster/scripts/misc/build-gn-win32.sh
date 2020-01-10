@@ -35,7 +35,7 @@ export
 PATH
 =
 "
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 ninja
 /
@@ -47,7 +47,7 @@ export
 PATH
 =
 "
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 mingw64
 /

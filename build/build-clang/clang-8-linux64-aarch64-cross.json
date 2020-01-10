@@ -51,8 +51,6 @@ workspace
 /
 build
 /
-src
-/
 gcc
 "
 "
@@ -68,8 +66,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 gcc
 /
@@ -90,8 +86,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 gcc
 /
@@ -114,8 +108,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 gcc
 /

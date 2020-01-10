@@ -127,7 +127,7 @@ libtapi
 build
 CLANG_DIR
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 clang
 #
@@ -162,7 +162,7 @@ export
 PATH
 =
 "
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 binutils
 /

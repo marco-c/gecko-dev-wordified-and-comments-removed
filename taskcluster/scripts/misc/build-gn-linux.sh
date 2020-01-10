@@ -30,7 +30,7 @@ xz
 export
 CC
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 gcc
 /
@@ -40,7 +40,7 @@ gcc
 export
 CXX
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 gcc
 /

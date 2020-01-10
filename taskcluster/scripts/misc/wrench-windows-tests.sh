@@ -117,13 +117,13 @@ rustc
 /
 bin
 :
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 cmake
 /
 bin
 :
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 ninja
 /

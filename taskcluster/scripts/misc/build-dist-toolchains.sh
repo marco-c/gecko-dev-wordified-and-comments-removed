@@ -44,6 +44,8 @@ tooltool
 download
 .
 sh
+MOZ_FETCHES_DIR
+/
 sccache
 /
 sccache
@@ -52,7 +54,7 @@ sccache
 package
 -
 toolchain
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 TL_NAME
 /

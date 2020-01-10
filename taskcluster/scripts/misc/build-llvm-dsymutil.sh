@@ -65,7 +65,7 @@ X86
 -
 DCMAKE_C_COMPILER
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 gcc
 /
@@ -78,7 +78,7 @@ gcc
 export
 LD_LIBRARY_PATH
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 gcc
 /

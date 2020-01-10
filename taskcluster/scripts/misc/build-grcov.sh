@@ -131,7 +131,7 @@ PATH
 "
 (
 cd
-GECKO_PATH
+MOZ_FETCHES_DIR
 &
 &
 pwd

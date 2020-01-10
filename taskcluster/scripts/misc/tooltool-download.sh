@@ -5,7 +5,7 @@ tooltool
 manifest
 .
 cd
-GECKO_PATH
+MOZ_FETCHES_DIR
 case
 "
 uname
@@ -175,7 +175,9 @@ cache
 }
 export
 TOOLTOOL_CACHE
-.
+{
+GECKO_PATH
+}
 /
 mach
 artifact
@@ -195,6 +197,10 @@ tooltool
 -
 manifest
 "
+{
+GECKO_PATH
+}
+/
 {
 TOOLTOOL_MANIFEST
 }

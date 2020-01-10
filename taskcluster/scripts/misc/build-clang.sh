@@ -48,7 +48,7 @@ if
 -
 d
 "
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 binutils
 /
@@ -61,7 +61,7 @@ export
 PATH
 =
 "
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 binutils
 /
@@ -93,13 +93,13 @@ py
 export
 CROSS_CCTOOLS_PATH
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 cctools
 export
 CROSS_SYSROOT
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 MacOSX10
 .
@@ -181,6 +181,8 @@ PATH
 "
 (
 cd
+MOZ_FETCHES_DIR
+/
 cmake
 &
 &
@@ -199,6 +201,8 @@ PATH
 "
 (
 cd
+MOZ_FETCHES_DIR
+/
 ninja
 &
 &

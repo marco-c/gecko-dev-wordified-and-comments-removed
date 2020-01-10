@@ -111,7 +111,7 @@ export
 PATH
 =
 "
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 llvm
 -
@@ -125,7 +125,7 @@ export
 PATH
 =
 "
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 cctools
 /
@@ -142,7 +142,7 @@ linker
 <
 EOF
 exec
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -157,7 +157,7 @@ fuse
 -
 ld
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 cctools
 /
@@ -188,7 +188,7 @@ TARGET
 \
 -
 B
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 cctools
 /
@@ -196,7 +196,7 @@ bin
 \
 -
 isysroot
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 MacOSX10
 .
@@ -235,7 +235,7 @@ PATH
 "
 (
 cd
-GECKO_PATH
+MOZ_FETCHES_DIR
 &
 &
 pwd

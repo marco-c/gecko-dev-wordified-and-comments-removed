@@ -233,9 +233,7 @@ tmp
 export
 gcc_bindir
 =
-root_dir
-/
-src
+MOZ_FETCHES_DIR
 /
 gcc
 /

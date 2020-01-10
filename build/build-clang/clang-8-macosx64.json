@@ -56,8 +56,6 @@ workspace
 /
 build
 /
-src
-/
 gcc
 "
 "
@@ -73,8 +71,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 clang
 /
@@ -95,8 +91,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 clang
 /
@@ -120,8 +114,6 @@ workspace
 /
 build
 /
-src
-/
 clang
 /
 bin
@@ -141,8 +133,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 cctools
 /
@@ -169,8 +159,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 cctools
 /
@@ -197,8 +185,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 cctools
 /
@@ -225,8 +211,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 clang
 /

@@ -9,7 +9,7 @@ VSPATH
 =
 "
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 /
 {
@@ -22,7 +22,7 @@ UNIX_VSPATH
 (
 cd
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 &
 &

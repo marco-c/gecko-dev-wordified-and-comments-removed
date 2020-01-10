@@ -70,13 +70,13 @@ py
 export
 CROSS_CCTOOLS_PATH
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 cctools
 export
 CROSS_SYSROOT
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 MacOSX10
 .
@@ -205,7 +205,7 @@ bin
 llvm
 -
 symbolizer
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -219,7 +219,7 @@ remove
 destination
 -
 lr
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 clang
 /

@@ -27,12 +27,12 @@ COMPRESS_EXT
 xz
 CROSS_CCTOOLS_PATH
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 cctools
 CROSS_SYSROOT
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 MacOSX10
 .
@@ -42,7 +42,7 @@ sdk
 export
 CC
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -52,7 +52,7 @@ clang
 export
 CXX
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -64,7 +64,7 @@ clang
 export
 AR
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 clang
 /

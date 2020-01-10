@@ -74,7 +74,7 @@ do
 PATH
 =
 "
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 t
 /

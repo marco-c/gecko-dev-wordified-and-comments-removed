@@ -51,8 +51,6 @@ workspace
 /
 build
 /
-src
-/
 gcc
 "
 "
@@ -68,8 +66,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 gcc
 /
@@ -90,8 +86,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 gcc
 /
@@ -114,8 +108,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 gcc
 /
@@ -151,8 +143,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -189,8 +179,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -220,8 +208,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -247,8 +233,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 android
 -
@@ -290,8 +274,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -324,8 +306,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -355,8 +335,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -382,8 +360,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 android
 -
@@ -425,8 +401,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -462,8 +436,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 android
 -
@@ -494,8 +466,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -521,8 +491,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 android
 -
@@ -564,8 +532,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -598,8 +564,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -629,8 +593,6 @@ workspace
 /
 build
 /
-src
-/
 android
 -
 ndk
@@ -656,8 +618,6 @@ worker
 workspace
 /
 build
-/
-src
 /
 android
 -

@@ -232,6 +232,8 @@ just
 built
 .
 mv
+MOZ_FETCHES_DIR
+/
 mingw32
 mingw32
 -

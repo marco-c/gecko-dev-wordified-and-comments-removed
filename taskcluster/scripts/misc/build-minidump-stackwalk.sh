@@ -97,7 +97,7 @@ macos
 -
 sdk
 =
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 MacOSX10
 .
@@ -186,7 +186,7 @@ do
 PATH
 =
 "
-GECKO_PATH
+MOZ_FETCHES_DIR
 /
 t
 /
