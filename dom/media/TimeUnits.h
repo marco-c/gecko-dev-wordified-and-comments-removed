@@ -1053,7 +1053,7 @@ aVal
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-INT32_MIN
+0
 <
 =
 aVal
@@ -1062,7 +1062,7 @@ aVal
 aVal
 <
 =
-INT32_MAX
+UINT32_MAX
 )
 ;
 return
@@ -1091,7 +1091,7 @@ aVal
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-INT32_MIN
+0
 <
 =
 aVal
@@ -1100,7 +1100,7 @@ aVal
 aVal
 <
 =
-INT32_MAX
+UINT32_MAX
 )
 ;
 return
