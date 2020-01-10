@@ -2348,14 +2348,6 @@ about
 printpreview
 "
 )
-NS_LITERAL_CSTRING
-(
-"
-about
-:
-downloads
-"
-)
 #
 if
 defined
