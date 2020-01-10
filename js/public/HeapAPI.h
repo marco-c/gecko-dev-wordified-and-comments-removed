@@ -23,6 +23,15 @@ include
 "
 js
 /
+GCAnnotations
+.
+h
+"
+#
+include
+"
+js
+/
 TraceKind
 .
 h
@@ -1761,6 +1770,7 @@ uintptr_t
 ptr
 ;
 }
+JS_HAZ_GC_POINTER
 ;
 template
 <
