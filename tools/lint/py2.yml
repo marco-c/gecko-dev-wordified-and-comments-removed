@@ -137,12 +137,6 @@ lint
 -
 tools
 /
-mach_commands
-.
-py
--
-tools
-/
 profiler
 -
 tools
