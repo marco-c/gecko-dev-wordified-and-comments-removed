@@ -998,9 +998,6 @@ mLineBreakDue
 bool
 mPreformattedBlockBoundary
 ;
-nsString
-mURL
-;
 int32_t
 mHeaderCounter
 [
