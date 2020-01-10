@@ -1469,6 +1469,15 @@ aObserver
 )
 override
 ;
+virtual
+void
+LockAspectRatio
+(
+bool
+aShouldLock
+)
+override
+;
 void
 DispatchSizeModeEvent
 (
@@ -1756,6 +1765,9 @@ mShadowStyle
 CGFloat
 mBackingScaleFactor
 ;
+CGFloat
+mAspectRatio
+;
 WindowAnimationType
 mAnimationType
 ;
@@ -1797,6 +1809,9 @@ mWindowTransformIsIdentity
 ;
 bool
 mAlwaysOnTop
+;
+bool
+mAspectRatioLocked
 ;
 int32_t
 mNumModalDescendents
