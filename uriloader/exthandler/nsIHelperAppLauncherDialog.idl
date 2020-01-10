@@ -106,6 +106,9 @@ nsIHelperAppLauncher
 interface
 nsIFile
 ;
+interface
+nsIInterfaceRequestor
+;
 /
 *
 *
@@ -428,7 +431,7 @@ in
 nsIHelperAppLauncher
 aLauncher
 in
-nsISupports
+nsIInterfaceRequestor
 aWindowContext
 in
 unsigned
@@ -574,7 +577,7 @@ in
 nsIHelperAppLauncher
 aLauncher
 in
-nsISupports
+nsIInterfaceRequestor
 aWindowContext
 in
 wstring
