@@ -2599,6 +2599,15 @@ disabled
 "
 )
 ;
+ContentBlockingAllowList
+.
+remove
+(
+tabTwo
+.
+linkedBrowser
+)
+;
 BrowserTestUtils
 .
 removeTab
