@@ -89,6 +89,15 @@ c
 bitfn_decls
 (
 void
+dav1d_itx_dsp_init_arm
+Dav1dInvTxfmDSPContext
+*
+c
+)
+;
+bitfn_decls
+(
+void
 dav1d_itx_dsp_init_x86
 Dav1dInvTxfmDSPContext
 *

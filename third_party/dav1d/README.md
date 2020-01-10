@@ -640,7 +640,7 @@ meson
 configure
 specify
 -
-Dbuild_tests
+Denable_tests
 =
 true
 2
@@ -716,7 +716,7 @@ meson
 configure
 specify
 -
-Dbuild_tests
+Denable_tests
 =
 true
 and
@@ -728,7 +728,7 @@ meson
 .
 test
 -
-Dbuild_tests
+Denable_tests
 =
 true
 -

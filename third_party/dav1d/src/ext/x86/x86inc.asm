@@ -590,6 +590,13 @@ videolan
 org
 .
 %
+include
+"
+config
+.
+asm
+"
+%
 ifndef
 private_prefix
 %

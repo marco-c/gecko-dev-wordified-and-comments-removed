@@ -33,7 +33,7 @@ bitdepths
 option
 (
 '
-build_asm
+enable_asm
 '
 type
 :
@@ -56,7 +56,7 @@ available
 option
 (
 '
-build_tools
+enable_tools
 '
 type
 :
@@ -78,7 +78,7 @@ tools
 option
 (
 '
-build_tests
+enable_tests
 '
 type
 :

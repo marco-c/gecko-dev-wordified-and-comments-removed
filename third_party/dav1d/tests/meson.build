@@ -254,7 +254,7 @@ not
 get_option
 (
 '
-build_tests
+enable_tests
 '
 )
 subdir_done
