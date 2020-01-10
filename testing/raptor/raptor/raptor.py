@@ -5041,6 +5041,12 @@ self
 screen_brightness
 =
 127
+        
+self
+.
+app_launched
+=
+False
     
 def
 set_reverse_port
@@ -7720,6 +7726,12 @@ binary
 '
 ]
 )
+            
+self
+.
+app_launched
+=
+True
         
 except
 Exception
@@ -9226,6 +9238,37 @@ check_for_crashes
 self
 )
 :
+        
+if
+not
+self
+.
+app_launched
+:
+            
+LOG
+.
+info
+(
+"
+skipping
+check_for_crashes
+:
+application
+has
+not
+been
+launched
+"
+)
+            
+return
+        
+self
+.
+app_launched
+=
+False
         
 verbose
 =
