@@ -939,6 +939,7 @@ namespaceURI
 tagName
 attributes
 attributeName
+attributeValue
 )
 ;
 if
