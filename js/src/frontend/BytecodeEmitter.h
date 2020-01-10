@@ -484,6 +484,10 @@ parser
 =
 nullptr
 ;
+ParseInfo
+&
+parseInfo
+;
 unsigned
 firstLine
 =
@@ -678,6 +682,9 @@ uint32_t
 line
 uint32_t
 column
+ParseInfo
+&
+parseInfo
 EmitterMode
 emitterMode
 FieldInitializers
@@ -757,6 +764,9 @@ uint32_t
 line
 uint32_t
 column
+ParseInfo
+&
+parseInfo
 EmitterMode
 emitterMode
 =
@@ -806,6 +816,9 @@ uint32_t
 line
 uint32_t
 column
+ParseInfo
+&
+parseInfo
 EmitterMode
 emitterMode
 =
@@ -863,6 +876,9 @@ uint32_t
 line
 uint32_t
 column
+ParseInfo
+&
+parseInfo
 EmitterMode
 emitterMode
 =
@@ -890,6 +906,7 @@ script
 lazyScript
 line
 column
+parseInfo
 emitterMode
 fieldInitializers
 )

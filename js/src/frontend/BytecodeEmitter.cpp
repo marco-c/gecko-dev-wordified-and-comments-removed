@@ -603,6 +603,9 @@ uint32_t
 line
 uint32_t
 column
+ParseInfo
+&
+parseInfo
 EmitterMode
 emitterMode
 FieldInitializers
@@ -646,6 +649,10 @@ cx
 fieldInitializers_
 (
 fieldInitializers
+)
+parseInfo
+(
+parseInfo
 )
 firstLine
 (
@@ -728,6 +735,9 @@ uint32_t
 line
 uint32_t
 column
+ParseInfo
+&
+parseInfo
 EmitterMode
 emitterMode
 FieldInitializers
@@ -742,6 +752,7 @@ script
 lazyScript
 line
 column
+parseInfo
 emitterMode
 fieldInitializers
 )
@@ -789,6 +800,9 @@ uint32_t
 line
 uint32_t
 column
+ParseInfo
+&
+parseInfo
 EmitterMode
 emitterMode
 FieldInitializers
@@ -803,6 +817,7 @@ script
 lazyScript
 line
 column
+parseInfo
 emitterMode
 fieldInitializers
 )
@@ -26157,6 +26172,7 @@ funbox
 -
 >
 startColumn
+parseInfo
 nestedMode
 fieldInitializers
 )
