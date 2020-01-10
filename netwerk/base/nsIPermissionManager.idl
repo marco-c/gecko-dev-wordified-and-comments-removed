@@ -611,7 +611,10 @@ permissions
 for
 *
 /
-nsISimpleEnumerator
+Array
+<
+nsIPermission
+>
 getAllForPrincipal
 (
 in
