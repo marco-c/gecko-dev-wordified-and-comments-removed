@@ -240,6 +240,13 @@ WasmParser
 .
 js
 '
+'
+whatwg
+-
+url
+.
+js
+'
 )
 #
 react
