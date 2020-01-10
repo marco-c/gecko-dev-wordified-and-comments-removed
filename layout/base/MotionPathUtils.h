@@ -171,6 +171,12 @@ const
 StyleSVGPathData
 &
 aPath
+gfx
+:
+:
+PathBuilder
+*
+aPathBuilder
 )
 ;
 static
