@@ -2094,12 +2094,8 @@ attr
 ShadowRoot
 attachShadow
 (
-optional
 ShadowRootInit
 init
-=
-{
-}
 )
 ;
 readonly
