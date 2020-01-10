@@ -82,6 +82,9 @@ home
 library
 "
 "
+logins
+"
+"
 pageActionButton
 "
 "
