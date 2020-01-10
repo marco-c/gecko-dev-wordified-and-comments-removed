@@ -301,14 +301,6 @@ button
 =
 Edit
 .
-field
--
-required
--
-symbol
-=
-*
-.
 modal
 -
 input
