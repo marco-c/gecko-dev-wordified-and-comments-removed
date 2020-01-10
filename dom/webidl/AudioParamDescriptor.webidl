@@ -145,6 +145,9 @@ apply
 .
 *
 /
+[
+GenerateInit
+]
 dictionary
 AudioParamDescriptor
 {

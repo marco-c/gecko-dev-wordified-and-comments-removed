@@ -121,6 +121,9 @@ card
 /
 *
 /
+[
+GenerateInit
+]
 dictionary
 BasicCardRequest
 {
@@ -196,6 +199,9 @@ null
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 BasicCardErrors
 {

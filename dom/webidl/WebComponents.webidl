@@ -222,6 +222,9 @@ any
 iid
 )
 ;
+[
+GenerateInit
+]
 dictionary
 LifecycleCallbacks
 {

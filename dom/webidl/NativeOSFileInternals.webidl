@@ -67,6 +67,9 @@ nsINativeOSFileInternals
 Read
 *
 /
+[
+GenerateInit
+]
 dictionary
 NativeOSFileReadOptions
 {
@@ -141,6 +144,9 @@ nsINativeOSFileInternals
 WriteAtomic
 *
 /
+[
+GenerateInit
+]
 dictionary
 NativeOSFileWriteAtomicOptions
 {

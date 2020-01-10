@@ -143,6 +143,9 @@ midi
 "
 }
 ;
+[
+GenerateInit
+]
 dictionary
 PermissionDescriptor
 {

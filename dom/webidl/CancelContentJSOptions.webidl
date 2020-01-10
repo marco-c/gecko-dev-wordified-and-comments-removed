@@ -56,6 +56,9 @@ MPL
 .
 *
 /
+[
+GenerateInit
+]
 dictionary
 CancelContentJSOptions
 {

@@ -86,6 +86,9 @@ loads
 .
 *
 /
+[
+GenerateInit
+]
 dictionary
 LoadURIOptions
 {

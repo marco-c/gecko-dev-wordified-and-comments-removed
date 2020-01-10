@@ -154,6 +154,9 @@ name
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 AesCbcParams
 :
@@ -165,6 +168,9 @@ iv
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 AesCtrParams
 :
@@ -183,6 +189,9 @@ length
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 AesGcmParams
 :
@@ -214,6 +223,9 @@ hash
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 Pbkdf2Params
 :
@@ -237,6 +249,9 @@ hash
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 RsaHashedImportParams
 {
@@ -261,6 +276,9 @@ length
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 HmacKeyGenParams
 :
@@ -279,6 +297,9 @@ length
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 RsaHashedKeyGenParams
 :
@@ -302,6 +323,9 @@ hash
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 RsaOaepParams
 :
@@ -312,6 +336,9 @@ label
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 RsaPssParams
 :
@@ -327,6 +354,9 @@ saltLength
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 DhKeyGenParams
 :
@@ -342,6 +372,9 @@ generator
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 EcKeyGenParams
 :
@@ -353,6 +386,9 @@ namedCurve
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 AesDerivedKeyParams
 :
@@ -368,6 +404,9 @@ length
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 HmacDerivedKeyParams
 :
@@ -382,6 +421,9 @@ length
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 EcdhKeyDeriveParams
 :
@@ -393,6 +435,9 @@ public
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 DhKeyDeriveParams
 :
@@ -404,6 +449,9 @@ public
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 DhImportKeyParams
 :
@@ -419,6 +467,9 @@ generator
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 EcdsaParams
 :
@@ -430,6 +481,9 @@ hash
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 EcKeyImportParams
 :
@@ -440,6 +494,9 @@ namedCurve
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 HkdfParams
 :

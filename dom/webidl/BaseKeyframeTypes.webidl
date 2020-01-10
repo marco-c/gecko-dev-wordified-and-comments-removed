@@ -349,6 +349,9 @@ s
 /
 implementation
 .
+[
+GenerateInit
+]
 dictionary
 BasePropertyIndexedKeyframe
 {
@@ -395,6 +398,9 @@ composite
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 BaseKeyframe
 {

@@ -248,6 +248,9 @@ fetch
 FetchStreamReader
 .
 cpp
+[
+GenerateInit
+]
 dictionary
 FetchReadableStreamReadDataDone
 {
@@ -258,6 +261,9 @@ false
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 FetchReadableStreamReadDataArray
 {

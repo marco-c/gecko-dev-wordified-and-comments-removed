@@ -144,6 +144,7 @@ object
 /
 [
 GenerateConversionToJS
+GenerateInit
 ]
 dictionary
 IteratorResult

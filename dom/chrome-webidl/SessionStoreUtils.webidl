@@ -872,6 +872,7 @@ data
 ;
 [
 GenerateConversionToJS
+GenerateInit
 ]
 dictionary
 CollectedFileListValue
@@ -891,6 +892,7 @@ fileList
 ;
 [
 GenerateConversionToJS
+GenerateInit
 ]
 dictionary
 CollectedNonMultipleSelectValue

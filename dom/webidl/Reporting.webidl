@@ -381,6 +381,9 @@ to
 process
 the
 JSON
+[
+GenerateInit
+]
 dictionary
 ReportingHeaderValue
 {
@@ -459,6 +462,9 @@ to
 process
 the
 JSON
+[
+GenerateInit
+]
 dictionary
 ReportingEndpoint
 {

@@ -113,6 +113,9 @@ certificate
 management
 *
 /
+[
+GenerateInit
+]
 dictionary
 RTCCertificateExpiration
 {

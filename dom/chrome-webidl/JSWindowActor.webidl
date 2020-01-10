@@ -562,6 +562,9 @@ sent
 .
 *
 /
+[
+GenerateInit
+]
 dictionary
 MozJSWindowActorCallbacks
 {

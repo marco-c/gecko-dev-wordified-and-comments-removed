@@ -167,6 +167,9 @@ evenodd
 "
 }
 ;
+[
+GenerateInit
+]
 dictionary
 ContextAttributes2D
 {

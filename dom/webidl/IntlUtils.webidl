@@ -73,6 +73,9 @@ keys
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 DisplayNameResult
 {
@@ -91,6 +94,9 @@ values
 ;
 }
 ;
+[
+GenerateInit
+]
 dictionary
 LocaleInfo
 {

@@ -356,6 +356,9 @@ performance
 "
 }
 ;
+[
+GenerateInit
+]
 dictionary
 WebGLContextAttributes
 {

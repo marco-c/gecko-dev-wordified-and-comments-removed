@@ -155,6 +155,9 @@ recommended
 .
 *
 /
+[
+GenerateInit
+]
 dictionary
 FakePluginTagInit
 {
