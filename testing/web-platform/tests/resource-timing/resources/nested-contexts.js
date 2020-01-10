@@ -351,6 +351,7 @@ pushed_url
 function
 verify_document_navigate_not_observable
 (
+navigated_back
 )
 {
 let
@@ -439,7 +440,12 @@ first
 document
 not
 exposed
+.
+navigated_back
+is
 "
++
+navigated_back
 "
 *
 "
@@ -448,6 +454,11 @@ exposed
 return
 ;
 }
+if
+(
+navigated_back
+)
+{
 opener
 .
 postMessage
@@ -460,6 +471,7 @@ PASS
 "
 )
 ;
+}
 }
 window
 .
@@ -484,6 +496,13 @@ navigated
 "
 )
 {
+verify_document_navigate_not_observable
+(
+sessionStorage
+.
+navigated
+)
+;
 if
 (
 sessionStorage
@@ -495,10 +514,6 @@ delete
 sessionStorage
 .
 navigated
-;
-verify_document_navigate_not_observable
-(
-)
 ;
 }
 else
