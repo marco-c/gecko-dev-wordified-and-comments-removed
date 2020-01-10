@@ -923,6 +923,11 @@ failed
 "
 ;
 const
+BITS_NO_PROGRESS_TIMEOUT_SECS
+=
+3600
+;
+const
 BITS_IDLE_POLL_RATE_MS
 =
 1000
@@ -19166,6 +19171,7 @@ Ci
 nsIBits
 .
 PROXY_PRECONFIG
+BITS_NO_PROGRESS_TIMEOUT_SECS
 monitorInterval
 this
 null
