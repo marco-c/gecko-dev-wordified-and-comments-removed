@@ -199,14 +199,6 @@ GeckoviewStreaming
 <
 3
 )
-Thunderbird
-=
-(
-1
-<
-<
-4
-)
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
