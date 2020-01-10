@@ -141,6 +141,15 @@ trc
 ;
 extern
 void
+TraceRuntimeWithoutEviction
+(
+JSTracer
+*
+trc
+)
+;
+extern
+void
 ReleaseAllJITCode
 (
 JSFreeOp
