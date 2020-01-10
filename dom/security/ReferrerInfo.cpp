@@ -997,13 +997,22 @@ HandleSecureToInsecureReferral
 (
 nsIURI
 *
+aOriginalURI
+nsIURI
+*
 aURI
+uint32_t
+aPolicy
 bool
 &
 aAllowed
 )
-const
 {
+NS_ENSURE_ARG
+(
+aOriginalURI
+)
+;
 NS_ENSURE_ARG
 (
 aURI
@@ -1019,7 +1028,7 @@ referrerIsHttpsScheme
 nsresult
 rv
 =
-mOriginalReferrer
+aOriginalURI
 -
 >
 SchemeIs
@@ -1094,7 +1103,7 @@ rv
 }
 if
 (
-mPolicy
+aPolicy
 !
 =
 nsIHttpChannel
@@ -1103,7 +1112,7 @@ nsIHttpChannel
 REFERRER_POLICY_UNSAFE_URL
 &
 &
-mPolicy
+aPolicy
 !
 =
 nsIHttpChannel
@@ -1112,7 +1121,7 @@ nsIHttpChannel
 REFERRER_POLICY_ORIGIN_WHEN_XORIGIN
 &
 &
-mPolicy
+aPolicy
 !
 =
 nsIHttpChannel
@@ -1579,7 +1588,6 @@ nsIHttpChannel
 *
 aChannel
 )
-const
 {
 nsCOMPtr
 <
@@ -3583,7 +3591,9 @@ rv
 =
 HandleSecureToInsecureReferral
 (
+mOriginalReferrer
 uri
+mPolicy
 isSecureToInsecureAllowed
 )
 ;
