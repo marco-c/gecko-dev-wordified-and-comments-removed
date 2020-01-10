@@ -135,7 +135,7 @@ aInputSize
 SurfaceFormat
 :
 :
-B8G8R8A8
+OS_RGBA
 }
 SurfaceConfig
 {
@@ -144,7 +144,7 @@ aOutputSize
 SurfaceFormat
 :
 :
-B8G8R8A8
+OS_RGBA
 false
 }
 )
@@ -190,7 +190,7 @@ aInputSize
 SurfaceFormat
 :
 :
-B8G8R8A8
+OS_RGBA
 }
 SurfaceConfig
 {
@@ -199,7 +199,7 @@ aOutputSize
 SurfaceFormat
 :
 :
-B8G8R8A8
+OS_RGBA
 false
 }
 )
