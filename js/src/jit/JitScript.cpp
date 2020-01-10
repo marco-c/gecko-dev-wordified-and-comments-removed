@@ -134,8 +134,10 @@ js
 :
 jit
 ;
-static
 size_t
+JitScript
+:
+:
 NumTypeSets
 (
 JSScript
@@ -431,6 +433,9 @@ false
 size_t
 numTypeSets
 =
+JitScript
+:
+:
 NumTypeSets
 (
 this
