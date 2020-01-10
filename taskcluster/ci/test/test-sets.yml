@@ -1805,7 +1805,6 @@ mochitest
 browser
 -
 chrome
-#
 -
 mochitest
 -
@@ -1932,10 +1931,6 @@ gtest
 mochitest
 -
 browser
--
-chrome
--
-mochitest
 -
 chrome
 -
