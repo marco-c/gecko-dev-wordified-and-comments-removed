@@ -1445,9 +1445,15 @@ rule
 .
 match
 (
+name
+if
+name_only
+else
 path
 )
+                                       
 for
+name_only
 rule
 in
 exclude
