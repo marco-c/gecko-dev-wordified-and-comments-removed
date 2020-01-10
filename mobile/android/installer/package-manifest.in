@@ -509,6 +509,13 @@ components
 extensions
 .
 manifest
+BINPATH
+/
+components
+/
+antitracking
+.
+manifest
 #
 ifndef
 MOZ_GECKOVIEW_JAR

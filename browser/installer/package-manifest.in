@@ -970,6 +970,13 @@ RESPATH
 /
 components
 /
+antitracking
+.
+manifest
+RESPATH
+/
+components
+/
 l10n
 -
 registry
