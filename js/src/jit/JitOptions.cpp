@@ -474,12 +474,6 @@ disableCacheIR
 false
 )
 ;
-SET_DEFAULT
-(
-disableCacheIRCalls
-false
-)
-;
 #
 if
 defined
