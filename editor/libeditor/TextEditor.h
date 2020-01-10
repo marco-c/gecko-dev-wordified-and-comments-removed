@@ -1130,6 +1130,15 @@ EStripWrappers
 aStripWrappers
 )
 ;
+EditActionResult
+ComputeValueFromTextNodeAndPaddingBRElement
+(
+nsAString
+&
+aValue
+)
+const
+;
 protected
 :
 virtual
@@ -1418,6 +1427,7 @@ nsAString
 &
 aResult
 )
+const
 ;
 bool
 IsCopyToClipboardAllowedInternal
