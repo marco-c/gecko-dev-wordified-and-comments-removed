@@ -2673,16 +2673,13 @@ GetInnerSize
 (
 )
 ;
-CSSIntSize
+CSSSize
 GetUnscaledInnerSize
 (
 )
 {
 return
-RoundedToInt
-(
 mUnscaledInnerSize
-)
 ;
 }
 Maybe
