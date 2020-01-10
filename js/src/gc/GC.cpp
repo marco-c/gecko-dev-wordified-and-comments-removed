@@ -14859,6 +14859,8 @@ comp
 >
 fixupAfterMovingGC
 (
+&
+trc
 )
 ;
 }

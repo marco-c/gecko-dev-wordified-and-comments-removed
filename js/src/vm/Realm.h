@@ -2115,11 +2115,17 @@ purge
 void
 fixupAfterMovingGC
 (
+JSTracer
+*
+trc
 )
 ;
 void
 fixupScriptMapsAfterMovingGC
 (
+JSTracer
+*
+trc
 )
 ;
 #
