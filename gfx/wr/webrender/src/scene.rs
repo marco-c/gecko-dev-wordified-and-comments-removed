@@ -1058,6 +1058,10 @@ Arc
 <
 HitTestingScene
 >
+pub
+content_slice_count
+:
+usize
 }
 impl
 BuiltScene
@@ -1150,6 +1154,9 @@ empty
 )
 )
 )
+content_slice_count
+:
+0
 config
 :
 FrameBuilderConfig

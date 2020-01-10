@@ -2765,16 +2765,7 @@ device_rect
 .
 origin
 pan
-&
-mut
 resource_profile
-.
-texture_cache
-&
-mut
-resource_profile
-.
-gpu_cache
 &
 self
 .
