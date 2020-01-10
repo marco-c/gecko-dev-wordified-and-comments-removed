@@ -129,7 +129,7 @@ aObj
 wr
 :
 :
-WrExternalImageId
+ExternalImageId
 aId
 uint8_t
 aChannelIndex
@@ -227,7 +227,7 @@ aObj
 wr
 :
 :
-WrExternalImageId
+ExternalImageId
 aId
 uint8_t
 aChannelIndex
@@ -1278,7 +1278,7 @@ GetRenderTexture
 wr
 :
 :
-WrExternalImageId
+ExternalImageId
 aExternalImageId
 )
 {

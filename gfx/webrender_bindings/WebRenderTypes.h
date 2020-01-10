@@ -219,13 +219,6 @@ WrEpoch
 Epoch
 ;
 typedef
-wr
-:
-:
-WrExternalImageId
-ExternalImageId
-;
-typedef
 mozilla
 :
 :
@@ -4163,7 +4156,7 @@ uint64_t
 (
 aId
 .
-mHandle
+_0
 )
 ;
 }
@@ -4181,7 +4174,7 @@ Id
 ;
 Id
 .
-mHandle
+_0
 =
 aID
 ;

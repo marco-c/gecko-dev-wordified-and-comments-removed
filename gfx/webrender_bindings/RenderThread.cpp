@@ -3690,7 +3690,7 @@ GetRenderTexture
 wr
 :
 :
-WrExternalImageId
+ExternalImageId
 aExternalImageId
 )
 {
@@ -3714,9 +3714,10 @@ mRenderTextures
 .
 find
 (
+AsUint64
+(
 aExternalImageId
-.
-mHandle
+)
 )
 ;
 MOZ_ASSERT
