@@ -672,11 +672,6 @@ SendFavicons
 "
 AboutLogins
 :
-ShowLoginItemError
-"
-"
-AboutLogins
-:
 SyncState
 "
 "
