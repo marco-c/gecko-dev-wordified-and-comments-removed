@@ -1139,6 +1139,9 @@ mFlushTimerEverFired
 eParserMode
 mMode
 ;
+bool
+mSkipContentSniffing
+;
 }
 ;
 #
