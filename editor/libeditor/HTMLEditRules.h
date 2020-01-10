@@ -629,13 +629,6 @@ AfterEditInner
 ;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
-nsresult
-IndentAroundSelectionWithHTML
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
 SplitRangeOffFromNodeResult
 OutdentAroundSelection
 (

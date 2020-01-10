@@ -4580,6 +4580,13 @@ IndentAroundSelectionWithCSS
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+IndentAroundSelectionWithHTML
+(
+)
+;
 protected
 :
 virtual
