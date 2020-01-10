@@ -652,7 +652,7 @@ CanSend
 Unused
 <
 <
-SendCreateTranslator
+SendInitTranslator
 (
 mTextureType
 handle

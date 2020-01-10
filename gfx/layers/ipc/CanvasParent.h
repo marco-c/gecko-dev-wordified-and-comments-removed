@@ -104,7 +104,7 @@ ipc
 :
 :
 IPCResult
-RecvCreateTranslator
+RecvInitTranslator
 (
 const
 TextureType

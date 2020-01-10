@@ -192,7 +192,7 @@ parent
 *
 *
 *
-Create
+Initialize
 a
 CanvasTranslator
 for
@@ -200,8 +200,8 @@ a
 particular
 TextureType
 which
-translates
 *
+translates
 events
 from
 a
@@ -211,8 +211,8 @@ aReadHandle
 is
 the
 shared
-memory
 *
+memory
 handle
 for
 the
@@ -224,9 +224,9 @@ and
 aWriterSem
 are
 handles
+*
 for
 the
-*
 semaphores
 to
 handle
@@ -238,7 +238,7 @@ side
 *
 /
 async
-CreateTranslator
+InitTranslator
 (
 TextureType
 aTextureType
