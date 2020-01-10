@@ -1537,13 +1537,15 @@ this
 .
 _shell
 .
-openApplication
+QueryInterface
 (
 Ci
 .
 nsIMacShellService
+)
 .
-APPLICATION_DESKTOP
+showDesktopPreferences
+(
 )
 ;
 }
