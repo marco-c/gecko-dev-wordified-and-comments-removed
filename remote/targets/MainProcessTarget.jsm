@@ -134,9 +134,7 @@ this
 type
 =
 "
-main
--
-process
+browser
 "
 ;
 this

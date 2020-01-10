@@ -274,9 +274,9 @@ target
 id
 type
 :
-"
-page
-"
+target
+.
+type
 }
 }
 )
