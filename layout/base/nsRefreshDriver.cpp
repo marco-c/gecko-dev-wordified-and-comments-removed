@@ -1266,10 +1266,10 @@ idleEnd
 +
 refreshRate
 *
-nsLayoutUtils
+StaticPrefs
 :
 :
-QuiescentFramesBeforeIdlePeriod
+layout_idle_period_required_quiescent_frames
 (
 )
 <
@@ -1294,10 +1294,10 @@ TimeDuration
 :
 FromMilliseconds
 (
-nsLayoutUtils
+StaticPrefs
 :
 :
-IdlePeriodDeadlineLimit
+layout_idle_period_time_limit
 (
 )
 )
