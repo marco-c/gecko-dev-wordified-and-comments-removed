@@ -185,6 +185,10 @@ if
 (
 !
 sTouchBarIsInitialized
+|
+|
+!
+aWindow
 )
 {
 return
@@ -331,6 +335,10 @@ sTouchBarIsInitialized
 |
 !
 aPopover
+|
+|
+!
+aWindow
 )
 {
 return
