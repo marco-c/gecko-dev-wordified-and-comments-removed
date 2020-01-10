@@ -34375,7 +34375,7 @@ documentPolicy
 ctx
 -
 >
-GetInheritedCrossOriginPolicy
+GetCrossOriginPolicy
 (
 )
 ;
