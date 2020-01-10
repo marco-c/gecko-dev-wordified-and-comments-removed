@@ -520,7 +520,7 @@ case
 "
 file
 -
-uri
+url
 "
 :
 case
@@ -561,11 +561,6 @@ distribution
 :
 case
 "
-sideload
-"
-:
-case
-"
 sync
 "
 :
@@ -589,6 +584,11 @@ switch
 method
 )
 {
+case
+"
+sideload
+"
+:
 case
 "
 link
