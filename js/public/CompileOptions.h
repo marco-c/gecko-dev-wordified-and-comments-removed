@@ -188,7 +188,7 @@ false
 bool
 fieldsEnabledOption
 =
-true
+false
 ;
 const
 char
