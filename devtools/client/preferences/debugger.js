@@ -501,7 +501,7 @@ listeners
 -
 visible
 "
-false
+true
 )
 ;
 pref
@@ -1091,7 +1091,7 @@ listeners
 -
 breakpoints
 "
-false
+true
 )
 ;
 pref
