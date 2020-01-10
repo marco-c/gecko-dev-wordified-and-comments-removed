@@ -834,7 +834,7 @@ contentBlocking
 .
 cookies
 .
-blockingTrackers2
+blockingTrackers3
 .
 label
 "
@@ -865,7 +865,7 @@ contentBlocking
 .
 cookies
 .
-blockingTrackers2
+blockingTrackers3
 .
 label
 "
