@@ -614,6 +614,9 @@ attribute
 Float32Array
 matrix
 ;
+[
+SameObject
+]
 readonly
 attribute
 XRRigidTransform
