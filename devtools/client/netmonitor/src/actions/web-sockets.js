@@ -30,6 +30,7 @@ addFrame
 (
 httpChannelId
 data
+batch
 )
 {
 return
@@ -39,6 +40,11 @@ type
 WS_ADD_FRAME
 httpChannelId
 data
+meta
+:
+{
+batch
+}
 }
 ;
 }

@@ -1466,6 +1466,7 @@ addFrame
 (
 httpChannelId
 data
+true
 )
 ;
 }
