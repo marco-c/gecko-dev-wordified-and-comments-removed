@@ -1346,6 +1346,12 @@ complete
 =
 true
 ;
+this
+.
+controller
+=
+null
+;
 }
 cancel
 (
