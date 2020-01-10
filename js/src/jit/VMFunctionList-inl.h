@@ -1355,15 +1355,14 @@ update
 \
 _
 (
-IonCompileScriptForBaselineAtEntry
-\
+IonCompileScriptForBaseline
 js
 :
 :
 jit
 :
 :
-IonCompileScriptForBaselineAtEntry
+IonCompileScriptForBaseline
 )
 \
 _

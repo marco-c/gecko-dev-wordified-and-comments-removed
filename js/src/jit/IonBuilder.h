@@ -146,8 +146,6 @@ temp
 BaselineFrame
 *
 frame
-uint32_t
-frameSize
 )
 ;
 using
