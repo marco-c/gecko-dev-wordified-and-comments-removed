@@ -373,7 +373,7 @@ const
 uint32_t
 kCatalinaPaintThreadStackSize
 =
-512
+1024
 *
 1024
 ;
