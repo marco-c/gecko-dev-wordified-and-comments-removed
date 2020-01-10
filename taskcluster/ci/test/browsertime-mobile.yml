@@ -94,6 +94,11 @@ geckoview
 :
 [
 "
+mozilla
+-
+central
+"
+"
 integration
 "
 "

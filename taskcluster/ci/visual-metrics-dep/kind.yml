@@ -140,14 +140,6 @@ on
 projects
 :
 [
-'
-mozilla
--
-central
-'
-'
-try
-'
 ]
 worker
 -
