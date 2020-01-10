@@ -1251,6 +1251,7 @@ oncommand
 "
 openLocation
 (
+event
 )
 ;
 "
