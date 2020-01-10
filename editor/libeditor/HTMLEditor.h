@@ -4573,6 +4573,13 @@ ChangeMargin
 aChangeMargin
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+IndentAroundSelectionWithCSS
+(
+)
+;
 protected
 :
 virtual

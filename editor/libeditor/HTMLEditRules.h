@@ -630,13 +630,6 @@ AfterEditInner
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
-IndentAroundSelectionWithCSS
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
 IndentAroundSelectionWithHTML
 (
 )
