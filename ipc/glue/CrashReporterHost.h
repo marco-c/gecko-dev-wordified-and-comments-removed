@@ -52,6 +52,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+ProtocolUtils
+.
+h
+"
 namespace
 mozilla
 {

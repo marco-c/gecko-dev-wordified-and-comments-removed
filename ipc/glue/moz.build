@@ -147,6 +147,11 @@ CrashReporterClient
 h
 '
 '
+CrashReporterHelper
+.
+h
+'
+'
 CrashReporterHost
 .
 h
