@@ -468,11 +468,13 @@ simple_redirect
 sjs
 '
 ]
-#
 SPHINX_TREES
 [
 '
-fennec
+/
+mobile
+/
+android
 '
 ]
 =
