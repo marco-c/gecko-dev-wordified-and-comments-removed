@@ -129,11 +129,6 @@ VideoBridgeParent
 :
 GetSingleton
 (
-mDescriptor
-.
-source
-(
-)
 )
 -
 >
