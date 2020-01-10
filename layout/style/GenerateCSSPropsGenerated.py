@@ -373,12 +373,12 @@ sort
 key
 =
 lambda
-(
-p
-position
-)
+item
 :
-p
+item
+[
+0
+]
 .
 index
 )
