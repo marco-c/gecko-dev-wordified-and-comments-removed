@@ -124,12 +124,6 @@ GetCurrentPrincipal
 )
 override
 ;
-bool
-HadCrossOriginRedirects
-(
-)
-override
-;
 nsresult
 ReadFromCache
 (

@@ -4828,9 +4828,6 @@ imgIRequest
 mImageRequest
 ;
 bool
-mHadCrossOriginRedirects
-;
-bool
 mIsWriteOnly
 ;
 bool

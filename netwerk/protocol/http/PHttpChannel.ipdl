@@ -889,8 +889,6 @@ bool
 isResolvedByTRR
 ResourceTimingStruct
 timing
-bool
-allRedirectsSameOrigin
 )
 ;
 /

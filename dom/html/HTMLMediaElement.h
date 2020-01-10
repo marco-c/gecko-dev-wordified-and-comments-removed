@@ -818,11 +818,6 @@ GetCurrentPrincipal
 (
 )
 ;
-bool
-HadCrossOriginRedirects
-(
-)
-;
 already_AddRefed
 <
 nsIPrincipal
