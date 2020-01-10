@@ -3864,17 +3864,6 @@ LoginManagerParent
 "
 PasswordManager
 :
-insecureLoginFormPresent
-"
-:
-[
-"
-LoginManagerParent
-"
-]
-"
-PasswordManager
-:
 OpenPreferences
 "
 :

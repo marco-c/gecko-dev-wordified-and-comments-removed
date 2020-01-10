@@ -515,11 +515,6 @@ PasswordManager
 :
 removeLogin
 "
-"
-PasswordManager
-:
-insecureLoginFormPresent
-"
 ]
 }
 )
