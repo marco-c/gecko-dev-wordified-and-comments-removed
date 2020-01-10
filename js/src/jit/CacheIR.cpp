@@ -24868,7 +24868,7 @@ isConstructing
 calleeFunc
 -
 >
-hasJITCode
+hasJitScript
 (
 )
 )
