@@ -339,7 +339,7 @@ uint32_t
 index
 )
 ;
-void
+bool
 copy
 (
 const
