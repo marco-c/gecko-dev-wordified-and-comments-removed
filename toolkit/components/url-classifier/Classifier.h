@@ -570,6 +570,11 @@ nsCString
 aTables
 )
 ;
+nsresult
+ClearLegacyFiles
+(
+)
+;
 nsCOMPtr
 <
 nsIFile
