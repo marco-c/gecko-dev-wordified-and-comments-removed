@@ -592,7 +592,7 @@ lastColumn
 .
 toEqual
 (
-Infinity
+0
 )
 ;
 }
