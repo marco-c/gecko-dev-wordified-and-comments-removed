@@ -2239,7 +2239,7 @@ Services
 .
 qms
 .
-listOrigins
+listInitializedOrigins
 (
 aRequest
 =

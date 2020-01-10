@@ -3302,7 +3302,7 @@ NS_IMETHODIMP
 QuotaManagerService
 :
 :
-ListOrigins
+ListInitializedOrigins
 (
 nsIQuotaCallback
 *
@@ -3337,7 +3337,7 @@ Request
 aCallback
 )
 ;
-ListOriginsParams
+ListInitializedOriginsParams
 params
 ;
 nsAutoPtr

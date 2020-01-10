@@ -6128,7 +6128,7 @@ override
 }
 ;
 class
-ListOriginsOp
+ListInitializedOriginsOp
 final
 :
 public
@@ -6144,7 +6144,7 @@ mOrigins
 ;
 public
 :
-ListOriginsOp
+ListInitializedOriginsOp
 (
 )
 ;
@@ -6160,7 +6160,7 @@ override
 private
 :
 ~
-ListOriginsOp
+ListInitializedOriginsOp
 (
 )
 =
@@ -36279,7 +36279,7 @@ case
 RequestParams
 :
 :
-TListOriginsParams
+TListInitializedOriginsParams
 :
 break
 ;
@@ -37035,12 +37035,12 @@ case
 RequestParams
 :
 :
-TListOriginsParams
+TListInitializedOriginsParams
 :
 actor
 =
 new
-ListOriginsOp
+ListInitializedOriginsOp
 (
 )
 ;
@@ -42765,10 +42765,10 @@ aResponse
 estimateResponse
 ;
 }
-ListOriginsOp
+ListInitializedOriginsOp
 :
 :
-ListOriginsOp
+ListInitializedOriginsOp
 (
 )
 :
@@ -42786,7 +42786,7 @@ AssertIsOnOwningThread
 ;
 }
 bool
-ListOriginsOp
+ListInitializedOriginsOp
 :
 :
 Init
@@ -42814,7 +42814,7 @@ true
 ;
 }
 nsresult
-ListOriginsOp
+ListInitializedOriginsOp
 :
 :
 DoDirectoryWork
@@ -42836,7 +42836,7 @@ aQuotaManager
 AUTO_PROFILER_LABEL
 (
 "
-ListOriginsOp
+ListInitializedOriginsOp
 :
 :
 DoDirectoryWork
@@ -42847,6 +42847,21 @@ OTHER
 nsresult
 rv
 ;
+if
+(
+!
+aQuotaManager
+-
+>
+IsTemporaryStorageInitialized
+(
+)
+)
+{
+return
+NS_OK
+;
+}
 for
 (
 const
@@ -42914,7 +42929,7 @@ NS_OK
 ;
 }
 bool
-ListOriginsOp
+ListInitializedOriginsOp
 :
 :
 IsCanceled
@@ -42930,7 +42945,7 @@ mCanceled
 ;
 }
 nsresult
-ListOriginsOp
+ListInitializedOriginsOp
 :
 :
 ProcessOrigin
@@ -43039,7 +43054,7 @@ NS_OK
 ;
 }
 void
-ListOriginsOp
+ListInitializedOriginsOp
 :
 :
 GetResponse
@@ -43055,7 +43070,7 @@ AssertIsOnOwningThread
 ;
 aResponse
 =
-ListOriginsResponse
+ListInitializedOriginsResponse
 (
 )
 ;
@@ -43080,7 +43095,7 @@ origins
 =
 aResponse
 .
-get_ListOriginsResponse
+get_ListInitializedOriginsResponse
 (
 )
 .

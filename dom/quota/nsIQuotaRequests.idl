@@ -267,7 +267,7 @@ bool
 /
 array
 of
-nsIQuotaOriginsResult
+nsIQuotaInitializedOriginsResult
 [
 must_use
 ]
