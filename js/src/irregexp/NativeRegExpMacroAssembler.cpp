@@ -2358,9 +2358,6 @@ Linker
 linker
 (
 masm
-"
-RegExp
-"
 )
 ;
 JitCode

@@ -1362,10 +1362,6 @@ executableCopy
 uint8_t
 *
 buffer
-bool
-flushICache
-=
-true
 )
 ;
 void

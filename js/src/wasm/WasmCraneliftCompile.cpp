@@ -2102,7 +2102,6 @@ masm
 executableCopy
 (
 codeBuf
-totalCodeSize
 )
 ;
 const

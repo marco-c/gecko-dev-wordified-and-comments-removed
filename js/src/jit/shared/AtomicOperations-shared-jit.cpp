@@ -4697,7 +4697,6 @@ masm
 executableCopy
 (
 code
-false
 )
 ;
 if

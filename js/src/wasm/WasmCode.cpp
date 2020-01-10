@@ -1816,7 +1816,6 @@ codeBytes
 get
 (
 )
-false
 )
 ;
 return
@@ -3932,7 +3931,6 @@ masm
 executableCopy
 (
 codePtr
-false
 )
 ;
 PatchDebugSymbolicAccesses

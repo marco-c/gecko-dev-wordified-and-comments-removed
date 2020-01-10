@@ -231,9 +231,6 @@ Linker
 linker
 (
 masm
-"
-Test
-"
 )
 ;
 JitCode
