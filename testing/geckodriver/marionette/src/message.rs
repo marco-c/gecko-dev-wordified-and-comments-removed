@@ -95,6 +95,7 @@ serde
 untagged
 )
 ]
+pub
 enum
 Command
 {
@@ -306,6 +307,7 @@ Outgoing
 =
 1
 }
+pub
 type
 MessageId
 =
@@ -320,10 +322,13 @@ Clone
 PartialEq
 )
 ]
+pub
 struct
 Request
 (
+pub
 MessageId
+pub
 Command
 )
 ;
@@ -459,6 +464,7 @@ Debug
 PartialEq
 )
 ]
+pub
 enum
 Response
 {
@@ -598,6 +604,7 @@ serde
 untagged
 )
 ]
+pub
 enum
 Message
 {

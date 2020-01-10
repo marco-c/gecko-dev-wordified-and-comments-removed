@@ -28,6 +28,12 @@ hyper
 ;
 extern
 crate
+marionette
+as
+marionette_rs
+;
+extern
+crate
 mozprofile
 ;
 extern
