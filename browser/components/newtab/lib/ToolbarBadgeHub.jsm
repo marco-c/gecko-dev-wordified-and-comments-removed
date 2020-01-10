@@ -220,7 +220,7 @@ SYSTEM_TICK_INTERVAL
 *
 1000
 ;
-const
+let
 notificationsByWindow
 =
 new
@@ -1476,6 +1476,13 @@ this
 state
 =
 null
+;
+notificationsByWindow
+=
+new
+WeakMap
+(
+)
 ;
 Services
 .
