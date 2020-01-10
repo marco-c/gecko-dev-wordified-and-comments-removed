@@ -1559,6 +1559,11 @@ numFrames
 =
 0
 ;
+uint32_t
+frameSizeOfInnerMostFrame
+=
+0
+;
 bool
 checkGlobalDeclarationConflicts
 =
