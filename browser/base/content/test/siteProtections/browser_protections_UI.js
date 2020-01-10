@@ -2328,11 +2328,6 @@ async
 =
 >
 {
-await
-openProtectionsPanel
-(
-)
-;
 item
 .
 classList
@@ -2342,6 +2337,11 @@ remove
 "
 notFound
 "
+)
+;
+await
+openProtectionsPanel
+(
 )
 ;
 let
