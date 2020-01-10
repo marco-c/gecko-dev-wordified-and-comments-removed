@@ -97,7 +97,7 @@ Put
 (
 i
 (
-byte_t
+uint8_t
 )
 (
 i

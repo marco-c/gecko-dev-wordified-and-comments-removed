@@ -98,7 +98,7 @@ InternalPut
 (
 int32_t
 index
-byte_t
+uint8_t
 b
 )
 {
@@ -148,7 +148,7 @@ InternalPut
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -217,7 +217,7 @@ return
 length
 ;
 }
-byte_t
+uint8_t
 GrowableMemoryByteArray
 :
 :
@@ -242,7 +242,7 @@ InternalGet
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -287,7 +287,7 @@ clear
 )
 ;
 }
-byte_t
+uint8_t
 *
 GrowableMemoryByteArray
 :

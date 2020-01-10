@@ -213,6 +213,7 @@ BoundOffset
 int32_t
 offset
 )
+const
 ;
 int32_t
 BoundLength
@@ -222,6 +223,7 @@ offset
 int32_t
 length
 )
+const
 ;
 static
 const

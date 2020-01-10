@@ -143,7 +143,13 @@ WritableFontData
 :
 CreateWritableFontData
 (
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 b
 )
@@ -190,7 +196,7 @@ WriteByte
 (
 int32_t
 index
-byte_t
+uint8_t
 b
 )
 {
@@ -218,7 +224,7 @@ WriteBytes
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -255,7 +261,13 @@ WriteBytes
 (
 int32_t
 index
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 b
 )
@@ -297,14 +309,20 @@ WriteBytesPad
 (
 int32_t
 index
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 b
 int32_t
 offset
 int32_t
 length
-byte_t
+uint8_t
 pad
 )
 {
@@ -391,7 +409,7 @@ WritePadding
 index
 count
 (
-byte_t
+uint8_t
 )
 0
 )
@@ -407,7 +425,7 @@ int32_t
 index
 int32_t
 count
-byte_t
+uint8_t
 pad
 )
 {
@@ -451,7 +469,7 @@ WriteChar
 (
 int32_t
 index
-byte_t
+uint8_t
 c
 )
 {
@@ -479,7 +497,7 @@ WriteByte
 (
 index
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -499,7 +517,7 @@ index
 +
 1
 (
-byte_t
+uint8_t
 )
 (
 us
@@ -528,7 +546,7 @@ WriteByte
 (
 index
 (
-byte_t
+uint8_t
 )
 (
 us
@@ -543,7 +561,7 @@ index
 +
 1
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -597,7 +615,7 @@ WriteByte
 (
 index
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -617,7 +635,7 @@ index
 +
 1
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -637,7 +655,7 @@ index
 +
 2
 (
-byte_t
+uint8_t
 )
 (
 ui
@@ -666,7 +684,7 @@ WriteByte
 (
 index
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -686,7 +704,7 @@ index
 +
 1
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -706,7 +724,7 @@ index
 +
 2
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -726,7 +744,7 @@ index
 +
 3
 (
-byte_t
+uint8_t
 )
 (
 ul
@@ -755,7 +773,7 @@ WriteByte
 (
 index
 (
-byte_t
+uint8_t
 )
 (
 ul
@@ -770,7 +788,7 @@ index
 +
 1
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -790,7 +808,7 @@ index
 +
 2
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -810,7 +828,7 @@ index
 +
 3
 (
-byte_t
+uint8_t
 )
 (
 (

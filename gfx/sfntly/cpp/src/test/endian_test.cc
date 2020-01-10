@@ -79,7 +79,7 @@ TestEndian
 (
 )
 {
-byte_t
+uint8_t
 test_data
 [
 ]

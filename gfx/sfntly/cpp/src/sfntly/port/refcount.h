@@ -138,6 +138,11 @@ disable
 )
 #
 endif
+bool
+TestSmartPointer
+(
+)
+;
 namespace
 sfntly
 {
@@ -387,6 +392,14 @@ new_ref_count
 mutable
 size_t
 ref_count_
+;
+friend
+bool
+:
+:
+TestSmartPointer
+(
+)
 ;
 #
 if

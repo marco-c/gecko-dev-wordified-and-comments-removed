@@ -143,7 +143,7 @@ OS2_SFAMILY_CLASS
 0
 ;
 const
-byte_t
+uint8_t
 OS2_PANOSE
 [
 ]
@@ -186,7 +186,7 @@ OS2_UL_UNICODE_RANGE4
 0L
 ;
 const
-byte_t
+uint8_t
 OS2_ACH_VEND_ID
 [
 ]

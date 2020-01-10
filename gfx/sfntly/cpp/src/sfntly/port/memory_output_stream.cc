@@ -35,7 +35,13 @@ MemoryOutputStream
 :
 Write
 (
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 buffer
 )
@@ -70,7 +76,13 @@ MemoryOutputStream
 :
 Write
 (
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 buffer
 int32_t
@@ -151,7 +163,7 @@ MemoryOutputStream
 :
 Write
 (
-byte_t
+uint8_t
 *
 buffer
 int32_t
@@ -222,7 +234,7 @@ MemoryOutputStream
 :
 Write
 (
-byte_t
+uint8_t
 b
 )
 {
@@ -234,7 +246,7 @@ b
 )
 ;
 }
-byte_t
+uint8_t
 *
 MemoryOutputStream
 :

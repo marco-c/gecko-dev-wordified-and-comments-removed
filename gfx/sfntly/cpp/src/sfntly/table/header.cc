@@ -161,6 +161,7 @@ const
 HeaderPtr
 rhs
 )
+const
 {
 return
 lhs
@@ -189,6 +190,7 @@ const
 HeaderPtr
 rhs
 )
+const
 {
 return
 lhs

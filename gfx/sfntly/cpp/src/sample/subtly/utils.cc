@@ -389,7 +389,7 @@ if
 output_file
 =
 =
-static_cast
+reinterpret_cast
 <
 FILE
 *

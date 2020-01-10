@@ -33,7 +33,7 @@ namespace
 sfntly
 {
 const
-byte_t
+uint8_t
 TEST_OTF_DATA
 [
 ]
@@ -73,7 +73,7 @@ TEST_OTF_DATA
 /
 sizeof
 (
-byte_t
+uint8_t
 )
 ;
 +
@@ -261,7 +261,7 @@ i
 ]
 =
 (
-byte_t
+uint8_t
 )
 (
 i

@@ -34,7 +34,13 @@ RefCount
 public
 :
 virtual
-IntegerSet
+std
+:
+:
+set
+<
+int32_t
+>
 *
 TagsHandled
 (

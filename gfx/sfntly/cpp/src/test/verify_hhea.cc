@@ -67,12 +67,6 @@ HHEA_DESCENDER
 ;
 const
 int32_t
-HHEA_LINE_GAP
-=
-93
-;
-const
-int32_t
 HHEA_ADVANCE_WIDTH_MAX
 =
 2753

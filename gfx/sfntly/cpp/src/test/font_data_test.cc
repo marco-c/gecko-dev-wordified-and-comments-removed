@@ -666,7 +666,7 @@ Put
 (
 i
 (
-byte_t
+uint8_t
 )
 (
 i
@@ -731,7 +731,7 @@ index
 ]
 =
 (
-byte_t
+uint8_t
 )
 (
 rfd
@@ -991,11 +991,11 @@ Length
 index
 )
 {
-byte_t
+uint8_t
 b
 =
 (
-byte_t
+uint8_t
 )
 (
 rfd

@@ -235,7 +235,7 @@ Builder
 :
 SetHeight
 (
-byte_t
+uint8_t
 height
 )
 {
@@ -289,7 +289,7 @@ Builder
 :
 SetWidth
 (
-byte_t
+uint8_t
 width
 )
 {
@@ -343,7 +343,7 @@ Builder
 :
 SetBearingX
 (
-byte_t
+uint8_t
 bearing
 )
 {
@@ -397,7 +397,7 @@ Builder
 :
 SetBearingY
 (
-byte_t
+uint8_t
 bearing
 )
 {
@@ -451,7 +451,7 @@ Builder
 :
 SetAdvance
 (
-byte_t
+uint8_t
 advance
 )
 {

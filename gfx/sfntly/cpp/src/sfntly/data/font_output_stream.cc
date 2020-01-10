@@ -52,7 +52,7 @@ FontOutputStream
 :
 Write
 (
-byte_t
+uint8_t
 b
 )
 {
@@ -81,7 +81,13 @@ FontOutputStream
 :
 Write
 (
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 b
 )
@@ -121,7 +127,13 @@ FontOutputStream
 :
 Write
 (
-ByteVector
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 b
 int32_t
@@ -218,7 +230,7 @@ FontOutputStream
 :
 Write
 (
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -297,7 +309,7 @@ FontOutputStream
 :
 WriteChar
 (
-byte_t
+uint8_t
 c
 )
 {
@@ -320,7 +332,7 @@ us
 Write
 (
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -337,7 +349,7 @@ us
 Write
 (
 (
-byte_t
+uint8_t
 )
 (
 us
@@ -376,7 +388,7 @@ ui
 Write
 (
 (
-byte_t
+uint8_t
 )
 (
 ui
@@ -391,7 +403,7 @@ ui
 Write
 (
 (
-byte_t
+uint8_t
 )
 (
 ui
@@ -406,7 +418,7 @@ ui
 Write
 (
 (
-byte_t
+uint8_t
 )
 ui
 &
@@ -427,7 +439,7 @@ ul
 Write
 (
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -444,7 +456,7 @@ ul
 Write
 (
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -461,7 +473,7 @@ ul
 Write
 (
 (
-byte_t
+uint8_t
 )
 (
 (
@@ -478,7 +490,7 @@ ul
 Write
 (
 (
-byte_t
+uint8_t
 )
 (
 ul

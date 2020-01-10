@@ -2213,7 +2213,7 @@ CMap
 :
 Builder
 (
-static_cast
+reinterpret_cast
 <
 ReadableFontData
 *
@@ -2345,7 +2345,7 @@ ToBE32
 character
 )
 ;
-byte_t
+uint8_t
 high_byte
 =
 (
@@ -2357,7 +2357,7 @@ c
 &
 0xff
 ;
-byte_t
+uint8_t
 low_byte
 =
 c
@@ -2876,7 +2876,7 @@ kFormat0Length
 )
 )
 :
-static_cast
+reinterpret_cast
 <
 WritableFontData
 *
@@ -2951,7 +2951,7 @@ kFormat0Length
 )
 )
 :
-static_cast
+reinterpret_cast
 <
 ReadableFontData
 *
@@ -4932,7 +4932,13 @@ Builder
 SegmentList
 *
 segments
-IntegerList
+std
+:
+:
+vector
+<
+int32_t
+>
 *
 glyph_id_array
 const
@@ -4946,7 +4952,7 @@ CMap
 :
 Builder
 (
-static_cast
+reinterpret_cast
 <
 ReadableFontData
 *
@@ -5018,7 +5024,7 @@ CMap
 :
 Builder
 (
-static_cast
+reinterpret_cast
 <
 ReadableFontData
 *
@@ -5387,7 +5393,13 @@ set_model_changed
 )
 ;
 }
-IntegerList
+std
+:
+:
+vector
+<
+int32_t
+>
 *
 CMapTable
 :
@@ -5440,7 +5452,13 @@ Builder
 :
 set_glyph_id_array
 (
-IntegerList
+std
+:
+:
+vector
+<
+int32_t
+>
 *
 glyph_id_array
 )

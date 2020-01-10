@@ -46,7 +46,7 @@ SetByteValue
 (
 int32_t
 index
-byte_t
+uint8_t
 b
 )
 ;

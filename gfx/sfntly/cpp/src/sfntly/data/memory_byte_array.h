@@ -40,7 +40,7 @@ length
 ;
 MemoryByteArray
 (
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -165,7 +165,7 @@ InternalPut
 (
 int32_t
 index
-byte_t
+uint8_t
 b
 )
 ;
@@ -175,7 +175,7 @@ InternalPut
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -185,7 +185,7 @@ length
 )
 ;
 virtual
-byte_t
+uint8_t
 InternalGet
 (
 int32_t
@@ -198,7 +198,7 @@ InternalGet
 (
 int32_t
 index
-byte_t
+uint8_t
 *
 b
 int32_t
@@ -214,7 +214,7 @@ Close
 )
 ;
 virtual
-byte_t
+uint8_t
 *
 Begin
 (
@@ -227,7 +227,7 @@ Init
 (
 )
 ;
-byte_t
+uint8_t
 *
 b_
 ;

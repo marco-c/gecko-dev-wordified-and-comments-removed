@@ -117,7 +117,7 @@ Height
 void
 SetHeight
 (
-byte_t
+uint8_t
 height
 )
 ;
@@ -129,7 +129,7 @@ Width
 void
 SetWidth
 (
-byte_t
+uint8_t
 width
 )
 ;
@@ -141,7 +141,7 @@ BearingX
 void
 SetBearingX
 (
-byte_t
+uint8_t
 bearing
 )
 ;
@@ -153,7 +153,7 @@ BearingY
 void
 SetBearingY
 (
-byte_t
+uint8_t
 bearing
 )
 ;
@@ -165,7 +165,7 @@ Advance
 void
 SetAdvance
 (
-byte_t
+uint8_t
 advance
 )
 ;

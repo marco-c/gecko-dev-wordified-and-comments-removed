@@ -345,6 +345,7 @@ BoundOffset
 int32_t
 offset
 )
+const
 {
 return
 offset
@@ -363,6 +364,7 @@ offset
 int32_t
 length
 )
+const
 {
 return
 std
