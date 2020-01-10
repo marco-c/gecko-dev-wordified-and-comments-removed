@@ -651,6 +651,9 @@ aIsResetting
 in
 AUTF8String
 aUpdateChannel
+in
+AUTF8String
+aLegacyInstallHash
 out
 nsIFile
 aRootDir
