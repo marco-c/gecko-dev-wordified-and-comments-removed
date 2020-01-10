@@ -6137,8 +6137,8 @@ GetContentBlockingLog
 )
 returns
 (
-nsCString
-log
+IPCStream
+ipcStream
 bool
 success
 )
