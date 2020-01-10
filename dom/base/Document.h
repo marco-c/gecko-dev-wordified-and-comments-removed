@@ -676,7 +676,7 @@ class
 nsIGlobalObject
 ;
 class
-nsIXULWindow
+nsIAppWindow
 ;
 class
 nsXULPrototypeDocument
@@ -9204,9 +9204,9 @@ const
 ;
 already_AddRefed
 <
-nsIXULWindow
+nsIAppWindow
 >
-GetXULWindowIfToplevelChrome
+GetAppWindowIfToplevelChrome
 (
 )
 const

@@ -3965,14 +3965,14 @@ alwaysOnTop
 return
 this
 .
-xulWindow
+appWindow
 .
 zLevel
 >
 =
 Ci
 .
-nsIXULWindow
+nsIAppWindow
 .
 raisedZ
 ;

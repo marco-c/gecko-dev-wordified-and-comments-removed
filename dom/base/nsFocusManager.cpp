@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsIXULWindow
+nsIAppWindow
 .
 h
 "
@@ -3615,9 +3615,9 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
-xulWin
+appWin
 (
 do_GetInterface
 (
@@ -3632,7 +3632,7 @@ currentFocus
 0
 true
 false
-xulWin
+appWin
 !
 =
 nullptr
