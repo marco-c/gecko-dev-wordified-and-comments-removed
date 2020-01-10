@@ -3,7 +3,7 @@ A11Y_MANIFESTS
 =
 [
 "
-mochitest
+a11y
 .
 ini
 "
