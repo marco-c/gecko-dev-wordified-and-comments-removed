@@ -127,6 +127,14 @@ sphinxarg
 .
 ext
 '
+    
+'
+sphinx
+.
+ext
+.
+autodoc
+'
 ]
 templates_path
 =
