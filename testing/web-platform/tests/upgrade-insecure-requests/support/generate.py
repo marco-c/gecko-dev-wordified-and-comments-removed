@@ -130,6 +130,8 @@ resources
 /
 common
 .
+sub
+.
 js
 "
 >

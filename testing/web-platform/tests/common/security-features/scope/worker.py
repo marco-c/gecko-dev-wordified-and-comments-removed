@@ -97,6 +97,8 @@ resources
 /
 common
 .
+sub
+.
 js
 '
 %

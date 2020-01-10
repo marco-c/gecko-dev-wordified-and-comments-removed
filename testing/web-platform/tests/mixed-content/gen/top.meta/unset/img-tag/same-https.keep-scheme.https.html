@@ -186,6 +186,8 @@ resources
 /
 common
 .
+sub
+.
 js
 "
 >
