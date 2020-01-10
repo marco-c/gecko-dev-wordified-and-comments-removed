@@ -731,6 +731,17 @@ stub
 (
 )
 }
+gProtectionsHandler
+:
+{
+showProtectionsPopup
+:
+sinon
+.
+stub
+(
+)
+}
 }
 }
 ;
