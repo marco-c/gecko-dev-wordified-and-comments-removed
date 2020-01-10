@@ -14,7 +14,13 @@ nsUrlClassifierDBService
 .
 h
 "
-static
+using
+namespace
+mozilla
+:
+:
+safebrowsing
+;
 void
 TestResponseCode
 (
