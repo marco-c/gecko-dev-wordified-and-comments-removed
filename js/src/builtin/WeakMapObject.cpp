@@ -739,13 +739,10 @@ isObject
 )
 )
 {
-ReportNotObjectWithName
+ReportNotObject
 (
 cx
-"
-WeakMap
-key
-"
+JSMSG_NOT_NONNULL_OBJECT_WEAKMAP_KEY
 args
 .
 get
