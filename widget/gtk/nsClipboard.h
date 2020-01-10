@@ -226,12 +226,6 @@ nsClipboard
 (
 )
 ;
-nsresult
-Store
-(
-void
-)
-;
 nsITransferable
 *
 GetTransferable
