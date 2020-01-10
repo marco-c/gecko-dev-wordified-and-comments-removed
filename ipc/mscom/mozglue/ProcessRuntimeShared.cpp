@@ -12,7 +12,11 @@ h
 #
 include
 "
-MozglueUtils
+mozilla
+/
+glue
+/
+WinUtils
 .
 h
 "
