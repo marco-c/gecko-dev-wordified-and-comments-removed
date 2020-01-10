@@ -263,15 +263,6 @@ bs_data
 .
 dest_rect
 ;
-dest_rect
-.
-p0
-+
-=
-cmi
-.
-local_pos
-;
 ClipVertexInfo
 vi
 =
