@@ -372,8 +372,7 @@ build
 .
 mkdir
 -
--
-parents
+p
 docs
 /
 _build
@@ -405,7 +404,7 @@ FETCH_HEAD
 git
 rm
 -
-r
+rf
 .
 #
 Build
@@ -493,7 +492,6 @@ git
 add
 .
 if
-!
 git
 diff
 -
