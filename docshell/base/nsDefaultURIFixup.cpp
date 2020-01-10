@@ -1431,7 +1431,7 @@ keyword_enabled
 (
 aFixupFlags
 &
-FIXUP_FLAG_FIX_SCHEME_TYPOS
+FIXUP_FLAG_ALLOW_KEYWORD_LOOKUP
 )
 )
 {
