@@ -332,6 +332,8 @@ items
 capabilities
 [
 "
+goog
+:
 chromeOptions
 "
 ]
@@ -339,9 +341,21 @@ chromeOptions
 {
 }
     
+package_name
+=
+"
+com
+.
+android
+.
+chrome
+"
+    
 capabilities
 [
 "
+goog
+:
 chromeOptions
 "
 ]
@@ -351,17 +365,7 @@ androidPackage
 "
 ]
 =
-"
-com
-.
-google
-.
-android
-.
-apps
-.
-chrome
-"
+package_name
     
 for
 (
@@ -402,6 +406,8 @@ None
 capabilities
 [
 "
+goog
+:
 chromeOptions
 "
 ]
@@ -446,29 +452,6 @@ enable
 automation
 "
 ]
-    
-if
-test_type
-=
-=
-"
-wdspec
-"
-:
-        
-capabilities
-[
-"
-chromeOptions
-"
-]
-[
-"
-w3c
-"
-]
-=
-True
     
 executor_kwargs
 [
@@ -610,6 +593,12 @@ args
 =
 webdriver_args
 )
+        
+self
+.
+setup_adb_reverse
+(
+)
     
 def
 _adb_run
@@ -652,7 +641,7 @@ args
 )
     
 def
-setup
+setup_adb_reverse
 (
 self
 )
