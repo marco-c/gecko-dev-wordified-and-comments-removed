@@ -2710,6 +2710,16 @@ defaultPrevented
 if
 (
 !
+aEvent
+.
+composedTarget
+.
+nodePrincipal
+.
+isSystemPrincipal
+&
+&
+!
 Services
 .
 prefs
