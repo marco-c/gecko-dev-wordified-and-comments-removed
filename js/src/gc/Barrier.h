@@ -4003,6 +4003,15 @@ JitCode
 >
 ;
 using
+HeapPtrObject
+=
+HeapPtr
+<
+JSObject
+*
+>
+;
+using
 HeapPtrRegExpShared
 =
 HeapPtr

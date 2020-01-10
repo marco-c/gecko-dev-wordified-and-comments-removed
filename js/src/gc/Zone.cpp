@@ -652,6 +652,11 @@ gcSweepGroupIndex
 )
 #
 endif
+finalizationRecordMap_
+(
+this
+this
+)
 jitZone_
 (
 this
