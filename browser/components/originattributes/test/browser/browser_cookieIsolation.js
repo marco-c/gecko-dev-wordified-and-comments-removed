@@ -78,7 +78,7 @@ aBrowser
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -89,10 +89,8 @@ re
 ]
 function
 (
-[
 contentKey
 contentRe
-]
 )
 {
 let
