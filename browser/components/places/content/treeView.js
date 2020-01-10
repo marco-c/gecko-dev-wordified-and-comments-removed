@@ -3967,11 +3967,6 @@ aNewKeyword
 )
 {
 }
-nodeAnnotationChanged
-(
-)
-{
-}
 nodeDateAddedChanged
 :
 function

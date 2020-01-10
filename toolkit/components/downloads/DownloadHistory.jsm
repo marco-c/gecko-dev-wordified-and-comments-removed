@@ -2564,11 +2564,6 @@ slotsForUrl
 }
 }
 }
-nodeAnnotationChanged
-(
-)
-{
-}
 nodeIconChanged
 (
 )

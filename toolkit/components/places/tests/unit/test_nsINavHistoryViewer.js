@@ -36,11 +36,6 @@ removedNode
 node
 ;
 }
-nodeAnnotationChanged
-(
-)
-{
-}
 newTitle
 :
 "

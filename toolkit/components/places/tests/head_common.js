@@ -3234,11 +3234,6 @@ invalidateContainer
 )
 {
 }
-nodeAnnotationChanged
-(
-)
-{
-}
 nodeDateAddedChanged
 (
 )
