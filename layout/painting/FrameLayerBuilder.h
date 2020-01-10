@@ -776,10 +776,6 @@ BasicLayerManager
 >
 mLayerManager
 ;
-FrameLayerBuilder
-*
-mLayerBuilder
-;
 RefPtr
 <
 layers
