@@ -3335,17 +3335,6 @@ HandleObject
 target
 )
 {
-RootedValue
-origv
-(
-cx
-ObjectValue
-(
-*
-target
-)
-)
-;
 for
 (
 CompartmentsIter
@@ -3380,7 +3369,7 @@ c
 >
 lookupWrapper
 (
-origv
+target
 )
 )
 {
@@ -3563,7 +3552,7 @@ destination
 >
 lookupWrapper
 (
-origv
+origobj
 )
 )
 {
