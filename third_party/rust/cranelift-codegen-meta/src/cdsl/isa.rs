@@ -17,7 +17,7 @@ crate
 cdsl
 :
 :
-inst
+instructions
 :
 :
 InstructionGroup

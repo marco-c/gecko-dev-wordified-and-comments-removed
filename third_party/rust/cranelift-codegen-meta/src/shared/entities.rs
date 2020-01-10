@@ -104,7 +104,7 @@ destination
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -130,7 +130,7 @@ slot
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -157,7 +157,7 @@ value
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -184,7 +184,7 @@ signature
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -211,7 +211,7 @@ function
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -245,7 +245,7 @@ table
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -271,7 +271,7 @@ heap
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -297,7 +297,7 @@ table
 "
 )
 .
-finish
+build
 (
 )
 ;
@@ -370,7 +370,7 @@ instruction
 #
 )
 .
-finish
+build
 (
 )
 ;

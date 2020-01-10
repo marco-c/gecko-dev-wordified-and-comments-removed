@@ -16,7 +16,7 @@ formats
 ;
 pub
 mod
-inst
+instructions
 ;
 pub
 mod

@@ -565,7 +565,7 @@ self
 }
 pub
 fn
-finish
+build
 (
 self
 )
@@ -963,7 +963,7 @@ format
 =
 inst_format
 .
-finish
+build
 (
 )
 ;

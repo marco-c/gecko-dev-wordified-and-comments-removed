@@ -1078,6 +1078,7 @@ DisplayFunctionAnnotations
 a
 >
 {
+pub
 fn
 default
 (

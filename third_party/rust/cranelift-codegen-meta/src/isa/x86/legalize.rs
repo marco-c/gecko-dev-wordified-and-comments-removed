@@ -9,7 +9,6 @@ ast
 :
 :
 {
-bind
 var
 ExprBuilder
 Literal
@@ -22,7 +21,7 @@ crate
 cdsl
 :
 :
-inst
+instructions
 :
 :
 InstructionGroup
@@ -2463,7 +2462,7 @@ imm64
 ;
 group
 .
-finish_and_add_to
+build_and_add_to
 (
 &
 mut

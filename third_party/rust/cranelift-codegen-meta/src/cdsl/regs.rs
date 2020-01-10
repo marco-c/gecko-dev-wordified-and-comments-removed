@@ -1301,7 +1301,7 @@ class_index
 }
 pub
 fn
-finish
+build
 (
 self
 )

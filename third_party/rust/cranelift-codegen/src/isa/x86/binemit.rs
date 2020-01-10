@@ -2264,4 +2264,15 @@ put4
 delta
 )
 ;
+sink
+.
+reloc_jt
+(
+Reloc
+:
+:
+X86PCRelRodata4
+jt
+)
+;
 }
