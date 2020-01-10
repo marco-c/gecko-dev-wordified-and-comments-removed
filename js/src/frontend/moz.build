@@ -295,6 +295,11 @@ ObjectEmitter
 cpp
 '
 '
+ObjLiteral
+.
+cpp
+'
+'
 ParseContext
 .
 cpp
