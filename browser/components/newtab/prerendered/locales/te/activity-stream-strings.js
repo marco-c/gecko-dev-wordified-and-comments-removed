@@ -118,6 +118,7 @@ prefs_highlights_options_pocket_label
 "
 :
 "
+Pocket
 "
 "
 prefs_snippets_description

@@ -11053,6 +11053,11 @@ foo
 .
 com
 "
+telemetrySource
+:
+"
+foo
+"
 }
 }
 )
@@ -11090,6 +11095,9 @@ browser
 foo
 .
 com
+"
+"
+foo
 "
 )
 ;

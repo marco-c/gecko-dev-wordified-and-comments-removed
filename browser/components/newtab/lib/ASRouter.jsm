@@ -1901,6 +1901,11 @@ installAddonFromURL
 (
 browser
 url
+telemetrySource
+=
+"
+amo
+"
 )
 {
 try
@@ -1941,9 +1946,7 @@ telemetryInfo
 {
 source
 :
-"
-amo
-"
+telemetrySource
 }
 ;
 const
@@ -7715,6 +7718,11 @@ action
 data
 .
 url
+action
+.
+data
+.
+telemetrySource
 )
 ;
 break
