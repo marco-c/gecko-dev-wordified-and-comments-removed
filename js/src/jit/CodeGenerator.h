@@ -1224,10 +1224,6 @@ Register
 objReg
 Register
 temp
-FloatRegister
-tempDouble
-FloatRegister
-tempF32
 const
 ConstantOrRegister
 &
