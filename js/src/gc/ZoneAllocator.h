@@ -7,6 +7,13 @@ gc_ZoneAllocator_h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 gc
 /
 Cell
@@ -35,6 +42,7 @@ namespace
 JS
 {
 class
+JS_PUBLIC_API
 Zone
 ;
 }

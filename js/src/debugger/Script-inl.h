@@ -39,6 +39,13 @@ utility
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 debugger
 /
 Debugger
@@ -82,6 +89,7 @@ WasmJS
 h
 "
 class
+JS_PUBLIC_API
 JSObject
 ;
 js

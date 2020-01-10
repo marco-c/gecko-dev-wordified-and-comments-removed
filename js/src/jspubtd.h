@@ -116,6 +116,7 @@ JSProto_LIMIT
 }
 ;
 struct
+JS_PUBLIC_API
 JSClass
 ;
 class

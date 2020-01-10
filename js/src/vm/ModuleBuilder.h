@@ -16,6 +16,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 builtin
 /
 ModuleObject
@@ -68,9 +75,11 @@ AtomsTable
 h
 "
 struct
+JS_PUBLIC_API
 JSContext
 ;
 class
+JS_PUBLIC_API
 JSAtom
 ;
 namespace

@@ -14,6 +14,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 NamespaceImports
 .
 h
@@ -46,6 +53,7 @@ NativeObject
 h
 "
 class
+JS_PUBLIC_API
 JSObject
 ;
 namespace

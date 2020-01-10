@@ -16,6 +16,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 js
 /
 CallArgs
@@ -50,6 +57,7 @@ JSObject
 h
 "
 struct
+JS_PUBLIC_API
 JSContext
 ;
 namespace

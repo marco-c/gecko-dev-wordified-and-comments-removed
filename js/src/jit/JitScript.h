@@ -16,6 +16,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineIC
@@ -41,6 +48,7 @@ TypeInference
 h
 "
 class
+JS_PUBLIC_API
 JSScript
 ;
 namespace

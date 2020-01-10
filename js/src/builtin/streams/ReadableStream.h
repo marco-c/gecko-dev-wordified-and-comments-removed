@@ -32,6 +32,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 js
 /
 Class
@@ -75,6 +82,7 @@ NativeObject
 h
 "
 class
+JS_PUBLIC_API
 JSObject
 ;
 namespace

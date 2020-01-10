@@ -39,12 +39,15 @@ Value
 h
 "
 struct
+JS_PUBLIC_API
 JSContext
 ;
 struct
+JS_PUBLIC_API
 JSRuntime
 ;
 class
+JS_PUBLIC_API
 JSString
 ;
 extern

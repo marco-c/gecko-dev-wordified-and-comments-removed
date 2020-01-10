@@ -16,6 +16,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 NamespaceImports
 .
 h
@@ -41,6 +48,7 @@ inl
 h
 "
 class
+JS_PUBLIC_API
 JSObject
 ;
 inline

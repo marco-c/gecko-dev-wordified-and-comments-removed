@@ -50,6 +50,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 js
 /
 Class
@@ -93,6 +100,7 @@ NativeObject
 h
 "
 struct
+JS_PUBLIC_API
 JSContext
 ;
 namespace

@@ -37,12 +37,15 @@ Value
 h
 "
 struct
+JS_PUBLIC_API
 JSContext
 ;
 class
+JS_PUBLIC_API
 JSObject
 ;
 class
+JS_PUBLIC_API
 JSString
 ;
 using

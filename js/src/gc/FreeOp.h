@@ -16,6 +16,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 gc
 /
 GCEnum
@@ -68,6 +75,7 @@ Vector
 h
 "
 struct
+JS_PUBLIC_API
 JSRuntime
 ;
 namespace

@@ -16,6 +16,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 gc
 /
 GCRuntime
@@ -44,6 +51,7 @@ namespace
 JS
 {
 class
+JS_PUBLIC_API
 Realm
 ;
 }

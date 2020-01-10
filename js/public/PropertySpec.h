@@ -85,6 +85,7 @@ Value
 h
 "
 struct
+JS_PUBLIC_API
 JSContext
 ;
 struct

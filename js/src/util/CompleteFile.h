@@ -30,6 +30,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 js
 /
 AllocPolicy
@@ -46,6 +53,7 @@ Vector
 h
 "
 struct
+JS_PUBLIC_API
 JSContext
 ;
 namespace

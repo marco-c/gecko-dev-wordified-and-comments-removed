@@ -57,6 +57,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 frontend
 /
 ParseContext
@@ -136,9 +143,11 @@ Scope
 h
 "
 class
+JS_PUBLIC_API
 JSFunction
 ;
 class
+JS_PUBLIC_API
 JSObject
 ;
 namespace
