@@ -4507,8 +4507,6 @@ NewContext
 (
 uint32_t
 maxBytes
-uint32_t
-maxNurseryBytes
 JSRuntime
 *
 parentRuntime
