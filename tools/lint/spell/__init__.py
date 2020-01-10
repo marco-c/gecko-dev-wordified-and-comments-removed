@@ -354,6 +354,10 @@ message
 '
 :
 typo
+.
+strip
+(
+)
 +
 "
 =
