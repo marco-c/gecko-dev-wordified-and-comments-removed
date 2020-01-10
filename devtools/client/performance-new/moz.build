@@ -93,6 +93,13 @@ panel
 js
 '
 '
+preference
+-
+management
+.
+js
+'
+'
 utils
 .
 js
