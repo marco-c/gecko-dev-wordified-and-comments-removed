@@ -150,6 +150,16 @@ mdct_neon
 S
 '
 '
+mpegaudiodsp_init
+.
+c
+'
+'
+mpegaudiodsp_neon
+.
+S
+'
+'
 neon
 .
 S
