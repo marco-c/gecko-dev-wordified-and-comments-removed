@@ -1697,9 +1697,6 @@ SpecifiedValue
 :
 None
 "
-boxed
-=
-True
 animation_value_type
 =
 "
