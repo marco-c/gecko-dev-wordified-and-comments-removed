@@ -65,6 +65,12 @@ loader
 transform
 :
 loader
+kind
+-
+dependencies
+:
+-
+build
 transforms
 :
 -
