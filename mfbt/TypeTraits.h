@@ -13,13 +13,6 @@ Types
 .
 h
 "
-#
-include
-<
-wchar
-.
-h
->
 namespace
 mozilla
 {
