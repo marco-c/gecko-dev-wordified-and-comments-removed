@@ -1,11 +1,6 @@
-browser
+build
 /
-components
-/
-newtab
-/
-logs
-/
+pymake
 browser
 /
 components
@@ -46,6 +41,8 @@ devtools
 client
 /
 aboutdebugging
+-
+new
 /
 test
 /
