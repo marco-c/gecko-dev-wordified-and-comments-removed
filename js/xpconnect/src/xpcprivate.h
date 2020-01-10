@@ -6300,7 +6300,10 @@ enum
 {
 FLAT_JS_OBJECT_VALID
 =
-JS_BIT
+js
+:
+:
+Bit
 (
 0
 )

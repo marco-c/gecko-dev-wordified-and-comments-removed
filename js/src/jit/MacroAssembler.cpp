@@ -5131,7 +5131,7 @@ isValid
 (
 )
 "
-JS_ROUNDUP
+RoundUp
 must
 not
 overflow
@@ -5140,7 +5140,7 @@ overflow
 ;
 nbytes
 =
-JS_ROUNDUP
+RoundUp
 (
 nbytes
 sizeof

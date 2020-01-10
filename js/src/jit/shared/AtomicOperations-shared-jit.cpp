@@ -3498,7 +3498,7 @@ const
 uint8_t
 *
 )
-JS_ROUNDUP
+RoundUp
 (
 uintptr_t
 (
@@ -4644,7 +4644,7 @@ bytesNeeded
 size_t
 roundedCodeLength
 =
-JS_ROUNDUP
+RoundUp
 (
 codeLength
 ExecutableCodePageSize

@@ -156,7 +156,7 @@ caseValue
 +
 int
 (
-JS_BIT
+Bit
 (
 15
 )
@@ -166,7 +166,7 @@ JS_BIT
 =
 unsigned
 (
-JS_BIT
+Bit
 (
 16
 )
@@ -229,7 +229,7 @@ caseValue
 caseValue
 +
 =
-JS_BIT
+Bit
 (
 16
 )
@@ -407,7 +407,7 @@ if
 tableLength_
 >
 =
-JS_BIT
+Bit
 (
 16
 )
@@ -694,7 +694,7 @@ if
 (
 caseCount
 >
-JS_BIT
+Bit
 (
 16
 )

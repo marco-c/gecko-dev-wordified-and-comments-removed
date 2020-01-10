@@ -10266,7 +10266,7 @@ nchars
 =
 data
 &
-JS_BITMASK
+BitMask
 (
 31
 )
@@ -10319,7 +10319,7 @@ length
 =
 data
 &
-JS_BITMASK
+BitMask
 (
 31
 )

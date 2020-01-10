@@ -858,7 +858,7 @@ newChunk
 ;
 if
 (
-JS_ROUNDUP
+RoundUp
 (
 newCapacity
 SystemPageSize
@@ -867,7 +867,7 @@ SystemPageSize
 )
 >
 =
-JS_ROUNDDOWN
+RoundDown
 (
 Nursery
 :
@@ -1966,7 +1966,7 @@ MakeUndefined
 }
 capacity_
 =
-JS_ROUNDUP
+RoundUp
 (
 tunables
 (
@@ -2231,7 +2231,7 @@ RelocationOverlay
 size_t
 allocSize
 =
-JS_ROUNDUP
+RoundUp
 (
 sizeof
 (
@@ -7022,7 +7022,7 @@ MOZ_ASSERT
 (
 chunkno
 <
-JS_HOWMANY
+HowMany
 (
 capacity
 (
@@ -7638,7 +7638,7 @@ ChunkSize
 {
 size
 =
-JS_ROUND
+Round
 (
 size
 ChunkSize
@@ -7651,12 +7651,12 @@ size
 =
 Min
 (
-JS_ROUND
+Round
 (
 size
 SubChunkStep
 )
-JS_ROUNDDOWN
+RoundDown
 (
 NurseryChunkUsableSize
 SubChunkStep
@@ -8033,7 +8033,7 @@ capacity_
 unsigned
 newCount
 =
-JS_HOWMANY
+HowMany
 (
 newCapacity
 ChunkSize

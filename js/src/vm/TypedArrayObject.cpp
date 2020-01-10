@@ -694,7 +694,7 @@ byteLength
 size_t
 nbytes
 =
-JS_ROUNDUP
+RoundUp
 (
 tarray
 -
@@ -953,7 +953,7 @@ hasInlineElements
 size_t
 nbytes
 =
-JS_ROUNDUP
+RoundUp
 (
 curObj
 -
@@ -1166,7 +1166,7 @@ buf
 size_t
 nbytes
 =
-JS_ROUNDUP
+RoundUp
 (
 newObj
 -
@@ -1352,7 +1352,7 @@ isValid
 (
 )
 "
-JS_ROUNDUP
+RoundUp
 must
 not
 overflow
@@ -1364,7 +1364,7 @@ oomUnsafe
 ;
 nbytes
 =
-JS_ROUNDUP
+RoundUp
 (
 nbytes
 sizeof
@@ -3078,7 +3078,7 @@ isValid
 (
 )
 "
-JS_ROUNDUP
+RoundUp
 must
 not
 overflow
@@ -3087,7 +3087,7 @@ overflow
 ;
 nbytes
 =
-JS_ROUNDUP
+RoundUp
 (
 nbytes
 sizeof

@@ -1520,7 +1520,7 @@ hashShift_
 uint32_t
 sizeMask
 =
-JS_BITMASK
+BitMask
 (
 sizeLog2
 )

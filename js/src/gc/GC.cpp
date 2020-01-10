@@ -732,7 +732,7 @@ detail
 :
 LIFO_ALLOC_ALIGN
 >
-JS_BITMASK
+BitMask
 (
 Cell
 :
@@ -754,7 +754,7 @@ static_assert
 (
 CellAlignBytes
 >
-JS_BITMASK
+BitMask
 (
 Cell
 :
@@ -782,7 +782,7 @@ sizeof
 uintptr_t
 )
 >
-JS_BITMASK
+BitMask
 (
 Cell
 :
@@ -814,7 +814,7 @@ jit
 :
 CodeAlignment
 >
-JS_BITMASK
+BitMask
 (
 Cell
 :

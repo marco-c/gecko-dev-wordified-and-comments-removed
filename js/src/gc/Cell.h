@@ -172,7 +172,7 @@ constexpr
 uintptr_t
 RESERVED_MASK
 =
-JS_BITMASK
+BitMask
 (
 ReservedBits
 )
@@ -182,7 +182,7 @@ constexpr
 uintptr_t
 FORWARD_BIT
 =
-JS_BIT
+Bit
 (
 0
 )
@@ -192,7 +192,7 @@ constexpr
 uintptr_t
 JSSTRING_BIT
 =
-JS_BIT
+Bit
 (
 1
 )
