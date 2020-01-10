@@ -1431,7 +1431,7 @@ MozSearch
 .
 urlbar
 "
-1
+undefined
 )
 ;
 TelemetryTestUtils
@@ -1507,7 +1507,7 @@ MozSearch
 .
 urlbar
 "
-2
+undefined
 )
 ;
 TelemetryTestUtils

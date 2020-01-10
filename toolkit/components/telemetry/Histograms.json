@@ -87416,6 +87416,7 @@ bug_numbers
 1482158
 1499193
 1545172
+1572500
 ]
 "
 description
@@ -87431,6 +87432,7 @@ access
 points
 and
 in
+-
 content
 searches
 .
@@ -87440,18 +87442,6 @@ access
 points
 in
 general
-and
-for
-the
-urlbar
-when
-an
-internal
-engine
-shorcut
-is
-not
-used
 the
 format
 is
@@ -87492,6 +87482,7 @@ name
 alias
 For
 in
+-
 content
 searches
 the
