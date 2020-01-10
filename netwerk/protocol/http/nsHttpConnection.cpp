@@ -3461,6 +3461,8 @@ ssl
 {
 bool
 esni
+=
+false
 ;
 rv
 =
