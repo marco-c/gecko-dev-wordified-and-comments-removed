@@ -626,6 +626,12 @@ level
 ]
         
 '
+MOZ_FETCHES_DIR
+'
+:
+workspace
+        
+'
 GECKO_PATH
 '
 :
@@ -633,31 +639,6 @@ gecko_path
     
 }
 )
-    
-if
-env
-.
-get
-(
-'
-MOZ_FETCHES_DIR
-'
-)
-=
-=
-'
-fetches
-'
-:
-        
-env
-[
-'
-MOZ_FETCHES_DIR
-'
-]
-=
-workspace
     
 attributes
 =
