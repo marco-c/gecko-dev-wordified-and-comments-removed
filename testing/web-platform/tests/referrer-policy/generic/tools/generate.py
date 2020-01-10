@@ -412,8 +412,6 @@ delivery_type
 =
 '
 meta
--
-referrer
 '
 :
                 
@@ -517,8 +515,6 @@ delivery_type
 =
 '
 attr
--
-referrer
 '
 :
                 
@@ -531,7 +527,7 @@ delivery_type
 '
 rel
 -
-noreferrer
+noref
 '
 :
                 
