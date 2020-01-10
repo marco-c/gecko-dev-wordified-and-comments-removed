@@ -637,14 +637,6 @@ level
 ]
         
 '
-TOOLS_DISABLE
-'
-:
-'
-true
-'
-        
-'
 MOZ_AUTOMATION
 '
 :
