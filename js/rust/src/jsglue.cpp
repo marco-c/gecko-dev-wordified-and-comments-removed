@@ -2231,6 +2231,15 @@ this
 ;
 }
 bool
+isSystemOrAddonPrincipal
+(
+)
+{
+return
+false
+;
+}
+bool
 write
 (
 JSContext
