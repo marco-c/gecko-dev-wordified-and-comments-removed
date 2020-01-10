@@ -697,9 +697,6 @@ const
 opts
 =
 {
-sharedGlobal
-:
-true
 sandboxPrototype
 :
 window
