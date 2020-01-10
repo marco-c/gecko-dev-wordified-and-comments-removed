@@ -206,20 +206,6 @@ primary
 "
 )
     
-parameterized
-(
-"
-portrait
--
-secondary
-"
-"
-portrait
--
-secondary
-"
-)
-    
 def
 test_set_orientation
 (
