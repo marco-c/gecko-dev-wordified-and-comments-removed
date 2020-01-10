@@ -5012,6 +5012,12 @@ nsIGfxInfo
 :
 FEATURE_GPU_PROCESS
 :
+case
+nsIGfxInfo
+:
+:
+FEATURE_DIRECT3D_11_ANGLE
+:
 return
 false
 ;
