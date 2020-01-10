@@ -859,6 +859,9 @@ as
 f
 :
                     
+try
+:
+                        
 data
 =
 json
@@ -867,6 +870,12 @@ load
 (
 f
 )
+                    
+except
+ValueError
+:
+                        
+pass
                 
 data
 =
