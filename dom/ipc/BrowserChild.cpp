@@ -16397,6 +16397,16 @@ HasLayerManager
 return
 ;
 }
+MOZ_DIAGNOSTIC_ASSERT
+(
+nsContentUtils
+:
+:
+IsSafeToRunScript
+(
+)
+)
+;
 nsAutoScriptBlocker
 scriptBlocker
 ;
