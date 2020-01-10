@@ -1190,6 +1190,11 @@ dictionary
 RTCIceCandidateStats
 {
 boolean
+deleted
+=
+false
+;
+boolean
 isRemote
 ;
 }
