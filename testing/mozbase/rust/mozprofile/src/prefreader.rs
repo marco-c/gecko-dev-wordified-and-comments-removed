@@ -2236,10 +2236,9 @@ x
 >
 {
 value
+<
+<
 =
-value
-<
-<
 4
 ;
 match
