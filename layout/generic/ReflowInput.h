@@ -699,6 +699,11 @@ mIsFlexContainerMeasuringBSize
 1
 ;
 bool
+mTreatBSizeAsIndefinite
+:
+1
+;
+bool
 mDummyParentReflowInput
 :
 1
