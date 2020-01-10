@@ -132,6 +132,10 @@ clip_rect
 :
 DeviceRect
 pub
+dirty_rect
+:
+DeviceRect
+pub
 z_id
 :
 ZBufferId
@@ -168,7 +172,7 @@ Deserialize
 ]
 pub
 struct
-CompositeConfig
+CompositeState
 {
 pub
 opaque_tiles
@@ -195,9 +199,13 @@ pub
 z_generator
 :
 ZBufferIdGenerator
+pub
+dirty_rects_are_valid
+:
+bool
 }
 impl
-CompositeConfig
+CompositeState
 {
 pub
 fn
@@ -208,7 +216,7 @@ new
 >
 Self
 {
-CompositeConfig
+CompositeState
 {
 opaque_tiles
 :
@@ -243,6 +251,9 @@ new
 (
 0
 )
+dirty_rects_are_valid
+:
+true
 }
 }
 }

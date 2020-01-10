@@ -68,7 +68,7 @@ composite
 :
 :
 {
-CompositeConfig
+CompositeState
 CompositeTile
 CompositeTileSurface
 }
@@ -3119,11 +3119,11 @@ z_generator
 &
 mut
 ZBufferIdGenerator
-composite_config
+composite_state
 :
 &
 mut
-CompositeConfig
+CompositeState
 )
 {
 for
@@ -3161,7 +3161,7 @@ transforms
 root_spatial_node_index
 surface_spatial_node_index
 z_generator
-composite_config
+composite_state
 )
 ;
 }
@@ -3222,11 +3222,11 @@ z_generator
 &
 mut
 ZBufferIdGenerator
-composite_config
+composite_state
 :
 &
 mut
-CompositeConfig
+CompositeState
 )
 {
 if
@@ -5545,7 +5545,7 @@ round
 let
 z_id
 =
-composite_config
+composite_state
 .
 z_generator
 .
@@ -5579,6 +5579,23 @@ device_rect
 tile
 .
 world_rect
+*
+ctx
+.
+global_device_pixel_scale
+)
+.
+round
+(
+)
+;
+let
+dirty_rect
+=
+(
+tile
+.
+world_dirty_rect
 *
 ctx
 .
@@ -5624,7 +5641,7 @@ color
 =
 >
 {
-composite_config
+composite_state
 .
 opaque_tiles
 .
@@ -5647,6 +5664,7 @@ color
 rect
 :
 device_rect
+dirty_rect
 clip_rect
 :
 device_clip_rect
@@ -5662,7 +5680,7 @@ Clear
 =
 >
 {
-composite_config
+composite_state
 .
 clear_tiles
 .
@@ -5679,6 +5697,7 @@ Clear
 rect
 :
 device_rect
+dirty_rect
 clip_rect
 :
 device_clip_rect
@@ -5739,6 +5758,7 @@ texture_layer
 rect
 :
 device_rect
+dirty_rect
 clip_rect
 :
 device_clip_rect
@@ -5757,7 +5777,7 @@ is_opaque
 (
 )
 {
-composite_config
+composite_state
 .
 opaque_tiles
 .
@@ -5769,7 +5789,7 @@ composite_tile
 }
 else
 {
-composite_config
+composite_state
 .
 alpha_tiles
 .
@@ -7894,7 +7914,7 @@ transforms
 root_spatial_node_index
 surface_spatial_node_index
 z_generator
-composite_config
+composite_state
 )
 ;
 }
