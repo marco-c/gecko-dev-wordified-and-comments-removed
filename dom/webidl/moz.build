@@ -4098,11 +4098,6 @@ MediaStreamTrackAudioSourceNode
 webidl
 '
 '
-MediaTrackConstraintSet
-.
-webidl
-'
-'
 MediaTrackSettings
 .
 webidl
