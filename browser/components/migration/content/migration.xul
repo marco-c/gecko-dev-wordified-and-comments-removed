@@ -199,9 +199,6 @@ true
 "
 >
 <
-wizard
->
-<
 script
 src
 =
@@ -240,6 +237,9 @@ migration
 js
 "
 /
+>
+<
+wizard
 >
 <
 wizardpage
