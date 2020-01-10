@@ -163,10 +163,6 @@ ScriptSettingsStackEntry
 )
 sScriptSettingsTLS
 ;
-static
-bool
-sScriptSettingsTLSInitialized
-;
 class
 ScriptSettingsStack
 {
@@ -563,10 +559,6 @@ set
 nullptr
 )
 ;
-sScriptSettingsTLSInitialized
-=
-true
-;
 }
 void
 DestroyScriptSettings
@@ -584,15 +576,6 @@ get
 =
 nullptr
 )
-;
-}
-bool
-ScriptSettingsInitialized
-(
-)
-{
-return
-sScriptSettingsTLSInitialized
 ;
 }
 ScriptSettingsStackEntry
