@@ -2033,7 +2033,7 @@ case
 ColorID
 :
 :
-MozField
+Field
 :
 case
 ColorID
@@ -2056,7 +2056,7 @@ case
 ColorID
 :
 :
-MozFieldtext
+Fieldtext
 :
 case
 ColorID
