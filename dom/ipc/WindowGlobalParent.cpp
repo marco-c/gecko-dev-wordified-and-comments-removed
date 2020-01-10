@@ -2034,6 +2034,13 @@ float
 )
 aScale
 color
+gfx
+:
+:
+CrossProcessPaintFlags
+:
+:
+None
 promise
 )
 )
@@ -2077,6 +2084,8 @@ float
 aScale
 nscolor
 aBackgroundColor
+uint32_t
+aFlags
 )
 {
 auto
@@ -2087,6 +2096,7 @@ SendDrawSnapshot
 aRect
 aScale
 aBackgroundColor
+aFlags
 )
 ;
 RefPtr
