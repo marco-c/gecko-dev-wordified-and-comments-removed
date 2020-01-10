@@ -1324,14 +1324,12 @@ return
 ok
 ;
 }
-static
 void
+WebGLContext
+:
+:
 GenErrorIllegalUse
 (
-const
-WebGLContext
-&
-webgl
 const
 GLenum
 useTarget
@@ -1345,6 +1343,7 @@ const
 uint32_t
 boundId
 )
+const
 {
 const
 auto
@@ -1434,8 +1433,6 @@ boundTarget
 boundId
 )
 ;
-webgl
-.
 GenerateError
 (
 LOCAL_GL_INVALID_OPERATION
@@ -1590,8 +1587,6 @@ true
 ;
 GenErrorIllegalUse
 (
-*
-this
 nonTfTarget
 nonTfId
 LOCAL_GL_TRANSFORM_FEEDBACK_BUFFER
@@ -1850,8 +1845,6 @@ true
 ;
 GenErrorIllegalUse
 (
-*
-this
 LOCAL_GL_TRANSFORM_FEEDBACK_BUFFER
 tf
 .
