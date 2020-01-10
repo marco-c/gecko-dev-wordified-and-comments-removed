@@ -253,14 +253,6 @@ isTopLevel
 {
 inner
 .
-_securityUI
-=
-outer
-.
-_securityUI
-;
-inner
-.
 _documentURI
 =
 outer
@@ -1360,11 +1352,6 @@ AddSearch
 PageStyle
 :
 StyleSheets
-"
-"
-Content
-:
-SecurityChange
 "
 "
 DOMTitleChanged
