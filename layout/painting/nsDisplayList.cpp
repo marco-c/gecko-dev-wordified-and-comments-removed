@@ -36757,6 +36757,7 @@ aDisplayListBuilder
 {
 if
 (
+!
 aDisplayListBuilder
 -
 >
@@ -36764,12 +36765,15 @@ GetNeedsDisplayListBuild
 (
 mRenderRoot
 )
-|
-|
-!
+&
+&
 mBuiltWRCommands
 )
 {
+return
+true
+;
+}
 if
 (
 aBuilder
@@ -36995,7 +36999,6 @@ mBuiltWRCommands
 =
 true
 ;
-}
 return
 true
 ;
