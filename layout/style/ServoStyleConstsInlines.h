@@ -2569,7 +2569,10 @@ if
 length
 >
 =
+float
+(
 nscoord_MAX
+)
 )
 {
 return
@@ -2581,7 +2584,10 @@ if
 length
 <
 =
+float
+(
 nscoord_MIN
+)
 )
 {
 return
