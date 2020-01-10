@@ -186,6 +186,10 @@ earlyinit
 )
 ;
 }
+mDisableOSActivityMode
+=
+sLaunchWithMacSandbox
+;
 #
 endif
 }
