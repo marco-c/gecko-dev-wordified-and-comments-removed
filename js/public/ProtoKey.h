@@ -877,6 +877,17 @@ OCLASP
 PluralRules
 )
 )
+\
+REAL_IF_INTL
+(
+RelativeTimeFormat
+InitViaClassSpec
+\
+OCLASP
+(
+RelativeTimeFormat
+)
+)
 #
 define
 JS_FOR_PROTOTYPES
