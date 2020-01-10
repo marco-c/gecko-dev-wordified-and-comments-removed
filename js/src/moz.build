@@ -2973,15 +2973,6 @@ SharedIntlData
 .
 cpp
 '
-'
-builtin
-/
-intl
-/
-UnicodeExtensionsGenerated
-.
-cpp
-'
 ]
 if
 CONFIG
