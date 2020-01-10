@@ -708,7 +708,6 @@ MacIOSurfaceTextureHostOGL
 NumSubTextures
 (
 )
-const
 {
 switch
 (

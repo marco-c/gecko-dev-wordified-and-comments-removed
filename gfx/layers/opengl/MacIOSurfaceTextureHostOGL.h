@@ -253,7 +253,6 @@ uint32_t
 NumSubTextures
 (
 )
-const
 override
 ;
 void

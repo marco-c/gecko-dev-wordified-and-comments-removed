@@ -2950,7 +2950,6 @@ BufferTextureHost
 NumSubTextures
 (
 )
-const
 {
 if
 (

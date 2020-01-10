@@ -5009,7 +5009,6 @@ DXGITextureHostD3D11
 NumSubTextures
 (
 )
-const
 {
 switch
 (
@@ -6765,7 +6764,6 @@ DXGIYCbCrTextureHostD3D11
 NumSubTextures
 (
 )
-const
 {
 return
 3
