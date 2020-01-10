@@ -193,7 +193,7 @@ of
 validSyntax
 )
 {
-eval
+Function
 (
 for
 (
@@ -215,7 +215,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 "
 use
@@ -253,7 +253,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 for
 (
@@ -278,7 +278,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 (
 {
@@ -311,7 +311,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 (
 {
@@ -345,7 +345,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 for
 (
@@ -358,7 +358,7 @@ in
 )
 ;
 )
-ReferenceError
+SyntaxError
 )
 ;
 assertThrowsInstanceOf
@@ -367,7 +367,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 for
 (
@@ -382,7 +382,7 @@ in
 )
 ;
 )
-ReferenceError
+SyntaxError
 )
 ;
 assertThrowsInstanceOf
@@ -391,7 +391,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 for
 (
@@ -407,7 +407,7 @@ in
 )
 ;
 )
-ReferenceError
+SyntaxError
 )
 ;
 assertThrowsInstanceOf
@@ -416,7 +416,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 function
 f
@@ -437,7 +437,7 @@ in
 ;
 }
 )
-ReferenceError
+SyntaxError
 )
 ;
 assertThrowsInstanceOf
@@ -446,7 +446,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 class
 C
@@ -472,7 +472,7 @@ in
 }
 }
 )
-ReferenceError
+SyntaxError
 )
 ;
 assertThrowsInstanceOf
@@ -481,7 +481,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 for
 (
@@ -494,7 +494,7 @@ for
 #
 #
 )
-ReferenceError
+SyntaxError
 )
 ;
 assertThrowsInstanceOf
@@ -503,7 +503,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 for
 (
@@ -518,7 +518,7 @@ i
 #
 #
 )
-ReferenceError
+SyntaxError
 )
 ;
 assertThrowsInstanceOf
@@ -527,7 +527,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 for
 (
@@ -543,7 +543,7 @@ F
 #
 #
 )
-ReferenceError
+SyntaxError
 )
 ;
 assertThrowsInstanceOf
@@ -552,7 +552,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 function
 f
@@ -572,7 +572,7 @@ target
 #
 #
 )
-ReferenceError
+SyntaxError
 )
 ;
 assertThrowsInstanceOf
@@ -581,7 +581,7 @@ assertThrowsInstanceOf
 )
 =
 >
-eval
+Function
 (
 class
 C
@@ -605,7 +605,7 @@ super
 #
 #
 )
-ReferenceError
+SyntaxError
 )
 ;
 if
