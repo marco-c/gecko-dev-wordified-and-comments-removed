@@ -77,6 +77,15 @@ include
 "
 mozilla
 /
+NullPrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Document
