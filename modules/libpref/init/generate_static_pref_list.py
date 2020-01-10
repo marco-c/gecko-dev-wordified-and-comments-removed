@@ -571,6 +571,12 @@ defaultdict
 set
 )
     
+seen_names
+=
+set
+(
+)
+    
 prev_pref
 =
 None
@@ -664,6 +670,38 @@ name
 )
 )
         
+if
+name
+in
+seen_names
+:
+            
+error
+(
+'
+{
+}
+pref
+is
+defined
+more
+than
+once
+'
+.
+format
+(
+name
+)
+)
+        
+seen_names
+.
+add
+(
+name
+)
+        
 segs
 =
 name
@@ -722,7 +760,7 @@ if
 prev_pref
 :
             
-prev_pref_prefix
+prev_pref_group
 =
 prev_pref
 [
@@ -731,20 +769,21 @@ name
 '
 ]
 .
-partition
+split
 (
 '
 .
 '
+1
 )
 [
 0
 ]
             
 if
-prev_pref_prefix
+prev_pref_group
 >
-name
+group
 :
                 
 error
