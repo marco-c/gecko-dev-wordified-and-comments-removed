@@ -3489,7 +3489,7 @@ the
 LSP
 and
 are
-registred
+registered
 with
 WinSock
 alongside
@@ -3554,7 +3554,7 @@ This
         
 condition
 is
-writtn
+written
 as
 a
 condition
