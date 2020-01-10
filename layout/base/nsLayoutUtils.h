@@ -5345,12 +5345,6 @@ GPUImageScalingEnabled
 ;
 static
 bool
-IsInterCharacterRubyEnabled
-(
-)
-;
-static
-bool
 InterruptibleReflowEnabled
 (
 )
