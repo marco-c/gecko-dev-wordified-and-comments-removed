@@ -32421,10 +32421,13 @@ resolvetype
 args
 =
 [
+ExprMove
+(
 p
 .
 var
 (
+)
 )
 for
 p
