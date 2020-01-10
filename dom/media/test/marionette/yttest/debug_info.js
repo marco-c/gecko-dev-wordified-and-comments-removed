@@ -128,11 +128,8 @@ JSONDebugInfo
 "
 ;
 result
-[
-"
+.
 mozRequestDebugInfo
-"
-]
 =
 JSON
 .
@@ -172,11 +169,8 @@ debugInfo
 )
 ;
 result
-[
-"
+.
 mozRequestDebugInfo
-"
-]
 =
 debugInfo
 ;
