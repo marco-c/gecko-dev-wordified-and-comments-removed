@@ -185,13 +185,6 @@ propTypes
 {
 return
 {
-compactToolbar
-:
-PropTypes
-.
-bool
-.
-isRequired
 dispatch
 :
 PropTypes
@@ -200,13 +193,6 @@ func
 .
 isRequired
 groupWarnings
-:
-PropTypes
-.
-bool
-.
-isRequired
-hideCompactToolbarCheckbox
 :
 PropTypes
 .
