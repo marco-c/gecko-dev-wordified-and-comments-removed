@@ -1831,6 +1831,7 @@ webreplay
 mochitest
 -
 gpu
+#
 -
 mochitest
 -
@@ -1942,6 +1943,10 @@ chrome
 mochitest
 -
 chrome
+-
+mochitest
+-
+media
 -
 mochitest
 -
