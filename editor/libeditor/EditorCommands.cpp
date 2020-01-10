@@ -1850,7 +1850,7 @@ IsSelectionEditable
 aTextEditor
 -
 >
-CanCut
+IsCutCommandEnabled
 (
 )
 ;
@@ -2154,7 +2154,7 @@ return
 aTextEditor
 -
 >
-CanCopy
+IsCopyCommandEnabled
 (
 )
 ;

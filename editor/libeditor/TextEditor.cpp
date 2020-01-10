@@ -8329,7 +8329,7 @@ bool
 TextEditor
 :
 :
-CanCutOrCopy
+IsCopyToClipboardAllowedInternal
 (
 )
 const
@@ -8635,7 +8635,7 @@ bool
 TextEditor
 :
 :
-CanCut
+IsCutCommandEnabled
 (
 )
 const
@@ -8709,7 +8709,7 @@ IsModifiable
 )
 &
 &
-CanCutOrCopy
+IsCopyToClipboardAllowedInternal
 (
 )
 ;
@@ -8784,7 +8784,7 @@ bool
 TextEditor
 :
 :
-CanCopy
+IsCopyCommandEnabled
 (
 )
 const
@@ -8853,7 +8853,7 @@ true
 ;
 }
 return
-CanCutOrCopy
+IsCopyToClipboardAllowedInternal
 (
 )
 ;
