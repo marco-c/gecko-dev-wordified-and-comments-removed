@@ -6936,9 +6936,6 @@ the
 local
 item
 is
-"
-+
-"
 identical
 .
 "
