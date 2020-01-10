@@ -3697,6 +3697,9 @@ find
 aExternalImageId
 )
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 MOZ_ASSERT
 (
 it
@@ -3709,6 +3712,8 @@ end
 )
 )
 ;
+#
+endif
 if
 (
 it
