@@ -1570,16 +1570,6 @@ this
 .
 dbg
 .
-uncaughtExceptionHook
-=
-this
-.
-uncaughtExceptionHook
-;
-this
-.
-dbg
-.
 onDebuggerStatement
 =
 this
