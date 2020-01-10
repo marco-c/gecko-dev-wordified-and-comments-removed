@@ -205,10 +205,7 @@ values
 specified
 :
 :
-{
 TextTransform
-TextDecorationSkipInk
-}
 ;
 pub
 use
