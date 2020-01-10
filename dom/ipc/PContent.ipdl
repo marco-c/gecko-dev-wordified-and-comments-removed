@@ -292,6 +292,9 @@ include
 IPCBlob
 ;
 include
+IPCStream
+;
+include
 PTabContext
 ;
 include
@@ -8186,6 +8189,15 @@ uint32_t
 metricId
 nsCString
 origin
+)
+;
+async
+ReportContentBlockingLog
+(
+Principal
+firstPartyPrincipal
+IPCStream
+aJSONStream
 )
 ;
 sync
