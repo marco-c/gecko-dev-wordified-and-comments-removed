@@ -72,6 +72,8 @@ from
 copy
 import
 deepcopy
+import
+attr
 from
 mozbuild
 .
@@ -862,9 +864,12 @@ artifacts
 basestring
 ]
     
+Optional
+(
 '
 worker
 '
+)
 :
 {
         
@@ -2080,6 +2085,39 @@ payload_builders
 =
 {
 }
+attr
+.
+s
+(
+frozen
+=
+True
+)
+class
+PayloadBuilder
+(
+object
+)
+:
+    
+schema
+=
+attr
+.
+ib
+(
+type
+=
+Schema
+)
+    
+builder
+=
+attr
+.
+ib
+(
+)
 def
 payload_builder
 (
@@ -2121,15 +2159,10 @@ payload_builders
 name
 ]
 =
-func
-        
-func
-.
-schema
-=
-Schema
+PayloadBuilder
 (
 schema
+func
 )
         
 return
@@ -12913,6 +12946,8 @@ implementation
 '
 ]
 ]
+.
+builder
 (
 config
 task
@@ -13534,7 +13569,7 @@ tasks
 :
         
 for
-attr
+attrib
 in
 (
 '
@@ -13559,7 +13594,7 @@ task
 '
 ]
 [
-attr
+attrib
 ]
 )
 :
@@ -13594,7 +13629,7 @@ task
 label
 '
 ]
-attr
+attrib
 task
 [
 '
@@ -13602,7 +13637,7 @@ task
 '
 ]
 [
-attr
+attrib
 ]
 )
 )
