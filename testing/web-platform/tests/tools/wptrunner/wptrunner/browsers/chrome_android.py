@@ -160,6 +160,14 @@ require_arg
 (
 kwargs
 "
+package_name
+"
+)
+    
+require_arg
+(
+kwargs
+"
 webdriver_binary
 "
 )
@@ -178,13 +186,13 @@ kwargs
 return
 {
 "
-binary
+package_name
 "
 :
 kwargs
 [
 "
-binary
+package_name
 "
 ]
             
@@ -340,14 +348,20 @@ useAutomationExtension
 "
 ]
     
-package_name
-=
+assert
+kwargs
+[
 "
-com
-.
-android
-.
-chrome
+package_name
+"
+]
+"
+missing
+-
+-
+package
+-
+name
 "
     
 executor_kwargs
@@ -371,7 +385,12 @@ androidPackage
 =
 \
         
+kwargs
+[
+"
 package_name
+"
+]
     
 return
 executor_kwargs
@@ -432,7 +451,7 @@ __init__
 (
 self
 logger
-binary
+package_name
 webdriver_binary
 =
 "
@@ -445,33 +464,6 @@ None
 )
 :
         
-"
-"
-"
-Creates
-a
-new
-representation
-of
-Chrome
-.
-The
-binary
-argument
-gives
-        
-the
-browser
-binary
-to
-use
-for
-testing
-.
-"
-"
-"
-        
 Browser
 .
 __init__
@@ -482,9 +474,9 @@ logger
         
 self
 .
-binary
+package_name
 =
-binary
+package_name
         
 self
 .

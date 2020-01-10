@@ -25,6 +25,14 @@ dev
 '
     
 '
+chrome_android
+'
+:
+'
+dev
+'
+    
+'
 edgechromium
 '
 :
