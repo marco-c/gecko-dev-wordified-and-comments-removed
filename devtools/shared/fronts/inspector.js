@@ -2159,13 +2159,6 @@ destroy
 (
 )
 {
-if
-(
-this
-.
-selection
-)
-{
 this
 .
 selection
@@ -2174,7 +2167,6 @@ destroy
 (
 )
 ;
-}
 this
 .
 destroyHighlighters
