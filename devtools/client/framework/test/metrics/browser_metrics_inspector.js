@@ -56,6 +56,13 @@ loader
 loader
 ]
 ;
+runDuplicatedModulesTest
+(
+loaders
+[
+]
+)
+;
 runMetricsTest
 (
 {
