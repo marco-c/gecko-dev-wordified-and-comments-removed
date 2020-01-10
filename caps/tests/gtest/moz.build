@@ -94,6 +94,11 @@ TestOriginAttributes
 .
 cpp
 '
+'
+TestPrincipalSerialization
+.
+cpp
+'
 ]
 include
 (
