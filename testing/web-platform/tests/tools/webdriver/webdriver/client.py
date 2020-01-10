@@ -694,9 +694,6 @@ _key_action
 self
 subtype
 value
-async_dispatch
-=
-False
 )
 :
         
@@ -717,11 +714,6 @@ value
 "
 :
 value
-"
-asyncDispatch
-"
-:
-async_dispatch
 }
 )
     
@@ -731,9 +723,6 @@ _pointer_action
 self
 subtype
 button
-async_dispatch
-=
-False
 )
 :
         
@@ -754,11 +743,6 @@ button
 "
 :
 button
-"
-asyncDispatch
-"
-:
-async_dispatch
 }
 )
     
@@ -807,9 +791,6 @@ None
 origin
 =
 None
-async_dispatch
-=
-False
 )
 :
         
@@ -970,15 +951,6 @@ origin
 =
 origin
         
-action
-[
-"
-asyncDispatch
-"
-]
-=
-async_dispatch
-        
 self
 .
 _actions
@@ -998,9 +970,6 @@ self
 button
 =
 0
-async_dispatch
-=
-False
 )
 :
         
@@ -1049,7 +1018,6 @@ _pointer_action
 pointerUp
 "
 button
-async_dispatch
 )
         
 return
@@ -1062,9 +1030,6 @@ self
 button
 =
 0
-async_dispatch
-=
-False
 )
 :
         
@@ -1113,7 +1078,6 @@ _pointer_action
 pointerDown
 "
 button
-async_dispatch
 )
         
 return
@@ -1129,9 +1093,6 @@ None
 button
 =
 0
-async_dispatch
-=
-False
 )
 :
         
@@ -1218,9 +1179,6 @@ pointer_move
 origin
 =
 element
-async_dispatch
-=
-async_dispatch
 )
         
 return
@@ -1229,13 +1187,11 @@ self
 pointer_down
 (
 button
-async_dispatch
 )
 .
 pointer_up
 (
 button
-async_dispatch
 )
     
 def
@@ -1243,9 +1199,6 @@ key_up
 (
 self
 value
-async_dispatch
-=
-False
 )
 :
         
@@ -1284,7 +1237,6 @@ _key_action
 keyUp
 "
 value
-async_dispatch
 )
         
 return
@@ -1295,9 +1247,6 @@ key_down
 (
 self
 value
-async_dispatch
-=
-False
 )
 :
         
@@ -1336,7 +1285,6 @@ _key_action
 keyDown
 "
 value
-async_dispatch
 )
         
 return
@@ -1347,9 +1295,6 @@ send_keys
 (
 self
 keys
-async_dispatch
-=
-False
 )
 :
         
@@ -1398,7 +1343,6 @@ self
 key_down
 (
 c
-async_dispatch
 )
             
 self
@@ -1406,7 +1350,6 @@ self
 key_up
 (
 c
-async_dispatch
 )
         
 return
