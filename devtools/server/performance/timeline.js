@@ -695,6 +695,7 @@ return
 const
 startTime
 =
+(
 this
 .
 _startTime
@@ -706,6 +707,7 @@ docShells
 .
 now
 (
+)
 )
 ;
 if
@@ -957,6 +959,7 @@ return
 const
 endTime
 =
+(
 this
 .
 _startTime
@@ -968,6 +971,7 @@ docShells
 .
 now
 (
+)
 )
 ;
 if

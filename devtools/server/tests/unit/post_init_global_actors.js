@@ -44,9 +44,7 @@ prototype
 requestTypes
 =
 {
-"
 ping
-"
 :
 PostInitGlobalActor
 .

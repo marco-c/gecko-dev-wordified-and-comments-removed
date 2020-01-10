@@ -578,10 +578,9 @@ const
 stringChars
 =
 [
+'
 "
-\
-"
-"
+'
 "
 '
 "

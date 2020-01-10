@@ -1603,6 +1603,7 @@ columnNumber
 }
 }
 return
+(
 positions
 .
 sort
@@ -1643,6 +1644,7 @@ column
 lineDiff
 ;
 }
+)
 )
 ;
 }
@@ -2106,9 +2108,7 @@ line
 .
 filter
 (
-(
 script
-)
 =
 >
 !
@@ -2271,9 +2271,7 @@ column
 .
 filter
 (
-(
 script
-)
 =
 >
 !

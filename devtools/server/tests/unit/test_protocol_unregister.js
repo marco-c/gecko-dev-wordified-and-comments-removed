@@ -34,9 +34,7 @@ test
 {
 read
 :
-(
 v
-)
 =
 >
 "
@@ -48,9 +46,7 @@ read
 v
 write
 :
-(
 v
-)
 =
 >
 "

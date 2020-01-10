@@ -1569,9 +1569,7 @@ defer
 const
 onSheetLoaded
 =
-(
 event
-)
 =
 >
 {
@@ -1887,9 +1885,7 @@ _getText
 .
 then
 (
-(
 text
-)
 =
 >
 {
@@ -2043,9 +2039,7 @@ getCSSRules
 .
 then
 (
-(
 rules
-)
 =
 >
 {
@@ -2220,9 +2214,7 @@ _getMediaRules
 .
 then
 (
-(
 rules
-)
 =
 >
 {
@@ -2833,7 +2825,6 @@ win
 )
 {
 return
-(
 async
 function
 (
@@ -2969,7 +2960,6 @@ bind
 (
 this
 )
-)
 (
 )
 ;
@@ -2983,7 +2973,6 @@ styleSheet
 )
 {
 return
-(
 async
 function
 (
@@ -3144,7 +3133,6 @@ imported
 bind
 (
 this
-)
 )
 (
 )

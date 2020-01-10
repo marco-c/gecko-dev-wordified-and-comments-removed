@@ -558,6 +558,7 @@ unsafeDereference
 const
 items
 =
+(
 grip
 .
 preview
@@ -566,6 +567,7 @@ items
 =
 [
 ]
+)
 ;
 for
 (
@@ -790,6 +792,7 @@ true
 const
 items
 =
+(
 grip
 .
 preview
@@ -798,6 +801,7 @@ items
 =
 [
 ]
+)
 ;
 for
 (
@@ -894,6 +898,7 @@ true
 const
 items
 =
+(
 grip
 .
 preview
@@ -902,6 +907,7 @@ items
 =
 [
 ]
+)
 ;
 for
 (
@@ -1011,6 +1017,7 @@ true
 const
 entries
 =
+(
 grip
 .
 preview
@@ -1019,6 +1026,7 @@ entries
 =
 [
 ]
+)
 ;
 for
 (
@@ -1115,6 +1123,7 @@ true
 const
 entries
 =
+(
 grip
 .
 preview
@@ -1123,6 +1132,7 @@ entries
 =
 [
 ]
+)
 ;
 for
 (
@@ -1225,6 +1235,7 @@ true
 const
 entries
 =
+(
 grip
 .
 preview
@@ -1233,6 +1244,7 @@ entries
 =
 [
 ]
+)
 ;
 for
 (
@@ -1583,6 +1595,7 @@ symbols
 const
 preview
 =
+(
 grip
 .
 preview
@@ -1606,6 +1619,7 @@ ownSymbols
 [
 ]
 }
+)
 ;
 try
 {
@@ -2079,6 +2093,7 @@ global
 const
 items
 =
+(
 grip
 .
 preview
@@ -2087,6 +2102,7 @@ items
 =
 [
 ]
+)
 ;
 for
 (
@@ -2597,6 +2613,7 @@ isWorker
 rawObj
 |
 |
+(
 obj
 .
 class
@@ -2676,6 +2693,7 @@ class
 NodeList
 "
 )
+)
 {
 return
 false
@@ -2733,6 +2751,7 @@ true
 const
 items
 =
+(
 grip
 .
 preview
@@ -2741,6 +2760,7 @@ items
 =
 [
 ]
+)
 ;
 for
 (
@@ -2864,6 +2884,7 @@ length
 const
 entries
 =
+(
 grip
 .
 preview
@@ -2872,6 +2893,7 @@ entries
 =
 [
 ]
+)
 ;
 for
 (
@@ -2980,6 +3002,7 @@ false
 const
 preview
 =
+(
 grip
 .
 preview
@@ -3010,6 +3033,7 @@ isConnected
 =
 true
 }
+)
 ;
 if
 (
@@ -3346,6 +3370,7 @@ false
 const
 preview
 =
+(
 grip
 .
 preview
@@ -3370,6 +3395,7 @@ create
 null
 )
 }
+)
 ;
 if
 (
@@ -4196,6 +4222,7 @@ true
 const
 items
 =
+(
 grip
 .
 preview
@@ -4204,6 +4231,7 @@ items
 =
 [
 ]
+)
 ;
 const
 numItems

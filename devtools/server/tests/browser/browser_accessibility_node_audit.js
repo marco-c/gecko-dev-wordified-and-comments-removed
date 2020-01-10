@@ -61,14 +61,10 @@ const
 EXPECTED_CONTRAST_DATA
 =
 {
-"
 value
-"
 :
 21
-"
 color
-"
 :
 [
 0
@@ -76,9 +72,7 @@ color
 0
 1
 ]
-"
 backgroundColor
-"
 :
 [
 255
@@ -86,9 +80,7 @@ backgroundColor
 255
 1
 ]
-"
 isLargeText
-"
 :
 true
 score

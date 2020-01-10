@@ -111,14 +111,12 @@ animations
 const
 players
 =
-(
 await
 animations
 .
 getAnimationPlayersForNode
 (
 nodeMulti
-)
 )
 ;
 ok

@@ -256,6 +256,7 @@ _mm
 )
 {
 return
+(
 this
 .
 _browser
@@ -270,6 +271,7 @@ _browser
 frameLoader
 .
 messageManager
+)
 ;
 }
 async

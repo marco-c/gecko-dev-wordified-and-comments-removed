@@ -99,9 +99,7 @@ options
 if
 (
 typeof
-(
 prefix
-)
 !
 =
 =
@@ -138,9 +136,7 @@ option
 if
 (
 typeof
-(
 constructor
-)
 !
 =
 =
@@ -1355,7 +1351,6 @@ factoryName
 ;
 if
 (
-(
 handler
 .
 options
@@ -1366,10 +1361,8 @@ constructorName
 actor
 .
 name
-)
 |
 |
-(
 handler
 .
 options
@@ -1380,7 +1373,6 @@ id
 actor
 .
 id
-)
 )
 {
 name
@@ -1601,7 +1593,6 @@ factoryName
 ;
 if
 (
-(
 handler
 .
 options
@@ -1612,10 +1603,8 @@ constructorName
 actor
 .
 name
-)
 |
 |
-(
 handler
 .
 options
@@ -1626,7 +1615,6 @@ id
 actor
 .
 id
-)
 )
 {
 name

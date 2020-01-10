@@ -5264,7 +5264,6 @@ tags
 {
 if
 (
-(
 new
 RegExp
 (
@@ -5281,7 +5280,6 @@ completing
 "
 i
 "
-)
 )
 .
 test
@@ -5590,14 +5588,12 @@ b
 let
 sortA
 =
-(
 10000
 -
 a
 [
 1
 ]
-)
 +
 a
 [
@@ -5607,14 +5603,12 @@ a
 let
 sortB
 =
-(
 10000
 -
 b
 [
 1
 ]
-)
 +
 b
 [
@@ -7640,6 +7634,7 @@ rawNode
 ;
 }
 return
+(
 bps
 |
 |
@@ -7654,6 +7649,7 @@ attribute
 :
 false
 }
+)
 ;
 }
 setMutationBreakpoints
@@ -8365,6 +8361,7 @@ target
 ;
 return
 (
+(
 docMutationBreakpoints
 &
 &
@@ -8375,6 +8372,7 @@ nodes
 get
 (
 target
+)
 )
 |
 |
@@ -9408,7 +9406,6 @@ complete
 const
 isXULDocument
 =
-(
 ChromeUtils
 .
 getClassName
@@ -9422,7 +9419,6 @@ document
 "
 XULDocument
 "
-)
 ;
 window
 .

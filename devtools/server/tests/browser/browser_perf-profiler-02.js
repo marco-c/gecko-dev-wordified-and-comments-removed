@@ -133,11 +133,9 @@ destroy
 ;
 ok
 (
-(
 await
 pmmIsProfilerActive
 (
-)
 )
 "
 The

@@ -176,7 +176,6 @@ form
 .
 parent
 =
-(
 this
 .
 threadActor
@@ -195,7 +194,6 @@ registeredPool
 .
 form
 (
-)
 )
 ;
 }

@@ -75,11 +75,9 @@ features
 ;
 ok
 (
-(
 await
 pmmIsProfilerActive
 (
-)
 )
 "
 The
@@ -175,11 +173,9 @@ destroy
 ;
 ok
 (
-(
 await
 pmmIsProfilerActive
 (
-)
 )
 "
 The

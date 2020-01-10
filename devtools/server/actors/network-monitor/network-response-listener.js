@@ -980,9 +980,7 @@ getCacheEntry
 this
 .
 request
-(
 descriptor
-)
 =
 >
 {

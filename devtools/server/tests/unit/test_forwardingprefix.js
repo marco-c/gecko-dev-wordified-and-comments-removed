@@ -307,9 +307,7 @@ tango
 const
 callback
 =
-(
 response
-)
 =
 >
 {
@@ -461,9 +459,7 @@ hooks
 {
 onPacket
 :
-(
 packet
-)
 =
 >
 gMainConnection
@@ -538,9 +534,7 @@ prefix1
 /
 root
 "
-(
 reply
-)
 =
 >
 run_next_test
@@ -611,9 +605,7 @@ prefix2
 /
 root
 "
-(
 reply
-)
 =
 >
 run_next_test
@@ -708,9 +700,7 @@ prototype
 requestTypes
 =
 {
-"
 echo
-"
 :
 EchoActor
 .

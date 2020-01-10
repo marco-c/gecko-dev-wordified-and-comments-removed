@@ -679,6 +679,7 @@ extendToBoundaries
 x1
 =
 (
+(
 p2
 [
 0
@@ -697,6 +698,7 @@ p1
 [
 1
 ]
+)
 )
 /
 (
@@ -728,6 +730,7 @@ extendToBoundaries
 x2
 =
 (
+(
 p2
 [
 0
@@ -746,6 +749,7 @@ p1
 [
 1
 ]
+)
 )
 /
 (
@@ -1573,6 +1577,7 @@ points
 )
 {
 return
+(
 "
 M
 "
@@ -1665,6 +1670,7 @@ points
 ]
 .
 y
+)
 ;
 }
 function

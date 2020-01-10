@@ -342,7 +342,6 @@ form
 const
 newestWorker
 =
-(
 activeWorker
 |
 |
@@ -350,7 +349,6 @@ waitingWorker
 |
 |
 installingWorker
-)
 ;
 const
 isNewE10sImplementation

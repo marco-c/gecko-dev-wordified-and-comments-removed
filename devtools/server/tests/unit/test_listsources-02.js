@@ -92,11 +92,11 @@ onResponse
 }
 ;
 }
+)
 (
 gClient
 .
 request
-)
 )
 ;
 gClient

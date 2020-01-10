@@ -1806,9 +1806,7 @@ implemented
 )
 createEnvironmentActor
 :
-(
 env
-)
 =
 >
 this
@@ -3086,9 +3084,7 @@ replayingMessages
 .
 forEach
 (
-(
 msg
-)
 =
 >
 {
@@ -3189,9 +3185,7 @@ cache
 .
 forEach
 (
-(
 cachedMessage
-)
 =
 >
 {
@@ -3257,9 +3251,7 @@ replayingMessages
 .
 forEach
 (
-(
 msg
-)
 =
 >
 {
@@ -3334,9 +3326,7 @@ cache
 .
 forEach
 (
-(
 cachedMessage
-)
 =
 >
 {
@@ -5014,9 +5004,7 @@ CONSOLE_WORKER_IDS
 .
 forEach
 (
-(
 id
-)
 =
 >
 {

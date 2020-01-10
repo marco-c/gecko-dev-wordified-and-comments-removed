@@ -1012,6 +1012,7 @@ handler
 )
 ;
 return
+(
 handlerPrincipal
 .
 isSystemPrincipal
@@ -1020,6 +1021,7 @@ isSystemPrincipal
 handlerPrincipal
 .
 isExpandedPrincipal
+)
 ;
 }
 }
@@ -2295,12 +2297,14 @@ name
 const
 listener
 =
+(
 prop
 &
 &
 prop
 .
 __reactBoundMethod
+)
 |
 |
 prop
@@ -3464,7 +3468,6 @@ origin
 url
 +
 (
-(
 dom0
 |
 |
@@ -3473,7 +3476,6 @@ line
 =
 =
 0
-)
 ?
 "
 "

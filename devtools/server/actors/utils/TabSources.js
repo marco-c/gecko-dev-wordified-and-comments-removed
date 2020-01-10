@@ -1511,7 +1511,6 @@ findIndex
 r
 =
 >
-(
 r
 .
 end
@@ -1538,7 +1537,6 @@ range
 start
 .
 column
-)
 )
 ;
 ranges
@@ -1781,6 +1779,7 @@ range
 {
 return
 (
+(
 range
 .
 start
@@ -1844,6 +1843,7 @@ column
 >
 =
 column
+)
 )
 )
 ;

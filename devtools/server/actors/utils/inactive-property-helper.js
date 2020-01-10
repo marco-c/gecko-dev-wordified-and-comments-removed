@@ -1520,6 +1520,7 @@ rowGroup
 )
 {
 return
+(
 this
 .
 style
@@ -1575,6 +1576,7 @@ footer
 -
 group
 "
+)
 )
 ;
 }

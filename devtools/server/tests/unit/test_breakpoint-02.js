@@ -21,9 +21,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

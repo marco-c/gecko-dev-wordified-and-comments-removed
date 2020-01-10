@@ -72,11 +72,9 @@ root
 assert
 (
 typeof
-(
 response
 .
 types
-)
 =
 =
 =

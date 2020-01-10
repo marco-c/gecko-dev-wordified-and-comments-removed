@@ -1614,7 +1614,6 @@ _mustNotify
 )
 |
 |
-(
 this
 .
 _actorByBrowser
@@ -1622,7 +1621,6 @@ _actorByBrowser
 size
 >
 0
-)
 )
 ;
 this

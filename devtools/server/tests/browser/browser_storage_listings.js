@@ -931,9 +931,7 @@ keyPath
 "
 name
 "
-"
 unique
-"
 :
 false
 multiEntry
@@ -951,9 +949,7 @@ keyPath
 "
 email
 "
-"
 unique
-"
 :
 true
 multiEntry
@@ -1018,9 +1014,7 @@ keyPath
 "
 name2
 "
-"
 unique
-"
 :
 true
 multiEntry
@@ -1130,9 +1124,7 @@ keyPath
 "
 name2
 "
-"
 unique
-"
 :
 true
 multiEntry
@@ -3322,7 +3314,6 @@ slice
 ;
 matchItems
 (
-(
 await
 indexedDBActor
 .
@@ -3337,7 +3328,6 @@ stringify
 objName
 )
 ]
-)
 )
 objName
 [
@@ -3665,7 +3655,6 @@ name
 ;
 matchItems
 (
-(
 await
 indexedDBActor
 .
@@ -3675,7 +3664,6 @@ host
 [
 name
 ]
-)
 )
 parsed
 [

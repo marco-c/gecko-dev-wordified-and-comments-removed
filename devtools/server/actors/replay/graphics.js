@@ -107,6 +107,7 @@ window
 const
 canvas
 =
+(
 window
 .
 middlemanCanvas
@@ -120,6 +121,7 @@ createElement
 "
 canvas
 "
+)
 )
 ;
 canvas

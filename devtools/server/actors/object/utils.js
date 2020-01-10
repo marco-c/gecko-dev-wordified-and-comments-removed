@@ -765,6 +765,7 @@ str
 0
 ;
 return
+(
 num
 +
 "
@@ -784,6 +785,7 @@ num
 >
 >
 0
+)
 ;
 }
 function

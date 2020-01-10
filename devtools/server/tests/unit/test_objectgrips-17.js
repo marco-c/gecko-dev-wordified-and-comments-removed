@@ -156,10 +156,12 @@ systemPrincipal
 &
 &
 (
+(
 sameOrigin
 &
 &
 debuggeeHasXrays
+)
 |
 |
 globalHasXrays
@@ -1177,6 +1179,7 @@ if
 createdInDebuggee
 |
 |
+(
 !
 isProxy
 &
@@ -1186,6 +1189,7 @@ subsumes
 &
 !
 globalIsInvisible
+)
 )
 {
 strictEqual
@@ -1334,6 +1338,7 @@ if
 createdInDebuggee
 |
 |
+(
 !
 isProxy
 &
@@ -1343,6 +1348,7 @@ subsumes
 &
 !
 globalIsInvisible
+)
 )
 {
 check_proxy_grip

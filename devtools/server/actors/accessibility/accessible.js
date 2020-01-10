@@ -1693,6 +1693,7 @@ rawAccessible
 )
 {
 return
+(
 !
 isDefunct
 (
@@ -1726,6 +1727,7 @@ trim
 length
 >
 0
+)
 ;
 }
 async

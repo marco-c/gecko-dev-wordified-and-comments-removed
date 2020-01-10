@@ -157,6 +157,7 @@ function
 )
 {
 return
+(
 Services
 .
 appinfo
@@ -169,6 +170,7 @@ Services
 appinfo
 .
 PROCESS_TYPE_CONTENT
+)
 ;
 }
 spawnInParent

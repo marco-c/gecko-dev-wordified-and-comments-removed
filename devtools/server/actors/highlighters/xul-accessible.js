@@ -1369,9 +1369,7 @@ documentElement
 attributes
 :
 {
-"
 class
-"
 :
 "
 highlighter
@@ -1409,9 +1407,7 @@ container
 attributes
 :
 {
-"
 class
-"
 :
 "
 accessible

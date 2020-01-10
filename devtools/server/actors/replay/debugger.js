@@ -1724,14 +1724,12 @@ data
 >
 {
 return
-(
 position
 .
 kind
 =
 =
 kind
-)
 ?
 data
 :
@@ -3835,6 +3833,7 @@ kind
 )
 {
 return
+(
 position
 .
 kind
@@ -3865,6 +3864,7 @@ this
 _data
 .
 index
+)
 ;
 }
 get

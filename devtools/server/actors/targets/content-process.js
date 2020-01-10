@@ -799,16 +799,12 @@ _onWorkerListChanged
 ;
 return
 {
-"
 from
-"
 :
 this
 .
 actorID
-"
 workers
-"
 :
 actors
 .
@@ -927,9 +923,7 @@ prototype
 requestTypes
 =
 {
-"
 listWorkers
-"
 :
 ContentProcessTargetActor
 .

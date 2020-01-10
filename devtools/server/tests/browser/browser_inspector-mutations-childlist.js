@@ -89,9 +89,7 @@ Array
 from
 (
 selectors
-(
 sel
-)
 =
 >
 loadSelector

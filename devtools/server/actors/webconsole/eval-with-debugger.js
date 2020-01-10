@@ -816,8 +816,7 @@ mihai
 )
 {
 return
-"
-\
+'
 "
 http
 :
@@ -841,9 +840,8 @@ dot
 -
 mihai
 /
-\
 "
-"
+'
 ;
 }
 return
@@ -977,9 +975,7 @@ e
 result
 =
 {
-"
 throw
-"
 :
 e
 }
@@ -991,9 +987,7 @@ else
 result
 =
 {
-"
 throw
-"
 :
 "
 Cannot

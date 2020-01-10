@@ -386,6 +386,7 @@ null
 ;
 }
 return
+(
 node
 .
 ownerDocument
@@ -404,6 +405,7 @@ DOCUMENT_NODE
 node
 :
 null
+)
 )
 ;
 }
@@ -449,6 +451,7 @@ el
 )
 ;
 return
+(
 doc
 &
 &
@@ -466,6 +469,7 @@ namespaceURI
 =
 =
 XUL_NS
+)
 ;
 }
 function
