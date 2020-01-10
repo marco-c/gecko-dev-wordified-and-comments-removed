@@ -2277,7 +2277,7 @@ if
 doc
 -
 >
-IsTopLevel
+IsTopLevelInContentProcess
 (
 )
 )
@@ -5774,6 +5774,13 @@ aParentID
 MOZ_ASSERT
 (
 embedderID
+)
+;
+doc
+-
+>
+SetTopLevelInContentProcess
+(
 )
 ;
 #
