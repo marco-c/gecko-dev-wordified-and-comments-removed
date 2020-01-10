@@ -897,6 +897,10 @@ move
 (
 parentPipe
 )
+VideoBridgeSource
+:
+:
+RddProcess
 )
 )
 ;
