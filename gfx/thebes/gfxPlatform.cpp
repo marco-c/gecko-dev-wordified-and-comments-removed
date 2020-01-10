@@ -5433,6 +5433,13 @@ InitWebRenderConfig
 (
 )
 ;
+gPlatform
+-
+>
+InitWebGPUConfig
+(
+)
+;
 if
 (
 !
