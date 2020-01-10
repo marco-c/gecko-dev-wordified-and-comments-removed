@@ -95,9 +95,6 @@ aURI
 in
 nsIURI
 aOriginalURI
-in
-ACString
-aMatchedList
 )
 ;
 }
