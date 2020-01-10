@@ -503,11 +503,6 @@ showWebSocketsTab
 PropTypes
 .
 bool
-targetSearchResult
-:
-PropTypes
-.
-object
 }
 ;
 }
@@ -615,7 +610,6 @@ selectTab
 sourceMapService
 toggleNetworkDetails
 showWebSocketsTab
-targetSearchResult
 }
 =
 this
@@ -747,7 +741,6 @@ cloneSelectedRequest
 connector
 openLink
 request
-targetSearchResult
 }
 )
 )
@@ -809,7 +802,6 @@ CookiesPanel
 connector
 openLink
 request
-targetSearchResult
 }
 )
 )
@@ -840,7 +832,6 @@ ParamsPanel
 connector
 openLink
 request
-targetSearchResult
 }
 )
 )
@@ -871,7 +862,6 @@ ResponsePanel
 request
 openLink
 connector
-targetSearchResult
 }
 )
 )

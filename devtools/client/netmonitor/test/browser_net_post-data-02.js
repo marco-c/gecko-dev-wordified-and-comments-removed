@@ -121,7 +121,6 @@ tree
 -
 section
 "
-2
 )
 ;
 EventUtils
@@ -215,7 +214,7 @@ doesn
 t
 have
 the
-intended
+indended
 visibility
 .
 "
@@ -248,7 +247,7 @@ doesn
 t
 have
 the
-indented
+indended
 visibility
 .
 "
@@ -269,12 +268,12 @@ section
 )
 .
 length
-2
+1
 "
 There
 should
 be
-2
+1
 tree
 sections
 displayed

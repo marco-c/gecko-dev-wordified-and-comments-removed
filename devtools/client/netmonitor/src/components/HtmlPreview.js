@@ -129,7 +129,7 @@ HTMLPreview
 propTypes
 =
 {
-responseContent
+requestContent
 :
 PropTypes
 .

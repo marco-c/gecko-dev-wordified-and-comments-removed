@@ -199,7 +199,6 @@ sourceMapService
 toggleNetworkDetails
 openNetworkDetails
 openLink
-targetSearchResult
 }
 )
 {
@@ -244,7 +243,6 @@ selectTab
 sourceMapService
 toggleNetworkDetails
 openNetworkDetails
-targetSearchResult
 }
 )
 :
@@ -324,11 +322,6 @@ openLink
 PropTypes
 .
 func
-targetSearchResult
-:
-PropTypes
-.
-object
 }
 ;
 module
@@ -355,13 +348,6 @@ getSelectedRequest
 (
 state
 )
-targetSearchResult
-:
-state
-.
-search
-.
-targetSearchResult
 }
 )
 dispatch
