@@ -130,11 +130,11 @@ Init
 const
 RawRangeBoundary
 &
-aStart
+aStartBoundary
 const
 RawRangeBoundary
 &
-aEnd
+aEndBoundary
 )
 ;
 void
