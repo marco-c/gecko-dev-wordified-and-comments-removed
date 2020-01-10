@@ -4411,15 +4411,7 @@ target_bin
                                          
 stderr
 =
-open
-(
-os
-.
-devnull
-'
-w
-'
-)
+None
                                          
 cwd
 =
@@ -4463,7 +4455,16 @@ filename
 in
 the
 output
+;
+got
+%
+s
 '
+%
+repr
+(
+output
+)
 )
         
 symbol_file
