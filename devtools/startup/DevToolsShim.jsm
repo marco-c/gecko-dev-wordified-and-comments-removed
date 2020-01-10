@@ -630,7 +630,7 @@ inspectA11Y
 function
 (
 tab
-selectors
+domReference
 )
 {
 if
@@ -697,7 +697,7 @@ _gDevTools
 inspectA11Y
 (
 tab
-selectors
+domReference
 startTime
 )
 ;
@@ -707,7 +707,7 @@ inspectNode
 function
 (
 tab
-selectors
+domReference
 )
 {
 if
@@ -774,7 +774,7 @@ _gDevTools
 inspectNode
 (
 tab
-selectors
+domReference
 startTime
 )
 ;

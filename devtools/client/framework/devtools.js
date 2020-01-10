@@ -2273,7 +2273,7 @@ async
 inspectNode
 (
 tab
-nodeSelectors
+domReference
 startTime
 )
 {
@@ -2343,9 +2343,9 @@ inspector
 .
 walker
 .
-findNodeFront
+getNodeActorFromContentDomReference
 (
-nodeSelectors
+domReference
 )
 ;
 inspector
@@ -2388,7 +2388,7 @@ async
 inspectA11Y
 (
 tab
-nodeSelectors
+domReference
 startTime
 )
 {
@@ -2443,9 +2443,9 @@ inspectorFront
 .
 walker
 .
-findNodeFront
+getNodeActorFromContentDomReference
 (
-nodeSelectors
+domReference
 )
 ;
 const
