@@ -114,6 +114,14 @@ mozilla
 .
 geckoview
 .
+Autofill
+import
+org
+.
+mozilla
+.
+geckoview
+.
 ContentBlocking
 import
 org
@@ -238,9 +246,9 @@ TextInputDelegate
 interface
 AutofillDelegate
 :
-GeckoSession
+Autofill
 .
-AutofillDelegate
+Delegate
 {
 }
 interface
