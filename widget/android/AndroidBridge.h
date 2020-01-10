@@ -412,6 +412,14 @@ nsACString
 aFileExt
 )
 ;
+gfx
+:
+:
+Rect
+getScreenSize
+(
+)
+;
 int
 GetScreenDepth
 (
