@@ -405,6 +405,11 @@ _
 (
 LazyScriptData
 )
+\
+_
+(
+MapObjectTable
+)
 #
 define
 JS_FOR_EACH_MEMORY_USE
