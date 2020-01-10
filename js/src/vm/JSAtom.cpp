@@ -1166,8 +1166,10 @@ define
 DEFINE_PROTO_STRING
 (
 name
+init
 clasp
 )
+\
 const
 char
 js_
@@ -1462,8 +1464,10 @@ define
 COMMON_NAME_INFO
 (
 name
+init
 clasp
 )
+\
 {
 js_
 #

@@ -2032,10 +2032,14 @@ global
 )
 {
 return
-getOrCreateConstructor
+getOrCreateObject
 (
 cx
+global
+APPLICATION_SLOTS
++
 JSProto_TypedObject
+initTypedObjectModule
 )
 ;
 }

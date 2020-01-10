@@ -3083,8 +3083,13 @@ i
 assertEq
 (
 s
+.
+substring
+(
+0
+6
+)
 "
-valueOf
 value
 "
 )
