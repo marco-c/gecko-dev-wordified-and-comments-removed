@@ -4033,8 +4033,6 @@ nullptr
 break
 ;
 }
-else
-{
 if
 (
 !
@@ -4270,7 +4268,6 @@ nullptr
 ;
 break
 ;
-}
 }
 if
 (
