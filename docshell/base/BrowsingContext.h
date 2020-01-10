@@ -999,6 +999,11 @@ NotifyResetUserGestureActivation
 (
 )
 ;
+bool
+HasValidTransientUserGestureActivation
+(
+)
+;
 inline
 JSObject
 *
@@ -2065,6 +2070,9 @@ bool
 mDanglingRemoteOuterProxies
 :
 1
+;
+TimeStamp
+mUserGestureStart
 ;
 }
 ;

@@ -3804,14 +3804,6 @@ if
 (
 !
 doc
-|
-|
-doc
--
->
-HasBeenUserGestureActivated
-(
-)
 )
 {
 return
