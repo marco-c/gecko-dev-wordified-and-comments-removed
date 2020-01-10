@@ -120,9 +120,9 @@ version
 "
 0
 .
-9
+10
 .
-0
+1
 "
 authors
 =
@@ -238,11 +238,7 @@ macro2
 version
 =
 "
-0
-.
-4
-.
-26
+1
 "
 [
 dependencies
@@ -252,9 +248,7 @@ quote
 version
 =
 "
-0
-.
-6
+1
 "
 [
 dependencies
@@ -266,7 +260,7 @@ version
 "
 0
 .
-7
+9
 .
 0
 "
@@ -281,11 +275,7 @@ syn
 version
 =
 "
-0
-.
-15
-.
-26
+1
 "
 features
 =

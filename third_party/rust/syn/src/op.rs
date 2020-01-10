@@ -709,6 +709,9 @@ super
 *
 ;
 use
+crate
+:
+:
 parse
 :
 :
@@ -1767,7 +1770,6 @@ TokenStream
 )
 {
 match
-*
 self
 {
 BinOp
@@ -1775,7 +1777,6 @@ BinOp
 :
 Add
 (
-ref
 t
 )
 =
@@ -1791,7 +1792,6 @@ BinOp
 :
 Sub
 (
-ref
 t
 )
 =
@@ -1807,7 +1807,6 @@ BinOp
 :
 Mul
 (
-ref
 t
 )
 =
@@ -1823,7 +1822,6 @@ BinOp
 :
 Div
 (
-ref
 t
 )
 =
@@ -1839,7 +1837,6 @@ BinOp
 :
 Rem
 (
-ref
 t
 )
 =
@@ -1855,7 +1852,6 @@ BinOp
 :
 And
 (
-ref
 t
 )
 =
@@ -1871,7 +1867,6 @@ BinOp
 :
 Or
 (
-ref
 t
 )
 =
@@ -1887,7 +1882,6 @@ BinOp
 :
 BitXor
 (
-ref
 t
 )
 =
@@ -1903,7 +1897,6 @@ BinOp
 :
 BitAnd
 (
-ref
 t
 )
 =
@@ -1919,7 +1912,6 @@ BinOp
 :
 BitOr
 (
-ref
 t
 )
 =
@@ -1935,7 +1927,6 @@ BinOp
 :
 Shl
 (
-ref
 t
 )
 =
@@ -1951,7 +1942,6 @@ BinOp
 :
 Shr
 (
-ref
 t
 )
 =
@@ -1967,7 +1957,6 @@ BinOp
 :
 Eq
 (
-ref
 t
 )
 =
@@ -1983,7 +1972,6 @@ BinOp
 :
 Lt
 (
-ref
 t
 )
 =
@@ -1999,7 +1987,6 @@ BinOp
 :
 Le
 (
-ref
 t
 )
 =
@@ -2015,7 +2002,6 @@ BinOp
 :
 Ne
 (
-ref
 t
 )
 =
@@ -2031,7 +2017,6 @@ BinOp
 :
 Ge
 (
-ref
 t
 )
 =
@@ -2047,7 +2032,6 @@ BinOp
 :
 Gt
 (
-ref
 t
 )
 =
@@ -2063,7 +2047,6 @@ BinOp
 :
 AddEq
 (
-ref
 t
 )
 =
@@ -2079,7 +2062,6 @@ BinOp
 :
 SubEq
 (
-ref
 t
 )
 =
@@ -2095,7 +2077,6 @@ BinOp
 :
 MulEq
 (
-ref
 t
 )
 =
@@ -2111,7 +2092,6 @@ BinOp
 :
 DivEq
 (
-ref
 t
 )
 =
@@ -2127,7 +2107,6 @@ BinOp
 :
 RemEq
 (
-ref
 t
 )
 =
@@ -2143,7 +2122,6 @@ BinOp
 :
 BitXorEq
 (
-ref
 t
 )
 =
@@ -2159,7 +2137,6 @@ BinOp
 :
 BitAndEq
 (
-ref
 t
 )
 =
@@ -2175,7 +2152,6 @@ BinOp
 :
 BitOrEq
 (
-ref
 t
 )
 =
@@ -2191,7 +2167,6 @@ BinOp
 :
 ShlEq
 (
-ref
 t
 )
 =
@@ -2207,7 +2182,6 @@ BinOp
 :
 ShrEq
 (
-ref
 t
 )
 =
@@ -2239,7 +2213,6 @@ TokenStream
 )
 {
 match
-*
 self
 {
 UnOp
@@ -2247,7 +2220,6 @@ UnOp
 :
 Deref
 (
-ref
 t
 )
 =
@@ -2263,7 +2235,6 @@ UnOp
 :
 Not
 (
-ref
 t
 )
 =
@@ -2279,7 +2250,6 @@ UnOp
 :
 Neg
 (
-ref
 t
 )
 =

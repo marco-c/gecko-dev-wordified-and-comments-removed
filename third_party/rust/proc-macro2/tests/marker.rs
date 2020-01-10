@@ -1,7 +1,3 @@
-extern
-crate
-proc_macro2
-;
 use
 proc_macro2
 :

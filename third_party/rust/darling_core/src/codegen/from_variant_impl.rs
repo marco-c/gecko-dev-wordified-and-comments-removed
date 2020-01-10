@@ -42,7 +42,7 @@ use
 util
 :
 :
-IdentList
+PathList
 ;
 pub
 struct
@@ -96,7 +96,7 @@ attr_names
 &
 '
 a
-IdentList
+PathList
 pub
 forward_attrs
 :
@@ -542,7 +542,7 @@ self
 -
 >
 &
-IdentList
+PathList
 {
 &
 self

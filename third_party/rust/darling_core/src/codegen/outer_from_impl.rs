@@ -270,7 +270,6 @@ bound
 )
 ;
 for
-mut
 param
 in
 generics

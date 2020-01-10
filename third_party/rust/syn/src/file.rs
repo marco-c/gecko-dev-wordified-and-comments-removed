@@ -86,7 +86,6 @@ tree
 /
 /
 /
-edition2018
 /
 /
 /
@@ -595,6 +594,9 @@ super
 *
 ;
 use
+crate
+:
+:
 parse
 :
 :
@@ -705,6 +707,9 @@ super
 *
 ;
 use
+crate
+:
+:
 attr
 :
 :

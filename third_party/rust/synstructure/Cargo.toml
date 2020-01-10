@@ -110,6 +110,11 @@ reasonable
 [
 package
 ]
+edition
+=
+"
+2018
+"
 name
 =
 "
@@ -120,7 +125,7 @@ version
 "
 0
 .
-10
+12
 .
 1
 "
@@ -243,9 +248,7 @@ macro2
 version
 =
 "
-0
-.
-4
+1
 "
 [
 dependencies
@@ -255,9 +258,7 @@ quote
 version
 =
 "
-0
-.
-6
+1
 "
 [
 dependencies
@@ -267,9 +268,7 @@ syn
 version
 =
 "
-0
-.
-15
+1
 "
 features
 =
@@ -295,7 +294,7 @@ version
 "
 0
 .
-1
+2
 "
 [
 dev
@@ -311,12 +310,3 @@ version
 .
 1
 "
-[
-features
-]
-simple
--
-derive
-=
-[
-]

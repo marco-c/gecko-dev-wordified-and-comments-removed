@@ -66,14 +66,12 @@ TokenStream
 )
 {
 match
-*
 self
 .
 0
 {
 Some
 (
-ref
 t
 )
 =

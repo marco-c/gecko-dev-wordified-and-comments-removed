@@ -14,7 +14,7 @@ use
 util
 :
 :
-IdentList
+PathList
 ;
 pub
 trait
@@ -49,7 +49,7 @@ self
 -
 >
 &
-IdentList
+PathList
 ;
 fn
 forwarded_attrs
@@ -259,7 +259,7 @@ darling
 export
 :
 :
-Some
+Ok
 (
 :
 :
@@ -278,7 +278,7 @@ __data
 =
 __attr
 .
-interpret_meta
+parse_meta
 (
 )
 {
