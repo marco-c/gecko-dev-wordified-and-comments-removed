@@ -179,9 +179,9 @@ string
 actor
 :
 string
-canRewind
+traits
 :
-boolean
+Object
 isWebExtension
 :
 boolean
@@ -236,7 +236,7 @@ mainThread
 "
 )
 }
-canRewind
+traits
 isWebExtension
 }
 :
