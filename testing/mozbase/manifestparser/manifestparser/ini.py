@@ -429,7 +429,7 @@ items
                 
 index
 =
-line
+stripped
 .
 find
 (
@@ -467,7 +467,7 @@ index
 >
 0
 and
-line
+stripped
 [
 index
 -
