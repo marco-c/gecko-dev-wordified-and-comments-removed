@@ -4348,6 +4348,14 @@ browser
 .
 find_binary
 (
+channel
+=
+kwargs
+[
+"
+browser_channel
+"
+]
 )
             
 if
@@ -4396,6 +4404,14 @@ browser
 .
 find_webdriver
 (
+channel
+=
+kwargs
+[
+"
+browser_channel
+"
+]
 )
             
 if
