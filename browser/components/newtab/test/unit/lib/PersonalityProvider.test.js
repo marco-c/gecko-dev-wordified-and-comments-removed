@@ -3035,13 +3035,13 @@ AND
 IFNULL
 (
 requiredColumn
-"
-"
+'
+'
 )
 <
 >
-"
-"
+'
+'
 LIMIT
 30000
 )

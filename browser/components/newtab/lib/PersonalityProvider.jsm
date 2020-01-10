@@ -1913,13 +1913,13 @@ IFNULL
 {
 requiredColumn
 }
-"
-"
+'
+'
 )
 <
 >
-"
-"
+'
+'
 ;
 }
 )

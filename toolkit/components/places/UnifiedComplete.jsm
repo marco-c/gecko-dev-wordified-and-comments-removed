@@ -757,9 +757,9 @@ moz_meta
 WHERE
 key
 =
-"
+'
 origin_frecency_count
-"
+'
 )
 AS
 REAL
@@ -780,9 +780,9 @@ moz_meta
 WHERE
 key
 =
-"
+'
 origin_frecency_sum
-"
+'
 )
 AS
 REAL
@@ -803,9 +803,9 @@ moz_meta
 WHERE
 key
 =
-"
+'
 origin_frecency_sum_of_squares
-"
+'
 )
 AS
 REAL

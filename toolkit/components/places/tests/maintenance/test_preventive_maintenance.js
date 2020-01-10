@@ -12472,9 +12472,9 @@ moz_meta
 WHERE
 key
 =
-"
+'
 origin_frecency_count
-"
+'
 )
 0
 )
@@ -12488,9 +12488,9 @@ moz_meta
 WHERE
 key
 =
-"
+'
 origin_frecency_sum
-"
+'
 )
 0
 )
@@ -12504,9 +12504,9 @@ moz_meta
 WHERE
 key
 =
-"
+'
 origin_frecency_sum_of_squares
-"
+'
 )
 0
 )
