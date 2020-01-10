@@ -24016,6 +24016,12 @@ if
 abortSweepAfterCurrentGroup
 )
 {
+sweepMarkTask
+.
+join
+(
+)
+;
 for
 (
 SweepGroupZonesIter
