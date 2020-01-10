@@ -513,6 +513,14 @@ devtools
 /
 node_modules
 #
+Ignore
+browsertime
+output
+directory
+browsertime
+-
+results
+#
 Tag
 files
 generated
