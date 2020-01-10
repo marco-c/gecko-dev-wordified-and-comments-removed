@@ -7461,14 +7461,6 @@ cx
 glob
 glob_functions
 )
-|
-|
-!
-JS_DefineProfilingFunctions
-(
-cx
-glob
-)
 )
 {
 return

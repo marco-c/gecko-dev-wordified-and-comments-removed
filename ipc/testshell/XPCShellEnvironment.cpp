@@ -2360,14 +2360,6 @@ cx
 globalObj
 gGlobalFunctions
 )
-|
-|
-!
-JS_DefineProfilingFunctions
-(
-cx
-globalObj
-)
 )
 {
 NS_ERROR
