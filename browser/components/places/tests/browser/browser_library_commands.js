@@ -712,11 +712,12 @@ index
 ;
 Assert
 .
-greater
+ok
 (
 toolbarNode
 .
 childCount
+>
 0
 "
 Toolbar

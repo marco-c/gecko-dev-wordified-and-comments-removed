@@ -48,11 +48,12 @@ promiseStartupManager
 ;
 Assert
 .
-greater
+ok
 (
 ID
 .
 length
+>
 64
 "
 ID

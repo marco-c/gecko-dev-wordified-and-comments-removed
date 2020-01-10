@@ -275,9 +275,10 @@ itemId
 ;
 Assert
 .
-greater
+ok
 (
 savedItemId
+>
 0
 "
 Found

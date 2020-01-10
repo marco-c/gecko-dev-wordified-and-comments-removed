@@ -276,11 +276,12 @@ i
 ;
 Assert
 .
-greater
+ok
 (
 node
 .
 itemId
+>
 0
 "
 The
