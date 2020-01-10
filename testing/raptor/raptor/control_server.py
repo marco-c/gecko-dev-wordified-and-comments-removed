@@ -2679,6 +2679,15 @@ target
 self
 .
 wait_for_quit
+kwargs
+=
+{
+'
+timeout
+'
+:
+0
+}
 )
         
 self
