@@ -87,7 +87,12 @@ title
 {
 pageActionAPI
 .
-defaults
+action
+.
+getContextData
+(
+null
+)
 .
 title
 =
@@ -118,7 +123,9 @@ if
 (
 pageActionAPI
 .
-isShown
+action
+.
+isShownForTab
 (
 tab
 )
