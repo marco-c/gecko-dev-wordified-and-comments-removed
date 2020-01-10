@@ -57,6 +57,9 @@ addons
 credits
 "
 "
+logins
+"
+"
 telemetry
 "
 "

@@ -1026,6 +1026,9 @@ networkURLs
 "
 credits
 "
+"
+logins
+"
 ]
 ;
 for
