@@ -68,6 +68,11 @@ SearchPanel
 js
 '
 '
+StatusBar
+.
+js
+'
+'
 Toolbar
 .
 js
