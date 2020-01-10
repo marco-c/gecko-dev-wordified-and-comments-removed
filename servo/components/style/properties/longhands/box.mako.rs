@@ -4091,11 +4091,6 @@ Opacity
 .
 0
 "
-parse_method
-=
-"
-parse_number
-"
 products
 =
 "
