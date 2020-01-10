@@ -3073,6 +3073,10 @@ FontSize
 {
 size
 :
+cx
+.
+maybe_zoom_text
+(
 Au
 (
 system
@@ -3082,6 +3086,7 @@ size
 .
 into
 (
+)
 )
 keyword_info
 :
