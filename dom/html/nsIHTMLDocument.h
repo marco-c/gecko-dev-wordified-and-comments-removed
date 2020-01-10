@@ -83,16 +83,6 @@ GetNumFormsSynchronous
 =
 0
 ;
-virtual
-void
-SetIsXHTML
-(
-bool
-aXHTML
-)
-=
-0
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

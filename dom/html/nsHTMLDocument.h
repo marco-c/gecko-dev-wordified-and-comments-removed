@@ -387,14 +387,12 @@ GetNumFormsSynchronous
 )
 override
 ;
-virtual
 void
 SetIsXHTML
 (
 bool
 aXHTML
 )
-override
 {
 mType
 =
