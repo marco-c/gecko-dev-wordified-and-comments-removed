@@ -268,6 +268,16 @@ false
 )
 ;
 }
+GetMediaControlKeysManager
+(
+)
+.
+AddListener
+(
+new
+MediaControlKeysHandler
+)
+;
 }
 MediaControlService
 :
