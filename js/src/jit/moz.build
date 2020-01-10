@@ -309,7 +309,7 @@ BaselineCacheIRCompiler
 cpp
 '
 '
-BaselineCompiler
+BaselineCodeGen
 .
 cpp
 '
