@@ -414,8 +414,6 @@ rv
 async
 ConfirmRedirect
 (
-LoadInfoArgs
-aLoadInfo
 nsIURI
 aNewURI
 )
@@ -423,9 +421,6 @@ returns
 (
 nsresult
 rv
-nsresult
-?
-cancelCode
 )
 ;
 /
