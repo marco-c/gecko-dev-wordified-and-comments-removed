@@ -865,6 +865,11 @@ this
 }
 }
 }
+Ci
+.
+nsIWebProgress
+.
+NOTIFY_LOCATION
 )
 ;
 }

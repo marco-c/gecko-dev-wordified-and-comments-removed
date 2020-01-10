@@ -31,9 +31,7 @@ zero
 const
 DELAY_MS
 =
-"
-1000
-"
+200
 ;
 const
 AUTOPLAY_HTML
@@ -111,13 +109,6 @@ audio
 <
 script
 >
-setTimeout
-(
-(
-)
-=
->
-{
 document
 .
 location
@@ -128,10 +119,6 @@ href
 #
 foo
 '
-;
-}
-500
-)
 ;
 <
 /
