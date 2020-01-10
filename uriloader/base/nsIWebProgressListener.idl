@@ -1883,7 +1883,16 @@ nsSecureBrowserUIImpl
 CheckForBlockedContent
 (
 )
+AND
+UPDATE
+THE
+*
+CORRESPONDING
+LIST
+IN
+ContentBlockingController
 .
+java
 *
 *
 These

@@ -135,6 +135,11 @@ GeckoViewContent
 jsm
 '
 '
+GeckoViewContentBlocking
+.
+jsm
+'
+'
 GeckoViewContentBlockingController
 .
 jsm
