@@ -266,6 +266,15 @@ lintargs
 )
 :
     
+log
+=
+lintargs
+[
+'
+log
+'
+]
+    
 binary
 =
 find_executable
@@ -366,6 +375,29 @@ fh
 .
 name
 ]
+        
+log
+.
+debug
+(
+"
+Command
+:
+{
+}
+"
+.
+format
+(
+'
+'
+.
+join
+(
+cmd
+)
+)
+)
         
 proc
 =

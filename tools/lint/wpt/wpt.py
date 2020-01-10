@@ -32,6 +32,15 @@ kwargs
 )
 :
     
+log
+=
+kwargs
+[
+'
+log
+'
+]
+    
 tests_dir
 =
 os
@@ -230,6 +239,29 @@ json
 ]
 +
 files
+    
+log
+.
+debug
+(
+"
+Command
+:
+{
+}
+"
+.
+format
+(
+'
+'
+.
+join
+(
+cmd
+)
+)
+)
     
 proc
 =

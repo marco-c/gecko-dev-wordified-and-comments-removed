@@ -203,6 +203,15 @@ eslint
 "
 "
     
+log
+=
+lintargs
+[
+'
+log
+'
+]
+    
 setup_helper
 .
 set_project_root
@@ -383,6 +392,29 @@ extra_args
 exclude_args
 +
 paths
+    
+log
+.
+debug
+(
+"
+Command
+:
+{
+}
+"
+.
+format
+(
+'
+'
+.
+join
+(
+cmd_args
+)
+)
+)
     
 if
 fix

@@ -1721,11 +1721,15 @@ for
 e
 in
 config
-[
+.
+get
+(
 '
 extensions
 '
+[
 ]
+)
 ]
     
 def

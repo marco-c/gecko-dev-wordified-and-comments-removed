@@ -134,6 +134,7 @@ return
 def
 gradle
 (
+log
 topsrcdir
 =
 None
@@ -245,12 +246,8 @@ tasks
             
 extra_args
         
-if
-verbose
-:
-            
-print
-(
+cmd
+=
 '
 '
 .
@@ -269,6 +266,12 @@ arg
 in
 cmd_args
 )
+        
+log
+.
+debug
+(
+cmd
 )
         
 proc
@@ -366,6 +369,12 @@ topobjdir
     
 gradle
 (
+lintargs
+[
+'
+log
+'
+]
 topsrcdir
 =
 topsrcdir
@@ -746,6 +755,12 @@ topobjdir
     
 gradle
 (
+lintargs
+[
+'
+log
+'
+]
 topsrcdir
 =
 topsrcdir
@@ -923,6 +938,12 @@ topobjdir
     
 gradle
 (
+lintargs
+[
+'
+log
+'
+]
 topsrcdir
 =
 topsrcdir
@@ -1223,6 +1244,12 @@ android
     
 gradle
 (
+lintargs
+[
+'
+log
+'
+]
 topsrcdir
 =
 topsrcdir
@@ -1749,6 +1776,12 @@ topobjdir
     
 gradle
 (
+lintargs
+[
+'
+log
+'
+]
 topsrcdir
 =
 topsrcdir
@@ -2320,6 +2353,12 @@ topobjdir
     
 gradle
 (
+lintargs
+[
+'
+log
+'
+]
 topsrcdir
 =
 topsrcdir

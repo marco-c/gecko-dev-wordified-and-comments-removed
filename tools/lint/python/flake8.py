@@ -396,6 +396,15 @@ application
 import
 Application
     
+log
+=
+lintargs
+[
+'
+log
+'
+]
+    
 root
 =
 lintargs
@@ -656,6 +665,29 @@ extensions
 )
     
 ]
+    
+log
+.
+debug
+(
+"
+Command
+:
+{
+}
+"
+.
+format
+(
+'
+'
+.
+join
+(
+flake8_cmd
+)
+)
+)
     
 orig_make_file_checker_manager
 =

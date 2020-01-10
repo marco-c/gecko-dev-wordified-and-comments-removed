@@ -828,6 +828,15 @@ lintargs
 )
 :
     
+log
+=
+lintargs
+[
+'
+log
+'
+]
+    
 binary
 =
 get_shellcheck_binary
@@ -961,6 +970,23 @@ f
 ]
 f
 ]
+)
+        
+log
+.
+debug
+(
+"
+Command
+:
+{
+}
+"
+.
+format
+(
+cmd
+)
 )
         
 run_process
