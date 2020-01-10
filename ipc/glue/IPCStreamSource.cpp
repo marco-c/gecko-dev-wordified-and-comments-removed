@@ -914,6 +914,17 @@ mCallback
 =
 nullptr
 ;
+if
+(
+mState
+=
+=
+eClosed
+)
+{
+return
+;
+}
 DoRead
 (
 )
