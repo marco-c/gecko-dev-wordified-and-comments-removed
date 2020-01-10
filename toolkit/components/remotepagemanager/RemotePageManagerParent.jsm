@@ -1093,7 +1093,7 @@ FxAccounts
 .
 config
 .
-promiseEmailFirstURI
+promiseConnectAccountURI
 (
 data
 )
