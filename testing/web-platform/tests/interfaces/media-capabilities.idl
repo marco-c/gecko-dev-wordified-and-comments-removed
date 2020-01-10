@@ -168,6 +168,9 @@ unsigned
 long
 samplerate
 ;
+boolean
+spatialRendering
+;
 }
 ;
 dictionary
@@ -322,6 +325,11 @@ configuration
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 ScreenLuminance
 {
