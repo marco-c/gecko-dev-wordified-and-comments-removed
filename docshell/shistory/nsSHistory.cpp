@@ -6068,15 +6068,14 @@ mIndex
 :
 mRequestedIndex
 ;
-MOZ_ASSERT
+if
 (
-mIndex
+index
 >
 -
 1
-)
-;
-if
+&
+&
 (
 mEntries
 [
@@ -6085,6 +6084,7 @@ index
 !
 =
 aEntry
+)
 )
 {
 ReplaceEntry
