@@ -2105,14 +2105,7 @@ explicitName
 const
 {
 return
-function
-(
-)
--
->
-explicitName
-(
-)
+explicitName_
 ;
 }
 void
