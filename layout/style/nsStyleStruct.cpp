@@ -2914,13 +2914,9 @@ if
 (
 aOldDisplay
 .
-mDisplay
-=
-=
-StyleDisplay
-:
-:
-ListItem
+IsListItem
+(
+)
 )
 {
 if

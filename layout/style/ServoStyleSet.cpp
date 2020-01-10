@@ -3176,6 +3176,7 @@ marker
 {
 if
 (
+!
 aParentStyle
 .
 StyleDisplay
@@ -3183,13 +3184,9 @@ StyleDisplay
 )
 -
 >
-mDisplay
-!
-=
-StyleDisplay
-:
-:
-ListItem
+IsListItem
+(
+)
 )
 {
 return
