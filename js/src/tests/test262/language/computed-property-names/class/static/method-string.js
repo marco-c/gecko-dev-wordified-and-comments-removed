@@ -261,10 +261,10 @@ C
 length
 '
 '
-name
-'
-'
 prototype
+'
+'
+name
 '
 '
 a
@@ -294,10 +294,10 @@ C
 length
 '
 '
-name
-'
-'
 prototype
+'
+'
+name
 '
 '
 a
