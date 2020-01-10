@@ -767,6 +767,8 @@ reading
 test
 settings
 from
+json
+/
 '
 +
 tail
@@ -778,7 +780,17 @@ try
 with
 open
 (
+"
+json
+/
+{
+}
+"
+.
+format
+(
 tail
+)
 )
 as
 json_settings

@@ -1140,10 +1140,8 @@ raptor
 /
 tests
 /
-.
-*
-.
 json
+/
 ^
 testing
 /
