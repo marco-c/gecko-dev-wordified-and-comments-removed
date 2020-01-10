@@ -1442,11 +1442,6 @@ focusInput
 serviceContainer
 .
 focusInput
-evaluateInput
-:
-serviceContainer
-.
-evaluateInput
 initialValue
 :
 reverseSearchInitialValue

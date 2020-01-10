@@ -84,6 +84,11 @@ index
 js
 '
 '
+input
+.
+js
+'
+'
 messages
 .
 js
