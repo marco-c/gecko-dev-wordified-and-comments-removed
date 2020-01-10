@@ -497,6 +497,15 @@ nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
+&
+&
+contentType
+!
+=
+nsIContentPolicy
+:
+:
+TYPE_OBJECT
 )
 {
 return
