@@ -437,7 +437,7 @@ tests
 "
 "
     
-browsertime_path_options
+browsertime_options
 =
 [
         
@@ -577,6 +577,49 @@ default
 "
 :
 None
+            
+"
+help
+"
+:
+argparse
+.
+SUPPRESS
+        
+}
+]
+        
+[
+[
+"
+-
+-
+browsertime
+"
+]
+{
+            
+"
+dest
+"
+:
+"
+browsertime
+"
+            
+"
+action
+"
+:
+"
+store_true
+"
+            
+"
+default
+"
+:
+False
             
 "
 help
@@ -1913,7 +1956,7 @@ code_coverage_config_options
 +
 \
         
-browsertime_path_options
+browsertime_options
     
 def
 __init__
@@ -2668,7 +2711,7 @@ details
 in
 Raptor
 .
-browsertime_path_options
+browsertime_options
 :
             
 value
@@ -3895,7 +3938,7 @@ details
 in
 Raptor
 .
-browsertime_path_options
+browsertime_options
 :
             
 value
@@ -3934,31 +3977,40 @@ raptor_cmd_line_args
 )
 :
                 
-value
-=
-os
-.
-path
-.
-normpath
-(
-os
-.
-path
-.
-abspath
+if
+isinstance
 (
 value
+basestring
 )
-)
-                
+:
+                    
 options
 .
 extend
 (
 [
 arg
+os
+.
+path
+.
+expandvars
+(
 value
+)
+]
+)
+                
+else
+:
+                    
+options
+.
+extend
+(
+[
+arg
 ]
 )
         
