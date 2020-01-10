@@ -108,6 +108,9 @@ mode
 optional
 XRSessionInit
 options
+=
+{
+}
 )
 ;
 /
@@ -209,6 +212,9 @@ updateRenderState
 optional
 XRRenderStateInit
 state
+=
+{
+}
 )
 ;
 Promise
@@ -540,9 +546,15 @@ Constructor
 optional
 DOMPointInit
 position
+=
+{
+}
 optional
 DOMPointInit
 orientation
+=
+{
+}
 )
 ]
 interface
@@ -795,6 +807,9 @@ context
 optional
 XRWebGLLayerInit
 layerInit
+=
+{
+}
 )
 ]
 interface
