@@ -2595,7 +2595,7 @@ Maybe
 Compartment
 :
 :
-NonStringWrapperEnum
+ObjectWrapperEnum
 >
 e
 ;
@@ -3530,7 +3530,7 @@ for
 Compartment
 :
 :
-NonStringWrapperEnum
+ObjectWrapperEnum
 e
 (
 c
