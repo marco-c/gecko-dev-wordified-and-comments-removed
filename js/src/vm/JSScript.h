@@ -3816,7 +3816,7 @@ Unit
 >
 MOZ_MUST_USE
 bool
-initializeWithCompressedSource
+initializeWithUnretrievableCompressedSource
 (
 JSContext
 *
