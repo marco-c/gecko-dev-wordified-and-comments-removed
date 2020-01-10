@@ -1,17 +1,5 @@
 import
-sys
-import
-pytest
-import
 unittest
-from
-six
-.
-moves
-import
-cStringIO
-as
-StringIO
 from
 .
 .
@@ -23,35 +11,6 @@ from
 parser
 import
 token_types
-pytest
-.
-mark
-.
-xfail
-(
-sys
-.
-version
-[
-0
-]
-=
-=
-"
-3
-"
-                   
-reason
-=
-"
-Tokenizer
-doesn
-'
-t
-support
-py3
-"
-)
 class
 TokenizerTest
 (
@@ -100,10 +59,7 @@ tokenizer
 .
 tokenize
 (
-StringIO
-(
 input_str
-)
 )
 :
             
@@ -164,7 +120,7 @@ input_text
         
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -181,6 +137,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -234,6 +191,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -292,6 +250,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -347,6 +306,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -416,6 +376,7 @@ self
 .
 tokenize
 (
+b
 "
 [
 Heading
@@ -433,6 +394,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -493,7 +455,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -549,6 +511,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -600,6 +563,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -651,6 +615,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -704,6 +669,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -768,6 +734,7 @@ self
 .
 tokenize
 (
+b
 "
 "
 "
@@ -802,6 +769,7 @@ self
 .
 tokenize
 (
+b
 "
 "
 "
@@ -822,6 +790,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -876,6 +845,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -929,6 +899,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -985,6 +956,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -1052,6 +1024,7 @@ self
 .
 tokenize
 (
+b
 "
 "
 "
@@ -1086,6 +1059,7 @@ self
 .
 tokenize
 (
+b
 "
 "
 "
@@ -1120,6 +1094,7 @@ self
 .
 tokenize
 (
+b
 "
 "
 "
@@ -1154,6 +1129,7 @@ self
 .
 tokenize
 (
+b
 "
 "
 "
@@ -1179,7 +1155,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1235,6 +1211,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -1296,6 +1273,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -1379,6 +1357,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -1461,6 +1440,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -1557,6 +1537,7 @@ self
 .
 tokenize
 (
+b
 "
 "
 "
@@ -1597,6 +1578,7 @@ self
 .
 tokenize
 (
+b
 "
 "
 "
@@ -1625,6 +1607,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -1706,6 +1689,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -1817,6 +1801,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -1939,6 +1924,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -2052,6 +2038,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -2167,6 +2154,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -2326,6 +2314,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -2461,6 +2450,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -2566,7 +2556,7 @@ self
 .
 tokenize
 (
-                
+b
 "
 "
 "
@@ -2604,7 +2594,7 @@ self
 .
 tokenize
 (
-                
+b
 "
 "
 "
@@ -2642,7 +2632,7 @@ self
 .
 tokenize
 (
-                
+b
 "
 "
 "
@@ -2673,6 +2663,7 @@ self
 .
 compare
 (
+b
 "
 "
 "

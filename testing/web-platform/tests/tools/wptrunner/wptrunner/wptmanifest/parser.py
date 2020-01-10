@@ -4,12 +4,10 @@ import
 unicode_literals
 from
 six
-.
-moves
 import
-cStringIO
-as
-StringIO
+binary_type
+text_type
+BytesIO
 from
 .
 node
@@ -221,7 +219,7 @@ assert
 isinstance
 (
 s
-unicode
+text_type
 )
     
 return
@@ -388,20 +386,20 @@ not
 isinstance
 (
 stream
-unicode
+text_type
 )
         
 if
 isinstance
 (
 stream
-str
+bytes
 )
 :
             
 stream
 =
-StringIO
+BytesIO
 (
 stream
 )
@@ -457,7 +455,7 @@ assert
 isinstance
 (
 line
-str
+binary_type
 )
             
 self
@@ -526,7 +524,7 @@ isinstance
 self
 .
 line
-unicode
+text_type
 )
             
 while
