@@ -754,6 +754,12 @@ return
 mIsMaskingPassword
 ;
 }
+static
+char16_t
+PasswordMask
+(
+)
+;
 protected
 :
 MOZ_CAN_RUN_SCRIPT
