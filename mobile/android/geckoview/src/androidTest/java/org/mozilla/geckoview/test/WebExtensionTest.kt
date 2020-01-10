@@ -942,6 +942,7 @@ session
 .
 setMessageDelegate
 (
+webExtension
 messageDelegate
 "
 browser
@@ -2753,6 +2754,7 @@ session
 .
 setMessageDelegate
 (
+messaging
 messageDelegate
 "
 browser
@@ -2993,6 +2995,7 @@ mainSession
 .
 setMessageDelegate
 (
+extension
 messageDelegate
 "
 browser

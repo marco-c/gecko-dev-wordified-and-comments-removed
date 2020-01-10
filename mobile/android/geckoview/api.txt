@@ -3348,6 +3348,8 @@ MessageDelegate
 getMessageDelegate
 (
 NonNull
+WebExtension
+NonNull
 String
 )
 ;
@@ -3744,6 +3746,8 @@ public
 void
 setMessageDelegate
 (
+NonNull
+WebExtension
 Nullable
 WebExtension
 .

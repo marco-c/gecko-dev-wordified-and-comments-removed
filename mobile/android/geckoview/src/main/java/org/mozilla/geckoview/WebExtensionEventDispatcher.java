@@ -818,6 +818,9 @@ session
 .
 getMessageDelegate
 (
+sender
+.
+webExtension
 nativeApp
 )
 ;
