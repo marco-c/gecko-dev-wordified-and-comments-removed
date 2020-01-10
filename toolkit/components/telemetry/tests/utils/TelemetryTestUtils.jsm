@@ -592,10 +592,10 @@ Assert
 .
 equal
 (
-expectedEvents
+filtered
 .
 length
-filtered
+expectedEvents
 .
 length
 "

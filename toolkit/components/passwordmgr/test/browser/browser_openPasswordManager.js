@@ -312,9 +312,6 @@ gBrowser
 about
 :
 logins
-?
-filter
-=
 "
 )
 ;
