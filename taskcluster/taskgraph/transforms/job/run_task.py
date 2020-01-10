@@ -879,13 +879,13 @@ command
 /
 tools
 /
-python36
+python37
 /
 bin
 /
 python3
 .
-6
+7
 '
 '
 run
