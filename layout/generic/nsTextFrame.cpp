@@ -40703,6 +40703,15 @@ GetSkippedOffset
 (
 )
 )
+&
+&
+nextIter
+.
+GetOriginalOffset
+(
+)
+<
+kContentEnd
 )
 {
 FindClusterEnd
