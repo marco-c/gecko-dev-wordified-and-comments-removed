@@ -538,6 +538,13 @@ DestroySurface
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Debug
