@@ -122,7 +122,7 @@ PATH
 =
 PATH
 :
-PWD
+MOZ_FETCHES_DIR
 /
 rustc
 /
@@ -612,6 +612,10 @@ crates
 into
 place
 mv
+{
+MOZ_FETCHES_DIR
+}
+/
 wrench
 -
 deps

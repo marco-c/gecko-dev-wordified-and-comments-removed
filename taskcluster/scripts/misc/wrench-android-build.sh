@@ -29,17 +29,9 @@ release
 pushd
 "
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 "
-.
-/
-mach
-artifact
-toolchain
--
-v
-MOZ_TOOLCHAINS
 mv
 wrench
 -
@@ -53,6 +45,10 @@ cargo
 -
 apk
 }
+{
+GECKO_PATH
+}
+/
 gfx
 /
 wr
@@ -107,7 +103,7 @@ uri
 file
 :
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 /
 android
@@ -129,7 +125,7 @@ uri
 file
 :
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 /
 android
@@ -178,7 +174,7 @@ uri
 file
 :
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 /
 android
@@ -200,7 +196,7 @@ uri
 file
 :
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 /
 android
@@ -251,7 +247,7 @@ PATH
 }
 :
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 /
 rustc
@@ -263,7 +259,7 @@ ANDROID_HOME
 =
 "
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 /
 android
@@ -277,7 +273,7 @@ NDK_HOME
 =
 "
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 /
 android
@@ -289,7 +285,7 @@ CARGO_APK_GRADLE_COMMAND
 =
 "
 {
-GECKO_PATH
+MOZ_FETCHES_DIR
 }
 /
 android

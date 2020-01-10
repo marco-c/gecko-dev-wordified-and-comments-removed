@@ -166,7 +166,7 @@ CLANGDIR
 =
 "
 {
-TOOLS_DIR
+MOZ_FETCHES_DIR
 }
 /
 clang
@@ -178,7 +178,7 @@ wrench
 dependencies
 mv
 {
-TOOLS_DIR
+MOZ_FETCHES_DIR
 }
 /
 wrench
@@ -243,7 +243,7 @@ properly
 pushd
 "
 {
-TOOLS_DIR
+MOZ_FETCHES_DIR
 }
 /
 cctools
@@ -482,7 +482,7 @@ PATH
 =
 "
 {
-TOOLS_DIR
+MOZ_FETCHES_DIR
 }
 /
 rustc
@@ -490,7 +490,7 @@ rustc
 bin
 :
 {
-TOOLS_DIR
+MOZ_FETCHES_DIR
 }
 /
 cctools
@@ -498,7 +498,7 @@ cctools
 bin
 :
 {
-TOOLS_DIR
+MOZ_FETCHES_DIR
 }
 /
 llvm
@@ -631,7 +631,7 @@ LDPATH
 =
 "
 {
-TOOLS_DIR
+MOZ_FETCHES_DIR
 }
 /
 cctools
