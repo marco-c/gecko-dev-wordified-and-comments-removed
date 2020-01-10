@@ -132,8 +132,6 @@ devtools
 content
 /
 aboutdebugging
--
-new
 /
 index
 .

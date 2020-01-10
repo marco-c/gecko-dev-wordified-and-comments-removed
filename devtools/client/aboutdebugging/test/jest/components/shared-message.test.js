@@ -60,8 +60,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 /
 src
 /
@@ -84,8 +82,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 /
 src
 /

@@ -89,8 +89,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 )
 .
 And
