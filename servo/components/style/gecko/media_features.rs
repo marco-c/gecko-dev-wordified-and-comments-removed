@@ -2834,11 +2834,6 @@ ParsingRequirements
 :
 :
 WEBKIT_PREFIX
-|
-ParsingRequirements
-:
-:
-WEBKIT_DEVICE_PIXEL_RATIO_PREF_ENABLED
 )
 /
 /
