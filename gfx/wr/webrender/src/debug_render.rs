@@ -134,7 +134,10 @@ DevicePoint
 }
 Rect
 {
-color
+outer_color
+:
+ColorF
+inner_color
 :
 ColorF
 rect
