@@ -168,7 +168,12 @@ DiskFreeSpaceSoftLimit
 )
 {
 return
-sDiskFreeSpaceSoftLimit
+StaticPrefs
+:
+:
+browser_cache_disk_free_space_soft_limit
+(
+)
 ;
 }
 static
@@ -448,10 +453,6 @@ uint32_t
 Relaxed
 >
 sDiskCacheCapacity
-;
-static
-uint32_t
-sDiskFreeSpaceSoftLimit
 ;
 static
 uint32_t
