@@ -1692,6 +1692,9 @@ apply
 id
 =
 0
+autofillEnabled
+=
+false
 if
 (
 fromSession
