@@ -342,13 +342,13 @@ InternalInit
 )
 )
 ;
-do
-{
 run_function_deprecated_
 (
 obj_
 )
 ;
+do
+{
 if
 (
 MsgWaitForMultipleObjectsEx
