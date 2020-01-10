@@ -301,6 +301,9 @@ PlatformFile
 aFile
 )
 {
+std
+:
+:
 vector
 <
 uint8_t

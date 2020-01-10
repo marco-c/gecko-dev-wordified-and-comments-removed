@@ -64,10 +64,6 @@ using
 namespace
 cdm
 ;
-using
-namespace
-std
-;
 ClearKeySession
 :
 :
@@ -211,6 +207,9 @@ aInitDataSize
 kMaxWebmInitDataSize
 )
 {
+std
+:
+:
 vector
 <
 uint8_t
