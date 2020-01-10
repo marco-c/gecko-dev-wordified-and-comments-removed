@@ -4929,6 +4929,17 @@ UiThread
 default
 public
 void
+onFirstContentfulPaint
+(
+NonNull
+GeckoSession
+)
+;
+method
+UiThread
+default
+public
+void
 onFocusRequest
 (
 NonNull
