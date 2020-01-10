@@ -97,6 +97,10 @@ PContent
 ;
 include
 protocol
+PSHEntry
+;
+include
+protocol
 PWebBrowserPersistResources
 ;
 include
@@ -224,8 +228,9 @@ referrerInfo
 nsString
 contentDisposition
 ;
-uint32_t
-cacheKey
+nullable
+PSHEntry
+sessionHistoryEntry
 ;
 uint32_t
 persistFlags
