@@ -1222,6 +1222,8 @@ mainView
 panel
 -
 header
+-
+section
 "
 )
 {
