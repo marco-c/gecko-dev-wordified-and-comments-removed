@@ -121,6 +121,12 @@ grcov
 tar
 .
 xz
+fetches
+:
+fetch
+:
+-
+grcov
 linux64
 -
 grcov
