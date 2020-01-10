@@ -29,6 +29,13 @@ h
 #
 include
 "
+Layers
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -5930,10 +5937,10 @@ COMPONENT_ALPHA
 {
 MOZ_ASSERT
 (
-StaticPrefs
+LayerManager
 :
 :
-layers_componentalpha_enabled
+LayersComponentAlphaEnabled
 (
 )
 )

@@ -1108,6 +1108,12 @@ return
 mSnapEffectiveTransforms
 ;
 }
+static
+bool
+LayersComponentAlphaEnabled
+(
+)
+;
 virtual
 bool
 AreComponentAlphaLayersEnabled
