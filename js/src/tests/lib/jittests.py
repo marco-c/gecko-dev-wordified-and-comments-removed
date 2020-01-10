@@ -3441,13 +3441,10 @@ if
 test
 .
 allow_unhandlable_oom
-\
-           
 and
 '
-Assertion
-failure
-:
+MOZ_CRASH
+(
 [
 unhandlable
 oom
