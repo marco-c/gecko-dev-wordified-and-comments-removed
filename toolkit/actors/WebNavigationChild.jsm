@@ -300,7 +300,7 @@ message
 .
 data
 .
-flags
+loadFlags
 )
 ;
 break
@@ -320,7 +320,7 @@ message
 .
 data
 .
-flags
+loadFlags
 )
 ;
 break
@@ -500,7 +500,7 @@ params
 let
 {
 uri
-flags
+loadFlags
 referrerInfo
 postData
 headers
@@ -722,8 +722,6 @@ loadURIOptions
 triggeringPrincipal
 csp
 loadFlags
-:
-flags
 referrerInfo
 :
 E10SUtils
@@ -878,7 +876,7 @@ originAttributes
 }
 reload
 (
-flags
+loadFlags
 )
 {
 this
@@ -887,13 +885,13 @@ webNavigation
 .
 reload
 (
-flags
+loadFlags
 )
 ;
 }
 stop
 (
-flags
+loadFlags
 )
 {
 this
@@ -902,7 +900,7 @@ webNavigation
 .
 stop
 (
-flags
+loadFlags
 )
 ;
 }

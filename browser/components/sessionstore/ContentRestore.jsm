@@ -1339,7 +1339,7 @@ blank
 )
 ;
 let
-flags
+loadFlags
 =
 Ci
 .
@@ -1361,8 +1361,6 @@ getSystemPrincipal
 (
 )
 loadFlags
-:
-flags
 }
 ;
 this

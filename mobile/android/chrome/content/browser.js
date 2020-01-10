@@ -21617,7 +21617,7 @@ currentURI
 spec
 ;
 let
-flags
+loadFlags
 =
 Ci
 .
@@ -21670,8 +21670,6 @@ browser
 .
 contentPrincipal
 loadFlags
-:
-flags
 }
 ;
 this
