@@ -286,6 +286,9 @@ nsISupports
 void
 handleSuccess
 (
+in
+bool
+result
 )
 ;
 void
