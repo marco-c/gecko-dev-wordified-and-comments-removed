@@ -2324,6 +2324,7 @@ maxPixelDifference
 -
 maxNumberDifferingPixels
 )
+noautofuzz
 fuzzy
 (
 0
@@ -2343,6 +2344,7 @@ fuzzy
 ref
 .
 html
+noautofuzz
 fuzzy
 (
 0
@@ -2364,6 +2366,7 @@ fuzzy
 ref
 .
 html
+noautofuzz
 fuzzy
 -
 if
@@ -2386,6 +2389,7 @@ fuzzy
 ref
 .
 html
+noautofuzz
 fuzzy
 -
 if
@@ -2415,6 +2419,7 @@ test
 some
 ranged
 fuzzes
+noautofuzz
 fuzzy
 (
 1
@@ -2446,6 +2451,7 @@ fuzzy
 ref
 .
 html
+noautofuzz
 fuzzy
 (
 0
@@ -2465,6 +2471,7 @@ fuzzy
 ref
 .
 html
+noautofuzz
 fuzzy
 (
 0
@@ -2503,6 +2510,7 @@ are
 both
 overfuzzed
 #
+noautofuzz
 fuzzy
 (
 3
@@ -2523,6 +2531,7 @@ ref
 .
 html
 #
+noautofuzz
 fuzzy
 (
 0
@@ -2560,6 +2569,7 @@ will
 compare
 as
 equal
+noautofuzz
 fails
 fuzzy
 -
