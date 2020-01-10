@@ -123,7 +123,7 @@ copy_attributes_from_dependent_job
 dep_job
 )
         
-repack_id
+repack_ids
 =
 job
 [
@@ -133,7 +133,7 @@ extra
 ]
 [
 '
-repack_id
+repack_ids
 '
 ]
         
@@ -231,6 +231,11 @@ spec
 artifacts
 '
 ]
+                
+for
+repack_id
+in
+repack_ids
             
 ]
             

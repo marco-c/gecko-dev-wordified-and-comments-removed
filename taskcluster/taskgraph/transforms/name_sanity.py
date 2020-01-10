@@ -205,8 +205,29 @@ repack
 )
 :
             
-repack_id
+suffix
 =
+job
+.
+get
+(
+"
+extra
+"
+{
+}
+)
+.
+get
+(
+"
+repack_suffix
+"
+None
+)
+or
+\
+                     
 job
 .
 get
@@ -239,7 +260,7 @@ build_platform
 "
             
 if
-repack_id
+suffix
 :
                 
 template
@@ -253,7 +274,7 @@ template
 .
 format
 (
-repack_id
+suffix
 .
 replace
 (
