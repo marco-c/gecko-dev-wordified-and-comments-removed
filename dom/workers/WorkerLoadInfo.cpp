@@ -409,6 +409,10 @@ mPrincipalIsSystem
 (
 false
 )
+mPrincipalIsAddonOrExpandedAddon
+(
+false
+)
 mWatchedByDevtools
 (
 false
@@ -483,6 +487,15 @@ nsContentUtils
 IsSystemPrincipal
 (
 aPrincipal
+)
+;
+mPrincipalIsAddonOrExpandedAddon
+=
+aPrincipal
+-
+>
+GetIsAddonOrExpandedAddonPrincipal
+(
 )
 ;
 mCSP

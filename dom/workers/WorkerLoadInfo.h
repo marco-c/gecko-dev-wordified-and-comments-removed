@@ -404,6 +404,9 @@ bool
 mPrincipalIsSystem
 ;
 bool
+mPrincipalIsAddonOrExpandedAddon
+;
+bool
 mWatchedByDevtools
 ;
 StorageAccess
