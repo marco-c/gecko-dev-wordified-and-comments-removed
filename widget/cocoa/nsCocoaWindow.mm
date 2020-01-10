@@ -13243,7 +13243,7 @@ if
 StaticPrefs
 :
 :
-WindowTransformsDisabled
+widget_window_transforms_disabled
 (
 )
 )
