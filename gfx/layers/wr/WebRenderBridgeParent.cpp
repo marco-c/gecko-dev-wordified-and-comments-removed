@@ -969,7 +969,7 @@ wr
 TelemetryProbe
 :
 :
-RenderTime
+FrameBuildTime
 :
 mozilla
 :
@@ -985,7 +985,7 @@ mozilla
 Telemetry
 :
 :
-WR_RENDER_TIME
+WR_FRAMEBUILD_TIME
 time_ms
 )
 ;
