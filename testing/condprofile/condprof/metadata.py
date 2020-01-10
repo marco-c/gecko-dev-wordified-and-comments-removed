@@ -13,8 +13,12 @@ import
 os
 import
 datetime
-import
+from
 collections
+.
+abc
+import
+MutableMapping
 import
 json
 from
@@ -33,8 +37,6 @@ json
 class
 Metadata
 (
-collections
-.
 MutableMapping
 )
 :
