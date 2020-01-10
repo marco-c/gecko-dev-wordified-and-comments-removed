@@ -2599,8 +2599,7 @@ parser
 getTreeHolder
 (
 )
--
->
+.
 resetFunctionTree
 (
 )

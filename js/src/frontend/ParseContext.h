@@ -569,10 +569,8 @@ MOZ_RAII
 AutoPushTree
 {
 FunctionTreeHolder
-*
+&
 holder_
-=
-nullptr
 ;
 FunctionTree
 *
@@ -586,7 +584,7 @@ explicit
 AutoPushTree
 (
 FunctionTreeHolder
-*
+&
 holder
 )
 ;
@@ -1662,12 +1660,12 @@ errorReporter
 UsedNameTracker
 &
 usedNames
+FunctionTreeHolder
+&
+treeHolder
 Directives
 *
 newDirectives
-FunctionTreeHolder
-*
-treeHolder
 bool
 isFull
 )

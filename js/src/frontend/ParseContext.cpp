@@ -1316,12 +1316,12 @@ class
 UsedNameTracker
 &
 usedNames
+FunctionTreeHolder
+&
+treeHolder
 Directives
 *
 newDirectives
-FunctionTreeHolder
-*
-treeHolder
 bool
 isFull
 )
@@ -1428,6 +1428,10 @@ isFunctionBox
 if
 (
 treeHolder
+.
+isDeferred
+(
+)
 &
 &
 !
@@ -1534,8 +1538,10 @@ isFunctionBox
 if
 (
 tree
-&
-&
+)
+{
+if
+(
 !
 tree
 -
@@ -1555,6 +1561,7 @@ functionBox
 return
 false
 ;
+}
 }
 if
 (

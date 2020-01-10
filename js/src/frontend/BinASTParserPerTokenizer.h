@@ -1328,6 +1328,9 @@ tokenizer_
 VariableDeclarationKind
 variableDeclarationKind_
 ;
+FunctionTreeHolder
+treeHolder_
+;
 friend
 class
 BinASTParseContext
@@ -1477,8 +1480,11 @@ parser
 -
 >
 usedNames_
+parser
+-
+>
+treeHolder_
 newDirectives
-nullptr
 true
 )
 {
