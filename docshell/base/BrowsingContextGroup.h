@@ -522,6 +522,11 @@ BrowsingContextGroup
 (
 )
 ;
+void
+UnsubscribeAllContentParents
+(
+)
+;
 nsTHashtable
 <
 nsRefPtrHashKey
