@@ -789,6 +789,13 @@ mPrincipal
 mCacheName
 )
 ;
+mServiceWorkerPrivate
+-
+>
+NoteDeadServiceWorkerInfo
+(
+)
+;
 }
 }
 ServiceWorkerInfo
