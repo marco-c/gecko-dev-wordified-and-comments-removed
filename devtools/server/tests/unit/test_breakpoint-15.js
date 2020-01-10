@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -68,12 +68,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 testSameBreakpoint
 (
@@ -122,7 +122,7 @@ await
 executeOnNextTickAndWaitForPause
 (
 evalCode
-gThreadClient
+gThreadFront
 )
 ;
 const
@@ -131,7 +131,7 @@ source
 await
 getSourceById
 (
-gThreadClient
+gThreadFront
 packet
 .
 frame

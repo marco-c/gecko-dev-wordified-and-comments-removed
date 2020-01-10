@@ -132,7 +132,7 @@ getMainProcess
 ;
 const
 [
-threadClient
+threadFront
 ]
 =
 await
@@ -152,7 +152,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -189,7 +189,7 @@ script
 "
 )
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -225,7 +225,7 @@ script
 "
 )
 ;
-threadClient
+threadFront
 .
 resume
 (
@@ -239,7 +239,7 @@ resolve
 }
 )
 ;
-threadClient
+threadFront
 .
 resume
 (
@@ -251,7 +251,7 @@ resume
 }
 )
 ;
-threadClient
+threadFront
 .
 resume
 (

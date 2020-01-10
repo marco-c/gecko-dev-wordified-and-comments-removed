@@ -63,7 +63,7 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
 gThreadActor
@@ -76,7 +76,7 @@ _serverConnection
 .
 getActor
 (
-threadClient
+threadFront
 .
 actorID
 )

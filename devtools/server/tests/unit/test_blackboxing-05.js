@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -72,12 +72,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 Services
 .
@@ -142,7 +142,7 @@ test_black_box
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -255,7 +255,7 @@ test_black_box_exception
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 getSources
 (
@@ -296,7 +296,7 @@ sourceFront
 await
 getSource
 (
-gThreadClient
+gThreadFront
 BLACK_BOXED_URL
 )
 ;
@@ -306,7 +306,7 @@ blackBox
 sourceFront
 )
 ;
-gThreadClient
+gThreadFront
 .
 pauseOnExceptions
 (
@@ -314,7 +314,7 @@ true
 false
 )
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -333,7 +333,7 @@ source
 await
 getSourceById
 (
-gThreadClient
+gThreadFront
 packet
 .
 frame
@@ -368,7 +368,7 @@ source
 )
 ;
 await
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -382,7 +382,7 @@ gClient
 }
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

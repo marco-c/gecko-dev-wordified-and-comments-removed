@@ -248,6 +248,11 @@ stylesheets
 js
 '
 '
+thread
+.
+js
+'
+'
 webconsole
 .
 js

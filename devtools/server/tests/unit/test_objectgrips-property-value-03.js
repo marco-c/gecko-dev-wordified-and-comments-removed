@@ -42,12 +42,12 @@ allow_eval_with_system_principal
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 client
 }
@@ -77,7 +77,7 @@ await
 test_object_grip
 (
 debuggee
-threadClient
+threadFront
 )
 ;
 }
@@ -89,7 +89,7 @@ function
 test_object_grip
 (
 debuggee
-threadClient
+threadFront
 )
 {
 const
@@ -155,7 +155,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -187,7 +187,7 @@ arguments
 const
 objClient
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -284,7 +284,7 @@ actorId
 finally
 {
 await
-threadClient
+threadFront
 .
 resume
 (

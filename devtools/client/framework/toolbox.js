@@ -2238,14 +2238,14 @@ _target
 ;
 }
 get
-threadClient
+threadFront
 (
 )
 {
 return
 this
 .
-_threadClient
+_threadFront
 ;
 }
 get
@@ -2564,7 +2564,7 @@ jsdebugger
 )
 ;
 }
-_startThreadClientListeners
+_startThreadFrontListeners
 :
 function
 (
@@ -2572,7 +2572,7 @@ function
 {
 this
 .
-threadClient
+threadFront
 .
 on
 (
@@ -2586,7 +2586,7 @@ _onPausedState
 ;
 this
 .
-threadClient
+threadFront
 .
 on
 (
@@ -2599,7 +2599,7 @@ _onResumedState
 )
 ;
 }
-_stopThreadClientListeners
+_stopThreadFrontListeners
 :
 function
 (
@@ -2607,7 +2607,7 @@ function
 {
 this
 .
-threadClient
+threadFront
 .
 off
 (
@@ -2621,7 +2621,7 @@ _onPausedState
 ;
 this
 .
-threadClient
+threadFront
 .
 off
 (
@@ -2717,7 +2717,7 @@ buttons
 ;
 const
 [
-threadClient
+threadFront
 ]
 =
 await
@@ -2733,7 +2733,7 @@ threadOptions
 try
 {
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -2804,7 +2804,7 @@ ex
 }
 }
 return
-threadClient
+threadFront
 ;
 }
 open
@@ -2961,7 +2961,7 @@ NetworkActivity
 }
 this
 .
-_threadClient
+_threadFront
 =
 await
 this
@@ -2972,7 +2972,7 @@ _attachAndResumeThread
 ;
 this
 .
-_startThreadClientListeners
+_startThreadFrontListeners
 (
 )
 ;
@@ -5737,7 +5737,7 @@ if
 (
 this
 .
-_threadClient
+_threadFront
 .
 state
 =
@@ -14306,13 +14306,13 @@ resetPreference
 ;
 this
 .
-_stopThreadClientListeners
+_stopThreadFrontListeners
 (
 )
 ;
 this
 .
-_threadClient
+_threadFront
 =
 null
 ;

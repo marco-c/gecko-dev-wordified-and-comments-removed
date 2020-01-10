@@ -3,7 +3,7 @@ type
 {
 SourcePacket
 PausedPacket
-ThreadClient
+ThreadFront
 Actions
 TabTarget
 }
@@ -52,9 +52,9 @@ type
 Dependencies
 =
 {
-threadClient
+threadFront
 :
-ThreadClient
+ThreadFront
 tabTarget
 :
 TabTarget
@@ -76,9 +76,9 @@ boolean
 function
 addThreadEventListeners
 (
-client
+thread
 :
-ThreadClient
+ThreadFront
 )
 {
 Object
@@ -94,7 +94,7 @@ eventName
 =
 >
 {
-client
+thread
 .
 on
 (
@@ -107,7 +107,7 @@ eventName
 bind
 (
 null
-client
+thread
 )
 )
 ;
@@ -124,11 +124,11 @@ Dependencies
 )
 {
 const
-threadClient
+threadFront
 =
 dependencies
 .
-threadClient
+threadFront
 ;
 const
 tabTarget
@@ -152,7 +152,7 @@ actions
 ;
 addThreadEventListeners
 (
-threadClient
+threadFront
 )
 ;
 tabTarget
@@ -170,9 +170,9 @@ async
 function
 paused
 (
-threadClient
+threadFront
 :
-ThreadClient
+ThreadFront
 packet
 :
 PausedPacket
@@ -221,7 +221,7 @@ try
 response
 =
 await
-threadClient
+threadFront
 .
 getFrames
 (
@@ -278,7 +278,7 @@ pause
 =
 createPause
 (
-threadClient
+threadFront
 .
 actor
 packet
@@ -304,9 +304,9 @@ pause
 function
 resumed
 (
-threadClient
+threadFront
 :
-ThreadClient
+ThreadFront
 )
 {
 if
@@ -325,7 +325,7 @@ actions
 .
 resumed
 (
-threadClient
+threadFront
 .
 actorID
 )
@@ -334,9 +334,9 @@ actorID
 function
 newSource
 (
-threadClient
+threadFront
 :
-ThreadClient
+ThreadFront
 {
 source
 }
@@ -358,7 +358,7 @@ data
 :
 prepareSourcePayload
 (
-threadClient
+threadFront
 source
 )
 }

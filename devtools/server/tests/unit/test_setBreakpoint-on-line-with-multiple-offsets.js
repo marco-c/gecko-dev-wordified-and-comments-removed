@@ -27,12 +27,12 @@ js
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -44,7 +44,7 @@ promise
 =
 waitForNewSource
 (
-threadClient
+threadFront
 SOURCE_URL
 )
 ;
@@ -65,7 +65,7 @@ promise
 const
 sourceFront
 =
-threadClient
+threadFront
 .
 source
 (
@@ -88,7 +88,7 @@ line
 ;
 setBreakpoint
 (
-threadClient
+threadFront
 location
 )
 ;
@@ -115,7 +115,7 @@ debuggee
 )
 ;
 }
-threadClient
+threadFront
 )
 ;
 let
@@ -230,7 +230,7 @@ line
 ;
 setBreakpoint
 (
-threadClient
+threadFront
 location2
 )
 ;
@@ -245,9 +245,9 @@ executeOnNextTickAndWaitForPause
 >
 resume
 (
-threadClient
+threadFront
 )
-threadClient
+threadFront
 )
 ;
 why
@@ -341,7 +341,7 @@ value
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 }

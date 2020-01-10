@@ -32,9 +32,9 @@ selectors
 ;
 import
 {
-sourceThreadClient
+sourceThreadFront
 as
-threadClient
+threadFront
 }
 from
 "
@@ -48,7 +48,7 @@ tests
 /
 helpers
 /
-threadClient
+threadFront
 .
 js
 "
@@ -94,7 +94,7 @@ getState
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 await

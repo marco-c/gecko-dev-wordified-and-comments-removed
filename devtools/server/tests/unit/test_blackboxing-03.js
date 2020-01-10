@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -72,12 +72,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_black_box
 (
@@ -133,7 +133,7 @@ test_black_box
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -152,7 +152,7 @@ source
 await
 getSourceById
 (
-gThreadClient
+gThreadFront
 packet
 .
 frame
@@ -162,7 +162,7 @@ where
 actor
 )
 ;
-gThreadClient
+gThreadFront
 .
 setBreakpoint
 (
@@ -181,7 +181,7 @@ line
 )
 ;
 await
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -280,7 +280,7 @@ test_black_box_dbg_statement
 )
 {
 await
-gThreadClient
+gThreadFront
 .
 getSources
 (
@@ -292,7 +292,7 @@ sourceFront
 await
 getSource
 (
-gThreadClient
+gThreadFront
 BLACK_BOXED_URL
 )
 ;
@@ -302,7 +302,7 @@ blackBox
 sourceFront
 )
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -345,7 +345,7 @@ source
 await
 getSourceById
 (
-gThreadClient
+gThreadFront
 packet
 .
 frame
@@ -355,7 +355,7 @@ where
 actor
 )
 ;
-gThreadClient
+gThreadFront
 .
 removeBreakpoint
 (
@@ -374,7 +374,7 @@ line
 )
 ;
 await
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -409,7 +409,7 @@ unBlackBox
 sourceFront
 )
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -447,7 +447,7 @@ again
 )
 ;
 await
-gThreadClient
+gThreadFront
 .
 resume
 (

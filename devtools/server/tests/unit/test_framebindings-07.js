@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 const
 EnvironmentClient
@@ -123,12 +123,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_banana_environment
 (
@@ -150,7 +150,7 @@ test_banana_environment
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -337,7 +337,7 @@ y
 "
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

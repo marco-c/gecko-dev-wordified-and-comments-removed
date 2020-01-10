@@ -229,7 +229,7 @@ function
 test
 (
 {
-threadClient
+threadFront
 debuggee
 }
 testOptions
@@ -251,7 +251,7 @@ function
 resolve
 )
 {
-threadClient
+threadFront
 .
 once
 (
@@ -287,7 +287,7 @@ proxyGrip
 const
 proxyClient
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -346,7 +346,7 @@ false
 const
 inheritsProxyClient
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -387,7 +387,7 @@ false
 const
 inheritsProxy2Client
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -442,7 +442,7 @@ run
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -1471,7 +1471,7 @@ debuggeeHasXrays
 }
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 options
 =
@@ -1499,7 +1499,7 @@ true
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 options
 =
@@ -1550,7 +1550,7 @@ nsIPrincipal
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 options
 =
@@ -1578,7 +1578,7 @@ true
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 options
 =

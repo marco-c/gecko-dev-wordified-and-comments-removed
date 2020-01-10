@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -105,12 +105,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_simple_listsources
 (
@@ -132,7 +132,7 @@ test_simple_listsources
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -144,7 +144,7 @@ function
 packet
 )
 {
-gThreadClient
+gThreadFront
 .
 getSources
 (
@@ -217,7 +217,7 @@ js
 )
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

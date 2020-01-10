@@ -72,13 +72,13 @@ ok
 (
 toolbox
 .
-threadClient
+threadFront
 "
 toolbox
 has
 a
 thread
-client
+front
 "
 )
 ;

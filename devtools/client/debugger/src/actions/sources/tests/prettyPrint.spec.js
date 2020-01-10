@@ -37,7 +37,7 @@ prettyPrint
 ;
 import
 {
-sourceThreadClient
+sourceThreadFront
 }
 from
 "
@@ -51,7 +51,7 @@ tests
 /
 helpers
 /
-threadClient
+threadFront
 .
 js
 "
@@ -118,7 +118,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const
@@ -325,7 +325,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const
@@ -426,7 +426,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const

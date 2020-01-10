@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 Services
 .
@@ -124,12 +124,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_longstring_grip
 (
@@ -328,7 +328,7 @@ LONG_STRING_LENGTH
 =
 200
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -450,7 +450,7 @@ monkey
 }
 finally
 {
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -480,7 +480,7 @@ catch
 error
 )
 {
-gThreadClient
+gThreadFront
 .
 resume
 (

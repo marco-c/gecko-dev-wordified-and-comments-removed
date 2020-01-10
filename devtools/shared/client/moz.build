@@ -163,11 +163,4 @@ client
 .
 js
 '
-'
-thread
--
-client
-.
-js
-'
 )

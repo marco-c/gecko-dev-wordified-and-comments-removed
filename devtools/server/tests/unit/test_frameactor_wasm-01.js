@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -120,15 +120,15 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 await
-gThreadClient
+gThreadFront
 .
 reconfigure
 (
@@ -162,7 +162,7 @@ test_pause_frame
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -174,7 +174,7 @@ function
 packet
 )
 {
-gThreadClient
+gThreadFront
 .
 getFrames
 (
@@ -247,7 +247,7 @@ source
 await
 getSourceById
 (
-gThreadClient
+gThreadFront
 location
 .
 actor

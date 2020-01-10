@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 targetFront
 }
 )
@@ -18,7 +18,7 @@ targetFront
 >
 {
 await
-threadClient
+threadFront
 .
 setBreakpoint
 (
@@ -138,7 +138,7 @@ sourcePacket
 await
 waitForEvent
 (
-threadClient
+threadFront
 "
 newSource
 "
@@ -209,7 +209,7 @@ pausedPacket
 await
 waitForPause
 (
-threadClient
+threadFront
 )
 ;
 equal
@@ -238,7 +238,7 @@ line
 ;
 resume
 (
-threadClient
+threadFront
 )
 ;
 await

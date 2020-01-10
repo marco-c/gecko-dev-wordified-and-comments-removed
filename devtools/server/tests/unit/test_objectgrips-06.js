@@ -42,12 +42,12 @@ allow_eval_with_system_principal
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 client
 }
@@ -63,7 +63,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -99,7 +99,7 @@ sealed
 const
 obj1Client
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -140,7 +140,7 @@ sealed
 const
 obj2Client
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -157,7 +157,7 @@ obj2Client
 isSealed
 )
 ;
-threadClient
+threadFront
 .
 resume
 (

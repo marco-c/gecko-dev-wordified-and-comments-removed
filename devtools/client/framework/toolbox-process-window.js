@@ -1296,15 +1296,15 @@ false
 )
 ;
 const
-threadClient
+threadFront
 =
 gToolbox
 .
 target
 .
-threadClient
+threadFront
 ;
-threadClient
+threadFront
 .
 on
 (
@@ -1314,7 +1314,7 @@ paused
 onPaused
 )
 ;
-threadClient
+threadFront
 .
 on
 (
@@ -1336,7 +1336,7 @@ destroyed
 =
 >
 {
-threadClient
+threadFront
 .
 off
 (
@@ -1346,7 +1346,7 @@ paused
 onPaused
 )
 ;
-threadClient
+threadFront
 .
 off
 (

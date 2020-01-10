@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -102,12 +102,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_source
 (
@@ -179,7 +179,7 @@ LONG_STRING_LENGTH
 =
 200
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -191,7 +191,7 @@ function
 packet
 )
 {
-gThreadClient
+gThreadFront
 .
 getSources
 (
@@ -266,7 +266,7 @@ source
 const
 sourceFront
 =
-gThreadClient
+gThreadFront
 .
 source
 (
@@ -398,7 +398,7 @@ response
 )
 ;
 await
-gThreadClient
+gThreadFront
 .
 resume
 (

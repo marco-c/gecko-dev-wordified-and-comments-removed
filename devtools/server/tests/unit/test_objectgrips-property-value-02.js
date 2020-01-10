@@ -42,12 +42,12 @@ allow_eval_with_system_principal
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 client
 }
@@ -78,7 +78,7 @@ await
 test_object_grip
 (
 debuggee
-threadClient
+threadFront
 )
 ;
 }
@@ -90,7 +90,7 @@ function
 test_object_grip
 (
 debuggee
-threadClient
+threadFront
 )
 {
 const
@@ -118,7 +118,7 @@ await
 eval_and_resume
 (
 debuggee
-threadClient
+threadFront
 code
 async
 frame
@@ -150,7 +150,7 @@ Object
 const
 obj
 =
-threadClient
+threadFront
 .
 pauseGrip
 (
@@ -178,7 +178,7 @@ all
 [
 wait_for_pause
 (
-threadClient
+threadFront
 frame
 =
 >
@@ -226,7 +226,7 @@ function
 eval_and_resume
 (
 debuggee
-threadClient
+threadFront
 code
 callback
 )
@@ -244,7 +244,7 @@ reject
 {
 wait_for_pause
 (
-threadClient
+threadFront
 callback
 )
 .
@@ -268,7 +268,7 @@ code
 function
 wait_for_pause
 (
-threadClient
+threadFront
 callback
 =
 (
@@ -290,7 +290,7 @@ reject
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -324,7 +324,7 @@ frame
 finally
 {
 await
-threadClient
+threadFront
 .
 resume
 (

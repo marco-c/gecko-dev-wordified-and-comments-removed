@@ -40,7 +40,7 @@ tests
 /
 helpers
 /
-threadClient
+threadFront
 "
 ;
 describe

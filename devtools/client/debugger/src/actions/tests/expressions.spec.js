@@ -40,7 +40,7 @@ mockup
 "
 ;
 const
-mockThreadClient
+mockThreadFront
 =
 {
 evaluateInFrame
@@ -287,7 +287,7 @@ cx
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 )
 ;
 await
@@ -347,7 +347,7 @@ cx
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 )
 ;
 dispatch
@@ -421,7 +421,7 @@ cx
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 )
 ;
 await
@@ -502,7 +502,7 @@ cx
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 )
 ;
 await
@@ -630,7 +630,7 @@ cx
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 )
 ;
 await
@@ -741,7 +741,7 @@ cx
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 )
 ;
 await
@@ -908,7 +908,7 @@ cx
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 )
 ;
 await
@@ -1103,7 +1103,7 @@ getState
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 )
 ;
 await
@@ -1336,7 +1336,7 @@ getState
 =
 createStore
 (
-mockThreadClient
+mockThreadFront
 )
 ;
 await

@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 var
 gNumTimesSourcesSent
@@ -128,12 +128,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_simple_listsources
 (
@@ -155,7 +155,7 @@ test_simple_listsources
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -167,7 +167,7 @@ function
 packet
 )
 {
-gThreadClient
+gThreadFront
 .
 getSources
 (
@@ -257,7 +257,7 @@ support
 "
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

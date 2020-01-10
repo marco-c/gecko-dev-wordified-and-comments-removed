@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -20,7 +20,7 @@ debuggee
 await
 getSources
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -40,7 +40,7 @@ debuggee
 )
 ;
 }
-threadClient
+threadFront
 )
 ;
 const
@@ -49,7 +49,7 @@ source
 await
 getSourceById
 (
-threadClient
+threadFront
 packet
 .
 frame
@@ -168,7 +168,7 @@ message
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 }

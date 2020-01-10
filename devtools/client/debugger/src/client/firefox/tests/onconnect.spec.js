@@ -37,7 +37,7 @@ url
 }
 ;
 const
-threadClient
+threadFront
 =
 {
 on
@@ -252,7 +252,7 @@ tabConnection
 :
 {
 tabTarget
-threadClient
+threadFront
 debuggerClient
 }
 }

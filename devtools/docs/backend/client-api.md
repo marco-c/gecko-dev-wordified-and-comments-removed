@@ -816,14 +816,14 @@ function
 (
 [
 response
-threadClient
+threadFront
 ]
 )
 {
 if
 (
 !
-threadClient
+threadFront
 )
 {
 return
@@ -837,7 +837,7 @@ for
 thread
 events
 .
-threadClient
+threadFront
 .
 on
 (
@@ -847,7 +847,7 @@ paused
 onPause
 )
 ;
-threadClient
+threadFront
 .
 on
 (
@@ -857,7 +857,7 @@ resumed
 fooListener
 )
 ;
-threadClient
+threadFront
 .
 on
 (
@@ -873,7 +873,7 @@ Resume
 the
 thread
 .
-threadClient
+threadFront
 .
 resume
 (
@@ -1000,7 +1000,7 @@ let
 client
 ;
 let
-threadClient
+threadFront
 ;
 function
 startDebugger
@@ -1245,7 +1245,7 @@ then
 (
 [
 response
-threadClient
+threadFront
 ]
 )
 =
@@ -1259,7 +1259,7 @@ for
 thread
 events
 .
-threadClient
+threadFront
 .
 on
 (
@@ -1269,7 +1269,7 @@ paused
 onPause
 )
 ;
-threadClient
+threadFront
 .
 on
 (
@@ -1279,7 +1279,7 @@ resumed
 fooListener
 )
 ;
-threadClient
+threadFront
 .
 on
 (
@@ -1295,7 +1295,7 @@ Resume
 the
 thread
 .
-threadClient
+threadFront
 .
 resume
 (

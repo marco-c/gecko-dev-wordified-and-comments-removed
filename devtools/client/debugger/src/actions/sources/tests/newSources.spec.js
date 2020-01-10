@@ -57,9 +57,9 @@ queue
 ;
 import
 {
-sourceThreadClient
+sourceThreadFront
 as
-threadClient
+threadFront
 }
 from
 "
@@ -73,7 +73,7 @@ tests
 /
 helpers
 /
-threadClient
+threadFront
 .
 js
 "
@@ -114,7 +114,7 @@ getState
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 await
@@ -263,7 +263,7 @@ getState
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 await
@@ -345,7 +345,7 @@ cx
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -460,7 +460,7 @@ getState
 =
 createStore
 (
-threadClient
+threadFront
 {
 }
 {
@@ -596,7 +596,7 @@ dispatch
 =
 createStore
 (
-threadClient
+threadFront
 {
 }
 {
@@ -675,7 +675,7 @@ getState
 =
 createStore
 (
-threadClient
+threadFront
 {
 }
 {
@@ -816,7 +816,7 @@ dbg
 =
 createStore
 (
-threadClient
+threadFront
 {
 }
 {
@@ -1121,7 +1121,7 @@ getState
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 await

@@ -27,12 +27,12 @@ js
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -44,7 +44,7 @@ promise
 =
 waitForNewSource
 (
-threadClient
+threadFront
 SOURCE_URL
 )
 ;
@@ -65,7 +65,7 @@ promise
 const
 sourceFront
 =
-threadClient
+threadFront
 .
 source
 (
@@ -154,7 +154,7 @@ debuggee
 )
 ;
 }
-threadClient
+threadFront
 )
 ;
 Assert
@@ -295,7 +295,7 @@ undefined
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 }

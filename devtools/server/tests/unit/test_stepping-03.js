@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -43,7 +43,7 @@ evaluateTestCode
 (
 debuggee
 )
-threadClient
+threadFront
 )
 ;
 const
@@ -52,7 +52,7 @@ step1
 await
 stepOut
 (
-threadClient
+threadFront
 )
 ;
 equal

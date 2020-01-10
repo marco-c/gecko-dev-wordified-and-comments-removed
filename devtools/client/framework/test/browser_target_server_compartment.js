@@ -211,7 +211,7 @@ attach
 ;
 const
 [
-threadClient
+threadFront
 ]
 =
 await
@@ -222,7 +222,7 @@ attachThread
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -234,7 +234,7 @@ sources
 }
 =
 await
-threadClient
+threadFront
 .
 getSources
 (
@@ -639,7 +639,7 @@ attach
 ;
 const
 [
-threadClient
+threadFront
 ]
 =
 await
@@ -650,7 +650,7 @@ attachThread
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -662,7 +662,7 @@ sources
 }
 =
 await
-threadClient
+threadFront
 .
 getSources
 (

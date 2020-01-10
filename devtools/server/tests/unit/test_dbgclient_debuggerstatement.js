@@ -28,12 +28,12 @@ nsIJSInspector
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 client
 targetFront
@@ -50,7 +50,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 on
 (
@@ -66,7 +66,7 @@ Assert
 .
 equal
 (
-threadClient
+threadFront
 .
 state
 "
@@ -103,7 +103,7 @@ eventLoopNestLevel
 1
 )
 ;
-threadClient
+threadFront
 .
 resume
 (

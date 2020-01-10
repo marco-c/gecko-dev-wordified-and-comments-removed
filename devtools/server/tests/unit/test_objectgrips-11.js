@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 Services
 .
@@ -124,12 +124,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_object_grip
 (
@@ -151,7 +151,7 @@ test_object_grip
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -175,7 +175,7 @@ arguments
 const
 objClient
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -269,7 +269,7 @@ message
 "
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

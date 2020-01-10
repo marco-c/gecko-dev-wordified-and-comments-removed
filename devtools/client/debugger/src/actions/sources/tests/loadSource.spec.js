@@ -28,7 +28,7 @@ head
 import
 {
 createSource
-sourceThreadClient
+sourceThreadFront
 }
 from
 "
@@ -42,7 +42,7 @@ tests
 /
 helpers
 /
-threadClient
+threadFront
 .
 js
 "
@@ -117,7 +117,7 @@ store
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const
@@ -391,7 +391,7 @@ createStore
 .
 .
 .
-sourceThreadClient
+sourceThreadFront
 sourceContents
 :
 async
@@ -1458,7 +1458,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const
@@ -1576,7 +1576,7 @@ store
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const
@@ -1685,7 +1685,7 @@ cx
 =
 createStore
 (
-sourceThreadClient
+sourceThreadFront
 )
 ;
 const

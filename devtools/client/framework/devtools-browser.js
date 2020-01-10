@@ -2052,15 +2052,15 @@ toolbox
 >
 {
 const
-threadClient
+threadFront
 =
 toolbox
 .
-threadClient
+threadFront
 ;
 switch
 (
-threadClient
+threadFront
 .
 state
 )
@@ -2070,7 +2070,7 @@ case
 paused
 "
 :
-threadClient
+threadFront
 .
 resumeThenPause
 (
@@ -2087,7 +2087,7 @@ case
 attached
 "
 :
-threadClient
+threadFront
 .
 interrupt
 (
@@ -2100,7 +2100,7 @@ then
 =
 >
 {
-threadClient
+threadFront
 .
 resumeThenPause
 (
@@ -2120,7 +2120,7 @@ case
 resuming
 "
 :
-threadClient
+threadFront
 .
 once
 (
@@ -2132,7 +2132,7 @@ resumed
 =
 >
 {
-threadClient
+threadFront
 .
 interrupt
 (
@@ -2145,7 +2145,7 @@ then
 =
 >
 {
-threadClient
+threadFront
 .
 resumeThenPause
 (
@@ -2171,7 +2171,7 @@ Error
 "
 invalid
 thread
-client
+front
 state
 in
 slow
@@ -2181,7 +2181,7 @@ handler
 :
 "
 +
-threadClient
+threadFront
 .
 state
 )

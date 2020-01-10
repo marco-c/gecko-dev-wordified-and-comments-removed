@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 Services
 .
@@ -105,12 +105,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_pause_frame
 (
@@ -132,7 +132,7 @@ test_pause_frame
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -260,7 +260,7 @@ undefined
 const
 objClient
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -331,7 +331,7 @@ value
 actor
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

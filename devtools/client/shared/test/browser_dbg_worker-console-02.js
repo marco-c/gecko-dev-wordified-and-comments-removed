@@ -92,7 +92,7 @@ toolbox
 dbg
 ;
 const
-workerThreadClient
+workerThreadFront
 =
 await
 workerTargetFront
@@ -158,7 +158,7 @@ pause
 "
 )
 ;
-workerThreadClient
+workerThreadFront
 .
 once
 (

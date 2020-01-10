@@ -152,7 +152,7 @@ js
 ;
 export
 const
-simpleMockThreadClient
+simpleMockThreadFront
 =
 {
 getBreakpointByLocation
@@ -311,7 +311,7 @@ source
 ;
 export
 const
-sourceThreadClient
+sourceThreadFront
 =
 {
 sourceContents
@@ -393,7 +393,7 @@ async
 >
 {
 }
-threadClient
+threadFront
 :
 async
 (

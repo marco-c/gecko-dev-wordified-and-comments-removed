@@ -176,7 +176,7 @@ getProperties
 clientCommands
 ;
 const
-threadClient
+threadFront
 =
 makeThreadCLient
 (
@@ -201,7 +201,7 @@ setupCommands
 makeDependencies
 (
 )
-threadClient
+threadFront
 }
 )
 ;
@@ -250,7 +250,7 @@ getProperties
 clientCommands
 ;
 const
-threadClient
+threadFront
 =
 makeThreadCLient
 (
@@ -293,7 +293,7 @@ setupCommands
 makeDependencies
 (
 )
-threadClient
+threadFront
 }
 )
 ;
@@ -342,7 +342,7 @@ getProperties
 clientCommands
 ;
 const
-threadClient
+threadFront
 =
 makeThreadCLient
 (
@@ -400,7 +400,7 @@ setupCommands
 makeDependencies
 (
 )
-threadClient
+threadFront
 }
 )
 ;
@@ -450,7 +450,7 @@ getProperties
 clientCommands
 ;
 const
-threadClient
+threadFront
 =
 makeThreadCLient
 (
@@ -499,7 +499,7 @@ setupCommands
 makeDependencies
 (
 )
-threadClient
+threadFront
 }
 )
 ;

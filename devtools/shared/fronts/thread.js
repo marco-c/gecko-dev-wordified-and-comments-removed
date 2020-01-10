@@ -98,7 +98,7 @@ true
 )
 ;
 class
-ThreadClient
+ThreadFront
 extends
 FrontClassWithSpec
 (
@@ -1086,12 +1086,12 @@ actor
 }
 exports
 .
-ThreadClient
+ThreadFront
 =
-ThreadClient
+ThreadFront
 ;
 registerFront
 (
-ThreadClient
+ThreadFront
 )
 ;

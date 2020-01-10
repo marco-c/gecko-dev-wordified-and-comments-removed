@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 Services
 .
@@ -105,12 +105,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_pause_frame
 (
@@ -132,7 +132,7 @@ test_pause_frame
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -144,7 +144,7 @@ function
 packet
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -182,7 +182,7 @@ exception
 42
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -203,7 +203,7 @@ gClient
 }
 )
 ;
-gThreadClient
+gThreadFront
 .
 pauseOnExceptions
 (
@@ -211,7 +211,7 @@ true
 false
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

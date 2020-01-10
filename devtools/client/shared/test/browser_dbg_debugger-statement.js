@@ -93,7 +93,7 @@ client
 target
 ;
 const
-threadClient
+threadFront
 =
 await
 testEarlyDebuggerStatement
@@ -108,7 +108,7 @@ testDebuggerStatement
 (
 client
 tab
-threadClient
+threadFront
 )
 ;
 await
@@ -189,7 +189,7 @@ onPaused
 ;
 const
 [
-threadClient
+threadFront
 ]
 =
 await
@@ -200,7 +200,7 @@ attachThread
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -225,7 +225,7 @@ attached
 )
 ;
 return
-threadClient
+threadFront
 ;
 }
 async
@@ -234,7 +234,7 @@ testDebuggerStatement
 (
 client
 tab
-threadClient
+threadFront
 )
 {
 const
@@ -247,7 +247,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 on
 (
@@ -260,7 +260,7 @@ packet
 >
 {
 await
-threadClient
+threadFront
 .
 resume
 (

@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -44,7 +44,7 @@ packet
 await
 waitForPause
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -53,7 +53,7 @@ source
 await
 getSourceById
 (
-threadClient
+threadFront
 packet
 .
 frame
@@ -81,7 +81,7 @@ line0
 3
 }
 ;
-threadClient
+threadFront
 .
 setBreakpoint
 (
@@ -91,7 +91,7 @@ location
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -102,7 +102,7 @@ packet
 await
 waitForPause
 (
-threadClient
+threadFront
 )
 ;
 info
@@ -206,7 +206,7 @@ undefined
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (

@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -72,12 +72,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 testBlackBox
 (
@@ -143,7 +143,7 @@ await
 executeOnNextTickAndWaitForPause
 (
 evalCode
-gThreadClient
+gThreadFront
 )
 ;
 const
@@ -152,7 +152,7 @@ bpSource
 await
 getSourceById
 (
-gThreadClient
+gThreadFront
 packet
 .
 frame
@@ -165,7 +165,7 @@ actor
 await
 setBreakpoint
 (
-gThreadClient
+gThreadFront
 {
 sourceUrl
 :
@@ -181,7 +181,7 @@ line
 await
 resume
 (
-gThreadClient
+gThreadFront
 )
 ;
 let
@@ -190,7 +190,7 @@ sourceForm
 await
 getSourceForm
 (
-gThreadClient
+gThreadFront
 BLACK_BOXED_URL
 )
 ;
@@ -231,7 +231,7 @@ source
 await
 getSourceFormById
 (
-gThreadClient
+gThreadFront
 location
 .
 actor
@@ -279,7 +279,7 @@ source
 await
 getSourceFormById
 (
-gThreadClient
+gThreadFront
 frame
 .
 where
@@ -307,7 +307,7 @@ blackboxedSource
 await
 getSource
 (
-gThreadClient
+gThreadFront
 BLACK_BOXED_URL
 )
 ;
@@ -322,7 +322,7 @@ sourceForm
 await
 getSourceForm
 (
-gThreadClient
+gThreadFront
 BLACK_BOXED_URL
 )
 ;
@@ -351,7 +351,7 @@ source
 await
 getSourceFormById
 (
-gThreadClient
+gThreadFront
 location
 .
 actor
@@ -399,7 +399,7 @@ source
 await
 getSourceFormById
 (
-gThreadClient
+gThreadFront
 frame
 .
 where
@@ -455,7 +455,7 @@ sourceForm
 await
 getSourceForm
 (
-gThreadClient
+gThreadFront
 BLACK_BOXED_URL
 )
 ;
@@ -485,7 +485,7 @@ source
 await
 getSourceFormById
 (
-gThreadClient
+gThreadFront
 location
 .
 actor
@@ -533,7 +533,7 @@ source
 await
 getSourceFormById
 (
-gThreadClient
+gThreadFront
 frame
 .
 where
@@ -677,7 +677,7 @@ executeOnNextTickAndWaitForPause
 gDebuggee
 .
 runTest
-gThreadClient
+gThreadFront
 )
 ;
 Assert
@@ -697,7 +697,7 @@ breakpoint
 await
 stepIn
 (
-gThreadClient
+gThreadFront
 )
 ;
 const
@@ -719,7 +719,7 @@ packet
 await
 resumeAndWaitForPause
 (
-gThreadClient
+gThreadFront
 )
 ;
 Assert
@@ -744,7 +744,7 @@ frames
 await
 getFrames
 (
-gThreadClient
+gThreadFront
 0
 100
 )
@@ -758,7 +758,7 @@ frames
 return
 resume
 (
-gThreadClient
+gThreadFront
 )
 ;
 }
@@ -777,7 +777,7 @@ response
 await
 getFrames
 (
-gThreadClient
+gThreadFront
 0
 1
 )

@@ -80,7 +80,7 @@ function
 (
 threadResponse
 targetFront
-threadClient
+threadFront
 tabResponse
 )
 {
@@ -119,7 +119,7 @@ source
 await
 getSource
 (
-threadClient
+threadFront
 "
 test
 .
@@ -129,7 +129,7 @@ js
 ;
 setBreakpoint
 (
-threadClient
+threadFront
 {
 sourceUrl
 :
@@ -145,7 +145,7 @@ line
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 evalTestCode
@@ -185,7 +185,7 @@ functions
 [
 0
 ]
-threadClient
+threadFront
 )
 ;
 equal
@@ -227,9 +227,9 @@ executeOnNextTickAndWaitForPause
 >
 resume
 (
-threadClient
+threadFront
 )
-threadClient
+threadFront
 )
 ;
 equal
@@ -260,7 +260,7 @@ pause
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -275,7 +275,7 @@ functions
 [
 1
 ]
-threadClient
+threadFront
 )
 ;
 equal
@@ -317,9 +317,9 @@ executeOnNextTickAndWaitForPause
 >
 resume
 (
-threadClient
+threadFront
 )
-threadClient
+threadFront
 )
 ;
 equal

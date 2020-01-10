@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -105,12 +105,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_pause_frame
 (
@@ -132,7 +132,7 @@ test_pause_frame
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -163,7 +163,7 @@ args
 .
 actor
 ;
-gThreadClient
+gThreadFront
 .
 getFrames
 (
@@ -203,7 +203,7 @@ arguments
 actor
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

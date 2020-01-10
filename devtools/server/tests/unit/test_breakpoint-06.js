@@ -5,11 +5,11 @@ strict
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 (
 {
-threadClient
+threadFront
 debuggee
 }
 )
@@ -24,7 +24,7 @@ resolve
 =
 >
 {
-threadClient
+threadFront
 .
 once
 (
@@ -43,7 +43,7 @@ source
 await
 getSourceById
 (
-threadClient
+threadFront
 packet
 .
 frame
@@ -115,7 +115,7 @@ line
 1
 )
 ;
-threadClient
+threadFront
 .
 once
 (
@@ -127,18 +127,6 @@ function
 packet
 )
 {
-Assert
-.
-equal
-(
-packet
-.
-type
-"
-paused
-"
-)
-;
 Assert
 .
 equal
@@ -233,7 +221,7 @@ function
 response
 )
 {
-threadClient
+threadFront
 .
 resume
 (
@@ -250,7 +238,7 @@ resolve
 }
 )
 ;
-threadClient
+threadFront
 .
 resume
 (

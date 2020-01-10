@@ -32,7 +32,7 @@ const
 {
 tab
 toolbox
-threadClient
+threadFront
 target
 }
 =
@@ -60,7 +60,7 @@ bp1
 await
 setBreakpoint
 (
-threadClient
+threadFront
 "
 doc_rr_basic
 .
@@ -85,7 +85,7 @@ bp2
 await
 setBreakpoint
 (
-threadClient
+threadFront
 "
 doc_rr_basic
 .
@@ -108,7 +108,7 @@ bp3
 await
 setBreakpoint
 (
-threadClient
+threadFront
 "
 doc_rr_basic
 .
@@ -221,7 +221,7 @@ Number
 )
 ;
 await
-threadClient
+threadFront
 .
 interrupt
 (
@@ -240,12 +240,12 @@ number
 await
 reverseStepOverToLine
 (
-threadClient
+threadFront
 20
 )
 ;
 await
-threadClient
+threadFront
 .
 removeBreakpoint
 (
@@ -253,7 +253,7 @@ bp1
 )
 ;
 await
-threadClient
+threadFront
 .
 removeBreakpoint
 (
@@ -261,7 +261,7 @@ bp2
 )
 ;
 await
-threadClient
+threadFront
 .
 removeBreakpoint
 (

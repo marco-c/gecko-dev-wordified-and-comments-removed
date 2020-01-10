@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -105,12 +105,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_thread_lifetime
 (
@@ -132,7 +132,7 @@ test_thread_lifetime
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -189,7 +189,7 @@ error
 undefined
 )
 ;
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -269,7 +269,7 @@ noSuchActor
 "
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -324,7 +324,7 @@ thrown
 }
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (

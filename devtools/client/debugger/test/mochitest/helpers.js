@@ -151,7 +151,7 @@ dbg
 .
 toolbox
 .
-threadClient
+threadFront
 ;
 thread
 .
@@ -8668,11 +8668,11 @@ text
 )
 {
 const
-threadClient
+threadFront
 =
 target
 .
-threadClient
+threadFront
 ;
 const
 consoleFront
@@ -8693,7 +8693,7 @@ frames
 }
 =
 await
-threadClient
+threadFront
 .
 getFrames
 (
@@ -8722,7 +8722,7 @@ options
 {
 thread
 :
-threadClient
+threadFront
 .
 actor
 frameActor

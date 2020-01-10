@@ -176,7 +176,7 @@ javascript
 }
 ;
 const
-threadClient
+threadFront
 =
 {
 sourceContents
@@ -319,7 +319,7 @@ cx
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -500,7 +500,7 @@ cx
 =
 createStore
 (
-threadClient
+threadFront
 {
 }
 mockMaps
@@ -615,7 +615,7 @@ cx
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -776,7 +776,7 @@ cx
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -940,7 +940,7 @@ cx
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const

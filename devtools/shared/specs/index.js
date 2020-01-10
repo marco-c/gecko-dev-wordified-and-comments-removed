@@ -1510,11 +1510,9 @@ devtools
 /
 shared
 /
-client
+fronts
 /
 thread
--
-client
 "
 }
 {

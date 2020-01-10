@@ -781,7 +781,7 @@ string
 }
 _activeThread
 :
-ThreadClient
+ThreadFront
 actor
 :
 string
@@ -876,7 +876,7 @@ any
 ;
 export
 type
-ThreadClient
+ThreadFront
 =
 {
 resume

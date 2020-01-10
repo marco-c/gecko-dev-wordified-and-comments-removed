@@ -8,13 +8,13 @@ function
 testFinish
 (
 {
-threadClient
+threadFront
 debuggerClient
 }
 )
 {
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -37,7 +37,7 @@ invokeAndPause
 (
 {
 global
-threadClient
+threadFront
 }
 expression
 )
@@ -56,7 +56,7 @@ evalInSandbox
 expression
 global
 )
-threadClient
+threadFront
 )
 ;
 }
@@ -87,7 +87,7 @@ js
 ;
 const
 {
-threadClient
+threadFront
 }
 =
 dbg
@@ -109,13 +109,13 @@ sources
 await
 getSources
 (
-threadClient
+threadFront
 )
 ;
 const
 sourceFront
 =
-threadClient
+threadFront
 .
 source
 (
@@ -128,7 +128,7 @@ sources
 await
 setBreakpoint
 (
-threadClient
+threadFront
 {
 sourceUrl
 :
@@ -144,7 +144,7 @@ line
 await
 setBreakpoint
 (
-threadClient
+threadFront
 {
 sourceUrl
 :
@@ -190,7 +190,7 @@ range
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -202,7 +202,7 @@ paused
 await
 waitForPause
 (
-threadClient
+threadFront
 )
 ;
 equal
@@ -224,7 +224,7 @@ b
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -246,7 +246,7 @@ chaining
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -258,7 +258,7 @@ paused2
 await
 waitForPause
 (
-threadClient
+threadFront
 )
 ;
 equal

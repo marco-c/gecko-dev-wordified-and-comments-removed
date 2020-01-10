@@ -322,7 +322,7 @@ this
 .
 _toolbox
 .
-threadClient
+threadFront
 .
 getSources
 (

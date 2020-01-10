@@ -83,7 +83,7 @@ bootstrap
 :
 (
 {
-threadClient
+threadFront
 tabTarget
 debuggerClient
 workers
@@ -110,7 +110,7 @@ tabConnection
 :
 {
 tabTarget
-threadClient
+threadFront
 debuggerClient
 }
 }

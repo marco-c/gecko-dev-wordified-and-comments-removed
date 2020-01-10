@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 function
 run_test
@@ -105,12 +105,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_pause_frame
 (
@@ -203,7 +203,7 @@ const
 response
 =
 await
-gThreadClient
+gThreadFront
 .
 getFrames
 (
@@ -283,7 +283,7 @@ displayname
 ;
 }
 await
-gThreadClient
+gThreadFront
 .
 resume
 (
@@ -301,7 +301,7 @@ test_pause_frame
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (

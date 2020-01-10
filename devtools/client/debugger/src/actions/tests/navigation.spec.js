@@ -50,7 +50,7 @@ getFileSearchResults
 selectors
 ;
 const
-threadClient
+threadFront
 =
 {
 sourceContents
@@ -261,7 +261,7 @@ cx
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -450,7 +450,7 @@ getState
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 dispatch
@@ -541,7 +541,7 @@ cx
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 dispatch
@@ -634,7 +634,7 @@ cx
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 const
@@ -774,7 +774,7 @@ getState
 =
 createStore
 (
-threadClient
+threadFront
 )
 ;
 dispatch

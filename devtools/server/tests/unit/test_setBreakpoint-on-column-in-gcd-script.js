@@ -27,12 +27,12 @@ js
 ;
 add_task
 (
-threadClientTest
+threadFrontTest
 (
 async
 (
 {
-threadClient
+threadFront
 debuggee
 targetFront
 }
@@ -45,7 +45,7 @@ promise
 =
 waitForNewSource
 (
-threadClient
+threadFront
 SOURCE_URL
 )
 ;
@@ -107,7 +107,7 @@ column
 ;
 setBreakpoint
 (
-threadClient
+threadFront
 location
 )
 ;
@@ -149,7 +149,7 @@ true
 )
 ;
 }
-threadClient
+threadFront
 )
 ;
 const
@@ -279,7 +279,7 @@ undefined
 await
 resume
 (
-threadClient
+threadFront
 )
 ;
 }

@@ -82,7 +82,7 @@ true
 ;
 const
 {
-threadClient
+threadFront
 tab
 toolbox
 }
@@ -90,14 +90,14 @@ toolbox
 dbg
 ;
 await
-threadClient
+threadFront
 .
 interrupt
 (
 )
 ;
 await
-threadClient
+threadFront
 .
 resume
 (
@@ -149,7 +149,7 @@ unpaused
 )
 ;
 await
-threadClient
+threadFront
 .
 interrupt
 (
@@ -226,7 +226,7 @@ bp
 await
 setBreakpoint
 (
-threadClient
+threadFront
 "
 doc_inspector_basic
 .
@@ -238,7 +238,7 @@ html
 await
 rewindToLine
 (
-threadClient
+threadFront
 9
 )
 ;
@@ -308,7 +308,7 @@ text
 )
 ;
 await
-threadClient
+threadFront
 .
 removeBreakpoint
 (

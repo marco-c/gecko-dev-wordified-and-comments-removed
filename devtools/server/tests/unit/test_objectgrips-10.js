@@ -10,7 +10,7 @@ var
 gClient
 ;
 var
-gThreadClient
+gThreadFront
 ;
 Services
 .
@@ -105,12 +105,12 @@ function
 (
 response
 targetFront
-threadClient
+threadFront
 )
 {
-gThreadClient
+gThreadFront
 =
-threadClient
+threadFront
 ;
 test_object_grip
 (
@@ -132,7 +132,7 @@ test_object_grip
 (
 )
 {
-gThreadClient
+gThreadFront
 .
 once
 (
@@ -176,7 +176,7 @@ Object
 const
 personClient
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -250,7 +250,7 @@ Function
 const
 getNameClient
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -266,7 +266,7 @@ value
 const
 getAgeClient
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -282,7 +282,7 @@ value
 const
 getFooClient
 =
-gThreadClient
+gThreadFront
 .
 pauseGrip
 (
@@ -381,7 +381,7 @@ value
 10
 )
 ;
-gThreadClient
+gThreadFront
 .
 resume
 (
