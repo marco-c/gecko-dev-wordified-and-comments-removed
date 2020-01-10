@@ -760,6 +760,7 @@ num_return_values
 (
 ty
 )
+?
 )
 ;
 }
@@ -836,6 +837,7 @@ num_return_values
 (
 ty
 )
+?
 )
 ;
 builder
@@ -935,6 +937,7 @@ num_return_values
 (
 ty
 )
+?
 )
 ;
 }
@@ -7592,6 +7595,20 @@ Operator
 :
 :
 F64x2ConvertUI64x2
+|
+Operator
+:
+:
+V8x16Shuffle1
+|
+Operator
+:
+:
+V8x16Shuffle2Imm
+{
+.
+.
+}
 =
 >
 {

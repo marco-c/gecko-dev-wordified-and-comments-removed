@@ -3063,7 +3063,7 @@ cranelift
 codegen
 0
 .
-30
+32
 .
 0
 (
@@ -3083,7 +3083,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 "
@@ -3092,7 +3092,7 @@ cranelift
 wasm
 0
 .
-30
+32
 .
 0
 (
@@ -3112,7 +3112,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 "
@@ -8536,7 +8536,7 @@ version
 "
 0
 .
-30
+32
 .
 0
 "
@@ -8559,9 +8559,9 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 #
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 "
 dependencies
 =
@@ -8572,7 +8572,7 @@ cranelift
 entity
 0
 .
-30
+32
 .
 0
 (
@@ -8592,7 +8592,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 ]
@@ -8613,7 +8613,7 @@ version
 "
 0
 .
-30
+32
 .
 0
 "
@@ -8636,9 +8636,9 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 #
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 "
 dependencies
 =
@@ -8649,7 +8649,7 @@ cranelift
 bforest
 0
 .
-30
+32
 .
 0
 (
@@ -8669,7 +8669,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 "
@@ -8680,7 +8680,7 @@ codegen
 meta
 0
 .
-30
+32
 .
 0
 (
@@ -8700,7 +8700,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 "
@@ -8709,7 +8709,7 @@ cranelift
 entity
 0
 .
-30
+32
 .
 0
 (
@@ -8729,7 +8729,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 "
@@ -8870,7 +8870,7 @@ version
 "
 0
 .
-30
+32
 .
 0
 "
@@ -8893,9 +8893,9 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 #
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 "
 dependencies
 =
@@ -8906,7 +8906,7 @@ cranelift
 entity
 0
 .
-30
+32
 .
 0
 (
@@ -8926,7 +8926,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 ]
@@ -8947,7 +8947,7 @@ version
 "
 0
 .
-30
+32
 .
 0
 "
@@ -8970,9 +8970,9 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 #
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 "
 [
 [
@@ -8991,7 +8991,7 @@ version
 "
 0
 .
-30
+32
 .
 0
 "
@@ -9014,9 +9014,9 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 #
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 "
 dependencies
 =
@@ -9027,7 +9027,7 @@ cranelift
 codegen
 0
 .
-30
+32
 .
 0
 (
@@ -9047,7 +9047,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 "
@@ -9128,7 +9128,7 @@ version
 "
 0
 .
-30
+32
 .
 0
 "
@@ -9151,9 +9151,9 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 #
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 "
 dependencies
 =
@@ -9164,7 +9164,7 @@ cranelift
 codegen
 0
 .
-30
+32
 .
 0
 (
@@ -9184,7 +9184,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 "
@@ -9193,7 +9193,7 @@ cranelift
 entity
 0
 .
-30
+32
 .
 0
 (
@@ -9213,7 +9213,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 "
@@ -9222,7 +9222,7 @@ cranelift
 frontend
 0
 .
-30
+32
 .
 0
 (
@@ -9242,7 +9242,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 "
@@ -9336,7 +9336,7 @@ index
 wasmparser
 0
 .
-31
+32
 .
 1
 (
@@ -46404,7 +46404,7 @@ version
 "
 0
 .
-31
+32
 .
 1
 "
@@ -52845,7 +52845,7 @@ cranelift
 bforest
 0
 .
-30
+32
 .
 0
 (
@@ -52865,7 +52865,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 =
@@ -52881,7 +52881,7 @@ cranelift
 codegen
 0
 .
-30
+32
 .
 0
 (
@@ -52901,7 +52901,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 =
@@ -52919,7 +52919,7 @@ codegen
 meta
 0
 .
-30
+32
 .
 0
 (
@@ -52939,7 +52939,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 =
@@ -52955,7 +52955,7 @@ cranelift
 entity
 0
 .
-30
+32
 .
 0
 (
@@ -52975,7 +52975,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 =
@@ -52991,7 +52991,7 @@ cranelift
 frontend
 0
 .
-30
+32
 .
 0
 (
@@ -53011,7 +53011,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 =
@@ -53027,7 +53027,7 @@ cranelift
 wasm
 0
 .
-30
+32
 .
 0
 (
@@ -53047,7 +53047,7 @@ Cranelift
 ?
 rev
 =
-e455f6ae0f3577ceb210c0ce167181c33c133a69
+312516a69da03dc06eace32f61412389a8dcadf3
 )
 "
 =
@@ -62251,7 +62251,7 @@ checksum
 wasmparser
 0
 .
-31
+32
 .
 1
 (
@@ -62278,7 +62278,7 @@ index
 "
 =
 "
-8a6f324afc05fd8282bbc49dae854a1c20f74aeff10a575b5a43453d1864db97
+22d1801de30f112ddaf665291097694ee33a36d1cb414b53a921d05b3519674a
 "
 "
 checksum
