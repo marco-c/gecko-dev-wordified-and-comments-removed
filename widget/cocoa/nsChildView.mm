@@ -30199,10 +30199,10 @@ SCROLLMODE_INSTANT
 ;
 if
 (
-nsLayoutUtils
+StaticPrefs
 :
 :
-IsSmoothScrollingEnabled
+general_smoothScroll
 (
 )
 &

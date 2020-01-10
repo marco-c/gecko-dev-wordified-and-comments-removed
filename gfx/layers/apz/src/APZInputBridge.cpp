@@ -117,13 +117,6 @@ WheelHandlingHelper
 .
 h
 "
-#
-include
-"
-nsLayoutUtils
-.
-h
-"
 namespace
 mozilla
 {
@@ -662,10 +655,10 @@ SCROLLMODE_INSTANT
 ;
 if
 (
-nsLayoutUtils
+StaticPrefs
 :
 :
-IsSmoothScrollingEnabled
+general_smoothScroll
 (
 )
 &

@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 nsFont
 .
 h
@@ -5288,13 +5281,6 @@ i
 )
 ;
 }
-nsLayoutUtils
-:
-:
-RecomputeSmoothScrollingEnabled
-(
-)
-;
 }
 nsTArray
 <
