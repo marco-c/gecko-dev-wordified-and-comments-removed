@@ -76,6 +76,7 @@ decl_cdef_dir_fn
 dav1d_cdef_dir_ssse3
 )
 ;
+COLD
 void
 bitfn
 (

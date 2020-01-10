@@ -671,6 +671,7 @@ decl_itx_fn
 dav1d_inv_txfm_add_dct_dct_64x64_ssse3
 )
 ;
+COLD
 void
 bitfn
 (

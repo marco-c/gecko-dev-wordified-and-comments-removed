@@ -121,6 +121,15 @@ operating_point
 int
 all_layers
 ;
+unsigned
+frame_size_limit
+;
+uint8_t
+reserved
+[
+32
+]
+;
 Dav1dPicAllocator
 allocator
 ;

@@ -411,6 +411,9 @@ operating_point_idc
 int
 all_layers
 ;
+unsigned
+frame_size_limit
+;
 int
 drain
 ;

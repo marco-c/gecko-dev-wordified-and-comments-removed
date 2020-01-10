@@ -3799,6 +3799,7 @@ p_stride
 }
 }
 }
+COLD
 void
 bitfn
 (

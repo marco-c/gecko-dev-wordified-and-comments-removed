@@ -679,9 +679,6 @@ int
 left_has_bottom
 )
 {
-int
-n
-;
 init_edges
 (
 &
@@ -723,6 +720,7 @@ BL_16X16
 {
 for
 (
+int
 n
 =
 0
@@ -835,6 +833,7 @@ else
 {
 for
 (
+int
 n
 =
 0
@@ -954,6 +953,12 @@ struct
 ModeSelMem
 mem
 ;
+mem
+.
+nt
+=
+nt
+;
 if
 (
 allow_sb128
@@ -1003,12 +1008,6 @@ root
 +
 16
 ]
-;
-mem
-.
-nt
-=
-nt
 ;
 init_mode_node
 (
@@ -1136,12 +1135,6 @@ root
 +
 4
 ]
-;
-mem
-.
-nt
-=
-nt
 ;
 init_mode_node
 (

@@ -1,3 +1,13 @@
+!
+[
+dav1d
+logo
+]
+(
+dav1d_logo
+.
+png
+)
 #
 dav1d
 *

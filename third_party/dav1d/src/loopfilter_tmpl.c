@@ -2572,6 +2572,7 @@ HIGHBD_TAIL_SUFFIX
 }
 }
 }
+COLD
 void
 bitfn
 (

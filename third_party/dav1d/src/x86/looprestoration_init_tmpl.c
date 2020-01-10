@@ -21,15 +21,6 @@ include
 "
 common
 /
-attributes
-.
-h
-"
-#
-include
-"
-common
-/
 intops
 .
 h
@@ -1643,6 +1634,7 @@ avx2
 endif
 #
 endif
+COLD
 void
 bitfn
 (
