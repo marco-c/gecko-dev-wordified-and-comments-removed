@@ -2648,8 +2648,7 @@ mozilla
 dom
 :
 :
-BrowsingContext
-*
+WindowProxyHolder
 Window
 (
 )
@@ -2660,8 +2659,7 @@ mozilla
 dom
 :
 :
-BrowsingContext
-*
+WindowProxyHolder
 Self
 (
 )
@@ -2969,8 +2967,7 @@ mozilla
 dom
 :
 :
-BrowsingContext
-*
+WindowProxyHolder
 GetFrames
 (
 mozilla
