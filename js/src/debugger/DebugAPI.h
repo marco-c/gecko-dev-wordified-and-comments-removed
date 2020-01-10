@@ -75,6 +75,15 @@ class
 Debugger
 ;
 static
+void
+traceFramesWithLiveHooks
+(
+JSTracer
+*
+tracer
+)
+;
+static
 MOZ_MUST_USE
 bool
 markIteratively

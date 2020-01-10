@@ -2415,6 +2415,14 @@ trace
 trc
 )
 ;
+DebugAPI
+:
+:
+traceFramesWithLiveHooks
+(
+trc
+)
+;
 if
 (
 !
