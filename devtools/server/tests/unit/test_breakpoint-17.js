@@ -87,7 +87,6 @@ threadClientTest
 {
 threadClient
 debuggee
-client
 }
 )
 =
@@ -101,7 +100,7 @@ resolve
 =
 >
 {
-client
+threadClient
 .
 on
 (
@@ -141,7 +140,6 @@ first
 second
 threadClient
 debuggee
-client
 )
 ;
 resolve
@@ -348,7 +346,6 @@ first
 second
 threadClient
 debuggee
-client
 )
 {
 return
@@ -391,7 +388,7 @@ breakpoint
 let
 hitSecond
 ;
-client
+threadClient
 .
 on
 (
@@ -537,7 +534,7 @@ debuggerStatement
 "
 )
 {
-client
+threadClient
 .
 off
 (

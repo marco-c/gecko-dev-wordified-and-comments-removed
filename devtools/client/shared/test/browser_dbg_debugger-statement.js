@@ -247,7 +247,7 @@ resolve
 =
 >
 {
-client
+threadClient
 .
 on
 (

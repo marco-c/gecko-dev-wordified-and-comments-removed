@@ -35,7 +35,6 @@ async
 {
 threadClient
 debuggee
-client
 targetFront
 }
 )
@@ -60,7 +59,7 @@ resolve
 =
 >
 {
-client
+threadClient
 .
 on
 (
