@@ -5306,12 +5306,6 @@ AreAsyncAnimationsEnabled
 ;
 static
 bool
-IsAnimationLoggingEnabled
-(
-)
-;
-static
-bool
 AreRetainedDisplayListsEnabled
 (
 )
