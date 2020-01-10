@@ -88,7 +88,7 @@ cgi
 ?
 id
 =
-294258
+301397
 .
 xul
 -
@@ -101,7 +101,7 @@ title
 "
 Mozilla
 Bug
-294258
+301397
 "
 xmlns
 =
@@ -201,12 +201,12 @@ cgi
 ?
 id
 =
-294258
+301397
 "
 >
 Mozilla
 Bug
-294258
+301397
 <
 /
 a
@@ -284,7 +284,7 @@ CDATA
 Test
 for
 Bug
-294258
+301397
 *
 *
 /
@@ -299,12 +299,12 @@ window
 openDialog
 (
 "
-bug294258_window
+bug301397_window
 .
-xhtml
+xul
 "
 "
-bug294258
+bug301397
 "
 "
 chrome

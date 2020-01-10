@@ -88,7 +88,7 @@ cgi
 ?
 id
 =
-662200
+582176
 .
 xul
 -
@@ -101,7 +101,7 @@ title
 "
 Mozilla
 Bug
-662200
+582176
 "
 xmlns
 =
@@ -201,12 +201,12 @@ cgi
 ?
 id
 =
-662200
+582176
 "
 >
 Mozilla
 Bug
-662200
+582176
 <
 /
 a
@@ -284,7 +284,7 @@ CDATA
 Test
 for
 Bug
-662200
+582176
 *
 *
 /
@@ -299,12 +299,12 @@ window
 openDialog
 (
 "
-bug662200_window
+bug582176_window
 .
-xhtml
+xul
 "
 "
-bug662200
+bug582176
 "
 "
 chrome

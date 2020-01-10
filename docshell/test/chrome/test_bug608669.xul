@@ -494,7 +494,7 @@ location
 "
 bug608669
 .
-xhtml
+xul
 "
 ;
 chromeWindow
@@ -546,7 +546,7 @@ location
 "
 bug608669
 .
-xhtml
+xul
 ?
 x
 "

@@ -523,7 +523,7 @@ bug454235
 -
 subframe
 .
-xhtml
+xul
 "
 /
 >
@@ -550,7 +550,7 @@ bug454235
 -
 subframe
 .
-xhtml
+xul
 "
 /
 >
