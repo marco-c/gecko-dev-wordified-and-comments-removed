@@ -692,7 +692,7 @@ CheckScriptEvaluationWithCallback
 final
 :
 public
-WorkerRunnable
+WorkerDebuggeeRunnable
 {
 nsMainThreadPtrHandle
 <
@@ -738,9 +738,10 @@ LifeCycleEventCallback
 aScriptEvaluationCallback
 )
 :
-WorkerRunnable
+WorkerDebuggeeRunnable
 (
 aWorkerPrivate
+WorkerThreadModifyBusyCount
 )
 mServiceWorkerPrivate
 (
