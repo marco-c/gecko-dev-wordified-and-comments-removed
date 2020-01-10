@@ -675,10 +675,6 @@ JS
 CloneDataPolicy
 (
 )
-.
-denySharedArrayBuffer
-(
-)
 aRv
 )
 ;

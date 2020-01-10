@@ -497,6 +497,12 @@ START
 )
 ;
 }
+JS
+:
+:
+CloneDataPolicy
+clonePolicy
+;
 runnable
 -
 >
@@ -505,12 +511,7 @@ Write
 aCx
 aMessage
 transferable
-JS
-:
-:
-CloneDataPolicy
-(
-)
+clonePolicy
 aRv
 )
 ;

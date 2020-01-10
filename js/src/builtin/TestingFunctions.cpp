@@ -19888,6 +19888,12 @@ allow
 )
 )
 {
+policy
+.
+allowSharedMemory
+(
+)
+;
 }
 else
 if
@@ -19901,12 +19907,6 @@ deny
 )
 )
 {
-policy
-.
-denySharedArrayBuffer
-(
-)
-;
 }
 else
 {
