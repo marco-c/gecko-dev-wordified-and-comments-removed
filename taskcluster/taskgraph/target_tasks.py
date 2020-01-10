@@ -3177,11 +3177,11 @@ t
 _target_task
 (
 '
-nightly_geckoview
+ship_geckoview
 '
 )
 def
-target_tasks_nightly_geckoview
+target_tasks_ship_geckoview
 (
 full_task_graph
 parameters
