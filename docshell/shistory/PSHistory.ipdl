@@ -416,6 +416,13 @@ PSHEntry
 entry
 )
 ;
+sync
+EnsureCorrectEntryAtCurrIndex
+(
+PSHEntry
+entry
+)
+;
 async
 __delete__
 (

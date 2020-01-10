@@ -1596,5 +1596,16 @@ long
 aReloadFlags
 )
 ;
+[
+notxpcom
+]
+void
+EnsureCorrectEntryAtCurrIndex
+(
+in
+nsISHEntry
+aEntry
+)
+;
 }
 ;
