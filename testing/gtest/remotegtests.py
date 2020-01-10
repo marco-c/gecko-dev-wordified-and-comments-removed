@@ -91,6 +91,7 @@ build_environment
 self
 shuffle
 test_filter
+enable_webrender
 )
 :
         
@@ -254,6 +255,35 @@ GTEST_FILTER
 =
 test_filter
         
+if
+enable_webrender
+:
+            
+env
+[
+"
+MOZ_WEBRENDER
+"
+]
+=
+"
+1
+"
+        
+else
+:
+            
+env
+[
+"
+MOZ_WEBRENDER
+"
+]
+=
+"
+0
+"
+        
 return
 env
     
@@ -271,6 +301,7 @@ device_serial
 remote_test_root
 libxul_path
 symbols_path
+enable_webrender
 )
 :
         
@@ -598,6 +629,7 @@ build_environment
 (
 shuffle
 test_filter
+enable_webrender
 )
         
 args
@@ -2577,6 +2609,47 @@ files
 .
 "
 )
+        
+self
+.
+add_option
+(
+"
+-
+-
+enable
+-
+webrender
+"
+                        
+action
+=
+"
+store_true
+"
+                        
+dest
+=
+"
+enable_webrender
+"
+                        
+default
+=
+False
+                        
+help
+=
+"
+Enable
+the
+WebRender
+compositor
+in
+Gecko
+.
+"
+)
 def
 update_mozinfo
 (
@@ -2828,6 +2901,9 @@ libxul_path
 options
 .
 symbols_path
+options
+.
+enable_webrender
 )
     
 except
