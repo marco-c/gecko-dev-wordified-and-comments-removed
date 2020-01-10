@@ -347,17 +347,3 @@ value
 =
 My
 Themes
-customize
--
-mode
--
-touchbar
--
-cmd
-=
-.
-label
-=
-Customize
-Touch
-Bar
