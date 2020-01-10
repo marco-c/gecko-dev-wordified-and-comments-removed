@@ -1762,11 +1762,6 @@ BrowsingContext
 aRequestingContext
 )
 ;
-void
-Unregister
-(
-)
-;
 friend
 class
 :
