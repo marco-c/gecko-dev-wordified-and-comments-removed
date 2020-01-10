@@ -239,12 +239,6 @@ TextEditRules
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
-(
-HTMLEditRules
-TextEditRules
-)
 HTMLEditRules
 (
 )
@@ -533,6 +527,8 @@ virtual
 HTMLEditRules
 (
 )
+=
+default
 ;
 HTMLEditor
 &
@@ -2210,6 +2206,13 @@ mCachedStyles
 [
 SIZE_STYLE_TABLE
 ]
+;
+friend
+class
+NS_CYCLE_COLLECTION_CLASSNAME
+(
+TextEditRules
+)
 ;
 }
 ;
