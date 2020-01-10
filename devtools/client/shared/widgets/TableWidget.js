@@ -78,8 +78,6 @@ naturalSortCaseInsensitive
 "
 devtools
 /
-client
-/
 shared
 /
 natural

@@ -281,13 +281,6 @@ link
 js
 '
 '
-natural
--
-sort
-.
-js
-'
-'
 node
 -
 attribute

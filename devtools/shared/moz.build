@@ -400,6 +400,13 @@ Loader
 jsm
 '
 '
+natural
+-
+sort
+.
+js
+'
+'
 path
 .
 js
