@@ -1352,7 +1352,7 @@ return
 false
 ;
 }
-nsDependentCString
+nsDependentCSubstring
 dataCString
 (
 (
