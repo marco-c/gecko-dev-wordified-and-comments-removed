@@ -555,6 +555,7 @@ mHeadLevel
 0
 ;
 }
+static
 inline
 bool
 IsQuotedLine
@@ -645,6 +646,7 @@ nsAtom
 *
 aTag
 )
+const
 ;
 static
 bool
