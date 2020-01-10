@@ -85,6 +85,8 @@ TEST_LIB
 "
 :
 17530
+:
+42
 "
 attributes
 :
@@ -118,6 +120,8 @@ TEST_URL
 "
 :
 21
+:
+33
 "
 attributes
 :
@@ -169,6 +173,8 @@ TEST_LIB
 "
 :
 17530
+:
+42
 "
 attributes
 :
@@ -202,6 +208,8 @@ TEST_EXTERNAL_LISTENERS
 "
 :
 4
+:
+25
 "
 attributes
 :
@@ -254,6 +262,8 @@ TEST_LIB
 "
 :
 17530
+:
+42
 "
 attributes
 :
@@ -287,6 +297,8 @@ TEST_EXTERNAL_LISTENERS
 "
 :
 4
+:
+25
 "
 attributes
 :
@@ -327,6 +339,8 @@ TEST_URL
 "
 :
 21
+:
+33
 "
 attributes
 :
@@ -378,6 +392,8 @@ TEST_EXTERNAL_LISTENERS
 "
 :
 8
+:
+34
 "
 attributes
 :
