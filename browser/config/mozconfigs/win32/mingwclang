@@ -166,6 +166,15 @@ MOZ_COPY_PDBS
 =
 1
 #
+Bug
+1547519
+ac_add_options
+-
+-
+disable
+-
+jemalloc
+#
 This
 replicates
 Tor
