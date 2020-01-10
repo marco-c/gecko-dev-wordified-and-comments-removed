@@ -229,7 +229,7 @@ defined
 MOZ_SANDBOX
 )
 static
-void
+bool
 StaticFillMacSandboxInfo
 (
 MacSandboxInfo
@@ -314,7 +314,7 @@ return
 sLaunchWithMacSandbox
 ;
 }
-void
+bool
 FillMacSandboxInfo
 (
 MacSandboxInfo
