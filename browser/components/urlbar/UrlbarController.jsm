@@ -2012,7 +2012,7 @@ telemetryType
 tip
 "
 ;
-return
+break
 ;
 default
 :
