@@ -180,6 +180,15 @@ browser
 /
 schemas
 /
+normandyAddonStudy
+.
+json
+content
+/
+browser
+/
+schemas
+/
 omnibox
 .
 json
