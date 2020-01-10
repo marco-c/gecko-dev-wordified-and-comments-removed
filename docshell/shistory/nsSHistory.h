@@ -445,7 +445,10 @@ Reload
 (
 uint32_t
 aReloadFlags
+Maybe
+<
 LoadEntryResult
+>
 &
 aLoadResult
 )
