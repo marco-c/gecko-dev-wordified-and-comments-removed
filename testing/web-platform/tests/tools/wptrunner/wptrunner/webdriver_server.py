@@ -511,6 +511,18 @@ False
 )
 :
         
+self
+.
+logger
+.
+debug
+(
+"
+Stopping
+WebDriver
+"
+)
+        
 if
 self
 .
