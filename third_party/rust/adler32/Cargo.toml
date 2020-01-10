@@ -122,7 +122,7 @@ version
 .
 0
 .
-3
+4
 "
 authors
 =
@@ -192,12 +192,6 @@ rolling
 license
 =
 "
-BSD
--
-3
--
-Clause
-AND
 Zlib
 "
 repository
