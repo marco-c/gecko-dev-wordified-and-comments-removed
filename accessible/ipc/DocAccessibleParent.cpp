@@ -3234,12 +3234,6 @@ HYPERTEXT
 )
 ;
 }
-#
-if
-defined
-(
-XP_WIN
-)
 if
 (
 aChildDoc
@@ -3289,6 +3283,12 @@ if
 bridge
 )
 {
+#
+if
+defined
+(
+XP_WIN
+)
 RefPtr
 <
 IDispatch
@@ -3444,6 +3444,8 @@ nullptr
 )
 ;
 }
+#
+endif
 Unused
 <
 <
@@ -3458,8 +3460,6 @@ EVENT_REORDER
 ;
 }
 }
-#
-endif
 return
 IPC_OK
 (
