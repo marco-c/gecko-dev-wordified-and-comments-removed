@@ -110,6 +110,16 @@ nsMixedContentBlocker
 ;
 static
 bool
+IsPotentiallyTrustworthyLoopbackHost
+(
+const
+nsACString
+&
+aAsciiHost
+)
+;
+static
+bool
 IsPotentiallyTrustworthyLoopbackURL
 (
 nsIURI
