@@ -1666,6 +1666,9 @@ FxAccountsWebChannelHelpers
 fxAccounts
 :
 {
+_internal
+:
+{
 setSignedInUser
 (
 accountData
@@ -1738,6 +1741,7 @@ resolve
 }
 }
 }
+}
 )
 ;
 helpers
@@ -1796,6 +1800,9 @@ FxAccountsWebChannelHelpers
 fxAccounts
 :
 {
+_internal
+:
+{
 setSignedInUser
 (
 accountData
@@ -1846,6 +1853,7 @@ resolve
 }
 }
 }
+}
 )
 ;
 await
@@ -1890,6 +1898,9 @@ FxAccountsWebChannelHelpers
 (
 {
 fxAccounts
+:
+{
+_internal
 :
 {
 setSignedInUser
@@ -2089,6 +2100,7 @@ resolve
 }
 )
 ;
+}
 }
 }
 }
@@ -2298,6 +2310,9 @@ FxAccountsWebChannelHelpers
 fxAccounts
 :
 {
+_internal
+:
+{
 async
 setSignedInUser
 (
@@ -2309,6 +2324,7 @@ resolve
 accountData
 )
 ;
+}
 }
 }
 }
@@ -4112,6 +4128,9 @@ FxAccountsWebChannelHelpers
 fxAccounts
 :
 {
+_internal
+:
+{
 updateUserAccountData
 (
 credentials
@@ -4250,6 +4269,7 @@ resolve
 }
 }
 }
+}
 )
 ;
 await
@@ -4332,6 +4352,9 @@ FxAccountsWebChannelHelpers
 fxAccounts
 :
 {
+_internal
+:
+{
 updateUserAccountData
 (
 )
@@ -4367,6 +4390,7 @@ resolve
 (
 )
 ;
+}
 }
 }
 }

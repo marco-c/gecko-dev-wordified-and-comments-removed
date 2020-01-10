@@ -1715,6 +1715,8 @@ this
 .
 _fxAccounts
 .
+_internal
+.
 setSignedInUser
 (
 accountData
@@ -2098,6 +2100,8 @@ this
 .
 _fxAccounts
 .
+_internal
+.
 updateUserAccountData
 (
 newCredentials
@@ -2109,6 +2113,8 @@ await
 this
 .
 _fxAccounts
+.
+keys
 .
 getKeys
 (
@@ -2136,6 +2142,8 @@ await
 this
 .
 _fxAccounts
+.
+_internal
 .
 updateDeviceRegistration
 (

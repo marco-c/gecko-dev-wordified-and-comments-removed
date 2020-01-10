@@ -194,6 +194,11 @@ FxAccountsDevice
 jsm
 '
 '
+FxAccountsKeys
+.
+jsm
+'
+'
 FxAccountsOAuthGrantClient
 .
 jsm

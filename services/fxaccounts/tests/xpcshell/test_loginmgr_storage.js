@@ -404,6 +404,8 @@ true
 await
 fxa
 .
+_internal
+.
 setSignedInUser
 (
 creds
@@ -944,6 +946,8 @@ false
 await
 fxa
 .
+_internal
+.
 setSignedInUser
 (
 creds
@@ -1305,6 +1309,8 @@ false
 await
 fxa
 .
+_internal
+.
 setSignedInUser
 (
 creds1
@@ -1317,6 +1323,8 @@ false
 ;
 await
 fxa
+.
+_internal
 .
 setSignedInUser
 (

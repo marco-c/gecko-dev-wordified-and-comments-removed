@@ -170,14 +170,16 @@ option
 }
 this
 .
-fxa
+fxai
 =
 options
 .
-fxa
+fxai
 |
 |
 fxAccounts
+.
+_internal
 ;
 this
 .
@@ -288,7 +290,7 @@ token
 await
 this
 .
-fxa
+fxai
 .
 getOAuthToken
 (
@@ -374,7 +376,7 @@ retrying
 await
 this
 .
-fxa
+fxai
 .
 removeCachedOAuthToken
 (
@@ -388,7 +390,7 @@ token
 await
 this
 .
-fxa
+fxai
 .
 getOAuthToken
 (
@@ -464,7 +466,7 @@ failing
 await
 this
 .
-fxa
+fxai
 .
 removeCachedOAuthToken
 (

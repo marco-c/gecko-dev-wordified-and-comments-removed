@@ -273,7 +273,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 mockFxAccounts
 }
@@ -345,7 +345,7 @@ FxAccountsPushService
 pushService
 :
 failPushService
-fxAccounts
+fxai
 :
 mockFxAccounts
 }
@@ -388,7 +388,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 mockFxAccounts
 }
@@ -458,7 +458,7 @@ FxAccountsPushService
 pushService
 :
 failPushService
-fxAccounts
+fxai
 :
 mockFxAccounts
 }
@@ -604,7 +604,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 customAccounts
 }
@@ -719,7 +719,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 mockFxAccounts
 }
@@ -865,6 +865,8 @@ true
 }
 }
 )
+.
+_internal
 ;
 const
 deviceDisconnectedNotificationObserved
@@ -936,7 +938,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 fxAccountsMock
 }
@@ -1092,6 +1094,8 @@ true
 }
 }
 )
+.
+_internal
 ;
 const
 deviceDisconnectedNotificationObserved
@@ -1163,7 +1167,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 fxAccountsMock
 }
@@ -1251,7 +1255,7 @@ assign
 (
 mockFxAccounts
 {
-handleAccountDestroyed
+_handleAccountDestroyed
 (
 )
 {
@@ -1273,7 +1277,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 customAccounts
 }
@@ -1433,7 +1437,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 mockFxAccounts
 }
@@ -1538,7 +1542,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 mockFxAccounts
 }
@@ -1841,7 +1845,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 fxAccountsMock
 }
@@ -1902,7 +1906,7 @@ FxAccountsPushService
 pushService
 :
 mockPushService
-fxAccounts
+fxai
 :
 customAccounts
 }

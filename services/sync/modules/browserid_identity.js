@@ -1534,6 +1534,8 @@ this
 .
 _fxaService
 .
+_internal
+.
 now
 (
 )
@@ -1548,6 +1550,8 @@ return
 this
 .
 _fxaService
+.
+_internal
 .
 localtimeOffsetMsec
 ;
@@ -1835,6 +1839,8 @@ this
 .
 _fxaService
 .
+keys
+.
 canGetKeys
 (
 )
@@ -1927,6 +1933,8 @@ await
 this
 .
 _fxaService
+.
+keys
 .
 canGetKeys
 (
@@ -2146,6 +2154,8 @@ this
 .
 _fxaService
 .
+keys
+.
 canGetKeys
 (
 )
@@ -2249,6 +2259,8 @@ this
 .
 _fxaService
 .
+_internal
+.
 getAssertion
 (
 audience
@@ -2350,6 +2362,8 @@ this
 .
 _fxaService
 .
+keys
+.
 getKeys
 (
 )
@@ -2415,6 +2429,8 @@ await
 this
 .
 _fxaService
+.
+keys
 .
 invalidateCertificate
 (
