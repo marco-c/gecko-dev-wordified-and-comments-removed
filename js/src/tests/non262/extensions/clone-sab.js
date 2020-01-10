@@ -70,6 +70,13 @@ obj
 deserialize
 (
 y
+{
+SharedArrayBuffer
+:
+'
+allow
+'
+}
 )
 ;
 let

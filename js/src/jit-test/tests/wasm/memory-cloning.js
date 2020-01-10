@@ -109,6 +109,13 @@ allow
 '
 }
 )
+{
+SharedArrayBuffer
+:
+'
+allow
+'
+}
 )
 ;
 assertEq
@@ -455,6 +462,13 @@ buf2
 deserialize
 (
 clonedbuf
+{
+SharedArrayBuffer
+:
+'
+allow
+'
+}
 )
 ;
 assertEq
