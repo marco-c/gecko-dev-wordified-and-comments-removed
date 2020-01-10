@@ -2407,7 +2407,7 @@ JSProto_LIMIT
 *
 2
 +
-30
+28
 ;
 static
 constexpr

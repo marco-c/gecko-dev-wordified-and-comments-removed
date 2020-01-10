@@ -9703,6 +9703,10 @@ return
 false
 ;
 }
+protoKey
+=
+JSProto_GeneratorFunction
+;
 }
 else
 {

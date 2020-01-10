@@ -4610,13 +4610,11 @@ false
 if
 (
 !
-GlobalObject
-:
-:
-initGenerators
+EnsureConstructor
 (
 cx
 global
+JSProto_GeneratorFunction
 )
 )
 {
