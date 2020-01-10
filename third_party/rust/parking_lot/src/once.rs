@@ -501,13 +501,6 @@ state
 [
 cold
 ]
-#
-[
-inline
-(
-never
-)
-]
 fn
 call_once_slow
 (

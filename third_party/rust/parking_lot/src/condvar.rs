@@ -219,13 +219,6 @@ state
 [
 cold
 ]
-#
-[
-inline
-(
-never
-)
-]
 fn
 notify_one_slow
 (
@@ -429,13 +422,6 @@ state
 #
 [
 cold
-]
-#
-[
-inline
-(
-never
-)
 ]
 fn
 notify_all_slow

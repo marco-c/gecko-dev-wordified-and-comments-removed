@@ -131,13 +131,6 @@ create
 [
 cold
 ]
-#
-[
-inline
-(
-never
-)
-]
 fn
 create
 (

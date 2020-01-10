@@ -91,6 +91,14 @@ deadlock
 ;
 pub
 use
+:
+:
+lock_api
+as
+lock_api
+;
+pub
+use
 self
 :
 :
