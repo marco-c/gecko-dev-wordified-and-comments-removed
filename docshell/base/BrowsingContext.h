@@ -1416,7 +1416,7 @@ Transaction
 {
 public
 :
-void
+nsresult
 Commit
 (
 BrowsingContext
