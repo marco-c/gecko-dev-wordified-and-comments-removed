@@ -17398,6 +17398,10 @@ gdk_screen_is_composited
 (
 screen
 )
+&
+&
+!
+mIsPIPWindow
 )
 {
 if
