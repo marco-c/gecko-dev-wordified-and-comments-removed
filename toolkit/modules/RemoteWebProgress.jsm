@@ -1136,6 +1136,16 @@ this
 .
 _browser
 .
+_contentStoragePrincipal
+=
+json
+.
+storagePrincipal
+;
+this
+.
+_browser
+.
 _csp
 =
 E10SUtils
