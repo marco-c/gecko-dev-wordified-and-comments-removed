@@ -373,8 +373,7 @@ watchpointType
 const
 pauseAndRespond
 =
-(
-)
+type
 =
 >
 {
@@ -401,9 +400,7 @@ frame
 {
 type
 :
-"
-watchpoint
-"
+type
 message
 :
 label
@@ -476,6 +473,9 @@ makeDebuggeeValue
 {
 pauseAndRespond
 (
+"
+getWatchpoint
+"
 )
 ;
 return
@@ -532,6 +532,9 @@ v
 {
 pauseAndRespond
 (
+"
+setWatchpoint
+"
 )
 ;
 desc

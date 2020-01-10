@@ -317,6 +317,9 @@ perfActorVersion
 nativeLogpoints
 :
 true
+watchpoints
+:
+true
 hasThreadFront
 :
 true

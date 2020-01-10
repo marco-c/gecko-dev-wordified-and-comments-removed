@@ -1194,3 +1194,17 @@ breakpoints
 false
 )
 ;
+pref
+(
+"
+devtools
+.
+debugger
+.
+features
+.
+watchpoints
+"
+false
+)
+;

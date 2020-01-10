@@ -294,6 +294,12 @@ actor
 "
 ]
 )
+watchpoints
+:
+new
+Map
+(
+)
 }
 }
 )
