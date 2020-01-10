@@ -35,5 +35,7 @@ toctree
 maxdepth
 :
 2
-AddressBar
+urlbar
+/
+index
 BrowserUsageTelemetry
