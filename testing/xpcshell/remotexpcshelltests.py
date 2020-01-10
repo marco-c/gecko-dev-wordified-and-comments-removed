@@ -2582,6 +2582,19 @@ abi
 "
 )
         
+self
+.
+env
+[
+"
+MOZ_ANDROID_DATA_DIR
+"
+]
+=
+self
+.
+remoteBinDir
+        
 if
 self
 .
