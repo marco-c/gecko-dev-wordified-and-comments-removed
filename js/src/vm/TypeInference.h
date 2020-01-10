@@ -960,7 +960,7 @@ script
 void
 processPendingRecompiles
 (
-JSFreeOp
+FreeOp
 *
 fop
 RecompileInfoVector

@@ -88,7 +88,7 @@ static
 void
 sweepAll
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -108,7 +108,7 @@ inline
 void
 sweepBreakpoints
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript
@@ -120,7 +120,7 @@ static
 void
 destroyDebugScript
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript
@@ -736,7 +736,7 @@ static
 void
 sweepBreakpointsSlow
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript

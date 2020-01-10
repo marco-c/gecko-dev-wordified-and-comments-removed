@@ -1494,7 +1494,10 @@ static
 void
 finalize
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 JSObject

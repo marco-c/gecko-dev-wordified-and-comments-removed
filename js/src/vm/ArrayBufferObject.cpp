@@ -4503,7 +4503,7 @@ ArrayBufferObject
 :
 releaseData
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -7234,7 +7234,7 @@ ArrayBufferObject
 :
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

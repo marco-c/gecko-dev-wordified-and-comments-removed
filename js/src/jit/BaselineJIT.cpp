@@ -2589,7 +2589,7 @@ BaselineScript
 :
 Destroy
 (
-JSFreeOp
+FreeOp
 *
 fop
 BaselineScript
@@ -4764,7 +4764,7 @@ jit
 :
 FinishDiscardBaselineScript
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSScript

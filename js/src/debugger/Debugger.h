@@ -389,6 +389,9 @@ class
 DebuggerEnvironment
 ;
 class
+FreeOp
+;
+class
 PromiseObject
 ;
 namespace
@@ -2743,7 +2746,7 @@ obj
 void
 removeDebuggeeGlobal
 (
-JSFreeOp
+FreeOp
 *
 fop
 GlobalObject
@@ -4380,7 +4383,7 @@ static
 void
 detachAllDebuggersFromGlobal
 (
-JSFreeOp
+FreeOp
 *
 fop
 GlobalObject
@@ -4749,7 +4752,10 @@ virtual
 void
 drop
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 JSObject
@@ -4900,7 +4906,7 @@ virtual
 void
 recompile
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -4962,7 +4968,7 @@ type_
 void
 inc
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -4970,7 +4976,7 @@ fop
 void
 dec
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -4985,7 +4991,7 @@ virtual
 void
 destroyIfEmpty
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -5086,7 +5092,7 @@ True
 void
 destroy
 (
-JSFreeOp
+FreeOp
 *
 fop
 MayDestroySite
@@ -5162,7 +5168,7 @@ protected
 void
 recompile
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -5183,7 +5189,7 @@ pc
 void
 destroyIfEmpty
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -5248,7 +5254,7 @@ private
 void
 recompile
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -5271,7 +5277,7 @@ offset
 void
 destroyIfEmpty
 (
-JSFreeOp
+FreeOp
 *
 fop
 )

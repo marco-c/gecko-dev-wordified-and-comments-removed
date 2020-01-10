@@ -44,7 +44,7 @@ static
 void
 resc_finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

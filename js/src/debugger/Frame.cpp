@@ -748,7 +748,7 @@ ScriptedOnStepHandler
 :
 drop
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject
@@ -950,7 +950,7 @@ ScriptedOnPopHandler
 :
 drop
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject
@@ -1876,7 +1876,7 @@ DebuggerFrame
 :
 clearGenerator
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -2003,7 +2003,7 @@ DebuggerFrame
 :
 clearGenerator
 (
-JSFreeOp
+FreeOp
 *
 fop
 Debugger
@@ -3321,7 +3321,7 @@ return
 true
 ;
 }
-JSFreeOp
+FreeOp
 *
 fop
 =
@@ -3429,7 +3429,7 @@ handler
 prior
 )
 {
-JSFreeOp
+FreeOp
 *
 fop
 =
@@ -4938,7 +4938,7 @@ prior
 return
 ;
 }
-JSFreeOp
+FreeOp
 *
 fop
 =
@@ -5245,7 +5245,7 @@ DebuggerFrame
 :
 freeFrameIterData
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -5290,7 +5290,7 @@ DebuggerFrame
 :
 maybeDecrementFrameScriptStepperCount
 (
-JSFreeOp
+FreeOp
 *
 fop
 AbstractFramePtr
@@ -5399,7 +5399,7 @@ DebuggerFrame
 :
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

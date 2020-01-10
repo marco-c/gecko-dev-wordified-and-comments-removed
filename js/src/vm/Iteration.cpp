@@ -5194,7 +5194,7 @@ PropertyIteratorObject
 :
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

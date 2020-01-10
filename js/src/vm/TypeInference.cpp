@@ -13690,7 +13690,7 @@ TypeZone
 :
 processPendingRecompiles
 (
-JSFreeOp
+FreeOp
 *
 fop
 RecompileInfoVector
@@ -23419,7 +23419,7 @@ runtimeFromMainThread
 (
 )
 ;
-JSFreeOp
+FreeOp
 fop
 (
 rt

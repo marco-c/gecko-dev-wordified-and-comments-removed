@@ -131,6 +131,9 @@ class
 AbstractGeneratorObject
 ;
 class
+FreeOp
+;
+class
 GlobalObject
 ;
 struct
@@ -198,7 +201,10 @@ virtual
 void
 drop
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 JSObject
@@ -322,7 +328,10 @@ virtual
 void
 drop
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 fop
 JSObject
@@ -822,7 +831,7 @@ genObj
 void
 clearGenerator
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -830,7 +839,7 @@ fop
 void
 clearGenerator
 (
-JSFreeOp
+FreeOp
 *
 fop
 Debugger
@@ -889,7 +898,7 @@ static
 void
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject
@@ -1240,7 +1249,7 @@ Data
 void
 freeFrameIterData
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -1248,7 +1257,7 @@ fop
 void
 maybeDecrementFrameScriptStepperCount
 (
-JSFreeOp
+FreeOp
 *
 fop
 AbstractFramePtr

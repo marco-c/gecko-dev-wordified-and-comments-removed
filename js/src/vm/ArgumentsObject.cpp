@@ -5132,7 +5132,7 @@ ArgumentsObject
 :
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 JSObject

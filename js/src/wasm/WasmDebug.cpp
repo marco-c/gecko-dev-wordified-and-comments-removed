@@ -679,7 +679,7 @@ DebugState
 :
 decrementStepperCount
 (
-JSFreeOp
+FreeOp
 *
 fop
 uint32_t
@@ -1290,7 +1290,7 @@ DebugState
 :
 destroyBreakpointSite
 (
-JSFreeOp
+FreeOp
 *
 fop
 Instance
@@ -1355,7 +1355,7 @@ DebugState
 :
 clearBreakpointsIn
 (
-JSFreeOp
+FreeOp
 *
 fop
 WasmInstanceObject
@@ -1564,7 +1564,7 @@ DebugState
 :
 clearAllBreakpoints
 (
-JSFreeOp
+FreeOp
 *
 fop
 WasmInstanceObject

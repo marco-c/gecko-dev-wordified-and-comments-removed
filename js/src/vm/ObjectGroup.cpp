@@ -297,7 +297,7 @@ ObjectGroup
 :
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 )

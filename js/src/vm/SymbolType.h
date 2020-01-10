@@ -481,7 +481,10 @@ inline
 void
 finalize
 (
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 )
 {

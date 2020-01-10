@@ -5782,7 +5782,13 @@ p
 )
 {
 return
+FreeOp
+:
+:
+get
+(
 fop
+)
 -
 >
 freeUntracked

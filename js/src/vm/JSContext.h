@@ -649,7 +649,10 @@ js
 :
 ContextData
 <
-JSFreeOp
+js
+:
+:
+FreeOp
 >
 defaultFreeOp_
 ;
@@ -1275,7 +1278,10 @@ runtime_
 emptyString
 ;
 }
-JSFreeOp
+js
+:
+:
+FreeOp
 *
 defaultFreeOp
 (
@@ -5352,7 +5358,7 @@ get
 )
 )
 {
-JSFreeOp
+FreeOp
 *
 fop
 =
@@ -5387,7 +5393,7 @@ AutoSetThreadIsPerformingGC
 (
 )
 {
-JSFreeOp
+FreeOp
 *
 fop
 =

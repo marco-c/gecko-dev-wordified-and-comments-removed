@@ -44,6 +44,9 @@ namespace
 js
 {
 class
+FreeOp
+;
+class
 Nursery
 ;
 class
@@ -1115,7 +1118,7 @@ stats
 void
 queueForegroundObjectsForSweep
 (
-JSFreeOp
+FreeOp
 *
 fop
 )
@@ -1133,7 +1136,7 @@ releaseForegroundSweptEmptyArenas
 bool
 foregroundFinalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 AllocKind
@@ -1153,7 +1156,7 @@ static
 void
 backgroundFinalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 Arena
@@ -1192,7 +1195,7 @@ inline
 void
 queueForForegroundSweep
 (
-JSFreeOp
+FreeOp
 *
 fop
 const
@@ -1205,7 +1208,7 @@ inline
 void
 queueForBackgroundSweep
 (
-JSFreeOp
+FreeOp
 *
 fop
 const

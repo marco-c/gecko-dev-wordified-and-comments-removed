@@ -75,6 +75,9 @@ class
 AutoLockGCBgAlloc
 ;
 class
+FreeOp
+;
+class
 NurseryDecommitTask
 ;
 namespace
@@ -1690,7 +1693,7 @@ T
 size_t
 finalize
 (
-JSFreeOp
+FreeOp
 *
 fop
 AllocKind

@@ -1671,7 +1671,7 @@ js
 AutoSuppressAllocationMetadataBuilder
 suppressMetadata
 ;
-JSFreeOp
+FreeOp
 *
 freeOp
 ;
@@ -1715,7 +1715,7 @@ zone
 }
 AutoEnterAnalysis
 (
-JSFreeOp
+FreeOp
 *
 fop
 Zone
@@ -1801,7 +1801,7 @@ private
 void
 init
 (
-JSFreeOp
+FreeOp
 *
 fop
 Zone

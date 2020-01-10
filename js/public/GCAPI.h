@@ -58,6 +58,9 @@ Utility
 .
 h
 "
+struct
+JSFreeOp
+;
 #
 ifdef
 JS_BROKEN_GCC_ATTRIBUTE_WARNING

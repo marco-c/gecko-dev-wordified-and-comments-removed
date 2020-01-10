@@ -328,6 +328,9 @@ Vector
 h
 "
 struct
+JSFreeOp
+;
+struct
 JSFunctionSpec
 ;
 struct
