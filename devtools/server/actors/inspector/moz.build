@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 '
+constants
+.
+js
+'
+'
 css
 -
 logic
