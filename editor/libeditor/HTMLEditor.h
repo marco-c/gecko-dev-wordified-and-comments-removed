@@ -1611,7 +1611,7 @@ NodeIsBlockStatic
 (
 const
 nsINode
-*
+&
 aElement
 )
 ;
