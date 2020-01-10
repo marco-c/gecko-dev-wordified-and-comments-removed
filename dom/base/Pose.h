@@ -229,8 +229,6 @@ float
 aVal
 uint32_t
 aValLength
-bool
-bCreate
 ErrorResult
 &
 aRv

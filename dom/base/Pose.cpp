@@ -255,8 +255,6 @@ float
 aVal
 uint32_t
 aValLength
-bool
-bCreate
 ErrorResult
 &
 aRv
@@ -264,10 +262,6 @@ aRv
 {
 if
 (
-!
-bCreate
-|
-|
 !
 aVal
 )
