@@ -43,7 +43,11 @@ if
 (
 self
 .
+GLOBAL
+.
 isWorker
+(
+)
 )
 {
 idl_array
