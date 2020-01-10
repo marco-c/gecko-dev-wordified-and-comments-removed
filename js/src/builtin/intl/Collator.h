@@ -116,13 +116,6 @@ slot
 "
 )
 ;
-static
-constexpr
-size_t
-EstimatedMemoryUse
-=
-1128
-;
 UCollator
 *
 getCollator

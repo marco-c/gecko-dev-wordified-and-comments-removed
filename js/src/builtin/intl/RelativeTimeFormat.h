@@ -116,13 +116,6 @@ slot
 "
 )
 ;
-static
-constexpr
-size_t
-EstimatedMemoryUse
-=
-278
-;
 URelativeDateTimeFormatter
 *
 getRelativeDateTimeFormatter
