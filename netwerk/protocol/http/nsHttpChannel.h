@@ -2079,6 +2079,11 @@ ProcessCrossOriginHeader
 (
 )
 ;
+nsresult
+ProcessCrossOriginResourcePolicyHeader
+(
+)
+;
 MOZ_MUST_USE
 nsresult
 ProcessSingleSecurityHeader
