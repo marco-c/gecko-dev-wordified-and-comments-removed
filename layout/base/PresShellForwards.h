@@ -80,6 +80,12 @@ SuppressResizeEvent
 <
 <
 1
+SuppressReflow
+=
+1
+<
+<
+2
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS

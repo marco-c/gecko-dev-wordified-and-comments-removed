@@ -12607,8 +12607,6 @@ ResizeReflow
 (
 prefWidth
 aMaxHeight
-0
-0
 ResizeReflowOptions
 :
 :
