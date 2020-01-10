@@ -260,6 +260,15 @@ unwrappedStream
 )
 ;
 extern
+void
+WritableStreamMarkFirstWriteRequestInFlight
+(
+WritableStream
+*
+unwrappedStream
+)
+;
+extern
 MOZ_MUST_USE
 bool
 WritableStreamUpdateBackpressure
