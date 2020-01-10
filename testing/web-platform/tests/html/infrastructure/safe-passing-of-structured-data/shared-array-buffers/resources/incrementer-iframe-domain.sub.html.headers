@@ -17,6 +17,6 @@ Resource
 -
 Policy
 :
-cross
+same
 -
 site
