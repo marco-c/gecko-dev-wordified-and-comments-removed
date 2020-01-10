@@ -91,11 +91,6 @@ mozilla
 neqo
 "
 ]
-branch
-=
-"
-master
-"
 git
 =
 "
@@ -119,6 +114,11 @@ with
 vendored
 -
 sources
+"
+rev
+=
+"
+a17c1e83
 "
 [
 source
