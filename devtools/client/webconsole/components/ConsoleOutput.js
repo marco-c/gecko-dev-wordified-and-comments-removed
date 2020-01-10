@@ -95,7 +95,6 @@ const
 getAllMessagesById
 getAllMessagesUiById
 getAllMessagesPayloadById
-getAllMessagesTableDataById
 getAllNetworkMessagesUpdateById
 getVisibleMessages
 getPausedExecutionPoint
@@ -462,13 +461,6 @@ PropTypes
 .
 bool
 messagesPayload
-:
-PropTypes
-.
-object
-.
-isRequired
-messagesTableData
 :
 PropTypes
 .
@@ -983,7 +975,6 @@ visibleMessages
 messages
 messagesUi
 messagesPayload
-messagesTableData
 messagesRepeat
 warningGroups
 isInWarningGroup
@@ -1080,14 +1071,6 @@ messageId
 payload
 :
 messagesPayload
-.
-get
-(
-messageId
-)
-tableData
-:
-messagesTableData
 .
 get
 (
@@ -1331,12 +1314,6 @@ state
 messagesPayload
 :
 getAllMessagesPayloadById
-(
-state
-)
-messagesTableData
-:
-getAllMessagesTableDataById
 (
 state
 )

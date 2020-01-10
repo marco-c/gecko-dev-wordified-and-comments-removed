@@ -343,7 +343,7 @@ dispatch
 (
 actions
 .
-messageTableDataGet
+messageGetTableData
 (
 id
 client

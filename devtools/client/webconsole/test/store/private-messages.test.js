@@ -6,7 +6,7 @@ strict
 const
 {
 getAllMessagesUiById
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 getAllNetworkMessagesUpdateById
 getAllRepeatById
 getCurrentGroup
@@ -574,7 +574,7 @@ it
 (
 "
 cleans
-messagesTableDataById
+messagesPayloadById
 on
 PRIVATE_MESSAGES_CLEAR
 action
@@ -673,7 +673,7 @@ dispatch
 (
 actions
 .
-messageTableDataReceive
+messageUpdatePayload
 (
 getFirstMessage
 (
@@ -691,7 +691,7 @@ dispatch
 (
 actions
 .
-messageTableDataReceive
+messageUpdatePayload
 (
 getLastMessage
 (
@@ -714,7 +714,7 @@ getState
 ;
 expect
 (
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 (
 state
 )
@@ -744,7 +744,7 @@ getState
 ;
 expect
 (
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 (
 state
 )
@@ -759,7 +759,7 @@ toBe
 ;
 expect
 (
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 (
 state
 )

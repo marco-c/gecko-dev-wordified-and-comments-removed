@@ -6,7 +6,7 @@ strict
 const
 {
 getAllMessagesUiById
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 getAllNetworkMessagesUpdateById
 getAllRepeatById
 getCurrentGroup
@@ -2180,7 +2180,7 @@ toBe
 ;
 expect
 (
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 (
 state
 )
@@ -7499,7 +7499,7 @@ toEqual
 describe
 (
 "
-messagesTableDataById
+messagesPayloadById
 "
 (
 )
@@ -7510,7 +7510,7 @@ it
 (
 "
 resets
-messagesTableDataById
+messagesPayloadById
 in
 response
 to
@@ -7566,7 +7566,7 @@ dispatch
 (
 actions
 .
-messageTableDataReceive
+messageUpdatePayload
 (
 getFirstMessage
 (
@@ -7583,7 +7583,7 @@ data
 const
 table
 =
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 (
 getState
 (
@@ -7635,7 +7635,7 @@ messagesClear
 ;
 expect
 (
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 (
 getState
 (
@@ -7658,7 +7658,7 @@ it
 "
 cleans
 the
-messagesTableDataById
+messagesPayloadById
 property
 when
 messages
@@ -7805,7 +7805,7 @@ dispatch
 (
 actions
 .
-messageTableDataReceive
+messageUpdatePayload
 (
 id1
 tableData1
@@ -7816,7 +7816,7 @@ dispatch
 (
 actions
 .
-messageTableDataReceive
+messageUpdatePayload
 (
 id2
 tableData2
@@ -7826,7 +7826,7 @@ tableData2
 let
 table
 =
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 (
 getState
 (
@@ -7871,7 +7871,7 @@ undefined
 ;
 table
 =
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 (
 getState
 (
@@ -7936,7 +7936,7 @@ test
 ;
 expect
 (
-getAllMessagesTableDataById
+getAllMessagesPayloadById
 (
 getState
 (

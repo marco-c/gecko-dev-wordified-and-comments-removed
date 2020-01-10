@@ -274,11 +274,6 @@ payload
 PropTypes
 .
 object
-tableData
-:
-PropTypes
-.
-object
 timestampsVisible
 :
 PropTypes
@@ -364,9 +359,6 @@ open
 "
 "
 payload
-"
-"
-tableData
 "
 "
 timestampsVisible
