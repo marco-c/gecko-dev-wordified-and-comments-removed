@@ -336,6 +336,11 @@ averageRtcpInterval
 unsigned
 long
 long
+headerBytesReceived
+;
+unsigned
+long
+long
 fecPacketsReceived
 ;
 unsigned
@@ -519,6 +524,11 @@ rid
 ;
 DOMHighResTimeStamp
 lastPacketSentTimestamp
+;
+unsigned
+long
+long
+headerBytesSent
 ;
 unsigned
 long
