@@ -444,7 +444,7 @@ JS
 :
 Rooted
 <
-JSFlatString
+JSLinearString
 *
 >
 str
@@ -1041,7 +1041,7 @@ size_t
 N
 >
 static
-JSFlatString
+JSLinearString
 *
 NewString
 (
