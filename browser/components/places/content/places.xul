@@ -2985,6 +2985,8 @@ flex
 /
 >
 <
+search
+-
 textbox
 id
 =
@@ -2995,13 +2997,6 @@ flex
 =
 "
 1
-"
-is
-=
-"
-search
--
-textbox
 "
 aria
 -
@@ -3028,10 +3023,7 @@ collection
 "
 bookmarks
 "
->
-<
 /
-textbox
 >
 <
 toolbarbutton

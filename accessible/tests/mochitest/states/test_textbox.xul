@@ -1093,6 +1093,8 @@ true
 /
 >
 <
+search
+-
 textbox
 id
 =
@@ -1104,13 +1106,6 @@ flex
 "
 1
 "
-is
-=
-"
-search
--
-textbox
-"
 results
 =
 "
@@ -1119,6 +1114,8 @@ historyTree
 /
 >
 <
+search
+-
 textbox
 id
 =
@@ -1133,13 +1130,6 @@ all
 add
 -
 ons
-"
-is
-=
-"
-search
--
-textbox
 "
 searchbutton
 =

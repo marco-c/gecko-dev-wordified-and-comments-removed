@@ -582,16 +582,9 @@ target
 closest
 (
 "
-textbox
-[
-is
-=
-'
 search
 -
 textbox
-'
-]
 "
 )
 )

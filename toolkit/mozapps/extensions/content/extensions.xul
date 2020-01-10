@@ -2008,6 +2008,8 @@ search
 /
 >
 <
+search
+-
 textbox
 id
 =
@@ -2015,13 +2017,6 @@ id
 header
 -
 search
-"
-is
-=
-"
-search
--
-textbox
 "
 searchbutton
 =
@@ -2046,6 +2041,7 @@ l10n
 attrs
 =
 "
+placeholder
 searchbuttonlabel
 "
 maxlength

@@ -73,14 +73,9 @@ xul
 hbox
 >
 <
-textbox
-is
-=
-"
 search
 -
 textbox
-"
 width
 =
 "

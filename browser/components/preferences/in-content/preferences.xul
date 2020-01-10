@@ -2230,14 +2230,9 @@ hbox
 hbox
 >
 <
-textbox
-is
-=
-"
 search
 -
 textbox
-"
 id
 =
 "
@@ -2263,6 +2258,7 @@ l10n
 attrs
 =
 "
+placeholder
 style
 "
 hidden

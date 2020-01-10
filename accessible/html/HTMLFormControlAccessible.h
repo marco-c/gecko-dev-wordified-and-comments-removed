@@ -391,6 +391,8 @@ Closest
 NS_LITERAL_STRING
 (
 "
+search
+-
 textbox
 "
 )

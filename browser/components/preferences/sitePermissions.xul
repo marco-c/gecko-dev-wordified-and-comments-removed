@@ -493,6 +493,8 @@ start
 "
 >
 <
+search
+-
 textbox
 id
 =
@@ -515,12 +517,14 @@ permissions
 -
 searchbox
 "
-is
+data
+-
+l10n
+-
+attrs
 =
 "
-search
--
-textbox
+placeholder
 "
 oncommand
 =
