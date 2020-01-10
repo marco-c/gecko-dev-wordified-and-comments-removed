@@ -9337,11 +9337,6 @@ data_stores
 .
 clip
 true
-prim_instance
-.
-is_chased
-(
-)
 )
 ;
 if
@@ -16925,11 +16920,6 @@ data_stores
 .
 clip
 false
-self
-.
-is_chased
-(
-)
 )
 ;
 let
