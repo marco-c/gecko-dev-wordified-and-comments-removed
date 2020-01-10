@@ -1772,6 +1772,15 @@ aReflowStatus
 IsComplete
 (
 )
+&
+&
+!
+mFrame
+-
+>
+HasColumnSpanSiblings
+(
+)
 )
 {
 aBEndMarginResult
