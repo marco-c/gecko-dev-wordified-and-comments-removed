@@ -3516,6 +3516,15 @@ childContent
 ;
 }
 }
+Element
+*
+GetDeepestEditableOnlyChildDivBlockquoteOrListElement
+(
+nsINode
+&
+aNode
+)
+;
 protected
 :
 virtual
