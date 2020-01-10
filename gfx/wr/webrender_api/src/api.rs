@@ -5376,6 +5376,14 @@ OBSCURE_IMAGES
 <
 24
 ;
+const
+GLYPH_FLASHING
+=
+1
+<
+<
+25
+;
 /
 /
 /
