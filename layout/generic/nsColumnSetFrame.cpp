@@ -4362,14 +4362,8 @@ NS_UNCONSTRAINEDSIZE
 &
 &
 !
-GetProperty
-(
-nsIFrame
-:
-:
 HasColumnSpanSiblings
 (
-)
 )
 )
 {

@@ -37057,14 +37057,8 @@ FirstInFlow
 )
 -
 >
-GetProperty
-(
-nsIFrame
-:
-:
 HasColumnSpanSiblings
 (
-)
 )
 )
 {
