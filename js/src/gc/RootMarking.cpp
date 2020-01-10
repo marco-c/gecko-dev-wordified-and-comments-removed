@@ -2039,12 +2039,7 @@ for
 GCZonesIter
 zone
 (
-trc
--
->
-runtime
-(
-)
+this
 )
 ;
 !
@@ -2306,7 +2301,7 @@ for
 ZonesIter
 zone
 (
-rt
+this
 ZoneSelector
 :
 :
@@ -2959,7 +2954,7 @@ for
 GCZonesIter
 zone
 (
-rt
+this
 )
 ;
 !
@@ -3362,7 +3357,6 @@ GCRuntime
 resetBufferedGrayRoots
 (
 )
-const
 {
 MOZ_ASSERT
 (
@@ -3395,7 +3389,7 @@ for
 GCZonesIter
 zone
 (
-rt
+this
 )
 ;
 !
