@@ -322,6 +322,11 @@ ParseNode
 cpp
 '
 '
+ParseNodeVerify
+.
+cpp
+'
+'
 PropOpEmitter
 .
 cpp
