@@ -314,7 +314,7 @@ content
 '
 )
 ;
-assert_equals
+assert_true
 (
 message
 .
@@ -326,13 +326,15 @@ records
 arrayBuffer
 (
 )
-null
+instanceof
+ArrayBuffer
 '
 arrayBuffer
 (
 )
 returns
-null
+an
+ArrayBuffer
 '
 )
 ;
