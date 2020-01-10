@@ -271,6 +271,11 @@ TESTING_JS_MODULES
 =
 [
 '
+SearchEngineSelector
+.
+jsm
+'
+'
 tests
 /
 SearchTestUtils
