@@ -9672,6 +9672,10 @@ return
 false
 ;
 }
+protoKey
+=
+JSProto_AsyncFunction
+;
 }
 }
 else
