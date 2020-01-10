@@ -10067,6 +10067,7 @@ wrHost
 >
 SetWrBridge
 (
+aPipelineId
 this
 )
 ;
@@ -10201,6 +10202,7 @@ wrHost
 >
 ClearWrBridge
 (
+aPipelineId
 this
 )
 ;
@@ -14277,6 +14279,7 @@ host
 >
 ClearWrBridge
 (
+pipelineId
 this
 )
 ;
