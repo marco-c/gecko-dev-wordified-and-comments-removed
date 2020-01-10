@@ -420,6 +420,11 @@ RenderCompositorEGL
 .
 h
 '
+'
+RenderWaylandDMABUFTextureHostOGL
+.
+h
+'
 ]
 SOURCES
 +
@@ -427,6 +432,11 @@ SOURCES
 [
 '
 RenderCompositorEGL
+.
+cpp
+'
+'
+RenderWaylandDMABUFTextureHostOGL
 .
 cpp
 '
