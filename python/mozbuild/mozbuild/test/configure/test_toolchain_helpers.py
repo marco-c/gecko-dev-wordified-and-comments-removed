@@ -117,6 +117,8 @@ __has_
 feature
 |
 builtin
+|
+attribute
 )
 )
 \
