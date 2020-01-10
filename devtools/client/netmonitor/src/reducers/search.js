@@ -184,6 +184,13 @@ action
 )
 {
 const
+{
+resource
+}
+=
+action
+;
+const
 results
 =
 state
@@ -199,10 +206,6 @@ results
 push
 (
 {
-resource
-:
-action
-.
 resource
 results
 :

@@ -337,7 +337,6 @@ addSearchResult
 (
 resource
 result
-query
 )
 )
 ;

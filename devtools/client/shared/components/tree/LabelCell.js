@@ -96,6 +96,11 @@ PropTypes
 string
 .
 isRequired
+title
+:
+PropTypes
+.
+string
 member
 :
 PropTypes
@@ -123,6 +128,15 @@ this
 props
 .
 id
+;
+const
+title
+=
+this
+.
+props
+.
+title
 ;
 const
 member
@@ -233,6 +247,7 @@ className
 "
 treeLabelCell
 "
+title
 style
 :
 {
@@ -305,6 +320,7 @@ type
 "
 Label
 "
+title
 "
 aria
 -
