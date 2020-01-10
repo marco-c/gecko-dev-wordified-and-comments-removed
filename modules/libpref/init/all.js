@@ -1708,16 +1708,6 @@ pref
 "
 ui
 .
-use_native_colors
-"
-true
-)
-;
-pref
-(
-"
-ui
-.
 click_hold_context_menus
 "
 false
