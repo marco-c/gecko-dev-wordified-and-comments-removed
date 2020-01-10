@@ -549,13 +549,13 @@ mRsvBit3
 WriteParam
 (
 aMessage
-mOpCode
+mMaskBit
 )
 ;
 WriteParam
 (
 aMessage
-mMaskBit
+mOpCode
 )
 ;
 WriteParam
