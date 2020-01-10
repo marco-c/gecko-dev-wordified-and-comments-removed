@@ -7347,6 +7347,11 @@ case
 WM_KILLFOCUS
 :
 {
+if
+(
+mPluginHWND
+)
+{
 wchar_t
 szClass
 [
@@ -7398,6 +7403,7 @@ kFlashFullscreenClass
 return
 0
 ;
+}
 }
 }
 break
