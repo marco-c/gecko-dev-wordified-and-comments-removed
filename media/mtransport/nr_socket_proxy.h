@@ -230,6 +230,17 @@ aSocket
 )
 override
 ;
+bool
+IsProxied
+(
+)
+const
+override
+{
+return
+true
+;
+}
 void
 OnClose
 (

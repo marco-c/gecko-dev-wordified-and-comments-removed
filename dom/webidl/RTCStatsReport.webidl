@@ -669,6 +669,12 @@ ChromeOnly
 DOMString
 transportId
 ;
+[
+ChromeOnly
+]
+DOMString
+proxied
+;
 }
 ;
 /
