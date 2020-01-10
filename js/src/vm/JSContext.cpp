@@ -6412,11 +6412,6 @@ propagatingForcedReturn_
 this
 false
 )
-liveVolatileJitFrameIter_
-(
-this
-nullptr
-)
 reportGranularity
 (
 this
