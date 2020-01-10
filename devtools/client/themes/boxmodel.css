@@ -697,6 +697,12 @@ align
 :
 center
 ;
+z
+-
+index
+:
+1
+;
 }
 .
 boxmodel
@@ -860,6 +866,12 @@ line
 height
 :
 80px
+;
+z
+-
+index
+:
+1
 ;
 }
 .
