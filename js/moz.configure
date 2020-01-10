@@ -3645,8 +3645,6 @@ default
 milestone
 .
 is_nightly
-&
-js_standalone
 help
 =
 '
