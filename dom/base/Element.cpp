@@ -5685,11 +5685,6 @@ IsHTMLElement
 &
 !
 (
-XRE_IsParentProcess
-(
-)
-&
-&
 IsXULElement
 (
 )
