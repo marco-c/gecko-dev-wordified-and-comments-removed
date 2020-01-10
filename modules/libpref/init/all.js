@@ -43327,16 +43327,6 @@ true
 pref
 (
 "
-security
-.
-block_ftp_subresources
-"
-true
-)
-;
-pref
-(
-"
 dom
 .
 storageManager

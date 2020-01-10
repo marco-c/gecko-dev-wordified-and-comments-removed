@@ -452,12 +452,6 @@ BlockToplevelDataUriNavigations
 (
 )
 ;
-static
-bool
-BlockFTPSubresources
-(
-)
-;
 void
 IncrementRequestNumber
 (
@@ -952,10 +946,6 @@ sIsDataURIUniqueOpaqueOrigin
 static
 bool
 sBlockToplevelDataUriNavigations
-;
-static
-bool
-sBlockFTPSubresources
 ;
 uint32_t
 mTotalRequests
