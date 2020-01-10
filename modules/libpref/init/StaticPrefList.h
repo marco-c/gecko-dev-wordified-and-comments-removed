@@ -15438,7 +15438,7 @@ slider
 .
 snapMultiplier
 "
-SliderSnapMultiplier
+slider_snapMultiplier
 int32_t
 #
 ifdef
