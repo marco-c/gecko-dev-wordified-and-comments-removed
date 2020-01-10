@@ -25,3 +25,11 @@ symbols
 =
 -
 g1
+ac_add_options
+-
+-
+enable
+-
+rust
+-
+tests
