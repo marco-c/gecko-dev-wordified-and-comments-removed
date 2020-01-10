@@ -218,6 +218,12 @@ XREAddonAppDir
 "
 #
 define
+XRE_USER_RUNTIME_DIR
+"
+XREUserRunTimeDir
+"
+#
+define
 XRE_UPDATE_ROOT_DIR
 "
 UpdRootD
