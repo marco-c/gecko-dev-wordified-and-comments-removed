@@ -193,14 +193,10 @@ delta
 }
 renderFinalOutline
 (
-mainFinalSize
-mainMaxSize
-mainMinSize
 isClamped
 )
 {
 return
-(
 dom
 .
 div
@@ -228,7 +224,6 @@ clamped
 )
 }
 )
-)
 ;
 }
 renderPoint
@@ -240,11 +235,15 @@ className
 )
 {
 return
+(
 dom
 .
 div
 (
 {
+key
+:
+className
 className
 :
 flex
@@ -263,6 +262,7 @@ label
 :
 label
 }
+)
 )
 ;
 }
@@ -864,9 +864,6 @@ this
 .
 renderFinalOutline
 (
-mainFinalSize
-mainMaxSize
-mainMinSize
 clampState
 !
 =
