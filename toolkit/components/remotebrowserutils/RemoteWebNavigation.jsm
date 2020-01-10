@@ -722,12 +722,13 @@ this
 .
 _browser
 .
-messageManager
-.
-sendAsyncMessage
+sendMessageToActor
 (
 aMessage
 aData
+"
+WebNavigation
+"
 )
 ;
 }
