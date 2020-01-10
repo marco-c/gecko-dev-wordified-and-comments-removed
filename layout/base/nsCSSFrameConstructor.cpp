@@ -50899,9 +50899,6 @@ return
 true
 ;
 }
-return
-false
-;
 }
 do
 {
