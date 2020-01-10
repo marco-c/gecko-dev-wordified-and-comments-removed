@@ -18,15 +18,11 @@ jsm
 ;
 import
 {
-mountWithIntl
+mount
 }
 from
 "
-test
-/
-unit
-/
-utils
+enzyme
 "
 ;
 import
@@ -127,7 +123,7 @@ stub
 ;
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 StartupOverlay
@@ -242,7 +238,7 @@ useFakeTimers
 ;
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 StartupOverlay

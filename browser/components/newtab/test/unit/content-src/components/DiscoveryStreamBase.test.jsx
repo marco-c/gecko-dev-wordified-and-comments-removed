@@ -21,7 +21,6 @@ DiscoveryStreamBase
 import
 {
 GlobalOverrider
-shallowWithIntl
 }
 from
 "
@@ -168,6 +167,15 @@ React
 from
 "
 react
+"
+;
+import
+{
+shallow
+}
+from
+"
+enzyme
 "
 ;
 import
@@ -717,7 +725,7 @@ props
 }
 ;
 return
-shallowWithIntl
+shallow
 (
 <
 DiscoveryStreamBase

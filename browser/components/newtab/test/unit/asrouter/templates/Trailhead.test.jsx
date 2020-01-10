@@ -47,8 +47,6 @@ react
 ;
 import
 {
-_Trailhead
-as
 Trailhead
 }
 from

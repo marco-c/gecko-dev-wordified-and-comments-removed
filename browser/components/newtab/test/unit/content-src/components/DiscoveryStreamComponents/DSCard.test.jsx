@@ -80,15 +80,11 @@ SafeAnchor
 ;
 import
 {
-shallowWithIntl
+shallow
 }
 from
 "
-test
-/
-unit
-/
-utils
+enzyme
 "
 ;
 describe
@@ -118,7 +114,7 @@ beforeEach
 {
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 DSCard
@@ -432,7 +428,7 @@ stub
 ;
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 DSCard
@@ -738,7 +734,7 @@ prop
 const
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 PlaceholderDSCard
@@ -807,7 +803,7 @@ div
 const
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 DSCard
@@ -865,7 +861,7 @@ clickable
 const
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 DSCard
@@ -943,7 +939,7 @@ menu
 const
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 DSCard

@@ -45,15 +45,11 @@ SafeAnchor
 ;
 import
 {
-shallowWithIntl
+shallow
 }
 from
 "
-test
-/
-unit
-/
-utils
+enzyme
 "
 ;
 describe
@@ -80,7 +76,7 @@ beforeEach
 {
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 DSMessage

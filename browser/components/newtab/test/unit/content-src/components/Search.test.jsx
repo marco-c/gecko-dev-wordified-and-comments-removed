@@ -1,8 +1,6 @@
 import
 {
 GlobalOverrider
-mountWithIntl
-shallowWithIntl
 }
 from
 "
@@ -11,6 +9,16 @@ test
 unit
 /
 utils
+"
+;
+import
+{
+mount
+shallow
+}
+from
+"
+enzyme
 "
 ;
 import
@@ -140,7 +148,7 @@ element
 const
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 Search
@@ -188,7 +196,7 @@ element
 const
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Search
@@ -257,7 +265,7 @@ spy
 const
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Search
@@ -329,7 +337,7 @@ spy
 const
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Search
@@ -441,7 +449,7 @@ t
 break
 this
 behaviour
-mountWithIntl
+mount
 (
 <
 Search
@@ -498,7 +506,7 @@ button
 const
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Search
@@ -633,7 +641,7 @@ spy
 const
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Search
@@ -750,7 +758,7 @@ enabled
 const
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 Search
@@ -835,7 +843,7 @@ spy
 const
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 Search
@@ -1017,7 +1025,7 @@ spy
 const
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Search
@@ -1226,7 +1234,7 @@ spy
 const
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Search

@@ -25,15 +25,11 @@ jsm
 ;
 import
 {
-mountWithIntl
+mount
 }
 from
 "
-test
-/
-unit
-/
-utils
+enzyme
 "
 ;
 import
@@ -142,7 +138,7 @@ INITIAL_STATE
 ;
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Provider
@@ -340,7 +336,7 @@ test
 ;
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Provider

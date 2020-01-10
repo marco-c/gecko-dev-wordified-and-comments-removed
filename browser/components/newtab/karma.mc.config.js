@@ -416,9 +416,9 @@ statements
 1
 lines
 :
-53
+52
 .
-6
+38
 functions
 :
 31

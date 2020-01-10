@@ -24,15 +24,11 @@ react
 ;
 import
 {
-shallowWithIntl
+shallow
 }
 from
 "
-test
-/
-unit
-/
-utils
+enzyme
 "
 ;
 describe
@@ -64,7 +60,7 @@ element
 const
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 MoreRecommendations
@@ -107,7 +103,7 @@ prop
 const
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 MoreRecommendations
@@ -174,7 +170,7 @@ prop
 const
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 MoreRecommendations

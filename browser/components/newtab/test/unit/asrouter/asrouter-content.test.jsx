@@ -19,7 +19,6 @@ content
 import
 {
 GlobalOverrider
-mountWithIntl
 }
 from
 "
@@ -78,6 +77,15 @@ React
 from
 "
 react
+"
+;
+import
+{
+mount
+}
+from
+"
+enzyme
 "
 ;
 import
@@ -704,7 +712,7 @@ sendTelemetry
 ;
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 ASRouterUISurface
@@ -1340,7 +1348,7 @@ dark
 ;
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 ASRouterUISurface

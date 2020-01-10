@@ -95,16 +95,6 @@ dispatch
 )
 {
 }
-intl
-:
-{
-formatMessage
-:
-x
-=
->
-x
-}
 perfSvc
 }
 ;

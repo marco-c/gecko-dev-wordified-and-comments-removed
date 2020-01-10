@@ -1,14 +1,10 @@
 import
 {
-mountWithIntl
+mount
 }
 from
 "
-test
-/
-unit
-/
-utils
+enzyme
 "
 ;
 import
@@ -173,7 +169,7 @@ sendUserActionTelemetryStub
 ;
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 ReturnToAMO
@@ -281,7 +277,7 @@ beforeEach
 {
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 ReturnToAMO

@@ -43,15 +43,11 @@ Highlights
 ;
 import
 {
-mountWithIntl
+mount
 }
 from
 "
-test
-/
-unit
-/
-utils
+enzyme
 "
 ;
 import
@@ -140,7 +136,7 @@ INITIAL_STATE
 ;
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Provider
@@ -219,7 +215,7 @@ true
 ;
 wrapper
 =
-mountWithIntl
+mount
 (
 <
 Provider

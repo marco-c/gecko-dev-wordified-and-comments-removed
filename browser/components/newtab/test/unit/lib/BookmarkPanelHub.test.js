@@ -1468,7 +1468,7 @@ document
 createElementNS
 .
 callCount
-5
+6
 )
 ;
 assert
@@ -1541,7 +1541,7 @@ document
 createElementNS
 .
 callCount
-5
+6
 )
 ;
 assert

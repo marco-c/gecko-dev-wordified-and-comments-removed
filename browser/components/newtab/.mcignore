@@ -24,6 +24,8 @@ update
 rdf
 .
 gitignore
+.
+eslintcache
 /
 .
 git

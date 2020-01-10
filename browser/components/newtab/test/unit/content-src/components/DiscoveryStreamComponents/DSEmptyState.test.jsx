@@ -26,15 +26,11 @@ react
 ;
 import
 {
-shallowWithIntl
+shallow
 }
 from
 "
-test
-/
-unit
-/
-utils
+enzyme
 "
 ;
 describe
@@ -61,7 +57,7 @@ beforeEach
 {
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 DSEmptyState
@@ -212,7 +208,7 @@ message
 {
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 DSEmptyState
@@ -268,7 +264,7 @@ message
 {
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 DSEmptyState
@@ -338,7 +334,7 @@ spy
 ;
 wrapper
 =
-shallowWithIntl
+shallow
 (
 <
 DSEmptyState

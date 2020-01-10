@@ -621,15 +621,6 @@ props
 .
 dispatch
 }
-intl
-=
-{
-this
-.
-props
-.
-intl
-}
 url
 =
 {
