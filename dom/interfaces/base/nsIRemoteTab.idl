@@ -347,6 +347,11 @@ attribute
 int32_t
 osPid
 ;
+readonly
+attribute
+boolean
+hasContentOpener
+;
 /
 *
 *

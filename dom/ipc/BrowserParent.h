@@ -897,6 +897,13 @@ aBrowserDOMWindow
 ;
 }
 void
+SetHasContentOpener
+(
+bool
+aHasContentOpener
+)
+;
+void
 SwapFrameScriptsFrom
 (
 nsTArray
@@ -3381,6 +3388,11 @@ Deprioritize
 )
 ;
 bool
+GetHasContentOpener
+(
+)
+;
+bool
 StartApzAutoscroll
 (
 float
@@ -3999,6 +4011,9 @@ mIsDestroyed
 ;
 bool
 mTabSetsCursor
+;
+bool
+mHasContentOpener
 ;
 bool
 mPreserveLayers
