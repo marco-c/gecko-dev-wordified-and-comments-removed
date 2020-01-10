@@ -9034,7 +9034,7 @@ GetDocument
 if
 (
 const
-StyleUseCounters
+auto
 *
 docCounters
 =

@@ -10795,6 +10795,11 @@ mDontWarnAboutMutationEventsAndAllowSlowDOMMutations
 aDontWarnAboutMutationEventsAndAllowSlowDOMMutations
 ;
 }
+void
+MaybeWarnAboutZoom
+(
+)
+;
 nsIHTMLCollection
 *
 Children
@@ -13485,6 +13490,11 @@ mPendingMaybeEditingStateChanged
 ;
 bool
 mHasBeenEditable
+:
+1
+;
+bool
+mHasWarnedAboutZoom
 :
 1
 ;
