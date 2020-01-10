@@ -2669,8 +2669,6 @@ const
 nsOuterWindowProxy
 singleton
 ;
-protected
-:
 static
 nsGlobalWindowOuter
 *
@@ -2715,6 +2713,8 @@ return
 outerWindow
 ;
 }
+protected
+:
 bool
 GetSubframeWindow
 (

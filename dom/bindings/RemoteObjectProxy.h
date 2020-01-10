@@ -49,6 +49,9 @@ namespace
 dom
 {
 class
+BrowsingContext
+;
+class
 RemoteObjectProxyBase
 :
 public
@@ -1029,6 +1032,15 @@ aObj
 )
 ;
 }
+BrowsingContext
+*
+GetBrowsingContext
+(
+JSObject
+*
+aProxy
+)
+;
 }
 }
 #
