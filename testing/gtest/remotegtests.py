@@ -1679,17 +1679,6 @@ package
 )
 :
         
-if
-self
-.
-update_log
-(
-)
-:
-            
-return
-package
-        
 top
 =
 None
@@ -1707,6 +1696,17 @@ start_timed_out
 (
 )
 :
+            
+if
+self
+.
+update_log
+(
+)
+:
+                
+return
+package
             
 time
 .
