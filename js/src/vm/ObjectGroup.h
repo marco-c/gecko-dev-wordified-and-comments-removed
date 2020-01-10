@@ -156,7 +156,6 @@ private
 const
 JSClass
 *
-const
 clasp_
 ;
 GCPtr
@@ -171,6 +170,7 @@ JS
 Realm
 *
 realm_
+;
 ;
 ObjectGroupFlags
 flags_

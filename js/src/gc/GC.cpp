@@ -39568,11 +39568,6 @@ MOZ_ASSERT
 global
 )
 ;
-AssertTargetIsNotGray
-(
-global
-)
-;
 for
 (
 auto
