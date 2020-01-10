@@ -1059,15 +1059,6 @@ nsGkAtoms
 :
 :
 tabindex
-|
-|
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
-required
 )
 {
 MOZ_ASSERT
