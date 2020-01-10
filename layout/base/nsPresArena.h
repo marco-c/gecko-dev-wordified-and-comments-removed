@@ -237,7 +237,12 @@ AddSizeOfExcludingThis
 (
 nsWindowSizes
 &
-aWindowSizes
+size_t
+nsWindowSizes
+:
+:
+*
+aArenaSize
 )
 const
 ;

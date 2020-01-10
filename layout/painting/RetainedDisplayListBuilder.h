@@ -29,6 +29,9 @@ TypedEnumBits
 .
 h
 "
+class
+nsWindowSizes
+;
 namespace
 mozilla
 {
@@ -605,6 +608,14 @@ void
 ClearFramesWithProps
 (
 )
+;
+void
+AddSizeOfIncludingThis
+(
+nsWindowSizes
+&
+)
+const
 ;
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (

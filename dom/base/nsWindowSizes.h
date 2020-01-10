@@ -672,6 +672,12 @@ mLayoutPresShellSize
 \
 MACRO
 (
+Other
+mLayoutRetainedDisplayListSize
+)
+\
+MACRO
+(
 Style
 mLayoutStyleSetsStylistRuleTree
 )
