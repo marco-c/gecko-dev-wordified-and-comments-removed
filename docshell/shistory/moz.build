@@ -120,11 +120,6 @@ IPDL_SOURCES
 =
 [
 '
-NewPSHEntry
-.
-ipdlh
-'
-'
 PSHEntry
 .
 ipdl
@@ -169,6 +164,11 @@ ChildSHistory
 h
 '
 '
+MaybeNewPSHEntry
+.
+h
+'
+'
 ParentSHistory
 .
 h
@@ -200,6 +200,11 @@ UNIFIED_SOURCES
 [
 '
 ChildSHistory
+.
+cpp
+'
+'
+MaybeNewPSHEntry
 .
 cpp
 '

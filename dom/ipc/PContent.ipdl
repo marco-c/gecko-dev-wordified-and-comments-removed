@@ -345,9 +345,6 @@ PrefsTypes
 include
 NeckoChannelParams
 ;
-include
-NewPSHEntry
-;
 #
 if
 defined
@@ -1677,6 +1674,15 @@ callerDocumentURI
 ;
 bool
 isFromPrivateWindow
+;
+}
+;
+union
+PSHEntryOrSharedID
+{
+PSHEntry
+;
+uint64_t
 ;
 }
 ;
