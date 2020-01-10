@@ -367,6 +367,13 @@ html5
 .
 "
 "
+identity
+.
+fxaccounts
+.
+enabled
+"
+"
 idle
 .
 "
