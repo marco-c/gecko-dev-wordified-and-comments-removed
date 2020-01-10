@@ -771,9 +771,6 @@ WillBeOutermostSVG
 nsINode
 &
 aParent
-Element
-*
-aBindingParent
 )
 const
 ;
