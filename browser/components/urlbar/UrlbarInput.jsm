@@ -3070,7 +3070,7 @@ this
 querySelector
 (
 "
-.
+#
 urlbar
 -
 go
