@@ -3889,7 +3889,7 @@ masm
 Cmp
 (
 const32
-const32
+wzr
 )
 ;
 auto
@@ -3912,7 +3912,7 @@ masm
 Ccmp
 (
 lhs32
-lhs32
+wzr
 vixl
 :
 :
