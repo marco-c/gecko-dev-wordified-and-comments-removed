@@ -111,6 +111,9 @@ void
 *
 mEntryContext
 ;
+uint32_t
+mGeneration
+;
 }
 ;
 #
