@@ -111,12 +111,6 @@ div
 <
 script
 >
-let
-beforeRender
-;
-let
-img
-;
 async_test
 (
 function
@@ -243,6 +237,7 @@ equal
 to
 100
 .
+const
 img
 =
 document
@@ -308,7 +303,7 @@ attachShadow
 mode
 :
 '
-closed
+open
 '
 }
 )
@@ -318,14 +313,6 @@ shadowRoot
 appendChild
 (
 img
-)
-;
-beforeRender
-=
-performance
-.
-now
-(
 )
 ;
 t
