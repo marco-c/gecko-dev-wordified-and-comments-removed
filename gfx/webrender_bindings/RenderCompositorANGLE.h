@@ -368,6 +368,12 @@ aClipRect
 override
 ;
 bool
+UsePartialPresent
+(
+)
+override
+;
+bool
 RequestFullRender
 (
 )
