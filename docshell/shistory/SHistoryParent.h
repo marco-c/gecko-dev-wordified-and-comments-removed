@@ -309,6 +309,14 @@ aDidRemove
 )
 ;
 bool
+RecvRemoveFrameEntries
+(
+PSHEntryParent
+*
+aEntry
+)
+;
+bool
 RecvReload
 (
 const

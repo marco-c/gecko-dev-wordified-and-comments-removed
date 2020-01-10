@@ -361,6 +361,13 @@ didRemove
 )
 ;
 sync
+RemoveFrameEntries
+(
+PSHEntry
+entry
+)
+;
+sync
 Reload
 (
 uint32_t
