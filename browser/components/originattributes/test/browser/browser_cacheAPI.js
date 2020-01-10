@@ -20,12 +20,14 @@ aBrowser
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 aBrowser
+[
 requestURL
+]
 async
 function
 (
