@@ -855,6 +855,12 @@ nsAString
 aPrincipalURISpec
 )
 ;
+nsIContentSecurityPolicy
+*
+GetMozCSP
+(
+)
+;
 mozilla
 :
 :

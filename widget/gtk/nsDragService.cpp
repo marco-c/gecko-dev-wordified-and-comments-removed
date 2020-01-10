@@ -1292,6 +1292,9 @@ aDOMNode
 nsIPrincipal
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 nsIArray
 *
 aArrayTransferables
@@ -1338,6 +1341,7 @@ InvokeDragSession
 (
 aDOMNode
 aPrincipal
+aCsp
 aArrayTransferables
 aActionType
 aContentPolicyType

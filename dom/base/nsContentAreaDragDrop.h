@@ -25,6 +25,13 @@ nsITransferable
 .
 h
 "
+#
+include
+"
+nsIContentSecurityPolicy
+.
+h
+"
 class
 nsPIDOMWindowOuter
 ;
@@ -101,6 +108,10 @@ nsIPrincipal
 *
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+*
+aCsp
 )
 ;
 }

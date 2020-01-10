@@ -4199,6 +4199,8 @@ LayoutDeviceIntRect
 dragRect
 nsIPrincipal
 principal
+nsIContentSecurityPolicy
+csp
 )
 ;
 /
@@ -4992,6 +4994,8 @@ uint32_t
 aDropEffect
 nsIPrincipal
 aPrincipal
+nsIContentSecurityPolicy
+csp
 )
 ;
 async

@@ -3776,6 +3776,16 @@ url
 )
 ;
 let
+csp
+=
+browserDragAndDrop
+.
+getCSP
+(
+event
+)
+;
+let
 triggeringPrincipal
 =
 browserDragAndDrop
@@ -3854,6 +3864,7 @@ targetTab
 newIndex
 userContextId
 triggeringPrincipal
+csp
 }
 )
 ;
