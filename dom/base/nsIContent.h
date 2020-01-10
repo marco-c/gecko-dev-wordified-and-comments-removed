@@ -698,13 +698,6 @@ aArgs
 )
 ;
 }
-inline
-bool
-IsActiveChildrenElement
-(
-)
-const
-;
 bool
 IsGeneratedContentContainerForBefore
 (
