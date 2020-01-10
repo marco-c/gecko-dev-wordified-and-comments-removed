@@ -64,9 +64,6 @@ actions
 components
 '
 '
-modules
-'
-'
 reducers
 '
 ]
