@@ -912,6 +912,15 @@ container
 IsHyperText
 (
 )
+|
+|
+!
+container
+-
+>
+GetFrame
+(
+)
 )
 {
 return
