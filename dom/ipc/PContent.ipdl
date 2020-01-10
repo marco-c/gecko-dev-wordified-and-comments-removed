@@ -4438,6 +4438,7 @@ aRegistrarId
 nsIURI
 aURI
 ReplacementChannelConfigInit
+?
 config
 LoadInfoArgs
 ?
