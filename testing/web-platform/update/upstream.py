@@ -1375,18 +1375,16 @@ commits
 :
                 
 print
-(
 "
-{
-}
+%
+i
 :
 \
 t
-{
-}
+%
+s
 "
-.
-format
+%
 (
 i
 commit
@@ -1394,7 +1392,6 @@ commit
 message
 .
 summary
-)
 )
             
 remove
@@ -1508,7 +1505,6 @@ remove_idx
 ]
             
 print
-(
 "
 Selected
 the
@@ -1518,7 +1514,6 @@ to
 keep
 :
 "
-)
             
 for
 i
@@ -1528,18 +1523,16 @@ keep_commits
 :
                 
 print
-(
 "
-{
-}
+%
+i
 :
 \
 t
-{
-}
+%
+s
 "
-.
-format
+%
 (
 i
 commit
@@ -1547,7 +1540,6 @@ commit
 message
 .
 summary
-)
 )
             
 confirm
@@ -1920,7 +1912,6 @@ diff
 )
                     
 print
-(
 "
 "
 "
@@ -1932,8 +1923,8 @@ apply
 Diff
 saved
 in
-{
-}
+%
+s
 Fix
 this
 file
@@ -1949,14 +1940,10 @@ continue
 "
 "
 "
-.
-format
-(
+%
 f
 .
 name
-)
-)
                     
 state
 .
@@ -1970,11 +1957,9 @@ stripped_patch
 )
                     
 print
-(
 state
 .
 patch
-)
                 
 sys
 .

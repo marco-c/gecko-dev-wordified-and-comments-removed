@@ -355,7 +355,6 @@ update_properties
 :
     
 return
-(
 [
 "
 debug
@@ -387,7 +386,6 @@ bits
 "
 ]
 }
-)
 def
 write_hosts_file
 (

@@ -170,7 +170,7 @@ execute_script
 (
 self
 script
-asynchronous
+async
 =
 False
 )
@@ -184,7 +184,7 @@ webdriver
 .
 execute_async_script
 if
-asynchronous
+async
 else
 self
 .
@@ -2179,7 +2179,7 @@ self
 script_resume
 %
 format_map
-asynchronous
+async
 =
 True
 )

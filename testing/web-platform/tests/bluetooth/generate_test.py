@@ -175,7 +175,6 @@ return
     
 except
 IOError
-as
 e
 :
       

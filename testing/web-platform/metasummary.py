@@ -1257,7 +1257,6 @@ else
 :
         
 print
-(
 json
 .
 dumps
@@ -1266,7 +1265,6 @@ rv
 indent
 =
 2
-)
 )
     
 if

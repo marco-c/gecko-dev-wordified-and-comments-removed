@@ -349,7 +349,7 @@ execute_script
 (
 self
 script
-asynchronous
+async
 =
 False
 )

@@ -4228,6 +4228,7 @@ encoding
     
 except
 UnicodeDecodeError
+e
 :
       
 return

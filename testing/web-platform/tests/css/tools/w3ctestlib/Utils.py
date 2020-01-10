@@ -674,6 +674,7 @@ ext
   
 except
 StopIteration
+e
 :
     
 files
@@ -728,6 +729,7 @@ next
   
 except
 StopIteration
+e
 :
     
 dirs

@@ -1514,7 +1514,6 @@ except
 client_for_testing
 .
 HttpStatusException
-as
 e
 :
                 
@@ -1530,7 +1529,6 @@ status
             
 except
 Exception
-as
 e
 :
                 
