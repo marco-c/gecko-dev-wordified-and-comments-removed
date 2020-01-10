@@ -321,6 +321,7 @@ filter
 mute_factor
 =
 0
+;
 scale
 =
 20000
