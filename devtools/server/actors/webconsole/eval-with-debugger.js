@@ -390,6 +390,14 @@ dbgWindow
 string
 )
 {
+if
+(
+isWorker
+)
+{
+return
+;
+}
 let
 ast
 ;
