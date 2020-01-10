@@ -414,6 +414,8 @@ rv
 async
 ConfirmRedirect
 (
+LoadInfoArgs
+aLoadInfo
 nsIURI
 aNewURI
 )
