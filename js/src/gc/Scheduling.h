@@ -1501,14 +1501,6 @@ ZoneAllocPolicy
 SystemAllocPolicy
 >
 ;
-bool
-allowMultipleAssociations
-(
-MemoryUse
-use
-)
-const
-;
 size_t
 getAndRemoveEntry
 (

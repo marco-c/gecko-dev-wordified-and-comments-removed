@@ -398,7 +398,7 @@ isUndefined
 ;
 }
 const
-uint32_t
+int32_t
 *
 traceList
 (
@@ -415,7 +415,7 @@ hasTraceList
 return
 reinterpret_cast
 <
-uint32_t
+int32_t
 *
 >
 (
