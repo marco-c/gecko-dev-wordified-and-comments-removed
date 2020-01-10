@@ -10,10 +10,10 @@ telemetry_harness
 ping_filters
 import
 ANY_PING
-DELETION_REQUEST_PING
+OPTOUT_PING
 MAIN_SHUTDOWN_PING
 class
-TestDeletionRequestPing
+TestOptoutPing
 (
 TelemetryTestCase
 )
@@ -25,9 +25,7 @@ TelemetryTestCase
 Tests
 for
 "
-deletion
--
-request
+optout
 "
 ping
 .
@@ -142,9 +140,7 @@ self
 Test
 the
 "
-deletion
--
-request
+optout
 "
 ping
 behaviour
@@ -179,7 +175,7 @@ assertIsValidUUID
 client_id
 )
         
-ping
+optout_ping
 =
 self
 .
@@ -188,17 +184,17 @@ wait_for_ping
 self
 .
 disable_telemetry
-DELETION_REQUEST_PING
+OPTOUT_PING
 )
         
 self
 .
-assertIn
+assertNotIn
 (
 "
 clientId
 "
-ping
+optout_ping
 )
         
 self
@@ -208,7 +204,7 @@ assertIn
 "
 payload
 "
-ping
+optout_ping
 )
         
 self
@@ -218,7 +214,7 @@ assertNotIn
 "
 environment
 "
-ping
+optout_ping
 [
 "
 payload
@@ -264,7 +260,7 @@ pings
 -
 1
 ]
-ping
+optout_ping
 )
         
 self

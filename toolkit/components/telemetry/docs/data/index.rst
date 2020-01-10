@@ -58,6 +58,12 @@ environment
 main
 -
 ping
+optout
+-
+ping
+deletion
+-
+ping
 crash
 -
 ping
