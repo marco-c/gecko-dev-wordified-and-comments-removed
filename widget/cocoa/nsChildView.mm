@@ -10913,7 +10913,7 @@ aCommands
 )
 ;
 }
-void
+bool
 nsChildView
 :
 :
@@ -10939,6 +10939,11 @@ Validate
 the
 arguments
 .
+if
+(
+NS_WARN_IF
+(
+!
 nsIWidget
 :
 :
@@ -10948,7 +10953,13 @@ aType
 aEvent
 aCommands
 )
+)
+)
+{
+return
+false
 ;
+}
 /
 /
 If
@@ -11198,6 +11209,7 @@ cocoaKey
 )
 ;
 return
+true
 ;
 }
 }
@@ -11221,6 +11233,9 @@ GetEditCommands
 aEvent
 aCommands
 )
+;
+return
+true
 ;
 }
 NSView

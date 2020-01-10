@@ -14669,7 +14669,7 @@ aContext
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-void
+bool
 nsCocoaWindow
 :
 :
@@ -14695,6 +14695,11 @@ Validate
 the
 arguments
 .
+if
+(
+NS_WARN_IF
+(
+!
 nsIWidget
 :
 :
@@ -14704,7 +14709,13 @@ aType
 aEvent
 aCommands
 )
+)
+)
+{
+return
+false
 ;
+}
 NativeKeyBindings
 *
 keyBindings
@@ -14725,6 +14736,9 @@ GetEditCommands
 aEvent
 aCommands
 )
+;
+return
+true
 ;
 }
 already_AddRefed

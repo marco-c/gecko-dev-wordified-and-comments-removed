@@ -649,7 +649,7 @@ aEvent
 override
 ;
 virtual
-void
+bool
 GetEditCommands
 (
 NativeKeyBindingsType

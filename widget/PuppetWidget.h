@@ -658,7 +658,7 @@ const
 override
 ;
 virtual
-void
+bool
 GetEditCommands
 (
 NativeKeyBindingsType

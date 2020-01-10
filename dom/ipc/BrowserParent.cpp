@@ -8289,13 +8289,16 @@ IPC_OK
 )
 ;
 }
+if
+(
 localEvent
 .
 InitEditCommandsFor
 (
 keyBindingsType
 )
-;
+)
+{
 *
 aCommands
 =
@@ -8306,6 +8309,7 @@ EditCommandsConstRef
 keyBindingsType
 )
 ;
+}
 return
 IPC_OK
 (

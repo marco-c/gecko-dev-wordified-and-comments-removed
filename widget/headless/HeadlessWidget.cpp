@@ -1928,7 +1928,7 @@ aEvent
 )
 ;
 }
-void
+bool
 HeadlessWidget
 :
 :
@@ -1948,6 +1948,11 @@ CommandInt
 aCommands
 )
 {
+if
+(
+NS_WARN_IF
+(
+!
 nsIWidget
 :
 :
@@ -1957,7 +1962,13 @@ aType
 aEvent
 aCommands
 )
+)
+)
+{
+return
+false
 ;
+}
 HeadlessKeyBindings
 &
 bindings
@@ -1977,6 +1988,9 @@ aType
 aEvent
 aCommands
 )
+;
+return
+true
 ;
 }
 nsresult

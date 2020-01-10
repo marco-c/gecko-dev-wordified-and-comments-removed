@@ -10319,7 +10319,7 @@ aEvent
 )
 {
 }
-void
+bool
 nsIWidget
 :
 :
@@ -10359,6 +10359,9 @@ IsEmpty
 (
 )
 )
+;
+return
+true
 ;
 }
 already_AddRefed

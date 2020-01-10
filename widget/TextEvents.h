@@ -1215,7 +1215,7 @@ InitAllEditCommands
 (
 )
 ;
-void
+bool
 InitEditCommandsFor
 (
 nsIWidget
