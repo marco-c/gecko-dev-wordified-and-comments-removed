@@ -2513,6 +2513,7 @@ config
 .
 background_color
 shared_clips
+parent_clip_chain_id
 )
 )
 ;
@@ -7038,6 +7039,10 @@ Vec
 new
 (
 )
+ClipChainId
+:
+:
+NONE
 )
 ;
 let

@@ -929,6 +929,13 @@ pub
 vis_mask
 :
 PrimitiveVisibilityMask
+pub
+scissor_rect
+:
+Option
+<
+DeviceIntRect
+>
 }
 #
 [
@@ -2239,6 +2246,12 @@ DevicePixelScale
 vis_mask
 :
 PrimitiveVisibilityMask
+scissor_rect
+:
+Option
+<
+DeviceIntRect
+>
 )
 -
 >
@@ -2368,6 +2381,7 @@ uv_rect_kind
 surface_spatial_node_index
 device_pixel_scale
 vis_mask
+scissor_rect
 }
 )
 clear_mode
