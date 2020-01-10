@@ -163,7 +163,7 @@ setContentSize
 {
 width
 :
-275
+267
 height
 :
 Infinity
