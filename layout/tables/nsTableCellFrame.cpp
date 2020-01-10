@@ -2863,6 +2863,14 @@ StyleVerticalAlignKeyword
 :
 Baseline
 :
+if
+(
+!
+GetContentEmpty
+(
+)
+)
+{
 kidBStart
 =
 bStartInset
@@ -2874,6 +2882,9 @@ GetCellBaseline
 )
 ;
 break
+;
+}
+MOZ_FALLTHROUGH
 ;
 case
 StyleVerticalAlignKeyword
