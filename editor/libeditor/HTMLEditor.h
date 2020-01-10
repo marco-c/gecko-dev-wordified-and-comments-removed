@@ -6011,6 +6011,7 @@ aDispatchPasteEvent
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 InsertAsCitedQuotationInternal
 (
@@ -6866,6 +6867,7 @@ aSelectionType
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 InsertAsPlaintextQuotation
 (
@@ -7398,6 +7400,7 @@ OurWindowHasFocus
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 DoInsertHTMLWithContext
 (
