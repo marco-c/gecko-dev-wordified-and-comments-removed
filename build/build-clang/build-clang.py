@@ -2474,6 +2474,15 @@ cfg
 ndk_sysroot
 "
 ]
+.
+format
+(
+*
+*
+os
+.
+environ
+)
             
 android_gcc_dir
 =
@@ -2483,6 +2492,15 @@ cfg
 ndk_toolchain
 "
 ]
+.
+format
+(
+*
+*
+os
+.
+environ
+)
             
 android_include_dirs
 =
@@ -2513,6 +2531,16 @@ s
 "
 %
 d
+.
+format
+(
+*
+*
+os
+.
+environ
+)
+                             
 for
 d
 in
@@ -3133,6 +3161,15 @@ config
 [
 key
 ]
+.
+format
+(
+*
+*
+os
+.
+environ
+)
         
 if
 os
@@ -4613,6 +4650,15 @@ config
 gcc_dir
 "
 ]
+.
+format
+(
+*
+*
+os
+.
+environ
+)
         
 if
 not
