@@ -273,7 +273,7 @@ uint8_t
 >
 mLocalExtraField
 ;
-void
+nsresult
 Init
 (
 const
