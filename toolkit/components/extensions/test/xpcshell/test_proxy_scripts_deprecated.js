@@ -10,13 +10,6 @@ init
 this
 )
 ;
-ExtensionTestUtils
-.
-failOnSchemaWarnings
-(
-false
-)
-;
 add_task
 (
 async

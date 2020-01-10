@@ -10,13 +10,6 @@ init
 this
 )
 ;
-ExtensionTestUtils
-.
-failOnSchemaWarnings
-(
-false
-)
-;
 function
 createEventPageExtension
 (

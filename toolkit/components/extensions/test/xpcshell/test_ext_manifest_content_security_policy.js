@@ -103,13 +103,6 @@ string
 "
 )
 ;
-ExtensionTestUtils
-.
-failOnSchemaWarnings
-(
-false
-)
-;
 normalized
 =
 await
@@ -129,13 +122,6 @@ none
 '
 "
 }
-)
-;
-ExtensionTestUtils
-.
-failOnSchemaWarnings
-(
-true
 )
 ;
 equal

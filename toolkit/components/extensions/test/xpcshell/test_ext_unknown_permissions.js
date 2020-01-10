@@ -3,13 +3,6 @@ use
 strict
 "
 ;
-ExtensionTestUtils
-.
-failOnSchemaWarnings
-(
-false
-)
-;
 add_task
 (
 async

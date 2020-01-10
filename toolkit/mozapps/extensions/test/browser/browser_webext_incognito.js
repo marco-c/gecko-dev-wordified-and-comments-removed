@@ -2504,13 +2504,13 @@ theme
 colors
 :
 {
-frame
+accentcolor
 :
 "
 #
 FFFFFF
 "
-tab_background_text
+textcolor
 :
 "
 #

@@ -298,13 +298,6 @@ loadExtension
 extensionData
 )
 ;
-ExtensionTestUtils
-.
-failOnSchemaWarnings
-(
-false
-)
-;
 await
 extension
 .
@@ -320,13 +313,6 @@ awaitMessage
 "
 ready
 "
-)
-;
-ExtensionTestUtils
-.
-failOnSchemaWarnings
-(
-true
 )
 ;
 }
