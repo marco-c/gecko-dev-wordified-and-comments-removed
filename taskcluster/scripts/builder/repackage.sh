@@ -451,14 +451,6 @@ mozharness
 command
 line
 run
-#
-e
-.
-g
-.
-enable
--
-pgo
 if
 [
 -

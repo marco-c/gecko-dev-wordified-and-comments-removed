@@ -4701,9 +4701,6 @@ true
 options
 :
 [
-enable
--
-pgo
 append
 -
 env
