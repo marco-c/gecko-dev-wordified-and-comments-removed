@@ -406,6 +406,11 @@ why
 )
 override
 ;
+void
+CancelChildForProcessSwitch
+(
+)
+;
 private
 :
 virtual

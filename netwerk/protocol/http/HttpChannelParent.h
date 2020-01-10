@@ -397,6 +397,11 @@ uint64_t
 aIdentifier
 )
 ;
+void
+CancelChildCrossProcessRedirect
+(
+)
+;
 protected
 :
 MOZ_MUST_USE
