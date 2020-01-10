@@ -293,10 +293,12 @@ w
 )
     
 print
->
->
-fh
+(
 test_string
+file
+=
+fh
+)
     
 fh
 .
