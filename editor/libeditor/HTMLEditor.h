@@ -222,6 +222,9 @@ class
 AutoSetTemporaryAncestorLimiter
 ;
 class
+EditActionResult
+;
+class
 EmptyEditableFunctor
 ;
 class
@@ -2699,6 +2702,17 @@ nsINode
 aNode
 )
 const
+;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+EditActionResult
+SplitMailCiteElements
+(
+const
+EditorDOMPoint
+&
+aPointToSplit
+)
 ;
 protected
 :

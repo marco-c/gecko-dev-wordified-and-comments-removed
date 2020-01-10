@@ -451,13 +451,6 @@ aInsertToBreak
 ;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
-EditActionResult
-SplitMailCites
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
 nsresult
 WillDeleteSelection
 (
