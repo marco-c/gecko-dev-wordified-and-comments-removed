@@ -170,7 +170,10 @@ DebugAPI
 ExecutionObservableSet
 &
 obs
-bool
+DebugAPI
+:
+:
+IsObserving
 observing
 )
 ;

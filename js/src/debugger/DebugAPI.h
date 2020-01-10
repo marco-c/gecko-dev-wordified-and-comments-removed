@@ -339,6 +339,17 @@ const
 ;
 }
 ;
+enum
+IsObserving
+{
+NotObserving
+=
+0
+Observing
+=
+1
+}
+;
 static
 inline
 MOZ_MUST_USE

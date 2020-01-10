@@ -2180,7 +2180,10 @@ cx
 JSScript
 *
 script
-bool
+DebugAPI
+:
+:
+IsObserving
 observing
 )
 {
@@ -2628,7 +2631,10 @@ DebugAPI
 ExecutionObservableSet
 &
 obs
-bool
+DebugAPI
+:
+:
+IsObserving
 observing
 )
 {
