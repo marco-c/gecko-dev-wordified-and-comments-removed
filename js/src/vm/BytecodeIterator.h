@@ -24,6 +24,7 @@ current_
 ;
 public
 :
+inline
 explicit
 BytecodeIterator
 (
