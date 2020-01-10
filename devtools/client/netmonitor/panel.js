@@ -75,6 +75,11 @@ this
 panelWin
 .
 document
+win
+:
+this
+.
+panelWin
 }
 )
 ;

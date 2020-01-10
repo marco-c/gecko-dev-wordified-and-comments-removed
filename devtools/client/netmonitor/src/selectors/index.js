@@ -16,6 +16,18 @@ requests
 )
 ;
 const
+search
+=
+require
+(
+"
+.
+/
+search
+"
+)
+;
+const
 timingMarkers
 =
 require
@@ -60,6 +72,7 @@ Object
 assign
 (
 exports
+search
 requests
 timingMarkers
 ui
