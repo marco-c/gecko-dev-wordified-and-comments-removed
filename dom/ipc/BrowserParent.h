@@ -2488,11 +2488,6 @@ bool
 aWindowLowering
 )
 ;
-void
-MouseEnterIntoWidget
-(
-)
-;
 bool
 MapEventCoordinatesForChildProcess
 (

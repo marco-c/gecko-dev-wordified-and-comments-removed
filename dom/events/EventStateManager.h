@@ -580,14 +580,6 @@ bool
 aLockCursor
 )
 ;
-void
-RecomputeMouseEnterStateForRemoteFrame
-(
-Element
-&
-aElement
-)
-;
 static
 bool
 IsUserInteractionEvent
