@@ -126,6 +126,11 @@ GuardToInt32Index
 \
 _
 (
+GuardToTypedArrayIndex
+)
+\
+_
+(
 GuardToInt32ModUint32
 )
 \
