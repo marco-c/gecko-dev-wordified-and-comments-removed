@@ -207,6 +207,13 @@ h
 #
 include
 "
+MediaTrackGraph
+.
+h
+"
+#
+include
+"
 MediaTimer
 .
 h
@@ -19057,7 +19064,7 @@ MediaDecoderStateMachine
 :
 EnsureOutputStreamManager
 (
-SharedDummyStream
+SharedDummyTrack
 *
 aDummyStream
 )
@@ -19191,7 +19198,7 @@ AUDIO
 ;
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 dummy
 =
@@ -19216,7 +19223,7 @@ audio
 track
 with
 underlying
-stream
+track
 %
 p
 "
@@ -19259,7 +19266,7 @@ VIDEO
 ;
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 dummy
 =
@@ -19284,7 +19291,7 @@ video
 track
 with
 underlying
-stream
+track
 %
 p
 "

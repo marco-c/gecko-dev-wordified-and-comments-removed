@@ -73,7 +73,7 @@ class
 AudioBlock
 ;
 class
-AudioNodeStream
+AudioNodeTrack
 ;
 class
 ThreadSharedFloatArrayBufferList
@@ -860,11 +860,11 @@ nullptr
 }
 virtual
 void
-SetStreamTimeParameter
+SetTrackTimeParameter
 (
 uint32_t
 aIndex
-StreamTime
+TrackTime
 aParam
 )
 {
@@ -872,7 +872,7 @@ NS_ERROR
 (
 "
 Invalid
-SetStreamTimeParameter
+SetTrackTimeParameter
 index
 "
 )
@@ -1034,9 +1034,9 @@ virtual
 void
 ProcessBlock
 (
-AudioNodeStream
+AudioNodeTrack
 *
-aStream
+aTrack
 GraphTime
 aFrom
 const
@@ -1055,9 +1055,9 @@ virtual
 void
 ProduceBlockBeforeInput
 (
-AudioNodeStream
+AudioNodeTrack
 *
-aStream
+aTrack
 GraphTime
 aFrom
 AudioBlock
@@ -1081,9 +1081,9 @@ virtual
 void
 ProcessBlocksOnPorts
 (
-AudioNodeStream
+AudioNodeTrack
 *
-aStream
+aTrack
 Span
 <
 const

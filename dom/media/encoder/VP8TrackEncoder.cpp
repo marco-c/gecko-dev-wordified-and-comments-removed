@@ -2086,7 +2086,7 @@ GetNextEncodeOperation
 (
 TimeDuration
 aTimeElapsed
-StreamTime
+TrackTime
 aProcessedDuration
 )
 {
@@ -2227,7 +2227,7 @@ TakeTrackData
 mSourceSegment
 )
 ;
-StreamTime
+TrackTime
 totalProcessedDuration
 =
 0

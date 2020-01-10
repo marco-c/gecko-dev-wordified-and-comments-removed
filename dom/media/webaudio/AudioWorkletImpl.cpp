@@ -15,7 +15,7 @@ h
 #
 include
 "
-AudioNodeStream
+AudioNodeTrack
 .
 h
 "
@@ -189,7 +189,7 @@ principal
 aContext
 -
 >
-DestinationStream
+DestinationTrack
 (
 )
 )
@@ -229,9 +229,9 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-AudioNodeStream
+AudioNodeTrack
 *
-aDestinationStream
+aDestinationTrack
 )
 :
 WorkletImpl
@@ -239,9 +239,9 @@ WorkletImpl
 aWindow
 aPrincipal
 )
-mDestinationStream
+mDestinationTrack
 (
-aDestinationStream
+aDestinationTrack
 )
 {
 }
@@ -317,7 +317,7 @@ nsIRunnable
 aRunnable
 )
 {
-mDestinationStream
+mDestinationTrack
 -
 >
 SendRunnable

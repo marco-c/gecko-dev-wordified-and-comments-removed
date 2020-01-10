@@ -84,11 +84,11 @@ TRACK_TICKS_MAX
 ;
 typedef
 MediaTime
-StreamTime
+TrackTime
 ;
 const
-StreamTime
-STREAM_TIME_MAX
+TrackTime
+TRACK_TIME_MAX
 =
 MEDIA_TIME_MAX
 ;
@@ -154,7 +154,7 @@ VIDEO
 TYPE_COUNT
 }
 ;
-StreamTime
+TrackTime
 GetDuration
 (
 )
@@ -254,9 +254,9 @@ const
 MediaSegment
 &
 aSource
-StreamTime
+TrackTime
 aStart
-StreamTime
+TrackTime
 aEnd
 )
 =
@@ -266,7 +266,7 @@ virtual
 void
 ForgetUpTo
 (
-StreamTime
+TrackTime
 aDuration
 )
 =
@@ -276,7 +276,7 @@ virtual
 void
 FlushAfter
 (
-StreamTime
+TrackTime
 aNewEnd
 )
 =
@@ -286,7 +286,7 @@ virtual
 void
 InsertNullDataAtStart
 (
-StreamTime
+TrackTime
 aDuration
 )
 =
@@ -296,7 +296,7 @@ virtual
 void
 AppendNullData
 (
-StreamTime
+TrackTime
 aDuration
 )
 =
@@ -439,7 +439,7 @@ MediaSegment
 )
 ;
 }
-StreamTime
+TrackTime
 mDuration
 ;
 Type
@@ -614,9 +614,9 @@ const
 MediaSegment
 &
 aSource
-StreamTime
+TrackTime
 aStart
-StreamTime
+TrackTime
 aEnd
 )
 override
@@ -665,9 +665,9 @@ const
 C
 &
 aOther
-StreamTime
+TrackTime
 aStart
-StreamTime
+TrackTime
 aEnd
 )
 {
@@ -682,7 +682,7 @@ aEnd
 void
 ForgetUpTo
 (
-StreamTime
+TrackTime
 aDuration
 )
 override
@@ -717,7 +717,7 @@ IsNull
 )
 )
 {
-StreamTime
+TrackTime
 extraToForget
 =
 std
@@ -798,7 +798,7 @@ aDuration
 void
 FlushAfter
 (
-StreamTime
+TrackTime
 aNewEnd
 )
 override
@@ -827,7 +827,7 @@ IsNull
 )
 )
 {
-StreamTime
+TrackTime
 extraToKeep
 =
 aNewEnd
@@ -914,7 +914,7 @@ aNewEnd
 void
 InsertNullDataAtStart
 (
-StreamTime
+TrackTime
 aDuration
 )
 override
@@ -986,7 +986,7 @@ aDuration
 void
 AppendNullData
 (
-StreamTime
+TrackTime
 aDuration
 )
 override
@@ -1104,7 +1104,7 @@ ReplaceWithNull
 )
 override
 {
-StreamTime
+TrackTime
 duration
 =
 GetDuration
@@ -1360,7 +1360,7 @@ mIndex
 void
 RemoveLeading
 (
-StreamTime
+TrackTime
 aDuration
 )
 {
@@ -1779,9 +1779,9 @@ Chunk
 >
 &
 aSource
-StreamTime
+TrackTime
 aStart
-StreamTime
+TrackTime
 aEnd
 )
 {
@@ -1826,7 +1826,7 @@ aEnd
 -
 aStart
 ;
-StreamTime
+TrackTime
 offset
 =
 0
@@ -1870,7 +1870,7 @@ mChunks
 i
 ]
 ;
-StreamTime
+TrackTime
 start
 =
 std
@@ -1882,7 +1882,7 @@ aStart
 offset
 )
 ;
-StreamTime
+TrackTime
 nextOffset
 =
 offset
@@ -1893,7 +1893,7 @@ GetDuration
 (
 )
 ;
-StreamTime
+TrackTime
 end
 =
 std
@@ -2016,7 +2016,7 @@ Chunk
 *
 AppendChunk
 (
-StreamTime
+TrackTime
 aDuration
 )
 {
@@ -2057,7 +2057,7 @@ c
 void
 RemoveLeading
 (
-StreamTime
+TrackTime
 aDuration
 uint32_t
 aStartIndex
@@ -2079,7 +2079,7 @@ duration
 "
 )
 ;
-StreamTime
+TrackTime
 t
 =
 aDuration
@@ -2244,7 +2244,7 @@ chunks
 void
 RemoveTrailing
 (
-StreamTime
+TrackTime
 aKeep
 uint32_t
 aStartIndex
@@ -2266,7 +2266,7 @@ duration
 "
 )
 ;
-StreamTime
+TrackTime
 t
 =
 aKeep

@@ -157,7 +157,7 @@ RTCRTPContributingSourceStats
 ;
 }
 class
-SourceMediaStream
+SourceMediaTrack
 ;
 class
 MediaPipeline

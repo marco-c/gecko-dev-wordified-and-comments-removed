@@ -7,14 +7,14 @@ mozilla_dom_SpeechStreamListener_h
 #
 include
 "
-MediaStreamGraph
+MediaTrackGraph
 .
 h
 "
 #
 include
 "
-MediaStreamListener
+MediaTrackListener
 .
 h
 "
@@ -50,7 +50,7 @@ class
 SpeechTrackListener
 :
 public
-MediaStreamTrackListener
+MediaTrackListener
 {
 public
 :
@@ -72,10 +72,10 @@ default
 void
 NotifyQueuedChanges
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
-StreamTime
+TrackTime
 aTrackOffset
 const
 MediaSegment
@@ -87,7 +87,7 @@ override
 void
 NotifyEnded
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
 )
@@ -96,7 +96,7 @@ override
 void
 NotifyRemoved
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
 )

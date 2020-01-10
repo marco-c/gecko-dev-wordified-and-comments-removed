@@ -30,7 +30,7 @@ h
 #
 include
 "
-AudioNodeStream
+AudioNodeTrack
 .
 h
 "
@@ -73,9 +73,9 @@ NS_IsMainThread
 void
 ProcessBlocksOnPorts
 (
-AudioNodeStream
+AudioNodeTrack
 *
-aStream
+aTrack
 Span
 <
 const
@@ -274,9 +274,9 @@ mOutputCount
 aOutputCount
 )
 {
-mStream
+mTrack
 =
-AudioNodeStream
+AudioNodeTrack
 :
 :
 Create
@@ -287,10 +287,10 @@ ChannelSplitterNodeEngine
 (
 this
 )
-AudioNodeStream
+AudioNodeTrack
 :
 :
-NO_STREAM_FLAGS
+NO_TRACK_FLAGS
 aContext
 -
 >

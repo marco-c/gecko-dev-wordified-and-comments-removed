@@ -48,7 +48,7 @@ namespace
 mozilla
 {
 class
-AudioNodeStream
+AudioNodeTrack
 ;
 extern
 LazyLogModule
@@ -153,7 +153,7 @@ ConvertAudioTimelineEventToTicks
 AudioTimelineEvent
 &
 aEvent
-AudioNodeStream
+AudioNodeTrack
 *
 aDest
 )

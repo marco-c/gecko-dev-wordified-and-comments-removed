@@ -92,7 +92,7 @@ class
 MediaEnginePrefs
 ;
 class
-SourceMediaStream
+SourceMediaTrack
 ;
 class
 MediaEnginePhotoCallback
@@ -267,10 +267,10 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 &
-aStream
+aTrack
 const
 PrincipalHandle
 &
