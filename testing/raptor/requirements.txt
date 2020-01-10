@@ -58,3 +58,9 @@ mozpower
 0
 .
 0
+mozversion
+>
+=
+1
+.
+0
