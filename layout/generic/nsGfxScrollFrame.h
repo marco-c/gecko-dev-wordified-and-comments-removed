@@ -2244,6 +2244,12 @@ nsSize
 aICBSize
 )
 ;
+nsSize
+TrueOuterSize
+(
+)
+const
+;
 nsCOMPtr
 <
 mozilla
