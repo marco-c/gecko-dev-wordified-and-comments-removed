@@ -8613,16 +8613,12 @@ u8
 )
 -
 >
+Option
+<
 usize
+>
 {
         
-if
-let
-Some
-(
-n
-)
-=
 match
 *
 self
@@ -8638,6 +8634,9 @@ v
 )
 =
 >
+{
+                
+return
 Some
 (
 v
@@ -8647,6 +8646,9 @@ latin1_byte_compatible_up_to
 buffer
 )
 )
+;
+            
+}
             
 VariantDecoder
 :
@@ -8661,6 +8663,7 @@ v
 {
                 
 if
+!
 v
 .
 in_neutral_state
@@ -8668,16 +8671,9 @@ in_neutral_state
 )
 {
                     
+return
 None
-                
-}
-else
-{
-                    
-Some
-(
-0
-)
+;
                 
 }
             
@@ -8696,6 +8692,7 @@ v
 {
                 
 if
+!
 v
 .
 in_neutral_state
@@ -8703,16 +8700,9 @@ in_neutral_state
 )
 {
                     
+return
 None
-                
-}
-else
-{
-                    
-Some
-(
-0
-)
+;
                 
 }
             
@@ -8731,6 +8721,7 @@ v
 {
                 
 if
+!
 v
 .
 in_neutral_state
@@ -8738,16 +8729,9 @@ in_neutral_state
 )
 {
                     
+return
 None
-                
-}
-else
-{
-                    
-Some
-(
-0
-)
+;
                 
 }
             
@@ -8766,6 +8750,7 @@ v
 {
                 
 if
+!
 v
 .
 in_neutral_state
@@ -8773,16 +8758,9 @@ in_neutral_state
 )
 {
                     
+return
 None
-                
-}
-else
-{
-                    
-Some
-(
-0
-)
+;
                 
 }
             
@@ -8808,6 +8786,7 @@ in_neutral_state
 )
 {
                     
+return
 Some
 (
 Encoding
@@ -8818,17 +8797,13 @@ iso_2022_jp_ascii_valid_up_to
 buffer
 )
 )
+;
                 
 }
-else
-{
-                    
-Some
-(
-0
-)
                 
-}
+return
+None
+;
             
 }
             
@@ -8845,6 +8820,7 @@ v
 {
                 
 if
+!
 v
 .
 in_neutral_state
@@ -8852,16 +8828,9 @@ in_neutral_state
 )
 {
                     
+return
 None
-                
-}
-else
-{
-                    
-Some
-(
-0
-)
+;
                 
 }
             
@@ -8880,6 +8849,7 @@ v
 {
                 
 if
+!
 v
 .
 in_neutral_state
@@ -8887,16 +8857,9 @@ in_neutral_state
 )
 {
                     
+return
 None
-                
-}
-else
-{
-                    
-Some
-(
-0
-)
+;
                 
 }
             
@@ -8911,7 +8874,8 @@ _
 )
 =
 >
-None
+{
+}
             
 VariantDecoder
 :
@@ -8930,20 +8894,19 @@ _
 )
 =
 >
+{
+                
+return
+None
+;
+            
+}
+        
+}
+;
+        
 Some
 (
-0
-)
-        
-}
-{
-            
-n
-        
-}
-else
-{
-            
 Encoding
 :
 :
@@ -8951,8 +8914,7 @@ ascii_valid_up_to
 (
 buffer
 )
-        
-}
+)
     
 }
 }

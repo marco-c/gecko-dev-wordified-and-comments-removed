@@ -12404,7 +12404,6 @@ valid
 16
 )
 ;
-;
 let
 lone_high
 =
@@ -12444,7 +12443,6 @@ lone_high
 14
 )
 ;
-;
 let
 lone_low
 =
@@ -12483,7 +12481,6 @@ lone_low
 )
 14
 )
-;
 ;
 let
 lone_high_at_end
