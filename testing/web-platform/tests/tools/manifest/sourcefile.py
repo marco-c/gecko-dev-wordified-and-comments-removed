@@ -2178,16 +2178,6 @@ or
                 
 self
 .
-type_flag
-=
-=
-"
-support
-"
-or
-                
-self
-.
 in_non_test_dir
 (
 )
