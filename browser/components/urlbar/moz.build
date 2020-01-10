@@ -78,6 +78,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+UrlbarContextualTip
+.
+jsm
+'
+'
 UrlbarController
 .
 jsm
