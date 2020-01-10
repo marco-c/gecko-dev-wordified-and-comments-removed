@@ -6669,6 +6669,9 @@ def
 provided_program
 (
 env_var
+when
+=
+None
 )
 :
 '
@@ -6701,6 +6704,9 @@ arguments
 depends_if
 (
 env_var
+when
+=
+when
 )
 imports
 (
