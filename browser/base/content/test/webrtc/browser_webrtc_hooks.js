@@ -1726,6 +1726,9 @@ runTests
 (
 gTests
 {
+skipObserverVerification
+:
+true
 cleanup
 (
 )
