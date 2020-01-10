@@ -51,6 +51,17 @@ mozilla
 /
 dom
 /
+AudioWorkletProcessor
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StructuredCloneHolder
 .
 h
