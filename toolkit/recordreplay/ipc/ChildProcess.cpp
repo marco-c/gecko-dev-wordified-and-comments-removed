@@ -272,8 +272,9 @@ MessageType
 :
 Paint
 :
-UpdateGraphicsAfterPaint
+UpdateGraphicsInUIProcess
 (
+&
 static_cast
 <
 const

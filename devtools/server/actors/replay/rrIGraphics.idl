@@ -132,11 +132,9 @@ width
 in
 long
 height
-)
-;
-void
-ClearCanvas
-(
+in
+boolean
+hadFailure
 )
 ;
 }

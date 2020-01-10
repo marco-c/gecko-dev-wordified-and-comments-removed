@@ -185,13 +185,5 @@ NewTimeWarpTarget
 (
 )
 ;
-void
-ScriptResumeFrame
-(
-in
-long
-script
-)
-;
 }
 ;
