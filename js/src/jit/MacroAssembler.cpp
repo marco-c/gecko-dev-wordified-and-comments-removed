@@ -13799,6 +13799,12 @@ VMFunctionData
 :
 RootCell
 :
+case
+VMFunctionData
+:
+:
+RootBigInt
+:
 Push
 (
 ImmPtr
@@ -13915,6 +13921,12 @@ VMFunctionData
 :
 :
 RootId
+:
+case
+VMFunctionData
+:
+:
+RootBigInt
 :
 Pop
 (
