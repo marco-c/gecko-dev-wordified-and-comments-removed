@@ -43754,7 +43754,7 @@ scale
 =
 aScaleString
 .
-ToFloat
+ToFloatAllowTrailingChars
 (
 &
 scaleErrorCode
