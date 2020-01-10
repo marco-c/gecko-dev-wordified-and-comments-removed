@@ -770,7 +770,7 @@ use
 -
 brand
 -
-short
+product
 -
 name
 }
@@ -809,7 +809,7 @@ use
 -
 brand
 -
-short
+product
 -
 name
 }
