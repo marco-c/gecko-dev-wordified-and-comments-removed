@@ -10064,11 +10064,6 @@ if
 mSrcStream
 )
 {
-MOZ_ASSERT
-(
-mMediaStreamRenderer
-)
-;
 if
 (
 AudioTrack
@@ -10081,6 +10076,11 @@ aTrack
 AsAudioTrack
 (
 )
+)
+{
+if
+(
+mMediaStreamRenderer
 )
 {
 mMediaStreamRenderer
@@ -10096,6 +10096,7 @@ GetAudioStreamTrack
 )
 )
 ;
+}
 }
 else
 if
@@ -10135,6 +10136,11 @@ AddPrincipalChangeObserver
 this
 )
 ;
+if
+(
+mMediaStreamRenderer
+)
+{
 mMediaStreamRenderer
 -
 >
@@ -10143,6 +10149,7 @@ AddTrack
 mSelectedVideoStreamTrack
 )
 ;
+}
 nsContentUtils
 :
 :
@@ -10448,6 +10455,11 @@ AsAudioTrack
 {
 if
 (
+mSrcStream
+)
+{
+if
+(
 mMediaStreamRenderer
 )
 {
@@ -10464,6 +10476,7 @@ GetAudioStreamTrack
 )
 )
 ;
+}
 }
 MOZ_DIAGNOSTIC_ASSERT
 (
@@ -10577,7 +10590,7 @@ AsVideoTrack
 {
 if
 (
-mMediaStreamRenderer
+mSrcStream
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -10616,6 +10629,11 @@ mFirstFrameListener
 nullptr
 ;
 }
+if
+(
+mMediaStreamRenderer
+)
+{
 mMediaStreamRenderer
 -
 >
@@ -10624,6 +10642,7 @@ RemoveTrack
 mSelectedVideoStreamTrack
 )
 ;
+}
 mSelectedVideoStreamTrack
 -
 >
@@ -22636,6 +22655,11 @@ mSrcStreamPlaybackEnded
 =
 false
 ;
+if
+(
+mMediaStreamRenderer
+)
+{
 mMediaStreamRenderer
 -
 >
@@ -22643,6 +22667,7 @@ Start
 (
 )
 ;
+}
 if
 (
 mSink
@@ -22704,6 +22729,11 @@ true
 }
 else
 {
+if
+(
+mMediaStreamRenderer
+)
+{
 mMediaStreamRenderer
 -
 >
@@ -22711,6 +22741,7 @@ Stop
 (
 )
 ;
+}
 VideoFrameContainer
 *
 container
