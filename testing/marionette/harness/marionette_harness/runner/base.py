@@ -1910,13 +1910,21 @@ add_argument
 '
 -
 -
-pref
+setpref
 '
                           
 action
 =
 '
 append
+'
+                          
+metavar
+=
+'
+PREF
+=
+VALUE
 '
                           
 dest
@@ -3175,7 +3183,7 @@ prefs_file
 separator
 =
 '
-:
+=
 '
         
 cli_prefs
