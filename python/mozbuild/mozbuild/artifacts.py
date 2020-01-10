@@ -391,6 +391,12 @@ central
 '
 integration
 /
+autoland
+'
+        
+'
+integration
+/
 mozilla
 -
 inbound
@@ -402,6 +408,14 @@ releases
 mozilla
 -
 beta
+'
+        
+'
+releases
+/
+mozilla
+-
+release
 '
     
 ]
