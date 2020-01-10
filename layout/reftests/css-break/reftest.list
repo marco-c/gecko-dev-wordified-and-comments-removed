@@ -202,9 +202,6 @@ if
 (
 !
 gtkWidget
-|
-|
-webrender
 )
 =
 =

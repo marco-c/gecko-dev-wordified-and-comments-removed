@@ -1086,14 +1086,7 @@ LayoutDeviceRect
 :
 FromAppUnits
 (
-frame
--
->
-GetVisualOverflowRectRelativeToSelf
-(
-)
-+
-offset
+rect
 appUnitsPerDevPixel
 )
 )
