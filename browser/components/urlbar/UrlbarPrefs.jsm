@@ -386,6 +386,16 @@ disable_autohide
 "
 false
 ]
+[
+"
+browser
+.
+fixup
+.
+dns_first_for_single_words
+"
+false
+]
 ]
 )
 ;
