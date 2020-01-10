@@ -352,14 +352,6 @@ restyleSearches
 "
 false
 ]
-[
-"
-view
-.
-stripHttps
-"
-false
-]
 ]
 )
 ;
