@@ -75,6 +75,9 @@ Constructor
 optional
 FaceDetectorOptions
 faceDetectorOptions
+=
+{
+}
 )
 ]
 interface
@@ -184,6 +187,9 @@ Constructor
 optional
 BarcodeDetectorOptions
 barcodeDetectorOptions
+=
+{
+}
 )
 ]
 interface
