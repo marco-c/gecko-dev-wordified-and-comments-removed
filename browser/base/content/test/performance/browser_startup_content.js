@@ -38,9 +38,9 @@ resource
 /
 specialpowers
 /
-specialpowers
+SpecialPowers
 .
-js
+jsm
 "
 "
 resource
