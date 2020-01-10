@@ -233,7 +233,7 @@ by
 things
 like
 mach
-mozreview
+phabricator
 and
 taskcluster
 .
