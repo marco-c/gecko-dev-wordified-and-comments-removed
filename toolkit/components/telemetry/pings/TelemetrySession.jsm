@@ -3647,6 +3647,18 @@ getFlashVersion
 (
 )
 {
+if
+(
+AppConstants
+.
+MOZ_APP_NAME
+=
+=
+"
+firefox
+"
+)
+{
 let
 host
 =
@@ -3723,6 +3735,7 @@ i
 .
 version
 ;
+}
 }
 }
 return

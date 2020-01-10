@@ -61,6 +61,9 @@ interval
 endif
 #
 ifndef
+MOZ_THUNDERBIRD
+#
+ifndef
 MOZ_WIDGET_ANDROID
 category
 addon
@@ -104,3 +107,5 @@ addons
 GMPProvider
 .
 jsm
+#
+endif

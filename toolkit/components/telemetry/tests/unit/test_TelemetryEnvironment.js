@@ -6921,7 +6921,8 @@ test_pluginsWatch_Add
 {
 if
 (
-gIsAndroid
+!
+gIsFirefox
 )
 {
 Assert
@@ -7090,7 +7091,8 @@ test_pluginsWatch_Remove
 {
 if
 (
-gIsAndroid
+!
+gIsFirefox
 )
 {
 Assert
