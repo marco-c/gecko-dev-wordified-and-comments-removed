@@ -12128,7 +12128,7 @@ self
 .
 texture_cache
 .
-bgra_swizzle
+swizzle_settings
 (
 )
 )
