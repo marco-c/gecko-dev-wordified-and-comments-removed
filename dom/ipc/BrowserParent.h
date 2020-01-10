@@ -2752,6 +2752,9 @@ aDropEffect
 nsIPrincipal
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 )
 ;
 void
@@ -3120,6 +3123,9 @@ aDragRect
 nsIPrincipal
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 )
 ;
 void

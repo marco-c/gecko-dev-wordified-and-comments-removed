@@ -421,6 +421,12 @@ nsIPrincipal
 >
 mTriggeringPrincipal
 ;
+nsCOMPtr
+<
+nsIContentSecurityPolicy
+>
+mCsp
+;
 RefPtr
 <
 mozilla

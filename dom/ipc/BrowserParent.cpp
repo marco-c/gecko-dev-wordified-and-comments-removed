@@ -7400,6 +7400,9 @@ aDropEffect
 nsIPrincipal
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 )
 {
 if
@@ -7475,6 +7478,7 @@ aEvent
 aDragAction
 aDropEffect
 aPrincipal
+aCsp
 )
 ;
 NS_WARNING_ASSERTION
@@ -18819,6 +18823,9 @@ aDragRect
 nsIPrincipal
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 )
 {
 PresShell
@@ -18896,6 +18903,7 @@ aTransfers
 )
 aDragRect
 aPrincipal
+aCsp
 )
 ;
 if
