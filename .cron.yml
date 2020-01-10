@@ -408,7 +408,7 @@ name
 :
 nightly
 -
-android
+geckoview
 job
 :
 type
@@ -420,14 +420,14 @@ treeherder
 -
 symbol
 :
-Na
+Ngv
 target
 -
 tasks
 -
 method
 :
-nightly_fennec
+nightly_geckoview
 include
 -
 push
