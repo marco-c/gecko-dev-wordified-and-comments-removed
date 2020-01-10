@@ -12243,7 +12243,7 @@ MOZ_ASSERT
 frame
 -
 >
-frameSize
+debugFrameSize
 (
 )
 =

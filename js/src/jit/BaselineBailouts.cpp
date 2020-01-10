@@ -4518,6 +4518,7 @@ false
 ;
 }
 }
+const
 uint32_t
 frameSize
 =
@@ -4527,14 +4528,19 @@ framePushed
 (
 )
 ;
+#
+ifdef
+DEBUG
 blFrame
 -
 >
-setFrameSize
+setDebugFrameSize
 (
 frameSize
 )
 ;
+#
+endif
 JitSpew
 (
 JitSpew_BaselineBailouts
@@ -4552,7 +4558,7 @@ MOZ_ASSERT
 blFrame
 -
 >
-numValueSlots
+debugNumValueSlots
 (
 )
 >
@@ -4570,7 +4576,7 @@ MOZ_ASSERT
 blFrame
 -
 >
-numValueSlots
+debugNumValueSlots
 (
 )
 <
@@ -5673,6 +5679,7 @@ blFrame
 >
 numValueSlots
 (
+frameSize
 )
 -
 1
@@ -8630,6 +8637,14 @@ toMonitoredFallbackStub
 (
 )
 ;
+uint32_t
+frameSize
+=
+bailoutInfo
+-
+>
+frameSizeOfInnerMostFrame
+;
 RootedValue
 val
 (
@@ -8639,6 +8654,7 @@ topFrame
 >
 topStackValue
 (
+frameSize
 )
 )
 ;
