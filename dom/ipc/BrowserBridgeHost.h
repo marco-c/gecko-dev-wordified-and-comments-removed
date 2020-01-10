@@ -173,14 +173,6 @@ aSize
 )
 override
 ;
-void
-UpdateEffects
-(
-EffectsInfo
-aInfo
-)
-override
-;
 private
 :
 virtual
@@ -196,9 +188,6 @@ RefPtr
 BrowserBridgeChild
 >
 mBridge
-;
-EffectsInfo
-mEffectsInfo
 ;
 }
 ;
