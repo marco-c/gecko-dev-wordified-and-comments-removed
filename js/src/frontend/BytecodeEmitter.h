@@ -1825,6 +1825,10 @@ emitDupAt
 (
 unsigned
 slotFromTop
+unsigned
+count
+=
+1
 )
 ;
 MOZ_MUST_USE
