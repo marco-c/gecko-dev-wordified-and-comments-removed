@@ -308,9 +308,12 @@ CallIndirect
 Drop
 =
 0x1a
-Select
+SelectNumeric
 =
 0x1b
+SelectTyped
+=
+0x1c
 GetLocal
 =
 0x20

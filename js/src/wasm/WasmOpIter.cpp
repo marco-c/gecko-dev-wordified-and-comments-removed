@@ -1202,7 +1202,13 @@ case
 Op
 :
 :
-Select
+SelectNumeric
+:
+case
+Op
+:
+:
+SelectTyped
 :
 return
 OpKind
