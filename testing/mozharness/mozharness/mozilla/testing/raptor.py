@@ -4181,6 +4181,17 @@ firefox_android_browsers
             
 self
 .
+device
+.
+uninstall_app
+(
+self
+.
+binary_path
+)
+            
+self
+.
 install_apk
 (
 self
