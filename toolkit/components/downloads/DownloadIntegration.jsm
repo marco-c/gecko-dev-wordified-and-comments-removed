@@ -3229,6 +3229,14 @@ catch
 )
 ;
 }
+this
+.
+_canceledOfflineDownloads
+.
+clear
+(
+)
+;
 }
 observe
 :
