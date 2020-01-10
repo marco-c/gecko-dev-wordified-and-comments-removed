@@ -230,19 +230,6 @@ SharedArrayBuffer
 '
 )
 "
-    
-"
-dynamic
--
-import
-"
-:
-"
-!
-xulRuntime
-.
-shell
-"
 }
 RELEASE_OR_BETA
 =
@@ -538,6 +525,7 @@ skip
 skipIf
 error
 isModule
+isAsync
 )
 :
     
@@ -690,6 +678,19 @@ append
 (
 "
 module
+"
+)
+    
+if
+isAsync
+:
+        
+terms
+.
+append
+(
+"
+async
 "
 )
     
@@ -1547,6 +1548,16 @@ else
 None
     
 if
+isNegative
+and
+isAsync
+:
+        
+isAsync
+=
+False
+    
+if
 "
 CanBlockIsFalse
 "
@@ -1917,6 +1928,8 @@ refTestSkip
 refTestSkipIf
 errorType
 isModule
+                                           
+isAsync
 )
     
 if
@@ -2132,6 +2145,10 @@ isModule
 =
 False
     
+isAsync
+=
+False
+    
 (
 terms
 comments
@@ -2143,6 +2160,8 @@ refTestSkip
 refTestSkipIf
 errorType
 isModule
+                                           
+isAsync
 )
     
 refTest

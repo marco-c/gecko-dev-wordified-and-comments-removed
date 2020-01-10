@@ -1073,6 +1073,12 @@ False
         
 self
 .
+is_async
+=
+False
+        
+self
+.
 enable
 =
 True
