@@ -15,6 +15,15 @@ h
 #
 include
 "
+common
+/
+attributes
+.
+h
+"
+#
+include
+"
 src
 /
 qm
@@ -48243,6 +48252,7 @@ y
 ;
 }
 }
+COLD
 void
 dav1d_init_qm_tables
 (

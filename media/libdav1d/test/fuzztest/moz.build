@@ -113,6 +113,14 @@ third_party
 /
 dav1d
 /
+include
+'
+'
+/
+third_party
+/
+dav1d
+/
 tests
 /
 libfuzzer

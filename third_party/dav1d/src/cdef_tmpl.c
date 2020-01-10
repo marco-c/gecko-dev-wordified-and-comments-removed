@@ -2133,6 +2133,7 @@ return
 best_dir
 ;
 }
+COLD
 void
 bitfn
 (

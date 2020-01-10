@@ -55,6 +55,7 @@ log
 .
 h
 "
+COLD
 void
 dav1d_log_default_callback
 (
@@ -82,6 +83,7 @@ ap
 #
 if
 CONFIG_LOG
+COLD
 void
 dav1d_log
 (
