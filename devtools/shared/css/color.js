@@ -5170,6 +5170,9 @@ name
 useCssColor4ColorFunction
 =
 false
+toArray
+=
+false
 )
 {
 name
@@ -5529,6 +5532,10 @@ null
 ;
 }
 return
+toArray
+?
+vals
+:
 {
 r
 :
