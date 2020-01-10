@@ -211,9 +211,6 @@ TOOL_ID
 label
 :
 "
-per
--
-toolbox
 Test
 Tool
 "
