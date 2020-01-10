@@ -3326,12 +3326,6 @@ case
 SdpMediaSection
 :
 :
-kTcpTlsRtpSavpf
-:
-case
-SdpMediaSection
-:
-:
 kTcpDtlsRtpSavpf
 :
 case
@@ -3450,12 +3444,6 @@ SdpMediaSection
 :
 :
 kUdpTlsRtpSavp
-:
-case
-SdpMediaSection
-:
-:
-kTcpTlsRtpSavp
 :
 case
 SdpMediaSection

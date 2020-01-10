@@ -216,14 +216,14 @@ true
 sdp_transport_supported
 (
 sipcc_config
-SDP_TRANSPORT_TCPTLSRTPSAVP
+SDP_TRANSPORT_TCPDTLSRTPSAVP
 true
 )
 ;
 sdp_transport_supported
 (
 sipcc_config
-SDP_TRANSPORT_TCPTLSRTPSAVPF
+SDP_TRANSPORT_TCPDTLSRTPSAVPF
 true
 )
 ;
