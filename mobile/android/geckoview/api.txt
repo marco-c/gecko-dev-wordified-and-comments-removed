@@ -6217,6 +6217,12 @@ field
 public
 final
 boolean
+hasUserGesture
+;
+field
+public
+final
+boolean
 isRedirect
 ;
 field
