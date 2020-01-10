@@ -6659,7 +6659,7 @@ key
 aItem
 -
 >
-GetRawPerFrameKey
+GetPerFrameIndex
 (
 )
 ;
@@ -6694,7 +6694,7 @@ ItemType
 item
 -
 >
-SetPerFrameKey
+SetPerFrameIndex
 (
 key
 )
@@ -6850,7 +6850,7 @@ key
 T
 :
 :
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 aBuilder
 aFrame
@@ -6919,7 +6919,7 @@ type
 item
 -
 >
-SetPerFrameKey
+SetPerFrameIndex
 (
 key
 )
@@ -7451,7 +7451,7 @@ mType
 ;
 }
 uint16_t
-GetRawPerFrameKey
+GetPerFrameIndex
 (
 )
 const
@@ -7470,7 +7470,7 @@ Args
 >
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 Args
 &
@@ -7910,7 +7910,7 @@ aType
 ;
 }
 void
-SetPerFrameKey
+SetPerFrameIndex
 (
 const
 uint16_t
@@ -15920,7 +15920,7 @@ nullptr
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -16679,7 +16679,7 @@ aCellFrame
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -17177,7 +17177,7 @@ this
 }
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -18061,7 +18061,7 @@ this
 }
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -19297,7 +19297,7 @@ Nothing
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -19360,7 +19360,7 @@ aHitTestInfo
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -19577,7 +19577,7 @@ aList
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -19609,7 +19609,7 @@ aItem
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -19653,7 +19653,7 @@ aIndex
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -21301,7 +21301,7 @@ aIndex
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -21630,7 +21630,7 @@ this
 }
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -22035,7 +22035,7 @@ aIsForBackground
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -22252,7 +22252,7 @@ this
 }
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -22437,7 +22437,7 @@ false
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -22767,7 +22767,7 @@ aRenderRoot
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -22991,7 +22991,7 @@ aFlags
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -23325,7 +23325,7 @@ aContainerASR
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -23557,7 +23557,7 @@ aContainerASR
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -23837,7 +23837,7 @@ aIndex
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -24000,7 +24000,7 @@ aAncestorFrame
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -24117,7 +24117,7 @@ aScrollFrame
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -24336,7 +24336,7 @@ None
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -24529,7 +24529,7 @@ aViewID
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -25767,7 +25767,7 @@ aIndex
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -25813,7 +25813,7 @@ aAllowAsyncAnimation
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -25861,7 +25861,7 @@ aTransformGetter
 ;
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
