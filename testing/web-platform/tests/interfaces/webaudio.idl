@@ -618,7 +618,7 @@ channelNumber
 optional
 unsigned
 long
-startInChannel
+bufferOffset
 =
 0
 )
@@ -634,7 +634,7 @@ channelNumber
 optional
 unsigned
 long
-startInChannel
+bufferOffset
 =
 0
 )
