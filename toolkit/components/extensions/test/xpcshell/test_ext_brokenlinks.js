@@ -34,9 +34,6 @@ missing
 js
 "
 ]
-persistent
-:
-false
 }
 }
 }
