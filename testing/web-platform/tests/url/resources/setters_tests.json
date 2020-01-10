@@ -928,7 +928,6 @@ example
 net
 :
 1234
-/
 "
 "
 protocol
@@ -1526,7 +1525,7 @@ new_value
 "
 :
 "
-gopher
+https
 "
 "
 expected
