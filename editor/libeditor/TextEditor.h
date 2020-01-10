@@ -1331,6 +1331,7 @@ aDoDeleteSelection
 ;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
+virtual
 nsresult
 InsertWithQuotationsAsSubAction
 (
