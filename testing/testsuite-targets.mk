@@ -1838,7 +1838,7 @@ hyphenation
 /
 *
 .
-hyf
+dic
 )
 (
 DEPTH

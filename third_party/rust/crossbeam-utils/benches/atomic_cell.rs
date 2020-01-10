@@ -353,6 +353,7 @@ spawn
 |
 _
 |
+{
 loop
 {
 start
@@ -408,6 +409,7 @@ load
 {
 break
 ;
+}
 }
 }
 )
@@ -789,6 +791,7 @@ spawn
 |
 _
 |
+{
 loop
 {
 start
@@ -844,6 +847,7 @@ load
 {
 break
 ;
+}
 }
 }
 )

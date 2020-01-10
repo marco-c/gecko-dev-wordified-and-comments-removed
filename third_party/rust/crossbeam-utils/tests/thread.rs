@@ -630,7 +630,6 @@ Vec
 <
 Box
 <
-dyn
 Any
 +
 Send
@@ -829,7 +828,6 @@ Vec
 <
 Box
 <
-dyn
 Any
 +
 Send

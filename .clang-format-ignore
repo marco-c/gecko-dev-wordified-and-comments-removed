@@ -295,15 +295,6 @@ webrender_bindings
 webrender_ffi_generated
 .
 h
-dom
-/
-webgpu
-/
-ffi
-/
-wgpu_ffi_generated
-.
-h
 intl
 /
 unicharutil
