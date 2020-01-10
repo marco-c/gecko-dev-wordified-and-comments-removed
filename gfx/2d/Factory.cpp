@@ -4735,8 +4735,8 @@ float
 aSize
 bool
 aUseEmbeddedBitmap
-bool
-aForceGDIMode
+int
+aRenderingMode
 IDWriteRenderingParams
 *
 aParams
@@ -4756,7 +4756,10 @@ aFontFace
 aUnscaledFont
 aSize
 aUseEmbeddedBitmap
-aForceGDIMode
+(
+DWRITE_RENDERING_MODE
+)
+aRenderingMode
 aParams
 aGamma
 aContrast
