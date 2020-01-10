@@ -359,6 +359,15 @@ XULControllers
 controllers
 ;
 [
+Throws
+]
+readonly
+attribute
+BoxObject
+?
+boxObject
+;
+[
 SetterThrows
 ]
 attribute

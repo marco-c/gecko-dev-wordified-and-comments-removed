@@ -605,6 +605,13 @@ h
 #
 include
 "
+nsPIBoxObject
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

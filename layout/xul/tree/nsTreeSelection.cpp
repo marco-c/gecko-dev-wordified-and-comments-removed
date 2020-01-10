@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsIBoxObject
+.
+h
+"
+#
+include
+"
 XULTreeElement
 .
 h
