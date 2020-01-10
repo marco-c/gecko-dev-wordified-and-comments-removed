@@ -2251,9 +2251,10 @@ jsm
 "
 )
 ;
-MOZ_ALWAYS_TRUE
+NS_ENSURE_TRUE
 (
 funcs
+false
 )
 ;
 nsCOMPtr
