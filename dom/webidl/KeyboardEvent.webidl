@@ -91,8 +91,12 @@ MPL
 .
 *
 /
-[
-Constructor
+interface
+KeyboardEvent
+:
+UIEvent
+{
+constructor
 (
 DOMString
 typeArg
@@ -103,12 +107,7 @@ keyboardEventInitDict
 {
 }
 )
-]
-interface
-KeyboardEvent
-:
-UIEvent
-{
+;
 [
 NeedsCallerType
 ]
@@ -224,7 +223,6 @@ DOMString
 code
 ;
 [
-Throws
 BinaryName
 =
 "

@@ -111,9 +111,6 @@ const
 TransitionEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

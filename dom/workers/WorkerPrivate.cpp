@@ -21106,7 +21106,6 @@ connect
 "
 )
 init
-rv
 )
 ;
 event

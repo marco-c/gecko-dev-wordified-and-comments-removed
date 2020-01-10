@@ -86,9 +86,6 @@ const
 WheelEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 virtual

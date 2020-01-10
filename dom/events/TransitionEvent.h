@@ -93,9 +93,6 @@ const
 TransitionEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 virtual

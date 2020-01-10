@@ -643,9 +643,6 @@ const
 PointerEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

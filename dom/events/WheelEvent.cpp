@@ -445,9 +445,6 @@ const
 WheelEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

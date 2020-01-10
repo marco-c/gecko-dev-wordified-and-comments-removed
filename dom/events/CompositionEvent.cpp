@@ -149,9 +149,6 @@ const
 CompositionEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

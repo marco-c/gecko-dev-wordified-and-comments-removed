@@ -169,9 +169,6 @@ const
 StreamFilterDataEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

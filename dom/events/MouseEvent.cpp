@@ -602,9 +602,6 @@ const
 MouseEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

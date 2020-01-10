@@ -180,9 +180,6 @@ const
 DragEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 protected

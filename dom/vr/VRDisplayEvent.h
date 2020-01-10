@@ -224,9 +224,6 @@ const
 VRDisplayEventInit
 &
 aEventInitDict
-ErrorResult
-&
-aRv
 )
 ;
 }

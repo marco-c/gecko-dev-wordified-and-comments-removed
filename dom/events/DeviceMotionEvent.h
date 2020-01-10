@@ -549,9 +549,6 @@ const
 DeviceMotionEventInit
 &
 aEventInitDict
-ErrorResult
-&
-aRv
 )
 ;
 protected

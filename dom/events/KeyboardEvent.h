@@ -105,9 +105,6 @@ const
 KeyboardEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 virtual
@@ -380,9 +377,6 @@ bool
 aShiftKey
 bool
 aMetaKey
-ErrorResult
-&
-aRv
 )
 ;
 protected
@@ -407,9 +401,6 @@ const
 KeyboardEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 private

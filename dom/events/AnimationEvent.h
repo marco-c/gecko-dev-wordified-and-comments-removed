@@ -93,9 +93,6 @@ const
 AnimationEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 virtual

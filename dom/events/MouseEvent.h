@@ -314,9 +314,6 @@ const
 MouseEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 int32_t

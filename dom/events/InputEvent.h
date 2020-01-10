@@ -89,9 +89,6 @@ const
 InputEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 virtual

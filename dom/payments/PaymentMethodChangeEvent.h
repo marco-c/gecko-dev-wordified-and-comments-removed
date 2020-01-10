@@ -148,9 +148,6 @@ const
 PaymentMethodChangeEventInit
 &
 aEventInitDict
-ErrorResult
-&
-aRv
 )
 ;
 void

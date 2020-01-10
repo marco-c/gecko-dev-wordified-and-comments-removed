@@ -168,9 +168,6 @@ const
 PaymentRequestUpdateEventInit
 &
 aEventInitDict
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

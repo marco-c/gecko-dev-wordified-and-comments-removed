@@ -104,9 +104,6 @@ const
 PointerEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 static

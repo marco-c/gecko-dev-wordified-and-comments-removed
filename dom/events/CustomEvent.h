@@ -105,9 +105,6 @@ const
 CustomEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 virtual

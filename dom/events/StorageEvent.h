@@ -189,9 +189,6 @@ const
 StorageEventInit
 &
 aEventInitDict
-ErrorResult
-&
-aRv
 )
 ;
 void

@@ -339,9 +339,6 @@ const
 IDBVersionChangeEventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

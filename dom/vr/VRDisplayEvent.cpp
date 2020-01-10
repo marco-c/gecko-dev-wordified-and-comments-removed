@@ -308,9 +308,6 @@ const
 VRDisplayEventInit
 &
 aEventInitDict
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

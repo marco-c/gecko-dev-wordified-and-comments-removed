@@ -441,9 +441,6 @@ const
 MessageEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

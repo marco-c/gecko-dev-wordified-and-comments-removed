@@ -298,9 +298,6 @@ const
 IDBVersionChangeEventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 ;
 uint64_t

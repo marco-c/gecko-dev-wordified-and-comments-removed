@@ -339,9 +339,6 @@ const
 DragEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr
