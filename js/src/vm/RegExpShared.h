@@ -368,13 +368,6 @@ RegExpFlags
 flags
 )
 ;
-~
-RegExpShared
-(
-)
-=
-default
-;
 static
 bool
 compile
@@ -474,6 +467,13 @@ latin1
 }
 public
 :
+~
+RegExpShared
+(
+)
+=
+delete
+;
 static
 RegExpRunStatus
 execute

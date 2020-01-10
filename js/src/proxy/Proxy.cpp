@@ -4349,10 +4349,7 @@ usingInlineValueArray
 )
 )
 {
-fop
--
->
-free_
+js_free
 (
 js
 :
