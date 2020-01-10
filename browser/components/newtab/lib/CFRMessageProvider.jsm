@@ -4386,8 +4386,6 @@ pageLoad
 4
 &
 &
-&
-&
 firefoxVersion
 >
 =
