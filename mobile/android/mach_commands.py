@@ -485,7 +485,7 @@ Pgenerate_sdk_bindings_args
 format
 (
 '
-:
+;
 '
 .
 join

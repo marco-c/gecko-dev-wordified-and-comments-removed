@@ -4587,7 +4587,7 @@ generate_sdk_bindings_args
 split
 (
 '
-:
+;
 '
 )
 }
