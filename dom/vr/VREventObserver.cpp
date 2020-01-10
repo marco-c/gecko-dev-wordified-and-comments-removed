@@ -733,5 +733,14 @@ IsSafeToRunScript
 ;
 }
 }
+void
+VREventObserver
+:
+:
+NotifyEnumerationCompleted
+(
+)
+{
+}
 }
 }
