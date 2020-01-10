@@ -1205,10 +1205,6 @@ menu
 await
 openContextMenuInFrame
 (
-"
-#
-frame
-"
 )
 ;
 await

@@ -463,7 +463,7 @@ testShadowMenu
 let
 doc
 =
-content
+this
 .
 document
 ;
@@ -529,7 +529,9 @@ open
 a
 >
 ;
-content
+this
+.
+document
 .
 testTarget
 =
@@ -538,7 +540,9 @@ host
 firstElementChild
 ;
 return
-content
+this
+.
+document
 .
 testTarget
 ;
@@ -567,7 +571,7 @@ testShadowMenu
 let
 doc
 =
-content
+this
 .
 document
 ;
@@ -633,7 +637,9 @@ closed
 a
 >
 ;
-content
+this
+.
+document
 .
 testTarget
 =
@@ -642,7 +648,9 @@ host
 firstElementChild
 ;
 return
-content
+this
+.
+document
 .
 testTarget
 ;
@@ -671,7 +679,7 @@ testShadowMenu
 let
 doc
 =
-content
+this
 .
 document
 ;
@@ -766,7 +774,9 @@ nested
 a
 >
 ;
-content
+this
+.
+document
 .
 testTarget
 =
@@ -775,7 +785,9 @@ host
 firstElementChild
 ;
 return
-content
+this
+.
+document
 .
 testTarget
 ;

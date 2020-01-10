@@ -344,8 +344,7 @@ impact
 "
 )
 ;
-await
-BrowserTestUtils
+EventUtils
 .
 synthesizeMouseAtCenter
 (
@@ -355,6 +354,8 @@ row
 tabAboutPerformance
 .
 linkedBrowser
+.
+contentWindow
 )
 ;
 Assert
@@ -402,8 +403,7 @@ selected
 "
 )
 ;
-await
-BrowserTestUtils
+EventUtils
 .
 synthesizeMouseAtCenter
 (
@@ -416,6 +416,8 @@ clickCount
 tabAboutPerformance
 .
 linkedBrowser
+.
+contentWindow
 )
 ;
 Assert
@@ -458,8 +460,7 @@ waitForTabClosing
 tabContent
 )
 ;
-await
-BrowserTestUtils
+EventUtils
 .
 synthesizeMouseAtCenter
 (
@@ -474,6 +475,8 @@ children
 tabAboutPerformance
 .
 linkedBrowser
+.
+contentWindow
 )
 ;
 await

@@ -1365,7 +1365,7 @@ openContextMenu
 )
 =
 >
-content
+this
 .
 document
 .

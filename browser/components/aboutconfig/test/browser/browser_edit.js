@@ -758,8 +758,7 @@ translateElements
 radioLabels
 )
 ;
-await
-BrowserTestUtils
+EventUtils
 .
 synthesizeMouseAtCenter
 (
@@ -772,6 +771,8 @@ radioIndex
 this
 .
 browser
+.
+contentWindow
 )
 ;
 newRow
