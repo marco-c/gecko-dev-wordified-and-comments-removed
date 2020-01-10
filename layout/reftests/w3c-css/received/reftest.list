@@ -30863,7 +30863,21 @@ direction
 ref
 .
 xht
-fails
+fuzzy
+-
+if
+(
+OSX
+|
+|
+winWidget
+0
+-
+255
+0
+-
+1540
+)
 =
 =
 css
@@ -35089,7 +35103,6 @@ vrl
 ref
 .
 xht
-fails
 =
 =
 css
@@ -35122,7 +35135,6 @@ green
 square
 .
 xht
-fails
 =
 =
 css
@@ -35155,7 +35167,6 @@ green
 square
 .
 xht
-fails
 =
 =
 css
@@ -35188,7 +35199,6 @@ green
 square
 .
 xht
-fails
 =
 =
 css
@@ -35221,7 +35231,6 @@ green
 square
 .
 xht
-fails
 =
 =
 css
@@ -35254,7 +35263,6 @@ green
 square
 .
 xht
-fails
 =
 =
 css
@@ -35287,7 +35295,6 @@ green
 square
 .
 xht
-fails
 =
 =
 css
@@ -35320,7 +35327,6 @@ green
 square
 .
 xht
-fails
 =
 =
 css
@@ -53543,7 +53549,6 @@ slr
 ref
 .
 html
-fails
 =
 =
 css
@@ -53608,7 +53613,6 @@ progression
 ref
 .
 html
-fails
 =
 =
 css
@@ -53673,7 +53677,6 @@ progression
 ref
 .
 html
-fails
 =
 =
 css
@@ -53738,7 +53741,6 @@ progression
 ref
 .
 html
-fails
 =
 =
 css
@@ -53803,7 +53805,6 @@ progression
 ref
 .
 html
-fails
 =
 =
 css
@@ -53868,7 +53869,6 @@ progression
 ref
 .
 html
-fails
 =
 =
 css
