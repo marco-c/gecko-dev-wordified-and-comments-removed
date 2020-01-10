@@ -139,8 +139,10 @@ if
 (
 completed
 )
+{
 return
 ;
+}
 var
 s
 =
@@ -208,8 +210,10 @@ if
 (
 completed
 )
+{
 return
 ;
+}
 v
 .
 _lastTimeUpdate
@@ -228,8 +232,10 @@ if
 (
 completed
 )
+{
 return
 ;
+}
 var
 e
 =
@@ -329,8 +335,10 @@ if
 (
 completed
 )
+{
 return
 ;
+}
 completed
 =
 true

@@ -3,6 +3,8 @@ manager
 =
 new
 MediaTestManager
+(
+)
 ;
 function
 createTestArray
@@ -74,6 +76,8 @@ t
 =
 new
 Object
+(
+)
 ;
 t
 .
@@ -131,9 +135,9 @@ document
 .
 createElement
 (
-'
+"
 video
-'
+"
 )
 ;
 video
@@ -210,6 +214,7 @@ number
 var
 localIs
 =
+(
 function
 (
 n
@@ -237,7 +242,9 @@ msg
 )
 ;
 }
+;
 }
+)
 (
 name
 )
@@ -245,6 +252,7 @@ name
 var
 localOk
 =
+(
 function
 (
 n
@@ -270,7 +278,9 @@ msg
 )
 ;
 }
+;
 }
+)
 (
 name
 )
@@ -278,6 +288,7 @@ name
 var
 localFinish
 =
+(
 function
 (
 v
@@ -337,7 +348,9 @@ token
 )
 ;
 }
+;
 }
+)
 (
 video
 manager
@@ -363,9 +376,9 @@ n
 ;
 window
 [
-'
+"
 test_seek
-'
+"
 +
 test
 .

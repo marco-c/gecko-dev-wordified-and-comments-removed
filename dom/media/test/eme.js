@@ -17,9 +17,9 @@ gCencMediaKeySystemConfig
 initDataTypes
 :
 [
-'
+"
 cenc
-'
+"
 ]
 videoCapabilities
 :
@@ -27,11 +27,11 @@ videoCapabilities
 {
 contentType
 :
-'
+"
 video
 /
 mp4
-'
+"
 }
 ]
 audioCapabilities
@@ -40,11 +40,11 @@ audioCapabilities
 {
 contentType
 :
-'
+"
 audio
 /
 mp4
-'
+"
 }
 ]
 }
@@ -167,6 +167,7 @@ String
 (
 err
 )
+;
 }
 ok
 (
@@ -195,6 +196,7 @@ finish
 )
 ;
 }
+;
 }
 function
 ArrayBufferToString
@@ -205,8 +207,8 @@ arr
 var
 str
 =
-'
-'
+"
+"
 ;
 var
 view
@@ -888,21 +890,15 @@ keys
 push
 (
 {
-"
 kty
-"
 :
 "
 oct
 "
-"
 kid
-"
 :
 id64
-"
 k
-"
 :
 HexToBase64
 (
@@ -926,14 +922,10 @@ JSON
 stringify
 (
 {
-"
 keys
-"
 :
 keys
-"
 type
-"
 :
 msg
 .
@@ -989,7 +981,6 @@ CDM
 :
 "
 +
-(
 new
 TextDecoder
 (
@@ -998,7 +989,6 @@ TextDecoder
 decode
 (
 license
-)
 )
 )
 ;
@@ -1063,6 +1053,7 @@ reason
 )
 ;
 }
+;
 }
 function
 MaybeCrossOriginURI
@@ -1700,6 +1691,8 @@ p
 =
 new
 EMEPromise
+(
+)
 ;
 function
 streamType
@@ -1916,6 +1909,8 @@ p
 =
 new
 EMEPromise
+(
+)
 ;
 CreateMediaKeys
 (
@@ -1971,6 +1966,7 @@ p
 .
 reject
 )
+;
 return
 p
 .
@@ -1990,6 +1986,8 @@ p
 =
 new
 EMEPromise
+(
+)
 ;
 let
 initDataQueue
@@ -2141,6 +2139,8 @@ p
 =
 new
 EMEPromise
+(
+)
 ;
 let
 str
@@ -2381,6 +2381,8 @@ p
 =
 new
 EMEPromise
+(
+)
 ;
 v
 .
@@ -2405,6 +2407,7 @@ event
 )
 ;
 }
+;
 Promise
 .
 all
@@ -2562,9 +2565,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 prefs
 }
@@ -2692,7 +2693,6 @@ return
 p
 ;
 }
-;
 function
 once
 (
