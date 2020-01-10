@@ -685,6 +685,7 @@ type
 OriginalFrame
 =
 {
+|
 displayName
 :
 string
@@ -696,9 +697,7 @@ location
 ?
 :
 SourceLocation
-thread
-:
-string
+|
 }
 ;
 export
