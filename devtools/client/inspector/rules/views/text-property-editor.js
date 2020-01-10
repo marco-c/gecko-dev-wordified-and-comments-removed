@@ -1654,9 +1654,6 @@ getGridLineNames
 this
 .
 getGridlineNames
-showSuggestCompletionOnEmpty
-:
-true
 }
 )
 ;
