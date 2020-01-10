@@ -173,7 +173,7 @@ LoginHelper
 createLogger
 (
 "
-nsLoginManager
+LoginManager
 "
 )
 ;
