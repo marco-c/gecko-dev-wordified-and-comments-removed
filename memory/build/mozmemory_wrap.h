@@ -114,17 +114,6 @@ MOZ_MEMORY_API
 MOZ_EXTERN_C
 MFBT_API
 #
-if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
-#
-define
-MOZ_WRAP_NEW_DELETE
-#
-endif
-#
 endif
 #
 endif
