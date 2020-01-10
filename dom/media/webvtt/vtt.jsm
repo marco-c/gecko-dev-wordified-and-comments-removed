@@ -3913,7 +3913,7 @@ yPosition
 =
 cue
 .
-computedPosition
+computedLine
 ;
 }
 else
@@ -3922,7 +3922,7 @@ xPosition
 =
 cue
 .
-computedPosition
+computedLine
 ;
 }
 }
