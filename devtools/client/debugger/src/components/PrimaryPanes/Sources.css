@@ -89,7 +89,13 @@ inherit
 ;
 display
 :
-block
+flex
+;
+flex
+-
+wrap
+:
+wrap
 ;
 border
 -
