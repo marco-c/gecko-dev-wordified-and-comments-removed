@@ -1099,6 +1099,9 @@ NOT_CALLABLE_IN_SYNC_SEND
 if
 (
 mFlagSyncLooping
+|
+|
+mEventDispatchingSuspended
 )
 {
 \
@@ -1114,6 +1117,9 @@ NOT_CALLABLE_IN_SYNC_SEND_RV
 if
 (
 mFlagSyncLooping
+|
+|
+mEventDispatchingSuspended
 )
 {
 \
