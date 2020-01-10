@@ -261,6 +261,11 @@ DOMFullscreenChild
 jsm
 '
 '
+DOMFullscreenParent
+.
+jsm
+'
+'
 FormValidationChild
 .
 jsm
