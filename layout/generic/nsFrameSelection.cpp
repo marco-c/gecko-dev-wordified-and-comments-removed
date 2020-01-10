@@ -7418,12 +7418,6 @@ return
 if
 (
 scrollableFrame
-&
-&
-scrolledFrame
-=
-=
-frameToClick
 )
 {
 if
