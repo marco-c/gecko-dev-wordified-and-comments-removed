@@ -402,16 +402,6 @@ GetType
 )
 const
 ;
-bool
-IsContinueCalled
-(
-)
-const
-{
-return
-mContinueCalled
-;
-}
 void
 GetKey
 (

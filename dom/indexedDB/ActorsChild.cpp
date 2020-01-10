@@ -15476,6 +15476,9 @@ BackgroundCursorChild
 :
 HandleIndividualCursorResponse
 (
+const
+bool
+aUseAsCurrentResult
 Args
 &
 &
@@ -15492,12 +15495,7 @@ mCursor
 {
 if
 (
-mCursor
--
->
-IsContinueCalled
-(
-)
+aUseAsCurrentResult
 )
 {
 mCursor
@@ -15546,6 +15544,11 @@ aArgs
 }
 else
 {
+MOZ_ASSERT
+(
+aUseAsCurrentResult
+)
+;
 RefPtr
 <
 IDBCursor
@@ -15707,6 +15710,11 @@ T
 aResponses
 )
 ;
+bool
+isFirst
+=
+true
+;
 for
 (
 auto
@@ -15760,8 +15768,13 @@ get
 ;
 aHandleRecord
 (
+isFirst
 response
 )
+;
+isFirst
+=
+false
 ;
 }
 ResultHelper
@@ -15872,6 +15885,9 @@ aResponses
 this
 ]
 (
+const
+bool
+useAsCurrentResult
 ObjectStoreCursorResponse
 &
 response
@@ -15879,6 +15895,7 @@ response
 {
 HandleIndividualCursorResponse
 (
+useAsCurrentResult
 std
 :
 :
@@ -15941,6 +15958,9 @@ aResponses
 this
 ]
 (
+const
+bool
+useAsCurrentResult
 ObjectStoreKeyCursorResponse
 &
 response
@@ -15948,6 +15968,7 @@ response
 {
 HandleIndividualCursorResponse
 (
+useAsCurrentResult
 std
 :
 :
@@ -15996,6 +16017,9 @@ aResponses
 this
 ]
 (
+const
+bool
+useAsCurrentResult
 IndexCursorResponse
 &
 response
@@ -16003,6 +16027,7 @@ response
 {
 HandleIndividualCursorResponse
 (
+useAsCurrentResult
 std
 :
 :
@@ -16087,6 +16112,9 @@ aResponses
 this
 ]
 (
+const
+bool
+useAsCurrentResult
 IndexKeyCursorResponse
 &
 response
@@ -16094,6 +16122,7 @@ response
 {
 HandleIndividualCursorResponse
 (
+useAsCurrentResult
 std
 :
 :
