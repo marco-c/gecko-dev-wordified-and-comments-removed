@@ -9094,6 +9094,9 @@ return
 nullptr
 ;
 }
+#
+ifndef
+USE_SKIA
 static
 inline
 pixman_format_code_t
@@ -9178,6 +9181,8 @@ pixman_format_code_t
 ;
 }
 }
+#
+endif
 static
 inline
 bool
