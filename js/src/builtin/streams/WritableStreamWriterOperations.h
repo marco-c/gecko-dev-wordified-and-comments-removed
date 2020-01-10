@@ -7,15 +7,6 @@ builtin_streams_WritableStreamWriterOperations_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 js
 /
 RootingAPI
@@ -31,6 +22,9 @@ Value
 .
 h
 "
+struct
+JSContext
+;
 class
 JSObject
 ;
