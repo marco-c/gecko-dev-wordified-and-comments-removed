@@ -142,11 +142,4 @@ branches
 "
 join
 "
-"
-fission
-.
-autostart
-"
-:
-true
 }

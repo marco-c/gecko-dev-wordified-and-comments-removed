@@ -122,11 +122,4 @@ enabled
 "
 :
 false
-"
-fission
-.
-autostart
-"
-:
-true
 }
