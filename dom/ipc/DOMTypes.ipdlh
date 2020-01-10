@@ -954,6 +954,9 @@ ForceAllowDataURI
 bool
 OriginalFrameSrc
 ;
+bool
+IsFormSubmission
+;
 uint32_t
 LoadType
 ;
