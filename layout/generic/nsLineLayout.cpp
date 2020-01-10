@@ -4926,6 +4926,11 @@ JustificationInfo
 )
 ;
 bool
+placedFloat
+=
+false
+;
+bool
 isEmpty
 ;
 if
@@ -5045,6 +5050,8 @@ outOfFlowFrame
 }
 else
 {
+placedFloat
+=
 TryToPlaceFloat
 (
 outOfFlowFrame
@@ -5845,9 +5852,13 @@ if
 LineIsEmpty
 (
 )
+|
+|
+placedFloat
 )
 {
 if
+(
 (
 !
 aFrame
@@ -5855,6 +5866,12 @@ aFrame
 >
 IsPlaceholderFrame
 (
+)
+|
+|
+LineIsEmpty
+(
+)
 )
 &
 &
