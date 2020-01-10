@@ -288,6 +288,9 @@ no
 -
 unsanitized
 "
+"
+prettier
+"
 ]
 "
 rules
@@ -1339,6 +1342,15 @@ error
 never
 "
 ]
+"
+prettier
+/
+prettier
+"
+:
+"
+error
+"
 "
 quotes
 "
