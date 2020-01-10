@@ -293,17 +293,6 @@ int
 aAllowMode
 )
 ;
-enum
-ContentBlockingAllowListPurpose
-{
-eStorageChecks
-eTrackingProtection
-eTrackingAnnotations
-eFingerprinting
-eCryptomining
-eSocialTracking
-}
-;
 static
 nsresult
 IsOnContentBlockingAllowList
@@ -313,8 +302,6 @@ nsIURI
 aTopWinURI
 bool
 aIsPrivateBrowsing
-ContentBlockingAllowListPurpose
-aPurpose
 bool
 &
 aIsAllowListed

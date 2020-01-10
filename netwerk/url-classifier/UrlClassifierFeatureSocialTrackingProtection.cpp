@@ -626,10 +626,6 @@ UrlClassifierCommon
 IsAllowListed
 (
 aChannel
-AntiTrackingCommon
-:
-:
-eSocialTracking
 )
 ;
 *

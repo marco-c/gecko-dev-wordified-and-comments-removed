@@ -184,7 +184,6 @@ runExtraTests
 :
 false
 cookieBehavior
-blockingByContentBlockingRTUI
 blockingByAllowList
 callback
 :

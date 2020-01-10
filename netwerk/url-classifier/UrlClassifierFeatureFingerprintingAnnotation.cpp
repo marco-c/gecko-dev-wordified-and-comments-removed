@@ -567,10 +567,6 @@ UrlClassifierCommon
 AnnotateChannel
 (
 aChannel
-AntiTrackingCommon
-:
-:
-eFingerprinting
 flags
 nsIWebProgressListener
 :
