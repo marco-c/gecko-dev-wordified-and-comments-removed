@@ -92,7 +92,7 @@ InitializeGlobal
 nsIThread
 *
 mainThread
-nsIEventTarget
+nsISerialEventTarget
 *
 stsThread
 )

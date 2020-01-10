@@ -2350,7 +2350,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 stsThread
 =

@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIEventTarget
+nsISerialEventTarget
 .
 h
 "
@@ -151,10 +151,10 @@ aTransportHandler
 JsepTransceiver
 *
 aJsepTransceiver
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThread
-nsIEventTarget
+nsISerialEventTarget
 *
 aStsThread
 dom
@@ -596,13 +596,13 @@ mHaveSetupTransport
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThread
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mStsThread
 ;

@@ -1047,7 +1047,7 @@ return
 mThread
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 GetSTSThread
 (

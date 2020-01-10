@@ -206,7 +206,7 @@ MockCall
 mCall
 )
 )
-GetCurrentThreadEventTarget
+GetCurrentThreadSerialEventTarget
 (
 )
 )
