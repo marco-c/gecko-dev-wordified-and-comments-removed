@@ -281,12 +281,6 @@ console
 "
 )
 ;
-this
-.
-_addWebConsoleFrontEventListeners
-(
-)
-;
 await
 this
 .
@@ -383,6 +377,12 @@ this
 dispatchMessagesAdd
 (
 messages
+)
+;
+this
+.
+_addWebConsoleFrontEventListeners
+(
 )
 ;
 if
