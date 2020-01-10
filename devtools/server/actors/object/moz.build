@@ -56,13 +56,6 @@ MPL
 DevToolsModules
 (
 '
-long
--
-string
-.
-js
-'
-'
 previewers
 .
 js
