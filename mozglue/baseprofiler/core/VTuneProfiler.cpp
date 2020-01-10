@@ -31,10 +31,6 @@ include
 <
 memory
 >
-using
-namespace
-std
-;
 namespace
 mozilla
 {
