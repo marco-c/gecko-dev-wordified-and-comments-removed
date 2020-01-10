@@ -4062,6 +4062,10 @@ supports_pixel_local_storage
 :
 bool
 pub
+supports_advanced_blend_equation
+:
+bool
+pub
 supports_khr_debug
 :
 bool
@@ -5560,6 +5564,18 @@ ext_framebuffer_fetch
 ext_pixel_local_storage
 ;
 let
+supports_advanced_blend_equation
+=
+supports_extension
+(
+&
+extensions
+"
+GL_KHR_blend_equation_advanced
+"
+)
+;
+let
 optimal_pbo_stride
 =
 if
@@ -5620,6 +5636,7 @@ false
 supports_copy_image_sub_data
 supports_blit_to_texture_array
 supports_pixel_local_storage
+supports_advanced_blend_equation
 supports_khr_debug
 }
 bgra_format_internal

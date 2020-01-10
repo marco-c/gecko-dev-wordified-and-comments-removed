@@ -7658,12 +7658,11 @@ allow_advanced_blend_equation
 &
 device
 .
-supports_extension
+get_capabilities
 (
-"
-GL_KHR_blend_equation_advanced
-"
 )
+.
+supports_advanced_blend_equation
 ;
 let
 ext_blend_equation_advanced_coherent
