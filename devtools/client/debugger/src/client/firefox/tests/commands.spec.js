@@ -132,6 +132,17 @@ type
 :
 "
 "
+release
+:
+(
+)
+=
+>
+Promise
+.
+resolve
+(
+)
 }
 ;
 }
