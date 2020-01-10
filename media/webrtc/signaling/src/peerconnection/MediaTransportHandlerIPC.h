@@ -160,6 +160,15 @@ StartIceGathering
 bool
 aDefaultRouteOnly
 const
+std
+:
+:
+string
+&
+aRemoteIp
+uint16_t
+aRemotePort
+const
 nsTArray
 <
 NrIceStunAddr

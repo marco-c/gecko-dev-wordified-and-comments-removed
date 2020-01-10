@@ -195,6 +195,12 @@ bool
 &
 defaultRouteOnly
 const
+string
+&
+remoteIp
+uint16_t
+remotePort
+const
 net
 :
 :
