@@ -49,6 +49,7 @@ types
 const
 {
 aside
+h1
 p
 }
 =
@@ -301,7 +302,7 @@ error
 label
 "
 }
-p
+h1
 (
 {
 className
@@ -314,6 +315,9 @@ manifest
 loaded
 -
 error
+app
+-
+page__title
 "
 }
 )
@@ -376,6 +380,13 @@ loading
 p
 (
 {
+className
+:
+"
+manifest
+-
+loader__load
+"
 }
 )
 )
@@ -417,6 +428,13 @@ return
 aside
 (
 {
+className
+:
+"
+manifest
+-
+loader
+"
 }
 loadingDOM
 errorDOM

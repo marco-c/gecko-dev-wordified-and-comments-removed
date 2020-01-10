@@ -103,10 +103,6 @@ querySelector
 js
 -
 manifest
--
-loaded
--
-ok
 "
 )
 !
@@ -407,9 +403,7 @@ js
 -
 manifest
 -
-non
--
-existing
+empty
 "
 )
 !

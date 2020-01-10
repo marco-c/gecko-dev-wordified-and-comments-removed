@@ -98,6 +98,11 @@ js
 '
 ManifestLoader
 .
+css
+'
+'
+ManifestLoader
+.
 js
 '
 '
