@@ -17490,7 +17490,7 @@ webextensions
 remote
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
