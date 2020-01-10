@@ -81,7 +81,7 @@ const
 gAllHiddenFrames
 =
 new
-WeakSet
+Set
 (
 )
 ;
