@@ -17,6 +17,7 @@ api
 {
 DocumentLayer
 FilterData
+FilterPrimitive
 ImageFormat
 LineOrientation
 }
@@ -6155,6 +6156,13 @@ Vec
 FilterData
 >
 pub
+filter_primitives
+:
+Vec
+<
+FilterPrimitive
+>
+pub
 mix_blend_mode
 :
 Option
@@ -6181,6 +6189,12 @@ Vec
 <
 FilterData
 >
+filter_primitives
+:
+Vec
+<
+FilterPrimitive
+>
 mix_blend_mode
 :
 Option
@@ -6196,6 +6210,7 @@ CompositeOps
 {
 filters
 filter_datas
+filter_primitives
 mix_blend_mode
 }
 }
