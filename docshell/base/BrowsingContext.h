@@ -770,6 +770,10 @@ mOpenerId
 ;
 if
 (
+!
+mIsDiscarded
+&
+&
 opener
 &
 &
