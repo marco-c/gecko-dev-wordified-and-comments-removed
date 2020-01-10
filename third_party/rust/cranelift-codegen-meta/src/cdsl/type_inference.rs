@@ -632,6 +632,9 @@ Internal
 0
 }
 pub
+(
+crate
+)
 struct
 TypeEnvironment
 {
@@ -3187,6 +3190,9 @@ type_env
 )
 }
 pub
+(
+crate
+)
 fn
 infer_transform
 (

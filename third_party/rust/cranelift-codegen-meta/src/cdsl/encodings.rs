@@ -67,6 +67,9 @@ types
 ValueType
 ;
 pub
+(
+crate
+)
 struct
 EncodingContent
 {
@@ -170,6 +173,9 @@ encbits
 }
 }
 pub
+(
+crate
+)
 type
 Encoding
 =
@@ -179,6 +185,9 @@ EncodingContent
 >
 ;
 pub
+(
+crate
+)
 struct
 EncodingBuilder
 {

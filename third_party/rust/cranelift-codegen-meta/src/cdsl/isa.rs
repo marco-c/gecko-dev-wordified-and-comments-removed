@@ -95,6 +95,9 @@ TransformGroups
 }
 ;
 pub
+(
+crate
+)
 struct
 TargetIsa
 {

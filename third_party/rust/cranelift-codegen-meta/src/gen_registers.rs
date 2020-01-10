@@ -1102,6 +1102,9 @@ fmt
 ;
 }
 pub
+(
+crate
+)
 fn
 generate
 (

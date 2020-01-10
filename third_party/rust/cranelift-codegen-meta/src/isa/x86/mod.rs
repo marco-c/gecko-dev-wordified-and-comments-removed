@@ -96,6 +96,9 @@ mod
 legalize
 ;
 mod
+opcodes
+;
+mod
 recipes
 ;
 mod

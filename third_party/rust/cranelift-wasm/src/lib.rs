@@ -316,7 +316,7 @@ crate
 state
 :
 :
-VisibleTranslationState
+TranslationState
 ;
 pub
 use

@@ -14,7 +14,7 @@ crate
 entity
 :
 :
-SparseSet
+EntitySet
 ;
 use
 crate
@@ -52,7 +52,7 @@ next
 usize
 visited
 :
-SparseSet
+EntitySet
 <
 Ebb
 >
@@ -90,7 +90,7 @@ next
 0
 visited
 :
-SparseSet
+EntitySet
 :
 :
 new
@@ -233,6 +233,19 @@ Option
 Ebb
 >
 {
+self
+.
+visited
+.
+resize
+(
+layout
+.
+ebb_capacity
+(
+)
+)
+;
 while
 self
 .
@@ -286,10 +299,6 @@ visited
 insert
 (
 ebb
-)
-.
-is_none
-(
 )
 {
 self

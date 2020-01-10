@@ -98,7 +98,7 @@ The
 decoder
 library
 provides
-lightwight
+lightweight
 and
 fast
 decoding

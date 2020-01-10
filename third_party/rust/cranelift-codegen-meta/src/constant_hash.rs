@@ -5,6 +5,9 @@ std
 iter
 ;
 pub
+(
+crate
+)
 fn
 simple_hash
 (
@@ -60,6 +63,9 @@ as
 usize
 }
 pub
+(
+crate
+)
 fn
 generate_table
 <

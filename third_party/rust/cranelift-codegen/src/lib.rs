@@ -468,9 +468,6 @@ mod
 redundant_reload_remover
 ;
 mod
-ref_slice
-;
-mod
 regalloc
 ;
 mod

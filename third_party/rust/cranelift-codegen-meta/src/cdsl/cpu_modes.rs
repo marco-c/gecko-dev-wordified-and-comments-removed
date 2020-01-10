@@ -63,6 +63,9 @@ TransformGroupIndex
 }
 ;
 pub
+(
+crate
+)
 struct
 CpuMode
 {

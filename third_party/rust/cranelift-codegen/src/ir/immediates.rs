@@ -24,12 +24,6 @@ use
 core
 :
 :
-mem
-;
-use
-core
-:
-:
 str
 :
 :
@@ -1371,7 +1365,7 @@ Hash
 ]
 pub
 struct
-Uimm128
+V128Imm
 (
 pub
 [
@@ -1382,7 +1376,7 @@ u8
 )
 ;
 impl
-Uimm128
+V128Imm
 {
 pub
 fn
@@ -1458,7 +1452,7 @@ self
 impl
 Display
 for
-Uimm128
+V128Imm
 {
 fn
 fmt
@@ -1573,7 +1567,7 @@ From
 u64
 >
 for
-Uimm128
+V128Imm
 {
 fn
 from
@@ -1637,7 +1631,7 @@ as
 u8
 )
 ;
-Uimm128
+V128Imm
 (
 buffer
 )
@@ -1652,7 +1646,7 @@ u8
 ]
 >
 for
-Uimm128
+V128Imm
 {
 fn
 from
@@ -1696,7 +1690,7 @@ copy_from_slice
 slice
 )
 ;
-Uimm128
+V128Imm
 (
 buffer
 )
@@ -1705,7 +1699,7 @@ buffer
 impl
 FromStr
 for
-Uimm128
+V128Imm
 {
 type
 Err
@@ -2037,7 +2031,7 @@ wrapping_sub
 }
 Ok
 (
-Uimm128
+V128Imm
 (
 buffer
 )
@@ -2067,7 +2061,7 @@ FromIterator
 ty
 >
 for
-Uimm128
+V128Imm
 {
 fn
 from_iter
@@ -2157,7 +2151,7 @@ i
 b
 )
 ;
-Uimm128
+V128Imm
 (
 buffer
 )
@@ -2172,7 +2166,7 @@ FromIterator
 bool
 >
 for
-Uimm128
+V128Imm
 {
 fn
 from_iter
@@ -2316,7 +2310,7 @@ i
 b
 )
 ;
-Uimm128
+V128Imm
 (
 buffer
 )
@@ -4528,16 +4522,11 @@ Self
 {
 Ieee32
 (
-unsafe
-{
-mem
-:
-:
-transmute
-(
 x
+.
+to_bits
+(
 )
-}
 )
 }
 pub
@@ -4990,16 +4979,11 @@ Self
 {
 Ieee64
 (
-unsafe
-{
-mem
-:
-:
-transmute
-(
 x
+.
+to_bits
+(
 )
-}
 )
 }
 pub
@@ -5240,6 +5224,12 @@ fmt
 :
 :
 Display
+;
+use
+core
+:
+:
+mem
 ;
 use
 core
@@ -6771,7 +6761,7 @@ format_uimm128
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from
@@ -6790,7 +6780,7 @@ to_string
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from
@@ -6809,7 +6799,7 @@ to_string
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from
@@ -6828,7 +6818,7 @@ to_string
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from
@@ -6858,7 +6848,7 @@ parse_ok
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 "
@@ -6873,7 +6863,7 @@ parse_ok
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 "
@@ -6888,7 +6878,7 @@ parse_ok
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 "
@@ -6903,7 +6893,7 @@ parse_ok
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 "
@@ -6918,7 +6908,7 @@ parse_err
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 "
@@ -6940,7 +6930,7 @@ parse_err
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 "
@@ -6963,7 +6953,7 @@ parse_err
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 "
@@ -6986,7 +6976,7 @@ parse_err
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 "
@@ -7014,7 +7004,7 @@ parse_err
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 "
@@ -7033,7 +7023,7 @@ parse_err
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 "
@@ -7070,7 +7060,7 @@ parse
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 )
@@ -7103,7 +7093,7 @@ unwrap
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from_iter
@@ -7142,7 +7132,7 @@ vec
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from
@@ -7192,7 +7182,7 @@ parse
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 )
@@ -7233,7 +7223,7 @@ parse
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 )
@@ -7274,7 +7264,7 @@ parse
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 )
@@ -7315,7 +7305,7 @@ parse
 :
 :
 <
-Uimm128
+V128Imm
 >
 (
 )
@@ -7358,7 +7348,7 @@ uimm128_from_iter
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from_iter
@@ -7397,7 +7387,7 @@ vec
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from_iter
@@ -7444,7 +7434,7 @@ true
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from_iter
@@ -7520,7 +7510,7 @@ u8
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from_iter
@@ -7609,7 +7599,7 @@ collect
 assert_eq
 !
 (
-Uimm128
+V128Imm
 :
 :
 from_iter

@@ -201,6 +201,9 @@ bits
 )
 }
 pub
+(
+crate
+)
 struct
 PerCpuModeEncodings
 <

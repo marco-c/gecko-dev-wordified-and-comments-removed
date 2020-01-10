@@ -17,6 +17,9 @@ hash
 Hash
 ;
 pub
+(
+crate
+)
 trait
 MapWithDefault
 <

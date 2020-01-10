@@ -1974,6 +1974,14 @@ IntCC
 match
 cond
 {
+Overflow
+=
+>
+0x0
+NotOverflow
+=
+>
+0x1
 UnsignedLessThan
 =
 >

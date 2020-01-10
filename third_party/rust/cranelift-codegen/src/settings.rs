@@ -1826,7 +1826,7 @@ opt_level
 =
 \
 "
-default
+none
 \
 "
 \
@@ -1960,7 +1960,7 @@ super
 OptLevel
 :
 :
-Default
+None
 )
 ;
 assert_eq
@@ -2215,9 +2215,9 @@ BadValue
 "
 any
 among
-default
-best
-fastest
+none
+speed
+speed_and_size
 "
 .
 to_string
@@ -2238,7 +2238,7 @@ set
 opt_level
 "
 "
-best
+speed
 "
 )
 Ok
@@ -2305,7 +2305,7 @@ super
 OptLevel
 :
 :
-Best
+Speed
 )
 ;
 }
