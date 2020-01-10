@@ -928,9 +928,11 @@ _extensionListeners
 null
 ;
 }
-handleEvent
+observe
 (
-aEvent
+aSubject
+aTopic
+aData
 )
 {
 }
