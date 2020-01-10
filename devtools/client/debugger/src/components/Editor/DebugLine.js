@@ -317,11 +317,11 @@ return
 ;
 }
 const
-{
 sourceId
-}
 =
 location
+.
+sourceId
 ;
 const
 doc
@@ -500,6 +500,13 @@ clear
 ;
 }
 const
+sourceId
+=
+location
+.
+sourceId
+;
+const
 {
 line
 }
@@ -514,8 +521,6 @@ doc
 =
 getDocument
 (
-location
-.
 sourceId
 )
 ;

@@ -339,11 +339,11 @@ block
 )
 {
 const
-{
 bindings
-}
 =
 scope
+.
+bindings
 ;
 let
 vars

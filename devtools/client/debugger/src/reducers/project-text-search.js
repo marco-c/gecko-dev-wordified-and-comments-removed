@@ -218,6 +218,13 @@ case
 ADD_SEARCH_RESULT
 "
 :
+const
+results
+=
+state
+.
+results
+;
 if
 (
 action
@@ -292,8 +299,6 @@ results
 [
 .
 .
-.
-state
 .
 results
 result

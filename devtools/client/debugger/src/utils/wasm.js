@@ -274,11 +274,11 @@ done
 ;
 }
 const
-{
 offsets
-}
 =
 result
+.
+offsets
 ;
 const
 lines

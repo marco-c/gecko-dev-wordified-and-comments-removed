@@ -619,11 +619,11 @@ getBoundingClientRect
 )
 ;
 const
-{
 orientation
-}
 =
 coords
+.
+orientation
 ;
 let
 optionalMarginLeft
@@ -732,6 +732,10 @@ style
 {
 {
 height
+:
+height
+width
+:
 width
 position
 :

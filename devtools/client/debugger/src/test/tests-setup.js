@@ -741,11 +741,11 @@ callback
 )
 {
 const
-{
 constructor
-}
 =
 this
+.
+constructor
 ;
 return
 this

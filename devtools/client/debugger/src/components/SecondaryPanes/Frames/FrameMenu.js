@@ -305,6 +305,13 @@ menuOptions
 ]
 ;
 const
+source
+=
+frame
+.
+source
+;
+const
 toggleFrameworkElement
 =
 toggleFrameworkGroupingElement
@@ -321,13 +328,6 @@ push
 (
 toggleFrameworkElement
 )
-;
-const
-{
-source
-}
-=
-frame
 ;
 if
 (

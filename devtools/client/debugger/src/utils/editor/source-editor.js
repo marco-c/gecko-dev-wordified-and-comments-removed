@@ -732,6 +732,8 @@ charCoords
 (
 {
 line
+:
+line
 ch
 :
 0

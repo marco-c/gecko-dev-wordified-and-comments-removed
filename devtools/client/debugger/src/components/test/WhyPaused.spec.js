@@ -45,6 +45,10 @@ props
 =
 {
 why
+:
+why
+delay
+:
 delay
 }
 ;

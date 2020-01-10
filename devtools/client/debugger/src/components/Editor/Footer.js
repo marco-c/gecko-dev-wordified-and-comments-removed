@@ -688,6 +688,8 @@ active
 :
 sourceLoaded
 blackboxed
+:
+blackboxed
 }
 )
 }
