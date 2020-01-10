@@ -1680,13 +1680,15 @@ selectedFolderGuid
 )
 ;
 }
-if
+while
 (
 lastUsedFolderGuids
 .
 length
 >
-5
+PlacesUIUtils
+.
+maxRecentFolders
 )
 {
 lastUsedFolderGuids

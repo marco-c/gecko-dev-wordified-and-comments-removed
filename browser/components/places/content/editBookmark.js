@@ -22,11 +22,6 @@ jsm
 "
 )
 ;
-const
-MAX_FOLDER_ITEM_IN_MENU_LIST
-=
-5
-;
 var
 gEditItemOverlay
 =
@@ -2057,7 +2052,9 @@ Math
 .
 min
 (
-MAX_FOLDER_ITEM_IN_MENU_LIST
+PlacesUIUtils
+.
+maxRecentFolders
 this
 .
 _recentFolders
@@ -3753,7 +3750,9 @@ length
 =
 4
 +
-MAX_FOLDER_ITEM_IN_MENU_LIST
+PlacesUIUtils
+.
+maxRecentFolders
 )
 {
 menupopup
