@@ -1,6 +1,16 @@
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 ProfilerBacktrace
 .
 h
@@ -155,3 +165,5 @@ aUniqueStacks
 )
 ;
 }
+#
+endif

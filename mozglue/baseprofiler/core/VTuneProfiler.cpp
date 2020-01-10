@@ -1,4 +1,14 @@
 #
+include
+"
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
 ifdef
 XP_WIN
 #
@@ -340,3 +350,5 @@ aName
 )
 ;
 }
+#
+endif

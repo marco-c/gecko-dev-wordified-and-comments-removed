@@ -1,6 +1,16 @@
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 ProfileBufferEntry
 .
 h
@@ -9091,3 +9101,5 @@ return
 }
 }
 }
+#
+endif

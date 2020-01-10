@@ -146,6 +146,9 @@ DIRS
 =
 [
 '
+baseprofiler
+'
+'
 build
 '
 '

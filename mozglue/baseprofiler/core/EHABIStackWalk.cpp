@@ -1,6 +1,16 @@
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 EHABIStackWalk
 .
 h
@@ -3411,3 +3421,5 @@ unwinding
 endif
 }
 }
+#
+endif

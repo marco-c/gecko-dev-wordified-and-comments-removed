@@ -1,14 +1,17 @@
 #
 include
 "
-platform
+BaseProfiler
 .
 h
 "
 #
+ifdef
+MOZ_BASE_PROFILER
+#
 include
 "
-BaseProfiler
+platform
 .
 h
 "
@@ -10813,6 +10816,7 @@ s
 \
 n
 "
+\
 FeatureCategory
 (
 ProfilerFeature
@@ -10820,11 +10824,11 @@ ProfilerFeature
 :
 Name_
 )
-\
 ProfilerFeature
 :
 :
 Name_
+\
 str_
 desc_
 )
@@ -19790,3 +19794,5 @@ break
 }
 }
 }
+#
+endif

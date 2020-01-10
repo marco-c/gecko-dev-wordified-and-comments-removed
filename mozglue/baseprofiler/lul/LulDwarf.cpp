@@ -1,5 +1,15 @@
 #
 include
+"
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
 <
 stdint
 .
@@ -10512,3 +10522,5 @@ buf
 ;
 }
 }
+#
+endif

@@ -1,6 +1,16 @@
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 LulDwarfSummariser
 .
 h
@@ -2338,3 +2348,5 @@ n
 }
 }
 }
+#
+endif

@@ -1,6 +1,16 @@
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+ifdef
+MOZ_BASE_PROFILER
+#
+include
+"
 vm
 /
 GeckoProfiler
@@ -2914,3 +2924,5 @@ categoryPairIndex
 ;
 }
 }
+#
+endif
