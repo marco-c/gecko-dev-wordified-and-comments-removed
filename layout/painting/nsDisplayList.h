@@ -25475,9 +25475,6 @@ override
 bool
 CanCreateWebRenderCommands
 (
-nsDisplayListBuilder
-*
-aBuilder
 )
 ;
 private
