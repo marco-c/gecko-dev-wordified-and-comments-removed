@@ -1801,9 +1801,7 @@ directives
 (
 options
 .
-forceStrictMode
-(
-)
+strictOption
 )
 script
 (
@@ -1868,6 +1866,11 @@ canLazilyParse
 const
 {
 return
+options
+.
+canLazilyParse
+&
+&
 !
 options
 .
@@ -3531,9 +3534,7 @@ directives
 (
 options
 .
-forceStrictMode
-(
-)
+strictOption
 )
 ;
 GlobalSharedContext
@@ -3773,8 +3774,9 @@ optionsInput
 ;
 options
 .
-setForceStrictMode
+maybeMakeStrictMode
 (
+true
 )
 ;
 options
