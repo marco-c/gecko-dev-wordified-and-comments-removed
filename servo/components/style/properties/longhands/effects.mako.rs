@@ -64,10 +64,7 @@ ComputedValue
 flags
 =
 "
-APPLIES_TO_CUE
 CREATES_STACKING_CONTEXT
-APPLIES_TO_PLACEHOLDER
-\
 CAN_ANIMATE_ON_COMPOSITOR
 "
 spec
@@ -135,11 +132,6 @@ webkit
 ignored_when_colors_disabled
 =
 True
-flags
-=
-"
-APPLIES_TO_FIRST_LETTER
-"
 spec
 =
 "

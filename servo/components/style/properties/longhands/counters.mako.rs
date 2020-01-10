@@ -100,11 +100,6 @@ propdef
 -
 content
 "
-flags
-=
-"
-APPLIES_TO_MARKER
-"
 servo_restyle_damage
 =
 "
