@@ -123,10 +123,6 @@ py
 -
 testing
 /
-gtest
--
-testing
-/
 mochitest
 -
 testing
