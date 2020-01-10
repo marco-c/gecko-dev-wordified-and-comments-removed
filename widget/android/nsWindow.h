@@ -1574,12 +1574,6 @@ nsWindow
 *
 mParent
 ;
-double
-mStartDist
-;
-double
-mLastDist
-;
 nsCOMPtr
 <
 nsIIdleServiceInternal
