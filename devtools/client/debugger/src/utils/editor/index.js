@@ -586,8 +586,6 @@ charCoords
 (
 {
 line
-:
-line
 ch
 :
 column
@@ -1339,8 +1337,6 @@ codeMirror
 getTokenAt
 (
 {
-line
-:
 line
 ch
 :

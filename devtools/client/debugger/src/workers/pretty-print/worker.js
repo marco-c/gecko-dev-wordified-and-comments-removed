@@ -103,8 +103,6 @@ prettyFast
 sourceText
 {
 url
-:
-url
 indent
 :
 "

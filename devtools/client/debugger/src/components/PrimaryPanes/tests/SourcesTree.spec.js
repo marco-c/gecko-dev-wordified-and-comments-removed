@@ -247,11 +247,11 @@ render
 )
 ;
 const
+{
 sourceTree
+}
 =
 defaultState
-.
-sourceTree
 ;
 sourceTree
 .

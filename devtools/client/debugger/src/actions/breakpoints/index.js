@@ -886,8 +886,6 @@ selectedSource
 .
 url
 line
-:
-line
 }
 )
 )

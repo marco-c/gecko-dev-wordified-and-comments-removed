@@ -300,8 +300,6 @@ loc
 .
 start
 sourceId
-:
-sourceId
 }
 ;
 }

@@ -150,11 +150,6 @@ expressions
 js
 '
 '
-fromJS
-.
-js
-'
-'
 function
 .
 js
@@ -176,11 +171,6 @@ js
 '
 '
 log
-.
-js
-'
-'
-makeRecord
 .
 js
 '

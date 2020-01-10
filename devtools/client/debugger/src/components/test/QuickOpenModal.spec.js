@@ -1814,8 +1814,6 @@ line
 :
 34
 sourceId
-:
-sourceId
 }
 )
 ;
@@ -3388,8 +3386,6 @@ toHaveBeenCalledWith
 end
 :
 3
-sourceId
-:
 sourceId
 start
 :
