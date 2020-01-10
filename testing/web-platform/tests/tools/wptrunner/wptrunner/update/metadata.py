@@ -58,7 +58,12 @@ state
 .
 property_order
 =
+(
 property_order
+or
+[
+]
+)
 +
 state
 .
