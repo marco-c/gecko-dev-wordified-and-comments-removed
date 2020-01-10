@@ -781,6 +781,12 @@ const
 SerializeResourcesFn
 &
 aSerialize
+IntPoint
+aOrigin
+=
+IntPoint
+(
+)
 )
 ;
 void
@@ -860,6 +866,9 @@ nsTHashtable
 nsUint64HashKey
 >
 mDependentSurfaces
+;
+IntPoint
+mOrigin
 ;
 void
 Flush
