@@ -8684,6 +8684,14 @@ initLazyScript
 lazy
 )
 ;
+funbox
+-
+>
+setIsInterpretedLazy
+(
+true
+)
+;
 return
 true
 ;
@@ -32902,11 +32910,6 @@ setHasThisBinding
 if
 (
 ctorbox
--
->
-function
-(
-)
 -
 >
 isInterpretedLazy

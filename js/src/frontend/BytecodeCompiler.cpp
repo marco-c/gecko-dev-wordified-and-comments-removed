@@ -3233,11 +3233,6 @@ if
 funbox
 -
 >
-function
-(
-)
--
->
 isInterpreted
 (
 )
