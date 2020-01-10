@@ -3741,6 +3741,8 @@ linux64
 -
 gcc
 -
+7
+-
 linux64
 -
 cbindgen
@@ -5505,6 +5507,8 @@ rust
 linux64
 -
 gcc
+-
+7
 -
 linux64
 -
