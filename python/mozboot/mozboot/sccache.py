@@ -18,6 +18,13 @@ macosx64
 -
 sccache
 '
+WIN64_SCCACHE
+=
+'
+win64
+-
+sccache
+'
 RUSTC_DIST_TOOLCHAIN
 =
 '
