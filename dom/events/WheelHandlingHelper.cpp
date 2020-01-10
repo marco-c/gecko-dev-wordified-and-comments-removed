@@ -1778,6 +1778,9 @@ aEvent
 mDeltaMode
 =
 =
+dom
+:
+:
 WheelEvent_Binding
 :
 :
@@ -3079,6 +3082,9 @@ if
 aHonoursRoot
 )
 {
+dom
+:
+:
 Document
 *
 document
