@@ -28115,6 +28115,16 @@ mIsClosed
 =
 true
 ;
+GetBrowsingContext
+(
+)
+-
+>
+SetClosed
+(
+true
+)
+;
 if
 (
 XRE_GetProcessType
