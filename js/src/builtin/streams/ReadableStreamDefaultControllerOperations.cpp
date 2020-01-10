@@ -2227,7 +2227,7 @@ cx
 NewHandler
 (
 cx
-ControllerStartHandler
+ReadableStreamControllerStartHandler
 controller
 )
 )
@@ -2253,7 +2253,7 @@ cx
 NewHandler
 (
 cx
-ControllerStartFailedHandler
+ReadableStreamControllerStartFailedHandler
 controller
 )
 )

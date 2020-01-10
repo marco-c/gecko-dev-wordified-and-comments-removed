@@ -405,7 +405,7 @@ bool
 js
 :
 :
-ControllerStartHandler
+ReadableStreamControllerStartHandler
 (
 JSContext
 *
@@ -504,16 +504,13 @@ bool
 js
 :
 :
-ControllerStartFailedHandler
+ReadableStreamControllerStartFailedHandler
 (
 JSContext
 *
 cx
 unsigned
 argc
-JS
-:
-:
 Value
 *
 vp
