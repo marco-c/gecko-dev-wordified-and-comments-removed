@@ -326,6 +326,11 @@ RFPHelperChild
 jsm
 '
 '
+RFPHelperParent
+.
+jsm
+'
+'
 SearchTelemetryChild
 .
 jsm
