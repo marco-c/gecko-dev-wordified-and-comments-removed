@@ -392,6 +392,11 @@ norolluponanchor
 "
 true
 "
+rolluponmousewheel
+=
+"
+true
+"
 level
 =
 "
