@@ -323,6 +323,13 @@ asan
 opt
 :
 18
+linux64
+-
+ccov
+/
+debug
+:
+24
 linux
 .
 *
