@@ -23,17 +23,6 @@ mozilla
 /
 dom
 /
-L10nUtilsBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Promise
 .
 h

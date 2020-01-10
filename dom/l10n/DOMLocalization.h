@@ -96,17 +96,6 @@ mozilla
 /
 dom
 /
-L10nUtilsBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 l10n
 /
 Mutations
