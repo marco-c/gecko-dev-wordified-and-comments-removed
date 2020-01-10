@@ -5909,6 +5909,7 @@ summarized_results
             
 return
 False
+0
         
 extra_opts
 =
@@ -5933,13 +5934,109 @@ extraOptions
 ]
 )
         
+test_type
+=
+self
+.
+summarized_results
+[
+'
+suites
+'
+]
+[
+0
+]
+.
+get
+(
+'
+type
+'
+'
+'
+)
+        
+output_perf_data
+=
+True
+        
+not_posting
+=
+'
+-
+not
+posting
+regular
+test
+results
+for
+perfherder
+'
+        
 if
 '
 gecko_profile
 '
-not
 in
 extra_opts
+:
+            
+LOG
+.
+info
+(
+"
+gecko
+profiling
+enabled
+%
+s
+"
+%
+not_posting
+)
+            
+output_perf_data
+=
+False
+        
+elif
+test_type
+=
+=
+'
+scenario
+'
+:
+            
+LOG
+.
+info
+(
+"
+scenario
+test
+type
+was
+run
+%
+s
+"
+%
+not_posting
+)
+            
+output_perf_data
+=
+False
+        
+total_perfdata
+=
+0
+        
+if
+output_perf_data
 :
             
 if
@@ -5974,6 +6071,10 @@ self
 summarized_results
 )
 )
+                
+total_perfdata
+=
+1
             
 else
 :
@@ -5992,26 +6093,6 @@ only
 posting
 those
 to
-perfherder
-"
-)
-        
-else
-:
-            
-LOG
-.
-info
-(
-"
-gecko
-profiling
-enabled
--
-not
-posting
-results
-for
 perfherder
 "
 )
@@ -6061,6 +6142,7 @@ results_path
         
 return
 True
+total_perfdata
     
 def
 output_supporting_data
@@ -6207,6 +6289,11 @@ test_names
             
 return
 False
+0
+        
+total_perfdata
+=
+0
         
 for
 next_data_set
@@ -6371,9 +6458,15 @@ data_type
 results_path
 )
 )
+            
+total_perfdata
++
+=
+1
         
 return
 True
+total_perfdata
     
 classmethod
     
