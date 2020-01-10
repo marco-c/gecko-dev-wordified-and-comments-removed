@@ -2521,6 +2521,10 @@ bool
 aClone
 bool
 aCompute
+bool
+aSetOriginal
+=
+true
 )
 ;
 struct
@@ -2963,6 +2967,12 @@ nsCOMPtr
 nsIReferrerInfo
 >
 mReferrerInfo
+;
+nsCOMPtr
+<
+nsIReferrerInfo
+>
+mOriginalReferrerInfo
 ;
 nsCOMPtr
 <
