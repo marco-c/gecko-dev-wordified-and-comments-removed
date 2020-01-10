@@ -666,9 +666,9 @@ ReferrerInfo
 (
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_NO_REFERRER_WHEN_DOWNGRADE
+NO_REFERRER_WHEN_DOWNGRADE
 true
 null
 )

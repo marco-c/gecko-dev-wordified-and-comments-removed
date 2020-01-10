@@ -77,9 +77,9 @@ ReferrerInfo
 (
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_ORIGIN
+ORIGIN
 true
 Services
 .

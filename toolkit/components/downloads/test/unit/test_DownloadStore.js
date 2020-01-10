@@ -141,9 +141,9 @@ ReferrerInfo
 (
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_UNSET
+EMPTY
 true
 NetUtil
 .
@@ -792,9 +792,9 @@ ReferrerInfo
 (
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_UNSET
+EMPTY
 true
 NetUtil
 .
@@ -1602,9 +1602,9 @@ ReferrerInfo
 (
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_UNSET
+EMPTY
 true
 NetUtil
 .

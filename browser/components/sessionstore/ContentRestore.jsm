@@ -636,9 +636,9 @@ referrerPolicy
 :
 Ci
 .
-nsIHttpChannel
+nsIReferrerInfo
 .
-REFERRER_POLICY_UNSET
+EMPTY
 ;
 let
 ReferrerInfo
