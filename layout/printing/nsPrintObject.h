@@ -128,8 +128,6 @@ dom
 Document
 *
 aDoc
-bool
-aForPrintPreview
 nsPrintObject
 *
 aParent
@@ -231,9 +229,6 @@ mPrintAsIs
 ;
 bool
 mInvisible
-;
-bool
-mPrintPreview
 ;
 bool
 mDidCreateDocShell
