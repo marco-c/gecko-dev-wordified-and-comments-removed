@@ -22014,7 +22014,7 @@ if
 StaticPrefs
 :
 :
-HidePluginsForScroll
+gfx_e10s_hide_plugins_for_scroll
 (
 )
 &
@@ -22131,7 +22131,7 @@ if
 StaticPrefs
 :
 :
-HidePluginsForScroll
+gfx_e10s_hide_plugins_for_scroll
 (
 )
 &

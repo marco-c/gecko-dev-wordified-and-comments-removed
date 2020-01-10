@@ -3645,7 +3645,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-CollectScrollTransforms
+gfx_vsync_collect_scroll_transforms
 (
 )
 )
@@ -6339,7 +6339,7 @@ if
 StaticPrefs
 :
 :
-CollectScrollTransforms
+gfx_vsync_collect_scroll_transforms
 (
 )
 )

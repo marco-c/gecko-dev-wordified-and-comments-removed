@@ -591,7 +591,7 @@ mUseMutexOnPresent
 StaticPrefs
 :
 :
-UseMutexOnPresent
+gfx_use_mutex_on_present
 (
 )
 ;
@@ -1106,7 +1106,7 @@ if
 StaticPrefs
 :
 :
-Direct3D11UseDoubleBuffering
+gfx_direct3d11_use_double_buffering
 (
 )
 &
@@ -1497,7 +1497,7 @@ if
 StaticPrefs
 :
 :
-PartialPresent
+gfx_partialpresent_force
 (
 )
 >
@@ -1513,7 +1513,7 @@ if
 StaticPrefs
 :
 :
-PartialPresent
+gfx_partialpresent_force
 (
 )
 <
@@ -6926,7 +6926,7 @@ if
 StaticPrefs
 :
 :
-CompositorClearState
+gfx_compositor_clearstate
 (
 )
 )

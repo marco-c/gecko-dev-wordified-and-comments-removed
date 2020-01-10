@@ -10447,7 +10447,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-WebRenderDLDumpParent
+gfx_webrender_dl_dump_parent
 (
 )
 )
@@ -10462,7 +10462,7 @@ XRE_IsContentProcess
 StaticPrefs
 :
 :
-WebRenderDLDumpContent
+gfx_webrender_dl_dump_content
 (
 )
 )
@@ -12833,7 +12833,7 @@ useBlobImage
 StaticPrefs
 :
 :
-WebRenderBlobImages
+gfx_webrender_blob_images
 (
 )
 &
@@ -12864,7 +12864,7 @@ if
 StaticPrefs
 :
 :
-WebRenderHighlightPaintedLayers
+gfx_webrender_highlight_painted_layers
 (
 )
 )

@@ -2803,7 +2803,7 @@ if
 StaticPrefs
 :
 :
-WebRenderBlobPaintFlashing
+gfx_webrender_blob_paint_flashing
 (
 )
 )

@@ -5824,7 +5824,7 @@ direct
 -
 mapping
 "
-AllowTextureDirectMapping
+gfx_allow_texture_direct_mapping
 bool
 true
 )
@@ -5840,7 +5840,7 @@ rgb16
 .
 force
 "
-AndroidRGB16Force
+gfx_android_rgb16_force
 bool
 false
 )
@@ -5854,7 +5854,7 @@ apitrace
 .
 enabled
 "
-UseApitrace
+gfx_apitrace_enabled
 bool
 false
 )
@@ -5874,7 +5874,7 @@ blocklist
 .
 all
 "
-BlocklistAll
+gfx_blocklist_all
 int32_t
 0
 )
@@ -5890,7 +5890,7 @@ blocklist
 .
 all
 "
-BlocklistAll
+gfx_blocklist_all
 int32_t
 0
 )
@@ -5908,7 +5908,7 @@ max
 -
 size
 "
-MaxCanvasSize
+gfx_canvas_max_size
 RelaxedAtomicInt32
 0x7fff
 )
@@ -5922,7 +5922,7 @@ canvas
 .
 remote
 "
-CanvasRemote
+gfx_canvas_remote
 RelaxedAtomicBool
 false
 )
@@ -5936,7 +5936,7 @@ color_management
 .
 enablev4
 "
-CMSEnableV4
+gfx_color_management_enablev4
 RelaxedAtomicBool
 false
 )
@@ -5950,7 +5950,7 @@ color_management
 .
 mode
 "
-CMSMode
+gfx_color_management_mode
 RelaxedAtomicInt32
 -
 1
@@ -5965,7 +5965,7 @@ color_management
 .
 rendering_intent
 "
-CMSRenderingIntent
+gfx_color_management_rendering_intent
 RelaxedAtomicInt32
 0
 )
@@ -5979,7 +5979,7 @@ compositor
 .
 clearstate
 "
-CompositorClearState
+gfx_compositor_clearstate
 RelaxedAtomicBool
 false
 )
@@ -5995,7 +5995,7 @@ glcontext
 .
 opaque
 "
-CompositorGLContextOpaque
+gfx_compositor_glcontext_opaque
 RelaxedAtomicBool
 false
 )
@@ -6021,7 +6021,7 @@ color
 .
 r
 "
-CompositorOverrideClearColorR
+gfx_compositor_override_clear_color_r
 AtomicFloat
 0
 .
@@ -6043,7 +6043,7 @@ color
 .
 g
 "
-CompositorOverrideClearColorG
+gfx_compositor_override_clear_color_g
 AtomicFloat
 0
 .
@@ -6065,7 +6065,7 @@ color
 .
 b
 "
-CompositorOverrideClearColorB
+gfx_compositor_override_clear_color_b
 AtomicFloat
 0
 .
@@ -6087,7 +6087,7 @@ color
 .
 a
 "
-CompositorOverrideClearColorA
+gfx_compositor_override_clear_color_a
 AtomicFloat
 0
 .
@@ -6107,7 +6107,7 @@ always
 -
 paint
 "
-AlwaysPaint
+gfx_content_always_paint
 RelaxedAtomicBool
 false
 )
@@ -6127,7 +6127,7 @@ cache
 -
 size
 "
-SkiaContentFontCacheSize
+gfx_content_skia_font_cache_size
 int32_t
 5
 )
@@ -6143,7 +6143,7 @@ reset
 .
 limit
 "
-DeviceResetLimitCount
+gfx_device_reset_limit
 int32_t
 10
 )
@@ -6161,7 +6161,7 @@ threshold
 -
 ms
 "
-DeviceResetThresholdMilliseconds
+gfx_device_reset_threshold_ms
 int32_t
 -
 1
@@ -6176,7 +6176,7 @@ direct2d
 .
 disabled
 "
-Direct2DDisabled
+gfx_direct2d_disabled
 bool
 false
 )
@@ -6192,7 +6192,7 @@ force
 -
 enabled
 "
-Direct2DForceEnabled
+gfx_direct2d_force_enabled
 bool
 false
 )
@@ -6212,7 +6212,7 @@ on
 -
 paintthread
 "
-Direct2DDestroyDTOnPaintThread
+gfx_direct2d_destroy_dt_on_paintthread
 RelaxedAtomicBool
 true
 )
@@ -6230,7 +6230,7 @@ decoder
 -
 device
 "
-Direct3D11ReuseDecoderDevice
+gfx_direct3d11_reuse_decoder_device
 RelaxedAtomicInt32
 -
 1
@@ -6249,7 +6249,7 @@ keyed
 -
 mutex
 "
-Direct3D11AllowKeyedMutex
+gfx_direct3d11_allow_keyed_mutex
 RelaxedAtomicBool
 true
 )
@@ -6267,7 +6267,7 @@ double
 -
 buffering
 "
-Direct3D11UseDoubleBuffering
+gfx_direct3d11_use_double_buffering
 RelaxedAtomicBool
 false
 )
@@ -6285,7 +6285,7 @@ debug
 -
 layer
 "
-Direct3D11EnableDebugLayer
+gfx_direct3d11_enable_debug_layer
 bool
 false
 )
@@ -6303,7 +6303,7 @@ on
 -
 error
 "
-Direct3D11BreakOnError
+gfx_direct3d11_break_on_error
 bool
 false
 )
@@ -6323,7 +6323,7 @@ create
 -
 device
 "
-Direct3D11SleepOnCreateDevice
+gfx_direct3d11_sleep_on_create_device
 int32_t
 0
 )
@@ -6337,7 +6337,7 @@ downloadable_fonts
 .
 keep_color_bitmaps
 "
-KeepColorBitmaps
+gfx_downloadable_fonts_keep_color_bitmaps
 RelaxedAtomicBool
 false
 )
@@ -6365,7 +6365,7 @@ downloadable_fonts
 .
 validate_variation_tables
 "
-ValidateVariationTables
+gfx_downloadable_fonts_validate_variation_tables
 RelaxedAtomicBool
 true
 )
@@ -6379,7 +6379,7 @@ downloadable_fonts
 .
 otl_validation
 "
-ValidateOTLTables
+gfx_downloadable_fonts_otl_validation
 RelaxedAtomicBool
 true
 )
@@ -6395,7 +6395,7 @@ color
 -
 bars
 "
-CompositorDrawColorBars
+gfx_draw_color_bars
 RelaxedAtomicBool
 false
 )
@@ -6415,7 +6415,7 @@ for
 -
 scroll
 "
-HidePluginsForScroll
+gfx_e10s_hide_plugins_for_scroll
 bool
 true
 )
@@ -6433,7 +6433,7 @@ list
 .
 shared
 "
-SharedFontList
+gfx_e10s_font_list_shared
 bool
 false
 )
@@ -6467,7 +6467,7 @@ coretext
 .
 enabled
 "
-CoreTextEnabled
+gfx_font_rendering_coretext_enabled
 RelaxedAtomicBool
 false
 )
@@ -6499,7 +6499,7 @@ layerscope
 .
 enabled
 "
-LayerScopeEnabled
+gfx_layerscope_enabled
 RelaxedAtomicBool
 false
 )
@@ -6513,7 +6513,7 @@ layerscope
 .
 port
 "
-LayerScopePort
+gfx_layerscope_port
 RelaxedAtomicInt32
 23456
 )
@@ -6527,7 +6527,7 @@ logging
 .
 level
 "
-GfxLoggingLevel
+gfx_logging_level
 RelaxedAtomicInt32
 mozilla
 :
@@ -6549,7 +6549,7 @@ crash
 .
 length
 "
-GfxLoggingCrashLength
+gfx_logging_crash_length
 uint32_t
 16
 )
@@ -6569,7 +6569,7 @@ count
 .
 enabled
 "
-GfxLoggingPaintedPixelCountEnabled
+gfx_logging_painted_pixel_count_enabled
 RelaxedAtomicBool
 false
 )
@@ -6587,7 +6587,7 @@ usage
 .
 enabled
 "
-GfxLoggingTextureUsageEnabled
+gfx_logging_texture_usage_enabled
 bool
 false
 )
@@ -6607,7 +6607,7 @@ usage
 .
 enabled
 "
-GfxLoggingPeakTextureUsageEnabled
+gfx_logging_peak_texture_usage_enabled
 bool
 false
 )
@@ -6625,7 +6625,7 @@ frames
 .
 enabled
 "
-LoggingSlowFramesEnabled
+gfx_logging_slow_frames_enabled
 bool
 false
 )
@@ -6641,7 +6641,7 @@ alloc
 -
 size
 "
-MaxAllocSizeDoNotUseDirectly
+gfx_max_alloc_size_do_not_use_directly
 int32_t
 (
 int32_t
@@ -6660,7 +6660,7 @@ texture
 -
 size
 "
-MaxTextureSizeDoNotUseDirectly
+gfx_max_texture_size_do_not_use_directly
 int32_t
 (
 int32_t
@@ -6725,7 +6725,7 @@ partialpresent
 .
 force
 "
-PartialPresent
+gfx_partialpresent_force
 RelaxedAtomicInt32
 0
 )
@@ -6741,7 +6741,7 @@ warnings
 .
 enabled
 "
-PerfWarnings
+gfx_perf_warnings_enabled
 RelaxedAtomicBool
 false
 )
@@ -6757,7 +6757,7 @@ device
 -
 fail
 "
-DeviceFailForTesting
+gfx_testing_device_fail
 RelaxedAtomicBool
 false
 )
@@ -6773,7 +6773,7 @@ device
 -
 reset
 "
-DeviceResetForTesting
+gfx_testing_device_reset
 RelaxedAtomicInt32
 0
 )
@@ -6789,7 +6789,7 @@ disable
 -
 aa
 "
-DisableAllTextAA
+gfx_text_disable_aa
 bool
 false
 )
@@ -6809,7 +6809,7 @@ from
 -
 pixmap
 "
-UseGLXTextureFromPixmap
+gfx_use_glx_texture_from_pixmap
 RelaxedAtomicBool
 false
 )
@@ -6825,7 +6825,7 @@ iosurface
 -
 textures
 "
-UseIOSurfaceTextures
+gfx_use_iosurface_textures
 bool
 false
 )
@@ -6843,7 +6843,7 @@ on
 -
 present
 "
-UseMutexOnPresent
+gfx_use_mutex_on_present
 bool
 false
 )
@@ -6859,7 +6859,7 @@ surfacetexture
 -
 textures
 "
-UseSurfaceTextureTextures
+gfx_use_surfacetexture_textures
 bool
 false
 )
@@ -6877,7 +6877,7 @@ scroll
 -
 transforms
 "
-CollectScrollTransforms
+gfx_vsync_collect_scroll_transforms
 RelaxedAtomicBool
 false
 )
@@ -6895,7 +6895,7 @@ unobserve
 -
 count
 "
-CompositorUnobserveCount
+gfx_vsync_compositor_unobserve_count
 int32_t
 10
 )
@@ -6909,7 +6909,7 @@ webrender
 .
 all
 "
-WebRenderAll
+gfx_webrender_all
 bool
 false
 )
@@ -6938,7 +6938,7 @@ webrender
 .
 enabled
 "
-WebRenderEnabledDoNotUseDirectly
+gfx_webrender_enabled_do_not_use_directly
 bool
 PREF_VALUE
 )
@@ -6957,7 +6957,7 @@ blob
 -
 images
 "
-WebRenderBlobImages
+gfx_webrender_blob_images
 RelaxedAtomicBool
 true
 )
@@ -6975,7 +6975,7 @@ paint
 -
 flashing
 "
-WebRenderBlobPaintFlashing
+gfx_webrender_blob_paint_flashing
 RelaxedAtomicBool
 false
 )
@@ -6993,7 +6993,7 @@ dump
 -
 parent
 "
-WebRenderDLDumpParent
+gfx_webrender_dl_dump_parent
 RelaxedAtomicBool
 false
 )
@@ -7011,7 +7011,7 @@ dump
 -
 content
 "
-WebRenderDLDumpContent
+gfx_webrender_dl_dump_content
 RelaxedAtomicBool
 false
 )
@@ -7027,7 +7027,7 @@ force
 -
 disabled
 "
-WebRenderForceDisabled
+gfx_webrender_force_disabled
 bool
 false
 )
@@ -7045,7 +7045,7 @@ painted
 -
 layers
 "
-WebRenderHighlightPaintedLayers
+gfx_webrender_highlight_painted_layers
 RelaxedAtomicBool
 false
 )
@@ -7063,7 +7063,7 @@ scenebuild
 -
 threshold
 "
-WebRenderLateSceneBuildThreshold
+gfx_webrender_late_scenebuild_threshold
 RelaxedAtomicInt32
 4
 )
@@ -7085,7 +7085,7 @@ per
 -
 chain
 "
-WebRenderMaxFilterOpsPerChain
+gfx_webrender_max_filter_ops_per_chain
 RelaxedAtomicUint32
 64
 )
@@ -7101,7 +7101,7 @@ picture
 -
 caching
 "
-WebRenderPictureCaching
+gfx_webrender_picture_caching
 RelaxedAtomicBool
 false
 )
@@ -7119,7 +7119,7 @@ render
 -
 roots
 "
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 bool
 false
 )
@@ -7137,7 +7137,7 @@ debug
 -
 server
 "
-WebRenderStartDebugServer
+gfx_webrender_start_debug_server
 RelaxedAtomicBool
 false
 )
@@ -7155,7 +7155,7 @@ driver
 -
 bugs
 "
-WorkAroundDriverBugs
+gfx_work_around_driver_bugs
 bool
 true
 )
@@ -7171,7 +7171,7 @@ accurate
 -
 conversion
 "
-YCbCrAccurateConversion
+gfx_ycbcr_accurate_conversion
 RelaxedAtomicBool
 false
 )

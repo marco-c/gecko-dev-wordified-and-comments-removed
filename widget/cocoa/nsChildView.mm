@@ -20760,7 +20760,7 @@ aOpaque
 StaticPrefs
 :
 :
-CompositorGLContextOpaque
+gfx_compositor_glcontext_opaque
 (
 )
 ;

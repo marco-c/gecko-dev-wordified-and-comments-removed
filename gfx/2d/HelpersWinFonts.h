@@ -46,7 +46,7 @@ if
 StaticPrefs
 :
 :
-DisableAllTextAA
+gfx_text_disable_aa
 (
 )
 )

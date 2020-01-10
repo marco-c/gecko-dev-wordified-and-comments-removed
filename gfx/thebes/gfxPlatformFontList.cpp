@@ -2524,7 +2524,7 @@ if
 StaticPrefs
 :
 :
-SharedFontList
+gfx_e10s_font_list_shared
 (
 )
 &

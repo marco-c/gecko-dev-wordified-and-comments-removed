@@ -1419,7 +1419,7 @@ Get
 StaticPrefs
 :
 :
-Direct2DDestroyDTOnPaintThread
+gfx_direct2d_destroy_dt_on_paintthread
 (
 )
 )

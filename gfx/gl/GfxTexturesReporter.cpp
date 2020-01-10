@@ -261,7 +261,7 @@ if
 StaticPrefs
 :
 :
-GfxLoggingTextureUsageEnabled
+gfx_logging_texture_usage_enabled
 (
 )
 )
@@ -316,7 +316,7 @@ if
 StaticPrefs
 :
 :
-GfxLoggingPeakTextureUsageEnabled
+gfx_logging_peak_texture_usage_enabled
 (
 )
 )

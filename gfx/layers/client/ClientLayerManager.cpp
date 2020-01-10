@@ -1459,7 +1459,7 @@ if
 StaticPrefs
 :
 :
-AlwaysPaint
+gfx_content_always_paint
 (
 )
 &
@@ -3276,7 +3276,7 @@ if
 StaticPrefs
 :
 :
-AlwaysPaint
+gfx_content_always_paint
 (
 )
 &

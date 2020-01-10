@@ -9379,7 +9379,7 @@ XRE_IsContentProcess
 StaticPrefs
 :
 :
-AlwaysPaint
+gfx_content_always_paint
 (
 )
 )

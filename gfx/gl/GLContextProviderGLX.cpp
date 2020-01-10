@@ -893,7 +893,7 @@ mUseTextureFromPixmap
 StaticPrefs
 :
 :
-UseGLXTextureFromPixmap
+gfx_use_glx_texture_from_pixmap
 (
 )
 ;

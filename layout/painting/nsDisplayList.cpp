@@ -15029,7 +15029,7 @@ XRE_IsContentProcess
 StaticPrefs
 :
 :
-AlwaysPaint
+gfx_content_always_paint
 (
 )
 )
@@ -36527,7 +36527,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-WebRenderSplitRenderRoots
+gfx_webrender_split_render_roots
 (
 )
 )
@@ -53060,7 +53060,7 @@ Length
 StaticPrefs
 :
 :
-WebRenderMaxFilterOpsPerChain
+gfx_webrender_max_filter_ops_per_chain
 (
 )
 )

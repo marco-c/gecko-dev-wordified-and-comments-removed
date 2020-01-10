@@ -1188,13 +1188,13 @@ GetInt
 StaticPrefs
 :
 :
-GetGfxLoggingLevelPrefName
+Getgfx_logging_levelPrefName
 (
 )
 StaticPrefs
 :
 :
-GetGfxLoggingLevelPrefDefault
+Getgfx_logging_levelPrefDefault
 (
 )
 )
@@ -1237,7 +1237,7 @@ nsDependentCString
 StaticPrefs
 :
 :
-GetGfxLoggingLevelPrefName
+Getgfx_logging_levelPrefName
 (
 )
 )

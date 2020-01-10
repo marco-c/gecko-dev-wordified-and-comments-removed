@@ -6129,7 +6129,7 @@ mWidth
 StaticPrefs
 :
 :
-MaxCanvasSize
+gfx_canvas_max_size
 (
 )
 |
@@ -6139,7 +6139,7 @@ mHeight
 StaticPrefs
 :
 :
-MaxCanvasSize
+gfx_canvas_max_size
 (
 )
 |

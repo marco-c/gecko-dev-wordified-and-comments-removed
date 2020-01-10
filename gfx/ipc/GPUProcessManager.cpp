@@ -1971,7 +1971,7 @@ timeLimit
 StaticPrefs
 :
 :
-DeviceResetThresholdMilliseconds
+gfx_device_reset_threshold_ms
 (
 )
 ;
@@ -1981,7 +1981,7 @@ countLimit
 StaticPrefs
 :
 :
-DeviceResetLimitCount
+gfx_device_reset_limit
 (
 )
 ;
