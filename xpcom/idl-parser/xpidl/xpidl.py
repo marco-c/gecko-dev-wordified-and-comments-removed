@@ -5000,7 +5000,8 @@ if
 member
 .
 kind
-is
+=
+=
 '
 method
 '

@@ -868,8 +868,8 @@ if
 patch_cmd
 .
 returncode
-is
-not
+!
+=
 0
 :
                 
