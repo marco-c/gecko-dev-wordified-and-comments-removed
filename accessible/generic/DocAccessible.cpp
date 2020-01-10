@@ -11381,7 +11381,7 @@ case
 curParent
 -
 >
-MoveChild
+RelocateChild
 (
 aIdxInParent
 aChild

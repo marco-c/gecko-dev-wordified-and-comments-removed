@@ -969,8 +969,9 @@ Accessible
 aChild
 )
 ;
+virtual
 void
-MoveChild
+RelocateChild
 (
 uint32_t
 aNewIndex
