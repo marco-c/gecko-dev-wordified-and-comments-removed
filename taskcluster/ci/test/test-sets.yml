@@ -2118,16 +2118,6 @@ opt
 -
 tests
 :
-#
-crashtests
-failing
-on
-debug
-;
-bug
-1524493
--
-crashtest
 -
 geckoview
 -
@@ -2140,6 +2130,8 @@ tests
 :
 -
 cppunit
+-
+crashtest
 -
 gtest
 -
