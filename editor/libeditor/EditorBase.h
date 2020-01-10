@@ -404,6 +404,9 @@ class
 JoinNodeTransaction
 ;
 class
+ListElementSelectionState
+;
+class
 PlaceholderTransaction
 ;
 class
@@ -6676,6 +6679,10 @@ InsertTextTransaction
 friend
 class
 JoinNodeTransaction
+;
+friend
+class
+ListElementSelectionState
 ;
 friend
 class

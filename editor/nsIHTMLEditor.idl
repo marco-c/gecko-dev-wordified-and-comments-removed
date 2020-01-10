@@ -1737,9 +1737,6 @@ selected
 .
 *
 /
-[
-can_run_script
-]
 void
 getListState
 (
