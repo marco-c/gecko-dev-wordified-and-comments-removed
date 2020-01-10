@@ -3876,12 +3876,12 @@ mozilla
 WritingMode
 ;
 using
-StyleTrackSize
+StyleImplicitGridTracks
 =
 mozilla
 :
 :
-StyleTrackSize
+StyleImplicitGridTracks
 ;
 explicit
 nsStylePosition
@@ -4073,10 +4073,10 @@ mMaxHeight
 StyleFlexBasis
 mFlexBasis
 ;
-StyleTrackSize
+StyleImplicitGridTracks
 mGridAutoColumns
 ;
-StyleTrackSize
+StyleImplicitGridTracks
 mGridAutoRows
 ;
 float
