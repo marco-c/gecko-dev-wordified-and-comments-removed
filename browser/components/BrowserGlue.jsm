@@ -731,6 +731,11 @@ MasterPasswordResponse
 "
 AboutLogins
 :
+SendFavicons
+"
+"
+AboutLogins
+:
 SyncState
 "
 "
