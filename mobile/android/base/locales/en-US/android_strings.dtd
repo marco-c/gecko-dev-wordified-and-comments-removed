@@ -6560,6 +6560,14 @@ folder
 >
 <
 !
+ENTITY
+bookmark_edit_undo
+"
+Undo
+"
+>
+<
+!
 -
 -
 Localization
