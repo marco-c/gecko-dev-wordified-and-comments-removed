@@ -6574,8 +6574,6 @@ onDownloadEnded
 "
 )
 ;
-break
-;
 case
 AddonManager
 .

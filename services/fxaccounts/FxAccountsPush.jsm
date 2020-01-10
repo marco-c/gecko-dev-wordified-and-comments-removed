@@ -611,6 +611,8 @@ err
 )
 ;
 }
+default
+:
 break
 ;
 }

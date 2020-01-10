@@ -2137,8 +2137,6 @@ ThrowTypeError
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
-break
-;
 default
 :
 ThrowTypeError

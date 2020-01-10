@@ -14366,8 +14366,6 @@ ask
 "
 ;
 }
-break
-;
 case
 kActionUsePlugin
 :

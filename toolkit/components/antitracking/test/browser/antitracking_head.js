@@ -2064,8 +2064,6 @@ nextPage
 }
 )
 ;
-break
-;
 case
 "
 navigate

@@ -2473,8 +2473,6 @@ cookie
 "
 )
 ;
-break
-;
 case
 2
 :

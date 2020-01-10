@@ -687,8 +687,6 @@ e
 )
 ;
 }
-break
-;
 case
 kMessageNotificationSaveKo
 :
