@@ -96,14 +96,6 @@ StaticPrefs
 layout_css_DOMMatrix_enabled
 (
 )
-&
-&
-StaticPrefs
-:
-:
-layout_css_prefixes_webkit
-(
-)
 ;
 }
 already_AddRefed
