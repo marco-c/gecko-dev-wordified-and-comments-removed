@@ -175,7 +175,10 @@ rand
 *
 200
 /
+float
+(
 RAND_MAX
+)
 )
 ;
 PR_Sleep
