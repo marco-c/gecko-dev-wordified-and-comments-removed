@@ -575,11 +575,6 @@ hasCallSiteObj
 false
 ;
 bool
-hasSingletons
-=
-false
-;
-bool
 hasTryFinally
 =
 false
