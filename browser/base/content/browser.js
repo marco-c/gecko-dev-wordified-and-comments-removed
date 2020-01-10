@@ -3770,6 +3770,9 @@ function
 updateFxaToolbarMenu
 (
 enable
+isInitialUpdate
+=
+false
 )
 {
 const
@@ -3868,12 +3871,19 @@ visible
 "
 )
 ;
+if
+(
+!
+isInitialUpdate
+)
+{
 gSync
 .
 maybeUpdateUIState
 (
 )
 ;
+}
 Services
 .
 telemetry
@@ -8863,6 +8873,7 @@ _setInitialFocus
 updateFxaToolbarMenu
 (
 gFxaToolbarEnabled
+true
 )
 ;
 }

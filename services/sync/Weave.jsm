@@ -144,7 +144,8 @@ Ci
 nsISupportsWeakReference
 ]
 )
-ensureLoaded
+get
+Weave
 (
 )
 {
@@ -172,6 +173,16 @@ js
 "
 )
 ;
+return
+Weave
+;
+}
+ensureLoaded
+(
+)
+{
+this
+.
 Weave
 .
 Service
