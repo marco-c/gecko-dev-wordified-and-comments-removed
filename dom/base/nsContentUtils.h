@@ -6729,6 +6729,12 @@ GenerateBrowsingContextId
 )
 ;
 static
+uint64_t
+GenerateWindowId
+(
+)
+;
+static
 bool
 GetUserIsInteracting
 (
