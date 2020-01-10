@@ -20029,7 +20029,7 @@ abuseReport
 .
 enabled
 "
-false
+true
 )
 ;
 pref
