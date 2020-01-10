@@ -90,7 +90,7 @@ expansion
 default
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -199,7 +199,7 @@ expansion
 default
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -363,7 +363,7 @@ expansion
 default
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -472,7 +472,7 @@ expansion
 default
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -575,7 +575,7 @@ expansion
 default
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -735,7 +735,7 @@ expansion
 default
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -843,7 +843,7 @@ expansion
 default
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -973,7 +973,7 @@ expansion
 *
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -1062,7 +1062,7 @@ expansion
 *
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -1162,7 +1162,7 @@ expansion
 *
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -1289,7 +1289,7 @@ expansion
 *
 "
 "
-source_scheme
+source_protocol
 "
 :
 "
@@ -1394,7 +1394,7 @@ override
 "
 ]
 "
-source_scheme
+source_protocol
 "
 :
 [
