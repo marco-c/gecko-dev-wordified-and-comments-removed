@@ -7392,6 +7392,9 @@ if
 bindingParent
 )
 {
+#
+ifdef
+MOZ_XBL
 nsXBLBinding
 *
 binding
@@ -7420,6 +7423,8 @@ GetSourceDocURI
 }
 else
 {
+#
+endif
 MOZ_ASSERT
 (
 content
@@ -7448,7 +7453,12 @@ binding
 "
 )
 ;
+#
+ifdef
+MOZ_XBL
 }
+#
+endif
 }
 }
 if

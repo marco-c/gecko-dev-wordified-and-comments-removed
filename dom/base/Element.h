@@ -770,6 +770,9 @@ ErrorResult
 aError
 )
 ;
+#
+ifdef
+MOZ_XBL
 void
 SetXBLBinding
 (
@@ -783,6 +786,8 @@ aOldBindingManager
 nullptr
 )
 ;
+#
+endif
 void
 SetShadowRoot
 (
@@ -5644,6 +5649,9 @@ mAttrs
 ;
 }
 ;
+#
+ifdef
+MOZ_XBL
 class
 RemoveFromBindingManagerRunnable
 :
@@ -5702,6 +5710,8 @@ mDoc
 ;
 }
 ;
+#
+endif
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
 Element

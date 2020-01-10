@@ -378,12 +378,17 @@ nsRange
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsXBLBinding
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3416,6 +3421,9 @@ searchRootNode
 rootContent
 )
 ;
+#
+ifdef
+MOZ_XBL
 nsXBLBinding
 *
 binding
@@ -3459,6 +3467,8 @@ GetFirstChild
 ;
 }
 }
+#
+endif
 mSearchRange
 -
 >

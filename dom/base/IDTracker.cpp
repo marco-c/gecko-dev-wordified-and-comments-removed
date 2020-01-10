@@ -36,6 +36,9 @@ nsIReferrerInfo
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsBindingManager
@@ -45,14 +48,16 @@ h
 #
 include
 "
-nsEscape
+nsXBLPrototypeBinding
 .
 h
 "
 #
+endif
+#
 include
 "
-nsXBLPrototypeBinding
+nsEscape
 .
 h
 "
@@ -300,6 +305,9 @@ IsInShadowTree
 )
 )
 {
+#
+ifdef
+MOZ_XBL
 nsXBLBinding
 *
 binding
@@ -317,6 +325,8 @@ if
 binding
 )
 {
+#
+endif
 Element
 *
 anonRoot
@@ -348,6 +358,9 @@ ref
 return
 ;
 }
+#
+ifdef
+MOZ_XBL
 }
 else
 {
@@ -462,6 +475,8 @@ return
 ;
 }
 }
+#
+endif
 }
 bool
 isEqualExceptRef

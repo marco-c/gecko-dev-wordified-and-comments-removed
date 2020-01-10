@@ -90,6 +90,9 @@ ClearOnShutdown
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 mozilla
@@ -100,6 +103,8 @@ XBLChildrenElement
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1163,6 +1168,9 @@ forget
 )
 ;
 }
+#
+ifdef
+MOZ_XBL
 if
 (
 ns
@@ -1203,6 +1211,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 return
 NS_NewXMLElement
 (

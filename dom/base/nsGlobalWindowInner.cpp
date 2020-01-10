@@ -1318,6 +1318,9 @@ nsIArray
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsBindingManager
@@ -1331,6 +1334,8 @@ nsXBLService
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -9184,6 +9189,9 @@ break
 ;
 }
 }
+#
+ifdef
+MOZ_XBL
 if
 (
 mDoc
@@ -9202,6 +9210,8 @@ ExecuteDetachedHandlers
 )
 ;
 }
+#
+endif
 mIsDocumentLoaded
 =
 false

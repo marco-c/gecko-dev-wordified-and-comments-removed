@@ -208,12 +208,17 @@ nsIReflowCallback
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsBindingManager
 .
 h
 "
+#
+endif
 #
 include
 "

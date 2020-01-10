@@ -248,12 +248,17 @@ nsTextControlFrame
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsXBLService
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1094,6 +1099,9 @@ Init
 (
 )
 ;
+#
+ifdef
+MOZ_XBL
 nsXBLService
 :
 :
@@ -1101,6 +1109,8 @@ Init
 (
 )
 ;
+#
+endif
 rv
 =
 nsContentUtils
@@ -2109,6 +2119,9 @@ Shutdown
 (
 )
 ;
+#
+ifdef
+MOZ_XBL
 nsXBLService
 :
 :
@@ -2116,6 +2129,8 @@ Shutdown
 (
 )
 ;
+#
+endif
 FrameLayerBuilder
 :
 :

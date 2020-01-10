@@ -198,12 +198,17 @@ UniquePtr
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsBindingManager
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla

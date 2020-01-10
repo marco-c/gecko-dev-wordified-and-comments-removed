@@ -140,12 +140,17 @@ nsGlobalWindow
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsXBLPrototypeBinding
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3225,6 +3230,9 @@ return
 true
 ;
 }
+#
+ifdef
+MOZ_XBL
 bool
 nsJSUtils
 :
@@ -3320,6 +3328,8 @@ return
 true
 ;
 }
+#
+endif
 void
 nsJSUtils
 :

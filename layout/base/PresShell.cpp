@@ -1365,12 +1365,17 @@ nsIDocShellTreeOwner
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsBindingManager
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -8287,6 +8292,9 @@ nsPresShell_ReflowStackPointerTop
 ;
 #
 endif
+#
+ifdef
+MOZ_XBL
 class
 XBLConstructorRunner
 :
@@ -8347,6 +8355,8 @@ mDocument
 ;
 }
 ;
+#
+endif
 nsresult
 PresShell
 :
@@ -8645,6 +8655,9 @@ NS_ENSURE_STATE
 mHaveShutDown
 )
 ;
+#
+ifdef
+MOZ_XBL
 nsContentUtils
 :
 :
@@ -8657,6 +8670,8 @@ mDocument
 )
 )
 ;
+#
+endif
 NS_ENSURE_STATE
 (
 !
@@ -13986,6 +14001,9 @@ GetPrimaryFrame
 )
 )
 ;
+#
+ifdef
+MOZ_XBL
 if
 (
 auto
@@ -14069,6 +14087,8 @@ child
 }
 }
 }
+#
+endif
 }
 }
 #
@@ -19675,6 +19695,9 @@ ProcessPendingRestyles
 )
 ;
 }
+#
+ifdef
+MOZ_XBL
 if
 (
 MOZ_LIKELY
@@ -19697,6 +19720,8 @@ ProcessAttachedQueue
 )
 ;
 }
+#
+endif
 if
 (
 MOZ_LIKELY
@@ -47134,6 +47159,9 @@ Initialize
 )
 ;
 }
+#
+ifdef
+MOZ_XBL
 mDocument
 -
 >
@@ -47146,6 +47174,8 @@ ProcessAttachedQueue
 (
 )
 ;
+#
+endif
 presShell
 -
 >

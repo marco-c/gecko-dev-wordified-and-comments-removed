@@ -1525,6 +1525,9 @@ sPseudoParentData
 eParentTypeCount
 ]
 ;
+#
+ifdef
+MOZ_XBL
 struct
 MOZ_STACK_CLASS
 XBLBindingLoadInfo
@@ -1573,6 +1576,8 @@ uint32_t
 aFlags
 )
 ;
+#
+endif
 const
 FrameConstructionData
 *

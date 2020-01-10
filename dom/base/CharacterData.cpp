@@ -161,12 +161,17 @@ DirectionalityUtils
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsBindingManager
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2873,6 +2878,9 @@ HandleShadowDOMRelatedRemovalSteps
 aNullParent
 )
 ;
+#
+ifdef
+MOZ_XBL
 Document
 *
 document
@@ -2881,6 +2889,8 @@ GetComposedDoc
 (
 )
 ;
+#
+endif
 if
 (
 aNullParent
@@ -2972,6 +2982,9 @@ SubtreeRoot
 )
 ;
 }
+#
+ifdef
+MOZ_XBL
 if
 (
 document
@@ -3012,6 +3025,8 @@ document
 ;
 }
 }
+#
+endif
 nsExtendedContentSlots
 *
 slots

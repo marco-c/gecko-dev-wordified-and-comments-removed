@@ -79,9 +79,14 @@ nsTextFragment
 class
 nsIFrame
 ;
+#
+ifdef
+MOZ_XBL
 class
 nsXBLBinding
 ;
+#
+endif
 class
 nsITextControlElement
 ;
@@ -926,6 +931,9 @@ get
 nullptr
 ;
 }
+#
+ifdef
+MOZ_XBL
 nsXBLBinding
 *
 GetXBLBinding
@@ -962,6 +970,8 @@ const
 =
 0
 ;
+#
+endif
 inline
 mozilla
 :

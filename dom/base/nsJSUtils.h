@@ -809,6 +809,9 @@ JSObject
 aScopeChain
 )
 ;
+#
+ifdef
+MOZ_XBL
 static
 bool
 GetScopeChainForXBL
@@ -840,6 +843,8 @@ JSObject
 aScopeChain
 )
 ;
+#
+endif
 static
 void
 ResetTimeZone

@@ -460,12 +460,17 @@ nsNodeInfoManager
 h
 "
 #
+ifdef
+MOZ_XBL
+#
 include
 "
 nsXBLBinding
 .
 h
 "
+#
+endif
 #
 include
 "
