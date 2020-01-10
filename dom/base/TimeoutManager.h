@@ -26,9 +26,6 @@ class
 nsIEventTarget
 ;
 class
-nsITimeoutHandler
-;
-class
 nsITimer
 ;
 class
@@ -45,6 +42,9 @@ dom
 {
 class
 TimeoutExecutor
+;
+class
+TimeoutHandler
 ;
 class
 TimeoutManager
@@ -148,7 +148,7 @@ IsEmpty
 nsresult
 SetTimeout
 (
-nsITimeoutHandler
+TimeoutHandler
 *
 aHandler
 int32_t

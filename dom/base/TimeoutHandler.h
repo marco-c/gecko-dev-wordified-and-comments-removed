@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsITimeoutHandler
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -76,7 +69,7 @@ class
 TimeoutHandler
 :
 public
-nsITimeoutHandler
+nsISupports
 {
 public
 :
@@ -94,7 +87,6 @@ const
 char
 *
 )
-override
 ;
 virtual
 void
@@ -112,14 +104,12 @@ uint32_t
 *
 aColumn
 )
-override
 ;
 virtual
 void
 MarkForCC
 (
 )
-override
 {
 }
 protected

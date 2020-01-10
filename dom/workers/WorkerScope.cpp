@@ -1796,9 +1796,9 @@ return
 0
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsITimeoutHandler
+TimeoutHandler
 >
 handler
 =
@@ -1901,9 +1901,9 @@ return
 0
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsITimeoutHandler
+TimeoutHandler
 >
 handler
 =
