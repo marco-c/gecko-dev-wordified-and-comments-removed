@@ -5505,9 +5505,6 @@ HOST
 obfuscate_host_addresses_
 )
 {
-int
-r
-;
 char
 addr
 [
@@ -5516,9 +5513,6 @@ addr
 ;
 if
 (
-(
-r
-=
 nr_transport_addr_get_addrstring
 (
 &
@@ -5530,7 +5524,6 @@ addr
 sizeof
 (
 addr
-)
 )
 )
 )
