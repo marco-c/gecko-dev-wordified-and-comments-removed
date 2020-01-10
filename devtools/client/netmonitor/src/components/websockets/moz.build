@@ -104,6 +104,11 @@ FrameListContent
 js
 '
 '
+FrameListContextMenu
+.
+js
+'
+'
 FrameListHeader
 .
 js

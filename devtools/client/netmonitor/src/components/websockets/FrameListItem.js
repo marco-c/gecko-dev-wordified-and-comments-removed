@@ -301,6 +301,13 @@ PropTypes
 func
 .
 isRequired
+onContextMenu
+:
+PropTypes
+.
+func
+.
+isRequired
 connector
 :
 PropTypes
@@ -328,6 +335,7 @@ item
 index
 isSelected
 onMouseDown
+onContextMenu
 connector
 visibleColumns
 }
@@ -399,6 +407,7 @@ tabIndex
 :
 0
 onMouseDown
+onContextMenu
 }
 visibleColumns
 .
