@@ -112,8 +112,10 @@ mTabDelegate
 protected
 WebExtensionController
 (
+final
 GeckoRuntime
 runtime
+final
 WebExtensionEventDispatcher
 dispatcher
 )
