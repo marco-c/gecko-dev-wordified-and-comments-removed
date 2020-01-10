@@ -1577,6 +1577,25 @@ is
 None
 :
             
+name
+=
+"
+init
+"
+            
+if
+six
+.
+PY3
+:
+                
+name
++
+=
+"
+_py3
+"
+            
 self
 .
 _virtualenv_manager
@@ -1604,9 +1623,7 @@ topobjdir
 '
 _virtualenvs
 '
-'
-init
-'
+name
 )
                 
 sys
