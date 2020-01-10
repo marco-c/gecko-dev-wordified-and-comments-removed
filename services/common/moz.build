@@ -142,13 +142,6 @@ async
 js
 '
 '
-blocklist
--
-clients
-.
-js
-'
-'
 kinto
 -
 http
