@@ -88,13 +88,13 @@ DOMHelpers
 function
 DOMHelpers
 (
-aWindow
+win
 )
 {
 if
 (
 !
-aWindow
+win
 )
 {
 throw
@@ -118,7 +118,7 @@ this
 .
 window
 =
-aWindow
+win
 ;
 }
 ;
@@ -130,7 +130,6 @@ prototype
 getParentObject
 :
 function
-Helpers_getParentObject
 (
 node
 )
@@ -256,7 +255,6 @@ parentNode
 getChildObject
 :
 function
-Helpers_getChildObject
 (
 node
 index
@@ -420,7 +418,6 @@ null
 getFirstChild
 :
 function
-Helpers_getFirstChild
 (
 node
 )
@@ -460,7 +457,6 @@ firstChild
 getNextSibling
 :
 function
-Helpers_getNextSibling
 (
 node
 )
@@ -495,7 +491,6 @@ next
 isWhitespaceText
 :
 function
-Helpers_isWhitespaceText
 (
 node
 )
@@ -537,7 +532,6 @@ nodeValue
 destroy
 :
 function
-Helpers_destroy
 (
 )
 {
@@ -555,7 +549,6 @@ treeWalker
 onceDOMReady
 :
 function
-Helpers_onLocationChange
 (
 callback
 targetURL
