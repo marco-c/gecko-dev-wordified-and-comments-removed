@@ -17320,6 +17320,16 @@ dll
 "
 )
 ;
+ReadAheadDll
+(
+L
+"
+WinTypes
+.
+dll
+"
+)
+;
 }
 #
 endif
