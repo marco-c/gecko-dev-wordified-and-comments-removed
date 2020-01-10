@@ -2743,13 +2743,13 @@ stride
 SurfaceFormat
 :
 :
-B8G8R8A8
+OS_RGBA
 imageData
 stride
 SurfaceFormat
 :
 :
-B8G8R8A8
+OS_RGBA
 mDownscaler
 -
 >

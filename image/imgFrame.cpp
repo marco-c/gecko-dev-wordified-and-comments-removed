@@ -873,7 +873,7 @@ aFormat
 SurfaceFormat
 :
 :
-B8G8R8X8
+OS_RGBX
 )
 {
 memset
@@ -1158,7 +1158,7 @@ mFormat
 SurfaceFormat
 :
 :
-B8G8R8A8
+OS_RGBA
 ;
 }
 else
@@ -2387,7 +2387,7 @@ mImageSize
 SurfaceFormat
 :
 :
-B8G8R8A8
+OS_RGBA
 )
 ;
 if
