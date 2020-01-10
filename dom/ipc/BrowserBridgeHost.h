@@ -198,6 +198,15 @@ BrowserBridgeHost
 =
 default
 ;
+already_AddRefed
+<
+nsIWidget
+>
+GetWidget
+(
+)
+const
+;
 RefPtr
 <
 BrowserBridgeChild
