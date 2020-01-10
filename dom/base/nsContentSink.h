@@ -928,10 +928,6 @@ mProcessLinkHeaderEvent
 ;
 static
 int32_t
-sPendingEventMode
-;
-static
-int32_t
 sEventProbeRate
 ;
 static
