@@ -10518,6 +10518,10 @@ pub
 mix_blend_mode
 :
 MixBlendMode
+pub
+is_backdrop_root
+:
+bool
 }
 #
 [
@@ -11230,6 +11234,9 @@ glyph_raster_space
 params
 .
 cache_tiles
+params
+.
+is_backdrop_root
 )
 ;
 result
