@@ -923,7 +923,7 @@ mEncodingComplete
 )
 {
 return
-NS_ERROR_DOM_MEDIA_CANCELED
+NS_ERROR_FAILURE
 ;
 }
 if
