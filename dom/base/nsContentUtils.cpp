@@ -33439,6 +33439,16 @@ nsPresContext
 aPresContext
 )
 {
+if
+(
+!
+aPresContext
+)
+{
+return
+nullptr
+;
+}
 nsCOMPtr
 <
 nsIDocShell
