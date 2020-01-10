@@ -70,9 +70,6 @@ debugging
 -
 new
 "
-"
-protections
-"
 ]
 ;
 for
