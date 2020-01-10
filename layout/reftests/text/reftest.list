@@ -3997,6 +3997,15 @@ s
 no
 font
 support
+random
+-
+if
+(
+geckoview
+&
+&
+webrender
+)
 !
 =
 emoji
