@@ -30,7 +30,7 @@ travis
 -
 ci
 .
-org
+com
 /
 servo
 /
@@ -39,10 +39,6 @@ rust
 cssparser
 .
 svg
-?
-branch
-=
-travis
 )
 ]
 (
@@ -54,7 +50,7 @@ travis
 -
 ci
 .
-org
+com
 /
 servo
 /
