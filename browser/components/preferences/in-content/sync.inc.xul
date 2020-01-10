@@ -1504,10 +1504,6 @@ bookmarks
 preference
 =
 "
-services
-.
-sync
-.
 engine
 .
 bookmarks
@@ -1532,10 +1528,6 @@ history
 preference
 =
 "
-services
-.
-sync
-.
 engine
 .
 history
@@ -1560,10 +1552,6 @@ tabs
 preference
 =
 "
-services
-.
-sync
-.
 engine
 .
 tabs
@@ -1588,10 +1576,6 @@ logins
 preference
 =
 "
-services
-.
-sync
-.
 engine
 .
 passwords
@@ -1628,10 +1612,6 @@ addresses
 preference
 =
 "
-services
-.
-sync
-.
 engine
 .
 addresses
@@ -1656,10 +1636,6 @@ creditcards
 preference
 =
 "
-services
-.
-sync
-.
 engine
 .
 creditcards
@@ -1684,10 +1660,6 @@ addons
 preference
 =
 "
-services
-.
-sync
-.
 engine
 .
 addons
@@ -1712,10 +1684,6 @@ prefs
 preference
 =
 "
-services
-.
-sync
-.
 engine
 .
 prefs
