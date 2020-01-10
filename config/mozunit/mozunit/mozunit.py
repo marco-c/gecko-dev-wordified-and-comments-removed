@@ -1140,6 +1140,9 @@ mode
 '
 r
 '
+buffering
+=
+None
 )
 :
         
