@@ -2094,10 +2094,6 @@ nsIPrincipal
 *
 *
 aPrincipal
-nsIContentSecurityPolicy
-*
-*
-aCsp
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -2134,9 +2130,6 @@ aDragStartData
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
-*
-aCsp
 )
 ;
 bool

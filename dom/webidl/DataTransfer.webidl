@@ -128,9 +128,6 @@ datatransfer
 interface
 *
 /
-interface
-ContentSecurityPolicy
-;
 [
 Constructor
 ]
@@ -1241,15 +1238,6 @@ readonly
 attribute
 DOMString
 mozTriggeringPrincipalURISpec
-;
-[
-ChromeOnly
-]
-readonly
-attribute
-ContentSecurityPolicy
-?
-mozCSP
 ;
 /
 *

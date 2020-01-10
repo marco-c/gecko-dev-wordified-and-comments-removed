@@ -326,16 +326,6 @@ or
 OS
 *
 param
-aCsp
--
-The
-csp
-of
-the
-triggering
-Document
-*
-param
 aTransferables
 -
 an
@@ -398,9 +388,6 @@ aDOMNode
 in
 nsIPrincipal
 aPrincipal
-in
-nsIContentSecurityPolicy
-aCsp
 in
 nsIArray
 aTransferables
@@ -712,9 +699,6 @@ in
 nsIPrincipal
 aPrincipal
 in
-nsIContentSecurityPolicy
-aCsp
-in
 nsIArray
 aTransferableArray
 in
@@ -779,9 +763,6 @@ aDOMNode
 in
 nsIPrincipal
 aPrincipal
-in
-nsIContentSecurityPolicy
-aCsp
 in
 nsIArray
 aTransferableArray
@@ -868,9 +849,6 @@ aSelection
 in
 nsIPrincipal
 aPrincipal
-in
-nsIContentSecurityPolicy
-aCsp
 in
 nsIArray
 aTransferableArray

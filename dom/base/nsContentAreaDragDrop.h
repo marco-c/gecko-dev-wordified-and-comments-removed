@@ -101,10 +101,6 @@ nsIPrincipal
 *
 *
 aPrincipal
-nsIContentSecurityPolicy
-*
-*
-aCsp
 )
 ;
 }
