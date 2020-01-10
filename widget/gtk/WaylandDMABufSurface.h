@@ -531,6 +531,9 @@ mEGLImage
 GLuint
 mGLFbo
 ;
+GLuint
+mTexture
+;
 bool
 mWLBufferAttached
 ;
