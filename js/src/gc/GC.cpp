@@ -46012,7 +46012,7 @@ true
 }
 static
 bool
-ZoneMaxMallocGetter
+ZoneMallocTriggerBytesGetter
 (
 JSContext
 *
@@ -46420,15 +46420,15 @@ ZoneGCAllocTriggerGetter
 }
 {
 "
-mallocBytesRemaining
+mallocBytes
 "
 ZoneMallocBytesGetter
 }
 {
 "
-maxMalloc
+mallocTriggerBytes
 "
-ZoneMaxMallocGetter
+ZoneMallocTriggerBytesGetter
 }
 {
 "
