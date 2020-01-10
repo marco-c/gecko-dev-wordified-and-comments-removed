@@ -1352,6 +1352,18 @@ set
 "
 )
 ;
+if
+(
+AppConstants
+.
+platform
+!
+=
+"
+macosx
+"
+)
+{
 let
 span
 =
@@ -1435,6 +1447,7 @@ GRAY_TEXT
 }
 )
 ;
+}
 }
 )
 ;
