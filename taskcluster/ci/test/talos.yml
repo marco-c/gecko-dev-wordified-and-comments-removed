@@ -684,6 +684,13 @@ try
 windows7
 -
 32
+(
+?
+:
+-
+shippable
+)
+?
 /
 .
 *
