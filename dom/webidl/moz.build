@@ -4652,6 +4652,11 @@ SourceBufferList
 webidl
 '
 '
+StaticRange
+.
+webidl
+'
+'
 StereoPannerNode
 .
 webidl

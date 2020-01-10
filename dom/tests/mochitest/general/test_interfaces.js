@@ -4909,6 +4909,16 @@ true
 name
 :
 "
+StaticRange
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 StereoPannerNode
 "
 insecureContext

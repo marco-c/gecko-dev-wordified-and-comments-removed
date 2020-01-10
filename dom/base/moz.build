@@ -1199,6 +1199,11 @@ ShadowRoot
 h
 '
 '
+StaticRange
+.
+h
+'
+'
 StructuredCloneBlob
 .
 h
@@ -2032,6 +2037,11 @@ cpp
 '
 '
 ShadowRoot
+.
+cpp
+'
+'
+StaticRange
 .
 cpp
 '
