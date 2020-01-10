@@ -229,6 +229,17 @@ test
 {
 CARGOFLAGS
 }
+\
 -
 -
 all
+-
+-
+exclude
+compositor
+-
+windows
+-
+-
+exclude
+compositor

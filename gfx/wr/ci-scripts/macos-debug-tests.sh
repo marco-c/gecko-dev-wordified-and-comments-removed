@@ -298,6 +298,17 @@ CARGOFLAGS
 {
 CARGOTESTFLAGS
 }
+\
 -
 -
 all
+-
+-
+exclude
+compositor
+-
+windows
+-
+-
+exclude
+compositor
