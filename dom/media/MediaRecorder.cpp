@@ -278,14 +278,6 @@ nsTArray
 .
 h
 "
-#
-ifdef
-LOG
-#
-undef
-LOG
-#
-endif
 mozilla
 :
 :
@@ -8055,3 +8047,6 @@ sUniqueInstance
 ;
 }
 }
+#
+undef
+LOG

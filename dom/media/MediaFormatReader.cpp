@@ -18922,3 +18922,9 @@ MaybeResolveMetadataPromise
 #
 undef
 NS_DispatchToMainThread
+#
+undef
+LOGV
+#
+undef
+LOG
