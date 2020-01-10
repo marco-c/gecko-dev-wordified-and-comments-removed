@@ -9183,6 +9183,13 @@ stackMap
 )
 )
 {
+stackMap
+-
+>
+destroy
+(
+)
+;
 return
 false
 ;
