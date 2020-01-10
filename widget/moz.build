@@ -1141,11 +1141,6 @@ Screen
 cpp
 '
 '
-ScreenManager
-.
-cpp
-'
-'
 SharedWidgetUtils
 .
 cpp
@@ -1315,6 +1310,11 @@ cpp
 '
 '
 nsBaseWidget
+.
+cpp
+'
+'
+ScreenManager
 .
 cpp
 '
