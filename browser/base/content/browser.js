@@ -21158,8 +21158,6 @@ activeElement
 aSearchBar
 .
 textbox
-.
-inputField
 )
 {
 gURLBar

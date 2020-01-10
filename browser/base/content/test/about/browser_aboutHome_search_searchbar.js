@@ -144,8 +144,6 @@ BrowserSearch
 searchBar
 .
 textbox
-.
-inputField
 ;
 isnot
 (
