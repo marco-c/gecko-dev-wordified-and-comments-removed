@@ -348,17 +348,6 @@ APPEND
 }
 )
 ;
-params
-.
-push
-(
-"
-disable
--
-telemetry
-"
-)
-;
 if
 (
 queryContext
