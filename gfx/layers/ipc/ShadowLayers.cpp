@@ -3123,7 +3123,7 @@ bool
 *
 aSent
 const
-InfallibleTArray
+nsTArray
 <
 CompositionPayload
 >

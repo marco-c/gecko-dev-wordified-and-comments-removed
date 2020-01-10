@@ -211,7 +211,7 @@ public
 TextureForwarder
 {
 typedef
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >
@@ -463,7 +463,7 @@ ipc
 IPCResult
 RecvParentAsyncMessages
 (
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >

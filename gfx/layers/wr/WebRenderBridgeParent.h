@@ -564,7 +564,7 @@ ipc
 IPCResult
 RecvDeleteCompositorAnimations
 (
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
@@ -633,7 +633,7 @@ RenderRootDisplayListData
 &
 &
 aDisplayLists
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -717,7 +717,7 @@ RenderRootUpdates
 &
 &
 aRenderRootUpdates
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -1142,7 +1142,7 @@ void
 SendAsyncMessage
 (
 const
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >
@@ -1960,7 +1960,7 @@ bool
 ProcessWebRenderParentCommands
 (
 const
-InfallibleTArray
+nsTArray
 <
 WebRenderParentCommand
 >
@@ -2325,7 +2325,7 @@ wr
 Epoch
 &
 aEpoch
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
@@ -2356,7 +2356,7 @@ wr
 Epoch
 mEpoch
 ;
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >

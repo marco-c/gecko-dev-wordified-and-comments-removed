@@ -236,7 +236,7 @@ class
 ImageContainer
 ;
 typedef
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >
@@ -458,7 +458,7 @@ ipc
 IPCResult
 RecvParentAsyncMessages
 (
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >
@@ -476,7 +476,7 @@ ipc
 IPCResult
 RecvDidComposite
 (
-InfallibleTArray
+nsTArray
 <
 ImageCompositeNotification
 >

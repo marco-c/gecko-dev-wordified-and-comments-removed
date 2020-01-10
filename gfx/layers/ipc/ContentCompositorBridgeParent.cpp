@@ -1311,7 +1311,7 @@ mWrBridge
 ;
 }
 }
-InfallibleTArray
+nsTArray
 <
 RefPtr
 <

@@ -782,7 +782,7 @@ void
 SendAsyncMessage
 (
 const
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >
@@ -2049,7 +2049,7 @@ const
 uint32_t
 &
 aStartIndex
-InfallibleTArray
+nsTArray
 <
 float
 >

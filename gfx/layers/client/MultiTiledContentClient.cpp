@@ -266,7 +266,7 @@ GetSurfaceDescriptorTiles
 (
 )
 {
-InfallibleTArray
+nsTArray
 <
 TileDescriptor
 >

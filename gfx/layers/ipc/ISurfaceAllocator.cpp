@@ -188,7 +188,7 @@ kMaxMessageNumber
 ;
 #
 endif
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >

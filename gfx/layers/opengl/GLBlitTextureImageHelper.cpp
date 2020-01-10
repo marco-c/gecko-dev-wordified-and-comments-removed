@@ -812,7 +812,7 @@ realTexSize
 rects
 )
 ;
-InfallibleTArray
+nsTArray
 <
 RectTriangles
 :

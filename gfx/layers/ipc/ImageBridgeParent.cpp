@@ -821,7 +821,7 @@ AutoImageBridgeParentAsyncMessageSender
 ImageBridgeParent
 *
 aImageBridge
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -893,7 +893,7 @@ ImageBridgeParent
 *
 mImageBridge
 ;
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -1301,7 +1301,7 @@ RecvWillClose
 (
 )
 {
-InfallibleTArray
+nsTArray
 <
 PTextureParent
 *
@@ -1615,7 +1615,7 @@ ImageBridgeParent
 SendAsyncMessage
 (
 const
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >

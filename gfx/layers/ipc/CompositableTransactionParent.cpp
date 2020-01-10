@@ -606,7 +606,7 @@ tileDesc
 )
 ;
 const
-InfallibleTArray
+nsTArray
 <
 TileDescriptor
 >

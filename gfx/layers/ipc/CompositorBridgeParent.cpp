@@ -1034,7 +1034,7 @@ CompositorBridgeParentBase
 SendAsyncMessage
 (
 const
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >
@@ -2195,7 +2195,7 @@ CompositorBridgeParent
 (
 )
 {
-InfallibleTArray
+nsTArray
 <
 PTextureParent
 *
@@ -3167,7 +3167,7 @@ const
 uint32_t
 &
 aStartIndex
-InfallibleTArray
+nsTArray
 <
 float
 >
@@ -8863,7 +8863,7 @@ windowId
 )
 ;
 }
-InfallibleTArray
+nsTArray
 <
 RefPtr
 <
@@ -8993,7 +8993,7 @@ Popover
 )
 ;
 }
-InfallibleTArray
+nsTArray
 <
 RefPtr
 <

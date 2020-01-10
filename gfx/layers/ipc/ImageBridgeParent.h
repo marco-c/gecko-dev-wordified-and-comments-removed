@@ -141,14 +141,14 @@ ShmemAllocator
 public
 :
 typedef
-InfallibleTArray
+nsTArray
 <
 CompositableOperation
 >
 EditArray
 ;
 typedef
-InfallibleTArray
+nsTArray
 <
 OpDestroy
 >
@@ -241,7 +241,7 @@ void
 SendAsyncMessage
 (
 const
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >

@@ -322,7 +322,7 @@ VideoBridgeParent
 SendAsyncMessage
 (
 const
-InfallibleTArray
+nsTArray
 <
 AsyncParentMessageData
 >
