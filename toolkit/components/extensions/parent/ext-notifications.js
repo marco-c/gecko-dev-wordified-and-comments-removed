@@ -163,6 +163,17 @@ catch
 e
 )
 {
+this
+.
+observe
+(
+null
+"
+alertfinished
+"
+id
+)
+;
 }
 }
 Notification
