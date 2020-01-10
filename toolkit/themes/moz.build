@@ -216,7 +216,7 @@ toolkit
 =
 =
 '
-gtk3
+gtk
 '
 :
 DIRS

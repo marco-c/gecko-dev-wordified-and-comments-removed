@@ -118,11 +118,12 @@ another
 time
 .
 if
+toolkit
+=
+=
 '
 gtk
 '
-in
-toolkit
 :
 DIRS
 +

@@ -520,7 +520,7 @@ endif
 endif
 #
 ifdef
-MOZ_GTK3
+MOZ_GTK
 BINPATH
 /
 DLL_PREFIX

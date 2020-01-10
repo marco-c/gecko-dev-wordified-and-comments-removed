@@ -140,11 +140,12 @@ mac
 '
 ]
 elif
+toolkit
+=
+=
 '
 gtk
 '
-in
-toolkit
 :
 DIRS
 +

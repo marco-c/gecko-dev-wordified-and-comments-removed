@@ -158,7 +158,7 @@ in
 windows
 '
 '
-gtk3
+gtk
 '
 '
 cocoa

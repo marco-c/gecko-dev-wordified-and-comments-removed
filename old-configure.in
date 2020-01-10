@@ -14621,7 +14621,7 @@ test
 MOZ_WIDGET_TOOLKIT
 "
 =
-gtk3
+gtk
 ;
 then
 PKG_CHECK_MODULES

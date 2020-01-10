@@ -90,7 +90,7 @@ BZ2
 else
 ifeq
 (
-gtk3
+gtk
 (
 MOZ_WIDGET_TOOLKIT
 )

@@ -434,7 +434,7 @@ in
 android
 '
 '
-gtk3
+gtk
 '
 )
 :

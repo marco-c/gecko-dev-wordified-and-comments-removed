@@ -678,7 +678,7 @@ in
 windows
 '
 '
-gtk3
+gtk
 '
 '
 cocoa
@@ -706,7 +706,7 @@ in
 windows
 '
 '
-gtk3
+gtk
 '
 )
 :

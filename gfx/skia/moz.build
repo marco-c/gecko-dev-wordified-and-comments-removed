@@ -4048,7 +4048,7 @@ MOZ_WIDGET_TOOLKIT
 =
 =
 '
-gtk3
+gtk
 '
 :
 UNIFIED_SOURCES
@@ -5173,7 +5173,7 @@ MOZ_WIDGET_TOOLKIT
 in
 (
 '
-gtk3
+gtk
 '
 '
 android
@@ -5208,7 +5208,7 @@ MOZ_WIDGET_TOOLKIT
 =
 =
 '
-gtk3
+gtk
 '
 :
 CXXFLAGS

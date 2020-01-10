@@ -156,7 +156,7 @@ MOZ_WIDGET_TOOLKIT
 =
 =
 '
-gtk3
+gtk
 '
 :
 DIRS
@@ -826,7 +826,7 @@ MOZ_WIDGET_TOOLKIT
 =
 =
 '
-gtk3
+gtk
 '
 and
 CONFIG

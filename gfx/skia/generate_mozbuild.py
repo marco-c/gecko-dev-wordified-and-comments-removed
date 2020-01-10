@@ -1050,7 +1050,7 @@ MOZ_WIDGET_TOOLKIT
 in
 (
 '
-gtk3
+gtk
 '
 '
 android
@@ -1087,7 +1087,7 @@ MOZ_WIDGET_TOOLKIT
 =
 =
 '
-gtk3
+gtk
 '
 :
     
@@ -3105,7 +3105,7 @@ MOZ_WIDGET_TOOLKIT
 =
 =
 '
-gtk3
+gtk
 '
 :
 \

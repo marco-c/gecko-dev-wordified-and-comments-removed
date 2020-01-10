@@ -3610,7 +3610,7 @@ widgetToolkit
 =
 =
 "
-gtk3
+gtk
 "
 ;
 sandbox
@@ -3672,7 +3672,7 @@ widgetToolkit
 =
 =
 "
-gtk3
+gtk
 "
 ;
 if

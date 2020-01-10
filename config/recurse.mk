@@ -1467,7 +1467,7 @@ ifeq
 (
 MOZ_WIDGET_TOOLKIT
 )
-gtk3
+gtk
 )
 toolkit
 /

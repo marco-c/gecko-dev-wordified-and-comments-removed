@@ -94,11 +94,12 @@ MOZ_WIDGET_TOOLKIT
 '
 ]
 if
+toolkit
+=
+=
 '
 gtk
 '
-in
-toolkit
 :
 DIRS
 +

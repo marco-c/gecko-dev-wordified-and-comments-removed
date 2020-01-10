@@ -147,7 +147,7 @@ break
 ;
 case
 "
-gtk3
+gtk
 "
 :
 isSupported

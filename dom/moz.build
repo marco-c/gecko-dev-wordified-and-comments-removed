@@ -505,7 +505,7 @@ MOZ_WIDGET_TOOLKIT
 in
 (
 '
-gtk3
+gtk
 '
 '
 cocoa

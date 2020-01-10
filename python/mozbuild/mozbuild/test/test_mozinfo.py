@@ -328,7 +328,7 @@ i386
 MOZ_WIDGET_TOOLKIT
 =
 '
-gtk3
+gtk
 '
         
 )
@@ -370,7 +370,7 @@ self
 assertEqual
 (
 '
-gtk3
+gtk
 '
 d
 [
@@ -419,7 +419,7 @@ x86_64
 MOZ_WIDGET_TOOLKIT
 =
 '
-gtk3
+gtk
 '
         
 )
@@ -461,7 +461,7 @@ self
 assertEqual
 (
 '
-gtk3
+gtk
 '
 d
 [
@@ -946,7 +946,7 @@ arm
 MOZ_WIDGET_TOOLKIT
 =
 '
-gtk3
+gtk
 '
         
 )
@@ -994,7 +994,7 @@ armv7
 MOZ_WIDGET_TOOLKIT
 =
 '
-gtk3
+gtk
 '
         
 )
@@ -1179,7 +1179,7 @@ i386
 MOZ_WIDGET_TOOLKIT
 =
 '
-gtk3
+gtk
 '
         
 )
@@ -1225,7 +1225,7 @@ i386
 MOZ_WIDGET_TOOLKIT
 =
 '
-gtk3
+gtk
 '
             
 MOZ_DEBUG
@@ -1301,7 +1301,7 @@ i386
 MOZ_WIDGET_TOOLKIT
 =
 '
-gtk3
+gtk
 '
         
 )
@@ -1347,7 +1347,7 @@ i386
 MOZ_WIDGET_TOOLKIT
 =
 '
-gtk3
+gtk
 '
             
 MOZ_CRASHREPORTER
