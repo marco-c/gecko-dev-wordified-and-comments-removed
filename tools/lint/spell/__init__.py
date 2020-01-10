@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
 import
@@ -43,10 +38,6 @@ from
 mozprocess
 import
 ProcessHandlerMixin
-from
-six
-import
-PY3
 here
 =
 os
@@ -245,7 +236,7 @@ process_line
 universal_newlines
 '
 :
-PY3
+True
         
 }
         

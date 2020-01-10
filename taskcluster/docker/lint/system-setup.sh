@@ -456,7 +456,7 @@ Setup
 cd
 /
 setup
-pip
+pip3
 install
 -
 -
@@ -483,7 +483,7 @@ Setup
 cd
 /
 setup
-pip
+pip3
 install
 -
 -
@@ -510,7 +510,7 @@ Setup
 cd
 /
 setup
-pip
+pip3
 install
 -
 -
