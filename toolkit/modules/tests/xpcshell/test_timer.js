@@ -104,9 +104,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -317,9 +315,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -534,9 +530,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -728,9 +722,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1067,9 +1059,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1080,9 +1070,7 @@ imported
 .
 requestIdleCallback
 (
-(
 deadline
-)
 =
 >
 {

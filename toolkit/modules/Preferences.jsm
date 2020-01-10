@@ -34,7 +34,7 @@ jsm
 const
 MAX_INT
 =
-0x7FFFFFFF
+0x7fffffff
 ;
 const
 MIN_INT
@@ -68,6 +68,7 @@ args
 .
 branch
 )
+{
 this
 .
 _branchStr
@@ -76,12 +77,14 @@ args
 .
 branch
 ;
+}
 if
 (
 args
 .
 defaultBranch
 )
+{
 this
 .
 _defaultBranch
@@ -90,12 +93,14 @@ args
 .
 defaultBranch
 ;
+}
 if
 (
 args
 .
 privacyContext
 )
+{
 this
 .
 _privacyContext
@@ -104,6 +109,7 @@ args
 .
 privacyContext
 ;
+}
 }
 else
 if
@@ -141,6 +147,7 @@ isArray
 prefName
 )
 )
+{
 return
 prefName
 .
@@ -158,6 +165,7 @@ defaultValue
 )
 )
 ;
+}
 return
 this
 .
@@ -377,6 +385,7 @@ entries
 prefName
 )
 )
+{
 this
 .
 set
@@ -385,6 +394,7 @@ name
 value
 )
 ;
+}
 return
 ;
 }
@@ -427,6 +437,7 @@ prefValue
 =
 null
 )
+{
 prefType
 =
 prefValue
@@ -435,6 +446,7 @@ constructor
 .
 name
 ;
+}
 switch
 (
 prefType
@@ -473,6 +485,7 @@ prefValue
 <
 MIN_INT
 )
+{
 throw
 new
 Error
@@ -536,6 +549,7 @@ strings
 .
 )
 ;
+}
 this
 .
 _prefBranch
@@ -555,6 +569,7 @@ prefValue
 =
 0
 )
+{
 Cu
 .
 reportError
@@ -622,6 +637,7 @@ strings
 "
 )
 ;
+}
 break
 ;
 case
@@ -696,6 +712,7 @@ isArray
 prefName
 )
 )
+{
 return
 prefName
 .
@@ -707,6 +724,7 @@ has
 this
 )
 ;
+}
 return
 (
 this
@@ -746,6 +764,7 @@ isArray
 prefName
 )
 )
+{
 return
 prefName
 .
@@ -757,8 +776,8 @@ isSet
 this
 )
 ;
+}
 return
-(
 this
 .
 has
@@ -774,7 +793,6 @@ _prefBranch
 prefHasUserValue
 (
 prefName
-)
 )
 ;
 }
@@ -864,6 +882,7 @@ isArray
 prefName
 )
 )
+{
 prefName
 .
 map
@@ -874,6 +893,7 @@ lock
 this
 )
 ;
+}
 this
 .
 _prefBranch
@@ -903,6 +923,7 @@ isArray
 prefName
 )
 )
+{
 prefName
 .
 map
@@ -913,6 +934,7 @@ unlock
 this
 )
 ;
+}
 this
 .
 _prefBranch
@@ -942,6 +964,7 @@ isArray
 prefName
 )
 )
+{
 return
 prefName
 .
@@ -953,6 +976,7 @@ locked
 this
 )
 ;
+}
 return
 this
 .
@@ -1184,6 +1208,7 @@ Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 )
+{
 this
 .
 reset
@@ -1198,10 +1223,13 @@ prefBranch
 )
 )
 ;
+}
 else
+{
 throw
 ex
 ;
+}
 }
 }
 ;
@@ -1366,8 +1394,10 @@ this
 .
 prefName
 )
+{
 return
 ;
+}
 if
 (
 typeof
@@ -1399,6 +1429,7 @@ this
 .
 thisObject
 )
+{
 this
 .
 callback
@@ -1411,7 +1442,9 @@ thisObject
 prefValue
 )
 ;
+}
 else
+{
 this
 .
 callback
@@ -1419,6 +1452,7 @@ callback
 prefValue
 )
 ;
+}
 }
 else
 {

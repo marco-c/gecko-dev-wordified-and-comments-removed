@@ -356,11 +356,13 @@ _combinedIsCurrent
 true
 ;
 return
+(
 this
 .
 _combined
 =
 combined
+)
 ;
 }
 defineModuleGetter

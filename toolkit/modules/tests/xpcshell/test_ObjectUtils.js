@@ -325,11 +325,11 @@ deepEqual
 /
 a
 /
-igm
+gim
 /
 a
 /
-igm
+gim
 )
 )
 ;
@@ -410,7 +410,7 @@ deepEqual
 /
 a
 /
-igm
+gim
 /
 a
 /

@@ -698,6 +698,7 @@ locale
 )
 {
 return
+(
 this
 .
 _locale
@@ -706,6 +707,7 @@ locale
 .
 trim
 (
+)
 )
 ;
 }
@@ -736,11 +738,13 @@ directories
 )
 ;
 return
+(
 this
 .
 _locale
 =
 null
+)
 ;
 }
 getAppUpdateAutoEnabled
@@ -2399,13 +2403,11 @@ WOW64_64
 osVersion
 +
 =
-(
 ubr
 !
 =
 =
 undefined
-)
 ?
 "
 .

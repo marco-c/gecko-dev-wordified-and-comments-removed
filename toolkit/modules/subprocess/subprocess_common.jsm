@@ -987,9 +987,7 @@ _pendingBufferRead
 .
 then
 (
-(
 result
-)
 =
 >
 {

@@ -62,6 +62,7 @@ EventEmitter
 let
 EventEmitter
 =
+(
 this
 .
 EventEmitter
@@ -71,6 +72,7 @@ function
 )
 {
 }
+)
 ;
 let
 loggingEnabled

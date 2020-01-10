@@ -72,6 +72,7 @@ message
 )
 {
 return
+(
 message
 .
 loggerName
@@ -93,6 +94,7 @@ t
 message
 .
 message
+)
 ;
 }
 }

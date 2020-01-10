@@ -734,7 +734,6 @@ frameId
 {
 match
 =
-(
 data
 .
 frameId
@@ -743,7 +742,6 @@ frameId
 this
 .
 frameId
-)
 ;
 }
 else
@@ -761,7 +759,6 @@ browsingContextId
 {
 match
 =
-(
 data
 .
 browsingContextId
@@ -770,21 +767,18 @@ browsingContextId
 this
 .
 browsingContextId
-)
 ;
 }
 else
 {
 match
 =
-(
 this
 .
 frameId
 =
 =
 0
-)
 ;
 }
 if

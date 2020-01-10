@@ -344,6 +344,7 @@ aArgs
 var
 clearInterval
 =
+(
 this
 .
 clearTimeout
@@ -384,6 +385,7 @@ aId
 ;
 }
 }
+)
 ;
 function
 requestIdleCallback

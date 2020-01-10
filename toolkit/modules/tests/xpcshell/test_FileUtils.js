@@ -35,6 +35,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -43,6 +44,7 @@ stack
 .
 caller
 ;
+}
 try
 {
 f
@@ -64,8 +66,10 @@ result
 =
 result
 )
+{
 return
 ;
+}
 do_throw
 (
 "

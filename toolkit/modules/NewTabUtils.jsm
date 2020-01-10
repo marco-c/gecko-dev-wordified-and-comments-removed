@@ -904,6 +904,7 @@ index
 -
 1
 )
+{
 this
 .
 _pages
@@ -914,6 +915,7 @@ index
 1
 )
 ;
+}
 }
 get
 enabled
@@ -930,6 +932,7 @@ _enabled
 =
 null
 )
+{
 this
 .
 _enabled
@@ -943,6 +946,7 @@ getBoolPref
 PREF_NEWTAB_ENABLED
 )
 ;
+}
 return
 this
 .
@@ -964,6 +968,7 @@ enabled
 =
 aEnabled
 )
+{
 Services
 .
 prefs
@@ -976,6 +981,7 @@ PREF_NEWTAB_ENABLED
 aEnabled
 )
 ;
+}
 }
 get
 length
@@ -1178,6 +1184,7 @@ this
 .
 _links
 )
+{
 this
 .
 _links
@@ -1193,6 +1200,7 @@ pinnedLinks
 ]
 )
 ;
+}
 return
 this
 .
@@ -1270,8 +1278,10 @@ index
 -
 1
 )
+{
 return
 ;
+}
 let
 links
 =
@@ -1311,10 +1321,12 @@ i
 =
 null
 )
+{
 i
 -
 -
 ;
+}
 links
 .
 splice
@@ -1438,9 +1450,11 @@ aLink
 .
 url
 )
+{
 return
 i
 ;
+}
 }
 return
 -
@@ -1592,6 +1606,7 @@ this
 .
 _links
 )
+{
 this
 .
 _links
@@ -1607,6 +1622,7 @@ blockedLinks
 }
 )
 ;
+}
 return
 this
 .
@@ -1737,7 +1753,6 @@ aLink
 )
 {
 return
-(
 toHash
 (
 aLink
@@ -1748,7 +1763,6 @@ in
 this
 .
 links
-)
 ;
 }
 isEmpty
@@ -1810,12 +1824,10 @@ _observers
 if
 (
 typeof
-(
 obs
 [
 methodName
 ]
-)
 =
 =
 "
@@ -2114,6 +2126,7 @@ i
 >
 0
 )
+{
 outOfOrder
 .
 push
@@ -2130,11 +2143,14 @@ i
 ]
 )
 ;
+}
 else
+{
 i
 +
 +
 ;
+}
 }
 for
 (
@@ -3114,7 +3130,6 @@ requestData
 const
 latestSince
 =
-(
 Services
 .
 prefs
@@ -3126,7 +3141,6 @@ PREF_POCKET_LATEST_SINCE
 )
 *
 1000
-)
 ;
 if
 (
@@ -3138,7 +3152,6 @@ isUserLoggedIn
 )
 |
 |
-(
 Date
 .
 now
@@ -3148,7 +3161,6 @@ now
 latestSince
 >
 POCKET_INACTIVE_TIME
-)
 )
 {
 return
@@ -4956,12 +4968,14 @@ push
 .
 .
 .
+(
 await
 ActivityStreamProvider
 .
 getRecentBookmarks
 (
 aOptions
+)
 )
 )
 ;
@@ -4990,7 +5004,6 @@ latestSince
 =
 ~
 ~
-(
 Services
 .
 prefs
@@ -4999,7 +5012,6 @@ getStringPref
 (
 PREF_POCKET_LATEST_SINCE
 0
-)
 )
 ;
 if
@@ -5010,7 +5022,6 @@ this
 _savedPocketStories
 |
 |
-(
 Date
 .
 now
@@ -5022,16 +5033,13 @@ this
 _pocketLastUpdated
 >
 POCKET_UPDATE_TIME
-)
 |
 |
-(
 this
 .
 _pocketLastLatest
 <
 latestSince
-)
 )
 {
 this
@@ -5315,6 +5323,7 @@ delete
 aProvider
 )
 )
+{
 throw
 new
 Error
@@ -5325,6 +5334,7 @@ provider
 "
 )
 ;
+}
 }
 populateCache
 :
@@ -5357,8 +5367,10 @@ length
 >
 1
 )
+{
 return
 ;
+}
 function
 executeCallbacks
 (
@@ -5441,10 +5453,12 @@ numProvidersRemaining
 =
 0
 )
+{
 executeCallbacks
 (
 )
 ;
+}
 }
 aForce
 )
@@ -5505,6 +5519,7 @@ if
 (
 link
 )
+{
 sites
 .
 add
@@ -5519,6 +5534,7 @@ url
 )
 )
 ;
+}
 }
 links
 =
@@ -5558,9 +5574,11 @@ has
 site
 )
 )
+{
 return
 false
 ;
+}
 sites
 .
 add
@@ -5611,6 +5629,7 @@ i
 +
 +
 )
+{
 if
 (
 !
@@ -5619,6 +5638,7 @@ pinnedLinks
 i
 ]
 )
+{
 pinnedLinks
 [
 i
@@ -5630,12 +5650,15 @@ shift
 (
 )
 ;
+}
+}
 if
 (
 links
 .
 length
 )
+{
 pinnedLinks
 =
 pinnedLinks
@@ -5645,6 +5668,7 @@ concat
 links
 )
 ;
+}
 for
 (
 let
@@ -5746,6 +5770,7 @@ in
 aLink2
 )
 )
+{
 throw
 new
 Error
@@ -5763,7 +5788,9 @@ prop
 )
 ;
 }
+}
 return
+(
 aLink2
 .
 frecency
@@ -5791,6 +5818,7 @@ localeCompare
 aLink2
 .
 url
+)
 )
 ;
 }
@@ -6188,9 +6216,7 @@ links
 .
 filter
 (
-(
 link
-)
 =
 >
 !
@@ -6435,10 +6461,12 @@ minLinks
 0
 )
 )
+{
 minLinks
 =
 links
 ;
+}
 }
 return
 minLinks
@@ -6524,6 +6552,7 @@ in
 aLink
 )
 )
+{
 throw
 new
 Error
@@ -6539,6 +6568,7 @@ property
 "
 )
 ;
+}
 let
 links
 =
@@ -6556,8 +6586,10 @@ if
 !
 links
 )
+{
 return
 ;
+}
 let
 {
 sortedLinks
@@ -7097,6 +7129,7 @@ AllPages
 .
 enabled
 )
+{
 this
 .
 populateCache
@@ -7115,13 +7148,16 @@ update
 true
 )
 ;
+}
 else
+{
 this
 .
 resetCache
 (
 )
 ;
+}
 }
 _callObservers
 (
@@ -7145,12 +7181,10 @@ _observers
 if
 (
 typeof
-(
 obs
 [
 methodName
 ]
-)
 =
 =
 "
@@ -7419,6 +7453,7 @@ flags
 )
 {
 return
+(
 Ci
 .
 nsIScriptSecurityManager
@@ -7430,6 +7465,7 @@ Ci
 nsIScriptSecurityManager
 .
 DONT_REPORT_ERRORS
+)
 ;
 }
 checkLoadURI
@@ -7451,6 +7487,7 @@ this
 _cache
 )
 )
+{
 this
 .
 _cache
@@ -7465,6 +7502,7 @@ _doCheckLoadURI
 aURI
 )
 ;
+}
 return
 this
 .
@@ -7609,6 +7647,7 @@ link
 .
 url
 )
+{
 urls
 .
 push
@@ -7618,6 +7657,7 @@ link
 url
 )
 ;
+}
 }
 aCallback
 (

@@ -231,6 +231,7 @@ permanentPrivateBrowsing
 try
 {
 return
+(
 gTemporaryAutoStartMode
 |
 |
@@ -241,6 +242,7 @@ prefs
 getBoolPref
 (
 kAutoStartPref
+)
 )
 ;
 }

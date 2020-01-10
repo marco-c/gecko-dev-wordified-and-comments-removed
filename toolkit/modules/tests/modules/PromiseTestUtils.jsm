@@ -368,12 +368,10 @@ reason
 message
 |
 |
-(
 "
 "
 +
 reason
-)
 ;
 }
 catch

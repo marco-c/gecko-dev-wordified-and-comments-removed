@@ -20,7 +20,7 @@ base64
 +
 btoa
 (
-"
+'
 <
 body
 >
@@ -28,10 +28,8 @@ body
 iframe
 srcdoc
 =
-\
 "
 content
-\
 "
 /
 >
@@ -39,14 +37,13 @@ content
 /
 iframe
 >
-"
+'
 +
-"
+'
 <
 a
 href
 =
-\
 "
 http
 :
@@ -55,7 +52,6 @@ http
 test
 .
 com
-\
 "
 >
 test
@@ -64,7 +60,7 @@ link
 /
 a
 >
-"
+'
 )
 ;
 let

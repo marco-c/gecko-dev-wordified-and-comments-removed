@@ -133,6 +133,7 @@ instanceof
 File
 )
 )
+{
 throw
 new
 Error
@@ -147,18 +148,18 @@ object
 "
 )
 ;
+}
 if
 (
 typeof
-(
 aCallback
-)
 !
 =
 "
 function
 "
 )
+{
 throw
 new
 Error
@@ -171,6 +172,7 @@ aCallback
 "
 )
 ;
+}
 Services
 .
 tm
@@ -236,6 +238,7 @@ fileReader
 .
 DONE
 )
+{
 throw
 new
 Error
@@ -254,6 +257,7 @@ fileReader
 error
 )
 ;
+}
 root
 =
 self
@@ -400,6 +404,7 @@ canProcess
 aBuffer
 )
 )
+{
 return
 new
 BinaryPropertyListReader
@@ -409,6 +414,7 @@ aBuffer
 .
 root
 ;
+}
 let
 domParser
 =
@@ -515,20 +521,20 @@ null
 |
 |
 typeof
-(
 aObject
-)
 !
 =
 "
 object
 "
 )
+{
 return
 this
 .
 TYPE_PRIMITIVE
 ;
+}
 let
 global
 =
@@ -547,11 +553,13 @@ global
 .
 Map
 )
+{
 return
 this
 .
 TYPE_DICTIONARY
 ;
+}
 if
 (
 Array
@@ -561,11 +569,13 @@ isArray
 aObject
 )
 )
+{
 return
 this
 .
 TYPE_ARRAY
 ;
+}
 if
 (
 aObject
@@ -574,11 +584,13 @@ global
 .
 Date
 )
+{
 return
 this
 .
 TYPE_DATE
 ;
+}
 if
 (
 aObject
@@ -587,11 +599,13 @@ global
 .
 Uint8Array
 )
+{
 return
 this
 .
 TYPE_UINT8_ARRAY
 ;
+}
 if
 (
 aObject
@@ -607,11 +621,13 @@ __INT_64_WRAPPER__
 in
 aObject
 )
+{
 return
 this
 .
 TYPE_INT64
 ;
+}
 throw
 new
 Error
@@ -641,9 +657,7 @@ aPrimitive
 if
 (
 typeof
-(
 aPrimitive
-)
 !
 =
 "
@@ -652,15 +666,14 @@ string
 &
 &
 typeof
-(
 aPrimitive
-)
 !
 =
 "
 number
 "
 )
+{
 throw
 new
 Error
@@ -675,6 +688,7 @@ primitive
 "
 )
 ;
+}
 let
 wrapped
 =
@@ -827,6 +841,7 @@ aBuffer
 )
 {
 return
+(
 Array
 .
 from
@@ -863,6 +878,7 @@ join
 "
 bplist00
 "
+)
 ;
 }
 get
@@ -1049,6 +1065,7 @@ _JS_MIN_INT
 -
 1
 )
+{
 return
 PropertyListUtils
 .
@@ -1061,6 +1078,7 @@ toString
 )
 )
 ;
+}
 return
 parseInt
 (
@@ -1089,6 +1107,7 @@ aRealSize
 =
 4
 )
+{
 return
 this
 .
@@ -1099,6 +1118,7 @@ getFloat32
 aByteOffset
 )
 ;
+}
 if
 (
 aRealSize
@@ -1106,6 +1126,7 @@ aRealSize
 =
 8
 )
+{
 return
 this
 .
@@ -1116,6 +1137,7 @@ getFloat64
 aByteOffset
 )
 ;
+}
 throw
 new
 Error
@@ -1320,14 +1342,14 @@ return
 (
 byte
 &
-0xF0
+0xf0
 )
 >
 >
 4
 byte
 &
-0x0F
+0x0f
 ]
 ;
 }
@@ -1690,6 +1712,7 @@ aBigIntAllowed
 =
 true
 )
+{
 uints
 .
 push
@@ -1706,7 +1729,9 @@ toString
 )
 )
 ;
+}
 else
+{
 throw
 new
 Error
@@ -1724,6 +1749,7 @@ float
 "
 )
 ;
+}
 }
 else
 {
@@ -1792,6 +1818,7 @@ ADDITIONAL_INFO_BITS
 .
 LENGTH_INT_SIZE_FOLLOWS
 )
+{
 return
 [
 aObjectOffset
@@ -1800,6 +1827,7 @@ aObjectOffset
 maybeLength
 ]
 ;
+}
 let
 [
 intSizeInfo
@@ -1930,6 +1958,7 @@ objIndex
 ]
 ;
 return
+(
 array
 [
 objIndex
@@ -1938,6 +1967,7 @@ objIndex
 readObjectBound
 (
 ref
+)
 )
 ;
 }
@@ -1986,9 +2016,11 @@ aNumberOfObjects
 =
 0
 )
+{
 return
 dict
 ;
+}
 let
 keyObjsRefs
 =
@@ -2102,6 +2134,7 @@ aObjectIndex
 =
 undefined
 )
+{
 return
 this
 .
@@ -2110,6 +2143,7 @@ _objects
 aObjectIndex
 ]
 ;
+}
 let
 objOffset
 =
@@ -2249,6 +2283,7 @@ intSize
 =
 8
 )
+{
 value
 =
 this
@@ -2260,7 +2295,9 @@ objOffset
 1
 )
 ;
+}
 else
+{
 value
 =
 this
@@ -2278,6 +2315,7 @@ true
 0
 ]
 ;
+}
 break
 ;
 }
@@ -2329,6 +2367,7 @@ ADDITIONAL_INFO_BITS
 .
 DATE
 )
+{
 throw
 new
 Error
@@ -2339,6 +2378,7 @@ value
 "
 )
 ;
+}
 value
 =
 this
@@ -2579,6 +2619,7 @@ objType
 }
 }
 return
+(
 this
 .
 _objects
@@ -2587,6 +2628,7 @@ aObjectIndex
 ]
 =
 value
+)
 ;
 }
 }
@@ -2625,6 +2667,7 @@ docElt
 .
 firstElementChild
 )
+{
 throw
 new
 Error
@@ -2640,6 +2683,7 @@ document
 "
 )
 ;
+}
 this
 .
 _plistRootElement
@@ -2756,6 +2800,7 @@ isNaN
 number
 )
 )
+{
 throw
 new
 Error
@@ -2769,6 +2814,7 @@ value
 "
 )
 ;
+}
 return
 number
 ;
@@ -2915,6 +2961,7 @@ isNaN
 parsedNumber
 )
 )
+{
 throw
 new
 Error
@@ -2928,6 +2975,7 @@ value
 "
 )
 ;
+}
 if
 (
 parsedNumber
@@ -2939,9 +2987,11 @@ toString
 =
 numberAsString
 )
+{
 return
 parsedNumber
 ;
+}
 return
 PropertyListUtils
 .
@@ -2972,6 +3022,7 @@ length
 =
 0
 )
+{
 throw
 new
 Error
@@ -2982,6 +3033,7 @@ dictionary
 "
 )
 ;
+}
 let
 dict
 =
@@ -3051,6 +3103,7 @@ localName
 key
 "
 )
+{
 throw
 new
 Error
@@ -3061,6 +3114,7 @@ dictionary
 "
 )
 ;
+}
 let
 keyName
 =
@@ -3158,6 +3212,7 @@ elemIndex
 ]
 ;
 return
+(
 array
 [
 elemIndex
@@ -3166,6 +3221,7 @@ elemIndex
 readObjectBound
 (
 elem
+)
 )
 ;
 }

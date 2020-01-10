@@ -299,6 +299,7 @@ arg2
 =
 undefined
 )
+{
 return
 f
 .
@@ -313,6 +314,7 @@ arg1
 y
 )
 ;
+}
 return
 f
 .
@@ -346,6 +348,7 @@ set
 "
 ]
 )
+{
 Point
 .
 prototype
@@ -363,6 +366,7 @@ f
 ]
 )
 ;
+}
 }
 )
 (
@@ -706,6 +710,7 @@ other
 )
 {
 return
+(
 other
 !
 =
@@ -713,6 +718,7 @@ null
 &
 &
 (
+(
 this
 .
 isEmpty
@@ -725,8 +731,10 @@ other
 isEmpty
 (
 )
+)
 |
 |
+(
 this
 .
 top
@@ -765,6 +773,8 @@ right
 other
 .
 right
+)
+)
 )
 ;
 }
@@ -817,6 +827,7 @@ isEmpty
 (
 )
 )
+{
 throw
 new
 Error
@@ -831,6 +842,7 @@ centers
 "
 )
 ;
+}
 return
 new
 Point
@@ -952,6 +964,7 @@ toString
 )
 {
 return
+(
 "
 [
 "
@@ -984,6 +997,7 @@ height
 "
 ]
 "
+)
 ;
 }
 union
@@ -1017,9 +1031,11 @@ isEmpty
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 this
@@ -1028,9 +1044,11 @@ isEmpty
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 (
 other
@@ -1112,9 +1130,11 @@ isEmpty
 (
 )
 )
+{
 return
 false
 ;
+}
 let
 x1
 =
@@ -1209,6 +1229,7 @@ isEmpty
 (
 )
 )
+{
 return
 this
 .
@@ -1220,6 +1241,7 @@ setRect
 0
 )
 ;
+}
 let
 x1
 =
@@ -1324,6 +1346,7 @@ isEmpty
 (
 )
 )
+{
 return
 this
 .
@@ -1332,6 +1355,7 @@ copyFrom
 other
 )
 ;
+}
 if
 (
 other
@@ -1340,9 +1364,11 @@ isEmpty
 (
 )
 )
+{
 return
 this
 ;
+}
 let
 l
 =
@@ -1615,6 +1641,7 @@ other
 .
 left
 )
+{
 offsetX
 =
 other
@@ -1625,6 +1652,7 @@ this
 .
 left
 ;
+}
 else
 if
 (
@@ -1636,6 +1664,7 @@ other
 .
 right
 )
+{
 offsetX
 =
 other
@@ -1646,6 +1675,7 @@ this
 .
 right
 ;
+}
 let
 offsetY
 =
@@ -1662,6 +1692,7 @@ other
 .
 top
 )
+{
 offsetY
 =
 other
@@ -1672,6 +1703,7 @@ this
 .
 top
 ;
+}
 else
 if
 (
@@ -1683,6 +1715,7 @@ other
 .
 bottom
 )
+{
 offsetY
 =
 other
@@ -1693,6 +1726,7 @@ this
 .
 bottom
 ;
+}
 return
 this
 .
@@ -1746,6 +1780,7 @@ isEmpty
 (
 )
 )
+{
 return
 [
 this
@@ -1755,6 +1790,7 @@ clone
 )
 ]
 ;
+}
 r
 .
 setBounds
@@ -1782,6 +1818,7 @@ isEmpty
 (
 )
 )
+{
 result
 .
 push
@@ -1793,6 +1830,7 @@ clone
 )
 )
 ;
+}
 r
 .
 setBounds
@@ -1820,6 +1858,7 @@ isEmpty
 (
 )
 )
+{
 result
 .
 push
@@ -1831,6 +1870,7 @@ clone
 )
 )
 ;
+}
 r
 .
 setBounds
@@ -1858,6 +1898,7 @@ isEmpty
 (
 )
 )
+{
 result
 .
 push
@@ -1869,6 +1910,7 @@ clone
 )
 )
 ;
+}
 r
 .
 setBounds
@@ -1896,6 +1938,7 @@ isEmpty
 (
 )
 )
+{
 result
 .
 push
@@ -1907,6 +1950,7 @@ clone
 )
 )
 ;
+}
 return
 result
 ;
@@ -2016,13 +2060,11 @@ width
 let
 s
 =
-(
 arguments
 .
 length
 >
 1
-)
 ?
 yscl
 :

@@ -89,9 +89,11 @@ aExpected
 .
 length
 )
+{
 return
 false
 ;
+}
 for
 (
 var
@@ -109,9 +111,11 @@ in
 aExpected
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 aCert
@@ -125,9 +129,11 @@ aExpected
 attribute
 ]
 )
+{
 return
 false
 ;
+}
 }
 return
 true

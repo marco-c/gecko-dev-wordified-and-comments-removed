@@ -807,8 +807,10 @@ shouldFocusContent
 (
 )
 )
+{
 return
 ;
+}
 }
 catch
 (

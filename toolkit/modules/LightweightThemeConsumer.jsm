@@ -1048,8 +1048,10 @@ styling
 update
 "
 )
+{
 return
 ;
+}
 let
 data
 =
@@ -1309,6 +1311,7 @@ DEFAULT_THEME_ID
 let
 active
 =
+(
 this
 .
 _active
@@ -1321,6 +1324,7 @@ theme
 )
 .
 length
+)
 ;
 let
 root
@@ -2510,7 +2514,6 @@ b
 )
 {
 return
-(
 0
 .
 2125
@@ -2528,7 +2531,6 @@ g
 0721
 *
 b
-)
 <
 =
 110

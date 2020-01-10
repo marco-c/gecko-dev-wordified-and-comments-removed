@@ -84,6 +84,7 @@ map
 x
 =
 >
+(
 typeof
 x
 =
@@ -97,8 +98,10 @@ null
 :
 x
 )
+)
 ;
 return
+(
 "
 [
 "
@@ -126,6 +129,7 @@ join
 "
 ]
 "
+)
 ;
 }
 if
@@ -150,7 +154,6 @@ source
 )
 {
 return
-(
 Object
 .
 is
@@ -158,7 +161,6 @@ is
 source
 -
 0
-)
 )
 ?
 "
@@ -175,9 +177,7 @@ source
 const
 toJSON
 =
-(
 input
-)
 =
 >
 jsescFn
@@ -243,6 +243,7 @@ length
 1
 ;
 return
+(
 sortedKeys
 .
 reduce
@@ -321,6 +322,7 @@ key
 )
 ;
 return
+(
 serial
 +
 escapedKey
@@ -336,6 +338,7 @@ jsescFn
 )
 +
 suffix
+)
 ;
 }
 "
@@ -346,6 +349,7 @@ suffix
 "
 }
 "
+)
 ;
 }
 }

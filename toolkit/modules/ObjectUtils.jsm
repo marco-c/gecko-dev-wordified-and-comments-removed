@@ -201,9 +201,11 @@ getTime
 )
 )
 )
+{
 return
 true
 ;
+}
 return
 a
 .
@@ -251,6 +253,7 @@ bIsRegExp
 )
 {
 return
+(
 aIsRegExp
 &
 &
@@ -310,6 +313,7 @@ ignoreCase
 b
 .
 ignoreCase
+)
 ;
 }
 if
@@ -559,9 +563,11 @@ kb
 .
 length
 )
+{
 return
 false
 ;
+}
 ka
 .
 sort

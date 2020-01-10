@@ -136,11 +136,9 @@ Math
 pow
 (
 (
-(
 color
 /
 255
-)
 +
 0
 .
@@ -250,6 +248,7 @@ relativeLuminance
 ;
 return
 (
+(
 Math
 .
 max
@@ -275,6 +274,7 @@ otherLuminance
 0
 .
 05
+)
 )
 ;
 }

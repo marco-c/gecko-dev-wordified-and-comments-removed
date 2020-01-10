@@ -712,6 +712,7 @@ shEntry
 .
 srcdocData
 )
+{
 entry
 .
 srcdocData
@@ -720,12 +721,14 @@ shEntry
 .
 srcdocData
 ;
+}
 if
 (
 shEntry
 .
 isSrcdocEntry
 )
+{
 entry
 .
 isSrcdocEntry
@@ -734,12 +737,14 @@ shEntry
 .
 isSrcdocEntry
 ;
+}
 if
 (
 shEntry
 .
 baseURI
 )
+{
 entry
 .
 baseURI
@@ -750,12 +755,14 @@ baseURI
 .
 spec
 ;
+}
 if
 (
 shEntry
 .
 contentType
 )
+{
 entry
 .
 contentType
@@ -764,6 +771,7 @@ shEntry
 .
 contentType
 ;
+}
 if
 (
 shEntry
@@ -1357,8 +1365,10 @@ entry
 .
 url
 )
+{
 continue
 ;
+}
 let
 persist
 =
@@ -1497,6 +1507,7 @@ entry
 .
 subframe
 )
+{
 shEntry
 .
 isSubFrame
@@ -1508,6 +1519,7 @@ subframe
 |
 false
 ;
+}
 shEntry
 .
 setLoadTypeAsHistory
@@ -1520,6 +1532,7 @@ entry
 .
 contentType
 )
+{
 shEntry
 .
 contentType
@@ -1528,6 +1541,7 @@ entry
 .
 contentType
 ;
+}
 if
 (
 entry
@@ -1704,6 +1718,7 @@ entry
 .
 isSrcdocEntry
 )
+{
 shEntry
 .
 srcdocData
@@ -1712,12 +1727,14 @@ entry
 .
 srcdocData
 ;
+}
 if
 (
 entry
 .
 baseURI
 )
+{
 shEntry
 .
 baseURI
@@ -1733,6 +1750,7 @@ entry
 baseURI
 )
 ;
+}
 if
 (
 entry
@@ -1795,7 +1813,8 @@ id
 +
 +
 )
-;
+{
+}
 idMap
 [
 entry
@@ -2242,8 +2261,10 @@ i
 .
 url
 )
+{
 continue
 ;
+}
 shEntry
 .
 AddChild

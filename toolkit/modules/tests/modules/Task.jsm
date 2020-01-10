@@ -153,9 +153,7 @@ aTask
 if
 (
 typeof
-(
 aTask
-)
 !
 =
 "
@@ -226,9 +224,7 @@ aTask
 &
 &
 typeof
-(
 aTask
-)
 =
 =
 "
@@ -404,11 +400,9 @@ this
 .
 _stack
 =
-(
 new
 Error
 (
-)
 )
 .
 stack
@@ -741,11 +735,9 @@ aValue
 &
 &
 typeof
-(
 aValue
 .
 then
-)
 =
 =
 "
@@ -1143,9 +1135,11 @@ null
 ;
 }
 return
+(
 gMaintainStack
 =
 x
+)
 ;
 }
 generateReadableStack

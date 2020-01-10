@@ -2297,7 +2297,6 @@ if
 success
 &
 &
-(
 pollfd
 .
 revents
@@ -2314,7 +2313,6 @@ POLLHUP
 LIBC
 .
 POLLNVAL
-)
 )
 )
 {

@@ -430,6 +430,7 @@ val
 )
 {
 return
+(
 aTargetUri
 .
 asciiHost
@@ -449,6 +450,7 @@ endsWith
 "
 +
 val
+)
 )
 ;
 }
@@ -674,9 +676,11 @@ if
 !
 csp_b64
 )
+{
 return
 null
 ;
+}
 try
 {
 let
@@ -763,6 +767,7 @@ DEFAULT_REMOTE_TYPE
 ;
 }
 return
+(
 aRemoteType
 =
 =
@@ -774,6 +779,7 @@ aURL
 true
 aRemoteSubframes
 aPreferredRemoteType
+)
 )
 ;
 }
@@ -992,7 +998,6 @@ URI_MUST_LOAD_IN_CHILD
 {
 if
 (
-(
 flags
 &
 Ci
@@ -1000,7 +1005,6 @@ Ci
 nsIAboutModule
 .
 URI_CAN_LOAD_IN_PRIVILEGEDABOUT_PROCESS
-)
 &
 &
 useSeparatePrivilegedAboutContentProcess
@@ -1251,14 +1255,12 @@ aPreferredRemoteType
 let
 currentURI
 =
-(
 aCurrentPrincipal
 &
 &
 aCurrentPrincipal
 .
 isCodebasePrincipal
-)
 ?
 aCurrentPrincipal
 .
@@ -1865,6 +1867,7 @@ appinfo
 remoteType
 ;
 return
+(
 remoteType
 =
 =
@@ -1876,6 +1879,7 @@ aURI
 true
 aRemoteSubframes
 remoteType
+)
 )
 ;
 }
@@ -2083,6 +2087,7 @@ appinfo
 remoteType
 ;
 return
+(
 remoteType
 =
 =
@@ -2097,6 +2102,7 @@ remoteType
 webNav
 .
 currentURI
+)
 )
 ;
 }

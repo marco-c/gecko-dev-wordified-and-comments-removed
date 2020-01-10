@@ -4868,7 +4868,6 @@ make_string_rejection
 let
 salt
 =
-(
 Math
 .
 random
@@ -4885,7 +4884,6 @@ pow
 )
 -
 1
-)
 )
 ;
 let
@@ -4929,7 +4927,6 @@ make_num_rejection
 let
 salt
 =
-(
 Math
 .
 random
@@ -4946,7 +4943,6 @@ pow
 )
 -
 1
-)
 )
 ;
 return
@@ -5001,7 +4997,6 @@ make_error_rejection
 let
 salt
 =
-(
 Math
 .
 random
@@ -5018,7 +5013,6 @@ pow
 )
 -
 1
-)
 )
 ;
 let
@@ -5072,7 +5066,6 @@ make_exception_rejection
 let
 salt
 =
-(
 Math
 .
 random
@@ -5089,7 +5082,6 @@ pow
 )
 -
 1
-)
 )
 ;
 let
@@ -5293,7 +5285,6 @@ test_caught_is_not_reported
 let
 salt
 =
-(
 Math
 .
 random
@@ -5310,7 +5301,6 @@ pow
 )
 -
 1
-)
 )
 ;
 let

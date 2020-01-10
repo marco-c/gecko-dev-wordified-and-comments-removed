@@ -232,6 +232,7 @@ WIDEVINE_ID
 )
 {
 return
+(
 AppConstants
 .
 platform
@@ -260,6 +261,7 @@ platform
 "
 linux
 "
+)
 ;
 }
 return

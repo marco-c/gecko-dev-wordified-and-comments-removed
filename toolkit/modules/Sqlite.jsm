@@ -1160,7 +1160,6 @@ sql
 try
 {
 return
-(
 await
 this
 .
@@ -1171,7 +1170,6 @@ sql
 .
 .
 rest
-)
 )
 ;
 }
@@ -1216,13 +1214,11 @@ close
 try
 {
 return
-(
 await
 this
 .
 close
 (
-)
 )
 ;
 }
@@ -1268,7 +1264,6 @@ sql
 try
 {
 return
-(
 await
 this
 .
@@ -1279,7 +1274,6 @@ sql
 .
 .
 rest
-)
 )
 ;
 }
@@ -1411,10 +1405,8 @@ async
 try
 {
 return
-(
 await
 promiseResult
-)
 ;
 }
 finally
@@ -1570,6 +1562,7 @@ this
 .
 _idleShrinkMS
 )
+{
 options
 .
 shrinkMemoryOnConnectionIdleMS
@@ -1578,6 +1571,7 @@ this
 .
 _idleShrinkMS
 ;
+}
 return
 cloneStorageConnection
 (
@@ -2000,9 +1994,7 @@ null
 if
 (
 typeof
-(
 sql
-)
 !
 =
 "
@@ -2937,6 +2929,7 @@ if
 (
 isBlob
 )
+{
 args
 .
 push
@@ -2946,6 +2939,7 @@ val
 length
 )
 ;
+}
 let
 methodName
 =
@@ -3008,20 +3002,16 @@ params
 length
 &
 &
-(
 typeof
-(
 params
 [
 0
 ]
-)
 =
 =
 "
 object
 "
-)
 )
 {
 let
@@ -3130,9 +3120,7 @@ params
 &
 &
 typeof
-(
 params
-)
 =
 =
 "
@@ -3231,9 +3219,7 @@ onRow
 &
 &
 typeof
-(
 onRow
-)
 !
 =
 "

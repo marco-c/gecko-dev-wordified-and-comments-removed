@@ -86,8 +86,10 @@ if
 !
 origins
 )
+{
 continue
 ;
+}
 origins
 =
 origins
@@ -271,6 +273,7 @@ endsWith
 "
 )
 )
+{
 aPrefBranch
 +
 =
@@ -278,6 +281,7 @@ aPrefBranch
 .
 "
 ;
+}
 if
 (
 gImportedPrefBranches
@@ -287,8 +291,10 @@ has
 aPrefBranch
 )
 )
+{
 return
 ;
+}
 importPrefBranch
 (
 aPrefBranch

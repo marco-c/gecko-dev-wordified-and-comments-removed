@@ -811,8 +811,10 @@ if
 !
 notifications
 )
+{
 return
 ;
+}
 var
 index
 =
@@ -831,8 +833,10 @@ index
 -
 1
 )
+{
 return
 ;
+}
 notifications
 .
 splice
