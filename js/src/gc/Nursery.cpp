@@ -6037,12 +6037,6 @@ entry
 .
 group
 ;
-AutoMaybeLeaveAtomsZone
-leaveAtomsZone
-(
-cx
-)
-;
 AutoRealm
 ar
 (
