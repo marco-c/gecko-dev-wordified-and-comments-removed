@@ -270,6 +270,13 @@ h
 #
 include
 "
+EGLUtils
+.
+h
+"
+#
+include
+"
 nsIContentInlines
 .
 h

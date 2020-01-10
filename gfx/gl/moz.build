@@ -230,6 +230,11 @@ DecomposeIntoNoRepeatTriangles
 h
 '
 '
+EGLUtils
+.
+h
+'
+'
 ForceDiscreteGPUHelperCGL
 .
 h
@@ -695,6 +700,11 @@ cpp
 '
 '
 DecomposeIntoNoRepeatTriangles
+.
+cpp
+'
+'
+EGLUtils
 .
 cpp
 '
