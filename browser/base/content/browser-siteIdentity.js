@@ -45,6 +45,8 @@ logins
 |
 preferences
 |
+protections
+|
 rights
 |
 sessionrestore
