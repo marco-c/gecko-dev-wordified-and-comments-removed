@@ -196,7 +196,7 @@ ranlib
 export
 MOZ_LTO
 =
-1
+cross
 .
 "
 topsrcdir

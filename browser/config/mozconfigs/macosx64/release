@@ -42,7 +42,7 @@ branding
 export
 MOZ_LTO
 =
-1
+cross
 #
 safeguard
 against

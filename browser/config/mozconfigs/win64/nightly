@@ -54,6 +54,10 @@ browser
 branding
 /
 nightly
+export
+MOZ_LTO
+=
+cross
 .
 "
 topsrcdir
