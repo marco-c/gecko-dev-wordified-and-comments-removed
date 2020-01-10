@@ -55,14 +55,6 @@ Uuid
 new_v4
 (
 )
-.
-hyphenated
-(
-)
-.
-to_string
-(
-)
 ;
 write
 !
@@ -77,6 +69,10 @@ res
 }
 "
 uuid
+.
+to_hyphenated_ref
+(
+)
 )
 .
 expect
