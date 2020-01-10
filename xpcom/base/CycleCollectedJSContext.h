@@ -1032,6 +1032,9 @@ MicroTaskRunnable
 mDebuggerMicroTaskQueue
 ;
 uint32_t
+mDebuggerRecursionDepth
+;
+uint32_t
 mMicroTaskRecursionDepth
 ;
 typedef
