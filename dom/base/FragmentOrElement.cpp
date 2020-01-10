@@ -4329,7 +4329,7 @@ content
 content
 -
 >
-GetBindingParent
+GetClosestNativeAnonymousSubtreeRootParent
 (
 )
 =
