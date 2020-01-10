@@ -2410,10 +2410,7 @@ static
 void
 sandbox_finalize
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
