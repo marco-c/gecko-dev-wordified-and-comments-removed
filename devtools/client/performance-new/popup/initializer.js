@@ -65,6 +65,7 @@ const
 {
 getRecordingPreferencesFromBrowser
 setRecordingPreferencesOnBrowser
+getSymbolsFromThisBrowser
 }
 =
 ChromeUtils
@@ -381,6 +382,13 @@ getState
 )
 )
 )
+getSymbolTableGetter
+:
+(
+)
+=
+>
+getSymbolsFromThisBrowser
 isPopup
 :
 true
