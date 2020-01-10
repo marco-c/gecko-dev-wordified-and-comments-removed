@@ -1504,6 +1504,8 @@ static
 void
 fillPingHeader
 (
+Context
+context
 OutputStream
 ping
 String
@@ -1935,6 +1937,7 @@ SysInfo
 .
 getMemSize
 (
+context
 )
 )
 +
@@ -2797,6 +2800,8 @@ static
 void
 processTraces
 (
+Context
+context
 Reader
 traces
 File
@@ -2819,6 +2824,7 @@ SysInfo
 .
 getMemSize
 (
+context
 )
 >
 =
@@ -2847,6 +2853,7 @@ try
 {
 fillPingHeader
 (
+context
 ping
 pingFile
 .
@@ -2985,6 +2992,8 @@ static
 void
 processTraces
 (
+Context
+context
 File
 tracesFile
 File
@@ -3011,6 +3020,7 @@ try
 {
 processTraces
 (
+context
 traces
 pingFile
 )
@@ -3320,6 +3330,7 @@ ANR
 ;
 processTraces
 (
+context
 tracesFile
 pingFile
 )
