@@ -6929,13 +6929,7 @@ continue
 CollectedSessionStorageInternal
 (
 aCx
-nsDocShell
-:
-:
-Cast
-(
 childDocShell
-)
 -
 >
 GetBrowsingContext

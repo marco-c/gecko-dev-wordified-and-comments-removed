@@ -18981,13 +18981,7 @@ nullptr
 return
 WindowProxyHolder
 (
-nsDocShell
-:
-:
-Cast
-(
 docShell
-)
 -
 >
 GetBrowsingContext

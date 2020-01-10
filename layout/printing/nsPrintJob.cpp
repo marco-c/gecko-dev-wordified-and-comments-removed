@@ -3696,11 +3696,6 @@ eDoc
 ;
 BuildNestedPrintObjects
 (
-nsDocShell
-:
-:
-Cast
-(
 printData
 -
 >
@@ -3708,7 +3703,6 @@ mPrintObject
 -
 >
 mDocShell
-)
 -
 >
 GetBrowsingContext
@@ -12631,13 +12625,7 @@ BrowsingContext
 *
 ourBC
 =
-nsDocShell
-:
-:
-Cast
-(
 ourDocShell
-)
 -
 >
 GetBrowsingContext

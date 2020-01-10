@@ -1912,13 +1912,7 @@ else
 {
 CollectPositions
 (
-nsDocShell
-:
-:
-Cast
-(
 mDocShell
-)
 -
 >
 GetBrowsingContext
