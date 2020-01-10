@@ -929,17 +929,6 @@ mAscent
 (
 aAscent
 )
-mIndex
-(
-(
-aLineNumber
-<
-<
-1
-)
-+
-aIndex
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -1183,9 +1172,6 @@ mStyle
 ;
 nscoord
 mAscent
-;
-uint16_t
-mIndex
 ;
 }
 ;
