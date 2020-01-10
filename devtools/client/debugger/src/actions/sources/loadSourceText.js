@@ -720,17 +720,6 @@ memoizeableAction
 loadSourceText
 "
 {
-exitEarly
-:
-(
-{
-source
-}
-)
-=
->
-!
-source
 hasValue
 :
 (
@@ -745,6 +734,11 @@ getState
 >
 {
 return
+(
+!
+source
+|
+|
 !
 !
 (
@@ -771,6 +765,7 @@ id
 .
 content
 )
+)
 ;
 }
 getValue
@@ -785,6 +780,8 @@ getState
 )
 =
 >
+source
+?
 getSource
 (
 getState
@@ -794,6 +791,8 @@ source
 .
 id
 )
+:
+null
 createKey
 :
 (
