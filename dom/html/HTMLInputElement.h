@@ -4524,11 +4524,6 @@ uint8_t
 aType
 )
 ;
-void
-FlushFrames
-(
-)
-;
 bool
 ShouldPreventDOMActivateDispatch
 (
