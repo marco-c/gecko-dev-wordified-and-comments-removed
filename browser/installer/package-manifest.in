@@ -1983,6 +1983,13 @@ res
 cursors
 /
 *
+RESPATH
+/
+res
+/
+touchbar
+/
+*
 #
 endif
 RESPATH
