@@ -141,10 +141,6 @@ mozilla
 :
 gfx
 ;
-using
-namespace
-std
-;
 namespace
 {
 int64_t
