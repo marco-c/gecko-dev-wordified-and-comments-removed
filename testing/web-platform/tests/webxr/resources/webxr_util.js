@@ -512,16 +512,6 @@ callback
 (
 window
 .
-XRLayer
-'
-XRLayer
-'
-)
-;
-callback
-(
-window
-.
 XRWebGLLayer
 '
 XRWebGLLayer
