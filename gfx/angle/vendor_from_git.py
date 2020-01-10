@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 assert
 __name__
 !
@@ -93,10 +89,8 @@ args
     
 print
 (
-(
 *
 args
-)
 )
     
 sys
@@ -119,11 +113,9 @@ kwargs
     
 print
 (
-(
 '
 '
 args
-)
 )
     
 sys
