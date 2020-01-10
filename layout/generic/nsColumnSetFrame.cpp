@@ -643,10 +643,9 @@ IsVertical
 bool
 isRTL
 =
-!
 wm
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 ;
@@ -2775,10 +2774,9 @@ const
 bool
 isRTL
 =
-!
 wm
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 ;

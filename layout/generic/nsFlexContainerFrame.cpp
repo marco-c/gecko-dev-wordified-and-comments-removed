@@ -13955,10 +13955,9 @@ eAxis_TB
 }
 if
 (
-!
 mWM
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )

@@ -13216,13 +13216,12 @@ IsVertical
 )
 |
 |
-!
 line
 -
 >
 mWritingMode
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 |

@@ -1583,10 +1583,9 @@ IsVertical
 )
 |
 |
-!
 mWritingMode
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )

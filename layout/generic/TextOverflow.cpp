@@ -1801,10 +1801,9 @@ GetParent
 ;
 mAdjustForPixelSnapping
 =
-!
 mBlockWM
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 ;

@@ -36472,12 +36472,11 @@ mIEndBevelOffset
 ;
 if
 (
-!
 aIter
 .
 mTableWM
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )

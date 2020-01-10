@@ -590,10 +590,9 @@ Slice
 {
 if
 (
-!
 wm
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )

@@ -38547,10 +38547,9 @@ IsVertical
 )
 |
 |
-!
 wm
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )
@@ -38622,10 +38621,9 @@ IsVertical
 )
 |
 |
-!
 pWM
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )
