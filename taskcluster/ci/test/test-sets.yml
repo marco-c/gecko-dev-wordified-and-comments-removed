@@ -1792,7 +1792,6 @@ remote
 gtest
 -
 jittest
-#
 -
 jsreftest
 -
@@ -1933,8 +1932,6 @@ tests
 :
 -
 gtest
--
-jsreftest
 -
 mochitest
 -
