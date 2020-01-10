@@ -227,11 +227,8 @@ window
 .
 gURLBar
 .
-setAttribute
+setPageProxyState
 (
-"
-pageproxystate
-"
 "
 invalid
 "
@@ -417,11 +414,8 @@ selectionStart
 }
 urlbar
 .
-setAttribute
+setPageProxyState
 (
-"
-pageproxystate
-"
 "
 invalid
 "

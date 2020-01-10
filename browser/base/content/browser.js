@@ -15816,11 +15816,8 @@ pageproxystate
 ;
 gURLBar
 .
-setAttribute
+setPageProxyState
 (
-"
-pageproxystate
-"
 aState
 )
 ;

@@ -167,11 +167,8 @@ pageproxystate
 ;
 gURLBar
 .
-setAttribute
+setPageProxyState
 (
-"
-pageproxystate
-"
 "
 valid
 "
@@ -211,11 +208,8 @@ icon
 ;
 gURLBar
 .
-setAttribute
+setPageProxyState
 (
-"
-pageproxystate
-"
 oldstate
 )
 ;
