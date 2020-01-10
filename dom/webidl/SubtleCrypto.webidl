@@ -633,6 +633,9 @@ API
 *
 *
 /
+[
+Serializable
+]
 interface
 CryptoKey
 {
