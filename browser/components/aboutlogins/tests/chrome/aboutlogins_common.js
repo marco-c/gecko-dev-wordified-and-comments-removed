@@ -315,6 +315,9 @@ password
 )
 ;
 }
+masterPasswordEnabled
+:
+false
 }
 }
 )

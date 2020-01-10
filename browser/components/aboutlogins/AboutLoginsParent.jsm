@@ -1829,6 +1829,13 @@ Setup
 logins
 syncState
 selectedBadgeLanguages
+masterPasswordEnabled
+:
+LoginHelper
+.
+isMasterPasswordSet
+(
+)
 }
 )
 ;
