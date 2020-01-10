@@ -109,6 +109,8 @@ HostLibrary
     
 HostProgram
     
+HostRustLibrary
+    
 HostRustProgram
     
 HostSimpleProgram
@@ -4323,7 +4325,10 @@ elif
 isinstance
 (
 obj
+(
 RustLibrary
+HostRustLibrary
+)
 )
 :
             

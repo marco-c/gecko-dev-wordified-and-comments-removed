@@ -76,6 +76,8 @@ GnProjectData
     
 HostLibrary
     
+HostRustLibrary
+    
 HostGeneratedSources
     
 IPDLCollection
@@ -1571,7 +1573,10 @@ if
 isinstance
 (
 lib
+(
+HostRustLibrary
 RustLibrary
+)
 )
 :
                 
