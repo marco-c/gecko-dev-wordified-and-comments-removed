@@ -324,22 +324,6 @@ width
 "
     
 "
-grid
--
-auto
--
-columns
-"
-    
-"
-grid
--
-auto
--
-rows
-"
-    
-"
 max
 -
 block
