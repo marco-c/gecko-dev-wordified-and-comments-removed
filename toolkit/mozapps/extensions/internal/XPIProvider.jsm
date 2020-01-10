@@ -5820,9 +5820,9 @@ FILE_XPI_STATES
 )
 finalizeAt
 :
-AddonManager
+AddonManagerPrivate
 .
-shutdown
+finalShutdown
 compression
 :
 "
@@ -8937,6 +8937,12 @@ XPIProvider
 _closing
 =
 true
+;
+XPIDatabase
+.
+asyncLoadDB
+(
+)
 ;
 await
 XPIProvider

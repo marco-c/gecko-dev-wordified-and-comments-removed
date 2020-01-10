@@ -42,7 +42,7 @@ removeManagerListener
 addExternalExtensionLoader
 "
 "
-shutdown
+beforeShutdown
 "
 "
 init
@@ -109,6 +109,9 @@ removeStartupChange
 "
 "
 getNewSideloads
+"
+"
+finalShutdown
 "
 "
 recordTimestamp
