@@ -2028,7 +2028,14 @@ forget
 )
 ;
 return
-NS_OK
+mThread
+-
+>
+Dispatch
+(
+this
+NS_DISPATCH_NORMAL
+)
 ;
 }
 nsresult
