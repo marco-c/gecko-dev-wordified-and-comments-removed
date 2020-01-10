@@ -2152,9 +2152,6 @@ bool
 mReturnInEmptyLIKillsList
 ;
 bool
-mDidEmptyParentBlocksRemoved
-;
-bool
 mRestoreContentEditableCount
 ;
 RefPtr

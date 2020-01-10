@@ -1923,6 +1923,9 @@ mDidExplicitlySetInterLine
 bool
 mDidDeleteNonCollapsedRange
 ;
+bool
+mDidDeleteEmptyParentBlocks
+;
 private
 :
 void
@@ -1939,6 +1942,10 @@ mDidExplicitlySetInterLine
 false
 ;
 mDidDeleteNonCollapsedRange
+=
+false
+;
+mDidDeleteEmptyParentBlocks
 =
 false
 ;
