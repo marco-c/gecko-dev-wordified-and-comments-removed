@@ -121,6 +121,13 @@ defined
 (
 MOZILLA_INTERNAL_API
 )
+bool
+IsClassThreadAwareInprocServer
+(
+REFCLSID
+aClsid
+)
+;
 void
 GUIDToString
 (
