@@ -370,6 +370,17 @@ labelId
 "
 modulus
 "
+|
+|
+labelId
+=
+=
+=
+"
+public
+-
+value
+"
 )
 {
 info
