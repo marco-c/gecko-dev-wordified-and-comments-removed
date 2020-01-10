@@ -636,6 +636,15 @@ aSetNavigating
 false
 )
 ;
+void
+DisplayLoadError
+(
+const
+nsAString
+&
+aURI
+)
+;
 bool
 IsCached
 (
