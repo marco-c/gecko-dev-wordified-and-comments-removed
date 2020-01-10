@@ -405,9 +405,6 @@ indexOf
 DEPRECATION
 WARNING
 :
-"
-+
-"
 this
 method
 is

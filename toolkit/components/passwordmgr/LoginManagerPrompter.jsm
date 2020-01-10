@@ -948,9 +948,6 @@ reportError
 "
 LoginManagerPrompter
 :
-"
-+
-"
 _doAsyncPrompt
 :
 run
@@ -2895,9 +2892,6 @@ reportError
 "
 LoginManagerPrompter
 :
-"
-+
-"
 Epic
 fail
 in
@@ -3392,9 +3386,6 @@ reportError
 "
 LoginManagerPrompter
 :
-"
-+
-"
 Fail2
 in
 promptAuth

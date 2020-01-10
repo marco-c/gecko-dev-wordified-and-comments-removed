@@ -3390,9 +3390,6 @@ text
 /
 html
 ;
-'
-+
-'
 charset
 =
 UTF

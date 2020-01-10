@@ -290,9 +290,6 @@ true
 getAppUpdateAutoEnabled
 should
 have
-"
-+
-"
 returned
 the
 default
@@ -377,9 +374,6 @@ file
 should
 have
 been
-"
-+
-"
 removed
 "
 )

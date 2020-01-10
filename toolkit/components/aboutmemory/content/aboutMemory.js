@@ -1571,9 +1571,6 @@ files
 and
 show
 the
-"
-+
-"
 difference
 .
 "

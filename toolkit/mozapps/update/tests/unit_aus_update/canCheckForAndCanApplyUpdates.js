@@ -175,9 +175,6 @@ able
 to
 apply
 updates
-"
-+
-"
 when
 there
 is

@@ -6828,9 +6828,6 @@ Attempt
 to
 finalize
 unknown
-"
-+
-"
 Sqlite
 connection
 :

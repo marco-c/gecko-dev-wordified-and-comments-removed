@@ -3088,9 +3088,6 @@ Unable
 to
 open
 messages
-"
-+
-"
 file
 :
 "
@@ -3202,9 +3199,6 @@ Unable
 to
 write
 to
-"
-+
-"
 messages
 file
 :
@@ -10460,9 +10454,6 @@ titlebar
 toolbar
 =
 no
-"
-+
-"
 dialog
 =
 no

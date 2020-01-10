@@ -2021,9 +2021,6 @@ changed
 ;
 resetting
 sync
-"
-+
-"
 statuses
 "
 {
@@ -3789,7 +3786,6 @@ item
 guid
 }
 with
-+
 kind
 {
 kind
@@ -7992,9 +7988,6 @@ addRowToChangeRecords
 Ignoring
 tombstone
 for
-"
-+
-"
 undeleted
 item
 "
@@ -8014,9 +8007,6 @@ addRowToChangeRecords
 Replacing
 tombstone
 for
-"
-+
-"
 undeleted
 item
 "

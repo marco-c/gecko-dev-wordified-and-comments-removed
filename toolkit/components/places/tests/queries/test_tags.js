@@ -73,9 +73,6 @@ tags
 getter
 should
 return
-"
-+
-"
 empty
 array
 "
@@ -373,9 +370,6 @@ with
 undefined
 to
 SetTags
-"
-+
-"
 should
 fail
 "
@@ -452,9 +446,6 @@ and
 undefined
 to
 SetTags
-"
-+
-"
 should
 fail
 "
@@ -2231,9 +2222,6 @@ as
 tag
 and
 insert
-"
-+
-"
 bookmark
 "
 )

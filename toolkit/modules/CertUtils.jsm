@@ -309,9 +309,6 @@ name
 not
 present
 in
-"
-+
-"
 certificate
 .
 "
@@ -430,9 +427,6 @@ failed
 See
 previous
 errors
-"
-+
-"
 for
 details
 .

@@ -879,9 +879,6 @@ example
 .
 com
 "
-'
-+
-'
 "
 id
 "
@@ -1033,9 +1030,6 @@ example
 .
 com
 "
-'
-+
-'
 "
 id
 "
