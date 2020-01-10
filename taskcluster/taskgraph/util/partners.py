@@ -2112,14 +2112,7 @@ return
 }
     
 if
-isinstance
-(
 partner_subset
-(
-list
-tuple
-)
-)
 :
         
 for
