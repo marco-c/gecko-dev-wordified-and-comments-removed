@@ -267,11 +267,6 @@ composedTarget
 ;
 if
 (
-aEvent
-.
-defaultPrevented
-|
-|
 target
 .
 isContentEditable
