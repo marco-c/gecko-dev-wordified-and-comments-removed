@@ -7947,9 +7947,9 @@ BeginReading
 )
 )
 ;
-ResetTables
+DeleteTables
 (
-Clear_All
+mRootStoreDirectory
 nsTArray
 <
 nsCString
