@@ -3548,6 +3548,10 @@ mockedserver
 certificate
 /
 sign
+?
+service
+=
+sync
 "
 )
 ;
@@ -3660,6 +3664,10 @@ mockedserver
 certificate
 /
 sign
+?
+service
+=
+sync
 "
 )
 ;
