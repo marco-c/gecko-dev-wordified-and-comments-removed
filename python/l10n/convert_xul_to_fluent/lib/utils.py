@@ -71,9 +71,6 @@ text
 base_path
 =
 None
-append
-=
-False
 )
 :
     
@@ -111,32 +108,13 @@ replace
 '
 )
     
-mode
-=
-"
-a
-"
-if
-append
-and
-os
-.
-path
-.
-exists
-(
-path
-)
-else
-"
-w
-"
-    
 with
 open
 (
 path
-mode
+"
+w
+"
 )
 as
 text_file

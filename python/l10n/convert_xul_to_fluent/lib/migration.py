@@ -9,8 +9,7 @@ path
 )
 :
     
-path
-=
+return
 path
 .
 replace
@@ -26,26 +25,6 @@ US
 '
 '
 )
-    
-if
-path
-.
-startswith
-(
-"
-.
-/
-"
-)
-:
-        
-path
-=
-path
-[
-2
-:
-]
     
 return
 path
@@ -330,7 +309,6 @@ part
 index
 }
 }
-.
 '
 .
 format
