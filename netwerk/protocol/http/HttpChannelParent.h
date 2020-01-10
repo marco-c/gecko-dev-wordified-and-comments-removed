@@ -402,14 +402,6 @@ CancelChildCrossProcessRedirect
 (
 )
 ;
-already_AddRefed
-<
-ParentChannelListener
->
-GetParentListener
-(
-)
-;
 protected
 :
 MOZ_MUST_USE
