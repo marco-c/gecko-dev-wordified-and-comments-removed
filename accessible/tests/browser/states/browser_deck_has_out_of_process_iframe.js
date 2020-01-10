@@ -59,7 +59,7 @@ DIRPATH
 "
 test_deck_has_out_of_process_iframe
 .
-xul
+xhtml
 "
 ;
 const

@@ -34,7 +34,7 @@ crashtests
 /
 471493
 .
-xul
+xhtml
 asserts
 -
 if
@@ -94,7 +94,7 @@ html
 #
 last_test_to_unload_testsuite
 .
-xul
+xhtml
 MUST
 be
 the
@@ -174,4 +174,4 @@ crashtests
 /
 last_test_to_unload_testsuite
 .
-xul
+xhtml
