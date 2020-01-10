@@ -1768,6 +1768,17 @@ nss_bogo_shim
 '
 gtests
 /
+pkcs11testmodule
+/
+pkcs11testmodule
+.
+gyp
+:
+pkcs11testmodule
+'
+'
+gtests
+/
 pk11_gtest
 /
 pk11_gtest

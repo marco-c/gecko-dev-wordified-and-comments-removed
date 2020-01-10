@@ -127,6 +127,8 @@ SYSINIT_GTEST
 \
 nss_bogo_shim
 \
+pkcs11testmodule
+\
 (
 NULL
 )

@@ -273,6 +273,13 @@ mechanismBits
 256
 ]
 ;
+CK_PROFILE_ID
+*
+profileList
+;
+int
+profileCount
+;
 }
 ;
 struct
