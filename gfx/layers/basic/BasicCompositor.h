@@ -1059,6 +1059,11 @@ mIsPendingEndRemoteDrawing
 bool
 mRecordFrames
 ;
+bool
+mShouldInvalidateWindow
+=
+false
+;
 enum
 class
 FrameDestination
