@@ -305,6 +305,14 @@ EnsureLogIsEnabled
 (
 )
 {
+#
+ifdef
+RELEASE_OR_BETA
+return
+false
+;
+#
+else
 for
 (
 ;
@@ -501,6 +509,8 @@ false
 ;
 }
 }
+#
+endif
 }
 void
 DecoderDoctorLogger
