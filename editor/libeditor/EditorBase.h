@@ -284,6 +284,9 @@ class
 nsINode
 ;
 class
+nsIPrincipal
+;
+class
 nsISupports
 ;
 class
@@ -853,8 +856,13 @@ CommitComposition
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
-ToggleTextDirection
+ToggleTextDirectionAsAction
 (
+nsIPrincipal
+*
+aPrincipal
+=
+nullptr
 )
 ;
 enum
@@ -1815,6 +1823,11 @@ EditorBase
 aEditorBase
 EditAction
 aEditAction
+nsIPrincipal
+*
+aPrincipal
+=
+nullptr
 )
 ;
 ~

@@ -3814,6 +3814,16 @@ rv
 )
 )
 {
+NS_WARNING
+(
+"
+InsertTextAsAction
+(
+)
+failed
+"
+)
+;
 return
 rv
 ;

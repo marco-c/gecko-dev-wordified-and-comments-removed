@@ -9877,6 +9877,7 @@ ReplaceTextAsAction
 (
 newValue
 range
+nullptr
 )
 ;
 NS_WARNING_ASSERTION
@@ -10018,6 +10019,7 @@ nsIEditor
 :
 :
 eStrip
+nullptr
 )
 ;
 NS_WARNING_ASSERTION
@@ -10050,6 +10052,7 @@ textEditor
 InsertTextAsAction
 (
 insertValue
+nullptr
 )
 ;
 NS_WARNING_ASSERTION
@@ -10100,9 +10103,10 @@ RemoveAllRangesTemporarily
 textEditor
 -
 >
-SetText
+SetTextAsAction
 (
 newValue
+nullptr
 )
 ;
 mTextListener

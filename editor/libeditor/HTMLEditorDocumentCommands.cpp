@@ -60,6 +60,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 nsISelectionController
 .
 h
@@ -165,6 +172,9 @@ aCommand
 TextEditor
 &
 aTextEditor
+nsIPrincipal
+*
+aPrincipal
 )
 const
 {
@@ -190,6 +200,9 @@ aBoolParam
 TextEditor
 &
 aTextEditor
+nsIPrincipal
+*
+aPrincipal
 )
 const
 {
@@ -592,6 +605,9 @@ aCStringParam
 TextEditor
 &
 aTextEditor
+nsIPrincipal
+*
+aPrincipal
 )
 const
 {
@@ -1519,6 +1535,9 @@ aCommand
 TextEditor
 &
 aTextEditor
+nsIPrincipal
+*
+aPrincipal
 )
 const
 {
