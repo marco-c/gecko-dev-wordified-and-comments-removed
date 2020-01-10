@@ -271,6 +271,11 @@ FormValidationChild
 jsm
 '
 '
+FormValidationParent
+.
+jsm
+'
+'
 LightweightThemeChild
 .
 jsm

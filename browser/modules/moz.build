@@ -1082,11 +1082,6 @@ FaviconLoader
 jsm
 '
 '
-FormValidationHandler
-.
-jsm
-'
-'
 HomePage
 .
 jsm
