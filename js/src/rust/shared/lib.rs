@@ -21,7 +21,3 @@ extern
 crate
 encoding_c_mem
 ;
-extern
-crate
-mozglue_static
-;
