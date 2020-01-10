@@ -73,6 +73,11 @@ Servo_ResolveStyle
 (
 &
 aElement
+mRawSet
+.
+get
+(
+)
 )
 .
 Consume
