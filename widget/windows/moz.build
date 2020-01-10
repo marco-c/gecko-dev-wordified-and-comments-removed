@@ -161,6 +161,11 @@ mozilla
 =
 [
 '
+ShellHeaderOnlyUtils
+.
+h
+'
+'
 WindowsConsole
 .
 h
