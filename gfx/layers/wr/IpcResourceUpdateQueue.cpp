@@ -1848,8 +1848,6 @@ Range
 uint8_t
 >
 aBytes
-ImageIntRect
-aVisibleRect
 )
 {
 MOZ_RELEASE_ASSERT
@@ -1903,7 +1901,6 @@ OpAddBlobImage
 (
 aDescriptor
 bytes
-aVisibleRect
 0
 key
 )
@@ -2117,8 +2114,6 @@ uint8_t
 >
 aBytes
 ImageIntRect
-aVisibleRect
-ImageIntRect
 aDirtyRect
 )
 {
@@ -2158,7 +2153,6 @@ OpUpdateBlobImage
 aDescriptor
 bytes
 aKey
-aVisibleRect
 aDirtyRect
 )
 )
@@ -2227,7 +2221,7 @@ AppendElement
 layers
 :
 :
-OpSetBlobImageVisibleArea
+OpSetImageVisibleArea
 (
 aArea
 aKey
