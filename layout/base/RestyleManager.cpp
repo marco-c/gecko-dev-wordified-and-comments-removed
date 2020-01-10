@@ -2532,9 +2532,6 @@ ClearDescendantIntrinsics
 NeedDirtyReflow
 "
 "
-SyncFrameView
-"
-"
 UpdateCursor
 "
 "
@@ -2942,9 +2939,7 @@ SyncViewsAndInvalidateDescendants
 (
 nsIFrame
 *
-aFrame
 nsChangeHint
-aChange
 )
 ;
 static
@@ -4803,8 +4798,6 @@ aChange
 (
 nsChangeHint_RepaintFrame
 |
-nsChangeHint_SyncFrameView
-|
 nsChangeHint_UpdateOpacityLayer
 |
 nsChangeHint_SchedulePaint
@@ -5248,8 +5241,6 @@ aChange
 (
 nsChangeHint_RepaintFrame
 |
-nsChangeHint_SyncFrameView
-|
 nsChangeHint_UpdateOpacityLayer
 |
 nsChangeHint_SchedulePaint
@@ -5262,13 +5253,6 @@ flag
 "
 )
 ;
-if
-(
-aChange
-&
-nsChangeHint_SyncFrameView
-)
-{
 aFrame
 -
 >
@@ -5276,7 +5260,6 @@ SyncFrameViewProperties
 (
 )
 ;
-}
 nsIFrame
 :
 :
@@ -5653,17 +5636,7 @@ nsIFrame
 *
 rootFrame
 =
-aFrame
--
->
-PresShell
-(
-)
--
->
-FrameConstructor
-(
-)
+aPresShell
 -
 >
 GetRootFrame
@@ -7526,8 +7499,6 @@ hint
 &
 (
 nsChangeHint_RepaintFrame
-|
-nsChangeHint_SyncFrameView
 |
 nsChangeHint_UpdateOpacityLayer
 |
