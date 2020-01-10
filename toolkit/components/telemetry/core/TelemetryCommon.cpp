@@ -279,6 +279,17 @@ aProducts
 )
 {
 return
+mozilla
+:
+:
+StaticPrefs
+:
+:
+toolkit_telemetry_testing_overrideProductsCheck
+(
+)
+|
+|
 !
 !
 (
