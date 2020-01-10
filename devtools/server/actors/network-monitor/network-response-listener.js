@@ -934,6 +934,8 @@ isRacing
 =
 false
 ;
+try
+{
 const
 channel
 =
@@ -960,6 +962,13 @@ isRacing
 (
 )
 ;
+}
+}
+catch
+(
+err
+)
+{
 }
 this
 .
