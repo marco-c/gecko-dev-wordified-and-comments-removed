@@ -40579,7 +40579,7 @@ features
 .
 socialtracking
 .
-annotation
+annotate
 .
 blacklistTables
 "
@@ -40630,7 +40630,7 @@ features
 .
 socialtracking
 .
-annotation
+annotate
 .
 whitelistTables
 "
