@@ -118,6 +118,10 @@ container
 background
 )
 ;
+overflow
+:
+auto
+;
 }
 .
 browserContainer
