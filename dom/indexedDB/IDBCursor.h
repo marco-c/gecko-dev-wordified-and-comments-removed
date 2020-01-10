@@ -138,8 +138,6 @@ PREV_UNIQUE
 DIRECTION_INVALID
 }
 ;
-private
-:
 enum
 Type
 {
@@ -149,6 +147,8 @@ Type_Index
 Type_IndexKey
 }
 ;
+private
+:
 indexedDB
 :
 :
@@ -392,6 +392,12 @@ const
 ;
 IDBCursorDirection
 GetDirection
+(
+)
+const
+;
+Type
+GetType
 (
 )
 const
@@ -660,6 +666,12 @@ InvalidateCachedResponses
 (
 )
 ;
+bool
+IsLocaleAware
+(
+)
+const
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
@@ -705,12 +717,6 @@ aKey
 IDBCursor
 (
 )
-;
-bool
-IsLocaleAware
-(
-)
-const
 ;
 void
 DropJSObjects

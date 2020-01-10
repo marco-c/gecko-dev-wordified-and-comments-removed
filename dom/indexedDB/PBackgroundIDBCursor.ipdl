@@ -286,6 +286,8 @@ ObjectStoreCursorResponse
 ObjectStoreKeyCursorResponse
 ;
 IndexCursorResponse
+[
+]
 ;
 IndexKeyCursorResponse
 ;
@@ -313,6 +315,8 @@ CursorRequestParams
 params
 Key
 currentKey
+Key
+currentObjectStoreKey
 )
 ;
 child
