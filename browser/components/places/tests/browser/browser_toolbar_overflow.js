@@ -602,12 +602,11 @@ children
 ;
 Assert
 .
-ok
+greater
 (
 children
 .
 length
->
 2
 "
 Multiple

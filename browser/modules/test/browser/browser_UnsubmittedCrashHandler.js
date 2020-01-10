@@ -2378,10 +2378,9 @@ chancesUntilSuppress
 ;
 Assert
 .
-ok
+greater
 (
 initChances
->
 1
 "
 We
@@ -2622,10 +2621,9 @@ chancesUntilSuppress
 ;
 Assert
 .
-ok
+greater
 (
 initChances
->
 1
 "
 We

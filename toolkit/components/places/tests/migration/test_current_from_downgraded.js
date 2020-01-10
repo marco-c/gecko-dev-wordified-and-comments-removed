@@ -74,10 +74,9 @@ version
 }
 Assert
 .
-ok
+greater
 (
 version
->
 0
 "
 Found

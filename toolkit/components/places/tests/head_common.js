@@ -4021,12 +4021,11 @@ icon1
 ;
 Assert
 .
-ok
+greater
 (
 data1
 .
 length
->
 0
 "
 Should
@@ -4047,12 +4046,11 @@ icon2
 ;
 Assert
 .
-ok
+greater
 (
 data2
 .
 length
->
 0
 "
 Should

@@ -314,14 +314,13 @@ title
 ;
 Assert
 .
-ok
+greater
 (
 entry
 .
 visits
 .
 length
->
 0
 "
 Should
