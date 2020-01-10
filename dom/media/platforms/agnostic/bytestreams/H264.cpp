@@ -2845,7 +2845,10 @@ aValue
 aValue
 <
 =
+float
+(
 INT32_MAX
+)
 /
 2
 )
