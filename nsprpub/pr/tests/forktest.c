@@ -988,9 +988,6 @@ argv
 pid_t
 pid
 ;
-int
-rv
-;
 DoIO
 (
 )
@@ -1069,16 +1066,12 @@ DoIO
 ;
 if
 (
-(
-rv
-=
 waitpid
 (
 pid
 &
 childStatus
 0
-)
 )
 !
 =

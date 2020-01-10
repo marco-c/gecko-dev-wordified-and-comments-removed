@@ -317,10 +317,6 @@ void
 *
 )
 ;
-PRThread
-*
-thread
-;
 int
 *
 id
@@ -653,9 +649,6 @@ done
 }
 if
 (
-(
-thread
-=
 PR_CreateThread
 (
 PR_USER_THREAD
@@ -665,7 +658,6 @@ PR_PRIORITY_NORMAL
 scope2
 PR_UNJOINABLE_THREAD
 0
-)
 )
 =
 =
@@ -1882,10 +1874,6 @@ index
 +
 )
 {
-PRThread
-*
-thread
-;
 int
 *
 id
@@ -1909,9 +1897,6 @@ index
 ;
 if
 (
-(
-thread
-=
 PR_CreateThread
 (
 PR_USER_THREAD
@@ -1921,7 +1906,6 @@ PR_PRIORITY_NORMAL
 scope1
 PR_UNJOINABLE_THREAD
 0
-)
 )
 =
 =

@@ -244,7 +244,6 @@ exit
 }
 while
 (
-(
 nbytes
 =
 PR_Read
@@ -254,7 +253,6 @@ buf
 sizeof
 (
 buf
-)
 )
 )
 >
@@ -605,9 +603,6 @@ acceptSock
 ;
 while
 (
-(
-nbytes
-=
 write
 (
 osfd
@@ -615,7 +610,6 @@ buf
 sizeof
 (
 buf
-)
 )
 )
 !
@@ -884,9 +878,6 @@ acceptSock
 ;
 while
 (
-(
-nbytes
-=
 write
 (
 osfd
@@ -894,7 +885,6 @@ buf
 sizeof
 (
 buf
-)
 )
 )
 !
@@ -1149,9 +1139,6 @@ acceptSock
 ;
 while
 (
-(
-nbytes
-=
 write
 (
 osfd
@@ -1159,7 +1146,6 @@ buf
 sizeof
 (
 buf
-)
 )
 )
 !
