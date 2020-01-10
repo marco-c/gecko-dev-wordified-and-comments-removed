@@ -97374,7 +97374,7 @@ DataChannels
 "
 }
 "
-WEBRTC_HOSTNAME_OBFUSCATION_ENABLED_ICE_DURATION
+WEBRTC_HOSTNAME_OBFUSCATION_ENABLED_ICE_DURATION_MS
 "
 :
 {
@@ -97432,7 +97432,7 @@ exponential
 high
 "
 :
-600
+30000
 "
 n_buckets
 "
@@ -97456,7 +97456,7 @@ of
 time
 (
 in
-seconds
+milliseconds
 )
 for
 the
@@ -97479,7 +97479,7 @@ enabled
 "
 }
 "
-WEBRTC_HOSTNAME_OBFUSCATION_DISABLED_ICE_DURATION
+WEBRTC_HOSTNAME_OBFUSCATION_DISABLED_ICE_DURATION_MS
 "
 :
 {
@@ -97537,7 +97537,7 @@ exponential
 high
 "
 :
-600
+30000
 "
 n_buckets
 "
@@ -97561,7 +97561,7 @@ of
 time
 (
 in
-seconds
+milliseconds
 )
 for
 the
