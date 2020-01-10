@@ -543,7 +543,7 @@ baselineInterpreterWarmUpThreshold
 SET_DEFAULT
 (
 baselineJitWarmUpThreshold
-50
+100
 )
 ;
 SET_DEFAULT
