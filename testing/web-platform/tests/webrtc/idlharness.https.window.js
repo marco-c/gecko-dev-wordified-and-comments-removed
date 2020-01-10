@@ -445,6 +445,9 @@ webrtc
 ]
 [
 '
+WebIDL
+'
+'
 mediacapture
 -
 streams
