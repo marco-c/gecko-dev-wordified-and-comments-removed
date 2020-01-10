@@ -194,6 +194,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 ImageData
