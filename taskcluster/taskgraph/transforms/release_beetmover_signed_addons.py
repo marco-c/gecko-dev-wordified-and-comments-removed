@@ -467,7 +467,7 @@ chunk_locales
 '
 en
 -
-us
+US
 '
 ]
 )
