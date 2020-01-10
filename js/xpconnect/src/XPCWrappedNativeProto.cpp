@@ -227,10 +227,7 @@ XPCWrappedNativeProto
 :
 JSProtoObjectFinalized
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
