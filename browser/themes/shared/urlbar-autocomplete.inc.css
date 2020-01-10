@@ -1268,9 +1268,9 @@ urlbarView
 -
 url
 {
-display
+visibility
 :
-none
+collapse
 ;
 }
 .
