@@ -1,7 +1,7 @@
 #
 include
 "
-PipelineLayout
+BlendState
 .
 h
 "
@@ -29,11 +29,11 @@ mozilla
 namespace
 webgpu
 {
-PipelineLayout
+BlendState
 :
 :
 ~
-PipelineLayout
+BlendState
 (
 )
 =
@@ -41,7 +41,7 @@ default
 ;
 WEBGPU_IMPL_GOOP_0
 (
-PipelineLayout
+BlendState
 )
 }
 }

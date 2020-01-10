@@ -1,9 +1,9 @@
 #
 ifndef
-GPU_TextureView_H_
+WEBGPU_TEXTURE_VIEW_H_
 #
 define
-GPU_TextureView_H_
+WEBGPU_TEXTURE_VIEW_H_
 #
 include
 "
@@ -32,8 +32,6 @@ TextureView
 final
 :
 public
-ObjectBase
-public
 ChildOf
 <
 Device
@@ -41,11 +39,7 @@ Device
 {
 public
 :
-GPU_DECL_CYCLE_COLLECTION
-(
-TextureView
-)
-GPU_DECL_JS_WRAP
+WEBGPU_DECL_GOOP
 (
 TextureView
 )

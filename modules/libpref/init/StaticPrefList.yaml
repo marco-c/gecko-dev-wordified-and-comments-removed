@@ -15655,7 +15655,7 @@ webgpu
 enable
 type
 :
-RelaxedAtomicBool
+bool
 value
 :
 false

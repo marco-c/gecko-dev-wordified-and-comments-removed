@@ -1,9 +1,9 @@
 #
 ifndef
-WEBGPU_ShaderModule_H_
+WEBGPU_BlendState_H_
 #
 define
-WEBGPU_ShaderModule_H_
+WEBGPU_BlendState_H_
 #
 include
 "
@@ -28,7 +28,7 @@ class
 Device
 ;
 class
-ShaderModule
+BlendState
 final
 :
 public
@@ -41,11 +41,11 @@ public
 :
 WEBGPU_DECL_GOOP
 (
-ShaderModule
+BlendState
 )
 private
 :
-ShaderModule
+BlendState
 (
 )
 =
@@ -53,7 +53,7 @@ delete
 ;
 virtual
 ~
-ShaderModule
+BlendState
 (
 )
 ;

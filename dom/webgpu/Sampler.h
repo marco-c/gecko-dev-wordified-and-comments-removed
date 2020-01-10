@@ -1,9 +1,9 @@
 #
 ifndef
-GPU_SAMPLER_H_
+WEBGPU_SAMPLER_H_
 #
 define
-GPU_SAMPLER_H_
+WEBGPU_SAMPLER_H_
 #
 include
 "
@@ -32,8 +32,6 @@ Sampler
 final
 :
 public
-ObjectBase
-public
 ChildOf
 <
 Device
@@ -41,11 +39,7 @@ Device
 {
 public
 :
-GPU_DECL_CYCLE_COLLECTION
-(
-Sampler
-)
-GPU_DECL_JS_WRAP
+WEBGPU_DECL_GOOP
 (
 Sampler
 )

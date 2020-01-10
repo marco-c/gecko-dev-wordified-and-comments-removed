@@ -1,7 +1,7 @@
 #
 include
 "
-PipelineLayout
+InputState
 .
 h
 "
@@ -29,11 +29,11 @@ mozilla
 namespace
 webgpu
 {
-PipelineLayout
+InputState
 :
 :
 ~
-PipelineLayout
+InputState
 (
 )
 =
@@ -41,7 +41,7 @@ default
 ;
 WEBGPU_IMPL_GOOP_0
 (
-PipelineLayout
+InputState
 )
 }
 }

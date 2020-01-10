@@ -1,9 +1,9 @@
 #
 ifndef
-GPU_BindGroupLayout_H_
+WEBGPU_BindGroupLayout_H_
 #
 define
-GPU_BindGroupLayout_H_
+WEBGPU_BindGroupLayout_H_
 #
 include
 "
@@ -32,8 +32,6 @@ BindGroupLayout
 final
 :
 public
-ObjectBase
-public
 ChildOf
 <
 Device
@@ -41,11 +39,7 @@ Device
 {
 public
 :
-GPU_DECL_CYCLE_COLLECTION
-(
-BindGroupLayout
-)
-GPU_DECL_JS_WRAP
+WEBGPU_DECL_GOOP
 (
 BindGroupLayout
 )
