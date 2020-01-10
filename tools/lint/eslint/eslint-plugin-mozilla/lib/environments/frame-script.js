@@ -62,6 +62,9 @@ false
 RPMGetIntPref
 :
 false
+RPMGetStringPref
+:
+false
 RPMGetBoolPref
 :
 false
