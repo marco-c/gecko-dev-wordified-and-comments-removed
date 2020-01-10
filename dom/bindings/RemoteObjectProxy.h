@@ -778,6 +778,10 @@ prototypes
 ID
 mPrototypeID
 ;
+friend
+struct
+SetDOMProxyInformation
+;
 static
 const
 char
