@@ -6796,6 +6796,16 @@ nsIAccessibleEvent
 :
 EVENT_TEXT_SELECTION_CHANGED
 :
+g_signal_emit_by_name
+(
+wrapper
+"
+text_selection_changed
+"
+)
+;
+break
+;
 case
 nsIAccessibleEvent
 :
