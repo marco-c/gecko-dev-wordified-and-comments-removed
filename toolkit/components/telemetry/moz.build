@@ -524,13 +524,6 @@ TelemetryIOInterposeObserver
 .
 cpp
 '
-'
-other
-/
-WebrtcTelemetry
-.
-cpp
-'
 ]
 if
 CONFIG
