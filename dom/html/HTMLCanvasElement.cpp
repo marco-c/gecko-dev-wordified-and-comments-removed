@@ -2485,7 +2485,9 @@ aDest
 >
 mOriginalCanvas
 =
-this
+GetOriginalCanvas
+(
+)
 ;
 nsIntSize
 size
