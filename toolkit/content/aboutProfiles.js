@@ -1153,6 +1153,12 @@ createProfileWizard
 {
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 openDialog
 (
 "
