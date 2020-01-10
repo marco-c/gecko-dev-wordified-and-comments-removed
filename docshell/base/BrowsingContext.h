@@ -1524,6 +1524,16 @@ aType
 ;
 private
 :
+static
+bool
+IsSpecialName
+(
+const
+nsAString
+&
+aName
+)
+;
 BrowsingContext
 *
 FindWithSpecialName
