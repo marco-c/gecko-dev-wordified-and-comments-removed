@@ -2016,6 +2016,14 @@ focus
 (
 )
 ;
+this
+.
+inputField
+.
+select
+(
+)
+;
 }
 save
 (
