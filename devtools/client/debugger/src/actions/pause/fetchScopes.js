@@ -182,8 +182,6 @@ dispatch
 generateInlinePreview
 (
 cx
-.
-thread
 frame
 )
 )
