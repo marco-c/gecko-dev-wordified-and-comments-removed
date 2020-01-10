@@ -63,7 +63,7 @@ hint
 style
 =
 "
-error
+danger
 "
 %
 }
