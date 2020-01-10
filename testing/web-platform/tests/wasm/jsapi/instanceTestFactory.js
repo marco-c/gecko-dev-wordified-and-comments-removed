@@ -663,7 +663,7 @@ exportFunc
 ;
 builder
 .
-setTableLength
+setTableBounds
 (
 1
 )

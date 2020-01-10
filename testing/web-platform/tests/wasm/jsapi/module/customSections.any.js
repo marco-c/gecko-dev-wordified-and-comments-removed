@@ -620,6 +620,10 @@ builder
 addExplicitSection
 (
 binary
+.
+trunc_buffer
+(
+)
 )
 ;
 const
@@ -830,6 +834,10 @@ builder
 addExplicitSection
 (
 binary
+.
+trunc_buffer
+(
+)
 )
 ;
 const
@@ -991,6 +999,10 @@ builder
 addExplicitSection
 (
 binary
+.
+trunc_buffer
+(
+)
 )
 ;
 const
