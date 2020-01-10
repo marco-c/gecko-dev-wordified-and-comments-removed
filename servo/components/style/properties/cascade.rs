@@ -1467,6 +1467,17 @@ color
 =
 >
 color
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 PropertyDeclaration
 :
 :
