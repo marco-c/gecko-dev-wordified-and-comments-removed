@@ -247,6 +247,8 @@ wr
 :
 DeviceIntSize
 aSize
+bool
+aIsOpaque
 )
 {
 RenderCompositor
@@ -269,6 +271,7 @@ CreateSurface
 (
 aId
 aSize
+aIsOpaque
 )
 ;
 }

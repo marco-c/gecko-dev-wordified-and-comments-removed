@@ -1248,6 +1248,8 @@ int
 width
 int
 height
+bool
+is_opaque
 )
 {
 assert
@@ -1269,6 +1271,15 @@ id
 Tile
 tile
 ;
+DXGI_ALPHA_MODE
+alpha_mode
+=
+is_opaque
+?
+DXGI_ALPHA_MODE_IGNORE
+:
+DXGI_ALPHA_MODE_PREMULTIPLIED
+;
 HRESULT
 hr
 =
@@ -1283,7 +1294,7 @@ CreateSurface
 width
 height
 DXGI_FORMAT_B8G8R8A8_UNORM
-DXGI_ALPHA_MODE_PREMULTIPLIED
+alpha_mode
 &
 tile
 .
