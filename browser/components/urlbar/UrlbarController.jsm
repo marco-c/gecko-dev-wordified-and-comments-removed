@@ -910,7 +910,7 @@ this
 .
 input
 .
-textValue
+value
 .
 length
 )
@@ -1392,7 +1392,7 @@ this
 .
 input
 .
-textValue
+value
 }
 )
 ;

@@ -622,7 +622,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 expectedURL
 entering
 {

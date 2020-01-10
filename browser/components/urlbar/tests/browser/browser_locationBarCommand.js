@@ -288,7 +288,7 @@ win
 .
 gURLBar
 .
-textValue
+value
 TEST_VALUE
 "
 New
@@ -553,7 +553,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 TEST_VALUE
 "
 New
@@ -766,7 +766,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 TEST_VALUE
 "
 Urlbar
@@ -1005,7 +1005,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 TEST_VALUE
 "
 Urlbar

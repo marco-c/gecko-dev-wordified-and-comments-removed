@@ -95,7 +95,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 TEST_VALUE
 "
 Urlbar
@@ -211,7 +211,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 TEST_VALUE
 "
 Urlbar
@@ -334,7 +334,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 TEST_VALUE
 "
 Urlbar

@@ -488,7 +488,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 TESTURL
 "
 URL
@@ -506,7 +506,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 TESTURL
 "
 URL

@@ -100,7 +100,7 @@ selectionEnd
 =
 gURLBar
 .
-value
+untrimmedValue
 .
 length
 ;
@@ -110,7 +110,7 @@ selectionStart
 =
 gURLBar
 .
-value
+untrimmedValue
 .
 length
 ;
@@ -190,7 +190,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 "
 example
 .
@@ -324,7 +324,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 "
 foo
 "
@@ -434,7 +434,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 "
 "
 )

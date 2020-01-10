@@ -71,7 +71,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 gURLBar
 .
 trimValue
@@ -97,7 +97,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 gURLBar
 .
 trimValue
@@ -143,7 +143,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 "
 "
 "
@@ -164,7 +164,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 gURLBar
 .
 trimValue
@@ -212,7 +212,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 gURLBar
 .
 trimValue

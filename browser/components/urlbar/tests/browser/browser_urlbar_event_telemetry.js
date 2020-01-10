@@ -988,7 +988,7 @@ while
 (
 gURLBar
 .
-value
+untrimmedValue
 !
 =
 "
@@ -1283,7 +1283,7 @@ while
 (
 gURLBar
 .
-value
+untrimmedValue
 !
 =
 "
@@ -1421,7 +1421,7 @@ while
 (
 gURLBar
 .
-value
+untrimmedValue
 !
 =
 "
@@ -1912,7 +1912,7 @@ while
 (
 gURLBar
 .
-value
+untrimmedValue
 !
 =
 "
@@ -2087,7 +2087,7 @@ while
 (
 gURLBar
 .
-value
+untrimmedValue
 !
 =
 "

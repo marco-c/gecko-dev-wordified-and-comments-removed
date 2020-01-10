@@ -478,7 +478,7 @@ equal
 (
 gURLBar
 .
-value
+untrimmedValue
 value
 )
 ;
@@ -488,7 +488,7 @@ ok
 (
 gURLBar
 .
-value
+untrimmedValue
 .
 includes
 (
@@ -575,7 +575,7 @@ equal
 (
 gURLBar
 .
-value
+untrimmedValue
 value
 )
 ;
@@ -585,7 +585,7 @@ ok
 (
 gURLBar
 .
-value
+untrimmedValue
 .
 includes
 (
@@ -1064,7 +1064,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 {
 ALIAS
 }
@@ -1118,7 +1118,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 {
 ALIAS
 }
@@ -1266,7 +1266,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 {
 ALIAS
 }
@@ -1320,7 +1320,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 {
 ALIAS
 }
@@ -1435,7 +1435,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 expectedString
 )
 ;
@@ -1961,7 +1961,7 @@ index
 =
 gURLBar
 .
-textValue
+value
 .
 indexOf
 (
@@ -1978,13 +1978,13 @@ index
 0
 gURLBar
 .
-textValue
+value
 =
 "
 {
 gURLBar
 .
-textValue
+value
 }
 "
 expectedAlias

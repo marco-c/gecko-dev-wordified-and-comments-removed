@@ -126,7 +126,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 "
 example
 .
@@ -204,7 +204,7 @@ win
 .
 gURLBar
 .
-textValue
+value
 "
 example
 .
@@ -294,7 +294,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 "
 example
 .
@@ -416,7 +416,7 @@ win
 .
 gURLBar
 .
-textValue
+value
 "
 example
 .

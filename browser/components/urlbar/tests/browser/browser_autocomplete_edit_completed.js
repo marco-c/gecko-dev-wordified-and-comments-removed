@@ -196,7 +196,7 @@ equal
 (
 gURLBar
 .
-value
+untrimmedValue
 nextResult
 .
 url
@@ -236,7 +236,7 @@ editedValue
 =
 gURLBar
 .
-textValue
+value
 ;
 Assert
 .

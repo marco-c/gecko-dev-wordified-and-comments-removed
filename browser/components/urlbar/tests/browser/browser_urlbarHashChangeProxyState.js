@@ -75,7 +75,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 expectedURL
 "
 URL
@@ -94,7 +94,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 expectedURL
 "
 URL
@@ -609,7 +609,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 url
 "
 URL
@@ -634,7 +634,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 url
 "
 URL

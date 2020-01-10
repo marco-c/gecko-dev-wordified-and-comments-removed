@@ -139,7 +139,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 expectedURLBarChange
 "
 Should
@@ -235,7 +235,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 expectedURLBarChange
 "
 Should
@@ -554,7 +554,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 SLOW_HOST
 "
 Should
@@ -592,7 +592,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 SLOW_HOST
 "
 Should
@@ -954,7 +954,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 SLOW_HOST1
 "
 Should
@@ -1000,7 +1000,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 SLOW_HOST2
 "
 Should
@@ -1038,7 +1038,7 @@ is
 (
 gURLBar
 .
-value
+untrimmedValue
 SLOW_HOST2
 "
 Should

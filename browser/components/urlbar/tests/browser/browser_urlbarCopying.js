@@ -1749,7 +1749,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 testCase
 .
 expectedURL
@@ -1998,7 +1998,7 @@ copyVal
 =
 gURLBar
 .
-textValue
+value
 )
 {
 ok

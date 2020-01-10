@@ -1087,7 +1087,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 textValue
 "
 Expected

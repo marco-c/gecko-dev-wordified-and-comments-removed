@@ -1673,7 +1673,7 @@ numChars
 =
 this
 .
-textValue
+value
 .
 length
 ;
@@ -1764,7 +1764,7 @@ url
 =
 this
 .
-value
+untrimmedValue
 ;
 openParams
 .
@@ -2644,7 +2644,7 @@ _lastSearchString
 :
 this
 .
-textValue
+value
 )
 ;
 if
@@ -2953,7 +2953,7 @@ valid
 :
 this
 .
-textValue
+value
 ;
 }
 else
@@ -2962,7 +2962,7 @@ if
 !
 this
 .
-textValue
+value
 .
 startsWith
 (
@@ -3002,7 +3002,7 @@ _textValueOnLastSearch
 =
 this
 .
-textValue
+value
 ;
 this
 .
@@ -3269,7 +3269,7 @@ button
 ;
 }
 get
-textValue
+value
 (
 )
 {
@@ -3282,7 +3282,7 @@ value
 ;
 }
 get
-value
+untrimmedValue
 (
 )
 {
@@ -3662,7 +3662,7 @@ _lastSearchString
 =
 this
 .
-textValue
+value
 ;
 this
 .
@@ -3949,7 +3949,7 @@ title
 "
 this
 .
-value
+untrimmedValue
 )
 ;
 }
@@ -4054,7 +4054,7 @@ remainder
 =
 this
 .
-textValue
+value
 .
 replace
 (
@@ -4229,7 +4229,7 @@ if
 (
 this
 .
-textValue
+value
 =
 =
 selectedVal
@@ -6140,7 +6140,7 @@ value
 =
 this
 .
-textValue
+value
 ;
 this
 .

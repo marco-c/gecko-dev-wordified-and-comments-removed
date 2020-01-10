@@ -133,7 +133,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 input
 "
 Text
@@ -169,7 +169,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 input
 "
 Text
@@ -345,7 +345,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 input
 "
 Text
@@ -398,7 +398,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 input
 "
 Text

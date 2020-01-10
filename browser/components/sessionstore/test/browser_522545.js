@@ -1584,7 +1584,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 gURLBar
 .
 trimValue

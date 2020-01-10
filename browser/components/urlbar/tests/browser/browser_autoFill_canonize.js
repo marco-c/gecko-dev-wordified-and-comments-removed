@@ -34,7 +34,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 autofilled
 "
 autofilled
@@ -85,7 +85,7 @@ equal
 (
 gURLBar
 .
-textValue
+value
 modified
 "
 value

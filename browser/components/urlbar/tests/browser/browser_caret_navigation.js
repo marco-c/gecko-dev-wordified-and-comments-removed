@@ -143,7 +143,7 @@ KEY_ArrowDown
 "
 gURLBar
 .
-textValue
+value
 .
 length
 "
