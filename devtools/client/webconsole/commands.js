@@ -61,6 +61,9 @@ evaluateJSAsync
 (
 expression
 options
+=
+{
+}
 )
 {
 const
