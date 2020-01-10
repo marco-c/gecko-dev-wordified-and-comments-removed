@@ -20958,11 +20958,7 @@ unsafeGet
 )
 =
 =
-ObjectValue
-(
-*
 src
-)
 )
 {
 return
@@ -26202,7 +26198,6 @@ popFront
 {
 AssertNotOnGrayList
 (
-&
 e
 .
 front
@@ -26214,10 +26209,6 @@ value
 )
 .
 unbarrieredGet
-(
-)
-.
-toObject
 (
 )
 )

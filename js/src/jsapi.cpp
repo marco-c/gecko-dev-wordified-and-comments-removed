@@ -3463,17 +3463,6 @@ AssertCellIsNotGray
 target
 )
 ;
-RootedValue
-origv
-(
-cx
-ObjectValue
-(
-*
-origobj
-)
-)
-;
 RootedObject
 newIdentity
 (
@@ -3558,7 +3547,6 @@ origobj
 {
 newIdentity
 =
-&
 p
 -
 >
@@ -3567,10 +3555,6 @@ value
 )
 .
 get
-(
-)
-.
-toObject
 (
 )
 ;
@@ -3740,7 +3724,7 @@ putWrapper
 (
 cx
 newIdentity
-origv
+origobj
 )
 )
 {

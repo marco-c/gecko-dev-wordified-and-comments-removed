@@ -4604,7 +4604,6 @@ JSObject
 *
 wrapped
 =
-&
 p
 -
 >
@@ -4613,10 +4612,6 @@ value
 )
 .
 get
-(
-)
-.
-toObject
 (
 )
 ;
