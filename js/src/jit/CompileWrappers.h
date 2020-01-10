@@ -69,11 +69,6 @@ geckoProfiler
 )
 ;
 bool
-jitSupportsFloatingPoint
-(
-)
-;
-bool
 hadOutOfMemory
 (
 )

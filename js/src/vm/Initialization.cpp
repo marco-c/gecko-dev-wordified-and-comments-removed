@@ -769,7 +769,7 @@ js
 jit
 :
 :
-InitializeIon
+InitializeJit
 (
 )
 )
