@@ -73697,6 +73697,11 @@ if
 self
 .
 virtual
+and
+not
+self
+.
+override
 :
                 
 decorators
