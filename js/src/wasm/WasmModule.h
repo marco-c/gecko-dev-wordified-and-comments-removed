@@ -319,10 +319,6 @@ JSContext
 cx
 HandleWasmInstanceObject
 instance
-const
-JSFunctionVector
-&
-funcImports
 HandleWasmMemoryObject
 memory
 const

@@ -2732,10 +2732,6 @@ JSContext
 cx
 HandleWasmInstanceObject
 instanceObj
-const
-JSFunctionVector
-&
-funcImports
 HandleWasmMemoryObject
 memoryObj
 const
@@ -7078,9 +7074,6 @@ initSegments
 (
 cx
 instance
-imports
-.
-funcs
 memory
 imports
 .
