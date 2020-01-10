@@ -239,7 +239,6 @@ url
 gBrowser
 .
 selectedBrowser
-false
 )
 ;
 let
