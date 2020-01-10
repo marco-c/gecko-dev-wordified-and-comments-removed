@@ -284,12 +284,16 @@ ObjectStoreCursorResponse
 ]
 ;
 ObjectStoreKeyCursorResponse
+[
+]
 ;
 IndexCursorResponse
 [
 ]
 ;
 IndexKeyCursorResponse
+[
+]
 ;
 }
 ;
