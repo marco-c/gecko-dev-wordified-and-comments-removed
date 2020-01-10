@@ -3821,6 +3821,12 @@ CLASS_CLOSE
 cl
 =
 =
+CLASS_CLOSE_LIKE_CHARACTER
+|
+|
+cl
+=
+=
 CLASS_NUMERIC
 )
 )
@@ -4326,6 +4332,12 @@ cl
 =
 =
 CLASS_CLOSE
+|
+|
+cl
+=
+=
+CLASS_CLOSE_LIKE_CHARACTER
 |
 |
 cl
