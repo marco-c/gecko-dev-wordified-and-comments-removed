@@ -102,15 +102,6 @@ include
 "
 mozilla
 /
-StaticPrefs_accessibility
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SystemGroup
 .
 h

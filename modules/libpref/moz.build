@@ -194,13 +194,6 @@ h
 '
 init
 /
-StaticPrefList_accessibility
-.
-h
-'
-'
-init
-/
 StaticPrefListAll
 .
 h
@@ -231,11 +224,6 @@ h
 '
 '
 StaticPrefs
-.
-h
-'
-'
-StaticPrefs_accessibility
 .
 h
 '

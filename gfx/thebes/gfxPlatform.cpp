@@ -193,15 +193,6 @@ include
 "
 mozilla
 /
-StaticPrefs_accessibility
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h

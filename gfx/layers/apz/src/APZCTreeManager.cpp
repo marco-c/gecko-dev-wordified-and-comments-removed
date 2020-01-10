@@ -304,15 +304,6 @@ include
 "
 mozilla
 /
-StaticPrefs_accessibility
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TouchEvents
 .
 h
