@@ -94,9 +94,6 @@ aGlobal
 PlacesEventCallback
 &
 aCallback
-ErrorResult
-&
-rv
 )
 {
 nsCOMPtr

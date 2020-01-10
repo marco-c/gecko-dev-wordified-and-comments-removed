@@ -102,11 +102,6 @@ URLs
 *
 /
 [
-Constructor
-(
-WebExtensionInit
-options
-)
 ChromeOnly
 Exposed
 =
@@ -115,6 +110,15 @@ Window
 interface
 WebExtensionPolicy
 {
+[
+Throws
+]
+constructor
+(
+WebExtensionInit
+options
+)
+;
 /
 *
 *

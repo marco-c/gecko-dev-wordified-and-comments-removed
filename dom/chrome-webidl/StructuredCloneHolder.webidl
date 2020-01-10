@@ -128,6 +128,10 @@ Exposed
 Window
 Worker
 )
+]
+interface
+StructuredCloneHolder
+{
 /
 *
 *
@@ -176,7 +180,10 @@ value
 .
 *
 /
-Constructor
+[
+Throws
+]
+constructor
 (
 any
 data
@@ -187,10 +194,7 @@ global
 =
 null
 )
-]
-interface
-StructuredCloneHolder
-{
+;
 /
 *
 *

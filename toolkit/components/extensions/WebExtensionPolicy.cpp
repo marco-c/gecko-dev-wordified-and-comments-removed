@@ -3316,9 +3316,6 @@ dom
 MozDocumentCallback
 &
 aCallbacks
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

@@ -102,7 +102,6 @@ n
 ;
 [
 ChromeOnly
-Constructor
 Exposed
 =
 (
@@ -113,6 +112,13 @@ Worker
 interface
 DebuggerNotificationObserver
 {
+[
+Throws
+]
+constructor
+(
+)
+;
 /
 /
 Throws

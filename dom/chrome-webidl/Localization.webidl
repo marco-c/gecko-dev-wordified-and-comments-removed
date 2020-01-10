@@ -428,6 +428,12 @@ messages
 *
 *
 /
+[
+ChromeOnly
+]
+interface
+Localization
+{
 /
 *
 *
@@ -480,8 +486,9 @@ instances
 *
 /
 [
-ChromeOnly
-Constructor
+Throws
+]
+constructor
 (
 optional
 sequence
@@ -493,10 +500,7 @@ optional
 GenerateMessages
 aGenerateMessages
 )
-]
-interface
-Localization
-{
+;
 /
 *
 *

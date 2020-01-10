@@ -117,11 +117,6 @@ loadInfo
 ;
 [
 ChromeOnly
-Constructor
-(
-MozDocumentCallback
-callbacks
-)
 Exposed
 =
 Window
@@ -129,6 +124,12 @@ Window
 interface
 MozDocumentObserver
 {
+constructor
+(
+MozDocumentCallback
+callbacks
+)
+;
 [
 Throws
 ]

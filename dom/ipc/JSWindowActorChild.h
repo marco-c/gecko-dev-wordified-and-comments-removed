@@ -163,9 +163,6 @@ Constructor
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr
