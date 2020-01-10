@@ -199,11 +199,6 @@ FxAccountsKeys
 jsm
 '
 '
-FxAccountsOAuthGrantClient
-.
-jsm
-'
-'
 FxAccountsPairing
 .
 jsm
