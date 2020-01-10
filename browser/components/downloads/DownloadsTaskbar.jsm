@@ -468,7 +468,7 @@ getInterface
 (
 Ci
 .
-nsIAppWindow
+nsIXULWindow
 )
 .
 docShell

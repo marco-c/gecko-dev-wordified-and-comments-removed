@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsIAppWindow
+nsIXULWindow
 .
 h
 "
@@ -3146,7 +3146,7 @@ false
 }
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
 window
 (

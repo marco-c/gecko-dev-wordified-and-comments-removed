@@ -105,7 +105,7 @@ h
 #
 include
 "
-nsIAppWindow
+nsIXULWindow
 .
 h
 "
@@ -1900,7 +1900,7 @@ hasHiddenWindow
 {
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
 hw
 ;

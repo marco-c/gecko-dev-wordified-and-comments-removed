@@ -20357,7 +20357,7 @@ attr
 ;
 }
 let
-appWin
+xulWin
 =
 aWindow
 .
@@ -20376,7 +20376,7 @@ getInterface
 (
 Ci
 .
-nsIAppWindow
+nsIXULWindow
 )
 ;
 let
@@ -20389,11 +20389,11 @@ aAttribute
 width
 "
 ?
-appWin
+xulWin
 .
 outerToInnerWidthDifferenceInCSSPixels
 :
-appWin
+xulWin
 .
 outerToInnerHeightDifferenceInCSSPixels
 ;

@@ -3727,7 +3727,7 @@ this
 ;
 }
 get
-appWindow
+xulWindow
 (
 )
 {
@@ -3771,7 +3771,7 @@ background
 return
 this
 .
-appWindow
+xulWindow
 ;
 }
 }

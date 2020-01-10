@@ -662,7 +662,7 @@ windows
 is
 handled
 by
-AppWindow
+nsXULWindow
 .
 "
 )

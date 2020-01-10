@@ -61,7 +61,7 @@ class
 nsIWidget
 ;
 class
-nsIAppWindow
+nsIXULWindow
 ;
 namespace
 mozilla
@@ -98,9 +98,9 @@ nsIWidgetListener
 public
 :
 virtual
-nsIAppWindow
+nsIXULWindow
 *
-GetAppWindow
+GetXULWindow
 (
 )
 ;

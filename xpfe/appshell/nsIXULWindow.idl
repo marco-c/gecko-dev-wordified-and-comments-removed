@@ -101,7 +101,7 @@ idl
 *
 *
 The
-nsIAppWindow
+nsIXULWindow
 *
 *
 When
@@ -198,7 +198,7 @@ e28d
 )
 ]
 interface
-nsIAppWindow
+nsIXULWindow
 :
 nsISupports
 {
@@ -393,7 +393,7 @@ void
 addChildWindow
 (
 in
-nsIAppWindow
+nsIXULWindow
 aChild
 )
 ;
@@ -472,7 +472,7 @@ void
 removeChildWindow
 (
 in
-nsIAppWindow
+nsIXULWindow
 aChild
 )
 ;
@@ -611,7 +611,7 @@ void
 center
 (
 in
-nsIAppWindow
+nsIXULWindow
 aRelative
 in
 boolean
@@ -872,7 +872,7 @@ minted
 window
 *
 /
-nsIAppWindow
+nsIXULWindow
 createNewWindow
 (
 in

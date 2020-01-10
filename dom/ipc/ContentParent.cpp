@@ -1556,7 +1556,7 @@ h
 #
 include
 "
-nsIAppWindow
+nsIXULWindow
 .
 h
 "

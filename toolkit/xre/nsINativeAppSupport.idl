@@ -413,6 +413,9 @@ flushed
 .
 *
 /
+interface
+nsIXULWindow
+;
 [
 scriptable
 uuid
