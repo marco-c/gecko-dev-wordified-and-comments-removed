@@ -6606,9 +6606,6 @@ destroy
 :
 null
 ;
-const
-markupDestroyer
-=
 this
 .
 _destroyMarkup
@@ -6766,7 +6763,6 @@ promise
 all
 (
 [
-markupDestroyer
 sidebarDestroyer
 ruleViewSideBarDestroyer
 ]
