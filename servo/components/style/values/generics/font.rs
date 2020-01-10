@@ -954,7 +954,13 @@ XXLarge
 [
 css
 (
-skip
+keyword
+=
+"
+xxx
+-
+large
+"
 )
 ]
 XXXLarge
