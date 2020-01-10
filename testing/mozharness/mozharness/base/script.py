@@ -166,6 +166,7 @@ DEBUG
 INFO
 ERROR
 FATAL
+WARNING
 class
 ContentLengthMismatch
 (
@@ -5675,7 +5676,7 @@ e
                      
 level
 =
-error_level
+WARNING
 exit_code
 =
 exit_code
