@@ -567,6 +567,11 @@ innermostEmitterScope_
 ;
 }
 bool
+hasCallSiteObj
+=
+false
+;
+bool
 hasSingletons
 =
 false
