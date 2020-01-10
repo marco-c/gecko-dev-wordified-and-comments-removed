@@ -678,6 +678,17 @@ target_task_set
 '
 )
     
+if
+full
+:
+        
+generate
+(
+'
+full_task_graph
+'
+)
+    
 generate
 (
 '
