@@ -227,3 +227,17 @@ FINAL_LIBRARY
 '
 xul
 '
+CONFIGURE_SUBST_FILES
++
+=
+[
+'
+neqo
+/
+extra
+-
+bindgen
+-
+flags
+'
+]
