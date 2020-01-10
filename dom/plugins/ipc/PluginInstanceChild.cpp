@@ -270,10 +270,6 @@ mozilla
 :
 widget
 ;
-using
-namespace
-std
-;
 #
 ifdef
 MOZ_WIDGET_GTK

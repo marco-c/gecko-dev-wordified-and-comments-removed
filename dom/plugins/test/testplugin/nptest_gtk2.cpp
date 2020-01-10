@@ -85,10 +85,6 @@ IntentionalCrash
 .
 h
 "
-using
-namespace
-std
-;
 struct
 _PlatformData
 {
@@ -3133,6 +3129,9 @@ pluginDoInternalConsistencyCheck
 InstanceData
 *
 instanceData
+std
+:
+:
 string
 &
 error
