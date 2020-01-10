@@ -1585,7 +1585,7 @@ Decl
 &
 hasCustomAttribute
 <
-moz_must_return_from_caller
+moz_must_return_from_caller_if_this_is_arg
 >
 (
 Decl

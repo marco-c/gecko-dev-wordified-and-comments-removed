@@ -38309,7 +38309,7 @@ global
                 
 promiseRv
 .
-ThrowWithCustomCleanup
+Throw
 (
 NS_ERROR_UNEXPECTED
 )

@@ -1337,7 +1337,7 @@ moz_required_base_method
 )
 #
 define
-MOZ_MUST_RETURN_FROM_CALLER
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 \
 __attribute__
 (
@@ -1345,7 +1345,7 @@ __attribute__
 annotate
 (
 "
-moz_must_return_from_caller
+moz_must_return_from_caller_if_this_is_arg
 "
 )
 )
@@ -1548,7 +1548,7 @@ define
 MOZ_REQUIRED_BASE_METHOD
 #
 define
-MOZ_MUST_RETURN_FROM_CALLER
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 #
 define
 MOZ_MAY_CALL_AFTER_MUST_RETURN

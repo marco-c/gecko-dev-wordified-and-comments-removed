@@ -1738,7 +1738,7 @@ IsJSContextException
 {
 mErrorResult
 .
-ThrowWithCustomCleanup
+Throw
 (
 NS_ERROR_UNEXPECTED
 )

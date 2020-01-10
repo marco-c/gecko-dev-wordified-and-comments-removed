@@ -582,7 +582,7 @@ OOMReporter
 )
 ;
 void
-MOZ_MUST_RETURN_FROM_CALLER
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 Throw
 (
 nsresult
@@ -607,19 +607,6 @@ success
 )
 ;
 AssignErrorCode
-(
-rv
-)
-;
-}
-void
-ThrowWithCustomCleanup
-(
-nsresult
-rv
-)
-{
-Throw
 (
 rv
 )
@@ -1043,7 +1030,7 @@ NS_ERROR_INTERNAL_ERRORRESULT_EXCEPTION_ON_JSCONTEXT
 ;
 }
 void
-MOZ_MUST_RETURN_FROM_CALLER
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowUncatchableException
 (
 )
