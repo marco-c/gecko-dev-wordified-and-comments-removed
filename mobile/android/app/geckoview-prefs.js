@@ -162,7 +162,7 @@ push
 .
 enabled
 "
-false
+true
 )
 ;
 pref
