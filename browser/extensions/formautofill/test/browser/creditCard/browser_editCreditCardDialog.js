@@ -55,9 +55,7 @@ await
 testDialog
 (
 EDIT_CREDIT_CARD_DIALOG_URL
-(
 win
-)
 =
 >
 {
@@ -95,9 +93,7 @@ await
 testDialog
 (
 EDIT_CREDIT_CARD_DIALOG_URL
-(
 win
-)
 =
 >
 {
@@ -131,9 +127,7 @@ await
 testDialog
 (
 EDIT_CREDIT_CARD_DIALOG_URL
-(
 win
-)
 =
 >
 {
@@ -539,9 +533,7 @@ await
 testDialog
 (
 EDIT_CREDIT_CARD_DIALOG_URL
-(
 win
-)
 =
 >
 {
@@ -957,9 +949,7 @@ await
 testDialog
 (
 EDIT_CREDIT_CARD_DIALOG_URL
-(
 win
-)
 =
 >
 {
@@ -1404,9 +1394,7 @@ await
 testDialog
 (
 EDIT_CREDIT_CARD_DIALOG_URL
-(
 win
-)
 =
 >
 {
@@ -1696,9 +1684,7 @@ await
 testDialog
 (
 EDIT_CREDIT_CARD_DIALOG_URL
-(
 win
-)
 =
 >
 {
@@ -1939,9 +1925,7 @@ await
 testDialog
 (
 EDIT_CREDIT_CARD_DIALOG_URL
-(
 win
-)
 =
 >
 {
@@ -2289,9 +2273,7 @@ await
 testDialog
 (
 EDIT_CREDIT_CARD_DIALOG_URL
-(
 win
-)
 =
 >
 {
@@ -2706,9 +2688,7 @@ await
 testDialog
 (
 EDIT_CREDIT_CARD_DIALOG_URL
-(
 win
-)
 =
 >
 {

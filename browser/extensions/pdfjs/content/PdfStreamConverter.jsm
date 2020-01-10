@@ -710,7 +710,6 @@ data
 ;
 if
 (
-(
 typeof
 total
 !
@@ -724,7 +723,6 @@ number
 total
 <
 0
-)
 |
 |
 (
@@ -1607,7 +1605,6 @@ extHelperAppSvc
 .
 doContent
 (
-(
 data
 .
 isAttachment
@@ -1625,7 +1622,6 @@ application
 /
 pdf
 "
-)
 aRequest
 loadContext
 false
@@ -1862,14 +1858,12 @@ true
 )
 ;
 return
-(
 !
 !
 prefBrowser
 &
 &
 prefGfx
-)
 ;
 }
 supportsDocumentColors
@@ -2480,7 +2474,6 @@ findPrevious
 ;
 if
 (
-(
 typeof
 result
 !
@@ -2499,7 +2492,6 @@ result
 result
 >
 3
-)
 |
 |
 (
@@ -2734,7 +2726,6 @@ key
 ;
 prefName
 =
-(
 PREF_PREFIX
 +
 "
@@ -2742,7 +2733,6 @@ PREF_PREFIX
 "
 +
 key
-)
 ;
 switch
 (
@@ -2948,7 +2938,6 @@ key
 ;
 prefName
 =
-(
 PREF_PREFIX
 +
 "
@@ -2956,7 +2945,6 @@ PREF_PREFIX
 "
 +
 key
-)
 ;
 switch
 (
@@ -4152,9 +4140,7 @@ addEventListener
 "
 unload
 "
-(
 evt
-)
 =
 >
 {

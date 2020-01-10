@@ -2382,6 +2382,7 @@ exists
 ok
 (
 !
+(
 await
 profileStorage
 .
@@ -2390,6 +2391,7 @@ addresses
 get
 (
 guid_u1
+)
 )
 "
 old

@@ -84,6 +84,7 @@ waitForCondition
 >
 {
 return
+(
 PopupNotifications
 .
 getNotification
@@ -102,6 +103,7 @@ state
 "
 open
 "
+)
 ;
 }
 "
@@ -146,6 +148,7 @@ waitForCondition
 >
 {
 return
+(
 !
 PopupNotifications
 .
@@ -165,6 +168,7 @@ state
 "
 closed
 "
+)
 ;
 }
 "
@@ -306,17 +310,15 @@ fxmonitor
 .
 warnedHosts
 "
-"
+'
 [
-\
 "
 example
 .
 com
-\
 "
 ]
-"
+'
 ]
 ]
 }

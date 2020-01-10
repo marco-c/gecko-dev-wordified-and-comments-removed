@@ -967,12 +967,14 @@ input
 if
 (
 !
+(
 await
 this
 .
 prepareFillingProfile
 (
 profile
+)
 )
 )
 {
@@ -2318,6 +2320,7 @@ isValidSection
 )
 {
 return
+(
 this
 .
 fieldDetails
@@ -2328,6 +2331,7 @@ length
 FormAutofillUtils
 .
 AUTOFILL_FIELDS_THRESHOLD
+)
 ;
 }
 isEnabled
@@ -2449,11 +2453,9 @@ length
 ;
 }
 return
-(
 length
 +
 hasName
-)
 >
 =
 FormAutofillUtils
@@ -2593,7 +2595,6 @@ if
 streetAddressDetail
 &
 &
-(
 ChromeUtils
 .
 getClassName
@@ -2612,7 +2613,6 @@ get
 "
 HTMLInputElement
 "
-)
 )
 {
 profile
@@ -3525,6 +3525,7 @@ break
 }
 }
 return
+(
 hasCCNumber
 &
 &
@@ -3541,6 +3542,7 @@ hasExpiryDate
 |
 |
 hasCCName
+)
 )
 ;
 }
@@ -3560,6 +3562,7 @@ record
 )
 {
 return
+(
 record
 [
 "
@@ -3582,6 +3585,7 @@ cc
 number
 "
 ]
+)
 )
 ;
 }
@@ -3931,9 +3935,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

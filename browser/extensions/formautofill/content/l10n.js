@@ -29,9 +29,7 @@ const
 CONTENT_WIN
 =
 typeof
-(
 window
-)
 !
 =
 "

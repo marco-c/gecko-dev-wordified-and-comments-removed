@@ -10,9 +10,7 @@ HeuristicsRegExp
 RULES
 :
 {
-"
 email
-"
 :
 new
 RegExp
@@ -74,9 +72,7 @@ mail
 iu
 "
 )
-"
 tel
-"
 :
 new
 RegExp
@@ -150,9 +146,7 @@ telemovel
 iu
 "
 )
-"
 organization
-"
 :
 new
 RegExp
@@ -842,9 +836,7 @@ b
 iu
 "
 )
-"
 country
-"
 :
 new
 RegExp
@@ -879,9 +871,7 @@ pais
 iu
 "
 )
-"
 name
-"
 :
 new
 RegExp

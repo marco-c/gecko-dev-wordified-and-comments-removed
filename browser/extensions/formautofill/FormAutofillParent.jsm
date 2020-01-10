@@ -896,6 +896,7 @@ savedFieldNames
 ;
 return
 (
+(
 Services
 .
 prefs
@@ -925,6 +926,7 @@ savedFieldNames
 size
 >
 0
+)
 ;
 }
 _updateStatus
@@ -1095,11 +1097,13 @@ SaveCreditCard
 if
 (
 !
+(
 await
 OSKeyStore
 .
 ensureLoggedIn
 (
+)
 )
 )
 {
@@ -1950,6 +1954,7 @@ field
 if
 (
 !
+(
 await
 this
 .
@@ -1966,6 +1971,7 @@ address
 .
 record
 true
+)
 )
 )
 {
@@ -2918,11 +2924,13 @@ return
 if
 (
 !
+(
 await
 OSKeyStore
 .
 ensureLoggedIn
 (
+)
 )
 )
 {
@@ -3030,6 +3038,7 @@ push
 .
 .
 .
+(
 await
 this
 .
@@ -3042,6 +3051,7 @@ mergeToStorage
 creditCard
 .
 record
+)
 )
 )
 ;

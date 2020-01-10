@@ -381,9 +381,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -719,7 +717,6 @@ computedZoomValue
 parseInt
 (
 (
-(
 actualWidth
 /
 initialWidth
@@ -728,7 +725,6 @@ initialWidth
 toFixed
 (
 2
-)
 )
 *
 100

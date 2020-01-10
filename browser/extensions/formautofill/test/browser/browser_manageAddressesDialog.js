@@ -77,9 +77,7 @@ spawn
 (
 browser
 TEST_SELECTORS
-(
 args
-)
 =
 >
 {

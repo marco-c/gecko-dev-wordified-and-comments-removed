@@ -546,6 +546,7 @@ async
 if
 (
 !
+(
 await
 nativeOSKeyStore
 .
@@ -554,6 +555,7 @@ asyncSecretAvailable
 this
 .
 STORE_LABEL
+)
 )
 )
 {
@@ -652,9 +654,7 @@ return
 true
 ;
 }
-(
 err
-)
 =
 >
 {
@@ -714,12 +714,14 @@ false
 if
 (
 !
+(
 await
 this
 .
 ensureLoggedIn
 (
 reauth
+)
 )
 )
 {
@@ -776,11 +778,13 @@ plainText
 if
 (
 !
+(
 await
 this
 .
 ensureLoggedIn
 (
+)
 )
 )
 {

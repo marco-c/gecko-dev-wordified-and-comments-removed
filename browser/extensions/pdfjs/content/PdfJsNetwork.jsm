@@ -170,7 +170,7 @@ charCodeAt
 i
 )
 &
-0xFF
+0xff
 ;
 }
 return
@@ -372,6 +372,7 @@ currXhrId
 var
 pendingRequest
 =
+(
 this
 .
 pendingRequests
@@ -382,6 +383,7 @@ xhrId
 {
 xhr
 }
+)
 ;
 xhr
 .

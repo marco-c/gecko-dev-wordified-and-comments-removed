@@ -172,11 +172,9 @@ labelB
 {
 description
 :
-"
-\
+'
 "
 for
-\
 "
 attribute
 used
@@ -187,7 +185,7 @@ by
 one
 label
 .
-"
+'
 document
 :
 <
@@ -239,11 +237,9 @@ labelC
 {
 description
 :
-"
-\
+'
 "
 for
-\
 "
 attribute
 used
@@ -254,7 +250,7 @@ by
 multiple
 labels
 .
-"
+'
 document
 :
 <
@@ -359,11 +355,9 @@ labelD3
 {
 description
 :
-"
-\
+'
 "
 for
-\
 "
 attribute
 used
@@ -379,7 +373,7 @@ prefix
 /
 postfix
 .
-"
+'
 document
 :
 <
@@ -570,11 +564,9 @@ labelF
 {
 description
 :
-"
-\
+'
 "
 for
-\
 "
 attribute
 used
@@ -588,7 +580,7 @@ of
 the
 form
 .
-"
+'
 document
 :
 <

@@ -212,6 +212,7 @@ isAutofillEnabled
 )
 {
 return
+(
 FormAutofill
 .
 isAutofillAddressesEnabled
@@ -220,6 +221,7 @@ isAutofillAddressesEnabled
 this
 .
 isAutofillCreditCardsEnabled
+)
 ;
 }
 get
@@ -228,6 +230,7 @@ isAutofillCreditCardsEnabled
 )
 {
 return
+(
 FormAutofill
 .
 isAutofillCreditCardsAvailable
@@ -236,6 +239,7 @@ isAutofillCreditCardsAvailable
 FormAutofill
 .
 _isAutofillCreditCardsEnabled
+)
 ;
 }
 defineLazyLogGetter

@@ -97,9 +97,7 @@ onEndpointPrefChange
 "
 register
 :
-(
 fire
-)
 =
 >
 {

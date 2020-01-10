@@ -938,7 +938,6 @@ surnameLength
 let
 multiCharSurnames
 =
-(
 isKorean
 &
 &
@@ -947,7 +946,6 @@ name
 length
 >
 3
-)
 ?
 this
 .

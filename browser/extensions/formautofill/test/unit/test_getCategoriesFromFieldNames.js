@@ -65,9 +65,7 @@ isCreditCardField
 :
 false
 }
-"
 organization
-"
 :
 {
 isAddressField
@@ -91,9 +89,7 @@ isCreditCardField
 :
 false
 }
-"
 tel
-"
 :
 {
 isAddressField
@@ -103,9 +99,7 @@ isCreditCardField
 :
 false
 }
-"
 email
-"
 :
 {
 isAddressField
@@ -129,9 +123,7 @@ isCreditCardField
 :
 true
 }
-"
 UNKNOWN
-"
 :
 {
 isAddressField

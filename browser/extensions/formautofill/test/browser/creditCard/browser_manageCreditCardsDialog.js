@@ -79,9 +79,7 @@ spawn
 (
 browser
 TEST_SELECTORS
-(
 args
-)
 =
 >
 {
@@ -287,9 +285,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -896,9 +892,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

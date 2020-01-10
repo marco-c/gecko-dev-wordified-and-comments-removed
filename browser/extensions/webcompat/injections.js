@@ -1373,6 +1373,7 @@ pdk5fix
 const
 listener
 =
+(
 injection
 .
 pdk5fix
@@ -1403,6 +1404,7 @@ return
 }
 ;
 }
+)
 ;
 browser
 .
@@ -1621,9 +1623,7 @@ onMessage
 .
 addListener
 (
-(
 message
-)
 =
 >
 {
