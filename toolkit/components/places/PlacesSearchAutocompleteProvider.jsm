@@ -807,6 +807,7 @@ slice
 async
 currentEngine
 (
+inPrivateWindow
 )
 {
 await
@@ -817,6 +818,14 @@ ensureInitialized
 )
 ;
 return
+inPrivateWindow
+?
+Services
+.
+search
+.
+defaultPrivateEngine
+:
 Services
 .
 search
