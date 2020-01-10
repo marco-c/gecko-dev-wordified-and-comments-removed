@@ -129,6 +129,19 @@ master
 }
 cd
 ~
+if
+[
+!
+-
+d
+web
+-
+platform
+-
+tests
+]
+;
+then
 mkdir
 web
 -
@@ -191,3 +204,4 @@ checkout
 -
 quiet
 task_head
+fi
