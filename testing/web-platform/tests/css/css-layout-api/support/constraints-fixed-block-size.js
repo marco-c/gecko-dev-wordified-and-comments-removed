@@ -25,13 +25,13 @@ size
 ]
 ;
 }
-*
+async
 intrinsicSizes
 (
 )
 {
 }
-*
+async
 layout
 (
 [
@@ -94,7 +94,7 @@ const
 childFragments
 =
 [
-yield
+await
 child
 .
 layoutNextFragment

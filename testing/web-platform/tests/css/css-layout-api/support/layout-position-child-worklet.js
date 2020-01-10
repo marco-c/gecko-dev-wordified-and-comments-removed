@@ -30,13 +30,13 @@ offset
 ]
 ;
 }
-*
+async
 intrinsicSizes
 (
 )
 {
 }
-*
+async
 layout
 (
 children
@@ -48,7 +48,11 @@ styleMap
 const
 childFragments
 =
-yield
+await
+Promise
+.
+all
+(
 children
 .
 map
@@ -58,8 +62,6 @@ child
 )
 =
 >
-{
-return
 child
 .
 layoutNextFragment
@@ -67,8 +69,7 @@ layoutNextFragment
 {
 }
 )
-;
-}
+)
 )
 ;
 for

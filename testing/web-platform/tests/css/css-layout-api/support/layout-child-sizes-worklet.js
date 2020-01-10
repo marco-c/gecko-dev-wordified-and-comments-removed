@@ -134,13 +134,13 @@ expected
 ]
 ;
 }
-*
+async
 intrinsicSizes
 (
 )
 {
 }
-*
+async
 layout
 (
 children
@@ -152,7 +152,11 @@ styleMap
 const
 childFragments
 =
-yield
+await
+Promise
+.
+all
+(
 children
 .
 map
@@ -323,6 +327,7 @@ percentageBlockSize
 )
 ;
 }
+)
 )
 ;
 const

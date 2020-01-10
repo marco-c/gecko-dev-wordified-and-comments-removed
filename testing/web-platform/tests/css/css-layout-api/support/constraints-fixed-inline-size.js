@@ -5,13 +5,13 @@ test
 '
 class
 {
-*
+async
 intrinsicSizes
 (
 )
 {
 }
-*
+async
 layout
 (
 children
