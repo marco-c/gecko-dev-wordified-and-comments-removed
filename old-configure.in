@@ -5137,10 +5137,6 @@ android
 linuxandroid
 *
 )
-AC_DEFINE
-(
-NO_PW_GECOS
-)
 if
 test
 "

@@ -4631,10 +4631,6 @@ android
 linuxandroid
 *
 )
-AC_DEFINE
-(
-NO_PW_GECOS
-)
 MOZ_GFX_OPTIMIZE_MOBILE
 =
 1
