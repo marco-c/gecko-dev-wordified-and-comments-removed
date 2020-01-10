@@ -549,6 +549,15 @@ nsRect
 aPostFilterClip
 )
 ;
+static
+bool
+CanCreateWebRenderFiltersForFrame
+(
+nsIFrame
+*
+aFrame
+)
+;
 enum
 {
 FLAG_SYNC_DECODE_IMAGES
