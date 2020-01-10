@@ -525,6 +525,8 @@ LifecycleCallbacks
 aCallbacks
 bool
 aDisableInternals
+bool
+aDisableShadow
 )
 ;
 RefPtr
@@ -565,6 +567,11 @@ mCallbacks
 ;
 bool
 mDisableInternals
+=
+false
+;
+bool
+mDisableShadow
 =
 false
 ;
