@@ -3908,6 +3908,16 @@ _virtualenvs
 }
 )
         
+env
+.
+pop
+(
+'
+LC_CTYPE
+'
+None
+)
+        
 if
 python
 is
