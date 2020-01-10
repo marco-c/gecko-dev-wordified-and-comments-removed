@@ -500,6 +500,8 @@ aTargetBC
 nsDocShellLoadState
 *
 aLoadState
+bool
+aSetNavigating
 )
 ;
 mozilla

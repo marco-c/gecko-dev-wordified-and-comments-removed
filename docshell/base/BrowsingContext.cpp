@@ -4105,6 +4105,8 @@ aAccessor
 nsDocShellLoadState
 *
 aLoadState
+bool
+aSetNavigating
 )
 {
 if
@@ -4143,6 +4145,7 @@ mDocShell
 LoadURI
 (
 aLoadState
+aSetNavigating
 )
 ;
 }
@@ -4173,6 +4176,7 @@ GetCurrentWindowGlobal
 SendLoadURIInChild
 (
 aLoadState
+aSetNavigating
 )
 ;
 }
@@ -4243,6 +4247,7 @@ SendLoadURI
 (
 this
 aLoadState
+aSetNavigating
 )
 ;
 }
