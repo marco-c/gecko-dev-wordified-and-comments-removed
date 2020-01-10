@@ -829,6 +829,13 @@ res
 ;
 static
 constexpr
+size_t
+MAX_BYTE_LENGTH
+=
+INT32_MAX
+;
+static
+constexpr
 uint32_t
 SINGLETON_BYTE_LENGTH
 =
