@@ -2667,6 +2667,13 @@ mCompositor
 mCompositor
 -
 >
+DoWidgetCleanup
+(
+)
+;
+mCompositor
+-
+>
 DetachWidget
 (
 )

@@ -307,6 +307,13 @@ aContext
 }
 virtual
 void
+DoCompositorCleanup
+(
+)
+{
+}
+virtual
+void
 DrawWindowUnderlay
 (
 WidgetRenderingContext
