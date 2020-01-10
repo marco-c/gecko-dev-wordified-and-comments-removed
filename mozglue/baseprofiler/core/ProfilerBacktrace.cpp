@@ -86,11 +86,6 @@ aBuffer
 )
 )
 {
-MOZ_COUNT_CTOR
-(
-ProfilerBacktrace
-)
-;
 }
 ProfilerBacktrace
 :
@@ -100,11 +95,6 @@ ProfilerBacktrace
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-ProfilerBacktrace
-)
-;
 }
 void
 ProfilerBacktrace
@@ -142,11 +132,8 @@ get
 (
 )
 aWriter
-NS_LITERAL_CSTRING
-(
 "
 "
-)
 aProcessStartTime
 mozilla
 :
