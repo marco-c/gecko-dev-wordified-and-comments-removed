@@ -535,10 +535,9 @@ webNav
 .
 docShell
 ;
-docShell
-.
-createAboutBlankContentViewer
-(
+let
+system
+=
 Cc
 [
 "
@@ -558,6 +557,13 @@ Ci
 .
 nsIPrincipal
 )
+;
+docShell
+.
+createAboutBlankContentViewer
+(
+system
+system
 )
 ;
 progressListener

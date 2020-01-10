@@ -923,6 +923,7 @@ docShell
 createAboutBlankContentViewer
 (
 principal
+principal
 )
 ;
 let

@@ -5704,6 +5704,7 @@ docShell
 createAboutBlankContentViewer
 (
 system
+system
 )
 ;
 let

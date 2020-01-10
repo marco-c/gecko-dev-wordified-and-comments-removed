@@ -76,6 +76,7 @@ docShell
 createAboutBlankContentViewer
 (
 null
+null
 )
 ;
 let

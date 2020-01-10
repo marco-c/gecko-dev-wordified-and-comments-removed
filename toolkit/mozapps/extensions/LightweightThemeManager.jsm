@@ -127,6 +127,7 @@ docShell
 createAboutBlankContentViewer
 (
 principal
+principal
 )
 ;
 Services
