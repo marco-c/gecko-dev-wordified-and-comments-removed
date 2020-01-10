@@ -1019,11 +1019,6 @@ BrowserWindowTracker
 jsm
 '
 '
-ContentClick
-.
-jsm
-'
-'
 ContentCrashHandlers
 .
 jsm
