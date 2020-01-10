@@ -28,6 +28,7 @@ units
 {
 BlobDirtyRect
 BlobToDeviceTranslation
+DeviceIntRect
 }
 ;
 use
@@ -2100,6 +2101,9 @@ Arc
 <
 BlobImageData
 >
+visible_rect
+:
+DeviceIntRect
 tile_size
 :
 Option
@@ -2125,6 +2129,9 @@ BlobImageData
 dirty_rect
 :
 BlobDirtyRect
+visible_rect
+:
+DeviceIntRect
 tile_size
 :
 Option
@@ -2377,6 +2384,11 @@ descriptor
 commands
 :
 blob
+visible_rect
+:
+command
+.
+visible_rect
 dirty_rect
 :
 params
@@ -2626,6 +2638,10 @@ height
 descriptor
 .
 format
+&
+job
+.
+visible_rect
 job
 .
 tile_size
@@ -2767,6 +2783,10 @@ Arc
 <
 BlobImageData
 >
+visible_rect
+:
+&
+DeviceIntRect
 tile_size
 :
 Option
@@ -2820,6 +2840,10 @@ clone
 &
 data
 )
+visible_rect
+:
+*
+visible_rect
 tile_size
 }
 )
@@ -2840,6 +2864,10 @@ Arc
 <
 BlobImageData
 >
+visible_rect
+:
+&
+DeviceIntRect
 dirty_rect
 :
 &
@@ -2978,6 +3006,13 @@ data
 dirty_rect
 )
 )
+;
+command
+.
+visible_rect
+=
+*
+visible_rect
 ;
 }
 _
