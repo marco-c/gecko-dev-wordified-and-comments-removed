@@ -196,11 +196,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-AutoCompletePopup
-.
-jsm
-'
-'
 FormAutoComplete
 .
 jsm

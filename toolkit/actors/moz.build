@@ -180,6 +180,16 @@ AudioPlaybackParent
 jsm
 '
 '
+AutoCompleteChild
+.
+jsm
+'
+'
+AutoCompleteParent
+.
+jsm
+'
+'
 AutoplayChild
 .
 jsm
