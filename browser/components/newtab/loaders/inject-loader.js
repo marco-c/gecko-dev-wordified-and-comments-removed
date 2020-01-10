@@ -310,12 +310,14 @@ createRequireStringRegex
 (
 loaderUtils
 .
-parseQuery
+getOptions
 (
 this
-.
-query
 )
+|
+|
+{
+}
 )
 ;
 return

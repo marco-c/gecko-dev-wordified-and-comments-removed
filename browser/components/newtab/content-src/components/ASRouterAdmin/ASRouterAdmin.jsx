@@ -4385,6 +4385,11 @@ return
 (
 <
 ModalOverlay
+innerStyle
+=
+"
+pasteModal
+"
 title
 =
 "
@@ -4405,7 +4410,7 @@ Cancel
 Done
 "
 }
-onDoneButton
+onDismissBundle
 =
 {
 this

@@ -1545,17 +1545,6 @@ bool
 required
 (
 )
-is_prerendered
-:
-Joi
-.
-bool
-(
-)
-.
-required
-(
-)
 }
 )
 .

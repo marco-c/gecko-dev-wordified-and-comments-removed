@@ -61,8 +61,6 @@ activity
 -
 stream
 -
-prerendered
--
 noscripts
 .
 html
@@ -86,8 +84,6 @@ US
 activity
 -
 stream
--
-prerendered
 .
 html
 "

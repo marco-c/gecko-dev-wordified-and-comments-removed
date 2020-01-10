@@ -463,17 +463,6 @@ components
 /
 newtab
 /
-bin
-/
-prerender
-.
-js
-browser
-/
-components
-/
-newtab
-/
 data
 /
 browser

@@ -46,7 +46,7 @@ store
 ;
 import
 {
-generateMessages
+generateBundles
 }
 from
 "
@@ -1973,10 +1973,10 @@ document
 >
 <
 LocalizationProvider
-messages
+bundles
 =
 {
-generateMessages
+generateBundles
 (
 content
 )
@@ -2283,7 +2283,7 @@ LocalizationProvider
 messages
 =
 {
-generateMessages
+generateBundles
 (
 {
 "

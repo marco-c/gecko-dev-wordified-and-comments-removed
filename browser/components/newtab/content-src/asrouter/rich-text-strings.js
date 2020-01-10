@@ -1,6 +1,6 @@
 import
 {
-MessageContext
+FluentBundle
 }
 from
 "
@@ -80,16 +80,16 @@ RICH_TEXT_CONFIG
 ;
 export
 function
-generateMessages
+generateBundles
 (
 content
 )
 {
 const
-cx
+bundle
 =
 new
-MessageContext
+FluentBundle
 (
 "
 en
@@ -169,7 +169,7 @@ attr
 ]
 ;
 }
-cx
+bundle
 .
 addMessages
 (
@@ -187,7 +187,7 @@ string
 ;
 return
 [
-cx
+bundle
 ]
 ;
 }

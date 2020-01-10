@@ -328,6 +328,13 @@ fetch
 server
 }
 /
+{
+credentials
+:
+"
+omit
+"
+}
 )
 )
 .

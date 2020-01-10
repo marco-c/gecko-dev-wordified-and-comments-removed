@@ -168,9 +168,6 @@ build
 /
 mach
 lint
--
-l
-codespell
 browser
 /
 components
