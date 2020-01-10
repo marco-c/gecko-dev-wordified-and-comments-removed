@@ -2560,6 +2560,12 @@ NonZero
 case
 Zero
 :
+case
+Signed
+:
+case
+NotSigned
+:
 ma_subu
 (
 dest
