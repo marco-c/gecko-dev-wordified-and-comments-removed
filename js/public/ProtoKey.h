@@ -736,8 +736,12 @@ GeneratorFunction
 REAL
 (
 AsyncGeneratorFunction
-InitAsyncGeneratorFunction
-nullptr
+InitViaClassSpec
+\
+CLASP
+(
+AsyncGeneratorFunction
+)
 )
 \
 REAL
