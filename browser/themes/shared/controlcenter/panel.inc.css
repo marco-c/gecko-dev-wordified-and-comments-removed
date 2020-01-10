@@ -7437,6 +7437,12 @@ opacity
 200ms
 linear
 ;
+justify
+-
+self
+:
+end
+;
 }
 #
 protections
