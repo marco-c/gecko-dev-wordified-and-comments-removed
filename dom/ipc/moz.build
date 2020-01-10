@@ -287,6 +287,11 @@ DocShellMessageUtils
 h
 '
 '
+EffectsInfo
+.
+h
+'
+'
 FilePickerParent
 .
 h
