@@ -137,7 +137,7 @@ class
 MediaHardwareKeysEventListenerTest
 :
 public
-MediaHardwareKeysEventListener
+MediaControlKeysEventListener
 {
 public
 :

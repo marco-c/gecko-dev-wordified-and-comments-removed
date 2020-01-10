@@ -47,7 +47,7 @@ MediaHardwareKeysEventSourceMac
 final
 :
 public
-MediaHardwareKeysEventSource
+MediaControlKeysEventSource
 {
 public
 :

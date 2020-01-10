@@ -51,7 +51,7 @@ Debug
 \
 (
 "
-MediaHardwareKeysEventListener
+MediaControlKeysEventListener
 =
 %
 p
@@ -175,7 +175,7 @@ Debug
 \
 (
 "
-MediaHardwareKeysEventListener
+MediaControlKeysEventListener
 =
 %
 p
@@ -196,7 +196,7 @@ __VA_ARGS__
 \
 }
 void
-MediaHardwareKeysEventListener
+MediaControlKeysEventListener
 :
 :
 OnKeyPressed
@@ -332,12 +332,12 @@ return
 }
 }
 void
-MediaHardwareKeysEventSource
+MediaControlKeysEventSource
 :
 :
 AddListener
 (
-MediaHardwareKeysEventListener
+MediaControlKeysEventListener
 *
 aListener
 )
@@ -367,12 +367,12 @@ aListener
 ;
 }
 void
-MediaHardwareKeysEventSource
+MediaControlKeysEventSource
 :
 :
 RemoveListener
 (
-MediaHardwareKeysEventListener
+MediaControlKeysEventListener
 *
 aListener
 )
@@ -402,7 +402,7 @@ aListener
 ;
 }
 size_t
-MediaHardwareKeysEventSource
+MediaControlKeysEventSource
 :
 :
 GetListenersNum
@@ -419,7 +419,7 @@ Length
 ;
 }
 void
-MediaHardwareKeysEventSource
+MediaControlKeysEventSource
 :
 :
 Close
