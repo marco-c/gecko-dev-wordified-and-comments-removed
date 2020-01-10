@@ -1013,6 +1013,10 @@ null
 ;
 if
 (
+frame
+&
+&
+(
 type
 =
 =
@@ -1029,6 +1033,7 @@ type
 "
 logPoint
 "
+)
 )
 {
 frame
