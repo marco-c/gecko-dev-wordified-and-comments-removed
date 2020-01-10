@@ -439,7 +439,7 @@ StopProfiler
 )
 ;
 return
-getAllPayloadsOfType
+getPayloadsOfTypeFromAllThreads
 (
 profile
 "
