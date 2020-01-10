@@ -4079,13 +4079,13 @@ DocumentIsEmpty
 const
 {
 return
-!
-!
 HTMLEditorRef
 (
 )
 .
-mPaddingBRElementForEmptyEditor
+HasPaddingBRElementForEmptyEditor
+(
+)
 ;
 }
 nsresult
@@ -11335,7 +11335,9 @@ HTMLEditorRef
 (
 )
 .
-mPaddingBRElementForEmptyEditor
+HasPaddingBRElementForEmptyEditor
+(
+)
 )
 {
 *

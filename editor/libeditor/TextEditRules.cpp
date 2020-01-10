@@ -4686,7 +4686,9 @@ TextEditorRef
 (
 )
 .
-mPaddingBRElementForEmptyEditor
+HasPaddingBRElementForEmptyEditor
+(
+)
 )
 {
 *
@@ -5261,7 +5263,9 @@ TextEditorRef
 (
 )
 .
-mPaddingBRElementForEmptyEditor
+HasPaddingBRElementForEmptyEditor
+(
+)
 )
 {
 aOutString
