@@ -2479,7 +2479,7 @@ mozilla
 recordreplay
 :
 :
-IsReplaying
+IsRecordingOrReplaying
 (
 )
 )

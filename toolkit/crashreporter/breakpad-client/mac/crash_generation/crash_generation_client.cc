@@ -141,7 +141,7 @@ mozilla
 recordreplay
 :
 :
-IsRecordingOrReplaying
+IsRecording
 (
 )
 )
