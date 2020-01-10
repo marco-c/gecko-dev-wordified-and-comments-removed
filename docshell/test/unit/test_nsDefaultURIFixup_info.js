@@ -181,6 +181,17 @@ Services
 uriFixup
 .
 FIXUP_FLAG_FIX_SCHEME_TYPOS
+Services
+.
+uriFixup
+.
+FIXUP_FLAG_FIX_SCHEME_TYPOS
+|
+Services
+.
+uriFixup
+.
+FIXUP_FLAG_PRIVATE_CONTEXT
 ]
 ;
 var

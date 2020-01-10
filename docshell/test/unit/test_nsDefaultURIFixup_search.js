@@ -1296,12 +1296,6 @@ Services
 uriFixup
 .
 FIXUP_FLAG_FIX_SCHEME_TYPOS
-|
-Services
-.
-uriFixup
-.
-FIXUP_FLAG_ALLOW_KEYWORD_LOOKUP
 ;
 if
 (
