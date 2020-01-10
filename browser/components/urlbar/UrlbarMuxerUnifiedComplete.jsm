@@ -393,11 +393,6 @@ heuristic
 let
 buckets
 =
-context
-.
-preselected
-&
-&
 heuristicResult
 &
 &
@@ -553,11 +548,6 @@ result
 =
 =
 heuristicResult
-&
-&
-context
-.
-preselected
 )
 {
 sortedResults
