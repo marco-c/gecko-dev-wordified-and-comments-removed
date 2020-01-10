@@ -1499,7 +1499,7 @@ aFixedLayerMargins
 LayerPoint
 translation
 ;
-int32_t
+SideBits
 sides
 =
 aLayer
