@@ -8289,7 +8289,10 @@ _breakOnMutation
 :
 function
 (
-bpType
+mutationType
+targetNode
+ancestorNode
+action
 )
 {
 this
@@ -8300,7 +8303,10 @@ threadActor
 .
 pauseForMutationBreakpoint
 (
-bpType
+mutationType
+targetNode
+ancestorNode
+action
 )
 ;
 }
@@ -8427,6 +8433,9 @@ this
 onSubtreeModified
 (
 evt
+"
+add
+"
 )
 ;
 }
@@ -8480,6 +8489,9 @@ _breakOnMutation
 "
 nodeRemoved
 "
+evt
+.
+target
 )
 ;
 }
@@ -8490,6 +8502,9 @@ this
 onSubtreeModified
 (
 evt
+"
+remove
+"
 )
 ;
 }
@@ -8530,6 +8545,9 @@ _breakOnMutation
 "
 attributeModified
 "
+evt
+.
+target
 )
 ;
 }
@@ -8539,6 +8557,7 @@ onSubtreeModified
 function
 (
 evt
+action
 )
 {
 let
@@ -8590,6 +8609,11 @@ _breakOnMutation
 "
 subtreeModified
 "
+evt
+.
+target
+node
+action
 )
 ;
 break
