@@ -6995,9 +6995,17 @@ edge
 policy
 )
 )
+{
+traversal
+.
+doNotMarkReferentAsVisited
+(
+)
+;
 return
 true
 ;
+}
 nodeCount
 +
 +
