@@ -5792,15 +5792,8 @@ done
 )
 {
 return
-reader_
-.
-raiseError
+Ok
 (
-"
-Not
-Yet
-Implemented
-"
 )
 ;
 }
