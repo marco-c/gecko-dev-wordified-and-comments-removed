@@ -121,10 +121,8 @@ linkstyle
 interface
 *
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 LinkStyle
 {
 readonly

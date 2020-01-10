@@ -432,10 +432,10 @@ elementId
 }
 ;
 SVGSVGElement
-implements
+includes
 SVGFitToViewBox
 ;
 SVGSVGElement
-implements
+includes
 SVGZoomAndPanValues
 ;

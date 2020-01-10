@@ -244,7 +244,7 @@ options
 }
 ;
 ServiceWorker
-implements
+includes
 AbstractWorker
 ;
 enum

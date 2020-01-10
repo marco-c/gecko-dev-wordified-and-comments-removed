@@ -184,6 +184,6 @@ options
 Mozilla
 extensions
 MediaStreamTrackAudioSourceNode
-implements
+includes
 AudioNodePassThrough
 ;

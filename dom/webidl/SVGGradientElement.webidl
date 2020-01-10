@@ -202,6 +202,6 @@ spreadMethod
 }
 ;
 SVGGradientElement
-implements
+includes
 SVGURIReference
 ;

@@ -419,6 +419,6 @@ coneOuterGain
 Mozilla
 extension
 PannerNode
-implements
+includes
 AudioNodePassThrough
 ;

@@ -284,6 +284,6 @@ marginWidth
 }
 ;
 HTMLFrameElement
-implements
+includes
 MozFrameLoaderOwner
 ;

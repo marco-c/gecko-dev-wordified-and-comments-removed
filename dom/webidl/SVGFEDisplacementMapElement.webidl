@@ -226,6 +226,6 @@ yChannelSelector
 }
 ;
 SVGFEDisplacementMapElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

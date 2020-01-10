@@ -306,7 +306,7 @@ relList
 }
 ;
 HTMLAreaElement
-implements
+includes
 HTMLHyperlinkElementUtils
 ;
 /

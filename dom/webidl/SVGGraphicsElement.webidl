@@ -237,6 +237,6 @@ element
 }
 ;
 SVGGraphicsElement
-implements
+includes
 SVGTests
 ;

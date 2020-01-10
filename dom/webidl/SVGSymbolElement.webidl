@@ -152,10 +152,10 @@ SVGElement
 }
 ;
 SVGSymbolElement
-implements
+includes
 SVGFitToViewBox
 ;
 SVGSymbolElement
-implements
+includes
 SVGTests
 ;

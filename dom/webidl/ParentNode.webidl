@@ -117,10 +117,8 @@ interface
 parentnode
 *
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 ParentNode
 {
 [

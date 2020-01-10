@@ -166,6 +166,6 @@ crossOrigin
 }
 ;
 SVGScriptElement
-implements
+includes
 SVGURIReference
 ;

@@ -189,6 +189,6 @@ mediaElement
 Mozilla
 extensions
 MediaElementAudioSourceNode
-implements
+includes
 AudioNodePassThrough
 ;

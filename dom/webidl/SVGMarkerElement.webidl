@@ -270,6 +270,6 @@ angle
 }
 ;
 SVGMarkerElement
-implements
+includes
 SVGFitToViewBox
 ;

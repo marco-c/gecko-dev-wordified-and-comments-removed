@@ -200,10 +200,8 @@ border
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 GeometryUtils
 {
 [
@@ -327,7 +325,7 @@ options
 /
 /
 PseudoElement
-implements
+includes
 GeometryUtils
 ;
 typedef

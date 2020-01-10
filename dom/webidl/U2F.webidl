@@ -206,10 +206,8 @@ id
 html
 *
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 GlobalU2F
 {
 [

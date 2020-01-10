@@ -3719,10 +3719,8 @@ a
 "
 WebGPU
 "
-[
-NoInterfaceObject
-]
 interface
+mixin
 WebGPUProvider
 {
 [

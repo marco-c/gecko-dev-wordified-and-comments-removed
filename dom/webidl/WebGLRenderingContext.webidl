@@ -806,7 +806,7 @@ Int32List
 /
 /
 Shared
-interface
+mixin
 for
 the
 things
@@ -858,7 +858,7 @@ them
 in
 with
 "
-implements
+includes
 "
 .
 [
@@ -868,9 +868,9 @@ Exposed
 Window
 Worker
 )
-NoInterfaceObject
 ]
 interface
+mixin
 WebGLRenderingContextBase
 {
 /
@@ -5003,7 +5003,7 @@ data
 }
 ;
 WebGLRenderingContext
-implements
+includes
 WebGLRenderingContextBase
 ;
 /

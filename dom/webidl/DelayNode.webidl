@@ -201,6 +201,6 @@ delayTime
 Mozilla
 extension
 DelayNode
-implements
+includes
 AudioNodePassThrough
 ;

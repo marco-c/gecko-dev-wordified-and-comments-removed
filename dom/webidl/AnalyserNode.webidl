@@ -297,6 +297,6 @@ smoothingTimeConstant
 Mozilla
 extension
 AnalyserNode
-implements
+includes
 AudioNodePassThrough
 ;

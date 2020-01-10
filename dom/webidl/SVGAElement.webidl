@@ -211,6 +211,6 @@ text
 }
 ;
 SVGAElement
-implements
+includes
 SVGURIReference
 ;

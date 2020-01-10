@@ -331,14 +331,14 @@ getSVGDocument
 }
 ;
 HTMLEmbedElement
-implements
+includes
 MozImageLoadingContent
 ;
 HTMLEmbedElement
-implements
+includes
 MozFrameLoaderOwner
 ;
 HTMLEmbedElement
-implements
+includes
 MozObjectLoadingContent
 ;

@@ -147,10 +147,10 @@ SVGElement
 }
 ;
 SVGViewElement
-implements
+includes
 SVGFitToViewBox
 ;
 SVGViewElement
-implements
+includes
 SVGZoomAndPanValues
 ;

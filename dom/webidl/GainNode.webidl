@@ -198,6 +198,6 @@ gain
 Mozilla
 extension
 GainNode
-implements
+includes
 AudioNodePassThrough
 ;

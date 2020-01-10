@@ -160,16 +160,8 @@ stuff
 interface
 StackFrame
 ;
-[
-NoInterfaceObject
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
+mixin
 ExceptionMembers
 {
 /
@@ -464,7 +456,7 @@ stringifier
 }
 ;
 Exception
-implements
+includes
 ExceptionMembers
 ;
 /
@@ -798,6 +790,6 @@ chain
 sane
 .
 DOMException
-implements
+includes
 ExceptionMembers
 ;

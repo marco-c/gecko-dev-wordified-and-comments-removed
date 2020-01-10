@@ -207,6 +207,6 @@ normalize
 Mozilla
 extension
 ConvolverNode
-implements
+includes
 AudioNodePassThrough
 ;

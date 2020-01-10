@@ -258,6 +258,6 @@ grainDuration
 Mozilla
 extensions
 AudioBufferSourceNode
-implements
+includes
 AudioNodePassThrough
 ;

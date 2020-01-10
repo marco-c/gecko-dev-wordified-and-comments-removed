@@ -157,6 +157,6 @@ item
 }
 ;
 TreeContentView
-implements
+includes
 TreeView
 ;

@@ -180,6 +180,6 @@ stdDeviationY
 }
 ;
 SVGFEGaussianBlurElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

@@ -403,10 +403,8 @@ id
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 AudioNodePassThrough
 {
 [

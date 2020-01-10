@@ -92,7 +92,6 @@ MPL
 *
 /
 [
-NoInterfaceObject
 Exposed
 =
 (
@@ -101,6 +100,7 @@ Worker
 )
 ]
 interface
+mixin
 AbstractWorker
 {
 attribute

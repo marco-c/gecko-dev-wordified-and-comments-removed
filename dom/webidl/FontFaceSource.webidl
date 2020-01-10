@@ -150,10 +150,8 @@ apply
 .
 *
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 FontFaceSource
 {
 [

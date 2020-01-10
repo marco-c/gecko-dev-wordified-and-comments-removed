@@ -145,6 +145,6 @@ SVGZoomAndPan
 }
 ;
 SVGZoomAndPan
-implements
+includes
 SVGZoomAndPanValues
 ;

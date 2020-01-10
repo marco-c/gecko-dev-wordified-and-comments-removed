@@ -206,10 +206,10 @@ decode
 }
 ;
 SVGImageElement
-implements
+includes
 MozImageLoadingContent
 ;
 SVGImageElement
-implements
+includes
 SVGURIReference
 ;

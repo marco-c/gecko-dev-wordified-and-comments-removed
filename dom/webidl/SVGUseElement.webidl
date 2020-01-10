@@ -193,6 +193,6 @@ animatedInstanceRoot
 }
 ;
 SVGUseElement
-implements
+includes
 SVGURIReference
 ;

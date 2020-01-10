@@ -464,11 +464,11 @@ mozbrowser
 }
 ;
 HTMLIFrameElement
-implements
+includes
 MozFrameLoaderOwner
 ;
 HTMLIFrameElement
-implements
+includes
 BrowserElement
 ;
 /

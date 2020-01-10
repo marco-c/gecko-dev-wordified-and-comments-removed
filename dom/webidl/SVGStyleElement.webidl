@@ -184,6 +184,6 @@ title
 }
 ;
 SVGStyleElement
-implements
+includes
 LinkStyle
 ;

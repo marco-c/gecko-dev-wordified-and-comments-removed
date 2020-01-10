@@ -1000,7 +1000,7 @@ includes
 GlobalEventHandlers
 ;
 Window
-implements
+includes
 WindowEventHandlers
 ;
 /
@@ -1066,10 +1066,8 @@ current
 -
 work
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 WindowSessionStorage
 {
 /
@@ -1094,7 +1092,7 @@ sessionStorage
 }
 ;
 Window
-implements
+includes
 WindowSessionStorage
 ;
 /
@@ -1119,10 +1117,8 @@ current
 -
 work
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 WindowLocalStorage
 {
 [
@@ -1137,7 +1133,7 @@ localStorage
 }
 ;
 Window
-implements
+includes
 WindowLocalStorage
 ;
 /
@@ -2115,7 +2111,7 @@ Overview
 .
 html
 Window
-implements
+includes
 GlobalCrypto
 ;
 /
@@ -2133,7 +2129,7 @@ specifications
 download
 /
 Window
-implements
+includes
 GlobalU2F
 ;
 #
@@ -2166,10 +2162,8 @@ tip
 speechapi
 .
 html
-[
-NoInterfaceObject
-]
 interface
+mixin
 SpeechSynthesisGetter
 {
 [
@@ -2194,7 +2188,7 @@ speechSynthesis
 }
 ;
 Window
-implements
+includes
 SpeechSynthesisGetter
 ;
 #
@@ -2985,11 +2979,11 @@ getWindowGlobalChild
 }
 ;
 Window
-implements
+includes
 TouchEventHandlers
 ;
 Window
-implements
+includes
 OnErrorEventHandlerForWindow
 ;
 #
@@ -4114,7 +4108,7 @@ paintWorklet
 }
 ;
 Window
-implements
+includes
 WindowOrWorkerGlobalScope
 ;
 partial
@@ -4491,7 +4485,7 @@ intlUtils
 }
 ;
 Window
-implements
+includes
 WebGPUProvider
 ;
 partial

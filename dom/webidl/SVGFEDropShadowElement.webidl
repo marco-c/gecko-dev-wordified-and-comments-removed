@@ -196,6 +196,6 @@ stdDeviationY
 }
 ;
 SVGFEDropShadowElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

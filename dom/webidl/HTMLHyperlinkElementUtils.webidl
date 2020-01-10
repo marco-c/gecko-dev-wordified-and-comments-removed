@@ -154,10 +154,8 @@ document
 .
 *
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 HTMLHyperlinkElementUtils
 {
 /

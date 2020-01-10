@@ -539,10 +539,8 @@ y
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 MozImageLoadingContent
 {
 /
@@ -804,6 +802,6 @@ aState
 }
 ;
 HTMLImageElement
-implements
+includes
 MozImageLoadingContent
 ;

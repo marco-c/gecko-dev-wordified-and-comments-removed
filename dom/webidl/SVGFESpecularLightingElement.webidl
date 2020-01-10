@@ -195,6 +195,6 @@ kernelUnitLengthY
 }
 ;
 SVGFESpecularLightingElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

@@ -218,6 +218,6 @@ openOrClosedAssignedSlot
 }
 ;
 Text
-implements
+includes
 GeometryUtils
 ;

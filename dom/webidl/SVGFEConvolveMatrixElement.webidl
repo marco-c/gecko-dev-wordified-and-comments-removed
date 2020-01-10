@@ -276,6 +276,6 @@ preserveAlpha
 }
 ;
 SVGFEConvolveMatrixElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

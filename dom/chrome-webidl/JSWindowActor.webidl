@@ -117,10 +117,8 @@ MPL
 interface
 nsISupports
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 JSWindowActor
 {
 [
@@ -220,7 +218,7 @@ browsingContext
 }
 ;
 JSWindowActorParent
-implements
+includes
 JSWindowActor
 ;
 [
@@ -350,7 +348,7 @@ contentWindow
 }
 ;
 JSWindowActorChild
-implements
+includes
 JSWindowActor
 ;
 /

@@ -1133,10 +1133,8 @@ getAutocompleteInfo
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 MozEditableElement
 {
 [
@@ -1269,7 +1267,7 @@ input
 }
 ;
 HTMLInputElement
-implements
+includes
 MozEditableElement
 ;
 partial
@@ -1383,7 +1381,7 @@ chooseDirectory
 }
 ;
 HTMLInputElement
-implements
+includes
 MozImageLoadingContent
 ;
 /

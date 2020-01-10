@@ -327,7 +327,7 @@ sizes
 }
 ;
 HTMLLinkElement
-implements
+includes
 LinkStyle
 ;
 /

@@ -155,10 +155,10 @@ preserveAspectRatio
 }
 ;
 SVGFEImageElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;
 SVGFEImageElement
-implements
+includes
 SVGURIReference
 ;

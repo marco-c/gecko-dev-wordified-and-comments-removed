@@ -123,6 +123,6 @@ port
 }
 ;
 SharedWorker
-implements
+includes
 AbstractWorker
 ;

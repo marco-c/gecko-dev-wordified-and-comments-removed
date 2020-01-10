@@ -245,6 +245,6 @@ type
 }
 ;
 SVGFETurbulenceElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

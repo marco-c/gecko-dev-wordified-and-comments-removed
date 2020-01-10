@@ -139,10 +139,8 @@ apply
 .
 *
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 SVGFitToViewBox
 {
 [

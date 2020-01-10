@@ -155,6 +155,6 @@ in1
 }
 ;
 SVGFETileElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

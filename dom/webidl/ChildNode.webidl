@@ -117,10 +117,8 @@ interface
 childnode
 *
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 ChildNode
 {
 [
@@ -191,10 +189,8 @@ remove
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 NonDocumentTypeChildNode
 {
 [

@@ -235,10 +235,8 @@ WebGL2RenderingContext
 {
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 WebGL2RenderingContextBase
 {
 const
@@ -5077,12 +5075,12 @@ array
 ;
 }
 ;
-WebGL2RenderingContextBase
-implements
+WebGL2RenderingContext
+includes
 WebGLRenderingContextBase
 ;
 WebGL2RenderingContext
-implements
+includes
 WebGL2RenderingContextBase
 ;
 [

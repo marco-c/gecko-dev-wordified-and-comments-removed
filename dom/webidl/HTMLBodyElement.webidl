@@ -246,6 +246,6 @@ background
 }
 ;
 HTMLBodyElement
-implements
+includes
 WindowEventHandlers
 ;

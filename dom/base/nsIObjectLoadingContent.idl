@@ -159,7 +159,7 @@ the
 MozObjectLoadingContent
 WebIDL
 *
-interface
+mixin
 to
 mirror
 this

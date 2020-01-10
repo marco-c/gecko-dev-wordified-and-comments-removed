@@ -269,11 +269,11 @@ interface
 }
 ;
 WorkerGlobalScope
-implements
+includes
 GlobalCrypto
 ;
 WorkerGlobalScope
-implements
+includes
 WindowOrWorkerGlobalScope
 ;
 /

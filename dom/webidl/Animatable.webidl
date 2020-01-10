@@ -170,10 +170,8 @@ false
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 Animatable
 {
 [

@@ -155,6 +155,6 @@ distance
 }
 ;
 SVGPathElement
-implements
+includes
 SVGAnimatedPathData
 ;

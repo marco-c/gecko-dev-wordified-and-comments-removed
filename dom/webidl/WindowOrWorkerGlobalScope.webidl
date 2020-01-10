@@ -206,7 +206,6 @@ windoworworkerglobalscope
 -
 mixin
 [
-NoInterfaceObject
 Exposed
 =
 (
@@ -215,6 +214,7 @@ Worker
 )
 ]
 interface
+mixin
 WindowOrWorkerGlobalScope
 {
 [
@@ -449,6 +449,7 @@ fetch
 method
 partial
 interface
+mixin
 WindowOrWorkerGlobalScope
 {
 [
@@ -501,6 +502,7 @@ global
 object
 partial
 interface
+mixin
 WindowOrWorkerGlobalScope
 {
 readonly
@@ -530,6 +532,7 @@ factory
 interface
 partial
 interface
+mixin
 WindowOrWorkerGlobalScope
 {
 /
@@ -570,6 +573,7 @@ self
 caches
 partial
 interface
+mixin
 WindowOrWorkerGlobalScope
 {
 [

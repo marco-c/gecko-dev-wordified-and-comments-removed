@@ -227,6 +227,6 @@ oversample
 Mozilla
 extension
 WaveShaperNode
-implements
+includes
 AudioNodePassThrough
 ;

@@ -147,6 +147,6 @@ SVGElement
 }
 ;
 SVGMPathElement
-implements
+includes
 SVGURIReference
 ;

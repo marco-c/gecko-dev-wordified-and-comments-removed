@@ -403,6 +403,6 @@ isUAWidget
 }
 ;
 ShadowRoot
-implements
+includes
 DocumentOrShadowRoot
 ;

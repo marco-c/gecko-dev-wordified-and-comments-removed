@@ -196,6 +196,6 @@ pan
 Mozilla
 extension
 StereoPannerNode
-implements
+includes
 AudioNodePassThrough
 ;

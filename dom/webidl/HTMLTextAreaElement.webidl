@@ -526,7 +526,7 @@ controllers
 }
 ;
 HTMLTextAreaElement
-implements
+includes
 MozEditableElement
 ;
 partial

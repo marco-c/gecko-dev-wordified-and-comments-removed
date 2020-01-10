@@ -147,6 +147,6 @@ SVGGeometryElement
 }
 ;
 SVGPolylineElement
-implements
+includes
 SVGAnimatedPoints
 ;

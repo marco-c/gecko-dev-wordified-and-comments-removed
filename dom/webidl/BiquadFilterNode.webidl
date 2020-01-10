@@ -296,6 +296,6 @@ phaseResponse
 Mozilla
 extension
 BiquadFilterNode
-implements
+includes
 AudioNodePassThrough
 ;

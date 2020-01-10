@@ -195,6 +195,6 @@ pseudoelement
 -
 interface
 CSSPseudoElement
-implements
+includes
 Animatable
 ;

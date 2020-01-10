@@ -139,6 +139,6 @@ contentDocument
 }
 ;
 XULFrameElement
-implements
+includes
 MozFrameLoaderOwner
 ;

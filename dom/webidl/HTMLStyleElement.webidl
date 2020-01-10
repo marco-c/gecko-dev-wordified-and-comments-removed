@@ -194,6 +194,6 @@ type
 }
 ;
 HTMLStyleElement
-implements
+includes
 LinkStyle
 ;

@@ -444,10 +444,10 @@ includes
 ElementCSSInlineStyle
 ;
 XULElement
-implements
+includes
 TouchEventHandlers
 ;
 XULElement
-implements
+includes
 OnErrorEventHandlerForNodes
 ;

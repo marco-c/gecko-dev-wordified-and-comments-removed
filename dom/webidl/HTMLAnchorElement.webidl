@@ -305,7 +305,7 @@ text
 }
 ;
 HTMLAnchorElement
-implements
+includes
 HTMLHyperlinkElementUtils
 ;
 /

@@ -155,6 +155,6 @@ in1
 }
 ;
 SVGFEComponentTransferElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

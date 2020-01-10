@@ -278,6 +278,6 @@ Seconds
 Mozilla
 extension
 DynamicsCompressorNode
-implements
+includes
 AudioNodePassThrough
 ;

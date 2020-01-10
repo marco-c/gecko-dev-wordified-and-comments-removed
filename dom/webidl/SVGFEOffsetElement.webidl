@@ -171,6 +171,6 @@ dy
 }
 ;
 SVGFEOffsetElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

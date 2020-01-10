@@ -173,6 +173,6 @@ bufferSize
 Mozilla
 extension
 ScriptProcessorNode
-implements
+includes
 AudioNodePassThrough
 ;

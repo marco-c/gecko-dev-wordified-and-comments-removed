@@ -230,7 +230,7 @@ onmessageerror
 }
 ;
 Worker
-implements
+includes
 AbstractWorker
 ;
 dictionary

@@ -142,10 +142,8 @@ documentorshadowroot
 mixin
 *
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 DocumentOrShadowRoot
 {
 /

@@ -256,6 +256,6 @@ k4
 }
 ;
 SVGFECompositeElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

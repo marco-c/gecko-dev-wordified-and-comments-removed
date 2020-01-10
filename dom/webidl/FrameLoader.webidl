@@ -1124,10 +1124,8 @@ persisting
 .
 *
 /
-[
-NoInterfaceObject
-]
 interface
+mixin
 WebBrowserPersistable
 {
 [
@@ -1147,6 +1145,6 @@ aRecv
 }
 ;
 FrameLoader
-implements
+includes
 WebBrowserPersistable
 ;

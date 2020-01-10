@@ -258,6 +258,6 @@ periodicWave
 Mozilla
 extensions
 OscillatorNode
-implements
+includes
 AudioNodePassThrough
 ;

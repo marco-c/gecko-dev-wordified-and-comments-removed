@@ -462,10 +462,8 @@ offsetHeight
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 TouchEventHandlers
 {
 [
@@ -543,11 +541,11 @@ includes
 ElementCSSInlineStyle
 ;
 HTMLElement
-implements
+includes
 TouchEventHandlers
 ;
 HTMLElement
-implements
+includes
 OnErrorEventHandlerForNodes
 ;
 interface

@@ -236,10 +236,10 @@ data
 }
 ;
 CharacterData
-implements
+includes
 ChildNode
 ;
 CharacterData
-implements
+includes
 NonDocumentTypeChildNode
 ;

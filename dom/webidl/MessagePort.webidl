@@ -195,12 +195,6 @@ onmessageerror
 ;
 }
 ;
-/
-/
-MessagePort
-implements
-Transferable
-;
 dictionary
 PostMessageOptions
 {

@@ -223,6 +223,6 @@ spacing
 }
 ;
 SVGTextPathElement
-implements
+includes
 SVGURIReference
 ;

@@ -342,7 +342,7 @@ the
 MozImageLoadingContent
 WebIDL
 *
-interface
+mixin
 to
 mirror
 this

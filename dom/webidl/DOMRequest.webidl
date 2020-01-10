@@ -109,9 +109,9 @@ Exposed
 Window
 Worker
 )
-NoInterfaceObject
 ]
 interface
+mixin
 DOMRequestShared
 {
 readonly
@@ -240,6 +240,6 @@ aError
 }
 ;
 DOMRequest
-implements
+includes
 DOMRequestShared
 ;

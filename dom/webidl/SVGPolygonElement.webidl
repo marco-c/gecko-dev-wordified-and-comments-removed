@@ -147,6 +147,6 @@ SVGGeometryElement
 }
 ;
 SVGPolygonElement
-implements
+includes
 SVGAnimatedPoints
 ;

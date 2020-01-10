@@ -187,10 +187,10 @@ includes
 ElementCSSInlineStyle
 ;
 SVGElement
-implements
+includes
 TouchEventHandlers
 ;
 SVGElement
-implements
+includes
 OnErrorEventHandlerForNodes
 ;

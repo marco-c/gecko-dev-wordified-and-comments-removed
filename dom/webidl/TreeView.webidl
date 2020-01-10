@@ -96,10 +96,8 @@ MPL
 interface
 nsITreeSelection
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 TreeView
 {
 /

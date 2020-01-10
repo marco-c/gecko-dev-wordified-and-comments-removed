@@ -204,6 +204,6 @@ radiusY
 }
 ;
 SVGFEMorphologyElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

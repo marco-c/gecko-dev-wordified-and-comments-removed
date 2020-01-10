@@ -217,6 +217,6 @@ offset
 }
 ;
 SVGAnimationElement
-implements
+includes
 SVGTests
 ;

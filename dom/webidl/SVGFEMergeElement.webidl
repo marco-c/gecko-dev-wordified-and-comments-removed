@@ -147,6 +147,6 @@ SVGElement
 }
 ;
 SVGFEMergeElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

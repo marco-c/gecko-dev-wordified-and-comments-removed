@@ -211,6 +211,6 @@ values
 }
 ;
 SVGFEColorMatrixElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

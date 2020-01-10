@@ -133,7 +133,6 @@ interface
 *
 /
 [
-NoInterfaceObject
 Exposed
 =
 (
@@ -142,6 +141,7 @@ Worker
 )
 ]
 interface
+mixin
 GlobalCrypto
 {
 [

@@ -37647,6 +37647,9 @@ self
 interface
 .
 location
+interface
+.
+location
 ]
 )
         
@@ -37682,6 +37685,9 @@ interface
 [
 self
 .
+interface
+.
+location
 interface
 .
 location
@@ -37722,6 +37728,9 @@ mixin
 [
 self
 .
+mixin
+.
+location
 mixin
 .
 location

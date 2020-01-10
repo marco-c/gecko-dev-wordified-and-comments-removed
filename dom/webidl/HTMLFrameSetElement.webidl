@@ -183,6 +183,6 @@ rows
 }
 ;
 HTMLFrameSetElement
-implements
+includes
 WindowEventHandlers
 ;

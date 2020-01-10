@@ -295,6 +295,6 @@ mode
 }
 ;
 SVGFEBlendElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

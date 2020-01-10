@@ -196,6 +196,6 @@ mediaStream
 Mozilla
 extensions
 MediaStreamAudioSourceNode
-implements
+includes
 AudioNodePassThrough
 ;

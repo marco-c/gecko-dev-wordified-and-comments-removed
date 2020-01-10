@@ -831,10 +831,8 @@ onwebkittransitionend
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 WindowEventHandlers
 {
 attribute
@@ -999,10 +997,8 @@ or
 on
 nodes
 .
-[
-NoInterfaceObject
-]
 interface
+mixin
 OnErrorEventHandlerForNodes
 {
 attribute
@@ -1011,10 +1007,8 @@ onerror
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
+mixin
 OnErrorEventHandlerForWindow
 {
 attribute

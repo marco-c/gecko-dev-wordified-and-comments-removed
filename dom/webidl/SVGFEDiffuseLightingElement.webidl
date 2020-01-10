@@ -187,6 +187,6 @@ kernelUnitLengthY
 }
 ;
 SVGFEDiffuseLightingElement
-implements
+includes
 SVGFilterPrimitiveStandardAttributes
 ;

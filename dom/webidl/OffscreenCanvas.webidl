@@ -211,9 +211,3 @@ encoderOptions
 ;
 }
 ;
-/
-/
-OffscreenCanvas
-implements
-Transferable
-;

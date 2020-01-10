@@ -208,10 +208,10 @@ height
 }
 ;
 SVGPatternElement
-implements
+includes
 SVGFitToViewBox
 ;
 SVGPatternElement
-implements
+includes
 SVGURIReference
 ;

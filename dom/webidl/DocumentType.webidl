@@ -162,6 +162,6 @@ systemId
 }
 ;
 DocumentType
-implements
+includes
 ChildNode
 ;

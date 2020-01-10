@@ -204,6 +204,6 @@ source
 }
 ;
 SVGFilterElement
-implements
+includes
 SVGURIReference
 ;
