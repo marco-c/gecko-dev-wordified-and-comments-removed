@@ -121,4 +121,11 @@ collector
 .
 js
 '
+'
+websocket
+-
+actor
+.
+js
+'
 )
