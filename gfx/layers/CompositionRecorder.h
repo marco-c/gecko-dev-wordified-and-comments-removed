@@ -114,9 +114,8 @@ mTimeStamp
 ;
 class
 CompositionRecorder
-final
 {
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 CompositionRecorder
 )
@@ -129,6 +128,7 @@ TimeStamp
 aRecordingStart
 )
 ;
+virtual
 void
 RecordFrame
 (
@@ -137,6 +137,7 @@ RecordedFrame
 aFrame
 )
 ;
+virtual
 void
 WriteCollectedFrames
 (
@@ -144,10 +145,13 @@ WriteCollectedFrames
 ;
 protected
 :
+virtual
 ~
 CompositionRecorder
 (
 )
+=
+default
 ;
 private
 :
