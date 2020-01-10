@@ -9333,6 +9333,13 @@ const
 ;
 inline
 bool
+IsGridItem
+(
+)
+const
+;
+inline
+bool
 IsFlexOrGridItem
 (
 )
