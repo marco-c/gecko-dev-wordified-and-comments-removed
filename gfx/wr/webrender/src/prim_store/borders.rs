@@ -117,6 +117,7 @@ resource_cache
 {
 ImageRequest
 ResourceCache
+ImageRequestStatus
 }
 ;
 use
@@ -1077,6 +1078,9 @@ gpu_cache
 mut
 GpuCache
 )
+-
+>
+ImageRequestStatus
 {
 resource_cache
 .
@@ -1087,7 +1091,6 @@ self
 request
 gpu_cache
 )
-;
 }
 fn
 write_prim_gpu_blocks
