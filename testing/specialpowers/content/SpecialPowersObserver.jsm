@@ -140,17 +140,6 @@ specialpowersFrameScript
 .
 js
 "
-"
-resource
-:
-/
-/
-specialpowers
-/
-MozillaLogger
-.
-js
-"
 ]
 ;
 Services

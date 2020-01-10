@@ -415,17 +415,6 @@ resource
 /
 specialpowers
 /
-MozillaLogger
-.
-js
-"
-"
-resource
-:
-/
-/
-specialpowers
-/
 specialpowersFrameScript
 .
 js
