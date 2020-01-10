@@ -1350,7 +1350,7 @@ values
 ;
 Vector
 <
-size_t
+uint8_t
 >
 saturated
 ;
