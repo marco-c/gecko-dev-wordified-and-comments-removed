@@ -468,13 +468,6 @@ e_pow
 .
 cpp
 download_source
-e_sqrt
-.
-c
-e_sqrt
-.
-cpp
-download_source
 s_nearbyint
 .
 c

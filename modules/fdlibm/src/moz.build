@@ -339,11 +339,6 @@ e_sinh
 cpp
 '
 '
-e_sqrt
-.
-cpp
-'
-'
 k_exp
 .
 cpp

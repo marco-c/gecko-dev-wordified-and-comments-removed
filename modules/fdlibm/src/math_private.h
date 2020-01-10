@@ -3451,13 +3451,6 @@ fdlibm
 pow
 #
 define
-sqrt
-fdlibm
-:
-:
-sqrt
-#
-define
 ceil
 fdlibm
 :

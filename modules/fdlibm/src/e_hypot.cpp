@@ -1,6 +1,11 @@
 #
 include
 <
+cmath
+>
+#
+include
+<
 float
 .
 h
@@ -378,6 +383,9 @@ t1
 ;
 w
 =
+std
+:
+:
 sqrt
 (
 t1
@@ -447,6 +455,9 @@ t1
 ;
 w
 =
+std
+:
+:
 sqrt
 (
 t1

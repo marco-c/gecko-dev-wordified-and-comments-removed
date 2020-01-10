@@ -1,5 +1,10 @@
 #
 include
+<
+cmath
+>
+#
+include
 "
 math_private
 .
@@ -653,6 +658,9 @@ hx
 0
 )
 return
+std
+:
+:
 sqrt
 (
 x

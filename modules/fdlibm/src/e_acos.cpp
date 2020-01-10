@@ -1,6 +1,11 @@
 #
 include
 <
+cmath
+>
+#
+include
+<
 float
 .
 h
@@ -421,6 +426,9 @@ qS4
 ;
 s
 =
+std
+:
+:
 sqrt
 (
 z
@@ -470,6 +478,9 @@ x
 ;
 s
 =
+std
+:
+:
 sqrt
 (
 z
