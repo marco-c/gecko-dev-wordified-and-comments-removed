@@ -26356,6 +26356,8 @@ _stopClicked
 true
 ;
 }
+break
+;
 case
 "
 animationend
