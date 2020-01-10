@@ -1957,6 +1957,10 @@ join
 (
 )
 ;
+{
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -1973,7 +1977,9 @@ ArenaSize
 )
 )
 {
-MOZ_CRASH
+oomUnsafe
+.
+crash
 (
 "
 Out
@@ -1989,6 +1995,7 @@ mode
 "
 )
 ;
+}
 }
 chunk
 (
