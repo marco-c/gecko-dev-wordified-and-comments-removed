@@ -1179,7 +1179,7 @@ IsComplete
 const
 ;
 bool
-IsLoaded
+IsSizeAvailable
 (
 )
 const
@@ -3082,7 +3082,7 @@ aSide
 }
 inline
 bool
-IsBorderImageLoaded
+IsBorderImageSizeAvailable
 (
 )
 const
@@ -3090,7 +3090,7 @@ const
 return
 mBorderImageSource
 .
-IsLoaded
+IsSizeAvailable
 (
 )
 ;

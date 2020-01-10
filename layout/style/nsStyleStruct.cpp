@@ -9608,7 +9608,7 @@ bool
 nsStyleImage
 :
 :
-IsLoaded
+IsSizeAvailable
 (
 )
 const
@@ -9694,7 +9694,7 @@ status
 imgIRequest
 :
 :
-STATUS_LOAD_COMPLETE
+STATUS_SIZE_AVAILABLE
 )
 ;
 }
