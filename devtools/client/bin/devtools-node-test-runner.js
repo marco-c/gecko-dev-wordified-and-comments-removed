@@ -136,6 +136,10 @@ path
 .
 /
 netmonitor
+/
+test
+/
+node
 "
 type
 :
