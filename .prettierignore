@@ -398,10 +398,6 @@ directories
 for
 now
 .
-widget
-/
-*
-*
 xpcom
 /
 *

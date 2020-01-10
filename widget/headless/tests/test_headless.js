@@ -288,9 +288,7 @@ addEventListener
 "
 load
 "
-(
 event
-)
 =
 >
 {
@@ -856,9 +854,7 @@ keydown
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1118,9 +1114,7 @@ await
 new
 Promise
 (
-(
 r
-)
 =
 >
 {

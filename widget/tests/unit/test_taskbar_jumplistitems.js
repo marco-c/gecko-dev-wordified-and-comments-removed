@@ -1729,8 +1729,10 @@ nsIWinTaskbar
 =
 null
 )
+{
 return
 ;
+}
 var
 taskbar
 =
@@ -2099,9 +2101,7 @@ rv
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2165,9 +2165,7 @@ rv
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
