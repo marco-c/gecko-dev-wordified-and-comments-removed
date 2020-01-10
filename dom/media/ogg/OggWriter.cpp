@@ -262,9 +262,7 @@ i
 ]
 -
 >
-GetFrameType
-(
-)
+mFrameType
 !
 =
 EncodedFrame
@@ -311,9 +309,7 @@ i
 ]
 -
 >
-GetDuration
-(
-)
+mDuration
 i
 <
 len
