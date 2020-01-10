@@ -718,8 +718,6 @@ devtools
 client
 /
 responsive
-.
-html
 /
 manager
 "
