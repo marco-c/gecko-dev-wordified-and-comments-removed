@@ -297,17 +297,6 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
-#
-include
-"
 nsINetworkInterceptController
 .
 h

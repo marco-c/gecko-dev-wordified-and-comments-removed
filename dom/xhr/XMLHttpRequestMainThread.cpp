@@ -9002,11 +9002,10 @@ new
 ReferrerInfo
 (
 nullptr
-true
 mResponseXML
 -
 >
-GetReferrerPolicy
+ReferrerPolicy
 (
 )
 )

@@ -141,7 +141,7 @@ using
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy

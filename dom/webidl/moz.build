@@ -4523,6 +4523,11 @@ Range
 webidl
 '
 '
+ReferrerPolicy
+.
+webidl
+'
+'
 Reporting
 .
 webidl

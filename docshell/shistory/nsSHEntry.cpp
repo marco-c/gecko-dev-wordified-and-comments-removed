@@ -92,17 +92,6 @@ include
 "
 mozilla
 /
-net
-/
-ReferrerPolicy
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Logging
 .
 h

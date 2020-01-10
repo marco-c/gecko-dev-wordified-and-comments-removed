@@ -115,17 +115,6 @@ imgIRequest
 .
 h
 "
-#
-include
-"
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
 class
 imgLoader
 ;

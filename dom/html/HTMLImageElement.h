@@ -1063,9 +1063,6 @@ ErrorResult
 aRv
 )
 ;
-net
-:
-:
 ReferrerPolicy
 GetImageReferrerPolicy
 (

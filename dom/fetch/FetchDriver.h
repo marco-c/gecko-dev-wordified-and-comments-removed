@@ -99,17 +99,6 @@ DebugOnly
 .
 h
 "
-#
-include
-"
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
 class
 nsIConsoleReportCollector
 ;

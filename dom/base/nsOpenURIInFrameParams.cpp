@@ -36,17 +36,6 @@ ToJSValue
 .
 h
 "
-#
-include
-"
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsOpenURIInFrameParams

@@ -11,17 +11,6 @@ nscore
 .
 h
 "
-#
-include
-"
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
 class
 nsICookieSettings
 ;
@@ -84,7 +73,7 @@ aForceToXML
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy

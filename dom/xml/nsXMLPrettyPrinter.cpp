@@ -391,13 +391,10 @@ CookieSettings
 (
 )
 true
-mozilla
+ReferrerPolicy
 :
 :
-net
-:
-:
-RP_Unset
+_empty
 getter_AddRefs
 (
 xslDocument

@@ -69,7 +69,7 @@ StyleSheetInfo
 final
 {
 typedef
-net
+dom
 :
 :
 ReferrerPolicy

@@ -45,11 +45,7 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-ReferrerPolicy
+ReferrerInfo
 .
 h
 "

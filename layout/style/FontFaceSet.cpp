@@ -128,17 +128,6 @@ include
 "
 mozilla
 /
-net
-/
-ReferrerPolicy
-.
-h
-"
-#
-include
-"
-mozilla
-/
 AsyncEventDispatcher
 .
 h

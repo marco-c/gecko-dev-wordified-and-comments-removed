@@ -5226,9 +5226,6 @@ originalURI
 channelURI
 )
 ;
-net
-:
-:
 ReferrerPolicy
 policy
 =

@@ -4222,7 +4222,7 @@ aLoaderDocument
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy
@@ -4231,10 +4231,13 @@ refpol
 mozilla
 :
 :
-net
+dom
 :
 :
-RP_Unset
+ReferrerPolicy
+:
+:
+_empty
 ;
 if
 (

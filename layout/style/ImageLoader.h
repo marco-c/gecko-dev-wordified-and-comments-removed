@@ -71,17 +71,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
 class
 imgIContainer
 ;

@@ -35,11 +35,7 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-ReferrerPolicy
+ReferrerInfo
 .
 h
 "
@@ -970,7 +966,7 @@ mCrossOriginOrMedia
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy

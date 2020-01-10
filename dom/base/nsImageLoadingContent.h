@@ -100,17 +100,6 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
-#
-include
-"
 nsAttrValue
 .
 h
@@ -514,7 +503,7 @@ virtual
 mozilla
 :
 :
-net
+dom
 :
 :
 ReferrerPolicy
