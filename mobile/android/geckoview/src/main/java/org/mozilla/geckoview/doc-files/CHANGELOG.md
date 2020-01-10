@@ -69,6 +69,11 @@ Changelog
 #
 v70
 -
+Add
+GeckoSession
+.
+LOAD_FLAGS_REPLACE_HISTORY
+-
 Removed
 the
 obsolete
@@ -5064,4 +5069,4 @@ api
 version
 ]
 :
-b101f0344e941cb50eaaf75326e126ce3efc52b4
+d2e22c0efa7c1dbec1f68965e035a9ccc47eca39
