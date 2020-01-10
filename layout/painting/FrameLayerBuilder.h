@@ -993,6 +993,10 @@ mLayerContentsVisibleRect
 (
 nullptr
 )
+mItemVisibleRect
+(
+nullptr
+)
 mBackgroundColor
 (
 NS_RGBA
@@ -1060,6 +1064,10 @@ mYScale
 aYScale
 )
 mLayerContentsVisibleRect
+(
+nullptr
+)
+mItemVisibleRect
 (
 nullptr
 )
@@ -1132,6 +1140,10 @@ mYScale
 nsIntRect
 *
 mLayerContentsVisibleRect
+;
+nsRect
+*
+mItemVisibleRect
 ;
 nsIntPoint
 mOffset
