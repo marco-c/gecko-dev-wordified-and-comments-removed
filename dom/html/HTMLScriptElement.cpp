@@ -927,16 +927,6 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
-<
-nsIURI
->
-baseURI
-=
-GetBaseURI
-(
-)
-;
 nsContentUtils
 :
 :
@@ -950,7 +940,9 @@ src
 OwnerDoc
 (
 )
-baseURI
+GetBaseURI
+(
+)
 )
 ;
 if

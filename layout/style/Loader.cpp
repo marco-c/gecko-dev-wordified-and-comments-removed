@@ -4973,10 +4973,8 @@ nsIURI
 *
 sheetURI
 ;
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURI
 ;
 nsIURI

@@ -280,10 +280,8 @@ bool
 aNotify
 )
 {
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURI
 =
 GetBaseURI

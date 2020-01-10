@@ -5888,10 +5888,8 @@ AsContent
 (
 )
 ;
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURL
 =
 thisContent

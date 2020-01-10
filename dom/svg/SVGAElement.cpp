@@ -1368,16 +1368,6 @@ Element
 ATTR_VALUE_NO_MATCH
 )
 {
-nsCOMPtr
-<
-nsIURI
->
-baseURI
-=
-GetBaseURI
-(
-)
-;
 nsAutoString
 str
 ;
@@ -1412,7 +1402,9 @@ str
 OwnerDoc
 (
 )
-baseURI
+GetBaseURI
+(
+)
 )
 ;
 return

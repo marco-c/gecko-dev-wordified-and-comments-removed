@@ -592,16 +592,6 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
-<
-nsIURI
->
-baseURI
-=
-GetBaseURI
-(
-)
-;
 NS_NewURI
 (
 getter_AddRefs
@@ -610,7 +600,9 @@ mUri
 )
 src
 nullptr
-baseURI
+GetBaseURI
+(
+)
 )
 ;
 if

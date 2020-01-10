@@ -4443,16 +4443,6 @@ if
 hasHref
 )
 {
-nsCOMPtr
-<
-nsIURI
->
-baseURI
-=
-GetBaseURI
-(
-)
-;
 nsAutoString
 hrefStr
 ;
@@ -4474,7 +4464,9 @@ hrefStr
 OwnerDoc
 (
 )
-baseURI
+GetBaseURI
+(
+)
 )
 ;
 return

@@ -1578,16 +1578,6 @@ nsIURI
 >
 targetURI
 ;
-nsCOMPtr
-<
-nsIURI
->
-baseURI
-=
-GetBaseURI
-(
-)
-;
 nsContentUtils
 :
 :
@@ -1601,7 +1591,9 @@ aHrefStr
 OwnerDoc
 (
 )
-baseURI
+GetBaseURI
+(
+)
 )
 ;
 mHrefTarget

@@ -1246,10 +1246,8 @@ nsIDocumentEncoder
 OutputAbsoluteLinks
 )
 {
-nsCOMPtr
-<
 nsIURI
->
+*
 uri
 =
 aElement
