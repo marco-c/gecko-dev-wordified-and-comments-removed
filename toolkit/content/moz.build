@@ -277,13 +277,12 @@ cxx_flags
 +
 =
 COMPILE_FLAGS
-.
-get
-(
+[
 var
+]
+or
 [
 ]
-)
 DEFINES
 [
 '
