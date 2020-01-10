@@ -1073,13 +1073,6 @@ ifdef
 DEBUG_DUMP_URLS_AT_SHUTDOWN
 if
 (
-NS_IsMainThread
-(
-)
-)
-{
-if
-(
 aTrackURL
 )
 {
@@ -1096,7 +1089,6 @@ insertBack
 this
 )
 ;
-}
 }
 #
 endif
