@@ -159,6 +159,15 @@ NSOpenGL
 h
 >
 #
+import
+<
+OpenGL
+/
+CGLIOSurface
+.
+h
+>
+#
 include
 <
 dlfcn
@@ -1163,7 +1172,6 @@ GL_TEXTURE_MAG_FILTER
 GL_NEAREST
 )
 ;
-MacIOSurfaceLib
 :
 :
 CGLTexImageIOSurface2D
@@ -1179,6 +1187,9 @@ aHeight
 intScaleFactor
 GL_BGRA
 GL_UNSIGNED_INT_8_8_8_8_REV
+(
+IOSurfaceRef
+)
 mIOSurface
 -
 >
@@ -2176,7 +2187,6 @@ GL_TEXTURE_RECTANGLE_ARB
 mIOTexture
 )
 ;
-MacIOSurfaceLib
 :
 :
 CGLTexImageIOSurface2D
@@ -2198,6 +2208,9 @@ GetDevicePixelHeight
 )
 GL_BGRA
 GL_UNSIGNED_INT_8_8_8_8_REV
+(
+IOSurfaceRef
+)
 mIOSurface
 -
 >
