@@ -892,7 +892,7 @@ open
 (
 path
 '
-rb
+r
 '
 )
 as

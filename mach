@@ -163,7 +163,6 @@ spidermonkey
 clang
 -
 format
-clobber
 compare
 -
 locales
