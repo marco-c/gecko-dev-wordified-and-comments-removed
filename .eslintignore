@@ -2161,13 +2161,6 @@ Remote
 agent
 remote
 /
-pref
-/
-remote
-.
-js
-remote
-/
 Protocol
 .
 jsm

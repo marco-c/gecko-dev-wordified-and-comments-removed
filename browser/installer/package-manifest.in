@@ -1013,15 +1013,6 @@ chrome
 remote
 .
 manifest
-RESPATH
-/
-defaults
-/
-pref
-/
-remote
-.
-js
 #
 endif
 ;

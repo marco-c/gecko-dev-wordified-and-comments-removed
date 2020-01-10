@@ -184,11 +184,6 @@ moz
 .
 build
 files
-prefs
-/
-remote
-.
-js
 and
 jar
 .
