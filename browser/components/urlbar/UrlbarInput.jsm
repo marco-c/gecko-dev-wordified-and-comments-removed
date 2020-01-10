@@ -3562,6 +3562,19 @@ usercontextid
 search
 (
 value
+{
+focus
+=
+true
+}
+=
+{
+}
+)
+{
+if
+(
+focus
 )
 {
 this
@@ -3572,6 +3585,7 @@ focusAndSelectUrlBar
 (
 )
 ;
+}
 if
 (
 Object
