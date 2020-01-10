@@ -63,6 +63,8 @@ E10SUtils
 isWebRemoteType
 (
 fileBrowser
+.
+remoteType
 )
 "
 Check

@@ -780,6 +780,8 @@ E10SUtils
 isWebRemoteType
 (
 httpBrowser
+.
+remoteType
 )
 "
 Check

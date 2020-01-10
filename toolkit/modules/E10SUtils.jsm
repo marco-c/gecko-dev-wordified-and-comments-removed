@@ -2560,13 +2560,11 @@ split
 }
 isWebRemoteType
 (
-aBrowser
+aRemoteType
 )
 {
 return
-aBrowser
-.
-remoteType
+aRemoteType
 .
 startsWith
 (
