@@ -2429,6 +2429,13 @@ card
 ;
 }
 else
+if
+(
+!
+addon
+.
+hidden
+)
 {
 noShortcutAddons
 .
