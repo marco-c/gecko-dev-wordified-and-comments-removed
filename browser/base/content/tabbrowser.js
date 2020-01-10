@@ -11086,6 +11086,12 @@ _invalidateCachedTabs
 (
 )
 ;
+t
+.
+initialize
+(
+)
+;
 this
 .
 tabContainer

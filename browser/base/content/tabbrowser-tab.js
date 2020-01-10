@@ -769,6 +769,17 @@ connectedCallback
 (
 )
 {
+this
+.
+initialize
+(
+)
+;
+}
+initialize
+(
+)
+{
 if
 (
 this
