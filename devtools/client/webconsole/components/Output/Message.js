@@ -500,15 +500,11 @@ jumpToExecutionPoint
 PropTypes
 .
 func
-.
-isRequired
 onMessageHover
 :
 PropTypes
 .
 func
-.
-isRequired
 }
 )
 notes
