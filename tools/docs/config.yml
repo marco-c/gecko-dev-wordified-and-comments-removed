@@ -50,6 +50,8 @@ services
 common
 /
 services
+-
+uriloader
 build_doc
 :
 -
