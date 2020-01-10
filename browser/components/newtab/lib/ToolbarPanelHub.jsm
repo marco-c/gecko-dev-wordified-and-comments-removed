@@ -2229,6 +2229,15 @@ checked
 "
 )
 ;
+panelContainer
+.
+toggleAttribute
+(
+"
+infoMessageShowing
+"
+)
+;
 }
 ;
 if
