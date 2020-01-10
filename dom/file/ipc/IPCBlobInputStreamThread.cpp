@@ -248,17 +248,6 @@ Size
 )
 {
 mActor
-.
-get
-(
-)
--
->
-AddRef
-(
-)
-;
-mActor
 -
 >
 Migrated

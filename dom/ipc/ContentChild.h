@@ -949,8 +949,10 @@ FileDescriptor
 aBroker
 )
 ;
+already_AddRefed
+<
 PIPCBlobInputStreamChild
-*
+>
 AllocPIPCBlobInputStreamChild
 (
 const
@@ -961,14 +963,6 @@ const
 uint64_t
 &
 aSize
-)
-;
-bool
-DeallocPIPCBlobInputStreamChild
-(
-PIPCBlobInputStreamChild
-*
-aActor
 )
 ;
 PHalChild

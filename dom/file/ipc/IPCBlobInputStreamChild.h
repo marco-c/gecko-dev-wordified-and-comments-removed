@@ -80,6 +80,7 @@ eInactiveMigrating
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 IPCBlobInputStreamChild
+final
 )
 IPCBlobInputStreamChild
 (

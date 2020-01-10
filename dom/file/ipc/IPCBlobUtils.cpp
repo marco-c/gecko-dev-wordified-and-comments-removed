@@ -538,17 +538,6 @@ return
 rv
 ;
 }
-parentActor
-.
-get
-(
-)
--
->
-AddRef
-(
-)
-;
 if
 (
 !
