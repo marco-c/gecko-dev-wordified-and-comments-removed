@@ -458,7 +458,7 @@ Capacity
 ;
 JSObject
 *
-GetArrayBuffer
+TakeArrayBuffer
 (
 JSContext
 *
@@ -547,18 +547,6 @@ uint32_t
 aLength2
 )
 ;
-static
-void
-FreeBuffer
-(
-void
-*
-aContents
-void
-*
-aSelf
-)
-;
 Mutex
 mMutex
 ;
@@ -575,6 +563,9 @@ mLength
 void
 *
 mMapPtr
+;
+bool
+mNeutered
 ;
 }
 ;
