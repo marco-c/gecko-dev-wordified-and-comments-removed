@@ -754,6 +754,17 @@ Gamepad
 ?
 gamepad
 ;
+[
+SameObject
+]
+readonly
+attribute
+FrozenArray
+<
+DOMString
+>
+profiles
+;
 }
 ;
 [
