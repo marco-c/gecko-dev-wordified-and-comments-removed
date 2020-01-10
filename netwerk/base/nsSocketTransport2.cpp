@@ -4230,6 +4230,12 @@ d
 %
 s
 ]
+"
+"
+mProxyTransparentResolvesHost
+=
+%
+d
 \
 n
 "
@@ -4258,6 +4264,7 @@ cache
 :
 "
 "
+mProxyTransparentResolvesHost
 )
 )
 ;
