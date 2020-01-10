@@ -116,9 +116,6 @@ viewCertHelper
 (
 window
 gCert
-"
-window
-"
 )
 ;
 }
