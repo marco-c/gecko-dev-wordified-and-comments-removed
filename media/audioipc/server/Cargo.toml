@@ -152,6 +152,15 @@ audio_thread_priority
 .
 0
 "
+lazy_static
+=
+"
+1
+.
+2
+.
+0
+"
 [
 dependencies
 .
