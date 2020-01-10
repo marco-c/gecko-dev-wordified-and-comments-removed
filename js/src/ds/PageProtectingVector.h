@@ -1601,7 +1601,13 @@ AllocPolicy
 :
 vector
 (
+std
+:
+:
+move
+(
 policy
+)
 )
 elemsUntilTest
 (
