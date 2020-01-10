@@ -144,11 +144,6 @@ widget
 =
 [
 '
-gbm
-.
-h
-'
-'
 gtk
 -
 primary
