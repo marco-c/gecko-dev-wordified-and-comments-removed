@@ -19,7 +19,7 @@ mozlog
 =
 4
 .
-0
+1
 mozdebug
 =
 =
