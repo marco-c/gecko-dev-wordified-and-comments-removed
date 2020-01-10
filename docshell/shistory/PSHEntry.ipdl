@@ -794,6 +794,13 @@ result
 )
 ;
 sync
+ClearEntry
+(
+uint64_t
+aNewSharedID
+)
+;
+sync
 __delete__
 (
 )

@@ -995,6 +995,15 @@ nsresult
 aResult
 )
 ;
+bool
+RecvClearEntry
+(
+const
+uint64_t
+&
+aNewSharedID
+)
+;
 void
 GetOrCreate
 (
