@@ -3711,6 +3711,9 @@ allow_unsafe_parent_loads
 true
 )
 ;
+const
+page
+=
 await
 ExtensionTestUtils
 .
@@ -3757,6 +3760,13 @@ from
 content
 script
 "
+)
+;
+await
+page
+.
+close
+(
 )
 ;
 await
