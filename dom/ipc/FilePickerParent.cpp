@@ -1281,6 +1281,10 @@ const
 nsString
 &
 aOkButtonLabel
+const
+int16_t
+&
+aCapture
 )
 {
 if
@@ -1418,6 +1422,14 @@ mFilePicker
 SetOkButtonLabel
 (
 aOkButtonLabel
+)
+;
+mFilePicker
+-
+>
+SetCapture
+(
+aCapture
 )
 ;
 if

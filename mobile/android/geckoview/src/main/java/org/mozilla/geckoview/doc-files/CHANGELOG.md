@@ -219,6 +219,18 @@ a
 new
 GeckoSession
 .
+-
+Added
+capture
+parameter
+to
+onFilePrompt
+and
+corresponding
+CAPTURE_TYPE_
+*
+constants
+.
 #
 #
 v69
@@ -3846,4 +3858,4 @@ api
 version
 ]
 :
-d17e48f35d11ff368320919c6213e72d9f138da1
+ce03a46188d89b6d2ed5ebc58bdcd640eda216c9

@@ -224,6 +224,8 @@ nsString
 displaySpecialDirectory
 nsString
 okButtonLabel
+int16_t
+capture
 )
 ;
 child

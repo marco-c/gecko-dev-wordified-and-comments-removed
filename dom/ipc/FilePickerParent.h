@@ -204,6 +204,10 @@ const
 nsString
 &
 aOkButtonLabel
+const
+int16_t
+&
+aCapture
 )
 ;
 virtual
