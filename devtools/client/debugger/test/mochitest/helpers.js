@@ -5278,6 +5278,17 @@ pane
 .
 pane
 "
+domMutationItem
+:
+"
+.
+dom
+-
+mutation
+-
+list
+li
+"
 expressionNode
 :
 i
