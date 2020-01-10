@@ -9930,7 +9930,7 @@ DOMMatrix
 enabled
 "
 layout_css_DOMMatrix_enabled
-bool
+RelaxedAtomicBool
 true
 )
 VARCACHE_PREF
@@ -9946,7 +9946,7 @@ DOMQuad
 enabled
 "
 layout_css_DOMQuad_enabled
-bool
+RelaxedAtomicBool
 true
 )
 VARCACHE_PREF
@@ -9962,7 +9962,7 @@ DOMPoint
 enabled
 "
 layout_css_DOMPoint_enabled
-bool
+RelaxedAtomicBool
 true
 )
 VARCACHE_PREF
