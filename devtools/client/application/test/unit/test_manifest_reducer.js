@@ -9,6 +9,7 @@ FETCH_MANIFEST_FAILURE
 FETCH_MANIFEST_START
 FETCH_MANIFEST_SUCCESS
 RESET_MANIFEST
+MANIFEST_MEMBER_VALUE_TYPES
 }
 =
 require
@@ -27,6 +28,14 @@ constants
 js
 "
 )
+;
+const
+{
+STRING
+COLOR
+}
+=
+MANIFEST_MEMBER_VALUE_TYPES
 ;
 const
 {
@@ -96,6 +105,9 @@ value
 "
 Foo
 "
+type
+:
+STRING
 }
 ]
 }
@@ -135,6 +147,9 @@ value
 Short
 Foo
 "
+type
+:
+STRING
 }
 {
 key
@@ -148,6 +163,9 @@ value
 Long
 Foo
 "
+type
+:
+STRING
 }
 ]
 }
@@ -185,6 +203,9 @@ value
 "
 Foo
 "
+type
+:
+STRING
 }
 ]
 presentation
@@ -202,6 +223,9 @@ value
 #
 FF0000
 "
+type
+:
+COLOR
 }
 ]
 }

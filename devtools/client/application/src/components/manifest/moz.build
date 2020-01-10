@@ -61,6 +61,16 @@ Manifest
 js
 '
 '
+ManifestColorItem
+.
+css
+'
+'
+ManifestColorItem
+.
+js
+'
+'
 ManifestEmpty
 .
 js
