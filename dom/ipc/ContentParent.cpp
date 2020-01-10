@@ -26001,14 +26001,6 @@ Destroy
 }
 )
 ;
-newTab
--
->
-SetHasContentOpener
-(
-true
-)
-;
 BrowserParent
 :
 :
