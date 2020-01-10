@@ -1475,7 +1475,6 @@ inspector
 .
 activeSidebar
 "
-]
 "
 unexisting
 -
@@ -1483,6 +1482,7 @@ sidebar
 -
 id
 "
+]
 ]
 }
 )
