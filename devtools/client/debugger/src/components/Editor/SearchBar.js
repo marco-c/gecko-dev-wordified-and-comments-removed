@@ -246,7 +246,7 @@ search
 .
 again
 .
-key2
+key3
 "
 )
 ;
@@ -264,7 +264,7 @@ search
 .
 againPrev
 .
-key2
+key3
 "
 )
 ;
