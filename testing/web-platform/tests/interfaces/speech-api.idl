@@ -495,6 +495,10 @@ src
 optional
 float
 weight
+=
+1
+.
+0
 )
 ;
 void
@@ -505,6 +509,10 @@ string
 optional
 float
 weight
+=
+1
+.
+0
 )
 ;
 }
