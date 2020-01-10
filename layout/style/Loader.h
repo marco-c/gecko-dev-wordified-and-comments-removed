@@ -822,8 +822,7 @@ MediaMatched
 PrepareSheet
 (
 StyleSheet
-*
-aSheet
+&
 const
 nsAString
 &
