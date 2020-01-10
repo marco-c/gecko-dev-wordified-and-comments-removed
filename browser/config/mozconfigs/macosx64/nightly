@@ -58,7 +58,7 @@ fi
 export
 MOZ_LTO
 =
-1
+cross
 ac_add_options
 -
 -

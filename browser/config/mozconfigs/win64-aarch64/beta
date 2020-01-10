@@ -57,7 +57,7 @@ branding
 export
 MOZ_LTO
 =
-1
+cross
 unset
 ENABLE_CLANG_PLUGIN
 .
