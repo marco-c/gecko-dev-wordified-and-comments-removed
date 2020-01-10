@@ -212,7 +212,7 @@ enable_enhanced_search
 telemetryKey
 :
 "
-enhancedSearchUsed
+enhancedSearch
 "
 experiment
 :
