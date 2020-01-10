@@ -82,7 +82,7 @@ preferences
 /
 connection
 .
-xul
+xhtml
 "
 ;
 const

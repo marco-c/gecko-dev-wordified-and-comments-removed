@@ -120,7 +120,7 @@ preferences
 /
 connection
 .
-xul
+xhtml
 "
 ;
 open_preferences

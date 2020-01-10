@@ -47,7 +47,7 @@ preferences
 /
 connection
 .
-xul
+xhtml
 "
 ;
 let

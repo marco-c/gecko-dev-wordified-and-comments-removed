@@ -231,7 +231,7 @@ preferences
 /
 connection
 .
-xul
+xhtml
 "
 ;
 Services

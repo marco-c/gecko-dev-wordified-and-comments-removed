@@ -1345,7 +1345,7 @@ preferences
 /
 translation
 .
-xul
+xhtml
 "
 "
 Browser
@@ -1833,7 +1833,7 @@ preferences
 /
 translation
 .
-xul
+xhtml
 "
 "
 Browser

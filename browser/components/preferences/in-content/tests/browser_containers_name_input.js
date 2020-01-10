@@ -14,7 +14,7 @@ preferences
 /
 containers
 .
-xul
+xhtml
 "
 ;
 add_task

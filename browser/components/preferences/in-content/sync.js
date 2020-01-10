@@ -1646,7 +1646,7 @@ content
 /
 syncChooseWhatToSync
 .
-xul
+xhtml
 "
 "
 "
@@ -2995,7 +2995,7 @@ content
 /
 fxaPairDevice
 .
-xul
+xhtml
 "
 "
 resizable

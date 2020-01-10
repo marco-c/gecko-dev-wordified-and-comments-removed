@@ -39,7 +39,7 @@ preferences
 /
 permissions
 .
-xul
+xhtml
 "
 "
 Toolkit

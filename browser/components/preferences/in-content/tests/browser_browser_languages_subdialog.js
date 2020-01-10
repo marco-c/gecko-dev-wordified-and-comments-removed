@@ -65,7 +65,7 @@ preferences
 /
 browserLanguages
 .
-xul
+xhtml
 "
 ;
 const

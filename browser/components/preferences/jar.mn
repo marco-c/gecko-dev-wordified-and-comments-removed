@@ -65,7 +65,7 @@ preferences
 /
 applicationManager
 .
-xul
+xhtml
 content
 /
 browser
@@ -83,7 +83,7 @@ preferences
 /
 blocklists
 .
-xul
+xhtml
 content
 /
 browser
@@ -101,7 +101,7 @@ preferences
 /
 browserLanguages
 .
-xul
+xhtml
 content
 /
 browser
@@ -137,7 +137,7 @@ preferences
 /
 clearSiteData
 .
-xul
+xhtml
 content
 /
 browser
@@ -146,7 +146,7 @@ preferences
 /
 colors
 .
-xul
+xhtml
 content
 /
 browser
@@ -164,7 +164,7 @@ preferences
 /
 connection
 .
-xul
+xhtml
 content
 /
 browser
@@ -182,7 +182,7 @@ preferences
 /
 fonts
 .
-xul
+xhtml
 content
 /
 browser
@@ -209,7 +209,7 @@ preferences
 /
 languages
 .
-xul
+xhtml
 content
 /
 browser
@@ -227,7 +227,7 @@ preferences
 /
 permissions
 .
-xul
+xhtml
 content
 /
 browser
@@ -236,7 +236,7 @@ preferences
 /
 sitePermissions
 .
-xul
+xhtml
 content
 /
 browser
@@ -263,7 +263,7 @@ preferences
 /
 containers
 .
-xul
+xhtml
 content
 /
 browser
@@ -290,7 +290,7 @@ preferences
 /
 sanitize
 .
-xul
+xhtml
 content
 /
 browser
@@ -308,7 +308,7 @@ preferences
 /
 selectBookmark
 .
-xul
+xhtml
 content
 /
 browser
@@ -326,7 +326,7 @@ preferences
 /
 siteDataSettings
 .
-xul
+xhtml
 content
 /
 browser
@@ -345,7 +345,7 @@ preferences
 /
 siteDataRemoveSelected
 .
-xul
+xhtml
 content
 /
 browser
@@ -363,7 +363,7 @@ preferences
 /
 translation
 .
-xul
+xhtml
 content
 /
 browser

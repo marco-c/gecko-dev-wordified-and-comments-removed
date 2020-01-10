@@ -91,7 +91,7 @@ preferences
 /
 changemp
 .
-xul
+xhtml
 content
 /
 mozapps
@@ -109,4 +109,4 @@ preferences
 /
 removemp
 .
-xul
+xhtml

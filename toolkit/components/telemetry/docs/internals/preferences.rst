@@ -240,7 +240,7 @@ UI
 in
 privacy
 .
-xul
+xhtml
 MOZILLA_OFFICIAL
 When
 Not

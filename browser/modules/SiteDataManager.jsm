@@ -2008,7 +2008,7 @@ preferences
 /
 siteDataRemoveSelected
 .
-xul
+xhtml
 "
 "
 "

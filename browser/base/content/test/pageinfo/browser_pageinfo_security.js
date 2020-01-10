@@ -101,7 +101,7 @@ preferences
 /
 siteDataRemoveSelected
 .
-xul
+xhtml
 "
 ;
 const

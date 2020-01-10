@@ -66,7 +66,7 @@ preferences
 /
 sitePermissions
 .
-xul
+xhtml
 "
 ;
 const

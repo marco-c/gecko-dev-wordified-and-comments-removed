@@ -2443,7 +2443,7 @@ preferences
 /
 permissions
 .
-xul
+xhtml
 "
 )
 ;

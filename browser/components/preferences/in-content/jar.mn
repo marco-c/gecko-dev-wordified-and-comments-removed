@@ -96,7 +96,7 @@ content
 /
 preferences
 .
-xul
+xhtml
 content
 /
 browser
@@ -200,7 +200,7 @@ content
 /
 syncChooseWhatToSync
 .
-xul
+xhtml
 content
 /
 browser
@@ -226,7 +226,7 @@ content
 /
 fxaPairDevice
 .
-xul
+xhtml
 content
 /
 browser

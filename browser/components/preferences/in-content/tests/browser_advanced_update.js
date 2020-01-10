@@ -690,7 +690,7 @@ update
 /
 history
 .
-xul
+xhtml
 "
 )
 ;

@@ -19,7 +19,7 @@ preferences
 /
 permissions
 .
-xul
+xhtml
 "
 ;
 const

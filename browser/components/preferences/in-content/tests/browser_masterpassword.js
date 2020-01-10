@@ -192,7 +192,7 @@ preferences
 /
 changemp
 .
-xul
+xhtml
 "
 "
 clicking
@@ -267,7 +267,7 @@ preferences
 /
 changemp
 .
-xul
+xhtml
 "
 "
 clicking
@@ -346,7 +346,7 @@ preferences
 /
 removemp
 .
-xul
+xhtml
 "
 "
 clicking

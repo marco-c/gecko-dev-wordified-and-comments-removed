@@ -60,7 +60,7 @@ preferences
 /
 languages
 .
-xul
+xhtml
 "
 )
 ;

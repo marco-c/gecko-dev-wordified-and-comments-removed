@@ -693,7 +693,7 @@ content
 /
 preferences
 .
-xul
+xhtml
 "
 nsIAboutModule
 :

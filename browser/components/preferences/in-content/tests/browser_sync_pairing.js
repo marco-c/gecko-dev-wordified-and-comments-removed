@@ -857,7 +857,7 @@ content
 /
 fxaPairDevice
 .
-xul
+xhtml
 "
 )
 ;

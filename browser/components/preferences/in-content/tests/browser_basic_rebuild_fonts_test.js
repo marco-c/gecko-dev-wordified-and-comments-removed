@@ -564,7 +564,7 @@ preferences
 /
 fonts
 .
-xul
+xhtml
 "
 )
 ;

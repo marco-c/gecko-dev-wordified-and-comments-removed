@@ -6151,7 +6151,7 @@ preferences
 /
 languages
 .
-xul
+xhtml
 "
 )
 ;
@@ -6262,7 +6262,7 @@ preferences
 /
 browserLanguages
 .
-xul
+xhtml
 "
 null
 opts
@@ -6394,7 +6394,7 @@ preferences
 /
 translation
 .
-xul
+xhtml
 "
 )
 ;
@@ -6456,7 +6456,7 @@ preferences
 /
 fonts
 .
-xul
+xhtml
 "
 "
 resizable
@@ -6487,7 +6487,7 @@ preferences
 /
 colors
 .
-xul
+xhtml
 "
 "
 resizable
@@ -6518,7 +6518,7 @@ preferences
 /
 connection
 .
-xul
+xhtml
 "
 null
 null
@@ -8490,7 +8490,7 @@ update
 /
 history
 .
-xul
+xhtml
 "
 )
 ;
@@ -11645,7 +11645,7 @@ preferences
 /
 applicationManager
 .
-xul
+xhtml
 "
 "
 resizable
