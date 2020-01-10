@@ -443,6 +443,15 @@ aVal
 final
 ;
 NS_IMETHOD
+GetAsciiSpec
+(
+nsACString
+&
+aSpec
+)
+override
+;
+NS_IMETHOD
 GetOriginSuffix
 (
 nsACString
