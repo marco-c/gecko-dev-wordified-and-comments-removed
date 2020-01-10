@@ -258,6 +258,12 @@ capabilities
 {
         
 "
+acceptInsecureCerts
+"
+:
+True
+        
+"
 goog
 :
 chromeOptions
