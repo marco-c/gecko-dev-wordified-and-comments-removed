@@ -231,6 +231,7 @@ Window
 Worker
 WorkerDebugger
 )
+Serializable
 ]
 interface
 URLSearchParams
