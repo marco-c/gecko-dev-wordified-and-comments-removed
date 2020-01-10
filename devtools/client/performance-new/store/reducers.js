@@ -445,11 +445,6 @@ action
 .
 isPopup
 )
-getSymbolTableGetter
-:
-action
-.
-getSymbolTableGetter
 }
 ;
 default

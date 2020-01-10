@@ -164,11 +164,6 @@ bridge
 new
 ActorReadyGeckoProfilerInterface
 (
-{
-gzipped
-:
-false
-}
 )
 ;
 _bridgeEvents

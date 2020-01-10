@@ -345,7 +345,7 @@ error
 }
 async
 function
-getSymbolsFromThisBrowser
+getSymbols
 (
 debugName
 breakpadId
@@ -623,7 +623,7 @@ return
 receiveProfile
 (
 profile
-getSymbolsFromThisBrowser
+getSymbols
 )
 ;
 Services
@@ -1845,9 +1845,6 @@ setRecordingPreferencesOnBrowser
 "
 "
 forTestsOnly
-"
-"
-getSymbolsFromThisBrowser
 "
 ]
 ;
