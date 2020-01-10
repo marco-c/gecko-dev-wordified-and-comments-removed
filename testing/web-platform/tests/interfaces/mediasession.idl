@@ -303,7 +303,7 @@ required
 double
 seekTime
 ;
-bool
+boolean
 ?
 fastSeek
 ;
