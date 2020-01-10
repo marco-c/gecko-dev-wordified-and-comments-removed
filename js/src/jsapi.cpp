@@ -19319,17 +19319,6 @@ coverage
 IsLCovEnabled
 (
 )
-|
-|
-mozilla
-:
-:
-recordreplay
-:
-:
-IsRecordingOrReplaying
-(
-)
 ;
 instrumentationKinds
 =
