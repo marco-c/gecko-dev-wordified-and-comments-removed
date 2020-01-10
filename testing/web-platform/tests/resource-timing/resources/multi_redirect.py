@@ -170,6 +170,39 @@ ValueError
             
 pass
     
+origin
+=
+request
+.
+url_parts
+.
+scheme
++
+"
+:
+/
+/
+"
++
+request
+.
+url_parts
+.
+hostname
++
+"
+:
+"
++
+str
+(
+request
+.
+url_parts
+.
+port
+)
+    
 page_origin
 =
 request
@@ -225,7 +258,7 @@ timing_allow
 "
 )
     
-redirect_url
+redirect_url_path
 =
 "
 /
@@ -241,7 +274,7 @@ py
 ?
 "
     
-redirect_url
+redirect_url_path
 +
 =
 "
@@ -251,7 +284,7 @@ page_origin
 +
 page_origin
     
-redirect_url
+redirect_url_path
 +
 =
 "
@@ -262,7 +295,7 @@ cross_origin
 +
 cross_origin
     
-redirect_url
+redirect_url_path
 +
 =
 "
@@ -273,7 +306,7 @@ timing_allow
 +
 timing_allow
     
-redirect_url
+redirect_url_path
 +
 =
 "
@@ -293,7 +326,7 @@ redirect_url
 =
 cross_origin
 +
-redirect_url
+redirect_url_path
 +
 "
 2
@@ -306,6 +339,11 @@ timing_allow
 "
 0
 "
+and
+origin
+!
+=
+page_origin
 :
             
 response
@@ -335,7 +373,7 @@ redirect_url
 =
 page_origin
 +
-redirect_url
+redirect_url_path
 +
 "
 3
