@@ -14954,6 +14954,8 @@ else
 hint
 |
 =
+nsChangeHint_UpdateOverflow
+|
 nsChangeHint_RepaintFrame
 ;
 }
