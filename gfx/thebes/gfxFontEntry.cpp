@@ -824,6 +824,10 @@ if
 (
 !
 mCharacterMap
+&
+&
+!
+mShmemCharacterMap
 )
 {
 ReadCMAP
@@ -833,6 +837,9 @@ ReadCMAP
 NS_ASSERTION
 (
 mCharacterMap
+|
+|
+mShmemCharacterMap
 "
 failed
 to
