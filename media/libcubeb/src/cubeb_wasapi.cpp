@@ -11789,13 +11789,7 @@ size
 )
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 static
