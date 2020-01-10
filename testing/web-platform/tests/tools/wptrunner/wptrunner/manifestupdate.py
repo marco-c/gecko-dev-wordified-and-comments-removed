@@ -3,8 +3,6 @@ __future__
 import
 print_function
 import
-itertools
-import
 os
 from
 six
@@ -48,7 +46,6 @@ VariableNode
 ValueNode
 UnaryExpressionNode
 UnaryOperatorNode
-KeyValueNode
                               
 ListNode
 )
@@ -4982,7 +4979,6 @@ make_node
 value
 )
 )
-                
 )
         
 else
