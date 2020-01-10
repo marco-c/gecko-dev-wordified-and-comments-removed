@@ -206,16 +206,12 @@ probeNonUSMismatched
 let
 countryCode
 =
+await
 Services
 .
 sysinfo
 .
-get
-(
-"
 countryCode
-"
-)
 ;
 print
 (
