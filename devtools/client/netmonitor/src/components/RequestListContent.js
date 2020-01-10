@@ -899,17 +899,6 @@ this
 onResize
 )
 ;
-this
-.
-refs
-.
-rowGroupEl
-.
-innerHTML
-=
-"
-"
-;
 }
 onResize
 (
