@@ -11162,16 +11162,6 @@ showcaret
 Atom
 (
 "
-showresizer
-"
-"
-showresizer
-"
-)
-    
-Atom
-(
-"
 simple
 "
 "
