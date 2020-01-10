@@ -120,7 +120,7 @@ h
 #
 include
 "
-nsIAppWindow
+nsIXULWindow
 .
 h
 "
@@ -1362,7 +1362,7 @@ usefulHiddenWindow
 ;
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
 hiddenWindow
 ;
@@ -2444,7 +2444,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
 newWindow
 ;
@@ -2455,9 +2455,9 @@ aParent
 {
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
-appParent
+xulParent
 (
 do_GetInterface
 (
@@ -2467,14 +2467,14 @@ aParent
 ;
 NS_ASSERTION
 (
-appParent
+xulParent
 "
 window
 created
 using
 non
 -
-app
+XUL
 parent
 .
 that
@@ -2492,9 +2492,9 @@ work
 ;
 if
 (
-appParent
+xulParent
 )
-appParent
+xulParent
 -
 >
 CreateNewWindow

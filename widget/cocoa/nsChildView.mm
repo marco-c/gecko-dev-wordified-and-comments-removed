@@ -3351,7 +3351,7 @@ nsCocoaWindow
 nsChildView
 :
 :
-GetAppWindowWidget
+GetXULWindowWidget
 (
 )
 const
@@ -3765,7 +3765,7 @@ nsCocoaWindow
 *
 windowWidget
 =
-GetAppWindowWidget
+GetXULWindowWidget
 (
 )
 ;
@@ -3834,7 +3834,7 @@ nsCocoaWindow
 *
 windowWidget
 =
-GetAppWindowWidget
+GetXULWindowWidget
 (
 )
 ;
@@ -3904,7 +3904,7 @@ mVisible
 if
 (
 !
-GetAppWindowWidget
+GetXULWindowWidget
 (
 )
 -
@@ -5025,7 +5025,7 @@ mWidgetListener
 mWidgetListener
 -
 >
-GetAppWindow
+GetXULWindow
 (
 )
 )
@@ -7200,7 +7200,7 @@ nsCocoaWindow
 *
 widget
 =
-GetAppWindowWidget
+GetXULWindowWidget
 (
 )
 ;
@@ -7624,7 +7624,7 @@ nsCocoaWindow
 *
 widget
 =
-GetAppWindowWidget
+GetXULWindowWidget
 (
 )
 ;
@@ -11926,7 +11926,7 @@ nsCocoaWindow
 *
 windowWidget
 =
-GetAppWindowWidget
+GetXULWindowWidget
 (
 )
 ;
@@ -21833,7 +21833,7 @@ mGeckoChild
 mGeckoChild
 -
 >
-GetAppWindowWidget
+GetXULWindowWidget
 (
 )
 :
@@ -21962,7 +21962,7 @@ mGeckoChild
 mGeckoChild
 -
 >
-GetAppWindowWidget
+GetXULWindowWidget
 (
 )
 :

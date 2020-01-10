@@ -120,7 +120,7 @@ h
 #
 include
 "
-nsIAppWindow
+nsIXULWindow
 .
 h
 "
@@ -134,7 +134,7 @@ nsWindowMediator
 :
 GetDOMWindow
 (
-nsIAppWindow
+nsIXULWindow
 *
 inWindow
 nsCOMPtr
@@ -315,7 +315,7 @@ nsWindowMediator
 :
 RegisterWindow
 (
-nsIAppWindow
+nsIXULWindow
 *
 inWindow
 )
@@ -430,7 +430,7 @@ nsWindowMediator
 :
 UnregisterWindow
 (
-nsIAppWindow
+nsIXULWindow
 *
 inWindow
 )
@@ -513,7 +513,7 @@ index
 +
 ;
 }
-nsIAppWindow
+nsIXULWindow
 *
 window
 =
@@ -630,7 +630,7 @@ nsWindowMediator
 :
 GetInfoFor
 (
-nsIAppWindow
+nsIXULWindow
 *
 aWindow
 )
@@ -868,7 +868,7 @@ NS_IMETHODIMP
 nsWindowMediator
 :
 :
-GetAppWindowEnumerator
+GetXULWindowEnumerator
 (
 const
 char16_t
@@ -904,7 +904,7 @@ nsAppShellWindowEnumerator
 enumerator
 =
 new
-nsASAppWindowEarlyToLateEnumerator
+nsASXULWindowEarlyToLateEnumerator
 (
 inType
 *
@@ -926,7 +926,7 @@ NS_IMETHODIMP
 nsWindowMediator
 :
 :
-GetZOrderAppWindowEnumerator
+GetZOrderXULWindowEnumerator
 (
 const
 char16_t
@@ -970,7 +970,7 @@ aFrontToBack
 enumerator
 =
 new
-nsASAppWindowFrontToBackEnumerator
+nsASXULWindowFrontToBackEnumerator
 (
 aWindowType
 *
@@ -981,7 +981,7 @@ else
 enumerator
 =
 new
-nsASAppWindowBackToFrontEnumerator
+nsASXULWindowBackToFrontEnumerator
 (
 aWindowType
 *
@@ -1651,7 +1651,7 @@ nsWindowMediator
 :
 UpdateWindowTimeStamp
 (
-nsIAppWindow
+nsIXULWindow
 *
 inWindow
 )
@@ -1705,7 +1705,7 @@ nsWindowMediator
 :
 CalculateZPosition
 (
-nsIAppWindow
+nsIXULWindow
 *
 inWindow
 uint32_t
@@ -1800,7 +1800,7 @@ info
 =
 mTopmostWindow
 ;
-nsIAppWindow
+nsIXULWindow
 *
 belowWindow
 =
@@ -2306,12 +2306,12 @@ nsWindowMediator
 :
 SetZPosition
 (
-nsIAppWindow
+nsIXULWindow
 *
 inWindow
 uint32_t
 inPosition
-nsIAppWindow
+nsIXULWindow
 *
 inBelow
 )
@@ -2545,7 +2545,7 @@ nsWindowMediator
 :
 GetZLevel
 (
-nsIAppWindow
+nsIXULWindow
 *
 aWindow
 uint32_t
@@ -2561,7 +2561,7 @@ _retval
 *
 _retval
 =
-nsIAppWindow
+nsIXULWindow
 :
 :
 normalZ
@@ -2599,7 +2599,7 @@ nsWindowMediator
 :
 SetZLevel
 (
-nsIAppWindow
+nsIXULWindow
 *
 aWindow
 uint32_t

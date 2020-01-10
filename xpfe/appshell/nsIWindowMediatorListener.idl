@@ -101,7 +101,7 @@ nsISupports
 idl
 "
 interface
-nsIAppWindow
+nsIXULWindow
 ;
 [
 scriptable
@@ -127,7 +127,7 @@ void
 onOpenWindow
 (
 in
-nsIAppWindow
+nsIXULWindow
 window
 )
 ;
@@ -135,7 +135,7 @@ void
 onCloseWindow
 (
 in
-nsIAppWindow
+nsIXULWindow
 window
 )
 ;

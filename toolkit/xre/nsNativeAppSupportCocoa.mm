@@ -2228,7 +2228,7 @@ windowList
 wm
 -
 >
-GetAppWindowEnumerator
+GetXULWindowEnumerator
 (
 nullptr
 getter_AddRefs
