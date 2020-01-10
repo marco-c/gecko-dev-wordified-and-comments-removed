@@ -864,7 +864,7 @@ id
 '
 /
 Response
-headers
+Headers
 '
 ]
 "
@@ -886,7 +886,7 @@ id
 '
 /
 Request
-headers
+Headers
 '
 ]
 "
@@ -1480,7 +1480,7 @@ id
 '
 /
 Response
-cookies
+Cookies
 /
 '
 "
@@ -1517,7 +1517,7 @@ id
 '
 /
 Request
-cookies
+Cookies
 /
 '
 "

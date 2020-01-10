@@ -184,7 +184,7 @@ key
 :
 "
 Response
-cookies
+Cookies
 "
 value
 :
@@ -231,7 +231,7 @@ key
 :
 "
 Request
-cookies
+Cookies
 "
 value
 :

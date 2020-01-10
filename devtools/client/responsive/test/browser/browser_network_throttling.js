@@ -86,7 +86,7 @@ testNetworkThrottlingSelectorLabel
 ui
 "
 No
-throttling
+Throttling
 "
 )
 ;
@@ -124,7 +124,7 @@ selectNetworkThrottling
 ui
 "
 No
-throttling
+Throttling
 "
 )
 ;
@@ -133,7 +133,7 @@ testNetworkThrottlingSelectorLabel
 ui
 "
 No
-throttling
+Throttling
 "
 )
 ;

@@ -69,9 +69,9 @@ allFontsAccordion
 textContent
 "
 All
-fonts
+Fonts
 on
-page
+Page
 "
 "
 It
