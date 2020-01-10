@@ -30509,6 +30509,9 @@ Throws
 "
 NeedsSubjectPrincipal
 "
+"
+Pure
+"
 ]
         
 attributeOnlyExtAttrs

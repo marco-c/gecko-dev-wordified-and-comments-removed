@@ -149,12 +149,18 @@ Window
 interface
 DOMTokenList
 {
+[
+Pure
+]
 readonly
 attribute
 unsigned
 long
 length
 ;
+[
+Pure
+]
 getter
 DOMString
 ?
@@ -165,6 +171,9 @@ long
 index
 )
 ;
+[
+Pure
+]
 boolean
 contains
 (
@@ -240,6 +249,7 @@ token
 [
 CEReactions
 SetterThrows
+Pure
 ]
 stringifier
 attribute
