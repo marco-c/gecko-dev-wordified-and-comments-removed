@@ -797,6 +797,15 @@ ForceReflowForFontInfoUpdate
 (
 )
 {
+DeviceContext
+(
+)
+-
+>
+FlushFontCache
+(
+)
+;
 PreferenceChanged
 (
 "
