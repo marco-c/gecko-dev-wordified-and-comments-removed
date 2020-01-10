@@ -200,11 +200,6 @@ opt
 '
 try
 '
-'
-mozilla
--
-central
-'
 ]
 default
 :
@@ -624,11 +619,6 @@ opt
 [
 '
 try
-'
-'
-mozilla
--
-central
 '
 ]
 android

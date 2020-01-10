@@ -150,11 +150,6 @@ opt
 '
 try
 '
-'
-mozilla
--
-central
-'
 ]
 (
 ?
@@ -7324,11 +7319,6 @@ opt
 :
 [
 '
-mozilla
--
-central
-'
-'
 try
 '
 ]
@@ -7433,11 +7423,6 @@ aarch64
 opt
 :
 [
-'
-mozilla
--
-central
-'
 '
 try
 '
