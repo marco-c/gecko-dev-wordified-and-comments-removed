@@ -200,6 +200,7 @@ LowLatency
 HardwareDecoderNotAllowed
 FullH264Parsing
 ErrorIfNoInitializationData
+DefaultPlaybackDeviceMono
 SENTINEL
 }
 ;
