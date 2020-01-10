@@ -25,6 +25,12 @@ mozcrash
 import
 mozinfo
 from
+logger
+.
+logger
+import
+RaptorLogger
+from
 mozdevice
 import
 ADBDevice
@@ -32,7 +38,6 @@ from
 mozlog
 import
 commandline
-get_default_logger
 from
 mozprofile
 import
@@ -210,6 +215,18 @@ from
 utils
 import
 view_gecko_profile
+LOG
+=
+RaptorLogger
+(
+component
+=
+'
+raptor
+-
+main
+'
+)
 class
 SignalHandler
 :
@@ -508,21 +525,6 @@ venv
         
 self
 .
-log
-=
-get_default_logger
-(
-component
-=
-'
-raptor
--
-main
-'
-)
-        
-self
-.
 control_server
 =
 None
@@ -618,9 +620,7 @@ post_startup_delay
 3000
 )
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -640,16 +640,14 @@ to
 d
 ms
 "
-                          
+                     
 %
 self
 .
 post_startup_delay
 )
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -787,9 +785,7 @@ test
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -810,9 +806,7 @@ name
 ]
 )
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -830,9 +824,7 @@ test
 )
 )
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -1231,9 +1223,7 @@ timeout
 5
 :
                     
-self
-.
-log
+LOG
 .
 info
 (
@@ -1320,9 +1310,7 @@ symbolicate
 (
 )
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -1351,9 +1339,7 @@ raw_prefs
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -1459,9 +1445,7 @@ profile_data_dir
 profile
 )
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -1779,9 +1763,7 @@ key
 ]
 )
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -1861,9 +1843,7 @@ raptor
 '
 )
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -1934,9 +1914,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -2582,9 +2560,7 @@ test
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -2611,9 +2587,7 @@ not
 upload_dir
 :
             
-self
-.
-log
+LOG
 .
 critical
 (
@@ -2826,9 +2800,7 @@ stop
 (
 )
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -3185,9 +3157,7 @@ args
 kwargs
 )
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -3617,9 +3587,7 @@ INI
 '
 '
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -3639,7 +3607,7 @@ be
 restarted
 between
 "
-                      
+                 
 "
 page
 cycles
@@ -3675,9 +3643,7 @@ expected_browser_cycles
 )
 :
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -3695,7 +3661,7 @@ test
 %
 s
 "
-                          
+                     
 %
 (
 test
@@ -3990,9 +3956,7 @@ run_local
 ]
 :
                 
-self
-.
-log
+LOG
 .
 info
 (
@@ -4097,9 +4061,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -4131,9 +4093,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -4166,9 +4126,7 @@ test
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -4461,9 +4419,7 @@ test
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -4580,9 +4536,7 @@ raw_prefs
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -4795,9 +4749,7 @@ localhost
 )
 :
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -4851,9 +4803,7 @@ localhost
 )
 :
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -4905,9 +4855,7 @@ localhost
 )
 :
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -4965,9 +4913,7 @@ tune_performance
 (
 )
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -5087,9 +5033,7 @@ id
 "
 "
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -5123,9 +5067,7 @@ _have_android_su
 )
 :
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -5203,9 +5145,7 @@ clear_logcat
 (
 )
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -5230,9 +5170,7 @@ False
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -5296,9 +5234,7 @@ exitcode
 0
 :
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -5322,9 +5258,7 @@ value
 else
 :
             
-self
-.
-log
+LOG
 .
 warning
 (
@@ -5355,9 +5289,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -5393,9 +5325,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -5465,9 +5395,7 @@ in
 services
 :
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -5538,9 +5466,7 @@ in
 services_list_output
 :
                 
-self
-.
-log
+LOG
 .
 info
 (
@@ -5563,9 +5489,7 @@ service
 else
 :
                 
-self
-.
-log
+LOG
 .
 warning
 (
@@ -5593,9 +5517,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -5671,9 +5593,7 @@ value
 ]
 )
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -5709,9 +5629,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -5803,9 +5721,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -5892,9 +5808,7 @@ device_name
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -6143,9 +6057,7 @@ device_name
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -6510,9 +6422,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -6687,9 +6597,7 @@ android
 '
 )
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -6723,9 +6631,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -6840,9 +6746,7 @@ binary
 try
 :
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -6915,9 +6819,7 @@ except
 Exception
 :
             
-self
-.
-log
+LOG
 .
 error
 (
@@ -6941,9 +6843,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -7082,9 +6982,7 @@ test_name
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -7357,9 +7255,7 @@ as
 e
 :
             
-self
-.
-log
+LOG
 .
 error
 (
@@ -7380,9 +7276,7 @@ binary
 ]
 )
             
-self
-.
-log
+LOG
 .
 error
 (
@@ -7523,9 +7417,7 @@ _source
 )
 :
                 
-self
-.
-log
+LOG
 .
 info
 (
@@ -7555,9 +7447,7 @@ _dest
 else
 :
                 
-self
-.
-log
+LOG
 .
 critical
 (
@@ -7656,9 +7546,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -8122,9 +8010,7 @@ INI
 '
 '
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -8144,7 +8030,7 @@ be
 restarted
 between
 "
-                      
+                 
 "
 page
 cycles
@@ -8196,9 +8082,7 @@ expected_browser_cycles
 )
 :
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -8216,7 +8100,7 @@ test
 %
 s
 "
-                          
+                     
 %
 (
 test
@@ -8294,9 +8178,7 @@ mkdtemp
 (
 )
                     
-self
-.
-log
+LOG
 .
 info
 (
@@ -8402,9 +8284,7 @@ not
 None
 :
                     
-self
-.
-log
+LOG
 .
 info
 (
@@ -8512,9 +8392,7 @@ run_local
 ]
 :
                 
-self
-.
-log
+LOG
 .
 info
 (
@@ -8573,9 +8451,7 @@ None
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -8596,7 +8472,7 @@ be
 restarted
 between
 "
-                      
+                 
 "
 page
 cycles
@@ -8762,9 +8638,7 @@ run_local
 ]
 :
             
-self
-.
-log
+LOG
 .
 info
 (
@@ -8893,9 +8767,7 @@ remote_dir
 )
 :
                 
-self
-.
-log
+LOG
 .
 error
 (
@@ -8932,9 +8804,7 @@ mozcrash
 .
 log_crashes
 (
-self
-.
-log
+LOG
 dump_dir
 self
 .
@@ -8963,9 +8833,7 @@ except
 Exception
 :
                 
-self
-.
-log
+LOG
 .
 warning
 (
@@ -8989,9 +8857,7 @@ self
 )
 :
         
-self
-.
-log
+LOG
 .
 info
 (
@@ -9075,19 +8941,6 @@ sys
 .
 stdout
 }
-)
-    
-LOG
-=
-get_default_logger
-(
-component
-=
-'
-raptor
--
-main
-'
 )
     
 LOG

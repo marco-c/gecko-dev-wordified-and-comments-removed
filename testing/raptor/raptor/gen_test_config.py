@@ -5,9 +5,11 @@ absolute_import
 import
 os
 from
-mozlog
+logger
+.
+logger
 import
-get_proxy_logger
+RaptorLogger
 here
 =
 os
@@ -50,11 +52,11 @@ raptor
 )
 LOG
 =
-get_proxy_logger
+RaptorLogger
 (
 component
 =
-"
+'
 raptor
 -
 gen
@@ -62,7 +64,7 @@ gen
 test
 -
 config
-"
+'
 )
 def
 gen_test_config
