@@ -304,6 +304,15 @@ self
 .
 binary_path
 =
+kwargs
+.
+get
+(
+"
+binary
+"
+)
+or
 self
 .
 get_binary_path
