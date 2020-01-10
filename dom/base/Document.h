@@ -687,6 +687,9 @@ nsXULPrototypeDocument
 class
 nsXULPrototypeElement
 ;
+class
+PermissionDelegateHandler
+;
 struct
 nsFont
 ;
@@ -11294,6 +11297,12 @@ ScheduleResizeObserversNotification
 )
 const
 ;
+PermissionDelegateHandler
+*
+GetPermissionDelegateHandler
+(
+)
+;
 public
 :
 DocumentL10n
@@ -13067,6 +13076,12 @@ UniquePtr
 ResizeObserverController
 >
 mResizeObserverController
+;
+RefPtr
+<
+PermissionDelegateHandler
+>
+mPermissionDelegateHandler
 ;
 bool
 mBidiEnabled
