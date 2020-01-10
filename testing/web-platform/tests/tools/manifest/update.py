@@ -88,6 +88,8 @@ tests_root
 manifest
            
 manifest_path
+=
+None
            
 working_copy
 =
