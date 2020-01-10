@@ -908,6 +908,9 @@ mPagePrintTimer
 =
 nullptr
 ;
+nsString
+mFallbackDocTitle
+;
 float
 mScreenDPI
 =

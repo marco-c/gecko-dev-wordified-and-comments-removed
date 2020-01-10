@@ -220,9 +220,6 @@ PrintPreviewUserEventSuppressor
 >
 mPPEventSuppressor
 ;
-nsString
-mBrandName
-;
 private
 :
 nsPrintData
