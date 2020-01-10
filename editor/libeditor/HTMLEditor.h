@@ -3814,6 +3814,16 @@ nsAtom
 aBlockTag
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+FormatBlockContainer
+(
+nsAtom
+&
+aBlockType
+)
+;
 protected
 :
 virtual

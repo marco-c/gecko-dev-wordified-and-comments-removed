@@ -778,16 +778,6 @@ aHandled
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
-MakeBasicBlock
-(
-nsAtom
-&
-aBlockType
-)
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
 DidMakeBasicBlock
 (
 )
