@@ -481,8 +481,8 @@ HBRUSH
 defaultBack
 )
 ;
-nsresult
-DrawCustomScrollbarPart
+bool
+MayDrawCustomScrollbarPart
 (
 gfxContext
 *
@@ -490,12 +490,6 @@ aContext
 nsIFrame
 *
 aFrame
-mozilla
-:
-:
-ComputedStyle
-*
-aStyle
 StyleAppearance
 aAppearance
 const

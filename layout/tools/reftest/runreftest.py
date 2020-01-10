@@ -2623,6 +2623,21 @@ ahem_antialias_none
 =
 True
         
+prefs
+[
+'
+widget
+.
+disable
+-
+dark
+-
+scrollbar
+'
+]
+=
+True
+        
 if
 tests
 :

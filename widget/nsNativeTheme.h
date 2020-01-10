@@ -688,6 +688,7 @@ nsIFrame
 aFrame
 )
 ;
+static
 bool
 IsDarkBackground
 (
