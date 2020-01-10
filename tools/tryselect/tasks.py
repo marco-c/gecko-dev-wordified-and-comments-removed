@@ -678,6 +678,13 @@ target_task_set
 '
 )
     
+generate
+(
+'
+target_task_graph
+'
+)
+    
 os
 .
 chdir
