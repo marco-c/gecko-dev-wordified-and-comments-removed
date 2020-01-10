@@ -225,12 +225,12 @@ normal
 arrow
 "
 :
-30
+32
 "
 doorhanger
 "
 :
-21
+24
 }
 ;
 const
@@ -288,10 +288,7 @@ normal
 arrow
 "
 :
--
-0
-.
-5
+3
 "
 doorhanger
 "
@@ -479,8 +476,6 @@ top
 viewportRect
 .
 top
-+
-1
 ;
 return
 {
