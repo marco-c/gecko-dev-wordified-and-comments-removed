@@ -2652,6 +2652,11 @@ UpdateSrcStreamTime
 )
 ;
 void
+UpdateSrcStreamReportPlaybackEnded
+(
+)
+;
+void
 NotifyMediaStreamTrackAdded
 (
 const
@@ -3442,6 +3447,11 @@ HTMLMediaElement
 mSrcStreamPlaybackEnded
 "
 }
+;
+bool
+mSrcStreamReportPlaybackEnded
+=
+false
 ;
 UniquePtr
 <
