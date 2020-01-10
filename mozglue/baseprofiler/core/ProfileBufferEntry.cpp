@@ -5028,7 +5028,7 @@ mDescription
 ;
 aWriter
 .
-StartObjectProperty
+StartArrayProperty
 (
 "
 sample_groups
@@ -5107,6 +5107,13 @@ size
 continue
 ;
 }
+aWriter
+.
+StartObjectElement
+(
+)
+;
+{
 aWriter
 .
 IntProperty
@@ -5391,6 +5398,13 @@ EndObject
 aWriter
 .
 EndObject
+(
+)
+;
+}
+aWriter
+.
+EndArray
 (
 )
 ;
