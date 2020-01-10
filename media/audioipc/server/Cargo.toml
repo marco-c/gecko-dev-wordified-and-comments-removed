@@ -143,6 +143,15 @@ uds
 .
 7
 "
+audio_thread_priority
+=
+"
+0
+.
+13
+.
+0
+"
 [
 dependencies
 .
