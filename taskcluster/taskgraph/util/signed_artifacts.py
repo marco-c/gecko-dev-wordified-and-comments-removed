@@ -275,6 +275,9 @@ macapp
 '
 widevine
 '
+'
+autograph_omnija
+'
 ]
         
 }
@@ -361,6 +364,9 @@ sha2signcode
 '
 widevine
 '
+'
+autograph_omnija
+'
 ]
         
 }
@@ -446,6 +452,9 @@ autograph_gpg
 '
 '
 widevine
+'
+'
+autograph_omnija
 '
 ]
         
@@ -626,6 +635,33 @@ remove
 (
 '
 widevine
+'
+)
+        
+if
+'
+autograph_omnija
+'
+in
+spec
+[
+'
+formats
+'
+]
+:
+            
+spec
+[
+'
+formats
+'
+]
+.
+remove
+(
+'
+autograph_omnija
 '
 )
     
