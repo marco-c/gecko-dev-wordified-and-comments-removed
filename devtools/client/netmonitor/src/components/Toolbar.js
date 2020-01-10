@@ -985,6 +985,12 @@ event
 =
 >
 {
+event
+.
+preventDefault
+(
+)
+;
 this
 .
 props
