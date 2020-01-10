@@ -1,7 +1,11 @@
 #
 include
 "
-nsMathMLElement
+mozilla
+/
+dom
+/
+MathMLElement
 .
 h
 "
@@ -200,8 +204,8 @@ dom
 ;
 NS_IMPL_ISUPPORTS_INHERITED
 (
-nsMathMLElement
-nsMathMLElementBase
+MathMLElement
+MathMLElementBase
 Link
 )
 static
@@ -381,10 +385,10 @@ argv
 )
 ;
 }
-nsMathMLElement
+MathMLElement
 :
 :
-nsMathMLElement
+MathMLElement
 (
 already_AddRefed
 <
@@ -400,7 +404,7 @@ NodeInfo
 aNodeInfo
 )
 :
-nsMathMLElementBase
+MathMLElementBase
 (
 std
 :
@@ -423,10 +427,10 @@ false
 )
 {
 }
-nsMathMLElement
+MathMLElement
 :
 :
-nsMathMLElement
+MathMLElement
 (
 already_AddRefed
 <
@@ -443,7 +447,7 @@ NodeInfo
 aNodeInfo
 )
 :
-nsMathMLElementBase
+MathMLElementBase
 (
 std
 :
@@ -467,7 +471,7 @@ false
 {
 }
 nsresult
-nsMathMLElement
+MathMLElement
 :
 :
 BindToTree
@@ -497,7 +501,7 @@ ElementHasHref
 nsresult
 rv
 =
-nsMathMLElementBase
+MathMLElementBase
 :
 :
 BindToTree
@@ -560,7 +564,7 @@ rv
 ;
 }
 void
-nsMathMLElement
+MathMLElement
 :
 :
 UnbindFromTree
@@ -583,7 +587,7 @@ ElementHasHref
 )
 )
 ;
-nsMathMLElementBase
+MathMLElementBase
 :
 :
 UnbindFromTree
@@ -593,7 +597,7 @@ aNullParent
 ;
 }
 bool
-nsMathMLElement
+MathMLElement
 :
 :
 ParseAttribute
@@ -744,7 +748,7 @@ true
 }
 }
 return
-nsMathMLElementBase
+MathMLElementBase
 :
 :
 ParseAttribute
@@ -887,7 +891,7 @@ nullptr
 }
 ;
 bool
-nsMathMLElement
+MathMLElement
 :
 :
 IsAttributeMapped
@@ -983,7 +987,7 @@ width
 ;
 }
 nsMapRuleToAttributesFunc
-nsMathMLElement
+MathMLElement
 :
 :
 GetAttributeMappingFunction
@@ -997,7 +1001,7 @@ MapMathMLAttributesInto
 ;
 }
 bool
-nsMathMLElement
+MathMLElement
 :
 :
 ParseNamedSpaceValue
@@ -1348,7 +1352,7 @@ false
 ;
 }
 bool
-nsMathMLElement
+MathMLElement
 :
 :
 ParseNumericValue
@@ -2039,7 +2043,7 @@ true
 ;
 }
 void
-nsMathMLElement
+MathMLElement
 :
 :
 MapMathMLAttributesInto
@@ -3770,7 +3774,7 @@ break
 }
 }
 void
-nsMathMLElement
+MathMLElement
 :
 :
 GetEventTargetParent
@@ -3795,7 +3799,7 @@ aVisitor
 ;
 }
 nsresult
-nsMathMLElement
+MathMLElement
 :
 :
 PostHandleEvent
@@ -3814,10 +3818,10 @@ aVisitor
 }
 NS_IMPL_ELEMENT_CLONE
 (
-nsMathMLElement
+MathMLElement
 )
 EventStates
-nsMathMLElement
+MathMLElement
 :
 :
 IntrinsicState
@@ -3833,7 +3837,7 @@ LinkState
 (
 )
 |
-nsMathMLElementBase
+MathMLElementBase
 :
 :
 IntrinsicState
@@ -3852,7 +3856,7 @@ EventStates
 ;
 }
 bool
-nsMathMLElement
+MathMLElement
 :
 :
 IsNodeOfType
@@ -3867,7 +3871,7 @@ false
 ;
 }
 void
-nsMathMLElement
+MathMLElement
 :
 :
 SetIncrementScriptLevel
@@ -3909,7 +3913,7 @@ true
 ;
 }
 bool
-nsMathMLElement
+MathMLElement
 :
 :
 IsFocusableInternal
@@ -3984,7 +3988,7 @@ false
 ;
 }
 bool
-nsMathMLElement
+MathMLElement
 :
 :
 IsLink
@@ -4222,7 +4226,7 @@ false
 ;
 }
 void
-nsMathMLElement
+MathMLElement
 :
 :
 GetLinkTarget
@@ -4342,7 +4346,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsMathMLElement
+MathMLElement
 :
 :
 GetHrefURI
@@ -4375,7 +4379,7 @@ nullptr
 ;
 }
 nsresult
-nsMathMLElement
+MathMLElement
 :
 :
 AfterSetAttr
@@ -4473,7 +4477,7 @@ ElementHasHref
 ;
 }
 return
-nsMathMLElementBase
+MathMLElementBase
 :
 :
 AfterSetAttr
@@ -4489,7 +4493,7 @@ aNotify
 }
 JSObject
 *
-nsMathMLElement
+MathMLElement
 :
 :
 WrapNode

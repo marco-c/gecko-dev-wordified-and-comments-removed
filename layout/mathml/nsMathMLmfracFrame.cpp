@@ -81,7 +81,11 @@ h
 #
 include
 "
-nsMathMLElement
+mozilla
+/
+dom
+/
+MathMLElement
 .
 h
 "
@@ -395,7 +399,10 @@ ParseNumericValue
 aThicknessAttribute
 &
 lineThickness
-nsMathMLElement
+dom
+:
+:
+MathMLElement
 :
 :
 PARSE_ALLOW_UNITLESS
@@ -535,7 +542,10 @@ ParseNumericValue
 aThicknessAttribute
 &
 lineThickness
-nsMathMLElement
+dom
+:
+:
+MathMLElement
 :
 :
 PARSE_ALLOW_UNITLESS

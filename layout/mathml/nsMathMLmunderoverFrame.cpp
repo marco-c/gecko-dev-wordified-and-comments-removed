@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsMathMLElement
+mozilla
+/
+dom
+/
+MathMLElement
 .
 h
 "
@@ -484,7 +488,10 @@ element
 =
 static_cast
 <
-nsMathMLElement
+dom
+:
+:
+MathMLElement
 *
 >
 (
@@ -659,7 +666,10 @@ element
 =
 static_cast
 <
-nsMathMLElement
+dom
+:
+:
+MathMLElement
 *
 >
 (

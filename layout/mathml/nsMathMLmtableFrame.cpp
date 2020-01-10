@@ -43,7 +43,11 @@ h
 #
 include
 "
-nsMathMLElement
+mozilla
+/
+dom
+/
+MathMLElement
 .
 h
 "
@@ -2228,7 +2232,10 @@ ParseNumericValue
 valueString
 &
 newValue
-nsMathMLElement
+dom
+:
+:
+MathMLElement
 :
 :
 PARSE_ALLOW_UNITLESS
