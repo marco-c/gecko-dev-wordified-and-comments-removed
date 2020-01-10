@@ -1897,6 +1897,12 @@ panel
 item
 -
 separator
+:
+last
+-
+of
+-
+type
 "
 )
 ;
