@@ -268,6 +268,11 @@ ResizeBufferIfNeeded
 (
 )
 ;
+bool
+CreateEGLSurface
+(
+)
+;
 void
 DestroyEGLSurface
 (
