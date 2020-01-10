@@ -212,7 +212,7 @@ linux64
 -
 gcc
 -
-7
+6
 linux64
 -
 clang
@@ -313,7 +313,7 @@ linux64
 -
 gcc
 -
-7
+6
 linux64
 -
 clang
@@ -421,7 +421,7 @@ linux64
 -
 gcc
 -
-7
+6
 linux64
 -
 clang
@@ -555,7 +555,7 @@ linux64
 -
 gcc
 -
-7
+6
 linux64
 -
 clang
@@ -692,7 +692,7 @@ linux64
 -
 gcc
 -
-7
+6
 linux64
 -
 clang
@@ -810,7 +810,7 @@ linux64
 -
 gcc
 -
-7
+6
 -
 linux64
 -
@@ -982,7 +982,7 @@ linux64
 -
 gcc
 -
-7
+6
 linux64
 -
 clang
@@ -1178,7 +1178,7 @@ linux64
 -
 gcc
 -
-7
+6
 macosx64
 -
 clang
@@ -1351,7 +1351,7 @@ linux64
 -
 gcc
 -
-7
+6
 -
 linux64
 -
