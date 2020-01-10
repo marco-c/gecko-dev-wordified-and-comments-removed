@@ -16366,9 +16366,6 @@ ptr
 bytesRead
 ;
 }
-size_t
-bytesAllocated
-;
 if
 (
 utf8Source
@@ -16376,8 +16373,6 @@ utf8Source
 {
 *
 len
-=
-bytesAllocated
 =
 rawLen
 ;
@@ -16456,16 +16451,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bytesAllocated
-=
-*
-len
-*
-sizeof
-(
-char16_t
-)
-;
 }
 return
 NS_OK
