@@ -362,6 +362,16 @@ push
 '
 ]
     
+templates
+=
+[
+'
+disable
+-
+pgo
+'
+]
+    
 def
 __init__
 (
@@ -401,10 +411,15 @@ migrations
 def
 run
 (
+    
 version
 migrations
 limit_locales
 tasks
+    
+try_config
+=
+None
 push
 =
 True
@@ -626,6 +641,24 @@ release_type
 }
     
 }
+    
+if
+try_config
+:
+        
+task_config
+[
+'
+parameters
+'
+]
+[
+'
+try_task_config
+'
+]
+=
+try_config
     
 for
 migration

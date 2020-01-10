@@ -748,9 +748,32 @@ pgo
 False
 )
         
+disable_pgo
+=
+config
+.
+params
+[
+'
+try_task_config
+'
+]
+.
+get
+(
+'
+disable
+-
+pgo
+'
+False
+)
+        
 if
 not
 use_pgo
+or
+disable_pgo
 :
             
 yield

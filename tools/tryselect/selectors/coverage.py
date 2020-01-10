@@ -320,6 +320,11 @@ chemspill
 -
 prio
 '
+'
+disable
+-
+pgo
+'
 ]
 def
 read_test_manifests
