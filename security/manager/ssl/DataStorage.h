@@ -178,7 +178,7 @@ nsresult
 Init
 (
 const
-InfallibleTArray
+nsTArray
 <
 mozilla
 :
@@ -267,7 +267,7 @@ aEntries
 void
 GetAll
 (
-InfallibleTArray
+nsTArray
 <
 DataStorageItem
 >
@@ -280,7 +280,7 @@ void
 SetCachedStorageEntries
 (
 const
-InfallibleTArray
+nsTArray
 <
 mozilla
 :
@@ -577,7 +577,7 @@ ReadAllFromTable
 (
 DataStorageType
 aType
-InfallibleTArray
+nsTArray
 <
 DataStorageItem
 >

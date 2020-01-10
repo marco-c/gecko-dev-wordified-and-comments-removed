@@ -194,7 +194,7 @@ do_GetService
 NS_SECRETDECODERRING_CONTRACTID
 )
 ;
-InfallibleTArray
+nsTArray
 <
 nsString
 >
@@ -367,7 +367,7 @@ do_GetService
 NS_SECRETDECODERRING_CONTRACTID
 )
 ;
-InfallibleTArray
+nsTArray
 <
 nsString
 >

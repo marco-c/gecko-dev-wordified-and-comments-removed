@@ -1163,7 +1163,7 @@ DataStorage
 SetCachedStorageEntries
 (
 const
-InfallibleTArray
+nsTArray
 <
 mozilla
 :
@@ -1411,7 +1411,7 @@ DataStorage
 Init
 (
 const
-InfallibleTArray
+nsTArray
 <
 mozilla
 :
@@ -3051,7 +3051,7 @@ ReadAllFromTable
 (
 DataStorageType
 aType
-InfallibleTArray
+nsTArray
 <
 dom
 :
@@ -3151,7 +3151,7 @@ DataStorage
 :
 GetAll
 (
-InfallibleTArray
+nsTArray
 <
 dom
 :
