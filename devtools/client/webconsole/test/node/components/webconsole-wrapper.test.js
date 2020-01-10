@@ -120,6 +120,14 @@ client
 :
 {
 }
+getFront
+:
+(
+)
+=
+>
+{
+}
 }
 getMappedExpression
 :
