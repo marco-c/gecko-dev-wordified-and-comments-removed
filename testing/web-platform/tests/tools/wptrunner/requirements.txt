@@ -35,7 +35,7 @@ pillow
 =
 6
 .
-1
+2
 .
 0
 urllib3
