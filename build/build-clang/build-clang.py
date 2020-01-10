@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -35,7 +39,7 @@ dir_util
 import
 copy_tree
 from
-mozfile
+shutil
 import
 which
 URL_REPO
@@ -114,17 +118,19 @@ args
 :
     
 print
->
->
-sys
-.
-stderr
+(
 '
 '
 .
 join
 (
 args
+)
+file
+=
+sys
+.
+stderr
 )
     
 if
@@ -180,6 +186,10 @@ stdout
 write
 (
 line
+.
+decode
+(
+)
 )
             
 sys
@@ -316,11 +326,7 @@ f
 :
                     
 print
->
->
-sys
-.
-stderr
+(
 "
 \
 nContents
@@ -332,17 +338,25 @@ follow
 \
 n
 "
-                    
-print
->
->
+file
+=
 sys
 .
 stderr
+)
+                    
+print
+(
 f
 .
 read
 (
+)
+file
+=
+sys
+.
+stderr
 )
             
 if
@@ -407,11 +421,7 @@ getcwd
 )
     
 print
->
->
-sys
-.
-stderr
+(
 '
 cd
 "
@@ -421,6 +431,12 @@ s
 '
 %
 path
+file
+=
+sys
+.
+stderr
+)
     
 os
 .
@@ -435,11 +451,7 @@ args
 )
     
 print
->
->
-sys
-.
-stderr
+(
 '
 cd
 "
@@ -449,6 +461,12 @@ s
 '
 %
 d
+file
+=
+sys
+.
+stderr
+)
     
 os
 .
@@ -1086,6 +1104,10 @@ path
 dirname
 (
 out
+.
+decode
+(
+)
 .
 rstrip
 (
@@ -2526,7 +2548,7 @@ cfg
 in
 android_targets
 .
-iteritems
+items
 (
 )
 :
@@ -4962,7 +4984,7 @@ cfg
 in
 android_targets
 .
-iteritems
+items
 (
 )
 :
@@ -5051,10 +5073,7 @@ all
 isinstance
 (
 t
-(
 str
-unicode
-)
 )
 for
 t

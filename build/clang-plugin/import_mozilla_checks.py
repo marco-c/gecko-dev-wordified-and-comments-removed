@@ -190,11 +190,7 @@ module_path
     
 names
 =
-map
-(
-lambda
-f
-:
+[
 '
 '
 +
@@ -206,7 +202,9 @@ basename
 (
 f
 )
-                
+for
+f
+in
 glob
 .
 glob
@@ -222,7 +220,7 @@ cpp
 %
 module_path
 )
-)
+]
     
 with
 open
@@ -241,7 +239,7 @@ txt
 '
 )
 '
-wb
+w
 '
 )
 as
@@ -451,7 +449,7 @@ open
 (
 cmake_path
 '
-wb
+w
 '
 )
 as
@@ -495,11 +493,7 @@ f
 .
 writelines
 (
-map
-(
-lambda
-p
-:
+[
 '
 '
 +
@@ -509,8 +503,11 @@ p
 \
 n
 '
+for
+p
+in
 libs
-)
+]
 )
                 
 continue
