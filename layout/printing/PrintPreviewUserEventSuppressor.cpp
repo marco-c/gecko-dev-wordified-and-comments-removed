@@ -750,15 +750,11 @@ content
 do_QueryInterface
 (
 aEvent
-?
-aEvent
 -
 >
 GetOriginalTarget
 (
 )
-:
-nullptr
 )
 ;
 if
