@@ -357,6 +357,11 @@ origin
 )
 .
 host
+|
+|
+login
+.
+origin
 ;
 }
 catch
