@@ -263,6 +263,9 @@ flake8
 linters
 /
 l10n
+linters
+/
+rstlinter
 Indices
 and
 tables
