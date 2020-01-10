@@ -749,6 +749,8 @@ const
 ScrollbarData
 &
 aScrollbarData
+bool
+aScrollbarIsDescendant
 AsyncTransformComponentMatrix
 *
 aOutClipTransform
@@ -1545,6 +1547,9 @@ mTargetGuid
 CSSTransformMatrix
 mTargetTransform
 ;
+bool
+mTargetIsAncestor
+;
 ScrollThumbInfo
 (
 const
@@ -1567,6 +1572,8 @@ const
 CSSTransformMatrix
 &
 aTargetTransform
+bool
+aTargetIsAncestor
 )
 :
 mThumbAnimationId
@@ -1588,6 +1595,10 @@ aTargetGuid
 mTargetTransform
 (
 aTargetTransform
+)
+mTargetIsAncestor
+(
+aTargetIsAncestor
 )
 {
 MOZ_ASSERT

@@ -190,6 +190,16 @@ GetParent
 )
 const
 ;
+bool
+IsAncestorOf
+(
+const
+HitTestingTreeNode
+*
+aOther
+)
+const
+;
 AsyncPanZoomController
 *
 GetApzc

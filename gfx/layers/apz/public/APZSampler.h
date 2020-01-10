@@ -237,6 +237,8 @@ const
 ScrollbarData
 &
 aThumbData
+bool
+aScrollbarIsDescendant
 AsyncTransformComponentMatrix
 *
 aOutClipTransform

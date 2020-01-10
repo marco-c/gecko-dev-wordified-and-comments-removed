@@ -677,6 +677,8 @@ const
 ScrollbarData
 &
 aThumbData
+bool
+aScrollbarIsDescendant
 AsyncTransformComponentMatrix
 *
 aOutClipTransform
@@ -719,6 +721,7 @@ Metrics
 (
 )
 aThumbData
+aScrollbarIsDescendant
 aOutClipTransform
 )
 ;
