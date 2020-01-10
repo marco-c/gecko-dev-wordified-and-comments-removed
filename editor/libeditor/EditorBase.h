@@ -663,7 +663,7 @@ nullptr
 ;
 }
 bool
-HasMutationEventListeners
+MaybeHasMutationEventListeners
 (
 uint32_t
 aMutationEventType
