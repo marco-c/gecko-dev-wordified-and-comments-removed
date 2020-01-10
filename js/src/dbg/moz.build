@@ -232,6 +232,11 @@ DebuggerMemory
 cpp
 '
 '
+Environment
+.
+cpp
+'
+'
 Frame
 .
 cpp
