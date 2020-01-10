@@ -51,6 +51,17 @@ netmonitor
 )
 ;
 const
+toolboxBrowserLoader
+=
+toolbox
+.
+win
+.
+getBrowserLoaderForWindow
+(
+)
+;
+const
 panel
 =
 toolbox
@@ -75,6 +86,9 @@ loaders
 =
 [
 loader
+.
+loader
+toolboxBrowserLoader
 .
 loader
 netmonitorLoader
