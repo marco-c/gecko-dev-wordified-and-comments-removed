@@ -143469,12 +143469,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
-"
-geckoview
-"
 ]
 "
 alert_emails
@@ -143482,7 +143476,7 @@ alert_emails
 :
 [
 "
-mdeboer
+htwyford
 mozilla
 .
 com
@@ -143494,13 +143488,14 @@ bug_numbers
 :
 [
 1313429
+1593726
 ]
 "
 expires_in_version
 "
 :
 "
-71
+77
 "
 "
 kind
