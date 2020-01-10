@@ -3910,7 +3910,7 @@ aCx
 ;
 }
 }
-void
+nsresult
 BrowsingContext
 :
 :
@@ -3952,6 +3952,7 @@ if
 mDocShell
 )
 {
+return
 mDocShell
 -
 >
@@ -3961,7 +3962,6 @@ aLoadState
 )
 ;
 }
-else
 if
 (
 !
@@ -4063,6 +4063,9 @@ aLoadState
 ;
 }
 }
+return
+NS_OK
+;
 }
 void
 BrowsingContext

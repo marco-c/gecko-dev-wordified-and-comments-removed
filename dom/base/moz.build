@@ -1034,6 +1034,11 @@ Location
 h
 '
 '
+LocationBase
+.
+h
+'
+'
 MaybeCrossOriginObject
 .
 h
@@ -1592,6 +1597,11 @@ cpp
 '
 '
 Location
+.
+cpp
+'
+'
+LocationBase
 .
 cpp
 '
