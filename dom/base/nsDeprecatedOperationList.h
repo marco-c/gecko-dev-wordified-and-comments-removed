@@ -148,6 +148,10 @@ MathML_DeprecatedAlignmentAttributes
 )
 DEPRECATED_OPERATION
 (
+MathML_DeprecatedBevelledAttribute
+)
+DEPRECATED_OPERATION
+(
 MathML_DeprecatedLineThicknessValue
 )
 DEPRECATED_OPERATION
