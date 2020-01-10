@@ -57,9 +57,9 @@ xhr
 .
 responseType
 =
-'
+"
 blob
-'
+"
 ;
 xhr
 .
@@ -100,6 +100,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -181,9 +182,9 @@ xhr
 .
 responseType
 =
-'
+"
 blob
-'
+"
 ;
 xhr
 .
@@ -191,8 +192,6 @@ send
 (
 {
 toString
-:
-function
 (
 )
 {
@@ -234,6 +233,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -253,9 +253,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -340,9 +338,9 @@ xhr
 .
 responseType
 =
-'
+"
 blob
-'
+"
 ;
 xhr
 .
@@ -350,8 +348,6 @@ send
 (
 {
 toString
-:
-function
 (
 )
 {
@@ -403,6 +399,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;

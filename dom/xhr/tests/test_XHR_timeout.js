@@ -35,6 +35,7 @@ if
 (
 inWorker
 )
+{
 self
 .
 postMessage
@@ -42,7 +43,9 @@ postMessage
 data
 )
 ;
+}
 else
+{
 self
 .
 postMessage
@@ -53,6 +56,7 @@ data
 "
 )
 ;
+}
 }
 function
 is
@@ -212,8 +216,6 @@ prototype
 =
 {
 startXHR
-:
-function
 (
 )
 {
@@ -268,7 +270,6 @@ e
 )
 ;
 }
-;
 req
 .
 onerror
@@ -345,8 +346,6 @@ null
 ;
 }
 getMessage
-:
-function
 (
 )
 {
@@ -425,8 +424,6 @@ rv
 ;
 }
 handleEvent
-:
-function
 (
 evt
 )
@@ -482,7 +479,6 @@ this
 mustReset
 &
 &
-(
 this
 .
 resetAfter
@@ -496,7 +492,6 @@ this
 .
 timeLimit
 )
-)
 ?
 this
 .
@@ -508,20 +503,16 @@ timeLimit
 ;
 if
 (
-(
 timeLimit
 =
 =
 0
-)
 |
 |
-(
 timeLimit
 >
 =
 3000
-)
 )
 {
 expectedType
@@ -592,8 +583,6 @@ prototype
 =
 {
 startXHR
-:
-function
 (
 )
 {
@@ -645,7 +634,6 @@ e
 )
 ;
 }
-;
 req
 .
 onerror
@@ -787,8 +775,6 @@ abortDelay
 }
 }
 noEventsFired
-:
-function
 (
 )
 {
@@ -819,8 +805,6 @@ testComplete
 ;
 }
 getMessage
-:
-function
 (
 )
 {
@@ -845,8 +829,6 @@ at
 ;
 }
 handleEvent
-:
-function
 (
 evt
 )
@@ -889,14 +871,12 @@ true
 var
 expectedEvent
 =
-(
 this
 .
 abortDelay
 >
 =
 2000
-)
 ?
 "
 timeout
@@ -933,8 +913,6 @@ SyncRequestSettingTimeoutAfterOpen
 =
 {
 startXHR
-:
-function
 (
 )
 {
@@ -1016,8 +994,6 @@ SyncRequestSettingTimeoutBeforeOpen
 =
 {
 startXHR
-:
-function
 (
 )
 {
@@ -1408,8 +1384,6 @@ TestCounter
 =
 {
 testComplete
-:
-function
 (
 )
 {
@@ -1433,8 +1407,6 @@ next
 ;
 }
 next
-:
-function
 (
 )
 {

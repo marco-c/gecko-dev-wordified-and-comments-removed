@@ -17,9 +17,9 @@ xhr
 .
 open
 (
-'
+"
 GET
-'
+"
 e
 .
 data

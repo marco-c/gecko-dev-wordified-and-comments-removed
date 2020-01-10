@@ -159,13 +159,11 @@ statusText
 if
 (
 (
-(
 "
 ProgressEvent
 "
 in
 this
-)
 &
 &
 event
@@ -175,13 +173,11 @@ ProgressEvent
 |
 |
 (
-(
 "
 WorkerProgressEvent
 "
 in
 this
-)
 &
 &
 event
@@ -237,6 +233,7 @@ statusText
 )
 ;
 }
+;
 xhr
 .
 onload

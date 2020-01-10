@@ -2069,14 +2069,11 @@ testNotToLeakResponseURLWhileDoingRedirectsInWorker
 )
 ;
 }
-else
-{
 return
 testNotToLeakResponseURLWhileDoingRedirectsInWindow
 (
 )
 ;
-}
 }
 function
 testNotToLeakResponseURLWhileDoingRedirectsInWindow
@@ -2096,8 +2093,6 @@ requestObserver
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -2664,11 +2659,9 @@ ok
 responseURL
 "
 in
-(
 new
 XMLHttpRequest
 (
-)
 )
 "
 XMLHttpRequest
@@ -2681,11 +2674,9 @@ attribute
 ;
 is
 (
-(
 new
 XMLHttpRequest
 (
-)
 )
 .
 responseURL
