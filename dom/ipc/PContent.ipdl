@@ -279,6 +279,10 @@ protocol
 PSessionStorageObserver
 ;
 include
+protocol
+PBenchmarkStorage
+;
+include
 DOMTypes
 ;
 include
@@ -1777,6 +1781,9 @@ PLoginReputation
 ;
 manages
 PSessionStorageObserver
+;
+manages
+PBenchmarkStorage
 ;
 /
 /
@@ -4806,6 +4813,11 @@ formURI
 ;
 async
 PSessionStorageObserver
+(
+)
+;
+async
+PBenchmarkStorage
 (
 )
 ;
