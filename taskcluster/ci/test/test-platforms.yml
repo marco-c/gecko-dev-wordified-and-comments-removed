@@ -1852,6 +1852,12 @@ android
 common
 -
 tests
+-
+android
+-
+debug
+-
+tests
 #
 Disable
 ccov
