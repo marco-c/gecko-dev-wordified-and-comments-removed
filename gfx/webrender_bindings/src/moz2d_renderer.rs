@@ -2850,6 +2850,7 @@ self
 >
 Box
 <
+dyn
 AsyncBlobImageRasterizer
 >
 {
@@ -2953,6 +2954,7 @@ self
 resources
 :
 &
+dyn
 BlobImageResources
 requests
 :
@@ -3178,6 +3180,7 @@ u8
 resources
 :
 &
+dyn
 BlobImageResources
 )
 {
@@ -3398,6 +3401,7 @@ BufReader
 resources
 :
 &
+dyn
 BlobImageResources
 unscaled_fonts
 :
