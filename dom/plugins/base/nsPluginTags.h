@@ -379,6 +379,10 @@ nsCString
 >
 mExtensions
 ;
+static
+uint32_t
+sNextId
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
@@ -727,10 +731,6 @@ FixupVersion
 (
 )
 ;
-static
-uint32_t
-sNextId
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
@@ -919,10 +919,6 @@ nsPluginTag
 :
 PluginState
 mState
-;
-static
-uint32_t
-sNextId
 ;
 }
 ;

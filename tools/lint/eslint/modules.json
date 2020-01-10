@@ -813,7 +813,7 @@ jsm
 TabCrashHandler
 "
 "
-PluginCrashReporter
+SubframeCrashHandler
 "
 "
 UnsubmittedCrashHandler

@@ -306,6 +306,11 @@ PluginChild
 jsm
 '
 '
+PluginParent
+.
+jsm
+'
+'
 RFPHelperChild
 .
 jsm

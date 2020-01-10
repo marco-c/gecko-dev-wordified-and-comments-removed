@@ -338,12 +338,7 @@ BrowserTestUtils
 .
 withNewTab
 (
-{
-gBrowser
-url
-:
 PLUGIN_PAGE
-}
 async
 function
 (
