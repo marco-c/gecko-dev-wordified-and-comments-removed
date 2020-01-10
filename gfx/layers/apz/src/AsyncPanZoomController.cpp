@@ -7466,6 +7466,16 @@ CancelAnimation
 ;
 ParentLayerPoint
 startPoint
+endPoint
+;
+{
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
+startPoint
 =
 destination
 *
@@ -7477,7 +7487,6 @@ GetZoom
 (
 )
 ;
-ParentLayerPoint
 endPoint
 =
 Metrics
@@ -7496,6 +7505,7 @@ GetZoom
 (
 )
 ;
+}
 ParentLayerPoint
 delta
 =
