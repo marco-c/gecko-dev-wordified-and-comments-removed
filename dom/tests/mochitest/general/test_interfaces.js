@@ -979,6 +979,16 @@ true
 name
 :
 "
+BatteryManager
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 BeforeUnloadEvent
 "
 insecureContext
