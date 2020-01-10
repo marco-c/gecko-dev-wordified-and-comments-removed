@@ -3655,6 +3655,11 @@ detect_leaks
 =
 0
 "
+RUSTC_BOOTSTRAP
+:
+'
+1
+'
 run
 :
 using
@@ -3733,8 +3738,6 @@ cbindgen
 linux64
 -
 rust
--
-nightly
 -
 linux64
 -
@@ -4961,6 +4964,11 @@ env
 PERFHERDER_EXTRA_OPTIONS
 :
 tup
+RUSTC_BOOTSTRAP
+:
+'
+1
+'
 run
 :
 using
@@ -5050,8 +5058,6 @@ clang
 linux64
 -
 rust
--
-nightly
 -
 linux64
 -
@@ -5195,6 +5201,11 @@ FORCE_GCC
 '
 1
 '
+RUSTC_BOOTSTRAP
+:
+'
+1
+'
 run
 :
 using
@@ -5282,8 +5293,6 @@ clang
 linux64
 -
 rust
--
-nightly
 -
 linux64
 -
@@ -5390,6 +5399,11 @@ FORCE_GCC
 '
 1
 '
+RUSTC_BOOTSTRAP
+:
+'
+1
+'
 run
 :
 using
@@ -5477,8 +5491,6 @@ clang
 linux64
 -
 rust
--
-nightly
 -
 linux64
 -
