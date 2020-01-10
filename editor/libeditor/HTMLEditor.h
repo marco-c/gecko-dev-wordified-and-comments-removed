@@ -4492,6 +4492,7 @@ aNode
 ;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
+virtual
 EditActionResult
 HandleDeleteSelection
 (
@@ -4506,6 +4507,7 @@ nsIEditor
 EStripWrappers
 aStripWrappers
 )
+final
 ;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
