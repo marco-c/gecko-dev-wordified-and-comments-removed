@@ -496,7 +496,7 @@ mEventQueue
 ;
 nsCOMPtr
 <
-nsIChildChannel
+nsIChannel
 >
 mRedirectChannel
 ;
