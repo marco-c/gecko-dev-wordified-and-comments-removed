@@ -19,9 +19,9 @@ resource
 /
 specialpowers
 /
-specialpowersAPI
+SpecialPowersAPI
 .
-js
+jsm
 "
 this
 )
