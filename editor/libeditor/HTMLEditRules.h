@@ -2160,12 +2160,6 @@ mUtilRange
 uint32_t
 mJoinOffset
 ;
-RefPtr
-<
-RangeItem
->
-mRangeItem
-;
 StyleCache
 mCachedStyles
 [
