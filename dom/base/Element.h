@@ -2797,6 +2797,12 @@ ClassList
 (
 )
 ;
+nsDOMTokenList
+*
+Part
+(
+)
+;
 nsDOMAttributeMap
 *
 Attributes

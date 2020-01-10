@@ -671,6 +671,12 @@ nsDOMTokenList
 >
 mClassList
 ;
+RefPtr
+<
+nsDOMTokenList
+>
+mPart
+;
 }
 ;
 class
