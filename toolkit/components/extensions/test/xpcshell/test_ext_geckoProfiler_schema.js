@@ -234,14 +234,6 @@ includes
 (
 feature
 )
-|
-|
-feature
-=
-=
-"
-responsiveness
-"
 The
 schema
 of
