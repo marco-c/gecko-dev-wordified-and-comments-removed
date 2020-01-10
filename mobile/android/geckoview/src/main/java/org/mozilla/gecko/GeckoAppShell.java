@@ -4408,8 +4408,9 @@ getHWEncoderCapability
 return
 HardwareCodecCapabilityUtils
 .
-getHWEncoderCapability
+hasHWVP8
 (
+true
 )
 ;
 }
@@ -4431,8 +4432,9 @@ getHWDecoderCapability
 return
 HardwareCodecCapabilityUtils
 .
-getHWDecoderCapability
+hasHWVP8
 (
+false
 )
 ;
 }
