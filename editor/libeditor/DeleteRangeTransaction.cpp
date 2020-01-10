@@ -596,11 +596,11 @@ if
 (
 RefPtr
 <
-CharacterData
+Text
 >
-charDataNode
+textNode
 =
-CharacterData
+Text
 :
 :
 FromNode
@@ -667,7 +667,7 @@ MaybeCreate
 *
 mEditorBase
 *
-charDataNode
+textNode
 aStart
 .
 Offset
@@ -814,11 +814,11 @@ NS_ERROR_NOT_AVAILABLE
 }
 RefPtr
 <
-CharacterData
+Text
 >
-dataNode
+textNode
 =
-CharacterData
+Text
 :
 :
 FromNode
@@ -833,7 +833,7 @@ Container
 if
 (
 !
-dataNode
+textNode
 )
 {
 return
@@ -922,7 +922,7 @@ MaybeCreate
 *
 mEditorBase
 *
-dataNode
+textNode
 startOffset
 numToDelete
 )

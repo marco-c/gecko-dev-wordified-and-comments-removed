@@ -1329,7 +1329,7 @@ DeleteTextWithTransaction
 dom
 :
 :
-CharacterData
+Text
 &
 aTextNode
 uint32_t
