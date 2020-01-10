@@ -36888,8 +36888,8 @@ CompleteUpgrade
 failed
 with
 %
-08x
 "
+PRIx32
 static_cast
 <
 uint32_t
@@ -36899,6 +36899,10 @@ rv
 )
 )
 )
+;
+aStatus
+=
+rv
 ;
 }
 }
