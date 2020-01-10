@@ -1444,6 +1444,11 @@ extension
 )
 ;
 void
+clearUnicodeExtension
+(
+)
+;
+void
 setPrivateuse
 (
 JS
