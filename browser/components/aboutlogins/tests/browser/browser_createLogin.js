@@ -2502,6 +2502,16 @@ gBrowser
 .
 selectedBrowser
 ;
+EXPECTED_ERROR_MESSAGE
+=
+"
+This
+login
+already
+exists
+.
+"
+;
 await
 ContentTask
 .
@@ -2958,6 +2968,10 @@ list
 ;
 }
 )
+;
+EXPECTED_ERROR_MESSAGE
+=
+null
 ;
 }
 )
