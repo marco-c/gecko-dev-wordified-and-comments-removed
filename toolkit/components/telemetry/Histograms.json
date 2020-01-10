@@ -30970,7 +30970,17 @@ bug_numbers
 :
 [
 1473333
+1587226
 ]
+"
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
+"
 "
 alert_emails
 "
@@ -30983,7 +30993,7 @@ mozilla
 com
 "
 "
-dstenberg
+ddamjanovic
 mozilla
 .
 com
