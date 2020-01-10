@@ -46,9 +46,6 @@ gl_generator
 lazy_static
 "
 "
-nix
-"
-"
 percent
 -
 encoding
