@@ -487,15 +487,3 @@ throbber
 .
 png
 )
-skin
-/
-scrollbar
-.
-css
-(
-scrollbar
--
-apz
-.
-css
-)
