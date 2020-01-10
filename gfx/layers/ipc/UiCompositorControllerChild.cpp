@@ -806,7 +806,7 @@ return
 }
 if
 (
-mIsOpen
+mWidget
 )
 {
 RefPtr
@@ -836,6 +836,12 @@ forget
 )
 )
 ;
+}
+if
+(
+mIsOpen
+)
+{
 PUiCompositorControllerChild
 :
 :
