@@ -20755,10 +20755,9 @@ d
 AutoGeckoProfilerEntry
 profilingStackFrame
 (
-rt
--
->
-mainContextFromOwnThread
+TlsContext
+.
+get
 (
 )
 "
