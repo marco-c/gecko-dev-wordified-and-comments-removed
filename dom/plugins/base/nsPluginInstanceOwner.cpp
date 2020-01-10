@@ -1885,16 +1885,6 @@ nsCOMPtr
 <
 nsIURI
 >
-baseURI
-=
-GetBaseURI
-(
-)
-;
-nsCOMPtr
-<
-nsIURI
->
 uri
 ;
 nsresult
@@ -1907,7 +1897,9 @@ getter_AddRefs
 uri
 )
 aURL
-baseURI
+GetBaseURI
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
