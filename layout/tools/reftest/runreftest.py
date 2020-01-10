@@ -161,7 +161,7 @@ e
 :
     
 def
-reraise
+reraise_
 (
 *
 args
@@ -178,7 +178,7 @@ e
     
 Marionette
 =
-reraise
+reraise_
 from
 output
 import
