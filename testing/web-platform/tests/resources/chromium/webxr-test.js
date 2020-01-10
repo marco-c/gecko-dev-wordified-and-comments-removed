@@ -387,14 +387,6 @@ simulateUserActivation
 callback
 )
 {
-return
-new
-Promise
-(
-resolve
-=
->
-{
 let
 button
 =
@@ -457,11 +449,8 @@ onclick
 =
 >
 {
-resolve
-(
 callback
 (
-)
 )
 ;
 document
@@ -489,9 +478,6 @@ test_driver
 click
 (
 button
-)
-;
-}
 )
 ;
 }
