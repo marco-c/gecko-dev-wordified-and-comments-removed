@@ -2680,7 +2680,7 @@ if
 [
 -
 n
-MOZ_CHANNEL_ID
+MAR_CHANNEL_ID
 ]
 ]
 then
@@ -2690,7 +2690,7 @@ mar_command
 mar_command
 -
 H
-MOZ_CHANNEL_ID
+MAR_CHANNEL_ID
 "
 fi
 mar_command

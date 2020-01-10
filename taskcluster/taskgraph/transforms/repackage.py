@@ -342,6 +342,25 @@ arch
 architecture
 }
 '
+            
+'
+-
+-
+mar
+-
+channel
+-
+id
+'
+'
+{
+mar
+-
+channel
+-
+id
+}
+'
         
 ]
         
@@ -423,6 +442,25 @@ arch
 '
 {
 architecture
+}
+'
+            
+'
+-
+-
+mar
+-
+channel
+-
+id
+'
+'
+{
+mar
+-
+channel
+-
+id
 }
 '
         
@@ -1667,6 +1705,25 @@ params
 [
 '
 version
+'
+]
+                
+'
+mar
+-
+channel
+-
+id
+'
+:
+attributes
+[
+'
+mar
+-
+channel
+-
+id
 '
 ]
             

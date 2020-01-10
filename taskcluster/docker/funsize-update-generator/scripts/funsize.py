@@ -1708,7 +1708,7 @@ version
 env
 [
 "
-MOZ_CHANNEL_ID
+MAR_CHANNEL_ID
 "
 ]
 =
