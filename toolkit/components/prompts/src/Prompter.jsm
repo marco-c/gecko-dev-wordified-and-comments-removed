@@ -1813,6 +1813,9 @@ ww
 openWindow
 (
 domWin
+&
+&
+domWin
 .
 docShell
 .
