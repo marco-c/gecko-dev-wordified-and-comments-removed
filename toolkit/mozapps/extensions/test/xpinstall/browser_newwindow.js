@@ -86,7 +86,14 @@ setup
 win
 )
 ;
-PermissionTestUtils
+const
+pm
+=
+Services
+.
+perms
+;
+pm
 .
 add
 (
@@ -94,9 +101,7 @@ exampleURI
 "
 install
 "
-Services
-.
-perms
+pm
 .
 ALLOW_ACTION
 )
@@ -238,7 +243,9 @@ installed
 "
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 remove
 (

@@ -281,9 +281,13 @@ installed
 "
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 remove
+(
+makeURI
 (
 "
 http
@@ -294,6 +298,7 @@ example
 .
 com
 "
+)
 "
 install
 "

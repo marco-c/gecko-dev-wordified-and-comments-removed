@@ -90,7 +90,9 @@ com
 "
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 add
 (
@@ -111,7 +113,9 @@ registerCleanupFunction
 )
 =
 >
-PermissionTestUtils
+Services
+.
+perms
 .
 remove
 (

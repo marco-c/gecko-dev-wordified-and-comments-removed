@@ -59,9 +59,9 @@ Services
 .
 perms
 .
-addFromPrincipal
+add
 (
-principal
+uri
 "
 indexedDB
 "

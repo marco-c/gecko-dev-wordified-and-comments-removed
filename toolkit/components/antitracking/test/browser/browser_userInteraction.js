@@ -158,7 +158,9 @@ TEST_DOMAIN
 ;
 is
 (
-PermissionTestUtils
+Services
+.
+perms
 .
 testPermission
 (

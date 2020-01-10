@@ -384,6 +384,13 @@ true
 )
 ;
 let
+Perms
+=
+Services
+.
+perms
+;
+let
 uri
 =
 Services
@@ -406,7 +413,7 @@ com
 ;
 is
 (
-PermissionTestUtils
+Perms
 .
 testExactPermission
 (
@@ -415,9 +422,7 @@ uri
 microphone
 "
 )
-Services
-.
-perms
+Perms
 .
 ALLOW_ACTION
 "
@@ -429,7 +434,7 @@ allowed
 ;
 is
 (
-PermissionTestUtils
+Perms
 .
 testExactPermission
 (
@@ -438,9 +443,7 @@ uri
 camera
 "
 )
-Services
-.
-perms
+Perms
 .
 ALLOW_ACTION
 "
@@ -457,7 +460,7 @@ stopSharing
 ;
 is
 (
-PermissionTestUtils
+Perms
 .
 testExactPermission
 (
@@ -466,9 +469,7 @@ uri
 microphone
 "
 )
-Services
-.
-perms
+Perms
 .
 UNKNOWN_ACTION
 "
@@ -481,7 +482,7 @@ allowed
 ;
 is
 (
-PermissionTestUtils
+Perms
 .
 testExactPermission
 (
@@ -490,9 +491,7 @@ uri
 camera
 "
 )
-Services
-.
-perms
+Perms
 .
 UNKNOWN_ACTION
 "

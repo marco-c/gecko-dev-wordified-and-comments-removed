@@ -230,7 +230,9 @@ button
 ;
 is
 (
-PermissionTestUtils
+Services
+.
+perms
 .
 testPermission
 (
@@ -260,7 +262,9 @@ prompt
 "
 )
 ;
-PermissionTestUtils
+Services
+.
+perms
 .
 remove
 (
