@@ -2242,7 +2242,7 @@ Length
 )
 ;
 }
-wchar_t
+char16_t
 ch
 =
 keyEvent
