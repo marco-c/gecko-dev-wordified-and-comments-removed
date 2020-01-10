@@ -1671,13 +1671,9 @@ rv
 ;
 if
 (
-host
-.
-EqualsLiteral
+MustResolveJAR
 (
-"
-android
-"
+host
 )
 )
 {
