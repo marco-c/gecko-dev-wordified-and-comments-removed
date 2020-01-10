@@ -195,11 +195,16 @@ click
 :
 {
 let
-classList
+target
 =
 event
 .
-originalTarget
+currentTarget
+;
+let
+classList
+=
+target
 .
 classList
 ;
@@ -210,8 +215,6 @@ classList
 contains
 (
 "
-image
--
 play
 -
 store
@@ -224,8 +227,6 @@ classList
 contains
 (
 "
-image
--
 app
 -
 store
@@ -246,9 +247,7 @@ close
 let
 eventName
 =
-event
-.
-originalTarget
+target
 .
 dataset
 .
