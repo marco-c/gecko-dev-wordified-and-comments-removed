@@ -2842,7 +2842,7 @@ aIsStartup
 ;
 friend
 struct
-PreferencesInternalMethods
+Internals
 ;
 static
 nsresult
