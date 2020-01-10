@@ -146,6 +146,9 @@ returns
 status
 :
 state
+syncEnabled
+:
+true
 }
 )
 ;
