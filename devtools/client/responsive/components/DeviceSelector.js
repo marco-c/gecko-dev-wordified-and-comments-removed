@@ -418,7 +418,6 @@ this
 props
 ;
 return
-(
 dom
 .
 button
@@ -486,7 +485,6 @@ responsive
 .
 responsiveMode
 "
-)
 )
 )
 )

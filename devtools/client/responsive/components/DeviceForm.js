@@ -649,7 +649,6 @@ this
 state
 ;
 return
-(
 dom
 .
 form
@@ -1062,7 +1061,6 @@ responsive
 .
 deviceAdderCancel
 "
-)
 )
 )
 )

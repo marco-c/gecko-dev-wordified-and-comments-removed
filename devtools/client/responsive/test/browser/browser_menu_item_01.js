@@ -43,9 +43,7 @@ window
 const
 activateTab
 =
-(
 tab
-)
 =
 >
 new

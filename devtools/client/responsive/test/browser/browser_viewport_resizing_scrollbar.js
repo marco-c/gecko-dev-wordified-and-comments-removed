@@ -52,19 +52,16 @@ head
 >
 "
 +
-"
+'
 <
 meta
 name
 =
-\
 "
 viewport
-\
 "
 content
 =
-\
 "
 width
 =
@@ -76,11 +73,10 @@ initial
 scale
 =
 1
-\
 "
 /
 >
-"
+'
 +
 "
 <
@@ -89,7 +85,7 @@ head
 >
 "
 +
-"
+'
 <
 body
 >
@@ -97,7 +93,6 @@ body
 div
 style
 =
-\
 "
 background
 :
@@ -110,7 +105,6 @@ width
 height
 :
 1000px
-\
 "
 >
 <
@@ -121,7 +115,7 @@ div
 /
 body
 >
-"
+'
 ;
 addRDMTask
 (

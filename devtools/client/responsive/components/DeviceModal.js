@@ -552,17 +552,13 @@ const
 preferredDevices
 =
 {
-"
 added
-"
 :
 new
 Set
 (
 )
-"
 removed
-"
 :
 new
 Set
@@ -926,7 +922,6 @@ customDeviceName
 ;
 }
 return
-(
 DeviceForm
 (
 {
@@ -957,7 +952,6 @@ this
 onAddCustomDevice
 viewportTemplate
 }
-)
 )
 ;
 }
@@ -1048,7 +1042,6 @@ name
 ;
 }
 return
-(
 this
 .
 props
@@ -1156,7 +1149,6 @@ null
 ;
 }
 )
-)
 ;
 }
 renderEditForm
@@ -1164,7 +1156,6 @@ renderEditForm
 )
 {
 return
-(
 DeviceForm
 (
 {
@@ -1220,7 +1211,6 @@ editingDevice
 height
 }
 }
-)
 )
 ;
 }
@@ -1309,7 +1299,6 @@ state
 deviceFormType
 ;
 return
-(
 dom
 .
 div
@@ -1526,7 +1515,6 @@ onUpdateDeviceModal
 false
 )
 }
-)
 )
 )
 ;

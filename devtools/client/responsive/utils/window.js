@@ -56,9 +56,7 @@ getDOMWindowUtils
 const
 isStartupFinished
 =
-(
 window
-)
 =
 >
 window

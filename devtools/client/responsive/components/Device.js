@@ -270,7 +270,6 @@ touch
 )
 ;
 return
-(
 dom
 .
 label
@@ -351,7 +350,6 @@ device
 name
 )
 children
-)
 )
 ;
 }

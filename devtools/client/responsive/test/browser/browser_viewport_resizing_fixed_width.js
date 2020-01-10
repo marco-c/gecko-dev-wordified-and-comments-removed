@@ -20,7 +20,7 @@ utf
 8
 "
 +
-"
+'
 <
 head
 >
@@ -28,19 +28,15 @@ head
 meta
 name
 =
-\
 "
 viewport
-\
 "
 content
 =
-\
 "
 width
 =
 300
-\
 "
 /
 >
@@ -48,7 +44,7 @@ width
 /
 head
 >
-"
+'
 +
 "
 <

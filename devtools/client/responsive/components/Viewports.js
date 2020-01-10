@@ -276,7 +276,6 @@ start
 ;
 }
 return
-(
 dom
 .
 div
@@ -357,7 +356,6 @@ viewport
 )
 ;
 }
-)
 )
 )
 )

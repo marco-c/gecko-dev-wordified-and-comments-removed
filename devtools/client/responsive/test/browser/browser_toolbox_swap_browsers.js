@@ -218,7 +218,6 @@ tabsInDifferentProcesses
 E10S_MULTI_ENABLED
 &
 &
-(
 gBrowser
 .
 tabs
@@ -245,7 +244,6 @@ linkedBrowser
 frameLoader
 .
 childID
-)
 ;
 info
 (

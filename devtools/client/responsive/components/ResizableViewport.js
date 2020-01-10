@@ -723,7 +723,6 @@ resizing
 ;
 }
 return
-(
 dom
 .
 div
@@ -866,7 +865,6 @@ this
 .
 onResizeStart
 }
-)
 )
 )
 )

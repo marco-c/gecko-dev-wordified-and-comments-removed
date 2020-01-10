@@ -852,7 +852,6 @@ this
 props
 ;
 return
-(
 dom
 .
 iframe
@@ -924,7 +923,6 @@ browser
 ;
 }
 }
-)
 )
 ;
 }

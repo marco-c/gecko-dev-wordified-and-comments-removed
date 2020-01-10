@@ -142,17 +142,13 @@ const
 preferredDevices
 =
 {
-"
 added
-"
 :
 new
 Set
 (
 )
-"
 removed
-"
 :
 new
 Set
@@ -681,7 +677,6 @@ featured
 &
 &
 !
-(
 preferredDevices
 .
 removed
@@ -691,7 +686,6 @@ has
 device
 .
 name
-)
 )
 )
 }

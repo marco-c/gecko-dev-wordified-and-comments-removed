@@ -2415,6 +2415,7 @@ name
 )
 {
 return
+(
 this
 .
 OUTER_TO_INNER_MESSAGES
@@ -2441,6 +2442,7 @@ startsWith
 prefix
 )
 )
+)
 ;
 }
 _shouldTunnelInnerToOuter
@@ -2449,6 +2451,7 @@ name
 )
 {
 return
+(
 this
 .
 INNER_TO_OUTER_MESSAGES
@@ -2473,6 +2476,7 @@ name
 startsWith
 (
 prefix
+)
 )
 )
 ;

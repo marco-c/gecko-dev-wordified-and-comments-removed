@@ -327,7 +327,6 @@ this
 props
 ;
 return
-(
 dom
 .
 div
@@ -388,7 +387,6 @@ onDeviceCheckboxChange
 )
 ;
 }
-)
 )
 )
 ;
