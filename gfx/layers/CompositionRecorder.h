@@ -153,6 +153,11 @@ CompositionRecorder
 =
 default
 ;
+void
+ClearCollectedFrames
+(
+)
+;
 private
 :
 nsTArray
