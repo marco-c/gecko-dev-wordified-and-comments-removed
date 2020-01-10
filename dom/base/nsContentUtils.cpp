@@ -20121,6 +20121,14 @@ false
 ;
 widgetEvent
 .
+mFlags
+.
+mComposed
+=
+true
+;
+widgetEvent
+.
 mTime
 =
 PR_Now
