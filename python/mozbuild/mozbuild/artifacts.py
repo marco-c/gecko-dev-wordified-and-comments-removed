@@ -2304,7 +2304,7 @@ public
 /
 build
 /
-target
+geckoview_example
 \
 .
 apk
@@ -2319,18 +2319,6 @@ mobile
 package_artifact_patterns
 =
 {
-        
-'
-application
-.
-ini
-'
-        
-'
-platform
-.
-ini
-'
         
 '
 *
@@ -2746,16 +2734,6 @@ _package_artifact_patterns
 product
 }
 /
-application
-.
-ini
-'
-        
-'
-{
-product
-}
-/
 crashreporter
 '
         
@@ -2807,16 +2785,6 @@ product
 }
 /
 pingsender
-'
-        
-'
-{
-product
-}
-/
-platform
-.
-ini
 '
         
 '
@@ -3906,26 +3874,6 @@ product
 dependentlibs
 .
 list
-'
-        
-'
-{
-product
-}
-/
-platform
-.
-ini
-'
-        
-'
-{
-product
-}
-/
-application
-.
-ini
 '
         
 '
@@ -8203,22 +8151,6 @@ infolist
 (
 )
 :
-                
-if
-info
-.
-filename
-.
-endswith
-(
-'
-.
-ini
-'
-)
-:
-                    
-continue
                 
 n
 =
