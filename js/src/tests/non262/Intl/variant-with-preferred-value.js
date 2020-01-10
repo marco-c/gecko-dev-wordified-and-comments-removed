@@ -234,9 +234,7 @@ ja
 -
 Latn
 -
-heploc
--
-hepburn
+alalc97
 "
 }
 ;
