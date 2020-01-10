@@ -139,7 +139,7 @@ new
 gfx
 :
 :
-Matrix
+MatrixDouble
 (
 )
 )
@@ -174,7 +174,7 @@ new
 gfx
 :
 :
-Matrix
+MatrixDouble
 (
 *
 other
@@ -191,7 +191,7 @@ new
 gfx
 :
 :
-Matrix4x4
+Matrix4x4Double
 (
 *
 other
@@ -226,7 +226,7 @@ new
 gfx
 :
 :
-Matrix4x4
+Matrix4x4Double
 (
 aMatrix
 )
@@ -1269,7 +1269,7 @@ nsAutoPtr
 gfx
 :
 :
-Matrix
+MatrixDouble
 >
 mMatrix2D
 ;
@@ -1278,7 +1278,7 @@ nsAutoPtr
 gfx
 :
 :
-Matrix4x4
+Matrix4x4Double
 >
 mMatrix3D
 ;
@@ -1332,7 +1332,7 @@ new
 gfx
 :
 :
-Matrix
+MatrixDouble
 (
 )
 ;
@@ -1345,7 +1345,7 @@ new
 gfx
 :
 :
-Matrix4x4
+Matrix4x4Double
 (
 )
 ;
