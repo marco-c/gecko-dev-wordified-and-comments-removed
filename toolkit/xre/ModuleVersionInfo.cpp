@@ -1,7 +1,7 @@
 #
 include
 "
-ModuleVersionInfo_windows
+ModuleVersionInfo
 .
 h
 "
