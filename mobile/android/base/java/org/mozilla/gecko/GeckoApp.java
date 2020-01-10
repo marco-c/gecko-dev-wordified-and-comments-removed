@@ -5456,7 +5456,7 @@ layer_view
 ;
 mLayerView
 .
-setSaveFromParentEnabled
+setSaveEnabled
 (
 false
 )
