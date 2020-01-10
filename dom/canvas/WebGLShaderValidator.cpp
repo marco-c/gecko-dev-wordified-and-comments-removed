@@ -262,7 +262,7 @@ if
 StaticPrefs
 :
 :
-WebGLAllANGLEOptions
+webgl_all_angle_options
 (
 )
 )

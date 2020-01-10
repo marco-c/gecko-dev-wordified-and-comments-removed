@@ -2218,7 +2218,7 @@ d3d11
 StaticPrefs
 :
 :
-WebGLANGLEForceD3D11
+webgl_angle_force_d3d11
 (
 )
 )
@@ -2246,7 +2246,7 @@ d3d11
 StaticPrefs
 :
 :
-WebGLANGLETryD3D11
+webgl_angle_try_d3d11
 (
 )
 )
@@ -2274,7 +2274,7 @@ warp
 StaticPrefs
 :
 :
-WebGLANGLEForceWARP
+webgl_angle_force_warp
 (
 )
 )

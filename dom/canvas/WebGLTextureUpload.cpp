@@ -1630,7 +1630,7 @@ if
 StaticPrefs
 :
 :
-WebGLDisableDOMBlitUploads
+webgl_disable_DOM_blit_uploads
 (
 )
 &

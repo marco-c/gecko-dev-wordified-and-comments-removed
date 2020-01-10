@@ -335,7 +335,7 @@ mCanBeAvailable
 StaticPrefs
 :
 :
-WebGLImmediateQueries
+webgl_allow_immediate_queries
 (
 )
 )
@@ -596,7 +596,7 @@ mCanBeAvailable
 StaticPrefs
 :
 :
-WebGLImmediateQueries
+webgl_allow_immediate_queries
 (
 )
 )

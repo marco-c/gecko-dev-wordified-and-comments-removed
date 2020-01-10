@@ -15497,7 +15497,7 @@ core
 -
 profiles
 "
-WebGL1AllowCoreProfile
+webgl_1_allow_core_profiles
 RelaxedAtomicBool
 false
 )
@@ -15513,7 +15513,7 @@ angle
 -
 options
 "
-WebGLAllANGLEOptions
+webgl_all_angle_options
 RelaxedAtomicBool
 false
 )
@@ -15529,7 +15529,7 @@ force
 -
 d3d11
 "
-WebGLANGLEForceD3D11
+webgl_angle_force_d3d11
 RelaxedAtomicBool
 false
 )
@@ -15545,7 +15545,7 @@ try
 -
 d3d11
 "
-WebGLANGLETryD3D11
+webgl_angle_try_d3d11
 RelaxedAtomicBool
 false
 )
@@ -15561,7 +15561,7 @@ force
 -
 warp
 "
-WebGLANGLEForceWARP
+webgl_angle_force_warp
 RelaxedAtomicBool
 false
 )
@@ -15581,7 +15581,7 @@ in
 -
 foreground
 "
-WebGLCanLoseContextInForeground
+webgl_can_lose_context_in_foreground
 RelaxedAtomicBool
 true
 )
@@ -15610,7 +15610,7 @@ default
 -
 antialias
 "
-WebGLDefaultAntialias
+webgl_default_antialias
 RelaxedAtomicBool
 PREF_VALUE
 )
@@ -15629,7 +15629,7 @@ low
 -
 power
 "
-WebGLDefaultLowPower
+webgl_default_low_power
 RelaxedAtomicBool
 false
 )
@@ -15645,7 +15645,7 @@ no
 -
 alpha
 "
-WebGLDefaultNoAlpha
+webgl_default_no_alpha
 RelaxedAtomicBool
 false
 )
@@ -15659,7 +15659,7 @@ disable
 -
 angle
 "
-WebGLDisableANGLE
+webgl_disable_angle
 RelaxedAtomicBool
 false
 )
@@ -15673,7 +15673,7 @@ disable
 -
 wgl
 "
-WebGLDisableWGL
+webgl_disable_wgl
 RelaxedAtomicBool
 false
 )
@@ -15687,7 +15687,7 @@ disable
 -
 extensions
 "
-WebGLDisableExtensions
+webgl_disable_extensions
 RelaxedAtomicBool
 false
 )
@@ -15701,7 +15701,7 @@ dxgl
 .
 enabled
 "
-WebGLDXGLEnabled
+webgl_dxgl_enabled
 RelaxedAtomicBool
 false
 )
@@ -15717,7 +15717,7 @@ needs
 -
 finish
 "
-WebGLDXGLNeedsFinish
+webgl_dxgl_needs_finish
 RelaxedAtomicBool
 false
 )
@@ -15739,7 +15739,7 @@ performance
 -
 caveat
 "
-WebGLDisableFailIfMajorPerformanceCaveat
+webgl_disable_fail_if_major_performance_caveat
 RelaxedAtomicBool
 false
 )
@@ -15757,7 +15757,7 @@ blit
 -
 uploads
 "
-WebGLDisableDOMBlitUploads
+webgl_disable_DOM_blit_uploads
 RelaxedAtomicBool
 false
 )
@@ -15769,7 +15769,7 @@ webgl
 .
 disabled
 "
-WebGLDisabled
+webgl_disabled
 RelaxedAtomicBool
 false
 )
@@ -15785,7 +15785,7 @@ draft
 -
 extensions
 "
-WebGLDraftExtensionsEnabled
+webgl_enable_draft_extensions
 RelaxedAtomicBool
 false
 )
@@ -15801,7 +15801,7 @@ privileged
 -
 extensions
 "
-WebGLPrivilegedExtensionsEnabled
+webgl_enable_privileged_extensions
 RelaxedAtomicBool
 false
 )
@@ -15817,7 +15817,7 @@ surface
 -
 texture
 "
-WebGLSurfaceTextureEnabled
+webgl_enable_surface_texture
 RelaxedAtomicBool
 false
 )
@@ -15845,7 +15845,7 @@ force
 -
 enabled
 "
-WebGLForceEnabled
+webgl_force_enabled
 RelaxedAtomicBool
 false
 )
@@ -15861,7 +15861,7 @@ layers
 -
 readback
 "
-WebGLForceLayersReadback
+webgl_force_layers_readback
 bool
 false
 )
@@ -15877,7 +15877,7 @@ index
 -
 validation
 "
-WebGLForceIndexValidation
+webgl_force_index_validation
 RelaxedAtomicInt32
 0
 )
@@ -15897,7 +15897,7 @@ memory
 -
 pressure
 "
-WebGLLoseContextOnMemoryPressure
+webgl_lose_context_on_memory_pressure
 RelaxedAtomicBool
 false
 )
@@ -15911,7 +15911,7 @@ max
 -
 contexts
 "
-WebGLMaxContexts
+webgl_max_contexts
 RelaxedAtomicUint32
 32
 )
@@ -15929,7 +15929,7 @@ per
 -
 principal
 "
-WebGLMaxContextsPerPrincipal
+webgl_max_contexts_per_principal
 RelaxedAtomicUint32
 16
 )
@@ -15947,7 +15947,7 @@ per
 -
 context
 "
-WebGLMaxWarningsPerContext
+webgl_max_warnings_per_context
 RelaxedAtomicUint32
 32
 )
@@ -15959,7 +15959,7 @@ webgl
 .
 min_capability_mode
 "
-WebGLMinCapabilityMode
+webgl_min_capability_mode
 RelaxedAtomicBool
 false
 )
@@ -15973,7 +15973,7 @@ msaa
 -
 force
 "
-WebGLForceMSAA
+webgl_msaa_force
 RelaxedAtomicBool
 false
 )
@@ -15987,13 +15987,12 @@ msaa
 -
 samples
 "
-WebGLMsaaSamples
+webgl_msaa_samples
 RelaxedAtomicUint32
 4
 )
-VARCACHE_PREF
+PREF
 (
-Live
 "
 webgl
 .
@@ -16001,8 +16000,7 @@ prefer
 -
 16bpp
 "
-WebGLPrefer16bpp
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
@@ -16017,7 +16015,7 @@ immediate
 -
 queries
 "
-WebGLImmediateQueries
+webgl_allow_immediate_queries
 RelaxedAtomicBool
 false
 )
@@ -16033,7 +16031,7 @@ fb
 -
 invalidation
 "
-WebGLFBInvalidation
+webgl_allow_fb_invalidation
 RelaxedAtomicBool
 false
 )
@@ -16049,7 +16047,7 @@ max
 -
 warnings
 "
-WebGLMaxPerfWarnings
+webgl_perf_max_warnings
 RelaxedAtomicInt32
 0
 )
@@ -16071,7 +16069,7 @@ status
 -
 invals
 "
-WebGLMaxAcceptableFBStatusInvals
+webgl_perf_max_acceptable_fb_status_invals
 RelaxedAtomicInt32
 0
 )
@@ -16089,7 +16087,7 @@ frame
 -
 allocs
 "
-WebGLSpewFrameAllocs
+webgl_perf_spew_frame_allocs
 RelaxedAtomicBool
 true
 )

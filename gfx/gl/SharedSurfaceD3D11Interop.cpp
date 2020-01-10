@@ -1644,7 +1644,7 @@ mNeedsFinish
 StaticPrefs
 :
 :
-WebGLDXGLNeedsFinish
+webgl_dxgl_needs_finish
 (
 )
 )
