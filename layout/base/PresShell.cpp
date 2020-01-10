@@ -8856,9 +8856,9 @@ if
 mPaintingSuppressed
 )
 {
-ScheduleBeforeFirstPaint
-(
-)
+mShouldUnsuppressPainting
+=
+true
 ;
 }
 return
