@@ -20070,11 +20070,6 @@ BigIntLiteral
 (
 )
 .
-box
-(
-)
--
->
 value
 (
 )
@@ -42797,11 +42792,6 @@ BigIntLiteral
 (
 )
 .
-box
-(
-)
--
->
 value
 (
 )

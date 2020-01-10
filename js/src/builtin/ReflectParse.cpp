@@ -18452,11 +18452,6 @@ BigIntLiteral
 (
 )
 .
-box
-(
-)
--
->
 value
 (
 )
