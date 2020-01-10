@@ -468,6 +468,7 @@ simple_redirect
 sjs
 '
 ]
+#
 SPHINX_TREES
 [
 '
