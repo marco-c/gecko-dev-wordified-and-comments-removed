@@ -1859,8 +1859,6 @@ because
 we
 intercept
 toString
-and
-QueryInterface
 specially
 /
 /
@@ -1894,7 +1892,7 @@ works
 "
 )
 ;
-todo_is
+is
 (
 savedElement
 .
@@ -1903,7 +1901,7 @@ savedElement
 .
 QueryInterface
 "
-toString
+QueryInterface
 identity
 works
 "
