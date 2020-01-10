@@ -23,14 +23,6 @@ browser
 /
 app
 -
-browser
-/
-components
--
-browser
-/
-extensions
--
 build
 -
 client
