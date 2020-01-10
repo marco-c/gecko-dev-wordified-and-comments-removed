@@ -24257,6 +24257,13 @@ gBrowser
 .
 selectedBrowser
 ;
+gProtectionsHandler
+.
+onStateChange
+(
+aStateFlags
+)
+;
 if
 (
 aStateFlags

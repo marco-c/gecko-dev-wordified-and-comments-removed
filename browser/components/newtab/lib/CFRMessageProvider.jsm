@@ -3595,6 +3595,9 @@ template
 "
 cfr_doorhanger
 "
+priority
+:
+1
 content
 :
 {
@@ -3888,6 +3891,9 @@ template
 "
 cfr_doorhanger
 "
+priority
+:
+2
 content
 :
 {
@@ -4166,6 +4172,9 @@ template
 "
 cfr_doorhanger
 "
+priority
+:
+3
 content
 :
 {
