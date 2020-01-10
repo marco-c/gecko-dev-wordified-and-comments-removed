@@ -1832,6 +1832,7 @@ def
 rust_triple_alias
 (
 host_or_target
+host_or_target_c_compiler
 )
 :
 "
@@ -1898,7 +1899,7 @@ depends
 (
 rustc
 host_or_target
-c_compiler
+host_or_target_c_compiler
 rust_supported_targets
 arm_target
 when
@@ -2591,12 +2592,14 @@ rust_target_triple
 rust_triple_alias
 (
 target
+c_compiler
 )
 rust_host_triple
 =
 rust_triple_alias
 (
 host
+host_c_compiler
 )
 depends
 (
