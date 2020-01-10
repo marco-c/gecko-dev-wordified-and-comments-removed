@@ -37,6 +37,13 @@ offset
 struct
 JumpList
 {
+static
+const
+ptrdiff_t
+END_OF_LIST_DELTA
+=
+0
+;
 JumpList
 (
 )
