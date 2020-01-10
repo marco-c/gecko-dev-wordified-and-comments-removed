@@ -71,10 +71,6 @@ enable
 official
 -
 branding
-export
-MOZ_LTO
-=
-cross
 #
 safeguard
 against

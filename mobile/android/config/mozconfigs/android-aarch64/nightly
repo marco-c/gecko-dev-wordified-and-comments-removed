@@ -99,7 +99,7 @@ ranlib
 export
 MOZ_LTO
 =
-cross
+1
 export
 MOZILLA_OFFICIAL
 =

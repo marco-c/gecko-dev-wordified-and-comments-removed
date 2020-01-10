@@ -49,7 +49,7 @@ opt
 export
 MOZ_LTO
 =
-cross
+1
 ac_add_options
 -
 -

@@ -80,10 +80,6 @@ MOZ_ALLOW_LEGACY_EXTENSIONS
 =
 1
 "
-export
-MOZ_LTO
-=
-cross
 .
 "
 topsrcdir

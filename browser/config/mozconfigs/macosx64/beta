@@ -25,7 +25,7 @@ branding
 export
 MOZ_LTO
 =
-cross
+1
 .
 "
 topsrcdir
