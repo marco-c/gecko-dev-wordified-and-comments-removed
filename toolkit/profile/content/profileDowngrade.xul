@@ -315,6 +315,11 @@ buttonpack
 "
 end
 "
+nobuttonspacer
+=
+"
+true
+"
 >
 <
 script
