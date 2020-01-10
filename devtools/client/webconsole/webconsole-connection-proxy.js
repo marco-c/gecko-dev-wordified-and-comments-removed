@@ -63,6 +63,8 @@ WebConsoleConnectionProxy
 (
 webConsoleUI
 target
+isBrowserConsole
+fissionSupport
 )
 {
 this
@@ -84,6 +86,18 @@ webConsoleClient
 target
 .
 activeConsole
+;
+this
+.
+isBrowserConsole
+=
+isBrowserConsole
+;
+this
+.
+fissionSupport
+=
+fissionSupport
 ;
 this
 .

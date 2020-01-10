@@ -148,6 +148,9 @@ hudService
 isBrowserConsole
 =
 false
+fissionSupport
+=
+false
 )
 {
 this
@@ -198,9 +201,15 @@ hudService
 ;
 this
 .
-_browserConsole
+isBrowserConsole
 =
 isBrowserConsole
+;
+this
+.
+fissionSupport
+=
+fissionSupport
 ;
 const
 element
@@ -1032,7 +1041,7 @@ if
 !
 this
 .
-_browserConsole
+isBrowserConsole
 )
 {
 try

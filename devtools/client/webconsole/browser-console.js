@@ -59,6 +59,9 @@ target
 iframeWindow
 chromeWindow
 hudService
+fissionSupport
+=
+false
 )
 {
 super
@@ -68,6 +71,7 @@ iframeWindow
 chromeWindow
 hudService
 true
+fissionSupport
 )
 ;
 this
