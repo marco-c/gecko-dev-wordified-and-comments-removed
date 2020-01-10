@@ -1053,3 +1053,13 @@ CONFIG
 TK_CFLAGS
 '
 ]
+OS_LIBS
++
+=
+[
+'
+-
+framework
+IOSurface
+'
+]
