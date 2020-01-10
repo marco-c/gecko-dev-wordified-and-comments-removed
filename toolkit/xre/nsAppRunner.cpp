@@ -21607,12 +21607,6 @@ gArgv
 =
 argv
 ;
-EnsureCommandlineSafe
-(
-gArgc
-gArgv
-)
-;
 ScopedLogging
 log
 ;
