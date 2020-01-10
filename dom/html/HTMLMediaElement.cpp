@@ -11190,6 +11190,14 @@ nsGkAtoms
 type
 type
 )
+&
+&
+!
+type
+.
+IsEmpty
+(
+)
 )
 {
 DecoderDoctorDiagnostics
