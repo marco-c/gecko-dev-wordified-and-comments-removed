@@ -567,6 +567,17 @@ visibleLoginGuids
 size
 )
 ;
+this
+.
+_sortSelect
+.
+disabled
+=
+!
+visibleLoginGuids
+.
+size
+;
 let
 fragment
 =
