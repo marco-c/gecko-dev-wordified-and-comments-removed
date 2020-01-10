@@ -8975,7 +8975,7 @@ if
 aStyleText
 -
 >
-HasEffectiveTextEmphasis
+HasTextEmphasis
 (
 )
 )
@@ -11926,7 +11926,7 @@ if
 mStyleText
 -
 >
-HasEffectiveTextEmphasis
+HasTextEmphasis
 (
 )
 )
@@ -16998,7 +16998,7 @@ StyleText
 )
 -
 >
-HasEffectiveTextEmphasis
+HasTextEmphasis
 (
 )
 |
