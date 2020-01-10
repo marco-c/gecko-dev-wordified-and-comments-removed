@@ -109,7 +109,7 @@ primaryOrientation
 {
 angle
 =
-90
+270
 ;
 }
 else
