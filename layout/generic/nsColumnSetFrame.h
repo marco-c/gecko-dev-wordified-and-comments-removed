@@ -341,6 +341,11 @@ mIsBalancing
 =
 false
 ;
+bool
+mForceAuto
+=
+false
+;
 nscoord
 mKnownFeasibleBSize
 =
