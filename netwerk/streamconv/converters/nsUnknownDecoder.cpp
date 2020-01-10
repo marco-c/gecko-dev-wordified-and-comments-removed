@@ -1488,7 +1488,7 @@ return
 }
 nsCOMPtr
 <
-nsIHttpChannel
+nsIChannel
 >
 channel
 (
