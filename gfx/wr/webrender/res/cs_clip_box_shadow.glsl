@@ -276,9 +276,6 @@ cmi
 sub_rect
 cmi
 .
-snap_offsets
-cmi
-.
 task_origin
 cmi
 .
