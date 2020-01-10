@@ -103,6 +103,9 @@ LDFLAGS
 =
 "
 -
+-
+coverage
+-
 L
 CLANG_LIB_DIR
 "
