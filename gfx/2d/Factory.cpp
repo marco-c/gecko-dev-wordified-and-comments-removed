@@ -2113,8 +2113,8 @@ aRecorder
 DrawTarget
 *
 aDT
-IntSize
-aSize
+IntRect
+aRect
 )
 {
 return
@@ -2125,7 +2125,7 @@ DrawTargetRecording
 (
 aRecorder
 aDT
-aSize
+aRect
 )
 ;
 }

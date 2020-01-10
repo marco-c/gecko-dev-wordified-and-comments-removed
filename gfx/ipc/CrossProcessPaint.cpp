@@ -496,7 +496,15 @@ CreateRecordingDrawTarget
 (
 recorder
 referenceDt
+IntRect
+(
+IntPoint
+(
+0
+0
+)
 surfaceSize
+)
 )
 ;
 {
