@@ -1615,12 +1615,6 @@ AddonsStageRoot
 =
 8
 ;
-const
-AppTrustedRoot
-PrivilegedPackageRoot
-=
-9
-;
 [
 must_use
 ]
