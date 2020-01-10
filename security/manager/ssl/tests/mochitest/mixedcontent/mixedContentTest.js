@@ -224,9 +224,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -649,7 +647,6 @@ isInsecure
 ui
 |
 |
-(
 ui
 .
 state
@@ -661,7 +658,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_IS_INSECURE
-)
 ;
 let
 isBroken
@@ -669,7 +665,6 @@ isBroken
 ui
 &
 &
-(
 ui
 .
 state
@@ -681,7 +676,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_IS_BROKEN
-)
 ;
 let
 isEV
@@ -689,7 +683,6 @@ isEV
 ui
 &
 &
-(
 ui
 .
 state
@@ -701,7 +694,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_IDENTITY_EV_TOPLEVEL
-)
 ;
 let
 gotState

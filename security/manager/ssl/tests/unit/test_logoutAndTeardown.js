@@ -577,9 +577,7 @@ callbacks
 .
 forEach
 (
-(
 callback
-)
 =
 >
 {
@@ -707,9 +705,7 @@ securityObservers
 .
 forEach
 (
-(
 observer
-)
 =
 >
 {

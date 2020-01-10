@@ -39,9 +39,7 @@ value
 )
 {
 return
-(
 securityInfo
-)
 =
 >
 {

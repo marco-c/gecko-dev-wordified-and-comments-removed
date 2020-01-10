@@ -139,9 +139,7 @@ com
 "
 PRErrorCodeSuccess
 null
-(
 transportSecurityInfo
-)
 =
 >
 {
@@ -291,9 +289,7 @@ com
 "
 PRErrorCodeSuccess
 null
-(
 transportSecurityInfo
-)
 =
 >
 {
@@ -603,9 +599,7 @@ add_connection_test
 GOOD_DOMAIN
 PRErrorCodeSuccess
 null
-(
 transportSecurityInfo
-)
 =
 >
 {

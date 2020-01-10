@@ -59,7 +59,6 @@ CTu
 let
 threeWeeksFromNowInSeconds
 =
-(
 Date
 .
 now
@@ -67,9 +66,7 @@ now
 )
 /
 1000
-)
 +
-(
 3
 *
 7
@@ -79,7 +76,6 @@ now
 60
 *
 60
-)
 ;
 let
 ee

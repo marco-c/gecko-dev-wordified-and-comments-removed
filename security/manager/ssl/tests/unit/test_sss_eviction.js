@@ -380,11 +380,9 @@ stateFile
 let
 now
 =
-(
 new
 Date
 (
-)
 )
 .
 getTime

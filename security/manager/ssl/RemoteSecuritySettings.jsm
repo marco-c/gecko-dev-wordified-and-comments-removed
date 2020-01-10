@@ -988,9 +988,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 certStorage
@@ -1063,9 +1061,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1976,9 +1972,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2096,9 +2090,7 @@ toReset
 .
 forEach
 (
-(
 record
-)
 =
 >
 {
@@ -2356,9 +2348,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2375,9 +2365,7 @@ resolve
 .
 catch
 (
-(
 err
-)
 =
 >
 err
@@ -2425,9 +2413,7 @@ recordsToUpdate
 .
 forEach
 (
-(
 record
-)
 =
 >
 {
@@ -2627,9 +2613,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2800,9 +2784,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 certStorage
@@ -3373,9 +3355,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -3392,9 +3372,7 @@ resolve
 .
 catch
 (
-(
 err
-)
 =
 >
 err

@@ -243,9 +243,7 @@ has_revocations
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

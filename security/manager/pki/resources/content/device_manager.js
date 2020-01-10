@@ -756,11 +756,9 @@ needsLogin
 |
 |
 !
-(
 selected_token
 .
 needsUserInit
-)
 )
 {
 pw_toggle

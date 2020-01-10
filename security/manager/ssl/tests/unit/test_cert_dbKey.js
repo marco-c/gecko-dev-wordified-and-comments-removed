@@ -101,7 +101,7 @@ let
 commonNameBytes
 =
 [
-0x0C
+0x0c
 commonName
 .
 length

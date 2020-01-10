@@ -970,9 +970,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 certBlocklist

@@ -1096,9 +1096,7 @@ let
 expected
 =
 {
-"
 MCIxIDAeBgNVBAMMF0Fub3RoZXIgVGVzdCBFbmQtZW50aXR5
-"
 :
 {
 "
@@ -1143,9 +1141,7 @@ a0X7
 :
 true
 }
-"
 MBwxGjAYBgNVBAMMEVRlc3QgSW50ZXJtZWRpYXRl
-"
 :
 {
 "

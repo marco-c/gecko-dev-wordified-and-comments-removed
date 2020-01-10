@@ -608,6 +608,7 @@ getSignatureVerifier
 ok
 (
 !
+(
 await
 verifier
 .
@@ -617,6 +618,7 @@ DATA
 GOOD_SIGNATURE
 chain1
 ONECRL_NAME
+)
 )
 "
 Before
@@ -749,6 +751,7 @@ n
 ok
 (
 !
+(
 await
 verifier
 .
@@ -758,6 +761,7 @@ DATA
 BAD_SIGNATURE
 chain1
 ONECRL_NAME
+)
 )
 "
 A
@@ -797,6 +801,7 @@ n
 ok
 (
 !
+(
 await
 verifier
 .
@@ -806,6 +811,7 @@ DATA
 GOOD_SIGNATURE
 badKeyChain
 ONECRL_NAME
+)
 )
 "
 A
@@ -850,6 +856,7 @@ n
 ok
 (
 !
+(
 await
 verifier
 .
@@ -859,6 +866,7 @@ DATA
 GOOD_SIGNATURE
 rsaKeyChain
 ONECRL_NAME
+)
 )
 "
 A
@@ -915,6 +923,7 @@ n
 ok
 (
 !
+(
 await
 verifier
 .
@@ -924,6 +933,7 @@ DATA
 GOOD_SIGNATURE
 missingRoot
 ONECRL_NAME
+)
 )
 "
 A
@@ -980,6 +990,7 @@ n
 ok
 (
 !
+(
 await
 verifier
 .
@@ -989,6 +1000,7 @@ DATA
 GOOD_SIGNATURE
 missingInt
 ONECRL_NAME
+)
 )
 "
 A
@@ -1035,6 +1047,7 @@ n
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1044,6 +1057,7 @@ DATA
 GOOD_SIGNATURE
 chain1
 ABOUT_NEWTAB_NAME
+)
 )
 "
 A
@@ -1088,6 +1102,7 @@ n
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1097,6 +1112,7 @@ DATA
 GOOD_SIGNATURE
 chain2
 ONECRL_NAME
+)
 )
 "
 A
@@ -1129,6 +1145,7 @@ content_signing_remote_newtab_ee
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1139,6 +1156,7 @@ GOOD_SIGNATURE
 chain1
 "
 "
+)
 )
 "
 A
@@ -1186,6 +1204,7 @@ n
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1196,6 +1215,7 @@ GOOD_SIGNATURE
 chainExpired
 "
 "
+)
 )
 "
 A
@@ -1240,6 +1260,7 @@ n
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1250,6 +1271,7 @@ GOOD_SIGNATURE
 chainNotValidYet
 "
 "
+)
 )
 "
 A
@@ -1293,6 +1315,7 @@ ONECRL_NAME
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1302,6 +1325,7 @@ DATA
 GOOD_SIGNATURE
 chain1
 relatedName
+)
 )
 "
 A
@@ -1381,6 +1405,7 @@ xbbN
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1390,6 +1415,7 @@ DATA
 GOOD_SIGNATURE
 chain1
 randomName
+)
 )
 "
 A
@@ -1424,6 +1450,7 @@ n
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1433,6 +1460,7 @@ DATA
 GOOD_SIGNATURE
 chain1
 ONECRL_NAME
+)
 )
 "
 A
@@ -1850,6 +1878,7 @@ rejected
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1864,6 +1893,7 @@ data
 GOOD_SIGNATURE
 chain1
 ONECRL_NAME
+)
 )
 "
 A
@@ -1887,6 +1917,7 @@ append
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1901,6 +1932,7 @@ DATA
 GOOD_SIGNATURE
 chain1
 ONECRL_NAME
+)
 )
 "
 A
@@ -1924,6 +1956,7 @@ prefix
 ok
 (
 !
+(
 await
 verifier
 .
@@ -1944,6 +1977,7 @@ i
 GOOD_SIGNATURE
 chain1
 ONECRL_NAME
+)
 )
 "
 A

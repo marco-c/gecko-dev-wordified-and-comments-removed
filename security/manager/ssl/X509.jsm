@@ -224,11 +224,9 @@ value
 accumulator
 +
 =
-(
 value
 -
 128
-)
 ;
 }
 else

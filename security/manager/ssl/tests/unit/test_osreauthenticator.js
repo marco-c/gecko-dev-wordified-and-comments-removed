@@ -50,6 +50,7 @@ available
 ok
 (
 !
+(
 await
 reauthenticator
 .
@@ -62,6 +63,7 @@ the
 prompt
 string
 "
+)
 )
 "
 nsIOSReauthenticator
