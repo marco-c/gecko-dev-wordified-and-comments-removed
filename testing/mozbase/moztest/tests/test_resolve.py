@@ -2360,6 +2360,12 @@ _wpt_loaded
 =
 True
         
+rv
+.
+_puppeteer_loaded
+=
+True
+        
 return
 rv
 class
