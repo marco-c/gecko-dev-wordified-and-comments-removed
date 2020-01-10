@@ -117,16 +117,6 @@ name
 Firefox
 Lockwise
 -
-lockwise
--
-brand
--
-short
--
-name
-=
-Lockwise
--
 monitor
 -
 brand
