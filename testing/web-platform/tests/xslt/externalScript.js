@@ -1,0 +1,6 @@
+window
+.
+externalScript
+=
+true
+;
