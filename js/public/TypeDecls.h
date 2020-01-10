@@ -41,6 +41,9 @@ class
 JSFunction
 ;
 class
+JSFreeOp
+;
+class
 JSObject
 ;
 struct
@@ -52,12 +55,14 @@ JSScript
 class
 JSString
 ;
-struct
-JSFreeOp
-;
 namespace
 js
 {
+using
+FreeOp
+=
+JSFreeOp
+;
 class
 TempAllocPolicy
 ;

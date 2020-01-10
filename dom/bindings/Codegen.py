@@ -11630,6 +11630,9 @@ dom
 :
 FinalizeGlobal
 (
+js
+:
+:
 CastToJSFreeOp
 (
 %
