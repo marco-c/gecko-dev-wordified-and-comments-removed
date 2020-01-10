@@ -1741,7 +1741,7 @@ mRootNativeValue
 aRootFrame
 -
 >
-StyleColor
+StyleText
 (
 )
 -
@@ -1766,7 +1766,7 @@ mNativeValue
 aFrame
 -
 >
-StyleColor
+StyleText
 (
 )
 -
@@ -1842,7 +1842,7 @@ aValue
 frame
 -
 >
-StyleColor
+StyleText
 (
 )
 -

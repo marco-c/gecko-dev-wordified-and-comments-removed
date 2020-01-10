@@ -142,10 +142,6 @@ box
 "
     
 "
-color
-"
-    
-"
 column
 "
     

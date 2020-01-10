@@ -5156,7 +5156,7 @@ aColor
 canvasStyle
 -
 >
-StyleColor
+StyleText
 (
 )
 -

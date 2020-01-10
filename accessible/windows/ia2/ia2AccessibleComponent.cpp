@@ -364,7 +364,7 @@ aForeground
 frame
 -
 >
-StyleColor
+StyleText
 (
 )
 -

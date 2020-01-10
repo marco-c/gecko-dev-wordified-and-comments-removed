@@ -2855,7 +2855,7 @@ text_color
 =
 new_primary_style
 .
-get_color
+get_inherited_text
 (
 )
 .

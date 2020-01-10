@@ -1,12 +1,5 @@
 STYLE_STRUCT
 (
-Color
-(
-mColor
-)
-)
-STYLE_STRUCT
-(
 Background
 (
 mBackgroundColor
@@ -34,6 +27,13 @@ STYLE_STRUCT
 Column
 (
 mColumnRuleColor
+)
+)
+STYLE_STRUCT
+(
+Text
+(
+mColor
 )
 )
 STYLE_STRUCT

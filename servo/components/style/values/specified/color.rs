@@ -3236,7 +3236,7 @@ context
 .
 builder
 .
-get_parent_color
+get_parent_inherited_text
 (
 )
 .

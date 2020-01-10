@@ -448,7 +448,7 @@ CalcColor
 (
 aStyle
 .
-StyleColor
+StyleText
 (
 )
 -

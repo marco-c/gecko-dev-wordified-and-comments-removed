@@ -613,11 +613,6 @@ DO_STRUCT_DIFFERENCE
 Background
 )
 ;
-DO_STRUCT_DIFFERENCE
-(
-Color
-)
-;
 #
 undef
 DO_STRUCT_DIFFERENCE

@@ -7010,7 +7010,7 @@ color
 (
 ToDeviceColor
 (
-StyleColor
+StyleText
 (
 )
 -

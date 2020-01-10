@@ -3590,7 +3590,7 @@ GetColor
 (
 this
 &
-nsStyleColor
+nsStyleText
 :
 :
 mColor

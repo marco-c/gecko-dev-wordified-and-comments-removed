@@ -5535,7 +5535,7 @@ Color
 :
 FromABGR
 (
-StyleColor
+StyleText
 (
 )
 -

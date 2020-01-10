@@ -16800,7 +16800,7 @@ ToDeviceColor
 textContext
 -
 >
-StyleColor
+StyleText
 (
 )
 -
@@ -17043,7 +17043,7 @@ FromABGR
 textContext
 -
 >
-StyleColor
+StyleText
 (
 )
 -
