@@ -2789,7 +2789,7 @@ SecureContext
 ]
         
 interface
-TestSecureContextInterfaceThatImplementsNonSecureContextInterface
+TestSecureContextInterfaceThatIncludesNonSecureContextMixin
 {
           
 const
@@ -2803,7 +2803,8 @@ TEST_CONSTANT
 ;
         
 interface
-TestNonSecureContextInterface
+mixin
+TestNonSecureContextMixin
 {
           
 const
@@ -2830,9 +2831,9 @@ foo
 }
 ;
         
-TestSecureContextInterfaceThatImplementsNonSecureContextInterface
-implements
-TestNonSecureContextInterface
+TestSecureContextInterfaceThatIncludesNonSecureContextMixin
+includes
+TestNonSecureContextMixin
 ;
      
 "
@@ -2866,7 +2867,7 @@ members
 TestSecureContextInterfaceThatImplementsNonSecureContextInterface
 should
 have
-two
+four
 members
 "
 )
@@ -2980,7 +2981,7 @@ non
 [
 SecureContext
 ]
-interface
+mixin
 should
 not
 be
@@ -3022,7 +3023,7 @@ non
 [
 SecureContext
 ]
-interface
+mixin
 should
 not
 be
@@ -3064,7 +3065,7 @@ non
 [
 SecureContext
 ]
-interface
+mixin
 should
 not
 be

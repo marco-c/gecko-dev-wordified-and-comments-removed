@@ -499,22 +499,6 @@ arg
 ;
         
 void
-passImplemented
-(
-Implemented
-arg
-)
-;
-        
-void
-passImplementedParent
-(
-ImplementedParent
-arg
-)
-;
-        
-void
 passUnrelated1
 (
 Unrelated1
@@ -567,25 +551,6 @@ Grandparent
       
 interface
 Grandparent
-{
-}
-;
-      
-interface
-Implemented
-:
-ImplementedParent
-{
-}
-;
-      
-Parent
-implements
-Implemented
-;
-      
-interface
-ImplementedParent
 {
 }
 ;
@@ -1222,10 +1187,6 @@ AncestorInterface
 "
 UnrelatedInterface
 "
-                 
-"
-ImplementedInterface
-"
 "
 CallbackInterface
 "
@@ -1569,9 +1530,6 @@ AncestorInterface
                    
 "
 UnrelatedInterface
-"
-"
-ImplementedInterface
 "
 ]
 +
@@ -1950,14 +1908,6 @@ UnrelatedInterface
 "
 ]
 )
-)
-    
-setDistinguishable
-(
-"
-ImplementedInterface
-"
-notRelatedInterfaces
 )
     
 setDistinguishable
@@ -2410,17 +2360,6 @@ interface
 UnrelatedInterface
 {
 }
-;
-          
-interface
-ImplementedInterface
-{
-}
-;
-          
-Interface
-implements
-ImplementedInterface
 ;
           
 callback

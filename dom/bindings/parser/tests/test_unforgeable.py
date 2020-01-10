@@ -839,7 +839,8 @@ Parent
 ;
             
 interface
-Consequential
+mixin
+Mixin
 {
               
 [
@@ -855,8 +856,8 @@ foo
 ;
             
 Parent
-implements
-Consequential
+includes
+Mixin
 ;
         
 "
@@ -896,8 +897,7 @@ a
 "
                   
 "
-consequential
-interface
+mixin
 with
 [
 Unforgeable
@@ -953,7 +953,8 @@ Parent
 ;
             
 interface
-Consequential
+mixin
+Mixin
 {
               
 [
@@ -969,8 +970,8 @@ foo
 ;
             
 Parent
-implements
-Consequential
+includes
+Mixin
 ;
         
 "
@@ -1068,7 +1069,8 @@ GrandParent
 ;
             
 interface
-Consequential
+mixin
+Mixin
 {
               
 [
@@ -1084,12 +1086,13 @@ foo
 ;
             
 GrandParent
-implements
-Consequential
+includes
+Mixin
 ;
             
 interface
-ChildConsequential
+mixin
+ChildMixin
 {
               
 void
@@ -1102,8 +1105,8 @@ foo
 ;
             
 Child
-implements
-ChildConsequential
+includes
+ChildMixin
 ;
         
 "
@@ -1204,7 +1207,8 @@ GrandParent
 ;
             
 interface
-Consequential
+mixin
+Mixin
 {
               
 [
@@ -1220,12 +1224,13 @@ foo
 ;
             
 GrandParent
-implements
-Consequential
+includes
+Mixin
 ;
             
 interface
-ChildConsequential
+mixin
+ChildMixin
 {
               
 void
@@ -1238,8 +1243,8 @@ foo
 ;
             
 Child
-implements
-ChildConsequential
+includes
+ChildMixin
 ;
         
 "
