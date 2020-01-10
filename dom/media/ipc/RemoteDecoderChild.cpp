@@ -39,7 +39,14 @@ aRecreatedOnCrash
 )
 mRawFramePool
 (
-4
+1
+ShmemPool
+:
+:
+PoolType
+:
+:
+DynamicPool
 )
 {
 }
