@@ -18752,7 +18752,6 @@ return
 PR_FALSE
 ;
 }
-static
 PRBool
 ssl_SignatureSchemeValid
 (

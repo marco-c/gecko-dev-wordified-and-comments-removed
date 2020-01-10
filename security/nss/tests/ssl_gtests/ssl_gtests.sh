@@ -467,6 +467,10 @@ make_cert
 delegator_ecdsa256
 delegator_p256
 sign
+make_cert
+delegator_rsae2048
+delegator_rsae2048
+sign
 }
 #
 #

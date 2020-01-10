@@ -6254,6 +6254,17 @@ PRBool
 needsLength
 )
 ;
+PRBool
+ssl_SignatureSchemeValid
+(
+SSLSignatureScheme
+scheme
+SECOidTag
+spkiOid
+PRBool
+isTls13
+)
+;
 #
 include
 "
