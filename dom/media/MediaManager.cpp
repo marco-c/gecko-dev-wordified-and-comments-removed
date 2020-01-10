@@ -5338,13 +5338,6 @@ window
 stream
 kAudioTrack
 audioTrackSource
-dom
-:
-:
-MediaStreamTrackState
-:
-:
-Live
 GetInvariant
 (
 mConstraints
@@ -5436,13 +5429,6 @@ window
 stream
 kVideoTrack
 videoTrackSource
-dom
-:
-:
-MediaStreamTrackState
-:
-:
-Live
 GetInvariant
 (
 mConstraints
