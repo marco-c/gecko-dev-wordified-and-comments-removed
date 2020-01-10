@@ -2434,7 +2434,7 @@ finishAtom
 )
 ;
 }
-JSFlatString
+JSLinearString
 *
 RegExpObject
 :
