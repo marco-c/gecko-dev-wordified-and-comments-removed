@@ -212,7 +212,7 @@ linux64
 -
 gcc
 -
-6
+7
 linux64
 -
 clang
@@ -313,7 +313,7 @@ linux64
 -
 gcc
 -
-6
+7
 linux64
 -
 clang
@@ -421,7 +421,7 @@ linux64
 -
 gcc
 -
-6
+7
 linux64
 -
 clang
@@ -507,6 +507,13 @@ json
 '
 toolchain
 -
+alias
+:
+linux64
+-
+clang
+toolchain
+-
 artifact
 :
 public
@@ -537,7 +544,7 @@ linux64
 -
 gcc
 -
-6
+7
 linux64
 -
 clang
@@ -671,7 +678,7 @@ linux64
 -
 gcc
 -
-6
+7
 linux64
 -
 clang
@@ -808,7 +815,7 @@ linux64
 -
 gcc
 -
-6
+7
 linux64
 -
 clang
@@ -926,7 +933,7 @@ linux64
 -
 gcc
 -
-6
+7
 -
 linux64
 -
@@ -1096,7 +1103,7 @@ linux64
 -
 gcc
 -
-6
+7
 linux64
 -
 clang
@@ -1290,7 +1297,7 @@ linux64
 -
 gcc
 -
-6
+7
 macosx64
 -
 clang
@@ -1463,7 +1470,7 @@ linux64
 -
 gcc
 -
-6
+7
 -
 linux64
 -
