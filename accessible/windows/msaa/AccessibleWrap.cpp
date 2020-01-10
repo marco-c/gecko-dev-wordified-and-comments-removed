@@ -5528,7 +5528,7 @@ if
 aDoc
 -
 >
-IsTopLevel
+IsTopLevelInContentProcess
 (
 )
 )
@@ -5591,7 +5591,7 @@ topLevelDoc
 topLevelDoc
 -
 >
-IsTopLevel
+IsTopLevelInContentProcess
 (
 )
 )
