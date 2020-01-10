@@ -1344,7 +1344,7 @@ aID
 "
 ;
 }
-var
+let
 textContent
 =
 synthesizeQueryTextContent
@@ -1440,7 +1440,7 @@ aRelativeOffset
 )
 :
 "
-var
+let
 textContent
 =
 synthesizeQueryTextContent
@@ -1542,7 +1542,7 @@ aID
 "
 ;
 }
-var
+let
 selectedText
 =
 synthesizeQuerySelectedText
@@ -1661,7 +1661,7 @@ aSelectionType
 )
 "
 ;
-var
+let
 selectionType
 =
 0
@@ -1746,7 +1746,7 @@ value
 "
 )
 ;
-var
+let
 selectedText
 =
 synthesizeQuerySelectedText
@@ -2011,7 +2011,7 @@ aMessage
 {
 for
 (
-var
+let
 i
 =
 1
@@ -2027,7 +2027,7 @@ length
 i
 )
 {
-var
+let
 rect
 =
 {
@@ -2190,7 +2190,7 @@ aContainer
 aMessage
 )
 {
-var
+let
 container
 =
 {
@@ -2236,7 +2236,7 @@ height
 )
 }
 ;
-var
+let
 ret
 =
 container
@@ -3446,7 +3446,7 @@ repeat
 }
 )
 ;
-var
+let
 i
 =
 0
@@ -4791,7 +4791,7 @@ focus
 (
 )
 ;
-var
+let
 result
 =
 [
@@ -5900,7 +5900,7 @@ focus
 (
 )
 ;
-var
+let
 result
 =
 [
@@ -9016,13 +9016,13 @@ focus
 (
 )
 ;
-var
+let
 caretRects
 =
 [
 ]
 ;
-var
+let
 caretRect
 =
 synthesizeQueryCaretRect
@@ -11677,7 +11677,7 @@ runCompositionTest
 return
 ;
 }
-var
+let
 textRect1
 =
 synthesizeQueryTextRect
@@ -11686,7 +11686,7 @@ synthesizeQueryTextRect
 1
 )
 ;
-var
+let
 textRect2
 =
 synthesizeQueryTextRect
@@ -11810,7 +11810,7 @@ runCompositionTest
 return
 ;
 }
-var
+let
 textRect3
 =
 synthesizeQueryTextRect
@@ -11819,7 +11819,7 @@ synthesizeQueryTextRect
 1
 )
 ;
-var
+let
 textRect4
 =
 synthesizeQueryTextRect
@@ -12530,7 +12530,7 @@ return
 /
 set
 selection
-var
+let
 selectionSetTest
 =
 synthesizeSelectionSet
@@ -14528,7 +14528,7 @@ focus
 (
 )
 ;
-var
+let
 windowEventCounts
 =
 [
@@ -14542,7 +14542,7 @@ windowEventLocale
 [
 ]
 ;
-var
+let
 inputEventCounts
 =
 [
@@ -14556,12 +14556,12 @@ inputEventLocale
 [
 ]
 ;
-var
+let
 preventDefault
 =
 false
 ;
-var
+let
 stopPropagation
 =
 false
@@ -14573,7 +14573,7 @@ initResults
 {
 for
 (
-var
+let
 i
 =
 0
@@ -18431,7 +18431,7 @@ true
 /
 Select
 All
-var
+let
 compositionstart
 =
 document
@@ -18740,7 +18740,7 @@ changed
 "
 )
 ;
-var
+let
 compositionupdate1
 =
 document
@@ -19049,7 +19049,7 @@ changed
 "
 )
 ;
-var
+let
 compositionupdate2
 =
 document
@@ -19358,7 +19358,7 @@ changed
 "
 )
 ;
-var
+let
 compositionend
 =
 document
@@ -19808,7 +19808,7 @@ n
 234
 56
 789
-var
+let
 description
 =
 "
@@ -19832,7 +19832,7 @@ innerHTML
 "
 a
 "
-var
+let
 a
 =
 synthesizeQueryTextRect
@@ -19867,7 +19867,7 @@ return
 "
 b
 "
-var
+let
 b
 =
 synthesizeQueryTextRect
@@ -19989,7 +19989,7 @@ height
 "
 c
 "
-var
+let
 c
 =
 synthesizeQueryTextRect
@@ -20113,7 +20113,7 @@ abc
 "
 as
 array
-var
+let
 abcAsArray
 =
 synthesizeQueryTextRectArray
@@ -20195,7 +20195,7 @@ of
 c
 '
 )
-var
+let
 p2
 =
 synthesizeQueryTextRect
@@ -20339,7 +20339,7 @@ p
 >
 as
 array
-var
+let
 p2AsArray
 =
 synthesizeQueryTextRectArray
@@ -20424,7 +20424,7 @@ of
 r
 \
 n
-var
+let
 p2_2
 =
 synthesizeQueryTextRect
@@ -20598,7 +20598,7 @@ r
 n
 as
 array
-var
+let
 p2_2AsArray
 =
 synthesizeQueryTextRectArray
@@ -20694,7 +20694,7 @@ return
 "
 d
 "
-var
+let
 d
 =
 synthesizeQueryTextRect
@@ -20817,7 +20817,7 @@ height
 "
 e
 "
-var
+let
 e
 =
 synthesizeQueryTextRect
@@ -20941,7 +20941,7 @@ height
 "
 f
 "
-var
+let
 f
 =
 synthesizeQueryTextRect
@@ -21067,7 +21067,7 @@ def
 "
 as
 array
-var
+let
 defAsArray
 =
 synthesizeQueryTextRectArray
@@ -21153,7 +21153,7 @@ of
 f
 '
 )
-var
+let
 next_f
 =
 synthesizeQueryTextRect
@@ -21290,7 +21290,7 @@ f
 "
 as
 array
-var
+let
 next_fAsArray
 =
 synthesizeQueryTextRectArray
@@ -21368,7 +21368,7 @@ offset
 for
 the
 editor
-var
+let
 tooBigOffset
 =
 synthesizeQueryTextRect
@@ -21522,7 +21522,7 @@ the
 editors
 as
 array
-var
+let
 tooBigOffsetAsArray
 =
 synthesizeQueryTextRectArray
@@ -21801,7 +21801,7 @@ of
 f
 '
 )
-var
+let
 p3
 =
 synthesizeQueryTextRect
@@ -21946,7 +21946,7 @@ p
 >
 as
 array
-var
+let
 p3AsArray
 =
 synthesizeQueryTextRectArray
@@ -22033,7 +22033,7 @@ of
 r
 \
 n
-var
+let
 p3_2
 =
 synthesizeQueryTextRect
@@ -22209,7 +22209,7 @@ r
 n
 as
 array
-var
+let
 p3_2AsArray
 =
 synthesizeQueryTextRectArray
@@ -22312,7 +22312,7 @@ in
 <
 p
 >
-var
+let
 br
 =
 synthesizeQueryTextRect
@@ -22476,7 +22476,7 @@ p
 >
 as
 array
-var
+let
 brAsArray
 =
 synthesizeQueryTextRectArray
@@ -22567,7 +22567,7 @@ of
 r
 \
 n
-var
+let
 br_2
 =
 synthesizeQueryTextRect
@@ -22747,7 +22747,7 @@ r
 n
 as
 array
-var
+let
 br_2AsArray
 =
 synthesizeQueryTextRectArray
@@ -22860,7 +22860,7 @@ in
 <
 p
 >
-var
+let
 next_br
 =
 synthesizeQueryTextRect
@@ -23025,7 +23025,7 @@ p
 >
 as
 array
-var
+let
 next_brAsArray
 =
 synthesizeQueryTextRectArray
@@ -24048,7 +24048,7 @@ of
 <
 p
 >
-var
+let
 next_p3
 =
 synthesizeQueryTextRect
@@ -24195,7 +24195,7 @@ p
 >
 as
 array
-var
+let
 next_p3AsArray
 =
 synthesizeQueryTextRectArray
@@ -25115,7 +25115,7 @@ of
 r
 \
 n
-var
+let
 br_2
 =
 synthesizeQueryTextRect
@@ -25283,7 +25283,7 @@ r
 n
 as
 array
-var
+let
 br_2AsArray
 =
 synthesizeQueryTextRectArray
@@ -26448,7 +26448,7 @@ of
 f
 '
 )
-var
+let
 br2
 =
 synthesizeQueryTextRect
@@ -26591,7 +26591,7 @@ br
 >
 as
 array
-var
+let
 br2AsArray
 =
 synthesizeQueryTextRectArray
@@ -26678,7 +26678,7 @@ of
 r
 \
 n
-var
+let
 br2_2
 =
 synthesizeQueryTextRect
@@ -26852,7 +26852,7 @@ r
 n
 as
 array
-var
+let
 br2_2AsArray
 =
 synthesizeQueryTextRectArray
@@ -26951,7 +26951,7 @@ of
 <
 br
 >
-var
+let
 next_br2
 =
 synthesizeQueryTextRect
@@ -27116,7 +27116,7 @@ br
 >
 as
 array
-var
+let
 next_br2AsArray
 =
 synthesizeQueryTextRectArray
@@ -28011,7 +28011,7 @@ r
 n
 as
 array
-var
+let
 br2_2AsArray
 =
 synthesizeQueryTextRectArray
@@ -28108,7 +28108,7 @@ return
 <
 br
 >
-var
+let
 br3
 =
 synthesizeQueryTextRect
@@ -28251,7 +28251,7 @@ br
 >
 as
 array
-var
+let
 br3AsArray
 =
 synthesizeQueryTextRectArray
@@ -28336,7 +28336,7 @@ of
 r
 \
 n
-var
+let
 br3_2
 =
 synthesizeQueryTextRect
@@ -28512,7 +28512,7 @@ r
 n
 as
 array
-var
+let
 br2_2AsArray
 =
 synthesizeQueryTextRectArray
@@ -28613,7 +28613,7 @@ of
 <
 br
 >
-var
+let
 next_br3
 =
 synthesizeQueryTextRect
@@ -28778,7 +28778,7 @@ br
 >
 as
 array
-var
+let
 next_br3AsArray
 =
 synthesizeQueryTextRectArray
@@ -29197,7 +29197,7 @@ kLFLen
 kLFLen
 ]
 ;
-var
+let
 editorRect
 =
 synthesizeQueryEditorRect
@@ -29230,7 +29230,7 @@ return
 }
 for
 (
-var
+let
 i
 =
 0
@@ -29246,7 +29246,7 @@ i
 +
 )
 {
-var
+let
 textRect
 =
 synthesizeQueryTextRect
@@ -29331,7 +29331,7 @@ top
 -
 left
 .
-var
+let
 charAtPt1
 =
 synthesizeCharAtPoint
@@ -29563,7 +29563,7 @@ bottom
 -
 right
 .
-var
+let
 charAtPt2
 =
 synthesizeCharAtPoint
@@ -29795,7 +29795,7 @@ left
 character
 offset
 .
-var
+let
 charAtPt3
 =
 synthesizeCharAtPoint
@@ -30087,7 +30087,7 @@ right
 character
 offset
 .
-var
+let
 charAtPt4
 =
 synthesizeCharAtPoint
@@ -30339,7 +30339,7 @@ some
 text
 "
 ;
-var
+let
 editorRect
 =
 synthesizeQueryEditorRect
@@ -30378,7 +30378,7 @@ outside
 of
 editor
 .
-var
+let
 charAtPt
 =
 synthesizeCharAtPoint
@@ -30461,7 +30461,7 @@ focus
 (
 )
 ;
-var
+let
 selection
 =
 windowOfContenteditable
@@ -47566,7 +47566,7 @@ focus
 (
 )
 ;
-var
+let
 result
 ;
 /
@@ -50181,7 +50181,7 @@ focus
 (
 )
 ;
-var
+let
 selection
 =
 windowOfContenteditable
@@ -50408,7 +50408,7 @@ before
 after
 "
 ;
-var
+let
 startoffset
 =
 textarea
@@ -51547,7 +51547,7 @@ value
 0123456789
 "
 ;
-var
+let
 startoffset
 =
 textarea
@@ -52466,7 +52466,7 @@ span
 >
 "
 ;
-var
+let
 ret
 =
 synthesizeQueryTextRect
@@ -53737,7 +53737,7 @@ value
 .
 length
 ;
-var
+let
 editorRect
 =
 synthesizeQueryEditorRect
@@ -53761,7 +53761,7 @@ editorRect
 return
 ;
 }
-var
+let
 firstCharRect
 =
 synthesizeQueryTextRect
@@ -53787,7 +53787,7 @@ firstCharRect
 return
 ;
 }
-var
+let
 lastCharRect
 =
 synthesizeQueryTextRect
@@ -53823,7 +53823,7 @@ lastCharRect
 return
 ;
 }
-var
+let
 caretRect
 =
 synthesizeQueryCaretRect
@@ -53850,7 +53850,7 @@ caretRect
 return
 ;
 }
-var
+let
 caretRectBeforeFirstChar
 =
 synthesizeQueryCaretRect
@@ -53927,7 +53927,7 @@ aRect
 height
 }
 }
-var
+let
 editorRectTranslated
 =
 synthesizeQueryEditorRect
@@ -53981,7 +53981,7 @@ transform
 return
 ;
 }
-var
+let
 firstCharRectTranslated
 =
 synthesizeQueryTextRect
@@ -54037,7 +54037,7 @@ transform
 return
 ;
 }
-var
+let
 lastCharRectTranslated
 =
 synthesizeQueryTextRect
@@ -54103,7 +54103,7 @@ transform
 return
 ;
 }
-var
+let
 caretRectTranslated
 =
 synthesizeQueryCaretRect
@@ -54160,7 +54160,7 @@ transform
 return
 ;
 }
-var
+let
 caretRectBeforeFirstCharTranslated
 =
 synthesizeQueryCaretRect
@@ -54215,7 +54215,7 @@ transform
 return
 ;
 }
-var
+let
 firstCharRectTranslatedAsArray
 =
 synthesizeQueryTextRectArray
@@ -54268,7 +54268,7 @@ transform
 return
 ;
 }
-var
+let
 lastCharRectTranslatedAsArray
 =
 synthesizeQueryTextRectArray
@@ -54865,7 +54865,7 @@ value
 /
 80
 characters
-var
+let
 firstLine
 =
 synthesizeQueryTextRect
@@ -54917,7 +54917,7 @@ firstLine
 left
 )
 ;
-var
+let
 firstLineAsArray
 =
 synthesizeQueryTextRectArray
@@ -54977,7 +54977,7 @@ kLFLen
 1
 )
 {
-var
+let
 firstLineLF
 =
 synthesizeQueryTextRect
@@ -55139,7 +55139,7 @@ rect
 "
 )
 ;
-var
+let
 firstLineLFAsArray
 =
 synthesizeQueryTextRectArray
@@ -55202,7 +55202,7 @@ return
 ;
 }
 }
-var
+let
 secondLine
 =
 synthesizeQueryTextRect
@@ -55254,7 +55254,7 @@ secondLine
 left
 )
 ;
-var
+let
 secondLineAsArray
 =
 synthesizeQueryTextRectArray
@@ -55314,7 +55314,7 @@ kLFLen
 1
 )
 {
-var
+let
 secondLineLF
 =
 synthesizeQueryTextRect
@@ -55478,7 +55478,7 @@ rect
 "
 )
 ;
-var
+let
 secondLineLFAsArray
 =
 synthesizeQueryTextRectArray
@@ -55543,7 +55543,7 @@ return
 ;
 }
 }
-var
+let
 lineHeight
 =
 secondLine
@@ -55612,7 +55612,7 @@ value
 "
 )
 ;
-var
+let
 previousTop
 =
 secondLine
@@ -55621,7 +55621,7 @@ top
 ;
 for
 (
-var
+let
 i
 =
 3
@@ -55642,7 +55642,7 @@ i
 +
 )
 {
-var
+let
 currentLine
 =
 synthesizeQueryTextRect
@@ -55711,7 +55711,7 @@ currentLine
 left
 )
 ;
-var
+let
 currentLineAsArray
 =
 synthesizeQueryTextRectArray
@@ -55935,7 +55935,7 @@ kLFLen
 1
 )
 {
-var
+let
 currentLineLF
 =
 synthesizeQueryTextRect
@@ -56131,7 +56131,7 @@ rect
 "
 )
 ;
-var
+let
 currentLineLFAsArray
 =
 synthesizeQueryTextRectArray
@@ -56225,7 +56225,7 @@ runForceCommitTest
 (
 )
 {
-var
+let
 events
 ;
 function
@@ -58833,7 +58833,7 @@ the
 Body
 "
 ;
-var
+let
 iframe2BodyInnerHTML
 =
 iframe2
@@ -62006,12 +62006,12 @@ runNestedSettingValue
 (
 )
 {
-var
+let
 isTesting
 =
 false
 ;
-var
+let
 events
 =
 [
@@ -63613,7 +63613,7 @@ runAsyncForceCommitTest
 (
 )
 {
-var
+let
 events
 ;
 function
@@ -63689,7 +63689,7 @@ cause
 composition
 events
 .
-var
+let
 commitRequested
 =
 false
@@ -64472,7 +64472,7 @@ focus
 /
 Query
 everything
-var
+let
 textContent
 =
 synthesizeQueryTextContent
@@ -64581,7 +64581,7 @@ string
 is
 returned
 .
-var
+let
 queryContent
 =
 synthesizeQueryTextContent
@@ -64651,12 +64651,12 @@ runIsComposingTest
 (
 )
 {
-var
+let
 expectedIsComposing
 =
 false
 ;
-var
+let
 descriptionBase
 =
 "
@@ -64664,7 +64664,7 @@ runIsComposingTest
 :
 "
 ;
-var
+let
 description
 =
 "
@@ -65290,7 +65290,7 @@ focus
 (
 )
 ;
-var
+let
 result
 =
 [
@@ -66189,7 +66189,7 @@ focus
 (
 )
 ;
-var
+let
 result
 =
 [
@@ -67770,7 +67770,7 @@ focus
 (
 )
 ;
-var
+let
 result
 =
 {
@@ -67875,7 +67875,7 @@ value
 "
 "
 ;
-var
+let
 clauses
 =
 [
@@ -67902,7 +67902,7 @@ njkl
 "
 ]
 ;
-var
+let
 caret
 =
 clauses
@@ -70059,7 +70059,7 @@ focus
 (
 )
 ;
-var
+let
 result
 =
 {
@@ -70129,7 +70129,7 @@ value
 "
 "
 ;
-var
+let
 controlChars
 =
 String
@@ -70161,7 +70161,7 @@ length
 x7F
 "
 ;
-var
+let
 allowedChars
 =
 "
@@ -70173,7 +70173,7 @@ n
 n
 "
 ;
-var
+let
 data
 =
 "
@@ -70192,7 +70192,7 @@ controlChars
 EF
 "
 ;
-var
+let
 removedData
 =
 "
@@ -70211,7 +70211,7 @@ allowedChars
 EF
 "
 ;
-var
+let
 DIndex
 =
 data
@@ -70223,7 +70223,7 @@ D
 "
 )
 ;
-var
+let
 removedDIndex
 =
 removedData
@@ -70774,7 +70774,7 @@ runRemoveContentTest
 (
 )
 {
-var
+let
 events
 =
 [
@@ -70916,14 +70916,14 @@ length
 }
 )
 ;
-var
+let
 nextSibling
 =
 textarea
 .
 nextSibling
 ;
-var
+let
 parent
 =
 textarea
@@ -71588,7 +71588,7 @@ getBoundingClientRect
 (
 )
 ;
-var
+let
 editorRect
 =
 synthesizeQueryEditorRect
@@ -71613,7 +71613,7 @@ editorRect
 return
 ;
 }
-var
+let
 r
 =
 aPanelOrFrame
@@ -71622,7 +71622,7 @@ getBoundingClientRect
 (
 )
 ;
-var
+let
 parentRect
 =
 {
@@ -72092,7 +72092,7 @@ u8EAB
 return
 ;
 }
-var
+let
 textRect
 =
 synthesizeQueryTextRect
@@ -72101,7 +72101,7 @@ synthesizeQueryTextRect
 1
 )
 ;
-var
+let
 caretRect
 =
 synthesizeQueryCaretRect
@@ -72197,12 +72197,12 @@ iframe
 )
 ;
 }
-var
+let
 gPanelShown
 =
 false
 ;
-var
+let
 gPanelFocused
 =
 false
@@ -72247,12 +72247,12 @@ doPanelTest
 )
 ;
 }
-var
+let
 gIsPanelHiding
 =
 false
 ;
-var
+let
 gIsRunPanelTestInternal
 =
 false
@@ -72403,7 +72403,7 @@ focus
 (
 )
 ;
-var
+let
 kDesc
 =
 "
@@ -74482,7 +74482,7 @@ aEditor
 value
 ;
 }
-var
+let
 description
 =
 "
@@ -74508,7 +74508,7 @@ aEventType
 :
 "
 ;
-var
+let
 tests
 =
 [
@@ -75985,7 +75985,7 @@ GHI
 }
 ]
 ;
-var
+let
 index
 =
 0
@@ -76246,13 +76246,13 @@ runIMEContentObserverTest
 (
 )
 {
-var
+let
 notifications
 =
 [
 ]
 ;
-var
+let
 callContinueTest
 =
 false
@@ -76375,7 +76375,7 @@ return
 }
 for
 (
-var
+let
 i
 =
 aExpectedCount
@@ -77264,14 +77264,14 @@ blur
 (
 )
 ;
-var
+let
 doc
 =
 aElement
 .
 ownerDocument
 ;
-var
+let
 win
 =
 doc
@@ -77296,7 +77296,7 @@ a
 [
 ]
 "
-var
+let
 description
 =
 aDescription
@@ -79843,21 +79843,21 @@ aElement
 aDefaultParagraphSeparator
 )
 {
-var
+let
 doc
 =
 aElement
 .
 ownerDocument
 ;
-var
+let
 win
 =
 doc
 .
 defaultView
 ;
-var
+let
 sel
 =
 doc
@@ -79866,7 +79866,7 @@ getSelection
 (
 )
 ;
-var
+let
 inDesignMode
 =
 doc
@@ -79878,17 +79878,17 @@ designMode
 on
 "
 ;
-var
+let
 offsetAtStart
 =
 0
 ;
-var
+let
 offsetAtContainer
 =
 0
 ;
-var
+let
 isDefaultParagraphSeparatorBlock
 =
 aDefaultParagraphSeparator
@@ -80063,7 +80063,7 @@ a
 [
 ]
 "
-var
+let
 description
 =
 aDescription
@@ -86600,7 +86600,7 @@ testBody
 )
 ;
 }
-var
+let
 ret
 =
 gTestContinuation
