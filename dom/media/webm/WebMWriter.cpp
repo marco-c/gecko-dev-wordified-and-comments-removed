@@ -475,12 +475,18 @@ return
 NS_ERROR_FAILURE
 ;
 }
+DebugOnly
+<
 bool
+>
 hasAudio
 =
 false
 ;
+DebugOnly
+<
 bool
+>
 hasVideo
 =
 false
@@ -519,7 +525,7 @@ TrackMetadataBase
 METADATA_VP8
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 hasVideo
@@ -586,7 +592,7 @@ TrackMetadataBase
 METADATA_VORBIS
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 hasAudio
@@ -656,7 +662,7 @@ TrackMetadataBase
 METADATA_OPUS
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 hasAudio
