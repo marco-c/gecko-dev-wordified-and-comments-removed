@@ -9,6 +9,7 @@ ExtendMode
 GradientStop
 PremultipliedColorF
 LineOrientation
+PrimitiveFlags
 }
 ;
 use
@@ -463,9 +464,9 @@ pub
 fn
 new
 (
-is_backface_visible
+flags
 :
-bool
+PrimitiveFlags
 prim_size
 :
 LayoutSize
@@ -483,7 +484,7 @@ common
 :
 PrimKeyCommonData
 {
-is_backface_visible
+flags
 prim_size
 :
 prim_size
@@ -1474,7 +1475,7 @@ new
 (
 info
 .
-is_backface_visible
+flags
 info
 .
 rect
@@ -1823,9 +1824,9 @@ pub
 fn
 new
 (
-is_backface_visible
+flags
 :
-bool
+PrimitiveFlags
 prim_size
 :
 LayoutSize
@@ -1843,7 +1844,7 @@ common
 :
 PrimKeyCommonData
 {
-is_backface_visible
+flags
 prim_size
 :
 prim_size
@@ -2505,7 +2506,7 @@ new
 (
 info
 .
-is_backface_visible
+flags
 info
 .
 rect
