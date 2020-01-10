@@ -1154,6 +1154,17 @@ res
 language
 .
 properties
+BINPATH
+/
+res
+/
+locale
+/
+layout
+/
+HtmlForm
+.
+properties
 #
 ifndef
 MOZ_ANDROID_EXCLUDE_FONTS

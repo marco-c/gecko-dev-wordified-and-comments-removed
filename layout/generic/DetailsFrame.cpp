@@ -506,7 +506,7 @@ GetLocalizedString
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 DefaultSummary
 "

@@ -7614,7 +7614,7 @@ GetLocalizedString
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 Submit
 "
@@ -35141,7 +35141,7 @@ GetLocalizedString
 nsContentUtils
 :
 :
-eFORMS_PROPERTIES
+eFORMS_PROPERTIES_MAYBESPOOF
 "
 Submit
 "
