@@ -134,10 +134,6 @@ querySelector
 (
 "
 .
-report
--
-card
-.
 lockwise
 -
 card
