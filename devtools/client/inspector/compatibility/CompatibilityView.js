@@ -131,6 +131,13 @@ id
 "
 compatibilityview
 "
+store
+:
+this
+.
+inspector
+.
+store
 }
 compatibilityApp
 )

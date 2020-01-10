@@ -137,6 +137,11 @@ CompatibilityView
 .
 js
 '
+'
+types
+.
+js
+'
 )
 with
 Files
