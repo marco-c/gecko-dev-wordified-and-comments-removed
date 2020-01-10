@@ -1563,7 +1563,6 @@ macosx1014
 64
 -
 tests
-#
 -
 marionette
 -
@@ -1703,12 +1702,6 @@ sets
 :
 -
 macosx64
--
-tests
--
-marionette
--
-media
 -
 tests
 macosx1010
