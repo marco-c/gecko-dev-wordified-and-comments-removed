@@ -711,6 +711,12 @@ read
 cx
 &
 v2
+JS
+:
+:
+CloneDataPolicy
+(
+)
 nullptr
 nullptr
 )
@@ -943,6 +949,12 @@ nullptr
 nullptr
 )
 ;
+JS
+:
+:
+CloneDataPolicy
+policy
+;
 CHECK
 (
 cloned_buffer
@@ -952,12 +964,7 @@ write
 cx
 v1
 transferable
-JS
-:
-:
-CloneDataPolicy
-(
-)
+policy
 nullptr
 nullptr
 )
@@ -981,6 +988,7 @@ read
 cx
 &
 v2
+policy
 nullptr
 nullptr
 )

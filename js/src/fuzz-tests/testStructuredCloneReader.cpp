@@ -273,6 +273,12 @@ return
 0
 ;
 }
+JS
+:
+:
+CloneDataPolicy
+policy
+;
 RootedValue
 deserialized
 (
@@ -291,6 +297,7 @@ JS_STRUCTURED_CLONE_VERSION
 scope
 &
 deserialized
+policy
 nullptr
 nullptr
 )
@@ -308,12 +315,6 @@ Maybe
 JSAutoStructuredCloneBuffer
 >
 clonebufOut
-;
-JS
-:
-:
-CloneDataPolicy
-policy
 ;
 clonebufOut
 .
