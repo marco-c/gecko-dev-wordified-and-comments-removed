@@ -1373,6 +1373,7 @@ jstermCodeMirror
 autocomplete
 editorMode
 editorWidth
+editorFeatureEnabled
 }
 =
 this
@@ -1400,7 +1401,13 @@ codeMirrorEnabled
 jstermCodeMirror
 autocomplete
 editorMode
+:
+editorMode
+&
+&
+editorFeatureEnabled
 editorWidth
+editorFeatureEnabled
 }
 )
 ;
@@ -1488,6 +1495,7 @@ const
 {
 notifications
 editorMode
+editorFeatureEnabled
 }
 =
 this
@@ -1515,10 +1523,18 @@ box
 displayBorderTop
 :
 !
+(
 editorMode
+&
+&
+editorFeatureEnabled
+)
 displayBorderBottom
 :
 editorMode
+&
+&
+editorFeatureEnabled
 wrapping
 :
 true
@@ -1571,6 +1587,7 @@ const
 {
 jstermCodeMirror
 editorMode
+editorFeatureEnabled
 }
 =
 this
@@ -1591,6 +1608,9 @@ app
 if
 (
 editorMode
+&
+&
+editorFeatureEnabled
 )
 {
 classNames
@@ -1674,6 +1694,7 @@ const
 {
 webConsoleUI
 editorMode
+editorFeatureEnabled
 dispatch
 }
 =
@@ -1751,6 +1772,9 @@ renderRootElement
 (
 [
 filterBar
+editorFeatureEnabled
+&
+&
 editorMode
 ?
 EditorToolbar
@@ -1787,6 +1811,9 @@ GridElementWidthResizer
 {
 enabled
 :
+editorFeatureEnabled
+&
+&
 editorMode
 position
 :
