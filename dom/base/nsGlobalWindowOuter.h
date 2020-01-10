@@ -440,6 +440,9 @@ AbstractThread
 class
 DOMEventTargetHelper
 ;
+class
+ThrottledEventQueue
+;
 namespace
 dom
 {
@@ -2344,6 +2347,15 @@ nsIPrompt
 aPrompt
 )
 override
+;
+RefPtr
+<
+mozilla
+:
+:
+ThrottledEventQueue
+>
+mPostMessageEventQueue
 ;
 protected
 :
