@@ -119,6 +119,13 @@ this
 _worker
 .
 handlesFetchEvents
+id
+:
+this
+.
+_worker
+.
+id
 }
 ;
 }
