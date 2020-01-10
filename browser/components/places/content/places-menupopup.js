@@ -2614,12 +2614,6 @@ popuphiding
 "
 popuphidden
 "
-"
-dragexit
-"
-"
-dragend
-"
 ]
 ;
 for
