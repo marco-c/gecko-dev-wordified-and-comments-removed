@@ -8304,6 +8304,13 @@ DOCUMENT_POSITION_CONTAINED_BY
 return
 ;
 }
+this
+.
+endLayoutExtend
+(
+true
+)
+;
 if
 (
 this
