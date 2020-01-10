@@ -1980,14 +1980,6 @@ aName
 )
 override
 ;
-already_AddRefed
-<
-nsIPrincipal
->
-GetTopLevelPrincipal
-(
-)
-;
 bool
 ContainsRestrictedContent
 (
