@@ -306,6 +306,17 @@ GetMMVar
 override
 ;
 void
+AppendToFaceList
+(
+nsCString
+&
+aFaceList
+nsACString
+&
+aFamilyName
+)
+;
+void
 AddSizeOfExcludingThis
 (
 mozilla
@@ -609,7 +620,7 @@ bool
 aJarChanged
 )
 ;
-void
+bool
 AppendFacesFromCachedFaceList
 (
 const
