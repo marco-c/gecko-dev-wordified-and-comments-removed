@@ -20751,6 +20751,17 @@ BinASTVariant
 variant
 )
 ;
+const
+char
+*
+describeBinASTList
+(
+const
+BinASTList
+&
+list
+)
+;
 }
 }
 #
