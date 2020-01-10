@@ -116,12 +116,6 @@ yttest
 js
 dom
 /
-promise
-/
-*
-*
-dom
-/
 xhr
 /
 *

@@ -218,6 +218,7 @@ checkSampleModule
 (
 module
 )
+;
 checkSampleInstance
 (
 instance
@@ -294,6 +295,7 @@ checkSampleModule
 (
 module
 )
+;
 checkSampleInstance
 (
 instance
@@ -362,6 +364,7 @@ checkSampleModule
 (
 module
 )
+;
 checkSampleInstance
 (
 instance
