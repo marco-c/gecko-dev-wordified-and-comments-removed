@@ -81,6 +81,15 @@ mousedown
 ]
 )
 ;
+await
+dbg
+.
+actions
+.
+toggleEventLogging
+(
+)
+;
 const
 msg
 =
