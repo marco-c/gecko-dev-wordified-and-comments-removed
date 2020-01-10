@@ -1312,7 +1312,7 @@ r
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 aBounds
 )

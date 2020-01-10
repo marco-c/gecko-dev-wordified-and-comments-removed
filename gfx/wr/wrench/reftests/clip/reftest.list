@@ -312,7 +312,7 @@ ref
 yaml
 color_targets
 (
-2
+1
 )
 alpha_targets
 (
@@ -330,10 +330,3 @@ yaml
 blank
 .
 yaml
-#
-Unexpected
-color
-targets
-see
-bug
-1580795

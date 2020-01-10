@@ -233,6 +233,13 @@ image_size
 space_and_clip
 )
 bounds
+image_size
+LayoutSize
+:
+:
+zero
+(
+)
 ImageRendering
 :
 :
@@ -282,6 +289,13 @@ image_size
 space_and_clip
 )
 bounds
+image_size
+LayoutSize
+:
+:
+zero
+(
+)
 ImageRendering
 :
 :
