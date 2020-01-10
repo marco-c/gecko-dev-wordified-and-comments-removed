@@ -3159,15 +3159,6 @@ relatedYear
 \
 MACRO
 (
-RelativeTimeFormat
-RelativeTimeFormat
-"
-RelativeTimeFormat
-"
-)
-\
-MACRO
-(
 RelativeTimeFormatFormat
 RelativeTimeFormatFormat
 \
