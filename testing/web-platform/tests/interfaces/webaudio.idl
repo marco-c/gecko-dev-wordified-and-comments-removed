@@ -998,6 +998,9 @@ context
 optional
 AnalyserOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1101,6 +1104,9 @@ context
 optional
 AudioBufferSourceOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1381,6 +1387,9 @@ context
 optional
 BiquadFilterOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1470,6 +1479,9 @@ context
 optional
 ChannelMergerOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1503,6 +1515,9 @@ context
 optional
 ChannelSplitterOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1536,6 +1551,9 @@ context
 optional
 ConstantSourceOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1571,6 +1589,9 @@ context
 optional
 ConvolverOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1616,6 +1637,9 @@ context
 optional
 DelayOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1658,6 +1682,9 @@ context
 optional
 DynamicsCompressorOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1745,6 +1772,9 @@ context
 optional
 GainOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1871,6 +1901,9 @@ context
 optional
 AudioNodeOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -1980,6 +2013,9 @@ context
 optional
 OscillatorOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -2073,6 +2109,9 @@ context
 optional
 PannerOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -2258,6 +2297,9 @@ context
 optional
 PeriodicWaveOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -2326,6 +2368,9 @@ context
 optional
 StereoPannerOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -2377,6 +2422,9 @@ context
 optional
 WaveShaperOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -2512,6 +2560,9 @@ name
 optional
 AudioWorkletNodeOptions
 options
+=
+{
+}
 )
 ]
 interface
@@ -2580,6 +2631,9 @@ Constructor
 optional
 AudioWorkletNodeOptions
 options
+=
+{
+}
 )
 ]
 interface
