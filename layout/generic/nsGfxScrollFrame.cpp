@@ -31555,7 +31555,7 @@ uint32_t
 nsIScrollableFrame
 :
 :
-GetPerceivedScrollingDirections
+GetAvailableScrollingDirections
 (
 )
 const
@@ -31580,9 +31580,7 @@ AppUnitsPerDevPixel
 uint32_t
 directions
 =
-GetScrollbarVisibility
-(
-)
+0
 ;
 nsRect
 scrollRange
