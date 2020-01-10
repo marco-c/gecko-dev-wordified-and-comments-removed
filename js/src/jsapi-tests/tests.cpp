@@ -552,6 +552,11 @@ setStreamsEnabled
 true
 )
 .
+setBigIntEnabled
+(
+true
+)
+.
 setFieldsEnabled
 (
 true
