@@ -1545,13 +1545,7 @@ void
 storeFrameSizeAndPushDescriptor
 (
 uint32_t
-frameBaseSize
-uint32_t
 argSize
-const
-Address
-&
-frameSizeAddr
 Register
 scratch1
 Register
