@@ -1354,6 +1354,16 @@ void
 buffer
 )
 {
+MOZ_ASSERT
+(
+mallocedBuffers
+.
+has
+(
+buffer
+)
+)
+;
 mallocedBuffers
 .
 remove
