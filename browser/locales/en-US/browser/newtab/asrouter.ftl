@@ -294,6 +294,15 @@ doorhanger
 -
 extension
 -
+notification
+=
+Recommendation
+cfr
+-
+doorhanger
+-
+extension
+-
 notification2
 =
 Recommendation

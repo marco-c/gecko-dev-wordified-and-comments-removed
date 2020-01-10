@@ -891,6 +891,13 @@ value
 =
 notificationText
 ;
+if
+(
+notificationText
+.
+attributes
+)
+{
 this
 .
 button
@@ -925,6 +932,7 @@ attributes
 tooltiptext
 )
 ;
+}
 this
 .
 button
@@ -1052,6 +1060,13 @@ recommendation
 )
 ;
 }
+if
+(
+notificationText
+.
+attributes
+)
+{
 this
 .
 window
@@ -1081,6 +1096,7 @@ container
 }
 )
 ;
+}
 }
 hideAddressBarNotifier
 (
