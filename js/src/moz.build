@@ -1903,6 +1903,15 @@ builtin
 /
 streams
 /
+WritableStreamDefaultWriter
+.
+cpp
+'
+'
+builtin
+/
+streams
+/
 WritableStreamOperations
 .
 cpp
