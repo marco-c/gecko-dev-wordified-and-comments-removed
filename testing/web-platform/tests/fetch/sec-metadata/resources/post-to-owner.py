@@ -111,6 +111,26 @@ data
 "
 )
 ;
+            
+if
+(
+window
+.
+portalHost
+)
+                
+window
+.
+portalHost
+.
+postMessage
+(
+data
+"
+*
+"
+)
+;
         
 <
 /
