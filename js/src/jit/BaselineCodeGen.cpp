@@ -8049,7 +8049,7 @@ store32
 scratch1
 frame
 .
-addressOfScratchValue
+addressOfScratchValueLow32
 (
 )
 )
@@ -8116,7 +8116,7 @@ Assembler
 Equal
 frame
 .
-addressOfScratchValue
+addressOfScratchValueLow32
 (
 )
 scratch1
@@ -8165,7 +8165,7 @@ store32
 scratch1
 frame
 .
-addressOfReturnValue
+addressOfScratchValueHigh32
 (
 )
 )
@@ -8194,7 +8194,7 @@ load32
 (
 frame
 .
-addressOfReturnValue
+addressOfScratchValueHigh32
 (
 )
 scratch1
