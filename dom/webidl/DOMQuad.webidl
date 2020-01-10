@@ -175,6 +175,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 DOMQuad
