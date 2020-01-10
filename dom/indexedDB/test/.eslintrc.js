@@ -56,15 +56,6 @@ rules
 :
 {
 "
-brace
--
-style
-"
-:
-"
-off
-"
-"
 no
 -
 shadow
