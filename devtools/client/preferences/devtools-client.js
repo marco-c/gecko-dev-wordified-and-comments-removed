@@ -3098,3 +3098,17 @@ disable_autohide
 false
 )
 ;
+pref
+(
+"
+devtools
+.
+toolbox
+.
+content
+-
+frame
+"
+true
+)
+;
