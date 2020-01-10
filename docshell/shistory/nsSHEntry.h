@@ -549,6 +549,15 @@ AbandonBFCacheEntry
 )
 override
 ;
+NS_IMETHOD_
+(
+void
+)
+ClearEntry
+(
+)
+override
+;
 NS_IMETHOD
 CreateLoadInfo
 (
