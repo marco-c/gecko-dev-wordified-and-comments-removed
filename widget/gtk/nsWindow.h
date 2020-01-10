@@ -2060,7 +2060,7 @@ override
 ifdef
 MOZ_WAYLAND
 return
-mNeedsUpdatingEGLSurface
+mCompositorInitiallyPaused
 ;
 #
 else
@@ -2124,6 +2124,9 @@ ifdef
 MOZ_WAYLAND
 bool
 mNeedsUpdatingEGLSurface
+;
+bool
+mCompositorInitiallyPaused
 ;
 #
 endif
