@@ -7919,7 +7919,9 @@ aWindow
 .
 gURLBar
 .
-closePopup
+view
+.
+close
 (
 )
 ;

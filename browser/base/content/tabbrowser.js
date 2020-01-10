@@ -5430,7 +5430,9 @@ gURLBar
 {
 gURLBar
 .
-closePopup
+view
+.
+close
 (
 )
 ;

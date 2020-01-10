@@ -2363,16 +2363,6 @@ formatValue
 val
 )
 ;
-/
-/
-Manage
-view
-visibility
-.
-closePopup
-(
-)
-;
 openResults
 (
 )
