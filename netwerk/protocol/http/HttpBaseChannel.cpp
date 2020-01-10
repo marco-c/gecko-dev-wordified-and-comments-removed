@@ -1110,7 +1110,7 @@ mUpgradableToSecure
 (
 true
 )
-mHasSandboxedNavigations
+mHasNonEmptySandboxingFlag
 (
 false
 )

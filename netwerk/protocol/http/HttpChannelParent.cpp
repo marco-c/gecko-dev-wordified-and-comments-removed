@@ -1064,7 +1064,7 @@ navigationStartTimeStamp
 )
 a
 .
-hasSandboxedAuxiliaryNavigations
+hasNonEmptySandboxingFlag
 (
 )
 )
@@ -2307,7 +2307,7 @@ aNavigationStartTimeStamp
 const
 bool
 &
-hasSandboxedAuxiliaryNavigations
+aHasNonEmptySandboxingFlag
 )
 {
 nsCOMPtr
@@ -2807,13 +2807,13 @@ true
 }
 if
 (
-hasSandboxedAuxiliaryNavigations
+aHasNonEmptySandboxingFlag
 )
 {
 httpChannel
 -
 >
-SetHasSandboxedAuxiliaryNavigations
+SetHasNonEmptySandboxingFlag
 (
 true
 )

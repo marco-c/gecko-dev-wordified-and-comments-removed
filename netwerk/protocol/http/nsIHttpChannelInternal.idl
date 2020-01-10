@@ -2552,7 +2552,7 @@ nostdcall
 ]
 attribute
 boolean
-hasSandboxedAuxiliaryNavigations
+hasNonEmptySandboxingFlag
 ;
 }
 ;

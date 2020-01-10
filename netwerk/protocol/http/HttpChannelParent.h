@@ -662,7 +662,7 @@ aNavigationStartTimeStamp
 const
 bool
 &
-hasSandboxedAuxiliaryNavigations
+hasNonEmptySandboxingFlag
 )
 ;
 virtual

@@ -4041,7 +4041,7 @@ bool
 nsViewSourceChannel
 :
 :
-GetHasSandboxedAuxiliaryNavigations
+GetHasNonEmptySandboxingFlag
 (
 )
 {
@@ -4054,7 +4054,7 @@ return
 mHttpChannelInternal
 -
 >
-GetHasSandboxedAuxiliaryNavigations
+GetHasNonEmptySandboxingFlag
 (
 )
 ;
@@ -4067,10 +4067,10 @@ void
 nsViewSourceChannel
 :
 :
-SetHasSandboxedAuxiliaryNavigations
+SetHasNonEmptySandboxingFlag
 (
 bool
-aHasSandboxedAuxiliaryNavigations
+aHasNonEmptySandboxingFlag
 )
 {
 if
@@ -4081,9 +4081,9 @@ mHttpChannelInternal
 mHttpChannelInternal
 -
 >
-SetHasSandboxedAuxiliaryNavigations
+SetHasNonEmptySandboxingFlag
 (
-aHasSandboxedAuxiliaryNavigations
+aHasNonEmptySandboxingFlag
 )
 ;
 }
