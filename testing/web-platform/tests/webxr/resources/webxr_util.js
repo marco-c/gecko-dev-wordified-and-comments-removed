@@ -215,6 +215,12 @@ session
 ;
 session
 .
+mode
+=
+sessionMode
+;
+session
+.
 updateRenderState
 (
 {
