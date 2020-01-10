@@ -266,7 +266,7 @@ accountsBundle
 formatStringFromName
 (
 "
-deviceConnectedBody
+otherDeviceConnectedBody
 "
 [
 "
@@ -302,7 +302,7 @@ accountsBundle
 GetStringFromName
 (
 "
-deviceConnectedBody
+otherDeviceConnectedBody
 .
 noDeviceName
 "
