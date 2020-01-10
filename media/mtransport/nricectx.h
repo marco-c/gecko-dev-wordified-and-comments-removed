@@ -775,7 +775,7 @@ false
 )
 ;
 void
-SetRemoteAddr
+SetTargetForDefaultLocalAddressLookup
 (
 const
 std
@@ -783,9 +783,9 @@ std
 :
 string
 &
-remote_ip
+target_ip
 uint16_t
-remote_port
+target_port
 )
 ;
 static
