@@ -7129,8 +7129,10 @@ InputContextAction
 CAUSE_UNKNOWN
 &
 &
-!
-XRE_IsContentProcess
+nsContentUtils
+:
+:
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
