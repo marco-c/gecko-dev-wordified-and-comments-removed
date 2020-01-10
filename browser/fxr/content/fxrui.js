@@ -6,9 +6,15 @@ https
 :
 /
 /
-webxr
+www
 .
-today
+mozilla
+.
+org
+/
+en
+-
+US
 /
 "
 ;

@@ -779,16 +779,6 @@ aRv
 )
 ;
 void
-FinishGetVRDisplays
-(
-bool
-isWebVRSupportedInwindow
-Promise
-*
-p
-)
-;
-void
 GetActiveVRDisplays
 (
 nsTArray
