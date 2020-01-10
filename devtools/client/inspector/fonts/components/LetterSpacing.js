@@ -258,9 +258,7 @@ value
 =
 isKeywordValue
 ?
-1
-.
-2
+0
 :
 parseFloat
 (
