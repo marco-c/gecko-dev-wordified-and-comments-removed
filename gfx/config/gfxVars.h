@@ -260,6 +260,13 @@ false
 \
 _
 (
+WorkaroundWebRenderIntelBug1556634
+bool
+false
+)
+\
+_
+(
 WebRenderDebugFlags
 int32_t
 0
