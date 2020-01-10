@@ -133,6 +133,10 @@ move
 (
 parentPipe
 )
+VideoBridgeSource
+:
+:
+GpuProcess
 )
 )
 ;
