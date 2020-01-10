@@ -3986,6 +3986,7 @@ keyframeEffect
 ShouldBlockAsyncTransformAnimations
 (
 aFrame
+aPropertySet
 aPerformanceWarning
 )
 ;

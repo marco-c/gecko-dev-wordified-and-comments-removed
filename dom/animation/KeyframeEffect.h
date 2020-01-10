@@ -945,6 +945,10 @@ const
 nsIFrame
 *
 aFrame
+const
+nsCSSPropertyIDSet
+&
+aPropertySet
 AnimationPerformanceWarning
 :
 :
