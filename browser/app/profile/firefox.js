@@ -556,7 +556,7 @@ discover
 .
 enabled
 "
-false
+true
 )
 ;
 pref

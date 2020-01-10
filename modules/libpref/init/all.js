@@ -39656,7 +39656,7 @@ htmlaboutaddons
 .
 enabled
 "
-false
+true
 )
 ;
 pref
