@@ -6273,6 +6273,15 @@ aDocument
 )
 ;
 static
+bool
+ComputeIsSecureContext
+(
+nsIChannel
+*
+aChannel
+)
+;
+static
 void
 TryToUpgradeElement
 (
