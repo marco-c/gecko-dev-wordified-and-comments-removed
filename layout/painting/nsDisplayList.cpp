@@ -7052,6 +7052,10 @@ mBuildBackdropRootContainer
 (
 false
 )
+mContainsBackdropFilter
+(
+false
+)
 mHitTestArea
 (
 )
