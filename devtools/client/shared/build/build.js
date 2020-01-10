@@ -49,7 +49,7 @@ strip
 types
 "
 "
-transform
+proposal
 -
 class
 -
