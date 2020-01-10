@@ -328,16 +328,6 @@ mCspToInherit
 aCspToInherit
 ;
 }
-nsIContentSecurityPolicy
-*
-GetCSPToInherit
-(
-)
-{
-return
-mCspToInherit
-;
-}
 private
 :
 LoadInfo
