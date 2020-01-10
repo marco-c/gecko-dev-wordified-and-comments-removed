@@ -157,10 +157,6 @@ iid
 ;
 }
 ;
-DOMParser
-implements
-LegacyQueryInterface
-;
 Document
 implements
 LegacyQueryInterface
