@@ -113,7 +113,7 @@ localize_entity
 (
 dtds
 '
-helpSafeMode
+aboutProduct2
 .
 label
 '
@@ -131,7 +131,7 @@ By
 .
 ID
 '
-helpSafeMode
+aboutName
 '
 )
         
