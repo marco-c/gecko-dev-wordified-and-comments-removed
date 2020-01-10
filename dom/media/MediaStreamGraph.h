@@ -1345,6 +1345,13 @@ protected
 :
 virtual
 void
+NotifyForcedShutdown
+(
+)
+{
+}
+virtual
+void
 AdvanceTimeVaryingValuesToCurrentTime
 (
 GraphTime

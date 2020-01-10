@@ -1094,6 +1094,13 @@ return
 false
 ;
 }
+virtual
+void
+NotifyForcedShutdown
+(
+)
+{
+}
 bool
 HasNode
 (

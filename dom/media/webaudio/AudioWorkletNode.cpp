@@ -83,6 +83,13 @@ StructuredCloneHolder
 aOptionsSerialization
 )
 ;
+void
+NotifyForcedShutdown
+(
+)
+override
+{
+}
 }
 ;
 void

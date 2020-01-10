@@ -537,6 +537,12 @@ class
 CheckForInactiveMessage
 ;
 void
+NotifyForcedShutdown
+(
+)
+override
+;
+void
 DestroyImpl
 (
 )
@@ -623,6 +629,7 @@ DecrementActiveInputCount
 (
 )
 ;
+const
 nsAutoPtr
 <
 AudioNodeEngine
