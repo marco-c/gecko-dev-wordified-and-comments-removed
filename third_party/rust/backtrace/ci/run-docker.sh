@@ -71,10 +71,14 @@ init
 -
 -
 volume
-HOME
-/
-.
+(
+dirname
+(
+dirname
+which
 cargo
+)
+)
 :
 /
 cargo

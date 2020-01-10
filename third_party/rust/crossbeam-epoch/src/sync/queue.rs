@@ -204,6 +204,13 @@ null
 )
 }
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 let
 sentinel
 =

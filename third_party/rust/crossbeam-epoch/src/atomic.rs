@@ -658,11 +658,7 @@ cfg
 (
 not
 (
-feature
-=
-"
-nightly
-"
+has_min_const_fn
 )
 )
 ]
@@ -698,11 +694,7 @@ PhantomData
 [
 cfg
 (
-feature
-=
-"
-nightly
-"
+has_min_const_fn
 )
 ]
 pub

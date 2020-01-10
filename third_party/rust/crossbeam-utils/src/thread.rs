@@ -893,6 +893,7 @@ closure
 :
 Box
 <
+dyn
 FnMut
 (
 )
@@ -916,6 +917,7 @@ closure
 :
 Box
 <
+dyn
 FnMut
 (
 )
