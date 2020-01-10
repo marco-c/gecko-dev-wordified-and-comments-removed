@@ -191,7 +191,6 @@ base
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -201,6 +200,13 @@ HTMLBaseElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

@@ -221,7 +221,6 @@ meta
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -231,6 +230,13 @@ HTMLMetaElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

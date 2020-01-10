@@ -199,7 +199,6 @@ and
 -
 apis
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -209,6 +208,13 @@ HTMLDirectoryElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

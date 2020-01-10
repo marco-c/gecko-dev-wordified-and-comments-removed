@@ -222,7 +222,6 @@ param
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -232,6 +231,13 @@ HTMLParamElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

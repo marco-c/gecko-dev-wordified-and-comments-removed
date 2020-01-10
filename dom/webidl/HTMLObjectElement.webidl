@@ -216,7 +216,6 @@ object
 -
 element
 [
-HTMLConstructor
 NeedResolve
 Exposed
 =
@@ -227,6 +226,13 @@ HTMLObjectElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 Pure

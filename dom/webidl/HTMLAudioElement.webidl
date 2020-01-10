@@ -163,7 +163,6 @@ document
 *
 /
 [
-HTMLConstructor
 NamedConstructor
 =
 Audio
@@ -181,5 +180,12 @@ HTMLAudioElement
 :
 HTMLMediaElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;

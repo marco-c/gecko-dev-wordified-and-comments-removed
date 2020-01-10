@@ -221,7 +221,6 @@ a
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -231,6 +230,13 @@ HTMLAnchorElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

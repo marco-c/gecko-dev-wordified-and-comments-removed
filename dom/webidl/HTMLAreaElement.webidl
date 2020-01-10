@@ -222,7 +222,6 @@ area
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -232,6 +231,13 @@ HTMLAreaElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

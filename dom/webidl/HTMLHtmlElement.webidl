@@ -222,7 +222,6 @@ html
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -232,6 +231,13 @@ HTMLHtmlElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;
 /

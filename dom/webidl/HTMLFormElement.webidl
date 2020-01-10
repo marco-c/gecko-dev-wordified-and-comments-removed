@@ -161,7 +161,6 @@ document
 [
 OverrideBuiltins
 LegacyUnenumerableNamedProperties
-HTMLConstructor
 Exposed
 =
 Window
@@ -171,6 +170,13 @@ HTMLFormElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 Pure

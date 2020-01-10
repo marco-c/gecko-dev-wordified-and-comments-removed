@@ -190,7 +190,6 @@ map
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -200,6 +199,13 @@ HTMLMapElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

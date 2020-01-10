@@ -193,7 +193,6 @@ OpenPopupOptions
 StringOrOpenPopupOptions
 ;
 [
-HTMLConstructor
 Func
 =
 "
@@ -208,6 +207,13 @@ XULPopupElement
 :
 XULElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 /
 *
 *

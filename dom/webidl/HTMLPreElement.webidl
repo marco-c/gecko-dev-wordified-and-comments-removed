@@ -221,7 +221,6 @@ pre
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -231,6 +230,13 @@ HTMLPreElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;
 /

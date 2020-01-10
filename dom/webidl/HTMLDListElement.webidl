@@ -222,7 +222,6 @@ dl
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -232,6 +231,13 @@ HTMLDListElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;
 /

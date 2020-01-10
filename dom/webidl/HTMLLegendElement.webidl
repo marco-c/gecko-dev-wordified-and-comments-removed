@@ -222,7 +222,6 @@ legend
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -232,6 +231,13 @@ HTMLLegendElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 readonly
 attribute
 HTMLFormElement

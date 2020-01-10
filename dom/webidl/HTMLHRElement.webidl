@@ -221,7 +221,6 @@ hr
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -231,6 +230,13 @@ HTMLHRElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;
 /

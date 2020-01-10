@@ -216,7 +216,6 @@ embed
 -
 element
 [
-HTMLConstructor
 NeedResolve
 Exposed
 =
@@ -227,6 +226,13 @@ HTMLEmbedElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 Pure

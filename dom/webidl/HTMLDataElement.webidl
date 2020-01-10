@@ -137,7 +137,6 @@ element
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -147,6 +146,13 @@ HTMLDataElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

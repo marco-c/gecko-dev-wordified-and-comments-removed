@@ -191,7 +191,6 @@ output
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -201,6 +200,13 @@ HTMLOutputElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 PutForwards
 =

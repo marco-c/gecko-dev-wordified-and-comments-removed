@@ -182,7 +182,6 @@ work
 #
 htmlframeelement
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -192,6 +191,13 @@ HTMLFrameElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

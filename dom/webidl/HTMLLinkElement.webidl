@@ -221,7 +221,6 @@ link
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -231,6 +230,13 @@ HTMLLinkElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

@@ -184,7 +184,6 @@ marquee
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -194,6 +193,13 @@ HTMLMarqueeElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

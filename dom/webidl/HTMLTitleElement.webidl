@@ -128,7 +128,6 @@ element
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -138,6 +137,13 @@ HTMLTitleElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 Throws

@@ -211,7 +211,6 @@ document
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -221,6 +220,13 @@ HTMLIFrameElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterNeedsSubjectPrincipal

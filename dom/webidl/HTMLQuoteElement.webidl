@@ -191,7 +191,6 @@ blockquote
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -201,6 +200,13 @@ HTMLQuoteElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

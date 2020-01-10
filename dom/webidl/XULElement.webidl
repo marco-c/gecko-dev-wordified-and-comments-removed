@@ -95,7 +95,6 @@ interface
 XULControllers
 ;
 [
-HTMLConstructor
 Func
 =
 "
@@ -110,6 +109,13 @@ XULElement
 :
 Element
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 /
 /
 Layout

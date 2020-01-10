@@ -92,7 +92,6 @@ MPL
 *
 /
 [
-HTMLConstructor
 Func
 =
 "
@@ -107,6 +106,13 @@ XULMenuElement
 :
 XULElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 attribute
 Element
 ?

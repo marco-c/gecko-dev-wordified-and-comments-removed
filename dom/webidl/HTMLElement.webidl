@@ -175,7 +175,6 @@ document
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -185,6 +184,13 @@ HTMLElement
 :
 Element
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 /
 /
 metadata

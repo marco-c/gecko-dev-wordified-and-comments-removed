@@ -163,7 +163,6 @@ document
 *
 /
 [
-HTMLConstructor
 NamedConstructor
 =
 Option
@@ -197,6 +196,13 @@ HTMLOptionElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

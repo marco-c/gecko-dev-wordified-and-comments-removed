@@ -92,7 +92,6 @@ MPL
 *
 /
 [
-HTMLConstructor
 Func
 =
 "
@@ -107,6 +106,13 @@ XULTextElement
 :
 XULElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 attribute
 boolean
 disabled

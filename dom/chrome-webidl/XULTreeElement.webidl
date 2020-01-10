@@ -117,7 +117,6 @@ childElt
 }
 ;
 [
-HTMLConstructor
 Func
 =
 "
@@ -132,6 +131,13 @@ XULTreeElement
 :
 XULElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 /
 *
 *

@@ -159,7 +159,6 @@ apis
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -169,6 +168,13 @@ HTMLScriptElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterNeedsSubjectPrincipal

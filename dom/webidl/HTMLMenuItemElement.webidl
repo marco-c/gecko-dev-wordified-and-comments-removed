@@ -191,7 +191,6 @@ menuitem
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -201,6 +200,13 @@ HTMLMenuItemElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

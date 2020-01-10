@@ -191,7 +191,6 @@ meter
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -201,6 +200,13 @@ HTMLMeterElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

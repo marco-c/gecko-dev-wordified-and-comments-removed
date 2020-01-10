@@ -245,7 +245,6 @@ h6
 -
 elements
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -255,6 +254,13 @@ HTMLHeadingElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;
 /

@@ -100,7 +100,6 @@ interface
 nsIWebNavigation
 ;
 [
-HTMLConstructor
 Func
 =
 "
@@ -115,6 +114,13 @@ XULFrameElement
 :
 XULElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 readonly
 attribute
 nsIDocShell

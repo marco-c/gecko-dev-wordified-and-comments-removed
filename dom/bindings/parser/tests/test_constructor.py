@@ -1143,13 +1143,17 @@ parse
 "
 "
         
-[
-HTMLConstructor
-]
-        
 interface
 TestHTMLConstructor
 {
+          
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
         
 }
 ;
@@ -1354,17 +1358,19 @@ parse
 "
 "
             
+interface
+TestHTMLConstructorWithArgs
+{
+              
 [
 HTMLConstructor
+]
+constructor
 (
 DOMString
 a
 )
-]
-            
-interface
-TestHTMLConstructorWithArgs
-{
+;
             
 }
 ;
@@ -1426,14 +1432,18 @@ parse
 "
 "
             
-[
-HTMLConstructor
-]
-            
 callback
 interface
 TestHTMLConstructorOnCallbackInterface
 {
+              
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
             
 }
 ;
@@ -1500,14 +1510,18 @@ parse
 "
 "
             
-[
-HTMLConstructor
-]
-            
 interface
 TestHTMLConstructorAndConstructor
 {
               
+constructor
+(
+)
+;
+              
+[
+HTMLConstructor
+]
 constructor
 (
 )
@@ -1578,10 +1592,6 @@ parse
 "
 "
             
-[
-HTMLConstructor
-]
-            
 interface
 TestHTMLConstructorAndConstructor
 {
@@ -1590,6 +1600,14 @@ TestHTMLConstructorAndConstructor
 Throws
 ]
               
+constructor
+(
+)
+;
+              
+[
+HTMLConstructor
+]
 constructor
 (
 )
@@ -1662,10 +1680,6 @@ parse
 "
 "
             
-[
-HTMLConstructor
-]
-            
 interface
 TestHTMLConstructorAndConstructor
 {
@@ -1674,6 +1688,14 @@ constructor
 (
 DOMString
 a
+)
+;
+              
+[
+HTMLConstructor
+]
+constructor
+(
 )
 ;
             
@@ -1744,10 +1766,6 @@ parse
 "
 "
             
-[
-HTMLConstructor
-]
-            
 interface
 TestHTMLConstructorAndConstructor
 {
@@ -1760,6 +1778,14 @@ constructor
 (
 DOMString
 a
+)
+;
+              
+[
+HTMLConstructor
+]
+constructor
+(
 )
 ;
             
@@ -1834,10 +1860,6 @@ parse
 "
 "
             
-[
-HTMLConstructor
-]
-            
 interface
 TestHTMLConstructorAndConstructor
 {
@@ -1846,6 +1868,14 @@ TestHTMLConstructorAndConstructor
 ChromeOnly
 ]
               
+constructor
+(
+)
+;
+              
+[
+HTMLConstructor
+]
 constructor
 (
 )
@@ -1918,10 +1948,6 @@ parse
 "
 "
             
-[
-HTMLConstructor
-]
-            
 interface
 TestHTMLConstructorAndConstructor
 {
@@ -1931,6 +1957,14 @@ Throws
 ChromeOnly
 ]
               
+constructor
+(
+)
+;
+              
+[
+HTMLConstructor
+]
 constructor
 (
 )
@@ -2007,10 +2041,6 @@ parse
 "
 "
             
-[
-HTMLConstructor
-]
-            
 interface
 TestHTMLConstructorAndConstructor
 {
@@ -2023,6 +2053,14 @@ constructor
 (
 DOMString
 a
+)
+;
+              
+[
+HTMLConstructor
+]
+constructor
+(
 )
 ;
             
@@ -2097,10 +2135,6 @@ parse
 "
 "
             
-[
-HTMLConstructor
-]
-            
 interface
 TestHTMLConstructorAndConstructor
 {
@@ -2114,6 +2148,14 @@ constructor
 (
 DOMString
 a
+)
+;
+              
+[
+HTMLConstructor
+]
+constructor
+(
 )
 ;
             

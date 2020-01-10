@@ -157,7 +157,6 @@ document
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -167,6 +166,13 @@ HTMLDivElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;
 partial

@@ -199,7 +199,6 @@ interface
 XULControllers
 ;
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -209,6 +208,13 @@ HTMLTextAreaElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

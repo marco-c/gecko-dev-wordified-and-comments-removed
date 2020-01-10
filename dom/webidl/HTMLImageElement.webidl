@@ -201,7 +201,6 @@ interface
 nsIStreamListener
 ;
 [
-HTMLConstructor
 NamedConstructor
 =
 Image
@@ -224,6 +223,13 @@ HTMLImageElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

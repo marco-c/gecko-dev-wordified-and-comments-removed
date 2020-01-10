@@ -160,7 +160,6 @@ document
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -170,6 +169,13 @@ HTMLDetailsElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

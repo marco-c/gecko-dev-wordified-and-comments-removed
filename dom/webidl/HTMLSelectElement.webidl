@@ -120,7 +120,6 @@ element
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -130,6 +129,13 @@ HTMLSelectElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

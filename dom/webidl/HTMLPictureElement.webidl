@@ -92,7 +92,6 @@ MPL
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -102,5 +101,12 @@ HTMLPictureElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;

@@ -233,7 +233,6 @@ interface
 XULControllers
 ;
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -243,6 +242,13 @@ HTMLInputElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 Pure

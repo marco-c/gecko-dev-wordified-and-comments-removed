@@ -191,7 +191,6 @@ head
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -201,5 +200,12 @@ HTMLHeadElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;

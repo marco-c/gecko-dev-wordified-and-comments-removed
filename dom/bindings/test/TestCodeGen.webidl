@@ -9739,7 +9739,6 @@ needsNonSystemSubjectPrincipalAttr
 }
 ;
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -9747,6 +9746,13 @@ Window
 interface
 TestHTMLConstructorInterface
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;
 [

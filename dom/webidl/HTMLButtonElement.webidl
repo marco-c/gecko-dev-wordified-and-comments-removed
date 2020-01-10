@@ -190,7 +190,6 @@ button
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -200,6 +199,13 @@ HTMLButtonElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

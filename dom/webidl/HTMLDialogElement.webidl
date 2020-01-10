@@ -169,7 +169,6 @@ dialog_element
 .
 enabled
 "
-HTMLConstructor
 Exposed
 =
 Window
@@ -179,6 +178,13 @@ HTMLDialogElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

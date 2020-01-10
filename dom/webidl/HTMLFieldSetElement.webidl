@@ -163,7 +163,6 @@ document
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -173,6 +172,13 @@ HTMLFieldSetElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

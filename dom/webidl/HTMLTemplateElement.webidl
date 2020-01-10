@@ -118,7 +118,6 @@ apply
 *
 /
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -128,6 +127,13 @@ HTMLTemplateElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 readonly
 attribute
 DocumentFragment

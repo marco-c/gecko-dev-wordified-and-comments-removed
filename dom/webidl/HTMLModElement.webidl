@@ -206,7 +206,6 @@ del
 -
 elements
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -216,6 +215,13 @@ HTMLModElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 SetterThrows

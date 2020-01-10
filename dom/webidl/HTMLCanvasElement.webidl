@@ -168,7 +168,6 @@ interface
 Variant
 ;
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -178,6 +177,13 @@ HTMLCanvasElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 [
 CEReactions
 Pure

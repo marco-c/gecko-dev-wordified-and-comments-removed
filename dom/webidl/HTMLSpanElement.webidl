@@ -191,7 +191,6 @@ span
 -
 element
 [
-HTMLConstructor
 Exposed
 =
 Window
@@ -201,5 +200,12 @@ HTMLSpanElement
 :
 HTMLElement
 {
+[
+HTMLConstructor
+]
+constructor
+(
+)
+;
 }
 ;
