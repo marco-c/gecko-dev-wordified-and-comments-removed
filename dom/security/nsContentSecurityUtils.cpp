@@ -290,14 +290,6 @@ about
 downloads
 "
 )
-NS_LITERAL_CSTRING
-(
-"
-about
-:
-preferences
-"
-)
 }
 ;
 for

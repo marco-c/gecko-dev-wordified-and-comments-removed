@@ -284,16 +284,6 @@ highlightable
 -
 button
 "
-oncommand
-=
-"
-gContainersPane
-.
-onAddButtonCommand
-(
-)
-;
-"
 data
 -
 l10n
