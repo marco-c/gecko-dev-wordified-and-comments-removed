@@ -1576,11 +1576,11 @@ currentAngle
 =
 =
 =
-270
+90
 ?
 0
 :
-270
+90
 ;
 const
 orientation
