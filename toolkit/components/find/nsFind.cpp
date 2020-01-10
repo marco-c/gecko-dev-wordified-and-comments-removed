@@ -2605,7 +2605,7 @@ if
 mCaseSensitive
 )
 {
-ToLowerCase
+ToFoldedCase
 (
 patAutoStr
 )
@@ -3511,17 +3511,11 @@ inWhitespace
 &
 !
 mCaseSensitive
-&
-&
-IsUpperCase
-(
-c
-)
 )
 {
 c
 =
-ToLowerCase
+ToFoldedCase
 (
 c
 )
