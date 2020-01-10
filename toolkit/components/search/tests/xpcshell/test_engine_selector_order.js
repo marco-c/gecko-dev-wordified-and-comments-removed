@@ -802,6 +802,11 @@ Assert
 equal
 (
 privateDefault
+&
+&
+privateDefault
+.
+engineName
 test
 .
 expectedPrivate

@@ -3580,6 +3580,9 @@ null
 _extensionID
 :
 null
+_locale
+:
+null
 _isBuiltin
 :
 false
@@ -5745,6 +5748,14 @@ _extensionID
 params
 .
 extensionID
+;
+this
+.
+_locale
+=
+params
+.
+locale
 ;
 this
 .
