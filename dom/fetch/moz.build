@@ -225,11 +225,6 @@ FetchObserver
 cpp
 '
 '
-FetchStream
-.
-cpp
-'
-'
 FetchStreamReader
 .
 cpp
