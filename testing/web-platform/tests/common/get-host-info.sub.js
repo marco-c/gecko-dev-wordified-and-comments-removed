@@ -57,7 +57,7 @@ https
 var
 PROTOCOL
 =
-window
+self
 .
 location
 .
