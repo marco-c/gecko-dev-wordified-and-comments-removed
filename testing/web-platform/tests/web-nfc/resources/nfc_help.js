@@ -387,6 +387,8 @@ if
 recordA
 .
 data
+(
+)
 instanceof
 ArrayBuffer
 )
@@ -399,6 +401,8 @@ Uint8Array
 recordA
 .
 data
+(
+)
 )
 new
 Uint8Array
@@ -406,6 +410,8 @@ Uint8Array
 recordB
 .
 data
+(
+)
 )
 )
 ;
@@ -417,6 +423,8 @@ typeof
 recordA
 .
 data
+(
+)
 =
 =
 =
@@ -430,9 +438,13 @@ assert_object_equals
 recordA
 .
 data
+(
+)
 recordB
 .
 data
+(
+)
 )
 ;
 }
@@ -443,6 +455,8 @@ typeof
 recordA
 .
 data
+(
+)
 =
 =
 =
@@ -455,6 +469,8 @@ typeof
 recordA
 .
 data
+(
+)
 =
 =
 =
@@ -468,11 +484,15 @@ assert_true
 recordA
 .
 data
+(
+)
 =
 =
 recordB
 .
 data
+(
+)
 )
 ;
 }
