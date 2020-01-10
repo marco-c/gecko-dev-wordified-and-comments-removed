@@ -1131,6 +1131,12 @@ kModalHighlightPref
 ;
 this
 .
+_useSubFrames
+=
+false
+;
+this
+.
 finder
 =
 finder
@@ -1317,6 +1323,7 @@ highlight
 word
 linksOnly
 drawOutline
+useSubFrames
 )
 {
 let
@@ -1364,6 +1371,12 @@ this
 _found
 =
 false
+;
+this
+.
+_useSubFrames
+=
+useSubFrames
 ;
 if
 (
@@ -1427,6 +1440,7 @@ this
 useCache
 :
 true
+useSubFrames
 window
 }
 ;
@@ -2264,6 +2278,14 @@ window
 return
 ;
 }
+this
+.
+_useSubFrames
+=
+data
+.
+useSubFrames
+;
 if
 (
 !
@@ -2372,6 +2394,9 @@ linksOnly
 params
 .
 drawOutline
+data
+.
+useSubFrames
 )
 ;
 }
@@ -2470,6 +2495,9 @@ linksOnly
 data
 .
 drawOutline
+data
+.
+useSubFrames
 )
 ;
 }
