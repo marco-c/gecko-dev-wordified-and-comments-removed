@@ -36,6 +36,13 @@ under
 .
 mozbuild
 /
+srcdirs
+/
+<
+srcdir
+hash
+>
+/
 history
 (
 note
