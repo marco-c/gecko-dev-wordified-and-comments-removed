@@ -2019,12 +2019,9 @@ virtual
 BackgroundClipRenderingObserver
 (
 )
-{
-StopObserving
-(
-)
+=
+default
 ;
-}
 Element
 *
 GetReferencedElementWithoutObserving
