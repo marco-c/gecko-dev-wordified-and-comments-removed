@@ -115,7 +115,6 @@ threadFront
 ;
 const
 {
-inspector
 testActor
 }
 =
@@ -147,9 +146,7 @@ focus
 )
 ;
 await
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -259,9 +256,7 @@ mousemove
 )
 ;
 return
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .

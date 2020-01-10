@@ -1098,7 +1098,7 @@ add
 true
 )
 ;
-inspectorFront
+toolbox
 .
 nodePicker
 .

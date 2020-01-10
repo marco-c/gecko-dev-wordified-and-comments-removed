@@ -1803,7 +1803,7 @@ this
 .
 inspector
 .
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -1825,7 +1825,7 @@ this
 .
 inspector
 .
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -9252,7 +9252,7 @@ this
 .
 inspector
 .
-inspectorFront
+toolbox
 .
 nodePicker
 .

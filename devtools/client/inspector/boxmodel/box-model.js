@@ -1041,6 +1041,8 @@ false
 ;
 inspector
 .
+toolbox
+.
 nodePicker
 .
 off
@@ -1803,6 +1805,8 @@ enabled
 {
 inspector
 .
+toolbox
+.
 nodePicker
 .
 on
@@ -1863,6 +1867,8 @@ onMarkupViewNodeHover
 else
 {
 inspector
+.
+toolbox
 .
 nodePicker
 .

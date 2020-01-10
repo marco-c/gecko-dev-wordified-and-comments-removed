@@ -130,6 +130,7 @@ function
 {
 const
 {
+toolbox
 inspector
 testActor
 }
@@ -356,9 +357,7 @@ deactivate
 )
 ;
 await
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -418,9 +417,7 @@ then
 )
 =
 >
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .

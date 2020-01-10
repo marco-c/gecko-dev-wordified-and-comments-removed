@@ -214,9 +214,7 @@ selector
 )
 ;
 return
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .

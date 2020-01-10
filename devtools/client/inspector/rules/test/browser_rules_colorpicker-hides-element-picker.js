@@ -52,7 +52,6 @@ TEST_URI
 ;
 const
 {
-inspector
 toolbox
 view
 }
@@ -65,9 +64,7 @@ openRuleView
 const
 pickerStopped
 =
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .

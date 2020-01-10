@@ -538,9 +538,9 @@ cancel
 ;
 }
 }
-exports
+module
 .
-NodePicker
+exports
 =
 NodePicker
 ;

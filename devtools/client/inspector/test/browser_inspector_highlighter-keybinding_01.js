@@ -23,7 +23,6 @@ function
 {
 const
 {
-inspector
 toolbox
 testActor
 }
@@ -33,13 +32,6 @@ openInspectorForURL
 (
 TEST_URL
 )
-;
-const
-{
-inspectorFront
-}
-=
-inspector
 ;
 await
 startPicker
@@ -343,7 +335,7 @@ picker
 )
 ;
 await
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -382,7 +374,7 @@ args
 )
 ;
 return
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -445,7 +437,7 @@ selector
 )
 ;
 return
-inspectorFront
+toolbox
 .
 nodePicker
 .

@@ -424,9 +424,7 @@ deactivate
 )
 ;
 await
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -480,9 +478,7 @@ mousemove
 )
 ;
 return
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .

@@ -116,7 +116,7 @@ onHovered
 =
 inspector
 .
-inspectorFront
+toolbox
 .
 nodePicker
 .

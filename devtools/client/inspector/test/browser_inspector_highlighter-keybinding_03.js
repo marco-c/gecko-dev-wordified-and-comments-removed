@@ -371,9 +371,7 @@ inspector
 updated
 "
 )
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -418,9 +416,7 @@ args
 )
 ;
 return
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .
@@ -460,9 +456,7 @@ highlighted
 const
 onPickerNodeHovered
 =
-inspector
-.
-inspectorFront
+toolbox
 .
 nodePicker
 .
