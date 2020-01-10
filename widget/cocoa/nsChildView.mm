@@ -12675,8 +12675,8 @@ this
 thread
 .
 [
-CATransaction
-begin
+NSAnimationContext
+beginGrouping
 ]
 ;
 mNativeLayerRoot
@@ -12694,8 +12694,8 @@ mNativeLayerChangesPending
 false
 ;
 [
-CATransaction
-commit
+NSAnimationContext
+endGrouping
 ]
 ;
 }
