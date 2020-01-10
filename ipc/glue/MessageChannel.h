@@ -1780,7 +1780,7 @@ MOZ_RELEASE_ASSERT
 mWorkerThread
 =
 =
-PR_GetCurrentThread
+GetCurrentVirtualThread
 (
 )
 "
@@ -1830,7 +1830,7 @@ MOZ_RELEASE_ASSERT
 mWorkerThread
 !
 =
-PR_GetCurrentThread
+GetCurrentVirtualThread
 (
 )
 "

@@ -24679,7 +24679,7 @@ mDEBUGConnectionThread
 ;
 MOZ_ASSERT
 (
-PR_GetCurrentThread
+GetCurrentPhysicalThread
 (
 )
 =
@@ -46802,7 +46802,7 @@ dbInfo
 >
 mDEBUGConnectionThread
 =
-PR_GetCurrentThread
+GetCurrentPhysicalThread
 (
 )
 ;

@@ -378,7 +378,7 @@ mQueue
 >
 mRunningThread
 =
-PR_GetCurrentThread
+GetCurrentPhysicalThread
 (
 )
 ;
@@ -400,7 +400,7 @@ mQueue
 mRunningThread
 =
 =
-PR_GetCurrentThread
+GetCurrentPhysicalThread
 (
 )
 )
