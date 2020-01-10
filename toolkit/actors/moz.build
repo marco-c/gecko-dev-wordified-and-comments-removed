@@ -315,6 +315,11 @@ WebChannelChild
 jsm
 '
 '
+WebChannelParent
+.
+jsm
+'
+'
 WebNavigationChild
 .
 jsm
