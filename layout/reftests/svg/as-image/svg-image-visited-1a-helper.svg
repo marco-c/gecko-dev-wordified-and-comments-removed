@@ -165,9 +165,8 @@ element
 below
 links
 to
-a
-visited
-page
+_this
+document_
 so
 it
 '
@@ -199,11 +198,6 @@ xlink
 href
 =
 "
-visited
--
-page
-.
-html
 "
 id
 =
