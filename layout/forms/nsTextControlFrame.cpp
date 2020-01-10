@@ -3081,7 +3081,10 @@ desiredSize
 kidReflowInput
 xOffset
 yOffset
-0
+ReflowChildFlags
+:
+:
+Default
 aStatus
 )
 ;
@@ -3094,7 +3097,10 @@ desiredSize
 kidReflowInput
 xOffset
 yOffset
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 aParentDesiredSize

@@ -2640,7 +2640,10 @@ desiredSize
 reflowInput
 0
 0
-NS_FRAME_NO_MOVE_FRAME
+ReflowChildFlags
+:
+:
+NoMoveFrame
 status
 )
 ;
@@ -2683,7 +2686,10 @@ desiredSize
 reflowInput
 0
 0
-NS_FRAME_NO_MOVE_FRAME
+ReflowChildFlags
+:
+:
+NoMoveFrame
 )
 ;
 mInReflow

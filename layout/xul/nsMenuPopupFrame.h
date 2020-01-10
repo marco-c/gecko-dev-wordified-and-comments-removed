@@ -1259,8 +1259,7 @@ aIsNoAutoHide
 )
 const
 ;
-virtual
-uint32_t
+ReflowChildFlags
 GetXULLayoutFlags
 (
 )

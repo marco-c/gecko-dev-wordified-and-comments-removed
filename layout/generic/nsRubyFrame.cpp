@@ -1857,7 +1857,10 @@ textReflowInput
 lineWM
 position
 dummyContainerSize
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 }

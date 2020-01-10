@@ -2107,7 +2107,13 @@ aReflowInput
 frameWM
 logPos
 mContainerSize
-0
+nsIFrame
+:
+:
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 aOverflowAreas

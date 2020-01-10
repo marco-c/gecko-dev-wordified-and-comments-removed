@@ -38,7 +38,13 @@ aOuterReflowInput
 )
 mLayoutFlags
 (
-0
+nsIFrame
+:
+:
+ReflowChildFlags
+:
+:
+Default
 )
 mReflowDepth
 (

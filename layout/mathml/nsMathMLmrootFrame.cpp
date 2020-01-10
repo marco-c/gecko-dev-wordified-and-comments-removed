@@ -1501,7 +1501,10 @@ Width
 dx
 )
 dy
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 dx
@@ -1611,7 +1614,10 @@ Width
 dx
 )
 dy
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 mReference

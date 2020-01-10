@@ -3004,7 +3004,10 @@ overSize
 nullptr
 dxOver
 dy
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 }
@@ -3032,7 +3035,10 @@ baseSize
 nullptr
 dxBase
 dy
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 if
@@ -3072,7 +3078,10 @@ underSize
 nullptr
 dxUnder
 dy
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 }

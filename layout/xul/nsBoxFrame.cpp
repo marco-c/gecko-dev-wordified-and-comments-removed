@@ -3689,7 +3689,7 @@ nsBoxLayoutState
 aState
 )
 {
-uint32_t
+ReflowChildFlags
 oldFlags
 =
 aState
@@ -3702,7 +3702,10 @@ aState
 .
 SetLayoutFlags
 (
-0
+ReflowChildFlags
+:
+:
+Default
 )
 ;
 nsresult
