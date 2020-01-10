@@ -151,6 +151,9 @@ protocol
 qrcode
 '
 '
+resources
+'
+'
 screenshot
 '
 '
