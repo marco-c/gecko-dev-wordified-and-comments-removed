@@ -1193,6 +1193,11 @@ get
 )
 )
 ;
+SendEvent
+(
+NS_NETWORK_LINK_DATA_NETWORKID_CHANGED
+)
+;
 }
 else
 {
