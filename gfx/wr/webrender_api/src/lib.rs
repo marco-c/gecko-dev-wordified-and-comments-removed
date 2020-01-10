@@ -38,6 +38,10 @@ extern
 crate
 app_units
 ;
+extern
+crate
+bincode
+;
 #
 [
 macro_use
@@ -150,10 +154,6 @@ time
 extern
 crate
 malloc_size_of
-;
-extern
-crate
-peek_poke
 ;
 mod
 api

@@ -128,6 +128,7 @@ Data
 Enum
 (
 _
+_
 )
 =
 >
@@ -285,6 +286,7 @@ Data
 :
 Enum
 (
+_
 ref
 variants
 )
@@ -473,6 +475,7 @@ Data
 :
 Enum
 (
+_
 ref
 variants
 )
@@ -910,6 +913,7 @@ Data
 :
 Enum
 (
+_
 ref
 variants
 )
@@ -1312,6 +1316,7 @@ Data
 :
 Enum
 (
+_
 ref
 variants
 )
@@ -1799,6 +1804,7 @@ Data
 :
 Enum
 (
+_
 _
 )
 =
