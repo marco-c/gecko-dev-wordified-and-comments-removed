@@ -2914,15 +2914,6 @@ pending
 \
 MACRO
 (
-PluralRules
-PluralRules
-"
-PluralRules
-"
-)
-\
-MACRO
-(
 percentSign
 percentSign
 "

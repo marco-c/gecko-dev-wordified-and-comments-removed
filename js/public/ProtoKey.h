@@ -867,6 +867,16 @@ OCLASP
 NumberFormat
 )
 )
+\
+REAL_IF_INTL
+(
+PluralRules
+InitViaClassSpec
+OCLASP
+(
+PluralRules
+)
+)
 #
 define
 JS_FOR_PROTOTYPES
