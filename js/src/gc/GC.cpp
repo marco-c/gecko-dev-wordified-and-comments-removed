@@ -11002,6 +11002,9 @@ GCRuntime
 :
 sweepZoneAfterCompacting
 (
+MovingTracer
+*
+trc
 Zone
 *
 zone
@@ -12709,6 +12712,8 @@ trc
 }
 sweepZoneAfterCompacting
 (
+&
+trc
 zone
 )
 ;
