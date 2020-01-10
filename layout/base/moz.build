@@ -439,6 +439,11 @@ GeometryUtils
 h
 '
 '
+MediaEmulationData
+.
+h
+'
+'
 MVMContext
 .
 h
