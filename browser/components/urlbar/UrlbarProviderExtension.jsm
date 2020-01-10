@@ -819,6 +819,13 @@ UrlbarUtils
 RESULT_TYPE
 .
 TAB_SWITCH
+tip
+:
+UrlbarUtils
+.
+RESULT_TYPE
+.
+TIP
 url
 :
 UrlbarUtils
