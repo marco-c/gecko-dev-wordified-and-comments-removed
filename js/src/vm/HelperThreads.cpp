@@ -9484,12 +9484,13 @@ popCopy
 if
 (
 !
-elem
--
->
-initScriptName
+coverage
+:
+:
+InitScriptCoverage
 (
 cx
+elem
 )
 )
 {
