@@ -2245,7 +2245,6 @@ stream
 .
 readBytes
 (
-expectedCount
 )
 stream
 .

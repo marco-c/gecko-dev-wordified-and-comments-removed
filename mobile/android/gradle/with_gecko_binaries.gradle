@@ -1286,6 +1286,7 @@ capitalize
 (
 )
 }
+Aar
 "
 ]
 .
@@ -1329,7 +1330,7 @@ jarTask
 tasks
 [
 "
-bundleAppClasses
+packageAppClasses
 {
 variant
 .

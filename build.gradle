@@ -336,9 +336,9 @@ kotlin_version
 '
 1
 .
-2
+3
 .
-41
+10
 '
 ext
 .
@@ -450,9 +450,9 @@ gradle
 :
 3
 .
-1
+2
 .
-4
+1
 '
 classpath
 '
