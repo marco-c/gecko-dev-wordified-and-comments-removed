@@ -1642,6 +1642,7 @@ f
     
 except
 IOError
+as
 e
 :
         
@@ -1666,6 +1667,7 @@ message
     
 except
 ValueError
+as
 e
 :
         

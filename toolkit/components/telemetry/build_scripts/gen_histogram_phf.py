@@ -297,14 +297,14 @@ uint32_t
 lower_entry
 =
 lambda
-(
-_
-v
-)
+x
 :
 str
 (
-v
+x
+[
+1
+]
 )
         
 key_type
