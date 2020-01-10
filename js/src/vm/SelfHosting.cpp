@@ -3465,7 +3465,7 @@ JSFunction
 ctor
 -
 >
-nonLazyScript
+baseScript
 (
 )
 -
