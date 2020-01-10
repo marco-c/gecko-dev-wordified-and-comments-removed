@@ -296,6 +296,17 @@ Shader
 name
 :
 "
+cs_svg_filter
+"
+features
+:
+CACHE_FEATURES
+}
+Shader
+{
+name
+:
+"
 ps_split_composite
 "
 features
