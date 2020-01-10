@@ -279,12 +279,6 @@ PreprocessingEnabled
 (
 )
 ;
-static
-int32_t
-MaxPreloadExtraRecords
-(
-)
-;
 void
 ClearBackgroundActor
 (
