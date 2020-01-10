@@ -936,6 +936,14 @@ Vec
 <
 DirtyRegion
 >
+pub
+composite_state
+:
+&
+'
+a
+mut
+CompositeState
 }
 impl
 <
@@ -1653,6 +1661,7 @@ Vec
 new
 (
 )
+composite_state
 }
 ;
 frame_state
@@ -2179,6 +2188,7 @@ config
 .
 compositor_kind
 picture_caching_is_enabled
+global_device_pixel_scale
 )
 ;
 let

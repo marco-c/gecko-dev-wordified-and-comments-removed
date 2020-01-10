@@ -5572,6 +5572,15 @@ tiles
 key
 ]
 ;
+if
+!
+tile
+.
+is_visible
+{
+continue
+;
+}
 let
 device_rect
 =
