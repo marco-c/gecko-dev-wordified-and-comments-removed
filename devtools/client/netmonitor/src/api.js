@@ -291,7 +291,6 @@ getState
 )
 ;
 }
-async
 destroy
 (
 )
@@ -308,7 +307,6 @@ this
 onPayloadReady
 )
 ;
-await
 this
 .
 connector
@@ -324,7 +322,6 @@ this
 harExportConnector
 )
 {
-await
 this
 .
 harExportConnector

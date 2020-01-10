@@ -200,7 +200,6 @@ willNavigate
 )
 ;
 }
-async
 disconnect
 (
 )

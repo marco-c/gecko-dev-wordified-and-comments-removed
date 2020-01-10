@@ -97,12 +97,10 @@ return
 this
 ;
 }
-async
 destroy
 (
 )
 {
-await
 this
 .
 panelWin
@@ -121,9 +119,6 @@ emit
 destroyed
 "
 )
-;
-return
-this
 ;
 }
 }

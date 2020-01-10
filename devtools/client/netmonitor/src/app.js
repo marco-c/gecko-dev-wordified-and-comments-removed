@@ -300,7 +300,6 @@ mount
 )
 ;
 }
-async
 destroy
 (
 )
@@ -312,7 +311,6 @@ this
 mount
 )
 ;
-await
 this
 .
 api
