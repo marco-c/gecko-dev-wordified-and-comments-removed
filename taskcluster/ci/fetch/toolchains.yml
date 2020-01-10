@@ -2822,10 +2822,6 @@ description
 :
 clang
 8
-.
-0
-.
-1
 source
 code
 fetch
@@ -2850,7 +2846,7 @@ llvm
 project
 revision
 :
-19a71f6bdf2dddb10764939e7f0ec2b98dba76c9
+d2298e74235598f15594fe2c99bbac870a507c59
 ninja
 :
 description
