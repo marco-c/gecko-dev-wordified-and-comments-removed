@@ -2423,10 +2423,13 @@ static_assert
 NUMBER_OF_NAMESPACES
 =
 =
-CacheStorageNamespaceValues
+(
+uint32_t
+)
+CacheStorageNamespace
 :
 :
-Count
+EndGuard_
 "
 Number
 of
@@ -2434,7 +2437,8 @@ namespace
 should
 match
 webidl
-count
+endguard
+enum
 "
 )
 ;

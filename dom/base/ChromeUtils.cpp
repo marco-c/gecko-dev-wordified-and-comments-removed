@@ -3827,10 +3827,15 @@ aType
 {
 static_assert
 (
+ArrayLength
+(
 WebIDLProcTypeValues
 :
 :
-Count
+strings
+)
+-
+1
 =
 =
 static_cast
