@@ -5637,9 +5637,9 @@ index
 dogear
 0
 .
-2
+3
 .
-6
+0
 (
 registry
 +
@@ -12955,9 +12955,9 @@ version
 "
 0
 .
-2
+3
 .
-6
+0
 "
 source
 =
@@ -54207,9 +54207,9 @@ checksum
 dogear
 0
 .
-2
+3
 .
-6
+0
 (
 registry
 +
@@ -54234,7 +54234,7 @@ index
 "
 =
 "
-c01a457f8d6689260111be60774bfb68e558b41bc89b866ebc3bbed60ba255cb
+99e2ed5f8036ceb83d951f769651ff0e2be5ddb0c62da87d50d27c22086db01c
 "
 "
 checksum

@@ -1505,13 +1505,7 @@ name
 fetchLocalTree
 "
 "
-fetchNewLocalContents
-"
-"
 fetchRemoteTree
-"
-"
-fetchNewRemoteContents
 "
 "
 merge
