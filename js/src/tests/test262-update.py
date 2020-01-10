@@ -266,12 +266,6 @@ DateTimeFormat
 -
 fractionalSecondDigits
 "
-    
-"
-Promise
-.
-allSettled
-"
 ]
 )
 contextlib
