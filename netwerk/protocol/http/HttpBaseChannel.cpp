@@ -13815,10 +13815,13 @@ IsEmpty
 {
 referrerPolicy
 =
-nsContentUtils
+dom
 :
 :
-GetReferrerPolicyFromHeader
+ReferrerInfo
+:
+:
+ReferrerPolicyFromHeaderString
 (
 tRPHeaderValue
 )

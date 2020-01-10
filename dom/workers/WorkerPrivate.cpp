@@ -6125,10 +6125,10 @@ return
 ReferrerPolicy
 policy
 =
-nsContentUtils
+ReferrerInfo
 :
 :
-GetReferrerPolicyFromHeader
+ReferrerPolicyFromHeaderString
 (
 headerValue
 )

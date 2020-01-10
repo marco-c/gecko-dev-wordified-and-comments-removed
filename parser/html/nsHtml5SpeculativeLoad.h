@@ -606,10 +606,13 @@ mScriptReferrerPolicy
 mozilla
 :
 :
-net
+dom
 :
 :
-AttributeReferrerPolicyFromString
+ReferrerInfo
+:
+:
+ReferrerPolicyAttributeFromString
 (
 referrerPolicy
 )

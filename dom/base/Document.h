@@ -2675,13 +2675,10 @@ aPreload
 ReferrerPolicyEnum
 policy
 =
-mozilla
+ReferrerInfo
 :
 :
-net
-:
-:
-ReferrerPolicyFromString
+ReferrerPolicyFromMetaString
 (
 aMetaReferrer
 )
