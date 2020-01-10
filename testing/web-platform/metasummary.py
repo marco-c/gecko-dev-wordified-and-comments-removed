@@ -1676,6 +1676,21 @@ status
 =
 item
             
+if
+isinstance
+(
+status
+list
+)
+:
+                
+status
+=
+status
+[
+0
+]
+            
 by_status
 [
 status
@@ -1840,7 +1855,7 @@ expected
 :
         
 for
-item
+expected_statuses
 in
 metadata
 .
@@ -1855,16 +1870,41 @@ expected
 if
 isinstance
 (
-item
+expected_statuses
 tuple
 )
 :
                 
-if
-item
+expected_statuses
+=
+expected_statuses
 [
 1
 ]
+            
+if
+not
+isinstance
+(
+expected_statuses
+list
+)
+:
+                
+expected_statuses
+=
+[
+expected_statuses
+]
+            
+for
+expected_status
+in
+expected_statuses
+:
+                
+if
+expected_status
 in
 statuses
 :
@@ -1872,12 +1912,6 @@ statuses
 return
 True
             
-elif
-item
-in
-statuses
-:
-                
 return
 True
     
