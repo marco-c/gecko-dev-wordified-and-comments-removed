@@ -177,6 +177,9 @@ attribute
 XRRenderState
 renderState
 ;
+[
+SameObject
+]
 readonly
 attribute
 XRInputSourceArray
