@@ -2956,11 +2956,6 @@ root
 tabsintitlebar
 ]
 #
-navigator
--
-toolbox
->
-#
 titlebar
 {
 -
@@ -3002,11 +2997,6 @@ true
 ]
 )
 #
-navigator
--
-toolbox
->
-#
 titlebar
 {
 -
@@ -3034,11 +3024,6 @@ not
 inDOMFullscreen
 ]
 )
-#
-navigator
--
-toolbox
->
 #
 titlebar
 :
