@@ -6565,13 +6565,6 @@ elsewhere
 "
 "
         
-yield
-'
-moz
-.
-build
-'
-        
 for
 path
 f
