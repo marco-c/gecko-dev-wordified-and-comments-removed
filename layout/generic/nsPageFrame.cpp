@@ -2810,8 +2810,8 @@ GetPresShell
 >
 AddCanvasBackgroundColorItem
 (
-*
 aBuilder
+&
 content
 child
 backgroundRect

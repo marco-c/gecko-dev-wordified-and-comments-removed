@@ -4598,7 +4598,7 @@ nsIFrame
 *
 aFrame
 nsDisplayListBuilder
-&
+*
 aBuilder
 AnimatedGeometryRoot
 *
@@ -5144,7 +5144,8 @@ currentFrame
 !
 =
 aBuilder
-.
+-
+>
 RootReferenceFrame
 (
 )
@@ -5493,7 +5494,7 @@ nsIFrame
 *
 aFrame
 nsDisplayListBuilder
-&
+*
 aBuilder
 nsIFrame
 *
@@ -5555,7 +5556,8 @@ AnimatedGeometryRoot
 agr
 =
 aBuilder
-.
+-
+>
 FindAnimatedGeometryRootFor
 (
 aFrame
@@ -5603,7 +5605,8 @@ aFrame
 =
 =
 aBuilder
-.
+-
+>
 GetCaretFrame
 (
 )
@@ -5615,7 +5618,8 @@ UnionRect
 (
 overflow
 aBuilder
-.
+-
+>
 GetCaretRect
 (
 )
@@ -6035,6 +6039,7 @@ if
 ProcessFrame
 (
 f
+&
 mBuilder
 mBuilder
 .
@@ -6075,6 +6080,7 @@ if
 ProcessFrame
 (
 f
+&
 mBuilder
 mBuilder
 .
@@ -6803,7 +6809,9 @@ nsLayoutUtils
 :
 AddExtraBackgroundItems
 (
+&
 mBuilder
+&
 modifiedDL
 mBuilder
 .

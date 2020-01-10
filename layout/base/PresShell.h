@@ -2025,10 +2025,10 @@ void
 AddPrintPreviewBackgroundItem
 (
 nsDisplayListBuilder
-&
+*
 aBuilder
 nsDisplayList
-&
+*
 aList
 nsIFrame
 *
@@ -3527,10 +3527,10 @@ void
 AddCanvasBackgroundColorItem
 (
 nsDisplayListBuilder
-&
+*
 aBuilder
 nsDisplayList
-&
+*
 aList
 nsIFrame
 *
