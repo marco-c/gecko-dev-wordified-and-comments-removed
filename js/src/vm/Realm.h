@@ -1950,7 +1950,6 @@ maybeGlobal
 )
 const
 ;
-inline
 js
 :
 :
@@ -1960,7 +1959,15 @@ unsafeUnbarrieredMaybeGlobal
 (
 )
 const
+{
+return
+global_
+.
+unbarrieredGet
+(
+)
 ;
+}
 inline
 js
 :
