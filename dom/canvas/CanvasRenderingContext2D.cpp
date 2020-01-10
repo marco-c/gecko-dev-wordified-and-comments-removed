@@ -10353,13 +10353,6 @@ NS_EVENT_STATE_BROKEN
 )
 )
 {
-aError
-.
-Throw
-(
-NS_ERROR_DOM_INVALID_STATE_ERR
-)
-;
 return
 nullptr
 ;
