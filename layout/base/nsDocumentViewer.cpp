@@ -12597,6 +12597,15 @@ prefWidth
 aMaxWidth
 ;
 }
+NS_ENSURE_TRUE
+(
+prefWidth
+!
+=
+NS_UNCONSTRAINEDSIZE
+NS_ERROR_FAILURE
+)
+;
 nsresult
 rv
 =
