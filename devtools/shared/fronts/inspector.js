@@ -53,9 +53,7 @@ require
 "
 devtools
 /
-shared
-/
-fronts
+client
 /
 inspector
 /

@@ -117,6 +117,13 @@ inspector
 js
 '
 '
+node
+-
+picker
+.
+js
+'
+'
 panel
 .
 js
