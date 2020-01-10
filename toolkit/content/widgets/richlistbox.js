@@ -4776,20 +4776,6 @@ nsIDOMXULSelectControlItemElement
 ]
 )
 ;
-if
-(
-document
-.
-documentURI
-!
-=
-"
-about
-:
-addons
-"
-)
-{
 customElements
 .
 define
@@ -4802,5 +4788,4 @@ MozElements
 MozRichlistitem
 )
 ;
-}
 }
