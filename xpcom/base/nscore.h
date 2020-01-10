@@ -488,6 +488,9 @@ NS_BUILD_REFCNT_LOGGING
 #
 endif
 #
+ifndef
+NS_FREE_PERMANENT_DATA
+#
 if
 defined
 (
@@ -522,6 +525,8 @@ MOZ_PROFILE_GENERATE
 #
 define
 NS_FREE_PERMANENT_DATA
+#
+endif
 #
 endif
 #
