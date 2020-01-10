@@ -396,6 +396,7 @@ Sync
 types
 ?
 There
+are
 a
 number
 of
@@ -1712,7 +1713,7 @@ fact
 if
 you
 avoid
-inherent
+interior
 mutability
 (
 Cell

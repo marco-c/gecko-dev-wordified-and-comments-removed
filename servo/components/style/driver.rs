@@ -698,7 +698,7 @@ install
 rayon
 :
 :
-scope
+scope_fifo
 (
 |
 scope

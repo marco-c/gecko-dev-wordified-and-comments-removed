@@ -2,13 +2,13 @@ use
 iter
 :
 :
+plumbing
+:
+:
 *
 ;
 use
 iter
-:
-:
-plumbing
 :
 :
 *
@@ -434,8 +434,6 @@ a
 }
 impl
 <
-'
-a
 C
 T
 E

@@ -2,13 +2,13 @@ use
 iter
 :
 :
+plumbing
+:
+:
 *
 ;
 use
 iter
-:
-:
-plumbing
 :
 :
 *
@@ -738,8 +738,6 @@ none
 }
 impl
 <
-'
-a
 C
 T
 >
@@ -817,6 +815,7 @@ inspect
 |
 item
 |
+{
 if
 item
 .
@@ -835,6 +834,7 @@ Ordering
 Relaxed
 )
 ;
+}
 }
 )
 .

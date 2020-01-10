@@ -2,12 +2,6 @@ use
 iter
 :
 :
-*
-;
-use
-iter
-:
-:
 plumbing
 :
 :
@@ -24,6 +18,12 @@ Either
 Left
 Right
 }
+;
+use
+iter
+:
+:
+*
 ;
 impl
 <

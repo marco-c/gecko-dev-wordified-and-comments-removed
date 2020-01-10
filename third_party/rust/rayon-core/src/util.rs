@@ -5,6 +5,9 @@ std
 mem
 ;
 pub
+(
+super
+)
 fn
 leak
 <

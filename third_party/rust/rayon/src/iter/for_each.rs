@@ -2,7 +2,10 @@ use
 super
 :
 :
-ParallelIterator
+noop
+:
+:
+*
 ;
 use
 super
@@ -17,12 +20,12 @@ use
 super
 :
 :
-noop
-:
-:
-*
+ParallelIterator
 ;
 pub
+(
+super
+)
 fn
 for_each
 <
@@ -65,8 +68,6 @@ consumer
 =
 ForEachConsumer
 {
-op
-:
 op
 }
 ;

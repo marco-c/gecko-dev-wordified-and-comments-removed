@@ -7,6 +7,15 @@ rayon_unstable
 )
 ]
 use
+super
+:
+:
+{
+Scope
+ScopeBase
+}
+;
+use
 internal
 :
 :
@@ -15,8 +24,8 @@ task
 :
 {
 ScopeHandle
-ToScopeHandle
 Task
+ToScopeHandle
 }
 ;
 use
@@ -42,12 +51,6 @@ sync
 :
 :
 Arc
-;
-use
-super
-:
-:
-Scope
 ;
 impl
 <
@@ -119,7 +122,7 @@ scope
 :
 *
 const
-Scope
+ScopeBase
 <
 '
 scope
@@ -155,7 +158,7 @@ Self
 {
 scope
 .
-job_completed_latch
+base
 .
 increment
 (
@@ -165,7 +168,10 @@ LocalScopeHandle
 {
 scope
 :
+&
 scope
+.
+base
 }
 }
 }

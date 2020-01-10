@@ -40,8 +40,6 @@ const
 USAGE
 :
 &
-'
-static
 str
 =
 "
@@ -506,11 +504,7 @@ task
 (
 args
 )
-|
-|
 wait_for_user
-(
-)
 )
 ;
 }

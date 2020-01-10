@@ -36,8 +36,6 @@ T
 Once
 {
 item
-:
-item
 }
 }
 #

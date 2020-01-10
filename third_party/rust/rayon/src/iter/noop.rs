@@ -8,6 +8,9 @@ plumbing
 *
 ;
 pub
+(
+super
+)
 struct
 NoopConsumer
 ;
@@ -15,6 +18,9 @@ impl
 NoopConsumer
 {
 pub
+(
+super
+)
 fn
 new
 (
@@ -231,6 +237,9 @@ NoopReducer
 }
 }
 pub
+(
+super
+)
 struct
 NoopReducer
 ;

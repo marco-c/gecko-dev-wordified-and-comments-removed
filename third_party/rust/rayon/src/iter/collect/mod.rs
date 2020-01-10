@@ -3,10 +3,10 @@ super
 :
 :
 {
-ParallelIterator
 IndexedParallelIterator
 IntoParallelIterator
 ParallelExtend
+ParallelIterator
 }
 ;
 use
@@ -64,6 +64,9 @@ mod
 test
 ;
 pub
+(
+super
+)
 fn
 collect_into_vec
 <
@@ -205,6 +208,9 @@ complete
 ;
 }
 pub
+(
+super
+)
 fn
 unzip_into_vecs
 <
@@ -410,10 +416,6 @@ new
 0
 )
 vec
-:
-vec
-len
-:
 len
 }
 }
@@ -428,6 +430,8 @@ self
 >
 CollectConsumer
 <
+'
+_
 T
 >
 {

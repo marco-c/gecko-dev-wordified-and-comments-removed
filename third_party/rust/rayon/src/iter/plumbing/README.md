@@ -697,6 +697,7 @@ flat_map
 It
 will
 do
+this
 by
 calling
 the
@@ -1343,7 +1344,7 @@ reduce
 )
 that
 will
-creating
+create
 a
 "
 reducing

@@ -47,6 +47,9 @@ std
 usize
 ;
 pub
+(
+super
+)
 struct
 Sleep
 {
@@ -96,6 +99,9 @@ impl
 Sleep
 {
 pub
+(
+super
+)
 fn
 new
 (
@@ -257,6 +263,9 @@ state
 inline
 ]
 pub
+(
+super
+)
 fn
 work_found
 (
@@ -307,6 +316,9 @@ worker_index
 inline
 ]
 pub
+(
+super
+)
 fn
 no_work_found
 (
@@ -445,6 +457,9 @@ worker_index
 }
 }
 pub
+(
+super
+)
 fn
 tickle
 (

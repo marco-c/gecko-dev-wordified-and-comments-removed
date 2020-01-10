@@ -7,6 +7,12 @@ rayon_unstable
 )
 ]
 use
+super
+:
+:
+ThreadPool
+;
+use
 internal
 :
 :
@@ -15,8 +21,8 @@ task
 :
 {
 ScopeHandle
-ToScopeHandle
 Task
+ToScopeHandle
 }
 ;
 use
@@ -48,12 +54,6 @@ sync
 :
 :
 Arc
-;
-use
-super
-:
-:
-ThreadPool
 ;
 impl
 ToScopeHandle
@@ -195,8 +195,6 @@ increment_terminate_count
 ;
 ThreadPoolScopeHandle
 {
-registry
-:
 registry
 }
 }
