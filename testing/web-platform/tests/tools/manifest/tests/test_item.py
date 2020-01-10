@@ -16,6 +16,13 @@ from
 item
 import
 TestharnessTest
+as
+HarnessTest
+from
+.
+.
+item
+import
 RefTest
 item_types
 pytest
@@ -119,7 +126,7 @@ path
     
 m
 =
-TestharnessTest
+HarnessTest
 (
 "
 /
@@ -265,7 +272,7 @@ path
     
 m
 =
-TestharnessTest
+HarnessTest
 (
 "
 /
