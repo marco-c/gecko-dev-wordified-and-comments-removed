@@ -108,7 +108,7 @@ MakeEnumeratedRange
 if
 defined
 (
-WASM_HUGE_MEMORY
+WASM_SUPPORTS_HUGE_MEMORY
 )
 #
 if
