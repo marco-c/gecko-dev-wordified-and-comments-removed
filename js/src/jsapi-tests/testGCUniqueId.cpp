@@ -1,15 +1,6 @@
 #
 include
 "
-gc
-/
-GCInternals
-.
-h
-"
-#
-include
-"
 js
 /
 GCVector

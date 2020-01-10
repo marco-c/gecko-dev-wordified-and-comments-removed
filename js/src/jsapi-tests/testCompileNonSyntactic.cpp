@@ -10,15 +10,6 @@ h
 #
 include
 "
-gc
-/
-GCInternals
-.
-h
-"
-#
-include
-"
 js
 /
 CompilationAndEvaluation
