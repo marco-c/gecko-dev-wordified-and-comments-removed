@@ -1372,6 +1372,11 @@ Win32
 Opt
 Shippable
 "
+use
+-
+pgo
+:
+true
 index
 :
 product
@@ -1471,7 +1476,10 @@ shippable
 opt
 symbol
 :
+Bpgo
+(
 B
+)
 tier
 :
 1
