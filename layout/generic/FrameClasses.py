@@ -38,7 +38,7 @@ Frame
 nsBCTableCellFrame
 "
 "
-BCTableCell
+TableCell
 "
 NOT_LEAF
 )

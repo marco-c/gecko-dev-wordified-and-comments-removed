@@ -14935,15 +14935,6 @@ LayoutFrameType
 :
 :
 TableCell
-&
-&
-type
-!
-=
-LayoutFrameType
-:
-:
-BCTableCell
 )
 {
 return
