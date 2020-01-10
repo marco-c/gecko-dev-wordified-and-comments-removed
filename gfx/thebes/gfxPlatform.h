@@ -2665,6 +2665,9 @@ gfx
 IntSize
 mScreenSize
 ;
+int64_t
+mScreenPixels
+;
 const
 gfxSkipChars
 kEmptySkipChars
