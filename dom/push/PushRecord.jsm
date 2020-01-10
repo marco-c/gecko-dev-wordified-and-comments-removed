@@ -928,7 +928,9 @@ window
 .
 gBrowser
 .
-tabs
+tabContainer
+.
+children
 :
 window
 .

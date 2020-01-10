@@ -25,12 +25,17 @@ gBrowser
 )
 ;
 var
+tabs
+=
+gBrowser
+.
+tabs
+;
+var
 owner
 ;
 is
 (
-gBrowser
-.
 tabs
 .
 length
@@ -49,8 +54,6 @@ gBrowser
 .
 selectedTab
 =
-gBrowser
-.
 tabs
 [
 2
@@ -65,8 +68,6 @@ is
 gBrowser
 .
 selectedTab
-gBrowser
-.
 tabs
 [
 4
@@ -113,8 +114,6 @@ gBrowser
 .
 selectedTab
 =
-gBrowser
-.
 tabs
 [
 1
@@ -124,8 +123,6 @@ gBrowser
 .
 selectedTab
 =
-gBrowser
-.
 tabs
 [
 4
@@ -189,7 +186,7 @@ selectedTab
 owner
 "
 owner
-relationship
+relatitionship
 persists
 when
 tab
@@ -200,8 +197,6 @@ moved
 ;
 while
 (
-gBrowser
-.
 tabs
 .
 length
