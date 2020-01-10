@@ -1005,6 +1005,10 @@ DispatchErrorImpl
 )
 )
 ;
+DestroyAudioChannelAgent
+(
+)
+;
 MOZ_ASSERT
 (
 mUtterance
