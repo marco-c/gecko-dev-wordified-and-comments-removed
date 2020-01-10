@@ -46,6 +46,8 @@ enable
 profile
 -
 generate
+=
+cross
 ac_add_options
 -
 -
