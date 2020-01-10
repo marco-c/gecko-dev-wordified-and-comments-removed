@@ -12299,14 +12299,11 @@ video
 "
 ;
 }
-else
-{
 return
 "
 audio
 "
 ;
-}
 }
 function
 removeNodeAndSource
@@ -12450,7 +12447,6 @@ removeEventListener
 (
 eventName
 f
-false
 )
 ;
 resolve
@@ -12466,7 +12462,6 @@ addEventListener
 (
 eventName
 f
-false
 )
 ;
 }
@@ -13499,8 +13494,6 @@ mediaTestCleanup
 (
 onCleanup
 )
-;
-return
 ;
 }
 }

@@ -923,8 +923,6 @@ stringify
 (
 {
 keys
-:
-keys
 type
 :
 msg
@@ -1098,12 +1096,9 @@ sjs
 uri
 ;
 }
-else
-{
 return
 uri
 ;
-}
 }
 function
 AppendTrack
