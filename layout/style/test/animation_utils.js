@@ -1865,8 +1865,6 @@ value
 )
 ;
 }
-else
-{
 return
 Promise
 .
@@ -1891,7 +1889,6 @@ err
 }
 )
 ;
-}
 }
 SpecialPowers
 .
@@ -2939,12 +2936,9 @@ matrixLike
 )
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 ;
 window
@@ -3178,12 +3172,9 @@ slice
 ]
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 function
 defined
@@ -3460,8 +3451,6 @@ join
 )
 ;
 }
-else
-{
 return
 (
 "
@@ -3501,7 +3490,6 @@ join
 "
 )
 ;
-}
 }
 function
 is2d
