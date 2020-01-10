@@ -2562,7 +2562,7 @@ aSize
 )
 ;
 bool
-profiler_could_be_locked_on_current_thread
+profiler_is_locked_on_current_thread
 (
 )
 ;
