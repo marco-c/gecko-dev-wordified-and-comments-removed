@@ -159,11 +159,6 @@ environment
 js
 '
 '
-frame
-.
-js
-'
-'
 framerate
 .
 js
