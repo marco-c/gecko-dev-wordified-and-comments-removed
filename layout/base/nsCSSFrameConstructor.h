@@ -4775,6 +4775,14 @@ aItemAllowsTextPathChild
 )
 ;
 bool
+WipeInsertionParent
+(
+nsContainerFrame
+*
+aFrame
+)
+;
+bool
 WipeContainingBlock
 (
 nsFrameConstructorState
