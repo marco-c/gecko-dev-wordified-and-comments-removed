@@ -333,6 +333,17 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
+Promise
+>
+GetSecurityInfo
+(
+ErrorResult
+&
+aRv
+)
+;
 WindowGlobalParent
 (
 const
