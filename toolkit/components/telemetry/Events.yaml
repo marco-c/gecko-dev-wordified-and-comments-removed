@@ -10966,6 +10966,8 @@ bug_numbers
 :
 -
 1557050
+-
+1572825
 description
 :
 >
@@ -11005,6 +11007,9 @@ mtr_about_link
 "
 "
 mtr_signup_button
+"
+"
+trackers_about_link
 "
 ]
 expiry_version
