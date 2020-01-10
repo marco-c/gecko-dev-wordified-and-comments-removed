@@ -2679,6 +2679,10 @@ sslEsniKeys
 *
 esniKeys
 ;
+SSLAntiReplayContext
+*
+antiReplay
+;
 }
 ;
 struct

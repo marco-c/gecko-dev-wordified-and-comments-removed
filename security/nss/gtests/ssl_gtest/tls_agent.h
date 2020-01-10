@@ -561,6 +561,14 @@ StartRenegotiate
 (
 )
 ;
+void
+SetAntiReplayContext
+(
+ScopedSSLAntiReplayContext
+&
+ctx
+)
+;
 static
 bool
 LoadCertificate
