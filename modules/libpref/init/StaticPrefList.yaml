@@ -41378,7 +41378,7 @@ geckoview
 batchDurationMS
 type
 :
-uint32_t
+RelaxedAtomicUint32
 value
 :
 5000
