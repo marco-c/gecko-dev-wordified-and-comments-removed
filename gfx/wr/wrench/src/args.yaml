@@ -334,6 +334,8 @@ matching
 the
 local
 rect
+or
+ID
 takes_value
 :
 true
