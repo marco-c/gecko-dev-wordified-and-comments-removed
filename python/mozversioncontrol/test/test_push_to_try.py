@@ -200,16 +200,9 @@ commit_message
 (
 tool
 '
--
-c
+push
 '
 '
-remote
-.
-try
-.
-url
-=
 hg
 :
 :
@@ -226,12 +219,6 @@ org
 try
 '
                    
-'
-push
-'
-'
-try
-'
 '
 +
 HEAD
