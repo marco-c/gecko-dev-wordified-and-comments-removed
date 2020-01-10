@@ -10,6 +10,10 @@ h
 #
 ifndef
 _MSC_VER
+extern
+"
+C
+"
 const
 char
 *
