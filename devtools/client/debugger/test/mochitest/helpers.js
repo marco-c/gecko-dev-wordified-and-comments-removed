@@ -7955,6 +7955,7 @@ getTokenFromPosition
 dbg
 pos
 )
+;
 if
 (
 !
@@ -8048,6 +8049,7 @@ getTokenFromPosition
 dbg
 pos
 )
+;
 if
 (
 !
