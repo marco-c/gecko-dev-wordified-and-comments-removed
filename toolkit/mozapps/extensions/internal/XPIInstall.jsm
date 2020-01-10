@@ -18153,6 +18153,13 @@ cancel
 ;
 }
 let
+wasActive
+=
+aAddon
+.
+active
+;
+let
 wasPending
 =
 aAddon
@@ -18612,9 +18619,7 @@ theme
 "
 &
 &
-aAddon
-.
-active
+wasActive
 )
 {
 AddonManagerPrivate

@@ -7533,6 +7533,12 @@ id
 !
 =
 aId
+&
+&
+!
+theme
+.
+pendingUninstall
 )
 {
 this
