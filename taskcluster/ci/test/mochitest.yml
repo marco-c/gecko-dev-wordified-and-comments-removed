@@ -614,6 +614,15 @@ ccov
 debug
 :
 14
+windows10
+.
+*
+-
+asan
+/
+opt
+:
+9
 default
 :
 7
