@@ -61,10 +61,6 @@ curl
 enjarify
 \
 diffoscope
-/
-stretch
--
-backports
 \
 jsbeautifier
 \
@@ -75,9 +71,7 @@ abi1
 \
 locales
 \
-openjdk
--
-8
+default
 -
 jdk
 -
