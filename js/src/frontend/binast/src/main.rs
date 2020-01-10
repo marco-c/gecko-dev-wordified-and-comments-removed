@@ -14461,6 +14461,12 @@ offset
 (
 )
 ;
+guard
+.
+init
+(
+)
+;
 MOZ_TRY
 (
 tokenizer_
@@ -14470,7 +14476,6 @@ enterTaggedTuple
 (
 kind
 context
-guard
 )
 )
 ;
@@ -15250,6 +15255,12 @@ content_kind
 }
 )
 ;
+guard
+.
+init
+(
+)
+;
 MOZ_TRY
 (
 tokenizer_
@@ -15259,7 +15270,6 @@ enterList
 (
 length
 childContext
-guard
 )
 )
 ;
@@ -15885,6 +15895,12 @@ guard
 tokenizer_
 )
 ;
+guard
+.
+init
+(
+)
+;
 MOZ_TRY
 (
 tokenizer_
@@ -15894,7 +15910,6 @@ enterTaggedTuple
 (
 kind
 context
-guard
 )
 )
 ;
@@ -16244,6 +16259,12 @@ guard
 tokenizer_
 )
 ;
+guard
+.
+init
+(
+)
+;
 MOZ_TRY
 (
 tokenizer_
@@ -16253,7 +16274,6 @@ enterTaggedTuple
 (
 kind
 context
-guard
 )
 )
 ;
@@ -17172,6 +17192,12 @@ guard
 tokenizer_
 )
 ;
+guard
+.
+init
+(
+)
+;
 MOZ_TRY
 (
 tokenizer_
@@ -17181,7 +17207,6 @@ enterTaggedTuple
 (
 kind
 context
-guard
 )
 )
 ;
