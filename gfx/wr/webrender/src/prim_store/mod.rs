@@ -9328,6 +9328,12 @@ inflation_factor
 inflation_factor
 )
 .
+union
+(
+&
+prim_shadow_rect
+)
+.
 intersection
 (
 &
