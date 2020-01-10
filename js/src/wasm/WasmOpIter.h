@@ -4178,7 +4178,11 @@ ifdef
 ENABLE_WASM_REFTYPES
 known
 =
-true
+env_
+.
+refTypesEnabled
+(
+)
 ;
 #
 endif
@@ -7970,6 +7974,11 @@ readValType
 env_
 .
 types
+env_
+.
+refTypesEnabled
+(
+)
 env_
 .
 gcTypesEnabled
