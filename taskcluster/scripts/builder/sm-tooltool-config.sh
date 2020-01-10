@@ -61,11 +61,7 @@ SRCDIR
 SRCDIR
 :
 -
-WORK
-/
-build
-/
-src
+GECKO_PATH
 }
 export
 TOOLTOOL_CHECKOUT
