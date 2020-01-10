@@ -833,6 +833,12 @@ wasmBatchIonThreshold
 1100
 )
 ;
+SET_DEFAULT
+(
+wasmBatchCraneliftThreshold
+5000
+)
+;
 #
 ifdef
 JS_TRACE_LOGGING
