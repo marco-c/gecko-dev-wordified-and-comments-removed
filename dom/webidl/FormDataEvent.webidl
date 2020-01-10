@@ -143,6 +143,17 @@ eventInitDict
 {
 }
 )
+Pref
+=
+"
+dom
+.
+formdata
+.
+event
+.
+enabled
+"
 ]
 interface
 FormDataEvent
