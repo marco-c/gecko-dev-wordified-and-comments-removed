@@ -55,7 +55,7 @@ dom
 /
 cache
 /
-CacheWorkerHolder
+CacheWorkerRef
 .
 h
 "
@@ -445,11 +445,11 @@ return
 }
 RefPtr
 <
-CacheWorkerHolder
+CacheWorkerRef
 >
 holder
 =
-GetWorkerHolder
+GetWorkerRef
 (
 )
 ;
@@ -599,7 +599,7 @@ CloseAllReadStreamsWithoutReporting
 (
 )
 ;
-RemoveWorkerHolder
+RemoveWorkerRef
 (
 )
 ;

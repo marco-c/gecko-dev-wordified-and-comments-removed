@@ -65,7 +65,7 @@ class
 CacheStorage
 ;
 class
-CacheWorkerHolder
+CacheWorkerRef
 ;
 class
 PCacheChild
@@ -90,9 +90,9 @@ CacheStorageChild
 CacheStorage
 *
 aListener
-CacheWorkerHolder
+CacheWorkerRef
 *
-aWorkerHolder
+aWorkerRef
 )
 ;
 ~

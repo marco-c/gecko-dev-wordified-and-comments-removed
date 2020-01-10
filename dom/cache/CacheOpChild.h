@@ -94,9 +94,9 @@ private
 :
 CacheOpChild
 (
-CacheWorkerHolder
+CacheWorkerRef
 *
-aWorkerHolder
+aWorkerRef
 nsIGlobalObject
 *
 aGlobal

@@ -103,7 +103,7 @@ class
 CacheStorageChild
 ;
 class
-CacheWorkerHolder
+CacheWorkerRef
 ;
 class
 CacheStorage
@@ -377,9 +377,9 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
-CacheWorkerHolder
+CacheWorkerRef
 *
-aWorkerHolder
+aWorkerRef
 )
 ;
 explicit

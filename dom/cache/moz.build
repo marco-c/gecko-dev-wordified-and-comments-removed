@@ -188,7 +188,7 @@ CacheStreamControlParent
 h
 '
 '
-CacheWorkerHolder
+CacheWorkerRef
 .
 h
 '
@@ -343,7 +343,7 @@ CacheStreamControlParent
 cpp
 '
 '
-CacheWorkerHolder
+CacheWorkerRef
 .
 cpp
 '
