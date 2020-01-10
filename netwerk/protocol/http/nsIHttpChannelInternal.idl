@@ -2547,14 +2547,6 @@ aInitiatorPolicy
 )
 ;
 [
-noscript
-]
-nsILoadInfo_CrossOriginEmbedderPolicy
-getResponseEmbedderPolicy
-(
-)
-;
-[
 notxpcom
 nostdcall
 ]
