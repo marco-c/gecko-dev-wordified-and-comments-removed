@@ -664,7 +664,7 @@ state
 =
 SitePermissions
 .
-get
+getForPrincipal
 (
 null
 this
@@ -1030,7 +1030,7 @@ BLOCK
 {
 SitePermissions
 .
-set
+setForPrincipal
 (
 null
 this
