@@ -1765,7 +1765,7 @@ line
 }
 async
 function
-getThreads
+getWorkers
 (
 dbg
 )
@@ -1775,7 +1775,7 @@ dbg
 .
 actions
 .
-updateThreads
+updateWorkers
 (
 )
 ;
@@ -1784,7 +1784,7 @@ dbg
 .
 selectors
 .
-getThreads
+getWorkers
 (
 )
 ;

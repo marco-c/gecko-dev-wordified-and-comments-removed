@@ -28,7 +28,7 @@ queue
 ;
 import
 {
-updateThreads
+updateWorkers
 }
 from
 "
@@ -201,7 +201,7 @@ ThunkArgs
 await
 dispatch
 (
-updateThreads
+updateWorkers
 (
 )
 )

@@ -287,11 +287,6 @@ timings
 js
 '
 '
-threads
-.
-js
-'
-'
 ui
 .
 js
@@ -313,6 +308,11 @@ js
 '
 '
 worker
+.
+js
+'
+'
+workers
 .
 js
 '

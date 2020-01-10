@@ -72,7 +72,7 @@ isMapScopesEnabled
 getSelectedFrame
 getShouldPauseOnExceptions
 getShouldPauseOnCaughtExceptions
-getThreads
+getWorkers
 getCurrentThread
 getThreadContext
 getSourceFromId
@@ -252,7 +252,7 @@ type
 {
 Expression
 Frame
-ThreadList
+WorkerList
 ThreadContext
 Source
 }
@@ -428,7 +428,7 @@ shouldPauseOnCaughtExceptions
 boolean
 workers
 :
-ThreadList
+WorkerList
 source
 :
 ?
@@ -2461,7 +2461,7 @@ state
 )
 workers
 :
-getThreads
+getWorkers
 (
 state
 )

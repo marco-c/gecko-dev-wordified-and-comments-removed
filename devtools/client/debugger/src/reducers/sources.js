@@ -142,7 +142,7 @@ import
 hasSourceActor
 getSourceActor
 getSourceActors
-getAllThreadsBySource
+getThreadsBySource
 getBreakableLinesForSourceActors
 type
 SourceActorId
@@ -3501,7 +3501,7 @@ GetDisplayedSourceIDsSelector
 =
 createSelector
 (
-getAllThreadsBySource
+getThreadsBySource
 getAllDisplayedSources
 (
 threadsBySource
