@@ -989,6 +989,19 @@ prefsFile
         
 self
 .
+verboseIfFails
+=
+kwargs
+.
+get
+(
+'
+verboseIfFails
+'
+)
+        
+self
+.
 passCount
 =
 0
@@ -5168,6 +5181,23 @@ self
 clean_temp_dirs
 (
 path
+)
+                    
+if
+self
+.
+verboseIfFails
+and
+not
+self
+.
+verbose
+:
+                        
+self
+.
+log_full_output
+(
 )
                     
 return
@@ -9351,6 +9381,19 @@ verbose
         
 self
 .
+verboseIfFails
+=
+options
+.
+get
+(
+'
+verboseIfFails
+'
+)
+        
+self
+.
 keepGoing
 =
 options
@@ -9992,6 +10035,14 @@ prefsFile
 self
 .
 prefsFile
+            
+'
+verboseIfFails
+'
+:
+self
+.
+verboseIfFails
         
 }
         
