@@ -140,8 +140,7 @@ Always
 pref
 -
 page
-=
-.
+-
 title
 =
 {
