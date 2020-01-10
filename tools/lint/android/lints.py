@@ -484,7 +484,23 @@ err
 rule
 '
 :
+r
+[
+'
 rule
+'
+]
+if
+rule
+=
+=
+'
+failures
+'
+else
+'
+compat_failures
+'
                     
 '
 path
