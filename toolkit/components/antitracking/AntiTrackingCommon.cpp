@@ -6619,11 +6619,16 @@ nsACString
 aKey
 )
 {
-MOZ_ASSERT
+if
 (
+!
 aPrincipal
 )
+{
+return
+false
 ;
+}
 nsAutoCString
 origin
 ;
