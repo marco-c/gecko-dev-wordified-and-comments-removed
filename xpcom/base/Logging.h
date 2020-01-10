@@ -80,6 +80,13 @@ MOZ_LOGGING_ENABLED
 0
 #
 endif
+#
+define
+MOZ_LOG_FILE_EXTENSION
+"
+.
+moz_log
+"
 namespace
 mozilla
 {
