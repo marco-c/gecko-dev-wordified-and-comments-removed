@@ -386,6 +386,11 @@ aLength
 )
 ;
 void
+MaybeWrapAndOutputCompleteLines
+(
+)
+;
+void
 EndLine
 (
 bool
