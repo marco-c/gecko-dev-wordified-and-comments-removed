@@ -417,7 +417,7 @@ stopArgs
 [
 study1
 .
-name
+slug
 {
 reason
 :
@@ -433,7 +433,7 @@ out
 [
 study2
 .
-name
+slug
 {
 reason
 :

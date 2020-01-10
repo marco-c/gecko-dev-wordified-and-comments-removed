@@ -326,6 +326,11 @@ PreferenceExperiments
 migrations
 .
 migration03AddActionName
+PreferenceExperiments
+.
+migrations
+.
+migration04RenameNameToSlug
 ]
 }
 ;

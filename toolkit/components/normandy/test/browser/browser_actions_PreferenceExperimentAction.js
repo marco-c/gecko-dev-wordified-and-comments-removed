@@ -883,7 +883,7 @@ args
 [
 [
 {
-name
+slug
 :
 "
 test
@@ -971,7 +971,7 @@ withMockExperiments
 (
 [
 {
-name
+slug
 :
 "
 test
@@ -1061,7 +1061,7 @@ withMockExperiments
 (
 [
 {
-name
+slug
 :
 "
 test
@@ -1224,7 +1224,7 @@ withMockExperiments
 (
 [
 {
-name
+slug
 :
 "
 seen
@@ -1239,7 +1239,7 @@ PreferenceExperimentAction
 "
 }
 {
-name
+slug
 :
 "
 unseen
@@ -1348,7 +1348,7 @@ withMockExperiments
 (
 [
 {
-name
+slug
 :
 "
 seen
@@ -1363,7 +1363,7 @@ SinglePreferenceExperimentAction
 "
 }
 {
-name
+slug
 :
 "
 unseen
@@ -1471,7 +1471,7 @@ withMockExperiments
 (
 [
 {
-name
+slug
 :
 "
 conflict
@@ -2184,7 +2184,7 @@ deepEqual
 activeExperiments
 [
 {
-name
+slug
 :
 "
 integration
