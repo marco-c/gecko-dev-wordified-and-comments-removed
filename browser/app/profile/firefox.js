@@ -3316,9 +3316,6 @@ true
 ;
 #
 endif
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -3339,6 +3336,9 @@ allow_eval_in_parent_process
 false
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
