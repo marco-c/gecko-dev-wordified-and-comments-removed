@@ -475,6 +475,17 @@ aGdkDisplay
 nullptr
 )
 ;
+wl_display
+*
+WaylandDisplayGetWLDisplay
+(
+GdkDisplay
+*
+aGdkDisplay
+=
+nullptr
+)
+;
 typedef
 struct
 gbm_device
