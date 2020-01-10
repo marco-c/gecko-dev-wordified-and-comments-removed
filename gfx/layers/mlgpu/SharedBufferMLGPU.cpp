@@ -19,10 +19,6 @@ MLGDevice
 .
 h
 "
-using
-namespace
-std
-;
 namespace
 mozilla
 {
