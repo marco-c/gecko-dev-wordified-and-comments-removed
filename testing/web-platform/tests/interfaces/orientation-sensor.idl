@@ -127,6 +127,9 @@ Constructor
 optional
 OrientationSensorOptions
 sensorOptions
+=
+{
+}
 )
 SecureContext
 Exposed
@@ -146,6 +149,9 @@ Constructor
 optional
 OrientationSensorOptions
 sensorOptions
+=
+{
+}
 )
 SecureContext
 Exposed
