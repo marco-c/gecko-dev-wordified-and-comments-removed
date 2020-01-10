@@ -628,7 +628,7 @@ targets
 should
 set
 *
-mVirtualThread
+mThread
 to
 their
 virtual
@@ -641,7 +641,7 @@ targets
 should
 leave
 *
-mVirtualThread
+mThread
 null
 and
 implement
@@ -734,7 +734,7 @@ to
 /
 IsOnCurrentThreadInfallible
 when
-mVirtualThread
+mThread
 is
 null
 .
@@ -747,13 +747,13 @@ protected
 :
 PRThread
 *
-mVirtualThread
+mThread
 ;
 nsIEventTarget
 (
 )
 :
-mVirtualThread
+mThread
 (
 nullptr
 )

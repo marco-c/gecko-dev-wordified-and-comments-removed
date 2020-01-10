@@ -361,9 +361,9 @@ mIsMainThread
 aIsMainThread
 )
 {
-mVirtualThread
+mThread
 =
-GetCurrentVirtualThread
+PR_GetCurrentThread
 (
 )
 ;
@@ -376,9 +376,9 @@ SetCurrentThread
 (
 )
 {
-mVirtualThread
+mThread
 =
-GetCurrentVirtualThread
+PR_GetCurrentThread
 (
 )
 ;
