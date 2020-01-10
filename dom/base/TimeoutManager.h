@@ -320,12 +320,6 @@ UpdateBackgroundState
 (
 )
 ;
-static
-void
-Initialize
-(
-)
-;
 void
 OnDocumentLoaded
 (
