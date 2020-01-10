@@ -115,17 +115,6 @@ shared
 cubeb_pulse_rust
 "
 ]
-cubeb_coreaudio_rust
-=
-[
-"
-gkrust
--
-shared
-/
-cubeb_coreaudio_rust
-"
-]
 gecko_debug
 =
 [
