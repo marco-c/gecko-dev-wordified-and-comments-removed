@@ -8369,8 +8369,10 @@ WaitI32
 WaitI64
 Wake
 MemCopy
+MemCopyShared
 DataDrop
 MemFill
+MemFillShared
 MemInit
 TableCopy
 ElemDrop
