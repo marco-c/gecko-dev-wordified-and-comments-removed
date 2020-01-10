@@ -631,10 +631,6 @@ LaunchPhase
 :
 Complete
 ;
-mPrefSerializer
-=
-nullptr
-;
 if
 (
 aSucceeded
@@ -685,6 +681,10 @@ MOZ_ASSERT
 (
 rv
 )
+;
+mPrefSerializer
+=
+nullptr
 ;
 bool
 startMacSandbox
