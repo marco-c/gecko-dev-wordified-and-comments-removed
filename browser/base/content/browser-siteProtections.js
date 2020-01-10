@@ -5241,6 +5241,12 @@ title
 this
 .
 enabled
+&
+&
+!
+gProtectionsHandler
+.
+hasException
 ?
 this
 .
