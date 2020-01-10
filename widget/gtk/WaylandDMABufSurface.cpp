@@ -869,7 +869,7 @@ i
 0
 )
 {
-Release
+ReleaseDMABufSurface
 (
 )
 ;
@@ -949,7 +949,7 @@ mDmabufFds
 0
 )
 {
-Release
+ReleaseDMABufSurface
 (
 )
 ;
@@ -1202,7 +1202,7 @@ if
 mGbmBufferObject
 )
 {
-Release
+ReleaseDMABufSurface
 (
 )
 ;
@@ -2407,7 +2407,7 @@ return
 false
 ;
 }
-Release
+ReleaseDMABufSurface
 (
 )
 ;
