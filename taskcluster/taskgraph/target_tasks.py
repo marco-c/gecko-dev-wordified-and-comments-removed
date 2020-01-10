@@ -1414,6 +1414,37 @@ test_platform
                     
 return
 False
+            
+if
+attr
+[
+'
+unittest_suite
+'
+]
+=
+=
+'
+raptor
+'
+and
+attr
+.
+get
+(
+'
+unittest_variant
+'
+)
+=
+=
+'
+fission
+'
+:
+                
+return
+False
         
 if
 attr
