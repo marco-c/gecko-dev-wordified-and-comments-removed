@@ -49,15 +49,9 @@ content
 =
 "
 ?
+legacy
+-
 samesite
--
-by
--
-default
--
-cookies
-.
-tentative
 "
 >
 <
@@ -315,7 +309,7 @@ random
 let
 url_from
 =
-ORIGIN
+SECURE_ORIGIN
 +
 "
 /
@@ -365,12 +359,12 @@ wait_for_message
 '
 READY
 '
-ORIGIN
+SECURE_ORIGIN
 )
 ;
 assert_equals
 (
-ORIGIN
+SECURE_ORIGIN
 window
 .
 origin
@@ -378,7 +372,7 @@ origin
 ;
 assert_equals
 (
-ORIGIN
+SECURE_ORIGIN
 w
 .
 origin
@@ -462,7 +456,7 @@ navigate_test
 "
 GET
 "
-ORIGIN
+SECURE_ORIGIN
 "
 Same
 -
@@ -489,7 +483,7 @@ navigate_test
 "
 GET
 "
-CROSS_SITE_ORIGIN
+SECURE_CROSS_SITE_ORIGIN
 "
 Cross
 -
@@ -516,7 +510,7 @@ navigate_test
 "
 POST
 "
-ORIGIN
+SECURE_ORIGIN
 "
 Same
 -
@@ -543,7 +537,7 @@ navigate_test
 "
 POST
 "
-CROSS_SITE_ORIGIN
+SECURE_CROSS_SITE_ORIGIN
 "
 Cross
 -
