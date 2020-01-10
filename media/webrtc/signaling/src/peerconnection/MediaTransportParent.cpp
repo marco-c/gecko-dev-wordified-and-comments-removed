@@ -1001,10 +1001,6 @@ bool
 &
 defaultRouteOnly
 const
-bool
-&
-obfuscateHostAddresses
-const
 net
 :
 :
@@ -1022,7 +1018,6 @@ mHandler
 StartIceGathering
 (
 defaultRouteOnly
-obfuscateHostAddresses
 stunAddrs
 )
 ;

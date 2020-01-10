@@ -174,8 +174,6 @@ StartIceGathering
 (
 bool
 aDefaultRouteOnly
-bool
-aObfuscateHostAddresses
 const
 nsTArray
 <

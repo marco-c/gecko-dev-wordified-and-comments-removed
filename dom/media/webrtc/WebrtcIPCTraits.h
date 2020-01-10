@@ -823,8 +823,6 @@ mDefaultHostRtp
 mDefaultPortRtp
 mDefaultHostRtcp
 mDefaultPortRtcp
-mMDNSAddress
-mActualAddress
 )
 DEFINE_IPC_SERIALIZER_WITH_FIELDS
 (

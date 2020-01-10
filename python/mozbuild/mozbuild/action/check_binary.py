@@ -1496,26 +1496,43 @@ set
 [
         
 "
+socket
+"
+"
 connect
 "
 "
 accept
 "
 "
+bind
+"
+"
 listen
 "
+        
 "
 getsockname
 "
 "
 getsockopt
 "
+"
+setsockopt
+"
         
 "
 recv
 "
 "
+recvfrom
+"
+        
+"
 send
+"
+"
+sendto
 "
         
 "
@@ -1551,6 +1568,9 @@ gethostbyname_r
 gethostbyname2_r
 "
         
+"
+getaddrinfo
+"
 "
 getservent
 "
