@@ -2304,7 +2304,7 @@ aState
 #
 endif
 nsCString
-mGtkWindowTypeName
+mGtkWindowAppName
 ;
 nsCString
 mGtkWindowRoleName
