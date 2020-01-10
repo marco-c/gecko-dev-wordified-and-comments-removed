@@ -783,7 +783,10 @@ rv
 }
 profiler_start
 (
+PowerOfTwo32
+(
 aEntries
+)
 aInterval
 features
 filterStringVector

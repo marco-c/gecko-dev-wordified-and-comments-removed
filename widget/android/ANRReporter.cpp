@@ -93,7 +93,13 @@ Compositor
 ;
 profiler_start
 (
+PowerOfTwo
+<
+uint32_t
+>
+(
 100
+)
 10000
 features
 NATIVE_STACK_THREADS
