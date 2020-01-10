@@ -760,6 +760,14 @@ thread
 ;
 if
 (
+mShutdown
+)
+{
+return
+;
+}
+if
+(
 FAILED
 (
 CoInitializeEx
