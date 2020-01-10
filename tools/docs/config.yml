@@ -66,6 +66,10 @@ build
 buildsystem
 -
 taskcluster
+-
+tools
+/
+docs
 testing_doc
 :
 -
