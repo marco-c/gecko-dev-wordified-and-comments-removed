@@ -679,6 +679,16 @@ mNumProcessAttempts
 0
 ;
 }
+GPUProcessHost
+*
+Process
+(
+)
+{
+return
+mProcess
+;
+}
 private
 :
 void
