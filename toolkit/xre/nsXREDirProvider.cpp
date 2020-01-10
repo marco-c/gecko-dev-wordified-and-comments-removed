@@ -275,6 +275,13 @@ shlobj
 h
 >
 #
+include
+"
+WinUtils
+.
+h
+"
+#
 endif
 #
 ifdef
@@ -369,13 +376,6 @@ XP_WIN
 include
 "
 sandboxBroker
-.
-h
-"
-#
-include
-"
-WinUtils
 .
 h
 "
