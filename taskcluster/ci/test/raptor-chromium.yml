@@ -1312,6 +1312,9 @@ Cr
 (
 ugl
 )
+tier
+:
+3
 mozharness
 :
 extra
