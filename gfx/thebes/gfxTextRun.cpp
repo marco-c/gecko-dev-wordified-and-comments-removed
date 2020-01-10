@@ -16272,9 +16272,9 @@ return
 font
 ;
 }
-continue
-;
 }
+else
+{
 gfxFontEntry
 *
 fe
@@ -16490,6 +16490,7 @@ font
 ;
 }
 }
+}
 if
 (
 ff
@@ -16690,6 +16691,8 @@ font
 }
 else
 {
+gfxFontEntry
+*
 fe
 =
 ff
