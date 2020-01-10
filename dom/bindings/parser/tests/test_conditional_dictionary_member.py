@@ -294,10 +294,12 @@ finish
 except
 Exception
 as
-exception
+e
 :
-        
-pass
+      
+exception
+=
+e
     
 harness
 .
@@ -442,10 +444,12 @@ finish
 except
 Exception
 as
-exception
+e
 :
-        
-pass
+      
+exception
+=
+e
     
 harness
 .
@@ -609,10 +613,12 @@ finish
 except
 Exception
 as
-exception
+e
 :
-        
-pass
+      
+exception
+=
+e
     
 harness
 .
