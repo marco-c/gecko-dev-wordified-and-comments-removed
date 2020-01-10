@@ -3032,6 +3032,9 @@ gc
 jit
 '
 '
+rust
+'
+'
 wasm
 '
 '

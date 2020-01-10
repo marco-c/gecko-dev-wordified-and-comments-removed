@@ -93,6 +93,14 @@ if
 CONFIG
 [
 '
+ENABLE_WASM_CRANELIFT
+'
+]
+:
+if
+CONFIG
+[
+'
 JS_CODEGEN_X64
 '
 ]

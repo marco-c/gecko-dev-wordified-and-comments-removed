@@ -146,17 +146,6 @@ ENABLE_WASM_CRANELIFT
 '
 ]
 :
-DIRS
-+
-=
-[
-'
-.
-.
-/
-rust
-'
-]
 UNIFIED_SOURCES
 +
 =
