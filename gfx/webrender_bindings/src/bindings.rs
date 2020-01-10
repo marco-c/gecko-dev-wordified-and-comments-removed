@@ -6953,7 +6953,6 @@ api
 .
 shut_down
 (
-true
 )
 ;
 }
