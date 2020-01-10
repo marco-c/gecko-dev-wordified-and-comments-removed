@@ -231,6 +231,12 @@ description
 indent
 .
 indent
+:
+not
+(
+#
+browserPrivateEngineSelection
+)
 >
 description
 {

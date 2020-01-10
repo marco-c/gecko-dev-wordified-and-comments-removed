@@ -6593,6 +6593,13 @@ hidden
 "
 true
 "
+data
+-
+subcategory
+=
+"
+locationBar
+"
 >
 <
 label
