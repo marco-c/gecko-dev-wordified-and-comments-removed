@@ -366,6 +366,8 @@ RenderRootUpdates
 >
 &
 aRenderRootUpdates
+uint32_t
+aPaintSequenceNumber
 TransactionId
 aTransactionId
 const
