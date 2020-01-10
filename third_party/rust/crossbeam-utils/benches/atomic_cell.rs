@@ -351,7 +351,9 @@ scope
 spawn
 (
 |
+_
 |
+{
 loop
 {
 start
@@ -407,6 +409,7 @@ load
 {
 break
 ;
+}
 }
 }
 )
@@ -786,7 +789,9 @@ scope
 spawn
 (
 |
+_
 |
+{
 loop
 {
 start
@@ -842,6 +847,7 @@ load
 {
 break
 ;
+}
 }
 }
 )

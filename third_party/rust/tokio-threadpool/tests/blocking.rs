@@ -6,10 +6,6 @@ extern
 crate
 env_logger
 ;
-#
-[
-macro_use
-]
 extern
 crate
 futures
@@ -116,7 +112,7 @@ _
 env_logger
 :
 :
-init
+try_init
 (
 )
 ;

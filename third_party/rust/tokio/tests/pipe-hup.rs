@@ -516,7 +516,7 @@ drop
 env_logger
 :
 :
-init
+try_init
 (
 )
 )

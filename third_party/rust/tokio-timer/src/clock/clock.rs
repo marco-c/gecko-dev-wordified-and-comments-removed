@@ -70,7 +70,17 @@ Now
 }
 thread_local
 !
-(
+{
+/
+/
+/
+Thread
+-
+local
+tracking
+the
+current
+clock
 static
 CLOCK
 :
@@ -91,8 +101,7 @@ new
 (
 None
 )
-)
-;
+}
 pub
 fn
 now
@@ -109,7 +118,6 @@ with
 |
 current
 |
-{
 match
 current
 .
@@ -123,7 +131,6 @@ ptr
 )
 =
 >
-{
 unsafe
 {
 (
@@ -135,7 +142,6 @@ now
 (
 )
 }
-}
 None
 =
 >
@@ -145,7 +151,6 @@ Instant
 now
 (
 )
-}
 }
 )
 }
@@ -168,7 +173,6 @@ with
 |
 current
 |
-{
 match
 current
 .
@@ -182,7 +186,6 @@ ptr
 )
 =
 >
-{
 unsafe
 {
 (
@@ -194,7 +197,6 @@ clone
 (
 )
 }
-}
 None
 =
 >
@@ -204,7 +206,6 @@ Clock
 system
 (
 )
-}
 }
 )
 }

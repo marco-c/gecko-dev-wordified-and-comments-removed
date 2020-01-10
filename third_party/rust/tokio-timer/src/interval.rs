@@ -10,8 +10,8 @@ futures
 :
 {
 Future
-Stream
 Poll
+Stream
 }
 ;
 use
@@ -22,8 +22,8 @@ time
 :
 :
 {
-Instant
 Duration
+Instant
 }
 ;
 #

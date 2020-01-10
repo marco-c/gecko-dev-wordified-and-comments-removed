@@ -121,7 +121,7 @@ _
 env_logger
 :
 :
-init
+try_init
 (
 )
 ;
@@ -301,7 +301,7 @@ _
 env_logger
 :
 :
-init
+try_init
 (
 )
 ;

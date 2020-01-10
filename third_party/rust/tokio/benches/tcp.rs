@@ -70,16 +70,6 @@ TcpStream
 ;
 pub
 use
-tokio
-:
-:
-executor
-:
-:
-current_thread
-;
-pub
-use
 tokio_io
 :
 :

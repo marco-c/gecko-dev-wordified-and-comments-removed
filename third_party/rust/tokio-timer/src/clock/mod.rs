@@ -13,9 +13,9 @@ clock
 :
 :
 {
-Clock
 now
 with_default
+Clock
 }
 ;
 pub

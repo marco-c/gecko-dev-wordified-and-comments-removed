@@ -227,7 +227,10 @@ std
 sync
 :
 :
-Mutex
+atomic
+:
+:
+Ordering
 ;
 use
 std
@@ -236,10 +239,7 @@ std
 sync
 :
 :
-atomic
-:
-:
-Ordering
+Mutex
 ;
 #
 [

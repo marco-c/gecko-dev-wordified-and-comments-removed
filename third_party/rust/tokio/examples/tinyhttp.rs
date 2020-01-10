@@ -40,10 +40,6 @@ tokio
 ;
 extern
 crate
-tokio_codec
-;
-extern
-crate
 tokio_io
 ;
 use
@@ -87,7 +83,10 @@ prelude
 *
 ;
 use
-tokio_codec
+tokio
+:
+:
+codec
 :
 :
 {

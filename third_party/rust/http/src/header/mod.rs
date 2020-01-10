@@ -20,8 +20,10 @@ HeaderMap
 AsHeaderName
 IntoHeaderName
 Iter
+IterMut
 Keys
 Values
+ValuesMut
 Drain
 GetAll
 Entry

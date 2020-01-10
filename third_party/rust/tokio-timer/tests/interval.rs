@@ -33,9 +33,7 @@ use
 futures
 :
 :
-{
 Stream
-}
 ;
 #
 [
@@ -121,7 +119,7 @@ ms
 )
 )
 ;
-assert_ready
+assert_ready_eq
 !
 (
 int
@@ -161,7 +159,7 @@ ms
 )
 )
 ;
-assert_ready
+assert_ready_eq
 !
 (
 int
@@ -191,7 +189,7 @@ ms
 )
 )
 ;
-assert_ready
+assert_ready_eq
 !
 (
 int
@@ -221,7 +219,7 @@ ms
 )
 )
 ;
-assert_ready
+assert_ready_eq
 !
 (
 int
@@ -236,7 +234,7 @@ ms
 )
 )
 ;
-assert_ready
+assert_ready_eq
 !
 (
 int
