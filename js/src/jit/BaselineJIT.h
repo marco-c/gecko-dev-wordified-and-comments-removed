@@ -1778,6 +1778,10 @@ enable
 )
 ;
 struct
+alignas
+(
+uintptr_t
+)
 BaselineBailoutInfo
 {
 uint8_t
