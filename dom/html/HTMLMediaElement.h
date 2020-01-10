@@ -2642,7 +2642,7 @@ aFlags
 )
 ;
 void
-UpdateSrcTrackTime
+UpdateSrcStreamTime
 (
 )
 ;
