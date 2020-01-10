@@ -6433,6 +6433,13 @@ promiseLargeCacheDBConnection
 =
 >
 gAsyncDBLargeCacheConnPromised
+promiseUnsafeWritableDBConnection
+:
+(
+)
+=
+>
+gAsyncDBWrapperPromised
 async
 withConnectionWrapper
 (
