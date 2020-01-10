@@ -3332,6 +3332,12 @@ i
 ;
 }
 }
+namespace
+mozilla
+{
+namespace
+detail
+{
 template
 <
 typename
@@ -3345,7 +3351,7 @@ typename
 EnableIfChar
 >
 int32_t
-nsTString
+nsTStringRepr
 <
 T
 >
@@ -3511,7 +3517,7 @@ typename
 EnableIfChar16
 >
 bool
-nsTString
+nsTStringRepr
 <
 T
 >
@@ -3655,6 +3661,8 @@ result
 =
 0
 ;
+}
+}
 }
 template
 <
