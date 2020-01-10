@@ -14,12 +14,6 @@ use
 crate
 :
 :
-Parameters
-;
-use
-crate
-:
-:
 command
 :
 :
@@ -37,6 +31,12 @@ error
 :
 :
 WebDriverResult
+;
+use
+crate
+:
+:
+Parameters
 ;
 pub
 (

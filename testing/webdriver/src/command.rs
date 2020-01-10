@@ -2,12 +2,6 @@ use
 crate
 :
 :
-Parameters
-;
-use
-crate
-:
-:
 actions
 :
 :
@@ -68,6 +62,12 @@ Route
 VoidWebDriverExtensionRoute
 WebDriverExtensionRoute
 }
+;
+use
+crate
+:
+:
+Parameters
 ;
 use
 serde

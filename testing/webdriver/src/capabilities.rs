@@ -548,6 +548,7 @@ strictFileInteractability
 "
 =
 >
+{
 if
 !
 value
@@ -587,6 +588,7 @@ value
 )
 )
 ;
+}
 }
 x
 "
@@ -1237,6 +1239,7 @@ socksVersion
 "
 =
 >
+{
 if
 !
 value
@@ -1275,6 +1278,7 @@ value
 )
 )
 ;
+}
 }
 x
 =
