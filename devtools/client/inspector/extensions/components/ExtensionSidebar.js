@@ -365,16 +365,6 @@ div
 {
 id
 className
-style
-:
-{
-height
-:
-"
-100
-%
-"
-}
 }
 sidebarContentEl
 )
