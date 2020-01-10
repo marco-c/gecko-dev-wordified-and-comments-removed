@@ -17989,6 +17989,13 @@ contentBSize
 NS_UNCONSTRAINEDSIZE
 )
 {
+contentBSize
+-
+=
+aState
+.
+mConsumedBSize
+;
 const
 nscoord
 availContentBSize
