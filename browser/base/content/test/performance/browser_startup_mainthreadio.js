@@ -1180,7 +1180,7 @@ canonicalize
 true
 stat
 :
-2
+3
 }
 {
 path
@@ -1202,7 +1202,7 @@ canonicalize
 true
 stat
 :
-2
+3
 }
 {
 path
