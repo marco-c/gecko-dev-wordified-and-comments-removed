@@ -112,6 +112,9 @@ partial
 interface
 Navigator
 {
+[
+SameObject
+]
 readonly
 attribute
 Permissions
@@ -130,6 +133,9 @@ partial
 interface
 WorkerNavigator
 {
+[
+SameObject
+]
 readonly
 attribute
 Permissions
