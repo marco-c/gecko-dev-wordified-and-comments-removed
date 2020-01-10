@@ -400,15 +400,13 @@ launch
 or
 the
 test
-was
 otherwise
 "
      
 "
-unsuccessful
-in
-even
-starting
+failed
+to
+start
 .
 "
 }
@@ -427,10 +425,10 @@ AndroidMixin
 "
 "
     
-install
+Install
 and
 run
-raptor
+Raptor
 tests
     
 "
@@ -737,7 +735,7 @@ help
 "
 :
 "
-name
+Name
 of
 the
 application
@@ -749,6 +747,7 @@ default
 :
 firefox
 )
+.
 "
           
 }
@@ -777,20 +776,23 @@ help
 "
 :
 "
-the
-android
+The
+Android
 activity
 used
 to
 launch
 the
-android
+Android
 app
 .
 "
                   
 "
-ex
+e
+.
+g
+.
 :
 org
 .
@@ -829,17 +831,17 @@ help
 "
 :
 "
-name
+Name
 of
 the
-android
+Android
 intent
 action
 used
 to
 launch
 the
-android
+Android
 app
 "
           
@@ -954,10 +956,11 @@ help
 "
 :
 "
-extra
+Extra
 options
 to
-raptor
+Raptor
+.
 "
           
 }
@@ -1171,8 +1174,6 @@ help
 :
 "
 Whether
-or
-not
 to
 profile
 the
@@ -1183,6 +1184,7 @@ save
 the
 profile
 results
+.
 "
         
 }
@@ -1232,8 +1234,9 @@ by
 the
 profiler
 (
-milliseconds
+ms
 )
+.
 "
         
 }
@@ -1282,6 +1285,7 @@ take
 with
 the
 profiler
+.
 "
         
 }
@@ -1353,6 +1357,7 @@ test
 will
 be
 run
+.
 "
         
 }
@@ -1406,6 +1411,7 @@ complete
 before
 timing
 out
+.
 "
         
 }
@@ -1474,6 +1480,7 @@ between
 test
 iterations
 )
+.
 "
         
 }
@@ -1522,6 +1529,7 @@ the
 test_url
 query
 string
+.
 "
         
 }
@@ -1644,34 +1652,25 @@ to
 measure
 power
 usage
-.
-Currently
-only
-supported
-for
-Geckoview
-.
-"
-                    
-"
-The
+;
+the
 host
-ip
+IP
 address
 must
 be
 specified
-either
 via
+"
+            
+"
 the
 -
 -
 host
 command
+-
 line
-"
-                    
-"
 argument
 .
 "
@@ -1775,6 +1774,7 @@ to
 measure
 CPU
 usage
+.
 "
         
 }
@@ -1884,6 +1884,7 @@ to
 install
 Android
 APK
+.
 "
         
 }
@@ -2948,20 +2949,12 @@ self
 '
 '
 '
-install
+Install
 Google
 Chromium
 distribution
 in
 production
-;
-installation
-        
-requirements
-depend
-on
-the
-platform
 '
 '
 '
@@ -3113,7 +3106,7 @@ self
 info
 (
 "
-expecting
+Expecting
 %
 s
 to
@@ -3328,7 +3321,7 @@ self
 info
 (
 "
-successfully
+Successfully
 installed
 %
 s
@@ -3355,7 +3348,7 @@ self
 info
 (
 "
-abort
+Abort
 :
 failed
 to
@@ -3383,10 +3376,10 @@ kw
 "
 "
 "
-return
+Return
 options
 to
-raptor
+Raptor
 "
 "
 "
@@ -3514,7 +3507,7 @@ self
 info
 (
 "
-set
+Set
 binary
 to
 %
@@ -4267,7 +4260,7 @@ VirtualenvMixin
 create_virtualenv
 (
 )
-assuemes
+assumes
 we
 '
 re
@@ -4284,7 +4277,8 @@ virtualenv_modules
 .
 Since
 we
-are
+'
+re
 installing
         
 raptor
@@ -4727,7 +4721,7 @@ self
 info
 (
 "
-installing
+Installing
 requirements
 for
 the
@@ -4784,7 +4778,7 @@ self
 info
 (
 "
-creating
+Creating
 dir
 :
 %
@@ -4820,7 +4814,7 @@ self
 info
 (
 '
-copying
+Copying
 raptor
 results
 from
@@ -4901,7 +4895,7 @@ kw
 "
 "
 "
-run
+Run
 raptor
 tests
 "
@@ -5580,8 +5574,8 @@ self
 info
 (
 "
-copying
-raptor
+Copying
+Raptor
 results
 to
 upload
