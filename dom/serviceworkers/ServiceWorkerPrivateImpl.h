@@ -411,7 +411,7 @@ Terminated
 )
 override
 ;
-nsresult
+void
 RefreshRemoteWorkerData
 (
 const
