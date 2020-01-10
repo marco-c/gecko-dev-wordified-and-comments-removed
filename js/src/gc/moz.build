@@ -205,6 +205,11 @@ Barrier
 cpp
 '
 '
+FinalizationGroup
+.
+cpp
+'
+'
 GC
 .
 cpp
