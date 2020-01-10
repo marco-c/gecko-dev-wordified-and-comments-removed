@@ -1474,7 +1474,7 @@ FONT_SIZE_MIN
 1
 FONT_SIZE_MAX
 :
-9
+24
 get
 _doc
 (
