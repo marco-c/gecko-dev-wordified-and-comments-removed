@@ -215,16 +215,6 @@ FinderChild
 jsm
 '
 '
-InlineSpellCheckerChild
-.
-jsm
-'
-'
-InlineSpellCheckerParent
-.
-jsm
-'
-'
 KeyPressEventModelCheckerChild
 .
 jsm
