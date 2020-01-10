@@ -11175,9 +11175,6 @@ mix_blend_mode
 filters
 &
 r_filter_datas
-&
-[
-]
 glyph_raster_space
 params
 .
