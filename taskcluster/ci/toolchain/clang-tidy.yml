@@ -596,3 +596,11 @@ tidy
 tar
 .
 bz2
+fetches
+:
+fetch
+:
+-
+cmake
+-
+ninja

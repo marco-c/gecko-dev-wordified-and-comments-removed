@@ -1489,3 +1489,7 @@ fetch
 clang
 -
 8
+-
+cmake
+-
+ninja
