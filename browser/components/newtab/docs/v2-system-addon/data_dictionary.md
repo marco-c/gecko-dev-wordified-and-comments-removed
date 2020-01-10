@@ -1754,6 +1754,9 @@ pinned
 "
 search
 "
+"
+spoc
+"
 )
 |
 :
@@ -2985,6 +2988,9 @@ screenshot
 "
 "
 no_image
+"
+"
+custom_screenshot
 "
 )
 |

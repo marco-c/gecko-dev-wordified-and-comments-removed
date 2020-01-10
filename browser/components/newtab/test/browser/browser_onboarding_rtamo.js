@@ -174,7 +174,9 @@ setCharPref
 (
 BRANCH_PREF
 "
-control
+join
+-
+supercharge
 "
 )
 ;
