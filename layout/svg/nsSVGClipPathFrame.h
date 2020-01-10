@@ -196,6 +196,9 @@ const
 gfxMatrix
 &
 aMatrix
+Matrix
+*
+aMaskTransform
 SourceSurface
 *
 aExtraMask
@@ -224,6 +227,9 @@ const
 gfxMatrix
 &
 aMatrix
+Matrix
+*
+aMaskTransform
 SourceSurface
 *
 aExtraMask
