@@ -51,10 +51,6 @@ PATH_MAPPINGS
     
 '
 /
-js
--
-input
-/
 webkit
 /
 PerformanceTests
@@ -66,6 +62,19 @@ third_party
 webkit
 /
 PerformanceTests
+'
+    
+'
+/
+talos
+'
+:
+'
+testing
+/
+talos
+/
+talos
 '
 }
 if
