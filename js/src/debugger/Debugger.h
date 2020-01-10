@@ -1674,7 +1674,7 @@ targets
 )
 ;
 bool
-findZoneEdges
+findSweepGroupEdges
 (
 )
 override

@@ -427,7 +427,7 @@ bool
 WeakMapBase
 :
 :
-findSweepGroupEdges
+findSweepGroupEdgesForZone
 (
 JS
 :
@@ -457,7 +457,7 @@ if
 m
 -
 >
-findZoneEdges
+findSweepGroupEdges
 (
 )
 )
@@ -840,7 +840,7 @@ bool
 ObjectValueMap
 :
 :
-findZoneEdges
+findSweepGroupEdges
 (
 )
 {

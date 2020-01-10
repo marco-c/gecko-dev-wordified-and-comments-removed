@@ -23395,7 +23395,7 @@ return
 WeakMapBase
 :
 :
-findSweepGroupEdges
+findSweepGroupEdgesForZone
 (
 this
 )

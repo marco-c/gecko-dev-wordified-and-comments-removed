@@ -219,7 +219,7 @@ marker
 static
 MOZ_MUST_USE
 bool
-findSweepGroupEdges
+findSweepGroupEdgesForZone
 (
 JS
 :
@@ -345,7 +345,7 @@ tracer
 ;
 virtual
 bool
-findZoneEdges
+findSweepGroupEdges
 (
 )
 =
@@ -1095,7 +1095,7 @@ script
 const
 ;
 bool
-findZoneEdges
+findSweepGroupEdges
 (
 )
 override
@@ -1203,7 +1203,7 @@ obj
 {
 }
 bool
-findZoneEdges
+findSweepGroupEdges
 (
 )
 override

@@ -20681,7 +20681,7 @@ InvisibleKeysOk
 >
 :
 :
-findZoneEdges
+findSweepGroupEdges
 (
 )
 {
