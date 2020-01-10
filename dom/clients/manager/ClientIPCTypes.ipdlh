@@ -171,6 +171,10 @@ IPCClientInfo
 nsID
 id
 ;
+nsID
+?
+agentClusterId
+;
 ClientType
 type
 ;
