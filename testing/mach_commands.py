@@ -11049,6 +11049,17 @@ key
 .
 sort
 (
+key
+=
+lambda
+k
+:
+k
+[
+'
+test
+'
+]
 )
         
 if
