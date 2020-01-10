@@ -679,6 +679,17 @@ ScriptLoader
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+WindowGlobalChild
+.
+h
+"
 using
 namespace
 mozilla
@@ -1314,6 +1325,15 @@ aParentWidget
 nsISupports
 *
 aState
+mozilla
+:
+:
+dom
+:
+:
+WindowGlobalChild
+*
+aActor
 const
 nsIntRect
 &
@@ -2581,6 +2601,9 @@ const
 nsIntRect
 &
 aBounds
+WindowGlobalChild
+*
+aActor
 )
 {
 return
@@ -2588,6 +2611,7 @@ InitInternal
 (
 aParentWidget
 nullptr
+aActor
 aBounds
 true
 )
@@ -3078,6 +3102,9 @@ aParentWidget
 nsISupports
 *
 aState
+WindowGlobalChild
+*
+aActor
 const
 nsIntRect
 &
@@ -3496,6 +3523,7 @@ SetNewDocument
 mDocument
 aState
 false
+aActor
 )
 ;
 if
@@ -6070,6 +6098,7 @@ InitInternal
 (
 mParentWidget
 aState
+nullptr
 mBounds
 false
 )
@@ -7688,6 +7717,7 @@ rv
 InitInternal
 (
 mParentWidget
+nullptr
 nullptr
 mBounds
 true
@@ -16237,6 +16267,7 @@ NS_ENSURE_SUCCESS
 InitInternal
 (
 mParentWidget
+nullptr
 nullptr
 mBounds
 true

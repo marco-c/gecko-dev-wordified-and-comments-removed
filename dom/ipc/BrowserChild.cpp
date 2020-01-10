@@ -2898,6 +2898,7 @@ OriginAttributesRef
 (
 )
 mBrowsingContext
+aInitialWindowChild
 )
 ;
 nsIWebBrowser
