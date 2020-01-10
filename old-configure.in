@@ -6927,9 +6927,6 @@ LIBS
 =
 "
 LIBS
-kernel32
-.
-lib
 user32
 .
 lib
