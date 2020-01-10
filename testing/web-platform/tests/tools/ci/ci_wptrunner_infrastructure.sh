@@ -203,6 +203,10 @@ chrome
 -
 unstable
 )
+-
+-
+channel
+dev
 "
 else
 test_infrastructure
