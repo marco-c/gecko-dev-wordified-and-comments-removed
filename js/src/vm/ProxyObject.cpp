@@ -220,7 +220,7 @@ priv
 {
 kind
 =
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 kind
 )

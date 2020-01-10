@@ -525,7 +525,7 @@ numFixedSlots
 ;
 MOZ_ASSERT
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 kind
 &
@@ -541,7 +541,7 @@ kind
 gc
 :
 :
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 kind
 )
@@ -714,7 +714,7 @@ numFixedSlots
 ;
 MOZ_ASSERT
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 kind
 &
@@ -727,7 +727,7 @@ kind
 gc
 :
 :
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 kind
 )
@@ -1464,7 +1464,7 @@ numFixedSlots
 ;
 MOZ_ASSERT
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 kind
 &
@@ -1477,7 +1477,7 @@ kind
 gc
 :
 :
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 kind
 )
@@ -2213,7 +2213,7 @@ numFixedSlots
 ;
 MOZ_ASSERT
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 kind
 &
@@ -2226,7 +2226,7 @@ kind
 gc
 :
 :
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 kind
 )
@@ -3512,7 +3512,7 @@ numFixedSlots
 ;
 MOZ_ASSERT
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 kind
 &
@@ -3525,7 +3525,7 @@ kind
 gc
 :
 :
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 kind
 )
@@ -3722,7 +3722,7 @@ numFixedSlots
 ;
 MOZ_ASSERT
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 kind
 &
@@ -3735,7 +3735,7 @@ kind
 gc
 :
 :
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 kind
 )
@@ -5124,7 +5124,7 @@ numFixedSlots
 ;
 MOZ_ASSERT
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 allocKind
 &
@@ -5137,7 +5137,7 @@ class_
 ;
 allocKind
 =
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 allocKind
 )

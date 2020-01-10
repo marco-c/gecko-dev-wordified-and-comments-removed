@@ -12185,7 +12185,7 @@ numFixedSlots
 ;
 if
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 kind
 clasp
@@ -12194,7 +12194,7 @@ clasp
 {
 kind
 =
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 kind
 )

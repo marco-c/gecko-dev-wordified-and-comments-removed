@@ -19837,7 +19837,7 @@ length
 ;
 MOZ_ASSERT
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 allocKind
 &
@@ -19850,7 +19850,7 @@ class_
 ;
 allocKind
 =
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 allocKind
 )
@@ -20604,7 +20604,7 @@ length
 ;
 MOZ_ASSERT
 (
-CanBeFinalizedInBackground
+CanChangeToBackgroundAllocKind
 (
 allocKind
 &
@@ -20617,7 +20617,7 @@ class_
 ;
 allocKind
 =
-GetBackgroundAllocKind
+ForegroundToBackgroundAllocKind
 (
 allocKind
 )
