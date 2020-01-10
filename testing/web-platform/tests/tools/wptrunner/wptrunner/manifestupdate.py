@@ -14,6 +14,7 @@ urllib
 parse
 import
 urljoin
+urlsplit
 from
 collections
 import
@@ -1414,13 +1415,18 @@ test
 "
 "
         
-url
-=
-test_id
-        
 name
 =
-url
+test_id
+[
+len
+(
+urlsplit
+(
+test_id
+)
+.
+path
 .
 rsplit
 (
@@ -1430,7 +1436,12 @@ rsplit
 1
 )
 [
+0
+]
+)
++
 1
+:
 ]
         
 node
