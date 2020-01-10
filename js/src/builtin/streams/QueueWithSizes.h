@@ -38,7 +38,7 @@ namespace
 js
 {
 class
-ReadableStreamController
+StreamController
 ;
 extern
 MOZ_MUST_USE
@@ -53,7 +53,7 @@ JS
 :
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer
@@ -83,7 +83,7 @@ JS
 :
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer
@@ -124,7 +124,7 @@ JS
 :
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer

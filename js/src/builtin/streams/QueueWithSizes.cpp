@@ -50,7 +50,7 @@ builtin
 /
 streams
 /
-ReadableStreamController
+StreamController
 .
 h
 "
@@ -382,7 +382,7 @@ JSContext
 cx
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer
@@ -548,7 +548,7 @@ JSContext
 cx
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer
@@ -776,7 +776,7 @@ JSContext
 cx
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer
