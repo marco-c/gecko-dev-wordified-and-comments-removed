@@ -141,6 +141,9 @@ InitToken
 (
 )
 ;
+mozilla
+:
+:
 UniquePK11SlotInfo
 mSlot
 =

@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsNSSCertHelper
+.
+h
+"
+#
+include
+"
 nsNSSComponent
 .
 h
@@ -171,6 +178,9 @@ PK11_GetSlotSeries
 slot
 )
 ;
+mozilla
+:
+:
 Unused
 <
 <
@@ -292,6 +302,9 @@ tokInfo
 nsresult
 rv
 =
+mozilla
+:
+:
 MapSECStatus
 (
 PK11_GetTokenInfo
@@ -825,6 +838,9 @@ return
 rv
 ;
 return
+mozilla
+:
+:
 MapSECStatus
 (
 PK11_Authenticate
@@ -848,6 +864,9 @@ LogoutSimple
 (
 )
 {
+mozilla
+:
+:
 Unused
 <
 <
@@ -938,6 +957,9 @@ Reset
 )
 {
 return
+mozilla
+:
+:
 MapSECStatus
 (
 PK11_ResetToken
@@ -1142,6 +1164,9 @@ hasPassword
 )
 {
 return
+mozilla
+:
+:
 MapSECStatus
 (
 PK11_ChangePW
@@ -1163,6 +1188,9 @@ get
 ;
 }
 return
+mozilla
+:
+:
 MapSECStatus
 (
 PK11_InitPin
@@ -1200,6 +1228,9 @@ newPassword
 )
 {
 return
+mozilla
+:
+:
 MapSECStatus
 (
 PK11_ChangePW
@@ -1342,6 +1373,9 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
+mozilla
+:
+:
 UniquePK11SlotInfo
 slot
 (

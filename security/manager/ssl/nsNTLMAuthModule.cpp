@@ -2397,6 +2397,9 @@ NTLM_NegotiateUnicode
 bool
 ntlmv2
 =
+mozilla
+:
+:
 StaticPrefs
 :
 :

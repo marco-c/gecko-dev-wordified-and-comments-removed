@@ -65,6 +65,13 @@ h
 #
 include
 "
+nsNSSCertHelper
+.
+h
+"
+#
+include
+"
 nsNSSComponent
 .
 h
@@ -173,6 +180,9 @@ PK11_GetSlotSeries
 slot
 )
 ;
+mozilla
+:
+:
 Unused
 <
 <
@@ -195,6 +205,9 @@ slotInfo
 nsresult
 rv
 =
+mozilla
+:
+:
 MapSECStatus
 (
 PK11_GetSlotInfo
@@ -1287,6 +1300,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+mozilla
+:
+:
 AutoSECMODListReadLock
 lock
 ;

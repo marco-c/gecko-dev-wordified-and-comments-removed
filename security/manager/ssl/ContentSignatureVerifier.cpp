@@ -22,6 +22,13 @@ h
 #
 include
 "
+CSTrustDomain
+.
+h
+"
+#
+include
+"
 ScopedNSSTypes
 .
 h
@@ -133,6 +140,13 @@ h
 include
 "
 secerr
+.
+h
+"
+#
+include
+"
+ssl
 .
 h
 "
