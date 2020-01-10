@@ -163,6 +163,15 @@ include
 "
 mozilla
 /
+ImportScanner
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
