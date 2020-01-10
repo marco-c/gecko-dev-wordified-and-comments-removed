@@ -18779,7 +18779,6 @@ srcdoc
 addons
 config
 debugging
-devtools
 downloads
 home
 newtab
