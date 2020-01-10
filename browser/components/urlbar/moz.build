@@ -118,6 +118,11 @@ UrlbarProviderOpenTabs
 jsm
 '
 '
+UrlbarProviderPrivateSearch
+.
+jsm
+'
+'
 UrlbarProvidersManager
 .
 jsm
