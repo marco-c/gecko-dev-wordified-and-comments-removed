@@ -7579,6 +7579,10 @@ notableString
 info
 .
 buffer
+.
+get
+(
+)
 )
 ;
 #
@@ -9379,6 +9383,10 @@ s
 classInfo
 .
 className_
+.
+get
+(
+)
 )
 ;
 ReportClassStats
@@ -10833,6 +10841,10 @@ filename
 scriptSourceInfo
 .
 filename_
+.
+get
+(
+)
 )
 ;
 escapedFilename
