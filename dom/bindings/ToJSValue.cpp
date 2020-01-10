@@ -487,6 +487,7 @@ GetRemoteOuterWindowProxy
 (
 aCx
 bc
+nullptr
 &
 windowProxy
 )
