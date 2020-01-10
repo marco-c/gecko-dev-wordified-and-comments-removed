@@ -113,6 +113,7 @@ tx
 &
 !
 gotEmptyData
+;
 gotSocket
 =
 data
@@ -178,7 +179,6 @@ gotSqlite
 ;
 }
 }
-;
 add_task
 (
 async
@@ -193,9 +193,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

@@ -50,6 +50,7 @@ path
 in
 handlers
 )
+{
 srv
 .
 registerPathHandler
@@ -61,6 +62,7 @@ path
 ]
 )
 ;
+}
 srv
 .
 start
@@ -910,12 +912,14 @@ ch
 var
 now
 =
+(
 startTime_handleAsync2
 =
 Date
 .
 now
 (
+)
 )
 ;
 dumpn
@@ -1155,6 +1159,7 @@ i
 +
 +
 )
+{
 data
 [
 i
@@ -1162,6 +1167,7 @@ i
 =
 0
 ;
+}
 var
 count
 =
@@ -1317,6 +1323,7 @@ v
 =
 0
 )
+{
 do_throw
 (
 "
@@ -1339,6 +1346,7 @@ zero
 "
 )
 ;
+}
 }
 )
 ;

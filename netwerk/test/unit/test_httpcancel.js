@@ -33,6 +33,7 @@ inChildProcess
 )
 {
 return
+(
 Cc
 [
 "
@@ -65,6 +66,7 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
+)
 ;
 }
 var
@@ -894,6 +896,7 @@ cancelDuringOnStartListener
 ;
 }
 )
+;
 if
 (
 !

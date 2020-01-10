@@ -108,6 +108,7 @@ if
 (
 flags
 )
+{
 chan
 .
 loadFlags
@@ -115,6 +116,7 @@ loadFlags
 =
 flags
 ;
+}
 var
 httpChan
 =
@@ -249,6 +251,7 @@ expectedOnStopRequests
 =
 0
 )
+{
 do_timeout
 (
 10
@@ -266,6 +269,7 @@ do_test_finished
 }
 )
 ;
+}
 }
 }
 ;
@@ -569,6 +573,7 @@ finish
 )
 ;
 }
+;
 }
 ;
 response
@@ -609,8 +614,10 @@ length
 >
 1
 )
+{
 triggerHandlers
 (
 )
 ;
+}
 }

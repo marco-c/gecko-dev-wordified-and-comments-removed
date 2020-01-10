@@ -107,6 +107,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -115,6 +116,7 @@ stack
 .
 caller
 ;
+}
 try
 {
 f
@@ -136,8 +138,10 @@ result
 =
 result
 )
+{
 return
 ;
+}
 do_throw
 (
 "
@@ -306,6 +310,7 @@ this
 .
 generator
 )
+{
 do_run_generator
 (
 this
@@ -313,6 +318,7 @@ this
 generator
 )
 ;
+}
 this
 .
 generator
@@ -327,6 +333,7 @@ null
 ;
 }
 }
+;
 function
 do_close_profile
 (
@@ -796,9 +803,9 @@ charAt
 )
 =
 =
-'
+"
 .
-'
+"
 ?
 host
 .
@@ -851,12 +858,14 @@ Cr
 .
 NS_ERROR_INSUFFICIENT_DOMAIN_LEVELS
 )
+{
 this
 .
 baseDomain
 =
 strippedHost
 ;
+}
 }
 }
 function
@@ -899,6 +908,7 @@ if
 !
 exists
 )
+{
 this
 .
 db
@@ -907,6 +917,7 @@ schemaVersion
 =
 schema
 ;
+}
 switch
 (
 schema
@@ -1708,6 +1719,7 @@ instanceof
 Cookie
 )
 )
+{
 do_throw
 (
 "
@@ -1717,6 +1729,7 @@ cookie
 "
 )
 ;
+}
 switch
 (
 this
@@ -2296,6 +2309,7 @@ instanceof
 Cookie
 )
 )
+{
 do_throw
 (
 "
@@ -2305,6 +2319,7 @@ cookie
 "
 )
 ;
+}
 switch
 (
 this
@@ -2420,6 +2435,7 @@ instanceof
 Cookie
 )
 )
+{
 do_throw
 (
 "
@@ -2429,6 +2445,7 @@ cookie
 "
 )
 ;
+}
 switch
 (
 this
@@ -2599,6 +2616,7 @@ this
 .
 stmtUpdate
 )
+{
 this
 .
 stmtUpdate
@@ -2607,6 +2625,7 @@ finalize
 (
 )
 ;
+}
 this
 .
 db
@@ -2641,6 +2660,7 @@ null
 ;
 }
 }
+;
 function
 do_get_cookie_file
 (

@@ -112,6 +112,7 @@ protocolFlags
 )
 {
 return
+(
 Ci
 .
 nsIProtocolHandler
@@ -147,6 +148,7 @@ Ci
 nsIProtocolHandler
 .
 URI_SYNC_LOAD_IS_OK
+)
 ;
 }
 newChannel

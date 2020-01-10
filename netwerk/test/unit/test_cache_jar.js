@@ -313,8 +313,10 @@ nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
 )
+{
 return
 ;
+}
 Services
 .
 clearData

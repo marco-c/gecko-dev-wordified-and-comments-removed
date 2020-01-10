@@ -83,6 +83,7 @@ inChildProcess
 )
 {
 return
+(
 Cc
 [
 "
@@ -115,6 +116,7 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
+)
 ;
 }
 var
@@ -124,9 +126,9 @@ tests
 {
 cookieName
 :
-'
+"
 LCC_App0_BrowF_PrivF
-'
+"
 originAttributes
 :
 new
@@ -140,9 +142,9 @@ false
 {
 cookieName
 :
-'
+"
 LCC_App0_BrowT_PrivF
-'
+"
 originAttributes
 :
 new
@@ -156,9 +158,9 @@ true
 {
 cookieName
 :
-'
+"
 LCC_App1_BrowF_PrivF
-'
+"
 originAttributes
 :
 new
@@ -172,9 +174,9 @@ false
 {
 cookieName
 :
-'
+"
 LCC_App1_BrowT_PrivF
-'
+"
 originAttributes
 :
 new
@@ -439,13 +441,11 @@ cookieName
 ;
 found
 =
-(
 cookiesSeen
 .
 includes
 (
 cookieToCheck
-)
 )
 ;
 if

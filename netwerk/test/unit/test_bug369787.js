@@ -147,6 +147,7 @@ ex
 ;
 }
 }
+;
 TestListener
 .
 prototype
@@ -184,6 +185,7 @@ after_channel_closed
 )
 ;
 }
+;
 function
 after_channel_closed
 (

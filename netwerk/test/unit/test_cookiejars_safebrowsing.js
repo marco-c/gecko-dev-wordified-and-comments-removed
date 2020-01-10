@@ -117,6 +117,7 @@ inChildProcess
 )
 {
 return
+(
 Cc
 [
 "
@@ -149,6 +150,7 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
+)
 ;
 }
 function
@@ -892,9 +894,9 @@ test_non_safebrowsing_cookie
 var
 cookieName
 =
-'
+"
 regCookie_id0
-'
+"
 ;
 var
 originAttributes
@@ -1045,9 +1047,9 @@ test_safebrowsing_cookie
 var
 cookieName
 =
-'
+"
 sbCookie_id4294967294
-'
+"
 ;
 var
 originAttributes

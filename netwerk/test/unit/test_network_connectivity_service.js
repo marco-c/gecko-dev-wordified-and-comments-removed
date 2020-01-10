@@ -66,9 +66,9 @@ typeof
 matchFunc
 !
 =
-'
+"
 function
-'
+"
 |
 |
 matchFunc
@@ -370,7 +370,6 @@ DEFAULT_WAIT_TIME
 const
 kDNSv6Domain
 =
-(
 mozinfo
 .
 os
@@ -379,7 +378,6 @@ os
 "
 linux
 "
-)
 ?
 "
 ip6

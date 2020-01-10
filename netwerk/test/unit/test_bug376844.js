@@ -77,7 +77,7 @@ com
 "
 ]
 [
-"
+'
 http
 :
 /
@@ -86,9 +86,8 @@ example
 .
 com
 /
-\
 "
-"
+'
 "
 http
 :
@@ -184,7 +183,7 @@ com
 "
 ]
 [
-"
+'
 http
 :
 /
@@ -194,9 +193,8 @@ example
 com
 /
 ?
-\
 "
-"
+'
 "
 http
 :
@@ -212,6 +210,7 @@ com
 "
 ]
 ]
+;
 function
 run_test
 (

@@ -51,9 +51,9 @@ js
 ;
 do_await_remote_message
 (
-'
+"
 flush
-'
+"
 )
 .
 then
@@ -103,9 +103,9 @@ then
 {
 do_send_remote_message
 (
-'
+"
 flushed
-'
+"
 )
 ;
 }

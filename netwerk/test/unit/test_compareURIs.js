@@ -10,6 +10,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -18,6 +19,7 @@ stack
 .
 caller
 ;
+}
 dump
 (
 "
@@ -539,6 +541,7 @@ e
 equal
 =
 false
+;
 }
 Assert
 .

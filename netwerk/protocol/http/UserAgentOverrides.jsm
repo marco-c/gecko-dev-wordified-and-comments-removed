@@ -152,6 +152,8 @@ gOverrides
 =
 new
 Map
+(
+)
 ;
 var
 gUpdatedOverrides
@@ -161,6 +163,8 @@ gOverrideForHostCache
 =
 new
 Map
+(
+)
 ;
 var
 gInitialized
@@ -194,6 +198,8 @@ gBuiltUAs
 =
 new
 Map
+(
+)
 ;
 var
 UserAgentOverrides
@@ -210,8 +216,10 @@ if
 (
 gInitialized
 )
+{
 return
 ;
+}
 gPrefBranch
 =
 Services
@@ -425,9 +433,7 @@ gUpdatedOverrides
 |
 |
 !
-(
 host
-)
 )
 {
 return
@@ -452,9 +458,11 @@ override
 =
 undefined
 )
+{
 return
 override
 ;
+}
 function
 findOverride
 (
@@ -599,8 +607,10 @@ if
 !
 gInitialized
 )
+{
 return
 ;
+}
 gInitialized
 =
 false
@@ -764,8 +774,10 @@ getBoolPref
 PREF_OVERRIDES_ENABLED
 )
 )
+{
 return
 ;
+}
 let
 domains
 =

@@ -695,6 +695,7 @@ finish_test
 ;
 }
 }
+;
 var
 os
 =

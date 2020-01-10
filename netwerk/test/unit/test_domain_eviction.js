@@ -316,6 +316,7 @@ horse
 radish
 "
 )
+{
 do_throw
 (
 "
@@ -328,6 +329,7 @@ order
 "
 )
 ;
+}
 }
 let
 shortExpiry
@@ -533,6 +535,7 @@ aNumber
 +
 i
 )
+{
 Services
 .
 cookiemgr
@@ -563,6 +566,7 @@ nsICookie
 SAMESITE_NONE
 )
 ;
+}
 }
 function
 countCookies
@@ -623,6 +627,7 @@ length
 =
 aBaseDomain
 )
+{
 cookies
 .
 push
@@ -630,6 +635,7 @@ push
 cookie
 )
 ;
+}
 }
 let
 result
@@ -796,6 +802,7 @@ if
 !
 found
 )
+{
 do_throw
 (
 "
@@ -815,6 +822,7 @@ enumerator
 "
 )
 ;
+}
 }
 else
 {

@@ -48,6 +48,7 @@ function
 )
 {
 return
+(
 "
 http
 :
@@ -64,6 +65,7 @@ identity
 primaryPort
 +
 BadRedirectPath
+)
 ;
 }
 )
@@ -119,7 +121,7 @@ setHeader
 "
 Location
 "
-'
+"
 http
 :
 /
@@ -129,7 +131,7 @@ localhost
 4444
 >
 BadRedirect
-'
+"
 false
 )
 ;

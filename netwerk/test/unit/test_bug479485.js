@@ -110,6 +110,7 @@ exception_threw
 =
 exception_expected
 )
+{
 do_throw
 (
 "
@@ -150,6 +151,7 @@ port
 "
 )
 ;
+}
 Assert
 .
 equal
@@ -233,6 +235,7 @@ exception_threw
 =
 exception_expected
 )
+{
 do_throw
 (
 "
@@ -275,6 +278,7 @@ port
 "
 )
 ;
+}
 Assert
 .
 equal
@@ -284,6 +288,7 @@ exception_expected
 )
 ;
 }
+;
 test_port
 (
 "

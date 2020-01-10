@@ -81,7 +81,6 @@ magic
 )
 {
 return
-(
 function
 checkOverride
 (
@@ -137,7 +136,6 @@ magic
 )
 ;
 }
-)
 ;
 }
 XPCOMUtils
@@ -465,7 +463,6 @@ magic
 )
 {
 return
-(
 function
 override
 (
@@ -522,6 +519,5 @@ length
 )
 ;
 }
-)
 ;
 }

@@ -77,7 +77,6 @@ function
 entry
 )
 {
-(
 new
 OpenCallback
 (
@@ -105,7 +104,6 @@ setValid
 )
 ;
 }
-)
 )
 .
 onCacheEntryAvailable

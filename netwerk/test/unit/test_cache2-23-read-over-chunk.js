@@ -10,11 +10,9 @@ do_get_profile
 const
 kChunkSize
 =
-(
 256
 *
 1024
-)
 ;
 var
 payload
@@ -31,11 +29,9 @@ i
 ;
 i
 <
-(
 kChunkSize
 +
 10
-)
 ;
 +
 +
@@ -46,12 +42,11 @@ if
 (
 i
 <
-(
 kChunkSize
 -
 5
 )
-)
+{
 payload
 +
 =
@@ -59,7 +54,9 @@ payload
 0
 "
 ;
+}
 else
+{
 payload
 +
 =
@@ -72,6 +69,7 @@ i
 65
 )
 ;
+}
 }
 asyncOpenCacheEntry
 (

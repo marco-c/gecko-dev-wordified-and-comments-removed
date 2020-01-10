@@ -307,11 +307,11 @@ obs
 addObserver
 (
 networkActivity
-'
+"
 network
 -
 activity
-'
+"
 )
 ;
 Services

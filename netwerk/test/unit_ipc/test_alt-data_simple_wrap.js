@@ -36,9 +36,9 @@ null
 ;
 do_send_remote_message
 (
-'
+"
 flushed
-'
+"
 )
 ;
 }
@@ -55,9 +55,9 @@ do_get_profile
 ;
 do_await_remote_message
 (
-'
+"
 flush
-'
+"
 )
 .
 then

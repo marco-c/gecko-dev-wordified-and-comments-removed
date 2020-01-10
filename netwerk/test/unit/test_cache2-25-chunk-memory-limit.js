@@ -27,11 +27,13 @@ i
 +
 +
 )
+{
 data
 +
 =
 data
 ;
+}
 return
 data
 ;
@@ -224,9 +226,9 @@ data
 .
 length
 )
-'
+"
 NS_ERROR_OUT_OF_MEMORY
-'
+"
 )
 ;
 finish_cache2_test

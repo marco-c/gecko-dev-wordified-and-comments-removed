@@ -206,6 +206,7 @@ i
 +
 +
 )
+{
 _tests
 [
 i
@@ -213,6 +214,7 @@ i
 =
 _test
 ;
+}
 _tests
 [
 TEST_RUNS

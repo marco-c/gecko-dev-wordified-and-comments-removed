@@ -103,6 +103,7 @@ if
 !
 success
 )
+{
 do_throw
 (
 "
@@ -124,6 +125,7 @@ hostname
 "
 )
 ;
+}
 success
 =
 false
@@ -174,6 +176,7 @@ if
 !
 success
 )
+{
 do_throw
 (
 "
@@ -195,4 +198,5 @@ hostname
 "
 )
 ;
+}
 }

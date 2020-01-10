@@ -15,11 +15,9 @@ NowSeconds
 return
 parseInt
 (
-(
 new
 Date
 (
-)
 )
 .
 getTime
@@ -201,6 +199,7 @@ finish_cache2_test
 ;
 }
 )
+;
 }
 )
 )

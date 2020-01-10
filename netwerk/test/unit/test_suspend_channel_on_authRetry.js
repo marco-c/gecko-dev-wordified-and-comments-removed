@@ -512,7 +512,6 @@ Requestor
 )
 {
 }
-;
 Requestor
 .
 prototype
@@ -557,6 +556,7 @@ this
 .
 prompt
 )
+{
 this
 .
 prompt
@@ -566,6 +566,7 @@ AuthPrompt
 (
 )
 ;
+}
 return
 this
 .
@@ -613,6 +614,7 @@ request
 status
 )
 )
+{
 do_throw
 (
 "
@@ -626,6 +628,7 @@ code
 "
 )
 ;
+}
 if
 (
 !
@@ -637,6 +640,7 @@ Ci
 nsIHttpChannel
 )
 )
+{
 do_throw
 (
 "
@@ -647,6 +651,7 @@ channel
 "
 )
 ;
+}
 Assert
 .
 equal
@@ -952,13 +957,11 @@ if
 (
 current_test
 <
-(
 tests
 .
 length
 -
 1
-)
 )
 {
 Cc

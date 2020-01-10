@@ -224,6 +224,7 @@ index
 =
 0
 )
+{
 yield
 data
 .
@@ -233,10 +234,13 @@ substring
 index
 )
 ;
+}
 else
+{
 yield
 data
 ;
+}
 data
 =
 data
@@ -287,6 +291,7 @@ length
 =
 index
 )
+{
 throw
 new
 Error
@@ -306,6 +311,7 @@ lines
 !
 )
 ;
+}
 var
 expected
 =
@@ -324,6 +330,7 @@ expected
 =
 line
 )
+{
 throw
 new
 Error
@@ -351,6 +358,7 @@ expected
 '
 )
 ;
+}
 }
 if
 (
@@ -559,6 +567,7 @@ line
 "
 "
 )
+{
 line
 =
 iter
@@ -569,6 +578,7 @@ next
 .
 value
 ;
+}
 }
 function
 isException
@@ -594,6 +604,7 @@ result
 =
 code
 )
+{
 do_throw
 (
 "
@@ -605,6 +616,7 @@ error
 e
 )
 ;
+}
 }
 function
 callLater
@@ -1157,6 +1169,7 @@ port
 =
 0
 )
+{
 throw
 new
 Error
@@ -1167,6 +1180,7 @@ port
 "
 )
 ;
+}
 if
 (
 !
@@ -1176,12 +1190,14 @@ instanceof
 Array
 )
 )
+{
 data
 =
 [
 data
 ]
 ;
+}
 if
 (
 data
@@ -1191,6 +1207,7 @@ length
 =
 0
 )
+{
 throw
 new
 Error
@@ -1202,6 +1219,7 @@ length
 "
 )
 ;
+}
 if
 (
 !
@@ -1235,6 +1253,7 @@ v
 }
 )
 )
+{
 throw
 new
 Error
@@ -1252,6 +1271,7 @@ character
 "
 )
 ;
+}
 this
 .
 host
@@ -1820,11 +1840,14 @@ str
 .
 length
 )
+{
 dataIndex
 +
 +
 ;
+}
 else
+{
 testArray
 [
 testIndex
@@ -1842,6 +1865,7 @@ substring
 written
 )
 ;
+}
 }
 catch
 (
@@ -1874,18 +1898,22 @@ data
 .
 length
 )
+{
 waitToWriteOutput
 (
 stream
 )
 ;
+}
 else
+{
 stream
 .
 close
 (
 )
 ;
+}
 }
 catch
 (

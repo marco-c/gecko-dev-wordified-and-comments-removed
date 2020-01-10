@@ -79,12 +79,14 @@ observers_called
 .
 length
 )
+{
 observers_called
 +
 =
 "
 "
 ;
+}
 observers_called
 +
 =

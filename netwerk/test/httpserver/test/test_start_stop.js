@@ -489,10 +489,12 @@ if
 (
 stopped
 )
+{
 do_test_finished
 (
 )
 ;
+}
 }
 const
 INTERVAL
@@ -645,8 +647,10 @@ if
 (
 testsComplete
 )
+{
 do_test_finished
 (
 )
 ;
+}
 }

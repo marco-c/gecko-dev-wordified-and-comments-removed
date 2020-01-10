@@ -295,6 +295,7 @@ this
 id
 =
 id
+;
 this
 .
 onStopRequestStatus
@@ -302,7 +303,6 @@ onStopRequestStatus
 onStopRequestStatus
 ;
 }
-;
 HttpResponseListener
 .
 prototype
@@ -445,9 +445,9 @@ server
 .
 registerPathHandler
 (
-'
+"
 /
-'
+"
 function
 (
 metadata

@@ -372,6 +372,7 @@ executeSoon
 (
 run_next_test
 )
+;
 }
 null
 flags

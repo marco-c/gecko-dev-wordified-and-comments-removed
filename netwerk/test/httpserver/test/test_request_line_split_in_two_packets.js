@@ -214,6 +214,7 @@ length
 =
 524288
 )
+{
 throw
 new
 TypeError
@@ -229,6 +230,7 @@ expected
 "
 )
 ;
+}
 str
 =
 "
@@ -304,6 +306,7 @@ i
 =
 16384
 )
+{
 gData
 .
 push
@@ -317,6 +320,7 @@ i
 )
 )
 ;
+}
 function
 checkVeryLongRequestLine
 (
@@ -515,11 +519,13 @@ i
 +
 +
 )
+{
 blankLines
 +
 =
 blankLines
 ;
+}
 str
 =
 blankLines
@@ -593,6 +599,7 @@ i
 =
 100
 )
+{
 gData
 .
 push
@@ -606,6 +613,7 @@ i
 )
 )
 ;
+}
 function
 checkLotsOfLeadingBlankLines
 (

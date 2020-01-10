@@ -50,6 +50,7 @@ request
 )
 {
 }
+;
 TestListener
 .
 prototype
@@ -92,6 +93,7 @@ do_test_finished
 )
 ;
 }
+;
 function
 run_test
 (

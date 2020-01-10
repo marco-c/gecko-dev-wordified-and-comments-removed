@@ -8,11 +8,11 @@ f
 =
 do_get_file
 (
-'
+"
 test_bug336501
 .
 js
-'
+"
 )
 ;
 var

@@ -189,9 +189,11 @@ Ci
 nsIRequestObserver
 )
 )
+{
 return
 this
 ;
+}
 throw
 Cr
 .
@@ -393,6 +395,7 @@ this
 .
 _last_callback_handled
 )
+{
 Assert
 .
 equal
@@ -403,6 +406,7 @@ _last_callback_handled
 TYPE_ONSTATUS
 )
 ;
+}
 }
 else
 if
@@ -593,6 +597,7 @@ i
 +
 +
 )
+{
 response
 .
 bodyOutputStream
@@ -605,6 +610,7 @@ httpbody
 length
 )
 ;
+}
 }
 function
 checkRequest

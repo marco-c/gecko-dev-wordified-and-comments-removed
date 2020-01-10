@@ -565,6 +565,7 @@ this
 id
 =
 id
+;
 this
 .
 stopCallback
@@ -572,7 +573,6 @@ stopCallback
 onStopCallback
 ;
 }
-;
 HttpResponseListener
 .
 prototype
@@ -702,9 +702,9 @@ server
 .
 registerPathHandler
 (
-'
+"
 /
-'
+"
 function
 (
 metadata

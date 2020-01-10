@@ -219,6 +219,7 @@ value
 kPassword
 )
 ;
+(
 domain
 =
 {
@@ -226,6 +227,8 @@ value
 :
 kEmpty
 }
+)
+(
 user
 =
 {
@@ -233,6 +236,8 @@ value
 :
 kEmpty
 }
+)
+(
 pass
 =
 {
@@ -240,6 +245,7 @@ value
 :
 kEmpty
 }
+)
 ;
 try
 {
@@ -330,6 +336,7 @@ kPassword2
 PRIVATE
 )
 ;
+(
 domain
 =
 {
@@ -337,6 +344,8 @@ value
 :
 kEmpty
 }
+)
+(
 user
 =
 {
@@ -344,6 +353,8 @@ value
 :
 kEmpty
 }
+)
+(
 pass
 =
 {
@@ -351,6 +362,7 @@ value
 :
 kEmpty
 }
+)
 ;
 am
 .
@@ -400,6 +412,7 @@ kPassword2
 ;
 try
 {
+(
 domain
 =
 {
@@ -407,6 +420,8 @@ value
 :
 kEmpty
 }
+)
+(
 user
 =
 {
@@ -414,6 +429,8 @@ value
 :
 kEmpty
 }
+)
+(
 pass
 =
 {
@@ -421,6 +438,7 @@ value
 :
 kEmpty
 }
+)
 ;
 am
 .
@@ -510,6 +528,7 @@ exited
 "
 )
 ;
+(
 domain
 =
 {
@@ -517,6 +536,8 @@ value
 :
 kEmpty
 }
+)
+(
 user
 =
 {
@@ -524,6 +545,8 @@ value
 :
 kEmpty
 }
+)
+(
 pass
 =
 {
@@ -531,6 +554,7 @@ value
 :
 kEmpty
 }
+)
 ;
 try
 {

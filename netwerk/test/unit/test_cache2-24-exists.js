@@ -159,9 +159,9 @@ d2
 "
 "
 )
-'
+"
 NS_ERROR_NOT_AVAILABLE
-'
+"
 )
 ;
 finish_cache2_test

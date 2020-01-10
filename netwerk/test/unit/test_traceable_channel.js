@@ -422,6 +422,7 @@ listener
 :
 null
 }
+;
 function
 HttpResponseExaminer
 (
@@ -661,6 +662,7 @@ nsISupportsWeakReference
 ]
 )
 }
+;
 function
 test_handler
 (

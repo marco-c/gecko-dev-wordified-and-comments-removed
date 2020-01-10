@@ -311,6 +311,7 @@ this
 .
 _cacheHdr
 )
+{
 channel
 .
 setRequestHeader
@@ -322,6 +323,7 @@ _cacheHdr
 false
 )
 ;
+}
 channel
 .
 asyncOpen

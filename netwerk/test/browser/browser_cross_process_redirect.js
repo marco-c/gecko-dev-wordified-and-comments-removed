@@ -472,6 +472,7 @@ nsIObserver
 ]
 )
 }
+;
 add_task
 (
 async
@@ -1031,6 +1032,7 @@ b71cdad479e1
 "
 )
 }
+;
 content
 .
 window
@@ -1146,6 +1148,7 @@ childListener
 )
 ;
 }
+;
 registrar
 .
 registerFactory

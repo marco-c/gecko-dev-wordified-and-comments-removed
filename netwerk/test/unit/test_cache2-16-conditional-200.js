@@ -124,7 +124,6 @@ recreate
 (
 )
 ;
-(
 new
 OpenCallback
 (
@@ -140,7 +139,6 @@ function
 )
 {
 }
-)
 )
 .
 onCacheEntryAvailable

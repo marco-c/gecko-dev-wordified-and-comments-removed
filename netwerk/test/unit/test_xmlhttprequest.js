@@ -134,9 +134,11 @@ readyState
 =
 4
 )
+{
 return
 false
 ;
+}
 Assert
 .
 equal
@@ -166,9 +168,9 @@ responseXML
 .
 getElementsByTagName
 (
-'
+"
 root
-'
+"
 )
 .
 item
@@ -262,6 +264,7 @@ checkResults
 async
 )
 )
+{
 httpserver
 .
 stop
@@ -269,6 +272,7 @@ stop
 do_test_finished
 )
 ;
+}
 }
 )
 ;

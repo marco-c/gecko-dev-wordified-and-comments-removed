@@ -525,6 +525,7 @@ idx
 1
 ]
 )
+{
 do_throw
 (
 "
@@ -559,6 +560,7 @@ idx
 "
 )
 ;
+}
 if
 (
 urls
@@ -644,6 +646,7 @@ idx
 2
 ]
 )
+{
 do_throw
 (
 "
@@ -682,6 +685,7 @@ idx
 "
 )
 ;
+}
 do_test_finished
 (
 )

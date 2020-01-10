@@ -390,6 +390,7 @@ localhost
 "
 )
 )
+{
 do_throw
 (
 "
@@ -401,6 +402,7 @@ hostname
 "
 )
 ;
+}
 if
 (
 !
@@ -414,6 +416,7 @@ PORT
 )
 )
 )
+{
 do_throw
 (
 "
@@ -425,6 +428,7 @@ port
 "
 )
 ;
+}
 if
 (
 text
@@ -437,6 +441,7 @@ includes
 "
 )
 )
+{
 do_throw
 (
 "
@@ -448,6 +453,7 @@ numbers
 "
 )
 ;
+}
 if
 (
 this
@@ -456,9 +462,11 @@ flags
 &
 FLAG_RETURN_FALSE
 )
+{
 return
 false
 ;
+}
 if
 (
 this
@@ -685,13 +693,11 @@ if
 isNTLM
 |
 |
-(
 this
 .
 flags
 &
 FLAG_NO_REALM
-)
 )
 {
 this
@@ -717,12 +723,10 @@ realm
 var
 expectedLevel
 =
-(
 isNTLM
 |
 |
 isDigest
-)
 ?
 nsIAuthPrompt2
 .
@@ -755,6 +759,7 @@ flags
 &
 FLAG_PREVIOUS_FAILED
 )
+{
 expectedFlags
 |
 =
@@ -762,6 +767,7 @@ nsIAuthInformation
 .
 PREVIOUS_FAILED
 ;
+}
 if
 (
 this
@@ -770,6 +776,7 @@ flags
 &
 CROSS_ORIGIN
 )
+{
 expectedFlags
 |
 =
@@ -777,10 +784,12 @@ nsIAuthInformation
 .
 CROSS_ORIGIN_SUB_RESOURCE
 ;
+}
 if
 (
 isNTLM
 )
+{
 expectedFlags
 |
 =
@@ -788,6 +797,7 @@ nsIAuthInformation
 .
 NEED_DOMAIN
 ;
+}
 const
 kAllKnownFlags
 =
@@ -1103,6 +1113,7 @@ this
 .
 prompt1
 )
+{
 this
 .
 prompt1
@@ -1115,6 +1126,7 @@ this
 flags
 )
 ;
+}
 return
 this
 .
@@ -1147,6 +1159,7 @@ this
 .
 prompt2
 )
+{
 this
 .
 prompt2
@@ -1159,6 +1172,7 @@ this
 flags
 )
 ;
+}
 return
 this
 .
@@ -1224,9 +1238,11 @@ Ci
 nsIAuthPrompt2
 )
 )
+{
 return
 this
 ;
+}
 throw
 Cr
 .
@@ -1251,7 +1267,6 @@ authInfo
 .
 realm
 '
-\
 "
 foo_bar
 '
@@ -1311,6 +1326,7 @@ request
 status
 )
 )
+{
 do_throw
 (
 "
@@ -1324,6 +1340,7 @@ code
 "
 )
 ;
+}
 if
 (
 !
@@ -1335,6 +1352,7 @@ Ci
 nsIHttpChannel
 )
 )
+{
 do_throw
 (
 "
@@ -1345,6 +1363,7 @@ channel
 "
 )
 ;
+}
 Assert
 .
 equal
@@ -1590,13 +1609,11 @@ if
 (
 current_test
 <
-(
 tests
 .
 length
 -
 1
-)
 )
 {
 Cc
@@ -3446,13 +3463,11 @@ Authorization
 var
 cnonce
 =
-(
 auth
 .
 match
 (
 cnonceRE
-)
 )
 [
 1
@@ -3461,13 +3476,11 @@ cnonceRE
 var
 clientDigest
 =
-(
 auth
 .
 match
 (
 responseRE
-)
 )
 [
 1
@@ -3476,13 +3489,11 @@ responseRE
 var
 username
 =
-(
 auth
 .
 match
 (
 usernameRE
-)
 )
 [
 1
@@ -3744,9 +3755,9 @@ WWW
 -
 Authenticate
 "
-'
+"
 Digest
-'
+"
 false
 )
 ;
@@ -3826,6 +3837,7 @@ return
 ret
 ;
 }
+;
 }
 )
 (

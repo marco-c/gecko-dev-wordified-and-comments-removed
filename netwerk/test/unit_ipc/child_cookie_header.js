@@ -9,6 +9,7 @@ inChildProcess
 )
 {
 return
+(
 Cc
 [
 "
@@ -41,6 +42,7 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
+)
 ;
 }
 let
@@ -351,13 +353,13 @@ cookie
 await
 do_await_remote_message
 (
-'
+"
 set
 -
 cookie
 -
 done
-'
+"
 )
 ;
 let

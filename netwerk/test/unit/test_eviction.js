@@ -754,6 +754,7 @@ i
 =
 begin
 )
+{
 beginTime
 =
 get_creationTime
@@ -761,6 +762,7 @@ get_creationTime
 i
 )
 ;
+}
 }
 let
 endTime
@@ -938,14 +940,14 @@ if
 (
 hostNumber
 <
-(
 aNumberOld
 -
 aNumberToExpect
 )
-)
+{
 break
 ;
+}
 }
 }
 return

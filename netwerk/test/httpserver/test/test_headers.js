@@ -93,6 +93,7 @@ Cr
 .
 NS_ERROR_INVALID_ARG
 )
+{
 do_throw
 (
 "
@@ -105,6 +106,7 @@ thrown
 e
 )
 ;
+}
 }
 }
 function
@@ -233,12 +235,11 @@ headers
 ;
 assertInvalidHeader
 (
-"
-b
-\
-"
+'
 b
 "
+b
+'
 "
 bar
 "
@@ -647,6 +648,7 @@ Cr
 .
 NS_ERROR_INVALID_ARG
 )
+{
 do_throw
 (
 "
@@ -665,6 +667,7 @@ arg
 "
 )
 ;
+}
 }
 try
 {
@@ -708,6 +711,7 @@ Cr
 .
 NS_ERROR_NOT_AVAILABLE
 )
+{
 do_throw
 (
 "
@@ -729,6 +733,7 @@ headers
 ;
 }
 }
+}
 function
 testHeaderEnumerator
 (
@@ -746,25 +751,19 @@ var
 heads
 =
 {
-"
 foo
-"
 :
 "
 17
 "
-"
 baz
-"
 :
 "
 two
 six
 niner
 "
-"
 decaf
-"
 :
 "
 class
@@ -802,6 +801,7 @@ i
 in
 heads
 )
+{
 headers
 .
 setHeader
@@ -814,6 +814,7 @@ i
 false
 )
 ;
+}
 var
 en
 =
@@ -1046,6 +1047,7 @@ Cr
 .
 NS_ERROR_INVALID_ARG
 )
+{
 do_throw
 (
 "
@@ -1060,5 +1062,6 @@ throw
 "
 )
 ;
+}
 }
 }

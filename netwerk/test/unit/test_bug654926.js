@@ -10,10 +10,13 @@ if
 (
 _PSvc
 )
+{
 return
 _PSvc
 ;
+}
 return
+(
 _PSvc
 =
 Cc
@@ -36,6 +39,7 @@ getService
 Ci
 .
 nsIPrefBranch
+)
 )
 ;
 }
@@ -68,11 +72,13 @@ i
 +
 +
 )
+{
 data
 +
 =
 data
 ;
+}
 return
 data
 ;
@@ -201,6 +207,7 @@ i
 +
 +
 )
+{
 write_and_check
 (
 os
@@ -210,6 +217,7 @@ data
 length
 )
 ;
+}
 os
 .
 close

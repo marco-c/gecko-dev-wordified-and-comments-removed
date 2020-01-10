@@ -4323,6 +4323,7 @@ throws
 )
 =
 >
+(
 url
 =
 url
@@ -4348,6 +4349,7 @@ hugeString
 .
 finalize
 (
+)
 )
 /
 NS_ERROR_MALFORMED_URI
@@ -5490,6 +5492,7 @@ length
 =
 1
 )
+{
 hex
 =
 "
@@ -5498,6 +5501,7 @@ hex
 +
 hex
 ;
+}
 return
 hex
 .
@@ -5533,10 +5537,10 @@ i
 )
 =
 =
-'
+"
 \
 r
-'
+"
 |
 |
 String
@@ -5547,10 +5551,10 @@ i
 )
 =
 =
-'
+"
 \
 n
-'
+"
 |
 |
 String
@@ -5561,10 +5565,10 @@ i
 )
 =
 =
-'
+"
 \
 t
-'
+"
 )
 {
 continue
@@ -6530,7 +6534,7 @@ for
 let
 c
 of
-"
+'
 [
 ]
 *
@@ -6538,9 +6542,8 @@ of
 >
 |
 :
-\
 "
-"
+'
 )
 {
 Assert

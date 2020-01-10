@@ -226,6 +226,7 @@ prefHasUserValue
 whitelistPref
 )
 )
+{
 pbi
 .
 clearUserPref
@@ -233,4 +234,5 @@ clearUserPref
 whitelistPref
 )
 ;
+}
 }

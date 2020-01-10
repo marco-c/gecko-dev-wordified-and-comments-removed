@@ -144,6 +144,7 @@ protocolFlags
 )
 {
 return
+(
 Ci
 .
 nsIProtocolHandler
@@ -155,6 +156,7 @@ Ci
 nsIProtocolHandler
 .
 URI_IS_LOCAL_RESOURCE
+)
 ;
 }
 newChannel

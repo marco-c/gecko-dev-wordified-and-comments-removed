@@ -247,6 +247,7 @@ equal
 count
 0
 )
+;
 get_device_entry_count
 (
 "

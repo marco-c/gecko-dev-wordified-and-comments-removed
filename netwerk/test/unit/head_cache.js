@@ -7,7 +7,7 @@ ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -19,7 +19,7 @@ modules
 XPCOMUtils
 .
 jsm
-'
+"
 )
 ;
 var
@@ -31,7 +31,7 @@ ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -43,7 +43,7 @@ modules
 Services
 .
 jsm
-'
+"
 )
 ;
 var
@@ -58,10 +58,13 @@ if
 (
 _CSvc
 )
+{
 return
 _CSvc
 ;
+}
 return
+(
 _CSvc
 =
 Cc
@@ -89,6 +92,7 @@ Ci
 .
 nsICacheStorageService
 )
+)
 ;
 }
 function
@@ -100,7 +104,6 @@ where
 var
 clearDisk
 =
-(
 !
 where
 |
@@ -119,12 +122,10 @@ where
 "
 all
 "
-)
 ;
 var
 clearMem
 =
-(
 !
 where
 |
@@ -143,19 +144,16 @@ where
 "
 all
 "
-)
 ;
 var
 clearAppCache
 =
-(
 where
 =
 =
 "
 appcache
 "
-)
 ;
 var
 svc
@@ -303,6 +301,7 @@ if
 !
 lci
 )
+{
 lci
 =
 Services
@@ -311,6 +310,7 @@ loadContextInfo
 .
 default
 ;
+}
 var
 svc
 =
@@ -443,6 +443,7 @@ callback
 object
 "
 )
+{
 return
 callback
 .
@@ -452,6 +453,7 @@ entry
 appCache
 )
 ;
+}
 return
 Ci
 .
@@ -498,6 +500,7 @@ status
 ;
 }
 else
+{
 callback
 (
 status
@@ -505,6 +508,7 @@ entry
 appCache
 )
 ;
+}
 }
 run
 (
@@ -536,11 +540,9 @@ this
 }
 }
 ;
-(
 new
 CacheListener
 (
-)
 )
 .
 run

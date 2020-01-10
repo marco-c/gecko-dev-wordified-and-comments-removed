@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 add_test
 (
@@ -15,7 +15,7 @@ socket
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -27,7 +27,7 @@ udp
 socket
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -87,7 +87,7 @@ socket
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -99,7 +99,7 @@ udp
 socket
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -122,10 +122,10 @@ socket
 .
 init2
 (
-'
+"
 :
 :
-'
+"
 -
 1
 Services
@@ -162,7 +162,7 @@ socket
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -174,7 +174,7 @@ udp
 socket
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -197,7 +197,7 @@ socket
 .
 init2
 (
-'
+"
 240
 .
 0
@@ -205,7 +205,7 @@ init2
 0
 .
 1
-'
+"
 -
 1
 Services
@@ -242,7 +242,7 @@ socket
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -254,7 +254,7 @@ udp
 socket
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -277,14 +277,14 @@ socket
 .
 init2
 (
-'
+"
 2001
 :
 db8
 :
 :
 1
-'
+"
 -
 1
 Services
@@ -321,7 +321,7 @@ socket
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -333,7 +333,7 @@ udp
 socket
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -349,7 +349,7 @@ socket
 .
 init2
 (
-'
+"
 127
 .
 0
@@ -357,7 +357,7 @@ init2
 0
 .
 1
-'
+"
 -
 1
 Services
@@ -381,11 +381,11 @@ Assert
 ok
 (
 false
-'
+"
 unexpected
 exception
 :
-'
+"
 +
 e
 )
@@ -410,7 +410,7 @@ socket
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -422,7 +422,7 @@ udp
 socket
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -438,11 +438,11 @@ socket
 .
 init2
 (
-'
+"
 :
 :
 1
-'
+"
 -
 1
 Services
@@ -466,11 +466,11 @@ Assert
 ok
 (
 false
-'
+"
 unexpected
 exception
 :
-'
+"
 +
 e
 )

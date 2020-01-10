@@ -271,9 +271,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 prefs
 }
@@ -313,9 +311,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -404,9 +400,9 @@ document
 .
 createElement
 (
-'
+"
 iframe
-'
+"
 )
 ;
 ifr
@@ -585,9 +581,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

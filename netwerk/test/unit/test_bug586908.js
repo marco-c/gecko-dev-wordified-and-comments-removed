@@ -542,12 +542,14 @@ if
 (
 failed
 )
+{
 retval
 =
 "
 failed
 "
 ;
+}
 response
 .
 setStatusLine

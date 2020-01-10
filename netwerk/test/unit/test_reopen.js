@@ -96,6 +96,7 @@ url
 )
 {
 return
+(
 chan
 =
 NetUtil
@@ -117,6 +118,7 @@ QueryInterface
 Ci
 .
 nsIChannel
+)
 )
 ;
 }

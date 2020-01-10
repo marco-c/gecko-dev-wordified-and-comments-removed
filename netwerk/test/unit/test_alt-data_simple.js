@@ -93,6 +93,7 @@ inChildProcess
 )
 {
 return
+(
 Cc
 [
 "
@@ -125,6 +126,7 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
+)
 ;
 }
 const
@@ -582,6 +584,7 @@ flushAndOpenAltChannel
 var
 cacheFlushObserver
 =
+(
 cacheFlushObserver
 =
 {
@@ -599,6 +602,7 @@ openAltChannel
 ;
 }
 }
+)
 ;
 function
 flushAndOpenAltChannel
@@ -638,16 +642,16 @@ else
 {
 do_send_remote_message
 (
-'
+"
 flush
-'
+"
 )
 ;
 do_await_remote_message
 (
-'
+"
 flushed
-'
+"
 )
 .
 then

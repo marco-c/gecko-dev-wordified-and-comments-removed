@@ -441,6 +441,7 @@ disk
 null
 cacheCheck1
 )
+;
 }
 function
 cacheCheck1
@@ -699,6 +700,7 @@ disk
 null
 cacheCheck2
 )
+;
 }
 function
 cacheCheck2
@@ -761,11 +763,11 @@ head
 .
 match
 (
-'
+"
 etag
 :
 testetag
-'
+"
 )
 )
 ;

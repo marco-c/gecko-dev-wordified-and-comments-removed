@@ -32,6 +32,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -40,6 +41,7 @@ stack
 .
 caller
 ;
+}
 dump
 (
 "
@@ -294,6 +296,7 @@ spec
 matching
 "
 )
+;
 do_check_uri_neq
 (
 simpleURI

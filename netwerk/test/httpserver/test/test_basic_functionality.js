@@ -624,6 +624,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -648,6 +649,7 @@ value
 i
 )
 ;
+}
 }
 var
 objHandler
@@ -735,6 +737,7 @@ metadata
 .
 queryString
 )
+{
 body
 +
 =
@@ -746,6 +749,7 @@ metadata
 .
 queryString
 ;
+}
 body
 +
 =
@@ -987,6 +991,7 @@ i
 +
 +
 )
+{
 response
 .
 setHeader
@@ -1007,4 +1012,5 @@ i
 false
 )
 ;
+}
 }

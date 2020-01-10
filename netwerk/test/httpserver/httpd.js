@@ -659,6 +659,7 @@ i
 +
 +
 )
+{
 obj
 [
 arr
@@ -672,6 +673,7 @@ arr
 i
 ]
 ;
+}
 return
 obj
 ;
@@ -705,6 +707,7 @@ i
 +
 +
 )
+{
 arr
 .
 push
@@ -712,6 +715,7 @@ push
 i
 )
 ;
+}
 return
 arr
 ;
@@ -801,6 +805,7 @@ firstStamp
 =
 0
 )
+{
 firstStamp
 =
 Date
@@ -809,6 +814,7 @@ now
 (
 )
 ;
+}
 var
 elapsed
 =
@@ -849,6 +855,7 @@ sec
 <
 10
 )
+{
 prefix
 +
 =
@@ -870,7 +877,9 @@ toFixed
 |
 "
 ;
+}
 else
+{
 prefix
 +
 =
@@ -891,6 +900,7 @@ toFixed
 |
 "
 ;
+}
 }
 dump
 (
@@ -1280,11 +1290,9 @@ getUTCHours
 var
 rv
 =
-(
 hrs
 <
 10
-)
 ?
 "
 0
@@ -1313,11 +1321,9 @@ rv
 rv
 +
 =
-(
 mins
 <
 10
-)
 ?
 "
 0
@@ -1346,11 +1352,9 @@ rv
 rv
 +
 =
-(
 secs
 <
 10
-)
 ?
 "
 0
@@ -1400,11 +1404,9 @@ getUTCFullYear
 var
 rv
 =
-(
 day
 <
 10
-)
 ?
 "
 0
@@ -1584,9 +1586,7 @@ o
 if
 (
 typeof
-(
 i
-)
 !
 =
 "
@@ -1618,6 +1618,7 @@ _
 )
 )
 )
+{
 s
 +
 =
@@ -1640,6 +1641,7 @@ i
 n
 "
 ;
+}
 }
 s
 +
@@ -1703,6 +1705,7 @@ if
 !
 gThreadManager
 )
+{
 gThreadManager
 =
 Cc
@@ -1724,6 +1727,7 @@ getService
 (
 )
 ;
+}
 this
 .
 _port
@@ -2224,6 +2228,7 @@ this
 .
 _socket
 )
+{
 throw
 Components
 .
@@ -2236,6 +2241,7 @@ Cr
 NS_ERROR_ALREADY_INITIALIZED
 )
 ;
+}
 this
 .
 _port
@@ -2678,6 +2684,7 @@ this
 .
 _socket
 )
+{
 throw
 Components
 .
@@ -2690,6 +2697,7 @@ Cr
 NS_ERROR_UNEXPECTED
 )
 ;
+}
 let
 returnValue
 =
@@ -2823,6 +2831,7 @@ isDirectory
 )
 )
 )
+{
 throw
 Components
 .
@@ -2835,6 +2844,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 _handler
@@ -2906,6 +2916,7 @@ isDirectory
 )
 )
 )
+{
 throw
 Components
 .
@@ -2918,6 +2929,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 _handler
@@ -3195,9 +3207,11 @@ this
 .
 _connections
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -3384,12 +3398,14 @@ this
 .
 _socketClosed
 )
+{
 this
 .
 _notifyStopped
 (
 )
 ;
+}
 Cu
 .
 forceGC
@@ -3598,9 +3614,7 @@ this
 _locations
 =
 {
-"
 xlocalhost
-"
 :
 {
 }
@@ -3628,6 +3642,7 @@ _primaryPort
 -
 1
 )
+{
 throw
 Components
 .
@@ -3640,6 +3655,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 return
 this
 .
@@ -3662,6 +3678,7 @@ _primaryPort
 -
 1
 )
+{
 throw
 Components
 .
@@ -3674,6 +3691,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 return
 this
 .
@@ -3696,6 +3714,7 @@ _primaryPort
 -
 1
 )
+{
 throw
 Components
 .
@@ -3708,6 +3727,7 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+}
 return
 this
 .
@@ -3749,6 +3769,7 @@ if
 !
 entry
 )
+{
 this
 .
 _locations
@@ -3765,6 +3786,7 @@ entry
 {
 }
 ;
+}
 entry
 [
 port
@@ -3808,9 +3830,11 @@ if
 !
 entry
 )
+{
 return
 false
 ;
+}
 var
 present
 =
@@ -3900,6 +3924,7 @@ port
 )
 ;
 return
+(
 "
 x
 "
@@ -3928,6 +3953,7 @@ host
 [
 port
 ]
+)
 ;
 }
 getScheme
@@ -3966,10 +3992,12 @@ if
 !
 entry
 )
+{
 return
 "
 "
 ;
+}
 return
 entry
 [
@@ -4061,6 +4089,7 @@ _primaryPort
 -
 1
 )
+{
 this
 .
 add
@@ -4072,7 +4101,9 @@ host
 port
 )
 ;
+}
 else
+{
 this
 .
 setPrimary
@@ -4086,6 +4117,7 @@ localhost
 port
 )
 ;
+}
 this
 .
 _defaultPort
@@ -4580,8 +4612,10 @@ this
 .
 _closed
 )
+{
 return
 ;
+}
 dumpn
 (
 "
@@ -4648,6 +4682,7 @@ server
 .
 _doQuit
 )
+{
 server
 .
 stop
@@ -4659,6 +4694,7 @@ function
 }
 )
 ;
+}
 }
 process
 (
@@ -4753,6 +4789,7 @@ toString
 )
 {
 return
+(
 "
 <
 Connection
@@ -4803,6 +4840,7 @@ open
 "
 >
 "
+)
 ;
 }
 requestStarted
@@ -4993,8 +5031,10 @@ if
 !
 data
 )
+{
 return
 ;
+}
 try
 {
 data
@@ -5144,8 +5184,10 @@ _processRequestLine
 (
 )
 )
+{
 break
 ;
+}
 case
 READER_IN_HEADERS
 :
@@ -5158,8 +5200,10 @@ _processHeaders
 (
 )
 )
+{
 break
 ;
+}
 case
 READER_IN_BODY
 :
@@ -5179,6 +5223,7 @@ _state
 =
 READER_FINISHED
 )
+{
 input
 .
 asyncWait
@@ -5191,6 +5236,7 @@ gThreadManager
 currentThread
 )
 ;
+}
 }
 QueryInterface
 :
@@ -5256,6 +5302,7 @@ value
 "
 "
 )
+{
 dumpn
 (
 "
@@ -5272,14 +5319,17 @@ line
 "
 )
 ;
+}
 if
 (
 !
 readSuccess
 )
+{
 return
 false
 ;
+}
 try
 {
 this
@@ -6368,6 +6418,7 @@ nsHttpVersion
 HTTP_1_0
 )
 )
+{
 throw
 new
 Error
@@ -6379,6 +6430,7 @@ version
 "
 )
 ;
+}
 }
 catch
 (
@@ -7227,10 +7279,10 @@ colon
 const
 CR
 =
-0x0D
+0x0d
 LF
 =
-0x0A
+0x0a
 ;
 function
 findCRLF
@@ -7282,9 +7334,11 @@ i
 =
 LF
 )
+{
 return
 i
 ;
+}
 }
 return
 -
@@ -7468,12 +7522,14 @@ length
 =
 CR
 )
+{
 -
 -
 this
 .
 _start
 ;
+}
 return
 false
 ;
@@ -7823,6 +7879,7 @@ length
 HIDDEN_CHAR
 )
 )
+{
 fileList
 .
 push
@@ -7830,6 +7887,7 @@ push
 f
 )
 ;
+}
 }
 fileList
 .
@@ -7889,6 +7947,7 @@ length
 =
 HIDDEN_CHAR
 )
+{
 name
 =
 name
@@ -7903,6 +7962,7 @@ length
 1
 )
 ;
+}
 var
 sep
 =
@@ -8040,10 +8100,12 @@ dira
 !
 dirb
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 dirb
@@ -8052,9 +8114,11 @@ dirb
 !
 dira
 )
+{
 return
 1
 ;
+}
 var
 namea
 =
@@ -8097,6 +8161,7 @@ if
 (
 encoded
 )
+{
 path
 =
 decodeURI
@@ -8104,6 +8169,7 @@ decodeURI
 path
 )
 ;
+}
 var
 comps
 =
@@ -8161,6 +8227,7 @@ length
 =
 HIDDEN_CHAR
 )
+{
 comps
 [
 i
@@ -8170,6 +8237,7 @@ comp
 +
 HIDDEN_CHAR
 ;
+}
 }
 return
 comps
@@ -8232,6 +8300,7 @@ length
 =
 HIDDEN_CHAR
 )
+{
 name
 =
 name
@@ -8246,6 +8315,7 @@ length
 1
 )
 ;
+}
 var
 headerFile
 =
@@ -8271,8 +8341,10 @@ exists
 (
 )
 )
+{
 return
 ;
+}
 const
 PR_RDONLY
 =
@@ -8355,8 +8427,10 @@ value
 "
 "
 )
+{
 return
 ;
+}
 var
 status
 =
@@ -8916,9 +8990,11 @@ code
 =
 404
 )
+{
 throw
 e
 ;
+}
 dumpn
 (
 "
@@ -8954,6 +9030,7 @@ this
 .
 _defaultPaths
 )
+{
 this
 .
 _defaultPaths
@@ -8965,10 +9042,13 @@ request
 response
 )
 ;
+}
 else
+{
 throw
 HTTP_404
 ;
+}
 }
 }
 catch
@@ -9013,9 +9093,11 @@ instanceof
 HttpError
 )
 )
+{
 throw
 e
 ;
+}
 errorCode
 =
 e
@@ -9050,6 +9132,7 @@ e
 .
 customErrorHandling
 )
+{
 e
 .
 customErrorHandling
@@ -9057,6 +9140,7 @@ customErrorHandling
 response
 )
 ;
+}
 this
 .
 _handleError
@@ -9232,9 +9316,11 @@ exists
 (
 )
 )
+{
 throw
 HTTP_404
 ;
+}
 response
 .
 setStatusLine
@@ -9292,6 +9378,7 @@ path
 CONNECT
 "
 )
+{
 throw
 Components
 .
@@ -9304,6 +9391,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 _handlerToField
@@ -9353,6 +9441,7 @@ length
 /
 "
 )
+{
 throw
 Components
 .
@@ -9365,6 +9454,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 this
 .
 _handlerToField
@@ -9422,6 +9512,7 @@ charAt
 /
 "
 )
+{
 throw
 Components
 .
@@ -9434,6 +9525,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 key
 =
 toInternalPath
@@ -9530,6 +9622,7 @@ in
 HTTP_ERROR_CODES
 )
 )
+{
 dumpn
 (
 "
@@ -9568,6 +9661,7 @@ intentional
 "
 )
 ;
+}
 this
 .
 _handlerToField
@@ -9590,23 +9684,24 @@ if
 !
 handler
 )
+{
 handler
 =
 defaultIndexHandler
 ;
+}
 else
 if
 (
 typeof
-(
 handler
-)
 !
 =
 "
 function
 "
 )
+{
 handler
 =
 createHandlerFunc
@@ -9614,6 +9709,7 @@ createHandlerFunc
 handler
 )
 ;
+}
 this
 .
 _indexHandler
@@ -9632,6 +9728,7 @@ if
 !
 type
 )
+{
 delete
 this
 .
@@ -9640,7 +9737,9 @@ _mimeMappings
 ext
 ]
 ;
+}
 else
+{
 this
 .
 _mimeMappings
@@ -9656,6 +9755,7 @@ type
 )
 ;
 }
+}
 _handlerToField
 (
 handler
@@ -9666,15 +9766,14 @@ key
 if
 (
 typeof
-(
 handler
-)
 =
 =
 "
 function
 "
 )
+{
 dict
 [
 key
@@ -9682,11 +9781,13 @@ key
 =
 handler
 ;
+}
 else
 if
 (
 handler
 )
+{
 dict
 [
 key
@@ -9697,13 +9798,16 @@ createHandlerFunc
 handler
 )
 ;
+}
 else
+{
 delete
 dict
 [
 key
 ]
 ;
+}
 }
 _handleDefault
 (
@@ -9865,9 +9969,11 @@ exists
 (
 )
 )
+{
 throw
 HTTP_404
 ;
+}
 var
 start
 end
@@ -9990,6 +10096,7 @@ rangeMatch
 =
 undefined
 )
+{
 start
 =
 parseInt
@@ -10001,6 +10108,7 @@ rangeMatch
 10
 )
 ;
+}
 if
 (
 rangeMatch
@@ -10012,6 +10120,7 @@ rangeMatch
 =
 undefined
 )
+{
 end
 =
 parseInt
@@ -10023,6 +10132,7 @@ rangeMatch
 10
 )
 ;
+}
 if
 (
 start
@@ -10119,6 +10229,7 @@ file
 .
 fileSize
 )
+{
 end
 =
 file
@@ -10127,6 +10238,7 @@ fileSize
 -
 1
 ;
+}
 if
 (
 start
@@ -10739,13 +10851,11 @@ httpd
 js
 "
 :
-(
 e
 .
 lineNumber
 -
 line
-)
 )
 +
 "
@@ -10935,6 +11045,7 @@ Ci
 .
 nsISeekableStream
 )
+{
 fis
 .
 seek
@@ -10947,7 +11058,9 @@ NS_SEEK_SET
 offset
 )
 ;
+}
 else
+{
 new
 ScriptableInputStream
 (
@@ -10959,6 +11072,7 @@ read
 offset
 )
 ;
+}
 }
 }
 catch
@@ -11203,6 +11317,7 @@ state
 path
 ]
 )
+{
 return
 state
 [
@@ -11212,6 +11327,7 @@ path
 k
 ]
 ;
+}
 return
 "
 "
@@ -11235,6 +11351,7 @@ v
 string
 "
 )
+{
 throw
 new
 Error
@@ -11248,6 +11365,7 @@ passed
 "
 )
 ;
+}
 var
 state
 =
@@ -11264,6 +11382,7 @@ in
 state
 )
 )
+{
 state
 [
 path
@@ -11272,6 +11391,7 @@ path
 {
 }
 ;
+}
 state
 [
 path
@@ -11301,12 +11421,14 @@ k
 in
 state
 )
+{
 return
 state
 [
 k
 ]
 ;
+}
 return
 "
 "
@@ -11329,6 +11451,7 @@ v
 string
 "
 )
+{
 throw
 new
 Error
@@ -11342,6 +11465,7 @@ passed
 "
 )
 ;
+}
 this
 .
 _sharedState
@@ -11368,6 +11492,7 @@ k
 string
 "
 )
+{
 throw
 new
 Error
@@ -11381,6 +11506,7 @@ passed
 "
 )
 ;
+}
 return
 this
 .
@@ -11410,6 +11536,7 @@ k
 string
 "
 )
+{
 throw
 new
 Error
@@ -11423,6 +11550,7 @@ passed
 "
 )
 ;
+}
 if
 (
 typeof
@@ -11434,6 +11562,7 @@ v
 object
 "
 )
+{
 throw
 new
 Error
@@ -11447,6 +11576,7 @@ passed
 "
 )
 ;
+}
 if
 (
 v
@@ -11553,6 +11683,7 @@ this
 .
 _mimeMappings
 )
+{
 return
 this
 .
@@ -11561,6 +11692,7 @@ _mimeMappings
 ext
 ]
 ;
+}
 }
 return
 Cc
@@ -11725,13 +11857,17 @@ length
 /
 "
 )
+{
 file
 =
 null
 ;
+}
 else
+{
 break
 ;
+}
 }
 if
 (
@@ -11741,8 +11877,10 @@ tmp
 "
 "
 )
+{
 break
 ;
+}
 tmp
 =
 tmp
@@ -11766,9 +11904,11 @@ if
 !
 file
 )
+{
 throw
 HTTP_404
 ;
+}
 var
 parentFolder
 =
@@ -11779,12 +11919,10 @@ parent
 var
 dirIsRoot
 =
-(
 parentFolder
 =
 =
 null
-)
 ;
 var
 leafPath
@@ -11851,12 +11989,14 @@ comp
 .
 "
 )
+{
 file
 =
 file
 .
 parent
 ;
+}
 else
 if
 (
@@ -11874,9 +12014,12 @@ comp
 "
 "
 )
+{
 continue
 ;
+}
 else
+{
 file
 .
 append
@@ -11884,6 +12027,7 @@ append
 comp
 )
 ;
+}
 if
 (
 !
@@ -11897,9 +12041,11 @@ equals
 parentFolder
 )
 )
+{
 throw
 HTTP_403
 ;
+}
 }
 return
 file
@@ -11963,6 +12109,7 @@ if
 !
 metadata
 )
+{
 throw
 Components
 .
@@ -11975,6 +12122,7 @@ Cr
 NS_ERROR_NULL_POINTER
 )
 ;
+}
 var
 errorX00
 =
@@ -11997,6 +12145,7 @@ in
 HTTP_ERROR_CODES
 )
 )
+{
 dumpn
 (
 "
@@ -12014,6 +12163,7 @@ error
 errorCode
 )
 ;
+}
 try
 {
 if
@@ -12024,6 +12174,7 @@ this
 .
 _overrideErrors
 )
+{
 this
 .
 _overrideErrors
@@ -12035,7 +12186,9 @@ metadata
 response
 )
 ;
+}
 else
+{
 this
 .
 _defaultErrors
@@ -12047,6 +12200,7 @@ metadata
 response
 )
 ;
+}
 }
 catch
 (
@@ -12079,9 +12233,11 @@ errorX00
 =
 errorCode
 )
+{
 throw
 HTTP_500
 ;
+}
 dumpn
 (
 "
@@ -12134,6 +12290,7 @@ this
 .
 _overrideErrors
 )
+{
 this
 .
 _overrideErrors
@@ -12145,6 +12302,7 @@ metadata
 response
 )
 ;
+}
 else
 if
 (
@@ -12154,6 +12312,7 @@ this
 .
 _defaultErrors
 )
+{
 this
 .
 _defaultErrors
@@ -12165,10 +12324,13 @@ metadata
 response
 )
 ;
+}
 else
+{
 throw
 HTTP_500
 ;
+}
 }
 }
 catch
@@ -12244,6 +12406,7 @@ this
 .
 _overrideErrors
 )
+{
 this
 .
 _overrideErrors
@@ -12255,7 +12418,9 @@ metadata
 response
 )
 ;
+}
 else
+{
 this
 .
 _defaultErrors
@@ -12267,6 +12432,7 @@ metadata
 response
 )
 ;
+}
 }
 catch
 (
@@ -13469,6 +13635,7 @@ metadata
 .
 queryString
 )
+{
 body
 +
 =
@@ -13480,6 +13647,7 @@ metadata
 .
 queryString
 ;
+}
 body
 +
 =
@@ -13601,6 +13769,7 @@ if
 (
 value
 )
+{
 this
 .
 _map
@@ -13614,7 +13783,9 @@ clone
 (
 )
 ;
+}
 else
+{
 delete
 this
 .
@@ -13623,6 +13794,7 @@ _map
 key
 ]
 ;
+}
 }
 get
 (
@@ -13807,12 +13979,10 @@ code
 )
 |
 |
-(
 code
 =
 =
 127
-)
 ;
 }
 function
@@ -13917,6 +14087,7 @@ this
 .
 _finished
 )
+{
 throw
 Components
 .
@@ -13929,6 +14100,7 @@ Cr
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+}
 if
 (
 !
@@ -13979,12 +14151,14 @@ this
 .
 _powerSeized
 )
+{
 this
 .
 _startAsyncProcessor
 (
 )
 ;
+}
 }
 return
 this
@@ -14003,6 +14177,7 @@ this
 .
 _finished
 )
+{
 throw
 Components
 .
@@ -14015,6 +14190,7 @@ Cr
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+}
 var
 dataAsString
 =
@@ -14060,6 +14236,7 @@ this
 .
 _powerSeized
 )
+{
 throw
 Components
 .
@@ -14072,6 +14249,7 @@ Cr
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+}
 this
 .
 _ensureAlive
@@ -14093,6 +14271,7 @@ code
 1000
 )
 )
+{
 throw
 Components
 .
@@ -14105,6 +14284,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 try
 {
 var
@@ -14125,12 +14305,14 @@ httpVersion
 1
 "
 )
+{
 httpVer
 =
 nsHttpVersion
 .
 HTTP_1_1
 ;
+}
 else
 if
 (
@@ -14143,13 +14325,16 @@ httpVersion
 0
 "
 )
+{
 httpVer
 =
 nsHttpVersion
 .
 HTTP_1_0
 ;
+}
 else
+{
 httpVer
 =
 new
@@ -14158,6 +14343,7 @@ nsHttpVersion
 httpVersion
 )
 ;
+}
 }
 catch
 (
@@ -14182,11 +14368,13 @@ if
 !
 description
 )
+{
 description
 =
 "
 "
 ;
+}
 for
 (
 var
@@ -14204,6 +14392,7 @@ i
 +
 +
 )
+{
 if
 (
 isCTL
@@ -14230,6 +14419,7 @@ i
 t
 "
 )
+{
 throw
 Components
 .
@@ -14242,6 +14432,8 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
+}
 this
 .
 _httpDescription
@@ -14285,6 +14477,7 @@ this
 .
 _powerSeized
 )
+{
 throw
 Components
 .
@@ -14297,6 +14490,7 @@ Cr
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+}
 this
 .
 _ensureAlive
@@ -14338,6 +14532,7 @@ this
 .
 _powerSeized
 )
+{
 throw
 Components
 .
@@ -14350,6 +14545,7 @@ Cr
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+}
 this
 .
 _ensureAlive
@@ -14377,6 +14573,7 @@ this
 .
 _finished
 )
+{
 throw
 Components
 .
@@ -14389,12 +14586,14 @@ Cr
 NS_ERROR_UNEXPECTED
 )
 ;
+}
 if
 (
 this
 .
 _powerSeized
 )
+{
 throw
 Components
 .
@@ -14407,14 +14606,17 @@ Cr
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+}
 if
 (
 this
 .
 _processAsync
 )
+{
 return
 ;
+}
 this
 .
 _ensureAlive
@@ -14460,12 +14662,14 @@ this
 .
 _asyncCopier
 )
+{
 this
 .
 _startAsyncProcessor
 (
 )
 ;
+}
 }
 seizePower
 (
@@ -14477,6 +14681,7 @@ this
 .
 _processAsync
 )
+{
 throw
 Components
 .
@@ -14489,12 +14694,14 @@ Cr
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+}
 if
 (
 this
 .
 _finished
 )
+{
 throw
 Components
 .
@@ -14507,14 +14714,17 @@ Cr
 NS_ERROR_UNEXPECTED
 )
 ;
+}
 if
 (
 this
 .
 _powerSeized
 )
+{
 return
 ;
+}
 this
 .
 _ensureAlive
@@ -14553,6 +14763,7 @@ this
 .
 _asyncCopier
 )
+{
 this
 .
 _asyncCopier
@@ -14564,6 +14775,7 @@ Cr
 NS_BINDING_ABORTED
 )
 ;
+}
 this
 .
 _asyncCopier
@@ -14605,6 +14817,7 @@ available
 >
 0
 )
+{
 input
 .
 readByteArray
@@ -14612,6 +14825,7 @@ readByteArray
 avail
 )
 ;
+}
 }
 this
 .
@@ -14625,12 +14839,14 @@ this
 .
 _bodyOutputStream
 )
+{
 this
 .
 _startAsyncProcessor
 (
 )
 ;
+}
 }
 finish
 (
@@ -14649,6 +14865,7 @@ this
 .
 _powerSeized
 )
+{
 throw
 Components
 .
@@ -14661,14 +14878,17 @@ Cr
 NS_ERROR_UNEXPECTED
 )
 ;
+}
 if
 (
 this
 .
 _finished
 )
+{
 return
 ;
+}
 dumpn
 (
 "
@@ -14698,6 +14918,7 @@ this
 .
 _bodyOutputStream
 )
+{
 this
 .
 _bodyOutputStream
@@ -14706,6 +14927,7 @@ close
 (
 )
 ;
+}
 this
 .
 _finished
@@ -14965,6 +15187,7 @@ this
 .
 _bodyOutputStream
 )
+{
 this
 .
 _bodyOutputStream
@@ -14973,6 +15196,7 @@ close
 (
 )
 ;
+}
 }
 abort
 (
@@ -15133,6 +15357,7 @@ this
 .
 _bodyOutputStream
 )
+{
 this
 .
 _bodyOutputStream
@@ -15141,6 +15366,7 @@ close
 (
 )
 ;
+}
 this
 .
 _finished
@@ -15345,6 +15571,7 @@ Date
 "
 )
 )
+{
 headers
 .
 setHeader
@@ -15363,6 +15590,7 @@ now
 false
 )
 ;
+}
 if
 (
 !
@@ -15516,6 +15744,7 @@ i
 +
 +
 )
+{
 preambleData
 .
 push
@@ -15539,6 +15768,7 @@ n
 "
 )
 ;
+}
 }
 preambleData
 .
@@ -15907,6 +16137,7 @@ isSuccessCode
 statusCode
 )
 )
+{
 dumpn
 (
 "
@@ -15924,6 +16155,7 @@ onStopRequest
 "
 )
 ;
+}
 response
 .
 end
@@ -16037,6 +16269,7 @@ e
 )
 {
 return
+(
 e
 =
 =
@@ -16066,6 +16299,7 @@ result
 Cr
 .
 NS_BASE_STREAM_CLOSED
+)
 )
 ;
 }
@@ -16076,6 +16310,7 @@ e
 )
 {
 return
+(
 e
 =
 =
@@ -16105,6 +16340,7 @@ result
 Cr
 .
 NS_BASE_STREAM_WOULD_BLOCK
+)
 )
 ;
 }
@@ -16130,6 +16366,7 @@ sink
 !
 observer
 )
+{
 throw
 Components
 .
@@ -16142,6 +16379,7 @@ Cr
 NS_ERROR_NULL_POINTER
 )
 ;
+}
 this
 .
 _source
@@ -16334,8 +16572,10 @@ _source
 =
 null
 )
+{
 return
 ;
+}
 dumpn
 (
 "
@@ -16460,6 +16700,7 @@ bytesWanted
 =
 0
 )
+{
 throw
 Components
 .
@@ -16472,6 +16713,7 @@ Cr
 NS_BASE_STREAM_CLOSED
 )
 ;
+}
 }
 catch
 (
@@ -16661,12 +16903,14 @@ length
 =
 1
 )
+{
 this
 .
 _waitToWriteData
 (
 )
 ;
+}
 }
 catch
 (
@@ -16773,8 +17017,10 @@ _sink
 =
 null
 )
+{
 return
 ;
+}
 dumpn
 (
 "
@@ -16883,13 +17129,16 @@ quantum
 .
 length
 )
+{
 pendingData
 .
 shift
 (
 )
 ;
+}
 else
+{
 pendingData
 [
 0
@@ -16902,6 +17151,7 @@ substring
 bytesWritten
 )
 ;
+}
 dumpn
 (
 "
@@ -16993,6 +17243,7 @@ streamClosed
 e
 )
 )
+{
 dumpn
 (
 "
@@ -17011,7 +17262,9 @@ error
 "
 )
 ;
+}
 else
+{
 dumpn
 (
 "
@@ -17033,6 +17286,7 @@ quantum
 quantum
 )
 ;
+}
 this
 .
 _doneWritingToSink
@@ -17273,13 +17527,16 @@ length
 =
 0
 )
+{
 this
 .
 _sink
 =
 null
 ;
+}
 else
+{
 NS_ASSERT
 (
 this
@@ -17296,6 +17553,7 @@ output
 "
 )
 ;
+}
 if
 (
 this
@@ -17988,6 +18246,7 @@ i
 +
 +
 )
+{
 if
 (
 isCTL
@@ -18038,6 +18297,7 @@ NS_ERROR_INVALID_ARG
 )
 ;
 }
+}
 return
 val
 ;
@@ -18073,6 +18333,7 @@ i
 +
 +
 )
+{
 s
 +
 =
@@ -18092,6 +18353,7 @@ i
 ;
 "
 ;
+}
 return
 s
 ;
@@ -18131,6 +18393,7 @@ if
 !
 matches
 )
+{
 throw
 new
 Error
@@ -18145,6 +18408,7 @@ version
 "
 )
 ;
+}
 this
 .
 major
@@ -18202,6 +18466,7 @@ minor
 <
 0
 )
+{
 throw
 new
 Error
@@ -18216,6 +18481,7 @@ version
 "
 )
 ;
+}
 }
 nsHttpVersion
 .
@@ -18272,6 +18538,7 @@ otherVersion
 )
 {
 return
+(
 this
 .
 major
@@ -18300,6 +18567,7 @@ minor
 otherVersion
 .
 minor
+)
 )
 ;
 }
@@ -18611,6 +18879,7 @@ this
 .
 _headers
 )
+{
 return
 this
 .
@@ -18619,6 +18888,7 @@ _headers
 name
 ]
 ;
+}
 throw
 Components
 .
@@ -18648,13 +18918,11 @@ fieldName
 )
 ;
 return
-(
 name
 in
 this
 .
 _headers
-)
 ;
 }
 get
@@ -18763,6 +19031,7 @@ hasMoreElements
 (
 )
 )
+{
 throw
 Components
 .
@@ -18775,6 +19044,7 @@ Cr
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+}
 return
 this
 .
@@ -19118,6 +19388,7 @@ this
 .
 _bag
 )
+{
 this
 .
 _bag
@@ -19127,6 +19398,7 @@ WritablePropertyBag
 (
 )
 ;
+}
 }
 }
 ;
@@ -19191,6 +19463,7 @@ if
 (
 lp
 )
+{
 srv
 .
 registerDirectory
@@ -19201,6 +19474,7 @@ registerDirectory
 lp
 )
 ;
+}
 srv
 .
 registerContentType
@@ -19249,6 +19523,7 @@ isStopped
 (
 )
 )
+{
 thread
 .
 processNextEvent
@@ -19256,6 +19531,7 @@ processNextEvent
 true
 )
 ;
+}
 while
 (
 thread
@@ -19264,6 +19540,7 @@ hasPendingEvents
 (
 )
 )
+{
 thread
 .
 processNextEvent
@@ -19271,6 +19548,7 @@ processNextEvent
 true
 )
 ;
+}
 DEBUG
 =
 false

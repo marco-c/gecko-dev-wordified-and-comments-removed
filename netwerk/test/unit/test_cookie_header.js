@@ -63,6 +63,7 @@ inChildProcess
 )
 {
 return
+(
 Cc
 [
 "
@@ -95,6 +96,7 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
+)
 ;
 }
 function

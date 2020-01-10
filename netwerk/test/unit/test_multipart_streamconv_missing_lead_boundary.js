@@ -301,6 +301,7 @@ testNum
 =
 numTests
 )
+{
 httpserver
 .
 stop
@@ -308,6 +309,7 @@ stop
 do_test_finished
 )
 ;
+}
 }
 var
 multipartListener

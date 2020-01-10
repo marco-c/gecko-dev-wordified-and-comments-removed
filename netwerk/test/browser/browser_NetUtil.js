@@ -44,6 +44,7 @@ tests
 .
 length
 )
+{
 executeSoon
 (
 tests
@@ -53,12 +54,15 @@ shift
 )
 )
 ;
+}
 else
+{
 executeSoon
 (
 finish
 )
 ;
+}
 }
 var
 tests
@@ -411,8 +415,10 @@ self
 .
 url
 )
+{
 return
 ;
+}
 executeSoon
 (
 function
@@ -445,3 +451,4 @@ aXULWindow
 {
 }
 }
+;

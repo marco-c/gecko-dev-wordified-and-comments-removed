@@ -66,6 +66,7 @@ PARTIAL
 <
 <
 6
+;
 const
 DOOMED
 =
@@ -163,13 +164,16 @@ if
 !
 log_c2
 )
+{
 return
 ;
+}
 if
 (
 !
 m
 )
+{
 dump
 (
 "
@@ -189,7 +193,9 @@ n
 "
 )
 ;
+}
 else
+{
 dump
 (
 "
@@ -245,6 +251,7 @@ n
 "
 )
 ;
+}
 }
 function
 pumpReadStream
@@ -699,13 +706,11 @@ status
 {
 if
 (
-(
 this
 .
 behavior
 &
 MAYBE_NEW
-)
 &
 &
 isnew
@@ -802,6 +807,7 @@ behavior
 &
 THROWAVAIL
 )
+{
 this
 .
 throwAndNotify
@@ -809,6 +815,7 @@ throwAndNotify
 entry
 )
 ;
+}
 this
 .
 goon
@@ -875,6 +882,7 @@ behavior
 &
 THROWAVAIL
 )
+{
 this
 .
 throwAndNotify
@@ -882,6 +890,7 @@ throwAndNotify
 entry
 )
 ;
+}
 if
 (
 !
@@ -893,6 +902,7 @@ behavior
 WAITFORWRITE
 )
 )
+{
 this
 .
 goon
@@ -900,6 +910,7 @@ goon
 entry
 )
 ;
+}
 if
 (
 !
@@ -1011,12 +1022,14 @@ behavior
 DONTSETVALID
 )
 )
+{
 entry
 .
 setValid
 (
 )
 ;
+}
 entry
 .
 close
@@ -1031,6 +1044,7 @@ behavior
 &
 WAITFORWRITE
 )
+{
 self
 .
 goon
@@ -1038,6 +1052,7 @@ goon
 entry
 )
 ;
+}
 return
 ;
 }
@@ -1123,6 +1138,7 @@ behavior
 &
 WAITFORWRITE
 )
+{
 self
 .
 goon
@@ -1130,19 +1146,18 @@ goon
 entry
 )
 ;
+}
 return
 ;
 }
 var
 offset
 =
-(
 self
 .
 behavior
 &
 PARTIAL
-)
 ?
 entry
 .
@@ -1224,6 +1239,7 @@ behavior
 &
 WAITFORWRITE
 )
+{
 self
 .
 goon
@@ -1231,6 +1247,7 @@ goon
 entry
 )
 ;
+}
 entry
 .
 close
@@ -1239,8 +1256,10 @@ close
 ;
 }
 )
+;
 }
 )
+;
 }
 else
 {
@@ -1278,6 +1297,7 @@ behavior
 &
 THROWAVAIL
 )
+{
 this
 .
 throwAndNotify
@@ -1285,6 +1305,7 @@ throwAndNotify
 entry
 )
 ;
+}
 if
 (
 this
@@ -1293,6 +1314,7 @@ behavior
 &
 NOTIFYBEFOREREAD
 )
+{
 this
 .
 goon
@@ -1301,6 +1323,7 @@ entry
 true
 )
 ;
+}
 var
 wrapper
 =
@@ -1407,13 +1430,11 @@ this
 onCheckPassed
 |
 |
-(
 this
 .
 behavior
 &
 MAYBE_NEW
-)
 )
 ;
 Assert
@@ -1434,13 +1455,11 @@ this
 onDataCheckPassed
 |
 |
-(
 this
 .
 behavior
 &
 MAYBE_NEW
-)
 )
 ;
 }
@@ -1671,12 +1690,14 @@ this
 .
 entries
 )
+{
 this
 .
 notify
 (
 )
 ;
+}
 }
 onCacheEntryInfo
 (
@@ -1696,13 +1717,11 @@ key
 (
 aIdEnhance
 ?
-(
 aIdEnhance
 +
 "
 :
 "
-)
 :
 "
 "
@@ -1734,9 +1753,7 @@ element
 if
 (
 typeof
-(
 element
-)
 =
 =
 =
@@ -1757,9 +1774,7 @@ else
 if
 (
 typeof
-(
 element
-)
 =
 =
 =
@@ -1769,6 +1784,7 @@ object
 )
 {
 return
+(
 element
 .
 uri
@@ -1803,6 +1819,7 @@ originAttributes
 aInfo
 .
 originAttributes
+)
 )
 ;
 }
@@ -1872,6 +1889,7 @@ this
 .
 entries
 )
+{
 Assert
 .
 equal
@@ -1884,6 +1902,7 @@ length
 0
 )
 ;
+}
 this
 .
 notify
@@ -2049,6 +2068,7 @@ selfCheck
 {
 }
 }
+;
 function
 EvictionCallback
 (
@@ -2116,6 +2136,7 @@ this
 .
 delayed
 )
+{
 executeSoon
 (
 function
@@ -2131,13 +2152,16 @@ goon
 }
 )
 ;
+}
 else
+{
 this
 .
 goon
 (
 )
 ;
+}
 }
 }
 add
@@ -2152,6 +2176,7 @@ pending
 ;
 }
 }
+;
 function
 MultipleCallbacks
 (

@@ -46,7 +46,6 @@ failed
 const
 time
 =
-(
 new
 Date
 (
@@ -55,7 +54,6 @@ Jan
 1
 2030
 "
-)
 )
 .
 getTime
@@ -102,11 +100,9 @@ Math
 .
 floor
 (
-(
 new
 Date
 (
-)
 )
 .
 getTime

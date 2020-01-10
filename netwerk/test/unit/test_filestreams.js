@@ -89,13 +89,11 @@ leafName
 _
 "
 +
-(
 ensure_unique
 .
 fileIndex
 +
 +
-)
 ;
 }
 }

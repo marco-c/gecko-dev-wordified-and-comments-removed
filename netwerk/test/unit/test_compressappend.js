@@ -165,6 +165,7 @@ this
 .
 _compress
 )
+{
 entry
 .
 setMetaDataElement
@@ -179,6 +180,7 @@ len
 "
 )
 ;
+}
 var
 os
 =

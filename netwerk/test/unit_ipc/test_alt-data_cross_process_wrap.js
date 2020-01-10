@@ -36,9 +36,9 @@ null
 ;
 do_send_remote_message
 (
-'
+"
 flushed
-'
+"
 )
 ;
 }
@@ -79,9 +79,9 @@ do_get_profile
 ;
 do_await_remote_message
 (
-'
+"
 flush
-'
+"
 )
 .
 then
@@ -112,9 +112,9 @@ cacheFlushObserver
 ;
 do_await_remote_message
 (
-'
+"
 done
-'
+"
 )
 .
 then
@@ -460,9 +460,9 @@ binary
 ;
 do_send_remote_message
 (
-'
+"
 finish
-'
+"
 )
 ;
 }

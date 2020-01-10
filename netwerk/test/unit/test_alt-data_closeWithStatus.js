@@ -66,6 +66,7 @@ null
 var
 cacheFlushObserver
 =
+(
 cacheFlushObserver
 =
 {
@@ -83,6 +84,7 @@ readServerContentAgain
 ;
 }
 }
+)
 ;
 var
 currentThread
@@ -119,6 +121,7 @@ inChildProcess
 )
 {
 return
+(
 Cc
 [
 "
@@ -151,6 +154,7 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
+)
 ;
 }
 const
@@ -689,16 +693,16 @@ else
 {
 do_send_remote_message
 (
-'
+"
 flush
-'
+"
 )
 ;
 do_await_remote_message
 (
-'
+"
 flushed
-'
+"
 )
 .
 then

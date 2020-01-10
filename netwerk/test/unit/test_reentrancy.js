@@ -343,11 +343,14 @@ _test
 =
 MAX_TESTS
 )
+{
 next_test
 (
 )
 ;
+}
 else
+{
 httpserver
 .
 stop
@@ -355,6 +358,7 @@ stop
 do_test_finished
 )
 ;
+}
 }
 _reset
 (

@@ -13,7 +13,6 @@ Arg
 )
 {
 }
-;
 Arg
 .
 prototype

@@ -132,9 +132,11 @@ if
 !
 buffered
 )
+{
 return
 stream
 ;
+}
 var
 buffer
 =
@@ -315,6 +317,7 @@ this
 .
 _got_onstartrequest
 )
+{
 do_throw
 (
 "
@@ -326,6 +329,7 @@ event
 "
 )
 ;
+}
 this
 .
 _got_onstartrequest
@@ -370,6 +374,7 @@ _contentLen
 -
 1
 )
+{
 do_throw
 (
 "
@@ -383,6 +388,7 @@ onStartRequest
 "
 )
 ;
+}
 }
 }
 onDataAvailable
@@ -400,6 +406,7 @@ this
 .
 _got_onstartrequest
 )
+{
 do_throw
 (
 "
@@ -411,12 +418,14 @@ event
 "
 )
 ;
+}
 if
 (
 this
 .
 _got_onstoprequest
 )
+{
 do_throw
 (
 "
@@ -428,6 +437,7 @@ event
 "
 )
 ;
+}
 if
 (
 !
@@ -437,6 +447,7 @@ isPending
 (
 )
 )
+{
 do_throw
 (
 "
@@ -452,6 +463,7 @@ onStartRequest
 "
 )
 ;
+}
 this
 .
 _buffer
@@ -483,6 +495,7 @@ this
 .
 _got_onstartrequest
 )
+{
 do_throw
 (
 "
@@ -494,12 +507,14 @@ event
 "
 )
 ;
+}
 if
 (
 this
 .
 _got_onstoprequest
 )
+{
 do_throw
 (
 "
@@ -511,6 +526,7 @@ event
 "
 )
 ;
+}
 this
 .
 _got_onstoprequest
@@ -527,6 +543,7 @@ isSuccessCode
 status
 )
 )
+{
 do_throw
 (
 "
@@ -545,6 +562,7 @@ toString
 )
 )
 ;
+}
 if
 (
 status
@@ -554,6 +572,7 @@ request
 .
 status
 )
+{
 do_throw
 (
 "
@@ -571,6 +590,7 @@ onStopRequest
 "
 )
 ;
+}
 if
 (
 request
@@ -579,6 +599,7 @@ isPending
 (
 )
 )
+{
 do_throw
 (
 "
@@ -593,6 +614,7 @@ onStopRequest
 "
 )
 ;
+}
 if
 (
 this
@@ -615,6 +637,7 @@ this
 .
 _contentLen
 )
+{
 do_throw
 (
 "
@@ -631,6 +654,7 @@ bytes
 "
 )
 ;
+}
 this
 .
 _closure
@@ -716,6 +740,7 @@ contentType
 =
 special_type
 )
+{
 do_throw
 (
 "
@@ -743,6 +768,8 @@ special_type
 >
 "
 )
+;
+}
 var
 stream
 =
@@ -772,6 +799,7 @@ result
 =
 data
 )
+{
 do_throw
 (
 "
@@ -787,6 +815,7 @@ read
 "
 )
 ;
+}
 run_next_test
 (
 )
@@ -897,6 +926,7 @@ contentType
 =
 expected_type
 )
+{
 do_throw
 (
 "
@@ -924,6 +954,8 @@ expected_type
 >
 "
 )
+;
+}
 run_next_test
 (
 )
@@ -933,12 +965,14 @@ if
 (
 set_type
 )
+{
 chan
 .
 contentType
 =
 expected_type
 ;
+}
 chan
 .
 asyncOpen
@@ -1116,6 +1150,7 @@ contentType
 =
 special_type
 )
+{
 do_throw
 (
 "
@@ -1143,6 +1178,8 @@ special_type
 >
 "
 )
+;
+}
 if
 (
 data
@@ -1152,6 +1189,7 @@ length
 =
 0
 )
+{
 do_throw
 (
 "
@@ -1163,6 +1201,7 @@ data
 "
 )
 ;
+}
 var
 oldstream
 =
@@ -1214,6 +1253,7 @@ olddata
 =
 newdata
 )
+{
 do_throw
 (
 "
@@ -1229,6 +1269,7 @@ copy
 "
 )
 ;
+}
 oldstream
 .
 close

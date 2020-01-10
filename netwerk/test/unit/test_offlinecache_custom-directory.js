@@ -249,11 +249,11 @@ indexSqlFile
 .
 append
 (
-'
+"
 index
 .
 sqlite
-'
+"
 )
 ;
 Assert
@@ -819,11 +819,13 @@ nsIOfflineCacheUpdateObserver
 .
 STATE_FINISHED
 )
+{
 finish_test
 (
 customDir
 )
 ;
+}
 }
 applicationCacheAvailable
 (

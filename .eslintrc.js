@@ -246,12 +246,6 @@ devtools
 *
 "
 "
-netwerk
-/
-*
-*
-"
-"
 nsprpub
 /
 *

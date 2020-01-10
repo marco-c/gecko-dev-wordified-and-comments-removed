@@ -336,8 +336,8 @@ str
 var
 hex
 =
-'
-'
+"
+"
 ;
 for
 (
@@ -361,9 +361,9 @@ hex
 +
 =
 (
-'
+"
 0
-'
+"
 +
 str
 .
@@ -953,6 +953,7 @@ out
 }
 }
 )
+;
 }
 )
 ;
@@ -2047,7 +2048,6 @@ completionPromise
 let
 expectedContents
 =
-(
 i
 =
 =
@@ -2058,7 +2058,6 @@ TEST_DATA_LONG
 TEST_DATA_LONG
 +
 TEST_DATA_LONG
-)
 ;
 await
 promiseVerifyContents
@@ -2151,12 +2150,10 @@ true
 let
 firstFile
 =
-(
 i
 =
 =
 0
-)
 ?
 destFile1
 :
@@ -2165,12 +2162,10 @@ destFile2
 let
 secondFile
 =
-(
 i
 =
 =
 0
-)
 ?
 destFile2
 :
@@ -2219,7 +2214,6 @@ exists
 let
 expectedContents
 =
-(
 i
 =
 =
@@ -2230,7 +2224,6 @@ TEST_DATA_SHORT
 TEST_DATA_SHORT
 +
 TEST_DATA_SHORT
-)
 ;
 await
 promiseVerifyContents
@@ -2341,7 +2334,6 @@ completionPromise
 let
 expectedContents
 =
-(
 i
 =
 =
@@ -2352,7 +2344,6 @@ TEST_DATA_LONG
 TEST_DATA_LONG
 +
 TEST_DATA_LONG
-)
 ;
 await
 promiseVerifyContents

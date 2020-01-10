@@ -59,7 +59,7 @@ binstream
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -67,7 +67,7 @@ org
 binaryinputstream
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -196,6 +196,7 @@ if
 (
 could_read
 )
+{
 do_throw
 (
 "
@@ -209,6 +210,7 @@ EOF
 "
 )
 ;
+}
 return
 numread
 ;

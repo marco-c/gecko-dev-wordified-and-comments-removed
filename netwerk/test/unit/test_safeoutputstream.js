@@ -72,8 +72,10 @@ str
 .
 length
 )
+{
 break
 ;
+}
 str
 =
 str
@@ -183,8 +185,10 @@ str
 .
 length
 )
+{
 break
 ;
+}
 str
 =
 str

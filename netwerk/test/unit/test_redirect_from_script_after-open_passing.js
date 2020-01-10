@@ -343,6 +343,7 @@ By
 -
 Script
 "
+;
 var
 testHeaderVal
 =
@@ -651,6 +652,7 @@ Ci
 nsIHttpChannel
 )
 )
+{
 do_throw
 (
 redirectHook
@@ -665,6 +667,7 @@ channel
 "
 )
 ;
+}
 var
 channel
 =
@@ -720,10 +723,12 @@ spec
 =
 baitURI
 )
+{
 target
 =
 redirectedURI
 ;
+}
 if
 (
 channel
@@ -735,10 +740,12 @@ spec
 =
 bait2URI
 )
+{
 target
 =
 redirected2URI
 ;
+}
 if
 (
 channel
@@ -750,10 +757,12 @@ spec
 =
 bait4URI
 )
+{
 target
 =
 baitURI
 ;
+}
 if
 (
 target
@@ -805,6 +814,7 @@ n
 }
 }
 }
+;
 function
 makeAsyncTest
 (
@@ -833,6 +843,7 @@ Ci
 nsIHttpChannel
 )
 )
+{
 do_throw
 (
 req
@@ -848,6 +859,7 @@ imminent
 "
 )
 ;
+}
 var
 httpChannel
 =

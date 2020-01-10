@@ -1806,6 +1806,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -1814,6 +1815,7 @@ stack
 .
 caller
 ;
+}
 dump
 (
 "

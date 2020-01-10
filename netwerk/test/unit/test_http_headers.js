@@ -193,6 +193,7 @@ i
 +
 i
 )
+{
 chan
 .
 setRequestHeader
@@ -206,6 +207,7 @@ i
 false
 )
 ;
+}
 for
 (
 var
@@ -221,6 +223,7 @@ i
 +
 i
 )
+{
 check_request_header
 (
 chan
@@ -232,6 +235,7 @@ i
 i
 )
 ;
+}
 var
 x
 =
@@ -270,6 +274,7 @@ if
 !
 x
 )
+{
 do_throw
 (
 "
@@ -281,6 +286,7 @@ rejected
 "
 )
 ;
+}
 x
 =
 false
@@ -318,6 +324,7 @@ if
 !
 x
 )
+{
 do_throw
 (
 "
@@ -330,6 +337,7 @@ rejected
 "
 )
 ;
+}
 x
 =
 false
@@ -367,6 +375,7 @@ if
 !
 x
 )
+{
 do_throw
 (
 "
@@ -381,6 +390,7 @@ rejected
 "
 )
 ;
+}
 x
 =
 false
@@ -418,6 +428,7 @@ if
 !
 x
 )
+{
 do_throw
 (
 "
@@ -432,4 +443,5 @@ rejected
 "
 )
 ;
+}
 }

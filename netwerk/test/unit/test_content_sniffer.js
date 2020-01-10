@@ -135,11 +135,13 @@ if
 (
 outer
 )
+{
 throw
 Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
+}
 return
 this
 .
@@ -211,6 +213,7 @@ contentType
 =
 unknownType
 )
+{
 do_throw
 (
 "
@@ -223,6 +226,7 @@ unknown
 "
 )
 ;
+}
 if
 (
 sniffing_enabled
@@ -401,6 +405,7 @@ if
 (
 sniffing_enabled
 )
+{
 chan
 .
 loadFlags
@@ -412,6 +417,7 @@ nsIChannel
 .
 LOAD_CALL_CONTENT_SNIFFERS
 ;
+}
 return
 chan
 ;

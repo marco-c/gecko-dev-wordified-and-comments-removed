@@ -548,9 +548,7 @@ callbacks
 .
 forEach
 (
-(
 callback
-)
 =
 >
 {
@@ -678,9 +676,7 @@ securityObservers
 .
 forEach
 (
-(
 observer
-)
 =
 >
 {
@@ -786,6 +782,7 @@ example
 .
 com
 "
+;
 function
 storeCertOverride
 (
