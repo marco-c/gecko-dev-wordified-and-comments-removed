@@ -4606,6 +4606,11 @@ header
 querySelector
 (
 "
+.
+panel
+-
+header
+>
 label
 "
 )
