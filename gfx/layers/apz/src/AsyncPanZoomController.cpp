@@ -16477,6 +16477,10 @@ controller
 DispatchToRepaintThread
 (
 NewRunnableMethod
+<
+AsyncPanZoomController
+*
+>
 (
 "
 layers
@@ -16495,6 +16499,7 @@ APZCTreeManager
 :
 :
 CollectTransformsForChromeMainThread
+this
 )
 )
 ;
