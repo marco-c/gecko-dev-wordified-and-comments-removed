@@ -356,9 +356,6 @@ referrerInfo
 StorageAccess
 storageAccess
 ;
-bool
-isSharedWorker
-;
 OptionalServiceWorkerData
 serviceWorkerData
 ;
