@@ -165,11 +165,6 @@ WorkerHolder
 h
 '
 '
-WorkerHolderToken
-.
-h
-'
-'
 WorkerLoadInfo
 .
 h
@@ -331,11 +326,6 @@ cpp
 '
 '
 WorkerHolder
-.
-cpp
-'
-'
-WorkerHolderToken
 .
 cpp
 '
