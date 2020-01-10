@@ -276,12 +276,6 @@ dev
 '
         
 '
-libgconf2
--
-dev
-'
-        
-'
 libgtk
 -
 3
