@@ -2092,6 +2092,12 @@ load
 1581579
 .
 html
+skip
+-
+if
+(
+release_or_beta
+)
 pref
 (
 dom
@@ -2114,6 +2120,9 @@ load
 1593766
 .
 html
+#
+bug
+1581896
 pref
 (
 layout
