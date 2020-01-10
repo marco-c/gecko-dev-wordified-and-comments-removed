@@ -612,7 +612,7 @@ mojom
 .
 SensorInitParams
 .
-kReadBufferSizeForTests
+READ_BUFFER_SIZE_FOR_TESTS
 ;
 this
 .
