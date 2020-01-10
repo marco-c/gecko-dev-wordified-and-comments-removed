@@ -92,7 +92,7 @@ js
 /
 src
 /
-dbg
+debugger
 its
 own
 moz
@@ -101,6 +101,7 @@ build
 file
 separate
 from
+#
 js
 /
 src
@@ -109,7 +110,6 @@ moz
 .
 build
 so
-#
 that
 the
 object
@@ -122,22 +122,23 @@ conflict
 with
 those
 from
+#
 other
 directories
 .
-#
 For
 example
 js
 /
 src
 /
-dbg
+debugger
 /
 Object
 .
 cpp
 and
+#
 js
 /
 src
@@ -149,7 +150,6 @@ Object
 cpp
 had
 better
-#
 not
 smash
 each
@@ -160,6 +160,7 @@ s
 o
 files
 when
+#
 unified
 sources
 are
@@ -218,7 +219,7 @@ cxxflags
 mozbuild
 '
 )
-SOURCES
+UNIFIED_SOURCES
 =
 [
 '
