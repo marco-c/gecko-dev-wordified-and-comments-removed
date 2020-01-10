@@ -575,7 +575,7 @@ Services
 .
 profiler
 .
-ResumeSampling
+StopProfiler
 (
 )
 ;
