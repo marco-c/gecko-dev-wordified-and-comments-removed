@@ -425,6 +425,14 @@ value
 ;
 typedef
 (
+DOMString
+or
+CSSKeywordValue
+)
+CSSKeywordish
+;
+typedef
+(
 double
 or
 CSSNumericValue
