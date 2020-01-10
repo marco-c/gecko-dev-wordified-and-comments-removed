@@ -453,6 +453,13 @@ aarch64
 *
 :
 2
+linux64
+-
+ccov
+/
+opt
+:
+3
 default
 :
 default

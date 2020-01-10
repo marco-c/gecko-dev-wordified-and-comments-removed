@@ -474,6 +474,13 @@ running
 on
 integration
 branches
+linux64
+-
+ccov
+/
+opt
+:
+3
 default
 :
 default
@@ -895,6 +902,13 @@ running
 on
 integration
 branches
+linux64
+-
+ccov
+/
+opt
+:
+3
 default
 :
 default
