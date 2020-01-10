@@ -973,6 +973,10 @@ Wattributes
 "
 #
 endif
+#
+if
+!
+MOZ_IS_GCC
 template
 struct
 JS_PUBLIC_API
@@ -982,6 +986,8 @@ JSObject
 *
 >
 ;
+#
+endif
 template
 struct
 JS_PUBLIC_API
