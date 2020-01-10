@@ -33,6 +33,13 @@ JumpTarget
 {
 BytecodeOffset
 offset
+=
+BytecodeOffset
+:
+:
+invalidOffset
+(
+)
 ;
 }
 ;

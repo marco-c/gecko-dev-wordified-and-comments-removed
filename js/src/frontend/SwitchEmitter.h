@@ -369,15 +369,6 @@ lastCaseOffset_
 ;
 JumpTarget
 defaultJumpTargetOffset_
-=
-{
-BytecodeOffset
-:
-:
-invalidOffset
-(
-)
-}
 ;
 JumpList
 condSwitchDefaultOffset_

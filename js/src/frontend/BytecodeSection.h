@@ -1194,15 +1194,6 @@ lastNoteOffset_
 ;
 JumpTarget
 lastTarget_
-=
-{
-BytecodeOffset
-:
-:
-invalidOffset
-(
-)
-}
 ;
 uint32_t
 maxStackDepth_
