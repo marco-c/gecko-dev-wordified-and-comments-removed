@@ -535,6 +535,10 @@ RegisteredThread
 &
 aRegisteredThread
 const
+TimeStamp
+&
+aNow
+const
 Func
 &
 aProcessRegs
@@ -661,6 +665,7 @@ context
 aProcessRegs
 (
 regs
+aNow
 )
 ;
 ResumeThread

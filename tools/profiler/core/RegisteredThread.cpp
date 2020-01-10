@@ -141,6 +141,10 @@ RegisteredThread
 :
 GetRunningEventDelay
 (
+const
+TimeStamp
+&
+aNow
 TimeDuration
 &
 aDelay
@@ -180,12 +184,7 @@ IsNull
 {
 aRunning
 =
-TimeStamp
-:
-:
-Now
-(
-)
+aNow
 -
 start
 ;

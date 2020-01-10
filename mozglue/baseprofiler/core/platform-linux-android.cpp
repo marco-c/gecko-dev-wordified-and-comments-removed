@@ -1140,6 +1140,10 @@ RegisteredThread
 &
 aRegisteredThread
 const
+TimeStamp
+&
+aNow
+const
 Func
 &
 aProcessRegs
@@ -1276,6 +1280,7 @@ mUContext
 aProcessRegs
 (
 regs
+aNow
 )
 ;
 r

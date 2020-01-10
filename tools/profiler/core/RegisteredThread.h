@@ -396,6 +396,10 @@ mStackTop
 void
 GetRunningEventDelay
 (
+const
+TimeStamp
+&
+aNow
 TimeDuration
 &
 aDelay
