@@ -149,7 +149,7 @@ t
 const
 p
 =
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -173,7 +173,7 @@ HTML
 ;
 assert_true
 (
-TrustedTypes
+trustedTypes
 .
 isHTML
 (
@@ -210,7 +210,7 @@ TrustedHTML
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isHTML
 (
@@ -243,7 +243,7 @@ fake
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isHTML
 (
@@ -281,7 +281,7 @@ t
 const
 p
 =
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -305,7 +305,7 @@ SCRIPT
 ;
 assert_true
 (
-TrustedTypes
+trustedTypes
 .
 isScript
 (
@@ -342,7 +342,7 @@ TrustedScript
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScript
 (
@@ -375,7 +375,7 @@ fake
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScript
 (
@@ -413,7 +413,7 @@ t
 const
 p
 =
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -437,7 +437,7 @@ SCRIPTURL
 ;
 assert_true
 (
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -474,7 +474,7 @@ TrustedScriptURL
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -507,7 +507,7 @@ fake
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -545,7 +545,7 @@ t
 const
 p
 =
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -569,7 +569,7 @@ URL
 ;
 assert_true
 (
-TrustedTypes
+trustedTypes
 .
 isURL
 (
@@ -606,7 +606,7 @@ TrustedURL
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isURL
 (
@@ -639,7 +639,7 @@ fake
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isURL
 (
@@ -680,7 +680,7 @@ t
 {
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isHTML
 (
@@ -690,7 +690,7 @@ null
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isHTML
 (
@@ -700,7 +700,7 @@ isHTML
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isHTML
 (
@@ -712,7 +712,7 @@ isHTML
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isHTML
 (
@@ -724,7 +724,7 @@ test
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isHTML
 (
@@ -735,7 +735,7 @@ isHTML
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScript
 (
@@ -745,7 +745,7 @@ null
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScript
 (
@@ -755,7 +755,7 @@ isScript
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScript
 (
@@ -767,7 +767,7 @@ isScript
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScript
 (
@@ -779,7 +779,7 @@ test
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScript
 (
@@ -790,7 +790,7 @@ isScript
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isURL
 (
@@ -800,7 +800,7 @@ null
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isURL
 (
@@ -810,7 +810,7 @@ isURL
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isURL
 (
@@ -822,7 +822,7 @@ isURL
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isURL
 (
@@ -834,7 +834,7 @@ test
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isURL
 (
@@ -845,7 +845,7 @@ isURL
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -855,7 +855,7 @@ null
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -865,7 +865,7 @@ isScriptURL
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -877,7 +877,7 @@ isScriptURL
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -889,7 +889,7 @@ test
 ;
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -996,7 +996,7 @@ t
 {
 try
 {
-TrustedTypes
+trustedTypes
 .
 isHTML
 =
@@ -1014,7 +1014,7 @@ catch
 }
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isHTML
 (
@@ -1043,7 +1043,7 @@ t
 {
 try
 {
-TrustedTypes
+trustedTypes
 .
 isScript
 =
@@ -1061,7 +1061,7 @@ catch
 }
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScript
 (
@@ -1090,7 +1090,7 @@ t
 {
 try
 {
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 =
@@ -1108,7 +1108,7 @@ catch
 }
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -1137,7 +1137,7 @@ t
 {
 try
 {
-TrustedTypes
+trustedTypes
 .
 isURL
 =
@@ -1155,7 +1155,7 @@ catch
 }
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isURL
 (
@@ -1216,7 +1216,7 @@ catch
 }
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isHTML
 (
@@ -1270,7 +1270,7 @@ catch
 }
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScript
 (
@@ -1324,7 +1324,7 @@ catch
 }
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -1378,7 +1378,7 @@ catch
 }
 assert_false
 (
-TrustedTypes
+trustedTypes
 .
 isURL
 (

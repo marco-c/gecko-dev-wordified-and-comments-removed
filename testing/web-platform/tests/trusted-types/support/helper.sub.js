@@ -284,7 +284,7 @@ c
 return
 win
 .
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -311,7 +311,7 @@ c
 return
 win
 .
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -338,7 +338,7 @@ c
 return
 win
 .
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -365,7 +365,7 @@ c
 return
 win
 .
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (

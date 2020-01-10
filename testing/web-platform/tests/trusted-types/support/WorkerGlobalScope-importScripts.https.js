@@ -1,7 +1,7 @@
 let
 test_setup_policy
 =
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -104,7 +104,7 @@ worker
 let
 test_policy
 =
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -163,7 +163,7 @@ assert_true
 (
 this
 .
-TrustedTypes
+trustedTypes
 .
 isScriptURL
 (
@@ -501,7 +501,7 @@ in
 worker_type
 )
 ;
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
