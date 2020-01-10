@@ -313,7 +313,7 @@ r
 )
 '
     
-jsutil_cpp
+util_Utility_cpp
 =
 set
 (
@@ -441,13 +441,13 @@ filename
 =
 =
 '
-jsutil
+Utility
 .
 o
 '
 :
             
-jsutil_cpp
+util_Utility_cpp
 .
 add
 (
@@ -488,7 +488,7 @@ if
 fn
 not
 in
-jsutil_cpp
+util_Utility_cpp
 :
             
 fail
@@ -508,7 +508,9 @@ used
 as
 expected
 in
-jsutil
+util
+/
+Utility
 .
 cpp
 "
@@ -517,7 +519,7 @@ cpp
 else
 :
             
-jsutil_cpp
+util_Utility_cpp
 .
 remove
 (
@@ -525,7 +527,7 @@ fn
 )
     
 if
-jsutil_cpp
+util_Utility_cpp
 :
         
 fail
@@ -536,7 +538,9 @@ allocation
 fns
 used
 in
-jsutil
+util
+/
+Utility
 .
 cpp
 :
@@ -548,7 +552,7 @@ cpp
 .
 join
 (
-jsutil_cpp
+util_Utility_cpp
 )
 )
     
@@ -584,7 +588,12 @@ in
 unoptimized
 builds
 ;
-jsutil
+'
+              
+'
+util
+/
+Utility
 .
 cpp
 expected
