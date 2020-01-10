@@ -42475,6 +42475,15 @@ HandlePostedReflowCallbacks
 aInterruptible
 )
 ;
+AutoAssertNoFlush
+noReentrantFlush
+(
+*
+this
+)
+;
+if
+(
 nsCOMPtr
 <
 nsIDocShell
@@ -42487,10 +42496,6 @@ mPresContext
 GetDocShell
 (
 )
-;
-if
-(
-docShell
 )
 {
 DOMHighResTimeStamp
