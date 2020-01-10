@@ -1461,7 +1461,7 @@ profiler_get_backtrace
 )
 )
 ;
-AUTO_PROFILER_LABEL_DYNAMIC_CSTR
+AUTO_PROFILER_LABEL_DYNAMIC_CSTR_NONSENSITIVE
 (
 "
 nsObserverService
