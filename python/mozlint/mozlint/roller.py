@@ -5,6 +5,8 @@ absolute_import
 print_function
 unicode_literals
 import
+copy
+import
 os
 import
 signal
@@ -741,6 +743,31 @@ continue
 try
 :
                 
+setupargs
+=
+copy
+.
+deepcopy
+(
+self
+.
+lintargs
+)
+                
+setupargs
+[
+'
+name
+'
+]
+=
+linter
+[
+'
+name
+'
+]
+                
 res
 =
 findobject
@@ -755,9 +782,7 @@ setup
 (
 *
 *
-self
-.
-lintargs
+setupargs
 )
             
 except
