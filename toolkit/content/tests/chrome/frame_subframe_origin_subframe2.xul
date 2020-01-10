@@ -97,7 +97,7 @@ css
 ?
 >
 <
-page
+window
 id
 =
 "
@@ -418,5 +418,5 @@ script
 >
 <
 /
-page
+window
 >

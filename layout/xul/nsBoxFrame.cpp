@@ -4413,10 +4413,6 @@ window
 nsGkAtoms
 :
 :
-page
-nsGkAtoms
-:
-:
 dialog
 nsGkAtoms
 :

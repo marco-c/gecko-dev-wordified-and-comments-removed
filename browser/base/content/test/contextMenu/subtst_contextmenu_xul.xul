@@ -72,7 +72,7 @@ MPL
 -
 >
 <
-page
+window
 xmlns
 =
 "
@@ -166,5 +166,5 @@ com
 >
 <
 /
-page
+window
 >

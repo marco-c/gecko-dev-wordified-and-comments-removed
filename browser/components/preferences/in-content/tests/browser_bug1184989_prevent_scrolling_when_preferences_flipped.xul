@@ -24,7 +24,7 @@ Bug
 -
 >
 <
-page
+window
 title
 =
 "
@@ -174,5 +174,5 @@ vbox
 >
 <
 /
-page
+window
 >

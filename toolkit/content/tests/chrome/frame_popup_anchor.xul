@@ -36,7 +36,7 @@ css
 ?
 >
 <
-page
+window
 xmlns
 =
 "
@@ -729,5 +729,5 @@ script
 >
 <
 /
-page
+window
 >

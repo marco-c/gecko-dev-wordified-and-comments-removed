@@ -199,7 +199,7 @@ css
 <
 !
 DOCTYPE
-page
+window
 [
 <
 !
@@ -275,7 +275,7 @@ browserDTD
 ]
 >
 <
-page
+window
 id
 =
 "
@@ -1114,5 +1114,5 @@ tree
 >
 <
 /
-page
+window
 >

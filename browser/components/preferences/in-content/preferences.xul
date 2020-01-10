@@ -306,7 +306,7 @@ css
 <
 !
 DOCTYPE
-page
+window
 >
 <
 !
@@ -386,7 +386,7 @@ Bug
 -
 >
 <
-page
+window
 xmlns
 =
 "
@@ -2511,5 +2511,5 @@ stack
 >
 <
 /
-page
+window
 >

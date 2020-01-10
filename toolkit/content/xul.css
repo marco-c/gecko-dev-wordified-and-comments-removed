@@ -324,7 +324,6 @@ normal
 ;
 }
 window
-page
 {
 overflow
 :
@@ -2177,18 +2176,6 @@ dialog
 dialog
 :
 root
-{
--
-moz
--
-box
--
-orient
-:
-vertical
-;
-}
-page
 {
 -
 moz
