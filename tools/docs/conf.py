@@ -276,6 +276,10 @@ root_for_relative_js_paths
 jsdoc_config_path
 =
 '
+tools
+/
+docs
+/
 jsdoc
 .
 json
