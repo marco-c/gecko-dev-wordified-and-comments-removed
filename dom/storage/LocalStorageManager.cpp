@@ -907,7 +907,7 @@ rv
 =
 GenerateOriginKey
 (
-aPrincipal
+aStoragePrincipal
 originAttrSuffix
 originKey
 )
@@ -1137,7 +1137,7 @@ PutCache
 (
 originAttrSuffix
 originKey
-aPrincipal
+aStoragePrincipal
 )
 ;
 #
