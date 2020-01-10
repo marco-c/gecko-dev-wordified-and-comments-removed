@@ -6897,7 +6897,7 @@ add_argument
 "
 -
 -
-stability
+disable_intermittent
 "
 nargs
 =

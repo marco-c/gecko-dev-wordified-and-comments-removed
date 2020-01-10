@@ -642,12 +642,12 @@ run_log
             
 state
 .
-stability
+disable_intermittent
 =
 kwargs
 [
 "
-stability
+disable_intermittent
 "
 ]
             

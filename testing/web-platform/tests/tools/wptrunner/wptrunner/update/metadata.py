@@ -140,11 +140,11 @@ sync_root
 =
 sync_root
                                  
-stability
+disable_intermittent
 =
 state
 .
-stability
+disable_intermittent
 )
 class
 CreateMetadataPatch
