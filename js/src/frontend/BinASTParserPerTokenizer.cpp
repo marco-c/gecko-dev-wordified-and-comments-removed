@@ -2020,11 +2020,14 @@ setStrict
 )
 ;
 }
+MOZ_ASSERT
+(
 lazy
 -
 >
-setIsBinAST
+isBinAST
 (
+)
 )
 ;
 fun
