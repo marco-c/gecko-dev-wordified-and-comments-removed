@@ -273,6 +273,15 @@ use
 crate
 :
 :
+render_task_graph
+:
+:
+RenderTaskId
+;
+use
+crate
+:
+:
 render_task
 :
 :
@@ -290,7 +299,6 @@ render_task
 :
 :
 {
-RenderTaskId
 RenderTaskLocation
 BlurTaskCache
 }

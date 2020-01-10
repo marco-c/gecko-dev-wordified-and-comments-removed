@@ -190,7 +190,7 @@ use
 crate
 :
 :
-tiling
+render_task_graph
 ;
 pub
 type
@@ -2518,7 +2518,7 @@ RenderedDocument
 pub
 frame
 :
-tiling
+render_task_graph
 :
 :
 Frame
