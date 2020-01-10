@@ -10551,7 +10551,7 @@ directions
 scrollableFrame
 -
 >
-GetAvailableScrollingDirections
+GetPerceivedScrollingDirections
 (
 )
 ;
@@ -50910,7 +50910,7 @@ aFrame
 nsSVGUtils
 :
 :
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 |
 nsSVGUtils
 :
@@ -51145,7 +51145,7 @@ aFrame
 nsSVGUtils
 :
 :
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 )
 ;
 r
@@ -51188,7 +51188,7 @@ aFrame
 nsSVGUtils
 :
 :
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 )
 ;
 r
