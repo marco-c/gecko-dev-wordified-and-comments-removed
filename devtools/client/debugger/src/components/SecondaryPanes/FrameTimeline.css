@@ -92,6 +92,17 @@ purple
 )
 ;
 }
+body
+.
+scrubbing
+{
+user
+-
+select
+:
+none
+;
+}
 .
 frame
 -
