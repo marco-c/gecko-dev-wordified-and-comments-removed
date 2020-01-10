@@ -29,6 +29,13 @@ CONFIG_FLAC_DECODER
 ff_flac_decoder
 #
 endif
+#
+if
+CONFIG_MP3_DECODER
+&
+ff_mp3_decoder
+#
+endif
 NULL
 }
 ;
