@@ -57,6 +57,11 @@ io
 longtasks
 /
 )
+[
+Exposed
+=
+Window
+]
 interface
 PerformanceLongTaskTiming
 :
@@ -80,6 +85,11 @@ toJSON
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 TaskAttributionTiming
 :
