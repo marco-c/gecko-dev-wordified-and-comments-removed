@@ -2627,7 +2627,6 @@ aOther
 }
 private
 :
-const
 uint64_t
 mVersion
 ;
