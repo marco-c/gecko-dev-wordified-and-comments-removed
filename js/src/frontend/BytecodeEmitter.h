@@ -2359,9 +2359,6 @@ ParseNode
 rhs
 HandleAtom
 anonFunctionName
-bool
-*
-emitSetFunName
 )
 ;
 MOZ_MUST_USE
