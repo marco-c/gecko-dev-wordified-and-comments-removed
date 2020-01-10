@@ -20730,9 +20730,6 @@ type
 :
 RelaxedAtomicBool
 #
-ifdef
-XP_WIN
-#
 Prefer
 flipping
 between
@@ -20751,14 +20748,7 @@ OS
 .
 value
 :
-IS_NIGHTLY_BUILD
-#
-else
-value
-:
-false
-#
-endif
+true
 mirror
 :
 always
