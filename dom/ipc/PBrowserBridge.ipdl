@@ -611,6 +611,8 @@ Activate
 async
 Deactivate
 (
+bool
+aWindowLowering
 )
 ;
 async
