@@ -1695,6 +1695,8 @@ Throw
 NS_ERROR_DOM_INVALID_ACCESS_ERR
 )
 ;
+return
+;
 }
 uint32_t
 length
