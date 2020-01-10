@@ -1270,7 +1270,10 @@ mFromFallback
 #
 ifdef
 XP_MACOSX
+Atomic
+<
 bool
+>
 mNeedsPanning
 ;
 #
