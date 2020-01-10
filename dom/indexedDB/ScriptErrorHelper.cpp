@@ -419,11 +419,6 @@ do_GetService
 NS_CONSOLESERVICE_CONTRACTID
 )
 ;
-MOZ_ASSERT
-(
-consoleService
-)
-;
 nsCOMPtr
 <
 nsIScriptError
@@ -494,6 +489,11 @@ aIsChrome
 )
 ;
 }
+if
+(
+consoleService
+)
+{
 MOZ_ALWAYS_SUCCEEDS
 (
 consoleService
@@ -505,6 +505,7 @@ scriptError
 )
 )
 ;
+}
 }
 NS_IMETHOD
 Run
