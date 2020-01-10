@@ -1590,6 +1590,11 @@ closeHandle
 handle
 )
 {
+if
+(
+handle
+)
+{
 let
 lib
 =
@@ -1638,6 +1643,7 @@ close
 (
 )
 ;
+}
 }
 function
 createMutex
@@ -9409,6 +9415,10 @@ closeHandle
 (
 gUpdateMutexHandle
 )
+;
+gUpdateMutexHandle
+=
+null
 ;
 }
 if
