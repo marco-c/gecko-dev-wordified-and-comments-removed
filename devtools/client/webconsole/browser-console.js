@@ -125,7 +125,7 @@ null
 ;
 }
 get
-target
+currentTarget
 (
 )
 {
@@ -273,7 +273,7 @@ destroy
 await
 this
 .
-target
+currentTarget
 .
 destroy
 (
