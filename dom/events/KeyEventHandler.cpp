@@ -3355,8 +3355,8 @@ warningFlag
 NS_LITERAL_CSTRING
 (
 "
-XBL
-Prototype
+Key
+Event
 Handler
 "
 )
@@ -3364,7 +3364,7 @@ doc
 nsContentUtils
 :
 :
-eXBL_PROPERTIES
+eDOM_PROPERTIES
 aMessageName
 params
 nullptr
