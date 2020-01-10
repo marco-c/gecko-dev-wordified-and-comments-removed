@@ -410,6 +410,10 @@ mIsDiscarded
 =
 true
 ;
+mClosed
+=
+true
+;
 }
 BrowsingContext
 *
@@ -1827,7 +1831,7 @@ frame
 MOZ_ASSERT
 (
 !
-mClosed
+mIsDiscarded
 "
 We
 '

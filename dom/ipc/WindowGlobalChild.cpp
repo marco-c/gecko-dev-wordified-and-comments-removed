@@ -456,7 +456,7 @@ if
 bc
 -
 >
-GetClosed
+IsDiscarded
 (
 )
 )

@@ -454,6 +454,16 @@ return
 mIsInProcess
 ;
 }
+bool
+IsDiscarded
+(
+)
+const
+{
+return
+mIsDiscarded
+;
+}
 nsIDocShell
 *
 GetDocShell

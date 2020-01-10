@@ -1587,7 +1587,7 @@ parentContext
 parentContext
 -
 >
-GetClosed
+IsDiscarded
 (
 )
 )
