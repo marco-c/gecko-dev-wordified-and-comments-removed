@@ -293,7 +293,7 @@ Invalid
 Key
 :
 :
-ToLocaleBasedKey
+ToLocaleAwareKey
 (
 Key
 &

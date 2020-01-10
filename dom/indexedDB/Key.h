@@ -887,7 +887,7 @@ IDBSpecialValue
 :
 Invalid
 >
-ToLocaleBasedKey
+ToLocaleAwareKey
 (
 Key
 &
