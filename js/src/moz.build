@@ -1804,6 +1804,15 @@ builtin
 /
 streams
 /
+ReadableStreamDefaultController
+.
+cpp
+'
+'
+builtin
+/
+streams
+/
 ReadableStreamDefaultReader
 .
 cpp

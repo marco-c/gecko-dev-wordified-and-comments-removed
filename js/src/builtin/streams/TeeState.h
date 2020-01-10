@@ -34,7 +34,9 @@ include
 "
 builtin
 /
-Stream
+streams
+/
+ReadableStreamController
 .
 h
 "
