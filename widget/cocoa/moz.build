@@ -221,6 +221,11 @@ nsFilePicker
 mm
 '
 '
+nsIconLoaderService
+.
+mm
+'
+'
 nsIdleServiceX
 .
 mm
