@@ -3666,7 +3666,9 @@ translateY
 ;
 float
 :
-right
+inline
+-
+end
 ;
 }
 .
