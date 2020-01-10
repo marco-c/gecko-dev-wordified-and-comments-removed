@@ -2460,6 +2460,11 @@ int64_t
 aSize
 )
 ;
+bool
+profiler_could_be_locked_on_current_thread
+(
+)
+;
 void
 profiler_add_marker_for_thread
 (
