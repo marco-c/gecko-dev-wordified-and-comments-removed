@@ -6209,6 +6209,12 @@ void
 aThing
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+suppress
+;
 if
 (
 auto
