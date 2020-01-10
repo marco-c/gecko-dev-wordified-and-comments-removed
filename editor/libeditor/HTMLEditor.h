@@ -1342,6 +1342,17 @@ aLength
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+DeleteParentBlocksWithTransactionIfEmpty
+(
+const
+EditorDOMPoint
+&
+aPoint
+)
+;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InsertTextWithTransaction
