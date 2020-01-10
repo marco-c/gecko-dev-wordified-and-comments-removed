@@ -9590,6 +9590,17 @@ return
 NS_ERROR_FAILURE
 ;
 }
+*
+aType
+=
+Msg
+(
+)
+.
+type
+(
+)
+;
 return
 NS_OK
 ;
