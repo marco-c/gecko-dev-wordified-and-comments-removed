@@ -291,6 +291,20 @@ thing
 filename
 (
 )
+and
+                    
+thing
+.
+mixin
+.
+identifier
+.
+name
+!
+=
+"
+LegacyQueryInterface
+"
 )
 :
                     
@@ -341,6 +355,23 @@ is
                         
 "
 defined
+.
+Don
+'
+t
+do
+this
+unless
+your
+right
+-
+hand
+side
+"
+                        
+"
+is
+LegacyQueryInterface
 .
 \
 n

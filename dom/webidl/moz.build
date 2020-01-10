@@ -3977,6 +3977,11 @@ KeyIdsInitData
 webidl
 '
 '
+LegacyQueryInterface
+.
+webidl
+'
+'
 LinkStyle
 .
 webidl
