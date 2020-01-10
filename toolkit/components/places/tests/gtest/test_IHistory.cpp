@@ -621,9 +621,6 @@ do_get_IHistory
 (
 )
 ;
-nsresult
-rv
-=
 history
 -
 >
@@ -631,11 +628,6 @@ UnregisterVisitedCallback
 (
 testURI
 testLink
-)
-;
-do_check_success
-(
-rv
 )
 ;
 testURI
@@ -795,8 +787,6 @@ do_check_success
 rv
 )
 ;
-rv
-=
 history
 -
 >
@@ -804,11 +794,6 @@ UnregisterVisitedCallback
 (
 testURI
 link
-)
-;
-do_check_success
-(
-rv
 )
 ;
 addURI
@@ -940,8 +925,6 @@ do_check_success
 rv
 )
 ;
-rv
-=
 history
 -
 >
@@ -949,11 +932,6 @@ UnregisterVisitedCallback
 (
 testURI
 link
-)
-;
-do_check_success
-(
-rv
 )
 ;
 run_next_test
@@ -1422,8 +1400,6 @@ notVisitedNotified
 }
 )
 ;
-rv
-=
 history
 -
 >
@@ -1431,11 +1407,6 @@ UnregisterVisitedCallback
 (
 notVisitedURI
 notVisitedLink
-)
-;
-do_check_success
-(
-rv
 )
 ;
 run_next_test

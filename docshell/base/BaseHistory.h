@@ -31,7 +31,7 @@ IHistory
 {
 public
 :
-NS_IMETHODIMP
+nsresult
 RegisterVisitedCallback
 (
 nsIURI
@@ -44,7 +44,7 @@ Link
 )
 final
 ;
-NS_IMETHODIMP
+void
 UnregisterVisitedCallback
 (
 nsIURI
@@ -57,7 +57,7 @@ Link
 )
 final
 ;
-NS_IMETHODIMP
+void
 NotifyVisited
 (
 nsIURI

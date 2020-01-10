@@ -317,7 +317,7 @@ Remove
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 BaseHistory
 :
 :
@@ -574,7 +574,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 BaseHistory
 :
 :
@@ -664,7 +664,6 @@ registered
 #
 endif
 return
-NS_ERROR_UNEXPECTED
 ;
 }
 ObserverArray
@@ -712,7 +711,6 @@ registered
 #
 endif
 return
-NS_ERROR_UNEXPECTED
 ;
 }
 if
@@ -736,11 +734,8 @@ aURI
 )
 ;
 }
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 BaseHistory
 :
 :
@@ -758,11 +753,18 @@ NS_IsMainThread
 )
 )
 ;
-NS_ENSURE_ARG
+if
 (
+NS_WARN_IF
+(
+!
 aURI
 )
+)
+{
+return
 ;
+}
 nsAutoScriptBlocker
 scriptBlocker
 ;
@@ -783,7 +785,6 @@ entry
 )
 {
 return
-NS_OK
 ;
 }
 ObservingLinks
@@ -888,8 +889,5 @@ doc
 )
 ;
 }
-return
-NS_OK
-;
 }
 }
