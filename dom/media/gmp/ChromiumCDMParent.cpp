@@ -1406,8 +1406,6 @@ aMinHdcpVersion
 EqualsIgnoreCase
 (
 "
-hdcp
--
 1
 .
 0
@@ -1432,8 +1430,6 @@ aMinHdcpVersion
 EqualsIgnoreCase
 (
 "
-hdcp
--
 1
 .
 1
@@ -1458,8 +1454,6 @@ aMinHdcpVersion
 EqualsIgnoreCase
 (
 "
-hdcp
--
 1
 .
 2
@@ -1484,8 +1478,6 @@ aMinHdcpVersion
 EqualsIgnoreCase
 (
 "
-hdcp
--
 1
 .
 3
@@ -1510,8 +1502,6 @@ aMinHdcpVersion
 EqualsIgnoreCase
 (
 "
-hdcp
--
 1
 .
 4
@@ -1536,8 +1526,6 @@ aMinHdcpVersion
 EqualsIgnoreCase
 (
 "
-hdcp
--
 2
 .
 0
@@ -1562,8 +1550,6 @@ aMinHdcpVersion
 EqualsIgnoreCase
 (
 "
-hdcp
--
 2
 .
 1
@@ -1588,8 +1574,6 @@ aMinHdcpVersion
 EqualsIgnoreCase
 (
 "
-hdcp
--
 2
 .
 2
