@@ -2547,7 +2547,7 @@ Element
 &
 aElement
 const
-L10nValue
+L10nMessage
 &
 aTranslation
 Nullable
@@ -2834,7 +2834,7 @@ Element
 &
 aElement
 const
-L10nValue
+L10nMessage
 &
 aTranslation
 nsTArray

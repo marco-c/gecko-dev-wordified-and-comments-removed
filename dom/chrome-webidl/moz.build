@@ -331,6 +331,11 @@ L10nOverlays
 webidl
 '
 '
+Localization
+.
+webidl
+'
+'
 MatchGlob
 .
 webidl

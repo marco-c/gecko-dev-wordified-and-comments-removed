@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_l10n_L10nMutations_h__
+mozilla_dom_l10n_L10nMutations_h
 #
 define
-mozilla_dom_l10n_L10nMutations_h__
+mozilla_dom_l10n_L10nMutations_h
 #
 include
 "

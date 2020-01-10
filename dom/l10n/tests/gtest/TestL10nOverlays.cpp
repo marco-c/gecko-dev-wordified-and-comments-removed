@@ -292,7 +292,7 @@ span
 rv
 )
 ;
-L10nValue
+L10nMessage
 translation
 ;
 translation
