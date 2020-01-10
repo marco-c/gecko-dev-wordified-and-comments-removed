@@ -397,6 +397,12 @@ GetUserReferrerSendingPolicy
 )
 ;
 static
+uint32_t
+GetUserXOriginSendingPolicy
+(
+)
+;
+static
 ReferrerPolicyEnum
 GetDefaultReferrerPolicy
 (
