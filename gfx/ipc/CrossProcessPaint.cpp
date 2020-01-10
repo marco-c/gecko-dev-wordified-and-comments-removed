@@ -1120,7 +1120,6 @@ CrossProcessPaint
 (
 aPromise
 aScale
-aBackgroundColor
 aRoot
 )
 ;
@@ -1224,6 +1223,7 @@ QueuePaint
 (
 aRoot
 rect
+aBackgroundColor
 )
 ;
 }
@@ -1244,8 +1244,6 @@ Promise
 aPromise
 float
 aScale
-nscolor
-aBackgroundColor
 dom
 :
 :
@@ -1265,10 +1263,6 @@ aRoot
 mScale
 {
 aScale
-}
-mBackgroundColor
-{
-aBackgroundColor
 }
 mPendingFragments
 {
@@ -1670,6 +1664,8 @@ IntRect
 >
 &
 aRect
+nscolor
+aBackgroundColor
 )
 {
 MOZ_ASSERT
@@ -1706,7 +1702,7 @@ DrawSnapshotInternal
 this
 aRect
 mScale
-mBackgroundColor
+aBackgroundColor
 )
 ;
 mPendingFragments

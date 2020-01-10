@@ -345,8 +345,6 @@ Promise
 aPromise
 float
 aScale
-nscolor
-aBackgroundColor
 dom
 :
 :
@@ -376,6 +374,16 @@ IntRect
 >
 &
 aRect
+nscolor
+aBackgroundColor
+=
+NS_RGBA
+(
+0
+0
+0
+0
+)
 )
 ;
 void
@@ -428,9 +436,6 @@ mRoot
 ;
 float
 mScale
-;
-nscolor
-mBackgroundColor
 ;
 uint32_t
 mPendingFragments
