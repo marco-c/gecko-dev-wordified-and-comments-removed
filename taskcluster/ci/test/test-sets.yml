@@ -1871,7 +1871,6 @@ test
 timeouts
 -
 reftest
-#
 -
 telemetry
 -
@@ -1987,12 +1986,6 @@ webgl2
 ext
 test
 timeouts
--
-telemetry
--
-tests
--
-client
 -
 web
 -
