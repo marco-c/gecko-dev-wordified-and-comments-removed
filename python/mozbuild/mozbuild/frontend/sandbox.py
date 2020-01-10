@@ -1238,8 +1238,6 @@ exc_info
         
 except
 Exception
-as
-e
 :
             
 exc
