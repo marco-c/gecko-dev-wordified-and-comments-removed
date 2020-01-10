@@ -7504,6 +7504,13 @@ SendTextChange
 (
 )
 ;
+observer
+-
+>
+mNeedsToNotifyIMEOfSelectionChange
+=
+true
+;
 }
 if
 (
@@ -7512,6 +7519,14 @@ observer
 -
 >
 mNeedsToNotifyIMEOfTextChange
+)
+{
+if
+(
+observer
+-
+>
+mNeedsToNotifyIMEOfSelectionChange
 )
 {
 observer
@@ -7525,6 +7540,7 @@ SendSelectionChange
 (
 )
 ;
+}
 }
 if
 (
