@@ -243,17 +243,6 @@ terminated
 "
 }
 ;
-enum
-BinaryType
-{
-"
-blob
-"
-"
-arraybuffer
-"
-}
-;
 [
 SecureContext
 Exposed
