@@ -1918,7 +1918,7 @@ Kinto
 .
 syncStrategy
 .
-SERVER_WINS
+PULL_ONLY
 ;
 syncResult
 =
@@ -1949,7 +1949,7 @@ new
 Error
 (
 "
-Synced
+Sync
 failed
 "
 )
