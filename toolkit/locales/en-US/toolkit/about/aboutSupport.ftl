@@ -2041,7 +2041,7 @@ d3d9video
 -
 crash
 -
-buard
+guard
 =
 D3D9
 Video
