@@ -932,7 +932,7 @@ alloc
 (
 )
 )
-compileInfo_
+parseInfo_
 (
 parserInfo
 )

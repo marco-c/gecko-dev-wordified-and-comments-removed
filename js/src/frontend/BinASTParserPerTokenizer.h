@@ -1815,11 +1815,9 @@ parser
 parser
 -
 >
-usedNames_
-parser
--
->
-treeHolder_
+getParseInfo
+(
+)
 newDirectives
 true
 )

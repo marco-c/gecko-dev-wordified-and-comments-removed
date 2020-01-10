@@ -1312,13 +1312,9 @@ sc
 ErrorReporter
 &
 errorReporter
-class
-UsedNameTracker
+ParseInfo
 &
-usedNames
-FunctionTreeHolder
-&
-treeHolder
+parseInfo
 Directives
 *
 newDirectives
@@ -1403,6 +1399,8 @@ NoAwaitOffset
 )
 scriptId_
 (
+parseInfo
+.
 usedNames
 .
 nextScriptId
@@ -1427,6 +1425,8 @@ isFunctionBox
 {
 if
 (
+parseInfo
+.
 treeHolder
 .
 isDeferred
@@ -1452,6 +1452,8 @@ tree
 .
 emplace
 (
+parseInfo
+.
 treeHolder
 )
 ;
@@ -1474,6 +1476,8 @@ emplace
 (
 cx
 parent
+parseInfo
+.
 usedNames
 )
 ;
@@ -1484,6 +1488,8 @@ emplace
 (
 cx
 parent
+parseInfo
+.
 usedNames
 )
 ;
