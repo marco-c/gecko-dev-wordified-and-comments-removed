@@ -1162,6 +1162,7 @@ enabled
 return
 ;
 }
+await
 this
 .
 run
