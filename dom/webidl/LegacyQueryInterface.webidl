@@ -189,7 +189,3 @@ Window
 implements
 LegacyQueryInterface
 ;
-XMLHttpRequest
-implements
-LegacyQueryInterface
-;
