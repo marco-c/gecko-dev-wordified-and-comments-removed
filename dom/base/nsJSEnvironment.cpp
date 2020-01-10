@@ -4990,14 +4990,6 @@ cx
 aGlobalObj
 )
 ;
-:
-:
-JS_DefineProfilingFunctions
-(
-cx
-aGlobalObj
-)
-;
 #
 ifdef
 MOZ_JPROF
