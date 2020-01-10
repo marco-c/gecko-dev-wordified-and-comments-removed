@@ -200,6 +200,7 @@ actor
 *
 /
 async
+refcounted
 protocol
 PInProcess
 {
