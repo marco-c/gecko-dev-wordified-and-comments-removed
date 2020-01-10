@@ -24,7 +24,7 @@ MOZ_OBJDIR
 -
 n
 "
-GECKO_DIR
+GECKO_PATH
 "
 ]
 HAZARD_SHELL_OBJDIR
@@ -49,7 +49,7 @@ js
 "
 JS_SRCDIR
 =
-GECKO_DIR
+GECKO_PATH
 /
 js
 /
@@ -180,7 +180,7 @@ hg
 -
 cwd
 "
-GECKO_DIR
+GECKO_PATH
 "
 log
 -
@@ -472,7 +472,7 @@ MOZ_OBJDIR
 source
 =
 "
-GECKO_DIR
+GECKO_PATH
 "
 sixgill
 =
@@ -505,7 +505,7 @@ rev
 =
 (
 cd
-GECKO_DIR
+GECKO_PATH
 &
 &
 hg
@@ -666,7 +666,7 @@ v
 buildcommand
 =
 "
-GECKO_DIR
+GECKO_PATH
 /
 taskcluster
 /

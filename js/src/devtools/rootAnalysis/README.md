@@ -592,11 +592,11 @@ cd
 work
 (
 export
-GECKO_DIR
+GECKO_PATH
 =
 SRCDIR
 ;
-GECKO_DIR
+GECKO_PATH
 /
 taskcluster
 /
@@ -811,11 +811,11 @@ browser
 use
 (
 export
-GECKO_DIR
+GECKO_PATH
 =
 SRCDIR
 ;
-GECKO_DIR
+GECKO_PATH
 /
 taskcluster
 /

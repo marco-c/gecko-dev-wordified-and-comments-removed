@@ -282,7 +282,7 @@ mozconfig
 env
 [
 '
-GECKO_DIR
+GECKO_PATH
 '
 ]
 =

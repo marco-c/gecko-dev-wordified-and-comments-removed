@@ -27,7 +27,7 @@ dirname
 ;
 pwd
 )
-GECKO_DIR
+GECKO_PATH
 =
 SRCDIR
 SRCDIR
