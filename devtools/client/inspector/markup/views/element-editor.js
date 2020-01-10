@@ -5064,9 +5064,9 @@ edittagname
 ;
 this
 .
-markup
+node
 .
-walker
+walkerFront
 .
 editTagName
 (
