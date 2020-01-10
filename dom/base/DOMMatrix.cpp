@@ -430,9 +430,12 @@ DOMMatrixReadOnly
 :
 ReadStructuredClone
 (
-nsISupports
+JSContext
 *
-aParent
+aCx
+nsIGlobalObject
+*
+aGlobal
 JSStructuredCloneReader
 *
 aReader
@@ -466,7 +469,7 @@ rval
 new
 DOMMatrixReadOnly
 (
-aParent
+aGlobal
 is2D
 )
 ;
@@ -2564,6 +2567,9 @@ DOMMatrixReadOnly
 :
 WriteStructuredClone
 (
+JSContext
+*
+aCx
 JSStructuredCloneWriter
 *
 aWriter
@@ -3990,9 +3996,12 @@ DOMMatrix
 :
 ReadStructuredClone
 (
-nsISupports
+JSContext
 *
-aParent
+aCx
+nsIGlobalObject
+*
+aGlobal
 JSStructuredCloneReader
 *
 aReader
@@ -4026,7 +4035,7 @@ rval
 new
 DOMMatrix
 (
-aParent
+aGlobal
 is2D
 )
 ;

@@ -169,6 +169,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 DOMMatrixReadOnly
@@ -626,6 +627,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 ]
 interface
 DOMMatrix
