@@ -487,36 +487,6 @@ debugging
 .
 "
 )
-            
-CommandArgument
-(
-'
--
-o
-'
-'
--
--
-output
--
-file
-'
-default
-=
-None
-                            
-help
-=
-"
-file
-path
-to
-store
-generated
-output
-.
-"
-)
         
 ]
         
@@ -3170,35 +3140,9 @@ tasks_regex
 ]
 )
             
-fh
-=
-options
-[
-'
-output_file
-'
-]
-            
-if
-fh
-:
-                
-fh
-=
-open
-(
-fh
-'
-w
-'
-)
-            
 show_method
 (
 tg
-file
-=
-fh
 )
         
 except
@@ -3223,9 +3167,6 @@ show_taskgraph_labels
 (
 self
 taskgraph
-file
-=
-None
 )
 :
         
@@ -3251,9 +3192,6 @@ index
 ]
 .
 label
-file
-=
-file
 )
     
 def
@@ -3261,9 +3199,6 @@ show_taskgraph_json
 (
 self
 taskgraph
-file
-=
-None
 )
 :
         
@@ -3295,10 +3230,6 @@ separators
 '
 )
 )
-              
-file
-=
-file
 )
     
 def
