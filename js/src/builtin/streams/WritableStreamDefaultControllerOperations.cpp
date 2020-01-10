@@ -1146,6 +1146,14 @@ highWaterMark
 controller
 -
 >
+setUnderlyingSink
+(
+underlyingSink
+)
+;
+controller
+-
+>
 setWriteMethod
 (
 writeMethod
