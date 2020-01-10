@@ -1684,7 +1684,7 @@ stub
 (
 gSync
 "
-SYNC_ENABLED
+FXA_ENABLED
 "
 )
 .
@@ -1699,7 +1699,7 @@ false
 ;
 gSync
 .
-onSyncDisabled
+onFxaDisabled
 (
 )
 ;
