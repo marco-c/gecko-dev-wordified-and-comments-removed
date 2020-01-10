@@ -287,7 +287,7 @@ mod
 scene
 ;
 mod
-scene_builder
+scene_builder_thread
 ;
 mod
 screen_capture

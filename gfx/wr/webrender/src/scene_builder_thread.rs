@@ -1401,7 +1401,7 @@ empty
 }
 pub
 struct
-SceneBuilder
+SceneBuilderThread
 {
 documents
 :
@@ -1454,7 +1454,7 @@ MallocSizeOfOps
 >
 }
 impl
-SceneBuilder
+SceneBuilderThread
 {
 pub
 fn
@@ -1523,7 +1523,7 @@ channel
 )
 ;
 (
-SceneBuilder
+SceneBuilderThread
 {
 documents
 :
@@ -3548,7 +3548,7 @@ report
 }
 pub
 struct
-LowPrioritySceneBuilder
+LowPrioritySceneBuilderThread
 {
 pub
 rx
@@ -3570,7 +3570,7 @@ simulate_slow_ms
 u32
 }
 impl
-LowPrioritySceneBuilder
+LowPrioritySceneBuilderThread
 {
 pub
 fn
