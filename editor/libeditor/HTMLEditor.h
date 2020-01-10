@@ -2621,13 +2621,6 @@ AutoStyleCacheArray
 aStyleCacheArray
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
-ReapplyCachedStyles
-(
-)
-;
 protected
 :
 virtual

@@ -1707,6 +1707,13 @@ nsINode
 aNode
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+ReapplyCachedStyles
+(
+)
+;
 void
 ClearCachedStyles
 (
