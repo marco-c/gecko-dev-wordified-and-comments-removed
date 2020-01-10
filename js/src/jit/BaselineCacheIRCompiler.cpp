@@ -271,10 +271,6 @@ StubFieldPolicy
 :
 Address
 )
-inStubFrame_
-(
-false
-)
 makesGCCalls_
 (
 false
@@ -448,12 +444,12 @@ MOZ_ASSERT
 !
 compiler
 .
-inStubFrame_
+preparedForVMCall_
 )
 ;
 compiler
 .
-inStubFrame_
+preparedForVMCall_
 =
 true
 ;
@@ -492,12 +488,12 @@ MOZ_ASSERT
 (
 compiler
 .
-inStubFrame_
+preparedForVMCall_
 )
 ;
 compiler
 .
-inStubFrame_
+preparedForVMCall_
 =
 false
 ;
@@ -549,7 +545,7 @@ MOZ_ASSERT
 !
 compiler
 .
-inStubFrame_
+preparedForVMCall_
 )
 ;
 }
@@ -683,7 +679,7 @@ id
 MOZ_ASSERT
 (
 !
-inStubFrame_
+preparedForVMCall_
 )
 ;
 TrampolinePtr
@@ -962,7 +958,7 @@ more
 MOZ_ASSERT
 (
 !
-inStubFrame_
+preparedForVMCall_
 )
 ;
 masm

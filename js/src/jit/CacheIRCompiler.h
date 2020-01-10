@@ -2841,6 +2841,9 @@ Ion
 }
 ;
 bool
+preparedForVMCall_
+;
+bool
 isBaseline
 (
 )
@@ -3022,6 +3025,10 @@ StubFieldPolicy
 policy
 )
 :
+preparedForVMCall_
+(
+false
+)
 cx_
 (
 cx

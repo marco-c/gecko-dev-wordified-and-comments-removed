@@ -135,16 +135,6 @@ CodeOffset
 >
 stubJitCodeOffset_
 ;
-public
-:
-#
-ifdef
-DEBUG
-bool
-calledPrepareVMCall_
-;
-#
-endif
 private
 :
 bool

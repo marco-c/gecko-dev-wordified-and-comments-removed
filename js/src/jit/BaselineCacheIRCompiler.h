@@ -85,13 +85,6 @@ BaselineCacheIRCompiler
 public
 CacheIRCompiler
 {
-public
-:
-bool
-inStubFrame_
-;
-private
-:
 bool
 makesGCCalls_
 ;
