@@ -359,6 +359,11 @@ webrender
 =
 [
 '
+DCLayerTree
+.
+h
+'
+'
 RenderCompositorANGLE
 .
 h
@@ -383,6 +388,11 @@ SOURCES
 +
 =
 [
+'
+DCLayerTree
+.
+cpp
+'
 '
 RenderCompositorANGLE
 .
