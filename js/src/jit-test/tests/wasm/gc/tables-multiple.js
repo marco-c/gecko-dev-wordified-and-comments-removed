@@ -3500,6 +3500,8 @@ const
 SyntaxError
 /
 passive
+or
+declared
 segment
 must
 not

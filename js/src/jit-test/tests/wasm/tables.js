@@ -107,7 +107,6 @@ segment
 requires
 a
 table
-section
 /
 )
 ;
@@ -4017,13 +4016,14 @@ Uint8Array
 0x00
 0x01
 0x09
-0x07
+0x08
 0x01
 flag
 tblindex
 0x41
 0x00
 0x0b
+0x00
 0x00
 ]
 )
@@ -4054,7 +4054,7 @@ Module
 (
 makeIt
 (
-0x03
+0x08
 0x00
 )
 )
@@ -4064,9 +4064,9 @@ CompileError
 /
 invalid
 elem
-initializer
--
-kind
+segment
+flags
+field
 /
 )
 ;

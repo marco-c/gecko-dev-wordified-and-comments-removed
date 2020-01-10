@@ -3037,7 +3037,9 @@ body
 .
 push
 (
-1
+0x1
+|
+0x4
 )
 ;
 body
@@ -3194,8 +3196,10 @@ checkPassiveElemSegment
 type
 "
 /
-passive
 segments
+with
+element
+expressions
 can
 only
 contain

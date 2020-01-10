@@ -1768,7 +1768,6 @@ segment
 requires
 a
 table
-section
 /
 false
 true
