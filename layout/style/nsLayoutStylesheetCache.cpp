@@ -2073,7 +2073,16 @@ LoadSheetSync
 (
 aURI
 aParsingMode
-true
+css
+:
+:
+Loader
+:
+:
+UseSystemPrincipal
+:
+:
+Yes
 )
 ;
 if

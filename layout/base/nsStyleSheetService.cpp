@@ -1102,7 +1102,16 @@ LoadSheetSync
 (
 aSheetURI
 parsingMode
-true
+css
+:
+:
+Loader
+:
+:
+UseSystemPrincipal
+:
+:
+Yes
 )
 ;
 if
