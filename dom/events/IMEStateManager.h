@@ -771,10 +771,6 @@ static
 bool
 sCheckForIMEUnawareWebApps
 ;
-static
-bool
-sInputModeSupported
-;
 class
 MOZ_STACK_CLASS
 GettingNewIMEStateBlocker

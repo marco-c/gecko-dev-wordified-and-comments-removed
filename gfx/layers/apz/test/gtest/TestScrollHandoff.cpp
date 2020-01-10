@@ -3030,7 +3030,7 @@ CrossApzcAxisLock_NoTouchAction
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )
@@ -3048,7 +3048,7 @@ CrossApzcAxisLock_TouchAction
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )

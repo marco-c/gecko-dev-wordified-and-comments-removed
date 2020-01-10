@@ -30453,10 +30453,10 @@ aNode
 if
 (
 !
-nsGenericHTMLFrameElement
+StaticPrefs
 :
 :
-BrowserFramesEnabled
+dom_mozBrowserFramesEnabled
 (
 )
 )

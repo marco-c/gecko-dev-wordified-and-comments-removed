@@ -87,12 +87,6 @@ GetService
 (
 )
 ;
-static
-bool
-IsAPIEnabled
-(
-)
-;
 void
 BeginShutdown
 (

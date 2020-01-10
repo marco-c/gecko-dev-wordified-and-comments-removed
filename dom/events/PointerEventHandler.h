@@ -134,12 +134,6 @@ ReleaseStatics
 ;
 static
 bool
-IsPointerEventEnabled
-(
-)
-;
-static
-bool
 IsPointerEventImplicitCaptureForTouchEnabled
 (
 )

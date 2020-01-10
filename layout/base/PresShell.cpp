@@ -2851,10 +2851,10 @@ OwnerDoc
 ;
 MOZ_ASSERT
 (
-PointerEventHandler
+StaticPrefs
 :
 :
-IsPointerEventEnabled
+dom_w3c_pointer_events_enabled
 (
 )
 )
@@ -33155,10 +33155,10 @@ aEventStatus
 if
 (
 !
-PointerEventHandler
+StaticPrefs
 :
 :
-IsPointerEventEnabled
+dom_w3c_pointer_events_enabled
 (
 )
 )

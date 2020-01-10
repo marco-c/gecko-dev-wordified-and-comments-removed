@@ -1144,7 +1144,7 @@ Pinch_DefaultGestures_NoTouchAction
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )
@@ -1163,7 +1163,7 @@ Pinch_UseGestureDetector_NoTouchAction
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )
@@ -1182,7 +1182,7 @@ Pinch_UseGestureDetector_TouchActionNone
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -1232,7 +1232,7 @@ Pinch_UseGestureDetector_TouchActionZoom
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -1291,7 +1291,7 @@ Pinch_UseGestureDetector_TouchActionNotAllowZoom
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -1350,7 +1350,7 @@ Pinch_UseGestureDetector_TouchActionNone_NoAPZZoom
 {
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 true
 )
@@ -2507,7 +2507,7 @@ false
 ;
 SCOPED_GFX_PREF
 (
-TouchActionEnabled
+layout_css_touch_action_enabled
 bool
 false
 )

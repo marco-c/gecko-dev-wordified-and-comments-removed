@@ -2562,7 +2562,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 &
@@ -2922,7 +2922,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )
@@ -3356,7 +3356,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 &
@@ -3473,7 +3473,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 &
@@ -3878,7 +3878,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )

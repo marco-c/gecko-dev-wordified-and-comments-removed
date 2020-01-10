@@ -40,6 +40,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -2512,7 +2521,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )
@@ -2670,7 +2679,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )
@@ -2727,7 +2736,7 @@ HasReceivedAllContentNotifications
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 |
@@ -2766,7 +2775,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )
@@ -2956,7 +2965,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )
@@ -3025,7 +3034,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )
@@ -3094,7 +3103,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )
@@ -3150,7 +3159,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )
@@ -3206,7 +3215,7 @@ if
 StaticPrefs
 :
 :
-TouchActionEnabled
+layout_css_touch_action_enabled
 (
 )
 )

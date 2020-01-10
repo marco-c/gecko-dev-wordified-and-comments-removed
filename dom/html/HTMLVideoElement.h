@@ -595,7 +595,7 @@ return
 StaticPrefs
 :
 :
-MediaVideocontrolsLockVideoOrientation
+media_videocontrols_lock_video_orientation
 (
 )
 ;

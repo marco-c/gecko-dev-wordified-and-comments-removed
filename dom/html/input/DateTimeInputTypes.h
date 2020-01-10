@@ -111,12 +111,6 @@ aInputElement
 )
 {
 }
-static
-bool
-IsInputDateTimeEnabled
-(
-)
-;
 bool
 IsMutable
 (

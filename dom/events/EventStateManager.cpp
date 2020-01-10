@@ -7532,10 +7532,10 @@ mCurrentTarget
 if
 (
 !
-PointerEventHandler
+StaticPrefs
 :
 :
-IsPointerEventEnabled
+dom_w3c_pointer_events_enabled
 (
 )
 |
@@ -19825,10 +19825,10 @@ aEvent
 if
 (
 !
-PointerEventHandler
+StaticPrefs
 :
 :
-IsPointerEventEnabled
+dom_w3c_pointer_events_enabled
 (
 )
 )
