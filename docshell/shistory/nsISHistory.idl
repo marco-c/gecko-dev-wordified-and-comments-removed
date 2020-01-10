@@ -970,12 +970,13 @@ reference
 to
 the
 toplevel
-docshell
+browsing
+context
 object
 that
 this
-SHistory
 *
+SHistory
 object
 belongs
 to
@@ -987,7 +988,7 @@ noscript
 notxpcom
 ]
 void
-ClearRootDocShell
+ClearRootBrowsingContext
 (
 )
 ;

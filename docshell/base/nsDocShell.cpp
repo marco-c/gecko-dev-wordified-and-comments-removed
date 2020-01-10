@@ -2549,7 +2549,7 @@ LegacySHistory
 )
 -
 >
-ClearRootDocShell
+ClearRootBrowsingContext
 (
 )
 ;
