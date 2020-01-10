@@ -39,6 +39,13 @@ target
 dbg
 ;
 await
+threadClient
+.
+interrupt
+(
+)
+;
+await
 rewindToLine
 (
 threadClient

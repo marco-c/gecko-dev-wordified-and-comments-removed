@@ -92,6 +92,13 @@ dbg
 await
 threadClient
 .
+interrupt
+(
+)
+;
+await
+threadClient
+.
 resume
 (
 )
