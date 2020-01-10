@@ -253,7 +253,7 @@ target
 ;
 target
 .
-disconnect
+destructor
 (
 )
 ;
@@ -270,7 +270,7 @@ id
 ;
 }
 }
-clear
+destructor
 (
 )
 {
@@ -322,7 +322,7 @@ this
 .
 mainProcessTarget
 .
-disconnect
+destructor
 (
 )
 ;

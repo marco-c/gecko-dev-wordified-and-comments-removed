@@ -119,7 +119,7 @@ Map
 )
 ;
 }
-disconnect
+destructor
 (
 )
 {

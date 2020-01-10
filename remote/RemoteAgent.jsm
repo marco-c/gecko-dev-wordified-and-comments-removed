@@ -797,7 +797,7 @@ this
 .
 targets
 .
-clear
+destructor
 (
 )
 ;

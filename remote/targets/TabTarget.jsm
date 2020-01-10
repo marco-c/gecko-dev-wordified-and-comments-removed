@@ -222,7 +222,7 @@ disconnect
 )
 ;
 }
-disconnect
+destructor
 (
 )
 {
@@ -244,7 +244,7 @@ disconnect
 ;
 super
 .
-disconnect
+destructor
 (
 )
 ;
