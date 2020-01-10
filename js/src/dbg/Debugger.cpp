@@ -43336,16 +43336,6 @@ return
 false
 ;
 }
-if
-(
-script
--
->
-hasTrynotes
-(
-)
-)
-{
 for
 (
 const
@@ -43397,7 +43387,6 @@ true
 return
 true
 ;
-}
 }
 }
 isInCatch_
