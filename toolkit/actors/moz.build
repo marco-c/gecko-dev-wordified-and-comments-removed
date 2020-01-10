@@ -175,6 +175,11 @@ AudioPlaybackChild
 jsm
 '
 '
+AudioPlaybackParent
+.
+jsm
+'
+'
 AutoplayChild
 .
 jsm

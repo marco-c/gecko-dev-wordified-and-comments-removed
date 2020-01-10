@@ -2000,11 +2000,6 @@ nsPIDOMWindowOuter
 )
 ;
 void
-RefreshMediaElementsVolume
-(
-)
-;
-void
 RefreshMediaElementsSuspend
 (
 SuspendTypes
@@ -2228,6 +2223,11 @@ aVolume
 ;
 void
 MaybeActiveMediaComponents
+(
+)
+;
+void
+RefreshMediaElementsVolume
 (
 )
 ;

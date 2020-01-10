@@ -1862,6 +1862,11 @@ DidSetIsActivatedByUserGesture
 (
 )
 ;
+void
+DidSetMuted
+(
+)
+;
 const
 Type
 mType
