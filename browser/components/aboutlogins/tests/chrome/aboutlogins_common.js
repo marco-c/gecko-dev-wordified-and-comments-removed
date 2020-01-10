@@ -256,6 +256,15 @@ true
 value
 :
 {
+getLoginOrigin
+(
+uriString
+)
+{
+return
+uriString
+;
+}
 promptForMasterPassword
 (
 resolve
