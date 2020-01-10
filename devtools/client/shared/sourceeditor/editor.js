@@ -753,6 +753,9 @@ null
 disableSearchAddon
 :
 false
+maxHighlightLength
+:
+1000
 }
 ;
 this
