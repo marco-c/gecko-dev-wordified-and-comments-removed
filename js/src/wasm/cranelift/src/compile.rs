@@ -1,13 +1,14 @@
 use
-baldrdash
-as
-bd
+std
+:
+:
+fmt
 ;
 use
-cpu
+std
 :
 :
-make_isa
+mem
 ;
 use
 cranelift_codegen
@@ -84,16 +85,13 @@ WasmResult
 }
 ;
 use
-std
-:
-:
-fmt
+bindings
 ;
 use
-std
+cpu
 :
 :
-mem
+make_isa
 ;
 use
 utils
@@ -142,7 +140,7 @@ metadata
 :
 Vec
 <
-bd
+bindings
 :
 :
 MetadataEntry
@@ -309,13 +307,13 @@ static_environ
 &
 '
 a
-bd
+bindings
 :
 :
 StaticEnvironment
 environ
 :
-bd
+bindings
 :
 :
 ModuleEnvironment
@@ -365,13 +363,13 @@ static_environ
 &
 '
 a
-bd
+bindings
 :
 :
 StaticEnvironment
 environ
 :
-bd
+bindings
 :
 :
 ModuleEnvironment
@@ -492,7 +490,7 @@ self
 func
 :
 &
-bd
+bindings
 :
 :
 FuncCompileInput
@@ -501,7 +499,7 @@ FuncCompileInput
 >
 WasmResult
 <
-bd
+bindings
 :
 :
 FuncTypeWithId
@@ -1139,7 +1137,7 @@ metadata
 mut
 Vec
 <
-bd
+bindings
 :
 :
 MetadataEntry
@@ -1731,7 +1729,7 @@ metadata
 mut
 Vec
 <
-bd
+bindings
 :
 :
 MetadataEntry
@@ -1861,7 +1859,7 @@ metadata
 .
 push
 (
-bd
+bindings
 :
 :
 MetadataEntry
@@ -1892,7 +1890,7 @@ metadata
 mut
 Vec
 <
-bd
+bindings
 :
 :
 MetadataEntry
@@ -1912,7 +1910,7 @@ metadata
 .
 push
 (
-bd
+bindings
 :
 :
 MetadataEntry
@@ -1942,7 +1940,7 @@ metadata
 mut
 Vec
 <
-bd
+bindings
 :
 :
 MetadataEntry
@@ -2063,7 +2061,7 @@ TrapCode
 StackOverflow
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2079,7 +2077,7 @@ TrapCode
 HeapOutOfBounds
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2095,7 +2093,7 @@ TrapCode
 OutOfBounds
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2111,7 +2109,7 @@ TrapCode
 TableOutOfBounds
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2127,7 +2125,7 @@ TrapCode
 IndirectCallToNull
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2143,7 +2141,7 @@ TrapCode
 BadSignature
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2159,7 +2157,7 @@ TrapCode
 IntegerOverflow
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2175,7 +2173,7 @@ TrapCode
 IntegerDivisionByZero
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2191,7 +2189,7 @@ TrapCode
 BadConversionToInteger
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2207,7 +2205,7 @@ TrapCode
 Interrupt
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2223,7 +2221,7 @@ TrapCode
 UnreachableCodeReached
 =
 >
-bd
+bindings
 :
 :
 Trap
@@ -2260,7 +2258,7 @@ metadata
 .
 push
 (
-bd
+bindings
 :
 :
 MetadataEntry
@@ -2293,7 +2291,7 @@ metadata
 mut
 Vec
 <
-bd
+bindings
 :
 :
 MetadataEntry
@@ -2414,7 +2412,7 @@ metadata
 .
 push
 (
-bd
+bindings
 :
 :
 MetadataEntry
@@ -2545,7 +2543,7 @@ symbolic_function_name
 (
 sym
 :
-bd
+bindings
 :
 :
 SymbolicAddress
@@ -2590,7 +2588,7 @@ a
 mut
 Vec
 <
-bd
+bindings
 :
 :
 MetadataEntry
@@ -2629,7 +2627,7 @@ a
 mut
 Vec
 <
-bd
+bindings
 :
 :
 MetadataEntry
@@ -2784,7 +2782,7 @@ metadata
 .
 push
 (
-bd
+bindings
 :
 :
 MetadataEntry
@@ -2826,7 +2824,7 @@ LibCall
 CeilF32
 =
 >
-bd
+bindings
 :
 :
 SymbolicAddress
@@ -2842,7 +2840,7 @@ LibCall
 CeilF64
 =
 >
-bd
+bindings
 :
 :
 SymbolicAddress
@@ -2858,7 +2856,7 @@ LibCall
 FloorF32
 =
 >
-bd
+bindings
 :
 :
 SymbolicAddress
@@ -2874,7 +2872,7 @@ LibCall
 FloorF64
 =
 >
-bd
+bindings
 :
 :
 SymbolicAddress
@@ -2890,7 +2888,7 @@ LibCall
 NearestF32
 =
 >
-bd
+bindings
 :
 :
 SymbolicAddress
@@ -2906,7 +2904,7 @@ LibCall
 NearestF64
 =
 >
-bd
+bindings
 :
 :
 SymbolicAddress
@@ -2922,7 +2920,7 @@ LibCall
 TruncF32
 =
 >
-bd
+bindings
 :
 :
 SymbolicAddress
@@ -2938,7 +2936,7 @@ LibCall
 TruncF64
 =
 >
-bd
+bindings
 :
 :
 SymbolicAddress
@@ -2984,7 +2982,7 @@ metadata
 .
 push
 (
-bd
+bindings
 :
 :
 MetadataEntry
