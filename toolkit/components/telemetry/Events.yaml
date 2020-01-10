@@ -1848,6 +1848,7 @@ extra_keys
 :
 addon_type
 :
+>
 The
 type
 of
@@ -1861,6 +1862,9 @@ reported
 missing
 on
 ERROR_ADDON_NOT_FOUND
+ERROR_AMODETAILS_NOTFOUND
+and
+ERROR_AMODETAILS_FAILURE
 )
 .
 error_type
@@ -1889,6 +1893,9 @@ ERROR_NETWORK
 ERROR_UNKNOWN
 ERROR_RECENT_SUBMIT
 ERROR_SERVER
+ERROR_AMODETAILS_NOTFOUND
+ERROR_AMODETAILS_FAILURE
+.
 notification_emails
 :
 [
@@ -1937,6 +1944,7 @@ bug_numbers
 :
 [
 1544927
+1580561
 ]
 release_channel_collection
 :
