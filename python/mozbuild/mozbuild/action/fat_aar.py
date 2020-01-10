@@ -802,7 +802,7 @@ discard
 path
 )
     
-allow_list
+allow_pattern_list
 =
 {
         
@@ -860,6 +860,33 @@ global
 buildconfig
 .
 html
+'
+        
+'
+*
+*
+/
+*
+.
+ftl
+'
+        
+'
+*
+*
+/
+*
+.
+dtd
+'
+        
+'
+*
+*
+/
+*
+.
+properties
 '
     
 }
@@ -958,9 +985,20 @@ ds
 continue
         
 if
+any
+(
+mozpath
+.
+match
+(
 p
+pat
+)
+for
+pat
 in
-allow_list
+allow_pattern_list
+)
 :
             
 print
