@@ -5968,6 +5968,15 @@ type
 "
 pseudoClassLock
 "
+|
+|
+type
+=
+=
+=
+"
+mutationBreakpoint
+"
 )
 {
 container
