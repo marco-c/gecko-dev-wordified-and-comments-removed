@@ -1178,6 +1178,16 @@ StyleSheets
 "
 Content
 :
+LoadURIResult
+"
+"
+Content
+:
+LocationChange
+"
+"
+Content
+:
 SecurityChange
 "
 "
