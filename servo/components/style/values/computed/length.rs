@@ -569,7 +569,9 @@ derive
 Clone
 Copy
 Debug
+Deserialize
 MallocSizeOf
+Serialize
 ToAnimatedZero
 ToResolvedValue
 )
@@ -3240,9 +3242,11 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
 PartialOrd
+Serialize
 ToAnimatedValue
 ToAnimatedZero
 ToResolvedValue

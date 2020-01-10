@@ -95,6 +95,9 @@ gecko
 nsstring
 "
 "
+serde
+"
+"
 style_traits
 /
 gecko

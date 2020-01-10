@@ -99,6 +99,13 @@ atomic_refcell
 .
 1
 "
+bincode
+=
+"
+1
+.
+0
+"
 cssparser
 =
 "
