@@ -22635,6 +22635,10 @@ mSrcStreamTracksAvailable
 =
 false
 ;
+mSrcStreamPlaybackEnded
+=
+false
+;
 mSrcStream
 -
 >
