@@ -8,13 +8,16 @@ path
 .
 insert
 (
+    
 0
+    
 os
 .
 path
 .
 join
 (
+        
 os
 .
 path
@@ -45,6 +48,7 @@ __file__
 '
 common
 '
+        
 '
 security
 -
@@ -63,14 +67,14 @@ MixedContentConfig
 object
 )
 :
-  
+    
 def
 __init__
 (
 self
 )
 :
-    
+        
 self
 .
 selection_pattern
@@ -85,7 +89,7 @@ s
 '
 +
 \
-                             
+                                 
 '
 %
 (
@@ -96,7 +100,7 @@ s
 '
 +
 \
-                             
+                                 
 '
 %
 (
@@ -107,7 +111,7 @@ s
 '
 +
 \
-                             
+                                 
 '
 %
 (
@@ -118,7 +122,7 @@ s
 '
 +
 \
-                             
+                                 
 '
 %
 (
@@ -127,7 +131,7 @@ redirection
 s
 /
 '
-    
+        
 self
 .
 test_file_path_pattern
@@ -137,7 +141,7 @@ self
 selection_pattern
 +
 \
-                                  
+                                      
 '
 %
 (
@@ -148,7 +152,7 @@ s
 '
 +
 \
-                                  
+                                      
 '
 %
 (
@@ -164,7 +168,7 @@ s
 .
 html
 '
-    
+        
 self
 .
 test_description_template
@@ -224,7 +228,7 @@ s
 '
 '
 '
-    
+        
 self
 .
 test_page_title_template
@@ -237,7 +241,7 @@ Content
 %
 s
 '
-    
+        
 self
 .
 helper_js
@@ -264,7 +268,7 @@ pipe
 =
 sub
 '
-    
+        
 self
 .
 sanity_checker_js
@@ -283,7 +287,7 @@ checker
 .
 js
 '
-    
+        
 self
 .
 spec_json_js
@@ -298,7 +302,7 @@ spec_json
 .
 js
 '
-    
+        
 self
 .
 test_case_name
@@ -306,7 +310,7 @@ test_case_name
 '
 MixedContentTestCase
 '
-    
+        
 script_directory
 =
 os
@@ -324,7 +328,7 @@ abspath
 __file__
 )
 )
-    
+        
 self
 .
 spec_directory
@@ -335,6 +339,7 @@ path
 .
 abspath
 (
+            
 os
 .
 path
@@ -352,7 +357,7 @@ script_directory
 '
 )
 )
-  
+    
 def
 handleDelivery
 (
@@ -361,7 +366,7 @@ selection
 spec
 )
 :
-    
+        
 opt_in_method
 =
 selection
@@ -370,17 +375,17 @@ selection
 opt_in_method
 '
 ]
-    
+        
 meta
 =
 '
 '
-    
+        
 headers
 =
 [
 ]
-    
+        
 if
 opt_in_method
 =
@@ -391,7 +396,7 @@ meta
 csp
 '
 :
-        
+            
 meta
 =
 '
@@ -411,7 +416,7 @@ Policy
 '
 +
 \
-               
+                   
 '
 content
 =
@@ -426,7 +431,7 @@ content
 "
 >
 '
-    
+        
 elif
 opt_in_method
 =
@@ -437,7 +442,7 @@ http
 csp
 '
 :
-        
+            
 headers
 .
 append
@@ -458,7 +463,7 @@ mixed
 content
 "
 )
-    
+        
 elif
 opt_in_method
 =
@@ -471,12 +476,12 @@ opt
 in
 '
 :
-        
+            
 pass
-    
+        
 else
 :
-        
+            
 raise
 ValueError
 (
@@ -489,7 +494,7 @@ s
 %
 opt_in_method
 )
-    
+        
 return
 {
 "

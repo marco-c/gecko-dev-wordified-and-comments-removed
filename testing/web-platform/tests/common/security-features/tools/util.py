@@ -32,6 +32,7 @@ path
 .
 abspath
 (
+    
 os
 .
 path
@@ -39,7 +40,6 @@ path
 join
 (
 script_directory
-                                                  
 '
 template
 '
@@ -53,6 +53,7 @@ path
 .
 abspath
 (
+    
 os
 .
 path
@@ -60,7 +61,6 @@ path
 join
 (
 script_directory
-                                                   
 '
 .
 .
@@ -141,14 +141,14 @@ fp
 line_number
 )
 :
-  
+    
 fp
 .
 seek
 (
 0
 )
-  
+    
 for
 i
 line
@@ -158,7 +158,7 @@ enumerate
 fp
 )
 :
-    
+        
 if
 (
 i
@@ -169,7 +169,7 @@ i
 =
 line_number
 :
-      
+            
 return
 line
 def
@@ -221,7 +221,7 @@ f
         
 try
 :
-          
+            
 return
 json
 .
@@ -235,14 +235,14 @@ ValueError
 as
 ex
 :
-          
+            
 print
 (
 ex
 .
 message
 )
-          
+            
 match
 =
 re_error_location
@@ -253,11 +253,11 @@ ex
 .
 message
 )
-          
+            
 if
 match
 :
-            
+                
 line_number
 column
 =
@@ -279,7 +279,7 @@ group
 2
 )
 )
-            
+                
 print
 (
 read_nth_line
@@ -292,7 +292,7 @@ rstrip
 (
 )
 )
-            
+                
 print
 (
 "
@@ -308,7 +308,7 @@ column
 ^
 "
 )
-          
+            
 sys
 .
 exit

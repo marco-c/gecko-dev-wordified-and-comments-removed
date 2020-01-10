@@ -141,11 +141,14 @@ def
 permute_expansion
 (
 expansion
+                      
 artifact_order
+                      
 selection
 =
 {
 }
+                      
 artifact_index
 =
 0
@@ -210,11 +213,9 @@ in
 permute_expansion
 (
 expansion
-                                                
 artifact_order
                                                 
 selection
-                                                
 artifact_index
 +
 1
@@ -240,7 +241,7 @@ referrer_policy
 in
 spec
 :
-      
+        
 selection
 [
 '
@@ -374,6 +375,7 @@ name
     
 selection
 [
+        
 '
 test_page_title
 '
@@ -462,6 +464,7 @@ join
 config
 .
 spec_directory
+                                 
 config
 .
 test_file_path_pattern
@@ -583,6 +586,7 @@ rstrip
     
 selection
 [
+        
 '
 test_description
 '
@@ -821,6 +825,7 @@ join
 config
 .
 spec_directory
+                                                
 "
 spec_json
 .
@@ -832,8 +837,9 @@ util
 .
 write_file
 (
+        
 generated_spec_json_filename
-               
+        
 spec_json_js_template
 %
 {
@@ -967,6 +973,7 @@ expansion
 expand_pattern
 (
 expansion_pattern
+                                       
 test_expansion_schema
 )
             
@@ -1017,6 +1024,7 @@ override
                             
 print
 (
+                                
 "
 Error
 :
@@ -1032,6 +1040,7 @@ overrides
 %
 s
 "
+                                
 %
 (
 selection
@@ -1040,6 +1049,7 @@ selection
 name
 '
 ]
+                                   
 output_dict
 [
 selection_path
@@ -1100,11 +1110,8 @@ selection_path
 generate_selection
 (
 config
-                               
 selection
-                               
 spec
-                               
 html_template
 )
 def
@@ -1120,6 +1127,7 @@ argparse
 .
 ArgumentParser
 (
+        
 description
 =
 '
@@ -1134,15 +1142,18 @@ parser
 .
 add_argument
 (
+        
 '
 -
 t
 '
+        
 '
 -
 -
 target
 '
+        
 type
 =
 str
@@ -1157,6 +1168,7 @@ release
 debug
 "
 )
+        
 default
 =
 "
@@ -1180,18 +1192,22 @@ parser
 .
 add_argument
 (
+        
 '
 -
 s
 '
+        
 '
 -
 -
 spec
 '
+        
 type
 =
 str
+        
 default
 =
 None
@@ -1225,7 +1241,7 @@ args
 .
 spec
 :
-      
+        
 config
 .
 spec_directory
