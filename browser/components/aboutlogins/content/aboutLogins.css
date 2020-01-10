@@ -130,7 +130,7 @@ min
 -
 width
 :
-320px
+200px
 ;
 max
 -
@@ -149,7 +149,9 @@ flex
 -
 grow
 :
-1
+0
+.
+5
 ;
 align
 -
