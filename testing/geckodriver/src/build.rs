@@ -253,3 +253,16 @@ to_string
 )
 }
 }
+pub
+fn
+build_info
+(
+)
+-
+>
+BuildInfo
+{
+BuildInfo
+{
+}
+}
