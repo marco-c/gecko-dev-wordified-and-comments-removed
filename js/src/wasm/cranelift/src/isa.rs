@@ -668,15 +668,6 @@ isa
 Builder
 >
 {
-use
-std
-:
-:
-str
-:
-:
-FromStr
-;
 let
 mut
 ib
@@ -684,10 +675,7 @@ ib
 isa
 :
 :
-lookup
-(
-triple
-!
+lookup_by_name
 (
 "
 x86_64
@@ -696,7 +684,6 @@ unknown
 -
 unknown
 "
-)
 )
 .
 map_err
