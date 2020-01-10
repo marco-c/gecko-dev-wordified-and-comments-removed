@@ -874,15 +874,9 @@ actor
 /
 WindowActorSidedOptions
 parent
-=
-{
-}
 ;
 WindowActorChildOptions
 child
-=
-{
-}
 ;
 }
 ;
@@ -929,6 +923,7 @@ sendQuery
 .
 *
 /
+required
 ByteString
 moduleURI
 ;
