@@ -569,6 +569,13 @@ jsm
 events
 :
 {
+AboutLoginsCopyLoginDetail
+:
+{
+wantUntrusted
+:
+true
+}
 AboutLoginsCreateLogin
 :
 {
