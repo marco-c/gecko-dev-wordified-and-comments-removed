@@ -221,6 +221,9 @@ mActionFingerRing_Value
 ControllerAction
 mActionFingerPinky_Value
 ;
+ControllerAction
+mActionBumper_Pressed
+;
 }
 ;
 class
