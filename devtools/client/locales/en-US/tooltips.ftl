@@ -785,6 +785,8 @@ flex
 item
 -
 fix
+-
+2
 =
 Try
 adding
@@ -850,6 +852,8 @@ grid
 item
 -
 fix
+-
+2
 =
 Try
 adding
@@ -878,7 +882,7 @@ strong
 >
 to
 the
-item
+element
 s
 parent
 .
@@ -941,6 +945,8 @@ flex
 item
 -
 fix
+-
+2
 =
 Try
 adding
@@ -969,7 +975,7 @@ strong
 >
 to
 the
-item
+element
 s
 parent
 .
