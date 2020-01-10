@@ -43,7 +43,7 @@ profile
 (
 development
 -
-profile
+profiles
 .
 md
 )
