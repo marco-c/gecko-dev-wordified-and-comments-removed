@@ -70,9 +70,6 @@ Shape
 .
 h
 "
-#
-ifdef
-MOZ_VTUNE
 namespace
 js
 {
@@ -946,5 +943,3 @@ n
 }
 }
 }
-#
-endif

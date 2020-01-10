@@ -71,6 +71,9 @@ x64
 h
 "
 #
+ifdef
+MOZ_VTUNE
+#
 include
 "
 vtune
@@ -79,6 +82,8 @@ VTuneWrapper
 .
 h
 "
+#
+endif
 #
 include
 "

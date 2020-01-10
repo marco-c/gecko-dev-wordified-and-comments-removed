@@ -175,6 +175,9 @@ TraceLogging
 h
 "
 #
+ifdef
+MOZ_VTUNE
+#
 include
 "
 vtune
@@ -183,6 +186,8 @@ VTuneWrapper
 .
 h
 "
+#
+endif
 #
 include
 "
