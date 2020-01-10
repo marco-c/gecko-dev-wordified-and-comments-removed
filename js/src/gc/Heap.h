@@ -3254,6 +3254,11 @@ lock
 )
 ;
 void
+decommitAllArenas
+(
+)
+;
+void
 decommitFreeArenasWithoutUnlocking
 (
 const
@@ -3282,11 +3287,6 @@ rt
 ;
 private
 :
-void
-decommitAllArenas
-(
-)
-;
 unsigned
 findDecommittedArenaOffset
 (
