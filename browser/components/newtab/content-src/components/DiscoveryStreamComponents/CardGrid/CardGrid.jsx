@@ -522,6 +522,15 @@ return
 <
 div
 >
+{
+this
+.
+props
+.
+title
+&
+&
+(
 <
 div
 className
@@ -543,6 +552,8 @@ title
 /
 div
 >
+)
+}
 {
 isEmpty
 ?

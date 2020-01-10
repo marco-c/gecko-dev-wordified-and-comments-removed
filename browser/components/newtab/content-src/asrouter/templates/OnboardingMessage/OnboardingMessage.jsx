@@ -211,7 +211,7 @@ onboardingContent
 span
 >
 <
-h3
+h2
 className
 =
 "

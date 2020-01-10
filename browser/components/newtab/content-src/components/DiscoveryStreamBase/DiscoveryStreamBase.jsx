@@ -1206,6 +1206,7 @@ spocs
 const
 {
 image_src
+raw_image_src
 alt_text
 title
 url
@@ -1273,6 +1274,11 @@ image
 =
 {
 image_src
+}
+raw_image_src
+=
+{
+raw_image_src
 }
 alt_text
 =
