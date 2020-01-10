@@ -208,6 +208,11 @@ TestDataMutex
 cpp
 '
 '
+TestDecoderBenchmark
+.
+cpp
+'
+'
 TestDriftCompensation
 .
 cpp
