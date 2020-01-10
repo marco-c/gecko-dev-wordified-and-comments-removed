@@ -1074,11 +1074,6 @@ key2
 "
 }
 )
-title
-:
-"
-def
-"
 style
 :
 [
@@ -1180,11 +1175,6 @@ key2
 "
 }
 )
-title
-:
-"
-def
-"
 style
 :
 [
