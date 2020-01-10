@@ -115,6 +115,14 @@ null
 ;
 this
 .
+shouldCloseClient
+=
+this
+.
+isLocalTab
+;
+this
+.
 _client
 =
 client
@@ -1511,11 +1519,6 @@ null
 ;
 if
 (
-this
-.
-isLocalTab
-|
-|
 this
 .
 shouldCloseClient
