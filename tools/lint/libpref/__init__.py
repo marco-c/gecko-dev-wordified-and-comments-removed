@@ -54,6 +54,12 @@ dump
 .
 enabled
 '
+    
+'
+apz
+.
+fling_curve_function_y2
+'
 }
 def
 get_names
