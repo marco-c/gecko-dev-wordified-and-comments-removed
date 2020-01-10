@@ -1052,6 +1052,11 @@ GetActiveEditingHost
 )
 const
 ;
+void
+NotifyEditingHostMaybeChanged
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertAsQuotation
