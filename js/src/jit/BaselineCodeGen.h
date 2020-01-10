@@ -1255,6 +1255,11 @@ _
 (
 JSOP_INSTRUMENTATION_SCRIPT_ID
 )
+\
+_
+(
+JSOP_COALESCE
+)
 enum
 class
 ScriptGCThingType
