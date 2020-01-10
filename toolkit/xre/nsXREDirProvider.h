@@ -196,6 +196,14 @@ aResult
 )
 ;
 nsresult
+GetLegacyInstallHash
+(
+nsAString
+&
+aPathHash
+)
+;
+nsresult
 SetProfile
 (
 nsIFile
