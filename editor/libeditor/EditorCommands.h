@@ -1258,6 +1258,18 @@ EditorCommandParamType
 :
 None
 ;
+case
+Command
+:
+:
+GetHTML
+:
+return
+EditorCommandParamType
+:
+:
+None
+;
 default
 :
 MOZ_ASSERT_UNREACHABLE
@@ -1843,7 +1855,7 @@ public
 :
 \
 static
-_cmd
+EditorCommand
 *
 GetInstance
 (
