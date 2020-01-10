@@ -13,6 +13,15 @@ MacroAssembler
 .
 h
 "
+#
+include
+"
+util
+/
+Memory
+.
+h
+"
 namespace
 js
 {

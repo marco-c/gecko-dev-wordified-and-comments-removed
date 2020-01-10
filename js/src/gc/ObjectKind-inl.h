@@ -7,6 +7,15 @@ gc_ObjectKind_inl_h
 #
 include
 "
+util
+/
+Memory
+.
+h
+"
+#
+include
+"
 vm
 /
 NativeObject

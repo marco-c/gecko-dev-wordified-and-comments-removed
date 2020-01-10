@@ -98,6 +98,15 @@ h
 #
 include
 "
+util
+/
+Memory
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmAST

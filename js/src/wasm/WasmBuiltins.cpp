@@ -78,6 +78,15 @@ h
 #
 include
 "
+util
+/
+Memory
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmInstance
