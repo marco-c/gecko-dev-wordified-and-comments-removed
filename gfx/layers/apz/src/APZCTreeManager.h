@@ -1671,6 +1671,9 @@ gfx
 CompositorHitTestInfo
 mHitResultForInputBlock
 ;
+SideBits
+mFixedPosSidesForInputBlock
+;
 int32_t
 mRetainedTouchIdentifier
 ;
