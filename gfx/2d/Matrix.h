@@ -11832,6 +11832,13 @@ double
 >
 Matrix4x4Double
 ;
+typedef
+Maybe
+<
+Matrix4x4
+>
+MaybeMatrix4x4
+;
 class
 Matrix5x4
 {
