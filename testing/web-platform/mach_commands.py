@@ -2229,6 +2229,14 @@ _spawn
 WebPlatformTestsRunnerSetup
 )
         
+wpt_setup
+.
+_mach_context
+=
+self
+.
+_mach_context
+        
 wpt_runner
 =
 WebPlatformTestsRunner
