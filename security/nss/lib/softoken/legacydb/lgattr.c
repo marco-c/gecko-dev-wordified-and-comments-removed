@@ -4573,7 +4573,7 @@ case
 CKA_VALUE
 :
 return
-lg_CopyPrivAttrSigned
+lg_CopyPrivAttribute
 (
 attribute
 type
