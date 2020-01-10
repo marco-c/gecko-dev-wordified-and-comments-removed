@@ -56,6 +56,15 @@ include
 "
 mozilla
 /
+TimeStamp
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Utf8
 .
 h
@@ -1346,6 +1355,9 @@ mBaseURL
 ;
 nsresult
 mUnreportedPreloadError
+;
+TimeDuration
+mStreamingTime
 ;
 }
 ;
