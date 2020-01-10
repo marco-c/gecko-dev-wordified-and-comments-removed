@@ -2190,7 +2190,7 @@ ownerGlobal
 .
 gSync
 .
-openFxAManagePage
+openPrefs
 (
 "
 password
