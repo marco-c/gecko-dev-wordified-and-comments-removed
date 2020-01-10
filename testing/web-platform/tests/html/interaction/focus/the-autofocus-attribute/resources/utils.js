@@ -170,10 +170,4 @@ waitForAnimationFrame
 targetWindow
 )
 ;
-await
-waitForAnimationFrame
-(
-targetWindow
-)
-;
 }
