@@ -167,6 +167,11 @@ popup
 -
 mainView
 "
+role
+=
+"
+document
+"
 descriptionheightworkaround
 =
 "
@@ -1810,6 +1815,11 @@ protections
 popup
 -
 siteNotWorkingView
+"
+role
+=
+"
+document
 "
 title
 =
