@@ -611,7 +611,7 @@ l10n
 -
 registry
 .
-js
+manifest
 #
 ifndef
 MOZ_GECKOVIEW_JAR
