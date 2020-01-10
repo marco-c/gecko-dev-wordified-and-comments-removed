@@ -4087,11 +4087,6 @@ MediaRecorder
 webidl
 '
 '
-MediaSession
-.
-webidl
-'
-'
 MediaSource
 .
 webidl
