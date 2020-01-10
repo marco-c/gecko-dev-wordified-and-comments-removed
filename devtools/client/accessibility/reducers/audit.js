@@ -44,7 +44,8 @@ false
 }
 auditing
 :
-null
+[
+]
 progress
 :
 null
@@ -148,7 +149,11 @@ return
 state
 auditing
 :
-null
+getInitialState
+(
+)
+.
+auditing
 progress
 :
 null

@@ -188,6 +188,8 @@ auditing
 PropTypes
 .
 array
+.
+isRequired
 total
 :
 PropTypes
@@ -218,8 +220,13 @@ props
 ;
 if
 (
-!
 auditing
+.
+length
+=
+=
+=
+0
 )
 {
 return

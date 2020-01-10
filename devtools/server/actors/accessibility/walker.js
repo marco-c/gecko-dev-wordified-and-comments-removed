@@ -697,6 +697,7 @@ function
 getAudit
 (
 acc
+options
 report
 progress
 )
@@ -720,6 +721,7 @@ acc
 .
 audit
 (
+options
 )
 .
 then
@@ -761,6 +763,7 @@ children
 getAudit
 (
 child
+options
 report
 progress
 )
@@ -2043,6 +2046,7 @@ children
 async
 audit
 (
+options
 )
 {
 const
@@ -2076,6 +2080,7 @@ this
 getAudit
 (
 doc
+options
 report
 this
 .
@@ -2194,6 +2199,7 @@ ancestries
 }
 startAudit
 (
+options
 )
 {
 if
@@ -2214,6 +2220,7 @@ this
 .
 audit
 (
+options
 )
 .
 then

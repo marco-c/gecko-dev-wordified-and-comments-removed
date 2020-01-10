@@ -271,7 +271,9 @@ auditing
 :
 PropTypes
 .
-string
+array
+.
+isRequired
 }
 ;
 }
@@ -587,6 +589,15 @@ accessibility
 )
 ;
 }
+const
+isAuditing
+=
+auditing
+.
+length
+>
+0
+;
 return
 (
 div
@@ -610,7 +621,7 @@ accessibility
 walker
 }
 )
-auditing
+isAuditing
 &
 &
 AuditProgressOverlay
@@ -625,9 +636,7 @@ aria
 hidden
 "
 :
-!
-!
-auditing
+isAuditing
 role
 :
 "

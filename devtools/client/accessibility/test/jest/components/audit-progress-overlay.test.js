@@ -520,9 +520,11 @@ audit
 {
 auditing
 :
+[
 AUDIT_TYPE
 .
 CONTRAST
+]
 }
 }
 }
@@ -569,9 +571,11 @@ audit
 {
 auditing
 :
+[
 AUDIT_TYPE
 .
 CONTRAST
+]
 progress
 :
 {
@@ -876,9 +880,11 @@ audit
 {
 auditing
 :
+[
 AUDIT_TYPE
 .
 CONTRAST
+]
 progress
 :
 {
