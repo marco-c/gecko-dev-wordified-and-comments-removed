@@ -480,7 +480,7 @@ layers
 VideoBridgeChild
 :
 :
-Startup
+StartupForGPUProcess
 (
 )
 ;
