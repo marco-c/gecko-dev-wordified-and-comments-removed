@@ -289,6 +289,15 @@ monitor
 .
 enabled
 "
+"
+privacy
+.
+socialtracking
+.
+block_cookies
+.
+enabled
+"
 ]
 getStringPref
 :

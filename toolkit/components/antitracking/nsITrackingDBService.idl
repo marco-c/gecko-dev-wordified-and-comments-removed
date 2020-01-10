@@ -404,5 +404,12 @@ FINGERPRINTERS_ID
 =
 4
 ;
+const
+unsigned
+long
+SOCIAL_ID
+=
+5
+;
 }
 ;

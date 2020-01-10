@@ -216,6 +216,16 @@ FINGERPRINTERS_ID
 fingerprinter
 "
 ]
+[
+Ci
+.
+nsITrackingDBService
+.
+SOCIAL_ID
+"
+social
+"
+]
 ]
 )
 ;
