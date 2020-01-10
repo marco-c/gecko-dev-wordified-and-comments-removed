@@ -190,6 +190,9 @@ interfaces
 ipc
 '
 '
+jsat
+'
+'
 xpcom
 '
 ]

@@ -110,6 +110,11 @@ DelayedInit
 jsm
 '
 '
+GeckoViewAccessibility
+.
+jsm
+'
+'
 GeckoViewActorChild
 .
 jsm

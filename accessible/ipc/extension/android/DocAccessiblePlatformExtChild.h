@@ -63,7 +63,7 @@ ipc
 IPCResult
 RecvNavigateText
 (
-uint64_t
+int32_t
 aID
 int32_t
 aGranularity
