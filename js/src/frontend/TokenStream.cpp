@@ -10040,9 +10040,15 @@ if
 unicode
 :
 :
-IsSpaceOrBOM2
+IsSpace
+(
+AssertedCast
+<
+Latin1Char
+>
 (
 unit
+)
 )
 )
 {
@@ -10135,7 +10141,7 @@ isNone
 unicode
 :
 :
-IsSpaceOrBOM2
+IsSpace
 (
 peeked
 .
@@ -10161,7 +10167,7 @@ codePoint
 )
 "
 !
-IsSpaceOrBOM2
+IsSpace
 must
 imply
 !
@@ -10171,10 +10177,10 @@ else
 we
 '
 ll
-"
-"
 fail
 to
+"
+"
 maintain
 line
 -
@@ -13744,7 +13750,7 @@ if
 unicode
 :
 :
-IsSpaceOrBOM2
+IsSpace
 (
 cp
 )
