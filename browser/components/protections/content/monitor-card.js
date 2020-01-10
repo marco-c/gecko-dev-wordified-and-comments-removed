@@ -431,7 +431,7 @@ header
 -
 content
 -
-signed
+logged
 -
 in
 "
@@ -532,10 +532,6 @@ monitor
 header
 -
 content
--
-no
--
-account
 "
 )
 ;
@@ -809,7 +805,7 @@ info
 -
 monitored
 -
-emails
+addresses
 "
 )
 ;
@@ -873,8 +869,6 @@ info
 known
 -
 breaches
--
-found
 "
 )
 ;
@@ -938,8 +932,6 @@ info
 exposed
 -
 passwords
--
-found
 "
 )
 ;

@@ -880,8 +880,6 @@ sync
 not
 -
 syncing
--
-devices
 "
 )
 ;

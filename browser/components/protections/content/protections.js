@@ -482,8 +482,6 @@ graph
 -
 total
 -
-tracker
--
 summary
 "
 )
