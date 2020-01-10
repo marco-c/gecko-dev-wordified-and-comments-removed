@@ -164,9 +164,15 @@ values
 .
 push
 (
+(
 request
 .
 mimeType
+|
+|
+"
+"
+)
 .
 replace
 (
