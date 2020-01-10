@@ -478,12 +478,6 @@ definition
 debian
 -
 build
-packages
-:
--
-deb7
--
-valgrind
 args
 :
 ARCH
