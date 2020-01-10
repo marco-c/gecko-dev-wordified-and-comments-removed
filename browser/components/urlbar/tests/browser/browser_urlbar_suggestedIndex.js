@@ -738,7 +738,6 @@ context
 pickResult
 (
 result
-details
 )
 {
 }

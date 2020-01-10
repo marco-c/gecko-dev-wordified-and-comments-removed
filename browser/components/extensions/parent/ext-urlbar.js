@@ -992,10 +992,7 @@ setEventListener
 resultPicked
 "
 async
-(
 resultPayload
-details
-)
 =
 >
 {
@@ -1005,7 +1002,6 @@ fire
 async
 (
 resultPayload
-details
 )
 .
 catch

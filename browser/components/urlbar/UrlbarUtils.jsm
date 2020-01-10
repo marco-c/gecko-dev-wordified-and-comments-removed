@@ -2062,7 +2062,6 @@ overridden
 pickResult
 (
 result
-details
 )
 {
 throw

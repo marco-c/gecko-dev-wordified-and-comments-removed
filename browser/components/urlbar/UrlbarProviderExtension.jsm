@@ -459,7 +459,6 @@ context
 pickResult
 (
 result
-details
 )
 {
 this
@@ -472,7 +471,6 @@ resultPicked
 result
 .
 payload
-details
 )
 ;
 }
@@ -480,10 +478,7 @@ async
 _notifyListener
 (
 eventName
-.
-.
-.
-args
+context
 )
 {
 let
@@ -517,10 +512,7 @@ result
 =
 listener
 (
-.
-.
-.
-args
+context
 )
 ;
 }

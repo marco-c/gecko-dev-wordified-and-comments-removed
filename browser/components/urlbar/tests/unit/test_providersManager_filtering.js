@@ -1192,7 +1192,6 @@ context
 pickResult
 (
 result
-details
 )
 {
 }
@@ -1442,7 +1441,6 @@ context
 pickResult
 (
 result
-details
 )
 {
 }
@@ -2010,7 +2008,6 @@ context
 pickResult
 (
 result
-details
 )
 {
 }
@@ -2378,7 +2375,6 @@ context
 pickResult
 (
 result
-details
 )
 {
 }
@@ -2471,7 +2467,6 @@ context
 pickResult
 (
 result
-details
 )
 {
 }
