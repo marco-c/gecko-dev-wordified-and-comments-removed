@@ -1408,10 +1408,6 @@ variables
 b
 :
 {
-value
-:
-{
-}
 }
 }
 arguments
@@ -1421,10 +1417,6 @@ arguments
 a
 :
 {
-value
-:
-{
-}
 }
 }
 ]
@@ -1547,10 +1539,6 @@ arguments
 a
 :
 {
-value
-:
-{
-}
 }
 }
 ]
@@ -1560,10 +1548,6 @@ variables
 b
 :
 {
-value
-:
-{
-}
 }
 }
 }
@@ -1619,10 +1603,6 @@ arguments
 a
 :
 {
-value
-:
-{
-}
 }
 }
 ]
@@ -1632,10 +1612,6 @@ variables
 b
 :
 {
-value
-:
-{
-}
 }
 }
 }
