@@ -216,6 +216,12 @@ size
 )
 ;
 }
+MutexAutoLock
+lock
+(
+gConnRecvMutex
+)
+;
 NetworkFuzzingBuffer
 *
 buf
