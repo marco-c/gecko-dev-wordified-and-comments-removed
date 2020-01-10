@@ -2156,7 +2156,9 @@ options
 (
 )
 .
-strictOption
+forceStrictMode
+(
+)
 )
 ;
 GlobalSharedContext

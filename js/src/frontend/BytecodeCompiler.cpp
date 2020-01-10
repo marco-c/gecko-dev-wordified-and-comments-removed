@@ -1853,7 +1853,9 @@ directives
 (
 options
 .
-strictOption
+forceStrictMode
+(
+)
 )
 script
 (
@@ -3590,7 +3592,9 @@ directives
 (
 options
 .
-strictOption
+forceStrictMode
+(
+)
 )
 ;
 GlobalSharedContext
@@ -3829,9 +3833,8 @@ optionsInput
 ;
 options
 .
-maybeMakeStrictMode
+setForceStrictMode
 (
-true
 )
 ;
 options
