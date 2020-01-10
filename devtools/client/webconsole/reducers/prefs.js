@@ -42,9 +42,6 @@ logLimit
 sidebarToggle
 :
 false
-jstermCodeMirror
-:
-false
 groupWarnings
 :
 false

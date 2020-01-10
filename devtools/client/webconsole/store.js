@@ -331,18 +331,6 @@ SIDEBAR_TOGGLE
 )
 ;
 const
-jstermCodeMirror
-=
-getBoolPref
-(
-PREFS
-.
-FEATURES
-.
-JSTERM_CODE_MIRROR
-)
-;
-const
 autocomplete
 =
 getBoolPref
@@ -401,7 +389,6 @@ PrefState
 {
 logLimit
 sidebarToggle
-jstermCodeMirror
 autocomplete
 historyCount
 groupWarnings
