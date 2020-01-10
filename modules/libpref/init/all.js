@@ -18368,9 +18368,6 @@ about_uris_without_csp
 blank
 printpreview
 srcdoc
-devtools
--
-toolbox
 addons
 config
 downloads
