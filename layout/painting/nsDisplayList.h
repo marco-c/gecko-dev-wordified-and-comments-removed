@@ -2747,6 +2747,7 @@ bool
 IsInSubdocument
 (
 )
+const
 {
 return
 mPresShellStates
@@ -2774,6 +2775,7 @@ bool
 DisablePartialUpdates
 (
 )
+const
 {
 return
 mDisablePartialUpdates
@@ -2795,6 +2797,7 @@ bool
 PartialBuildFailed
 (
 )
+const
 {
 return
 mPartialBuildFailed
@@ -2804,6 +2807,7 @@ bool
 IsInActiveDocShell
 (
 )
+const
 {
 return
 mIsInActiveDocShell
@@ -2825,6 +2829,7 @@ bool
 IsInChromeDocumentOrPopup
 (
 )
+const
 {
 return
 mIsInChromePresContext
@@ -2837,6 +2842,7 @@ bool
 ShouldSyncDecodeImages
 (
 )
+const
 {
 return
 mSyncDecodeImages
