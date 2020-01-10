@@ -2178,7 +2178,7 @@ isSession
 bool
 isSecure
 ;
-int8_t
+int32_t
 sameSite
 ;
 }
