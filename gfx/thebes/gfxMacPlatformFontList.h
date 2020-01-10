@@ -530,7 +530,7 @@ kDisplaySizeSystemFontFamily
 void
 ReadSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 mozilla
 :

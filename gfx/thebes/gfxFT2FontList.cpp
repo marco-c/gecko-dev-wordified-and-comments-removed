@@ -3286,7 +3286,7 @@ FT2FontFamily
 :
 AddFacesToFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >
@@ -6748,7 +6748,7 @@ XRE_IsParentProcess
 )
 )
 {
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >
@@ -7938,7 +7938,7 @@ gfxFT2FontList
 :
 GetSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >

@@ -1170,7 +1170,7 @@ gfxAndroidPlatform
 :
 GetSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >

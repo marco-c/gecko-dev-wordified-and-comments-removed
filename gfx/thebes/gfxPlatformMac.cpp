@@ -495,7 +495,7 @@ gfxPlatformMac
 :
 ReadSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 SystemFontListEntry
 >

@@ -120,7 +120,7 @@ mOffscreenFormat
 void
 GetSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 FontListEntry
 >

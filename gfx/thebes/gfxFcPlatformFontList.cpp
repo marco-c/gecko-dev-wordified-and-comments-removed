@@ -7394,7 +7394,7 @@ gfxFcPlatformFontList
 :
 ReadSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 SystemFontListEntry
 >

@@ -6123,7 +6123,7 @@ gfxMacPlatformFontList
 :
 ReadSystemFontList
 (
-InfallibleTArray
+nsTArray
 <
 SystemFontListEntry
 >
