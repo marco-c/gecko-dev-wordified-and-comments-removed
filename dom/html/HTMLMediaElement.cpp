@@ -12216,7 +12216,7 @@ StopSuspendingAfterFirstFrame
 ;
 if
 (
-mSrcStream
+mSrcAttrStream
 )
 {
 aRv
