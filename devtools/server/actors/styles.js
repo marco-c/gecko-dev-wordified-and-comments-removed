@@ -6401,7 +6401,9 @@ ruleBodyText
 ;
 }
 const
-prettyCSS
+{
+result
+}
 =
 prettifyCSS
 (
@@ -6413,7 +6415,7 @@ Promise
 .
 resolve
 (
-prettyCSS
+result
 )
 ;
 }
