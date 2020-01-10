@@ -187,6 +187,7 @@ prop
 in
 snapshotFormatters
 )
+{
 await
 snapshotFormatters
 [
@@ -199,6 +200,7 @@ prop
 ]
 )
 ;
+}
 }
 )
 ;
@@ -436,6 +438,7 @@ data
 .
 vendor
 )
+{
 version
 +
 =
@@ -451,6 +454,7 @@ vendor
 )
 "
 ;
+}
 (
 "
 version
@@ -483,6 +487,7 @@ data
 .
 updateChannel
 )
+{
 (
 "
 updatechannel
@@ -497,6 +502,7 @@ data
 .
 updateChannel
 ;
+}
 if
 (
 AppConstants
@@ -1067,8 +1073,10 @@ AppConstants
 .
 MOZ_CRASHREPORTER
 )
+{
 return
 ;
+}
 let
 daysRange
 =
@@ -1151,10 +1159,12 @@ test
 reportURL
 )
 )
+{
 reportURL
 =
 null
 ;
+}
 }
 catch
 (
@@ -2273,8 +2283,10 @@ in
 info
 )
 )
+{
 continue
 ;
+}
 delete
 info
 [
@@ -2933,10 +2945,12 @@ b
 .
 index
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 a
@@ -2947,9 +2961,11 @@ b
 .
 index
 )
+{
 return
 1
 ;
+}
 return
 0
 ;
@@ -3137,8 +3153,10 @@ in
 data
 )
 )
+{
 return
 ;
+}
 colKey
 =
 colKey
@@ -3552,6 +3570,7 @@ directWriteVersion
 in
 data
 )
+{
 message
 +
 =
@@ -3567,6 +3586,7 @@ directWriteVersion
 )
 "
 ;
+}
 await
 addRow
 (
@@ -3768,8 +3788,10 @@ value
 "
 "
 )
+{
 continue
 ;
+}
 trs
 .
 push
@@ -3834,7 +3856,6 @@ data
 &
 &
 (
-(
 suffix
 =
 =
@@ -3847,7 +3868,6 @@ suffix
 data
 .
 isGPU2Active
-)
 )
 {
 active
@@ -4045,8 +4065,10 @@ status
 available
 "
 )
+{
 continue
 ;
+}
 let
 contents
 ;
@@ -5027,6 +5049,7 @@ dev
 )
 {
 return
+(
 "
 default
 :
@@ -5052,6 +5075,7 @@ minRate
 dev
 .
 maxRate
+)
 ;
 }
 function
@@ -5579,8 +5603,10 @@ data
 .
 exists
 )
+{
 return
 ;
+}
 let
 userJSFile
 =
@@ -5683,8 +5709,10 @@ AppConstants
 .
 MOZ_SANDBOX
 )
+{
 return
 ;
+}
 let
 tbody
 =
@@ -6597,16 +6625,9 @@ let
 assembled
 =
 {
-"
 index
-"
-:
-index
-"
 header
-"
 :
-(
 "
 (
 #
@@ -6619,11 +6640,6 @@ index
 "
 +
 what
-)
-"
-message
-"
-:
 message
 }
 ;
@@ -6650,6 +6666,7 @@ prop
 in
 obj
 )
+{
 tuples
 .
 push
@@ -6663,6 +6680,7 @@ prop
 ]
 )
 ;
+}
 tuples
 .
 sort
@@ -6701,12 +6719,14 @@ if
 (
 button
 )
+{
 button
 .
 disabled
 =
 true
 ;
+}
 try
 {
 Troubleshoot
@@ -6723,12 +6743,14 @@ if
 (
 button
 )
+{
 button
 .
 disabled
 =
 false
 ;
+}
 let
 str
 =
@@ -6925,12 +6947,14 @@ if
 (
 button
 )
+{
 button
 .
 disabled
 =
 false
 ;
+}
 throw
 err
 ;
@@ -7400,6 +7424,7 @@ val
 )
 {
 return
+(
 this
 .
 _lines
@@ -7414,6 +7439,7 @@ length
 ]
 =
 val
+)
 ;
 }
 _serializeElement
@@ -7663,6 +7689,7 @@ this
 .
 _currentLine
 )
+{
 this
 .
 _lines
@@ -7671,6 +7698,7 @@ pop
 (
 )
 ;
+}
 }
 this
 .
@@ -7747,6 +7775,7 @@ if
 !
 tableHeadingElem
 )
+{
 tableHeadingElem
 =
 table
@@ -7758,6 +7787,7 @@ tr
 "
 )
 ;
+}
 if
 (
 tableHeadingElem
@@ -7830,8 +7860,10 @@ column
 "
 )
 )
+{
 break
 ;
+}
 colHeadings
 [
 i
@@ -7869,10 +7901,12 @@ if
 !
 hasColHeadings
 )
+{
 tableHeadingElem
 =
 null
 ;
+}
 let
 trs
 =
@@ -7918,8 +7952,10 @@ trs
 .
 length
 )
+{
 return
 ;
+}
 if
 (
 hasColHeadings
@@ -7989,6 +8025,7 @@ colHeadings
 j
 ]
 )
+{
 text
 +
 =
@@ -8001,6 +8038,7 @@ j
 :
 "
 ;
+}
 text
 +
 =
@@ -8125,6 +8163,7 @@ children
 ]
 )
 )
+{
 this
 .
 _appendText
@@ -8132,6 +8171,7 @@ _appendText
 rowHeading
 )
 ;
+}
 }
 else
 if
@@ -8932,9 +8972,7 @@ checkAndFixDatabase
 .
 then
 (
-(
 tasksStatusMap
-)
 =
 >
 {

@@ -150,9 +150,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

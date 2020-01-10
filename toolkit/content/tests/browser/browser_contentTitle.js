@@ -35,6 +35,7 @@ function
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -45,6 +46,7 @@ addTab
 (
 gBrowser
 url
+)
 )
 ;
 await

@@ -204,11 +204,9 @@ style
 .
 height
 =
-(
 ITEM_HEIGHT
 *
 viewportSize
-)
 +
 "
 rem
@@ -662,9 +660,11 @@ Math
 .
 ceil
 (
+(
 viewportSize
 *
 VIEWPORT_COUNT
+)
 /
 items
 .
@@ -910,7 +910,6 @@ style
 .
 marginBottom
 =
-(
 ITEM_HEIGHT
 *
 this
@@ -918,7 +917,6 @@ this
 props
 .
 viewportTopOffset
-)
 +
 "
 rem
@@ -1608,7 +1606,6 @@ currentIndex
 centering
 |
 |
-(
 this
 .
 state
@@ -1617,7 +1614,6 @@ index
 =
 =
 undefined
-)
 ?
 Math
 .
@@ -1741,11 +1737,9 @@ true
 return
 isValueFound
 ?
-(
 closestIndex
 -
 viewportTopOffset
-)
 :
 -
 1

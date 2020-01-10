@@ -67,9 +67,7 @@ waitForEvent
 browser
 event
 false
-(
 event
-)
 =
 >
 {

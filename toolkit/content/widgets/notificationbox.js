@@ -312,12 +312,14 @@ value
 "
 )
 )
+{
 return
 notifications
 [
 n
 ]
 ;
+}
 }
 return
 null
@@ -349,6 +351,7 @@ this
 .
 PRIORITY_CRITICAL_HIGH
 )
+{
 throw
 new
 Error
@@ -362,6 +365,7 @@ priority
 aPriority
 )
 ;
+}
 var
 notifications
 =
@@ -406,8 +410,10 @@ priority
 <
 aPriority
 )
+{
 break
 ;
+}
 insertPos
 =
 notifications
@@ -657,6 +663,7 @@ accessKey
 string
 "
 )
+{
 buttonElem
 .
 setAttribute
@@ -669,6 +676,7 @@ button
 accessKey
 )
 ;
+}
 }
 buttonElem
 .
@@ -715,6 +723,7 @@ this
 .
 PRIORITY_CRITICAL_LOW
 )
+{
 newitem
 .
 setAttribute
@@ -727,6 +736,7 @@ critical
 "
 )
 ;
+}
 else
 if
 (
@@ -737,6 +747,7 @@ this
 .
 PRIORITY_INFO_HIGH
 )
+{
 newitem
 .
 setAttribute
@@ -749,7 +760,9 @@ info
 "
 )
 ;
+}
 else
+{
 newitem
 .
 setAttribute
@@ -762,6 +775,7 @@ warning
 "
 )
 ;
+}
 if
 (
 !
@@ -868,6 +882,7 @@ this
 .
 currentNotification
 )
+{
 this
 .
 removeCurrentNotification
@@ -875,6 +890,7 @@ removeCurrentNotification
 aSkipAnimation
 )
 ;
+}
 else
 if
 (
@@ -885,6 +901,7 @@ this
 .
 _closedNotification
 )
+{
 this
 .
 _removeNotificationElement
@@ -892,6 +909,7 @@ _removeNotificationElement
 aItem
 )
 ;
+}
 return
 aItem
 ;
@@ -907,6 +925,7 @@ aChild
 .
 eventCallback
 )
+{
 aChild
 .
 eventCallback
@@ -916,6 +935,7 @@ removed
 "
 )
 ;
+}
 this
 .
 stack
@@ -1015,6 +1035,7 @@ if
 (
 aImmediate
 )
+{
 this
 .
 _removeNotificationElement
@@ -1025,7 +1046,9 @@ n
 ]
 )
 ;
+}
 else
+{
 this
 .
 removeNotification
@@ -1036,6 +1059,7 @@ n
 ]
 )
 ;
+}
 }
 this
 .
@@ -1053,12 +1077,14 @@ this
 .
 _allowAnimation
 )
+{
 this
 .
 _finishAnimation
 (
 )
 ;
+}
 }
 removeTransientNotifications
 (
@@ -1106,12 +1132,14 @@ notification
 .
 persistence
 )
+{
 notification
 .
 persistence
 -
 -
 ;
+}
 else
 if
 (
@@ -1125,6 +1153,7 @@ notification
 .
 timeout
 )
+{
 this
 .
 removeNotification
@@ -1132,6 +1161,7 @@ removeNotification
 notification
 )
 ;
+}
 }
 }
 _showNotification
@@ -1282,12 +1312,10 @@ this
 .
 currentNotification
 =
-(
 idx
 >
 =
 0
-)
 ?
 notifications
 [

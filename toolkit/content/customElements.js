@@ -565,9 +565,7 @@ instrumentedClasses
 .
 has
 (
-(
 c
-)
 )
 )
 {
@@ -578,9 +576,7 @@ instrumentedClasses
 .
 add
 (
-(
 c
-)
 )
 ;
 let
@@ -811,9 +807,7 @@ Object
 .
 getOwnPropertyNames
 (
-(
 c
-)
 )
 )
 {
@@ -1825,6 +1819,7 @@ index
 >
 {
 return
+(
 preamble
 +
 <
@@ -1850,6 +1845,7 @@ _dtd
 index
 }
 ;
+)
 ;
 }
 "
@@ -1953,7 +1949,6 @@ currentNode
 if
 (
 !
-(
 /
 [
 ^
@@ -1971,7 +1966,6 @@ test
 currentNode
 .
 textContent
-)
 )
 )
 {

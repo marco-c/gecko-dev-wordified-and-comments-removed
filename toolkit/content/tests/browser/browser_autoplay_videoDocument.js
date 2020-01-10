@@ -41,9 +41,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -125,6 +123,7 @@ played
 video
 &
 &
+(
 await
 video
 .
@@ -144,6 +143,7 @@ true
 =
 >
 false
+)
 )
 ;
 ok
@@ -193,9 +193,7 @@ spawn
 browser
 PAGE
 async
-(
 pageURL
-)
 =
 >
 {
@@ -384,9 +382,7 @@ url
 PAGE
 }
 async
-(
 browser
-)
 =
 >
 {
@@ -454,9 +450,7 @@ blank
 "
 }
 async
-(
 browser
-)
 =
 >
 {

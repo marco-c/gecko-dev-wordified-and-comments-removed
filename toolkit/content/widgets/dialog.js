@@ -72,9 +72,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -113,9 +111,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -171,9 +167,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -215,9 +209,7 @@ addEventListener
 "
 focus
 "
-(
 event
-)
 =
 >
 {
@@ -293,9 +285,7 @@ addEventListener
 "
 close
 "
-(
 event
-)
 =
 >
 {
@@ -328,9 +318,7 @@ addEventListener
 "
 load
 "
-(
 event
-)
 =
 >
 this
@@ -1280,6 +1268,7 @@ defaultButton
 "
 )
 )
+{
 return
 this
 .
@@ -1290,6 +1279,7 @@ defaultButton
 "
 )
 ;
+}
 return
 "
 accept
@@ -1545,6 +1535,7 @@ screen
 .
 availLeft
 )
+{
 newX
 =
 screen
@@ -1553,17 +1544,15 @@ availLeft
 +
 20
 ;
+}
 if
 (
-(
 newX
 +
 window
 .
 outerWidth
-)
 >
-(
 screen
 .
 availLeft
@@ -1572,10 +1561,9 @@ screen
 .
 availWidth
 )
-)
+{
 newX
 =
-(
 screen
 .
 availLeft
@@ -1583,7 +1571,6 @@ availLeft
 screen
 .
 availWidth
-)
 -
 window
 .
@@ -1591,6 +1578,7 @@ outerWidth
 -
 20
 ;
+}
 if
 (
 newY
@@ -1599,6 +1587,7 @@ screen
 .
 availTop
 )
+{
 newY
 =
 screen
@@ -1607,17 +1596,15 @@ availTop
 +
 20
 ;
+}
 if
-(
 (
 newY
 +
 window
 .
 outerHeight
-)
 >
-(
 screen
 .
 availTop
@@ -1626,10 +1613,9 @@ screen
 .
 availHeight
 )
-)
+{
 newY
 =
-(
 screen
 .
 availTop
@@ -1637,7 +1623,6 @@ availTop
 screen
 .
 availHeight
-)
 -
 window
 .
@@ -1645,6 +1630,7 @@ outerHeight
 -
 60
 ;
+}
 window
 .
 moveTo
@@ -1836,6 +1822,7 @@ if
 (
 focusedElt
 )
+{
 if
 (
 focusedElt
@@ -1870,6 +1857,7 @@ blur
 }
 break
 ;
+}
 }
 }
 if
@@ -1948,6 +1936,7 @@ if
 (
 defaultButton
 )
+{
 window
 .
 notifyDefaultButtonLoaded
@@ -1955,6 +1944,7 @@ notifyDefaultButtonLoaded
 defaultButton
 )
 ;
+}
 }
 catch
 (
@@ -2037,8 +2027,10 @@ helpButton
 .
 hidden
 )
+{
 return
 ;
+}
 this
 .
 _fireButtonEvent
@@ -2285,6 +2277,7 @@ buttonaccesskey
 dlgtype
 )
 )
+{
 button
 .
 setAttribute
@@ -2304,6 +2297,7 @@ dlgtype
 )
 )
 ;
+}
 }
 else
 if
@@ -2411,6 +2405,7 @@ if
 (
 accessKey
 )
+{
 button
 .
 setAttribute
@@ -2421,6 +2416,7 @@ accesskey
 accessKey
 )
 ;
+}
 }
 }
 if
@@ -2449,6 +2445,7 @@ buttonicon
 dlgtype
 )
 )
+{
 button
 .
 setAttribute
@@ -2468,7 +2465,9 @@ dlgtype
 )
 )
 ;
+}
 else
+{
 switch
 (
 dlgtype
@@ -2554,6 +2553,7 @@ default
 :
 break
 ;
+}
 }
 }
 }
@@ -2744,6 +2744,7 @@ if
 (
 oldDefaultButton
 )
+{
 oldDefaultButton
 .
 removeAttribute
@@ -2753,6 +2754,7 @@ default
 "
 )
 ;
+}
 var
 newDefaultButton
 =
@@ -2814,6 +2816,7 @@ aNewDefault
 none
 "
 )
+{
 dump
 (
 "
@@ -2835,6 +2838,7 @@ n
 "
 )
 ;
+}
 }
 }
 _handleButtonCommand
@@ -3014,8 +3018,10 @@ evt
 .
 defaultPrevented
 )
+{
 return
 ;
+}
 var
 btn
 =
@@ -3032,6 +3038,7 @@ if
 (
 btn
 )
+{
 this
 .
 _doButtonCommand
@@ -3041,6 +3048,7 @@ this
 defaultButton
 )
 ;
+}
 }
 }
 customElements

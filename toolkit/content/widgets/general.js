@@ -24,9 +24,11 @@ selectedIndex
 =
 val
 )
+{
 return
 val
 ;
+}
 this
 .
 setAttribute
@@ -122,10 +124,12 @@ panel
 .
 previousElementSibling
 )
+{
 +
 +
 selectedIndex
 ;
+}
 this
 .
 selectedIndex

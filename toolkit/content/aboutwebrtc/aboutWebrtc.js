@@ -738,6 +738,7 @@ val
 )
 {
 return
+(
 this
 .
 _labelVal
@@ -749,6 +750,7 @@ val
 \
 xA0
 "
+)
 ;
 }
 get
@@ -769,11 +771,13 @@ val
 )
 {
 return
+(
 this
 .
 _messageVal
 =
 val
+)
 ;
 }
 get
@@ -968,8 +972,10 @@ if
 !
 content
 )
+{
 return
 ;
+}
 FoldEffect
 .
 expandAll
@@ -3026,7 +3032,6 @@ rtpStats
 .
 concat
 (
-(
 this
 .
 _report
@@ -3036,8 +3041,6 @@ inboundRTPStreamStats
 |
 [
 ]
-)
-(
 this
 .
 _report
@@ -3047,7 +3050,6 @@ outboundRTPStreamStats
 |
 [
 ]
-)
 )
 ;
 for
@@ -3210,11 +3212,9 @@ avg_framerate_label
 }
 :
 {
-(
 stats
 .
 framerateMean
-)
 .
 toFixed
 (
@@ -3308,7 +3308,6 @@ statsString
 {
 label
 =
-(
 stats
 .
 packetsReceived
@@ -3332,7 +3331,6 @@ encoder_label
 )
 }
 :
-)
 ;
 statsString
 =
@@ -4021,6 +4019,7 @@ map
 entry
 =
 >
+(
 Object
 .
 is
@@ -4033,6 +4032,7 @@ undefined
 "
 :
 entry
+)
 )
 )
 ;
@@ -4946,7 +4946,6 @@ componentId
 ;
 }
 return
-(
 b
 .
 bytesSent
@@ -4985,7 +4984,6 @@ priority
 |
 |
 0
-)
 )
 ;
 }
@@ -5239,7 +5237,6 @@ tr
 let
 elemType
 =
-(
 header
 ?
 "
@@ -5249,7 +5246,6 @@ th
 "
 td
 "
-)
 ;
 for
 (

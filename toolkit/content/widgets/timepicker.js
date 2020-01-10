@@ -230,16 +230,12 @@ state
 const
 wrapSetValueFn
 =
-(
 setTimeFunction
-)
 =
 >
 {
 return
-(
 value
-)
 =
 >
 {
@@ -496,6 +492,7 @@ getDisplayString
 dayPeriod
 =
 >
+(
 dayPeriod
 =
 =
@@ -508,6 +505,7 @@ AM
 "
 PM
 "
+)
 hideButtons
 :
 true

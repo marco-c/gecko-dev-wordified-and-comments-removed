@@ -231,6 +231,7 @@ window
 .
 opener
 )
+{
 window
 .
 opener
@@ -243,7 +244,9 @@ condition
 message
 )
 ;
+}
 else
+{
 SimpleTest
 .
 ok
@@ -252,6 +255,7 @@ condition
 message
 )
 ;
+}
 }
 function
 is
@@ -267,6 +271,7 @@ window
 .
 opener
 )
+{
 window
 .
 opener
@@ -280,7 +285,9 @@ right
 message
 )
 ;
+}
 else
+{
 SimpleTest
 .
 is
@@ -290,6 +297,7 @@ right
 message
 )
 ;
+}
 }
 function
 disableNonTestMouse
@@ -404,12 +412,14 @@ events
 function
 "
 )
+{
 events
 =
 events
 (
 )
 ;
+}
 if
 (
 events
@@ -848,10 +858,12 @@ gExpectedTriggerNode
 notset
 "
 )
+{
 gExpectedTriggerNode
 =
 null
 ;
+}
 is
 (
 event
@@ -873,7 +885,6 @@ triggerNode
 var
 isTooltip
 =
-(
 event
 .
 target
@@ -884,7 +895,6 @@ localName
 "
 tooltip
 "
-)
 ;
 is
 (
@@ -935,6 +945,7 @@ if
 (
 expectedState
 )
+{
 is
 (
 event
@@ -959,6 +970,7 @@ state
 "
 )
 ;
+}
 if
 (
 matches
@@ -977,12 +989,14 @@ length
 =
 gTestEventIndex
 )
+{
 setTimeout
 (
 checkResult
 0
 )
 ;
+}
 }
 }
 }
@@ -1012,6 +1026,7 @@ steps
 in
 test
 )
+{
 step
 =
 test
@@ -1021,6 +1036,7 @@ steps
 gTestStepIndex
 ]
 ;
+}
 if
 (
 "
@@ -1029,6 +1045,7 @@ result
 in
 test
 )
+{
 test
 .
 result
@@ -1039,6 +1056,7 @@ testname
 step
 )
 ;
+}
 if
 (
 "
@@ -1280,6 +1298,7 @@ steps
 in
 test
 )
+{
 step
 =
 test
@@ -1289,6 +1308,7 @@ steps
 gTestStepIndex
 ]
 ;
+}
 test
 .
 test
@@ -1609,6 +1629,7 @@ open
 in
 menu
 )
+{
 ok
 (
 menu
@@ -1628,6 +1649,7 @@ open
 "
 )
 ;
+}
 else
 if
 (
@@ -1637,6 +1659,7 @@ hasMenu
 (
 )
 )
+{
 ok
 (
 menu
@@ -1667,6 +1690,7 @@ open
 )
 ;
 }
+}
 function
 checkClosed
 (
@@ -1692,6 +1716,7 @@ open
 in
 menu
 )
+{
 ok
 (
 !
@@ -1712,6 +1737,7 @@ open
 "
 )
 ;
+}
 else
 if
 (
@@ -1721,6 +1747,7 @@ hasMenu
 (
 )
 )
+{
 ok
 (
 !
@@ -1747,6 +1774,7 @@ closed
 )
 ;
 }
+}
 function
 convertPosition
 (
@@ -1771,11 +1799,13 @@ align
 topleft
 "
 )
+{
 return
 "
 overlap
 "
 ;
+}
 if
 (
 anchor
@@ -1793,11 +1823,13 @@ align
 topright
 "
 )
+{
 return
 "
 start_before
 "
 ;
+}
 if
 (
 anchor
@@ -1815,11 +1847,13 @@ align
 bottomleft
 "
 )
+{
 return
 "
 before_start
 "
 ;
+}
 if
 (
 anchor
@@ -1837,11 +1871,13 @@ align
 topleft
 "
 )
+{
 return
 "
 end_before
 "
 ;
+}
 if
 (
 anchor
@@ -1859,11 +1895,13 @@ align
 bottomright
 "
 )
+{
 return
 "
 before_end
 "
 ;
+}
 if
 (
 anchor
@@ -1881,11 +1919,13 @@ align
 bottomright
 "
 )
+{
 return
 "
 start_after
 "
 ;
+}
 if
 (
 anchor
@@ -1903,11 +1943,13 @@ align
 topleft
 "
 )
+{
 return
 "
 after_start
 "
 ;
+}
 if
 (
 anchor
@@ -1925,11 +1967,13 @@ align
 bottomleft
 "
 )
+{
 return
 "
 end_after
 "
 ;
+}
 if
 (
 anchor
@@ -1947,11 +1991,13 @@ align
 topright
 "
 )
+{
 return
 "
 after_end
 "
 ;
+}
 return
 "
 "
@@ -2044,7 +2090,6 @@ gPopupWidth
 {
 ok
 (
-(
 Math
 .
 round
@@ -2062,10 +2107,8 @@ popuprect
 .
 left
 )
-)
 &
 &
-(
 Math
 .
 round
@@ -2082,7 +2125,6 @@ round
 popuprect
 .
 top
-)
 )
 testname
 +
@@ -2643,6 +2685,7 @@ before
 =
 0
 )
+{
 check1
 =
 isWithinHalfPixel
@@ -2657,6 +2700,7 @@ popuprect
 bottom
 )
 ;
+}
 else
 if
 (
@@ -2672,9 +2716,9 @@ after
 =
 0
 )
+{
 check1
 =
-(
 Math
 .
 round
@@ -2695,8 +2739,8 @@ popuprect
 .
 top
 )
-)
 ;
+}
 else
 if
 (
@@ -2712,6 +2756,7 @@ start
 =
 0
 )
+{
 check1
 =
 isWithinHalfPixel
@@ -2726,6 +2771,7 @@ popuprect
 right
 )
 ;
+}
 else
 if
 (
@@ -2741,9 +2787,9 @@ end
 =
 0
 )
+{
 check1
 =
-(
 Math
 .
 round
@@ -2764,8 +2810,8 @@ popuprect
 .
 left
 )
-)
 ;
+}
 if
 (
 0
@@ -2779,9 +2825,9 @@ before
 "
 )
 )
+{
 check2
 =
-(
 Math
 .
 round
@@ -2802,8 +2848,8 @@ popuprect
 .
 top
 )
-)
 ;
+}
 else
 if
 (
@@ -2818,6 +2864,7 @@ after
 "
 )
 )
+{
 check2
 =
 isWithinHalfPixel
@@ -2832,6 +2879,7 @@ popuprect
 bottom
 )
 ;
+}
 else
 if
 (
@@ -2846,9 +2894,9 @@ start
 "
 )
 )
+{
 check2
 =
-(
 Math
 .
 round
@@ -2869,8 +2917,8 @@ popuprect
 .
 left
 )
-)
 ;
+}
 else
 if
 (
@@ -2885,6 +2933,7 @@ end
 "
 )
 )
+{
 check2
 =
 isWithinHalfPixel
@@ -2899,6 +2948,7 @@ popuprect
 right
 )
 ;
+}
 ok
 (
 check1

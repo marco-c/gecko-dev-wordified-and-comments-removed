@@ -213,6 +213,7 @@ if
 (
 shouldThrow
 )
+{
 do_throw
 (
 "
@@ -232,6 +233,7 @@ principal
 "
 )
 ;
+}
 }
 function
 test_stringBundle

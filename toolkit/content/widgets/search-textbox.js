@@ -167,6 +167,7 @@ val
 )
 {
 return
+(
 this
 .
 inputField
@@ -175,6 +176,7 @@ property
 ]
 =
 val
+)
 ;
 }
 }
@@ -188,9 +190,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -224,6 +224,7 @@ inputField
 .
 selectionEnd
 )
+{
 this
 .
 editor
@@ -232,6 +233,7 @@ selectAll
 (
 )
 ;
+}
 }
 )
 ;
@@ -242,9 +244,7 @@ addEventListener
 "
 input
 "
-(
 event
-)
 =
 >
 {
@@ -325,9 +325,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -582,6 +580,7 @@ focused
 const
 searchBtn
 =
+(
 this
 .
 _searchButtonIcon
@@ -593,6 +592,7 @@ createXULElement
 "
 image
 "
+)
 )
 ;
 searchBtn
@@ -614,9 +614,7 @@ addEventListener
 "
 click
 "
-(
 e
-)
 =
 >
 this
@@ -716,6 +714,7 @@ _clearSearch
 const
 deck
 =
+(
 this
 .
 _searchIcons
@@ -727,6 +726,7 @@ createXULElement
 "
 deck
 "
+)
 )
 ;
 deck
@@ -1054,6 +1054,7 @@ if
 (
 val
 )
+{
 this
 .
 setAttribute
@@ -1066,7 +1067,9 @@ true
 "
 )
 ;
+}
 else
+{
 this
 .
 removeAttribute
@@ -1076,6 +1079,7 @@ disabled
 "
 )
 ;
+}
 return
 val
 ;

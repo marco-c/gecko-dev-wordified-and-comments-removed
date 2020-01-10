@@ -187,11 +187,13 @@ forEach
 accel
 =
 >
+(
 accel
 .
 width
 =
 width
+)
 )
 ;
 }

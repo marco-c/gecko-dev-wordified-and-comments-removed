@@ -192,7 +192,6 @@ confirmEx
 window
 title
 msg
-(
 PS
 .
 BUTTON_POS_0
@@ -200,9 +199,7 @@ BUTTON_POS_0
 PS
 .
 BUTTON_TITLE_CANCEL
-)
 +
-(
 PS
 .
 BUTTON_POS_1
@@ -210,7 +207,6 @@ BUTTON_POS_1
 PS
 .
 BUTTON_TITLE_IS_STRING
-)
 null
 button
 null
@@ -1495,7 +1491,6 @@ confirmEx
 window
 title
 msg
-(
 Services
 .
 prompt
@@ -1507,9 +1502,7 @@ Services
 prompt
 .
 BUTTON_POS_0
-)
 +
-(
 Services
 .
 prompt
@@ -1521,9 +1514,7 @@ Services
 prompt
 .
 BUTTON_POS_1
-)
 +
-(
 Services
 .
 prompt
@@ -1535,7 +1526,6 @@ Services
 prompt
 .
 BUTTON_POS_2
-)
 dontDeleteStr
 null
 deleteStr

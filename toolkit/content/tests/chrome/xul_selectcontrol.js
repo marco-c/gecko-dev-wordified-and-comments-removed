@@ -140,6 +140,7 @@ Mac
 "
 )
 )
+{
 platform
 =
 "
@@ -147,6 +148,7 @@ mac
 :
 "
 ;
+}
 else
 if
 (
@@ -161,6 +163,7 @@ Win
 "
 )
 )
+{
 platform
 =
 "
@@ -168,6 +171,7 @@ win
 :
 "
 ;
+}
 else
 if
 (
@@ -182,6 +186,7 @@ X
 "
 )
 )
+{
 platform
 =
 "
@@ -189,6 +194,7 @@ gtk
 :
 "
 ;
+}
 var
 re
 =
@@ -253,9 +259,7 @@ testprefix
 var
 testid
 =
-(
 testprefix
-)
 ?
 testprefix
 +
@@ -834,6 +838,7 @@ if
 (
 allowOtherValue
 )
+{
 element
 .
 value
@@ -841,6 +846,7 @@ value
 "
 "
 ;
+}
 var
 fourthitem
 =
@@ -1164,9 +1170,7 @@ testprefix
 var
 testid
 =
-(
 testprefix
-)
 ?
 testprefix
 +
@@ -1948,7 +1952,6 @@ true
 var
 dontSelectDisabled
 =
-(
 behaviourContains
 (
 element
@@ -1961,7 +1964,6 @@ select
 -
 disabled
 "
-)
 )
 ;
 synthesizeMouseExpectEvent

@@ -409,6 +409,7 @@ prefHasUserValue
 kPrefName_AutoScroll
 )
 )
+{
 Services
 .
 prefs
@@ -418,6 +419,7 @@ clearUserPref
 kPrefName_AutoScroll
 )
 ;
+}
 await
 SimpleTest
 .

@@ -232,9 +232,7 @@ promise
 wakeLockObserved
 (
 topic
-(
 state
-)
 =
 >
 state

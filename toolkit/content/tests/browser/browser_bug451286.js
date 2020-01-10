@@ -210,12 +210,14 @@ matchCase
 .
 checked
 )
+{
 matchCase
 .
 doCommand
 (
 )
 ;
+}
 await
 toggleHighlightAndWait
 (
@@ -633,9 +635,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

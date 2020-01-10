@@ -26,9 +26,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -69,9 +67,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -295,7 +291,6 @@ val
 let
 change
 =
-(
 val
 !
 =
@@ -313,7 +308,6 @@ checked
 "
 true
 "
-)
 )
 ;
 if

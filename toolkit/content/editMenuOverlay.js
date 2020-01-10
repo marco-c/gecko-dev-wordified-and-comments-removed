@@ -24,8 +24,10 @@ undefined
 gEditUIVisible
 )
 )
+{
 return
 ;
+}
 goUpdateCommand
 (
 "
@@ -415,9 +417,7 @@ addEventListener
 "
 contextmenu
 "
-(
 e
-)
 =
 >
 {

@@ -328,9 +328,7 @@ window
 .
 MutationObserver
 (
-(
 aMutations
-)
 =
 >
 this
@@ -915,7 +913,6 @@ this
 .
 startAt
 =
-(
 this
 .
 element
@@ -926,15 +923,12 @@ behavior
 "
 alternate
 "
-)
 ?
-(
 this
 .
 originalHeight
 -
 corrvalue
-)
 :
 0
 ;
@@ -942,7 +936,6 @@ this
 .
 stopAt
 =
-(
 this
 .
 element
@@ -965,18 +958,14 @@ behavior
 "
 slide
 "
-)
 ?
-(
 parseInt
 (
 height
 )
 +
 corrvalue
-)
 :
-(
 this
 .
 originalHeight
@@ -984,7 +973,6 @@ originalHeight
 parseInt
 (
 height
-)
 )
 ;
 }
@@ -1073,7 +1061,6 @@ this
 .
 startAt
 =
-(
 this
 .
 element
@@ -1084,18 +1071,14 @@ behavior
 "
 alternate
 "
-)
 ?
-(
 parseInt
 (
 height
 )
 +
 corrvalue
-)
 :
-(
 this
 .
 originalHeight
@@ -1104,13 +1087,11 @@ parseInt
 (
 height
 )
-)
 ;
 this
 .
 stopAt
 =
-(
 this
 .
 element
@@ -1133,15 +1114,12 @@ behavior
 "
 slide
 "
-)
 ?
-(
 this
 .
 originalHeight
 -
 corrvalue
-)
 :
 0
 ;
@@ -1194,7 +1172,6 @@ this
 .
 stopAt
 =
-(
 this
 .
 element
@@ -1217,9 +1194,7 @@ behavior
 "
 slide
 "
-)
 ?
-(
 this
 .
 innerDiv
@@ -1227,7 +1202,6 @@ innerDiv
 offsetWidth
 -
 corrvalue
-)
 :
 0
 ;
@@ -1242,7 +1216,6 @@ outerDiv
 offsetWidth
 +
 (
-(
 this
 .
 element
@@ -1253,11 +1226,9 @@ behavior
 "
 alternate
 "
-)
 ?
 corrvalue
 :
-(
 this
 .
 innerDiv
@@ -1267,7 +1238,6 @@ offsetWidth
 this
 .
 stopAt
-)
 )
 ;
 break
@@ -1319,7 +1289,6 @@ this
 .
 startAt
 =
-(
 this
 .
 element
@@ -1330,9 +1299,7 @@ behavior
 "
 alternate
 "
-)
 ?
-(
 this
 .
 innerDiv
@@ -1340,7 +1307,6 @@ innerDiv
 offsetWidth
 -
 corrvalue
-)
 :
 0
 ;
@@ -1354,7 +1320,6 @@ outerDiv
 .
 offsetWidth
 +
-(
 (
 this
 .
@@ -1378,11 +1343,9 @@ behavior
 "
 slide
 "
-)
 ?
 corrvalue
 :
-(
 this
 .
 innerDiv
@@ -1392,7 +1355,6 @@ offsetWidth
 this
 .
 startAt
-)
 )
 ;
 }
@@ -1430,7 +1392,6 @@ this
 .
 newPosition
 +
-(
 this
 .
 dirsign
@@ -1440,7 +1401,6 @@ this
 element
 .
 scrollAmount
-)
 ;
 if
 (
@@ -1555,7 +1515,6 @@ stopAt
 ;
 if
 (
-(
 this
 .
 _currentDirection
@@ -1564,10 +1523,8 @@ _currentDirection
 "
 up
 "
-)
 |
 |
-(
 this
 .
 _currentDirection
@@ -1576,7 +1533,6 @@ _currentDirection
 "
 down
 "
-)
 )
 {
 this
@@ -1664,7 +1620,6 @@ startAt
 ;
 if
 (
-(
 this
 .
 _currentDirection
@@ -1673,10 +1628,8 @@ _currentDirection
 "
 up
 "
-)
 |
 |
-(
 this
 .
 _currentDirection
@@ -1685,7 +1638,6 @@ _currentDirection
 "
 down
 "
-)
 )
 {
 this
@@ -1753,7 +1705,6 @@ _currentLoop
 {
 if
 (
-(
 this
 .
 _currentDirection
@@ -1762,10 +1713,8 @@ _currentDirection
 "
 up
 "
-)
 |
 |
-(
 this
 .
 _currentDirection
@@ -1774,7 +1723,6 @@ _currentDirection
 "
 down
 "
-)
 )
 {
 this
@@ -1827,7 +1775,6 @@ return
 else
 if
 (
-(
 this
 .
 _currentDirection
@@ -1836,10 +1783,8 @@ _currentDirection
 "
 up
 "
-)
 |
 |
-(
 this
 .
 _currentDirection
@@ -1848,7 +1793,6 @@ _currentDirection
 "
 down
 "
-)
 )
 {
 this
@@ -1928,7 +1872,6 @@ stop
 ;
 if
 (
-(
 this
 .
 _currentDirection
@@ -1937,10 +1880,8 @@ _currentDirection
 "
 up
 "
-)
 &
 &
-(
 this
 .
 _currentDirection
@@ -1949,7 +1890,6 @@ _currentDirection
 "
 down
 "
-)
 )
 {
 var

@@ -2922,9 +2922,7 @@ table
 {
 onGetCacheComplete
 :
-(
 aCache
-)
 =
 >
 {

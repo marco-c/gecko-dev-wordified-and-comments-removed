@@ -58,9 +58,7 @@ waitForEvent
 browser
 event
 false
-(
 event
-)
 =
 >
 {
@@ -381,9 +379,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

@@ -22,9 +22,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 prefs
 }

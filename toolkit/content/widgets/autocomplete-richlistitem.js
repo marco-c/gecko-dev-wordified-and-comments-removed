@@ -77,9 +77,7 @@ addEventListener
 "
 mousedown
 "
-(
 event
-)
 =
 >
 {
@@ -136,9 +134,7 @@ addEventListener
 "
 mouseover
 "
-(
 event
-)
 =
 >
 {
@@ -1140,6 +1136,7 @@ aSearchTokens
 "
 "
 )
+{
 return
 [
 0
@@ -1148,6 +1145,7 @@ aText
 length
 ]
 ;
+}
 let
 regions
 =
@@ -1262,12 +1260,10 @@ b
 ]
 ;
 return
-(
 start
 =
 =
 0
-)
 ?
 a
 [
@@ -1399,6 +1395,7 @@ aText
 .
 length
 )
+{
 boundaries
 .
 push
@@ -1408,6 +1405,7 @@ aText
 length
 )
 ;
+}
 return
 boundaries
 .
@@ -1468,6 +1466,7 @@ hasChildNodes
 (
 )
 )
+{
 aDescriptionElement
 .
 firstChild
@@ -1476,6 +1475,7 @@ remove
 (
 )
 ;
+}
 if
 (
 aNoEmphasis
@@ -2044,8 +2044,10 @@ length
 =
 0
 )
+{
 continue
 ;
+}
 let
 match
 =
@@ -2157,6 +2159,7 @@ hasChildNodes
 (
 )
 )
+{
 aDescriptionElement
 .
 firstChild
@@ -2165,6 +2168,7 @@ remove
 (
 )
 ;
+}
 for
 (
 let
@@ -3268,6 +3272,7 @@ trimValue
 function
 "
 )
+{
 displayUrl
 =
 input
@@ -3277,6 +3282,7 @@ trimValue
 displayUrl
 )
 ;
+}
 displayUrl
 =
 this
@@ -3350,12 +3356,14 @@ uri
 .
 host
 )
+{
 title
 =
 uri
 .
 host
 ;
+}
 }
 catch
 (
@@ -3368,10 +3376,12 @@ if
 !
 title
 )
+{
 title
 =
 displayUrl
 ;
+}
 }
 this
 .
@@ -4372,9 +4382,11 @@ action
 "
 )
 )
+{
 return
 null
 ;
+}
 let
 [
 type
@@ -4511,9 +4523,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {

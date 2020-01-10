@@ -36,9 +36,7 @@ addEventListener
 "
 popupshowing
 "
-(
 e
-)
 =
 >
 {
@@ -483,7 +481,6 @@ _hasRendered
 )
 {
 return
-(
 this
 .
 querySelector
@@ -501,7 +498,6 @@ text
 !
 =
 null
-)
 ;
 }
 connectedCallback
@@ -575,7 +571,6 @@ return
 let
 badged
 =
-(
 this
 .
 getAttribute
@@ -589,7 +584,6 @@ badged
 "
 true
 "
-)
 ;
 if
 (
