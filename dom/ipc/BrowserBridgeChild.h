@@ -93,7 +93,9 @@ Manager
 {
 MOZ_ASSERT
 (
-mIPCOpen
+CanSend
+(
+)
 )
 ;
 return
@@ -422,9 +424,6 @@ mId
 ;
 LayersId
 mLayersId
-;
-bool
-mIPCOpen
 ;
 bool
 mHadInitialLoad
