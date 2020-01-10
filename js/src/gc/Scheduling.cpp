@@ -1226,7 +1226,7 @@ gcMaxNurseryBytes_
 JS
 :
 :
-DefaultNurseryBytes
+DefaultNurseryMaxBytes
 ;
 break
 ;
