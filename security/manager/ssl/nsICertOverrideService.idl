@@ -392,7 +392,7 @@ void
 rememberValidityOverride
 (
 in
-ACString
+AUTF8String
 aHostName
 in
 int32_t
@@ -555,13 +555,13 @@ void
 rememberTemporaryValidityOverrideUsingFingerprint
 (
 in
-ACString
+AUTF8String
 aHostName
 in
 int32_t
 aPort
 in
-ACString
+AUTF8String
 aCertFingerprint
 in
 uint32_t
@@ -703,7 +703,7 @@ boolean
 hasMatchingOverride
 (
 in
-ACString
+AUTF8String
 aHostName
 in
 int32_t
@@ -803,7 +803,7 @@ void
 clearValidityOverride
 (
 in
-ACString
+AUTF8String
 aHostName
 in
 int32_t
