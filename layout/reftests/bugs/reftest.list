@@ -9303,6 +9303,15 @@ xml
 #
 Bug
 1392106
+pref
+(
+mathml
+.
+mathsize_names
+.
+disabled
+false
+)
 random
 -
 if
