@@ -983,7 +983,7 @@ acceptProposedCompletion
 }
 this
 .
-execute
+_execute
 (
 )
 ;
@@ -1111,7 +1111,7 @@ editorMode
 {
 this
 .
-execute
+_execute
 (
 )
 ;
@@ -2623,16 +2623,13 @@ focus
 ;
 }
 }
-execute
+_execute
 (
-executeString
 )
 {
+const
 executeString
 =
-executeString
-|
-|
 this
 .
 _getValue
@@ -3638,7 +3635,7 @@ editorMode
 {
 this
 .
-execute
+_execute
 (
 )
 ;
@@ -3715,7 +3712,7 @@ editorMode
 {
 this
 .
-execute
+_execute
 (
 )
 ;
@@ -3890,7 +3887,7 @@ editorMode
 {
 this
 .
-execute
+_execute
 (
 )
 ;
@@ -5617,7 +5614,6 @@ hidePopup
 )
 ;
 }
-}
 this
 .
 emit
@@ -5629,6 +5625,7 @@ updated
 "
 )
 ;
+}
 }
 acceptProposedCompletion
 (

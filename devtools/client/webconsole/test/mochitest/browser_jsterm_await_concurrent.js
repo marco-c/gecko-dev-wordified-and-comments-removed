@@ -111,13 +111,6 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-const
-{
-jsterm
-}
-=
-hud
-;
 hud
 .
 ui
@@ -208,10 +201,9 @@ of
 inputs
 )
 {
-jsterm
-.
 execute
 (
+hud
 input
 )
 ;
