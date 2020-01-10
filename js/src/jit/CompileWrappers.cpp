@@ -793,7 +793,7 @@ canNurseryAllocateStrings
 )
 {
 return
-nurseryExists
+nurseryEnabled
 (
 )
 &
@@ -831,7 +831,7 @@ bool
 CompileZone
 :
 :
-nurseryExists
+nurseryEnabled
 (
 )
 {
@@ -852,7 +852,7 @@ nursery
 (
 )
 .
-exists
+isEnabled
 (
 )
 ;
