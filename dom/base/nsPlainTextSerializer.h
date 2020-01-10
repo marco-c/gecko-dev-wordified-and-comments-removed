@@ -482,7 +482,7 @@ void
 DoAddText
 (
 bool
-aIsWhitespace
+aIsLineBreak
 const
 nsAString
 &
