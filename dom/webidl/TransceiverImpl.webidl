@@ -171,6 +171,13 @@ getReceiveTrack
 (
 )
 ;
+void
+setReceiveTrackMuted
+(
+boolean
+muted
+)
+;
 [
 Throws
 ]

@@ -334,6 +334,13 @@ GetReceiveTrack
 )
 ;
 void
+SetReceiveTrackMuted
+(
+bool
+aMuted
+)
+;
+void
 SyncWithJS
 (
 dom

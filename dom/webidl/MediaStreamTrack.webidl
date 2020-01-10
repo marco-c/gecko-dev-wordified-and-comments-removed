@@ -518,15 +518,5 @@ attribute
 EventHandler
 onoverconstrained
 ;
-[
-ChromeOnly
-]
-void
-mutedChanged
-(
-boolean
-muted
-)
-;
 }
 ;
