@@ -21773,6 +21773,12 @@ contentView
 addSubview
 :
 mTitlebarGradientView
+positioned
+:
+NSWindowBelow
+relativeTo
+:
+nil
 ]
 ;
 }
