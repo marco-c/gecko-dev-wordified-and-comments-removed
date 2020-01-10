@@ -2269,6 +2269,15 @@ break
 ;
 case
 "
+whats
+-
+new
+-
+panel_user_event
+"
+:
+case
+"
 onboarding_user_event
 "
 :
