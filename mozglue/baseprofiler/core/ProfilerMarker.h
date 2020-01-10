@@ -228,7 +228,7 @@ info
 JS
 :
 :
-GetProfilingCategoryPairInfo
+GetBaseProfilingCategoryPairInfo
 (
 mCategoryPair
 )
