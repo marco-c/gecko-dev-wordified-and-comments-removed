@@ -933,10 +933,6 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
-HandleObject
-proto
-=
-nullptr
 )
 ;
 class
@@ -6715,8 +6711,6 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
-HandleObject
-proto
 bool
 isSelfHosting
 =
