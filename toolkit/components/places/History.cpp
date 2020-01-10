@@ -302,10 +302,6 @@ ScriptSettings
 .
 h
 "
-#
-define
-VISIT_OBSERVERS_INITIAL_CACHE_LENGTH
-64
 using
 namespace
 mozilla
@@ -6416,6 +6412,9 @@ History
 (
 )
 :
+IHistory
+(
+)
 mShuttingDown
 (
 false
@@ -6428,10 +6427,6 @@ History
 :
 mShutdownMutex
 "
-)
-mObservers
-(
-VISIT_OBSERVERS_INITIAL_CACHE_LENGTH
 )
 mRecentlyVisitedURIs
 (

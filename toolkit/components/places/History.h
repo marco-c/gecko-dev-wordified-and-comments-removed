@@ -476,13 +476,6 @@ mShuttingDown
 Mutex
 mShutdownMutex
 ;
-nsDataHashtable
-<
-nsURIHashKey
-TrackedURI
->
-mTrackedURIs
-;
 struct
 RecentURIVisit
 {

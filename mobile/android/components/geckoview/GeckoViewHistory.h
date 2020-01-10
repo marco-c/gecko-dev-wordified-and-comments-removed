@@ -202,13 +202,6 @@ GeckoViewHistory
 >
 sHistory
 ;
-nsDataHashtable
-<
-nsURIHashKey
-TrackedURI
->
-mTrackedURIs
-;
 nsTHashtable
 <
 nsURIHashKey
