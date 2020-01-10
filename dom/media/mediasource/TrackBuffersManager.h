@@ -853,6 +853,11 @@ aInterval
 )
 ;
 void
+RemoveAllCodedFrames
+(
+)
+;
+void
 SetAppendState
 (
 SourceBufferAttributes
