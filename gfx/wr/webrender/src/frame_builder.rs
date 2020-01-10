@@ -2535,11 +2535,6 @@ output_rect
 .
 size
 )
-background_color
-:
-scene
-.
-background_color
 layer
 profile_counters
 passes
@@ -3838,13 +3833,6 @@ pub
 device_rect
 :
 DeviceIntRect
-pub
-background_color
-:
-Option
-<
-ColorF
->
 pub
 layer
 :
