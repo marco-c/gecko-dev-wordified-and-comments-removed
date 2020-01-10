@@ -377,7 +377,7 @@ static
 void
 holderFinalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

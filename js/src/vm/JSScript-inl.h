@@ -1123,10 +1123,7 @@ JSScript
 :
 setBaselineScript
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 js
@@ -1234,10 +1231,7 @@ JSScript
 :
 clearBaselineScript
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -1282,10 +1276,7 @@ JSScript
 :
 clearIonScript
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 )

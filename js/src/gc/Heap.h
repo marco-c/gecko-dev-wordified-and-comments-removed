@@ -1690,7 +1690,7 @@ T
 size_t
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 AllocKind

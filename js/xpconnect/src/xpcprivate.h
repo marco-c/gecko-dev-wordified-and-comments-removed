@@ -4851,10 +4851,7 @@ mScriptable
 void
 JSProtoObjectFinalized
 (
-js
-:
-:
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

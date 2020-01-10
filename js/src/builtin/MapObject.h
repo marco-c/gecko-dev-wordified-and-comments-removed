@@ -726,7 +726,7 @@ static
 void
 sweepAfterMinorGC
 (
-FreeOp
+JSFreeOp
 *
 fop
 MapObject
@@ -822,7 +822,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -1229,7 +1229,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -1579,7 +1579,7 @@ static
 void
 sweepAfterMinorGC
 (
-FreeOp
+JSFreeOp
 *
 fop
 SetObject
@@ -1675,7 +1675,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -2031,7 +2031,7 @@ static
 void
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

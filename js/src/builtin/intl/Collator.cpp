@@ -670,7 +670,7 @@ CollatorObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject

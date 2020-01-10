@@ -2895,7 +2895,7 @@ const
 void
 InvalidateAll
 (
-FreeOp
+JSFreeOp
 *
 fop
 JS
@@ -2909,7 +2909,7 @@ zone
 void
 FinishInvalidation
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSScript

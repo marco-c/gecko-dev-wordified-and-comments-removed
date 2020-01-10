@@ -8565,7 +8565,7 @@ JSScript
 :
 setIonScript
 (
-FreeOp
+JSFreeOp
 *
 fop
 js
@@ -9387,7 +9387,7 @@ ScriptSourceObject
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
@@ -23402,7 +23402,7 @@ JSScript
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -27636,7 +27636,7 @@ LazyScript
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 )

@@ -1082,7 +1082,7 @@ ShapeCachePtr
 :
 maybePurgeCache
 (
-FreeOp
+JSFreeOp
 *
 fop
 BaseShape
@@ -1811,7 +1811,7 @@ ShapeCachePtr
 :
 destroy
 (
-FreeOp
+JSFreeOp
 *
 fop
 BaseShape
@@ -9127,7 +9127,7 @@ BaseShape
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -9809,7 +9809,7 @@ Shape
 :
 removeChild
 (
-FreeOp
+JSFreeOp
 *
 fop
 Shape
@@ -10270,7 +10270,7 @@ Shape
 :
 sweep
 (
-FreeOp
+JSFreeOp
 *
 fop
 )
@@ -10336,7 +10336,7 @@ Shape
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 )

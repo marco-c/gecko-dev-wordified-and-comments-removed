@@ -16534,7 +16534,7 @@ TypeDescr
 :
 finalize
 (
-FreeOp
+JSFreeOp
 *
 fop
 JSObject
