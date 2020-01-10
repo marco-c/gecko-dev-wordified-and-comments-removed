@@ -1532,6 +1532,11 @@ Screen
 }
 )
 ;
+await
+closeStream
+(
+)
+;
 }
 }
 ]
