@@ -594,8 +594,6 @@ stable
 "
 firefox
 -
-beta
--
 latest
 -
 ssl
@@ -2055,6 +2053,18 @@ exists
 (
 dest
 )
+and
+len
+(
+os
+.
+listdir
+(
+dest
+)
+)
+>
+0
 :
             
 if
