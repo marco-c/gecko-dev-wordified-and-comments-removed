@@ -10914,6 +10914,12 @@ return
 aStart
 >
 0
+&
+&
+aStart
+!
+=
+UINT32_MAX
 ?
 NS_ERROR_INVALID_ARG
 :
