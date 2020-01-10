@@ -17877,6 +17877,13 @@ if
 stack
 )
 {
+JSAutoRealm
+ar
+(
+aCx
+stackGlobal
+)
+;
 report
 -
 >
