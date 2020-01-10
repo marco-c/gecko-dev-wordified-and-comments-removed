@@ -5185,6 +5185,11 @@ CloseInternal
 (
 )
 ;
+ExpireFileActors
+(
+true
+)
+;
 if
 (
 mBackgroundActor
