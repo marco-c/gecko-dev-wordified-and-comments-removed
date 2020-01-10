@@ -1,0 +1,10 @@
+pytest
+pytest
+-
+cov
+sphinx
+>
+=
+1
+.
+1

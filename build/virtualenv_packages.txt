@@ -158,6 +158,15 @@ third_party
 /
 python
 /
+distro
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
 enum34
 mozilla
 .
