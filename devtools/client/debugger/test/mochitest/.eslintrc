@@ -316,6 +316,11 @@ waitForSelectedSource
 :
 false
 "
+waitForSelectedLocation
+"
+:
+false
+"
 waitForBreakpoint
 "
 :
@@ -587,6 +592,11 @@ rightClickEl
 false
 "
 clickGutter
+"
+:
+false
+"
+countTabs
 "
 :
 false
