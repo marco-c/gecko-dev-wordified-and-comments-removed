@@ -10295,6 +10295,19 @@ envstr
 cmd
         
 if
+(
+self
+.
+_device_serial
+.
+startswith
+(
+'
+emulator
+'
+)
+or
+            
 not
 hasattr
 (
@@ -10311,6 +10324,7 @@ version
 version_codes
 .
 N
+)
 :
             
 cmd
@@ -10643,6 +10657,20 @@ exitcode
 :
             
 if
+(
+not
+self
+.
+_device_serial
+.
+startswith
+(
+'
+emulator
+'
+)
+and
+                
 hasattr
 (
 self
@@ -10659,6 +10687,7 @@ version
 version_codes
 .
 N
+)
 :
                 
 adb_process
