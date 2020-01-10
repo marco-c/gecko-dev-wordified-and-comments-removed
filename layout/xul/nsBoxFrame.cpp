@@ -5943,7 +5943,7 @@ nsIFrame
 aChild
 )
 {
-uint32_t
+int32_t
 ord
 =
 aChild
