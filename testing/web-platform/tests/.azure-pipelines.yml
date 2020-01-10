@@ -309,6 +309,16 @@ agents
 v2
 -
 windows
+trigger
+:
+-
+epochs
+/
+*
+-
+triggers
+/
+*
 jobs
 :
 #
