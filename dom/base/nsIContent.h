@@ -359,13 +359,6 @@ NODE_IS_ANONYMOUS_ROOT
 }
 inline
 bool
-IsInAnonymousSubtree
-(
-)
-const
-;
-inline
-bool
 IsInHTMLDocument
 (
 )

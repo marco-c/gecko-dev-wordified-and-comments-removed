@@ -3445,7 +3445,13 @@ IsInAnonymousSubtree
 (
 )
 const
+{
+return
+IsInNativeAnonymousSubtree
+(
+)
 ;
+}
 bool
 IsInSVGUseShadowTree
 (
