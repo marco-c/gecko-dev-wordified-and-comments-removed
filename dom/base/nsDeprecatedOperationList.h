@@ -164,6 +164,10 @@ MathML_DeprecatedMencloseNotationRadical
 )
 DEPRECATED_OPERATION
 (
+MathML_DeprecatedScriptShiftAttributes
+)
+DEPRECATED_OPERATION
+(
 MathML_DeprecatedStyleAttribute
 )
 DEPRECATED_OPERATION
