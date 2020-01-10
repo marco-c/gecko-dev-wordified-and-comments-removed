@@ -242,17 +242,6 @@ contextMenu
 popupshown
 "
 )
-.
-then
-(
-(
-)
-=
->
-gContextMenuContentData
-.
-target
-)
 ;
 await
 ContentTask
