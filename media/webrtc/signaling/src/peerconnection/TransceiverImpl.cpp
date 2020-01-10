@@ -815,7 +815,7 @@ ASSERT_ON_THREAD
 mMainThread
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 MediaPipelineFilter
 >
@@ -843,8 +843,12 @@ GetNegotiatedDetails
 {
 filter
 =
-new
+MakeUnique
+<
 MediaPipelineFilter
+>
+(
+)
 ;
 for
 (
@@ -919,7 +923,13 @@ mJsepTransceiver
 mTransport
 .
 mTransportId
+std
+:
+:
+move
+(
 filter
+)
 )
 ;
 mTransmitPipeline
@@ -933,7 +943,7 @@ mJsepTransceiver
 mTransport
 .
 mTransportId
-filter
+nullptr
 )
 ;
 return
