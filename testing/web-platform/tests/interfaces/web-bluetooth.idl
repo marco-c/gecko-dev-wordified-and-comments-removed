@@ -172,6 +172,9 @@ requestDevice
 optional
 RequestDeviceOptions
 options
+=
+{
+}
 )
 ;
 }
@@ -304,6 +307,9 @@ type
 optional
 ValueEventInit
 initDict
+=
+{
+}
 )
 SecureContext
 ]
