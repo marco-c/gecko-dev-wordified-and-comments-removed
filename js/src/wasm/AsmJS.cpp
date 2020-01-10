@@ -39271,9 +39271,9 @@ strict
 {
 options
 .
-strictOption
-=
-true
+setForceStrictMode
+(
+)
 ;
 }
 AutoStableStringChars

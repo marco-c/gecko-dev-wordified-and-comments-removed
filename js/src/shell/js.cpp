@@ -4932,9 +4932,9 @@ true
 ;
 options
 .
-strictOption
-=
-true
+setForceStrictMode
+(
+)
 ;
 JS
 :
@@ -29095,9 +29095,8 @@ Module
 {
 options
 .
-maybeMakeStrictMode
+setForceStrictMode
 (
-true
 )
 ;
 options
