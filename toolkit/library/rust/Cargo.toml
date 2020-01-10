@@ -273,6 +273,17 @@ shared
 new_cert_storage
 "
 ]
+fuzzing_interfaces
+=
+[
+"
+gkrust
+-
+shared
+/
+fuzzing_interfaces
+"
+]
 [
 dependencies
 ]
