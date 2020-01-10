@@ -4010,7 +4010,7 @@ item
 parent
 )
 {
-let
+const
 parent
 =
 nodeIsBucket

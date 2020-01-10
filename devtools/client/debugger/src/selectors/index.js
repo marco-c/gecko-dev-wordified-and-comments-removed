@@ -220,6 +220,7 @@ export
 getClosestBreakpoint
 getBreakpointAtLocation
 getBreakpointsAtLine
+getClosestBreakpointPosition
 }
 from
 "
