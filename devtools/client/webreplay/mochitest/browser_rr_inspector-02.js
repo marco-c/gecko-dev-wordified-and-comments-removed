@@ -147,7 +147,7 @@ focus
 )
 ;
 await
-inspector
+toolbox
 .
 inspectorFront
 .
