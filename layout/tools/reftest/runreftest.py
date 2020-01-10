@@ -5564,6 +5564,10 @@ if
 mozinfo
 .
 isWin
+or
+mozinfo
+.
+isMac
 :
             
 kp_kwargs
