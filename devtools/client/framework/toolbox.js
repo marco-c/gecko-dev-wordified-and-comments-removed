@@ -13687,7 +13687,6 @@ this
 .
 _initInspector
 ;
-await
 this
 .
 _inspector
