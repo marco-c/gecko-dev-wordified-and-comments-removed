@@ -382,6 +382,6 @@ which
 Mozilla
 extensions
 KeyboardEvent
-implements
-KeyEvent
+includes
+KeyEventMixin
 ;
