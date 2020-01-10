@@ -837,12 +837,6 @@ create_aws_session
 (
 )
     
-s3_delete_missing
-(
-files
-key_prefix
-)
-    
 def
 upload
 (
@@ -1012,6 +1006,12 @@ key
                                
 extra_args
 )
+)
+    
+s3_delete_missing
+(
+files
+key_prefix
 )
     
 for
