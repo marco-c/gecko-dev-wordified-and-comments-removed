@@ -244,3 +244,12 @@ tests
 .
 cmd
 '
+#
+Diagnostic
+for
+bug
+1571986
+.
+tasklist
+-
+M
