@@ -6105,6 +6105,9 @@ origin
 }
 openProtections
 (
+relatedToCurrent
+=
+false
 )
 {
 switchToTabHavingURI
@@ -6119,6 +6122,7 @@ true
 replaceQueryString
 :
 true
+relatedToCurrent
 triggeringPrincipal
 :
 Services
@@ -7572,11 +7576,6 @@ _protectionPopupTrackersCounterDescription
 .
 textContent
 =
-Trackers
-blocked
-this
-week
-:
 {
 trackerCount
 .
@@ -7584,6 +7583,7 @@ toLocaleString
 (
 )
 }
+Blocked
 ;
 }
 showProtectionsPopup
