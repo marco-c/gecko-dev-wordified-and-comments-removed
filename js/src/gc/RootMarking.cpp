@@ -1834,16 +1834,7 @@ runtime
 (
 )
 ;
-rt
--
->
-gc
-.
-evictNursery
-(
-)
-;
-AutoPrepareForTracing
+AutoEmptyNurseryAndPrepareForTracing
 prep
 (
 rt
