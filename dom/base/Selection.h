@@ -504,8 +504,10 @@ RangeData
 aOutput
 )
 ;
+private
+:
 nsresult
-AddItem
+AddRangesForSelectableNodes
 (
 nsRange
 *
@@ -527,6 +529,8 @@ nsRange
 aRange
 )
 ;
+public
+:
 nsresult
 RemoveCollapsedRanges
 (
@@ -2467,6 +2471,7 @@ nsRange
 aRange
 )
 ;
+static
 void
 UserSelectRangesToAdd
 (

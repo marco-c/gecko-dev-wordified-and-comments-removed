@@ -2740,7 +2740,7 @@ aDidAddRange
 true
 ;
 return
-AddItem
+AddRangesForSelectableNodes
 (
 aRange
 aOutIndex
@@ -4361,7 +4361,7 @@ nsresult
 Selection
 :
 :
-AddItem
+AddRangesForSelectableNodes
 (
 nsRange
 *
@@ -9613,7 +9613,7 @@ didAddRange
 {
 result
 =
-AddItem
+AddRangesForSelectableNodes
 (
 range
 &
@@ -10704,7 +10704,7 @@ rangeIndex
 ;
 result
 =
-AddItem
+AddRangesForSelectableNodes
 (
 range
 &
@@ -11277,7 +11277,7 @@ aOutIndex
 ;
 res
 =
-AddItem
+AddRangesForSelectableNodes
 (
 aRange
 &
