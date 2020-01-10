@@ -10261,9 +10261,6 @@ JSObject
 aObject
 )
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 bool
 Hidden
 (
@@ -10293,8 +10290,6 @@ return
 mVisibilityState
 ;
 }
-#
-endif
 void
 GetSelectedStyleSheetSet
 (
