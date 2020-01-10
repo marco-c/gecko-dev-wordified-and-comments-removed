@@ -138,13 +138,10 @@ get
 }
 profiler_start
 (
-PowerOfTwo32
-(
 params
 .
 entries
 (
-)
 )
 params
 .
@@ -250,13 +247,10 @@ get
 }
 profiler_ensure_started
 (
-PowerOfTwo32
-(
 params
 .
 entries
 (
-)
 )
 params
 .

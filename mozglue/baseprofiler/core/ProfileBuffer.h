@@ -27,15 +27,6 @@ Maybe
 .
 h
 "
-#
-include
-"
-mozilla
-/
-PowerOfTwo
-.
-h
-"
 namespace
 mozilla
 {
@@ -51,7 +42,7 @@ public
 explicit
 ProfileBuffer
 (
-PowerOfTwo32
+uint32_t
 aCapacity
 )
 ;
@@ -284,7 +275,7 @@ ProfileBufferEntry
 >
 mEntries
 ;
-PowerOfTwoMask32
+uint32_t
 mEntryIndexMask
 ;
 public
@@ -294,6 +285,9 @@ mRangeStart
 ;
 uint64_t
 mRangeEnd
+;
+uint32_t
+mCapacity
 ;
 ProfilerMarkerLinkedList
 mStoredMarkers
