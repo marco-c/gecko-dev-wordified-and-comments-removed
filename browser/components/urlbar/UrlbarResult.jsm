@@ -559,7 +559,6 @@ name
 =
 [
 info
-false
 ]
 ;
 }
@@ -614,7 +613,11 @@ title
 [
 "
 "
-true
+UrlbarUtils
+.
+HIGHLIGHT
+.
+TYPED
 ]
 ;
 try
@@ -828,7 +831,7 @@ highlights
 name
 [
 val
-shouldHighlight
+highlightType
 ]
 ]
 )
@@ -837,7 +840,7 @@ shouldHighlight
 {
 if
 (
-shouldHighlight
+highlightType
 )
 {
 highlights
@@ -863,6 +866,7 @@ val
 |
 "
 "
+highlightType
 )
 :
 val
@@ -878,6 +882,7 @@ getTokenMatches
 (
 tokens
 subval
+highlightType
 )
 )
 ;
