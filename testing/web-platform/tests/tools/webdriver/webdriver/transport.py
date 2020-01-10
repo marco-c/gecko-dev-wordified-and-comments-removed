@@ -1368,6 +1368,12 @@ self
 .
 _conn
 and
+self
+.
+_conn
+.
+sock
+and
 select
 .
 select
