@@ -142,7 +142,9 @@ public
 explicit
 ResultImplementation
 (
+const
 V
+&
 aValue
 )
 :
@@ -256,7 +258,9 @@ public
 explicit
 ResultImplementation
 (
+const
 V
+&
 aValue
 )
 :
@@ -1289,7 +1293,9 @@ public
 MOZ_IMPLICIT
 Result
 (
+const
 V
+&
 aValue
 )
 :
