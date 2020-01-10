@@ -3712,7 +3712,7 @@ ret
 .
 rect
 =
-ToRoundedLayoutRect
+ToLayoutRect
 (
 LayoutDeviceRect
 :
