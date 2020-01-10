@@ -2221,6 +2221,12 @@ case
 EditSubAction
 :
 :
+eInsertQuotedText
+:
+case
+EditSubAction
+:
+:
 ePasteHTMLContent
 :
 case
@@ -3611,6 +3617,13 @@ aLeftNode
 nsIContent
 &
 aRightNode
+)
+;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+EnsureNoPaddingBRElementForEmptyEditor
+(
 )
 ;
 MOZ_CAN_RUN_SCRIPT

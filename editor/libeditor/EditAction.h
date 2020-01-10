@@ -171,6 +171,7 @@ eRemoveList
 eCreateOrChangeDefinitionList
 eInsertElement
 eInsertQuotation
+eInsertQuotedText
 ePasteHTMLContent
 eInsertHTMLSource
 eReplaceHeadWithHTMLSource

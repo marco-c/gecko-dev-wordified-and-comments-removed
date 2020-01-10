@@ -9380,7 +9380,7 @@ subActionInfo
 EditSubAction
 :
 :
-eInsertElement
+eInsertQuotedText
 )
 ;
 bool
@@ -9443,12 +9443,6 @@ case
 "
 )
 ;
-if
-(
-!
-handled
-)
-{
 rv
 =
 InsertTextAsSubAction
@@ -9470,7 +9464,6 @@ rv
 return
 rv
 ;
-}
 }
 return
 NS_OK
