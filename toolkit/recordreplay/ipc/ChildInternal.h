@@ -168,6 +168,14 @@ CurrentRepaintCannotFail
 (
 )
 ;
+bool
+Repaint
+(
+nsAString
+&
+aData
+)
+;
 }
 }
 }
