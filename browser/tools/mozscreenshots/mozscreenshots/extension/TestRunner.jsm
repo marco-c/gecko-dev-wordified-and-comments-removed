@@ -487,11 +487,9 @@ subDirs
 "
 mozscreenshots
 "
-(
 new
 Date
 (
-)
 )
 .
 toISOString
@@ -1590,9 +1588,7 @@ element
 if
 (
 typeof
-(
 selector
-)
 =
 =
 "
@@ -1826,9 +1822,7 @@ combo
 .
 map
 (
-(
 e
-)
 =
 >
 e
@@ -1881,9 +1875,7 @@ combo
 .
 map
 (
-(
 e
-)
 =
 >
 e
@@ -1984,9 +1976,7 @@ substring
 const
 changeConfig
 =
-(
 config
-)
 =
 >
 {
@@ -2081,9 +2071,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2653,9 +2641,7 @@ imagePath
 .
 catch
 (
-(
 msg
-)
 =
 >
 {
@@ -2671,9 +2657,7 @@ combo
 .
 map
 (
-(
 e
-)
 =
 >
 e
@@ -3068,9 +3052,7 @@ canvas
 .
 toBlob
 (
-(
 blob
-)
 =
 >
 {
@@ -3086,9 +3068,7 @@ fr
 .
 onload
 =
-(
 e
-)
 =
 >
 {
@@ -3467,9 +3447,11 @@ if
 !
 last
 )
+{
 return
 0
 ;
+}
 return
 last
 [
