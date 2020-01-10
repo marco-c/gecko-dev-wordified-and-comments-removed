@@ -2473,10 +2473,12 @@ body
 .
 style
 .
-left
+boxSizing
 =
 "
-1px
+border
+-
+box
 "
 ;
 var
