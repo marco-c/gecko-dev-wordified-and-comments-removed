@@ -43463,7 +43463,7 @@ scrolling
 negate_wheel_scroll
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 IS_ANDROID
