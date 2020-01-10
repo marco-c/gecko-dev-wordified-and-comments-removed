@@ -2152,9 +2152,6 @@ bool
 mReturnInEmptyLIKillsList
 ;
 bool
-mDidRangedDelete
-;
-bool
 mDidEmptyParentBlocksRemoved
 ;
 bool

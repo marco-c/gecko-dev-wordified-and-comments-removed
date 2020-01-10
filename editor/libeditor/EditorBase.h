@@ -1920,6 +1920,9 @@ mDidDeleteSelection
 bool
 mDidExplicitlySetInterLine
 ;
+bool
+mDidDeleteNonCollapsedRange
+;
 private
 :
 void
@@ -1932,6 +1935,10 @@ mDidDeleteSelection
 false
 ;
 mDidExplicitlySetInterLine
+=
+false
+;
+mDidDeleteNonCollapsedRange
 =
 false
 ;
