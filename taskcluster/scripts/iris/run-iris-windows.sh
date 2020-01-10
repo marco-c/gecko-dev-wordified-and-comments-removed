@@ -96,6 +96,11 @@ packages
 scoop
 install
 python
+3
+.
+7
+.
+3
 #
 Worker
 only
