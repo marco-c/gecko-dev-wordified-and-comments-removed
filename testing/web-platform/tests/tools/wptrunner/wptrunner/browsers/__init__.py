@@ -218,6 +218,10 @@ chrome_android
 "
                 
 "
+edgechromium
+"
+                
+"
 edge
 "
                 
