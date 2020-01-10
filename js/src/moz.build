@@ -1793,6 +1793,15 @@ cpp
 '
 builtin
 /
+streams
+/
+ReadableStreamReader
+.
+cpp
+'
+'
+builtin
+/
 String
 .
 cpp
