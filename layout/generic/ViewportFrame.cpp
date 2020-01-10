@@ -1636,7 +1636,8 @@ FinishReflowChild
 kidFrame
 aPresContext
 kidDesiredSize
-nullptr
+&
+kidReflowInput
 0
 0
 ReflowChildFlags

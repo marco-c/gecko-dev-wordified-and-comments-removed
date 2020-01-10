@@ -13078,6 +13078,10 @@ aReflowInput
 nsIFrame
 *
 aKidFrame
+const
+ReflowInput
+&
+aKidReflowInput
 nsPoint
 aKidPosition
 ReflowOutput
@@ -13122,7 +13126,8 @@ PresContext
 (
 )
 aKidDesiredSize
-nullptr
+&
+aKidReflowInput
 aKidPosition
 .
 x
@@ -14025,6 +14030,7 @@ PlaceChild
 (
 aReflowInput
 aTfoot
+footerReflowInput
 kidPosition
 .
 GetPhysicalPoint
@@ -14988,6 +14994,7 @@ PlaceChild
 (
 aReflowInput
 kidFrame
+kidReflowInput
 kidPosition
 .
 GetPhysicalPoint
@@ -15145,6 +15152,7 @@ PlaceChild
 (
 aReflowInput
 kidFrame
+kidReflowInput
 kidPosition
 .
 GetPhysicalPoint
@@ -15259,6 +15267,7 @@ PlaceChild
 (
 aReflowInput
 kidFrame
+kidReflowInput
 kidPosition
 .
 GetPhysicalPoint
@@ -15740,7 +15749,8 @@ FinishReflowChild
 kidFrame
 presContext
 kidMet
-nullptr
+&
+kidReflowInput
 0
 0
 ReflowChildFlags

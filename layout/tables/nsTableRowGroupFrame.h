@@ -832,6 +832,10 @@ aReflowInput
 nsIFrame
 *
 aKidFrame
+const
+ReflowInput
+&
+aKidReflowInput
 mozilla
 :
 :

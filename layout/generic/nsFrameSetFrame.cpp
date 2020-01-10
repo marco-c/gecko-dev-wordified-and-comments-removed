@@ -3504,7 +3504,8 @@ FinishReflowChild
 aChild
 aPresContext
 reflowOutput
-nullptr
+&
+reflowInput
 aOffset
 .
 x
