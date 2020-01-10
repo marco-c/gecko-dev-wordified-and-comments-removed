@@ -1269,7 +1269,6 @@ GetHBFace
 (
 )
 ;
-virtual
 void
 ForgetHBFace
 (
@@ -1281,7 +1280,6 @@ GetGrFace
 (
 )
 ;
-virtual
 void
 ReleaseGrFace
 (
