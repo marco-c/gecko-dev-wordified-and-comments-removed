@@ -117,3 +117,9 @@ chromium
 fetch
 .
 yml
+-
+visual
+-
+metrics
+.
+yml
