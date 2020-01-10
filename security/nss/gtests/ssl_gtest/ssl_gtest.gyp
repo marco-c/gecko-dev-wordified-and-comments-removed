@@ -750,6 +750,11 @@ enable_sslkeylogfile
 =
 =
 1
+and
+sanitizer_flags
+=
+=
+0
 '
 {
 '
