@@ -1448,7 +1448,10 @@ unlock
 mMutex
 )
 ;
+DebugOnly
+<
 bool
+>
 ok
 =
 JS
@@ -1461,7 +1464,7 @@ stream
 size
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ok
 mState
