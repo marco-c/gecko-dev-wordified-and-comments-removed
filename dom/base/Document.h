@@ -6130,7 +6130,6 @@ nsDocShell
 aContainer
 )
 ;
-virtual
 nsISupports
 *
 GetContainer
