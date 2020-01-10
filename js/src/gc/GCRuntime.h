@@ -1304,9 +1304,6 @@ thresholdBytes
 void
 maybeGC
 (
-Zone
-*
-zone
 )
 ;
 bool
