@@ -165,7 +165,7 @@ AbstractThread
 mAbstractMainThread
 ;
 const
-RefPtr
+WeakPtr
 <
 DOMMediaStream
 >
@@ -189,7 +189,7 @@ mPort
 ;
 nsTArray
 <
-RefPtr
+WeakPtr
 <
 dom
 :
@@ -555,6 +555,11 @@ second
 ;
 }
 }
+;
+void
+AutoRemoveDestroyedStreams
+(
+)
 ;
 void
 RemoveTrack
