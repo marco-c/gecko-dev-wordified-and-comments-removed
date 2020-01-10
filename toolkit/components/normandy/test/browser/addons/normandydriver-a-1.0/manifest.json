@@ -9,14 +9,14 @@ name
 "
 :
 "
-normandy_fixture
+normandy_fixture_a
 "
 "
 version
 "
 :
 "
-2
+1
 .
 0
 "
@@ -33,6 +33,8 @@ that
 s
 a
 webextension
+branch
+A
 "
 "
 applications
@@ -50,6 +52,8 @@ id
 :
 "
 normandydriver
+-
+a
 example
 .
 com
