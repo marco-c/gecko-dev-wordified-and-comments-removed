@@ -20210,6 +20210,7 @@ name_impl
 define
 GENERIC_MALLOC_DECL2
 (
+attributes
 name
 name_impl
 return_type
@@ -20229,6 +20230,7 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
+attributes
 {
 \
 return
@@ -20255,6 +20257,7 @@ __MINGW32__
 define
 GENERIC_MALLOC_DECL
 (
+attributes
 name
 return_type
 .
@@ -20264,6 +20267,7 @@ return_type
 \
 GENERIC_MALLOC_DECL2
 (
+attributes
 name
 name
 #
@@ -20280,6 +20284,7 @@ else
 define
 GENERIC_MALLOC_DECL
 (
+attributes
 name
 return_type
 .
@@ -20289,6 +20294,7 @@ return_type
 \
 GENERIC_MALLOC_DECL2
 (
+attributes
 name
 name
 #
@@ -20314,6 +20320,27 @@ __VA_ARGS__
 )
 #
 endif
+#
+define
+NOTHROW_MALLOC_DECL
+(
+.
+.
+.
+)
+\
+MOZ_MEMORY_API
+MACRO_CALL
+(
+GENERIC_MALLOC_DECL
+(
+noexcept
+(
+true
+)
+__VA_ARGS__
+)
+)
 #
 define
 MALLOC_DECL
@@ -20349,6 +20376,7 @@ GENERIC_MALLOC_DECL
 define
 GENERIC_MALLOC_DECL
 (
+attributes
 name
 return_type
 .
@@ -20358,6 +20386,7 @@ return_type
 \
 GENERIC_MALLOC_DECL2
 (
+attributes
 name
 name
 return_type
