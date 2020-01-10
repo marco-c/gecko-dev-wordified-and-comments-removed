@@ -2280,10 +2280,9 @@ const
 nsString
 &
 aRemoteType
-const
-WindowGlobalInit
-&
-aWindowInit
+BrowsingContext
+*
+aBrowsingContext
 const
 uint32_t
 &
@@ -2315,10 +2314,9 @@ const
 nsString
 &
 aRemoteType
-const
-WindowGlobalInit
-&
-aWindowInit
+BrowsingContext
+*
+aBrowsingContext
 const
 uint32_t
 &

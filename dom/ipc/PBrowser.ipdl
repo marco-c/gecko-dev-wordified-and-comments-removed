@@ -1668,8 +1668,8 @@ nsString
 aPresentationURL
 nsString
 aRemoteType
-WindowGlobalInit
-aWindowInit
+BrowsingContext
+aContext
 uint32_t
 aChromeFlags
 TabId
