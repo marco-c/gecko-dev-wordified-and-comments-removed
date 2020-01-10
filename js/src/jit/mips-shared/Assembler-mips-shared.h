@@ -6826,16 +6826,6 @@ true
 }
 static
 bool
-SupportsFastUnalignedAccesses
-(
-)
-{
-return
-false
-;
-}
-static
-bool
 SupportsSimd
 (
 )

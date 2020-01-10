@@ -1343,16 +1343,6 @@ return
 false
 ;
 }
-static
-bool
-SupportsFastUnalignedAccesses
-(
-)
-{
-return
-false
-;
-}
 void
 executableCopy
 (
