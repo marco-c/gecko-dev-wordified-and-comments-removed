@@ -85,10 +85,6 @@ modules
 /
 freetype2
 -
-python
-/
-safety
--
 security
 /
 manager
