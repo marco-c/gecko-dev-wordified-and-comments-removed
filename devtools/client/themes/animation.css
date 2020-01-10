@@ -73,16 +73,6 @@ blue
 ;
 -
 -
-devtools
--
-toolbar
--
-height
-:
-24px
-;
--
--
 fast
 -
 track
@@ -847,7 +837,7 @@ var
 (
 -
 -
-devtools
+theme
 -
 toolbar
 -
@@ -873,6 +863,11 @@ calc
 +
 1px
 )
+;
+background
+:
+#
+f004
 ;
 }
 .
