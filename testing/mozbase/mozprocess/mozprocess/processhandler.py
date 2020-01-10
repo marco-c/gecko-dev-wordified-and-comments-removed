@@ -3957,6 +3957,15 @@ if
 env
 is
 None
+and
+not
+(
+six
+.
+PY3
+and
+isWin
+)
 :
             
 env
