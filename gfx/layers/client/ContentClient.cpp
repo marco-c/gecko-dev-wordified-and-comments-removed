@@ -248,6 +248,10 @@ include
 <
 vector
 >
+using
+namespace
+std
+;
 namespace
 mozilla
 {
@@ -3179,9 +3183,6 @@ Update
 >
 mReadbackUpdates
 ;
-std
-:
-:
 vector
 <
 RefPtr

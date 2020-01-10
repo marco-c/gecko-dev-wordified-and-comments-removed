@@ -307,6 +307,10 @@ h
 "
 #
 endif
+using
+namespace
+std
+;
 namespace
 mozilla
 {
@@ -314,9 +318,6 @@ namespace
 layers
 {
 typedef
-std
-:
-:
 map
 <
 LayersId

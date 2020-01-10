@@ -209,6 +209,10 @@ layers
 :
 mlg
 ;
+using
+namespace
+std
+;
 bool
 CanUsePartialPresents
 (

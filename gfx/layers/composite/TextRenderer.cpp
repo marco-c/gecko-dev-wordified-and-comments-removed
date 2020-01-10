@@ -78,6 +78,10 @@ using
 namespace
 gfx
 ;
+using
+namespace
+std
+;
 const
 Float
 sBackgroundOpacity
@@ -301,9 +305,6 @@ Compositor
 *
 aCompositor
 const
-std
-:
-:
 string
 &
 aText
@@ -467,9 +468,6 @@ TextRenderer
 ComputeSurfaceSize
 (
 const
-std
-:
-:
 string
 &
 aText
