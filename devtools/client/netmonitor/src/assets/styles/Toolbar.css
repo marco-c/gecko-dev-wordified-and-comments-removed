@@ -433,6 +433,10 @@ start
 .
 devtools
 -
+toolbar
+.
+devtools
+-
 checkbox
 {
 position
@@ -450,6 +454,10 @@ bottom
 1px
 ;
 }
+.
+devtools
+-
+toolbar
 .
 devtools
 -
@@ -483,6 +491,10 @@ nowrap
 .
 devtools
 -
+toolbar
+.
+devtools
+-
 checkbox
 -
 label
@@ -502,6 +514,10 @@ start
 4px
 ;
 }
+.
+devtools
+-
+toolbar
 .
 devtools
 -
