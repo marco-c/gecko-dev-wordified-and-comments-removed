@@ -655,10 +655,8 @@ macosx
 *
 -
 64
-(
 -
 ccov
-)
 /
 debug
 :
@@ -674,7 +672,8 @@ shippable
 )
 ?
 /
-opt
+.
+*
 :
 2
 default
