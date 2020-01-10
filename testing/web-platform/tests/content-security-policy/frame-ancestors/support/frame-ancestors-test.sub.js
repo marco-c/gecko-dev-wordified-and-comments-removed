@@ -205,7 +205,7 @@ e
 .
 data
 .
-msg
+message
 )
 ;
 }
@@ -475,6 +475,16 @@ message
 ;
 try
 {
+ev
+.
+target
+.
+contentWindow
+.
+location
+.
+href
+;
 if
 (
 expectBlock
