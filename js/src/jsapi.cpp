@@ -2124,8 +2124,6 @@ JS_NewContext
 (
 uint32_t
 maxbytes
-uint32_t
-maxNurseryBytes
 JSRuntime
 *
 parentRuntime
@@ -2187,7 +2185,6 @@ return
 NewContext
 (
 maxbytes
-maxNurseryBytes
 parentRuntime
 )
 ;
