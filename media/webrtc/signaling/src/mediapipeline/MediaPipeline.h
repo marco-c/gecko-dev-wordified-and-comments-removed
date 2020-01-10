@@ -534,6 +534,12 @@ return
 mRtcpPacketsReceived
 ;
 }
+DOMHighResTimeStamp
+GetNow
+(
+)
+const
+;
 MediaSessionConduit
 *
 Conduit
@@ -985,12 +991,6 @@ mPacketDumper
 ;
 private
 :
-static
-DOMHighResTimeStamp
-GetNow
-(
-)
-;
 bool
 IsRtp
 (
