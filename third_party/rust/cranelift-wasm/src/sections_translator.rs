@@ -7,7 +7,6 @@ environ
 :
 {
 ModuleEnvironment
-WasmError
 WasmResult
 }
 ;
@@ -32,6 +31,12 @@ Table
 TableElementType
 TableIndex
 }
+;
+use
+crate
+:
+:
+wasm_unsupported
 ;
 use
 core
@@ -131,6 +136,7 @@ get_count
 (
 )
 )
+?
 ;
 for
 entry
@@ -298,18 +304,14 @@ declare_signature
 (
 sig
 )
+?
 ;
 }
-_
+ty
 =
 >
-return
-Err
-(
-WasmError
-:
-:
-Unsupported
+wasm_unsupported
+!
 (
 "
 unsupported
@@ -317,8 +319,13 @@ type
 in
 type
 section
+:
+{
+:
+?
+}
 "
-)
+ty
 )
 }
 }
@@ -372,6 +379,7 @@ get_count
 (
 )
 )
+?
 ;
 for
 entry
@@ -427,6 +435,7 @@ sig
 module_name
 field_name
 )
+?
 ;
 }
 ImportSectionEntryType
@@ -467,6 +476,7 @@ shared
 module_name
 field_name
 )
+?
 ;
 }
 ImportSectionEntryType
@@ -513,6 +523,7 @@ Import
 module_name
 field_name
 )
+?
 ;
 }
 ImportSectionEntryType
@@ -582,6 +593,7 @@ maximum
 module_name
 field_name
 )
+?
 ;
 }
 }
@@ -591,6 +603,7 @@ environ
 finish_imports
 (
 )
+?
 ;
 Ok
 (
@@ -630,6 +643,7 @@ get_count
 (
 )
 )
+?
 ;
 for
 entry
@@ -654,6 +668,7 @@ from_u32
 sigindex
 )
 )
+?
 ;
 }
 Ok
@@ -694,6 +709,7 @@ get_count
 (
 )
 )
+?
 ;
 for
 entry
@@ -760,6 +776,7 @@ limits
 maximum
 }
 )
+?
 ;
 }
 Ok
@@ -800,6 +817,7 @@ get_count
 (
 )
 )
+?
 ;
 for
 entry
@@ -839,6 +857,7 @@ memory
 shared
 }
 )
+?
 ;
 }
 Ok
@@ -879,6 +898,7 @@ get_count
 (
 )
 )
+?
 ;
 for
 entry
@@ -1025,7 +1045,8 @@ ref
 s
 =
 >
-panic
+{
+wasm_unsupported
 !
 (
 "
@@ -1043,6 +1064,8 @@ section
 "
 s
 )
+;
+}
 }
 ;
 let
@@ -1072,6 +1095,7 @@ declare_global
 (
 global
 )
+?
 ;
 }
 Ok
@@ -1124,6 +1148,7 @@ get_count
 (
 )
 )
+?
 ;
 for
 entry
@@ -1172,6 +1197,7 @@ index
 )
 field
 )
+?
 ExternalKind
 :
 :
@@ -1191,12 +1217,14 @@ index
 )
 field
 )
+?
 ExternalKind
 :
 :
 Memory
 =
 >
+{
 environ
 .
 declare_memory_export
@@ -1210,12 +1238,15 @@ index
 )
 field
 )
+?
+}
 ExternalKind
 :
 :
 Global
 =
 >
+{
 environ
 .
 declare_global_export
@@ -1229,6 +1260,8 @@ index
 )
 field
 )
+?
+}
 }
 }
 environ
@@ -1236,6 +1269,7 @@ environ
 finish_exports
 (
 )
+?
 ;
 Ok
 (
@@ -1277,6 +1311,7 @@ from_u32
 index
 )
 )
+?
 ;
 Ok
 (
@@ -1324,6 +1359,7 @@ get_count
 (
 )
 )
+?
 ;
 for
 entry
@@ -1422,7 +1458,8 @@ ref
 s
 =
 >
-panic
+{
+wasm_unsupported
 !
 (
 "
@@ -1440,6 +1477,8 @@ section
 "
 s
 )
+;
+}
 }
 ;
 let
@@ -1522,10 +1561,11 @@ into_boxed_slice
 (
 )
 )
+?
 }
 else
 {
-panic
+wasm_unsupported
 !
 (
 "
@@ -1533,7 +1573,13 @@ unsupported
 passive
 elements
 section
+:
+{
+:
+?
+}
 "
+kind
 )
 ;
 }
@@ -1678,6 +1724,7 @@ get_count
 (
 )
 )
+?
 ;
 for
 entry
@@ -1776,7 +1823,7 @@ ref
 s
 =
 >
-panic
+wasm_unsupported
 !
 (
 "
@@ -1811,11 +1858,12 @@ base
 offset
 data
 )
+?
 ;
 }
 else
 {
-panic
+wasm_unsupported
 !
 (
 "
@@ -1823,7 +1871,13 @@ unsupported
 passive
 data
 section
+:
+{
+:
+?
+}
 "
+kind
 )
 ;
 }

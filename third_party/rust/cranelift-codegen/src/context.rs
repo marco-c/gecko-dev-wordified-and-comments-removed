@@ -1761,6 +1761,16 @@ mut
 self
 .
 func
+&
+mut
+self
+.
+cfg
+&
+mut
+self
+.
+domtree
 isa
 )
 ?

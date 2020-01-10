@@ -54,6 +54,7 @@ mem
 [
 derive
 (
+Debug
 PartialEq
 Eq
 )
