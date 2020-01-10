@@ -3549,7 +3549,7 @@ destroyingRuntime
 )
 ;
 void
-decommitAllWithoutUnlocking
+decommitFreeArenasWithoutUnlocking
 (
 const
 AutoLockGC
