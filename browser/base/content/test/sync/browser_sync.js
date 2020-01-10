@@ -263,8 +263,7 @@ com
 headerDescription
 :
 "
-Manage
-Account
+Settings
 "
 enabledItems
 :
@@ -915,8 +914,7 @@ com
 headerDescription
 :
 "
-Manage
-Account
+Settings
 "
 enabledItems
 :
