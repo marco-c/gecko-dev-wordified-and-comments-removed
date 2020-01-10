@@ -367,6 +367,13 @@ EmptyString
 DOMString
 value
 ;
+[
+BinaryName
+=
+"
+getTextLength
+"
+]
 readonly
 attribute
 unsigned

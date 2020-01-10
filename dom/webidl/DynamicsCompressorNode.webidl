@@ -251,6 +251,13 @@ attack
 /
 in
 Seconds
+[
+BinaryName
+=
+"
+getRelease
+"
+]
 readonly
 attribute
 AudioParam

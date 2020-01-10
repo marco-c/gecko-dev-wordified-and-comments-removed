@@ -167,6 +167,13 @@ IDBIndex
 )
 source
 ;
+[
+BinaryName
+=
+"
+getDirection
+"
+]
 readonly
 attribute
 IDBCursorDirection

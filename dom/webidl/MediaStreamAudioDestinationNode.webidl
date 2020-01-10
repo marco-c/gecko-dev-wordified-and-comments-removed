@@ -168,6 +168,13 @@ MediaStreamAudioDestinationNode
 :
 AudioNode
 {
+[
+BinaryName
+=
+"
+DOMStream
+"
+]
 readonly
 attribute
 MediaStream

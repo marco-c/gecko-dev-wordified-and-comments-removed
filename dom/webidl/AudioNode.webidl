@@ -360,6 +360,11 @@ channelCount
 ;
 [
 SetterThrows
+BinaryName
+=
+"
+channelCountModeValue
+"
 ]
 attribute
 ChannelCountMode
@@ -367,6 +372,11 @@ channelCountMode
 ;
 [
 SetterThrows
+BinaryName
+=
+"
+channelInterpretationValue
+"
 ]
 attribute
 ChannelInterpretation

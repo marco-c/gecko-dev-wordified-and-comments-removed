@@ -185,6 +185,13 @@ attribute
 PhotoSettingsOptions
 photoSettingsOptions
 ;
+[
+BinaryName
+=
+"
+GetVideoStreamTrack
+"
+]
 readonly
 attribute
 MediaStreamTrack

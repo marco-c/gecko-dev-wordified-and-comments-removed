@@ -248,6 +248,11 @@ statusText
 ;
 [
 SameObject
+BinaryName
+=
+"
+headers_
+"
 ]
 readonly
 attribute

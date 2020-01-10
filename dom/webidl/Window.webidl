@@ -940,6 +940,11 @@ print
 Throws
 CrossOriginCallable
 NeedsSubjectPrincipal
+BinaryName
+=
+"
+postMessageMoz
+"
 ]
 void
 postMessage
@@ -963,6 +968,11 @@ transfer
 Throws
 CrossOriginCallable
 NeedsSubjectPrincipal
+BinaryName
+=
+"
+postMessageMoz
+"
 ]
 void
 postMessage

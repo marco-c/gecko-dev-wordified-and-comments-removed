@@ -147,6 +147,11 @@ ExtendableEvent
 {
 [
 SameObject
+BinaryName
+=
+"
+request_
+"
 ]
 readonly
 attribute

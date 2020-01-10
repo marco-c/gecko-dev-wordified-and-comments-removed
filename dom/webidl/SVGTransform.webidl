@@ -201,6 +201,13 @@ unsigned
 short
 type
 ;
+[
+BinaryName
+=
+"
+getMatrix
+"
+]
 readonly
 attribute
 SVGMatrix

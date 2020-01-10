@@ -493,6 +493,11 @@ node
 ;
 [
 Throws
+BinaryName
+=
+"
+ToString
+"
 ]
 stringifier
 ;

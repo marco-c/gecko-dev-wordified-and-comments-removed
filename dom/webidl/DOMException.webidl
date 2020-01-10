@@ -434,6 +434,13 @@ by
 the
 thrower
 .
+[
+BinaryName
+=
+"
+messageMoz
+"
+]
 readonly
 attribute
 DOMString
@@ -548,6 +555,13 @@ by
 the
 thrower
 .
+[
+BinaryName
+=
+"
+messageMoz
+"
+]
 readonly
 attribute
 DOMString

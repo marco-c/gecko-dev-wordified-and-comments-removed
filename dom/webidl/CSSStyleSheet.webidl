@@ -136,6 +136,11 @@ StyleSheet
 {
 [
 Pure
+BinaryName
+=
+"
+DOMOwnerRule
+"
 ]
 readonly
 attribute

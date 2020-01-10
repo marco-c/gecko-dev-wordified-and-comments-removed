@@ -171,6 +171,13 @@ NotificationEvent
 :
 ExtendableEvent
 {
+[
+BinaryName
+=
+"
+notification_
+"
+]
 readonly
 attribute
 Notification

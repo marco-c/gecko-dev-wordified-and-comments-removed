@@ -367,6 +367,11 @@ Deprecated
 "
 PrefixedImageSmoothingEnabled
 "
+BinaryName
+=
+"
+imageSmoothingEnabled
+"
 ]
 attribute
 boolean

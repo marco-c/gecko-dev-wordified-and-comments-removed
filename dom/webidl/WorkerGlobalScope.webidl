@@ -333,6 +333,11 @@ attribute
 Constant
 Cached
 Replaceable
+BinaryName
+=
+"
+getPerformance
+"
 ]
 readonly
 attribute

@@ -164,6 +164,11 @@ url
 ;
 [
 SameObject
+BinaryName
+=
+"
+headers_
+"
 ]
 readonly
 attribute
@@ -180,6 +185,13 @@ attribute
 USVString
 referrer
 ;
+[
+BinaryName
+=
+"
+referrerPolicy_
+"
+]
 readonly
 attribute
 ReferrerPolicy
