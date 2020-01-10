@@ -308,7 +308,7 @@ char
 aBuf
 )
 {
-LOG
+NS_WARNING
 (
 "
 %
@@ -894,7 +894,7 @@ exeNameLen
 =
 0
 ;
-LOG
+NS_WARNING
 (
 "
 SharedLibraryInfo
@@ -1128,7 +1128,7 @@ ret
 4
 )
 {
-LOG
+NS_WARNING
 (
 "
 SharedLibraryInfo
@@ -1237,7 +1237,7 @@ GetSize
 10000
 )
 {
-LOG
+NS_WARNING
 (
 "
 SharedLibraryInfo
