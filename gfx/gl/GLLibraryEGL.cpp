@@ -1057,16 +1057,6 @@ IsInRenderThread
 )
 )
 {
-#
-ifndef
-MOZ_BUILD_WEBRENDER
-MOZ_ASSERT
-(
-false
-)
-;
-#
-endif
 return
 true
 ;

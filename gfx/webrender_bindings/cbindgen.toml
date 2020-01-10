@@ -252,16 +252,6 @@ webrender_api
 [
 fn
 ]
-prefix
-=
-"
-WR_INLINE
-"
-postfix
-=
-"
-WR_FUNC
-"
 args
 =
 "

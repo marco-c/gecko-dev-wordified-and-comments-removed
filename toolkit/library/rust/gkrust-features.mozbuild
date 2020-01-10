@@ -122,14 +122,6 @@ gecko_debug
 gecko_refcount_logging
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_BUILD_WEBRENDER
-'
-]
-:
 gkrust_features
 +
 =
