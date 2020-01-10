@@ -320,7 +320,7 @@ h
 #
 include
 "
-nsIPageSequenceFrame
+nsPageSequenceFrame
 .
 h
 "
@@ -10858,7 +10858,7 @@ aFullZoom
 mOriginalPrintPreviewScale
 )
 ;
-nsIPageSequenceFrame
+nsPageSequenceFrame
 *
 pf
 =

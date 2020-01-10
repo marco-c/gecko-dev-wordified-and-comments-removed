@@ -682,7 +682,7 @@ h
 #
 include
 "
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 .
 h
 "
@@ -11433,15 +11433,13 @@ else
 {
 rootFrame
 =
-NS_NewSimplePageSequenceFrame
+mPageSequenceFrame
+=
+NS_NewPageSequenceFrame
 (
 mPresShell
 viewportPseudoStyle
 )
-;
-mPageSequenceFrame
-=
-rootFrame
 ;
 rootPseudo
 =

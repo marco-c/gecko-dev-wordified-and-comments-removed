@@ -112,7 +112,7 @@ class
 nsIDocShell
 ;
 class
-nsIPageSequenceFrame
+nsPageSequenceFrame
 ;
 namespace
 mozilla

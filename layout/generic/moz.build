@@ -825,11 +825,6 @@ nsIObjectFrame
 h
 '
 '
-nsIPageSequenceFrame
-.
-h
-'
-'
 nsIScrollableFrame
 .
 h
@@ -841,6 +836,11 @@ h
 '
 '
 nsIStatefulFrame
+.
+h
+'
+'
+nsPageSequenceFrame
 .
 h
 '
@@ -1218,6 +1218,11 @@ nsPageFrame
 cpp
 '
 '
+nsPageSequenceFrame
+.
+cpp
+'
+'
 nsPlaceholderFrame
 .
 cpp
@@ -1249,11 +1254,6 @@ cpp
 '
 '
 nsRubyTextFrame
-.
-cpp
-'
-'
-nsSimplePageSequenceFrame
 .
 cpp
 '

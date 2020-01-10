@@ -128,6 +128,9 @@ class
 nsCSSAnonBoxPseudoStaticAtom
 ;
 class
+nsPageSequenceFrame
+;
+class
 nsPageContentFrame
 ;
 struct
@@ -676,7 +679,7 @@ return
 mRootElementStyleFrame
 ;
 }
-nsIFrame
+nsPageSequenceFrame
 *
 GetPageSequenceFrame
 (
@@ -5286,7 +5289,7 @@ nsContainerFrame
 *
 mDocElementContainingBlock
 ;
-nsIFrame
+nsPageSequenceFrame
 *
 mPageSequenceFrame
 ;

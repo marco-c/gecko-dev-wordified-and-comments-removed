@@ -992,7 +992,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 "
 "
 Sequence
@@ -1655,13 +1655,6 @@ AbstractFrame
 (
 "
 nsIObjectFrame
-"
-)
-    
-AbstractFrame
-(
-"
-nsIPageSequenceFrame
 "
 )
     

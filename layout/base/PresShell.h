@@ -441,7 +441,7 @@ class
 nsINode
 ;
 class
-nsIPageSequenceFrame
+nsPageSequenceFrame
 ;
 class
 nsIReflowCallback
@@ -1255,7 +1255,7 @@ ScrollableDirection
 aDirection
 )
 ;
-nsIPageSequenceFrame
+nsPageSequenceFrame
 *
 GetPageSequenceFrame
 (
