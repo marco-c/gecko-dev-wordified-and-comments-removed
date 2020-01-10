@@ -296,14 +296,6 @@ UpdateDisplayPortMargins
 =
 0
 ;
-enum
-class
-ResizeEventFlag
-{
-IfNecessary
-Suppress
-}
-;
 virtual
 void
 Reflow
@@ -312,7 +304,6 @@ const
 CSSSize
 &
 aNewSize
-ResizeEventFlag
 )
 =
 0
