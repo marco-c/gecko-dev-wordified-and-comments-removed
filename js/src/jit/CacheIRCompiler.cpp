@@ -550,7 +550,7 @@ ensureDoubleRegister
 MacroAssembler
 &
 masm
-ValOperandId
+NumberOperandId
 op
 FloatRegister
 dest
@@ -12603,7 +12603,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg0
@@ -12616,7 +12616,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg1
@@ -12675,7 +12675,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg0
@@ -12688,7 +12688,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg1
@@ -12747,7 +12747,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg0
@@ -12760,7 +12760,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg1
@@ -12819,7 +12819,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg0
@@ -12832,7 +12832,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg1
@@ -12899,7 +12899,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg0
@@ -12912,7 +12912,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg1
@@ -21641,7 +21641,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg0
@@ -21654,7 +21654,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg1
@@ -25329,7 +25329,7 @@ ensureDoubleRegister
 masm
 reader
 .
-valOperandId
+numberOperandId
 (
 )
 FloatReg0
