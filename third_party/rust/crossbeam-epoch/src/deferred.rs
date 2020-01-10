@@ -210,6 +210,13 @@ Data
 (
 )
 {
+#
+[
+allow
+(
+deprecated
+)
+]
 let
 mut
 data
@@ -316,6 +323,13 @@ new
 f
 )
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 let
 mut
 data

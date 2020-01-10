@@ -124,7 +124,7 @@ version
 .
 7
 .
-1
+2
 "
 authors
 =
@@ -267,7 +267,7 @@ version
 "
 0
 .
-7
+8
 "
 [
 dependencies
@@ -281,9 +281,7 @@ version
 "
 0
 .
-6
-.
-5
+7
 "
 [
 dev

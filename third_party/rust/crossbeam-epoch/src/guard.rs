@@ -155,6 +155,16 @@ self
 )
 ;
 }
+else
+{
+drop
+(
+f
+(
+)
+)
+;
+}
 }
 pub
 unsafe

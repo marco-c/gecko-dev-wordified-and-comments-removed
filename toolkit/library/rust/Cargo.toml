@@ -306,6 +306,17 @@ shared
 wasm_library_sandboxing
 "
 ]
+webgpu
+=
+[
+"
+gkrust
+-
+shared
+/
+webgpu
+"
+]
 [
 dependencies
 ]
