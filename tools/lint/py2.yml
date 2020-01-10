@@ -27,10 +27,6 @@ py
 -
 config
 -
-configure
-.
-py
--
 dom
 -
 editor
