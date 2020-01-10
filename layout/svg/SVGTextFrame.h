@@ -131,7 +131,7 @@ struct
 DOMPointInit
 ;
 class
-SVGIRect
+SVGRect
 ;
 class
 SVGGeometryElement
@@ -895,7 +895,7 @@ mozilla
 dom
 :
 :
-SVGIRect
+SVGRect
 *
 *
 aResult

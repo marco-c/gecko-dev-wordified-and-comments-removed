@@ -1296,7 +1296,7 @@ SVGMatrix
 }
 already_AddRefed
 <
-SVGIRect
+SVGRect
 >
 SVGSVGElement
 :
@@ -1306,9 +1306,13 @@ CreateSVGRect
 )
 {
 return
-NS_NewSVGRect
+do_AddRef
+(
+new
+SVGRect
 (
 this
+)
 )
 ;
 }

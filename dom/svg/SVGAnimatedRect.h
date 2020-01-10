@@ -27,17 +27,6 @@ include
 "
 mozilla
 /
-dom
-/
-SVGRectBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h
@@ -67,6 +56,9 @@ SVGAnimatedViewBox
 namespace
 dom
 {
+class
+SVGRect
+;
 class
 SVGAnimatedRect
 final
@@ -127,7 +119,7 @@ override
 ;
 already_AddRefed
 <
-SVGIRect
+SVGRect
 >
 GetBaseVal
 (
@@ -135,7 +127,7 @@ GetBaseVal
 ;
 already_AddRefed
 <
-SVGIRect
+SVGRect
 >
 GetAnimVal
 (

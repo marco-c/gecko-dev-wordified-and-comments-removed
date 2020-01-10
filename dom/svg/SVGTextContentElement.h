@@ -52,7 +52,7 @@ struct
 DOMPointInit
 ;
 class
-SVGIRect
+SVGRect
 ;
 typedef
 SVGGraphicsElement
@@ -163,7 +163,7 @@ rv
 MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
-SVGIRect
+SVGRect
 >
 GetExtentOfChar
 (

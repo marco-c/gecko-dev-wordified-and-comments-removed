@@ -377,11 +377,6 @@ SVGImageElement
 h
 '
 '
-SVGIRect
-.
-h
-'
-'
 SVGLineElement
 .
 h
