@@ -443,11 +443,6 @@ HttpChannelParent
 cpp
 '
 '
-HttpChannelParentListener
-.
-cpp
-'
-'
 HttpInfo
 .
 cpp
@@ -564,6 +559,11 @@ cpp
 '
 '
 NullHttpTransaction
+.
+cpp
+'
+'
+ParentChannelListener
 .
 cpp
 '

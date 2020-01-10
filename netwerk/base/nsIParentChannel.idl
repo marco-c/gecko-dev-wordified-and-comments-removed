@@ -85,7 +85,7 @@ namespace
 net
 {
 class
-HttpChannelParentListener
+ParentChannelListener
 ;
 }
 }
@@ -95,7 +95,7 @@ HttpChannelParentListener
 ptr
 ]
 native
-HttpChannelParentListener
+ParentChannelListener
 (
 mozilla
 :
@@ -103,7 +103,7 @@ mozilla
 net
 :
 :
-HttpChannelParentListener
+ParentChannelListener
 )
 ;
 /
@@ -148,7 +148,7 @@ Called
 to
 set
 the
-HttpChannelParentListener
+ParentChannelListener
 object
 (
 optional
@@ -163,7 +163,7 @@ void
 setParentListener
 (
 in
-HttpChannelParentListener
+ParentChannelListener
 listener
 )
 ;

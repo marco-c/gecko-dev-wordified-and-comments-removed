@@ -163,7 +163,7 @@ channel
 Primarily
 used
 in
-HttpChannelParentListener
+ParentChannelListener
 :
 :
 AsyncOnChannelRedirect
@@ -387,7 +387,7 @@ listener
 Primarilly
 used
 in
-HttpChannelParentListener
+ParentChannelListener
 :
 :
 OnRedirectResult
@@ -467,7 +467,7 @@ id
 Primarilly
 used
 in
-HttpChannelParentListener
+ParentChannelListener
 :
 :
 OnRedirectResult

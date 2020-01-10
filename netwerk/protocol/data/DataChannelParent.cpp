@@ -81,7 +81,7 @@ DataChannelParent
 :
 SetParentListener
 (
-HttpChannelParentListener
+ParentChannelListener
 *
 aListener
 )

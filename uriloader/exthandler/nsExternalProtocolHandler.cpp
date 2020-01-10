@@ -1471,7 +1471,7 @@ mozilla
 net
 :
 :
-HttpChannelParentListener
+ParentChannelListener
 *
 aListener
 )

@@ -2465,7 +2465,7 @@ FTPChannelParent
 :
 SetParentListener
 (
-HttpChannelParentListener
+ParentChannelListener
 *
 aListener
 )
