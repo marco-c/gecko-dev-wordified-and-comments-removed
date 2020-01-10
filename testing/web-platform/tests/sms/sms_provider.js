@@ -107,7 +107,7 @@ mojom
 /
 sms
 /
-sms_manager
+sms_receiver
 .
 mojom
 -
@@ -213,7 +213,7 @@ returnValues
 {
 }
 }
-getNextMessage
+receive
 (
 timeout
 )
@@ -225,7 +225,7 @@ this
 .
 returnValues
 .
-getNextMessage
+receive
 .
 shift
 (
@@ -298,7 +298,7 @@ this
 }
 }
 function
-getNextMessage
+receive
 (
 timeout
 callback
@@ -381,7 +381,7 @@ blink
 .
 mojom
 .
-SmsManager
+SmsReceiver
 .
 interfaceName
 )
@@ -404,7 +404,7 @@ blink
 .
 mojom
 .
-SmsManager
+SmsReceiver
 (
 provider
 )
