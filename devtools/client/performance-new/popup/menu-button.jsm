@@ -429,7 +429,7 @@ popup
 /
 popup
 .
-html
+xhtml
 "
 ;
 iframe
