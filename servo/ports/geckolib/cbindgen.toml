@@ -2664,6 +2664,17 @@ AsAtom
 )
 const
 ;
+inline
+explicit
+StyleAtom
+(
+already_AddRefed
+<
+nsAtom
+>
+aAtom
+)
+;
 /
 /
 Could
