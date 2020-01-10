@@ -52477,6 +52477,10 @@ rs
 {
 if
 (
+!
+mXULPersist
+&
+&
 nsContentUtils
 :
 :
