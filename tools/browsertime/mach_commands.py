@@ -1014,6 +1014,22 @@ requirements
 '
 '
         
+automation
+=
+bool
+(
+os
+.
+environ
+.
+get
+(
+'
+MOZ_AUTOMATION
+'
+)
+)
+        
 from
 mozbuild
 .
@@ -1469,19 +1485,7 @@ should_clobber
             
 no_optional
 =
-bool
-(
-os
-.
-environ
-.
-get
-(
-'
-MOZ_AUTOMATION
-'
-)
-)
+automation
 )
         
 if
@@ -1490,6 +1494,13 @@ status
             
 return
 status
+        
+if
+automation
+:
+            
+return
+0
         
 return
 self
