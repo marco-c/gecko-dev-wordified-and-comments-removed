@@ -8599,7 +8599,7 @@ true
 presShell
 -
 >
-PingFlushPerTickTelemetry
+PingPerTickTelemetry
 (
 FlushType
 :
@@ -8754,7 +8754,7 @@ true
 presShell
 -
 >
-PingFlushPerTickTelemetry
+PingPerTickTelemetry
 (
 FlushType
 :
