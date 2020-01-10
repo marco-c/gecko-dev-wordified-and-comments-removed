@@ -8807,6 +8807,7 @@ if
 mWidget
 &
 &
+(
 DeviceManagerDx
 :
 :
@@ -8817,6 +8818,15 @@ Get
 >
 CanUseDComp
 (
+)
+|
+|
+gfxVars
+:
+:
+UseWebRenderFlipSequentialWin
+(
+)
 )
 )
 {
