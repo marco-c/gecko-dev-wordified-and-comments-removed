@@ -1567,7 +1567,7 @@ rules
 ;
 }
 get
-target
+currentTarget
 (
 )
 {
@@ -1839,7 +1839,7 @@ _emulationFront
 await
 this
 .
-target
+currentTarget
 .
 getFront
 (
@@ -1854,7 +1854,7 @@ if
 await
 this
 .
-target
+currentTarget
 .
 actorHasMethod
 (
@@ -1871,7 +1871,7 @@ getIsPrintSimulationEnabled
 !
 this
 .
-target
+currentTarget
 .
 chrome
 )
