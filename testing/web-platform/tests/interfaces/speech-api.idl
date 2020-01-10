@@ -94,10 +94,6 @@ unsigned
 long
 maxAlternatives
 ;
-attribute
-DOMString
-serviceURI
-;
 /
 /
 methods
