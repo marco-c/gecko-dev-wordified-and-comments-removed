@@ -237,7 +237,7 @@ Active
 Passive
 =
 0x01
-ActiveWithMemoryIndex
+ActiveWithIndex
 =
 0x02
 }
@@ -254,7 +254,7 @@ Active
 Passive
 =
 0x1
-ActiveWithTableIndex
+ActiveWithIndex
 =
 0x2
 Declared
