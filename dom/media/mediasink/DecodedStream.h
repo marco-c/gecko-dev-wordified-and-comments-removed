@@ -368,11 +368,6 @@ PrincipalHandle
 aPrincipalHandle
 )
 ;
-StreamTime
-SentDuration
-(
-)
-;
 void
 SendData
 (
@@ -488,11 +483,6 @@ media
 :
 TimeUnit
 mLastOutputTime
-;
-StreamTime
-mStreamTimeOffset
-=
-0
 ;
 MediaInfo
 mInfo
