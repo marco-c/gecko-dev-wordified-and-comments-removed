@@ -763,10 +763,6 @@ block
 :
 python
 #
-coding
-=
-utf8
-#
 Any
 copyright
 is
