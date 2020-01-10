@@ -643,6 +643,9 @@ warningReporter
 (
 nullptr
 )
+selfHostedLazyScript
+(
+)
 geckoProfiler_
 (
 thisFromCtor
