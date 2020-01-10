@@ -4010,10 +4010,6 @@ path
 )
 return
 '
-https
-:
-/
-/
 {
 root_url
 }
