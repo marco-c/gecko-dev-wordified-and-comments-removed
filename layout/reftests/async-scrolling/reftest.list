@@ -2031,15 +2031,6 @@ if
 !
 asyncPan
 )
-fails
--
-if
-(
-geckoview
-&
-&
-webrender
-)
 =
 =
 perspective
