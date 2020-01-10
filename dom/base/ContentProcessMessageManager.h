@@ -262,7 +262,7 @@ aError
 .
 Throw
 (
-NS_ERROR_NULL_POINTER
+NS_ERROR_NOT_INITIALIZED
 )
 ;
 return
