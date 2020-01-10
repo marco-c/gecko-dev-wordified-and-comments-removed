@@ -315,5 +315,10 @@ arm_sha2_support
 (
 )
 ;
+PRBool
+ppc_crypto_support
+(
+)
+;
 #
 endif
