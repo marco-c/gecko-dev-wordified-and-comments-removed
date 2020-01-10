@@ -393,6 +393,17 @@ return
 mStackTop
 ;
 }
+void
+GetRunningEventDelay
+(
+TimeDuration
+&
+aDelay
+TimeDuration
+&
+aRunning
+)
+;
 size_t
 SizeOfIncludingThis
 (
