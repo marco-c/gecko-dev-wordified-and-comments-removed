@@ -20867,19 +20867,19 @@ ExecCommand
 const
 nsAString
 &
-commandID
+aHTMLCommandName
 bool
-doShowUI
+aShowUI
 const
 nsAString
 &
-value
+aValue
 nsIPrincipal
 &
 aSubjectPrincipal
 ErrorResult
 &
-rv
+aRv
 )
 {
 if
@@ -20890,7 +20890,7 @@ IsHTMLOrXHTML
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -20903,7 +20903,7 @@ false
 }
 if
 (
-doShowUI
+aShowUI
 )
 {
 return
@@ -20918,8 +20918,8 @@ commandData
 =
 ConvertToInternalCommand
 (
-commandID
-value
+aHTMLCommandName
+aValue
 &
 adjustedValue
 )
@@ -20973,7 +20973,7 @@ Command
 GetHTML
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -21175,7 +21175,7 @@ editorCommand
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -21265,7 +21265,7 @@ false
 ;
 }
 nsresult
-res
+rv
 =
 docShell
 -
@@ -21279,7 +21279,7 @@ mXULCommandName
 ;
 if
 (
-res
+rv
 =
 =
 NS_SUCCESS_DOM_NO_OPERATION
@@ -21292,7 +21292,7 @@ false
 return
 NS_SUCCEEDED
 (
-res
+rv
 )
 ;
 }
@@ -21312,7 +21312,7 @@ if
 commandManager
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -21339,7 +21339,7 @@ if
 window
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -21381,7 +21381,7 @@ IsPasteCommand
 )
 )
 ;
-rv
+aRv
 =
 commandManager
 -
@@ -21397,7 +21397,7 @@ window
 ;
 return
 !
-rv
+aRv
 .
 ErrorCodeIs
 (
@@ -21406,7 +21406,7 @@ NS_SUCCESS_DOM_NO_OPERATION
 &
 &
 !
-rv
+aRv
 .
 Failed
 (
@@ -21462,7 +21462,7 @@ Bool
 )
 )
 ;
-rv
+aRv
 =
 editorCommand
 -
@@ -21480,7 +21480,7 @@ aSubjectPrincipal
 ;
 return
 !
-rv
+aRv
 .
 ErrorCodeIs
 (
@@ -21489,7 +21489,7 @@ NS_SUCCESS_DOM_NO_OPERATION
 &
 &
 !
-rv
+aRv
 .
 Failed
 (
@@ -21532,7 +21532,7 @@ false
 )
 )
 ;
-rv
+aRv
 =
 editorCommand
 -
@@ -21561,7 +21561,7 @@ aSubjectPrincipal
 ;
 return
 !
-rv
+aRv
 .
 ErrorCodeIs
 (
@@ -21570,7 +21570,7 @@ NS_SUCCESS_DOM_NO_OPERATION
 &
 &
 !
-rv
+aRv
 .
 Failed
 (
@@ -21601,7 +21601,7 @@ IsVoid
 )
 )
 ;
-rv
+aRv
 =
 editorCommand
 -
@@ -21620,7 +21620,7 @@ aSubjectPrincipal
 ;
 return
 !
-rv
+aRv
 .
 ErrorCodeIs
 (
@@ -21629,7 +21629,7 @@ NS_SUCCESS_DOM_NO_OPERATION
 &
 &
 !
-rv
+aRv
 .
 Failed
 (
@@ -21666,7 +21666,7 @@ IsVoid
 )
 )
 ;
-rv
+aRv
 =
 editorCommand
 -
@@ -21685,7 +21685,7 @@ aSubjectPrincipal
 ;
 return
 !
-rv
+aRv
 .
 ErrorCodeIs
 (
@@ -21694,7 +21694,7 @@ NS_SUCCESS_DOM_NO_OPERATION
 &
 &
 !
-rv
+aRv
 .
 Failed
 (
@@ -21727,13 +21727,13 @@ QueryCommandEnabled
 const
 nsAString
 &
-commandID
+aHTMLCommandName
 nsIPrincipal
 &
 aSubjectPrincipal
 ErrorResult
 &
-rv
+aRv
 )
 {
 if
@@ -21744,7 +21744,7 @@ IsHTMLOrXHTML
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -21760,7 +21760,7 @@ commandData
 =
 ConvertToInternalCommand
 (
-commandID
+aHTMLCommandName
 )
 ;
 if
@@ -21852,7 +21852,7 @@ if
 commandManager
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -21877,7 +21877,7 @@ if
 window
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -21913,10 +21913,10 @@ QueryCommandIndeterm
 const
 nsAString
 &
-commandID
+aHTMLCommandName
 ErrorResult
 &
-rv
+aRv
 )
 {
 if
@@ -21927,7 +21927,7 @@ IsHTMLOrXHTML
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -21943,7 +21943,7 @@ commandData
 =
 ConvertToInternalCommand
 (
-commandID
+aHTMLCommandName
 )
 ;
 if
@@ -21991,7 +21991,7 @@ if
 commandManager
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -22016,7 +22016,7 @@ if
 window
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -22038,7 +22038,7 @@ nsCommandParams
 (
 )
 ;
-rv
+aRv
 =
 commandManager
 -
@@ -22054,7 +22054,7 @@ params
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
@@ -22086,10 +22086,10 @@ QueryCommandState
 const
 nsAString
 &
-commandID
+aHTMLCommandName
 ErrorResult
 &
-rv
+aRv
 )
 {
 if
@@ -22100,7 +22100,7 @@ IsHTMLOrXHTML
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -22116,7 +22116,7 @@ commandData
 =
 ConvertToInternalCommand
 (
-commandID
+aHTMLCommandName
 )
 ;
 if
@@ -22164,7 +22164,7 @@ if
 commandManager
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -22189,7 +22189,7 @@ if
 window
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -22202,7 +22202,7 @@ false
 }
 if
 (
-commandID
+aHTMLCommandName
 .
 LowerCaseEqualsLiteral
 (
@@ -22227,7 +22227,7 @@ nsCommandParams
 (
 )
 ;
-rv
+aRv
 =
 commandManager
 -
@@ -22243,7 +22243,7 @@ params
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
@@ -22271,7 +22271,7 @@ FormatJustifyLeft
 nsAutoCString
 currentValue
 ;
-rv
+aRv
 =
 params
 -
@@ -22286,7 +22286,7 @@ currentValue
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
@@ -22318,7 +22318,7 @@ FormatJustifyRight
 nsAutoCString
 currentValue
 ;
-rv
+aRv
 =
 params
 -
@@ -22333,7 +22333,7 @@ currentValue
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
@@ -22365,7 +22365,7 @@ FormatJustifyCenter
 nsAutoCString
 currentValue
 ;
-rv
+aRv
 =
 params
 -
@@ -22380,7 +22380,7 @@ currentValue
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
@@ -22412,7 +22412,7 @@ FormatJustifyFull
 nsAutoCString
 currentValue
 ;
-rv
+aRv
 =
 params
 -
@@ -22427,7 +22427,7 @@ currentValue
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
@@ -22484,12 +22484,12 @@ QueryCommandSupported
 const
 nsAString
 &
-commandID
+aHTMLCommandName
 CallerType
 aCallerType
 ErrorResult
 &
-rv
+aRv
 )
 {
 if
@@ -22500,7 +22500,7 @@ IsHTMLOrXHTML
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -22516,7 +22516,7 @@ commandData
 =
 ConvertToInternalCommand
 (
-commandID
+aHTMLCommandName
 )
 ;
 if
@@ -22596,13 +22596,13 @@ QueryCommandValue
 const
 nsAString
 &
-commandID
+aHTMLCommandName
 nsAString
 &
 aValue
 ErrorResult
 &
-rv
+aRv
 )
 {
 aValue
@@ -22619,7 +22619,7 @@ IsHTMLOrXHTML
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -22634,7 +22634,7 @@ commandData
 =
 ConvertToInternalCommand
 (
-commandID
+aHTMLCommandName
 )
 ;
 if
@@ -22680,7 +22680,7 @@ if
 commandManager
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -22706,7 +22706,7 @@ if
 window
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -22740,7 +22740,7 @@ Command
 GetHTML
 )
 {
-rv
+aRv
 =
 params
 -
@@ -22755,7 +22755,7 @@ true
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
@@ -22765,7 +22765,7 @@ Failed
 return
 ;
 }
-rv
+aRv
 =
 params
 -
@@ -22787,7 +22787,7 @@ html
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
@@ -22797,7 +22797,7 @@ Failed
 return
 ;
 }
-rv
+aRv
 =
 commandManager
 -
@@ -22813,7 +22813,7 @@ window
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
@@ -22837,7 +22837,7 @@ aValue
 return
 ;
 }
-rv
+aRv
 =
 params
 -
@@ -22854,7 +22854,7 @@ EmptyCString
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
@@ -22864,7 +22864,7 @@ Failed
 return
 ;
 }
-rv
+aRv
 =
 commandManager
 -
@@ -22880,7 +22880,7 @@ params
 ;
 if
 (
-rv
+aRv
 .
 Failed
 (
