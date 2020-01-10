@@ -2957,7 +2957,7 @@ return
 aTextEditor
 -
 >
-CanDelete
+CanDeleteSelection
 (
 )
 ;
