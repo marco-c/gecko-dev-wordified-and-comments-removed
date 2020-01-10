@@ -5934,12 +5934,6 @@ aFrame
 )
 ;
 static
-bool
-IsOutlineStyleAutoEnabled
-(
-)
-;
-static
 void
 SetBSizeFromFontMetrics
 (

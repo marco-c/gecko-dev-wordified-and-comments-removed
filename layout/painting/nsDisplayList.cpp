@@ -28534,10 +28534,10 @@ IsAuto
 )
 &
 &
-nsLayoutUtils
+StaticPrefs
 :
 :
-IsOutlineStyleAutoEnabled
+layout_css_outline_style_auto_enabled
 (
 )
 )
