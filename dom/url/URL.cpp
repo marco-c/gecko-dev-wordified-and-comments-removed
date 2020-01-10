@@ -920,7 +920,7 @@ rv
 nsContentUtils
 :
 :
-GetThreadSafeUTFOrigin
+GetUTFOrigin
 (
 GetURI
 (
