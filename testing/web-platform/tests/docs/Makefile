@@ -82,7 +82,7 @@ help
 Makefile
 tools
 /
-wptserve
+%
 :
 mkdir
 -
@@ -91,6 +91,12 @@ p
 shell
 dirname
 )
+test
+-
+d
+.
+.
+/
 ln
 -
 s
@@ -100,9 +106,6 @@ s
 .
 .
 /
-tools
-/
-wptserve
 #
 Catch
 -
@@ -144,6 +147,9 @@ Makefile
 tools
 /
 wptserve
+tools
+/
+certs
 (
 SPHINXBUILD
 )
