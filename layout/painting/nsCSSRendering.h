@@ -1854,6 +1854,13 @@ Size
 lineSize
 ;
 Float
+defaultLineThickness
+=
+0
+.
+0f
+;
+Float
 ascent
 =
 0
