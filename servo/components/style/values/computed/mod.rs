@@ -3266,12 +3266,14 @@ missing_docs
 [
 derive
 (
+Animate
 Clone
 ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
 PartialEq
+ToAnimatedZero
 ToCss
 ToResolvedValue
 )
