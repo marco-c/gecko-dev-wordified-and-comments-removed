@@ -1340,7 +1340,7 @@ BITS
 .
 enabled
 "
-false
+true
 )
 ;
 #
