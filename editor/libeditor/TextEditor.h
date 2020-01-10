@@ -1087,6 +1087,11 @@ EndEditorInit
 (
 )
 ;
+nsresult
+MaybeChangePaddingBRElementForEmptyEditor
+(
+)
+;
 protected
 :
 virtual

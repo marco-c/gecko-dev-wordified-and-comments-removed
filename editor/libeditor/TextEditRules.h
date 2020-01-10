@@ -461,12 +461,6 @@ bool
 aHandled
 )
 ;
-MOZ_MUST_USE
-nsresult
-RemoveRedundantTrailingBR
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
