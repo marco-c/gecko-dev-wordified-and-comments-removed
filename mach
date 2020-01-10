@@ -209,12 +209,6 @@ import
 -
 pr
 install
-install
--
-android
-install
--
-desktop
 jsapi
 -
 tests
@@ -269,12 +263,6 @@ resource
 usage
 robocop
 run
-run
--
-android
-run
--
-desktop
 rusttests
 show
 -
