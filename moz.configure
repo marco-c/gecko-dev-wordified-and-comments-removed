@@ -4500,6 +4500,9 @@ check_prog
 MAKENSISU
 '
 makensis_progs
+allow_missing
+=
+True
 )
 #
 Make
