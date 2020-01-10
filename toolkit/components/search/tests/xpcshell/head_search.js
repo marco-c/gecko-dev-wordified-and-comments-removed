@@ -2419,9 +2419,6 @@ addEngineWithDetails
 item
 .
 name
-.
-.
-.
 item
 .
 details
