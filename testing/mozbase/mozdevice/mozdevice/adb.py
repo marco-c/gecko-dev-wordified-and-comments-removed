@@ -16978,12 +16978,6 @@ timeout
 timeout
 )
         
-except
-BaseException
-:
-            
-raise
-        
 finally
 :
             
