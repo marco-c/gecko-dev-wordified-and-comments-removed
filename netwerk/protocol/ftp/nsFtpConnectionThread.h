@@ -578,6 +578,9 @@ mRetryPass
 bool
 mStorReplyReceived
 ;
+bool
+mRlist1xxReceived
+;
 nsresult
 mInternalError
 ;
