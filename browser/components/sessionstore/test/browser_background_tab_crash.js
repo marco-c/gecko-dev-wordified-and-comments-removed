@@ -857,11 +857,12 @@ removePreloadedBrowser
 window
 )
 ;
-NewTabPagePreloading
+await
+BrowserTestUtils
 .
 maybeCreatePreloadedBrowser
 (
-window
+gBrowser
 )
 ;
 await
