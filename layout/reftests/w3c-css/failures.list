@@ -7352,6 +7352,11 @@ enabled
 true
 )
 fails
+-
+if
+(
+geckoview
+)
 css
 -
 multicol
@@ -7369,6 +7374,11 @@ nested
 002
 .
 xht
+#
+Bug
+1558509
+for
+GV
 pref
 (
 layout

@@ -5569,6 +5569,11 @@ enabled
 true
 )
 fails
+-
+if
+(
+geckoview
+)
 =
 =
 css
@@ -5607,6 +5612,11 @@ nested
 ref
 .
 xht
+#
+Bug
+1558509
+for
+GV
 pref
 (
 layout
