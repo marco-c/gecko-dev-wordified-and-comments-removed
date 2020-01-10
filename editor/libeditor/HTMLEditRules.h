@@ -1089,17 +1089,6 @@ EDirection
 aDirection
 )
 ;
-bool
-InDifferentTableElements
-(
-nsINode
-*
-aNode1
-nsINode
-*
-aNode2
-)
-;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
