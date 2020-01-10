@@ -120,14 +120,10 @@ ClearParseErrors
 RustSdpSession
 *
 result
-=
-nullptr
 ;
 RustSdpError
 *
 err
-=
-nullptr
 ;
 StringView
 sdpTextView

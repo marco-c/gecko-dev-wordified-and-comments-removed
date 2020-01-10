@@ -256,12 +256,6 @@ mOriginalSdp
 =
 originalSdp
 ;
-MOZ_ASSERT
-(
-&
-rsdparsaSdp
-)
-;
 const
 std
 :
