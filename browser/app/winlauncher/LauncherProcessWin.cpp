@@ -137,7 +137,7 @@ h
 #
 include
 "
-DllBlocklistInit
+DllBlocklistWin
 .
 h
 "

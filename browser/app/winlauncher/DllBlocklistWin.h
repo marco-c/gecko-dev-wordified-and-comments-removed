@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_DllBlocklistInit_h
+mozilla_DllBlocklistWin_h
 #
 define
-mozilla_DllBlocklistInit_h
+mozilla_DllBlocklistWin_h
 #
 include
 <

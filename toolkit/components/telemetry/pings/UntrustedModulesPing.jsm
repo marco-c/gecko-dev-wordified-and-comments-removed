@@ -186,11 +186,7 @@ const
 PING_SUBMISSION_NAME
 =
 "
-third
--
-party
--
-modules
+untrustedModules
 "
 ;
 var
