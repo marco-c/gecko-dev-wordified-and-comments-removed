@@ -227,19 +227,6 @@ state
 .
 setRecordingPreferences
 ;
-const
-getIsPopup
-=
-state
-=
->
-getInitializedValues
-(
-state
-)
-.
-isPopup
-;
 module
 .
 exports
@@ -259,6 +246,5 @@ getInitializedValues
 getPerfFront
 getReceiveProfileFn
 getSetRecordingPreferencesFn
-getIsPopup
 }
 ;
