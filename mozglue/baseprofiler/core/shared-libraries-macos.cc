@@ -286,7 +286,10 @@ mozilla
 baseprofiler
 :
 :
-PSMutex
+detail
+:
+:
+BaseProfilerMutex
 sSharedLibrariesMutex
 ;
 }
@@ -297,7 +300,10 @@ mozilla
 baseprofiler
 :
 :
-PSMutex
+detail
+:
+:
+BaseProfilerMutex
 SharedLibrariesLock
 :
 :
