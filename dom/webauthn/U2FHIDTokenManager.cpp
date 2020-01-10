@@ -1422,6 +1422,12 @@ __func__
 return
 ;
 }
+nsTArray
+<
+WebAuthnExtensionResult
+>
+extensions
+;
 WebAuthnMakeCredentialResult
 result
 (
@@ -1435,6 +1441,7 @@ mClientDataJSON
 attObj
 keyHandle
 regData
+extensions
 )
 ;
 mRegisterPromise

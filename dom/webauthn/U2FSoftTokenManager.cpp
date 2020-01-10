@@ -3791,6 +3791,12 @@ __func__
 )
 ;
 }
+nsTArray
+<
+WebAuthnExtensionResult
+>
+extensions
+;
 WebAuthnMakeCredentialResult
 result
 (
@@ -3802,6 +3808,7 @@ ClientDataJSON
 attObj
 keyHandleBuf
 registrationBuf
+extensions
 )
 ;
 return
