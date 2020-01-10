@@ -8290,9 +8290,16 @@ lock
 if
 (
 !
+(
+CanUseExtraThreads
+(
+)
+&
+&
 startWithLockHeld
 (
 lock
+)
 )
 )
 {
