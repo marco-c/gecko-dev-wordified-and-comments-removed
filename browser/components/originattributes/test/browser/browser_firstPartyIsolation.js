@@ -1424,15 +1424,20 @@ true
 }
 )
 ;
-var
+let
 w
 =
+Cu
+.
+unwaiveXrays
+(
 content
 .
 wrappedJSObject
 .
 open
 (
+)
 )
 ;
 w
@@ -1493,8 +1498,6 @@ equal
 (
 w
 .
-content
-.
 docShell
 .
 getOriginAttributes
@@ -1513,6 +1516,7 @@ open
 )
 should
 have
+correct
 firstPartyDomain
 attribute
 "
@@ -1523,8 +1527,6 @@ Assert
 equal
 (
 w
-.
-content
 .
 document
 .
@@ -1541,6 +1543,7 @@ The
 document
 should
 have
+correct
 firstPartyDomain
 "
 )
@@ -1549,8 +1552,6 @@ let
 iframe
 =
 w
-.
-content
 .
 document
 .
@@ -1598,7 +1599,8 @@ s
 docshell
 should
 have
-firstPartyDomain
+correct
+rirstPartyDomain
 "
 )
 ;
@@ -1620,6 +1622,7 @@ firstPartyDomain
 iframe
 should
 have
+correct
 firstPartyDomain
 "
 )
