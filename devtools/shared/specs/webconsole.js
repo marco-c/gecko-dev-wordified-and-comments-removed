@@ -38,11 +38,6 @@ evaluateJSAsync
 "
 boolean
 "
-transferredResponseSize
-:
-"
-boolean
-"
 selectedObjectActor
 :
 "
