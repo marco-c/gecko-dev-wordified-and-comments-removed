@@ -2160,6 +2160,7 @@ accept
         
 except
 TypeError
+as
 e
 :
             
@@ -6122,6 +6123,7 @@ except
 socket
 .
 error
+as
 e
 :
             
@@ -6502,6 +6504,7 @@ _socket
         
 except
 Exception
+as
 e
 :
             
