@@ -988,8 +988,8 @@ TimeStamp
 Now
 (
 )
+-
 now
-+
 TimeDuration
 :
 :
@@ -1100,8 +1100,8 @@ frames
 second
 (
 )
+-
 now
-+
 TimeDuration
 :
 :
@@ -1441,8 +1441,8 @@ TimeStamp
 Now
 (
 )
+-
 now
-+
 TimeDuration
 :
 :
