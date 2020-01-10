@@ -1384,16 +1384,6 @@ set
 "
 extensions
 .
-htmlaboutaddons
-.
-enabled
-"
-true
-]
-[
-"
-extensions
-.
 abuseReport
 .
 enabled
