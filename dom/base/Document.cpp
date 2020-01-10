@@ -46649,6 +46649,15 @@ mContentBlockingLog
 .
 ReportLog
 (
+NodePrincipal
+(
+)
+)
+;
+mContentBlockingLog
+.
+ReportOrigins
+(
 )
 ;
 }

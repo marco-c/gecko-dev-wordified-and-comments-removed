@@ -824,8 +824,16 @@ aTrackingFullHashes
 }
 }
 void
+ReportOrigins
+(
+)
+;
+void
 ReportLog
 (
+nsIPrincipal
+*
+aFirstPartyPrincipal
 )
 ;
 nsAutoCString
