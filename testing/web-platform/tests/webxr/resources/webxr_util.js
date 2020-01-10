@@ -59,6 +59,12 @@ testDeviceController
 let
 testSession
 ;
+let
+sessionObjects
+=
+{
+}
+;
 const
 webglCanvas
 =
@@ -130,6 +136,12 @@ antialias
 false
 }
 )
+;
+sessionObjects
+.
+gl
+=
+gl
 ;
 xr_promise_test
 (
@@ -315,6 +327,12 @@ glLayer
 }
 )
 ;
+sessionObjects
+.
+glLayer
+=
+glLayer
+;
 resolve
 (
 func
@@ -322,6 +340,7 @@ func
 session
 testDeviceController
 t
+sessionObjects
 )
 )
 ;
