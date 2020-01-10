@@ -1309,15 +1309,6 @@ aString
 )
 ;
 bool
-ParseLazyURIValue
-(
-const
-nsAString
-&
-aString
-)
-;
-bool
 ParseIntMarginValue
 (
 const

@@ -47,9 +47,6 @@ h
 "
 struct
 MiscContainer
-;
-struct
-MiscContainer
 final
 {
 typedef
