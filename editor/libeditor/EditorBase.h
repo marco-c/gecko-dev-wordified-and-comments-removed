@@ -335,6 +335,9 @@ namespace
 mozilla
 {
 class
+AlignStateAtSelection
+;
+class
 AutoSelectionRestorer
 ;
 class
@@ -6638,6 +6641,10 @@ mSpellCheckerDictionaryUpdated
 ;
 bool
 mIsHTMLEditorClass
+;
+friend
+class
+AlignStateAtSelection
 ;
 friend
 class
