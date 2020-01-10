@@ -78,6 +78,10 @@ mozglue
 .
 def
 :
+(
+srcdir
+)
+/
 mozglue
 .
 def
@@ -167,6 +171,10 @@ here
 EXTRA_DEPS
 +
 =
+(
+srcdir
+)
+/
 mozglue
 .
 dll

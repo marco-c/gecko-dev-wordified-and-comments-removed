@@ -119,6 +119,10 @@ done_gen
 ;
 done_gen
 :
+(
+srcdir
+)
+/
 IGeckoCustom
 .
 idl

@@ -69,6 +69,10 @@ mk
 libs
 :
 :
+(
+srcdir
+)
+/
 TestXREMakeCommandLineWin
 .
 ini

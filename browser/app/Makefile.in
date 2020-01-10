@@ -236,6 +236,10 @@ here
 EXTRA_DEPS
 +
 =
+(
+srcdir
+)
+/
 firefox
 .
 exe

@@ -127,6 +127,10 @@ gnu
 .
 S
 :
+(
+srcdir
+)
+/
 lib
 /
 arm
@@ -167,6 +171,10 @@ gnu
 .
 s
 :
+(
+srcdir
+)
+/
 lib
 /
 arm

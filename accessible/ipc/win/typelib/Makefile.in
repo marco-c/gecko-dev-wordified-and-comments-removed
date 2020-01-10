@@ -118,6 +118,10 @@ done_gen
 ;
 done_gen
 :
+(
+srcdir
+)
+/
 Accessible
 .
 idl

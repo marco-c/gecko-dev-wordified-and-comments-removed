@@ -123,6 +123,10 @@ gnu
 .
 S
 :
+(
+srcdir
+)
+/
 celt
 /
 arm
@@ -173,6 +177,10 @@ gnu
 .
 s
 :
+(
+srcdir
+)
+/
 celt
 /
 arm

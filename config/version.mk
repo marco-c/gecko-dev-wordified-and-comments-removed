@@ -243,10 +243,6 @@ _RC_STRING
 -
 RCINCLUDE
 (
-srcdir
-)
-/
-(
 RCINCLUDE
 )
 endif

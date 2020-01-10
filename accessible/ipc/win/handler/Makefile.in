@@ -151,9 +151,17 @@ midl_done
 ;
 midl_done
 :
+(
+srcdir
+)
+/
 HandlerData
 .
 acf
+(
+srcdir
+)
+/
 HandlerData
 .
 idl
