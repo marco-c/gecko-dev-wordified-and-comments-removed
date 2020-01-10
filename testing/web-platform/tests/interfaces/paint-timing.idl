@@ -58,6 +58,11 @@ paint
 timing
 /
 )
+[
+Exposed
+=
+Window
+]
 interface
 PerformancePaintTiming
 :
