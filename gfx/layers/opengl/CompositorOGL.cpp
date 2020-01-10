@@ -7128,13 +7128,7 @@ mPixelsFilled
 =
 destRect
 .
-Width
-(
-)
-*
-destRect
-.
-Height
+Area
 (
 )
 ;
