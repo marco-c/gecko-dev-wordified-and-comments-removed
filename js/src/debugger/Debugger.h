@@ -1463,6 +1463,17 @@ nullptr
 ;
 }
 }
+bool
+findSweepGroupEdges
+(
+JS
+:
+:
+Zone
+*
+debuggerZone
+)
+;
 private
 :
 #
