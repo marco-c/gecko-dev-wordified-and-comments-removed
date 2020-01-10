@@ -753,6 +753,11 @@ mApplyLineClamp
 :
 1
 ;
+bool
+mMovedBlockFragments
+:
+1
+;
 }
 ;
 #
