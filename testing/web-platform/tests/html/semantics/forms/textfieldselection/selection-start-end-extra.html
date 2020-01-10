@@ -183,7 +183,7 @@ assert_equals
 el
 .
 selectionStart
-3
+0
 )
 ;
 assert_equals
@@ -191,7 +191,7 @@ assert_equals
 el
 .
 selectionEnd
-3
+0
 )
 ;
 }
@@ -202,6 +202,7 @@ in
 a
 textarea
 should
+NOT
 move
 the
 cursor
@@ -342,7 +343,7 @@ assert_equals
 el
 .
 selectionStart
-6
+0
 )
 ;
 assert_equals
@@ -350,7 +351,7 @@ assert_equals
 el
 .
 selectionEnd
-6
+0
 )
 ;
 el
@@ -366,7 +367,7 @@ assert_equals
 el
 .
 selectionStart
-12
+0
 )
 ;
 assert_equals
@@ -374,7 +375,7 @@ assert_equals
 el
 .
 selectionEnd
-12
+0
 )
 ;
 }
@@ -385,6 +386,7 @@ in
 a
 textarea
 should
+NOT
 move
 selection
 {
@@ -434,7 +436,7 @@ assert_equals
 el
 .
 selectionStart
-6
+0
 )
 ;
 assert_equals
@@ -442,7 +444,7 @@ assert_equals
 el
 .
 selectionEnd
-6
+0
 )
 ;
 el
@@ -464,7 +466,7 @@ assert_equals
 el
 .
 selectionStart
-12
+0
 )
 ;
 assert_equals
@@ -472,7 +474,7 @@ assert_equals
 el
 .
 selectionEnd
-12
+0
 )
 ;
 }
@@ -483,6 +485,7 @@ to
 a
 textarea
 should
+NOT
 move
 selection
 {
@@ -546,7 +549,7 @@ assert_equals
 el
 .
 selectionStart
-9
+0
 )
 ;
 assert_equals
@@ -554,7 +557,7 @@ assert_equals
 el
 .
 selectionEnd
-9
+0
 )
 ;
 el
@@ -571,7 +574,7 @@ assert_equals
 el
 .
 selectionStart
-3
+0
 )
 ;
 assert_equals
@@ -579,7 +582,7 @@ assert_equals
 el
 .
 selectionEnd
-3
+0
 )
 ;
 }
@@ -590,6 +593,7 @@ from
 a
 textarea
 should
+NOT
 update
 selection
 {
@@ -977,21 +981,17 @@ length
 3
 )
 ;
-assert_equals
-(
 el
 .
 selectionStart
+=
 3
-)
 ;
-assert_equals
-(
 el
 .
 selectionEnd
+=
 3
-)
 ;
 el
 .
