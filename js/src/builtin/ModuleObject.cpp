@@ -9919,6 +9919,12 @@ module
 import
 is
 disabled
+or
+not
+supported
+in
+this
+context
 "
 )
 ;
