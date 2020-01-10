@@ -1333,19 +1333,11 @@ is
 None
 :
         
-tag_name
-=
-"
-merge_commit_
-%
-s
-"
-%
-head_rev
+return
+Status
+.
+FAIL
     
-else
-:
-        
 tag_name
 =
 "
