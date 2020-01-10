@@ -82,11 +82,6 @@ run
 time
 :
 7200
-env
-:
-UPLOAD_DIR
-:
-artifacts
 run
 :
 script

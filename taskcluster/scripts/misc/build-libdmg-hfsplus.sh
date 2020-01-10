@@ -45,11 +45,6 @@ STAGE
 WORKSPACE
 /
 dmg
-UPLOAD_DIR
-=
-HOME
-/
-artifacts
 mkdir
 -
 p

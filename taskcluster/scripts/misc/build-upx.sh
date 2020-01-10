@@ -26,11 +26,6 @@ INSTALL_DIR
 WORKSPACE
 /
 upx
-UPLOAD_DIR
-=
-HOME
-/
-artifacts
 mkdir
 -
 p

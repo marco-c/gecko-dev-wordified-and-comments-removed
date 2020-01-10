@@ -33,11 +33,6 @@ WORKSPACE
 build
 /
 src
-UPLOAD_DIR
-=
-HOME
-/
-artifacts
 mkdir
 -
 p

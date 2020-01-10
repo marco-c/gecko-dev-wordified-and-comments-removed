@@ -16,11 +16,6 @@ WORKSPACE
 HOME
 /
 workspace
-UPLOAD_DIR
-=
-HOME
-/
-artifacts
 COMPRESS_EXT
 =
 bz2

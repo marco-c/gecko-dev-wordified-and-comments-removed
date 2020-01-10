@@ -85,11 +85,6 @@ WORKSPACE
 HOME
 /
 workspace
-UPLOAD_DIR
-=
-HOME
-/
-artifacts
 #
 Set
 some

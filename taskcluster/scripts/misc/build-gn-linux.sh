@@ -24,11 +24,6 @@ WORKSPACE
 HOME
 /
 workspace
-UPLOAD_DIR
-=
-HOME
-/
-artifacts
 COMPRESS_EXT
 =
 xz

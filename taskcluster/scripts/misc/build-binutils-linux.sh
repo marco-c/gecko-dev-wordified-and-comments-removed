@@ -31,11 +31,6 @@ HOME_DIR
 WORKSPACE
 /
 build
-UPLOAD_DIR
-=
-HOME
-/
-artifacts
 cd
 HOME_DIR
 /

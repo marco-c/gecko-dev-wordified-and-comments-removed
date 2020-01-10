@@ -6364,6 +6364,9 @@ GECKO_PATH
 '
 MOZ_FETCHES_DIR
 '
+'
+UPLOAD_DIR
+'
 )
 :
 if

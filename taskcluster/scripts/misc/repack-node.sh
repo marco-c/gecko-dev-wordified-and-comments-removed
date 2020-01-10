@@ -32,11 +32,6 @@ WORKSPACE
 HOME
 /
 workspace
-UPLOAD_DIR
-=
-HOME
-/
-artifacts
 SUFFIX
 =
 tar
