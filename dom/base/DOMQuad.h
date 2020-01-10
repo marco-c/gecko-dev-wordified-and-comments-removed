@@ -98,6 +98,9 @@ DOMPointInit
 struct
 DOMQuadInit
 ;
+struct
+DOMRectInit
+;
 class
 DOMQuad
 final
