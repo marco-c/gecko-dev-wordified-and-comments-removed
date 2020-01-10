@@ -181,6 +181,19 @@ getBoundingClientRect
 (
 )
 ;
+const
+{
+offsetTop
+offsetLeft
+}
+=
+getOffsets
+(
+tooltip
+.
+doc
+)
+;
 if
 (
 position
@@ -200,6 +213,8 @@ bottom
 anchorRect
 .
 top
++
+offsetTop
 "
 Tooltip
 is
@@ -230,6 +245,8 @@ top
 anchorRect
 .
 bottom
++
+offsetTop
 "
 Tooltip
 is
@@ -268,6 +285,8 @@ left
 anchorRect
 .
 left
++
+offsetLeft
 "
 Tooltip
 left

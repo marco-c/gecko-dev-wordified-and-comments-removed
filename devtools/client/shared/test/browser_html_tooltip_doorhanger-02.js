@@ -440,6 +440,7 @@ ok
 (
 delta
 <
+=
 1
 Arrow
 center
