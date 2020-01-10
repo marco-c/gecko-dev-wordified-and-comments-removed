@@ -43,6 +43,9 @@ processTypes
 "
 tab
 "
+"
+gpu
+"
 ]
 ;
 Services
