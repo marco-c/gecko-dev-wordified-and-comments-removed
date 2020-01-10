@@ -48,6 +48,7 @@ PFileSystemRequestParent
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 FileSystemRequestParent
+final
 )
 public
 :

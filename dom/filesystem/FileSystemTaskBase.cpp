@@ -541,10 +541,6 @@ SuppressException
 return
 ;
 }
-NS_ADDREF_THIS
-(
-)
-;
 if
 (
 NS_IsMainThread

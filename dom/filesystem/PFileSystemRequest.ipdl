@@ -242,6 +242,7 @@ FileSystemErrorResponse
 ;
 }
 ;
+refcounted
 protocol
 PFileSystemRequest
 {
