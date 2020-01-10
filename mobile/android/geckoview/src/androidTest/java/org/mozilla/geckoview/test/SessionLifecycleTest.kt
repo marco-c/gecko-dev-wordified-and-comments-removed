@@ -1429,6 +1429,9 @@ mainSession
 evaluateJS
 (
 "
+document
+.
+querySelector
 (
 '
 #
@@ -1577,6 +1580,9 @@ newSession
 evaluateJS
 (
 "
+document
+.
+querySelector
 (
 '
 #

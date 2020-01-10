@@ -1890,11 +1890,10 @@ param
 String
 )
 {
-sessionRule
+mainSession
 .
 evaluateJS
 (
-mainSession
 "
 "
 "
@@ -1993,12 +1992,6 @@ trimIndent
 (
 )
 )
-.
-asJSPromise
-(
-)
-.
-value
 }
 private
 fun
@@ -2077,6 +2070,9 @@ mainSession
 evaluateJS
 (
 "
+document
+.
+querySelector
 (
 '
 #
@@ -2098,6 +2094,9 @@ mainSession
 evaluateJS
 (
 "
+document
+.
+querySelector
 (
 '
 #

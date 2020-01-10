@@ -1,0 +1,13 @@
+console
+.
+log
+(
+"
+Hello
+from
+test
+support
+.
+"
+)
+;
