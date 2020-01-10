@@ -133,6 +133,15 @@ mozilla
 dom
 :
 :
+Document
+;
+using
+mozilla
+:
+:
+dom
+:
+:
 Element
 ;
 using

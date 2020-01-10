@@ -607,6 +607,13 @@ h
 #
 include
 "
+LayerAnimationInfo
+.
+h
+"
+#
+include
+"
 LayersLogging
 .
 h
