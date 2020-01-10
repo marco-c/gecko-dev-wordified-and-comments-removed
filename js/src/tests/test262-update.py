@@ -205,14 +205,6 @@ Segmenter
 "
     
 "
-Intl
-.
-NumberFormat
--
-unified
-"
-    
-"
 Promise
 .
 allSettled
@@ -346,6 +338,14 @@ numeric
 separator
 -
 literal
+"
+    
+"
+Intl
+.
+NumberFormat
+-
+unified
 "
 ]
 )
