@@ -2867,7 +2867,7 @@ if
 isinstance
 (
 obj
-GeneratedSources
+HostGeneratedSources
 )
 :
                 
