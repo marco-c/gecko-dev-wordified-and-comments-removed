@@ -35,15 +35,6 @@ add_objects
 WakeLock
 :
 [
-'
-new
-WakeLock
-(
-"
-screen
-"
-)
-'
 ]
 }
 )
