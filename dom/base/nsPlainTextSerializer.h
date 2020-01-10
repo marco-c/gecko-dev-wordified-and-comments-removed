@@ -365,6 +365,7 @@ nsPlainTextSerializer
 nsresult
 GetAttributeValue
 (
+const
 nsAtom
 *
 aName
@@ -463,6 +464,16 @@ aContent
 nsresult
 DoOpenContainer
 (
+const
+nsAtom
+*
+aTag
+)
+;
+void
+OpenContainerForOutputFormatted
+(
+const
 nsAtom
 *
 aTag
@@ -471,6 +482,7 @@ aTag
 nsresult
 DoCloseContainer
 (
+const
 nsAtom
 *
 aTag
@@ -479,6 +491,7 @@ aTag
 nsresult
 DoAddLeaf
 (
+const
 nsAtom
 *
 aTag
@@ -648,6 +661,7 @@ aStack
 bool
 IsIgnorableRubyAnnotation
 (
+const
 nsAtom
 *
 aTag
@@ -1082,6 +1096,7 @@ bool
 >
 mIsInCiteBlockquote
 ;
+const
 nsAtom
 *
 *

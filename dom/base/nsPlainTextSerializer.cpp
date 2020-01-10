@@ -266,6 +266,7 @@ static
 int32_t
 HeaderLevel
 (
+const
 nsAtom
 *
 aTag
@@ -1229,6 +1230,7 @@ false
 mTagStack
 =
 new
+const
 nsAtom
 *
 [
@@ -1923,6 +1925,7 @@ nsPlainTextSerializer
 :
 IsIgnorableRubyAnnotation
 (
+const
 nsAtom
 *
 aTag
@@ -2804,6 +2807,7 @@ nsPlainTextSerializer
 :
 DoOpenContainer
 (
+const
 nsAtom
 *
 aTag
@@ -4089,7 +4093,6 @@ EnsureVerticalSpace
 }
 if
 (
-!
 mSettings
 .
 HasFlag
@@ -4101,10 +4104,28 @@ OutputFormatted
 )
 )
 {
+OpenContainerForOutputFormatted
+(
+aTag
+)
+;
+}
 return
 NS_OK
 ;
 }
+void
+nsPlainTextSerializer
+:
+:
+OpenContainerForOutputFormatted
+(
+const
+nsAtom
+*
+aTag
+)
+{
 const
 bool
 currentNodeIsConverted
@@ -4593,9 +4614,6 @@ mInWhitespace
 =
 true
 ;
-return
-NS_OK
-;
 }
 nsresult
 nsPlainTextSerializer
@@ -4603,6 +4621,7 @@ nsPlainTextSerializer
 :
 DoCloseContainer
 (
+const
 nsAtom
 *
 aTag
@@ -6036,6 +6055,7 @@ nsPlainTextSerializer
 :
 DoAddLeaf
 (
+const
 nsAtom
 *
 aTag
@@ -8396,6 +8416,7 @@ nsPlainTextSerializer
 :
 GetAttributeValue
 (
+const
 nsAtom
 *
 aName
@@ -8769,6 +8790,7 @@ false
 int32_t
 HeaderLevel
 (
+const
 nsAtom
 *
 aTag
