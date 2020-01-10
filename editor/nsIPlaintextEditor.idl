@@ -683,6 +683,9 @@ be
 inserted
 *
 /
+[
+can_run_script
+]
 void
 insertText
 (
