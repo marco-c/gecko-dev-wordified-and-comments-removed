@@ -484,6 +484,10 @@ aPath
 get
 (
 )
+AuthenticodeFlags
+:
+:
+SkipTrustVerification
 )
 )
 ;
