@@ -84,11 +84,6 @@ DataChannelChild
 =
 default
 ;
-void
-AddIPDLReference
-(
-)
-;
 bool
 mIPCOpen
 ;
