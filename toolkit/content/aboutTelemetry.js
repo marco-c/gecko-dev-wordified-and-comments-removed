@@ -1754,7 +1754,7 @@ telemetry
 -
 current
 -
-ping
+data
 -
 sidebar
 "
@@ -1772,7 +1772,7 @@ about
 -
 telemetry
 -
-ping
+data
 -
 details
 -

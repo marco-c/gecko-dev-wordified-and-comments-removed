@@ -75,12 +75,9 @@ show
 -
 current
 -
-ping
--
 data
 =
 Current
-ping
 data
 about
 -
@@ -1060,7 +1057,7 @@ about
 -
 telemetry
 -
-ping
+data
 -
 details
 -
@@ -1100,7 +1097,7 @@ looking
 at
 the
 current
-ping
+data
 .
 #
 string
@@ -1433,12 +1430,12 @@ telemetry
 -
 current
 -
-ping
+data
 -
 sidebar
 =
 current
-ping
+data
 #
 used
 in
