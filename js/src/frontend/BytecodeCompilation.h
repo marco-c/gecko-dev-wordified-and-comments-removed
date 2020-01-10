@@ -383,6 +383,8 @@ MOZ_MUST_USE
 bool
 internalCreateScript
 (
+HandleObject
+functionOrGlobal
 uint32_t
 toStringStart
 uint32_t
