@@ -99,7 +99,9 @@ grip
 )
 ;
 const
+{
 iterator
+}
 =
 await
 objClient

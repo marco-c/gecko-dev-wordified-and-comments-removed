@@ -924,11 +924,6 @@ hud
 )
 ;
 await
-waitForTick
-(
-)
-;
-await
 BrowserConsoleManager
 .
 toggleBrowserConsole
