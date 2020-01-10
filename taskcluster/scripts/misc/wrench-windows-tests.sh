@@ -109,7 +109,13 @@ PATH
 =
 PATH
 :
+(
+cd
 MOZ_FETCHES_DIR
+&
+&
+pwd
+)
 /
 rustc
 /
