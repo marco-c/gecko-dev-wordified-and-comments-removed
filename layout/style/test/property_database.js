@@ -50218,14 +50218,14 @@ text
 -
 decoration
 -
-thickness
+width
 "
 :
 {
 domProp
 :
 "
-textDecorationThickness
+textDecorationWidth
 "
 inherited
 :
@@ -54419,7 +54419,7 @@ dominantBaseline
 "
 inherited
 :
-false
+true
 type
 :
 CSS_TYPE_LONGHAND
