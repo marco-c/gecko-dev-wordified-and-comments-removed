@@ -1041,6 +1041,13 @@ nullptr
 }
 #
 endif
+RemoteDecoderManagerParent
+:
+:
+ShutdownVideoBridge
+(
+)
+;
 CrashReporterClient
 :
 :
