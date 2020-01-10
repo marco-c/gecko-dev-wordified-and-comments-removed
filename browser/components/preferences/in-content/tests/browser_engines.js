@@ -5,6 +5,15 @@ function
 (
 )
 {
+await
+Services
+.
+search
+.
+init
+(
+)
+;
 let
 prefs
 =
