@@ -774,6 +774,8 @@ display
 :
 "
 inline
+-
+block
 "
 "
 explicit

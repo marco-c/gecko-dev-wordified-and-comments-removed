@@ -97,6 +97,8 @@ display
 :
 "
 inline
+-
+block
 "
 }
 ;

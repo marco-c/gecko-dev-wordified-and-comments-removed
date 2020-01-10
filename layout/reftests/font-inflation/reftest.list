@@ -1096,6 +1096,7 @@ inflation
 lineThreshold
 0
 )
+fails
 =
 =
 input
@@ -1118,6 +1119,9 @@ noheight
 ref
 .
 html
+#
+bug
+1540176
 test
 -
 pref
@@ -1218,6 +1222,7 @@ inflation
 lineThreshold
 0
 )
+fails
 =
 =
 input
@@ -1240,6 +1245,9 @@ noheight
 ref
 .
 html
+#
+bug
+1540176
 test
 -
 pref
@@ -1340,6 +1348,7 @@ inflation
 lineThreshold
 0
 )
+fails
 =
 =
 input
@@ -1362,6 +1371,9 @@ noheight
 ref
 .
 html
+#
+bug
+1540176
 test
 -
 pref
@@ -4872,6 +4884,7 @@ inflation
 lineThreshold
 100
 )
+fails
 =
 =
 threshold
@@ -4902,6 +4915,9 @@ at
 ref
 .
 html
+#
+bug
+1540176
 fuzzy
 -
 if
@@ -4953,6 +4969,7 @@ inflation
 lineThreshold
 100
 )
+fails
 =
 =
 threshold
@@ -4983,6 +5000,9 @@ at
 ref
 .
 html
+#
+bug
+1540176
 test
 -
 pref
