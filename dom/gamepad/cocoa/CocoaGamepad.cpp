@@ -1825,6 +1825,9 @@ report_length
 {
 if
 (
+context
+&
+&
 report_type
 =
 =
