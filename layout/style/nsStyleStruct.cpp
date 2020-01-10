@@ -16898,7 +16898,7 @@ CurrentColor
 (
 )
 )
-mTextDecorationWidth
+mTextDecorationThickness
 (
 LengthOrAuto
 :
@@ -16967,11 +16967,11 @@ aSource
 .
 mTextDecorationColor
 )
-mTextDecorationWidth
+mTextDecorationThickness
 (
 aSource
 .
-mTextDecorationWidth
+mTextDecorationThickness
 )
 {
 MOZ_COUNT_CTOR
@@ -17055,12 +17055,12 @@ aNewData
 mTextDecorationStyle
 |
 |
-mTextDecorationWidth
+mTextDecorationThickness
 !
 =
 aNewData
 .
-mTextDecorationWidth
+mTextDecorationThickness
 )
 {
 return

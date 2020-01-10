@@ -26727,7 +26727,7 @@ mTextUnderlineOffset
 styleTextReset
 -
 >
-mTextDecorationWidth
+mTextDecorationThickness
 color
 style
 )
@@ -26761,7 +26761,7 @@ mTextUnderlineOffset
 styleTextReset
 -
 >
-mTextDecorationWidth
+mTextDecorationThickness
 color
 style
 )
@@ -26795,7 +26795,7 @@ mTextUnderlineOffset
 styleTextReset
 -
 >
-mTextDecorationWidth
+mTextDecorationThickness
 color
 style
 )
@@ -27706,7 +27706,7 @@ SetWidthIfLength
 const
 LengthOrAuto
 &
-aDecorationWidth
+aDecorationThickness
 Float
 *
 aLineThickness
@@ -27717,7 +27717,7 @@ aAppUnitsPerDevPixel
 {
 if
 (
-aDecorationWidth
+aDecorationThickness
 .
 IsLength
 (
@@ -27727,7 +27727,7 @@ IsLength
 *
 aLineThickness
 =
-aDecorationWidth
+aDecorationThickness
 .
 AsLength
 (
@@ -28029,7 +28029,7 @@ mTextUnderlineOffset
 const
 LengthOrAuto
 &
-textDecorationWidth
+textDecorationThickness
 =
 aBlock
 -
@@ -28044,7 +28044,7 @@ StyleTextReset
 )
 -
 >
-mTextDecorationWidth
+mTextDecorationThickness
 ;
 if
 (
@@ -28104,7 +28104,7 @@ underlineSize
 ;
 if
 (
-textDecorationWidth
+textDecorationThickness
 .
 IsLength
 (
@@ -28113,7 +28113,7 @@ IsLength
 {
 underlineSize
 =
-textDecorationWidth
+textDecorationThickness
 .
 AsLength
 (
@@ -28637,7 +28637,7 @@ SetWidthIfLength
 (
 dec
 .
-mTextDecorationWidth
+mTextDecorationThickness
 &
 params
 .
@@ -29701,14 +29701,14 @@ relativeSize
 const
 LengthOrAuto
 &
-decWidth
+decThickness
 =
 StyleTextReset
 (
 )
 -
 >
-mTextDecorationWidth
+mTextDecorationThickness
 ;
 const
 gfxFloat
@@ -29890,7 +29890,7 @@ defaultLineThickness
 ;
 SetWidthIfLength
 (
-decWidth
+decThickness
 &
 params
 .
@@ -30196,7 +30196,7 @@ height
 ;
 SetWidthIfLength
 (
-decWidth
+decThickness
 &
 params
 .
@@ -37088,7 +37088,7 @@ SetWidthIfLength
 (
 dec
 .
-mTextDecorationWidth
+mTextDecorationThickness
 &
 params
 .
@@ -38949,14 +38949,14 @@ decorationArea
 const
 LengthOrAuto
 &
-decWidth
+decThickness
 =
 StyleTextReset
 (
 )
 -
 >
-mTextDecorationWidth
+mTextDecorationThickness
 ;
 params
 .
@@ -39000,7 +39000,7 @@ defaultLineThickness
 ;
 SetWidthIfLength
 (
-decWidth
+decThickness
 &
 params
 .

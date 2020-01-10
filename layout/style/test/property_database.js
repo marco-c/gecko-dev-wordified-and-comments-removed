@@ -50218,14 +50218,14 @@ text
 -
 decoration
 -
-width
+thickness
 "
 :
 {
 domProp
 :
 "
-textDecorationWidth
+textDecorationThickness
 "
 inherited
 :

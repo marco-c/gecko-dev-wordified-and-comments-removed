@@ -4432,7 +4432,7 @@ text
 -
 decoration
 -
-width
+thickness
 "
 )
     

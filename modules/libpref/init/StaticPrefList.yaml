@@ -21827,7 +21827,7 @@ always
 #
 text
 decoration
-width
+thickness
 -
 name
 :
@@ -21839,7 +21839,7 @@ text
 -
 decoration
 -
-width
+thickness
 .
 enabled
 type
