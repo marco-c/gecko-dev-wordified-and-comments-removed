@@ -69,10 +69,6 @@ python
 /
 devtools
 -
-python
-/
-mach
--
 security
 -
 servo
