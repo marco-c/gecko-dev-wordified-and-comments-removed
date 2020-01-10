@@ -82,7 +82,11 @@ emittedBindOp_
 =
 false
 ;
-RootedAtom
+Handle
+<
+JSAtom
+*
+>
 name_
 ;
 uint32_t
@@ -122,8 +126,11 @@ NameOpEmitter
 BytecodeEmitter
 *
 bce
+Handle
+<
 JSAtom
 *
+>
 name
 Kind
 kind
@@ -134,8 +141,11 @@ NameOpEmitter
 BytecodeEmitter
 *
 bce
+Handle
+<
 JSAtom
 *
+>
 name
 const
 NameLocation

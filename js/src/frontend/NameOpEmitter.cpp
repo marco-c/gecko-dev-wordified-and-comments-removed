@@ -80,8 +80,11 @@ NameOpEmitter
 BytecodeEmitter
 *
 bce
+Handle
+<
 JSAtom
 *
+>
 name
 Kind
 kind
@@ -97,10 +100,6 @@ kind
 )
 name_
 (
-bce_
--
->
-cx
 name
 )
 loc_
@@ -123,8 +122,11 @@ NameOpEmitter
 BytecodeEmitter
 *
 bce
+Handle
+<
 JSAtom
 *
+>
 name
 const
 NameLocation
@@ -144,10 +146,6 @@ kind
 )
 name_
 (
-bce_
--
->
-cx
 name
 )
 loc_
