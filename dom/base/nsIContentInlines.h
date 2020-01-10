@@ -1433,7 +1433,7 @@ parentElement
 Element
 :
 :
-FromNode
+FromNodeOrNull
 (
 mParent
 )
