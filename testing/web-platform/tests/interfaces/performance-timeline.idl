@@ -147,11 +147,6 @@ observer
 )
 ;
 [
-Constructor
-(
-PerformanceObserverCallback
-callback
-)
 Exposed
 =
 (
@@ -162,6 +157,12 @@ Worker
 interface
 PerformanceObserver
 {
+constructor
+(
+PerformanceObserverCallback
+callback
+)
+;
 void
 observe
 (
