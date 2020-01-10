@@ -114,6 +114,11 @@ DOMString
 name
 )
 ;
+readonly
+attribute
+HTMLAllCollection
+all
+;
 }
 ;
 partial
