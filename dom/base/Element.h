@@ -1185,17 +1185,6 @@ true
 ;
 }
 }
-mozilla
-:
-:
-StyleUrlOrNone
-GetBindingURL
-(
-Document
-*
-aDocument
-)
-;
 Directionality
 GetComputedDirectionality
 (
