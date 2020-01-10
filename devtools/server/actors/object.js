@@ -1582,15 +1582,6 @@ safeGetterValues
 }
 if
 (
-isReplaying
-)
-{
-return
-safeGetterValues
-;
-}
-if
-(
 isArray
 (
 this
