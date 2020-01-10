@@ -537,7 +537,7 @@ DataView
 REAL
 (
 Symbol
-InitSymbolClass
+InitViaClassSpec
 OCLASP
 (
 Symbol
