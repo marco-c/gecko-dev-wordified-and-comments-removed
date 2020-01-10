@@ -163,12 +163,6 @@ tools
 /
 rb
 -
-tools
-/
-update
--
-packaging
--
 xpcom
 /
 idl
