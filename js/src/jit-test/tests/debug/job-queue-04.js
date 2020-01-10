@@ -69,5 +69,10 @@ function
 )
 ;
 }
+{
+expectExceptionOnFailure
+:
+false
+}
 )
 ;
