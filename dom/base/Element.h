@@ -5401,11 +5401,7 @@ aMaybeScriptedPrincipal
 bool
 aNotify
 )
-{
-return
-NS_OK
 ;
-}
 void
 PreIdMaybeChange
 (
