@@ -11192,6 +11192,13 @@ if
 (
 !
 mInnerFrame
+|
+|
+margin
+.
+ConvertsToLength
+(
+)
 )
 {
 SetValueToLengthPercentageOrAuto
