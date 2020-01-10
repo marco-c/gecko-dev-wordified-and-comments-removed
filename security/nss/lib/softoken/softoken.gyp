@@ -367,6 +367,11 @@ sftkhmac
 c
 '
 '
+sftkike
+.
+c
+'
+'
 sftkpars
 .
 c
