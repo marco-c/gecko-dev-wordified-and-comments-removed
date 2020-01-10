@@ -1846,7 +1846,6 @@ mochitest
 webgl1
 -
 ext
-#
 -
 mochitest
 -
@@ -1943,12 +1942,6 @@ chrome
 mochitest
 -
 media
--
-mochitest
--
-webgl2
--
-core
 #
 -
 mochitest
