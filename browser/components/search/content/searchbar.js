@@ -3749,16 +3749,6 @@ px
 ;
 popup
 .
-setAttribute
-(
-"
-width
-"
-width
-)
-;
-popup
-.
 _invalidate
 (
 )
