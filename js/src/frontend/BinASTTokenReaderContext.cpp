@@ -1790,7 +1790,6 @@ MOZ_TRY
 (
 readTable
 <
-HuffmanTableValue
 List
 >
 (
@@ -3206,7 +3205,6 @@ identity_
 return
 readTable
 <
-HuffmanTableValue
 Entry
 >
 (
@@ -3217,8 +3215,6 @@ entry
 }
 template
 <
-typename
-HuffmanTable
 typename
 Entry
 >
@@ -3232,7 +3228,7 @@ Ok
 >
 readTable
 (
-HuffmanTable
+HuffmanTableValue
 &
 table
 Entry
