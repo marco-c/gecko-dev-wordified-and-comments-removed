@@ -74,6 +74,7 @@ jsm
 import
 {
 addUtmParams
+BASE_PARAMS
 }
 from
 "
@@ -749,9 +750,11 @@ hidden
 "
 value
 =
-"
-firstrun
-"
+{
+BASE_PARAMS
+.
+utm_campaign
+}
 /
 >
 <

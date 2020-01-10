@@ -2488,6 +2488,15 @@ props
 .
 fxaEndpoint
 }
+appUpdateChannel
+=
+{
+this
+.
+props
+.
+appUpdateChannel
+}
 fetchFlowParams
 =
 {
