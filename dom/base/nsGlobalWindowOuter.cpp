@@ -402,13 +402,6 @@ h
 #
 include
 "
-nsIScriptTimeoutHandler
-.
-h
-"
-#
-include
-"
 nsITimeoutHandler
 .
 h

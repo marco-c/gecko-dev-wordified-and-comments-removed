@@ -509,11 +509,6 @@ nsIScriptObjectPrincipal
 h
 '
 '
-nsIScriptTimeoutHandler
-.
-h
-'
-'
 nsIStyleSheetLinkingElement
 .
 h
@@ -1787,11 +1782,6 @@ cpp
 '
 '
 nsJSEnvironment
-.
-cpp
-'
-'
-nsJSTimeoutHandler
 .
 cpp
 '
