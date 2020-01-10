@@ -160,11 +160,6 @@ WorkerError
 h
 '
 '
-WorkerHolder
-.
-h
-'
-'
 WorkerLoadInfo
 .
 h
@@ -196,6 +191,11 @@ h
 '
 '
 WorkerScope
+.
+h
+'
+'
+WorkerStatus
 .
 h
 '
@@ -321,11 +321,6 @@ cpp
 '
 '
 WorkerEventTarget
-.
-cpp
-'
-'
-WorkerHolder
 .
 cpp
 '

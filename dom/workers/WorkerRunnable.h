@@ -29,6 +29,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WorkerStatus
+.
+h
+"
+#
+include
+"
 nsICancelableRunnable
 .
 h
