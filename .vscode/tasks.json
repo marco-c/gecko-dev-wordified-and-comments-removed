@@ -99,6 +99,9 @@ args
 "
 :
 [
+"
+cd
+"
 /
 /
 Use
@@ -122,9 +125,6 @@ value
 {
 workspaceFolder
 }
-\
-\
-mach
 '
 -
 replace
@@ -147,6 +147,14 @@ quoting
 weak
 "
 }
+"
+'
+;
+'
+"
+"
+mach
+"
 "
 -
 -
