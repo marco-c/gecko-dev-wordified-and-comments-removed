@@ -602,7 +602,7 @@ schema
 WriteField
 (
 "
-eventDelay
+responsiveness
 "
 )
 ;
