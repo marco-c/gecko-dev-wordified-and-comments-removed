@@ -110,9 +110,6 @@ GlobalObject
 struct
 Class
 ;
-struct
-ClassOps
-;
 enum
 class
 DebuggerEnvironmentType
