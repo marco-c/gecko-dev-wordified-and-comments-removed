@@ -967,7 +967,7 @@ mozilla
 :
 :
 ComputedGridTrackInfo
-*
+&
 aTrackInfo
 )
 ;
