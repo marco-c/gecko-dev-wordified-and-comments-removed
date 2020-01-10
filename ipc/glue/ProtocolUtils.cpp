@@ -1780,6 +1780,13 @@ mManager
 mLifecycleProxy
 ;
 }
+mActor
+-
+>
+ActorAlloc
+(
+)
+;
 }
 ActorLifecycleProxy
 :

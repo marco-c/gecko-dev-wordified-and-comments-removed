@@ -1263,6 +1263,13 @@ aWhy
 ;
 virtual
 void
+ActorAlloc
+(
+)
+{
+}
+virtual
+void
 ActorDealloc
 (
 )
