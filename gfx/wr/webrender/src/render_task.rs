@@ -141,7 +141,6 @@ gpu_types
 BorderInstance
 ImageSource
 UvRectKind
-SnapOffsets
 }
 ;
 use
@@ -802,10 +801,6 @@ pub
 clip_node_range
 :
 ClipNodeRange
-pub
-snap_offsets
-:
-SnapOffsets
 pub
 device_pixel_scale
 :
@@ -2694,9 +2689,6 @@ clip_data_store
 &
 mut
 ClipDataStore
-snap_offsets
-:
-SnapOffsets
 device_pixel_scale
 :
 DevicePixelScale
@@ -3033,7 +3025,6 @@ actual_rect
 outer_rect
 clip_node_range
 root_spatial_node_index
-snap_offsets
 device_pixel_scale
 }
 )
