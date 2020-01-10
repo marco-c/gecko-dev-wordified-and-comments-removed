@@ -7,6 +7,10 @@ BytesIO
 import
 pytest
 from
+six
+import
+PY2
+from
 wptserve
 .
 request
@@ -724,6 +728,8 @@ platform
 "
 win32
 "
+and
+PY2
                    
 reason
 =
@@ -839,6 +845,8 @@ platform
 "
 win32
 "
+and
+PY2
                    
 reason
 =
