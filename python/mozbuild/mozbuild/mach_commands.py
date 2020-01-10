@@ -3043,6 +3043,9 @@ topsrcdir
 self
 .
 topobjdir
+self
+.
+substs
 )
 .
 remove_objdir

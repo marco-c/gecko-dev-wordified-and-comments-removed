@@ -9361,6 +9361,34 @@ or
 ]
 )
         
+from
+mozbuild
+.
+base
+import
+BuildEnvironmentNotFoundException
+        
+substs
+=
+dict
+(
+)
+        
+try
+:
+            
+substs
+=
+self
+.
+substs
+        
+except
+BuildEnvironmentNotFoundException
+:
+            
+pass
+        
 clobberer
 =
 Clobberer
@@ -9371,6 +9399,7 @@ topsrcdir
 self
 .
 topobjdir
+substs
 )
         
 clobber_output
