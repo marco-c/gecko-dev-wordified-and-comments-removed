@@ -30,7 +30,7 @@ client
 }
 =
 await
-setupForURL
+setupTestForUri
 (
 TEST_DOC
 )
