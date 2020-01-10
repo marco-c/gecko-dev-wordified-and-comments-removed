@@ -3045,24 +3045,6 @@ project
 ]
 )
     
-mh_command
-.
-extend
-(
-mozharness
-.
-get
-(
-'
-extra
--
-options
-'
-[
-]
-)
-)
-    
 if
 mozharness
 .
