@@ -45,7 +45,7 @@ class
 nsIURI
 ;
 class
-nsIContent
+nsINode
 ;
 class
 nsIPrincipal
@@ -63,7 +63,7 @@ public
 :
 nsIconLoaderService
 (
-nsIContent
+nsINode
 *
 aContent
 nsIntRect
@@ -92,6 +92,12 @@ nsIURI
 aIconURI
 )
 ;
+NSImage
+*
+GetNativeIconImage
+(
+)
+;
 void
 Destroy
 (
@@ -117,7 +123,7 @@ aRequest
 ;
 nsCOMPtr
 <
-nsIContent
+nsINode
 >
 mContent
 ;
