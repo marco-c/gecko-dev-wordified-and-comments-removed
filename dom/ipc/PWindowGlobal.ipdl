@@ -386,6 +386,13 @@ bool
 aSetNavigating
 )
 ;
+async
+DisplayLoadError
+(
+nsString
+aURI
+)
+;
 both
 :
 async
