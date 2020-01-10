@@ -145,8 +145,7 @@ toArrayBuffer
 [
 NewObject
 ]
-object
-?
+any
 toJSON
 (
 )
