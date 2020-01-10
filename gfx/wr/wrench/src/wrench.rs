@@ -876,6 +876,12 @@ webrender
 :
 :
 ChasePrimitive
+dump_shader_source
+:
+Option
+<
+String
+>
 notifier
 :
 Option
@@ -1212,6 +1218,7 @@ disable_dual_source_blending
 allow_advanced_blend_equation
 :
 true
+dump_shader_source
 .
 .
 Default
