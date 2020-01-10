@@ -207,6 +207,11 @@ process
 enabled
 "
 )
+&
+&
+XRE_IsContentProcess
+(
+)
 ;
 sInited
 =
