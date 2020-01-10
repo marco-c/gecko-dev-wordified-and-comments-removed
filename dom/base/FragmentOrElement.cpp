@@ -925,7 +925,7 @@ content
 content
 -
 >
-GetBindingParent
+GetChromeOnlyAccessSubtreeRootParent
 (
 )
 )
