@@ -630,6 +630,10 @@ const
 TimeStamp
 &
 aNavigationStartTimeStamp
+const
+bool
+&
+hasSandboxedAuxiliaryNavigations
 )
 ;
 virtual

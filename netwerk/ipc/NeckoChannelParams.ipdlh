@@ -1914,6 +1914,9 @@ forceMainDocumentChannel
 TimeStamp
 navigationStartTimeStamp
 ;
+bool
+hasSandboxedAuxiliaryNavigations
+;
 }
 ;
 struct

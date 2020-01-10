@@ -13097,6 +13097,16 @@ navigationStartTimeStamp
 =
 navigationStartTimeStamp
 ;
+openArgs
+.
+hasSandboxedAuxiliaryNavigations
+(
+)
+=
+GetHasSandboxedAuxiliaryNavigations
+(
+)
+;
 SetEventTarget
 (
 )

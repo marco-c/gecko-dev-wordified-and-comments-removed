@@ -2084,6 +2084,11 @@ ProcessCrossOriginResourcePolicyHeader
 (
 )
 ;
+nsresult
+ComputeCrossOriginOpenerPolicyMismatch
+(
+)
+;
 MOZ_MUST_USE
 nsresult
 ProcessSingleSecurityHeader
@@ -2758,6 +2763,11 @@ mIsIsolated
 ;
 uint32_t
 mTopWindowOriginComputed
+:
+1
+;
+uint32_t
+mHasCrossOriginOpenerPolicyMismatch
 :
 1
 ;
