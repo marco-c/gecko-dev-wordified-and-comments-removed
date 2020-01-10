@@ -47,5 +47,11 @@ enable
 profile
 -
 generate
+ac_add_options
+-
+-
+disable
+-
+tests
 unset
 MOZ_LTO
