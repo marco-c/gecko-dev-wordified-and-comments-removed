@@ -93,7 +93,7 @@ zeroed
 "
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineVideoFrame
@@ -167,7 +167,7 @@ aOther
 mTimestamp
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineVideoFrame
@@ -265,7 +265,7 @@ VideoFormat
 aFormat
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineVideoFrame
@@ -319,7 +319,7 @@ Size
 aSize
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineVideoFrame
@@ -393,7 +393,7 @@ Buffer
 aFrameBuffer
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineVideoFrame
@@ -458,7 +458,7 @@ uint32_t
 aOffset
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineVideoFrame
@@ -532,7 +532,7 @@ uint32_t
 aStride
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineVideoFrame
@@ -598,7 +598,7 @@ int64_t
 timestamp
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineVideoFrame

@@ -108,7 +108,7 @@ err
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineFileIO
@@ -158,7 +158,7 @@ Open
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineFileIO
@@ -196,7 +196,7 @@ kError
 return
 ;
 }
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineFileIO
@@ -236,7 +236,7 @@ if
 mRecord
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineFileIO
@@ -276,7 +276,7 @@ nullptr
 return
 ;
 }
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineFileIO
@@ -325,7 +325,7 @@ if
 mRecord
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineFileIO
@@ -381,7 +381,7 @@ Close
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineFileIO
@@ -477,7 +477,7 @@ GMPErr
 aStatus
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineFileIO
@@ -531,7 +531,7 @@ uint32_t
 aDataSize
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineFileIO
@@ -581,7 +581,7 @@ GMPErr
 aStatus
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineFileIO

@@ -123,7 +123,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -196,7 +196,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -269,7 +269,7 @@ mShmem
 aShmem
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 CDMShmemBuffer
@@ -363,7 +363,7 @@ CDMShmemBuffer
 )
 override
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 CDMShmemBuffer
@@ -422,7 +422,7 @@ Destroy
 )
 override
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 CDMShmemBuffer
@@ -501,7 +501,7 @@ Capacity
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 CDMShmemBuffer
@@ -706,7 +706,7 @@ uint32_t
 aCapacity
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -940,7 +940,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -1264,7 +1264,7 @@ KeyStatus
 aKeyStatus
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -1356,7 +1356,7 @@ IsEmpty
 (
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -1439,7 +1439,7 @@ uint32_t
 aSessionIdSize
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -1498,7 +1498,7 @@ uint32_t
 aPromiseId
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -1560,7 +1560,7 @@ uint32_t
 aErrorMessageSize
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -1658,7 +1658,7 @@ uint32_t
 aMessageSize
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -1864,7 +1864,7 @@ uint32_t
 aKeysInfoCount
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2017,7 +2017,7 @@ Time
 aNewExpiryTime
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2078,7 +2078,7 @@ uint32_t
 aSessionIdSize
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2197,7 +2197,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2244,7 +2244,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2352,7 +2352,7 @@ ChromiumCDMChild
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2483,7 +2483,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2579,7 +2579,7 @@ nsresult
 rv
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2634,7 +2634,7 @@ false
 }
 else
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2702,7 +2702,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2793,7 +2793,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -2948,7 +2948,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -3062,7 +3062,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -3168,7 +3168,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -3255,7 +3255,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -3345,7 +3345,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -3869,7 +3869,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -4010,7 +4010,7 @@ if
 mCDM
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -4066,7 +4066,7 @@ Length
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -4308,7 +4308,7 @@ if
 mCDM
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -4484,7 +4484,7 @@ InitializeVideoDecoder
 config
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -4546,7 +4546,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -4618,7 +4618,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -4688,7 +4688,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -4723,7 +4723,7 @@ if
 mCDM
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -4847,7 +4847,7 @@ input
 frame
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -4904,7 +4904,7 @@ cdm
 :
 kNoKey
 :
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 NoKey
@@ -5346,7 +5346,7 @@ if
 mCDM
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -5401,7 +5401,7 @@ sample
 frame
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -5491,7 +5491,7 @@ IsOnMessageLoopThread
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild
@@ -5644,7 +5644,7 @@ aBuffer
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMChild

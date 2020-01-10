@@ -63,7 +63,7 @@ condition
 )
 {
 \
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ENSURE_TRUE
@@ -105,7 +105,7 @@ err
 )
 {
 \
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ENSURE_GMP_SUCCESS

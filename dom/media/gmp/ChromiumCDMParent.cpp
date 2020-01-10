@@ -171,7 +171,7 @@ media_eme_chromium_api_video_shmems
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -223,7 +223,7 @@ nsIEventTarget
 aMainThread
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -291,7 +291,7 @@ aCDMCallback
 aMainThread
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -453,7 +453,7 @@ if
 aSuccess
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -512,7 +512,7 @@ __func__
 return
 ;
 }
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -590,7 +590,7 @@ XPCOMWillShutdownReceived
 (
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -820,7 +820,7 @@ uint8_t
 aInitData
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -917,7 +917,7 @@ nsString
 aSessionId
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -1033,7 +1033,7 @@ uint8_t
 aCert
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -1124,7 +1124,7 @@ uint8_t
 aResponse
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -1209,7 +1209,7 @@ uint32_t
 aPromiseId
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -1293,7 +1293,7 @@ uint32_t
 aPromiseId
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -1612,7 +1612,7 @@ nsCString
 aMinHdcpVersion
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -1772,7 +1772,7 @@ Length
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 InitCDMInputBuffer
@@ -1900,7 +1900,7 @@ break
 ;
 default
 :
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 InitCDMInputBuffer
@@ -2096,7 +2096,7 @@ uint32_t
 aSizeInBytes
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -2291,7 +2291,7 @@ buffer
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -2377,7 +2377,7 @@ MOZ_ASSERT
 mIsShutdown
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -2437,7 +2437,7 @@ uint32_t
 aKeyStatus
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -2515,7 +2515,7 @@ nsCString
 aSessionId
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -2652,7 +2652,7 @@ bool
 aSuccessful
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -2721,7 +2721,7 @@ uint32_t
 aPromiseId
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -2806,7 +2806,7 @@ nsCString
 aErrorMessage
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -3010,7 +3010,7 @@ uint8_t
 aMessage
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -3095,7 +3095,7 @@ CDMKeyInformation
 aKeysInfo
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -3167,7 +3167,7 @@ double
 aSecondsSinceEpoch
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -3234,7 +3234,7 @@ nsCString
 aSessionId
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -3354,7 +3354,7 @@ uint32_t
 aStatus
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -3492,7 +3492,7 @@ Shmem
 aShmem
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -3656,7 +3656,7 @@ RecvIncreaseShmemPoolSize
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 %
@@ -3748,7 +3748,7 @@ PurgeShmems
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -3826,7 +3826,7 @@ size_t
 aVideoFrameSize
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -3942,7 +3942,7 @@ uint8_t
 aData
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -4113,7 +4113,7 @@ Shmem
 aShmem
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -4982,7 +4982,7 @@ RecvShutdown
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -5019,7 +5019,7 @@ ActorDestroyReason
 aWhy
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -5420,7 +5420,7 @@ uint32_t
 aStatus
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -5575,7 +5575,7 @@ __func__
 )
 ;
 }
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -5651,7 +5651,7 @@ buffer
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -6144,7 +6144,7 @@ mVideoDecoderInitialized
 =
 false
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent
@@ -6189,7 +6189,7 @@ Shutdown
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMParent

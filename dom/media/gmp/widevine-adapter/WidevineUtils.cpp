@@ -58,7 +58,7 @@ size_t
 aSize
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineBuffer
@@ -89,7 +89,7 @@ WidevineBuffer
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 WidevineBuffer
