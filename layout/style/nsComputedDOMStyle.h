@@ -1571,7 +1571,7 @@ aHeight
 )
 ;
 bool
-NeedsToFlush
+NeedsToFlushStyle
 (
 )
 const
