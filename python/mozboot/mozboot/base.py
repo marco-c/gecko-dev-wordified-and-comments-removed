@@ -1023,9 +1023,7 @@ LooseVersion
 '
 4
 .
-3
-.
-3
+8
 '
 )
 MODERN_PYTHON_VERSION
