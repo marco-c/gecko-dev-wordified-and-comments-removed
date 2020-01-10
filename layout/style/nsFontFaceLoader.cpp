@@ -1456,6 +1456,16 @@ NS_IsMainThread
 )
 )
 ;
+if
+(
+!
+mFontFaceSet
+)
+{
+return
+NS_OK
+;
+}
 nsTArray
 <
 gfxUserFontSet
