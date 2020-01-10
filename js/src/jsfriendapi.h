@@ -9719,6 +9719,16 @@ JSObject
 obj
 )
 ;
+extern
+JS_FRIEND_API
+bool
+GlobalHasInstrumentation
+(
+JSObject
+*
+global
+)
+;
 }
 #
 endif
