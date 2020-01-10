@@ -3835,6 +3835,16 @@ EditorDOMPoint
 aPointToInsert
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+InsertPaddingBRElementForEmptyLastLineIfNeeded
+(
+Element
+&
+aElement
+)
+;
 protected
 :
 virtual
