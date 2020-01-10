@@ -1854,9 +1854,6 @@ session
 focus
 "
 "
-change
-"
-"
 blur
 "
 ]
