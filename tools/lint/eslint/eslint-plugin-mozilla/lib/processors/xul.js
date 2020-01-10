@@ -87,6 +87,9 @@ true
 MOZ_CRASHREPORTER
 :
 true
+MOZ_NORMANDY
+:
+true
 MOZ_MAINTENANCE_SERVICE
 :
 true

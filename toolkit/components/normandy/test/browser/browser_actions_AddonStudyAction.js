@@ -240,6 +240,7 @@ overrides
 }
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -459,6 +460,7 @@ assertEvents
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -639,6 +641,7 @@ ERROR_NETWORK_FAILURE
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -818,6 +821,7 @@ ERROR_INCORRECT_HASH
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -1017,6 +1021,7 @@ mismatch
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -1263,6 +1268,7 @@ id
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -1703,6 +1709,7 @@ removed
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -2108,6 +2115,7 @@ updated
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -2432,6 +2440,7 @@ unchanged
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -2780,6 +2789,7 @@ installed
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -3102,6 +3112,7 @@ unchanged
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -3431,6 +3442,7 @@ unchanged
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -3757,6 +3769,7 @@ unchanged
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -4183,6 +4196,7 @@ unchanged
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 AddonStudies
 .
@@ -4237,6 +4251,7 @@ exists
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 AddonStudies
 .
@@ -4323,6 +4338,7 @@ com
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 AddonStudies
 .
@@ -4533,6 +4549,7 @@ reason
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 AddonStudies
 .
@@ -4636,6 +4653,7 @@ endMonitorConsole
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -4819,6 +4837,7 @@ assertEvents
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 withSendEventStub
@@ -5003,6 +5022,7 @@ assertEvents
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -5352,6 +5372,7 @@ updated
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
 AddonStudies
@@ -5768,6 +5789,7 @@ updated
 ;
 decorate_task
 (
+withStudiesEnabled
 ensureAddonCleanup
 AddonStudies
 .

@@ -27456,6 +27456,14 @@ n
 "
 MOZ_CRASHREPORTER
 "
+|
+|
+test
+-
+n
+"
+MOZ_NORMANDY
+"
 ;
 then
 MOZ_DATA_REPORTING

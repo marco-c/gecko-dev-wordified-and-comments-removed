@@ -120,6 +120,13 @@ MOZ_BLOCK_PROFILE_DOWNGRADE
 '
 True
 )
+imply_option
+(
+'
+MOZ_NORMANDY
+'
+True
+)
 with
 only_when
 (

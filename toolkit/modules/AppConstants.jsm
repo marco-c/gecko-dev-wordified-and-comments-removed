@@ -444,6 +444,17 @@ else
 false
 #
 endif
+MOZ_NORMANDY
+:
+#
+ifdef
+MOZ_NORMANDY
+true
+#
+else
+false
+#
+endif
 MOZ_MAINTENANCE_SERVICE
 :
 #
