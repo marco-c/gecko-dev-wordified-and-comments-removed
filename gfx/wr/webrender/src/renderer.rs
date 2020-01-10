@@ -13397,7 +13397,7 @@ gpu_cache_frame_id
 ;
 self
 .
-draw_tile_frame
+draw_frame
 (
 frame
 device_size
@@ -22601,7 +22601,7 @@ is_none
 ;
 }
 fn
-draw_tile_frame
+draw_frame
 (
 &
 mut
@@ -22668,9 +22668,8 @@ gpu_profile
 start_marker
 (
 "
-tile
-frame
 draw
+frame
 "
 )
 ;
