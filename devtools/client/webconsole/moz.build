@@ -143,13 +143,6 @@ panel
 js
 '
 '
-service
--
-container
-.
-js
-'
-'
 store
 .
 js
