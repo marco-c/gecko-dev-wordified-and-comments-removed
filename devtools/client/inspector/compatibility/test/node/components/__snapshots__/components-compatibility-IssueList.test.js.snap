@@ -24,6 +24,15 @@ issues
 =
 <
 ul
+className
+=
+"
+compatibility
+-
+issue
+-
+list
+"
 >
 <
 IssueItem
