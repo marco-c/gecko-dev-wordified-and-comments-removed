@@ -50,7 +50,7 @@ UTC_TIME_SLOT
 static
 const
 uint32_t
-TZA_SLOT
+UTC_TIME_ZONE_OFFSET_SLOT
 =
 1
 ;
