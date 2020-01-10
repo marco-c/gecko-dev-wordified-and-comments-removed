@@ -114,7 +114,7 @@ XHR
 "
 whyPaused
 .
-xhr
+XHR
 "
 promiseRejection
 :
