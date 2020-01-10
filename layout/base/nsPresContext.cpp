@@ -5885,6 +5885,13 @@ RefreshSystemMetrics
 (
 )
 ;
+PreferenceSheet
+:
+:
+Refresh
+(
+)
+;
 if
 (
 nsPIDOMWindowOuter
