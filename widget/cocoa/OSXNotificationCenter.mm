@@ -3137,7 +3137,7 @@ nil
 nsCocoaUtils
 :
 :
-CreateNSImageFromImageContainer
+CreateDualRepresentationNSImageFromImageContainer
 (
 image
 imgIContainer
@@ -3146,9 +3146,6 @@ imgIContainer
 FRAME_FIRST
 &
 cocoaImage
-1
-.
-0f
 )
 ;
 (
