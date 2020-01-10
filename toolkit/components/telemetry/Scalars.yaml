@@ -20444,6 +20444,10 @@ fennec
 '
 geckoview
 '
+-
+'
+geckoview_streaming
+'
 record_in_processes
 :
 -
@@ -20503,6 +20507,10 @@ fennec
 '
 geckoview
 '
+-
+'
+geckoview_streaming
+'
 record_in_processes
 :
 -
@@ -20561,6 +20569,10 @@ fennec
 -
 '
 geckoview
+'
+-
+'
+geckoview_streaming
 '
 record_in_processes
 :
