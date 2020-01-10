@@ -4832,6 +4832,10 @@ width
 ;
 %
 endif
+height
+:
+1em
+;
 max
 -
 height
@@ -4890,8 +4894,10 @@ display
 block
 ;
 flex
+-
+grow
 :
-none
+1
 ;
 cursor
 :
@@ -5054,8 +5060,10 @@ display
 block
 ;
 flex
+-
+grow
 :
-none
+1
 ;
 cursor
 :
