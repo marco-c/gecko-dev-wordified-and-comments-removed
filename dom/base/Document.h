@@ -4943,11 +4943,11 @@ nsAString
 &
 aType
 bool
+aInFrameSwap
+bool
 aPersisted
 bool
 aOnlySystemGroup
-=
-false
 )
 ;
 void
@@ -8901,6 +8901,11 @@ nsString
 const
 ;
 void
+UpdateVisibilityState
+(
+)
+;
+void
 PostVisibilityUpdateEvent
 (
 )
@@ -11894,11 +11899,6 @@ RecordNavigationTiming
 (
 ReadyState
 aReadyState
-)
-;
-void
-UpdateVisibilityState
-(
 )
 ;
 dom

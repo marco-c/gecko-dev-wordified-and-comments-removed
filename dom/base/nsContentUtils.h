@@ -6074,7 +6074,7 @@ aIsWidgetEventSynthesized
 ;
 static
 void
-FirePageShowEvent
+FirePageShowEventForFrameLoaderSwap
 (
 nsIDocShellTreeItem
 *
@@ -6098,7 +6098,7 @@ false
 ;
 static
 void
-FirePageHideEvent
+FirePageHideEventForFrameLoaderSwap
 (
 nsIDocShellTreeItem
 *
