@@ -8836,7 +8836,7 @@ global
 (
 )
 ;
-JSFunction
+JSObject
 *
 promiseCtor
 =
