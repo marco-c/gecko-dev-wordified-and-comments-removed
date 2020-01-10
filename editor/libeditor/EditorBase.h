@@ -457,6 +457,9 @@ Element
 class
 EventTarget
 ;
+class
+HTMLBRElement
+;
 }
 namespace
 widget
@@ -5680,6 +5683,15 @@ RefPtr
 Element
 >
 mRootElement
+;
+RefPtr
+<
+dom
+:
+:
+HTMLBRElement
+>
+mPaddingBRElementForEmptyEditor
 ;
 nsCOMPtr
 <

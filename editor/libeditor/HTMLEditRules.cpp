@@ -4032,6 +4032,10 @@ const
 return
 !
 !
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 ;
 }
@@ -8262,6 +8266,10 @@ IsEditorDataAvailable
 ;
 if
 (
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 )
 {
@@ -8276,6 +8284,10 @@ std
 :
 move
 (
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 )
 )
@@ -11345,6 +11357,10 @@ true
 ;
 if
 (
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 )
 {
@@ -54710,6 +54726,10 @@ scriptBlocker
 ;
 if
 (
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 )
 {
@@ -54724,6 +54744,10 @@ std
 :
 move
 (
+HTMLEditorRef
+(
+)
+.
 mPaddingBRElementForEmptyEditor
 )
 )
