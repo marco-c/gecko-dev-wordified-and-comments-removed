@@ -160,6 +160,13 @@ cache
 "
 browser
 .
+contentblocking
+.
+category
+"
+"
+browser
+.
 display
 .
 "
