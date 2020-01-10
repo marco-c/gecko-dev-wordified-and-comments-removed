@@ -1479,7 +1479,7 @@ join
 (
 here
 '
-redirects
+config
 .
 yml
 '
