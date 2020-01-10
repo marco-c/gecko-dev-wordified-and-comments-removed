@@ -458,10 +458,6 @@ if
 result
 )
 {
-mListener
-=
-nullptr
-;
 return
 SendFailedAsyncOpen
 (
@@ -776,10 +772,6 @@ rv
 )
 )
 {
-mListener
-=
-nullptr
-;
 return
 SendFailedAsyncOpen
 (
@@ -2516,6 +2508,11 @@ cp
 return
 ;
 }
+MOZ_ASSERT
+(
+config
+)
+;
 cp
 -
 >
@@ -2523,6 +2520,7 @@ SendCrossProcessRedirect
 (
 mRedirectChannelId
 uri
+*
 config
 loadInfoArgs
 channelId
