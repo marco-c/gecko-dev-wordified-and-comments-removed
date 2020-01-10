@@ -78,6 +78,12 @@ uint32_t
 aIconHeight
 uint32_t
 aIconWidth
+CGFloat
+aScaleFactor
+=
+0
+.
+0f
 )
 ;
 public
@@ -146,6 +152,9 @@ mIconHeight
 ;
 uint32_t
 mIconWidth
+;
+CGFloat
+mScaleFactor
 ;
 RefPtr
 <
