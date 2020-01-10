@@ -203,12 +203,6 @@ FinalizationGroup
 "
     
 "
-coalesce
--
-expression
-"
-    
-"
 optional
 -
 chaining
