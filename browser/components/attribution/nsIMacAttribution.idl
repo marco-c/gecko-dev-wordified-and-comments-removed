@@ -160,7 +160,7 @@ AString
 getReferrerUrl
 (
 in
-ACString
+AUTF8String
 aFilePath
 )
 ;
@@ -241,10 +241,10 @@ void
 setReferrerUrl
 (
 in
-ACString
+AUTF8String
 aFilePath
 in
-ACString
+AUTF8String
 aReferrer
 in
 boolean
