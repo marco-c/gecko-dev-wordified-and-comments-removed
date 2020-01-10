@@ -245,6 +245,9 @@ DIRS
 about
 '
 '
+aboutconfig
+'
+'
 aboutlogins
 '
 '
@@ -349,9 +352,6 @@ DIRS
 +
 =
 [
-'
-aboutconfig
-'
 '
 payments
 '
