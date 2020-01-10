@@ -1868,7 +1868,7 @@ worker
 ]
 [
 '
-relengapi
+taskcluster
 -
 proxy
 '
@@ -1888,18 +1888,18 @@ extend
 [
         
 '
-docker
--
-worker
+project
 :
-relengapi
--
-proxy
+releng
 :
+services
+/
 tooltool
-.
+/
+api
+/
 download
-.
+/
 public
 '
     
@@ -1922,18 +1922,18 @@ extend
 [
             
 '
-docker
--
-worker
+project
 :
-relengapi
--
-proxy
+releng
 :
+services
+/
 tooltool
-.
+/
+api
+/
 download
-.
+/
 internal
 '
         
