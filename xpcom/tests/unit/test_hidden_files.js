@@ -86,6 +86,7 @@ exists
 (
 )
 )
+{
 hiddenUnixFile
 .
 create
@@ -98,6 +99,7 @@ NORMAL_FILE_TYPE
 0o666
 )
 ;
+}
 return
 hiddenUnixFile
 .
@@ -122,8 +124,10 @@ os
 win
 "
 )
+{
 return
 ;
+}
 Assert
 .
 ok

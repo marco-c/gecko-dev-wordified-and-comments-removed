@@ -20,12 +20,14 @@ hasMoreElements
 (
 )
 )
+{
 dirEntries
 .
 getNext
 (
 )
 ;
+}
 dirEntries
 .
 hasMoreElements

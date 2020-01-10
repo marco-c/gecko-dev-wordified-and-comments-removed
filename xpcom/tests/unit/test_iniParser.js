@@ -202,6 +202,7 @@ output
 section
 ]
 )
+{
 Assert
 .
 equal
@@ -218,6 +219,7 @@ key
 "
 )
 ;
+}
 delete
 output
 [
@@ -232,6 +234,7 @@ section
 in
 output
 )
+{
 Assert
 .
 equal
@@ -248,6 +251,7 @@ section
 "
 )
 ;
+}
 }
 function
 getParserOutput
@@ -1767,8 +1771,10 @@ if
 !
 parser
 )
+{
 continue
 ;
+}
 Assert
 .
 ok
@@ -1894,6 +1900,7 @@ exists
 (
 )
 )
+{
 newfile
 .
 remove
@@ -1901,6 +1908,7 @@ remove
 false
 )
 ;
+}
 Assert
 .
 ok

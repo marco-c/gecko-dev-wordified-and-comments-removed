@@ -197,8 +197,10 @@ data
 =
 testCategory
 )
+{
 return
 ;
+}
 if
 (
 topic
@@ -206,6 +208,7 @@ topic
 =
 addedTopic
 )
+{
 result
 +
 =
@@ -213,6 +216,7 @@ result
 add
 "
 ;
+}
 else
 if
 (
@@ -221,6 +225,7 @@ topic
 =
 removedTopic
 )
+{
 result
 +
 =
@@ -228,6 +233,7 @@ result
 remove
 "
 ;
+}
 }
 }
 ;

@@ -99,8 +99,10 @@ if
 !
 exists
 )
+{
 return
 ;
+}
 tmp1
 .
 normalize

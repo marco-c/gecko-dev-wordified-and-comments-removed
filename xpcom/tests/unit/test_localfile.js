@@ -240,6 +240,7 @@ exists
 (
 )
 )
+{
 file
 .
 remove
@@ -247,6 +248,7 @@ remove
 true
 )
 ;
+}
 var
 now
 =
@@ -442,6 +444,7 @@ exists
 (
 )
 )
+{
 dir
 .
 remove
@@ -449,6 +452,7 @@ remove
 true
 )
 ;
+}
 var
 now
 =
@@ -636,6 +640,7 @@ exists
 (
 )
 )
+{
 file
 .
 remove
@@ -643,6 +648,7 @@ remove
 true
 )
 ;
+}
 file
 .
 create

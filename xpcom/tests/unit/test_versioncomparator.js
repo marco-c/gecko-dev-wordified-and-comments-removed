@@ -31,7 +31,7 @@ pre
 "
 String
 (
-0x1F0000000
+0x1f0000000
 )
 "
 0
@@ -240,6 +240,7 @@ result
 =
 0
 )
+{
 do_throw
 (
 comparisons
@@ -258,6 +259,7 @@ itself
 )
 ;
 }
+}
 else
 if
 (
@@ -275,6 +277,7 @@ result
 0
 )
 )
+{
 do_throw
 (
 comparisons
@@ -295,6 +298,7 @@ j
 ]
 )
 ;
+}
 }
 else
 if
@@ -385,6 +389,7 @@ j
 =
 0
 )
+{
 do_throw
 (
 equality
@@ -403,6 +408,7 @@ j
 ]
 )
 ;
+}
 }
 }
 }

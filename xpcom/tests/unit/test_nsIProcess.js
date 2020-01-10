@@ -25,15 +25,13 @@ argument
 with
 spaces
 "
-"
-\
+'
 "
 argument
 with
 quotes
-\
 "
-"
+'
 ]
 ;
 const
@@ -362,6 +360,7 @@ if
 (
 argsAreASCII
 )
+{
 process
 .
 run
@@ -373,7 +372,9 @@ args
 length
 )
 ;
+}
 else
+{
 process
 .
 runw
@@ -385,6 +386,7 @@ args
 length
 )
 ;
+}
 Assert
 .
 equal

@@ -51,6 +51,7 @@ exists
 (
 )
 )
+{
 targetFile
 .
 create
@@ -63,6 +64,7 @@ NORMAL_FILE_TYPE
 0o644
 )
 ;
+}
 var
 link
 =
@@ -89,6 +91,7 @@ exists
 (
 )
 )
+{
 link
 .
 remove
@@ -96,6 +99,7 @@ remove
 false
 )
 ;
+}
 var
 ln
 =

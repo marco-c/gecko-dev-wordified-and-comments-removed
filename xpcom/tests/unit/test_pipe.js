@@ -108,6 +108,7 @@ Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
+{
 do_throw
 (
 "
@@ -123,6 +124,7 @@ NS_ERROR_NOT_INITIALIZED
 "
 )
 ;
+}
 }
 }
 function
