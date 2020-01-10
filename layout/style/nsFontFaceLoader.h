@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIFontLoadCompleteCallback
+.
+h
+"
+#
+include
+"
 nsIStreamLoader
 .
 h
@@ -93,6 +100,8 @@ public
 nsIStreamLoaderObserver
 public
 nsIRequestObserver
+public
+nsIFontLoadCompleteCallback
 {
 public
 :
@@ -172,6 +181,12 @@ return
 mUserFontEntry
 ;
 }
+NS_IMETHODIMP
+FontLoadComplete
+(
+)
+final
+;
 protected
 :
 virtual
