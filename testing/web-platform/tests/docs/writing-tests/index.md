@@ -94,6 +94,10 @@ features
 submission
 -
 process
+testdriver
+testdriver
+-
+tutorial
 testharness
 visual
 wdspec
