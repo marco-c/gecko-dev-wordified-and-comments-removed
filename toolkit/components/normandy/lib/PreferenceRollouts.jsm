@@ -198,13 +198,9 @@ rollouts
 "
 ;
 const
-DB_OPTIONS
+DB_VERSION
 =
-{
-version
-:
 1
-}
 ;
 function
 openDatabase
@@ -217,7 +213,7 @@ IndexedDB
 open
 (
 DB_NAME
-DB_OPTIONS
+DB_VERSION
 db
 =
 >

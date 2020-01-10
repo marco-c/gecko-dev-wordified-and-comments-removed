@@ -202,13 +202,9 @@ version
 "
 ;
 const
-DB_OPTIONS
+DB_VERSION
 =
-{
-version
-:
 2
-}
 ;
 const
 STUDY_ENDED_TOPIC
@@ -246,7 +242,7 @@ IndexedDB
 open
 (
 DB_NAME
-DB_OPTIONS
+DB_VERSION
 async
 (
 db
