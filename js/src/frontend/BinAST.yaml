@@ -938,15 +938,6 @@ Tokenizer
 Tok
 ;
 using
-BinASTFields
-=
-typename
-Tokenizer
-:
-:
-BinASTFields
-;
-using
 AutoList
 =
 typename
