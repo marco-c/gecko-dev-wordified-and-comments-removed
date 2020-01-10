@@ -67718,6 +67718,17 @@ SchemeIs
 chrome
 "
 )
+|
+|
+uri
+-
+>
+SchemeIs
+(
+"
+resource
+"
+)
 )
 {
 return
