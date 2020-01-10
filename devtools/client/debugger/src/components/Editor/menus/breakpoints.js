@@ -64,6 +64,26 @@ utils
 prefs
 "
 ;
+import
+{
+formatKeyShortcut
+}
+from
+"
+.
+.
+/
+.
+.
+/
+.
+.
+/
+utils
+/
+text
+"
+;
 export
 const
 addBreakpointItem
@@ -138,6 +158,8 @@ location
 )
 accelerator
 :
+formatKeyShortcut
+(
 L10N
 .
 getStr
@@ -147,6 +169,7 @@ toggleBreakpoint
 .
 key
 "
+)
 )
 }
 )
@@ -225,6 +248,8 @@ breakpoint
 )
 accelerator
 :
+formatKeyShortcut
+(
 L10N
 .
 getStr
@@ -234,6 +259,7 @@ toggleBreakpoint
 .
 key
 "
+)
 )
 }
 )
@@ -281,6 +307,8 @@ addConditionBreakpoint
 )
 accelerator
 :
+formatKeyShortcut
+(
 L10N
 .
 getStr
@@ -292,6 +320,7 @@ breakpoint
 .
 key
 "
+)
 )
 accesskey
 :
@@ -368,6 +397,8 @@ editConditionBreakpoint
 )
 accelerator
 :
+formatKeyShortcut
+(
 L10N
 .
 getStr
@@ -379,6 +410,7 @@ breakpoint
 .
 key
 "
+)
 )
 accesskey
 :
@@ -531,6 +563,8 @@ true
 )
 accelerator
 :
+formatKeyShortcut
+(
 L10N
 .
 getStr
@@ -542,6 +576,7 @@ logPoint
 .
 key
 "
+)
 )
 }
 )
@@ -619,6 +654,8 @@ true
 )
 accelerator
 :
+formatKeyShortcut
+(
 L10N
 .
 getStr
@@ -630,6 +667,7 @@ logPoint
 .
 key
 "
+)
 )
 }
 )
