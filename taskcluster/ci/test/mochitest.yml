@@ -86,6 +86,17 @@ geckoview
 androidTest
 .
 apk
+android
+-
+hw
+.
+*
+:
+geckoview
+-
+androidTest
+.
+apk
 default
 :
 null
