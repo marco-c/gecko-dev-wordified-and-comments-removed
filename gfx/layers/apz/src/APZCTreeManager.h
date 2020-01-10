@@ -1220,6 +1220,16 @@ aApzc2
 )
 const
 ;
+bool
+IsFixedToRootContent
+(
+const
+HitTestingTreeNode
+*
+aNode
+)
+const
+;
 already_AddRefed
 <
 AsyncPanZoomController
