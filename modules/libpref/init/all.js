@@ -38354,16 +38354,6 @@ false
 pref
 (
 "
-fission
-.
-sessionHistoryInParent
-"
-true
-)
-;
-pref
-(
-"
 toolkit
 .
 legacyUserProfileCustomizations
