@@ -18,6 +18,10 @@ extern
 crate
 semver
 ;
+extern
+crate
+ringbuf
+;
 mod
 capi
 ;
