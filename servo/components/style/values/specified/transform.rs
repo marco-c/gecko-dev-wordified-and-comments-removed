@@ -91,8 +91,8 @@ position
 :
 {
 Side
-X
-Y
+HorizontalPositionKeyword
+VerticalPositionKeyword
 }
 ;
 use
@@ -190,11 +190,11 @@ TransformOrigin
 <
 OriginComponent
 <
-X
+HorizontalPositionKeyword
 >
 OriginComponent
 <
-Y
+VerticalPositionKeyword
 >
 Length
 >
@@ -2162,7 +2162,7 @@ input
 .
 try
 (
-X
+HorizontalPositionKeyword
 :
 :
 parse
@@ -2330,7 +2330,7 @@ _
 let
 y_keyword
 =
-Y
+VerticalPositionKeyword
 :
 :
 parse
@@ -2361,7 +2361,7 @@ input
 .
 try
 (
-X
+HorizontalPositionKeyword
 :
 :
 parse

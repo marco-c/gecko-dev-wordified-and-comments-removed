@@ -945,8 +945,12 @@ aPresContext
 gfxContext
 &
 aContext
-nsStyleGradient
-*
+const
+mozilla
+:
+:
+StyleGradient
+&
 aGradient
 const
 nsRect
