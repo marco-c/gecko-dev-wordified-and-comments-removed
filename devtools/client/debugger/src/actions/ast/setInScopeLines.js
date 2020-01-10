@@ -173,7 +173,10 @@ parser
 )
 {
 const
+{
 source
+content
+}
 =
 getSourceWithContent
 (
@@ -242,16 +245,12 @@ const
 sourceNumLines
 =
 !
-source
-.
 content
 |
 |
 !
 isFulfilled
 (
-source
-.
 content
 )
 ?
@@ -259,8 +258,6 @@ content
 :
 getSourceLineCount
 (
-source
-.
 content
 .
 value

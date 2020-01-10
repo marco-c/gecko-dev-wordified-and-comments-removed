@@ -134,7 +134,7 @@ Frame
 selectedLocation
 :
 SourceLocation
-selectedSource
+selectedSourceWithContent
 :
 ?
 SourceWithContent
@@ -190,7 +190,7 @@ line
 function
 isDocumentReady
 (
-selectedSource
+selectedSourceWithContent
 :
 ?
 SourceWithContent
@@ -202,10 +202,10 @@ return
 selectedLocation
 &
 &
-selectedSource
+selectedSourceWithContent
 &
 &
-selectedSource
+selectedSourceWithContent
 .
 content
 &
@@ -251,7 +251,7 @@ Props
 const
 {
 selectedLocation
-selectedSource
+selectedSourceWithContent
 }
 =
 nextProps
@@ -262,7 +262,7 @@ this
 shouldSetHighlightLine
 (
 selectedLocation
-selectedSource
+selectedSourceWithContent
 )
 ;
 }
@@ -298,7 +298,7 @@ shouldSetHighlightLine
 selectedLocation
 :
 SourceLocation
-selectedSource
+selectedSourceWithContent
 :
 ?
 SourceWithContent
@@ -326,7 +326,7 @@ if
 !
 isDocumentReady
 (
-selectedSource
+selectedSourceWithContent
 selectedLocation
 )
 )
@@ -373,7 +373,7 @@ const
 pauseCommand
 selectedLocation
 selectedFrame
-selectedSource
+selectedSourceWithContent
 }
 =
 this
@@ -410,7 +410,7 @@ prevProps
 selectedLocation
 prevProps
 .
-selectedSource
+selectedSourceWithContent
 )
 ;
 }
@@ -420,7 +420,7 @@ setHighlightLine
 (
 selectedLocation
 selectedFrame
-selectedSource
+selectedSourceWithContent
 )
 ;
 endOperation
@@ -436,7 +436,7 @@ SourceLocation
 selectedFrame
 :
 Frame
-selectedSource
+selectedSourceWithContent
 :
 ?
 SourceWithContent
@@ -458,7 +458,7 @@ this
 shouldSetHighlightLine
 (
 selectedLocation
-selectedSource
+selectedSourceWithContent
 )
 )
 {
@@ -663,7 +663,7 @@ clearHighlightLine
 selectedLocation
 :
 SourceLocation
-selectedSource
+selectedSourceWithContent
 :
 ?
 SourceWithContent
@@ -674,7 +674,7 @@ if
 !
 isDocumentReady
 (
-selectedSource
+selectedSourceWithContent
 selectedLocation
 )
 )
@@ -763,7 +763,7 @@ getSelectedLocation
 (
 state
 )
-selectedSource
+selectedSourceWithContent
 :
 getSelectedSourceWithContent
 (

@@ -57,7 +57,9 @@ queue
 ;
 import
 {
-mockCommandClient
+sourceThreadFront
+as
+threadFront
 }
 from
 "
@@ -71,7 +73,9 @@ tests
 /
 helpers
 /
-mockCommandClient
+threadFront
+.
+js
 "
 ;
 describe
@@ -110,7 +114,7 @@ getState
 =
 createStore
 (
-mockCommandClient
+threadFront
 )
 ;
 await
@@ -259,7 +263,7 @@ getState
 =
 createStore
 (
-mockCommandClient
+threadFront
 )
 ;
 await
@@ -341,7 +345,7 @@ cx
 =
 createStore
 (
-mockCommandClient
+threadFront
 )
 ;
 const
@@ -456,7 +460,7 @@ getState
 =
 createStore
 (
-mockCommandClient
+threadFront
 {
 }
 {
@@ -592,7 +596,7 @@ dispatch
 =
 createStore
 (
-mockCommandClient
+threadFront
 {
 }
 {
@@ -671,7 +675,7 @@ getState
 =
 createStore
 (
-mockCommandClient
+threadFront
 {
 }
 {
@@ -812,7 +816,7 @@ dbg
 =
 createStore
 (
-mockCommandClient
+threadFront
 {
 }
 {
@@ -1117,7 +1121,7 @@ getState
 =
 createStore
 (
-mockCommandClient
+threadFront
 )
 ;
 await

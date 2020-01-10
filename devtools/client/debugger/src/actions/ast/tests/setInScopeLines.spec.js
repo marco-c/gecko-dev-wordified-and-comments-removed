@@ -92,7 +92,7 @@ js
 }
 ;
 const
-mockCommandClient
+threadFront
 =
 {
 sourceContents
@@ -140,7 +140,7 @@ async
 >
 {
 }
-getSourceActorBreakpointPositions
+getBreakpointPositions
 :
 async
 (
@@ -151,7 +151,7 @@ async
 {
 }
 )
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (
@@ -190,7 +190,7 @@ store
 =
 createStore
 (
-mockCommandClient
+threadFront
 )
 ;
 const

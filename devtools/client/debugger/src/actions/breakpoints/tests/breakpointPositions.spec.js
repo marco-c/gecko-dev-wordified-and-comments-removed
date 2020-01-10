@@ -40,7 +40,7 @@ tests
 /
 helpers
 /
-mockCommandClient
+threadFront
 "
 ;
 describe
@@ -83,7 +83,7 @@ store
 createStore
 (
 {
-getSourceActorBreakpointPositions
+getBreakpointPositions
 :
 async
 (
@@ -101,7 +101,7 @@ async
 ]
 }
 )
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (
@@ -342,7 +342,7 @@ store
 createStore
 (
 {
-getSourceActorBreakpointPositions
+getBreakpointPositions
 :
 (
 )
@@ -365,7 +365,7 @@ r
 ;
 }
 )
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (

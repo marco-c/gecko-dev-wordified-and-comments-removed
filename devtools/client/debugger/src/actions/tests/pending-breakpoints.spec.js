@@ -16,7 +16,7 @@ js
 ;
 import
 {
-mockCommandClient
+simpleMockThreadFront
 }
 from
 "
@@ -24,7 +24,9 @@ from
 /
 helpers
 /
-mockCommandClient
+threadFront
+.
+js
 "
 ;
 import
@@ -218,8 +220,8 @@ return
 .
 .
 .
-mockCommandClient
-getSourceActorBreakpointPositions
+simpleMockThreadFront
+getBreakpointPositions
 :
 async
 (
@@ -227,7 +229,7 @@ async
 =
 >
 bpPos
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (

@@ -373,7 +373,7 @@ store
 createStore
 (
 {
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (
@@ -553,7 +553,7 @@ cx
 createStore
 (
 {
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (
@@ -657,7 +657,7 @@ cx
 createStore
 (
 {
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (

@@ -685,7 +685,7 @@ viewport
 :
 ?
 Range
-selectedSource
+selectedSourceWithContent
 :
 ?
 SourceWithContent
@@ -698,7 +698,7 @@ positions
 |
 |
 !
-selectedSource
+selectedSourceWithContent
 )
 {
 return
@@ -706,6 +706,18 @@ return
 ]
 ;
 }
+const
+{
+source
+:
+selectedSource
+content
+:
+selectedContent
+}
+=
+selectedSourceWithContent
+;
 const
 breakpointMap
 =
@@ -738,9 +750,7 @@ filterInLine
 (
 positions
 selectedSource
-selectedSource
-.
-content
+selectedContent
 )
 ;
 positions

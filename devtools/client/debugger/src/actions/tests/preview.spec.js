@@ -134,7 +134,7 @@ javascript
 "
 }
 )
-getSourceActorBreakpointPositions
+getBreakpointPositions
 :
 async
 (
@@ -145,7 +145,7 @@ async
 {
 }
 )
-getSourceActorBreakableLines
+getBreakableLines
 :
 async
 (
