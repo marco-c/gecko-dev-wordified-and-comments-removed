@@ -782,17 +782,6 @@ listener
 )
 ;
 }
-viewContextChanged
-(
-)
-{
-this
-.
-cancelQuery
-(
-)
-;
-}
 keyEventMovesCaret
 (
 event
