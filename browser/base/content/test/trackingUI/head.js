@@ -239,9 +239,11 @@ ViewShown
 "
 )
 ;
-gProtectionsHandler
+gIdentityHandler
 .
-showProtectionsPopup
+_trackingProtectionIconContainer
+.
+click
 (
 )
 ;
