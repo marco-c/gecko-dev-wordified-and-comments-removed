@@ -15123,7 +15123,7 @@ trc
 DebugAPI
 :
 :
-traceIncomingCrossCompartmentEdges
+traceCrossCompartmentEdges
 (
 &
 trc

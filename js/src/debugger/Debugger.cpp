@@ -17902,7 +17902,7 @@ void
 DebugAPI
 :
 :
-traceIncomingCrossCompartmentEdges
+traceCrossCompartmentEdges
 (
 JSTracer
 *
