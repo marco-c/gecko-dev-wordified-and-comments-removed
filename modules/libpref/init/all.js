@@ -39695,7 +39695,7 @@ options
 .
 enabled
 "
-false
+true
 )
 ;
 pref
