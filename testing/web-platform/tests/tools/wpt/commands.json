@@ -51,6 +51,9 @@ install
 "
 requests
 "
+"
+zstandard
+"
 ]
 "
 requirements
