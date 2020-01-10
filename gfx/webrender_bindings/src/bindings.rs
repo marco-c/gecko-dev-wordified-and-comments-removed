@@ -5412,7 +5412,7 @@ extern
 C
 "
 fn
-wr_try_load_shader_from_disk
+wr_try_load_startup_shaders_from_disk
 (
 program_cache
 :
@@ -5426,7 +5426,7 @@ WrProgramCache
 program_cache
 )
 .
-try_load_from_disk
+try_load_startup_shaders_from_disk
 (
 )
 ;
