@@ -596,14 +596,6 @@ features
 ProfilerFeature
 :
 :
-ClearResponsiveness
-(
-features
-)
-;
-ProfilerFeature
-:
-:
 ClearScreenshots
 (
 features
@@ -685,11 +677,6 @@ ProfilerFeature
 :
 :
 Threads
-|
-ProfilerFeature
-:
-:
-Responsiveness
 ;
 }
 static
