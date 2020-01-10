@@ -7111,9 +7111,7 @@ nsCycleCollector_prepareForGarbageCollection
 (
 )
 ;
-mZonesWaitingForGC
-.
-Clear
+PrepareWaitingZonesForGC
 (
 )
 ;
