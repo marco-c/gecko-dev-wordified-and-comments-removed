@@ -656,17 +656,6 @@ Manager
 <
 !
 ENTITY
-goOfflineCmd
-.
-label
-"
-Work
-Offline
-"
->
-<
-!
-ENTITY
 menubarCmd
 .
 label
