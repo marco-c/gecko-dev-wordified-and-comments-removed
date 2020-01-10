@@ -15,6 +15,13 @@ h
 #
 include
 "
+BaseProfiler
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
@@ -445,6 +452,11 @@ DeleteExpiredStoredMarkers
 (
 )
 {
+AUTO_PROFILER_STATS
+(
+gecko_ProfileBuffer_DeleteExpiredStoredMarkers
+)
+;
 while
 (
 mStoredMarkers

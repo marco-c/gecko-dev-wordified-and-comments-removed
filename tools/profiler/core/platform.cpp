@@ -11979,6 +11979,11 @@ Update
 )
 ;
 }
+AUTO_PROFILER_STATS
+(
+gecko_SamplerThread_Run_DoPeriodicSample
+)
+;
 now
 =
 TimeStamp
@@ -18657,6 +18662,11 @@ IsBeingProfiled
 return
 ;
 }
+AUTO_PROFILER_STATS
+(
+gecko_racy_profiler_add_marker
+)
+;
 TimeStamp
 origin
 =
