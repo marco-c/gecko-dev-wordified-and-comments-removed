@@ -2119,7 +2119,7 @@ correct
 ;
 }
 function
-waitFor100ms
+waitFor100msAndIdle
 (
 )
 {
@@ -2132,7 +2132,16 @@ resolve
 >
 setTimeout
 (
+function
+(
+)
+{
+requestIdleCallback
+(
 resolve
+)
+;
+}
 100
 )
 )
@@ -2320,7 +2329,7 @@ the
 time
 .
 await
-waitFor100ms
+waitFor100msAndIdle
 (
 )
 ;
@@ -2411,7 +2420,7 @@ in
 100ms
 .
 await
-waitFor100ms
+waitFor100msAndIdle
 (
 )
 ;
