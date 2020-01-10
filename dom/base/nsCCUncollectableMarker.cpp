@@ -47,13 +47,6 @@ h
 #
 include
 "
-XULDocument
-.
-h
-"
-#
-include
-"
 InProcessBrowserChildMessageManager
 .
 h

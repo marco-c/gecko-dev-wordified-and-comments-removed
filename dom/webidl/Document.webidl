@@ -338,6 +338,9 @@ nsILoadGroup
 interface
 nsIReferrerInfo
 ;
+interface
+XULCommandDispatcher
+;
 enum
 VisibilityState
 {

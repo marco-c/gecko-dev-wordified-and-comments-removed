@@ -295,13 +295,6 @@ h
 #
 include
 "
-XULDocument
-.
-h
-"
-#
-include
-"
 nsXULPopupListener
 .
 h
@@ -542,6 +535,13 @@ h
 include
 "
 XULTreeElement
+.
+h
+"
+#
+include
+"
+nsXULPrototypeCache
 .
 h
 "

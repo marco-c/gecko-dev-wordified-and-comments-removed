@@ -250,13 +250,6 @@ nsContentTypeParser
 .
 h
 "
-#
-include
-"
-XULDocument
-.
-h
-"
 static
 mozilla
 :

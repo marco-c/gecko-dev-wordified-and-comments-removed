@@ -344,10 +344,6 @@ Document
 /
 /
 ^
-XULDocument
-/
-/
-^
 XULElement
 /
 /

@@ -28,6 +28,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsIXULWindow
+.
+h
+"
 namespace
 mozilla
 {

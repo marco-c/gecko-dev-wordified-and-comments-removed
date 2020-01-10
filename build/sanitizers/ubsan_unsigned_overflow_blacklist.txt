@@ -773,17 +773,6 @@ src
 :
 *
 /
-dom
-/
-xul
-/
-XULDocument
-.
-cpp
-src
-:
-*
-/
 nsCharTraits
 .
 h

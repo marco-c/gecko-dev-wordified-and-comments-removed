@@ -227,7 +227,6 @@ object
 preview
 &
 &
-(
 type
 =
 =
@@ -235,16 +234,6 @@ type
 "
 HTMLDocument
 "
-|
-|
-type
-=
-=
-=
-"
-XULDocument
-"
-)
 ;
 }
 module

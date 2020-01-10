@@ -685,15 +685,6 @@ doc
 AllowXULXBL
 (
 )
-&
-&
-!
-doc
--
->
-IsXULDocument
-(
-)
 )
 {
 nsNodeInfoManager
