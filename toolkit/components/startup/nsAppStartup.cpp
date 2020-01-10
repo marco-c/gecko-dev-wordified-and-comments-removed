@@ -1230,6 +1230,11 @@ return
 rv
 ;
 }
+Quit
+(
+eForceQuit
+)
+;
 nsresult
 retval
 =
