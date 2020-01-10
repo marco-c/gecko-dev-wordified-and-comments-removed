@@ -2385,11 +2385,6 @@ container
 class
 =
 "
-toolbaritem
--
-combined
--
-buttons
 sync
 -
 ui
