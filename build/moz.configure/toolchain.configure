@@ -16786,15 +16786,6 @@ lambda
 '
 '
 )
-.
-decode
-(
-'
-utf
--
-8
-'
-)
 :
 return
 True
