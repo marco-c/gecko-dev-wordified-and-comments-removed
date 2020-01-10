@@ -2951,6 +2951,10 @@ changed
 rebuilding
 "
 )
+            
+rebuild
+=
+True
         
 if
 manifest
@@ -2980,6 +2984,10 @@ match
 rebuilding
 "
 )
+            
+rebuild
+=
+True
     
 if
 manifest
