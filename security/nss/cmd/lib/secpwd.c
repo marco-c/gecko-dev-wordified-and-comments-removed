@@ -265,7 +265,7 @@ endif
 char
 phrase
 [
-500
+200
 ]
 =
 {
