@@ -17751,7 +17751,14 @@ serviceWorkers
 .
 parent_intercept
 '
-False
+mozinfo
+.
+info
+[
+'
+nightly_build
+'
+]
 )
             
 "

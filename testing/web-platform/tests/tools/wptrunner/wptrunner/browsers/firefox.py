@@ -1093,7 +1093,7 @@ kwargs
 :
     
 def
-get_bool_pref
+get_bool_pref_if_exists
 (
 pref
 )
@@ -1139,6 +1139,30 @@ true
 )
         
 return
+None
+    
+def
+get_bool_pref
+(
+pref
+)
+:
+        
+pref_value
+=
+get_bool_pref_if_exists
+(
+pref
+)
+        
+return
+pref_value
+if
+pref_value
+is
+not
+None
+else
 False
     
 rv
@@ -1214,14 +1238,11 @@ fission
 autostart
 "
 )
-          
-"
-sw
--
-e10s
-"
-:
-get_bool_pref
+}
+    
+sw_e10s_override
+=
+get_bool_pref_if_exists
 (
 "
 dom
@@ -1231,7 +1252,24 @@ serviceWorkers
 parent_intercept
 "
 )
-}
+    
+if
+sw_e10s_override
+is
+not
+None
+:
+        
+rv
+[
+"
+sw
+-
+e10s
+"
+]
+=
+sw_e10s_override
     
 rv
 .
