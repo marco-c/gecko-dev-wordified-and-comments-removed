@@ -1178,11 +1178,6 @@ StyleSheets
 "
 Content
 :
-LoadURIResult
-"
-"
-Content
-:
 SecurityChange
 "
 "

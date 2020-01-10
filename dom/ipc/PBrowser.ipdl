@@ -3809,6 +3809,11 @@ aEvent
 )
 ;
 async
+NavigationFinished
+(
+)
+;
+async
 SessionStoreUpdate
 (
 nsCString
