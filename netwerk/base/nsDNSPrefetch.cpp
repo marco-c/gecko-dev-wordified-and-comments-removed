@@ -190,8 +190,6 @@ mHostname
 ;
 mIsHttps
 =
-false
-;
 aURI
 -
 >
@@ -200,8 +198,6 @@ SchemeIs
 "
 https
 "
-&
-mIsHttps
 )
 ;
 }

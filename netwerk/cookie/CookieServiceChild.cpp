@@ -1823,9 +1823,6 @@ nsAutoCString
 hostFromURI
 pathFromURI
 ;
-bool
-isSecure
-;
 aHostURI
 -
 >
@@ -1842,6 +1839,9 @@ GetPathQueryRef
 pathFromURI
 )
 ;
+bool
+isSecure
+=
 aHostURI
 -
 >
@@ -1850,8 +1850,6 @@ SchemeIs
 "
 https
 "
-&
-isSecure
 )
 ;
 int64_t
