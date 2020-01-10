@@ -650,6 +650,16 @@ waitForPageStop
 (
 )
 }
+Ignore
+/
+/
+Disable
+test
+for
+frequent
+failures
+Bug
+1532186
 Test
 (
 expected
