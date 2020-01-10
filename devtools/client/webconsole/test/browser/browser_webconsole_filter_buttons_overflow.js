@@ -180,7 +180,7 @@ sidebar
 ;
 resizeWindow
 (
-800
+750
 win
 )
 ;
