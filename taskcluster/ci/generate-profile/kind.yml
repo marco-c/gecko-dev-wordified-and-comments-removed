@@ -106,14 +106,6 @@ taskgraph
 .
 transforms
 .
-use_toolchains
-:
-transforms
--
-taskgraph
-.
-transforms
-.
 job
 :
 transforms
@@ -872,7 +864,9 @@ android
 android_pgo
 .
 py
-toolchains
+fetches
+:
+toolchain
 :
 -
 linux64

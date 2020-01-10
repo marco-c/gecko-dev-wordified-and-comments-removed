@@ -94,14 +94,6 @@ taskgraph
 .
 transforms
 .
-use_toolchains
-:
-transforms
--
-taskgraph
-.
-transforms
-.
 job
 :
 transforms
@@ -264,7 +256,9 @@ need
 xvfb
 :
 true
-toolchains
+fetches
+:
+toolchain
 :
 -
 linux64

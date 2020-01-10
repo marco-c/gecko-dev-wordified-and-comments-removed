@@ -85,14 +85,6 @@ taskgraph
 .
 transforms
 .
-use_toolchains
-:
-transforms
--
-taskgraph
-.
-transforms
-.
 job
 :
 transforms
@@ -441,7 +433,9 @@ api
 nightly
 :
 true
-toolchains
+fetches
+:
+toolchain
 :
 by
 -

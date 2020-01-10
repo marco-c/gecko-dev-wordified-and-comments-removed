@@ -94,14 +94,6 @@ taskgraph
 .
 transforms
 .
-use_toolchains
-:
-transforms
--
-taskgraph
-.
-transforms
-.
 job
 :
 transforms
@@ -281,7 +273,9 @@ build
 linux64
 /
 opt
-toolchains
+fetches
+:
+toolchain
 :
 -
 linux64

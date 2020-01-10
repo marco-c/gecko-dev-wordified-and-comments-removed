@@ -200,7 +200,9 @@ mozconfig
 variant
 :
 mingwclang
-toolchains
+fetches
+:
+toolchain
 :
 -
 mingw32
@@ -341,7 +343,9 @@ variant
 mingwclang
 -
 debug
-toolchains
+fetches
+:
+toolchain
 :
 -
 mingw32
@@ -480,7 +484,9 @@ mozconfig
 variant
 :
 mingwclang
-toolchains
+fetches
+:
+toolchain
 :
 -
 mingw32
@@ -621,7 +627,9 @@ variant
 mingwclang
 -
 debug
-toolchains
+fetches
+:
+toolchain
 :
 -
 mingw32

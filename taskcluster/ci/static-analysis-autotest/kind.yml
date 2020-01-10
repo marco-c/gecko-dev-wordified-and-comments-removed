@@ -94,14 +94,6 @@ taskgraph
 .
 transforms
 .
-use_toolchains
-:
-transforms
--
-taskgraph
-.
-transforms
-.
 job
 :
 transforms
@@ -322,7 +314,9 @@ keep
 artifacts
 :
 false
-toolchains
+fetches
+:
+toolchain
 :
 -
 linux64
@@ -465,7 +459,9 @@ config
 mozconfig_variant
 :
 debug
-toolchains
+fetches
+:
+toolchain
 :
 -
 win64
