@@ -2266,7 +2266,7 @@ new
 ErrorStatus
 :
 :
-UnknownError
+InvalidArgument
 "
 Profile
 is
@@ -2407,7 +2407,7 @@ new
 ErrorStatus
 :
 :
-UnknownError
+InvalidArgument
 "
 Arguments
 were
@@ -2480,7 +2480,7 @@ new
 ErrorStatus
 :
 :
-UnknownError
+InvalidArgument
 "
 Arguments
 entries
@@ -2752,7 +2752,7 @@ new
 ErrorStatus
 :
 :
-UnknownError
+InvalidArgument
 "
 Prefs
 were
