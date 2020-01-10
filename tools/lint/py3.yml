@@ -52,6 +52,12 @@ reftests
 layout
 /
 style
+/
+ServoCSSPropList
+.
+mako
+.
+py
 -
 layout
 /
