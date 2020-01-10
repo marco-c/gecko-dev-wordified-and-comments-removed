@@ -629,6 +629,13 @@ h
 '
 public
 /
+leb128iterator
+.
+h
+'
+'
+public
+/
 PowerOfTwo
 .
 h
