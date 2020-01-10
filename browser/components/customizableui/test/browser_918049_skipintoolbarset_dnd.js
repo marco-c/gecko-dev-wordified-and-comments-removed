@@ -198,6 +198,12 @@ button
 "
 )
 ;
+await
+waitForElementShown
+(
+skippedItem
+)
+;
 simulateItemDrag
 (
 libraryButton
