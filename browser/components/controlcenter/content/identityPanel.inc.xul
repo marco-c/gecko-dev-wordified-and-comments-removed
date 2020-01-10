@@ -4539,7 +4539,7 @@ oncommand
 "
 ContentBlocking
 .
-submitBreakageReport
+onSubmitBreakageReportClicked
 (
 )
 ;
