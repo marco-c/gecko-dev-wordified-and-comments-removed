@@ -21,6 +21,7 @@ binemit
 Addend
 CodeInfo
 CodeOffset
+NullStackmapSink
 NullTrapSink
 Reloc
 RelocSink
@@ -876,6 +877,14 @@ NullTrapSink
 {
 }
 ;
+let
+mut
+stackmap_sink
+=
+NullStackmapSink
+{
+}
+;
 unsafe
 {
 let
@@ -909,6 +918,9 @@ emit_env
 &
 mut
 trap_sink
+&
+mut
+stackmap_sink
 )
 }
 ;
