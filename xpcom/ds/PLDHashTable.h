@@ -1410,14 +1410,6 @@ mEntrySize
 (
 0
 )
-#
-ifdef
-DEBUG
-mChecker
-(
-)
-#
-endif
 {
 *
 this
