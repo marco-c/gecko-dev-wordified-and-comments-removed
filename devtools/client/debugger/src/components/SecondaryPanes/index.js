@@ -2278,11 +2278,6 @@ initialSize
 "
 300px
 "
-minSize
-=
-{
-10
-}
 maxSize
 =
 "
