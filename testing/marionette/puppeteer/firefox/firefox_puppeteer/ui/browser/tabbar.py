@@ -171,7 +171,7 @@ find_element
 (
 By
 .
-CLASS_NAME
+ID
 '
 tabs
 -
