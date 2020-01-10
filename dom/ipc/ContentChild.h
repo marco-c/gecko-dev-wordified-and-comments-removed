@@ -3449,6 +3449,10 @@ const
 uint32_t
 &
 aRedirectMode
+CrossProcessRedirectResolver
+&
+&
+aResolve
 )
 ;
 mozilla
