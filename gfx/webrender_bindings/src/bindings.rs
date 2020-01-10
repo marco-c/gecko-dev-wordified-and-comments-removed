@@ -2814,7 +2814,7 @@ is_in_main_thread
 bool
 ;
 fn
-is_glcontext_egl
+is_glcontext_gles
 (
 glcontext_ptr
 :
@@ -5617,7 +5617,7 @@ gl
 if
 unsafe
 {
-is_glcontext_egl
+is_glcontext_gles
 (
 gl_context
 )
@@ -6013,7 +6013,7 @@ gl
 if
 unsafe
 {
-is_glcontext_egl
+is_glcontext_gles
 (
 gl_context
 )
