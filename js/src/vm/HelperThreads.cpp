@@ -8958,6 +8958,12 @@ runTask
 (
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 TimeStamp
 timeStart
 =
