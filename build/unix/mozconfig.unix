@@ -199,12 +199,10 @@ USE_ARTIFACT
 ]
 ;
 then
-ac_add_options
--
--
-enable
--
-lto
+export
+MOZ_LTO
+=
+1
 fi
 export
 LLVM_PROFDATA
