@@ -500,6 +500,7 @@ com
 "
 )
 ;
+var
 httpChan
 =
 chan
