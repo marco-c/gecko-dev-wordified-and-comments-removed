@@ -469,6 +469,10 @@ URIParams
 &
 topWindowUri
 const
+PrincipalInfo
+&
+aContentBlockingAllowListPrincipal
+const
 uint32_t
 &
 loadFlags
