@@ -1682,10 +1682,6 @@ friend
 class
 HuffmanPreludeReader
 ;
-JSContext
-*
-cx_
-;
 public
 :
 class
