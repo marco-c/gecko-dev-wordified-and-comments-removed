@@ -20,17 +20,6 @@ mozilla
 /
 dom
 /
-DOMPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ServiceWorkerBinding
 .
 h

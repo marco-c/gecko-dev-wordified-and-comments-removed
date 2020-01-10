@@ -54,17 +54,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-DOMPrefs
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

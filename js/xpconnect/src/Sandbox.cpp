@@ -250,17 +250,6 @@ mozilla
 /
 dom
 /
-DOMPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ElementBinding
 .
 h
@@ -753,7 +742,7 @@ vp
 if
 (
 !
-DOMPrefs
+nsJSUtils
 :
 :
 DumpEnabled

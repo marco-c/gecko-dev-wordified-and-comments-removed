@@ -70,17 +70,6 @@ mozilla
 /
 dom
 /
-DOMPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 PushSubscriptionBinding
 .
 h

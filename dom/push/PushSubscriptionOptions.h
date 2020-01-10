@@ -25,17 +25,6 @@ nsWrapperCache
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-DOMPrefs
-.
-h
-"
 class
 nsIGlobalObject
 ;

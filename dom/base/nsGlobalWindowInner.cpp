@@ -101,17 +101,6 @@ mozilla
 /
 dom
 /
-DOMPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 EventTarget
 .
 h
@@ -15566,7 +15555,7 @@ aStr
 if
 (
 !
-DOMPrefs
+nsJSUtils
 :
 :
 DumpEnabled

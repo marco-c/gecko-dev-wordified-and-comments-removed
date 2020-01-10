@@ -12,17 +12,6 @@ mozilla
 /
 dom
 /
-DOMPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 OffscreenCanvasBinding
 .
 h

@@ -742,6 +742,12 @@ ResetTimeZone
 (
 )
 ;
+static
+bool
+DumpEnabled
+(
+)
+;
 }
 ;
 template

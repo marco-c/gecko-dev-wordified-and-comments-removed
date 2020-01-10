@@ -939,11 +939,6 @@ DOMPoint
 h
 '
 '
-DOMPrefs
-.
-h
-'
-'
 DOMQuad
 .
 h
@@ -1507,11 +1502,6 @@ cpp
 '
 '
 DOMPoint
-.
-cpp
-'
-'
-DOMPrefs
 .
 cpp
 '

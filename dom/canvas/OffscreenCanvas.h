@@ -25,17 +25,6 @@ include
 "
 mozilla
 /
-dom
-/
-DOMPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 LayersTypes
