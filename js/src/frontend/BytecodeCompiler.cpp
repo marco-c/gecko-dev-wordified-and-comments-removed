@@ -4404,11 +4404,6 @@ compartment
 lazy
 -
 >
-functionNonDelazifying
-(
-)
--
->
 compartment
 (
 )
@@ -4452,7 +4447,7 @@ cx
 lazy
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -5051,11 +5046,6 @@ compartment
 lazy
 -
 >
-functionNonDelazifying
-(
-)
--
->
 compartment
 (
 )
@@ -5098,7 +5088,7 @@ cx
 lazy
 -
 >
-functionNonDelazifying
+function
 (
 )
 )

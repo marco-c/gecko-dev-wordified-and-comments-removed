@@ -6922,7 +6922,7 @@ fun
 lazy
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -21578,7 +21578,7 @@ cx
 lazy
 -
 >
-functionNonDelazifying
+function
 (
 )
 )

@@ -566,7 +566,7 @@ fun
 enclosingLazyScript
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
