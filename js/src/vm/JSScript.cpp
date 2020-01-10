@@ -5771,7 +5771,7 @@ fun
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -18516,7 +18516,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 &

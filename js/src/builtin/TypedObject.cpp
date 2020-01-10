@@ -14190,7 +14190,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -14277,7 +14277,7 @@ if
 cx
 -
 >
-helperThread
+isHelperThreadContext
 (
 )
 )
