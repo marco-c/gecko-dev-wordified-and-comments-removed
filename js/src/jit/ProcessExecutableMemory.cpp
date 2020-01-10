@@ -1401,6 +1401,15 @@ failed
 }
 #
 else
+#
+ifndef
+MAP_NORESERVE
+#
+define
+MAP_NORESERVE
+0
+#
+endif
 static
 void
 *
