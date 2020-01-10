@@ -518,9 +518,6 @@ bos
 writeByteArray
 (
 body
-body
-.
-length
 )
 ;
 response

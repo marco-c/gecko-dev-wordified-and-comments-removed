@@ -707,9 +707,6 @@ bos
 writeByteArray
 (
 body
-body
-.
-length
 )
 ;
 }
