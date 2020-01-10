@@ -4613,6 +4613,13 @@ BlockIndentedWith
 aBlockIndentedWith
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+SplitRangeOffFromNodeResult
+OutdentAroundSelection
+(
+)
+;
 protected
 :
 virtual

@@ -628,13 +628,6 @@ AfterEditInner
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-SplitRangeOffFromNodeResult
-OutdentAroundSelection
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 GetParagraphFormatNodes
 (
