@@ -70,3 +70,9 @@ TestTheManager
 PRIVATE
 TestTheService
 PRIVATE
+TestCreateVRWindow
+PRIVATE
+CreateVRWindow
+PRIVATE
+CloseVRWindow
+PRIVATE
