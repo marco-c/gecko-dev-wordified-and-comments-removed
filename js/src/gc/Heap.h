@@ -821,7 +821,7 @@ zone
 MemCheckKind
 :
 :
-MakeUndefined
+MakeNoAccess
 )
 ;
 allocKind
