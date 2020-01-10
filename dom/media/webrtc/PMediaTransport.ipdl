@@ -407,6 +407,8 @@ id
 ?
 nsCString
 alpn
+int
+proxyPolicy
 )
 ;
 async

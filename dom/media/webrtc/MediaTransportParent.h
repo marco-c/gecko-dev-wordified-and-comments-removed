@@ -152,6 +152,10 @@ const
 nsCString
 &
 alpn
+const
+int
+&
+proxyPolicy
 )
 ;
 mozilla

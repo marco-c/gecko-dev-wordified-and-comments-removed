@@ -966,6 +966,11 @@ aProxyConfig
 GetAlpn
 (
 )
+aProxyConfig
+.
+GetProxyPolicy
+(
+)
 )
 ;
 }

@@ -297,6 +297,12 @@ GetTabId
 (
 )
 )
+aConfig
+-
+>
+GetProxyPolicy
+(
+)
 )
 ;
 }

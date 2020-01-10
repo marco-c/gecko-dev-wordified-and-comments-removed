@@ -167,6 +167,10 @@ net
 LoadInfoArgs
 (
 )
+NrSocketProxyConfig
+:
+:
+kForceProxy
 )
 )
 ;
