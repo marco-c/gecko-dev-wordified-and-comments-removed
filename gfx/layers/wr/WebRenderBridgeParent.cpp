@@ -10729,7 +10729,7 @@ RecvScheduleComposite
 (
 )
 {
-ScheduleGenerateFrameAllRenderRoots
+ScheduleForcedGenerateFrame
 (
 )
 ;
