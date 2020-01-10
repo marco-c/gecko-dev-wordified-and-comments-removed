@@ -2699,6 +2699,10 @@ bool
 aIsShuttingDown
 =
 false
+bool
+aOnlyThreads
+=
+false
 )
 ;
 MFBT_API
@@ -2714,6 +2718,10 @@ aSinceTime
 0
 bool
 aIsShuttingDown
+=
+false
+bool
+aOnlyThreads
 =
 false
 )
