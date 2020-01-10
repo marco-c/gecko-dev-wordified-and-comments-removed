@@ -1637,8 +1637,8 @@ nsString
 aPresentationURL
 nsString
 aRemoteType
-BrowsingContext
-aBrowsingContext
+WindowGlobalInit
+aWindowInit
 uint32_t
 aChromeFlags
 TabId

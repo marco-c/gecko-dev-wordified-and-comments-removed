@@ -323,6 +323,11 @@ nsGlobalWindowInner
 aWindow
 )
 ;
+void
+Init
+(
+)
+;
 nsISupports
 *
 GetParentObject
