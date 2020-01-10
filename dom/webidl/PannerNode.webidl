@@ -264,9 +264,6 @@ context
 optional
 PannerOptions
 options
-=
-{
-}
 )
 ]
 interface

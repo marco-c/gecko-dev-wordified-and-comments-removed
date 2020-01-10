@@ -266,9 +266,6 @@ name
 optional
 IDBOpenDBOptions
 options
-=
-{
-}
 )
 ;
 [
@@ -283,9 +280,6 @@ name
 optional
 IDBOpenDBOptions
 options
-=
-{
-}
 )
 ;
 [
@@ -336,9 +330,6 @@ name
 optional
 IDBOpenDBOptions
 options
-=
-{
-}
 )
 ;
 [
@@ -356,9 +347,6 @@ name
 optional
 IDBOpenDBOptions
 options
-=
-{
-}
 )
 ;
 }

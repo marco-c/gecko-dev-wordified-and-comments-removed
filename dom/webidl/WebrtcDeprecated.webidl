@@ -166,9 +166,6 @@ Constructor
 optional
 RTCIceCandidateInit
 candidateInitDict
-=
-{
-}
 )
 ]
 interface
@@ -211,9 +208,6 @@ Constructor
 optional
 RTCConfiguration
 configuration
-=
-{
-}
 optional
 object
 ?
@@ -260,9 +254,6 @@ Constructor
 optional
 RTCSessionDescriptionInit
 descriptionInitDict
-=
-{
-}
 )
 ]
 interface

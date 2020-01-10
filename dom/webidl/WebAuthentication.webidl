@@ -361,8 +361,7 @@ should
 this
 "
 =
-{
-}
+null
 "
 be
 here
@@ -370,8 +369,7 @@ here
 AuthenticatorSelectionCriteria
 authenticatorSelection
 =
-{
-}
+null
 ;
 AttestationConveyancePreference
 attestation
@@ -391,8 +389,7 @@ should
 this
 "
 =
-{
-}
+null
 "
 be
 here
@@ -400,8 +397,7 @@ here
 AuthenticationExtensionsClientInputs
 extensions
 =
-{
-}
+null
 ;
 }
 ;
@@ -554,8 +550,7 @@ should
 this
 "
 =
-{
-}
+null
 "
 be
 here
@@ -563,8 +558,7 @@ here
 AuthenticationExtensionsClientInputs
 extensions
 =
-{
-}
+null
 ;
 }
 ;
@@ -824,8 +818,7 @@ should
 this
 "
 =
-{
-}
+null
 "
 be
 here
@@ -833,8 +826,7 @@ here
 AuthenticationExtensionsClientInputs
 clientExtensions
 =
-{
-}
+null
 ;
 AuthenticationExtensionsAuthenticatorInputs
 authenticatorExtensions

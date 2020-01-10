@@ -163,9 +163,6 @@ type
 optional
 SpeechRecognitionErrorInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

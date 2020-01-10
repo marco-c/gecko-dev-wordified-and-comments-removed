@@ -118,9 +118,6 @@ type
 optional
 DeviceOrientationEventInit
 eventInitDict
-=
-{
-}
 )
 LegacyEventInit
 ]

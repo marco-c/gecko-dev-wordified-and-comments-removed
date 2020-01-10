@@ -171,9 +171,6 @@ context
 optional
 ChannelSplitterOptions
 options
-=
-{
-}
 )
 ]
 interface

@@ -208,9 +208,6 @@ scriptURL
 optional
 RegistrationOptions
 options
-=
-{
-}
 )
 ;
 [

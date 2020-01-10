@@ -221,9 +221,6 @@ context
 optional
 BiquadFilterOptions
 options
-=
-{
-}
 )
 ]
 interface

@@ -224,9 +224,6 @@ createOffer
 optional
 RTCOfferOptions
 options
-=
-{
-}
 )
 ;
 [

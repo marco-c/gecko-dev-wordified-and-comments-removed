@@ -118,9 +118,6 @@ type
 optional
 DeviceLightEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

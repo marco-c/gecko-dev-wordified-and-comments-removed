@@ -175,9 +175,6 @@ type
 optional
 TransitionEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

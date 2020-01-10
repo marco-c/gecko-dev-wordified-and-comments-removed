@@ -779,14 +779,12 @@ actor
 WindowActorSidedOptions
 parent
 =
-{
-}
+null
 ;
 WindowActorChildOptions
 child
 =
-{
-}
+null
 ;
 }
 ;

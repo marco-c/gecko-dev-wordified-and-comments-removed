@@ -160,9 +160,6 @@ utf
 optional
 TextDecoderOptions
 options
-=
-{
-}
 )
 Exposed
 =
@@ -210,9 +207,6 @@ input
 optional
 TextDecodeOptions
 options
-=
-{
-}
 )
 ;
 }

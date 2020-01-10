@@ -161,9 +161,6 @@ blobParts
 optional
 BlobPropertyBag
 options
-=
-{
-}
 )
 Exposed
 =

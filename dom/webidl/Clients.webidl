@@ -168,9 +168,6 @@ matchAll
 optional
 ClientQueryOptions
 options
-=
-{
-}
 )
 ;
 [

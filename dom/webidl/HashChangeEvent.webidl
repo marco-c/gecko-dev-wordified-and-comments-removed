@@ -99,9 +99,6 @@ type
 optional
 HashChangeEventInit
 eventInitDict
-=
-{
-}
 )
 LegacyEventInit
 ]

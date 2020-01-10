@@ -163,9 +163,6 @@ typeArg
 optional
 FocusEventInit
 focusEventInitDict
-=
-{
-}
 )
 ]
 interface

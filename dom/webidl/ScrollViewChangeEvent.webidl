@@ -124,9 +124,6 @@ type
 optional
 ScrollViewChangeEventInit
 eventInit
-=
-{
-}
 )
 ChromeOnly
 ]

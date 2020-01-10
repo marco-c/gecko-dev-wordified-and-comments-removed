@@ -192,9 +192,6 @@ context
 optional
 WaveShaperOptions
 options
-=
-{
-}
 )
 ]
 interface

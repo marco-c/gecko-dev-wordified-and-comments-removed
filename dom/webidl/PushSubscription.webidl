@@ -157,8 +157,7 @@ should
 this
 "
 =
-{
-}
+null
 "
 be
 here
@@ -191,8 +190,7 @@ there
 PushSubscriptionKeys
 keys
 =
-{
-}
+null
 ;
 }
 ;

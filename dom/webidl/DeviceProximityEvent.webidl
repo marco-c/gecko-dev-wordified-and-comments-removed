@@ -118,9 +118,6 @@ type
 optional
 DeviceProximityEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

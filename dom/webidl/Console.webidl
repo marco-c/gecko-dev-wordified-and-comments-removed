@@ -542,9 +542,6 @@ createInstance
 optional
 ConsoleInstanceOptions
 options
-=
-{
-}
 )
 ;
 }

@@ -175,9 +175,6 @@ context
 optional
 DelayOptions
 options
-=
-{
-}
 )
 ]
 interface

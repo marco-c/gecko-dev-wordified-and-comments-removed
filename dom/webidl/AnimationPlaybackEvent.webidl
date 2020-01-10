@@ -157,9 +157,6 @@ type
 optional
 AnimationPlaybackEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

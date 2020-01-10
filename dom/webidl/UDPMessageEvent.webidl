@@ -150,9 +150,6 @@ type
 optional
 UDPMessageEventInit
 eventInitDict
-=
-{
-}
 )
 Pref
 =

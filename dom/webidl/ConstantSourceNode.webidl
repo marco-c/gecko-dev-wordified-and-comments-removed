@@ -168,9 +168,6 @@ context
 optional
 ConstantSourceOptions
 options
-=
-{
-}
 )
 ]
 interface

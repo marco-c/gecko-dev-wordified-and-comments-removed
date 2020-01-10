@@ -141,9 +141,6 @@ type
 optional
 CompositionEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

@@ -121,9 +121,6 @@ type
 optional
 SpeechRecognitionEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

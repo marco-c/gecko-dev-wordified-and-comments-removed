@@ -269,9 +269,6 @@ Constructor
 optional
 MozXMLHttpRequestParameters
 params
-=
-{
-}
 )
 /
 /
@@ -639,9 +636,6 @@ setOriginAttributes
 optional
 OriginAttributesDictionary
 originAttributes
-=
-{
-}
 )
 ;
 [

@@ -185,9 +185,6 @@ Constructor
 optional
 UDPOptions
 options
-=
-{
-}
 )
 Pref
 =

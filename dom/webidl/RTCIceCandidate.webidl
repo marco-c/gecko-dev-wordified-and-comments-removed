@@ -184,9 +184,6 @@ Constructor
 optional
 RTCIceCandidateInit
 candidateInitDict
-=
-{
-}
 )
 ]
 interface

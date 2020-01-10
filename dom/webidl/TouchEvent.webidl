@@ -133,9 +133,6 @@ type
 optional
 TouchEventInit
 eventInitDict
-=
-{
-}
 )
 Func
 =

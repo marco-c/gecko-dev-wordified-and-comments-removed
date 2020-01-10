@@ -236,9 +236,6 @@ message
 optional
 PostMessageOptions
 options
-=
-{
-}
 )
 ;
 }

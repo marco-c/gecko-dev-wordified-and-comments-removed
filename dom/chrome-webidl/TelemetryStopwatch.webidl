@@ -252,9 +252,6 @@ null
 optional
 TelemetryStopwatchOptions
 options
-=
-{
-}
 )
 ;
 /
@@ -1030,9 +1027,6 @@ null
 optional
 TelemetryStopwatchOptions
 options
-=
-{
-}
 )
 ;
 /

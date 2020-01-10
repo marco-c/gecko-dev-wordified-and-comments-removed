@@ -187,9 +187,6 @@ context
 optional
 PeriodicWaveOptions
 options
-=
-{
-}
 )
 ]
 interface

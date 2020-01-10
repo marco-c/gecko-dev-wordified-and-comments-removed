@@ -94,9 +94,6 @@ functionConstructor
 optional
 ElementDefinitionOptions
 options
-=
-{
-}
 )
 ;
 [

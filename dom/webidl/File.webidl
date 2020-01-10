@@ -145,9 +145,6 @@ fileName
 optional
 FilePropertyBag
 options
-=
-{
-}
 )
 Exposed
 =
@@ -348,9 +345,6 @@ file
 optional
 ChromeFilePropertyBag
 options
-=
-{
-}
 )
 ;
 [
@@ -370,9 +364,6 @@ fileName
 optional
 ChromeFilePropertyBag
 options
-=
-{
-}
 )
 ;
 }

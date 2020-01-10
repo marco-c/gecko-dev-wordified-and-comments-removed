@@ -99,9 +99,6 @@ type
 optional
 BlobEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

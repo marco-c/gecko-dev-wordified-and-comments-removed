@@ -335,9 +335,6 @@ setParameters
 optional
 RTCRtpParameters
 parameters
-=
-{
-}
 )
 ;
 RTCRtpParameters

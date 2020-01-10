@@ -196,9 +196,6 @@ getBBox
 optional
 SVGBoundingBoxOptions
 aOptions
-=
-{
-}
 )
 ;
 /

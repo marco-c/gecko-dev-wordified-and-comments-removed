@@ -110,9 +110,6 @@ type
 optional
 GamepadButtonEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface
