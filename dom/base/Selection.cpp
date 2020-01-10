@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+RangeUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs
 .
 h
@@ -13304,7 +13313,7 @@ if
 (
 NS_SUCCEEDED
 (
-nsRange
+RangeUtils
 :
 :
 CompareNodeToRange

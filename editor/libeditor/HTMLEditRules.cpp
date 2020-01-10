@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+RangeUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextComposition
 .
 h
@@ -33469,7 +33478,7 @@ if
 brBlock
 )
 {
-nsRange
+RangeUtils
 :
 :
 CompareNodeToRange
@@ -46088,7 +46097,7 @@ nodeAfter
 ;
 rv
 =
-nsRange
+RangeUtils
 :
 :
 CompareNodeToRange

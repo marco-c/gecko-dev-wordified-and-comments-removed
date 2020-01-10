@@ -169,6 +169,15 @@ include
 "
 mozilla
 /
+RangeUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Sprintf
 .
 h
@@ -22116,7 +22125,7 @@ after
 nsresult
 rv
 =
-nsRange
+RangeUtils
 :
 :
 CompareNodeToRange

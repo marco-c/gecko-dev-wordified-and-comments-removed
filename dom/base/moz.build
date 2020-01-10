@@ -714,6 +714,11 @@ RangeBoundary
 h
 '
 '
+RangeUtils
+.
+h
+'
+'
 ScriptableContentIterator
 .
 h
@@ -1962,6 +1967,11 @@ cpp
 '
 '
 ProcessMessageManager
+.
+cpp
+'
+'
+RangeUtils
 .
 cpp
 '
