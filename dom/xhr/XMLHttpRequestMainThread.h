@@ -1169,12 +1169,6 @@ UnsuppressEventHandlingAndResume
 (
 )
 ;
-static
-bool
-IsMappedArrayBufferEnabled
-(
-)
-;
 void
 MaybeLowerChannelPriority
 (
