@@ -603,6 +603,15 @@ components
 servicesSettings
 .
 manifest
+BINPATH
+/
+components
+/
+l10n
+-
+registry
+.
+js
 #
 ifndef
 MOZ_GECKOVIEW_JAR
