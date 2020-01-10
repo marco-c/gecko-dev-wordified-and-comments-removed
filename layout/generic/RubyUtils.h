@@ -216,6 +216,15 @@ aPseudo
 PseudoStyleType
 :
 :
+blockRubyContent
+|
+|
+aPseudo
+=
+=
+PseudoStyleType
+:
+:
 ruby
 |
 |
