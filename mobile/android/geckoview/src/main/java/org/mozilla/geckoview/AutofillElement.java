@@ -71,6 +71,13 @@ java
 .
 util
 .
+Collection
+;
+import
+java
+.
+util
+.
 Collections
 ;
 import
@@ -218,7 +225,7 @@ dimensions
 public
 final
 NonNull
-Iterable
+Collection
 <
 AutofillElement
 >

@@ -347,13 +347,6 @@ java
 .
 lang
 .
-Iterable
-;
-import
-java
-.
-lang
-.
 Long
 ;
 import
@@ -418,6 +411,13 @@ java
 util
 .
 AbstractSequentialList
+;
+import
+java
+.
+util
+.
+Collection
 ;
 import
 java
@@ -928,7 +928,7 @@ field
 NonNull
 public
 final
-Iterable
+Collection
 <
 AutofillElement
 >
