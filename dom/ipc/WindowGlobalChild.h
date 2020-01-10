@@ -160,7 +160,10 @@ IsClosed
 )
 {
 return
-mIPCClosed
+!
+CanSend
+(
+)
 ;
 }
 void
@@ -501,9 +504,6 @@ mOuterWindowId
 ;
 int64_t
 mBeforeUnloadListeners
-;
-bool
-mIPCClosed
 ;
 }
 ;
