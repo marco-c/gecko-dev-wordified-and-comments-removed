@@ -11645,6 +11645,15 @@ lto
 '
 MOZ_PGO
 '
+'
+-
+-
+enable
+-
+profile
+-
+generate
+'
 c_compiler
 )
 imports
@@ -11658,6 +11667,7 @@ lto
 (
 value
 pgo
+profile_generate
 c_compiler
 )
 :
@@ -11705,6 +11715,9 @@ cl
 '
 and
 pgo
+and
+not
+profile_generate
 and
 value
 .
