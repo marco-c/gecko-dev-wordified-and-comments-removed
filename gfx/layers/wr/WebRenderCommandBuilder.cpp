@@ -4295,16 +4295,6 @@ ImagePixel
 >
 (
 mInvalidRect
--
-mVisibleRect
-.
-ToUnknownRect
-(
-)
-.
-TopLeft
-(
-)
 )
 ;
 auto
