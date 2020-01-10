@@ -139,7 +139,7 @@ run
 )
 kind
 :
-test
+build
 tier
 :
 1
