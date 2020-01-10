@@ -1284,8 +1284,11 @@ RegExpRealm
 )
 ;
 void
-sweep
+traceWeak
 (
+JSTracer
+*
+trc
 )
 ;
 static
