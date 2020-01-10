@@ -1,4 +1,10 @@
 #
+ifndef
+nsUrlClassifierGTestCommon_h__
+#
+define
+nsUrlClassifierGTestCommon_h__
+#
 include
 "
 Entries
@@ -204,10 +210,11 @@ CheckContent
 (
 LookupCacheV4
 *
-aCache
-PrefixStringMap
+cache
+const
+_PrefixArray
 &
-aExpected
+aPrefixArray
 )
 ;
 template
@@ -277,3 +284,5 @@ _PrefixArray
 aPrefixArray
 )
 ;
+#
+endif
