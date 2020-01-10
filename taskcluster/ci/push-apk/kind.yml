@@ -92,12 +92,6 @@ build
 -
 signing
 -
-google
--
-play
--
-strings
--
 push
 -
 apk
@@ -323,11 +317,6 @@ beta
 default
 :
 null
-requires
-:
-all
--
-resolved
 scopes
 :
 #
