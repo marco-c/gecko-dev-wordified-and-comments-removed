@@ -126,3 +126,8 @@ tag
 search_enabled
 :
 true
+source
+:
+.
+/
+geckoview

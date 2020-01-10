@@ -99,7 +99,16 @@ branch
 gh
 -
 pages
-/
+'
+         
+'
+-
+-
+javadoc
+-
+path
+'
+'
 javadoc
 /
 {
@@ -119,7 +128,7 @@ Update
 {
 project
 }
-javadoc
+documentation
 to
 rev
 {
