@@ -544,7 +544,8 @@ style
 [
 CDATA
 [
-window
+:
+root
 {
 -
 moz
