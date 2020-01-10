@@ -21707,7 +21707,7 @@ weight
 >
 FontWeight
 (
-900
+1000
 )
 )
 {
@@ -21715,7 +21715,7 @@ weight
 =
 FontWeight
 (
-900
+1000
 )
 ;
 }
@@ -21725,7 +21725,7 @@ weight
 <
 FontWeight
 (
-100
+1
 )
 )
 {
@@ -21733,7 +21733,7 @@ weight
 =
 FontWeight
 (
-100
+1
 )
 ;
 }
