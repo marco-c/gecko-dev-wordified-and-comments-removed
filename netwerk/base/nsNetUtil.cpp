@@ -12030,6 +12030,17 @@ return
 false
 ;
 }
+if
+(
+!
+StaticPrefs
+:
+:
+privacy_file_unique_origin
+(
+)
+)
+{
 bool
 sourceIsDir
 ;
@@ -12190,6 +12201,7 @@ allowed
 return
 true
 ;
+}
 }
 return
 false
