@@ -1948,6 +1948,12 @@ no
 ;
 win
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 openDialog
 (
 "
