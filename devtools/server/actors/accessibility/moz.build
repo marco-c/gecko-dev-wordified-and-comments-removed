@@ -81,6 +81,16 @@ accessible
 js
 '
 '
+constants
+.
+js
+'
+'
+simulator
+.
+js
+'
+'
 walker
 .
 js
