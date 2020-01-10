@@ -2818,10 +2818,6 @@ this
 _passwordInput
 .
 value
-.
-trim
-(
-)
 origin
 :
 window
