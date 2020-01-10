@@ -4508,9 +4508,6 @@ ResizeObserver
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -4521,9 +4518,6 @@ ResizeObserverEntry
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -4532,9 +4526,6 @@ name
 ResizeObserverSize
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
