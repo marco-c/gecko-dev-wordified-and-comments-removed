@@ -1681,6 +1681,12 @@ Callbacks
 .
 ContentDelegate
 {
+AssertCalled
+(
+count
+=
+1
+)
 override
 fun
 onFullScreen
@@ -1726,6 +1732,12 @@ Callbacks
 .
 ContentDelegate
 {
+AssertCalled
+(
+count
+=
+1
+)
 override
 fun
 onFullScreen
@@ -1742,7 +1754,7 @@ assertThat
 (
 "
 Div
-went
+left
 fullscreen
 "
 fullScreen
