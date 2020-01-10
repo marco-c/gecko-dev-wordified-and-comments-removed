@@ -326,6 +326,8 @@ automation
 build
 steps
 automation
+-
+start
 /
 uploadsymbols
 :
@@ -333,6 +335,8 @@ automation
 /
 buildsymbols
 automation
+-
+start
 /
 l10n
 -
@@ -342,6 +346,8 @@ automation
 /
 package
 automation
+-
+start
 /
 upload
 :
@@ -349,6 +355,8 @@ automation
 /
 package
 automation
+-
+start
 /
 upload
 :
@@ -358,6 +366,8 @@ package
 -
 tests
 automation
+-
+start
 /
 upload
 :
@@ -365,6 +375,8 @@ automation
 /
 buildsymbols
 automation
+-
+start
 /
 upload
 :
