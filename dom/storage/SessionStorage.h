@@ -96,15 +96,6 @@ return
 mCache
 ;
 }
-already_AddRefed
-<
-SessionStorage
->
-Clone
-(
-)
-const
-;
 int64_t
 GetOriginQuotaUsage
 (
