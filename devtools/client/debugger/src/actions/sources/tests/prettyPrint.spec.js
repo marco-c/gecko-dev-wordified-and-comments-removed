@@ -37,7 +37,7 @@ prettyPrint
 ;
 import
 {
-sourceThreadFront
+mockCommandClient
 }
 from
 "
@@ -51,9 +51,7 @@ tests
 /
 helpers
 /
-threadFront
-.
-js
+mockCommandClient
 "
 ;
 import
@@ -118,7 +116,7 @@ cx
 =
 createStore
 (
-sourceThreadFront
+mockCommandClient
 )
 ;
 const
@@ -325,7 +323,7 @@ cx
 =
 createStore
 (
-sourceThreadFront
+mockCommandClient
 )
 ;
 const
@@ -426,7 +424,7 @@ cx
 =
 createStore
 (
-sourceThreadFront
+mockCommandClient
 )
 ;
 const

@@ -103,7 +103,7 @@ stepInResolve
 null
 ;
 const
-mockThreadFront
+mockCommandClient
 =
 {
 stepIn
@@ -618,7 +618,7 @@ getState
 =
 createStore
 (
-mockThreadFront
+mockCommandClient
 )
 ;
 const
@@ -832,7 +832,7 @@ getState
 =
 createStore
 (
-mockThreadFront
+mockCommandClient
 )
 ;
 const
@@ -931,7 +931,7 @@ store
 =
 createStore
 (
-mockThreadFront
+mockCommandClient
 )
 ;
 const
@@ -1071,7 +1071,7 @@ store
 =
 createStore
 (
-mockThreadFront
+mockCommandClient
 )
 ;
 const
@@ -1209,7 +1209,7 @@ createStore
 .
 .
 .
-mockThreadFront
+mockCommandClient
 getBreakpointPositions
 :
 async
@@ -1376,7 +1376,7 @@ store
 =
 createStore
 (
-mockThreadFront
+mockCommandClient
 {
 }
 )
@@ -1830,7 +1830,7 @@ store
 =
 createStore
 (
-mockThreadFront
+mockCommandClient
 {
 }
 sourceMapsMock
@@ -2181,7 +2181,7 @@ store
 =
 createStore
 (
-mockThreadFront
+mockCommandClient
 {
 }
 sourceMapsMock
@@ -2450,7 +2450,7 @@ client
 .
 .
 .
-mockThreadFront
+mockCommandClient
 evaluateExpressions
 :
 jest
@@ -2534,7 +2534,7 @@ actions
 .
 resumed
 (
-mockThreadFront
+mockCommandClient
 .
 actorID
 )
@@ -2584,7 +2584,7 @@ client
 .
 .
 .
-mockThreadFront
+mockCommandClient
 evaluateExpressions
 :
 jest
@@ -2718,7 +2718,7 @@ actions
 .
 resumed
 (
-mockThreadFront
+mockCommandClient
 .
 actorID
 )
