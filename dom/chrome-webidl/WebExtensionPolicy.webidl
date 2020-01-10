@@ -314,7 +314,7 @@ Constant
 readonly
 attribute
 DOMString
-contentSecurityPolicy
+extensionPageCSP
 ;
 /
 *
@@ -1305,7 +1305,7 @@ contentScripts
 ;
 DOMString
 ?
-contentSecurityPolicy
+extensionPageCSP
 =
 null
 ;

@@ -680,11 +680,11 @@ aInit
 .
 mName
 )
-mContentSecurityPolicy
+mExtensionPageCSP
 (
 aInit
 .
-mContentSecurityPolicy
+mExtensionPageCSP
 )
 mLocalizeCallback
 (
@@ -811,7 +811,7 @@ Value
 }
 if
 (
-mContentSecurityPolicy
+mExtensionPageCSP
 .
 IsVoid
 (
@@ -824,7 +824,7 @@ EPS
 .
 DefaultCSP
 (
-mContentSecurityPolicy
+mExtensionPageCSP
 )
 ;
 }

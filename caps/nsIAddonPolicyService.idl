@@ -255,7 +255,7 @@ not
 *
 /
 AString
-getAddonCSP
+getExtensionPageCSP
 (
 in
 AString

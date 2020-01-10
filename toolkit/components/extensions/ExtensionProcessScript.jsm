@@ -1091,11 +1091,11 @@ webAccessibleResources
 extension
 .
 webAccessibleResources
-contentSecurityPolicy
+extensionPageCSP
 :
 extension
 .
-contentSecurityPolicy
+extensionPageCSP
 localizeCallback
 backgroundScripts
 contentScripts

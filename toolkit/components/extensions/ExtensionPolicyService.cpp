@@ -3226,7 +3226,7 @@ nsresult
 ExtensionPolicyService
 :
 :
-GetAddonCSP
+GetExtensionPageCSP
 (
 const
 nsAString
@@ -3252,7 +3252,7 @@ aAddonId
 policy
 -
 >
-GetContentSecurityPolicy
+GetExtensionPageCSP
 (
 aResult
 )
