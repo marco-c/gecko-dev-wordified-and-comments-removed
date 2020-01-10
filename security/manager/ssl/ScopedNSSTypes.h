@@ -1032,6 +1032,12 @@ SECKEY_DestroyPrivateKey
 )
 MOZ_TYPE_SPECIFIC_UNIQUE_PTR_TEMPLATE
 (
+UniqueSECKEYPrivateKeyList
+SECKEYPrivateKeyList
+SECKEY_DestroyPrivateKeyList
+)
+MOZ_TYPE_SPECIFIC_UNIQUE_PTR_TEMPLATE
+(
 UniqueSECKEYPublicKey
 SECKEYPublicKey
 SECKEY_DestroyPublicKey
