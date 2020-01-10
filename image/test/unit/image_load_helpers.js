@@ -82,6 +82,7 @@ this
 .
 start_callback
 )
+{
 this
 .
 start_callback
@@ -91,6 +92,8 @@ aRequest
 )
 ;
 }
+}
+;
 this
 .
 frameComplete
@@ -119,6 +122,7 @@ state
 FRAME_COMPLETE
 ;
 }
+;
 this
 .
 decodeComplete
@@ -147,6 +151,7 @@ state
 DECODE_COMPLETE
 ;
 }
+;
 this
 .
 loadComplete
@@ -180,6 +185,7 @@ this
 .
 stop_callback
 )
+{
 this
 .
 stop_callback
@@ -189,6 +195,8 @@ aRequest
 )
 ;
 }
+}
+;
 this
 .
 frameUpdate
@@ -200,6 +208,7 @@ aRequest
 )
 {
 }
+;
 this
 .
 isAnimated
@@ -210,6 +219,7 @@ onIsAnimated
 )
 {
 }
+;
 this
 .
 synchronous
@@ -272,6 +282,7 @@ this
 .
 outputListener
 )
+{
 this
 .
 outputListener
@@ -281,6 +292,7 @@ onStartRequest
 aRequest
 )
 ;
+}
 this
 .
 requestStatus
@@ -289,6 +301,7 @@ requestStatus
 START_REQUEST
 ;
 }
+;
 this
 .
 onDataAvailable
@@ -308,6 +321,7 @@ this
 .
 outputListener
 )
+{
 this
 .
 outputListener
@@ -320,6 +334,7 @@ aOffset
 aCount
 )
 ;
+}
 this
 .
 requestStatus
@@ -328,6 +343,7 @@ requestStatus
 DATA_AVAILABLE
 ;
 }
+;
 this
 .
 onStopRequest
@@ -345,6 +361,7 @@ this
 .
 outputListener
 )
+{
 this
 .
 outputListener
@@ -355,6 +372,7 @@ aRequest
 aStatusCode
 )
 ;
+}
 if
 (
 NS_FAILED
@@ -362,13 +380,16 @@ NS_FAILED
 aStatusCode
 )
 )
+{
 this
 .
 requestStatus
 =
 0
 ;
+}
 else
+{
 this
 .
 requestStatus
@@ -377,6 +398,8 @@ requestStatus
 STOP_REQUEST
 ;
 }
+}
+;
 this
 .
 outputListener

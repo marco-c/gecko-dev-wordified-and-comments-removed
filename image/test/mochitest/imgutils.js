@@ -120,7 +120,6 @@ id
 )
 {
 return
-(
 getImageStatus
 (
 id
@@ -133,7 +132,6 @@ Ci
 imgIRequest
 .
 STATUS_FRAME_COMPLETE
-)
 ?
 true
 :
@@ -147,7 +145,6 @@ id
 )
 {
 return
-(
 getImageStatus
 (
 id
@@ -160,7 +157,6 @@ Ci
 imgIRequest
 .
 STATUS_LOAD_COMPLETE
-)
 ?
 true
 :
@@ -456,6 +452,7 @@ pref
 name
 )
 )
+{
 branch
 .
 clearUserPref
@@ -465,6 +462,7 @@ pref
 name
 )
 ;
+}
 }
 function
 getImagePref
@@ -578,9 +576,11 @@ type
 }
 }
 else
+{
 return
 null
 ;
+}
 }
 function
 ImageDecoderObserverStub
@@ -598,6 +598,7 @@ aRequest
 )
 {
 }
+;
 this
 .
 frameComplete
@@ -609,6 +610,7 @@ aRequest
 )
 {
 }
+;
 this
 .
 decodeComplete
@@ -620,6 +622,7 @@ aRequest
 )
 {
 }
+;
 this
 .
 loadComplete
@@ -631,6 +634,7 @@ aRequest
 )
 {
 }
+;
 this
 .
 frameUpdate
@@ -642,6 +646,7 @@ aRequest
 )
 {
 }
+;
 this
 .
 discard
@@ -653,6 +658,7 @@ aRequest
 )
 {
 }
+;
 this
 .
 isAnimated
@@ -664,6 +670,7 @@ aRequest
 )
 {
 }
+;
 this
 .
 hasTransparency
@@ -675,4 +682,5 @@ aRequest
 )
 {
 }
+;
 }

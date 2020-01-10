@@ -287,6 +287,7 @@ bytes
 .
 length
 )
+{
 throw
 "
 Didn
@@ -299,6 +300,7 @@ of
 bytes
 "
 ;
+}
 return
 bytes
 ;
@@ -339,6 +341,7 @@ i
 +
 +
 )
+{
 if
 (
 aArray1
@@ -352,6 +355,7 @@ aArray2
 i
 ]
 )
+{
 throw
 "
 arrays
@@ -362,6 +366,8 @@ index
 +
 i
 ;
+}
+}
 }
 function
 checkExpectedError
@@ -380,6 +386,7 @@ if
 !
 aActualError
 )
+{
 throw
 "
 Didn
@@ -397,6 +404,7 @@ aExpectedError
 )
 "
 ;
+}
 if
 (
 !
@@ -407,6 +415,7 @@ test
 aActualError
 )
 )
+{
 throw
 "
 Threw
@@ -423,6 +432,7 @@ not
 +
 aExpectedError
 ;
+}
 dump
 (
 "
@@ -515,6 +525,7 @@ if
 !
 imgTools
 )
+{
 throw
 "
 Couldn
@@ -524,6 +535,8 @@ get
 imgITools
 service
 "
+;
+}
 var
 isWindows
 =
@@ -3588,4 +3601,3 @@ e
 ;
 }
 }
-;
