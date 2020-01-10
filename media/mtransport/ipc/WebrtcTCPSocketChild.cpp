@@ -353,6 +353,8 @@ const
 int
 &
 aLocalPort
+bool
+aUseTls
 const
 net
 :
@@ -495,6 +497,7 @@ aHost
 aPort
 aLocalAddress
 aLocalPort
+aUseTls
 aArgs
 aAlpn
 aProxyPolicy

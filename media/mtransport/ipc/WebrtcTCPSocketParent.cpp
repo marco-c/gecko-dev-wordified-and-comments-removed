@@ -79,6 +79,10 @@ int
 &
 aLocalPort
 const
+bool
+&
+aUseTls
+const
 LoadInfoArgs
 &
 aLoadInfoArgs
@@ -145,6 +149,7 @@ aHost
 aPort
 aLocalAddress
 aLocalPort
+aUseTls
 aLoadInfoArgs
 aAlpn
 static_cast

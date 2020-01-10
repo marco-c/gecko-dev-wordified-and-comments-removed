@@ -90,6 +90,8 @@ const
 int
 &
 aLocalPort
+bool
+aUseTls
 const
 std
 :
