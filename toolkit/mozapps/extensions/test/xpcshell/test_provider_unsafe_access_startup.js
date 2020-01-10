@@ -73,12 +73,14 @@ this
 .
 startupCallback
 )
+{
 this
 .
 startupCallback
 (
 )
 ;
+}
 }
 getAddonByID
 (

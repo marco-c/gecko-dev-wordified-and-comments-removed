@@ -2552,9 +2552,11 @@ Promise
 resolve
 =
 >
+(
 resolvePendingResponses
 =
 resolve
+)
 )
 ;
 const
@@ -2678,6 +2680,7 @@ requests
 ;
 ok
 (
+(
 await
 Promise
 .
@@ -2694,6 +2697,7 @@ pending
 "
 )
 ]
+)
 )
 =
 =
@@ -2788,12 +2792,10 @@ generateString
 len
 =
 >
-(
 new
 Array
 (
 len
-)
 )
 .
 fill

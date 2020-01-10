@@ -3635,7 +3635,7 @@ testRating
 (
 0
 .
-000
+0
 "
 0
 "
@@ -3693,7 +3693,7 @@ testRating
 (
 0
 .
-250
+25
 "
 0
 .
@@ -3733,7 +3733,7 @@ testRating
 (
 0
 .
-750
+75
 "
 0
 .
@@ -3753,7 +3753,7 @@ testRating
 (
 1
 .
-000
+0
 "
 1
 "
@@ -3791,7 +3791,7 @@ testRating
 (
 4
 .
-250
+25
 "
 4
 .
@@ -3831,7 +3831,7 @@ testRating
 (
 5
 .
-000
+0
 "
 5
 "
@@ -5243,10 +5243,12 @@ initially
 ok
 (
 !
+(
 await
 hasPrivateAllowed
 (
 id
+)
 )
 "
 PB
@@ -5335,10 +5337,12 @@ view
 ok
 (
 !
+(
 await
 hasPrivateAllowed
 (
 id
+)
 )
 "
 PB
@@ -5539,10 +5543,12 @@ hidden
 ok
 (
 !
+(
 await
 hasPrivateAllowed
 (
 id
+)
 )
 "
 PB

@@ -86,13 +86,11 @@ if
 (
 aStateFlags
 &
-(
 Ci
 .
 nsIWebProgressListener
 .
 STATE_IS_NETWORK
-)
 )
 |
 |
@@ -100,7 +98,6 @@ STATE_IS_NETWORK
 (
 aStateFlags
 &
-(
 Ci
 .
 nsIWebProgressListener
@@ -108,18 +105,21 @@ nsIWebProgressListener
 STATE_STOP
 )
 )
-)
+{
 return
 ;
+}
 if
 (
 gLoadCompleteCallback
 )
+{
 executeSoon
 (
 gLoadCompleteCallback
 )
 ;
+}
 gLoadCompleteCallback
 =
 null
@@ -344,9 +344,11 @@ selectedPanel
 =
 aBrowser
 )
+{
 return
 null
 ;
+}
 var
 url
 =
@@ -376,6 +378,7 @@ pos
 -
 1
 )
+{
 return
 url
 .
@@ -385,6 +388,7 @@ substring
 pos
 )
 ;
+}
 return
 url
 ;
@@ -415,9 +419,11 @@ selectedPanel
 =
 aBrowser
 )
+{
 return
 null
 ;
+}
 var
 url
 =
@@ -447,6 +453,7 @@ pos
 -
 1
 )
+{
 return
 decodeURIComponent
 (
@@ -460,6 +467,7 @@ pos
 )
 )
 ;
+}
 return
 null
 ;
@@ -554,6 +562,7 @@ aTestAddonVisible
 0
 ]
 )
+{
 ok
 (
 "
@@ -578,7 +587,9 @@ listed
 "
 )
 ;
+}
 else
+{
 ok
 (
 !
@@ -607,6 +618,7 @@ listed
 "
 )
 ;
+}
 if
 (
 aTestAddonVisible
@@ -614,6 +626,7 @@ aTestAddonVisible
 1
 ]
 )
+{
 ok
 (
 "
@@ -638,7 +651,9 @@ listed
 "
 )
 ;
+}
 else
+{
 ok
 (
 !
@@ -667,6 +682,7 @@ listed
 "
 )
 ;
+}
 let
 aAddons
 =
@@ -725,6 +741,7 @@ mozilla
 org
 "
 )
+{
 ok
 (
 false
@@ -748,6 +765,7 @@ data
 "
 )
 ;
+}
 continue
 ;
 }
@@ -968,6 +986,7 @@ isError
 )
 {
 return
+(
 gManagerWindow
 .
 document
@@ -995,6 +1014,7 @@ discover
 -
 error
 "
+)
 )
 ;
 }
@@ -2585,11 +2605,14 @@ count
 =
 0
 )
+{
 aCallback
 (
 )
 ;
+}
 else
+{
 clickLink
 (
 "
@@ -2606,6 +2629,7 @@ aCallback
 )
 )
 ;
+}
 }
 clickAgain
 (
@@ -3677,6 +3701,7 @@ if
 (
 visible
 )
+{
 ok
 (
 gCategoryUtilities
@@ -3696,7 +3721,9 @@ visible
 "
 )
 ;
+}
 else
+{
 ok
 (
 !
@@ -3718,6 +3745,7 @@ visible
 "
 )
 ;
+}
 gManagerWindow
 .
 loadView
@@ -3764,6 +3792,7 @@ if
 (
 visible
 )
+{
 ok
 (
 !
@@ -3783,7 +3812,9 @@ visible
 "
 )
 ;
+}
 else
+{
 ok
 (
 BrowserTestUtils
@@ -3803,6 +3834,7 @@ visible
 "
 )
 ;
+}
 close_manager
 (
 gManagerWindow

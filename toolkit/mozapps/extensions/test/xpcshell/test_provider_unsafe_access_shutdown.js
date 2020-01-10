@@ -78,6 +78,7 @@ this
 .
 shutdownCallback
 )
+{
 return
 this
 .
@@ -85,6 +86,7 @@ shutdownCallback
 (
 )
 ;
+}
 return
 undefined
 ;

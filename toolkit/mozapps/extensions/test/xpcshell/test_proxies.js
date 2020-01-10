@@ -119,12 +119,14 @@ Ci
 .
 nsIFile
 )
+{
 aSource
 =
 aSource
 .
 path
 ;
+}
 if
 (
 aDest
@@ -133,12 +135,14 @@ Ci
 .
 nsIFile
 )
+{
 aDest
 =
 aDest
 .
 path
 ;
+}
 return
 OS
 .
@@ -169,6 +173,7 @@ exists
 (
 )
 )
+{
 aFile
 .
 parent
@@ -183,6 +188,7 @@ DIRECTORY_TYPE
 0o755
 )
 ;
+}
 return
 OS
 .
@@ -316,11 +322,13 @@ if
 (
 gHaveSymlinks
 )
+{
 add_task
 (
 run_symlink_tests
 )
 ;
+}
 run_next_test
 (
 )
@@ -652,6 +660,7 @@ platform
 macosx
 "
 )
+{
 return
 url
 .
@@ -677,6 +686,7 @@ file
 "
 )
 ;
+}
 return
 url
 ;

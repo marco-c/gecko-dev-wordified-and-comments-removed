@@ -112,6 +112,7 @@ extra
 >
 {
 return
+(
 method
 =
 =
@@ -137,6 +138,7 @@ action
 =
 =
 actionType
+)
 )
 ;
 }
@@ -193,6 +195,7 @@ xpinstall
 disabled
 "
 )
+{
 topic
 =
 "
@@ -203,6 +206,7 @@ install
 disabled
 "
 ;
+}
 else
 if
 (
@@ -215,6 +219,7 @@ addon
 progress
 "
 )
+{
 topic
 =
 "
@@ -225,6 +230,7 @@ install
 started
 "
 ;
+}
 else
 if
 (
@@ -239,6 +245,7 @@ install
 restart
 "
 )
+{
 topic
 =
 "
@@ -249,6 +256,7 @@ install
 complete
 "
 ;
+}
 else
 if
 (
@@ -261,6 +269,7 @@ addon
 installed
 "
 )
+{
 topic
 =
 "
@@ -271,6 +280,7 @@ install
 notify
 "
 ;
+}
 return
 topic
 ;
@@ -1582,9 +1592,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 amosigned
@@ -1806,9 +1814,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 amosigned
@@ -2119,9 +2125,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 amosigned
@@ -2304,9 +2308,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 amosigned
@@ -2548,9 +2550,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 amosigned
@@ -2583,9 +2583,11 @@ then
 newTab
 =
 >
+(
 tab
 =
 newTab
+)
 )
 ;
 await
@@ -2862,9 +2864,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 missing
@@ -3046,9 +3046,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 corrupt
@@ -3238,9 +3236,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 incompatible
@@ -4132,9 +4128,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 amosigned
@@ -4358,9 +4352,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 slowinstall
@@ -4672,9 +4664,7 @@ false
 setupRedirect
 (
 {
-"
 Location
-"
 :
 TESTROOT
 +
@@ -4710,9 +4700,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 redirect
@@ -5353,6 +5341,7 @@ if
 (
 gTestStart
 )
+{
 info
 (
 "
@@ -5376,6 +5365,7 @@ ms
 "
 )
 ;
+}
 ok
 (
 !

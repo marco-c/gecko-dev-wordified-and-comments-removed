@@ -1797,12 +1797,14 @@ if
 (
 aZipReader
 )
+{
 aZipReader
 .
 close
 (
 )
 ;
+}
 resolve
 (
 {
@@ -2035,9 +2037,7 @@ newPromises
 .
 then
 (
-(
 results
-)
 =
 >
 shouldReject
@@ -2093,7 +2093,6 @@ loadManifest
 let
 locales
 =
-(
 extension
 .
 errors
@@ -2102,7 +2101,6 @@ length
 =
 =
 0
-)
 ?
 await
 extension
@@ -2411,6 +2409,7 @@ theme
 "
 &
 &
+(
 await
 aPackage
 .
@@ -2421,6 +2420,7 @@ preview
 .
 png
 "
+)
 )
 )
 {
@@ -2460,6 +2460,7 @@ options_ui
 .
 open_in_tab
 )
+{
 addon
 .
 optionsType
@@ -2468,7 +2469,9 @@ AddonManager
 .
 OPTIONS_TYPE_TAB
 ;
+}
 else
+{
 addon
 .
 optionsType
@@ -2477,6 +2480,7 @@ AddonManager
 .
 OPTIONS_TYPE_INLINE_BROWSER
 ;
+}
 addon
 .
 optionsBrowserStyle
@@ -2539,11 +2543,9 @@ let
 creator
 =
 typeof
-(
 rawManifest
 .
 author
-)
 =
 =
 =
@@ -2739,7 +2741,6 @@ addon
 .
 userDisabled
 =
-(
 extension
 .
 type
@@ -2749,7 +2750,6 @@ type
 "
 theme
 "
-)
 ;
 addon
 .
@@ -2983,9 +2983,7 @@ syncGUID
 }
 set
 :
-(
 val
-)
 =
 >
 {
@@ -3789,11 +3787,13 @@ aCert
 .
 commonName
 )
+{
 return
 AddonManager
 .
 SIGNEDSTATE_BROKEN
 ;
+}
 if
 (
 aCert
@@ -3924,9 +3924,11 @@ name
 =
 KEY_APP_SYSTEM_ADDONS
 )
+{
 return
 true
 ;
+}
 if
 (
 aAddon
@@ -3938,9 +3940,11 @@ name
 =
 KEY_APP_SYSTEM_DEFAULTS
 )
+{
 return
 false
 ;
+}
 if
 (
 aAddon
@@ -3953,9 +3957,11 @@ AppConstants
 .
 MOZ_UNSIGNED_SCOPES
 )
+{
 return
 false
 ;
+}
 return
 XPIDatabase
 .
@@ -4044,6 +4050,7 @@ if
 (
 aUpdateType
 )
+{
 uri
 =
 uri
@@ -4059,6 +4066,7 @@ g
 aUpdateType
 )
 ;
+}
 let
 app
 =
@@ -4070,6 +4078,7 @@ if
 (
 app
 )
+{
 var
 maxVersion
 =
@@ -4077,12 +4086,15 @@ app
 .
 maxVersion
 ;
+}
 else
+{
 maxVersion
 =
 "
 "
 ;
+}
 uri
 =
 uri
@@ -4112,12 +4124,14 @@ AddonManager
 .
 checkCompatibility
 )
+{
 compatMode
 =
 "
 ignore
 "
 ;
+}
 else
 if
 (
@@ -4125,12 +4139,14 @@ AddonManager
 .
 strictCompatibility
 )
+{
 compatMode
 =
 "
 strict
 "
 ;
+}
 uri
 =
 uri
@@ -4211,6 +4227,7 @@ info
 .
 isDir
 )
+{
 await
 OS
 .
@@ -4223,7 +4240,9 @@ aFile
 path
 )
 ;
+}
 else
+{
 await
 OS
 .
@@ -4236,6 +4255,7 @@ aFile
 path
 )
 ;
+}
 }
 catch
 (
@@ -4261,9 +4281,11 @@ e
 .
 becauseNoSuchFile
 )
+{
 throw
 e
 ;
+}
 }
 }
 function
@@ -4304,8 +4326,10 @@ Cr
 .
 NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
 )
+{
 return
 ;
+}
 if
 (
 e
@@ -4317,8 +4341,10 @@ Cr
 .
 NS_ERROR_FILE_NOT_FOUND
 )
+{
 return
 ;
+}
 throw
 e
 ;
@@ -4516,7 +4542,6 @@ new
 FileOutputStream
 (
 file
-(
 FileUtils
 .
 MODE_WRONLY
@@ -4528,7 +4553,6 @@ MODE_CREATE
 FileUtils
 .
 MODE_TRUNCATE
-)
 FileUtils
 .
 PERMS_FILE
@@ -5030,6 +5054,7 @@ length
 >
 0
 )
+{
 recursiveRemove
 (
 this
@@ -5041,6 +5066,7 @@ pop
 )
 )
 ;
+}
 }
 }
 ;
@@ -6071,6 +6097,7 @@ aListener
 }
 )
 )
+{
 this
 .
 listeners
@@ -6080,6 +6107,7 @@ push
 aListener
 )
 ;
+}
 }
 removeListener
 (
@@ -6556,6 +6584,7 @@ AddonManager
 .
 SIGNEDSTATE_MISSING
 )
+{
 return
 Promise
 .
@@ -6575,6 +6604,7 @@ missing
 ]
 )
 ;
+}
 return
 Promise
 .
@@ -7618,7 +7648,6 @@ addon
 .
 active
 =
-(
 this
 .
 addon
@@ -7632,7 +7661,6 @@ this
 addon
 .
 disabled
-)
 ;
 this
 .
@@ -7767,6 +7795,7 @@ addon
 .
 active
 )
+{
 AddonManagerPrivate
 .
 notifyAddonChanged
@@ -7783,6 +7812,7 @@ addon
 type
 )
 ;
+}
 }
 ;
 this
@@ -7928,11 +7958,13 @@ exists
 (
 )
 )
+{
 recursiveRemove
 (
 stagedAddon
 )
 ;
+}
 this
 .
 state
@@ -9484,8 +9516,10 @@ AddonManager
 .
 STATE_DOWNLOADING
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -9559,7 +9593,6 @@ FileOutputStream
 this
 .
 file
-(
 FileUtils
 .
 MODE_WRONLY
@@ -9571,7 +9604,6 @@ MODE_CREATE
 FileUtils
 .
 MODE_TRUNCATE
-)
 FileUtils
 .
 PERMS_FILE
@@ -10028,6 +10060,7 @@ this
 .
 hash
 )
+{
 this
 .
 badCertHandler
@@ -10040,7 +10073,9 @@ aFlags
 aCallback
 )
 ;
+}
 else
+{
 aCallback
 .
 onRedirectVerifyCallback
@@ -10050,6 +10085,7 @@ Cr
 NS_OK
 )
 ;
+}
 this
 .
 channel
@@ -10362,8 +10398,10 @@ AddonManager
 .
 STATE_CANCELLED
 )
+{
 return
 ;
+}
 }
 this
 .
@@ -10377,12 +10415,14 @@ this
 .
 restartDownload
 )
+{
 this
 .
 openChannel
 (
 )
 ;
+}
 return
 ;
 }
@@ -10442,13 +10482,11 @@ this
 hash
 &
 &
-(
 aRequest
 instanceof
 Ci
 .
 nsIChannel
-)
 )
 {
 try
@@ -10867,12 +10905,14 @@ if
 (
 aAddon
 )
+{
 this
 .
 existingAddon
 =
 aAddon
 ;
+}
 this
 .
 state
@@ -10983,8 +11023,10 @@ AddonManager
 .
 STATE_DOWNLOADED
 )
+{
 return
 ;
+}
 this
 .
 install
@@ -11087,6 +11129,7 @@ Ci
 .
 nsILoginManagerPrompter
 )
+{
 prompt
 .
 browser
@@ -11095,6 +11138,7 @@ this
 .
 browser
 ;
+}
 return
 prompt
 ;
@@ -11205,6 +11249,7 @@ aUpdate
 .
 updateInfoURL
 )
+{
 opts
 .
 releaseNotesURI
@@ -11224,6 +11269,7 @@ updateInfoURL
 )
 )
 ;
+}
 }
 catch
 (
@@ -11677,11 +11723,13 @@ aListener
 !
 aReason
 )
+{
 throw
 Cr
 .
 NS_ERROR_INVALID_ARG
 ;
+}
 (
 {
 AddonUpdateChecker
@@ -11750,27 +11798,23 @@ this
 .
 syncCompatibility
 =
-(
 aReason
 =
 =
 AddonManager
 .
 UPDATE_WHEN_NEW_APP_INSTALLED
-)
 ;
 this
 .
 isUserRequested
 =
-(
 aReason
 =
 =
 AddonManager
 .
 UPDATE_WHEN_USER_REQUESTED
-)
 ;
 let
 updateURL
@@ -11864,11 +11908,13 @@ this
 .
 listener
 )
+{
 aReason
 |
 =
 UPDATE_TYPE_NEWVERSION
 ;
+}
 let
 url
 =
@@ -11937,8 +11983,10 @@ this
 listener
 )
 )
+{
 return
 ;
+}
 try
 {
 this
@@ -12017,7 +12065,6 @@ false
 let
 ignoreStrictCompat
 =
-(
 this
 .
 addon
@@ -12028,7 +12075,6 @@ type
 "
 dictionary
 "
-)
 ;
 if
 (
@@ -12095,6 +12141,7 @@ if
 (
 compatUpdate
 )
+{
 this
 .
 addon
@@ -12107,6 +12154,7 @@ this
 syncCompatibility
 )
 ;
+}
 if
 (
 (
@@ -12191,6 +12239,7 @@ if
 (
 compatUpdate
 )
+{
 this
 .
 callListener
@@ -12205,7 +12254,9 @@ addon
 wrapper
 )
 ;
+}
 else
+{
 this
 .
 callListener
@@ -12220,6 +12271,7 @@ addon
 wrapper
 )
 ;
+}
 function
 sendUpdateAvailableMessages
 (
@@ -12391,8 +12443,10 @@ update
 .
 version
 )
+{
 continue
 ;
+}
 if
 (
 currentInstall
@@ -12779,11 +12833,13 @@ this
 .
 _stagingDirPromise
 )
+{
 return
 this
 .
 _stagingDirPromise
 ;
+}
 OS
 .
 File
@@ -12815,6 +12871,7 @@ DIR_STAGE
 )
 ;
 return
+(
 this
 .
 _stagingDirPromise
@@ -12830,9 +12887,7 @@ stagepath
 .
 catch
 (
-(
 e
-)
 =
 >
 {
@@ -12851,8 +12906,10 @@ e
 .
 becauseExists
 )
+{
 return
 ;
+}
 logger
 .
 error
@@ -12871,6 +12928,7 @@ throw
 e
 ;
 }
+)
 )
 ;
 }
@@ -12963,8 +13021,10 @@ _stagingDirLock
 >
 0
 )
+{
 return
 ;
+}
 for
 (
 let
@@ -12975,8 +13035,10 @@ iterDirectory
 dir
 )
 )
+{
 return
 ;
+}
 try
 {
 setFilePermissions
@@ -13046,11 +13108,13 @@ if
 (
 trashDirExists
 )
+{
 recursiveRemove
 (
 trashDir
 )
 ;
+}
 trashDirExists
 =
 false
@@ -13081,6 +13145,7 @@ if
 !
 trashDirExists
 )
+{
 trashDir
 .
 create
@@ -13095,6 +13160,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
+}
 return
 trashDir
 ;
@@ -13156,6 +13222,7 @@ exists
 (
 )
 )
+{
 transaction
 .
 moveUnder
@@ -13164,6 +13231,7 @@ file
 trashDir
 )
 ;
+}
 file
 =
 getFile
@@ -13515,6 +13583,7 @@ exists
 (
 )
 )
+{
 file
 .
 leafName
@@ -13525,6 +13594,7 @@ leafName
 xpi
 "
 ;
+}
 if
 (
 !
@@ -14080,9 +14150,11 @@ isValidAddon
 addon
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -15123,11 +15195,13 @@ if
 (
 trashDirExists
 )
+{
 recursiveRemove
 (
 trashDir
 )
 ;
+}
 trashDirExists
 =
 false
@@ -15158,6 +15232,7 @@ if
 !
 trashDirExists
 )
+{
 trashDir
 .
 create
@@ -15172,6 +15247,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
+}
 return
 trashDir
 ;
@@ -15558,9 +15634,11 @@ version
 =
 0
 )
+{
 return
 null
 ;
+}
 }
 catch
 (
@@ -16038,8 +16116,10 @@ if
 !
 systemAddonLocation
 )
+{
 return
 ;
+}
 let
 installer
 =
@@ -16055,8 +16135,10 @@ appinfo
 .
 inSafeMode
 )
+{
 return
 ;
+}
 let
 url
 =
@@ -16217,9 +16299,11 @@ existing
 .
 size
 )
+{
 return
 false
 ;
+}
 for
 (
 let
@@ -16246,9 +16330,11 @@ if
 !
 wantedInfo
 )
+{
 return
 false
 ;
+}
 if
 (
 wantedInfo
@@ -16262,9 +16348,11 @@ addon
 .
 version
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -16615,9 +16703,7 @@ downloadAddon
 let
 validateAddon
 =
-(
 item
-)
 =
 >
 {
@@ -16742,9 +16828,11 @@ item
 addon
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -16923,9 +17011,11 @@ isInstallEnabled
 (
 )
 )
+{
 return
 false
 ;
+}
 let
 uri
 =
@@ -16938,6 +17028,7 @@ if
 !
 uri
 )
+{
 return
 this
 .
@@ -16945,6 +17036,7 @@ isDirectRequestWhitelisted
 (
 )
 ;
+}
 if
 (
 this
@@ -16975,9 +17067,11 @@ file
 )
 )
 )
+{
 return
 true
 ;
+}
 XPIDatabase
 .
 importPermissions
@@ -17008,9 +17102,11 @@ nsIPermissionManager
 .
 DENY_ACTION
 )
+{
 return
 false
 ;
+}
 let
 requireWhitelist
 =
@@ -17029,7 +17125,6 @@ if
 requireWhitelist
 &
 &
-(
 permission
 !
 =
@@ -17039,10 +17134,11 @@ nsIPermissionManager
 .
 ALLOW_ACTION
 )
-)
+{
 return
 false
 ;
+}
 let
 requireSecureOrigin
 =
@@ -17086,9 +17182,11 @@ uri
 scheme
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -17905,6 +18003,7 @@ addon
 .
 userDisabled
 )
+{
 AddonManagerPrivate
 .
 notifyAddonChanged
@@ -17919,6 +18018,7 @@ false
 )
 ;
 }
+}
 async
 uninstallAddon
 (
@@ -17929,12 +18029,11 @@ aForcePending
 if
 (
 !
-(
 aAddon
 .
 inDatabase
 )
-)
+{
 throw
 new
 Error
@@ -17954,6 +18053,7 @@ not
 installed
 )
 ;
+}
 if
 (
 aAddon
@@ -17962,6 +18062,7 @@ location
 .
 locked
 )
+{
 throw
 new
 Error
@@ -17988,6 +18089,7 @@ name
 }
 )
 ;
+}
 if
 (
 aForcePending
@@ -17997,6 +18099,7 @@ aAddon
 .
 pendingUninstall
 )
+{
 throw
 new
 Error
@@ -18014,6 +18117,7 @@ uninstalled
 "
 )
 ;
+}
 if
 (
 aAddon
@@ -18098,6 +18202,7 @@ exists
 (
 )
 )
+{
 stage
 .
 create
@@ -18112,6 +18217,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
+}
 }
 XPIDatabase
 .
@@ -18202,8 +18308,10 @@ aAddon
 .
 visible
 )
+{
 return
 ;
+}
 let
 wrapper
 =
@@ -18508,6 +18616,7 @@ aAddon
 .
 active
 )
+{
 AddonManagerPrivate
 .
 notifyAddonChanged
@@ -18519,6 +18628,7 @@ type
 )
 ;
 }
+}
 cancelUninstallAddon
 (
 aAddon
@@ -18527,12 +18637,11 @@ aAddon
 if
 (
 !
-(
 aAddon
 .
 inDatabase
 )
-)
+{
 throw
 new
 Error
@@ -18549,6 +18658,7 @@ addons
 "
 )
 ;
+}
 if
 (
 !
@@ -18556,6 +18666,7 @@ aAddon
 .
 pendingUninstall
 )
+{
 throw
 new
 Error
@@ -18573,6 +18684,7 @@ uninstalled
 "
 )
 ;
+}
 if
 (
 !
@@ -18582,6 +18694,7 @@ location
 .
 isTemporary
 )
+{
 aAddon
 .
 location
@@ -18597,6 +18710,7 @@ id
 ]
 )
 ;
+}
 XPIDatabase
 .
 setAddonProperties
@@ -18616,8 +18730,10 @@ aAddon
 .
 visible
 )
+{
 return
 ;
+}
 aAddon
 .
 location
@@ -18717,6 +18833,7 @@ aAddon
 .
 active
 )
+{
 AddonManagerPrivate
 .
 notifyAddonChanged
@@ -18730,6 +18847,7 @@ type
 false
 )
 ;
+}
 }
 DirectoryInstaller
 SystemAddonInstaller

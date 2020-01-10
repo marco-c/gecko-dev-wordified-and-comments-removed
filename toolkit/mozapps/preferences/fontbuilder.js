@@ -146,6 +146,7 @@ length
 >
 0
 )
+{
 defaultFont
 =
 this
@@ -160,6 +161,7 @@ aLanguage
 )
 ;
 }
+}
 if
 (
 !
@@ -167,6 +169,7 @@ this
 .
 _allFonts
 )
+{
 this
 .
 _allFonts
@@ -182,6 +185,7 @@ EnumerateAllFontsAsync
 }
 )
 ;
+}
 const
 popup
 =
@@ -558,9 +562,11 @@ fontItems
 .
 length
 )
+{
 return
 undefined
 ;
+}
 }
 return
 "

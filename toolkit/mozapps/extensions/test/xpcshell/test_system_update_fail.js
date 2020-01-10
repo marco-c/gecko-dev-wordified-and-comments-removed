@@ -637,9 +637,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 [
 ]

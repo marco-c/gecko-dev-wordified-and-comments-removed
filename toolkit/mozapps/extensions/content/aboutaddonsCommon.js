@@ -203,9 +203,7 @@ install
 .
 promptHandler
 =
-(
 info
-)
 =
 >
 {
@@ -593,9 +591,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -801,7 +797,6 @@ addon
 let
 signingRequired
 =
-(
 addon
 .
 type
@@ -810,7 +805,6 @@ type
 "
 locale
 "
-)
 ?
 AddonSettings
 .

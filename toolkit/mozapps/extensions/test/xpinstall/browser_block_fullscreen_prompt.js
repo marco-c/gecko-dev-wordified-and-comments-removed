@@ -169,9 +169,7 @@ gBrowser
 .
 selectedBrowser
 {
-"
 XPI
-"
 :
 "
 amosigned
@@ -268,9 +266,7 @@ JSON
 stringify
 (
 {
-"
 XPI
-"
 :
 "
 amosigned

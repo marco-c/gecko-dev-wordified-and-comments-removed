@@ -56,6 +56,7 @@ frame
 )
 ;
 return
+(
 frame
 .
 contentWindow
@@ -75,6 +76,7 @@ textContent
 "
 true
 "
+)
 ;
 }
 )

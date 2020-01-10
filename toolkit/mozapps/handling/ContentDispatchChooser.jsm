@@ -111,6 +111,7 @@ if
 (
 aWindowContext
 )
+{
 window
 =
 aWindowContext
@@ -122,6 +123,7 @@ Ci
 nsIDOMWindow
 )
 ;
+}
 }
 catch
 (
@@ -288,6 +290,8 @@ string
 =
 new
 SupportsString
+(
+)
 ;
 string
 .

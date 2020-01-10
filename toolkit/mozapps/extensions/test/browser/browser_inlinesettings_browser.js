@@ -231,14 +231,10 @@ installAddon
 manifest
 :
 {
-"
 options_ui
-"
 :
 {
-"
 page
-"
 :
 "
 options

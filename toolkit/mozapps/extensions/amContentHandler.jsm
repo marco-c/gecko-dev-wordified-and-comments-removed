@@ -70,11 +70,13 @@ aMimetype
 =
 XPI_CONTENT_TYPE
 )
+{
 throw
 Cr
 .
 NS_ERROR_WONT_HANDLE_CONTENT
 ;
+}
 if
 (
 !
@@ -86,11 +88,13 @@ Ci
 nsIChannel
 )
 )
+{
 throw
 Cr
 .
 NS_ERROR_WONT_HANDLE_CONTENT
 ;
+}
 let
 uri
 =
@@ -124,6 +128,7 @@ if
 (
 callbacks
 )
+{
 window
 =
 callbacks
@@ -135,6 +140,7 @@ Ci
 nsIDOMWindow
 )
 ;
+}
 aRequest
 .
 cancel
@@ -244,6 +250,7 @@ nodePrincipal
 .
 isSystemPrincipal
 )
+{
 element
 =
 element
@@ -252,6 +259,7 @@ ownerGlobal
 .
 frameElement
 ;
+}
 if
 (
 element

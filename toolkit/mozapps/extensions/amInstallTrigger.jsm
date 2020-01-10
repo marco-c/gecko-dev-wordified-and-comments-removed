@@ -449,6 +449,7 @@ nodePrincipal
 .
 isSystemPrincipal
 )
+{
 element
 =
 element
@@ -457,6 +458,7 @@ ownerGlobal
 .
 frameElement
 ;
+}
 if
 (
 element
@@ -547,10 +549,12 @@ callback
 function
 "
 )
+{
 return
 -
 1
 ;
+}
 let
 callbackID
 =
@@ -1008,9 +1012,7 @@ filename
 ]
 =
 {
-"
 URL
-"
 :
 url
 }

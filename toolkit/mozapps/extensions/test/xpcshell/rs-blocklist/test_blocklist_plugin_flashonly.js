@@ -66,9 +66,11 @@ Plug
 in
 "
 )
+{
 return
 tag
 ;
+}
 }
 return
 null
@@ -165,6 +167,7 @@ if
 !
 plugin
 )
+{
 do_throw
 (
 "
@@ -175,6 +178,7 @@ found
 "
 )
 ;
+}
 Services
 .
 obs

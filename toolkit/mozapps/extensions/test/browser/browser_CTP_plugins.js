@@ -285,9 +285,7 @@ versionRange
 :
 [
 {
-"
 severity
-"
 :
 "
 2

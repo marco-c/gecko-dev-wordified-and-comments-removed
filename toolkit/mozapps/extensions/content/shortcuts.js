@@ -140,8 +140,10 @@ if
 (
 templatesLoaded
 )
+{
 return
 ;
+}
 templatesLoaded
 =
 true
@@ -300,9 +302,7 @@ sidebarAction
 let
 getCommandDescriptionId
 =
-(
 command
-)
 =
 >
 {
@@ -846,6 +846,7 @@ if
 !
 error
 )
+{
 error
 =
 document
@@ -860,6 +861,7 @@ message
 "
 )
 ;
+}
 let
 {
 x
@@ -948,6 +950,7 @@ if
 !
 error
 )
+{
 error
 =
 document
@@ -962,6 +965,7 @@ message
 "
 )
 ;
+}
 error
 .
 style
@@ -1606,6 +1610,7 @@ platform
 macosx
 "
 )
+{
 setError
 (
 input
@@ -1618,7 +1623,9 @@ mac
 "
 )
 ;
+}
 else
+{
 setError
 (
 input
@@ -1631,6 +1638,7 @@ other
 "
 )
 ;
+}
 break
 ;
 case
@@ -1808,8 +1816,10 @@ if
 !
 extension
 )
+{
 continue
 ;
+}
 if
 (
 extension
@@ -1947,19 +1957,23 @@ b
 .
 shortcut
 )
+{
 return
 0
 ;
+}
 if
 (
 a
 .
 shortcut
 )
+{
 return
 -
 1
 ;
+}
 return
 1
 ;
@@ -2285,9 +2299,7 @@ limit
 let
 setLabel
 =
-(
 type
-)
 =
 >
 {
@@ -2328,9 +2340,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {

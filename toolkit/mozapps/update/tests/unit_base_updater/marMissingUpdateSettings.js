@@ -60,13 +60,11 @@ runUpdate
 (
 STATE_FAILED_UPDATE_SETTINGS_FILE_CHANNEL
 false
-(
 USE_EXECV
 ?
 0
 :
 1
-)
 false
 )
 ;

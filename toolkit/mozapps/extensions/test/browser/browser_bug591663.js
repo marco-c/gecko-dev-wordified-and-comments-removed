@@ -252,12 +252,10 @@ is
 emptyNotice
 .
 hidden
-(
 aItem
 =
 =
 null
-)
 "
 Empty
 notice

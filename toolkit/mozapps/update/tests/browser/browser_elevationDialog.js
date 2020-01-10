@@ -141,7 +141,6 @@ waitForCondition
 )
 =
 >
-(
 !
 Services
 .
@@ -154,7 +153,6 @@ Update
 :
 Elevation
 "
-)
 )
 "
 The
@@ -210,7 +208,6 @@ waitForCondition
 )
 =
 >
-(
 !
 Services
 .
@@ -223,7 +220,6 @@ Update
 :
 Elevation
 "
-)
 )
 "
 The
@@ -329,7 +325,6 @@ waitForCondition
 )
 =
 >
-(
 !
 Services
 .
@@ -342,7 +337,6 @@ Update
 :
 Elevation
 "
-)
 )
 "
 The
@@ -428,7 +422,6 @@ waitForCondition
 )
 =
 >
-(
 !
 Services
 .
@@ -441,7 +434,6 @@ Update
 :
 Elevation
 "
-)
 )
 "
 The

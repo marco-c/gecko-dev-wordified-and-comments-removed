@@ -1403,6 +1403,7 @@ win
 ok
 (
 !
+(
 await
 AddonManager
 .
@@ -1411,6 +1412,7 @@ getAddonByID
 addon3
 .
 id
+)
 )
 "
 The
@@ -1458,6 +1460,7 @@ uninstall
 ok
 (
 !
+(
 await
 AddonManager
 .
@@ -1466,6 +1469,7 @@ getAddonByID
 themeAddon
 .
 id
+)
 )
 "
 The
@@ -4158,9 +4162,7 @@ skip
 -
 add
 "
-(
 e
-)
 =
 >
 e

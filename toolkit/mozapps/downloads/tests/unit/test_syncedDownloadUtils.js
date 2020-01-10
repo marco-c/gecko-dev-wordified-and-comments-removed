@@ -46,6 +46,7 @@ of
 9999
 ]
 )
+{
 downloadTimes
 [
 time
@@ -61,6 +62,7 @@ time
 0
 ]
 ;
+}
 let
 lastSec
 =
@@ -81,6 +83,7 @@ entries
 downloadTimes
 )
 )
+{
 Assert
 .
 equal
@@ -98,4 +101,5 @@ lastSec
 text
 )
 ;
+}
 }

@@ -90,9 +90,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -137,9 +135,7 @@ setup
 setup_redirect
 (
 {
-"
 Location
-"
 :
 "
 data

@@ -76,6 +76,7 @@ aDirectory
 )
 {
 return
+(
 aDirectory
 .
 exists
@@ -94,6 +95,7 @@ aDirectory
 .
 isWritable
 (
+)
 )
 ;
 }
@@ -1273,12 +1275,14 @@ isUsableDirectory
 lastDir
 )
 )
+{
 picker
 .
 displayDirectory
 =
 lastDir
 ;
+}
 picker
 .
 open
@@ -1343,6 +1347,7 @@ result
 .
 leafName
 )
+{
 result
 .
 remove
@@ -1350,6 +1355,7 @@ remove
 false
 )
 ;
+}
 }
 catch
 (
@@ -1465,6 +1471,7 @@ aFileExt
 )
 {
 return
+(
 DownloadPaths
 .
 sanitize
@@ -1488,6 +1495,7 @@ aFileExt
 :
 "
 "
+)
 )
 ;
 }
@@ -1720,12 +1728,14 @@ Ci
 .
 nsINestedURI
 )
+{
 url
 =
 url
 .
 innermostURI
 ;
+}
 var
 fname
 =
@@ -1796,12 +1806,14 @@ if
 (
 suggestedFileName
 )
+{
 fname
 =
 iconPath
 =
 suggestedFileName
 ;
+}
 var
 displayName
 =
@@ -1924,7 +1936,6 @@ MIMEType
 var
 shouldntRememberChoice
 =
-(
 mimeType
 =
 =
@@ -1954,7 +1965,6 @@ this
 mLauncher
 .
 targetFileIsExecutable
-)
 ;
 if
 (
@@ -2661,6 +2671,7 @@ primaryExtension
 "
 "
 )
+{
 typeString
 =
 this
@@ -2686,13 +2697,16 @@ toUpperCase
 ]
 )
 ;
+}
 else
+{
 typeString
 =
 mimeInfo
 .
 MIMEType
 ;
+}
 }
 if
 (
@@ -3252,7 +3266,6 @@ openHandler
 .
 selectedItem
 =
-(
 otherHandler
 &
 &
@@ -3260,7 +3273,6 @@ otherHandler
 otherHandler
 .
 hidden
-)
 ?
 otherHandler
 :
@@ -3385,6 +3397,7 @@ useOtherHandler
 )
 {
 return
+(
 this
 .
 dialogElement
@@ -3410,6 +3423,7 @@ selectedIndex
 =
 =
 1
+)
 ;
 }
 get
@@ -3418,6 +3432,7 @@ useSystemDefault
 )
 {
 return
+(
 this
 .
 dialogElement
@@ -3443,6 +3458,7 @@ selectedIndex
 =
 =
 0
+)
 ;
 }
 toggleRememberChoice
@@ -3504,13 +3520,16 @@ id
 choose
 "
 )
+{
 this
 .
 chooseApp
 (
 )
 ;
+}
 else
+{
 openHandler
 .
 setAttribute
@@ -3525,6 +3544,7 @@ selectedItem
 id
 )
 ;
+}
 }
 updateOKButton
 (
@@ -3656,6 +3676,7 @@ appChanged
 )
 {
 return
+(
 this
 .
 helperAppChoice
@@ -3670,6 +3691,7 @@ mLauncher
 MIMEInfo
 .
 preferredApplicationHandler
+)
 ;
 }
 updateMIMEInfo
@@ -3740,6 +3762,7 @@ if
 (
 needUpdate
 )
+{
 this
 .
 mLauncher
@@ -3754,6 +3777,7 @@ nsIMIMEInfo
 .
 saveToDisk
 ;
+}
 }
 else
 if
@@ -3784,6 +3808,7 @@ if
 (
 needUpdate
 )
+{
 this
 .
 mLauncher
@@ -3798,6 +3823,7 @@ nsIMIMEInfo
 .
 useSystemDefault
 ;
+}
 }
 else
 {
@@ -3879,7 +3905,6 @@ MIMEInfo
 alwaysAskBeforeHandling
 !
 =
-(
 !
 this
 .
@@ -3891,7 +3916,6 @@ rememberChoice
 )
 .
 checked
-)
 ;
 needUpdate
 =
@@ -4240,12 +4264,14 @@ octet
 stream
 "
 )
+{
 this
 .
 updateHelperAppPref
 (
 )
 ;
+}
 }
 catch
 (
@@ -4575,6 +4601,7 @@ platform
 win
 "
 )
+{
 otherHandler
 .
 label
@@ -4590,7 +4617,9 @@ chosenApp
 executable
 )
 ;
+}
 else
+{
 otherHandler
 .
 label
@@ -4601,6 +4630,7 @@ chosenApp
 .
 name
 ;
+}
 this
 .
 dialogElement
@@ -4685,12 +4715,14 @@ if
 !
 lastSelectedID
 )
+{
 lastSelectedID
 =
 "
 defaultHandler
 "
 ;
+}
 openHandler
 .
 selectedItem

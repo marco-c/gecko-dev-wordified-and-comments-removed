@@ -32,8 +32,10 @@ cache
 entry
 "
 )
+{
 return
 ;
+}
 if
 (
 aData
@@ -51,8 +53,10 @@ aSubject
 =
 null
 )
+{
 return
 ;
+}
 if
 (
 !

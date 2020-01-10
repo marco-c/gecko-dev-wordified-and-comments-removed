@@ -867,6 +867,7 @@ values
 .
 length
 )
+{
 result
 .
 push
@@ -880,6 +881,7 @@ i
 )
 )
 ;
+}
 }
 return
 result
@@ -1232,9 +1234,11 @@ if
 !
 success
 )
+{
 throw
 result
 ;
+}
 return
 result
 ;
@@ -1468,6 +1472,7 @@ if
 (
 aPath
 )
+{
 aPath
 .
 split
@@ -1490,6 +1495,7 @@ part
 )
 )
 ;
+}
 return
 Services
 .
@@ -2481,7 +2487,6 @@ aDBAddon
 let
 mustGetMod
 =
-(
 aDBAddon
 .
 visible
@@ -2497,7 +2502,6 @@ disabled
 this
 .
 enabled
-)
 ;
 this
 .
@@ -3558,6 +3562,7 @@ var
 BuiltInLocation
 =
 new
+(
 class
 _BuiltInLocation
 extends
@@ -3630,6 +3635,7 @@ false
 ;
 }
 }
+)
 (
 )
 ;
@@ -4043,6 +4049,7 @@ entry
 leafName
 )
 )
+{
 logger
 .
 debug
@@ -4069,6 +4076,7 @@ entry
 path
 )
 ;
+}
 continue
 ;
 }
@@ -4514,7 +4522,6 @@ setStr
 ;
 if
 (
-(
 typeof
 addonSet
 =
@@ -4522,7 +4529,6 @@ addonSet
 "
 object
 "
-)
 &
 &
 addonSet
@@ -4746,12 +4752,14 @@ MOZ_APP_NAME
 thunderbird
 "
 )
+{
 appVendor
 =
 "
 Mozilla
 "
 ;
+}
 return
 SOFTWARE
 \
@@ -5382,7 +5390,6 @@ else
 let
 addonChanged
 =
-(
 xpiState
 .
 getModTime
@@ -5399,7 +5406,6 @@ path
 xpiState
 .
 path
-)
 ;
 xpiState
 .
@@ -6225,9 +6231,11 @@ inSafeMode
 !
 runInSafeMode
 )
+{
 return
 null
 ;
+}
 try
 {
 if
@@ -6372,6 +6380,7 @@ addon
 .
 active
 )
+{
 await
 XPIDatabase
 .
@@ -6380,6 +6389,7 @@ updateAddonDisabledState
 addon
 )
 ;
+}
 }
 }
 }
@@ -7409,6 +7419,7 @@ isDBLoaded
 {
 return
 (
+(
 Object
 .
 getOwnPropertyDescriptor
@@ -7429,6 +7440,7 @@ initialized
 |
 |
 false
+)
 ;
 }
 addonIsActive
@@ -7480,11 +7492,9 @@ return
 ;
 }
 return
-(
 a
 <
 b
-)
 ?
 -
 1
@@ -7678,6 +7688,7 @@ _telemetryDetails
 aId
 ]
 )
+{
 this
 .
 _telemetryDetails
@@ -7688,6 +7699,7 @@ aId
 {
 }
 ;
+}
 Object
 .
 assign
@@ -8431,6 +8443,7 @@ Cu
 .
 isInAutomation
 )
+{
 Services
 .
 prefs
@@ -8441,6 +8454,7 @@ PREF_XPI_SIGNATURES_REQUIRED
 this
 )
 ;
+}
 Services
 .
 prefs
@@ -8795,12 +8809,14 @@ addon
 id
 )
 )
+{
 reason
 =
 BOOTSTRAP_REASONS
 .
 ADDON_INSTALL
 ;
+}
 else
 if
 (
@@ -8820,12 +8836,14 @@ addon
 id
 )
 )
+{
 reason
 =
 BOOTSTRAP_REASONS
 .
 ADDON_ENABLE
 ;
+}
 BootstrapScope
 .
 get
@@ -10179,6 +10197,7 @@ in
 aManifests
 )
 )
+{
 aManifests
 [
 loc
@@ -10189,6 +10208,7 @@ name
 {
 }
 ;
+}
 aManifests
 [
 loc
@@ -10772,7 +10792,6 @@ filter
 addon
 =
 >
-(
 addon
 &
 &
@@ -10792,7 +10811,6 @@ permissions
 AddonManager
 .
 PERM_CAN_ENABLE
-)
 )
 ;
 }
@@ -10876,6 +10894,7 @@ aInstanceID
 symbol
 "
 )
+{
 throw
 Components
 .
@@ -10895,6 +10914,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 for
 (
 let

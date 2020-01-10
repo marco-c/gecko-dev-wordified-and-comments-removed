@@ -524,6 +524,7 @@ addon
 .
 hashFunction
 )
+{
 xml
 +
 =
@@ -537,12 +538,14 @@ hashFunction
 }
 "
 ;
+}
 if
 (
 addon
 .
 hashValue
 )
+{
 xml
 +
 =
@@ -556,6 +559,7 @@ hashValue
 }
 "
 ;
+}
 xml
 +
 =
@@ -950,6 +954,7 @@ exists
 (
 )
 )
+{
 updatesDir
 .
 remove
@@ -957,6 +962,7 @@ remove
 true
 )
 ;
+}
 Services
 .
 prefs
@@ -1689,9 +1695,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 updateList
 }
@@ -1807,9 +1811,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 updateList
 }
@@ -2103,9 +2105,7 @@ await
 overrideBuiltIns
 (
 {
-"
 system
-"
 :
 updateList
 }

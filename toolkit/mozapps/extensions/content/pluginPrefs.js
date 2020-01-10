@@ -55,9 +55,7 @@ const
 PREFS
 =
 {
-"
 pluginFlashBlockingCheckbox
-"
 :
 {
 pref
@@ -73,9 +71,7 @@ invert
 :
 false
 }
-"
 pluginEnableProtectedModeCheckbox
-"
 :
 {
 pref
@@ -124,8 +120,10 @@ if
 !
 plugin
 )
+{
 return
 ;
+}
 let
 libLabel
 =

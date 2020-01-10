@@ -227,6 +227,7 @@ exists
 (
 )
 )
+{
 blocklist
 .
 remove
@@ -234,6 +235,7 @@ remove
 true
 )
 ;
+}
 blocklist
 =
 FileUtils
@@ -254,6 +256,7 @@ exists
 (
 )
 )
+{
 blocklist
 .
 remove
@@ -261,6 +264,7 @@ remove
 true
 )
 ;
+}
 }
 let
 jsmInternalObj

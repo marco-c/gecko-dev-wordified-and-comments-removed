@@ -151,6 +151,7 @@ prefHasUserValue
 LAST_DIR_PREF
 )
 )
+{
 Services
 .
 prefs
@@ -160,6 +161,7 @@ clearUserPref
 LAST_DIR_PREF
 )
 ;
+}
 let
 cps2
 =
@@ -417,10 +419,12 @@ exists
 (
 )
 )
+{
 gDownloadLastDirFile
 =
 null
 ;
+}
 if
 (
 this
@@ -435,12 +439,14 @@ if
 !
 gDownloadLastDirFile
 )
+{
 gDownloadLastDirFile
 =
 readLastDirPref
 (
 )
 ;
+}
 return
 gDownloadLastDirFile
 ;
@@ -559,9 +565,11 @@ handleResult
 aResult
 =
 >
+(
 result
 =
 aResult
+)
 handleCompletion
 (
 aReason
@@ -714,6 +722,7 @@ Ci
 .
 nsIFile
 )
+{
 cps2
 .
 set
@@ -728,7 +737,9 @@ this
 fakeContext
 )
 ;
+}
 else
+{
 cps2
 .
 removeByDomainAndName
@@ -740,6 +751,7 @@ this
 fakeContext
 )
 ;
+}
 }
 if
 (
@@ -758,6 +770,7 @@ Ci
 .
 nsIFile
 )
+{
 gDownloadLastDirFile
 =
 aFile
@@ -766,11 +779,14 @@ clone
 (
 )
 ;
+}
 else
+{
 gDownloadLastDirFile
 =
 null
 ;
+}
 }
 else
 if

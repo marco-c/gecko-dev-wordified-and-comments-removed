@@ -1311,6 +1311,7 @@ id
 )
 ;
 return
+(
 perms
 .
 permissions
@@ -1334,6 +1335,7 @@ internal
 :
 privateBrowsingAllowed
 "
+)
 ;
 }
 add_task
@@ -1764,10 +1766,12 @@ false
 ok
 (
 !
+(
 await
 hasPrivateAllowed
 (
 id
+)
 )
 "
 Private
@@ -1863,10 +1867,12 @@ off
 ok
 (
 !
+(
 await
 hasPrivateAllowed
 (
 id
+)
 )
 "
 Private
@@ -1899,10 +1905,12 @@ off
 ok
 (
 !
+(
 await
 hasPrivateAllowed
 (
 id
+)
 )
 "
 Private
@@ -3155,9 +3163,7 @@ com
 dictionaries
 :
 {
-"
 und
-"
 :
 "
 dictionaries

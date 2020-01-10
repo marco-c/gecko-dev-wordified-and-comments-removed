@@ -269,11 +269,10 @@ aMore
 +
 aRate
 +
-"
+'
 [
-\
 "
-"
+'
 +
 status
 .
@@ -286,10 +285,9 @@ gDash
 "
 )
 +
+'
 "
-\
-"
-"
+'
 +
 last
 .
@@ -338,6 +336,7 @@ last
 =
 Infinity
 )
+{
 Assert
 .
 equal
@@ -349,7 +348,9 @@ aTest
 ]
 )
 ;
+}
 else
+{
 Assert
 .
 ok
@@ -366,10 +367,12 @@ aTest
 ]
 )
 <
+0
 .
 1
 )
 ;
+}
 }
 function
 testURI
@@ -587,7 +590,6 @@ DateTimeFormat
 testGetReadableDates
 (
 today_11_30
-(
 new
 cDtf
 (
@@ -599,7 +601,6 @@ timeStyle
 short
 "
 }
-)
 )
 .
 format
@@ -611,7 +612,6 @@ today_11_30
 testGetReadableDates
 (
 today_12_30
-(
 new
 cDtf
 (
@@ -623,7 +623,6 @@ timeStyle
 short
 "
 }
-)
 )
 .
 format
@@ -756,13 +755,11 @@ Assert
 equal
 (
 dateTimeFull
-(
 new
 cDtf
 (
 undefined
 dtOptions
-)
 )
 .
 format
@@ -1263,7 +1260,7 @@ sec
 "
 0
 .
-000
+0
 ]
 )
 ;
@@ -1469,7 +1466,7 @@ sec
 "
 555
 .
-550
+55
 ]
 )
 ;
@@ -1638,7 +1635,7 @@ sec
 "
 9823
 .
-410
+41
 ]
 )
 ;
@@ -1705,7 +1702,7 @@ sec
 "
 134981
 .
-320
+32
 ]
 )
 ;
@@ -1777,7 +1774,7 @@ sec
 "
 6694972
 .
-470
+47
 ]
 )
 ;
@@ -2119,7 +2116,7 @@ KB
 "
 0
 .
-000
+0
 ]
 )
 ;
@@ -2281,7 +2278,7 @@ KB
 "
 555
 .
-550
+55
 ]
 )
 ;
@@ -2416,7 +2413,7 @@ KB
 "
 9823
 .
-410
+41
 ]
 )
 ;
@@ -2471,7 +2468,7 @@ MB
 "
 134981
 .
-320
+32
 ]
 )
 ;
@@ -2527,7 +2524,7 @@ GB
 "
 6694972
 .
-470
+47
 ]
 )
 ;

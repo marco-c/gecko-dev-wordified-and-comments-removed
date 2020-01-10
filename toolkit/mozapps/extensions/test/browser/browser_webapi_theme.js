@@ -81,9 +81,7 @@ withNewTab
 (
 TESTPAGE
 async
-(
 browser
-)
 =
 >
 {
@@ -230,9 +228,7 @@ spawn
 browser
 URL
 async
-(
 url
-)
 =
 >
 {

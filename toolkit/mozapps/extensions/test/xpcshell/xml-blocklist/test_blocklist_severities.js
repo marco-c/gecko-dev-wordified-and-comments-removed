@@ -1149,12 +1149,14 @@ addon
 of
 ADDONS
 )
+{
 await
 createAddon
 (
 addon
 )
 ;
+}
 }
 )
 ;

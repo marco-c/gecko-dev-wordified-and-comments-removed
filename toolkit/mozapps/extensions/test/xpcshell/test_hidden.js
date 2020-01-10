@@ -230,7 +230,6 @@ promiseRestartManager
 (
 )
 ;
-(
 [
 addon1
 addon2
@@ -257,7 +256,6 @@ mozilla
 org
 "
 ]
-)
 )
 ;
 ok

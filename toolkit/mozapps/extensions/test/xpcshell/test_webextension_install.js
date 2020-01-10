@@ -35,6 +35,7 @@ exists
 (
 )
 )
+{
 profileDir
 .
 create
@@ -49,6 +50,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
+}
 createAppInfo
 (
 "
@@ -348,9 +350,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 "
 *
@@ -365,9 +365,7 @@ com
 /
 *
 "
-"
 js
-"
 :
 [
 "
@@ -422,6 +420,7 @@ err
 >
 {
 return
+(
 err
 .
 additionalErrors
@@ -469,6 +468,7 @@ com
 /
 *
 "
+)
 ;
 }
 "
@@ -1860,7 +1860,6 @@ compatible
 with
 application
 version
-\
 .
 "
 +
@@ -1871,7 +1870,6 @@ on
 minVersion
 :
 2
-\
 .
 "
 )
@@ -1993,7 +1991,6 @@ compatible
 with
 application
 version
-\
 .
 "
 +
@@ -2004,7 +2001,6 @@ on
 maxVersion
 :
 1
-\
 .
 "
 )

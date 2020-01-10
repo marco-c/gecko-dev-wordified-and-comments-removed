@@ -91,12 +91,14 @@ event
 )
 =
 >
+(
 triggered
 [
 event
 ]
 =
 true
+)
 )
 ;
 }

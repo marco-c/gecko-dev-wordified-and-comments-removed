@@ -467,6 +467,7 @@ gPluginIDs
 aNum
 ]
 )
+{
 do_throw
 (
 "
@@ -479,6 +480,7 @@ plugin
 aNum
 )
 ;
+}
 gPluginIDs
 [
 aNum
@@ -673,6 +675,7 @@ duplicate
 plugin
 "
 )
+{
 found_plugin
 (
 3
@@ -681,6 +684,7 @@ aAddon
 id
 )
 ;
+}
 else
 if
 (
@@ -700,6 +704,7 @@ are
 different
 "
 )
+{
 found_plugin
 (
 4
@@ -708,7 +713,9 @@ aAddon
 id
 )
 ;
+}
 else
+{
 do_throw
 (
 "
@@ -724,6 +731,7 @@ aAddon
 description
 )
 ;
+}
 }
 else
 {

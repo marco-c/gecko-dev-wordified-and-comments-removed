@@ -76,7 +76,6 @@ jsm
 const
 BIN_SUFFIX
 =
-(
 AppConstants
 .
 platform
@@ -93,7 +92,6 @@ exe
 :
 "
 "
-)
 ;
 const
 FILE_UPDATER_BIN
@@ -698,13 +696,11 @@ waitForCondition
 )
 =
 >
-(
 !
 continueFile
 .
 exists
 (
-)
 )
 "
 Waiting
@@ -2268,9 +2264,7 @@ step
 if
 (
 typeof
-(
 step
-)
 =
 =
 "
@@ -2748,9 +2742,7 @@ step
 if
 (
 typeof
-(
 step
-)
 =
 =
 "
@@ -2804,7 +2796,6 @@ waitForCondition
 )
 =
 >
-(
 updateDeck
 .
 selectedPanel
@@ -2831,7 +2822,6 @@ id
 "
 apply
 "
-)
 )
 "
 Waiting
@@ -3008,7 +2998,6 @@ patchType
 let
 isLastPatch
 =
-(
 i
 =
 =
@@ -3017,7 +3006,6 @@ downloadInfo
 length
 -
 1
-)
 ;
 if
 (
@@ -3061,7 +3049,6 @@ waitForCondition
 )
 =
 >
-(
 patch
 .
 getProperty
@@ -3074,7 +3061,6 @@ data
 [
 resultName
 ]
-)
 "
 Waiting
 for
@@ -3264,7 +3250,6 @@ waitForCondition
 )
 =
 >
-(
 aboutDialog
 .
 document
@@ -3273,7 +3258,6 @@ activeElement
 =
 =
 buttonEl
-)
 "
 The
 button
@@ -3450,7 +3434,6 @@ waitForCondition
 )
 =
 >
-(
 gUpdateManager
 .
 activeUpdate
@@ -3466,7 +3449,6 @@ state
 params
 .
 waitForUpdateState
-)
 "
 Waiting
 for
@@ -3607,9 +3589,7 @@ step
 if
 (
 typeof
-(
 step
-)
 =
 =
 "
@@ -3683,7 +3663,6 @@ waitForCondition
 )
 =
 >
-(
 updateDeck
 .
 selectedPanel
@@ -3710,7 +3689,6 @@ id
 "
 apply
 "
-)
 )
 "
 Waiting
@@ -3885,7 +3863,6 @@ patchType
 let
 isLastPatch
 =
-(
 i
 =
 =
@@ -3894,7 +3871,6 @@ downloadInfo
 length
 -
 1
-)
 ;
 if
 (
@@ -3938,7 +3914,6 @@ waitForCondition
 )
 =
 >
-(
 patch
 .
 getProperty
@@ -3951,7 +3926,6 @@ data
 [
 resultName
 ]
-)
 "
 Waiting
 for
@@ -4386,7 +4360,6 @@ waitForCondition
 )
 =
 >
-(
 gUpdateManager
 .
 activeUpdate
@@ -4402,7 +4375,6 @@ state
 params
 .
 waitForUpdateState
-)
 "
 Waiting
 for

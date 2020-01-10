@@ -172,9 +172,7 @@ sha1
 :
 foo
 "
-"
 Location
-"
 :
 "
 http
@@ -358,9 +356,7 @@ sha1
 :
 ee95834ad862245a9ef99ccecc2a857cadc16404
 "
-"
 Location
-"
 :
 "
 http

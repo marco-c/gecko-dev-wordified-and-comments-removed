@@ -47,13 +47,11 @@ runUpdate
 (
 STATE_FAILED_VERSION_DOWNGRADE_ERROR
 false
-(
 USE_EXECV
 ?
 0
 :
 1
-)
 false
 )
 ;

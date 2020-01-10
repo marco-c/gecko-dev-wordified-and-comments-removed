@@ -959,6 +959,7 @@ addon
 )
 {
 return
+(
 ABUSE_REPORT_ENABLED
 &
 &
@@ -989,6 +990,7 @@ isBuiltin
 addon
 .
 isSystem
+)
 )
 ;
 }
@@ -1748,12 +1750,14 @@ false
 ;
 }
 return
+(
 allowPrivateBrowsingByDefault
 |
 |
 isAllowedInPrivateBrowsing
 (
 addon
+)
 )
 ;
 }
@@ -2298,6 +2302,7 @@ preferClientId
 )
 |
 |
+(
 !
 preferClientId
 &
@@ -2309,6 +2314,7 @@ _resultPromises
 get
 (
 true
+)
 )
 ;
 if
@@ -2377,6 +2383,7 @@ clientIdDiscoveryEnabled
 )
 {
 return
+(
 Services
 .
 prefs
@@ -2405,6 +2412,7 @@ PrivateBrowsingUtils
 isContentWindowPrivate
 (
 window
+)
 )
 ;
 }
@@ -4058,7 +4066,6 @@ userDisabled
 let
 resultProp
 =
-(
 action
 =
 =
@@ -4072,7 +4079,6 @@ activate
 addon
 .
 isFlashPlugin
-)
 ?
 "
 hidden
@@ -11815,9 +11821,7 @@ uninstall
 description
 "
 {
-"
 addon
-"
 :
 addon
 .

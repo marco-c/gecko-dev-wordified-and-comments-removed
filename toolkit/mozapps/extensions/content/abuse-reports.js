@@ -2,9 +2,7 @@ const
 ABUSE_REPORT_MESSAGE_BARS
 =
 {
-"
 submitting
-"
 :
 {
 id
@@ -20,9 +18,7 @@ cancel
 "
 ]
 }
-"
 submitted
-"
 :
 {
 id
@@ -90,9 +86,7 @@ dismissable
 :
 true
 }
-"
 ERROR_ABORTED_SUBMIT
-"
 :
 {
 id
@@ -109,9 +103,7 @@ dismissable
 :
 true
 }
-"
 ERROR_ADDON_NOTFOUND
-"
 :
 {
 id
@@ -128,9 +120,7 @@ dismissable
 :
 true
 }
-"
 ERROR_CLIENT
-"
 :
 {
 id
@@ -147,9 +137,7 @@ dismissable
 :
 true
 }
-"
 ERROR_NETWORK
-"
 :
 {
 id
@@ -173,9 +161,7 @@ type
 error
 "
 }
-"
 ERROR_RECENT_SUBMIT
-"
 :
 {
 id
@@ -203,9 +189,7 @@ type
 error
 "
 }
-"
 ERROR_SERVER
-"
 :
 {
 id
@@ -229,9 +213,7 @@ type
 error
 "
 }
-"
 ERROR_UNKNOWN
-"
 :
 {
 id
@@ -313,9 +295,7 @@ onaction
 const
 getMessageL10n
 =
-(
 id
-)
 =
 >
 abuse
@@ -331,9 +311,7 @@ id
 const
 getActionL10n
 =
-(
 action
-)
 =
 >
 getMessageL10n
@@ -738,9 +716,7 @@ addonType
 {
 onaction
 :
-(
 action
-)
 =
 >
 {
@@ -869,9 +845,7 @@ addonType
 {
 onaction
 :
-(
 action
-)
 =
 >
 {
@@ -964,9 +938,7 @@ addonType
 {
 onaction
 :
-(
 action
-)
 =
 >
 {

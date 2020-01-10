@@ -241,6 +241,7 @@ updates
 in
 aData
 )
+{
 addonData
 .
 updates
@@ -249,13 +250,12 @@ aData
 .
 updates
 ;
+}
 let
 manifestJSON
 =
 {
-"
 addons
-"
 :
 {
 [
@@ -574,9 +574,7 @@ version
 applications
 :
 {
-"
 foo
-"
 :
 {
 }

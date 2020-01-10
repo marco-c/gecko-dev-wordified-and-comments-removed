@@ -118,10 +118,12 @@ if
 !
 gMultiProcessBrowser
 )
+{
 expectUncaughtException
 (
 )
 ;
+}
 BrowserTestUtils
 .
 loadURI

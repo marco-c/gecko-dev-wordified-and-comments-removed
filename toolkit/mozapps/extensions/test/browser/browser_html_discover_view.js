@@ -325,9 +325,7 @@ bhttps
 )
 /
 g
-(
 url
-)
 =
 >
 {
@@ -3772,9 +3770,7 @@ apiResponse
 let
 expectedAmoUrlFor
 =
-(
 where
-)
 =
 >
 {

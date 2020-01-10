@@ -206,14 +206,10 @@ EnterprisePolicyTesting
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisableSystemAddonUpdate
-"
 :
 true
 }

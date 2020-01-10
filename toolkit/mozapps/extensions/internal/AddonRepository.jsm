@@ -541,9 +541,11 @@ if
 !
 html
 )
+{
 return
 html
 ;
+}
 var
 converter
 =
@@ -648,6 +650,7 @@ Ci
 .
 nsISupportsString
 )
+{
 return
 output
 .
@@ -670,6 +673,7 @@ n
 "
 )
 ;
+}
 return
 html
 ;
@@ -765,8 +769,10 @@ preference
 true
 )
 )
+{
 continue
 ;
+}
 if
 (
 addon
@@ -972,9 +978,7 @@ _
 |
 |
 typeof
-(
 value
-)
 =
 =
 =
@@ -982,8 +986,10 @@ value
 function
 "
 )
+{
 continue
 ;
+}
 try
 {
 switch
@@ -1103,6 +1109,7 @@ _
 "
 )
 )
+{
 json
 [
 property
@@ -1110,6 +1117,7 @@ property
 =
 value
 ;
+}
 }
 return
 json
@@ -1139,12 +1147,10 @@ PREF_GETADDONS_BROWSEADDONS
 )
 ;
 return
-(
 url
 !
 =
 null
-)
 ?
 url
 :
@@ -1176,12 +1182,10 @@ aSearchTerms
 )
 ;
 return
-(
 url
 !
 =
 null
-)
 ?
 url
 :
@@ -1285,7 +1289,6 @@ DEFAULT_METADATA_UPDATETHRESHOLD_SEC
 )
 ;
 return
-(
 this
 .
 metadataAge
@@ -1293,7 +1296,6 @@ metadataAge
 )
 >
 threshold
-)
 ;
 }
 async
@@ -1536,9 +1538,7 @@ id
 const
 fetchNextPage
 =
-(
 url
-)
 =
 >
 {
@@ -3039,11 +3039,9 @@ aKey
 )
 {
 return
-(
 aKey
 in
 aSubstitutions
-)
 ?
 encodeURIComponent
 (
@@ -3099,6 +3097,7 @@ appID
 =
 TOOLKIT_ID
 )
+{
 appVersion
 =
 aPlatformVersion
@@ -3110,7 +3109,9 @@ appinfo
 .
 platformVersion
 ;
+}
 else
+{
 appVersion
 =
 aAppVersion
@@ -3122,6 +3123,7 @@ appinfo
 .
 version
 ;
+}
 if
 (
 Services
@@ -3956,11 +3958,13 @@ then
 )
 =
 >
+(
 this
 .
 _deleting
 =
 null
+)
 )
 .
 then
@@ -4416,9 +4420,11 @@ aObj
 instanceof
 AddonSearchResult
 )
+{
 return
 aObj
 ;
+}
 let
 id
 =
@@ -4433,9 +4439,11 @@ aObj
 .
 id
 )
+{
 return
 null
 ;
+}
 let
 addon
 =
@@ -4471,12 +4479,10 @@ aObj
 |
 |
 typeof
-(
 aObj
 [
 expectedProperty
 ]
-)
 =
 =
 =
@@ -4484,8 +4490,10 @@ expectedProperty
 function
 "
 )
+{
 continue
 ;
+}
 let
 value
 =
@@ -4578,6 +4586,7 @@ addon
 .
 developers
 )
+{
 addon
 .
 developers
@@ -4585,6 +4594,7 @@ developers
 [
 ]
 ;
+}
 for
 (
 let
@@ -4622,6 +4632,7 @@ addon
 .
 screenshots
 )
+{
 addon
 .
 screenshots
@@ -4629,6 +4640,7 @@ screenshots
 [
 ]
 ;
+}
 for
 (
 let
@@ -4666,6 +4678,7 @@ addon
 .
 icons
 )
+{
 addon
 .
 icons
@@ -4673,6 +4686,7 @@ icons
 {
 }
 ;
+}
 for
 (
 let
@@ -4774,12 +4788,10 @@ aObj
 switch
 (
 typeof
-(
 aObj
 [
 remainingProperty
 ]
-)
 )
 {
 case
@@ -4821,6 +4833,7 @@ _
 "
 )
 )
+{
 addon
 .
 _unsupportedProperties
@@ -4833,6 +4846,7 @@ aObj
 remainingProperty
 ]
 ;
+}
 }
 return
 addon

@@ -148,9 +148,7 @@ extensions
 :
 [
 {
-"
 guid
-"
 :
 "
 softblock1
@@ -160,15 +158,11 @@ mozilla
 .
 org
 "
-"
 versionRange
-"
 :
 [
 {
-"
 severity
-"
 :
 "
 1

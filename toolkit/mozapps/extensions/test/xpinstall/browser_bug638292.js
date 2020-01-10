@@ -95,7 +95,6 @@ function
 )
 {
 return
-(
 content
 .
 document
@@ -113,7 +112,6 @@ textContent
 "
 true
 "
-)
 ;
 }
 )

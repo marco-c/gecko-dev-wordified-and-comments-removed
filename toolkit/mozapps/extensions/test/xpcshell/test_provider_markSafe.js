@@ -49,6 +49,7 @@ this
 .
 markSafe
 )
+{
 AddonManagerPrivate
 .
 markProviderSafe
@@ -56,6 +57,7 @@ markProviderSafe
 this
 )
 ;
+}
 AddonManager
 .
 isInstallEnabled

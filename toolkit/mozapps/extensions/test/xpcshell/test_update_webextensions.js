@@ -303,6 +303,7 @@ in
 obj
 )
 )
+{
 obj
 [
 key
@@ -311,6 +312,7 @@ key
 {
 }
 ;
+}
 obj
 =
 obj
@@ -328,6 +330,7 @@ in
 obj
 )
 )
+{
 obj
 [
 prop
@@ -335,6 +338,7 @@ prop
 =
 value
 ;
+}
 }
 let
 id
@@ -961,19 +965,13 @@ updates
 "
 :
 {
-"
 applications
-"
 :
 {
-"
 gecko
-"
 :
 {
-"
 strict_min_version
-"
 :
 "
 48
@@ -1216,6 +1214,7 @@ AddonManager
 .
 STATE_DOWNLOAD_FAILED
 )
+{
 throw
 new
 Error
@@ -1236,6 +1235,7 @@ state
 )
 )
 ;
+}
 }
 )
 ;
