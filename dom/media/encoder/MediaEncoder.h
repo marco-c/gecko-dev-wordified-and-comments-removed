@@ -397,6 +397,14 @@ MediaEncoder
 private
 :
 void
+EnsureGraphStreamFrom
+(
+MediaStream
+*
+aStream
+)
+;
+void
 RunOnGraph
 (
 already_AddRefed
@@ -513,6 +521,12 @@ dom
 VideoStreamTrack
 >
 mVideoTrack
+;
+RefPtr
+<
+SharedDummyStream
+>
+mGraphStream
 ;
 TimeStamp
 mStartTime
