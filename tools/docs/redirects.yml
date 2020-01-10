@@ -3,6 +3,11 @@
 -
 redirects
 :
+browser
+/
+browser
+:
+browser
 testing
 /
 marionette
