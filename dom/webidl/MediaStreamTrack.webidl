@@ -346,10 +346,6 @@ facingMode
 ;
 DOMString
 mediaSource
-=
-"
-camera
-"
 ;
 long
 long
