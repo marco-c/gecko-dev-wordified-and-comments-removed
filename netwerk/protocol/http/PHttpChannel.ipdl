@@ -371,8 +371,10 @@ nsresult
 result
 RequestHeaderTuples
 changedHeaders
+uint32_t
+sourceRequestBlockingReason
 ChildLoadInfoForwarderArgs
-loadInfoForwarder
+targetLoadInfoForwarder
 uint32_t
 loadFlags
 nsIReferrerInfo

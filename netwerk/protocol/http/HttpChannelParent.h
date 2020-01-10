@@ -778,9 +778,13 @@ RequestHeaderTuples
 &
 changedHeaders
 const
+uint32_t
+&
+aSourceRequestBlockingReason
+const
 ChildLoadInfoForwarderArgs
 &
-aLoadInfoForwarder
+aTargetLoadInfoForwarder
 const
 uint32_t
 &

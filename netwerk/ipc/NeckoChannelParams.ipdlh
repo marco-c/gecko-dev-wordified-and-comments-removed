@@ -1575,6 +1575,9 @@ IPCServiceWorkerDescriptor
 ?
 controller
 ;
+uint32_t
+requestBlockingReason
+;
 }
 ;
 /
