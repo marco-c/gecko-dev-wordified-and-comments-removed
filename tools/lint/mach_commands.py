@@ -51,8 +51,29 @@ dirname
 __file__
 )
 )
-THIRD_PARTY_PATHS
+EXCLUSION_FILES
 =
+[
+    
+os
+.
+path
+.
+join
+(
+'
+tools
+'
+'
+rewriting
+'
+'
+Generated
+.
+txt
+'
+)
+    
 os
 .
 path
@@ -71,6 +92,7 @@ ThirdPartyPaths
 txt
 '
 )
+]
 GLOBAL_EXCLUDES
 =
 [
@@ -157,6 +179,12 @@ name
 ]
 )
     
+for
+path
+in
+EXCLUSION_FILES
+:
+        
 with
 open
 (
@@ -167,7 +195,7 @@ path
 join
 (
 topsrcdir
-THIRD_PARTY_PATHS
+path
 )
 '
 r
@@ -176,7 +204,7 @@ r
 as
 fh
 :
-        
+            
 excludes
 .
 extend
@@ -375,6 +403,12 @@ append
 here
 )
         
+for
+path
+in
+EXCLUSION_FILES
+:
+            
 parser
 .
 GLOBAL_SUPPORT_FILES
@@ -390,7 +424,7 @@ join
 self
 .
 topsrcdir
-THIRD_PARTY_PATHS
+path
 )
 )
         

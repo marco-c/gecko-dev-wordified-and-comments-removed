@@ -392,6 +392,16 @@ ThirdPartyPaths
 .
 txt
 '
+'
+/
+tools
+/
+rewriting
+/
+Generated
+.
+txt
+'
 ]
 HOST_COMPILE_FLAGS
 [

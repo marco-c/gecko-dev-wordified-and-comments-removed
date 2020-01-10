@@ -202,3 +202,12 @@ rewriting
 ThirdPartyPaths
 .
 txt
+generated
+:
+tools
+/
+rewriting
+/
+Generated
+.
+txt
