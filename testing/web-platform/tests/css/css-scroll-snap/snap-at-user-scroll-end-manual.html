@@ -93,10 +93,6 @@ margin
 :
 0px
 ;
-overflow
-:
-scroll
-;
 scroll
 -
 snap
@@ -155,6 +151,10 @@ background
 color
 :
 lightblue
+;
+overflow
+:
+hidden
 ;
 scroll
 -
@@ -533,6 +533,15 @@ scrolled_y
 )
 return
 ;
+snap_test
+.
+step
+(
+(
+)
+=
+>
+{
 assert_equals
 (
 window
@@ -573,6 +582,9 @@ snapped
 position
 .
 "
+)
+;
+}
 )
 ;
 /
