@@ -50,6 +50,8 @@ try
 const
 response
 =
+window
+.
 eval
 (
 message
