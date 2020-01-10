@@ -69,6 +69,11 @@ ConfirmDialog
 js
 '
 '
+EditorToolbar
+.
+js
+'
+'
 JSTerm
 .
 js
