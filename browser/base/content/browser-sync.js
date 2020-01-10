@@ -2363,7 +2363,7 @@ GetStringFromName
 "
 account
 .
-manageAccount
+settings
 "
 )
 ;
