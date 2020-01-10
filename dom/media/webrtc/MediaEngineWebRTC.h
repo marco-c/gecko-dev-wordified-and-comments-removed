@@ -378,9 +378,6 @@ MediaDevice
 *
 )
 ;
-Mutex
-mMutex
-;
 const
 bool
 mDelayAgnostic
