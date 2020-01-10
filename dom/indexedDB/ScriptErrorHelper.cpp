@@ -587,8 +587,9 @@ virtual
 ScriptErrorRunnable
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

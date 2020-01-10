@@ -300,6 +300,22 @@ mLoggingIdString
 NS_DECL_OWNINGTHREAD
 public
 :
+ThreadLocal
+(
+)
+=
+delete
+;
+ThreadLocal
+(
+const
+ThreadLocal
+&
+aOther
+)
+=
+delete
+;
 void
 AssertIsOnOwningThread
 (
@@ -509,22 +525,6 @@ ThreadLocal
 (
 )
 ;
-ThreadLocal
-(
-)
-=
-delete
-;
-ThreadLocal
-(
-const
-ThreadLocal
-&
-aOther
-)
-=
-delete
-;
 }
 ;
 class
@@ -581,6 +581,13 @@ return
 mFactory
 ;
 }
+bool
+SendDeleteMe
+(
+)
+=
+delete
+;
 private
 :
 explicit
@@ -601,7 +608,6 @@ SendDeleteMeInternal
 (
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -610,7 +616,6 @@ aWhy
 )
 override
 ;
-virtual
 PBackgroundIDBFactoryRequestChild
 *
 AllocPBackgroundIDBFactoryRequestChild
@@ -622,7 +627,6 @@ aParams
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIDBFactoryRequestChild
 (
@@ -632,7 +636,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundIDBDatabaseChild
 *
 AllocPBackgroundIDBDatabaseChild
@@ -647,7 +650,6 @@ aRequest
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIDBDatabaseChild
 (
@@ -678,13 +680,6 @@ PBackgroundIDBFactoryRequestChild
 aRequest
 )
 override
-;
-bool
-SendDeleteMe
-(
-)
-=
-delete
 ;
 }
 ;
@@ -860,7 +855,6 @@ DeleteDatabaseRequestResponse
 aResponse
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -869,7 +863,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -886,7 +879,6 @@ aResponse
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -903,7 +895,6 @@ aPrincipalInfo
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1008,6 +999,13 @@ return
 mDatabase
 ;
 }
+bool
+SendDeleteMe
+(
+)
+=
+delete
+;
 private
 :
 BackgroundDatabaseChild
@@ -1041,7 +1039,6 @@ ReleaseDOMObject
 (
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -1050,7 +1047,6 @@ aWhy
 )
 override
 ;
-virtual
 PBackgroundIDBDatabaseFileChild
 *
 AllocPBackgroundIDBDatabaseFileChild
@@ -1062,7 +1058,6 @@ aIPCBlob
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIDBDatabaseFileChild
 (
@@ -1072,7 +1067,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundIDBDatabaseRequestChild
 *
 AllocPBackgroundIDBDatabaseRequestChild
@@ -1084,7 +1078,6 @@ aParams
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIDBDatabaseRequestChild
 (
@@ -1094,7 +1087,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundIDBTransactionChild
 *
 AllocPBackgroundIDBTransactionChild
@@ -1113,7 +1105,6 @@ aMode
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIDBTransactionChild
 (
@@ -1123,7 +1114,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundIDBVersionChangeTransactionChild
 *
 AllocPBackgroundIDBVersionChangeTransactionChild
@@ -1147,7 +1137,6 @@ aNextIndexId
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1179,7 +1168,6 @@ aNextIndexId
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIDBVersionChangeTransactionChild
 (
@@ -1189,7 +1177,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundMutableFileChild
 *
 AllocPBackgroundMutableFileChild
@@ -1205,7 +1192,6 @@ aType
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundMutableFileChild
 (
@@ -1215,7 +1201,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1239,7 +1224,6 @@ aNewVersion
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1252,7 +1236,6 @@ RecvInvalidate
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1264,13 +1247,6 @@ RecvCloseAfterInvalidationComplete
 (
 )
 override
-;
-bool
-SendDeleteMe
-(
-)
-=
-delete
 ;
 }
 ;
@@ -1329,7 +1305,6 @@ CreateFileRequestResponse
 aResponse
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1447,7 +1422,7 @@ SetDOMTransaction
 (
 IDBTransaction
 *
-aDOMObject
+aTransaction
 )
 ;
 }
@@ -1473,7 +1448,6 @@ public
 #
 ifdef
 DEBUG
-virtual
 void
 AssertIsOnOwningThread
 (
@@ -1487,6 +1461,13 @@ void
 SendDeleteMeInternal
 (
 )
+;
+bool
+SendDeleteMe
+(
+)
+=
+delete
 ;
 private
 :
@@ -1503,7 +1484,6 @@ BackgroundTransactionChild
 (
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -1528,7 +1508,6 @@ aResult
 )
 override
 ;
-virtual
 PBackgroundIDBRequestChild
 *
 AllocPBackgroundIDBRequestChild
@@ -1540,7 +1519,6 @@ aParams
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIDBRequestChild
 (
@@ -1550,7 +1528,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundIDBCursorChild
 *
 AllocPBackgroundIDBCursorChild
@@ -1562,7 +1539,6 @@ aParams
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIDBCursorChild
 (
@@ -1571,13 +1547,6 @@ PBackgroundIDBCursorChild
 aActor
 )
 override
-;
-bool
-SendDeleteMe
-(
-)
-=
-delete
 ;
 }
 ;
@@ -1603,7 +1572,6 @@ public
 #
 ifdef
 DEBUG
-virtual
 void
 AssertIsOnOwningThread
 (
@@ -1619,6 +1587,13 @@ SendDeleteMeInternal
 bool
 aFailedConstructor
 )
+;
+bool
+SendDeleteMe
+(
+)
+=
+delete
 ;
 private
 :
@@ -1652,7 +1627,6 @@ aDOMObject
 )
 ;
 }
-virtual
 void
 ActorDestroy
 (
@@ -1677,7 +1651,6 @@ aResult
 )
 override
 ;
-virtual
 PBackgroundIDBRequestChild
 *
 AllocPBackgroundIDBRequestChild
@@ -1689,7 +1662,6 @@ aParams
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIDBRequestChild
 (
@@ -1699,7 +1671,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundIDBCursorChild
 *
 AllocPBackgroundIDBCursorChild
@@ -1711,7 +1682,6 @@ aParams
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIDBCursorChild
 (
@@ -1720,13 +1690,6 @@ PBackgroundIDBCursorChild
 aActor
 )
 override
-;
-bool
-SendDeleteMe
-(
-)
-=
-delete
 ;
 }
 ;
@@ -1802,6 +1765,13 @@ ReleaseDOMObject
 (
 )
 ;
+bool
+SendDeleteMe
+(
+)
+=
+delete
+;
 private
 :
 BackgroundMutableFileChild
@@ -1826,7 +1796,6 @@ SendDeleteMeInternal
 (
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -1835,7 +1804,6 @@ aWhy
 )
 override
 ;
-virtual
 PBackgroundFileHandleChild
 *
 AllocPBackgroundFileHandleChild
@@ -1847,7 +1815,6 @@ aMode
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundFileHandleChild
 (
@@ -1856,13 +1823,6 @@ PBackgroundFileHandleChild
 aActor
 )
 override
-;
-bool
-SendDeleteMe
-(
-)
-=
-delete
 ;
 }
 ;
@@ -1961,7 +1921,7 @@ void
 OnPreprocessFailed
 (
 uint32_t
-aModuleSetIndex
+aCloneDataIndex
 nsresult
 aErrorCode
 )
@@ -2067,7 +2027,6 @@ PreprocessInfo
 aPreprocessInfos
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -2076,7 +2035,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2093,7 +2051,6 @@ aResponse
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2545,7 +2502,6 @@ Args
 aArgs
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -2554,7 +2510,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2646,6 +2601,13 @@ SendDeleteMeInternal
 (
 )
 ;
+bool
+SendDeleteMe
+(
+)
+=
+delete
+;
 private
 :
 explicit
@@ -2671,7 +2633,6 @@ NoteComplete
 (
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -2696,7 +2657,6 @@ aAborted
 )
 override
 ;
-virtual
 PBackgroundFileRequestChild
 *
 AllocPBackgroundFileRequestChild
@@ -2708,7 +2668,6 @@ aParams
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundFileRequestChild
 (
@@ -2717,13 +2676,6 @@ PBackgroundFileRequestChild
 aActor
 )
 override
-;
-bool
-SendDeleteMe
-(
-)
-=
-delete
 ;
 }
 ;
@@ -2838,7 +2790,6 @@ Value
 aResponse
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -2847,7 +2798,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2864,7 +2814,6 @@ aResponse
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2926,6 +2875,13 @@ BackgroundUtilsChild
 )
 ;
 }
+bool
+SendDeleteMe
+(
+)
+=
+delete
+;
 private
 :
 explicit
@@ -2946,7 +2902,6 @@ SendDeleteMeInternal
 (
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -2954,13 +2909,6 @@ ActorDestroyReason
 aWhy
 )
 override
-;
-bool
-SendDeleteMe
-(
-)
-=
-delete
 ;
 }
 ;

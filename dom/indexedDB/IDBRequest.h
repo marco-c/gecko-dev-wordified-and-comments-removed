@@ -636,8 +636,9 @@ protected
 ResultCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

@@ -297,8 +297,9 @@ protected
 ResultCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

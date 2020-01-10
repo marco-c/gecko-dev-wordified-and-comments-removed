@@ -618,6 +618,7 @@ StructuredCloneWriteInfo
 &
 aCloneWriteInfo
 )
+noexcept
 :
 mCloneBuffer
 (
@@ -5368,9 +5369,7 @@ nullptr
 nullptr
 }
 ;
-if
-(
-!
+return
 JS_ReadStructuredClone
 (
 aCx
@@ -5397,14 +5396,6 @@ callbacks
 &
 aCloneReadInfo
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 namespace

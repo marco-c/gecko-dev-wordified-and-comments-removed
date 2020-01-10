@@ -533,8 +533,9 @@ private
 CancelableRunnableWrapper
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_NSIRUNNABLE
 nsresult
 Cancel
