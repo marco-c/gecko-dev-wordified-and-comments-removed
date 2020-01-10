@@ -1090,6 +1090,9 @@ channel
 }
 -
 stability
+job_name
+:
+stability
 checkout
 :
 task_head
@@ -1145,6 +1148,9 @@ channel
 }
 -
 results
+job_name
+:
+affected_tests
 checkout
 :
 task_head
@@ -1235,6 +1241,9 @@ results
 without
 -
 changes
+job_name
+:
+affected_tests
 checkout
 :
 base_head
@@ -1646,7 +1655,11 @@ channel
 -
 -
 xvfb
-stability
+{
+operation
+.
+job_name
+}
 .
 /
 tools
