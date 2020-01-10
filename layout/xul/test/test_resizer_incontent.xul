@@ -132,13 +132,6 @@ script
 src
 =
 "
-chrome
-:
-/
-/
-mochikit
-/
-content
 /
 tests
 /
@@ -155,13 +148,6 @@ script
 src
 =
 "
-chrome
-:
-/
-/
-mochikit
-/
-content
 /
 tests
 /

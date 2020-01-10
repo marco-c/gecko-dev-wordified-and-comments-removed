@@ -142,13 +142,6 @@ script
 src
 =
 "
-chrome
-:
-/
-/
-mochikit
-/
-content
 /
 tests
 /
