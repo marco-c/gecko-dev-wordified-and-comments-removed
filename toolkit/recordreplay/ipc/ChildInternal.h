@@ -114,11 +114,6 @@ aFormat
 .
 )
 ;
-size_t
-GetId
-(
-)
-;
 extern
 Monitor
 *

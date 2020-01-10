@@ -860,7 +860,6 @@ const
 nodeExpand
 nodeCollapse
 recordTelemetryEvent
-setExpanded
 roots
 }
 =
@@ -911,18 +910,6 @@ else
 nodeCollapse
 (
 item
-)
-;
-}
-if
-(
-setExpanded
-)
-{
-setExpanded
-(
-item
-expand
 )
 ;
 }
@@ -1088,7 +1075,6 @@ true
 autoExpandDepth
 =
 1
-initiallyExpanded
 focusable
 =
 true
@@ -1127,7 +1113,6 @@ true
 )
 autoExpandAll
 autoExpandDepth
-initiallyExpanded
 isExpanded
 :
 item

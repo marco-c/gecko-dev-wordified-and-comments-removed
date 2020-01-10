@@ -95,11 +95,6 @@ ResumeBeforeWaitingForIPDLReply
 )
 ;
 void
-MaybeHandlePendingSyncMessage
-(
-)
-;
-void
 InitializeForwarding
 (
 )
