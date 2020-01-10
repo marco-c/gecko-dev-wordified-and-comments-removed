@@ -317,7 +317,13 @@ openTestWindow
 {
 win
 =
-open
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
+openDialog
 (
 "
 bug624329_window
@@ -336,6 +342,7 @@ resizable
 yes
 chrome
 "
+window
 )
 ;
 /

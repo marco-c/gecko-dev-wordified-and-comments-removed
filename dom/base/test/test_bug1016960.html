@@ -114,7 +114,11 @@ Bug
 var
 chromeWindow
 =
-window
+docShell
+.
+rootTreeItem
+.
+domWindow
 .
 open
 (
@@ -160,10 +164,8 @@ should
 return
 true
 for
-|
-instanceof
-ChromeWindow
-|
+.
+isChromeWindow
 .
 "
 )

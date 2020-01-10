@@ -299,7 +299,7 @@ waitForExplicitFinish
 ;
 window
 .
-open
+openDialog
 (
 "
 window_composition_text_querycontent
@@ -317,7 +317,9 @@ width
 height
 =
 600
+noopener
 "
+window
 )
 ;
 ]

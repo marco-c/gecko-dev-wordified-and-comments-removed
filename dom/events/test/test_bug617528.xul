@@ -262,7 +262,11 @@ start
 {
 _window
 =
-window
+docShell
+.
+rootTreeItem
+.
+domWindow
 .
 open
 (

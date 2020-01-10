@@ -308,7 +308,11 @@ xul
 let
 host1
 =
-window
+docShell
+.
+rootTreeItem
+.
+domWindow
 .
 open
 (
@@ -324,7 +328,11 @@ chrome
 let
 host2
 =
-window
+docShell
+.
+rootTreeItem
+.
+domWindow
 .
 open
 (

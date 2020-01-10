@@ -459,9 +459,13 @@ setup
 {
 newwindow
 =
-window
+docShell
 .
-open
+rootTreeItem
+.
+domWindow
+.
+openDialog
 (
 "
 MozDomFullscreen_chrome
@@ -473,6 +477,9 @@ _blank
 "
 "
 chrome
+dialog
+=
+no
 resizable
 =
 yes
@@ -483,6 +490,7 @@ height
 =
 400
 "
+window
 )
 ;
 }

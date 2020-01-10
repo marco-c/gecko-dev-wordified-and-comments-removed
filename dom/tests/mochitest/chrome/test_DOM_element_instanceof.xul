@@ -281,7 +281,7 @@ runTests
 {
 window
 .
-open
+openDialog
 (
 "
 file_DOM_element_instanceof
@@ -299,7 +299,9 @@ width
 height
 =
 550
+noopener
 "
+window
 )
 ;
 }

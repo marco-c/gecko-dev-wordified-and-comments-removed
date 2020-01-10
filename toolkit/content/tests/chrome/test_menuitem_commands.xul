@@ -163,9 +163,10 @@ is
 =
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 .
 SimpleTest
 .
@@ -325,7 +326,7 @@ if
 (
 window
 .
-opener
+arguments
 )
 {
 SimpleTest
@@ -340,7 +341,7 @@ else
 {
 window
 .
-open
+openDialog
 (
 "
 test_menuitem_commands
@@ -351,7 +352,9 @@ xul
 "
 "
 chrome
+noopener
 "
+window
 )
 ;
 }
@@ -382,9 +385,10 @@ close
 ;
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 .
 SimpleTest
 .

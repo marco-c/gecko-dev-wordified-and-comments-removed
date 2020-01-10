@@ -136,9 +136,10 @@ event
 {
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 .
 done
 (

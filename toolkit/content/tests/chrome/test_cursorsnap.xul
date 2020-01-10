@@ -389,7 +389,7 @@ false
 ;
 window
 .
-open
+openDialog
 (
 "
 window_cursorsnap_dialog
@@ -409,7 +409,9 @@ width
 height
 =
 100
+noopener
 "
+window
 )
 ;
 break
@@ -427,7 +429,7 @@ false
 ;
 window
 .
-open
+openDialog
 (
 "
 window_cursorsnap_dialog
@@ -447,7 +449,9 @@ width
 height
 =
 100
+noopener
 "
+window
 )
 ;
 break
@@ -465,7 +469,7 @@ true
 ;
 window
 .
-open
+openDialog
 (
 "
 window_cursorsnap_dialog
@@ -485,7 +489,9 @@ width
 height
 =
 100
+noopener
 "
+window
 )
 ;
 break
@@ -503,7 +509,7 @@ false
 ;
 window
 .
-open
+openDialog
 (
 "
 window_cursorsnap_wizard
@@ -523,7 +529,9 @@ width
 height
 =
 100
+noopener
 "
+window
 )
 ;
 break
@@ -541,7 +549,7 @@ false
 ;
 window
 .
-open
+openDialog
 (
 "
 window_cursorsnap_wizard
@@ -561,7 +569,9 @@ width
 height
 =
 100
+noopener
 "
+window
 )
 ;
 break
@@ -579,7 +589,7 @@ true
 ;
 window
 .
-open
+openDialog
 (
 "
 window_cursorsnap_wizard
@@ -599,7 +609,9 @@ width
 height
 =
 100
+noopener
 "
+window
 )
 ;
 break

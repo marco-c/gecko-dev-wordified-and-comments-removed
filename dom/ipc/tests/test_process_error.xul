@@ -138,9 +138,13 @@ expectChildProcessCrash
 var
 w
 =
-window
+docShell
 .
-open
+rootTreeItem
+.
+domWindow
+.
+openDialog
 (
 '
 process_error
@@ -162,6 +166,7 @@ height
 =
 600
 '
+window
 )
 ;
 function

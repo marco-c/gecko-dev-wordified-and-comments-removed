@@ -696,7 +696,7 @@ platform
 {
 window
 .
-open
+openDialog
 (
 "
 window_resizer
@@ -720,7 +720,9 @@ outerHeight
 =
 300
 chrome
+noopener
 "
+window
 )
 ;
 }
@@ -776,7 +778,7 @@ lastResizerTest
 {
 window
 .
-open
+openDialog
 (
 "
 window_resizer_element
@@ -800,7 +802,9 @@ outerHeight
 =
 300
 chrome
+noopener
 "
+window
 )
 ;
 }

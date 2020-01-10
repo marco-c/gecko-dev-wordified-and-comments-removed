@@ -294,7 +294,7 @@ waitForExplicitFinish
 ;
 window
 .
-open
+openDialog
 (
 "
 findbar_entireword_window
@@ -312,7 +312,9 @@ width
 height
 =
 600
+noopener
 "
+window
 )
 ;
 ]

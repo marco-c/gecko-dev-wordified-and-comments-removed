@@ -324,7 +324,7 @@ runTests
 {
 window
 .
-open
+openDialog
 (
 "
 bug364461_window
@@ -342,7 +342,9 @@ width
 height
 =
 600
+noopener
 "
+window
 )
 ;
 }

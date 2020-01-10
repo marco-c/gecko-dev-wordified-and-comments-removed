@@ -268,9 +268,12 @@ close
 (
 )
 ;
-opener
+window
 .
-wrappedJSObject
+arguments
+[
+0
+]
 .
 modalClosed
 (

@@ -225,9 +225,10 @@ name
 =
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 [
 name
 ]
@@ -366,9 +367,10 @@ close
 ;
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 .
 SimpleTest
 .

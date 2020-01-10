@@ -119,7 +119,10 @@ is
 =
 window
 .
-opener
+arguments
+[
+0
+]
 .
 SimpleTest
 .

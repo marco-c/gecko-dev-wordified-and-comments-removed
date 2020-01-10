@@ -334,9 +334,10 @@ test8
 {
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 .
 done
 (
@@ -517,9 +518,10 @@ is
 =
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 .
 is
 ;

@@ -258,9 +258,10 @@ setTestScope
 (
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 )
 ;
 var
@@ -301,9 +302,10 @@ name
 =
 window
 .
-opener
-.
-wrappedJSObject
+arguments
+[
+0
+]
 [
 name
 ]

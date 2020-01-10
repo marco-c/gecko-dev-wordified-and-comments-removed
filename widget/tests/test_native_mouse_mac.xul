@@ -222,7 +222,7 @@ waitForExplicitFinish
 ;
 window
 .
-open
+openDialog
 (
 "
 native_mouse_mac_window
@@ -240,7 +240,9 @@ width
 height
 =
 600
+noopener
 "
+window
 )
 ;
 ]
