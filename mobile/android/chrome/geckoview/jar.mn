@@ -114,6 +114,11 @@ geckoview
 js
 content
 /
+GeckoViewAutofillChild
+.
+js
+content
+/
 GeckoViewContentBlockingChild
 .
 js
