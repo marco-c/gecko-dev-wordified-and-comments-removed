@@ -26440,6 +26440,16 @@ StyleTransform
 &
 aTransform
 const
+Maybe
+<
+mozilla
+:
+:
+MotionPathData
+>
+&
+aMotion
+const
 Point3D
 &
 aToTransformOrigin
@@ -26464,6 +26474,10 @@ aScale
 mTransform
 (
 aTransform
+)
+mMotion
+(
+aMotion
 )
 mToTransformOrigin
 (

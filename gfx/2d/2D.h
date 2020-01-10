@@ -4919,6 +4919,15 @@ aFormat
 static
 already_AddRefed
 <
+PathBuilder
+>
+CreateSimplePathBuilder
+(
+)
+;
+static
+already_AddRefed
+<
 DrawTargetCapture
 >
 CreateCaptureDrawTargetForTarget
