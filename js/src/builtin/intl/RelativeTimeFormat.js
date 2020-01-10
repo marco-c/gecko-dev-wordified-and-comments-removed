@@ -131,7 +131,6 @@ function
 getRelativeTimeFormatInternals
 (
 obj
-methodName
 )
 {
 assert
@@ -708,9 +707,6 @@ internals
 getRelativeTimeFormatInternals
 (
 relativeTimeFormat
-"
-resolvedOptions
-"
 )
 ;
 var
