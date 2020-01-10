@@ -3382,6 +3382,9 @@ telemetry
 theme
 "
 "
+urlbar
+"
+"
 webRequest
 "
 "

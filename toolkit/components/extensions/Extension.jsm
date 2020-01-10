@@ -755,6 +755,9 @@ geckoViewAddons
 "
 telemetry
 "
+"
+urlbar
+"
 ]
 )
 ;
