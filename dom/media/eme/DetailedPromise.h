@@ -183,6 +183,7 @@ MaybeReject
 (
 ErrorResult
 &
+aArg
 const
 nsACString
 &
@@ -243,6 +244,17 @@ MaybeReportTelemetry
 (
 eStatus
 aStatus
+)
+;
+void
+LogRejectionReason
+(
+uint32_t
+aErrorCode
+const
+nsACString
+&
+aReason
 )
 ;
 nsCString
