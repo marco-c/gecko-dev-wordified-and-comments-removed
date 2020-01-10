@@ -366,7 +366,7 @@ addListener
 (
 EventListener
 ?
-listener
+callback
 )
 ;
 void
@@ -374,7 +374,7 @@ removeListener
 (
 EventListener
 ?
-listener
+callback
 )
 ;
 attribute
