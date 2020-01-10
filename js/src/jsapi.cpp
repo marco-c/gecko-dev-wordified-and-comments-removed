@@ -4565,6 +4565,12 @@ key
 !
 =
 JSProto_AsyncFunction
+&
+&
+key
+!
+=
+JSProto_GeneratorFunction
 )
 {
 const
@@ -4897,6 +4903,12 @@ key
 =
 =
 JSProto_AsyncFunction
+|
+|
+key
+=
+=
+JSProto_GeneratorFunction
 )
 {
 continue

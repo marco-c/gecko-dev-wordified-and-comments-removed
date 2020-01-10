@@ -1486,15 +1486,6 @@ Generator
 \
 MACRO
 (
-GeneratorFunction
-GeneratorFunction
-"
-GeneratorFunction
-"
-)
-\
-MACRO
-(
 GeneratorNext
 GeneratorNext
 "
