@@ -2336,12 +2336,6 @@ i
 ;
 if
 (
-NS_IS_HIGH_SURROGATE
-(
-ch
-)
-&
-&
 i
 <
 length
@@ -2349,8 +2343,9 @@ length
 1
 &
 &
-NS_IS_LOW_SURROGATE
+NS_IS_SURROGATE_PAIR
 (
+ch
 str
 [
 i

@@ -959,14 +959,7 @@ cur
 end
 &
 &
-NS_IS_LOW_SURROGATE
-(
-*
-cur
-)
-&
-&
-NS_IS_HIGH_SURROGATE
+NS_IS_SURROGATE_PAIR
 (
 *
 (
@@ -974,6 +967,8 @@ cur
 -
 1
 )
+*
+cur
 )
 )
 {

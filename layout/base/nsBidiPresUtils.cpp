@@ -9866,12 +9866,6 @@ else
 {
 if
 (
-NS_IS_HIGH_SURROGATE
-(
-ch
-)
-&
-&
 offset
 +
 1
@@ -9879,8 +9873,9 @@ offset
 aCharTypeLimit
 &
 &
-NS_IS_LOW_SURROGATE
+NS_IS_SURROGATE_PAIR
 (
+ch
 aText
 [
 offset

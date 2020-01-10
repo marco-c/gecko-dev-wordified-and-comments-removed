@@ -223,12 +223,6 @@ capitalizeNextChar
 {
 if
 (
-NS_IS_HIGH_SURROGATE
-(
-ch
-)
-&
-&
 i
 +
 1
@@ -236,8 +230,9 @@ i
 aLength
 &
 &
-NS_IS_LOW_SURROGATE
+NS_IS_SURROGATE_PAIR
 (
+ch
 aWord
 [
 i

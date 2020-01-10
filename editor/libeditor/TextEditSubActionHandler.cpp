@@ -4309,14 +4309,9 @@ newInsertionStringLength
 ;
 if
 (
-NS_IS_HIGH_SURROGATE
+NS_IS_SURROGATE_PAIR
 (
 maybeHighSurrogate
-)
-&
-&
-NS_IS_LOW_SURROGATE
-(
 maybeLowSurrogate
 )
 )
