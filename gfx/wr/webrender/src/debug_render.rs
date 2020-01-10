@@ -1738,6 +1738,9 @@ DeviceIntSize
 scale
 :
 f32
+surface_origin_is_top_left
+:
+bool
 )
 {
 if
@@ -1765,15 +1768,6 @@ true
 device
 .
 set_blend_mode_premultiplied_alpha
-(
-)
-;
-let
-surface_origin_is_top_left
-=
-device
-.
-surface_origin_is_top_left
 (
 )
 ;
