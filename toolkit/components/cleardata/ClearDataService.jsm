@@ -1272,6 +1272,13 @@ of
 tags
 )
 {
+if
+(
+tag
+.
+loaded
+)
+{
 promises
 .
 push
@@ -1283,6 +1290,7 @@ tag
 )
 )
 ;
+}
 }
 return
 Promise
