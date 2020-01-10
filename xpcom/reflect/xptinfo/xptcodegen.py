@@ -1211,11 +1211,22 @@ types
 .
 append
 (
+None
+)
+            
+realtype
+=
 lower_type
 (
 type
 )
-)
+            
+types
+[
+idx
+]
+=
+realtype
         
 return
 idx
