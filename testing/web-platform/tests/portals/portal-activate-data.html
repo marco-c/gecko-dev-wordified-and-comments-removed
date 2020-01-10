@@ -220,6 +220,14 @@ ready
 '
 )
 ;
+let
+replyPromise
+=
+nextMessage
+(
+bc
+)
+;
 await
 portal
 .
@@ -231,10 +239,7 @@ activateOptions
 return
 (
 await
-nextMessage
-(
-bc
-)
+replyPromise
 )
 .
 data
