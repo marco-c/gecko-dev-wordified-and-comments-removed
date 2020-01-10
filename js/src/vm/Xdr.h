@@ -136,8 +136,11 @@ JS
 :
 GCVector
 <
+HeapPtr
+<
 JSAtom
 *
+>
 >
 ;
 using
@@ -148,8 +151,11 @@ JS
 :
 GCHashMap
 <
+HeapPtr
+<
 JSAtom
 *
+>
 uint32_t
 >
 ;
