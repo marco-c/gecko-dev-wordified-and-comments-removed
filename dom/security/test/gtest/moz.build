@@ -95,6 +95,11 @@ TestCSPParser
 cpp
 '
 '
+TestFilenameEvalParser
+.
+cpp
+'
+'
 TestSecureContext
 .
 cpp
