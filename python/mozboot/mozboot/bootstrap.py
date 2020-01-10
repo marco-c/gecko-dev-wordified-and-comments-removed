@@ -1535,29 +1535,35 @@ strip
 distro
 =
 d
-[
+.
+get
+(
 "
 NAME
 "
-]
+)
                 
 version
 =
 d
-[
+.
+get
+(
 "
 VERSION_ID
 "
-]
+)
                 
 dist_id
 =
 d
-[
+.
+get
+(
 "
 ID
 "
-]
+)
             
 if
 distro
