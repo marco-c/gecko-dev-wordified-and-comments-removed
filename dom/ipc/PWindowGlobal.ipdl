@@ -382,6 +382,8 @@ LoadURIInChild
 (
 nsDocShellLoadState
 aLoadState
+bool
+aSetNavigating
 )
 ;
 both
@@ -438,6 +440,8 @@ BrowsingContext
 aTargetBC
 nsDocShellLoadState
 aLoadState
+bool
+aSetNavigating
 )
 ;
 /

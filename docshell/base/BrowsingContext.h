@@ -630,6 +630,10 @@ aAccessor
 nsDocShellLoadState
 *
 aLoadState
+bool
+aSetNavigating
+=
+false
 )
 ;
 bool
