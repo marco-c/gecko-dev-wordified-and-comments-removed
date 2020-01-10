@@ -14,6 +14,7 @@ height
 )
 {
 return
+(
 rect
 .
 x
@@ -44,6 +45,7 @@ height
 >
 =
 height
+)
 ;
 }
 function

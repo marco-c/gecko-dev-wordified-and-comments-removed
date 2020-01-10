@@ -146,11 +146,13 @@ Promise
 r
 =
 >
+(
 frame
 .
 onload
 =
 r
+)
 )
 ;
 }
@@ -291,9 +293,7 @@ spawn
 (
 browser
 FRAME_URL
-(
 FRAME_URL
-)
 =
 >
 {

@@ -92,6 +92,7 @@ startTest
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -101,6 +102,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 let

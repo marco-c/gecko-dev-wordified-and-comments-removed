@@ -317,9 +317,7 @@ searchFor
 if
 (
 typeof
-(
 searchFor
-)
 =
 =
 "

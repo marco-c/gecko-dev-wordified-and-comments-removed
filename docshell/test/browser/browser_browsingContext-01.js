@@ -941,6 +941,7 @@ waitForMessage
 _
 =
 >
+(
 win
 .
 location
@@ -952,6 +953,7 @@ onload_message
 .
 html
 "
+)
 )
 ;
 is
