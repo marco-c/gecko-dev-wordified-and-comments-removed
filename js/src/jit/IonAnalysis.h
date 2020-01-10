@@ -699,9 +699,6 @@ AnalyzeNewScriptDefiniteProperties
 JSContext
 *
 cx
-DPAConstraintInfo
-&
-constraintInfo
 HandleFunction
 fun
 ObjectGroup
