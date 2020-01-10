@@ -8576,7 +8576,7 @@ ToRawRangeBoundary
 RawRangeBoundary
 (
 curNode
-0
+0u
 )
 )
 ;
@@ -8799,7 +8799,7 @@ ToRawRangeBoundary
 RawRangeBoundary
 (
 curNode
-0
+0u
 )
 )
 ;

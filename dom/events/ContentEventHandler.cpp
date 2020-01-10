@@ -1439,7 +1439,7 @@ CollapseTo
 RawRangeBoundary
 (
 mRootContent
-0
+0u
 )
 )
 ;
@@ -5132,7 +5132,7 @@ CollapseTo
 RawRangeBoundary
 (
 mRootContent
-0
+0u
 )
 )
 ;
@@ -14148,7 +14148,7 @@ Container
 GetFirstChild
 (
 )
-0
+0u
 )
 )
 ;

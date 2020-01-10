@@ -2475,7 +2475,7 @@ RawRangeBoundary
 cellData
 .
 mElement
-0
+0u
 )
 ignoredError
 )
@@ -2689,7 +2689,7 @@ Collapse
 RawRangeBoundary
 (
 lastCellNode
-0
+0u
 )
 ignoredError
 )
