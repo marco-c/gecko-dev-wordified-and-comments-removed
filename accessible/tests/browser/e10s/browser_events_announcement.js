@@ -163,5 +163,10 @@ matches
 )
 ;
 }
+{
+iframe
+:
+true
+}
 )
 ;

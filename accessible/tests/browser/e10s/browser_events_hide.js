@@ -179,5 +179,10 @@ sibling
 )
 ;
 }
+{
+iframe
+:
+true
+}
 )
 ;
