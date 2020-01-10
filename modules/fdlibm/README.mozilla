@@ -70,6 +70,16 @@ sh
 update
 .
 sh
+or
+sh
+update
+.
+sh
+<
+sha
+-
+commit
+>
 from
 within
 the
