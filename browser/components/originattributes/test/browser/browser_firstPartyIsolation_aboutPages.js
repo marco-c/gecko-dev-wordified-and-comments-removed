@@ -1217,6 +1217,15 @@ aboutType
 "
 newtab
 "
+&
+&
+aboutType
+!
+=
+=
+"
+protections
+"
 )
 {
 aboutURLs
