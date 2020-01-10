@@ -17687,3 +17687,15 @@ busyTimeout
 10000
 )
 ;
+pref
+(
+"
+first
+-
+startup
+.
+timeout
+"
+30000
+)
+;
