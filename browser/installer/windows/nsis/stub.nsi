@@ -624,9 +624,9 @@ bytes
 !
 define
 DownloadMaxSizeBytes
-73400320
+157286400
 ;
-70
+150
 MB
 ;
 Interval
