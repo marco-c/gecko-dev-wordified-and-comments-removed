@@ -581,6 +581,12 @@ mStorReplyReceived
 bool
 mRlist1xxReceived
 ;
+bool
+mRretr1xxReceived
+;
+bool
+mRstor1xxReceived
+;
 nsresult
 mInternalError
 ;
