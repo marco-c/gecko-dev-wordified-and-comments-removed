@@ -1958,15 +1958,6 @@ return
 off
 "
 "
-dot
--
-notation
-"
-:
-"
-off
-"
-"
 mozilla
 /
 avoid
