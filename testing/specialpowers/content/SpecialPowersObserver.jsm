@@ -142,11 +142,14 @@ js
 "
 ]
 ;
-Services
+const
+{
+SpecialPowersObserverAPI
+}
+=
+ChromeUtils
 .
-scriptloader
-.
-loadSubScript
+import
 (
 "
 resource
@@ -157,7 +160,7 @@ specialpowers
 /
 SpecialPowersObserverAPI
 .
-js
+jsm
 "
 )
 ;
