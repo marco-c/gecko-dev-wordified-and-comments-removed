@@ -370,6 +370,12 @@ Ci
 nsIX509CertDB
 )
 ;
+nssComponent
+.
+getEnterpriseRoots
+(
+)
+;
 Services
 .
 prefs
