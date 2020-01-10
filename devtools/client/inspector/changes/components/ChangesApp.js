@@ -185,13 +185,6 @@ PropTypes
 func
 .
 isRequired
-onCopy
-:
-PropTypes
-.
-func
-.
-isRequired
 onCopyAllChanges
 :
 PropTypes
@@ -1117,13 +1110,6 @@ this
 props
 .
 onContextMenu
-onCopy
-:
-this
-.
-props
-.
-onCopy
 }
 !
 hasChanges
