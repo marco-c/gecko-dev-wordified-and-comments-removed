@@ -1906,7 +1906,9 @@ https
 :
 /
 /
-searchfox
+dxr
+.
+mozilla
 .
 org
 /

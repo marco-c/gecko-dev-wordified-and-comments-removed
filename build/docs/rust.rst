@@ -174,7 +174,9 @@ https
 :
 /
 /
-searchfox
+dxr
+.
+mozilla
 .
 org
 /
@@ -246,7 +248,9 @@ https
 :
 /
 /
-searchfox
+dxr
+.
+mozilla
 .
 org
 /
@@ -315,7 +319,9 @@ https
 :
 /
 /
-searchfox
+dxr
+.
+mozilla
 .
 org
 /
@@ -549,7 +555,9 @@ https
 :
 /
 /
-searchfox
+dxr
+.
+mozilla
 .
 org
 /
@@ -585,7 +593,9 @@ https
 :
 /
 /
-searchfox
+dxr
+.
+mozilla
 .
 org
 /
