@@ -514,17 +514,6 @@ enable_webrender
 ]
             
 "
-lsan_dir
-"
-:
-kwargs
-[
-"
-lsan_dir
-"
-]
-            
-"
 stackfix_dir
 "
 :
@@ -1461,9 +1450,6 @@ False
 enable_webrender
 =
 False
-lsan_dir
-=
-None
 stackfix_dir
 =
 None
@@ -1653,12 +1639,6 @@ self
 asan
 =
 asan
-        
-self
-.
-lsan_dir
-=
-lsan_dir
         
 self
 .
@@ -1959,17 +1939,14 @@ is
 not
 None
                                
+useLSan
+=
+True
 log
 =
 self
 .
 logger
-                               
-lsanPath
-=
-self
-.
-lsan_dir
 )
         
 env

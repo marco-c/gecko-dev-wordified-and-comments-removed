@@ -11495,38 +11495,16 @@ bits
 64
 :
             
-lsanPath
+useLSan
 =
-SCRIPT_DIR
+True
         
 else
 :
             
-lsanPath
+useLSan
 =
-None
-        
-if
-mozinfo
-.
-info
-[
-"
-ubsan
-"
-]
-:
-            
-ubsanPath
-=
-SCRIPT_DIR
-        
-else
-:
-            
-ubsanPath
-=
-None
+False
         
 browserEnv
 =
@@ -11549,13 +11527,9 @@ debugger
 =
 debugger
             
-lsanPath
+useLSan
 =
-lsanPath
-            
-ubsanPath
-=
-ubsanPath
+useLSan
 )
         
 if
