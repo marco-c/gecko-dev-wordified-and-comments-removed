@@ -1105,6 +1105,11 @@ nsIEditor
 :
 EDirection
 aDirectionAndAmount
+nsIEditor
+:
+:
+EStripWrappers
+aStripWrappers
 )
 ;
 MOZ_CAN_RUN_SCRIPT
