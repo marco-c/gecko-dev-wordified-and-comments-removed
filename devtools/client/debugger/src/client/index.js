@@ -410,6 +410,7 @@ clientCommands
 bootstrapApp
 (
 store
+panel
 )
 ;
 await
