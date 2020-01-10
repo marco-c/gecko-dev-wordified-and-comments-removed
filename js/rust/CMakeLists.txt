@@ -196,8 +196,6 @@ c
 +
 +
 14
--
-DJS_NO_JSVAL_JSID_STRUCT_TYPES
 )
 add_definitions
 (
