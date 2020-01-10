@@ -434,7 +434,7 @@ apilint
 .
 2
 .
-2
+3
 '
 classpath
 '
@@ -450,9 +450,9 @@ gradle
 :
 3
 .
-2
+4
 .
-1
+2
 '
 classpath
 '
@@ -2307,13 +2307,4 @@ adjust
 )
 }
 }
-}
-task
-wrapper
-(
-type
-:
-Wrapper
-)
-{
 }

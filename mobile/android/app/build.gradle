@@ -2038,9 +2038,9 @@ robolectric
 :
 robolectric
 :
-3
+4
 .
-8
+3
 '
 testImplementation
 '
@@ -3634,7 +3634,7 @@ jarTask
 tasks
 [
 "
-packageAppClasses
+bundle
 {
 variant
 .
@@ -3644,6 +3644,7 @@ capitalize
 (
 )
 }
+Classes
 "
 ]
 def
