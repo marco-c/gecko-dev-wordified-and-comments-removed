@@ -23308,10 +23308,10 @@ WHENEVER_POSSIBLE
 }
 if
 (
-nsLayoutUtils
+StaticPrefs
 :
 :
-AnimatedImageLayersEnabled
+layout_animated_image_layers_enabled
 (
 )
 &
