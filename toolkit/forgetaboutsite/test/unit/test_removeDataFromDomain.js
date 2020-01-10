@@ -594,9 +594,11 @@ handleResult
 )
 =
 >
+(
 exists
 =
 true
+)
 handleCompletion
 :
 (
@@ -2641,6 +2643,7 @@ i
 +
 +
 )
+{
 add_task
 (
 tests
@@ -2649,6 +2652,7 @@ i
 ]
 )
 ;
+}
 run_next_test
 (
 )
