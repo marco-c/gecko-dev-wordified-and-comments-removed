@@ -247,13 +247,6 @@ events
 js
 '
 '
-file
--
-saver
-.
-js
-'
-'
 focus
 .
 js
