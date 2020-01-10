@@ -425,9 +425,9 @@ skin
 /
 images
 /
-webconsole
-/
 info
+-
+small
 .
 svg
 )
@@ -488,6 +488,8 @@ skin
 images
 /
 alert
+-
+small
 .
 svg
 )
