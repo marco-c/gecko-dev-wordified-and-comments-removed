@@ -221,7 +221,7 @@ template
 typename
 T
 >
-void
+bool
 TraceEdgeInternal
 (
 JSTracer
