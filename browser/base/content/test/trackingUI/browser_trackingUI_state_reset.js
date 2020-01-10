@@ -139,7 +139,7 @@ event
 ok
 (
 !
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .
@@ -200,7 +200,7 @@ event
 ;
 ok
 (
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .
@@ -246,7 +246,7 @@ event
 ok
 (
 !
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .
@@ -314,7 +314,7 @@ event
 ;
 ok
 (
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .
@@ -359,7 +359,7 @@ event
 ok
 (
 !
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .
@@ -436,7 +436,7 @@ ABOUT_PAGE
 ok
 (
 !
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .
@@ -474,7 +474,7 @@ waitForContentBlockingEvent
 ;
 ok
 (
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .
@@ -501,7 +501,7 @@ ABOUT_PAGE
 ok
 (
 !
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .
@@ -544,7 +544,7 @@ contentBlockingEvent
 ;
 ok
 (
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .
@@ -570,7 +570,7 @@ tab
 ok
 (
 !
-ContentBlocking
+gProtectionsHandler
 .
 iconBox
 .

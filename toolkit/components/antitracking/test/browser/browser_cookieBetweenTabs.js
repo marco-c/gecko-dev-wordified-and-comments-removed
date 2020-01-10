@@ -151,7 +151,7 @@ page
 "
 )
 ;
-ContentBlocking
+gProtectionsHandler
 .
 disableForCurrentPage
 (
