@@ -261,7 +261,7 @@ timeRange
 const
 DURATION
 =
-10000
+1000
 ;
 /
 /
@@ -293,7 +293,7 @@ new
 WorkletAnimation
 (
 '
-passthrough
+passthrough_except_nan
 '
 new
 KeyframeEffect
@@ -324,7 +324,7 @@ setupAndRegisterTests
 (
 )
 {
-registerPassthroughAnimator
+registerPassthroughExceptNaNAnimator
 (
 )
 .
