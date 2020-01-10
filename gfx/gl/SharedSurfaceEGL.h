@@ -145,11 +145,6 @@ mutable
 Mutex
 mMutex
 ;
-GLLibraryEGL
-*
-const
-mEGL
-;
 const
 GLFormats
 mFormats
@@ -173,9 +168,6 @@ SharedSurface_EGLImage
 GLContext
 *
 gl
-GLLibraryEGL
-*
-egl
 const
 gfx
 :
@@ -194,12 +186,6 @@ prodTex
 EGLImage
 image
 )
-;
-EGLDisplay
-Display
-(
-)
-const
 ;
 void
 UpdateProdTexture
