@@ -6295,11 +6295,6 @@ ionCompilingSafeForMinorGC
 this
 false
 )
-performingGC
-(
-this
-false
-)
 isTouchingGrayThings
 (
 this

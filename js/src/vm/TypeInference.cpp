@@ -16039,7 +16039,7 @@ ObjectGroup
 detachNewScript
 (
 bool
-writeBarrier
+isSweeping
 ObjectGroup
 *
 replacement
@@ -16220,7 +16220,7 @@ setAddendum
 (
 Addendum_None
 nullptr
-writeBarrier
+isSweeping
 )
 ;
 }
@@ -16290,7 +16290,7 @@ OBJECT_FLAG_NEW_SCRIPT_CLEARED
 ;
 detachNewScript
 (
-false
+true
 nullptr
 )
 ;
@@ -16375,7 +16375,7 @@ setNewScriptCleared
 }
 detachNewScript
 (
-true
+false
 replacement
 )
 ;
@@ -23599,6 +23599,12 @@ hadOOMSweepingTypes
 )
 )
 {
+gc
+:
+:
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 JSRuntime
 *
 rt
@@ -23608,6 +23614,12 @@ zone
 >
 runtimeFromMainThread
 (
+)
+;
+FreeOp
+fop
+(
+rt
 )
 ;
 js
@@ -23631,12 +23643,8 @@ zone
 >
 discardJitCode
 (
-rt
--
->
-defaultFreeOp
-(
-)
+&
+fop
 Zone
 :
 :

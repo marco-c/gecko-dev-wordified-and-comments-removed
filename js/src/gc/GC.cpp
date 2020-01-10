@@ -28241,6 +28241,9 @@ GCParallelTask
 task
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 JSRuntime
 *
 runtime
@@ -28292,6 +28295,9 @@ GCParallelTask
 task
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 JSRuntime
 *
 runtime
@@ -28343,6 +28349,9 @@ GCParallelTask
 task
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 JSRuntime
 *
 runtime
@@ -28429,6 +28438,9 @@ GCParallelTask
 task
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 JSRuntime
 *
 runtime
@@ -28523,6 +28535,9 @@ GCParallelTask
 task
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 JSRuntime
 *
 runtime
@@ -28629,6 +28644,9 @@ GCParallelTask
 task
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 JSRuntime
 *
 runtime
@@ -28714,6 +28732,9 @@ GCParallelTask
 task
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 for
 (
 SweepGroupZonesIter
@@ -30778,6 +30799,9 @@ static
 void
 SweepThing
 (
+FreeOp
+*
+fop
 Shape
 *
 shape
@@ -30799,6 +30823,7 @@ shape
 >
 sweep
 (
+fop
 )
 ;
 }
@@ -30807,6 +30832,9 @@ static
 void
 SweepThing
 (
+FreeOp
+*
+fop
 JSScript
 *
 script
@@ -30823,6 +30851,9 @@ static
 void
 SweepThing
 (
+FreeOp
+*
+fop
 ObjectGroup
 *
 group
@@ -30844,6 +30875,9 @@ static
 bool
 SweepArenaList
 (
+FreeOp
+*
+fop
 Arena
 *
 *
@@ -30887,6 +30921,7 @@ next
 {
 SweepThing
 (
+fop
 i
 .
 get
@@ -31024,6 +31059,7 @@ SweepArenaList
 JSScript
 >
 (
+fop
 &
 al
 .
@@ -31048,6 +31084,7 @@ SweepArenaList
 ObjectGroup
 >
 (
+fop
 &
 al
 .
@@ -31746,6 +31783,9 @@ run
 (
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 do
 {
 MOZ_ASSERT
@@ -32078,6 +32118,7 @@ SweepArenaList
 Shape
 >
 (
+fop
 &
 al
 .
@@ -32102,6 +32143,7 @@ SweepArenaList
 AccessorShape
 >
 (
+fop
 &
 al
 .
@@ -35457,9 +35499,6 @@ JSRuntime
 *
 runtime
 ;
-AutoSetThreadIsPerformingGC
-performingGC
-;
 }
 ;
 }
@@ -35793,6 +35832,9 @@ disableBarriers
 (
 rt
 )
+;
+AutoSetThreadIsPerformingGC
+performingGC
 ;
 bool
 destroyingRuntime

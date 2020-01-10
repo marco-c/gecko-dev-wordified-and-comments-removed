@@ -5959,6 +5959,9 @@ endif
 void
 sweep
 (
+FreeOp
+*
+fop
 )
 ;
 void
@@ -5972,6 +5975,9 @@ fop
 void
 removeChild
 (
+FreeOp
+*
+fop
 Shape
 *
 child

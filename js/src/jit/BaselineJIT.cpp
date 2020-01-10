@@ -5368,11 +5368,6 @@ script
 setBaselineScript
 (
 fop
--
->
-runtime
-(
-)
 nullptr
 )
 ;

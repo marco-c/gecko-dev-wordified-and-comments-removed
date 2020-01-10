@@ -14802,11 +14802,6 @@ script
 setIonScript
 (
 fop
--
->
-runtime
-(
-)
 nullptr
 )
 ;
@@ -15785,6 +15780,7 @@ script
 >
 clearIonScript
 (
+fop
 )
 ;
 jit
@@ -15826,6 +15822,7 @@ script
 >
 clearBaselineScript
 (
+fop
 )
 ;
 jit
@@ -15856,6 +15853,7 @@ script
 >
 releaseJitScript
 (
+fop
 )
 ;
 }

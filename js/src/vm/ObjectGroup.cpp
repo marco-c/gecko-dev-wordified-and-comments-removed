@@ -568,7 +568,7 @@ void
 *
 addendum
 bool
-writeBarrier
+isSweeping
 )
 {
 MOZ_ASSERT
@@ -606,11 +606,13 @@ MemoryUse
 :
 :
 ObjectGroupAddendum
+isSweeping
 )
 ;
 if
 (
-writeBarrier
+!
+isSweeping
 )
 {
 AutoSweepObjectGroup

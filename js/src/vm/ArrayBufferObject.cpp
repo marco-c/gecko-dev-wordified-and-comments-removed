@@ -4579,7 +4579,10 @@ byteLength
 )
 )
 ;
-RemoveCellMemory
+fop
+-
+>
+removeCellMemory
 (
 this
 associatedBytes
@@ -4606,7 +4609,10 @@ dataPointer
 )
 )
 ;
-RemoveCellMemory
+fop
+-
+>
+removeCellMemory
 (
 this
 byteLength

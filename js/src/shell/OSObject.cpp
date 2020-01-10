@@ -2182,7 +2182,10 @@ rcFile
 (
 )
 ;
-RemoveCellMemory
+fop
+-
+>
+removeCellMemory
 (
 obj
 sizeof
