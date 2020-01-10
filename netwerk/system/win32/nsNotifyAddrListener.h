@@ -56,6 +56,13 @@ h
 #
 include
 "
+nsThreadPool
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -221,7 +228,7 @@ aAdapterName
 ;
 nsCOMPtr
 <
-nsIThread
+nsIThreadPool
 >
 mThread
 ;
