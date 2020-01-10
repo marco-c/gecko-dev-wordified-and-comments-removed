@@ -2393,6 +2393,12 @@ blockSizeOfARow
 ;
 mNumDisplayRows
 =
+XRE_IsContentProcess
+(
+)
+?
+kMaxDropDownRows
+:
 1
 ;
 }
