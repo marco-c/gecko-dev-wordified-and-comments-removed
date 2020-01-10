@@ -99,16 +99,6 @@ awsy
 -
 testing
 /
-firefox
--
-ui
--
-testing
-/
-geckodriver
--
-testing
-/
 gtest
 -
 testing
