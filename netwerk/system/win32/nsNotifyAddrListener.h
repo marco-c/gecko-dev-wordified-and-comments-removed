@@ -297,6 +297,12 @@ mMutex
 nsCString
 mNetworkId
 ;
+nsTArray
+<
+nsCString
+>
+mDnsSuffixList
+;
 HANDLE
 mCheckEvent
 ;
