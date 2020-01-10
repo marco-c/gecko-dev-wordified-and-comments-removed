@@ -46,6 +46,11 @@ IsMainThread
 profiler_thread_is_being_profiled
 (
 )
+|
+|
+profiler_is_locked_on_current_thread
+(
+)
 )
 {
 return
