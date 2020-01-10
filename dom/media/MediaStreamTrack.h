@@ -902,7 +902,7 @@ OverrideEnded
 ;
 }
 }
-nsCOMPtr
+RefPtr
 <
 nsIPrincipal
 >
