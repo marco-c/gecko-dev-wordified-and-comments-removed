@@ -14393,6 +14393,10 @@ DtoaState
 *
 dtoaState
 ;
+AstModule
+*
+module
+;
 uintptr_t
 stackLimit
 ;
@@ -14415,6 +14419,9 @@ stackLimit
 LifoAlloc
 &
 lifo
+AstModule
+*
+module
 UniqueChars
 *
 error
@@ -14438,6 +14445,10 @@ dtoaState
 NewDtoaState
 (
 )
+)
+module
+(
+module
 )
 stackLimit
 (
@@ -24562,9 +24573,6 @@ WasmParseContext
 c
 DefinitionKind
 kind
-AstModule
-*
-module
 AstRef
 ref
 )
@@ -24622,6 +24630,8 @@ return
 exp
 &
 &
+c
+.
 module
 -
 >
@@ -24957,9 +24967,6 @@ c
 AstRef
 *
 ref
-AstModule
-*
-module
 )
 {
 if
@@ -25015,6 +25022,8 @@ funcTypeIndex
 if
 (
 !
+c
+.
 module
 -
 >
@@ -25056,9 +25065,6 @@ ParseFunc
 WasmParseContext
 &
 c
-AstModule
-*
-module
 )
 {
 AstValTypeVector
@@ -25141,6 +25147,8 @@ Import
 {
 if
 (
+c
+.
 module
 -
 >
@@ -25227,7 +25235,6 @@ ParseFuncType
 c
 &
 funcType
-module
 )
 )
 {
@@ -25269,6 +25276,8 @@ return
 imp
 &
 &
+c
+.
 module
 -
 >
@@ -25304,6 +25313,8 @@ empty
 ?
 AstRef
 (
+c
+.
 module
 -
 >
@@ -25311,6 +25322,8 @@ numFuncImports
 (
 )
 +
+c
+.
 module
 -
 >
@@ -25338,7 +25351,6 @@ DefinitionKind
 :
 :
 Function
-module
 ref
 )
 )
@@ -25672,6 +25684,8 @@ funcTypeIndex
 if
 (
 !
+c
+.
 module
 -
 >
@@ -25752,6 +25766,8 @@ return
 func
 &
 &
+c
+.
 module
 -
 >
@@ -26636,9 +26652,6 @@ ParseDataCount
 WasmParseContext
 &
 c
-AstModule
-*
-module
 )
 {
 WasmToken
@@ -26686,6 +26699,8 @@ false
 ;
 }
 return
+c
+.
 module
 -
 >
@@ -26874,9 +26889,6 @@ ParseMemory
 WasmParseContext
 &
 c
-AstModule
-*
-module
 )
 {
 AstName
@@ -27026,6 +27038,8 @@ return
 imp
 &
 &
+c
+.
 module
 -
 >
@@ -27061,6 +27075,8 @@ empty
 ?
 AstRef
 (
+c
+.
 module
 -
 >
@@ -27088,7 +27104,6 @@ DefinitionKind
 :
 :
 Memory
-module
 ref
 )
 )
@@ -27312,6 +27327,8 @@ segment
 |
 |
 !
+c
+.
 module
 -
 >
@@ -27357,6 +27374,8 @@ false
 if
 (
 !
+c
+.
 module
 -
 >
@@ -27432,6 +27451,8 @@ false
 ;
 }
 return
+c
+.
 module
 -
 >
@@ -27452,9 +27473,6 @@ ParseGcFeatureOptIn
 WasmParseContext
 &
 c
-AstModule
-*
-module
 )
 {
 WasmToken
@@ -27546,6 +27564,8 @@ false
 ;
 }
 return
+c
+.
 module
 -
 >
@@ -27570,9 +27590,6 @@ WasmParseContext
 c
 WasmToken
 token
-AstModule
-*
-module
 )
 {
 AstRef
@@ -27602,6 +27619,8 @@ false
 if
 (
 !
+c
+.
 module
 -
 >
@@ -27923,9 +27942,6 @@ ParseImport
 WasmParseContext
 &
 c
-AstModule
-*
-module
 )
 {
 AstName
@@ -28390,7 +28406,6 @@ ParseFuncType
 c
 &
 funcTypeRef
-module
 )
 )
 {
@@ -28556,6 +28571,8 @@ funcTypeIndex
 if
 (
 !
+c
+.
 module
 -
 >
@@ -29127,9 +29144,6 @@ WasmParseContext
 c
 WasmToken
 token
-AstModule
-*
-module
 )
 {
 AstName
@@ -29272,6 +29286,8 @@ return
 import
 &
 &
+c
+.
 module
 -
 >
@@ -29327,6 +29343,8 @@ empty
 ?
 AstRef
 (
+c
+.
 module
 -
 >
@@ -29354,7 +29372,6 @@ DefinitionKind
 :
 :
 Table
-module
 ref
 )
 )
@@ -29432,6 +29449,8 @@ false
 ;
 }
 return
+c
+.
 module
 -
 >
@@ -29684,6 +29703,8 @@ false
 if
 (
 !
+c
+.
 module
 -
 >
@@ -29779,6 +29800,8 @@ return
 segment
 &
 &
+c
+.
 module
 -
 >
@@ -30569,9 +30592,6 @@ ParseGlobal
 WasmParseContext
 &
 c
-AstModule
-*
-module
 )
 {
 AstName
@@ -30628,6 +30648,8 @@ Import
 {
 if
 (
+c
+.
 module
 -
 >
@@ -30761,6 +30783,8 @@ return
 imp
 &
 &
+c
+.
 module
 -
 >
@@ -30788,6 +30812,8 @@ Export
 size_t
 refIndex
 =
+c
+.
 module
 -
 >
@@ -30795,6 +30821,8 @@ numGlobalImports
 (
 )
 +
+c
+.
 module
 -
 >
@@ -30835,7 +30863,6 @@ DefinitionKind
 :
 :
 Global
-module
 ref
 )
 )
@@ -30942,6 +30969,8 @@ return
 glob
 &
 &
+c
+.
 module
 -
 >
@@ -30959,9 +30988,6 @@ ParseBinaryModule
 WasmParseContext
 &
 c
-AstModule
-*
-module
 )
 {
 AstNameVector
@@ -31041,6 +31067,8 @@ data
 |
 |
 !
+c
+.
 module
 -
 >
@@ -31055,6 +31083,8 @@ nullptr
 ;
 }
 return
+c
+.
 module
 ;
 }
@@ -31082,6 +31112,34 @@ bool
 binary
 )
 {
+*
+binary
+=
+false
+;
+auto
+*
+module
+=
+new
+(
+lifo
+)
+AstModule
+(
+lifo
+)
+;
+if
+(
+!
+module
+)
+{
+return
+nullptr
+;
+}
 WasmParseContext
 c
 (
@@ -31089,13 +31147,9 @@ text
 textLen
 stackLimit
 lifo
+module
 error
 )
-;
-*
-binary
-=
-false
 ;
 if
 (
@@ -31143,33 +31197,6 @@ return
 nullptr
 ;
 }
-auto
-*
-module
-=
-new
-(
-c
-.
-lifo
-)
-AstModule
-(
-c
-.
-lifo
-)
-;
-if
-(
-!
-module
-)
-{
-return
-nullptr
-;
-}
 if
 (
 c
@@ -31200,7 +31227,6 @@ return
 ParseBinaryModule
 (
 c
-module
 )
 ;
 }
@@ -31298,7 +31324,6 @@ ParseStartFunc
 (
 c
 section
-module
 )
 )
 {
@@ -31322,7 +31347,6 @@ if
 ParseMemory
 (
 c
-module
 )
 )
 {
@@ -31349,7 +31373,6 @@ if
 ParseGcFeatureOptIn
 (
 c
-module
 )
 )
 {
@@ -31375,7 +31398,6 @@ if
 ParseGlobal
 (
 c
-module
 )
 )
 {
@@ -31438,7 +31460,6 @@ if
 ParseDataCount
 (
 c
-module
 )
 )
 {
@@ -31463,7 +31484,6 @@ imp
 ParseImport
 (
 c
-module
 )
 ;
 if
@@ -31542,7 +31562,6 @@ ParseTable
 (
 c
 section
-module
 )
 )
 {
@@ -31605,7 +31624,6 @@ if
 ParseFunc
 (
 c
-module
 )
 )
 {
