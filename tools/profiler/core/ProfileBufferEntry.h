@@ -239,16 +239,6 @@ double
 \
 MACRO
 (
-Responsiveness
-double
-sizeof
-(
-double
-)
-)
-\
-MACRO
-(
 Resume
 double
 sizeof
@@ -387,6 +377,7 @@ LEGACY_LIMIT
 MarkerData
 =
 LEGACY_LIMIT
+UnresponsiveDurationMs
 CompactStack
 MODERN_LIMIT
 }
