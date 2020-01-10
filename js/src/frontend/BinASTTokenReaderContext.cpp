@@ -1840,7 +1840,7 @@ MOZ_TRY
 (
 readTable
 <
-HuffmanTableListLength
+HuffmanTableValue
 List
 >
 (
@@ -14429,7 +14429,7 @@ identity_
 ]
 ;
 }
-HuffmanTableListLength
+HuffmanTableValue
 &
 HuffmanDictionary
 :

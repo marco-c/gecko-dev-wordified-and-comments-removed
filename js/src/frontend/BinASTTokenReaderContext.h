@@ -2239,11 +2239,6 @@ HuffmanTableInitializing
 GenericHuffmanTable
 >
 ;
-using
-HuffmanTableListLength
-=
-HuffmanTableValue
-;
 class
 HuffmanDictionary
 {
@@ -2261,7 +2256,7 @@ NormalizedInterfaceAndField
 index
 )
 ;
-HuffmanTableListLength
+HuffmanTableValue
 &
 tableForListLength
 (
@@ -2286,7 +2281,7 @@ mozilla
 :
 Array
 <
-HuffmanTableListLength
+HuffmanTableValue
 BINAST_NUMBER_OF_LIST_TYPES
 >
 listLengths_
