@@ -322,15 +322,6 @@ dom
 ReactDOM
 "
 "
-react
--
-intl
-"
-:
-"
-ReactIntl
-"
-"
 redux
 "
 :

@@ -649,16 +649,6 @@ BASE_URL
 }
 vendor
 /
-react
--
-intl
-.
-js
-{
-BASE_URL
-}
-vendor
-/
 redux
 .
 js
