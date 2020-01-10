@@ -1127,6 +1127,11 @@ aRequest
 )
 )
 ;
+if
+(
+channel
+)
+{
 nsCOMPtr
 <
 nsILoadInfo
@@ -1151,8 +1156,9 @@ GetSkipContentSniffing
 )
 {
 return
-NS_OK
+NS_ERROR_NOT_AVAILABLE
 ;
+}
 }
 mBuffer
 =
