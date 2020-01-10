@@ -11,7 +11,6 @@ ProxyLogger
 class
 RaptorLogger
 (
-ProxyLogger
 )
 :
     
