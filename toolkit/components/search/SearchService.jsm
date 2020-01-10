@@ -10871,6 +10871,15 @@ config
 telemetryId
 }
 ;
+if
+(
+"
+params
+"
+in
+config
+)
+{
 [
 "
 searchUrlGetParams
@@ -10897,6 +10906,8 @@ if
 key
 in
 config
+.
+params
 )
 {
 params
@@ -10908,6 +10919,8 @@ new
 URLSearchParams
 (
 config
+.
+params
 [
 key
 ]
@@ -10921,6 +10934,7 @@ toString
 }
 )
 ;
+}
 if
 (
 "

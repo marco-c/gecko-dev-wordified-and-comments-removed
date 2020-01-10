@@ -16,16 +16,13 @@ default
 defaultPrivate
 "
 "
-application
-"
-"
 orderHint
 "
 "
 telemetryId
 "
 "
-codes
+params
 "
 "
 appliesTo
