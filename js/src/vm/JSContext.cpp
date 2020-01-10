@@ -6517,11 +6517,6 @@ structuredSpewer_
 )
 #
 endif
-insideDebuggerEvaluationWithOnNativeCallHook
-(
-this
-nullptr
-)
 {
 MOZ_ASSERT
 (
