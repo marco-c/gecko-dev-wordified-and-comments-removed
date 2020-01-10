@@ -130,15 +130,6 @@ content
 "
 )
 ;
-if
-(
-Services
-.
-appinfo
-.
-browserTabsRemoteAutostart
-)
-{
 browser
 .
 setAttribute
@@ -151,7 +142,6 @@ true
 "
 )
 ;
-}
 browser
 .
 setAttribute
