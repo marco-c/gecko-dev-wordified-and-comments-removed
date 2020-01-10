@@ -302,6 +302,14 @@ windows
         
 path
 =
+"
+/
+{
+}
+"
+.
+format
+(
 path
 .
 replace
@@ -314,6 +322,7 @@ replace
 /
 "
 )
+)
     
 url
 =
@@ -321,7 +330,6 @@ u
 "
 file
 :
-/
 /
 /
 {
