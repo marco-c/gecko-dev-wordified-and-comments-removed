@@ -16548,9 +16548,8 @@ true
 ;
 options
 .
-setCanLazilyParse
+setForceFullParse
 (
-false
 )
 ;
 options
