@@ -110,13 +110,10 @@ aRootLayerTreeId
 :
 CompositorSession
 (
+aWidget
 aWidgetDelegate
 aChild
 aRootLayerTreeId
-)
-mWidget
-(
-aWidget
 )
 mAPZ
 (

@@ -836,6 +836,11 @@ RebuildInProcessSessions
 )
 ;
 void
+NotifyDisablingWebRender
+(
+)
+;
+void
 FallbackToSoftware
 (
 const

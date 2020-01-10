@@ -900,6 +900,11 @@ return
 nullptr
 ;
 }
+void
+NotifyDisablingWebRender
+(
+)
+;
 using
 nsBaseWidget
 :
@@ -1583,6 +1588,9 @@ mIdleService
 ;
 bool
 mIsFullScreen
+;
+bool
+mIsDisablingWebRender
 ;
 bool
 UseExternalCompositingSurface
