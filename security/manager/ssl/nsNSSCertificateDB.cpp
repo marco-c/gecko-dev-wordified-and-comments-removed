@@ -5802,9 +5802,6 @@ task
 >
 Dispatch
 (
-"
-VerifyCert
-"
 )
 ;
 }
