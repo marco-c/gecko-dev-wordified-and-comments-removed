@@ -6173,6 +6173,10 @@ to_string
 sorted
 (
 )
+.
+collect_vec
+(
+)
 ;
 let
 kind_limit
@@ -6406,6 +6410,10 @@ keys
 )
 .
 sorted
+(
+)
+.
+collect_vec
 (
 )
 ;
@@ -8497,6 +8505,10 @@ symbol_2
 )
 }
 )
+.
+collect_vec
+(
+)
 ;
 let
 variants_limit
@@ -9462,6 +9474,10 @@ b
 0
 )
 )
+.
+collect_vec
+(
+)
 ;
 buffer
 .
@@ -9762,6 +9778,10 @@ to_str
 (
 )
 )
+)
+.
+collect_vec
+(
 )
 ;
 let
@@ -10826,6 +10846,10 @@ iter
 )
 .
 sorted
+(
+)
+.
+collect_vec
 (
 )
 ;
