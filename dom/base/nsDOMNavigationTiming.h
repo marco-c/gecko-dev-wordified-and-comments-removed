@@ -508,6 +508,11 @@ aNavigationType
 )
 ;
 void
+NotifyRestoreStart
+(
+)
+;
+void
 NotifyBeforeUnload
 (
 )
