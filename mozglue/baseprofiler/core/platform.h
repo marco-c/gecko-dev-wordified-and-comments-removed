@@ -433,7 +433,7 @@ aIsShuttingDown
 ;
 enum
 class
-JSSamplingFlags
+JSInstrumentationFlags
 {
 StackSampling
 =
@@ -444,6 +444,9 @@ TrackOptimizations
 TraceLogging
 =
 0x4
+Allocations
+=
+0x8
 }
 ;
 void
