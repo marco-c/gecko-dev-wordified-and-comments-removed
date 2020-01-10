@@ -14,6 +14,7 @@ Page
 }
 )
 {
+await
 loadURL
 (
 toDataURL
@@ -174,6 +175,7 @@ Page
 }
 )
 {
+await
 loadURL
 (
 toDataURL
@@ -342,6 +344,7 @@ Page
 }
 )
 {
+await
 loadURL
 (
 toDataURL
@@ -416,6 +419,7 @@ Page
 }
 )
 {
+await
 loadURL
 (
 toDataURL
@@ -570,6 +574,7 @@ Page
 }
 )
 {
+await
 loadURL
 (
 toDataURL
@@ -946,6 +951,27 @@ quality
 100
 is
 larger
+than
+default
+"
+)
+;
+ok
+(
+info10
+.
+length
+<
+infoDefault
+.
+length
+"
+Size
+of
+quality
+10
+is
+smaller
 than
 default
 "
