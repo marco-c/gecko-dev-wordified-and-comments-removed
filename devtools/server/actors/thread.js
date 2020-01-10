@@ -1639,11 +1639,6 @@ new
 EventLoopStack
 (
 {
-hooks
-:
-this
-.
-_parent
 connection
 :
 this
