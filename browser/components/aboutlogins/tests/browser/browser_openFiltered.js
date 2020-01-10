@@ -494,6 +494,18 @@ item
 :
 not
 (
+#
+new
+-
+login
+-
+list
+-
+item
+)
+:
+not
+(
 [
 hidden
 ]
@@ -546,7 +558,7 @@ is
 hiddenLoginListItems
 .
 length
-2
+1
 "
 One
 login
@@ -560,7 +572,7 @@ is
 (
 hiddenLoginListItems
 [
-1
+0
 ]
 .
 dataset
