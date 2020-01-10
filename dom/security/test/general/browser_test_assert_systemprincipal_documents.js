@@ -49,6 +49,14 @@ disallow_non_local_systemprincipal_in_tests
 "
 true
 ]
+[
+"
+security
+.
+allow_unsafe_parent_loads
+"
+true
+]
 ]
 }
 )
