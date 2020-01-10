@@ -1723,9 +1723,22 @@ name
 '
 ]
             
-try
+for
+location
+in
+(
+'
+applications
+'
+'
+browser_specific_settings
+'
+)
 :
                 
+try
+:
+                    
 details
 [
 '
@@ -1735,9 +1748,7 @@ id
 =
 manifest
 [
-'
-applications
-'
+location
 ]
 [
 '
@@ -1749,9 +1760,24 @@ gecko
 id
 '
 ]
-            
+                    
+break
+                
 except
 KeyError
+:
+                    
+pass
+            
+if
+details
+[
+'
+id
+'
+]
+is
+None
 :
                 
 details
