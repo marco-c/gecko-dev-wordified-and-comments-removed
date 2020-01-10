@@ -4222,16 +4222,3 @@ mFormControlList
 )
 ;
 }
-void
-nsHTMLDocument
-:
-:
-UserInteractionForTesting
-(
-)
-{
-SetUserHasInteracted
-(
-)
-;
-}

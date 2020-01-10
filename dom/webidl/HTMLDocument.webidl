@@ -116,17 +116,3 @@ name
 ;
 }
 ;
-partial
-interface
-HTMLDocument
-{
-[
-ChromeOnly
-]
-void
-userInteractionForTesting
-(
-)
-;
-}
-;
