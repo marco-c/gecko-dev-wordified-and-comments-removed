@@ -275,6 +275,13 @@ _resultsAdded
 ;
 }
 }
+pickResult
+(
+result
+details
+)
+{
+}
 }
 function
 getHistogramReportsCount

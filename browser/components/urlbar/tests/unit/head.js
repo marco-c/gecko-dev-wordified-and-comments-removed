@@ -693,6 +693,13 @@ _cancelCallback
 ;
 }
 }
+pickResult
+(
+result
+details
+)
+{
+}
 }
 function
 registerBasicTestProvider
