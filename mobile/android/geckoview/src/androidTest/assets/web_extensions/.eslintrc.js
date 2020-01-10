@@ -19,5 +19,16 @@ webextensions
 :
 true
 }
+"
+globals
+"
+:
+{
+"
+ExtensionAPI
+"
+:
+true
+}
 }
 ;
