@@ -458,7 +458,7 @@ int32_t
 VARCACHE_PREF
 (
   
-Live
+Always
   
 "
 my
@@ -524,7 +524,7 @@ foobar
 VARCACHE_PREF
 (
   
-Live
+Always
   
 "
 my
@@ -544,7 +544,7 @@ true
 VARCACHE_PREF
 (
   
-Live
+Always
   
 "
 my

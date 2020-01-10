@@ -241,12 +241,15 @@ TrueType
 namespace
 StaticPrefs
 {
+#
+undef
+Always
 enum
 class
-UpdatePolicy
+MirrorKind
 {
 Once
-Live
+Always
 }
 ;
 void

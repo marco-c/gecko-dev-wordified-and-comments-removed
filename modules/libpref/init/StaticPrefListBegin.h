@@ -58,13 +58,13 @@ full_id
 \
 if
 (
-UpdatePolicy
+MirrorKind
 :
 :
 policy
 !
 =
-UpdatePolicy
+MirrorKind
 :
 :
 Once
