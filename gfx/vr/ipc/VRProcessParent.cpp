@@ -121,13 +121,6 @@ h
 #
 include
 "
-gfxVRPuppet
-.
-h
-"
-#
-include
-"
 nsAppRunner
 .
 h

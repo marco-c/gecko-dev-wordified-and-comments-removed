@@ -1767,7 +1767,7 @@ dom
 .
 vr
 .
-test
+puppet
 .
 enabled
 "
