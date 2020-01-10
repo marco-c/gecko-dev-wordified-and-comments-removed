@@ -388,6 +388,9 @@ prototype
 _ignoreZoom
 :
 false
+_ignoreScroll
+:
+false
 get
 win
 (
@@ -748,6 +751,11 @@ this
 currentNode
 region
 {
+ignoreScroll
+:
+this
+.
+_ignoreScroll
 ignoreZoom
 :
 this
