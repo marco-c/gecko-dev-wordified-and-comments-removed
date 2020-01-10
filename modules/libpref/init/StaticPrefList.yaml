@@ -3111,6 +3111,16 @@ true
 mirror
 :
 always
+#
+Fetch
+displayport
+updates
+early
+from
+the
+message
+queue
+.
 -
 name
 :
@@ -3567,7 +3577,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
