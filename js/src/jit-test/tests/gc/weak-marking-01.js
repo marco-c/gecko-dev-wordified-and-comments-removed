@@ -125,7 +125,7 @@ shrinking
 '
 )
 ;
-gcslice
+finishgc
 (
 )
 ;
@@ -281,7 +281,7 @@ shrinking
 '
 )
 ;
-gcslice
+finishgc
 (
 )
 ;
@@ -496,7 +496,7 @@ shrinking
 '
 )
 ;
-gcslice
+finishgc
 (
 )
 ;
@@ -612,7 +612,7 @@ shrinking
 '
 )
 ;
-gcslice
+finishgc
 (
 )
 ;
@@ -783,7 +783,7 @@ shrinking
 '
 )
 ;
-gcslice
+finishgc
 (
 )
 ;

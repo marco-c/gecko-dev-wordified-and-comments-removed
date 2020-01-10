@@ -3268,7 +3268,7 @@ template
 class
 ZoneIterT
 >
-void
+IncrementalProgress
 markWeakReferences
 (
 gcstats
@@ -3276,9 +3276,12 @@ gcstats
 :
 PhaseKind
 phase
+SliceBudget
+&
+budget
 )
 ;
-void
+IncrementalProgress
 markWeakReferencesInCurrentGroup
 (
 gcstats
@@ -3286,6 +3289,9 @@ gcstats
 :
 PhaseKind
 phase
+SliceBudget
+&
+budget
 )
 ;
 template
@@ -3314,7 +3320,7 @@ Zone
 zone
 )
 ;
-void
+IncrementalProgress
 markAllWeakReferences
 (
 gcstats
@@ -3322,6 +3328,9 @@ gcstats
 :
 PhaseKind
 phase
+SliceBudget
+&
+budget
 )
 ;
 void
