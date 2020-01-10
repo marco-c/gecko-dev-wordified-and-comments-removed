@@ -136,14 +136,6 @@ params
 "
 )
 ;
-if
-(
-!
-dispatchParams
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 const
 uint8_t
 indexOfJSContext
