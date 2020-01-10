@@ -1009,7 +1009,8 @@ are
 deliberately
 truncating
 the
-creationDate
+creationTime
+field
 to
 hours
 .
