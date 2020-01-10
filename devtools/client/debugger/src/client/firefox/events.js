@@ -298,6 +298,16 @@ packet
 PausedPacket
 )
 {
+await
+actions
+.
+ensureHasThread
+(
+threadFront
+.
+actor
+)
+;
 const
 {
 why
