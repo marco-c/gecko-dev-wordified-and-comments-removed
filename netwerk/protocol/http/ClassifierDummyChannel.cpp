@@ -2040,8 +2040,13 @@ nsILoadInfo
 :
 :
 CrossOriginOpenerPolicy
+aInitiatorPolicy
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
 *
-aPolicy
+aOutPolicy
 )
 {
 return
