@@ -1050,6 +1050,12 @@ CRASH
 *
 \
 |
+[
+^
+\
+|
+]
+*
 (
 application
 crashed
