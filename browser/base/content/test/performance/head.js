@@ -1087,7 +1087,7 @@ ensureDirtyRootFrame
 ;
 overflowableToolbar
 .
-_onLazyResize
+_checkOverflow
 (
 )
 ;
