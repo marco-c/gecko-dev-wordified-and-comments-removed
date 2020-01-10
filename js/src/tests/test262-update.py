@@ -177,12 +177,6 @@ formatRange
 "
 Intl
 .
-ListFormat
-"
-    
-"
-Intl
-.
 Segmenter
 "
     
