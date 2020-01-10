@@ -723,7 +723,7 @@ AffixPatternProvider
 patternInfo
 bool
 isPrefix
-int8_t
+Signum
 signum
 UNumberSignDisplay
 signDisplay

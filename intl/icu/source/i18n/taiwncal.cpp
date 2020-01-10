@@ -143,14 +143,13 @@ return
 this
 ;
 }
-Calendar
+TaiwanCalendar
 *
 TaiwanCalendar
 :
 :
 clone
 (
-void
 )
 const
 {

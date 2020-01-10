@@ -704,7 +704,7 @@ return
 sType
 ;
 }
-Calendar
+IslamicCalendar
 *
 IslamicCalendar
 :
@@ -1976,8 +1976,6 @@ age
 static
 UMutex
 astroLock
-=
-U_MUTEX_INITIALIZER
 ;
 umtx_lock
 (

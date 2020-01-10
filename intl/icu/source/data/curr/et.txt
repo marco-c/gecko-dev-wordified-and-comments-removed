@@ -6486,7 +6486,7 @@ other
 {
 "
 Nicaragua
-kordobad
+kordobat
 "
 }
 }
@@ -8325,13 +8325,7 @@ other
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-42
+36
 "
 }
 }

@@ -53,9 +53,6 @@ uformattedvalue
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 UNumberUnitWidth
@@ -69,11 +66,6 @@ UNUM_UNIT_WIDTH_COUNT
 }
 UNumberUnitWidth
 ;
-#
-endif
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 UNumberGroupingStrategy
@@ -92,11 +84,6 @@ endif
 }
 UNumberGroupingStrategy
 ;
-#
-endif
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 UNumberSignDisplay
@@ -112,11 +99,6 @@ UNUM_SIGN_COUNT
 }
 UNumberSignDisplay
 ;
-#
-endif
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 UNumberDecimalSeparatorDisplay
@@ -127,8 +109,6 @@ UNUM_DECIMAL_SEPARATOR_COUNT
 }
 UNumberDecimalSeparatorDisplay
 ;
-#
-endif
 struct
 UNumberFormatter
 ;

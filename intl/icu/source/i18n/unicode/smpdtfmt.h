@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -214,11 +217,10 @@ SimpleDateFormat
 )
 ;
 virtual
-Format
+SimpleDateFormat
 *
 clone
 (
-void
 )
 const
 ;
@@ -1237,6 +1239,7 @@ SMPDTFMT_NF_COUNT
 UBool
 fHaveDefaultCentury
 ;
+const
 BreakIterator
 *
 fCapitalizationBrkIter
@@ -1260,6 +1263,8 @@ fDefaultCenturyStart
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

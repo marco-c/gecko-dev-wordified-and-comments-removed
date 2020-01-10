@@ -144,14 +144,13 @@ return
 this
 ;
 }
-Calendar
+BuddhistCalendar
 *
 BuddhistCalendar
 :
 :
 clone
 (
-void
 )
 const
 {
@@ -469,6 +468,8 @@ icu
 :
 UInitOnce
 gBCInitOnce
+=
+U_INITONCE_INITIALIZER
 ;
 UBool
 BuddhistCalendar

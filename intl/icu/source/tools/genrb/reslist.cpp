@@ -6902,12 +6902,6 @@ errorCode
 )
 |
 |
-fKeysCount
-=
-=
-0
-|
-|
 fKeyMap
 !
 =

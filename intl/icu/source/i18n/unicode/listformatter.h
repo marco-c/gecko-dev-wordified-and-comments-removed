@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -598,5 +601,7 @@ data
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif

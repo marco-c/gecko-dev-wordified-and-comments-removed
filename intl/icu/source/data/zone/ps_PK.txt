@@ -38,13 +38,7 @@ ps_PK
 Version
 {
 "
-2
-.
-1
-.
-49
-.
-34
+36
 "
 }
 zoneStrings

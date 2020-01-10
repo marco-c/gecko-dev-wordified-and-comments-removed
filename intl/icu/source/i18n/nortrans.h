@@ -63,11 +63,10 @@ NormalizationTransliterator
 )
 ;
 virtual
-Transliterator
+NormalizationTransliterator
 *
 clone
 (
-void
 )
 const
 ;

@@ -91,13 +91,7 @@ currencyFormat
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-56
+36
 "
 }
 calendar

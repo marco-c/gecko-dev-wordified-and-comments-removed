@@ -48,6 +48,13 @@ h
 #
 include
 "
+cmemory
+.
+h
+"
+#
+include
+"
 gregoimp
 .
 h
@@ -783,7 +790,7 @@ that
 )
 ;
 }
-TimeZone
+SimpleTimeZone
 *
 SimpleTimeZone
 :
@@ -3730,8 +3737,6 @@ return
 static
 UMutex
 gLock
-=
-U_MUTEX_INITIALIZER
 ;
 umtx_lock
 (

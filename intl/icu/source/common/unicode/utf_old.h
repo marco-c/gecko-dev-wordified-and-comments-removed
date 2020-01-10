@@ -5,26 +5,6 @@ __UTF_OLD_H__
 define
 __UTF_OLD_H__
 #
-ifndef
-U_HIDE_OBSOLETE_UTF_OLD_H
-#
-define
-U_HIDE_OBSOLETE_UTF_OLD_H
-0
-#
-endif
-#
-if
-!
-defined
-(
-U_HIDE_DEPRECATED_API
-)
-&
-&
-!
-U_HIDE_OBSOLETE_UTF_OLD_H
-#
 include
 "
 unicode
@@ -51,6 +31,26 @@ utf16
 .
 h
 "
+#
+ifndef
+U_HIDE_OBSOLETE_UTF_OLD_H
+#
+define
+U_HIDE_OBSOLETE_UTF_OLD_H
+0
+#
+endif
+#
+if
+!
+defined
+(
+U_HIDE_DEPRECATED_API
+)
+&
+&
+!
+U_HIDE_OBSOLETE_UTF_OLD_H
 #
 ifdef
 U_USE_UTF_DEPRECATES
@@ -615,6 +615,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -644,6 +645,7 @@ c
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_GET_CHAR_SAFE
@@ -655,6 +657,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -687,6 +690,7 @@ strict
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_NEXT_CHAR_UNSAFE
@@ -695,6 +699,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -886,6 +891,7 @@ break
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_APPEND_CHAR_UNSAFE
@@ -894,6 +900,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1151,6 +1158,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_FWD_1_UNSAFE
@@ -1158,6 +1166,7 @@ UTF8_FWD_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -1179,6 +1188,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_FWD_N_UNSAFE
@@ -1187,6 +1197,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -1220,6 +1231,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_SET_CHAR_START_UNSAFE
@@ -1227,6 +1239,7 @@ UTF8_SET_CHAR_START_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 while
@@ -1251,6 +1264,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_NEXT_CHAR_SAFE
@@ -1261,6 +1275,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -1337,6 +1352,7 @@ UTF8_ERROR_VALUE_1
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_APPEND_CHAR_SAFE
@@ -1346,6 +1362,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1412,6 +1429,7 @@ NULL
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_FWD_1_SAFE
@@ -1464,6 +1482,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -1614,6 +1633,7 @@ __shift
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_BACK_1_UNSAFE
@@ -1621,6 +1641,7 @@ UTF8_BACK_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 while
@@ -1643,6 +1664,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_BACK_N_UNSAFE
@@ -1651,6 +1673,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -1684,6 +1707,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_SET_CHAR_LIMIT_UNSAFE
@@ -1691,6 +1715,7 @@ UTF8_SET_CHAR_LIMIT_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 UTF8_BACK_1_UNSAFE
@@ -1708,6 +1733,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_PREV_CHAR_SAFE
@@ -1718,6 +1744,7 @@ i
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -1791,6 +1818,7 @@ UTF8_ERROR_VALUE_1
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF8_BACK_1_SAFE
@@ -2080,6 +2108,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -2165,6 +2194,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_GET_CHAR_SAFE
@@ -2176,6 +2206,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -2438,6 +2469,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_NEXT_CHAR_UNSAFE
@@ -2446,6 +2478,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -2498,6 +2531,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_APPEND_CHAR_UNSAFE
@@ -2506,6 +2540,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -2603,6 +2638,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_FWD_1_UNSAFE
@@ -2610,6 +2646,7 @@ UTF16_FWD_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -2640,6 +2677,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_FWD_N_UNSAFE
@@ -2648,6 +2686,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -2681,6 +2720,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_SET_CHAR_START_UNSAFE
@@ -2688,6 +2728,7 @@ UTF16_SET_CHAR_START_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -2714,6 +2755,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_NEXT_CHAR_SAFE
@@ -2724,6 +2766,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -2894,6 +2937,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_APPEND_CHAR_SAFE
@@ -2903,6 +2947,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -3081,6 +3126,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_FWD_1_SAFE
@@ -3133,6 +3179,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -3185,6 +3232,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_BACK_1_UNSAFE
@@ -3192,6 +3240,7 @@ UTF16_BACK_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -3222,6 +3271,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_BACK_N_UNSAFE
@@ -3230,6 +3280,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -3263,6 +3314,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_SET_CHAR_LIMIT_UNSAFE
@@ -3270,6 +3322,7 @@ UTF16_SET_CHAR_LIMIT_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -3300,6 +3353,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_PREV_CHAR_SAFE
@@ -3310,6 +3364,7 @@ i
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -3482,6 +3537,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF16_BACK_1_SAFE
@@ -3615,6 +3671,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -3630,6 +3687,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_GET_CHAR_SAFE
@@ -3641,6 +3699,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -3676,6 +3735,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_NEXT_CHAR_UNSAFE
@@ -3684,6 +3744,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -3703,6 +3764,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_APPEND_CHAR_UNSAFE
@@ -3711,6 +3773,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -3730,6 +3793,7 @@ c
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_FWD_1_UNSAFE
@@ -3737,6 +3801,7 @@ UTF32_FWD_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 +
@@ -3747,6 +3812,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_FWD_N_UNSAFE
@@ -3755,6 +3821,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -3768,6 +3835,7 @@ n
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_SET_CHAR_START_UNSAFE
@@ -3775,9 +3843,11 @@ UTF32_SET_CHAR_START_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_NEXT_CHAR_SAFE
@@ -3788,6 +3858,7 @@ length
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -3827,6 +3898,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_APPEND_CHAR_SAFE
@@ -3836,6 +3908,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -3898,6 +3971,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_FWD_1_SAFE
@@ -3906,6 +3980,7 @@ s
 i
 length
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 +
@@ -3916,6 +3991,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_FWD_N_SAFE
@@ -3925,6 +4001,7 @@ i
 length
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -3958,6 +4035,7 @@ length
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_SET_CHAR_START_SAFE
@@ -3966,9 +4044,11 @@ s
 start
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_PREV_CHAR_UNSAFE
@@ -3977,6 +4057,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -3996,6 +4077,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_BACK_1_UNSAFE
@@ -4003,6 +4085,7 @@ UTF32_BACK_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 -
@@ -4013,6 +4096,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_BACK_N_UNSAFE
@@ -4021,6 +4105,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -4034,6 +4119,7 @@ n
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_SET_CHAR_LIMIT_UNSAFE
@@ -4041,9 +4127,11 @@ UTF32_SET_CHAR_LIMIT_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_PREV_CHAR_SAFE
@@ -4054,6 +4142,7 @@ i
 c
 strict
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -4093,6 +4182,7 @@ UTF_ERROR_VALUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_BACK_1_SAFE
@@ -4101,6 +4191,7 @@ s
 start
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 -
@@ -4111,6 +4202,7 @@ i
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_BACK_N_SAFE
@@ -4120,6 +4212,7 @@ start
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -4156,6 +4249,7 @@ start
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF32_SET_CHAR_LIMIT_SAFE
@@ -4164,9 +4258,11 @@ s
 i
 length
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTF_ARRAY_SIZE

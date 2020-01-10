@@ -289,13 +289,7 @@ minimumGroupingDigits
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-4
+36
 "
 }
 calendar

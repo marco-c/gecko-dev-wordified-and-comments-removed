@@ -3759,6 +3759,8 @@ CHECK_SOURCE_LIMIT
 (
 index
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -3796,7 +3798,11 @@ sourceLimit
 return
 0xffff
 ;
+\
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 static
 UChar32
 U_CALLCONV

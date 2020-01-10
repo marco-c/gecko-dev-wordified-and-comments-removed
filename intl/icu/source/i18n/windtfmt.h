@@ -122,11 +122,10 @@ Win32DateFormat
 )
 ;
 virtual
-Format
+Win32DateFormat
 *
 clone
 (
-void
 )
 const
 ;

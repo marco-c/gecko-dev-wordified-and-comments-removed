@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -107,5 +110,7 @@ protected
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif

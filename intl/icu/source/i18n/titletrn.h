@@ -67,11 +67,10 @@ TitlecaseTransliterator
 )
 ;
 virtual
-Transliterator
+TitlecaseTransliterator
 *
 clone
 (
-void
 )
 const
 ;

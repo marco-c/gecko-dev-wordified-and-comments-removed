@@ -630,10 +630,6 @@ fNumberFormat
 {
 fNumberFormat
 =
-(
-NumberFormat
-*
-)
 other
 .
 fNumberFormat
@@ -2357,10 +2353,6 @@ NumberFormat
 *
 newNumFmtClone
 =
-(
-NumberFormat
-*
-)
 newNumberFormat
 .
 clone

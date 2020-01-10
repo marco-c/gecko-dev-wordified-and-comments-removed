@@ -15,11 +15,11 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DEPRECATED_API
 #
 include
 "
@@ -65,6 +65,9 @@ unistr
 .
 h
 "
+#
+ifndef
+U_HIDE_DEPRECATED_API
 U_NAMESPACE_BEGIN
 class
 MessageFormat
@@ -148,11 +151,10 @@ ChoiceFormat
 )
 ;
 virtual
-Format
+ChoiceFormat
 *
 clone
 (
-void
 )
 const
 ;
@@ -518,6 +520,8 @@ msgPattern
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

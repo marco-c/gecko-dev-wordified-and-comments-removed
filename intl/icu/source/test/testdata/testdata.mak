@@ -406,8 +406,12 @@ set
 PYTHONPATH
 =
 (
-ICUSRCDATA
+ICUP
 )
+\
+source
+\
+python
 ;
 %
 PYTHONPATH
@@ -419,7 +423,9 @@ py
 B
 -
 m
-buildtool
+icutools
+.
+databuilder
 \
 -
 -

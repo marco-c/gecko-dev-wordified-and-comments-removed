@@ -1630,6 +1630,8 @@ start
 uint32_t
 trieValue
 value
+=
+nullValue
 ;
 bool
 haveValue

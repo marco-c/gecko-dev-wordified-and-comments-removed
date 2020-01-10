@@ -469,14 +469,13 @@ fNorm2
 )
 {
 }
-Transliterator
+NormalizationTransliterator
 *
 NormalizationTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

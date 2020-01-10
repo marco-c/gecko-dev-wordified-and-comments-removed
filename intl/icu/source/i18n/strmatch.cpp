@@ -170,7 +170,7 @@ StringMatcher
 )
 {
 }
-UnicodeFunctor
+StringMatcher
 *
 StringMatcher
 :

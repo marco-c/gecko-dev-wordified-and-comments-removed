@@ -250,6 +250,7 @@ c2
 result
 resultType
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -365,6 +366,7 @@ initialValue
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 _UTRIE_GET_FROM_BMP
@@ -398,7 +400,6 @@ UTRIE_LEAD_INDEX_DISP
 0
 c16
 )
-;
 #
 define
 _UTRIE_GET
@@ -409,6 +410,8 @@ c32
 result
 resultType
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -518,6 +521,9 @@ initialValue
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 #
 define
 _UTRIE_NEXT
@@ -531,6 +537,7 @@ c2
 result
 resultType
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -674,6 +681,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 _UTRIE_PREVIOUS
@@ -687,6 +695,7 @@ c2
 result
 resultType
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -926,6 +935,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UTRIE_GET16_LATIN1

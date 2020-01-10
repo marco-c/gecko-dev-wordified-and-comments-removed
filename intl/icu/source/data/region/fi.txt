@@ -2076,6 +2076,12 @@ Malvinassaaret
 )
 "
 }
+SZ
+{
+"
+Eswatini
+"
+}
 TL
 {
 "
@@ -2088,13 +2094,7 @@ Leste
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-42
+36
 "
 }
 }

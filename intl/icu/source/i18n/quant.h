@@ -87,7 +87,7 @@ toMatcher
 const
 ;
 virtual
-UnicodeFunctor
+Quantifier
 *
 clone
 (

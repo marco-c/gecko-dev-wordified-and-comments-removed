@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_COLLATION
 #
@@ -448,6 +451,8 @@ getBytes
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

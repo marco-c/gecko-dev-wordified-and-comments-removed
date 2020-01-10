@@ -98,6 +98,13 @@ number_multiplier
 .
 h
 "
+#
+include
+"
+string_segment
+.
+h
+"
 U_NAMESPACE_BEGIN
 #
 if

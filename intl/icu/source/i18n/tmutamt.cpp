@@ -157,7 +157,7 @@ other
 )
 ;
 }
-UObject
+TimeUnitAmount
 *
 TimeUnitAmount
 :

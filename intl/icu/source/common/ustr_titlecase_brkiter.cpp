@@ -142,7 +142,7 @@ BreakIterator
 const
 U_OVERRIDE
 ;
-BreakIterator
+WholeStringBreakIterator
 *
 clone
 (
@@ -280,7 +280,7 @@ n
 )
 U_OVERRIDE
 ;
-BreakIterator
+WholeStringBreakIterator
 *
 createBufferClone
 (
@@ -296,7 +296,7 @@ errorCode
 )
 U_OVERRIDE
 ;
-BreakIterator
+WholeStringBreakIterator
 &
 refreshInputText
 (
@@ -347,7 +347,7 @@ return
 FALSE
 ;
 }
-BreakIterator
+WholeStringBreakIterator
 *
 WholeStringBreakIterator
 :
@@ -608,7 +608,7 @@ return
 length
 ;
 }
-BreakIterator
+WholeStringBreakIterator
 *
 WholeStringBreakIterator
 :
@@ -641,7 +641,7 @@ return
 nullptr
 ;
 }
-BreakIterator
+WholeStringBreakIterator
 &
 WholeStringBreakIterator
 :

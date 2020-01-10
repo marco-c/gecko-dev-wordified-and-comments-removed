@@ -46,11 +46,10 @@ NullTransliterator
 )
 ;
 virtual
-Transliterator
+NullTransliterator
 *
 clone
 (
-void
 )
 const
 ;

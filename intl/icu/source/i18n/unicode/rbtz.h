@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -133,11 +136,10 @@ status
 )
 ;
 virtual
-TimeZone
+RuleBasedTimeZone
 *
 clone
 (
-void
 )
 const
 ;
@@ -231,6 +233,9 @@ void
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 UBool
 inDaylightTime
@@ -243,6 +248,8 @@ status
 )
 const
 ;
+#
+endif
 virtual
 UBool
 hasSameRules
@@ -523,6 +530,8 @@ const
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

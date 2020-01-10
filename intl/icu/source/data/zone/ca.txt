@@ -38,13 +38,7 @@ ca
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-42
+36
 "
 }
 zoneStrings
@@ -324,7 +318,7 @@ ec
 "
 Al
 -
-aaiun
+Aaiun
 "
 }
 }
@@ -3879,7 +3873,7 @@ Tbilisi
 ec
 {
 "
-Tbilisi
+Tbilissi
 "
 }
 }
@@ -4028,7 +4022,7 @@ Yekaterinburg
 ec
 {
 "
-Jekaterinburg
+Iekaterinburg
 "
 }
 }
@@ -7748,7 +7742,7 @@ de
 l
 Est
 de
-Grenl
+Groenl
 ndia
 "
 }
@@ -7760,7 +7754,7 @@ de
 l
 Est
 de
-Grenl
+Groenl
 ndia
 "
 }
@@ -7774,7 +7768,7 @@ de
 l
 Est
 de
-Grenl
+Groenl
 ndia
 "
 }
@@ -7795,7 +7789,7 @@ de
 l
 Oest
 de
-Grenl
+Groenl
 ndia
 "
 }
@@ -7807,7 +7801,7 @@ de
 l
 Oest
 de
-Grenl
+Groenl
 ndia
 "
 }
@@ -7821,7 +7815,7 @@ de
 l
 Oest
 de
-Grenl
+Groenl
 ndia
 "
 }
@@ -9057,7 +9051,7 @@ Hora
 d
 estiu
 de
-Novosibirsk
+Novossibirsk
 "
 }
 lg
@@ -9065,7 +9059,7 @@ lg
 "
 Hora
 de
-Novosibirsk
+Novossibirsk
 "
 }
 ls
@@ -9075,7 +9069,7 @@ Hora
 est
 ndard
 de
-Novosibirsk
+Novossibirsk
 "
 }
 }

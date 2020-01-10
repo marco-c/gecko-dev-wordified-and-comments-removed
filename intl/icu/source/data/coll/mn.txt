@@ -38,13 +38,7 @@ mn
 Version
 {
 "
-2
-.
-1
-.
-19
-.
-14
+36
 "
 }
 collations
@@ -64,9 +58,7 @@ Mong
 Version
 {
 "
-35
-.
-1
+36
 "
 }
 }

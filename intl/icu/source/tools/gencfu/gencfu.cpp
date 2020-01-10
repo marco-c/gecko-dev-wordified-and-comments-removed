@@ -1045,7 +1045,6 @@ status
 )
 ;
 }
-;
 uint32_t
 outDataSize
 ;

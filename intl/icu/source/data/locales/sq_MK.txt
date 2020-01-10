@@ -38,13 +38,7 @@ sq_MK
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-71
+36
 "
 }
 calendar

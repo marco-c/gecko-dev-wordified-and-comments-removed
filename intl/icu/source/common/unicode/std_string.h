@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 defined
 (
 __GLIBCXX__
@@ -33,5 +36,7 @@ include
 <
 string
 >
+#
+endif
 #
 endif

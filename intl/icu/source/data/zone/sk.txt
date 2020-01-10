@@ -38,13 +38,7 @@ sk
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-42
+36
 "
 }
 zoneStrings
@@ -4363,6 +4357,12 @@ ls
 koordinovan
 svetov
 as
+"
+}
+ss
+{
+"
+UTC
 "
 }
 }

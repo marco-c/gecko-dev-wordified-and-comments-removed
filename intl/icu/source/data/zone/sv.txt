@@ -38,13 +38,7 @@ sv
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-90
+36
 "
 }
 zoneStrings

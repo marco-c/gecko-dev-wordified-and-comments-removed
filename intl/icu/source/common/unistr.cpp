@@ -1555,7 +1555,7 @@ return
 NULL
 ;
 }
-Replaceable
+UnicodeString
 *
 UnicodeString
 :

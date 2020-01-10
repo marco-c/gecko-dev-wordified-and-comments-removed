@@ -112,7 +112,6 @@ propsTrie
 c
 )
 )
-;
 U_CAPI
 int8_t
 U_EXPORT2

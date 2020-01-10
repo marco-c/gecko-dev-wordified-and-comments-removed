@@ -50,7 +50,7 @@ h
 #
 include
 "
-number_stringbuilder
+formatted_string_builder
 .
 h
 "
@@ -276,7 +276,7 @@ const
 UnicodeString
 &
 affixPattern
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t

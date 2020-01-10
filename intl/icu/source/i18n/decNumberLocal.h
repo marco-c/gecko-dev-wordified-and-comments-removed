@@ -1725,6 +1725,7 @@ cut
 c
 pow
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 *
@@ -1892,6 +1893,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 typedef
 struct
 {

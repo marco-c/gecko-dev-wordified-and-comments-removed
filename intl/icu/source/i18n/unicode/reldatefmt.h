@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -98,10 +101,12 @@ UDAT_ABSOLUTE_WEEK
 UDAT_ABSOLUTE_MONTH
 UDAT_ABSOLUTE_YEAR
 UDAT_ABSOLUTE_NOW
+UDAT_ABSOLUTE_QUARTER
 #
 ifndef
 U_HIDE_DRAFT_API
-UDAT_ABSOLUTE_QUARTER
+UDAT_ABSOLUTE_HOUR
+UDAT_ABSOLUTE_MINUTE
 #
 endif
 #
@@ -111,7 +116,7 @@ UDAT_ABSOLUTE_UNIT_COUNT
 =
 UDAT_ABSOLUTE_NOW
 +
-2
+4
 #
 endif
 }
@@ -161,6 +166,9 @@ NumberFormat
 ;
 class
 UnicodeString
+;
+class
+FormattedRelativeDateTime
 ;
 class
 FormattedRelativeDateTimeData
@@ -803,6 +811,8 @@ const
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

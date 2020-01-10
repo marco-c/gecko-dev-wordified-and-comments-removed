@@ -716,7 +716,7 @@ spec
 )
 ;
 }
-Transliterator
+UnescapeTransliterator
 *
 UnescapeTransliterator
 :

@@ -98,7 +98,7 @@ CopticCalendar
 )
 {
 }
-Calendar
+CopticCalendar
 *
 CopticCalendar
 :

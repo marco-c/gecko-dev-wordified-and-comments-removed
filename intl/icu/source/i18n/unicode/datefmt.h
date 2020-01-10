@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -223,6 +226,16 @@ virtual
 DateFormat
 (
 )
+;
+virtual
+DateFormat
+*
+clone
+(
+)
+const
+=
+0
 ;
 virtual
 UBool
@@ -975,6 +988,8 @@ endif
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

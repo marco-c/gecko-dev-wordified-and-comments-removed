@@ -1569,7 +1569,7 @@ if
 (
 quantity
 .
-isZero
+isZeroish
 (
 )
 )
@@ -1609,7 +1609,7 @@ magnitude
 =
 quantity
 .
-isZero
+isZeroish
 (
 )
 ?

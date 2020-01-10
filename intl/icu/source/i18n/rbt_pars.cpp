@@ -4678,11 +4678,6 @@ UnicodeString
 tempus
 =
 (
-UnicodeString
-*
-)
-(
-(
 (
 UnicodeString
 *
@@ -4700,7 +4695,6 @@ pointer
 >
 clone
 (
-)
 )
 ;
 if

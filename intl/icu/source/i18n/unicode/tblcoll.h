@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_COLLATION
 #
@@ -226,11 +229,10 @@ other
 const
 ;
 virtual
-Collator
+RuleBasedCollator
 *
 clone
 (
-void
 )
 const
 ;
@@ -403,6 +405,9 @@ hashCode
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 Locale
 getLocale
@@ -415,6 +420,8 @@ status
 )
 const
 ;
+#
+endif
 const
 UnicodeString
 &
@@ -548,6 +555,9 @@ getMaxVariable
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 uint32_t
 setVariableTop
@@ -587,6 +597,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 virtual
 uint32_t
 getVariableTop
@@ -1171,6 +1183,8 @@ actualLocaleIsSameAsValid
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

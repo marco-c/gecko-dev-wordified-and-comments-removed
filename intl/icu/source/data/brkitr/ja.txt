@@ -38,13 +38,7 @@ ja
 Version
 {
 "
-2
-.
-1
-.
-44
-.
-56
+36
 "
 }
 boundaries

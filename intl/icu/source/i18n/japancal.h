@@ -99,11 +99,10 @@ right
 )
 ;
 virtual
-Calendar
+JapaneseCalendar
 *
 clone
 (
-void
 )
 const
 ;

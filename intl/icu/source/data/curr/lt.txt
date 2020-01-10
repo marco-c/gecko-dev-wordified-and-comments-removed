@@ -4009,6 +4009,12 @@ RUB
 "
 "
 }
+TRY
+{
+"
+TL
+"
+}
 }
 CurrencyPlurals
 {
@@ -15106,13 +15112,7 @@ other
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-42
+36
 "
 }
 }

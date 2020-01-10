@@ -38,13 +38,7 @@ es
 Version
 {
 "
-2
-.
-1
-.
-19
-.
-14
+36
 "
 }
 exceptions

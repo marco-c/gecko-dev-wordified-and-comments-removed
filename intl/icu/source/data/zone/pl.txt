@@ -38,13 +38,7 @@ pl
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-42
+36
 "
 }
 zoneStrings
@@ -8327,6 +8321,7 @@ ld
 "
 Moskwa
 (
+czas
 letni
 )
 "
@@ -8342,6 +8337,7 @@ ls
 "
 Moskwa
 (
+czas
 standardowy
 )
 "

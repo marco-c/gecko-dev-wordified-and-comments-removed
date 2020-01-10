@@ -1017,14 +1017,13 @@ return
 this
 ;
 }
-Format
+Win32DateFormat
 *
 Win32DateFormat
 :
 :
 clone
 (
-void
 )
 const
 {

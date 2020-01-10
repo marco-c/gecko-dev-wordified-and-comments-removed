@@ -46,13 +46,7 @@ en_001
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-86
+36
 "
 }
 zoneStrings
@@ -294,6 +288,12 @@ ss
 NST
 "
 }
+}
+gmtZeroFormat
+{
+"
+GMT
+"
 }
 regionFormatDaylight
 {

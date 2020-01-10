@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -104,7 +107,6 @@ DateIntervalInfo
 *
 clone
 (
-void
 )
 const
 ;
@@ -412,6 +414,8 @@ other
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

@@ -74,11 +74,10 @@ BreakTransliterator
 )
 ;
 virtual
-Transliterator
+BreakTransliterator
 *
 clone
 (
-void
 )
 const
 ;

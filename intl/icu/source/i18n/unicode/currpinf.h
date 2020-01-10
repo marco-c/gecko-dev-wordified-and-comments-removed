@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -315,6 +318,8 @@ info
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

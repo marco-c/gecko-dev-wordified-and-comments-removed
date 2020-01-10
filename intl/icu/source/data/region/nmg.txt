@@ -881,12 +881,6 @@ m
 Marshall
 "
 }
-MK
-{
-"
-Macedonia
-"
-}
 ML
 {
 "
@@ -1564,13 +1558,7 @@ Zimbabw
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

@@ -101,7 +101,7 @@ EscapeTransliterator
 )
 ;
 virtual
-Transliterator
+EscapeTransliterator
 *
 clone
 (

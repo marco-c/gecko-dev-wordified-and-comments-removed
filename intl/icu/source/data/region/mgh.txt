@@ -489,12 +489,6 @@ MG
 Ubukini
 "
 }
-MK
-{
-"
-Umasedonia
-"
-}
 MW
 {
 "
@@ -887,13 +881,7 @@ Uzimbabwe
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

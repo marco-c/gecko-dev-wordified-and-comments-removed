@@ -128,7 +128,7 @@ delete
 matcher
 ;
 }
-UnicodeFunctor
+Quantifier
 *
 Quantifier
 :

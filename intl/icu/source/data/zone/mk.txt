@@ -38,13 +38,7 @@ mk
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-27
+36
 "
 }
 zoneStrings

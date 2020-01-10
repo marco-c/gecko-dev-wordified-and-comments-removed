@@ -128,7 +128,9 @@ PRINTMESG
 (
 msg
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
+\
 std
 :
 :
@@ -164,7 +166,9 @@ msg
 n
 "
 ;
+\
 }
+UPRV_BLOCK_MACRO_END
 #
 endif
 UOBJECT_DEFINE_RTTI_IMPLEMENTATION

@@ -46,13 +46,7 @@ es_419
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-83
+36
 "
 }
 zoneStrings

@@ -103,14 +103,13 @@ o
 )
 {
 }
-Transliterator
+LowercaseTransliterator
 *
 LowercaseTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

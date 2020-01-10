@@ -2649,9 +2649,6 @@ UProperty
 which
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 const
 USet
@@ -2666,8 +2663,6 @@ UErrorCode
 pErrorCode
 )
 ;
-#
-endif
 U_STABLE
 UBool
 U_EXPORT2
@@ -2733,9 +2728,6 @@ UProperty
 which
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 const
 UCPMap
@@ -2750,8 +2742,6 @@ UErrorCode
 pErrorCode
 )
 ;
-#
-endif
 U_STABLE
 double
 U_EXPORT2

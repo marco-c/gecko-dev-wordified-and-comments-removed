@@ -769,8 +769,6 @@ const
 static
 UMutex
 gLock
-=
-U_MUTEX_INITIALIZER
 ;
 if
 (
@@ -1919,14 +1917,13 @@ fUpToDate
 FALSE
 ;
 }
-TimeZone
+RuleBasedTimeZone
 *
 RuleBasedTimeZone
 :
 :
 clone
 (
-void
 )
 const
 {

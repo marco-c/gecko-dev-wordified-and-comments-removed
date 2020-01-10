@@ -14,9 +14,6 @@ utypes
 h
 "
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 include
 "
 unicode
@@ -237,7 +234,5 @@ pErrorCode
 )
 ;
 U_CDECL_END
-#
-endif
 #
 endif

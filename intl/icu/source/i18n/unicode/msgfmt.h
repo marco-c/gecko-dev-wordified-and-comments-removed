@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -182,11 +185,10 @@ MessageFormat
 )
 ;
 virtual
-Format
+MessageFormat
 *
 clone
 (
-void
 )
 const
 ;
@@ -1147,7 +1149,7 @@ Format
 const
 ;
 virtual
-Format
+DummyFormat
 *
 clone
 (
@@ -1235,6 +1237,8 @@ MessageFormatAdapter
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

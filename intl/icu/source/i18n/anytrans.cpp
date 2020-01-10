@@ -647,7 +647,7 @@ _deleteTransliterator
 )
 ;
 }
-Transliterator
+AnyTransliterator
 *
 AnyTransliterator
 :

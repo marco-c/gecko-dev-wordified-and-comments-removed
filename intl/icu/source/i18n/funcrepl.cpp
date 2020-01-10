@@ -154,7 +154,7 @@ delete
 replacer
 ;
 }
-UnicodeFunctor
+FunctionReplacer
 *
 FunctionReplacer
 :

@@ -102,7 +102,7 @@ StringMatcher
 )
 ;
 virtual
-UnicodeFunctor
+StringMatcher
 *
 clone
 (

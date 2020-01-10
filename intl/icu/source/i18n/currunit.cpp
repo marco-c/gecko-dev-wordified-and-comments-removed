@@ -520,7 +520,7 @@ return
 this
 ;
 }
-UObject
+CurrencyUnit
 *
 CurrencyUnit
 :

@@ -3428,6 +3428,7 @@ targetLimit
 targetByteUnit
 err
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -3883,6 +3884,7 @@ U_BUFFER_OVERFLOW_ERROR
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 static
 void
 U_CALLCONV
@@ -4943,6 +4945,7 @@ targetUniChar
 delta
 err
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 /
@@ -5101,6 +5104,7 @@ U_BUFFER_OVERFLOW_ERROR
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 GET_MAPPING
@@ -5109,6 +5113,7 @@ sourceChar
 targetUniChar
 data
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 targetUniChar
@@ -5209,6 +5214,7 @@ missingCharMarker
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 static
 void
 U_CALLCONV

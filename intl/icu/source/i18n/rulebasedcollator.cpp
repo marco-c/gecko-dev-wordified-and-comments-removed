@@ -1185,7 +1185,7 @@ actualLocaleIsSameAsValid
 FALSE
 ;
 }
-Collator
+RuleBasedCollator
 *
 RuleBasedCollator
 :

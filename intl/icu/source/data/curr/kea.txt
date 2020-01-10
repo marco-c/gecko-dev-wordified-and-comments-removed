@@ -311,7 +311,8 @@ EGP
 "
 "
 Libra
-ejipsiu
+ej
+psiu
 "
 }
 ERN
@@ -332,7 +333,8 @@ ETB
 "
 "
 Bir
-etiopi
+eti
+piku
 "
 }
 EUR
@@ -358,7 +360,8 @@ GBP
 "
 "
 Libra
-britaniku
+brit
+niku
 "
 }
 GEL
@@ -656,7 +659,8 @@ LYD
 "
 "
 Dinar
-libiu
+l
+biu
 "
 }
 MAD
@@ -1073,8 +1077,7 @@ STN
 "
 Dobra
 di
-S
-u
+San
 Tume
 i
 Pr
@@ -1638,7 +1641,8 @@ other
 {
 "
 Libra
-ejipsiu
+ej
+psiu
 "
 }
 }
@@ -1659,7 +1663,8 @@ other
 {
 "
 Bir
-etiopi
+eti
+piku
 "
 }
 }
@@ -1678,7 +1683,8 @@ other
 {
 "
 Libra
-britaniku
+brit
+niku
 "
 }
 }
@@ -1782,7 +1788,8 @@ other
 {
 "
 Dinar
-libiu
+l
+biu
 "
 }
 }
@@ -2021,8 +2028,7 @@ other
 "
 Dobra
 di
-S
-u
+San
 Tume
 i
 Prinsipi
@@ -2187,13 +2193,7 @@ other
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-9
+36
 "
 }
 }

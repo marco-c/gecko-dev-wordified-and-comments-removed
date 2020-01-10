@@ -34,6 +34,13 @@ h
 #
 include
 "
+numparse_symbols
+.
+h
+"
+#
+include
+"
 unicode
 /
 numberformatter
@@ -128,6 +135,9 @@ fExponentSeparatorString
 ;
 DecimalMatcher
 fExponentMatcher
+;
+IgnorablesMatcher
+fIgnorablesMatcher
 ;
 UnicodeString
 fCustomMinusSign

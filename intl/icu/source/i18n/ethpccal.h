@@ -104,7 +104,7 @@ EthiopicCalendar
 )
 ;
 virtual
-Calendar
+EthiopicCalendar
 *
 clone
 (

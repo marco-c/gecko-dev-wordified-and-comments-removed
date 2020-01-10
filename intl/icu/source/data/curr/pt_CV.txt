@@ -76,7 +76,7 @@ PTE
 PTE
 "
 "
-Escudo
+escudo
 portugu
 s
 "
@@ -85,13 +85,7 @@ s
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-71
+36
 "
 }
 }

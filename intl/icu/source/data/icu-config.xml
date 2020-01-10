@@ -3500,6 +3500,15 @@ include
 locales
 =
 "
+ga_GB
+"
+/
+>
+<
+include
+locales
+=
+"
 ga_IE
 "
 /

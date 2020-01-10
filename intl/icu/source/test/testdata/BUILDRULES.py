@@ -1,15 +1,13 @@
 from
-distutils
+icutools
 .
-sysconfig
-import
-parse_makefile
-from
-buildtool
+databuilder
 import
 *
 from
-buildtool
+icutools
+.
+databuilder
 .
 request_types
 import
@@ -128,59 +126,32 @@ common_vars
 )
 :
     
-mk_vars
-=
-parse_makefile
-(
-"
-{
-GLOB_DIR
-}
-/
-tstfiles
-.
-mk
-"
-.
-format
-(
-*
-*
-common_vars
-)
-)
-    
 basenames
-=
-[
-v
-[
-:
--
-4
-]
-for
-v
-in
-mk_vars
-[
-"
-TEST_RES_SOURCE
-"
-]
-.
-split
-(
-)
-]
-    
-basenames
-+
 =
 [
         
 "
+calendar
+"
+        
+"
 casing
+"
+        
+"
+conversion
+"
+        
+"
+format
+"
+        
+"
+icuio
+"
+        
+"
+idna_rules
 "
         
 "
@@ -192,19 +163,15 @@ root
 "
         
 "
-sh
-"
-        
-"
 sh_YU
 "
         
 "
-te
+sh
 "
         
 "
-te_IN
+structLocale
 "
         
 "
@@ -212,7 +179,11 @@ te_IN_REVISED
 "
         
 "
-testtypes
+te_IN
+"
+        
+"
+te
 "
         
 "
@@ -224,19 +195,7 @@ testempty
 "
         
 "
-structLocale
-"
-        
-"
-idna_rules
-"
-        
-"
-conversion
-"
-        
-"
-icuio
+testtypes
 "
     
 ]

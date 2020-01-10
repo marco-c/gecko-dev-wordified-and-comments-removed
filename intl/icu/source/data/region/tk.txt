@@ -1838,7 +1838,7 @@ a
 SZ
 {
 "
-Swazilend
+Eswatini
 "
 }
 TA
@@ -2174,7 +2174,7 @@ Gonkong
 MO
 {
 "
-Makau
+Makao
 "
 }
 PS
@@ -2237,6 +2237,12 @@ Malwina
 adalary
 "
 }
+SZ
+{
+"
+Swazilend
+"
+}
 TL
 {
 "
@@ -2249,13 +2255,7 @@ Timor
 Version
 {
 "
-2
-.
-1
-.
-49
-.
-82
+36
 "
 }
 }

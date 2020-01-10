@@ -64,7 +64,7 @@ CurrencyFormat
 )
 ;
 virtual
-Format
+CurrencyFormat
 *
 clone
 (

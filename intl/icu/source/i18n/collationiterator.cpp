@@ -4668,7 +4668,6 @@ errorCode
 )
 ;
 }
-;
 }
 return
 ceBuffer
@@ -4875,7 +4874,6 @@ errorCode
 )
 ;
 }
-;
 }
 U_ASSERT
 (

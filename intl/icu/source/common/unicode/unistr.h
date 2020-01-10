@@ -6,11 +6,6 @@ define
 UNISTR_H
 #
 include
-<
-cstddef
->
-#
-include
 "
 unicode
 /
@@ -18,6 +13,14 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+<
+cstddef
+>
 #
 include
 "
@@ -2184,7 +2187,6 @@ UnicodeString
 &
 remove
 (
-void
 )
 ;
 inline
@@ -2536,7 +2538,7 @@ uint16_t
 *
 text
 int32_t
-length
+textLength
 )
 :
 UnicodeString
@@ -2545,7 +2547,7 @@ ConstChar16Ptr
 (
 text
 )
-length
+textLength
 )
 {
 }
@@ -2570,7 +2572,7 @@ wchar_t
 *
 text
 int32_t
-length
+textLength
 )
 :
 UnicodeString
@@ -2579,7 +2581,7 @@ ConstChar16Ptr
 (
 text
 )
-length
+textLength
 )
 {
 }
@@ -2595,7 +2597,7 @@ std
 nullptr_t
 text
 int32_t
-length
+textLength
 )
 ;
 UnicodeString
@@ -2780,7 +2782,7 @@ char
 *
 src
 int32_t
-length
+textLength
 enum
 EInvariant
 inv
@@ -2826,7 +2828,7 @@ srcLength
 )
 ;
 virtual
-Replaceable
+UnicodeString
 *
 clone
 (
@@ -8152,5 +8154,7 @@ _length
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif

@@ -117,7 +117,7 @@ EthiopicCalendar
 )
 {
 }
-Calendar
+EthiopicCalendar
 *
 EthiopicCalendar
 :

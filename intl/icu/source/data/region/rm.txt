@@ -1183,12 +1183,6 @@ da
 Marshall
 "
 }
-MK
-{
-"
-Macedonia
-"
-}
 ML
 {
 "
@@ -1897,13 +1891,7 @@ nunvalaivla
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-4
+36
 "
 }
 }

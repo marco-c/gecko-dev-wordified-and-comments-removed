@@ -1333,7 +1333,7 @@ return
 this
 ;
 }
-UnicodeFunctor
+UnicodeSet
 *
 UnicodeSet
 :
@@ -1352,7 +1352,7 @@ this
 )
 ;
 }
-UnicodeFunctor
+UnicodeSet
 *
 UnicodeSet
 :
@@ -9193,7 +9193,7 @@ patLen
 ;
 }
 }
-UnicodeFunctor
+UnicodeSet
 *
 UnicodeSet
 :

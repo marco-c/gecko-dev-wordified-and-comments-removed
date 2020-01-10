@@ -101,11 +101,10 @@ RelativeDateFormat
 )
 ;
 virtual
-Format
+RelativeDateFormat
 *
 clone
 (
-void
 )
 const
 ;

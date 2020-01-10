@@ -73,7 +73,7 @@ UnescapeTransliterator
 )
 ;
 virtual
-Transliterator
+UnescapeTransliterator
 *
 clone
 (

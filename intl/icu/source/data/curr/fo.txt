@@ -2386,7 +2386,7 @@ other
 {
 "
 Angola
-kwanza
+kwanzar
 "
 }
 }
@@ -2687,7 +2687,7 @@ other
 {
 "
 Botsvana
-pula
+pular
 "
 }
 }
@@ -3084,7 +3084,7 @@ other
 {
 "
 Eritrea
-nakfa
+nakfar
 "
 }
 }
@@ -3947,7 +3947,7 @@ other
 "
 M
 ritania
-ouguiya
+ouguiyar
 "
 }
 }
@@ -4639,7 +4639,7 @@ Sao
 Tome
 &
 Prinsipi
-dobra
+dobrar
 "
 }
 }
@@ -5271,13 +5271,7 @@ other
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-9
+36
 "
 }
 }

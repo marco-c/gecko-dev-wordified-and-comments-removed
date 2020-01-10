@@ -103,7 +103,7 @@ PersianCalendar
 )
 ;
 virtual
-Calendar
+PersianCalendar
 *
 clone
 (

@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -112,11 +115,10 @@ that
 const
 ;
 virtual
-CharacterIterator
+StringCharacterIterator
 *
 clone
 (
-void
 )
 const
 ;
@@ -177,5 +179,7 @@ text
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif

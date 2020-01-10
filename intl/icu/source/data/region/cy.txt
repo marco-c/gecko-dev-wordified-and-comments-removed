@@ -369,7 +369,7 @@ BA
 {
 "
 Bosnia
-&
+a
 Herzegovina
 "
 }
@@ -2137,13 +2137,7 @@ Timor
 Version
 {
 "
-2
-.
-1
-.
-49
-.
-82
+36
 "
 }
 }

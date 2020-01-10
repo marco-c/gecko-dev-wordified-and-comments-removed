@@ -1381,10 +1381,6 @@ finalZone
 0
 )
 ?
-(
-SimpleTimeZone
-*
-)
 other
 .
 finalZone
@@ -1492,7 +1488,7 @@ other
 )
 ;
 }
-TimeZone
+OlsonTimeZone
 *
 OlsonTimeZone
 :
@@ -4161,10 +4157,6 @@ useDaylightTime
 {
 finalZoneWithStartYear
 =
-(
-SimpleTimeZone
-*
-)
 finalZone
 -
 >
@@ -4257,10 +4249,6 @@ else
 {
 finalZoneWithStartYear
 =
-(
-SimpleTimeZone
-*
-)
 finalZone
 -
 >

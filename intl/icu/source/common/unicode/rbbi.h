@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_BREAK_ITERATION
 #
@@ -248,7 +251,7 @@ that
 const
 ;
 virtual
-BreakIterator
+RuleBasedBreakIterator
 *
 clone
 (
@@ -432,8 +435,11 @@ getStaticClassID
 void
 )
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
-BreakIterator
+RuleBasedBreakIterator
 *
 createBufferClone
 (
@@ -448,6 +454,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 virtual
 const
 uint8_t
@@ -555,6 +563,8 @@ that
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

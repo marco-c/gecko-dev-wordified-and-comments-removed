@@ -838,12 +838,6 @@ Zil
 Marshall
 "
 }
-MK
-{
-"
-Masedwann
-"
-}
 ML
 {
 "
@@ -1497,13 +1491,7 @@ Zimbabwe
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

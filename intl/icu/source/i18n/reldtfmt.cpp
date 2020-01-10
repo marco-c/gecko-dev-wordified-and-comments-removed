@@ -230,10 +230,6 @@ NULL
 {
 fDateTimeFormatter
 =
-(
-SimpleDateFormat
-*
-)
 other
 .
 fDateTimeFormatter
@@ -674,14 +670,13 @@ fCapitalizationBrkIter
 #
 endif
 }
-Format
+RelativeDateFormat
 *
 RelativeDateFormat
 :
 :
 clone
 (
-void
 )
 const
 {

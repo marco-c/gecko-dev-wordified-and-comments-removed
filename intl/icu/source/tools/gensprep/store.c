@@ -1593,6 +1593,11 @@ UErrorCode
 status
 )
 {
+(
+void
+)
+status
+;
 uint16_t
 trieWord
 =

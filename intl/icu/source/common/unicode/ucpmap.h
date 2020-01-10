@@ -13,9 +13,6 @@ utypes
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CDECL_BEGIN
 typedef
 struct
@@ -94,7 +91,5 @@ pValue
 )
 ;
 U_CDECL_END
-#
-endif
 #
 endif

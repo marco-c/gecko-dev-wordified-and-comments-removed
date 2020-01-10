@@ -14,9 +14,6 @@ utypes
 h
 "
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 include
 "
 unicode
@@ -224,20 +221,6 @@ UCPTrie
 trie
 )
 ;
-#
-if
-U_SHOW_CPLUSPLUS_API
-U_NAMESPACE_BEGIN
-U_DEFINE_LOCAL_OPEN_POINTER
-(
-LocalUCPTriePointer
-UCPTrie
-ucptrie_close
-)
-;
-U_NAMESPACE_END
-#
-endif
 U_CAPI
 UCPTrieType
 U_EXPORT2
@@ -427,6 +410,7 @@ limit
 c
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -563,6 +547,7 @@ __index
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UCPTRIE_FAST_U16_PREV
@@ -574,6 +559,7 @@ src
 c
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -714,6 +700,7 @@ __index
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UCPTRIE_FAST_U8_NEXT
@@ -724,6 +711,7 @@ src
 limit
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -1151,6 +1139,7 @@ __lead
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UCPTRIE_FAST_U8_PREV
@@ -1161,6 +1150,7 @@ start
 src
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -1246,6 +1236,7 @@ __index
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 UCPTRIE_ASCII_GET
@@ -1510,6 +1501,18 @@ UCPTRIE_ERROR_VALUE_NEG_DATA_OFFSET
 U_CDECL_END
 #
 endif
+#
+if
+U_SHOW_CPLUSPLUS_API
+U_NAMESPACE_BEGIN
+U_DEFINE_LOCAL_OPEN_POINTER
+(
+LocalUCPTriePointer
+UCPTrie
+ucptrie_close
+)
+;
+U_NAMESPACE_END
 #
 endif
 #

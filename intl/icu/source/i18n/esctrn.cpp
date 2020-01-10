@@ -696,7 +696,7 @@ delete
 supplementalHandler
 ;
 }
-Transliterator
+EscapeTransliterator
 *
 EscapeTransliterator
 :

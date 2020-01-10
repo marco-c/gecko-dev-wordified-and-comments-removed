@@ -926,12 +926,6 @@ bya
 Marishal
 "
 }
-MK
-{
-"
-Masedwan
-"
-}
 ML
 {
 "
@@ -1637,13 +1631,7 @@ Tsek
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

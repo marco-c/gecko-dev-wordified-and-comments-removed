@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -115,6 +118,9 @@ status
 =
 0
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 BreakIterator
 *
@@ -130,6 +136,8 @@ status
 =
 0
 ;
+#
+endif
 inline
 BreakIterator
 *
@@ -160,6 +168,8 @@ FilteredBreakIteratorBuilder
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

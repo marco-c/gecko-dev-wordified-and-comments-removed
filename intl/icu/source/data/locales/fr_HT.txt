@@ -38,13 +38,7 @@ fr_HT
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-70
+36
 "
 }
 calendar

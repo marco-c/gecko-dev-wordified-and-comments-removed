@@ -15,11 +15,11 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DRAFT_API
 #
 include
 "
@@ -29,6 +29,9 @@ measunit
 .
 h
 "
+#
+ifndef
+U_HIDE_DRAFT_API
 U_NAMESPACE_BEGIN
 class
 U_I18N_API
@@ -75,7 +78,7 @@ NoUnit
 )
 ;
 virtual
-UObject
+NoUnit
 *
 clone
 (
@@ -109,6 +112,8 @@ subtype
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

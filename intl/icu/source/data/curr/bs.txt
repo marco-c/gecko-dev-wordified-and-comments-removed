@@ -2822,7 +2822,7 @@ VES
 VES
 "
 "
-venecuelanski
+Venecuelanski
 bolivar
 "
 }
@@ -10680,8 +10680,8 @@ bolivara
 one
 {
 "
-venecuelanskih
-bolivara
+venecuelanski
+bolivar
 "
 }
 other
@@ -11818,13 +11818,7 @@ other
 Version
 {
 "
-2
-.
-1
-.
-49
-.
-82
+36
 "
 }
 }

@@ -19,6 +19,13 @@ h
 #
 include
 "
+cmemory
+.
+h
+"
+#
+include
+"
 mutex
 .
 h
@@ -1086,8 +1093,6 @@ const
 static
 UMutex
 gLocaleLock
-=
-U_MUTEX_INITIALIZER
 ;
 Mutex
 lock

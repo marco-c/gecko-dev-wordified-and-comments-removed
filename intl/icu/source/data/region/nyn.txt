@@ -831,12 +831,6 @@ bya
 Marshaa
 "
 }
-MK
-{
-"
-Masedoonia
-"
-}
 ML
 {
 "
@@ -1474,13 +1468,7 @@ Zimbabwe
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

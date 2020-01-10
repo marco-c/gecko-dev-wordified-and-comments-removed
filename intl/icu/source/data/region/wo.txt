@@ -301,12 +301,6 @@ CI
 {
 "
 Kodiwaar
-(
-C
-te
-d
-Ivoire
-)
 "
 }
 CK
@@ -1701,13 +1695,7 @@ Kongo
 Version
 {
 "
-2
-.
-1
-.
-49
-.
-82
+36
 "
 }
 }

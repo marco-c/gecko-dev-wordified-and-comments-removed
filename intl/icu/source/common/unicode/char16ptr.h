@@ -6,11 +6,6 @@ define
 __CHAR16PTR_H__
 #
 include
-<
-cstddef
->
-#
-include
 "
 unicode
 /
@@ -18,6 +13,14 @@ utypes
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+<
+cstddef
+>
 U_NAMESPACE_BEGIN
 #
 ifdef
@@ -1010,5 +1013,7 @@ p
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif

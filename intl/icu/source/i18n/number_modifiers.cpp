@@ -247,7 +247,7 @@ const
 ModifierStore
 *
 _obj
-int8_t
+Signum
 _signum
 StandardPlural
 :
@@ -309,7 +309,7 @@ ConstantAffixModifier
 :
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int
@@ -766,7 +766,7 @@ SimpleModifier
 :
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int
@@ -1007,7 +1007,7 @@ SimpleModifier
 :
 formatAsPrefixSuffix
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 result
 int32_t
@@ -1122,7 +1122,7 @@ const
 SimpleFormatter
 &
 compiled
-NumberStringBuilder
+FormattedStringBuilder
 &
 result
 int32_t
@@ -1402,7 +1402,7 @@ ConstantMultiFieldModifier
 :
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int
@@ -1682,11 +1682,11 @@ CurrencySpacingEnabledModifier
 CurrencySpacingEnabledModifier
 (
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 prefix
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 suffix
 bool
@@ -1941,7 +1941,7 @@ CurrencySpacingEnabledModifier
 :
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int
@@ -2075,7 +2075,7 @@ CurrencySpacingEnabledModifier
 :
 applyCurrencySpacing
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -2187,7 +2187,7 @@ CurrencySpacingEnabledModifier
 :
 applyCurrencySpacingAffix
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t

@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -28,9 +31,7 @@ U_NO_THROW
 #
 define
 U_NO_THROW
-throw
-(
-)
+U_NOEXCEPT
 #
 endif
 typedef
@@ -389,5 +390,7 @@ classID
 #
 endif
 U_NAMESPACE_END
+#
+endif
 #
 endif

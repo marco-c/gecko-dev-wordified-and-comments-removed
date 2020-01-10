@@ -619,7 +619,7 @@ const
 UnicodeString
 &
 affixPattern
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -1099,7 +1099,6 @@ return
 output
 ;
 }
-;
 AffixTag
 tag
 ;
@@ -1197,7 +1196,6 @@ return
 true
 ;
 }
-;
 AffixTag
 tag
 ;
@@ -1294,7 +1292,6 @@ length
 return
 ;
 }
-;
 AffixTag
 tag
 ;

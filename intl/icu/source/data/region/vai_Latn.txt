@@ -910,12 +910,6 @@ Masha
 Ti
 "
 }
-MK
-{
-"
-Masedoninya
-"
-}
 ML
 {
 "
@@ -1601,13 +1595,7 @@ Zimbabhuwe
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

@@ -38,13 +38,7 @@ en_AE
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-67
+36
 "
 }
 calendar

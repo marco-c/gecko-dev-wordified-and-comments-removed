@@ -825,12 +825,6 @@ Marshall
 Islands
 "
 }
-MK
-{
-"
-Macedoniab
-"
-}
 ML
 {
 "
@@ -1472,13 +1466,7 @@ Zimbabweb
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

@@ -1441,7 +1441,7 @@ UChar
 *
 alias
 =
-res_getString
+res_getStringNoTrace
 (
 pResData
 res

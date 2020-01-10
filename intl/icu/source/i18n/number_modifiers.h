@@ -55,7 +55,7 @@ h
 #
 include
 "
-number_stringbuilder
+formatted_string_builder
 .
 h
 "
@@ -121,7 +121,7 @@ strong
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -250,7 +250,7 @@ SimpleModifier
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -318,7 +318,7 @@ U_OVERRIDE
 int32_t
 formatAsPrefixSuffix
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 result
 int32_t
@@ -339,7 +339,7 @@ const
 SimpleFormatter
 &
 compiled
-NumberStringBuilder
+FormattedStringBuilder
 &
 result
 int32_t
@@ -408,11 +408,11 @@ public
 ConstantMultiFieldModifier
 (
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 prefix
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 suffix
 bool
@@ -452,11 +452,11 @@ parameters
 ConstantMultiFieldModifier
 (
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 prefix
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 suffix
 bool
@@ -486,7 +486,7 @@ strong
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -553,10 +553,10 @@ U_OVERRIDE
 ;
 protected
 :
-NumberStringBuilder
+FormattedStringBuilder
 fPrefix
 ;
-NumberStringBuilder
+FormattedStringBuilder
 fSuffix
 ;
 bool
@@ -585,11 +585,11 @@ public
 CurrencySpacingEnabledModifier
 (
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 prefix
 const
-NumberStringBuilder
+FormattedStringBuilder
 &
 suffix
 bool
@@ -608,7 +608,7 @@ status
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -626,7 +626,7 @@ static
 int32_t
 applyCurrencySpacing
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -678,7 +678,7 @@ static
 int32_t
 applyCurrencySpacingAffix
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -755,7 +755,7 @@ isStrong
 int32_t
 apply
 (
-NumberStringBuilder
+FormattedStringBuilder
 &
 output
 int32_t
@@ -939,7 +939,7 @@ delete
 void
 adoptModifier
 (
-int8_t
+Signum
 signum
 StandardPlural
 :
@@ -982,7 +982,7 @@ mod
 void
 adoptModifierWithoutPlural
 (
-int8_t
+Signum
 signum
 const
 Modifier
@@ -1022,7 +1022,7 @@ Modifier
 *
 getModifier
 (
-int8_t
+Signum
 signum
 StandardPlural
 :
@@ -1082,7 +1082,7 @@ Modifier
 *
 getModifierWithoutPlural
 (
-int8_t
+Signum
 signum
 )
 const
@@ -1121,7 +1121,7 @@ static
 int32_t
 getModIndex
 (
-int8_t
+Signum
 signum
 StandardPlural
 :

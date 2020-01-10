@@ -351,6 +351,7 @@ value
 num
 status
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -389,6 +390,7 @@ num
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 static
 uint16_t
 *

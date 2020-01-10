@@ -31,6 +31,7 @@ uscript
 .
 h
 "
+U_NAMESPACE_BEGIN
 struct
 ScriptRecord
 {
@@ -441,5 +442,6 @@ length
 )
 ;
 }
+U_NAMESPACE_END
 #
 endif

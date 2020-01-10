@@ -79,7 +79,7 @@ IndianCalendar
 )
 ;
 virtual
-Calendar
+IndianCalendar
 *
 clone
 (

@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -336,6 +339,8 @@ ULDN_STANDARD_NAMES
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

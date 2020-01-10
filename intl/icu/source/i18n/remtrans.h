@@ -52,11 +52,10 @@ registerIDs
 )
 ;
 virtual
-Transliterator
+RemoveTransliterator
 *
 clone
 (
-void
 )
 const
 ;

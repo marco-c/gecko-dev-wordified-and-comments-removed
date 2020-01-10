@@ -198,7 +198,7 @@ StringReplacer
 )
 {
 }
-UnicodeFunctor
+StringReplacer
 *
 StringReplacer
 :

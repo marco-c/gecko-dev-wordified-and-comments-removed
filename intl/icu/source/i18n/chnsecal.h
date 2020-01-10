@@ -92,7 +92,7 @@ ChineseCalendar
 )
 ;
 virtual
-Calendar
+ChineseCalendar
 *
 clone
 (

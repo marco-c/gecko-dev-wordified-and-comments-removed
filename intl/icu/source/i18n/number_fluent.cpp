@@ -3911,7 +3911,7 @@ status
 )
 const
 {
-NumberStringBuilder
+FormattedStringBuilder
 string
 ;
 auto
@@ -3919,15 +3919,14 @@ signum
 =
 static_cast
 <
-int8_t
+Signum
 >
 (
 isNegative
 ?
--
-1
+SIGNUM_NEG
 :
-1
+SIGNUM_POS
 )
 ;
 static

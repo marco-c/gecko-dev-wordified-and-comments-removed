@@ -614,6 +614,10 @@ o
 localebuildertest
 .
 o
+localematchertest
+.
+o
+\
 miscdtfm
 .
 o
@@ -973,10 +977,7 @@ numbertest_patternstring
 .
 o
 \
-numbertest_stringbuilder
-.
-o
-numbertest_stringsegment
+string_segment_test
 .
 o
 \
@@ -1004,6 +1005,12 @@ erarulestest
 o
 \
 formattedvaluetest
+.
+o
+formatted_string_builder_test
+.
+o
+numbertest_permutation
 .
 o
 DEPS

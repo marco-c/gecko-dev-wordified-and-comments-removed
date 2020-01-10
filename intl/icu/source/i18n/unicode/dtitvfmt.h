@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -346,11 +349,10 @@ DateIntervalFormat
 )
 ;
 virtual
-Format
+DateIntervalFormat
 *
 clone
 (
-void
 )
 const
 ;
@@ -1026,6 +1028,8 @@ other
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

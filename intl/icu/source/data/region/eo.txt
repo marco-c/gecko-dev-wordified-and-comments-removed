@@ -864,12 +864,6 @@ Mar
 aloj
 "
 }
-MK
-{
-"
-Makedonujo
-"
-}
 ML
 {
 "
@@ -1502,13 +1496,7 @@ Zimbabvo
 Version
 {
 "
-2
-.
-1
-.
-49
-.
-33
+36
 "
 }
 }

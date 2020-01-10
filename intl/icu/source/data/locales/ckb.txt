@@ -364,13 +364,7 @@ arab
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-72
+36
 "
 }
 calendar

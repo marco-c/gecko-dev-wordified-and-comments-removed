@@ -2748,6 +2748,11 @@ int32_t
 lineLen
 )
 {
+(
+void
+)
+lineLen
+;
 char
 *
 atag

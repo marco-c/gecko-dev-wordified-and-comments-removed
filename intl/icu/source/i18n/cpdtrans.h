@@ -118,11 +118,10 @@ CompoundTransliterator
 )
 ;
 virtual
-Transliterator
+CompoundTransliterator
 *
 clone
 (
-void
 )
 const
 ;

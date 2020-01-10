@@ -92,11 +92,10 @@ right
 )
 ;
 virtual
-Calendar
+TaiwanCalendar
 *
 clone
 (
-void
 )
 const
 ;

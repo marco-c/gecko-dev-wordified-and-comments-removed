@@ -9,6 +9,18 @@ include
 "
 unicode
 /
+utypes
+.
+h
+"
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
 measunit
 .
 h
@@ -59,7 +71,7 @@ status
 )
 ;
 virtual
-UObject
+TimeUnit
 *
 clone
 (
@@ -125,6 +137,8 @@ timeUnitField
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

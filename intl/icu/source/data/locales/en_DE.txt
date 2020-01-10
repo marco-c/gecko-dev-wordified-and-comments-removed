@@ -84,13 +84,7 @@ superscriptingExponent
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-69
+36
 "
 }
 }

@@ -38,13 +38,7 @@ fo
 Version
 {
 "
-2
-.
-1
-.
-19
-.
-14
+36
 "
 }
 collations
@@ -81,9 +75,7 @@ standard
 Version
 {
 "
-35
-.
-1
+36
 "
 }
 }
@@ -203,9 +195,7 @@ AA
 Version
 {
 "
-35
-.
-1
+36
 "
 }
 }

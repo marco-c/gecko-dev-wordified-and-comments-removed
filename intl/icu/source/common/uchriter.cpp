@@ -379,7 +379,7 @@ begin
 end
 ;
 }
-CharacterIterator
+UCharCharacterIterator
 *
 UCharCharacterIterator
 :

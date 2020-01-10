@@ -2664,7 +2664,7 @@ if
 fDecimalQuantity
 -
 >
-isZero
+isZeroish
 (
 )
 )

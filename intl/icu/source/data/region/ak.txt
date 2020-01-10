@@ -873,12 +873,6 @@ Marshall
 Islands
 "
 }
-MK
-{
-"
-Masedonia
-"
-}
 ML
 {
 "
@@ -1543,13 +1537,7 @@ Zembabwe
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

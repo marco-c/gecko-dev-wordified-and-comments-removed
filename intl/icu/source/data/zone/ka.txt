@@ -38,13 +38,7 @@ ka
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-17
+36
 "
 }
 zoneStrings

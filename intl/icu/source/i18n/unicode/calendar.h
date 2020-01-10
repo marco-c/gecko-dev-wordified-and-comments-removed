@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -88,6 +91,9 @@ UObject
 {
 public
 :
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 enum
 EDateFields
 {
@@ -132,6 +138,8 @@ UCAL_FIELD_COUNT
 endif
 }
 ;
+#
+endif
 #
 ifndef
 U_HIDE_DEPRECATED_API
@@ -187,7 +195,6 @@ Calendar
 *
 clone
 (
-void
 )
 const
 =
@@ -446,6 +453,9 @@ status
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 void
 add
@@ -459,6 +469,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 virtual
 void
 add
@@ -503,6 +515,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 void
 roll
@@ -516,6 +531,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 virtual
 void
 roll
@@ -529,6 +546,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 int32_t
 fieldDifference
@@ -542,6 +562,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 virtual
 int32_t
 fieldDifference
@@ -696,6 +718,9 @@ void
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 int32_t
 getMinimum
@@ -705,6 +730,8 @@ field
 )
 const
 ;
+#
+endif
 virtual
 int32_t
 getMinimum
@@ -714,6 +741,9 @@ field
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 int32_t
 getMaximum
@@ -723,6 +753,8 @@ field
 )
 const
 ;
+#
+endif
 virtual
 int32_t
 getMaximum
@@ -732,6 +764,9 @@ field
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 int32_t
 getGreatestMinimum
@@ -741,6 +776,8 @@ field
 )
 const
 ;
+#
+endif
 virtual
 int32_t
 getGreatestMinimum
@@ -750,6 +787,9 @@ field
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 int32_t
 getLeastMaximum
@@ -759,6 +799,8 @@ field
 )
 const
 ;
+#
+endif
 virtual
 int32_t
 getLeastMaximum
@@ -1513,12 +1555,17 @@ fFields
 UCAL_FIELD_COUNT
 ]
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 UBool
 fIsSet
 [
 UCAL_FIELD_COUNT
 ]
 ;
+#
+endif
 enum
 {
 kUnset
@@ -2169,6 +2216,8 @@ dayOfWeek
 #
 endif
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

@@ -46,13 +46,7 @@ root
 Version
 {
 "
-2
-.
-1
-.
-49
-.
-82
+36
 "
 }
 zoneStrings
@@ -3916,12 +3910,6 @@ UTC
 ls
 {
 "
-"
-}
-ss
-{
-"
-UTC
 "
 }
 }

@@ -84,7 +84,7 @@ FunctionReplacer
 )
 ;
 virtual
-UnicodeFunctor
+FunctionReplacer
 *
 clone
 (

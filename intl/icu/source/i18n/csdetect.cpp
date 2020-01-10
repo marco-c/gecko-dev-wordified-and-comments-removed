@@ -218,6 +218,8 @@ icu
 :
 UInitOnce
 gCSRecognizersInitOnce
+=
+U_INITONCE_INITIALIZER
 ;
 static
 int32_t

@@ -825,12 +825,6 @@ Zvitsuwa
 zveMarshall
 "
 }
-MK
-{
-"
-Macedonia
-"
-}
 ML
 {
 "
@@ -1456,13 +1450,7 @@ Zimbabwe
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-4
+36
 "
 }
 }

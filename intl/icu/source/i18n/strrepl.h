@@ -118,7 +118,7 @@ StringReplacer
 )
 ;
 virtual
-UnicodeFunctor
+StringReplacer
 *
 clone
 (

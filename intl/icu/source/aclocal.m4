@@ -6,6 +6,8 @@ aclocal
 1
 .
 15
+.
+1
 -
 *
 -
@@ -20,7 +22,7 @@ C
 )
 1996
 -
-2014
+2017
 Free
 Software
 Foundation
@@ -161,8 +163,6 @@ config
 0
 .
 29
-.
-1
 )
 dnl
 dnl
@@ -559,8 +559,6 @@ PKG_MACROS_VERSION
 0
 .
 29
-.
-1
 ]
 )
 m4_if

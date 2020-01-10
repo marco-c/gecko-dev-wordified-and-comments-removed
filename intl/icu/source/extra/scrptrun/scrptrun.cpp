@@ -30,6 +30,7 @@ scrptrun
 .
 h
 "
+U_NAMESPACE_BEGIN
 const
 char
 ScriptRun
@@ -765,3 +766,4 @@ return
 true
 ;
 }
+U_NAMESPACE_END

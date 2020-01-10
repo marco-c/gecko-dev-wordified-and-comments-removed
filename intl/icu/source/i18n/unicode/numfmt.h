@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -181,6 +184,16 @@ virtual
 NumberFormat
 (
 )
+;
+virtual
+NumberFormat
+*
+clone
+(
+)
+const
+=
+0
 ;
 virtual
 UBool
@@ -1276,6 +1289,8 @@ fLenient
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

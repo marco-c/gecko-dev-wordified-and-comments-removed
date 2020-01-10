@@ -106,13 +106,7 @@ superscriptingExponent
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-50
+36
 "
 }
 }

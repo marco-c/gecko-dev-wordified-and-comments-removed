@@ -1091,14 +1091,13 @@ return
 this
 ;
 }
-Transliterator
+CompoundTransliterator
 *
 CompoundTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

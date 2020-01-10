@@ -14,6 +14,18 @@ utypes
 h
 "
 #
+include
+"
+unicode
+/
+utypes
+.
+h
+"
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
 if
 UCONFIG_NO_BREAK_ITERATION
 U_NAMESPACE_BEGIN
@@ -152,7 +164,6 @@ BreakIterator
 *
 clone
 (
-void
 )
 const
 =
@@ -476,6 +487,9 @@ UnicodeString
 name
 )
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 BreakIterator
 *
@@ -494,6 +508,8 @@ status
 =
 0
 ;
+#
+endif
 #
 ifndef
 U_HIDE_DEPRECATED_API
@@ -733,6 +749,8 @@ FALSE
 #
 endif
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

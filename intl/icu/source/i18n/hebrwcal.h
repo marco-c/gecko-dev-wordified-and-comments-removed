@@ -100,11 +100,10 @@ right
 )
 ;
 virtual
-Calendar
+HebrewCalendar
 *
 clone
 (
-void
 )
 const
 ;

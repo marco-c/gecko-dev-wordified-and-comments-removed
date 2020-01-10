@@ -55,6 +55,10 @@ Bs
 bol
 var
 venezolano
+(
+2008
+2018
+)
 "
 }
 VES
@@ -116,13 +120,7 @@ soberanos
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-70
+36
 "
 }
 }

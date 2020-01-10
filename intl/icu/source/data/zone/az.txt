@@ -38,13 +38,7 @@ az
 Version
 {
 "
-2
-.
-1
-.
-49
-.
-82
+36
 "
 }
 zoneStrings
@@ -1182,7 +1176,7 @@ Chicago
 ec
 {
 "
-Cikaqo
+ikaqo
 "
 }
 }
@@ -2442,7 +2436,7 @@ ec
 {
 "
 Santa
-Isabel
+zabel
 "
 }
 }
@@ -2744,7 +2738,7 @@ Winnipeg
 ec
 {
 "
-Vinipeq
+Vinnipeq
 "
 }
 }
@@ -3143,7 +3137,7 @@ Brunei
 ec
 {
 "
-Brunei
+Bruney
 "
 }
 }
@@ -3156,7 +3150,9 @@ Calcutta
 ec
 {
 "
-Kolkata
+K
+lk
+t
 "
 }
 }
@@ -3585,7 +3581,7 @@ Nicosia
 ec
 {
 "
-Nikosia
+Nikosiya
 "
 }
 }
@@ -3841,7 +3837,7 @@ Taipei
 ec
 {
 "
-Taipei
+Taybey
 "
 }
 }
@@ -4313,7 +4309,7 @@ Perth
 ec
 {
 "
-Perth
+Pert
 "
 }
 }
@@ -4567,7 +4563,11 @@ Gibraltar
 ec
 {
 "
-Gibraltar
+C
+b
+li
+-
+Tariq
 "
 }
 }
@@ -4981,7 +4981,7 @@ Sofia
 ec
 {
 "
-Sofia
+Sofiya
 "
 }
 }
@@ -5098,7 +5098,8 @@ Vilnius
 ec
 {
 "
-Vilnyus
+Viln
+s
 "
 }
 }
@@ -5334,7 +5335,8 @@ Auckland
 ec
 {
 "
-Aukland
+Okl
+nd
 "
 }
 }
@@ -5740,7 +5742,7 @@ Saipan
 ec
 {
 "
-Saipan
+Saypan
 "
 }
 }
@@ -8745,8 +8747,7 @@ Reunion
 ls
 {
 "
-Reunion
-Vaxt
+Reyunyon
 "
 }
 }

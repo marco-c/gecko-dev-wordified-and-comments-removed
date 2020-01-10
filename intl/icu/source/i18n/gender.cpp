@@ -370,8 +370,6 @@ NULL
 static
 UMutex
 gGenderMetaLock
-=
-U_MUTEX_INITIALIZER
 ;
 const
 GenderInfo

@@ -71,7 +71,7 @@ h
 #
 endif
 U_NAMESPACE_BEGIN
-Calendar
+IndianCalendar
 *
 IndianCalendar
 :

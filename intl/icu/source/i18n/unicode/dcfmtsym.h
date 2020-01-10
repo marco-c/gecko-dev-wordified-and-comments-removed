@@ -14,6 +14,13 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
+if
+!
+UCONFIG_NO_FORMATTING
+#
 include
 "
 unicode
@@ -22,10 +29,6 @@ uchar
 .
 h
 "
-#
-if
-!
-UCONFIG_NO_FORMATTING
 #
 include
 "
@@ -853,6 +856,8 @@ currPattern
 #
 endif
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

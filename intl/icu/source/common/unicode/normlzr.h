@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_NORMALIZATION
 #
@@ -114,6 +117,9 @@ mode
 ;
 #
 endif
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 Normalizer
 (
 const
@@ -128,6 +134,8 @@ Normalizer
 (
 )
 ;
+#
+endif
 #
 ifndef
 U_HIDE_DEPRECATED_API
@@ -404,7 +412,6 @@ Normalizer
 *
 clone
 (
-void
 )
 const
 ;
@@ -499,6 +506,9 @@ getStaticClassID
 ;
 #
 endif
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 UClassID
 getDynamicClassID
@@ -506,6 +516,8 @@ getDynamicClassID
 )
 const
 ;
+#
+endif
 private
 :
 Normalizer
@@ -720,6 +732,8 @@ errorCode
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

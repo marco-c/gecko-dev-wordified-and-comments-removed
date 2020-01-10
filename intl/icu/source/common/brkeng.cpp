@@ -494,8 +494,6 @@ U_ZERO_ERROR
 static
 UMutex
 gBreakEngineMutex
-=
-U_MUTEX_INITIALIZER
 ;
 Mutex
 m

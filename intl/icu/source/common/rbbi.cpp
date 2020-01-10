@@ -1065,14 +1065,13 @@ TRUE
 #
 endif
 }
-BreakIterator
+RuleBasedBreakIterator
 *
 RuleBasedBreakIterator
 :
 :
 clone
 (
-void
 )
 const
 {
@@ -1162,7 +1161,6 @@ return
 FALSE
 ;
 }
-;
 if
 (
 !
@@ -3562,7 +3560,7 @@ return
 retPtr
 ;
 }
-BreakIterator
+RuleBasedBreakIterator
 *
 RuleBasedBreakIterator
 :

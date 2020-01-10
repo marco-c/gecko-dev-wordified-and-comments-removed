@@ -38,13 +38,7 @@ sv_FI
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-71
+36
 "
 }
 unitsNarrow

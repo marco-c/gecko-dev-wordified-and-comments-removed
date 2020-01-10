@@ -2287,7 +2287,6 @@ handleNext
 ;
 }
 }
-;
 positionStatusIdx
 =
 fBI

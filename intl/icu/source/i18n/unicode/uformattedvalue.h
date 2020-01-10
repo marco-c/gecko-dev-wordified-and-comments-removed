@@ -18,9 +18,6 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 include
 "
 unicode
@@ -29,6 +26,9 @@ ufieldpositer
 .
 h
 "
+#
+ifndef
+U_HIDE_DRAFT_API
 typedef
 enum
 UFieldCategory

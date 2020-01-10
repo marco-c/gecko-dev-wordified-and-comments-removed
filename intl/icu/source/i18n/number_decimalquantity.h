@@ -233,7 +233,7 @@ getMagnitude
 const
 ;
 bool
-isZero
+isZeroish
 (
 )
 const
@@ -244,7 +244,7 @@ isNegative
 )
 const
 ;
-int8_t
+Signum
 signum
 (
 )

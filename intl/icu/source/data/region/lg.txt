@@ -834,12 +834,6 @@ bya
 Mariso
 "
 }
-MK
-{
-"
-Masedoniya
-"
-}
 ML
 {
 "
@@ -1475,13 +1469,7 @@ Zimbabwe
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

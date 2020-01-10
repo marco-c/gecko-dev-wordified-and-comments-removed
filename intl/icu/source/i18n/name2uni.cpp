@@ -238,14 +238,13 @@ legal
 )
 {
 }
-Transliterator
+NameUnicodeTransliterator
 *
 NameUnicodeTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

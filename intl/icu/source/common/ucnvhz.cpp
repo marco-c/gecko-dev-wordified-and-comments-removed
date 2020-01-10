@@ -153,6 +153,7 @@ err
 len
 sourceIndex
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 while
@@ -271,6 +272,7 @@ strToAppend
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 typedef
 struct
 {
@@ -2631,9 +2633,6 @@ cnv
 UConverter
 subCnv
 ;
-UAlignedMemory
-deadSpace
-;
 UConverterDataHZ
 mydata
 ;
@@ -2685,7 +2684,7 @@ status
 )
 {
 return
-0
+nullptr
 ;
 }
 if
@@ -2703,7 +2702,7 @@ pBufferSize
 bufferSizeNeeded
 ;
 return
-0
+nullptr
 ;
 }
 localClone
@@ -2759,16 +2758,9 @@ size
 (
 int32_t
 )
-(
 sizeof
 (
 UConverter
-)
-+
-sizeof
-(
-UAlignedMemory
-)
 )
 ;
 (

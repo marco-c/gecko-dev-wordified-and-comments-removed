@@ -579,6 +579,8 @@ idx
 pExc16
 value
 )
+UPRV_BLOCK_MACRO_BEGIN
+{
 \
 if
 (
@@ -661,6 +663,9 @@ pExc16
 ;
 \
 }
+\
+}
+UPRV_BLOCK_MACRO_END
 U_CAPI
 UChar32
 U_EXPORT2

@@ -536,14 +536,13 @@ return
 this
 ;
 }
-Calendar
+JapaneseCalendar
 *
 JapaneseCalendar
 :
 :
 clone
 (
-void
 )
 const
 {

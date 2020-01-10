@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -194,16 +197,6 @@ U_EXPORT2
 createDefault
 (
 void
-)
-;
-#
-define
-ICU_TZ_HAS_RECREATE_DEFAULT
-static
-void
-U_EXPORT2
-recreateDefault
-(
 )
 ;
 static
@@ -548,6 +541,9 @@ const
 =
 0
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 UBool
 inDaylightTime
@@ -562,6 +558,8 @@ const
 =
 0
 ;
+#
+endif
 virtual
 UBool
 hasSameRules
@@ -578,7 +576,6 @@ TimeZone
 *
 clone
 (
-void
 )
 const
 =
@@ -870,6 +867,8 @@ ID
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

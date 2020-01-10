@@ -335,7 +335,7 @@ persian
 "
 ;
 }
-Calendar
+PersianCalendar
 *
 PersianCalendar
 :

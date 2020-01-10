@@ -2174,7 +2174,7 @@ false
 break
 ;
 }
-NumberStringBuilder
+FormattedStringBuilder
 &
 string
 =

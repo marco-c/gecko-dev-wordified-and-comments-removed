@@ -203,14 +203,13 @@ fInsertion
 )
 {
 }
-Transliterator
+BreakTransliterator
 *
 BreakTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

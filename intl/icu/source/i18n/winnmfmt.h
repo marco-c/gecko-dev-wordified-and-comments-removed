@@ -105,11 +105,10 @@ Win32NumberFormat
 )
 ;
 virtual
-Format
+Win32NumberFormat
 *
 clone
 (
-void
 )
 const
 ;

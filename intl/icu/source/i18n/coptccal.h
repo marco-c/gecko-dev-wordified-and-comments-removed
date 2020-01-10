@@ -93,11 +93,10 @@ CopticCalendar
 )
 ;
 virtual
-Calendar
+CopticCalendar
 *
 clone
 (
-void
 )
 const
 ;

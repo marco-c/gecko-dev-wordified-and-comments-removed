@@ -132,7 +132,7 @@ isCivil
 )
 ;
 virtual
-Calendar
+IslamicCalendar
 *
 clone
 (

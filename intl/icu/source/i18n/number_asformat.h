@@ -136,7 +136,7 @@ other
 const
 U_OVERRIDE
 ;
-Format
+LocalizedNumberFormatterAsFormat
 *
 clone
 (

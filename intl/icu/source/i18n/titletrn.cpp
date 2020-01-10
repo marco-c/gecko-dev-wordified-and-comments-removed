@@ -133,14 +133,13 @@ o
 )
 {
 }
-Transliterator
+TitlecaseTransliterator
 *
 TitlecaseTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {

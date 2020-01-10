@@ -289,6 +289,7 @@ edits
 }
 ;
 class
+U_COMMON_API
 CharStringByteSink
 :
 public

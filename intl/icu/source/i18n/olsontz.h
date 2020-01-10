@@ -107,7 +107,7 @@ other
 const
 ;
 virtual
-TimeZone
+OlsonTimeZone
 *
 clone
 (
@@ -543,6 +543,8 @@ finalZoneWithStartYear
 ;
 UInitOnce
 transitionRulesInitOnce
+=
+U_INITONCE_INITIALIZER
 ;
 }
 ;

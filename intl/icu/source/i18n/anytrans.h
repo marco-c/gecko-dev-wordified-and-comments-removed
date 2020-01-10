@@ -75,7 +75,7 @@ AnyTransliterator
 )
 ;
 virtual
-Transliterator
+AnyTransliterator
 *
 clone
 (

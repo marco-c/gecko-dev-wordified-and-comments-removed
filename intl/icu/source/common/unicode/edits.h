@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -218,6 +221,7 @@ UErrorCode
 &
 outErrorCode
 )
+const
 ;
 int32_t
 lengthDelta
@@ -798,5 +802,7 @@ STACK_CAPACITY
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif

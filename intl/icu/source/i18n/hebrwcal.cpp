@@ -610,7 +610,7 @@ hebrew
 "
 ;
 }
-Calendar
+HebrewCalendar
 *
 HebrewCalendar
 :

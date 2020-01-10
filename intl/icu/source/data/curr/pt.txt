@@ -837,7 +837,7 @@ CNH
 CNH
 "
 "
-Renminbi
+Yuan
 chin
 s
 (
@@ -866,7 +866,7 @@ CNY
 CN
 "
 "
-Renminbi
+Yuan
 chin
 s
 "
@@ -3721,6 +3721,11 @@ GYD
 "
 "
 }
+HKD
+{
+"
+"
+}
 HNL
 {
 "
@@ -3746,6 +3751,11 @@ Rp
 "
 }
 ILS
+{
+"
+"
+}
+INR
 {
 "
 "
@@ -10069,13 +10079,7 @@ other
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-42
+36
 "
 }
 }

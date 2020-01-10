@@ -67,11 +67,10 @@ NameUnicodeTransliterator
 )
 ;
 virtual
-Transliterator
+NameUnicodeTransliterator
 *
 clone
 (
-void
 )
 const
 ;

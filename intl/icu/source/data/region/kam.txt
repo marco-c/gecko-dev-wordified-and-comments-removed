@@ -826,12 +826,6 @@ vya
 Marshal
 "
 }
-MK
-{
-"
-Masedonia
-"
-}
 ML
 {
 "
@@ -1469,13 +1463,7 @@ Nzimbambwe
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

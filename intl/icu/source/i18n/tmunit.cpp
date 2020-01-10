@@ -216,7 +216,7 @@ fTimeUnitField
 )
 {
 }
-UObject
+TimeUnit
 *
 TimeUnit
 :

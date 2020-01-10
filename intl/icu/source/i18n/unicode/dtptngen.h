@@ -9,6 +9,18 @@ include
 "
 unicode
 /
+utypes
+.
+h
+"
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
 datefmt
 .
 h
@@ -712,9 +724,6 @@ field
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UDateTimePatternField
 getFieldAndWidthIndices
 (
@@ -751,8 +760,6 @@ UDateTimePGDisplayWidth
 width
 )
 ;
-#
-endif
 void
 getAppendName
 (
@@ -923,5 +930,7 @@ AvailableFormatsSink
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif

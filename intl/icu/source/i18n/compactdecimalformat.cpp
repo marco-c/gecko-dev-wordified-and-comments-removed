@@ -113,8 +113,7 @@ fields
 -
 >
 properties
--
->
+.
 compactStyle
 =
 style
@@ -123,8 +122,7 @@ fields
 -
 >
 properties
--
->
+.
 groupingSize
 =
 -
@@ -134,8 +132,7 @@ fields
 -
 >
 properties
--
->
+.
 minimumGroupingDigits
 =
 2
@@ -197,7 +194,7 @@ return
 this
 ;
 }
-Format
+CompactDecimalFormat
 *
 CompactDecimalFormat
 :

@@ -415,14 +415,13 @@ fData
 ;
 }
 }
-Transliterator
+RuleBasedTransliterator
 *
 RuleBasedTransliterator
 :
 :
 clone
 (
-void
 )
 const
 {
@@ -498,8 +497,6 @@ FALSE
 static
 UMutex
 transliteratorDataMutex
-=
-U_MUTEX_INITIALIZER
 ;
 UBool
 needToLock

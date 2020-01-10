@@ -1069,6 +1069,8 @@ icu
 :
 UInitOnce
 gInitOnceBrkiter
+=
+U_INITONCE_INITIALIZER
 ;
 static
 icu

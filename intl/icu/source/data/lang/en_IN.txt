@@ -51,6 +51,12 @@ bn
 Bengali
 "
 }
+ro_MD
+{
+"
+Moldavian
+"
+}
 }
 Scripts
 {
@@ -90,13 +96,7 @@ Digits
 Version
 {
 "
-2
-.
-1
-.
-49
-.
-14
+36
 "
 }
 }

@@ -38,13 +38,7 @@ ccp
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-88
+36
 "
 }
 zoneStrings

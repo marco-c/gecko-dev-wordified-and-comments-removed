@@ -38,13 +38,7 @@ hu
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-42
+36
 "
 }
 zoneStrings
@@ -3059,7 +3053,7 @@ Atyrau
 ec
 {
 "
-Atyrau
+Atirau
 "
 }
 }
@@ -4374,9 +4368,7 @@ UTC
 ls
 {
 "
-egyezm
-nyes
-koordin
+Koordin
 lt
 vil
 gid

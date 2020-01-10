@@ -51,13 +51,7 @@ mauritanien
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-70
+36
 "
 }
 }

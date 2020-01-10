@@ -87,11 +87,10 @@ right
 )
 ;
 virtual
-Calendar
+BuddhistCalendar
 *
 clone
 (
-void
 )
 const
 ;

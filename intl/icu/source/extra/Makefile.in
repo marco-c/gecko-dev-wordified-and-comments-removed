@@ -274,6 +274,7 @@ CLEANFILES
 ~
 SUBDIRS
 =
+scrptrun
 uconv
 #
 #

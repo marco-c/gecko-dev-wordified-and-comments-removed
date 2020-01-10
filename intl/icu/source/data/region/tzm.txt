@@ -871,12 +871,6 @@ n
 Marcal
 "
 }
-MK
-{
-"
-Maqdunya
-"
-}
 ML
 {
 "
@@ -1538,13 +1532,7 @@ Zimbabwi
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

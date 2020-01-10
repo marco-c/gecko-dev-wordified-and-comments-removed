@@ -3034,13 +3034,7 @@ TARASK
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-83
+36
 "
 }
 codePatterns

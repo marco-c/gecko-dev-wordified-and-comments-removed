@@ -30,7 +30,7 @@ h
 #
 include
 "
-number_stringbuilder
+formatted_string_builder
 .
 h
 "
@@ -71,7 +71,7 @@ UChar32
 paddingCp
 int32_t
 requiredPadding
-NumberStringBuilder
+FormattedStringBuilder
 &
 string
 int32_t
@@ -303,7 +303,7 @@ const
 Modifier
 &
 mod2
-NumberStringBuilder
+FormattedStringBuilder
 &
 string
 int32_t

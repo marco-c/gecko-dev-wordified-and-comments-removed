@@ -823,12 +823,6 @@ al
 gungey
 "
 }
-MK
-{
-"
-Maacedooni
-"
-}
 ML
 {
 "
@@ -1472,13 +1466,7 @@ Zimbabwe
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

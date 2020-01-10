@@ -38,13 +38,7 @@ af_NA
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-22
+36
 "
 }
 calendar

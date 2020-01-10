@@ -1879,7 +1879,7 @@ hajasaared
 UN
 {
 "
-hendatud
+hinenud
 Rahvaste
 Organisatsioon
 "
@@ -2023,7 +2023,7 @@ Zimbabwe
 ZZ
 {
 "
-Tundmatu
+tundmatu
 piirkond
 "
 }
@@ -2127,13 +2127,7 @@ Leste
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-42
+36
 "
 }
 }

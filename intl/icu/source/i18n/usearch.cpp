@@ -875,7 +875,7 @@ ces
 )
 ;
 }
-uint16_t
+uint32_t
 offset
 =
 0
@@ -1181,7 +1181,7 @@ pces
 )
 ;
 }
-uint16_t
+uint32_t
 offset
 =
 0
@@ -14028,7 +14028,13 @@ index
 limitIx
 )
 {
-UPRV_UNREACHABLE
+U_ASSERT
+(
+FALSE
+)
+;
+return
+NULL
 ;
 }
 limitIx
@@ -14144,7 +14150,13 @@ index
 limitIx
 )
 {
-UPRV_UNREACHABLE
+U_ASSERT
+(
+FALSE
+)
+;
+return
+NULL
 ;
 }
 limitIx

@@ -239,6 +239,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -324,6 +325,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_GET
@@ -334,6 +336,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -470,6 +473,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_GET_OR_FFFD
@@ -480,6 +484,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -638,6 +643,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_NEXT_UNSAFE
@@ -646,6 +652,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -698,6 +705,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_NEXT
@@ -707,6 +715,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -791,6 +800,7 @@ __c2
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_NEXT_OR_FFFD
@@ -800,6 +810,7 @@ i
 length
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -901,6 +912,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_APPEND_UNSAFE
@@ -909,6 +921,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1006,6 +1019,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_APPEND
@@ -1016,6 +1030,7 @@ capacity
 c
 isError
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1158,6 +1173,7 @@ TRUE
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_FWD_1_UNSAFE
@@ -1165,6 +1181,7 @@ U16_FWD_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1195,6 +1212,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_FWD_1
@@ -1203,6 +1221,7 @@ s
 i
 length
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1254,6 +1273,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_FWD_N_UNSAFE
@@ -1262,6 +1282,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -1295,6 +1316,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_FWD_N
@@ -1304,6 +1326,7 @@ i
 length
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -1369,6 +1392,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_SET_CP_START_UNSAFE
@@ -1376,6 +1400,7 @@ U16_SET_CP_START_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1402,6 +1427,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_SET_CP_START
@@ -1410,6 +1436,7 @@ s
 start
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1460,6 +1487,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_PREV_UNSAFE
@@ -1468,6 +1496,7 @@ s
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -1520,6 +1549,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_PREV
@@ -1529,6 +1559,7 @@ start
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -1614,6 +1645,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_PREV_OR_FFFD
@@ -1623,6 +1655,7 @@ start
 i
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 (
@@ -1725,6 +1758,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_BACK_1_UNSAFE
@@ -1732,6 +1766,7 @@ U16_BACK_1_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1762,6 +1797,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_BACK_1
@@ -1770,6 +1806,7 @@ s
 start
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1824,6 +1861,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_BACK_N_UNSAFE
@@ -1832,6 +1870,7 @@ s
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -1865,6 +1904,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_BACK_N
@@ -1874,6 +1914,7 @@ start
 i
 n
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 int32_t
@@ -1917,6 +1958,7 @@ __N
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_SET_CP_LIMIT_UNSAFE
@@ -1924,6 +1966,7 @@ U16_SET_CP_LIMIT_UNSAFE
 s
 i
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -1954,6 +1997,7 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U16_SET_CP_LIMIT
@@ -1963,6 +2007,7 @@ start
 i
 length
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -2031,5 +2076,6 @@ i
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 endif

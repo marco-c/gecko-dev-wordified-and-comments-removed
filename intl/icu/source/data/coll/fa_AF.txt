@@ -38,13 +38,7 @@ fa_AF
 Version
 {
 "
-2
-.
-1
-.
-19
-.
-14
+36
 "
 }
 collations
@@ -63,9 +57,7 @@ ps
 Version
 {
 "
-35
-.
-1
+36
 "
 }
 }

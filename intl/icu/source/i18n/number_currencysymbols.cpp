@@ -262,11 +262,6 @@ getISOCurrency
 (
 )
 ;
-UBool
-ignoredIsChoiceFormatFillIn
-=
-FALSE
-;
 int32_t
 symbolLen
 =
@@ -286,8 +281,7 @@ data
 (
 )
 selector
-&
-ignoredIsChoiceFormatFillIn
+nullptr
 &
 symbolLen
 &
@@ -387,11 +381,6 @@ getISOCurrency
 (
 )
 ;
-UBool
-isChoiceFormat
-=
-FALSE
-;
 int32_t
 symbolLen
 =
@@ -410,8 +399,7 @@ fLocaleName
 data
 (
 )
-&
-isChoiceFormat
+nullptr
 StandardPlural
 :
 :

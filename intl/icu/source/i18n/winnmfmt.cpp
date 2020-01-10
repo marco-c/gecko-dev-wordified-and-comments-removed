@@ -1402,14 +1402,13 @@ return
 this
 ;
 }
-Format
+Win32NumberFormat
 *
 Win32NumberFormat
 :
 :
 clone
 (
-void
 )
 const
 {

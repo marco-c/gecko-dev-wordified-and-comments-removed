@@ -947,7 +947,7 @@ Konq
 X
 susi
 nzibati
-razi
+Rayonu
 in
 "
 }
@@ -1309,9 +1309,7 @@ MO
 "
 Makao
 X
-susi
-nzibati
-razi
+R
 in
 "
 }
@@ -2176,8 +2174,7 @@ Svazilend
 TL
 {
 "
-Do
-u
+rqi
 Timor
 "
 }
@@ -2185,13 +2182,7 @@ Timor
 Version
 {
 "
-2
-.
-1
-.
-49
-.
-82
+36
 "
 }
 }

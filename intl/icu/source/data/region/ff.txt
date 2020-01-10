@@ -830,12 +830,6 @@ e
 Marsaal
 "
 }
-MK
-{
-"
-Meceduwaan
-"
-}
 ML
 {
 "
@@ -1481,13 +1475,7 @@ Simbaabuwe
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

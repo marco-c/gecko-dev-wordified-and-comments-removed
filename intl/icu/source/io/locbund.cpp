@@ -148,8 +148,6 @@ U_NAMESPACE_USE
 static
 UMutex
 gLock
-=
-U_MUTEX_INITIALIZER
 ;
 Mutex
 lock

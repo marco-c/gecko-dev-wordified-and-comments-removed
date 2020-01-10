@@ -759,6 +759,7 @@ bufferLength
 bufferPos
 c
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 if
@@ -798,6 +799,7 @@ bufferPos
 ;
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 U_ISO_COMMENT

@@ -853,12 +853,6 @@ n
 marcal
 "
 }
-MK
-{
-"
-masidunya
-"
-}
 ML
 {
 "
@@ -1510,13 +1504,7 @@ zimbabwi
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-82
+36
 "
 }
 }

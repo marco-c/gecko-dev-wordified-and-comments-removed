@@ -77,7 +77,7 @@ DangiCalendar
 )
 ;
 virtual
-Calendar
+DangiCalendar
 *
 clone
 (

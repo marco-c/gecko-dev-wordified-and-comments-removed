@@ -67,11 +67,10 @@ CaseMapTransliterator
 )
 ;
 virtual
-Transliterator
+CaseMapTransliterator
 *
 clone
 (
-void
 )
 const
 =

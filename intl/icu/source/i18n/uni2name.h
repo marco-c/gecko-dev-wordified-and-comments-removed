@@ -58,11 +58,10 @@ UnicodeNameTransliterator
 )
 ;
 virtual
-Transliterator
+UnicodeNameTransliterator
 *
 clone
 (
-void
 )
 const
 ;

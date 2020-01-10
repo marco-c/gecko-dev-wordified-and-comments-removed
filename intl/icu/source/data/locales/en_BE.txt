@@ -66,13 +66,7 @@ group
 Version
 {
 "
-2
-.
-1
-.
-47
-.
-86
+36
 "
 }
 calendar

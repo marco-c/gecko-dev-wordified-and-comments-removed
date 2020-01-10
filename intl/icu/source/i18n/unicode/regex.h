@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_REGULAR_EXPRESSIONS
 #
@@ -1745,6 +1748,8 @@ fWordBreakItr
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

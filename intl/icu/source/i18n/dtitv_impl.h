@@ -515,7 +515,6 @@ MAX_M_COUNT
 define
 MAX_POSITIVE_INT
 56632
-;
 #
 endif
 #

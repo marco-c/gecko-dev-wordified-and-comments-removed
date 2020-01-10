@@ -1444,6 +1444,7 @@ limit
 c
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 {
@@ -1582,6 +1583,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 _UTRIE2_U16_PREV
@@ -1593,6 +1595,7 @@ src
 c
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 {
@@ -1718,6 +1721,7 @@ c
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 _UTRIE2_U8_NEXT
@@ -1729,6 +1733,7 @@ src
 limit
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 uint8_t
@@ -2116,6 +2121,7 @@ __index
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 #
 define
 _UTRIE2_U8_PREV
@@ -2127,6 +2133,7 @@ start
 src
 result
 )
+UPRV_BLOCK_MACRO_BEGIN
 {
 \
 uint8_t
@@ -2231,6 +2238,7 @@ __index
 }
 \
 }
+UPRV_BLOCK_MACRO_END
 U_CDECL_END
 #
 endif

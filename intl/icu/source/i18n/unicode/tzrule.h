@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
 #
@@ -65,7 +68,6 @@ TimeZoneRule
 *
 clone
 (
-void
 )
 const
 =
@@ -290,7 +292,6 @@ InitialTimeZoneRule
 *
 clone
 (
-void
 )
 const
 ;
@@ -513,7 +514,6 @@ AnnualTimeZoneRule
 *
 clone
 (
-void
 )
 const
 ;
@@ -750,7 +750,6 @@ TimeArrayTimeZoneRule
 *
 clone
 (
-void
 )
 const
 ;
@@ -970,6 +969,8 @@ const
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

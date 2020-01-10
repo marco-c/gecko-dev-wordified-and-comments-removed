@@ -15,6 +15,9 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_COLLATION
 #
@@ -134,6 +137,9 @@ IDENTICAL
 UCOL_IDENTICAL
 }
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 enum
 EComparisonResult
 {
@@ -148,6 +154,8 @@ GREATER
 UCOL_GREATER
 }
 ;
+#
+endif
 virtual
 ~
 Collator
@@ -185,7 +193,6 @@ Collator
 *
 clone
 (
-void
 )
 const
 =
@@ -217,6 +224,9 @@ UErrorCode
 err
 )
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 EComparisonResult
 compare
@@ -232,6 +242,8 @@ target
 )
 const
 ;
+#
+endif
 virtual
 UCollationResult
 compare
@@ -252,6 +264,9 @@ const
 =
 0
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 EComparisonResult
 compare
@@ -269,6 +284,8 @@ length
 )
 const
 ;
+#
+endif
 virtual
 UCollationResult
 compare
@@ -291,6 +308,9 @@ const
 =
 0
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 EComparisonResult
 compare
@@ -310,6 +330,8 @@ targetLength
 )
 const
 ;
+#
+endif
 virtual
 UCollationResult
 compare
@@ -420,6 +442,9 @@ const
 =
 0
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 Locale
 getLocale
@@ -434,6 +459,8 @@ const
 =
 0
 ;
+#
+endif
 UBool
 greater
 (
@@ -476,6 +503,9 @@ target
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 ECollationStrength
 getStrength
@@ -492,6 +522,8 @@ ECollationStrength
 newStrength
 )
 ;
+#
+endif
 virtual
 int32_t
 getReorderCodes
@@ -779,6 +811,9 @@ getMaxVariable
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 uint32_t
 setVariableTop
@@ -824,6 +859,8 @@ status
 =
 0
 ;
+#
+endif
 virtual
 uint32_t
 getVariableTop
@@ -847,15 +884,19 @@ status
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DEPRECATED_API
 virtual
 Collator
 *
 safeClone
 (
-void
 )
 const
 ;
+#
+endif
 virtual
 int32_t
 getSortKey
@@ -1245,6 +1286,8 @@ status
 #
 endif
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

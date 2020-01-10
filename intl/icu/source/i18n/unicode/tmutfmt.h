@@ -15,11 +15,11 @@ h
 "
 #
 if
+U_SHOW_CPLUSPLUS_API
+#
+if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DEPRECATED_API
 #
 include
 "
@@ -74,6 +74,9 @@ plurrule
 .
 h
 "
+#
+ifndef
+U_HIDE_DEPRECATED_API
 enum
 UTimeUnitFormatStyle
 {
@@ -151,11 +154,10 @@ TimeUnitFormat
 )
 ;
 virtual
-Format
+TimeUnitFormat
 *
 clone
 (
-void
 )
 const
 ;
@@ -423,6 +425,8 @@ other
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif
 #

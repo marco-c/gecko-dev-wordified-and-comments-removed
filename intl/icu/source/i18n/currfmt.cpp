@@ -85,7 +85,7 @@ CurrencyFormat
 )
 {
 }
-Format
+CurrencyFormat
 *
 CurrencyFormat
 :

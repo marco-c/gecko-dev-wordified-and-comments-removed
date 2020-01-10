@@ -60,11 +60,10 @@ UppercaseTransliterator
 )
 ;
 virtual
-Transliterator
+UppercaseTransliterator
 *
 clone
 (
-void
 )
 const
 ;

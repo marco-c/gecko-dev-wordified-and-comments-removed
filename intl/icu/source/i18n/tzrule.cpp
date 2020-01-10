@@ -506,7 +506,6 @@ InitialTimeZoneRule
 :
 clone
 (
-void
 )
 const
 {

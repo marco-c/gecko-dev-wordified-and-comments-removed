@@ -1708,7 +1708,7 @@ Sirija
 SZ
 {
 "
-Svazi
+Esvatini
 "
 }
 TA
@@ -2108,6 +2108,12 @@ Malvini
 )
 "
 }
+SZ
+{
+"
+Svazi
+"
+}
 TL
 {
 "
@@ -2119,13 +2125,7 @@ Timor
 Version
 {
 "
-2
-.
-1
-.
-48
-.
-42
+36
 "
 }
 }
