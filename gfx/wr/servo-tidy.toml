@@ -43,9 +43,6 @@ utils
 gl_generator
 "
 "
-khronos_api
-"
-"
 lazy_static
 "
 "
@@ -74,11 +71,6 @@ graphics
 core
 -
 text
-"
-"
-xml
--
-rs
 "
 "
 yaml
