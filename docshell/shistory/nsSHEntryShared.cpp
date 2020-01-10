@@ -282,6 +282,16 @@ mPrincipalToInherit
 newEntry
 -
 >
+mStoragePrincipalToInherit
+=
+aEntry
+-
+>
+mStoragePrincipalToInherit
+;
+newEntry
+-
+>
 mCsp
 =
 aEntry
