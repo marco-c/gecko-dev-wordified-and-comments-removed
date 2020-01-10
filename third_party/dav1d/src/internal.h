@@ -855,6 +855,9 @@ mask_ptr
 *
 prev_mask_ptr
 ;
+int
+restore_planes
+;
 }
 lf
 ;

@@ -7154,6 +7154,7 @@ ifnum
 %
 tmp
 RESET_MM_PERMUTATION
+AVX512_MM_PERMUTATION
 %
 assign
 %
