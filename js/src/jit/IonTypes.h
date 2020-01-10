@@ -1375,6 +1375,7 @@ IntConversionBehavior
 Normal
 NegativeZeroCheck
 Truncate
+TruncateNoWrap
 ClampToUint8
 }
 ;
