@@ -498,6 +498,11 @@ PropTypes
 func
 .
 isRequired
+showWebSocketsTab
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -604,6 +609,7 @@ request
 selectTab
 sourceMapService
 toggleNetworkDetails
+showWebSocketsTab
 }
 =
 this
@@ -659,6 +665,17 @@ features
 webSockets
 "
 )
+&
+&
+showWebSocketsTab
+=
+=
+=
+undefined
+?
+true
+:
+showWebSocketsTab
 ;
 return
 (

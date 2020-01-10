@@ -829,6 +829,9 @@ tabId
 hideToggleButton
 :
 true
+showWebSocketsTab
+:
+false
 }
 )
 )
