@@ -328,6 +328,16 @@ if
 (
 event
 .
+shiftKey
+)
+{
+return
+;
+}
+if
+(
+event
+.
 defaultPrevented
 |
 |
