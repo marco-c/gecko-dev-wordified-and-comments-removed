@@ -122,14 +122,6 @@ vp
 )
 ;
 }
-typedef
-Rooted
-<
-JSFlatString
-*
->
-RootedFlatString
-;
 static
 const
 JSClassOps
