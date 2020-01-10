@@ -542,7 +542,7 @@ appMenu
 -
 fxa
 -
-container
+status
 "
 )
 ;
