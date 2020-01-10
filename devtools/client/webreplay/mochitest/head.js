@@ -408,12 +408,8 @@ once
 "
 paused
 "
-async
-function
-(
-packet
 )
-{
+;
 const
 {
 frames
@@ -466,9 +462,6 @@ expected
 "
 +
 lineno
-)
-;
-}
 )
 ;
 }
