@@ -105,6 +105,15 @@ const
 encoding
 )
 ;
+bool
+encoding_is_single_byte
+(
+ENCODING_RS_ENCODING
+const
+*
+encoding
+)
+;
 ENCODING_RS_ENCODING
 const
 *
