@@ -8290,12 +8290,6 @@ Builder
 <
 Settings
 extends
-org
-.
-mozilla
-.
-geckoview
-.
 RuntimeSettings
 >
 {
