@@ -728,7 +728,7 @@ ui
 /
 gfx
 /
-mojo
+mojom
 /
 gpu_fence_handle
 .
@@ -744,7 +744,7 @@ ui
 /
 gfx
 /
-mojo
+mojom
 /
 transform
 .
