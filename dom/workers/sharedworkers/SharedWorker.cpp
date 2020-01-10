@@ -1025,7 +1025,9 @@ loadInfo
 .
 mReferrerInfo
 storageAllowed
-true
+void_t
+(
+)
 )
 ;
 PSharedWorkerChild
