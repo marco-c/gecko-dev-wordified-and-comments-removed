@@ -2338,6 +2338,10 @@ add_handler
 handler
 )
     
+rv
+=
+False
+    
 try
 :
         
@@ -2405,7 +2409,8 @@ stability
 ]
 :
             
-return
+rv
+=
 check_stability
 (
 *
@@ -2420,7 +2425,8 @@ has_log
 else
 :
             
-return
+rv
+=
 not
 run_tests
 (
@@ -2442,6 +2448,9 @@ remove_handler
 (
 handler
 )
+    
+return
+rv
 def
 main
 (
