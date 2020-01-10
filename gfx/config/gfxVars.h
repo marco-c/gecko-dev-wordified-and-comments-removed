@@ -324,7 +324,6 @@ RemoteCanvasEnabled
 bool
 false
 )
-\
 class
 gfxVars
 final
