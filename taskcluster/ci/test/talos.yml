@@ -684,6 +684,7 @@ try
 windows7
 -
 32
+/
 .
 *
 :
@@ -698,10 +699,6 @@ try
 windows10
 -
 64
-|
-windows7
--
-32
 |
 linux64
 )
