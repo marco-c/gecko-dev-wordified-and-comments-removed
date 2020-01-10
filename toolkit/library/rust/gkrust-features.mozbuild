@@ -96,12 +96,6 @@ MPL
 gkrust_features
 =
 [
-'
-servo
-'
-'
-bindgen
-'
 ]
 if
 CONFIG

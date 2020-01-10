@@ -52,15 +52,6 @@ rs
 [
 features
 ]
-bindgen
-=
-[
-"
-style
-/
-use_bindgen
-"
-]
 gecko_debug
 =
 [
