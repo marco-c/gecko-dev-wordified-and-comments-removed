@@ -8283,12 +8283,11 @@ Settings
 ENTITY
 protections
 .
-report
+showreport
 .
 label
 "
 Show
-Full
 Report
 "
 >
