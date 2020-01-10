@@ -18,6 +18,9 @@ LANG_bg
 LANG_ca
 =
 37
+LANG_crh
+=
+102
 LANG_cs
 =
 42
