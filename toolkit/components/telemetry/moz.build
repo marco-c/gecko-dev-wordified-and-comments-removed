@@ -891,6 +891,17 @@ nsDeprecatedOperationList
 .
 h
 '
+'
+!
+/
+layout
+/
+style
+/
+ServoCSSPropList
+.
+py
+'
 ]
 if
 CONFIG
