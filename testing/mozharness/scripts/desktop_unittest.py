@@ -4923,12 +4923,6 @@ NEED_PULSEAUDIO
 '
 true
 '
-and
-self
-.
-_is_debian
-(
-)
 )
 :
             
@@ -4988,7 +4982,7 @@ time
             
 ]
 )
-        
+            
 if
 self
 .
@@ -4996,7 +4990,7 @@ _is_debian
 (
 )
 :
-            
+                
 self
 .
 _kill_named_proc
@@ -5005,14 +4999,14 @@ _kill_named_proc
 pulseaudio
 '
 )
-            
+                
 self
 .
 run_command
 (
 command
 )
-        
+            
 self
 .
 run_command
@@ -5029,7 +5023,7 @@ null
 sink
 '
 )
-        
+            
 self
 .
 run_command
