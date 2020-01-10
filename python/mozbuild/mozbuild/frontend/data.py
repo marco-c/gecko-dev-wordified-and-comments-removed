@@ -6804,7 +6804,7 @@ force
         
 suffixes
 =
-[
+(
             
 '
 .
@@ -6840,40 +6840,6 @@ profdata
 webidl
 '
         
-]
-        
-try
-:
-            
-lib_suffix
-=
-context
-.
-config
-.
-substs
-[
-'
-LIB_SUFFIX
-'
-]
-            
-suffixes
-+
-=
-lib_suffix
-        
-except
-KeyError
-:
-            
-pass
-        
-suffixes
-=
-tuple
-(
-suffixes
 )
         
 self
