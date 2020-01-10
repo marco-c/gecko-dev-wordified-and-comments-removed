@@ -10,6 +10,8 @@ collections
 import
 inspect
 import
+sys
+import
 types
 from
 .
@@ -407,10 +409,27 @@ pass_context
 =
 False
     
-if
+isfunc
+=
 inspect
 .
 ismethod
+if
+sys
+.
+version_info
+<
+(
+3
+0
+)
+else
+inspect
+.
+isfunction
+    
+if
+isfunc
 (
 cls
 .
