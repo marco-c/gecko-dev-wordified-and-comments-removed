@@ -1109,6 +1109,13 @@ expected_modules_path
 "
 r
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -1177,6 +1184,13 @@ mozilla_json_path
 "
 r
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -1233,6 +1247,13 @@ open
 mozilla_json_path
 "
 r
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
 as
@@ -1488,6 +1509,13 @@ load
 open
 (
 path
+encoding
+=
+"
+utf
+-
+8
+"
 )
 )
         
