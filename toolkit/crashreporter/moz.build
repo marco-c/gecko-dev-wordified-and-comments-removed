@@ -423,10 +423,10 @@ CONFIG
 HOST_OS_ARCH
 '
 ]
-!
+=
 =
 '
-Darwin
+Linux
 '
 :
 DIRS
