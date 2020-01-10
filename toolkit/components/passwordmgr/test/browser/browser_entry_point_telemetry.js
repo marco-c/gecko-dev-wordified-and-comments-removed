@@ -331,6 +331,16 @@ shown
 "
 )
 ;
+await
+LoginTestUtils
+.
+telemetry
+.
+waitForEventCount
+(
+1
+)
+;
 TelemetryTestUtils
 .
 assertEvents
