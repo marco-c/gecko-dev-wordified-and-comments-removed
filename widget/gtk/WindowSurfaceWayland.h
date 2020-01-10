@@ -873,16 +873,6 @@ CommitWaylandBuffer
 )
 ;
 void
-CalcRectScale
-(
-LayoutDeviceIntRect
-&
-aRect
-int
-scale
-)
-;
-void
 DrawDelayedImageCommits
 (
 gfx

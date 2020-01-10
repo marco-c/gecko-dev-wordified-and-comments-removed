@@ -115,6 +115,11 @@ wl_subsurface_interface
 const
 struct
 wl_interface
+wl_compositor_interface
+;
+const
+struct
+wl_interface
 wl_subcompositor_interface
 ;
 #
