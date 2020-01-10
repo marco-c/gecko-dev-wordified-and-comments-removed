@@ -20254,9 +20254,10 @@ bounds
 )
 ;
 }
-nsTArray
+AutoTArray
 <
 SkScalar
+256
 >
 intercepts
 ;
