@@ -10511,7 +10511,7 @@ identityblock
 .
 show_extended_validation
 "
-true
+false
 )
 ;
 pref
