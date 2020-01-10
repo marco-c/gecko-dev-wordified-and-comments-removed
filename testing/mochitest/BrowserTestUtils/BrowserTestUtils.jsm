@@ -5866,7 +5866,7 @@ value
 &
 element
 .
-getAttribute
+hasAttribute
 (
 attr
 )
