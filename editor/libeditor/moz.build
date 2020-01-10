@@ -417,11 +417,6 @@ TextEditRules
 cpp
 '
 '
-TextEditRulesBidi
-.
-cpp
-'
-'
 TextEditUtils
 .
 cpp
