@@ -1858,8 +1858,11 @@ PlainObjectTableSweepPolicy
 {
 static
 bool
-needsSweep
+traceWeak
 (
+JSTracer
+*
+trc
 PlainObjectKey
 *
 key
@@ -2190,8 +2193,11 @@ clearTables
 )
 ;
 void
-sweep
+traceWeak
 (
+JSTracer
+*
+trc
 )
 ;
 void
