@@ -816,9 +816,6 @@ bool
 mDidExplicitlySetInterline
 ;
 bool
-mDeleteBidiImmediately
-;
-bool
 mIsHTMLEditRules
 ;
 }
