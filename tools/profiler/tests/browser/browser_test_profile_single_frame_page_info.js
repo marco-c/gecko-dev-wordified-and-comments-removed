@@ -6,6 +6,12 @@ test_profile_single_frame_page_info
 (
 )
 {
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 if
 (
 !
