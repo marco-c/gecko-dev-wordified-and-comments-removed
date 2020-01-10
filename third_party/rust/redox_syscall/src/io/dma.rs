@@ -192,7 +192,7 @@ phys
 size
 :
 :
-MAP_WRITE
+PHYSMAP_WRITE
 )
 ?
 }
@@ -280,7 +280,7 @@ phys
 size
 :
 :
-MAP_WRITE
+PHYSMAP_WRITE
 )
 ?
 }

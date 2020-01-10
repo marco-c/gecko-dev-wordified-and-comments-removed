@@ -286,7 +286,7 @@ return
 endif
 (
 )
-saitizer_add_flags
+sanitizer_add_flags
 (
 {
 TARGET

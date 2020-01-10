@@ -3837,7 +3837,7 @@ N
 {
 s
 .
-write
+write_all
 (
 &
 [
