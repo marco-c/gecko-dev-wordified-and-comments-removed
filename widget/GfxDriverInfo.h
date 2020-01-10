@@ -321,10 +321,10 @@ IntelGMA950
 IntelGMA3150
 IntelGMAX3000
 IntelGMAX4500HD
+IntelHDGraphicsToIvyBridge
 IntelHDGraphicsToSandyBridge
 IntelHDGraphicsToHaswell
 IntelHD3000
-IntelHDGraphicsIvyBridge
 IntelMobileHDGraphics
 NvidiaBlockD3D9Layers
 RadeonX1000

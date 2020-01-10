@@ -1679,7 +1679,7 @@ GfxDriverInfo
 :
 GetDeviceFamily
 (
-IntelHDGraphicsIvyBridge
+IntelHDGraphicsToIvyBridge
 )
 nsIGfxInfo
 :
