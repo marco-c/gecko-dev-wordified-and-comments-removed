@@ -3862,7 +3862,7 @@ windows
 "
 )
 ;
-newDocShell
+newBC
 -
 >
 SetSandboxFlags

@@ -76,6 +76,11 @@ dom
 FeaturePolicy
 >
 )
+MOZ_BC_FIELD
+(
+SandboxFlags
+uint32_t
+)
 #
 undef
 MOZ_BC_FIELD

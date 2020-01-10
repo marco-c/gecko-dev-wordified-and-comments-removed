@@ -1045,6 +1045,15 @@ return
 mGroup
 ;
 }
+uint32_t
+SandboxFlags
+(
+)
+{
+return
+mSandboxFlags
+;
+}
 BrowsingContext
 *
 FindWithName

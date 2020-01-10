@@ -13974,13 +13974,6 @@ uint32_t
 sandboxFlags
 )
 {
-if
-(
-GetDocShell
-(
-)
-)
-{
 uint32_t
 parentSandboxFlags
 =
@@ -14001,6 +13994,13 @@ sandboxFlags
 =
 parentSandboxFlags
 ;
+if
+(
+GetDocShell
+(
+)
+)
+{
 nsAutoString
 presentationURL
 ;
@@ -14031,9 +14031,8 @@ sandboxFlags
 SANDBOXED_AUXILIARY_NAVIGATION
 ;
 }
-GetDocShell
-(
-)
+}
+mBrowsingContext
 -
 >
 SetSandboxFlags
@@ -14041,7 +14040,6 @@ SetSandboxFlags
 sandboxFlags
 )
 ;
-}
 }
 void
 nsFrameLoader
