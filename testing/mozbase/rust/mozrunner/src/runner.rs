@@ -1947,9 +1947,8 @@ CFBundleExecutable
 "
 )
 {
-match
-binary_file
-{
+if
+let
 Value
 :
 :
@@ -1958,7 +1957,7 @@ String
 s
 )
 =
->
+binary_file
 {
 path
 .
@@ -1985,12 +1984,6 @@ push
 s
 )
 ;
-}
-_
-=
->
-{
-}
 }
 }
 }
