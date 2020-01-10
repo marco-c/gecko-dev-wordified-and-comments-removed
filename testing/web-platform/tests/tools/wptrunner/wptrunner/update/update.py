@@ -642,17 +642,6 @@ run_log
             
 state
 .
-ignore_existing
-=
-kwargs
-[
-"
-ignore_existing
-"
-]
-            
-state
-.
 stability
 =
 kwargs
@@ -703,6 +692,17 @@ kwargs
 [
 "
 config
+"
+]
+            
+state
+.
+full_update
+=
+kwargs
+[
+"
+full
 "
 ]
             

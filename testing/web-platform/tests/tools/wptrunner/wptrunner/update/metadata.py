@@ -120,31 +120,25 @@ state
 .
 run_log
                                  
+update_properties
+=
+state
+.
+update_properties
+                                 
 rev_old
 =
 None
                                  
-ignore_existing
+full_update
 =
 state
 .
-ignore_existing
+full_update
                                  
 sync_root
 =
 sync_root
-                                 
-property_order
-=
-state
-.
-property_order
-                                 
-boolean_properties
-=
-state
-.
-boolean_properties
                                  
 stability
 =
