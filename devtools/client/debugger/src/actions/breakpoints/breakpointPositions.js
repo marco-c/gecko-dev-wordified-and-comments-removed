@@ -770,9 +770,6 @@ positions
 }
 )
 ;
-return
-positions
-;
 }
 function
 generatedSourceActorKey

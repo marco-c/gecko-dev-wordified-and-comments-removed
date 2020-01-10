@@ -642,9 +642,6 @@ disabled
 ;
 }
 }
-return
-newSource
-;
 }
 export
 function
