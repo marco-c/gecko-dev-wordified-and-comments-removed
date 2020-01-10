@@ -15,6 +15,12 @@ getWeakReference
 window
 )
 ;
+this
+.
+chromeWindow
+=
+window
+;
 if
 (
 typeof
