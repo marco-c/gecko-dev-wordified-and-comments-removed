@@ -64,6 +64,9 @@ Constructor
 optional
 SensorOptions
 sensorOptions
+=
+{
+}
 )
 SecureContext
 Exposed
