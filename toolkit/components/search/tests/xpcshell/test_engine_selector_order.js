@@ -757,9 +757,6 @@ en
 -
 US
 "
-"
-default
-"
 )
 ;
 let
