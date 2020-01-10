@@ -5499,19 +5499,24 @@ self
 )
         
 if
-not
+0
+=
+=
+len
 (
 p
 .
 managers
-or
+)
+and
+0
+=
+=
+len
+(
 p
 .
 messageDecls
-or
-p
-.
-managesStmts
 )
 :
             
