@@ -5428,6 +5428,7 @@ int32_t
 aLineFragmentLength
 )
 {
+const
 uint32_t
 prefixwidth
 =
@@ -5640,7 +5641,6 @@ sync
 ;
 #
 endif
-}
 linelength
 =
 mCurrentLine
@@ -5649,13 +5649,6 @@ Length
 (
 )
 ;
-if
-(
-MayWrap
-(
-)
-)
-{
 #
 ifdef
 DEBUG_wrapping
@@ -6088,6 +6081,7 @@ goodSpace
 )
 ;
 }
+const
 bool
 breakBySpace
 =
@@ -6213,9 +6207,6 @@ break
 ;
 }
 }
-}
-else
-{
 }
 }
 void
