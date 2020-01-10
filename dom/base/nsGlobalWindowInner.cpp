@@ -25701,7 +25701,7 @@ nsIPrincipal
 nsGlobalWindowInner
 :
 :
-GetTopLevelPrincipal
+GetTopLevelAntiTrackingPrincipal
 (
 )
 {

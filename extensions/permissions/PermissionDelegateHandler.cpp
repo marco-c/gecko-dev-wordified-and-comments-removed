@@ -442,7 +442,7 @@ topPrincipal
 innerWindow
 -
 >
-GetTopLevelPrincipal
+GetTopLevelAntiTrackingPrincipal
 (
 )
 ;
