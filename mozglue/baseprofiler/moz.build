@@ -636,6 +636,13 @@ h
 '
 public
 /
+ModuloBuffer
+.
+h
+'
+'
+public
+/
 PowerOfTwo
 .
 h
