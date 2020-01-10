@@ -388,7 +388,7 @@ true
 }
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
@@ -430,7 +430,7 @@ toObject
 ;
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 :
 :
 Ptr
@@ -587,7 +587,7 @@ true
 }
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =

@@ -812,7 +812,7 @@ true
 }
 }
 size_t
-ObjectValueMap
+ObjectValueWeakMap
 :
 :
 sizeOfIncludingThis
@@ -837,7 +837,7 @@ mallocSizeOf
 ;
 }
 bool
-ObjectValueMap
+ObjectValueWeakMap
 :
 :
 findSweepGroupEdges
@@ -1013,7 +1013,7 @@ obj
 {
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 :
 :
 Ptr
@@ -1181,7 +1181,7 @@ checkAfterMovingGC
 {
 for
 (
-ObjectValueMap
+ObjectValueWeakMap
 :
 :
 Range
