@@ -855,6 +855,10 @@ html
 '
 )
         
+success
+=
+True
+        
 if
 self
 .
@@ -864,6 +868,10 @@ summarized_results
 {
 }
 :
+            
+success
+=
+False
             
 LOG
 .
@@ -892,6 +900,77 @@ test_names
         
 else
 :
+            
+for
+suite
+in
+self
+.
+summarized_results
+[
+'
+suites
+'
+]
+:
+                
+tname
+=
+suite
+[
+'
+name
+'
+]
+                
+found
+=
+False
+                
+for
+test
+in
+test_names
+:
+                    
+if
+tname
+in
+test
+:
+                        
+found
+=
+True
+                        
+break
+                
+if
+not
+found
+:
+                    
+success
+=
+False
+                    
+LOG
+.
+error
+(
+"
+no
+summarized
+raptor
+results
+found
+for
+%
+s
+"
+%
+tname
+)
             
 with
 open
@@ -1003,7 +1082,7 @@ summarized_results
 :
             
 return
-False
+success
 0
         
 extra_opts
@@ -1236,7 +1315,7 @@ results_path
 )
         
 return
-True
+success
 total_perfdata
     
 def

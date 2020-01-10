@@ -1030,6 +1030,10 @@ out_sup_perfdata
 =
 0
         
+sup_success
+=
+True
+        
 if
 self
 .
@@ -1055,7 +1059,7 @@ summarize_supporting_data
 (
 )
             
-res
+sup_success
 out_sup_perfdata
 =
 output
@@ -1065,7 +1069,7 @@ output_supporting_data
 test_names
 )
         
-res
+success
 out_perfdata
 =
 output
@@ -1075,6 +1079,10 @@ output
 test_names
 )
         
+validate_success
+=
+True
+        
 if
 not
 self
@@ -1082,20 +1090,27 @@ self
 gecko_profile
 :
             
-res
+validate_success
 =
 self
 .
 _validate_treeherder_data
 (
+                
 output
+                
 out_sup_perfdata
 +
 out_perfdata
+            
 )
         
 return
-res
+sup_success
+and
+success
+and
+validate_success
 class
 RaptorTestResult
 (
@@ -2505,7 +2520,7 @@ summarize
 test_names
 )
         
-res
+success
 out_perfdata
 =
 output
@@ -2515,6 +2530,10 @@ output
 test_names
 )
         
+validate_success
+=
+True
+        
 if
 not
 self
@@ -2522,7 +2541,7 @@ self
 gecko_profile
 :
             
-res
+validate_success
 =
 self
 .
@@ -2533,4 +2552,6 @@ out_perfdata
 )
         
 return
-res
+success
+and
+validate_success
