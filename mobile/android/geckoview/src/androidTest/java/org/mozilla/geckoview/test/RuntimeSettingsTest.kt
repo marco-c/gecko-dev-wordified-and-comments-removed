@@ -352,7 +352,7 @@ settings
 fontInflationEnabled
 is
 (
-initialFontInflation
+true
 )
 )
 settings
@@ -564,7 +564,7 @@ settings
 fontInflationEnabled
 is
 (
-initialFontInflation
+true
 )
 )
 settings
