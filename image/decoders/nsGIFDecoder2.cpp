@@ -277,7 +277,7 @@ R8G8B8
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 )
 ;
 MOZ_ASSERT
@@ -669,12 +669,12 @@ hasTransparency
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 :
 SurfaceFormat
 :
 :
-OS_RGBX
+B8G8R8X8
 ;
 }
 else
@@ -684,7 +684,7 @@ format
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 ;
 }
 Maybe

@@ -505,7 +505,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 }
 )
@@ -1018,7 +1018,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 }
 SurfaceConfig
 {
@@ -1031,7 +1031,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 }
 )
@@ -1148,7 +1148,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 }
 SurfaceConfig
 {
@@ -1161,7 +1161,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 }
 )
@@ -1280,7 +1280,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 }
 SurfaceConfig
 {
@@ -1293,7 +1293,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 }
 )
@@ -1417,7 +1417,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 }
 )
@@ -1541,7 +1541,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 }
 SurfaceConfig
 {
@@ -1554,7 +1554,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 }
 )
@@ -1604,7 +1604,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 }
 SurfaceConfig
 {
@@ -1617,7 +1617,7 @@ IntSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 }
 )

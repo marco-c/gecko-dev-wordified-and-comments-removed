@@ -4791,7 +4791,7 @@ size
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 SamplingFilter
 :
 :
@@ -5212,7 +5212,7 @@ region
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 aParams
 .
 samplingFilter

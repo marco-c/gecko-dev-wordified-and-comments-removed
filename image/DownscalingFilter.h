@@ -524,7 +524,7 @@ gfx
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 ;
 ReleaseWindow
 (

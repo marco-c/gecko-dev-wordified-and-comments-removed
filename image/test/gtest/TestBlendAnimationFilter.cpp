@@ -222,7 +222,7 @@ aOutputSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 Some
 (
@@ -359,7 +359,7 @@ aOutputSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 false
 Some
 (

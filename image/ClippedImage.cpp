@@ -1321,7 +1321,7 @@ height
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 )
 ;
 if
@@ -1436,7 +1436,7 @@ aSize
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 SamplingFilter
 :
 :
@@ -1962,7 +1962,7 @@ aRegion
 SurfaceFormat
 :
 :
-OS_RGBA
+B8G8R8A8
 aSamplingFilter
 aOpacity
 )
