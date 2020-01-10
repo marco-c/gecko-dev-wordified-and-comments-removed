@@ -62,9 +62,14 @@ BlocksRingBuffer
 :
 BlockIndex
 ;
-explicit
 ProfileBuffer
 (
+mozilla
+:
+:
+BlocksRingBuffer
+&
+aBuffer
 mozilla
 :
 :
@@ -524,6 +529,7 @@ mozilla
 :
 :
 BlocksRingBuffer
+&
 mEntries
 ;
 public
