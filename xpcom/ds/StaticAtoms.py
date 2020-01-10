@@ -181,16 +181,6 @@ send
 Atom
 (
 "
-mozeditorbogusnode
-"
-"
-_moz_editor_bogus_node
-"
-)
-    
-Atom
-(
-"
 mozgeneratedcontentbefore
 "
 "

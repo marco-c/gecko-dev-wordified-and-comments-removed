@@ -134,7 +134,7 @@ eSetText
 eSetHTML
 eInsertHTML
 eHidePassword
-eCreateBogusNode
+eCreatePaddingBRElementForEmptyEditor
 }
 ;
 enum
@@ -178,7 +178,7 @@ eSetPositionToAbsolute
 eSetPositionToStatic
 eDecreaseZIndex
 eIncreaseZIndex
-eCreateBogusNode
+eCreatePaddingBRElementForEmptyEditor
 }
 ;
 inline

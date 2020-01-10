@@ -7031,7 +7031,7 @@ if
 mRules
 -
 >
-HasBogusNode
+HasPaddingBRElementForEmptyEditor
 (
 )
 )
