@@ -135,7 +135,6 @@ aDesiredSize
 )
 override
 ;
-static
 nscoord
 CalcLineThickness
 (

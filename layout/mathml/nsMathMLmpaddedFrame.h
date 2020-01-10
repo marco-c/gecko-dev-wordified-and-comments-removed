@@ -273,7 +273,6 @@ ProcessAttributes
 (
 )
 ;
-static
 bool
 ParseAttribute
 (

@@ -154,3 +154,15 @@ DEPRECATED_OPERATION
 (
 MouseEvent_MozPressure
 )
+DEPRECATED_OPERATION
+(
+MathML_DeprecatedLineThicknessValue
+)
+DEPRECATED_OPERATION
+(
+MathML_DeprecatedMathSizeValue
+)
+DEPRECATED_OPERATION
+(
+MathML_DeprecatedMathSpaceValue
+)
