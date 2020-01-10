@@ -1768,6 +1768,12 @@ MACOS_PRIVATE_FRAMEWORKS_DIR
 '
 macos_private_frameworks
 )
+with
+only_when
+(
+host_is_osx
+)
+:
 #
 Xcode
 state
