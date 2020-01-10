@@ -149,7 +149,6 @@ provider
 new
 MockProvider
 (
-false
 )
 ;
 provider
