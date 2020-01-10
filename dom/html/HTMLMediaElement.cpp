@@ -12686,6 +12686,17 @@ if
 mSrcStream
 )
 {
+if
+(
+mSrcStreamPlaybackEnded
+)
+{
+return
+CurrentTime
+(
+)
+;
+}
 return
 std
 :
