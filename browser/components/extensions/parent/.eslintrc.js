@@ -69,6 +69,11 @@ browserActionFor
 :
 true
 "
+clickModifiersFromEvent
+"
+:
+true
+"
 getContainerForCookieStoreId
 "
 :
