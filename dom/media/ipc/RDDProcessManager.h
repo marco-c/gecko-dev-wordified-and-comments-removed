@@ -186,6 +186,11 @@ mProcess
 }
 private
 :
+bool
+CreateVideoBridge
+(
+)
+;
 void
 OnXPCOMShutdown
 (

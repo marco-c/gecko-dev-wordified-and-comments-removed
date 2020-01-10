@@ -103,7 +103,7 @@ childPipe
 VideoBridgeParent
 :
 :
-CreateForGPUProcess
+Open
 (
 std
 :

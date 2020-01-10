@@ -260,7 +260,7 @@ var
 )
 ;
 async
-CreateVideoBridgeToParentProcess
+InitVideoBridge
 (
 Endpoint
 <

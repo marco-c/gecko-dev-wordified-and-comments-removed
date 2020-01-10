@@ -131,6 +131,10 @@ PVRManager
 ;
 include
 protocol
+PVideoBridge
+;
+include
+protocol
 PVsyncBridge
 ;
 include
@@ -512,6 +516,16 @@ InitImageBridge
 Endpoint
 <
 PImageBridgeParent
+>
+endpoint
+)
+;
+async
+InitVideoBridge
+(
+Endpoint
+<
+PVideoBridgeParent
 >
 endpoint
 )
