@@ -94,14 +94,6 @@ taskgraph
 .
 transforms
 .
-use_toolchains
-:
-transforms
--
-taskgraph
-.
-transforms
-.
 job
 :
 transforms
@@ -268,7 +260,9 @@ src
 /
 *
 *
-toolchains
+fetches
+:
+toolchain
 :
 -
 linux64
@@ -390,7 +384,9 @@ browser
 HOME
 /
 workspace
-toolchains
+fetches
+:
+toolchain
 :
 -
 linux64

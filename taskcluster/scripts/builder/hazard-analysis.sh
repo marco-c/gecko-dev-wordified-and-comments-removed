@@ -64,7 +64,7 @@ rootAnalysis
 GCCDIR
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 gcc
 "
@@ -98,7 +98,7 @@ GCCDIR
 /
 bin
 :
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -118,7 +118,7 @@ export
 RUSTC
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 rustc
 /
@@ -130,7 +130,7 @@ export
 CARGO
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 rustc
 /
@@ -477,7 +477,7 @@ GECKO_PATH
 sixgill
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 sixgill
 /
@@ -490,7 +490,7 @@ sixgill
 sixgill_bin
 =
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 sixgill
 /
@@ -723,7 +723,7 @@ JSBIN
 -
 sixgill
 "
-TOOLTOOL_DIR
+MOZ_FETCHES_DIR
 /
 sixgill
 "
