@@ -111,11 +111,16 @@ use
 euclid
 :
 :
+default
+:
+:
 {
-self
 Rect
 Transform3D
 }
+;
+use
+euclid
 ;
 use
 std
@@ -3286,7 +3291,7 @@ transform
 =
 transform
 .
-pre_mul
+pre_transform
 (
 &
 matrix

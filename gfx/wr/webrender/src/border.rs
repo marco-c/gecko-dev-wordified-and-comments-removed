@@ -5494,7 +5494,6 @@ segment_rect
 .
 translate
 (
-&
 -
 image_rect
 .

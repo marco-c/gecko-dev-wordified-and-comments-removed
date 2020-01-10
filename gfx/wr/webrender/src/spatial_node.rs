@@ -1283,13 +1283,11 @@ source_transform
 .
 pre_translate
 (
-&
 scroll_offset
 )
 .
 post_translate
 (
-&
 -
 scroll_offset
 )
@@ -1326,7 +1324,7 @@ info
 origin_in_parent_reference_frame
 )
 .
-pre_mul
+pre_transform
 (
 &
 source_transform
@@ -1339,7 +1337,6 @@ resolved_transform
 .
 post_translate
 (
-&
 state
 .
 parent_accumulated_scroll_offset
@@ -1444,7 +1441,7 @@ to_transform
 (
 )
 .
-pre_mul
+pre_transform
 (
 &
 relative_transform
@@ -1492,7 +1489,7 @@ world_transform
 =
 cur_transform
 .
-post_mul
+post_transform
 (
 &
 parent_system
@@ -1849,6 +1846,7 @@ frame_rect
 .
 translate
 (
+*
 viewport_scroll_offset
 )
 ;
@@ -2624,7 +2622,6 @@ nearest_scrolling_ancestor_viewport
 .
 translate
 (
-&
 translation
 )
 ;
@@ -3309,6 +3306,7 @@ Option
 <
 f32
 >
+LayoutPixel
 >
 pub
 vertical_offset_bounds
@@ -3345,6 +3343,7 @@ Option
 <
 f32
 >
+LayoutPixel
 >
 vertical_offset_bounds
 :

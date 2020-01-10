@@ -22,8 +22,8 @@ euclid
 :
 {
 Angle
-TypedRect
-TypedTransform3D
+Rect
+Transform3D
 }
 ;
 use
@@ -732,7 +732,7 @@ clip_transformed
 let
 t_rot
 :
-TypedTransform3D
+Transform3D
 <
 f32
 (
@@ -741,7 +741,7 @@ f32
 )
 >
 =
-TypedTransform3D
+Transform3D
 :
 :
 create_rotation
@@ -768,7 +768,7 @@ FRAC_PI_4
 let
 t_div
 :
-TypedTransform3D
+Transform3D
 <
 f32
 (
@@ -777,7 +777,7 @@ f32
 )
 >
 =
-TypedTransform3D
+Transform3D
 :
 :
 create_perspective
@@ -792,7 +792,7 @@ transform
 =
 t_rot
 .
-post_mul
+post_transform
 (
 &
 t_div
@@ -829,7 +829,7 @@ rect
 let
 bounds
 :
-TypedRect
+Rect
 <
 f32
 (
@@ -910,7 +910,7 @@ let
 mut
 tx
 =
-TypedTransform3D
+Transform3D
 :
 :
 <

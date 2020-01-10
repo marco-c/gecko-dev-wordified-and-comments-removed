@@ -26,8 +26,8 @@ euclid
 :
 :
 {
-TypedPoint3D
-TypedVector3D
+Point3D
+Vector3D
 }
 ;
 use
@@ -923,7 +923,7 @@ mut
 self
 view
 :
-TypedVector3D
+Vector3D
 <
 T
 U
@@ -948,7 +948,7 @@ Polygon
 points
 :
 [
-TypedPoint3D
+Point3D
 :
 :
 origin

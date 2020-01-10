@@ -2655,10 +2655,7 @@ const
 wr
 :
 :
-SideOffsets2D
-<
-int32_t
->
+DeviceIntSideOffsets
 &
 aSlice
 const
@@ -2694,10 +2691,7 @@ const
 wr
 :
 :
-SideOffsets2D
-<
-float
->
+LayoutSideOffsets
 &
 aOutset
 )
@@ -2763,10 +2757,7 @@ const
 wr
 :
 :
-SideOffsets2D
-<
-float
->
+LayoutSideOffsets
 &
 aOutset
 )

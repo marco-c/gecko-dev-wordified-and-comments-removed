@@ -36,7 +36,7 @@ euclid
 :
 {
 HomogeneousVector
-TypedRect
+Rect
 }
 ;
 use
@@ -439,7 +439,7 @@ P
 >
 From
 <
-TypedRect
+Rect
 <
 f32
 P
@@ -453,7 +453,7 @@ from
 (
 r
 :
-TypedRect
+Rect
 <
 f32
 P

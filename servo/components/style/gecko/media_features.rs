@@ -113,6 +113,9 @@ use
 euclid
 :
 :
+default
+:
+:
 Size2D
 ;
 fn

@@ -3257,7 +3257,7 @@ for
 euclid
 :
 :
-TypedScale
+Scale
 <
 T
 Src
@@ -3301,7 +3301,7 @@ for
 euclid
 :
 :
-TypedPoint2D
+Point2D
 <
 T
 U
@@ -3353,7 +3353,7 @@ for
 euclid
 :
 :
-TypedRect
+Rect
 <
 T
 U
@@ -3405,7 +3405,7 @@ for
 euclid
 :
 :
-TypedSideOffsets2D
+SideOffsets2D
 <
 T
 U
@@ -3475,7 +3475,7 @@ for
 euclid
 :
 :
-TypedSize2D
+Size2D
 <
 T
 U
@@ -3528,7 +3528,7 @@ for
 euclid
 :
 :
-TypedTransform2D
+Transform2D
 <
 T
 Src
@@ -3618,7 +3618,7 @@ for
 euclid
 :
 :
-TypedTransform3D
+Transform3D
 <
 T
 Src
@@ -3797,7 +3797,7 @@ for
 euclid
 :
 :
-TypedVector2D
+Vector2D
 <
 T
 U

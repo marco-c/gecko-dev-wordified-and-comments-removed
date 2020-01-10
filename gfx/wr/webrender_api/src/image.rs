@@ -12,7 +12,7 @@ euclid
 :
 {
 size2
-TypedRect
+Rect
 num
 :
 :
@@ -1285,7 +1285,7 @@ U
 All
 Partial
 (
-TypedRect
+Rect
 <
 T
 U
@@ -1345,7 +1345,7 @@ DirtyRect
 :
 Partial
 (
-TypedRect
+Rect
 :
 :
 zero
@@ -1441,7 +1441,7 @@ F
 :
 FnOnce
 (
-TypedRect
+Rect
 <
 T
 U
@@ -1449,7 +1449,7 @@ U
 )
 -
 >
-TypedRect
+Rect
 <
 T
 U
@@ -1622,7 +1622,7 @@ rect2
 .
 unwrap_or_else
 (
-TypedRect
+Rect
 :
 :
 zero
@@ -1639,7 +1639,7 @@ self
 rect
 :
 &
-TypedRect
+Rect
 <
 T
 U
@@ -1647,7 +1647,7 @@ U
 )
 -
 >
-TypedRect
+Rect
 <
 T
 U
@@ -1686,7 +1686,7 @@ rect
 .
 unwrap_or_else
 (
-TypedRect
+Rect
 :
 :
 zero
@@ -1748,7 +1748,7 @@ U
 >
 From
 <
-TypedRect
+Rect
 <
 T
 U
@@ -1766,7 +1766,7 @@ from
 (
 rect
 :
-TypedRect
+Rect
 <
 T
 U

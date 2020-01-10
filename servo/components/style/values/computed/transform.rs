@@ -78,6 +78,9 @@ use
 euclid
 :
 :
+default
+:
+:
 {
 Transform3D
 Vector3D

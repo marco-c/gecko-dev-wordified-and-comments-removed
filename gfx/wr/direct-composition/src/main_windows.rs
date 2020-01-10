@@ -922,7 +922,7 @@ to_f32
 euclid
 :
 :
-TypedScale
+Scale
 :
 :
 new
@@ -952,7 +952,7 @@ rect
 euclid
 :
 :
-TypedRect
+Rect
 :
 :
 new
@@ -960,7 +960,7 @@ new
 euclid
 :
 :
-TypedPoint2D
+Point2D
 :
 :
 zero

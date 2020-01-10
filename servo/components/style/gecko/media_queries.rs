@@ -116,13 +116,16 @@ use
 euclid
 :
 :
+default
+:
+:
 Size2D
 ;
 use
 euclid
 :
 :
-TypedScale
+Scale
 ;
 use
 servo_arc
@@ -1167,7 +1170,7 @@ self
 )
 -
 >
-TypedScale
+Scale
 <
 f32
 CSSPixel
@@ -1195,7 +1198,7 @@ None
 =
 >
 return
-TypedScale
+Scale
 :
 :
 new
@@ -1220,7 +1223,7 @@ override_dppx
 0
 {
 return
-TypedScale
+Scale
 :
 :
 new
@@ -1245,7 +1248,7 @@ AU_PER_PX
 as
 f32
 ;
-TypedScale
+Scale
 :
 :
 new

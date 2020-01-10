@@ -49,7 +49,7 @@ use
 euclid
 :
 :
-TypedScale
+Scale
 ;
 use
 gleam
@@ -410,7 +410,7 @@ to_f32
 (
 )
 /
-TypedScale
+Scale
 :
 :
 new

@@ -20,7 +20,7 @@ use
 euclid
 :
 :
-TypedSize2D
+Size2D
 ;
 use
 std
@@ -110,7 +110,7 @@ ViewportConstraints
 pub
 size
 :
-TypedSize2D
+Size2D
 <
 f32
 CSSPixel

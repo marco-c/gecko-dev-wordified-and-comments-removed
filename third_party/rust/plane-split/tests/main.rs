@@ -12,9 +12,9 @@ euclid
 :
 {
 Angle
-TypedRect
-TypedSize2D
-TypedTransform3D
+Rect
+Size2D
+Transform3D
 point2
 point3
 vec3
@@ -524,7 +524,7 @@ test_transformed
 (
 rect
 :
-TypedRect
+Rect
 <
 f32
 (
@@ -532,7 +532,7 @@ f32
 >
 transform
 :
-TypedTransform3D
+Transform3D
 <
 f32
 (
@@ -673,7 +673,7 @@ from_transformed_rect
 let
 rect
 =
-TypedRect
+Rect
 :
 :
 new
@@ -687,7 +687,7 @@ point2
 .
 0
 )
-TypedSize2D
+Size2D
 :
 :
 new
@@ -704,7 +704,7 @@ new
 let
 transform
 =
-TypedTransform3D
+Transform3D
 :
 :
 create_rotation
@@ -772,7 +772,7 @@ from_transformed_rect_perspective
 let
 rect
 =
-TypedRect
+Rect
 :
 :
 new
@@ -788,7 +788,7 @@ point2
 .
 0
 )
-TypedSize2D
+Size2D
 :
 :
 new
@@ -806,7 +806,7 @@ let
 mut
 transform
 =
-TypedTransform3D
+Transform3D
 :
 :
 create_perspective

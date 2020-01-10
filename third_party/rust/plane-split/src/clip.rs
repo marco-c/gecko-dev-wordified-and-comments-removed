@@ -12,10 +12,10 @@ euclid
 :
 {
 Trig
-TypedRect
-TypedScale
-TypedTransform3D
-TypedVector3D
+Rect
+Scale
+Transform3D
+Vector3D
 }
 ;
 use
@@ -236,7 +236,7 @@ V
 t
 :
 &
-TypedTransform3D
+Transform3D
 <
 T
 U
@@ -246,7 +246,7 @@ bounds
 :
 Option
 <
-TypedRect
+Rect
 <
 T
 V
@@ -274,7 +274,7 @@ NegativeHemisphereError
 let
 mw
 =
-TypedVector3D
+Vector3D
 :
 :
 new
@@ -321,7 +321,7 @@ bounds
 let
 mx
 =
-TypedVector3D
+Vector3D
 :
 :
 new
@@ -358,7 +358,7 @@ mx
 -
 mw
 *
-TypedScale
+Scale
 :
 :
 new
@@ -402,7 +402,7 @@ from_unnormalized
 (
 mw
 *
-TypedScale
+Scale
 :
 :
 new
@@ -426,7 +426,7 @@ m41
 let
 my
 =
-TypedVector3D
+Vector3D
 :
 :
 new
@@ -463,7 +463,7 @@ my
 -
 mw
 *
-TypedScale
+Scale
 :
 :
 new
@@ -507,7 +507,7 @@ from_unnormalized
 (
 mw
 *
-TypedScale
+Scale
 :
 :
 new
@@ -843,7 +843,7 @@ transform
 &
 '
 a
-TypedTransform3D
+Transform3D
 <
 T
 U
@@ -853,7 +853,7 @@ bounds
 :
 Option
 <
-TypedRect
+Rect
 <
 T
 V

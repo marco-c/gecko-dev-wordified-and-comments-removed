@@ -212,6 +212,9 @@ use
 euclid
 :
 :
+default
+:
+:
 Size2D
 ;
 use

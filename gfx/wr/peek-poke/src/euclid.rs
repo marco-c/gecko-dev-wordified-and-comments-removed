@@ -12,12 +12,12 @@ euclid
 :
 :
 {
-TypedPoint2D
-TypedRect
-TypedSideOffsets2D
-TypedSize2D
-TypedTransform3D
-TypedVector2D
+Point2D
+Rect
+SideOffsets2D
+Size2D
+Transform3D
+Vector2D
 }
 ;
 unsafe
@@ -30,7 +30,7 @@ U
 >
 Poke
 for
-TypedPoint2D
+Point2D
 <
 T
 U
@@ -121,7 +121,7 @@ U
 >
 Peek
 for
-TypedPoint2D
+Point2D
 <
 T
 U
@@ -206,7 +206,7 @@ U
 >
 Poke
 for
-TypedRect
+Rect
 <
 T
 U
@@ -227,7 +227,7 @@ max_size
 >
 usize
 {
-TypedPoint2D
+Point2D
 :
 :
 <
@@ -240,7 +240,7 @@ max_size
 (
 )
 +
-TypedSize2D
+Size2D
 :
 :
 <
@@ -314,7 +314,7 @@ U
 >
 Peek
 for
-TypedRect
+Rect
 <
 T
 U
@@ -351,7 +351,7 @@ u8
 let
 bytes
 =
-TypedPoint2D
+Point2D
 :
 :
 <
@@ -376,7 +376,7 @@ origin
 let
 bytes
 =
-TypedSize2D
+Size2D
 :
 :
 <
@@ -411,7 +411,7 @@ U
 >
 Poke
 for
-TypedSideOffsets2D
+SideOffsets2D
 <
 T
 U
@@ -526,7 +526,7 @@ U
 >
 Peek
 for
-TypedSideOffsets2D
+SideOffsets2D
 <
 T
 U
@@ -649,7 +649,7 @@ U
 >
 Poke
 for
-TypedSize2D
+Size2D
 <
 T
 U
@@ -740,7 +740,7 @@ U
 >
 Peek
 for
-TypedSize2D
+Size2D
 <
 T
 U
@@ -826,7 +826,7 @@ D
 >
 Poke
 for
-TypedTransform3D
+Transform3D
 <
 T
 S
@@ -1087,7 +1087,7 @@ D
 >
 Peek
 for
-TypedTransform3D
+Transform3D
 <
 T
 S
@@ -1439,7 +1439,7 @@ U
 >
 Poke
 for
-TypedVector2D
+Vector2D
 <
 T
 U
@@ -1530,7 +1530,7 @@ U
 >
 Peek
 for
-TypedVector2D
+Vector2D
 <
 T
 U

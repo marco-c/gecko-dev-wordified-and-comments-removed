@@ -653,6 +653,7 @@ Option
 <
 f32
 >
+LayoutPixel
 >
 pub
 vertical_offset_bounds
@@ -1378,10 +1379,7 @@ i32
 pub
 slice
 :
-SideOffsets2D
-<
-i32
->
+DeviceIntSideOffsets
 pub
 fill
 :
@@ -1397,10 +1395,7 @@ RepeatMode
 pub
 outset
 :
-SideOffsets2D
-<
-f32
->
+LayoutSideOffsets
 }
 #
 [

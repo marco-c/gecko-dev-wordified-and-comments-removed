@@ -11,7 +11,7 @@ use
 euclid
 :
 :
-TypedSize2D
+Size2D
 ;
 use
 std
@@ -50,7 +50,7 @@ U
 pub
 radius
 :
-TypedSize2D
+Size2D
 <
 f32
 U
@@ -75,7 +75,7 @@ new
 (
 radius
 :
-TypedSize2D
+Size2D
 <
 f32
 U

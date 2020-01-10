@@ -3656,6 +3656,7 @@ original_tile_range
 .
 contains
 (
+*
 tile
 )
 |
@@ -3666,6 +3667,7 @@ actual_tile_range
 .
 contains
 (
+*
 tile
 )
 }
@@ -3731,7 +3733,6 @@ original_tile_range
 .
 contains
 (
-&
 key
 .
 tile
@@ -3748,7 +3749,6 @@ actual_tile_range
 .
 contains
 (
-&
 key
 .
 tile
@@ -7117,6 +7117,7 @@ tile_range
 .
 contains
 (
+*
 tile
 )
 }
@@ -7186,7 +7187,6 @@ tile_range
 .
 contains
 (
-&
 key
 .
 tile

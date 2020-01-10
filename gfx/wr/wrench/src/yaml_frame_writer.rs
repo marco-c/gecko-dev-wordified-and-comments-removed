@@ -7,11 +7,11 @@ euclid
 :
 :
 {
-TypedPoint2D
-TypedRect
-TypedSize2D
-TypedTransform3D
-TypedVector2D
+Point2D
+Rect
+Size2D
+Transform3D
+Vector2D
 }
 ;
 use
@@ -670,7 +670,7 @@ str
 value
 :
 &
-TypedPoint2D
+Point2D
 <
 f32
 U
@@ -711,7 +711,7 @@ str
 value
 :
 &
-TypedVector2D
+Vector2D
 <
 f32
 U
@@ -752,7 +752,7 @@ str
 value
 :
 &
-TypedSize2D
+Size2D
 <
 f32
 U
@@ -784,7 +784,7 @@ U
 value
 :
 &
-TypedRect
+Rect
 <
 f32
 U
@@ -840,7 +840,7 @@ str
 value
 :
 &
-TypedRect
+Rect
 <
 f32
 U
@@ -877,7 +877,7 @@ str
 value
 :
 &
-TypedTransform3D
+Transform3D
 <
 f32
 U1

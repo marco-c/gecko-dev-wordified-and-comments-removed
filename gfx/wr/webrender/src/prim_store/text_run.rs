@@ -1584,7 +1584,6 @@ device_pixel_scale
 .
 transform_point
 (
-&
 world_offset
 )
 ;

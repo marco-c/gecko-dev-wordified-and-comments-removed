@@ -11,13 +11,13 @@ use
 euclid
 :
 :
-TypedScale
+Scale
 ;
 use
 euclid
 :
 :
-TypedSize2D
+Size2D
 ;
 use
 servo_arc
@@ -695,7 +695,7 @@ MediaType
 screen
 (
 )
-TypedSize2D
+Size2D
 :
 :
 new
@@ -705,7 +705,7 @@ new
 600
 .
 )
-TypedScale
+Scale
 :
 :
 new
@@ -914,7 +914,7 @@ MediaType
 screen
 (
 )
-TypedSize2D
+Size2D
 :
 :
 new
@@ -924,7 +924,7 @@ new
 600
 .
 )
-TypedScale
+Scale
 :
 :
 new
@@ -1822,7 +1822,7 @@ MediaType
 screen
 (
 )
-TypedSize2D
+Size2D
 :
 :
 new
@@ -1832,7 +1832,7 @@ new
 600
 .
 )
-TypedScale
+Scale
 :
 :
 new
@@ -2475,7 +2475,7 @@ MediaType
 screen
 (
 )
-TypedSize2D
+Size2D
 :
 :
 new
@@ -2485,7 +2485,7 @@ new
 600
 .
 )
-TypedScale
+Scale
 :
 :
 new
@@ -3045,7 +3045,7 @@ unwrap
 let
 initial_viewport
 =
-TypedSize2D
+Size2D
 :
 :
 new
@@ -3071,7 +3071,7 @@ screen
 (
 )
 initial_viewport
-TypedScale
+Scale
 :
 :
 new
@@ -3370,7 +3370,7 @@ Auto
 let
 initial_viewport
 =
-TypedSize2D
+Size2D
 :
 :
 new
@@ -3396,7 +3396,7 @@ screen
 (
 )
 initial_viewport
-TypedScale
+Scale
 :
 :
 new
@@ -3450,7 +3450,7 @@ ViewportConstraints
 {
 size
 :
-TypedSize2D
+Size2D
 :
 :
 new
