@@ -1556,6 +1556,12 @@ location
 "
 )
 ;
+await
+waitForTime
+(
+1000
+)
+;
 const
 onSourceInDebuggerOpened
 =
