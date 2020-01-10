@@ -14056,8 +14056,10 @@ script
 }
 ;
 extern
-char
-*
+JS
+:
+:
+UniqueChars
 FormatIntroducedFilename
 (
 JSContext

@@ -2277,9 +2277,7 @@ caller
 -
 >
 filename
-.
-reset
-(
+=
 FormatIntroducedFilename
 (
 cx
@@ -2293,7 +2291,6 @@ caller
 >
 line
 introducer
-)
 )
 ;
 if
