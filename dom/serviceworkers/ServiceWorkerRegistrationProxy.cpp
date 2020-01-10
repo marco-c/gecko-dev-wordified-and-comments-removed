@@ -570,7 +570,7 @@ void
 ServiceWorkerRegistrationProxy
 :
 :
-RegistrationRemoved
+RegistrationCleared
 (
 )
 {

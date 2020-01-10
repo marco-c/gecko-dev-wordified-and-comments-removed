@@ -146,7 +146,7 @@ FireUpdateFound
 override
 ;
 void
-RegistrationRemoved
+RegistrationCleared
 (
 )
 override

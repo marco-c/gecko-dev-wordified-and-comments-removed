@@ -41,7 +41,7 @@ FireUpdateFound
 ;
 virtual
 void
-RegistrationRemoved
+RegistrationCleared
 (
 )
 =

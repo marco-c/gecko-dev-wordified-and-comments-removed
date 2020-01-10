@@ -258,7 +258,7 @@ DisconnectFromOwner
 override
 ;
 void
-RegistrationRemoved
+RegistrationCleared
 (
 )
 ;
