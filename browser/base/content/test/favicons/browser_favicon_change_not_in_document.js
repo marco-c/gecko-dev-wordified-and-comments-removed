@@ -62,6 +62,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+TEST_ROOT
 )
 )
 ;
