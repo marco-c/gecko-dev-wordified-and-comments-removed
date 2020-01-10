@@ -966,10 +966,8 @@ different
 hashing
 algorithm
 .
-widevine
-and
-widevine_blessed
-are
+autograph_widevine
+is
 also
 video
 -
