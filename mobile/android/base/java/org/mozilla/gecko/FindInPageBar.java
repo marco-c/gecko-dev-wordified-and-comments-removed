@@ -648,6 +648,13 @@ setText
 "
 )
 ;
+mFindText
+.
+setError
+(
+null
+)
+;
 if
 (
 mFindText
