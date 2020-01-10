@@ -103,6 +103,9 @@ mHandle
 )
 )
 {
+#
+ifdef
+MOZILLA_INTERNAL_API
 nsAutoCString
 msg
 ;
@@ -139,6 +142,8 @@ get
 )
 )
 ;
+#
+endif
 MOZ_ASSERT
 (
 false

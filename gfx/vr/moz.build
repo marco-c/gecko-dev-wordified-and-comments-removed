@@ -352,6 +352,11 @@ VRPuppetCommandBuffer
 .
 cpp
 '
+'
+VRShMem
+.
+cpp
+'
 ]
 if
 CONFIG

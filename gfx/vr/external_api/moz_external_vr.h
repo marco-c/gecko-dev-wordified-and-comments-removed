@@ -175,6 +175,16 @@ h
 >
 #
 endif
+#
+include
+<
+cstdint
+>
+#
+include
+<
+type_traits
+>
 namespace
 mozilla
 {
