@@ -376,6 +376,8 @@ AppendToRecentlyVisitedURIs
 nsIURI
 *
 aURI
+bool
+aHidden
 )
 ;
 void
@@ -676,6 +678,10 @@ MOZ_INIT_OUTSIDE_CTOR
 PRTime
 time
 ;
+MOZ_INIT_OUTSIDE_CTOR
+bool
+hidden
+;
 }
 ;
 nsTHashtable
@@ -683,14 +689,6 @@ nsTHashtable
 RecentURIKey
 >
 mRecentlyVisitedURIs
-;
-bool
-IsRecentlyVisitedURI
-(
-nsIURI
-*
-aURI
-)
 ;
 }
 ;

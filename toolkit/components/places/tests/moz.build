@@ -435,6 +435,13 @@ sjs
 '
 browser
 /
+redirect_self
+.
+sjs
+'
+'
+browser
+/
 redirect_thrice
 .
 sjs
