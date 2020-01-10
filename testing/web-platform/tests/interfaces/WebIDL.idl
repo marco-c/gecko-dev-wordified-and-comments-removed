@@ -110,6 +110,7 @@ name
 Error
 "
 )
+Serializable
 ]
 interface
 DOMException
