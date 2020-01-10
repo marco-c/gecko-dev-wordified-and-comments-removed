@@ -11637,6 +11637,16 @@ aInRDMPane
 }
 static
 bool
+UseOverlayScrollbars
+(
+const
+Document
+*
+aDocument
+)
+;
+static
+bool
 HasRecentlyStartedForegroundLoads
 (
 )

@@ -3566,6 +3566,16 @@ retain
 ;
 sandbox
 .
+usesOverlayScrollbars
+=
+g
+.
+windowUtils
+.
+usesOverlayScrollbars
+;
+sandbox
+.
 Android
 =
 xr
