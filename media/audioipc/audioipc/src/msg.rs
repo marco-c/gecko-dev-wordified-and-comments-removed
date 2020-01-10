@@ -3,6 +3,8 @@ iovec
 :
 :
 unix
+as
+iovec
 ;
 use
 iovec
@@ -443,7 +445,7 @@ c_int
 let
 slice
 =
-unix
+iovec
 :
 :
 as_os_slice_mut
@@ -593,6 +595,9 @@ _
 let
 n
 =
+try
+!
+(
 cvt_r
 (
 |
@@ -616,7 +621,7 @@ flags
 )
 }
 )
-?
+)
 ;
 let
 controllen
@@ -678,7 +683,7 @@ usize
 let
 slice
 =
-unix
+iovec
 :
 :
 as_os_slice

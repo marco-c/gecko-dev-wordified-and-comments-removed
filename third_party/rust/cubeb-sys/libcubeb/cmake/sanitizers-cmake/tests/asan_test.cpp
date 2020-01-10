@@ -17,16 +17,7 @@ new
 int
 [
 argc
-+
-1
 ]
-;
-array
-[
-argc
-]
-=
-0
 ;
 delete
 [

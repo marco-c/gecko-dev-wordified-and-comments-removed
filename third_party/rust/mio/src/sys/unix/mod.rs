@@ -201,9 +201,6 @@ tcp
 mod
 udp
 ;
-mod
-uio
-;
 #
 [
 cfg

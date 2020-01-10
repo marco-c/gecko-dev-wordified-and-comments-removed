@@ -6,6 +6,15 @@ use
 std
 :
 :
+{
+io
+ptr
+}
+;
+use
+std
+:
+:
 fs
 :
 :
@@ -27,15 +36,6 @@ io
 {
 AsRawFd
 RawFd
-}
-;
-use
-std
-:
-:
-{
-io
-ptr
 }
 ;
 #
@@ -176,7 +176,7 @@ file
 RawFd
 offset
 :
-u64
+usize
 )
 -
 >
@@ -196,8 +196,6 @@ offset
 page_size
 (
 )
-as
-u64
 ;
 let
 aligned_offset
@@ -212,8 +210,6 @@ aligned_len
 len
 +
 alignment
-as
-usize
 ;
 if
 aligned_len
@@ -346,7 +342,7 @@ file
 File
 offset
 :
-u64
+usize
 )
 -
 >
@@ -393,7 +389,7 @@ file
 File
 offset
 :
-u64
+usize
 )
 -
 >
@@ -445,7 +441,7 @@ file
 File
 offset
 :
-u64
+usize
 )
 -
 >
@@ -497,7 +493,7 @@ file
 File
 offset
 :
-u64
+usize
 )
 -
 >

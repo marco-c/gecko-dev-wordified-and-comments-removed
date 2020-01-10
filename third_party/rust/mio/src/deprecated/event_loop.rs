@@ -612,6 +612,10 @@ run
 :
 true
 poll
+:
+poll
+timer
+:
 timer
 notify_tx
 :
@@ -619,6 +623,8 @@ tx
 notify_rx
 :
 rx
+config
+:
 config
 events
 :
@@ -1651,6 +1657,8 @@ M
 {
 Sender
 {
+tx
+:
 tx
 }
 }

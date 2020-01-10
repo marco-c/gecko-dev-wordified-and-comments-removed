@@ -1,4 +1,8 @@
 #
+define
+__MSVCRT_VERSION__
+0x0700
+#
 undef
 WINVER
 #

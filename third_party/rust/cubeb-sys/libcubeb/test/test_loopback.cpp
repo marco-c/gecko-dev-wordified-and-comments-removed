@@ -2249,12 +2249,6 @@ layout
 =
 CUBEB_LAYOUT_MONO
 ;
-output_params
-.
-prefs
-=
-CUBEB_STREAM_PREF_NONE
-;
 std
 :
 :
@@ -3294,12 +3288,6 @@ output_params
 layout
 =
 CUBEB_LAYOUT_MONO
-;
-output_params
-.
-prefs
-=
-CUBEB_STREAM_PREF_NONE
 ;
 std
 :

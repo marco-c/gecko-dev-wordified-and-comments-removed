@@ -479,7 +479,7 @@ you
 can
 use
 the
-sanitizer_add_blacklist_file
+add_sanitizer_blacklist
 (
 <
 FILE
@@ -492,7 +492,7 @@ find_package
 (
 Sanitizers
 )
-sanitizer_add_blacklist_file
+add_sanitizer_blacklist
 (
 "
 blacklist

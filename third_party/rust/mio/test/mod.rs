@@ -109,9 +109,6 @@ mod
 test_tcp_level
 ;
 mod
-test_tcp_shutdown
-;
-mod
 test_udp_level
 ;
 mod
@@ -1211,9 +1208,12 @@ pos
 if
 expected
 .
-is_empty
+len
 (
 )
+=
+=
+0
 {
 break
 ;
@@ -1224,9 +1224,12 @@ assert
 (
 expected
 .
-is_empty
+len
 (
 )
+=
+=
+0
 "
 The
 following

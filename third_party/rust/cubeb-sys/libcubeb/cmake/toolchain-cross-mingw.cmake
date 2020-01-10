@@ -33,8 +33,6 @@ COMPILER_PREFIX
 }
 -
 gcc
--
-posix
 )
 find_program
 (
@@ -47,8 +45,6 @@ COMPILER_PREFIX
 g
 +
 +
--
-posix
 )
 SET
 (

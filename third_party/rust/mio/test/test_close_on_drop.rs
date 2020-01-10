@@ -116,6 +116,10 @@ TestHandler
 TestHandler
 {
 srv
+:
+srv
+cli
+:
 cli
 state
 :

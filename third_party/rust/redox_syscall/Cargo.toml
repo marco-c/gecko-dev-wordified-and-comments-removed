@@ -122,7 +122,7 @@ version
 .
 1
 .
-56
+32
 "
 authors
 =
@@ -176,13 +176,9 @@ https
 :
 /
 /
-gitlab
+github
 .
-redox
--
-os
-.
-org
+com
 /
 redox
 -

@@ -73,6 +73,8 @@ TestHandler
 TestHandler
 {
 sender
+:
+sender
 notify
 :
 0
