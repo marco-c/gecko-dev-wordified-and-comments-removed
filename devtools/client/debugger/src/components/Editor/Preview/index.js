@@ -564,8 +564,8 @@ if
 cx
 .
 isPaused
-|
-|
+&
+&
 (
 !
 preview
