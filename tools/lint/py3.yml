@@ -111,10 +111,6 @@ mozharness
 -
 testing
 /
-raptor
--
-testing
-/
 tools
 /
 iceserver
