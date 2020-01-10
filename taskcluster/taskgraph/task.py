@@ -509,9 +509,12 @@ dependencies
 soft_dependencies
 '
 :
+sorted
+(
 self
 .
 soft_dependencies
+)
             
 '
 optimization
