@@ -18850,6 +18850,8 @@ in
 WINNT
 |
 Darwin
+|
+OpenBSD
 )
 ;
 ;
@@ -18895,6 +18897,7 @@ by
 default
 on
 Linux
+OpenBSD
 macOS
 and
 Windows
