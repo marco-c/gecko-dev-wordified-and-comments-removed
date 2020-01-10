@@ -18,18 +18,10 @@ from
 manifestparser
 import
 TestManifest
-from
-mozharness
-.
-mozilla
-.
-fetches
-import
-FetchesMixin
 class
 SingleTestMixin
 (
-FetchesMixin
+object
 )
 :
     
