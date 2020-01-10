@@ -9521,6 +9521,14 @@ HandleObject
 obj
 )
 ;
+extern
+JS_PUBLIC_API
+MOZ_MUST_USE
+bool
+DisableWasmHugeMemory
+(
+)
+;
 typedef
 void
 (
