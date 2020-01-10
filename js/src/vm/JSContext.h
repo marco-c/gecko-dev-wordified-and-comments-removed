@@ -591,7 +591,7 @@ AutoSuppressNurseryCellAlloc
 js
 :
 :
-ThreadData
+ContextData
 <
 size_t
 >
@@ -600,7 +600,7 @@ nurserySuppressions_
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -612,7 +612,7 @@ options_
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -631,7 +631,7 @@ allocsThisZoneSinceMinorGC_
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -647,7 +647,7 @@ atomsZoneFreeLists_
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2055,7 +2055,7 @@ alreadyReportedError
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2071,7 +2071,7 @@ jitActivation
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2086,7 +2086,7 @@ regexpStack
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2221,27 +2221,12 @@ const
 uintptr_t
 nativeStackBase
 ;
-js
-:
-:
-ThreadData
-<
-size_t
->
-nativeStackQuota
-[
-JS
-:
-:
-StackKindCount
-]
-;
 public
 :
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -2257,7 +2242,7 @@ entryMonitor
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2273,7 +2258,7 @@ DEBUG
 js
 :
 :
-ThreadData
+ContextData
 <
 uint32_t
 >
@@ -2282,7 +2267,7 @@ inUnsafeCallWithABI
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -2298,7 +2283,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2357,7 +2342,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2402,7 +2387,7 @@ afc
 js
 :
 :
-ThreadData
+ContextData
 <
 DtoaState
 *
@@ -2412,7 +2397,7 @@ dtoaState
 js
 :
 :
-ThreadData
+ContextData
 <
 int32_t
 >
@@ -2424,7 +2409,7 @@ DEBUG
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -2433,7 +2418,7 @@ ionCompiling
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -2442,7 +2427,7 @@ ionCompilingSafeForMinorGC
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -2451,7 +2436,7 @@ performingGC
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -2460,16 +2445,7 @@ gcSweeping
 js
 :
 :
-ThreadData
-<
-bool
->
-gcHelperStateThread
-;
-js
-:
-:
-ThreadData
+ContextData
 <
 size_t
 >
@@ -2478,7 +2454,7 @@ isTouchingGrayThings
 js
 :
 :
-ThreadData
+ContextData
 <
 size_t
 >
@@ -2487,7 +2463,7 @@ noNurseryAllocationCheck
 js
 :
 :
-ThreadData
+ContextData
 <
 uintptr_t
 >
@@ -2589,7 +2565,7 @@ JS_OOM_BREAKPOINT
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -2600,7 +2576,7 @@ endif
 js
 :
 :
-ThreadData
+ContextData
 <
 unsigned
 >
@@ -2609,7 +2585,7 @@ enableAccessValidation
 js
 :
 :
-ThreadData
+ContextData
 <
 int
 >
@@ -2618,7 +2594,7 @@ inUnsafeRegion
 js
 :
 :
-ThreadData
+ContextData
 <
 unsigned
 >
@@ -2627,7 +2603,7 @@ generationalDisabled
 js
 :
 :
-ThreadData
+ContextData
 <
 unsigned
 >
@@ -2656,7 +2632,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2792,7 +2768,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2842,7 +2818,7 @@ ref
 js
 :
 :
-ThreadData
+ContextData
 <
 uint32_t
 >
@@ -2851,7 +2827,7 @@ debuggerMutations
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -2874,7 +2850,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -2883,7 +2859,7 @@ throwing
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -2901,7 +2877,7 @@ unwrappedException_
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -3015,7 +2991,7 @@ get
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -3024,7 +3000,7 @@ overRecursed_
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -3033,7 +3009,7 @@ propagatingForcedReturn_
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -3051,7 +3027,7 @@ public
 js
 :
 :
-ThreadData
+ContextData
 <
 int32_t
 >
@@ -3060,7 +3036,7 @@ reportGranularity
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -3076,7 +3052,7 @@ DEBUG
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -3091,7 +3067,7 @@ endif
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -3102,7 +3078,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -3218,7 +3194,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -3287,7 +3263,7 @@ get
 js
 :
 :
-ThreadData
+ContextData
 <
 const
 char
@@ -3298,7 +3274,7 @@ asyncCauseForNewActivations
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -3657,7 +3633,7 @@ private
 js
 :
 :
-ThreadData
+ContextData
 <
 InterruptCallbackVector
 >
@@ -3682,7 +3658,7 @@ ref
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -3848,7 +3824,7 @@ fx
 js
 :
 :
-ThreadData
+ContextData
 <
 uint8_t
 *
@@ -3871,7 +3847,7 @@ freeOsrTempData
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -3991,7 +3967,7 @@ jitStackLimit
 js
 :
 :
-ThreadData
+ContextData
 <
 uintptr_t
 >
@@ -4000,7 +3976,7 @@ jitStackLimitNoInterrupt
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -4013,7 +3989,7 @@ jobQueue
 js
 :
 :
-ThreadData
+ContextData
 <
 js
 :
@@ -4031,7 +4007,7 @@ internalJobQueue
 js
 :
 :
-ThreadData
+ContextData
 <
 bool
 >
@@ -4040,7 +4016,7 @@ canSkipEnqueuingJobs
 js
 :
 :
-ThreadData
+ContextData
 <
 JS
 :
@@ -4052,7 +4028,7 @@ promiseRejectionTrackerCallback
 js
 :
 :
-ThreadData
+ContextData
 <
 void
 *
