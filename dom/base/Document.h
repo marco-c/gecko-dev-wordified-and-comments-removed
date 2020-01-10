@@ -11155,10 +11155,9 @@ isTracking
 bool
 IsScriptTracking
 (
-const
-nsACString
-&
-aURL
+JSContext
+*
+aCx
 )
 const
 ;
