@@ -403,6 +403,10 @@ ScreenOrientation
 (
 )
 {
+UnlockDeviceOrientation
+(
+)
+;
 hal
 :
 :
