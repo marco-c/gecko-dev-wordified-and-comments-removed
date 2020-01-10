@@ -3786,6 +3786,10 @@ if
 size
 )
 {
++
++
+aPos
+;
 return
 JS
 :
