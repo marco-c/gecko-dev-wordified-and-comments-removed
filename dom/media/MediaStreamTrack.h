@@ -21,7 +21,7 @@ h
 #
 include
 "
-StreamTracks
+PrincipalHandle
 .
 h
 "
@@ -1092,8 +1092,6 @@ aWindow
 MediaStream
 *
 aInputStream
-TrackID
-aTrackID
 MediaStreamTrackSource
 *
 aSource
@@ -1536,16 +1534,6 @@ ProcessedMediaStream
 aStream
 )
 ;
-TrackID
-GetTrackID
-(
-)
-const
-{
-return
-mTrackID
-;
-}
 protected
 :
 virtual
@@ -1672,10 +1660,6 @@ RefPtr
 MediaInputPort
 >
 mPort
-;
-const
-TrackID
-mTrackID
 ;
 RefPtr
 <

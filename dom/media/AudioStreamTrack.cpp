@@ -184,7 +184,6 @@ AudioStreamTrack
 (
 mWindow
 mInputStream
-mTrackID
 mSource
 ReadyState
 (

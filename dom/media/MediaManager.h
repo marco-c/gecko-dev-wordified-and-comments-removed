@@ -462,8 +462,6 @@ SourceMediaStream
 >
 &
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &

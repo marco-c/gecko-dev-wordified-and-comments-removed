@@ -3276,12 +3276,6 @@ window
 this
 )
 ;
-const
-TrackID
-videoTrackId
-=
-1
-;
 nsCOMPtr
 <
 nsIPrincipal
@@ -3301,7 +3295,6 @@ stream
 Init
 (
 aFrameRate
-videoTrackId
 principal
 )
 ;
@@ -3340,7 +3333,6 @@ stream
 GetSourceStream
 (
 )
-videoTrackId
 new
 CanvasCaptureTrackSource
 (

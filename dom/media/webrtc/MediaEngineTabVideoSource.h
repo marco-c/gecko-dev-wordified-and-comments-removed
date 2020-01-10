@@ -163,8 +163,6 @@ SourceMediaStream
 >
 &
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &
@@ -246,8 +244,6 @@ videoSource
 SourceMediaStream
 *
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &
@@ -270,10 +266,6 @@ videoSource
 mStream
 (
 aStream
-)
-mTrackID
-(
-aTrackID
 )
 mPrincipal
 (
@@ -300,10 +292,6 @@ RefPtr
 SourceMediaStream
 >
 mStream
-;
-const
-TrackID
-mTrackID
 ;
 const
 PrincipalHandle
@@ -373,8 +361,6 @@ videoSource
 SourceMediaStream
 *
 aStream
-TrackID
-aTrackID
 const
 PrincipalHandle
 &
@@ -397,10 +383,6 @@ videoSource
 mStream
 (
 aStream
-)
-mTrackID
-(
-aTrackID
 )
 mPrincipal
 (
@@ -427,10 +409,6 @@ RefPtr
 SourceMediaStream
 >
 mStream
-;
-const
-TrackID
-mTrackID
 ;
 const
 PrincipalHandle
@@ -589,11 +567,6 @@ SourceMediaStream
 >
 mStreamMain
 ;
-TrackID
-mTrackIDMain
-=
-TRACK_NONE
-;
 PrincipalHandle
 mPrincipalHandleMain
 =
@@ -614,11 +587,6 @@ RefPtr
 SourceMediaStream
 >
 mStream
-;
-TrackID
-mTrackID
-=
-TRACK_NONE
 ;
 PrincipalHandle
 mPrincipalHandle

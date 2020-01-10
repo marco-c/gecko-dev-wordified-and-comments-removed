@@ -272,7 +272,7 @@ SendTypeToStream
 ;
 }
 void
-NotifyMainThreadStreamFinished
+NotifyMainThreadTrackEnded
 (
 )
 override

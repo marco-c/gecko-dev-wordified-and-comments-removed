@@ -151,7 +151,7 @@ Flags
 NO_STREAM_FLAGS
 =
 0U
-NEED_MAIN_THREAD_FINISHED
+NEED_MAIN_THREAD_ENDED
 =
 1U
 <
@@ -474,11 +474,11 @@ return
 (
 mFlags
 &
-NEED_MAIN_THREAD_FINISHED
+NEED_MAIN_THREAD_ENDED
 )
 &
 &
-mFinished
+mEnded
 )
 |
 |
@@ -663,10 +663,6 @@ OutputChunks
 mLastChunks
 ;
 const
-TrackRate
-mSampleRate
-;
-const
 Flags
 mFlags
 ;
@@ -688,7 +684,7 @@ bool
 mIsActive
 ;
 bool
-mMarkAsFinishedAfterThisBlock
+mMarkAsEndedAfterThisBlock
 ;
 bool
 mAudioParamStream

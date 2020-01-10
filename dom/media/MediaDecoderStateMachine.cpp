@@ -165,6 +165,13 @@ h
 #
 include
 "
+AudioSegment
+.
+h
+"
+#
+include
+"
 DOMMediaStream
 .
 h
@@ -215,6 +222,13 @@ h
 include
 "
 TimeUnits
+.
+h
+"
+#
+include
+"
+VideoSegment
 .
 h
 "
