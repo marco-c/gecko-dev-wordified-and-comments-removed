@@ -1138,6 +1138,7 @@ formatter
 }
 }
 }
+;
 }
 define_debug_struct
 !

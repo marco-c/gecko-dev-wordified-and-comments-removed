@@ -119,8 +119,18 @@ use
 euclid
 :
 :
-{
+default
+:
+:
 Size2D
+as
+UntypedSize2D
+;
+use
+euclid
+:
+:
+{
 Scale
 Size2D
 }
@@ -489,7 +499,7 @@ self
 )
 -
 >
-Size2D
+UntypedSize2D
 <
 Au
 >
@@ -532,7 +542,7 @@ self
 )
 -
 >
-Size2D
+UntypedSize2D
 <
 Au
 >

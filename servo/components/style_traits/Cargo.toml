@@ -75,6 +75,11 @@ webrender_api
 "
 servo_url
 "
+"
+euclid
+/
+serde
+"
 ]
 gecko
 =
