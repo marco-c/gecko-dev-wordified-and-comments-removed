@@ -313,17 +313,6 @@ prefs
 marionette
 .
 js
-toolkit
-/
-components
-/
-telemetry
-/
-healthreport
--
-prefs
-.
-js
 #
 Ignore
 testing
