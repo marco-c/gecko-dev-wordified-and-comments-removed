@@ -1282,12 +1282,9 @@ cspEventListener
 )
 )
 ;
-MOZ_ASSERT
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 rv
-)
 )
 ;
 nsAutoString
@@ -1303,12 +1300,9 @@ GetCspNonce
 cspNonce
 )
 ;
-MOZ_ASSERT
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 rv
-)
 )
 ;
 nsContentPolicyType
