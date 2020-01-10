@@ -3479,6 +3479,7 @@ GetProxyObject
 aCx
 &
 mLocation
+nullptr
 aLocation
 )
 ;
