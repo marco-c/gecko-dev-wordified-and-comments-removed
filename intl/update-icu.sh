@@ -546,16 +546,6 @@ diff
 \
 bug
 -
-1172609
--
-timezone
--
-recreateDefault
-.
-diff
-\
-bug
--
 1198952
 -
 workaround
