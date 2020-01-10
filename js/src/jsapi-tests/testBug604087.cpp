@@ -126,11 +126,6 @@ JS
 :
 :
 HandleObject
-origObj
-JS
-:
-:
-HandleObject
 obj
 JS
 :

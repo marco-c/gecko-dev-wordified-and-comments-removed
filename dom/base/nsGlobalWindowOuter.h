@@ -1303,15 +1303,6 @@ aForceReuseInnerWindow
 )
 override
 ;
-static
-void
-PrepareForProcessChange
-(
-JSObject
-*
-aProxy
-)
-;
 void
 DispatchDOMWindowCreated
 (

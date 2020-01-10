@@ -304,15 +304,6 @@ aContext
 JS
 :
 :
-Handle
-<
-JSObject
-*
->
-aTransplantTo
-JS
-:
-:
 MutableHandle
 <
 JSObject
