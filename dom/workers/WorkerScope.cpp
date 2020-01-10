@@ -3712,7 +3712,7 @@ const
 nsCString
 mScope
 ;
-nsCString
+nsString
 mSourceSpec
 ;
 uint32_t
@@ -3821,10 +3821,7 @@ nsIScriptError
 :
 :
 warningFlag
-NS_ConvertUTF8toUTF16
-(
 mSourceSpec
-)
 EmptyString
 (
 )
