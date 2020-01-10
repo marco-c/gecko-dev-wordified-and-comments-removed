@@ -845,6 +845,7 @@ mLogs
 {
 if
 (
+(
 logEntry
 .
 mType
@@ -854,6 +855,18 @@ nsIWebProgressListener
 :
 :
 STATE_COOKIES_BLOCKED_TRACKER
+&
+&
+logEntry
+.
+mType
+!
+=
+nsIWebProgressListener
+:
+:
+STATE_COOKIES_BLOCKED_SOCIALTRACKER
+)
 |
 |
 logEntry

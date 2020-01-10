@@ -216,6 +216,8 @@ aIsForeign
 bool
 aIsTrackingResource
 bool
+aIsSocialTrackingResource
+bool
 aFirstPartyStorageAccessGranted
 uint32_t
 aRejectedReason

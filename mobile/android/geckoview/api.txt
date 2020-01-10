@@ -2090,6 +2090,15 @@ public
 static
 final
 int
+COOKIES_BLOCKED_SOCIALTRACKER
+=
+16777216
+;
+field
+public
+static
+final
+int
 COOKIES_BLOCKED_TRACKER
 =
 536870912
