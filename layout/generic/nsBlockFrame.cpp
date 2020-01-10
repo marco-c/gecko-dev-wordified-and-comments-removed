@@ -36718,6 +36718,12 @@ computedBSizeLeftOver
 )
 ;
 const
+nsReflowStatus
+statusFromChildren
+=
+aStatus
+;
+const
 nscoord
 availBSize
 =
@@ -36752,7 +36758,7 @@ wm
 ;
 if
 (
-aStatus
+statusFromChildren
 .
 IsIncomplete
 (
@@ -36777,7 +36783,7 @@ finalBSize
 }
 if
 (
-aStatus
+statusFromChildren
 .
 IsComplete
 (
@@ -36862,6 +36868,7 @@ We
 should
 be
 overflow
+-
 incomplete
 and
 should
