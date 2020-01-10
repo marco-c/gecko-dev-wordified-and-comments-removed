@@ -477,14 +477,14 @@ initClass
 JSContext
 *
 cx
-HandleObject
-dbgCtor
 Handle
 <
 GlobalObject
 *
 >
 global
+HandleObject
+dbgCtor
 )
 ;
 static
