@@ -815,7 +815,7 @@ mozilla
 :
 TimeDuration
 *
-aLastEventDelay
+aHypotheticalInputEventDelay
 )
 {
 #
@@ -931,7 +931,7 @@ GetEvent
 (
 aPriority
 aProofOfLock
-aLastEventDelay
+aHypotheticalInputEventDelay
 )
 ;
 MOZ_ASSERT
@@ -966,7 +966,7 @@ GetEvent
 (
 aPriority
 aProofOfLock
-aLastEventDelay
+aHypotheticalInputEventDelay
 )
 ;
 MOZ_ASSERT
@@ -994,7 +994,7 @@ aProofOfLock
 )
 ;
 *
-aLastEventDelay
+aHypotheticalInputEventDelay
 =
 TimeDuration
 (
@@ -1020,7 +1020,7 @@ aProofOfLock
 )
 ;
 *
-aLastEventDelay
+aHypotheticalInputEventDelay
 =
 TimeDuration
 (
@@ -1041,7 +1041,7 @@ EventQueuePriority
 DeferredTimers
 :
 *
-aLastEventDelay
+aHypotheticalInputEventDelay
 =
 TimeDuration
 (
@@ -1100,10 +1100,6 @@ return
 nullptr
 ;
 }
-nsCOMPtr
-<
-nsIRunnable
->
 event
 =
 mDeferredTimersQueue
@@ -1175,6 +1171,20 @@ idleDeadline
 endif
 }
 break
+;
+}
+if
+(
+!
+event
+)
+{
+*
+aHypotheticalInputEventDelay
+=
+TimeDuration
+(
+)
 ;
 }
 return
