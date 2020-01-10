@@ -83,9 +83,6 @@ audio_unit
 "
 core_audio
 "
-"
-nobindgen
-"
 ]
 version
 =
