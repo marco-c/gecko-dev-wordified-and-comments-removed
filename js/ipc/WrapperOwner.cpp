@@ -3087,7 +3087,7 @@ idOf
 proxy
 )
 ;
-InfallibleTArray
+nsTArray
 <
 JSParam
 >
@@ -3311,7 +3311,7 @@ result
 ReturnStatus
 status
 ;
-InfallibleTArray
+nsTArray
 <
 JSParam
 >
@@ -4635,7 +4635,7 @@ proxy
 ReturnStatus
 status
 ;
-InfallibleTArray
+nsTArray
 <
 JSIDVariant
 >

@@ -99,7 +99,7 @@ JSContext
 *
 cx
 const
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -126,7 +126,7 @@ JS
 :
 HandleObject
 aObj
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -155,7 +155,7 @@ CPOWManagerGetter
 *
 managerGetter
 const
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -189,7 +189,7 @@ CPOWManager
 js_
 ;
 const
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >

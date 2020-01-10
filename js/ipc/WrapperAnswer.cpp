@@ -2155,7 +2155,7 @@ const
 ObjectId
 &
 objId
-InfallibleTArray
+nsTArray
 <
 JSParam
 >
