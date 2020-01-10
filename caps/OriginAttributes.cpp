@@ -871,7 +871,10 @@ mOriginAttributes
 >
 mPrivateBrowsingId
 =
-0
+nsIScriptSecurityManager
+:
+:
+DEFAULT_PRIVATE_BROWSING_ID
 ;
 }
 bool
