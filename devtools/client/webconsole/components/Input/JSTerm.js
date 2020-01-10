@@ -4750,15 +4750,6 @@ jsterm
 -
 container
 "
-style
-:
-{
-direction
-:
-"
-ltr
-"
-}
 "
 aria
 -
