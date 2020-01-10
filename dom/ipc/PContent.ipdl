@@ -6073,6 +6073,8 @@ PrincipalInfo
 loadingPrincipal
 bool
 stickDocument
+CookieSettingsArgs
+cookieSettings
 )
 ;
 /

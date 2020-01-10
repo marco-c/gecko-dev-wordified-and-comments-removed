@@ -256,6 +256,12 @@ mLoadingPrincipal
 ;
 nsCOMPtr
 <
+nsICookieSettings
+>
+mCookieSettings
+;
+nsCOMPtr
+<
 nsIObserverService
 >
 mObserverService
