@@ -2464,7 +2464,6 @@ mClass
 eTouchEventClass
 |
 |
-(
 aEvent
 -
 >
@@ -2472,13 +2471,6 @@ mClass
 =
 =
 eKeyboardEventClass
-&
-&
-IsKeyboardEventUserActivity
-(
-aEvent
-)
-)
 |
 |
 (
@@ -2580,6 +2572,7 @@ node
 &
 &
 (
+(
 aEvent
 -
 >
@@ -2587,6 +2580,13 @@ mMessage
 =
 =
 eKeyUp
+&
+&
+IsKeyboardEventUserActivity
+(
+aEvent
+)
+)
 |
 |
 aEvent
