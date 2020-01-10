@@ -487,9 +487,6 @@ attribute
 XREye
 eye
 ;
-[
-SameObject
-]
 readonly
 attribute
 Float32Array
