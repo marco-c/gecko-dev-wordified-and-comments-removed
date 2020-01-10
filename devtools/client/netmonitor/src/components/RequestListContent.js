@@ -1342,11 +1342,6 @@ case
 ArrowUp
 "
 :
-case
-"
-ArrowLeft
-"
-:
 delta
 =
 -
@@ -1357,11 +1352,6 @@ break
 case
 "
 ArrowDown
-"
-:
-case
-"
-ArrowRight
 "
 :
 delta
