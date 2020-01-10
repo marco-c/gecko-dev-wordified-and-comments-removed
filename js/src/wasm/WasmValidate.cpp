@@ -14513,7 +14513,7 @@ case
 ElemSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithTableIndex
 :
 {
 return
@@ -14830,7 +14830,7 @@ kind
 ElemSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithTableIndex
 )
 {
 if
@@ -14877,7 +14877,7 @@ kind
 ElemSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithTableIndex
 &
 &
 !
@@ -16733,7 +16733,7 @@ uint32_t
 DataSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithMemoryIndex
 )
 :
 break
@@ -16814,7 +16814,7 @@ initializerKind
 DataSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithMemoryIndex
 )
 {
 if
@@ -16885,7 +16885,7 @@ initializerKind
 DataSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithMemoryIndex
 )
 {
 InitExpr

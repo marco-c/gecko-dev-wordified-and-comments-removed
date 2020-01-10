@@ -24,6 +24,7 @@ i32
 const
 0
 )
+func
 0
 )
 )

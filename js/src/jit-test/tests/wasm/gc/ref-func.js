@@ -373,6 +373,7 @@ i32
 const
 0
 )
+func
 referenced
 )
 '
@@ -391,7 +392,7 @@ validFuncRefText
 '
 (
 elem
-passive
+func
 referenced
 )
 '
