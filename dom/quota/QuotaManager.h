@@ -1492,6 +1492,12 @@ OriginAttributes
 aAttrs
 )
 ;
+static
+void
+InvalidateQuotaCache
+(
+)
+;
 private
 :
 QuotaManager
