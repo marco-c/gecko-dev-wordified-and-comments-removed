@@ -260,7 +260,7 @@ linux
 -
 gnueabihf
 [
-announce
+announced
 the
 intent
 ]
