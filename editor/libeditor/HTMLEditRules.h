@@ -416,7 +416,7 @@ HTMLEditorRef
 }
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
-nsresult
+EditActionResult
 WillDeleteSelection
 (
 nsIEditor
@@ -429,12 +429,6 @@ nsIEditor
 :
 EStripWrappers
 aStripWrappers
-bool
-*
-aCancel
-bool
-*
-aHandled
 )
 ;
 MOZ_CAN_RUN_SCRIPT
