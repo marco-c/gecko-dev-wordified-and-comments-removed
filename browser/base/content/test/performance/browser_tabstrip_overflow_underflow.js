@@ -244,11 +244,6 @@ condition
 r
 =
 >
-AppConstants
-.
-DEBUG
-&
-&
 r
 .
 y1
