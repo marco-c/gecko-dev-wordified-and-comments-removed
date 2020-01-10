@@ -1997,8 +1997,10 @@ ContentParentId
 aCpId
 )
 ;
+already_AddRefed
+<
 POfflineCacheUpdateParent
-*
+>
 AllocPOfflineCacheUpdateParent
 (
 const
@@ -2050,14 +2052,6 @@ bool
 stickDocument
 )
 override
-;
-bool
-DeallocPOfflineCacheUpdateParent
-(
-POfflineCacheUpdateParent
-*
-aActor
-)
 ;
 mozilla
 :

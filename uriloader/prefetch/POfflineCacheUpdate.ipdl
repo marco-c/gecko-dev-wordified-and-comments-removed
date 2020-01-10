@@ -193,6 +193,7 @@ docshell
 -
 -
 -
+refcounted
 protocol
 POfflineCacheUpdate
 {

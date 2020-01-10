@@ -1737,10 +1737,6 @@ loadingPrincipalInfo
 stickDocument
 )
 ;
-NS_ADDREF_THIS
-(
-)
-;
 return
 NS_OK
 ;
