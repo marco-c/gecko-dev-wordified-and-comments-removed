@@ -2816,17 +2816,6 @@ PageHidden
 =
 0
 ;
-virtual
-nsresult
-SetArguments
-(
-nsIArray
-*
-aArguments
-)
-=
-0
-;
 uint64_t
 WindowID
 (

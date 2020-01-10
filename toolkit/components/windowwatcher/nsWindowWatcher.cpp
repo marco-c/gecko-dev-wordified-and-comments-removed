@@ -2482,11 +2482,6 @@ uriToLoadIsChrome
 =
 false
 ;
-bool
-windowIsModalContentDialog
-=
-false
-;
 uint32_t
 chromeFlags
 ;
@@ -4158,12 +4153,7 @@ newTreeOwner
 }
 if
 (
-(
 aDialog
-|
-|
-windowIsModalContentDialog
-)
 &
 &
 aArgv
@@ -5271,9 +5261,6 @@ sizeSpec
 if
 (
 windowIsModal
-|
-|
-windowIsModalContentDialog
 )
 {
 NS_ENSURE_TRUE
