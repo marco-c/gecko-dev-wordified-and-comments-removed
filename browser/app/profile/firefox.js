@@ -10499,7 +10499,7 @@ security
 .
 secure_connection_icon_color_gray
 "
-false
+true
 )
 ;
 pref
