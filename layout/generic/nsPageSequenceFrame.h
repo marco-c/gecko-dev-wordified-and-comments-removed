@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsPageSequenceFrame
-.
-h
-"
-#
-include
-"
 nsContainerFrame
 .
 h
