@@ -90,6 +90,12 @@ EndFrame
 )
 override
 ;
+bool
+WaitForGPU
+(
+)
+override
+;
 void
 Pause
 (
@@ -136,6 +142,11 @@ override
 ;
 protected
 :
+void
+InsertFrameDoneSync
+(
+)
+;
 RefPtr
 <
 gl
@@ -144,6 +155,12 @@ gl
 GLContext
 >
 mGL
+;
+GLsync
+mPreviousFrameDoneSync
+;
+GLsync
+mThisFrameDoneSync
 ;
 }
 ;
