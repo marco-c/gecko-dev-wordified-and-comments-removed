@@ -1383,7 +1383,7 @@ luma
 =
 color
 .
-0
+data
 ;
 if
 luma
@@ -1443,7 +1443,7 @@ luma
 mut
 color
 .
-0
+data
 ;
 luma
 [

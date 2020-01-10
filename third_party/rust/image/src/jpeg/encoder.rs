@@ -1131,6 +1131,9 @@ accumulator
 >
 24
 ;
+try
+!
+(
 self
 .
 w
@@ -1144,7 +1147,7 @@ as
 u8
 ]
 )
-?
+)
 ;
 if
 byte
@@ -1152,6 +1155,9 @@ byte
 =
 0xFF
 {
+try
+!
+(
 self
 .
 w
@@ -1163,7 +1169,7 @@ write_all
 0x00
 ]
 )
-?
+)
 ;
 }
 self
@@ -1351,6 +1357,9 @@ encode_coefficient
 diff
 )
 ;
+try
+!
+(
 self
 .
 huffman_encode
@@ -1358,8 +1367,11 @@ huffman_encode
 size
 dctable
 )
-?
+)
 ;
+try
+!
+(
 self
 .
 write_bits
@@ -1367,7 +1379,7 @@ write_bits
 value
 size
 )
-?
+)
 ;
 let
 mut
@@ -1408,6 +1420,9 @@ k
 =
 63
 {
+try
+!
+(
 self
 .
 huffman_encode
@@ -1415,7 +1430,7 @@ huffman_encode
 0x00
 actable
 )
-?
+)
 ;
 break
 ;
@@ -1433,6 +1448,9 @@ zero_run
 >
 15
 {
+try
+!
+(
 self
 .
 huffman_encode
@@ -1440,7 +1458,7 @@ huffman_encode
 0xF0
 actable
 )
-?
+)
 ;
 zero_run
 -
@@ -1479,6 +1497,9 @@ zero_run
 |
 size
 ;
+try
+!
+(
 self
 .
 huffman_encode
@@ -1486,8 +1507,11 @@ huffman_encode
 symbol
 actable
 )
-?
+)
 ;
+try
+!
+(
 self
 .
 write_bits
@@ -1495,7 +1519,7 @@ write_bits
 value
 size
 )
-?
+)
 ;
 zero_run
 =
@@ -1547,6 +1571,9 @@ Result
 )
 >
 {
+try
+!
+(
 self
 .
 w
@@ -1558,8 +1585,11 @@ write_all
 0xFF
 ]
 )
-?
+)
 ;
+try
+!
+(
 self
 .
 w
@@ -1571,7 +1601,7 @@ write_all
 marker
 ]
 )
-?
+)
 ;
 if
 let
@@ -1582,6 +1612,9 @@ b
 =
 data
 {
+try
+!
+(
 self
 .
 w
@@ -1603,8 +1636,11 @@ u16
 +
 2
 )
-?
+)
 ;
+try
+!
+(
 self
 .
 w
@@ -1613,7 +1649,7 @@ write_all
 (
 b
 )
-?
+)
 ;
 }
 Ok
@@ -2107,6 +2143,9 @@ else
 3
 }
 ;
+try
+!
+(
 self
 .
 writer
@@ -2116,7 +2155,7 @@ write_segment
 SOI
 None
 )
-?
+)
 ;
 let
 mut
@@ -2136,6 +2175,9 @@ mut
 buf
 )
 ;
+try
+!
+(
 self
 .
 writer
@@ -2149,7 +2191,7 @@ Some
 buf
 )
 )
-?
+)
 ;
 build_frame_header
 (
@@ -2174,6 +2216,9 @@ num_components
 ]
 )
 ;
+try
+!
+(
 self
 .
 writer
@@ -2187,7 +2232,7 @@ Some
 buf
 )
 )
-?
+)
 ;
 assert_eq
 !
@@ -2256,6 +2301,9 @@ u8
 table
 )
 ;
+try
+!
+(
 self
 .
 writer
@@ -2269,7 +2317,7 @@ Some
 buf
 )
 )
-?
+)
 ;
 }
 build_huffman_segment
@@ -2285,6 +2333,9 @@ STD_LUMA_DC_CODE_LENGTHS
 STD_LUMA_DC_VALUES
 )
 ;
+try
+!
+(
 self
 .
 writer
@@ -2298,7 +2349,7 @@ Some
 buf
 )
 )
-?
+)
 ;
 build_huffman_segment
 (
@@ -2313,6 +2364,9 @@ STD_LUMA_AC_CODE_LENGTHS
 STD_LUMA_AC_VALUES
 )
 ;
+try
+!
+(
 self
 .
 writer
@@ -2326,7 +2380,7 @@ Some
 buf
 )
 )
-?
+)
 ;
 if
 num_components
@@ -2347,6 +2401,9 @@ STD_CHROMA_DC_CODE_LENGTHS
 STD_CHROMA_DC_VALUES
 )
 ;
+try
+!
+(
 self
 .
 writer
@@ -2360,7 +2417,7 @@ Some
 buf
 )
 )
-?
+)
 ;
 build_huffman_segment
 (
@@ -2375,6 +2432,9 @@ STD_CHROMA_AC_CODE_LENGTHS
 STD_CHROMA_AC_VALUES
 )
 ;
+try
+!
+(
 self
 .
 writer
@@ -2388,7 +2448,7 @@ Some
 buf
 )
 )
-?
+)
 ;
 }
 build_scan_header
@@ -2407,6 +2467,9 @@ num_components
 ]
 )
 ;
+try
+!
+(
 self
 .
 writer
@@ -2420,7 +2483,7 @@ Some
 buf
 )
 )
-?
+)
 ;
 match
 c
@@ -2438,6 +2501,9 @@ RGB
 =
 >
 {
+try
+!
+(
 self
 .
 encode_rgb
@@ -2451,7 +2517,7 @@ as
 usize
 3
 )
-?
+)
 }
 color
 :
@@ -2466,6 +2532,9 @@ RGBA
 =
 >
 {
+try
+!
+(
 self
 .
 encode_rgb
@@ -2479,7 +2548,7 @@ as
 usize
 4
 )
-?
+)
 }
 color
 :
@@ -2494,6 +2563,9 @@ Gray
 =
 >
 {
+try
+!
+(
 self
 .
 encode_gray
@@ -2507,7 +2579,7 @@ as
 usize
 1
 )
-?
+)
 }
 color
 :
@@ -2522,6 +2594,9 @@ GrayA
 =
 >
 {
+try
+!
+(
 self
 .
 encode_gray
@@ -2535,7 +2610,7 @@ as
 usize
 2
 )
-?
+)
 }
 _
 =
@@ -2600,6 +2675,9 @@ c
 }
 }
 ;
+try
+!
+(
 self
 .
 writer
@@ -2607,8 +2685,11 @@ writer
 pad_byte
 (
 )
-?
+)
 ;
+try
+!
+(
 self
 .
 writer
@@ -2618,7 +2699,7 @@ write_segment
 EOI
 None
 )
-?
+)
 ;
 Ok
 (
@@ -2804,6 +2885,9 @@ luma_dctable
 ;
 y_dcprev
 =
+try
+!
+(
 self
 .
 writer
@@ -2816,7 +2900,7 @@ y_dcprev
 ld
 la
 )
-?
+)
 ;
 }
 }
@@ -3179,6 +3263,9 @@ chroma_actable
 ;
 y_dcprev
 =
+try
+!
+(
 self
 .
 writer
@@ -3191,10 +3278,13 @@ y_dcprev
 ld
 la
 )
-?
+)
 ;
 cb_dcprev
 =
+try
+!
+(
 self
 .
 writer
@@ -3207,10 +3297,13 @@ cb_dcprev
 cd
 ca
 )
-?
+)
 ;
 cr_dcprev
 =
+try
+!
+(
 self
 .
 writer
@@ -3223,7 +3316,7 @@ cr_dcprev
 cd
 ca
 )
-?
+)
 ;
 }
 }
