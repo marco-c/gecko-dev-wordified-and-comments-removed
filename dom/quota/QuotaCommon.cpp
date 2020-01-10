@@ -30,7 +30,7 @@ ifdef
 NIGHTLY_BUILD
 NS_NAMED_LITERAL_CSTRING
 (
-kInternalError
+kQuotaInternalError
 "
 internal
 "
@@ -38,7 +38,7 @@ internal
 ;
 NS_NAMED_LITERAL_CSTRING
 (
-kExternalError
+kQuotaExternalError
 "
 external
 "

@@ -71078,7 +71078,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_GetDirectory
 )
 ;
@@ -71134,7 +71134,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_GetDBFilenames
 )
 ;
@@ -71220,7 +71220,7 @@ subdirName
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_GetBaseFilename
 )
 ;
@@ -71269,7 +71269,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_RemoveDBFiles
 )
 ;
@@ -71316,7 +71316,7 @@ subdirName
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_GetEntry
 )
 ;
@@ -71423,7 +71423,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_Clone
 )
 ;
@@ -71456,7 +71456,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_Append
 )
 ;
@@ -71496,7 +71496,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_Clone2
 )
 ;
@@ -71529,7 +71529,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_Append2
 )
 ;
@@ -71574,7 +71574,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_Clone3
 )
 ;
@@ -71607,7 +71607,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_Append3
 )
 ;
@@ -71647,7 +71647,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kInternalError
+kQuotaInternalError
 IDB_InitDirectory
 )
 ;
@@ -71687,7 +71687,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_GetFileSize
 )
 ;
@@ -71773,7 +71773,7 @@ NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_GetWalFileSize
 )
 ;
@@ -71809,7 +71809,7 @@ rv
 {
 REPORT_TELEMETRY_INIT_ERR
 (
-kExternalError
+kQuotaExternalError
 IDB_GetUsage
 )
 ;
