@@ -19,6 +19,15 @@ h
 #
 include
 "
+common
+/
+attributes
+.
+h
+"
+#
+include
+"
 src
 /
 tables
@@ -1671,7 +1680,6 @@ h
 endif
 #
 endif
-COLD
 void
 bitfn
 (

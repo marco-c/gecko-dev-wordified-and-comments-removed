@@ -316,7 +316,6 @@ decl_emu_edge_fn
 dav1d_emu_edge_ssse3
 )
 ;
-COLD
 void
 bitfn
 (

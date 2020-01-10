@@ -1471,7 +1471,6 @@ coeff
 )
 ;
 }
-COLD
 void
 bitfn
 (

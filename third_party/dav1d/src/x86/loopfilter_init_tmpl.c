@@ -36,7 +36,6 @@ decl_loopfilter_sb_fn
 dav1d_lpf_v_sb_uv_avx2
 )
 ;
-COLD
 void
 bitfn
 (

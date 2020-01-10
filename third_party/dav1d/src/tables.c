@@ -8845,10 +8845,14 @@ dav1d_filter_intra_taps
 ;
 const
 uint8_t
+ALIGN
+(
 dav1d_obmc_masks
 [
 64
 ]
+32
+)
 =
 {
 0

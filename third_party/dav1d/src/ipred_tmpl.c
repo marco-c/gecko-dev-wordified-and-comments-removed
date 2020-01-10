@@ -5152,7 +5152,6 @@ stride
 ;
 }
 }
-COLD
 void
 bitfn
 (

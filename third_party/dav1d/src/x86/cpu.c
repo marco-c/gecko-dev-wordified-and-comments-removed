@@ -15,15 +15,6 @@ h
 #
 include
 "
-common
-/
-attributes
-.
-h
-"
-#
-include
-"
 src
 /
 x86
@@ -49,7 +40,6 @@ int
 xcr
 )
 ;
-COLD
 unsigned
 dav1d_get_cpu_flags_x86
 (

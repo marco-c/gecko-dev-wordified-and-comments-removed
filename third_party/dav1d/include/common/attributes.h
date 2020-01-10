@@ -48,15 +48,7 @@ attr
 )
 )
 )
-#
-define
-COLD
-__attribute__
-(
-(
-cold
-)
-)
+;
 #
 else
 #
@@ -69,9 +61,6 @@ ATTR_FORMAT_PRINTF
 fmt
 attr
 )
-#
-define
-COLD
 #
 endif
 #
