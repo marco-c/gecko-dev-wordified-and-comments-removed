@@ -4219,7 +4219,7 @@ HadWillChange
 aBuilder
 -
 >
-RemoveFromWillChangeBudget
+RemoveFromWillChangeBudgets
 (
 frame
 )

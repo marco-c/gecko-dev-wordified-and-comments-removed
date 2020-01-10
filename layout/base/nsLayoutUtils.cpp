@@ -20854,7 +20854,7 @@ ClearRetainedWindowRegions
 builder
 -
 >
-ClearWillChangeBudget
+ClearWillChangeBudgets
 (
 )
 ;
