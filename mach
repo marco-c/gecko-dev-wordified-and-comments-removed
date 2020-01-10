@@ -294,7 +294,6 @@ tps
 -
 build
 try
-uuid
 valgrind
 -
 test
