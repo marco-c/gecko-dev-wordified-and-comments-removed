@@ -31,7 +31,9 @@ log
 (
 \
 "
-screen
+user
+screenshot
+function
 \
 "
 )
@@ -166,7 +168,9 @@ waitForMessage
 (
 hud
 "
-screen
+user
+screenshot
+function
 "
 )
 ;

@@ -198,7 +198,12 @@ executeAndWaitForMessage
 (
 hud
 expression
-expression
+"
+"
+"
+.
+result
+"
 )
 ;
 ok
