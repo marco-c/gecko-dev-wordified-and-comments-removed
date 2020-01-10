@@ -297,10 +297,6 @@ eFormRadioStateChange
 )
 NS_EVENT_MESSAGE
 (
-eFormData
-)
-NS_EVENT_MESSAGE
-(
 eFocus
 )
 NS_EVENT_MESSAGE
