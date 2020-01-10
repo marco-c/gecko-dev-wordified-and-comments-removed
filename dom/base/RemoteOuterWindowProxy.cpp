@@ -320,7 +320,6 @@ return
 aRetVal
 ;
 }
-static
 BrowsingContext
 *
 GetBrowsingContext
