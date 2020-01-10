@@ -189,7 +189,7 @@ attach
 ;
 return
 {
-consoleClient
+webConsoleFront
 :
 target
 .

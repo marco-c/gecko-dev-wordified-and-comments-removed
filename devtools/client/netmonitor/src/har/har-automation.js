@@ -215,7 +215,7 @@ client
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 =
 this
 .
@@ -291,11 +291,11 @@ new
 HarCollector
 (
 {
-webConsoleClient
+webConsoleFront
 :
 this
 .
-webConsoleClient
+webConsoleFront
 debuggerClient
 :
 this
@@ -694,7 +694,7 @@ stringGrip
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 getString
 (

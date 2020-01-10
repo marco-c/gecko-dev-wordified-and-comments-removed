@@ -61,7 +61,7 @@ FirefoxDataProvider
 constructor
 (
 {
-webConsoleClient
+webConsoleFront
 actions
 owner
 }
@@ -69,9 +69,9 @@ owner
 {
 this
 .
-webConsoleClient
+webConsoleFront
 =
-webConsoleClient
+webConsoleFront
 ;
 this
 .
@@ -1064,7 +1064,7 @@ id
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 getNetworkRequest
 (
@@ -1080,7 +1080,7 @@ stringGrip
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 getString
 (
@@ -1847,7 +1847,7 @@ if
 typeof
 this
 .
-webConsoleClient
+webConsoleFront
 [
 clientMethodName
 ]
@@ -1861,7 +1861,7 @@ function
 {
 this
 .
-webConsoleClient
+webConsoleFront
 [
 clientMethodName
 ]

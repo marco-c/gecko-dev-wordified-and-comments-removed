@@ -38,11 +38,11 @@ options
 {
 this
 .
-webConsoleClient
+webConsoleFront
 =
 options
 .
-webConsoleClient
+webConsoleFront
 ;
 this
 .
@@ -664,7 +664,7 @@ from
 =
 this
 .
-webConsoleClient
+webConsoleFront
 .
 actor
 )
@@ -1176,7 +1176,7 @@ if
 !
 this
 .
-webConsoleClient
+webConsoleFront
 [
 method
 ]
@@ -1238,7 +1238,7 @@ file
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 [
 method
 ]
@@ -1709,7 +1709,7 @@ promise
 =
 this
 .
-webConsoleClient
+webConsoleFront
 .
 getString
 (

@@ -267,7 +267,7 @@ client
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 =
 await
 this
@@ -283,7 +283,7 @@ console
 ;
 this
 .
-_addWebConsoleClientEventListeners
+_addWebConsoleFrontEventListeners
 (
 )
 ;
@@ -390,7 +390,7 @@ if
 !
 this
 .
-webConsoleClient
+webConsoleFront
 .
 hasNativeConsoleAPI
 )
@@ -543,7 +543,7 @@ ContentProcessMessages
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 startListeners
 (
@@ -551,13 +551,13 @@ listeners
 )
 ;
 }
-_addWebConsoleClientEventListeners
+_addWebConsoleFrontEventListeners
 (
 )
 {
 this
 .
-webConsoleClient
+webConsoleFront
 .
 on
 (
@@ -571,7 +571,7 @@ _onNetworkEvent
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 on
 (
@@ -585,7 +585,7 @@ _onNetworkEventUpdate
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 on
 (
@@ -599,7 +599,7 @@ _onLogMessage
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 on
 (
@@ -613,7 +613,7 @@ _onPageError
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 on
 (
@@ -627,7 +627,7 @@ _onConsoleAPICall
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 on
 (
@@ -641,7 +641,7 @@ _onLastPrivateContextExited
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 on
 (
@@ -654,13 +654,13 @@ _clearLogpointMessages
 )
 ;
 }
-_removeWebConsoleClientEventListeners
+_removeWebConsoleFrontEventListeners
 (
 )
 {
 this
 .
-webConsoleClient
+webConsoleFront
 .
 off
 (
@@ -674,7 +674,7 @@ _onNetworkEvent
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 off
 (
@@ -688,7 +688,7 @@ _onNetworkEventUpdate
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 off
 (
@@ -702,7 +702,7 @@ _onLogMessage
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 off
 (
@@ -716,7 +716,7 @@ _onPageError
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 off
 (
@@ -730,7 +730,7 @@ _onConsoleAPICall
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 off
 (
@@ -744,7 +744,7 @@ _onLastPrivateContextExited
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 off
 (
@@ -768,7 +768,7 @@ response
 await
 this
 .
-webConsoleClient
+webConsoleFront
 .
 getCachedMessages
 (
@@ -828,7 +828,7 @@ from
 (
 this
 .
-webConsoleClient
+webConsoleFront
 .
 getNetworkEvents
 (
@@ -1174,7 +1174,7 @@ return
 }
 this
 .
-_removeWebConsoleClientEventListeners
+_removeWebConsoleFrontEventListeners
 (
 )
 ;
@@ -1216,7 +1216,7 @@ null
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 =
 null
 ;

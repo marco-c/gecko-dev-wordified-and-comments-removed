@@ -74,14 +74,14 @@ client
 target
 ;
 const
-consoleClient
+webConsoleFront
 =
 target
 .
 activeConsole
 ;
 await
-consoleClient
+webConsoleFront
 .
 startListeners
 (
@@ -129,7 +129,7 @@ request
 const
 onNetworkEvent
 =
-consoleClient
+webConsoleFront
 .
 once
 (
@@ -278,7 +278,7 @@ netActor
 assertNetworkEvent
 (
 client
-consoleClient
+webConsoleFront
 netEvent
 )
 ;
@@ -299,7 +299,7 @@ const
 requestHeaders
 =
 await
-consoleClient
+webConsoleFront
 .
 getRequestHeaders
 (
@@ -315,7 +315,7 @@ const
 requestCookies
 =
 await
-consoleClient
+webConsoleFront
 .
 getRequestCookies
 (
@@ -331,7 +331,7 @@ const
 requestPostData
 =
 await
-consoleClient
+webConsoleFront
 .
 getRequestPostData
 (
@@ -347,7 +347,7 @@ const
 responseHeaders
 =
 await
-consoleClient
+webConsoleFront
 .
 getResponseHeaders
 (
@@ -363,7 +363,7 @@ const
 responseCookies
 =
 await
-consoleClient
+webConsoleFront
 .
 getResponseCookies
 (
@@ -379,7 +379,7 @@ const
 responseContent
 =
 await
-consoleClient
+webConsoleFront
 .
 getResponseContent
 (
@@ -395,7 +395,7 @@ const
 eventTimings
 =
 await
-consoleClient
+webConsoleFront
 .
 getEventTimings
 (
@@ -433,7 +433,7 @@ function
 assertNetworkEvent
 (
 client
-consoleClient
+webConsoleFront
 packet
 )
 {

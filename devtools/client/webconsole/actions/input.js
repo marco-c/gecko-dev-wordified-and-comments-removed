@@ -310,7 +310,7 @@ expression
 const
 {
 frameActor
-client
+webConsoleFront
 }
 =
 webConsoleUI
@@ -331,7 +331,7 @@ const
 response
 =
 await
-client
+webConsoleFront
 .
 evaluateJSAsync
 (

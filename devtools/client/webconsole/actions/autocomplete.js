@@ -75,7 +75,7 @@ const
 frameActor
 :
 frameActorId
-client
+webConsoleFront
 }
 =
 webConsoleUI
@@ -346,7 +346,7 @@ autocompleteDataFetch
 {
 input
 frameActorId
-client
+webConsoleFront
 authorizedEvaluations
 force
 }
@@ -407,7 +407,7 @@ autocompleteDataFetch
 input
 frameActorId
 force
-client
+webConsoleFront
 authorizedEvaluations
 }
 )
@@ -448,7 +448,7 @@ id
 }
 )
 ;
-client
+webConsoleFront
 .
 autocomplete
 (

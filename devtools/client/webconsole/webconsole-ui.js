@@ -341,7 +341,7 @@ this
 ;
 }
 get
-webConsoleClient
+webConsoleFront
 (
 )
 {
@@ -367,7 +367,7 @@ null
 return
 proxy
 .
-webConsoleClient
+webConsoleFront
 ;
 }
 getProxy
@@ -435,14 +435,14 @@ proxy
 return
 proxy
 .
-webConsoleClient
+webConsoleFront
 &
 &
 !
 !
 proxy
 .
-webConsoleClient
+webConsoleFront
 .
 actorID
 ;
@@ -912,7 +912,7 @@ getAllProxies
 {
 proxy
 .
-webConsoleClient
+webConsoleFront
 .
 clearNetworkRequests
 (
@@ -938,7 +938,7 @@ getAllProxies
 {
 proxy
 .
-webConsoleClient
+webConsoleFront
 .
 clearMessagesCache
 (
@@ -1062,7 +1062,7 @@ if
 !
 this
 .
-webConsoleClient
+webConsoleFront
 )
 {
 return
@@ -1092,7 +1092,7 @@ newValue
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 setPreferences
 (
@@ -1975,7 +1975,7 @@ getProxy
 (
 )
 .
-webConsoleClient
+webConsoleFront
 .
 evaluateJSAsync
 (
@@ -1995,7 +1995,7 @@ getProxy
 (
 )
 .
-webConsoleClient
+webConsoleFront
 .
 getString
 (
@@ -2171,11 +2171,11 @@ return
 frameActor
 :
 null
-client
+webConsoleFront
 :
 this
 .
-webConsoleClient
+webConsoleFront
 }
 ;
 }
@@ -2202,11 +2202,11 @@ return
 frameActor
 :
 null
-client
+webConsoleFront
 :
 this
 .
-webConsoleClient
+webConsoleFront
 }
 ;
 }
@@ -2217,7 +2217,7 @@ frameActor
 grip
 .
 actor
-client
+webConsoleFront
 :
 state
 .
