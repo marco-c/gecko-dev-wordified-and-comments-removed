@@ -729,6 +729,16 @@ true
 name
 :
 "
+AbstractRange
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 AnalyserNode
 "
 insecureContext

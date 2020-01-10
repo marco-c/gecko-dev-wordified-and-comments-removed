@@ -749,6 +749,11 @@ UseCounterList
 h
 '
 '
+AbstractRange
+.
+h
+'
+'
 AnonymousContent
 .
 h
@@ -1320,6 +1325,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AbstractRange
+.
+cpp
+'
 '
 AnonymousContent
 .

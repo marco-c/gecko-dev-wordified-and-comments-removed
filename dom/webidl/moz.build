@@ -2612,6 +2612,11 @@ AbortSignal
 webidl
 '
 '
+AbstractRange
+.
+webidl
+'
+'
 AbstractWorker
 .
 webidl
