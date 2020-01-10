@@ -154,6 +154,12 @@ mozlint
 .
 yml
 -
+mozlint
+-
+android
+.
+yml
+-
 node
 .
 yml
