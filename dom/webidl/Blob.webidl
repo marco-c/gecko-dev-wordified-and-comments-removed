@@ -228,9 +228,6 @@ from
 the
 Blob
 .
-/
-/
-TODO
 [
 NewObject
 ]
