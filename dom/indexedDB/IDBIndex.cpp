@@ -1626,6 +1626,13 @@ keyRange
 transaction
 -
 >
+InvalidateCursorCaches
+(
+)
+;
+transaction
+-
+>
 StartRequest
 (
 request
@@ -2062,6 +2069,13 @@ aLimit
 )
 ;
 }
+transaction
+-
+>
+InvalidateCursorCaches
+(
+)
+;
 transaction
 -
 >
