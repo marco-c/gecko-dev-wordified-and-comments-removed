@@ -1717,9 +1717,11 @@ case
 save
 "
 :
-Services
+win
 .
-cpmm
+docShell
+.
+messageManager
 .
 sendAsyncMessage
 (
