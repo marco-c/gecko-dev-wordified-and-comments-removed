@@ -24,7 +24,7 @@ scroll
 const
 TEST_URI
 =
-CHROME_URL_ROOT
+TEST_URI_ROOT
 +
 "
 doc_layoutHelpers

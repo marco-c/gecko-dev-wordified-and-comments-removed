@@ -110,7 +110,7 @@ test
 const
 OPTIONS_VIEW_URL
 =
-CHROME_URL_ROOT
+TEST_URI_ROOT
 +
 "
 doc_options
