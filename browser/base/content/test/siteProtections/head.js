@@ -86,6 +86,12 @@ container
 "
 )
 ;
+shieldIconContainer
+.
+focus
+(
+)
+;
 if
 (
 !
