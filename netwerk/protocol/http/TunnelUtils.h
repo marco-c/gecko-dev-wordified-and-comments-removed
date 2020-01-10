@@ -517,6 +517,12 @@ mSegmentWriter
 nsresult
 mFilterReadCode
 ;
+int32_t
+mFilterReadAmount
+;
+bool
+mInOnReadSegment
+;
 bool
 mForce
 ;

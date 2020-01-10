@@ -439,6 +439,13 @@ DisableSpdy
 }
 virtual
 void
+MakeNonSticky
+(
+)
+{
+}
+virtual
+void
 ReuseConnectionOnRestartOK
 (
 bool
