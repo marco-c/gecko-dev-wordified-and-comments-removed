@@ -22110,6 +22110,18 @@ isRefcounted
 )
 :
                     
+if
+not
+self
+.
+receivesMessage
+(
+md
+)
+:
+                        
+continue
+                    
 actortype
 .
 ptr
