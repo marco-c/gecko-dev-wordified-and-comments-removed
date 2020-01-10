@@ -86,10 +86,10 @@ measure
 measure2
 "
 {
-startTime
+start
 :
 12
-endTime
+end
 :
 23
 }
