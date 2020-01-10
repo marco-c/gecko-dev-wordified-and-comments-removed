@@ -3190,6 +3190,17 @@ party
 <
 !
 ENTITY
+pref_cookies_not_accept_trackers
+"
+Enabled
+excluding
+tracking
+cookies
+"
+>
+<
+!
+ENTITY
 pref_cookies_disabled
 "
 Disabled
