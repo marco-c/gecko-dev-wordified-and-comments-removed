@@ -66,6 +66,10 @@ Sockets
 dns
 =
 DNS
+dnssuffix
+=
+DNS
+suffix
 websockets
 =
 WebSockets
