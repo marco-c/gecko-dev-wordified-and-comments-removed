@@ -263,9 +263,6 @@ skip
 -
 if
 (
-Android
-|
-|
 gtkWidget
 )
 =
@@ -307,9 +304,6 @@ skip
 -
 if
 (
-Android
-|
-|
 gtkWidget
 )
 =

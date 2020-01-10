@@ -12,12 +12,6 @@ for
 bug
 414720
 )
-skip
--
-if
-(
-Android
-)
 =
 =
 colordepth
@@ -186,6 +180,9 @@ skip
 if
 (
 Android
+&
+&
+webrender
 )
 include
 bmp
@@ -201,6 +198,9 @@ skip
 if
 (
 Android
+&
+&
+webrender
 )
 include
 ico
@@ -269,12 +269,6 @@ list
 #
 Lossless
 encoders
-skip
--
-if
-(
-Android
-)
 include
 encoders
 -

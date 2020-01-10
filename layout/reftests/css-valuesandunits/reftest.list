@@ -373,12 +373,6 @@ y
 ref
 .
 html
-skip
--
-if
-(
-Android
-)
 fuzzy
 -
 if

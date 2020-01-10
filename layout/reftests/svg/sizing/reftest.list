@@ -135,12 +135,6 @@ CSS21
 visudet
 .
 html
-skip
--
-if
-(
-Android
-)
 !
 =
 scrollbars
@@ -157,12 +151,6 @@ anti
 ref
 .
 svg
-skip
--
-if
-(
-Android
-)
 !
 =
 scrollbars
