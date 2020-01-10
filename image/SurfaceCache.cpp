@@ -7252,11 +7252,9 @@ return
 aSize
 ;
 }
-int32_t
+int64_t
 proposedKB
 =
-int32_t
-(
 int64_t
 (
 aSize
@@ -7269,7 +7267,6 @@ aSize
 height
 /
 256
-)
 ;
 if
 (
