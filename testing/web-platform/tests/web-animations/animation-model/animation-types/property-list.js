@@ -5988,7 +5988,6 @@ options
 [
 [
 '
-filled
 circle
 '
 '
