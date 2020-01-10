@@ -5257,9 +5257,6 @@ AsPaintedDisplayItem
 ;
 if
 (
-dirty
-&
-&
 paintedItem
 &
 &
@@ -5275,6 +5272,11 @@ DisplayItemType
 :
 :
 TYPE_COMPOSITOR_HITTEST_INFO
+)
+{
+if
+(
+dirty
 )
 {
 DisplayItemClip
@@ -5437,6 +5439,7 @@ FlushItem
 bounds
 )
 ;
+}
 }
 }
 }
