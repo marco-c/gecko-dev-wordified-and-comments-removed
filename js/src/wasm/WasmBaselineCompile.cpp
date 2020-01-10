@@ -18040,6 +18040,7 @@ kind
 {
 if
 (
+!
 type
 .
 empty
@@ -18047,9 +18048,6 @@ empty
 )
 )
 {
-return
-;
-}
 ABIResultIter
 iter
 (
@@ -18077,8 +18075,10 @@ iter
 stackBase
 )
 ;
+return
+;
 }
-else
+}
 if
 (
 kind
