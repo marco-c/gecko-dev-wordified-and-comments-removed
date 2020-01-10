@@ -1326,6 +1326,12 @@ num_failed
 =
 0
 ;
+SpecialPowers
+.
+setAsDefaultAssertHandler
+(
+)
+;
 function
 usesFailurePatterns
 (
