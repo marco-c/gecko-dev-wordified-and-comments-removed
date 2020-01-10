@@ -162,6 +162,15 @@ aID
 )
 )
 {
+acc
+-
+>
+SetSelection
+(
+aStart
+aEnd
+)
+;
 }
 return
 IPC_OK

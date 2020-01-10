@@ -167,7 +167,7 @@ aSelect
 async
 SetSelection
 (
-int32_t
+uint64_t
 aID
 int32_t
 aStart
