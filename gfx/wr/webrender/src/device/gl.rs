@@ -17644,7 +17644,6 @@ optimal_pbo_stride
 let
 dst_size
 =
-(
 rect
 .
 size
@@ -17652,13 +17651,8 @@ size
 height
 as
 usize
--
-1
-)
 *
 dst_stride
-+
-width_bytes
 ;
 match
 self
