@@ -4608,6 +4608,13 @@ BuildIdOp
 GetBuildId
 ;
 extern
+JS
+:
+:
+FilenameValidationCallback
+gFilenameValidationCallback
+;
+extern
 void
 (
 *

@@ -16541,6 +16541,13 @@ hosted
 ;
 options
 .
+setSkipFilenameValidation
+(
+true
+)
+;
+options
+.
 setSelfHostingMode
 (
 true
