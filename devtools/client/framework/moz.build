@@ -195,11 +195,6 @@ devtools
 js
 '
 '
-gDevTools
-.
-jsm
-'
-'
 menu
 -
 item
