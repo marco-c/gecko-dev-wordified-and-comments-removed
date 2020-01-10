@@ -114,6 +114,16 @@ task
 js
 '
 '
+ContentEventListenerChild
+.
+jsm
+'
+'
+ContentEventListenerParent
+.
+jsm
+'
+'
 ContentTask
 .
 jsm
