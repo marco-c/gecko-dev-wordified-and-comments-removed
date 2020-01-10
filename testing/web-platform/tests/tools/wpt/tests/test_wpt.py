@@ -3362,7 +3362,7 @@ manifest_dir
 commit
 =
 "
-9bf1daa3d8b4425f2354c3ca92c4cf0398d329dd
+2614e3316f1d3d1a744ed3af088d19516552a5de
 "
     
 with
@@ -3451,24 +3451,24 @@ assert
 "
 dom
 /
-interfaces
+idlharness
 .
-html
+any
+.
+js
 "
 in
 tests
     
 assert
 "
-html
+xhr
 /
-dom
-/
-interfaces
+idlharness
 .
-https
+any
 .
-html
+js
 "
 in
 tests
