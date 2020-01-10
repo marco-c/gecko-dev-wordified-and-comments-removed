@@ -823,6 +823,15 @@ shift_or_euc_c
 .
 0
 "
+audio_thread_priority
+=
+"
+0
+.
+13
+.
+0
+"
 [
 build
 -
