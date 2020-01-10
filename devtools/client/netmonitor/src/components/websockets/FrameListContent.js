@@ -781,6 +781,11 @@ this
 intersectionObserver
 )
 {
+if
+(
+scrollAnchor
+)
+{
 this
 .
 intersectionObserver
@@ -790,6 +795,7 @@ unobserve
 scrollAnchor
 )
 ;
+}
 this
 .
 initIntersectionObserver
