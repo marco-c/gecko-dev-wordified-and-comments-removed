@@ -29,10 +29,7 @@ use
 libc
 :
 :
-{
 size_t
-uint32_t
-}
 ;
 use
 nserror
@@ -719,7 +716,7 @@ mut
 SdpMedia
 port
 :
-uint32_t
+u32
 )
 {
 (
@@ -754,7 +751,7 @@ SdpMedia
 )
 -
 >
-uint32_t
+u32
 {
 (
 *
@@ -786,7 +783,7 @@ SdpMedia
 )
 -
 >
-uint32_t
+u32
 {
 (
 *
@@ -823,7 +820,7 @@ c_char
 )
 -
 >
-uint32_t
+u32
 {
 get_bandwidth
 (
