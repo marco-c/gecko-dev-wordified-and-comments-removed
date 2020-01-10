@@ -362,7 +362,7 @@ delete
 process
 )
 ;
-resolve
+reject
 (
 )
 ;
