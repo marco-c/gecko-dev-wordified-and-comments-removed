@@ -381,6 +381,9 @@ constructor
 )
 )
 LibFuzzerRegister
+#
+#
+moduleName
 (
 )
 {
