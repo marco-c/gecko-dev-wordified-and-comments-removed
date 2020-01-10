@@ -27,11 +27,6 @@ s
 in
 Linux
 )
-WORKSPACE
-=
-HOME
-/
-workspace
 COMPRESS_EXT
 =
 xz
@@ -40,12 +35,9 @@ xz
 MINGW
 *
 )
-WORKSPACE
-=
-PWD
 UPLOAD_DIR
 =
-WORKSPACE
+PWD
 /
 public
 /
@@ -77,11 +69,7 @@ cl
 ;
 esac
 cd
-WORKSPACE
-/
-build
-/
-src
+GECKO_PATH
 .
 taskcluster
 /
@@ -123,7 +111,7 @@ export
 PATH
 =
 "
-PWD
+GECKO_PATH
 /
 llvm
 -
@@ -137,7 +125,7 @@ export
 PATH
 =
 "
-PWD
+GECKO_PATH
 /
 cctools
 /
@@ -154,7 +142,7 @@ linker
 <
 EOF
 exec
-PWD
+GECKO_PATH
 /
 clang
 /
@@ -169,7 +157,7 @@ fuse
 -
 ld
 =
-PWD
+GECKO_PATH
 /
 cctools
 /
@@ -200,7 +188,7 @@ TARGET
 \
 -
 B
-PWD
+GECKO_PATH
 /
 cctools
 /
@@ -208,7 +196,7 @@ bin
 \
 -
 isysroot
-PWD
+GECKO_PATH
 /
 MacOSX10
 .
@@ -245,7 +233,13 @@ export
 PATH
 =
 "
-PWD
+(
+cd
+GECKO_PATH
+&
+&
+pwd
+)
 /
 rustc
 /

@@ -16,11 +16,6 @@ WORKSPACE
 HOME
 /
 workspace
-HOME_DIR
-=
-WORKSPACE
-/
-build
 INSTALL_DIR
 =
 WORKSPACE
@@ -31,7 +26,7 @@ mkdir
 p
 INSTALL_DIR
 cd
-HOME_DIR
+MOZ_FETCHES_DIR
 #
 -
 -

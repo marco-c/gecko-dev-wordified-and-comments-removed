@@ -163,11 +163,6 @@ WORKSPACE
 HOME
 /
 workspace
-HOME_DIR
-=
-WORKSPACE
-/
-build
 TOOLCHAIN_DIR
 =
 WORKSPACE
@@ -245,9 +240,7 @@ default_win32_winnt
 =
 0x601
 cd
-HOME_DIR
-/
-src
+GECKO_PATH
 .
 taskcluster
 /

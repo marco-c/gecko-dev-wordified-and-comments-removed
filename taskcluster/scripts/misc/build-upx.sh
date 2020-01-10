@@ -16,11 +16,6 @@ WORKSPACE
 HOME
 /
 workspace
-HOME_DIR
-=
-WORKSPACE
-/
-build
 INSTALL_DIR
 =
 WORKSPACE

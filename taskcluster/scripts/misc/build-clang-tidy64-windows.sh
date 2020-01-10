@@ -5,9 +5,7 @@ bin
 /
 bash
 source
-build
-/
-src
+GECKO_PATH
 /
 taskcluster
 /

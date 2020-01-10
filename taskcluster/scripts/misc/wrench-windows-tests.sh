@@ -117,13 +117,13 @@ rustc
 /
 bin
 :
-PWD
+GECKO_PATH
 /
 cmake
 /
 bin
 :
-PWD
+GECKO_PATH
 /
 ninja
 /
