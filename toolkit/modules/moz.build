@@ -1571,6 +1571,11 @@ WebChannel
 jsm
 '
 '
+WebProgressChild
+.
+jsm
+'
+'
 ZipUtils
 .
 jsm
