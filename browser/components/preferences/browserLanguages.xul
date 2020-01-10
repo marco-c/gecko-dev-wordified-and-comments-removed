@@ -221,17 +221,6 @@ onLoad
 )
 ;
 "
-onbeforeaccept
-=
-"
-return
-gBrowserLanguagesDialog
-.
-beforeAccept
-(
-)
-;
-"
 helpTopic
 =
 "
