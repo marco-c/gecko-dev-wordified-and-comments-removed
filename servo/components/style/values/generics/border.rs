@@ -63,6 +63,7 @@ Clone
 Copy
 Debug
 MallocSizeOf
+Parse
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
@@ -87,13 +88,13 @@ LP
 N
 >
 {
-LengthPercentage
-(
-LP
-)
 Number
 (
 N
+)
+LengthPercentage
+(
+LP
 )
 Auto
 }
