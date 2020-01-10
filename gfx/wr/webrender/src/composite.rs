@@ -83,6 +83,7 @@ color
 :
 ColorF
 }
+Clear
 }
 #
 [
@@ -184,6 +185,13 @@ Vec
 CompositeTile
 >
 pub
+clear_tiles
+:
+Vec
+<
+CompositeTile
+>
+pub
 z_generator
 :
 ZBufferIdGenerator
@@ -211,6 +219,14 @@ new
 (
 )
 alpha_tiles
+:
+Vec
+:
+:
+new
+(
+)
+clear_tiles
 :
 Vec
 :
