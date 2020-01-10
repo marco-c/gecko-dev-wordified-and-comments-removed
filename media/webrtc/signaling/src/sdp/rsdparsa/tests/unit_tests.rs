@@ -1,7 +1,64 @@
 extern
 crate
-rsdparsa
+webrtc_sdp
 ;
+#
+[
+cfg
+(
+test
+)
+]
+fn
+check_parse_and_serialize
+(
+sdp_str
+:
+&
+str
+)
+{
+let
+sdp
+=
+webrtc_sdp
+:
+:
+parse_sdp
+(
+sdp_str
+true
+)
+;
+assert
+!
+(
+sdp
+.
+is_ok
+(
+)
+)
+;
+assert_eq
+!
+(
+sdp
+.
+unwrap
+(
+)
+.
+to_string
+(
+)
+sdp_str
+.
+to_string
+(
+)
+)
+}
 #
 [
 test
@@ -12,7 +69,7 @@ parse_minimal_sdp
 )
 {
 let
-sdp
+sdp_str
 =
 "
 v
@@ -22,6 +79,7 @@ v
 r
 \
 n
+\
 o
 =
 -
@@ -40,6 +98,7 @@ IP4
 r
 \
 n
+\
 s
 =
 -
@@ -47,6 +106,16 @@ s
 r
 \
 n
+\
+t
+=
+0
+0
+\
+r
+\
+n
+\
 c
 =
 IN
@@ -62,14 +131,7 @@ IP4
 r
 \
 n
-t
-=
-0
-0
 \
-r
-\
-n
 m
 =
 audio
@@ -91,12 +153,12 @@ n
 let
 sdp_res
 =
-rsdparsa
+webrtc_sdp
 :
 :
 parse_sdp
 (
-sdp
+sdp_str
 true
 )
 ;
@@ -218,7 +280,7 @@ msection
 get_type
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -250,7 +312,7 @@ msection
 get_proto
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -302,6 +364,11 @@ get_connection
 is_none
 (
 )
+)
+;
+check_parse_and_serialize
+(
+sdp_str
 )
 ;
 }
@@ -402,7 +469,7 @@ n
 let
 sdp_res
 =
-rsdparsa
+webrtc_sdp
 :
 :
 parse_sdp
@@ -480,7 +547,7 @@ parse_minimal_sdp_with_most_session_types
 )
 {
 let
-sdp
+sdp_str
 =
 "
 v
@@ -490,6 +557,7 @@ v
 r
 \
 n
+\
 o
 =
 -
@@ -508,6 +576,7 @@ IP4
 r
 \
 n
+\
 s
 =
 -
@@ -515,6 +584,7 @@ s
 r
 \
 n
+\
 t
 =
 0
@@ -523,6 +593,7 @@ t
 r
 \
 n
+\
 b
 =
 AS
@@ -532,6 +603,7 @@ AS
 r
 \
 n
+\
 b
 =
 CT
@@ -541,6 +613,7 @@ CT
 r
 \
 n
+\
 b
 =
 TIAS
@@ -550,6 +623,7 @@ TIAS
 r
 \
 n
+\
 c
 =
 IN
@@ -565,6 +639,7 @@ IP4
 r
 \
 n
+\
 a
 =
 ice
@@ -576,6 +651,7 @@ trickle
 r
 \
 n
+\
 m
 =
 audio
@@ -597,12 +673,12 @@ n
 let
 sdp_res
 =
-rsdparsa
+webrtc_sdp
 :
 :
 parse_sdp
 (
-sdp
+sdp_str
 false
 )
 ;
@@ -678,6 +754,11 @@ is_some
 )
 )
 ;
+check_parse_and_serialize
+(
+sdp_str
+)
+;
 }
 #
 [
@@ -689,7 +770,7 @@ parse_minimal_sdp_with_most_media_types
 )
 {
 let
-sdp
+sdp_str
 =
 "
 v
@@ -699,6 +780,7 @@ v
 r
 \
 n
+\
 o
 =
 -
@@ -717,6 +799,7 @@ IP4
 r
 \
 n
+\
 s
 =
 -
@@ -724,6 +807,7 @@ s
 r
 \
 n
+\
 t
 =
 0
@@ -732,6 +816,7 @@ t
 r
 \
 n
+\
 m
 =
 video
@@ -748,6 +833,7 @@ SAVPF
 r
 \
 n
+\
 b
 =
 AS
@@ -757,6 +843,7 @@ AS
 r
 \
 n
+\
 b
 =
 CT
@@ -766,6 +853,7 @@ CT
 r
 \
 n
+\
 b
 =
 TIAS
@@ -775,6 +863,7 @@ TIAS
 r
 \
 n
+\
 c
 =
 IN
@@ -790,6 +879,7 @@ IP4
 r
 \
 n
+\
 a
 =
 sendrecv
@@ -802,12 +892,12 @@ n
 let
 sdp_res
 =
-rsdparsa
+webrtc_sdp
 :
 :
 parse_sdp
 (
-sdp
+sdp_str
 false
 )
 ;
@@ -917,7 +1007,7 @@ msection
 get_type
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -949,7 +1039,7 @@ msection
 get_proto
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -1013,7 +1103,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1030,6 +1120,11 @@ is_some
 )
 )
 ;
+check_parse_and_serialize
+(
+sdp_str
+)
+;
 }
 #
 [
@@ -1041,7 +1136,7 @@ parse_firefox_audio_offer
 )
 {
 let
-sdp
+sdp_str
 =
 "
 v
@@ -1051,6 +1146,7 @@ v
 r
 \
 n
+\
 o
 =
 mozilla
@@ -1077,6 +1173,7 @@ IP4
 r
 \
 n
+\
 s
 =
 -
@@ -1084,6 +1181,7 @@ s
 r
 \
 n
+\
 t
 =
 0
@@ -1092,6 +1190,7 @@ t
 r
 \
 n
+\
 a
 =
 fingerprint
@@ -1166,6 +1265,7 @@ A2
 r
 \
 n
+\
 a
 =
 group
@@ -1176,6 +1276,7 @@ sdparta_0
 r
 \
 n
+\
 a
 =
 ice
@@ -1187,6 +1288,7 @@ trickle
 r
 \
 n
+\
 a
 =
 msid
@@ -1199,6 +1301,7 @@ WMS
 r
 \
 n
+\
 m
 =
 audio
@@ -1218,6 +1321,7 @@ SAVPF
 r
 \
 n
+\
 c
 =
 IN
@@ -1233,6 +1337,7 @@ IP4
 r
 \
 n
+\
 a
 =
 sendrecv
@@ -1240,6 +1345,7 @@ sendrecv
 r
 \
 n
+\
 a
 =
 extmap
@@ -1266,6 +1372,7 @@ level
 r
 \
 n
+\
 a
 =
 fmtp
@@ -1286,6 +1393,7 @@ useinbandfec
 r
 \
 n
+\
 a
 =
 ice
@@ -1297,6 +1405,7 @@ e3baa26dd2fa5030d881d385f1e36cce
 r
 \
 n
+\
 a
 =
 ice
@@ -1308,6 +1417,7 @@ ufrag
 r
 \
 n
+\
 a
 =
 mid
@@ -1317,6 +1427,7 @@ sdparta_0
 r
 \
 n
+\
 a
 =
 msid
@@ -1347,6 +1458,7 @@ ac40
 r
 \
 n
+\
 a
 =
 rtcp
@@ -1356,6 +1468,7 @@ mux
 r
 \
 n
+\
 a
 =
 rtpmap
@@ -1370,6 +1483,7 @@ opus
 r
 \
 n
+\
 a
 =
 rtpmap
@@ -1384,6 +1498,7 @@ G722
 r
 \
 n
+\
 a
 =
 rtpmap
@@ -1396,6 +1511,7 @@ PCMU
 r
 \
 n
+\
 a
 =
 rtpmap
@@ -1408,6 +1524,7 @@ PCMA
 r
 \
 n
+\
 a
 =
 setup
@@ -1417,6 +1534,7 @@ actpass
 r
 \
 n
+\
 a
 =
 ssrc
@@ -1444,12 +1562,12 @@ n
 let
 sdp_res
 =
-rsdparsa
+webrtc_sdp
 :
 :
 parse_sdp
 (
-sdp
+sdp_str
 true
 )
 ;
@@ -1535,7 +1653,7 @@ msection
 get_type
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -1567,7 +1685,7 @@ msection
 get_proto
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -1629,7 +1747,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1653,7 +1771,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1677,7 +1795,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1701,7 +1819,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1725,7 +1843,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1749,7 +1867,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1773,7 +1891,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1797,7 +1915,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1821,7 +1939,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1845,7 +1963,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1869,7 +1987,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1893,7 +2011,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -1921,7 +2039,7 @@ parse_firefox_video_offer
 )
 {
 let
-sdp
+sdp_str
 =
 "
 v
@@ -1931,6 +2049,7 @@ v
 r
 \
 n
+\
 o
 =
 mozilla
@@ -1957,6 +2076,7 @@ IP4
 r
 \
 n
+\
 s
 =
 -
@@ -1964,6 +2084,7 @@ s
 r
 \
 n
+\
 t
 =
 0
@@ -1972,6 +2093,7 @@ t
 r
 \
 n
+\
 a
 =
 fingerprint
@@ -2046,6 +2168,7 @@ A2
 r
 \
 n
+\
 a
 =
 group
@@ -2056,6 +2179,7 @@ sdparta_2
 r
 \
 n
+\
 a
 =
 ice
@@ -2067,6 +2191,7 @@ trickle
 r
 \
 n
+\
 a
 =
 msid
@@ -2079,6 +2204,7 @@ WMS
 r
 \
 n
+\
 m
 =
 video
@@ -2097,6 +2223,7 @@ SAVPF
 r
 \
 n
+\
 c
 =
 IN
@@ -2112,6 +2239,7 @@ IP4
 r
 \
 n
+\
 a
 =
 recvonly
@@ -2119,6 +2247,7 @@ recvonly
 r
 \
 n
+\
 a
 =
 fmtp
@@ -2149,6 +2278,7 @@ mode
 r
 \
 n
+\
 a
 =
 fmtp
@@ -2169,6 +2299,7 @@ fr
 r
 \
 n
+\
 a
 =
 fmtp
@@ -2193,6 +2324,7 @@ allowed
 r
 \
 n
+\
 a
 =
 ice
@@ -2204,6 +2336,7 @@ e3baa26dd2fa5030d881d385f1e36cce
 r
 \
 n
+\
 a
 =
 ice
@@ -2215,6 +2348,7 @@ ufrag
 r
 \
 n
+\
 a
 =
 mid
@@ -2224,6 +2358,7 @@ sdparta_2
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2236,6 +2371,7 @@ nack
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2249,6 +2385,7 @@ pli
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2262,6 +2399,7 @@ fir
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2276,6 +2414,7 @@ remb
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2288,6 +2427,7 @@ nack
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2301,6 +2441,7 @@ pli
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2314,6 +2455,7 @@ fir
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2328,6 +2470,7 @@ remb
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2340,6 +2483,7 @@ nack
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2353,6 +2497,7 @@ pli
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2366,6 +2511,7 @@ fir
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2380,6 +2526,7 @@ remb
 r
 \
 n
+\
 a
 =
 rtcp
@@ -2389,6 +2536,7 @@ mux
 r
 \
 n
+\
 a
 =
 rtpmap
@@ -2401,6 +2549,7 @@ H264
 r
 \
 n
+\
 a
 =
 rtpmap
@@ -2413,6 +2562,7 @@ VP8
 r
 \
 n
+\
 a
 =
 rtpmap
@@ -2425,6 +2575,7 @@ H264
 r
 \
 n
+\
 a
 =
 setup
@@ -2434,6 +2585,7 @@ actpass
 r
 \
 n
+\
 a
 =
 ssrc
@@ -2457,12 +2609,12 @@ bd66
 let
 sdp_res
 =
-rsdparsa
+webrtc_sdp
 :
 :
 parse_sdp
 (
-sdp
+sdp_str
 true
 )
 ;
@@ -2548,7 +2700,7 @@ msection
 get_type
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -2580,7 +2732,7 @@ msection
 get_proto
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -2642,7 +2794,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2667,7 +2819,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2691,7 +2843,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2715,7 +2867,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2739,7 +2891,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2763,7 +2915,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2787,7 +2939,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2812,7 +2964,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2836,7 +2988,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2860,7 +3012,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2884,7 +3036,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2908,7 +3060,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2932,7 +3084,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -2960,7 +3112,7 @@ parse_firefox_datachannel_offer
 )
 {
 let
-sdp
+sdp_str
 =
 "
 v
@@ -2970,6 +3122,7 @@ v
 r
 \
 n
+\
 o
 =
 mozilla
@@ -2996,6 +3149,7 @@ IP4
 r
 \
 n
+\
 s
 =
 -
@@ -3003,6 +3157,7 @@ s
 r
 \
 n
+\
 t
 =
 0
@@ -3011,6 +3166,7 @@ t
 r
 \
 n
+\
 a
 =
 sendrecv
@@ -3018,6 +3174,7 @@ sendrecv
 r
 \
 n
+\
 a
 =
 fingerprint
@@ -3092,6 +3249,7 @@ F8
 r
 \
 n
+\
 a
 =
 ice
@@ -3103,6 +3261,7 @@ trickle
 r
 \
 n
+\
 a
 =
 msid
@@ -3115,6 +3274,7 @@ WMS
 r
 \
 n
+\
 m
 =
 application
@@ -3127,6 +3287,7 @@ SCTP
 r
 \
 n
+\
 c
 =
 IN
@@ -3142,6 +3303,7 @@ IP4
 r
 \
 n
+\
 a
 =
 candidate
@@ -3164,6 +3326,7 @@ host
 r
 \
 n
+\
 a
 =
 sendrecv
@@ -3171,6 +3334,7 @@ sendrecv
 r
 \
 n
+\
 a
 =
 end
@@ -3182,6 +3346,7 @@ candidates
 r
 \
 n
+\
 a
 =
 ice
@@ -3193,6 +3358,7 @@ pwd
 r
 \
 n
+\
 a
 =
 ice
@@ -3204,6 +3370,7 @@ ufrag
 r
 \
 n
+\
 a
 =
 mid
@@ -3213,6 +3380,7 @@ sdparta_0
 r
 \
 n
+\
 a
 =
 sctpmap
@@ -3226,6 +3394,7 @@ datachannel
 r
 \
 n
+\
 a
 =
 setup
@@ -3235,6 +3404,7 @@ active
 r
 \
 n
+\
 a
 =
 ssrc
@@ -3262,12 +3432,12 @@ n
 let
 sdp_res
 =
-rsdparsa
+webrtc_sdp
 :
 :
 parse_sdp
 (
-sdp
+sdp_str
 true
 )
 ;
@@ -3353,7 +3523,7 @@ msection
 get_type
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -3385,7 +3555,7 @@ msection
 get_proto
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -3447,7 +3617,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3472,7 +3642,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3496,7 +3666,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3520,7 +3690,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3544,7 +3714,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3568,7 +3738,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3593,7 +3763,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3618,7 +3788,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3643,7 +3813,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3668,7 +3838,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3692,7 +3862,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3716,7 +3886,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3740,7 +3910,7 @@ msection
 .
 get_attribute
 (
-rsdparsa
+webrtc_sdp
 :
 :
 attribute_type
@@ -3755,6 +3925,11 @@ Ssrc
 is_some
 (
 )
+)
+;
+check_parse_and_serialize
+(
+sdp_str
 )
 ;
 }
@@ -5138,7 +5313,7 @@ n
 let
 sdp_res
 =
-rsdparsa
+webrtc_sdp
 :
 :
 parse_sdp
@@ -5229,7 +5404,7 @@ msection1
 get_type
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -5261,7 +5436,7 @@ msection1
 get_proto
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -5338,7 +5513,7 @@ msection2
 get_type
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -5370,7 +5545,7 @@ msection2
 get_proto
 (
 )
-rsdparsa
+webrtc_sdp
 :
 :
 media_type
@@ -6215,7 +6390,7 @@ n
 let
 sdp_res
 =
-rsdparsa
+webrtc_sdp
 :
 :
 parse_sdp
@@ -6295,7 +6470,7 @@ parse_firefox_simulcast_answer
 )
 {
 let
-sdp
+sdp_str
 =
 "
 v
@@ -6305,6 +6480,7 @@ v
 r
 \
 n
+\
 o
 =
 mozilla
@@ -6331,6 +6507,7 @@ IP4
 r
 \
 n
+\
 s
 =
 -
@@ -6338,6 +6515,7 @@ s
 r
 \
 n
+\
 t
 =
 0
@@ -6346,6 +6524,7 @@ t
 r
 \
 n
+\
 a
 =
 fingerprint
@@ -6420,6 +6599,7 @@ E7
 r
 \
 n
+\
 a
 =
 ice
@@ -6431,6 +6611,7 @@ trickle
 r
 \
 n
+\
 a
 =
 msid
@@ -6443,6 +6624,7 @@ WMS
 r
 \
 n
+\
 m
 =
 video
@@ -6459,6 +6641,7 @@ SAVPF
 r
 \
 n
+\
 c
 =
 IN
@@ -6481,6 +6664,7 @@ recvonly
 r
 \
 n
+\
 a
 =
 extmap
@@ -6511,6 +6695,7 @@ time
 r
 \
 n
+\
 a
 =
 extmap
@@ -6531,6 +6716,7 @@ toffset
 r
 \
 n
+\
 a
 =
 fmtp
@@ -6551,6 +6737,7 @@ fr
 r
 \
 n
+\
 a
 =
 ice
@@ -6562,6 +6749,7 @@ c886e2caf2ae397446312930cd1afe51
 r
 \
 n
+\
 a
 =
 ice
@@ -6573,6 +6761,7 @@ f57396c0
 r
 \
 n
+\
 a
 =
 mid
@@ -6582,6 +6771,7 @@ sdparta_0
 r
 \
 n
+\
 a
 =
 rtcp
@@ -6594,6 +6784,7 @@ nack
 r
 \
 n
+\
 a
 =
 rtcp
@@ -6607,6 +6798,7 @@ pli
 r
 \
 n
+\
 a
 =
 rtcp
@@ -6620,6 +6812,7 @@ fir
 r
 \
 n
+\
 a
 =
 rtcp
@@ -6634,6 +6827,7 @@ remb
 r
 \
 n
+\
 a
 =
 rtcp
@@ -6643,6 +6837,7 @@ mux
 r
 \
 n
+\
 a
 =
 rtpmap
@@ -6655,6 +6850,7 @@ VP8
 r
 \
 n
+\
 a
 =
 setup
@@ -6664,6 +6860,7 @@ active
 r
 \
 n
+\
 a
 =
 ssrc
@@ -6686,6 +6883,7 @@ cae1cd32
 r
 \
 n
+\
 a
 =
 simulcast
@@ -6700,6 +6898,7 @@ bar
 r
 \
 n
+\
 a
 =
 rid
@@ -6710,6 +6909,7 @@ recv
 r
 \
 n
+\
 a
 =
 rid
@@ -6720,6 +6920,7 @@ recv
 r
 \
 n
+\
 a
 =
 extmap
@@ -6753,12 +6954,12 @@ n
 let
 sdp_res
 =
-rsdparsa
+webrtc_sdp
 :
 :
 parse_sdp
 (
-sdp
+sdp_str
 true
 )
 ;
