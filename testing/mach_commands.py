@@ -10421,6 +10421,24 @@ in
 tests
 :
             
+if
+'
+manifest
+'
+in
+t
+and
+t
+[
+'
+manifest
+'
+]
+is
+not
+None
+:
+                
 manifest_paths
 .
 add
@@ -10601,19 +10619,6 @@ topsrcdir
 :
                     
 continue
-                
-print
-(
-"
-{
-}
-"
-.
-format
-(
-relpath
-)
-)
                 
 manifest_info
 =
