@@ -663,7 +663,7 @@ T
 lookup
 (
 HuffmanLookup
-key
+lookup
 )
 const
 ;
