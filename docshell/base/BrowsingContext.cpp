@@ -735,16 +735,6 @@ nsILoadInfo
 :
 EMBEDDER_POLICY_NULL
 ;
-context
--
->
-mInheritedEmbedderPolicy
-=
-nsILoadInfo
-:
-:
-EMBEDDER_POLICY_NULL
-;
 BrowsingContext
 *
 inherit
@@ -773,7 +763,7 @@ mOpenerPolicy
 context
 -
 >
-mInheritedEmbedderPolicy
+mEmbedderPolicy
 =
 inherit
 -
