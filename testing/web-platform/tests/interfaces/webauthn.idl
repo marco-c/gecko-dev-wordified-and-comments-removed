@@ -566,6 +566,15 @@ dictionary
 AuthenticationExtensionsClientInputs
 {
 USVString
+appidExclude
+;
+}
+;
+partial
+dictionary
+AuthenticationExtensionsClientInputs
+{
+USVString
 txAuthSimple
 ;
 }
