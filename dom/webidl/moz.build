@@ -3137,11 +3137,6 @@ DocumentFragment
 webidl
 '
 '
-DocumentL10n
-.
-webidl
-'
-'
 DocumentOrShadowRoot
 .
 webidl

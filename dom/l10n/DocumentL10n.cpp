@@ -1,10 +1,6 @@
 #
 include
 "
-mozilla
-/
-dom
-/
 DocumentL10n
 .
 h
@@ -79,14 +75,11 @@ namespace
 mozilla
 :
 :
-intl
-;
-namespace
-mozilla
-{
-namespace
 dom
-{
+:
+:
+l10n
+;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 DocumentL10n
@@ -675,6 +668,4 @@ OnCreatePresShell
 (
 )
 ;
-}
-}
 }

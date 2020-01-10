@@ -115,6 +115,11 @@ l10n
 =
 [
 '
+DocumentL10n
+.
+h
+'
+'
 DOMLocalization
 .
 h
@@ -134,6 +139,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+DocumentL10n
+.
+cpp
+'
 '
 DOMLocalization
 .

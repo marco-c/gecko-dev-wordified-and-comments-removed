@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_DocumentL10n_h
+mozilla_dom_l10n_DocumentL10n_h
 #
 define
-mozilla_dom_DocumentL10n_h
+mozilla_dom_l10n_DocumentL10n_h
 #
 include
 "
@@ -123,6 +123,9 @@ mozilla
 {
 namespace
 dom
+{
+namespace
+l10n
 {
 enum
 class
@@ -267,6 +270,7 @@ OnCreatePresShell
 ;
 }
 ;
+}
 }
 }
 #

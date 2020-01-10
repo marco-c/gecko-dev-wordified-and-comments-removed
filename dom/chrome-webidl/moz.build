@@ -276,6 +276,11 @@ ChannelWrapper
 webidl
 '
 '
+DocumentL10n
+.
+webidl
+'
+'
 DominatorTree
 .
 webidl

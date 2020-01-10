@@ -374,17 +374,6 @@ mozilla
 /
 dom
 /
-DocumentL10n
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Element
 .
 h

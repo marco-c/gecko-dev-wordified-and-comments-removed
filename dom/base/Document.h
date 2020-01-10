@@ -762,9 +762,13 @@ CustomElementDefinition
 class
 DocGroup
 ;
+namespace
+l10n
+{
 class
 DocumentL10n
 ;
+}
 class
 DocumentFragment
 ;
@@ -10876,6 +10880,9 @@ const
 ;
 public
 :
+l10n
+:
+:
 DocumentL10n
 *
 GetL10n
@@ -10918,6 +10925,9 @@ protected
 :
 RefPtr
 <
+l10n
+:
+:
 DocumentL10n
 >
 mDocumentL10n
