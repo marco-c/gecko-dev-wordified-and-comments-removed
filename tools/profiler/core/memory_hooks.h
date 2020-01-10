@@ -32,6 +32,16 @@ remove_memory_hooks
 (
 )
 ;
+void
+enable_native_allocations
+(
+)
+;
+void
+disable_native_allocations
+(
+)
+;
 }
 }
 #
