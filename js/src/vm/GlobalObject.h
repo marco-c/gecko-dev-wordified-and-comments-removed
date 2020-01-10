@@ -1641,7 +1641,7 @@ toObject
 ;
 }
 static
-JSFunction
+JSObject
 *
 getOrCreateArrayBufferConstructor
 (
@@ -1682,13 +1682,6 @@ JSProto_ArrayBuffer
 )
 .
 toObject
-(
-)
-.
-as
-<
-JSFunction
->
 (
 )
 ;
@@ -3203,7 +3196,7 @@ toObject
 ;
 }
 static
-JSFunction
+JSObject
 *
 getOrCreatePromiseConstructor
 (
@@ -3244,13 +3237,6 @@ JSProto_Promise
 )
 .
 toObject
-(
-)
-.
-as
-<
-JSFunction
->
 (
 )
 ;
