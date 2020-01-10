@@ -48,15 +48,9 @@ h
 struct
 CharacterDataChangeInfo
 ;
-class
-nsCycleCollectionTraversalCallback
-;
 namespace
 mozilla
 {
-struct
-NonOwningAnimationTarget
-;
 namespace
 dom
 {
