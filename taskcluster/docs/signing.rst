@@ -938,7 +938,7 @@ input
 This
 format
 includes
-authograph_authenticode
+autograph_authenticode
 and
 autograph_authenticode_stub
 .

@@ -2106,7 +2106,7 @@ signs
 all
 platforms
 and
-sha2signcode
+authenticode
 signs
 the
 Windows

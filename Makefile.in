@@ -1498,10 +1498,6 @@ pgo_package
 MAKE
 )
 package
-MOZ_INTERNAL_SIGNING_FORMAT
-=
-MOZ_EXTERNAL_SIGNING_FORMAT
-=
 rm
 -
 f
