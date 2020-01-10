@@ -169,6 +169,9 @@ use
 webrender_api
 :
 :
+units
+:
+:
 DevicePixel
 ;
 use
