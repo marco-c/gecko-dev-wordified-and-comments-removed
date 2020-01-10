@@ -845,12 +845,6 @@ IsBroken
 )
 )
 ;
-if
-(
-!
-mLayoutStarted
-)
-{
 bool
 destroying
 =
@@ -884,6 +878,12 @@ TriggerInitialDocumentTranslation
 (
 )
 ;
+if
+(
+!
+mLayoutStarted
+)
+{
 nsContentSink
 :
 :
