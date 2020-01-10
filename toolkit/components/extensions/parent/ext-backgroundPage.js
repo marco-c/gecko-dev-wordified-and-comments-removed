@@ -338,6 +338,16 @@ extension
 this
 )
 ;
+EventManager
+.
+clearPrimedListeners
+(
+this
+.
+extension
+false
+)
+;
 extension
 .
 emit
