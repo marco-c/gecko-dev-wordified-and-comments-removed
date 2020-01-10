@@ -53985,11 +53985,8 @@ IsVisible
 )
 {
 return
-Some
+Nothing
 (
-ScreenRect
-(
-)
 )
 ;
 }

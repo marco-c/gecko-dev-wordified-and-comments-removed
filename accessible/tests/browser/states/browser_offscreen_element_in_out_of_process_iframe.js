@@ -419,9 +419,6 @@ target
 nsIAccessibleStates
 .
 STATE_OFFSCREEN
-nsIAccessibleStates
-.
-STATE_INVISIBLE
 )
 ;
 await
@@ -441,9 +438,6 @@ target
 nsIAccessibleStates
 .
 STATE_OFFSCREEN
-nsIAccessibleStates
-.
-STATE_INVISIBLE
 )
 ;
 await
@@ -461,9 +455,6 @@ iframe
 target
 "
 0
-nsIAccessibleStates
-.
-STATE_OFFSCREEN
 )
 ;
 await
@@ -483,9 +474,6 @@ target
 nsIAccessibleStates
 .
 STATE_OFFSCREEN
-nsIAccessibleStates
-.
-STATE_INVISIBLE
 )
 ;
 }
