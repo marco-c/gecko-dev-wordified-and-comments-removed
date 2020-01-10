@@ -115,8 +115,14 @@ aFrameLoader
 BrowsingContext
 *
 aBrowsingContext
+TabId
+aId
 )
 :
+mId
+{
+aId
+}
 mLayersId
 {
 0

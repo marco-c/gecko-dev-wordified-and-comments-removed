@@ -16410,6 +16410,9 @@ BrowsingContext
 const
 uint32_t
 &
+const
+TabId
+&
 )
 {
 MOZ_CRASH

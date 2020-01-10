@@ -3302,6 +3302,10 @@ const
 uint32_t
 &
 aChromeFlags
+const
+TabId
+&
+aTabId
 )
 ;
 bool
