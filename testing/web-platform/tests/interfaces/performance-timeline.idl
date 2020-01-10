@@ -206,6 +206,9 @@ entryTypes
 DOMString
 type
 ;
+boolean
+buffered
+;
 }
 ;
 [
