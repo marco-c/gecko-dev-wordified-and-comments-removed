@@ -2011,12 +2011,6 @@ dest
 appUnitsPerDevPixel
 )
 ;
-fillRect
-.
-Round
-(
-)
-;
 Maybe
 <
 SVGImageContext
