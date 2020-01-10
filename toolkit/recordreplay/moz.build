@@ -247,17 +247,7 @@ ThreadSnapshot
 cpp
 '
 '
-Trigger
-.
-cpp
-'
-'
 ValueIndex
-.
-cpp
-'
-'
-WeakPointer
 .
 cpp
 '
