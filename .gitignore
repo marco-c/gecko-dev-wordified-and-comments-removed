@@ -195,17 +195,6 @@ components
 /
 newtab
 /
-data
-/
-locales
-.
-json
-browser
-/
-components
-/
-newtab
-/
 logs
 /
 #
