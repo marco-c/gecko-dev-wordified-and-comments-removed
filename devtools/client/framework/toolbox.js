@@ -2969,8 +2969,6 @@ devtools
 .
 debugger
 .
-features
-.
 log
 -
 event
