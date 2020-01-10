@@ -128,9 +128,9 @@ in
 -
 tree
 :
-debian7
+static
 -
-amd64
+analysis
 -
 build
 }
