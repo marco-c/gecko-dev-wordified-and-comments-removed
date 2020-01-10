@@ -162,6 +162,7 @@ DetachEditor
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 BeforeEdit
@@ -1696,6 +1697,7 @@ Element
 aListElement
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 CacheInlineStyles
@@ -1705,6 +1707,7 @@ nsINode
 aNode
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 ReapplyCachedStyles
@@ -1941,18 +1944,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 DocumentModifiedWorker
 (
-)
-;
-MOZ_MUST_USE
-nsresult
-GetInlineStyles
-(
-nsINode
-*
-aNode
-AutoStyleCacheArray
-&
-aStyleCacheArray
 )
 ;
 protected
