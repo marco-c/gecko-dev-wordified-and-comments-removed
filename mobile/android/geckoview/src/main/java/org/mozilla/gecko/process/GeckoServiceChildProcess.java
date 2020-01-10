@@ -710,4 +710,13 @@ extends
 GeckoServiceChildProcess
 {
 }
+public
+static
+final
+class
+socket
+extends
+GeckoServiceChildProcess
+{
+}
 }
