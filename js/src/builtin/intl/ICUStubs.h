@@ -139,10 +139,6 @@ endif
 if
 !
 ENABLE_INTL_API
-#
-define
-U_ICU_VERSION_MAJOR_NUM
-64
 enum
 UErrorCode
 {
