@@ -124,6 +124,8 @@ XPI
 BASE
 +
 "
+addons
+/
 browser_theme_image_file
 .
 xpi
