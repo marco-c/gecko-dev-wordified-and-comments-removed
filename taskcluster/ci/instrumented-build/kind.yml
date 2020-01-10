@@ -879,6 +879,11 @@ builds
 taskcluster_base_win32
 .
 py
+tooltool
+-
+downloads
+:
+internal
 extra
 -
 config
@@ -1077,6 +1082,11 @@ builds
 taskcluster_base_win64
 .
 py
+tooltool
+-
+downloads
+:
+internal
 extra
 -
 config
