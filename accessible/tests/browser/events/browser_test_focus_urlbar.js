@@ -246,7 +246,7 @@ accessible
 role
 =
 =
-ROLE_ENTRY
+ROLE_EDITCOMBOBOX
 )
 ;
 gURLBar
