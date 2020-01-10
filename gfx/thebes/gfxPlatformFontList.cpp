@@ -2598,6 +2598,12 @@ i
 )
 ;
 }
+mReplacementCharFallbackFamily
+=
+FontFamily
+(
+)
+;
 sPlatformFontList
 =
 this
