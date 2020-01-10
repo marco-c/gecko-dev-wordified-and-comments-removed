@@ -1,4 +1,6 @@
 import
+multiprocessing
+import
 os
 import
 tempfile
@@ -624,6 +626,14 @@ set
 (
 )
     
+used_ports_lock
+=
+multiprocessing
+.
+Lock
+(
+)
+    
 init_timeout
 =
 300
@@ -810,6 +820,12 @@ is
 None
 :
             
+with
+FennecBrowser
+.
+used_ports_lock
+:
+                
 self
 .
 marionette_port
@@ -823,7 +839,7 @@ self
 .
 used_ports
 )
-            
+                
 self
 .
 used_ports

@@ -1,6 +1,8 @@
 import
 json
 import
+multiprocessing
+import
 os
 import
 platform
@@ -1322,6 +1324,14 @@ set
 (
 )
     
+used_ports_lock
+=
+multiprocessing
+.
+Lock
+(
+)
+    
 init_timeout
 =
 70
@@ -1774,6 +1784,12 @@ is
 None
 :
             
+with
+FirefoxBrowser
+.
+used_ports_lock
+:
+                
 self
 .
 marionette_port
@@ -1787,7 +1803,7 @@ self
 .
 used_ports
 )
-            
+                
 self
 .
 used_ports

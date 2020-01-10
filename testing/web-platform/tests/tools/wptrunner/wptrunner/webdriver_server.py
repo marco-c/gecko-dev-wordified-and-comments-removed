@@ -3,6 +3,8 @@ abc
 import
 errno
 import
+multiprocessing
+import
 os
 import
 platform
@@ -72,6 +74,14 @@ default_base_path
 _used_ports
 =
 set
+(
+)
+    
+_used_ports_lock
+=
+multiprocessing
+.
+Lock
 (
 )
     
@@ -708,6 +718,12 @@ _find_next_free_port
 )
 :
         
+with
+WebDriverServer
+.
+_used_ports_lock
+:
+            
 port
 =
 get_free_port
@@ -719,7 +735,7 @@ WebDriverServer
 .
 _used_ports
 )
-        
+            
 WebDriverServer
 .
 _used_ports
