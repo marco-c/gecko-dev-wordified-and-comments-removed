@@ -405,7 +405,7 @@ WebRtcCallWrapper
 aCall
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 aStsThread
 )
@@ -1049,7 +1049,7 @@ mRtpSourceObserver
 const
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 mStsThread
 ;

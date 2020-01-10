@@ -1047,7 +1047,7 @@ return
 mThread
 ;
 }
-nsISerialEventTarget
+nsIEventTarget
 *
 GetSTSThread
 (
@@ -1467,9 +1467,6 @@ SdpMediaSection
 :
 MediaType
 type
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 bool
@@ -2231,8 +2228,13 @@ const
 nsresult
 OnAlpnNegotiated
 (
-bool
-aPrivacyRequested
+const
+std
+:
+:
+string
+&
+aAlpn
 )
 ;
 bool

@@ -286,8 +286,6 @@ std
 string
 &
 aAlpn
-bool
-aPrivacyRequested
 )
 {
 NS_ENSURE_TRUE_VOID
