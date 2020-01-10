@@ -1092,7 +1092,7 @@ ipc
 .
 reportProcessHangs
 "
-false
+true
 )
 ;
 user_pref

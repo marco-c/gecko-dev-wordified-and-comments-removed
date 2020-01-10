@@ -145,6 +145,11 @@ GeckoViewNavigation
 jsm
 '
 '
+GeckoViewProcessHangMonitor
+.
+jsm
+'
+'
 GeckoViewProgress
 .
 jsm
