@@ -541,7 +541,6 @@ HasEventHandler
 )
 |
 |
-!
 mTypedHandler
 .
 Ptr
@@ -549,7 +548,7 @@ Ptr
 )
 -
 >
-HasGrayCallable
+IsBlackForCC
 (
 )
 ;
