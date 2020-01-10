@@ -1302,11 +1302,7 @@ type
 Previews
 =
 {
-[
 line
-:
-string
-]
 :
 Array
 <
@@ -1326,6 +1322,9 @@ value
 :
 any
 column
+:
+number
+line
 :
 number
 }
