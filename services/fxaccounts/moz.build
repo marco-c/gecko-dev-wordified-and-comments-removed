@@ -229,6 +229,11 @@ FxAccountsStorage
 jsm
 '
 '
+FxAccountsTelemetry
+.
+jsm
+'
+'
 FxAccountsWebChannel
 .
 jsm
