@@ -1679,16 +1679,6 @@ indexp
 nullptr
 )
 ;
-void
-copySrcNotes
-(
-jssrcnote
-*
-destination
-uint32_t
-nsrcnotes
-)
-;
 MOZ_MUST_USE
 bool
 setSrcNoteOffset
