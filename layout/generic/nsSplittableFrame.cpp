@@ -1001,7 +1001,7 @@ nsIFrame
 *
 prev
 =
-GetPrevInFlow
+GetPrevContinuation
 (
 )
 ;
@@ -1012,7 +1012,7 @@ prev
 prev
 -
 >
-GetPrevInFlow
+GetPrevContinuation
 (
 )
 )
