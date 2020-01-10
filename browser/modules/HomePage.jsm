@@ -245,7 +245,7 @@ _initializationPromise
 :
 null
 async
-init
+delayedStartup
 (
 )
 {
@@ -507,7 +507,7 @@ value
 await
 this
 .
-init
+delayedStartup
 (
 )
 ;
@@ -635,7 +635,7 @@ url
 await
 this
 .
-init
+delayedStartup
 (
 )
 ;

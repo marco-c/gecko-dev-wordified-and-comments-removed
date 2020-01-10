@@ -251,7 +251,7 @@ homepage
 await
 HomePage
 .
-init
+delayedStartup
 (
 )
 ;
