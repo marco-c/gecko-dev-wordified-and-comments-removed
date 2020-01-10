@@ -1297,11 +1297,6 @@ ShouldUseRemoteProcess
 (
 )
 ;
-bool
-OwnerIsIsolatedMozBrowserFrame
-(
-)
-;
 void
 GetOwnerAppManifestURL
 (

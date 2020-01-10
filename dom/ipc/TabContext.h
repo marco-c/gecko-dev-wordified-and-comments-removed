@@ -65,12 +65,6 @@ IsMozBrowserElement
 const
 ;
 bool
-IsIsolatedMozBrowserElement
-(
-)
-const
-;
-bool
 IsMozBrowser
 (
 )
