@@ -4373,7 +4373,7 @@ HasColumnSpanSiblings
 )
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 aReflowInput
 .
@@ -4407,9 +4407,9 @@ size
 when
 our
 reflow
+"
+"
 input
-"
-"
 is
 created
 in
