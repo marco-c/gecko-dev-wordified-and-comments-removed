@@ -3494,10 +3494,12 @@ StyleDisplay
 )
 -
 >
-mDisplay
+DisplayInside
+(
+)
 =
 =
-StyleDisplay
+StyleDisplayInside
 :
 :
 Inline
