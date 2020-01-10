@@ -186,6 +186,13 @@ destroyed
 "
 )
 ;
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 }
 ;

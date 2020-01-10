@@ -105,6 +105,9 @@ destroyed
 "
 )
 ;
+return
+this
+;
 }
 }
 exports
