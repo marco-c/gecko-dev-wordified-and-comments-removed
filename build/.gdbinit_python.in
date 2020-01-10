@@ -13,8 +13,6 @@ append
 '
 topsrcdir
 /
-third_party
-/
 python
 /
 gdbpp
