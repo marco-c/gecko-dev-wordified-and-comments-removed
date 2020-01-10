@@ -1165,12 +1165,7 @@ uri
 )
 )
 ;
-bool
-sniff
-;
 if
-(
-NS_SUCCEEDED
 (
 uri
 -
@@ -1180,13 +1175,7 @@ SchemeIs
 "
 file
 "
-&
-sniff
 )
-)
-&
-&
-sniff
 &
 &
 contentType
