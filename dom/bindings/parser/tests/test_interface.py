@@ -1401,17 +1401,21 @@ parse
 "
 "
         
-[
-Constructor
+interface
+A
+{
+            
+constructor
+(
+)
+;
+            
+constructor
 (
 long
 arg
 )
-]
-        
-interface
-A
-{
+;
             
 readonly
 attribute
@@ -1427,10 +1431,6 @@ foo
         
 }
 ;
-        
-[
-Constructor
-]
         
 partial
 interface
@@ -1686,10 +1686,6 @@ parse
 "
 "
         
-[
-Constructor
-]
-        
 partial
 interface
 A
@@ -1712,17 +1708,21 @@ arg
 }
 ;
         
-[
-Constructor
+interface
+A
+{
+            
+constructor
+(
+)
+;
+            
+constructor
 (
 long
 arg
 )
-]
-        
-interface
-A
-{
+;
             
 readonly
 attribute
