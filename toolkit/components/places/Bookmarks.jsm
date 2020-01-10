@@ -9229,8 +9229,6 @@ length
 rowsToItemsArray
 (
 rows
-!
-!
 options
 .
 ignoreInvalidURLs

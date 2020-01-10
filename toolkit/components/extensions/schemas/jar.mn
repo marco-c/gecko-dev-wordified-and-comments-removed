@@ -350,9 +350,6 @@ schemas
 theme
 .
 json
-#
-ifndef
-ANDROID
 content
 /
 extensions
@@ -362,8 +359,6 @@ schemas
 top_sites
 .
 json
-#
-endif
 content
 /
 extensions
