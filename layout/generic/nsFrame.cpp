@@ -27456,7 +27456,7 @@ static
 nsIFrame
 :
 :
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 IntrinsicSizeOffsets
 (
 nsIFrame
@@ -27471,7 +27471,7 @@ aForISize
 nsIFrame
 :
 :
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 result
 ;
 WritingMode
@@ -27518,7 +27518,7 @@ verticalAxis
 {
 result
 .
-hMargin
+margin
 +
 =
 ResolveMargin
@@ -27534,7 +27534,7 @@ aPercentageBasis
 ;
 result
 .
-hMargin
+margin
 +
 =
 ResolveMargin
@@ -27553,7 +27553,7 @@ else
 {
 result
 .
-hMargin
+margin
 +
 =
 ResolveMargin
@@ -27569,7 +27569,7 @@ aPercentageBasis
 ;
 result
 .
-hMargin
+margin
 +
 =
 ResolveMargin
@@ -27606,7 +27606,7 @@ verticalAxis
 {
 result
 .
-hPadding
+padding
 +
 =
 ResolvePadding
@@ -27622,7 +27622,7 @@ aPercentageBasis
 ;
 result
 .
-hPadding
+padding
 +
 =
 ResolvePadding
@@ -27641,7 +27641,7 @@ else
 {
 result
 .
-hPadding
+padding
 +
 =
 ResolvePadding
@@ -27657,7 +27657,7 @@ aPercentageBasis
 ;
 result
 .
-hPadding
+padding
 +
 =
 ResolvePadding
@@ -27691,7 +27691,7 @@ verticalAxis
 {
 result
 .
-hBorder
+border
 +
 =
 styleBorder
@@ -27704,7 +27704,7 @@ eSideTop
 ;
 result
 .
-hBorder
+border
 +
 =
 styleBorder
@@ -27720,7 +27720,7 @@ else
 {
 result
 .
-hBorder
+border
 +
 =
 styleBorder
@@ -27733,7 +27733,7 @@ eSideLeft
 ;
 result
 .
-hBorder
+border
 +
 =
 styleBorder
@@ -27807,7 +27807,7 @@ mAppearance
 ;
 result
 .
-hBorder
+border
 =
 presContext
 -
@@ -27862,7 +27862,7 @@ padding
 {
 result
 .
-hPadding
+padding
 =
 presContext
 -
@@ -27893,7 +27893,7 @@ result
 nsIFrame
 :
 :
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 nsFrame
 :
 :
@@ -27915,7 +27915,7 @@ true
 nsIFrame
 :
 :
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 nsIFrame
 :
 :

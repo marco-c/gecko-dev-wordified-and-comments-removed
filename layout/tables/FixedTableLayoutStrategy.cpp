@@ -1103,7 +1103,7 @@ Content
 nsIFrame
 :
 :
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 offsets
 =
 cellFrame
@@ -1118,11 +1118,11 @@ colISize
 =
 offsets
 .
-hPadding
+padding
 +
 offsets
 .
-hBorder
+border
 ;
 }
 pct

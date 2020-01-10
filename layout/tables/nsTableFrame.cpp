@@ -7599,7 +7599,7 @@ false
 nsIFrame
 :
 :
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 nsTableFrame
 :
 :
@@ -7609,7 +7609,7 @@ nscoord
 aPercentageBasis
 )
 {
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 result
 =
 nsContainerFrame
@@ -7622,7 +7622,7 @@ aPercentageBasis
 ;
 result
 .
-hMargin
+margin
 =
 0
 ;
@@ -7635,7 +7635,7 @@ IsBorderCollapse
 {
 result
 .
-hPadding
+padding
 =
 0
 ;
@@ -7656,7 +7656,7 @@ wm
 ;
 result
 .
-hBorder
+border
 =
 outerBC
 .

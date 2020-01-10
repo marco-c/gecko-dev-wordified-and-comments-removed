@@ -1070,7 +1070,7 @@ aData
 )
 override
 ;
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 IntrinsicISizeOffsets
 (
 nscoord

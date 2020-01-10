@@ -3476,7 +3476,7 @@ IntrinsicISizeOffsets
 (
 )
 .
-hPadding
+padding
 ;
 }
 else

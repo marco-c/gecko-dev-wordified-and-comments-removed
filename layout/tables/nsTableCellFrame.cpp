@@ -3751,7 +3751,7 @@ result
 nsIFrame
 :
 :
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 nsTableCellFrame
 :
 :
@@ -3761,7 +3761,7 @@ nscoord
 aPercentageBasis
 )
 {
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 result
 =
 nsContainerFrame
@@ -3774,7 +3774,7 @@ aPercentageBasis
 ;
 result
 .
-hMargin
+margin
 =
 0
 ;
@@ -3787,7 +3787,7 @@ GetWritingMode
 ;
 result
 .
-hBorder
+border
 =
 GetBorderWidth
 (
