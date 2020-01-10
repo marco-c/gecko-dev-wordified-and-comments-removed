@@ -48,13 +48,6 @@ h
 #
 include
 "
-nsNodeUtils
-.
-h
-"
-#
-include
-"
 nsIHTMLCollection
 .
 h

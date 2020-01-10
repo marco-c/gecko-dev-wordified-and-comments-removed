@@ -13611,10 +13611,12 @@ return
 nsNodeUtils
 :
 :
-CloneNodeImpl
+Clone
 (
 this
 aDeep
+nullptr
+nullptr
 aError
 )
 ;
