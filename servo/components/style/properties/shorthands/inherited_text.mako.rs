@@ -30,7 +30,7 @@ text
 -
 emphasis
 "
-products
+engines
 =
 "
 gecko
@@ -328,6 +328,11 @@ text
 -
 stroke
 "
+engines
+=
+"
+gecko
+"
 sub_properties
 =
 "
@@ -347,11 +352,6 @@ text
 stroke
 -
 color
-"
-products
-=
-"
-gecko
 "
 derive_serialize
 =

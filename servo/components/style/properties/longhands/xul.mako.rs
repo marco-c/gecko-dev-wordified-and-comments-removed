@@ -74,7 +74,7 @@ center
 baseline
 end
 "
-products
+engines
 =
 "
 gecko
@@ -153,7 +153,7 @@ direction
 normal
 reverse
 "
-products
+engines
 =
 "
 gecko
@@ -241,7 +241,7 @@ from
 .
 )
 "
-products
+engines
 =
 "
 gecko
@@ -315,7 +315,7 @@ orient
 horizontal
 vertical
 "
-products
+engines
 =
 "
 gecko
@@ -325,7 +325,7 @@ gecko_ffi_name
 "
 mBoxOrient
 "
-extra_gecko_aliases
+gecko_aliases
 =
 "
 inline
@@ -410,7 +410,7 @@ center
 end
 justify
 "
-products
+engines
 =
 "
 gecko
@@ -499,7 +499,7 @@ ignore
 -
 vertical
 "
-products
+engines
 =
 "
 gecko
@@ -575,15 +575,15 @@ Integer
 "
 0
 "
+engines
+=
+"
+gecko
+"
 parse_method
 =
 "
 parse_non_negative
-"
-products
-=
-"
-gecko
 "
 alias
 =

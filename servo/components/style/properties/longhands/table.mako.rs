@@ -47,6 +47,14 @@ layout
 auto
 fixed
 "
+engines
+=
+"
+gecko
+servo
+-
+2013
+"
 gecko_ffi_name
 =
 "
@@ -111,7 +119,7 @@ XSpan
 1
 )
 "
-products
+engines
 =
 "
 gecko

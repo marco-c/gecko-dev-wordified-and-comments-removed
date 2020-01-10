@@ -128,7 +128,7 @@ active
 disabled
 inactive
 "
-products
+engines
 =
 "
 gecko
@@ -184,7 +184,7 @@ auto
 thin
 none
 "
-products
+engines
 =
 "
 gecko
@@ -265,7 +265,7 @@ UserSelect
 :
 Auto
 "
-products
+engines
 =
 "
 gecko
@@ -347,7 +347,7 @@ no
 -
 drag
 "
-products
+engines
 =
 "
 gecko
@@ -401,7 +401,7 @@ menu
 tooltip
 sheet
 "
-products
+engines
 =
 "
 gecko
@@ -459,7 +459,7 @@ Opacity
 .
 0
 "
-products
+engines
 =
 "
 gecko
@@ -521,7 +521,7 @@ none
 (
 )
 "
-products
+engines
 =
 "
 gecko
@@ -582,6 +582,11 @@ initial_value
 (
 )
 "
+engines
+=
+"
+gecko
+"
 animation_value_type
 =
 "
@@ -591,11 +596,6 @@ gecko_ffi_name
 =
 "
 mWindowTransformOrigin
-"
-products
-=
-"
-gecko
 "
 boxed
 =
@@ -668,15 +668,15 @@ false_value
 (
 )
 "
+engines
+=
+"
+gecko
+"
 animation_value_type
 =
 "
 discrete
-"
-products
-=
-"
-gecko
 "
 spec
 =
