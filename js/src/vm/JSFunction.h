@@ -3153,7 +3153,7 @@ atom_
 }
 static
 bool
-createScriptForLazilyInterpretedFunction
+delazifyLazilyInterpretedFunction
 (
 JSContext
 *
@@ -3216,7 +3216,7 @@ isInterpretedLazy
 if
 (
 !
-createScriptForLazilyInterpretedFunction
+delazifyLazilyInterpretedFunction
 (
 cx
 fun
