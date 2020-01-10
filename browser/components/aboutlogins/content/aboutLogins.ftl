@@ -581,6 +581,14 @@ menu
 .
 menuitem
 -
+faq
+=
+Frequently
+Asked
+Questions
+.
+menuitem
+-
 feedback
 =
 Leave
