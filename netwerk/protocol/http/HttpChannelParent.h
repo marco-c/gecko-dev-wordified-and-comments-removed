@@ -879,16 +879,6 @@ const
 nsresult
 &
 aResult
-const
-mozilla
-:
-:
-Maybe
-<
-LoadInfoArgs
->
-&
-aLoadInfoArgs
 )
 override
 ;
