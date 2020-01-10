@@ -77,6 +77,17 @@ PowerOfTwo32
 aCapacity
 )
 ;
+explicit
+ProfileBuffer
+(
+mozilla
+:
+:
+BlocksRingBuffer
+&
+aBuffer
+)
+;
 ~
 ProfileBuffer
 (
