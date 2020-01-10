@@ -169,7 +169,6 @@ true
 false
 false
 false
-false
 ]
 }
 }
@@ -273,7 +272,6 @@ activeToolbarFilters
 :
 [
 false
-true
 true
 true
 true
@@ -413,7 +411,6 @@ activeToolbarFilters
 :
 [
 true
-false
 false
 false
 false

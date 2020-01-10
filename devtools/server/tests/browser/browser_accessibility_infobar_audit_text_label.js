@@ -225,9 +225,7 @@ audit
 .
 reports
 [
-AUDIT_TYPE
-.
-TEXT_LABEL
+1
 ]
 .
 constructor
@@ -292,6 +290,16 @@ classList
 .
 contains
 (
+score
+=
+=
+=
+FAIL
+?
+"
+fail
+"
+:
 score
 )
 )

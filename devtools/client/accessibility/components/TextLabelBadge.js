@@ -5,8 +5,8 @@ strict
 ;
 const
 {
+Component
 createFactory
-PureComponent
 }
 =
 require
@@ -117,7 +117,7 @@ Badge
 class
 TextLabelBadge
 extends
-PureComponent
+Component
 {
 static
 get
@@ -157,8 +157,14 @@ props
 if
 (
 error
-|
-|
+)
+{
+return
+null
+;
+}
+if
+(
 !
 [
 BEST_PRACTICES

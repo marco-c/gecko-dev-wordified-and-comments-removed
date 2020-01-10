@@ -9,7 +9,6 @@ accessibility
 :
 {
 AUDIT_TYPE
-SCORES
 }
 }
 =
@@ -86,9 +85,9 @@ isLargeText
 true
 score
 :
-SCORES
-.
+"
 AAA
+"
 }
 ;
 const
