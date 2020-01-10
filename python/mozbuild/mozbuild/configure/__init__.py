@@ -2761,6 +2761,27 @@ caller
 )
 )
                 
+if
+(
+implied_option
+.
+when
+and
+                        
+not
+self
+.
+_value_for
+(
+implied_option
+.
+when
+)
+)
+:
+                    
+continue
+                
 option_value
 =
 self
