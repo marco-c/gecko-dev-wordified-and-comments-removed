@@ -3075,6 +3075,17 @@ IsSingleBuffer
 )
 )
 {
+if
+(
+!
+EnsureAttached
+(
+)
+)
+{
+return
+;
+}
 mSurfTex
 -
 >
