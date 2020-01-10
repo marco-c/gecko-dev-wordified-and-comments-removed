@@ -360,7 +360,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH
+SEARCH_LOCAL
 .
 .
 .
