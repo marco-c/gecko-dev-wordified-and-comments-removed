@@ -14190,6 +14190,14 @@ if
 realChannel
 )
 {
+realChannel
+-
+>
+SetContentBlockingAllowListPrincipal
+(
+mContentBlockingAllowListPrincipal
+)
+;
 rv
 =
 realChannel
