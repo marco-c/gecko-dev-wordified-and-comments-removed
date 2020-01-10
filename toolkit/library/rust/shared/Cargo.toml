@@ -494,6 +494,15 @@ encoding_c
 .
 0
 "
+encoding_c_mem
+=
+"
+0
+.
+2
+.
+0
+"
 encoding_glue
 =
 {

@@ -120,6 +120,10 @@ encoding_c
 ;
 extern
 crate
+encoding_c_mem
+;
+extern
+crate
 encoding_glue
 ;
 #
