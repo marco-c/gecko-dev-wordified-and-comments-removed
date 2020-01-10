@@ -2203,6 +2203,7 @@ featureInfo
 mOpenGLVersion
 ;
 }
+static
 bool
 IsFeaturePartOfProfileVersion
 (
