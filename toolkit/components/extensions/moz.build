@@ -114,6 +114,11 @@ Extension
 jsm
 '
 '
+ExtensionActivityLog
+.
+jsm
+'
+'
 ExtensionChild
 .
 jsm

@@ -2503,6 +2503,14 @@ return
 true
 ;
 }
+logActivity
+(
+type
+name
+data
+)
+{
+}
 get
 principal
 (
