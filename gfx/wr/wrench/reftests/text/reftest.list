@@ -320,6 +320,11 @@ shadow
 ref
 .
 yaml
+fuzzy
+(
+1
+64
+)
 =
 =
 shadow
@@ -334,6 +339,11 @@ atomic
 ref
 .
 yaml
+fuzzy
+(
+1
+64
+)
 =
 =
 shadow
@@ -1290,7 +1300,7 @@ png
 fuzzy
 (
 1
-6
+39
 )
 options
 (
