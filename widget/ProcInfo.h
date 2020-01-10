@@ -62,6 +62,9 @@ RDD
 Socket
 RemoteSandboxBroker
 Unknown
+Max
+=
+Unknown
 }
 ;
 struct
