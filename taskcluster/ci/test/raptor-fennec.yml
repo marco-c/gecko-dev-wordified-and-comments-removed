@@ -82,6 +82,12 @@ on
 -
 projects
 :
+by
+-
+test
+-
+platform
+:
 #
 When
 run
