@@ -1330,6 +1330,16 @@ aNode
 )
 const
 ;
+bool
+IsShadowIncludingInclusiveDescendantOf
+(
+const
+nsINode
+*
+aNode
+)
+const
+;
 inline
 mozilla
 :
