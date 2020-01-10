@@ -4820,7 +4820,7 @@ audioipc
 .
 pool_size
 "
-2
+1
 )
 ;
 pref
