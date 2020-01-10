@@ -12822,7 +12822,9 @@ computedISizeCBWM
 NS_UNCONSTRAINEDSIZE
 )
 {
-return
+computedISizeCBWM
+=
+availISizeCBWM
 ;
 }
 LAYOUT_WARN_IF_FALSE
