@@ -710,7 +710,7 @@ comment
 =
 login
 .
-hostname
+origin
 ;
 try
 {
@@ -725,7 +725,7 @@ newURI
 (
 login
 .
-hostname
+origin
 )
 ;
 comment
@@ -737,7 +737,7 @@ displayHostPort
 |
 login
 .
-hostname
+origin
 ;
 }
 catch

@@ -391,7 +391,7 @@ let
 searchParams
 =
 {
-hostname
+origin
 :
 documentURI
 .
