@@ -323,7 +323,7 @@ Throws
 void
 connectRoot
 (
-Element
+Node
 aElement
 )
 ;
@@ -351,7 +351,7 @@ Throws
 void
 disconnectRoot
 (
-Element
+Node
 aElement
 )
 ;

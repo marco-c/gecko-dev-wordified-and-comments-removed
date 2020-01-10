@@ -407,7 +407,7 @@ DOMLocalization
 :
 ConnectRoot
 (
-Element
+nsINode
 &
 aNode
 ErrorResult
@@ -484,7 +484,7 @@ Next
 )
 )
 {
-Element
+nsINode
 *
 root
 =
@@ -565,7 +565,7 @@ DOMLocalization
 :
 DisconnectRoot
 (
-Element
+nsINode
 &
 aNode
 ErrorResult
@@ -1840,7 +1840,7 @@ Next
 )
 )
 {
-Element
+nsINode
 *
 root
 =
@@ -1868,6 +1868,16 @@ root
 aRv
 )
 ;
+if
+(
+root
+-
+>
+IsElement
+(
+)
+)
+{
 RefPtr
 <
 L10nRootTranslationHandler
@@ -1878,6 +1888,11 @@ new
 L10nRootTranslationHandler
 (
 root
+-
+>
+AsElement
+(
+)
 )
 ;
 promise
@@ -1888,6 +1903,7 @@ AppendNativeHandler
 nativeHandler
 )
 ;
+}
 promises
 .
 AppendElement
@@ -2462,9 +2478,9 @@ Next
 )
 )
 {
-Element
+nsINode
 *
-elem
+node
 =
 iter
 .
@@ -2477,7 +2493,7 @@ GetKey
 (
 )
 ;
-elem
+node
 -
 >
 RemoveMutationObserver

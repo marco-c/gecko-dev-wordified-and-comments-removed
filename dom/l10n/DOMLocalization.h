@@ -160,7 +160,7 @@ override
 void
 ConnectRoot
 (
-Element
+nsINode
 &
 aNode
 ErrorResult
@@ -171,7 +171,7 @@ aRv
 void
 DisconnectRoot
 (
-Element
+nsINode
 &
 aNode
 ErrorResult
@@ -408,7 +408,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-Element
+nsINode
 >
 >
 mRoots
