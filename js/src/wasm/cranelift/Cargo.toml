@@ -26,6 +26,11 @@ Cranelift
 developers
 "
 ]
+edition
+=
+"
+2018
+"
 [
 lib
 ]
