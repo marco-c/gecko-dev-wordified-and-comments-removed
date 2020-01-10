@@ -1309,13 +1309,6 @@ StyleDisplay
 MozGrid
 }
 {
-eCSSKeyword__moz_inline_grid
-StyleDisplay
-:
-:
-MozInlineGrid
-}
-{
 eCSSKeyword__moz_grid_group
 StyleDisplay
 :
@@ -1335,13 +1328,6 @@ StyleDisplay
 :
 :
 MozStack
-}
-{
-eCSSKeyword__moz_inline_stack
-StyleDisplay
-:
-:
-MozInlineStack
 }
 {
 eCSSKeyword__moz_deck
