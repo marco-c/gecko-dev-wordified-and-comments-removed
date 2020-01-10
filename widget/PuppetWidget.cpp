@@ -4347,6 +4347,11 @@ imgIContainer
 :
 :
 FLAG_SYNC_DECODE
+|
+imgIContainer
+:
+:
+FLAG_ASYNC_NOTIFY
 )
 ;
 if

@@ -7410,6 +7410,11 @@ FLAG_SYNC_DECODE
 imgIContainer
 :
 :
+FLAG_ASYNC_NOTIFY
+|
+imgIContainer
+:
+:
 FLAG_WANT_DATA_SURFACE
 ;
 uint32_t
