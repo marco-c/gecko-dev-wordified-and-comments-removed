@@ -9539,6 +9539,9 @@ dom
 :
 MediaSession
 (
+GetWindow
+(
+)
 )
 ;
 }
