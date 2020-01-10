@@ -1121,6 +1121,12 @@ Go
 to
 sync
 preferences
+manage
+-
+devices
+=
+Manage
+devices
 #
 Variables
 :
