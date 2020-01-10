@@ -52830,7 +52830,7 @@ aCsp
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsDocShell
 :
 :
