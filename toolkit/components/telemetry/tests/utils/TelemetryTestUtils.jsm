@@ -474,8 +474,11 @@ else
 if
 (
 expected
-instanceof
-RegExp
+&
+&
+expected
+.
+test
 )
 {
 return
