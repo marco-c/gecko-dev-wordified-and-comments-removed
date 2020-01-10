@@ -1696,6 +1696,12 @@ amd64
 script
 :
 -
+cd
+package
+/
+snap
+&
+&
 snapcraft
 snap
 -
@@ -1751,6 +1757,10 @@ CI_COMMIT_REF_SLUG
 paths
 :
 -
+package
+/
+snap
+/
 dav1d_
 *
 .

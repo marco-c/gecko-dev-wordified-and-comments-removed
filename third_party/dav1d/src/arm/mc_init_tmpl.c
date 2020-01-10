@@ -481,9 +481,6 @@ w_mask
 =
 dav1d_w_mask_420_8bpc_neon
 ;
-#
-if
-ARCH_AARCH64
 c
 -
 >
@@ -498,8 +495,6 @@ warp8x8t
 =
 dav1d_warp_affine_8x8t_8bpc_neon
 ;
-#
-endif
 #
 endif
 }
