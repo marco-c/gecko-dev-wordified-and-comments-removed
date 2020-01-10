@@ -105,7 +105,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -153,7 +153,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -222,7 +222,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -266,7 +266,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -344,7 +344,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -392,7 +392,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -431,7 +431,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -497,7 +497,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -536,7 +536,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -582,7 +582,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -614,7 +614,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -684,7 +684,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -774,7 +774,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -845,7 +845,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -879,7 +879,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -927,7 +927,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -950,7 +950,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -994,7 +994,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -1047,7 +1047,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )

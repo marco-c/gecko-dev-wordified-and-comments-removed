@@ -674,7 +674,7 @@ POPUP_TEXT_COLOR_DARK
 ;
 UrlbarTestUtils
 .
-setSelectedIndex
+setSelectedRowIndex
 (
 window
 1
@@ -789,7 +789,7 @@ POPUP_SELECTED_TEXT_COLOR
 ;
 UrlbarTestUtils
 .
-setSelectedIndex
+setSelectedRowIndex
 (
 window
 2

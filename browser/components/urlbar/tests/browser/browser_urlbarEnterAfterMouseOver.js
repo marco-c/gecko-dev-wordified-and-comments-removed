@@ -90,7 +90,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
@@ -274,7 +274,7 @@ initiallySelected
 =
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )

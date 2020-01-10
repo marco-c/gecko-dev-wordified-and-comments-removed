@@ -423,7 +423,7 @@ while
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )

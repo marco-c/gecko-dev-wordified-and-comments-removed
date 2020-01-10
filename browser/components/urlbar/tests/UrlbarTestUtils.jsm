@@ -867,7 +867,7 @@ _getSelectedRow
 null
 ;
 }
-getSelectedIndex
+getSelectedRowIndex
 (
 win
 )
@@ -882,7 +882,7 @@ view
 selectedRowIndex
 ;
 }
-setSelectedIndex
+setSelectedRowIndex
 (
 win
 index

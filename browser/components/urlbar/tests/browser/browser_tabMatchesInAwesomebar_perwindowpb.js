@@ -427,7 +427,7 @@ while
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 aDestWindow
 )

@@ -1034,7 +1034,7 @@ equal
 (
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )

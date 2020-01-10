@@ -145,7 +145,7 @@ getDetailsOfResultAt
 window
 UrlbarTestUtils
 .
-getSelectedIndex
+getSelectedRowIndex
 (
 window
 )
