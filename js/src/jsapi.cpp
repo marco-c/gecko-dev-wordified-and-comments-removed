@@ -23644,14 +23644,6 @@ CHECK_THREAD
 cx
 )
 ;
-cx
--
->
-check
-(
-str
-)
-;
 JSLinearString
 *
 linear
