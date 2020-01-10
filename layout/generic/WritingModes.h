@@ -1540,6 +1540,7 @@ mWritingMode
 explicit
 WritingMode
 (
+const
 ComputedStyle
 *
 aComputedStyle
