@@ -379,12 +379,6 @@ unsigned
 int
 CODEC_PLNAME_SIZE
 ;
-static
-bool
-HasH264Hardware
-(
-)
-;
 MediaConduitErrorCode
 SetLocalRTPExtensions
 (

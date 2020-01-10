@@ -444,7 +444,6 @@ HardwareCodecCapabilityUtils
 :
 HasHWVP9
 (
-false
 )
 ;
 #
