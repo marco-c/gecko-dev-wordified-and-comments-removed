@@ -76,6 +76,10 @@ False
 memory_test
 =
 False
+                     
+enable_webrender
+=
+False
 )
     
 parser
@@ -194,6 +198,10 @@ False
 memory_test
 =
 False
+                     
+enable_webrender
+=
+False
 )
     
 verify_options
@@ -275,6 +283,10 @@ cpu_test
 False
                      
 memory_test
+=
+False
+                     
+enable_webrender
 =
 False
 )
@@ -360,6 +372,10 @@ False
 memory_test
 =
 False
+                     
+enable_webrender
+=
+False
 )
     
 verify_options
@@ -439,6 +455,10 @@ True
 memory_test
 =
 False
+                     
+enable_webrender
+=
+False
 )
     
 verify_options
@@ -510,6 +530,10 @@ cpu_test
 False
                      
 memory_test
+=
+False
+                     
+enable_webrender
 =
 False
 )
