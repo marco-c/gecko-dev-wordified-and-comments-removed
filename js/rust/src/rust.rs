@@ -1572,7 +1572,7 @@ RootKind
 for
 *
 mut
-JSFlatString
+JSLinearString
 {
 #
 [

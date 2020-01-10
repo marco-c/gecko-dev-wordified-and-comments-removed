@@ -1020,7 +1020,7 @@ JSErrorReport
 JSExnType
 "
 "
-JSFlatString
+JSLinearString
 "
 "
 JSFunction

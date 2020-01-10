@@ -41,7 +41,7 @@ Utility
 h
 "
 class
-JSFlatString
+JSLinearString
 ;
 namespace
 JS
@@ -1258,7 +1258,7 @@ JS_PUBLIC_API
 size_t
 GetDeflatedUTF8StringLength
 (
-JSFlatString
+JSLinearString
 *
 s
 )
@@ -1267,7 +1267,7 @@ JS_PUBLIC_API
 size_t
 DeflateStringToUTF8Buffer
 (
-JSFlatString
+JSLinearString
 *
 src
 mozilla

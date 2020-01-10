@@ -1934,7 +1934,7 @@ message
 )
 )
 {
-JSFlatString
+JSLinearString
 *
 name
 =
@@ -1965,7 +1965,7 @@ if
 name
 )
 {
-AssignJSFlatString
+AssignJSLinearString
 (
 aString
 name

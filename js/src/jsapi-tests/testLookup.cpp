@@ -277,11 +277,11 @@ toString
 (
 )
 ;
-JSFlatString
+JSLinearString
 *
-flatStr
+linearStr
 =
-JS_FlattenString
+JS_EnsureLinearString
 (
 cx
 str
@@ -290,7 +290,7 @@ str
 if
 (
 !
-flatStr
+linearStr
 )
 {
 return
@@ -299,9 +299,9 @@ false
 }
 if
 (
-JS_FlatStringEqualsLiteral
+JS_LinearStringEqualsLiteral
 (
-flatStr
+linearStr
 "
 all
 "

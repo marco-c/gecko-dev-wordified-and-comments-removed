@@ -80867,7 +80867,7 @@ fill
                 
 if
 (
-JS_FlatStringEqualsLiteral
+JS_LinearStringEqualsLiteral
 (
 str
 "
@@ -80948,13 +80948,7 @@ StringIdChars
 chars
 (
 nogc
-js
-:
-:
-FlatStringToLinearString
-(
 str
-)
 )
 ;
 \
@@ -81181,7 +81175,7 @@ condition
 js
 :
 :
-GetFlatStringLength
+GetLinearStringLength
 (
 str
 )
@@ -81324,14 +81318,14 @@ AutoCheckCannotGC
 nogc
 ;
             
-JSFlatString
+JSLinearString
 *
 str
 =
 js
 :
 :
-AtomToFlatString
+AtomToLinearString
 (
 JSID_TO_ATOM
 (
@@ -100087,7 +100081,7 @@ getter
 =
 phfCodegen
 .
-gen_jsflatstr_getter
+gen_jslinearstr_getter
 (
             
 name
@@ -100117,7 +100111,7 @@ dedent
                 
 if
 (
-JS_FlatStringEqualsAscii
+JS_LinearStringEqualsAscii
 (
 aKey
 sNames

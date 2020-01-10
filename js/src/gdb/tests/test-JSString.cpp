@@ -358,13 +358,13 @@ JS
 :
 Rooted
 <
-JSFlatString
+JSLinearString
 *
 >
-flat
+linear
 (
 cx
-JS_FlattenString
+JS_EnsureLinearString
 (
 cx
 JS_NewStringCopyZ
@@ -384,7 +384,7 @@ breakpoint
 ;
 use
 (
-flat
+linear
 )
 ;
 }

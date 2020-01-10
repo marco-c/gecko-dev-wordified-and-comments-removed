@@ -979,7 +979,7 @@ return
 nsAutoString
 errorName
 ;
-JSFlatString
+JSLinearString
 *
 name
 =
@@ -1000,7 +1000,7 @@ if
 name
 )
 {
-AssignJSFlatString
+AssignJSLinearString
 (
 errorName
 name

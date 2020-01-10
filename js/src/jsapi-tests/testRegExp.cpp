@@ -369,9 +369,9 @@ source
 ;
 CHECK
 (
-JS_FlatStringEqualsLiteral
+JS_LinearStringEqualsLiteral
 (
-JS_ASSERT_STRING_IS_FLAT
+JS_ASSERT_STRING_IS_LINEAR
 (
 source
 )

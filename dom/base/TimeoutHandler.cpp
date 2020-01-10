@@ -678,11 +678,11 @@ fun
 )
 )
 {
-JSFlatString
+JSLinearString
 *
 funId
 =
-JS_ASSERT_STRING_IS_FLAT
+JS_ASSERT_STRING_IS_LINEAR
 (
 JS_GetFunctionId
 (
@@ -695,7 +695,7 @@ size
 =
 1
 +
-JS_PutEscapedFlatString
+JS_PutEscapedLinearString
 (
 nullptr
 0
@@ -718,7 +718,7 @@ if
 funIdName
 )
 {
-JS_PutEscapedFlatString
+JS_PutEscapedLinearString
 (
 funIdName
 size

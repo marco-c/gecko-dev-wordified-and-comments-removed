@@ -494,7 +494,7 @@ JS
 :
 GetDeflatedUTF8StringLength
 (
-JSFlatString
+JSLinearString
 *
 s
 )
@@ -559,7 +559,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-JSFlatString
+JSLinearString
 *
 src
 mozilla

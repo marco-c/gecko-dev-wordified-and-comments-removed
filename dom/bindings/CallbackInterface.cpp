@@ -129,12 +129,9 @@ RootedString
 propId
 (
 cx
-JS_FORGET_STRING_FLATNESS
-(
-JSID_TO_FLAT_STRING
+JSID_TO_STRING
 (
 aPropId
-)
 )
 )
 ;

@@ -961,12 +961,12 @@ len
 }
 inline
 void
-AssignJSFlatString
+AssignJSLinearString
 (
 nsAString
 &
 dest
-JSFlatString
+JSLinearString
 *
 s
 )
@@ -977,7 +977,7 @@ len
 js
 :
 :
-GetFlatStringLength
+GetLinearStringLength
 (
 s
 )
@@ -1017,7 +1017,7 @@ len
 js
 :
 :
-CopyFlatStringChars
+CopyLinearStringChars
 (
 dest
 .
