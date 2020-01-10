@@ -289,6 +289,11 @@ getKey
 PropTypes
 .
 func
+getLevel
+:
+PropTypes
+.
+func
 getType
 :
 PropTypes

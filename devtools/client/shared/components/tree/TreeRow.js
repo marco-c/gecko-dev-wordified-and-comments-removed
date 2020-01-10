@@ -276,6 +276,11 @@ active
 PropTypes
 .
 bool
+loading
+:
+PropTypes
+.
+bool
 }
 )
 decorator
