@@ -168,7 +168,7 @@ never
 '
 '
 \
-PREF
+NEVER_PREF
 (
 "
 {
@@ -194,10 +194,8 @@ once
 '
 '
 \
-VARCACHE_PREF
+ONCE_PREF
 (
-  
-Once
   
 "
 {
@@ -232,10 +230,8 @@ always
 '
 '
 \
-VARCACHE_PREF
+ALWAYS_PREF
 (
-  
-Always
   
 "
 {
