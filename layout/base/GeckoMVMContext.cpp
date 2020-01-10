@@ -645,7 +645,7 @@ aResolution
 ResolutionChangeOrigin
 :
 :
-MainThread
+MainThreadRestore
 )
 ;
 }

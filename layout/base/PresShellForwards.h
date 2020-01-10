@@ -393,7 +393,8 @@ ResolutionChangeOrigin
 uint8_t
 {
 Apz
-MainThread
+MainThreadRestore
+MainThreadAdjustment
 }
 ;
 enum

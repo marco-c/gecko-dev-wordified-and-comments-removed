@@ -3002,7 +3002,7 @@ aResolution
 ResolutionChangeOrigin
 :
 :
-MainThread
+MainThreadRestore
 )
 ;
 return
