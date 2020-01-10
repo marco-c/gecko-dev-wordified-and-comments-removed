@@ -444,12 +444,6 @@ dev
 :
 ARCH
 \
-libdrm
--
-dev
-:
-ARCH
-\
 libfontconfig1
 -
 dev
