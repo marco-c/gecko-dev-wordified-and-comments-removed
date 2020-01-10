@@ -715,6 +715,11 @@ nsIScreenManager
 idl
 '
 '
+nsISharePicker
+.
+idl
+'
+'
 nsISound
 .
 idl

@@ -328,6 +328,9 @@ urlbar
 '
 translation
 '
+'
+webshare
+'
 ]
 DIRS
 +
