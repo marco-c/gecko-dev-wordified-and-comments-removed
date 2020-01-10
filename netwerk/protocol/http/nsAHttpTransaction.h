@@ -453,13 +453,6 @@ bool
 {
 }
 virtual
-void
-DoNotRemoveAltSvc
-(
-)
-{
-}
-virtual
 MOZ_MUST_USE
 bool
 CanDo0RTT

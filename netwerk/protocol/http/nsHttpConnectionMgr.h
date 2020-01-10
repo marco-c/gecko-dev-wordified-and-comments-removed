@@ -1299,9 +1299,6 @@ nsIAsyncInputStream
 >
 mBackupStreamIn
 ;
-bool
-mIsHttp3
-;
 }
 ;
 friend
@@ -1788,7 +1785,7 @@ ent
 ;
 nsHttpConnection
 *
-GetH2orH3ActiveConn
+GetSpdyActiveConn
 (
 nsConnectionEntry
 *

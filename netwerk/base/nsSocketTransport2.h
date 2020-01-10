@@ -1550,9 +1550,6 @@ mDoNotRetryToConnect
 bool
 mSSLCallbackSet
 ;
-bool
-mUsingQuic
-;
 }
 ;
 }

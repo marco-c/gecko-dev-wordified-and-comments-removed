@@ -884,13 +884,6 @@ atomic
 :
 AtomicBool
 ;
-#
-[
-allow
-(
-deprecated
-)
-]
 use
 std
 :
@@ -918,13 +911,6 @@ Ordering
 :
 SeqCst
 ;
-#
-[
-allow
-(
-deprecated
-)
-]
 static
 PRE_INIT_FLAG
 :

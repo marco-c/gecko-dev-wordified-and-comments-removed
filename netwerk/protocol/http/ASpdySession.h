@@ -238,7 +238,6 @@ kDefaultMaxConcurrent
 =
 100
 ;
-static
 bool
 SoftStreamError
 (

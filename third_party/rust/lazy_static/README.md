@@ -94,7 +94,7 @@ travis
 -
 ci
 .
-com
+org
 /
 rust
 -
@@ -124,7 +124,7 @@ travis
 -
 ci
 .
-com
+org
 /
 rust
 -
@@ -264,9 +264,9 @@ supported
 rustc
 1
 .
-27
+24
 .
-2
+1
 +
 This
 version
@@ -394,7 +394,7 @@ lazy_static
 "
 1
 .
-4
+2
 .
 0
 "

@@ -18,13 +18,6 @@ nsAHttpTransaction
 .
 h
 "
-#
-include
-"
-HttpTrafficAnalyzer
-.
-h
-"
 class
 nsISocketTransport
 ;

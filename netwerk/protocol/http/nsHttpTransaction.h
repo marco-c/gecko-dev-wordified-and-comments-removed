@@ -435,17 +435,6 @@ DisableSpdy
 )
 override
 ;
-void
-DoNotRemoveAltSvc
-(
-)
-override
-{
-mDoNotRemoveAltSvc
-=
-true
-;
-}
 nsHttpTransaction
 *
 QueryHttpTransaction
@@ -1314,9 +1303,6 @@ mDeferredSendProgress
 ;
 bool
 mWaitingOnPipeOut
-;
-bool
-mDoNotRemoveAltSvc
 ;
 bool
 mReportedStart
