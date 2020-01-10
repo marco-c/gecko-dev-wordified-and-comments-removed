@@ -9401,7 +9401,7 @@ enough
 ;
 static
 constexpr
-bool
+size_t
 GetOffsetGuardLimit
 (
 bool
