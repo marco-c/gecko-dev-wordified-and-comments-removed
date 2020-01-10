@@ -23,16 +23,5 @@ browser
 test
 "
 ]
-"
-globals
-"
-:
-{
-"
-DOMLocalization
-"
-:
-false
-}
 }
 ;

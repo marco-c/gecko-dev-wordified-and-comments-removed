@@ -559,6 +559,11 @@ DOMImplementation
 :
 false
 "
+DOMLocalization
+"
+:
+false
+"
 DOMMatrix
 "
 :
