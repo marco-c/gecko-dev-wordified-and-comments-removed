@@ -86,17 +86,6 @@ init
 (
 )
 {
-if
-(
-!
-this
-.
-inspector
-)
-{
-return
-;
-}
 try
 {
 this
