@@ -116,7 +116,7 @@ Destroy
 override
 ;
 void
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &

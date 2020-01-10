@@ -2339,7 +2339,7 @@ mProxyConfig
 mTransportHandler
 -
 >
-SetProxyServer
+SetProxyConfig
 (
 std
 :

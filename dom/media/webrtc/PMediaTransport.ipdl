@@ -391,7 +391,7 @@ icePolicy
 )
 ;
 async
-SetProxyServer
+SetProxyConfig
 (
 TabId
 id

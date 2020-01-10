@@ -837,7 +837,7 @@ override
 {
 }
 void
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &

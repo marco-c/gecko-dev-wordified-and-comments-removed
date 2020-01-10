@@ -894,7 +894,7 @@ void
 MediaTransportHandlerIPC
 :
 :
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &
@@ -943,7 +943,7 @@ mChild
 mChild
 -
 >
-SendSetProxyServer
+SendSetProxyConfig
 (
 dom
 :

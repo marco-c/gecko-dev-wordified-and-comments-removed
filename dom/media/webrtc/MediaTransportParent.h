@@ -132,7 +132,7 @@ ipc
 :
 :
 IPCResult
-RecvSetProxyServer
+RecvSetProxyConfig
 (
 const
 dom

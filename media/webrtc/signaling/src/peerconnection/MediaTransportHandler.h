@@ -306,7 +306,7 @@ aIcePolicy
 ;
 virtual
 void
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &

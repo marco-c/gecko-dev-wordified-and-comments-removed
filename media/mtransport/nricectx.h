@@ -1082,7 +1082,7 @@ resolver
 )
 ;
 nsresult
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &
