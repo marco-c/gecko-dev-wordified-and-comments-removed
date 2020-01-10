@@ -9272,14 +9272,12 @@ path
 .
 join
 (
-self
+os
 .
-query_abs_dirs
-(
-)
+environ
 [
 '
-abs_src_dir
+MOZ_FETCHES_DIR
 '
 ]
                                  
