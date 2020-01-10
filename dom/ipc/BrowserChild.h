@@ -2560,6 +2560,10 @@ ipc
 IPCResult
 RecvSkipBrowsingContextDetach
 (
+SkipBrowsingContextDetachResolver
+&
+&
+aResolve
 )
 ;
 PPluginWidgetChild

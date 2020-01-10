@@ -6208,6 +6208,11 @@ async
 SkipBrowsingContextDetach
 (
 )
+returns
+(
+bool
+success
+)
 ;
 parent
 :
