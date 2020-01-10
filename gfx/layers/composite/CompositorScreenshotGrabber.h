@@ -20,6 +20,9 @@ namespace
 layers
 {
 class
+Compositor
+;
+class
 CompositorScreenshotGrabberImpl
 ;
 class

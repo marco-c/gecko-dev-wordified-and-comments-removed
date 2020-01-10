@@ -97,6 +97,15 @@ include
 "
 mozilla
 /
+TimeStamp
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 webrender_ffi
