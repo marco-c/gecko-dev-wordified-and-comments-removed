@@ -1317,7 +1317,7 @@ const
 ;
 nsIFrame
 *
-GetFrameForScrollSnap
+GetFrameForStyle
 (
 )
 const

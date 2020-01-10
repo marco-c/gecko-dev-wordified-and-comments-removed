@@ -25534,7 +25534,7 @@ nsIFrame
 ScrollFrameHelper
 :
 :
-GetFrameForScrollSnap
+GetFrameForStyle
 (
 )
 const
@@ -25620,7 +25620,7 @@ nsIFrame
 *
 scrollSnapFrame
 =
-GetFrameForScrollSnap
+GetFrameForStyle
 (
 )
 ;
@@ -32534,7 +32534,7 @@ nsIFrame
 *
 styleFrame
 =
-GetFrameForScrollSnap
+GetFrameForStyle
 (
 )
 ;
@@ -32608,7 +32608,7 @@ nsIFrame
 *
 scrollSnapFrame
 =
-GetFrameForScrollSnap
+GetFrameForStyle
 (
 )
 ;
