@@ -260,7 +260,7 @@ type
 string
 frame
 :
-FramePacket
+FrameFront
 why
 :
 {
@@ -1060,7 +1060,7 @@ Promise
 |
 frames
 :
-FramePacket
+FrameFront
 [
 ]
 |
