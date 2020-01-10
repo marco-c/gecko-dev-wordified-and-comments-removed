@@ -399,11 +399,14 @@ size_t
 argsLength
 )
 ;
-ExprType
-debugGetResultType
+bool
+debugGetResultTypes
 (
 uint32_t
 funcIndex
+ValTypeVector
+*
+results
 )
 ;
 bool
