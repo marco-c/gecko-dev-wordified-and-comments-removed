@@ -4862,14 +4862,6 @@ gSync
 populateSendTabToDevicesView
 (
 panelViewNode
-this
-.
-onShowingSubview
-.
-bind
-(
-this
-)
 )
 ;
 }
