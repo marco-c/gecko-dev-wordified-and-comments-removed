@@ -1239,10 +1239,6 @@ IonScript
 *
 ion
 =
-ionScript
-(
-)
-;
 jitScript
 (
 )
@@ -1278,10 +1274,6 @@ BaselineScript
 *
 baseline
 =
-baselineScript
-(
-)
-;
 jitScript
 (
 )
