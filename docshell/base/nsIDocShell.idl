@@ -6138,10 +6138,10 @@ in
 string
 aReason
 in
-wstring
+AString
 functionName
 in
-wstring
+AString
 fileName
 in
 unsigned

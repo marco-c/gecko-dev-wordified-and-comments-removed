@@ -56249,12 +56249,12 @@ char
 *
 aReason
 const
-char16_t
-*
+nsAString
+&
 aFunctionName
 const
-char16_t
-*
+nsAString
+&
 aFilename
 const
 uint32_t
