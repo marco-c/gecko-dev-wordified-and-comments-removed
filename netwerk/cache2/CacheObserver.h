@@ -130,7 +130,12 @@ MetadataMemoryLimit
 )
 {
 return
-sMetadataMemoryLimit
+StaticPrefs
+:
+:
+browser_cache_disk_metadata_memory_limit
+(
+)
 ;
 }
 static
@@ -426,10 +431,6 @@ void
 AttachToPreferences
 (
 )
-;
-static
-uint32_t
-sMetadataMemoryLimit
 ;
 static
 int32_t
