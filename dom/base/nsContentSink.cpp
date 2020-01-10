@@ -1562,10 +1562,6 @@ NS_ConvertUTF16toUTF8
 (
 aValue
 )
-.
-get
-(
-)
 channel
 )
 ;

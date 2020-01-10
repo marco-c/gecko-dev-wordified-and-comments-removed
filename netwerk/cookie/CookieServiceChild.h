@@ -200,9 +200,8 @@ aHostURI
 nsIChannel
 *
 aChannel
-char
-*
-*
+nsACString
+&
 aCookieString
 )
 ;
@@ -227,7 +226,7 @@ aIsSameSiteForeign
 nsIChannel
 *
 aChannel
-nsCString
+nsACString
 &
 aCookieString
 )
@@ -242,12 +241,12 @@ nsIChannel
 *
 aChannel
 const
-char
-*
+nsACString
+&
 aCookieString
 const
-char
-*
+nsACString
+&
 aServerTime
 bool
 aFromHttp

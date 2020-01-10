@@ -945,7 +945,7 @@ cookie
 string
 *
 /
-string
+ACString
 getCookieString
 (
 in
@@ -1168,7 +1168,7 @@ cookie
 string
 *
 /
-string
+ACString
 getCookieStringFromHttp
 (
 in
@@ -1394,7 +1394,7 @@ in
 nsIPrompt
 aPrompt
 in
-string
+ACString
 aCookie
 in
 nsIChannel
@@ -1742,10 +1742,10 @@ in
 nsIPrompt
 aPrompt
 in
-string
+ACString
 aCookie
 in
-string
+ACString
 aServerTime
 in
 nsIChannel

@@ -3840,10 +3840,6 @@ httpInternal
 SetCookie
 (
 mResponseHeaderValue
-.
-get
-(
-)
 )
 ;
 MOZ_ASSERT

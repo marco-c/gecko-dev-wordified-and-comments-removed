@@ -289,7 +289,8 @@ getCookieString
 uri1
 chan1
 )
-null
+"
+"
 )
 ;
 Assert
@@ -343,7 +344,8 @@ getCookieString
 uri1
 chan1
 )
-null
+"
+"
 )
 ;
 Assert
@@ -359,7 +361,8 @@ getCookieString
 uri2
 chan2
 )
-null
+"
+"
 )
 ;
 Services
@@ -514,7 +517,8 @@ getCookieString
 uri1
 chan1
 )
-null
+"
+"
 )
 ;
 Assert
@@ -530,7 +534,8 @@ getCookieString
 uri2
 chan2
 )
-null
+"
+"
 )
 ;
 Services
@@ -599,7 +604,8 @@ getCookieString
 uri1
 chan1
 )
-null
+"
+"
 )
 ;
 Assert
@@ -615,7 +621,8 @@ getCookieString
 uri2
 chan2
 )
-null
+"
+"
 )
 ;
 Services
@@ -697,7 +704,8 @@ getCookieString
 uri1
 chan1
 )
-null
+"
+"
 )
 ;
 Assert
@@ -713,7 +721,8 @@ getCookieString
 uri2
 chan2
 )
-null
+"
+"
 )
 ;
 Services

@@ -18321,7 +18321,7 @@ return
 ;
 }
 }
-nsCString
+nsAutoCString
 cookie
 ;
 service
@@ -18331,10 +18331,7 @@ GetCookieString
 (
 codebaseURI
 channel
-getter_Copies
-(
 cookie
-)
 )
 ;
 UTF_8_ENCODING
@@ -18534,10 +18531,6 @@ SetCookieString
 codebaseURI
 nullptr
 cookie
-.
-get
-(
-)
 channel
 )
 ;

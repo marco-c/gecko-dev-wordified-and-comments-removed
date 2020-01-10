@@ -1390,8 +1390,8 @@ NS_IMETHOD
 SetCookie
 (
 const
-char
-*
+nsACString
+&
 aCookieHeader
 )
 override
@@ -2505,9 +2505,9 @@ aStatus
 void
 NotifySetCookie
 (
-char
 const
-*
+nsACString
+&
 aCookie
 )
 ;

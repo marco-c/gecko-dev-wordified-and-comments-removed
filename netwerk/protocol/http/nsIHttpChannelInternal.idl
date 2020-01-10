@@ -513,7 +513,7 @@ void
 setCookie
 (
 in
-string
+ACString
 aCookieHeader
 )
 ;

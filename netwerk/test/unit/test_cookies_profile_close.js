@@ -184,7 +184,8 @@ getCookieString
 uri
 null
 )
-null
+"
+"
 )
 ;
 Assert
@@ -201,7 +202,8 @@ uri
 null
 null
 )
-null
+"
+"
 )
 ;
 Services
@@ -251,7 +253,8 @@ getCookieString
 uri
 null
 )
-null
+"
+"
 )
 ;
 do_check_throws

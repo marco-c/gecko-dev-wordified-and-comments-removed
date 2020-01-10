@@ -12008,10 +12008,6 @@ cookie
 SetCookie
 (
 cookie
-.
-get
-(
-)
 )
 ;
 }
