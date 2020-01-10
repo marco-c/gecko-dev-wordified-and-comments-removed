@@ -370,6 +370,16 @@ IsDMABufEnabled
 (
 )
 ;
+int
+GetRenderingCacheModePref
+(
+)
+{
+return
+mRenderingCacheModePref
+;
+}
+;
 private
 :
 bool
@@ -451,6 +461,10 @@ mIsDMABufPrefState
 static
 bool
 mIsDMABufConfigured
+;
+static
+int
+mRenderingCacheModePref
 ;
 }
 ;
