@@ -3310,6 +3310,13 @@ CreateCompositor
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 mSessionStoreListener
 =
 new
@@ -3334,6 +3341,8 @@ rv
 rv
 )
 ;
+#
+endif
 return
 NS_OK
 ;

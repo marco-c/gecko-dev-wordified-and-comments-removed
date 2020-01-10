@@ -13905,6 +13905,13 @@ mChildMessageManager
 NS_ERROR_UNEXPECTED
 )
 ;
+#
+if
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 if
 (
 XRE_IsParentProcess
@@ -13939,6 +13946,8 @@ rv
 )
 ;
 }
+#
+endif
 }
 return
 NS_OK
