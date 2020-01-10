@@ -431,7 +431,7 @@ mDocShellHistoryId
 ;
 #
 define
-DECL_STREAM_PAYLOAD
+DECL_BASE_STREAM_PAYLOAD
 \
 virtual
 void
@@ -551,7 +551,7 @@ aDocShellHistoryId
 )
 ;
 }
-DECL_STREAM_PAYLOAD
+DECL_BASE_STREAM_PAYLOAD
 private
 :
 const
@@ -661,7 +661,7 @@ aSource
 )
 ;
 }
-DECL_STREAM_PAYLOAD
+DECL_BASE_STREAM_PAYLOAD
 private
 :
 const
@@ -858,7 +858,7 @@ aEndMark
 )
 {
 }
-DECL_STREAM_PAYLOAD
+DECL_BASE_STREAM_PAYLOAD
 private
 :
 const
@@ -931,7 +931,7 @@ aEndTime
 )
 {
 }
-DECL_STREAM_PAYLOAD
+DECL_BASE_STREAM_PAYLOAD
 private
 :
 }
@@ -969,7 +969,7 @@ aEndTime
 )
 {
 }
-DECL_STREAM_PAYLOAD
+DECL_BASE_STREAM_PAYLOAD
 }
 ;
 class
@@ -1171,7 +1171,7 @@ aText
 )
 {
 }
-DECL_STREAM_PAYLOAD
+DECL_BASE_STREAM_PAYLOAD
 private
 :
 std
@@ -1224,7 +1224,7 @@ aText
 )
 {
 }
-DECL_STREAM_PAYLOAD
+DECL_BASE_STREAM_PAYLOAD
 private
 :
 std
