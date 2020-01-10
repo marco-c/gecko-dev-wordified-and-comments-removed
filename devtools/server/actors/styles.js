@@ -5331,6 +5331,9 @@ canSetRuleText
 this
 .
 canSetRuleText
+emitsRuleUpdatedEvent
+:
+true
 }
 }
 ;
@@ -7845,13 +7848,11 @@ this
 emit
 (
 "
-declarations
+rule
 -
 updated
 "
 this
-.
-_declarations
 )
 ;
 }
