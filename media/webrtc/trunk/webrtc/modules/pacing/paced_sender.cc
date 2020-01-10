@@ -1455,6 +1455,10 @@ RecommendedMinProbeSize
 while
 (
 !
+paused_
+&
+&
+!
 packets_
 -
 >
