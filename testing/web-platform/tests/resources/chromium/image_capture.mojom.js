@@ -2740,7 +2740,7 @@ version
 0
 numBytes
 :
-16
+24
 }
 ]
 ;
@@ -2786,7 +2786,7 @@ codec
 .
 kStructHeaderSize
 +
-8
+16
 ;
 Point2D
 .
@@ -2836,7 +2836,7 @@ decodeStruct
 (
 codec
 .
-Float
+Double
 )
 ;
 val
@@ -2849,7 +2849,7 @@ decodeStruct
 (
 codec
 .
-Float
+Double
 )
 ;
 return
@@ -2892,7 +2892,7 @@ encodeStruct
 (
 codec
 .
-Float
+Double
 val
 .
 x
@@ -2904,7 +2904,7 @@ encodeStruct
 (
 codec
 .
-Float
+Double
 val
 .
 y
