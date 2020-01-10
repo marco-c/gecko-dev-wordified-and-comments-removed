@@ -30,6 +30,15 @@ include
 "
 vm
 /
+BytecodeUtil
+.
+h
+"
+#
+include
+"
+vm
+/
 Opcodes
 .
 h

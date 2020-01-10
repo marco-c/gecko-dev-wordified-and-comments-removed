@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -86,7 +95,7 @@ include
 "
 vm
 /
-BytecodeUtil
+StringType
 .
 h
 "

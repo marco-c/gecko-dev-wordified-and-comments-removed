@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+Assertions
+.
+h
+"
+#
+include
+"
 vm
 /
 BytecodeUtil

@@ -142,9 +142,6 @@ Opcodes
 .
 h
 "
-struct
-JSContext
-;
 namespace
 js
 {
