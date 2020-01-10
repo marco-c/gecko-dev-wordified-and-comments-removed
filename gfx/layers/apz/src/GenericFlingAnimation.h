@@ -92,6 +92,15 @@ include
 "
 mozilla
 /
+StaticPrefs_apz
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h

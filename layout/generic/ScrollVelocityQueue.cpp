@@ -10,7 +10,16 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_apz
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_layout
 .
 h
 "

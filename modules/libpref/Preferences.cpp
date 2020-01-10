@@ -218,7 +218,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefsAll
 .
 h
 "

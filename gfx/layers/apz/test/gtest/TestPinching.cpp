@@ -19,6 +19,15 @@ InputUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_apz
+.
+h
+"
 class
 APZCPinchTester
 :

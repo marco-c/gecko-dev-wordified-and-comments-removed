@@ -71,7 +71,16 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_browser
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_media
 .
 h
 "

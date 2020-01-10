@@ -137,7 +137,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_editor
 .
 h
 "

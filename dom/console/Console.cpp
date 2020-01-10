@@ -228,7 +228,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_devtools
 .
 h
 "

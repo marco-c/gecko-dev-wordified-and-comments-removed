@@ -101,7 +101,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_geo
 .
 h
 "

@@ -164,7 +164,16 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_gfx
 .
 h
 "

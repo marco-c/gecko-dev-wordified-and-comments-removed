@@ -49,6 +49,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -94,7 +103,7 @@ include
 "
 mozilla
 /
-UniquePtr
+StaticPrefs_apz
 .
 h
 "
@@ -103,7 +112,7 @@ include
 "
 mozilla
 /
-Atomics
+UniquePtr
 .
 h
 "

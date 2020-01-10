@@ -28,6 +28,15 @@ include
 "
 mozilla
 /
+StaticPrefs_idle_period
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Document

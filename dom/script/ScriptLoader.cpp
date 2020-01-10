@@ -223,7 +223,16 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_network
 .
 h
 "

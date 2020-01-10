@@ -63,7 +63,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_webgl
 .
 h
 "

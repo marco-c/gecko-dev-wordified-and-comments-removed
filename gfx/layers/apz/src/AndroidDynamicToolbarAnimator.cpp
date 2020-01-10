@@ -168,7 +168,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_browser
 .
 h
 "

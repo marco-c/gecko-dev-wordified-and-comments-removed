@@ -52,6 +52,15 @@ include
 "
 mozilla
 /
+StaticPrefs_media
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLTrackElementBinding

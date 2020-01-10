@@ -364,7 +364,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_javascript
 .
 h
 "

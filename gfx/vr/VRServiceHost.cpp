@@ -40,15 +40,6 @@ include
 "
 mozilla
 /
-StaticPrefs
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 GPUParent

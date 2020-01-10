@@ -403,7 +403,16 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_network
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_privacy
 .
 h
 "

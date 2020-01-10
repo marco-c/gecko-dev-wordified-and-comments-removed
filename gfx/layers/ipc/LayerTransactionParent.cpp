@@ -211,7 +211,16 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_layers
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_layout
 .
 h
 "

@@ -75,7 +75,16 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_gfx
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_webgl
 .
 h
 "

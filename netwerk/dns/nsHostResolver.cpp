@@ -286,7 +286,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_network
 .
 h
 "

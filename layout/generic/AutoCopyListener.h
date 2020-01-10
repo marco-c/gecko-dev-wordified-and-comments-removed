@@ -29,7 +29,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_clipboard
 .
 h
 "

@@ -108,6 +108,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_gfx
+.
+h
+"
+#
+include
+"
 nsCSSFilterInstance
 .
 h

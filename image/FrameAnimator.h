@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_image
 .
 h
 "

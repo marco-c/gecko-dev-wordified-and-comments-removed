@@ -4,6 +4,15 @@ mozilla_StaticPrefsBase_h
 #
 define
 mozilla_StaticPrefsBase_h
+#
+include
+"
+mozilla
+/
+Atomics
+.
+h
+"
 namespace
 mozilla
 {

@@ -35,6 +35,15 @@ include
 "
 mozilla
 /
+StaticPrefs_layout
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSheet
 .
 h

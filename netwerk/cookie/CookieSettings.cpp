@@ -14,6 +14,15 @@ include
 "
 mozilla
 /
+StaticPrefs_network
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h

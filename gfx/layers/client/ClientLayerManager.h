@@ -48,7 +48,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_apz
 .
 h
 "

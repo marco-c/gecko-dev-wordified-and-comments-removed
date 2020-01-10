@@ -98,7 +98,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_media
 .
 h
 "

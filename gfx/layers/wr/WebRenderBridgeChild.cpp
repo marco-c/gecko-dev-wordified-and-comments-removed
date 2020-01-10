@@ -21,7 +21,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_gfx
 .
 h
 "

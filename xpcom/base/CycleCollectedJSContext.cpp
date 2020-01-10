@@ -89,6 +89,15 @@ include
 "
 mozilla
 /
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h

@@ -24,7 +24,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_general
 .
 h
 "

@@ -101701,7 +101701,7 @@ bindingHeaders
 "
 mozilla
 /
-StaticPrefs
+StaticPrefsAll
 .
 h
 "
@@ -124347,7 +124347,7 @@ h
 "
 mozilla
 /
-StaticPrefs
+StaticPrefsAll
 .
 h
 "

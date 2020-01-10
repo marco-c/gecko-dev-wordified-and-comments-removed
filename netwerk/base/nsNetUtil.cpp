@@ -80,6 +80,15 @@ include
 "
 mozilla
 /
+StaticPrefs_privacy
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StoragePrincipalHelper
 .
 h

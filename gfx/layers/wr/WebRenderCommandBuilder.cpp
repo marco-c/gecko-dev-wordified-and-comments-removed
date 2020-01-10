@@ -35,6 +35,15 @@ include
 "
 mozilla
 /
+StaticPrefs_gfx
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D

@@ -85,15 +85,6 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

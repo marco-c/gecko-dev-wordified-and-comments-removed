@@ -48,6 +48,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_privacy
+.
+h
+"
+#
+include
+"
 nsContentSecurityManager
 .
 h

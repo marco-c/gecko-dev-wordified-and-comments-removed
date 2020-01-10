@@ -28,7 +28,7 @@ include
 "
 mozilla
 /
-StaticPrefs
+StaticPrefs_threads
 .
 h
 "

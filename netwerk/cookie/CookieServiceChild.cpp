@@ -94,6 +94,15 @@ include
 "
 mozilla
 /
+StaticPrefs_network
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SystemGroup
 .
 h

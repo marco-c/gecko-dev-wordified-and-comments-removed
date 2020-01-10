@@ -114,6 +114,15 @@ include
 "
 mozilla
 /
+StaticPrefs_full_screen_api
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BindingUtils

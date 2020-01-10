@@ -28,6 +28,15 @@ Assertions
 h
 "
 #
+include
+"
+mozilla
+/
+StaticPrefs_apz
+.
+h
+"
+#
 define
 FLING_PHYS_LOG
 (

@@ -361,6 +361,15 @@ include
 "
 mozilla
 /
+StaticPrefs_xul
+.
+h
+"
+#
+include
+"
+mozilla
+/
 widget
 /
 nsAutoRollup

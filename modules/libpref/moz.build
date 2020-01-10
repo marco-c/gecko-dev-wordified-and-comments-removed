@@ -497,11 +497,6 @@ Preferences
 h
 '
 '
-StaticPrefs
-.
-h
-'
-'
 StaticPrefsBase
 .
 h
