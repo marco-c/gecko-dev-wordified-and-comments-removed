@@ -1148,8 +1148,6 @@ file
 AddonInstallParameters
 {
 path
-:
-path
 temporary
 :
 data
