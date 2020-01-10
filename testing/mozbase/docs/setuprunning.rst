@@ -74,6 +74,7 @@ maxdepth
 2
 mozfile
 mozinstall
+mozpower
 mozprofile
 mozprocess
 mozrunner
