@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 '
+browsers
+.
+json
+'
+'
 css
 -
 properties

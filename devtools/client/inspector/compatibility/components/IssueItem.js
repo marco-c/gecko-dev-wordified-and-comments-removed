@@ -170,7 +170,12 @@ key
 }
 :
 {
+JSON
+.
+stringify
+(
 value
+)
 }
 )
 )
