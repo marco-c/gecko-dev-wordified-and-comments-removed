@@ -1802,11 +1802,6 @@ PeerConnectionIdp
 .
 jsm
 '
-'
-RTCStatsReport
-.
-jsm
-'
 ]
 LOCAL_INCLUDES
 +

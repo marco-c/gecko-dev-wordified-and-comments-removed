@@ -4580,11 +4580,6 @@ Response
 webidl
 '
 '
-RTCStatsReport
-.
-webidl
-'
-'
 Screen
 .
 webidl
@@ -5704,6 +5699,11 @@ webidl
 '
 '
 RTCSessionDescription
+.
+webidl
+'
+'
+RTCStatsReport
 .
 webidl
 '

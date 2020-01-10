@@ -2849,7 +2849,7 @@ mReceiveTrack
 }
 RefPtr
 <
-MediaPipeline
+MediaPipelineTransmit
 >
 TransceiverImpl
 :
@@ -2864,7 +2864,7 @@ mTransmitPipeline
 }
 RefPtr
 <
-MediaPipeline
+MediaPipelineReceive
 >
 TransceiverImpl
 :

@@ -119,6 +119,12 @@ class
 MediaPipeline
 ;
 class
+MediaPipelineReceive
+;
+class
+MediaPipelineTransmit
+;
+class
 MediaPipelineFilter
 ;
 class
@@ -272,7 +278,7 @@ nsTArray
 <
 RefPtr
 <
-MediaPipeline
+MediaPipelineTransmit
 >
 >
 *
@@ -293,7 +299,7 @@ nsTArray
 <
 RefPtr
 <
-MediaPipeline
+MediaPipelineReceive
 >
 >
 *

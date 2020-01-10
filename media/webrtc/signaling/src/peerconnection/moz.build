@@ -278,6 +278,11 @@ PeerConnectionMedia
 cpp
 '
 '
+RTCStatsReport
+.
+cpp
+'
+'
 TransceiverImpl
 .
 cpp

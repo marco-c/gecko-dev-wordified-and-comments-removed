@@ -99,6 +99,9 @@ sequence
 RTCStatsReportInternal
 >
 reports
+=
+[
+]
 ;
 }
 ;

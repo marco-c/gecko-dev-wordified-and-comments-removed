@@ -3634,17 +3634,6 @@ RotaryTracker
 "
 ]
 "
-RTCStatsReport
-.
-jsm
-"
-:
-[
-"
-convertToRTCStatsReport
-"
-]
-"
 Schemas
 .
 jsm

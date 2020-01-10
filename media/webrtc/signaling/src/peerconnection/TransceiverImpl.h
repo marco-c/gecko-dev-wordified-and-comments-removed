@@ -374,7 +374,7 @@ const
 ;
 RefPtr
 <
-MediaPipeline
+MediaPipelineTransmit
 >
 GetSendPipeline
 (
@@ -382,7 +382,7 @@ GetSendPipeline
 ;
 RefPtr
 <
-MediaPipeline
+MediaPipelineReceive
 >
 GetReceivePipeline
 (
