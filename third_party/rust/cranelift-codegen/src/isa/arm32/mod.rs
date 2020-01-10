@@ -677,6 +677,7 @@ func
 inst
 divert
 sink
+self
 )
 }
 fn
@@ -706,6 +707,7 @@ binemit
 :
 emit_inst
 sink
+self
 )
 }
 }

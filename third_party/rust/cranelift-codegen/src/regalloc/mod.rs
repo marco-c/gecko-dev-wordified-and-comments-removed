@@ -41,6 +41,9 @@ mod
 reload
 ;
 mod
+safepoint
+;
+mod
 solver
 ;
 mod
@@ -75,4 +78,14 @@ register_set
 :
 :
 RegisterSet
+;
+pub
+use
+self
+:
+:
+safepoint
+:
+:
+emit_stackmaps
 ;

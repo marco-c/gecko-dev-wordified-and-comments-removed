@@ -35,6 +35,7 @@ isa
 RegUnit
 StackBaseMask
 StackRef
+TargetIsa
 }
 ;
 use

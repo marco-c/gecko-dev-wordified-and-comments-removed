@@ -1902,6 +1902,12 @@ true
 \
 n
 \
+enable_safepoints
+=
+false
+\
+n
+\
 allones_funcaddrs
 =
 false

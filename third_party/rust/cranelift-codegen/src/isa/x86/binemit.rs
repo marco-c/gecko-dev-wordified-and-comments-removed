@@ -77,6 +77,7 @@ RegUnit
 StackBase
 StackBaseMask
 StackRef
+TargetIsa
 }
 ;
 use

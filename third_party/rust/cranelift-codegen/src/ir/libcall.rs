@@ -870,12 +870,10 @@ v
 }
 if
 call_conv
-=
-=
-CallConv
-:
-:
-Baldrdash
+.
+extends_baldrdash
+(
+)
 {
 sig
 .

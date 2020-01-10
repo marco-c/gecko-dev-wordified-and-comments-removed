@@ -1315,12 +1315,10 @@ func
 signature
 .
 call_conv
-=
-=
-CallConv
-:
-:
-Baldrdash
+.
+extends_baldrdash
+(
+)
 {
 let
 bytes

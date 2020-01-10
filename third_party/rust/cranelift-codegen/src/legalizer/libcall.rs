@@ -161,12 +161,10 @@ isa
 ;
 if
 call_conv
-=
-=
-CallConv
-:
-:
-Baldrdash
+.
+extends_baldrdash
+(
+)
 {
 let
 vmctx
