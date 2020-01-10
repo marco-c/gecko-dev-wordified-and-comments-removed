@@ -3013,6 +3013,8 @@ command
 export
 WRENCH_APK
 =
+PWD
+/
 MOZ_FETCHES_DIR
 /
 wrench
@@ -3025,6 +3027,8 @@ apk
 export
 WRENCH_REFTESTS
 =
+PWD
+/
 MOZ_FETCHES_DIR
 /
 reftests
@@ -3033,6 +3037,8 @@ reftests
 export
 MOZHARNESS_PATH
 =
+PWD
+/
 MOZ_FETCHES_DIR
 /
 mozharness
@@ -3294,6 +3300,8 @@ command
 export
 WRENCH_APK
 =
+PWD
+/
 MOZ_FETCHES_DIR
 /
 wrench
@@ -3306,6 +3314,8 @@ apk
 export
 WRENCH_REFTESTS
 =
+PWD
+/
 MOZ_FETCHES_DIR
 /
 reftests
@@ -3314,6 +3324,8 @@ reftests
 export
 MOZHARNESS_PATH
 =
+PWD
+/
 MOZ_FETCHES_DIR
 /
 mozharness
