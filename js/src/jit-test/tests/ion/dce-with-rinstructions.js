@@ -39,6 +39,11 @@ trigger
 var
 i
 ;
+gczeal
+(
+0
+)
+;
 var
 config
 =
