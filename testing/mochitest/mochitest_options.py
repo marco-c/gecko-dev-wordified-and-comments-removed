@@ -6776,6 +6776,23 @@ launch
 "
 )
             
+gst010
+=
+spawn
+.
+find_executable
+(
+"
+gst
+-
+launch
+-
+0
+.
+10
+"
+)
+            
 gst10
 =
 spawn
@@ -6810,6 +6827,8 @@ not
 gst01
 or
 gst10
+or
+gst010
 )
 :
                 
@@ -6828,6 +6847,9 @@ launch
 0
 .
 1
+0
+.
+10
 1
 .
 0
