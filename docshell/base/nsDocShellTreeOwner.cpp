@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsStyleCoord
-.
-h
-"
-#
-include
-"
 nsSize
 .
 h

@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsStyleCoord
-.
-h
-"
-#
-include
-"
 nsStyleConsts
 .
 h

@@ -1103,13 +1103,6 @@ LengthPercentage
 "
 "
 "
-/
-/
-Defined
-in
-nsStyleCoord
-.
-h
 static
 constexpr
 inline
@@ -1552,13 +1545,6 @@ Rect
 "
 "
 "
-/
-/
-Defined
-in
-nsStyleCoord
-.
-h
 template
 <
 typename

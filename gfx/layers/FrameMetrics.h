@@ -144,7 +144,9 @@ h
 #
 include
 "
-nsStyleCoord
+mozilla
+/
+ServoStyleConsts
 .
 h
 "

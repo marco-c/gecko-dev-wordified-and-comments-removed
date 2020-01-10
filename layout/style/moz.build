@@ -446,11 +446,6 @@ nsStyleConsts
 h
 '
 '
-nsStyleCoord
-.
-h
-'
-'
 nsStyleStruct
 .
 h
@@ -1138,11 +1133,6 @@ cpp
 '
 '
 nsROCSSPrimitiveValue
-.
-cpp
-'
-'
-nsStyleCoord
 .
 cpp
 '

@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsStyleCoord
-.
-h
-"
-#
-include
-"
 nsStyleStruct
 .
 h
