@@ -4620,7 +4620,7 @@ subgrid
 &
 this
 .
-gridHighlighters
+subgridToParentMap
 .
 has
 (
