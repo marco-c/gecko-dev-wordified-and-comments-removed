@@ -442,12 +442,6 @@ IsLinkUp
 ;
 static
 bool
-IsDataURIUniqueOpaqueOrigin
-(
-)
-;
-static
-bool
 BlockToplevelDataUriNavigations
 (
 )
@@ -944,10 +938,6 @@ mRestrictedPortList
 ;
 bool
 mNetworkNotifyChanged
-;
-static
-bool
-sIsDataURIUniqueOpaqueOrigin
 ;
 static
 bool

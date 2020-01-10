@@ -10335,14 +10335,6 @@ isData
 bool
 isURIUniqueOrigin
 =
-nsIOService
-:
-:
-IsDataURIUniqueOpaqueOrigin
-(
-)
-&
-&
 NS_SUCCEEDED
 (
 mURI

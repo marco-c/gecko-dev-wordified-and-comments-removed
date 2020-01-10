@@ -29,13 +29,6 @@ h
 #
 include
 "
-ClientPrefs
-.
-h
-"
-#
-include
-"
 ClientSource
 .
 h
@@ -1035,10 +1028,6 @@ sClientManagerThreadLocalIndex
 ;
 #
 endif
-ClientPrefsInit
-(
-)
-;
 }
 UniquePtr
 <

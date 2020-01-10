@@ -259,11 +259,6 @@ ClientOpenWindowUtils
 cpp
 '
 '
-ClientPrefs
-.
-cpp
-'
-'
 ClientPrincipalUtils
 .
 cpp
