@@ -1621,6 +1621,8 @@ logins
 i
 ]
 true
+plaintextUsername
+plaintextPassword
 )
 ;
 logins
