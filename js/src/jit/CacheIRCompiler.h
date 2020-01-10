@@ -576,6 +576,11 @@ CompareDoubleResult
 \
 _
 (
+CompareBigIntResult
+)
+\
+_
+(
 CompareObjectUndefinedNullResult
 )
 \
