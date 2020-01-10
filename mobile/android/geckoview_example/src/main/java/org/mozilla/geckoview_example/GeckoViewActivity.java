@@ -1172,6 +1172,13 @@ createSession
 (
 )
 ;
+session
+.
+open
+(
+sGeckoRuntime
+)
+;
 mTabSessionManager
 .
 setCurrentSession
@@ -1184,7 +1191,6 @@ mGeckoView
 setSession
 (
 session
-sGeckoRuntime
 )
 ;
 loadFromIntent
