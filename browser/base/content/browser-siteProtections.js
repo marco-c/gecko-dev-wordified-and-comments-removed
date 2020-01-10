@@ -7666,6 +7666,12 @@ insertProtectionPanelMessage
 event
 )
 ;
+this
+.
+reorderCategoryItems
+(
+)
+;
 if
 (
 !

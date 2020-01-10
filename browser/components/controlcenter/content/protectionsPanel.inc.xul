@@ -107,15 +107,6 @@ header
 -
 label
 "
-onpopupshowing
-=
-"
-gProtectionsHandler
-.
-reorderCategoryItems
-(
-)
-"
 onpopupshown
 =
 "
