@@ -871,6 +871,9 @@ mozilla
 central
 '
 ]
+append
+=
+True
 )
 if
 __name__
