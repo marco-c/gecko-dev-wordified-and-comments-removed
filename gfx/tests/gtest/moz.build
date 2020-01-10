@@ -145,6 +145,11 @@ TestLayers
 cpp
 '
 '
+TestMatrix
+.
+cpp
+'
+'
 TestMoz2D
 .
 cpp
