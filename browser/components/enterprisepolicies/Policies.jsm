@@ -4296,6 +4296,10 @@ xpinstall
 }
 }
 }
+LegacyProfiles
+:
+{
+}
 LocalFileLinks
 :
 {
