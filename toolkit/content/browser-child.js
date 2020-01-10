@@ -55,6 +55,8 @@ WebProgressChild
 this
 )
 ;
+try
+{
 docShell
 .
 QueryInterface
@@ -75,6 +77,13 @@ beginSendingWebProgressEventsToParent
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 sendAsyncMessage
 (
 "
