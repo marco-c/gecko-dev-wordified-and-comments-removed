@@ -97,7 +97,7 @@ we
 d
 then
 use
-InfallibleTArray
+nsTArray
 <
 nsString
 >
@@ -155,7 +155,7 @@ using
 that
 instead
 of
-InfallibleTArray
+nsTArray
 <
 nsString
 >
@@ -186,7 +186,7 @@ is
 cheaper
 than
 copying
-InfallibleTArray
+nsTArray
 member
 data
 and
