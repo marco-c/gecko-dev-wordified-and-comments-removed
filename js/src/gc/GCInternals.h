@@ -148,9 +148,9 @@ protected
 :
 AutoHeapSession
 (
-JSRuntime
+GCRuntime
 *
-rt
+gc
 JS
 :
 :
@@ -180,9 +180,9 @@ AutoHeapSession
 =
 delete
 ;
-JSRuntime
+GCRuntime
 *
-runtime
+gc
 ;
 JS
 :
@@ -207,9 +207,9 @@ public
 explicit
 AutoGCSession
 (
-JSRuntime
+GCRuntime
 *
-rt
+gc
 JS
 :
 :
@@ -219,7 +219,7 @@ state
 :
 AutoHeapSession
 (
-rt
+gc
 state
 )
 {
@@ -274,7 +274,11 @@ rt
 )
 AutoHeapSession
 (
+&
 rt
+-
+>
+gc
 JS
 :
 :

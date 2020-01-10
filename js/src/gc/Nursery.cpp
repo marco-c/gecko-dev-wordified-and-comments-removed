@@ -5175,7 +5175,7 @@ runtime
 AutoGCSession
 session
 (
-rt
+gc
 JS
 :
 :
@@ -6022,7 +6022,7 @@ for
 ZonesIter
 zone
 (
-rt
+gc
 SkipAtoms
 )
 ;
@@ -6076,7 +6076,7 @@ session
 .
 emplace
 (
-rt
+gc
 JS
 :
 :
