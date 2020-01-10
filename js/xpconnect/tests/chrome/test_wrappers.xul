@@ -857,6 +857,10 @@ QIed
 =
 win
 .
+document
+.
+documentElement
+.
 QueryInterface
 (
 Ci
