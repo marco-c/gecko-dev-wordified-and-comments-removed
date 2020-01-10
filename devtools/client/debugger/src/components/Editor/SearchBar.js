@@ -848,6 +848,17 @@ this
 .
 props
 ;
+this
+.
+setState
+(
+{
+inputFocused
+:
+false
+}
+)
+;
 if
 (
 !
