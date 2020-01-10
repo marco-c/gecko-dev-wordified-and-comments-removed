@@ -1486,12 +1486,6 @@ hasName
 true
 ;
 }
-constexpr
-size_t
-MaxFilenameLength
-=
-200
-;
 const
 char
 *
@@ -1520,10 +1514,9 @@ null
 size_t
 filenameLength
 =
-js_strnlen
+strlen
 (
 filenameStr
-MaxFilenameLength
 )
 ;
 bool
