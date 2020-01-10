@@ -11295,6 +11295,12 @@ second
 if
 (
 state
+&
+&
+state
+-
+>
+mParent
 )
 {
 LayersId
