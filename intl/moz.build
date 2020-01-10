@@ -100,11 +100,6 @@ DIRS
 '
 hyphenation
 /
-hyphen
-'
-'
-hyphenation
-/
 glue
 '
 '

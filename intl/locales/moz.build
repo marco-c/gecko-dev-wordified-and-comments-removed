@@ -231,7 +231,7 @@ hyph_
 locale
 }
 .
-dic
+hyf
 '
 FINAL_TARGET_FILES
 .
@@ -284,6 +284,6 @@ hyphenation
 /
 hyph_en_US
 .
-dic
+hyf
 '
 ]
