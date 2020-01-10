@@ -86,9 +86,11 @@ reportURL
 )
 )
 )
+{
 return
 reports
 ;
+}
 }
 catch
 (

@@ -444,9 +444,7 @@ pathExists
 {
 return
 {
-"
 crashid
-"
 :
 "
 Crash
@@ -455,9 +453,7 @@ ID
 %
 s
 "
-"
 reporturl
-"
 :
 "
 You
@@ -487,16 +483,12 @@ let
 strings
 =
 {
-"
 crashid
-"
 :
 crstrings
 .
 CrashID
-"
 reporturl
-"
 :
 crstrings
 .
@@ -1473,9 +1465,7 @@ addEventListener
 "
 readystatechange
 "
-(
 evt
-)
 =
 >
 {

@@ -57,13 +57,11 @@ return
 var
 isOSX
 =
-(
 "
 nsILocalFileMac
 "
 in
 Ci
-)
 ;
 if
 (
