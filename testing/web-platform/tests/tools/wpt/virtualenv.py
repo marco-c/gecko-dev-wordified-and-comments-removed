@@ -597,9 +597,22 @@ py
 "
 )
         
-execfile
+with
+open
 (
 path
+)
+as
+f
+:
+            
+exec
+(
+f
+.
+read
+(
+)
 {
 "
 __file__
