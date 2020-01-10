@@ -164,7 +164,6 @@ sourceMaps
 getGeneratedLocation
 (
 end
-source
 )
 ;
 const
@@ -176,7 +175,6 @@ sourceMaps
 getGeneratedLocation
 (
 start
-source
 )
 ;
 return
@@ -246,7 +244,6 @@ sourceMaps
 getGeneratedRanges
 (
 start
-source
 )
 ;
 const
@@ -328,7 +325,6 @@ sourceMaps
 getGeneratedLocation
 (
 end
-source
 )
 ;
 const
@@ -340,7 +336,6 @@ sourceMaps
 getGeneratedLocation
 (
 start
-source
 )
 ;
 for
