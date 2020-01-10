@@ -914,6 +914,9 @@ true
 preventClosingOnKey
 :
 true
+preventRaisingOnKey
+:
+true
 onkey
 :
 function
