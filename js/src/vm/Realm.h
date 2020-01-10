@@ -974,8 +974,11 @@ sweepAfterMinorGC
 )
 ;
 void
-sweepNativeIterators
+traceWeakNativeIterators
 (
+JSTracer
+*
+trc
 )
 ;
 void
@@ -2023,8 +2026,11 @@ sweepDebugEnvironments
 )
 ;
 void
-sweepObjectRealm
+traceWeakObjectRealm
 (
+JSTracer
+*
+trc
 )
 ;
 void
