@@ -5,11 +5,7 @@ bin
 /
 bash
 source
-HOME
-/
-checkouts
-/
-gecko
+GECKO_PATH
 /
 taskcluster
 /
@@ -30,11 +26,7 @@ custom
 mozconfig
 MOZCONFIG
 =
-HOME
-/
-checkouts
-/
-gecko
+GECKO_PATH
 /
 mozconfig
 echo
@@ -80,7 +72,7 @@ android
 sdk
 =
 {
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 }
 /
 android
@@ -104,7 +96,7 @@ android
 ndk
 =
 {
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 }
 /
 android
@@ -168,7 +160,7 @@ infer
 /
 infer
 mv
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 infer
 /

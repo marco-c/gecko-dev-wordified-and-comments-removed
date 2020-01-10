@@ -158,7 +158,9 @@ tooltool
 downloads
 :
 public
-toolchains
+fetches
+:
+toolchain
 :
 -
 linux64

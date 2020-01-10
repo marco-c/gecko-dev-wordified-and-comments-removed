@@ -7385,9 +7385,14 @@ _get_config_environment
             
 clang_tools_path
 =
-self
+os
 .
-topsrcdir
+environ
+[
+'
+MOZ_FETCHES_DIR
+'
+]
             
 self
 .
@@ -14606,9 +14611,14 @@ rc
         
 infer_path
 =
-self
+os
 .
-topsrcdir
+environ
+[
+'
+MOZ_FETCHES_DIR
+'
+]
 if
 intree_tool
 else

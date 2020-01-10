@@ -18,23 +18,6 @@ HOME
 /
 workspace
 #
-Setup
-toolchains
-pushd
-MOZBUILD_STATE_PATH
-HOME
-/
-checkouts
-/
-gecko
-/
-mach
-artifact
-toolchain
--
-v
-MOZ_TOOLCHAINS
-#
 Add
 toolchain
 binaries
@@ -49,7 +32,7 @@ configure
 export
 PATH
 =
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -59,7 +42,7 @@ PATH
 export
 PATH
 =
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 rustc
 /
@@ -69,7 +52,7 @@ PATH
 export
 PATH
 =
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 cbindgen
 :
@@ -77,7 +60,7 @@ PATH
 export
 PATH
 =
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 nasm
 :
@@ -85,7 +68,7 @@ PATH
 export
 PATH
 =
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 node
 /
@@ -101,7 +84,7 @@ compiler
 export
 CC
 =
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -111,7 +94,7 @@ clang
 export
 CXX
 =
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -120,4 +103,3 @@ bin
 clang
 +
 +
-popd

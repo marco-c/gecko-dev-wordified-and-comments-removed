@@ -34,7 +34,7 @@ PATH
 export
 PATH
 =
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 clang
 -
@@ -50,7 +50,7 @@ clang
 export
 LD_LIBRARY_PATH
 =
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 clang
 /
@@ -62,11 +62,7 @@ mozconfig
 export
 MOZCONFIG
 =
-HOME
-/
-checkouts
-/
-gecko
+GECKO_PATH
 /
 mozconfig
 #
@@ -136,7 +132,7 @@ tools
 ln
 -
 s
-MOZBUILD_STATE_PATH
+MOZ_FETCHES_DIR
 /
 clang
 -
