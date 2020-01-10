@@ -535,7 +535,7 @@ Administrator
 privileges
 )
 :
-bash
+powershell
 python
 wpt
 make
