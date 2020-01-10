@@ -220,10 +220,11 @@ printpreview
 -
 custom
 -
+scale
+-
 prompt
-=
-.
-value
+-
+title
 =
 Custom
 Scale
