@@ -31,13 +31,6 @@ and
 Safari
 Technology
 Preview
-in
-which
-case
-only
-step
-is
-needed
 .
 *
 Allow
