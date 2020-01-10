@@ -228,11 +228,12 @@ tabs
 {
 Assert
 .
-greater
+ok
 (
 tabs
 .
 length
+>
 0
 "
 Need

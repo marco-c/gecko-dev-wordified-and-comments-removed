@@ -347,13 +347,14 @@ click
 ;
 Assert
 .
-greater
+ok
 (
 viewBookmark
 .
 href
 .
 length
+>
 0
 "
 viewBookmark

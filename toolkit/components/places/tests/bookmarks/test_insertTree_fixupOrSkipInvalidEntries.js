@@ -231,11 +231,13 @@ indices
 ;
 Assert
 .
-greaterEqual
+ok
 (
 event
 .
 dateAdded
+>
+=
 now
 "
 Found

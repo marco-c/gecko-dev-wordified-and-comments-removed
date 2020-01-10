@@ -6612,11 +6612,12 @@ many
 ;
 Assert
 .
-greater
+ok
 (
 links
 .
 length
+>
 6
 "
 query

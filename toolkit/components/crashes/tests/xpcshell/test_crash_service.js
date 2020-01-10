@@ -764,7 +764,7 @@ frames
 ;
 Assert
 .
-greater
+ok
 (
 frames
 &
@@ -772,6 +772,7 @@ frames
 frames
 .
 length
+>
 0
 "
 The
