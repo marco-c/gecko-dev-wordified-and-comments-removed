@@ -17131,6 +17131,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
