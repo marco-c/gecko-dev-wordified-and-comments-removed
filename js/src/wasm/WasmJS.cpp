@@ -5611,16 +5611,16 @@ false
 }
 Rooted
 <
-JSFlatString
+JSLinearString
 *
 >
-flat
+linear
 (
 cx
 str
 -
 >
-ensureFlat
+ensureLinear
 (
 cx
 )
@@ -5629,7 +5629,7 @@ cx
 if
 (
 !
-flat
+linear
 )
 {
 return
@@ -5648,7 +5648,7 @@ JS
 :
 GetDeflatedUTF8StringLength
 (
-flat
+linear
 )
 )
 )
@@ -5668,7 +5668,7 @@ JS
 :
 DeflateStringToUTF8Buffer
 (
-flat
+linear
 MakeSpan
 (
 name
