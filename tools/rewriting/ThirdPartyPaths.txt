@@ -1012,16 +1012,6 @@ toolkit
 /
 components
 /
-url
--
-classifier
-/
-protobuf
-/
-toolkit
-/
-components
-/
 utils
 /
 mozjexl
