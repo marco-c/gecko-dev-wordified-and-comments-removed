@@ -2243,6 +2243,8 @@ nsISHEntry
 aChild
 int32_t
 aOffset
+bool
+aUseRemoteSubframes
 )
 {
 if
@@ -2623,8 +2625,9 @@ oldChild
 aChild
 )
 {
-NS_ERROR
+NS_ASSERTION
 (
+aUseRemoteSubframes
 "
 Adding
 a

@@ -15307,6 +15307,9 @@ AddChild
 (
 aNewEntry
 aChildOffset
+UseRemoteSubframes
+(
+)
 )
 ;
 }
