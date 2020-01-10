@@ -56,8 +56,6 @@ lastIndexOf
 /
 "
 )
-+
-1
 )
 ;
 for

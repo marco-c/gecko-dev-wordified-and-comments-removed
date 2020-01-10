@@ -116,8 +116,6 @@ lastIndexOf
 /
 "
 )
-+
-1
 )
 .
 replace

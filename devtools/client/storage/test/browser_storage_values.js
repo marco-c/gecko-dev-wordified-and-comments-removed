@@ -382,7 +382,6 @@ client
 storage
 /
 test
-/
 "
 )
 [

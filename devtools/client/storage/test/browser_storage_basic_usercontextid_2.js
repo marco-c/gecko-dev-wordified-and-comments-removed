@@ -161,7 +161,6 @@ client
 storage
 /
 test
-/
 "
 )
 ]

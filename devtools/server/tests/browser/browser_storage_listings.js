@@ -236,7 +236,6 @@ server
 tests
 /
 browser
-/
 "
 host
 :
@@ -363,7 +362,6 @@ server
 tests
 /
 browser
-/
 "
 host
 :
