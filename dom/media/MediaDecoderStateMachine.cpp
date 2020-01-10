@@ -12687,7 +12687,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+MDSM
 )
 "
 MDSM
