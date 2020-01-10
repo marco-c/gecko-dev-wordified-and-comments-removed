@@ -70,12 +70,10 @@ undefined
 logValue
 :
 displayName
-+
 "
 Logpoint
 Number
 "
-+
 number
 }
 )
@@ -95,7 +93,6 @@ undefined
 logValue
 :
 displayName
-+
 "
 Logpoint
 Beginning
@@ -118,7 +115,6 @@ undefined
 logValue
 :
 displayName
-+
 "
 Logpoint
 Ending
