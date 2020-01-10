@@ -105,7 +105,7 @@ duration
 is
 (
 entries
-1000
+1024
 "
 Should
 apply
