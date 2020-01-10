@@ -247,7 +247,7 @@ int
 type
 int
 code
-int64_t
+int
 subcode
 mach_port_t
 thread_name
@@ -670,7 +670,7 @@ exception_type_
 int
 exception_code_
 ;
-int64_t
+int
 exception_subcode_
 ;
 mach_port_t
