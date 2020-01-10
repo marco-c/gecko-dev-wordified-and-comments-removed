@@ -30,7 +30,7 @@ inline
 -
 end
 :
-4px
+2px
 ;
 }
 #
@@ -194,14 +194,6 @@ pointer
 events
 :
 none
-;
-margin
--
-inline
--
-end
-:
-2px
 ;
 -
 moz
