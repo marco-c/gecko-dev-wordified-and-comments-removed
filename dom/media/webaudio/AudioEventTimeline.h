@@ -1007,16 +1007,6 @@ return
 mValue
 ;
 }
-float
-Value
-(
-)
-const
-{
-return
-mValue
-;
-}
 void
 SetValue
 (
