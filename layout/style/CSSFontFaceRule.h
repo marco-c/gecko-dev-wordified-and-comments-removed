@@ -169,7 +169,10 @@ new
 size_t
 size
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 =
 delete
 ;

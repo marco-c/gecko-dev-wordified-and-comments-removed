@@ -13174,15 +13174,6 @@ fi
 #
 !
 SKIP_COMPILER_CHECKS
-AC_DEFINE
-(
-CPP_THROW_NEW
-[
-throw
-(
-)
-]
-)
 AC_LANG_C
 MOZ_EXPAND_LIBS
 dnl

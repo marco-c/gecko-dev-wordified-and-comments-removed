@@ -194,7 +194,10 @@ new
 (
 size_t
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 ;
 static
 void

@@ -201,7 +201,10 @@ new
 size_t
 aSize
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 {
 if
 (

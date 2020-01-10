@@ -91,15 +91,6 @@ h
 #
 include
 "
-xpcom
--
-config
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ArrayView

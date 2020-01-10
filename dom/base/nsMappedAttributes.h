@@ -78,7 +78,10 @@ aAttrCount
 =
 1
 )
-CPP_THROW_NEW
+noexcept
+(
+true
+)
 ;
 nsMappedAttributes
 *
