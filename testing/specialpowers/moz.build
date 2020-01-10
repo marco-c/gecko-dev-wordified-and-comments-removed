@@ -153,13 +153,6 @@ jsm
 '
 content
 /
-SpecialPowersAPI
-.
-jsm
-'
-'
-content
-/
 SpecialPowersAPIParent
 .
 jsm
