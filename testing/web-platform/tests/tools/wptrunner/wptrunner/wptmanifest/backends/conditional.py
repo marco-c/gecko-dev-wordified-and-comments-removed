@@ -2421,6 +2421,14 @@ child
 parent
 =
 None
+        
+child
+.
+node
+.
+remove
+(
+)
     
 def
 iterchildren
