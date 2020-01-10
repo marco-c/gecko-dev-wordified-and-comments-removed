@@ -248,9 +248,15 @@ MediaStream
 ;
 navigator
 .
+mediaDevices
+.
 getUserMedia
 (
 constraints
+)
+.
+then
+(
 gotStream
 onError
 )
