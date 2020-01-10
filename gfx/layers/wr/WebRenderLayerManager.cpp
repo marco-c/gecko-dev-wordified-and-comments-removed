@@ -1192,13 +1192,6 @@ mRenderRoot
 =
 renderRoot
 ;
-updates
--
->
-mPaintSequenceNumber
-=
-mPaintSequenceNumber
-;
 if
 (
 stateManager
@@ -1288,6 +1281,7 @@ EndEmptyTransaction
 (
 mFocusTarget
 renderRootUpdates
+mPaintSequenceNumber
 mLatestTransactionId
 mTransactionIdAllocator
 -
