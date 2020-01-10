@@ -818,6 +818,15 @@ hasScriptCounts
 )
 )
 ;
+gc
+:
+:
+AutoSuppressGC
+suppress
+(
+cx
+)
+;
 #
 ifdef
 DEBUG
