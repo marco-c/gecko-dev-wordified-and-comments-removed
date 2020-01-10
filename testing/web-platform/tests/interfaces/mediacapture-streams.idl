@@ -288,11 +288,6 @@ resizeMode
 true
 ;
 boolean
-volume
-=
-true
-;
-boolean
 sampleRate
 =
 true
@@ -366,9 +361,6 @@ DOMString
 >
 resizeMode
 ;
-DoubleRange
-volume
-;
 ULongRange
 sampleRate
 ;
@@ -441,9 +433,6 @@ facingMode
 ConstrainDOMString
 resizeMode
 ;
-ConstrainDouble
-volume
-;
 ConstrainULong
 sampleRate
 ;
@@ -493,9 +482,6 @@ facingMode
 ;
 DOMString
 resizeMode
-;
-double
-volume
 ;
 long
 sampleRate
