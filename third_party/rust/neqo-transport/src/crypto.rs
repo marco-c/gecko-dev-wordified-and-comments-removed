@@ -2009,6 +2009,7 @@ RxStreamOrderer
 derive
 (
 Debug
+Clone
 )
 ]
 pub
