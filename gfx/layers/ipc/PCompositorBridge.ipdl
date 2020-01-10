@@ -2013,7 +2013,7 @@ bool
 success
 )
 ;
-sync
+async
 EndRecording
 (
 )

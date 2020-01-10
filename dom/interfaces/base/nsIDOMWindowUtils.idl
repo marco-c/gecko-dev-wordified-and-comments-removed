@@ -12589,7 +12589,7 @@ off
 .
 *
 /
-void
+Promise
 setCompositionRecording
 (
 in

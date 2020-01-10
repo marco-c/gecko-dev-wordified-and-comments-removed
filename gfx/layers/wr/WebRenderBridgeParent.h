@@ -1560,7 +1560,16 @@ WebRenderCompositionRecorder
 aRecorder
 )
 ;
-void
+RefPtr
+<
+wr
+:
+:
+WebRenderAPI
+:
+:
+WriteCollectedFramesPromise
+>
 WriteCollectedFrames
 (
 )
