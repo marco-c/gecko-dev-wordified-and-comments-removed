@@ -176,13 +176,6 @@ maxBytes
 testChangeParam
 (
 "
-maxMallocBytes
-"
-)
-;
-testChangeParam
-(
-"
 mode
 "
 )

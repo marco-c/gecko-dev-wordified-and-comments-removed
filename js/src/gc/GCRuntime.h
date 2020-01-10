@@ -1899,17 +1899,6 @@ data
 )
 ;
 void
-setMaxMallocBytes
-(
-size_t
-value
-const
-AutoLockGC
-&
-lock
-)
-;
-void
 updateMemoryCountersOnGCStart
 (
 )

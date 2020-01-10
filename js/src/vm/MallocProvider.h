@@ -1093,6 +1093,14 @@ this
 )
 ;
 }
+void
+updateMallocCounter
+(
+size_t
+nbytes
+)
+{
+}
 }
 ;
 }

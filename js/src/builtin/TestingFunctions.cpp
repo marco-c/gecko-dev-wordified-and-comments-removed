@@ -2652,15 +2652,6 @@ true
 _
 (
 "
-maxMallocBytes
-"
-JSGC_MAX_MALLOC_BYTES
-true
-)
-\
-_
-(
-"
 minNurseryBytes
 "
 JSGC_MIN_NURSERY_BYTES
@@ -3237,9 +3228,6 @@ param
 {
 case
 JSGC_MAX_BYTES
-:
-case
-JSGC_MAX_MALLOC_BYTES
 :
 case
 JSGC_MAX_NURSERY_BYTES

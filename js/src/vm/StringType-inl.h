@@ -2287,14 +2287,6 @@ sizeof
 char16_t
 )
 ;
-cx
--
->
-updateMallocCounter
-(
-nbytes
-)
-;
 MOZ_ASSERT
 (
 str
