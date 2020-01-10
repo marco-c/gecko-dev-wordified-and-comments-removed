@@ -71,6 +71,9 @@ false
 do_parse_document
 :
 false
+do_report_result
+:
+false
 do_report_unexpected_exception
 :
 false
