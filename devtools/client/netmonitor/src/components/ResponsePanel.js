@@ -492,6 +492,11 @@ props
 if
 (
 limit
+>
+0
+&
+&
+limit
 <
 =
 request
