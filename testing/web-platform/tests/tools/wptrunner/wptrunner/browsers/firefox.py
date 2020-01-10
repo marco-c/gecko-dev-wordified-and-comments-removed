@@ -1376,7 +1376,7 @@ debug
 webrender
 "
 "
-fisson
+fission
 "
 "
 e10s
