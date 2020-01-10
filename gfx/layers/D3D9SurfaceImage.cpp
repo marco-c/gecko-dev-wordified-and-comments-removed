@@ -504,6 +504,13 @@ YUVColorSpace
 :
 :
 UNKNOWN
+gfx
+:
+:
+ColorRange
+:
+:
+LIMITED
 )
 ;
 return
