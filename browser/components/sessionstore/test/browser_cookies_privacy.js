@@ -28,9 +28,7 @@ cookie
 =
 createTestCookie
 (
-"
-http
-"
+scheme
 secure
 )
 ;
