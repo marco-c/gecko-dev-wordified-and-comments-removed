@@ -22,7 +22,7 @@ servo
 .
 org
 /
-js
+mozjs
 /
 )
 #
