@@ -103,7 +103,7 @@ SOURCES
 =
 [
 '
-nsNetworkLinkService
+nsNotifyAddrListener_Linux
 .
 cpp
 '

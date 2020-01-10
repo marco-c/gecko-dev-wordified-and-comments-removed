@@ -168,7 +168,4 @@ DIRS
 '
 linux
 '
-'
-netlink
-'
 ]
