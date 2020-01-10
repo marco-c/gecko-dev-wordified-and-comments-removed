@@ -235,6 +235,11 @@ className
 manifest
 -
 issues
+js
+-
+manifest
+-
+issues
 "
 key
 :
