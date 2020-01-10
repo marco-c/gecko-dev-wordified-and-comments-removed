@@ -3254,7 +3254,7 @@ maybeDoCycleCollection
 )
 ;
 void
-markCompartments
+findDeadCompartments
 (
 )
 ;
