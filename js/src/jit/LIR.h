@@ -2017,7 +2017,6 @@ FLOAT32
 DOUBLE
 SIMD128INT
 SIMD128FLOAT
-SINCOS
 #
 ifdef
 JS_NUNBOX32
@@ -2842,18 +2841,6 @@ BOX
 ;
 #
 endif
-case
-MIRType
-:
-:
-SinCosDouble
-:
-return
-LDefinition
-:
-:
-SINCOS
-;
 case
 MIRType
 :

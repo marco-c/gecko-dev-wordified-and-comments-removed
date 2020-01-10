@@ -105,10 +105,6 @@ scalarReplacement_
 =
 true
 ;
-sincos_
-=
-true
-;
 sink_
 =
 true
@@ -234,10 +230,6 @@ eliminateRedundantChecks_
 false
 ;
 scalarReplacement_
-=
-false
-;
-sincos_
 =
 false
 ;

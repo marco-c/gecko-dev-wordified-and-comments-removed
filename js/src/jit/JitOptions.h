@@ -200,9 +200,6 @@ bool
 disableCacheIR
 ;
 bool
-disableSincos
-;
-bool
 disableSink
 ;
 bool

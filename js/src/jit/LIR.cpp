@@ -2148,17 +2148,6 @@ return
 simd128float
 "
 ;
-case
-LDefinition
-:
-:
-SINCOS
-:
-return
-"
-sincos
-"
-;
 #
 ifdef
 JS_NUNBOX32

@@ -398,12 +398,6 @@ case
 LDefinition
 :
 :
-SINCOS
-:
-case
-LDefinition
-:
-:
 SIMD128INT
 :
 case
