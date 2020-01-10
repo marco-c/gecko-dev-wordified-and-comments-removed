@@ -139,6 +139,11 @@ aForceAdjustResolution
 void
 ResolutionUpdated
 (
+mozilla
+:
+:
+ResolutionChangeOrigin
+aOrigin
 )
 ;
 void

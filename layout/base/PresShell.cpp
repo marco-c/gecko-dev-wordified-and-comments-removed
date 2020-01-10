@@ -25057,6 +25057,7 @@ mMobileViewportManager
 >
 ResolutionUpdated
 (
+aOrigin
 )
 ;
 }
