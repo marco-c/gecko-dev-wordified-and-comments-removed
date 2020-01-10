@@ -1785,7 +1785,6 @@ ui
 functional
 -
 remote
-#
 -
 gtest
 -
@@ -1927,8 +1926,6 @@ macosx64
 -
 tests
 :
--
-gtest
 -
 mochitest
 -
