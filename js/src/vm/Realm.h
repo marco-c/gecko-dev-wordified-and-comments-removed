@@ -2059,7 +2059,7 @@ clearScriptCounts
 )
 ;
 void
-clearScriptNames
+clearScriptLCov
 (
 )
 ;

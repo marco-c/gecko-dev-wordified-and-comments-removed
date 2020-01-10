@@ -2801,9 +2801,9 @@ UniquePtr
 js
 :
 :
-ScriptNameMap
+ScriptLCovMap
 >
-scriptNameMap
+scriptLCovMap
 ;
 js
 :
@@ -2851,7 +2851,7 @@ realm
 )
 ;
 void
-clearScriptNames
+clearScriptLCov
 (
 Realm
 *
