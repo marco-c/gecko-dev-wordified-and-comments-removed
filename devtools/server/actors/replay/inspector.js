@@ -126,6 +126,11 @@ getAllStyleSheets
 :
 case
 "
+getContentState
+"
+:
+case
+"
 getCSSStyleRules
 "
 :
