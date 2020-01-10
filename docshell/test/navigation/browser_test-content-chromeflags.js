@@ -159,7 +159,7 @@ getInterface
 (
 Ci
 .
-nsIXULWindow
+nsIAppWindow
 )
 .
 chromeFlags

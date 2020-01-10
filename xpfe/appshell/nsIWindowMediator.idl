@@ -158,7 +158,7 @@ interface
 mozIDOMWindowProxy
 ;
 interface
-nsIXULWindow
+nsIAppWindow
 ;
 interface
 nsIWidget
@@ -310,11 +310,11 @@ return
 an
 enumerator
 of
-nsIXULWindows
+nsIAppWindows
 *
 /
 nsISimpleEnumerator
-getXULWindowEnumerator
+getAppWindowEnumerator
 (
 in
 wstring
@@ -450,11 +450,11 @@ return
 an
 enumerator
 of
-nsIXULWindows
+nsIAppWindows
 *
 /
 nsISimpleEnumerator
-getZOrderXULWindowEnumerator
+getZOrderAppWindowEnumerator
 (
 in
 wstring
@@ -737,7 +737,7 @@ void
 registerWindow
 (
 in
-nsIXULWindow
+nsIAppWindow
 aWindow
 )
 ;
@@ -785,7 +785,7 @@ void
 unregisterWindow
 (
 in
-nsIXULWindow
+nsIAppWindow
 aWindow
 )
 ;
@@ -847,7 +847,7 @@ void
 updateWindowTimeStamp
 (
 in
-nsIXULWindow
+nsIAppWindow
 aWindow
 )
 ;
@@ -938,7 +938,7 @@ Note
 it
 compares
 the
-nsIXULWindow
+nsIAppWindow
 to
 nsIWidgets
 .
@@ -949,7 +949,7 @@ interface
 would
 use
 all
-nsIXULWindows
+nsIAppWindows
 .
 But
 we
@@ -1169,7 +1169,7 @@ boolean
 calculateZPosition
 (
 in
-nsIXULWindow
+nsIAppWindow
 inWindow
 in
 unsigned
@@ -1263,14 +1263,14 @@ void
 setZPosition
 (
 in
-nsIXULWindow
+nsIAppWindow
 inWindow
 in
 unsigned
 long
 inPosition
 in
-nsIXULWindow
+nsIAppWindow
 inBelow
 )
 ;
@@ -1288,7 +1288,7 @@ level
 as
 defined
 in
-nsIXULWindow
+nsIAppWindow
 )
 .
 *
@@ -1314,7 +1314,7 @@ uint32_t
 getZLevel
 (
 in
-nsIXULWindow
+nsIAppWindow
 aWindow
 )
 ;
@@ -1332,7 +1332,7 @@ level
 as
 defined
 in
-nsIXULWindow
+nsIAppWindow
 )
 .
 The
@@ -1365,7 +1365,7 @@ level
 to
 be
 *
-nsIXULWindow
+nsIAppWindow
 :
 :
 normalZ
@@ -1405,7 +1405,7 @@ void
 setZLevel
 (
 in
-nsIXULWindow
+nsIAppWindow
 aWindow
 in
 uint32_t

@@ -101,7 +101,7 @@ nsISupports
 idl
 "
 interface
-nsIXULWindow
+nsIAppWindow
 ;
 interface
 nsIWindowlessBrowser
@@ -352,11 +352,11 @@ SIZE_TO_CONTENT
 -
 1
 ;
-nsIXULWindow
+nsIAppWindow
 createTopLevelWindow
 (
 in
-nsIXULWindow
+nsIAppWindow
 aParent
 in
 nsIURI
@@ -564,7 +564,7 @@ window
 /
 readonly
 attribute
-nsIXULWindow
+nsIAppWindow
 hiddenWindow
 ;
 /
@@ -743,7 +743,7 @@ void
 registerTopLevelWindow
 (
 in
-nsIXULWindow
+nsIAppWindow
 aWindow
 )
 ;
@@ -804,7 +804,7 @@ void
 unregisterTopLevelWindow
 (
 in
-nsIXULWindow
+nsIAppWindow
 aWindow
 )
 ;

@@ -92,7 +92,7 @@ h
 #
 include
 "
-nsXULWindow
+AppWindow
 .
 h
 "
@@ -650,7 +650,7 @@ rv
 ;
 RefPtr
 <
-nsXULWindow
+AppWindow
 >
 newWindow
 ;
@@ -755,7 +755,7 @@ nsAppShellService
 :
 CreateTopLevelWindow
 (
-nsIXULWindow
+nsIAppWindow
 *
 aParent
 nsIURI
@@ -773,7 +773,7 @@ aOpeningTab
 mozIDOMWindowProxy
 *
 aOpenerWindow
-nsIXULWindow
+nsIAppWindow
 *
 *
 aResult
@@ -795,7 +795,7 @@ CREATE_TOP_LEVEL_WINDOW
 ;
 RefPtr
 <
-nsXULWindow
+AppWindow
 >
 newWindow
 ;
@@ -840,7 +840,7 @@ aResult
 ;
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
 parent
 ;
@@ -1958,7 +1958,7 @@ nsAppShellService
 :
 CalculateWindowZLevel
 (
-nsIXULWindow
+nsIAppWindow
 *
 aParent
 uint32_t
@@ -1970,7 +1970,7 @@ zLevel
 ;
 zLevel
 =
-nsIXULWindow
+nsIAppWindow
 :
 :
 normalZ
@@ -1986,7 +1986,7 @@ CHROME_WINDOW_RAISED
 )
 zLevel
 =
-nsIXULWindow
+nsIAppWindow
 :
 :
 raisedZ
@@ -2003,7 +2003,7 @@ CHROME_WINDOW_LOWERED
 )
 zLevel
 =
-nsIXULWindow
+nsIAppWindow
 :
 :
 loweredZ
@@ -2115,7 +2115,7 @@ windowList
 wm
 -
 >
-GetXULWindowEnumerator
+GetAppWindowEnumerator
 (
 nullptr
 getter_AddRefs
@@ -2245,7 +2245,7 @@ nsAppShellService
 :
 JustCreateTopWindow
 (
-nsIXULWindow
+nsIAppWindow
 *
 aParent
 nsIURI
@@ -2265,7 +2265,7 @@ aOpeningTab
 mozIDOMWindowProxy
 *
 aOpenerWindow
-nsXULWindow
+AppWindow
 *
 *
 aResult
@@ -2284,7 +2284,7 @@ mXPCOMWillShutDown
 ;
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
 parent
 ;
@@ -2303,12 +2303,12 @@ aParent
 ;
 RefPtr
 <
-nsXULWindow
+AppWindow
 >
 window
 =
 new
-nsXULWindow
+AppWindow
 (
 aChromeMask
 )
@@ -3186,7 +3186,7 @@ nsAppShellService
 :
 GetHiddenWindow
 (
-nsIXULWindow
+nsIAppWindow
 *
 *
 aWindow
@@ -3365,7 +3365,7 @@ nsAppShellService
 :
 RegisterTopLevelWindow
 (
-nsIXULWindow
+nsIAppWindow
 *
 aWindow
 )
@@ -3552,20 +3552,20 @@ registered
 nullptr
 )
 ;
-nsXULWindow
+AppWindow
 *
-xulWindow
+appWindow
 =
 static_cast
 <
-nsXULWindow
+AppWindow
 *
 >
 (
 aWindow
 )
 ;
-xulWindow
+appWindow
 -
 >
 WasRegistered
@@ -3583,7 +3583,7 @@ nsAppShellService
 :
 UnregisterTopLevelWindow
 (
-nsIXULWindow
+nsIAppWindow
 *
 aWindow
 )

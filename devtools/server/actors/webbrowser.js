@@ -670,7 +670,7 @@ browserActorOptions
 )
 {
 const
-topXULWindow
+topAppWindow
 =
 Services
 .
@@ -690,7 +690,7 @@ null
 ;
 if
 (
-topXULWindow
+topAppWindow
 )
 {
 selectedBrowser
@@ -699,7 +699,7 @@ this
 .
 _getSelectedBrowser
 (
-topXULWindow
+topAppWindow
 )
 ;
 }
@@ -1229,7 +1229,7 @@ tabId
 ;
 }
 const
-topXULWindow
+topAppWindow
 =
 Services
 .
@@ -1244,7 +1244,7 @@ chromeWindowType
 ;
 if
 (
-topXULWindow
+topAppWindow
 )
 {
 const
@@ -1254,7 +1254,7 @@ this
 .
 _getSelectedBrowser
 (
-topXULWindow
+topAppWindow
 )
 ;
 return
@@ -2509,7 +2509,7 @@ window
 instanceof
 Ci
 .
-nsIXULWindow
+nsIAppWindow
 )
 {
 window

@@ -1921,7 +1921,7 @@ GetEditorView
 ;
 nsCocoaWindow
 *
-GetXULWindowWidget
+GetAppWindowWidget
 (
 )
 const

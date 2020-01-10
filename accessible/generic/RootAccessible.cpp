@@ -277,7 +277,7 @@ MOZ_XUL
 #
 include
 "
-nsIXULWindow
+nsIAppWindow
 .
 h
 "
@@ -511,9 +511,9 @@ treeOwner
 ;
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
-xulWin
+appWin
 (
 do_GetInterface
 (
@@ -524,7 +524,7 @@ treeOwner
 if
 (
 !
-xulWin
+appWin
 )
 {
 return
@@ -534,7 +534,7 @@ return
 uint32_t
 chromeFlags
 ;
-xulWin
+appWin
 -
 >
 GetChromeFlags

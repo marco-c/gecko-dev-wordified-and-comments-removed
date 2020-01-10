@@ -1962,7 +1962,7 @@ id
 ;
 }
 get
-xulWindow
+appWindow
 (
 )
 {
@@ -1986,7 +1986,7 @@ getInterface
 (
 Ci
 .
-nsIXULWindow
+nsIAppWindow
 )
 ;
 }
@@ -2035,7 +2035,7 @@ chromeFlags
 =
 this
 .
-xulWindow
+appWindow
 ;
 if
 (

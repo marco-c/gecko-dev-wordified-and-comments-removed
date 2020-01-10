@@ -215,7 +215,7 @@ h
 #
 include
 "
-nsIXULWindow
+nsIAppWindow
 .
 h
 "
@@ -1924,7 +1924,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
 hiddenWindow
 ;
@@ -1993,7 +1993,7 @@ from
 hidden
 window
 (
-nsIXULWindow
+nsIAppWindow
 )
 "
 )
