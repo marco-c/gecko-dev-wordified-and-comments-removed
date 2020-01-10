@@ -1221,6 +1221,10 @@ short
 -
 name
 }
+.
+accesskey
+=
+n
 menu
 -
 tools
