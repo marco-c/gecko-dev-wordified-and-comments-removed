@@ -175,7 +175,7 @@ nullptr
 NS_ERROR_NULL_POINTER
 )
 ;
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
