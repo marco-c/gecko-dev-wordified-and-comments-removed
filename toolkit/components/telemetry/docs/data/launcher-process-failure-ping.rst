@@ -117,7 +117,7 @@ string
 /
 Windows
 version
-numnber
+number
 in
 major
 .
