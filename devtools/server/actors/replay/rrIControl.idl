@@ -178,5 +178,13 @@ AfterSaveRecording
 (
 )
 ;
+void
+ChildCrashed
+(
+in
+long
+childId
+)
+;
 }
 ;

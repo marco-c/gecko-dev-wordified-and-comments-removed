@@ -137,6 +137,17 @@ bool
 aRestoredCheckpoint
 )
 ;
+bool
+RecoverFromCrash
+(
+parent
+:
+:
+ChildProcessInfo
+*
+aChild
+)
+;
 void
 BeginIdleTime
 (
