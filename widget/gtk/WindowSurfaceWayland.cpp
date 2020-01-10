@@ -3048,7 +3048,9 @@ IsAttached
 return
 SetNewWaylandBuffer
 (
-mUseDMABuf
+UseDMABufBackend
+(
+)
 &
 &
 mWaylandFullscreenDamage
