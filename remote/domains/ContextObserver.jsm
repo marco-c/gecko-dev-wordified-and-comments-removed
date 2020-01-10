@@ -240,8 +240,6 @@ defaultView
 if
 (
 window
-.
-top
 !
 =
 this
