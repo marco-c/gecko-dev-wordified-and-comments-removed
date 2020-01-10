@@ -247,6 +247,14 @@ button
 =
 Edit
 .
+field
+-
+required
+-
+symbol
+=
+*
+.
 hostname
 -
 label
