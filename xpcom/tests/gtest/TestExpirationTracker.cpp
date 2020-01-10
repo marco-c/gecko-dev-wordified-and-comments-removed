@@ -208,9 +208,15 @@ sleepPeriodMS
 ;
 static
 uint32_t
-slackMS
+upperBoundSlackMS
 =
-30
+1200
+;
+static
+uint32_t
+lowerBoundSlackMS
+=
+60
 ;
 template
 <
@@ -742,7 +748,7 @@ K
 *
 periodMS
 -
-slackMS
+lowerBoundSlackMS
 ;
 uint32_t
 upperBoundMS
@@ -755,7 +761,7 @@ periodMS
 sleepPeriodMS
 )
 +
-slackMS
+upperBoundSlackMS
 ;
 if
 (
