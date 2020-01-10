@@ -190,7 +190,7 @@ mode
 testChangeParam
 (
 "
-sliceTimeBudget
+sliceTimeBudgetMS
 "
 )
 ;

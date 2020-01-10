@@ -1,7 +1,7 @@
 gcparam
 (
 "
-sliceTimeBudget
+sliceTimeBudgetMS
 "
 -
 1

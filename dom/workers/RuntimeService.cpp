@@ -2660,7 +2660,7 @@ prefValue
 UpdateOtherJSGCMemoryOption
 (
 rts
-JSGC_SLICE_TIME_BUDGET
+JSGC_SLICE_TIME_BUDGET_MS
 value
 )
 ;

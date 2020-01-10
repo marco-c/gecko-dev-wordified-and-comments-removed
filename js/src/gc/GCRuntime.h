@@ -2227,13 +2227,13 @@ majorGCNumber
 ;
 }
 int64_t
-defaultSliceBudget
+defaultSliceBudgetMS
 (
 )
 const
 {
 return
-defaultTimeBudget_
+defaultTimeBudgetMS_
 ;
 }
 bool
@@ -4496,7 +4496,7 @@ MainThreadData
 <
 int64_t
 >
-defaultTimeBudget_
+defaultTimeBudgetMS_
 ;
 MainThreadData
 <
