@@ -1905,6 +1905,11 @@ subjectPrincipal
 IsSystemPrincipal
 (
 )
+|
+|
+XRE_IsE10sParentProcess
+(
+)
 )
 {
 JS
@@ -1995,7 +2000,7 @@ DEBUG
 nsContentSecurityManager
 :
 :
-AssertEvalNotUsingSystemPrincipal
+AssertEvalNotRestricted
 (
 cx
 subjectPrincipal

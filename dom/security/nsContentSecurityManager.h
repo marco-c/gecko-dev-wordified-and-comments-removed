@@ -144,7 +144,7 @@ fileName
 ;
 static
 void
-AssertEvalNotUsingSystemPrincipal
+AssertEvalNotRestricted
 (
 JSContext
 *

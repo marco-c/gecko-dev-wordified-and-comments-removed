@@ -11211,6 +11211,9 @@ objects
 "
 systemContext
 "
+"
+parentProcess
+"
 ]
 bug_numbers
 :
@@ -11240,7 +11243,11 @@ in
 the
 System
 Principal
-Context
+context
+or
+the
+Parent
+Process
 .
 Expected
 values

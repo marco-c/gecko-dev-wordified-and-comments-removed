@@ -175,7 +175,7 @@ GetCurrentJSContext
 nsContentSecurityManager
 :
 :
-AssertEvalNotUsingSystemPrincipal
+AssertEvalNotRestricted
 (
 cx
 aSubjectPrincipal

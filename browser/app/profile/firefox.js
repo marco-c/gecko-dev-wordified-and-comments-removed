@@ -3406,6 +3406,16 @@ false
 pref
 (
 "
+security
+.
+allow_eval_in_parent_process
+"
+false
+)
+;
+pref
+(
+"
 browser
 .
 tabs
