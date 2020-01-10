@@ -2435,6 +2435,10 @@ wasm
 memory
 supported
 "
+.
+to_string
+(
+)
 )
 )
 ;
@@ -3144,6 +3148,10 @@ wasm
 table
 supported
 "
+.
+to_string
+(
+)
 )
 )
 ;
