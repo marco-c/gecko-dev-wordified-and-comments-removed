@@ -14495,9 +14495,13 @@ snapped_local_rect
 prim_info
 .
 combined_local_clip_rect
-frame_context
+frame_state
 .
-global_screen_world_rect
+current_dirty_region
+(
+)
+.
+combined
 plane_split_anchor
 )
 ;
