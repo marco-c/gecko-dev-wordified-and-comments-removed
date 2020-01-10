@@ -108,6 +108,11 @@ SessionAccessibility
 .
 h
 '
+'
+TraversalRule
+.
+h
+'
 ]
 SOURCES
 +
@@ -140,6 +145,11 @@ cpp
 '
 '
 SessionAccessibility
+.
+cpp
+'
+'
+TraversalRule
 .
 cpp
 '
@@ -179,6 +189,12 @@ accessible
 ipc
 /
 other
+'
+'
+/
+accessible
+/
+xpcom
 '
 '
 /
