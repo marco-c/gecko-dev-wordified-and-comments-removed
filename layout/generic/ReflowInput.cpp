@@ -11351,8 +11351,9 @@ an
 mFrame
 )
 ;
+const
 bool
-isBlock
+isBlockLevel
 =
 NS_CSS_FRAME_TYPE_BLOCK
 =
@@ -11360,6 +11361,14 @@ NS_CSS_FRAME_TYPE_BLOCK
 NS_FRAME_GET_TYPE
 (
 mFrameType
+)
+|
+|
+mFrame
+-
+>
+IsFlexOrGridItem
+(
 )
 ;
 typedef
@@ -11372,7 +11381,7 @@ ComputeSizeFlags
 ComputeSizeFlags
 computeSizeFlags
 =
-isBlock
+isBlockLevel
 ?
 ComputeSizeFlags
 :
@@ -11649,7 +11658,7 @@ else
 {
 if
 (
-isBlock
+isBlockLevel
 &
 &
 (
@@ -11956,7 +11965,7 @@ size
 ;
 if
 (
-isBlock
+isBlockLevel
 &
 &
 !
