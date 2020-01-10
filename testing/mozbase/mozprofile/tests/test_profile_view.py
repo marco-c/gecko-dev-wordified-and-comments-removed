@@ -12,6 +12,10 @@ import
 pytest
 import
 mozunit
+from
+six
+import
+text_type
 here
 =
 os
@@ -252,7 +256,7 @@ Profile
 )
     
 assert
-unicode
+text_type
 (
 profile
 )

@@ -154,7 +154,7 @@ in
 files
 :
             
-file
+open
 (
 os
 .
@@ -196,7 +196,7 @@ mkdir
 subdir
 )
         
-file
+open
 (
 os
 .
@@ -973,7 +973,7 @@ range
 )
 :
             
-file
+open
 (
 os
 .
@@ -1038,7 +1038,7 @@ tempdir
 )
         
 with
-file
+open
 (
 manifest_file
 '
@@ -1169,7 +1169,7 @@ ini
 ]
 )
         
-file
+open
 (
 os
 .
@@ -1259,7 +1259,7 @@ self
 .
 assertEqual
 (
-file
+open
 (
 os
 .

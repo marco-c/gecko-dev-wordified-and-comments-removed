@@ -18988,7 +18988,9 @@ isinstance
 adb_process
 .
 stdout_file
-file
+io
+.
+IOBase
 )
 :
                 

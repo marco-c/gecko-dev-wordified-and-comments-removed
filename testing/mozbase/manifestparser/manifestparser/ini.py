@@ -6,6 +6,10 @@ import
 os
 import
 sys
+from
+six
+import
+string_types
 __all__
 =
 [
@@ -37,7 +41,7 @@ if
 isinstance
 (
 fp
-basestring
+string_types
 )
 :
             
@@ -308,13 +312,13 @@ if
 isinstance
 (
 fp
-basestring
+string_types
 )
 :
         
 fp
 =
-file
+open
 (
 fp
 )

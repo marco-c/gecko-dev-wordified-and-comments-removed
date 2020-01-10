@@ -433,7 +433,7 @@ info_dict
 for
 line
 in
-file
+open
 (
 pkg_info
 )
@@ -592,7 +592,7 @@ requires
 for
 line
 in
-file
+open
 (
 requires
 )

@@ -31,19 +31,18 @@ import
 find_executable
 import
 psutil
-import
-six
-.
-moves
-.
-urllib
-as
-urllib
 from
 mozdevice
 import
 ADBHost
 ADBDevice
+from
+six
+.
+moves
+import
+input
+urllib
 EMULATOR_HOME_DIR
 =
 os
@@ -1052,7 +1051,7 @@ manifest_version
             
 response
 =
-raw_input
+input
 (
                 
 "
@@ -1435,7 +1434,7 @@ is_available
         
 response
 =
-raw_input
+input
 (
             
 "
@@ -1710,7 +1709,7 @@ response
 =
 response
 =
-raw_input
+input
 (
                 
 "
@@ -1814,7 +1813,7 @@ response
 =
 response
 =
-raw_input
+input
 (
                 
 "
@@ -1931,7 +1930,7 @@ response
 =
 response
 =
-raw_input
+input
 (
                 
 "
@@ -2039,7 +2038,7 @@ installed
             
 response
 =
-raw_input
+input
 (
                 
 "
@@ -2296,7 +2295,7 @@ err
             
 response
 =
-raw_input
+input
 (
                 
 "

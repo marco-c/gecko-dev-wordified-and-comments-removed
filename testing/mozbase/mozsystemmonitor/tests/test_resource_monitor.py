@@ -10,6 +10,10 @@ import
 unittest
 import
 mozunit
+from
+six
+import
+integer_types
 try
 :
     
@@ -862,10 +866,7 @@ self
 assertIsInstance
 (
 v
-(
-long
-int
-)
+integer_types
 )
         
 v
