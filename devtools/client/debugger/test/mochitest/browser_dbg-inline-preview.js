@@ -196,6 +196,7 @@ identifier
 :
 "
 a
+:
 "
 value
 :
@@ -209,6 +210,7 @@ identifier
 :
 "
 b
+:
 "
 value
 :
@@ -221,6 +223,7 @@ identifier
 :
 "
 c
+:
 "
 value
 :
@@ -233,6 +236,7 @@ identifier
 :
 "
 d
+:
 "
 value
 :
@@ -245,6 +249,7 @@ identifier
 :
 "
 e
+:
 "
 value
 :
@@ -258,6 +263,7 @@ identifier
 :
 "
 f
+:
 "
 value
 :
@@ -272,6 +278,7 @@ identifier
 :
 "
 obj
+:
 "
 value
 :
@@ -289,6 +296,7 @@ identifier
 :
 "
 bs
+:
 "
 value
 :
@@ -319,6 +327,7 @@ identifier
 :
 "
 c
+:
 "
 value
 :
@@ -333,6 +342,7 @@ identifier
 :
 "
 a
+:
 "
 value
 :
@@ -347,6 +357,7 @@ identifier
 :
 "
 b
+:
 "
 value
 :
