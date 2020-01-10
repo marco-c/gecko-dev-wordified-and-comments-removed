@@ -117,9 +117,6 @@ OS_LIBS
 =
 [
 '
-mincore
-'
-'
 ntdll
 '
 ]
