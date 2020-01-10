@@ -200,22 +200,6 @@ gnu
 sup
 "
 )
-    
-NODEJS_TOOLTOOL_MANIFEST_PATH
-=
-"
-config
-/
-tooltool
--
-manifests
-/
-linux64
-/
-nodejs
-.
-manifest
-"
 else
 :
     
@@ -2619,20 +2603,8 @@ cache
 "
     
 "
-download_nodejs
-"
-:
-False
-    
-"
 nodejs_path
 "
 :
 NODEJS_PATH
-    
-"
-nodejs_tooltool_manifest_path
-"
-:
-NODEJS_TOOLTOOL_MANIFEST_PATH
 }
