@@ -706,13 +706,6 @@ aHandled
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
-DidMakeBasicBlock
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
 WillAbsolutePosition
 (
 bool
