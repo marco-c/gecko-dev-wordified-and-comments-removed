@@ -37,8 +37,6 @@ MarionetteTestCase
     
 skip
     
-skip_if_mobile
-    
 WindowManagerMixin
 )
 def
@@ -1073,20 +1071,6 @@ screenshot_content
 screenshot_chrome
 )
     
-skip_if_mobile
-(
-"
-Fennec
-doesn
-'
-t
-support
-other
-chrome
-windows
-"
-)
-    
 def
 test_capture_element
 (
@@ -1201,20 +1185,6 @@ switch_to_window
 self
 .
 start_window
-)
-    
-skip_if_mobile
-(
-"
-Fennec
-doesn
-'
-t
-support
-other
-chrome
-windows
-"
 )
     
 def
@@ -1336,20 +1306,6 @@ screenshot_root
 screenshot_full
 )
     
-skip_if_mobile
-(
-"
-Fennec
-doesn
-'
-t
-support
-other
-chrome
-windows
-"
-)
-    
 def
 test_capture_window_already_closed
 (
@@ -1403,20 +1359,6 @@ switch_to_window
 self
 .
 start_window
-)
-    
-skip_if_mobile
-(
-"
-Fennec
-doesn
-'
-t
-support
-other
-chrome
-windows
-"
 )
     
 def
@@ -1650,22 +1592,6 @@ switch_to_window
 self
 .
 start_tab
-)
-    
-skip_if_mobile
-(
-"
-Bug
-1487124
--
-Android
-need
-its
-own
-maximum
-allowed
-dimensions
-"
 )
     
 def

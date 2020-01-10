@@ -14,7 +14,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_mobile
 WindowManagerMixin
 def
 inline
@@ -84,20 +83,6 @@ self
 .
 tearDown
 (
-)
-    
-skip_if_mobile
-(
-"
-Interacting
-with
-chrome
-windows
-not
-available
-for
-Fennec
-"
 )
     
 def
@@ -187,20 +172,6 @@ self
 marionette
 .
 window_handles
-)
-    
-skip_if_mobile
-(
-"
-Interacting
-with
-chrome
-windows
-not
-available
-for
-Fennec
-"
 )
     
 def
@@ -302,20 +273,6 @@ self
 marionette
 .
 window_handles
-)
-    
-skip_if_mobile
-(
-"
-Interacting
-with
-chrome
-windows
-not
-available
-for
-Fennec
-"
 )
     
 def
@@ -554,20 +511,6 @@ close
 (
 )
     
-skip_if_mobile
-(
-"
-Interacting
-with
-chrome
-windows
-not
-available
-for
-Fennec
-"
-)
-    
 def
 test_close_window_for_browser_window_with_single_tab
 (
@@ -725,18 +668,6 @@ self
 marionette
 .
 session
-)
-    
-skip_if_mobile
-(
-"
-discardBrowser
-is
-only
-available
-in
-Firefox
-"
 )
     
 def

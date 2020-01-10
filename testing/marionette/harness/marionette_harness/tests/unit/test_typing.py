@@ -27,7 +27,6 @@ marionette_harness
 import
 MarionetteTestCase
 skip
-skip_if_mobile
 def
 inline
 (
@@ -153,20 +152,6 @@ set_context
 (
 "
 chrome
-"
-)
-    
-skip_if_mobile
-(
-"
-Interacting
-with
-chrome
-elements
-not
-available
-for
-Fennec
 "
 )
     
@@ -1789,28 +1774,6 @@ text
 I
 like
 chees
-"
-)
-    
-skip_if_mobile
-(
-"
-Bug
-1333069
--
-Assertion
-:
-'
-down
-:
-40
-'
-not
-found
-in
-u
-'
-'
 "
 )
     

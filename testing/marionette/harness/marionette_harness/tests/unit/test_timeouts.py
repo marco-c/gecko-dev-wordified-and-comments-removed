@@ -32,7 +32,6 @@ marionette_harness
 import
 MarionetteTestCase
 run_if_manage_instance
-skip_if_mobile
 class
 TestTimeouts
 (
@@ -495,18 +494,6 @@ Marionette
 manages
 the
 instance
-"
-)
-    
-skip_if_mobile
-(
-"
-Bug
-1322993
--
-Missing
-temporary
-folder
 "
 )
     

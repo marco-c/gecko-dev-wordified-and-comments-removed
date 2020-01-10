@@ -22,8 +22,6 @@ MarionetteTestCase
 parameterized
     
 skip_if_desktop
-    
-skip_if_mobile
 )
 default_orientation
 =
@@ -62,24 +60,6 @@ setUp
 (
 self
 )
-        
-self
-.
-is_mobile
-=
-self
-.
-marionette
-.
-session_capabilities
-.
-get
-(
-"
-rotatable
-"
-False
-)
     
 def
 tearDown
@@ -87,28 +67,6 @@ tearDown
 self
 )
 :
-        
-if
-self
-.
-is_mobile
-:
-            
-self
-.
-marionette
-.
-set_orientation
-(
-default_orientation
-)
-            
-self
-.
-wait_for_orientation
-(
-default_orientation
-)
         
 MarionetteTestCase
 .
@@ -463,16 +421,6 @@ marionette
 set_orientation
 (
 None
-)
-    
-skip_if_mobile
-(
-"
-Specific
-test
-for
-Firefox
-"
 )
     
 def

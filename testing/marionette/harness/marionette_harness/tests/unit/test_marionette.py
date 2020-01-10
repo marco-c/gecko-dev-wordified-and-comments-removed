@@ -21,7 +21,6 @@ marionette_harness
 import
 MarionetteTestCase
 run_if_manage_instance
-skip_if_mobile
 class
 TestMarionette
 (
@@ -116,18 +115,6 @@ Marionette
 manages
 the
 instance
-"
-)
-    
-skip_if_mobile
-(
-"
-Bug
-1322993
--
-Missing
-temporary
-folder
 "
 )
     
@@ -429,19 +416,6 @@ _sock
 gettimeout
 (
 )
-)
-    
-skip_if_mobile
-(
-"
-No
-application
-update
-service
-available
-on
-Android
-"
 )
     
 def

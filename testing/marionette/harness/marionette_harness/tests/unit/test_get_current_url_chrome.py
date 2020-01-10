@@ -13,7 +13,6 @@ marionette_harness
 import
 MarionetteTestCase
 WindowManagerMixin
-skip_if_mobile
 class
 TestGetCurrentUrlChrome
 (
@@ -162,20 +161,6 @@ get_url
 (
 )
 chrome_url
-)
-    
-skip_if_mobile
-(
-"
-Fennec
-doesn
-'
-t
-support
-other
-chrome
-windows
-"
 )
     
 def

@@ -24,8 +24,6 @@ MarionetteTestCase
     
 run_if_e10s
     
-skip_if_mobile
-    
 WindowManagerMixin
 )
 def
@@ -3413,20 +3411,6 @@ window
 .
 click
 (
-)
-    
-skip_if_mobile
-(
-"
-Fennec
-doesn
-'
-t
-support
-other
-chrome
-windows
-"
 )
     
 def

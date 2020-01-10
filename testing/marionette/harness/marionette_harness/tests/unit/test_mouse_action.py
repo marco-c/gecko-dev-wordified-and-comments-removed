@@ -20,7 +20,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_mobile
 def
 inline
 (
@@ -598,20 +597,6 @@ assertEqual
 (
 event_count
 2
-)
-    
-skip_if_mobile
-(
-"
-There
-is
-no
-context
-menu
-available
-on
-mobile
-"
 )
     
 def
@@ -1356,17 +1341,6 @@ y
 delta
 =
 1
-)
-    
-skip_if_mobile
-(
-"
-Bug
-1534291
--
-Missing
-MoveTargetOutOfBoundsException
-"
 )
     
 def
