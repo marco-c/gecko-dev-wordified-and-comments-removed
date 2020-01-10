@@ -1399,7 +1399,7 @@ The
 sharing
 is
 not
-possibly
+possible
 as
 it
 violates
@@ -2607,7 +2607,7 @@ a
 multitouch
 action
 with
-one
+different
 fingers
 landing
 on
@@ -2829,6 +2829,7 @@ rendering
 stuff
 that
 needs
+to
 go
 into
 the
@@ -3004,7 +3005,9 @@ receive
 display
 list
 transactions
+*
 before
+*
 the
 root
 WRBP
@@ -3646,7 +3649,7 @@ id
 to
 finish
 their
-word
+work
 and
 render
 before
@@ -3841,13 +3844,13 @@ but
 the
 relevant
 code
-that
 is
 "
 buried
 "
 away
 in
+a
 place
 where
 one
