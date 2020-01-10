@@ -1746,9 +1746,9 @@ BlobStoreCompleted
 MutableBlobStorage
 *
 aBlobStorage
-Blob
+BlobImpl
 *
-aBlob
+aBlobImpl
 nsresult
 aResult
 )

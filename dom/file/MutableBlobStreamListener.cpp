@@ -42,9 +42,6 @@ MutableBlobStorage
 :
 MutableBlobStorageType
 aStorageType
-nsISupports
-*
-aParent
 const
 nsACString
 &
@@ -60,10 +57,6 @@ aEventTarget
 mCallback
 (
 aCallback
-)
-mParent
-(
-aParent
 )
 mStorageType
 (
@@ -237,9 +230,8 @@ NS_OK
 storage
 -
 >
-GetBlobWhenReady
+GetBlobImplWhenReady
 (
-mParent
 mContentType
 mCallback
 )

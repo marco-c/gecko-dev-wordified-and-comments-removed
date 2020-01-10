@@ -146,6 +146,11 @@ BlobSet
 h
 '
 '
+EmptyBlobImpl
+.
+h
+'
+'
 File
 .
 h

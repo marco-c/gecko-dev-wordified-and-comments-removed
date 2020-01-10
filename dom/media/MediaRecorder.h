@@ -374,9 +374,9 @@ delete
 nsresult
 CreateAndDispatchBlobEvent
 (
-Blob
+BlobImpl
 *
-aBlob
+aBlobImpl
 )
 ;
 void

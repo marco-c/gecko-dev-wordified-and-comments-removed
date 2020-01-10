@@ -79,7 +79,7 @@ BlobStoreCompleted
 MutableBlobStorage
 *
 aBlobStorage
-Blob
+BlobImpl
 *
 aBlob
 nsresult
@@ -135,11 +135,8 @@ aLength
 )
 ;
 void
-GetBlobWhenReady
+GetBlobImplWhenReady
 (
-nsISupports
-*
-aParent
 const
 nsACString
 &
@@ -310,12 +307,6 @@ nsCOMPtr
 nsIEventTarget
 >
 mEventTarget
-;
-nsCOMPtr
-<
-nsISupports
->
-mPendingParent
 ;
 nsCString
 mPendingContentType

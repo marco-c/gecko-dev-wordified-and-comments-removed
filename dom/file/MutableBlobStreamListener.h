@@ -60,9 +60,6 @@ MutableBlobStorage
 :
 MutableBlobStorageType
 aType
-nsISupports
-*
-aParent
 const
 nsACString
 &
@@ -118,12 +115,6 @@ RefPtr
 MutableBlobStorageCallback
 >
 mCallback
-;
-nsCOMPtr
-<
-nsISupports
->
-mParent
 ;
 MutableBlobStorage
 :
