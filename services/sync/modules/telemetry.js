@@ -1454,8 +1454,8 @@ let
 {
 problems
 version
-duration
-recordCount
+took
+checked
 }
 =
 validationResult
@@ -1472,7 +1472,7 @@ version
 0
 checked
 :
-recordCount
+checked
 |
 |
 0
@@ -1480,7 +1480,7 @@ recordCount
 ;
 if
 (
-duration
+took
 >
 0
 )
@@ -1493,7 +1493,7 @@ Math
 .
 round
 (
-duration
+took
 )
 ;
 }
@@ -1501,11 +1501,6 @@ let
 summarized
 =
 problems
-.
-getSummary
-(
-true
-)
 .
 filter
 (
