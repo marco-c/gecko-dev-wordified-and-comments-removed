@@ -2346,6 +2346,11 @@ GTK_CHECK_VERSION
 guint32
 mLastScrollEventTime
 ;
+bool
+mPanInProgress
+=
+false
+;
 nsRefPtrHashtable
 <
 nsPtrHashKey
