@@ -739,6 +739,8 @@ sync
 not
 -
 syncing
+-
+devices
 "
 "
 Not
