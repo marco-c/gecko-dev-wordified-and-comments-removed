@@ -689,6 +689,7 @@ aPrincipal
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveListAsAction
 (
@@ -4543,6 +4544,13 @@ DestroyListStructureRecursively
 Element
 &
 aListElement
+)
+;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+RemoveListAtSelectionAsSubAction
+(
 )
 ;
 protected

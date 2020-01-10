@@ -2001,6 +2001,9 @@ Unused
 .
 *
 /
+[
+can_run_script
+]
 void
 removeList
 (
