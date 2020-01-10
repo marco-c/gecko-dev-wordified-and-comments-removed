@@ -4924,6 +4924,8 @@ _processing
 =
 true
 ;
+try
+{
 this
 .
 preActions
@@ -5062,12 +5064,16 @@ postActions
 (
 )
 ;
+}
+finally
+{
 this
 .
 _processing
 =
 false
 ;
+}
 }
 startTabSwitch
 (
