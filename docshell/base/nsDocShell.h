@@ -3069,9 +3069,6 @@ nsCString
 mOriginalUriString
 ;
 nsWeakPtr
-mOnePermittedSandboxedNavigator
-;
-nsWeakPtr
 mOpener
 ;
 nsTObserverArray
