@@ -609,6 +609,13 @@ refs
 .
 scrollAnchor
 ;
+if
+(
+this
+.
+intersectionObserver
+)
+{
 this
 .
 intersectionObserver
@@ -630,6 +637,7 @@ pinnedToBottom
 =
 false
 ;
+}
 }
 setupScrollToBottom
 (
@@ -687,6 +695,13 @@ threshold
 }
 )
 ;
+if
+(
+this
+.
+intersectionObserver
+)
+{
 this
 .
 intersectionObserver
@@ -702,6 +717,7 @@ initIntersectionObserver
 =
 true
 ;
+}
 }
 if
 (
