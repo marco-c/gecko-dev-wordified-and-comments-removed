@@ -37,11 +37,14 @@ content
 /
 browser
 /
-intl
+dom
 /
 l10n
 /
-test
+tests
+/
+mochitest
+/
 /
 document_l10n
 /
