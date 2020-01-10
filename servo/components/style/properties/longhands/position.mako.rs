@@ -2324,9 +2324,6 @@ products
 "
 gecko
 "
-boxed
-=
-True
 )
 }
 %
