@@ -1338,6 +1338,9 @@ debug
 webrender
 "
 "
+fisson
+"
+"
 e10s
 "
 "
