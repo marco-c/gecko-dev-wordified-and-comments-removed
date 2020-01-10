@@ -4528,11 +4528,6 @@ derSubject
 data
 )
 ;
-if
-(
-PR_TRUE
-)
-{
 SECItem
 derSerial
 ;
@@ -4592,7 +4587,6 @@ derSerial
 data
 )
 ;
-}
 if
 (
 cc

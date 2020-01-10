@@ -833,6 +833,12 @@ cc_use_gnu_ld
 Some
 defaults
 '
+disable_arm_hw_aes
+%
+'
+:
+0
+'
 disable_tests
 %
 '

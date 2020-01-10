@@ -5941,6 +5941,8 @@ const
 sslSocket
 *
 ss
+PRUint16
+minVersion
 sslBuffer
 *
 buf

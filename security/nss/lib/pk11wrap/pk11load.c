@@ -1840,11 +1840,6 @@ fail
 #
 ifdef
 DEBUG_MODULE
-if
-(
-PR_TRUE
-)
-{
 modToDBG
 =
 PR_GetEnvSecure
@@ -1892,7 +1887,6 @@ mod
 functionList
 )
 ;
-}
 }
 #
 endif
