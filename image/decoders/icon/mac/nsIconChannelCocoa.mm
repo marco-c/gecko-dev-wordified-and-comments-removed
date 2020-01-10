@@ -1237,6 +1237,8 @@ nsIInputStream
 >
 inStream
 ;
+rv
+=
 MakeInputStream
 (
 getter_AddRefs
