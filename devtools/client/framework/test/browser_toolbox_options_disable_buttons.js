@@ -750,7 +750,7 @@ checkNodes
 .
 length
 +
-2
+1
 toolbox
 .
 toolbarButtons
