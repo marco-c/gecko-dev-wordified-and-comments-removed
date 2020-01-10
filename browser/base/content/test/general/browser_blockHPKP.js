@@ -337,7 +337,7 @@ document
 getElementById
 (
 "
-errorShortDescText
+errorShortDescText2
 "
 )
 ;
