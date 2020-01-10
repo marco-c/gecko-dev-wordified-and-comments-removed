@@ -114,6 +114,15 @@ long
 aId
 )
 ;
+static
+BrowsingContext
+?
+getFromWindow
+(
+WindowProxy
+window
+)
+;
 BrowsingContext
 ?
 findChildWithName
