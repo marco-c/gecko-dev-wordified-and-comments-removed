@@ -3409,6 +3409,11 @@ DispatchEventsWhenPlayWasNotAllowed
 (
 )
 ;
+void
+MaybeNotifyAutoplayBlocked
+(
+)
+;
 RefPtr
 <
 MediaDecoder
