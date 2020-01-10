@@ -2113,6 +2113,13 @@ false
 }
 )
 ;
+if
+(
+AppConstants
+.
+MOZ_UPDATER
+)
+{
 setEventListener
 (
 "
@@ -2218,6 +2225,7 @@ checkForUpdates
 }
 )
 ;
+}
 setEventListener
 (
 "
