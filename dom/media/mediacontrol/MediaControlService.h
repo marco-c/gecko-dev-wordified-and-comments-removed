@@ -195,6 +195,11 @@ MediaControlService
 )
 ;
 void
+Init
+(
+)
+;
+void
 Shutdown
 (
 )
