@@ -1080,7 +1080,7 @@ ipc
 :
 PrincipalToPrincipalInfo
 (
-aPrincipal
+aStoragePrincipal
 &
 principalInfo
 )
