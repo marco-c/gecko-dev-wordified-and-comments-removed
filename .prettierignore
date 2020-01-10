@@ -295,15 +295,6 @@ remote
 js
 services
 /
-common
-/
-services
--
-common
-.
-js
-services
-/
 sync
 /
 services
