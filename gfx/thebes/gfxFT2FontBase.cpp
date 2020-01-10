@@ -190,6 +190,14 @@ gfxFT2FontBase
 (
 )
 {
+mFTFace
+-
+>
+ForgetLockOwner
+(
+this
+)
+;
 }
 FT_Face
 gfxFT2FontBase

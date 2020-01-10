@@ -282,6 +282,9 @@ mozilla_ReleaseSharedFTFace
 void
 *
 aContext
+void
+*
+aOwner
 )
 ;
 extern
@@ -878,6 +881,7 @@ unscaled
 -
 >
 face_context
+unscaled
 )
 ;
 }
@@ -2079,6 +2083,7 @@ unscaled
 -
 >
 face_context
+unscaled
 )
 ;
 }
