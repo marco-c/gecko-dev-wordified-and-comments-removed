@@ -48189,6 +48189,11 @@ IsInPrivateBrowsing
 (
 this
 )
+&
+&
+IsTopLevelContentDocument
+(
+)
 )
 {
 mContentBlockingLog
