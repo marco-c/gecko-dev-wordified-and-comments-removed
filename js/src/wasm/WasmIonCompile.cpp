@@ -9470,6 +9470,9 @@ type
 DefVector
 preJoinDefs
 ;
+DefVector
+resultsForEmptyElse
+;
 if
 (
 !
@@ -9487,6 +9490,8 @@ kind
 type
 &
 preJoinDefs
+&
+resultsForEmptyElse
 )
 )
 {
@@ -9658,6 +9663,7 @@ LabelKind
 :
 Then
 :
+{
 if
 (
 !
@@ -9668,6 +9674,21 @@ switchToElse
 block
 &
 block
+)
+)
+{
+return
+false
+;
+}
+if
+(
+!
+f
+.
+pushDefs
+(
+resultsForEmptyElse
 )
 )
 {
@@ -9694,6 +9715,7 @@ false
 }
 break
 ;
+}
 case
 LabelKind
 :
