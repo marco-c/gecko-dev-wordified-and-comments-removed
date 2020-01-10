@@ -238,6 +238,15 @@ ServiceWorkerOpArgs
 aArgs
 )
 ;
+RefPtr
+<
+GenericPromise
+>
+SetServiceWorkerSkipWaitingFlag
+(
+)
+const
+;
 private
 :
 RemoteWorkerController
