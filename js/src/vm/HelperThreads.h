@@ -1967,11 +1967,6 @@ lock
 )
 ;
 struct
-AllCompilations
-{
-}
-;
-struct
 ZonesInState
 {
 JSRuntime
@@ -2022,7 +2017,6 @@ ZonesInState
 JSRuntime
 *
 CompilationsUsingNursery
-AllCompilations
 >
 ;
 void
@@ -2032,8 +2026,6 @@ const
 CompilationSelector
 &
 selector
-bool
-discardLazyLinkList
 )
 ;
 inline
@@ -2051,7 +2043,6 @@ CompilationSelector
 (
 script
 )
-true
 )
 ;
 }
@@ -2073,7 +2064,6 @@ CompilationSelector
 (
 realm
 )
-true
 )
 ;
 }
@@ -2092,7 +2082,6 @@ CompilationSelector
 (
 zone
 )
-true
 )
 ;
 }
@@ -2126,7 +2115,6 @@ runtime
 state
 }
 )
-true
 )
 ;
 }
@@ -2145,7 +2133,6 @@ CompilationSelector
 (
 runtime
 )
-true
 )
 ;
 }
@@ -2167,7 +2154,6 @@ CompilationsUsingNursery
 runtime
 }
 )
-true
 )
 ;
 }
