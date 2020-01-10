@@ -546,11 +546,8 @@ display
 list
 .
 After
-display
-list
-"
-flattening
-"
+scene
+building
 each
 node
 is
@@ -1244,10 +1241,9 @@ list
 is
 processed
 during
-"
-flattening
+scene
+building
 .
-"
 When
 encountering
 an
