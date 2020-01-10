@@ -323,7 +323,7 @@ IndexCountResponse
 }
 ;
 struct
-WasmModulePreprocessInfo
+PreprocessInfo
 {
 SerializedStructuredCloneFile
 [
@@ -335,7 +335,7 @@ files
 struct
 ObjectStoreGetPreprocessParams
 {
-WasmModulePreprocessInfo
+PreprocessInfo
 preprocessInfo
 ;
 }
@@ -343,7 +343,7 @@ preprocessInfo
 struct
 ObjectStoreGetAllPreprocessParams
 {
-WasmModulePreprocessInfo
+PreprocessInfo
 [
 ]
 preprocessInfos

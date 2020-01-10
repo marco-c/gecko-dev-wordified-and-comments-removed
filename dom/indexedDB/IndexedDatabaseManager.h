@@ -273,6 +273,12 @@ MaxSerializedMsgSize
 (
 )
 ;
+static
+bool
+PreprocessingEnabled
+(
+)
+;
 void
 ClearBackgroundActor
 (
