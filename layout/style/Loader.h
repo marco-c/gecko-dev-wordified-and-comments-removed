@@ -457,7 +457,7 @@ nsresult
 LoadChildSheet
 (
 StyleSheet
-*
+&
 aParentSheet
 SheetLoadData
 *
@@ -934,15 +934,14 @@ void
 HandleLoadEvent
 (
 SheetLoadData
-*
-aEvent
+&
 )
 ;
 nsresult
 LoadSheet
 (
 SheetLoadData
-*
+&
 SheetState
 IsPreload
 )
@@ -961,9 +960,8 @@ ParseSheet
 const
 nsACString
 &
-aBytes
 SheetLoadData
-*
+&
 AllowAsyncParse
 )
 ;
@@ -971,8 +969,7 @@ void
 SheetComplete
 (
 SheetLoadData
-*
-aLoadData
+&
 nsresult
 aStatus
 )
@@ -981,8 +978,7 @@ void
 DoSheetComplete
 (
 SheetLoadData
-*
-aLoadData
+&
 LoadDataArray
 &
 aDatasToNotify
@@ -992,8 +988,7 @@ void
 MarkLoadTreeFailed
 (
 SheetLoadData
-*
-aLoadData
+&
 )
 ;
 struct

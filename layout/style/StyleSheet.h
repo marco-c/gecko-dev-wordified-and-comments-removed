@@ -353,8 +353,7 @@ css
 :
 :
 Loader
-*
-aLoader
+&
 const
 nsACString
 &
@@ -363,8 +362,7 @@ css
 :
 :
 SheetLoadData
-*
-aLoadData
+&
 )
 ;
 void

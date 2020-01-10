@@ -337,8 +337,10 @@ StyleSheet
 >
 mSheet
 ;
+RefPtr
+<
 SheetLoadData
-*
+>
 mNext
 ;
 RefPtr
