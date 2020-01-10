@@ -3101,6 +3101,15 @@ Now
 (
 )
 ;
+GetCompositorBridgeChild
+(
+)
+-
+>
+EndCanvasTransaction
+(
+)
+;
 RefPtr
 <
 SyncObjectClient

@@ -540,6 +540,14 @@ handle
 ;
 }
 ;
+struct
+SurfaceDescriptorRecorded
+{
+uintptr_t
+drawTarget
+;
+}
+;
 union
 SurfaceDescriptor
 {
@@ -564,6 +572,8 @@ SurfaceDescriptorMacIOSurface
 SurfaceDescriptorSharedGLTexture
 ;
 SurfaceDescriptorGPUVideo
+;
+SurfaceDescriptorRecorded
 ;
 null_t
 ;

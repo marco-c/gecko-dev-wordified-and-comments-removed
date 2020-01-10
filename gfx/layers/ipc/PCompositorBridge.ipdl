@@ -127,6 +127,10 @@ PBrowser
 ;
 include
 protocol
+PCanvas
+;
+include
+protocol
 PCompositorManager
 ;
 include
@@ -1938,6 +1942,16 @@ uint64_t
 aSerial
 MaybeExternalImageId
 aExternalImageId
+)
+;
+async
+InitPCanvasParent
+(
+Endpoint
+<
+PCanvasParent
+>
+aEndpoint
 )
 ;
 sync
