@@ -232,6 +232,7 @@ dialog
 =
 no
 all
+private
 "
 nullptr
 getter_AddRefs
