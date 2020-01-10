@@ -17,6 +17,8 @@ privacy
 .
 trackingprotection
 .
+pbmode
+.
 enabled
 "
 ;
