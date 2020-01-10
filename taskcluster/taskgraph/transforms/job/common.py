@@ -1010,32 +1010,18 @@ head_rev
 ]
         
 '
+GECKO_PATH
+'
+:
+geckodir
+        
+'
 HG_STORE_PATH
 '
 :
 hgstore
     
 }
-)
-    
-taskdesc
-[
-'
-worker
-'
-]
-[
-'
-env
-'
-]
-.
-setdefault
-(
-'
-GECKO_PATH
-'
-geckodir
 )
     
 if
