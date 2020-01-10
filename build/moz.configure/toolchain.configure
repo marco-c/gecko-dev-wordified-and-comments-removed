@@ -5590,6 +5590,7 @@ depends
 (
 vc_path
 original_path
+developer_options
 )
 imports
 (
@@ -5615,6 +5616,7 @@ toolchain_search_path
 (
 vc_compiler_path
 original_path
+developer_options
 )
 :
 result
@@ -5750,6 +5752,10 @@ mozbuild
 )
 )
 )
+bootstrapped
+=
+[
+]
 bootstrap_clang_path
 =
 os
@@ -5766,7 +5772,7 @@ clang
 bin
 '
 )
-result
+bootstrapped
 .
 append
 (
@@ -5785,7 +5791,7 @@ mozbuild_state_dir
 cbindgen
 '
 )
-result
+bootstrapped
 .
 append
 (
@@ -5804,7 +5810,7 @@ mozbuild_state_dir
 nasm
 '
 )
-result
+bootstrapped
 .
 append
 (
@@ -5854,8 +5860,17 @@ append
 (
 rustup_path
 )
+if
+developer_options
+:
+return
+bootstrapped
++
+result
 return
 result
++
+bootstrapped
 return
 toolchain_search_path
 toolchain_search_path
