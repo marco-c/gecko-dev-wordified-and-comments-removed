@@ -223,9 +223,6 @@ attr
 "
 alt
 "
-recreated
-:
-true
 }
 {
 attr
@@ -233,9 +230,6 @@ attr
 "
 value
 "
-recreated
-:
-true
 }
 {
 attr
@@ -258,9 +252,6 @@ attr
 "
 alt
 "
-recreated
-:
-true
 }
 {
 attr
@@ -268,9 +259,6 @@ attr
 "
 value
 "
-recreated
-:
-true
 }
 ]
 HTMLInputReset

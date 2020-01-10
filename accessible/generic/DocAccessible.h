@@ -1492,6 +1492,14 @@ Element
 aElm
 )
 ;
+bool
+PruneOrInsertSubtree
+(
+nsIContent
+*
+aRoot
+)
+;
 protected
 :
 enum
