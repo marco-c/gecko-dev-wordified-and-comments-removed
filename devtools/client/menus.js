@@ -607,8 +607,11 @@ inspectorFront
 await
 target
 .
-getInspector
+getFront
 (
+"
+inspector
+"
 )
 ;
 inspectorFront

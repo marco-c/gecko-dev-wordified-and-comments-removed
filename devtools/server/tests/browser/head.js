@@ -476,8 +476,11 @@ inspector
 await
 target
 .
-getInspector
+getFront
 (
+"
+inspector
+"
 )
 ;
 const
@@ -640,8 +643,11 @@ inspector
 await
 target
 .
-getInspector
+getFront
 (
+"
+inspector
+"
 )
 ;
 const
