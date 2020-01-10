@@ -2553,11 +2553,8 @@ MessageId
 self
 .
 command_id
-=
-self
-.
-command_id
 +
+=
 1
 ;
 self
@@ -8585,9 +8582,8 @@ byte
 >
 {
 bytes
-=
-bytes
 *
+=
 10
 ;
 bytes
