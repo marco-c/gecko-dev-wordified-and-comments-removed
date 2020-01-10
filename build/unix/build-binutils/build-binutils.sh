@@ -4,13 +4,6 @@
 bin
 /
 bash
-binutils_version
-=
-2
-.
-31
-.
-1
 make_flags
 =
 "
@@ -27,10 +20,10 @@ root_dir
 "
 cd
 root_dir
-cd
+/
 binutils
 -
-binutils_version
+source
 patch
 -
 p1
@@ -555,7 +548,7 @@ target
 /
 binutils
 -
-binutils_version
+source
 /
 configure
 -
@@ -668,7 +661,7 @@ too
 /
 binutils
 -
-binutils_version
+source
 /
 configure
 -

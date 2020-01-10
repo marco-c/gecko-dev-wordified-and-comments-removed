@@ -119,7 +119,7 @@ root_dir
 /
 gcc
 -
-gcc_version
+source
 fi
 patch
 -
@@ -339,7 +339,7 @@ objdir
 /
 binutils
 -
-binutils_version
+source
 /
 configure
 -
@@ -442,7 +442,7 @@ objdir
 /
 gcc
 -
-gcc_version
+source
 /
 configure
 -
@@ -573,7 +573,7 @@ objdir
 /
 gcc
 -
-gcc_version
+source
 /
 configure
 -
