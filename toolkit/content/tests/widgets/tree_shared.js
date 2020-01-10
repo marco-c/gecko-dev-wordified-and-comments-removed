@@ -757,7 +757,7 @@ inputField
 .
 localName
 "
-textbox
+input
 "
 testid
 +
