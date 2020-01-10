@@ -42653,7 +42653,7 @@ nsHttpChannel
 :
 SetPushedStream
 (
-Http2PushedStream
+Http2PushedStreamWrapper
 *
 stream
 )
@@ -42684,7 +42684,7 @@ const
 nsACString
 &
 url
-Http2PushedStream
+Http2PushedStreamWrapper
 *
 pushedStream
 )

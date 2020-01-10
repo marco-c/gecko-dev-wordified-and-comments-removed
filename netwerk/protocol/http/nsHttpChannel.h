@@ -564,7 +564,7 @@ const
 nsACString
 &
 uri
-Http2PushedStream
+Http2PushedStreamWrapper
 *
 pushedStream
 )
@@ -2343,7 +2343,7 @@ checkingAppCacheEntry
 void
 SetPushedStream
 (
-Http2PushedStream
+Http2PushedStreamWrapper
 *
 stream
 )
@@ -2786,8 +2786,10 @@ nsDNSPrefetch
 >
 mDNSPrefetch
 ;
-Http2PushedStream
-*
+RefPtr
+<
+Http2PushedStreamWrapper
+>
 mPushedStream
 ;
 bool
