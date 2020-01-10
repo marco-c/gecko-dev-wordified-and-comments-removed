@@ -118,7 +118,6 @@ login
 -
 button
 =
-Create
 New
 Login
 #
