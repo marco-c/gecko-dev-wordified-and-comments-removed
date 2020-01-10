@@ -1914,7 +1914,6 @@ platform
 tests
 -
 wdspec
-#
 -
 xpcshell
 macosx1014
@@ -1980,8 +1979,6 @@ webgl2
 ext
 test
 timeouts
--
-xpcshell
 macosx64
 -
 talos
