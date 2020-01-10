@@ -747,10 +747,10 @@ dp
 >
 val
 .
-f
+d
 =
 (
-float
+double
 )
 fprData
 [
@@ -851,6 +851,9 @@ b
 =
 (
 bool
+)
+(
+uint8_t
 )
 gprData
 [
