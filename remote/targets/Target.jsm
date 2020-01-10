@@ -64,7 +64,7 @@ jsm
 ;
 const
 {
-WebSocketServer
+WebSocketHandshake
 }
 =
 ChromeUtils
@@ -82,7 +82,7 @@ content
 /
 server
 /
-WebSocket
+WebSocketHandshake
 .
 jsm
 "
@@ -154,7 +154,7 @@ const
 so
 =
 await
-WebSocketServer
+WebSocketHandshake
 .
 upgrade
 (
