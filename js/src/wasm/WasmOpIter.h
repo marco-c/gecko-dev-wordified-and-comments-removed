@@ -10564,7 +10564,7 @@ if
 readMemOrTableIndex
 (
 isMem
-srcMemOrTableIndex
+dstMemOrTableIndex
 )
 )
 {
@@ -10578,7 +10578,7 @@ if
 readMemOrTableIndex
 (
 isMem
-dstMemOrTableIndex
+srcMemOrTableIndex
 )
 )
 {
