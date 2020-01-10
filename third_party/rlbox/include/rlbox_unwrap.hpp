@@ -68,12 +68,8 @@ T_RhsNoQ
 return
 rhs
 .
-unverified_safe_because
+INTERNAL_unverified_safe
 (
-"
-internal
-use
-"
 )
 ;
 }
@@ -93,12 +89,8 @@ T_RhsNoQ
 return
 rhs
 .
-unverified_safe_because
+INTERNAL_unverified_safe
 (
-"
-internal
-use
-"
 )
 ;
 }

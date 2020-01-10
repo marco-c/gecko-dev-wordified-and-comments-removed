@@ -18,7 +18,7 @@ mutex
 >
 #
 ifndef
-rlbox_use_custom_shared_lock
+RLBOX_USE_CUSTOM_SHARED_LOCK
 #
 include
 <
@@ -74,7 +74,7 @@ short
 ;
 private
 :
-rlbox_shared_lock
+RLBOX_SHARED_LOCK
 (
 callback_mutex
 )
@@ -176,7 +176,7 @@ T_Func
 func
 ;
 {
-rlbox_acquire_shared_guard
+RLBOX_ACQUIRE_SHARED_GUARD
 (
 lock
 thread_data
@@ -686,7 +686,7 @@ void
 callback
 )
 {
-rlbox_acquire_unique_guard
+RLBOX_ACQUIRE_UNIQUE_GUARD
 (
 lock
 callback_mutex
@@ -856,7 +856,7 @@ void
 key
 )
 {
-rlbox_acquire_unique_guard
+RLBOX_ACQUIRE_UNIQUE_GUARD
 (
 lock
 callback_mutex
