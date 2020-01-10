@@ -118,9 +118,8 @@ gripOrFront
 ;
 }
 const
-walkerFront
+inspectorFront
 =
-(
 await
 toolbox
 .
@@ -132,14 +131,11 @@ getFront
 inspector
 "
 )
-)
-.
-walker
 ;
 return
-walkerFront
+inspectorFront
 .
-gripToNodeFront
+getNodeFrontFromNodeGrip
 (
 gripOrFront
 )
