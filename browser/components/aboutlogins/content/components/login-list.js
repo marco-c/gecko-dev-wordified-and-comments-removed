@@ -1969,6 +1969,12 @@ _applySortAndScrollToTop
 (
 )
 ;
+this
+.
+_selectFirstVisibleLogin
+(
+)
+;
 }
 updateBreaches
 (
