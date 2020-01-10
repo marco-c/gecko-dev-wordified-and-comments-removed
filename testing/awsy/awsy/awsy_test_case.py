@@ -1204,6 +1204,7 @@ script_timeout
         
 except
 JavascriptException
+as
 e
 :
             
@@ -1575,6 +1576,7 @@ checkpoint_path
         
 except
 JavascriptException
+as
 e
 :
             
@@ -2015,6 +2017,7 @@ f
         
 except
 JavascriptException
+as
 e
 :
             
