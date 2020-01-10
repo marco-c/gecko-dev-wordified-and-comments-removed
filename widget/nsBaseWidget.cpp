@@ -6080,6 +6080,10 @@ DestroyCompositor
 (
 )
 ;
+lm
+=
+nullptr
+;
 }
 }
 if
