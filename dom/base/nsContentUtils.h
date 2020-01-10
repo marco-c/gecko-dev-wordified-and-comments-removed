@@ -5085,12 +5085,6 @@ aWin
 )
 ;
 static
-TimeDuration
-HandlingUserInputTimeout
-(
-)
-;
-static
 void
 GetShiftText
 (
