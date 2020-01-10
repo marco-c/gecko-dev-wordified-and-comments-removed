@@ -496,6 +496,7 @@ callback
 }
 onInputFocus
 (
+e
 )
 {
 this
@@ -507,6 +508,14 @@ isEditing
 :
 true
 }
+)
+;
+e
+.
+target
+.
+select
+(
 )
 ;
 }
