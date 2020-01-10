@@ -336,7 +336,7 @@ base
 10
 )
 ;
-const
+constexpr
 double
 DOUBLE_INTEGRAL_PRECISION_LIMIT
 =
