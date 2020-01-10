@@ -352,9 +352,15 @@ int32_t
 )
 const
 ;
+namespace
+mozilla
+{
+namespace
+detail
+{
 template
 int32_t
-nsTString
+nsTStringRepr
 <
 char
 >
@@ -372,7 +378,7 @@ const
 ;
 template
 bool
-nsTString
+nsTStringRepr
 <
 char16_t
 >
@@ -387,6 +393,8 @@ int32_t
 )
 const
 ;
+}
+}
 template
 bool
 nsTString
