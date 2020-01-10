@@ -789,6 +789,10 @@ run
 -
 >
 mOrientation
+run
+-
+>
+mIsCJK
 )
 ;
 bool
