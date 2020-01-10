@@ -2,7 +2,7 @@ import
 time
 MESSAGE_SIZE
 =
-8
+16
 *
 1024
 *

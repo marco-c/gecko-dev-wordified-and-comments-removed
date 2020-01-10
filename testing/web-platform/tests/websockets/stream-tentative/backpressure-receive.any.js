@@ -1,3 +1,8 @@
+const
+JITTER_ALLOWANCE_MS
+=
+200
+;
 promise_test
 (
 async
@@ -82,6 +87,10 @@ Number
 value
 )
 2
+-
+JITTER_ALLOWANCE_MS
+/
+1000
 '
 data
 send
