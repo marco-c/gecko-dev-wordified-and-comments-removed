@@ -121,16 +121,12 @@ HandleNativeObject
 debugger
 )
 ;
-static
 void
 trace
 (
 JSTracer
 *
 trc
-JSObject
-*
-obj
 )
 ;
 using
