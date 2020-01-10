@@ -1302,7 +1302,7 @@ event
 }
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -1943,7 +1943,7 @@ latency
 }
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -1954,7 +1954,7 @@ profile
 )
 ;
 }
-emit
+emitForTests
 (
 type
 data
@@ -1971,7 +1971,7 @@ this
 .
 owner
 .
-emit
+emitForTests
 (
 type
 data
