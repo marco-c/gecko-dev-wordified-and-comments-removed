@@ -514,6 +514,10 @@ mNeedKeyframe
 true
 ;
 const
+bool
+mErrorIfNoInitializationData
+;
+const
 TrackInfo
 :
 :

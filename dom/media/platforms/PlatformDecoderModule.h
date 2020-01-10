@@ -199,6 +199,7 @@ Default
 LowLatency
 HardwareDecoderNotAllowed
 FullH264Parsing
+ErrorIfNoInitializationData
 SENTINEL
 }
 ;

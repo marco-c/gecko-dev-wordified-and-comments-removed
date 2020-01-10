@@ -323,6 +323,13 @@ Option
 :
 :
 FullH264Parsing
+CreateDecoderParams
+:
+:
+Option
+:
+:
+ErrorIfNoInitializationData
 )
 mTrackType
 mImageContainer
