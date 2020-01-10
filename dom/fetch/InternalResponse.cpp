@@ -116,6 +116,8 @@ const
 nsACString
 &
 aStatusText
+RequestCredentials
+aCredentialsMode
 )
 :
 mType
@@ -155,6 +157,10 @@ UNKNOWN_PADDING_SIZE
 mErrorCode
 (
 NS_OK
+)
+mCredentialsMode
+(
+aCredentialsMode
 )
 {
 }
@@ -486,6 +492,7 @@ CORSHeaders
 Headers
 (
 )
+mCredentialsMode
 )
 ;
 cors
