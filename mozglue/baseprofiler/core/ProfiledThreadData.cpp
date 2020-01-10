@@ -289,6 +289,15 @@ category
 "
 )
 ;
+schema
+.
+WriteField
+(
+"
+subcategory
+"
+)
+;
 }
 aWriter
 .
