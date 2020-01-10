@@ -21998,6 +21998,12 @@ mCSDSupportLevel
 =
 =
 CSD_SUPPORT_CLIENT
+&
+&
+mSizeState
+=
+=
+nsSizeMode_Normal
 )
 {
 GetCSDDecorationSize
@@ -22103,7 +22109,7 @@ mDrawInTitlebar
 mIsPIPWindow
 &
 &
-mSizeMode
+mSizeState
 =
 =
 nsSizeMode_Normal
