@@ -1361,7 +1361,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 mem
@@ -1631,7 +1631,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 mem
@@ -1831,7 +1831,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 mem
@@ -2036,7 +2036,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 mem
@@ -2219,7 +2219,7 @@ mut
 c_void
 )
 {
-assert_eq
+debug_assert_eq
 !
 (
 mem
