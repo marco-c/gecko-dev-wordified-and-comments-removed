@@ -453,6 +453,10 @@ linux64
 -
 clang
 -
+macosx
+-
+cross
+-
 linux64
 -
 hfsplus
