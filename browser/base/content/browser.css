@@ -7033,17 +7033,6 @@ none
 else
 #
 BMB_bookmarksPopup
-{
-will
--
-change
-:
-transform
-opacity
-;
-}
-#
-BMB_bookmarksPopup
 :
 not
 (
