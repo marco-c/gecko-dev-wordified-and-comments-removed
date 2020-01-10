@@ -7370,8 +7370,15 @@ get
 (
 )
 {
-UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
+"
+Unexpected
+RequestDebugInfo
+(
+)
+rejection
+"
 )
 ;
 }

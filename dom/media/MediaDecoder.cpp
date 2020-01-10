@@ -7326,8 +7326,15 @@ __func__
 (
 )
 {
-UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
+"
+Unexpected
+RequestDebugInfo
+(
+)
+rejection
+"
 )
 ;
 return
