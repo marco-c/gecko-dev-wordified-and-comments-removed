@@ -37736,14 +37736,6 @@ keywords
 {
         
 "
-module
-"
-:
-"
-MODULE
-"
-        
-"
 interface
 "
 :
@@ -45748,9 +45740,6 @@ INTERFACE
                   
 |
 LONG
-                  
-|
-MODULE
                   
 |
 NULL
