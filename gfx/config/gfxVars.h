@@ -324,6 +324,13 @@ RemoteCanvasEnabled
 bool
 false
 )
+\
+_
+(
+UseDoubleBufferingWithCompositor
+bool
+false
+)
 class
 gfxVars
 final
