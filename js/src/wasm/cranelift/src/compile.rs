@@ -84,6 +84,7 @@ cranelift_wasm
 FuncIndex
 FuncTranslator
 WasmResult
+ModuleTranslationState
 }
 ;
 use
@@ -345,6 +346,9 @@ TargetIsa
 context
 :
 Context
+dummy_module_state
+:
+ModuleTranslationState
 trans
 :
 FuncTranslator
@@ -415,6 +419,14 @@ static_environ
 context
 :
 Context
+:
+:
+new
+(
+)
+dummy_module_state
+:
+ModuleTranslationState
 :
 :
 new
@@ -608,6 +620,10 @@ trans
 .
 translate
 (
+&
+self
+.
+dummy_module_state
 func
 .
 bytecode
