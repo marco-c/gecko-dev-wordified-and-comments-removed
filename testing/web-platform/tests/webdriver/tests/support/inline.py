@@ -4,11 +4,13 @@ def
 inline
 (
 doc
+           
 doctype
 =
 "
 html
 "
+           
 mime
 =
 "
@@ -22,11 +24,10 @@ utf
 -
 8
 "
-protocol
-=
-"
-http
-"
+           
+*
+*
+kwargs
 )
 :
     
@@ -332,14 +333,17 @@ urlencode
 query
 )
                      
-protocol
-=
-protocol
+*
+*
+kwargs
 )
 def
 iframe
 (
 doc
+*
+*
+kwargs
 )
 :
     
@@ -363,6 +367,9 @@ iframe
 inline
 (
 doc
+*
+*
+kwargs
 )
 def
 main

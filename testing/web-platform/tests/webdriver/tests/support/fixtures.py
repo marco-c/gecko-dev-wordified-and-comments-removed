@@ -1013,6 +1013,10 @@ protocol
 "
 http
 "
+subdomain
+=
+"
+"
 query
 =
 "
@@ -1023,6 +1027,22 @@ fragment
 "
 )
 :
+        
+domain
+=
+server_config
+[
+"
+domains
+"
+]
+[
+"
+"
+]
+[
+subdomain
+]
         
 port
 =
@@ -1050,12 +1070,7 @@ s
 "
 %
 (
-server_config
-[
-"
-browser_host
-"
-]
+domain
 port
 )
         
