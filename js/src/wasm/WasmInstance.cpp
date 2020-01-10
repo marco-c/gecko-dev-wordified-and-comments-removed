@@ -11430,12 +11430,6 @@ Metadata
 SeenSet
 *
 seenMetadata
-ShareableBytes
-:
-:
-SeenSet
-*
-seenBytes
 Code
 :
 :
@@ -11515,7 +11509,6 @@ addSizeOfMisc
 (
 mallocSizeOf
 seenMetadata
-seenBytes
 seenCode
 code
 data
