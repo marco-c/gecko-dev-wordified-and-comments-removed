@@ -148,10 +148,10 @@ STYLE_RULE
 1
 ;
 const
-SHOW_LONG_DESC_ACTION
+CLICK_ACTION
 =
 "
-showlongdesc
+click
 "
 ;
 const
@@ -1169,10 +1169,10 @@ getActionName
 (
 i
 )
-!
 =
 =
-SHOW_LONG_DESC_ACTION
+=
+CLICK_ACTION
 )
 {
 return
