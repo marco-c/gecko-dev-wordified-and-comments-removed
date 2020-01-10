@@ -127,7 +127,7 @@ ref
 native
 nsUint8TArrayRef
 (
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
