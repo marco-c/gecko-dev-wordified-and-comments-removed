@@ -234,7 +234,7 @@ write_yml_file
 from
 cpu
 import
-generate_android_cpu_profile
+start_android_cpu_profiler
 LOG
 =
 RaptorLogger
@@ -543,6 +543,8 @@ enable_control_server_wait
 '
 :
 memory_test
+or
+cpu_test
             
 '
 e10s
@@ -2914,6 +2916,12 @@ control_server
 =
 None
         
+self
+.
+cpu_profiler
+=
+None
+        
 super
 (
 Raptor
@@ -3319,6 +3327,26 @@ memory_test
 generate_android_memory_profile
 (
 self
+test
+[
+'
+name
+'
+]
+)
+                    
+if
+self
+.
+cpu_profiler
+:
+                        
+self
+.
+cpu_profiler
+.
+generate_android_cpu_profile
+(
 test
 [
 '
@@ -8789,6 +8817,14 @@ name
 ]
 )
             
+self
+.
+control_server
+.
+_finished
+=
+False
+            
 if
 self
 .
@@ -8800,24 +8836,14 @@ cpu_test
 ]
 :
                 
-generate_android_cpu_profile
+self
+.
+cpu_profiler
+=
+start_android_cpu_profiler
 (
 self
-test
-[
-'
-name
-'
-]
 )
-            
-self
-.
-control_server
-.
-_finished
-=
-False
             
 self
 .
@@ -9057,6 +9083,14 @@ name
 ]
 )
         
+self
+.
+control_server
+.
+_finished
+=
+False
+        
 if
 self
 .
@@ -9068,24 +9102,14 @@ cpu_test
 ]
 :
             
-generate_android_cpu_profile
+self
+.
+cpu_profiler
+=
+start_android_cpu_profiler
 (
 self
-test
-[
-'
-name
-'
-]
 )
-        
-self
-.
-control_server
-.
-_finished
-=
-False
         
 self
 .
