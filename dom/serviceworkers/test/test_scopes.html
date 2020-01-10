@@ -577,10 +577,19 @@ unregisterArray
 )
 ;
 }
-async
 function
 testScopes
 (
+)
+{
+return
+new
+Promise
+(
+function
+(
+resolve
+reject
 )
 {
 function
@@ -748,7 +757,6 @@ spec
 ;
 getScope
 =
-async
 (
 path
 )
@@ -758,10 +766,9 @@ path
 let
 rv
 =
-await
 chromeScript
 .
-sendQuery
+sendSyncMessage
 (
 "
 getScope
@@ -773,6 +780,12 @@ docPrincipal
 path
 }
 )
+[
+0
+]
+[
+0
+]
 ;
 if
 (
@@ -837,7 +850,6 @@ base
 s
 ;
 }
-async
 function
 fail
 (
@@ -846,7 +858,6 @@ fn
 {
 try
 {
-await
 getScope
 (
 p
@@ -887,7 +898,6 @@ registration
 }
 is
 (
-await
 getScope
 (
 p
@@ -914,7 +924,6 @@ match
 ;
 is
 (
-await
 getScope
 (
 p
@@ -947,7 +956,6 @@ match
 ;
 is
 (
-await
 getScope
 (
 p
@@ -976,7 +984,6 @@ match
 ;
 is
 (
-await
 getScope
 (
 p
@@ -1008,7 +1015,6 @@ match
 ;
 is
 (
-await
 getScope
 (
 p
@@ -1041,7 +1047,6 @@ match
 ;
 is
 (
-await
 getScope
 (
 p
@@ -1069,7 +1074,6 @@ match
 ;
 is
 (
-await
 getScope
 (
 p
@@ -1097,7 +1101,6 @@ match
 "
 )
 ;
-await
 fail
 (
 "
@@ -1107,7 +1110,6 @@ html
 "
 )
 ;
-await
 fail
 (
 "
@@ -1117,7 +1119,6 @@ html
 "
 )
 ;
-await
 fail
 (
 "
@@ -1127,6 +1128,13 @@ a
 .
 html
 "
+)
+;
+resolve
+(
+)
+;
+}
 )
 ;
 }

@@ -1021,11 +1021,9 @@ pi
 .
 port
 ;
-resolve
-(
 pwmgrParent
 .
-sendQuery
+sendSyncMessage
 (
 "
 initLogins
@@ -1034,6 +1032,9 @@ initLogins
 mozproxyOrigin
 }
 )
+;
+resolve
+(
 )
 ;
 }

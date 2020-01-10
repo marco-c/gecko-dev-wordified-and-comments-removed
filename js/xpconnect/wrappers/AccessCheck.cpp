@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsDOMWindowList
+.
+h
+"
+#
+include
+"
 nsGlobalWindow
 .
 h

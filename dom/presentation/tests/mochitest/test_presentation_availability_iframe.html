@@ -283,7 +283,6 @@ getAvailability
 .
 then
 (
-async
 function
 (
 aAvailability
@@ -340,10 +339,9 @@ availability
 =
 aAvailability
 ;
-await
 gScript
 .
-sendQuery
+sendAsyncMessage
 (
 "
 trigger

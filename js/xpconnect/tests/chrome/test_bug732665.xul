@@ -252,15 +252,6 @@ javascript
 [
 CDATA
 [
-add_task
-(
-async
-(
-)
-=
->
-{
-await
 SpecialPowers
 .
 pushPrefEnv
@@ -898,9 +889,6 @@ stack
 "
 +
 nestedLimit
-)
-;
-}
 )
 ;
 ]

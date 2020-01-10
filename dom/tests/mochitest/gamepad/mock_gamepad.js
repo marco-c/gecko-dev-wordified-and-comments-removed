@@ -1,14 +1,12 @@
 var
 GamepadService
 ;
-async
 function
 setGamepadPreferenceAndCreateIframe
 (
 iframeSrc
 )
 {
-await
 SpecialPowers
 .
 pushPrefEnv
@@ -31,8 +29,11 @@ true
 ]
 ]
 }
+(
 )
-;
+=
+>
+{
 let
 iframe
 =
@@ -58,6 +59,9 @@ body
 appendChild
 (
 iframe
+)
+;
+}
 )
 ;
 }

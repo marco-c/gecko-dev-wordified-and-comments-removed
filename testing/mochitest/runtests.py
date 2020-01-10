@@ -5367,6 +5367,12 @@ TEST_PATH
 tests
 "
     
+NESTED_OOP_TEST_PATH
+=
+"
+nested_oop
+"
+    
 CHROME_PATH
 =
 "
@@ -7276,6 +7282,28 @@ about
 :
 blank
 "
+        
+if
+options
+.
+nested_oop
+:
+            
+testURL
+=
+"
+/
+"
+.
+join
+(
+[
+testHost
+self
+.
+NESTED_OOP_TEST_PATH
+]
+)
         
 return
 testURL
@@ -13290,6 +13318,22 @@ autostart
 options
 .
 e10s
+            
+"
+dom
+.
+ipc
+.
+tabs
+.
+nested
+.
+enabled
+"
+:
+options
+.
+nested_oop
             
 "
 marionette

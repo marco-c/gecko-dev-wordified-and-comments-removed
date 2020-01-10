@@ -183,7 +183,6 @@ advanceTimeAndRefresh
 )
 ;
 }
-async
 function
 *
 runTests
@@ -1575,7 +1574,7 @@ cmd_selectPageUp
 ;
 }
 ;
-await
+yield
 SpecialPowers
 .
 pushPrefEnv
@@ -1604,7 +1603,7 @@ body
 1
 )
 ;
-await
+yield
 SpecialPowers
 .
 pushPrefEnv
@@ -1682,13 +1681,10 @@ advanceTimeAndRefresh
 ;
 if
 (
-(
-await
 curTest
 .
 next
 (
-)
 )
 .
 done
