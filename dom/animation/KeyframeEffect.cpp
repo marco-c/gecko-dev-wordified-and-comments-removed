@@ -65,6 +65,17 @@ include
 "
 mozilla
 /
+dom
+/
+MutationObservers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AnimationUtils
 .
 h

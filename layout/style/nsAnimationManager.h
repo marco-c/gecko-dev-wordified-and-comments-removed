@@ -54,6 +54,17 @@ include
 "
 mozilla
 /
+dom
+/
+MutationObservers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Keyframe
 .
 h

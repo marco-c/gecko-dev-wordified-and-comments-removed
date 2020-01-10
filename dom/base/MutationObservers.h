@@ -1,9 +1,9 @@
 #
 ifndef
-nsNodeUtils_h___
+DOM_BASE_MUTATIONOBSERVERS_H_
 #
 define
-nsNodeUtils_h___
+DOM_BASE_MUTATIONOBSERVERS_H_
 #
 include
 "

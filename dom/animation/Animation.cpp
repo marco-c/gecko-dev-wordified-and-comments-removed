@@ -79,6 +79,17 @@ include
 "
 mozilla
 /
+dom
+/
+MutationObservers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AnimationEventDispatcher
 .
 h

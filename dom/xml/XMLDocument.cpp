@@ -226,13 +226,6 @@ h
 #
 include
 "
-nsNodeUtils
-.
-h
-"
-#
-include
-"
 nsIConsoleService
 .
 h

@@ -257,13 +257,6 @@ h
 #
 include
 "
-nsNodeUtils
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h

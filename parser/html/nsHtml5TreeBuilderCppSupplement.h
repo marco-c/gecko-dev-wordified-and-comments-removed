@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsNodeUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CheckedInt

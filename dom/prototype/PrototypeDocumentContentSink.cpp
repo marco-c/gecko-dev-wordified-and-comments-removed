@@ -290,13 +290,6 @@ h
 #
 include
 "
-nsNodeUtils
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h

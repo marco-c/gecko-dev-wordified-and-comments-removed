@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsNodeUtils
-.
-h
-"
-#
-include
-"
 nsTextNode
 .
 h

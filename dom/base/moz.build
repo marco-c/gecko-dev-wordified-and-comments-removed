@@ -544,11 +544,6 @@ nsNodeInfoManager
 h
 '
 '
-nsNodeUtils
-.
-h
-'
-'
 nsPIDOMWindow
 .
 h
@@ -1070,6 +1065,11 @@ h
 '
 '
 MozQueryInterface
+.
+h
+'
+'
+MutationObservers
 .
 h
 '
@@ -1646,6 +1646,11 @@ MozQueryInterface
 cpp
 '
 '
+MutationObservers
+.
+cpp
+'
+'
 Navigator
 .
 cpp
@@ -1837,11 +1842,6 @@ cpp
 '
 '
 nsNodeInfoManager
-.
-cpp
-'
-'
-nsNodeUtils
 .
 cpp
 '
