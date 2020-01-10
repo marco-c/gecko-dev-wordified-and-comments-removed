@@ -197,11 +197,15 @@ Cookie
 )
 HTTP_ATOM
 (
-Cross_Origin
+Cross_Origin_Embedder_Policy
 "
 Cross
 -
 Origin
+-
+Embedder
+-
+Policy
 "
 )
 HTTP_ATOM

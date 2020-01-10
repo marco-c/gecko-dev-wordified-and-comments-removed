@@ -4972,6 +4972,10 @@ mismatched
 Cross
 -
 Origin
+-
+Embedder
+-
+Policy
 header
 will
 fail
@@ -4986,7 +4990,7 @@ tabs
 .
 remote
 .
-useCrossOriginPolicy
+useCrossOriginEmbedderPolicy
 type
 :
 bool
