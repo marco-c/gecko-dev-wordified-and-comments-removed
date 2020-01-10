@@ -64,7 +64,7 @@ SerializedStackHolder
 )
 ;
 void
-SerializeMainThreadStack
+SerializeMainThreadOrWorkletStack
 (
 JSContext
 *
