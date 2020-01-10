@@ -4526,6 +4526,13 @@ sBrowserContentParents
 ;
 if
 (
+!
+p
+-
+>
+mShutdownPending
+&
+&
 p
 -
 >
