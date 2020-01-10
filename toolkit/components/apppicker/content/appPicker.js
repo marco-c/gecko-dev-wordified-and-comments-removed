@@ -255,6 +255,10 @@ setAttribute
 value
 "
 filename
+|
+|
+"
+"
 )
 ;
 document
