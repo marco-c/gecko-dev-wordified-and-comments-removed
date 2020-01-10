@@ -332,6 +332,16 @@ currentAccountState
 )
 ;
 }
+async
+_handleTokenError
+(
+err
+)
+{
+throw
+err
+;
+}
 }
 )
 ;
