@@ -1,7 +1,7 @@
 #
 include
 "
-MediaDataDecoderCodec
+MediaDataCodec
 .
 h
 "
@@ -40,7 +40,7 @@ mozilla
 {
 WebrtcVideoEncoder
 *
-MediaDataDecoderCodec
+MediaDataCodec
 :
 :
 CreateEncoder
@@ -88,7 +88,7 @@ nullptr
 }
 WebrtcVideoDecoder
 *
-MediaDataDecoderCodec
+MediaDataCodec
 :
 :
 CreateDecoder

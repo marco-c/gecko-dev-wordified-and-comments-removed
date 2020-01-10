@@ -245,7 +245,7 @@ GmpVideoCodec
 cpp
 '
 '
-MediaDataDecoderCodec
+MediaDataCodec
 .
 cpp
 '

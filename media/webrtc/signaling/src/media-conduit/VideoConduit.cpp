@@ -290,7 +290,7 @@ h
 #
 include
 "
-MediaDataDecoderCodec
+MediaDataCodec
 .
 h
 "
@@ -8157,7 +8157,7 @@ decoder
 .
 reset
 (
-MediaDataDecoderCodec
+MediaDataCodec
 :
 :
 CreateDecoder
@@ -8512,7 +8512,7 @@ encoder
 .
 reset
 (
-MediaDataDecoderCodec
+MediaDataCodec
 :
 :
 CreateEncoder
