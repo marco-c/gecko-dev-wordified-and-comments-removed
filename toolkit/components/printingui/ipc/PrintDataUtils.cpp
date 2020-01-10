@@ -262,7 +262,7 @@ NS_IMETHODIMP
 MockWebBrowserPrint
 :
 :
-PrintPreviewNavigate
+PrintPreviewScrollToPage
 (
 int16_t
 aNavType
