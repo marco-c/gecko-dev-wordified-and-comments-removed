@@ -113,6 +113,12 @@ window
 )
 ;
 await
+wait
+(
+1000
+)
+;
+await
 runTests
 (
 inspector
@@ -126,6 +132,12 @@ switchHost
 "
 bottom
 "
+)
+;
+await
+wait
+(
+1000
 )
 ;
 await

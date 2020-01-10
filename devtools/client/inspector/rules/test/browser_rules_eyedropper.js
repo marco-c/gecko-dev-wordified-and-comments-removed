@@ -277,6 +277,12 @@ window
 )
 ;
 await
+wait
+(
+1000
+)
+;
+await
 runTest
 (
 testActor

@@ -140,6 +140,12 @@ window
 TEST_URI
 )
 ;
+await
+wait
+(
+1000
+)
+;
 const
 zoom
 =

@@ -1494,6 +1494,12 @@ right
 "
 )
 ;
+await
+wait
+(
+1000
+)
+;
 info
 (
 "
@@ -1583,6 +1589,12 @@ switchHost
 "
 window
 "
+)
+;
+await
+wait
+(
+1000
 )
 ;
 info

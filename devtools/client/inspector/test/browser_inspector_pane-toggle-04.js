@@ -93,6 +93,12 @@ right
 "
 )
 ;
+await
+wait
+(
+1000
+)
+;
 const
 button
 =
