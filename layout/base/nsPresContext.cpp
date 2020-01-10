@@ -4791,14 +4791,6 @@ return
 false
 ;
 }
-WritingMode
-writingMode
-=
-WritingMode
-(
-aComputedStyle
-)
-;
 if
 (
 display
@@ -4818,7 +4810,6 @@ aStyles
 =
 ScrollStyles
 (
-writingMode
 StyleOverflow
 :
 :
@@ -4827,7 +4818,6 @@ StyleOverflow
 :
 :
 Hidden
-display
 )
 ;
 }
@@ -4838,7 +4828,7 @@ aStyles
 =
 ScrollStyles
 (
-writingMode
+*
 display
 )
 ;
