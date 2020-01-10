@@ -44,6 +44,15 @@ h
 #
 include
 "
+debugger
+/
+Debugger
+.
+h
+"
+#
+include
+"
 gc
 /
 Policy
@@ -361,6 +370,10 @@ runtime_
 forkRandomKeyGenerator
 (
 )
+)
+debuggers_
+(
+zone_
 )
 wasm
 (
