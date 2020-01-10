@@ -65,16 +65,15 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 gfx
 ;
 namespace
 mozilla
+{
+namespace
+dom
 {
 class
 MOZ_RAII
@@ -209,7 +208,6 @@ mEmptyOrOldValue
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
-}
 float
 DOMSVGPoint
 :
@@ -543,4 +541,6 @@ forget
 (
 )
 ;
+}
+}
 }

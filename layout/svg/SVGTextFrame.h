@@ -110,9 +110,6 @@ class
 CharIterator
 ;
 class
-nsISVGPoint
-;
-class
 TextFrameIterator
 ;
 class
@@ -129,6 +126,9 @@ dom
 {
 struct
 DOMPointInit
+;
+class
+nsISVGPoint
 ;
 class
 SVGRect
@@ -858,6 +858,9 @@ aCharNum
 mozilla
 :
 :
+dom
+:
+:
 nsISVGPoint
 *
 *
@@ -873,6 +876,9 @@ aContent
 uint32_t
 aCharNum
 mozilla
+:
+:
+dom
 :
 :
 nsISVGPoint

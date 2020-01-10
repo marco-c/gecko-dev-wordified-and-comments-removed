@@ -70,12 +70,12 @@ aNodeInfo
 namespace
 mozilla
 {
-class
-nsISVGPoint
-;
 namespace
 dom
 {
+class
+nsISVGPoint
+;
 typedef
 SVGGeometryElement
 SVGPathElementBase

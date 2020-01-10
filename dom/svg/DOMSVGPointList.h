@@ -70,13 +70,16 @@ namespace
 mozilla
 {
 class
+SVGAnimatedPointList
+;
+namespace
+dom
+{
+class
 DOMSVGPoint
 ;
 class
 nsISVGPoint
-;
-class
-SVGAnimatedPointList
 ;
 class
 DOMSVGPointList
@@ -97,9 +100,6 @@ nsISVGPoint
 ;
 friend
 class
-mozilla
-:
-:
 DOMSVGPoint
 ;
 public
@@ -536,6 +536,7 @@ mIsAnimValList
 ;
 }
 ;
+}
 }
 #
 endif

@@ -45,6 +45,9 @@ ErrorResult
 class
 SVGStringList
 ;
+namespace
+dom
+{
 class
 DOMSVGStringList
 final
@@ -300,6 +303,7 @@ mIsConditionalProcessingAttribute
 ;
 }
 ;
+}
 }
 #
 endif

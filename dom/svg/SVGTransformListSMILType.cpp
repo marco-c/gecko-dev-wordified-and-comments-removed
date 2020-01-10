@@ -45,14 +45,16 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
+:
+:
 dom
 :
 :
 SVGTransform_Binding
 ;
+namespace
+mozilla
+{
 typedef
 FallibleTArray
 <
@@ -1893,4 +1895,5 @@ fallible
 return
 true
 ;
+}
 }

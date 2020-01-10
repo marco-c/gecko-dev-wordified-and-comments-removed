@@ -72,7 +72,6 @@ SVGMatrix
 class
 DOMSVGTransform
 ;
-}
 class
 DOMSVGTransformList
 final
@@ -639,6 +638,7 @@ mAList
 ;
 }
 ;
+}
 }
 #
 endif

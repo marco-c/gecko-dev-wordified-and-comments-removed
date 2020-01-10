@@ -60,14 +60,13 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
 (
 DOMSVGAnimatedPreserveAspectRatio
@@ -958,4 +957,5 @@ mSVGElement
 return
 NS_OK
 ;
+}
 }

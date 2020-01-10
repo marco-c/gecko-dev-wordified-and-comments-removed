@@ -159,9 +159,6 @@ class
 DeclarationBlock
 ;
 class
-DOMSVGStringList
-;
-class
 SVGAnimatedBoolean
 ;
 class
@@ -224,6 +221,9 @@ SVGEnumMapping
 namespace
 dom
 {
+class
+DOMSVGStringList
+;
 class
 SVGSVGElement
 ;
@@ -2140,9 +2140,6 @@ aAttrEnum
 ;
 friend
 class
-mozilla
-:
-:
 DOMSVGStringList
 ;
 struct

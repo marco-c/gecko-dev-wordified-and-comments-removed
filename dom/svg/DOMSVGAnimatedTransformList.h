@@ -47,14 +47,14 @@ namespace
 mozilla
 {
 class
-DOMSVGTransformList
-;
-class
 SVGAnimatedTransformList
 ;
 namespace
 dom
 {
+class
+DOMSVGTransformList
+;
 class
 DOMSVGAnimatedTransformList
 final
@@ -64,9 +64,6 @@ nsWrapperCache
 {
 friend
 class
-mozilla
-:
-:
 DOMSVGTransformList
 ;
 public

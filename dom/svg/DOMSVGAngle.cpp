@@ -34,17 +34,12 @@ SVGSVGElement
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
+{
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
 (
 DOMSVGAngle
@@ -581,5 +576,7 @@ GetBaseAngleValueString
 aValue
 )
 ;
+}
+}
 }
 }

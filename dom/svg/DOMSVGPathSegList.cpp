@@ -71,15 +71,11 @@ RefPtr
 .
 h
 "
-using
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-;
-namespace
-mozilla
 {
 static
 inline
@@ -2486,6 +2482,7 @@ UpdateListIndex
 i
 )
 ;
+}
 }
 }
 }

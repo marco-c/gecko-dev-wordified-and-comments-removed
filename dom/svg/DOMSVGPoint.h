@@ -73,7 +73,6 @@ SVGElement
 class
 SVGMatrix
 ;
-}
 class
 DOMSVGPoint
 final
@@ -312,9 +311,6 @@ nsISVGPoint
 >
 MatrixTransform
 (
-dom
-:
-:
 SVGMatrix
 &
 matrix
@@ -350,9 +346,6 @@ this
 }
 protected
 :
-dom
-:
-:
 SVGElement
 *
 Element
@@ -370,6 +363,7 @@ Element
 }
 }
 ;
+}
 }
 #
 endif

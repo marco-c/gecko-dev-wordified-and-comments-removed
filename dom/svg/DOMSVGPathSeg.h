@@ -56,7 +56,6 @@ dom
 class
 SVGElement
 ;
-}
 #
 define
 CHECK_ARG_COUNT_IN_SYNC
@@ -2752,6 +2751,7 @@ mArgs
 ;
 }
 ;
+}
 }
 #
 undef

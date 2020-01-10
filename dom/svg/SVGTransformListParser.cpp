@@ -42,10 +42,9 @@ nsAtom
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 bool
 SVGTransformListParser
 :
@@ -1064,4 +1063,5 @@ m
 return
 true
 ;
+}
 }

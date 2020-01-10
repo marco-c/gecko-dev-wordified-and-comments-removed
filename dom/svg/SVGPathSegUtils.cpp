@@ -38,10 +38,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -56,6 +52,9 @@ mozilla
 :
 gfx
 ;
+namespace
+mozilla
+{
 static
 const
 float
@@ -3219,4 +3218,5 @@ aData
 aState
 )
 ;
+}
 }

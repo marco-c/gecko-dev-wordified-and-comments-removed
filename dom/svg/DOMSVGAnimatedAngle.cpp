@@ -23,17 +23,12 @@ SVGAnimatedAngleBinding
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
+{
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
 (
 DOMSVGAnimatedAngle
@@ -123,4 +118,6 @@ ToDOMAnimVal
 mSVGElement
 )
 ;
+}
+}
 }

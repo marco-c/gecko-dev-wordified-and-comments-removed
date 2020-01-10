@@ -137,10 +137,9 @@ i
 namespace
 mozilla
 {
-using
 namespace
 dom
-;
+{
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 DOMSVGTransformList
@@ -1831,5 +1830,6 @@ mItems
 aIndex
 )
 ;
+}
 }
 }

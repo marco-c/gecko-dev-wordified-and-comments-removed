@@ -76,10 +76,16 @@ final
 {
 friend
 class
+dom
+:
+:
 DOMSVGPathSeg
 ;
 friend
 class
+dom
+:
+:
 DOMSVGPathSegList
 ;
 public

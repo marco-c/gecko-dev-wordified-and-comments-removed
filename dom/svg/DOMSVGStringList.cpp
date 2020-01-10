@@ -63,10 +63,9 @@ algorithm
 namespace
 mozilla
 {
-using
 namespace
 dom
-;
+{
 static
 inline
 SVGAttrTearoffTable
@@ -875,5 +874,6 @@ mStringLists
 mAttrEnum
 ]
 ;
+}
 }
 }
