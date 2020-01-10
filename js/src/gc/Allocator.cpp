@@ -2355,7 +2355,7 @@ if
 (
 allocTask
 .
-isRunningWithLockHeld
+wasStarted
 (
 helperLock
 )
