@@ -354,6 +354,10 @@ emitAtomOp
 (
 propAtomIndex_
 op
+ShouldInstrument
+:
+:
+Yes
 )
 )
 {
@@ -854,6 +858,10 @@ emitAtomOp
 (
 propAtomIndex_
 setOp
+ShouldInstrument
+:
+:
+Yes
 )
 )
 {
@@ -1160,6 +1168,10 @@ emitAtomOp
 (
 propAtomIndex_
 setOp
+ShouldInstrument
+:
+:
+Yes
 )
 )
 {
