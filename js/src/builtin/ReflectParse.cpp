@@ -21092,8 +21092,9 @@ lineno
 ;
 options
 .
-setForceFullParse
+setCanLazilyParse
 (
+false
 )
 ;
 options

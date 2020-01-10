@@ -4919,8 +4919,9 @@ false
 ;
 options
 .
-setForceFullParse
+setCanLazilyParse
 (
+false
 )
 ;
 options
@@ -4931,9 +4932,9 @@ true
 ;
 options
 .
-setForceStrictMode
-(
-)
+strictOption
+=
+true
 ;
 JS
 :
@@ -29094,8 +29095,9 @@ Module
 {
 options
 .
-setForceStrictMode
+maybeMakeStrictMode
 (
+true
 )
 ;
 options
