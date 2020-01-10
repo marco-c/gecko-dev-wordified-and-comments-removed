@@ -8,6 +8,13 @@ h
 #
 include
 "
+AudioDeviceInfo
+.
+h
+"
+#
+include
+"
 DOMMediaStream
 .
 h
@@ -1072,7 +1079,7 @@ SetSink
 (
 AudioDeviceInfo
 *
-aSink
+aSinkDevice
 )
 {
 MOZ_ASSERT
@@ -1093,6 +1100,10 @@ AbstractMainThread
 )
 )
 ;
+mSinkDevice
+=
+aSinkDevice
+;
 return
 GetStateMachine
 (
@@ -1101,7 +1112,7 @@ GetStateMachine
 >
 InvokeSetSink
 (
-aSink
+aSinkDevice
 )
 ;
 }
@@ -1678,6 +1689,11 @@ mLooping
 aInit
 .
 mLooping
+)
+INIT_CANONICAL
+(
+mSinkDevice
+nullptr
 )
 INIT_CANONICAL
 (
