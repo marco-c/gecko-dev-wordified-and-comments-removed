@@ -846,6 +846,12 @@ isGeneratorFunction
 const
 ;
 bool
+isClassConstructor
+(
+)
+const
+;
+bool
 isGlobal
 (
 )
