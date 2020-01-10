@@ -153,6 +153,14 @@ OnNetworkChanged
 ;
 virtual
 void
+OnNetworkIDChanged
+(
+)
+=
+0
+;
+virtual
+void
 OnLinkUp
 (
 )
@@ -409,6 +417,9 @@ mLinkUp
 ;
 bool
 mRecalculateNetworkId
+;
+bool
+mSendNetworkChangeEvent
 ;
 mozilla
 :
