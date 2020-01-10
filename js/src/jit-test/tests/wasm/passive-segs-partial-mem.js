@@ -781,9 +781,6 @@ shared
 srcOffs
 targetOffs
 len
-copyDown
-=
-false
 )
 {
 let
@@ -875,6 +872,13 @@ mem
 .
 buffer
 )
+;
+let
+copyDown
+=
+srcOffs
+<
+targetOffs
 ;
 let
 targetAvail
@@ -1342,7 +1346,6 @@ PAGESIZE
 -
 20
 40
-true
 )
 ;
 mem_copy
@@ -1373,7 +1376,6 @@ PAGESIZE
 -
 20
 40
-true
 )
 ;
 mem_copy
@@ -1433,6 +1435,5 @@ PAGESIZE
 -
 20
 0xFFFFFF00
-true
 )
 ;

@@ -537,9 +537,6 @@ max
 srcOffs
 targetOffs
 len
-copyDown
-=
-false
 )
 {
 let
@@ -783,6 +780,13 @@ ins
 exports
 .
 tbl
+;
+let
+copyDown
+=
+srcOffs
+<
+targetOffs
 ;
 let
 targetAvail
@@ -1269,7 +1273,6 @@ floor
 tbl_copy_len
 )
 tbl_copy_len
-true
 )
 ;
 tbl_copy
@@ -1318,7 +1321,6 @@ floor
 tbl_copy_len
 )
 tbl_copy_len
-true
 )
 ;
 tbl_copy
@@ -1390,6 +1392,5 @@ tbl_copy_len
 *
 7
 0xFFFFFFE0
-true
 )
 ;
