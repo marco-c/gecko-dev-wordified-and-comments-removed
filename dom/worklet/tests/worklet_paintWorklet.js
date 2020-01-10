@@ -16,7 +16,7 @@ console
 .
 log
 (
-this
+globalThis
 instanceof
 PaintWorkletGlobalScope
 ?

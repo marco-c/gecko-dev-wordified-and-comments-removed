@@ -31,7 +31,7 @@ console
 .
 log
 (
-this
+globalThis
 instanceof
 AudioWorkletGlobalScope
 ?
