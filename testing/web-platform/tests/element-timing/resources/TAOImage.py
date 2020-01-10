@@ -19,10 +19,7 @@ first
 '
 origin
 '
-'
-'
 )
-;
     
 if
 origin
