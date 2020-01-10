@@ -338,13 +338,3 @@ webauthn_enable_android_fido2
 false
 )
 ;
-pref
-(
-"
-permissions
-.
-memory_only
-"
-true
-)
-;
