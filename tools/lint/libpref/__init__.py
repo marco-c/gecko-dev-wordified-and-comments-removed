@@ -5,8 +5,6 @@ absolute_import
 print_function
 division
 import
-os
-import
 re
 import
 sys
