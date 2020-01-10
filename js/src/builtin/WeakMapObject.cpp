@@ -605,7 +605,7 @@ ptr
 map
 -
 >
-unbarrieredLookup
+lookup
 (
 key
 )
