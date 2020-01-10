@@ -1897,6 +1897,14 @@ SourceQuery
 class
 ObjectQuery
 ;
+enum
+class
+FromSweep
+{
+No
+Yes
+}
+;
 MOZ_MUST_USE
 bool
 addDebuggeeGlobal
@@ -1927,6 +1935,8 @@ WeakGlobalObjectSet
 Enum
 *
 debugEnum
+FromSweep
+fromSweep
 )
 ;
 enum
