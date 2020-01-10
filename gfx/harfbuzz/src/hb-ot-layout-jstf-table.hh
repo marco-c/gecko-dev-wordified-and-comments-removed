@@ -281,7 +281,7 @@ c
 typedef
 SortedArrayOf
 <
-GlyphID
+HBGlyphID
 >
 ExtenderGlyphs
 ;

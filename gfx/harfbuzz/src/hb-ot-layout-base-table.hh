@@ -137,7 +137,7 @@ format
 FWORD
 coordinate
 ;
-GlyphID
+HBGlyphID
 referenceGlyph
 ;
 HBUINT16

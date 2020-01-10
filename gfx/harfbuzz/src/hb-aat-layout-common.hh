@@ -294,10 +294,10 @@ base
 )
 ;
 }
-GlyphID
+HBGlyphID
 last
 ;
-GlyphID
+HBGlyphID
 first
 ;
 T
@@ -658,10 +658,10 @@ ds
 )
 ;
 }
-GlyphID
+HBGlyphID
 last
 ;
-GlyphID
+HBGlyphID
 first
 ;
 NNOffsetTo
@@ -925,7 +925,7 @@ base
 )
 ;
 }
-GlyphID
+HBGlyphID
 glyph
 ;
 T
@@ -1209,7 +1209,7 @@ protected
 HBUINT16
 format
 ;
-GlyphID
+HBGlyphID
 firstGlyph
 ;
 HBUINT16
@@ -1398,7 +1398,7 @@ format
 HBUINT16
 valueSize
 ;
-GlyphID
+HBGlyphID
 firstGlyph
 ;
 HBUINT16
@@ -3156,7 +3156,7 @@ c
 }
 protected
 :
-GlyphID
+HBGlyphID
 firstGlyph
 ;
 ArrayOf
@@ -3251,10 +3251,10 @@ base
 )
 )
 /
-sizeof
-(
 T
-)
+:
+:
+static_size
 ;
 }
 template

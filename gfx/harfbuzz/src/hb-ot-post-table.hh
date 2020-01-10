@@ -1215,7 +1215,7 @@ FixedVersion
 >
 version
 ;
-Fixed
+HBFixed
 italicAngle
 ;
 FWORD

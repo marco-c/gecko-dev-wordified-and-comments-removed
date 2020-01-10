@@ -1264,7 +1264,7 @@ offSize
 HBUINT8
 offsets
 [
-VAR
+HB_VAR_ARRAY
 ]
 ;
 public
@@ -2983,12 +2983,12 @@ num_glyphs
 HBUINT8
 fds
 [
-VAR
+HB_VAR_ARRAY
 ]
 ;
 DEFINE_SIZE_MIN
 (
-1
+0
 )
 ;
 }

@@ -926,6 +926,8 @@ default_value
 }
 else
 {
+if
+(
 feature_infos
 [
 j
@@ -933,8 +935,16 @@ j
 .
 flags
 &
+F_GLOBAL
+)
+feature_infos
+[
+j
+]
+.
+flags
+^
 =
-~
 F_GLOBAL
 ;
 feature_infos

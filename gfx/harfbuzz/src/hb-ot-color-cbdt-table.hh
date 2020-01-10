@@ -820,10 +820,10 @@ format
 )
 ;
 }
-GlyphID
+HBGlyphID
 firstGlyphIndex
 ;
-GlyphID
+HBGlyphID
 lastGlyphIndex
 ;
 LOffsetTo
@@ -1100,10 +1100,10 @@ horizontal
 SBitLineMetrics
 vertical
 ;
-GlyphID
+HBGlyphID
 startGlyphIndex
 ;
-GlyphID
+HBGlyphID
 endGlyphIndex
 ;
 HBUINT8

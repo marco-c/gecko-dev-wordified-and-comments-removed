@@ -1018,6 +1018,13 @@ out_info
 =
 info
 ;
+if
+(
+likely
+(
+len
+)
+)
 memset
 (
 pos

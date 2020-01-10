@@ -715,9 +715,10 @@ namesZ
 ;
 public
 :
-DEFINE_SIZE_STATIC
+DEFINE_SIZE_ARRAY
 (
-24
+12
+namesZ
 )
 ;
 }

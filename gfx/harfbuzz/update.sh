@@ -54,7 +54,7 @@ VERSION
 .
 6
 .
-1
+2
 git
 clone
 https

@@ -90,6 +90,9 @@ define
 HB_NO_COLOR
 #
 define
+HB_NO_ERRNO
+#
+define
 HB_NO_FACE_COLLECT_UNICODES
 #
 define

@@ -115,7 +115,7 @@ flags
 NameID
 valueNameID
 ;
-Fixed
+HBFixed
 value
 ;
 public
@@ -183,13 +183,13 @@ flags
 NameID
 valueNameID
 ;
-Fixed
+HBFixed
 nominalValue
 ;
-Fixed
+HBFixed
 rangeMinValue
 ;
-Fixed
+HBFixed
 rangeMaxValue
 ;
 public
@@ -257,10 +257,10 @@ flags
 NameID
 valueNameID
 ;
-Fixed
+HBFixed
 value
 ;
-Fixed
+HBFixed
 linkedValue
 ;
 public
@@ -309,7 +309,7 @@ protected
 HBUINT16
 axisIndex
 ;
-Fixed
+HBFixed
 value
 ;
 public

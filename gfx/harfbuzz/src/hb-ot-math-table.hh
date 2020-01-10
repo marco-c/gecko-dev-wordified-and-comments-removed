@@ -1567,7 +1567,7 @@ this
 }
 protected
 :
-GlyphID
+HBGlyphID
 variantGlyph
 ;
 HBUINT16
@@ -1739,7 +1739,7 @@ Defined
 }
 protected
 :
-GlyphID
+HBGlyphID
 glyph
 ;
 HBUINT16

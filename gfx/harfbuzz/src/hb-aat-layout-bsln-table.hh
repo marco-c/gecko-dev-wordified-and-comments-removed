@@ -184,7 +184,7 @@ this
 }
 protected
 :
-GlyphID
+HBGlyphID
 stdGlyph
 ;
 HBUINT16
@@ -241,7 +241,7 @@ c
 }
 protected
 :
-GlyphID
+HBGlyphID
 stdGlyph
 ;
 HBUINT16

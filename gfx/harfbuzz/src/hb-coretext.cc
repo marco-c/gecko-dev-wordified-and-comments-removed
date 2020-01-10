@@ -1201,6 +1201,10 @@ coretext
 CGFloat
 font_size
 =
+(
+CGFloat
+)
+(
 font
 -
 >
@@ -1217,6 +1221,7 @@ font
 -
 >
 ptem
+)
 ;
 CTFontRef
 ct_font
@@ -1326,6 +1331,9 @@ CTFontRef
 data
 )
 -
+(
+CGFloat
+)
 font
 -
 >

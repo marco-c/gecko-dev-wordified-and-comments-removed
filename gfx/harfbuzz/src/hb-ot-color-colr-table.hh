@@ -80,7 +80,7 @@ this
 }
 protected
 :
-GlyphID
+HBGlyphID
 glyphId
 ;
 Index
@@ -154,7 +154,7 @@ this
 }
 public
 :
-GlyphID
+HBGlyphID
 glyphId
 ;
 HBUINT16

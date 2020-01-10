@@ -16,7 +16,7 @@ HarfBuzz
 .
 6
 .
-1
+2
 ]
 [
 https
@@ -482,6 +482,7 @@ mmap
 isatty
 newlocale
 strtod_l
+roundf
 )
 AC_CHECK_HEADERS
 (

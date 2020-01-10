@@ -154,7 +154,7 @@ tag
 ;
 union
 {
-Fixed
+HBFixed
 value
 ;
 HBUINT32
@@ -326,7 +326,7 @@ c
 }
 protected
 :
-Fixed
+HBFixed
 version
 ;
 LArrayOf
