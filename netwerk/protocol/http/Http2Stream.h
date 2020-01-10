@@ -1111,6 +1111,12 @@ return
 mIsTunnel
 ;
 }
+nsCString
+&
+RegistrationKey
+(
+)
+;
 private
 :
 void
@@ -1138,6 +1144,9 @@ mIsTunnel
 ;
 bool
 mPlainTextTunnel
+;
+nsCString
+mRegistrationKey
 ;
 public
 :
