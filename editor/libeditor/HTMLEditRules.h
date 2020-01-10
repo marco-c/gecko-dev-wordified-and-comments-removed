@@ -2008,9 +2008,6 @@ mHTMLEditor
 bool
 mInitialized
 ;
-bool
-mReturnInEmptyLIKillsList
-;
 }
 ;
 }
