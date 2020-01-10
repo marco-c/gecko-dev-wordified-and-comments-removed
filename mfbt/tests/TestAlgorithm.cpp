@@ -75,8 +75,16 @@ namespace
 mozilla
 ;
 using
-namespace
 std
+:
+:
+begin
+;
+using
+std
+:
+:
+end
 ;
 constexpr
 static

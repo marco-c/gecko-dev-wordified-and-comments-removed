@@ -68,10 +68,6 @@ b
 )
 using
 namespace
-std
-;
-using
-namespace
 mozilla
 ;
 static_assert
