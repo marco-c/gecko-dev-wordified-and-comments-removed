@@ -2317,16 +2317,6 @@ getCurrentPanel
 (
 )
 ;
-nodeSelectors
-.
-splice
-(
-0
-toolbox
-.
-selectedFrameDepth
-)
-;
 const
 onNewNode
 =
