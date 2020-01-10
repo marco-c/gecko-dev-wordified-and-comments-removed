@@ -436,7 +436,6 @@ index
 }
 connector
 item
-index
 }
 )
 ;
