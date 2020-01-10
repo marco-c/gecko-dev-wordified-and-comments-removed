@@ -48,6 +48,15 @@ y
 serialize
 (
 x
+[
+]
+{
+SharedArrayBuffer
+:
+'
+allow
+'
+}
 )
 ;
 assertEq
