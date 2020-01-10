@@ -245,10 +245,6 @@ AttrRelProviders
 *
 mProviders
 ;
-nsIContent
-*
-mBindingParent
-;
 uint32_t
 mIndex
 ;
