@@ -794,6 +794,7 @@ if
 (
 node
 )
+{
 return
 [
 node
@@ -807,6 +808,7 @@ ownerDocument
 nodePrincipal
 ]
 ;
+}
 let
 href
 baseURI

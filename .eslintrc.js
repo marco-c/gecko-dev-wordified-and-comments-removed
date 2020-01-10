@@ -240,12 +240,6 @@ files
 :
 [
 "
-browser
-/
-*
-*
-"
-"
 build
 /
 *

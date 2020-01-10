@@ -382,7 +382,6 @@ callID
 let
 topic
 =
-(
 aMessage
 .
 name
@@ -393,7 +392,6 @@ rtcpeer
 :
 Allow
 "
-)
 ?
 "
 PeerConnection
@@ -510,6 +508,7 @@ data
 .
 devices
 )
+{
 allowedDevices
 .
 appendElement
@@ -520,6 +519,7 @@ deviceIndex
 ]
 )
 ;
+}
 Services
 .
 obs
@@ -759,6 +759,7 @@ if
 (
 mm
 )
+{
 mm
 .
 sendAsyncMessage
@@ -771,6 +772,7 @@ StopRecording
 request
 )
 ;
+}
 }
 function
 handleGUMRequest
@@ -835,8 +837,10 @@ contentWindow
 .
 closed
 )
+{
 return
 ;
+}
 prompt
 (
 contentWindow
@@ -935,9 +939,7 @@ video
 &
 &
 typeof
-(
 video
-)
 !
 =
 "
@@ -961,9 +963,7 @@ audio
 &
 &
 typeof
-(
 audio
-)
 !
 =
 "
@@ -1126,12 +1126,14 @@ device
 .
 scary
 )
+{
 deviceObject
 .
 scary
 =
 true
 ;
+}
 videoDevices
 .
 push
@@ -1163,6 +1165,7 @@ videoDevices
 .
 length
 )
+{
 requestTypes
 .
 push
@@ -1178,12 +1181,14 @@ Camera
 "
 )
 ;
+}
 if
 (
 audioDevices
 .
 length
 )
+{
 requestTypes
 .
 push
@@ -1199,6 +1204,7 @@ Microphone
 "
 )
 ;
+}
 if
 (
 !
@@ -1386,8 +1392,10 @@ aData
 .
 windowID
 )
+{
 return
 ;
+}
 let
 contentWindow
 =
@@ -1408,6 +1416,7 @@ contentWindow
 .
 pendingGetUserMediaRequests
 )
+{
 forgetGUMRequest
 (
 contentWindow
@@ -1416,6 +1425,7 @@ aData
 callID
 )
 ;
+}
 }
 function
 forgetGUMRequest
@@ -1826,6 +1836,7 @@ showScreenSharingIndicator
 Screen
 "
 )
+{
 state
 .
 showScreenSharingIndicator
@@ -1834,6 +1845,7 @@ showScreenSharingIndicator
 Window
 "
 ;
+}
 }
 else
 if
@@ -1857,6 +1869,7 @@ state
 .
 showScreenSharingIndicator
 )
+{
 state
 .
 showScreenSharingIndicator
@@ -1865,6 +1878,7 @@ showScreenSharingIndicator
 Browser
 "
 ;
+}
 }
 }
 let
@@ -1975,6 +1989,7 @@ tabState
 .
 screen
 )
+{
 tabState
 =
 {
@@ -1985,6 +2000,7 @@ tabState
 windowId
 }
 ;
+}
 let
 mm
 =
@@ -1997,6 +2013,7 @@ if
 (
 mm
 )
+{
 mm
 .
 sendAsyncMessage
@@ -2009,6 +2026,7 @@ UpdateBrowserIndicators
 tabState
 )
 ;
+}
 }
 function
 getTabStateForContentWindow
@@ -2077,6 +2095,7 @@ MediaManagerService
 .
 STATE_CAPTURE_ENABLED
 )
+{
 tabState
 .
 screen
@@ -2085,6 +2104,7 @@ screen
 Screen
 "
 ;
+}
 else
 if
 (
@@ -2097,6 +2117,7 @@ MediaManagerService
 .
 STATE_CAPTURE_ENABLED
 )
+{
 tabState
 .
 screen
@@ -2105,6 +2126,7 @@ screen
 Window
 "
 ;
+}
 else
 if
 (
@@ -2117,6 +2139,7 @@ MediaManagerService
 .
 STATE_CAPTURE_ENABLED
 )
+{
 tabState
 .
 screen
@@ -2125,6 +2148,7 @@ screen
 Browser
 "
 ;
+}
 else
 if
 (
@@ -2137,6 +2161,7 @@ MediaManagerService
 .
 STATE_CAPTURE_DISABLED
 )
+{
 tabState
 .
 screen
@@ -2145,6 +2170,7 @@ screen
 ScreenPaused
 "
 ;
+}
 else
 if
 (
@@ -2157,6 +2183,7 @@ MediaManagerService
 .
 STATE_CAPTURE_DISABLED
 )
+{
 tabState
 .
 screen
@@ -2165,6 +2192,7 @@ screen
 WindowPaused
 "
 ;
+}
 else
 if
 (
@@ -2177,6 +2205,7 @@ MediaManagerService
 .
 STATE_CAPTURE_DISABLED
 )
+{
 tabState
 .
 screen
@@ -2185,6 +2214,7 @@ screen
 BrowserPaused
 "
 ;
+}
 let
 screenEnabled
 =

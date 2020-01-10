@@ -442,14 +442,12 @@ docStyleSheet
 .
 disabled
 =
-(
 docStyleSheet
 .
 title
 !
 =
 title
-)
 ;
 }
 else
@@ -489,9 +487,7 @@ styleSheets
 .
 some
 (
-(
 styleSheet
-)
 =
 >
 styleSheet
@@ -530,8 +526,10 @@ currentStyleSheet
 .
 title
 )
+{
 continue
 ;
+}
 if
 (
 currentStyleSheet
@@ -640,7 +638,6 @@ continue
 let
 sentURI
 =
-(
 !
 URI
 |
@@ -653,7 +650,6 @@ scheme
 "
 data
 "
-)
 ?
 null
 :

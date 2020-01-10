@@ -206,9 +206,11 @@ document
 .
 documentElement
 )
+{
 return
 null
 ;
+}
 var
 attr
 =
@@ -230,9 +232,11 @@ if
 !
 attr
 )
+{
 return
 null
 ;
+}
 try
 {
 return
@@ -341,8 +345,10 @@ perms
 .
 UNKNOWN_ACTION
 )
+{
 return
 ;
+}
 try
 {
 if
@@ -433,8 +439,10 @@ aDocument
 .
 documentElement
 )
+{
 return
 ;
+}
 let
 manifestURI
 =
@@ -452,8 +460,10 @@ if
 !
 manifestURI
 )
+{
 return
 ;
+}
 var
 updateService
 =

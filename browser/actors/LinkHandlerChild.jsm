@@ -438,8 +438,10 @@ href
 "
 )
 )
+{
 return
 ;
+}
 let
 iconAdded
 =
@@ -472,6 +474,7 @@ s
 /
 )
 )
+{
 rels
 [
 relString
@@ -479,6 +482,7 @@ relString
 =
 true
 ;
+}
 for
 (
 let

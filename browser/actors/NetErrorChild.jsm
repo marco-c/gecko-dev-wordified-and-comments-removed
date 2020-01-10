@@ -1281,7 +1281,6 @@ id
 )
 isTopFrame
 :
-(
 win
 .
 parent
@@ -1289,7 +1288,6 @@ parent
 =
 =
 win
-)
 securityInfoAsString
 :
 getSerializedSecurityInfo
@@ -1422,9 +1420,7 @@ click
 telemetryId
 errorCode
 {
-"
 panel_open
-"
 :
 (
 panel
@@ -1442,9 +1438,7 @@ none
 toString
 (
 )
-"
 has_sts
-"
 :
 (
 cssClass
@@ -1458,9 +1452,7 @@ badStsCert
 toString
 (
 )
-"
 is_frame
-"
 :
 (
 doc

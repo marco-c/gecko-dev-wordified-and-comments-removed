@@ -480,7 +480,6 @@ setAttribute
 "
 href
 "
-(
 SafeBrowsing
 .
 getReportURL
@@ -505,7 +504,6 @@ org
 /
 firefox
 "
-)
 )
 ;
 doc
@@ -602,7 +600,6 @@ setAttribute
 "
 href
 "
-(
 SafeBrowsing
 .
 getReportURL
@@ -634,7 +631,6 @@ tpl
 =
 mozilla
 "
-)
 )
 ;
 doc
@@ -873,9 +869,7 @@ advisory
 desc
 "
 {
-"
 advisoryname
-"
 :
 advisoryLinkText
 }
@@ -1036,7 +1030,6 @@ id
 )
 isTopFrame
 :
-(
 ownerDoc
 .
 defaultView
@@ -1048,7 +1041,6 @@ parent
 ownerDoc
 .
 defaultView
-)
 blockedInfo
 :
 getSiteBlockedErrorDetails
