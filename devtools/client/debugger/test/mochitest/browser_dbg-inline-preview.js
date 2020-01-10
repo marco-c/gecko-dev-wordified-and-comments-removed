@@ -17,7 +17,7 @@ waitForAllElements
 (
 dbg
 "
-inlinePreviewLables
+inlinePreviewLabels
 "
 inlinePreviews
 .
@@ -31,7 +31,7 @@ findAllElements
 (
 dbg
 "
-inlinePreviewLables
+inlinePreviewLabels
 "
 )
 ;
