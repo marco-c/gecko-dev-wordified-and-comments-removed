@@ -1299,12 +1299,6 @@ kCursorKTable
 ]
 ;
 static
-KTableEntry
-kDisplayKTable
-[
-]
-;
-static
 const
 KTableEntry
 kFontSmoothingKTable
