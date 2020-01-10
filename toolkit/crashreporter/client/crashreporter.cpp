@@ -59,6 +59,11 @@ include
 string
 >
 #
+include
+<
+utility
+>
+#
 ifdef
 XP_LINUX
 #
@@ -84,12 +89,6 @@ sechash
 .
 h
 "
-using
-std
-:
-:
-auto_ptr
-;
 using
 std
 :
@@ -142,6 +141,12 @@ using
 std
 :
 :
+unique_ptr
+;
+using
+std
+:
+:
 vector
 ;
 namespace
@@ -178,7 +183,7 @@ Failed
 }
 ;
 static
-auto_ptr
+unique_ptr
 <
 ofstream
 >
