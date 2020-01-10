@@ -99,6 +99,11 @@ MediaControlUtils
 .
 h
 '
+'
+PlaybackController
+.
+h
+'
 ]
 EXPORTS
 .
@@ -166,6 +171,11 @@ cpp
 '
 '
 MediaControlService
+.
+cpp
+'
+'
+PlaybackController
 .
 cpp
 '
