@@ -2119,6 +2119,12 @@ which
 to
 wrap
 .
+If
+0
+wrapping
+is
+disabled
+.
 *
 /
 void
