@@ -566,8 +566,9 @@ true
 }
 data
 :
-new
 Buffer
+.
+alloc
 (
 8
 )
@@ -761,8 +762,9 @@ path
 var
 request_data
 =
-new
 Buffer
+.
+alloc
 (
 0
 )
@@ -784,8 +786,9 @@ status
 var
 response_data
 =
-new
 Buffer
+.
+from
 (
 '
 12345678
@@ -1057,8 +1060,9 @@ status
 var
 response_content
 =
-new
 Buffer
+.
+alloc
 (
 10
 )
@@ -1066,8 +1070,9 @@ Buffer
 var
 push_content
 =
-new
 Buffer
+.
+alloc
 (
 10
 )

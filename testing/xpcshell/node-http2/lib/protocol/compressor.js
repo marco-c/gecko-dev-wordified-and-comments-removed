@@ -189,8 +189,9 @@ entry
 {
 return
 (
-new
 Buffer
+.
+from
 (
 entry
 [
@@ -1740,8 +1741,9 @@ limit
 {
 return
 [
-new
 Buffer
+.
+from
 (
 [
 I
@@ -1835,8 +1837,9 @@ Q
 }
 return
 [
-new
 Buffer
+.
+from
 (
 bytes
 )
@@ -2395,8 +2398,9 @@ space
 ;
 }
 return
-new
 Buffer
+.
+from
 (
 result
 )
@@ -2528,8 +2532,9 @@ tree
 }
 }
 return
-new
 Buffer
+.
+from
 (
 result
 )
@@ -3330,8 +3335,9 @@ str
 {
 str
 =
-new
 Buffer
+.
+from
 (
 str
 '
@@ -5549,8 +5555,9 @@ length
 var
 concatenated
 =
-new
 Buffer
+.
+alloc
 (
 size
 )

@@ -1414,8 +1414,9 @@ sendMore
 var
 emptyBuffer
 =
-new
 Buffer
+.
+alloc
 (
 0
 )

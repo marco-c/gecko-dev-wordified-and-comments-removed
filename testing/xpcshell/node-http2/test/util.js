@@ -407,8 +407,9 @@ length
 var
 concatenated
 =
-new
 Buffer
+.
+alloc
 (
 size
 )

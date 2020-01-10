@@ -167,8 +167,9 @@ function
 var
 buf
 =
-new
 Buffer
+.
+alloc
 (
 128
 )
@@ -390,8 +391,9 @@ function
 var
 buf
 =
-new
 Buffer
+.
+alloc
 (
 128
 )
