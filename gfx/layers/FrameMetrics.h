@@ -46,15 +46,6 @@ include
 "
 mozilla
 /
-HashTable
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
@@ -3617,7 +3608,10 @@ mOverscrollBehavior
 }
 ;
 typedef
-HashMap
+std
+:
+:
+map
 <
 ScrollableLayerGuid
 :

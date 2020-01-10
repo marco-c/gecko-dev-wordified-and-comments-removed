@@ -630,12 +630,6 @@ mRenderRoot
 ]
 )
 ;
-renderRoot
-.
-mIdNamespace
-=
-mIdNamespace
-;
 }
 nsTArray
 <
@@ -674,6 +668,7 @@ GetFwdTransactionId
 (
 )
 aTransactionId
+mIdNamespace
 aContainsSVGGroup
 aVsyncId
 aVsyncStartTime
@@ -715,6 +710,8 @@ RenderRootUpdates
 >
 &
 aRenderRootUpdates
+uint32_t
+aPaintSequenceNumber
 TransactionId
 aTransactionId
 const
@@ -856,6 +853,7 @@ this
 SendEmptyTransaction
 (
 aFocusTarget
+aPaintSequenceNumber
 std
 :
 :
@@ -868,6 +866,7 @@ GetFwdTransactionId
 (
 )
 aTransactionId
+mIdNamespace
 aVsyncId
 aVsyncStartTime
 aRefreshStartTime
