@@ -14014,8 +14014,10 @@ HasAllStates
 (
 kVisitedAndUnvisited
 )
-&
-&
+)
+{
+if
+(
 !
 Gecko_VisitedStylesEnabled
 (
@@ -14024,6 +14026,14 @@ element
 OwnerDoc
 (
 )
+)
+|
+|
+StaticPrefs
+:
+:
+layout_css_always_repaint_on_unvisited
+(
 )
 )
 {
@@ -14044,6 +14054,7 @@ IsEmpty
 {
 return
 ;
+}
 }
 }
 if
