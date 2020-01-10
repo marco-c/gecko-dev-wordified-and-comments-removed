@@ -2963,6 +2963,12 @@ GetRoot
 )
 )
 ;
+mProfilerScreenshotGrabber
+.
+NotifyEmptyFrame
+(
+)
+;
 return
 ;
 }
