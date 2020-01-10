@@ -457,7 +457,7 @@ delegateColor
 uncollected
 '
 )
-schedulegc
+schedulezone
 (
 {
 }

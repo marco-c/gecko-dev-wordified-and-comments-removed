@@ -1347,7 +1347,7 @@ zonebits
 z
 )
 )
-schedulegc
+schedulezone
 (
 zones
 [
@@ -1655,7 +1655,7 @@ zonebits
 z
 )
 )
-schedulegc
+schedulezone
 (
 zones
 [

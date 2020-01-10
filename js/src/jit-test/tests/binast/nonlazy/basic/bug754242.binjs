@@ -39,7 +39,7 @@ join
 deserialize
 gcslice
 newGlobal
-schedulegc
+schedulezone
 serialize
 [
 TREE

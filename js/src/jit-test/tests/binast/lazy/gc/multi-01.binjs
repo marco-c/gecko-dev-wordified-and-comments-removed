@@ -27,7 +27,7 @@ STRINGS
 identity
 ;
 g
-schedulegc
+schedulezone
 var
 atoms
 eval

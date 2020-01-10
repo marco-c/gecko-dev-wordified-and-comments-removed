@@ -38,7 +38,7 @@ function
 (
 )
 {
-schedulegc
+schedulezone
 (
 x
 )

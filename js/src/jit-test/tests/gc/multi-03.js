@@ -12,12 +12,12 @@ newGlobal
 (
 )
 ;
-schedulegc
+schedulezone
 (
 g1
 )
 ;
-schedulegc
+schedulezone
 (
 g2
 )
@@ -27,7 +27,7 @@ gcslice
 0
 )
 ;
-schedulegc
+schedulezone
 (
 g1
 )

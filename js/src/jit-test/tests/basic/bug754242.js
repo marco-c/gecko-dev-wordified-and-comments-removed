@@ -5,7 +5,7 @@ newGlobal
 (
 )
 ;
-schedulegc
+schedulezone
 (
 g1
 )

@@ -22,12 +22,12 @@ STRINGS
 ]
 identity
 ;
-P
+T
 g1
 var
 g2
 gcslice
-schedulegc
+schedulezone
 newGlobal
 [
 TREE

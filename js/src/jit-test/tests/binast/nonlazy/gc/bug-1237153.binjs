@@ -20,9 +20,10 @@ STRINGS
 ]
 identity
 ;
-6
+:
 gcparam
-sliceTimeBudget
+"
+sliceTimeBudgetMS
 -
 [
 TREE

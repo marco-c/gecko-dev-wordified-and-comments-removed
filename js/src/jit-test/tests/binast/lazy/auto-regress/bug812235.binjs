@@ -34,12 +34,12 @@ STRINGS
 ]
 identity
 ;
->
+B
 f
 x
 gc
 gcslice
-schedulegc
+schedulezone
 var
 [
 TREE

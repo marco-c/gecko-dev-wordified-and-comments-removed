@@ -37,7 +37,7 @@ gczeal
 newGlobal
 offThreadCompileScript
 runOffThreadScript
-schedulegc
+schedulezone
 shrinking
 startgc
 [

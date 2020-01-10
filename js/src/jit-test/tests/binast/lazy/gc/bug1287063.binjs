@@ -17,9 +17,9 @@ STRINGS
 ]
 identity
 ;
-H
+L
 offThreadCompileScript
-schedulegc
+schedulezone
 [
 TREE
 ]

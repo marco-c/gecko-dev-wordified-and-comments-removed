@@ -36,14 +36,14 @@ STRINGS
 ]
 identity
 ;
-r
+v
 BUGNUMBER
 num
 printBugNumber
 var
 gcslice
 one
-schedulegc
+schedulezone
 [
 TREE
 ]

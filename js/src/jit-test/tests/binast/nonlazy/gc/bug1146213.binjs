@@ -39,7 +39,7 @@ majorGC
 newGlobal
 offThreadCompileScript
 runOffThreadScript
-schedulegc
+schedulezone
 setGCCallback
 [
 TREE

@@ -83,12 +83,12 @@ gc
 (
 )
 ;
-schedulegc
+schedulezone
 (
 this
 )
 ;
-schedulegc
+schedulezone
 (
 '
 atoms
