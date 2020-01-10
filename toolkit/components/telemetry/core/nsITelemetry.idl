@@ -3814,7 +3814,7 @@ name
 .
 *
 param
-aMethod
+aObject
 The
 object
 name
