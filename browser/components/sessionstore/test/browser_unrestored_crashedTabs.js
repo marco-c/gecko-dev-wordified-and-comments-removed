@@ -174,7 +174,7 @@ pending
 await
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 browser
 )

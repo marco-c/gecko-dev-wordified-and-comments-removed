@@ -56,7 +56,7 @@ crash
 yield
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 BackgroundPageThumbs
 .

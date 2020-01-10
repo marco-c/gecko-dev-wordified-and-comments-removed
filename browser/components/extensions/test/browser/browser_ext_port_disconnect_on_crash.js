@@ -257,7 +257,7 @@ bg_runtime_onConnect
 await
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 tab
 .
@@ -595,7 +595,7 @@ tab_runtime_onConnect
 await
 BrowserTestUtils
 .
-crashBrowser
+crashFrame
 (
 tab
 .
