@@ -245,6 +245,16 @@ mBufferAccess
 ;
 private
 :
+nsresult
+ReadBytesToBuffer
+(
+uint32_t
+aLength
+uint8_t
+*
+aBuffer
+)
+;
 virtual
 ~
 nsBinaryInputStream
