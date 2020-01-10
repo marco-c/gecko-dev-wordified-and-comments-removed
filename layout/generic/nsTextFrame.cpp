@@ -36444,16 +36444,6 @@ DrawMode
 :
 GLYPH_STROKE
 ;
-if
-(
-StaticPrefs
-:
-:
-layout_css_paint_order_enabled
-(
-)
-)
-{
 uint32_t
 paintOrder
 =
@@ -36536,7 +36526,6 @@ paintOrder
 =
 NS_STYLE_PAINT_ORDER_BITWIDTH
 ;
-}
 }
 }
 StrokeOptions
