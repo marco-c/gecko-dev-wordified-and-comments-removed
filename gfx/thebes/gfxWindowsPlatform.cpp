@@ -7118,14 +7118,14 @@ SetDefaultFromPref
 StaticPrefs
 :
 :
-GetPrefName_layers_mlgpu_enabled_do_not_use_directly
+GetPrefName_layers_mlgpu_enabled_DoNotUseDirectly
 (
 )
 true
 StaticPrefs
 :
 :
-GetPrefDefault_layers_mlgpu_enabled_do_not_use_directly
+GetPrefDefault_layers_mlgpu_enabled_DoNotUseDirectly
 (
 )
 )
