@@ -3712,6 +3712,12 @@ reloadFlags
 ;
 if
 (
+NS_FAILED
+(
+rv
+)
+&
+&
 rv
 !
 =
