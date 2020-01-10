@@ -16,3 +16,6 @@ patch
 arm64_set_LoaderThreads
 .
 patch
+change_to_DCHECK_in_CloseHandleWrapper
+.
+patch
