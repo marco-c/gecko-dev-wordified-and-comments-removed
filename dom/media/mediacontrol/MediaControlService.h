@@ -122,9 +122,9 @@ return
 mAudioFocusManager
 ;
 }
-MediaControlKeysManager
-&
-GetMediaControlKeysManager
+MediaControlKeysEventSource
+*
+GetMediaControlKeysEventSource
 (
 )
 {
@@ -247,7 +247,10 @@ mControllerHistory
 AudioFocusManager
 mAudioFocusManager
 ;
+RefPtr
+<
 MediaControlKeysManager
+>
 mMediaControlKeysManager
 ;
 RefPtr
