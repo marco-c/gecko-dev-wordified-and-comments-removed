@@ -1694,15 +1694,6 @@ EqualsLiteral
 text
 "
 )
-&
-&
-colType
-!
-=
-TreeColumn_Binding
-:
-:
-TYPE_PASSWORD
 )
 {
 mNeedTitletip

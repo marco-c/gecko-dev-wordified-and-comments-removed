@@ -133,12 +133,6 @@ TYPE_CHECKBOX
 =
 2
 ;
-const
-short
-TYPE_PASSWORD
-=
-3
-;
 readonly
 attribute
 short
