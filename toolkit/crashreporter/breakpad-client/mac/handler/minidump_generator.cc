@@ -6210,6 +6210,12 @@ image
 GetCPUType
 (
 )
+image
+-
+>
+GetCPUSubtype
+(
+)
 name
 .
 c_str
@@ -6312,6 +6318,14 @@ header
 -
 >
 cputype
+;
+int
+cpu_subtype
+=
+header
+-
+>
+cpusubtype
 ;
 unsigned
 long
@@ -6504,6 +6518,7 @@ WriteCVRecord
 (
 module
 cpu_type
+cpu_subtype
 name
 in_memory
 )
@@ -6647,6 +6662,8 @@ MDRawModule
 module
 int
 cpu_type
+int
+cpu_subtype
 const
 char
 *
@@ -6826,7 +6843,7 @@ macho
 UUIDCommand
 (
 cpu_type
-CPU_SUBTYPE_MULTIPLE
+cpu_subtype
 identifier
 )
 ;
@@ -6842,7 +6859,7 @@ macho
 MD5
 (
 cpu_type
-CPU_SUBTYPE_MULTIPLE
+cpu_subtype
 identifier
 )
 ;
@@ -6866,7 +6883,7 @@ file_id
 MachoIdentifier
 (
 cpu_type
-CPU_SUBTYPE_MULTIPLE
+cpu_subtype
 identifier
 )
 ;
