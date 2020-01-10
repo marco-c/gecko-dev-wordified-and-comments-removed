@@ -650,6 +650,7 @@ toFloat64Array
 Exposed
 =
 Window
+Throws
 ]
 stringifier
 ;
