@@ -3686,7 +3686,7 @@ SelectionRefPtr
 )
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 range

@@ -1502,7 +1502,7 @@ err
 selectionOfIME
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 clauseRange

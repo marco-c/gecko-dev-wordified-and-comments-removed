@@ -1509,7 +1509,7 @@ IgnoreErrors
 selection
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 aRange

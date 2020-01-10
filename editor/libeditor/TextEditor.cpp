@@ -5732,7 +5732,7 @@ SelectionRefPtr
 )
 -
 >
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 aReplaceRange

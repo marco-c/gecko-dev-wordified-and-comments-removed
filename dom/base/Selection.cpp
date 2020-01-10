@@ -9356,7 +9356,7 @@ mCalledByJS
 =
 true
 ;
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 aRange
 aRv
@@ -9367,7 +9367,7 @@ void
 Selection
 :
 :
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 nsRange
 &
@@ -16495,7 +16495,7 @@ Failed
 return
 ;
 }
-AddRange
+AddRangeAndSelectFramesAndNotifyListeners
 (
 *
 newRange
