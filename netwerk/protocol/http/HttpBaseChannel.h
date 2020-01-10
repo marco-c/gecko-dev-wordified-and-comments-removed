@@ -3475,6 +3475,11 @@ mAllowStaleCacheContent
 1
 ;
 uint32_t
+mPreferCacheLoadOverBypass
+:
+1
+;
+uint32_t
 mAddedAsNonTailRequest
 :
 1

@@ -1915,6 +1915,9 @@ suspendAfterSynthesizeResponse
 bool
 allowStaleCacheContent
 ;
+bool
+preferCacheLoadOverBypass
+;
 nsCString
 contentTypeHint
 ;
