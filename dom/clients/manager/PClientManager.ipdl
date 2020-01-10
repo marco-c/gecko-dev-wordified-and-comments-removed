@@ -148,15 +148,6 @@ ClientSourceConstructorArgs
 aArgs
 )
 ;
-async
-ExpectOrForgetFutureClientSource
-(
-bool
-aExpect
-IPCClientInfo
-aClientInfo
-)
-;
 child
 :
 async
