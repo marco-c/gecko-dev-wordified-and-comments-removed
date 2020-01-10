@@ -108,6 +108,16 @@ json
 ;
 this
 .
+targetForm
+.
+contextActor
+=
+json
+.
+chromeDebugger
+;
+this
+.
 _threadActor
 =
 json
