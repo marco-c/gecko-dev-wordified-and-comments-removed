@@ -2217,17 +2217,6 @@ mochitest
 mochitest
 -
 gpu
-#
-various
-reftest
-(
-plain
-)
-failures
-;
-bug
-1501582
-#
 -
 reftest
 -
