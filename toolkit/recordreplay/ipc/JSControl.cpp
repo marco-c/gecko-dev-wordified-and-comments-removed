@@ -168,7 +168,7 @@ true
 static
 JSObject
 *
-NonNullObject
+RequireObject
 (
 JSContext
 *
@@ -727,7 +727,7 @@ RootedObject
 obj
 (
 aCx
-NonNullObject
+RequireObject
 (
 aCx
 args
@@ -996,7 +996,7 @@ RootedObject
 manifestObject
 (
 aCx
-NonNullObject
+RequireObject
 (
 aCx
 args
@@ -3133,7 +3133,7 @@ RootedObject
 responseObject
 (
 aCx
-NonNullObject
+RequireObject
 (
 aCx
 args

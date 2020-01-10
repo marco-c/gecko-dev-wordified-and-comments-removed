@@ -1717,7 +1717,7 @@ RootedObject
 obj
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 JSMSG_NOT_NONNULL_OBJECT_PROP_DESC

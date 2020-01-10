@@ -18460,7 +18460,7 @@ JSObject
 *
 thisobj
 =
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -22023,7 +22023,7 @@ JSObject
 *
 argobj
 =
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -26329,7 +26329,7 @@ RootedObject
 queryObject
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -28304,7 +28304,7 @@ RootedObject
 queryObject
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -29731,7 +29731,7 @@ RootedObject
 obj
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -31702,7 +31702,7 @@ JSObject
 *
 thisobj
 =
-NonNullObject
+RequireObject
 (
 cx
 v
@@ -35715,7 +35715,7 @@ RootedObject
 queryObject
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -35847,7 +35847,7 @@ RootedObject
 queryObject
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -41570,7 +41570,7 @@ RootedObject
 handler
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -42169,7 +42169,7 @@ JSObject
 *
 handler
 =
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -44009,7 +44009,7 @@ JSObject
 *
 thisobj
 =
-NonNullObject
+RequireObject
 (
 cx
 thisv
@@ -51124,7 +51124,7 @@ JSObject
 *
 thisobj
 =
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -52115,7 +52115,7 @@ RootedObject
 argsobj
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -53887,7 +53887,7 @@ RootedObject
 bindings
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -54327,7 +54327,7 @@ JSObject
 *
 thisobj
 =
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -60522,7 +60522,7 @@ RootedObject
 bindings
 (
 cx
-NonNullObject
+RequireObject
 (
 cx
 args
@@ -66989,7 +66989,7 @@ JSObject
 *
 thisobj
 =
-NonNullObject
+RequireObject
 (
 cx
 args

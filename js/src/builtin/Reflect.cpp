@@ -103,7 +103,7 @@ RootedObject
 target
 (
 cx
-NonNullObjectArg
+RequireObjectArg
 (
 cx
 "
@@ -234,7 +234,7 @@ RootedObject
 target
 (
 cx
-NonNullObjectArg
+RequireObjectArg
 (
 cx
 "
@@ -330,7 +330,7 @@ RootedObject
 target
 (
 cx
-NonNullObjectArg
+RequireObjectArg
 (
 cx
 "
@@ -423,7 +423,7 @@ RootedObject
 target
 (
 cx
-NonNullObjectArg
+RequireObjectArg
 (
 cx
 "
@@ -498,7 +498,7 @@ RootedObject
 target
 (
 cx
-NonNullObjectArg
+RequireObjectArg
 (
 cx
 "
@@ -592,7 +592,7 @@ RootedObject
 target
 (
 cx
-NonNullObjectArg
+RequireObjectArg
 (
 cx
 "
@@ -760,7 +760,7 @@ RootedObject
 obj
 (
 cx
-NonNullObjectArg
+RequireObjectArg
 (
 cx
 "
