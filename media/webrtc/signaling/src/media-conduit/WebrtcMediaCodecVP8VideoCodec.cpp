@@ -5269,9 +5269,11 @@ WEBRTC_VIDEO_CODEC_UNINITIALIZED
 mJavaEncoder
 -
 >
-SetRates
+SetBitrate
 (
 newBitRate
+*
+1000
 )
 ;
 return

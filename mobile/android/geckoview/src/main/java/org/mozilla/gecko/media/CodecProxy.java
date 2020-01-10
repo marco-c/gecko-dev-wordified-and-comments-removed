@@ -1736,11 +1736,11 @@ WrapForJNI
 public
 synchronized
 boolean
-setRates
+setBitrate
 (
 final
 int
-newBitRate
+bps
 )
 {
 if
@@ -1832,9 +1832,9 @@ try
 {
 mRemote
 .
-setRates
+setBitrate
 (
-newBitRate
+bps
 )
 ;
 }
@@ -1858,7 +1858,7 @@ rates
 :
 "
 +
-newBitRate
+bps
 )
 ;
 e

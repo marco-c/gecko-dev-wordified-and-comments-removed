@@ -243,11 +243,11 @@ render
 ;
 oneway
 void
-setRates
+setBitrate
 (
 in
 int
-newBitRate
+bps
 )
 ;
 }

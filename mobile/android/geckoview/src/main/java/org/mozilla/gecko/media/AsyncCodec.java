@@ -225,10 +225,10 @@ flags
 public
 abstract
 void
-setRates
+setBitrate
 (
 int
-newBitRate
+bps
 )
 ;
 public

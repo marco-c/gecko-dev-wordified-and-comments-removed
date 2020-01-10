@@ -1619,11 +1619,11 @@ Override
 public
 final
 void
-setRates
+setBitrate
 (
 final
 int
-newBitRate
+bps
 )
 {
 if
@@ -1657,9 +1657,7 @@ putInt
 MediaCodec
 .
 PARAMETER_KEY_VIDEO_BITRATE
-newBitRate
-*
-1000
+bps
 )
 ;
 mCodec
