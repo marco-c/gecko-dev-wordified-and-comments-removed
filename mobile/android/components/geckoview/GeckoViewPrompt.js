@@ -3330,7 +3330,6 @@ function
 (
 aTitle
 aText
-aCount
 aSelectList
 aOutSelection
 )

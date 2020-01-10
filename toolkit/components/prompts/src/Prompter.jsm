@@ -503,7 +503,6 @@ select
 domWin
 title
 text
-count
 list
 selected
 )
@@ -525,7 +524,6 @@ select
 (
 title
 text
-count
 list
 selected
 )
@@ -3641,7 +3639,6 @@ select
 (
 title
 text
-count
 list
 selected
 )

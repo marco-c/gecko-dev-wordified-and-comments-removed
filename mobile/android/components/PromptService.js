@@ -1899,7 +1899,6 @@ select
 (
 aTitle
 aText
-aCount
 aSelectList
 aOutSelection
 )
