@@ -14315,6 +14315,12 @@ mCI
 GetPrivate
 (
 )
+mCI
+-
+>
+GetIsolated
+(
+)
 mCallbacks
 mCI
 -
