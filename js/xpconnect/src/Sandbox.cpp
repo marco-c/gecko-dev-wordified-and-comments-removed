@@ -6545,9 +6545,7 @@ priv
 isContentXBLCompartment
 =
 =
-options
-.
-isContentXBLScope
+false
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -6623,9 +6621,7 @@ priv
 >
 isContentXBLCompartment
 =
-options
-.
-isContentXBLScope
+false
 ;
 priv
 -
