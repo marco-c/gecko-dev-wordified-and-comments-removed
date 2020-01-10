@@ -519,16 +519,6 @@ aActor
 override
 ;
 virtual
-already_AddRefed
-<
-PIdleSchedulerParent
->
-AllocPIdleSchedulerParent
-(
-)
-override
-;
-virtual
 PPendingIPCBlobParent
 *
 AllocPPendingIPCBlobParent
