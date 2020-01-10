@@ -5,7 +5,7 @@ module
 to
 handle
 Gecko
-profilling
+profiling
 .
 "
 "
@@ -79,7 +79,7 @@ object
     
 Handle
 Gecko
-profilling
+profiling
 .
     
 This
