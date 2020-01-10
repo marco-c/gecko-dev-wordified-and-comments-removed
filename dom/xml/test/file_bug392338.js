@@ -27,8 +27,6 @@ modifyObserver
 =
 {
 observe
-:
-function
 (
 subject
 topic

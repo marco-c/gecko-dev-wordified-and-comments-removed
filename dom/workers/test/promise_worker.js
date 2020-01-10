@@ -4764,8 +4764,6 @@ resolve
 (
 {
 then
-:
-function
 (
 onFulfill
 onReject

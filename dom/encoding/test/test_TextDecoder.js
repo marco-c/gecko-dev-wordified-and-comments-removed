@@ -564,8 +564,6 @@ testCharset
 (
 {
 encoding
-:
-encoding
 input
 :
 aData
@@ -593,8 +591,6 @@ encoding
 testCharset
 (
 {
-encoding
-:
 encoding
 input
 :
@@ -633,8 +629,6 @@ testCharset
 (
 {
 encoding
-:
-encoding
 input
 :
 aData
@@ -670,8 +664,6 @@ testCharset
 (
 {
 encoding
-:
-encoding
 input
 :
 aData
@@ -709,8 +701,6 @@ encoding
 testCharset
 (
 {
-encoding
-:
 encoding
 input
 :
@@ -2741,8 +2731,6 @@ encoding
 t
 .
 encoding
-array
-:
 array
 msg
 :

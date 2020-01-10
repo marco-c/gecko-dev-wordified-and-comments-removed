@@ -565,8 +565,6 @@ null
 return
 {
 waitForEvent
-:
-function
 (
 )
 {
@@ -649,8 +647,6 @@ resolve
 ;
 }
 waitForDataWithAtLeastLength
-:
-function
 (
 length
 )
@@ -754,8 +750,6 @@ length
 ;
 }
 waitForAnyDataAndClose
-:
-function
 (
 )
 {

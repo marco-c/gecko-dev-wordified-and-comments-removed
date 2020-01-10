@@ -76,8 +76,6 @@ nsIObserver
 ]
 )
 addMessageListeners
-:
-function
 (
 aMessages
 )
@@ -247,8 +245,6 @@ count
 ;
 }
 removeMessageListeners
-:
-function
 (
 aMessages
 )
@@ -368,8 +364,6 @@ aName
 ;
 }
 initDOMRequestHelper
-:
-function
 (
 aWindow
 aMessages
@@ -472,8 +466,6 @@ true
 ;
 }
 destroyDOMRequestHelper
-:
-function
 (
 )
 {
@@ -598,8 +590,6 @@ null
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -659,8 +649,6 @@ destroyDOMRequestHelper
 ;
 }
 getRequestId
-:
-function
 (
 aRequest
 )
@@ -708,8 +696,6 @@ id
 ;
 }
 getPromiseResolverId
-:
-function
 (
 aPromiseResolver
 )
@@ -724,8 +710,6 @@ aPromiseResolver
 ;
 }
 getRequest
-:
-function
 (
 aId
 )
@@ -756,8 +740,6 @@ aId
 }
 }
 getPromiseResolver
-:
-function
 (
 aId
 )
@@ -772,8 +754,6 @@ aId
 ;
 }
 removeRequest
-:
-function
 (
 aId
 )
@@ -804,8 +784,6 @@ aId
 }
 }
 removePromiseResolver
-:
-function
 (
 aId
 )
@@ -819,8 +797,6 @@ aId
 ;
 }
 takeRequest
-:
-function
 (
 aId
 )
@@ -869,8 +845,6 @@ request
 ;
 }
 takePromiseResolver
-:
-function
 (
 aId
 )
@@ -885,8 +859,6 @@ aId
 ;
 }
 _getRandomId
-:
-function
 (
 )
 {
@@ -923,8 +895,6 @@ toString
 ;
 }
 createRequest
-:
-function
 (
 )
 {
@@ -976,8 +946,6 @@ _window
 ;
 }
 createPromise
-:
-function
 (
 aPromiseInit
 )
@@ -1029,8 +997,6 @@ aPromiseInit
 ;
 }
 createPromiseWithId
-:
-function
 (
 aCallback
 )
@@ -1074,8 +1040,6 @@ resolverId
 ;
 }
 forEachRequest
-:
-function
 (
 aCallback
 )
@@ -1133,8 +1097,6 @@ aKey
 ;
 }
 forEachPromiseResolver
-:
-function
 (
 aCallback
 )

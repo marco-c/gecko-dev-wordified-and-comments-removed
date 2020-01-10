@@ -177,8 +177,6 @@ idl_type_check
 =
 {
 long
-:
-function
 (
 v
 )
@@ -207,8 +205,6 @@ v
 ;
 }
 float
-:
-function
 (
 v
 )
@@ -225,8 +221,6 @@ number
 ;
 }
 string
-:
-function
 (
 v
 )
@@ -243,8 +237,6 @@ string
 ;
 }
 boolean
-:
-function
 (
 v
 )

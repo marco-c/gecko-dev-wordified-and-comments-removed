@@ -73,13 +73,7 @@ obj
 =
 {
 message
-:
-message
 filename
-:
-filename
-lineno
-:
 lineno
 type
 :

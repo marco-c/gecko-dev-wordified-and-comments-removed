@@ -37,10 +37,6 @@ push
 (
 {
 asserts
-:
-asserts
-msg
-:
 msg
 }
 )

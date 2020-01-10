@@ -315,8 +315,6 @@ nsIWebSocketEventListener
 ]
 )
 webSocketCreated
-:
-function
 (
 aWebSocketSerialID
 aURI
@@ -358,8 +356,6 @@ webSocketCreatedCounter
 ;
 }
 webSocketOpened
-:
-function
 (
 aWebSocketSerialID
 aEffectiveURI
@@ -429,8 +425,6 @@ webSocketOpenedCounter
 ;
 }
 webSocketMessageAvailable
-:
-function
 (
 aWebSocketSerialID
 aData
@@ -530,8 +524,6 @@ end
 }
 }
 webSocketClosed
-:
-function
 (
 aWebSocketSerialID
 aWasClean
@@ -594,8 +586,6 @@ checkListener
 ;
 }
 frameReceived
-:
-function
 (
 aWebSocketSerialID
 aFrame
@@ -753,8 +743,6 @@ frameReceivedCounter
 ;
 }
 frameSent
-:
-function
 (
 aWebSocketSerialID
 aFrame

@@ -17,8 +17,6 @@ value
 :
 v
 msg
-:
-msg
 }
 )
 ;

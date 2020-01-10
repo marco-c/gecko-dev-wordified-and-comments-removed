@@ -45,10 +45,6 @@ postMessage
 (
 {
 string
-:
-string
-value
-:
 value
 }
 )

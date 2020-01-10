@@ -16,8 +16,6 @@ ok
 :
 result
 desc
-:
-desc
 }
 "
 *

@@ -326,8 +326,6 @@ postMessage
 (
 {
 script
-:
-script
 }
 )
 ;

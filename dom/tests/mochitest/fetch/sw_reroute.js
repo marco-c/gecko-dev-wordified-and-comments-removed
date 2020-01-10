@@ -164,8 +164,6 @@ register
 scriptURL
 {
 scope
-:
-scope
 }
 )
 .

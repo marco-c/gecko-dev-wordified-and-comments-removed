@@ -38,8 +38,6 @@ ob
 =
 {
 observe
-:
-function
 (
 sub
 top

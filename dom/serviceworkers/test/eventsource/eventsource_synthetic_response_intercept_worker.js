@@ -136,8 +136,6 @@ init
 =
 {
 headers
-:
-headers
 mode
 :
 "

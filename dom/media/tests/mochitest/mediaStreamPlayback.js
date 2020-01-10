@@ -34,8 +34,6 @@ prototype
 =
 {
 playMedia
-:
-function
 (
 isResume
 )
@@ -82,8 +80,6 @@ detachFromMediaElement
 ;
 }
 stopTracksForStreamInMediaPlayback
-:
-function
 (
 )
 {
@@ -154,8 +150,6 @@ ended
 ;
 }
 playMediaWithoutStoppingTracks
-:
-function
 (
 isResume
 )
@@ -189,8 +183,6 @@ detachFromMediaElement
 ;
 }
 startMedia
-:
-function
 (
 isResume
 )
@@ -261,8 +253,6 @@ play
 ;
 }
 verifyPlaying
-:
-function
 (
 )
 {
@@ -574,8 +564,6 @@ string
 ;
 }
 detachFromMediaElement
-:
-function
 (
 )
 {

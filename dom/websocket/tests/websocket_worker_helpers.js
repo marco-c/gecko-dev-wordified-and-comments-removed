@@ -62,8 +62,6 @@ status
 !
 status
 msg
-:
-msg
 }
 )
 ;

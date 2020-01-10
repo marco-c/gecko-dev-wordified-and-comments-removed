@@ -62,8 +62,6 @@ type
 finish
 "
 progressFired
-:
-progressFired
 }
 )
 ;

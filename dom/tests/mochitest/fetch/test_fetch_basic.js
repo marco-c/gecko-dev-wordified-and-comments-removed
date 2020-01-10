@@ -941,8 +941,6 @@ Request
 url
 {
 method
-:
-method
 }
 )
 ;

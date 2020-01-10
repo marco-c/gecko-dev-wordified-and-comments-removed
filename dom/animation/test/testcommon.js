@@ -488,16 +488,8 @@ easing
 return
 {
 offset
-:
-offset
-value
-:
 value
 easing
-:
-easing
-composite
-:
 composite
 }
 ;

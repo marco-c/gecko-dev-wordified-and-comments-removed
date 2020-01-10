@@ -268,8 +268,6 @@ fetch
 url
 {
 mode
-:
-mode
 }
 )
 )

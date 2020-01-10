@@ -91,8 +91,6 @@ listener
 =
 {
 onRegister
-:
-function
 (
 registration
 )
@@ -164,8 +162,6 @@ listener
 =
 {
 onUnregister
-:
-function
 (
 registration
 )
@@ -231,8 +227,6 @@ listener
 =
 {
 onChange
-:
-function
 (
 )
 {
@@ -297,8 +291,6 @@ observer
 =
 {
 observe
-:
-function
 (
 subject
 topic

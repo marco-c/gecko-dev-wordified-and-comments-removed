@@ -1260,8 +1260,6 @@ updatePayment
 :
 updateRequest
 closePayment
-:
-function
 (
 requestId
 )

@@ -409,16 +409,12 @@ showPayment
 :
 showRequest
 abortPayment
-:
-function
 (
 requestId
 )
 {
 }
 completePayment
-:
-function
 (
 requestId
 )
@@ -497,8 +493,6 @@ updatePayment
 :
 updateRequest
 closePayment
-:
-function
 (
 requestId
 )

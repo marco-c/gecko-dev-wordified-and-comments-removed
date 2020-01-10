@@ -19,8 +19,6 @@ status
 !
 a
 msg
-:
-msg
 }
 )
 ;

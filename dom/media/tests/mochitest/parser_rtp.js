@@ -264,8 +264,6 @@ push
 (
 {
 id
-:
-id
 data
 :
 new
@@ -442,8 +440,6 @@ type
 "
 rtp
 "
-header
-:
 header
 payload
 :

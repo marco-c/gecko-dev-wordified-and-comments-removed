@@ -22,8 +22,6 @@ postMessage
 (
 {
 prop
-:
-prop
 value
 :
 self

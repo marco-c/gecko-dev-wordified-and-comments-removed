@@ -28,8 +28,6 @@ what
 !
 a
 msg
-:
-msg
 }
 )
 )

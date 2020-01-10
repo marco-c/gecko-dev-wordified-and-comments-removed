@@ -63,8 +63,6 @@ UIService
 =
 {
 showPayment
-:
-function
 (
 requestId
 )
@@ -80,8 +78,6 @@ requestId
 ;
 }
 abortPayment
-:
-function
 (
 requestId
 )
@@ -147,8 +143,6 @@ nsIPaymentActionResponse
 ;
 }
 completePayment
-:
-function
 (
 requestId
 )
@@ -214,8 +208,6 @@ nsIPaymentActionResponse
 ;
 }
 updatePayment
-:
-function
 (
 requestId
 )
@@ -353,8 +345,6 @@ nsIPaymentActionResponse
 ;
 }
 closePayment
-:
-function
 (
 requestId
 )

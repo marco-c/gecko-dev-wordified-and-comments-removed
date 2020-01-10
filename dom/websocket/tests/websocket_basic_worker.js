@@ -94,8 +94,6 @@ type
 status
 "
 status
-:
-status
 msg
 :
 "

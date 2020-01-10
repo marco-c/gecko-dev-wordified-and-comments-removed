@@ -36,10 +36,6 @@ type
 ok
 "
 test
-:
-test
-message
-:
 message
 }
 )
@@ -67,8 +63,6 @@ a
 test2
 :
 b
-message
-:
 message
 }
 )

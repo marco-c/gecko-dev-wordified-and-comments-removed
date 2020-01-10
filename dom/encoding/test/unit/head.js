@@ -448,10 +448,6 @@ push
 (
 {
 msg
-:
-msg
-func
-:
 func
 filename
 :

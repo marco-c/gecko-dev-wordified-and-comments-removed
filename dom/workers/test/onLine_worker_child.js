@@ -41,10 +41,6 @@ type
 ok
 "
 test
-:
-test
-message
-:
 message
 }
 )

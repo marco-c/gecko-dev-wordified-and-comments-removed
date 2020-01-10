@@ -278,8 +278,6 @@ do
 nest
 "
 uri
-:
-uri
 level
 :
 3

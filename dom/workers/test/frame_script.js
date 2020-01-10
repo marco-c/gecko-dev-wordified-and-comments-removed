@@ -14,8 +14,6 @@ methods
 =
 {
 createWorker
-:
-function
 (
 url
 )
@@ -64,8 +62,6 @@ resolve
 ;
 }
 terminateWorker
-:
-function
 (
 url
 )
@@ -116,8 +112,6 @@ resolve
 ;
 }
 postMessageToWorker
-:
-function
 (
 url
 message
@@ -200,8 +194,6 @@ data
 ;
 }
 disableCache
-:
-function
 (
 )
 {
@@ -286,10 +278,6 @@ jsonrpc
 "
 {
 id
-:
-id
-result
-:
 result
 }
 )
@@ -310,8 +298,6 @@ sendAsyncMessage
 jsonrpc
 "
 {
-id
-:
 id
 error
 :

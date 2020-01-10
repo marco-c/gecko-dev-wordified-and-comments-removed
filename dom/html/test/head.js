@@ -117,8 +117,6 @@ listener
 =
 {
 onStateChange
-:
-function
 (
 webProgress
 req

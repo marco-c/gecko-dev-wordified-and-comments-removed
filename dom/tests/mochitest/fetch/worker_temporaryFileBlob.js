@@ -22,8 +22,6 @@ type
 info
 "
 msg
-:
-msg
 }
 )
 ;
@@ -48,8 +46,6 @@ what
 !
 !
 a
-msg
-:
 msg
 }
 )

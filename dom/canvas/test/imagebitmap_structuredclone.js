@@ -19,8 +19,6 @@ status
 !
 expect
 msg
-:
-msg
 }
 )
 ;
@@ -165,8 +163,6 @@ type
 "
 bitmap2
 "
-bitmap
-:
 bitmap
 }
 )

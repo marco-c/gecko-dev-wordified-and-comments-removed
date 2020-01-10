@@ -178,8 +178,6 @@ elemHeight
 :
 100
 startDrawing
-:
-function
 (
 f
 )
@@ -239,8 +237,6 @@ true
 ;
 }
 requestFrame
-:
-function
 (
 video
 )
@@ -268,8 +264,6 @@ requestFrame
 ;
 }
 getPixel
-:
-function
 (
 video
 offsetX
@@ -338,8 +332,6 @@ data
 ;
 }
 isPixel
-:
-function
 (
 px
 refColor
@@ -379,8 +371,6 @@ threshold
 ;
 }
 isPixelNot
-:
-function
 (
 px
 refColor
@@ -419,8 +409,6 @@ threshold
 ;
 }
 isOpaquePixelNot
-:
-function
 (
 px
 refColor
@@ -450,10 +438,8 @@ threshold
 )
 ;
 }
-waitForPixel
-:
 async
-function
+waitForPixel
 (
 video
 test
@@ -575,10 +561,8 @@ return
 }
 }
 }
-pixelMustBecome
-:
 async
-function
+pixelMustBecome
 (
 video
 refColor
@@ -773,10 +757,8 @@ infoString
 )
 ;
 }
-pixelMustNotBecome
-:
 async
-function
+pixelMustNotBecome
 (
 video
 refColor
@@ -954,8 +936,6 @@ infoString
 ;
 }
 createAndAppendElement
-:
-function
 (
 type
 id

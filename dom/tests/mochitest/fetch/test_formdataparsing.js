@@ -1935,8 +1935,6 @@ method
 post
 "
 body
-:
-body
 headers
 :
 {

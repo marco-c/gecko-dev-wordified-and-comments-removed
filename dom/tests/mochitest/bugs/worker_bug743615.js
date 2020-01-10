@@ -225,13 +225,7 @@ postMessage
 (
 {
 statusMessage
-:
-statusMessage
 imageData
-:
-imageData
-pattern
-:
 pattern
 }
 )

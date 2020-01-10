@@ -48,8 +48,6 @@ desc
 .
 type
 sdp
-:
-sdp
 }
 )
 ;

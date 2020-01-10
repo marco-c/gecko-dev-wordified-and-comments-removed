@@ -145,8 +145,6 @@ data
 =
 {
 blob
-:
-blob
 index
 :
 5

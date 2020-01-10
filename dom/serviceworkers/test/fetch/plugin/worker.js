@@ -83,8 +83,6 @@ request
 .
 destination
 resource
-:
-resource
 }
 )
 ;

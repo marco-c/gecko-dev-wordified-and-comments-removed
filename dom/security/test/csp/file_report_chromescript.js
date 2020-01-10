@@ -81,8 +81,6 @@ openingObserver
 =
 {
 observe
-:
-function
 (
 subject
 topic

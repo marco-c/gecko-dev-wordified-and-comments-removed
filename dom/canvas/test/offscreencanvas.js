@@ -140,8 +140,6 @@ type
 draw
 "
 count
-:
-count
 }
 )
 ;
@@ -160,8 +158,6 @@ type
 "
 blob
 "
-blob
-:
 blob
 }
 )

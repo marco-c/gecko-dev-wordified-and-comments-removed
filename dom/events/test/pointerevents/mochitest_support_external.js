@@ -258,8 +258,6 @@ utils
 .
 MOUSE_BUTTONS_5TH_BUTTON
 computeButtonsMaskFromButton
-:
-function
 (
 aButton
 )
@@ -308,8 +306,6 @@ mask
 ;
 }
 checkExitState
-:
-function
 (
 )
 {
@@ -738,8 +734,6 @@ TOUCH_STATE
 :
 false
 checkExitState
-:
-function
 (
 )
 {

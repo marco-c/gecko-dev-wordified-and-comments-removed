@@ -12,8 +12,6 @@ WorkerTest
 =
 {
 go
-:
-function
 (
 message
 messageCallback

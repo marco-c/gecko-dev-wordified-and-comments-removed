@@ -87,8 +87,6 @@ nestedStack
 [
 ]
 toJSONString
-:
-function
 (
 )
 {
@@ -104,8 +102,6 @@ root
 ;
 }
 openContainer
-:
-function
 (
 aLabel
 )
@@ -194,8 +190,6 @@ parent
 }
 }
 addItemFor
-:
-function
 (
 aElement
 aCanLoadIcon
@@ -371,8 +365,6 @@ aElement
 ;
 }
 addSeparator
-:
-function
 (
 )
 {
@@ -412,8 +404,6 @@ separator
 ;
 }
 undoAddSeparator
-:
-function
 (
 )
 {
@@ -476,8 +466,6 @@ pop
 }
 }
 closeContainer
-:
-function
 (
 )
 {
@@ -505,8 +493,6 @@ root
 ;
 }
 click
-:
-function
 (
 id
 )

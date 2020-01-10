@@ -66,8 +66,6 @@ SMILUtil
 =
 {
 getSVGRoot
-:
-function
 (
 )
 {
@@ -83,8 +81,6 @@ svg
 ;
 }
 getFirstElemWithTag
-:
-function
 (
 aTargetTag
 )
@@ -116,8 +112,6 @@ elemList
 ;
 }
 getComputedStyleSimple
-:
-function
 (
 elem
 prop
@@ -138,8 +132,6 @@ prop
 ;
 }
 getAttributeValue
-:
-function
 (
 elem
 attr
@@ -217,8 +209,6 @@ attrName
 }
 }
 getComputedStyleWrapper
-:
-function
 (
 elem
 propName
@@ -599,8 +589,6 @@ computedStyle
 ;
 }
 getMotionFakeAttributeName
-:
-function
 (
 )
 {
@@ -673,8 +661,6 @@ d
 "
 ]
 generateCTM
-:
-function
 (
 aCtmSummary
 )
@@ -785,8 +771,6 @@ newCtm
 ;
 }
 isWithinDelta
-:
-function
 (
 aTestVal
 aExpectedVal
@@ -846,8 +830,6 @@ aExpectedVal
 ;
 }
 assertCTMEqual
-:
-function
 (
 aLeftCtm
 aRightCtm
@@ -953,8 +935,6 @@ todo
 }
 }
 assertCTMNotEqual
-:
-function
 (
 aLeftCtm
 aRightCtm
@@ -1071,8 +1051,6 @@ _dur
 :
 null
 getBeginTime
-:
-function
 (
 )
 {
@@ -1083,8 +1061,6 @@ _begin
 ;
 }
 getDur
-:
-function
 (
 )
 {
@@ -1095,8 +1071,6 @@ _dur
 ;
 }
 getEndTime
-:
-function
 (
 )
 {
@@ -1111,8 +1085,6 @@ _dur
 ;
 }
 getFractionalTime
-:
-function
 (
 aPortion
 )
@@ -1293,8 +1265,6 @@ skipReason
 :
 null
 go
-:
-function
 (
 aTimingData
 )
@@ -1558,8 +1528,6 @@ skipReason
 :
 null
 runTest
-:
-function
 (
 aTargetElem
 aTargetAttr
@@ -1700,8 +1668,6 @@ setCurrentTime
 ;
 }
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -1796,8 +1762,6 @@ animElement
 ;
 }
 buildSeekList
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -1875,8 +1839,6 @@ aIsFreeze
 ;
 }
 seekAndTest
-:
-function
 (
 aSeekList
 aTargetElem
@@ -2017,8 +1979,6 @@ entry
 }
 }
 buildSeekListStatic
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -2028,8 +1988,6 @@ aReasonStatic
 {
 }
 buildSeekListAnimated
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -2055,8 +2013,6 @@ from
 :
 null
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -2099,8 +2055,6 @@ animElem
 ;
 }
 buildSeekListStatic
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -2252,8 +2206,6 @@ seekList
 ;
 }
 buildSeekListAnimated
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -2589,8 +2541,6 @@ to
 :
 null
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -2720,8 +2670,6 @@ by
 :
 null
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -2764,8 +2712,6 @@ animElem
 ;
 }
 buildSeekList
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -2930,8 +2876,6 @@ valuesString
 :
 null
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -2986,8 +2930,6 @@ animElem
 ;
 }
 buildSeekListAnimated
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -3267,8 +3209,6 @@ seekList
 ;
 }
 buildSeekListStatic
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -3602,8 +3542,6 @@ _animElementTagName
 animateMotion
 "
 setupAnimationElement
-:
-function
 (
 aAnimAttr
 aTimeData
@@ -3731,8 +3669,6 @@ animElement
 ;
 }
 createPath
-:
-function
 (
 aPathDescription
 )
@@ -3784,8 +3720,6 @@ path
 ;
 }
 createMpath
-:
-function
 (
 aAnimElement
 )
@@ -3828,8 +3762,6 @@ mpath
 ;
 }
 buildSeekList
-:
-function
 (
 aAnimAttr
 aBaseVal
@@ -4129,8 +4061,6 @@ seekList
 ;
 }
 seekAndTest
-:
-function
 (
 aSeekList
 aTargetElem
@@ -4205,8 +4135,6 @@ false
 }
 }
 runTest
-:
-function
 (
 aTargetElem
 aTargetAttr

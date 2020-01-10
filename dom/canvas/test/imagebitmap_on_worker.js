@@ -28,8 +28,6 @@ status
 !
 expect
 msg
-:
-msg
 }
 )
 ;

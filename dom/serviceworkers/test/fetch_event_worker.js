@@ -817,8 +817,6 @@ ReadableStream
 (
 {
 start
-:
-function
 (
 controller
 )

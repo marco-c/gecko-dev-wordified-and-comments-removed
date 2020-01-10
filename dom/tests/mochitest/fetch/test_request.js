@@ -1468,8 +1468,6 @@ Request
 "
 {
 headers
-:
-headers
 }
 )
 ;
@@ -1554,8 +1552,6 @@ no
 -
 cors
 "
-headers
-:
 headers
 }
 )
@@ -4845,8 +4841,6 @@ method
 post
 "
 body
-:
-body
 headers
 :
 {
@@ -5253,8 +5247,6 @@ Request
 (
 r1
 {
-method
-:
 method
 }
 )

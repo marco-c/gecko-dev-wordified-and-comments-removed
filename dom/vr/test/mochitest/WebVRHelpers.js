@@ -46,8 +46,6 @@ API
 =
 {
 RequestPresentOnVRDisplay
-:
-RequestPresentOnVRDisplay
 none
 :
 false
