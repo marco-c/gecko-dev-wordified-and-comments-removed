@@ -329,8 +329,6 @@ prototype
 =
 {
 observe
-:
-function
 (
 promise
 )
@@ -646,8 +644,6 @@ observer
 =
 {
 onLeftUncaught
-:
-function
 (
 promise
 data
@@ -662,8 +658,6 @@ promise
 ;
 }
 onConsumed
-:
-function
 (
 promise
 )
@@ -1617,8 +1611,6 @@ this
 }
 }
 onLeftUncaught
-:
-function
 (
 )
 {
@@ -1646,8 +1638,6 @@ resolve
 ;
 }
 onConsumed
-:
-function
 (
 )
 {
@@ -1818,13 +1808,3 @@ false
 }
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}

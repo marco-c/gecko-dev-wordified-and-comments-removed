@@ -132,8 +132,6 @@ thenable
 =
 {
 then
-:
-function
 (
 f
 )

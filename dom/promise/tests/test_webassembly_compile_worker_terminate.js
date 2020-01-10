@@ -1,11 +1,11 @@
 const
 sampleURL
 =
-'
+"
 test_webassembly_compile_sample
 .
 wasm
-'
+"
 ;
 function
 spawnWork
