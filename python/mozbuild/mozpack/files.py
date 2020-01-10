@@ -750,6 +750,21 @@ inputs
 :
             
 if
+not
+os
+.
+path
+.
+exists
+(
+input
+)
+:
+                
+return
+True
+            
+if
 dest_mtime
 <
 int
