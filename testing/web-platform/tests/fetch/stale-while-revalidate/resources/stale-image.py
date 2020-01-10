@@ -202,6 +202,9 @@ __file__
 .
 .
 /
+.
+.
+/
 images
 "
 filename
