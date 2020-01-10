@@ -413,6 +413,16 @@ TrackRepeat
 LengthPercentage
 Integer
 >
+where
+generics
+:
+:
+RepeatCount
+<
+Integer
+>
+:
+PartialEq
 {
 fn
 animate
