@@ -62,7 +62,7 @@ false
 parser
 :
 "
-babylon
+babel
 "
 }
 )

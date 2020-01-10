@@ -30,7 +30,7 @@ output
 parser
 :
 "
-babylon
+babel
 "
 }
 )
