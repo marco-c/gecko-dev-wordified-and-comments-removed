@@ -312,7 +312,7 @@ struct
 ReflowConfig
 {
 int32_t
-mBalanceColCount
+mUsedColCount
 =
 INT32_MAX
 ;
