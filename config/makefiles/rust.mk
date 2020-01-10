@@ -2024,6 +2024,8 @@ rust
 code
 .
 ifndef
+MOZ_PROFILE_GENERATE
+ifndef
 DEVELOPER_OPTIONS
 ifndef
 MOZ_DEBUG_RUST
@@ -2045,6 +2047,7 @@ target
 -
 networking
 )
+endif
 endif
 endif
 endif
