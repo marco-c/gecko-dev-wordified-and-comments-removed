@@ -216,14 +216,6 @@ manifest_item
 ManualTest
                 
 "
-stub
-"
-:
-manifest_item
-.
-Stub
-                
-"
 wdspec
 "
 :

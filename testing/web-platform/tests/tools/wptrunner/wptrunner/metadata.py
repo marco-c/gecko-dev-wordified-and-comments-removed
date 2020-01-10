@@ -3460,9 +3460,6 @@ frozenset
 (
 [
 "
-stub
-"
-"
 manual
 "
 "

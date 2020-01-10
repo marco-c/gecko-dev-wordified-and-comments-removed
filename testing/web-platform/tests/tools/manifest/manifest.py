@@ -32,7 +32,6 @@ ManifestItem
 ManualTest
 RefTest
 RefTestNode
-Stub
                    
 SupportFile
 TestharnessTest
@@ -197,12 +196,6 @@ manual
 "
 :
 ManualTest
-                
-"
-stub
-"
-:
-Stub
                 
 "
 wdspec
@@ -2793,6 +2786,17 @@ items
 ]
 )
 :
+            
+if
+test_type
+=
+=
+"
+stub
+"
+:
+                
+continue
             
 if
 test_type
