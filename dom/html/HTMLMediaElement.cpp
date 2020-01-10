@@ -5154,9 +5154,6 @@ IsPlayingStarted
 )
 )
 ;
-AudioPlaybackConfig
-config
-;
 if
 (
 NS_WARN_IF
@@ -5168,8 +5165,6 @@ mAudioChannelAgent
 >
 NotifyStartedPlaying
 (
-&
-config
 IsOwnerAudible
 (
 )

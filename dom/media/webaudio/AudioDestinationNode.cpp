@@ -2969,9 +2969,6 @@ ToSeconds
 )
 ;
 }
-AudioPlaybackConfig
-config
-;
 nsresult
 rv
 =
@@ -2980,8 +2977,6 @@ mAudioChannelAgent
 >
 NotifyStartedPlaying
 (
-&
-config
 mAudible
 )
 ;

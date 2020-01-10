@@ -5538,12 +5538,6 @@ MOZ_ASSERT
 mAudioChannelAgent
 )
 ;
-dom
-:
-:
-AudioPlaybackConfig
-config
-;
 rv
 =
 mAudioChannelAgent
@@ -5551,8 +5545,6 @@ mAudioChannelAgent
 >
 NotifyStartedPlaying
 (
-&
-config
 dom
 :
 :
