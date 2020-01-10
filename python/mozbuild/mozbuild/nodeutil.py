@@ -28,6 +28,10 @@ from
 mozfile
 import
 which
+from
+six
+import
+PY3
 NODE_MIN_VERSION
 =
 StrictVersion
@@ -377,6 +381,10 @@ exe
 version
 "
 ]
+                                          
+universal_newlines
+=
+PY3
 )
 .
 lstrip
@@ -409,6 +417,10 @@ exe
 version
 "
 ]
+                                      
+universal_newlines
+=
+PY3
 )
 .
 lstrip
