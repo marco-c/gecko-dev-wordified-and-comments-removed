@@ -590,6 +590,11 @@ InitSingleFaceList
 )
 ;
 void
+InitAliasesForSingleFaceList
+(
+)
+;
+void
 InitSystemFontNames
 (
 )
