@@ -1170,17 +1170,3 @@ preview
 true
 )
 ;
-pref
-(
-"
-devtools
-.
-debugger
-.
-features
-.
-watchpoints
-"
-false
-)
-;
