@@ -436,8 +436,7 @@ picture
 :
 {
 RecordedDirtyRegion
-TILE_SIZE_LARGE
-TILE_SIZE_SMALL
+tile_cache_sizes
 ResolvedSurfaceTexture
 }
 ;
@@ -9871,15 +9870,6 @@ rb_thread_name
 ;
 }
 let
-picture_tile_sizes
-=
-&
-[
-TILE_SIZE_LARGE
-TILE_SIZE_SMALL
-]
-;
-let
 texture_cache
 =
 TextureCache
@@ -9894,7 +9884,9 @@ config
 .
 global_enable_picture_caching
 {
-picture_tile_sizes
+tile_cache_sizes
+(
+)
 }
 else
 {
