@@ -54,12 +54,13 @@ let
 response
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 aBrowser
-null
+[
+]
 async
 function
 (
@@ -88,6 +89,8 @@ result
 =
 await
 new
+content
+.
 Promise
 (
 resolve
