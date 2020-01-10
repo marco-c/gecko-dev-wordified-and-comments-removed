@@ -424,11 +424,6 @@ task
 cx_
 -
 >
-helperThread
-(
-)
--
->
 parseTask
 (
 )

@@ -5063,7 +5063,7 @@ recoverFromOutOfMemory
 {
 if
 (
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -5074,11 +5074,6 @@ ParseTask
 *
 task
 =
-helperThread
-(
-)
--
->
 parseTask
 (
 )
@@ -6050,7 +6045,7 @@ ifdef
 DEBUG
 if
 (
-helperThread
+isHelperThreadContext
 (
 )
 )
@@ -6061,11 +6056,6 @@ ParseTask
 *
 task
 =
-helperThread
-(
-)
--
->
 parseTask
 (
 )
@@ -6179,10 +6169,6 @@ ContextKind
 :
 :
 HelperThread
-)
-helperThread_
-(
-nullptr
 )
 options_
 (
