@@ -200,7 +200,6 @@ createEnvironmentActor
 getGripDepth
 incrementGripDepth
 decrementGripDepth
-getGlobalDebugObject
 }
 conn
 )
@@ -270,7 +269,6 @@ createEnvironmentActor
 getGripDepth
 incrementGripDepth
 decrementGripDepth
-getGlobalDebugObject
 }
 ;
 this

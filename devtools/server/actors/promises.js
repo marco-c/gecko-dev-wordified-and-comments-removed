@@ -709,13 +709,6 @@ implemented
 "
 )
 )
-getGlobalDebugObject
-:
-(
-)
-=
->
-null
 }
 this
 .

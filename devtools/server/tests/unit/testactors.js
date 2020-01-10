@@ -625,6 +625,16 @@ _global
 }
 )
 ;
+this
+.
+dbg
+=
+this
+.
+makeDebugger
+(
+)
+;
 }
 TestTargetActor
 .
