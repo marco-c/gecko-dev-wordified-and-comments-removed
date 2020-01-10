@@ -80,6 +80,13 @@ MOZ_FETCHES_DIR
 rustc
 /
 bin
+:
+HOME
+/
+.
+cargo
+/
+bin
 cargo
 install
 -
@@ -102,6 +109,8 @@ mkdir
 .
 cargo
 cargo
+-
+vendor
 vendor
 -
 -
@@ -115,7 +124,7 @@ sync
 /
 Cargo
 .
-lock
+toml
 >
 .
 cargo
