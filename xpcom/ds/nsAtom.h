@@ -1014,6 +1014,7 @@ public
 explicit
 nsAtomCString
 (
+const
 nsAtom
 *
 aAtom
