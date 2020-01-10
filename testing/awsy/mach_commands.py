@@ -365,22 +365,6 @@ MOZ_ACCELERATED
 1
 '
         
-else
-:
-            
-os
-.
-environ
-[
-'
-MOZ_WEBRENDER
-'
-]
-=
-'
-0
-'
-        
 runtime_testvars
 =
 {
