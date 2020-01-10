@@ -296,6 +296,11 @@ LinkHandlerChild
 jsm
 '
 '
+LinkHandlerParent
+.
+jsm
+'
+'
 NetErrorChild
 .
 jsm
