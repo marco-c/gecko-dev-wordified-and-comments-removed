@@ -3362,7 +3362,10 @@ x0b
 "
 )
 ;
-assert_unlinkable
+let
+19
+=
+instance
 (
 "
 \
@@ -5061,7 +5064,7 @@ x00
 )
 ;
 let
-19
+20
 =
 instance
 (
@@ -5323,7 +5326,7 @@ assert_return
 >
 call
 (
-19
+20
 "
 call
 -
@@ -5336,7 +5339,7 @@ overwritten
 )
 ;
 let
-20
+21
 =
 instance
 (
@@ -5646,7 +5649,7 @@ assert_return
 >
 call
 (
-20
+21
 "
 call
 -
@@ -5661,7 +5664,7 @@ element
 )
 ;
 let
-21
+22
 =
 instance
 (
@@ -6016,7 +6019,7 @@ x0b
 let
 module1
 =
-21
+22
 ;
 register
 (
@@ -6085,7 +6088,7 @@ call
 )
 ;
 let
-22
+23
 =
 instance
 (
@@ -6308,7 +6311,7 @@ x0b
 let
 module2
 =
-22
+23
 ;
 assert_return
 (
@@ -6371,7 +6374,7 @@ call
 )
 ;
 let
-23
+24
 =
 instance
 (
@@ -6594,7 +6597,7 @@ x0b
 let
 module3
 =
-23
+24
 ;
 assert_return
 (

@@ -2981,7 +2981,10 @@ x61
 "
 )
 ;
-assert_unlinkable
+let
+26
+=
+instance
 (
 "
 \
@@ -3045,7 +3048,10 @@ x00
 "
 )
 ;
-assert_unlinkable
+let
+27
+=
+instance
 (
 "
 \

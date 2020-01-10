@@ -5213,7 +5213,7 @@ x0b
 "
 )
 ;
-assert_trap
+assert_return
 (
 (
 )
@@ -5229,6 +5229,7 @@ call
 7
 ]
 )
+0
 )
 ;
 assert_unlinkable
@@ -5433,7 +5434,7 @@ x64
 "
 )
 ;
-assert_trap
+assert_return
 (
 (
 )
@@ -5449,6 +5450,7 @@ call
 7
 ]
 )
+0
 )
 ;
 let
@@ -7058,7 +7060,7 @@ load
 0
 ]
 )
-0
+97
 )
 ;
 assert_unlinkable
@@ -7273,7 +7275,7 @@ load
 0
 ]
 )
-0
+97
 )
 ;
 let
