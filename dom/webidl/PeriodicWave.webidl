@@ -180,7 +180,14 @@ webaudio
 .
 enabled
 "
-Constructor
+]
+interface
+PeriodicWave
+{
+[
+Throws
+]
+constructor
 (
 BaseAudioContext
 context
@@ -191,9 +198,6 @@ options
 {
 }
 )
-]
-interface
-PeriodicWave
-{
+;
 }
 ;

@@ -74,9 +74,6 @@ const
 SpeechRecognitionErrorInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

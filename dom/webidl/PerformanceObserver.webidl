@@ -157,11 +157,6 @@ dom
 .
 enable_performance_observer
 "
-Constructor
-(
-PerformanceObserverCallback
-callback
-)
 Exposed
 =
 (
@@ -172,6 +167,15 @@ Worker
 interface
 PerformanceObserver
 {
+[
+Throws
+]
+constructor
+(
+PerformanceObserverCallback
+callback
+)
+;
 [
 Throws
 ]

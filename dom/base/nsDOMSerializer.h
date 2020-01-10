@@ -75,12 +75,6 @@ dom
 GlobalObject
 &
 aOwner
-mozilla
-:
-:
-ErrorResult
-&
-rv
 )
 {
 return

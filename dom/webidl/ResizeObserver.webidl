@@ -145,11 +145,6 @@ box
 }
 ;
 [
-Constructor
-(
-ResizeObserverCallback
-callback
-)
 Exposed
 =
 Window
@@ -168,6 +163,15 @@ enabled
 interface
 ResizeObserver
 {
+[
+Throws
+]
+constructor
+(
+ResizeObserverCallback
+callback
+)
+;
 [
 Throws
 ]

@@ -1187,9 +1187,6 @@ dom
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-rv
 )
 {
 RefPtr

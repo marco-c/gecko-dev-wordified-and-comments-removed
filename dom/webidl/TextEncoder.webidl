@@ -161,7 +161,6 @@ written
 }
 ;
 [
-Constructor
 Exposed
 =
 (
@@ -172,6 +171,10 @@ Worker
 interface
 TextEncoder
 {
+constructor
+(
+)
+;
 [
 Constant
 ]

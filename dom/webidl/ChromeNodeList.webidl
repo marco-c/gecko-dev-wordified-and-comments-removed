@@ -92,7 +92,6 @@ MPL
 *
 /
 [
-Constructor
 Func
 =
 "
@@ -104,6 +103,10 @@ ChromeNodeList
 :
 NodeList
 {
+constructor
+(
+)
+;
 [
 Throws
 ]

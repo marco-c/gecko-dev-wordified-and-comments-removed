@@ -73,9 +73,6 @@ Constructor
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-aRv
 )
 ;
 static

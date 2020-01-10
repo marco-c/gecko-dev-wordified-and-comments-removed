@@ -117,11 +117,6 @@ broadcastchannel
 *
 /
 [
-Constructor
-(
-DOMString
-channel
-)
 Exposed
 =
 (
@@ -134,6 +129,15 @@ BroadcastChannel
 :
 EventTarget
 {
+[
+Throws
+]
+constructor
+(
+DOMString
+channel
+)
+;
 readonly
 attribute
 DOMString

@@ -96,12 +96,13 @@ MPL
 interface
 nsIVariant
 ;
-[
-Constructor
-]
 interface
 XSLTProcessor
 {
+constructor
+(
+)
+;
 /
 *
 *

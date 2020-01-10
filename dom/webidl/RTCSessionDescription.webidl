@@ -181,7 +181,14 @@ rtcsessiondescription
 ;
 1
 "
-Constructor
+]
+interface
+RTCSessionDescription
+{
+[
+Throws
+]
+constructor
 (
 optional
 RTCSessionDescriptionInit
@@ -190,10 +197,7 @@ descriptionInitDict
 {
 }
 )
-]
-interface
-RTCSessionDescription
-{
+;
 /
 /
 These

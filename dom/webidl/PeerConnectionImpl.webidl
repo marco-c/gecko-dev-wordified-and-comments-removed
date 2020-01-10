@@ -172,11 +172,14 @@ provided
 /
 [
 ChromeOnly
-Constructor
 ]
 interface
 PeerConnectionImpl
 {
+constructor
+(
+)
+;
 /
 *
 Must

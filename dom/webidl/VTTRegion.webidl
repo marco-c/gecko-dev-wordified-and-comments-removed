@@ -130,7 +130,6 @@ up
 }
 ;
 [
-Constructor
 Pref
 =
 "
@@ -146,6 +145,13 @@ enabled
 interface
 VTTRegion
 {
+[
+Throws
+]
+constructor
+(
+)
+;
 attribute
 DOMString
 id

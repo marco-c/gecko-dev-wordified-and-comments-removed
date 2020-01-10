@@ -75,9 +75,6 @@ const
 TouchInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

@@ -91,12 +91,13 @@ MPL
 .
 *
 /
-[
-Constructor
-]
 interface
 XPathEvaluator
 {
+constructor
+(
+)
+;
 [
 NewObject
 Throws

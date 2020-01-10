@@ -141,7 +141,6 @@ apply
 *
 /
 [
-Constructor
 Exposed
 =
 (
@@ -154,6 +153,10 @@ FileReader
 :
 EventTarget
 {
+constructor
+(
+)
+;
 /
 /
 async

@@ -51,9 +51,6 @@ const
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

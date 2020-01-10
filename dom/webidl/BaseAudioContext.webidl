@@ -285,7 +285,6 @@ AudioNode
 creation
 [
 NewObject
-Throws
 ]
 AudioBufferSourceNode
 createBufferSource
@@ -294,7 +293,6 @@ createBufferSource
 ;
 [
 NewObject
-Throws
 ]
 ConstantSourceNode
 createConstantSource

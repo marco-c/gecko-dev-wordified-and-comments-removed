@@ -265,11 +265,14 @@ CheckerboardReportService
 :
 IsEnabled
 "
-Constructor
 ]
 interface
 CheckerboardReportService
 {
+constructor
+(
+)
+;
 /
 *
 *

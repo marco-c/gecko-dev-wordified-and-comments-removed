@@ -71,9 +71,6 @@ const
 AudioWorkletNodeOptions
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 ;
 nsIGlobalObject

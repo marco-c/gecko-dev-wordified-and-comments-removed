@@ -134,9 +134,6 @@ const
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-rv
 )
 ;
 static
@@ -153,9 +150,6 @@ aGlobal
 CanvasPath
 &
 aCanvasPath
-ErrorResult
-&
-rv
 )
 ;
 static
@@ -173,9 +167,6 @@ const
 nsAString
 &
 aPathString
-ErrorResult
-&
-rv
 )
 ;
 void

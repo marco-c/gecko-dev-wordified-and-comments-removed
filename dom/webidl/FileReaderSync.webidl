@@ -142,7 +142,6 @@ apply
 *
 /
 [
-Constructor
 Exposed
 =
 (
@@ -153,6 +152,10 @@ SharedWorker
 interface
 FileReaderSync
 {
+constructor
+(
+)
+;
 /
 /
 Synchronously

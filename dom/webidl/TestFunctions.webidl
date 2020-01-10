@@ -132,11 +132,14 @@ dom
 .
 expose_test_interfaces
 "
-Constructor
 ]
 interface
 TestFunctions
 {
+constructor
+(
+)
+;
 [
 Throws
 ]

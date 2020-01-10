@@ -182,7 +182,6 @@ decode
 }
 ;
 [
-Constructor
 Pref
 =
 "
@@ -198,6 +197,13 @@ MediaSource
 :
 EventTarget
 {
+[
+Throws
+]
+constructor
+(
+)
+;
 readonly
 attribute
 SourceBufferList

@@ -179,7 +179,14 @@ rtcicecandidate
 ;
 1
 "
-Constructor
+]
+interface
+RTCIceCandidate
+{
+[
+Throws
+]
+constructor
 (
 optional
 RTCIceCandidateInit
@@ -188,10 +195,7 @@ candidateInitDict
 {
 }
 )
-]
-interface
-RTCIceCandidate
-{
+;
 attribute
 DOMString
 candidate

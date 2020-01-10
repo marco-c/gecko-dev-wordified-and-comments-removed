@@ -235,9 +235,6 @@ const
 DOMPointInit
 &
 aP4
-ErrorResult
-&
-aRV
 )
 ;
 static
@@ -255,9 +252,6 @@ const
 DOMRectReadOnly
 &
 aRect
-ErrorResult
-&
-aRV
 )
 ;
 already_AddRefed

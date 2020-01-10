@@ -151,7 +151,6 @@ apply
 *
 /
 [
-Constructor
 Pref
 =
 "
@@ -177,6 +176,13 @@ SpeechRecognition
 :
 EventTarget
 {
+[
+Throws
+]
+constructor
+(
+)
+;
 /
 /
 recognition

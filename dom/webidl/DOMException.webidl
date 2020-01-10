@@ -505,7 +505,11 @@ Exposed
 Window
 Worker
 )
-Constructor
+]
+interface
+DOMException
+{
+constructor
 (
 optional
 DOMString
@@ -517,10 +521,7 @@ optional
 DOMString
 name
 )
-]
-interface
-DOMException
-{
+;
 /
 /
 The

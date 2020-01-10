@@ -212,11 +212,6 @@ force
 }
 ;
 [
-Constructor
-(
-TouchInit
-touchInitDict
-)
 Func
 =
 "
@@ -235,6 +230,12 @@ PrefEnabled
 interface
 Touch
 {
+constructor
+(
+TouchInit
+touchInitDict
+)
+;
 readonly
 attribute
 long

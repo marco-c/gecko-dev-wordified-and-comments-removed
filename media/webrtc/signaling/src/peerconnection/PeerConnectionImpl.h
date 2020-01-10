@@ -823,9 +823,6 @@ dom
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-rv
 )
 ;
 static

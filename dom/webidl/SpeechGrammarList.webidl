@@ -151,7 +151,6 @@ apply
 *
 /
 [
-Constructor
 Pref
 =
 "
@@ -175,6 +174,10 @@ IsAuthorized
 interface
 SpeechGrammarList
 {
+constructor
+(
+)
+;
 readonly
 attribute
 unsigned

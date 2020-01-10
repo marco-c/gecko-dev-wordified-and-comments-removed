@@ -232,9 +232,6 @@ double
 aWidth
 double
 aHeight
-ErrorResult
-&
-aRv
 )
 ;
 double
@@ -539,9 +536,6 @@ double
 aWidth
 double
 aHeight
-ErrorResult
-&
-aRv
 )
 ;
 virtual

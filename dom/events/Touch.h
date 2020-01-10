@@ -119,9 +119,6 @@ const
 TouchInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 Touch

@@ -44,15 +44,6 @@ void
 TextEncoder
 :
 :
-Init
-(
-)
-{
-}
-void
-TextEncoder
-:
-:
 Encode
 (
 JSContext

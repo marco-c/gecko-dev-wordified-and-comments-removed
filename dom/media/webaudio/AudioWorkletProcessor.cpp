@@ -99,9 +99,6 @@ const
 AudioWorkletNodeOptions
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

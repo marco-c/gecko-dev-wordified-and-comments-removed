@@ -127,7 +127,6 @@ messaging
 *
 /
 [
-Constructor
 Exposed
 =
 (
@@ -138,6 +137,13 @@ Worker
 interface
 MessageChannel
 {
+[
+Throws
+]
+constructor
+(
+)
+;
 readonly
 attribute
 MessagePort

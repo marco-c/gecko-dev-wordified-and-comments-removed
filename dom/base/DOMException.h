@@ -615,9 +615,6 @@ nsAString
 >
 &
 aName
-ErrorResult
-&
-aError
 )
 ;
 uint16_t

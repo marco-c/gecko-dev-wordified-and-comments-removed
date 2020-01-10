@@ -186,9 +186,6 @@ double
 aZ
 double
 aW
-ErrorResult
-&
-aRV
 )
 ;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
@@ -433,9 +430,6 @@ double
 aZ
 double
 aW
-ErrorResult
-&
-aRV
 )
 ;
 virtual

@@ -206,7 +206,6 @@ wantUntrusted
 }
 ;
 [
-Constructor
 Exposed
 =
 (
@@ -219,6 +218,13 @@ AudioWorklet
 interface
 EventTarget
 {
+[
+Throws
+]
+constructor
+(
+)
+;
 /
 *
 Passing

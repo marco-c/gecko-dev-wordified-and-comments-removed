@@ -116,9 +116,6 @@ abortcontroller
 *
 /
 [
-Constructor
-(
-)
 Exposed
 =
 (
@@ -129,6 +126,13 @@ Worker
 interface
 AbortController
 {
+[
+Throws
+]
+constructor
+(
+)
+;
 readonly
 attribute
 AbortSignal

@@ -87,12 +87,13 @@ interface
 interface
 OutputStream
 ;
-[
-Constructor
-]
 interface
 XMLSerializer
 {
+constructor
+(
+)
+;
 /
 *
 *

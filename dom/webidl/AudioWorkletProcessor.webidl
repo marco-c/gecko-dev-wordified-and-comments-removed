@@ -147,7 +147,11 @@ apply
 Exposed
 =
 AudioWorklet
-Constructor
+]
+interface
+AudioWorkletProcessor
+{
+constructor
 (
 optional
 AudioWorkletNodeOptions
@@ -156,10 +160,7 @@ options
 {
 }
 )
-]
-interface
-AudioWorkletProcessor
-{
+;
 [
 Throws
 ]

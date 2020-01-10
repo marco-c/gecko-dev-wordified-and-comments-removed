@@ -1018,7 +1018,6 @@ angularAcceleration
 }
 ;
 [
-Constructor
 Pref
 =
 "
@@ -1043,6 +1042,10 @@ h
 interface
 VRFrameData
 {
+constructor
+(
+)
+;
 readonly
 attribute
 DOMHighResTimeStamp

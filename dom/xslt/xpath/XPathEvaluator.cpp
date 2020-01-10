@@ -607,9 +607,6 @@ const
 GlobalObject
 &
 aGlobal
-ErrorResult
-&
-rv
 )
 {
 return
