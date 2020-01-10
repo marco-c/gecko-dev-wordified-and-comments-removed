@@ -14581,6 +14581,12 @@ struct
 CrossOriginThisPolicy
 ;
 struct
+MaybeCrossOriginObjectThisPolicy
+;
+struct
+MaybeCrossOriginObjectLenientThisPolicy
+;
+struct
 ThrowExceptions
 ;
 struct
