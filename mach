@@ -182,6 +182,7 @@ empty
 -
 makefiles
 environment
+eslint
 file
 -
 info
@@ -223,6 +224,7 @@ jsshell
 bench
 jstestbrowser
 jstests
+lint
 marionette
 -
 test
