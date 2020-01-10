@@ -247,6 +247,7 @@ Date
 (
 )
 ;
+async
 function
 starttest
 (
@@ -325,6 +326,7 @@ sync
 call
 into
 chrome
+await
 SpecialPowers
 .
 setBoolPref
@@ -364,6 +366,7 @@ properly
 "
 )
 ;
+await
 SpecialPowers
 .
 clearUserPref
@@ -381,6 +384,7 @@ Test
 a
 int
 pref
+await
 SpecialPowers
 .
 setIntPref
@@ -413,6 +417,7 @@ pref
 "
 )
 ;
+await
 SpecialPowers
 .
 clearUserPref
@@ -430,6 +435,7 @@ Test
 a
 string
 pref
+await
 SpecialPowers
 .
 setCharPref
@@ -468,6 +474,7 @@ pref
 "
 )
 ;
+await
 SpecialPowers
 .
 clearUserPref
@@ -520,17 +527,12 @@ is
 (
 retVal
 .
-message
-"
-Error
-getting
-pref
-'
-extensions
+result
+SpecialPowers
 .
-checkCompat0123456789
-'
-"
+Cr
+.
+NS_ERROR_UNEXPECTED
 "
 received
 an

@@ -151,6 +151,7 @@ classifierHelper
 .
 allowCompletion
 =
+async
 function
 (
 lists
@@ -168,9 +169,10 @@ lists
 var
 pref
 =
+await
 SpecialPowers
 .
-getCharPref
+getParentCharPref
 (
 PREFS
 .
@@ -185,6 +187,7 @@ pref
 +
 list
 ;
+await
 SpecialPowers
 .
 setCharPref
@@ -197,9 +200,10 @@ pref
 ;
 pref
 =
+await
 SpecialPowers
 .
-getCharPref
+getParentCharPref
 (
 PREFS
 .
@@ -221,6 +225,7 @@ backup
 "
 )
 ;
+await
 SpecialPowers
 .
 setCharPref
@@ -232,6 +237,7 @@ pref
 )
 ;
 }
+await
 SpecialPowers
 .
 setCharPref
