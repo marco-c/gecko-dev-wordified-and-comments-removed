@@ -9557,7 +9557,7 @@ const
 ClonedMessageData
 &
 aData
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -9672,7 +9672,7 @@ const
 ClonedMessageData
 &
 aData
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -9783,7 +9783,7 @@ const
 nsString
 &
 aMessage
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -19289,7 +19289,7 @@ BrowserParent
 :
 RecvQueryVisitedState
 (
-InfallibleTArray
+nsTArray
 <
 URIParams
 >

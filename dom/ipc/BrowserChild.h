@@ -1873,7 +1873,7 @@ const
 nsString
 &
 aMessage
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >

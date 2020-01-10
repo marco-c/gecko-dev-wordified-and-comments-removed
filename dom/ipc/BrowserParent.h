@@ -1375,7 +1375,7 @@ const
 ClonedMessageData
 &
 aData
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -1413,7 +1413,7 @@ const
 ClonedMessageData
 &
 aData
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -1447,7 +1447,7 @@ const
 nsString
 &
 aMessage
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -3588,7 +3588,7 @@ ipc
 IPCResult
 RecvQueryVisitedState
 (
-InfallibleTArray
+nsTArray
 <
 URIParams
 >

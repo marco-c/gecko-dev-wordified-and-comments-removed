@@ -10842,7 +10842,7 @@ const
 nsString
 &
 aMessage
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -14330,7 +14330,7 @@ return
 false
 ;
 }
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >
@@ -14464,7 +14464,7 @@ return
 NS_ERROR_DOM_DATA_CLONE_ERR
 ;
 }
-InfallibleTArray
+nsTArray
 <
 CpowEntry
 >

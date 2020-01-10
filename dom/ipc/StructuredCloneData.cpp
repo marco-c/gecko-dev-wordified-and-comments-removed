@@ -1047,7 +1047,7 @@ return
 false
 ;
 }
-InfallibleTArray
+nsTArray
 <
 IPCStream
 >
@@ -1465,7 +1465,7 @@ aData
 )
 {
 const
-InfallibleTArray
+nsTArray
 <
 MessagePortIdentifier
 >
@@ -1607,7 +1607,7 @@ blobImpl
 }
 }
 const
-InfallibleTArray
+nsTArray
 <
 IPCStream
 >
