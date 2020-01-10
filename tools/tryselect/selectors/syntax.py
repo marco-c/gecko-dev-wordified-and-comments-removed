@@ -2088,6 +2088,18 @@ e10s
 ]
         
 '
+remote
+'
+:
+[
+'
+mochitest
+-
+remote
+'
+]
+        
+'
 web
 -
 platform

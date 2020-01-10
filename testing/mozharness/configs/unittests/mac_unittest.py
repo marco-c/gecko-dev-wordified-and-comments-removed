@@ -1471,6 +1471,29 @@ disable
 e10s
 "
 ]
+        
+"
+mochitest
+-
+remote
+"
+:
+[
+"
+-
+-
+flavor
+=
+browser
+"
+"
+-
+-
+subsuite
+=
+remote
+"
+]
     
 }
     
