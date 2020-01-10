@@ -512,6 +512,12 @@ SUCCEEDED
 (
 hr
 )
+|
+|
+hr
+=
+=
+E_ACCESSDENIED
 )
 ;
 #
