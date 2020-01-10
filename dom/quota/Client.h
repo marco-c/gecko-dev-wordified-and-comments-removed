@@ -100,9 +100,6 @@ Client
 public
 :
 typedef
-mozilla
-:
-:
 Atomic
 <
 bool
