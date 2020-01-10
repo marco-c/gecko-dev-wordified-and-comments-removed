@@ -1268,10 +1268,7 @@ button
 -
 icon
 "
->
-<
 /
-image
 >
 <
 label
@@ -1282,10 +1279,7 @@ button
 -
 text
 "
->
-<
 /
-label
 >
 <
 /
@@ -1393,10 +1387,7 @@ button
 -
 icon
 "
->
-<
 /
-image
 >
 <
 label
@@ -1407,10 +1398,7 @@ button
 -
 text
 "
->
-<
 /
-label
 >
 <
 /
@@ -1427,10 +1415,7 @@ menu
 -
 dropmarker
 "
->
-<
 /
-dropmarker
 >
 <
 /
