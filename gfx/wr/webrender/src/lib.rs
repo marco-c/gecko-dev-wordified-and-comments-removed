@@ -295,6 +295,9 @@ mod
 scene_builder
 ;
 mod
+screen_capture
+;
+mod
 segment
 ;
 mod
@@ -937,7 +940,6 @@ renderer
 :
 {
 AsyncPropertySampler
-AsyncScreenshotHandle
 CpuProfile
 DebugFlags
 }
@@ -1002,6 +1004,16 @@ ThreadListener
 ShaderPrecacheFlags
 MAX_VERTEX_TEXTURE_WIDTH
 }
+;
+pub
+use
+crate
+:
+:
+screen_capture
+:
+:
+AsyncScreenshotHandle
 ;
 pub
 use
