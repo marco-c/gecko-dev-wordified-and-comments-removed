@@ -25,6 +25,15 @@ h
 #
 include
 "
+util
+/
+BitArray
+.
+h
+"
+#
+include
+"
 vm
 /
 NativeObject
