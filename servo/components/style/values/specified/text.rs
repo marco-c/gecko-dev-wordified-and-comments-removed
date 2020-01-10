@@ -144,8 +144,8 @@ text
 :
 :
 {
-Spacing
 GenericTextDecorationLength
+Spacing
 }
 ;
 use
