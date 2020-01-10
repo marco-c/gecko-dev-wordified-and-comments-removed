@@ -1514,6 +1514,11 @@ if
 this
 .
 isLocalTab
+|
+|
+this
+.
+shouldCloseClient
 )
 {
 try

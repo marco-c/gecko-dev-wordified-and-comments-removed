@@ -610,6 +610,12 @@ tab
 }
 )
 ;
+target
+.
+shouldCloseClient
+=
+true
+;
 }
 else
 {
