@@ -795,6 +795,11 @@ MediaMIMETypes
 h
 '
 '
+MediaPlaybackDelayPolicy
+.
+h
+'
+'
 MediaPromiseDefs
 .
 h
@@ -1389,6 +1394,11 @@ cpp
 '
 '
 MediaMIMETypes
+.
+cpp
+'
+'
+MediaPlaybackDelayPolicy
 .
 cpp
 '
