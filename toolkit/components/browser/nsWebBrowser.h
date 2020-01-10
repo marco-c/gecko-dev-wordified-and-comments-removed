@@ -529,13 +529,7 @@ uint32_t
 mContentType
 ;
 bool
-mActivating
-;
-bool
 mShouldEnableHistory
-;
-bool
-mIsActive
 ;
 nativeWindow
 mParentNativeWindow
