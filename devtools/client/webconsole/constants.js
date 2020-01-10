@@ -320,10 +320,6 @@ inputHistoryCount
 EDITOR
 :
 "
-devtools
-.
-webconsole
-.
 input
 .
 editor
