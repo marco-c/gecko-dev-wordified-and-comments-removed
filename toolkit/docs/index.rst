@@ -96,8 +96,6 @@ components
 /
 telemetry
 /
-telemetry
-/
 index
 modules
 /

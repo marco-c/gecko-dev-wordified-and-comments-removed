@@ -160,6 +160,11 @@ threads
 SPHINX_TREES
 [
 '
+/
+toolkit
+/
+components
+/
 telemetry
 '
 ]
