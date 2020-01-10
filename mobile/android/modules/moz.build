@@ -204,6 +204,11 @@ ActionBarHandler
 jsm
 '
 '
+BrowserActions
+.
+jsm
+'
+'
 dbg
 -
 browser
@@ -264,6 +269,11 @@ jsm
 '
 '
 Notifications
+.
+jsm
+'
+'
+PageActions
 .
 jsm
 '
