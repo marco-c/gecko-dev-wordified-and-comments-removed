@@ -29052,7 +29052,7 @@ pInputs
 i
 ]
 .
-dwFlags
+dwMask
 &
 TOUCHINPUTMASKF_CONTACTAREA
 ?
