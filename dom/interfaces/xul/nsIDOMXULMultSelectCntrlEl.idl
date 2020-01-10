@@ -190,11 +190,6 @@ selectAll
 )
 ;
 void
-invertSelection
-(
-)
-;
-void
 clearSelection
 (
 )
