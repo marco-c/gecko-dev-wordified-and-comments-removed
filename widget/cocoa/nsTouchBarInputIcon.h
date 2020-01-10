@@ -81,11 +81,6 @@ NSSharingServicePickerTouchBarItem
 aShareScrubber
 =
 nil
-NSPopoverTouchBarItem
-*
-aPopoverItem
-=
-nil
 )
 ;
 private
@@ -153,10 +148,6 @@ mButton
 NSSharingServicePickerTouchBarItem
 *
 mShareScrubber
-;
-NSPopoverTouchBarItem
-*
-mPopoverItem
 ;
 RefPtr
 <
