@@ -39,11 +39,8 @@ transport
 true
 )
 ;
-const
-WorkerConnector
-=
-{
-startServer
+function
+connectToWorker
 (
 connection
 dbg
@@ -531,11 +528,9 @@ listener
 )
 ;
 }
-}
-;
 exports
 .
-WorkerConnector
+connectToWorker
 =
-WorkerConnector
+connectToWorker
 ;

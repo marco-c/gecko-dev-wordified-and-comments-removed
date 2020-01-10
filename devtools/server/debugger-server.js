@@ -97,7 +97,7 @@ lazyRequireGetter
 (
 this
 "
-ContentProcessConnector
+connectToContentProcess
 "
 "
 devtools
@@ -121,7 +121,7 @@ lazyRequireGetter
 (
 this
 "
-FrameConnector
+connectToFrame
 "
 "
 devtools
@@ -143,7 +143,7 @@ lazyRequireGetter
 (
 this
 "
-WorkerConnector
+connectToWorker
 "
 "
 devtools
@@ -1041,9 +1041,7 @@ onDestroy
 )
 {
 return
-ContentProcessConnector
-.
-startServer
+connectToContentProcess
 (
 connection
 mm
@@ -1060,9 +1058,7 @@ options
 )
 {
 return
-WorkerConnector
-.
-startServer
+connectToWorker
 (
 connection
 dbg
@@ -1085,9 +1081,7 @@ addonId
 )
 {
 return
-FrameConnector
-.
-startServer
+connectToFrame
 (
 connection
 frame
