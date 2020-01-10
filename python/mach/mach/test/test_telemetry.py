@@ -18,6 +18,10 @@ mozunit
 import
 pytest
 from
+six
+import
+text_type
+from
 mozboot
 .
 bootstrap
@@ -203,7 +207,7 @@ command
     
 update_or_create_build_telemetry_config
 (
-unicode
+text_type
 (
 tmpdir
 .

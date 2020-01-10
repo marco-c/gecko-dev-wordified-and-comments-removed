@@ -47,6 +47,12 @@ import
 logging
 import
 sys
+from
+six
+.
+moves
+import
+range
 class
 LoggingHandler
 (
@@ -309,7 +315,7 @@ n
 for
 i
 in
-xrange
+range
 (
 n
 )
