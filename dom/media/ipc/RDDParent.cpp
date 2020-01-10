@@ -836,7 +836,7 @@ IPCResult
 RDDParent
 :
 :
-RecvCreateVideoBridgeToParentProcess
+RecvInitVideoBridge
 (
 Endpoint
 <
@@ -853,7 +853,7 @@ if
 RemoteDecoderManagerParent
 :
 :
-CreateVideoBridgeToParentProcess
+CreateVideoBridgeToOtherProcess
 (
 std
 :

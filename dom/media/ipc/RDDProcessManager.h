@@ -203,6 +203,11 @@ PRemoteDecoderManagerChild
 aOutRemoteDecoderManager
 )
 ;
+bool
+CreateVideoBridge
+(
+)
+;
 void
 OnXPCOMShutdown
 (
