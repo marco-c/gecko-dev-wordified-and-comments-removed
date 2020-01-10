@@ -725,9 +725,6 @@ bool
 mPreFormattedMail
 ;
 bool
-mStartedOutput
-;
-bool
 mLineBreakDue
 ;
 bool
