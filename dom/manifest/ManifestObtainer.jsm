@@ -59,6 +59,13 @@ async
 browserObtainManifest
 (
 aBrowser
+aOptions
+=
+{
+checkConformance
+:
+false
+}
 )
 {
 if
@@ -116,6 +123,7 @@ ManifestObtainer
 :
 Obtain
 "
+aOptions
 )
 ;
 if
