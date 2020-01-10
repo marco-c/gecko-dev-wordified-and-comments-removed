@@ -1432,7 +1432,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_layout_css_moz_document_content_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_moz_document_content_enabled
 }
 {
 return
@@ -1446,7 +1449,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_layout_css_moz_document_url_prefix_hack_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_moz_document_url_prefix_hack_enabled
 }
 {
 return

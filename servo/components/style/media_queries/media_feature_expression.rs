@@ -1648,7 +1648,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_layout_css_prefixes_device_pixel_ratio_webkit
+StaticPrefs
+:
+:
+sVarCache_layout_css_prefixes_device_pixel_ratio_webkit
 }
 {
 requirements

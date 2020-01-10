@@ -2294,7 +2294,10 @@ unsafe
 mozilla
 :
 :
-StaticPrefs_sVarCache_layout_css_grid_template_subgrid_value_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_grid_template_subgrid_value_enabled
 }
 }
 #

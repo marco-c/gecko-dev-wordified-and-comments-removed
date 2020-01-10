@@ -314,7 +314,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_layout_css_line_height_moz_block_height_content_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_line_height_moz_block_height_content_enabled
 }
 }
 #

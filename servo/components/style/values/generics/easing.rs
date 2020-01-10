@@ -229,7 +229,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_layout_css_step_position_jump_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_step_position_jump_enabled
 }
 }
 #

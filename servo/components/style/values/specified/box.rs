@@ -240,7 +240,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_layout_css_xul_display_values_content_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_xul_display_values_content_enabled
 }
 }
 #
@@ -287,7 +290,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_layout_css_xul_box_display_values_content_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_xul_box_display_values_content_enabled
 }
 }
 #

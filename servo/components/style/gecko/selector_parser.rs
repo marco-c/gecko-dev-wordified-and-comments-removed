@@ -1151,7 +1151,10 @@ unsafe
 mozilla
 :
 :
-StaticPrefs_sVarCache_full_screen_api_unprefix_enabled
+StaticPrefs
+:
+:
+sVarCache_full_screen_api_unprefix_enabled
 }
 _
 =
@@ -2096,7 +2099,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_layout_css_shadow_parts_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_shadow_parts_enabled
 }
 }
 fn

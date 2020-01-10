@@ -242,7 +242,10 @@ unsafe
 mozilla
 :
 :
-StaticPrefs_sVarCache_gfx_font_rendering_opentype_svg_enabled
+StaticPrefs
+:
+:
+sVarCache_gfx_font_rendering_opentype_svg_enabled
 }
 }
 #

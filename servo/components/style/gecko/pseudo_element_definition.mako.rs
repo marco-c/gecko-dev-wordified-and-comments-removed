@@ -820,7 +820,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_layout_css_xul_tree_pseudos_content_enabled
+StaticPrefs
+:
+:
+sVarCache_layout_css_xul_tree_pseudos_content_enabled
 }
 {
 0
@@ -1478,7 +1481,10 @@ unsafe
 structs
 :
 :
-StaticPrefs_sVarCache_layout_css_unknown_webkit_pseudo_element
+StaticPrefs
+:
+:
+sVarCache_layout_css_unknown_webkit_pseudo_element
 }
 {
 const
