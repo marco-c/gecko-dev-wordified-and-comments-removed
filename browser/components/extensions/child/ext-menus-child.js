@@ -60,11 +60,7 @@ getLastTarget
 (
 context
 .
-contentWindow
-.
-docShell
-.
-browsingContext
+messageManager
 )
 ;
 if
