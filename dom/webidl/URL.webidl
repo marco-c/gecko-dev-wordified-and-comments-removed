@@ -176,9 +176,6 @@ Window
 Worker
 WorkerDebugger
 )
-LegacyWindowAlias
-=
-webkitURL
 ]
 interface
 URL

@@ -712,9 +712,6 @@ Window
 Worker
 )
 Serializable
-LegacyWindowAlias
-=
-WebKitCSSMatrix
 ]
 interface
 DOMMatrix

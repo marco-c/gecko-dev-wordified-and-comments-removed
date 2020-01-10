@@ -3683,12 +3683,6 @@ const
 unscopableNames
 bool
 isGlobal
-const
-char
-*
-const
-*
-legacyWindowAliases
 )
 ;
 bool

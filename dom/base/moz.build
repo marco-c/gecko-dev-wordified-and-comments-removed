@@ -1294,6 +1294,11 @@ VisualViewport
 h
 '
 '
+WebKitCSSMatrix
+.
+h
+'
+'
 WindowOrientationObserver
 .
 h
@@ -2127,6 +2132,11 @@ cpp
 '
 '
 VisualViewport
+.
+cpp
+'
+'
+WebKitCSSMatrix
 .
 cpp
 '
