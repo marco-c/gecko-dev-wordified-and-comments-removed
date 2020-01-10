@@ -1736,11 +1736,6 @@ nsDOMTokenList
 cpp
 '
 '
-nsDOMWindowList
-.
-cpp
-'
-'
 nsFocusManager
 .
 cpp
