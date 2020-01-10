@@ -59,6 +59,12 @@ aWriter
 )
 override
 ;
+bool
+isSystemOrAddonPrincipal
+(
+)
+override
+;
 static
 void
 Destroy
