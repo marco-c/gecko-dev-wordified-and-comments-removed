@@ -5817,7 +5817,6 @@ PdfJs
 .
 init
 (
-true
 )
 ;
 break
