@@ -1,8 +1,3 @@
-requestLongerTimeout
-(
-2
-)
-;
 add_task
 (
 async
@@ -542,10 +537,9 @@ Promise
 resolve
 =
 >
-setTimeout
+executeSoon
 (
 resolve
-1000
 )
 )
 ;
@@ -870,10 +864,9 @@ Promise
 resolve
 =
 >
-setTimeout
+executeSoon
 (
 resolve
-1000
 )
 )
 ;

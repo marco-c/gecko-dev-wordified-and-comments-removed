@@ -60,11 +60,11 @@ event
 >
 {
 return
-event
-.
-target
+content
 .
 location
+.
+href
 !
 =
 "
