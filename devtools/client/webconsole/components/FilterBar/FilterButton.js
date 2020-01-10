@@ -106,6 +106,11 @@ PropTypes
 func
 .
 isRequired
+title
+:
+PropTypes
+.
+string
 }
 ;
 function
@@ -120,6 +125,7 @@ active
 label
 filterKey
 dispatch
+title
 }
 =
 props
@@ -162,6 +168,7 @@ join
 "
 "
 )
+title
 onClick
 :
 (

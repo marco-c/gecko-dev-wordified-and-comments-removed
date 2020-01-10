@@ -1504,6 +1504,17 @@ css
 active
 :
 false
+title
+:
+"
+webconsole
+.
+cssFilterButton
+.
+inactive
+.
+tooltip
+"
 }
 )
 filterBtn
