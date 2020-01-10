@@ -2190,11 +2190,6 @@ attribute
 nsILayoutHistoryState
 layoutHistoryState
 ;
-readonly
-attribute
-boolean
-shouldSaveLayoutState
-;
 /
 *
 *
