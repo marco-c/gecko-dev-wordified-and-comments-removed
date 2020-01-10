@@ -774,6 +774,15 @@ lastOpcodeIsJumpTarget
 const
 {
 return
+lastTarget_
+.
+offset
+!
+=
+-
+1
+&
+&
 offset
 (
 )
@@ -1157,11 +1166,6 @@ lastTarget_
 {
 -
 1
--
-ptrdiff_t
-(
-JSOP_JUMPTARGET_LENGTH
-)
 }
 ;
 uint32_t
