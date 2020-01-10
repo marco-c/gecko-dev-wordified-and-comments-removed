@@ -14645,7 +14645,7 @@ optionsVal
 )
 {
 return
-NS_ERROR_TYPE_ERR
+NS_ERROR_UNEXPECTED
 ;
 }
 quota
