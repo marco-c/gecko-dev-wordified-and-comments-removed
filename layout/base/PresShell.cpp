@@ -26706,14 +26706,6 @@ GetPresShell
 )
 )
 {
-event
-.
-mLayersId
-=
-mMouseEventTargetGuid
-.
-mLayersId
-;
 InputAPZContext
 apzContext
 (
