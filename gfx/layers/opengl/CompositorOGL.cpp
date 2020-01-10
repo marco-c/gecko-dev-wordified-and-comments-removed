@@ -4154,14 +4154,6 @@ TopLeft
 )
 )
 ;
-aNativeLayer
--
->
-InvalidateRegionThroughoutSwapchain
-(
-invalidRelativeToLayer
-)
-;
 Maybe
 <
 GLuint
@@ -4173,6 +4165,7 @@ aNativeLayer
 >
 NextSurfaceAsFramebuffer
 (
+invalidRelativeToLayer
 false
 )
 ;
