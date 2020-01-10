@@ -5574,6 +5574,16 @@ UpdateShouldBuildAsyncZoomContainer
 (
 )
 ;
+void
+UpdateShouldBuildBackdropRootContainer
+(
+)
+;
+bool
+ShouldRebuildDisplayListDueToPrefChange
+(
+)
+;
 struct
 WeakFrameRegion
 {
@@ -6483,6 +6493,9 @@ mIsInActiveDocShell
 ;
 bool
 mBuildAsyncZoomContainer
+;
+bool
+mBuildBackdropRootContainer
 ;
 nsRect
 mHitTestArea
