@@ -1187,6 +1187,11 @@ OPTIONAL
 #
 #
 #
+WARNING_CFLAGS
+=
+(
+NULL
+)
 export
 :
 :

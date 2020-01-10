@@ -262,6 +262,11 @@ sh
 g
 -
 v
+-
+-
+enable
+-
+libpkix
 "
 "
 #
