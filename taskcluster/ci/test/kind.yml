@@ -253,6 +253,12 @@ chromium
 .
 yml
 -
+raptor
+-
+fenix
+.
+yml
+-
 reftest
 .
 yml
