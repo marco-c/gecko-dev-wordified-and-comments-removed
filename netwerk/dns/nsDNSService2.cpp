@@ -2414,6 +2414,11 @@ if
 XRE_IsContentProcess
 (
 )
+|
+|
+XRE_IsSocketProcess
+(
+)
 )
 {
 return

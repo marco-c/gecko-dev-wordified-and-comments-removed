@@ -596,6 +596,15 @@ peerconnection
 "
 #
 define
+NETWORK_DNS_PREF
+"
+network
+.
+dns
+.
+"
+#
+define
 MAX_RECURSION_COUNT
 50
 nsIOService
@@ -931,6 +940,7 @@ gCallbackPrefsForSocketProcess
 =
 {
 WEBRTC_PREF_PREFIX
+NETWORK_DNS_PREF
 nullptr
 }
 ;
