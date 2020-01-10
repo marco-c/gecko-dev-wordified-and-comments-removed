@@ -366,9 +366,13 @@ browser
 /
 skin
 /
-identity
+connection
 -
-icon
+mixed
+-
+passive
+-
+loaded
 .
 svg
 "
