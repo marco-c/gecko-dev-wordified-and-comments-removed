@@ -1994,6 +1994,16 @@ true
 name
 :
 "
+FormDataEvent
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 FontFace
 "
 insecureContext
