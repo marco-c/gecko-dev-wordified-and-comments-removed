@@ -539,9 +539,6 @@ StyleContentType
 nsStyleSVGOpacitySource
 "
 "
-nsStyleUnit
-"
-"
 nsCSSKeyword
 "
 "
@@ -1579,9 +1576,6 @@ nsStyleContentData
 ComputedStyle
 "
 "
-nsStyleCoord
-"
-"
 nsStyleCounterData
 "
 "
@@ -1655,9 +1649,6 @@ nsStyleUIReset
 "
 "
 nsStyleUnion
-"
-"
-nsStyleUnit
 "
 "
 nsStyleUI

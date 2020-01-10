@@ -107,7 +107,7 @@ h
 #
 include
 "
-nsStyleCoord
+nsStyleConsts
 .
 h
 "

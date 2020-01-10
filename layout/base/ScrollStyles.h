@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsStyleCoord
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
