@@ -626,6 +626,13 @@ BaseProfilerCounts
 .
 h
 '
+'
+public
+/
+PowerOfTwo
+.
+h
+'
 ]
 if
 CONFIG
