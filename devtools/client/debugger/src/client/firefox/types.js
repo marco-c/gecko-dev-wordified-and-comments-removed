@@ -545,13 +545,13 @@ traits
 Object
 chrome
 :
-boolean
+Boolean
 url
 :
 string
 isAddon
 :
-boolean
+Boolean
 }
 ;
 export

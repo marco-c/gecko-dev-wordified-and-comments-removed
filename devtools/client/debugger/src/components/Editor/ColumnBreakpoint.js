@@ -154,9 +154,6 @@ ColumnBreakpointType
 breakpointActions
 :
 BreakpointItemActions
-canRewind
-:
-boolean
 }
 ;
 const
@@ -290,7 +287,6 @@ breakpoint
 {
 onClick
 onContextMenu
-canRewind
 }
 )
 {
@@ -349,20 +345,6 @@ options
 .
 logValue
 ;
-const
-isLogPoint
-=
-canRewind
-?
-logValue
-!
-=
-"
-displayName
-"
-:
-logValue
-;
 bp
 .
 className
@@ -388,7 +370,7 @@ has
 log
 "
 :
-isLogPoint
+logValue
 active
 :
 isActive
@@ -469,7 +451,6 @@ const
 {
 columnBreakpoint
 source
-canRewind
 }
 =
 nextProps
@@ -530,7 +511,6 @@ onContextMenu
 this
 .
 onContextMenu
-canRewind
 }
 )
 ;
