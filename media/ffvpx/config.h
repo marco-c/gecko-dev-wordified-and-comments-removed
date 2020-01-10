@@ -8,7 +8,7 @@ MOZ_FFVPX_CONFIG_H
 if
 defined
 (
-MOZ_FFVPX_FLACONLY
+MOZ_FFVPX_AUDIOONLY
 )
 #
 if
@@ -34,7 +34,7 @@ else
 #
 include
 "
-config_flac
+config_audio
 .
 h
 "

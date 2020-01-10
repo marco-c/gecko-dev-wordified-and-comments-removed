@@ -176,7 +176,7 @@ av_int_list_length_for_size
 av_log
 #
 ifndef
-MOZ_FFVPX_FLACONLY
+MOZ_FFVPX_AUDIOONLY
 av_log2
 av_log2_16bit
 #

@@ -14389,7 +14389,7 @@ enable
 set_config
 (
 '
-MOZ_FFVPX_FLACONLY
+MOZ_FFVPX_AUDIOONLY
 '
 True
 when
@@ -14401,7 +14401,7 @@ flac_only
 set_define
 (
 '
-MOZ_FFVPX_FLACONLY
+MOZ_FFVPX_AUDIOONLY
 '
 True
 when
