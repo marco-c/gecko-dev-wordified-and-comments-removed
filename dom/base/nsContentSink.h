@@ -398,12 +398,6 @@ nsAString
 aEncoded
 )
 ;
-static
-void
-InitializeStatics
-(
-)
-;
 protected
 :
 nsContentSink
@@ -925,10 +919,6 @@ false
 >
 >
 mProcessLinkHeaderEvent
-;
-static
-int32_t
-sEnablePerfMode
 ;
 }
 ;

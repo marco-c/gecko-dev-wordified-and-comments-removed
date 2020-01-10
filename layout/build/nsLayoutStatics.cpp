@@ -1493,13 +1493,6 @@ InitLibrary
 (
 )
 ;
-nsContentSink
-:
-:
-InitializeStatics
-(
-)
-;
 nsHtml5Module
 :
 :
