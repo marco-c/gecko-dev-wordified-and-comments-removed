@@ -1706,6 +1706,9 @@ hr
 iframe
 "
 "
+input
+"
+"
 math
 "
 "
@@ -1713,6 +1716,9 @@ object
 "
 "
 picture
+"
+"
+select
 "
 "
 svg
