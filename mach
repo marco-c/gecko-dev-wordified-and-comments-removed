@@ -179,7 +179,6 @@ css
 db
 doc
 doctor
-dxr
 empty
 -
 makefiles
@@ -205,7 +204,6 @@ test
 geckoview
 -
 junit
-google
 gradle
 gtest
 ide
@@ -242,7 +240,6 @@ commands
 marionette
 -
 test
-mdn
 mochitest
 mozbuild
 -
@@ -293,8 +290,6 @@ run
 -
 desktop
 rusttests
-search
-searchfox
 settings
 show
 -
