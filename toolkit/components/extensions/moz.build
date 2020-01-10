@@ -114,11 +114,6 @@ Extension
 jsm
 '
 '
-ExtensionActions
-.
-jsm
-'
-'
 ExtensionActivityLog
 .
 jsm
