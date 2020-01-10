@@ -72,7 +72,7 @@ RDDProcessManager
 (
 )
 ;
-void
+bool
 LaunchRDDProcess
 (
 )
