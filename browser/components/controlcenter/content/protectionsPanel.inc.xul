@@ -169,6 +169,17 @@ panel
 -
 header
 "
+onclick
+=
+"
+gProtectionsHandler
+.
+onHeaderClicked
+(
+event
+)
+;
+"
 >
 <
 label
