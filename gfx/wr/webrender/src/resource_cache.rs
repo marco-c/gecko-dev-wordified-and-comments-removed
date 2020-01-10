@@ -11354,6 +11354,9 @@ size
 desc
 .
 format
+desc
+.
+stride
 &
 arc
 )
@@ -11758,6 +11761,9 @@ size
 desc
 .
 format
+desc
+.
+stride
 &
 result
 .
