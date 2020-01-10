@@ -228,7 +228,7 @@ windowObserver
 =
 function
 (
-aSubject
+win
 aTopic
 aData
 )
@@ -246,18 +246,6 @@ domwindowopened
 return
 ;
 }
-var
-win
-=
-aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
-;
 win
 .
 addEventListener

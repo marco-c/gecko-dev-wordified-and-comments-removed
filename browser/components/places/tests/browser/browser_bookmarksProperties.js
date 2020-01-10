@@ -2406,7 +2406,7 @@ title
 function
 windowObserver
 (
-aSubject
+observerWindow
 aTopic
 aData
 )
@@ -2431,18 +2431,6 @@ ww
 unregisterNotification
 (
 windowObserver
-)
-;
-let
-observerWindow
-=
-aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
 )
 ;
 waitForFocus

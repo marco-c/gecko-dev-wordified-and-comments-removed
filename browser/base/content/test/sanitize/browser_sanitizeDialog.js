@@ -3376,7 +3376,7 @@ this
 function
 windowObserver
 (
-aSubject
+win
 aTopic
 aData
 )
@@ -3407,18 +3407,6 @@ var
 loaded
 =
 false
-;
-let
-win
-=
-aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 win
 .

@@ -252,7 +252,7 @@ windowObserver
 =
 function
 (
-aSubject
+win
 aTopic
 aData
 )
@@ -290,18 +290,6 @@ ww
 unregisterNotification
 (
 windowObserver
-)
-;
-var
-win
-=
-aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
 )
 ;
 win

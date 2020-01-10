@@ -682,13 +682,6 @@ let
 win
 =
 subject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 win
 .

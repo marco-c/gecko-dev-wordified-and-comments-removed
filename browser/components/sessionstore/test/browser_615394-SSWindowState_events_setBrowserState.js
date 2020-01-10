@@ -353,13 +353,6 @@ windowObserver
 newWindow
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 newWindow
 .

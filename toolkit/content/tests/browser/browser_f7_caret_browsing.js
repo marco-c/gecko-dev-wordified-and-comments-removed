@@ -207,13 +207,6 @@ let
 win
 =
 subject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 BrowserTestUtils
 .

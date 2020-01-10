@@ -1294,15 +1294,6 @@ finished
 "
 )
 {
-subject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
-;
 this
 .
 updateElementsInWindow

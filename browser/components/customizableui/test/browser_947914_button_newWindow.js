@@ -119,13 +119,6 @@ domwindowopened
 newWindow
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 newWindow
 .

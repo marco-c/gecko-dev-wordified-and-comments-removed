@@ -2503,13 +2503,6 @@ let
 observedWindow
 =
 subject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 ;
 if
 (
@@ -2614,13 +2607,6 @@ observer
 resolve
 (
 subject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
 )
 ;
 }
