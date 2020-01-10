@@ -4103,7 +4103,7 @@ notification
 )
 {
 case
-AUTO_FILL_NOTIFY_STARTED
+AUTOFILL_NOTIFY_STARTED
 :
 manager
 .
@@ -4114,7 +4114,7 @@ cancel
 break
 ;
 case
-AUTO_FILL_NOTIFY_COMMITTED
+AUTOFILL_NOTIFY_COMMITTED
 :
 manager
 .
@@ -4125,7 +4125,7 @@ commit
 break
 ;
 case
-AUTO_FILL_NOTIFY_CANCELED
+AUTOFILL_NOTIFY_CANCELED
 :
 manager
 .
@@ -4136,7 +4136,7 @@ cancel
 break
 ;
 case
-AUTO_FILL_NOTIFY_VIEW_ENTERED
+AUTOFILL_NOTIFY_VIEW_ENTERED
 :
 manager
 .
@@ -4159,7 +4159,7 @@ this
 break
 ;
 case
-AUTO_FILL_NOTIFY_VIEW_EXITED
+AUTOFILL_NOTIFY_VIEW_EXITED
 :
 manager
 .

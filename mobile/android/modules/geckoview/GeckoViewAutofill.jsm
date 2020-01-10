@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-GeckoViewAutoFill
+GeckoViewAutofill
 "
 ]
 ;
@@ -125,12 +125,12 @@ GeckoViewUtils
 initLogging
 (
 "
-AutoFill
+Autofill
 "
 )
 ;
 class
-GeckoViewAutoFill
+GeckoViewAutofill
 {
 constructor
 (
@@ -839,7 +839,7 @@ dispatch
 "
 GeckoView
 :
-AddAutoFill
+AddAutofill
 "
 rootInfo
 {
@@ -1127,7 +1127,7 @@ dispatch
 "
 GeckoView
 :
-OnAutoFillFocus
+OnAutofillFocus
 "
 info
 )
@@ -1174,7 +1174,7 @@ type
 "
 GeckoView
 :
-ClearAutoFill
+ClearAutofill
 "
 }
 )
