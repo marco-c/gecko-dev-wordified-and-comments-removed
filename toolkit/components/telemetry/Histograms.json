@@ -150722,6 +150722,7 @@ bug_numbers
 1546796
 1546906
 1550756
+1572666
 ]
 "
 expires_in_version
@@ -150837,6 +150838,15 @@ Connection
 Transaction
 "
 ]
+"
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
+"
 "
 description
 "

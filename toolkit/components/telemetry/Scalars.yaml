@@ -19453,6 +19453,8 @@ bug_numbers
 1546906
 -
 1550756
+-
+1572666
 description
 :
 >
@@ -19634,6 +19636,11 @@ record_in_processes
 '
 main
 '
+release_channel_collection
+:
+opt
+-
+out
 data_transferred_captive_portal
 :
 bug_numbers
