@@ -170,6 +170,12 @@ delay
 ]
 [
 "
+disableExtendForTests
+"
+false
+]
+[
+"
 doubleClickSelectsAll
 "
 false
