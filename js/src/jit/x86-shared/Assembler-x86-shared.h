@@ -6984,6 +6984,16 @@ true
 }
 static
 bool
+SupportsFastUnalignedAccesses
+(
+)
+{
+return
+true
+;
+}
+static
+bool
 SupportsSimd
 (
 )
