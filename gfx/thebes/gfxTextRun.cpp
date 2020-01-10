@@ -3734,10 +3734,17 @@ aParams
 .
 drawMode
 &
+(
 DrawMode
 :
 :
 GLYPH_FILL
+|
+DrawMode
+:
+:
+GLYPH_STROKE
+)
 )
 |
 |
