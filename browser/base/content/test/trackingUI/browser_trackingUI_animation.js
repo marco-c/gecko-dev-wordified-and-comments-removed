@@ -344,7 +344,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+is_hidden
 (
 noAnimationIcon
 )
@@ -353,7 +353,7 @@ the
 default
 icon
 is
-shown
+hidden
 when
 animations
 are
@@ -365,7 +365,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+is_visible
 (
 animationIcon
 )
@@ -374,7 +374,7 @@ the
 animated
 icon
 is
-hidden
+shown
 when
 animations
 are
