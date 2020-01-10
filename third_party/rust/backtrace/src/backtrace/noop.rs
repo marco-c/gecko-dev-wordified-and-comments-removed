@@ -1,11 +1,8 @@
 use
-std
+core
 :
 :
-os
-:
-:
-raw
+ffi
 :
 :
 c_void
@@ -39,6 +36,13 @@ bool
 )
 {
 }
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 Frame
