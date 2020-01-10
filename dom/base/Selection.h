@@ -2466,10 +2466,10 @@ aEndOffset
 bool
 aAllowAdjacent
 int32_t
-*
+&
 aStartIndex
 int32_t
-*
+&
 aEndIndex
 )
 const
