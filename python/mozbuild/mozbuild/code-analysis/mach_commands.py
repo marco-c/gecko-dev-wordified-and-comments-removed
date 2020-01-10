@@ -15613,9 +15613,23 @@ json
 '
 :
                         
+relative_path
+=
+os
+.
+path
+.
+relpath
+(
+original_path
+self
+.
+topsrcdir
+)
+                        
 patches
 [
-original_path
+relative_path
 ]
 =
 self
