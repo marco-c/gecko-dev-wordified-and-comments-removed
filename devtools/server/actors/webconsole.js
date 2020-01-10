@@ -1397,6 +1397,16 @@ window
 if
 (
 isWorker
+|
+|
+!
+(
+window
+instanceof
+Ci
+.
+nsIDOMWindow
+)
 )
 {
 return
