@@ -111,6 +111,12 @@ visibility
 :
 inherit
 ;
+pointer
+-
+events
+:
+inherit
+;
 -
 moz
 -
