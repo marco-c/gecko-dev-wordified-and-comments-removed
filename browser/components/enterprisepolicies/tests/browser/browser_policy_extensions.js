@@ -160,13 +160,13 @@ ok
 (
 removeBtn
 .
-hidden
+disabled
 "
 Remove
 button
 should
 be
-hidden
+disabled
 "
 )
 ;
