@@ -251,7 +251,10 @@ zero
 (
 )
 spatial_id
-true
+PrimitiveFlags
+:
+:
+IS_BACKFACE_VISIBLE
 &
 filters
 &
