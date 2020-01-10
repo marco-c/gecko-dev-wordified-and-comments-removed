@@ -137,7 +137,7 @@ token
 )
 {
 var
-v
+video
 =
 document
 .
@@ -155,13 +155,13 @@ started
 token
 )
 ;
-v
+video
 .
 _errorCount
 =
 0
 ;
-v
+video
 .
 _ignore
 =
@@ -206,7 +206,7 @@ checkError
 =
 function
 (
-test
+t
 v
 )
 {
@@ -228,7 +228,7 @@ v
 .
 _errorCount
 1
-test
+t
 .
 name
 +
@@ -249,7 +249,7 @@ v
 }
 (
 test
-v
+video
 )
 ;
 var
@@ -257,7 +257,7 @@ checkEnded
 =
 function
 (
-test
+t
 v
 )
 {
@@ -269,7 +269,7 @@ function
 ok
 (
 false
-test
+t
 .
 name
 +
@@ -288,10 +288,10 @@ v
 }
 (
 test
-v
+video
 )
 ;
-v
+video
 .
 addEventListener
 (
@@ -301,7 +301,7 @@ error
 checkError
 )
 ;
-v
+video
 .
 addEventListener
 (
@@ -311,7 +311,7 @@ ended
 checkEnded
 )
 ;
-v
+video
 .
 src
 =
@@ -325,10 +325,10 @@ body
 .
 appendChild
 (
-v
+video
 )
 ;
-v
+video
 .
 play
 (

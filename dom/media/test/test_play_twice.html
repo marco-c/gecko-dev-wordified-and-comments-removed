@@ -137,7 +137,7 @@ token
 )
 {
 var
-v
+video
 =
 document
 .
@@ -148,7 +148,7 @@ video
 '
 )
 ;
-v
+video
 .
 token
 =
@@ -161,7 +161,7 @@ started
 token
 )
 ;
-v
+video
 .
 src
 =
@@ -169,7 +169,7 @@ test
 .
 name
 ;
-v
+video
 .
 name
 =
@@ -177,13 +177,13 @@ test
 .
 name
 ;
-v
+video
 .
 playingCount
 =
 0
 ;
-v
+video
 .
 _playedOnce
 =
@@ -194,7 +194,7 @@ check
 =
 function
 (
-test
+t
 v
 )
 {
@@ -205,7 +205,7 @@ function
 {
 checkMetadata
 (
-test
+t
 .
 name
 v
@@ -216,7 +216,7 @@ test
 }
 (
 test
-v
+video
 )
 ;
 var
@@ -224,7 +224,7 @@ noLoad
 =
 function
 (
-test
+t
 v
 )
 {
@@ -236,7 +236,7 @@ function
 ok
 (
 false
-test
+t
 .
 name
 +
@@ -255,7 +255,7 @@ event
 }
 (
 test
-v
+video
 )
 ;
 function
@@ -309,7 +309,7 @@ checkEnded
 =
 function
 (
-test
+t
 v
 )
 {
@@ -320,7 +320,7 @@ function
 {
 if
 (
-test
+t
 .
 duration
 )
@@ -335,7 +335,7 @@ v
 .
 currentTime
 -
-test
+t
 .
 duration
 )
@@ -343,7 +343,7 @@ duration
 0
 .
 1
-test
+t
 .
 name
 +
@@ -369,7 +369,7 @@ readyState
 v
 .
 HAVE_CURRENT_DATA
-test
+t
 .
 name
 +
@@ -384,7 +384,7 @@ ok
 v
 .
 ended
-test
+t
 .
 name
 +
@@ -457,7 +457,7 @@ play
 }
 (
 test
-v
+video
 )
 ;
 var
@@ -465,7 +465,7 @@ checkSuspended
 =
 function
 (
-test
+t
 v
 )
 {
@@ -493,7 +493,7 @@ true
 ok
 (
 true
-test
+t
 .
 name
 +
@@ -512,7 +512,7 @@ v
 }
 (
 test
-v
+video
 )
 ;
 var
@@ -520,7 +520,7 @@ checkPlaying
 =
 function
 (
-test
+t
 v
 )
 {
@@ -531,7 +531,7 @@ function
 {
 is
 (
-test
+t
 .
 name
 v
@@ -564,10 +564,10 @@ playingCount
 }
 (
 test
-v
+video
 )
 ;
-v
+video
 .
 addEventListener
 (
@@ -577,7 +577,7 @@ load
 noLoad
 )
 ;
-v
+video
 .
 addEventListener
 (
@@ -587,7 +587,7 @@ loadedmetadata
 check
 )
 ;
-v
+video
 .
 addEventListener
 (
@@ -613,7 +613,7 @@ events
 for
 every
 resource
-v
+video
 .
 addEventListener
 (
@@ -623,7 +623,7 @@ ended
 checkEnded
 )
 ;
-v
+video
 .
 addEventListener
 (
@@ -639,10 +639,10 @@ body
 .
 appendChild
 (
-v
+video
 )
 ;
-v
+video
 .
 play
 (

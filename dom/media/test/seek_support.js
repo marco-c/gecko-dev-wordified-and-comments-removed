@@ -125,7 +125,7 @@ token
 )
 {
 var
-v
+video
 =
 document
 .
@@ -136,7 +136,7 @@ video
 '
 )
 ;
-v
+video
 .
 token
 =
@@ -161,12 +161,12 @@ manager
 .
 started
 (
-v
+video
 .
 token
 )
 ;
-v
+video
 .
 src
 =
@@ -174,7 +174,7 @@ test
 .
 name
 ;
-v
+video
 .
 preload
 =
@@ -188,7 +188,7 @@ body
 .
 appendChild
 (
-v
+video
 )
 ;
 var
@@ -212,7 +212,7 @@ localIs
 =
 function
 (
-name
+n
 )
 {
 return
@@ -227,7 +227,7 @@ is
 (
 a
 b
-name
+n
 +
 "
 :
@@ -247,7 +247,7 @@ localOk
 =
 function
 (
-name
+n
 )
 {
 return
@@ -260,7 +260,7 @@ msg
 ok
 (
 a
-name
+n
 +
 "
 :
@@ -281,7 +281,7 @@ localFinish
 function
 (
 v
-manager
+m
 )
 {
 return
@@ -327,7 +327,7 @@ n
 "
 )
 ;
-manager
+m
 .
 finished
 (
@@ -339,7 +339,7 @@ token
 }
 }
 (
-v
+video
 manager
 )
 ;
@@ -372,7 +372,7 @@ test
 number
 ]
 (
-v
+video
 test
 .
 duration
