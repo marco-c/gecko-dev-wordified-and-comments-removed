@@ -57,9 +57,13 @@ NS_ITIMEOUTHANDLER_IID
 )
 MOZ_CAN_RUN_SCRIPT
 virtual
-void
+bool
 Call
 (
+const
+char
+*
+aExecutionReason
 )
 =
 0
