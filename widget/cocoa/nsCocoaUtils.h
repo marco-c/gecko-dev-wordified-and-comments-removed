@@ -1283,6 +1283,12 @@ Promise
 aPromise
 )
 ;
+static
+nsresult
+MaybeRequestScreenCapturePermission
+(
+)
+;
 private
 :
 static
