@@ -105,6 +105,14 @@ download
 .
 sh
 '
+fetches
+:
+fetch
+:
+-
+rust
+-
+size
 linux64
 -
 rust
