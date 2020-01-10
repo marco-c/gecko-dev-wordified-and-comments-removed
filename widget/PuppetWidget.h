@@ -926,6 +926,13 @@ GetScreenBounds
 override
 ;
 virtual
+LayoutDeviceIntSize
+GetCompositionSize
+(
+)
+override
+;
+virtual
 MOZ_MUST_USE
 nsresult
 StartPluginIME
