@@ -4502,6 +4502,29 @@ is_executable_method
 =
 None
         
+pywebsocket
+.
+_configure_logging
+(
+opts
+)
+        
+reload_module
+(
+logging
+)
+        
+release_mozlog_lock
+(
+)
+        
+pywebsocket
+.
+_configure_logging
+(
+opts
+)
+        
 self
 .
 server
@@ -4783,15 +4806,6 @@ kwargs
 )
 :
     
-reload_module
-(
-logging
-)
-    
-release_mozlog_lock
-(
-)
-    
 return
 WebSocketDaemon
 (
@@ -4813,9 +4827,13 @@ ws_doc_root
 "
 ]
                            
-"
-debug
-"
+config
+.
+log_level
+.
+lower
+(
+)
                            
 bind_address
                            
@@ -4838,15 +4856,6 @@ kwargs
 )
 :
     
-reload_module
-(
-logging
-)
-    
-release_mozlog_lock
-(
-)
-    
 return
 WebSocketDaemon
 (
@@ -4868,9 +4877,13 @@ ws_doc_root
 "
 ]
                            
-"
-debug
-"
+config
+.
+log_level
+.
+lower
+(
+)
                            
 bind_address
                            
@@ -5374,7 +5387,7 @@ ConfigBuilder
 serve
 config
     
-this
+This
 subclasses
 wptserve
 .
@@ -5386,6 +5399,8 @@ add
 serve
 config
 options
+.
+    
 "
 "
 "
