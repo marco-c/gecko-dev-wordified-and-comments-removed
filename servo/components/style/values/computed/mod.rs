@@ -1204,6 +1204,7 @@ font_metrics_provider
 &
 '
 a
+dyn
 FontMetricsProvider
 pub
 in_media_query

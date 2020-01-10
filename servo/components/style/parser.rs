@@ -255,6 +255,7 @@ Option
 &
 '
 a
+dyn
 ParseErrorReporter
 >
 pub
@@ -325,6 +326,7 @@ Option
 &
 '
 a
+dyn
 ParseErrorReporter
 >
 use_counters
@@ -388,6 +390,7 @@ Option
 &
 '
 a
+dyn
 ParseErrorReporter
 >
 use_counters

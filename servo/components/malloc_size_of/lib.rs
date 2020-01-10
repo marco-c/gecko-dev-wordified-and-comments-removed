@@ -303,6 +303,7 @@ usize
 type
 VoidPtrToBoolFnMut
 =
+dyn
 FnMut
 (
 *

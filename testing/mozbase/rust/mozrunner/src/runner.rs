@@ -620,6 +620,7 @@ self
 Option
 <
 &
+dyn
 Error
 >
 {
@@ -642,6 +643,7 @@ err
 err
 as
 &
+dyn
 Error
 RunnerError
 :
@@ -656,6 +658,7 @@ err
 err
 as
 &
+dyn
 Error
 }
 )

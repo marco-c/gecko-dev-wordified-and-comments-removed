@@ -5629,6 +5629,7 @@ error_reporter
 Option
 <
 &
+dyn
 ParseErrorReporter
 >
 quirks_mode
@@ -5727,6 +5728,7 @@ error_reporter
 Option
 <
 &
+dyn
 ParseErrorReporter
 >
 parsing_mode

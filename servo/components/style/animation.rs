@@ -2164,6 +2164,7 @@ ComputedValues
 font_metrics_provider
 :
 &
+dyn
 FontMetricsProvider
 )
 -
@@ -2887,6 +2888,7 @@ ComputedValues
 font_metrics_provider
 :
 &
+dyn
 FontMetricsProvider
 )
 -

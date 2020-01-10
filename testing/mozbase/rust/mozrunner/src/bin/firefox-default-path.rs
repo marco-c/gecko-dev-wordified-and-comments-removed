@@ -80,6 +80,7 @@ writer
 :
 Box
 <
+dyn
 Write
 >
 =

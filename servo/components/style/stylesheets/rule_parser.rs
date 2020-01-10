@@ -331,6 +331,7 @@ Option
 &
 '
 a
+dyn
 StylesheetLoader
 >
 pub
