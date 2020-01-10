@@ -2285,7 +2285,9 @@ STATUS_LOGIN_FAILED
 stateValue
 =
 "
-unverified
+login
+-
+failed
 "
 ;
 headerTitle
