@@ -10963,6 +10963,14 @@ JSFreeOp
 fop
 )
 ;
+void
+releaseJitScriptOnFinalize
+(
+JSFreeOp
+*
+fop
+)
+;
 inline
 bool
 hasBaselineScript
