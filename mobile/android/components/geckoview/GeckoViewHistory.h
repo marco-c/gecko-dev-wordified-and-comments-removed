@@ -139,14 +139,6 @@ nsAString
 )
 final
 ;
-NS_IMETHOD
-NotifyVisited
-(
-nsIURI
-*
-)
-override
-;
 mozilla
 :
 :
