@@ -1724,6 +1724,16 @@ earlyBlankFirstPaint
 {
 if
 (
+AppConstants
+.
+platform
+=
+=
+"
+macosx
+"
+|
+|
 !
 Services
 .
