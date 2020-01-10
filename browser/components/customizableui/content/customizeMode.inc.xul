@@ -619,6 +619,11 @@ lwtheme
 -
 menu
 "
+orient
+=
+"
+vertical
+"
 onpopupshowing
 =
 "
@@ -855,6 +860,11 @@ customization
 uidensity
 -
 menu
+"
+orient
+=
+"
+vertical
 "
 onpopupshowing
 =

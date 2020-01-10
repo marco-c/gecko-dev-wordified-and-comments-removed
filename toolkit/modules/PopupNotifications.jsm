@@ -932,6 +932,13 @@ notification
 -
 panel
 "
+"
+panel
+-
+no
+-
+padding
+"
 )
 ;
 this

@@ -397,6 +397,15 @@ downloads
 title
 ;
 "
+class
+=
+"
+panel
+-
+no
+-
+padding
+"
 role
 =
 "
