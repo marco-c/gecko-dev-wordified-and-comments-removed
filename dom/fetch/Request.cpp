@@ -939,13 +939,9 @@ url
 URL
 :
 :
-Constructor
+WorkerConstructor
 (
 aGlobal
-.
-GetAsSupports
-(
-)
 aInput
 baseURL
 aRv
