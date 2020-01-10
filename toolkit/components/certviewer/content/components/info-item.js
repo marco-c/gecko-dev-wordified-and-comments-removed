@@ -363,11 +363,7 @@ labelId
 ;
 if
 (
-this
-.
-item
-.
-label
+labelId
 =
 =
 =
