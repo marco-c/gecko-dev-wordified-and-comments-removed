@@ -181,6 +181,13 @@ jsm
 '
 content
 /
+SpecialPowersSandbox
+.
+jsm
+'
+'
+content
+/
 WrapPrivileged
 .
 jsm
