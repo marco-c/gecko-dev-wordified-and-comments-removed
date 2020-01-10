@@ -203,7 +203,11 @@ MOZILLA_OFFICIAL
 {
 variant
 .
-javaCompile
+javaCompileProvider
+.
+get
+(
+)
 .
 options
 .
