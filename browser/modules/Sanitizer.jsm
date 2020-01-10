@@ -1817,6 +1817,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_SECURITY_SETTINGS
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_CERT_EXCEPTIONS
 )
 ;
 TelemetryStopwatch
