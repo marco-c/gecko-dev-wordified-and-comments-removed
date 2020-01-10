@@ -100,7 +100,7 @@ chrome
 :
 /
 /
-extensions
+browser
 /
 content
 /
@@ -1229,7 +1229,7 @@ chrome
 :
 /
 /
-extensions
+browser
 /
 content
 /

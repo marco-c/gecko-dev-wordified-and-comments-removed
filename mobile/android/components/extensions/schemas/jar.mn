@@ -61,6 +61,13 @@ content
 /
 schemas
 /
+browser_action
+.
+json
+content
+/
+schemas
+/
 browsing_data
 .
 json
@@ -69,6 +76,13 @@ content
 schemas
 /
 gecko_view_addons
+.
+json
+content
+/
+schemas
+/
+page_action
 .
 json
 content
