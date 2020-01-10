@@ -156,6 +156,9 @@ common_data
 float
 blur_radius
 ;
+vec2
+blur_region
+;
 }
 ;
 BlurTask
@@ -186,6 +189,11 @@ task_data
 user_data
 .
 x
+task_data
+.
+user_data
+.
+yz
 )
 ;
 return
@@ -422,9 +430,9 @@ src_rect
 .
 p0
 +
-src_rect
+blur_task
 .
-size
+blur_region
 -
 vec2
 (
