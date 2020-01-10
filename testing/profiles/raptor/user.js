@@ -124,3 +124,15 @@ content
 true
 )
 ;
+user_pref
+(
+"
+browser
+.
+sessionstore
+.
+resume_from_crash
+"
+false
+)
+;
