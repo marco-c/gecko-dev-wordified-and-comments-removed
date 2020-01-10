@@ -689,6 +689,11 @@ mIsColumnBalancing
 1
 ;
 bool
+mColumnSetWrapperHasNoBSizeLeft
+:
+1
+;
+bool
 mIsFlexContainerMeasuringBSize
 :
 1
