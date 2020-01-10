@@ -211,8 +211,6 @@ isNullPrincipal
 |
 nodePrincipal
 .
-URI
-.
 schemeIs
 (
 "

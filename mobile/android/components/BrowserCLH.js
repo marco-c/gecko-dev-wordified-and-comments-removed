@@ -1084,7 +1084,6 @@ target
 nodePrincipal
 ;
 return
-(
 nodePrincipal
 .
 isNullPrincipal
@@ -1092,14 +1091,11 @@ isNullPrincipal
 |
 nodePrincipal
 .
-URI
-.
 schemeIs
 (
 "
 about
 "
-)
 )
 ;
 }
