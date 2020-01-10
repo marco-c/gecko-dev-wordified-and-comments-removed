@@ -57,8 +57,13 @@ __file__
 )
 from
 condprof
-import
+.
 check_install
+import
+check
+check
+(
+)
 from
 condprof
 .
