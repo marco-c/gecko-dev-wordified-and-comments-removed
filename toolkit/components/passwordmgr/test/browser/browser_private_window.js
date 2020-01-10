@@ -758,7 +758,7 @@ com
 {
 DIRECTORY_PATH
 }
-subtst_privbrowsing_2
+form_password_change
 .
 html
 ;
