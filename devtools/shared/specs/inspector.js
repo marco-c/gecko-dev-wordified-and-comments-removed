@@ -1683,6 +1683,17 @@ Arg
 boolean
 "
 )
+useNewBoxModelHighlighter
+:
+Arg
+(
+1
+"
+nullable
+:
+boolean
+"
+)
 }
 response
 :
