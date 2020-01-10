@@ -23911,6 +23911,10 @@ return
 rv
 ;
 }
+InvalidateQuotaCache
+(
+)
+;
 rv
 =
 lsArchiveFile
