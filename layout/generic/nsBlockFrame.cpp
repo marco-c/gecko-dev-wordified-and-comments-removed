@@ -3361,14 +3361,6 @@ if
 aMarkDirty
 )
 {
-aFrame
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 }
 nsContainerFrame
 :
@@ -15458,9 +15450,8 @@ n
 f
 -
 >
-AddStateBits
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -15505,9 +15496,8 @@ fc
 mFloat
 -
 >
-AddStateBits
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 }

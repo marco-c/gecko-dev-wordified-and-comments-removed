@@ -6086,6 +6086,11 @@ MarkIntrinsicISizesDirty
 =
 0
 ;
+void
+MarkSubtreeDirty
+(
+)
+;
 virtual
 nscoord
 GetMinISize

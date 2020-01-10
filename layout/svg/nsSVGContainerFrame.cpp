@@ -1538,16 +1538,6 @@ then
 "
 )
 ;
-kid
--
->
-AddStateBits
-(
-mState
-&
-NS_FRAME_IS_DIRTY
-)
-;
 SVGFrame
 -
 >

@@ -1003,10 +1003,15 @@ Reset
 labelFrame
 -
 >
+MarkSubtreeDirty
+(
+)
+;
+labelFrame
+-
+>
 AddStateBits
 (
-NS_FRAME_IS_DIRTY
-|
 NS_BLOCK_NEEDS_BIDI_RESOLUTION
 )
 ;

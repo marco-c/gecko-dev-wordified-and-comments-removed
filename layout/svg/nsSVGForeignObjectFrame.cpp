@@ -1849,9 +1849,8 @@ FirstChild
 kid
 -
 >
-AddStateBits
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 nsPresContext

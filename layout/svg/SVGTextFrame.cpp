@@ -9874,9 +9874,11 @@ NS_FRAME_IS_NONDISPLAY
 "
 )
 ;
-AddStateBits
+this
+-
+>
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 SVGObserverUtils
@@ -20150,9 +20152,8 @@ NS_FRAME_IS_DIRTY
 kid
 -
 >
-AddStateBits
+MarkSubtreeDirty
 (
-NS_FRAME_IS_DIRTY
 )
 ;
 }
