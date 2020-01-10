@@ -449,7 +449,7 @@ SensorType
 i
 )
 ;
-InfallibleTArray
+nsTArray
 <
 float
 >

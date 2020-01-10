@@ -64,7 +64,7 @@ window
 WindowIdentifier
 (
 const
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
@@ -76,7 +76,7 @@ window
 )
 ;
 typedef
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >

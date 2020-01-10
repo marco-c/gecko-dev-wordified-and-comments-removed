@@ -252,7 +252,7 @@ v
 HRESULT
 hr
 ;
-InfallibleTArray
+nsTArray
 <
 float
 >
