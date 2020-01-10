@@ -38,7 +38,6 @@ const
 getBindingElementAndPseudo
 getCSSStyleRules
 l10n
-hasVisitedState
 isAgentStylesheet
 isAuthorStylesheet
 isUserStylesheet
@@ -2214,12 +2213,6 @@ return
 href
 ;
 }
-;
-CssLogic
-.
-hasVisitedState
-=
-hasVisitedState
 ;
 function
 CssSheet
