@@ -180,6 +180,11 @@ cx
 ReadableStreamUnderlyingSource
 *
 underlyingSource
+void
+*
+nsISupportsObject_alreadyAddreffed
+=
+nullptr
 HandleObject
 proto
 =

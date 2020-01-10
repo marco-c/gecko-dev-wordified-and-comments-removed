@@ -2261,6 +2261,9 @@ JS
 ReadableStreamUnderlyingSource
 *
 source
+void
+*
+nsISupportsObject_alreadyAddreffed
 HandleObject
 proto
 )
@@ -2276,6 +2279,7 @@ cx
 create
 (
 cx
+nsISupportsObject_alreadyAddreffed
 proto
 )
 )
@@ -2541,6 +2545,7 @@ ReadableStream
 create
 (
 cx
+nullptr
 proto
 )
 )
@@ -3601,7 +3606,9 @@ ReadableStream
 0
 SlotCount
 0
-0
+JSCLASS_PRIVATE_IS_NSISUPPORTS
+|
+JSCLASS_HAS_PRIVATE
 JS_NULL_CLASS_OPS
 )
 ;
@@ -3722,6 +3729,7 @@ ReadableStream
 create
 (
 cx
+nullptr
 proto
 )
 )
@@ -3771,6 +3779,9 @@ create
 JSContext
 *
 cx
+void
+*
+nsISupportsObject_alreadyAddreffed
 HandleObject
 proto
 )
@@ -3803,6 +3814,12 @@ return
 nullptr
 ;
 }
+JS_SetPrivate
+(
+stream
+nsISupportsObject_alreadyAddreffed
+)
+;
 stream
 -
 >
@@ -16479,6 +16496,9 @@ JS
 ReadableStreamUnderlyingSource
 *
 underlyingSource
+void
+*
+nsISupportsObject_alreadyAddreffed
 HandleObject
 proto
 )
@@ -16553,6 +16573,7 @@ createExternalSourceStream
 (
 cx
 underlyingSource
+nsISupportsObject_alreadyAddreffed
 proto
 )
 ;
