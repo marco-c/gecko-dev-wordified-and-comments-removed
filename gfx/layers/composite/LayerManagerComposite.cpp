@@ -6583,10 +6583,10 @@ MOZ_WIDGET_ANDROID
 )
 if
 (
-jni
+AndroidDynamicToolbarAnimator
 :
 :
-IsFennec
+IsEnabled
 (
 )
 )
@@ -7454,10 +7454,10 @@ result
 if
 (
 !
-jni
+AndroidDynamicToolbarAnimator
 :
 :
-IsFennec
+IsEnabled
 (
 )
 )
