@@ -248,10 +248,7 @@ NS_NavBookmarksTotalSyncChanges
 )
 -
 >
-libc
-:
-:
-int64_t
+i64
 ;
 }
 fn
