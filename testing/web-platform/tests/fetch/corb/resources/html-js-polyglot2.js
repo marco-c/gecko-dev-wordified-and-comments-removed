@@ -17,10 +17,8 @@ javascript
 '
 >
 window
-.
-polyglot
-=
-"
+[
+'
 html
 -
 js
@@ -28,7 +26,10 @@ js
 polyglot2
 .
 js
-"
+'
+]
+=
+true
 ;
 /
 /
