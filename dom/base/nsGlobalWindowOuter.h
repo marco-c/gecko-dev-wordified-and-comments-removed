@@ -3823,16 +3823,6 @@ nsGlobalWindowInner
 aExpectedInner
 )
 ;
-static
-nsGlobalWindowInner
-*
-CallerInnerWindow
-(
-JSContext
-*
-aCx
-)
-;
 nsPIDOMWindowOuter
 *
 GetInProcessParentInternal

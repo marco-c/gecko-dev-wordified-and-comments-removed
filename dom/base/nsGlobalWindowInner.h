@@ -5818,6 +5818,15 @@ IsInSyncOperation
 )
 ;
 }
+bool
+CanShareMemory
+(
+const
+nsID
+&
+aAgentClusterId
+)
+;
 protected
 :
 void

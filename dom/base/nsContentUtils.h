@@ -6848,6 +6848,16 @@ Document
 aDocument
 )
 ;
+static
+nsGlobalWindowInner
+*
+CallerInnerWindow
+(
+JSContext
+*
+aCx
+)
+;
 private
 :
 static
