@@ -269,7 +269,7 @@ getBoolPref
 "
 devtools
 .
-browserconsole
+browsertoolbox
 .
 fission
 "
