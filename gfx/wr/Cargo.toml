@@ -75,4 +75,9 @@ branch
 "
 deserialize_from_enums10
 "
+feature
+=
+"
+deserialize_in_place
+"
 }
