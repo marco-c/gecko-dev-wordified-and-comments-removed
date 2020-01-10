@@ -97,6 +97,11 @@ if
 mIsLost
 )
 {
+if
+(
+mContext
+)
+{
 mContext
 -
 >
@@ -116,6 +121,7 @@ drawArraysInstancedANGLE
 "
 )
 ;
+}
 return
 ;
 }
@@ -154,6 +160,11 @@ if
 mIsLost
 )
 {
+if
+(
+mContext
+)
+{
 mContext
 -
 >
@@ -173,6 +184,7 @@ drawElementsInstancedANGLE
 "
 )
 ;
+}
 return
 ;
 }
@@ -206,6 +218,11 @@ if
 mIsLost
 )
 {
+if
+(
+mContext
+)
+{
 mContext
 -
 >
@@ -225,6 +242,7 @@ vertexAttribDivisorANGLE
 "
 )
 ;
+}
 return
 ;
 }

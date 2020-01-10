@@ -173,6 +173,10 @@ const
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 ;
@@ -226,6 +230,10 @@ const
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 false
@@ -282,6 +290,10 @@ const
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 ;
@@ -334,6 +346,10 @@ const
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 ;
@@ -388,6 +404,10 @@ const
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 ;
@@ -470,6 +490,10 @@ setNull
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 ;
@@ -542,6 +566,10 @@ setNull
 if
 (
 mIsLost
+|
+|
+!
+mContext
 )
 return
 ;

@@ -433,6 +433,11 @@ if
 mIsLost
 )
 {
+if
+(
+mContext
+)
+{
 mContext
 -
 >
@@ -452,6 +457,7 @@ drawElementsInstancedANGLE
 "
 )
 ;
+}
 return
 ;
 }
