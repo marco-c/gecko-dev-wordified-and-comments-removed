@@ -485,12 +485,6 @@ InitializeUserPrefs
 )
 ;
 static
-void
-RefreshStaticPrefsValues
-(
-)
-;
-static
 already_AddRefed
 <
 Preferences
