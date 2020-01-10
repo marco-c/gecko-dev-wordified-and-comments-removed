@@ -136,7 +136,7 @@ durationMs
 StaticPrefs
 :
 :
-APZVelocityRelevanceTime
+apz_velocity_relevance_time_ms
 (
 )
 )
@@ -323,7 +323,7 @@ timeDelta
 StaticPrefs
 :
 :
-APZVelocityRelevanceTime
+apz_velocity_relevance_time_ms
 (
 )
 )

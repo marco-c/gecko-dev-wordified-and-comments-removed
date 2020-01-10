@@ -641,7 +641,7 @@ if
 StaticPrefs
 :
 :
-APZKeyboardPassiveListeners
+apz_keyboard_passive_listeners
 (
 )
 )

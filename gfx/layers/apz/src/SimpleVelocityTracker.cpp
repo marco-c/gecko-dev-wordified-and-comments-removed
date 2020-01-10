@@ -365,7 +365,7 @@ timeDelta
 StaticPrefs
 :
 :
-APZVelocityRelevanceTime
+apz_velocity_relevance_time_ms
 (
 )
 )
@@ -461,7 +461,7 @@ Length
 StaticPrefs
 :
 :
-APZMaxVelocityQueueSize
+apz_max_velocity_queue_size
 (
 )
 )
@@ -496,7 +496,7 @@ if
 StaticPrefs
 :
 :
-APZMaxVelocity
+apz_max_velocity_inches_per_ms
 (
 )
 >
@@ -532,7 +532,7 @@ ToLocalVelocity
 StaticPrefs
 :
 :
-APZMaxVelocity
+apz_max_velocity_inches_per_ms
 (
 )
 )
@@ -553,7 +553,7 @@ if
 StaticPrefs
 :
 :
-APZCurveThreshold
+apz_fling_curve_threshold_inches_per_ms
 (
 )
 >
@@ -565,14 +565,14 @@ APZCurveThreshold
 StaticPrefs
 :
 :
-APZCurveThreshold
+apz_fling_curve_threshold_inches_per_ms
 (
 )
 <
 StaticPrefs
 :
 :
-APZMaxVelocity
+apz_max_velocity_inches_per_ms
 (
 )
 )
@@ -588,7 +588,7 @@ ToLocalVelocity
 StaticPrefs
 :
 :
-APZCurveThreshold
+apz_fling_curve_threshold_inches_per_ms
 (
 )
 )

@@ -6404,7 +6404,7 @@ if
 StaticPrefs
 :
 :
-APZFixedMarginOverrideEnabled
+apz_fixed_margin_override_enabled
 (
 )
 )
@@ -6416,7 +6416,7 @@ top
 StaticPrefs
 :
 :
-APZFixedMarginOverrideTop
+apz_fixed_margin_override_top
 (
 )
 ;
@@ -6427,7 +6427,7 @@ bottom
 StaticPrefs
 :
 :
-APZFixedMarginOverrideBottom
+apz_fixed_margin_override_bottom
 (
 )
 ;

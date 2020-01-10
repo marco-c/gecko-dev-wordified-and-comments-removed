@@ -1248,7 +1248,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-APZZoomAnimationDuration
+apz_zoom_animation_duration_ms
 (
 )
 )
@@ -2093,25 +2093,25 @@ nsTimingFunction
 StaticPrefs
 :
 :
-APZCurveFunctionX1
+apz_fling_curve_function_x1
 (
 )
 StaticPrefs
 :
 :
-APZCurveFunctionY1
+apz_fling_curve_function_y1
 (
 )
 StaticPrefs
 :
 :
-APZCurveFunctionX2
+apz_fling_curve_function_x2
 (
 )
 StaticPrefs
 :
 :
-APZCurveFunctionY2
+apz_fling_curve_function_y2
 (
 )
 )
@@ -2244,7 +2244,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-APZPinchLockBufferMaxAge
+apz_pinch_lock_buffer_max_age
 (
 )
 )
@@ -2657,7 +2657,7 @@ return
 StaticPrefs
 :
 :
-APZTouchStartTolerance
+apz_touch_start_tolerance
 (
 )
 *
@@ -2681,7 +2681,7 @@ return
 StaticPrefs
 :
 :
-APZTouchMoveTolerance
+apz_touch_move_tolerance
 (
 )
 *
@@ -2705,7 +2705,7 @@ return
 StaticPrefs
 :
 :
-APZSecondTapTolerance
+apz_second_tap_tolerance
 (
 )
 *
@@ -2735,7 +2735,7 @@ AxisLockMode
 StaticPrefs
 :
 :
-APZAxisLockMode
+apz_axis_lock_mode
 (
 )
 )
@@ -2761,7 +2761,7 @@ PinchLockMode
 StaticPrefs
 :
 :
-APZPinchLockMode
+apz_pinch_lock_mode
 (
 )
 )
@@ -2989,7 +2989,7 @@ if
 StaticPrefs
 :
 :
-APZDragEnabled
+apz_drag_enabled
 (
 )
 )
@@ -5408,7 +5408,7 @@ if
 StaticPrefs
 :
 :
-APZAllowZooming
+apz_allow_zooming
 (
 )
 )
@@ -5627,7 +5627,7 @@ if
 StaticPrefs
 :
 :
-APZAllowZooming
+apz_allow_zooming
 (
 )
 )
@@ -6087,7 +6087,7 @@ delay
 StaticPrefs
 :
 :
-APZScaleRepaintDelay
+apz_scale_repaint_delay_ms
 (
 )
 ;
@@ -6233,7 +6233,7 @@ if
 StaticPrefs
 :
 :
-APZAllowZooming
+apz_allow_zooming
 (
 )
 )
@@ -6584,7 +6584,7 @@ value
 StaticPrefs
 :
 :
-APZFlingMinVelocityThreshold
+apz_fling_min_velocity_threshold
 (
 )
 )
@@ -6600,7 +6600,7 @@ Length
 StaticPrefs
 :
 :
-APZFlingMinVelocityThreshold
+apz_fling_min_velocity_threshold
 (
 )
 )
@@ -8594,7 +8594,7 @@ if
 StaticPrefs
 :
 :
-APZAllowImmediateHandoff
+apz_allow_immediate_handoff
 (
 )
 )
@@ -11793,7 +11793,7 @@ aAngle
 StaticPrefs
 :
 :
-APZAxisLockAngle
+apz_axis_lock_lock_angle
 (
 )
 )
@@ -11824,7 +11824,7 @@ aAngle
 StaticPrefs
 :
 :
-APZAxisLockAngle
+apz_axis_lock_lock_angle
 (
 )
 )
@@ -11900,7 +11900,7 @@ aAngle
 StaticPrefs
 :
 :
-APZAllowedDirectPanAngle
+apz_axis_lock_direct_pan_angle
 (
 )
 )
@@ -11956,7 +11956,7 @@ aAngle
 StaticPrefs
 :
 :
-APZAllowedDirectPanAngle
+apz_axis_lock_direct_pan_angle
 (
 )
 )
@@ -12133,7 +12133,7 @@ aAngle
 StaticPrefs
 :
 :
-APZAxisLockAngle
+apz_axis_lock_lock_angle
 (
 )
 )
@@ -12170,7 +12170,7 @@ aAngle
 StaticPrefs
 :
 :
-APZAxisLockAngle
+apz_axis_lock_lock_angle
 (
 )
 )
@@ -12265,7 +12265,7 @@ breakThreshold
 StaticPrefs
 :
 :
-APZAxisBreakoutThreshold
+apz_axis_lock_breakout_threshold
 (
 )
 *
@@ -12315,7 +12315,7 @@ angle
 StaticPrefs
 :
 :
-APZAxisBreakoutAngle
+apz_axis_lock_breakout_angle
 (
 )
 )
@@ -12356,7 +12356,7 @@ angle
 StaticPrefs
 :
 :
-APZAxisBreakoutAngle
+apz_axis_lock_breakout_angle
 (
 )
 )
@@ -12533,7 +12533,7 @@ spanBreakoutThreshold
 StaticPrefs
 :
 :
-APZPinchLockSpanBreakoutThreshold
+apz_pinch_lock_span_breakout_threshold
 (
 )
 *
@@ -12570,7 +12570,7 @@ spanLockThreshold
 StaticPrefs
 :
 :
-APZPinchLockSpanLockThreshold
+apz_pinch_lock_span_lock_threshold
 (
 )
 *
@@ -12584,7 +12584,7 @@ scrollLockThreshold
 StaticPrefs
 :
 :
-APZPinchLockScrollLockThreshold
+apz_pinch_lock_scroll_lock_threshold
 (
 )
 *
@@ -13284,7 +13284,7 @@ x
 StaticPrefs
 :
 :
-APZMinPanDistanceRatio
+apz_overscroll_min_pan_distance_ratio
 (
 )
 *
@@ -13309,7 +13309,7 @@ y
 StaticPrefs
 :
 :
-APZMinPanDistanceRatio
+apz_overscroll_min_pan_distance_ratio
 (
 )
 *
@@ -13349,7 +13349,7 @@ if
 StaticPrefs
 :
 :
-APZOverscrollEnabled
+apz_overscroll_enabled
 (
 )
 )
@@ -13682,7 +13682,7 @@ Length
 StaticPrefs
 :
 :
-APZFlingMinVelocityThreshold
+apz_fling_min_velocity_threshold
 (
 )
 )
@@ -13993,7 +13993,7 @@ IsPannable
 StaticPrefs
 :
 :
-APZOverscrollEnabled
+apz_overscroll_enabled
 (
 )
 )
@@ -15228,7 +15228,7 @@ x
 StaticPrefs
 :
 :
-APZMinSkateSpeed
+apz_min_skate_speed
 (
 )
 ;
@@ -15245,7 +15245,7 @@ y
 StaticPrefs
 :
 :
-APZMinSkateSpeed
+apz_min_skate_speed
 (
 )
 ;
@@ -15257,14 +15257,14 @@ xIsStationarySpeed
 StaticPrefs
 :
 :
-APZXStationarySizeMultiplier
+apz_x_stationary_size_multiplier
 (
 )
 :
 StaticPrefs
 :
 :
-APZXSkateSizeMultiplier
+apz_x_skate_size_multiplier
 (
 )
 ;
@@ -15276,14 +15276,14 @@ yIsStationarySpeed
 StaticPrefs
 :
 :
-APZYStationarySizeMultiplier
+apz_y_stationary_size_multiplier
 (
 )
 :
 StaticPrefs
 :
 :
-APZYSkateSizeMultiplier
+apz_y_skate_size_multiplier
 (
 )
 ;
@@ -15304,7 +15304,7 @@ xMultiplier
 StaticPrefs
 :
 :
-APZXSkateHighMemAdjust
+apz_x_skate_highmem_adjust
 (
 )
 ;
@@ -15326,7 +15326,7 @@ yMultiplier
 StaticPrefs
 :
 :
-APZYSkateHighMemAdjust
+apz_y_skate_highmem_adjust
 (
 )
 ;
@@ -15399,13 +15399,13 @@ LayerSize
 StaticPrefs
 :
 :
-APZDangerZoneX
+apz_danger_zone_x
 (
 )
 StaticPrefs
 :
 :
-APZDangerZoneY
+apz_danger_zone_y
 (
 )
 )
@@ -15684,7 +15684,7 @@ if
 StaticPrefs
 :
 :
-APZEnlargeDisplayPortWhenClipped
+apz_enlarge_displayport_when_clipped
 (
 )
 )
@@ -15749,7 +15749,7 @@ paintFactor
 StaticPrefs
 :
 :
-APZVelocityBias
+apz_velocity_bias
 (
 )
 )
@@ -16080,7 +16080,7 @@ Length
 StaticPrefs
 :
 :
-APZFlingStopOnTapThreshold
+apz_fling_stop_on_tap_threshold
 (
 )
 )
@@ -17654,7 +17654,7 @@ return
 StaticPrefs
 :
 :
-APZAllowZooming
+apz_allow_zooming
 (
 )
 &
@@ -17797,7 +17797,7 @@ if
 StaticPrefs
 :
 :
-APZFrameDelayEnabled
+apz_frame_delay_enabled
 (
 )
 &
@@ -17838,7 +17838,7 @@ if
 StaticPrefs
 :
 :
-APZFrameDelayEnabled
+apz_frame_delay_enabled
 (
 )
 &
@@ -17879,7 +17879,7 @@ if
 StaticPrefs
 :
 :
-APZFrameDelayEnabled
+apz_frame_delay_enabled
 (
 )
 &
@@ -18357,7 +18357,7 @@ recordTrace
 StaticPrefs
 :
 :
-APZRecordCheckerboarding
+apz_record_checkerboarding
 (
 )
 ;
@@ -18553,7 +18553,7 @@ if
 StaticPrefs
 :
 :
-APZRecordCheckerboarding
+apz_record_checkerboarding
 (
 )
 )
@@ -20052,7 +20052,7 @@ if
 StaticPrefs
 :
 :
-APZRelativeUpdate
+apz_relative_update_enabled
 (
 )
 &
@@ -20389,7 +20389,7 @@ if
 StaticPrefs
 :
 :
-APZRelativeUpdate
+apz_relative_update_enabled
 (
 )
 &
@@ -23182,7 +23182,7 @@ friction
 StaticPrefs
 :
 :
-APZFlingFriction
+apz_fling_friction
 (
 )
 ;

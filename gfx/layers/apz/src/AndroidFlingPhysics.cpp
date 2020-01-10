@@ -97,7 +97,7 @@ return
 StaticPrefs
 :
 :
-APZChromeFlingPhysicsFriction
+apz_android_chrome_fling_physics_friction
 (
 )
 ;
@@ -115,7 +115,7 @@ inflexion
 StaticPrefs
 :
 :
-APZChromeFlingPhysicsInflexion
+apz_android_chrome_fling_physics_inflexion
 (
 )
 ;
@@ -163,7 +163,7 @@ return
 StaticPrefs
 :
 :
-APZChromeFlingPhysicsStopThreshold
+apz_android_chrome_fling_physics_stop_threshold
 (
 )
 ;

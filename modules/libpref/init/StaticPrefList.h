@@ -35,7 +35,7 @@ accessibility
 .
 browsewithcaret
 "
-AccessibilityBrowseWithCaret
+accessibility_browsewithcaret
 RelaxedAtomicBool
 false
 )
@@ -47,7 +47,7 @@ apz
 .
 allow_double_tap_zooming
 "
-APZAllowDoubleTapZooming
+apz_allow_double_tap_zooming
 RelaxedAtomicBool
 true
 )
@@ -59,7 +59,7 @@ apz
 .
 allow_immediate_handoff
 "
-APZAllowImmediateHandoff
+apz_allow_immediate_handoff
 RelaxedAtomicBool
 true
 )
@@ -71,7 +71,7 @@ apz
 .
 allow_zooming
 "
-APZAllowZooming
+apz_allow_zooming
 RelaxedAtomicBool
 false
 )
@@ -87,7 +87,7 @@ chrome_fling_physics
 .
 enabled
 "
-APZUseChromeFlingPhysics
+apz_android_chrome_fling_physics_enabled
 RelaxedAtomicBool
 false
 )
@@ -103,7 +103,7 @@ chrome_fling_physics
 .
 friction
 "
-APZChromeFlingPhysicsFriction
+apz_android_chrome_fling_physics_friction
 AtomicFloat
 0
 .
@@ -121,7 +121,7 @@ chrome_fling_physics
 .
 inflexion
 "
-APZChromeFlingPhysicsInflexion
+apz_android_chrome_fling_physics_inflexion
 AtomicFloat
 0
 .
@@ -139,7 +139,7 @@ chrome_fling_physics
 .
 stop_threshold
 "
-APZChromeFlingPhysicsStopThreshold
+apz_android_chrome_fling_physics_stop_threshold
 AtomicFloat
 0
 .
@@ -155,7 +155,7 @@ autoscroll
 .
 enabled
 "
-APZAutoscrollEnabled
+apz_autoscroll_enabled
 RelaxedAtomicBool
 false
 )
@@ -169,7 +169,7 @@ axis_lock
 .
 breakout_angle
 "
-APZAxisBreakoutAngle
+apz_axis_lock_breakout_angle
 AtomicFloat
 float
 (
@@ -190,7 +190,7 @@ axis_lock
 .
 breakout_threshold
 "
-APZAxisBreakoutThreshold
+apz_axis_lock_breakout_threshold
 AtomicFloat
 1
 .
@@ -210,7 +210,7 @@ axis_lock
 .
 direct_pan_angle
 "
-APZAllowedDirectPanAngle
+apz_axis_lock_direct_pan_angle
 AtomicFloat
 float
 (
@@ -231,7 +231,7 @@ axis_lock
 .
 lock_angle
 "
-APZAxisLockAngle
+apz_axis_lock_lock_angle
 AtomicFloat
 float
 (
@@ -252,7 +252,7 @@ axis_lock
 .
 mode
 "
-APZAxisLockMode
+apz_axis_lock_mode
 RelaxedAtomicInt32
 0
 )
@@ -264,7 +264,7 @@ apz
 .
 content_response_timeout
 "
-APZContentResponseTimeout
+apz_content_response_timeout
 RelaxedAtomicInt32
 400
 )
@@ -276,7 +276,7 @@ apz
 .
 danger_zone_x
 "
-APZDangerZoneX
+apz_danger_zone_x
 RelaxedAtomicInt32
 50
 )
@@ -288,7 +288,7 @@ apz
 .
 danger_zone_y
 "
-APZDangerZoneY
+apz_danger_zone_y
 RelaxedAtomicInt32
 100
 )
@@ -300,7 +300,7 @@ apz
 .
 disable_for_scroll_linked_effects
 "
-APZDisableForScrollLinkedEffects
+apz_disable_for_scroll_linked_effects
 RelaxedAtomicBool
 false
 )
@@ -312,7 +312,7 @@ apz
 .
 displayport_expiry_ms
 "
-APZDisplayPortExpiryTime
+apz_displayport_expiry_ms
 RelaxedAtomicUint32
 15000
 )
@@ -326,7 +326,7 @@ drag
 .
 enabled
 "
-APZDragEnabled
+apz_drag_enabled
 RelaxedAtomicBool
 false
 )
@@ -342,7 +342,7 @@ initial
 .
 enabled
 "
-APZDragInitiationEnabled
+apz_drag_initial_enabled
 RelaxedAtomicBool
 false
 )
@@ -358,7 +358,7 @@ touch
 .
 enabled
 "
-APZTouchDragEnabled
+apz_touch_drag_enabled
 RelaxedAtomicBool
 false
 )
@@ -370,7 +370,7 @@ apz
 .
 enlarge_displayport_when_clipped
 "
-APZEnlargeDisplayPortWhenClipped
+apz_enlarge_displayport_when_clipped
 RelaxedAtomicBool
 false
 )
@@ -388,7 +388,7 @@ override
 .
 enabled
 "
-APZFixedMarginOverrideEnabled
+apz_fixed_margin_override_enabled
 RelaxedAtomicBool
 false
 )
@@ -406,7 +406,7 @@ override
 .
 bottom
 "
-APZFixedMarginOverrideBottom
+apz_fixed_margin_override_bottom
 RelaxedAtomicInt32
 0
 )
@@ -424,7 +424,7 @@ override
 .
 top
 "
-APZFixedMarginOverrideTop
+apz_fixed_margin_override_top
 RelaxedAtomicInt32
 0
 )
@@ -436,7 +436,7 @@ apz
 .
 fling_accel_base_mult
 "
-APZFlingAccelBaseMultiplier
+apz_fling_accel_base_mult
 AtomicFloat
 1
 .
@@ -450,7 +450,7 @@ apz
 .
 fling_accel_interval_ms
 "
-APZFlingAccelInterval
+apz_fling_accel_interval_ms
 RelaxedAtomicInt32
 500
 )
@@ -462,7 +462,7 @@ apz
 .
 fling_accel_supplemental_mult
 "
-APZFlingAccelSupplementalMultiplier
+apz_fling_accel_supplemental_mult
 AtomicFloat
 1
 .
@@ -476,7 +476,7 @@ apz
 .
 fling_accel_min_velocity
 "
-APZFlingAccelMinVelocity
+apz_fling_accel_min_velocity
 AtomicFloat
 1
 .
@@ -490,7 +490,7 @@ apz
 .
 fling_curve_function_x1
 "
-APZCurveFunctionX1
+apz_fling_curve_function_x1
 float
 0
 .
@@ -504,7 +504,7 @@ apz
 .
 fling_curve_function_x2
 "
-APZCurveFunctionX2
+apz_fling_curve_function_x2
 float
 1
 .
@@ -518,7 +518,7 @@ apz
 .
 fling_curve_function_y1
 "
-APZCurveFunctionY1
+apz_fling_curve_function_y1
 float
 0
 .
@@ -532,7 +532,7 @@ apz
 .
 fling_curve_function_y2
 "
-APZCurveFunctionY2
+apz_fling_curve_function_y2
 float
 1
 .
@@ -546,7 +546,7 @@ apz
 .
 fling_curve_threshold_inches_per_ms
 "
-APZCurveThreshold
+apz_fling_curve_threshold_inches_per_ms
 AtomicFloat
 -
 1
@@ -561,7 +561,7 @@ apz
 .
 fling_friction
 "
-APZFlingFriction
+apz_fling_friction
 AtomicFloat
 0
 .
@@ -575,7 +575,7 @@ apz
 .
 fling_min_velocity_threshold
 "
-APZFlingMinVelocityThreshold
+apz_fling_min_velocity_threshold
 AtomicFloat
 0
 .
@@ -589,7 +589,7 @@ apz
 .
 fling_stop_on_tap_threshold
 "
-APZFlingStopOnTapThreshold
+apz_fling_stop_on_tap_threshold
 AtomicFloat
 0
 .
@@ -603,7 +603,7 @@ apz
 .
 fling_stopped_threshold
 "
-APZFlingStoppedThreshold
+apz_fling_stopped_threshold
 AtomicFloat
 0
 .
@@ -619,7 +619,7 @@ frame_delay
 .
 enabled
 "
-APZFrameDelayEnabled
+apz_frame_delay_enabled
 RelaxedAtomicBool
 false
 )
@@ -638,7 +638,7 @@ kinetic_scroll
 .
 enabled
 "
-APZGTKKineticScrollEnabled
+apz_gtk_kinetic_scroll_enabled
 RelaxedAtomicBool
 false
 )
@@ -673,7 +673,7 @@ keyboard
 .
 enabled
 "
-APZKeyboardEnabled
+apz_keyboard_enabled
 bool
 PREF_VALUE
 )
@@ -692,7 +692,7 @@ passive
 -
 listeners
 "
-APZKeyboardPassiveListeners
+apz_keyboard_passive_listeners
 RelaxedAtomicBool
 false
 )
@@ -704,7 +704,7 @@ apz
 .
 max_tap_time
 "
-APZMaxTapTime
+apz_max_tap_time
 RelaxedAtomicInt32
 300
 )
@@ -716,7 +716,7 @@ apz
 .
 max_velocity_inches_per_ms
 "
-APZMaxVelocity
+apz_max_velocity_inches_per_ms
 AtomicFloat
 -
 1
@@ -731,7 +731,7 @@ apz
 .
 max_velocity_queue_size
 "
-APZMaxVelocityQueueSize
+apz_max_velocity_queue_size
 uint32_t
 5
 )
@@ -743,7 +743,7 @@ apz
 .
 min_skate_speed
 "
-APZMinSkateSpeed
+apz_min_skate_speed
 AtomicFloat
 1
 .
@@ -759,7 +759,7 @@ minimap
 .
 enabled
 "
-APZMinimap
+apz_minimap_enabled
 RelaxedAtomicBool
 false
 )
@@ -773,7 +773,7 @@ one_touch_pinch
 .
 enabled
 "
-APZOneTouchPinchEnabled
+apz_one_touch_pinch_enabled
 RelaxedAtomicBool
 true
 )
@@ -787,7 +787,7 @@ overscroll
 .
 enabled
 "
-APZOverscrollEnabled
+apz_overscroll_enabled
 RelaxedAtomicBool
 false
 )
@@ -801,7 +801,7 @@ overscroll
 .
 min_pan_distance_ratio
 "
-APZMinPanDistanceRatio
+apz_overscroll_min_pan_distance_ratio
 AtomicFloat
 1
 .
@@ -817,7 +817,7 @@ overscroll
 .
 spring_stiffness
 "
-APZOverscrollSpringStiffness
+apz_overscroll_spring_stiffness
 AtomicFloat
 0
 .
@@ -833,7 +833,7 @@ overscroll
 .
 stop_distance_threshold
 "
-APZOverscrollStopDistanceThreshold
+apz_overscroll_stop_distance_threshold
 AtomicFloat
 5
 .
@@ -849,7 +849,7 @@ paint_skipping
 .
 enabled
 "
-APZPaintSkipping
+apz_paint_skipping_enabled
 RelaxedAtomicBool
 true
 )
@@ -863,7 +863,7 @@ peek_messages
 .
 enabled
 "
-APZPeekMessages
+apz_peek_messages_enabled
 RelaxedAtomicBool
 true
 )
@@ -877,7 +877,7 @@ pinch_lock
 .
 mode
 "
-APZPinchLockMode
+apz_pinch_lock_mode
 RelaxedAtomicInt32
 1
 )
@@ -891,7 +891,7 @@ pinch_lock
 .
 scroll_lock_threshold
 "
-APZPinchLockScrollLockThreshold
+apz_pinch_lock_scroll_lock_threshold
 AtomicFloat
 1
 .
@@ -911,7 +911,7 @@ pinch_lock
 .
 span_breakout_threshold
 "
-APZPinchLockSpanBreakoutThreshold
+apz_pinch_lock_span_breakout_threshold
 AtomicFloat
 1
 .
@@ -931,7 +931,7 @@ pinch_lock
 .
 span_lock_threshold
 "
-APZPinchLockSpanLockThreshold
+apz_pinch_lock_span_lock_threshold
 AtomicFloat
 1
 .
@@ -951,7 +951,7 @@ pinch_lock
 .
 buffer_max_age
 "
-APZPinchLockBufferMaxAge
+apz_pinch_lock_buffer_max_age
 int32_t
 50
 )
@@ -965,7 +965,7 @@ popups
 .
 enabled
 "
-APZPopupsEnabled
+apz_popups_enabled
 RelaxedAtomicBool
 false
 )
@@ -977,7 +977,7 @@ apz
 .
 printtree
 "
-APZPrintTree
+apz_printtree
 RelaxedAtomicBool
 false
 )
@@ -989,7 +989,7 @@ apz
 .
 record_checkerboarding
 "
-APZRecordCheckerboarding
+apz_record_checkerboarding
 RelaxedAtomicBool
 false
 )
@@ -1001,7 +1001,7 @@ apz
 .
 second_tap_tolerance
 "
-APZSecondTapTolerance
+apz_second_tap_tolerance
 AtomicFloat
 0
 .
@@ -1017,7 +1017,7 @@ test
 .
 fails_with_native_injection
 "
-APZTestFailsWithNativeInjection
+apz_test_fails_with_native_injection
 RelaxedAtomicBool
 false
 )
@@ -1043,7 +1043,7 @@ apz
 .
 touch_move_tolerance
 "
-APZTouchMoveTolerance
+apz_touch_move_tolerance
 AtomicFloat
 0
 .
@@ -1057,7 +1057,7 @@ apz
 .
 touch_start_tolerance
 "
-APZTouchStartTolerance
+apz_touch_start_tolerance
 AtomicFloat
 1
 .
@@ -1075,7 +1075,7 @@ apz
 .
 velocity_bias
 "
-APZVelocityBias
+apz_velocity_bias
 AtomicFloat
 0
 .
@@ -1089,7 +1089,7 @@ apz
 .
 velocity_relevance_time_ms
 "
-APZVelocityRelevanceTime
+apz_velocity_relevance_time_ms
 RelaxedAtomicUint32
 150
 )
@@ -1101,7 +1101,7 @@ apz
 .
 x_skate_highmem_adjust
 "
-APZXSkateHighMemAdjust
+apz_x_skate_highmem_adjust
 AtomicFloat
 0
 .
@@ -1115,7 +1115,7 @@ apz
 .
 x_skate_size_multiplier
 "
-APZXSkateSizeMultiplier
+apz_x_skate_size_multiplier
 AtomicFloat
 1
 .
@@ -1129,7 +1129,7 @@ apz
 .
 x_stationary_size_multiplier
 "
-APZXStationarySizeMultiplier
+apz_x_stationary_size_multiplier
 AtomicFloat
 3
 .
@@ -1143,7 +1143,7 @@ apz
 .
 y_skate_highmem_adjust
 "
-APZYSkateHighMemAdjust
+apz_y_skate_highmem_adjust
 AtomicFloat
 0
 .
@@ -1157,7 +1157,7 @@ apz
 .
 y_skate_size_multiplier
 "
-APZYSkateSizeMultiplier
+apz_y_skate_size_multiplier
 AtomicFloat
 2
 .
@@ -1171,7 +1171,7 @@ apz
 .
 y_stationary_size_multiplier
 "
-APZYStationarySizeMultiplier
+apz_y_stationary_size_multiplier
 AtomicFloat
 3
 .
@@ -1185,7 +1185,7 @@ apz
 .
 zoom_animation_duration_ms
 "
-APZZoomAnimationDuration
+apz_zoom_animation_duration_ms
 RelaxedAtomicInt32
 250
 )
@@ -1197,7 +1197,7 @@ apz
 .
 scale_repaint_delay_ms
 "
-APZScaleRepaintDelay
+apz_scale_repaint_delay_ms
 RelaxedAtomicInt32
 500
 )
@@ -1213,46 +1213,8 @@ update
 .
 enabled
 "
-APZRelativeUpdate
+apz_relative_update_enabled
 RelaxedAtomicBool
-false
-)
-VARCACHE_PREF
-(
-Live
-"
-full
--
-screen
--
-api
-.
-mouse
--
-event
--
-allow
--
-left
--
-button
--
-only
-"
-full_screen_api_mouse_event_allow_left_button_only
-bool
-true
-)
-VARCACHE_PREF
-(
-Live
-"
-dom
-.
-cross_origin_iframes_loaded_in_background
-"
-dom_cross_origin_iframes_loaded_in_background
-bool
 false
 )
 VARCACHE_PREF
@@ -5293,6 +5255,18 @@ VARCACHE_PREF
 (
 Live
 "
+dom
+.
+cross_origin_iframes_loaded_in_background
+"
+dom_cross_origin_iframes_loaded_in_background
+bool
+false
+)
+VARCACHE_PREF
+(
+Live
+"
 geo
 .
 enabled
@@ -5434,6 +5408,32 @@ requests
 only
 "
 full_screen_api_allow_trusted_requests_only
+bool
+true
+)
+VARCACHE_PREF
+(
+Live
+"
+full
+-
+screen
+-
+api
+.
+mouse
+-
+event
+-
+allow
+-
+left
+-
+button
+-
+only
+"
+full_screen_api_mouse_event_allow_left_button_only
 bool
 true
 )

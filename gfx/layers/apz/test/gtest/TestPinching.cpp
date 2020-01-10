@@ -844,7 +844,7 @@ panDistance
 StaticPrefs
 :
 :
-APZPinchLockScrollLockThreshold
+apz_pinch_lock_scroll_lock_threshold
 (
 )
 *
@@ -933,7 +933,7 @@ pinchDistance
 StaticPrefs
 :
 :
-APZPinchLockSpanBreakoutThreshold
+apz_pinch_lock_span_breakout_threshold
 (
 )
 *
@@ -1019,7 +1019,7 @@ pinchDistance
 StaticPrefs
 :
 :
-APZPinchLockSpanBreakoutThreshold
+apz_pinch_lock_span_breakout_threshold
 (
 )
 *

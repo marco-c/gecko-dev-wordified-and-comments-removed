@@ -315,7 +315,7 @@ if
 StaticPrefs
 :
 :
-APZAllowZooming
+apz_allow_zooming
 (
 )
 )

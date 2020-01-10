@@ -8074,7 +8074,7 @@ if
 StaticPrefs
 :
 :
-APZPeekMessages
+apz_peek_messages_enabled
 (
 )
 )

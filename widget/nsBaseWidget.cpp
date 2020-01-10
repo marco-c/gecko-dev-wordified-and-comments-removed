@@ -3756,7 +3756,7 @@ HasRemoteContent
 StaticPrefs
 :
 :
-APZPopupsEnabled
+apz_popups_enabled
 (
 )
 )
@@ -3940,7 +3940,7 @@ if
 StaticPrefs
 :
 :
-APZKeyboardEnabled
+apz_keyboard_enabled
 (
 )
 )

@@ -29035,7 +29035,7 @@ if
 StaticPrefs
 :
 :
-APZKeyboardEnabled
+apz_keyboard_enabled
 (
 )
 )

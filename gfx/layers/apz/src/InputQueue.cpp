@@ -1505,7 +1505,7 @@ return
 StaticPrefs
 :
 :
-APZKeyboardPassiveListeners
+apz_keyboard_passive_listeners
 (
 )
 ?
@@ -2700,7 +2700,7 @@ timeout
 StaticPrefs
 :
 :
-APZContentResponseTimeout
+apz_content_response_timeout
 (
 )
 ;

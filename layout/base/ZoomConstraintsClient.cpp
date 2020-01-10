@@ -1079,7 +1079,7 @@ mAllowZoom
 StaticPrefs
 :
 :
-APZAllowDoubleTapZooming
+apz_allow_double_tap_zooming
 (
 )
 ;

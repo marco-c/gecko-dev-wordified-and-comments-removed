@@ -15647,7 +15647,7 @@ SupportsApzKeyboardInput
 StaticPrefs
 :
 :
-AccessibilityBrowseWithCaret
+accessibility_browsewithcaret
 (
 )
 )
@@ -17130,7 +17130,7 @@ return
 StaticPrefs
 :
 :
-APZDragEnabled
+apz_drag_enabled
 (
 )
 ;
@@ -17148,7 +17148,7 @@ return
 StaticPrefs
 :
 :
-APZKeyboardEnabled
+apz_keyboard_enabled
 (
 )
 ;
@@ -17166,7 +17166,7 @@ return
 StaticPrefs
 :
 :
-APZAutoscrollEnabled
+apz_autoscroll_enabled
 (
 )
 ;

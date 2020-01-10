@@ -1317,7 +1317,7 @@ if
 StaticPrefs
 :
 :
-APZOneTouchPinchEnabled
+apz_one_touch_pinch_enabled
 (
 )
 )
@@ -2701,7 +2701,7 @@ forget
 StaticPrefs
 :
 :
-APZMaxTapTime
+apz_max_tap_time
 (
 )
 )
