@@ -647,11 +647,6 @@ nsIRunnable
 runnable
 )
 ;
-nsresult
-SetTargetForDefaultLocalAddressLookup
-(
-)
-;
 void
 EnsureIceGathering
 (
@@ -842,9 +837,6 @@ nsTArray
 NrIceStunAddr
 >
 mStunAddrs
-;
-bool
-mTargetForDefaultLocalAddressLookupIsSet
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
