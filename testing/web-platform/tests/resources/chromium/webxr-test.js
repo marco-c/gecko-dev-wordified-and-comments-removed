@@ -1201,7 +1201,7 @@ if
 (
 fakeDeviceInit
 .
-localToFloorLevelTransform
+floorOrigin
 !
 =
 null
@@ -1209,11 +1209,11 @@ null
 {
 this
 .
-setLocalToFloorLevelTransform
+setFloorOrigin
 (
 fakeDeviceInit
 .
-localToFloorLevelTransform
+floorOrigin
 )
 ;
 }
@@ -1646,9 +1646,9 @@ displayInfo_
 }
 }
 }
-setLocalToFloorLevelTransform
+setFloorOrigin
 (
-transform
+floorOrigin
 )
 {
 if
@@ -1711,7 +1711,7 @@ matrix
 =
 getMatrixFromTransform
 (
-transform
+floorOrigin
 )
 ;
 if
@@ -1740,7 +1740,7 @@ displayInfo_
 ;
 }
 }
-clearLocalToFloorLevelTransform
+clearFloorOrigin
 (
 )
 {

@@ -360,9 +360,9 @@ FLOAT_EPSILON
 ;
 fakeDeviceController
 .
-setLocalToFloorLevelTransform
+setFloorOrigin
 (
-VALID_LOCAL_TO_FLOOR_TRANSFORM
+VALID_FLOOR_ORIGIN
 )
 ;
 /
@@ -469,7 +469,7 @@ matrix
 assert_matrix_approx_equals
 (
 poseMatrix
-VALID_LOCAL_TO_FLOOR_MATRIX
+VALID_FLOOR_ORIGIN_MATRIX
 FLOAT_EPSILON
 )
 ;
