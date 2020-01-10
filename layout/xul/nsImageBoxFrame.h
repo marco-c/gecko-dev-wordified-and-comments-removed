@@ -251,7 +251,7 @@ DidSetComputedStyle
 (
 ComputedStyle
 *
-aOldStyle
+aOldComputedStyle
 )
 override
 ;
@@ -284,12 +284,6 @@ override
 ;
 #
 endif
-imgRequestProxy
-*
-GetRequestFromStyle
-(
-)
-;
 void
 UpdateImage
 (
