@@ -5905,6 +5905,13 @@ DOCUMENT_FRAGMENT_NODE
 ;
 if
 (
+HasChildren
+(
+)
+)
+{
+if
+(
 Document
 *
 doc
@@ -5946,6 +5953,7 @@ GetPrimaryFrame
 )
 )
 ;
+}
 RefPtr
 <
 ShadowRoot
