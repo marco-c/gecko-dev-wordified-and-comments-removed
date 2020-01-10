@@ -33,8 +33,6 @@ static
 ELEMENT_KEY
 :
 &
-'
-static
 str
 =
 "
@@ -54,8 +52,6 @@ static
 FRAME_KEY
 :
 &
-'
-static
 str
 =
 "
@@ -75,8 +71,6 @@ static
 WINDOW_KEY
 :
 &
-'
-static
 str
 =
 "
