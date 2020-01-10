@@ -4229,7 +4229,6 @@ now
 ;
 }
 }
-await
 blocklistObj
 .
 ensureInitialized
