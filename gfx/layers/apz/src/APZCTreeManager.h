@@ -723,6 +723,10 @@ aOutData
 void
 CollectTransformsForChromeMainThread
 (
+const
+AsyncPanZoomController
+*
+aAncestor
 )
 ;
 static
