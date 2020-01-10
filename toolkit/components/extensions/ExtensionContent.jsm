@@ -2432,6 +2432,12 @@ cloneScope
 "
 latest
 "
+"
+sandbox
+eval
+code
+"
+1
 )
 ;
 }

@@ -1255,6 +1255,17 @@ debugger
 eval
 code
 "
+|
+|
+url
+=
+=
+=
+"
+sandbox
+eval
+code
+"
 )
 {
 spec
