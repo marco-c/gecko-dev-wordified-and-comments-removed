@@ -9741,6 +9741,11 @@ aLock
 )
 )
 ;
+AUTO_PROFILER_STATS
+(
+locked_profiler_stream_json_for_this_process
+)
+;
 double
 collectionStart
 =
