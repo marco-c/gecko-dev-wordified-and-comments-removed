@@ -1383,7 +1383,7 @@ setup
 -
 this
 -
-firefox
+firefox2
 "
 a
 :

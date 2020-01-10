@@ -1022,7 +1022,7 @@ setup
 -
 this
 -
-firefox
+firefox2
 =
 Use
 <
@@ -1047,7 +1047,6 @@ a
 >
 to
 debug
-tabs
 extensions
 and
 service
