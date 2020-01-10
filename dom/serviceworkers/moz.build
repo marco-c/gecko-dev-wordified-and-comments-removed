@@ -175,6 +175,11 @@ ServiceWorkerManagerParent
 h
 '
 '
+ServiceWorkerOpPromise
+.
+h
+'
+'
 ServiceWorkerRegistrar
 .
 h
@@ -453,6 +458,11 @@ ipdl
 PServiceWorkerUpdater
 .
 ipdl
+'
+'
+ServiceWorkerOpArgs
+.
+ipdlh
 '
 '
 ServiceWorkerRegistrarTypes
