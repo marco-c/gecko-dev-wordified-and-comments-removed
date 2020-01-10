@@ -1973,11 +1973,7 @@ observer
 /
 resources
 /
-v2
--
-subframe
-.
-html
+*
 SET
 TIMEOUT
 :
