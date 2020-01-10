@@ -1,6 +1,8 @@
+add_task
+(
+async
 function
-*
-runTests
+thumbnails_bg_crash_while_idle
 (
 )
 {
@@ -11,7 +13,7 @@ bgTestPageURL
 (
 )
 ;
-yield
+await
 bgCapture
 (
 goodUrl
@@ -53,7 +55,7 @@ process
 let
 crash
 =
-yield
+await
 BrowserTestUtils
 .
 crashFrame
@@ -79,6 +81,7 @@ test
 "
 )
 ;
+await
 bgCapture
 (
 goodUrl
@@ -114,15 +117,10 @@ removeThumbnail
 goodUrl
 )
 ;
-next
-(
-)
-;
 }
 }
 )
 ;
-yield
-true
-;
 }
+)
+;

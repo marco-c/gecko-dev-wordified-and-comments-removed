@@ -47,13 +47,15 @@ com
 /
 "
 ;
+add_task
+(
+async
 function
-*
-runTests
+thumbnails_bg_topsites
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -99,7 +101,7 @@ i
 +
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -117,7 +119,7 @@ i
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -178,7 +180,7 @@ com
 image96x96
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addFavicons
@@ -189,7 +191,7 @@ faviconData
 let
 links
 =
-yield
+await
 NewTabUtils
 .
 activityStreamLinks
@@ -323,7 +325,7 @@ clearTopSiteURLCache
 let
 topSites
 =
-yield
+await
 gBrowserThumbnails
 .
 _topSiteURLs
@@ -464,7 +466,7 @@ unpin
 pinnedSite
 )
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -474,3 +476,5 @@ clear
 )
 ;
 }
+)
+;

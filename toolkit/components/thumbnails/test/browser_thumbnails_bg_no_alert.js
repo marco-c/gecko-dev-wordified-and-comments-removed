@@ -1,6 +1,8 @@
+add_task
+(
+async
 function
-*
-runTests
+thumbnails_bg_no_alert
 (
 )
 {
@@ -58,9 +60,11 @@ exist
 )
 ;
 let
+[
 capturedURL
+]
 =
-yield
+await
 bgCapture
 (
 url
@@ -108,3 +112,5 @@ url
 )
 ;
 }
+)
+;
