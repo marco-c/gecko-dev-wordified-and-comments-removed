@@ -443,7 +443,7 @@ uri0_n
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri0
 {
@@ -455,7 +455,7 @@ uri1_n
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri1
 {
@@ -467,7 +467,7 @@ uri2_n
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri2
 {
@@ -479,7 +479,7 @@ uri3_n
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri3
 {
@@ -491,7 +491,7 @@ uri4_n
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri4
 {
@@ -503,7 +503,7 @@ uri5_n
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri5
 {
@@ -523,7 +523,7 @@ uri0_y_
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri0
 attrs
@@ -534,7 +534,7 @@ uri1_y_
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri1
 attrs
@@ -545,7 +545,7 @@ uri2_y_
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri2
 attrs
@@ -556,7 +556,7 @@ uri3_y_
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri3
 attrs
@@ -567,7 +567,7 @@ uri4_y_
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri4
 attrs
@@ -578,7 +578,7 @@ uri5_y_
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri5
 attrs
@@ -597,7 +597,7 @@ uri0_1
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri0
 attrs
@@ -608,7 +608,7 @@ uri1_1
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri1
 attrs
@@ -619,7 +619,7 @@ uri2_1
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri2
 attrs
@@ -630,7 +630,7 @@ uri3_1
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri3
 attrs
@@ -641,7 +641,7 @@ uri4_1
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri4
 attrs
@@ -652,7 +652,7 @@ uri5_1
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri5
 attrs
@@ -675,7 +675,7 @@ uri0_cnn
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri0
 attrs
@@ -686,7 +686,7 @@ uri1_cnn
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri1
 attrs
@@ -697,7 +697,7 @@ uri2_cnn
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri2
 attrs
@@ -708,7 +708,7 @@ uri3_cnn
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri3
 attrs
@@ -719,7 +719,7 @@ uri4_cnn
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri4
 attrs
@@ -730,7 +730,7 @@ uri5_cnn
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri5
 attrs

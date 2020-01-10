@@ -2484,7 +2484,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 URI
 {
@@ -2859,7 +2859,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 URI
 {

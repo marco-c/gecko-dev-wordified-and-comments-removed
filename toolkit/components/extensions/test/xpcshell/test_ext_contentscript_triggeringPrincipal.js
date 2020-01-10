@@ -4894,7 +4894,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 pageURI
 {

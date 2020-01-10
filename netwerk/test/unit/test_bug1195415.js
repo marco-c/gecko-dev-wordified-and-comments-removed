@@ -111,7 +111,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -214,7 +214,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -317,7 +317,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -421,7 +421,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -520,7 +520,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -630,7 +630,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -766,7 +766,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -902,7 +902,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -1039,7 +1039,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -1171,7 +1171,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -1294,7 +1294,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -1417,7 +1417,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -1540,7 +1540,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -1664,7 +1664,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -1783,7 +1783,7 @@ prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

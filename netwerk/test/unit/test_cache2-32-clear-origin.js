@@ -180,7 +180,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 url
 {

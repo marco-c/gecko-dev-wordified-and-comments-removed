@@ -368,13 +368,13 @@ if
 (
 principal
 .
-isCodebasePrincipal
+isContentPrincipal
 )
 {
 return
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 principal
 .

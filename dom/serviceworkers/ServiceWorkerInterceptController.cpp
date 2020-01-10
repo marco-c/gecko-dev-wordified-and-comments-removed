@@ -139,7 +139,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aURI
 loadInfo

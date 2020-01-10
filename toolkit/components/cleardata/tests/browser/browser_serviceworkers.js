@@ -504,7 +504,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 https
@@ -654,7 +654,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 https

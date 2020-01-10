@@ -1864,7 +1864,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 http
@@ -2407,7 +2407,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 http
@@ -2432,7 +2432,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 http

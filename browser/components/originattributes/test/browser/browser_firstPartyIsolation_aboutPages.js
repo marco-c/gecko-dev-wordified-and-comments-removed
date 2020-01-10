@@ -1364,14 +1364,14 @@ document
 .
 nodePrincipal
 .
-isCodebasePrincipal
+isContentPrincipal
 "
 The
 principal
 should
 be
 a
-codebase
+content
 principal
 .
 "

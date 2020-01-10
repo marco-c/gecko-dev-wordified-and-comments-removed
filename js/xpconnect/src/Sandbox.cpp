@@ -6859,7 +6859,7 @@ JSContext
 *
 cx
 HandleString
-codebase
+contentUrl
 const
 OriginAttributes
 &
@@ -6877,7 +6877,7 @@ principal
 ;
 MOZ_ASSERT
 (
-codebase
+contentUrl
 )
 ;
 nsCOMPtr
@@ -6887,16 +6887,16 @@ nsIURI
 uri
 ;
 nsAutoJSString
-codebaseStr
+contentStr
 ;
 NS_ENSURE_TRUE
 (
-codebaseStr
+contentStr
 .
 init
 (
 cx
-codebase
+contentUrl
 )
 false
 )
@@ -6910,7 +6910,7 @@ getter_AddRefs
 (
 uri
 )
-codebaseStr
+contentStr
 )
 ;
 if
@@ -6946,7 +6946,7 @@ prin
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 aAttrs

@@ -116,7 +116,7 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 {
 return
@@ -590,7 +590,7 @@ Kind
 BasePrincipal
 :
 :
-eCodebasePrincipal
+eContentPrincipal
 )
 ;
 if
@@ -1178,7 +1178,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 iter
 .

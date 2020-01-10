@@ -14,7 +14,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 https

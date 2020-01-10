@@ -466,7 +466,7 @@ hashValue
 *
 *
 The
-codebase
+principal
 URI
 to
 which
@@ -798,7 +798,7 @@ This
 means
 that
 *
-codebase
+content
 principals
 are
 only
@@ -1173,7 +1173,7 @@ string
 (
 which
 for
-codebase
+content
 principals
 is
 of
@@ -1491,7 +1491,7 @@ base
 domain
 of
 the
-codebase
+principal
 URI
 to
 which
@@ -1764,7 +1764,7 @@ principal
 corresponds
 to
 a
-codebase
+principal
 origin
 .
 *
@@ -1775,7 +1775,7 @@ infallible
 readonly
 attribute
 boolean
-isCodebasePrincipal
+isContentPrincipal
 ;
 /
 *

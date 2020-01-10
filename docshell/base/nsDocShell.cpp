@@ -28333,7 +28333,7 @@ principal
 secMan
 -
 >
-GetDocShellCodebasePrincipal
+GetDocShellContentPrincipal
 (
 newURI
 this
@@ -40879,7 +40879,7 @@ if
 aResultPrincipal
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )
@@ -40998,7 +40998,7 @@ tmpResultPrincipal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 tmpResultURI
 tmpOA
@@ -42642,7 +42642,7 @@ principal
 secMan
 -
 >
-GetDocShellCodebasePrincipal
+GetDocShellContentPrincipal
 (
 aLoadState
 -

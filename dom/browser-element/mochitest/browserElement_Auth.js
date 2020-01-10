@@ -1085,7 +1085,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 attrs
@@ -1151,7 +1151,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 attrs
@@ -1206,7 +1206,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -1441,7 +1441,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

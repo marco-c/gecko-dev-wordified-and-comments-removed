@@ -93,7 +93,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 gURI
 {

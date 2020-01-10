@@ -582,7 +582,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 referrerURI
 win

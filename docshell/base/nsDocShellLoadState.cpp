@@ -1683,7 +1683,7 @@ mTriggeringPrincipal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 referrer
 aOriginAttributes

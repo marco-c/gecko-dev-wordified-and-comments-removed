@@ -522,7 +522,7 @@ PRINCIPAL1
 =
 ssm
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 http
@@ -542,7 +542,7 @@ PRINCIPAL2
 =
 ssm
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 "
 http

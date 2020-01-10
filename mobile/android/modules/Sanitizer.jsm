@@ -1067,7 +1067,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 item
 .

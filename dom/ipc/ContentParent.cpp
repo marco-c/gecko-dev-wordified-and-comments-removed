@@ -28734,7 +28734,7 @@ if
 principal
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )

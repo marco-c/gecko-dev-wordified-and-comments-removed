@@ -1041,7 +1041,7 @@ ok
 (
 subject
 .
-isCodebasePrincipal
+isContentPrincipal
 "
 Should
 pass

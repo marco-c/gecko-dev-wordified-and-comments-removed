@@ -234,7 +234,7 @@ document
 .
 nodePrincipal
 .
-isCodebasePrincipal
+isContentPrincipal
 "
 sanity
 :

@@ -359,7 +359,7 @@ principal
 =
 gScriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

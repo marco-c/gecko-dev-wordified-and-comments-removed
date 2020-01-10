@@ -206,7 +206,7 @@ mozilla
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 attrs
@@ -936,7 +936,7 @@ mozilla
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aURI
 attrs

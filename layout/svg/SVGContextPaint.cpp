@@ -226,7 +226,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aURI
 OriginAttributes

@@ -881,7 +881,7 @@ principal
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 data
 .

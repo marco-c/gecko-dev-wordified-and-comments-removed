@@ -2412,7 +2412,7 @@ nsCOMPtr
 <
 nsIURI
 >
-codebaseURI
+contentURI
 ;
 doc
 -
@@ -2426,14 +2426,14 @@ GetURI
 (
 getter_AddRefs
 (
-codebaseURI
+contentURI
 )
 )
 ;
 if
 (
 !
-codebaseURI
+contentURI
 )
 {
 return
@@ -2454,7 +2454,7 @@ AntiTrackingCommon
 IsFirstPartyStorageAccessGrantedFor
 (
 mWindow
-codebaseURI
+contentURI
 &
 rejectedReason
 )

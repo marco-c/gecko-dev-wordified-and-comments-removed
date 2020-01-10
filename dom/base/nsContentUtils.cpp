@@ -45346,7 +45346,7 @@ MOZ_ASSERT
 principal
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )

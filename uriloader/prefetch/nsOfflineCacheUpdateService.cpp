@@ -2599,7 +2599,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aURI
 attrs
@@ -2644,7 +2644,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aDocumentURI
 attrs

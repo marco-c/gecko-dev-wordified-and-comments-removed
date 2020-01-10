@@ -274,7 +274,7 @@ ok
 (
 ssm
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 prin
 .
@@ -298,7 +298,7 @@ checkThrows
 >
 ssm
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 prin
 .
@@ -553,7 +553,7 @@ exampleOrg
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (
@@ -599,7 +599,7 @@ exampleCom
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (
@@ -717,7 +717,7 @@ ipv6Prin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (
@@ -785,7 +785,7 @@ ipv6NPPrin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (
@@ -946,7 +946,7 @@ exampleOrg_browser
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (
@@ -1040,7 +1040,7 @@ exampleOrg_firstPartyDomain
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (
@@ -1116,7 +1116,7 @@ exampleOrg_userContext
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (
@@ -1304,12 +1304,12 @@ equal
 (
 prin
 .
-isCodebasePrincipal
+isContentPrincipal
 kind
 =
 =
 "
-codebasePrincipal
+contentPrincipal
 "
 )
 ;
@@ -1362,7 +1362,7 @@ checkKind
 (
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (
@@ -1382,7 +1382,7 @@ com
 }
 )
 "
-codebasePrincipal
+contentPrincipal
 "
 )
 ;
@@ -1399,7 +1399,7 @@ Sandbox
 [
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (
@@ -1917,7 +1917,7 @@ filePrin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 fileURI
 {
@@ -1972,7 +1972,7 @@ aboutBlankPrin
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 aboutBlankURI
 {

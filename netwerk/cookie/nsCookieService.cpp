@@ -18470,7 +18470,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aHostURI
 aOriginAttrs
@@ -18498,7 +18498,7 @@ aCookieHeader
 "
 non
 -
-codebase
+content
 principals
 cannot
 get

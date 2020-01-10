@@ -1971,7 +1971,7 @@ Principal
 )
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )
@@ -4194,7 +4194,7 @@ Principal
 )
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )

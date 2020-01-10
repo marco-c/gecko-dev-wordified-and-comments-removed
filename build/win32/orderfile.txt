@@ -43948,7 +43948,7 @@ Release
 nsScriptSecurityManager
 UAGKXZ
 ?
-CreateCodebasePrincipal
+CreateContentPrincipal
 nsScriptSecurityManager
 UAG
 ?
@@ -44004,7 +44004,7 @@ mozilla
 QAEXAAPAUJSContext
 Z
 ?
-CreateCodebasePrincipal
+CreateContentPrincipal
 BasePrincipal
 mozilla
 SA
@@ -44050,7 +44050,7 @@ SA_NPAVnsIURI
 PAPAVnsIPrincipal
 Z
 ?
-CreateCodebasePrincipal
+CreateContentPrincipal
 BasePrincipal
 mozilla
 CA
@@ -171801,7 +171801,7 @@ MaybeCreateDoc
 nsPIDOMWindowOuter
 IAEXXZ
 ?
-GetLoadContextCodebasePrincipal
+GetLoadContextContentPrincipal
 nsScriptSecurityManager
 UAG
 ?
@@ -218126,7 +218126,7 @@ AW4nsresult
 _N
 Z
 ?
-GetDocShellCodebasePrincipal
+GetDocShellContentPrincipal
 nsScriptSecurityManager
 UAG
 ?
@@ -222031,7 +222031,7 @@ GGPAPAVAddrInfo
 _N
 Z
 ?
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 BasePrincipal
 mozilla
 UAG
@@ -237917,7 +237917,7 @@ AW4nsresult
 H
 Z
 ?
-CreateCodebasePrincipal
+CreateContentPrincipal
 BasePrincipal
 mozilla
 SA
@@ -239378,7 +239378,7 @@ PAVnsIPrincipal
 PAVnsIURI
 Z
 ?
-IsCodebasePrincipal
+IsContentPrincipal
 ContentPrincipal
 mozilla
 UBE_NXZ

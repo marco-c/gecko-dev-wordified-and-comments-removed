@@ -2091,7 +2091,7 @@ triggeringPrincipal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 attrs

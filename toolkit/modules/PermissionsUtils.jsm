@@ -123,7 +123,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 origin
 )
@@ -182,7 +182,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 httpURI
 {
@@ -192,7 +192,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 httpsURI
 {

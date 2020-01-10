@@ -933,7 +933,7 @@ aObject
 )
 {
 nsAutoCString
-codebase
+principalURI
 ;
 nsresult
 rv
@@ -943,7 +943,7 @@ mURI
 >
 GetSpec
 (
-codebase
+principalURI
 )
 ;
 NS_ENSURE_SUCCESS
@@ -954,7 +954,7 @@ rv
 ;
 MOZ_ASSERT
 (
-codebase
+principalURI
 .
 Length
 (
@@ -1004,7 +1004,7 @@ eSpec
 )
 ]
 =
-codebase
+principalURI
 .
 get
 (

@@ -406,7 +406,7 @@ principal
 =
 ssm
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 item
 .

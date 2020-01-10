@@ -2225,7 +2225,7 @@ if
 prin
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )
@@ -2305,7 +2305,7 @@ if
 prin
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )

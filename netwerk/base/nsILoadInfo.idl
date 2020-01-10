@@ -2108,8 +2108,7 @@ triggeringPrincipal
 are
 both
 *
-codebase
--
+content
 principals
 then
 we
@@ -2470,8 +2469,7 @@ triggeringPrincipal
 are
 both
 *
-codebase
--
+content
 principals
 then
 we

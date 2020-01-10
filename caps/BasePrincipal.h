@@ -167,7 +167,7 @@ PrincipalKind
 eNullPrincipal
 =
 0
-eCodebasePrincipal
+eContentPrincipal
 eExpandedPrincipal
 eSystemPrincipal
 eKindMax
@@ -365,7 +365,7 @@ aResult
 override
 ;
 NS_IMETHOD
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 bool
 *
@@ -510,7 +510,7 @@ aPerm
 ;
 virtual
 bool
-IsCodebasePrincipal
+IsContentPrincipal
 (
 )
 const
@@ -570,7 +570,7 @@ already_AddRefed
 <
 BasePrincipal
 >
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 const
 nsACString
@@ -583,7 +583,7 @@ already_AddRefed
 <
 BasePrincipal
 >
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 nsIURI
 *
@@ -918,7 +918,7 @@ already_AddRefed
 <
 BasePrincipal
 >
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 nsIURI
 *
@@ -1033,7 +1033,7 @@ Kind
 )
 =
 =
-eCodebasePrincipal
+eContentPrincipal
 |
 |
 Kind
@@ -1237,7 +1237,7 @@ Kind
 )
 =
 =
-eCodebasePrincipal
+eContentPrincipal
 &
 &
 !

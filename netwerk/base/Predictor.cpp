@@ -4033,7 +4033,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 targetURI
 originAttributes
@@ -6559,7 +6559,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 originAttributes

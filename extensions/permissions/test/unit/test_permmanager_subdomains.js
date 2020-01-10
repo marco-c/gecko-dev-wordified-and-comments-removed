@@ -40,7 +40,7 @@ aURI
 return
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

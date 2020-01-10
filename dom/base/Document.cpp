@@ -12526,7 +12526,7 @@ rv
 securityManager
 -
 >
-GetLoadContextCodebasePrincipal
+GetLoadContextContentPrincipal
 (
 mDocumentURI
 loadContext
@@ -25859,7 +25859,7 @@ nsCOMPtr
 <
 nsIURI
 >
-codebaseURI
+principalURI
 ;
 NodePrincipal
 (
@@ -25870,14 +25870,14 @@ GetURI
 (
 getter_AddRefs
 (
-codebaseURI
+principalURI
 )
 )
 ;
 if
 (
 !
-codebaseURI
+principalURI
 )
 {
 return
@@ -25902,7 +25902,7 @@ channel
 =
 CreateDummyChannelForCookies
 (
-codebaseURI
+principalURI
 )
 ;
 if
@@ -25923,7 +25923,7 @@ service
 >
 GetCookieString
 (
-codebaseURI
+principalURI
 channel
 cookie
 )
@@ -26055,7 +26055,7 @@ nsCOMPtr
 <
 nsIURI
 >
-codebaseURI
+principalURI
 ;
 NodePrincipal
 (
@@ -26066,14 +26066,14 @@ GetURI
 (
 getter_AddRefs
 (
-codebaseURI
+principalURI
 )
 )
 ;
 if
 (
 !
-codebaseURI
+principalURI
 )
 {
 return
@@ -26098,7 +26098,7 @@ channel
 =
 CreateDummyChannelForCookies
 (
-codebaseURI
+principalURI
 )
 ;
 if
@@ -26122,7 +26122,7 @@ service
 >
 SetCookieString
 (
-codebaseURI
+principalURI
 nullptr
 cookie
 channel
@@ -26141,7 +26141,7 @@ CreateDummyChannelForCookies
 (
 nsIURI
 *
-aCodebaseURI
+aContentURI
 )
 {
 MOZ_ASSERT
@@ -26162,7 +26162,7 @@ getter_AddRefs
 (
 channel
 )
-aCodebaseURI
+aContentURI
 this
 nsILoadInfo
 :

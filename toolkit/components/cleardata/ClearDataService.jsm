@@ -595,7 +595,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 httpURI
 aOriginAttributes
@@ -608,7 +608,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 httpsURI
 aOriginAttributes
@@ -793,7 +793,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 httpURI
 aOriginAttributes
@@ -806,7 +806,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 httpsURI
 aOriginAttributes
@@ -2024,7 +2024,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 httpURI
 aOriginAttributes
@@ -2037,7 +2037,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 httpsURI
 aOriginAttributes
@@ -2290,7 +2290,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 item
 .
@@ -2727,7 +2727,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 item
 .

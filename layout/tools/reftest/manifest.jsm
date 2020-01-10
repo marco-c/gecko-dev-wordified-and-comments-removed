@@ -2186,7 +2186,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 aURL
 {
@@ -4840,7 +4840,7 @@ getSystemPrincipal
 :
 secMan
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 manifestURL
 {

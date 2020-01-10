@@ -303,7 +303,7 @@ ContentPrincipal
 :
 BasePrincipal
 (
-eCodebasePrincipal
+eContentPrincipal
 )
 {
 }
@@ -324,7 +324,7 @@ Init
 (
 nsIURI
 *
-aCodebase
+aURI
 const
 OriginAttributes
 &
@@ -337,7 +337,7 @@ aOriginNoSuffix
 {
 NS_ENSURE_ARG
 (
-aCodebase
+aURI
 )
 ;
 bool
@@ -354,7 +354,7 @@ NS_SUCCEEDED
 (
 NS_URIChainHasFlags
 (
-aCodebase
+aURI
 nsIProtocolHandler
 :
 :
@@ -369,9 +369,9 @@ hasFlag
 hasFlag
 )
 ;
-mCodebase
+mURI
 =
-aCodebase
+aURI
 ;
 FinishInit
 (
@@ -403,12 +403,12 @@ NS_ENSURE_ARG
 aOther
 )
 ;
-mCodebase
+mURI
 =
 aOther
 -
 >
-mCodebase
+mURI
 ;
 FinishInit
 (
@@ -446,7 +446,7 @@ aStr
 )
 {
 return
-mCodebase
+mURI
 -
 >
 GetSpec
@@ -1220,7 +1220,7 @@ nsScriptSecurityManager
 :
 SecurityCompareURIs
 (
-mCodebase
+mURI
 otherURI
 )
 ;
@@ -1242,7 +1242,7 @@ NS_ADDREF
 *
 aURI
 =
-mCodebase
+mURI
 )
 ;
 return
@@ -1345,7 +1345,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 origin
 attrs
@@ -1421,7 +1421,7 @@ nsScriptSecurityManager
 :
 SecurityCompareURIs
 (
-mCodebase
+mURI
 aURI
 )
 )
@@ -1449,7 +1449,7 @@ aURI
 NS_RelaxStrictFileOriginPolicy
 (
 aURI
-mCodebase
+mURI
 )
 )
 {
@@ -1471,11 +1471,12 @@ GetHashValue
 {
 MOZ_ASSERT
 (
-mCodebase
+mURI
 "
 Need
 a
-codebase
+principal
+URI
 "
 )
 ;
@@ -1648,7 +1649,7 @@ nsCOMPtr
 nsIURI
 >
 &
-aCodebase
+aURI
 bool
 *
 aHandled
@@ -1666,7 +1667,7 @@ if
 (
 NS_URIIsLocalFile
 (
-aCodebase
+aURI
 )
 )
 {
@@ -1707,7 +1708,7 @@ url
 =
 do_QueryInterface
 (
-aCodebase
+aURI
 )
 ;
 if
@@ -1739,7 +1740,7 @@ rv
 =
 NS_URIChainHasFlags
 (
-aCodebase
+aURI
 nsIProtocolHandler
 :
 :
@@ -1774,7 +1775,7 @@ aHandled
 true
 ;
 return
-aCodebase
+aURI
 -
 >
 GetSpec
@@ -1790,7 +1791,7 @@ if
 (
 NS_SUCCEEDED
 (
-aCodebase
+aURI
 -
 >
 SchemeIs
@@ -1813,7 +1814,7 @@ aHandled
 true
 ;
 return
-aCodebase
+aURI
 -
 >
 GetSpec
@@ -1845,7 +1846,7 @@ rv
 =
 GetSpecialBaseDomain
 (
-mCodebase
+mURI
 &
 handled
 aBaseDomain
@@ -1893,7 +1894,7 @@ thirdPartyUtil
 >
 GetBaseDomain
 (
-mCodebase
+mURI
 aBaseDomain
 )
 ;
@@ -1920,7 +1921,7 @@ rv
 =
 GetSpecialBaseDomain
 (
-mCodebase
+mURI
 &
 handled
 baseDomain
@@ -1977,7 +1978,7 @@ tldService
 >
 GetBaseDomain
 (
-mCodebase
+mURI
 0
 baseDomain
 )
@@ -2025,7 +2026,7 @@ siteUri
 NS_MutateURI
 mutator
 (
-mCodebase
+mURI
 )
 ;
 mutator
@@ -2188,7 +2189,7 @@ BasePrincipal
 >
 principal
 =
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 siteOrigin
 )
@@ -2205,7 +2206,7 @@ NS_WARNING
 could
 not
 instantiate
-codebase
+content
 principal
 "
 )
@@ -2246,7 +2247,7 @@ isSome
 {
 NS_ENSURE_TRUE
 (
-mCodebase
+mURI
 nullptr
 )
 ;
@@ -2257,7 +2258,7 @@ if
 (
 NS_SUCCEEDED
 (
-mCodebase
+mURI
 -
 >
 SchemeIs
@@ -2286,7 +2287,7 @@ EPS
 .
 GetByURL
 (
-mCodebase
+mURI
 .
 get
 (
@@ -2380,7 +2381,7 @@ nsCOMPtr
 <
 nsIURI
 >
-codebase
+principalURI
 ;
 nsresult
 rv
@@ -2407,7 +2408,7 @@ return
 rv
 ;
 }
-codebase
+principalURI
 =
 do_QueryInterface
 (
@@ -2423,7 +2424,7 @@ if
 (
 NS_SUCCEEDED
 (
-codebase
+principalURI
 -
 >
 SchemeIs
@@ -2443,7 +2444,7 @@ isAbout
 nsAutoCString
 spec
 ;
-codebase
+principalURI
 -
 >
 GetSpec
@@ -2457,7 +2458,7 @@ NS_NewURI
 (
 getter_AddRefs
 (
-codebase
+principalURI
 )
 spec
 )
@@ -2560,7 +2561,7 @@ rv
 =
 GenerateOriginNoSuffixFromURI
 (
-codebase
+principalURI
 originNoSuffix
 )
 ;
@@ -2574,7 +2575,7 @@ rv
 =
 Init
 (
-codebase
+principalURI
 attrs
 originNoSuffix
 )
@@ -2645,17 +2646,17 @@ aObject
 )
 {
 nsAutoCString
-codebase
+principalURI
 ;
 nsresult
 rv
 =
-mCodebase
+mURI
 -
 >
 GetSpec
 (
-codebase
+principalURI
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2671,11 +2672,11 @@ std
 :
 to_string
 (
-eCodebase
+eURI
 )
 ]
 =
-codebase
+principalURI
 .
 get
 (
@@ -2816,7 +2817,7 @@ nsCOMPtr
 <
 nsIURI
 >
-codebaseURI
+principalURI
 ;
 nsCOMPtr
 <
@@ -2854,7 +2855,7 @@ case
 ContentPrincipal
 :
 :
-eCodebase
+eURI
 :
 if
 (
@@ -2872,7 +2873,7 @@ Content
 principals
 require
 a
-codebase
+principal
 URI
 in
 serialized
@@ -2890,7 +2891,7 @@ NS_NewURI
 (
 getter_AddRefs
 (
-codebaseURI
+principalURI
 )
 field
 .
@@ -2913,7 +2914,7 @@ isAbout
 =
 NS_SUCCEEDED
 (
-codebaseURI
+principalURI
 -
 >
 SchemeIs
@@ -2937,7 +2938,7 @@ isAbout
 nsAutoCString
 spec
 ;
-codebaseURI
+principalURI
 -
 >
 GetSpec
@@ -2953,7 +2954,7 @@ NS_NewURI
 (
 getter_AddRefs
 (
-codebaseURI
+principalURI
 )
 spec
 )
@@ -3057,7 +3058,7 @@ ContentPrincipal
 :
 GenerateOriginNoSuffixFromURI
 (
-codebaseURI
+principalURI
 originNoSuffix
 )
 ;
@@ -3077,7 +3078,7 @@ RefPtr
 <
 ContentPrincipal
 >
-codebase
+principal
 =
 new
 ContentPrincipal
@@ -3086,12 +3087,12 @@ ContentPrincipal
 ;
 rv
 =
-codebase
+principal
 -
 >
 Init
 (
-codebaseURI
+principalURI
 attrs
 originNoSuffix
 )
@@ -3108,7 +3109,7 @@ return
 nullptr
 ;
 }
-codebase
+principal
 -
 >
 mDomain
@@ -3117,13 +3118,13 @@ domain
 ;
 if
 (
-codebase
+principal
 -
 >
 mDomain
 )
 {
-codebase
+principal
 -
 >
 SetHasExplicitDomain
@@ -3132,7 +3133,7 @@ SetHasExplicitDomain
 ;
 }
 return
-codebase
+principal
 .
 forget
 (

@@ -14051,7 +14051,7 @@ mozilla
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 attrs

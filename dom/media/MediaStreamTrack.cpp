@@ -1808,7 +1808,7 @@ GetIsNullPrincipal
 mPrincipal
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 mPrincipal

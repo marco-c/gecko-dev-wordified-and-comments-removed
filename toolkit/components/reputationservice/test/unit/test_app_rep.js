@@ -2019,7 +2019,7 @@ principal
 :
 secman
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 exampleURI
 {
@@ -2054,7 +2054,7 @@ principal
 :
 secman
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 blocklistedURI
 {
@@ -2089,7 +2089,7 @@ principal
 :
 secman
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 whitelistedURI
 {
@@ -2587,7 +2587,7 @@ principal
 :
 secman
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 exampleURI
 {
@@ -2622,7 +2622,7 @@ principal
 :
 secman
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 whitelistedURI
 {
@@ -3201,7 +3201,7 @@ principal
 :
 secman
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 exampleRedirectURI
 {

@@ -28,7 +28,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {
@@ -278,7 +278,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 TEST_QUOTA_USAGE_ORIGIN
 )

@@ -1105,7 +1105,7 @@ from
 *
 /
 nsIPrincipal
-getLoadContextCodebasePrincipal
+getLoadContextContentPrincipal
 (
 in
 nsIURI
@@ -1142,7 +1142,7 @@ from
 *
 /
 nsIPrincipal
-getDocShellCodebasePrincipal
+getDocShellContentPrincipal
 (
 in
 nsIURI
@@ -1160,7 +1160,7 @@ If
 this
 is
 a
-codebase
+content
 principal
 return
 a
@@ -1239,7 +1239,7 @@ defaults
 implicit_jscontext
 ]
 nsIPrincipal
-createCodebasePrincipal
+createContentPrincipal
 (
 in
 nsIURI
@@ -1294,7 +1294,7 @@ defaults
 *
 /
 nsIPrincipal
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 in
 ACString
@@ -1591,7 +1591,7 @@ is
 one
 and
 the
-codebase
+content
 principal
 for
 the
@@ -1858,7 +1858,7 @@ aChannel
 *
 Get
 the
-codebase
+content
 principal
 for
 the

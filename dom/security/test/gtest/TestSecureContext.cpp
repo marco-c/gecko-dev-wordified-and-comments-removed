@@ -86,7 +86,7 @@ expectedResult
 TEST
 (
 SecureContext
-IsOriginPotentiallyTrustworthyWithCodeBasePrincipal
+IsOriginPotentiallyTrustworthyWithContentPrincipal
 )
 {
 static
@@ -386,7 +386,7 @@ GetScriptSecurityManager
 )
 -
 >
-CreateCodebasePrincipalFromOrigin
+CreateContentPrincipalFromOrigin
 (
 uri
 getter_AddRefs

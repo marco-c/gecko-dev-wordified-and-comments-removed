@@ -84,7 +84,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipalFromOrigin
+createContentPrincipalFromOrigin
 (
 HELPER_PAGE_ORIGIN
 )

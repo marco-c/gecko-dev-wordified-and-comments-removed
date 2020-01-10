@@ -305,7 +305,7 @@ expectedPrincipal
 =
 securityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 makeURI
 (

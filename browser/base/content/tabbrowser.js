@@ -26647,7 +26647,7 @@ if
 (
 triggeringPrincipal
 .
-isCodebasePrincipal
+isContentPrincipal
 )
 {
 triggeringPrincipal
@@ -26656,7 +26656,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 triggeringPrincipal
 .

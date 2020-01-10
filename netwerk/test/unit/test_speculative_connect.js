@@ -711,7 +711,7 @@ principal
 =
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 URI
 {

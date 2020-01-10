@@ -9615,7 +9615,7 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 searchURI
 attrs

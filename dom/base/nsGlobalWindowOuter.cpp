@@ -7744,7 +7744,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 uri
 attrs
@@ -26577,7 +26577,7 @@ providedPrincipal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aTargetOriginURI
 attrs
@@ -32213,7 +32213,7 @@ principal
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 aURI
 doc

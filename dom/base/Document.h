@@ -6945,7 +6945,7 @@ nsCOMPtr
 <
 nsIURI
 >
-codebaseURI
+contentURI
 ;
 NodePrincipal
 (
@@ -6956,14 +6956,14 @@ GetURI
 (
 getter_AddRefs
 (
-codebaseURI
+contentURI
 )
 )
 ;
 if
 (
 !
-codebaseURI
+contentURI
 )
 {
 return
@@ -6973,7 +6973,7 @@ true
 nsAutoCString
 scheme
 ;
-codebaseURI
+contentURI
 -
 >
 GetScheme
@@ -12439,7 +12439,7 @@ CreateDummyChannelForCookies
 (
 nsIURI
 *
-aCodebaseURI
+aContentURI
 )
 ;
 nsCOMPtr

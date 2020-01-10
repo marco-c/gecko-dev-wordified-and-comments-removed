@@ -1448,7 +1448,7 @@ nsIScriptSecurityManager
 return
 ssm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 uri
 {

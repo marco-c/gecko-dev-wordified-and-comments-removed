@@ -1811,7 +1811,7 @@ TriggeringPrincipal
 )
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 )

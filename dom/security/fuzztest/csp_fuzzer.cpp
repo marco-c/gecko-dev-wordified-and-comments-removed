@@ -94,7 +94,7 @@ mozilla
 BasePrincipal
 :
 :
-CreateCodebasePrincipal
+CreateContentPrincipal
 (
 selfURI
 attrs

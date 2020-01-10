@@ -5513,7 +5513,7 @@ MOZ_ASSERT
 aPrincipal
 -
 >
-GetIsCodebasePrincipal
+GetIsContentPrincipal
 (
 )
 "

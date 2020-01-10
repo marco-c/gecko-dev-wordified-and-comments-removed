@@ -492,7 +492,7 @@ targetPrincipal
 =
 sm
 .
-createCodebasePrincipal
+createContentPrincipal
 (
 aTargetUri
 {
@@ -1260,7 +1260,7 @@ aCurrentPrincipal
 &
 aCurrentPrincipal
 .
-isCodebasePrincipal
+isContentPrincipal
 ?
 aCurrentPrincipal
 .
