@@ -4257,6 +4257,9 @@ mGridAutoRowsMin
 nsStyleCoord
 mGridAutoRowsMax
 ;
+float
+mAspectRatio
+;
 uint8_t
 mGridAutoFlow
 ;
