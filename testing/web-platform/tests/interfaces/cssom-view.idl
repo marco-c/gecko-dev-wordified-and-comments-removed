@@ -220,6 +220,9 @@ scroll
 optional
 ScrollToOptions
 options
+=
+{
+}
 )
 ;
 void
@@ -239,6 +242,9 @@ scrollTo
 optional
 ScrollToOptions
 options
+=
+{
+}
 )
 ;
 void
@@ -258,6 +264,9 @@ scrollBy
 optional
 ScrollToOptions
 options
+=
+{
+}
 )
 ;
 void
@@ -385,6 +394,9 @@ type
 optional
 MediaQueryListEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface
@@ -603,6 +615,9 @@ or
 ScrollIntoViewOptions
 )
 arg
+=
+{
+}
 )
 ;
 void
@@ -611,6 +626,9 @@ scroll
 optional
 ScrollToOptions
 options
+=
+{
+}
 )
 ;
 void
@@ -630,6 +648,9 @@ scrollTo
 optional
 ScrollToOptions
 options
+=
+{
+}
 )
 ;
 void
@@ -649,6 +670,9 @@ scrollBy
 optional
 ScrollToOptions
 options
+=
+{
+}
 )
 ;
 void
@@ -937,6 +961,9 @@ getBoxQuads
 optional
 BoxQuadOptions
 options
+=
+{
+}
 )
 ;
 DOMQuad
@@ -949,6 +976,9 @@ from
 optional
 ConvertCoordinateOptions
 options
+=
+{
+}
 )
 ;
 DOMQuad
@@ -961,6 +991,9 @@ from
 optional
 ConvertCoordinateOptions
 options
+=
+{
+}
 )
 ;
 DOMPoint
@@ -973,6 +1006,9 @@ from
 optional
 ConvertCoordinateOptions
 options
+=
+{
+}
 )
 ;
 /
