@@ -178,8 +178,6 @@ react
 prop
 -
 types
--
-dev
 .
 js
 mv
