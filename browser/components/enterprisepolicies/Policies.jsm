@@ -386,6 +386,27 @@ manager
 param
 )
 {
+let
+locked
+=
+true
+;
+if
+(
+"
+Locked
+"
+in
+param
+)
+{
+locked
+=
+param
+.
+Locked
+;
+}
 if
 (
 "
@@ -395,7 +416,7 @@ in
 param
 )
 {
-setAndLockPref
+setDefaultPref
 (
 "
 network
@@ -417,6 +438,7 @@ join
 "
 "
 )
+locked
 )
 ;
 }
@@ -429,7 +451,7 @@ in
 param
 )
 {
-setAndLockPref
+setDefaultPref
 (
 "
 network
@@ -451,6 +473,7 @@ join
 "
 "
 )
+locked
 )
 ;
 }
@@ -463,7 +486,7 @@ in
 param
 )
 {
-setAndLockPref
+setDefaultPref
 (
 "
 network
@@ -487,6 +510,7 @@ join
 "
 "
 )
+locked
 )
 ;
 }
@@ -508,7 +532,7 @@ AllowNonFQDN
 NTLM
 )
 {
-setAndLockPref
+setDefaultPref
 (
 "
 network
@@ -530,6 +554,7 @@ param
 AllowNonFQDN
 .
 NTLM
+locked
 )
 ;
 }
@@ -542,7 +567,7 @@ AllowNonFQDN
 SPNEGO
 )
 {
-setAndLockPref
+setDefaultPref
 (
 "
 network
@@ -562,6 +587,7 @@ param
 AllowNonFQDN
 .
 SPNEGO
+locked
 )
 ;
 }
