@@ -498,9 +498,6 @@ mProfileDB
 nsCString
 mInstallSection
 ;
-nsCString
-mLegacyInstallSection
-;
 bool
 mStartWithLast
 ;
