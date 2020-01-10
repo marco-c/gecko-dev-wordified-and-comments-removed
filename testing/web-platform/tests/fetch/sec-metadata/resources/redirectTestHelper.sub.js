@@ -651,6 +651,10 @@ text
 .
 then
 (
+t
+.
+step_func
+(
 text
 =
 >
@@ -658,6 +662,7 @@ assert_header_equals
 (
 text
 expectedResults
+)
 )
 )
 .
@@ -904,6 +909,10 @@ text
 .
 then
 (
+t
+.
+step_func
+(
 text
 =
 >
@@ -911,6 +920,7 @@ assert_header_equals
 (
 text
 expectedResults
+)
 )
 )
 .
@@ -1516,6 +1526,10 @@ text
 .
 then
 (
+t
+.
+step_func
+(
 text
 =
 >
@@ -1523,6 +1537,7 @@ assert_header_equals
 (
 text
 expectedResults
+)
 )
 )
 .
@@ -1694,6 +1709,10 @@ text
 .
 then
 (
+t
+.
+step_func
+(
 text
 =
 >
@@ -1701,6 +1720,7 @@ assert_header_equals
 (
 text
 expectedResults
+)
 )
 )
 .
