@@ -404,12 +404,9 @@ build_resources_path
 '
 %
 (
-abs_obj_dir
+upload_path
 )
 s
-/
-.
-mozbuild
 /
 build_resources
 .
@@ -683,6 +680,24 @@ _query_objdir
 )
             
 }
+            
+'
+upload_path
+'
+:
+self
+.
+config
+[
+"
+upload_env
+"
+]
+[
+"
+UPLOAD_PATH
+"
+]
         
 }
         
