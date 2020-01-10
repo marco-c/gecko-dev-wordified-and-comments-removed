@@ -65,3 +65,9 @@ load
 2
 .
 html
+load
+stringbuffer
+-
+USVString
+.
+html
