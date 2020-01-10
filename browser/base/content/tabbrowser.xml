@@ -6813,7 +6813,7 @@ then
 (
 (
 [
-tabUsed
+tabToScrollIntoView
 scrollRect
 tabRect
 selectedRect
@@ -6910,7 +6910,7 @@ this
 _lastTabToScrollIntoView
 !
 =
-tabUsed
+tabToScrollIntoView
 )
 {
 this
@@ -7026,7 +7026,7 @@ arrowScrollbox
 .
 ensureElementIsVisible
 (
-aTab
+tabToScrollIntoView
 )
 ;
 return
