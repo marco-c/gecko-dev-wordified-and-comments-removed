@@ -14384,6 +14384,11 @@ cookieStatus
 case
 STATUS_REJECTED
 :
+if
+(
+priorCookieCount
+)
+{
 NotifyRejected
 (
 aHostURI
@@ -14392,6 +14397,7 @@ rejectedReason
 OPERATION_READ
 )
 ;
+}
 return
 ;
 default
