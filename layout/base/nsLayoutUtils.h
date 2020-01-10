@@ -4806,6 +4806,15 @@ gfx
 IntSize
 mSize
 ;
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
+mIntrinsicSize
+;
 nsCOMPtr
 <
 nsIPrincipal

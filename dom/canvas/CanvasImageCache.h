@@ -88,6 +88,13 @@ gfx
 IntSize
 &
 aSize
+const
+gfx
+:
+:
+IntSize
+&
+aIntrinsicSize
 )
 ;
 static
@@ -126,6 +133,12 @@ gfx
 IntSize
 *
 aSizeOut
+gfx
+:
+:
+IntSize
+*
+aIntrinsicSizeOut
 )
 ;
 }
