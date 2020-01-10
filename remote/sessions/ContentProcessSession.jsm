@@ -174,7 +174,7 @@ this
 )
 ;
 }
-destroy
+destructor
 (
 )
 {
@@ -443,7 +443,7 @@ destroy
 :
 this
 .
-destroy
+destructor
 (
 )
 ;
