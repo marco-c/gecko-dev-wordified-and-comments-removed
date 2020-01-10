@@ -1248,6 +1248,13 @@ parent
 )
                 
 elif
+len
+(
+handles
+)
+>
+2
+and
 handles
 [
 0
@@ -1255,13 +1262,6 @@ handles
 =
 =
 parent
-and
-len
-(
-handles
-)
->
-2
 :
                     
 test_window
