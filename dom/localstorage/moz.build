@@ -232,6 +232,11 @@ LSValue
 h
 '
 '
+LSWriteOptimizer
+.
+h
+'
+'
 SnappyUtils
 .
 h
@@ -283,6 +288,11 @@ cpp
 '
 '
 LSValue
+.
+cpp
+'
+'
+LSWriteOptimizer
 .
 cpp
 '
