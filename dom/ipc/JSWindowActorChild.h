@@ -157,7 +157,7 @@ JSWindowActorChild
 }
 WindowGlobalChild
 *
-Manager
+GetManager
 (
 )
 const
