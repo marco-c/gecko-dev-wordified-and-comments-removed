@@ -3253,7 +3253,7 @@ MediaDeviceInfo
 "
 insecureContext
 :
-false
+true
 }
 {
 name
@@ -3263,7 +3263,7 @@ MediaDevices
 "
 insecureContext
 :
-false
+true
 }
 {
 name

@@ -13747,7 +13747,7 @@ enabled
 "
 media_devices_insecure_enabled
 bool
-false
+true
 )
 VARCACHE_PREF
 (
