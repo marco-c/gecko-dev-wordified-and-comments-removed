@@ -2633,10 +2633,6 @@ macosx
 artifact_mode
 =
 artifact_mode
-                                  
-java_bin_path
-=
-JAVA_PATH
 )
     
 def
