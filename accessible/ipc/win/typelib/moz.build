@@ -104,11 +104,13 @@ Accessible
 tlb
 '
 ]
-GeneratedFile
-(
+GENERATED_FILES
++
+=
+[
 '
 Accessible
 .
 tlb
 '
-)
+]
