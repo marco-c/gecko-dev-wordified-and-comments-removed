@@ -23664,6 +23664,9 @@ gc
 :
 AutoSetThreadIsSweeping
 threadIsSweeping
+(
+zone
+)
 ;
 JSRuntime
 *
