@@ -25013,14 +25013,6 @@ calleeObjId
 calleeFunc
 )
 ;
-writer
-.
-guardFunctionHasJitEntry
-(
-calleeObjId
-isConstructing
-)
-;
 }
 else
 {

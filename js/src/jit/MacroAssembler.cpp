@@ -15540,6 +15540,11 @@ JSFunction
 :
 :
 INTERPRETED
+|
+JSFunction
+:
+:
+INTERPRETED_LAZY
 Assembler
 :
 :

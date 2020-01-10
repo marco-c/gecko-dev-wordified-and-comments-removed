@@ -5328,6 +5328,17 @@ label
 ;
 inline
 void
+branchIfFunctionHasNoScript
+(
+Register
+fun
+Label
+*
+label
+)
+;
+inline
+void
 branchIfInterpreted
 (
 Register
