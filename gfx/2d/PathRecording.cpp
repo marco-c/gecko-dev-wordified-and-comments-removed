@@ -56,10 +56,6 @@ sizeof
 _type
 )
 ;
-using
-namespace
-std
-;
 bool
 PathOps
 :

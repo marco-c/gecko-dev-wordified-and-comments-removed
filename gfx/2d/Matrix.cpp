@@ -52,10 +52,6 @@ FloatingPoint
 .
 h
 "
-using
-namespace
-std
-;
 namespace
 mozilla
 {

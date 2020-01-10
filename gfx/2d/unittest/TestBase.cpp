@@ -10,10 +10,6 @@ include
 <
 sstream
 >
-using
-namespace
-std
-;
 int
 TestBase
 :
@@ -56,6 +52,9 @@ i
 +
 )
 {
+std
+:
+:
 stringstream
 stream
 ;
@@ -185,6 +184,9 @@ TestBase
 :
 LogMessage
 (
+std
+:
+:
 string
 aMessage
 )

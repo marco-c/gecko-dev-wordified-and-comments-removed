@@ -60,10 +60,6 @@ mozilla
 namespace
 gfx
 {
-using
-namespace
-std
-;
 bool
 RecordedEvent
 :
@@ -136,6 +132,9 @@ aAction
 )
 ;
 }
+std
+:
+:
 string
 RecordedEvent
 :

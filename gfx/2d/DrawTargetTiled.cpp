@@ -19,10 +19,6 @@ PathHelpers
 .
 h
 "
-using
-namespace
-std
-;
 namespace
 mozilla
 {
@@ -183,6 +179,9 @@ false
 uint32_t
 newXMost
 =
+std
+:
+:
 max
 (
 mRect
@@ -217,6 +216,9 @@ width
 uint32_t
 newYMost
 =
+std
+:
+:
 max
 (
 mRect
@@ -285,6 +287,9 @@ mRect
 .
 MoveTo
 (
+std
+:
+:
 min
 (
 mRect
@@ -301,6 +306,9 @@ mTileOrigin
 .
 x
 )
+std
+:
+:
 min
 (
 mRect

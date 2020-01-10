@@ -189,6 +189,9 @@ explicit
 B
 (
 const
+std
+:
+:
 string
 &
 str

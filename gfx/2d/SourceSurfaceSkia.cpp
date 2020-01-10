@@ -55,10 +55,6 @@ CheckedInt
 .
 h
 "
-using
-namespace
-std
-;
 namespace
 mozilla
 {

@@ -75,10 +75,6 @@ include
 <
 cmath
 >
-using
-namespace
-std
-;
 namespace
 mozilla
 {

@@ -90,10 +90,6 @@ h
 "
 #
 endif
-using
-namespace
-std
-;
 #
 ifdef
 USE_SKIA
@@ -1102,6 +1098,9 @@ GetMetrics
 fontMetrics
 )
 ;
+std
+:
+:
 vector
 <
 DWRITE_GLYPH_METRICS
