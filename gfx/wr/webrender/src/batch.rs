@@ -5200,6 +5200,15 @@ gpu_cache
 )
 ;
 let
+z_id
+=
+z_generator
+.
+next
+(
+)
+;
+let
 prim_header_index
 =
 prim_headers
@@ -5265,7 +5274,7 @@ add_split_composite_instance_to_batches
 (
 key
 &
-prim_info
+child_prim_info
 .
 clip_chain
 .
@@ -5275,7 +5284,7 @@ prim_header_index
 child
 .
 gpu_address
-prim_info
+child_prim_info
 .
 visibility_mask
 )
