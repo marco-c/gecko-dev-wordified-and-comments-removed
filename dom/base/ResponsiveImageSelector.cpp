@@ -166,11 +166,6 @@ eParseHTMLInteger_DidNotConsumeAllInput
 nsContentUtils
 :
 :
-eParseHTMLInteger_IsPercent
-|
-nsContentUtils
-:
-:
 eParseHTMLInteger_NonStandard
 )
 )
