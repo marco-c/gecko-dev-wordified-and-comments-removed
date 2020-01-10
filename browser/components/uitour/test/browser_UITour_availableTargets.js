@@ -146,9 +146,6 @@ urlBar
 screenshots
 "
 "
-trackingProtection
-"
-"
 urlbar
 "
 ]

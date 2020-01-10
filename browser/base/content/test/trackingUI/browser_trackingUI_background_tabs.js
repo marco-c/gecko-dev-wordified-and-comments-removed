@@ -113,14 +113,6 @@ set
 :
 [
 [
-ContentBlocking
-.
-prefIntroCount
-ContentBlocking
-.
-MAX_INTROS
-]
-[
 TP_PREF
 true
 ]

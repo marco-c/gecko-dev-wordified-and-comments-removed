@@ -393,14 +393,6 @@ annotate_channels
 false
 ]
 [
-ContentBlocking
-.
-prefIntroCount
-ContentBlocking
-.
-MAX_INTROS
-]
-[
 "
 privacy
 .

@@ -58,14 +58,6 @@ enabled
 "
 true
 ]
-[
-ContentBlocking
-.
-prefIntroCount
-ContentBlocking
-.
-MAX_INTROS
-]
 ]
 }
 )
