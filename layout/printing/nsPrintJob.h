@@ -650,7 +650,7 @@ CheckBeforeDestroy
 )
 ;
 nsresult
-Cancelled
+Cancel
 (
 )
 ;

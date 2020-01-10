@@ -14814,7 +14814,7 @@ return
 mPrintJob
 -
 >
-Cancelled
+Cancel
 (
 )
 ;

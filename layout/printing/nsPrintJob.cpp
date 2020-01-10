@@ -2863,7 +2863,7 @@ nsresult
 nsPrintJob
 :
 :
-Cancelled
+Cancel
 (
 )
 {
