@@ -1937,11 +1937,17 @@ rv
 )
 )
 {
+if
+(
+aPointAfterInsertedString
+)
+{
 *
 aPointAfterInsertedString
 =
 pointToInsert
 ;
+}
 return
 NS_OK
 ;
