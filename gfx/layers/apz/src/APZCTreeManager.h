@@ -723,6 +723,15 @@ AsyncPanZoomController
 aAncestor
 )
 ;
+void
+SetFixedLayerMargins
+(
+ScreenIntCoord
+aTop
+ScreenIntCoord
+aBottom
+)
+;
 static
 LayerToParentLayerMatrix4x4
 ComputeTransformForScrollThumb
@@ -1668,6 +1677,9 @@ mTouchCounter
 ;
 ScreenPoint
 mCurrentMousePosition
+;
+ScreenMargin
+mFixedLayerMargins
 ;
 gfx
 :
