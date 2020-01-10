@@ -3400,6 +3400,12 @@ runTests
 manifest
 :
 {
+name
+:
+"
+Generated
+extension
+"
 browser_action
 :
 {

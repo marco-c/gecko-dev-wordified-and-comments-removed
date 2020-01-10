@@ -501,6 +501,7 @@ mozbrowser
 "
 )
 ;
+await
 SpecialPowers
 .
 addPermission
@@ -512,7 +513,9 @@ true
 TEST_URI
 )
 ;
-SpecialPowers
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -524,7 +527,9 @@ mozBrowserFramesEnabled
 true
 )
 ;
-SpecialPowers
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -654,7 +659,9 @@ mozbrowser
 "
 )
 ;
-SpecialPowers
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -665,7 +672,9 @@ mozBrowserFramesEnabled
 "
 )
 ;
-SpecialPowers
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -680,6 +689,7 @@ security
 "
 )
 ;
+await
 SpecialPowers
 .
 removePermission
