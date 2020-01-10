@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_mediahardwarekeyseventmac_h__
+DOM_MEDIA_MEDIACONTROL_MEDIAHARDWAREKEYSEVENTSOURCEMAC_H_
 #
 define
-mozilla_dom_mediahardwarekeyseventmac_h__
+DOM_MEDIA_MEDIACONTROL_MEDIAHARDWAREKEYSEVENTSOURCEMAC_H_
 #
 import
 <

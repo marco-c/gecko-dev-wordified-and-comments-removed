@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_mediacontroller_h__
+DOM_MEDIA_MEDIACONTROL_MEDIACONTROLLER_H_
 #
 define
-mozilla_dom_mediacontroller_h__
+DOM_MEDIA_MEDIACONTROL_MEDIACONTROLLER_H_
 #
 include
 "

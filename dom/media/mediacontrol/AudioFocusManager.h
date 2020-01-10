@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_audiofocusmanager_h__
+DOM_MEDIA_MEDIACONTROL_AUDIOFOCUSMANAGER_H_
 #
 define
-mozilla_dom_audiofocusmanager_h__
+DOM_MEDIA_MEDIACONTROL_AUDIOFOCUSMANAGER_H_
 #
 include
 "
