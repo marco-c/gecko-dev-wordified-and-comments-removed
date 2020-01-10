@@ -176,8 +176,6 @@ with
 Files
 (
 '
-test
-/
 xpcshell
 /
 rs
@@ -204,8 +202,6 @@ with
 Files
 (
 '
-test
-/
 xpcshell
 /
 xml
