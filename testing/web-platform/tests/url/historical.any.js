@@ -1,3 +1,10 @@
+if
+(
+self
+.
+location
+)
+{
 test
 (
 function
@@ -34,6 +41,7 @@ object
 "
 )
 ;
+}
 if
 (
 self
