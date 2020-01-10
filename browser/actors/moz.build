@@ -256,11 +256,6 @@ ContextMenuParent
 jsm
 '
 '
-ContextMenuSpecialProcessChild
-.
-jsm
-'
-'
 DOMFullscreenChild
 .
 jsm
