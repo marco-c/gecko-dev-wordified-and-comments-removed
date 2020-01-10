@@ -1,0 +1,10 @@
+browser
+.
+management
+.
+uninstallSelf
+(
+{
+}
+)
+;
