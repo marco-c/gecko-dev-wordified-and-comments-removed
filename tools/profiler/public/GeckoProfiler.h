@@ -567,21 +567,6 @@ MACRO
 (
 4
 "
-memory
-"
-Memory
-"
-Add
-memory
-measurements
-"
-)
-\
-\
-MACRO
-(
-5
-"
 privacy
 "
 Privacy
@@ -600,7 +585,7 @@ information
 \
 MACRO
 (
-6
+5
 "
 responsiveness
 "
@@ -617,7 +602,7 @@ information
 \
 MACRO
 (
-7
+6
 "
 screenshots
 "
@@ -639,7 +624,7 @@ composition
 \
 MACRO
 (
-8
+7
 "
 seqstyle
 "
@@ -657,7 +642,7 @@ styling
 \
 MACRO
 (
-9
+8
 "
 stackwalk
 "
@@ -681,7 +666,7 @@ platforms
 \
 MACRO
 (
-10
+9
 "
 tasktracer
 "
@@ -699,7 +684,7 @@ TaskTracer
 \
 MACRO
 (
-11
+10
 "
 threads
 "
@@ -716,7 +701,7 @@ threads
 \
 MACRO
 (
-12
+11
 "
 trackopts
 "
@@ -736,7 +721,7 @@ optimizations
 \
 MACRO
 (
-13
+12
 "
 jstracer
 "
@@ -754,7 +739,7 @@ engine
 \
 MACRO
 (
-14
+13
 "
 jsallocations
 "
