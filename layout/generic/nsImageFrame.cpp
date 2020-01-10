@@ -11627,6 +11627,7 @@ nsContentUtils
 TriggerLink
 (
 anchorNode
+aPresContext
 uri
 target
 clicked

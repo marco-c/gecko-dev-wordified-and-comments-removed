@@ -3077,6 +3077,10 @@ nsILoadContext
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsILinkHandler
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIDOMStorageManager
 )
 NS_INTERFACE_MAP_ENTRY_CONDITIONAL
@@ -52830,7 +52834,7 @@ aCsp
 )
 {
 }
-nsresult
+NS_IMETHODIMP
 nsDocShell
 :
 :
@@ -53076,7 +53080,7 @@ area
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsDocShell
 :
 :
@@ -53885,7 +53889,7 @@ return
 rv
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsDocShell
 :
 :
@@ -54056,7 +54060,7 @@ return
 rv
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsDocShell
 :
 :

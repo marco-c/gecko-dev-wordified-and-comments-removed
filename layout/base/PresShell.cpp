@@ -6948,6 +6948,14 @@ DetachPresShell
 (
 )
 ;
+mPresContext
+-
+>
+SetLinkHandler
+(
+nullptr
+)
+;
 }
 mHaveShutDown
 =

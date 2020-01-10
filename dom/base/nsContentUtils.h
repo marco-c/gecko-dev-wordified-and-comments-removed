@@ -4061,6 +4061,9 @@ TriggerLink
 nsIContent
 *
 aContent
+nsPresContext
+*
+aPresContext
 nsIURI
 *
 aLinkURI
