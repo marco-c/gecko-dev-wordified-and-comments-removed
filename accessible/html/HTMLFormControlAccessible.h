@@ -442,6 +442,15 @@ aAccEvent
 )
 override
 ;
+virtual
+Accessible
+*
+CurrentItem
+(
+)
+const
+override
+;
 }
 ;
 class
