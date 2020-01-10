@@ -250,6 +250,17 @@ property
 =
 value
 ;
+assert_true
+(
+CSS
+.
+supports
+(
+property
+value
+)
+)
+;
 for
 (
 let
