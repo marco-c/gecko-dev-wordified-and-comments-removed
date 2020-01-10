@@ -9271,7 +9271,7 @@ linkName
 NS_LITERAL_CSTRING
 (
 "
-rmnet_data
+rmnet
 "
 )
 )
