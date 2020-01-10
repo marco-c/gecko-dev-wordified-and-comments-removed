@@ -7648,7 +7648,7 @@ mozilla
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 rect
 )

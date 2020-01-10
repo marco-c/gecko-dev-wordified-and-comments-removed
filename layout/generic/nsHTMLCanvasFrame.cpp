@@ -771,7 +771,7 @@ r
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 bounds
 )
