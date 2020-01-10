@@ -7379,7 +7379,7 @@ mAliasTable
 .
 Get
 (
-familyName
+key
 )
 )
 {
@@ -7426,7 +7426,7 @@ mAliasTable
 .
 LookupOrAdd
 (
-familyName
+key
 )
 ;
 af
@@ -12293,6 +12293,15 @@ alias
 otherFamilyNames
 )
 {
+nsAutoCString
+key
+;
+GenerateFontListKey
+(
+alias
+key
+)
+;
 auto
 af
 =
@@ -12300,7 +12309,7 @@ mAliasTable
 .
 LookupOrAdd
 (
-alias
+key
 )
 ;
 af

@@ -6245,6 +6245,17 @@ alias
 otherFamilyNames
 )
 {
+nsAutoCString
+key
+(
+alias
+)
+;
+ToLowerCase
+(
+key
+)
+;
 auto
 af
 =
@@ -6252,7 +6263,7 @@ mAliasTable
 .
 LookupOrAdd
 (
-alias
+key
 )
 ;
 af
