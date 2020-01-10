@@ -74,11 +74,6 @@ messageInit
 ;
 readonly
 attribute
-USVString
-url
-;
-readonly
-attribute
 FrozenArray
 <
 NDEFRecord
@@ -90,9 +85,6 @@ records
 dictionary
 NDEFMessageInit
 {
-USVString
-url
-;
 sequence
 <
 NDEFRecordInit
@@ -399,7 +391,7 @@ dictionary
 NFCScanOptions
 {
 USVString
-url
+id
 =
 "
 "
