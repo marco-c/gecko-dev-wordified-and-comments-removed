@@ -137,6 +137,9 @@ nsDocShellLoadState
 ;
 %
 }
+webidl
+BrowsingContext
+;
 interface
 mozIDOMWindowProxy
 ;
@@ -656,7 +659,7 @@ however
 .
 *
 /
-mozIDOMWindowProxy
+BrowsingContext
 openWindow2
 (
 in
