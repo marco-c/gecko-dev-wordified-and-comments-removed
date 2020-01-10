@@ -12011,7 +12011,7 @@ aContent
 aContent
 -
 >
-GetBindingParent
+GetClosestNativeAnonymousSubtreeRootParent
 (
 )
 ;
