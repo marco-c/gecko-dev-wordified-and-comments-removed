@@ -586,7 +586,7 @@ return
 borrowed
 ;
 }
-BreakpointSite
+JSBreakpointSite
 *
 DebugScript
 :
@@ -634,7 +634,7 @@ offset
 nullptr
 ;
 }
-BreakpointSite
+JSBreakpointSite
 *
 DebugScript
 :
@@ -679,7 +679,7 @@ return
 nullptr
 ;
 }
-BreakpointSite
+JSBreakpointSite
 *
 &
 site
@@ -779,7 +779,7 @@ get
 script
 )
 ;
-BreakpointSite
+JSBreakpointSite
 *
 &
 site
@@ -803,9 +803,8 @@ MOZ_ASSERT
 site
 )
 ;
-size_t
-size
-=
+MOZ_ASSERT
+(
 site
 -
 >
@@ -821,15 +820,6 @@ Type
 :
 :
 JS
-?
-sizeof
-(
-JSBreakpointSite
-)
-:
-sizeof
-(
-WasmBreakpointSite
 )
 ;
 fop
@@ -839,7 +829,6 @@ delete_
 (
 script
 site
-size
 MemoryUse
 :
 :
@@ -1026,7 +1015,7 @@ pc
 +
 )
 {
-BreakpointSite
+JSBreakpointSite
 *
 site
 =
@@ -1692,7 +1681,7 @@ i
 +
 )
 {
-BreakpointSite
+JSBreakpointSite
 *
 site
 =
@@ -1707,8 +1696,10 @@ i
 if
 (
 site
-&
-&
+)
+{
+MOZ_ASSERT
+(
 site
 -
 >
@@ -1725,7 +1716,7 @@ Type
 :
 JS
 )
-{
+;
 CheckGCThingAfterMovingGC
 (
 site
@@ -1788,7 +1779,7 @@ i
 +
 )
 {
-BreakpointSite
+JSBreakpointSite
 *
 site
 =
@@ -2006,7 +1997,7 @@ jsbytecode
 pc
 )
 {
-BreakpointSite
+JSBreakpointSite
 *
 site
 =

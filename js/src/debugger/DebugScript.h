@@ -43,7 +43,7 @@ namespace
 js
 {
 class
-BreakpointSite
+JSBreakpointSite
 ;
 class
 Debugger
@@ -64,7 +64,7 @@ stepperCount
 uint32_t
 numSites
 ;
-BreakpointSite
+JSBreakpointSite
 *
 breakpoints
 [
@@ -112,7 +112,7 @@ codeLength
 *
 sizeof
 (
-BreakpointSite
+JSBreakpointSite
 *
 )
 ;
@@ -143,7 +143,7 @@ script
 public
 :
 static
-BreakpointSite
+JSBreakpointSite
 *
 getBreakpointSite
 (
@@ -156,7 +156,7 @@ pc
 )
 ;
 static
-BreakpointSite
+JSBreakpointSite
 *
 getOrCreateBreakpointSite
 (
