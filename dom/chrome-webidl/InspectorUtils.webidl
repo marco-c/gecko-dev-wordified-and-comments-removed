@@ -181,7 +181,7 @@ pseudo
 "
 optional
 boolean
-includeVisitedStyle
+relevantLinkVisited
 =
 false
 )
@@ -277,6 +277,11 @@ pseudo
 =
 "
 "
+optional
+boolean
+includeVisitedStyle
+=
+false
 )
 ;
 boolean

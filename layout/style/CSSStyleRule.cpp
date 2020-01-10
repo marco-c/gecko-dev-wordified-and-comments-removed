@@ -841,6 +841,8 @@ nsAString
 &
 aPseudo
 bool
+aRelevantLinkVisited
+bool
 *
 aMatches
 )
@@ -918,6 +920,7 @@ mRawRule
 aElement
 aSelectorIndex
 pseudoType
+aRelevantLinkVisited
 )
 ;
 return

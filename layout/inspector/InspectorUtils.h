@@ -237,6 +237,8 @@ const
 nsAString
 &
 aPseudo
+bool
+aRelevantLinkVisited
 ErrorResult
 &
 aRv
