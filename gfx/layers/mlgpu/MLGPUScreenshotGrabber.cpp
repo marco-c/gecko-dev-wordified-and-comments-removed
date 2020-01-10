@@ -451,7 +451,7 @@ NotifyEmptyFrame
 #
 ifdef
 MOZ_GECKO_PROFILER
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 NoCompositorScreenshot
@@ -459,12 +459,6 @@ because
 nothing
 changed
 "
-JS
-:
-:
-ProfilingCategoryPair
-:
-:
 GRAPHICS
 )
 ;
