@@ -1364,6 +1364,9 @@ this
 tooltip
 .
 panel
+createFramesForSuppressedWhitespace
+:
+false
 }
 )
 ;

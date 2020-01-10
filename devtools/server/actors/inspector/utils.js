@@ -814,6 +814,11 @@ node
 .
 getBoxQuads
 (
+{
+createFramesForSuppressedWhitespace
+:
+false
+}
 )
 ;
 return

@@ -486,6 +486,9 @@ relativeTo
 boundaryWindow
 .
 document
+createFramesForSuppressedWhitespace
+:
+false
 }
 )
 ;
