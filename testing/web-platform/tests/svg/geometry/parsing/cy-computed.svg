@@ -73,7 +73,7 @@ SVG
 Geometry
 Properties
 :
-getComputedValue
+getComputedStyle
 (
 )
 .
