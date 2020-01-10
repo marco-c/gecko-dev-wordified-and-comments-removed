@@ -193,6 +193,11 @@ TestUrlClassifierUtils
 cpp
 '
 '
+TestURLsAndHashing
+.
+cpp
+'
+'
 TestVariableLengthPrefixSet
 .
 cpp

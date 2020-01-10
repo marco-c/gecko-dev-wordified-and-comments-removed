@@ -2817,6 +2817,19 @@ path
 )
 ;
 }
+if
+(
+!
+paths
+.
+Contains
+(
+EmptyCString
+(
+)
+)
+)
+{
 paths
 .
 AppendElement
@@ -2826,6 +2839,7 @@ EmptyCString
 )
 )
 ;
+}
 for
 (
 uint32_t
