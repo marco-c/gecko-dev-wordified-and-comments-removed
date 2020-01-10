@@ -57,11 +57,17 @@ InputDeviceCapabilities
 /
 )
 [
+Exposed
+=
+Window
 Constructor
 (
 optional
 InputDeviceCapabilitiesInit
 deviceInitDict
+=
+{
+}
 )
 ]
 interface
