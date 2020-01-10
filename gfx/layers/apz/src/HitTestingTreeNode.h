@@ -402,7 +402,7 @@ GetTransform
 const
 ;
 LayerToScreenMatrix4x4
-GetTransformToGecko
+GetCSSTransformToRoot
 (
 )
 const

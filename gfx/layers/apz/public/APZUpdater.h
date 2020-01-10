@@ -248,6 +248,8 @@ aFocusTarget
 void
 UpdateHitTestingTree
 (
+LayersId
+aRootLayerTreeId
 Layer
 *
 aRoot

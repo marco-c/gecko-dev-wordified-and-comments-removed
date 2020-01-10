@@ -384,6 +384,8 @@ aFocusTarget
 void
 UpdateHitTestingTree
 (
+LayersId
+aRootLayerTreeId
 Layer
 *
 aRoot
@@ -398,6 +400,8 @@ aPaintSequenceNumber
 void
 UpdateHitTestingTree
 (
+LayersId
+aRootLayerTreeId
 const
 WebRenderScrollDataWrapper
 &
@@ -721,12 +725,10 @@ aOutData
 )
 ;
 void
-SendSubtreeTransformsToChromeMainThread
+CollectTransformsForChromeMainThread
 (
-const
-AsyncPanZoomController
-*
-aAncestor
+LayersId
+aRootLayerTreeId
 )
 ;
 static
@@ -1026,6 +1028,8 @@ ScrollNode
 void
 UpdateHitTestingTreeImpl
 (
+LayersId
+aRootLayerTreeId
 const
 ScrollNode
 &

@@ -269,6 +269,10 @@ manager
 >
 UpdateHitTestingTree
 (
+LayersId
+{
+0
+}
 root
 false
 LayersId
@@ -421,6 +425,10 @@ manager
 >
 UpdateHitTestingTree
 (
+LayersId
+{
+0
+}
 root
 false
 LayersId
@@ -693,6 +701,10 @@ manager
 >
 UpdateHitTestingTree
 (
+LayersId
+{
+0
+}
 root
 false
 LayersId
@@ -820,6 +832,10 @@ manager
 >
 UpdateHitTestingTree
 (
+LayersId
+{
+0
+}
 root
 false
 LayersId
@@ -1076,6 +1092,10 @@ manager
 >
 UpdateHitTestingTree
 (
+LayersId
+{
+0
+}
 root
 false
 LayersId
@@ -1692,6 +1712,10 @@ manager
 >
 UpdateHitTestingTree
 (
+LayersId
+{
+0
+}
 root
 false
 LayersId

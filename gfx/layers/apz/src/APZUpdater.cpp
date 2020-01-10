@@ -995,6 +995,8 @@ APZUpdater
 :
 UpdateHitTestingTree
 (
+LayersId
+aRootLayerTreeId
 Layer
 *
 aRoot
@@ -1025,6 +1027,7 @@ mApz
 >
 UpdateHitTestingTree
 (
+aRootLayerTreeId
 aRoot
 aIsFirstPaint
 aOriginatingWrRootId
@@ -1208,6 +1211,9 @@ mApz
 >
 UpdateHitTestingTree
 (
+aRootLayerTreeId
+.
+mLayersId
 WebRenderScrollDataWrapper
 (
 *
@@ -1357,6 +1363,9 @@ mApz
 >
 UpdateHitTestingTree
 (
+aRootLayerTreeId
+.
+mLayersId
 WebRenderScrollDataWrapper
 (
 *
