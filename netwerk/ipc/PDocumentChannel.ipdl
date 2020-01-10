@@ -294,6 +294,8 @@ NotifyClassificationFlags
 (
 uint32_t
 classificationFlags
+bool
+isThirdParty
 )
 ;
 async

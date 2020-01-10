@@ -299,6 +299,10 @@ const
 uint32_t
 &
 aClassificationFlags
+const
+bool
+&
+aIsThirdParty
 )
 ;
 mozilla
@@ -470,6 +474,11 @@ nsTArray
 DocumentChannelRedirect
 >
 mRedirects
+;
+uint32_t
+mFirstPartyClassificationFlags
+=
+0
 ;
 uint32_t
 mThirdPartyClassificationFlags

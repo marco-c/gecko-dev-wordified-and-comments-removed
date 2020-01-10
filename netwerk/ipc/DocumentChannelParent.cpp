@@ -3469,9 +3469,6 @@ aIsThirdParty
 {
 if
 (
-aIsThirdParty
-&
-&
 CanSend
 (
 )
@@ -3483,6 +3480,7 @@ Unused
 SendNotifyClassificationFlags
 (
 aClassificationFlags
+aIsThirdParty
 )
 ;
 }
