@@ -251,7 +251,7 @@ OnInvalidate
 =
 0
 ;
-InvalidatorListT
+void
 ResetInvalidators
 (
 InvalidatorListT
