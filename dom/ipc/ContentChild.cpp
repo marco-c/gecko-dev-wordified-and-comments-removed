@@ -4889,10 +4889,7 @@ uriToLoad
 features
 fullZoom
 name
-Principal
-(
 triggeringPrincipal
-)
 csp
 referrerInfo
 )

@@ -2271,12 +2271,8 @@ const
 nsString
 &
 aName
-const
-IPC
-:
-:
-Principal
-&
+nsIPrincipal
+*
 aTriggeringPrincipal
 nsIContentSecurityPolicy
 *

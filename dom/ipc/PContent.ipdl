@@ -7790,7 +7790,7 @@ float
 aFullZoom
 nsString
 aName
-Principal
+nsIPrincipal
 aTriggeringPrincipal
 nsIContentSecurityPolicy
 aCsp
