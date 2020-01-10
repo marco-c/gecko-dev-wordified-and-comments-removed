@@ -91,10 +91,7 @@ aStreamListener
 )
 override
 ;
-RefPtr
-<
-GenericPromise
->
+nsresult
 Close
 (
 )

@@ -468,10 +468,7 @@ return
 NS_OK
 ;
 }
-RefPtr
-<
-GenericPromise
->
+nsresult
 FileMediaResource
 :
 :
@@ -512,14 +509,7 @@ nullptr
 ;
 }
 return
-GenericPromise
-:
-:
-CreateAndResolve
-(
-true
-__func__
-)
+NS_OK
 ;
 }
 already_AddRefed

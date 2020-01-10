@@ -338,12 +338,12 @@ if
 mInputStream
 -
 >
-Audible
+Active
 (
 )
 )
 {
-NotifyAudible
+NotifyActive
 (
 )
 ;
@@ -586,10 +586,6 @@ AddPrincipalChangeObserver
 this
 )
 ;
-MarkActive
-(
-)
-;
 }
 void
 MediaStreamAudioSourceNode
@@ -821,6 +817,10 @@ track
 aRv
 )
 ;
+MarkActive
+(
+)
+;
 }
 return
 ;
@@ -939,7 +939,7 @@ void
 MediaStreamAudioSourceNode
 :
 :
-NotifyAudible
+NotifyActive
 (
 )
 {
