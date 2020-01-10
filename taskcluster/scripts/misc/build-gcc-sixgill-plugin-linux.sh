@@ -71,7 +71,7 @@ build
 gcc
 sixgill_rev
 =
-bc0ef9258470
+d73ae051e97c
 sixgill_repo
 =
 https
@@ -99,6 +99,15 @@ build
 gcc
 .
 sh
+mkdir
+root_dir
+/
+gcc
+-
+source
+|
+|
+true
 pushd
 root_dir
 /
