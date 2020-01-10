@@ -101,6 +101,15 @@ MediaDataEncoder
 struct
 CreateEncoderParams
 ;
+static
+LazyLogModule
+sPEMLog
+(
+"
+PlatformEncoderModule
+"
+)
+;
 class
 PlatformEncoderModule
 {
