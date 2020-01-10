@@ -1704,10 +1704,17 @@ Infinity
 string
 :
 "
++
 "
 parts
 :
 [
+PlusSign
+(
+"
++
+"
+)
 Inf
 (
 "

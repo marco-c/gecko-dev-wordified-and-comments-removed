@@ -639,9 +639,8 @@ minute
 "
 )
 "
-in
-0
-minutes
+this
+minute
 "
 )
 ;
@@ -658,9 +657,8 @@ minute
 "
 )
 "
-0
-minutes
-ago
+this
+minute
 "
 )
 ;
@@ -713,9 +711,8 @@ hour
 "
 )
 "
-in
-0
-hours
+this
+hour
 "
 )
 ;
@@ -732,9 +729,8 @@ hour
 "
 )
 "
-0
-hours
-ago
+this
+hour
 "
 )
 ;

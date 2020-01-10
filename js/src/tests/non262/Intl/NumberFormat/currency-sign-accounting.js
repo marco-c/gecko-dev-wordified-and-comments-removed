@@ -1246,10 +1246,17 @@ Infinity
 string
 :
 "
++
 "
 parts
 :
 [
+PlusSign
+(
+"
++
+"
+)
 Currency
 (
 "
