@@ -4657,8 +4657,6 @@ remotetabs
 -
 syncnow
 "
-lazy
--
 data
 -
 l10n
@@ -7335,8 +7333,6 @@ syncnow
 -
 button
 "
-lazy
--
 data
 -
 l10n
