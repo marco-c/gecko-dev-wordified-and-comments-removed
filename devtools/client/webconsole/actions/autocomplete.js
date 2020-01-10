@@ -36,7 +36,8 @@ return
 {
 dispatch
 getState
-services
+webConsoleUI
+hud
 }
 )
 =
@@ -44,7 +45,7 @@ services
 {
 if
 (
-services
+hud
 .
 inputHasSelection
 (
@@ -63,7 +64,7 @@ autocompleteClear
 const
 inputValue
 =
-services
+hud
 .
 getInputValue
 (
@@ -77,7 +78,7 @@ frameActorId
 client
 }
 =
-services
+webConsoleUI
 .
 getFrameActor
 (
@@ -86,7 +87,7 @@ getFrameActor
 const
 cursor
 =
-services
+webConsoleUI
 .
 getInputCursor
 (
@@ -415,7 +416,7 @@ return
 (
 {
 dispatch
-services
+webConsoleUI
 }
 )
 =
@@ -424,7 +425,7 @@ services
 const
 selectedNodeActor
 =
-services
+webConsoleUI
 .
 getSelectedNodeActor
 (

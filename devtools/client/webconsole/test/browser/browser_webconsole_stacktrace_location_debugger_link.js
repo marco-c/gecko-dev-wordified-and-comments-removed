@@ -296,8 +296,6 @@ onSourceInDebuggerOpened
 once
 (
 hud
-.
-ui
 "
 source
 -

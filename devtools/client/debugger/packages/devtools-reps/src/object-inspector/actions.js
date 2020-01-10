@@ -225,11 +225,6 @@ loadItemProperties
 (
 node
 client
-.
-createObjectClient
-client
-.
-createLongStringClient
 loadedProperties
 )
 ;

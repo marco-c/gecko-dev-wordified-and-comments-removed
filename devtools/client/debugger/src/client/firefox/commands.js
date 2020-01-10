@@ -311,7 +311,9 @@ loadProperties
 loadItemProperties
 (
 root
+{
 createObjectClient
+}
 )
 ;
 return
