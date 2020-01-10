@@ -8969,9 +8969,10 @@ Unused
 browserChild
 -
 >
-SendFireFrameLoadEvent
+SendMaybeFireEmbedderLoadEvents
 (
 aIsTrusted
+true
 )
 ;
 }

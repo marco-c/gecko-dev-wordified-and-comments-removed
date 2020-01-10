@@ -3659,10 +3659,12 @@ ipc
 :
 :
 IPCResult
-RecvFireFrameLoadEvent
+RecvMaybeFireEmbedderLoadEvents
 (
 bool
 aIsTrusted
+bool
+aFireLoadAtEmbeddingElement
 )
 ;
 private
