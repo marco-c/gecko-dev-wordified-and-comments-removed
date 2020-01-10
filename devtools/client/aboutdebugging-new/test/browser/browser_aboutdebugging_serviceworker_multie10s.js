@@ -212,6 +212,12 @@ true
 )
 ;
 await
+wait
+(
+1000
+)
+;
+await
 selectThisFirefoxPage
 (
 document
