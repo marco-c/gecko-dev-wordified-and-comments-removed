@@ -200,10 +200,9 @@ expected
 ;
 dbg
 .
-removeDebuggee
-(
-g
-)
+enabled
+=
+false
 ;
 }
 test
