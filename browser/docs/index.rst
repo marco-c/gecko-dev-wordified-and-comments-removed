@@ -35,8 +35,6 @@ toctree
 maxdepth
 :
 2
-browser
-/
 urlbar
 /
 index
