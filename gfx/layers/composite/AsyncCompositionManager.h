@@ -606,9 +606,6 @@ CompositorBridgeParent
 *
 mCompositorBridge
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 public
 :
 void
@@ -628,6 +625,14 @@ const
 ;
 private
 :
+ScreenMargin
+mFixedLayerMargins
+;
+#
+ifdef
+MOZ_WIDGET_ANDROID
+private
+:
 bool
 FrameMetricsHaveUpdated
 (
@@ -645,9 +650,6 @@ ScrollableLayerGuid
 :
 ViewID
 mRootScrollableId
-;
-ScreenMargin
-mFixedLayerMargins
 ;
 #
 endif
