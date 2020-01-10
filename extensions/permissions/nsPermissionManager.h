@@ -1883,7 +1883,7 @@ nsCStringHashKey
 mozilla
 :
 :
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 Private
