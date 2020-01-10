@@ -56,6 +56,9 @@ false
 tabEventTarget
 :
 false
+RPMGetAppBuildID
+:
+false
 RPMGetIntPref
 :
 false
