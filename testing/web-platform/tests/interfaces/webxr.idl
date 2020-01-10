@@ -360,9 +360,9 @@ XRPose
 getPose
 (
 XRSpace
-sourceSpace
+space
 XRSpace
-destinationSpace
+baseSpace
 )
 ;
 }
