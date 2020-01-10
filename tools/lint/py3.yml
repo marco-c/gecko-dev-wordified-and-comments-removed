@@ -101,10 +101,6 @@ gtest
 -
 testing
 /
-mochitest
--
-testing
-/
 mozharness
 -
 testing
