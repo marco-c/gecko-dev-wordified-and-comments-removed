@@ -1576,6 +1576,11 @@ IntSize
 aSurfaceSize
 )
 ;
+void
+HandleMainThreadCATransaction
+(
+)
+;
 #
 ifdef
 ACCESSIBILITY
