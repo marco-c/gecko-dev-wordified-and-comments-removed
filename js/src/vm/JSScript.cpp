@@ -7609,7 +7609,7 @@ i
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -7640,7 +7640,7 @@ return
 false
 ;
 }
-realm
+zone
 (
 )
 -
@@ -7694,7 +7694,7 @@ false
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -7813,7 +7813,7 @@ p
 script
 -
 >
-realm
+zone
 (
 )
 -
@@ -7854,7 +7854,7 @@ p
 script
 -
 >
-realm
+zone
 (
 )
 -
@@ -9038,7 +9038,7 @@ get
 )
 )
 ;
-realm
+zone
 (
 )
 -
@@ -9098,7 +9098,7 @@ GetScriptNameMapEntry
 this
 )
 ;
-realm
+zone
 (
 )
 -
@@ -9191,7 +9191,7 @@ hasScriptName
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -9206,7 +9206,7 @@ false
 auto
 p
 =
-realm
+zone
 (
 )
 -
@@ -21587,7 +21587,7 @@ vtuneMethodID
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -21622,7 +21622,7 @@ ScriptVTuneIdMap
 )
 ;
 }
-realm
+zone
 (
 )
 -
@@ -21644,7 +21644,7 @@ ScriptVTuneIdMap
 AddPtr
 p
 =
-realm
+zone
 (
 )
 -
@@ -21684,7 +21684,7 @@ GenerateUniqueMethodID
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -21753,7 +21753,7 @@ true
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -21784,7 +21784,7 @@ return
 false
 ;
 }
-realm
+zone
 (
 )
 -
@@ -21828,7 +21828,7 @@ false
 if
 (
 !
-realm
+zone
 (
 )
 -
@@ -23490,7 +23490,7 @@ ifdef
 MOZ_VTUNE
 if
 (
-realm
+zone
 (
 )
 -
@@ -23498,7 +23498,7 @@ realm
 scriptVTuneIdMap
 )
 {
-realm
+zone
 (
 )
 -

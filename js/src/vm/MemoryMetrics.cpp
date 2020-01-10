@@ -1395,6 +1395,10 @@ crossCompartmentWrappersTables
 zStats
 .
 compartmentsPrivateData
+&
+zStats
+.
+scriptCountsMap
 )
 ;
 }
@@ -1540,10 +1544,6 @@ nonSyntacticLexicalScopesTable
 realmStats
 .
 jitRealm
-&
-realmStats
-.
-scriptCountsMap
 )
 ;
 }

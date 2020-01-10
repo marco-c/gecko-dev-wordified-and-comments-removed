@@ -2479,6 +2479,13 @@ Other
 MallocHeap
 compartmentsPrivateData
 )
+\
+MACRO
+(
+Other
+MallocHeap
+scriptCountsMap
+)
 ZoneStats
 (
 )
@@ -2892,13 +2899,6 @@ MACRO
 Other
 MallocHeap
 jitRealm
-)
-\
-MACRO
-(
-Other
-MallocHeap
-scriptCountsMap
 )
 RealmStats
 (
