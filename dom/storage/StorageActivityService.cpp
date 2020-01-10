@@ -1086,7 +1086,7 @@ aTo
 )
 {
 return
-NS_ERROR_RANGE_ERR
+NS_ERROR_INVALID_ARG
 ;
 }
 nsresult
