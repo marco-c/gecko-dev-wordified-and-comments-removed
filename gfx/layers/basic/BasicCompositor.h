@@ -891,6 +891,12 @@ DrawTarget
 >
 mDrawTarget
 ;
+gfx
+:
+:
+IntRect
+mDrawTargetBounds
+;
 RefPtr
 <
 BasicCompositingRenderTarget
