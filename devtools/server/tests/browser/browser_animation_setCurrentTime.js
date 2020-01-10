@@ -249,7 +249,7 @@ currentTime
 .
 toPrecision
 (
-6
+4
 )
 10
 )
