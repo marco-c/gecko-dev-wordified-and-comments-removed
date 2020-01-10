@@ -1245,6 +1245,13 @@ properties
 .
 items
 }
+cta_variant
+=
+{
+component
+.
+cta_variant
+}
 /
 >
 )

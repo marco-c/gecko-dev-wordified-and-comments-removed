@@ -48,6 +48,10 @@ top
 :
 12px
 ;
+position
+:
+relative
+;
 .
 story
 -
@@ -73,6 +77,15 @@ grey
 40
 ;
 }
+-
+webkit
+-
+line
+-
+clamp
+:
+1
+;
 font
 -
 size

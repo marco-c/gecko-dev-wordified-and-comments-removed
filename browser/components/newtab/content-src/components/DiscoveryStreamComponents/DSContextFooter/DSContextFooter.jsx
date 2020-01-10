@@ -111,6 +111,7 @@ ANIMATION_DURATION
 =
 3000
 ;
+export
 const
 StatusMessage
 =
@@ -250,6 +251,7 @@ story
 sponsored
 -
 label
+clamp
 "
 >
 {
