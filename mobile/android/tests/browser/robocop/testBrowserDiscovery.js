@@ -504,7 +504,6 @@ engines
 let
 matchCount
 =
-(
 !
 (
 "
@@ -526,12 +525,10 @@ length
 test
 .
 count
-)
 ;
 let
 matchTitle
 =
-(
 test
 .
 title
@@ -545,7 +542,6 @@ engines
 ]
 .
 title
-)
 ;
 ok
 (
@@ -1050,7 +1046,6 @@ feeds
 let
 matchCount
 =
-(
 !
 (
 "
@@ -1072,12 +1067,10 @@ length
 test
 .
 count
-)
 ;
 let
 matchTitle
 =
-(
 test
 .
 title
@@ -1091,7 +1084,6 @@ feeds
 ]
 .
 title
-)
 ;
 ok
 (

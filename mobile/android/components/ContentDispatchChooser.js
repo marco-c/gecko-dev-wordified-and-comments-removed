@@ -275,6 +275,7 @@ if
 (
 aWindowContext
 )
+{
 window
 =
 aWindowContext
@@ -286,6 +287,7 @@ Ci
 nsIDOMWindow
 )
 ;
+}
 }
 catch
 (
@@ -411,9 +413,7 @@ window
 )
 ;
 }
-(
 data
-)
 =
 >
 {

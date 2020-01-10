@@ -455,9 +455,7 @@ p
 .
 show
 (
-(
 data
-)
 =
 >
 {
@@ -482,6 +480,7 @@ tag
 )
 {
 return
+(
 (
 !
 tag
@@ -524,6 +523,7 @@ only
 .
 xul
 "
+)
 ;
 }
 _isMenu

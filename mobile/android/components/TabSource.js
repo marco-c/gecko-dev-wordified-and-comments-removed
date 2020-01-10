@@ -319,6 +319,7 @@ browser
 .
 contentTitle
 )
+{
 label
 =
 tab
@@ -327,6 +328,7 @@ browser
 .
 contentTitle
 ;
+}
 else
 if
 (
@@ -336,6 +338,7 @@ browser
 .
 contentURI
 )
+{
 label
 =
 tab
@@ -346,7 +349,9 @@ contentURI
 .
 displaySpec
 ;
+}
 else
+{
 label
 =
 tab
@@ -355,6 +360,7 @@ originalURI
 .
 displaySpec
 ;
+}
 return
 {
 label

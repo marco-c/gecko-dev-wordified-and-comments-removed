@@ -2122,6 +2122,7 @@ if
 (
 blocked
 )
+{
 item
 .
 setAttribute
@@ -2132,6 +2133,7 @@ blockedStatus
 blocked
 )
 ;
+}
 item
 .
 setAttribute
@@ -2190,14 +2192,13 @@ list
 .
 querySelector
 (
-"
+'
 div
 [
 addonID
 =
-\
 "
-"
+'
 +
 CSS
 .
@@ -2206,11 +2207,10 @@ escape
 aKey
 )
 +
-"
-\
+'
 "
 ]
-"
+'
 )
 ;
 return
@@ -2328,8 +2328,10 @@ i
 .
 isSystem
 )
+{
 continue
 ;
+}
 let
 item
 =
@@ -2563,6 +2565,7 @@ AddonManager
 .
 PENDING_UNINSTALL
 )
+{
 return
 "
 needs
@@ -2570,6 +2573,7 @@ needs
 uninstall
 "
 ;
+}
 if
 (
 aOperations
@@ -2578,6 +2582,7 @@ AddonManager
 .
 PENDING_ENABLE
 )
+{
 return
 "
 needs
@@ -2585,6 +2590,7 @@ needs
 enable
 "
 ;
+}
 if
 (
 aOperations
@@ -2593,6 +2599,7 @@ AddonManager
 .
 PENDING_DISABLE
 )
+{
 return
 "
 needs
@@ -2600,6 +2607,7 @@ needs
 disable
 "
 ;
+}
 return
 "
 "
@@ -2704,6 +2712,7 @@ optionsURL
 let
 addon
 =
+(
 detailItem
 .
 addon
@@ -2711,6 +2720,7 @@ addon
 aListItem
 .
 addon
+)
 ;
 let
 favicon
@@ -3364,9 +3374,7 @@ frame
 .
 onload
 =
-(
 evt
-)
 =
 >
 {
@@ -3553,8 +3561,10 @@ if
 !
 addon
 )
+{
 return
 ;
+}
 let
 listItem
 =
@@ -3715,7 +3725,6 @@ item
 addon
 &
 &
-(
 item
 .
 addon
@@ -3726,7 +3735,6 @@ type
 "
 theme
 "
-)
 &
 &
 updateOtherThemeStateInUI
@@ -3796,7 +3804,6 @@ pendingOperations
 ;
 if
 (
-(
 addon
 .
 pendingOperations
@@ -3804,10 +3811,8 @@ pendingOperations
 AddonManager
 .
 PENDING_ENABLE
-)
 |
 |
-(
 addon
 .
 pendingOperations
@@ -3815,7 +3820,6 @@ pendingOperations
 AddonManager
 .
 PENDING_DISABLE
-)
 )
 {
 this
@@ -3887,6 +3891,7 @@ if
 (
 opType
 )
+{
 detailItem
 .
 setAttribute
@@ -3897,7 +3902,9 @@ opType
 opType
 )
 ;
+}
 else
+{
 detailItem
 .
 removeAttribute
@@ -3907,6 +3914,7 @@ opType
 "
 )
 ;
+}
 if
 (
 !
@@ -3962,6 +3970,7 @@ if
 (
 opType
 )
+{
 listItem
 .
 setAttribute
@@ -3972,7 +3981,9 @@ opType
 opType
 )
 ;
+}
 else
+{
 listItem
 .
 removeAttribute
@@ -3982,6 +3993,7 @@ opType
 "
 )
 ;
+}
 }
 }
 enable
@@ -4050,8 +4062,10 @@ if
 !
 addon
 )
+{
 return
 ;
+}
 gChromeWin
 .
 ExtensionPermissions
@@ -4103,8 +4117,10 @@ if
 !
 addon
 )
+{
 return
 ;
+}
 this
 .
 uninstall
@@ -4191,6 +4207,7 @@ opType
 "
 "
 )
+{
 opType
 =
 "
@@ -4199,6 +4216,7 @@ needs
 uninstall
 "
 ;
+}
 detailItem
 .
 setAttribute
@@ -4260,8 +4278,10 @@ if
 !
 addon
 )
+{
 return
 ;
+}
 addon
 .
 cancelUninstall
@@ -4363,6 +4383,7 @@ _restartCount
 =
 0
 )
+{
 gChromeWin
 .
 XPInstallObserver
@@ -4371,6 +4392,7 @@ hideRestartPrompt
 (
 )
 ;
+}
 }
 onEnabled
 :
@@ -4396,8 +4418,10 @@ if
 !
 listItem
 )
+{
 return
 ;
+}
 listItem
 .
 setAttribute
@@ -4443,6 +4467,7 @@ detailItem
 .
 addon
 )
+{
 this
 .
 showDetails
@@ -4450,6 +4475,7 @@ showDetails
 listItem
 )
 ;
+}
 }
 onInstallEnded
 :
@@ -4471,7 +4497,6 @@ aInstall
 existingAddon
 &
 &
-(
 aInstall
 .
 existingAddon
@@ -4482,11 +4507,12 @@ AddonManager
 .
 PENDING_UPGRADE
 )
-)
+{
 needsRestart
 =
 true
 ;
+}
 else
 if
 (
@@ -4498,10 +4524,12 @@ AddonManager
 .
 PENDING_INSTALL
 )
+{
 needsRestart
 =
 true
 ;
+}
 let
 list
 =
@@ -4558,6 +4586,7 @@ if
 (
 needsRestart
 )
+{
 element
 .
 setAttribute
@@ -4572,6 +4601,7 @@ restart
 "
 )
 ;
+}
 }
 onInstalled
 :
@@ -4799,7 +4829,6 @@ item
 addon
 &
 &
-(
 item
 .
 addon
@@ -4810,7 +4839,6 @@ type
 "
 theme
 "
-)
 )
 {
 item

@@ -56,6 +56,7 @@ this
 _hasUsedToolbar
 ;
 return
+(
 this
 .
 _hasUsedToolbar
@@ -71,6 +72,7 @@ reader
 .
 has_used_toolbar
 "
+)
 )
 ;
 }
@@ -175,7 +177,6 @@ return
 {
 handled
 :
-(
 listener
 ?
 listener
@@ -183,7 +184,6 @@ listener
 )
 :
 false
-)
 }
 ;
 }
@@ -309,9 +309,7 @@ browser
 .
 then
 (
-(
 article
-)
 =
 >
 {
@@ -386,9 +384,7 @@ url
 .
 then
 (
-(
 article
-)
 =
 >
 {
@@ -1263,9 +1259,7 @@ messageManager
 let
 listener
 =
-(
 message
-)
 =
 >
 {

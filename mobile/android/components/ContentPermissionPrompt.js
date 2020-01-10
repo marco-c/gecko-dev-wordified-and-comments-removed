@@ -119,9 +119,7 @@ const
 kEntities
 =
 {
-"
 contacts
-"
 :
 "
 contacts
@@ -135,9 +133,7 @@ notification
 "
 desktopNotification2
 "
-"
 geolocation
-"
 :
 "
 geolocation
@@ -387,9 +383,7 @@ nsIContentPermissionType
 let
 callback
 =
-(
 allow
-)
 =
 >
 {
@@ -432,9 +426,7 @@ ACCESS_FINE_LOCATION
 .
 then
 (
-(
 granted
-)
 =
 >
 {
@@ -615,6 +607,7 @@ entityName
 desktopNotification2
 "
 )
+{
 Services
 .
 perms
@@ -634,6 +627,7 @@ nsIPermissionManager
 DENY_ACTION
 )
 ;
+}
 callback
 (
 false
@@ -665,7 +659,6 @@ aChecked
 let
 isPermanent
 =
-(
 aChecked
 |
 |
@@ -675,7 +668,6 @@ entityName
 "
 desktopNotification2
 "
-)
 ;
 if
 (
@@ -765,7 +757,6 @@ request
 let
 requestor
 =
-(
 chromeWin
 .
 BrowserApp
@@ -776,7 +767,6 @@ chromeWin
 BrowserApp
 .
 manifest
-)
 ?
 "
 '

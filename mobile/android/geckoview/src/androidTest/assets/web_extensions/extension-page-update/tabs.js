@@ -5,9 +5,7 @@ runtime
 sendMessage
 (
 {
-"
 action
-"
 :
 "
 showTab

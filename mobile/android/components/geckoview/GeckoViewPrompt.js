@@ -783,12 +783,10 @@ selected
 !
 =
 =
-(
 index
 >
 =
 0
-)
 )
 {
 dispatchEvents
@@ -1396,7 +1394,6 @@ function
 let
 childItems
 =
-(
 this
 .
 _cursor
@@ -1407,7 +1404,6 @@ label
 =
 "
 "
-)
 ?
 this
 .
@@ -2292,9 +2288,11 @@ aMsg
 res
 =
 >
+(
 result
 =
 res
+)
 )
 ;
 Services
@@ -2612,6 +2610,7 @@ aCheckState
 )
 {
 return
+(
 this
 .
 confirmEx
@@ -2632,6 +2631,7 @@ aCheckState
 =
 =
 0
+)
 ;
 }
 confirmEx
@@ -3015,7 +3015,6 @@ checkValue
 ;
 }
 return
-(
 result
 &
 &
@@ -3024,7 +3023,6 @@ result
 button
 in
 btnMap
-)
 ?
 btnMap
 [
@@ -3452,7 +3450,6 @@ username
 ;
 if
 (
-(
 aAuthInfo
 .
 flags
@@ -3462,7 +3459,6 @@ Ci
 nsIAuthInformation
 .
 NEED_DOMAIN
-)
 &
 &
 aAuthInfo
@@ -3922,7 +3918,6 @@ aAuthInfo
 let
 isProxy
 =
-(
 aAuthInfo
 .
 flags
@@ -3932,12 +3927,10 @@ Ci
 nsIAuthInformation
 .
 AUTH_PROXY
-)
 ;
 let
 isPassOnly
 =
-(
 aAuthInfo
 .
 flags
@@ -3947,12 +3940,10 @@ Ci
 nsIAuthInformation
 .
 ONLY_PASSWORD
-)
 ;
 let
 isCrossOrig
 =
-(
 aAuthInfo
 .
 flags
@@ -3962,7 +3953,6 @@ Ci
 nsIAuthInformation
 .
 CROSS_ORIGIN_SUB_RESOURCE
-)
 ;
 let
 username
@@ -4471,7 +4461,6 @@ title
 aTitle
 mode
 :
-(
 aMode
 =
 =
@@ -4481,7 +4470,6 @@ Ci
 nsIFilePicker
 .
 modeOpenMultiple
-)
 ?
 "
 multiple

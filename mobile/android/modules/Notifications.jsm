@@ -65,11 +65,9 @@ this
 .
 _when
 =
-(
 new
 Date
 (
-)
 )
 .
 getTime
@@ -112,6 +110,7 @@ icon
 =
 null
 )
+{
 this
 .
 _icon
@@ -120,7 +119,9 @@ aOptions
 .
 icon
 ;
+}
 else
+{
 throw
 new
 Error
@@ -133,6 +134,7 @@ mandatory
 "
 )
 ;
+}
 if
 (
 "
@@ -149,6 +151,7 @@ title
 =
 null
 )
+{
 this
 .
 _title
@@ -157,7 +160,9 @@ aOptions
 .
 title
 ;
+}
 else
+{
 throw
 new
 Error
@@ -170,6 +175,7 @@ mandatory
 "
 )
 ;
+}
 if
 (
 "
@@ -186,6 +192,7 @@ message
 =
 null
 )
+{
 this
 .
 _message
@@ -194,13 +201,16 @@ aOptions
 .
 message
 ;
+}
 else
+{
 this
 .
 _message
 =
 null
 ;
+}
 if
 (
 "
@@ -217,6 +227,7 @@ priority
 =
 null
 )
+{
 this
 .
 _priority
@@ -225,6 +236,7 @@ aOptions
 .
 priority
 ;
+}
 if
 (
 "
@@ -252,6 +264,7 @@ length
 >
 3
 )
+{
 throw
 new
 Error
@@ -270,6 +283,7 @@ is
 "
 )
 ;
+}
 this
 .
 _buttons
@@ -350,6 +364,7 @@ ongoing
 =
 null
 )
+{
 this
 .
 _ongoing
@@ -358,13 +373,16 @@ aOptions
 .
 ongoing
 ;
+}
 else
+{
 this
 .
 _ongoing
 =
 false
 ;
+}
 if
 (
 "
@@ -381,6 +399,7 @@ progress
 =
 null
 )
+{
 this
 .
 _progress
@@ -389,13 +408,16 @@ aOptions
 .
 progress
 ;
+}
 else
+{
 this
 .
 _progress
 =
 null
 ;
+}
 if
 (
 "
@@ -412,6 +434,7 @@ onCancel
 =
 null
 )
+{
 this
 .
 _onCancel
@@ -420,13 +443,16 @@ aOptions
 .
 onCancel
 ;
+}
 else
+{
 this
 .
 _onCancel
 =
 null
 ;
+}
 if
 (
 "
@@ -443,6 +469,7 @@ onClick
 =
 null
 )
+{
 this
 .
 _onClick
@@ -451,13 +478,16 @@ aOptions
 .
 onClick
 ;
+}
 else
+{
 this
 .
 _onClick
 =
 null
 ;
+}
 if
 (
 "
@@ -474,6 +504,7 @@ cookie
 =
 null
 )
+{
 this
 .
 _cookie
@@ -482,13 +513,16 @@ aOptions
 .
 cookie
 ;
+}
 else
+{
 this
 .
 _cookie
 =
 null
 ;
+}
 if
 (
 "
@@ -505,6 +539,7 @@ handlerKey
 =
 null
 )
+{
 this
 .
 _handlerKey
@@ -513,6 +548,7 @@ aOptions
 .
 handlerKey
 ;
+}
 if
 (
 "
@@ -529,6 +565,7 @@ persistent
 =
 null
 )
+{
 this
 .
 _persistent
@@ -537,13 +574,16 @@ aOptions
 .
 persistent
 ;
+}
 else
+{
 this
 .
 _persistent
 =
 false
 ;
+}
 }
 show
 :
@@ -593,6 +633,7 @@ this
 .
 _message
 )
+{
 msg
 .
 text
@@ -601,6 +642,7 @@ this
 .
 _message
 ;
+}
 if
 (
 this
@@ -667,6 +709,7 @@ this
 .
 _cookie
 )
+{
 msg
 .
 cookie
@@ -680,12 +723,14 @@ this
 _cookie
 )
 ;
+}
 if
 (
 this
 .
 _priority
 )
+{
 msg
 .
 priority
@@ -694,6 +739,7 @@ this
 .
 _priority
 ;
+}
 if
 (
 this
@@ -768,6 +814,7 @@ this
 .
 _light
 )
+{
 msg
 .
 light
@@ -776,12 +823,14 @@ this
 .
 _light
 ;
+}
 if
 (
 this
 .
 _handlerKey
 )
+{
 msg
 .
 handlerKey
@@ -790,6 +839,7 @@ this
 .
 _handlerKey
 ;
+}
 EventDispatcher
 .
 instance
@@ -872,6 +922,7 @@ this
 idService
 ;
 return
+(
 this
 .
 idService
@@ -896,6 +947,7 @@ getService
 Ci
 .
 nsIUUIDGenerator
+)
 )
 ;
 }
@@ -1061,6 +1113,7 @@ if
 !
 notification
 )
+{
 throw
 new
 Error
@@ -1072,6 +1125,7 @@ id
 "
 )
 ;
+}
 notification
 .
 fillWithOptions
@@ -1106,12 +1160,14 @@ if
 (
 notification
 )
+{
 notification
 .
 cancel
 (
 )
 ;
+}
 }
 onEvent
 :
@@ -1186,6 +1242,7 @@ notification
 .
 _onClick
 )
+{
 notification
 .
 _onClick
@@ -1196,6 +1253,7 @@ notification
 _cookie
 )
 ;
+}
 if
 (
 handlerKey
@@ -1319,6 +1377,7 @@ notification
 .
 _onCancel
 )
+{
 notification
 .
 _onCancel
@@ -1329,6 +1388,7 @@ notification
 _cookie
 )
 ;
+}
 delete
 _notificationsMap
 [

@@ -853,7 +853,6 @@ aElement
 "
 HTMLInputElement
 "
-)
 &
 &
 !
@@ -871,7 +870,6 @@ aElement
 )
 &
 &
-(
 aElement
 .
 type
@@ -881,10 +879,8 @@ type
 "
 password
 "
-)
 &
 &
-(
 aElement
 .
 autocomplete
@@ -992,8 +988,10 @@ value
 =
 aSearchString
 )
+{
 continue
 ;
+}
 suggestions
 .
 push
@@ -1186,7 +1184,6 @@ filter
 &
 &
 !
-(
 label
 .
 toLowerCase
@@ -1196,7 +1193,6 @@ toLowerCase
 includes
 (
 lowerFieldValue
-)
 )
 )
 {
@@ -1254,7 +1250,6 @@ return
 let
 isEmpty
 =
-(
 aElement
 .
 value
@@ -1264,7 +1259,6 @@ length
 =
 =
 0
-)
 ;
 let
 resultsAvailable
@@ -1407,6 +1401,7 @@ aElement
 {
 return
 (
+(
 ChromeUtils
 .
 getClassName
@@ -1483,6 +1478,7 @@ invalid
 aElement
 .
 validationMessage
+)
 ;
 }
 _showValidationMessage

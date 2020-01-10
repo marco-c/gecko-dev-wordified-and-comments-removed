@@ -228,9 +228,7 @@ pendingInits
 .
 filter
 (
-(
 init
-)
 =
 >
 !

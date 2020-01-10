@@ -75,7 +75,6 @@ warn
 let
 flag
 =
-(
 aMessage
 .
 level
@@ -96,7 +95,6 @@ Ci
 nsIScriptError
 .
 warningFlag
-)
 ;
 let
 consoleMsg
@@ -570,6 +568,7 @@ constructor
 .
 name
 )
+{
 type
 =
 aResult
@@ -578,6 +577,7 @@ constructor
 .
 name
 ;
+}
 return
 type
 .
@@ -715,6 +715,7 @@ hookIndex
 -
 1
 )
+{
 aSourceURL
 =
 aSourceURL
@@ -725,6 +726,7 @@ substring
 hookIndex
 )
 ;
+}
 if
 (
 aSourceURL
@@ -741,6 +743,7 @@ length
 /
 "
 )
+{
 aSourceURL
 =
 aSourceURL
@@ -755,6 +758,7 @@ length
 1
 )
 ;
+}
 let
 slashIndex
 =
@@ -774,6 +778,7 @@ slashIndex
 -
 1
 )
+{
 aSourceURL
 =
 aSourceURL
@@ -785,6 +790,7 @@ slashIndex
 1
 )
 ;
+}
 return
 aSourceURL
 ;

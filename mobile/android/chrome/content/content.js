@@ -1911,11 +1911,9 @@ if
 i
 !
 =
-(
 numSubjectAltNames
 -
 1
-)
 )
 {
 msg
@@ -2500,6 +2498,7 @@ isReaderableAboutReader
 )
 {
 return
+(
 this
 .
 isAboutReader
@@ -2515,6 +2514,7 @@ documentElement
 dataset
 .
 isError
+)
 ;
 }
 get
@@ -2523,6 +2523,7 @@ isErrorPage
 )
 {
 return
+(
 content
 .
 document
@@ -2568,6 +2569,7 @@ about
 :
 blocked
 "
+)
 )
 ;
 }

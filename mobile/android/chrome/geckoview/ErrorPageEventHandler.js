@@ -173,8 +173,10 @@ aEvent
 .
 isTrusted
 )
+{
 return
 ;
+}
 let
 target
 =
@@ -375,12 +377,10 @@ ERROR_TIME
 let
 temporary
 =
-(
 target
 =
 =
 temp
-)
 |
 |
 PrivateBrowsingUtils

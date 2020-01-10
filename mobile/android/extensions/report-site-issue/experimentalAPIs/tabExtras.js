@@ -630,9 +630,7 @@ onDesktopSiteRequested
 "
 register
 :
-(
 fire
-)
 =
 >
 {

@@ -152,9 +152,7 @@ init
 const
 listener
 =
-(
 event
-)
 =
 >
 {
@@ -175,7 +173,6 @@ return
 const
 newType
 =
-(
 event
 .
 type
@@ -185,7 +182,6 @@ type
 "
 activate
 "
-)
 ?
 "
 navigator
@@ -348,11 +344,13 @@ then
 )
 =
 >
+(
 this
 .
 _promptingForAllow
 =
 null
+)
 )
 ;
 return
@@ -917,11 +915,13 @@ then
 )
 =
 >
+(
 this
 .
 _receivingOOB
 =
 null
+)
 )
 ;
 return

@@ -50,6 +50,7 @@ this
 _pk11DB
 ;
 return
+(
 this
 .
 _pk11DB
@@ -74,6 +75,7 @@ getService
 Ci
 .
 nsIPK11TokenDB
+)
 )
 ;
 }

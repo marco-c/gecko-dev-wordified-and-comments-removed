@@ -87,7 +87,6 @@ nsIUUIDGenerator
 const
 IS_PARENT_PROCESS
 =
-(
 Services
 .
 appinfo
@@ -100,7 +99,6 @@ Services
 appinfo
 .
 PROCESS_TYPE_DEFAULT
-)
 ;
 function
 DispatcherDelegate

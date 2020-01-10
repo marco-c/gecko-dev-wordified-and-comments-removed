@@ -741,7 +741,6 @@ handler
 {
 handler
 =
-(
 _
 =
 >
@@ -769,7 +768,6 @@ scope
 [
 name
 ]
-)
 ;
 }
 const
@@ -1895,11 +1893,9 @@ file
 line
 ]
 =
-(
 new
 Error
 (
-)
 )
 .
 stack

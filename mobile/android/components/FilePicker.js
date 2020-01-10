@@ -246,11 +246,13 @@ nsIFilePicker
 .
 modeOpenMultiple
 )
+{
 throw
 Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;
+}
 }
 appendFilters
 :
@@ -489,6 +491,7 @@ this
 .
 _extensionsFilter
 )
+{
 this
 .
 _extensionsFilter
@@ -497,6 +500,7 @@ _extensionsFilter
 "
 "
 ;
+}
 this
 .
 _extensionsFilter
@@ -874,6 +878,7 @@ this
 .
 _filePath
 )
+{
 return
 Ci
 .
@@ -881,6 +886,7 @@ nsIFilePicker
 .
 returnOK
 ;
+}
 return
 Ci
 .
@@ -1249,8 +1255,10 @@ aDomWin
 .
 document
 )
+{
 return
 ;
+}
 let
 event
 =

@@ -210,6 +210,7 @@ this
 .
 __strBundle
 )
+{
 throw
 new
 Error
@@ -226,6 +227,7 @@ present
 "
 )
 ;
+}
 }
 return
 this
@@ -310,8 +312,10 @@ this
 .
 _debug
 )
+{
 return
 ;
+}
 dump
 (
 "
@@ -1248,6 +1252,7 @@ if
 (
 formatArgs
 )
+{
 return
 this
 .
@@ -1261,6 +1266,7 @@ key
 formatArgs
 )
 ;
+}
 return
 this
 .

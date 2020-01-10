@@ -728,6 +728,7 @@ keyCode
 =
 VKB_ENTER_KEY
 )
+{
 aEvent
 .
 target
@@ -736,6 +737,7 @@ blur
 (
 )
 ;
+}
 }
 create
 :
@@ -928,7 +930,6 @@ _booleanValue
 .
 value
 =
-(
 this
 .
 _booleanValue
@@ -947,7 +948,6 @@ false
 "
 true
 "
-)
 ;
 }
 }
@@ -1796,6 +1796,7 @@ keyCode
 =
 VKB_ENTER_KEY
 )
+{
 aEvent
 .
 target
@@ -1804,6 +1805,7 @@ blur
 (
 )
 ;
+}
 }
 getLINodeForEvent
 :
@@ -2242,7 +2244,7 @@ document
 .
 querySelector
 (
-"
+'
 .
 pref
 -
@@ -2250,9 +2252,8 @@ item
 [
 name
 =
-\
 "
-"
+'
 +
 CSS
 .
@@ -2263,11 +2264,10 @@ pref
 name
 )
 +
-"
-\
+'
 "
 ]
-"
+'
 )
 ;
 if

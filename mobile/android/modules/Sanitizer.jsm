@@ -607,9 +607,7 @@ Cache
 .
 catch
 (
-(
 err
-)
 =
 >
 {
@@ -2010,11 +2008,9 @@ countLogins
 )
 ;
 return
-(
 count
 >
 0
-)
 ;
 }
 }

@@ -460,13 +460,11 @@ type
 null
 editable
 :
-(
 element
 instanceof
 window
 .
 HTMLInputElement
-)
 &
 &
 [
@@ -678,7 +676,6 @@ element
 sendFocusEvent
 |
 =
-(
 element
 =
 =
@@ -688,7 +685,6 @@ element
 ownerDocument
 .
 activeElement
-)
 ;
 return
 info
@@ -796,7 +792,6 @@ filter
 element
 =
 >
-(
 !
 usernameField
 |
@@ -815,7 +810,6 @@ element
 =
 =
 usernameField
-)
 )
 .
 map

@@ -600,9 +600,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

@@ -1380,9 +1380,7 @@ notifications
 .
 forEach
 (
-(
 notification
-)
 =
 >
 {
@@ -1562,9 +1560,7 @@ browsers
 let
 listener
 =
-(
 message
-)
 =
 >
 {
@@ -1643,9 +1639,7 @@ messages
 .
 forEach
 (
-(
 message
-)
 =
 >
 {
@@ -2184,7 +2178,6 @@ b
 )
 {
 return
-(
 Math
 .
 abs
@@ -2197,7 +2190,6 @@ b
 1e
 -
 6
-)
 ;
 }
 XPCOMUtils
@@ -2303,6 +2295,7 @@ if
 !
 aURI
 )
+{
 throw
 new
 Error
@@ -2318,6 +2311,7 @@ uri
 "
 )
 ;
+}
 if
 (
 aURI
@@ -2743,6 +2737,7 @@ this
 isTablet
 ;
 return
+(
 this
 .
 isTablet
@@ -2754,6 +2749,7 @@ get
 "
 tablet
 "
+)
 )
 ;
 }
@@ -2795,6 +2791,7 @@ this
 isOnLowMemoryPlatform
 ;
 return
+(
 this
 .
 isOnLowMemoryPlatform
@@ -2803,6 +2800,7 @@ memory
 .
 isLowMemoryPlatform
 (
+)
 )
 ;
 }
@@ -3166,9 +3164,7 @@ addEventListener
 "
 fullscreenchange
 "
-(
 e
-)
 =
 >
 {
@@ -5909,7 +5905,6 @@ aElement
 let
 url
 =
-(
 aElement
 .
 currentSrc
@@ -5918,7 +5913,6 @@ currentSrc
 aElement
 .
 src
-)
 ;
 let
 title
@@ -7306,7 +7300,6 @@ enabled
 )
 &
 &
-(
 Services
 .
 prefs
@@ -7324,7 +7317,6 @@ value
 !
 =
 1
-)
 )
 {
 Services
@@ -7755,9 +7747,11 @@ isContentDocumentDisplayed
 window
 )
 )
+{
 return
 false
 ;
+}
 }
 catch
 (
@@ -7780,9 +7774,11 @@ if
 !
 tab
 )
+{
 return
 false
 ;
+}
 return
 tab
 .
@@ -7841,8 +7837,10 @@ _selectedTab
 =
 aTab
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -7871,8 +7869,10 @@ if
 !
 aTab
 )
+{
 return
 ;
+}
 aTab
 .
 setActive
@@ -7916,6 +7916,7 @@ this
 .
 _selectedTab
 )
+{
 return
 this
 .
@@ -7923,6 +7924,7 @@ _selectedTab
 .
 browser
 ;
+}
 return
 null
 ;
@@ -7972,12 +7974,14 @@ id
 =
 aId
 )
+{
 return
 tabs
 [
 i
 ]
 ;
+}
 }
 return
 null
@@ -8028,12 +8032,14 @@ browser
 =
 aBrowser
 )
+{
 return
 tabs
 [
 i
 ]
 ;
+}
 }
 return
 null
@@ -8086,12 +8092,14 @@ contentWindow
 =
 aWindow
 )
+{
 return
 tabs
 [
 i
 ]
 ;
+}
 }
 return
 null
@@ -8144,6 +8152,7 @@ contentWindow
 =
 aWindow
 )
+{
 return
 tabs
 [
@@ -8152,6 +8161,7 @@ i
 .
 browser
 ;
+}
 }
 return
 null
@@ -8204,6 +8214,7 @@ contentDocument
 =
 aDocument
 )
+{
 return
 tabs
 [
@@ -8212,6 +8223,7 @@ i
 .
 browser
 ;
+}
 }
 return
 null
@@ -8259,8 +8271,10 @@ if
 !
 aBrowser
 )
+{
 return
 ;
+}
 aParams
 =
 aParams
@@ -8291,7 +8305,6 @@ LOAD_FLAGS_NONE
 let
 postData
 =
-(
 "
 postData
 "
@@ -8302,7 +8315,6 @@ aParams
 aParams
 .
 postData
-)
 ?
 aParams
 .
@@ -8366,6 +8378,7 @@ userRequested
 in
 aParams
 )
+{
 tab
 .
 userRequested
@@ -8374,17 +8387,16 @@ aParams
 .
 userRequested
 ;
+}
 tab
 .
 isSearch
 =
-(
 "
 isSearch
 "
 in
 aParams
-)
 ?
 aParams
 .
@@ -8621,12 +8633,14 @@ if
 (
 selected
 )
+{
 this
 .
 selectedTab
 =
 newTab
 ;
+}
 let
 evt
 =
@@ -8746,12 +8760,14 @@ this
 .
 selectedTab
 )
+{
 this
 .
 selectedTab
 =
 null
 ;
+}
 let
 tabIndex
 =
@@ -9132,11 +9148,9 @@ id
 let
 step
 =
-(
 fromPosition
 <
 toPosition
-)
 ?
 1
 :
@@ -9197,24 +9211,16 @@ UIEvent
 TabMove
 "
 {
-"
 bubbles
-"
 :
 true
-"
 cancelable
-"
 :
 false
-"
 view
-"
 :
 window
-"
 detail
-"
 :
 fromPosition
 }
@@ -9281,8 +9287,10 @@ this
 .
 selectedTab
 )
+{
 return
 ;
+}
 let
 doc
 =
@@ -10348,8 +10356,10 @@ aItems
 key
 ]
 )
+{
 continue
 ;
+}
 key
 =
 key
@@ -10622,9 +10632,11 @@ if
 !
 aBrowser
 )
+{
 return
 null
 ;
+}
 let
 doc
 =
@@ -10637,9 +10649,11 @@ if
 !
 doc
 )
+{
 return
 null
 ;
+}
 let
 focused
 =
@@ -10708,9 +10722,11 @@ if
 (
 aOnlyInputElements
 )
+{
 return
 null
 ;
+}
 if
 (
 focused
@@ -11814,6 +11830,7 @@ if
 (
 sh
 )
+{
 webNav
 =
 sh
@@ -11827,6 +11844,7 @@ Ci
 nsIWebNavigation
 )
 ;
+}
 }
 catch
 (
@@ -11930,13 +11948,11 @@ LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
 let
 delayLoad
 =
-(
 "
 delayLoad
 "
 in
 data
-)
 ?
 data
 .
@@ -11950,13 +11966,11 @@ params
 {
 selected
 :
-(
 "
 selected
 "
 in
 data
-)
 ?
 data
 .
@@ -11966,13 +11980,11 @@ selected
 delayLoad
 parentId
 :
-(
 "
 parentId
 "
 in
 data
-)
 ?
 data
 .
@@ -11990,7 +12002,6 @@ data
 tabID
 isPrivate
 :
-(
 data
 .
 isPrivate
@@ -11998,10 +12009,8 @@ isPrivate
 =
 =
 true
-)
 pinned
 :
-(
 data
 .
 pinned
@@ -12009,19 +12018,15 @@ pinned
 =
 =
 true
-)
 delayLoad
 :
-(
 delayLoad
 =
 =
 =
 true
-)
 desktopMode
 :
-(
 data
 .
 desktopMode
@@ -12029,7 +12034,6 @@ desktopMode
 =
 =
 true
-)
 }
 ;
 params
@@ -12196,10 +12200,12 @@ if
 (
 specificBrowser
 )
+{
 browser
 =
 specificBrowser
 ;
+}
 }
 this
 .
@@ -13147,9 +13153,7 @@ split
 .
 map
 (
-(
 x
-)
 =
 >
 x
@@ -13165,9 +13169,7 @@ toLowerCase
 .
 filter
 (
-(
 x
-)
 =
 >
 x
@@ -13228,9 +13230,7 @@ split
 .
 map
 (
-(
 x
-)
 =
 >
 x
@@ -13587,14 +13587,10 @@ else
 {
 return
 {
-"
 historyItems
-"
 :
 listitems
-"
 toIndex
-"
 :
 toIndex
 }
@@ -13668,12 +13664,10 @@ URI
 displaySpec
 selected
 :
-(
 i
 =
 =
 selIndex
-)
 }
 ;
 listitems
@@ -13686,14 +13680,10 @@ item
 }
 return
 {
-"
 historyItems
-"
 :
 listitems
-"
 toIndex
-"
 :
 toIndex
 }
@@ -13726,14 +13716,12 @@ browser
 const
 evtType
 =
-(
 manifest
 &
 &
 manifest
 .
 installed
-)
 ?
 "
 Website
@@ -14162,8 +14150,10 @@ if
 !
 aOptions
 )
+{
 return
 ;
+}
 GlobalEventDispatcher
 .
 sendRequest
@@ -14656,9 +14646,7 @@ addEventListener
 "
 contextmenu
 "
-(
 e
-)
 =
 >
 NativeWindow
@@ -14756,6 +14744,7 @@ args
 .
 label
 )
+{
 throw
 new
 Error
@@ -14770,6 +14759,7 @@ name
 "
 )
 ;
+}
 let
 cmItem
 =
@@ -14834,6 +14824,7 @@ aElt
 .
 matches
 )
+{
 return
 aElt
 .
@@ -14842,6 +14833,7 @@ matches
 aSelector
 )
 ;
+}
 return
 false
 ;
@@ -14955,7 +14947,6 @@ tel
 /
 ;
 return
-(
 scheme
 &
 &
@@ -14965,7 +14956,6 @@ dontOpen
 test
 (
 scheme
-)
 )
 ;
 }
@@ -15022,7 +15012,6 @@ tel
 /
 ;
 return
-(
 scheme
 &
 &
@@ -15032,7 +15021,6 @@ dontCopy
 test
 (
 scheme
-)
 )
 ;
 }
@@ -15099,7 +15087,6 @@ tel
 /
 ;
 return
-(
 scheme
 &
 &
@@ -15109,7 +15096,6 @@ dontShare
 test
 (
 scheme
-)
 )
 ;
 }
@@ -15166,7 +15152,6 @@ tel
 /
 ;
 return
-(
 scheme
 &
 &
@@ -15176,7 +15161,6 @@ dontBookmark
 test
 (
 scheme
-)
 )
 ;
 }
@@ -15212,6 +15196,7 @@ if
 (
 uri
 )
+{
 return
 uri
 .
@@ -15222,6 +15207,7 @@ mailto
 "
 )
 ;
+}
 return
 false
 ;
@@ -15254,6 +15240,7 @@ if
 (
 uri
 )
+{
 return
 uri
 .
@@ -15264,6 +15251,7 @@ tel
 "
 )
 ;
+}
 return
 false
 ;
@@ -15440,11 +15428,9 @@ CURRENT_REQUEST
 )
 ;
 return
-(
 request
 &
 &
-(
 request
 .
 imageStatus
@@ -15452,8 +15438,6 @@ imageStatus
 request
 .
 STATUS_SIZE_AVAILABLE
-)
-)
 ;
 }
 return
@@ -15546,6 +15530,7 @@ length
 MAX_IMG_SRC_LEN
 ;
 return
+(
 !
 isTooLong
 &
@@ -15561,6 +15546,7 @@ imageSaveableContext
 matches
 (
 aElement
+)
 )
 ;
 }
@@ -15735,9 +15721,11 @@ if
 (
 hasError
 )
+{
 return
 false
 ;
+}
 let
 paused
 =
@@ -15764,9 +15752,11 @@ media
 paused
 "
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -15782,9 +15772,11 @@ media
 playing
 "
 )
+{
 return
 true
 ;
+}
 let
 controls
 =
@@ -15807,9 +15799,11 @@ media
 hidingcontrols
 "
 )
+{
 return
 true
 ;
+}
 let
 muted
 =
@@ -15831,9 +15825,11 @@ media
 muted
 "
 )
+{
 return
 true
 ;
+}
 else
 if
 (
@@ -15850,9 +15846,11 @@ media
 unmuted
 "
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -15956,6 +15954,7 @@ this
 .
 _targetRef
 )
+{
 return
 this
 .
@@ -15965,6 +15964,7 @@ get
 (
 )
 ;
+}
 return
 null
 ;
@@ -15979,6 +15979,7 @@ if
 (
 aTarget
 )
+{
 this
 .
 _targetRef
@@ -15990,13 +15991,16 @@ getWeakReference
 aTarget
 )
 ;
+}
 else
+{
 this
 .
 _targetRef
 =
 null
 ;
+}
 }
 get
 defaultContext
@@ -16009,6 +16013,7 @@ this
 defaultContext
 ;
 return
+(
 this
 .
 defaultContext
@@ -16028,6 +16033,7 @@ context
 .
 default
 "
+)
 )
 ;
 }
@@ -16133,8 +16139,10 @@ elt
 .
 label
 )
+{
 continue
 ;
+}
 items
 .
 push
@@ -17556,7 +17564,6 @@ return
 ;
 }
 return
-(
 a
 .
 order
@@ -17564,7 +17571,6 @@ order
 b
 .
 order
-)
 ?
 1
 :
@@ -18560,9 +18566,7 @@ fallbackThemeData
 theme
 :
 {
-"
 headerURL
-"
 :
 "
 resource
@@ -18577,18 +18581,14 @@ parental_controls_theme
 .
 png
 "
-"
 name
-"
 :
 "
 Parental
 Controls
 Theme
 "
-"
 id
-"
 :
 "
 parental
@@ -19102,9 +19102,11 @@ chrome
 "
 )
 )
+{
 return
 null
 ;
+}
 let
 loadflags
 =
@@ -19372,7 +19374,6 @@ browser
 let
 newTab
 =
-(
 aWhere
 =
 =
@@ -19401,7 +19402,6 @@ Ci
 nsIBrowserDOMWindow
 .
 OPEN_SWITCHTAB
-)
 ;
 let
 isPrivate
@@ -19467,7 +19467,6 @@ browser
 let
 openerWindow
 =
-(
 aFlags
 &
 Ci
@@ -19475,7 +19474,6 @@ Ci
 nsIBrowserDOMWindow
 .
 OPEN_NO_OPENER
-)
 ?
 null
 :
@@ -20045,8 +20043,10 @@ this
 .
 browser
 )
+{
 return
 ;
+}
 aParams
 =
 aParams
@@ -20206,13 +20206,11 @@ false
 let
 isPrivate
 =
-(
 "
 isPrivate
 "
 in
 aParams
-)
 &
 &
 aParams
@@ -20363,11 +20361,13 @@ onSuccess
 response
 =
 >
+(
 this
 .
 id
 =
 response
+)
 }
 )
 ;
@@ -20376,13 +20376,11 @@ this
 .
 desktopMode
 =
-(
 "
 desktopMode
 "
 in
 aParams
-)
 ?
 aParams
 .
@@ -20394,7 +20392,6 @@ this
 .
 _parentId
 =
-(
 "
 parentId
 "
@@ -20411,7 +20408,6 @@ parentId
 "
 number
 "
-)
 ?
 aParams
 .
@@ -20450,13 +20446,11 @@ this
 parentId
 tabIndex
 :
-(
 "
 tabIndex
 "
 in
 aParams
-)
 ?
 aParams
 .
@@ -20466,13 +20460,11 @@ tabIndex
 1
 external
 :
-(
 "
 external
 "
 in
 aParams
-)
 ?
 aParams
 .
@@ -20481,7 +20473,6 @@ external
 false
 selected
 :
-(
 "
 selected
 "
@@ -20496,7 +20487,6 @@ cancelEditMode
 =
 =
 true
-)
 ?
 aParams
 .
@@ -21203,7 +21193,6 @@ LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
 let
 postData
 =
-(
 "
 postData
 "
@@ -21214,7 +21203,6 @@ aParams
 aParams
 .
 postData
-)
 ?
 aParams
 .
@@ -21460,8 +21448,10 @@ https
 "
 )
 )
+{
 return
 ;
+}
 let
 url
 =
@@ -21551,8 +21541,10 @@ this
 .
 browser
 )
+{
 return
 ;
+}
 this
 .
 browser
@@ -21966,8 +21958,10 @@ browser
 .
 docShell
 )
+{
 return
 ;
+}
 this
 .
 lastTouchedAt
@@ -22121,19 +22115,13 @@ UIEvent
 TabPreZombify
 "
 {
-"
 bubbles
-"
 :
 true
-"
 cancelable
-"
 :
 false
-"
 view
-"
 :
 window
 }
@@ -22247,19 +22235,13 @@ UIEvent
 TabPostZombify
 "
 {
-"
 bubbles
-"
 :
 true
-"
 cancelable
-"
 :
 false
-"
 view
-"
 :
 window
 }
@@ -22519,6 +22501,7 @@ rel
 in
 hash
 )
+{
 list
 .
 push
@@ -22534,6 +22517,7 @@ rel
 "
 )
 ;
+}
 }
 return
 list
@@ -22733,6 +22717,7 @@ browser
 .
 feeds
 )
+{
 this
 .
 browser
@@ -22742,6 +22727,7 @@ feeds
 [
 ]
 ;
+}
 this
 .
 browser
@@ -22952,7 +22938,6 @@ g
 let
 isOpenSearch
 =
-(
 type
 =
 =
@@ -22963,7 +22948,6 @@ opensearchdescription
 +
 xml
 "
-)
 ;
 if
 (
@@ -23153,9 +23137,11 @@ length
 >
 1
 )
+{
 return
 null
 ;
+}
 GlobalEventDispatcher
 .
 sendRequest
@@ -23201,7 +23187,6 @@ aParentId
 let
 newParentId
 =
-(
 typeof
 aParentId
 =
@@ -23209,7 +23194,6 @@ aParentId
 "
 number
 "
-)
 ?
 aParentId
 :
@@ -23343,8 +23327,10 @@ browser
 .
 contentDocument
 )
+{
 return
 ;
+}
 let
 docURI
 =
@@ -23483,9 +23469,7 @@ READ_EXTERNAL_STORAGE
 .
 then
 (
-(
 permissionAlreadyGranted
-)
 =
 >
 {
@@ -23506,9 +23490,7 @@ READ_EXTERNAL_STORAGE
 .
 then
 (
-(
 permissionGranted
-)
 =
 >
 {
@@ -24009,8 +23991,10 @@ target
 .
 disabled
 )
+{
 return
 ;
+}
 if
 (
 target
@@ -24024,8 +24008,10 @@ browser
 .
 contentDocument
 )
+{
 return
 ;
+}
 let
 list
 =
@@ -24198,7 +24184,6 @@ g
 let
 isFeed
 =
-(
 type
 =
 =
@@ -24221,15 +24206,16 @@ atom
 +
 xml
 "
-)
 ;
 if
 (
 !
 isFeed
 )
+{
 return
 ;
+}
 jsonMessage
 =
 this
@@ -24314,8 +24300,10 @@ if
 !
 jsonMessage
 )
+{
 return
 ;
+}
 GlobalEventDispatcher
 .
 sendRequest
@@ -24339,8 +24327,10 @@ aEvent
 .
 isTrusted
 )
+{
 return
 ;
+}
 if
 (
 aEvent
@@ -24354,8 +24344,10 @@ browser
 .
 contentDocument
 )
+{
 return
 ;
+}
 GlobalEventDispatcher
 .
 sendRequest
@@ -24522,8 +24514,10 @@ aEvent
 .
 isTrusted
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -24581,8 +24575,10 @@ aEvent
 .
 isTrusted
 )
+{
 return
 ;
+}
 let
 tab
 =
@@ -24921,8 +24917,10 @@ browser
 .
 contentWindow
 )
+{
 return
 ;
+}
 GlobalEventDispatcher
 .
 sendRequest
@@ -24986,6 +24984,7 @@ this
 .
 _linkifier
 )
+{
 this
 .
 _linkifier
@@ -24995,6 +24994,7 @@ Linkifier
 (
 )
 ;
+}
 this
 .
 _linkifier
@@ -25092,8 +25092,10 @@ contentWin
 .
 top
 )
+{
 return
 ;
+}
 if
 (
 aStateFlags
@@ -25156,7 +25158,6 @@ spec
 else
 if
 (
-(
 aStateFlags
 &
 Ci
@@ -25164,7 +25165,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 &
 &
 !
@@ -25201,7 +25201,6 @@ spec
 }
 if
 (
-(
 aStateFlags
 &
 Ci
@@ -25209,7 +25208,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 &
 &
 aWebProgress
@@ -25293,6 +25291,7 @@ originalURI
 =
 null
 )
+{
 uri
 =
 this
@@ -25301,6 +25300,7 @@ originalURI
 .
 displaySpec
 ;
+}
 }
 catch
 (
@@ -25582,7 +25582,6 @@ LOCATION_CHANGE_SAME_DOCUMENT
 |
 |
 (
-(
 this
 .
 browser
@@ -25591,7 +25590,6 @@ lastURI
 !
 =
 null
-)
 &
 &
 fixedURI
@@ -25932,14 +25930,12 @@ baseDomain
 highlightDomain
 contentType
 :
-(
 contentType
 ?
 contentType
 :
 "
 "
-)
 sameDocument
 canGoBack
 :
@@ -26037,8 +26033,10 @@ this
 .
 _hostChanged
 )
+{
 return
 ;
+}
 this
 .
 _state
@@ -26874,9 +26872,11 @@ this
 .
 browser
 )
+{
 return
 null
 ;
+}
 return
 this
 .
@@ -27285,8 +27285,10 @@ this
 .
 _highlightElement
 )
+{
 return
 ;
+}
 this
 .
 _highlightElement
@@ -27327,8 +27329,10 @@ aEvent
 .
 isTrusted
 )
+{
 return
 ;
+}
 let
 target
 =
@@ -27529,12 +27533,10 @@ ERROR_TIME
 let
 temporary
 =
-(
 target
 =
 =
 temp
-)
 |
 |
 PrivateBrowsingUtils
@@ -27754,7 +27756,6 @@ nsISecurityUITelemetry
 let
 isIframe
 =
-(
 errorDoc
 .
 defaultView
@@ -27766,7 +27767,6 @@ parent
 errorDoc
 .
 defaultView
-)
 ;
 bucketName
 +
@@ -28331,8 +28331,10 @@ if
 !
 tab
 )
+{
 return
 ;
+}
 let
 enabled
 =
@@ -28387,9 +28389,7 @@ dismiss
 )
 ]
 ;
-(
 data
-)
 =
 >
 {
@@ -28436,9 +28436,7 @@ dismiss
 )
 ]
 ;
-(
 data
-)
 =
 >
 {
@@ -28524,8 +28522,10 @@ if
 !
 tab
 )
+{
 return
 ;
+}
 let
 message
 ;
@@ -28675,9 +28675,7 @@ buttons
 .
 show
 (
-(
 data
-)
 =
 >
 {
@@ -28722,8 +28720,10 @@ if
 !
 tab
 )
+{
 return
 ;
+}
 new
 Prompt
 (
@@ -28777,9 +28777,7 @@ dismiss
 .
 show
 (
-(
 data
-)
 =
 >
 {
@@ -29088,9 +29086,7 @@ dismiss
 .
 show
 (
-(
 data
-)
 =
 >
 {
@@ -29174,7 +29170,6 @@ aInstall
 existingAddon
 &
 &
-(
 aInstall
 .
 existingAddon
@@ -29185,11 +29180,12 @@ AddonManager
 .
 PENDING_UPGRADE
 )
-)
+{
 needsRestart
 =
 true
 ;
+}
 else
 if
 (
@@ -29201,10 +29197,12 @@ AddonManager
 .
 PENDING_INSTALL
 )
+{
 needsRestart
 =
 true
 ;
+}
 if
 (
 needsRestart
@@ -29432,7 +29430,6 @@ return
 let
 host
 =
-(
 aInstall
 .
 originatingURI
@@ -29440,7 +29437,6 @@ instanceof
 Ci
 .
 nsIStandardURL
-)
 &
 &
 aInstall
@@ -29457,7 +29453,6 @@ host
 {
 host
 =
-(
 aInstall
 .
 sourceURI
@@ -29465,7 +29460,6 @@ instanceof
 Ci
 .
 nsIStandardURL
-)
 &
 &
 aInstall
@@ -29478,7 +29472,6 @@ displayHost
 let
 error
 =
-(
 host
 |
 |
@@ -29488,7 +29481,6 @@ error
 =
 =
 0
-)
 ?
 "
 addonError
@@ -29697,9 +29689,7 @@ learnMore
 .
 show
 (
-(
 data
-)
 =
 >
 {
@@ -30039,8 +30029,10 @@ originalTarget
 =
 browser
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -30048,8 +30040,10 @@ browser
 .
 blockedPopups
 )
+{
 return
 ;
+}
 let
 result
 =
@@ -30080,8 +30074,10 @@ nsIPermissionManager
 .
 DENY_ACTION
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -30206,6 +30202,7 @@ if
 (
 aChecked
 )
+{
 PopupBlockerObserver
 .
 allowPopupsForSite
@@ -30213,6 +30210,7 @@ allowPopupsForSite
 false
 )
 ;
+}
 }
 }
 {
@@ -30239,6 +30237,7 @@ if
 (
 aChecked
 )
+{
 PopupBlockerObserver
 .
 allowPopupsForSite
@@ -30246,6 +30245,7 @@ allowPopupsForSite
 true
 )
 ;
+}
 PopupBlockerObserver
 .
 showPopupsForSite
@@ -30439,8 +30439,10 @@ uri
 .
 spec
 )
+{
 continue
 ;
+}
 let
 popupFeatures
 =
@@ -30613,8 +30615,10 @@ if
 !
 tab
 )
+{
 return
 ;
+}
 let
 host
 =
@@ -31666,7 +31670,6 @@ aState
 {
 if
 (
-(
 aState
 &
 Ci
@@ -31674,7 +31677,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_LOADED_MIXED_ACTIVE_CONTENT
-)
 &
 &
 !
@@ -31805,7 +31807,6 @@ aBrowser
 ;
 if
 (
-(
 aState
 &
 Ci
@@ -31813,7 +31814,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_LOADED_TRACKING_CONTENT
-)
 &
 &
 tpEnabled
@@ -32284,6 +32284,7 @@ this
 .
 _overrideService
 )
+{
 this
 .
 _overrideService
@@ -32310,6 +32311,7 @@ Ci
 nsICertOverrideService
 )
 ;
+}
 if
 (
 this
@@ -32330,7 +32332,6 @@ this
 _lastLocation
 .
 hostname
-(
 this
 .
 _lastLocation
@@ -32339,7 +32340,6 @@ port
 |
 |
 443
-)
 iData
 .
 cert
@@ -32394,6 +32394,7 @@ this
 .
 _IDNService
 )
+{
 this
 .
 _IDNService
@@ -32422,6 +32423,7 @@ Ci
 nsIIDNService
 )
 ;
+}
 try
 {
 return
@@ -32691,7 +32693,6 @@ engine
 identifier
 iconURI
 :
-(
 engine
 .
 iconURI
@@ -32703,7 +32704,6 @@ iconURI
 spec
 :
 null
-)
 hidden
 :
 engine
@@ -33019,6 +33019,7 @@ then
 )
 =
 >
+(
 Services
 .
 search
@@ -33026,6 +33027,7 @@ search
 defaultEngine
 =
 engine
+)
 )
 ;
 break
@@ -33207,8 +33209,10 @@ if
 !
 tab
 )
+{
 return
 ;
+}
 let
 browser
 =
@@ -33278,8 +33282,10 @@ button
 -
 1
 )
+{
 return
 ;
+}
 this
 .
 addOpenSearchEngine
@@ -33956,7 +33962,6 @@ title
 {
 value
 :
-(
 aElement
 .
 ownerDocument
@@ -33967,7 +33972,6 @@ title
 docURI
 .
 displayHost
-)
 }
 ;
 if
@@ -34348,7 +34352,6 @@ background
 let
 doc
 =
-(
 tab
 ?
 tab
@@ -34358,7 +34361,6 @@ browser
 contentDocument
 :
 null
-)
 ;
 if
 (
@@ -34834,6 +34836,7 @@ if
 (
 uri
 )
+{
 apps
 =
 HelperApps
@@ -34843,6 +34846,7 @@ getAppsForUri
 uri
 )
 ;
+}
 return
 apps
 .
@@ -35080,9 +35084,7 @@ filterHttp
 :
 true
 }
-(
 apps
-)
 =
 >
 {
@@ -35100,6 +35102,7 @@ length
 >
 0
 )
+{
 this
 .
 _setUriForPageAction
@@ -35109,6 +35112,7 @@ apps
 contentDocument
 )
 ;
+}
 }
 )
 ;
@@ -35229,8 +35233,10 @@ _pageActionId
 =
 undefined
 )
+{
 return
 ;
+}
 let
 mediaElement
 =
@@ -35394,9 +35400,7 @@ doubleTapButton
 :
 0
 }
-(
 result
-)
 =
 >
 {
@@ -35477,8 +35481,10 @@ this
 .
 _pageActionId
 )
+{
 return
 ;
+}
 PageActions
 .
 remove
@@ -35966,8 +35972,10 @@ exists
 (
 )
 )
+{
 return
 ;
+}
 file
 .
 append
@@ -37253,7 +37261,6 @@ this
 .
 useCache
 =
-(
 aData
 =
 =
@@ -37261,7 +37268,6 @@ aData
 "
 down
 "
-)
 ;
 break
 ;
@@ -37858,9 +37864,11 @@ this
 args
 )
 )
+{
 return
 defaultValue
 ;
+}
 if
 (
 typeof
@@ -37876,6 +37884,7 @@ name
 function
 "
 )
+{
 return
 this
 .
@@ -37887,6 +37896,7 @@ name
 elt
 )
 ;
+}
 return
 this
 .

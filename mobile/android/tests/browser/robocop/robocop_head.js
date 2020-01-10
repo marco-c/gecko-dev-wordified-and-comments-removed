@@ -40,6 +40,7 @@ SpecialPowers
 object
 "
 )
+{
 Components
 =
 SpecialPowers
@@ -51,6 +52,7 @@ SpecialPowers
 Components
 )
 ;
+}
 }
 var
 _quit
@@ -410,6 +412,7 @@ delay
 <
 0
 )
+{
 do_throw
 (
 "
@@ -423,6 +426,7 @@ nonnegative
 "
 )
 ;
+}
 if
 (
 typeof
@@ -434,6 +438,7 @@ func
 function
 "
 )
+{
 do_throw
 (
 "
@@ -450,6 +455,7 @@ function
 "
 )
 ;
+}
 this
 .
 _func
@@ -557,9 +563,11 @@ interfaces
 nsISupports
 )
 )
+{
 return
 this
 ;
+}
 throw
 Components
 .
@@ -729,8 +737,10 @@ if
 !
 frame
 )
+{
 return
 ;
+}
 let
 frame_regexp
 =
@@ -781,6 +791,7 @@ if
 (
 parts
 )
+{
 dump
 (
 "
@@ -833,7 +844,9 @@ n
 "
 )
 ;
+}
 else
+{
 dump
 (
 "
@@ -851,6 +864,7 @@ n
 "
 )
 ;
+}
 }
 )
 ;
@@ -1081,6 +1095,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -1089,6 +1104,7 @@ stack
 .
 caller
 ;
+}
 _dump
 (
 "
@@ -1177,6 +1193,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -1185,6 +1202,7 @@ stack
 .
 caller
 ;
+}
 _dump
 (
 "
@@ -1450,6 +1468,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -1458,6 +1477,7 @@ stack
 .
 caller
 ;
+}
 var
 text
 =
@@ -1612,6 +1632,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -1620,6 +1641,7 @@ stack
 .
 caller
 ;
+}
 _do_check_neq
 (
 left
@@ -1642,6 +1664,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -1650,6 +1673,7 @@ stack
 .
 caller
 ;
+}
 _do_check_neq
 (
 left
@@ -1869,6 +1893,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -1877,6 +1902,7 @@ stack
 .
 caller
 ;
+}
 var
 text
 =
@@ -1914,6 +1940,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -1922,6 +1949,7 @@ stack
 .
 caller
 ;
+}
 _do_check_eq
 (
 left
@@ -1944,6 +1972,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -1952,6 +1981,7 @@ stack
 .
 caller
 ;
+}
 _do_check_eq
 (
 left
@@ -1973,6 +2003,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -1981,6 +2012,7 @@ stack
 .
 caller
 ;
+}
 do_check_eq
 (
 condition
@@ -2001,6 +2033,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -2009,6 +2042,7 @@ stack
 .
 caller
 ;
+}
 todo_check_eq
 (
 condition
@@ -2029,6 +2063,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -2037,6 +2072,7 @@ stack
 .
 caller
 ;
+}
 do_check_eq
 (
 condition
@@ -2057,6 +2093,7 @@ if
 !
 stack
 )
+{
 stack
 =
 Components
@@ -2065,6 +2102,7 @@ stack
 .
 caller
 ;
+}
 todo_check_eq
 (
 condition
@@ -2206,7 +2244,6 @@ else
 {
 text
 =
-(
 "
 value
 doesn
@@ -2238,7 +2275,6 @@ diagnosis
 \
 n
 "
-)
 ;
 do_report_result
 (
@@ -2866,13 +2902,16 @@ i
 .
 "
 )
+{
 lf
 =
 lf
 .
 parent
 ;
+}
 else
+{
 lf
 .
 append
@@ -2883,6 +2922,7 @@ i
 ]
 )
 ;
+}
 }
 }
 if

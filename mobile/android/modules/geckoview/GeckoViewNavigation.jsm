@@ -1063,7 +1063,6 @@ sessionId
 {
 opener
 :
-(
 aFlags
 &
 Ci
@@ -1071,7 +1070,6 @@ Ci
 nsIBrowserDOMWindow
 .
 OPEN_NO_OPENER
-)
 ?
 null
 :

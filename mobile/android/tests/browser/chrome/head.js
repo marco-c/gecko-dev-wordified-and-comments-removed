@@ -36,9 +36,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -62,6 +60,7 @@ document
 ;
 if
 (
+(
 event
 .
 target
@@ -80,6 +79,7 @@ document
 ownerGlobal
 .
 visualViewport
+)
 |
 |
 document
@@ -223,9 +223,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

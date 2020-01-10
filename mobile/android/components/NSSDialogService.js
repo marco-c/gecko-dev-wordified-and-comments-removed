@@ -634,6 +634,7 @@ response
 .
 trustSSL
 )
+{
 aTrust
 .
 value
@@ -645,12 +646,14 @@ nsIX509CertDB
 .
 TRUSTED_SSL
 ;
+}
 if
 (
 response
 .
 trustEmail
 )
+{
 aTrust
 .
 value
@@ -662,6 +665,7 @@ nsIX509CertDB
 .
 TRUSTED_EMAIL
 ;
+}
 return
 true
 ;

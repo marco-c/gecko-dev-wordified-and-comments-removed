@@ -228,9 +228,7 @@ _initial
 .
 show
 (
-(
 data
-)
 =
 >
 {
@@ -243,6 +241,7 @@ button
 =
 0
 )
+{
 aCallback
 .
 done
@@ -252,7 +251,9 @@ data
 color0
 )
 ;
+}
 else
+{
 aCallback
 .
 done
@@ -262,6 +263,7 @@ this
 _initial
 )
 ;
+}
 }
 )
 ;

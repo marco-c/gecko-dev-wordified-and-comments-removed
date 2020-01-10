@@ -381,9 +381,7 @@ opacity
 .
 catch
 (
-(
 e
-)
 =
 >
 {
@@ -652,7 +650,6 @@ false
 ;
 if
 (
-(
 aState
 &
 Ci
@@ -660,7 +657,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_REDIRECTING
-)
 )
 {
 failure
@@ -671,7 +667,6 @@ true
 else
 if
 (
-(
 aState
 &
 Ci
@@ -679,7 +674,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 )
 {
 if

@@ -328,9 +328,7 @@ isNotifyConnectedCalled
 new
 Promise
 (
-(
 aResolve
-)
 =
 >
 {
@@ -350,9 +348,7 @@ isOnOfferCalled
 new
 Promise
 (
-(
 aResolve
-)
 =
 >
 {
@@ -372,9 +368,7 @@ isOnAnswerCalled
 new
 Promise
 (
-(
 aResolve
-)
 =
 >
 {
@@ -394,9 +388,7 @@ isOnIceCandidateCalled
 new
 Promise
 (
-(
 aResolve
-)
 =
 >
 {
@@ -416,9 +408,7 @@ isNotifyDisconnectedCalled
 new
 Promise
 (
-(
 aResolve
-)
 =
 >
 {
@@ -778,9 +768,7 @@ isAddDeviceCalled
 new
 Promise
 (
-(
 aResolve
-)
 =
 >
 {
@@ -800,9 +788,7 @@ isUpdateDeviceCalled
 new
 Promise
 (
-(
 aResolve
-)
 =
 >
 {
@@ -822,9 +808,7 @@ isRemoveDeviceCalled
 new
 Promise
 (
-(
 aResolve
-)
 =
 >
 {

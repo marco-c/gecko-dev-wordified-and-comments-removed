@@ -712,7 +712,6 @@ callback
 {
 if
 (
-(
 Services
 .
 prefs
@@ -725,7 +724,6 @@ PREF_SYNC_UPDATE_MODE
 =
 =
 1
-)
 &
 &
 !

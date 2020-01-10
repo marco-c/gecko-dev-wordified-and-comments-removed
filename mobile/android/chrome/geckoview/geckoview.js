@@ -1668,6 +1668,7 @@ createBrowser
 const
 browser
 =
+(
 window
 .
 browser
@@ -1679,6 +1680,7 @@ createXULElement
 "
 browser
 "
+)
 )
 ;
 browser

@@ -370,6 +370,7 @@ this
 defaultHtmlHandlers
 ;
 return
+(
 this
 .
 defaultHtmlHandlers
@@ -401,6 +402,7 @@ filterHtml
 :
 false
 }
+)
 )
 ;
 }
@@ -469,6 +471,7 @@ this
 protoSvc
 ;
 return
+(
 this
 .
 protoSvc
@@ -498,6 +501,7 @@ Ci
 .
 nsIExternalProtocolService
 )
+)
 ;
 }
 get
@@ -511,6 +515,7 @@ this
 urlHandlerService
 ;
 return
+(
 this
 .
 urlHandlerService
@@ -541,6 +546,7 @@ getService
 Ci
 .
 nsIExternalURLHandlerService
+)
 )
 ;
 }
@@ -777,9 +783,7 @@ flags
 let
 parseData
 =
-(
 apps
-)
 =
 >
 {
@@ -1119,17 +1123,13 @@ new
 App
 (
 {
-"
 name
-"
 :
 appInfo
 [
 i
 ]
-"
 isDefault
-"
 :
 appInfo
 [
@@ -1137,9 +1137,7 @@ i
 +
 1
 ]
-"
 packageName
-"
 :
 appInfo
 [
@@ -1147,9 +1145,7 @@ i
 +
 2
 ]
-"
 activityName
-"
 :
 appInfo
 [

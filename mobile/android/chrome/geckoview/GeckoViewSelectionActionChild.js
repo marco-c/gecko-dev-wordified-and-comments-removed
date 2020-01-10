@@ -559,6 +559,7 @@ target
 activeElement
 ;
 return
+(
 win
 &
 &
@@ -580,6 +581,7 @@ focus
 mozIsTextField
 (
 true
+)
 )
 ;
 }
