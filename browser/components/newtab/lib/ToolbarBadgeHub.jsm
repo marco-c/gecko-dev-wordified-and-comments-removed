@@ -832,7 +832,7 @@ target
 removeEventListener
 (
 "
-click
+keypress
 "
 this
 .
@@ -1243,7 +1243,7 @@ toolbarbutton
 addEventListener
 (
 "
-click
+keypress
 "
 this
 .

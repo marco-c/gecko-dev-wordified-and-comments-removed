@@ -2462,8 +2462,6 @@ win
 IMPRESSION
 "
 message
-.
-id
 )
 ;
 }
