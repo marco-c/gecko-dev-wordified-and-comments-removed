@@ -115,6 +115,9 @@ nsIWebBrowserPersistResourceVisitor
 interface
 nsIWebBrowserPersistWriteCompletion
 ;
+interface
+nsIReferrerInfo
+;
 /
 *
 *
@@ -372,8 +375,8 @@ title
 ;
 readonly
 attribute
-AString
-referrer
+nsIReferrerInfo
+referrerInfo
 ;
 readonly
 attribute

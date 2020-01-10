@@ -2984,11 +2984,9 @@ nsIPrincipal
 aPrincipal
 uint32_t
 aCacheKey
-nsIURI
+nsIReferrerInfo
 *
-aReferrer
-uint32_t
-aReferrerPolicy
+aReferrerInfo
 nsIInputStream
 *
 aPostData
@@ -3010,8 +3008,7 @@ SavePrivacyAwareURI
 aURI
 aPrincipal
 aCacheKey
-aReferrer
-aReferrerPolicy
+aReferrerInfo
 aPostData
 aExtraHeaders
 aFile
@@ -3041,11 +3038,9 @@ nsIPrincipal
 aPrincipal
 uint32_t
 aCacheKey
-nsIURI
+nsIReferrerInfo
 *
-aReferrer
-uint32_t
-aReferrerPolicy
+aReferrerInfo
 nsIInputStream
 *
 aPostData
@@ -3192,8 +3187,7 @@ SavePrivacyAwareURI
 uri
 aPrincipal
 aCacheKey
-aReferrer
-aReferrerPolicy
+aReferrerInfo
 aPostData
 aExtraHeaders
 aFile
