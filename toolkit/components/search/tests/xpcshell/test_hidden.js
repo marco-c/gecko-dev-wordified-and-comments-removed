@@ -104,6 +104,8 @@ prefs
 .
 getDefaultBranch
 (
+SearchUtils
+.
 BROWSER_SEARCH_PREF
 )
 .
@@ -298,6 +300,8 @@ prefs
 .
 getDefaultBranch
 (
+SearchUtils
+.
 BROWSER_SEARCH_PREF
 )
 .

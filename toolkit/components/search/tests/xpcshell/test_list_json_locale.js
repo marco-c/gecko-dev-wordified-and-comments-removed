@@ -183,6 +183,8 @@ prefs
 .
 getDefaultBranch
 (
+SearchUtils
+.
 BROWSER_SEARCH_PREF
 )
 ;

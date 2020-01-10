@@ -84,6 +84,8 @@ prefs
 .
 getDefaultBranch
 (
+SearchUtils
+.
 BROWSER_SEARCH_PREF
 )
 ;
@@ -111,6 +113,8 @@ prefs
 .
 setCharPref
 (
+SearchUtils
+.
 BROWSER_SEARCH_PREF
 +
 "
