@@ -30,6 +30,15 @@ h
 #
 include
 "
+debugger
+/
+Source
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmInstance
@@ -2404,7 +2413,7 @@ dbg
 using
 ReturnType
 =
-JSObject
+DebuggerSource
 *
 ;
 ReturnType
@@ -2558,7 +2567,7 @@ cx
 dbg
 )
 ;
-RootedObject
+RootedDebuggerSource
 sourceObject
 (
 cx
