@@ -435,6 +435,11 @@ ThreadEvent
 aEvent
 )
 ;
+ThreadEvent
+ReplayThreadEvent
+(
+)
+;
 void
 CheckInput
 (
