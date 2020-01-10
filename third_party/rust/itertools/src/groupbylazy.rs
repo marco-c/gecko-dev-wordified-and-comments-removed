@@ -106,6 +106,13 @@ arg
 )
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 struct
 ChunkIndex
 {

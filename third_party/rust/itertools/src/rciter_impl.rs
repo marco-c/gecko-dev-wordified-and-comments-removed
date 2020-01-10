@@ -25,6 +25,13 @@ cell
 :
 RefCell
 ;
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 RcIter

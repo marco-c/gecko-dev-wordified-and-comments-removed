@@ -120,9 +120,9 @@ version
 "
 0
 .
-4
+5
 .
-3
+2
 "
 authors
 =
@@ -285,7 +285,7 @@ version
 ^
 0
 .
-7
+8
 "
 [
 dependencies
@@ -303,7 +303,7 @@ version
 [
 dependencies
 .
-webidl
+weedle
 ]
 version
 =
@@ -325,6 +325,8 @@ version
 "
 ^
 2
+.
+0
 "
 [
 dev
@@ -339,7 +341,7 @@ version
 ^
 0
 .
-5
+6
 "
 [
 dev

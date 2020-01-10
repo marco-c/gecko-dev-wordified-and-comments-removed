@@ -40,6 +40,7 @@ EitherOrBoth
 derive
 (
 Clone
+Debug
 )
 ]
 #

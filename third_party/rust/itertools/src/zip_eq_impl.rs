@@ -9,6 +9,7 @@ size_hint
 derive
 (
 Clone
+Debug
 )
 ]
 #

@@ -16,7 +16,7 @@ log
 ;
 extern
 crate
-webidl
+weedle
 ;
 pub
 mod

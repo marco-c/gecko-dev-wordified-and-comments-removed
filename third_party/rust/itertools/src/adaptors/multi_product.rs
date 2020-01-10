@@ -163,6 +163,7 @@ collect
 derive
 (
 Clone
+Debug
 )
 ]
 struct
@@ -199,6 +200,13 @@ iter_orig
 :
 I
 }
+#
+[
+derive
+(
+Debug
+)
+]
 enum
 MultiProductIterState
 {
