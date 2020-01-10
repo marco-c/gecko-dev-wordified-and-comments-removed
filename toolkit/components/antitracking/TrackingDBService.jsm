@@ -376,7 +376,7 @@ events
 ORDER
 BY
 timestamp
-DESC
+ASC
 LIMIT
 1
 ;

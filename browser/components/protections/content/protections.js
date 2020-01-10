@@ -281,6 +281,17 @@ data
 >
 {
 let
+hoursInMS12
+=
+12
+*
+60
+*
+60
+*
+1000
+;
+let
 dateInMS
 =
 data
@@ -298,6 +309,8 @@ earliestDate
 getTime
 (
 )
++
+hoursInMS12
 :
 Date
 .
