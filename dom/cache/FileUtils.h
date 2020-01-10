@@ -271,6 +271,9 @@ Func
 aHandleFileFunc
 const
 bool
+aCanRemoveFiles
+const
+bool
 aTrackQuota
 =
 true

@@ -284,6 +284,9 @@ aCanceled
 UsageInfo
 *
 aUsageInfo
+const
+bool
+aInitializing
 )
 {
 AssertIsOnIOThread
@@ -548,6 +551,7 @@ BodyTraverseFiles
 dummy
 bodyDir
 getUsage
+aInitializing
 false
 )
 ;
@@ -2118,6 +2122,7 @@ GetBodyUsage
 file
 aCanceled
 aUsageInfo
+aInitializing
 )
 ;
 if
