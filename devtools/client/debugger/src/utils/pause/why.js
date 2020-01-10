@@ -60,6 +60,13 @@ whyPaused
 .
 eventBreakpoint
 "
+mutationBreakpoint
+:
+"
+whyPaused
+.
+mutationBreakpoint
+"
 DOM
 :
 "

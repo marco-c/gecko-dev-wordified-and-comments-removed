@@ -114,6 +114,11 @@ replayForcedPause
 "
 replayForcedPause
 "
+mutationBreakpoint
+:
+"
+mutationBreakpoint
+"
 }
 ;
 module
