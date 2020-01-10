@@ -5688,12 +5688,6 @@ c
 )
 |
 |
-IsContentXBLCompartment
-(
-c
-)
-|
-|
 !
 AllowContentXBLScope
 (
