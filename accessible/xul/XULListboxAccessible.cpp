@@ -2310,12 +2310,6 @@ mType
 =
 eXULListItemType
 ;
-mStateFlags
-&
-=
-~
-eNoXBLKids
-;
 }
 XULListitemAccessible
 :
