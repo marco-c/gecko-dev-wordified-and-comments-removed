@@ -95,6 +95,17 @@ cubeb
 remoting
 "
 ]
+cubeb_coreaudio_rust
+=
+[
+"
+gkrust
+-
+shared
+/
+cubeb_coreaudio_rust
+"
+]
 cubeb_pulse_rust
 =
 [
