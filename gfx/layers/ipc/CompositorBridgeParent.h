@@ -2763,16 +2763,6 @@ bool
 aIsFirstPaint
 )
 ;
-static
-void
-ScheduleForcedComposition
-(
-const
-LayersId
-&
-aLayersId
-)
-;
 LayersId
 RootLayerTreeId
 (

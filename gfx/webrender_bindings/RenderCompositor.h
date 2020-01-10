@@ -163,13 +163,6 @@ Resume
 0
 ;
 virtual
-void
-Update
-(
-)
-{
-}
-virtual
 gl
 :
 :
