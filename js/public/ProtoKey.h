@@ -857,6 +857,16 @@ OCLASP
 Locale
 )
 )
+\
+REAL_IF_INTL
+(
+NumberFormat
+InitViaClassSpec
+OCLASP
+(
+NumberFormat
+)
+)
 #
 define
 JS_FOR_PROTOTYPES
