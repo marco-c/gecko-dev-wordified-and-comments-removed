@@ -252,6 +252,15 @@ browser
 /
 schemas
 /
+top_sites
+.
+json
+content
+/
+browser
+/
+schemas
+/
 url_overrides
 .
 json
