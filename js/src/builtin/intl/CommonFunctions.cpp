@@ -718,9 +718,6 @@ return
 false
 ;
 }
-#
-if
-ENABLE_INTL_API
 RootedAtom
 a
 (
@@ -862,8 +859,6 @@ false
 ;
 }
 }
-#
-endif
 result
 .
 setObject
