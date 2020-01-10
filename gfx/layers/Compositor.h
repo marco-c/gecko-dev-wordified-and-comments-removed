@@ -1229,17 +1229,6 @@ return
 nullptr
 ;
 }
-virtual
-BasicCompositor
-*
-AsBasicCompositor
-(
-)
-{
-return
-nullptr
-;
-}
 Compositor
 *
 AsCompositor

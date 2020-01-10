@@ -77,6 +77,9 @@ class
 DataTextureSource
 ;
 class
+BasicCompositor
+;
+class
 Compositor
 ;
 class
@@ -215,6 +218,17 @@ virtual
 Compositor
 *
 AsCompositor
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+BasicCompositor
+*
+AsBasicCompositor
 (
 )
 {
