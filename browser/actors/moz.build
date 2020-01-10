@@ -306,11 +306,6 @@ PageStyleChild
 jsm
 '
 '
-PageStyleParent
-.
-jsm
-'
-'
 PluginChild
 .
 jsm

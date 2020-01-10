@@ -73,10 +73,9 @@ PAGE
 )
 ;
 await
-promiseStylesheetsLoaded
+promiseStylesheetsUpdated
 (
-tab
-17
+browser
 )
 ;
 let
@@ -168,6 +167,12 @@ target
 .
 click
 (
+)
+;
+await
+promiseStylesheetsUpdated
+(
+browser
 )
 ;
 gPageStyleMenu
