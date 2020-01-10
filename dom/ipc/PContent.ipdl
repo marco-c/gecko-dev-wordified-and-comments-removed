@@ -8111,8 +8111,6 @@ origin
 async
 ReportContentBlockingLog
 (
-Principal
-firstPartyPrincipal
 IPCStream
 aJSONStream
 )

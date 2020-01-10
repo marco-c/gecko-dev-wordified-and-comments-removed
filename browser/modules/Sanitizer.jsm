@@ -1379,6 +1379,12 @@ Ci
 nsIClearDataService
 .
 CLEAR_STORAGE_ACCESS
+|
+Ci
+.
+nsIClearDataService
+.
+CLEAR_CONTENT_BLOCKING_RECORDS
 )
 ;
 TelemetryStopwatch
