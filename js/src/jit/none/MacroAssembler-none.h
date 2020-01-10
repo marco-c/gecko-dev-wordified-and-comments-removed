@@ -215,6 +215,17 @@ invalid_reg
 static
 constexpr
 Register
+InterpreterPCReg
+{
+Registers
+:
+:
+invalid_reg
+}
+;
+static
+constexpr
+Register
 CallTempReg0
 {
 Registers

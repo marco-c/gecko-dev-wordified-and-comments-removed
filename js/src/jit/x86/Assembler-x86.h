@@ -706,6 +706,13 @@ edx
 static
 constexpr
 Register
+InterpreterPCReg
+=
+InvalidReg
+;
+static
+constexpr
+Register
 RegExpMatcherRegExpReg
 =
 CallTempReg0

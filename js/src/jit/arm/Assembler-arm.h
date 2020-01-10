@@ -884,6 +884,13 @@ r1
 static
 constexpr
 Register
+InterpreterPCReg
+=
+r9
+;
+static
+constexpr
+Register
 InvalidReg
 {
 Registers

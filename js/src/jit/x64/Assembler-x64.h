@@ -1334,6 +1334,13 @@ rdx
 ;
 static
 constexpr
+Register
+InterpreterPCReg
+=
+r14
+;
+static
+constexpr
 uint32_t
 ABIStackAlignment
 =
