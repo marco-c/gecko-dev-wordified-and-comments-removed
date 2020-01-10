@@ -1938,7 +1938,7 @@ scalar
 It
 defaults
 to
-False
+false
 .
 -
 record_into_store
