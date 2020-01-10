@@ -681,6 +681,12 @@ return
 mShouldIdle
 ;
 }
+static
+size_t
+TotalEventProgress
+(
+)
+;
 }
 ;
 class
