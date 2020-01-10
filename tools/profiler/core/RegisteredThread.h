@@ -200,6 +200,12 @@ ReinitializeOnResume
 (
 )
 {
+mPendingMarkers
+.
+reset
+(
+)
+;
 (
 void
 )
