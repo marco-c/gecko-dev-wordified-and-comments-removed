@@ -2723,6 +2723,17 @@ aElement
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+InsertBRElement
+(
+const
+EditorDOMPoint
+&
+aInsertToBreak
+)
+;
 protected
 :
 virtual

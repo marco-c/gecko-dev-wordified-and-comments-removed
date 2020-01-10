@@ -441,17 +441,6 @@ aNode
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
-InsertBRElement
-(
-const
-EditorDOMPoint
-&
-aInsertToBreak
-)
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
 WillDeleteSelection
 (
 nsIEditor
