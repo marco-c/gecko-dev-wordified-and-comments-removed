@@ -7058,6 +7058,10 @@ mEncodingMenuDisabled
 (
 false
 )
+mLinksEnabled
+(
+true
+)
 mIsSVGGlyphsDocument
 (
 false
