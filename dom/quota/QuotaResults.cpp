@@ -300,10 +300,10 @@ return
 NS_OK
 ;
 }
-InitializedOriginsResult
+OriginsResult
 :
 :
-InitializedOriginsResult
+OriginsResult
 (
 const
 nsACString
@@ -319,11 +319,11 @@ aOrigin
 }
 NS_IMPL_ISUPPORTS
 (
-InitializedOriginsResult
-nsIQuotaInitializedOriginsResult
+OriginsResult
+nsIQuotaOriginsResult
 )
 NS_IMETHODIMP
-InitializedOriginsResult
+OriginsResult
 :
 :
 GetOrigin

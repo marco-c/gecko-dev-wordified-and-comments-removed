@@ -310,7 +310,7 @@ principalInfo
 }
 ;
 struct
-ListInitializedOriginsParams
+ListOriginsParams
 {
 }
 ;
@@ -339,7 +339,7 @@ PersistParams
 ;
 EstimateParams
 ;
-ListInitializedOriginsParams
+ListOriginsParams
 ;
 }
 ;

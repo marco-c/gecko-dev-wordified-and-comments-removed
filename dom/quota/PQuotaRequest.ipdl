@@ -137,7 +137,7 @@ limit
 }
 ;
 struct
-ListInitializedOriginsResponse
+ListOriginsResponse
 {
 nsCString
 [
@@ -173,7 +173,7 @@ PersistResponse
 ;
 EstimateResponse
 ;
-ListInitializedOriginsResponse
+ListOriginsResponse
 ;
 }
 ;

@@ -625,7 +625,6 @@ the
 origin
 strings
 of
-initialized
 origins
 .
 *
@@ -651,7 +650,7 @@ collected
 must_use
 ]
 nsIQuotaRequest
-listInitializedOrigins
+listOrigins
 (
 in
 nsIQuotaCallback
