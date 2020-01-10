@@ -546,25 +546,6 @@ tp6
 "
 ]
         
-if
-TestMemoryUsage
-.
-ENABLE_FISSION
-:
-            
-self
-.
-_extra_opts
-.
-append
-(
-"
-fission
--
-enabled
-"
-)
-        
 tp6_pageset_manifest
 =
 os
