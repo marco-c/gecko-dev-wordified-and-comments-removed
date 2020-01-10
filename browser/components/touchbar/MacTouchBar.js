@@ -211,6 +211,15 @@ doCommand
 )
 ;
 }
+if
+(
+!
+telemetryKey
+)
+{
+return
+;
+}
 let
 telemetry
 =
