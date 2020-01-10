@@ -197,7 +197,7 @@ MediaFeatureEvaluator
 bool
 >
 )
-IntRatio
+NumberRatio
 (
 MediaFeatureEvaluator
 <

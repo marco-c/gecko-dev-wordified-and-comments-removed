@@ -526,14 +526,14 @@ width
 .
 0
 as
-u32
+f32
 size
 .
 height
 .
 0
 as
-u32
+f32
 )
 ;
 RangeOrOperator
@@ -2605,7 +2605,7 @@ Yes
 Evaluator
 :
 :
-IntRatio
+NumberRatio
 (
 eval_aspect_ratio
 )
@@ -2724,7 +2724,7 @@ Yes
 Evaluator
 :
 :
-IntRatio
+NumberRatio
 (
 eval_device_aspect_ratio
 )
