@@ -41,6 +41,15 @@ memmap
 .
 2
 "
+rustc
+-
+demangle
+=
+"
+0
+.
+1
+"
 [
 dependencies
 .

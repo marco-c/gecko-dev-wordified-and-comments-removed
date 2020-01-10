@@ -2817,6 +2817,9 @@ h
 >
 #
 endif
+namespace
+mozilla
+{
 void
 DemangleSymbol
 (
@@ -2894,6 +2897,7 @@ demangled
 }
 #
 endif
+}
 }
 #
 if
