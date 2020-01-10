@@ -277,6 +277,11 @@ NS_ERROR_INSUFFICIENT_DOMAIN_LEVELS
 nsAutoCString
 scheme
 ;
+if
+(
+aURI
+)
+{
 rv
 =
 aURI
@@ -314,6 +319,7 @@ ABOUT_URI_FIRST_PARTY_DOMAIN
 return
 ;
 }
+}
 nsCOMPtr
 <
 nsIPrincipal
@@ -322,6 +328,9 @@ blobPrincipal
 ;
 if
 (
+aURI
+&
+&
 dom
 :
 :
