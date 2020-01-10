@@ -1363,9 +1363,6 @@ CSPInfo
 ?
 csp
 ;
-nsIReferrerInfo
-referrerInfo
-;
 uint64_t
 ?
 requestContextID
