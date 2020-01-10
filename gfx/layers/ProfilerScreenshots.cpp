@@ -280,7 +280,7 @@ self
 =
 this
 ;
-NS_DispatchToBackgroundThread
+NS_DispatchBackgroundTask
 (
 NS_NewRunnableFunction
 (

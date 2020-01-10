@@ -7386,7 +7386,7 @@ aSearchBound
 ;
 extern
 nsresult
-NS_DispatchToBackgroundThread
+NS_DispatchBackgroundTask
 (
 already_AddRefed
 <
@@ -7401,7 +7401,7 @@ NS_DISPATCH_NORMAL
 ;
 extern
 nsresult
-NS_DispatchToBackgroundThread
+NS_DispatchBackgroundTask
 (
 nsIRunnable
 *
