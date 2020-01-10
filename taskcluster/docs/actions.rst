@@ -2391,7 +2391,7 @@ mozilla
 .
 org
 /
-build
+ci
 /
 ci
 -
@@ -2413,7 +2413,7 @@ mozilla
 .
 org
 /
-build
+ci
 /
 ci
 -
