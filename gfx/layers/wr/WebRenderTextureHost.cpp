@@ -541,6 +541,13 @@ UnbindTextureSource
 )
 ;
 }
+TextureHost
+:
+:
+UnbindTextureSource
+(
+)
+;
 }
 void
 WebRenderTextureHost
