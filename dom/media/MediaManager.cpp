@@ -4235,6 +4235,9 @@ IsEmpty
 {
 if
 (
+aIsChrome
+|
+|
 type
 =
 =
