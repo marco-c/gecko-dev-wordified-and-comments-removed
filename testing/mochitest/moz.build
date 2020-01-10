@@ -182,11 +182,6 @@ utils
 js
 '
 '
-nested_setup
-.
-js
-'
-'
 redirect
 .
 html
@@ -714,11 +709,6 @@ js
 mochitest_options
 .
 py
-'
-'
-nested_setup
-.
-js
 '
 '
 pywebsocket_wrapper
