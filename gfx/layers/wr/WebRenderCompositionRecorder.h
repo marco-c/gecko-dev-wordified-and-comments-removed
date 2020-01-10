@@ -166,6 +166,11 @@ WebRenderPipelineInfo
 aFrameEpochs
 )
 ;
+bool
+ForceFinishRecording
+(
+)
+;
 protected
 :
 ~
