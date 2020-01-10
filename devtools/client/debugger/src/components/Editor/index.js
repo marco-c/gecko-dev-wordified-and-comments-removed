@@ -408,15 +408,6 @@ import
 "
 .
 /
-Highlight
-.
-css
-"
-;
-import
-"
-.
-/
 InlinePreview
 .
 css
