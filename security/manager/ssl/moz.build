@@ -318,6 +318,11 @@ EXPORTS
 =
 [
 '
+CommonSocketControl
+.
+h
+'
+'
 CryptoTask
 .
 h
@@ -392,6 +397,11 @@ SharedCertVerifier
 .
 h
 '
+'
+TransportSecurityInfo
+.
+h
+'
 ]
 EXPORTS
 .
@@ -450,6 +460,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+CommonSocketControl
+.
+cpp
+'
 '
 ContentSignatureVerifier
 .
