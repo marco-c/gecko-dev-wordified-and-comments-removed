@@ -809,3 +809,9 @@ path
 )
 ;
 }
+module
+.
+exports
+=
+getMatchPatternsForGoogleURL
+;
