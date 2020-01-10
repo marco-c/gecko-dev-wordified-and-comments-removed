@@ -450,7 +450,7 @@ upButton
 disabled
 =
 selectedIndex
-=
+<
 =
 0
 ;
@@ -470,7 +470,7 @@ removeButton
 disabled
 =
 itemCount
-=
+<
 =
 1
 |
