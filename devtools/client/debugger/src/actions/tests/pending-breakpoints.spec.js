@@ -219,7 +219,7 @@ return
 .
 .
 mockCommandClient
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 async
 (
@@ -227,7 +227,7 @@ async
 =
 >
 bpPos
-getBreakableLines
+getSourceActorBreakableLines
 :
 async
 (

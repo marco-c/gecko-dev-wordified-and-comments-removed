@@ -140,7 +140,7 @@ async
 >
 {
 }
-getBreakpointPositions
+getSourceActorBreakpointPositions
 :
 async
 (
@@ -151,7 +151,7 @@ async
 {
 }
 )
-getBreakableLines
+getSourceActorBreakableLines
 :
 async
 (
