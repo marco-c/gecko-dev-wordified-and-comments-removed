@@ -3446,6 +3446,16 @@ setStreamsEnabled
 sStreamsEnabled
 )
 .
+setWritableStreamsEnabled
+(
+StaticPrefs
+:
+:
+javascript_options_writable_streams
+(
+)
+)
+.
 setFieldsEnabled
 (
 sFieldsEnabled
