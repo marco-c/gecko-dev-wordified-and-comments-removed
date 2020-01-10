@@ -138,14 +138,6 @@ sequence
 <
 DOMString
 >
-features
-(
-)
-;
-sequence
-<
-DOMString
->
 allowedFeatures
 (
 )
