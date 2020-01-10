@@ -16,15 +16,20 @@ execute_script
 "
         
 let
+{
 devicePixelRatio
+}
 =
 window
-.
-devicePixelRatio
 ;
         
 let
-rect
+{
+left
+top
+width
+height
+}
 =
 arguments
 [
@@ -46,8 +51,6 @@ Math
 floor
 (
 (
-rect
-.
 left
 +
 window
@@ -65,8 +68,6 @@ Math
 floor
 (
 (
-rect
-.
 top
 +
 window
@@ -83,8 +84,6 @@ Math
 .
 floor
 (
-rect
-.
 width
 *
 devicePixelRatio
@@ -96,8 +95,6 @@ Math
 .
 floor
 (
-rect
-.
 height
 *
 devicePixelRatio

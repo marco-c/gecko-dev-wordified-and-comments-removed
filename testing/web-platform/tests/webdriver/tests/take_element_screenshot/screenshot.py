@@ -6,7 +6,6 @@ support
 asserts
 import
 assert_error
-assert_png
 assert_success
 from
 tests
@@ -222,22 +221,17 @@ element
 id
 )
     
-value
+screenshot
 =
 assert_success
 (
 response
 )
     
-assert_png
-(
-value
-)
-    
 assert
 png_dimensions
 (
-value
+screenshot
 )
 =
 =

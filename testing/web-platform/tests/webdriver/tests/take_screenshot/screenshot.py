@@ -27,7 +27,7 @@ inline
 from
 .
 import
-document_dimensions
+viewport_dimensions
 def
 take_screenshot
 (
@@ -136,7 +136,7 @@ value
 )
 =
 =
-document_dimensions
+viewport_dimensions
 (
 session
 )
