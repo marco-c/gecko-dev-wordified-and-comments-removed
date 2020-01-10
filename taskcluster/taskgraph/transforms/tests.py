@@ -4969,30 +4969,6 @@ x86
 /
 opt
 '
-        
-'
-android
--
-api
--
-16
--
-gradle
-/
-opt
-'
-:
-'
-android
--
-api
--
-16
--
-gradle
-/
-opt
-'
     
 }
     
