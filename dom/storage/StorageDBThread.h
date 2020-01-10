@@ -1146,7 +1146,7 @@ aOrigin
 void
 GetOriginsHavingData
 (
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
