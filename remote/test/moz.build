@@ -115,6 +115,15 @@ ini
 "
 browser
 /
+security
+/
+browser
+.
+ini
+"
+"
+browser
+/
 target
 /
 browser
