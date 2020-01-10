@@ -247,16 +247,6 @@ attribute
 long
 layerY
 ;
-readonly
-attribute
-long
-pageX
-;
-readonly
-attribute
-long
-pageY
-;
 [
 NeedsCallerType
 ]
