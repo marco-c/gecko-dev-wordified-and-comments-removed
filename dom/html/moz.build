@@ -281,6 +281,11 @@ dom
 =
 [
 '
+ElementInternals
+.
+h
+'
+'
 HTMLAllCollection
 .
 h
@@ -670,6 +675,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+ElementInternals
+.
+cpp
+'
 '
 HTMLAllCollection
 .
