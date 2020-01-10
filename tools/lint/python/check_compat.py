@@ -176,6 +176,10 @@ future_lineno
 =
 1
     
+may_have_relative_imports
+=
+False
+    
 for
 node
 in
@@ -229,6 +233,27 @@ node
 .
 names
 )
+            
+else
+:
+                
+may_have_relative_imports
+=
+True
+        
+elif
+isinstance
+(
+node
+ast
+.
+Import
+)
+:
+            
+may_have_relative_imports
+=
+True
         
 elif
 isinstance
@@ -275,6 +300,8 @@ absolute_import
 not
 in
 futures
+and
+may_have_relative_imports
 :
         
 err
