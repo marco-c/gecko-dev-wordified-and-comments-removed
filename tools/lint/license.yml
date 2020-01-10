@@ -1031,6 +1031,13 @@ lib
 /
 configs
 -
+tools
+/
+lint
+/
+test
+/
+-
 xpcom
 /
 base
