@@ -3147,8 +3147,6 @@ const
 ssl3CipherSuiteDef
 *
 suiteDef
-=
-NULL
 ;
 SSLAEADCipher
 aead

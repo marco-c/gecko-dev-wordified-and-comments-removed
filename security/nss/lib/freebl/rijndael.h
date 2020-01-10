@@ -178,7 +178,6 @@ RIJNDAEL_MAX_EXP_KEY_SIZE
 ]
 ;
 }
-k
 ;
 unsigned
 int

@@ -125,8 +125,6 @@ keySchedule
 cx
 -
 >
-k
-.
 keySchedule
 ;
 pre_align
@@ -489,8 +487,6 @@ keySchedule
 cx
 -
 >
-k
-.
 keySchedule
 ;
 pre_align
@@ -803,8 +799,6 @@ keySchedule
 cx
 -
 >
-k
-.
 keySchedule
 ;
 pre_align
@@ -1101,8 +1095,6 @@ m
 cx
 -
 >
-k
-.
 keySchedule
 [
 0
@@ -1135,8 +1127,6 @@ m
 cx
 -
 >
-k
-.
 keySchedule
 [
 i
@@ -1152,8 +1142,6 @@ m
 cx
 -
 >
-k
-.
 keySchedule
 [
 cx

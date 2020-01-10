@@ -482,8 +482,6 @@ char
 aes
 -
 >
-k
-.
 expandedKey
 aes
 -

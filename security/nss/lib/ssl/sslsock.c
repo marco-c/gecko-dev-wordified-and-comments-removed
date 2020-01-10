@@ -255,7 +255,7 @@ PR_TRUE
 .
 enableExtendedMS
 =
-PR_TRUE
+PR_FALSE
 .
 enableSignedCertTimestamps
 =
