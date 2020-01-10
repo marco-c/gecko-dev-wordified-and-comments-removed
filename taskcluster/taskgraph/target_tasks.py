@@ -3236,6 +3236,25 @@ task
 :
         
 return
+(
+            
+task
+.
+attributes
+.
+get
+(
+'
+shipping_product
+'
+)
+=
+=
+'
+fennec
+'
+and
+            
 task
 .
 kind
@@ -3251,6 +3270,8 @@ upload
 -
 symbols
 '
+)
+        
 )
     
 return
