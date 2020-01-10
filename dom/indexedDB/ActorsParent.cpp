@@ -84651,6 +84651,14 @@ _retval
 *
 _retval
 =
+QuotaClient
+:
+:
+IsShuttingDownOnNonBackgroundThread
+(
+)
+|
+|
 !
 OperationMayProceed
 (
