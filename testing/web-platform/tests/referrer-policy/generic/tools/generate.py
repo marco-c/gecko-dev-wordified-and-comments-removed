@@ -82,7 +82,7 @@ selection_pattern
 '
 %
 (
-delivery_method
+delivery_type
 )
 s
 /
@@ -219,7 +219,7 @@ using
 the
 %
 (
-delivery_method
+delivery_type
 )
 s
 delivery
@@ -382,12 +382,12 @@ spec
 )
 :
         
-delivery_method
+delivery_type
 =
 selection
 [
 '
-delivery_method
+delivery_type
 '
 ]
         
@@ -418,7 +418,7 @@ None
 :
             
 if
-delivery_method
+delivery_type
 =
 =
 '
@@ -452,7 +452,7 @@ s
 delivery_value
             
 elif
-delivery_method
+delivery_type
 =
 =
 '
@@ -523,7 +523,7 @@ Origin
 )
             
 elif
-delivery_method
+delivery_type
 =
 =
 '
@@ -536,7 +536,7 @@ referrer
 pass
             
 elif
-delivery_method
+delivery_type
 =
 =
 '
@@ -557,13 +557,13 @@ ValueError
 '
 Not
 implemented
-delivery_method
+delivery_type
 :
 '
 \
                                   
 +
-delivery_method
+delivery_type
 )
         
 return

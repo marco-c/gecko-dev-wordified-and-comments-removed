@@ -123,7 +123,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -206,7 +206,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -289,7 +289,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -370,7 +370,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -540,7 +540,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -737,7 +737,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -820,7 +820,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -903,7 +903,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -984,7 +984,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -1152,7 +1152,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -1333,7 +1333,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -1422,7 +1422,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -1509,7 +1509,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -1596,7 +1596,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -1799,7 +1799,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -1888,7 +1888,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -1975,7 +1975,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -2060,7 +2060,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -2145,7 +2145,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -2232,7 +2232,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -2419,7 +2419,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -2500,7 +2500,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -2581,7 +2581,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -2662,7 +2662,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -2879,7 +2879,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -2964,7 +2964,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -3051,7 +3051,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -3134,7 +3134,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -3215,7 +3215,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -3296,7 +3296,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -3381,7 +3381,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -3468,7 +3468,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -3639,7 +3639,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -3746,7 +3746,7 @@ redirection
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 "
@@ -3824,7 +3824,7 @@ target_protocol
 https
 "
 "
-delivery_method
+delivery_type
 "
 :
 "
@@ -3909,7 +3909,7 @@ target_protocol
 http
 "
 "
-delivery_method
+delivery_type
 "
 :
 "
@@ -3982,7 +3982,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -4083,7 +4083,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 [
@@ -4198,7 +4198,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 "
@@ -4275,7 +4275,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 "
@@ -4362,7 +4362,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 "
@@ -4463,7 +4463,7 @@ target_protocol
 *
 "
 "
-delivery_method
+delivery_type
 "
 :
 "
@@ -4576,7 +4576,7 @@ override
 "
 ]
 "
-delivery_method
+delivery_type
 "
 :
 [
