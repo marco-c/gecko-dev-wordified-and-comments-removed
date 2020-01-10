@@ -1992,7 +1992,7 @@ Actions
 addPointer
 (
 "
-pointer1
+touchPointer1
 "
 "
 touch
