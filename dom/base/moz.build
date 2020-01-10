@@ -779,6 +779,11 @@ BindContext
 h
 '
 '
+BodyConsumer
+.
+h
+'
+'
 BodyStream
 .
 h
@@ -1357,6 +1362,11 @@ cpp
 '
 '
 BarProps
+.
+cpp
+'
+'
+BodyConsumer
 .
 cpp
 '

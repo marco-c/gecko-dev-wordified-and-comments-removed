@@ -210,11 +210,6 @@ Fetch
 cpp
 '
 '
-FetchConsumer
-.
-cpp
-'
-'
 FetchDriver
 .
 cpp

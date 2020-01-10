@@ -41,6 +41,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsSVGUtils
 .
 h
