@@ -734,7 +734,7 @@ monitorData
 let
 potentiallyBreachedLogins
 =
-0
+null
 ;
 const
 hasFxa
@@ -880,6 +880,16 @@ message
 ;
 }
 }
+if
+(
+!
+LoginHelper
+.
+isMasterPasswordSet
+(
+)
+)
+{
 const
 logins
 =
@@ -900,6 +910,7 @@ getBreachesForLogins
 logins
 )
 ;
+}
 }
 else
 {
@@ -924,8 +935,12 @@ monitorData
 potentiallyBreachedLogins
 :
 potentiallyBreachedLogins
+?
+potentiallyBreachedLogins
 .
 size
+:
+0
 error
 :
 !
