@@ -1802,7 +1802,7 @@ width
 ;
 height
 :
-20px
+16px
 ;
 }
 #
@@ -1933,7 +1933,7 @@ width
 ;
 height
 :
-20px
+16px
 ;
 }
 #
@@ -1993,12 +1993,12 @@ transform
 translateX
 (
 -
-2816px
+256px
 )
 ;
 width
 :
-2832px
+272px
 ;
 background
 -
@@ -2014,7 +2014,7 @@ min
 -
 height
 :
-20px
+16px
 ;
 -
 moz
@@ -2137,7 +2137,7 @@ scaleX
 translateX
 (
 -
-2816px
+256px
 )
 ;
 }
@@ -2184,14 +2184,14 @@ function
 :
 steps
 (
-176
+16
 )
 ;
 animation
 -
 duration
 :
-3s
+1s
 ;
 animation
 -
@@ -2422,7 +2422,7 @@ transform
 translateX
 (
 -
-2816px
+256px
 )
 ;
 }
@@ -2464,7 +2464,7 @@ scaleX
 translateX
 (
 -
-2816px
+256px
 )
 ;
 }
