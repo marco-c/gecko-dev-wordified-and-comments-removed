@@ -7186,6 +7186,17 @@ pub
 in
 crate
 )
+async_frame_recorder
+:
+Option
+<
+AsyncScreenshotGrabber
+>
+pub
+(
+in
+crate
+)
 async_screenshots
 :
 Option
@@ -9597,6 +9608,9 @@ Vec
 new
 (
 )
+async_frame_recorder
+:
+None
 async_screenshots
 :
 None
