@@ -47283,6 +47283,14 @@ aNewURI
 newSHEntry
 -
 >
+SetResultPrincipalURI
+(
+nullptr
+)
+;
+newSHEntry
+-
+>
 SetLoadReplace
 (
 false
