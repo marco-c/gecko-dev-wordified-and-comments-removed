@@ -344,8 +344,10 @@ treeherder
 :
 symbol
 :
-clang
+cpp
 (
+clang
+-
 tidy
 )
 run
@@ -462,8 +464,10 @@ treeherder
 :
 symbol
 :
-clang
+cpp
 (
+clang
+-
 format
 )
 run

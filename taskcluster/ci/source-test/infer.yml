@@ -243,7 +243,10 @@ treeherder
 :
 symbol
 :
+java
+(
 infer
+)
 run
 :
 cwd
