@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsStyleConsts
+nsStyleCoord
 .
 h
 "

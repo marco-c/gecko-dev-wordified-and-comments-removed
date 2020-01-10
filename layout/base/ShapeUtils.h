@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsStyleCoord
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
