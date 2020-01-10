@@ -358,9 +358,6 @@ info
 final
 CryptoInfo
 cryptoInfo
-final
-long
-session
 )
 {
 setBufferInfo
@@ -372,12 +369,6 @@ setCryptoInfo
 (
 cryptoInfo
 )
-;
-this
-.
-session
-=
-session
 ;
 return
 this
