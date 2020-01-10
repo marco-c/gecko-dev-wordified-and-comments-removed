@@ -884,6 +884,16 @@ use
 self
 :
 :
+text
+:
+:
+TextDecorationSkipInk
+;
+pub
+use
+self
+:
+:
 time
 :
 :
