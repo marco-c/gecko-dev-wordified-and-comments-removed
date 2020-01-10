@@ -64,15 +64,6 @@ h
 #
 include
 "
-gc
-/
-GCInternals
-.
-h
-"
-#
-include
-"
 jit
 /
 IonBuilder
