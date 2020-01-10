@@ -3,8 +3,10 @@ __future__
 import
 absolute_import
 print_function
+from
+contextlib
 import
-buildconfig
+contextmanager
 import
 os
 import
@@ -28,12 +30,14 @@ mozpack
 path
 as
 mozpath
+contextmanager
 def
-android
+gradle_lock
 (
-verb
-*
-args
+topobjdir
+max_wait_seconds
+=
+600
 )
 :
     
@@ -52,8 +56,6 @@ lockfile
 .
 format
 (
-buildconfig
-.
 topobjdir
 )
     
@@ -67,9 +69,40 @@ lock_instance
 lock_file
 (
 lock_path
+max_wait
+=
+max_wait_seconds
 )
     
 try
+:
+        
+yield
+    
+finally
+:
+        
+del
+lock_instance
+def
+android
+(
+verb
+*
+args
+)
+:
+    
+import
+buildconfig
+    
+with
+gradle_lock
+(
+buildconfig
+.
+topobjdir
+)
 :
         
 cmd
@@ -150,12 +183,6 @@ env
         
 return
 0
-    
-finally
-:
-        
-del
-lock_instance
 def
 assemble_app
 (
