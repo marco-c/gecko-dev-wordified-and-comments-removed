@@ -151,6 +151,9 @@ gtest
 '
 jsmodules
 '
+'
+useractivation
+'
 ]
 TEST_HARNESS_FILES
 .

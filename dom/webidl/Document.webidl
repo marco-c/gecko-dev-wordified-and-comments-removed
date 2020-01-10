@@ -4045,6 +4045,14 @@ clearUserGestureActivation
 (
 )
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+boolean
+hasBeenUserGestureActivated
+;
 }
 ;
 /
