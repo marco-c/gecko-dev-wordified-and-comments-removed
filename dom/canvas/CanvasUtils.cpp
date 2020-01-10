@@ -1354,6 +1354,8 @@ aCORSUsed
 nsIPrincipal
 *
 aPrincipal
+bool
+aHadCrossOriginRedirects
 )
 {
 if
@@ -1372,6 +1374,15 @@ if
 aCORSUsed
 )
 {
+if
+(
+aHadCrossOriginRedirects
+)
+{
+return
+true
+;
+}
 nsIGlobalObject
 *
 incumbentSettingsObject

@@ -839,6 +839,8 @@ aCORSUsed
 nsIPrincipal
 *
 aPrincipal
+bool
+aHadCrossOriginRedirects
 )
 ;
 }

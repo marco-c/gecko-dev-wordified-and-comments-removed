@@ -441,6 +441,14 @@ GetCurrentPrincipal
 0
 ;
 virtual
+bool
+HadCrossOriginRedirects
+(
+)
+=
+0
+;
+virtual
 double
 GetCurrentTime
 (
