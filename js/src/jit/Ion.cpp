@@ -9307,13 +9307,6 @@ check
 script
 )
 ;
-script
--
->
-ensureNonLazyCanonicalFunction
-(
-)
-;
 auto
 alloc
 =

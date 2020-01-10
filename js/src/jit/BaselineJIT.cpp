@@ -1178,13 +1178,6 @@ ProfilingCategoryPair
 JS_BaselineCompilation
 )
 ;
-script
--
->
-ensureNonLazyCanonicalFunction
-(
-)
-;
 TempAllocator
 temp
 (

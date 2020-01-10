@@ -19834,13 +19834,6 @@ CHECK_THREAD
 cx
 )
 ;
-script
--
->
-ensureNonLazyCanonicalFunction
-(
-)
-;
 RootedFunction
 fun
 (

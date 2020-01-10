@@ -11142,12 +11142,6 @@ return
 nullptr
 ;
 }
-inline
-void
-ensureNonLazyCanonicalFunction
-(
-)
-;
 bool
 isModule
 (

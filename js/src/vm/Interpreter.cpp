@@ -2361,17 +2361,6 @@ script
 )
 )
 ;
-state
-.
-script
-(
-)
--
->
-ensureNonLazyCanonicalFunction
-(
-)
-;
 jit
 :
 :
