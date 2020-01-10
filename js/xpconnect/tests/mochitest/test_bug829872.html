@@ -130,6 +130,7 @@ go
 )
 ;
 }
+async
 function
 check
 (
@@ -157,14 +158,21 @@ desc
 ;
 ok
 (
+await
 SpecialPowers
 .
-wrap
+spawn
 (
 elem
+[
+]
+(
 )
+=
+>
+this
 .
-contentWindow
+content
 .
 eval
 (
@@ -176,6 +184,7 @@ frameElement
 null
 ;
 '
+)
 )
 "
 null
@@ -221,6 +230,7 @@ desc
 )
 ;
 }
+async
 function
 go
 (
@@ -235,6 +245,7 @@ test
 "
 )
 ;
+await
 check
 (
 (
@@ -248,6 +259,7 @@ element
 "
 )
 ;
+await
 check
 (
 (
@@ -261,6 +273,7 @@ element
 "
 )
 ;
+await
 check
 (
 (
