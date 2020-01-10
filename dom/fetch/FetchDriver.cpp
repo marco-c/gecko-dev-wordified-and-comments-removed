@@ -1051,6 +1051,8 @@ mPipeAlternativeOutputStream
 ;
 uint32_t
 read
+=
+0
 ;
 return
 aInputStream
