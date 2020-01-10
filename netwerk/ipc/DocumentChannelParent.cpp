@@ -458,6 +458,10 @@ if
 result
 )
 {
+mListener
+=
+nullptr
+;
 return
 SendFailedAsyncOpen
 (
@@ -772,6 +776,10 @@ rv
 )
 )
 {
+mListener
+=
+nullptr
+;
 return
 SendFailedAsyncOpen
 (
