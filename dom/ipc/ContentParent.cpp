@@ -16778,10 +16778,8 @@ aEndpoint
 )
 )
 {
-return
-IPC_FAIL
+NS_WARNING
 (
-this
 "
 BackgroundParent
 :

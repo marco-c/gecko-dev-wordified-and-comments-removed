@@ -5760,7 +5760,7 @@ aParent
 )
 )
 {
-MOZ_CRASH
+NS_WARNING
 (
 "
 Failed
@@ -6266,7 +6266,7 @@ aParent
 )
 )
 {
-MOZ_CRASH
+NS_WARNING
 (
 "
 Failed
