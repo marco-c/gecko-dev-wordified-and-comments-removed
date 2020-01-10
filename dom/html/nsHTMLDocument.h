@@ -513,6 +513,14 @@ rv
 )
 )
 {
+SetDocumentAndPageUseCounter
+(
+mozilla
+:
+:
+eUseCounter_custom_HTMLDocumentNamedGetterHit
+)
+;
 aRetval
 .
 set
