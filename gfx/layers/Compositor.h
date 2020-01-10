@@ -225,6 +225,9 @@ class
 LayerManagerComposite
 ;
 class
+NativeLayer
+;
+class
 CompositorOGL
 ;
 class
@@ -1043,6 +1046,9 @@ const
 nsIntRegion
 &
 aOpaqueRegion
+NativeLayer
+*
+aNativeLayer
 gfx
 :
 :

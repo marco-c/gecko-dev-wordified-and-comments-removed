@@ -446,6 +446,9 @@ const
 nsIntRegion
 &
 aOpaqueRegion
+NativeLayer
+*
+aNativeLayer
 gfx
 :
 :
