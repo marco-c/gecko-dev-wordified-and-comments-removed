@@ -888,6 +888,17 @@ inherit
 mEmbedderPolicy
 ;
 }
+nsContentUtils
+:
+:
+GenerateUUIDInPlace
+(
+context
+-
+>
+mHistoryID
+)
+;
 Register
 (
 context

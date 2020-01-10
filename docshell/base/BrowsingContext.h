@@ -112,6 +112,13 @@ h
 #
 include
 "
+nsID
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h
