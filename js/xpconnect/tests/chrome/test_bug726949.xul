@@ -126,6 +126,14 @@ only
 .
 xul
 "
+style
+=
+"
+display
+:
+block
+;
+"
 >
 <
 script
