@@ -1074,9 +1074,8 @@ media
 /
 libdav1d
 /
-version
 .
-h
+*
 media
 /
 libjpeg
