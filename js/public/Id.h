@@ -831,10 +831,7 @@ char
 name
 )
 {
-js
-:
-:
-UnsafeTraceManuallyBarrieredEdge
+UnsafeTraceRoot
 (
 trc
 idp

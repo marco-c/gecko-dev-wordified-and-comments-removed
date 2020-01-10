@@ -1100,8 +1100,11 @@ GlobalObjectVector
 =
 GCVector
 <
+HeapPtr
+<
 WasmGlobalObject
 *
+>
 0
 ZoneAllocPolicy
 >

@@ -237,7 +237,7 @@ isObject
 )
 )
 {
-TraceManuallyBarrieredEdge
+TraceRoot
 (
 trc
 &
