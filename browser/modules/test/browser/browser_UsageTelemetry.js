@@ -152,9 +152,7 @@ TELEMETRY_SUBSESSION_TOPIC
 let
 checkScalars
 =
-(
 countsObject
-)
 =
 >
 {
@@ -1403,11 +1401,9 @@ now
 (
 )
 -
-(
 MINIMUM_TAB_COUNT_INTERVAL_MS
 /
 2
-)
 ;
 {
 let
@@ -1630,11 +1626,9 @@ now
 (
 )
 -
-(
 MINIMUM_TAB_COUNT_INTERVAL_MS
 /
 2
-)
 ;
 {
 let

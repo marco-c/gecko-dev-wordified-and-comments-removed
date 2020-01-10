@@ -198,6 +198,7 @@ requireBoth
 )
 {
 return
+(
 sessionInfo
 .
 sessionCount
@@ -216,9 +217,11 @@ hoursSinceInstall
 this
 .
 minimumHoursSinceInstall
+)
 ;
 }
 return
+(
 sessionInfo
 .
 sessionCount
@@ -237,6 +240,7 @@ hoursSinceInstall
 this
 .
 minimumHoursSinceInstall
+)
 ;
 }
 }
@@ -451,6 +455,7 @@ _sessionCount
 ;
 }
 return
+(
 this
 .
 _sessionCount
@@ -463,6 +468,7 @@ getIntPref
 (
 kSessionCountPref
 0
+)
 )
 ;
 }

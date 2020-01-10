@@ -884,9 +884,7 @@ nsIDOMWindow
 let
 listener
 =
-(
 ev
-)
 =
 >
 {
@@ -984,9 +982,7 @@ win
 let
 maybeStopHang
 =
-(
 report
-)
 =
 >
 {

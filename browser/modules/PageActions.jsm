@@ -2603,6 +2603,7 @@ labelForHistogram
 )
 {
 return
+(
 this
 .
 _labelForHistogram
@@ -2640,6 +2641,7 @@ substr
 (
 0
 20
+)
 )
 ;
 }
@@ -3046,6 +3048,7 @@ browserWindow
 {
 return
 (
+(
 !
 this
 .
@@ -3068,6 +3071,7 @@ canShowInWindow
 (
 browserWindow
 )
+)
 ;
 }
 shouldShowInUrlbar
@@ -3089,7 +3093,6 @@ getDisabled
 (
 browserWindow
 )
-)
 &
 &
 this
@@ -3097,6 +3100,7 @@ this
 canShowInWindow
 (
 browserWindow
+)
 )
 ;
 }

@@ -331,9 +331,11 @@ if
 !
 pageListener
 )
+{
 return
 null
 ;
+}
 if
 (
 shouldPassPageListener

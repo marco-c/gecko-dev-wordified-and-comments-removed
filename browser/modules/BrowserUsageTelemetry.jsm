@@ -593,6 +593,7 @@ tabbrowser
 )
 {
 return
+(
 !
 PrivateBrowsingUtils
 .
@@ -621,6 +622,7 @@ search_counts
 pbm
 "
 false
+)
 )
 ;
 }
@@ -2190,7 +2192,6 @@ details
 const
 sourceName
 =
-(
 source
 =
 =
@@ -2198,7 +2199,6 @@ source
 "
 unknown
 "
-)
 ?
 "
 searchbar

@@ -225,8 +225,10 @@ this
 .
 initialized
 )
+{
 return
 ;
+}
 this
 .
 initialized
@@ -414,9 +416,7 @@ iterator
 .
 forEach
 (
-(
 entry
-)
 =
 >
 {
@@ -508,9 +508,7 @@ results
 .
 forEach
 (
-(
 result
-)
 =
 >
 {
@@ -553,9 +551,7 @@ path
 )
 ;
 }
-(
 e
-)
 =
 >
 {
@@ -611,9 +607,7 @@ reports
 )
 ;
 }
-(
 e
-)
 =
 >
 {
@@ -803,7 +797,6 @@ Services
 appinfo
 .
 appBuildID
-(
 AppConstants
 .
 SOURCE_REVISION_URL
@@ -812,7 +805,6 @@ SOURCE_REVISION_URL
 "
 unknown
 "
-)
 ]
 ;
 let

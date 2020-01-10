@@ -2783,7 +2783,6 @@ this
 .
 isSysexPerm
 =
-(
 perm
 .
 options
@@ -2809,7 +2808,6 @@ nsISupportsString
 "
 sysex
 "
-)
 ;
 this
 .

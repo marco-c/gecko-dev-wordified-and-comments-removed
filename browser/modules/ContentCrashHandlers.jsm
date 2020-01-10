@@ -438,6 +438,7 @@ this
 prefs
 ;
 return
+(
 this
 .
 prefs
@@ -457,6 +458,7 @@ crashReporting
 .
 "
 )
+)
 ;
 }
 init
@@ -469,8 +471,10 @@ this
 .
 initialized
 )
+{
 return
 ;
+}
 this
 .
 initialized
@@ -1692,20 +1696,12 @@ let
 extraExtraKeyVals
 =
 {
-"
 Comments
-"
 :
 comments
-"
 Email
-"
 :
 email
-"
-URL
-"
-:
 URL
 }
 ;
@@ -1896,8 +1892,10 @@ window
 .
 gMultiProcessBrowser
 )
+{
 continue
 ;
+}
 for
 (
 let
@@ -1916,8 +1914,10 @@ browser
 .
 isRemoteBrowser
 )
+{
 continue
 ;
+}
 let
 doc
 =
@@ -1941,8 +1941,10 @@ tabcrashed
 "
 )
 )
+{
 continue
 ;
+}
 if
 (
 this
@@ -2486,6 +2488,7 @@ this
 prefs
 ;
 return
+(
 this
 .
 prefs
@@ -2504,6 +2507,7 @@ crashReports
 unsubmittedCheck
 .
 "
+)
 )
 ;
 }
@@ -3088,11 +3092,9 @@ now
 (
 )
 +
-(
 DAY
 *
 DAYS_TO_SUPPRESS
-)
 )
 )
 ;
@@ -3512,9 +3514,7 @@ true
 let
 eventCallback
 =
-(
 eventType
-)
 =
 >
 {
@@ -3665,9 +3665,7 @@ reportID
 extraExtraKeyVals
 :
 {
-"
 SubmittedFromInfobar
-"
 :
 true
 }
@@ -4245,6 +4243,7 @@ if
 (
 browserDumpID
 )
+{
 CrashSubmit
 .
 submit
@@ -4259,6 +4258,7 @@ Cu
 reportError
 )
 ;
+}
 this
 .
 broadcastState

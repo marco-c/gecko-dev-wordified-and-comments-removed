@@ -2113,7 +2113,6 @@ listIntroEl
 .
 hidden
 =
-(
 strings
 .
 msgs
@@ -2122,7 +2121,6 @@ length
 =
 =
 0
-)
 ;
 let
 listInfoEl
@@ -2179,7 +2177,6 @@ listInfoEl
 .
 hidden
 =
-(
 strings
 .
 msgs
@@ -2188,7 +2185,6 @@ length
 =
 =
 0
-)
 ;
 let
 list
@@ -2977,9 +2973,7 @@ onRefresh
 setCheckbox
 onDismissed
 :
-(
 win
-)
 =
 >
 {

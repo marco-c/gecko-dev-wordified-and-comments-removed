@@ -160,6 +160,7 @@ enabled
 )
 {
 return
+(
 this
 .
 prefEnabled
@@ -174,6 +175,7 @@ newTabEnabled
 gAboutNewTabService
 .
 overridden
+)
 ;
 }
 _createBrowser
@@ -291,6 +293,7 @@ w
 >
 {
 return
+(
 winPrivate
 =
 =
@@ -312,6 +315,7 @@ w
 gBrowser
 .
 preloadedBrowser
+)
 ;
 }
 )

@@ -1186,6 +1186,7 @@ minimizedOrFullyOccluded
 )
 {
 return
+(
 this
 .
 window
@@ -1205,6 +1206,7 @@ this
 window
 .
 isFullyOccluded
+)
 ;
 }
 get
@@ -2013,6 +2015,7 @@ this
 .
 lastVisibleTab
 )
+{
 this
 .
 lastVisibleTab
@@ -2021,6 +2024,7 @@ _visuallySelected
 =
 false
 ;
+}
 this
 .
 visibleTab
@@ -5513,20 +5517,24 @@ this
 .
 _useDumpForLogging
 )
+{
 return
 true
 ;
+}
 if
 (
 this
 .
 _logInit
 )
+{
 return
 this
 .
 _shouldLog
 ;
+}
 let
 result
 =
@@ -5618,8 +5626,10 @@ logging
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -5665,8 +5675,10 @@ logging
 (
 )
 )
+{
 return
 ;
+}
 let
 accum
 =
@@ -5796,6 +5808,7 @@ this
 .
 lastVisibleTab
 )
+{
 accum
 +
 =
@@ -5803,6 +5816,7 @@ accum
 V
 "
 ;
+}
 if
 (
 tab
@@ -5813,6 +5827,7 @@ this
 .
 loadingTab
 )
+{
 accum
 +
 =
@@ -5820,6 +5835,7 @@ accum
 L
 "
 ;
+}
 if
 (
 tab
@@ -5830,6 +5846,7 @@ this
 .
 requestedTab
 )
+{
 accum
 +
 =
@@ -5837,6 +5854,7 @@ accum
 R
 "
 ;
+}
 if
 (
 tab
@@ -5847,6 +5865,7 @@ this
 .
 blankTab
 )
+{
 accum
 +
 =
@@ -5854,6 +5873,7 @@ accum
 B
 "
 ;
+}
 let
 extraStates
 =
@@ -5864,6 +5884,7 @@ if
 (
 isWarming
 )
+{
 extraStates
 +
 =
@@ -5871,10 +5892,12 @@ extraStates
 W
 "
 ;
+}
 if
 (
 isCached
 )
+{
 extraStates
 +
 =
@@ -5882,10 +5905,12 @@ extraStates
 C
 "
 ;
+}
 if
 (
 isClosing
 )
+{
 extraStates
 +
 =
@@ -5893,10 +5918,12 @@ extraStates
 X
 "
 ;
+}
 if
 (
 isActive
 )
+{
 extraStates
 +
 =
@@ -5904,10 +5931,12 @@ extraStates
 A
 "
 ;
+}
 if
 (
 isRendered
 )
+{
 extraStates
 +
 =
@@ -5915,6 +5944,7 @@ extraStates
 R
 "
 ;
+}
 if
 (
 extraStates
@@ -5943,6 +5973,7 @@ this
 .
 STATE_LOADED
 )
+{
 accum
 +
 =
@@ -5952,6 +5983,7 @@ accum
 )
 "
 ;
+}
 if
 (
 state
@@ -5961,6 +5993,7 @@ this
 .
 STATE_LOADING
 )
+{
 accum
 +
 =
@@ -5971,6 +6004,7 @@ accum
 )
 "
 ;
+}
 if
 (
 state
@@ -5980,6 +6014,7 @@ this
 .
 STATE_UNLOADED
 )
+{
 accum
 +
 =
@@ -5989,6 +6024,7 @@ accum
 )
 "
 ;
+}
 if
 (
 state
@@ -5998,6 +6034,7 @@ this
 .
 STATE_UNLOADING
 )
+{
 accum
 +
 =
@@ -6008,6 +6045,7 @@ accum
 )
 "
 ;
+}
 accum
 +
 =

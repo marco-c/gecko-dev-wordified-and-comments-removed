@@ -41,6 +41,8 @@ prefVisibility
 =
 new
 Map
+(
+)
 ;
 var
 TransientPrefs
@@ -60,6 +62,7 @@ isSet
 prefName
 )
 )
+{
 prefVisibility
 .
 set
@@ -68,6 +71,7 @@ prefName
 true
 )
 ;
+}
 return
 !
 !

@@ -44,7 +44,6 @@ version
 ;
 isWin7OrHigher
 =
-(
 parseFloat
 (
 version
@@ -54,7 +53,6 @@ version
 6
 .
 1
-)
 ;
 }
 catch
@@ -84,8 +82,10 @@ if
 !
 isWin7OrHigher
 )
+{
 return
 ;
+}
 const
 ENABLE_PREF_NAME
 =
@@ -218,6 +218,7 @@ AeroPeek
 .
 previews
 )
+{
 ok
 (
 preview
@@ -232,6 +233,7 @@ expected
 "
 )
 ;
+}
 Services
 .
 prefs
@@ -293,6 +295,7 @@ AeroPeek
 .
 previews
 )
+{
 ok
 (
 preview
@@ -311,6 +314,7 @@ enabling
 "
 )
 ;
+}
 [
 1
 2
@@ -573,6 +577,7 @@ prefHasUserValue
 ENABLE_PREF_NAME
 )
 )
+{
 Services
 .
 prefs
@@ -591,6 +596,7 @@ ENABLE_PREF_NAME
 )
 )
 ;
+}
 finish
 (
 )

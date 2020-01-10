@@ -670,6 +670,7 @@ ts
 =
 undefined
 )
+{
 ts
 =
 Services
@@ -683,6 +684,7 @@ Sanitizer
 PREF_TIMESPAN
 )
 ;
+}
 if
 (
 ts
@@ -693,9 +695,11 @@ Sanitizer
 .
 TIMESPAN_EVERYTHING
 )
+{
 return
 null
 ;
+}
 var
 endDate
 =
@@ -887,6 +891,7 @@ if
 !
 itemsToClear
 )
+{
 itemsToClear
 =
 getItemsToClearFromPrefBranch
@@ -896,6 +901,7 @@ this
 PREF_CPD_BRANCH
 )
 ;
+}
 let
 promise
 =
@@ -1476,6 +1482,7 @@ searchBar
 .
 textbox
 )
+{
 searchBar
 .
 textbox
@@ -1484,6 +1491,7 @@ reset
 (
 )
 ;
+}
 let
 tabBrowser
 =
@@ -1519,6 +1527,7 @@ isFindBarInitialized
 tab
 )
 )
+{
 tabBrowser
 .
 getCachedFindBar
@@ -1530,6 +1539,7 @@ clear
 (
 )
 ;
+}
 }
 tabBrowser
 .
@@ -1993,13 +2003,11 @@ now
 (
 )
 >
-(
 startDate
 +
 60
 *
 1000
-)
 )
 {
 this
@@ -2267,8 +2275,10 @@ subject
 =
 newWindow
 )
+{
 return
 ;
+}
 Services
 .
 obs
@@ -2533,6 +2543,7 @@ isArray
 aItemsToClear
 )
 )
+{
 throw
 new
 Error
@@ -2550,6 +2561,7 @@ clear
 "
 )
 ;
+}
 let
 itemsToClear
 =
@@ -2574,6 +2586,7 @@ progress
 .
 isShutdown
 )
+{
 addPendingSanitization
 (
 uid
@@ -2581,6 +2594,7 @@ itemsToClear
 options
 )
 ;
+}
 for
 (
 let
@@ -2767,6 +2781,7 @@ then
 )
 =
 >
+(
 progress
 [
 name
@@ -2775,6 +2790,7 @@ name
 "
 cleared
 "
+)
 ex
 =
 >
@@ -2843,11 +2859,13 @@ progress
 .
 isShutdown
 )
+{
 removePendingSanitization
 (
 uid
 )
 ;
+}
 progress
 =
 {
@@ -4323,6 +4341,7 @@ pendingSanitizations
 .
 length
 )
+{
 Services
 .
 prefs
@@ -4334,6 +4353,7 @@ Sanitizer
 PREF_PENDING_SANITIZATIONS
 )
 ;
+}
 return
 pendingSanitizations
 ;

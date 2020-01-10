@@ -55,11 +55,13 @@ this
 .
 _windowFrameColor
 )
+{
 return
 this
 .
 _windowFrameColor
 ;
+}
 const
 HKCU
 =
@@ -276,6 +278,7 @@ alpha
 )
 ;
 return
+(
 this
 .
 _windowFrameColor
@@ -285,6 +288,7 @@ r
 g
 b
 ]
+)
 ;
 }
 }

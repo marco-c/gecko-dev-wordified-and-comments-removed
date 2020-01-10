@@ -1196,6 +1196,7 @@ Ci
 nsIURI
 )
 )
+{
 throw
 new
 Error
@@ -1210,6 +1211,7 @@ nsIURI
 "
 )
 ;
+}
 let
 principal
 =
@@ -1305,7 +1307,6 @@ type
 {
 if
 (
-(
 permission
 .
 type
@@ -1314,7 +1315,6 @@ type
 "
 canvas
 "
-)
 &
 &
 !
@@ -1579,6 +1579,7 @@ principal
 )
 {
 return
+(
 principal
 &
 &
@@ -1608,6 +1609,7 @@ principal
 URI
 .
 scheme
+)
 )
 ;
 }
@@ -1709,6 +1711,7 @@ permissionID
 .
 states
 )
+{
 return
 gPermissionObject
 [
@@ -1717,6 +1720,7 @@ permissionID
 .
 states
 ;
+}
 if
 (
 this
@@ -1731,6 +1735,7 @@ this
 .
 UNKNOWN
 )
+{
 return
 [
 SitePermissions
@@ -1744,6 +1749,7 @@ SitePermissions
 BLOCK
 ]
 ;
+}
 return
 [
 SitePermissions
@@ -1777,6 +1783,7 @@ permissionID
 .
 getDefault
 )
+{
 return
 gPermissionObject
 [
@@ -1787,6 +1794,7 @@ getDefault
 (
 )
 ;
+}
 return
 this
 .
@@ -1891,6 +1899,7 @@ nsIURI
 )
 )
 )
+{
 throw
 new
 Error
@@ -1911,6 +1920,7 @@ needed
 "
 )
 ;
+}
 let
 principal
 =
@@ -2182,6 +2192,7 @@ nsIURI
 )
 )
 )
+{
 throw
 new
 Error
@@ -2202,6 +2213,7 @@ needed
 "
 )
 ;
+}
 let
 principal
 =
@@ -2572,6 +2584,7 @@ nsIURI
 )
 )
 )
+{
 throw
 new
 Error
@@ -2592,6 +2605,7 @@ needed
 "
 )
 ;
+}
 let
 principal
 =
@@ -2637,6 +2651,7 @@ isSupportedPrincipal
 principal
 )
 )
+{
 Services
 .
 perms
@@ -2647,6 +2662,7 @@ principal
 permissionID
 )
 ;
+}
 if
 (
 TemporaryPermissions
@@ -2984,6 +3000,7 @@ this
 .
 SCOPE_POLICY
 )
+{
 return
 gStringBundle
 .
@@ -2998,6 +3015,7 @@ allowedTemporarily
 "
 )
 ;
+}
 return
 gStringBundle
 .
@@ -3356,9 +3374,7 @@ state
 ;
 }
 }
-"
 image
-"
 :
 {
 states
@@ -3372,9 +3388,7 @@ SitePermissions
 BLOCK
 ]
 }
-"
 cookie
-"
 :
 {
 states
@@ -3418,11 +3432,13 @@ nsICookieService
 .
 BEHAVIOR_REJECT
 )
+{
 return
 SitePermissions
 .
 BLOCK
 ;
+}
 if
 (
 Services
@@ -3447,11 +3463,13 @@ nsICookieService
 .
 ACCEPT_SESSION
 )
+{
 return
 SitePermissions
 .
 ALLOW_COOKIES_FOR_SESSION
 ;
+}
 return
 SitePermissions
 .
@@ -3477,27 +3495,21 @@ desktop
 notification3
 "
 }
-"
 camera
-"
 :
 {
 exactHostMatch
 :
 true
 }
-"
 microphone
-"
 :
 {
 exactHostMatch
 :
 true
 }
-"
 screen
-"
 :
 {
 exactHostMatch
@@ -3514,9 +3526,7 @@ SitePermissions
 BLOCK
 ]
 }
-"
 popup
-"
 :
 {
 getDefault
@@ -3557,9 +3567,7 @@ SitePermissions
 BLOCK
 ]
 }
-"
 install
-"
 :
 {
 getDefault
@@ -3592,9 +3600,7 @@ ALLOW
 ;
 }
 }
-"
 geo
-"
 :
 {
 exactHostMatch
@@ -3637,9 +3643,7 @@ exactHostMatch
 :
 true
 }
-"
 shortcuts
-"
 :
 {
 states
@@ -3653,15 +3657,11 @@ SitePermissions
 BLOCK
 ]
 }
-"
 canvas
-"
 :
 {
 }
-"
 midi
-"
 :
 {
 exactHostMatch

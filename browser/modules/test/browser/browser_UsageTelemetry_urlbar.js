@@ -553,9 +553,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -578,9 +576,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -3190,14 +3186,10 @@ SearchTelemetry
 overrideSearchTelemetryForTests
 (
 {
-"
 example
-"
 :
 {
-"
 regexp
-"
 :
 "
 ^
@@ -3212,9 +3204,7 @@ example
 com
 /
 "
-"
 queryParam
-"
 :
 "
 q

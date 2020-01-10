@@ -390,7 +390,6 @@ urlbarZoomButton
 .
 hidden
 =
-(
 zoomFactor
 =
 =
@@ -416,7 +415,6 @@ areatype
 "
 toolbar
 "
-)
 )
 ;
 let

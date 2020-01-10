@@ -64,9 +64,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -137,9 +135,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 aPrefs
 }
@@ -417,7 +413,6 @@ _browser
 let
 buttonCount
 =
-(
 UpdateUtils
 .
 UpdateChannel
@@ -430,7 +425,6 @@ aurora
 3
 :
 2
-)
 ;
 add_task
 (
@@ -746,9 +740,7 @@ promise
 .
 then
 (
-(
 action
-)
 =
 >
 {

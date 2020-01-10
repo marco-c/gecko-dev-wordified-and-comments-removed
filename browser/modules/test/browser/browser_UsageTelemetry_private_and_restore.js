@@ -506,9 +506,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 3785
 }

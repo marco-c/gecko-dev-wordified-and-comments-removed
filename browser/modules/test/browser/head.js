@@ -175,9 +175,7 @@ errorMsg
 then
 (
 nextTest
-(
 reason
-)
 =
 >
 {

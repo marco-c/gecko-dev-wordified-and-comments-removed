@@ -526,6 +526,7 @@ idx
 =
 0
 )
+{
 _trackedWindows
 .
 splice
@@ -534,6 +535,7 @@ idx
 1
 )
 ;
+}
 }
 var
 WindowHelper
@@ -721,8 +723,10 @@ _trackedWindows
 0
 ]
 )
+{
 return
 ;
+}
 _untrackWindowOrder
 (
 window
