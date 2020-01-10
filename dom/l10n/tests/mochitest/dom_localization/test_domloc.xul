@@ -173,7 +173,6 @@ function
 *
 generateMessages
 (
-locales
 resourceIds
 )
 {
@@ -183,7 +182,11 @@ bundle
 new
 FluentBundle
 (
-locales
+"
+en
+-
+US
+"
 )
 ;
 bundle
