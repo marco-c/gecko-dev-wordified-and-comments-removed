@@ -226,6 +226,12 @@ nsClipboard
 (
 )
 ;
+nsresult
+Store
+(
+void
+)
+;
 nsITransferable
 *
 GetTransferable
@@ -249,13 +255,6 @@ char
 aClipboardData
 uint32_t
 aClipboardDataLength
-)
-;
-void
-ClearTransferable
-(
-int32_t
-aWhichClipboard
 )
 ;
 nsCOMPtr
