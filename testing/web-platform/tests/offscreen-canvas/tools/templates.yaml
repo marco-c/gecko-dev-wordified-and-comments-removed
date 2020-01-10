@@ -89,7 +89,9 @@ src
 =
 "
 /
-common
+2dcontext
+/
+resources
 /
 canvas
 -
@@ -269,7 +271,9 @@ importScripts
 (
 "
 /
-common
+2dcontext
+/
+resources
 /
 canvas
 -

@@ -4464,10 +4464,7 @@ setAttribute
 href
 '
 '
-.
-.
-/
-common
+resources
 /
 canvas
 -
