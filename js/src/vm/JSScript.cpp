@@ -14281,7 +14281,7 @@ typename
 Unit
 >
 struct
-SourceDecoder
+UnretrievableSourceDecoder
 {
 XDRState
 <
@@ -14302,7 +14302,7 @@ uncompressedLength_
 ;
 public
 :
-SourceDecoder
+UnretrievableSourceDecoder
 (
 XDRState
 <
@@ -14492,7 +14492,7 @@ sourceCharSize
 1
 )
 {
-SourceDecoder
+UnretrievableSourceDecoder
 <
 Utf8Unit
 >
@@ -14511,7 +14511,7 @@ decode
 )
 ;
 }
-SourceDecoder
+UnretrievableSourceDecoder
 <
 char16_t
 >
@@ -14537,7 +14537,7 @@ typename
 Unit
 >
 struct
-SourceEncoder
+UnretrievableSourceEncoder
 {
 XDRState
 <
@@ -14556,7 +14556,7 @@ const
 uint32_t
 uncompressedLength_
 ;
-SourceEncoder
+UnretrievableSourceEncoder
 (
 XDRState
 <
@@ -14673,7 +14673,7 @@ sourceCharSize
 1
 )
 {
-SourceEncoder
+UnretrievableSourceEncoder
 <
 Utf8Unit
 >
@@ -14692,7 +14692,7 @@ encode
 )
 ;
 }
-SourceEncoder
+UnretrievableSourceEncoder
 <
 char16_t
 >
