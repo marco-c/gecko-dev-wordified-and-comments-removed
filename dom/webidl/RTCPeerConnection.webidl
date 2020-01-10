@@ -644,6 +644,11 @@ attribute
 RTCIceConnectionState
 iceConnectionState
 ;
+void
+restartIce
+(
+)
+;
 [
 Pref
 =
