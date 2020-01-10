@@ -1265,6 +1265,16 @@ VIDEO_OGG_PATH
 )
 }
 WithDevToolsAPI
+Ignore
+/
+/
+disable
+test
+for
+frequent
+failures
+Bug
+1554117
 Test
 fun
 oggPlayMediaFromScript
