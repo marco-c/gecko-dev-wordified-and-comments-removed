@@ -2261,9 +2261,7 @@ playback_upstream_cert
 ]
 :
                 
-self
-.
-log
+LOG
 .
 info
 (
@@ -2372,9 +2370,7 @@ playback_upstream_cert
 ]
 :
                 
-self
-.
-log
+LOG
 .
 info
 (
