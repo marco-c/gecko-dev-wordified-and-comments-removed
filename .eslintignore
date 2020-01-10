@@ -2212,6 +2212,12 @@ test
 demo
 .
 js
+remote
+/
+test
+/
+puppeteer
+/
 #
 NSS
 /

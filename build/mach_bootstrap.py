@@ -376,6 +376,14 @@ py
 '
     
 '
+remote
+/
+mach_commands
+.
+py
+'
+    
+'
 taskcluster
 /
 mach_commands
