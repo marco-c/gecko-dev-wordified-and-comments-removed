@@ -2300,6 +2300,14 @@ function
 (
 )
 {
+if
+(
+!
+params
+.
+popupShown
+)
+{
 await
 BrowserTestUtils
 .
@@ -2313,6 +2321,7 @@ popupshown
 "
 )
 ;
+}
 const
 shownNotificationId
 =
