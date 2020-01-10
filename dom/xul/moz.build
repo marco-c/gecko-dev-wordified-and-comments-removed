@@ -172,11 +172,6 @@ nsXULElement
 h
 '
 '
-nsXULPrototypeDocument
-.
-h
-'
-'
 nsXULSortService
 .
 h
