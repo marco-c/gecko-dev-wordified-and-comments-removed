@@ -241,6 +241,17 @@ width
 800px
 ;
 }
+login
+-
+footer
+{
+grid
+-
+area
+:
+login
+;
+}
 #
 branding
 -
