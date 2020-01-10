@@ -572,6 +572,11 @@ nsIDNSService
 :
 :
 RESOLVE_DISABLE_IPV6
+|
+nsIDNSService
+:
+:
+RESOLVE_DISABLE_TRR
 this
 NS_GetCurrentThread
 (
@@ -620,6 +625,11 @@ nsIDNSService
 :
 :
 RESOLVE_DISABLE_IPV4
+|
+nsIDNSService
+:
+:
+RESOLVE_DISABLE_TRR
 this
 NS_GetCurrentThread
 (
@@ -948,6 +958,11 @@ nsIRequest
 :
 :
 INHIBIT_CACHING
+|
+nsIRequest
+:
+:
+LOAD_DISABLE_TRR
 |
 nsIRequest
 :
