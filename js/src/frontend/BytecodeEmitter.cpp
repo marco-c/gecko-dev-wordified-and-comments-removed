@@ -33563,6 +33563,14 @@ Name
 {
 if
 (
+argsList
+-
+>
+empty
+(
+)
+|
+|
 !
 bytecodeSection
 (
