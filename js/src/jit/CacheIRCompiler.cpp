@@ -32422,7 +32422,8 @@ JSContext
 *
 HandleObject
 HandleValue
-MutableHandleValue
+bool
+*
 )
 ;
 if

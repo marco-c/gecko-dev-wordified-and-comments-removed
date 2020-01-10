@@ -523,7 +523,8 @@ HandleObject
 proxy
 HandleValue
 idVal
-MutableHandleValue
+bool
+*
 result
 )
 ;
@@ -537,7 +538,8 @@ HandleObject
 proxy
 HandleValue
 idVal
-MutableHandleValue
+bool
+*
 result
 )
 ;
