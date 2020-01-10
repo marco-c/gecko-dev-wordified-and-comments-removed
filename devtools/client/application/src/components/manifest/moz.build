@@ -71,12 +71,7 @@ ManifestEmpty
 js
 '
 '
-ManifestItemIcon
-.
-js
-'
-'
-ManifestItemText
+ManifestItem
 .
 js
 '
@@ -92,6 +87,11 @@ js
 '
 '
 ManifestPage
+.
+js
+'
+'
+ManifestSection
 .
 js
 '
