@@ -13842,6 +13842,14 @@ AssignedNodes
 IsEmpty
 (
 )
+&
+&
+aNewSlot
+-
+>
+HasChildren
+(
+)
 )
 {
 DestroyFramesForAndRestyle
