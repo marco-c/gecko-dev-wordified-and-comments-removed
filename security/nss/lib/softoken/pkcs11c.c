@@ -25297,11 +25297,6 @@ hKey
 session
 )
 ;
-sftk_FreeSession
-(
-session
-)
-;
 if
 (
 key
@@ -25310,6 +25305,11 @@ key
 NULL
 )
 {
+sftk_FreeSession
+(
+session
+)
+;
 return
 CKR_KEY_HANDLE_INVALID
 ;
@@ -25804,6 +25804,11 @@ break
 sftk_FreeObject
 (
 key
+)
+;
+sftk_FreeSession
+(
+session
 )
 ;
 return
