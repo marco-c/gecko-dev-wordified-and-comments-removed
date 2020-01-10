@@ -85,6 +85,7 @@ records
 dictionary
 NDEFMessageInit
 {
+required
 sequence
 <
 NDEFRecordInit
@@ -158,6 +159,7 @@ toRecords
 dictionary
 NDEFRecordInit
 {
+required
 NDEFRecordType
 recordType
 ;
@@ -360,6 +362,11 @@ Infinity
 ;
 boolean
 ignoreRead
+=
+true
+;
+boolean
+overwrite
 =
 true
 ;
