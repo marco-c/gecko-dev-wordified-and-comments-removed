@@ -205,6 +205,11 @@ skipBreakpoints
 prefs
 .
 skipPausing
+logEventBreakpoints
+:
+features
+.
+logEventBreakpoints
 }
 )
 ;

@@ -157,6 +157,11 @@ helper
 js
 '
 '
+logEvent
+.
+js
+'
+'
 make
 -
 debugger
