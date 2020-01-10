@@ -999,11 +999,6 @@ NotifyResetUserGestureActivation
 (
 )
 ;
-bool
-GetUserGestureActivation
-(
-)
-;
 inline
 JSObject
 *

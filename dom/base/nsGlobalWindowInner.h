@@ -7118,11 +7118,6 @@ CancelDocumentFlushedResolvers
 (
 )
 ;
-bool
-ShouldResetBrowsingContextUserGestureActivation
-(
-)
-;
 void
 FireFrameLoadEvent
 (
