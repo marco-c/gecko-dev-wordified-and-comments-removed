@@ -8,6 +8,8 @@ import
 os
 import
 sys
+import
+multiprocessing
 from
 functools
 import
@@ -397,6 +399,48 @@ S3
 '
 )
     
+CommandArgument
+(
+'
+-
+j
+'
+'
+-
+-
+jobs
+'
+default
+=
+str
+(
+multiprocessing
+.
+cpu_count
+(
+)
+)
+dest
+=
+'
+jobs
+'
+                     
+help
+=
+'
+Distribute
+the
+build
+over
+N
+processes
+in
+parallel
+.
+'
+)
+    
 def
 build_docs
 (
@@ -428,6 +472,9 @@ False
 upload
 =
 False
+jobs
+=
+None
 )
 :
         
@@ -614,6 +661,9 @@ savedir
 fmt
 =
 fmt
+jobs
+=
+jobs
 )
         
 if
@@ -861,6 +911,9 @@ savedir
 fmt
 =
 fmt
+jobs
+=
+jobs
 )
             
 server
@@ -910,6 +963,9 @@ fmt
 '
 html
 '
+jobs
+=
+None
 )
 :
         
@@ -958,6 +1014,23 @@ docdir
 savedir
         
 ]
+        
+if
+jobs
+:
+            
+args
+.
+extend
+(
+[
+'
+-
+j
+'
+jobs
+]
+)
         
 return
 sphinx
