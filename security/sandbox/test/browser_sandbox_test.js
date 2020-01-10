@@ -40,6 +40,9 @@ var
 processTypes
 =
 [
+"
+tab
+"
 ]
 ;
 Services
