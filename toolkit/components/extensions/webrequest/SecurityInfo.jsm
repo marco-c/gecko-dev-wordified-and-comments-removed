@@ -572,6 +572,10 @@ let
 cert
 of
 certChain
+.
+getEnumerator
+(
+)
 )
 {
 certificates

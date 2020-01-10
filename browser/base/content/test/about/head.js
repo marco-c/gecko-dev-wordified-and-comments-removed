@@ -106,6 +106,10 @@ of
 securityInfo
 .
 failedCertChain
+.
+getEnumerator
+(
+)
 )
 {
 certChain
