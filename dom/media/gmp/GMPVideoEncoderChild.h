@@ -172,7 +172,7 @@ const
 GMPVideoCodec
 &
 aCodecSettings
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -202,14 +202,14 @@ const
 GMPVideoi420FrameData
 &
 aInputFrame
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
 &
 &
 aCodecSpecificInfo
-InfallibleTArray
+nsTArray
 <
 GMPVideoFrameType
 >

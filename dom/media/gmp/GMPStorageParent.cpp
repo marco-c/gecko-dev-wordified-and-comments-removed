@@ -815,7 +815,7 @@ const
 nsCString
 &
 aRecordName
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

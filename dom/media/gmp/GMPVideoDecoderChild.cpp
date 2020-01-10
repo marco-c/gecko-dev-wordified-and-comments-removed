@@ -454,7 +454,7 @@ const
 GMPVideoCodec
 &
 aCodecSettings
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -526,7 +526,7 @@ const
 bool
 &
 aMissingFrames
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >

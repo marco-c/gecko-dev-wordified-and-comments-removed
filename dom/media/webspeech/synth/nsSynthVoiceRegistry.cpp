@@ -186,7 +186,7 @@ namespace
 void
 GetAllSpeechSynthActors
 (
-InfallibleTArray
+nsTArray
 <
 mozilla
 :
@@ -760,13 +760,13 @@ XRE_IsParentProcess
 )
 )
 ;
-InfallibleTArray
+nsTArray
 <
 RemoteVoice
 >
 voices
 ;
-InfallibleTArray
+nsTArray
 <
 nsString
 >

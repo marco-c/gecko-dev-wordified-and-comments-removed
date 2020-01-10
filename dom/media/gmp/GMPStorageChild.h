@@ -329,7 +329,7 @@ const
 GMPErr
 &
 aStatus
-InfallibleTArray
+nsTArray
 <
 uint8_t
 >
