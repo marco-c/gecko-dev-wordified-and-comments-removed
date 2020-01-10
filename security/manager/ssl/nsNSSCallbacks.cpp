@@ -2822,7 +2822,6 @@ runnable
 mResult
 ;
 }
-static
 nsCString
 getKeaGroupName
 (
@@ -2980,7 +2979,6 @@ return
 groupName
 ;
 }
-static
 nsCString
 getSignatureName
 (
@@ -5137,7 +5135,6 @@ builtChain
 ;
 }
 }
-static
 nsresult
 IsCertificateDistrustImminent
 (

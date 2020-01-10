@@ -415,6 +415,12 @@ nsIInterfaceRequestor
 >
 mCallbacks
 ;
+nsCOMPtr
+<
+nsIX509CertList
+>
+mSucceededCertChain
+;
 private
 :
 uint32_t
@@ -437,12 +443,6 @@ nsCOMPtr
 nsIX509Cert
 >
 mServerCert
-;
-nsCOMPtr
-<
-nsIX509CertList
->
-mSucceededCertChain
 ;
 nsCOMPtr
 <
