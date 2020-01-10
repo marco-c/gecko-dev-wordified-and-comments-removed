@@ -17753,6 +17753,11 @@ HasReftypesSupport
 cx
 )
 ;
+bool
+hugeMemory
+=
+false
+;
 CompilerEnvironment
 compilerEnv
 (
@@ -17774,6 +17779,7 @@ DebugEnabled
 False
 refTypesConfigured
 gcTypesConfigured
+hugeMemory
 )
 ;
 ModuleEnvironment

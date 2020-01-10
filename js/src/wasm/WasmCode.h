@@ -1319,6 +1319,9 @@ filename
 CacheableChars
 sourceMapURL
 ;
+bool
+omitsBoundsChecks
+;
 SharedBytes
 namePayload
 ;

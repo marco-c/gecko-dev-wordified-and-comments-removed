@@ -105,6 +105,9 @@ forceTiering
 bool
 gcEnabled
 ;
+bool
+hugeMemory
+;
 static
 SharedCompileArgs
 build
@@ -162,6 +165,10 @@ forceTiering
 false
 )
 gcEnabled
+(
+false
+)
+hugeMemory
 (
 false
 )
