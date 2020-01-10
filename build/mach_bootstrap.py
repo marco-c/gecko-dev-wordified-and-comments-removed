@@ -1426,6 +1426,13 @@ mach
 main
     
 from
+mach
+.
+util
+import
+setenv
+    
+from
 mozboot
 .
 util
@@ -2312,16 +2319,11 @@ os
 environ
 :
         
-os
-.
-environ
-[
-b
+setenv
+(
 '
 MACH_MAIN_PID
 '
-]
-=
 str
 (
 os
@@ -2330,12 +2332,6 @@ getpid
 (
 )
 )
-.
-encode
-(
-'
-ascii
-'
 )
     
 driver

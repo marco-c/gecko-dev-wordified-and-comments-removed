@@ -78,6 +78,11 @@ from
 registrar
 import
 Registrar
+from
+.
+util
+import
+setenv
 SUGGEST_MACH_BUSTED
 =
 r
@@ -2190,20 +2195,15 @@ fileno
 )
 :
                 
-os
-.
-environ
-[
-b
+setenv
+(
 '
 MACH_STDOUT_ISATTY
 '
-]
-=
-b
 '
 1
 '
+)
             
 return
 self
