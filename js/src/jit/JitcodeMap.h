@@ -820,11 +820,6 @@ JSRuntime
 rt
 )
 ;
-bool
-isJitcodeAboutToBeFinalized
-(
-)
-;
 }
 ;
 struct
@@ -4829,11 +4824,14 @@ marker
 )
 ;
 void
-sweep
+traceWeak
 (
 JSRuntime
 *
 rt
+JSTracer
+*
+trc
 )
 ;
 private

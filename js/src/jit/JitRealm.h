@@ -1228,11 +1228,14 @@ marker
 ;
 static
 void
-SweepJitcodeGlobalTable
+TraceWeakJitcodeGlobalTable
 (
 JSRuntime
 *
 rt
+JSTracer
+*
+trc
 )
 ;
 ExecutableAllocator
