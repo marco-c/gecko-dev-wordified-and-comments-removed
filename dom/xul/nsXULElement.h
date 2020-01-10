@@ -2895,7 +2895,7 @@ aDefer
 override
 ;
 void
-AddListenerFor
+AddListenerForAttributeIfNeeded
 (
 const
 nsAttrName
@@ -2904,7 +2904,7 @@ aName
 )
 ;
 void
-MaybeAddPopupListener
+AddListenerForAttributeIfNeeded
 (
 nsAtom
 *
