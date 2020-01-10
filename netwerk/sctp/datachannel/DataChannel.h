@@ -1489,11 +1489,6 @@ mSendInterleaved
 false
 ;
 bool
-mPpidFragmentation
-=
-false
-;
-bool
 mMaxMessageSizeSet
 =
 false
