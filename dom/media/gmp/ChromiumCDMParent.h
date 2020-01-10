@@ -134,6 +134,7 @@ InitPromise
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 ChromiumCDMParent
+final
 )
 ChromiumCDMParent
 (

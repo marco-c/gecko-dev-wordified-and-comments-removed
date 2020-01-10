@@ -107,6 +107,7 @@ namespace
 gmp
 {
 async
+refcounted
 protocol
 PChromiumCDM
 {
