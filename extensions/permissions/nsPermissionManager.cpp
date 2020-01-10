@@ -1456,6 +1456,17 @@ OriginAttributesRef
 (
 )
 ;
+if
+(
+!
+StaticPrefs
+:
+:
+permissions_isolateBy_userContext
+(
+)
+)
+{
 attrs
 .
 StripAttributes
@@ -1469,6 +1480,7 @@ OriginAttributes
 STRIP_USER_CONTEXT_ID
 )
 ;
+}
 nsCOMPtr
 <
 nsIPrincipal
