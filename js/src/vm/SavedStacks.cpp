@@ -9747,6 +9747,12 @@ dbgp
 -
 >
 trackingAllocationSites
+&
+&
+dbgp
+-
+>
+enabled
 )
 {
 foundAnyDebuggers
