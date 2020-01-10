@@ -13,7 +13,12 @@ engineName
 bug645970
 "
 "
-webExtensionId
+webExtension
+"
+:
+{
+"
+id
 "
 :
 "
@@ -25,7 +30,7 @@ mozilla
 org
 "
 "
-webExtensionVersion
+version
 "
 :
 "
@@ -33,6 +38,7 @@ webExtensionVersion
 .
 0
 "
+}
 "
 appliesTo
 "

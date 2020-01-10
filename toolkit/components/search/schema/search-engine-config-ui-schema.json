@@ -20,6 +20,9 @@ order
 :
 [
 "
+webExtension
+"
+"
 engineName
 "
 "
@@ -36,9 +39,6 @@ orderHint
 "
 "
 telemetryId
-"
-"
-webExtension
 "
 "
 codes

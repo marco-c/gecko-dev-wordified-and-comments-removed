@@ -13,7 +13,12 @@ engineName
 engine
 "
 "
-webExtensionId
+webExtension
+"
+:
+{
+"
+id
 "
 :
 "
@@ -25,7 +30,7 @@ mozilla
 org
 "
 "
-webExtensionVersion
+version
 "
 :
 "
@@ -33,6 +38,7 @@ webExtensionVersion
 .
 0
 "
+}
 "
 orderHint
 "
@@ -76,7 +82,12 @@ engine
 pref
 "
 "
-webExtensionId
+webExtension
+"
+:
+{
+"
+id
 "
 :
 "
@@ -90,7 +101,7 @@ mozilla
 org
 "
 "
-webExtensionVersion
+version
 "
 :
 "
@@ -98,6 +109,7 @@ webExtensionVersion
 .
 0
 "
+}
 "
 orderHint
 "
@@ -173,7 +185,12 @@ searchform
 purpose
 "
 "
-webExtensionId
+webExtension
+"
+:
+{
+"
+id
 "
 :
 "
@@ -191,7 +208,7 @@ mozilla
 org
 "
 "
-webExtensionVersion
+version
 "
 :
 "
@@ -199,6 +216,7 @@ webExtensionVersion
 .
 0
 "
+}
 "
 orderHint
 "
@@ -266,7 +284,12 @@ engine
 chromeicon
 "
 "
-webExtensionId
+webExtension
+"
+:
+{
+"
+id
 "
 :
 "
@@ -280,7 +303,7 @@ mozilla
 org
 "
 "
-webExtensionVersion
+version
 "
 :
 "
@@ -288,6 +311,7 @@ webExtensionVersion
 .
 0
 "
+}
 "
 orderHint
 "
@@ -379,7 +403,12 @@ engine
 resourceicon
 "
 "
-webExtensionId
+webExtension
+"
+:
+{
+"
+id
 "
 :
 "
@@ -393,7 +422,7 @@ mozilla
 org
 "
 "
-webExtensionVersion
+version
 "
 :
 "
@@ -401,6 +430,7 @@ webExtensionVersion
 .
 0
 "
+}
 "
 orderHint
 "
@@ -474,7 +504,12 @@ engine
 reordered
 "
 "
-webExtensionId
+webExtension
+"
+:
+{
+"
+id
 "
 :
 "
@@ -488,7 +523,7 @@ mozilla
 org
 "
 "
-webExtensionVersion
+version
 "
 :
 "
@@ -496,6 +531,7 @@ webExtensionVersion
 .
 0
 "
+}
 "
 orderHint
 "

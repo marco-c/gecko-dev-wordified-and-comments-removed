@@ -1178,7 +1178,7 @@ dependencies
 :
 {
 "
-webExtensionId
+id
 "
 :
 [
@@ -1187,7 +1187,7 @@ webExtensionVersion
 "
 ]
 "
-webExtensionVersion
+version
 "
 :
 [
@@ -1202,7 +1202,7 @@ properties
 :
 {
 "
-webExtensionId
+id
 "
 :
 {
@@ -1239,7 +1239,7 @@ WebExtension
 "
 }
 "
-webExtensionVersion
+version
 "
 :
 {
@@ -1273,7 +1273,7 @@ use
 "
 }
 "
-webExtensionLocale
+locale
 "
 :
 {
