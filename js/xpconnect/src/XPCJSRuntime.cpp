@@ -15016,14 +15016,14 @@ jsObjectsSize
 =
 sizes
 .
-objects
+objects_
 ;
 *
 jsStringsSize
 =
 sizes
 .
-strings
+strings_
 ;
 *
 jsPrivateSize
@@ -15037,7 +15037,7 @@ jsOtherSize
 =
 sizes
 .
-other
+other_
 ;
 return
 NS_OK
