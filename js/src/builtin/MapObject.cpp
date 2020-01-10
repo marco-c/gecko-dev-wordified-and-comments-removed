@@ -1525,7 +1525,7 @@ range
 fop
 -
 >
-delete_
+deleteUntracked
 (
 range
 )
@@ -6286,7 +6286,7 @@ range
 fop
 -
 >
-delete_
+deleteUntracked
 (
 range
 )
