@@ -842,7 +842,7 @@ subpixel_order
 ;
 }
 void
-cairo_font_options_set_lcd_filter
+_cairo_font_options_set_lcd_filter
 (
 cairo_font_options_t
 *
@@ -868,11 +868,6 @@ lcd_filter
 lcd_filter
 ;
 }
-slim_hidden_def
-(
-cairo_font_options_set_lcd_filter
-)
-;
 cairo_lcd_filter_t
 _cairo_font_options_get_lcd_filter
 (

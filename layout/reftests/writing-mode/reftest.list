@@ -4009,12 +4009,6 @@ sideways
 -
 lr
 mode
-random
--
-if
-(
-gtkWidget
-)
 =
 =
 1193519
@@ -4037,12 +4031,6 @@ lr
 ref
 .
 html
-random
--
-if
-(
-gtkWidget
-)
 =
 =
 1193519
@@ -4136,12 +4124,6 @@ if
 (
 Android
 )
-random
--
-if
-(
-gtkWidget
-)
 =
 =
 1193519
@@ -4188,7 +4170,7 @@ gtkWidget
 255
 0
 -
-12
+6
 )
 fuzzy
 -

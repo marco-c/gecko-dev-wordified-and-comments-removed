@@ -330,15 +330,6 @@ CreateSkTypeface
 )
 override
 ;
-void
-SetupSkFontDrawOptions
-(
-SkFont
-&
-aFont
-)
-override
-;
 SkFontStyle
 mStyle
 ;
