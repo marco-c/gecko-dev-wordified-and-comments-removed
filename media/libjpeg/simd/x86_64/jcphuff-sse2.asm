@@ -1974,6 +1974,12 @@ K
 jnz
 .
 BLOOP16
+test
+LEN
+15
+je
+.
+PADDING
 .
 ELOOP16
 :

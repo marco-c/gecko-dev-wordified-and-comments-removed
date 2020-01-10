@@ -2393,6 +2393,9 @@ ISLOW_MULT_TYPE
 return
 0
 ;
+#
+ifndef
+__mips_soft_float
 if
 (
 simd_support
@@ -2402,6 +2405,8 @@ JSIMD_DSPR2
 return
 1
 ;
+#
+endif
 return
 0
 ;
@@ -2444,6 +2449,9 @@ FAST_FLOAT
 workspace
 )
 {
+#
+ifndef
+__mips_soft_float
 jsimd_convsamp_float_dspr2
 (
 sample_data
@@ -2451,6 +2459,8 @@ start_col
 workspace
 )
 ;
+#
+endif
 }
 GLOBAL
 (
@@ -2743,6 +2753,9 @@ ISLOW_MULT_TYPE
 return
 0
 ;
+#
+ifndef
+__mips_soft_float
 if
 (
 simd_support
@@ -2752,6 +2765,8 @@ JSIMD_DSPR2
 return
 1
 ;
+#
+endif
 return
 0
 ;
@@ -2796,6 +2811,9 @@ FAST_FLOAT
 workspace
 )
 {
+#
+ifndef
+__mips_soft_float
 jsimd_quantize_float_dspr2
 (
 coef_block
@@ -2803,6 +2821,8 @@ divisors
 workspace
 )
 ;
+#
+endif
 }
 GLOBAL
 (

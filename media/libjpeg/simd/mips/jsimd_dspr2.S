@@ -19896,6 +19896,9 @@ END
 (
 jsimd_quantize_dspr2
 )
+#
+ifndef
+__mips_soft_float
 /
 *
 *
@@ -20363,6 +20366,8 @@ END
 (
 jsimd_quantize_float_dspr2
 )
+#
+endif
 /
 *
 *
@@ -29132,6 +29137,9 @@ END
 (
 jsimd_convsamp_dspr2
 )
+#
+ifndef
+__mips_soft_float
 /
 *
 *
@@ -31077,6 +31085,8 @@ END
 (
 jsimd_convsamp_float_dspr2
 )
+#
+endif
 /
 *
 *

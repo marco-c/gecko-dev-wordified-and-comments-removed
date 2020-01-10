@@ -1109,11 +1109,13 @@ BITS_IN_JSAMPLE
 8
 int
 thiscolsum
+bias
 ;
 #
 else
 JLONG
 thiscolsum
+bias
 ;
 #
 endif
@@ -1170,6 +1172,7 @@ v
 =
 0
 )
+{
 inptr1
 =
 input_data
@@ -1179,7 +1182,13 @@ inrow
 1
 ]
 ;
+bias
+=
+1
+;
+}
 else
+{
 inptr1
 =
 input_data
@@ -1189,6 +1198,11 @@ inrow
 1
 ]
 ;
+bias
+=
+2
+;
+}
 outptr
 =
 output_data
@@ -1248,7 +1262,7 @@ JSAMPLE
 (
 thiscolsum
 +
-1
+bias
 )
 >
 >

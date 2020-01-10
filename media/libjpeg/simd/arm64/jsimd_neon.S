@@ -550,7 +550,7 @@ Transpose
 elements
 of
 2
-differnet
+different
 registers
 *
 /

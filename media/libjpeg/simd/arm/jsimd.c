@@ -114,6 +114,14 @@ simd_huffman
 ;
 #
 if
+!
+defined
+(
+__ARM_NEON__
+)
+&
+&
+(
 defined
 (
 __linux__
@@ -129,6 +137,7 @@ ANDROID
 defined
 (
 __ANDROID__
+)
 )
 #
 define
@@ -445,6 +454,7 @@ __ARM_NEON__
 )
 &
 &
+(
 defined
 (
 __linux__
@@ -460,6 +470,7 @@ ANDROID
 defined
 (
 __ANDROID__
+)
 )
 int
 bufsize
