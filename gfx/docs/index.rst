@@ -76,3 +76,4 @@ OffMainThreadPainting
 AsyncPanZoom
 AdvancedLayers
 Silk
+DocumentSplitting
