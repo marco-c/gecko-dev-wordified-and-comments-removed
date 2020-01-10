@@ -2849,7 +2849,7 @@ threading
 /
 windows
 /
-Thread
+WindowsThread
 .
 cpp
 '
@@ -2874,7 +2874,7 @@ threading
 /
 posix
 /
-Thread
+PosixThread
 .
 cpp
 '
