@@ -97,6 +97,9 @@ XRSessionMode
 mode
 )
 ;
+[
+NewObject
+]
 Promise
 <
 XRSession
@@ -217,6 +220,9 @@ state
 }
 )
 ;
+[
+NewObject
+]
 Promise
 <
 XRReferenceSpace
@@ -425,6 +431,9 @@ XRReferenceSpace
 :
 XRSpace
 {
+[
+NewObject
+]
 XRReferenceSpace
 getOffsetReferenceSpace
 (
