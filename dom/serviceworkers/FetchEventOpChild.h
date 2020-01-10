@@ -87,7 +87,7 @@ RefPtr
 <
 GenericPromise
 >
-Create
+SendFetchEvent
 (
 PRemoteWorkerControllerChild
 *
