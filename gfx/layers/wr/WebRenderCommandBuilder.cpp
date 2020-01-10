@@ -3667,10 +3667,6 @@ LayerIsImage
 )
 )
 ;
-mLastVisibleRect
-=
-mVisibleRect
-;
 PushImage
 (
 aBuilder
@@ -4459,10 +4455,6 @@ PixelCastJustification
 LayerIsImage
 )
 )
-;
-mLastVisibleRect
-=
-mVisibleRect
 ;
 PushImage
 (
@@ -9500,6 +9492,14 @@ group
 mLayerBounds
 =
 layerBounds
+;
+group
+.
+mLastVisibleRect
+=
+group
+.
+mVisibleRect
 ;
 group
 .
