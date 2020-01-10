@@ -1488,12 +1488,10 @@ offset
 0
 &
 &
-descendant
--
->
-Parent
-(
-)
+parent
+&
+&
+parent
 -
 >
 IsHTMLListItem
