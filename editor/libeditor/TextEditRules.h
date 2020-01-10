@@ -232,13 +232,6 @@ AfterEdit
 (
 )
 ;
-virtual
-bool
-DocumentIsEmpty
-(
-)
-const
-;
 protected
 :
 virtual

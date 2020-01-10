@@ -401,6 +401,14 @@ override
 ;
 virtual
 bool
+IsEmpty
+(
+)
+const
+override
+;
+virtual
+bool
 CanPaste
 (
 int32_t
