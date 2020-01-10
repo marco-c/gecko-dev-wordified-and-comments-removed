@@ -1652,11 +1652,6 @@ on
 -
 header
 "
-hidden
-=
-"
-true
-"
 >
 &
 protections
@@ -1685,11 +1680,6 @@ switch
 off
 -
 header
-"
-hidden
-=
-"
-true
 "
 >
 &
