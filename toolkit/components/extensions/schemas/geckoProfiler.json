@@ -144,6 +144,9 @@ jstracer
 "
 jsallocations
 "
+"
+preferencereads
+"
 ]
 }
 {

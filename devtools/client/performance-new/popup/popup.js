@@ -125,6 +125,9 @@ jstracer
 jsallocations
 "
 "
+preferencereads
+"
+"
 trackopts
 "
 ]
