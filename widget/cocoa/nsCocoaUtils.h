@@ -1252,6 +1252,15 @@ aPermissionState
 ;
 static
 nsresult
+GetScreenCapturePermissionState
+(
+uint16_t
+&
+aPermissionState
+)
+;
+static
+nsresult
 RequestVideoCapturePermission
 (
 RefPtr

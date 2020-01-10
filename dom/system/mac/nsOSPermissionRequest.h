@@ -44,6 +44,15 @@ aVideo
 override
 ;
 NS_IMETHOD
+GetScreenCapturePermissionState
+(
+uint16_t
+*
+aScreen
+)
+override
+;
+NS_IMETHOD
 RequestVideoCapturePermission
 (
 JSContext
