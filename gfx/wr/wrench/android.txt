@@ -737,7 +737,7 @@ mozharness
 /
 scripts
 /
-android_emulator_wrench
+android_wrench
 .
 py
 -
@@ -999,7 +999,7 @@ mozharness
 /
 scripts
 /
-android_emulator_wrench
+android_wrench
 .
 py
 -

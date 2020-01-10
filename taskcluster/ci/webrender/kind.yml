@@ -2219,7 +2219,7 @@ taskcluster
 '
 MOZHARNESS_SCRIPT
 :
-android_emulator_wrench
+android_wrench
 .
 py
 MOZHARNESS_CONFIG
@@ -2378,7 +2378,7 @@ mozharness
 /
 scripts
 /
-android_emulator_wrench
+android_wrench
 .
 py
 '
@@ -2532,7 +2532,7 @@ taskcluster
 '
 MOZHARNESS_SCRIPT
 :
-android_emulator_wrench
+android_wrench
 .
 py
 MOZHARNESS_CONFIG
@@ -2691,7 +2691,7 @@ mozharness
 /
 scripts
 /
-android_emulator_wrench
+android_wrench
 .
 py
 '
