@@ -761,14 +761,6 @@ front
 key
 (
 )
-.
-as
-<
-JSObject
-*
->
-(
-)
 ;
 Compartment
 *
