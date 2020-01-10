@@ -290,6 +290,13 @@ status
 )
 ;
 async
+NotifyClassificationFlags
+(
+uint32_t
+classificationFlags
+)
+;
+async
 NotifyChannelClassifierProtectionDisabled
 (
 uint32_t
