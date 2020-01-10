@@ -144,7 +144,7 @@ sheet
 rules
 :
 css
-#
+.
 userstyle
 {
 color
@@ -156,7 +156,7 @@ display
 none
 ;
 }
-#
+.
 nouserstyle
 {
 color
