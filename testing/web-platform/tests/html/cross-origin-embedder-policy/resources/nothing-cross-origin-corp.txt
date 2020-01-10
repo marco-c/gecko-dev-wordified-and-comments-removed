@@ -1,0 +1,6 @@
+nothing
+with
+cross
+-
+origin
+CORP
