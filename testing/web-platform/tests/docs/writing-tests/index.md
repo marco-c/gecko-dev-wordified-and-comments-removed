@@ -102,6 +102,7 @@ testdriver
 -
 tutorial
 testharness
+tools
 visual
 wdspec
 #
