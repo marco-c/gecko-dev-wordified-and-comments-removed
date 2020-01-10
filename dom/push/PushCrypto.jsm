@@ -106,9 +106,6 @@ EXPORTED_SYMBOLS
 "
 PushCrypto
 "
-"
-concatArray
-"
 ]
 ;
 const
@@ -2738,6 +2735,7 @@ var
 PushCrypto
 =
 {
+concatArray
 generateAuthenticationSecret
 (
 )
