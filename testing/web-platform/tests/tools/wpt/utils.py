@@ -19,6 +19,7 @@ from
 typing
 import
 Any
+Callable
 except
 ImportError
 :
