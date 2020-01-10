@@ -653,6 +653,9 @@ manifest
         
 _tooltool_fetch
 (
+build_obj
+.
+substs
 )
         
 xre_path
@@ -3386,6 +3389,9 @@ manifest
             
 _tooltool_fetch
 (
+self
+.
+substs
 )
             
 self
@@ -6000,6 +6006,7 @@ dst_path
 def
 _tooltool_fetch
 (
+substs
 )
 :
     
@@ -6009,8 +6016,14 @@ os
 .
 path
 .
-abspath
+join
 (
+substs
+[
+'
+top_srcdir
+'
+]
 TOOLTOOL_PATH
 )
     
