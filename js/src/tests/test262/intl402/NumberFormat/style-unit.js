@@ -67,7 +67,7 @@ unit
 "
 :
 "
-generic
+gigabit
 "
 }
 )

@@ -19,6 +19,12 @@ Function
 (
 )
 ;
+C
+.
+prototype
+=
+null
+;
 var
 P
 =
@@ -27,13 +33,6 @@ Proxy
 (
 C
 {
-get
-:
-function
-(
-)
-{
-}
 }
 )
 ;
