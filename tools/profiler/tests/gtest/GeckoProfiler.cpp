@@ -166,6 +166,13 @@ i
 BlocksRingBuffer
 rb
 (
+BlocksRingBuffer
+:
+:
+ThreadSafety
+:
+:
+WithMutex
 &
 buffer
 [
