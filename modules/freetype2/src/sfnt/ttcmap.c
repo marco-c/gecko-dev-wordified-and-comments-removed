@@ -7300,14 +7300,8 @@ face
 >
 num_glyphs
 )
-{
-gindex
-=
-0
-;
 continue
 ;
-}
 cmap
 -
 >
@@ -11463,6 +11457,8 @@ idx
 FT_String
 *
 PSname
+=
+NULL
 ;
 tt_face_get_ps_name
 (

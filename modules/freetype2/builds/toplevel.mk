@@ -1342,7 +1342,7 @@ version
 .
 tar
 .
-bz2
+xz
 rm
 -
 f
@@ -1517,7 +1517,7 @@ version
 )
 \
 |
-bzip2
+xz
 -
 c
 >
@@ -1529,7 +1529,7 @@ version
 .
 tar
 .
-bz2
+xz
 #
 Use
 CR

@@ -42,6 +42,7 @@ FT_GlyphDict_NameIndexFunc
 (
 FT_Face
 face
+const
 FT_String
 *
 glyph_name

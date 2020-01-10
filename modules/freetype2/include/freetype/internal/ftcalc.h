@@ -1054,6 +1054,12 @@ intrin
 .
 h
 >
+#
+pragma
+intrinsic
+(
+_BitScanReverse
+)
 static
 __inline
 FT_Int32

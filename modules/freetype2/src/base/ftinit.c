@@ -575,6 +575,14 @@ property_name
 property_value
 )
 ;
+if
+(
+!
+*
+p
+)
+break
+;
 }
 }
 #

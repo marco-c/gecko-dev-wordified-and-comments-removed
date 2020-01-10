@@ -176,6 +176,14 @@ c
 SFNT_DIR
 )
 /
+sfwoff
+.
+c
+\
+(
+SFNT_DIR
+)
+/
 ttbdf
 .
 c

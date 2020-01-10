@@ -921,7 +921,6 @@ lcd_filter_func
 lcd_filter_func
 (
 bitmap
-mode
 lcd_weights
 )
 ;

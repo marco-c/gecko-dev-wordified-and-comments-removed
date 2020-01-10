@@ -80,6 +80,7 @@ t42_get_name_index
 (
 T42_Face
 face
+const
 FT_String
 *
 glyph_name

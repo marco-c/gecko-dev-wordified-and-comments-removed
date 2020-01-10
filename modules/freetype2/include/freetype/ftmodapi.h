@@ -403,7 +403,7 @@ library
 )
 ;
 typedef
-void
+FT_Error
 (
 *
 FT_DebugHook_Func

@@ -107,6 +107,8 @@ FreeType
 2
 .
 10
+.
+1
 ]
 [
 freetype
@@ -145,7 +147,7 @@ version_info
 '
 23
 :
-0
+1
 :
 17
 '

@@ -206,6 +206,7 @@ FT_ERR_PROTOS_DEFINED
 #
 define
 FT_ERR_PROTOS_DEFINED
+FT_BEGIN_HEADER
 FT_EXPORT
 (
 const
@@ -218,6 +219,7 @@ FT_Error
 error_code
 )
 ;
+FT_END_HEADER
 #
 endif
 #

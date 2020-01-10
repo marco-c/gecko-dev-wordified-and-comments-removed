@@ -844,11 +844,6 @@ Optimization
 "
 0
 "
-EnableIntrinsicFunctions
-=
-"
-true
-"
 AdditionalIncludeDirectories
 =
 "
@@ -1168,11 +1163,6 @@ Optimization
 "
 0
 "
-EnableIntrinsicFunctions
-=
-"
-true
-"
 AdditionalIncludeDirectories
 =
 "
@@ -1203,11 +1193,6 @@ FT_DEBUG_LEVEL_ERROR
 FT_DEBUG_LEVEL_TRACE
 ;
 FT2_BUILD_LIBRARY
-"
-GeneratePreprocessedFile
-=
-"
-0
 "
 BasicRuntimeChecks
 =

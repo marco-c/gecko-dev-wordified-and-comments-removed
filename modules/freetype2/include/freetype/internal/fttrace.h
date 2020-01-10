@@ -88,6 +88,10 @@ sfobjs
 )
 FT_TRACE_DEF
 (
+sfwoff
+)
+FT_TRACE_DEF
+(
 ttbdf
 )
 FT_TRACE_DEF

@@ -490,6 +490,7 @@ sfnt_get_name_index
 (
 FT_Face
 face
+const
 FT_String
 *
 glyph_name

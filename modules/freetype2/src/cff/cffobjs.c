@@ -4222,10 +4222,6 @@ style_name
 cff_strcpy
 (
 memory
-(
-char
-*
-)
 "
 Regular
 "

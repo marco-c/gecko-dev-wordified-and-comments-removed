@@ -4627,6 +4627,14 @@ edge
 >
 first
 ;
+if
+(
+!
+seg
+)
+goto
+Skip_Loop
+;
 do
 {
 FT_Bool
@@ -4836,6 +4844,8 @@ edge
 first
 )
 ;
+Skip_Loop
+:
 edge
 -
 >

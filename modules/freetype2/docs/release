@@ -388,7 +388,7 @@ gz
 .
 tar
 .
-bz2
+xz
 and
 .
 zip
@@ -421,7 +421,7 @@ version
 .
 tar
 .
-bz2
+xz
 ftdoc
 <
 version
@@ -649,7 +649,7 @@ VERSION
 .
 tar
 .
-bz2
+xz
 \
 ft
 version
@@ -673,7 +673,7 @@ VERSION
 .
 tar
 .
-bz2
+xz
 \
 ftdmo
 version
@@ -701,7 +701,7 @@ VERSION
 .
 tar
 .
-bz2
+xz
 \
 ftdoc
 version
@@ -1165,7 +1165,7 @@ XXX
 .
 tar
 .
-bz2
+xz
 '
 files
 as

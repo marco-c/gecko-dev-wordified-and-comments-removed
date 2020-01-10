@@ -25,9 +25,9 @@ timestamp
 '
 2019
 -
-01
--
 05
+-
+23
 '
 #
 This
@@ -3660,6 +3660,11 @@ next
 case
 os
 in
+openstep
+*
+)
+;
+;
 nextstep
 *
 )
@@ -5113,6 +5118,8 @@ be64
 |
 bfin
 |
+bpf
+|
 bs2000
 \
 |
@@ -5667,8 +5674,11 @@ visium
 \
 |
 w65
+\
 |
 wasm32
+|
+wasm64
 \
 |
 we32k
@@ -6583,6 +6593,9 @@ unleashed
 *
 |
 emscripten
+*
+|
+wasi
 *
 )
 #

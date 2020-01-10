@@ -3,7 +3,7 @@ FreeType
 .
 10
 .
-0
+1
 =
 =
 =
@@ -187,11 +187,11 @@ doc
 .
 10
 .
-0
+1
 .
 tar
 .
-bz2
+xz
 freetype
 -
 doc
@@ -200,12 +200,12 @@ doc
 .
 10
 .
-0
+1
 .
 tar
 .
 gz
-ftdoc2100
+ftdoc2101
 .
 zip
 To

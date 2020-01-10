@@ -1233,7 +1233,7 @@ goto
 Exit
 ;
 {
-FT_Short
+FT_Int32
 *
 cur
 =
@@ -1242,7 +1242,7 @@ face
 >
 cvt
 ;
-FT_Short
+FT_Int32
 *
 limit
 =
@@ -1270,6 +1270,8 @@ cur
 FT_GET_SHORT
 (
 )
+*
+64
 ;
 }
 FT_FRAME_EXIT

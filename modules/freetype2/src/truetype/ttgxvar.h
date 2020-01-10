@@ -1207,6 +1207,9 @@ glyph_index
 FT_Outline
 *
 outline
+FT_Vector
+*
+unrounded
 FT_UInt
 n_points
 )

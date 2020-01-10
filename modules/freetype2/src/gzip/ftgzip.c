@@ -2361,6 +2361,8 @@ inflateInit2
 &
 stream
 MAX_WBITS
+|
+32
 )
 ;
 if

@@ -657,7 +657,7 @@ if
 (
 table_pos
 +
-4
+2
 >
 table_end
 )
@@ -711,12 +711,17 @@ else
 {
 if
 (
-!
 FT_STREAM_SEEK
 (
 table_pos
 )
 )
+*
+abearing
+=
+0
+;
+else
 (
 void
 )
