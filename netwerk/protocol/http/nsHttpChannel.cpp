@@ -33260,13 +33260,13 @@ this
 parentChannel
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsICrossProcessSwitchChannel
+HttpChannelParent
 >
 httpParent
 =
-do_QueryInterface
+do_QueryObject
 (
 parentChannel
 )
