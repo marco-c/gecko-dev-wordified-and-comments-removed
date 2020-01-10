@@ -293,7 +293,7 @@ nsAtom
 *
 mElementProperty
 ;
-InfallibleTArray
+nsTArray
 <
 RefPtr
 <

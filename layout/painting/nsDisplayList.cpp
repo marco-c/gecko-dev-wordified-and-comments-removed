@@ -3230,7 +3230,7 @@ eCSSProperty_transform
 {
 aAnimatable
 =
-InfallibleTArray
+nsTArray
 <
 TransformFunction
 >
