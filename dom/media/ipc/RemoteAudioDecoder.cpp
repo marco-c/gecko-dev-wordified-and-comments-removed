@@ -326,12 +326,6 @@ false
 nsCString
 errorDescription
 ;
-nsCString
-blacklistedD3D11Driver
-;
-nsCString
-blacklistedD3D9Driver
-;
 if
 (
 manager
@@ -347,10 +341,6 @@ Nothing
 )
 &
 success
-&
-blacklistedD3D11Driver
-&
-blacklistedD3D9Driver
 &
 errorDescription
 )
