@@ -4163,6 +4163,9 @@ PrincipalAllowsL10n
 nsIPrincipal
 *
 aPrincipal
+nsIURI
+*
+aDocumentURI
 )
 ;
 static
