@@ -212,6 +212,12 @@ mContents
 ;
 RefPtr
 <
+nsLayoutStylesheetCacheShm
+>
+mSharedMemory
+;
+RefPtr
+<
 URLExtraData
 >
 mURLData

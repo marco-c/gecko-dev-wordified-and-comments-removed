@@ -1496,6 +1496,9 @@ aBuilder
 void
 SetSharedContents
 (
+nsLayoutStylesheetCacheShm
+*
+aSharedMemory
 const
 ServoCssRules
 *
