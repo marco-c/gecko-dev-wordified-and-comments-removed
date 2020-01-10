@@ -25943,12 +25943,7 @@ if
 classContentsIfConstructor
 )
 {
-fun
--
->
-lazyScript
-(
-)
+funbox
 -
 >
 setFieldInitializers
