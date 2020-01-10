@@ -253,11 +253,8 @@ with
 SSL
 for
 interfaces
-*
-such
-as
-nsIBadCertListener
 .
+*
 May
 be
 null

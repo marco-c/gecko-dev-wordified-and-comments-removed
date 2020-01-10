@@ -173,11 +173,6 @@ nsIASN1Sequence
 idl
 '
 '
-nsIBadCertListener2
-.
-idl
-'
-'
 nsICertificateDialogs
 .
 idl
