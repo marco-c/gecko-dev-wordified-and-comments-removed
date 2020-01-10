@@ -186,6 +186,8 @@ USVString
 )
 ?
 body
+=
+null
 optional
 ResponseInit
 init
