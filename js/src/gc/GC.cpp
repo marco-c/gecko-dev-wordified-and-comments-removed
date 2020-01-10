@@ -19055,7 +19055,7 @@ popFront
 fop
 -
 >
-freeUntracked
+free_
 (
 r
 .
@@ -19267,7 +19267,7 @@ principals
 fop
 -
 >
-deleteUntracked
+delete_
 (
 this
 )
@@ -19316,7 +19316,7 @@ this
 fop
 -
 >
-deleteUntracked
+delete_
 (
 this
 )
@@ -19360,7 +19360,7 @@ empty
 fop
 -
 >
-deleteUntracked
+delete_
 (
 this
 )

@@ -4490,7 +4490,7 @@ functionDeclarations
 fop
 -
 >
-deleteUntracked
+delete_
 (
 funDecls
 )

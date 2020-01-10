@@ -5896,7 +5896,7 @@ script
 fop
 -
 >
-deleteUntracked
+delete_
 (
 script
 )

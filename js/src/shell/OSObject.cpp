@@ -2209,7 +2209,7 @@ release
 fop
 -
 >
-deleteUntracked
+delete_
 (
 file
 )

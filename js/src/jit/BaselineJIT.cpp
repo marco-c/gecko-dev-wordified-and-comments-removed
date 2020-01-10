@@ -2835,7 +2835,7 @@ hasPendingIonBuilder
 fop
 -
 >
-deleteUntracked
+delete_
 (
 script
 )
