@@ -7843,7 +7843,7 @@ IsTelemetryEnabledAndNotSleepPhase
 connectStarted
 &
 &
-connectStarted
+connectCalled
 )
 {
 SendPRBlockingTelemetry

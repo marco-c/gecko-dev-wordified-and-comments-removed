@@ -983,6 +983,8 @@ delete
 mInfo
 ;
 delete
+[
+]
 mData
 ;
 }
