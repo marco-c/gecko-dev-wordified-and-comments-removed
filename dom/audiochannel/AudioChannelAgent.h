@@ -115,6 +115,12 @@ InnerWindowID
 const
 ;
 bool
+IsWindowAudioCapturingEnabled
+(
+)
+const
+;
+bool
 IsPlayingStarted
 (
 )
@@ -138,6 +144,7 @@ AudioPlaybackConfig
 GetMediaConfig
 (
 )
+const
 ;
 bool
 IsDisposableSuspend
