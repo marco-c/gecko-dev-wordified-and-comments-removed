@@ -317,17 +317,6 @@ pref
 remote
 .
 js
-security
-/
-manager
-/
-ssl
-/
-security
--
-prefs
-.
-js
 services
 /
 common
