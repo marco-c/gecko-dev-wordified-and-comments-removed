@@ -328,12 +328,6 @@ mimeType
 "
 "
 ;
-/
-/
-Default
-encoding
-mimeType
-.
 unsigned
 long
 audioBitsPerSecond

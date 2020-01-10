@@ -395,15 +395,6 @@ nsresult
 aRv
 )
 ;
-void
-SetMimeType
-(
-const
-nsString
-&
-aMimeType
-)
-;
 MediaRecorder
 (
 const
@@ -479,6 +470,9 @@ mDocument
 ;
 nsString
 mMimeType
+;
+nsString
+mConstrainedMimeType
 ;
 uint32_t
 mAudioBitsPerSecond
