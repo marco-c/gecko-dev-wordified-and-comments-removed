@@ -1844,14 +1844,11 @@ DeviceIntRect
 pub
 data
 :
-Option
-<
 Arc
 <
 Vec
 <
 u8
->
 >
 >
 }
