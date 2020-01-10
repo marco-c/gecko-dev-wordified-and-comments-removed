@@ -12859,10 +12859,10 @@ treeherder
 symbol
 :
 Rap
--
-P
 (
 sp
+-
+p
 )
 target
 :
@@ -13019,6 +13019,8 @@ Rap
 fenix
 (
 idl
+-
+p
 )
 run
 -
@@ -13220,6 +13222,8 @@ Rap
 fennec
 (
 idl
+-
+p
 )
 target
 :
@@ -13334,10 +13338,10 @@ treeherder
 symbol
 :
 Rap
--
-P
 (
 idl
+-
+p
 )
 target
 :
@@ -13495,6 +13499,8 @@ Rap
 refbrow
 (
 idl
+-
+p
 )
 target
 :
