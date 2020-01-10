@@ -3197,7 +3197,6 @@ expressions
 can
 only
 contain
-function
 references
 /
 )

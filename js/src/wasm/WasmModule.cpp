@@ -2943,6 +2943,9 @@ if
 count
 )
 {
+if
+(
+!
 instance
 .
 initElems
@@ -2957,7 +2960,12 @@ offset
 0
 count
 )
+)
+{
+return
+false
 ;
+}
 }
 if
 (

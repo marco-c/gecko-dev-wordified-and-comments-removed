@@ -5809,6 +5809,9 @@ kind
 uint32_t
 tableIndex
 ;
+ValType
+elementType
+;
 Maybe
 <
 InitExpr
@@ -5857,6 +5860,16 @@ elemFuncIndices
 length
 (
 )
+;
+}
+ValType
+elemType
+(
+)
+const
+{
+return
+elementType
 ;
 }
 WASM_DECLARE_SERIALIZABLE
