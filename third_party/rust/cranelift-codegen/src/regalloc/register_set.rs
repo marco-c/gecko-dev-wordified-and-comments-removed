@@ -1350,6 +1350,9 @@ info
 :
 &
 INFO
+pinned_reg
+:
+None
 }
 ;
 const
@@ -1394,6 +1397,9 @@ info
 :
 &
 INFO
+pinned_reg
+:
+None
 }
 ;
 const

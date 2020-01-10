@@ -105,6 +105,9 @@ mod
 settings
 ;
 pub
+(
+crate
+)
 fn
 define
 (
@@ -159,6 +162,10 @@ all_instructions
 shared_defs
 .
 format_registry
+&
+shared_defs
+.
+imm
 )
 ;
 legalize

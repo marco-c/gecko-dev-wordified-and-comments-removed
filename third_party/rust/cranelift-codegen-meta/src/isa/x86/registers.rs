@@ -92,6 +92,11 @@ track_pressure
 (
 true
 )
+.
+pinned_reg
+(
+15
+)
 ;
 let
 int_regs

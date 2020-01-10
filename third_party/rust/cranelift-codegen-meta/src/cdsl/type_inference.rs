@@ -58,6 +58,7 @@ FromIterator
 [
 derive
 (
+Debug
 Hash
 PartialEq
 Eq

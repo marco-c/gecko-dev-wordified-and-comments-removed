@@ -716,8 +716,13 @@ ebbs
 {
 divert
 .
-clear
+at_ebb
 (
+&
+func
+.
+entry_diversions
+ebb
 )
 ;
 debug_assert_eq

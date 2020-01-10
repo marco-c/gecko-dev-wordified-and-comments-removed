@@ -629,7 +629,7 @@ allocatable_registers
 (
 &
 self
-func
+_func
 :
 &
 ir
@@ -649,11 +649,14 @@ abi
 :
 allocatable_registers
 (
-func
 &
 self
 .
 triple
+&
+self
+.
+shared_flags
 )
 }
 #

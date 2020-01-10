@@ -344,6 +344,9 @@ arm64
 }
 }
 pub
+(
+crate
+)
 fn
 define
 (

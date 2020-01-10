@@ -108,8 +108,13 @@ ebbs
 {
 divert
 .
-clear
+at_ebb
 (
+&
+func
+.
+entry_diversions
+ebb
 )
 ;
 for

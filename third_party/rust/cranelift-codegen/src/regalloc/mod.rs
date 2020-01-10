@@ -26,6 +26,9 @@ mod
 affinity
 ;
 mod
+branch_splitting
+;
+mod
 coalescing
 ;
 mod
@@ -67,7 +70,10 @@ self
 diversion
 :
 :
+{
+EntryRegDiversions
 RegDiversions
+}
 ;
 pub
 use
