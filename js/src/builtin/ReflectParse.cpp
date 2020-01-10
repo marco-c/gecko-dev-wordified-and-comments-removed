@@ -14189,6 +14189,15 @@ ParseNodeKind
 :
 :
 OrExpr
+|
+|
+kind
+=
+=
+ParseNodeKind
+:
+:
+CoalesceExpr
 ;
 bool
 logop
