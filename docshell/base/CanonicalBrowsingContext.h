@@ -256,13 +256,6 @@ aGivenProto
 override
 ;
 void
-NotifySetUserGestureActivationFromIPC
-(
-bool
-aIsUserGestureActivation
-)
-;
-void
 NotifyStartDelayedAutoplayMedia
 (
 )
