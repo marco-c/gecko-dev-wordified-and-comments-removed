@@ -234,7 +234,7 @@ bar
 )
 "
 foo
-&
+and
 bar
 "
 )
@@ -265,7 +265,7 @@ baz
 "
 foo
 bar
-&
+and
 baz
 "
 )
@@ -300,7 +300,7 @@ quux
 foo
 bar
 baz
-&
+and
 quux
 "
 )
@@ -321,7 +321,7 @@ foo
 "
 f
 o
-&
+and
 o
 "
 )
