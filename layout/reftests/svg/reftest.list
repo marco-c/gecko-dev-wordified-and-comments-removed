@@ -11107,6 +11107,12 @@ resource
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 !
 =
 mask
@@ -11117,3 +11123,13 @@ html
 about
 :
 blank
+#
+The
+image
+the
+test
+uses
+is
+not
+on
+Android
