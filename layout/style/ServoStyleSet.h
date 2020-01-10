@@ -878,6 +878,7 @@ i
 }
 }
 }
+static
 inline
 already_AddRefed
 <
