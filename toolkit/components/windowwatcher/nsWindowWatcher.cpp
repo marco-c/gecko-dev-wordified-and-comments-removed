@@ -2556,6 +2556,8 @@ return
 rv
 ;
 }
+uriToLoadIsChrome
+=
 uriToLoad
 -
 >
@@ -2564,8 +2566,6 @@ SchemeIs
 "
 chrome
 "
-&
-uriToLoadIsChrome
 )
 ;
 }
