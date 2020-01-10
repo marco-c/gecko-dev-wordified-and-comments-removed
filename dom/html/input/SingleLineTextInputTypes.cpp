@@ -497,7 +497,7 @@ return
 nsContentUtils
 :
 :
-GetLocalizedString
+GetMaybeLocalizedString
 (
 nsContentUtils
 :
@@ -506,6 +506,12 @@ eDOM_PROPERTIES
 "
 FormValidationInvalidURL
 "
+mInputElement
+-
+>
+OwnerDoc
+(
+)
 aMessage
 )
 ;
@@ -646,7 +652,7 @@ return
 nsContentUtils
 :
 :
-GetLocalizedString
+GetMaybeLocalizedString
 (
 nsContentUtils
 :
@@ -655,6 +661,12 @@ eDOM_PROPERTIES
 "
 FormValidationInvalidEmail
 "
+mInputElement
+-
+>
+OwnerDoc
+(
+)
 aMessage
 )
 ;
@@ -674,7 +686,7 @@ return
 nsContentUtils
 :
 :
-GetLocalizedString
+GetMaybeLocalizedString
 (
 nsContentUtils
 :
@@ -683,6 +695,12 @@ eDOM_PROPERTIES
 "
 FormValidationInvalidEmail
 "
+mInputElement
+-
+>
+OwnerDoc
+(
+)
 aMessage
 )
 ;
