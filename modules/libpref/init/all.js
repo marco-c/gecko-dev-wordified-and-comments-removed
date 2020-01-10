@@ -16907,13 +16907,6 @@ defined
 (
 DEBUG
 )
-&
-&
-!
-defined
-(
-ANDROID
-)
 pref
 (
 "

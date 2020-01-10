@@ -26,13 +26,6 @@ defined
 (
 DEBUG
 )
-&
-&
-!
-defined
-(
-ANDROID
-)
 static
 void
 AssertAboutPageHasCSP

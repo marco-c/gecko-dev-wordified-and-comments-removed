@@ -33784,13 +33784,6 @@ defined
 (
 DEBUG
 )
-&
-&
-!
-defined
-(
-ANDROID
-)
 if
 (
 !
