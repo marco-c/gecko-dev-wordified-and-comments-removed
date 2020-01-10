@@ -596,7 +596,7 @@ markColor
 (
 void
 )
-markIteratively
+markEntries
 (
 marker
 )
@@ -910,7 +910,7 @@ V
 >
 :
 :
-markIteratively
+markEntries
 (
 GCMarker
 *
