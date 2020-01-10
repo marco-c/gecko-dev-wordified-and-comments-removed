@@ -1317,13 +1317,6 @@ StopTasks
 (
 )
 ;
-self
--
->
-Shutdown
-(
-)
-;
 }
 }
 void
