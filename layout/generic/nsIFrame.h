@@ -3817,6 +3817,17 @@ NS_DECLARE_FRAME_PROPERTY_WITHOUT_DTOR
 PlaceholderFrameProperty
 nsPlaceholderFrame
 )
+NS_DECLARE_FRAME_PROPERTY_RELEASABLE
+(
+OffsetPathCache
+mozilla
+:
+:
+gfx
+:
+:
+Path
+)
 mozilla
 :
 :
