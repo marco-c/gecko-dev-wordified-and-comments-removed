@@ -271,6 +271,7 @@ aNode
 )
 {
 return
+(
 aNode
 .
 nodeType
@@ -301,6 +302,7 @@ org
 /
 xhtml
 "
+)
 ;
 }
 function
@@ -310,6 +312,7 @@ aNode
 )
 {
 return
+(
 aNode
 .
 nodeType
@@ -348,6 +351,7 @@ only
 .
 xul
 "
+)
 ;
 }
 function
@@ -388,6 +392,7 @@ aTargetOrFunc
 function
 "
 )
+{
 target
 =
 aTargetOrFunc
@@ -396,6 +401,7 @@ call
 (
 )
 ;
+}
 if
 (
 target
@@ -415,8 +421,10 @@ aEvent
 .
 accessible
 )
+{
 return
 ;
+}
 if
 (
 Node
@@ -434,8 +442,10 @@ aEvent
 .
 DOMNode
 )
+{
 return
 ;
+}
 }
 unregisterA11yEventListener
 (
@@ -842,12 +852,14 @@ finalCheck
 in
 invoker
 )
+{
 invoker
 .
 finalCheck
 (
 )
 ;
+}
 if
 (
 this
@@ -937,6 +949,7 @@ idx
 ;
 if
 (
+(
 checker
 .
 unexpected
@@ -945,8 +958,10 @@ unexpected
 checker
 .
 wasCaught
+)
 |
 |
+(
 !
 checker
 .
@@ -959,6 +974,7 @@ wasCaught
 !
 =
 1
+)
 )
 {
 break
@@ -1040,10 +1056,12 @@ length
 >
 0
 )
+{
 matchIdx
 =
 scnIdx
 ;
+}
 for
 (
 var
@@ -1297,6 +1315,7 @@ wasCaught
 >
 1
 )
+{
 ok
 (
 false
@@ -1314,6 +1333,7 @@ event
 "
 )
 ;
+}
 if
 (
 checker
@@ -1438,6 +1458,7 @@ res
 =
 DO_NOT_FINISH_TEST
 )
+{
 SimpleTest
 .
 executeSoon
@@ -1447,6 +1468,7 @@ SimpleTest
 finish
 )
 ;
+}
 return
 ;
 }
@@ -1703,6 +1725,7 @@ hasUnexpectedEventsScenario
 (
 )
 )
+{
 this
 .
 processNextInvokerInTimeout
@@ -1710,6 +1733,7 @@ processNextInvokerInTimeout
 true
 )
 ;
+}
 }
 ;
 this
@@ -1820,8 +1844,10 @@ if
 !
 invoker
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -1847,6 +1873,7 @@ debugCheck
 in
 invoker
 )
+{
 invoker
 .
 debugCheck
@@ -1854,6 +1881,7 @@ debugCheck
 aEvent
 )
 ;
+}
 for
 (
 var
@@ -1918,13 +1946,11 @@ checker
 unexpected
 &
 &
-(
 checker
 .
 wasCaught
 >
 0
-)
 &
 &
 eventQueue
@@ -2032,8 +2058,10 @@ if
 (
 isExpected
 )
+{
 break
 ;
+}
 }
 if
 (
@@ -2281,6 +2309,7 @@ check
 in
 invoker
 )
+{
 invoker
 .
 check
@@ -2288,6 +2317,7 @@ check
 aEvent
 )
 ;
+}
 }
 for
 (
@@ -2406,14 +2436,12 @@ return
 }
 if
 (
-(
 this
 .
 mNextInvokerStatus
 =
 =
 kInvokerPending
-)
 &
 &
 hasMatchedCheckers
@@ -2466,6 +2494,7 @@ check
 in
 aMatchedChecker
 )
+{
 aMatchedChecker
 .
 check
@@ -2473,6 +2502,7 @@ check
 aEvent
 )
 ;
+}
 eventQueue
 .
 logEvent
@@ -2514,12 +2544,14 @@ in
 aEventSeq
 )
 )
+{
 aEventSeq
 .
 idx
 =
 0
 ;
+}
 while
 (
 aEventSeq
@@ -2686,9 +2718,11 @@ instanceof
 orderChecker
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -2698,12 +2732,14 @@ if
 (
 aScenario
 )
+{
 return
 scenarioHasUnhandledExpectedEvent
 (
 aScenario
 )
 ;
+}
 for
 (
 var
@@ -2741,9 +2777,11 @@ scenarioHasUnhandledExpectedEvent
 eventSeq
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -2824,9 +2862,11 @@ idx
 .
 todo
 )
+{
 return
 false
 ;
+}
 }
 }
 return
@@ -2881,8 +2921,10 @@ idx
 .
 todo
 )
+{
 break
 ;
+}
 }
 return
 idx
@@ -2913,9 +2955,11 @@ getInvoker
 .
 noEventsOnAction
 )
+{
 return
 true
 ;
+}
 for
 (
 var
@@ -2950,9 +2994,11 @@ scnIdx
 ]
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -3017,9 +3063,11 @@ areExpectedEventsLeft
 scn
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -3130,6 +3178,7 @@ this
 .
 mDefEventType
 )
+{
 eventSeq
 =
 [
@@ -3145,6 +3194,7 @@ DOMNode
 )
 ]
 ;
+}
 if
 (
 eventSeq
@@ -3152,6 +3202,7 @@ eventSeq
 |
 unexpectedEventSeq
 )
+{
 defineScenario
 (
 aInvoker
@@ -3160,15 +3211,18 @@ unexpectedEventSeq
 )
 ;
 }
+}
 if
 (
 aInvoker
 .
 noEventsOnAction
 )
+{
 return
 true
 ;
+}
 this
 .
 mScenarios
@@ -3366,6 +3420,7 @@ idx
 +
 +
 )
+{
 eventSeq
 [
 idx
@@ -3375,6 +3430,7 @@ wasCaught
 =
 0
 ;
+}
 for
 (
 var
@@ -3418,6 +3474,7 @@ idx
 .
 unexpected
 )
+{
 msg
 +
 =
@@ -3425,6 +3482,7 @@ msg
 unexpected
 "
 ;
+}
 if
 (
 eventSeq
@@ -3434,6 +3492,7 @@ idx
 .
 async
 )
+{
 msg
 +
 =
@@ -3441,6 +3500,7 @@ msg
 async
 "
 ;
+}
 msg
 +
 =
@@ -3605,8 +3665,10 @@ this
 .
 mScenarios
 )
+{
 return
 ;
+}
 for
 (
 var
@@ -3749,6 +3811,7 @@ getID
 in
 aChecker
 )
+{
 return
 aChecker
 .
@@ -3756,6 +3819,7 @@ getID
 (
 )
 ;
+}
 var
 invoker
 =
@@ -3860,17 +3924,20 @@ isInstance
 aEventOrChecker
 )
 )
+{
 return
 aEventOrChecker
 .
 type
 ;
+}
 if
 (
 aEventOrChecker
 instanceof
 nsIAccessibleEvent
 )
+{
 return
 eventTypeToString
 (
@@ -3879,8 +3946,8 @@ aEventOrChecker
 eventType
 )
 ;
+}
 return
-(
 typeof
 aEventOrChecker
 .
@@ -3890,7 +3957,6 @@ type
 "
 string
 "
-)
 ?
 aEventOrChecker
 .
@@ -3925,6 +3991,7 @@ isInstance
 aEventOrChecker
 )
 )
+{
 return
 prettyName
 (
@@ -3933,6 +4000,7 @@ aEventOrChecker
 originalTarget
 )
 ;
+}
 if
 (
 Event
@@ -3942,6 +4010,7 @@ isInstance
 aEventOrChecker
 )
 )
+{
 return
 prettyName
 (
@@ -3950,6 +4019,7 @@ aEventOrChecker
 accessible
 )
 ;
+}
 var
 descr
 =
@@ -3961,13 +4031,16 @@ if
 (
 descr
 )
+{
 return
 descr
 ;
+}
 if
 (
 aDontForceTarget
 )
+{
 return
 "
 no
@@ -3975,16 +4048,15 @@ target
 description
 "
 ;
+}
 var
 target
 =
-(
 "
 target
 "
 in
 aEventOrChecker
-)
 ?
 aEventOrChecker
 .
@@ -4011,13 +4083,11 @@ aChecker
 )
 {
 return
-(
 "
 phase
 "
 in
 aChecker
-)
 ?
 aChecker
 .
@@ -4149,9 +4219,11 @@ aChecker
 aEvent
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 "
@@ -4160,6 +4232,7 @@ match
 in
 aChecker
 )
+{
 return
 aChecker
 .
@@ -4168,6 +4241,7 @@ match
 aEvent
 )
 ;
+}
 var
 target1
 =
@@ -4248,6 +4322,7 @@ aEvent
 )
 {
 return
+(
 this
 .
 compareEvents
@@ -4270,6 +4345,7 @@ nsIAccessibleTextChangeEvent
 aEvent
 instanceof
 nsIAccessibleStateChangeEvent
+)
 )
 ;
 }
@@ -4341,6 +4417,7 @@ if
 (
 aMsg
 )
+{
 msg
 +
 =
@@ -4354,6 +4431,7 @@ aMsg
 )
 "
 ;
+}
 return
 msg
 ;
@@ -4703,6 +4781,7 @@ in
 aInvoker
 )
 )
+{
 aInvoker
 .
 scenarios
@@ -4710,16 +4789,19 @@ scenarios
 [
 ]
 ;
+}
 if
 (
 !
 aEventSeq
 )
+{
 aEventSeq
 =
 [
 ]
 ;
+}
 for
 (
 var
@@ -4943,13 +5025,11 @@ if
 aArgs
 &
 &
-(
 "
 where
 "
 in
 aArgs
-)
 &
 &
 aArgs
@@ -5340,6 +5420,7 @@ aArgs
 .
 shiftKey
 )
+{
 key
 +
 =
@@ -5347,12 +5428,14 @@ key
 shift
 "
 ;
+}
 if
 (
 aArgs
 .
 ctrlKey
 )
+{
 key
 +
 =
@@ -5360,12 +5443,14 @@ key
 ctrl
 "
 ;
+}
 if
 (
 aArgs
 .
 altKey
 )
+{
 key
 +
 =
@@ -5373,6 +5458,7 @@ key
 alt
 "
 ;
+}
 }
 return
 prettyName
@@ -5982,12 +6068,14 @@ controlNode
 .
 checked
 )
+{
 this
 .
 reportError
 (
 )
 ;
+}
 controlNode
 .
 checked
@@ -6020,12 +6108,14 @@ itemNode
 .
 index
 )
+{
 this
 .
 reportError
 (
 )
 ;
+}
 controlNode
 .
 selectedIndex
@@ -6058,12 +6148,14 @@ currentIndex
 =
 aItemID
 )
+{
 this
 .
 reportError
 (
 )
 ;
+}
 controlNode
 .
 currentIndex
@@ -6094,12 +6186,14 @@ selectedItem
 =
 itemNode
 )
+{
 this
 .
 reportError
 (
 )
 ;
+}
 controlNode
 .
 selectedItem
@@ -6118,6 +6212,7 @@ currentItem
 =
 itemNode
 )
+{
 ok
 (
 false
@@ -6140,6 +6235,7 @@ aID
 )
 )
 ;
+}
 controlNode
 .
 currentItem
@@ -6673,6 +6769,7 @@ if
 (
 MAC
 )
+{
 synthesizeKey
 (
 "
@@ -6685,7 +6782,9 @@ true
 }
 )
 ;
+}
 else
+{
 synthesizeKey
 (
 "
@@ -6693,6 +6792,7 @@ KEY_End
 "
 )
 ;
+}
 }
 ;
 this
@@ -6969,6 +7069,7 @@ this
 .
 focusNode
 )
+{
 this
 .
 focusNode
@@ -6977,6 +7078,7 @@ focus
 (
 )
 ;
+}
 var
 selection
 =
@@ -7043,6 +7145,7 @@ moveCaretToDOMPoint_getID
 )
 {
 return
+(
 "
 Set
 caret
@@ -7072,6 +7175,7 @@ offset
 "
 +
 aDOMPointOffset
+)
 ;
 }
 ;
@@ -7088,12 +7192,14 @@ if
 (
 aCheckFunc
 )
+{
 aCheckFunc
 .
 call
 (
 )
 ;
+}
 }
 ;
 this
@@ -7117,6 +7223,7 @@ this
 .
 focus
 )
+{
 this
 .
 eventSeq
@@ -7133,6 +7240,7 @@ focus
 )
 )
 ;
+}
 }
 function
 setCaretOffset
@@ -7260,6 +7368,7 @@ this
 .
 focus
 )
+{
 this
 .
 eventSeq
@@ -7276,6 +7385,7 @@ focus
 )
 )
 ;
+}
 }
 function
 invokerChecker
@@ -7335,6 +7445,7 @@ mTarget
 function
 "
 )
+{
 return
 this
 .
@@ -7348,6 +7459,7 @@ this
 mTargetFuncArg
 )
 ;
+}
 if
 (
 typeof
@@ -7360,6 +7472,7 @@ mTarget
 string
 "
 )
+{
 return
 getNode
 (
@@ -7368,6 +7481,7 @@ this
 mTarget
 )
 ;
+}
 return
 this
 .
@@ -7419,6 +7533,7 @@ mTarget
 function
 "
 )
+{
 return
 this
 .
@@ -7435,6 +7550,7 @@ this
 .
 mTargetFuncArg
 ;
+}
 return
 prettyName
 (
@@ -7717,7 +7833,6 @@ nsIAccessibleTextChangeEvent
 let
 modifiedText
 =
-(
 typeof
 this
 .
@@ -7728,7 +7843,6 @@ textOrFunc
 "
 function
 "
-)
 ?
 this
 .
@@ -7771,7 +7885,6 @@ nsIAccessibleTextChangeEvent
 var
 modifiedText
 =
-(
 typeof
 this
 .
@@ -7781,7 +7894,6 @@ textOrFunc
 "
 function
 "
-)
 ?
 this
 .
@@ -7796,7 +7908,6 @@ textOrFunc
 var
 modifiedTextLen
 =
-(
 this
 .
 endOffset
@@ -7804,7 +7915,6 @@ endOffset
 =
 -
 1
-)
 ?
 modifiedText
 .
@@ -7856,7 +7966,6 @@ aID
 var
 changeInfo
 =
-(
 aIsInserted
 ?
 "
@@ -7866,7 +7975,6 @@ inserted
 "
 removed
 "
-)
 ;
 is
 (
@@ -7924,6 +8032,7 @@ aFromUser
 undefined
 "
 )
+{
 is
 (
 aEvent
@@ -7946,6 +8055,7 @@ aID
 )
 )
 ;
+}
 }
 ;
 }
@@ -8235,10 +8345,8 @@ this
 .
 target
 )
-)
 &
 &
-(
 scEvent
 .
 changedAttribute
@@ -8330,8 +8438,10 @@ if
 !
 event
 )
+{
 return
 ;
+}
 is
 (
 event
@@ -8442,13 +8552,11 @@ aIsEnabled
 ?
 0
 :
-(
 aIsExtraState
 ?
 0
 :
 aState
-)
 ;
 var
 unxpdExtraState
@@ -8457,13 +8565,11 @@ aIsEnabled
 ?
 0
 :
-(
 aIsExtraState
 ?
 aState
 :
 0
-)
 ;
 testStates
 (
@@ -8518,10 +8624,8 @@ this
 .
 target
 )
-)
 &
 &
-(
 scEvent
 .
 state
@@ -8634,8 +8738,10 @@ if
 !
 event
 )
+{
 return
 ;
+}
 is
 (
 event
@@ -8693,13 +8799,11 @@ testStates
 event
 .
 accessible
-(
 aIsEnabled
 ?
 STATE_EXPANDED
 :
 STATE_COLLAPSED
-)
 )
 ;
 }
@@ -8876,8 +8980,10 @@ accessible
 event
 "
 )
+{
 return
 ;
+}
 var
 event
 ;
@@ -9023,12 +9129,14 @@ parent
 =
 dumpElm
 )
+{
 parent
 =
 parent
 .
 parentNode
 ;
+}
 }
 if
 (
@@ -9192,6 +9300,7 @@ if
 (
 listenersArray
 )
+{
 info
 +
 =
@@ -9206,6 +9315,7 @@ listenersArray
 .
 length
 ;
+}
 if
 (
 gLogger
@@ -9290,8 +9400,10 @@ listenersArray
 |
 eventFromDumpArea
 )
+{
 return
 ;
+}
 for
 (
 var
@@ -9309,6 +9421,7 @@ index
 +
 +
 )
+{
 listenersArray
 [
 index
@@ -9319,6 +9432,7 @@ handleEvent
 event
 )
 ;
+}
 }
 }
 ;
@@ -9336,12 +9450,11 @@ aStartToListen
 if
 (
 !
-(
 gA11yEventApplicantsCount
 +
 +
 )
-)
+{
 Services
 .
 obs
@@ -9357,6 +9470,7 @@ event
 )
 ;
 }
+}
 else
 {
 if
@@ -9368,6 +9482,7 @@ gA11yEventApplicantsCount
 =
 0
 )
+{
 Services
 .
 obs
@@ -9382,6 +9497,7 @@ event
 "
 )
 ;
+}
 }
 }
 function
@@ -9400,6 +9516,7 @@ in
 gA11yEventListeners
 )
 )
+{
 gA11yEventListeners
 [
 aEventType
@@ -9408,6 +9525,7 @@ aEventType
 [
 ]
 ;
+}
 var
 listenersArray
 =
@@ -9434,6 +9552,7 @@ index
 -
 1
 )
+{
 listenersArray
 .
 push
@@ -9441,6 +9560,7 @@ push
 aEventHandler
 )
 ;
+}
 }
 function
 removeA11yEventListener
@@ -9462,9 +9582,11 @@ if
 !
 listenersArray
 )
+{
 return
 false
 ;
+}
 var
 index
 =
@@ -9483,9 +9605,11 @@ index
 -
 1
 )
+{
 return
 false
 ;
+}
 listenersArray
 .
 splice
@@ -9532,6 +9656,7 @@ debugOutput_isEnabled
 )
 {
 return
+(
 gA11yEventDumpID
 |
 |
@@ -9539,6 +9664,7 @@ gA11yEventDumpToConsole
 |
 |
 gA11yEventDumpToAppConsole
+)
 ;
 }
 log
@@ -9589,8 +9715,10 @@ gA11yEventDumpID
 "
 "
 )
+{
 return
 ;
+}
 var
 dumpElm
 =
@@ -9668,6 +9796,7 @@ if
 (
 aHasIndent
 )
+{
 container
 .
 setAttribute
@@ -9685,6 +9814,7 @@ left
 "
 )
 ;
+}
 if
 (
 aPreEmphText
@@ -9789,6 +9919,7 @@ if
 (
 gA11yEventDumpToConsole
 )
+{
 dump
 (
 "
@@ -9805,6 +9936,7 @@ n
 )
 ;
 }
+}
 logToAppConsole
 :
 function
@@ -9817,6 +9949,7 @@ if
 (
 gA11yEventDumpToAppConsole
 )
+{
 Services
 .
 console
@@ -9831,6 +9964,7 @@ events
 aMsg
 )
 ;
+}
 }
 hasFeature
 :
@@ -9858,9 +9992,11 @@ startIdx
 -
 1
 )
+{
 return
 false
 ;
+}
 var
 endIdx
 =
@@ -9871,6 +10007,7 @@ aFeature
 length
 ;
 return
+(
 endIdx
 =
 =
@@ -9888,6 +10025,7 @@ endIdx
 "
 ;
 "
+)
 ;
 }
 }
@@ -10044,17 +10182,21 @@ aEventsObj
 instanceof
 Array
 )
+{
 scenarios
 =
 aEventsObj
 ;
+}
 else
+{
 scenarios
 =
 [
 aEventsObj
 ]
 ;
+}
 }
 else
 {
@@ -10084,6 +10226,7 @@ i
 +
 +
 )
+{
 defineScenario
 (
 this
@@ -10093,6 +10236,7 @@ i
 ]
 )
 ;
+}
 }
 this
 .

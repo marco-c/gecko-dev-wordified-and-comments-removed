@@ -301,6 +301,7 @@ left
 in
 rect
 )
+{
 params
 +
 =
@@ -313,6 +314,7 @@ rect
 .
 left
 ;
+}
 if
 (
 "
@@ -321,6 +323,7 @@ top
 in
 rect
 )
+{
 params
 +
 =
@@ -333,6 +336,7 @@ rect
 .
 top
 ;
+}
 if
 (
 "
@@ -341,6 +345,7 @@ width
 in
 rect
 )
+{
 params
 +
 =
@@ -353,6 +358,7 @@ rect
 .
 width
 ;
+}
 if
 (
 "
@@ -361,6 +367,7 @@ height
 in
 rect
 )
+{
 params
 +
 =
@@ -373,6 +380,7 @@ rect
 .
 height
 ;
+}
 }
 gBrowserContext
 .
@@ -442,6 +450,7 @@ gBrowserContext
 .
 startURL
 )
+{
 addA11yLoadEvent
 (
 gBrowserContext
@@ -454,13 +463,16 @@ currentBrowser
 contentWindow
 )
 ;
+}
 else
+{
 gBrowserContext
 .
 testFunc
 (
 )
 ;
+}
 }
 function
 whenDelayedStartupFinished

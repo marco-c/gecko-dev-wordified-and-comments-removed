@@ -200,6 +200,7 @@ idx
 +
 +
 )
+{
 this
 .
 mData
@@ -224,6 +225,7 @@ _
 )
 )
 ;
+}
 }
 function
 nsTreeTreeView
@@ -401,6 +403,7 @@ data
 .
 colsText
 )
+{
 return
 data
 .
@@ -411,6 +414,7 @@ aCol
 id
 ]
 ;
+}
 return
 data
 .
@@ -475,10 +479,12 @@ aCol
 .
 cycler
 )
+{
 return
 "
 "
 ;
+}
 var
 data
 =
@@ -721,6 +727,7 @@ data
 .
 open
 )
+{
 this
 .
 mTree
@@ -733,7 +740,9 @@ aIndex
 rowCount
 )
 ;
+}
 else
+{
 this
 .
 mTree
@@ -747,6 +756,7 @@ aIndex
 rowCount
 )
 ;
+}
 }
 selectionChanged
 :
@@ -1055,6 +1065,7 @@ data
 .
 open
 )
+{
 rowCount
 +
 =
@@ -1067,6 +1078,7 @@ data
 children
 )
 ;
+}
 }
 return
 rowCount
@@ -1196,12 +1208,14 @@ parentIndex
 -
 1
 )
+{
 aInfo
 .
 parentIndex
 =
 parentIdx
 ;
+}
 return
 0
 ;
@@ -1279,12 +1293,14 @@ if
 (
 aChildren
 )
+{
 this
 .
 children
 =
 aChildren
 ;
+}
 }
 var
 gXULTreeLoadContext

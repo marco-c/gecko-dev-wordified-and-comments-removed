@@ -147,7 +147,6 @@ waitForCondition
 )
 =
 >
-(
 gURLBar
 .
 popupOpen
@@ -165,7 +164,6 @@ Ci
 nsIAutoCompleteController
 .
 STATUS_COMPLETE_NO_MATCH
-)
 "
 Waiting
 for

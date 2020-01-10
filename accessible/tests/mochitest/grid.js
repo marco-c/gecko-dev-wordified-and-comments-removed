@@ -211,11 +211,13 @@ table
 .
 tHead
 )
+{
 rowIdx
 -
 =
 1
 ;
+}
 var
 colsCount
 =
@@ -323,9 +325,11 @@ tabindex
 "
 )
 )
+{
 return
 cell
 ;
+}
 }
 }
 return
@@ -384,6 +388,7 @@ aEvent
 instanceof
 KeyboardEvent
 )
+{
 this
 .
 handleKeyEvent
@@ -391,7 +396,9 @@ handleKeyEvent
 aEvent
 )
 ;
+}
 else
+{
 this
 .
 handleClickEvent
@@ -399,6 +406,7 @@ handleClickEvent
 aEvent
 )
 ;
+}
 }
 ;
 this
@@ -424,8 +432,10 @@ localName
 td
 "
 )
+{
 return
 ;
+}
 var
 cell
 =
@@ -768,8 +778,10 @@ localName
 td
 "
 )
+{
 return
 ;
+}
 var
 curCell
 =

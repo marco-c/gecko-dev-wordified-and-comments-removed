@@ -52,8 +52,10 @@ if
 !
 accessible
 )
+{
 return
 ;
+}
 var
 attrs
 =
@@ -122,9 +124,7 @@ var
 attrs
 =
 {
-"
 display
-"
 :
 computedStyle
 .
@@ -203,9 +203,7 @@ var
 attrs
 =
 {
-"
 display
-"
 :
 "
 "
@@ -364,17 +362,13 @@ let
 attrs
 =
 {
-"
 posinset
-"
 :
 String
 (
 aPosInSet
 )
-"
 setsize
-"
 :
 String
 (
@@ -418,9 +412,7 @@ let
 attrs
 =
 {
-"
 level
-"
 :
 String
 (
@@ -474,9 +466,7 @@ testAttrs
 (
 aAccOrElmOrID
 {
-"
 hierarchical
-"
 :
 "
 true
@@ -492,9 +482,7 @@ testAbsentAttrs
 (
 aAccOrElmOrID
 {
-"
 hierarchical
-"
 :
 "
 true
@@ -532,8 +520,10 @@ if
 !
 accessible
 )
+{
 return
 ;
+}
 var
 startOffset
 =
@@ -572,8 +562,10 @@ if
 !
 attrs
 )
+{
 return
 ;
+}
 var
 errorMsg
 =
@@ -641,6 +633,7 @@ name
 in
 aAttrs
 )
+{
 expectedAttrs
 [
 name
@@ -651,6 +644,7 @@ aAttrs
 name
 ]
 ;
+}
 for
 (
 let
@@ -668,6 +662,7 @@ in
 expectedAttrs
 )
 )
+{
 expectedAttrs
 [
 name
@@ -678,6 +673,7 @@ aDefAttrs
 name
 ]
 ;
+}
 }
 attrs
 =
@@ -696,8 +692,10 @@ if
 !
 attrs
 )
+{
 return
 ;
+}
 compareAttrs
 (
 errorMsg
@@ -731,8 +729,10 @@ if
 !
 accessible
 )
+{
 return
 ;
+}
 var
 defAttrs
 =
@@ -927,7 +927,6 @@ WIN
 10pt
 "
 :
-(
 MAC
 ?
 "
@@ -942,7 +941,6 @@ return
 true
 ;
 }
-)
 ;
 const
 kAbsentFontFamily
@@ -1205,9 +1203,7 @@ aFontWeight
 aFontWeight
 :
 kNormalFontWeight
-"
 color
-"
 :
 computedStyle
 .
@@ -1282,9 +1278,11 @@ if
 (
 attrs
 )
+{
 return
 attrs
 ;
+}
 ok
 (
 false
@@ -1327,8 +1325,10 @@ if
 !
 accessible
 )
+{
 return
 ;
+}
 var
 attrs
 =
@@ -1438,6 +1438,7 @@ if
 !
 aSkipUnexpectedAttrs
 )
+{
 ok
 (
 false
@@ -1468,6 +1469,7 @@ value
 aErrorMsg
 )
 ;
+}
 }
 else
 {
@@ -1512,6 +1514,7 @@ expectedValue
 function
 "
 )
+{
 ok
 (
 expectedValue
@@ -1523,7 +1526,9 @@ value
 msg
 )
 ;
+}
 else
+{
 is
 (
 prop
@@ -1533,6 +1538,7 @@ expectedValue
 msg
 )
 ;
+}
 }
 }
 for
@@ -1572,6 +1578,7 @@ if
 !
 value
 )
+{
 ok
 (
 false
@@ -1593,6 +1600,7 @@ name
 aErrorMsg
 )
 ;
+}
 }
 if
 (
@@ -1633,10 +1641,12 @@ key
 =
 name
 )
+{
 wasFound
 =
 true
 ;
+}
 }
 }
 ok

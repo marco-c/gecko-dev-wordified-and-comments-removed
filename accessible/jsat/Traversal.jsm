@@ -318,7 +318,6 @@ INTERNAL_FRAME
 )
 {
 return
-(
 Utils
 .
 getMessageManagerForFrame
@@ -326,7 +325,6 @@ getMessageManagerForFrame
 aAccessible
 .
 DOMNode
-)
 )
 ?
 Filters
@@ -647,7 +645,6 @@ aAccessible
 name
 ;
 return
-(
 name
 &
 &
@@ -655,7 +652,6 @@ name
 .
 trim
 (
-)
 )
 ?
 Filters

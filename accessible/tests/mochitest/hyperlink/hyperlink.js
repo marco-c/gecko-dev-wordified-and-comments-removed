@@ -55,6 +55,7 @@ if
 (
 aSelectedAfter
 )
+{
 this
 .
 eventSeq
@@ -64,7 +65,9 @@ push
 checker
 )
 ;
+}
 else
+{
 this
 .
 unexpectedEventSeq
@@ -74,6 +77,7 @@ push
 checker
 )
 ;
+}
 this
 .
 invoke
@@ -86,13 +90,11 @@ focusLink_invoke
 var
 expectedStates
 =
-(
 aSelectedAfter
 ?
 STATE_FOCUSABLE
 :
 0
-)
 ;
 var
 unexpectedStates
@@ -139,7 +141,6 @@ focusLink_finalCheck
 var
 expectedStates
 =
-(
 aSelectedAfter
 ?
 STATE_FOCUSABLE
@@ -147,12 +148,10 @@ STATE_FOCUSABLE
 STATE_FOCUSED
 :
 0
-)
 ;
 var
 unexpectedStates
 =
-(
 !
 aSelectedAfter
 ?
@@ -161,7 +160,6 @@ STATE_FOCUSABLE
 STATE_FOCUSED
 :
 0
-)
 ;
 testStates
 (

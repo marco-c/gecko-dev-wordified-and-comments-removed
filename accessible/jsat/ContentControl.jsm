@@ -1033,9 +1033,7 @@ aMessage
 let
 activateAccessible
 =
-(
 aAccessible
-)
 =
 >
 {
@@ -1190,7 +1188,6 @@ Math
 .
 round
 (
-(
 objX
 .
 value
@@ -1198,7 +1195,6 @@ value
 docX
 .
 value
-)
 +
 objW
 .
@@ -1214,7 +1210,6 @@ Math
 .
 round
 (
-(
 objY
 .
 value
@@ -1222,7 +1217,6 @@ value
 docY
 .
 value
-)
 +
 objH
 .
@@ -1401,9 +1395,7 @@ return
 let
 getActivatableDescendant
 =
-(
 aAccessible
-)
 =
 >
 {

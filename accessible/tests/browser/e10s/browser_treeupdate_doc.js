@@ -1122,6 +1122,7 @@ contentDocument
 let
 inputNode
 =
+(
 content
 .
 window
@@ -1135,6 +1136,7 @@ createElement
 "
 input
 "
+)
 )
 ;
 docNode

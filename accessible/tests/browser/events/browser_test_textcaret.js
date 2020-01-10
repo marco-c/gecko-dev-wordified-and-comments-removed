@@ -27,6 +27,7 @@ nsIAccessibleCaretMoveEvent
 )
 ;
 return
+(
 cmEvent
 .
 accessible
@@ -44,6 +45,7 @@ caretOffset
 =
 =
 caretOffset
+)
 ;
 }
 ;

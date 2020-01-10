@@ -714,9 +714,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 prefs
 }
@@ -1662,9 +1660,7 @@ resolve
 let
 _listener
 =
-(
 msg
-)
 =
 >
 {

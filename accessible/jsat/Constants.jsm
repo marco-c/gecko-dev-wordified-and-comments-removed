@@ -299,9 +299,7 @@ STATE_
 "
 {
 }
-(
 val
-)
 =
 >
 {
@@ -327,9 +325,7 @@ nsIAccessibleStates
 EXT_STATE_
 "
 statesMap
-(
 val
-)
 =
 >
 {
