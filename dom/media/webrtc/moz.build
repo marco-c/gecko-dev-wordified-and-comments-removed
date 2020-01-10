@@ -368,6 +368,11 @@ PMediaTransport
 .
 ipdl
 '
+'
+PWebrtcGlobal
+.
+ipdl
+'
 ]
 XPIDL_SOURCES
 +
