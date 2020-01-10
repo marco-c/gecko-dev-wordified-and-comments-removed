@@ -2517,6 +2517,11 @@ u
 utm_source
 =
 inproduct
+cta_type
+:
+"
+OPEN_URL
+"
 }
 trigger
 :
