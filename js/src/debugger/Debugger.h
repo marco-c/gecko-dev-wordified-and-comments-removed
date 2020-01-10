@@ -3906,8 +3906,6 @@ template
 typename
 Wrapper
 typename
-ReferentVariant
-typename
 Referent
 typename
 Map
@@ -3924,6 +3922,10 @@ Map
 map
 Handle
 <
+typename
+Wrapper
+:
+:
 ReferentVariant
 >
 referent

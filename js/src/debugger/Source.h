@@ -137,6 +137,11 @@ JSObject
 obj
 )
 ;
+using
+ReferentVariant
+=
+DebuggerSourceReferent
+;
 NativeObject
 *
 getReferentRawObject

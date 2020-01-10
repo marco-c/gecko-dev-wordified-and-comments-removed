@@ -31974,8 +31974,6 @@ template
 typename
 Wrapper
 typename
-ReferentVariant
-typename
 Referent
 typename
 Map
@@ -31995,6 +31993,10 @@ Map
 map
 Handle
 <
+typename
+Wrapper
+:
+:
 ReferentVariant
 >
 referent
@@ -32219,7 +32221,6 @@ obj
 wrapVariantReferent
 <
 DebuggerScript
-DebuggerScriptReferent
 LazyScript
 *
 LazyScriptWeakMap
@@ -32255,7 +32256,6 @@ obj
 wrapVariantReferent
 <
 DebuggerScript
-DebuggerScriptReferent
 JSScript
 *
 ScriptWeakMap
@@ -32287,7 +32287,6 @@ obj
 wrapVariantReferent
 <
 DebuggerScript
-DebuggerScriptReferent
 LazyScript
 *
 LazyScriptWeakMap
@@ -32317,7 +32316,6 @@ obj
 wrapVariantReferent
 <
 DebuggerScript
-DebuggerScriptReferent
 WasmInstanceObject
 *
 WasmInstanceScriptWeakMap
@@ -32574,7 +32572,6 @@ obj
 wrapVariantReferent
 <
 DebuggerSource
-DebuggerSourceReferent
 ScriptSourceObject
 *
 SourceWeakMap
@@ -32593,7 +32590,6 @@ obj
 wrapVariantReferent
 <
 DebuggerSource
-DebuggerSourceReferent
 WasmInstanceObject
 *
 WasmInstanceSourceWeakMap

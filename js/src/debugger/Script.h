@@ -209,6 +209,11 @@ JSObject
 obj
 )
 ;
+using
+ReferentVariant
+=
+DebuggerScriptReferent
+;
 inline
 gc
 :
