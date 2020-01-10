@@ -90,7 +90,7 @@ define
 DOMString
 name
 CustomElementConstructor
-functionConstructor
+constructor
 optional
 ElementDefinitionOptions
 options
