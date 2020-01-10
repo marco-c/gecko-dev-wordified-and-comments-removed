@@ -1308,6 +1308,12 @@ mPath
 =
 nullptr
 ;
+mPathVertices
+.
+Clear
+(
+)
+;
 }
 }
 void
