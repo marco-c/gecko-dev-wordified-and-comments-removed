@@ -3,6 +3,11 @@ undef
 LoadImage
 #
 include
+<
+algorithm
+>
+#
+include
 "
 ImageLogging
 .
@@ -5112,15 +5117,6 @@ return
 mSize
 ;
 }
-#
-include
-<
-algorithm
->
-using
-namespace
-std
-;
 void
 imgCacheQueue
 :
