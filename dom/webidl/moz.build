@@ -2807,11 +2807,6 @@ Blob
 webidl
 '
 '
-BoxObject
-.
-webidl
-'
-'
 BroadcastChannel
 .
 webidl
