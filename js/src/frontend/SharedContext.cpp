@@ -848,6 +848,10 @@ explicitName
 (
 )
 )
+nargs_
+(
+0
+)
 {
 MOZ_ASSERT
 (
