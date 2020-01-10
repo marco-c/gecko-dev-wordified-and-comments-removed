@@ -525,12 +525,6 @@ nsINode
 outArrayOfNodes
 )
 ;
-MOZ_MUST_USE
-nsresult
-PinSelectionToNewBlock
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 void
 DocumentModifiedWorker
