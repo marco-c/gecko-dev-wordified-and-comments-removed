@@ -4440,7 +4440,7 @@ Document
 *
 doc
 =
-GetParentObject
+GetDocument
 (
 )
 ;
@@ -4666,7 +4666,7 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-GetParentObject
+GetDocument
 (
 )
 target
@@ -9383,7 +9383,7 @@ Document
 >
 document
 (
-GetParentObject
+GetDocument
 (
 )
 )
@@ -17338,7 +17338,7 @@ Document
 *
 doc
 =
-GetParentObject
+GetDocument
 (
 )
 ;
