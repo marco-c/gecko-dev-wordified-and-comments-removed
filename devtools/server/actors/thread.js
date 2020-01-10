@@ -4075,14 +4075,6 @@ this
 ;
 if
 (
-location
-.
-url
-=
-=
-null
-|
-|
 thread
 .
 sources
