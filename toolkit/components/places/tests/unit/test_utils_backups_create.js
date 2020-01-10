@@ -80,6 +80,7 @@ getTime
 )
 )
 )
+{
 dates
 .
 push
@@ -91,6 +92,7 @@ getTime
 )
 )
 ;
+}
 }
 dates
 .
@@ -192,6 +194,7 @@ exists
 (
 )
 )
+{
 do_throw
 (
 "
@@ -207,6 +210,7 @@ backupFile
 leafName
 )
 ;
+}
 }
 return
 dates
@@ -359,6 +363,7 @@ exists
 =
 shouldExist
 )
+{
 do_throw
 (
 "
@@ -385,6 +390,7 @@ exist
 backupFilename
 )
 ;
+}
 }
 }
 async

@@ -226,7 +226,6 @@ Assert
 .
 ok
 (
-(
 await
 File
 .
@@ -238,7 +237,6 @@ path
 .
 backup
 "
-)
 )
 )
 ;
@@ -263,11 +261,9 @@ Assert
 equal
 (
 DEFAULT_CONTENTS
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode
@@ -365,7 +361,6 @@ Assert
 .
 ok
 (
-(
 await
 File
 .
@@ -377,7 +372,6 @@ path
 .
 backup
 "
-)
 )
 )
 ;
@@ -402,11 +396,9 @@ Assert
 equal
 (
 DEFAULT_CONTENTS
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode
@@ -495,7 +487,6 @@ Assert
 equal
 (
 false
-(
 await
 File
 .
@@ -507,7 +498,6 @@ path
 .
 backup
 "
-)
 )
 )
 ;
@@ -586,7 +576,6 @@ Assert
 equal
 (
 false
-(
 await
 File
 .
@@ -598,7 +587,6 @@ path
 .
 backup
 "
-)
 )
 )
 ;
@@ -709,7 +697,6 @@ Assert
 .
 ok
 (
-(
 await
 File
 .
@@ -721,7 +708,6 @@ path
 .
 backup
 "
-)
 )
 )
 ;
@@ -746,11 +732,9 @@ Assert
 equal
 (
 DEFAULT_CONTENTS
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode

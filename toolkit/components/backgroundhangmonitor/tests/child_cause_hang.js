@@ -112,7 +112,6 @@ now
 ;
 while
 (
-(
 Date
 .
 now
@@ -120,11 +119,11 @@ now
 )
 -
 startTime
-)
 <
 2000
 )
-;
+{
+}
 }
 )
 ;

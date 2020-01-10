@@ -337,9 +337,11 @@ Math
 .
 min
 (
+(
 expectedWidth
 *
 height
+)
 /
 width
 expectedWidth
@@ -466,7 +468,6 @@ data
 ;
 ok
 (
-(
 Math
 .
 abs
@@ -513,7 +514,6 @@ color
 <
 =
 2
-)
 "
 The
 thumbnail

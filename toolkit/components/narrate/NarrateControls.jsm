@@ -1140,7 +1140,6 @@ default
 let
 comparer
 =
-(
 new
 Services
 .
@@ -1148,7 +1147,6 @@ intl
 .
 Collator
 (
-)
 )
 .
 compare

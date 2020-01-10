@@ -685,13 +685,11 @@ cleartext
 "
 |
 |
-(
 property
 in
 target
 .
 cleartext
-)
 ;
 }
 deleteProperty

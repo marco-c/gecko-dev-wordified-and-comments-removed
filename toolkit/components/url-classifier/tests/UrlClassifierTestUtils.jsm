@@ -912,9 +912,11 @@ Ci
 nsIUrlClassifierUpdateObserver
 )
 )
+{
 return
 listener
 ;
+}
 throw
 Cr
 .

@@ -122,6 +122,7 @@ DATASET_PRERELEASE_CHANNELS
 )
 ;
 return
+(
 aProcesses
 .
 every
@@ -146,6 +147,7 @@ p
 aAdditionalCondition
 (
 events
+)
 )
 ;
 }
@@ -343,6 +345,7 @@ registerCleanupFunction
 )
 =
 >
+(
 Services
 .
 telemetry
@@ -350,6 +353,7 @@ telemetry
 canRecordExtended
 =
 canRecordExtended
+)
 )
 ;
 }
@@ -1760,16 +1764,12 @@ object1
 "
 null
 {
-"
 key1
-"
 :
 "
 foo
 "
-"
 key2
-"
 :
 "
 bar
@@ -1951,9 +1951,7 @@ JSON
 stringify
 (
 {
-"
 test1
-"
 :
 {
 methods
@@ -1971,9 +1969,7 @@ object1
 "
 ]
 }
-"
 test2
-"
 :
 {
 methods

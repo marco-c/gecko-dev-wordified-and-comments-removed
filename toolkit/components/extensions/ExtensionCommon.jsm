@@ -432,7 +432,6 @@ return
 new
 Date
 (
-(
 typeof
 date
 =
@@ -452,7 +451,6 @@ d
 test
 (
 date
-)
 )
 ?
 parseInt
@@ -3887,11 +3885,9 @@ prop
 if
 (
 typeof
-(
 desc
 .
 value
-)
 =
 =
 "
@@ -5174,7 +5170,6 @@ schema
 let
 content
 =
-(
 details
 .
 scopes
@@ -5202,7 +5197,6 @@ includes
 "
 content_child
 "
-)
 )
 )
 ;
@@ -7338,7 +7332,6 @@ isPlainObject
 obj
 =
 >
-(
 obj
 &
 &
@@ -7364,7 +7357,6 @@ obj
 "
 Object
 "
-)
 ;
 if
 (
@@ -7423,11 +7415,9 @@ msg
 |
 |
 typeof
-(
 msg
 .
 message
-)
 !
 =
 "

@@ -237,9 +237,7 @@ delayMs
 )
 clearShowInfobarTimeout
 :
-(
 id
-)
 =
 >
 clearTimeout

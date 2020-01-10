@@ -345,7 +345,6 @@ initNewParent
 )
 {
 return
-(
 new
 LoginRecipesParent
 (
@@ -354,7 +353,6 @@ defaults
 :
 null
 }
-)
 )
 .
 initializationPromise

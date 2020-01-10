@@ -877,12 +877,10 @@ prop
 &
 &
 typeof
-(
 recipe
 [
 prop
 ]
-)
 !
 =
 "

@@ -161,9 +161,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -818,12 +816,10 @@ principal
 origin
 =
 =
-(
 new
 URL
 (
 topPage
-)
 )
 .
 origin

@@ -547,11 +547,13 @@ Promise
 resolve
 =
 >
+(
 this
 .
 resolveWhenExpected
 =
 resolve
+)
 )
 ;
 this

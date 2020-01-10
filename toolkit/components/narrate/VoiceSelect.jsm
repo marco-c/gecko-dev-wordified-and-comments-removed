@@ -1408,13 +1408,11 @@ style
 .
 maxHeight
 =
-(
 winHeight
 -
 listboxTop
 -
 10
-)
 +
 "
 px

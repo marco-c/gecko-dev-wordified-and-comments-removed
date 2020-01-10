@@ -132,12 +132,14 @@ appinfo
 .
 inSafeMode
 )
+{
 this
 .
 load
 (
 )
 ;
+}
 }
 XULStore
 .
@@ -358,8 +360,10 @@ if
 !
 debugMode
 )
+{
 return
 ;
+}
 console
 .
 log
@@ -431,8 +435,10 @@ this
 .
 _needsSaving
 )
+{
 return
 ;
+}
 this
 .
 _needsSaving
@@ -556,8 +562,10 @@ this
 .
 _storeFile
 )
+{
 return
 ;
+}
 this
 .
 _needsSaving
@@ -927,8 +935,10 @@ attr
 =
 value
 )
+{
 return
 ;
+}
 obj
 [
 attr
@@ -1377,6 +1387,7 @@ this
 _data
 )
 )
+{
 return
 new
 nsStringEnumerator
@@ -1385,6 +1396,7 @@ nsStringEnumerator
 ]
 )
 ;
+}
 let
 result
 =
@@ -1489,6 +1501,7 @@ docURI
 ]
 )
 )
+{
 return
 new
 nsStringEnumerator
@@ -1497,6 +1510,7 @@ nsStringEnumerator
 ]
 )
 ;
+}
 let
 attrs
 =
@@ -1617,11 +1631,13 @@ hasMore
 (
 )
 )
+{
 throw
 Cr
 .
 NS_ERROR_NOT_AVAILABLE
 ;
+}
 return
 this
 .

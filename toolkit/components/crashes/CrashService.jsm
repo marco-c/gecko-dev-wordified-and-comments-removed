@@ -1209,9 +1209,7 @@ gRunningProcesses
 .
 forEach
 (
-(
 process
-)
 =
 >
 {

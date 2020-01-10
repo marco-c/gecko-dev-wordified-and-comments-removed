@@ -254,9 +254,7 @@ ExtensionPageChild
 const
 initializeBackgroundPage
 =
-(
 context
-)
 =
 >
 {
@@ -466,6 +464,7 @@ var
 apiManager
 =
 new
+(
 class
 extends
 SchemaAPIManager
@@ -541,6 +540,7 @@ value
 }
 }
 }
+)
 (
 )
 ;
@@ -548,6 +548,7 @@ var
 devtoolsAPIManager
 =
 new
+(
 class
 extends
 SchemaAPIManager
@@ -623,6 +624,7 @@ value
 }
 }
 }
+)
 (
 )
 ;

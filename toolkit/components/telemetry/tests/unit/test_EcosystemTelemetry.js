@@ -1542,9 +1542,11 @@ fakeSchedulerTimer
 callback
 =
 >
+(
 schedulerTickCallback
 =
 callback
+)
 (
 )
 =

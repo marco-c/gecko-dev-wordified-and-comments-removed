@@ -1161,9 +1161,7 @@ this
 const
 cb
 =
-(
 cbParam
-)
 =
 >
 {
@@ -2430,9 +2428,7 @@ const
 expectedResults
 =
 {
-"
 apiScriptError
-"
 :
 {
 name
@@ -2450,9 +2446,7 @@ error
 occurred
 "
 }
-"
 apiScriptThrowsPlainString
-"
 :
 {
 typeOf
@@ -2473,9 +2467,7 @@ message
 :
 undefined
 }
-"
 apiScriptThrowsNull
-"
 :
 {
 typeOf
@@ -2493,9 +2485,7 @@ message
 :
 undefined
 }
-"
 userScriptError
-"
 :
 {
 name
@@ -2510,9 +2500,7 @@ userScriptError
 message
 "
 }
-"
 userScriptTypeError
-"
 :
 {
 name
@@ -2527,9 +2515,7 @@ userScriptTypeError
 message
 "
 }
-"
 userScriptProxyObject
-"
 :
 {
 typeOf
@@ -3852,13 +3838,11 @@ assertTrue
 result
 &
 &
-(
 "
 objKey1
 "
 in
 result
-)
 &
 &
 result

@@ -865,7 +865,6 @@ nowDate
 )
 ;
 return
-(
 pingTime
 >
 =
@@ -873,7 +872,6 @@ todayDate
 .
 getTime
 (
-)
 )
 ;
 }
@@ -1182,9 +1180,7 @@ dispatchFn
 let
 l
 =
-(
 msg
-)
 =
 >
 this
@@ -1641,13 +1637,11 @@ sendDailyPing
 const
 isAbortedPingDue
 =
-(
 now
 -
 this
 .
 _lastSessionCheckpointTime
-)
 >
 =
 ABORTED_SESSION_UPDATE_INTERVAL_MS

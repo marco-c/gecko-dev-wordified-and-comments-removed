@@ -914,13 +914,11 @@ clear
 let
 events
 =
-(
 options
 .
 process
 in
 snapshots
-)
 ?
 snapshots
 [
@@ -991,13 +989,11 @@ idx
 ;
 if
 (
-(
 key
 in
 options
 .
 filterProps
-)
 &
 &
 options

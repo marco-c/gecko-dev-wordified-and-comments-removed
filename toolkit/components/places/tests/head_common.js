@@ -578,9 +578,11 @@ db
 .
 connectionReady
 )
+{
 return
 db
 ;
+}
 }
 if
 (
@@ -622,6 +624,7 @@ sqlite
 let
 dbConn
 =
+(
 gDBConn
 =
 Services
@@ -631,6 +634,7 @@ storage
 openDatabase
 (
 file
+)
 )
 ;
 promiseTopicObserved
@@ -1128,6 +1132,7 @@ exists
 (
 )
 )
+{
 file
 .
 remove
@@ -1135,6 +1140,7 @@ remove
 false
 )
 ;
+}
 }
 catch
 (
@@ -1249,6 +1255,7 @@ i
 +
 +
 )
+{
 dump
 (
 stmt
@@ -1264,6 +1271,7 @@ t
 "
 )
 ;
+}
 dump
 (
 "
@@ -1506,9 +1514,11 @@ executeStep
 (
 )
 )
+{
 return
 0
 ;
+}
 return
 stmt
 .
@@ -1611,9 +1621,11 @@ executeStep
 (
 )
 )
+{
 return
 0
 ;
+}
 return
 stmt
 .
@@ -1849,7 +1861,6 @@ bookmarks
 -
 "
 +
-(
 PlacesBackups
 .
 toISODateString
@@ -1857,7 +1868,6 @@ toISODateString
 new
 Date
 (
-)
 )
 )
 +
@@ -1877,6 +1887,7 @@ if
 !
 aFilename
 )
+{
 do_throw
 (
 "
@@ -1891,6 +1902,7 @@ function
 "
 )
 ;
+}
 remove_bookmarks_html
 (
 )
@@ -2059,6 +2071,7 @@ if
 !
 aFilename
 )
+{
 do_throw
 (
 "
@@ -2073,6 +2086,7 @@ function
 "
 )
 ;
+}
 let
 bookmarksBackupDir
 =
@@ -2594,6 +2608,7 @@ executeStep
 (
 )
 )
+{
 throw
 new
 Error
@@ -2607,6 +2622,7 @@ hidden
 "
 )
 ;
+}
 let
 hidden
 =
@@ -2639,7 +2655,6 @@ after
 let
 isWindows
 =
-(
 "
 mozilla
 .
@@ -2655,7 +2670,6 @@ key
 "
 in
 Cc
-)
 ;
 let
 skew
@@ -3019,9 +3033,11 @@ a2
 .
 length
 )
+{
 return
 false
 ;
+}
 if
 (
 sorted
@@ -3049,6 +3065,7 @@ i
 ;
 }
 return
+(
 a1
 .
 filter
@@ -3091,6 +3108,7 @@ length
 =
 =
 0
+)
 ;
 }
 function
@@ -3461,12 +3479,14 @@ Ci
 .
 nsIURI
 )
+{
 url
 =
 url
 .
 spec
 ;
+}
 let
 db
 =
@@ -3749,6 +3769,7 @@ if
 (
 iconURI
 )
+{
 resolve
 (
 iconURI
@@ -3756,7 +3777,9 @@ iconURI
 spec
 )
 ;
+}
 else
+{
 reject
 (
 "
@@ -3773,6 +3796,7 @@ pageURI
 spec
 )
 ;
+}
 }
 width
 )
@@ -3953,10 +3977,12 @@ isSuccessCode
 status
 )
 )
+{
 reject
 (
 )
 ;
+}
 let
 size
 =
@@ -4170,7 +4196,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -4179,7 +4204,6 @@ File
 exists
 (
 src
-)
 )
 "
 Database

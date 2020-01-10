@@ -169,13 +169,11 @@ Length
 "
 "
 +
-(
 TEST_DATA_SHORT
 .
 length
 *
 2
-)
 false
 )
 ;

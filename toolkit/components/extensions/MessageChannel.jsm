@@ -2462,9 +2462,7 @@ error
 &
 &
 typeof
-(
 error
-)
 =
 =
 "

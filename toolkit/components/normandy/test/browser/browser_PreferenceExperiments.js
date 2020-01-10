@@ -270,9 +270,7 @@ const
 mockV1Data
 =
 {
-"
 hypothetical_experiment
-"
 :
 {
 name
@@ -327,9 +325,7 @@ experimentType
 exp
 "
 }
-"
 another_experiment
-"
 :
 {
 name
@@ -396,9 +392,7 @@ __version
 experiments
 :
 {
-"
 hypothetical_experiment
-"
 :
 {
 name
@@ -455,9 +449,7 @@ experimentType
 exp
 "
 }
-"
 another_experiment
-"
 :
 {
 name
@@ -527,9 +519,7 @@ __version
 experiments
 :
 {
-"
 hypothetical_experiment
-"
 :
 {
 name
@@ -591,9 +581,7 @@ experimentType
 exp
 "
 }
-"
 another_experiment
-"
 :
 {
 name
@@ -1739,6 +1727,7 @@ forEach
 key
 =
 >
+(
 experimentSubset
 [
 key
@@ -1748,6 +1737,7 @@ actualExperiment
 [
 key
 ]
+)
 )
 ;
 Assert
@@ -2137,6 +2127,7 @@ forEach
 key
 =
 >
+(
 experimentSubset
 [
 key
@@ -2146,6 +2137,7 @@ actualExperiment
 [
 key
 ]
+)
 )
 ;
 Assert

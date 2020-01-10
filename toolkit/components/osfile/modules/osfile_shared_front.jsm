@@ -400,13 +400,11 @@ SharedAll
 normalizeBufferArgs
 (
 buffer
-(
 "
 bytes
 "
 in
 options
-)
 ?
 options
 .
@@ -554,7 +552,6 @@ length
 let
 suffix
 =
-(
 lastDotCharacter
 !
 =
@@ -570,7 +567,6 @@ lastDotCharacter
 :
 "
 "
-)
 ;
 let
 uniquePath

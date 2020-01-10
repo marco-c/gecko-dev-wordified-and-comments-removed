@@ -81,12 +81,10 @@ RegExp
 &
 &
 typeof
-(
 msg
 [
 k
 ]
-)
 =
 =
 =
@@ -265,9 +263,7 @@ message
 if
 (
 typeof
-(
 message
-)
 =
 =
 "

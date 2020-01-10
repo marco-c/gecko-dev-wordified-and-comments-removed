@@ -1388,9 +1388,7 @@ recipeParentPromise
 .
 then
 (
-(
 recipeParent
-)
 =
 >
 {

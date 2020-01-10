@@ -507,9 +507,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -857,7 +855,6 @@ signon
 .
 httpRealm
 ?
-(
 signon
 .
 origin
@@ -873,7 +870,6 @@ httpRealm
 "
 )
 "
-)
 :
 signon
 .
@@ -1919,7 +1915,6 @@ DeleteSignon
 let
 syncNeeded
 =
-(
 signonsTreeView
 .
 _filterSet
@@ -1928,7 +1923,6 @@ length
 !
 =
 0
-)
 ;
 let
 tree
@@ -2047,16 +2041,13 @@ j
 ;
 while
 (
-(
 k
 <
 table
 .
 length
-)
 &
 &
-(
 table
 [
 k
@@ -2064,7 +2055,6 @@ k
 =
 =
 null
-)
 )
 {
 k
@@ -2113,7 +2103,6 @@ length
 let
 nextSelection
 =
-(
 selections
 [
 0
@@ -2122,7 +2111,6 @@ selections
 table
 .
 length
-)
 ?
 selections
 [
@@ -2441,10 +2429,12 @@ if
 showingPasswords
 |
 |
+(
 await
 masterPasswordLogin
 (
 AskUserShowPasswords
+)
 )
 )
 {
@@ -2564,6 +2554,7 @@ false
 }
 ;
 return
+(
 Services
 .
 prompt
@@ -2603,6 +2594,7 @@ dummy
 =
 =
 0
+)
 ;
 }
 function
@@ -2935,12 +2927,10 @@ sortDirection
 ;
 lastSignonSortAscending
 =
-(
 column
 =
 =
 lastSignonSortColumn
-)
 ?
 !
 lastSignonSortAscending
@@ -2984,7 +2974,6 @@ SignonClearFilter
 let
 singleSelection
 =
-(
 signonsTreeView
 .
 selection
@@ -2993,7 +2982,6 @@ count
 =
 =
 1
-)
 ;
 signonsTreeView
 .
@@ -3897,7 +3885,6 @@ UpdateContextMenu
 let
 singleSelection
 =
-(
 signonsTreeView
 .
 selection
@@ -3906,7 +3893,6 @@ count
 =
 =
 1
-)
 ;
 let
 menuItems

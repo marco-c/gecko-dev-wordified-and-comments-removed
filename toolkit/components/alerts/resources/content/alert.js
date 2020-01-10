@@ -791,13 +791,13 @@ if
 truncChar
 >
 =
-0xDC00
+0xdc00
 &
 &
 truncChar
 <
 =
-0xDFFF
+0xdfff
 )
 {
 truncLength

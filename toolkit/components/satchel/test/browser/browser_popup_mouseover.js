@@ -355,11 +355,13 @@ waitForCondition
 >
 {
 return
+(
 autoCompletePopup
 .
 mousedOverIndex
 =
 1
+)
 ;
 }
 )

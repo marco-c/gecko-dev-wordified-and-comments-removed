@@ -163,11 +163,9 @@ now
 (
 )
 -
-(
 i
 *
 10000000
-)
 )
 )
 ;
@@ -206,14 +204,12 @@ Assert
 .
 ok
 (
-(
 await
 PlacesTestUtils
 .
 isPageInDB
 (
 uri
-)
 )
 )
 ;

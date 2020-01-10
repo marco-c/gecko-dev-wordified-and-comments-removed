@@ -8,9 +8,7 @@ b
 if
 (
 typeof
-(
 a
-)
 !
 =
 "
@@ -31,9 +29,7 @@ a
 if
 (
 typeof
-(
 b
-)
 !
 =
 "

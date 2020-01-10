@@ -1040,6 +1040,7 @@ networkPredictionEnabled
 >
 {
 return
+(
 Preferences
 .
 get
@@ -1100,6 +1101,7 @@ dns
 .
 disablePrefetch
 "
+)
 )
 ;
 }

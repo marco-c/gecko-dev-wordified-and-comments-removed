@@ -1214,7 +1214,6 @@ isTemporary
 ?
 0o400
 :
-(
 0o666
 &
 ~
@@ -1225,7 +1224,6 @@ Constants
 Sys
 .
 umask
-)
 )
 ;
 }
@@ -5042,11 +5040,13 @@ Math
 .
 floor
 (
+(
 TEST_DATA_SHORT
 .
 length
 *
 3
+)
 /
 2
 )

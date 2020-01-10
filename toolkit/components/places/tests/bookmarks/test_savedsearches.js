@@ -1133,6 +1133,7 @@ throws
 )
 =
 >
+(
 tmpFolderNode
 =
 rootNode
@@ -1140,6 +1141,7 @@ rootNode
 getChild
 (
 1
+)
 )
 /
 NS_ERROR_ILLEGAL_VALUE

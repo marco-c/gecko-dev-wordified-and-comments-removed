@@ -746,6 +746,7 @@ container
 .
 label
 )
+{
 Assert
 .
 equal
@@ -758,6 +759,7 @@ container
 label
 )
 ;
+}
 Assert
 .
 ok
@@ -1423,6 +1425,7 @@ container
 .
 label
 )
+{
 Assert
 .
 equal
@@ -1435,6 +1438,7 @@ container
 label
 )
 ;
+}
 }
 let
 dayNode

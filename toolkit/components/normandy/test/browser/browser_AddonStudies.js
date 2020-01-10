@@ -480,7 +480,6 @@ const
 hasAll
 =
 (
-(
 await
 AddonStudies
 .
@@ -502,7 +501,6 @@ has
 study2
 .
 recipeId
-)
 )
 )
 ;
@@ -533,7 +531,6 @@ const
 hasAny
 =
 (
-(
 await
 AddonStudies
 .
@@ -555,7 +552,6 @@ has
 study2
 .
 recipeId
-)
 )
 )
 ;

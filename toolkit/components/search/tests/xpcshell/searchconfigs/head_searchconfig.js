@@ -1008,7 +1008,6 @@ false
 let
 included
 =
-(
 hasIncluded
 &
 &
@@ -1022,12 +1021,10 @@ included
 region
 locale
 )
-)
 ;
 let
 notExcluded
 =
-(
 hasExcluded
 &
 &
@@ -1041,7 +1038,6 @@ config
 excluded
 region
 locale
-)
 )
 ;
 if
@@ -1653,7 +1649,6 @@ SUBMISSION_PURPOSES
 const
 code
 =
-(
 typeof
 rules
 .
@@ -1664,7 +1659,6 @@ codes
 "
 string
 "
-)
 ?
 rules
 .

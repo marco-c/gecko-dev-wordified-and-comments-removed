@@ -73,9 +73,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -324,9 +322,7 @@ null
 ok
 (
 typeof
-(
 channelField
-)
 =
 =
 "

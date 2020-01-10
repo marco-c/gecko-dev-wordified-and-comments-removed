@@ -916,11 +916,9 @@ isUSTimezone
 let
 UTCOffset
 =
-(
 new
 Date
 (
-)
 )
 .
 getTimezoneOffset
@@ -1037,6 +1035,7 @@ isUS
 =
 undefined
 )
+{
 isUS
 =
 Services
@@ -1057,6 +1056,7 @@ isUSTimezone
 (
 )
 ;
+}
 if
 (
 isUS
@@ -1157,6 +1157,7 @@ isUS
 =
 undefined
 )
+{
 isUS
 =
 Services
@@ -1177,6 +1178,7 @@ isUSTimezone
 (
 )
 ;
+}
 if
 (
 isUS
@@ -1350,11 +1352,9 @@ JSON
 .
 parse
 (
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode
@@ -1538,6 +1538,7 @@ actualObj
 prop
 ]
 )
+{
 info
 (
 "
@@ -1548,6 +1549,7 @@ property
 prop
 )
 ;
+}
 Assert
 .
 equal
@@ -1740,16 +1742,19 @@ if
 (
 cohort
 )
+{
 data
 .
 cohort
 =
 cohort
 ;
+}
 if
 (
 visibleDefaultEngines
 )
+{
 data
 .
 settings
@@ -1758,6 +1763,7 @@ visibleDefaultEngines
 =
 visibleDefaultEngines
 ;
+}
 response
 .
 processAsync

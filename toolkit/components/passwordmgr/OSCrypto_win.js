@@ -556,7 +556,7 @@ lo
 =
 c
 &
-0xFF
+0xff
 ;
 let
 hi
@@ -564,7 +564,7 @@ hi
 (
 c
 &
-0xFF00
+0xff00
 )
 >
 >
@@ -971,11 +971,9 @@ outData
 )
 ;
 return
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode
@@ -1031,11 +1029,9 @@ decryptedByteData
 .
 .
 .
-(
 new
 TextEncoder
 (
-)
 )
 .
 encode

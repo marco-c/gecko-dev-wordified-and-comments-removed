@@ -734,9 +734,7 @@ testFn
 const
 setPrefs
 =
-(
 prefs
-)
 =
 >
 {
@@ -801,9 +799,7 @@ value
 switch
 (
 typeof
-(
 value
-)
 )
 {
 case
@@ -883,9 +879,7 @@ yet
 const
 getPrefs
 =
-(
 prefs
-)
 =
 >
 {

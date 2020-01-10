@@ -634,6 +634,7 @@ getDatabase
 const
 oldVersion
 =
+(
 await
 db
 .
@@ -650,6 +651,7 @@ get
 "
 version
 "
+)
 )
 |
 |

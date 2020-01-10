@@ -211,10 +211,12 @@ tagId
 -
 1
 )
+{
 return
 -
 1
 ;
+}
 let
 db
 =
@@ -354,12 +356,14 @@ toLowerCase
 (
 )
 )
+{
 return
 parseInt
 (
 i
 )
 ;
+}
 }
 return
 -
@@ -404,9 +408,7 @@ tag
 if
 (
 typeof
-(
 idOrName
-)
 =
 =
 "
@@ -454,9 +456,7 @@ else
 if
 (
 typeof
-(
 idOrName
-)
 =
 =
 "
@@ -1775,6 +1775,7 @@ _tagFolders
 aItemId
 ]
 )
+{
 this
 .
 _tagFolders
@@ -1784,6 +1785,7 @@ aItemId
 =
 aNewValue
 ;
+}
 }
 onItemMoved
 :
@@ -1823,6 +1825,7 @@ tagsFolderId
 =
 aNewParent
 )
+{
 delete
 this
 .
@@ -1831,6 +1834,7 @@ _tagFolders
 aItemId
 ]
 ;
+}
 }
 onItemVisited
 (
@@ -2152,7 +2156,6 @@ name
 let
 gen
 =
-(
 function
 *
 (
@@ -2182,9 +2185,11 @@ this
 .
 _stopped
 )
+{
 yield
 false
 ;
+}
 count
 +
 +
@@ -2207,11 +2212,9 @@ i
 ;
 if
 (
-(
 i
 %
 10
-)
 =
 =
 0
@@ -2241,7 +2244,6 @@ bind
 (
 this
 )
-)
 (
 )
 ;
@@ -2255,7 +2257,8 @@ next
 .
 value
 )
-;
+{
+}
 this
 .
 notifyResult

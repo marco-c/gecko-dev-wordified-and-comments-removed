@@ -44,6 +44,8 @@ xhr
 =
 new
 XMLHttpRequest
+(
+)
 ;
 xhr
 .

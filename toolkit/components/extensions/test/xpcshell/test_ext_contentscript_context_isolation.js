@@ -397,9 +397,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -414,9 +412,7 @@ com
 bfcachetestpage
 "
 ]
-"
 js
-"
 :
 [
 "
@@ -774,9 +770,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

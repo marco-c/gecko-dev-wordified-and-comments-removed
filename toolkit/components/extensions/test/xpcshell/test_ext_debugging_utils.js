@@ -239,10 +239,8 @@ type
 ;
 equal
 (
-(
 await
 waitSecondBrowser
-)
 addonDebugBrowser
 "
 Two

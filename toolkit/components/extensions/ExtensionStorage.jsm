@@ -1059,9 +1059,7 @@ else
 if
 (
 typeof
-(
 keys
-)
 =
 =
 "

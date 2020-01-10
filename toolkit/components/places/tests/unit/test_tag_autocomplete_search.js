@@ -243,6 +243,7 @@ results
 .
 length
 )
+{
 Assert
 .
 equal
@@ -257,7 +258,9 @@ nsIAutoCompleteController
 STATUS_COMPLETE_MATCH
 )
 ;
+}
 else
+{
 Assert
 .
 equal
@@ -272,6 +275,7 @@ nsIAutoCompleteController
 STATUS_COMPLETE_NO_MATCH
 )
 ;
+}
 Assert
 .
 equal

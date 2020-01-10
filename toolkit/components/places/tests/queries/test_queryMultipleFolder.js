@@ -480,9 +480,7 @@ folderGuids
 .
 map
 (
-(
 guid
-)
 =
 >
 "

@@ -763,6 +763,7 @@ ensureInitialized
 )
 ;
 return
+(
 SearchAutocompleteProviderInternal
 .
 enginesByAlias
@@ -778,6 +779,7 @@ toLocaleLowerCase
 |
 |
 null
+)
 ;
 }
 async
@@ -864,6 +866,7 @@ url
 )
 ;
 return
+(
 parseUrlResult
 .
 engine
@@ -883,6 +886,7 @@ parseUrlResult
 .
 terms
 }
+)
 ;
 }
 newSuggestionsFetch

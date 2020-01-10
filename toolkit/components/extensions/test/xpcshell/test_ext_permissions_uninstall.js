@@ -399,9 +399,7 @@ loadExtension
 manifest
 :
 {
-"
 optional_permissions
-"
 :
 [
 "

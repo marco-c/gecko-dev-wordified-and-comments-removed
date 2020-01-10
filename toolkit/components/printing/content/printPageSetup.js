@@ -598,7 +598,6 @@ unitString
 )
 {
 return
-(
 gPrintSettings
 .
 paperSizeUnit
@@ -607,7 +606,6 @@ paperSizeUnit
 gPrintSettingsInterface
 .
 kPaperSizeInches
-)
 ?
 "
 in
@@ -795,11 +793,9 @@ attr
 :
 "
 +
-(
 val
 /
 10
-)
 +
 unitString
 (
@@ -1856,6 +1852,7 @@ can_change_orientation
 "
 )
 )
+{
 gDialog
 .
 orientation
@@ -1867,7 +1864,9 @@ disabled
 "
 )
 ;
+}
 else
+{
 gDialog
 .
 orientation
@@ -1882,6 +1881,7 @@ true
 "
 )
 ;
+}
 }
 setTimeout
 (

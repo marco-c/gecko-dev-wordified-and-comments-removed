@@ -71,6 +71,7 @@ if
 (
 cacheContext
 )
+{
 var
 [
 context
@@ -99,6 +100,7 @@ p
 /
 )
 ;
+}
 function
 (
 id
@@ -186,6 +188,7 @@ anon
 .
 checked
 )
+{
 context
 +
 =
@@ -193,6 +196,7 @@ context
 a
 "
 ;
+}
 if
 (
 (
@@ -203,6 +207,7 @@ inbrowser
 .
 checked
 )
+{
 context
 +
 =
@@ -210,6 +215,7 @@ context
 b
 "
 ;
+}
 if
 (
 (
@@ -220,6 +226,7 @@ priv
 .
 checked
 )
+{
 context
 +
 =
@@ -227,6 +234,7 @@ context
 p
 "
 ;
+}
 window
 .
 location

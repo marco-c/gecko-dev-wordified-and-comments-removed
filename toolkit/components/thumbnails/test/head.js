@@ -237,6 +237,7 @@ length
 >
 1
 )
+{
 gBrowser
 .
 removeTab
@@ -249,6 +250,7 @@ tabs
 ]
 )
 ;
+}
 Services
 .
 prefs
@@ -457,6 +459,7 @@ aCallback
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -467,6 +470,7 @@ addTab
 (
 gBrowser
 aURI
+)
 )
 ;
 let
@@ -1041,9 +1045,7 @@ aURLs
 let
 dontExpireURLs
 =
-(
 cb
-)
 =
 >
 cb
@@ -1134,12 +1136,14 @@ aOptions
 .
 onDone
 )
+{
 aOptions
 .
 onDone
 =
 next
 ;
+}
 BackgroundPageThumbs
 [
 aMethodName

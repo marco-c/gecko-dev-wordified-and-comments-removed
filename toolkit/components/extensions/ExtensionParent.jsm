@@ -495,6 +495,7 @@ let
 apiManager
 =
 new
+(
 class
 extends
 SchemaAPIManager
@@ -1334,6 +1335,7 @@ promises
 ;
 }
 }
+)
 (
 )
 ;
@@ -4760,7 +4762,6 @@ devtools_parent
 let
 processMessageManager
 =
-(
 target
 .
 messageManager
@@ -4775,7 +4776,6 @@ ppmm
 getChildAt
 (
 0
-)
 )
 ;
 if
@@ -6653,9 +6653,7 @@ type
 this
 .
 viewType
-"
 remote
-"
 :
 this
 .
@@ -6668,9 +6666,7 @@ true
 "
 :
 null
-"
 remoteType
-"
 :
 this
 .
@@ -7044,9 +7040,7 @@ target
 "
 :
 extensionId
-"
 remote
-"
 :
 extension
 .
@@ -7057,9 +7051,7 @@ true
 "
 :
 null
-"
 remoteType
-"
 :
 extension
 .
@@ -7291,9 +7283,7 @@ browserPromise
 .
 then
 (
-(
 browser
-)
 =
 >
 browser
@@ -8083,22 +8073,16 @@ size
 ]
 =
 {
-"
 default
-"
 :
 defaultURL
 |
 |
 darkURL
-"
 light
-"
 :
 lightURL
-"
 dark
-"
 :
 darkURL
 }

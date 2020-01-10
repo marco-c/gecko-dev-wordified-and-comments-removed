@@ -1691,9 +1691,7 @@ emptyResult
 let
 processEntry
 =
-(
 aEntries
-)
 =
 >
 {
@@ -2060,9 +2058,7 @@ requestAutoCompleteResults
 (
 searchString
 params
-(
 entries
-)
 =
 >
 {

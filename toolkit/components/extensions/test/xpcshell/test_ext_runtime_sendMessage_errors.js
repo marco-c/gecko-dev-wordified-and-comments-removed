@@ -204,6 +204,7 @@ map
 arg
 =
 >
+(
 arg
 =
 =
@@ -213,6 +214,7 @@ null
 undefined
 :
 arg
+)
 )
 ;
 testCases

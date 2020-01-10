@@ -393,6 +393,7 @@ message
 ;
 }
 return
+(
 "
 Win
 error
@@ -442,6 +443,7 @@ readString
 "
 )
 "
+)
 ;
 }
 ;
@@ -485,6 +487,7 @@ becauseExists
 )
 {
 return
+(
 this
 .
 winLastError
@@ -503,6 +506,7 @@ winLastError
 Const
 .
 ERROR_ALREADY_EXISTS
+)
 ;
 }
 }
@@ -527,6 +531,7 @@ becauseNoSuchFile
 )
 {
 return
+(
 this
 .
 winLastError
@@ -545,6 +550,7 @@ winLastError
 Const
 .
 ERROR_PATH_NOT_FOUND
+)
 ;
 }
 }
@@ -665,6 +671,7 @@ becauseInvalidArgument
 )
 {
 return
+(
 this
 .
 winLastError
@@ -683,6 +690,7 @@ winLastError
 Const
 .
 ERROR_BAD_ARGUMENTS
+)
 ;
 }
 }

@@ -415,8 +415,10 @@ this
 .
 _nextCapture
 )
+{
 return
 ;
+}
 this
 .
 _currentCapture
@@ -517,7 +519,6 @@ webProgress
 isTopLevel
 &
 &
-(
 flags
 &
 Ci
@@ -525,7 +526,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 &
 &
 this

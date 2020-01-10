@@ -1701,6 +1701,7 @@ if
 (
 tags
 )
+{
 PlacesUtils
 .
 tagging
@@ -1711,6 +1712,7 @@ nsiuri
 tags
 )
 ;
+}
 }
 info
 (
@@ -2119,6 +2121,7 @@ if
 (
 tags
 )
+{
 PlacesUtils
 .
 tagging
@@ -2129,6 +2132,7 @@ nsiuri
 tags
 )
 ;
+}
 }
 await
 task_cleanDatabase
@@ -2696,6 +2700,7 @@ if
 (
 tags
 )
+{
 PlacesUtils
 .
 tagging
@@ -2706,6 +2711,7 @@ nsiuri
 tags
 )
 ;
+}
 }
 for
 (
@@ -2735,6 +2741,7 @@ if
 (
 tags
 )
+{
 PlacesUtils
 .
 tagging
@@ -2745,6 +2752,7 @@ nsiuri
 tags
 )
 ;
+}
 }
 await
 task_cleanDatabase
@@ -3398,6 +3406,7 @@ if
 (
 aTagsAreNot
 )
+{
 pairs
 .
 push
@@ -3410,6 +3419,7 @@ QUERY_KEY_NOT_TAGS
 "
 )
 ;
+}
 var
 expURI
 =
@@ -3713,9 +3723,7 @@ t
 if
 (
 typeof
-(
 t
-)
 =
 =
 =
@@ -3732,6 +3740,7 @@ includes
 t
 )
 )
+{
 uniqueTags
 .
 push
@@ -3739,6 +3748,7 @@ push
 t
 )
 ;
+}
 }
 )
 ;
@@ -3768,6 +3778,7 @@ if
 (
 uniqueTags
 )
+{
 setsAreEqual
 (
 query
@@ -3777,6 +3788,7 @@ uniqueTags
 true
 )
 ;
+}
 var
 expCount
 =
@@ -3842,12 +3854,14 @@ if
 !
 rootWasOpen
 )
+{
 aResultRoot
 .
 containerOpen
 =
 true
 ;
+}
 var
 actualURIs
 =
@@ -3898,12 +3912,14 @@ if
 !
 rootWasOpen
 )
+{
 aResultRoot
 .
 containerOpen
 =
 false
 ;
+}
 }
 function
 queryURI

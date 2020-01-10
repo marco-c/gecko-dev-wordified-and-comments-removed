@@ -237,9 +237,7 @@ resolve
 let
 listener
 =
-(
 args
-)
 =
 >
 {

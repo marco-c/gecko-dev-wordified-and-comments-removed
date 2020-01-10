@@ -79,6 +79,7 @@ win
 let
 newPrompt
 =
+(
 this
 .
 element
@@ -92,6 +93,7 @@ createXULElement
 "
 tabmodalprompt
 "
+)
 )
 ;
 newPrompt
@@ -1090,9 +1092,7 @@ addEventListener
 "
 keypress
 "
-(
 event
-)
 =
 >
 {
@@ -1197,9 +1197,7 @@ addEventListener
 "
 focus
 "
-(
 event
-)
 =
 >
 {
@@ -1259,14 +1257,12 @@ else
 let
 focusedDefault
 =
-(
 event
 .
 originalTarget
 =
 =
 defaultButton
-)
 ;
 let
 someButtonFocused
@@ -1405,6 +1401,7 @@ args
 .
 enableDelay
 )
+{
 throw
 new
 Error
@@ -1422,6 +1419,7 @@ prompts
 "
 )
 ;
+}
 this
 .
 win
@@ -1519,6 +1517,7 @@ args
 .
 showAlertOrigin
 )
+{
 this
 .
 ui
@@ -1532,6 +1531,7 @@ hidden
 "
 )
 ;
+}
 this
 .
 onResize
@@ -1775,8 +1775,10 @@ this
 .
 availHeight
 )
+{
 return
 ;
+}
 this
 .
 availWidth
@@ -1823,6 +1825,7 @@ this
 .
 minWidth
 )
+{
 this
 .
 minWidth
@@ -1841,6 +1844,7 @@ main
 minWidth
 )
 ;
+}
 if
 (
 !
@@ -1848,6 +1852,7 @@ this
 .
 minHeight
 )
+{
 this
 .
 minHeight
@@ -1866,6 +1871,7 @@ main
 minHeight
 )
 ;
+}
 let
 maxWidth
 =
@@ -2075,8 +2081,10 @@ event
 .
 defaultPrevented
 )
+{
 return
 ;
+}
 event
 .
 stopPropagation

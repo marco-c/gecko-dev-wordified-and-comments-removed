@@ -250,6 +250,7 @@ func
 function
 "
 )
+{
 mesg
 =
 "
@@ -259,6 +260,7 @@ function
 !
 "
 ;
+}
 else
 if
 (
@@ -269,6 +271,7 @@ length
 =
 0
 )
+{
 mesg
 =
 "
@@ -278,6 +281,7 @@ needed
 !
 "
 ;
+}
 else
 if
 (
@@ -288,6 +292,7 @@ name
 QueryInterface
 "
 )
+{
 mesg
 =
 "
@@ -296,6 +301,7 @@ QI
 !
 "
 ;
+}
 if
 (
 mesg

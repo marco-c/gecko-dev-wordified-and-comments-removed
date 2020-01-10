@@ -131,9 +131,7 @@ new
 Promise
 (
 async
-(
 resolve
-)
 =
 >
 {

@@ -138,6 +138,7 @@ string
 "
 d
 :
+0
 .
 5
 e
@@ -149,6 +150,7 @@ false
 another
 string
 "
+0
 .
 3
 ]
@@ -172,6 +174,7 @@ string
 "
 d2
 :
+0
 .
 5
 e2
@@ -183,6 +186,7 @@ false
 another
 string
 "
+0
 .
 3
 ]
@@ -207,6 +211,7 @@ string
 "
 d3
 :
+0
 .
 5
 e3
@@ -218,6 +223,7 @@ false
 another
 string
 "
+0
 .
 3
 ]

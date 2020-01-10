@@ -47,6 +47,7 @@ this
 _bundle
 ;
 return
+(
 this
 .
 _bundle
@@ -70,6 +71,7 @@ printing
 .
 properties
 "
+)
 )
 ;
 }
@@ -991,6 +993,7 @@ aPrintSettings
 .
 printerName
 )
+{
 aPrintSettings
 .
 printerName
@@ -999,6 +1002,7 @@ aPSSVC
 .
 defaultPrinterName
 ;
+}
 aPSSVC
 .
 initPrintSettingsFromPrinter
@@ -1542,9 +1546,7 @@ true
 let
 onEntered
 =
-(
 message
-)
 =
 >
 {
@@ -2110,6 +2112,7 @@ if
 (
 gFocusedElement
 )
+{
 Services
 .
 focus
@@ -2124,7 +2127,9 @@ focus
 FLAG_NOSCROLL
 )
 ;
+}
 else
+{
 this
 .
 _sourceBrowser
@@ -2133,6 +2138,7 @@ focus
 (
 )
 ;
+}
 gFocusedElement
 =
 null

@@ -808,9 +808,7 @@ fakeMonotonicNow
 let
 moveClockForward
 =
-(
 minutes
-)
 =
 >
 {
@@ -905,9 +903,11 @@ fakeSchedulerTimer
 callback
 =
 >
+(
 schedulerTickCallback
 =
 callback
+)
 (
 )
 =

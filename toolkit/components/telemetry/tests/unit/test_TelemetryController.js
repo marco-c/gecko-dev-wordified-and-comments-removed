@@ -1116,6 +1116,7 @@ false
 )
 ;
 return
+(
 Object
 .
 keys
@@ -1136,6 +1137,7 @@ in
 scalarSnapshot
 .
 parent
+)
 ;
 }
 )
@@ -2082,12 +2084,10 @@ Assert
 .
 ok
 (
-(
 await
 promiseRejects
 (
 promise
-)
 )
 "
 TelemetryController

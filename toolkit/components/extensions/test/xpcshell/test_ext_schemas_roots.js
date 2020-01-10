@@ -98,9 +98,7 @@ type
 "
 string
 "
-"
 enum
-"
 :
 [
 "
@@ -176,9 +174,7 @@ type
 "
 string
 "
-"
 enum
-"
 :
 [
 "
@@ -268,9 +264,7 @@ type
 "
 string
 "
-"
 enum
-"
 :
 [
 "

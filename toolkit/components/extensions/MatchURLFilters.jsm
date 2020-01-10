@@ -245,9 +245,7 @@ schemes
 .
 some
 (
-(
 scheme
-)
 =
 >
 uri
@@ -338,9 +336,7 @@ ports
 .
 some
 (
-(
 filterPort
-)
 =
 >
 {

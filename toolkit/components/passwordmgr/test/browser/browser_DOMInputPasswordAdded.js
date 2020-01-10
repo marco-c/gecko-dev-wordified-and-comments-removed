@@ -596,6 +596,7 @@ function
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -605,6 +606,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 let

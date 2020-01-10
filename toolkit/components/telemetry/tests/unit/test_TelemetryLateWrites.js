@@ -94,9 +94,7 @@ libtest
 .
 so
 "
-"
 F77AF15BB8D6419FA875954B4A3506CA00
-"
 :
 "
 libxul
@@ -112,9 +110,7 @@ libc
 .
 so
 "
-"
 E4D6D70CC09A63EF8B88D532F867858800
-"
 :
 "
 libmod

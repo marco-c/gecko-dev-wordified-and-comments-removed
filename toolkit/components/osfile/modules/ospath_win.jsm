@@ -204,14 +204,12 @@ options
 let
 noDrive
 =
-(
 options
 &
 &
 options
 .
 winNoDrive
-)
 ;
 let
 index
@@ -706,9 +704,11 @@ index
 =
 0
 )
+{
 return
 null
 ;
+}
 return
 path
 .
@@ -1170,7 +1170,6 @@ g
 m
 =
 >
-(
 m
 =
 =
@@ -1178,7 +1177,6 @@ m
 \
 \
 "
-)
 ?
 "
 /

@@ -457,14 +457,12 @@ currentIndex
 +
 ;
 return
-(
 currentIndex
 >
 =
 expectedUrls
 .
 length
-)
 ;
 }
 let

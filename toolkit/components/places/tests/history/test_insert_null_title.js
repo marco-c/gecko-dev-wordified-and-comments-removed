@@ -174,9 +174,11 @@ onTitleChanged
 )
 =
 >
+(
 notified
 =
 true
+)
 "
 history
 "

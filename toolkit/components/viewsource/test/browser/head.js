@@ -721,9 +721,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 aPrefs
 }

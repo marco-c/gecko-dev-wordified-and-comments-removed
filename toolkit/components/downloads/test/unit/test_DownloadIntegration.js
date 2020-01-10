@@ -724,11 +724,9 @@ systemDir
 let
 time
 =
-(
 new
 Date
 (
-)
 )
 .
 getTime

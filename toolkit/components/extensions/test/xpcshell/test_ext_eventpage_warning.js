@@ -25,9 +25,7 @@ loadExtension
 manifest
 :
 {
-"
 background
-"
 :
 eventPage
 }
@@ -156,9 +154,7 @@ page
 eventPage
 :
 {
-"
 page
-"
 :
 "
 event
@@ -167,9 +163,7 @@ page
 .
 html
 "
-"
 persistent
-"
 :
 false
 }
@@ -191,9 +185,7 @@ page
 eventPage
 :
 {
-"
 scripts
-"
 :
 [
 "
@@ -202,9 +194,7 @@ event_page_script
 js
 "
 ]
-"
 persistent
-"
 :
 false
 }
@@ -224,9 +214,7 @@ page
 eventPage
 :
 {
-"
 scripts
-"
 :
 [
 "
@@ -235,9 +223,7 @@ event_page_script
 js
 "
 ]
-"
 nonExistentProp
-"
 :
 true
 }
@@ -254,9 +240,7 @@ page
 eventPage
 :
 {
-"
 page
-"
 :
 "
 event
@@ -265,9 +249,7 @@ page
 .
 html
 "
-"
 persistent
-"
 :
 true
 }
@@ -290,9 +272,7 @@ page
 eventPage
 :
 {
-"
 scripts
-"
 :
 [
 "
@@ -301,9 +281,7 @@ event_page_script
 js
 "
 ]
-"
 persistent
-"
 :
 true
 }

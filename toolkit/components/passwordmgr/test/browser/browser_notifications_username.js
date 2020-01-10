@@ -319,9 +319,7 @@ panel
 "
 popupshown
 "
-(
 event
-)
 =
 >
 event

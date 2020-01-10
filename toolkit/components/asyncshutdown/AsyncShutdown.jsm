@@ -138,11 +138,13 @@ nsICrashReporter
 )
 ;
 return
+(
 this
 .
 gCrashReporter
 =
 reporter
+)
 ;
 }
 catch
@@ -151,11 +153,13 @@ ex
 )
 {
 return
+(
 this
 .
 gCrashReporter
 =
 null
+)
 ;
 }
 }
@@ -517,7 +521,6 @@ object
 }
 if
 (
-(
 !
 (
 "
@@ -525,7 +528,6 @@ then
 "
 in
 key
-)
 )
 |
 |
@@ -1648,9 +1650,11 @@ then
 )
 =
 >
+(
 satisfied
 =
 true
+)
 )
 ;
 let
@@ -2347,9 +2351,7 @@ trigger
 }
 removeBlocker
 :
-(
 condition
-)
 =
 >
 {
@@ -2494,6 +2496,7 @@ _promise
 ;
 }
 return
+(
 this
 .
 _promise
@@ -2503,6 +2506,7 @@ this
 _wait
 (
 options
+)
 )
 ;
 }

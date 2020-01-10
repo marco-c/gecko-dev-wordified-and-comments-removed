@@ -41,7 +41,7 @@ jsm
 const
 derString
 =
-"
+'
 0
 \
 x82
@@ -147,6 +147,7 @@ x13
 \
 fDigiCert
 Inc1
+\
 '
 0
 %
@@ -286,7 +287,6 @@ org0
 x82
 \
 x01
-\
 "
 0
 \
@@ -826,6 +826,7 @@ xA3
 xAD
 ?
 0
+\
 '
 \
 x06
@@ -1743,7 +1744,6 @@ x15
 x10
 \
 x19xW
-\
 "
 \
 xA8
@@ -1878,7 +1878,6 @@ x86
 \
 xA0
 )
-\
 "
 d
 \
@@ -1891,7 +1890,6 @@ xEE
 x1D
 \
 x7F
-\
 "
 i
 \
@@ -1944,7 +1942,7 @@ nO
 \
 x83
 q3
-"
+'
 ;
 function
 handleGetCertificate

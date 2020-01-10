@@ -1348,7 +1348,6 @@ if
 data
 |
 |
-(
 data
 .
 time
@@ -1357,7 +1356,6 @@ Date
 .
 now
 (
-)
 )
 >
 RECENT_DATA_THRESHOLD

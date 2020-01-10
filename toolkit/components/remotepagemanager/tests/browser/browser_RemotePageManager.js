@@ -93,9 +93,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -161,9 +159,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -172,9 +168,7 @@ RemotePageManager
 addRemotePageListener
 (
 url
-(
 port
-)
 =
 >
 {
@@ -214,6 +208,7 @@ if
 (
 createTab
 )
+{
 gBrowser
 .
 selectedTab
@@ -226,6 +221,7 @@ gBrowser
 url
 )
 ;
+}
 }
 )
 ;
@@ -243,9 +239,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2787,9 +2781,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2866,10 +2858,12 @@ length
 =
 2
 )
+{
 resolve
 (
 )
 ;
+}
 }
 pages
 .
@@ -3238,10 +3232,12 @@ ports
 .
 length
 )
+{
 resolve
 (
 )
 ;
+}
 }
 pages
 .

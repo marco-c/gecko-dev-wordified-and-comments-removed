@@ -107,9 +107,7 @@ testPageURL
 .
 then
 (
-(
 tab
-)
 =
 >
 {

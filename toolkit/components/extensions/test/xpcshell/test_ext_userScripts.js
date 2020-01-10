@@ -997,12 +997,11 @@ sharedCode
 {
 code
 :
-"
+'
 console
 .
 log
 (
-\
 "
 js
 code
@@ -1010,11 +1009,10 @@ shared
 by
 multiple
 userScripts
-\
 "
 )
 ;
-"
+'
 }
 ;
 const

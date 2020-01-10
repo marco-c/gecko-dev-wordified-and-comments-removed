@@ -509,6 +509,7 @@ aUrl
 )
 {
 return
+(
 this
 .
 scheme
@@ -546,6 +547,7 @@ PageThumbsStorage
 getRevision
 (
 aUrl
+)
 )
 ;
 }
@@ -683,9 +685,7 @@ _captureToCanvas
 aBrowser
 aCanvas
 args
-(
 aCanvas
-)
 =
 >
 {
@@ -1630,11 +1630,13 @@ if
 (
 aCallback
 )
+{
 aCallback
 (
 false
 )
 ;
+}
 }
 )
 ;
@@ -1927,6 +1929,7 @@ rev
 =
 null
 )
+{
 rev
 =
 Math
@@ -1944,6 +1947,7 @@ this
 _revisionRange
 )
 ;
+}
 this
 .
 _revisionTable
@@ -2677,6 +2681,7 @@ index
 -
 1
 )
+{
 this
 .
 _filters
@@ -2687,6 +2692,7 @@ index
 1
 )
 ;
+}
 }
 notify
 :
@@ -2765,10 +2771,12 @@ filtersToWaitFor
 =
 0
 )
+{
 expire
 (
 )
 ;
+}
 }
 for
 (
@@ -2790,12 +2798,15 @@ filter
 function
 "
 )
+{
 filter
 (
 filterCallback
 )
 ;
+}
 else
+{
 filter
 .
 filterForThumbnailExpiration
@@ -2803,6 +2814,7 @@ filterForThumbnailExpiration
 filterCallback
 )
 ;
+}
 }
 }
 expireThumbnails

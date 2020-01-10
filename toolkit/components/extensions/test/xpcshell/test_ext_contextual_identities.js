@@ -269,9 +269,7 @@ type
 const
 listener
 =
-(
 change
-)
 =
 >
 {
@@ -1176,9 +1174,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2360,9 +2356,7 @@ state
 -
 change
 "
-(
 stateBool
-)
 =
 >
 {

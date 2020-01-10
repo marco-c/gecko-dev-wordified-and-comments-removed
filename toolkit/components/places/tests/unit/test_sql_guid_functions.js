@@ -147,11 +147,9 @@ while
 seenChars
 !
 =
-(
 kExpectedChars
 *
 kGuidLength
-)
 )
 {
 Assert

@@ -91,6 +91,7 @@ aVisit
 )
 {
 return
+(
 aVisit
 .
 transType
@@ -106,6 +107,7 @@ TRANSITION_FRAMED_LINK
 aVisit
 .
 isRedirect
+)
 ;
 }
 let
@@ -135,9 +137,11 @@ nsINavHistoryService
 .
 TRANSITION_EMBED
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -186,9 +190,11 @@ length
 =
 0
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -282,9 +288,11 @@ aEntry
 .
 uri
 )
+{
 return
 i
 ;
+}
 }
 return
 undefined
@@ -414,12 +422,14 @@ if
 (
 maxResults
 )
+{
 options
 .
 maxResults
 =
 maxResults
 ;
+}
 let
 result
 =
@@ -476,9 +486,11 @@ length
 =
 0
 )
+{
 return
 0
 ;
+}
 let
 seqEltPtrs
 =
@@ -613,10 +625,12 @@ seqPtr
 <
 0
 )
+{
 done
 =
 true
 ;
+}
 }
 else
 {
@@ -757,7 +771,6 @@ newTimeInMicroseconds
 )
 visitCount
 :
-(
 transition
 =
 =
@@ -776,7 +789,6 @@ Ci
 nsINavHistoryService
 .
 TRANSITION_FRAMED_LINK
-)
 ?
 0
 :

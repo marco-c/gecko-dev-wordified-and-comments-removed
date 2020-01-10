@@ -534,11 +534,11 @@ if
 downloadDirPath
 |
 |
-(
 downloadDirPath
 =
 =
 =
+(
 await
 Downloads
 .
@@ -627,9 +627,7 @@ resetFolderListPref
 .
 catch
 (
-(
 err
-)
 =
 >
 {
@@ -1036,6 +1034,7 @@ key
 if
 (
 !
+(
 await
 this
 .
@@ -1049,6 +1048,7 @@ key
 ]
 .
 discoveryPath
+)
 )
 )
 {
@@ -1885,11 +1885,13 @@ this
 preferredProviderKey
 &
 &
+(
 await
 this
 .
 getDownloadFolder
 (
+)
 )
 )
 {

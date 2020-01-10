@@ -617,9 +617,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -638,9 +636,7 @@ pixel
 html
 "
 ]
-"
 js
-"
 :
 [
 "

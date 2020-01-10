@@ -225,9 +225,7 @@ allIcons
 .
 every
 (
-(
 item
-)
 =
 >
 {

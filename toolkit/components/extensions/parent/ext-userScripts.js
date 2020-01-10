@@ -237,9 +237,7 @@ Set
 const
 unregisterContentScripts
 =
-(
 scriptIds
-)
 =
 >
 {
@@ -359,9 +357,7 @@ userScripts
 register
 :
 async
-(
 details
-)
 =
 >
 {
@@ -492,9 +488,7 @@ scriptId
 unregister
 :
 async
-(
 scriptId
-)
 =
 >
 {

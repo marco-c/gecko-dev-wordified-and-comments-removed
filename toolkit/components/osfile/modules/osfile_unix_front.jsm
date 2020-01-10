@@ -362,11 +362,9 @@ options
 if
 (
 typeof
-(
 UnixFile
 .
 posix_fadvise
-)
 =
 =
 =
@@ -1725,12 +1723,10 @@ null
 dest_fd
 null
 bytes_read
-(
 bytes_read
 =
 =
 chunk_size
-)
 ?
 Const
 .
@@ -2126,8 +2122,10 @@ result
 -
 1
 )
+{
 return
 ;
+}
 if
 (
 ctypes
@@ -2671,8 +2669,10 @@ this
 .
 _closed
 )
+{
 return
 ;
+}
 this
 .
 _closed
@@ -2736,6 +2736,7 @@ this
 .
 _dir
 )
+{
 throw
 File
 .
@@ -2751,6 +2752,7 @@ this
 _path
 )
 ;
+}
 return
 error_or_file
 (
@@ -3786,6 +3788,8 @@ array
 (
 length
 )
+)
+(
 )
 ;
 path

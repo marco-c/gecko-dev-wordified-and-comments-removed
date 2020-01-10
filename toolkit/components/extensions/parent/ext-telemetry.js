@@ -229,13 +229,11 @@ try
 const
 result
 =
-(
 "
 canUpload
 "
 in
 TelemetryController
-)
 ?
 TelemetryController
 .

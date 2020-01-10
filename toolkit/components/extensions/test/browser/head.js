@@ -341,6 +341,7 @@ TAB_BACKGROUND_TEXT_COLOR
 207
 221
 192
+0
 .
 9
 ]
@@ -365,7 +366,6 @@ hex
 =
 parseInt
 (
-(
 hex
 .
 indexOf
@@ -386,7 +386,6 @@ substring
 )
 :
 hex
-)
 16
 )
 ;
@@ -399,16 +398,14 @@ hex
 (
 hex
 &
-0x00FF00
+0x00ff00
 )
 >
 >
 8
-(
 hex
 &
-0x0000FF
-)
+0x0000ff
 ]
 ;
 }

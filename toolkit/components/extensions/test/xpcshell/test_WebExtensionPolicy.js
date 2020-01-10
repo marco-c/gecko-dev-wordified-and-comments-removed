@@ -1595,9 +1595,7 @@ registerContentScript
 (
 script1
 )
-(
 e
-)
 =
 >
 e
@@ -1639,9 +1637,7 @@ registerContentScript
 (
 script3
 )
-(
 e
-)
 =
 >
 e
@@ -1688,9 +1684,7 @@ unregisterContentScript
 (
 script3
 )
-(
 e
-)
 =
 >
 e
@@ -1812,9 +1806,7 @@ unregisterContentScript
 (
 script1
 )
-(
 e
-)
 =
 >
 e

@@ -255,6 +255,7 @@ if
 !
 row
 )
+{
 ok
 (
 false
@@ -269,6 +270,7 @@ database
 "
 )
 ;
+}
 this
 .
 _value
@@ -302,6 +304,7 @@ mozIStorageStatementCallback
 .
 REASON_FINISHED
 )
+{
 ok
 (
 false
@@ -314,6 +317,7 @@ succeed
 "
 )
 ;
+}
 aCallback
 (
 this

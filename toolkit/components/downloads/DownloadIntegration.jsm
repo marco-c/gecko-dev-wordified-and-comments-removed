@@ -968,6 +968,7 @@ aDownload
 )
 {
 return
+(
 !
 aDownload
 .
@@ -992,6 +993,7 @@ platform
 "
 android
 "
+)
 ;
 }
 async
@@ -1442,6 +1444,7 @@ shouldBlockForRuntimePermissions
 )
 {
 return
+(
 AppConstants
 .
 platform
@@ -1462,6 +1465,7 @@ waitForPermissions
 RuntimePermissions
 .
 WRITE_EXTERNAL_STORAGE
+)
 )
 )
 ;
@@ -3145,13 +3149,11 @@ return
 }
 if
 (
-(
 aCancel
 instanceof
 Ci
 .
 nsISupportsPRBool
-)
 &
 &
 aCancel
@@ -3928,11 +3930,13 @@ then
 )
 =
 >
+(
 this
 .
 _initialized
 =
 true
+)
 )
 ;
 }

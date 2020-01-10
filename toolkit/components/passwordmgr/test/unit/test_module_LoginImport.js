@@ -761,6 +761,7 @@ encryptedPassword
 )
 ;
 return
+(
 loginDataItem
 .
 hostname
@@ -885,6 +886,7 @@ timesUsed
 loginInfo
 .
 timesUsed
+)
 ;
 }
 )

@@ -727,7 +727,6 @@ _isDisconnected
 )
 {
 return
-(
 !
 this
 .
@@ -738,7 +737,6 @@ proc
 this
 .
 startupPromise
-)
 ;
 }
 _startRead

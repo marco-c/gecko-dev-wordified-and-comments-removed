@@ -90,9 +90,7 @@ file_form_state
 html
 "
 async
-(
 browser
-)
 =
 >
 {
@@ -191,9 +189,7 @@ withNewTab
 (
 fileURISpec
 async
-(
 otherBrowser
-)
 =
 >
 {

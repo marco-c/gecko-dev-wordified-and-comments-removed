@@ -110,9 +110,11 @@ property
 ]
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -724,11 +726,10 @@ badKey
 of
 [
 null
-"
+'
 KEY
 -
 !
-\
 "
 #
 %
@@ -738,7 +739,7 @@ KEY
 (
 )
 _
-"
+'
 ]
 )
 {

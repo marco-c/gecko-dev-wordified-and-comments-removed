@@ -1287,7 +1287,6 @@ documentElement
 let
 p
 =
-(
 parseFloat
 (
 bs
@@ -1328,7 +1327,6 @@ parseFloat
 ds
 .
 paddingBottom
-)
 )
 ;
 bodyPadding

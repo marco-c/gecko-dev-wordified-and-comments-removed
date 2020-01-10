@@ -711,6 +711,7 @@ rollout
 if
 (
 !
+(
 await
 this
 .
@@ -719,6 +720,7 @@ has
 rollout
 .
 slug
+)
 )
 )
 {

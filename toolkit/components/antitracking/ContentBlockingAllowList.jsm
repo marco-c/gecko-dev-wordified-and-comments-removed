@@ -439,6 +439,7 @@ browser
 )
 ;
 return
+(
 Services
 .
 perms
@@ -455,6 +456,7 @@ Services
 perms
 .
 ALLOW_ACTION
+)
 ;
 }
 }

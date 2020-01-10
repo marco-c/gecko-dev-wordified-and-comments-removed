@@ -1141,9 +1141,11 @@ options
 rv
 =
 >
+(
 root
 =
 rv
+)
 )
 ;
 compareArrayToResult
@@ -1298,9 +1300,11 @@ options
 rv
 =
 >
+(
 root
 =
 rv
+)
 )
 ;
 compareArrayToResult

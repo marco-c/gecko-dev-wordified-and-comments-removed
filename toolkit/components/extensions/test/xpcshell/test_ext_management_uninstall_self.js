@@ -113,9 +113,7 @@ listener
 onUninstalled
 :
 async
-(
 addon
-)
 =
 >
 {

@@ -282,9 +282,7 @@ const
 headers
 =
 {
-"
 Accept
-"
 :
 "
 application
@@ -622,9 +620,7 @@ objectsWithSigs
 map
 (
 async
-(
 item
-)
 =
 >
 {

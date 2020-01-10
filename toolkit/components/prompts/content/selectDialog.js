@@ -186,6 +186,7 @@ str
 "
 "
 )
+{
 str
 =
 "
@@ -193,6 +194,7 @@ str
 >
 "
 ;
+}
 listBox
 .
 appendItem

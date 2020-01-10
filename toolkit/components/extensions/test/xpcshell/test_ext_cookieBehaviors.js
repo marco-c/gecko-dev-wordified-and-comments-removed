@@ -413,9 +413,7 @@ enumerator
 .
 filter
 (
-(
 cookie
-)
 =
 >
 cookie
@@ -513,9 +511,7 @@ worker
 .
 onmessage
 =
-(
 event
-)
 =
 >
 {
@@ -1267,9 +1263,7 @@ worker
 .
 onmessage
 =
-(
 evt
-)
 =
 >
 {
@@ -1357,9 +1351,7 @@ this
 .
 onmessage
 =
-(
 evt
-)
 =
 >
 {
@@ -2069,9 +2061,7 @@ tracker
 html
 "
 async
-(
 iframeURL
-)
 =
 >
 {
@@ -2570,9 +2560,7 @@ spawn
 extension
 .
 uuid
-(
 uuid
-)
 =
 >
 {

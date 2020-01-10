@@ -340,12 +340,10 @@ generateUUID
 )
 creationDate
 :
-(
 new
 Date
 (
 1485810000
-)
 )
 .
 toISOString
@@ -533,7 +531,6 @@ Assert
 .
 ok
 (
-(
 await
 OS
 .
@@ -542,7 +539,6 @@ File
 exists
 (
 pingPath
-)
 )
 "
 The

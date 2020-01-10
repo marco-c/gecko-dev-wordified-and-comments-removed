@@ -399,6 +399,7 @@ propName
 in
 args
 )
+{
 propBag
 .
 setProperty
@@ -410,4 +411,5 @@ propName
 ]
 )
 ;
+}
 }

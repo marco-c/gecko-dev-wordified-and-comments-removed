@@ -604,7 +604,6 @@ log_fn
 ;
 if
 (
-(
 name
 =
 =
@@ -614,10 +613,8 @@ slice
 .
 times
 "
-)
 |
 |
-(
 name
 =
 =
@@ -627,7 +624,6 @@ data
 .
 totals
 "
-)
 )
 {
 log_fn

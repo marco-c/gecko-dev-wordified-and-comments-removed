@@ -162,7 +162,6 @@ json
 ;
 if
 (
-(
 await
 OS
 .
@@ -173,7 +172,7 @@ exists
 jsonFile
 )
 )
-)
+{
 await
 OS
 .
@@ -184,6 +183,7 @@ remove
 jsonFile
 )
 ;
+}
 let
 htmlFile
 =
@@ -1066,6 +1066,7 @@ child
 .
 tags
 )
+{
 Assert
 .
 equal
@@ -1083,6 +1084,7 @@ i
 title
 )
 ;
+}
 }
 root
 .

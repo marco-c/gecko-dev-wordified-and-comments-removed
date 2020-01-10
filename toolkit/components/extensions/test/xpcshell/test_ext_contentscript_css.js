@@ -108,15 +108,11 @@ loadExtension
 manifest
 :
 {
-"
 content_scripts
-"
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -131,9 +127,7 @@ com
 dummy
 "
 ]
-"
 css
-"
 :
 [
 "
@@ -142,9 +136,7 @@ content
 css
 "
 ]
-"
 run_at
-"
 :
 "
 document_start

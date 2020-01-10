@@ -7,9 +7,7 @@ let
 commonEvents
 =
 {
-"
 onBeforeRequest
-"
 :
 [
 {
@@ -29,9 +27,7 @@ blocking
 "
 ]
 ]
-"
 onBeforeSendHeaders
-"
 :
 [
 {
@@ -54,9 +50,7 @@ requestHeaders
 "
 ]
 ]
-"
 onSendHeaders
-"
 :
 [
 {
@@ -76,9 +70,7 @@ requestHeaders
 "
 ]
 ]
-"
 onBeforeRedirect
-"
 :
 [
 {
@@ -93,9 +85,7 @@ all_urls
 ]
 }
 ]
-"
 onHeadersReceived
-"
 :
 [
 {
@@ -118,9 +108,7 @@ responseHeaders
 "
 ]
 ]
-"
 onResponseStarted
-"
 :
 [
 {
@@ -135,9 +123,7 @@ all_urls
 ]
 }
 ]
-"
 onCompleted
-"
 :
 [
 {
@@ -157,9 +143,7 @@ responseHeaders
 "
 ]
 ]
-"
 onErrorOccurred
-"
 :
 [
 {

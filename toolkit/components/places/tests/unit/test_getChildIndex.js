@@ -104,6 +104,7 @@ if
 !
 unfiledNode
 )
+{
 do_throw
 (
 "
@@ -117,6 +118,7 @@ hierarchy
 "
 )
 ;
+}
 Assert
 .
 equal
@@ -378,6 +380,7 @@ childCount
 <
 aIndex
 )
+{
 do_throw
 (
 "
@@ -391,6 +394,7 @@ bookmark
 "
 )
 ;
+}
 let
 node
 =

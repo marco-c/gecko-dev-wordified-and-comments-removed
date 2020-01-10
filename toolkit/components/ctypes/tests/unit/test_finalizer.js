@@ -856,6 +856,7 @@ witness
 )
 {
 return
+(
 witness
 .
 top
@@ -886,6 +887,7 @@ right
 =
 =
 i
+)
 ;
 }
 }

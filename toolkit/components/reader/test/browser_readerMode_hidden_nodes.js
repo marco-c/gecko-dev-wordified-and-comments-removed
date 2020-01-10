@@ -153,6 +153,7 @@ value
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -162,6 +163,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
 )
 ;
 is_element_hidden

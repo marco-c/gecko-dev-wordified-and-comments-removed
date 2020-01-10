@@ -103,6 +103,7 @@ status
 )
 {
 return
+(
 Services
 .
 cpmm
@@ -124,6 +125,7 @@ Ci
 nsIEnterprisePolicies
 .
 INACTIVE
+)
 ;
 }
 isAllowed

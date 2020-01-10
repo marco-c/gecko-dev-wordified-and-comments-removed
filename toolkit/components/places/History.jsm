@@ -2202,11 +2202,9 @@ inVisit
 transition
 referrerURI
 :
-(
 inVisit
 .
 referrer
-)
 ?
 PlacesUtils
 .
@@ -2688,8 +2686,10 @@ length
 =
 0
 )
+{
 return
 ;
+}
 let
 idsList
 =
@@ -5522,11 +5522,9 @@ visit
 transitionType
 referrer
 :
-(
 visit
 .
 referrerURI
-)
 ?
 new
 URL
@@ -5758,9 +5756,7 @@ ignoreResults
 onResult
 handleCompletion
 :
-(
 updatedCount
-)
 =
 >
 {

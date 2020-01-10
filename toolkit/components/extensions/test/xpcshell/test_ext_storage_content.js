@@ -649,9 +649,7 @@ prop2
 "
 :
 undefined
-"
 other
-"
 :
 "
 default
@@ -1506,7 +1504,6 @@ assertEq
 object
 "
 typeof
-(
 recentChanges
 [
 "
@@ -1517,7 +1514,6 @@ prop1
 ]
 .
 newValue
-)
 "
 newValue
 is
@@ -1807,11 +1803,9 @@ assertEq
 object
 "
 typeof
-(
 obj
 .
 obj
-)
 "
 object
 part
@@ -2056,9 +2050,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -2077,9 +2069,7 @@ file_sample
 html
 "
 ]
-"
 js
-"
 :
 [
 "
@@ -2088,9 +2078,7 @@ content_script
 js
 "
 ]
-"
 run_at
-"
 :
 "
 document_idle

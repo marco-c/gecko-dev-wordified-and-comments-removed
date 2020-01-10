@@ -276,6 +276,7 @@ options
 .
 onDone
 )
+{
 schedule
 (
 (
@@ -290,6 +291,7 @@ url
 )
 )
 ;
+}
 return
 ;
 }
@@ -354,6 +356,7 @@ options
 .
 onDone
 )
+{
 existing
 .
 doneCallbacks
@@ -365,6 +368,7 @@ options
 onDone
 )
 ;
+}
 return
 ;
 }
@@ -438,6 +442,7 @@ options
 .
 onDone
 )
+{
 options
 .
 onDone
@@ -445,6 +450,7 @@ onDone
 url
 )
 ;
+}
 return
 url
 ;
@@ -734,18 +740,22 @@ this
 .
 _parentWin
 )
+{
 return
 true
 ;
+}
 if
 (
 this
 .
 _startedParentWinInit
 )
+{
 return
 false
 ;
+}
 this
 .
 _startedParentWinInit
@@ -1042,6 +1052,7 @@ this
 .
 _captureQueue
 )
+{
 this
 .
 _captureQueue
@@ -1058,6 +1069,7 @@ destroy
 )
 )
 ;
+}
 this
 .
 _destroyBrowser
@@ -1070,6 +1082,7 @@ this
 .
 _windowlessContainer
 )
+{
 this
 .
 _windowlessContainer
@@ -1078,6 +1091,7 @@ close
 (
 )
 ;
+}
 delete
 this
 .
@@ -1120,8 +1134,10 @@ this
 .
 _renewThumbBrowser
 )
+{
 return
 ;
+}
 this
 .
 _destroyBrowser
@@ -1309,11 +1325,11 @@ bwidth
 sheight
 .
 value
+)
 /
 swidth
 .
 value
-)
 +
 "
 px
@@ -1466,8 +1482,10 @@ this
 .
 _thumbBrowser
 )
+{
 return
 ;
+}
 this
 .
 _thumbBrowser
@@ -1513,8 +1531,10 @@ _ensureParentWindowReady
 (
 )
 )
+{
 return
 ;
+}
 this
 .
 _ensureBrowser
@@ -1577,6 +1597,7 @@ _captureQueue
 0
 ]
 )
+{
 throw
 new
 Error
@@ -1596,6 +1617,7 @@ queue
 "
 )
 ;
+}
 this
 .
 _captureQueue
@@ -1800,6 +1822,7 @@ options
 .
 onDone
 )
+{
 this
 .
 doneCallbacks
@@ -1811,6 +1834,7 @@ options
 onDone
 )
 ;
+}
 }
 Capture
 .
@@ -1862,13 +1886,11 @@ let
 timeout
 =
 typeof
-(
 this
 .
 options
 .
 timeout
-)
 =
 =
 "
@@ -2070,6 +2092,7 @@ data
 .
 imageData
 )
+{
 tel
 (
 "
@@ -2085,6 +2108,7 @@ this
 startDate
 )
 ;
+}
 if
 (
 msg
@@ -2098,8 +2122,10 @@ this
 .
 id
 )
+{
 return
 ;
+}
 if
 (
 msg
@@ -2190,9 +2216,7 @@ reason
 if
 (
 typeof
-(
 reason
-)
 !
 =
 "

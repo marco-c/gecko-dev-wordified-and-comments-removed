@@ -187,6 +187,7 @@ if
 (
 url
 )
+{
 BrowserTestUtils
 .
 loadURI
@@ -197,6 +198,7 @@ linkedBrowser
 url
 )
 ;
+}
 return
 Promise
 .

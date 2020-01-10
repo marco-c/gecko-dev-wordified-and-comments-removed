@@ -175,9 +175,7 @@ this
 metadata
 defineGlobals
 :
-(
 sourceObject
-)
 =
 >
 this
@@ -188,9 +186,7 @@ sourceObject
 )
 export
 :
-(
 value
-)
 =
 >
 this

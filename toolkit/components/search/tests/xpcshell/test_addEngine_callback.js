@@ -22,10 +22,12 @@ jsm
 "
 )
 ;
+(
 "
 use
 strict
 "
+)
 ;
 var
 promptService

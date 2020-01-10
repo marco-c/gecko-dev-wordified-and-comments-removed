@@ -810,7 +810,6 @@ status
 ;
 if
 (
-(
 webProgress
 .
 DOMWindow
@@ -821,10 +820,8 @@ top
 webProgress
 .
 DOMWindow
-)
 &
 &
-(
 stateFlags
 &
 Ci
@@ -832,7 +829,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_IS_DOCUMENT
-)
 )
 {
 this
@@ -891,7 +887,6 @@ locationURI
 let
 isSameDocument
 =
-(
 flags
 &
 Ci
@@ -899,7 +894,6 @@ Ci
 nsIWebProgressListener
 .
 LOCATION_CHANGE_SAME_DOCUMENT
-)
 ;
 if
 (

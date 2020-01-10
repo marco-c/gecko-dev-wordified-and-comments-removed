@@ -86,12 +86,10 @@ containerOpen
 false
 ;
 return
-(
 cc
 =
 =
 1
-)
 ;
 }
 const
@@ -156,11 +154,9 @@ now
 *
 1000
 +
-(
 i
 *
 TOTAL_SITES
-)
 ;
 await
 PlacesTestUtils
@@ -225,11 +221,9 @@ now
 *
 1000
 +
-(
 i
 *
 TOTAL_SITES
-)
 ;
 await
 PlacesTestUtils

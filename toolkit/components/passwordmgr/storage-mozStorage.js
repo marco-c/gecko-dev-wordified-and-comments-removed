@@ -3880,12 +3880,10 @@ reset
 }
 }
 return
-(
 numLogins
 =
 =
 0
-)
 ;
 }
 _encryptLogin

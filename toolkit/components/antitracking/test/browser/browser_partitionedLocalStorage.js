@@ -478,7 +478,6 @@ win
 >
 {
 return
-(
 "
 foo
 "
@@ -486,7 +485,6 @@ in
 win
 .
 localStorage
-)
 ?
 win
 .

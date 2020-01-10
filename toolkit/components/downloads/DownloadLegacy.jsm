@@ -41,11 +41,13 @@ Promise
 r
 =
 >
+(
 this
 .
 _resolveDownload
 =
 r
+)
 )
 ;
 }
@@ -123,7 +125,6 @@ true
 }
 if
 (
-(
 aStateFlags
 &
 Ci
@@ -131,10 +132,8 @@ Ci
 nsIWebProgressListener
 .
 STATE_START
-)
 &
 &
-(
 aStateFlags
 &
 Ci
@@ -142,7 +141,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_IS_NETWORK
-)
 )
 {
 let
@@ -330,7 +328,6 @@ reportError
 else
 if
 (
-(
 aStateFlags
 &
 Ci
@@ -338,10 +335,8 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 &
 &
-(
 aStateFlags
 &
 Ci
@@ -349,7 +344,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_IS_NETWORK
-)
 )
 {
 this

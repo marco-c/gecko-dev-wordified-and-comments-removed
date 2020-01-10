@@ -137,9 +137,7 @@ onRequest
 addListener
 (
 async
-(
 details
-)
 =
 >
 {
@@ -304,9 +302,7 @@ onRequest
 addListener
 (
 async
-(
 details
-)
 =
 >
 {

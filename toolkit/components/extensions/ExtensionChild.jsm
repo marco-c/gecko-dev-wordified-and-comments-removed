@@ -373,11 +373,9 @@ prop
 if
 (
 typeof
-(
 desc
 .
 value
-)
 =
 =
 "
@@ -405,11 +403,9 @@ else
 if
 (
 typeof
-(
 desc
 .
 value
-)
 =
 =
 "
@@ -1631,7 +1627,6 @@ this
 .
 excludeContentScriptSender
 =
-(
 this
 .
 context
@@ -1643,7 +1638,6 @@ envType
 "
 devtools_child
 "
-)
 ;
 }
 _sendMessage
@@ -5440,9 +5434,7 @@ args
 )
 removeListener
 :
-(
 listener
-)
 =
 >
 impl
@@ -5453,9 +5445,7 @@ listener
 )
 hasListener
 :
-(
 listener
-)
 =
 >
 impl

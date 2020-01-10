@@ -1790,7 +1790,6 @@ Assert
 .
 strictEqual
 (
-(
 await
 PlacesUtils
 .
@@ -1801,7 +1800,6 @@ fetch
 bm1
 .
 guid
-)
 )
 null
 )
@@ -1872,7 +1870,6 @@ Assert
 .
 strictEqual
 (
-(
 await
 PlacesUtils
 .
@@ -1883,7 +1880,6 @@ fetch
 bm1
 .
 guid
-)
 )
 null
 )
@@ -2023,7 +2019,6 @@ Assert
 .
 strictEqual
 (
-(
 await
 PlacesUtils
 .
@@ -2035,14 +2030,12 @@ folder1
 .
 guid
 )
-)
 null
 )
 ;
 Assert
 .
 strictEqual
-(
 (
 await
 PlacesUtils
@@ -2054,7 +2047,6 @@ fetch
 bm1
 .
 guid
-)
 )
 null
 )
@@ -2271,7 +2263,6 @@ Assert
 .
 strictEqual
 (
-(
 await
 PlacesUtils
 .
@@ -2283,14 +2274,12 @@ folder1
 .
 guid
 )
-)
 null
 )
 ;
 Assert
 .
 strictEqual
-(
 (
 await
 PlacesUtils
@@ -2303,14 +2292,12 @@ folder2
 .
 guid
 )
-)
 null
 )
 ;
 Assert
 .
 strictEqual
-(
 (
 await
 PlacesUtils
@@ -2322,7 +2309,6 @@ fetch
 bm1
 .
 guid
-)
 )
 null
 )
@@ -2394,7 +2380,6 @@ Assert
 .
 strictEqual
 (
-(
 await
 PlacesUtils
 .
@@ -2405,7 +2390,6 @@ fetch
 bm1
 .
 guid
-)
 )
 null
 )
@@ -2470,7 +2454,6 @@ Assert
 .
 strictEqual
 (
-(
 await
 PlacesUtils
 .
@@ -2481,7 +2464,6 @@ fetch
 bm1
 .
 guid
-)
 )
 null
 )

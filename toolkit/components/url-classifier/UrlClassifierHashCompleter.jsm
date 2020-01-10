@@ -1010,13 +1010,11 @@ this
 _currentRequest
 &
 &
-(
 pendingUrls
 .
 length
 >
 0
-)
 )
 {
 let
@@ -1146,6 +1144,7 @@ aGethashUrl
 )
 {
 return
+(
 this
 .
 _backoffs
@@ -1171,6 +1170,7 @@ _nextGethashTimeMs
 [
 aGethashUrl
 ]
+)
 ;
 }
 noteRequest
@@ -2483,13 +2483,11 @@ PARTIAL_LENGTH
 :
 "
 +
-(
 PARTIAL_LENGTH
 *
 prefixes
 .
 length
-)
 +
 "
 \
@@ -3221,11 +3219,9 @@ i
 ;
 i
 <
-(
 dataLength
 /
 COMPLETE_LENGTH
-)
 ;
 i
 +
@@ -3406,9 +3402,7 @@ HCR_notifySuccess
 let
 completionV2
 =
-(
 req
-)
 =
 >
 {
@@ -3420,9 +3414,7 @@ matches
 .
 forEach
 (
-(
 m
-)
 =
 >
 {
@@ -3462,9 +3454,7 @@ NS_OK
 let
 completionV4
 =
-(
 req
-)
 =
 >
 {
@@ -3575,9 +3565,7 @@ _requests
 .
 forEach
 (
-(
 req
-)
 =
 >
 {

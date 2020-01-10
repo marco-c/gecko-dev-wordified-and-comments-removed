@@ -1780,14 +1780,12 @@ Assert
 .
 ok
 (
-(
 await
 TelemetryStorage
 .
 loadPendingPing
 (
 expectedPingId
-)
 )
 "
 Ping
@@ -2356,11 +2354,9 @@ type
 PING_TYPE
 creationDate
 :
-(
 new
 Date
 (
-)
 )
 .
 toISOString

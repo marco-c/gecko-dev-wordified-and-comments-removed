@@ -1207,7 +1207,6 @@ context
 let
 what
 =
-(
 AppConstants
 .
 platform
@@ -1216,7 +1215,6 @@ platform
 "
 win
 "
-)
 ?
 "
 registry
@@ -1582,7 +1580,6 @@ GLOBAL_TEST_JSON
 let
 where
 =
-(
 AppConstants
 .
 platform
@@ -1591,7 +1588,6 @@ platform
 "
 win
 "
-)
 ?
 "
 registry

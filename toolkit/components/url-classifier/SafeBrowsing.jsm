@@ -485,6 +485,7 @@ enabled
 )
 {
 return
+(
 Services
 .
 prefs
@@ -518,6 +519,7 @@ malware
 .
 enabled
 "
+)
 )
 ;
 }
@@ -649,6 +651,7 @@ enabled
 )
 {
 return
+(
 Services
 .
 prefs
@@ -680,6 +683,7 @@ pbmode
 .
 enabled
 "
+)
 )
 ;
 }

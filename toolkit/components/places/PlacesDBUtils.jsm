@@ -4464,9 +4464,7 @@ let
 _getTableCount
 =
 async
-(
 tableName
-)
 =
 >
 {
@@ -5367,13 +5365,11 @@ val
 ;
 if
 (
-(
 "
 query
 "
 in
 probe
-)
 )
 {
 let
@@ -5745,8 +5741,10 @@ check
 db
 )
 )
+{
 return
 ;
+}
 try
 {
 await
@@ -5786,10 +5784,12 @@ NS_ERROR_FILE_CORRUPTED
 if
 (
 !
+(
 await
 check
 (
 db
+)
 )
 )
 {

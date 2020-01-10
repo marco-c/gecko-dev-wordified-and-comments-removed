@@ -2083,9 +2083,7 @@ apiValue
 let
 checkResetPrefs
 =
-(
 method
-)
 =
 >
 {

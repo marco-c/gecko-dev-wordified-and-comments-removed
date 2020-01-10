@@ -130,9 +130,9 @@ return
 entry
 ;
 }
+)
 (
 root
-)
 )
 ;
 info

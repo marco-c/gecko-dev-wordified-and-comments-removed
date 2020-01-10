@@ -77,9 +77,7 @@ restoreDefaultValues
 if
 (
 typeof
-(
 json
-)
 !
 =
 "

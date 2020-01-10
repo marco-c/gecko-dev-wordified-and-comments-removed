@@ -140,9 +140,7 @@ onBeforeRequest
 addListener
 (
 async
-(
 details
-)
 =
 >
 {
@@ -311,9 +309,7 @@ onBeforeRequest
 addListener
 (
 async
-(
 details
-)
 =
 >
 {

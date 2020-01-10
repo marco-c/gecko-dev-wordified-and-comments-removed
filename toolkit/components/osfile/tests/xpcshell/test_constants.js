@@ -207,7 +207,6 @@ Assert
 ok
 (
 typeof
-(
 OS
 .
 Constants
@@ -215,7 +214,6 @@ Constants
 Sys
 .
 DEBUG
-)
 =
 =
 "

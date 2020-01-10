@@ -319,6 +319,7 @@ includeURLs
 "
 )
 )
+{
 errorMsg
 +
 =
@@ -335,6 +336,7 @@ url
 .
 "
 ;
+}
 Cu
 .
 reportError
@@ -909,9 +911,7 @@ colorSchemeValues
 .
 map
 (
-(
 value
-)
 =
 >
 {
@@ -1604,6 +1604,7 @@ _toolbarVertical
 ;
 }
 return
+(
 this
 .
 _toolbarVertical
@@ -1621,6 +1622,7 @@ toolbar
 .
 vertical
 "
+)
 )
 ;
 }
@@ -1823,6 +1825,7 @@ data
 .
 title
 )
+{
 btn
 .
 title
@@ -1833,6 +1836,7 @@ data
 .
 title
 ;
+}
 if
 (
 message
@@ -1841,6 +1845,7 @@ data
 .
 text
 )
+{
 btn
 .
 textContent
@@ -1851,6 +1856,7 @@ data
 .
 text
 ;
+}
 if
 (
 message
@@ -1866,6 +1872,7 @@ data
 .
 height
 )
+{
 btn
 .
 style
@@ -1889,6 +1896,7 @@ height
 }
 px
 ;
+}
 let
 tb
 =
@@ -1990,12 +1998,14 @@ if
 (
 btn
 )
+{
 btn
 .
 remove
 (
 )
 ;
+}
 }
 break
 ;
@@ -2100,8 +2110,10 @@ aEvent
 .
 isTrusted
 )
+{
 return
 ;
+}
 let
 target
 =
@@ -2668,7 +2680,6 @@ newFontSize
 let
 size
 =
-(
 10
 +
 2
@@ -2676,7 +2687,6 @@ size
 this
 .
 _fontSize
-)
 +
 "
 px
@@ -2844,9 +2854,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -2886,9 +2894,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -3124,6 +3130,7 @@ _contentWidth
 >
 0
 )
+{
 containerClasses
 .
 remove
@@ -3139,6 +3146,7 @@ this
 _contentWidth
 )
 ;
+}
 this
 .
 _contentWidth
@@ -3352,9 +3360,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -3412,9 +3418,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -3488,6 +3492,7 @@ _lineHeight
 >
 0
 )
+{
 contentClasses
 .
 remove
@@ -3503,6 +3508,7 @@ this
 _lineHeight
 )
 ;
+}
 this
 .
 _lineHeight
@@ -3716,9 +3722,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -3776,9 +3780,7 @@ addEventListener
 "
 click
 "
-(
 event
-)
 =
 >
 {
@@ -4090,14 +4092,17 @@ luxValue
 lowerBoundLight
 )
 )
+{
 return
 ;
+}
 if
 (
 luxValue
 <
 colorChangeThreshold
 )
+{
 this
 .
 _setColorScheme
@@ -4107,7 +4112,9 @@ dark
 "
 )
 ;
+}
 else
+{
 this
 .
 _setColorScheme
@@ -4117,6 +4124,7 @@ light
 "
 )
 ;
+}
 }
 _setColorScheme
 (
@@ -4142,8 +4150,10 @@ newColorScheme
 auto
 "
 )
+{
 return
 ;
+}
 let
 bodyClasses
 =
@@ -4161,6 +4171,7 @@ this
 .
 _colorScheme
 )
+{
 bodyClasses
 .
 remove
@@ -4170,6 +4181,7 @@ this
 _colorScheme
 )
 ;
+}
 this
 .
 _colorScheme
@@ -4239,8 +4251,10 @@ _fontType
 =
 newFontType
 )
+{
 return
 ;
+}
 let
 bodyClasses
 =
@@ -4258,6 +4272,7 @@ this
 .
 _fontType
 )
+{
 bodyClasses
 .
 remove
@@ -4267,6 +4282,7 @@ this
 _fontType
 )
 ;
+}
 this
 .
 _fontType
@@ -4605,9 +4621,7 @@ reject
 let
 listener
 =
-(
 message
-)
 =
 >
 {
@@ -4711,9 +4725,7 @@ _requestFavicon
 let
 handleFaviconReturn
 =
-(
 message
-)
 =
 >
 {
@@ -4813,8 +4825,10 @@ url
 =
 url
 )
+{
 return
 ;
+}
 let
 doc
 =
@@ -5364,9 +5378,11 @@ if
 !
 host
 )
+{
 return
 host
 ;
+}
 let
 start
 =
@@ -5384,10 +5400,12 @@ www
 "
 )
 )
+{
 start
 =
 4
 ;
+}
 else
 if
 (
@@ -5401,10 +5419,12 @@ m
 "
 )
 )
+{
 start
 =
 2
 ;
+}
 else
 if
 (
@@ -5418,10 +5438,12 @@ mobile
 "
 )
 )
+{
 start
 =
 7
 ;
+}
 return
 host
 .
@@ -6042,6 +6064,7 @@ itemClass
 =
 undefined
 )
+{
 item
 .
 classList
@@ -6053,6 +6076,7 @@ option
 itemClass
 )
 ;
+}
 if
 (
 option
@@ -6129,8 +6153,10 @@ aEvent
 .
 isTrusted
 )
+{
 return
 ;
+}
 aEvent
 .
 stopPropagation
@@ -6228,6 +6254,7 @@ value
 =
 initialValue
 )
+{
 item
 .
 classList
@@ -6239,6 +6266,7 @@ selected
 "
 )
 ;
+}
 }
 }
 _setupButton
@@ -6323,8 +6351,10 @@ aEvent
 .
 isTrusted
 )
+{
 return
 ;
+}
 let
 btn
 =
@@ -6522,8 +6552,10 @@ if
 !
 dropdown
 )
+{
 return
 ;
+}
 event
 .
 stopPropagation

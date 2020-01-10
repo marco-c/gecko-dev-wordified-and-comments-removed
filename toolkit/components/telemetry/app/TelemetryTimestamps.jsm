@@ -33,6 +33,7 @@ value
 =
 null
 )
+{
 value
 =
 Date
@@ -41,6 +42,7 @@ now
 (
 )
 ;
+}
 if
 (
 isNaN
@@ -48,6 +50,7 @@ isNaN
 value
 )
 )
+{
 throw
 new
 Error
@@ -61,6 +64,7 @@ timestamp
 "
 )
 ;
+}
 if
 (
 timeStamps
@@ -70,8 +74,10 @@ hasOwnProperty
 name
 )
 )
+{
 return
 ;
+}
 timeStamps
 [
 name

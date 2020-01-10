@@ -359,6 +359,7 @@ isContentScriptProcess
 >
 {
 return
+(
 Services
 .
 appinfo
@@ -378,6 +379,7 @@ PROCESS_TYPE_CONTENT
 WebExtensionPolicy
 .
 useRemoteWebExtensions
+)
 ;
 }
 )
@@ -400,6 +402,7 @@ var
 apiManager
 =
 new
+(
 class
 extends
 SchemaAPIManager
@@ -475,6 +478,7 @@ value
 }
 }
 }
+)
 (
 )
 ;
@@ -738,7 +742,6 @@ timeout
 1
 |
 |
-(
 now
 -
 promise
@@ -747,7 +750,6 @@ lastUsed
 >
 =
 timeout
-)
 )
 {
 this
@@ -1028,9 +1030,7 @@ extension
 super
 (
 CSSCODE_EXPIRY_TIMEOUT_MS
-(
 hash
-)
 =
 >
 {
@@ -2603,9 +2603,7 @@ sandboxes
 new
 DefaultWeakMap
 (
-(
 context
-)
 =
 >
 {
@@ -4616,7 +4614,6 @@ documentElement
 let
 language
 =
-(
 elem
 .
 getAttribute
@@ -4645,7 +4642,6 @@ contentLanguage
 |
 |
 null
-)
 ;
 let
 tld
@@ -4739,6 +4735,7 @@ then
 result
 =
 >
+(
 result
 .
 language
@@ -4757,6 +4754,7 @@ result
 .
 language
 )
+)
 ;
 }
 )
@@ -4774,9 +4772,7 @@ script
 let
 executeInWin
 =
-(
 window
-)
 =
 >
 {

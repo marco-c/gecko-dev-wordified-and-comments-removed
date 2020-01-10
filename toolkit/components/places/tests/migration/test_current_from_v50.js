@@ -681,13 +681,11 @@ Assert
 .
 equal
 (
-(
 await
 db
 .
 getSchemaVersion
 (
-)
 )
 CURRENT_SCHEMA_VERSION
 )

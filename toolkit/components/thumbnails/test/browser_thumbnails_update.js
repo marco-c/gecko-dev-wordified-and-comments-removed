@@ -44,9 +44,11 @@ test
 (
 )
 )
+{
 yield
 iterator
 ;
+}
 }
 }
 function

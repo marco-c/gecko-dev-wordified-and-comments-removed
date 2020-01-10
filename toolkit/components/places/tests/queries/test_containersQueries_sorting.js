@@ -272,9 +272,11 @@ length
 =
 0
 )
+{
 return
 0
 ;
+}
 var
 seqEltPtrs
 =
@@ -409,10 +411,12 @@ seqPtr
 <
 0
 )
+{
 done
 =
 true
 ;
+}
 }
 else
 {
@@ -609,6 +613,7 @@ nsINavHistoryQueryOptions
 .
 SORT_BY_DATEADDED_DESCENDING
 )
+{
 sortingMode
 .
 value
@@ -619,6 +624,7 @@ nsINavHistoryQueryOptions
 .
 SORT_BY_NONE
 ;
+}
 }
 var
 query
@@ -1390,19 +1396,23 @@ aLC
 <
 bLC
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 aLC
 >
 bLC
 )
+{
 return
 1
 ;
+}
 return
 0
 ;
@@ -1674,6 +1684,7 @@ i
 .
 title
 )
+{
 print
 (
 i
@@ -1703,6 +1714,7 @@ i
 title
 )
 ;
+}
 Assert
 .
 equal
@@ -1792,7 +1804,6 @@ lastVisit
 (
 timeInMilliseconds
 -
-(
 18000
 *
 1000
@@ -1800,7 +1811,6 @@ timeInMilliseconds
 dayOffset
 +
 +
-)
 )
 *
 1000

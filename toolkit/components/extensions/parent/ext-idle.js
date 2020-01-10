@@ -172,6 +172,7 @@ observer
 observer
 =
 new
+(
 class
 extends
 ExtensionCommon
@@ -216,6 +217,7 @@ topic
 }
 }
 }
+)
 (
 )
 ;

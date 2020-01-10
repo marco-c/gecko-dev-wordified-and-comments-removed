@@ -1,7 +1,6 @@
 var
 isWindows
 =
-(
 "
 mozilla
 .
@@ -17,7 +16,6 @@ key
 "
 in
 Cc
-)
 ;
 async
 function

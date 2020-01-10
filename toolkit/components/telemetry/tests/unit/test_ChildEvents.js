@@ -446,6 +446,7 @@ false
 )
 ;
 return
+(
 Object
 .
 keys
@@ -473,6 +474,7 @@ includes
 "
 dynamic
 "
+)
 )
 ;
 }
@@ -567,9 +569,7 @@ test
 dynamic
 "
 {
-"
 test1
-"
 :
 {
 methods
@@ -587,9 +587,7 @@ object1
 "
 ]
 }
-"
 test2
-"
 :
 {
 methods
@@ -1122,7 +1120,6 @@ every
 ts
 =
 >
-(
 ts
 >
 Math
@@ -1131,14 +1128,11 @@ floor
 (
 timestampBeforeChildEvents
 )
-)
 &
 &
-(
 ts
 <
 timestampAfterChildEvents
-)
 )
 "
 All
@@ -1167,7 +1161,6 @@ every
 ts
 =
 >
-(
 ts
 >
 =
@@ -1176,7 +1169,6 @@ Math
 floor
 (
 timestampAfterChildEvents
-)
 )
 )
 "

@@ -628,6 +628,7 @@ aFileName
 )
 {
 return
+(
 "
 http
 :
@@ -652,6 +653,7 @@ primaryPort
 "
 +
 aFileName
+)
 ;
 }
 function
@@ -2544,13 +2546,11 @@ Length
 "
 "
 +
-(
 TEST_DATA_SHORT
 .
 length
 *
 2
-)
 false
 )
 ;
@@ -2673,7 +2673,6 @@ s
 var
 firstBytePos
 =
-(
 matches
 [
 1
@@ -2682,7 +2681,6 @@ matches
 =
 =
 undefined
-)
 ?
 0
 :
@@ -2694,7 +2692,6 @@ matches
 var
 lastBytePos
 =
-(
 matches
 [
 2
@@ -2703,7 +2700,6 @@ matches
 =
 =
 undefined
-)
 ?
 data
 .
@@ -3101,13 +3097,11 @@ Length
 "
 "
 +
-(
 TEST_DATA_SHORT
 .
 length
 *
 2
-)
 false
 )
 ;

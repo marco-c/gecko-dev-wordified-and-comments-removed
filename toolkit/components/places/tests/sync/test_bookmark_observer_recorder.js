@@ -880,6 +880,7 @@ frecency
 )
 =
 >
+(
 frecency
 >
 0
@@ -887,6 +888,7 @@ frecency
 href
 :
 null
+)
 )
 ;
 equal
@@ -1114,6 +1116,7 @@ frecency
 )
 =
 >
+(
 frecency
 <
 =
@@ -1122,6 +1125,7 @@ frecency
 href
 :
 null
+)
 )
 ;
 deepEqual

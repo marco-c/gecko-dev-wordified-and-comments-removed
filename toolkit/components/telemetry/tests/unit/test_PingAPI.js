@@ -1144,7 +1144,6 @@ Assert
 .
 ok
 (
-(
 await
 promiseRejects
 (
@@ -1153,7 +1152,6 @@ TelemetryArchive
 promiseArchivedPingById
 (
 FAKE_ID1
-)
 )
 )
 "
@@ -1169,7 +1167,6 @@ Assert
 .
 ok
 (
-(
 await
 promiseRejects
 (
@@ -1178,7 +1175,6 @@ TelemetryArchive
 promiseArchivedPingById
 (
 FAKE_ID2
-)
 )
 )
 "
@@ -1497,7 +1493,6 @@ Assert
 .
 ok
 (
-(
 await
 TelemetryArchive
 .
@@ -1506,7 +1501,6 @@ promiseArchivedPingById
 expectedInfo
 .
 id
-)
 )
 "
 Ping
@@ -2476,11 +2470,9 @@ type
 PING_TYPE
 creationDate
 :
-(
 new
 Date
 (
-)
 )
 .
 toISOString

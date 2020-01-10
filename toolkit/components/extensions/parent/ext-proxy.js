@@ -563,9 +563,7 @@ extraInfoSpec
 let
 listener
 =
-(
 data
-)
 =
 >
 {

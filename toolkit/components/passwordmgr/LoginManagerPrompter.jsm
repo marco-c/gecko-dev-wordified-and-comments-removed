@@ -715,7 +715,6 @@ authInfo
 var
 hasLogins
 =
-(
 Services
 .
 logins
@@ -728,7 +727,6 @@ httpRealm
 )
 >
 0
-)
 ;
 if
 (
@@ -780,7 +778,6 @@ http
 ;
 hasLogins
 =
-(
 Services
 .
 logins
@@ -793,7 +790,6 @@ httpRealm
 )
 >
 0
-)
 ;
 }
 if
@@ -1789,7 +1785,6 @@ _allowRememberLogin
 {
 canRememberLogin
 =
-(
 aSavePassword
 =
 =
@@ -1798,7 +1793,6 @@ Ci
 nsIAuthPrompt
 .
 SAVE_PASSWORD_PERMANENTLY
-)
 &
 &
 Services
@@ -2251,7 +2245,6 @@ _inPrivateBrowsing
 var
 canRememberLogin
 =
-(
 aSavePassword
 =
 =
@@ -2260,7 +2253,6 @@ Ci
 nsIAuthPrompt
 .
 SAVE_PASSWORD_PERMANENTLY
-)
 &
 &
 Services
@@ -4176,9 +4168,7 @@ currentNotification
 let
 updateButtonStatus
 =
-(
 element
-)
 =
 >
 {
@@ -4335,14 +4325,12 @@ foundLogins
 let
 msgNames
 =
-(
 logins
 .
 length
 =
 =
 0
-)
 ?
 saveMsgNames
 :
@@ -4663,9 +4651,7 @@ updateButtonLabel
 let
 onVisibilityToggle
 =
-(
 commandEvent
-)
 =
 >
 {
@@ -5676,7 +5662,6 @@ nsIPrompt
 .
 BUTTON_POS_1_DEFAULT
 +
-(
 Ci
 .
 nsIPrompt
@@ -5688,9 +5673,7 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_0
-)
 +
-(
 Ci
 .
 nsIPrompt
@@ -5702,9 +5685,7 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_1
-)
 +
-(
 Ci
 .
 nsIPrompt
@@ -5716,7 +5697,6 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_2
-)
 ;
 var
 displayHost

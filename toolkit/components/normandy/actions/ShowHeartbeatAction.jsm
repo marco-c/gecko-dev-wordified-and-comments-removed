@@ -367,6 +367,7 @@ id
 if
 (
 !
+(
 await
 this
 .
@@ -374,6 +375,7 @@ shouldShow
 (
 recipeStorage
 recipe
+)
 )
 )
 {

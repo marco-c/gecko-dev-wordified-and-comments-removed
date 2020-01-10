@@ -288,9 +288,7 @@ delayMs
 )
 clearTimeout
 :
-(
 id
-)
 =
 >
 clearTimeout
@@ -609,13 +607,11 @@ monotonicNow
 ;
 if
 (
-(
 now
 -
 this
 .
 _lastSendTime
-)
 <
 this
 .

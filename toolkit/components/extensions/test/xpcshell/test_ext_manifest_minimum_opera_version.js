@@ -20,9 +20,7 @@ ExtensionTestUtils
 normalizeManifest
 (
 {
-"
 minimum_opera_version
-"
 :
 "
 48

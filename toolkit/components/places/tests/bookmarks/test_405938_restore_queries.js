@@ -425,13 +425,11 @@ Date
 (
 )
 -
-(
 this
 .
 _extraBookmarksCount
 *
 1000
-)
 ;
 for
 (
@@ -488,7 +486,6 @@ Date
 date
 +
 (
-(
 this
 .
 _extraBookmarksCount
@@ -497,7 +494,6 @@ i
 )
 *
 1000
-)
 )
 }
 )

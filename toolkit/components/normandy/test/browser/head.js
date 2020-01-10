@@ -1740,9 +1740,7 @@ stub
 .
 assertEvents
 =
-(
 expected
-)
 =
 >
 {

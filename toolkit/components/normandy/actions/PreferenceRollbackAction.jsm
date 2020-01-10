@@ -303,9 +303,7 @@ preference_rollback
 "
 rolloutSlug
 {
-"
 reason
-"
 :
 "
 rollback
@@ -348,9 +346,7 @@ preference_rollback
 "
 rolloutSlug
 {
-"
 reason
-"
 :
 "
 graduated

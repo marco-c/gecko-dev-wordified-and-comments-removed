@@ -202,7 +202,6 @@ webProgress
 isTopLevel
 &
 &
-(
 flags
 &
 Ci
@@ -210,7 +209,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 &
 &
 this

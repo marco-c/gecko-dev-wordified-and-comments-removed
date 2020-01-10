@@ -153,6 +153,7 @@ data
 "
 )
 )
+{
 iconURL
 =
 NetUtil
@@ -164,6 +165,7 @@ browser
 mIconURL
 )
 ;
+}
 try
 {
 let
@@ -193,6 +195,7 @@ engineURL
 scheme
 )
 )
+{
 throw
 new
 Error
@@ -210,6 +213,7 @@ engineURL
 spec
 )
 ;
+}
 if
 (
 Services

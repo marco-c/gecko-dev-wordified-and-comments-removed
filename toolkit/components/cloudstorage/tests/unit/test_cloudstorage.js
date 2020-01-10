@@ -125,7 +125,6 @@ Drive
 const
 DROPBOX_CONFIG_FOLDER
 =
-(
 AppConstants
 .
 platform
@@ -135,7 +134,6 @@ platform
 "
 win
 "
-)
 ?
 "
 Dropbox

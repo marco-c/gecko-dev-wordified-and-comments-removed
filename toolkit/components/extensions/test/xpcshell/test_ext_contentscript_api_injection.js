@@ -57,9 +57,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -78,9 +76,7 @@ file_sample
 html
 "
 ]
-"
 js
-"
 :
 [
 "
@@ -91,9 +87,7 @@ js
 ]
 }
 ]
-"
 web_accessible_resources
-"
 :
 [
 "

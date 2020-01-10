@@ -182,6 +182,7 @@ Ci
 .
 nsIURI
 )
+{
 return
 new
 URL
@@ -191,15 +192,14 @@ arg
 spec
 )
 ;
+}
 if
 (
 arg
 &
 &
 typeof
-(
 arg
-)
 =
 =
 "
@@ -218,6 +218,7 @@ now
 *
 1000
 )
+{
 return
 PlacesUtils
 .
@@ -226,6 +227,7 @@ toDate
 arg
 )
 ;
+}
 return
 arg
 ;
@@ -281,12 +283,14 @@ name
 in
 target
 )
+{
 return
 target
 [
 name
 ]
 ;
+}
 return
 undefined
 ;
@@ -323,9 +327,7 @@ notifications
 let
 listener
 =
-(
 events
-)
 =
 >
 {

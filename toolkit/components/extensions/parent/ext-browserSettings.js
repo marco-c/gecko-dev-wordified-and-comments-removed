@@ -805,6 +805,7 @@ cacheEnabled
 >
 {
 return
+(
 Services
 .
 prefs
@@ -838,6 +839,7 @@ memory
 .
 enable
 "
+)
 )
 ;
 }
@@ -1596,6 +1598,7 @@ useDocumentFonts
 >
 {
 return
+(
 Services
 .
 prefs
@@ -1614,6 +1617,7 @@ use_document_fonts
 =
 =
 0
+)
 ;
 }
 )

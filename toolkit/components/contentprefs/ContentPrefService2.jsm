@@ -314,8 +314,10 @@ CACHE_MAX_GROUP_ENTRIES
 /
 2
 )
+{
 break
 ;
+}
 }
 }
 }
@@ -429,6 +431,7 @@ if
 !
 group
 )
+{
 throw
 new
 Error
@@ -449,6 +452,7 @@ URI
 "
 )
 ;
+}
 }
 catch
 (
@@ -602,6 +606,7 @@ _connPromise
 ;
 }
 return
+(
 this
 .
 _connPromise
@@ -665,6 +670,7 @@ conn
 )
 ;
 }
+)
 )
 ;
 }
@@ -909,6 +915,7 @@ grp
 name
 )
 )
+{
 cbHandleResult
 (
 callback
@@ -921,6 +928,7 @@ val
 )
 )
 ;
+}
 }
 onDone
 :
@@ -1213,6 +1221,7 @@ group
 name
 )
 )
+{
 cbHandleResult
 (
 callback
@@ -1225,6 +1234,7 @@ val
 )
 )
 ;
+}
 }
 onDone
 :
@@ -1246,6 +1256,7 @@ if
 !
 gotRow
 )
+{
 this
 .
 _cache
@@ -1257,6 +1268,7 @@ name
 undefined
 )
 ;
+}
 for
 (
 let
@@ -1654,6 +1666,7 @@ context
 .
 usePrivateBrowsing
 )
+{
 storesToCheck
 .
 push
@@ -1663,6 +1676,7 @@ this
 _pbStore
 )
 ;
+}
 let
 outStore
 =
@@ -2246,6 +2260,7 @@ if
 (
 ok
 )
+{
 this
 .
 _cache
@@ -2257,6 +2272,7 @@ name
 value
 )
 ;
+}
 cbHandleCompletion
 (
 callback
@@ -2267,6 +2283,7 @@ if
 (
 ok
 )
+{
 this
 .
 _notifyPrefSet
@@ -2282,6 +2299,7 @@ context
 usePrivateBrowsing
 )
 ;
+}
 }
 onError
 :
@@ -3726,6 +3744,7 @@ sname
 =
 name
 )
+{
 this
 .
 _cache
@@ -3736,6 +3755,7 @@ group
 name
 )
 ;
+}
 }
 let
 stmts
@@ -4313,9 +4333,11 @@ if
 !
 groupStr
 )
+{
 return
 null
 ;
+}
 try
 {
 var
@@ -4405,6 +4427,7 @@ _observers
 aName
 ]
 )
+{
 this
 .
 _observers
@@ -4415,6 +4438,7 @@ aName
 [
 ]
 ;
+}
 observers
 =
 this
@@ -4444,6 +4468,7 @@ includes
 aObserver
 )
 )
+{
 observers
 .
 push
@@ -4451,6 +4476,7 @@ push
 aObserver
 )
 ;
+}
 }
 removeObserverForName
 :
@@ -4479,8 +4505,10 @@ _observers
 aName
 ]
 )
+{
 return
 ;
+}
 observers
 =
 this
@@ -4509,6 +4537,7 @@ includes
 aObserver
 )
 )
+{
 observers
 .
 splice
@@ -4522,6 +4551,7 @@ aObserver
 1
 )
 ;
+}
 }
 _getObservers
 :
@@ -4549,6 +4579,7 @@ _observers
 aName
 ]
 )
+{
 observers
 =
 observers
@@ -4563,6 +4594,7 @@ aName
 ]
 )
 ;
+}
 observers
 =
 observers
@@ -5342,6 +5374,7 @@ synchronous
 "
 )
 )
+{
 await
 conn
 .
@@ -5355,6 +5388,7 @@ OFF
 "
 )
 ;
+}
 return
 conn
 ;
@@ -6112,15 +6146,14 @@ group
 |
 |
 typeof
-(
 group
-)
 !
 =
 "
 string
 "
 )
+{
 throw
 invalidArg
 (
@@ -6135,6 +6168,7 @@ string
 )
 ;
 }
+}
 function
 checkNameArg
 (
@@ -6148,15 +6182,14 @@ name
 |
 |
 typeof
-(
 name
-)
 !
 =
 "
 string
 "
 )
+{
 throw
 invalidArg
 (
@@ -6170,6 +6203,7 @@ string
 "
 )
 ;
+}
 }
 function
 checkValueArg
@@ -6185,6 +6219,7 @@ value
 =
 undefined
 )
+{
 throw
 invalidArg
 (
@@ -6198,6 +6233,7 @@ undefined
 "
 )
 ;
+}
 }
 function
 checkCallbackArg
@@ -6220,6 +6256,7 @@ Ci
 nsIContentPrefCallback2
 )
 )
+{
 throw
 invalidArg
 (
@@ -6233,6 +6270,7 @@ nsIContentPrefCallback2
 "
 )
 ;
+}
 if
 (
 !
@@ -6241,6 +6279,7 @@ callback
 &
 required
 )
+{
 throw
 invalidArg
 (
@@ -6253,6 +6292,7 @@ given
 "
 )
 ;
+}
 }
 function
 invalidArg

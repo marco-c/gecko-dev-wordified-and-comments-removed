@@ -1827,9 +1827,7 @@ theme
 {
 getCurrent
 :
-(
 windowId
-)
 =
 >
 {
@@ -1984,9 +1982,7 @@ theme_experiment
 }
 reset
 :
-(
 windowId
-)
 =
 >
 {

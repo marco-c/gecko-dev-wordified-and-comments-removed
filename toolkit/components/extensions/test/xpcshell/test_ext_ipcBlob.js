@@ -826,9 +826,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -845,9 +843,7 @@ file_sample
 html
 "
 ]
-"
 js
-"
 :
 [
 "
@@ -856,9 +852,7 @@ content_script_start
 js
 "
 ]
-"
 run_at
-"
 :
 "
 document_start

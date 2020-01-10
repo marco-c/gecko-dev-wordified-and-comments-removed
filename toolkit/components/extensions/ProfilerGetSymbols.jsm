@@ -269,9 +269,7 @@ worker
 .
 onmessage
 =
-(
 e
-)
 =
 >
 {

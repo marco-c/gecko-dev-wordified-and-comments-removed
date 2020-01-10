@@ -295,9 +295,7 @@ name
 "
 foo
 "
-"
 value
-"
 :
 "
 baz
@@ -329,9 +327,7 @@ name
 "
 bar
 "
-"
 value
-"
 :
 "
 quux
@@ -617,9 +613,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 options
 .

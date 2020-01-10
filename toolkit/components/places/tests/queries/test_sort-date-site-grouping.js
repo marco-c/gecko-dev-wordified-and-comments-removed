@@ -407,7 +407,6 @@ testData
 let
 isLinux
 =
-(
 "
 mozilla
 .
@@ -423,14 +422,15 @@ service
 "
 in
 Cc
-)
 ;
 if
 (
 isLinux
 )
+{
 return
 ;
+}
 let
 roots
 =
@@ -669,6 +669,7 @@ j
 +
 +
 )
+{
 roots
 [
 i
@@ -681,6 +682,7 @@ containerOpen
 =
 false
 ;
+}
 }
 root
 .

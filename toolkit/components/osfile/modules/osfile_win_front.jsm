@@ -1628,7 +1628,6 @@ ERROR_PATH_NOT_FOUND
 {
 if
 (
-(
 !
 (
 "
@@ -1642,7 +1641,6 @@ options
 options
 .
 ignoreAbsent
-)
 )
 {
 return
@@ -1891,13 +1889,11 @@ return
 }
 if
 (
-(
 "
 ignoreExisting
 "
 in
 options
-)
 &
 &
 !
@@ -3225,12 +3221,14 @@ win_entry
 .
 ftLastWriteTime
 )
+{
 throw
 new
 TypeError
 (
 )
 ;
+}
 let
 isDir
 =

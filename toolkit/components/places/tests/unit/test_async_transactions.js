@@ -247,8 +247,10 @@ has
 aGuid
 )
 )
+{
 return
 ;
+}
 this
 .
 itemsRemoved
@@ -294,8 +296,10 @@ has
 aGuid
 )
 )
+{
 return
 ;
+}
 let
 changesForGuid
 =
@@ -612,6 +616,7 @@ PT
 .
 length
 )
+{
 Assert
 .
 equal
@@ -629,7 +634,9 @@ undoPosition
 )
 )
 ;
+}
 else
+{
 Assert
 .
 equal
@@ -640,6 +647,7 @@ PT
 topUndoEntry
 )
 ;
+}
 if
 (
 PT
@@ -648,6 +656,7 @@ undoPosition
 >
 0
 )
+{
 Assert
 .
 equal
@@ -667,7 +676,9 @@ undoPosition
 )
 )
 ;
+}
 else
+{
 Assert
 .
 equal
@@ -678,6 +689,7 @@ PT
 topRedoEntry
 )
 ;
+}
 }
 function
 getTransactionsHistoryState
@@ -966,6 +978,7 @@ propName
 in
 item
 )
+{
 Assert
 .
 equal
@@ -981,6 +994,7 @@ propName
 )
 ;
 }
+}
 if
 (
 "
@@ -989,6 +1003,7 @@ url
 in
 item
 )
+{
 Assert
 .
 ok
@@ -1026,6 +1041,7 @@ url
 "
 )
 ;
+}
 }
 Assert
 .
@@ -1077,9 +1093,7 @@ items
 if
 (
 typeof
-(
 item
-)
 =
 =
 "
@@ -1200,6 +1214,7 @@ index
 in
 item
 )
+{
 Assert
 .
 equal
@@ -1212,6 +1227,7 @@ item
 index
 )
 ;
+}
 }
 }
 Assert
@@ -1340,6 +1356,7 @@ url
 in
 item
 )
+{
 Assert
 .
 ok
@@ -1356,6 +1373,7 @@ url
 )
 )
 ;
+}
 }
 }
 function
@@ -1564,6 +1582,7 @@ if
 (
 aCheckDateAdded
 )
+{
 Assert
 .
 ok
@@ -1578,6 +1597,7 @@ dateAdded
 )
 )
 ;
+}
 Assert
 .
 ok
@@ -1972,6 +1992,7 @@ aOriginal
 .
 lastModified
 )
+{
 Assert
 .
 ok
@@ -1982,7 +2003,9 @@ aNew
 lastModified
 )
 ;
+}
 else
+{
 Assert
 .
 ok
@@ -1998,6 +2021,7 @@ lastModified
 )
 )
 ;
+}
 }
 else
 if
@@ -2145,14 +2169,12 @@ Assert
 .
 strictEqual
 (
-(
 await
 PlacesUtils
 .
 promiseBookmarksTree
 (
 guid
-)
 )
 null
 )
@@ -2797,12 +2819,14 @@ if
 (
 aRedo
 )
+{
 await
 ensureBookmarksTreeRestoredCorrectly
 (
 originalInfo
 )
 ;
+}
 observer
 .
 reset
@@ -8158,6 +8182,7 @@ has
 url
 )
 )
+{
 Assert
 .
 ok
@@ -8176,7 +8201,9 @@ url
 )
 )
 ;
+}
 else
+{
 Assert
 .
 ok
@@ -8192,6 +8219,7 @@ url
 )
 )
 ;
+}
 }
 }
 await
@@ -8541,9 +8569,7 @@ tagsRemoved
 if
 (
 typeof
-(
 aInfo
-)
 =
 =
 "
@@ -9923,6 +9949,7 @@ count
 =
 0
 )
+{
 Assert
 .
 ok
@@ -9937,7 +9964,9 @@ tree
 )
 )
 ;
+}
 else
+{
 Assert
 .
 equal
@@ -9950,6 +9979,7 @@ length
 count
 )
 ;
+}
 }
 ;
 await
@@ -10008,14 +10038,12 @@ Assert
 .
 equal
 (
-(
 await
 PlacesUtils
 .
 promiseBookmarksTree
 (
 folderGuid
-)
 )
 null
 )

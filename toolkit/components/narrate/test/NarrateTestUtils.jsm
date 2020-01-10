@@ -661,14 +661,10 @@ let
 eventUtils
 =
 {
-"
 _EU_Ci
-"
 :
 Ci
-"
 _EU_Cc
-"
 :
 Cc
 window

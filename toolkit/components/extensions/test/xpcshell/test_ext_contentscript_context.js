@@ -194,9 +194,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -212,9 +210,7 @@ dummy
 *
 "
 ]
-"
 js
-"
 :
 [
 "
@@ -223,9 +219,7 @@ content_script
 js
 "
 ]
-"
 run_at
-"
 :
 "
 document_start
@@ -658,9 +652,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -675,9 +667,7 @@ com
 dummy
 "
 ]
-"
 js
-"
 :
 [
 "
@@ -686,9 +676,7 @@ content_script
 js
 "
 ]
-"
 run_at
-"
 :
 "
 document_start
@@ -1521,9 +1509,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -1539,9 +1525,7 @@ dummy
 *
 "
 ]
-"
 js
-"
 :
 [
 "
@@ -1609,9 +1593,7 @@ context
 let
 checkContextIsValid
 =
-(
 description
-)
 =
 >
 {

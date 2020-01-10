@@ -315,6 +315,7 @@ combi
 .
 cacheControl
 )
+{
 url
 +
 =
@@ -326,6 +327,7 @@ combi
 .
 cacheControl
 ;
+}
 Services
 .
 prefs
@@ -369,6 +371,7 @@ aResult
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -379,6 +382,7 @@ addTab
 (
 gBrowser
 url
+)
 )
 ;
 let
@@ -424,9 +428,7 @@ PageThumbs
 shouldStoreThumbnail
 (
 browser
-(
 aIsSafeSite
-)
 =
 >
 {

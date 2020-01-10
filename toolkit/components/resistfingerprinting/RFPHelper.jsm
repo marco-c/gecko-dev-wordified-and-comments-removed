@@ -760,10 +760,8 @@ substr
 "
 en
 "
-)
 &
 &
-(
 Services
 .
 prefs
@@ -1076,12 +1074,10 @@ prefs
 setIntPref
 (
 kPrefSpoofEnglish
-(
 response
 =
 =
 0
-)
 ?
 2
 :
@@ -1604,7 +1600,6 @@ undefined
 let
 findBarOffset
 =
-(
 findBar
 &
 &
@@ -1612,7 +1607,6 @@ findBar
 findBar
 .
 hidden
-)
 ?
 findBar
 .

@@ -546,9 +546,7 @@ redirectURI
 .
 catch
 (
-(
 requestError
-)
 =
 >
 {

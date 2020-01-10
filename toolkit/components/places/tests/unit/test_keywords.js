@@ -337,6 +337,7 @@ if
 (
 entry
 )
+{
 href
 =
 entry
@@ -345,6 +346,7 @@ url
 .
 href
 ;
+}
 }
 while
 (
@@ -497,8 +499,10 @@ property
 keyword
 "
 )
+{
 return
 ;
+}
 let
 args
 =
@@ -522,6 +526,7 @@ Ci
 .
 nsIURI
 )
+{
 return
 new
 URL
@@ -531,15 +536,14 @@ arg
 spec
 )
 ;
+}
 if
 (
 arg
 &
 &
 typeof
-(
 arg
-)
 =
 =
 "
@@ -558,6 +562,7 @@ now
 *
 1000
 )
+{
 return
 new
 Date
@@ -570,6 +575,7 @@ arg
 )
 )
 ;
+}
 return
 arg
 ;
@@ -597,12 +603,14 @@ name
 in
 target
 )
+{
 return
 target
 [
 name
 ]
 ;
+}
 return
 undefined
 ;
@@ -1559,7 +1567,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -1573,7 +1580,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -1629,7 +1635,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -1643,7 +1648,6 @@ example
 com
 /
 "
-)
 )
 fc
 )
@@ -1912,7 +1916,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -1921,7 +1924,6 @@ promiseItemId
 bookmark
 .
 guid
-)
 )
 "
 keyword
@@ -1938,7 +1940,6 @@ lastModified
 bookmark
 .
 type
-(
 await
 PlacesUtils
 .
@@ -1947,7 +1948,6 @@ promiseItemId
 bookmark
 .
 parentGuid
-)
 )
 bookmark
 .
@@ -1990,7 +1990,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -2004,7 +2003,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -2043,7 +2041,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -2052,7 +2049,6 @@ promiseItemId
 bookmark
 .
 guid
-)
 )
 "
 keyword
@@ -2068,7 +2064,6 @@ lastModified
 bookmark
 .
 type
-(
 await
 PlacesUtils
 .
@@ -2077,7 +2072,6 @@ promiseItemId
 bookmark
 .
 parentGuid
-)
 )
 bookmark
 .
@@ -2120,7 +2114,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -2134,7 +2127,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -2189,7 +2181,6 @@ guid
 ;
 while
 (
-(
 await
 foreign_count
 (
@@ -2205,8 +2196,8 @@ com
 "
 )
 )
-)
-;
+{
+}
 observer
 .
 check
@@ -2353,7 +2344,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -2367,7 +2357,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -2456,7 +2445,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -2470,7 +2458,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -2619,7 +2606,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -2633,7 +2619,6 @@ example
 com
 /
 "
-)
 )
 fc
 )
@@ -2757,7 +2742,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -2771,7 +2755,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -2821,7 +2804,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -2835,7 +2817,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -2870,7 +2851,6 @@ guid
 ;
 while
 (
-(
 await
 foreign_count
 (
@@ -2886,8 +2866,8 @@ com
 "
 )
 )
-)
-;
+{
+}
 observer
 .
 check
@@ -3084,7 +3064,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -3098,7 +3077,6 @@ example1
 com
 /
 "
-)
 )
 fc1
 +
@@ -3128,7 +3106,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -3142,7 +3119,6 @@ example2
 com
 /
 "
-)
 )
 fc2
 +
@@ -3198,7 +3174,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -3207,7 +3182,6 @@ promiseItemId
 bookmark1
 .
 guid
-)
 )
 "
 keyword
@@ -3223,7 +3197,6 @@ lastModified
 bookmark1
 .
 type
-(
 await
 PlacesUtils
 .
@@ -3232,7 +3205,6 @@ promiseItemId
 bookmark1
 .
 parentGuid
-)
 )
 bookmark1
 .
@@ -3258,7 +3230,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -3267,7 +3238,6 @@ promiseItemId
 bookmark2
 .
 guid
-)
 )
 "
 keyword
@@ -3284,7 +3254,6 @@ lastModified
 bookmark2
 .
 type
-(
 await
 PlacesUtils
 .
@@ -3293,7 +3262,6 @@ promiseItemId
 bookmark2
 .
 parentGuid
-)
 )
 bookmark2
 .
@@ -3336,7 +3304,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -3350,7 +3317,6 @@ example1
 com
 /
 "
-)
 )
 fc1
 +
@@ -3380,7 +3346,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -3394,7 +3359,6 @@ example2
 com
 /
 "
-)
 )
 fc2
 +
@@ -3433,7 +3397,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -3442,7 +3405,6 @@ promiseItemId
 bookmark2
 .
 guid
-)
 )
 "
 keyword
@@ -3458,7 +3420,6 @@ lastModified
 bookmark2
 .
 type
-(
 await
 PlacesUtils
 .
@@ -3467,7 +3428,6 @@ promiseItemId
 bookmark2
 .
 parentGuid
-)
 )
 bookmark2
 .
@@ -3529,7 +3489,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -3544,7 +3503,6 @@ com
 /
 "
 )
-)
 fc1
 +
 1
@@ -3553,7 +3511,6 @@ fc1
 Assert
 .
 equal
-(
 (
 await
 foreign_count
@@ -3568,7 +3525,6 @@ example2
 com
 /
 "
-)
 )
 fc2
 +
@@ -3599,7 +3555,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -3614,12 +3569,10 @@ com
 /
 "
 )
-)
 fc1
 )
 ;
 while
-(
 (
 await
 foreign_count
@@ -3636,8 +3589,8 @@ com
 "
 )
 )
-)
-;
+{
+}
 await
 check_no_orphans
 (
@@ -3763,7 +3716,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -3777,7 +3729,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -3798,7 +3749,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -3807,7 +3757,6 @@ promiseItemId
 bookmark
 .
 guid
-)
 )
 "
 keyword
@@ -3824,7 +3773,6 @@ lastModified
 bookmark
 .
 type
-(
 await
 PlacesUtils
 .
@@ -3833,7 +3781,6 @@ promiseItemId
 bookmark
 .
 parentGuid
-)
 )
 bookmark
 .
@@ -3929,7 +3876,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -3943,7 +3889,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -3964,7 +3909,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -3973,7 +3917,6 @@ promiseItemId
 bookmark
 .
 guid
-)
 )
 "
 keyword
@@ -3990,7 +3933,6 @@ lastModified
 bookmark
 .
 type
-(
 await
 PlacesUtils
 .
@@ -3999,7 +3941,6 @@ promiseItemId
 bookmark
 .
 parentGuid
-)
 )
 bookmark
 .
@@ -4031,7 +3972,6 @@ bookmark
 ;
 while
 (
-(
 await
 foreign_count
 (
@@ -4047,8 +3987,8 @@ com
 "
 )
 )
-)
-;
+{
+}
 await
 check_keyword
 (
@@ -4245,7 +4185,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -4259,7 +4198,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -4280,7 +4218,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -4289,7 +4226,6 @@ promiseItemId
 bookmark2
 .
 guid
-)
 )
 "
 keyword
@@ -4306,7 +4242,6 @@ lastModified
 bookmark2
 .
 type
-(
 await
 PlacesUtils
 .
@@ -4315,7 +4250,6 @@ promiseItemId
 bookmark2
 .
 parentGuid
-)
 )
 bookmark2
 .
@@ -4341,7 +4275,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -4350,7 +4283,6 @@ promiseItemId
 bookmark1
 .
 guid
-)
 )
 "
 keyword
@@ -4367,7 +4299,6 @@ lastModified
 bookmark1
 .
 type
-(
 await
 PlacesUtils
 .
@@ -4376,7 +4307,6 @@ promiseItemId
 bookmark1
 .
 parentGuid
-)
 )
 bookmark1
 .
@@ -4437,7 +4367,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -4451,7 +4380,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -4472,7 +4400,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -4481,7 +4408,6 @@ promiseItemId
 bookmark2
 .
 guid
-)
 )
 "
 keyword
@@ -4497,7 +4423,6 @@ lastModified
 bookmark2
 .
 type
-(
 await
 PlacesUtils
 .
@@ -4506,7 +4431,6 @@ promiseItemId
 bookmark2
 .
 parentGuid
-)
 )
 bookmark2
 .
@@ -4532,7 +4456,6 @@ onItemChanged
 arguments
 :
 [
-(
 await
 PlacesUtils
 .
@@ -4541,7 +4464,6 @@ promiseItemId
 bookmark1
 .
 guid
-)
 )
 "
 keyword
@@ -4557,7 +4479,6 @@ lastModified
 bookmark1
 .
 type
-(
 await
 PlacesUtils
 .
@@ -4566,7 +4487,6 @@ promiseItemId
 bookmark1
 .
 parentGuid
-)
 )
 bookmark1
 .
@@ -4610,7 +4530,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -4624,7 +4543,6 @@ example
 com
 /
 "
-)
 )
 fc
 )
@@ -4925,7 +4843,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -4939,7 +4856,6 @@ example1
 com
 /
 "
-)
 )
 fc1
 +
@@ -5034,7 +4950,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -5049,14 +4964,12 @@ com
 /
 "
 )
-)
 fc1
 )
 ;
 Assert
 .
 equal
-(
 (
 await
 foreign_count
@@ -5071,7 +4984,6 @@ example2
 com
 /
 "
-)
 )
 fc2
 +
@@ -5163,7 +5075,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -5177,7 +5088,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -5214,7 +5124,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -5228,7 +5137,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -5267,7 +5175,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -5281,7 +5188,6 @@ example
 com
 /
 "
-)
 )
 fc
 +
@@ -5385,7 +5291,6 @@ Assert
 .
 equal
 (
-(
 await
 foreign_count
 (
@@ -5399,7 +5304,6 @@ example
 com
 /
 "
-)
 )
 fc
 )

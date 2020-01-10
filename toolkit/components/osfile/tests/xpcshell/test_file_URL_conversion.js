@@ -78,7 +78,6 @@ jsm
 let
 isWindows
 =
-(
 "
 mozilla
 .
@@ -94,7 +93,6 @@ key
 "
 in
 Cc
-)
 ;
 let
 paths
@@ -175,7 +173,6 @@ C
 \
 \
 test
-\
 test
 "
 "
@@ -423,10 +420,9 @@ index
 "
 /
 test
-\
 test
 "
-'
+"
 /
 punctuation
 /
@@ -443,15 +439,15 @@ _
 !
 ~
 *
-\
 '
 (
 )
 [
 ]
+\
 "
 #
-'
+"
 "
 /
 CasePreserving

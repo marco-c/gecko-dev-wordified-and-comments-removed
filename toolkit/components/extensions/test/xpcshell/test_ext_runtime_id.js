@@ -57,15 +57,11 @@ loadExtension
 manifest
 :
 {
-"
 content_scripts
-"
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -84,9 +80,7 @@ file_sample
 html
 "
 ]
-"
 js
-"
 :
 [
 "

@@ -74,14 +74,10 @@ mozillaAddons
 properties
 :
 {
-"
 test
-"
 :
 {
-"
 type
-"
 :
 "
 any

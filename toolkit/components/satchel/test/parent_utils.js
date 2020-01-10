@@ -415,6 +415,7 @@ waitForCondition
 try
 {
 return
+(
 gAutocompletePopup
 .
 view
@@ -449,6 +450,7 @@ getValueAt
 =
 =
 expectedFirstValue
+)
 )
 ;
 }
@@ -527,6 +529,7 @@ waitForCondition
 >
 {
 return
+(
 gAutocompletePopup
 .
 popupOpen
@@ -539,6 +542,7 @@ selectedIndex
 =
 =
 expectedIndex
+)
 ;
 }
 "
@@ -804,9 +808,7 @@ addMessageListener
 "
 updateFormHistory
 "
-(
 msg
-)
 =
 >
 {

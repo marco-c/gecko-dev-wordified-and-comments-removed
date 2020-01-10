@@ -406,13 +406,11 @@ Assert
 .
 equal
 (
-(
 await
 task_add_visit
 (
 TEST_URI
 TRANSITION_TYPED
-)
 )
 placeId
 )
@@ -426,7 +424,6 @@ check_results
 Assert
 .
 equal
-(
 (
 await
 task_add_visit
@@ -434,7 +431,6 @@ task_add_visit
 TEST_URI
 TRANSITION_RELOAD
 )
-)
 placeId
 )
 ;
@@ -448,13 +444,11 @@ Assert
 .
 equal
 (
-(
 await
 task_add_visit
 (
 TEST_URI
 TRANSITION_DOWNLOAD
-)
 )
 placeId
 )

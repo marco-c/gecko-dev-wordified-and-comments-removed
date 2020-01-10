@@ -277,9 +277,7 @@ Assert
 equal
 (
 typeof
-(
 clientID
-)
 "
 string
 "
@@ -348,9 +346,7 @@ Assert
 equal
 (
 typeof
-(
 clientID
-)
 "
 string
 "
@@ -412,9 +408,7 @@ Assert
 equal
 (
 typeof
-(
 clientID
-)
 "
 string
 "
@@ -777,9 +771,7 @@ Assert
 equal
 (
 typeof
-(
 clientID
-)
 "
 string
 "
@@ -901,9 +893,7 @@ Assert
 equal
 (
 typeof
-(
 firstClientID
-)
 "
 string
 "
@@ -936,9 +926,7 @@ Assert
 equal
 (
 typeof
-(
 nextClientID
-)
 "
 string
 "

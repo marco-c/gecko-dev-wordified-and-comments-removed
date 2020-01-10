@@ -945,9 +945,11 @@ Cr
 .
 NS_ERROR_INVALID_POINTER
 )
+{
 throw
 ex
 ;
+}
 check_telemetry
 (
 expected

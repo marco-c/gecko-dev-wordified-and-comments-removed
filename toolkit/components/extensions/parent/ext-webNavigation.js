@@ -970,9 +970,7 @@ recipient
 .
 then
 (
-(
 results
-)
 =
 >
 results
@@ -1054,9 +1052,7 @@ recipient
 .
 then
 (
-(
 result
-)
 =
 >
 {

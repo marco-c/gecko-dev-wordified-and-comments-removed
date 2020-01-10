@@ -63,7 +63,6 @@ args
 )
 =
 >
-(
 BrowserTestUtils
 .
 withNewTab
@@ -79,7 +78,6 @@ async
 browser
 =
 >
-(
 testFunc
 (
 .
@@ -87,8 +85,6 @@ testFunc
 .
 args
 browser
-)
-)
 )
 )
 ;

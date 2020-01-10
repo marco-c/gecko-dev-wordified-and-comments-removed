@@ -113,9 +113,7 @@ loaded
 const
 processSnapshot
 =
-(
 snapshot
-)
 =
 >
 {
@@ -131,9 +129,7 @@ sum
 const
 processKeyedSnapshot
 =
-(
 snapshot
-)
 =
 >
 {
@@ -311,9 +307,7 @@ HISTOGRAM
 {
 processSnapshot
 :
-(
 snapshot
-)
 =
 >
 snapshot

@@ -97,9 +97,11 @@ Assert
 ok
 (
 !
+(
 await
 checkEmptyHistory
 (
+)
 )
 "
 History
@@ -728,9 +730,11 @@ Assert
 ok
 (
 !
+(
 await
 checkEmptyHistory
 (
+)
 )
 "
 History

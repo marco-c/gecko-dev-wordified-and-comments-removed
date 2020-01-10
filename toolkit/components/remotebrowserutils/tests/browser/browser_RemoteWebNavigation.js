@@ -875,8 +875,10 @@ if
 !
 gMultiProcessBrowser
 )
+{
 return
 ;
+}
 gBrowser
 .
 selectedTab

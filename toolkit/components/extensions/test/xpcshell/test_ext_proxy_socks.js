@@ -174,9 +174,7 @@ socket
 .
 onclose
 =
-(
 event
-)
 =
 >
 {
@@ -195,9 +193,7 @@ socket
 .
 ondata
 =
-(
 event
-)
 =
 >
 {
@@ -825,7 +821,7 @@ write
 (
 [
 0
-0x5A
+0x5a
 0
 0
 0
@@ -1656,9 +1652,7 @@ listener
 .
 onconnect
 =
-(
 event
-)
 =
 >
 {

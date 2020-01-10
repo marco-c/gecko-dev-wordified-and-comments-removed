@@ -218,7 +218,6 @@ round
 (
 MIN_RAND
 +
-(
 Math
 .
 random
@@ -229,7 +228,6 @@ random
 MAX_RAND
 -
 MIN_RAND
-)
 )
 )
 ;
@@ -287,6 +285,7 @@ randIndex
 -
 1
 )
+{
 do_throw
 (
 "
@@ -302,6 +301,7 @@ throw
 "
 )
 ;
+}
 bookmarks
 .
 push
@@ -323,6 +323,7 @@ randIndex
 -
 1
 )
+{
 do_throw
 (
 "
@@ -339,6 +340,7 @@ throw
 "
 )
 ;
+}
 }
 }
 await
@@ -376,7 +378,6 @@ round
 (
 MIN_RAND
 +
-(
 Math
 .
 random
@@ -387,7 +388,6 @@ random
 MAX_RAND
 -
 MIN_RAND
-)
 )
 )
 ;
@@ -431,6 +431,7 @@ randIndex
 -
 1
 )
+{
 do_throw
 (
 "
@@ -446,6 +447,7 @@ throw
 "
 )
 ;
+}
 bookmarks
 .
 push
@@ -467,6 +469,7 @@ randIndex
 -
 1
 )
+{
 do_throw
 (
 "
@@ -483,6 +486,7 @@ throw
 "
 )
 ;
+}
 }
 }
 await
@@ -518,7 +522,6 @@ round
 (
 MIN_RAND
 +
-(
 Math
 .
 random
@@ -529,7 +532,6 @@ random
 MAX_RAND
 -
 MIN_RAND
-)
 )
 )
 ;
@@ -580,6 +582,7 @@ randIndex
 -
 1
 )
+{
 do_throw
 (
 "
@@ -595,6 +598,7 @@ throw
 "
 )
 ;
+}
 bookmarks
 .
 push
@@ -616,6 +620,7 @@ randIndex
 -
 1
 )
+{
 do_throw
 (
 "
@@ -632,6 +637,7 @@ throw
 "
 )
 ;
+}
 }
 }
 await
@@ -780,7 +786,6 @@ round
 (
 MIN_RAND
 +
-(
 Math
 .
 random
@@ -791,7 +796,6 @@ random
 MAX_RAND
 -
 MIN_RAND
-)
 )
 )
 ;
@@ -840,6 +844,7 @@ newIndex
 -
 1
 )
+{
 do_throw
 (
 "
@@ -858,6 +863,7 @@ n
 )
 ;
 }
+}
 catch
 (
 ex
@@ -871,6 +877,7 @@ newIndex
 -
 1
 )
+{
 do_throw
 (
 "
@@ -889,6 +896,7 @@ n
 "
 )
 ;
+}
 }
 }
 await

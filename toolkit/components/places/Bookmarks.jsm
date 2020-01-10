@@ -130,9 +130,11 @@ if
 (
 gTagsFolderId
 )
+{
 return
 gTagsFolderId
 ;
+}
 let
 db
 =
@@ -172,6 +174,7 @@ tagsGuid
 )
 ;
 return
+(
 gTagsFolderId
 =
 rows
@@ -184,6 +187,7 @@ getResultByName
 "
 id
 "
+)
 )
 ;
 }
@@ -377,6 +381,7 @@ guid
 )
 {
 return
+(
 guid
 =
 =
@@ -415,6 +420,7 @@ PlacesUtils
 bookmarks
 .
 virtualMobileGuid
+)
 ;
 }
 getLocalizedTitle
@@ -793,6 +799,7 @@ if
 !
 parent
 )
+{
 throw
 new
 Error
@@ -805,6 +812,7 @@ valid
 "
 )
 ;
+}
 if
 (
 insertInfo
@@ -999,7 +1007,6 @@ for
 let
 entry
 of
-(
 await
 fetchBookmarksByURL
 (
@@ -1009,7 +1016,6 @@ concurrent
 :
 true
 }
-)
 )
 )
 {
@@ -1732,6 +1738,7 @@ fixup
 b
 =
 >
+(
 b
 .
 guid
@@ -1742,6 +1749,7 @@ history
 .
 makeGuid
 (
+)
 )
 ;
 insertInfo
@@ -1759,6 +1767,7 @@ fixup
 b
 =
 >
+(
 b
 .
 lastModified
@@ -1768,6 +1777,7 @@ b
 dateAdded
 =
 fallbackLastAdded
+)
 ;
 }
 try
@@ -2197,13 +2207,11 @@ TYPE_BOOKMARK
 {
 url
 =
-(
 item
 .
 url
 instanceof
 URL
-)
 ?
 item
 .
@@ -2449,6 +2457,7 @@ length
 <
 3
 )
+{
 throw
 new
 Error
@@ -2462,6 +2471,7 @@ update
 "
 )
 ;
+}
 return
 (
 async
@@ -2484,6 +2494,7 @@ if
 !
 item
 )
+{
 throw
 new
 Error
@@ -2499,6 +2510,7 @@ GUID
 "
 )
 ;
+}
 if
 (
 updateInfo
@@ -2520,6 +2532,7 @@ item
 .
 type
 )
+{
 throw
 new
 Error
@@ -2534,6 +2547,7 @@ changed
 "
 )
 ;
+}
 removeSameValueProperties
 (
 updateInfo
@@ -2882,6 +2896,7 @@ updateInfo
 parentGuid
 )
 )
+{
 throw
 new
 Error
@@ -2902,6 +2917,7 @@ descendants
 )
 ;
 }
+}
 parent
 =
 await
@@ -2921,6 +2937,7 @@ if
 !
 parent
 )
+{
 throw
 new
 Error
@@ -2936,6 +2953,7 @@ parentGuid
 "
 )
 ;
+}
 }
 if
 (
@@ -2986,6 +3004,7 @@ if
 !
 parent
 )
+{
 parent
 =
 await
@@ -3000,6 +3019,7 @@ parentGuid
 }
 )
 ;
+}
 if
 (
 updateInfo
@@ -3041,12 +3061,14 @@ item
 .
 parentGuid
 )
+{
 updateInfo
 .
 index
 -
 -
 ;
+}
 }
 }
 let
@@ -3441,7 +3463,6 @@ for
 let
 entry
 of
-(
 await
 fetchBookmarksByTags
 (
@@ -3459,7 +3480,6 @@ concurrent
 :
 true
 }
-)
 )
 )
 {
@@ -3963,6 +3983,7 @@ if
 !
 existingItem
 )
+{
 throw
 new
 Error
@@ -3978,6 +3999,7 @@ GUID
 "
 )
 ;
+}
 if
 (
 parentGuid
@@ -4080,6 +4102,7 @@ includes
 parentGuid
 )
 )
+{
 throw
 new
 Error
@@ -4099,6 +4122,7 @@ descendants
 "
 )
 ;
+}
 }
 }
 else
@@ -4679,6 +4703,7 @@ if
 !
 infos
 )
+{
 throw
 new
 Error
@@ -4693,6 +4718,7 @@ object
 "
 )
 ;
+}
 if
 (
 !
@@ -4707,9 +4733,7 @@ guidOrInfo
 if
 (
 typeof
-(
 guidOrInfo
-)
 !
 =
 "
@@ -4889,6 +4913,7 @@ if
 !
 item
 )
+{
 throw
 new
 Error
@@ -4905,6 +4930,7 @@ GUID
 "
 )
 ;
+}
 removeItems
 .
 push
@@ -5021,7 +5047,6 @@ for
 let
 entry
 of
-(
 await
 fetchBookmarksByURL
 (
@@ -5031,7 +5056,6 @@ concurrent
 :
 true
 }
-)
 )
 )
 {
@@ -5329,11 +5353,9 @@ number
 "
 |
 |
-(
 numberOfItems
 %
 1
-)
 !
 =
 =
@@ -5411,6 +5433,7 @@ onResult
 function
 "
 )
+{
 throw
 new
 Error
@@ -5426,6 +5449,7 @@ function
 "
 )
 ;
+}
 let
 info
 =
@@ -5436,6 +5460,7 @@ if
 !
 info
 )
+{
 throw
 new
 Error
@@ -5450,12 +5475,11 @@ object
 "
 )
 ;
+}
 if
 (
 typeof
-(
 info
-)
 !
 =
 "
@@ -5622,11 +5646,13 @@ fn
 )
 =
 >
+(
 old
 +
 fn
 (
 info
+)
 )
 |
 0
@@ -5640,6 +5666,7 @@ conditionsCount
 =
 1
 )
+{
 throw
 new
 Error
@@ -5655,6 +5682,7 @@ conditionsCount
 }
 )
 ;
+}
 }
 options
 =
@@ -5737,12 +5765,11 @@ validIf
 b
 =
 >
-typeof
 (
+typeof
 b
 .
 index
-)
 =
 =
 "
@@ -5756,6 +5783,7 @@ index
 >
 =
 0
+)
 |
 |
 b
@@ -5925,9 +5953,11 @@ if
 !
 results
 )
+{
 return
 null
 ;
+}
 if
 (
 !
@@ -5938,12 +5968,14 @@ isArray
 results
 )
 )
+{
 results
 =
 [
 results
 ]
 ;
+}
 results
 =
 results
@@ -6213,6 +6245,7 @@ orderedChildrenGuids
 .
 length
 )
+{
 throw
 new
 Error
@@ -6230,6 +6263,7 @@ GUIDs
 "
 )
 ;
+}
 try
 {
 orderedChildrenGuids
@@ -6352,6 +6386,7 @@ this
 .
 TYPE_FOLDER
 )
+{
 throw
 new
 Error
@@ -6368,6 +6403,7 @@ GUID
 "
 )
 ;
+}
 let
 sortedChildren
 =
@@ -6632,13 +6668,11 @@ string
 "
 |
 |
-(
 query
 .
 url
 instanceof
 URL
-)
 )
 {
 query
@@ -6762,7 +6796,6 @@ skipDescendantsOnItemRemoval
 &
 &
 !
-(
 PlacesUtils
 .
 bookmarks
@@ -6774,7 +6807,6 @@ includes
 information
 .
 parentGuid
-)
 )
 )
 {
@@ -7746,6 +7778,7 @@ if
 !
 hasExistingGuid
 )
+{
 item
 .
 guid
@@ -7758,6 +7791,7 @@ makeGuid
 (
 )
 ;
+}
 let
 isTagging
 =
@@ -12144,12 +12178,14 @@ prop
 guid
 "
 )
+{
 delete
 dest
 [
 prop
 ]
 ;
+}
 }
 }
 function
@@ -12239,6 +12275,7 @@ if
 (
 value
 )
+{
 item
 [
 prop
@@ -12251,6 +12288,7 @@ toDate
 value
 )
 ;
+}
 }
 let
 parentGuid
@@ -13352,13 +13390,11 @@ for
 let
 entry
 of
-(
 await
 fetchBookmarksByURL
 (
 item
 true
-)
 )
 )
 {
@@ -13988,10 +14024,12 @@ array
 slice
 (
 startIndex
+(
 startIndex
 +
 =
 chunkLength
+)
 )
 ;
 }

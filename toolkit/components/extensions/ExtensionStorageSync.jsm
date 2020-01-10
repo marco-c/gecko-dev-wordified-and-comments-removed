@@ -1512,6 +1512,7 @@ outdated
 "
 ;
 return
+(
 exc
 &
 &
@@ -1527,7 +1528,6 @@ message
 indexOf
 &
 &
-(
 exc
 .
 message
@@ -1673,6 +1673,7 @@ match
 )
 {
 return
+(
 "
 _
 "
@@ -1696,6 +1697,7 @@ toUpperCase
 "
 _
 "
+)
 ;
 }
 return
@@ -3918,7 +3920,7 @@ throwIfNoFxA
 this
 .
 _fxaService
-"
+'
 use
 of
 chrome
@@ -3926,12 +3928,10 @@ chrome
 storage
 .
 sync
-\
 "
 keyring
-\
 "
-"
+'
 )
 ;
 const
@@ -4038,19 +4038,17 @@ throwIfNoFxA
 this
 .
 _fxaService
-"
+'
 syncing
 chrome
 .
 storage
 .
 sync
-\
 "
 keyring
-\
 "
-"
+'
 )
 ;
 try

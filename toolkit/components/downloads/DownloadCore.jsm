@@ -367,7 +367,6 @@ aValue
 "
 string
 "
-)
 |
 |
 (
@@ -385,6 +384,7 @@ charAt
 "
 in
 aValue
+)
 )
 ;
 }
@@ -2454,6 +2454,7 @@ Math
 .
 floor
 (
+(
 this
 .
 currentBytes
@@ -2461,6 +2462,7 @@ currentBytes
 this
 .
 totalBytes
+)
 *
 100
 )
@@ -2602,14 +2604,12 @@ aHasPartialData
 let
 changeMade
 =
-(
 this
 .
 hasPartialData
 !
 =
 aHasPartialData
-)
 ;
 this
 .
@@ -2699,6 +2699,7 @@ let
 rawSpeed
 =
 (
+(
 aCurrentBytes
 -
 this
@@ -2707,6 +2708,7 @@ currentBytes
 )
 /
 intervalMs
+)
 *
 1000
 ;
@@ -2785,6 +2787,7 @@ Math
 .
 floor
 (
+(
 this
 .
 currentBytes
@@ -2792,6 +2795,7 @@ currentBytes
 this
 .
 totalBytes
+)
 *
 100
 )
@@ -2972,6 +2976,7 @@ getSerializationHash
 )
 {
 return
+(
 this
 .
 stopped
@@ -2996,6 +3001,7 @@ hasPartialData
 this
 .
 contentType
+)
 ;
 }
 }
@@ -4073,7 +4079,7 @@ this
 .
 result
 &
-0x7FFF0000
+0x7fff0000
 )
 >
 >
@@ -4086,23 +4092,19 @@ this
 .
 becauseSourceFailed
 =
-(
 module
 =
 =
 NS_ERROR_MODULE_NETWORK
-)
 ;
 this
 .
 becauseTargetFailed
 =
-(
 module
 =
 =
 NS_ERROR_MODULE_FILES
-)
 ;
 }
 else
@@ -5362,11 +5364,9 @@ aProgressMax
 -
 1
 :
-(
 resumeFromBytes
 +
 aProgressMax
-)
 ;
 aSetProgressBytesFn
 (
@@ -6135,6 +6135,7 @@ if
 canRemoveFinalTarget
 |
 |
+(
 await
 isPlaceholder
 (
@@ -6145,6 +6146,7 @@ download
 target
 .
 path
+)
 )
 )
 {

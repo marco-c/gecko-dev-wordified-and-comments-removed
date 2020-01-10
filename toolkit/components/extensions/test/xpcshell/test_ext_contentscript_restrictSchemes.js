@@ -45,9 +45,7 @@ content_scripts
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -62,9 +60,7 @@ file_sample
 html
 "
 ]
-"
 js
-"
 :
 [
 "
@@ -73,9 +69,7 @@ content_script
 js
 "
 ]
-"
 run_at
-"
 :
 "
 document_start

@@ -3,7 +3,6 @@ var
 FormHistory
 }
 =
-(
 ChromeUtils
 .
 import
@@ -21,7 +20,6 @@ FormHistory
 .
 jsm
 "
-)
 )
 ;
 add_task
@@ -127,11 +125,13 @@ Promise
 resolve
 =
 >
+(
 doneCounting
 .
 resolve
 =
 resolve
+)
 )
 ;
 FormHistory
