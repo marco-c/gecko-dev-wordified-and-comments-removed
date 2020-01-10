@@ -4017,8 +4017,6 @@ prefs
 getBoolPref
 (
 "
-mozilla
-.
 widget
 .
 disable
