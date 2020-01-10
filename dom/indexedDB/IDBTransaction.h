@@ -152,13 +152,6 @@ indexedDB
 :
 BackgroundRequestChild
 ;
-class
-WorkerHolder
-;
-friend
-class
-WorkerHolder
-;
 public
 :
 enum
