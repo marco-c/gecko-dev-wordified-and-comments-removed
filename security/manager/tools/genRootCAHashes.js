@@ -1639,9 +1639,6 @@ Usage
 genRootCAHashes
 .
 js
-"
-+
-"
 <
 absolute
 path

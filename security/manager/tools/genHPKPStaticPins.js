@@ -1673,9 +1673,6 @@ parse
 Chrome
 certificate
 file
-"
-+
-"
 line
 :
 "

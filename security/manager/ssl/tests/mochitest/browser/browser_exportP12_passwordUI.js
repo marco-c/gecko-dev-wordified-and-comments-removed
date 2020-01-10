@@ -584,7 +584,6 @@ value
 testCase
 .
 strength
-"
 Actual
 and
 expected
@@ -593,8 +592,6 @@ value
 should
 match
 for
-"
-+
 {
 testCase
 .
