@@ -32,13 +32,6 @@ c
 #
 include
 "
-pshpic
-.
-c
-"
-#
-include
-"
 pshrec
 .
 c

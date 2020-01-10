@@ -50,7 +50,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_cidobjs
+cidobjs
 FT_LOCAL_DEF
 (
 void

@@ -38,7 +38,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_cache
+cache
 #
 define
 FTC_HASH_MAX_LOAD

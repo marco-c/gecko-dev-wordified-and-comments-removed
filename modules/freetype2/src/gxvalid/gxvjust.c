@@ -21,7 +21,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvjust
+gxvjust
 typedef
 struct
 GXV_just_DataRec_
@@ -68,6 +68,11 @@ GXV_Validator
 gxvalid
 )
 {
+FT_UNUSED
+(
+msg_tag
+)
+;
 if
 (
 gid

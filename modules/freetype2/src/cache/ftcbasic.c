@@ -52,7 +52,7 @@ h
 #
 define
 FT_COMPONENT
-trace_cache
+cache
 typedef
 struct
 FTC_BasicAttrRec_

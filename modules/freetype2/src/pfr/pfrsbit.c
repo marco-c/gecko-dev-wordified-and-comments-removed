@@ -31,7 +31,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_pfr
+pfr
 typedef
 struct
 PFR_BitWriter_

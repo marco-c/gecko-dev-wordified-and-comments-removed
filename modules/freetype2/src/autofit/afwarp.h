@@ -93,6 +93,9 @@ AF_WarperRec
 *
 AF_Warper
 ;
+#
+ifdef
+AF_CONFIG_OPTION_USE_WARPER
 FT_LOCAL
 (
 void
@@ -108,11 +111,13 @@ dim
 FT_Fixed
 *
 a_scale
-FT_Fixed
+FT_Pos
 *
 a_delta
 )
 ;
+#
+endif
 FT_END_HEADER
 #
 endif

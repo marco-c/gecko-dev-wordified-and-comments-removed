@@ -796,9 +796,7 @@ font
 >
 hinted
 =
-(
-FT_Bool
-)
+FT_BOOL
 (
 font
 -
@@ -931,9 +929,7 @@ font
 >
 stemDarkened
 =
-(
-FT_Bool
-)
+FT_BOOL
 (
 font
 -

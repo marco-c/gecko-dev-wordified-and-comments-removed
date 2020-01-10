@@ -47,7 +47,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_cache
+cache
 #
 define
 FTC_CMAP_INDICES_MAX

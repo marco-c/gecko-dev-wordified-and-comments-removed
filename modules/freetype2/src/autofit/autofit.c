@@ -88,13 +88,6 @@ c
 #
 include
 "
-afpic
-.
-c
-"
-#
-include
-"
 afranges
 .
 c

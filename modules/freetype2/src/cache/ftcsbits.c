@@ -44,7 +44,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_cache
+cache
 static
 FT_Error
 ftc_sbit_copy_bitmap

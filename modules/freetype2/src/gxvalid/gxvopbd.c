@@ -18,7 +18,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvopbd
+gxvopbd
 typedef
 struct
 GXV_opbd_DataRec_

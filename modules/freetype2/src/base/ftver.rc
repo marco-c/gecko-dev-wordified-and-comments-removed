@@ -108,7 +108,12 @@ DLLs
 /
 *
 Copyright
+(
+C
+)
 2018
+-
+2019
 by
 *
 /
@@ -292,8 +297,8 @@ h
 define
 FT_VERSION
 2
-9
-1
+10
+0
 0
 #
 define
@@ -301,9 +306,9 @@ FT_VERSION_STR
 "
 2
 .
-9
+10
 .
-1
+0
 "
 VS_VERSION_INFO
 VERSIONINFO
@@ -322,7 +327,7 @@ VS_FF_DEBUG
 endif
 #
 ifdef
-_DLL
+DLL_EXPORT
 FILETYPE
 VFT_DLL
 #
@@ -401,6 +406,8 @@ LegalCopyright
 \
 251
 2018
+-
+2019
 The
 FreeType
 Project

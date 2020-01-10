@@ -123,7 +123,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_io
+io
 #
 define
 STREAM_FILE

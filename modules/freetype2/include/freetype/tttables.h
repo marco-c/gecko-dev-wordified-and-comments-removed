@@ -85,13 +85,13 @@ Flags
 FT_UShort
 Units_Per_EM
 ;
-FT_Long
+FT_ULong
 Created
 [
 2
 ]
 ;
-FT_Long
+FT_ULong
 Modified
 [
 2

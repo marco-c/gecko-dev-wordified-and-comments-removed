@@ -24,7 +24,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvkern
+gxvkern
 typedef
 enum
 GXV_kern_Version_

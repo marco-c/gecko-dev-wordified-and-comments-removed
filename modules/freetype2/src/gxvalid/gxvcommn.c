@@ -11,7 +11,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvcommon
+gxvcommon
 static
 int
 gxv_compare_ushort_offset
@@ -1302,7 +1302,7 @@ gxv_lookup_value_load
 (
 FT_Bytes
 p
-int
+GXV_LookupValue_SignSpec
 signspec
 )
 {

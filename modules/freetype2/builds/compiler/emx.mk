@@ -9,9 +9,12 @@ definitions
 #
 #
 Copyright
+(
+C
+)
 2003
 -
-2018
+2019
 by
 #
 David

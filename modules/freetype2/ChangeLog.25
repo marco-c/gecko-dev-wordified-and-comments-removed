@@ -24492,7 +24492,7 @@ for
 this
 file
 is
-http
+https
 :
 /
 /
@@ -34637,7 +34637,7 @@ for
 cppcheck
 nitpicks
 .
-http
+https
 :
 /
 /
@@ -36756,9 +36756,12 @@ code
 -
 -
 Copyright
+(
+C
+)
 2013
 -
-2018
+2019
 by
 David
 Turner

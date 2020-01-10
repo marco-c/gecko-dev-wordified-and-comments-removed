@@ -18,7 +18,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvprop
+gxvprop
 #
 define
 GXV_PROP_HEADER_SIZE

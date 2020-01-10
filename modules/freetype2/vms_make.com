@@ -7,9 +7,12 @@ OpenVMS
 !
 !
 Copyright
+(
+C
+)
 2003
 -
-2018
+2019
 by
 !
 David
@@ -4954,7 +4957,7 @@ deck
 #
 FreeType
 2
-PSNames
+psnames
 driver
 compilation
 rules

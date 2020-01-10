@@ -25,7 +25,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_otvgpos
+otvgpos
 static
 void
 otv_Anchor_validate

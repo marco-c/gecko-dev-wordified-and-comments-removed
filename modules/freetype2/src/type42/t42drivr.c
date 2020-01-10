@@ -40,7 +40,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_t42
+t42
 static
 FT_Error
 t42_get_glyph_name

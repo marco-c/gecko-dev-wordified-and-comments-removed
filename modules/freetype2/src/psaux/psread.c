@@ -182,9 +182,7 @@ buf
 )
 {
 return
-(
-FT_Bool
-)
+FT_BOOL
 (
 buf
 -

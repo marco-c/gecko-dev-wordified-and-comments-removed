@@ -8,9 +8,12 @@ sh
 e
 #
 Copyright
+(
+C
+)
 2015
 -
-2018
+2019
 by
 #
 David

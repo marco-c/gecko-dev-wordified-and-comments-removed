@@ -8,9 +8,12 @@ Jamfile
 #
 #
 Copyright
+(
+C
+)
 2001
 -
-2018
+2019
 by
 #
 David
@@ -103,6 +106,8 @@ sfntpic
 sfobjs
 ttbdf
 ttcmap
+ttcolr
+ttcpal
 ttkern
 ttload
 ttmtx

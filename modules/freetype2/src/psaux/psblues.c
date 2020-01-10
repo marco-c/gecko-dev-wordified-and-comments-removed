@@ -35,7 +35,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_cf2blues
+cf2blues
 #
 define
 cf2_blueToFixed

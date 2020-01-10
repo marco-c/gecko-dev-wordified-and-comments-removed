@@ -526,6 +526,16 @@ h
 >
 #
 define
+FT_COLOR_H
+<
+freetype
+/
+ftcolor
+.
+h
+>
+#
+define
 FT_ERROR_DEFINITIONS_H
 <
 freetype

@@ -34,7 +34,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_cidparse
+cidparse
 #
 define
 STARTDATA

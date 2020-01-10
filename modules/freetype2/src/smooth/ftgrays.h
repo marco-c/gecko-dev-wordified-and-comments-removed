@@ -35,9 +35,6 @@ h
 >
 #
 include
-FT_CONFIG_CONFIG_H
-#
-include
 FT_IMAGE_H
 #
 endif

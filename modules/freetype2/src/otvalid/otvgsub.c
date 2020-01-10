@@ -18,7 +18,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_otvgsub
+otvgsub
 static
 void
 otv_SingleSubst_validate

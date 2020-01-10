@@ -39,13 +39,6 @@ c
 #
 include
 "
-cffpic
-.
-c
-"
-#
-include
-"
 cffload
 .
 c

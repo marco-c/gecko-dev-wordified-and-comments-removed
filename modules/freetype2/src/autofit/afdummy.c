@@ -98,6 +98,8 @@ hints
 FT_Outline
 *
 outline
+AF_StyleMetrics
+metrics
 )
 {
 FT_Error
@@ -106,6 +108,11 @@ error
 FT_UNUSED
 (
 glyph_index
+)
+;
+FT_UNUSED
+(
+metrics
 )
 ;
 error

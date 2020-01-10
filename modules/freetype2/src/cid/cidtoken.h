@@ -68,6 +68,15 @@ UIDBase
 uid_base
 0
 )
+T1_FIELD_NUM_TABLE
+(
+"
+XUID
+"
+xuid
+16
+0
+)
 T1_FIELD_NUM
 (
 "

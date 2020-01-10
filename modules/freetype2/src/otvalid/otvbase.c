@@ -18,7 +18,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_otvbase
+otvbase
 static
 void
 otv_BaseCoord_validate

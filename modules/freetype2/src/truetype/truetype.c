@@ -46,13 +46,6 @@ c
 #
 include
 "
-ttpic
-.
-c
-"
-#
-include
-"
 ttpload
 .
 c

@@ -26,7 +26,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_psprops
+psprops
 FT_BASE_CALLBACK_DEF
 (
 FT_Error

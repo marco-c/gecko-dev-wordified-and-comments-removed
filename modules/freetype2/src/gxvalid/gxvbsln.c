@@ -18,7 +18,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvbsln
+gxvbsln
 #
 define
 GXV_BSLN_VALUE_COUNT

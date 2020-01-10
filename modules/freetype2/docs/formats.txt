@@ -1561,7 +1561,7 @@ section
 .
 4
 .
-http
+https
 :
 /
 /
@@ -1571,7 +1571,7 @@ etsi
 .
 org
 /
-http
+https
 :
 /
 /
@@ -1814,9 +1814,12 @@ kb
 -
 -
 Copyright
+(
+C
+)
 2004
 -
-2018
+2019
 by
 David
 Turner

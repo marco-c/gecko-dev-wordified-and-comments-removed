@@ -47,7 +47,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvmodule
+gxvmodule
 static
 FT_Error
 gxv_load_table

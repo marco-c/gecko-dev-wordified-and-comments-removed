@@ -37,7 +37,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_ttbdf
+ttbdf
 FT_LOCAL_DEF
 (
 void

@@ -19,9 +19,12 @@ mode
 #
 #
 Copyright
+(
+C
+)
 1996
 -
-2018
+2019
 by
 #
 David

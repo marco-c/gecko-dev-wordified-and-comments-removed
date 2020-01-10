@@ -17,13 +17,6 @@ FT_INTERNAL_RFORK_H
 #
 include
 "
-basepic
-.
-h
-"
-#
-include
-"
 ftbase
 .
 h
@@ -34,7 +27,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_raccess
+raccess
 FT_BASE_DEF
 (
 FT_Error
@@ -1705,14 +1698,12 @@ errors
 i
 ]
 =
-(
-FT_RACCESS_GUESS_TABLE_GET
+ft_raccess_guess_table
 [
 i
 ]
 .
 func
-)
 (
 library
 stream
@@ -1776,7 +1767,7 @@ return
 FT_RFork_Rule_invalid
 ;
 return
-FT_RACCESS_GUESS_TABLE_GET
+ft_raccess_guess_table
 [
 rule_index
 ]

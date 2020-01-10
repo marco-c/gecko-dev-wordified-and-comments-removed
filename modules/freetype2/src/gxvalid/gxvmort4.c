@@ -11,7 +11,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvmort
+gxvmort
 static
 void
 gxv_mort_subtable_type4_lookupval_validate

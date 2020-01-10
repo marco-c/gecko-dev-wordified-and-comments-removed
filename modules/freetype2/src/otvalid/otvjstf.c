@@ -25,7 +25,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_otvjstf
+otvjstf
 #
 define
 JstfPriorityFunc

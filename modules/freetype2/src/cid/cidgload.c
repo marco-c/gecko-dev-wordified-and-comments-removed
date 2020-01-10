@@ -53,7 +53,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_cidgload
+cidgload
 FT_CALLBACK_DEF
 (
 FT_Error
@@ -1492,16 +1492,9 @@ no_recurse
 =
 FT_BOOL
 (
-(
-(
 load_flags
 &
 FT_LOAD_NO_RECURSE
-)
-!
-=
-0
-)
 )
 ;
 error

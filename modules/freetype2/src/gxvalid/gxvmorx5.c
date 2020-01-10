@@ -11,7 +11,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvmorx
+gxvmorx
 typedef
 struct
 GXV_morx_subtable_type5_StateOptRec_

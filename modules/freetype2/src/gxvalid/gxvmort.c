@@ -18,7 +18,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvmort
+gxvmort
 static
 void
 gxv_mort_feature_validate
@@ -399,6 +399,11 @@ gxvalid
 FT_UNUSED
 (
 gxvalid
+)
+;
+FT_UNUSED
+(
+coverage
 )
 ;
 #

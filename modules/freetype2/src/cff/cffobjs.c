@@ -70,13 +70,6 @@ h
 #
 include
 "
-cffpic
-.
-h
-"
-#
-include
-"
 cfferrs
 .
 h
@@ -93,7 +86,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_cffobjs
+cffobjs
 static
 PSH_Globals_Funcs
 cff_size_get_globals_funcs
@@ -2665,7 +2658,7 @@ n
 "
 without
 the
-PSNames
+psnames
 '
 module
 \
@@ -4599,7 +4592,7 @@ error
 FT_CMap_New
 (
 &
-CFF_CMAP_UNICODE_CLASS_REC_GET
+cff_cmap_unicode_class_rec
 NULL
 &
 cmaprec
@@ -4615,6 +4608,13 @@ FT_ERR_NEQ
 (
 error
 No_Unicode_Glyph_Name
+)
+&
+&
+FT_ERR_NEQ
+(
+error
+Unimplemented_Feature
 )
 )
 goto
@@ -4710,7 +4710,7 @@ FT_ENCODING_ADOBE_STANDARD
 clazz
 =
 &
-CFF_CMAP_ENCODING_CLASS_REC_GET
+cff_cmap_encoding_class_rec
 ;
 }
 else
@@ -4740,7 +4740,7 @@ FT_ENCODING_ADOBE_EXPERT
 clazz
 =
 &
-CFF_CMAP_ENCODING_CLASS_REC_GET
+cff_cmap_encoding_class_rec
 ;
 }
 else
@@ -4760,7 +4760,7 @@ FT_ENCODING_ADOBE_CUSTOM
 clazz
 =
 &
-CFF_CMAP_ENCODING_CLASS_REC_GET
+cff_cmap_encoding_class_rec
 ;
 }
 error

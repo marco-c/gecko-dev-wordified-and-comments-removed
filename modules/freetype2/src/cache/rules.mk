@@ -8,9 +8,12 @@ rules
 #
 #
 Copyright
+(
+C
+)
 2000
 -
-2018
+2019
 by
 #
 David

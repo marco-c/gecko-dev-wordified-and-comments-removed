@@ -9,9 +9,12 @@ rules
 #
 #
 Copyright
+(
+C
+)
 2004
 -
-2018
+2019
 by
 #
 Albert

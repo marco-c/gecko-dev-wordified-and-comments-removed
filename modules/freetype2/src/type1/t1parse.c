@@ -34,7 +34,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_t1parse
+t1parse
 static
 FT_Error
 read_pfb_tag

@@ -50,7 +50,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_aflatin2
+aflatin2
 FT_LOCAL_DEF
 (
 FT_Error
@@ -955,7 +955,7 @@ nn
 if
 (
 last
-=
+<
 =
 first
 )
@@ -1099,6 +1099,13 @@ best_y
 )
 ;
 }
+if
+(
+best_point
+>
+=
+0
+)
 {
 FT_Pos
 best_x
@@ -2392,9 +2399,7 @@ axis
 >
 extra_light
 =
-(
-FT_Bool
-)
+FT_BOOL
 (
 FT_MulFix
 (
@@ -5234,9 +5239,7 @@ min_coord
 endif
 is_serif
 =
-(
-FT_Bool
-)
+FT_BOOL
 (
 seg
 -

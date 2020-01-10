@@ -25,7 +25,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvfeat
+gxvfeat
 typedef
 struct
 GXV_feat_DataRec_

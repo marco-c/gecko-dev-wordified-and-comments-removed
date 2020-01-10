@@ -15,10 +15,3 @@ psmodule
 .
 c
 "
-#
-include
-"
-pspic
-.
-c
-"

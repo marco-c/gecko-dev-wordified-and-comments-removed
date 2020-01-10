@@ -1788,7 +1788,7 @@ New
 files
 taken
 from
-http
+https
 :
 /
 /
@@ -46808,9 +46808,12 @@ tt_get_metrics_incr_overrides
 -
 -
 Copyright
+(
+C
+)
 2010
 -
-2018
+2019
 by
 David
 Turner

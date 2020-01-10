@@ -11,7 +11,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvmorx
+gxvmorx
 FT_LOCAL_DEF
 (
 void

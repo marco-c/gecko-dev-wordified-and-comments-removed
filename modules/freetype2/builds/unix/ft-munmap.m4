@@ -7,9 +7,12 @@ tests
 #
 #
 Copyright
+(
+C
+)
 2002
 -
-2018
+2019
 by
 #
 David

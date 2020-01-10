@@ -34,9 +34,12 @@ file
 #
 #
 Copyright
+(
+C
+)
 2013
 -
-2018
+2019
 by
 #
 David

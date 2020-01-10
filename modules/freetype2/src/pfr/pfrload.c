@@ -24,7 +24,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_pfr
+pfr
 FT_LOCAL_DEF
 (
 FT_Error

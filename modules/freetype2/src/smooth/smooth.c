@@ -22,10 +22,3 @@ ftsmooth
 .
 c
 "
-#
-include
-"
-ftspic
-.
-c
-"

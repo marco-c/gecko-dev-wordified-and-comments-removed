@@ -18,7 +18,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvlcar
+gxvlcar
 typedef
 struct
 GXV_lcar_DataRec_

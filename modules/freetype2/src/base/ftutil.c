@@ -23,7 +23,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_memory
+memory
 FT_BASE_DEF
 (
 FT_Pointer
@@ -57,6 +57,9 @@ if
 (
 !
 error
+&
+&
+block
 &
 &
 size
@@ -203,6 +206,9 @@ if
 (
 !
 error
+&
+&
+block
 &
 &
 new_count
@@ -511,6 +517,11 @@ error
 &
 &
 address
+&
+&
+size
+>
+0
 )
 ft_memcpy
 (
@@ -637,7 +648,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_list
+list
 FT_EXPORT_DEF
 (
 FT_ListNode

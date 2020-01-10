@@ -37,7 +37,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_ttpost
+ttpost
 #
 ifdef
 FT_CONFIG_OPTION_POSTSCRIPT_NAMES

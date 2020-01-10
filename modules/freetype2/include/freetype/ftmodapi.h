@@ -414,6 +414,10 @@ void
 arg
 )
 ;
+#
+define
+FT_DEBUG_HOOK_TRUETYPE
+0
 FT_EXPORT
 (
 void

@@ -18,7 +18,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvtrak
+gxvtrak
 typedef
 struct
 GXV_trak_DataRec_

@@ -28,7 +28,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_afglobal
+afglobal
 #
 undef
 WRITING_SYSTEM
@@ -50,13 +50,6 @@ h
 include
 "
 aferrors
-.
-h
-"
-#
-include
-"
-afpic
 .
 h
 "
@@ -168,9 +161,6 @@ afstyles
 .
 h
 "
-#
-ifndef
-FT_CONFIG_OPTION_PIC
 #
 undef
 WRITING_SYSTEM
@@ -294,8 +284,6 @@ h
 NULL
 }
 ;
-#
-endif
 #
 ifdef
 FT_DEBUG_LEVEL_TRACE
@@ -439,7 +427,7 @@ ss
 =
 0
 ;
-AF_STYLE_CLASSES_GET
+af_style_classes
 [
 ss
 ]
@@ -452,7 +440,7 @@ ss
 AF_StyleClass
 style_class
 =
-AF_STYLE_CLASSES_GET
+af_style_classes
 [
 ss
 ]
@@ -460,7 +448,7 @@ ss
 AF_ScriptClass
 script_class
 =
-AF_SCRIPT_CLASSES_GET
+af_script_classes
 [
 style_class
 -
@@ -840,7 +828,7 @@ ss
 =
 0
 ;
-AF_STYLE_CLASSES_GET
+af_style_classes
 [
 ss
 ]
@@ -853,7 +841,7 @@ ss
 AF_StyleClass
 style_class
 =
-AF_STYLE_CLASSES_GET
+af_style_classes
 [
 ss
 ]
@@ -880,7 +868,7 @@ gstyles
 af_shaper_get_coverage
 (
 globals
-AF_STYLE_CLASSES_GET
+af_style_classes
 [
 dflt
 ]
@@ -1065,7 +1053,7 @@ ss
 =
 0
 ;
-AF_STYLE_CLASSES_GET
+af_style_classes
 [
 ss
 ]
@@ -1078,7 +1066,7 @@ ss
 AF_StyleClass
 style_class
 =
-AF_STYLE_CLASSES_GET
+af_style_classes
 [
 ss
 ]
@@ -1513,7 +1501,7 @@ nn
 AF_StyleClass
 style_class
 =
-AF_STYLE_CLASSES_GET
+af_style_classes
 [
 nn
 ]
@@ -1521,7 +1509,7 @@ nn
 AF_WritingSystemClass
 writing_system_class
 =
-AF_WRITING_SYSTEM_CLASSES_GET
+af_writing_system_classes
 [
 style_class
 -
@@ -1691,14 +1679,14 @@ AF_STYLE_UNASSIGNED
 ;
 style_class
 =
-AF_STYLE_CLASSES_GET
+af_style_classes
 [
 style
 ]
 ;
 writing_system_class
 =
-AF_WRITING_SYSTEM_CLASSES_GET
+af_writing_system_classes
 [
 style_class
 -
@@ -1860,9 +1848,7 @@ globals
 glyph_count
 )
 return
-(
-FT_Bool
-)
+FT_BOOL
 (
 globals
 -
@@ -1876,9 +1862,9 @@ AF_DIGIT
 )
 ;
 return
+FT_BOOL
 (
-FT_Bool
-)
 0
+)
 ;
 }

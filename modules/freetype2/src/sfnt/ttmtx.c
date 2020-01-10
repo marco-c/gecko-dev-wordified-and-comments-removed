@@ -42,7 +42,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_ttmtx
+ttmtx
 FT_LOCAL_DEF
 (
 FT_Error

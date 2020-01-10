@@ -58,7 +58,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_pfr
+pfr
 FT_LOCAL_DEF
 (
 void
@@ -360,9 +360,6 @@ face
 header
 .
 phy_font_max_size_high
-!
-=
-0
 )
 )
 ;
@@ -1516,14 +1513,12 @@ scaling
 =
 FT_BOOL
 (
+!
 (
 load_flags
 &
 FT_LOAD_NO_SCALE
 )
-=
-=
-0
 )
 ;
 *

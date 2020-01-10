@@ -59,7 +59,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_ciddriver
+ciddriver
 static
 const
 char

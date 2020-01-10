@@ -46,7 +46,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_winfnt
+winfnt
 static
 const
 FT_Frame_Field

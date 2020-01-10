@@ -47,7 +47,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_otvmodule
+otvmodule
 static
 FT_Error
 otv_load_table

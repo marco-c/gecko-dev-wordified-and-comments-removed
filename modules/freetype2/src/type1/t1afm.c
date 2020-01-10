@@ -37,7 +37,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_t1afm
+t1afm
 FT_LOCAL_DEF
 (
 void

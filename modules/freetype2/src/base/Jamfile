@@ -8,9 +8,12 @@ Jamfile
 #
 #
 Copyright
+(
+C
+)
 2001
 -
-2018
+2019
 by
 #
 David
@@ -100,7 +103,9 @@ _sources
 basepic
 ftadvanc
 ftcalc
+ftcolor
 ftdbgmem
+fterrors
 ftfntfmt
 ftgloadr
 fthash
@@ -148,7 +153,6 @@ files
 local
 _sources
 =
-ftapi
 ftbbox
 ftbdf
 ftbitmap

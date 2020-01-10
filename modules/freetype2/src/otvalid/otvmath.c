@@ -25,7 +25,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_otvmath
+otvmath
 static
 void
 otv_MathConstants_validate

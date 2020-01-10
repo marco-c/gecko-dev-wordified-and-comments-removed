@@ -9,9 +9,12 @@ rules
 #
 #
 Copyright
+(
+C
+)
 2010
 -
-2018
+2019
 by
 #
 Joel

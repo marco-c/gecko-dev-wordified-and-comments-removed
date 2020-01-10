@@ -26,7 +26,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_synth
+synth
 FT_EXPORT_DEF
 (
 void

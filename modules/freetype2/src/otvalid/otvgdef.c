@@ -18,7 +18,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_otvgdef
+otvgdef
 #
 define
 AttachListFunc

@@ -11,7 +11,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_gxvmorx
+gxvmorx
 static
 void
 gxv_morx_subtables_validate

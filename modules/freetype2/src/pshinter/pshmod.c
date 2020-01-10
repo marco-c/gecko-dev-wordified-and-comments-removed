@@ -22,13 +22,6 @@ pshalgo
 .
 h
 "
-#
-include
-"
-pshpic
-.
-h
-"
 typedef
 struct
 PS_Hinter_Module_Rec_
@@ -276,7 +269,7 @@ pshinter
 0x10000L
 0x20000L
 &
-PSHINTER_INTERFACE_GET
+pshinter_interface
 (
 FT_Module_Constructor
 )

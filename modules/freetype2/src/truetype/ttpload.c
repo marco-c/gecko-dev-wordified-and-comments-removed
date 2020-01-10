@@ -49,7 +49,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_ttpload
+ttpload
 FT_LOCAL_DEF
 (
 FT_Error

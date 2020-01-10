@@ -34,7 +34,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_t42
+t42
 static
 FT_Error
 T42_Open_Face
@@ -1457,6 +1457,13 @@ FT_ERR_NEQ
 (
 error
 No_Unicode_Glyph_Name
+)
+&
+&
+FT_ERR_NEQ
+(
+error
+Unimplemented_Feature
 )
 )
 goto
