@@ -581,6 +581,11 @@ IsCached
 (
 )
 ;
+bool
+IsTargetable
+(
+)
+;
 const
 nsString
 &
@@ -1587,11 +1592,6 @@ CanAccess
 BrowsingContext
 *
 aContext
-)
-;
-bool
-IsTargetable
-(
 )
 ;
 void
