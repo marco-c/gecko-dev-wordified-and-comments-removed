@@ -1,0 +1,6 @@
+window
+.
+MAGIC
+=
+42
+;

@@ -1,11 +1,7 @@
 FROM
 node
 :
-6
-.
-12
-.
-3
+10
 RUN
 apt
 -

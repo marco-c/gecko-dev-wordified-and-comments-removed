@@ -12,6 +12,7 @@ const
 {
 helper
 assert
+debugError
 }
 =
 require
@@ -139,14 +140,6 @@ NetworkManager
 (
 client
 ignoreHTTPSErrors
-)
-;
-this
-.
-_networkManager
-.
-setFrameManager
-(
 this
 )
 ;
@@ -1402,6 +1395,11 @@ worldName
 :
 name
 }
+)
+.
+catch
+(
+debugError
 )
 )
 )

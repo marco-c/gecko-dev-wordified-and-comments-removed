@@ -386,7 +386,7 @@ Puppeteer
 -
 Firefox
 is
-availabe
+available
 at
 [
 isPuppeteerFirefoxReady

@@ -304,6 +304,7 @@ checkRangeAvailability
 (
 fromRevision
 toRevision
+false
 )
 ;
 async
@@ -451,6 +452,7 @@ checkRangeAvailability
 (
 from
 0
+true
 )
 ;
 }
@@ -460,6 +462,7 @@ checkRangeAvailability
 (
 fromRevision
 toRevision
+stopWhenAllAvailable
 )
 {
 const
@@ -522,6 +525,10 @@ revision
 =
 inc
 )
+{
+const
+allAvailable
+=
 await
 checkAndDrawRevisionAvailability
 (
@@ -531,6 +538,16 @@ table
 revision
 )
 ;
+if
+(
+allAvailable
+&
+&
+stopWhenAllAvailable
+)
+break
+;
+}
 }
 async
 function
@@ -681,6 +698,9 @@ drawRow
 (
 values
 )
+;
+return
+allAvailable
 ;
 }
 function

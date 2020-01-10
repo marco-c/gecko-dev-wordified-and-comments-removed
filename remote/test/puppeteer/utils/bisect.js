@@ -887,6 +887,12 @@ ipc
 env
 :
 {
+.
+.
+.
+process
+.
+env
 PUPPETEER_EXECUTABLE_PATH
 :
 revisionInfo

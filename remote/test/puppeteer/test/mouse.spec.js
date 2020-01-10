@@ -1415,7 +1415,7 @@ toEqual
 }
 )
 ;
-xit
+it
 (
 '
 should

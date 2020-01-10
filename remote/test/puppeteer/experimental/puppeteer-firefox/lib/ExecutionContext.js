@@ -480,9 +480,9 @@ TypeError
 err
 .
 message
-=
-=
-=
+.
+startsWith
+(
 '
 Converting
 circular
@@ -490,6 +490,7 @@ structure
 to
 JSON
 '
+)
 )
 err
 .

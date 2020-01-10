@@ -1,3 +1,9 @@
+.
+appveyor
+.
+yml
+.
+gitattributes
 #
 exclude
 all
