@@ -121,11 +121,12 @@ session
 "
         
 const
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 const
@@ -228,11 +229,12 @@ session
 "
         
 const
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 const
@@ -300,10 +302,7 @@ script
 >
         
 const
-[
-foo
-bar
-]
+elements
 =
 document
 .
@@ -313,6 +312,24 @@ querySelectorAll
 p
 "
 )
+;
+        
+let
+foo
+=
+elements
+[
+0
+]
+;
+        
+let
+bar
+=
+elements
+[
+1
+]
 ;
         
 foo
@@ -356,11 +373,12 @@ session
 "
         
 const
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 const
@@ -467,11 +485,12 @@ session
 "
         
 const
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 const
