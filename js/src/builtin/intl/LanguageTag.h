@@ -149,9 +149,6 @@ js
 namespace
 intl
 {
-#
-ifdef
-DEBUG
 template
 <
 typename
@@ -215,6 +212,9 @@ CharT
 region
 )
 ;
+#
+ifdef
+DEBUG
 bool
 IsStructurallyValidVariantTag
 (
@@ -2754,16 +2754,6 @@ length
 8
 ;
 }
-enum
-class
-BaseNameParsing
-:
-bool
-{
-Normal
-WithinTransformExtension
-}
-;
 static
 JS
 :
@@ -2786,8 +2776,6 @@ tag
 Token
 &
 tok
-BaseNameParsing
-parseType
 )
 ;
 static
@@ -2821,10 +2809,6 @@ cx
 ts
 tag
 tok
-BaseNameParsing
-:
-:
-Normal
 )
 ;
 }
@@ -2872,10 +2856,6 @@ cx
 ts
 tag
 tok
-BaseNameParsing
-:
-:
-WithinTransformExtension
 )
 .
 map
@@ -3161,7 +3141,7 @@ TokenKind
 )
 MOZ_MUST_USE
 bool
-ParseStandaloneLanguagTag
+ParseStandaloneLanguageTag
 (
 JS
 :

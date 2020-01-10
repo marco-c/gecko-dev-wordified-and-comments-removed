@@ -1447,7 +1447,7 @@ option
 intl
 :
 :
-ParseStandaloneLanguagTag
+ParseStandaloneLanguageTag
 (
 option
 language
