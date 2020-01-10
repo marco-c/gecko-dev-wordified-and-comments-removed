@@ -758,6 +758,10 @@ hexversion
 )
 '
 ]
+                                      
+universal_newlines
+=
+True
 )
 .
 rstrip
@@ -3261,11 +3265,18 @@ active
 "
 "
         
-execfile
+exec
+(
+open
 (
 self
 .
 activate_path
+)
+.
+read
+(
+)
 dict
 (
 __file__
@@ -3277,6 +3288,15 @@ activate_path
 )
         
 if
+sys
+.
+version_info
+[
+0
+]
+<
+3
+and
 isinstance
 (
 os
