@@ -87,6 +87,12 @@ Size
 )
 const
 ;
+bool
+HasSizeBeenSet
+(
+)
+const
+;
 uint8_t
 FooterSize
 (
@@ -135,7 +141,10 @@ mRaw
 SIZE
 ]
 ;
+Maybe
+<
 uint32_t
+>
 mSize
 ;
 int

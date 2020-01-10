@@ -2905,7 +2905,7 @@ ID3Header
 (
 )
 .
-Size
+HasSizeBeenSet
 (
 )
 ;
