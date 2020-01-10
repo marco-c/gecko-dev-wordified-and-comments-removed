@@ -761,6 +761,12 @@ WorkerRunnable
 >
 mPendingFunctionalEvents
 ;
+RefPtr
+<
+Inner
+>
+mInner
+;
 MozPromiseHolder
 <
 GenericPromise
