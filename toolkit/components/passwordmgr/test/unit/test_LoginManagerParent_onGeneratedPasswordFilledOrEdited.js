@@ -128,7 +128,7 @@ add_task
 (
 async
 function
-test_onGeneratedPasswordFilled
+test_onGeneratedPasswordFilledOrEdited
 (
 )
 {
@@ -136,11 +136,11 @@ ok
 (
 LMP
 .
-_onGeneratedPasswordFilled
+_onGeneratedPasswordFilledOrEdited
 "
 LMP
 .
-_onGeneratedPasswordFilled
+_onGeneratedPasswordFilledOrEdited
 exists
 "
 )
@@ -564,7 +564,7 @@ test
 ;
 LMP
 .
-_onGeneratedPasswordFilled
+_onGeneratedPasswordFilledOrEdited
 (
 {
 browsingContextId
@@ -583,6 +583,9 @@ mozilla
 .
 org
 "
+password
+:
+password1
 }
 )
 ;
@@ -778,7 +781,7 @@ false
 await
 LMP
 .
-_onGeneratedPasswordFilled
+_onGeneratedPasswordFilledOrEdited
 (
 {
 browsingContextId
@@ -797,6 +800,9 @@ mozilla
 .
 org
 "
+password
+:
+password1
 }
 )
 ;

@@ -3672,7 +3672,7 @@ LoginManagerParent
 "
 PasswordManager
 :
-onGeneratedPasswordFilled
+onGeneratedPasswordFilledOrEdited
 "
 :
 [
