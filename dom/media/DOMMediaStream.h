@@ -1341,9 +1341,6 @@ DOMMediaStream
 >
 mPrincipalChangeObservers
 ;
-CORSMode
-mCORSMode
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

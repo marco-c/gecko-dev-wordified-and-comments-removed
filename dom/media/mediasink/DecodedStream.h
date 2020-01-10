@@ -158,10 +158,6 @@ aVideoQueue
 OutputStreamManager
 *
 aOutputStreamManager
-const
-bool
-&
-aSameOrigin
 )
 ;
 const
@@ -348,8 +344,6 @@ SendAudio
 (
 double
 aVolume
-bool
-aIsSameOrigin
 const
 PrincipalHandle
 &
@@ -359,8 +353,6 @@ aPrincipalHandle
 void
 SendVideo
 (
-bool
-aIsSameOrigin
 const
 PrincipalHandle
 &
@@ -475,11 +467,6 @@ Watchable
 bool
 >
 mPlaying
-;
-const
-bool
-&
-mSameOrigin
 ;
 Mirror
 <
