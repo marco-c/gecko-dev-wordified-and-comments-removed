@@ -190,7 +190,7 @@ JSString
 template
 <
 typename
-CharT
+Unit
 >
 using
 Source
@@ -200,7 +200,7 @@ js
 :
 UniquePtr
 <
-CharT
+Unit
 [
 ]
 JS
@@ -245,12 +245,12 @@ n
 template
 <
 typename
-CharT
+Unit
 >
 static
 Source
 <
-CharT
+Unit
 >
 MakeSourceAllWhitespace
 (
@@ -267,7 +267,7 @@ ChunkSize
 %
 sizeof
 (
-CharT
+Unit
 )
 =
 =
@@ -288,13 +288,13 @@ size
 ;
 Source
 <
-CharT
+Unit
 >
 source
 (
 reinterpret_cast
 <
-CharT
+Unit
 *
 >
 (
@@ -305,7 +305,7 @@ len
 *
 sizeof
 (
-CharT
+Unit
 )
 )
 )
@@ -422,7 +422,7 @@ dummy
 template
 <
 typename
-CharT
+Unit
 >
 static
 JSFunction
@@ -434,7 +434,7 @@ JSContext
 cx
 Source
 <
-CharT
+Unit
 >
 chars
 size_t
@@ -740,7 +740,7 @@ FunctionEnd
 template
 <
 typename
-CharT
+Unit
 >
 static
 void
@@ -748,7 +748,7 @@ WriteFunctionOfSizeAtOffset
 (
 Source
 <
-CharT
+Unit
 >
 &
 source
@@ -1184,7 +1184,7 @@ true
 template
 <
 typename
-CharT
+Unit
 >
 bool
 run
@@ -1204,7 +1204,7 @@ source
 =
 MakeSourceAllWhitespace
 <
-CharT
+Unit
 >
 (
 cx
@@ -1226,7 +1226,7 @@ a
 +
 sizeof
 (
-CharT
+Unit
 )
 ;
 WriteFunctionOfSizeAtOffset
@@ -1344,7 +1344,7 @@ true
 template
 <
 typename
-CharT
+Unit
 >
 bool
 run
@@ -1359,7 +1359,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 ;
 auto
@@ -1367,7 +1367,7 @@ source
 =
 MakeSourceAllWhitespace
 <
-CharT
+Unit
 >
 (
 cx
@@ -1389,7 +1389,7 @@ c
 +
 sizeof
 (
-CharT
+Unit
 )
 ;
 WriteFunctionOfSizeAtOffset
@@ -1507,7 +1507,7 @@ true
 template
 <
 typename
-CharT
+Unit
 >
 bool
 run
@@ -1522,7 +1522,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 ;
 auto
@@ -1530,7 +1530,7 @@ source
 =
 MakeSourceAllWhitespace
 <
-CharT
+Unit
 >
 (
 cx
@@ -1552,7 +1552,7 @@ e
 +
 sizeof
 (
-CharT
+Unit
 )
 ;
 WriteFunctionOfSizeAtOffset
@@ -1668,7 +1668,7 @@ true
 template
 <
 typename
-CharT
+Unit
 >
 bool
 run
@@ -1683,7 +1683,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 +
 293
@@ -1693,7 +1693,7 @@ source
 =
 MakeSourceAllWhitespace
 <
-CharT
+Unit
 >
 (
 cx
@@ -1715,7 +1715,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 ;
 constexpr
@@ -1728,7 +1728,7 @@ g
 +
 sizeof
 (
-CharT
+Unit
 )
 ;
 WriteFunctionOfSizeAtOffset
@@ -1844,7 +1844,7 @@ true
 template
 <
 typename
-CharT
+Unit
 >
 bool
 run
@@ -1863,7 +1863,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 ;
 auto
@@ -1871,7 +1871,7 @@ source
 =
 MakeSourceAllWhitespace
 <
-CharT
+Unit
 >
 (
 cx
@@ -1893,7 +1893,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 ;
 constexpr
@@ -1906,7 +1906,7 @@ i
 +
 sizeof
 (
-CharT
+Unit
 )
 ;
 WriteFunctionOfSizeAtOffset
@@ -2024,7 +2024,7 @@ true
 template
 <
 typename
-CharT
+Unit
 >
 bool
 run
@@ -2043,7 +2043,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 +
 17
@@ -2053,7 +2053,7 @@ source
 =
 MakeSourceAllWhitespace
 <
-CharT
+Unit
 >
 (
 cx
@@ -2075,7 +2075,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 ;
 constexpr
@@ -2088,7 +2088,7 @@ k
 +
 sizeof
 (
-CharT
+Unit
 )
 ;
 WriteFunctionOfSizeAtOffset
@@ -2101,7 +2101,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 -
 1
@@ -2211,7 +2211,7 @@ true
 template
 <
 typename
-CharT
+Unit
 >
 bool
 run
@@ -2230,7 +2230,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 ;
 auto
@@ -2238,7 +2238,7 @@ source
 =
 MakeSourceAllWhitespace
 <
-CharT
+Unit
 >
 (
 cx
@@ -2264,7 +2264,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 ;
 constexpr
@@ -2277,7 +2277,7 @@ m
 +
 sizeof
 (
-CharT
+Unit
 )
 ;
 WriteFunctionOfSizeAtOffset
@@ -2290,7 +2290,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 -
 1
@@ -2400,7 +2400,7 @@ true
 template
 <
 typename
-CharT
+Unit
 >
 bool
 run
@@ -2419,7 +2419,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 ;
 auto
@@ -2427,7 +2427,7 @@ source
 =
 MakeSourceAllWhitespace
 <
-CharT
+Unit
 >
 (
 cx
@@ -2453,7 +2453,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 ;
 constexpr
@@ -2466,7 +2466,7 @@ o
 +
 sizeof
 (
-CharT
+Unit
 )
 ;
 WriteFunctionOfSizeAtOffset
@@ -2479,7 +2479,7 @@ ChunkSize
 /
 sizeof
 (
-CharT
+Unit
 )
 -
 1
