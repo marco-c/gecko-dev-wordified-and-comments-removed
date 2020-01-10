@@ -176,6 +176,14 @@ false
 ]
 [
 "
+eventTelemetry
+.
+enabled
+"
+false
+]
+[
+"
 filter
 .
 javascript
