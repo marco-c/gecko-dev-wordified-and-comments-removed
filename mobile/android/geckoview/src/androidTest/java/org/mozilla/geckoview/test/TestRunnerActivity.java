@@ -943,7 +943,12 @@ session
 return
 GeckoResult
 .
+fromValue
+(
+AllowOrDeny
+.
 ALLOW
+)
 ;
 }
 }
