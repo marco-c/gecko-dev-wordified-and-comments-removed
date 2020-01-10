@@ -43080,7 +43080,7 @@ writeVarU32
 (
 uint32_t
 (
-InitializerKind
+DataSegmentKind
 :
 :
 ActiveWithIndex
@@ -43113,7 +43113,7 @@ writeVarU32
 (
 uint32_t
 (
-InitializerKind
+DataSegmentKind
 :
 :
 Active
@@ -43171,7 +43171,7 @@ writeVarU32
 (
 uint32_t
 (
-InitializerKind
+DataSegmentKind
 :
 :
 Passive
