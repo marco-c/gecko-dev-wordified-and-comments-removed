@@ -31,17 +31,6 @@ nsIHttpAuthManager
 "
 )
 ;
-PromiseTestUtils
-.
-whitelistRejectionsGlobally
-(
-/
-Message
-manager
-disconnected
-/
-)
-;
 const
 proxy
 =

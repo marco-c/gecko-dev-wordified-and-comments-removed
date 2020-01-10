@@ -288,6 +288,17 @@ jsm
 }
 )
 ;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+Message
+manager
+disconnected
+/
+)
+;
 Services
 .
 prefs
