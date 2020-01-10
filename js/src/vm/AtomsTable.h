@@ -727,11 +727,8 @@ startIncrementalSweep
 )
 ;
 bool
-traceWeakIncrementally
+sweepIncrementally
 (
-JSTracer
-*
-trc
 SweepIterator
 &
 atomsToSweep
