@@ -1030,12 +1030,11 @@ nsINode
 >
 clonedNode
 =
-nsNodeUtils
-:
-:
+content
+-
+>
 Clone
 (
-content
 true
 doc
 -

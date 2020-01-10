@@ -36882,12 +36882,11 @@ DOCUMENT_TYPE_NODE
 :
 {
 return
-nsNodeUtils
-:
-:
+imported
+-
+>
 Clone
 (
-imported
 aDeep
 mNodeInfoManager
 nullptr
