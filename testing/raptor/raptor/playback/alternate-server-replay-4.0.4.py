@@ -477,14 +477,6 @@ if
 i
 .
 response
-and
-i
-.
-response
-.
-data
-.
-content
 :
                 
 l
@@ -529,8 +521,6 @@ s
 has
 no
 response
-data
-content
 .
 Removing
 from
