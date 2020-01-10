@@ -1448,7 +1448,6 @@ await
 new
 Promise
 (
-async
 resolve
 =
 >
