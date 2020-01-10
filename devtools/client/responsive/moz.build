@@ -136,6 +136,13 @@ reducers
 js
 '
 '
+responsive
+-
+browser
+.
+css
+'
+'
 store
 .
 js
