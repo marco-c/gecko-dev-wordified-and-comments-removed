@@ -415,6 +415,12 @@ onredirectorerror
 300
 )
 ;
+xhr
+.
+onerror
+=
+null
+;
 }
 }
 }
