@@ -2184,7 +2184,7 @@ isWindowPrivate
 window
 )
 ;
-var
+let
 showContainers
 =
 Services
@@ -2201,6 +2201,15 @@ userContext
 enabled
 "
 )
+&
+&
+ContextualIdentityService
+.
+getPublicIdentities
+(
+)
+.
+length
 ;
 this
 .

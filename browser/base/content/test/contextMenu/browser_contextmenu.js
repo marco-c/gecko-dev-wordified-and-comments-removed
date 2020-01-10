@@ -88,6 +88,15 @@ userContext
 enabled
 "
 )
+&
+&
+ContextualIdentityService
+.
+getPublicIdentities
+(
+)
+.
+length
 ;
 const
 example_base
