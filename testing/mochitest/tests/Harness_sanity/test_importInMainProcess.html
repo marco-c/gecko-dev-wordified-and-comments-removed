@@ -104,6 +104,13 @@ waitForExplicitFinish
 (
 )
 ;
+(
+async
+(
+)
+=
+>
+{
 var
 failed
 =
@@ -111,6 +118,7 @@ false
 ;
 try
 {
+await
 SpecialPowers
 .
 importInMainProcess
@@ -234,6 +242,7 @@ IsModuleLoaded
 testingResource
 )
 ;
+async
 function
 handleFirstReply
 (
@@ -262,6 +271,7 @@ it
 ;
 try
 {
+await
 SpecialPowers
 .
 importInMainProcess
@@ -376,6 +386,11 @@ finish
 )
 ;
 }
+}
+)
+(
+)
+;
 <
 /
 script

@@ -6179,6 +6179,7 @@ false
 var
 afterCleanup
 =
+async
 function
 (
 )
@@ -6408,6 +6409,7 @@ it
 let
 workers
 =
+await
 SpecialPowers
 .
 registeredServiceWorkers
