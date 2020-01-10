@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_ModuleVersionInfo_h
+mozilla_ModuleVersionInfo_windows_h
 #
 define
-mozilla_ModuleVersionInfo_h
+mozilla_ModuleVersionInfo_windows_h
 #
 include
 <

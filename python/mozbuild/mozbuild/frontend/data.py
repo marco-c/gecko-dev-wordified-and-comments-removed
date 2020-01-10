@@ -6816,17 +6816,6 @@ h
 inc
 '
             
-context
-.
-config
-.
-substs
-[
-'
-LIB_SUFFIX
-'
-]
-            
 '
 .
 py
