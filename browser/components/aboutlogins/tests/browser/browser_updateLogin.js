@@ -128,7 +128,7 @@ return
 (
 loginList
 .
-_logins
+_loginGuidsSortedOrder
 .
 length
 =
@@ -138,12 +138,10 @@ length
 &
 loginList
 .
-_logins
+_loginGuidsSortedOrder
 [
 0
 ]
-.
-guid
 =
 =
 loginGuid

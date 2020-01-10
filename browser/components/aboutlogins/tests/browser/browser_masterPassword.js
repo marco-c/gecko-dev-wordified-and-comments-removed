@@ -211,7 +211,7 @@ waitForCondition
 return
 loginList
 .
-_logins
+_loginGuidsSortedOrder
 .
 length
 =
@@ -224,7 +224,7 @@ expectedLoginCount
 return
 loginList
 .
-_logins
+_loginGuidsSortedOrder
 .
 length
 ;
