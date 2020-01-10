@@ -2596,7 +2596,7 @@ MOZ_ASSERT
 cx
 -
 >
-realm
+compartment
 (
 )
 =
@@ -2604,7 +2604,7 @@ realm
 group
 -
 >
-realm
+compartment
 (
 )
 )
