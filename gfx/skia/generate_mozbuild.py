@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 locale
 import
@@ -3388,11 +3392,13 @@ close
 )
   
 print
+(
 '
 Wrote
 '
 +
 filename
+)
 def
 main
 (
