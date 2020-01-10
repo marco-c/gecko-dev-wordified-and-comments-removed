@@ -241,6 +241,16 @@ aResult
 )
 override
 ;
+nsSize
+AdjustViewportSizeForFixedPosition
+(
+const
+nsRect
+&
+aViewportRect
+)
+const
+;
 #
 ifdef
 DEBUG_FRAME_DUMP
