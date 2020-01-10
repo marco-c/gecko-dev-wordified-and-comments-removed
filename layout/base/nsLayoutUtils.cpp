@@ -20193,7 +20193,10 @@ presShell
 )
 )
 {
+Maybe
+<
 LayoutDeviceIntRect
+>
 unscaledVisibleRect
 =
 browserChild
@@ -20203,9 +20206,15 @@ GetVisibleRect
 (
 )
 ;
+if
+(
+unscaledVisibleRect
+)
+{
 CSSRect
 visibleRect
 =
+*
 unscaledVisibleRect
 /
 presContext
@@ -20229,6 +20238,7 @@ visibleRect
 )
 )
 ;
+}
 }
 nsIFrame
 *
