@@ -71,6 +71,9 @@ details
 optional
 PaymentOptions
 options
+=
+{
+}
 )
 SecureContext
 Exposed
@@ -624,6 +627,9 @@ retry
 optional
 PaymentValidationErrors
 errorFields
+=
+{
+}
 )
 ;
 attribute
@@ -671,6 +677,9 @@ type
 optional
 MerchantValidationEventInit
 eventInitDict
+=
+{
+}
 )
 SecureContext
 Exposed
@@ -731,6 +740,9 @@ type
 optional
 PaymentMethodChangeEventInit
 eventInitDict
+=
+{
+}
 )
 SecureContext
 Exposed
@@ -782,6 +794,9 @@ type
 optional
 PaymentRequestUpdateEventInit
 eventInitDict
+=
+{
+}
 )
 SecureContext
 Exposed
