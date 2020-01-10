@@ -269,7 +269,6 @@ nsXULContentSink
 "
 )
 ;
-;
 XULContentSinkImpl
 :
 :
@@ -2765,14 +2764,6 @@ nsXULPrototypeElement
 aNodeInfo
 )
 ;
-mContextStack
-.
-Push
-(
-element
-mState
-)
-;
 nsresult
 rv
 =
@@ -2792,6 +2783,14 @@ rv
 )
 return
 rv
+;
+mContextStack
+.
+Push
+(
+element
+mState
+)
 ;
 mState
 =
