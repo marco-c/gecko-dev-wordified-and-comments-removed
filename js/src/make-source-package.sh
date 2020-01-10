@@ -800,6 +800,14 @@ TOPSRCDIR
 /
 mozglue
 /
+baseprofiler
+\
+{
+TOPSRCDIR
+}
+/
+mozglue
+/
 build
 \
 {
