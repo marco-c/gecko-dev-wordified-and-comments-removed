@@ -2410,13 +2410,6 @@ self
 populate_context_handler
 )
         
-Registrar
-.
-register_conditional_names
-(
-context
-)
-        
 parser
 =
 self

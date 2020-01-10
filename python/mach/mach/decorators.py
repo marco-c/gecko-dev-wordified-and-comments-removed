@@ -109,10 +109,6 @@ argument_group_names
 '
         
 '
-conditional_name
-'
-        
-'
 cls
 '
         
@@ -151,10 +147,6 @@ conditions
 =
 None
 parser
-=
-None
-                 
-conditional_name
 =
 None
 )
@@ -212,12 +204,6 @@ argument_group_names
 =
 [
 ]
-        
-self
-.
-conditional_name
-=
-conditional_name
         
 self
 .
