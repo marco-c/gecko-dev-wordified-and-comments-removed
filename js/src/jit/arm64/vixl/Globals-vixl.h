@@ -1067,6 +1067,9 @@ endif
 #
 endif
 #
+define
+VIXL_INCLUDE_TARGET_A64
+#
 ifdef
 VIXL_INCLUDE_TARGET_A64
 #
