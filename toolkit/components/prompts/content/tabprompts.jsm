@@ -342,7 +342,9 @@ randomIdSuffix
 /
 >
 <
-textbox
+html
+:
+input
 class
 =
 "
@@ -415,7 +417,9 @@ randomIdSuffix
 /
 >
 <
-textbox
+html
+:
+input
 class
 =
 "
