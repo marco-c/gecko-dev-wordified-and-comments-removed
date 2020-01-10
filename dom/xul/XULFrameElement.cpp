@@ -269,14 +269,11 @@ docShell
 )
 {
 return
-WindowProxyHolder
-(
 docShell
 -
 >
 GetWindowProxy
 (
-)
 )
 ;
 }
