@@ -150,7 +150,7 @@ resolve
 ;
 AntiTracking
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 SharedWorkers

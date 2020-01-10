@@ -1,6 +1,6 @@
 PartitionedStorageHelper
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 HTTP
@@ -297,7 +297,7 @@ resolve
 ;
 PartitionedStorageHelper
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 DOM
@@ -475,7 +475,7 @@ resolve
 ;
 PartitionedStorageHelper
 .
-runPartitioningTest
+runPartitioningTestInNormalAndPrivateMode
 (
 "
 Partitioned
@@ -557,7 +557,7 @@ resolve
 ;
 PartitionedStorageHelper
 .
-runPartitioningTest
+runPartitioningTestInNormalAndPrivateMode
 (
 "
 Partitioned

@@ -1,6 +1,6 @@
 PartitionedStorageHelper
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 SharedWorkers
@@ -273,7 +273,7 @@ resolve
 ;
 PartitionedStorageHelper
 .
-runPartitioningTest
+runPartitioningTestInNormalAndPrivateMode
 (
 "
 Partitioned

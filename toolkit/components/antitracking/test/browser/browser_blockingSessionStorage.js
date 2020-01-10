@@ -169,7 +169,7 @@ true
 ;
 AntiTracking
 .
-runTest
+runTestInNormalAndPrivateMode
 (
 "
 sessionStorage
