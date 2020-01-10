@@ -149,7 +149,7 @@ L10N
 getStr
 (
 "
-webSocketsEmptyText
+messagesEmptyText
 "
 )
 ;

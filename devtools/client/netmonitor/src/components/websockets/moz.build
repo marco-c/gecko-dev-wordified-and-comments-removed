@@ -111,6 +111,11 @@ FramePayload
 js
 '
 '
+StatusBar
+.
+js
+'
+'
 Toolbar
 .
 js

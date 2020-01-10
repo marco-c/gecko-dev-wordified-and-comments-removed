@@ -481,12 +481,7 @@ LongStringActor
 this
 .
 conn
-JSON
-.
-stringify
-(
 payload
-)
 )
 ;
 this
@@ -599,14 +594,9 @@ LongStringActor
 this
 .
 conn
-JSON
-.
-stringify
-(
 frame
 .
 payload
-)
 )
 ;
 this
