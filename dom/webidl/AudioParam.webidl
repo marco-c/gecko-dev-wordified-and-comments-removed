@@ -407,7 +407,7 @@ ChromeOnly
 readonly
 attribute
 boolean
-isTrackSuspended
+isStreamSuspended
 ;
 }
 ;

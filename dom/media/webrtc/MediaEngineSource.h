@@ -65,6 +65,13 @@ nsStringFwd
 .
 h
 "
+#
+include
+"
+TrackID
+.
+h
+"
 namespace
 mozilla
 {
@@ -92,7 +99,7 @@ class
 MediaEnginePrefs
 ;
 class
-SourceMediaTrack
+SourceMediaStream
 ;
 class
 MediaEnginePhotoCallback
@@ -267,10 +274,12 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaTrack
+SourceMediaStream
 >
 &
-aTrack
+aStream
+TrackID
+aTrackID
 const
 PrincipalHandle
 &

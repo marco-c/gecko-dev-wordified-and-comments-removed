@@ -272,7 +272,7 @@ CleanCurveInternal
 )
 ;
 void
-SendCurveToTrack
+SendCurveToStream
 (
 )
 ;

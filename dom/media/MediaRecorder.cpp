@@ -15,7 +15,7 @@ h
 #
 include
 "
-AudioNodeTrack
+AudioNodeStream
 .
 h
 "
@@ -50,7 +50,7 @@ h
 #
 include
 "
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 .
 h
 "
@@ -5656,7 +5656,7 @@ MediaRecorder
 (
 DOMMediaStream
 &
-aSourceMediaTrack
+aSourceMediaStream
 nsPIDOMWindowInner
 *
 aOwnerWindow
@@ -5698,7 +5698,7 @@ aOwnerWindow
 mDOMStream
 =
 &
-aSourceMediaTrack
+aSourceMediaStream
 ;
 RegisterActivityObserver
 (

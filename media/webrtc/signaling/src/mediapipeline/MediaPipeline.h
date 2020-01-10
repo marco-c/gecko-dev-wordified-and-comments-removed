@@ -89,7 +89,7 @@ h
 #
 include
 "
-MediaSegment
+StreamTracks
 .
 h
 "
@@ -157,7 +157,7 @@ RTCRTPContributingSourceStats
 ;
 }
 class
-SourceMediaTrack
+SourceMediaStream
 ;
 class
 MediaPipeline

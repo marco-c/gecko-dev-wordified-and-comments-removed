@@ -458,10 +458,12 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaTrack
+SourceMediaStream
 >
 &
-aTrack
+aStream
+TrackID
+aTrackID
 const
 PrincipalHandle
 &
@@ -932,7 +934,7 @@ GetUserMediaSuccessCallback
 aCallback
 DOMMediaStream
 &
-aTrack
+aStream
 )
 ;
 typedef

@@ -63,7 +63,7 @@ h
 #
 include
 "
-MediaTrackGraph
+MediaStreamGraph
 .
 h
 "
@@ -71,6 +71,13 @@ h
 include
 "
 NullTransport
+.
+h
+"
+#
+include
+"
+StreamTracks
 .
 h
 "

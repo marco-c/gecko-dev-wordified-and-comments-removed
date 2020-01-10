@@ -25,7 +25,7 @@ h
 #
 include
 "
-PrincipalHandle
+StreamTracks
 .
 h
 "
@@ -39,7 +39,7 @@ class
 DOMMediaStream
 ;
 class
-SourceMediaTrack
+SourceMediaStream
 ;
 namespace
 layers
@@ -70,9 +70,13 @@ public
 :
 OutputStreamDriver
 (
-SourceMediaTrack
+SourceMediaStream
 *
 aSourceStream
+const
+TrackID
+&
+aTrackId
 const
 PrincipalHandle
 &
@@ -116,9 +120,13 @@ Forget
 {
 }
 const
+TrackID
+mTrackId
+;
+const
 RefPtr
 <
-SourceMediaTrack
+SourceMediaStream
 >
 mSourceStream
 ;
@@ -173,6 +181,9 @@ double
 >
 &
 aFPS
+const
+TrackID
+aTrackId
 nsIPrincipal
 *
 aPrincipal
@@ -227,7 +238,7 @@ StopCapture
 (
 )
 ;
-SourceMediaTrack
+SourceMediaStream
 *
 GetSourceStream
 (

@@ -52,7 +52,7 @@ AudioNode
 public
 nsIAudioChannelAgentCallback
 public
-MainThreadMediaTrackListener
+MainThreadMediaStreamListener
 {
 public
 :
@@ -72,7 +72,7 @@ aLength
 )
 ;
 void
-DestroyMediaTrack
+DestroyMediaStream
 (
 )
 override
@@ -131,9 +131,9 @@ aRv
 )
 override
 ;
-AudioNodeTrack
+AudioNodeStream
 *
-Track
+Stream
 (
 )
 ;
@@ -171,7 +171,7 @@ OfflineShutdown
 )
 ;
 void
-NotifyMainThreadTrackEnded
+NotifyMainThreadStreamFinished
 (
 )
 override
@@ -271,12 +271,12 @@ IsCapturingAudio
 const
 ;
 void
-StartAudioCapturingTrack
+StartAudioCapturingStream
 (
 )
 ;
 void
-StopAudioCapturingTrack
+StopAudioCapturingStream
 (
 )
 ;
@@ -299,7 +299,7 @@ RefPtr
 <
 MediaInputPort
 >
-mCaptureTrackPort
+mCaptureStreamPort
 ;
 RefPtr
 <

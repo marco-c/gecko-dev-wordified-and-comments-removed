@@ -120,7 +120,7 @@ GetNextEncodeOperation
 (
 TimeDuration
 aTimeElapsed
-TrackTime
+StreamTime
 aProcessedDuration
 )
 ;
@@ -180,7 +180,7 @@ vpx_codec_enc_cfg_t
 config
 )
 ;
-TrackTime
+StreamTime
 mEncodedTimestamp
 =
 0
@@ -213,7 +213,7 @@ mI420FrameSize
 =
 0
 ;
-TrackTime
+StreamTime
 mDurationSinceLastKeyframe
 =
 0

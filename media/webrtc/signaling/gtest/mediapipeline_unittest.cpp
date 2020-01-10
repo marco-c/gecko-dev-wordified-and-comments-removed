@@ -66,14 +66,14 @@ h
 #
 include
 "
-MediaTrackGraph
+MediaStreamGraph
 .
 h
 "
 #
 include
 "
-MediaTrackListener
+MediaStreamListener
 .
 h
 "
@@ -274,6 +274,7 @@ AudioStreamTrack
 (
 nullptr
 nullptr
+0
 new
 FakeMediaStreamTrackSource
 (
@@ -363,7 +364,7 @@ virtual
 void
 AddListener
 (
-MediaTrackListener
+MediaStreamTrackListener
 *
 aListener
 )
@@ -393,7 +394,7 @@ std
 :
 vector
 <
-MediaTrackListener
+MediaStreamTrackListener
 *
 >
 mListeners

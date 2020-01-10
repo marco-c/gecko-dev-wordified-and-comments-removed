@@ -167,10 +167,10 @@ MEDIA_GRAPH_TARGET_PERIOD_MS
 SCHEDULE_SAFETY_MARGIN_MS
 ;
 class
-MediaTrack
+MediaStream
 ;
 class
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 ;
 class
 AudioCallbackDriver
@@ -197,7 +197,7 @@ public
 explicit
 GraphDriver
 (
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 *
 aGraphImpl
 )
@@ -345,7 +345,7 @@ EnsureNextIteration
 (
 )
 ;
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 *
 GraphImpl
 (
@@ -407,7 +407,7 @@ mIterationEnd
 const
 RefPtr
 <
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 >
 mGraphImpl
 ;
@@ -433,7 +433,7 @@ GraphDriver
 }
 ;
 class
-MediaTrackGraphInitThreadRunnable
+MediaStreamGraphInitThreadRunnable
 ;
 class
 ThreadedDriver
@@ -446,7 +446,7 @@ public
 explicit
 ThreadedDriver
 (
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 *
 aGraphImpl
 )
@@ -488,7 +488,7 @@ RunThread
 ;
 friend
 class
-MediaTrackGraphInitThreadRunnable
+MediaStreamGraphInitThreadRunnable
 ;
 uint32_t
 IterationDuration
@@ -589,7 +589,7 @@ public
 explicit
 SystemClockDriver
 (
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 *
 aGraphImpl
 )
@@ -659,7 +659,7 @@ public
 :
 OfflineClockDriver
 (
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 *
 aGraphImpl
 GraphTime
@@ -703,13 +703,13 @@ mSlice
 }
 ;
 struct
-TrackAndPromiseForOperation
+StreamAndPromiseForOperation
 {
-TrackAndPromiseForOperation
+StreamAndPromiseForOperation
 (
-MediaTrack
+MediaStream
 *
-aTrack
+aStream
 void
 *
 aPromise
@@ -727,9 +727,9 @@ aFlags
 ;
 RefPtr
 <
-MediaTrack
+MediaStream
 >
-mTrack
+mStream
 ;
 void
 *
@@ -790,7 +790,7 @@ public
 :
 AudioCallbackDriver
 (
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 *
 aGraphImpl
 uint32_t
@@ -1002,11 +1002,11 @@ Unknown
 ;
 }
 void
-EnqueueTrackAndPromiseForOperation
+EnqueueStreamAndPromiseForOperation
 (
-MediaTrack
+MediaStream
 *
-aTrack
+aStream
 void
 *
 aPromise
@@ -1226,7 +1226,7 @@ mInitShutdownThread
 ;
 AutoTArray
 <
-TrackAndPromiseForOperation
+StreamAndPromiseForOperation
 1
 >
 mPromisesForOperation
@@ -1336,7 +1336,7 @@ mOperation
 ;
 RefPtr
 <
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 >
 mShutdownGrip
 ;

@@ -99,13 +99,16 @@ class
 VideoData
 ;
 class
+MediaStream
+;
+class
 OutputStreamManager
 ;
 struct
 PlaybackInfoInit
 ;
 class
-ProcessedMediaTrack
+ProcessedMediaStream
 ;
 class
 TimeStamp

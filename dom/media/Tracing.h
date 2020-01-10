@@ -110,7 +110,7 @@ TRACE_AUDIO_CALLBACK
 AutoTracer
 trace
 (
-gMTGTraceLogger
+gMSGTraceLogger
 FUNCTION_SIGNATURE
 getpid
 (
@@ -129,7 +129,7 @@ aSampleRate
 AutoTracer
 budget
 (
-gMTGTraceLogger
+gMSGTraceLogger
 "
 Real
 -
@@ -165,7 +165,7 @@ aFmt
 AutoTracer
 trace
 (
-gMTGTraceLogger
+gMSGTraceLogger
 FUNCTION_SIGNATURE
 getpid
 (
@@ -195,7 +195,7 @@ AutoTracer
 trace
 (
 \
-gMTGTraceLogger
+gMSGTraceLogger
 FUNCTION_SIGNATURE
 getpid
 (
@@ -242,7 +242,7 @@ aFmt
 AutoTracer
 trace
 (
-gMTGTraceLogger
+gMSGTraceLogger
 FUNCTION_SIGNATURE
 getpid
 (

@@ -4,13 +4,6 @@ ImageToI420Converter_h
 #
 define
 ImageToI420Converter_h
-#
-include
-"
-nsError
-.
-h
-"
 namespace
 mozilla
 {

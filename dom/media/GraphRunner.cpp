@@ -15,14 +15,14 @@ h
 #
 include
 "
-MediaTrackGraph
+MediaStreamGraph
 .
 h
 "
 #
 include
 "
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 .
 h
 "
@@ -110,7 +110,7 @@ GraphRunner
 :
 GraphRunner
 (
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 *
 aGraph
 )

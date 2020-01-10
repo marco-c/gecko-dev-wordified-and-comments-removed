@@ -379,7 +379,7 @@ aPrincipal
 void
 EnsureOutputStreamManager
 (
-SharedDummyTrack
+SharedDummyStream
 *
 aDummyStream
 )

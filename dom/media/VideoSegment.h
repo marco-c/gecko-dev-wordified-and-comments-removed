@@ -299,9 +299,9 @@ VideoChunk
 void
 SliceTo
 (
-TrackTime
+StreamTime
 aStart
-TrackTime
+StreamTime
 aEnd
 )
 {
@@ -337,7 +337,7 @@ aEnd
 aStart
 ;
 }
-TrackTime
+StreamTime
 GetDuration
 (
 )
@@ -384,7 +384,7 @@ GetImage
 void
 SetNull
 (
-TrackTime
+StreamTime
 aDuration
 )
 {
@@ -448,7 +448,7 @@ GetPrincipalHandle
 )
 ;
 }
-TrackTime
+StreamTime
 mDuration
 ;
 VideoFrame
@@ -565,7 +565,7 @@ Now
 void
 ExtendLastFrameBy
 (
-TrackTime
+StreamTime
 aDuration
 )
 {
@@ -632,7 +632,7 @@ VideoFrame
 *
 GetLastFrame
 (
-TrackTime
+StreamTime
 *
 aStart
 =
@@ -770,7 +770,7 @@ chunk
 return
 ;
 }
-TrackTime
+StreamTime
 duration
 =
 0
@@ -928,6 +928,20 @@ this
 SizeOfExcludingThis
 (
 aMallocSizeOf
+)
+;
+}
+bool
+IsEmpty
+(
+)
+const
+{
+return
+mChunks
+.
+IsEmpty
+(
 )
 ;
 }

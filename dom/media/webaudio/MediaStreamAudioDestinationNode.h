@@ -120,7 +120,7 @@ return
 ;
 }
 void
-DestroyMediaTrack
+DestroyMediaStream
 (
 )
 override

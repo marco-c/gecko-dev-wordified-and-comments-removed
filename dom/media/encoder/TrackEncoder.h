@@ -21,7 +21,14 @@ h
 #
 include
 "
-MediaTrackGraph
+MediaStreamGraph
+.
+h
+"
+#
+include
+"
+StreamTracks
 .
 h
 "
@@ -519,7 +526,7 @@ const
 AudioSegment
 &
 aSegment
-TrackTime
+StreamTime
 aDuration
 )
 ;
@@ -568,7 +575,7 @@ mSamplingRate
 AudioSegment
 mOutgoingBuffer
 ;
-TrackTime
+StreamTime
 mNotInitDuration
 ;
 uint32_t
@@ -697,7 +704,7 @@ TimeStamp
 aTime
 )
 ;
-TrackTime
+StreamTime
 SecondsToMediaTime
 (
 double
@@ -814,7 +821,7 @@ mIncomingBuffer
 VideoSegment
 mOutgoingBuffer
 ;
-TrackTime
+StreamTime
 mEncodedTicks
 ;
 TimeStamp

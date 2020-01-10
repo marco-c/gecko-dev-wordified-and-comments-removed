@@ -45,7 +45,7 @@ final
 public
 AudioScheduledSourceNode
 public
-MainThreadMediaTrackListener
+MainThreadMediaStreamListener
 {
 public
 :
@@ -103,7 +103,7 @@ aOptions
 )
 ;
 void
-DestroyMediaTrack
+DestroyMediaStream
 (
 )
 override
@@ -153,7 +153,7 @@ rv
 override
 ;
 void
-NotifyMainThreadTrackEnded
+NotifyMainThreadStreamFinished
 (
 )
 override
