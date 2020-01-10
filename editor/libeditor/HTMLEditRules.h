@@ -537,13 +537,6 @@ CheckInterlinePosition
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
-nsresult
-RemoveEmptyNodesInChangedRange
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
 void
 DocumentModifiedWorker
 (

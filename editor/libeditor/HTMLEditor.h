@@ -4893,6 +4893,16 @@ RawRangeBoundary
 aEndRef
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+RemoveEmptyNodesIn
+(
+nsRange
+&
+aRange
+)
+;
 protected
 :
 virtual
