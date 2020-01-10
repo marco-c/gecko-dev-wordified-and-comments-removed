@@ -15598,6 +15598,15 @@ MDefinition
 Opcode
 :
 :
+FromCodePoint
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 TableSwitch
 :
 case
