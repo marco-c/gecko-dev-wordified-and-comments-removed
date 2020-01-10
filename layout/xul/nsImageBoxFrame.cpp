@@ -1541,6 +1541,10 @@ CreateOwnLayerIfNeeded
 aBuilder
 &
 list
+nsDisplayOwnLayer
+:
+:
+OwnLayerForImageBoxFrame
 )
 ;
 aLists

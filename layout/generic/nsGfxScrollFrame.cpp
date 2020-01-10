@@ -14436,6 +14436,12 @@ nsDisplayOwnLayerFlags
 :
 None
 scrollbarData
+true
+false
+nsDisplayOwnLayer
+:
+:
+OwnLayerForScrollbar
 )
 ;
 }
