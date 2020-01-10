@@ -520,9 +520,6 @@ TEST_DIRS
 '
 tests
 '
-'
-imptests
-'
 ]
 if
 CONFIG
