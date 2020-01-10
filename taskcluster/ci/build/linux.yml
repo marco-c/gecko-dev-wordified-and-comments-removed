@@ -4253,13 +4253,6 @@ need
 xvfb
 :
 true
-mozconfig
--
-variant
-:
-profile
--
-use
 toolchains
 :
 -
