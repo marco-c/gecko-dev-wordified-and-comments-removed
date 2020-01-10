@@ -36299,15 +36299,6 @@ GetTransferSize
 (
 )
 ;
-mRequestSize
-=
-mTransaction
--
->
-GetRequestSize
-(
-)
-;
 if
 (
 request
