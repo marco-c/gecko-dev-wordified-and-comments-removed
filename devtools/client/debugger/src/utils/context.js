@@ -136,7 +136,6 @@ navigated
 ;
 }
 }
-export
 function
 validateThreadContext
 (
