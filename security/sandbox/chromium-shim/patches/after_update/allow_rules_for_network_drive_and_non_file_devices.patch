@@ -155,10 +155,10 @@ win_utils
 cc
 -
 190
-63
+62
 +
 190
-68
+67
 bool
 ResolveRegistryName
 (

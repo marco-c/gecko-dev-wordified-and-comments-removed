@@ -387,6 +387,10 @@ void
 buffer
 size_t
 length
+DWORD
+writeProtection
+=
+PAGE_WRITECOPY
 )
 ;
 bool
