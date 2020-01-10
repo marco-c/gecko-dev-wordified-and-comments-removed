@@ -1845,12 +1845,6 @@ nsHttpConnectionMgr
 >
 mConnMgr
 ;
-nsCOMPtr
-<
-nsIThread
->
-mBackgroundThread
-;
 enum
 HttpVersion
 mHttpVersion
