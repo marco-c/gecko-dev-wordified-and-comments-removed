@@ -682,7 +682,7 @@ CHROMEROOT
 }
 webapi_checkchromeframe
 .
-xul
+xhtml
 async
 function
 test_available
