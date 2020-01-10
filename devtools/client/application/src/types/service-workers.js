@@ -46,13 +46,13 @@ scope
 PropTypes
 .
 string
+.
+isRequired
 lastUpdateTime
 :
 PropTypes
 .
 number
-.
-isRequired
 url
 :
 PropTypes

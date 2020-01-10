@@ -868,10 +868,6 @@ null
 const
 scope
 =
-worker
-.
-scope
-?
 span
 (
 {
@@ -900,8 +896,6 @@ worker
 scope
 )
 )
-:
-null
 ;
 return
 li
