@@ -1153,7 +1153,7 @@ initialEnvironmentShape
 script
 -
 >
-functionDelazifying
+function
 (
 )
 &
@@ -1161,7 +1161,7 @@ functionDelazifying
 script
 -
 >
-functionDelazifying
+function
 (
 )
 -

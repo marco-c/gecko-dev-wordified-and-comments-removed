@@ -11084,14 +11084,6 @@ return
 lazyScript
 ;
 }
-inline
-JSFunction
-*
-functionDelazifying
-(
-)
-const
-;
 JSFunction
 *
 functionNonDelazifying

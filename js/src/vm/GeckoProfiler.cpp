@@ -1429,7 +1429,7 @@ func
 script
 -
 >
-functionDelazifying
+function
 (
 )
 ;
