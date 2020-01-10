@@ -2398,6 +2398,9 @@ passwordInput
 assertCallback
 =
 null
+browsingContext
+=
+null
 )
 {
 const
@@ -2449,6 +2452,19 @@ popup
 "
 )
 ;
+if
+(
+!
+browsingContext
+)
+{
+browsingContext
+=
+browser
+.
+browsingContext
+;
+}
 let
 contextMenuShownPromise
 =
@@ -2483,7 +2499,7 @@ synthesizeMouseAtCenter
 (
 passwordInput
 eventDetails
-browser
+browsingContext
 )
 ;
 eventDetails
@@ -2506,7 +2522,7 @@ synthesizeMouseAtCenter
 (
 passwordInput
 eventDetails
-browser
+browsingContext
 )
 ;
 await
