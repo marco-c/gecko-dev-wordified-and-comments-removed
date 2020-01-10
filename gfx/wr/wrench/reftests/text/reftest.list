@@ -520,11 +520,6 @@ synthetic
 italics
 .
 yaml
-skip_on
-(
-android
-emulator
-)
 options
 (
 disable

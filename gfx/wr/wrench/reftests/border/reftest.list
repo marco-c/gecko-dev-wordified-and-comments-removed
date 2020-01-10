@@ -457,11 +457,6 @@ fill
 ref
 .
 png
-#
-fails
-on
-Android
-emulator
 =
 =
 border
