@@ -583,6 +583,12 @@ aGLContext
 ;
 -
 (
+void
+)
+ensureNextCompositeIsAtomicWithMainThreadPaint
+;
+-
+(
 NSView
 *
 )

@@ -21521,6 +21521,14 @@ self
 setTitlebarNeedsDisplay
 ]
 ;
+[
+[
+self
+mainChildView
+]
+ensureNextCompositeIsAtomicWithMainThreadPaint
+]
+;
 }
 -
 (
