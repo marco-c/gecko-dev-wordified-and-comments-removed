@@ -2492,7 +2492,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
@@ -2511,7 +2511,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
@@ -2530,7 +2530,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
@@ -3180,6 +3180,11 @@ value
 32
 .
 0f
+#
+1
+/
+32
+inches
 mirror
 :
 always
@@ -3203,6 +3208,11 @@ value
 32
 .
 0f
+#
+1
+/
+32
+inches
 mirror
 :
 always
@@ -3226,6 +3236,11 @@ value
 32
 .
 0f
+#
+1
+/
+32
+inches
 mirror
 :
 always
