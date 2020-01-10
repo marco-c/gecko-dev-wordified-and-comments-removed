@@ -933,6 +933,12 @@ Nullable
 GeckoSession
 session
 ;
+Retention
+(
+RetentionPolicy
+.
+SOURCE
+)
 IntDef
 (
 {
