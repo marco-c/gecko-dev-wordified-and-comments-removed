@@ -2504,6 +2504,12 @@ responseStatus
 =
 =
 307
+|
+|
+responseStatus
+=
+=
+308
 )
 {
 nsAutoCString
