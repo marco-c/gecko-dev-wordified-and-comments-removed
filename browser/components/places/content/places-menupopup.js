@@ -762,9 +762,9 @@ chrome
 /
 global
 /
-content
+skin
 /
-widgets
+global
 .
 css
 "
@@ -3330,9 +3330,9 @@ chrome
 /
 global
 /
-content
+skin
 /
-widgets
+global
 .
 css
 "
