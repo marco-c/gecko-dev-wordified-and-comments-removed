@@ -171,7 +171,7 @@ MOZ_MUST_USE
 nsresult
 CollectSubstitutions
 (
-InfallibleTArray
+nsTArray
 <
 SubstitutionMapping
 >
