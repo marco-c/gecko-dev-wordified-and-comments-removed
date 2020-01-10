@@ -157,6 +157,13 @@ RUSTFLAGS
 deny
 warnings
 '
+run
+:
+sparse
+-
+profile
+:
+webrender
 jobs
 :
 lint
