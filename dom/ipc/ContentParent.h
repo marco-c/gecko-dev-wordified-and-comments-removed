@@ -359,6 +359,15 @@ privilegedmozilla
 "
 #
 define
+WITH_COOP_COEP_REMOTE_TYPE_PREFIX
+"
+webCOOP
++
+COEP
+=
+"
+#
+define
 LARGE_ALLOCATION_REMOTE_TYPE
 "
 webLargeAllocation
