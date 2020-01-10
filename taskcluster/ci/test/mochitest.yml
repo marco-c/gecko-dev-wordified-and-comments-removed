@@ -715,6 +715,15 @@ macosx
 debug
 :
 12
+windows10
+-
+64
+-
+ccov
+/
+debug
+:
+14
 default
 :
 7
