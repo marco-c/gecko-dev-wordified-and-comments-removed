@@ -85,6 +85,17 @@ name
 false
 )
 ;
+assert
+.
+sameValue
+(
+rejectElementFunction
+.
+name
+'
+'
+)
+;
 reportCompare
 (
 0

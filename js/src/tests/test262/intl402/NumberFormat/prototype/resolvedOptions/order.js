@@ -67,6 +67,9 @@ currency
 currencyDisplay
 "
 "
+currencySign
+"
+"
 minimumIntegerDigits
 "
 "
@@ -77,6 +80,12 @@ maximumSignificantDigits
 "
 "
 useGrouping
+"
+"
+notation
+"
+"
+signDisplay
 "
 ]
 ;

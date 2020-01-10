@@ -1,0 +1,16 @@
+class
+C
+{
+}
+/
+1
+/
+g
+;
+;
+reportCompare
+(
+0
+0
+)
+;

@@ -1,0 +1,17 @@
+class
+C
+{
+}
+{
+x
+:
+42
+}
+;
+;
+reportCompare
+(
+0
+0
+)
+;

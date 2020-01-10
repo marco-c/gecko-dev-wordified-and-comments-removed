@@ -175,10 +175,6 @@ value
 simulation
 )
 ;
-DONE
-(
-)
-;
 }
 )
 .

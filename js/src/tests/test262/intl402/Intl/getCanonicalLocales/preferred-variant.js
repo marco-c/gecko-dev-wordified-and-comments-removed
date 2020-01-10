@@ -17,7 +17,9 @@ ja
 -
 Latn
 -
-alalc97
+hepburn
+-
+heploc
 "
 }
 ;

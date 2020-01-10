@@ -40,12 +40,6 @@ type
 minimumIntegerDigits
 "
 "
-minimumFractionDigits
-"
-"
-maximumFractionDigits
-"
-"
 minimumSignificantDigits
 "
 "

@@ -86,6 +86,17 @@ name
 false
 )
 ;
+assert
+.
+sameValue
+(
+resolveElementFunction
+.
+name
+"
+"
+)
+;
 reportCompare
 (
 0

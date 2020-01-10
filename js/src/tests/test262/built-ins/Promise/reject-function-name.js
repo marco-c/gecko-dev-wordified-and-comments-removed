@@ -37,6 +37,17 @@ name
 false
 )
 ;
+assert
+.
+sameValue
+(
+rejectFunction
+.
+name
+"
+"
+)
+;
 reportCompare
 (
 0

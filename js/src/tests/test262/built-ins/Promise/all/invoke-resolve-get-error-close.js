@@ -109,7 +109,7 @@ assert
 sameValue
 (
 returnCount
-0
+1
 )
 ;
 reportCompare

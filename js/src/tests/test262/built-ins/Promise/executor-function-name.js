@@ -55,6 +55,17 @@ name
 false
 )
 ;
+assert
+.
+sameValue
+(
+executorFunction
+.
+name
+"
+"
+)
+;
 reportCompare
 (
 0

@@ -145,6 +145,8 @@ canonical
 :
 "
 hy
+-
+arevela
 "
 }
 {
@@ -158,7 +160,9 @@ arevmda
 canonical
 :
 "
-hyw
+hy
+-
+arevmda
 "
 }
 ]

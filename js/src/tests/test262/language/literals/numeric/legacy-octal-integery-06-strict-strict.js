@@ -1,0 +1,11 @@
+'
+use
+strict
+'
+;
+DONOTEVALUATE
+(
+)
+;
+06
+;
