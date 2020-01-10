@@ -154,6 +154,7 @@ batch
 =
 >
 {
+return
 proxy
 .
 dispatchRequestUpdate
