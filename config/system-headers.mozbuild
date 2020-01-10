@@ -7891,6 +7891,13 @@ h
 '
 unicode
 /
+udata
+.
+h
+'
+'
+unicode
+/
 udatpg
 .
 h
@@ -7955,6 +7962,13 @@ h
 unicode
 /
 ureldatefmt
+.
+h
+'
+'
+unicode
+/
+ures
 .
 h
 '
