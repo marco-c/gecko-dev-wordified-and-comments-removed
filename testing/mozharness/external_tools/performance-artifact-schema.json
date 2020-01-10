@@ -600,7 +600,7 @@ string
 maxLength
 "
 :
-45
+100
 }
 "
 uniqueItems
