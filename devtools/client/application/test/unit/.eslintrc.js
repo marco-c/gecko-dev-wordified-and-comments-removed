@@ -23,9 +23,12 @@ extends
 .
 /
 .
+.
+/
+.
 eslintrc
 .
-mochitests
+xpcshell
 .
 js
 "

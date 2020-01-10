@@ -9,6 +9,8 @@ TAB_URL
 URL_ROOT
 +
 "
+resources
+/
 service
 -
 workers
@@ -244,6 +246,10 @@ test
 "
 +
 "
+browser
+/
+resources
+/
 service
 -
 workers

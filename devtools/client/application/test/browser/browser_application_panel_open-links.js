@@ -27,6 +27,8 @@ TAB_URL
 URL_ROOT
 +
 "
+resources
+/
 service
 -
 workers

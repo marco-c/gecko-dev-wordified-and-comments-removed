@@ -28,6 +28,8 @@ application
 /
 test
 /
+components
+/
 node_modules
 /
 devtools
