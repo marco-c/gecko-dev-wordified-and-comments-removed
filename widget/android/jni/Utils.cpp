@@ -2076,15 +2076,6 @@ aCall
 )
 ;
 }
-bool
-IsFennec
-(
-)
-{
-return
-false
-;
-}
 int
 GetAPIVersion
 (

@@ -613,12 +613,7 @@ context
 {
 if
 (
-!
-GeckoAppShell
-.
-isFennec
-(
-)
+true
 )
 {
 return

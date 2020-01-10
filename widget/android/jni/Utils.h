@@ -523,11 +523,6 @@ nsIRunnable
 aCall
 )
 ;
-bool
-IsFennec
-(
-)
-;
 int
 GetAPIVersion
 (
