@@ -94,7 +94,7 @@ use
 crate
 :
 :
-cpu
+isa
 :
 :
 make_isa

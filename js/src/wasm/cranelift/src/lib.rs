@@ -1,5 +1,16 @@
 #
 [
+cfg
+(
+feature
+=
+"
+cranelift_x86
+"
+)
+]
+#
+[
 macro_use
 ]
 extern
@@ -21,7 +32,7 @@ mod
 compile
 ;
 mod
-cpu
+isa
 ;
 mod
 utils
