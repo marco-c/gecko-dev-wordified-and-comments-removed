@@ -382,7 +382,6 @@ service
 OfflineAppAllowed
 (
 mLoadingPrincipal
-nullptr
 &
 offlinePermissionAllowed
 )
