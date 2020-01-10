@@ -1304,9 +1304,6 @@ value
 }
 if
 (
-useHtmlViews
-&
-&
 ABUSE_REPORT_ENABLED
 )
 {
