@@ -9954,7 +9954,7 @@ Services
 .
 telemetry
 .
-keyedScalarAdd
+keyedScalarSet
 (
 "
 security
