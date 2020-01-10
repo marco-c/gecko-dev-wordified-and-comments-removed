@@ -14392,6 +14392,9 @@ prop
 cx
 )
 ;
+if
+(
+!
 NativeLookupOwnPropertyNoResolve
 (
 cx
@@ -14400,7 +14403,12 @@ id
 &
 prop
 )
+)
+{
+return
+false
 ;
+}
 *
 foundp
 =
