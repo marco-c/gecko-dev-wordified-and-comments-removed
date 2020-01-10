@@ -1037,6 +1037,9 @@ return
 div
 (
 {
+key
+:
+summaryLabel
 className
 :
 "
@@ -1889,6 +1892,13 @@ summaryStatus
 div
 (
 {
+key
+:
+"
+headers
+-
+summary
+"
 className
 :
 "
@@ -2023,6 +2033,13 @@ trackingProtectionStatus
 div
 (
 {
+key
+:
+"
+tracking
+-
+protection
+"
 className
 :
 "
