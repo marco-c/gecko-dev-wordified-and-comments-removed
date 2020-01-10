@@ -501,7 +501,7 @@ statusText
 null
 timeout
 :
-null
+300
 charset
 :
 "
