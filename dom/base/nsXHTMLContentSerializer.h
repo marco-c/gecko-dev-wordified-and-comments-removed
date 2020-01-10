@@ -86,6 +86,9 @@ aRewriteEncodingDeclaration
 bool
 *
 aNeedsPreformatScanning
+nsAString
+&
+aOutput
 )
 override
 ;
@@ -99,9 +102,6 @@ int32_t
 aStartOffset
 int32_t
 aEndOffset
-nsAString
-&
-aStr
 )
 override
 ;
@@ -117,9 +117,6 @@ dom
 Document
 *
 aDocument
-nsAString
-&
-aStr
 )
 override
 ;

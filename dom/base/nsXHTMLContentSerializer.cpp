@@ -278,6 +278,9 @@ aRewriteEncodingDeclaration
 bool
 *
 aNeedsPreformatScanning
+nsAString
+&
+aOutput
 )
 {
 if
@@ -316,6 +319,7 @@ aEncoding
 aIsCopying
 aRewriteEncodingDeclaration
 aNeedsPreformatScanning
+aOutput
 )
 ;
 NS_ENSURE_SUCCESS
@@ -489,14 +493,16 @@ int32_t
 aStartOffset
 int32_t
 aEndOffset
-nsAString
-&
-aStr
 )
 {
 NS_ENSURE_ARG
 (
 aText
+)
+;
+NS_ENSURE_STATE
+(
+mOutput
 )
 ;
 nsAutoString
@@ -543,7 +549,8 @@ NS_ENSURE_TRUE
 AppendToStringConvertLF
 (
 data
-aStr
+*
+mOutput
 )
 NS_ERROR_OUT_OF_MEMORY
 )
@@ -560,7 +567,8 @@ NS_ENSURE_TRUE
 AppendToStringFormatedWrapped
 (
 data
-aStr
+*
+mOutput
 )
 NS_ERROR_OUT_OF_MEMORY
 )
@@ -577,7 +585,8 @@ NS_ENSURE_TRUE
 AppendToStringWrapped
 (
 data
-aStr
+*
+mOutput
 )
 NS_ERROR_OUT_OF_MEMORY
 )
@@ -609,7 +618,8 @@ result
 AppendToStringWrapped
 (
 data
-aStr
+*
+mOutput
 )
 ;
 mDoWrap
@@ -630,7 +640,8 @@ NS_ENSURE_TRUE
 AppendToStringConvertLF
 (
 data
-aStr
+*
+mOutput
 )
 NS_ERROR_OUT_OF_MEMORY
 )
@@ -1767,9 +1778,6 @@ AppendDocumentStart
 Document
 *
 aDocument
-nsAString
-&
-aStr
 )
 {
 if
@@ -1777,6 +1785,7 @@ if
 !
 mBodyOnly
 )
+{
 return
 nsXMLContentSerializer
 :
@@ -1784,9 +1793,9 @@ nsXMLContentSerializer
 AppendDocumentStart
 (
 aDocument
-aStr
 )
 ;
+}
 return
 NS_OK
 ;
