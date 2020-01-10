@@ -1208,6 +1208,9 @@ win
 import
 mozinstall
             
+try
+:
+                
 binary
 =
 mozinstall
@@ -1219,6 +1222,14 @@ path
 firefox
 "
 )
+            
+except
+mozinstall
+.
+InvalidBinary
+:
+                
+pass
         
 elif
 self
