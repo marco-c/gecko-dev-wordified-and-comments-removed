@@ -5574,6 +5574,17 @@ extensions
 GL_KHR_blend_equation_advanced
 "
 )
+&
+&
+!
+renderer_name
+.
+starts_with
+(
+"
+Adreno
+"
+)
 ;
 let
 optimal_pbo_stride
