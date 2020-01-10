@@ -654,6 +654,15 @@ GetShowInfo
 (
 )
 ;
+already_AddRefed
+<
+nsIPrincipal
+>
+GetContentPrincipal
+(
+)
+const
+;
 bool
 IsDestroyed
 (
