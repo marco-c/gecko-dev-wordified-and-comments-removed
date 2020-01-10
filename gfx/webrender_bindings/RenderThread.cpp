@@ -4770,7 +4770,7 @@ UseWebRenderProgramBinaryDisk
 )
 )
 {
-wr_try_load_shader_from_disk
+wr_try_load_startup_shaders_from_disk
 (
 mProgramCache
 )
