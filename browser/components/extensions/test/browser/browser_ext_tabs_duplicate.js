@@ -906,7 +906,7 @@ browser
 .
 test
 .
-assertTrue
+assertFalse
 (
 tab
 .
