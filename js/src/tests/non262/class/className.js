@@ -916,7 +916,7 @@ testName
 Anon
 "
 "
-false
+true
 false
 false
 )
@@ -937,7 +937,7 @@ testName
 AnonDefault
 "
 "
-false
+true
 false
 false
 )
@@ -1084,7 +1084,7 @@ testName
 ExtendedAnon1
 "
 "
-false
+true
 false
 false
 )
@@ -1107,7 +1107,7 @@ testName
 ExtendedAnonDefault
 "
 "
-false
+true
 false
 false
 )
