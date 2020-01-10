@@ -2859,9 +2859,7 @@ resolve
 {
 toolbox
 .
-win
-.
-parent
+topWindow
 .
 addEventListener
 (
@@ -2894,9 +2892,7 @@ title
 {
 toolbox
 .
-win
-.
-parent
+topWindow
 .
 removeEventListener
 (
