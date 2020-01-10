@@ -214,6 +214,14 @@ projects
 trunk
 -
 try
+fetches
+:
+fetch
+:
+-
+clang
+-
+8
 linux64
 -
 clang
