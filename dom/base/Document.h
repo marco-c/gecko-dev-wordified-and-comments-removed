@@ -11138,7 +11138,7 @@ nsString
 aResourceIds
 )
 ;
-void
+bool
 ParseWidthAndHeightInMetaViewport
 (
 const
@@ -11164,7 +11164,7 @@ nsAtom
 aHeaderField
 )
 ;
-void
+bool
 ParseScalesInMetaViewport
 (
 )
@@ -13596,7 +13596,7 @@ uint8_t
 DisplayWidthHeight
 Specified
 Unknown
-Empty
+NoValidContent
 }
 ;
 ViewportType
