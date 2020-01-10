@@ -12901,6 +12901,12 @@ service
 RefreshAgentsVolume
 (
 this
+GetAudioVolume
+(
+)
+GetAudioMuted
+(
+)
 )
 ;
 }
