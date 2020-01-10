@@ -139,8 +139,6 @@ findWithName
 (
 DOMString
 name
-BrowsingContext
-accessor
 )
 ;
 readonly
