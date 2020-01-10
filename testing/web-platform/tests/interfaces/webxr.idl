@@ -882,14 +882,6 @@ XRWebGLLayer
 /
 /
 Attributes
-[
-SameObject
-]
-readonly
-attribute
-XRWebGLRenderingContext
-context
-;
 readonly
 attribute
 boolean
