@@ -424,8 +424,6 @@ collections
 /
 search
 -
-engine
--
-configuration
+config
 /
 records
