@@ -160,6 +160,12 @@ python
 .
 yml
 -
+shadow
+-
+scheduler
+.
+yml
+-
 webidl
 .
 yml
