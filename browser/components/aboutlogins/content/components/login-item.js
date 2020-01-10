@@ -2442,7 +2442,7 @@ if
 (
 event
 .
-originalTarget
+target
 .
 dataset
 .
