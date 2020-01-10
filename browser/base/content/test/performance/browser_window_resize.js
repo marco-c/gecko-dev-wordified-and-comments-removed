@@ -99,14 +99,9 @@ resize
 "
 )
 ;
-let
-dwu
-=
 win
 .
 windowUtils
-;
-dwu
 .
 ensureDirtyRootFrame
 (
@@ -122,11 +117,6 @@ height
 ;
 await
 resizeEvent
-;
-forceImmediateToolbarOverflowHandling
-(
-win
-)
 ;
 await
 toolbarEvent
