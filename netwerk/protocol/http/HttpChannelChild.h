@@ -503,6 +503,13 @@ HttpBackgroundChannelChild
 aBgChild
 )
 ;
+nsresult
+CrossProcessRedirectFinished
+(
+nsresult
+aStatus
+)
+;
 protected
 :
 mozilla

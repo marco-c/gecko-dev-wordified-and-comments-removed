@@ -158,11 +158,6 @@ PromiseDebugging
 .
 cpp
 '
-'
-PromiseNativeHandler
-.
-cpp
-'
 ]
 LOCAL_INCLUDES
 +
