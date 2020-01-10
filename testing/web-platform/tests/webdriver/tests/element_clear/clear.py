@@ -1959,13 +1959,16 @@ property
 innerHTML
 "
 )
-=
-=
+in
+[
+"
+"
 "
 <
 br
 >
 "
+]
     
 assert_element_has_focus
 (
