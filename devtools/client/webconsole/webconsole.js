@@ -163,9 +163,6 @@ chromeWindow
 isBrowserConsole
 =
 false
-fissionSupport
-=
-false
 )
 {
 this
@@ -213,12 +210,6 @@ this
 isBrowserConsole
 =
 isBrowserConsole
-;
-this
-.
-fissionSupport
-=
-fissionSupport
 ;
 const
 element
