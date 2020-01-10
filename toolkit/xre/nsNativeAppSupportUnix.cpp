@@ -1467,14 +1467,6 @@ status
 =
 false
 ;
-if
-(
-save_style
-!
-=
-SmSaveGlobal
-)
-{
 nsCOMPtr
 <
 nsISupportsPRBool
@@ -1532,7 +1524,6 @@ GetData
 status
 )
 ;
-}
 if
 (
 !
