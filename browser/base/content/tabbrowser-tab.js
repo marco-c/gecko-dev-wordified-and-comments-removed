@@ -136,6 +136,12 @@ mCorrespondingMenuitem
 =
 null
 ;
+this
+.
+closing
+=
+false
+;
 }
 static
 get
