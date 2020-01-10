@@ -2318,7 +2318,7 @@ webconsole
 .
 groupWarningMessages
 "
-false
+true
 )
 ;
 pref
