@@ -49,9 +49,6 @@ class
 HTMLEditor
 ;
 class
-HTMLEditRules
-;
-class
 WSType
 {
 public
@@ -1754,10 +1751,6 @@ mEndOffset
 HTMLEditor
 *
 mHTMLEditor
-;
-friend
-class
-HTMLEditRules
 ;
 friend
 class

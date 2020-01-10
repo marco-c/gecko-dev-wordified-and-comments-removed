@@ -88,9 +88,6 @@ nsINode
 namespace
 mozilla
 {
-class
-HTMLEditRules
-;
 namespace
 dom
 {
@@ -799,10 +796,6 @@ mLastSelectionPoint
 ;
 int32_t
 mRelativeFontSize
-;
-friend
-class
-HTMLEditRules
 ;
 }
 ;

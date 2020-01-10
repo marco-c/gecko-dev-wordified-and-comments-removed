@@ -1326,13 +1326,6 @@ Document
 aSourceDoc
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-virtual
-nsresult
-InitRules
-(
-)
-;
 already_AddRefed
 <
 nsIDocumentEncoder
@@ -1544,10 +1537,6 @@ EditorBase
 friend
 class
 InsertNodeTransaction
-;
-friend
-class
-TextEditRules
 ;
 }
 ;

@@ -6460,14 +6460,6 @@ mDoDeleteSelection
 ;
 }
 ;
-MOZ_CAN_RUN_SCRIPT
-virtual
-nsresult
-InitRules
-(
-)
-override
-;
 virtual
 void
 CreateEventListeners
@@ -8407,10 +8399,6 @@ EditorBase
 friend
 class
 EmptyEditableFunctor
-;
-friend
-class
-HTMLEditRules
 ;
 friend
 class

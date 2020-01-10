@@ -214,15 +214,6 @@ h
 #
 include
 "
-mozilla
-/
-TextEditRules
-.
-h
-"
-#
-include
-"
 nsAString
 .
 h
@@ -607,7 +598,7 @@ if
 NS_WARN_IF
 (
 !
-mRules
+mInitSucceeded
 )
 )
 {
@@ -1122,7 +1113,7 @@ if
 NS_WARN_IF
 (
 !
-mRules
+mInitSucceeded
 )
 )
 {

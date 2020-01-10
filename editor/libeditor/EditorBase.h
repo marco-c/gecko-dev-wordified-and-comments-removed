@@ -434,9 +434,6 @@ class
 TextEditor
 ;
 class
-TextEditRules
-;
-class
 TextInputListener
 ;
 class
@@ -6542,12 +6539,6 @@ mComposition
 ;
 RefPtr
 <
-TextEditRules
->
-mRules
-;
-RefPtr
-<
 TextInputListener
 >
 mTextInputListener
@@ -6675,10 +6666,6 @@ DeleteTextTransaction
 ;
 friend
 class
-HTMLEditRules
-;
-friend
-class
 HTMLEditUtils
 ;
 friend
@@ -6708,10 +6695,6 @@ ParagraphStateAtSelection
 friend
 class
 SplitNodeTransaction
-;
-friend
-class
-TextEditRules
 ;
 friend
 class

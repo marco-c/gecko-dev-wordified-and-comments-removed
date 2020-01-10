@@ -207,11 +207,6 @@ TextEditor
 h
 '
 '
-TextEditRules
-.
-h
-'
-'
 TypeInState
 .
 h
@@ -342,7 +337,7 @@ HTMLEditorObjectResizer
 cpp
 '
 '
-HTMLEditRules
+HTMLEditSubActionHandler
 .
 cpp
 '
@@ -412,7 +407,7 @@ TextEditorDataTransfer
 cpp
 '
 '
-TextEditRules
+TextEditSubActionHandler
 .
 cpp
 '

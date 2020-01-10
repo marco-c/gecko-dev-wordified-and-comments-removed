@@ -98,13 +98,6 @@ h
 #
 include
 "
-HTMLEditRules
-.
-h
-"
-#
-include
-"
 InsertNodeTransaction
 .
 h
