@@ -117,6 +117,9 @@ GN
 gn
 >
 telemetry
+sccache
+-
+dist
 test_certificates
 integrated
 development
