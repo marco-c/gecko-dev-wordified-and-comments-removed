@@ -916,15 +916,6 @@ SetHasOutOfFlowContentInsideFilter
 ;
 virtual
 bool
-UsesContainerScrolling
-(
-)
-const
-=
-0
-;
-virtual
-bool
 DecideScrollableLayer
 (
 nsDisplayListBuilder

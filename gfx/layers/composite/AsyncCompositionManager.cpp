@@ -4955,16 +4955,6 @@ false
 ;
 #
 endif
-if
-(
-!
-scrollMetadata
-.
-UsesContainerScrolling
-(
-)
-)
-{
 MOZ_ASSERT
 (
 asyncTransform
@@ -5017,7 +5007,6 @@ clipParts
 mScrolledClip
 )
 ;
-}
 }
 combinedAsyncTransform
 *
