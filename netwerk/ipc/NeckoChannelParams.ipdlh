@@ -1821,7 +1821,8 @@ URIParams
 ?
 topWindowURI
 ;
-OptionalPrincipalInfo
+nsIPrincipal
+?
 contentBlockingAllowListPrincipal
 ;
 uint32_t
