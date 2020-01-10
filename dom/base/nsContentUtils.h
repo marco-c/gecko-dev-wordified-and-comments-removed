@@ -4166,6 +4166,15 @@ aPrincipal
 )
 ;
 static
+bool
+MaybeAllowOfflineAppByDefault
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
 void
 AddScriptBlocker
 (

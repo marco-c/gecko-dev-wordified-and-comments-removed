@@ -2252,6 +2252,9 @@ OfflineAppPermForPrincipal
 nsIPrincipal
 *
 aPrincipal
+nsIPrefBranch
+*
+aPrefBranch
 bool
 pinned
 bool
@@ -2511,6 +2514,9 @@ OfflineAppAllowed
 nsIPrincipal
 *
 aPrincipal
+nsIPrefBranch
+*
+aPrefBranch
 bool
 *
 aAllowed
@@ -2520,6 +2526,7 @@ return
 OfflineAppPermForPrincipal
 (
 aPrincipal
+aPrefBranch
 false
 aAllowed
 )
@@ -2534,6 +2541,9 @@ OfflineAppAllowedForURI
 nsIURI
 *
 aURI
+nsIPrefBranch
+*
+aPrefBranch
 bool
 *
 aAllowed
@@ -2561,6 +2571,7 @@ return
 OfflineAppPermForPrincipal
 (
 principal
+aPrefBranch
 false
 aAllowed
 )
@@ -2575,6 +2586,9 @@ OfflineAppPinnedForURI
 nsIURI
 *
 aDocumentURI
+nsIPrefBranch
+*
+aPrefBranch
 bool
 *
 aPinned
@@ -2602,6 +2616,7 @@ return
 OfflineAppPermForPrincipal
 (
 principal
+aPrefBranch
 true
 aPinned
 )
