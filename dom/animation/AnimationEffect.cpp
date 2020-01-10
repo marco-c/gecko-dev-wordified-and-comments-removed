@@ -996,7 +996,10 @@ result
 mIterations
 >
 =
+double
+(
 UINT64_MAX
+)
 &
 &
 result
@@ -1017,7 +1020,10 @@ After
 overallProgress
 >
 =
+double
+(
 UINT64_MAX
+)
 ?
 UINT64_MAX
 :
