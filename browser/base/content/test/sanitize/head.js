@@ -297,7 +297,7 @@ now
 originAttributes
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -348,7 +348,7 @@ now
 originAttributes
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )

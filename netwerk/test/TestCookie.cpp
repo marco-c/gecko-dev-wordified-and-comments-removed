@@ -38,7 +38,7 @@ h
 #
 include
 "
-nsICookie2
+nsICookie
 .
 h
 "
@@ -7886,7 +7886,7 @@ true
 INT64_MAX
 &
 attrs
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -7942,7 +7942,7 @@ PR_USEC_PER_SEC
 2
 &
 attrs
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -7992,7 +7992,7 @@ true
 INT64_MAX
 &
 attrs
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -8033,7 +8033,7 @@ more
 ;
 nsCOMPtr
 <
-nsICookie2
+nsICookie
 >
 expiredCookie
 newDomainCookie
@@ -8086,7 +8086,7 @@ i
 ;
 nsCOMPtr
 <
-nsICookie2
+nsICookie
 >
 cookie2
 (
@@ -8427,7 +8427,7 @@ true
 INT64_MIN
 &
 attrs
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -9356,7 +9356,7 @@ i
 ;
 nsCOMPtr
 <
-nsICookie2
+nsICookie
 >
 cookie2
 (
@@ -9413,7 +9413,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -9438,7 +9438,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -9463,7 +9463,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -9488,7 +9488,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -9513,7 +9513,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_STRICT
@@ -9538,7 +9538,7 @@ EXPECT_TRUE
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_LAX

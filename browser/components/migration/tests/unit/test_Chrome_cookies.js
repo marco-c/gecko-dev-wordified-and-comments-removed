@@ -268,7 +268,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 for

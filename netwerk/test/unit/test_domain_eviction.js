@@ -385,7 +385,7 @@ shortExpiry
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -445,7 +445,7 @@ futureExpiry
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -558,7 +558,7 @@ aExpiry
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )

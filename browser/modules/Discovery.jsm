@@ -608,7 +608,7 @@ now
 originAttributes
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_LAX
 )

@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsICookie2
+nsICookie
 .
 h
 "
@@ -321,7 +321,7 @@ aURI
 nsIChannel
 *
 aChannel
-nsICookie2
+nsICookie
 *
 aCookie
 bool

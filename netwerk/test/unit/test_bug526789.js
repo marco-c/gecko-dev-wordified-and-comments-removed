@@ -112,7 +112,7 @@ expiry
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -382,7 +382,7 @@ expiry
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -583,7 +583,7 @@ expiry
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -712,7 +712,7 @@ expiry
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -819,7 +819,7 @@ expiry
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -1148,7 +1148,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 .
 name
@@ -1640,7 +1640,7 @@ expiry
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -1685,7 +1685,7 @@ expiry
 }
 Ci
 .
-nsICookie2
+nsICookie
 .
 SAMESITE_NONE
 )
@@ -2040,7 +2040,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 .
 host
@@ -2109,7 +2109,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 .
 host

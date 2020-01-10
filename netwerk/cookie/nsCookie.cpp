@@ -277,7 +277,7 @@ sameSite
 (
 )
 >
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_STRICT
@@ -292,7 +292,7 @@ sameSite
 (
 )
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_STRICT
@@ -781,6 +781,5 @@ NS_OK
 NS_IMPL_ISUPPORTS
 (
 nsCookie
-nsICookie2
 nsICookie
 )

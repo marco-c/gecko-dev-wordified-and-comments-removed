@@ -2402,7 +2402,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 if
@@ -2556,7 +2556,7 @@ queryElementAt
 i
 Ci
 .
-nsICookie2
+nsICookie
 )
 ;
 if

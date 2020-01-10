@@ -10646,7 +10646,7 @@ nsCookieService
 :
 CreatePurgeList
 (
-nsICookie2
+nsICookie
 *
 aCookie
 )
@@ -10688,7 +10688,7 @@ nsIArray
 *
 *
 aPurgedList
-nsICookie2
+nsICookie
 *
 aCookie
 )
@@ -11363,7 +11363,7 @@ aEnumerator
 cookieList
 NS_GET_IID
 (
-nsICookie2
+nsICookie
 )
 )
 ;
@@ -11526,7 +11526,7 @@ aEnumerator
 cookieList
 NS_GET_IID
 (
-nsICookie2
+nsICookie
 )
 )
 ;
@@ -13598,7 +13598,7 @@ isHttpOnly
 key
 .
 mOriginAttributes
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -14380,7 +14380,7 @@ if
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_STRICT
@@ -14394,7 +14394,7 @@ if
 sameSiteAttr
 =
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_LAX
@@ -15497,7 +15497,7 @@ sameSite
 )
 !
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -15818,7 +15818,7 @@ aHostURI
 aChannel
 static_cast
 <
-nsICookie2
+nsICookie
 *
 >
 (
@@ -17339,7 +17339,7 @@ sameSite
 (
 )
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_NONE
@@ -17580,7 +17580,7 @@ sameSite
 (
 )
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_LAX
@@ -17603,7 +17603,7 @@ sameSite
 (
 )
 =
-nsICookie2
+nsICookie
 :
 :
 SAMESITE_STRICT
@@ -21032,7 +21032,7 @@ aEnumerator
 cookieList
 NS_GET_IID
 (
-nsICookie2
+nsICookie
 )
 )
 ;
@@ -21356,7 +21356,7 @@ aEnumerator
 cookies
 NS_GET_IID
 (
-nsICookie2
+nsICookie
 )
 )
 ;

@@ -134,7 +134,7 @@ interface
 nsISimpleEnumerator
 ;
 interface
-nsICookie2
+nsICookie
 ;
 interface
 nsIFile
@@ -1286,7 +1286,7 @@ return
 an
 nsISimpleEnumerator
 of
-nsICookie2
+nsICookie
 objects
 .
 *

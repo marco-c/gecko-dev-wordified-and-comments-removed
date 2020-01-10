@@ -64,7 +64,7 @@ nsISupports
 idl
 "
 interface
-nsICookie2
+nsICookie
 ;
 interface
 nsIURI
@@ -522,7 +522,7 @@ in
 nsIChannel
 aChannel
 in
-nsICookie2
+nsICookie
 aCookie
 inout
 boolean

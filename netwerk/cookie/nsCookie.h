@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsICookie2
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -65,7 +58,7 @@ nsCookie
 final
 :
 public
-nsICookie2
+nsICookie
 {
 MOZ_DEFINE_MALLOC_SIZE_OF
 (
@@ -75,7 +68,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSICOOKIE
-NS_DECL_NSICOOKIE2
 private
 :
 nsCookie

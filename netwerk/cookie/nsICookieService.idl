@@ -378,7 +378,7 @@ the
 subject
 is
 an
-nsICookie2
+nsICookie
 representing
 *
 the
@@ -399,7 +399,7 @@ the
 subject
 is
 an
-nsICookie2
+nsICookie
 representing
 *
 the
@@ -420,7 +420,7 @@ the
 subject
 is
 an
-nsICookie2
+nsICookie
 representing
 *
 the
@@ -487,7 +487,7 @@ is
 an
 nsIArray
 of
-nsICookie2
+nsICookie
 '
 s
 representing

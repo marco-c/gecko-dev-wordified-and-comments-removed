@@ -111,7 +111,7 @@ h
 #
 include
 "
-nsICookie2
+nsICookie
 .
 h
 "
@@ -758,7 +758,7 @@ public
 MOZ_IMPLICIT
 CookieInfo
 (
-nsICookie2
+nsICookie
 *
 aCookie
 )
@@ -801,7 +801,7 @@ private
 :
 nsCOMPtr
 <
-nsICookie2
+nsICookie
 >
 mCookie
 ;
