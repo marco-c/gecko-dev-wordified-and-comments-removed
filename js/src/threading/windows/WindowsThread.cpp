@@ -215,6 +215,14 @@ void
 aArg
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+joinable
+(
+)
+)
+;
 uintptr_t
 handle
 =
