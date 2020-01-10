@@ -388,6 +388,13 @@ if
 (
 COMPILE_ENVIRONMENT
 )
+(
+if
+(
+MOZ_RUST_TIER
+)
+rust
+)
 compile
 )
 misc
