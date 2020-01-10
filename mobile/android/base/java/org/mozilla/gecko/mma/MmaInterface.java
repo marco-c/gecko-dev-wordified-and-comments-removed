@@ -126,13 +126,6 @@ stop
 (
 )
 ;
-void
-setToken
-(
-String
-token
-)
-;
 CheckResult
 boolean
 handleGcmMessage

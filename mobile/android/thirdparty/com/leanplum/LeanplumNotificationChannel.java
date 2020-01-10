@@ -2570,7 +2570,6 @@ name
 ;
 }
 }
-public
 static
 void
 configureChannels
