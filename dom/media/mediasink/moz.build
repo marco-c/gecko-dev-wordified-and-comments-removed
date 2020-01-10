@@ -105,11 +105,6 @@ DecodedStream
 cpp
 '
 '
-OutputStreamManager
-.
-cpp
-'
-'
 VideoSink
 .
 cpp
