@@ -1168,6 +1168,9 @@ context
 :
 &
 ParserContext
+cors_mode
+:
+CorsMode
 )
 -
 >
@@ -1182,10 +1185,7 @@ parse_from_string
 (
 url
 context
-CorsMode
-:
-:
-None
+cors_mode
 )
 )
 }
